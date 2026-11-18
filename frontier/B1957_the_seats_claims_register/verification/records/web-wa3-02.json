@@ -1,18 +1,16 @@
 {
  "id": "web-wa3-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1955 (main's own recomputation of this note, verification/wa3_on_main.py and class_is_a_choice.py), parts A to C: the figure-eight's group maps onto a dihedral group of order 2p only at p = 5 among the odd primes to 31, and not onto order 50; on the five sheets the longitude is trivial and the meridian a reflection fixing one sheet, so the cusp has three preimages of degrees 1, 2, 2; the 5-sheeted cover of m004 has no deck transformation, and over the double cover the five shifts are the deck group; the homology is Z for m004, Z + Z/5 for the double cover, Z^3 with no torsion for the 5-sheeted cover (the complement of the link 8^3_4 by SnapPy)",
- "note": "The 10-sheeted regular cover's Z^5 and the fibre character's u = 2 omega(v, .) are the seat's and its referee's; main's arc states the same structure in its own words and did not recompute those two figures.",
+ "note": "The 10-sheeted regular cover's Z^5 and the fibre character's u = 2 omega(v, .) are the seat's and its referee's; main's arc states the same structure in its own words and did not recompute those two figures. [2026-11-18, after the seat's section 7.2, item 4: 2 statements moved to web-wa3-02p, PARTIAL: a figure in them was not recomputed on main]",
  "units": [
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:26",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:27",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:28",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:29",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:33",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:49",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:50",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:52",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:165",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:167"
  ]

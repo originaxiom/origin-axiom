@@ -1,6 +1,6 @@
 {
  "id": "physical-seal-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "checks/physical_seal_ledger.py: every other row of this file was on the lane's branch before the window, unchanged: between the window's base and the lane's head the file differs by ten inserted lines and no removal, and the base's 9,411 lines are the head's first 9,411. The file is a generated view (one row per sealed document, made by scripts/seal_ledger.py) which the lane's branch carries from its old copy of main; these rows are not the lane's claims and not this window's work. They are in the register only because the register takes every statement of every file a lane changed",
  "note": "FOUND ABOUT THE REGISTER: 7,645 of the physical lane's 10,952 registered statements are these rows. The lane's own material in the window is about 3,300 statements in 135 files. Counts reported before this date overstated that lane's share.",

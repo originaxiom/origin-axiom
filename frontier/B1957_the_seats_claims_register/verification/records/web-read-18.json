@@ -1,0 +1,12 @@
+{
+ "id": "web-read-18",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F10_THE_FOUNDATIONS_LEDGER.md",
+  "relays/cards/CHAT1_W-F10_the_foundations_ledger.md",
+  "relays/cards/CHAT1_W-F9_the_order_at_the_scar.md"
+ ]
+}

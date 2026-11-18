@@ -10978,6 +10978,7 @@
     "B14",
     "B16",
     "B19",
+    "B3",
     "B466",
     "B469",
     "B749",
@@ -14239,6 +14240,7 @@
    "motifs": [
     "coupling",
     "z3_generation",
+    "torsion",
     "wrt_quantum"
    ],
    "refs": [
@@ -14247,7 +14249,7 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
   },
   "B1786": {
    "slug": "the slope principle out of sample",
@@ -15997,9 +15999,14 @@
    "motifs": [
     "closing",
     "coupling",
+    "trace_map",
     "golden"
    ],
-   "refs": [],
+   "refs": [
+    "H2",
+    "H4",
+    "H5"
+   ],
    "obstacle": "observable",
    "obstacle_conf": 2,
    "status": "banked",
@@ -17667,21 +17674,25 @@
     "closing",
     "choice",
     "coupling",
+    "action",
     "figure_eight",
     "trace_map",
     "kappa",
+    "metallic",
     "eisenstein",
     "golden",
+    "amphichiral_cp",
     "torsion"
    ],
    "refs": [
+    "B1",
     "B2",
     "H1",
     "H2",
     "L1"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 10,
+   "obstacle_conf": 11,
    "status": "dormant",
    "domain": "arithmetic"
   },

@@ -56,6 +56,14 @@ line-sectors) and the 16 line-sectors where a theta constant vanishes exactly.
 - **Agreement within 0.05:** m₂/m₃ 3 334 of 3 808 (87.6%); m₁/m₃ 3 676 of 3 808 (96.5%).
 - **Failures:** 474 m₂/m₃ cases in 32 (slope, sector, reading) classes, most of them below the closed form.
 
+> *Noted 2026-11-18 (register row P-444; `verification/p444_window_fits.py`, with seven more lines run on this arc's
+> 40-digit instrument, `highprec/high_p444.jsonl`). B1785's window holds 585 fits whose three-point line has a residual
+> above 0.07. In this comparison (L_max, the domain) they are 25 of the m₂/m₃ cases and 96 of the m₁/m₃ cases. With
+> them left out the agreement is 3 326 of 3 783 (87.9%) and 3 630 of 3 712 (97.8%). So they explain 17 of the 474
+> m₂/m₃ failures and 50 of the 132 m₁/m₃ failures, and the comparison stands. On the seven lines run at height (the
+> worst residuals among the bad fits that differ from the closed form) every local exponent approaches the closed
+> form, as on the seven lines below.*
+
 **At height, in double precision** (`high.py`). This covered 24 of the 32 failing classes, each on its b = 0 line
 only, at Im τ 10–14. Their residuals of −0.014 to −0.015 all have the same sign: a polynomial prefactor's bias. So this run
 is consistent with the form but **does not confirm it by itself**. The four classes with closed value ½ fall below

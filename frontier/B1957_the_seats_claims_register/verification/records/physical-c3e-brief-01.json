@@ -1,0 +1,20 @@
+{
+ "id": "physical-c3e-brief-01",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the lane's review duties, addressed to main and the SM lane. WHAT MAIN HAS NOW DONE OF THEM (B1957, checks/physical_c3e_roster.py, physical_c3e_two_steps.py, physical_c3e_indicial.py): the reflection's action on the odd-spin modules and the opposite and equal signs at j = 1 and 3 (the reflection's part); the cross module's exterior sign; the extreme spin-3 matrix element in the spinor; the one-half in the curvature moment; the sign and factor of d mu(I k psi) = -2 k^dagger k psi and the exact slope -2 e_Q, in a model; the indicial exponents of every angular branch; that the two neutral modes sit in commuting factors and the D5 response has no kernel from a centraliser; the 248 roster, the characteristic relation, the eighth-power coefficient and the fourth-power cancellation; the summand counts 68 and 100 and the ranks 180 and 148; the first charged mass matrix. WHAT MAIN HAS NOT DONE: the second generator's action D; the strict compact degrees and pole allowances; the densities; the polarised signs of the cubic's coefficient; the complete L2 inverse, the weighted tail decay and the uniform Hoelder estimates; analyticity of the moment map in those spaces; the global transition laws. Those need the lane's operator rebuilt from its earlier packages, which main has not read yet, or analysis that a computation cannot supply",
+ "note": "The brief asks for an independent review. Main's part of it is a partial one, and is stated as partial.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:3",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:9",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:15",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:23",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:28",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:37",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:46",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:52",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:59",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:66",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF:74"
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "id": "web-wh1-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the four gaps are true and the four asks are answered at this landing. (1) docs/RELAY_LEDGER.md gains a row for each of the 116 relays: 14 BANKED in B1957 (read in full and settled statement by statement), 102 OPEN, each with the harvest row that names it or the statement that no harvest row names the file; the instrument's strict mode now passes. (2) The physical lane's harmonic-transport relay of 2026-11-12 has its row among them. (3) The two reading branches are not added to the instrument, by decision, with a dated note there saying why (they are main's own reading copies; the resolver takes a branch's last path segment, and both end in 'read'). (4) A dated note there says where the hostile-review seat's debt is counted (main's own runs reach its remote)",
  "note": "The 102 OPEN rows are debts with their ages; among them the builder's 28 patch-series notes, which no harvest row names by file. Rowing them makes them visible; it does not read them.",

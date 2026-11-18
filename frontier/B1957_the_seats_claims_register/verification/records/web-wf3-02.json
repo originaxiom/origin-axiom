@@ -1,0 +1,27 @@
+{
+ "id": "web-wf3-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "how the card was run (the sealed run met two of three expectations; the post hoc was committed before its run); how k is defined (the cone order on the torus fibre, so the sphere's orders 4 to 12; odd sphere orders not computed); what this does to the table of opposites (with a chiral count required, these cone points are dead and the puncture is strengthened on that condition; without it, a choice); what was not computed; its files",
+ "note": "A LEAD: the puncture is forced by asking for any sector module at all, for the fibre orders computed. The odd sphere orders are the gap.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:7",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:8",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:9",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:10",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:15",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:17",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:19",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:22",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:23",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:47",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:49",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:52",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:53",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:64",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:65",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:66",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:81",
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:84"
+ ]
+}

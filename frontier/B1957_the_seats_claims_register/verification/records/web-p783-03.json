@@ -1,6 +1,6 @@
 {
  "id": "web-p783-03",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_p783_spectrum.py (B1912's own Hejhal routine, main's code, at B1912's two heights and a third) P5: no exceptional eigenvalue. With the Bessel function of real order t, for t from 0.01 to 0.49 in steps of 0.01, the least scaled singular value never falls below 0.67 in any of the four classes at either height. This is the range B1912 said it could not see; t below 0.01 and above 0.49, and R below 0.02, remain unscanned by both",
  "note": "",

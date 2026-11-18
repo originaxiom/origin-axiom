@@ -1,0 +1,12 @@
+{
+ "id": "web-wc2-02p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "split from web-wc2-02 on the seat's own finding (its status page, section 7.2, item 4): 285, 228, 124 and the split are main's under one convention; the 745 without the condition and the other three conventions were not rerun",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:18",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:71",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:80"
+ ]
+}

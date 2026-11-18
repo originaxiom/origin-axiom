@@ -1,0 +1,15 @@
+{
+ "id": "web-read-20",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-F15_THE_PRINCIPLE_DOING_ITS_JOB.md",
+  "relays/cards/CHAT1_W-F13_p847_a_criterion_for_the_higgs_reading.md",
+  "relays/cards/CHAT1_W-F14_m25_the_global_bit.md",
+  "relays/cards/CHAT1_W-F15_the_principle_doing_its_job.md"
+ ]
+}

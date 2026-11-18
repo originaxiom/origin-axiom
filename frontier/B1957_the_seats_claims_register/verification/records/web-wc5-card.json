@@ -1,0 +1,24 @@
+{
+ "id": "web-wc5-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-C5 (the question in three parts, what will be delivered, how it is done, the definitions as the seat's reading of main's message). Borne out by the relay",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:3",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:8",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:12",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:15",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:21",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:26",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:29",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:32",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:36",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:38",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:39",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:44",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:45",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:46",
+  "web:cards/CHAT1_W-C5_b1914_b1915_and_the_cusp:50"
+ ]
+}

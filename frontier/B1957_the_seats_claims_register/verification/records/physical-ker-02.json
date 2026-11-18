@@ -1,0 +1,11 @@
+{
+ "id": "physical-ker-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R2: the reflection's part is verified (with the flavour matrix i sigma_x, A is i^(1-j) sigma_x at weight +j and i^(1+j) sigma_x at -j; a vector's highest weight goes to the other five-space with phase i and the cross module's highest element e ^ e' has phase +1, by the explicit action on the exterior square). NOT derived by main: the second generator's action, D = beta_j on the odd-spin modules and D = 1 on the cross module, which needs the lane's definition of G(Fk)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:42",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:81"
+ ]
+}

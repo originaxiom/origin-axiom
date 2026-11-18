@@ -1,0 +1,27 @@
+{
+ "id": "web-wc1-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-C1 (the package and the question; what will be delivered and what done means; how it could come out wrong; what it rests on and must not touch). Borne out by the relay",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:3",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:8",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:9",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:11",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:14",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:18",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:20",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:24",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:26",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:28",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:32",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:34",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:36",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:37",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:42",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:43",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:48",
+  "web:cards/CHAT1_W-C1_reaudit_of_E7_and_E2:50"
+ ]
+}

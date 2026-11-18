@@ -1,0 +1,16 @@
+{
+ "id": "web-wf9-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf9_on_main.py (main's own cohomology with interior classes; primes 300151, 300017 and 300007, not the seat's): every cell of the table. Golden 4, 6, 8 and bronze 2 have 12, 210, 1,892 and 56 record modules; on every one the dual's (h^0, h^1, n) equals that of V(l, l/alpha); I = +1 and I = -1 on 4/4, 36/36, 244/244 and 8/8; I is odd under alpha -> l/alpha; the wrong partner V(l, 1/alpha) exists for 8, 198, 1,848 and 48 modules and differs on 8, 108, 696 and 24. At golden 4, I is +1 on alpha = 1/l, -1 on alpha = l^2 and 0 on the fixed points alpha^2 = l (the referee's lines)",
+ "note": "As the note says, the oddness and the balance follow from the first column, so the independent content is the four counts and the failure of the wrong partner.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:14",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:18",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:19",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:20",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:21",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:23",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:33"
+ ]
+}

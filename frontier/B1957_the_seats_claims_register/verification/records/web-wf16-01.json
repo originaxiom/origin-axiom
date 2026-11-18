@@ -1,0 +1,20 @@
+{
+ "id": "web-wf16-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf16_on_main.py (main's own code; primes 400031, 400009 and 400051): H1, the hand law: for every odd m from 1 to 41, n = 0 to 7, e in {0, 1} and both signs (672 cases) the matrix +-J^n K^e sends the mark (m, 2) mod m^2 + 4 to a multiple of itself, and the hand is (n + e) mod 2. H2, the mirror: each of the 12, 210, 1,892 and 56 record modules at golden 4, 6, 8 and bronze 2, pulled back by phi (a -> tau(a), b -> tau(b), t -> t), is a module with the same index; the plant t -> t^-1 fails the relators. H3, the free bits, by enumerating the orbits on all 64 assignments: 0 with {J, K, D, C}; 1 with {J, K, D}; 0 with {J, K, D o C} and the third relation; 1 with {J, K, D o C} without it",
+ "note": "H3 is arithmetic over F_2 on the bits and symmetries as the note defines them; that the frame has those symmetries is the question, not the count.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:15",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:16",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:17",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:19",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:27",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:28",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:29",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:35",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:36",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:37",
+  "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:38"
+ ]
+}

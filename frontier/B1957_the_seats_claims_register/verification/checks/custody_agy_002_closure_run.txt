@@ -13,7 +13,7 @@ AGY002_CLOSURE_G7_RESULTS.md: 7 commits named, all on the branch: True; in the o
      verify_closure_g7.py: 468 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'numpy', 'pathlib', 'sympy', 'typing']
      referee_closure_g7.py: 1921 lines, 0 float and 0 complex literals, imports ['ast', 'cmath', 'copy', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 're', 'sympy', 'sys']
      referee_closure_g7_fixed.py: 1925 lines, 0 float and 0 complex literals, imports ['ast', 'cmath', 'copy', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 're', 'sympy', 'sys']
-AGY002_CLOSURE_G7B_RESULTS.md: 6 commits named, all on the branch: True; in the order named: 5 of 5 consecutive pairs
+AGY002_CLOSURE_G7B_RESULTS.md: 7 commits named, all on the branch: True; in the order named: 6 of 6 consecutive pairs
      verify_closure_g7b.py: 542 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'cmath', 'collections', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'sympy', 'typing']
      referee_closure_g7b.py: 1403 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'itertools', 'json', 'mpmath', 'numpy', 'pathlib', 're', 'sympy', 'sys', 'typing']
      referee_closure_g7b.py: 1411 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'itertools', 'json', 'mpmath', 'numpy', 'pathlib', 're', 'sympy', 'sys', 'typing']

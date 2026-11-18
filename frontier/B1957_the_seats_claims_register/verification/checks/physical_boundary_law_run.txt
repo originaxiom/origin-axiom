@@ -1,0 +1,12 @@
+W1: SnapPy's 4_1: H_1 = Z; H^1 has rank 1; its generator takes the value 1 on the meridian and 0 on the longitude; so restriction is k -> (k, 0) and Z^2/<(1,0)> = Z
+W2: B* = Phi*p/(p + r); E at B* = Phi**2*p*r/(2*(p + r)); second derivative p + r; B* - Phi = -Phi*r/(p + r); flux over 2 pi at Phi = 2 pi n: n*p/(p + r); relative number (flux - (B* - Phi))/(2 pi) = n
+W3: on the disc, the field equations with the Robin condition (c_H/G) f + kappa eta_s = 0 give circulation 2*pi*G*R*kappa*n/(G*R*kappa + 2*c_H); the reduced formula p Phi/(r + p): difference 0; the energy against r p Phi^2/(2(r + p)): difference 0; with the other sign in the Robin condition the difference is 8*pi*G*R*c_H*kappa*n/(G**2*R**2*kappa**2 - 4*c_H**2)
+W3: the inequality (4) on 200 trial fields that are not uniform: the least value of E minus the bound is 2.197e-03 (never negative)
+W4: the Maxwell equation's general solution C1 + C2*rho**2 (regular at 0: a = B_0 rho^2/R^2); bulk energy 2*pi*B_0**2*L/(G*R**2); boundary energy pi*L*kappa*(B_0 - n)**2/R; B_0* = G*R*kappa*n/(G*R*kappa + 2); E_n = 2*pi*L*kappa*n**2/(R*(G*R*kappa + 2)); the lane's (7): differences 0 and 0
+W5: fixed flux: b* = A_T*Phi/(A_C + A_T); the curvature on the core Phi/(A_C + A_T) and on the tail Phi/(A_C + A_T); the energy Phi**2*c_H/(2*G*(A_C + A_T)) (the cut enters only through A_C + A_T)
+W5: the seam source (8): b* = 2*pi*A_C*A_T*G*n*p/(A_C*A_T*G*p + A_C*c_H + A_T*c_H), which depends on where the cut is (its derivative in A_C at fixed total area is not zero: True); its added curvature on the two sides is -b and +b, total 0, against Phi for the fixed-flux problem
+W5: the retained transition's energy at Phi = 2 pi n: 2*pi**2*c_H*n**2/(G*(A_C + A_T)) (the lane: 2 pi^2 c_H n^2/(G A))
+W6: Riemann-Roch: chi(V(m p)) - chi(V) = m*rk; at rank 3: 3*m
+W7: cut 1/2 + 5/2: energy K/(2 A) = 7/5 (the run: 7/5); circulation over Phi = A_T/A = 5/6, so the run's 5/2 is that times Phi = 3
+W7: cut 1 + 2: energy K/(2 A) = 7/5 (the run: 7/5); circulation over Phi = A_T/A = 2/3, so the run's 2 is that times Phi = 3
+W7: cut 5/2 + 1/2: energy K/(2 A) = 7/5 (the run: 7/5); circulation over Phi = A_T/A = 1/6, so the run's 1/2 is that times Phi = 3

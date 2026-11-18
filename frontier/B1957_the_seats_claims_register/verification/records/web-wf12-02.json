@@ -1,0 +1,21 @@
+{
+ "id": "web-wf12-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "how the card was run; what it means (the class index on doublets is zero at every odd level computed, 51,506 doublets in all, 'still not proved' at the time of this note; the gap's pattern observed, not proved; the ledger's open item stays open with more evidence); the typed table; its files. The proof came in the seat's W-F19 (web-wf19-01, -02)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:7",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:8",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:11",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:35",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:38",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:40",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:44",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:51",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:52",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:53",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:57",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:60"
+ ]
+}

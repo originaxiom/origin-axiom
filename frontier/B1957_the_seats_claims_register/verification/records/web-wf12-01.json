@@ -1,0 +1,18 @@
+{
+ "id": "web-wf12-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf12_on_main.py (main's own cohomology with interior classes; prime 313897, not the seat's): the whole table. Golden levels 3, 5, 7 have |T| = 4, 11, 29; 16, 242, 1,682 characters; 4, 11, 29 extension characters (the trivial one and the fibre-non-trivial ones with value -1 on mu); 64, 2,662 and 48,778 doublets; the class index is zero on every one; n(V) = n(V* w) = 1 on 6, 90 and 756; the gap is +1 and -1 on |T| doublets each, +2 and -2 on |T| - 1 each, and 0 on 50, 2,620 and 48,664",
+ "note": "Main's first run of this had a fault of its own: its test for a class skipped the trivial extension character, giving 48 doublets at level 3 for the seat's 64. Mended, every figure is the seat's.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:17",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:18",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:19",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:21",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:23",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:26",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:27",
+  "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:29"
+ ]
+}

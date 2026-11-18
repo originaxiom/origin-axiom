@@ -1,6 +1,6 @@
 {
  "id": "web-st6-04",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "the seat's statement that it has not written HARVEST COMPLETE, with its two reasons as of d44ed1564 (computations not yet repeated; 908 pending). Main asked again in M45, after both reasons were addressed; the seat has not answered since (its head is 8988eaf3d, written before M45)",
  "note": "This is the statement the goal turns on. It stands until the seat writes otherwise.",

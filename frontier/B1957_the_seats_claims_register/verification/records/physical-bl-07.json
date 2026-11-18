@@ -1,0 +1,15 @@
+{
+ "id": "physical-bl-07",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the second file's header and its statements of what is assumed and what is next: that a boundary reference alone does not give its equation (1); that the next calculation is to carry the source's asymptotic trace into main's modular extension lattice with the full argument map (naming the withdrawn harmonic-transport draft's missed factor as the failure to avoid); that the positive static action prefers n = 0 and a dynamical route would need the full matter action",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:3",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:78",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:85",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:101",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:106",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:115"
+ ]
+}

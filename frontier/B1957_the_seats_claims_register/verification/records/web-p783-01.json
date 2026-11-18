@@ -1,6 +1,6 @@
 {
  "id": "web-p783-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "how the note was checked, by its own account (computed once on a sealed script; a post hoc check; no independent recomputation in the record at the time), its controls, its disclosures (not blind; a scan and not a proof; what was not scanned) and its commits",
  "note": "Main's recomputation at the time is B1912; this register adds the rest below.",

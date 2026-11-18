@@ -17,6 +17,20 @@ in up to sub-leading terms).
 > (0, 1/12)), where the fitted exponent is near zero or negative: no leading power at these heights. On those fits the
 > exponent is not a leading power; whether the slope-alone statement holds on them is B1788's closed form's question.* No measured value is read.
 
+> *Noted 2026-11-18 (register row P-444, its remaining part;
+> `frontier/B1788_the_closed_form_of_the_exponents/verification/p444_window_fits.py` and its run file). **Where the 585
+> sit:** 240 are in the torsion degeneracy, all of them m₁/m₃, where m₁ = 0 exactly (B1716) and no exponent exists; 345
+> are in the closed form's domain (275 m₁/m₃, 70 m₂/m₃). **What does not change:** § 2's statement on the up sector's
+> m₂/m₃ in the seat's reading holds with every fit counted (largest spreads 0.251 at the slope ¼ and 0.042 at 0); the
+> medians on 2/5 and 1/10 are the same with the bad fits left out (one moves by 0.001). **The slope-alone statement on
+> the bad fits:** as window fits it fails on them: of the 561 that share a slope and key with a good fit, 151 lie more
+> than 0.25 from that slope's good median. As leading exponents it holds on the seven lines run at 40 digits to height
+> 14 (the worst residuals among those that differ from the closed form): all 28 cases there approach B1788's closed
+> form, which is a function of the slope alone; the nine bad fits among them end within 0.003 of it, except one line of
+> closed value ½, at 0.017 and still rising (the logarithmic prefactor B1788 describes). The other bad fits were not
+> run at height. So the title's statement is about leading exponents; the window at Im τ 4 to 6 has not reached them
+> on these fits.*
+
 ## 2. What it shows (the seat's reading: up S̃, down S, leptons S; L_max)
 
 - **The exponents depend on the slope alone.** Over the offsets b of one slope the up sector's m₂/m₃ exponent varies by

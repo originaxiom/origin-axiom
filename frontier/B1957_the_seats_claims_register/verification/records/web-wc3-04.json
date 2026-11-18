@@ -1,6 +1,6 @@
 {
  "id": "web-wc3-04",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "the seat's disclosures: not blind; its W34 script crashed before printing and one line was amended before the rerun; its card's triage and one control corrected before any run; wrapper exit codes; its commits",
  "note": "",

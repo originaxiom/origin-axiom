@@ -1,0 +1,13 @@
+{
+ "id": "web-read-30",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-C8_PART_3_THE_EVEN_TICK_CONDITION.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL.md",
+  "relays/cards/CHAT1_W-C8_the_one_tick_object_and_the_foundational_system.md"
+ ]
+}

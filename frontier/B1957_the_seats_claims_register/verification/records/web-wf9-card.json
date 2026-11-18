@@ -1,0 +1,20 @@
+{
+ "id": "web-wf9-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card written before W-F9's work: the three claims to test and the method. Borne out by the note",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:8",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:14",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:16",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:19",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:20",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:21",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:26",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:28",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:29",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:30",
+  "web:cards/CHAT1_W-F9_the_order_at_the_scar:31"
+ ]
+}

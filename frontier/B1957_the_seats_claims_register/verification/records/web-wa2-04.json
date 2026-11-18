@@ -1,6 +1,6 @@
 {
  "id": "web-wa2-04",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1952 (main's own recomputation of this note, verification/wa2_on_main.py), part C, and checks/web_review.py R3: the five theta functions of degree 5 on the fibre: u -> u + 1/5 acts as Z (8e-31), u -> u + tau/5 as X up to one common factor (1e-30), u -> -u sends psi_j to psi_-j (2e-30); rank 5; parity split 3 + 2; under tau + 2 they pick up zeta^(j^2) and under -1/tau they mix by psi(-jk)/sqrt 5 times sqrt(-i tau), the non-residue class, and under tau + 1 alone they do not return to their span (web-rv-03)",
  "note": "The count (M + 1)/2 even and (M - 1)/2 odd for odd flux M is the computed 3 + 2 at M = 5; the seat's citation of the magnetised-orbifold literature for it is not read at its source by main.",

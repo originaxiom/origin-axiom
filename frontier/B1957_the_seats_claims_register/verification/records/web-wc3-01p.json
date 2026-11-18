@@ -1,0 +1,14 @@
+{
+ "id": "web-wc3-01p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "split from web-wc3-01 on the seat's own finding (its status page, section 7.2, item 4): the cells held against main's banked arcs are the same; the seat's extensions (24 lifts and four conventions in W107, nine groups in W109 (iii), n = 5 to length 6 in W110) were not rerun on main",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:15",
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:17",
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:18",
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:56",
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:100"
+ ]
+}

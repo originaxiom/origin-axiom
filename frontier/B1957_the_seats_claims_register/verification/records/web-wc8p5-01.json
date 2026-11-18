@@ -1,0 +1,19 @@
+{
+ "id": "web-wc8p5-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the bronze pair beside the golden pair, every figure of the table against main's own runs: the bronze tick's square is L^3 R^3 = [[10, 3], [3, 1]] (by hand); the fibre torsion is 1, 1, 4 for golden and 3, 9, 36 for bronze at levels 1, 2, 3 (web-wf6-01's run); bronze has 18 and 54 characters at levels 1 and 2 and 56 record modules at level 2 with index +1 on 8, -1 on 8 and 0 on 40 (web-wf9-01); at the tick's level the Klein-bottle cusp forbids the record's modules for both (web-wf4-01: the characters with value +1 on mu have h^1 = 0); on the closed objects only the trivial character has a class (web-wf4-01, bronze n = 1, k = 1 to 6); the characters' gaps number 1 and 4 for golden and 3 and 36 for bronze at levels 1 and 3 (web-wf6-01). The regularity it observes (the gaps number the fibre torsion) is the theorem of its later W-F6",
+ "note": "Not recomputed by main: b_1 and the cusp's rank for bronze (the free-cusp frame), and twisted duality on bronze's levels (main ran it on golden's levels 3 to 8).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:19",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:20",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:21",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:22",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:23",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:25",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:26",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:28",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:46"
+ ]
+}

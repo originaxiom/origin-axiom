@@ -1,6 +1,6 @@
 {
  "id": "web-wa3-08",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the by-product from the card's cusp-degree reading: checks/web_posthoc_closure.py reproduces the two models' closing lists exactly. For up, (2, 2, 1) closes in neither; the up assignments that close are (1, 1, 2) with a Higgs of charge +-3 in the first model and four mixed assignments with Higgs charge 0 in the second (web-st-lists-02)",
  "note": "",

@@ -1,0 +1,12 @@
+X1 MMM                corners ['ab', 'bc', 'ca']: steps 538; matrices up to sign 6; hyperbolic 0 (of determinant -1: 0); parabolic 0 (of determinant -1: 0 by definition); finite order 538
+X1 HHH                corners ['abc']: steps 2800; matrices up to sign 132; hyperbolic 512 (of determinant -1: 144); parabolic 1084 (of determinant -1: 0 by definition); finite order 1204
+X1 MMH, half-turn a   corners ['bc', 'caba']: steps 329; matrices up to sign 4; hyperbolic 0 (of determinant -1: 0); parabolic 0 (of determinant -1: 0 by definition); finite order 329
+X1 MMH, half-turn b   corners ['ac', 'cbab']: steps 384; matrices up to sign 4; hyperbolic 0 (of determinant -1: 0); parabolic 0 (of determinant -1: 0 by definition); finite order 384
+X1 MMH, half-turn c   corners ['ab', 'bcac']: steps 329; matrices up to sign 4; hyperbolic 0 (of determinant -1: 0); parabolic 0 (of determinant -1: 0 by definition); finite order 329
+X1 MHH, mirror a      corners ['abcacb']: steps 670; matrices up to sign 16; hyperbolic 0 (of determinant -1: 0); parabolic 374 (of determinant -1: 0 by definition); finite order 296
+X1 MHH, mirror b      corners ['bacbca']: steps 538; matrices up to sign 16; hyperbolic 0 (of determinant -1: 0); parabolic 264 (of determinant -1: 0 by definition); finite order 274
+X1 MHH, mirror c      corners ['cabcba']: steps 670; matrices up to sign 16; hyperbolic 0 (of determinant -1: 0); parabolic 374 (of determinant -1: 0 by definition); finite order 296
+X1 on the half-turn face, the sealed test |trace| > 2 alone counts 380 (W-F2's figure) and files 60 steps of determinant -1 and |trace| = 2 as parabolic
+X2: the corners' classes on the records: (abc)^2: [0, 0]; a bcacb: [0, -2]; ab and bcac: [1, 0], [1, 2]; ab, bc, ca: [[1, 0], [0, 1], [-1, -1]]
+X2: the half-twist (swap b,c)(c through b) sends a, b, c to ['a', 'c', 'cbc'], is a step of the face with mirror a: True, and acts as [[1, 0], [1, 1]]; (swap a,b)(swap a,c)(a through b) sends a, b, c to ['aca', 'a', 'b'] and acts on the records as [[1, 1], [1, 0]] (the tick: x -> xy, y -> x has matrix [[1, 1], [1, 0]])
+X3: of the 2344 hyperbolic matrices of GL(2, Z) with entries to 12, those with an eigenvalue +1 or -1: 0

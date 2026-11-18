@@ -1,0 +1,24 @@
+{
+ "id": "physical-bl-09",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the findings page's header, its sixth item (the next dependency: a physical end law selecting the unit, with a map to the fermion operator; choosing magnetic degree three does not supply it) and its closing paragraph; and the card of predictions written before the derivation, which the results above bear out item by item (the card's six predictions are the proof's sections 2 to 6)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:3",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:33",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:51",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:3",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:11",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:20",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:25",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:32",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:39",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:47",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:54",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:58",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:62",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:69",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD:76"
+ ]
+}

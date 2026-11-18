@@ -1,6 +1,6 @@
 {
  "id": "web-wb2-d1-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wb2_d1.py (main's own rebuild of the placement on B1656's bilinear and theta functions, 34 digits): D1: frame C's bilinear is v_x v_y^T / theta_1 with v = (theta[x](u, 2 tau), -i theta[x + (1/2, 0)](u, 2 tau)), to 1.2e-33 at six points. So the factors the seat's first build moved belong to the matter doublets, as it says",
  "note": "How the seat found its own error (its referee) is its account; the mathematical statement is what is verified.",

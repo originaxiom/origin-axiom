@@ -1,0 +1,32 @@
+{
+ "id": "web-st7-01",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the seat's section 7 (its answer to main's M45, at main 7022a9dae): what it read; its reproduction of main's eight checks on a clean checkout (six byte for byte, two differing only in residuals below 1e-13: a second run of main's code on another machine); its confirmation, item by item, that main's figures are those of its notes; and that W-H1's four asks are paid, with main's instrument passing in strict mode on its clone. These are the seat's checks of main's record; main's own lock recomputes the load-bearing facts at every landing",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:405",
+  "web:STATUS_CHAT1:406",
+  "web:STATUS_CHAT1:407",
+  "web:STATUS_CHAT1:408",
+  "web:STATUS_CHAT1:409",
+  "web:STATUS_CHAT1:411",
+  "web:STATUS_CHAT1:416",
+  "web:STATUS_CHAT1:417",
+  "web:STATUS_CHAT1:419",
+  "web:STATUS_CHAT1:420",
+  "web:STATUS_CHAT1:422",
+  "web:STATUS_CHAT1:423",
+  "web:STATUS_CHAT1:425",
+  "web:STATUS_CHAT1:426",
+  "web:STATUS_CHAT1:428",
+  "web:STATUS_CHAT1:429",
+  "web:STATUS_CHAT1:430",
+  "web:STATUS_CHAT1:431",
+  "web:STATUS_CHAT1:432",
+  "web:STATUS_CHAT1:444",
+  "web:STATUS_CHAT1:445",
+  "web:STATUS_CHAT1:446",
+  "web:STATUS_CHAT1:447"
+ ]
+}

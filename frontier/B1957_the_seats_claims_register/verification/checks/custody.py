@@ -28,13 +28,26 @@ def static(ref, path):
 
 def trail(ref, note_path):
     text = git("show", "%s:%s" % (ref, note_path)).stdout
-    commits = re.findall(r"`([0-9a-f]{9})`", text); paths = sorted(set(re.findall(r"`(relays/[\w./-]+\.py)`", text)))
-    seq = []
-    for c in commits:
-        if c not in seq: seq.append(c)
+    ticked = re.findall(r"`([0-9a-f]{9})`", text); paths = sorted(set(re.findall(r"`(relays/[\w./-]+\.py)`", text)))
+    # MENDED 2026-11-18 (the web seat's finding, its status page section 7.2 item 8): ids were looked for in backticks only, so
+    # a note that writes them bare was recorded with 0 commits, as if nothing had been checked.  Now a bare hex word of 7 to
+    # 40 characters counts when it names a commit object; a bare word of exactly 9 that names none is listed apart
+    # (it may be a commit that does not exist, or a hash of something else: to be read by a person).
+    seq = []; bare_unresolved = []
+    for m in re.finditer(r"(?<![0-9a-zA-Z_./-])([0-9a-f]{7,40})(?![0-9a-zA-Z_])", text):
+        c = m.group(1)
+        if c in ticked:
+            if c not in seq: seq.append(c)
+            continue
+        if not re.search(r"[0-9]", c) or not re.search(r"[a-f]", c): continue                       # bare: a plain number or a plain word is not taken
+        is_commit = git("rev-parse", "--verify", "--quiet", c + "^{commit}").returncode == 0
+        if is_commit and c not in seq: seq.append(c)
+        elif len(c) == 9 and not is_commit and c not in bare_unresolved: bare_unresolved.append(c)
+    mains = [c for c in seq if not on_branch(c, ref) and on_branch(c, "origin/main")]                # main's own commits, named by the seat: not expected on its branch
+    seq = [c for c in seq if c not in mains]
     exist = {c: on_branch(c, ref) for c in seq}
     order = [(a, b, before(a, b)) for a, b in zip(seq, seq[1:]) if exist[a] and exist[b]]
-    return {"note": note_path, "commits": seq, "all_on_branch": all(exist.values()), "missing": [c for c, e in exist.items() if not e],
+    return {"note": note_path, "commits": seq, "all_on_branch": all(exist.values()), "missing": [c for c, e in exist.items() if not e], "bare_nine_hex_not_commits": bare_unresolved, "mains_commits_named": mains,
             "consecutive_in_order": sum(1 for *_, o in order if o), "consecutive_pairs": len(order), "out_of_order": [(a, b) for a, b, o in order if not o],
             "scripts": {p: static(ref, p) for p in paths}}
 
@@ -44,8 +57,8 @@ if __name__ == "__main__":
     for note in sys.argv[2:]:
         r = trail(ref, note); out.append(r)
         print("%s: %d commits named, all on the branch: %s%s; in the order named: %d of %d consecutive pairs%s" % (
-            note.split("/")[-1], len(r["commits"]), r["all_on_branch"], "" if r["all_on_branch"] else " (missing %s)" % r["missing"], r["consecutive_in_order"], r["consecutive_pairs"],
-            "" if not r["out_of_order"] else " (not in order: %s)" % r["out_of_order"]))
+            note.split("/")[-1], len(r["commits"]), r["all_on_branch"], "" if r["all_on_branch"] else " (on neither the seat's branch nor main: %s)" % r["missing"], r["consecutive_in_order"], r["consecutive_pairs"],
+            "" if not r["out_of_order"] else " (not in order: %s)" % r["out_of_order"]) + ("" if not r["bare_nine_hex_not_commits"] else "; bare nine-character hex words that name no commit: %s" % r["bare_nine_hex_not_commits"]) + ("" if not r["mains_commits_named"] else "; main's own commits named: %s" % r["mains_commits_named"]))
         for p, s in r["scripts"].items():
             print("     %s: %s" % (p.split("/")[-1], "not found at the head" if s is None else "%d lines, %d float and %d complex literals, imports %s" % (s["lines"], s["float_literals"], s["complex_literals"], s["imports"])))
     json.dump(out, open(pathlib.Path(__file__).with_name("custody_%s.json" % re.sub(r"\W+", "_", ref.split("/", 1)[1])), "w"), indent=1)

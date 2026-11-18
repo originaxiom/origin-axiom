@@ -1,0 +1,15 @@
+{
+ "id": "web-read-22",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER.md",
+  "relays/cards/CHAT1_W-F16_the_two_way_choices_settle_each_other.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10.md",
+  "relays/cards/CHAT1_W-F21_cold_read_of_the_rules_version_2.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13.md",
+  "relays/cards/CHAT1_W-F23_cold_read_of_the_rules_amendments.md"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "id": "physical-read-05",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/CC_MATHEMATICAL_CARD.md",
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/PROOF.md",
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/VERIFICATION_BRIEF.md",
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF.md",
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/CC_MATHEMATICAL_CARD.md",
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/VERIFICATION_BRIEF.md",
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_FAILURE.md",
+  "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_RETURN_RELAY.md"
+ ]
+}

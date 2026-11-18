@@ -1,6 +1,6 @@
 {
  "id": "web-wl1-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "elementary: an indefinite form [a, b, c] of discriminant 5 has its geodesic on a semicircle of radius sqrt 5/(2|a|), at most sqrt 5/2, so every image of the act's axis stays below that height (the same formula is used in checks/web_wz1_other_discriminants.py)",
  "note": "",

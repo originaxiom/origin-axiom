@@ -1,0 +1,11 @@
+{
+ "id": "web-read-25",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION.md",
+  "relays/cards/CHAT1_W-F26_the_cusps_mixing_in_every_option.md"
+ ]
+}

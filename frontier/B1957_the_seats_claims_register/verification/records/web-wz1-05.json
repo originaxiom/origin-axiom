@@ -1,9 +1,9 @@
 {
  "id": "web-wz1-05",
- "date": "2026-11-17",
- "verdict": "NOTED",
- "how": "m004's congruence level, exactly 4: the seat's recomputation of B794's result on the record, agreeing with it; main's side is B794",
- "note": "",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wz1_c3_indices.py (main's own enumeration, exact): the image of Riley's group in SL(2, Z[w]/N) modulo +-1 has index 6, 1, 12, 6, 1, 12, 12 at N = 2, 3, 4, 6, 7, 8, 12, the seat's seven figures; the order of the ambient group is checked by full enumeration at N = 2, 3, 4. With the group's index 12 in PSL(2, Z[w]) this is level exactly 4: it contains Gamma(4) and not Gamma(2), which is B794's theorem on main (index 12 at N = 4, 6 at N = 2)",
+ "note": "Filed as NOTED until 2026-11-18. The seat pointed out (its section 7.2, item 2) that it is a computation agreeing with a banked arc; main then computed all seven indices itself, so nothing here rests on the seat's code or on B794 alone.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:25",
   "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:92"

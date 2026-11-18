@@ -1,6 +1,6 @@
 {
  "id": "agyaudit-p753-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "main's B1866 (the relay scrutinised claim by claim on main's own code, verification/join_scrutiny.py, 2026-11-10): every move keeps the quaternion holonomy, the odd spin structure (the three even ones are permuted) and the trivial flat character; one background is not kept, its orbit has three members and its stabiliser has index 3; the two coherent lifts are one choice (in E8, -1 of SU(4) is -1 of Spin(10) on all 240 roots) and neither is kept by every move, which withdrew main's own exploratory sentence in WP-2.2",
  "note": "The fuller table over all 248 dimensions is in agyaudit-p753-05.",

@@ -1,9 +1,9 @@
 {
  "id": "web-wl1-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "a comparison with measured numbers, made once by the seat under the author's ruling of 2026-11-15 with its rule committed first. Checked by main without touching data: the rule's commit 82c94361d precedes the values' 4a9b788d6, which precedes the look's output ab41df26b, all on the branch (22 and 48 seconds apart). Main does not recompute a comparison with data: the declared second computation is the SM seat's re-run on the pinned files, which is owed, and the outcome stays NEGATIVE as sealed and PROVISIONAL (harvest row 1847). The one figure the seat lists as recomputed nowhere, its referee's calibration of the single row |V_us| (about 8 percent), is post hoc and is left to that re-run for the same reason; it changes no outcome, since the look fails by a worst factor of 12,758 against a bar of 3",
- "note": "",
+ "note": "[2026-11-18, after the seat's section 7.2, item 1: the values that entered the comparison are verified on main already, in web-wa1-02: the governing option's seven values in the seat's LOOK_VALUES.json equal main's own outputs at (i, mark) at every printed digit (checks/web_wa1_part3_run.txt, the line 'outputs at (i, mark)'). What main declines is the comparison with data, not the values]",
  "units": [
   "web:CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS:6",
   "web:CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS:11",

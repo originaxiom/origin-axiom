@@ -1,0 +1,23 @@
+{
+ "id": "web-wf9-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the hand arguments, read line by line: (1) V* has sub l/alpha and quotient 1/alpha with class in H^1(G; l), so V* = V(l, l/alpha): elementary, and it is what main's census shows on its invariants; (2) I(V) = n^1(V) - n^2(V) by Poincare-Lefschetz duality: standard, not recomputed by main (the seat's referee computed n^2 directly on 2,170 modules; main computed n of the dual); (3) every automorphism keeping the cusp preserves n and so I: immediate from the definition. Not done by main: the explicit intertwiners, the direct n^2, and the mirror's check on the 12 modules",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:28",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:30",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:31",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:34",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:38",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:41",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:42",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:43",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:45",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:46",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:47",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:48",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:50",
+  "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:53"
+ ]
+}

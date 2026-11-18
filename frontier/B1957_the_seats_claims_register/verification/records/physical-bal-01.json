@@ -1,6 +1,6 @@
 {
  "id": "physical-bal-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the algebraic identities, by hand and in checks/physical_c3e_two_steps.py (main's finite-dimensional model with the same structure: a background with zero moment that breaks everything but one generator Q, two charged directions; the scheme run exactly as the lane states it): with a = a_x + i a_y, -i[a_x, a_y] = [a, a^dagger]/2 exactly (T1: 7e-16 on random Hermitian parts); a moment that is quadratic in the fields, with vanishing linear term on a harmonic tangent, is eps^2 times its quadratic part; along Q that part is e_Q times the norm of the charge +1 components minus the norm of the charge -1 components (T6: 4.00e-4 against 4.00e-4 at |R| = 0.6 |P|, zero when balanced); d mu(I k psi) = -P psi with P = 2 k^dagger k (T2); the correction beta = I k P^-1(source) cancels the quadratic moment off Q and adds no first-order holomorphic residual (T6); Re(k^dagger I k psi) = 0 because k^dagger k is real",
  "note": "In main's model the residual after the correction vanishes beyond second order by the model's own structure, so the lane's order eps^3 is consistent with it and is not tested by it.",

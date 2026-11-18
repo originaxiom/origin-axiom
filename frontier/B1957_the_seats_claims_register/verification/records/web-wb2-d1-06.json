@@ -1,6 +1,6 @@
 {
  "id": "web-wb2-d1-06",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "the figures of stage 4 with the flat norms re-centred on the moved pole (0.54 and 0.70 in sigma_2/sigma_1; norms of 1e3 to 7e10; 0.009 to 3.3 over the fixed cell; 0.004 to 0.040 under w -> w + tau) are not recomputed on main: they need B1656's quadrature norms rebuilt on the moved cell. Their cause is verified (web-wb2-d1-05): the factor exp(2 k Im z) is not periodic, so such a norm differs from frame C's at q' by order one, depends on the cut and is not periodic in the Higgs's point. So the statements that E fails with those norms, and that c = -2 is then no longer frame C transposed, hold in kind",
  "note": "",

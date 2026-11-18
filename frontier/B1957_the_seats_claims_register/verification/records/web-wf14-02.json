@@ -1,0 +1,26 @@
+{
+ "id": "web-wf14-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "a reading: read as charges the two surviving assignments are exchanged by the flip, and as fields the exchange also needs S <-> S~, which the charges do not see; what could fix the bit is a structure that S <-> S~ does not preserve, such as holomorphy in tau required of a named sector (required of every sector it would exclude both assignments); otherwise it is a free datum. Its prediction by hand for main to test: a computation that uses only the charges will find the bit left. The overlap construction itself it leaves with main",
+ "note": "Later work bears on the prediction: with the Higgs's twist put into the Szego factor, frame D1 is frame C at shifted charges (web-wb2-d1-01 to -07). Main has not written down whether that confirms the prediction; it should.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:6",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:20",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:21",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:26",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:29",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:32",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:33",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:35",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:37",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:39",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:42",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:43",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:49",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:50",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:51",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:53"
+ ]
+}

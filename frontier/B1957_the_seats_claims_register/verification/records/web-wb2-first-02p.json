@@ -1,0 +1,11 @@
+{
+ "id": "web-wb2-first-02p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "split from web-wb2-first-02 on the seat's own finding (its status page, section 7.2, item 4): the failure and the difference between the readings are main's; the magnitudes 2.2 to 7.2 and 2.3 to 2.8 are in the seat's own measure on its first build and are not reproduced",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:49",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:70"
+ ]
+}

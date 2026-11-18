@@ -1,6 +1,6 @@
 {
  "id": "web-st6-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's section 6 (its reading of main's M44 at main d44ed1564), each statement held against main's record at that commit: B1953's dated note and B1955's one-line claim carry the dated corrections it describes; R4 and R5 are in checks/web_review.py with the signs it gives; the stage-3 figures it quotes are those of checks/wb2_stage3_on_main_run.txt (0.84; 3.3e-16 at the 24 points of order 5 and 0.09 at (1/7, 3/7); 2.35 against the note's 2.4); main does take the identity E from its own hand reduction",
  "note": "The seat checked main's records against its own source. Nothing new is claimed here.",

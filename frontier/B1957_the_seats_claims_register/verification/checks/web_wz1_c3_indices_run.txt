@@ -1,0 +1,10 @@
+the whole of SL(2, Z[w]/2) modulo +-1, enumerated from the elementary matrices: 60 elements; the formula: 60
+the whole of SL(2, Z[w]/3) modulo +-1, enumerated from the elementary matrices: 324 elements; the formula: 324
+the whole of SL(2, Z[w]/4) modulo +-1, enumerated from the elementary matrices: 1920 elements; the formula: 1920
+N =  2: the image of Riley's group modulo +-1 has 10 elements of 60: index 6
+N =  3: the image of Riley's group modulo +-1 has 324 elements of 324: index 1
+N =  4: the image of Riley's group modulo +-1 has 160 elements of 1920: index 12
+N =  6: the image of Riley's group modulo +-1 has 3240 elements of 19440: index 6
+N =  7: the image of Riley's group modulo +-1 has 56448 elements of 56448: index 1
+N =  8: the image of Riley's group modulo +-1 has 10240 elements of 122880: index 12
+N = 12: the image of Riley's group modulo +-1 has 103680 elements of 1244160: index 12

@@ -1,0 +1,4 @@
+n = 3: phi fixes the scar as a reduced word: True; the scar in the x_i: [1, -2, -1, 2]; phi on H_1: [[2, 1], [1, 1]]
+   level 1: fibre torsion 1; level 2: fibre torsion 5 (5 solutions of a (M - 1) = 0: cyclic); record characters 4, of which with h^1 = 1 and a class non-zero on lambda: 4; sector modules 12; I = +1 / -1 / 0 / |I| >= 2: 4 / 4 / 4 / 0 (prime 294641)
+n = 5: phi fixes the scar as a reduced word: True; the scar in the x_i: [1, 3, -4, -3, -2, -1, 2, 4]; phi on H_1: [[2, 2, -2, -1], [1, 2, -2, -1], [0, -1, 2, 1], [0, 0, 1, 1]]
+   level 1: fibre torsion 1; level 2: fibre torsion 29 (29 solutions of a (M - 1) = 0: cyclic); record characters 28, of which with h^1 = 1 and a class non-zero on lambda: 28; sector modules 756; I = +1 / -1 / 0 / |I| >= 2: 28 / 28 / 700 / 0 (prime 294641)

@@ -1,0 +1,26 @@
+{
+ "id": "web-wf7-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf7_on_main.py (main's own step test on its W-F2 words; all 2,800 products): every cell of the table with the corrected classification. MMM: 538 steps, 6 matrices, all of finite order. HHH: 2,800 steps, 132 matrices, 512 hyperbolic (144 of determinant -1), 1,084 parabolic, 1,204 of finite order. MMH with half-turn a, b, c: 329, 384, 329 steps, 4 matrices, all of finite order. MHH with mirror a, b, c: 670, 538, 670 steps, 16 matrices, none hyperbolic, 374, 264, 374 parabolic, 296, 274, 296 of finite order. The corners' classes on the records are 0 for (abc)^2, -2y for a bcacb, x and x + 2y for ab and bcac, and x, y, -(x + y) for the pairs. The half-twist (swap b,c)(c through b) is a step of the face with mirror a and acts as [[1, 0], [1, 1]]; (swap a,b)(swap a,c)(a through b) is a -> aca, b -> a, c -> b and acts as the tick [[1, 1], [1, 0]]. The fault it reports in the sealed test is as stated: |trace| > 2 alone counts 380 and files 60 steps of determinant -1 and |trace| = 2 as parabolic (1,084 + 60 = the sealed 1,144); main's own check of W-F2 had found the same 144",
+ "note": "So W-F2's figure 380 undercounts and 512 is right; W-F2's conclusion did not rest on it.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:17",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:23",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:25",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:26",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:28",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:30",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:32",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:34",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:45",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:46",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:48",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:49",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:50",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:64",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:68",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:71"
+ ]
+}

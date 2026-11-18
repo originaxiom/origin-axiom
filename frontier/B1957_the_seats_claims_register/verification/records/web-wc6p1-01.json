@@ -1,0 +1,15 @@
+{
+ "id": "web-wc6p1-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the six findings of the cold reading of the builder's page, each held by main against its source and against the page as it stands on main today. The quotations are exact (the full account's line 874 on the three parts; its header's 'three readers checked every sentence and table row'; line 137 on the grammar's rules each having a status; line 179 'Every allowed word' and 189 'using both letters'; lines 248 to 251 on the four inputs, each needed; line 259 'a conditional reconstruction of a chosen sector'; line 519 'or by looking at the data' and 521 on the quark mixing; line 443 'three gauge generations' and 451 'the gauge three is a selection'; THE_WEAVE line 13). Each finding is right, and each is MET in docs/THE_PROGRAMME_IN_SHORT.md as landed: 'in three parts, by three readers'; the grammar's status sentence; 'Each allowed word (a primitive word using both letters)'; the four inputs with both caveats; 'or by looking at the data' and the mixing sentence restored; 'three gauge generations' with 'the three of gauge is a selection'",
+ "note": "Six real faults of over-claiming found in a page main was about to point its front page at. All six were mended before landing.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:15",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:20",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:24",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:29",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:34",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:40"
+ ]
+}

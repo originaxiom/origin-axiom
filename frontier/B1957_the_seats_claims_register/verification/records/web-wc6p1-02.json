@@ -1,0 +1,21 @@
+{
+ "id": "web-wc6p1-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its list of the lines that say what their sources say (eleven groups). Main spot-checked three against today's sources (the page's sentence that GENESIS holds, against GENESIS's own 'Where any document disagrees with this file, this file holds'; the count against docs/MAIN_GOAL.md; the generated state in the README) and did not re-read the other eight groups; they stand as the seat's reading, by one session, as it says",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:47",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:48",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:49",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:50",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:51",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:52",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:53",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:54",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:55",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:56",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:57",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:58"
+ ]
+}

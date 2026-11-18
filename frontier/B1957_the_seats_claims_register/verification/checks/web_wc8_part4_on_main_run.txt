@@ -1,0 +1,4 @@
+S1: t = 3 to 20,000: the two fields agree exactly when t - 2 is a square: True (exceptions 0; the metallic traces among them: 141); the control with t + 2 fails first at t = 3
+S2: m = 1 to 200: A_m - 1 = [[m^2, m], [m, 0]] has gcd of entries m and determinant -m^2, so Smith form diag(m, m): True
+S3: m = 1 to 200: -1 is a square mod m^2 + 4 exactly for odd m: True
+S4: L^4 R = [[5, 4], [1, 1]] (trace 6) and L^2 R^2 = [[5, 2], [2, 1]] (trace 6): the same class of cyclic words under rotation, exchange and reversal: False

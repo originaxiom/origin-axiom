@@ -1,0 +1,11 @@
+{
+ "id": "web-read-21",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE.md",
+  "relays/cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule.md"
+ ]
+}

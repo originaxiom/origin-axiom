@@ -1,0 +1,20 @@
+{
+ "id": "web-wc6-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-C6 (the two parts; what is not run and why: B1920 not stated fully enough, B1922 held by the seat's firewall; how part 2 could come out wrong; the controls). Borne out by the two part notes",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:3",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:8",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:13",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:20",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:24",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:31",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:34",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:38",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:39",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:43",
+  "web:cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921:48"
+ ]
+}

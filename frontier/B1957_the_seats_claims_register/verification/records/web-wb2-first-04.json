@@ -1,9 +1,9 @@
 {
  "id": "web-wb2-first-04",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "the ruling the note ran under, how its stages were sealed, the harness flaw it discloses (at unit weights the coupling has rank 2, so its first control compared rounding noise), its test's set-up and its files",
- "note": "",
+ "note": "[2026-11-18, after the seat's section 7.2, item 5: line 55 added: the stage-1 plant holds; it is the seat's own control, stands, and is not rerun on main]",
  "units": [
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:24",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:27",
@@ -16,6 +16,7 @@
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:43",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:59",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:106",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:109"
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:109",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:55"
  ]
 }

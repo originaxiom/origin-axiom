@@ -1,0 +1,11 @@
+{
+ "id": "physical-harm-09",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the relay page that replaces the first-return relay: the lane's notice that the proposal was withdrawn and where its bytes are kept",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_2026-11-12_HARMONIC_TRANSPORT_FIRST_RETURN:3",
+  "physical:physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_2026-11-12_HARMONIC_TRANSPORT_FIRST_RETURN:9"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "physical-ker-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R2: with A = (-i N) exp(-i pi H/4), N the exchange of the two five-spaces and H the total weight operator, Ad_A T_(j,+) = (-i)^j T_(j,-) for j = 1 and 3 (2e-15), and down each string the phase at weight m is i^(-m) (2e-12); the highest elements are E_+^j and E_-^j, which lie in so(5) for odd j only",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:25",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:30",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:32",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:34"
+ ]
+}

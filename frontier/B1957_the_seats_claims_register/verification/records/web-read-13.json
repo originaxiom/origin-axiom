@@ -1,0 +1,11 @@
+{
+ "id": "web-read-13",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head 61da9bec5; the sealed script and its post hoc read as text for their definitions, their outputs as data",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE.md",
+  "relays/cards/CHAT1_W-F3_the_cone_point_loophole.md"
+ ]
+}

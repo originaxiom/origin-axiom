@@ -1,6 +1,6 @@
 {
  "id": "web-wc2-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "Theorem A's first two parts, on main: B1939 (main's arc) has the same census of 285 with 277 members of one unramified and four ramified lines and 8 with monodromy +-I mod 5 and H^1 of dimension 3, and the torsion moduli 2 sin(pi/5) and 2 sin(2 pi/5), product 5, on every member. The seven named bundles' homology (Z/5, Z/5, Z/10, Z/20, Z/45, Z/55, Z/105, each + Z) is SnapPy's on main; the two controls b++LLRR and b+-LLRR have no 5-torsion",
  "note": "The seat's point that the theorem's hypothesis (multiplicity one) excludes the 8 is agy-002's R83-22 as well, and still stands on B1939's page (R83-1).",

@@ -1,0 +1,22 @@
+{
+ "id": "web-wf8-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf8_on_main.py (main's own words and exact characteristic polynomials): for n = 2 to 8 every Hurwitz move and its inverse keeps the puncture as a reduced word and acts on H_1 of the records by a matrix of determinant +-1; the puncture's lift has class 0 for odd n (p^2) and (1, 0, 1, ...) for even n (p); the alternating product H_n has spectral radius 1, 2.618034, 3.732051, 4.390257, 4.791288, 5.048917 at n = 2 to 7 (the seat's six figures) and 5.222743 at n = 8, with exact characteristic polynomials (lam^2 - 3 lam + 1 at n = 3; a factor lam^2 - 4 lam + 1 at n = 4); h_1 h_2^-1 acts on span(x_1, x_2) by the n = 3 matrix at every n and fixes x_k for k >= 4; the Euler characteristics, ranks, genera and cusps are as stated",
+ "note": "Main's n = 3 matrix is [[2, 1], [1, 1]] where the note has [[2, -1], [-1, 1]]: the same class (conjugate by diag(1, -1), a sign of the basis), characteristic polynomial lam^2 - 3 lam + 1.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:16",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:21",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:22",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:23",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:25",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:26",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:28",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:33",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:34",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:35",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:36",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:44"
+ ]
+}

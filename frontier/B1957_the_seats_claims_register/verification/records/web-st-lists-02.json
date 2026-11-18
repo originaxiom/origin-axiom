@@ -1,9 +1,9 @@
 {
  "id": "web-st-lists-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
- "how": "checks/web_posthoc_closure.py (exact integers, from the rule as the sealed script states it; the seat's output read as data and matched line by line): under the card's cusp-degree reading the degrees (2, 2, 1) close for down and for leptons in both models, and for up in neither. One thing the status page does not say and the output does: they close only with the Higgs's charge set to 0. With the charge that conserves 6Y (-3) the degrees (2, 2, 1) close in neither model for any sector",
- "note": "The seat calls it a by-product that bears on nothing now; with the qualification it bears on less.",
+ "how": "checks/web_posthoc_closure.py (exact integers, from the rule as the sealed script states it; the seat's output read as data and matched line by line): under the card's cusp-degree reading the degrees (2, 2, 1) close for down and for leptons in both models, and for up in neither. One thing the status page does not say and the output does: they close only with the Higgs's charge set to 0. With the charge that conserves 6Y (+3 for up, -3 for down and leptons) the degrees (2, 2, 1) close in neither model for any sector",
+ "note": "The seat calls it a by-product that bears on nothing now; with the qualification it bears on less. [2026-11-18, after the seat's section 7.2, item 10: the conserving charge was given as -3 for every sector; for up it is +3 (the output's line 27). The conclusion is unchanged]",
  "units": [
   "web:STATUS_CHAT1:67",
   "web:STATUS_CHAT1:68"

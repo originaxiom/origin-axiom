@@ -1,0 +1,10 @@
+{
+ "id": "physical-cub-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R4: on the light cubic (5) and the moment (6) as written, with S = T = N_c = N_d = 0 every first derivative vanishes for all A, P and R; the moment then allows forms of equal positive and negative norm; without S and T all three terms of (5) are absent. NOT checked: that with A, S, T alone these are the quartic of the lane's earlier package P-C3c, which main has not yet read",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS:141"
+ ]
+}

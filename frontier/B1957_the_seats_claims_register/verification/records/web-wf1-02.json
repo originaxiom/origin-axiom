@@ -1,0 +1,13 @@
+{
+ "id": "web-wf1-02",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf1_on_main.py (main's own code: exact words, matrices and quaternions), B0 to B3, recounted on main: 379 primitive cyclic words of length 2 to 12 up to rotation and exchange (758 states with the sign) and 268 up to reversal too (536 manifolds); rev(w) = D w^-1 D and w^-1 = J w^T J^-1 on all 8,190 words; 33 manifolds for each sign (66) have an orientation-reversing self-map (32 with A conjugate to its inverse in SL(2, Z), 12 fixed by a conjugation of determinant -1, 33 in the union), LR among them; 163 odd-trace states for each sign (326), 3,608 cases with every rotation: in each the quaternion lift has order 3 or 6, its class flips under inversion and under conjugation by the lifts of L, R and P and is kept by D, -1 and an inner automorphism, so it takes both values across the rotations on all 163; 2O has 48 elements",
+ "note": "A third computation of B1607's statement (W26), now to length 12 with every rotation and both signs. Main's first count of the amphichiral manifolds gave 32: its own criterion had an extra condition; corrected, 33.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:72",
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:73",
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:74",
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:75"
+ ]
+}

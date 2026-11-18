@@ -3,7 +3,7 @@
  "date": "2026-11-17",
  "verdict": "NOTED",
  "how": "the seat's list of what it holds owed and its statement that HARVEST COMPLETE is not written. The state of each item at this landing: W-B2's stage 3 is recomputed on main (web-wb2-s3-01, landed at c9e17fbac, after the commit the seat read); section 3.3's remainder is mended (web-st5-01); section 5.2's two items are recomputed (web-st5-03). Still owed by main: W-B2's stage 4 and the two leftovers of stage 3, W-L1's calibration of one row, W-Z1 at discriminants 12 and 40, the result that is only in an output, the earlier notes of its section 1d, W-H1's four asks (P-865), and the pending statements",
- "note": "",
+ "note": "[2026-11-18, after the seat's section 7.2, item 7: each item listed above as still owed has since been settled or answered: W-B2's stage 4 and the two leftovers (web-wb2-d1-05 and -06), W-Z1 at 12 and 40 (web-wz1-02), the output-only result (web-st-lists-02), the earlier notes (web-st-1d), W-H1's four asks (web-wh1-01 to -03), the pending statements (web-st-lists-01 to -04). Two things stay as they are: stage 4's figures are partial, and W-L1's calibration of one row is left to the SM seat's re-run]",
  "units": [
   "web:STATUS_CHAT1:281",
   "web:STATUS_CHAT1:283",

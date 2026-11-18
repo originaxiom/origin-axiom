@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 96 |
+| DEBT | a result the record uses is owed a check or a correction | 94 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -313,7 +313,6 @@ by a quote that the builder checks.*
 | 11 | P-157 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment. |
 | 12 | P-559 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim. |
 | 13 | P-610 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived. |
-| 14 | P-444 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians. |
 | 15 | P-542 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4. |
 | 16 | P-524 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so. |
 | 17 | P-557 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1825's null for the four (p2) and its sealed verdict use that definition. |
@@ -356,7 +355,6 @@ by a quote that the builder checks.*
 | 54 | P-135 | an unverified premise or seat result under a banked structural result | B1650's condensate test and Simpson table are cited conditionally on H-RES. |
 | 55 | P-155 | an unverified premise or seat result under a banked structural result | B1602/B1603 counts (16 of 42) are over candidate kernels, never identified. |
 | 56 | P-091 | an unverified premise or seat result under a banked structural result | B1814's census and the typicality cell rest on W57, whose own frame is unregenerated. |
-| 57 | P-107 | an unverified premise or seat result under a banked structural result | P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice. |
 | 58 | P-117 | an unverified premise or seat result under a banked structural result | PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B. |
 | 59 | P-430 | an unverified premise or seat result under a banked structural result | W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked. |
 | 60 | P-316 | an unverified premise or seat result under a banked structural result | B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main. |
@@ -399,7 +397,7 @@ by a quote that the builder checks.*
 
 ## The nodes that no edge joins
 
-23 of the 193 nodes that are not debts, and 80 of the 96 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
+23 of the 193 nodes that are not debts, and 78 of the 94 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
 
 | id | layer | kind | grade |
 |---|---|---|---|

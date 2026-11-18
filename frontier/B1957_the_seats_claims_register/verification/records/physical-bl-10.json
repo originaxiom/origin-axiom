@@ -1,0 +1,12 @@
+{
+ "id": "physical-bl-10",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/physical_boundary_law.py, W5: the seam-source action ((r_C + r_T) b^2 + p (b - 2 pi n)^2)/2, whose added fluxes on the two sides cancel, against the transition's, whose total added flux is Phi; and the transition's energy 2 pi^2 c_H n^2/(G A) at Phi = 2 pi n",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:66",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:70",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:97"
+ ]
+}

@@ -1,0 +1,16 @@
+tau 0.21+1.13i c (0.13, 0.71): N -1.131041097; B1919 residual 1.1e-09; B1921 residual 4.2e-11; F(c', -1/tau) - F(c, tau) 1.8e-15
+tau 0.21+1.13i c (0.3, 0.2): N -0.034696660; B1919 residual 1.1e-09; B1921 residual 4.2e-11; F(c', -1/tau) - F(c, tau) 0.0e+00
+tau 0.21+1.13i c (0.77, 0.41): N 4.552830882; B1919 residual 1.0e-09; B1921 residual 4.5e-11; F(c', -1/tau) - F(c, tau) 0.0e+00
+tau 0.21+1.13i c (0.62, 0.09): N 0.311500253; B1919 residual 1.1e-09; B1921 residual 4.3e-11; F(c', -1/tau) - F(c, tau) 1.8e-15
+tau -0.35+0.90i c (0.13, 0.71): N -2.792299121; B1919 residual 1.1e-09; B1921 residual 2.2e-09; F(c', -1/tau) - F(c, tau) 1.8e-15
+tau -0.35+0.90i c (0.3, 0.2): N 2.447737805; B1919 residual 1.0e-09; B1921 residual 2.3e-09; F(c', -1/tau) - F(c, tau) 3.6e-15
+tau -0.35+0.90i c (0.77, 0.41): N 1.798942829; B1919 residual 1.0e-09; B1921 residual 2.3e-09; F(c', -1/tau) - F(c, tau) 3.6e-15
+tau -0.35+0.90i c (0.62, 0.09): N -2.662000561; B1919 residual 1.1e-09; B1921 residual 2.2e-09; F(c', -1/tau) - F(c, tau) 5.3e-15
+tau 0.10+1.70i c (0.13, 0.71): N -1.735672811; B1919 residual 7.0e-10; B1921 residual 4.7e-10; F(c', -1/tau) - F(c, tau) 3.6e-15
+tau 0.10+1.70i c (0.3, 0.2): N 2.663017985; B1919 residual 6.5e-10; B1921 residual 5.0e-10; F(c', -1/tau) - F(c, tau) 3.6e-15
+tau 0.10+1.70i c (0.77, 0.41): N 1.930656049; B1919 residual 6.6e-10; B1921 residual 5.0e-10; F(c', -1/tau) - F(c, tau) 2.8e-11
+tau 0.10+1.70i c (0.62, 0.09): N 4.438062074; B1919 residual 6.3e-10; B1921 residual 5.1e-10; F(c', -1/tau) - F(c, tau) 0.0e+00
+K1: B1919 at the seat's twelve points: largest residual 1.1e-09; control with u's components swapped: off by 0.18 to 11.44; with pi log Im tau left out: off by 0.33 to 1.67
+K2: B1921 at the twelve points: largest residual 2.3e-09; the control c' = c: off by 0.18 to 9.78
+K3: F at the transported point minus F at the point: largest 2.8e-11
+K4: kappa = psi(1/2) - psi(1) = -1.38629436112 = -2 log 2: True; the factor's slope at s = 1 numerically: -1.386294335; pi kappa = -4.3551722

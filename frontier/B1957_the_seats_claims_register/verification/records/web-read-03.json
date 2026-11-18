@@ -1,6 +1,6 @@
 {
  "id": "web-read-03",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "READ",
  "lane": "web",
  "how": "read by main in full at the seat's head d36b2a0ec, through the mask; wa3_checks.py's part E and the two post hoc wrappers read as text; nothing run",

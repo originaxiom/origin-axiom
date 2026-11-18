@@ -1,0 +1,19 @@
+{
+ "id": "web-wc7-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-C7 (three negatives proposed for a second computation: B1913 run, the rest held). Borne out by the relay",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:3",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:8",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:11",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:14",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:18",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:23",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:26",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:29",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:34",
+  "web:cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held:39"
+ ]
+}

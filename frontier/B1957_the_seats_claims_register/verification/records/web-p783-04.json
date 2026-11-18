@@ -1,6 +1,6 @@
 {
  "id": "web-p783-04",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_p783_spectrum.py (B1912's own Hejhal routine, main's code, at B1912's two heights and a third) P2: the note's fifteen values to R = 11, class by class: in the 27 (value, class) cells it names the least scaled singular value is at most 2.5e-8 at all three heights, and in the other 33 cells it is at least 1e-3. So the three dihedral values are single and every other value is a doublet in both Fricke classes of one mirror parity, as the note observes",
  "note": "The note's two post hoc values (7.4946304901 in (+1, +1); 9.2608655254 in (+1, -1)) are among the 27 and are states on main.",

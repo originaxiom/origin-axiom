@@ -1,0 +1,2 @@
+H1: i* = -i: True; j* = j: True; k* = -k: True; j i j^-1 = -i: True; j k j^-1 = -k: True; j^T = j^-1: True
+H1: |S~ - (a_i* i + a_j* j + a_k* k)| over 200 random S: 0.0e+00 | H2: |(U S U^-1)~ - U S~ U^-1|: 1.3e-15 | H3: |(e^(i theta) S)~ - e^(-i theta) S~|: 0.0e+00; control, |S~ - S| on the last S: 3.21

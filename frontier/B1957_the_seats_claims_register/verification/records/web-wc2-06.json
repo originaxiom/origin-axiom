@@ -1,6 +1,6 @@
 {
  "id": "web-wc2-06",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "the seat's disclosures: not blind; two errors of its own in sealed cells (the Rademacher function taken literally; a pre-registration read too strictly), both corrected post hoc and both reproduced on main in their corrected form; a wrong sentence in one of its commit messages; the torsion in double precision; its commits",
  "note": "",

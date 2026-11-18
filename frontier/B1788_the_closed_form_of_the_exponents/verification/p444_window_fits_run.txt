@@ -1,0 +1,21 @@
+Q1: 662 lines, 24 fits each, 15888 in all; residual above 0.07: 585 (m1/m3: 515); above 1: 67 (the leptons' m1/m3: 52); the largest 5.52 at (0, 1/12) lep|L_2|St|m1/m3
+Q1: of the 585, in the closed form's domain, m1/m3: 275
+Q1: of the 585, in the closed form's domain, m2/m3: 70
+Q1: of the 585, in the torsion degeneracy (m1 = 0 exactly, B1716), m1/m3: 240
+Q1: B1788's comparison in B1785's window (L_max, the domain), m2/m3: agreement within 0.05 on 3334 of 3808 (87.6%); with the bad fits left out 3326 of 3783 (87.9%); the bad fits there: 8 agree, 17 differ
+Q1: B1788's comparison in B1785's window (L_max, the domain), m1/m3: agreement within 0.05 on 3676 of 3808 (96.5%); with the bad fits left out 3630 of 3712 (97.8%); the bad fits there: 46 agree, 50 differ
+Q1: B1785's medians on the slope 2/5, all fits against the good fits only: up|St|m2/m3 0.301 / 0.301, down|S|m2/m3 0.199 / 0.199, up|St|m1/m3 0.806 / 0.805, down|S|m1/m3 0.550 / 0.550, lep|S|m1/m3 0.549 / 0.549
+Q1: B1785's medians on the slope 1/10, all fits against the good fits only: up|St|m2/m3 0.300 / 0.300, down|S|m2/m3 0.199 / 0.199, up|St|m1/m3 0.652 / 0.652, down|S|m1/m3 0.700 / 0.700, lep|S|m1/m3 0.498 / 0.498
+Q2: B1785's own statement (the up sector's m2/m3 in the seat's reading varies over the offsets by at most 0.042, 0.25 at the slope 1/4): the two largest spreads are 0.251 at 1/4 and 0.042 at 0, with every fit counted; 10 fits of this key are bad (on the slopes ['2/13']) and the statement holds with them in
+Q2: as window fits: of the 585 bad fits, 561 have a good fit on the same slope and key; 220 of those lie within 0.05 of that slope's good median and 151 lie more than 0.25 from it. On them the window's number does not depend on the slope alone
+Q2: in the closed form's domain, 176 of the bad fits agree with the closed form within 0.05 and 169 differ; outside it (the degeneracy) all 240 differ, where no exponent exists
+Q2: at 40 digits, (2/7, 4/7) down St m1/m3: window fit 0.755 (residual 1.62); closed form 5/7 = 0.7143; local exponents between heights 8, 10, 12, 14: 0.6964, 0.7078, 0.7117
+Q2: at 40 digits, (4/11, 9/11) lep S m1/m3: window fit 0.746 (residual 1.07); closed form 8/11 = 0.7273; local exponents between heights 8, 10, 12, 14: 0.7168, 0.7242, 0.7263
+Q2: at 40 digits, (4/13, 1/13) down St m1/m3: window fit 0.385 (residual 0.98); closed form 9/13 = 0.6923; local exponents between heights 8, 10, 12, 14: 0.6878, 0.6913, 0.6921
+Q2: at 40 digits, (7/20, 1/5) up St m1/m3: window fit 0.810 (residual 0.59); closed form 3/4 = 0.7500; local exponents between heights 8, 10, 12, 14: 0.7401, 0.7474, 0.7493
+Q2: at 40 digits, (0, 1/13) lep S m2/m3: window fit 0.384 (residual 0.16); closed form 1/2 = 0.5000; local exponents between heights 8, 10, 12, 14: 0.4712, 0.4789, 0.4833
+Q2: at 40 digits, (0, 1/13) lep S m1/m3: window fit 1.069 (residual 0.14); closed form 1 = 1.0000; local exponents between heights 8, 10, 12, 14: 1.0031, 1.0001, 0.9989
+Q2: at 40 digits, (2/13, 12/13) up St m2/m3: window fit 0.178 (residual 0.08); closed form 3/13 = 0.2308; local exponents between heights 8, 10, 12, 14: 0.2279, 0.2298, 0.2304
+Q2: at 40 digits, (1/13, 3/13) lep S m2/m3: window fit 0.171 (residual 0.08); closed form 3/13 = 0.2308; local exponents between heights 8, 10, 12, 14: 0.2241, 0.2279, 0.2295
+Q2: at 40 digits, (1/13, 3/13) lep St m2/m3: window fit 0.166 (residual 0.07); closed form 3/13 = 0.2308; local exponents between heights 8, 10, 12, 14: 0.2201, 0.2253, 0.2278
+Q2: on the 7 lines run, all 28 (reading, ratio) cases: the last local exponent is within 0.0167 of the closed form (the largest gap is at ('0', '1/13', 'lep', 'S', 'm2/m3'), a line of closed value 1/2, where a logarithmic prefactor is known, B1788 section 2); it is no further from it than the first in 28 of 28; the bad fits among them: 9

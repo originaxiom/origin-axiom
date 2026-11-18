@@ -1,0 +1,14 @@
+{
+ "id": "web-wf14-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the hand argument, checked: z -> 1/z is an automorphism of U(1); applied to every field it reverses every hypercharge and sends a product of total charge 0 to a product of total charge 0, so the set of gauge-invariant couplings is unchanged, the Higgs's twist included; the non-abelian factors are untouched. So no construction that uses only the charges can tell an assignment from its global flip. The note says this settles only the charge bookkeeping, given main's M25 premise",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:11",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:12",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:14",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:16",
+  "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:18"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "web-wf22-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the reading-level covariance (C0 to C2: the triplet's matrices fitted for T, R, gamma and its powers; S~ covariant under all five; S* covariant under R and gamma^3 and not under T, gamma, gamma^2, residual 2.0) is the seat's own computation on its own theta series and is not recomputed by main at that level. Main's side: S* does not repeat in one turn on main's frame (above), and gamma^3 is in Gamma(2), where B1724 found S* covariant. The three-turn check at the frame level (O4) was inconclusive for the seat (the points fall to Im tau about 0.12) and main has not run it in extended precision",
+ "note": "A LEAD the note names: with B1940's extended-precision frame the three-turn repetition of S* could be settled. It would test the prediction that S* repeats in k turns for a word whose k-th power lies in Gamma^0(2).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:33",
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:34",
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:35",
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:39"
+ ]
+}

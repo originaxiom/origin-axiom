@@ -1,6 +1,6 @@
 {
  "id": "web-wa3-03",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1955 (main's own recomputation of this note, verification/wa3_on_main.py and class_is_a_choice.py), parts B and D: X and Z generate an irreducible module with X Z X^-1 Z^-1 = zeta; the cover's t acts as -I on the (shift, clock) plane, which is rho(-I) = P in either class; an element in the act's class is never a scalar times P (least distance 0.553), so the cover supplies the parity and not the act's Weil operator. The clocks are the deck group's characters, twists by the act's fixed line on the double cover",
  "note": "That the pairing between a deck group and its characters needs no flux is the seat's reading, which main took as hypothesis F-A holding for the module and the gauge group (B1955); the correction of the same day stands: 'no flux' has three limits (the picture page, section 7).",

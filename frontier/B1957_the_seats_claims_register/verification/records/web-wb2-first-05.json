@@ -1,0 +1,10 @@
+{
+ "id": "web-wb2-first-05",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "a statement of four verdicts, of which the seat withdrew one: V0 (the control), V1 (B1947's triplet is not covariant) and V3 (no K3 is covariant) stand and are verified at the table's rows (web-wb2-first-02; main's D6 and B1724); V2 (every shift is covariant) describes the first build and is the seat's own withdrawal",
+ "note": "Filed as superseded whole until 2026-11-18; the seat pointed out that three of its four parts stand.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:53"
+ ]
+}

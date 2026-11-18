@@ -143,6 +143,17 @@ them against the relay's matrices. The mask hides most digits of those matrices,
 code. The physical lane reads the lane without that mask and found the mismatch. This is the arrangement working as
 intended, and it is also a limit of main's scrutiny that § 4 should have named.
 
+> *Noted 2026-11-18 (B1957, record physical-harm-02; `frontier/B1957_the_seats_claims_register/verification/checks/physical_harmonic_draft.py`,
+> H2, H4 and H5). The two signs of F1 belong to two different lifts of one homology matrix, and neither is an error of
+> arithmetic. The physical lane said so in its draft of 2026-11-12 (withdrawn for another reason; this statement is not
+> withdrawn), and main has now checked it exactly. The "S" of part 6 is the word L R⁻¹ L. As an automorphism of the free
+> group that word is Inn_a ∘ s, where s is the based quarter-turn a → b⁻¹, b → a; both have the homology matrix
+> [[0, 1], [−1, 0]]. Their quaternions are (I + J)/√2, a reflection of the stabiliser, and (1 − K)/√2, a rotation. On the
+> branch the word fixes, the word acts by −1 (as F1 found) and the based s acts by +1 (the value the relay's text
+> gave). So F1 stands as a fact about the record: the relay's matrices and its text do not describe the same element.
+> What F1 does not show is that the text's sign was wrong. Which based element a physical field sees is part of the
+> open half of WP-3.2.*
+
 **One correction the review asks of main, already made.** It read main at `30dd1fea7`, where the programme's WP-3.2
 still called the triplet the doublet's symmetric square without a twist. Section 3 above replaced that sentence the
 same day, before the review arrived.

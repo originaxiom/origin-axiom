@@ -1,0 +1,9 @@
+P1: m = 1, entries to 12: 44 elements of the normaliser; every one is +-J^n K^e: True; classes modulo <LR>: 8; J^2 = LR: True; K^2 = -1: True; K J K^-1 = -J^-1: True
+P1: m = 1, entries to 30: 60 elements; every one is +-J_m^n K^e: True; classes modulo <A_m>: 8
+P1: m = 2, entries to 30: 36 elements; every one is +-J_m^n K^e: True; classes modulo <A_m>: 8
+P1: m = 3, entries to 30: 20 elements; every one is +-J_m^n K^e: True; classes modulo <A_m>: 8
+P1: m = 4, entries to 30: 20 elements; every one is +-J_m^n K^e: True; classes modulo <A_m>: 8
+P1: m = 5, entries to 30: 20 elements; every one is +-J_m^n K^e: True; classes modulo <A_m>: 8
+P3: m: (N, Smith form of A + 1, a line of order N sent to its opposite, J's scalar): {1: (5, (1, 5), True, 3), 2: (8, (2, 4), False, None), 3: (13, (1, 13), True, 8), 4: (20, (2, 10), False, None), 5: (29, (1, 29), True, 17), 6: (40, (2, 20), False, None), 7: (53, (1, 53), True, 30), 8: (68, (2, 34), False, None), 9: (85, (1, 85), True, 47), 10: (104, (2, 52), False, None), 11: (125, (1, 125), True, 68), 12: (148, (2, 74), False, None)}
+P3: the Smith form is diag(gcd(m, 2), N/gcd(m, 2)) and a mark exists exactly for odd m: True; for odd m, J acts on (m, 2) by lam = m/2 with lam^2 = -1, K by -lam (asserted above)
+P2: m = 1: J acts on the line of (1, 2) mod 5 by 3 and K by 2 (= -3); the hand of +-J^n K^e is (n + e) mod 2 for n, e in {0, 1}: True; the control (n mod 2 alone): False

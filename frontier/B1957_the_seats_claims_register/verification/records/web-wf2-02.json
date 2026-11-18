@@ -1,0 +1,12 @@
+{
+ "id": "web-wf2-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "checks/web_wf2_on_main.py (main's own words and conjugacy test in Z/2*Z/2*Z/2), M4: the step the seat's referee names on the face with one mirror and two half-turns, (swap b, c)(c through b), does act as [[1, 0], [1, 1]] on H_1, is of infinite order, and keeps the classes of abc and bc up to conjugacy and inverse. NOT computed, by the seat or by main: the two mixed faces themselves (what their cusps are, and the full set of their steps); and the statement about the face with two mirrors",
+ "note": "A LEAD the note leaves open: on that mixed face a parabolic step runs, so the half-turn face is singled out only if 'a history' means a hyperbolic one. [2026-11-18, later: the mixed faces are computed in the seat's W-F7 and on main (web-wf7-01): no mixed face has a hyperbolic step; the face with one mirror has parabolic ones. So this statement's open part is closed there.]",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:40",
+  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:41",
+  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:43"
+ ]
+}

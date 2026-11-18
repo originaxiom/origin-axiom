@@ -1,0 +1,6 @@
+H1: odd m = 1 to 41, n = 0 to 7, e, sign (672 cases): the matrix acts on the mark by a scalar and the hand is (n + e) mod 2: True
+H3 (orbits of the symmetries on the solutions, all 64 assignments): {J, K, D, C} with h+o+e, q+y: 0 free bits; {J, K, D}: 1; {J, K, D o C} with h+o+e, q+y, r+y: 0; {J, K, D o C} with h+o+e, q+y: 1 (the seat: 0, 1, 0, 1)
+H2 golden 4 (prime 400031): 12 record modules (8 with I != 0); each pulled back by the mirror is a module: True; the index is the same on every one: True; the plant t -> t^-1 fails the relators on 12 of them
+H2 golden 6 (prime 400009): 210 record modules (72 with I != 0); each pulled back by the mirror is a module: True; the index is the same on every one: True; the plant t -> t^-1 fails the relators on 168 of them
+H2 bronze 2 (prime 400009): 56 record modules (16 with I != 0); each pulled back by the mirror is a module: True; the index is the same on every one: True; the plant t -> t^-1 fails the relators on 28 of them
+H2 golden 8 (prime 400051): 1892 record modules (488 with I != 0); each pulled back by the mirror is a module: True; the index is the same on every one: True; the plant t -> t^-1 fails the relators on 1892 of them

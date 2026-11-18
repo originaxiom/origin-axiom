@@ -1,0 +1,5 @@
+L1: 266 lines; gamma fixes up to sign 3: [('0', '0'), ('1/5', '2/5'), ('2/5', '4/5')]; gamma^2 fixes 7 (by order {1: 1, 3: 4, 5: 2}); gamma^3 fixes 18 (by order {1: 1, 2: 3, 4: 6, 5: 2, 10: 6})
+L2: upper-right entries of gamma, gamma^2, gamma^3: 1, 3, 8 (Gamma^0(2) needs an even one); gamma^3 = [[13, 8], [8, 5]] is the identity mod 2: True
+O1 the own line (2/5, 4/5): S, S~ after one turn: 3.1e-10, 9.8e-10, 7.8e-05; S*: 2.7, 1.5, 2.7 (heights 0.745->0.745, 0.829->0.663, 1.118->0.319)
+O1 the line (1/5, 2/5), fixed up to sign: S, S~ after one turn: 7.7e-11, 8.2e-10, 5.7e-05; S*: 3.2, 1.8, 4.9 (heights 0.745->0.745, 0.829->0.663, 1.118->0.319)
+O1 the line (1/5, 3/5), not fixed: S, S~ after one turn: 2.3e+00, 3.4e+00, 2.5e+00; S*: 2.7, 2.1, 5.1 (heights 0.745->0.745, 0.829->0.663, 1.118->0.319)

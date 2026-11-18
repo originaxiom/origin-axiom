@@ -226,3 +226,102 @@ def test_the_two_step_scheme_gives_the_q_moment_one_minus_rho_squared_and_a_poin
         assert np.abs(m4).max() < 1e-12 and abs(mq) < 1e-12                                                          # the complete moment vanishes
         inv.append([np.vdot(f, f).real for f in X])
     assert np.abs(np.array(inv[0]) - np.array(inv[1])).max() < 1e-10 and abs(inv[0][4] - 0.01) > 1e-5               # one point for both projections, and not the raw one
+
+
+def test_e8s_adjoint_has_100_and_68_sl2_summands_and_the_eighth_power_trace_is_120_on_the_family():
+    import physical_c3e_roster as P
+    W = P.e8_weights(); n1, _ = P.summands(W, (4, 2, 0, 0, 0, 0, 0, 0)); n2, _ = P.summands(W, (4, 2, 4, 2, 0, 0, 0, 0))
+    assert len(W) == 248 and (n1, n2) == (100, 68)                                                                    # ranks 148 and 180
+    tr = lambda x, y, k: sum((float(w[0]) * x + float(w[1]) * y) ** k for w in W); lam = 1.3
+    assert abs(tr(lam, 1j * lam, 8) - 120 * lam ** 8) < 1e-8 and abs(tr(lam, 1j * lam, 4)) < 1e-9 and abs(tr(lam, 1.1j * lam, 4)) > 1  # off the family the quartic does not vanish
+
+
+def test_the_word_l_rinv_l_is_inn_a_after_the_based_quarter_turn_and_the_two_lifts_differ():
+    import physical_harmonic_draft as H
+    Delta = H.comp(H.L, H.Rinv, H.L); gD = H.qmul(H.qmul(H.gL, H.qinv(H.gR)), H.gL)
+    assert Delta == H.comp(H.inn(H.a), H.S) and Delta != H.S and Delta != H.comp(H.S, H.inn(H.a)) and H.homology(Delta) == H.homology(H.S) == [[0, 1], [-1, 0]]
+    assert gD == H.qmul(H.QI, H.gs) and H.in_E(Delta, gD) and H.in_E(H.S, H.gs) and not H.in_E(H.S, gD)
+    assert H.qmul(H.gs, H.QK) == H.qmul(H.QK, H.gs) and H.qmul(gD, H.QK) == H.qmul(H.MONE, H.qmul(H.QK, gD))            # a rotation and a reflection: +1 and -1 on the top line
+
+
+def test_the_boundary_response_is_the_solution_of_the_field_equations_on_a_disc():
+    import math
+    R, cH, G, kap, n = 1.3, 0.7, 0.9, 1.1, 2
+    f0 = (kap * n / R) / (cH / G + kap * R / 2)                         # (c_H/G) f + kappa (f R^2/2 - n)/R = 0
+    r, p = cH / (G * math.pi * R * R), kap / (2 * math.pi * R); B = math.pi * f0 * R * R
+    E = (cH / (2 * G)) * f0 ** 2 * math.pi * R * R + (kap / 2) * ((f0 * R * R / 2 - n) / R) ** 2 * 2 * math.pi * R
+    assert abs(B - p * 2 * math.pi * n / (r + p)) < 1e-12 and abs(E - r * p * (2 * math.pi * n) ** 2 / (2 * (r + p))) < 1e-12
+    assert abs(math.pi * R * R * (kap * n / R) / (cH / G - kap * R / 2) - p * 2 * math.pi * n / (r + p)) > 1            # the other sign in the Robin condition fails
+
+
+def test_the_figure_eight_groups_congruence_indices_at_two_three_and_four():
+    import web_wz1_c3_indices as Z
+    idx = {}
+    for N in (2, 3, 4):
+        a = ((1 % N, 0), (1 % N, 0), (0, 0), (1 % N, 0)); b = ((1 % N, 0), (0, 0), (0, (-1) % N), (1 % N, 0)); idx[N] = Z.order_psl(N) // Z.closure([a, b], N)
+    assert idx == {2: 6, 3: 1, 4: 12}                                                                                 # contains Gamma(4), not Gamma(2)
+    E = [((1, 0), x, (0, 0), (1, 0)) for x in ((1, 0), (0, 1))] + [((1, 0), (0, 0), x, (1, 0)) for x in ((1, 0), (0, 1))]
+    assert Z.closure(E, 4) == Z.order_psl(4) == 1920                                                                 # the order formula against a full enumeration
+
+
+def test_the_census_has_379_words_268_manifolds_and_33_with_an_orientation_reversing_self_map():
+    import itertools
+    import web_wf1_on_main as F
+    words = ["".join(t) for n in range(2, 13) for t in itertools.product("LR", repeat=n)]; prim = [w for w in words if F.primitive(w)]
+    states = {F.state(w) for w in prim}; mans = sorted({F.manifold(w) for w in prim}); rc = lambda v: F.canon(v, (lambda u: u,))
+    amph = [m for m in mans if rc(m) == rc(F.swap(m[::-1])) or rc(m) == rc(F.swap(m))]
+    assert (len(states), len(mans), len(amph)) == (379, 268, 33) and "LR" in amph and sum(1 for s in states if int(F.mat(s).trace()) % 2) == 163
+
+
+def test_only_the_all_half_turn_face_admits_a_hyperbolic_step():
+    import itertools, functools
+    import web_wf7_on_main as G
+    prods = [functools.reduce(G.comp, [G.MOVES[m] for m in seq]) for n in range(1, 5) for seq in itertools.product(G.MOVES, repeat=n)]
+    hyp = lambda fs: sum(1 for f in fs if G.kind(G.h1(f)) == "hyperbolic")
+    hhh = [f for f in prods if G.is_step(f, "", ("abc",))]; mhh = [f for f in prods if G.is_step(f, "a", ("abcacb",))]; mmm = [f for f in prods if G.is_step(f, "abc", ("ab", "bc", "ca"))]
+    assert (len(hhh), hyp(hhh)) == (2800, 512) and (len(mhh), hyp(mhh)) == (670, 0) and (len(mmm), hyp(mmm)) == (538, 0)
+
+
+def test_a_cone_point_kills_every_class_on_the_scar_and_the_free_product_has_three():
+    import itertools
+    import web_wf4_on_main as W
+    p = 1000033; lam = (1, 2, 2, 3, -2, -1, -3, -2); out = {}
+    for K in (3, 4, None):
+        rels = [(1, 1), (2, 2), (3, 3)] + ([(1, 2, 3) * K] if K else []); tot = nz = 0
+        for s in itertools.product((1, p - 1), repeat=3):
+            if K and pow(s[0] * s[1] * s[2] % p, K, p) != 1: continue
+            V = W.Rep({1: [[s[0]]], 2: [[s[1]]], 3: [[s[2]]]}, p); tot += W.cohom(V, rels)[1]
+            Z = W.nullspace([[V.fox(r, g)[0][0] for g in (1, 2, 3)] for r in rels], p, 3); nz += any(sum(V.fox(lam, g)[0][0] * c[g - 1] for g in (1, 2, 3)) % p for c in Z)
+        out[K] = (tot, nz)
+    assert out == {3: (0, 0), 4: (2, 0), None: (5, 3)}
+
+
+def test_the_golden_act_fixes_two_non_trivial_lines_of_the_266_up_to_sign():
+    from fractions import Fraction as Fr
+    pts = {(Fr(a, n), Fr(b, n)) for n in range(1, 13) for a in range(n) for b in range(n)}; neg = lambda q: ((-q[0]) % 1, (-q[1]) % 1); lines = {min(q, neg(q)) for q in pts}
+    act = lambda q: ((q[0] - q[1]) % 1, (2 * q[1] - q[0]) % 1); fixed = sorted(q for q in lines if act(q) in (q, neg(q)))
+    assert len(lines) == 266 and fixed == [(Fr(0), Fr(0)), (Fr(1, 5), Fr(2, 5)), (Fr(2, 5), Fr(4, 5))]                # so B1922's 'no other line' was false
+
+
+def test_a_metallic_tick_has_a_mark_exactly_for_odd_m():
+    for m in range(1, 13):
+        N = m * m + 4; Ap = ((m * m + 2, m), (m, 2))
+        ker = [(x, y) for x in range(N) for y in range(N) if (Ap[0][0] * x + Ap[0][1] * y) % N == 0 and (Ap[1][0] * x + Ap[1][1] * y) % N == 0]
+        full = any(all((k * x) % N or (k * y) % N for k in range(1, N)) for x, y in ker)
+        assert full == (m % 2 == 1) and len(ker) == N                                  # the kernel mod N of A + 1; a vector of full order N in it exactly for odd m
+        if m % 2:
+            lam = (m * pow(2, -1, N)) % N; assert (lam * lam + 1) % N == 0 and ((m * m + 2) % N, m % N) == ((lam * m) % N, (lam * 2) % N)
+        else:
+            assert not any((x * x + 1) % N == 0 for x in range(N))                               # no square root of -1 at all: 4 divides N
+
+
+def test_the_cusp_rule_is_the_integrals_condition_and_the_floor_alone_is_not():
+    b = lambda a: (a - 1) // 2 if a >= 1 else a // 2; fin = lambda a, n: (a - 2 * n > 0) or (a == 2 * n and a <= 0); G = range(-40, 41)
+    assert all(fin(a, n) == (n <= b(a)) for a in G for n in G)
+    assert sorted({a for a in G for n in G if fin(a, n) != (n <= a // 2)}) == [a for a in G if a >= 2 and a % 2 == 0]
+
+
+def test_the_eigenvalue_field_is_the_levels_field_exactly_at_the_metallic_traces():
+    import web_wc8_part4_on_main as P
+    assert all((P.sqfree(t * t - 4) == P.sqfree(t + 2)) == P.issq(t - 2) for t in range(3, 3001))
+    assert (P.sqfree(3 * 3 - 4) == P.sqfree(3 + 2)) != P.issq(3 + 2)                             # the control with t + 2 fails at once

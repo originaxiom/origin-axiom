@@ -1,0 +1,15 @@
+{
+ "id": "physical-harm-01",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the three one-paragraph pages that replace the withdrawn draft: the lane's own notice that it withdrew the draft, where the old bytes are kept, and that the acceptance criteria stay the task",
+ "note": "Matched to the top-level files only; the preserved copies are settled below.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/CC_MATHEMATICAL_CARD:3",
+  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/CC_MATHEMATICAL_CARD:7",
+  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/PROOF:3",
+  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/PROOF:7",
+  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/VERIFICATION_BRIEF:3",
+  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/VERIFICATION_BRIEF:7"
+ ]
+}

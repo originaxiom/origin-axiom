@@ -1,0 +1,8 @@
+classes of matter: {'Q': 2, 'u^c': 2, 'd^c': 4, 'L': 4, 'e^c': 2}; of the up Higgs (6Y = 3) and its conjugate: 1, 4; the class equals the exterior degree mod 5 for every field: True
+E1: parities (conjugation-odd functions on the four classes): 4; those with all matter in one class, for both signs: 2; complementary: True
+    parity {1: 0, 2: 1, 3: 0, 4: 1}, hypercharge sign +1: {'up': 'S~', 'down': 'S', 'leptons': 'S'}
+    parity {1: 0, 2: 1, 3: 0, 4: 1}, hypercharge sign -1: {'up': 'S~', 'down': 'S', 'leptons': 'S'}
+    parity {1: 1, 2: 0, 3: 1, 4: 0}, hypercharge sign +1: {'up': 'S~', 'down': 'S', 'leptons': 'S'}
+    parity {1: 1, 2: 0, 3: 1, 4: 0}, hypercharge sign -1: {'up': 'S~', 'down': 'S', 'leptons': 'S'}
+E2: exterior-degree parity {1: 1, 2: 0, 3: 1, 4: 0} is one of the two: True
+E3: the operator lift puts the Higgs and its conjugate at degrees +1 and -1, parities 1 and 1, both unlike matter's (0): the rule gives ('S~', 'S~', 'S~')

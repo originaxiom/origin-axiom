@@ -1,6 +1,6 @@
 {
  "id": "physical-bal-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the reduction on the cusp, exact (checks/physical_c3e_indicial.py and by hand): the operator ell^-2(-d^2/dt^2 + d/dt) + c on exp(r t) gives r^2 - r - ell^2 c = 0, the exponents (1 +- sqrt(1 + 4 ell^2 c))/2; against the measure exp(-t) dt the growing one is not square-integrable and the other is a bounded constant at c = 0 and decays for c > 0; at non-zero angular frequency the term nu^2 exp(2t) confines and one decaying branch remains",
  "note": "",

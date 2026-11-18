@@ -1,6 +1,6 @@
 {
  "id": "web-read-07",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "READ",
  "lane": "web",
  "how": "read by main in full at the seat's head d36b2a0ec, through the mask; nothing run",

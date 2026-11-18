@@ -1,0 +1,14 @@
+H1: in E: (L, (1+I)/sqrt2) True; (R, (1-J)/sqrt2) True; (s, (1-K)/sqrt2) True; and not with a wrong sign: (R, (1+J)/sqrt2) False
+H2: Delta = L R^-1 L sends a -> (('a', 1), ('b', -1), ('a', -1)), b -> (('a', 1),); Inn_a s is the same automorphism: True; s Inn_a is: False; its lift g_L g_R^-1 g_L = (Fraction(0, 1), Fraction(1, 1), Fraction(1, 1), Fraction(0, 1), 1) = I g_s: True = (I+J)/sqrt2: True; homology of s [[0, 1], [-1, 0]] and of Delta [[0, 1], [-1, 0]]
+H2: the draft's own rejecting control: the based word s with Delta's quaternion is NOT in E: True; nor Delta with s's quaternion: True (equal homology matrices do not make equal lifts)
+H3: (s L)^3 = id: True with (g_s g_L)^3 = -1: True; s^4 = id: True with g_s^4 = -1: True; s^2 L s^-2 = Inn_(a^-1) L: True with lifts g_s^2 g_L g_s^-2 = rho(a^-1) g_L: True; R = Inn_(b^-1) s L^-1 s^-1: True with lifts: True
+H4: in Pin2 about the axis K: g_s is a rotation, g_Delta a reflection, g_(L^2) = (Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), 0) a reflection, g_L itself neither; so the character (+1 on rotations, -1 on reflections) is +1 on s, -1 on Delta, -1 on L^2 (the draft's (11): +1, -1, -1)
+H4: the sign of the permutation of the three unoriented axes: L^2 +1, s -1, Delta -1 (the draft's middle spin line: +1, -1, -1)
+H5: on the draft's 3 x 3 matrices (axes I, K, J): the word L R^-1 L fixes branch [2] (the axis K) with eigenvalue (-1+0j); L^2 there: (-1+0j); the based s = Inn_a^-1 Delta, that is A_L^-2 times it: (1+0j) (B1866's F1 found -1 and -1 for the word; the relay's text said +1, which is the based s)
+H6: q0: s^4 = ([[1, 0], [0, 1]], -1.000000); (s t)^3 = ([[1, 0], [0, 1]], -1.000000); s^2 t against t s^2: bases True, roots differ by 1.8e-32
+H6: q1 (both roots negated): s^4 = ([[1, 0], [0, 1]], -1.000000); (s t)^3 = ([[1, 0], [0, 1]], -1.000000); s^2 t against t s^2: bases True, roots differ by 1.8e-32
+H6: one root negated: s^4 = ([[1, 0], [0, 1]], -1.000000); (s t)^3 = ([[1, 0], [0, 1]], 1.000000); s^2 t against t s^2: bases True, roots differ by 1.8e-32
+H7: v(tau - 1)/v(tau) = e(-1.000000/24) (chi_-1(L) = e(-1/24)); v(-1/tau)/(sigma v(tau)) = e(-3.000000/24) (chi_-1(s) = chi_-1(L)^3 = e(-3/24)); at tau = i: sigma_s = e(0.1250) (1/8)
+H7: the three check values: the simple pole under s: sigma^-3 = e(-0.3750) (the draft: exp(-3 pi i/4) = e(-0.375)); under Delta: e(0.1250) (exp(pi i/4) = e(0.125)); under L^2 in the eta frame: (-0+1j) (i)
+H8: |D A_L D^-1 - Ad(g_L)| = 0.0e+00, |D A_R D^-1 - Ad(g_R)| = 0.0e+00 on the axes (I, K, J), D = diag(-i, 1, i); |chi_21(L) A_L - T_L| = 3.1e-16, |chi_21(R) A_R - T_R| = 3.1e-16 with the triplet's monomial matrices as B1866 carries them
+H9: the draft's Szego function pi theta_1'(0) theta_3(pi z)/(theta_3(0) theta_1(pi z)): z S(z) at small z = (1.0 + 5.68284703025e-18j) (residue 1); quasi-periods S(z + 1)/S(z) = (-1.0 + 0.0j), S(z + tau)/S(z) = (-1.0 + 3.6480131e-31j) (the character of its flat line)

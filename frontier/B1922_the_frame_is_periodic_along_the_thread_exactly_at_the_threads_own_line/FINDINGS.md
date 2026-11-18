@@ -29,6 +29,16 @@ compared with anything measured. **0 of 19.**
   not depend on where the period starts). The extension condition that fixed the line's order and eigenline (B1914) is
   the same condition that makes the read-out as a thread average well defined.
 
+> *Corrected 2026-11-18 (B1957, record web-wf22-01; the web seat's W-F22 of 2026-11-14 and Review 82's R82-1, item 12;
+> `frontier/B1957_the_seats_claims_register/verification/checks/web_wf22_on_main.py`, which runs this arc's own
+> `deviations` routine). **"And not at any other line" is false.** γ fixes, up to sign, exactly three of the 266 lines:
+> the trivial one, the own line (2/5, 4/5) and one more, (1/5, 2/5). At (1/5, 2/5) the covariant readings repeat after
+> one turn as well: 7.7 × 10⁻¹¹, 8.2 × 10⁻¹⁰ and 5.7 × 10⁻⁵ in the three windows, with S* at 3.2, 1.8 and 4.9. The run
+> above tested one line that γ does not fix, (1/5, 3/5), and the sentence generalised from it. What stands: the
+> covariant readings are periodic along the thread exactly at the lines γ fixes up to sign, which are the own line's
+> four multiples, two classes. The web seat also showed that S* is covariant under γ³ and so should repeat in three
+> turns; the rule's amendment A14 (B1937) records that the exclusion of S* rests on one-turn periodicity.*
+
 ## 2. What this means, and what it does not
 
 - **It makes the thread average a definite candidate** for P-776's read-out, in place of a chosen point of τ: each

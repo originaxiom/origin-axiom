@@ -1,0 +1,22 @@
+{
+ "id": "web-wf20-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card written before B1936 was read. Borne out by the note",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:8",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:10",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:16",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:17",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:18",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:22",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:23",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:25",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:27",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:29",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:30",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:31",
+  "web:cards/CHAT1_W-F20_cold_read_of_b1936s_parity_candidate:35"
+ ]
+}

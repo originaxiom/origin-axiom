@@ -1,0 +1,13 @@
+{
+ "id": "physical-read-07",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032; the sealed output run01/result.json read as text",
+ "files": [
+  "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF.md",
+  "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL.md",
+  "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS.md",
+  "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CARD.md"
+ ]
+}

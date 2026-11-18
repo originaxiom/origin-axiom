@@ -1,0 +1,13 @@
+{
+ "id": "web-wf8-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "that the scar is a single commutator of two records only at n = 3: at n = 3 it is (W-F1's A2, verified); at even n the lifts are not in the commutator subgroup (their classes are non-zero: verified); at odd n >= 5 the claim that p^2 is not a single commutator rests on the standard fact that the boundary word of a genus-g surface with one boundary has commutator length g, which the note cites and does not compute, and main has not computed either",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:38",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:39",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:40",
+  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:43"
+ ]
+}

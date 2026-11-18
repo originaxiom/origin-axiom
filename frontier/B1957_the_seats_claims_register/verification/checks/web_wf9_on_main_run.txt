@@ -1,0 +1,5 @@
+golden 4 (prime 300151): 12 modules; the dual's (h^0, h^1, n) equals V(l, l/alpha)'s on every one: True; I = +1 on 4, -1 on 4, 0 on 4; I odd under alpha -> l/alpha: True; the wrong partner V(l, 1/alpha) exists for 8 and differs on 8
+   golden 4, the referee's lines: I on alpha = 1/l: [1]; on alpha = l^2: [-1]; on the fixed points alpha^2 = l: [0]
+golden 6 (prime 300017): 210 modules; the dual's (h^0, h^1, n) equals V(l, l/alpha)'s on every one: True; I = +1 on 36, -1 on 36, 0 on 138; I odd under alpha -> l/alpha: True; the wrong partner V(l, 1/alpha) exists for 198 and differs on 108
+bronze 2 (prime 300007): 56 modules; the dual's (h^0, h^1, n) equals V(l, l/alpha)'s on every one: True; I = +1 on 8, -1 on 8, 0 on 40; I odd under alpha -> l/alpha: True; the wrong partner V(l, 1/alpha) exists for 48 and differs on 24
+golden 8 (prime 300151): 1892 modules; the dual's (h^0, h^1, n) equals V(l, l/alpha)'s on every one: True; I = +1 on 244, -1 on 244, 0 on 1404; I odd under alpha -> l/alpha: True; the wrong partner V(l, 1/alpha) exists for 1848 and differs on 696

@@ -7,6 +7,8 @@
   ],
   "all_on_branch": true,
   "missing": [],
+  "bare_nine_hex_not_commits": [],
+  "mains_commits_named": [],
   "consecutive_in_order": 1,
   "consecutive_pairs": 1,
   "out_of_order": [],
@@ -35,6 +37,8 @@
   ],
   "all_on_branch": true,
   "missing": [],
+  "bare_nine_hex_not_commits": [],
+  "mains_commits_named": [],
   "consecutive_in_order": 1,
   "consecutive_pairs": 1,
   "out_of_order": [],
@@ -71,6 +75,8 @@
   "missing": [
    "fb7fc39ac"
   ],
+  "bare_nine_hex_not_commits": [],
+  "mains_commits_named": [],
   "consecutive_in_order": 1,
   "consecutive_pairs": 1,
   "out_of_order": [],
@@ -120,6 +126,8 @@
   ],
   "all_on_branch": true,
   "missing": [],
+  "bare_nine_hex_not_commits": [],
+  "mains_commits_named": [],
   "consecutive_in_order": 2,
   "consecutive_pairs": 2,
   "out_of_order": [],
@@ -148,18 +156,26 @@
   "note": "relays/REVIEW_83_AGY-002.md",
   "commits": [
    "b35eac607",
-   "73e71e277",
-   "c8cece9be",
    "999982c2f",
    "827ba35d8",
-   "04293e826"
+   "04293e826",
+   "fa1f2abd",
+   "70fd6912",
+   "135a2d5b",
+   "4ae026d9"
   ],
   "all_on_branch": false,
   "missing": [
    "b35eac607",
+   "04293e826",
+   "fa1f2abd",
+   "70fd6912",
+   "135a2d5b"
+  ],
+  "bare_nine_hex_not_commits": [],
+  "mains_commits_named": [
    "73e71e277",
-   "c8cece9be",
-   "04293e826"
+   "c8cece9be"
   ],
   "consecutive_in_order": 1,
   "consecutive_pairs": 1,

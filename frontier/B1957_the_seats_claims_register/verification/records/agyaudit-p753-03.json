@@ -1,6 +1,6 @@
 {
  "id": "agyaudit-p753-03",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "main's B1866 (the relay scrutinised claim by claim on main's own code, verification/join_scrutiny.py, 2026-11-10): on the weave's triplet the moves generate a group of order 96 with centre of order 4 and projective image S4; S^2 = i, S^4 = -1, S^8 = 1, so it does not factor through SL(2, Z); over all 24 twists the even ones give orders 24, 48, 72, 144 and never 96, and the triplet is the twist by chi_15 of the symmetric square of the level-2 doublet (chi_3 for the conjugate doublet), its conjugate at 21 and 9; the conjugate of (theta_2^2, theta_3^2, theta_4^2)/eta^3 transforms by two monomial matrices of eighth roots equivalent to the triplet",
  "note": "",

@@ -1,6 +1,6 @@
 {
  "id": "web-wz1-exp",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "W-Z1's expectations file, written before its checks: C1 and C2 came out as expected and are verified on main (web-wz1-01); C3 had no expectation (web-wz1-05)",
  "note": "",

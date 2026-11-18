@@ -1,0 +1,18 @@
+{
+ "id": "web-wc8p4-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wc8_part4_on_main.py (exact integers): S1, for every trace t from 3 to 20,000 the eigenvalue field Q(sqrt(t^2 - 4)) equals Q(sqrt(t + 2)) exactly when t - 2 is a square (no exception; 141 metallic traces among them), and the control with t + 2 fails at t = 3; by hand, (t - 2)(t + 2) with m^2 + 4 never a square; S2, the Smith form of A_m - 1 is diag(m, m) for m = 1 to 200; S3, -1 is a square mod m^2 + 4 exactly for odd m, m = 1 to 200 (for even m, 4 divides N); the example [[5, 4], [1, 1]] = L^4 R has a metallic trace and is not conjugate to A_2 = L^2 R^2 (different cyclic words under rotation, exchange and reversal)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:41",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:43",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:45",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:47",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:48",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:49",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:51",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:52",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:53"
+ ]
+}

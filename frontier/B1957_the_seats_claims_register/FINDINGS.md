@@ -216,6 +216,8 @@ noted, and none is pending.
   citing an unlanded draft for 8 days), and an edit of the register made while a landing was at its gates. Both are
   mended; one old debt was paid on the way (P-092: the claim page's cubic row now says that with Higgs content in
   27s the down quarks and the charged leptons have one spectrum).
+- *[Dated 2026-11-18, later: the next sentence was true of the window as it stood that morning. The window was
+  widened the same day at the seat's word (below), and the lane has pending statements again.]*
 - **The web seat's lane is settled in full: 24 files, 1,850 statements, none pending** (791 verified, 144 partial, 22
   superseded, 893 noted). Its view's five own checks are redone by hand; its cards and log are read.
 - **The agy audit lane is settled in full: 4 files, 124 statements, none pending** (44 verified, 13 conditional, 17
@@ -245,6 +247,117 @@ noted, and none is pending.
   - A finite-dimensional model has no analysis in it. What carries the argument to the lane's fields on the cusp (the
     bounded inverse between weighted spaces, analyticity there, the centraliser being Q alone, regularity) is
     **conditional**, as the lane itself says: an author's proof, review pending, no input removed.
+- **The physical lane's first package (P-C3e, seven files, 206 statements) is settled.** Its three remaining proof
+  files were read in full and their exact content rebuilt on main (`checks/physical_c3e_roster.py`):
+  - **Verified, from E8's own 248 weights and explicit matrices:** the roster under the two principal triples; the
+    reflection's phases; the cubic's three channels; under one so(5) the 248 is one adjoint, eleven vectors,
+    thirty-two spinors and 55 trivial directions; the pencil's ranks 180 and 148 (68 and 100 summands); and
+    Tr₂₄₈(ad X)⁸ = 120 λ⁸ = (15/2)(Tr₅X⁴)² on the whole family, with the fourth-power trace cancelling (−12 + 44 − 32).
+  - **Conditional:** everything that needs the lane's operator, bundles and pole allowances (the kernel's count of
+    eleven chiral modes, the light cubic's coefficients, the second stationary family). Main has not rebuilt those.
+- **The lane's withdrawn harmonic-transport draft (2026-11-12) carries a correction to main's B1866, and it is right**
+  (`checks/physical_harmonic_draft.py`). The word L R⁻¹ L that B1866's finding F1 used is Inn_a ∘ s, with s the based
+  quarter-turn; both have the same homology matrix and different quaternion lifts, a reflection and a rotation. On the
+  branch the word fixes, the word acts by −1 and the based s by +1. So the two signs of F1 belong to two elements, and
+  neither is an error of arithmetic. B1866 carries a dated note. The draft's conclusion (the physical triplet and its
+  table of modes) is the lane's own withdrawal and is recorded as superseded; its other exact statements hold.
+- **The lane's boundary-law package (2026-11-15, 100 statements) is settled, almost all of it verified**
+  (`checks/physical_boundary_law.py`): the relative class of the figure-eight exterior, the reduced response
+  B* = pΦ/(r + p) (also from the field equations solved directly on a disc), the radial control, and the two sewing
+  problems. Its own conclusion is a limit, and main agrees: nothing in this model selects three.
+- **Two pages the lane pins as sources are main's own FINDINGS of B1641 and B1700, byte for byte** (67 statements,
+  noted as main's).
+- **Two old debts paid on the way** (they would have refused landings on 2026-11-20):
+  - **P-444:** where B1785's 585 bad window fits sit (240 where m₁ = 0 exactly, 345 in the closed form's domain); with
+    them left out B1788's comparison and B1785's medians stand; on the seven worst lines, run at 40 digits to height
+    14, every exponent approaches the closed form. As window fits they do not depend on the slope alone.
+  - **P-107:** the audit seat's counterexample of 2026-10-13 is verified: invariance under the moves does not single
+    out the hyperbolic measure (`checks/physical_measure_counterexample.py`).
+- **The web seat answered main's question (its status page, section 7, at 61da9bec5), and set two conditions for
+  writing HARVEST COMPLETE.**
+  - **Ten small items in main's record, all right, all acted on** (record `web-st7-03`). Among them: nine records
+    counted as verified some statements with a figure main had not recomputed (34 statements moved to PARTIAL
+    records); eleven of W-F17's statements were filed under the wrong records; the custody tool saw commit ids only in
+    backticks and reported 0 commits for three notes (mended, rerun for every lane); the congruence indices were filed
+    as noted (now computed on main, `checks/web_wz1_c3_indices.py`: 6, 1, 12, 6, 1, 12, 12).
+  - **Its older deliveries.** Main's own ledger shows 51 of this seat's rows before 2026-11-15 whose disposition is
+    RECEIVED (not read in full), REGISTERED, UNREAD or read only at the head. Main recounted with the seat's rule and
+    got its figures.
+  - **Main's decision, 2026-11-18: the older rows are taken into the register; none is ruled out.** The window now
+    also holds every file those rows name, the six relays read in full but outside the register, the seat's readings
+    for Reviews 79 and 81, and its cards: 108 more files, about 4,370 statements, pending. Among them are the
+    foundations cards W-F1 to W-F16, which main had received and never read in full. Rows whose disposition records a
+    reading with main's verdict are not reopened here; they stand under the harvest ledger and the reviews unless a
+    seat or the author names one.
+- **The web seat's verification cards of 2026-11-11 to 2026-11-14 (W-C1, W-C5, W-C6, W-C7, W-C8, with their cards),
+  read in full and recomputed on main** (`checks/web_wc8_part1_on_main.py`, `web_wc8_part2a_duality.py`,
+  `web_wc8_part4_on_main.py`, `web_wc5_on_main.py`, `web_wc6_part2_on_main.py`):
+  - **W-C8, the one-tick object.** The normaliser of the act is ±JⁿKᵉ in eight classes modulo the act for the metallic
+    acts m = 1 to 5 (searched; open beyond); the hand at the mark is (−1)ⁿ⁺ᵉ. A metallic tick has a mark exactly for
+    odd m: the Smith form of A_m + 1 is diag(gcd(m, 2), N/gcd(m, 2)), and for even m there is no square root of −1
+    modulo N at all (m to 200). So the mark does not single out the golden act among the odd ones; the torsion-free
+    condition does. Twisted duality h²(V) = h¹_rel(V*·w) holds on every character at levels 3 to 8 (16 to 1,682 of
+    them) and fails without w on 6, 20 and 56 characters at the odd levels. The eigenvalue field of an act is the
+    field of its level exactly at the metallic traces (every trace to 20,000).
+    Part 3 is a reading with nothing computed, and a lead: the class index cannot see odd ticks, so it is no test of
+    the even-tick condition; a derivation would have to use the characters' h¹ gaps or the hand at the mark.
+  - **W-C5.** B1914's eight classes and scalars and B1915's two and four orbits, on two codes. The seat asked that
+    B1915 name the basis of the second side's line: it is D(1, 2) = (1, 3) modulo 5, the seat's own, and main's run
+    pairs the placements as the seat's does (dated note on B1915). The cusp statement's rule is the integral's
+    condition exactly, checked in integers.
+  - **W-C6.** Part 2: main's own B1919 and B1921 routines run at the seat's twelve points agree (1.1e-9 and 2.3e-9),
+    and the controls come out as the seat's to the digits it prints; the seat's unclaimed remark, that the
+    Kronecker limit is the same at the transported point, holds (by hand, and to 2.8e-11). Part 1, its cold reading
+    of the short account: six real faults of over-claiming, each right against its source and each mended on the
+    page as landed.
+  - **W-C7.** B1913 on two codes, the same numbers to six digits (the flat density's greatest place moves by 0.0654
+    with the chart; the invariant density's does not).
+  - **W-C1.** Its re-audit of main's corrections E2 and E7. E2 accepted, and main's own computation gives its
+    indices. **E7: the seat was right and main's message was wrong.** Main had said the correction stood on every
+    page that quoted the freedom ledger's zero; six pages still stated it. All six carry the correction today, the
+    lock reads by paragraph and looks for the walk's own words, and both locks read the same root pages. Two things
+    stand as the seat left them, by main's stated choice: the walk still prints its withdrawn outcome when run, and
+    both locks exempt the programme page's folder.
+- **The web seat's foundations cards, received on 2026-11-14 and never read in full by main, are now read and
+  recomputed on main's own code** (W-F1 to W-F16, W-F18 to W-F23, W-F26, W-B1, with their cards; scripts
+  `checks/web_wf*_on_main.py`, `web_wb1_on_main.py`; other primes than the seat's). **Every computed figure of the seat's
+  reproduces.** What they establish, each with its limit:
+  - **The puncture is not a separate input of the seat's system** (W-F3, W-F5): a cone point is a relation
+    (abc)^K = 1 among the three distinctions, and every such relation kills the classes on the scar. Verified to
+    K = 13 on the face and for fibre orders 2 to 6 on the 3-dimensional objects; for every K by a short hand argument
+    main has checked.
+  - **The face follows from a hyperbolic act** (W-F2, W-F7): of the four faces of three distinctions only all
+    half-turns admits a hyperbolic step. Verified on all 2,800 products; for every length by a hand argument main has
+    checked (granted that a step respects the face).
+  - **Two theorems** (W-F6): for a character non-trivial on the fibre, h¹ = [χ(μ) = det]; the normaliser of the act's
+    group is ±JⁿKᵉ. Main read both proofs step by step and they hold; the law is also verified on a non-metallic
+    monodromy of determinant −1, a case the seat said it lacked.
+  - **A third theorem** (W-F12, W-F19): the class index is zero on every doublet at every odd level. Main read the
+    proof and recomputed all 54,942 doublets at seven odd levels and the 48,778 at golden level 7.
+  - **The order at the scar is irreducible in the seat's system** (W-F9): duality negates the index and every
+    symmetry preserves it. The census is verified (12, 210, 1,892 and 56 modules); the irreducibility is the seat's
+    hand argument, not independently proved.
+  - **"Three" is not forced by growth or by the frame's matter** (W-F8, W-F11): every n ≥ 3 has a growing history, and
+    a world of five distinctions carries 756 sector modules with index ±1 on 28 each. Verified.
+  - **The odd tick's matter is its double cover's** (W-F4): verified on main (transfer, the whole accounting, the
+    closed objects), with a third computation of agy-exp's example on the way.
+  - **Frame C's cusp mixing** (W-F26): a permutation in all eight options, the identity exactly when up and down take
+    the same reading. Verified on main's extended-precision frame; the exponents in that option are 3/5, 3/10, 11/10.
+    Nothing is compared with data.
+- **Three corrections to main's own record came out of these cards:**
+  - **B1922** said the frame is periodic along the thread at the own line "and not at any other line". False: it is
+    periodic at (1/5, 2/5) too (main's own routine: 7.7e-11, 8.2e-10, 5.7e-5). The seat had said so on 2026-11-14.
+    B1922 carries a dated correction.
+  - **B1866's F1** (above): the two signs belong to two elements.
+  - **B1607** now carries a note that its statement holds on the whole census to length 12.
+- **Two faults of main's own, made and mended while checking:** a wrong amphichirality criterion (32 for the seat's
+  33), and a test that skipped the trivial extension character (48 doublets for the seat's 64).
+- **Leads the cards leave with main, none yet computed by main:** whether analyticity is a line of the system (it
+  decides whether the order bit is irreducible or derived); the duality-transport test of the Higgs reading (is it
+  the order bit or a second bit); the class of the holomorphic Higgs kernel in frame D (R1 of W-F20); the three-turn
+  repetition of S* in extended precision; the same-reading world's cusp exponents.
+- **A fault in main's own record tool, found on the way:** it stamped a typed date, so 168 records written on
+  2026-11-18 said 2026-11-17. Corrected by each file's own write time; the tool now takes the day's date.
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).

@@ -1,0 +1,25 @@
+{
+ "id": "web-wc8p1-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wc8_part1_on_main.py (main's own code; and main's B1925 holds the same law): the normaliser of <LR> searched with entries to 12 has 44 elements, each of the form +-J^n K^e, in 8 classes modulo <LR>, with J^2 = LR, K^2 = -1 and K J K^-1 = -J^-1; at the mark (the line of (1, 2) mod 5) J acts by 3 and K by 2, and the hand of +-J^n K^e is (-1)^(n+e), the control (-1)^n failing; for m = 1 to 12, N = m^2 + 4 and the Smith form of A_m + 1 is diag(gcd(m, 2), N/gcd(m, 2)), so a line of order N sent to its opposite exists exactly for odd m; for odd m the mark is the line of (m, 2), on which J_m acts by lam = m/2 mod N (3, 8, 17, 30, 47, 68) with lam^2 = -1 and K by -lam; the search with entries to 30 finds the normaliser of <A_m> in the same eight classes for m = 1 to 5",
+ "note": "The seat's note was a second computation of main's tick-parity law; this is main's recomputation of the note's own additions (the metallic table and the search).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:19",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:20",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:22",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:25",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:27",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:35",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:36",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:37",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:39",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:41",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:45",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:46",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:50",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:51",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:54"
+ ]
+}

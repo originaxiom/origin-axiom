@@ -1,6 +1,6 @@
 {
  "id": "web-wh1-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "main reran its own instrument (scripts/checks/harvest_debt.py) at its present heads: no new unrowed item, no backlog, no stale row, every pin at its head, the SM seat clean; and 116 relays without a relay-ledger row (the seat counted 114 one day earlier; two more arrived). The instrument counts and does not grade, as the note says",
  "note": "The note's figures (847 ids, 27 seats, 5 skipped) are of its own commit; main's run on 2026-11-18 has 877 ids and reaches the hostile seat, which a plain clone skips.",

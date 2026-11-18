@@ -4933,30 +4933,6 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:107",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice.",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-107 — "
-   ]
-  ],
-  "rows": [
-   "P-107"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 57,
-  "debt_class": "an unverified premise or seat result under a banked structural result",
-  "rows_live": {
-   "P-107": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
   "id": "P:117",
   "layer": "15 debts",
   "kind": "debt",
@@ -5577,30 +5553,6 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-430": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
-  "id": "P:444",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians.",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-444 — "
-   ]
-  ],
-  "rows": [
-   "P-444"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 14,
-  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
-  "rows_live": {
-   "P-444": "QUEUED"
   },
   "weave_or_thread": "n/a"
  },

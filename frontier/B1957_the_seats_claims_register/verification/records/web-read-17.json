@@ -1,0 +1,13 @@
+{
+ "id": "web-read-17",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head 61da9bec5",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER.md",
+  "relays/cards/CHAT1_W-F6_the_character_gap_law_and_the_normaliser.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N.md",
+  "relays/cards/CHAT1_W-F8_three_distinctions_against_n.md"
+ ]
+}

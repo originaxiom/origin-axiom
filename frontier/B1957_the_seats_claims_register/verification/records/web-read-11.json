@@ -1,0 +1,11 @@
+{
+ "id": "web-read-11",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head 61da9bec5",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND.md",
+  "relays/cards/CHAT1_W-F1_the_distinction_layer_and_the_hand_at_the_common_point.md"
+ ]
+}

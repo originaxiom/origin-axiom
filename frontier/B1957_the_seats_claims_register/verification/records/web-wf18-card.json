@@ -1,0 +1,23 @@
+{
+ "id": "web-wf18-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card written before the rule was read. Borne out by the note, which discloses where it broke its own line (the values file)",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:8",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:9",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:13",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:15",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:17",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:18",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:19",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:20",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:21",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:22",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:23",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:24",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:25",
+  "web:cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule:27"
+ ]
+}

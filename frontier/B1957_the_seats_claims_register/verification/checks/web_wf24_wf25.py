@@ -23,6 +23,15 @@ if __name__ == "__main__":
             for i in (1, 2): drops.append((sec, rd, i + 1, float(W.mp.log(s2[i] / s2[0]) - W.mp.log(s6[i] / s6[0]))))
     d = [x[3] for x in drops]
     print("F1: at the mark, Re tau = 0, heights 2 to 6: the 12 ratios' logarithms fall by between %.1f and %.1f (slopes %.2f to %.2f per unit of height); every one falls: %s" % (min(d), max(d), min(d) / 4, max(d) / 4, min(d) > 0))
+    cols = ["%.1f" % (k / 10) for k in range(-5, 6)]; acc = {}
+    for tx in cols:
+        for sec, (ql, qr) in W.SIX.items():
+            Y2, Y6 = W.coupling(tx, 2.0, a, b, ql, qr, False, as_mp=True), W.coupling(tx, 6.0, a, b, ql, qr, False, as_mp=True)
+            for rd in ("S", "St"):
+                s2 = sorted((W.mp.svd_c(Y2[rd], compute_uv=False)), reverse=True); s6 = sorted((W.mp.svd_c(Y6[rd], compute_uv=False)), reverse=True)
+                for i in (1, 2): acc.setdefault((sec, rd, i), []).append(float(W.mp.log(s2[i] / s2[0]) - W.mp.log(s6[i] / s6[0])))
+    mean = [sum(v) / len(v) for v in acc.values()]
+    print("F1 (added 2026-11-18, the seat's section 7.1): the same falls averaged over eleven columns Re tau = -0.5 to 0.5: between %.2f and %.2f (the seat's note: 5.6 to 20.5; its grid: 5.62 to 20.47). So main's 21.0 and the note's 20.5 are one figure read two ways" % (min(mean), max(mean)))
     for seed in (1924, 7):
         rng = random.Random(seed); tot = 0.0; above = {1.5: 0.0, 2: 0.0, 3: 0.0, 4: 0.0}; n = 0
         while n < 600:

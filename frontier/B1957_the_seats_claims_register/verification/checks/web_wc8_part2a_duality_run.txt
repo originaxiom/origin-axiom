@@ -1,0 +1,7 @@
+level 3 (prime 300017): 16 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 6
+level 4 (prime 300151): 50 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 0
+level 5 (prime 300191): 242 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 20
+level 6 (prime 300017): 128 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 0
+level 7 (prime 300151): 1682 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 56
+level 8 (prime 300151): 1350 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 0
+E2: the fibre torsion at levels 1 to 8: [1, 1, 4, 5, 11, 16, 29, 45]

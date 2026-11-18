@@ -1,0 +1,22 @@
+R1: so(10)'s adjoint under the two principal sl2: [('0', '1'), ('0', '3'), ('1', '0'), ('2', '2'), ('3', '0')] (dimensions sum to 45); its spinor: [('3/2', '3/2')]; a summand (0, 0): False
+R1: E6's adjoint: 1 + 45 + 16 + 16 = 78
+R2: j = 1: |Ad_A T_(j,+) - (-i)^j T_(j,-)| = 1.5e-16; down the string, the phase at each weight m against i^(-m): 3.0e-16
+R2: j = 3: |Ad_A T_(j,+) - (-i)^j T_(j,-)| = 2.2e-15; down the string, the phase at each weight m against i^(-m): 1.6e-12
+R2: the vector's highest weight: A e = (-0+1j) e' (the lane: i); the cross module's highest element e ^ e' goes to (1+0j) times itself (the lane: +1)
+R2: j = 1: A_(+j) = (1+0j) sigma_x, A_(-j) = (-1+0j) sigma_x (the lane: i^(1-j), i^(1+j)); beta_j = -1; in a sigma_x eigenline the two core phases at w = -j are (-1.0, 1.0): opposite, a non-trivial flat line
+R2: j = 3: A_(+j) = (-1+0j) sigma_x, A_(-j) = (1-0j) sigma_x (the lane: i^(1-j), i^(1+j)); beta_j = +1; in a sigma_x eigenline the two core phases at w = -j are (1.0, 1.0): equal, the characters (delta, delta)
+R3: the 4 of so(5) built from Clifford matrices: a homomorphism to 1.8e-15; its weights [1.5, 0.5, -0.5, -1.5]; the lowest spin-3 element has non-zero entries at [(3, 0)] of modulus 12.0000 (one entry, from weight 3/2 to -3/2)
+R4: one form slot and two spin slots, total charge and total weight zero: the channels are ['A S T', 'P N T', 'R N S'] (the lane: A S T, N T P, N S R)
+R4: with S = T = N_c = N_d = 0 every first derivative of the light cubic vanishes for all A, P, R: True
+R4: on N_c = t nu_c, N_d = t nu_d the charged mass matrix over t, rows (P_c, P_s, S), columns (R_c, R_s, T): [[0, 0, lambda_p*nu_c], [0, 0, 0], [lambda_m*nu_d, 0, 0]]; rank 2; (Y Y^T) eigenvalues ['0', 'lambda_m**2*nu_d**2', 'lambda_p**2*nu_c**2']
+R5: X = a E + b T: |Tr X^2| = 0.0e+00; |Tr X^4 - 4 a^3 b Tr(E^3 T)| = 1.6e-13 with Tr(E^3 T) = 288 > 0; the eigenvalues' fourth powers against (0, lam^4 four times): 1.7e-12
+R6: E8's 248 weights restricted to one so(5) (the first two coordinates) equal 1 adjoint + 11 vectors + 32 spinors + 55 trivial as multisets: True (10 + 55 + 128 + 55 = 248)
+R6: sl2 summands of the 248: under one principal triple 100 (weight 0: 68, weight 1: 32), so its raising element has rank 148; under the diagonal triple 68 (weight 0: 68, weight 1: 0), rank 180 (the lane: 100 and 148; 68 and 180)
+R7: explicit matrices, random a and b: Tr_10 (ad X)^8/lam^8 = 68.000000 (68); Tr_5 X^8/lam^8 = 4.000000 (4); Tr_4 X^8/lam^8 = 0.250000 (1/4); by the roster Tr_248 (ad X)^8/lam^8 = 120.000000 (120), and over (Tr_5 X^4)^2: 7.500000 (15/2)
+R7: the fourth power: Tr_10 + 11 Tr_5 + 32 Tr_4 of X^4 over lam^4 = 1.7e-14 (parts -12.0000, 44.0000, -32.0000: the lane's cancellation)
+R7: directly from E8's 248 weights at the Cartan element (lam, i lam, 0, ..., 0): sum of eighth powers = 120*lam**8; of fourth powers = 0; of squares = 0
+R7: as polynomials in the two eigenvalues: Tr_248 (ad X)^8 - (15/2)(Tr_5 X^4)^2 is divisible by x^2 + y^2 = Tr_5 X^2 / 2: remainder 0 (so the identity holds on the whole family Tr_5 X^2 = 0)
+R7: the pencil z1 q' + z2 r' with both neutral amplitudes on (eigenvalues s, i s in one factor and t, i t in the other): Tr_248 (ad)^8 = 120*(s**4 - 2*s**3*t + 2*s**2*t**2 + 2*s*t**3 + t**4)*(s**4 + 2*s**3*t + 2*s**2*t**2 - 2*s*t**3 + t**4); fourth powers: 0 (zero for the reference pencil, where s = t = 0)
+R5: the moment's linear term: |[T_(3), E^dagger]| = 0.0e+00 and |[T_(3)^dagger, E]| = 0.0e+00; factors commute: |[E_+, T_(3,-)]| = 0.0e+00
+R8: section counts on an elliptic curve at the degrees the files state: spin j = 1 (degree 0, non-trivial flat line): 0 and 0; j = 3 at w = +3 (degree -2): 0; at w = -3 (S^4 L_delta with one pole, degree 1): 1 for each delta, so 2 neutral spin modes; the cross module's forms (degree 2): 2; the charged forms' target (degree 2): 2
+R8: the count: neutral A, B1, B2, N_+, N_- = 5; charged 3 + 3; one gaugino: 12 in all, 11 chiral; without the two charged spin modes 9 chiral

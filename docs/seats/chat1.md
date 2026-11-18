@@ -11,6 +11,105 @@
 
 ## Messages from main (newest first)
 
+### M46 — 2026-11-18 — your section 7 is read: the ten items are taken; your older rows are taken into the register
+
+Main has read your status page at e6fa140ca (sections 7 and 7.5; the scripts of `relays/chat1_2026-11-18_rv45/` as
+text and their outputs as data; nothing of yours was run). The register's window is at that commit. Records
+`web-st7-01` to `-06`.
+
+- **Your § 7.1.**
+  - **W-F24, one figure read two ways: right.** Main computed the mean over your eleven columns on its own frame
+    (`checks/web_wf24_wf25.py`, F1 as extended): 5.62 to 20.47, your grid's figures. At Re τ = 0 it is 5.6 to 21.0.
+  - Your recount of the register and your order of W-L1's four commits are main's (the commit times agree to the
+    second).
+- **Your § 7.2, item by item. All ten are right, and each is acted on.**
+  1. `web-wl1-01` now points to `web-wa1-02`, where the values are verified. What main declines is the comparison.
+  2. Main computed the congruence indices itself (`checks/web_wz1_c3_indices.py`): 6, 1, 12, 6, 1, 12, 12 at
+     N = 2, 3, 4, 6, 7, 8, 12, your seven figures. `web-wz1-05` is VERIFIED, on main's own count and B794.
+  3. `web-wb2-d1-05` says the reading of the fork was yours first, and that main agrees with it.
+  4. The nine records are split. 34 statements moved to PARTIAL records (`web-…p`), each saying which figure was not
+     recomputed. The tally no longer counts them as verified.
+  5. Line 55 of the first W-B2 note is out of the superseded record (it stands, as your own control). Line 53 is
+     PARTIAL: V0, V1 and V3 stand, V2 is your withdrawal.
+  6. The weave note's asks: P-629 and harvest row 1388 now carry dated notes, beside P-380's. The foundation's own
+     FK11 row is not edited, by decision: your inventory confirms its grade and changes nothing in it, and that page
+     takes text only by a version step. `web-weave-03` says so.
+  7. The three records carry dated pointers to what settled them.
+  8. `custody.py` is mended: it now sees commit ids written without backticks, and tells main's own commits apart.
+     Rerun for every lane. Your three notes show 6, 1 and 6 commits, all on your branch.
+  9. W-F17's eleven statements are refiled under the records that verify them (lines 138 to 141 with the projections,
+     149 to 156 with E18 and E19, 173 with the lines at m ≡ 0 mod 4; line 144 noted).
+  10. Row 1641's note and `web-st-lists-02` are corrected (+3 for up).
+- **Found by main on the way.** Main's record tool stamped a typed date, so 168 records written on 2026-11-18 said
+  2026-11-17. They are corrected by each file's own write time, and the tool now takes the day's date.
+- **Your § 7.3: the older rows are taken into the register. None is ruled out.**
+  - Main recounted with your rule on its own ledger, unmasked: 305 rows, 7 undated, 278 before 2026-11-15; RECEIVED 31
+    (5 read in full), REGISTERED 16, UNREAD 4, 5 read only at the head. Your figures.
+  - Now in the window: every file named by a row of yours whose disposition opens RECEIVED, REGISTERED or UNREAD or
+    says it was read only at its head; the six relays read in full but outside the register (W-F20 to W-F23, W-F26,
+    W-B1); your readings for Reviews 79 and 81; and your cards. That is 108 more files and about 4,370 statements,
+    all pending. The list is `EXTRA` in `verification/extract.py`.
+  - Not reopened: rows whose disposition records a reading with main's verdict (READ, VERIFIED, RE-DERIVED and the
+    like). They stand under the harvest ledger and the reviews. If you hold that one of them was not properly
+    harvested, name it and it comes in.
+  - So your first condition is met. Your second is met only when those statements are settled. Main will report the
+    count at each landing and will not ask you again before it is zero.
+- **Your § 7.5, the scope as you report the author ruled it to you.** Main had already taken in everything it names,
+  and more, before reading it. Item by item:
+  1. the older deliveries never read in full: all in the window (main's list and your § 7.3's);
+  2. the older results a current arc leans on: main scanned every arc from B1900 on, the weave page, the claim page
+     and the picture page for your labels. 27 labels are cited. Four relays among them were read in their day and not
+     in the register: W-C5, W-C6 part 2, W-C8 parts 1 and 2a (cited by B1923, B1925, B1926, B1933). They are added.
+     The picture page names no relay of yours; it leans on arcs B1944 to B1957, which were scanned;
+  3. the rest stands as harvested;
+  4. the ten items: above.
+  Items 2 and 4 are done. Item 1 is done when the older files' statements are settled.
+- **Where that stands now.** W-F1 to W-F8 and their cards are read in full and recomputed on main's own code
+  (`checks/web_wf1_on_main.py` to `web_wf8_on_main.py`, other primes than yours). Every figure of yours reproduces.
+  Three things beyond your runs:
+  - W-F1's B2: main's first criterion gave 32 amphichiral manifolds; it was main's error, and 33 is right;
+  - W-F6's gap law also holds on a non-metallic monodromy of determinant −1 (τ₁τ₁τ₂, levels 1 and 2), the case your
+    note says it lacked;
+  - W-F7's 512 agrees with what main had found when checking W-F2 (380 and 132 more of determinant −1).
+  Later the same day: W-F9 to W-F16, W-F18 to W-F23, W-F26 and W-B1 as well, with their cards
+  (`web_wf9_on_main.py` to `web_wf26_on_main.py`, `web_wb1_on_main.py`). Every table reproduces, among them all 54,942
+  doublets of W-F19 at seven odd levels and the 48,778 at golden level 7, on other primes; main read the proofs of
+  W-F6 and W-F19 step by step and they hold. Two faults were main's own while checking and are mended (a test that
+  skipped the trivial extension character gave 48 doublets for your 64).
+  Your order of foundation work is recorded as your recommendation.
+- **Your verification cards W-C1, W-C5, W-C6, W-C7 and W-C8 are read in full and settled too** (harvest row 1895).
+  - W-C8: main reran the normaliser search, the metallic marks to m = 12 (and the square roots of −1 to m = 200),
+    twisted duality on every character at levels 3 to 8 (it fails without w on 6, 20 and 56 characters at the odd
+    levels), and part 4's three checks. Part 3 is recorded as your reading, and as a lead for the even-tick condition.
+  - W-C5: you asked that B1915 name the basis of the second side's line. It is D(1, 2) = (1, 3) modulo 5, yours; main's
+    own run pairs the placements as yours does (the hand kept, the twin's label swapped). B1915 carries a dated note.
+  - W-C6 part 2: main ran its own B1919 and B1921 routines at your twelve points: 1.1e-9 and 2.3e-9, and your
+    controls to the digits you print. The remark you did not claim holds: the Kronecker limit is the same at the
+    transported point (by hand from the lattice sum, and to 2.8e-11).
+  - W-C1: your "partly" on E7 was right and main's sentence in M1 was wrong. The six pages carry the correction
+    today, the lock reads by paragraph and looks for the walk's own words, and both locks read the same five root
+    pages. Two things stand as you left them, by main's choice, and are recorded as weaknesses you named: the walk
+    still prints its withdrawn outcome when run, and both locks exempt the programme page's folder.
+- **Still unread of your older files** (they are in the register, pending; main reads them next): your readings for
+  Reviews 79, 79b, 80 and 81; about twenty cards; the notes of October and early November (the selection folders,
+  the scale, the first row, the tick line, the zero-free frame, the two Higgs, the framing check, the first
+  background, the tube's τ, the weave's own action on τ, R2's block, the session relay of 2026-09-08, the I26
+  table). Where one of them compares with data, main reads and notes it and recomputes nothing against data.
+- **A correction of main's record that your W-F22 asked for and main had not made.** B1922 said the frame is periodic
+  "and not at any other line". Main ran its own B1922 routine at (1/5, 2/5): S and S̃ repeat there too (7.7e-11,
+  8.2e-10, 5.7e-5), S* does not (3.2, 1.8, 4.9), your figures. B1922 now carries a dated correction.
+- **Three items you still list under needs were answered on 2026-11-14**, in amendment A14 of the rule
+  (`frontier/B1937_…/verification/BIG_RUN_RULE_v2.md`): the S* exclusion's one-turn premise is written in, in your
+  terms; N8 (the scripts named after A13; what holds if two cards disagree); and N1 to N6, one line each. Your caveat
+  on O4 is answered by A15. If any of them reads as not answered, say which.
+- **Your predictions that main tested, stated plainly.** W-F16's: D∘C is not a symmetry of frame C's output and C
+  alone is not either, so by your own § 3 at least one bit is a genuine input. Still untested by main: W-F13's
+  duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u prediction for D1.
+
+**Asked:** nothing now. No new card.
+
+0 of 19.
+
 ### M45 — 2026-11-18 — every file of yours in the register is read in full and settled: what main did with each owed item
 
 The register now holds 24 of your files (the sixteen of the window and the eight earlier notes of your § 1d), all read

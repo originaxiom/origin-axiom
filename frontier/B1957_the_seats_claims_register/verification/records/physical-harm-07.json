@@ -1,0 +1,10 @@
+{
+ "id": "physical-harm-07",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the failure note's argument, by hand: for sections with Psi(D_h x) = R_h Psi(x), a lift acting as U Psi(x) = B Psi(F^-1 x) with F = D_h and B = R_h gives U Psi(x) = R_h Psi(D_h^-1 x) = R_h R_h^-1 Psi(x) = Psi(x). So a coefficient character alone does not survive; the argument factor can cancel it",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_FAILURE:12"
+ ]
+}

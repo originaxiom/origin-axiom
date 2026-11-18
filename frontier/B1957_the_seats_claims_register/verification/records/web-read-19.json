@@ -1,0 +1,12 @@
+{
+ "id": "web-read-19",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR.md",
+  "relays/CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER.md",
+  "relays/cards/CHAT1_W-F11_five_distinctions_and_the_frames_matter.md"
+ ]
+}

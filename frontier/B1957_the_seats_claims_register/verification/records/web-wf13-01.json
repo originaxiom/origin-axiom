@@ -1,0 +1,16 @@
+{
+ "id": "web-wf13-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf13_algebra.py and by hand: with i = diag(i, -i), j = [[0, 1], [-1, 0]], k = ij, complex conjugation sends i, j, k to -i, j, -k and conjugation by j does the same, so j S* j^T = a_i* i + a_j* j + a_k* k; for U in SU(2), (U S U^-1)~ = U S~ U^-1 (1e-15 on 200 random cases), so the two readings carry the same SU(2) action; and (e^(i theta) S)~ = e^(-i theta) S~, so they carry opposite phase under any U(1) acting on the coefficients",
+ "note": "The algebra is elementary. 'If the frame's hypercharge acts on the coefficients by a phase' is the note's own condition.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:12",
+  "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:13",
+  "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:14",
+  "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:16",
+  "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:18",
+  "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:20",
+  "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:22"
+ ]
+}

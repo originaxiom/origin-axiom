@@ -1,6 +1,6 @@
 {
  "id": "web-wf24-04",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "not recomputed on main: the fibre's spread at 49 of 55 bulk points (X2), the arithmetic mean's excess over the geometric one (median 1.03 to 1.52; X3), and the factor 1.64 to 2.90 by which the geometric read-out is smaller (X5). Main's grid holds the 24-point arithmetic average only, so the geometric mean needs the per-point values rebuilt. The seat's referee recomputed X5 with main's frame code (three digits, by its account). The consequence drawn, that the form of the mean costs at most a factor of about 3 and the surface average dominates the loss, agrees with B1944's lesson. The two plants and the reported equality of the down and lepton ratios: the plants are the seat's own run; the equality is verified elsewhere (agy002v-m33-02)",
  "note": "",

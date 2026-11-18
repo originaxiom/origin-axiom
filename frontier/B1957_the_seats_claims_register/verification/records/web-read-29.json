@@ -1,0 +1,10 @@
+{
+ "id": "web-read-29",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY.md"
+ ]
+}

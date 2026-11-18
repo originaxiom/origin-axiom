@@ -1,0 +1,5 @@
+products of 1 to 4 of the seven moves: 2800; M1: those carrying (abc)^2 to a conjugate of itself or its inverse: 2800
+M2: those keeping the three pair classes: 538; the matrices they induce, up to sign: 6, [[-1, 0, -1, 1], [-1, 0, 0, -1], [-1, 1, -1, 0], [-1, 1, 0, 1], [0, -1, -1, 0], [0, -1, 1, -1]]; every one of finite order: True
+M3: with |trace| > 2: 380; of them keeping the pair classes: 0; the note's example (a through b)(b through a)(b through c): [[-3, 2], [2, -1]]; products of determinant -1 and non-zero trace (hyperbolic too): 144, of which with |trace| <= 2: 132, and keeping the pair classes: 0
+controls: swap a,b keeps the pair classes: True; a through b: False; the exact-word test on swap a,b at the half-turn cusp: False, the conjugacy test: True
+M4: (swap b, c)(c through b) acts on H_1 as [[1, 0], [1, 1]] (the note: [[1, 0], [1, 1]]), trace 2, of finite order within 24 steps: False; it sends a, b, c to ['a', 'c', 'cbc'], and the classes of abc, bc and (abc)^2 to conjugates of themselves or their inverses: [True, True, True]

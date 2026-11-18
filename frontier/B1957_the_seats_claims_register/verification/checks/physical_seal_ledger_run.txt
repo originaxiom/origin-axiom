@@ -2,3 +2,5 @@ L1: lines added 10, removed 0; the base's 9411 lines are the first 9411 lines of
 L2: DESIGN.md, sha256 63b76d5d82e8...: the file had this hash in 1 commit(s) of the branch, first at d5b9afdf6 (2026-11-16 02:24); the commit its note names, 12755db8a, is the same as or before that version's first commit
 L2: SPECIFICATION.json, sha256 d320ac1de951...: the file had this hash in 1 commit(s) of the branch, first at d5b9afdf6 (2026-11-16 02:24)
 L2: SPECIFICATION.json, sha256 0a755649dffe...: the file had this hash in 1 commit(s) of the branch, first at ca02b5d8d (2026-11-16 02:28)
+L3: frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md: identical to main's own file in the working tree: True; the commits of main at which the file had these bytes: ['6c284920e']
+L3: frontier/B1700_the_higgs_end_data_is_the_unit/FINDINGS.md: identical to main's own file in the working tree: True; the commits of main at which the file had these bytes: ['9963cf49a']

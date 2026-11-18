@@ -1,0 +1,29 @@
+{
+ "id": "physical-ker-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the kernel's count, each step an inference main has checked from premises it has not: which harmonic lines are retained and that the complement has a gap; the line exponent S^(1-w); the pole allowances; then by the signs of equation (1) the spin-1 modules give non-trivial flat lines of degree 0 with no section, the spin-3 modules give no section at w = +3 and one for each character (delta, delta) at w = -3, the cross module's form line of degree 2 gives two, and with the charged modes of the earlier half-root calculation the total is 5 + 3 + 3 chiral and one gaugino (9 chiral without the two charged spin modes). checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R1 and R8: the module labels are the branching of so(10)'s adjoint and spinor under the two principal sl2 ((1,0)+(3,0)+(0,1)+(0,3)+(2,2); (3/2,3/2)), the cross module's highest weight is 4, and the section counts are those of an elliptic curve at the stated degrees. Conditional on the lane's model: its supplied E8 background, the operator and domains of its earlier packages, and the holomorphic lines and pole allowances it assigns; main has not rebuilt those. The lane's own page says each is an author's hand derivation awaiting independent review, with no input removed.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:3",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:11",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:13",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:18",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:37",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:46",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:51",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:56",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:62",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:71",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:76",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:90",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:97",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:100",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:103",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:108",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:110",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:115",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:122",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS:128"
+ ]
+}

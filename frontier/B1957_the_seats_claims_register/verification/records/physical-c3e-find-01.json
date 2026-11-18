@@ -1,0 +1,18 @@
+{
+ "id": "physical-c3e-find-01",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the package's own summary of its five proofs; each sentence mirrors statements settled at the proof files (records physical-ker-01 to -03, physical-cub-01 to -03, physical-bal-01 to -03, physical-c3e-01 to -05, physical-pen-01 to -04): the kernel's counts, the light cubic, the balanced forms' cancelled quartic, the two local stationary families, the Q vector's mass 4 e_Q^2 t^2. What main verified there: the representation theory, the algebra of the two implicit-function steps in a model, the indicial exponents. What main did not: the lane's operator, bundles, pole allowances and the weighted analysis on the cusp. The summary itself says the proofs are an author's and that review must still establish their analytic and global premises",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:9",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:16",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:18",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:20",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:27",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:35",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:42",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:50",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:61"
+ ]
+}

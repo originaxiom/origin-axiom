@@ -1,0 +1,15 @@
+{
+ "id": "physical-bl-08",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the package's findings 1 to 5 are the statements verified at the two proof files (physical-bl-01 to -05). Its account of its own checker is held against the sealed output, read as text: the run completed; the gauge test's dropped-phase control changes the energy (335501353/177811200, not 0); the wrong source sign is detected; the smooth radial control's errors are 5.4e-72 and 0. Main recomputed the cut table of that output from the formula (W7)",
+ "note": "The lane's checker is its own; main ran none of it. What is verified here is the mathematics, on main's code, and that the page reports its output faithfully.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:8",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:11",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:17",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:25",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:29",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:39"
+ ]
+}

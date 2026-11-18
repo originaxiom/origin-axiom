@@ -1,6 +1,6 @@
 {
  "id": "physical-read-02",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "READ",
  "lane": "physical",
  "how": "read by main in full at the lane's head 8d5c91032",

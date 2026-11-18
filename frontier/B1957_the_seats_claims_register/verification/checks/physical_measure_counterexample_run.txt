@@ -1,0 +1,4 @@
+M1: |F(tau + 1) - F(tau)| and |F(-1/tau) - F(tau)| at four points: at most 1.47e-39 and 7.35e-40; the three terms at tau and at tau + 1 as sorted lists agree to 1.1e-39
+M2: F(i) = 8.0; F(omega) = 7.55952629936924; F at heights 2, 4, 8: ['16.484807', '131.88961', '8696.9493'] (it grows as |q|^(-1/6)); the least value found on a grid of the fundamental domain: 7.559526299
+M3: the area of the fundamental domain: 1.0471975512 (pi/3 = 1.0471975512); the mean of 1/(1 + F) over it: 0.05780699456, against 1/(1 + F(i)) = 0.1111111111
+M3: P(Im tau > 2) under the hyperbolic measure: 0.4774648293; under the measure with eps = 1: 0.4585534412. Two different invariant probability measures

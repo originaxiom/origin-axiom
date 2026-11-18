@@ -82,3 +82,14 @@ So, with the counts of § 1 unchanged:
   counted as derived.
 - B1913's R6 does not wait on a ruling either (its own dated correction). The two items are still one: both are the
   weight's condition. The words of § 2 are kept as written above.
+
+## Dated note, 2026-11-18: the basis of the second side's line (asked by the web seat's W-C5; B1957)
+
+The web seat recomputed this page's counts on its own code (W-C5, 2026-11-13: 176 maps, two orbits and four) and asked
+that the page name the basis of the line on the side D·A·D, because which placements share an orbit depends on it.
+The script's basis is D(1, 2) = (1, −2) = (1, 3) modulo 5 (`BASE` in `verification/the_hand_rows.py`): the forward
+line's image under the side's mirror. That is the seat's basis too. With it, in this page's own run, each of the four
+orbits under the orientation-keeping maps holds the placement (forward, hand o, v) with (backward, hand o, 2v): the
+map between the sides that keeps the hand swaps the twin's label. The seat found the same pairing. The counts two and
+four do not depend on the basis. Main's 88 counts the maps between the two sides; the seat's 88 counts the
+orientation-keeping maps; both are right (`frontier/B1957_the_seats_claims_register/verification/checks/web_wc5_on_main.py`).

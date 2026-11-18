@@ -1,0 +1,3 @@
+level 3 (prime 313897): |T| = 4; characters 16; extension characters 4 ({'trivial': 1, 'fibre-non-trivial, l(mu) = -1': 3}); doublets 64; class index non-zero on 0; n(V) = n(V* w) = 1 on 6; the gap's census {-2: 3, -1: 4, 0: 50, 1: 4, 2: 3}
+level 5 (prime 313897): |T| = 11; characters 242; extension characters 11 ({'trivial': 1, 'fibre-non-trivial, l(mu) = -1': 10}); doublets 2662; class index non-zero on 0; n(V) = n(V* w) = 1 on 90; the gap's census {-2: 10, -1: 11, 0: 2620, 1: 11, 2: 10}
+level 7 (prime 313897): |T| = 29; characters 1682; extension characters 29 ({'trivial': 1, 'fibre-non-trivial, l(mu) = -1': 28}); doublets 48778; class index non-zero on 0; n(V) = n(V* w) = 1 on 756; the gap's census {-2: 28, -1: 29, 0: 48664, 1: 29, 2: 28}

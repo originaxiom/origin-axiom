@@ -1,0 +1,11 @@
+{
+ "id": "physical-pen-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R5 and R1: the algebraic identities are verified (the lowest spin-3 element commutes with E^dagger and its adjoint with E, so the moment has no linear term; elements of the two factors commute; so(10)'s adjoint has no summand (0, 0) under the two triples, so their centraliser in D5 has zero Lie algebra and the D5 gauge operator has no kernel from it). NOT verified: that u and v solve the lane's spin zero-mode equations, and the weighted inverse on the cusp (physical-c3e-03)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:31",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:44"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "physical-bl-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/physical_boundary_law.py, W1, and Stokes by hand: for the figure-eight exterior (SnapPy on main) H_1 = Z, the generator of H^1 is 1 on the meridian and 0 on the longitude, so restriction to the boundary is k -> (k, 0) and H^2 of the pair is Z^2/<(1,0)> = Z; for a trivial line with connection A and a boundary section exp(i phi), N = (int_C F - oint eta)/(2 pi) with eta = A - d phi is the longitude winding of phi, unchanged by gauge transformations that extend over X; with A = 0 every relative class occurs at zero curvature",
+ "note": "A standard fact, stated with its consequence: the relative integer alone says nothing about curvature.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:31",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:36",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:41",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:44",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:49",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:53",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:57",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:61",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:65",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:70",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:75"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "physical-cub-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R4 and R3: with one form slot and two spin slots, total charge zero and total weight zero, the only channels among the listed modes are A S T, N T P and N S R (enumerated; B's weight 4 pairs with no pair of spin weights, which sum to 0, -3 or -6); in the 4 of so(5), built from Clifford matrices, the lowest element of the adjoint's spin-3 part is a single non-zero entry from weight 3/2 to -3/2",
+ "note": "The enumeration takes the modes' charges and weights as the file lists them.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS:24",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS:27",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS:31",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS:42"
+ ]
+}

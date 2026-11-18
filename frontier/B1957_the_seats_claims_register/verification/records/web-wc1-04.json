@@ -1,0 +1,15 @@
+{
+ "id": "web-wc1-04",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what was not done and what is disclosed (the gloss checked by main's own test; 31 computation records not opened; what was read when; one output with a local path replaced, its hash kept; main's two locks and the walk run on the seat's checkout; thirteen referee corrections applied)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:173",
+  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:174",
+  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:176",
+  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:177",
+  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:180",
+  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:183"
+ ]
+}

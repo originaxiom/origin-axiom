@@ -1,0 +1,15 @@
+{
+ "id": "web-wc6p2-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "how it was checked (its own points; main's two scripts read afterwards for conventions only and not run); what was not run and what was asked (B1920, not stated fully enough in main's message; B1922, held by the seat's firewall; both were answered since: the seat's W-F22 runs B1922's question at lines of its own); its disclosure of one unmasked commit subject; its files",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:7",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:49",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:51",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:54",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:59",
+  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:62"
+ ]
+}

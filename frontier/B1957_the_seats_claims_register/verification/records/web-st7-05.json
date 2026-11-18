@@ -1,0 +1,29 @@
+{
+ "id": "web-st7-05",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the seat's statement that whether the harvest takes in the older rows is for main or the author to decide; that HARVEST COMPLETE is not written; its two conditions for writing it (each item of 7.2 taken or answered; the older rows read into the register or ruled outside with a dated ruling); and the section's own provenance, with the six claims of its first version that its referee read corrected. Main's answer to the first: taken in (web-st7-04). The first condition is met at this date; the second is met in the form 'read into the register' only when those statements are settled, which they are not yet",
+ "note": "This is the statement the goal turns on for this seat.",
+ "units": [
+  "web:STATUS_CHAT1:539",
+  "web:STATUS_CHAT1:541",
+  "web:STATUS_CHAT1:542",
+  "web:STATUS_CHAT1:543",
+  "web:STATUS_CHAT1:545",
+  "web:STATUS_CHAT1:546",
+  "web:STATUS_CHAT1:547",
+  "web:STATUS_CHAT1:580",
+  "web:STATUS_CHAT1:582",
+  "web:STATUS_CHAT1:583",
+  "web:STATUS_CHAT1:584",
+  "web:STATUS_CHAT1:585",
+  "web:STATUS_CHAT1:586",
+  "web:STATUS_CHAT1:589",
+  "web:STATUS_CHAT1:591",
+  "web:STATUS_CHAT1:592",
+  "web:STATUS_CHAT1:593",
+  "web:STATUS_CHAT1:594",
+  "web:STATUS_CHAT1:595",
+  "web:STATUS_CHAT1:596"
+ ]
+}

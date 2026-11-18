@@ -1,6 +1,6 @@
 {
  "id": "agyaudit-read-01",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "verdict": "READ",
  "lane": "agy-audit",
  "how": "read by main in full at the lane's head d1c71f255, through the mask; nothing run",

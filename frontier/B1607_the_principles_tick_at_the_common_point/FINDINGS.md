@@ -33,6 +33,14 @@ subgroup of SL(2, ℤ) (abelianisation ℤ/12); Skuratovskii's square-root ident
 | **C3c** | the mirror keeps the sense, reversal inverts it, all words | 85% | **HOLDS** on all 30 — **not the mirror bit** |
 | **C3d** | the 64 lifts of the three 2-torsion points give triangles of both orientations | 95% | **HOLDS** — orientations {−1, +1}: the oriented fibre orients no parity triangle |
 
+
+> *Noted 2026-11-18 (B1957, record web-wf1-02; `frontier/B1957_the_seats_claims_register/verification/checks/web_wf1_on_main.py`,
+> B3). C3a to C3c were computed here on 30 odd-trace words to length 8. The web seat's card W-F1 (2026-11-14) recomputed
+> them at the quaternion point on its own code to length 12, and main has now recounted that: 163 odd-trace states for
+> each sign, 3,608 cases with every rotation of the word, and in every one the lift's class flips under inversion and
+> under conjugation by the lifts of L, R and P, and is kept by D, −1 and the inner automorphisms. So the sense is not a
+> thread invariant on the whole census to length 12, not only on the 30 words.*
+
 ## 2. What it says
 
 **The rule contains the swap.** The principle's one tick is σ = L∘P: swap the records, then apply L. Its matrix is

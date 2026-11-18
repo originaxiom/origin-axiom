@@ -1,0 +1,7 @@
+F1: H_1(O_K) = (Z/2)^r with r = [3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2] for K = 2 to 13, and 3 at K = infinity; the parity character needs (-1)^K = 1: it exists at K = [2, 4, 6, 8, 10, 12] and at infinity
+F2: x (xy)^-1 y = abcabc = (abc)^2: True; x^-1 (abc) = c (c); (abc) y^-1 = a (a); and for odd K, (abc)^(1-K) = abc modulo (abc)^K, a word in (abc)^2 since 1 - K is even
+F3, prime 1000033: K: (characters, classes, characters with a class non-zero on lambda): {2: (8, 2, 0), 3: (4, 0, 0), 4: (8, 2, 0), 5: (4, 0, 0), 6: (8, 2, 0), 7: (4, 0, 0), 8: (8, 2, 0), 9: (4, 0, 0), 10: (8, 2, 0), 11: (4, 0, 0), 12: (8, 2, 0), 13: (4, 0, 0)}; at infinity (8, 5, 3); the cocycle (1, 0, 0) of chi = (-1, -1, 1) is a cocycle with c(lambda) = (True, 2)
+F3, prime 999983: K: (characters, classes, characters with a class non-zero on lambda): {2: (8, 2, 0), 3: (4, 0, 0), 4: (8, 2, 0), 5: (4, 0, 0), 6: (8, 2, 0), 7: (4, 0, 0), 8: (8, 2, 0), 9: (4, 0, 0), 10: (8, 2, 0), 11: (4, 0, 0), 12: (8, 2, 0), 13: (4, 0, 0)}; at infinity (8, 5, 3); the cocycle (1, 0, 0) of chi = (-1, -1, 1) is a cocycle with c(lambda) = (True, 2)
+F4: 200 random points of the cubic (40 digits): max |tr[x, y] + 2| = 2.34e-39; [x, y] + 1 is a non-zero nilpotent at every one: True; the least |[x, y]^n - 1| over n = 1 to 24: 2.729
+F4: on the level sets tr[x, y] = -2 cos(pi/k), k = 2 to 6 (40 points each): the trace as set and [x, y]^(2k) = 1: True; at the origin (the quaternion pair, traces 0, 0, 0): [x, y] = [[-1, 0], [0, -1]]
+F5: lambda = -1: lambda^k = 1 for k = [2, 4, 6, 8, 10, 12] of 1 to 12

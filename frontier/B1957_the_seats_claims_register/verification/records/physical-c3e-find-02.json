@@ -1,0 +1,13 @@
+{
+ "id": "physical-c3e-find-02",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/physical_c3e_roster.py, R6 and R7 and R4: Tr_248 (ad X)^8 = (15/2)(Tr_5 X^4)^2 on the one-factor slice, non-zero for a non-zero deformation, from E8's weights and from explicit matrices; on a generic neutral tangent the charged mass matrix of the light cubic has rank two, two masses at first order, the third pair at second order or higher, its next coefficient a Schur complement",
+ "note": "The identity is exact. That it is an observable of the lane's field family is the lane's model (physical-pen-04).",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:67",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:70",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:72",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS:78"
+ ]
+}
