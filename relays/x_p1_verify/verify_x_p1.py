@@ -625,7 +625,7 @@ def run_module_j_exterior_join() -> Dict[str, Any]:
                             row = {k: v for k, v in row.items() if v != QQ.zero}
                             if row:
                                 rows_dict.append(row)
-        dm = DomainMatrix.from_dict({r_i: r for r_i, r in enumerate(rows_dict)}, (len(rows_dict), len(wt_tuples)), QQ)
+        dm = DomainMatrix({r_i: r for r_i, r in enumerate(rows_dict)}, (len(rows_dict), len(wt_tuples)), QQ)
         rk = dm.rank()
         return len(wt_tuples), len(wt_tuples) - rk
 

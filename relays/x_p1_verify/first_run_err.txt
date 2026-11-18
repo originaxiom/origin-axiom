@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 1834, in <module>
+    main()
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 1796, in main
+    mod_j = run_module_j_exterior_join()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 632, in run_module_j_exterior_join
+    up_wt_dim, up_inv_dim = count_sl5_invariants(lam2, lam2, lam1, (1, 1, 1, 1, 1))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 628, in count_sl5_invariants
+    dm = DomainMatrix.from_dict({r_i: r for r_i, r in enumerate(rows_dict)}, (len(rows_dict), len(wt_tuples)), QQ)
+         ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'DomainMatrix' has no attribute 'from_dict'. Did you mean: 'from_list'?
