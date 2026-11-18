@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-18",
+  "kind": "Byte and reading custody for author hand proof, not mathematical verification",
+  "scope_commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY.md",
+    "sha256": "839e95da304b6241b6e04a54d4393af909fdc961d74c908799dd10289dcbe7d2",
+    "lines": 319
+  },
+  "sources": [
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "git_blob": "8f5398e2cfec03ae6a1a31a3276b2bb105283d90",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "lines": 192,
+      "reading": "Full earlier reading reused; exact tensor metrics, parallel projection, contraction and charged-domain estimate re-read"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md",
+      "git_blob": "c634baa7fded795a951af9b7ac1bca60f5e00e8f",
+      "sha256": "477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9",
+      "lines": 415,
+      "reading": "Read in full this continuation; literal up flat data, extensions, counts, endpoint and complete-domain passage"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "git_blob": "926360676da242ccc691789d47e947c933965dc8",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "lines": 256,
+      "reading": "Read in full this continuation; chi=0 specialization distinguished from its stated retained nontrivial Wilson"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES.md",
+      "git_blob": "55bb438733402de64b5f6fd922fb589e5b5e7a30",
+      "sha256": "ab2e7d3b34f5d86086b2d1d5e088b8aaf2ee1dc2e9c1f4315c1df669e8727c15",
+      "lines": 213,
+      "reading": "Targeted 130-205 read for pure-form representatives and norm; previous complete reading reused"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md",
+      "git_blob": "59c9fafd14ff9425162f60dd6a2a479903bce568",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4",
+      "lines": 90,
+      "reading": "Read in full this continuation, no science execution"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "git_blob": "c6630d8bd2b89a725c79fd21ad8c3999f91ba64a",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "lines": 121,
+      "reading": "Read in full this continuation; maximum principle, nontrivial flat characters and threshold continuum"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "git_blob": "538383d4aaf6eaae806774407516f6b1a85fbfda",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "lines": 345,
+      "reading": "Targeted first 275 lines read; especially old B plus B-dual frame and two-five reduction; do not copy its different untwisted four-count"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "git_blob": "3805daad9a1db98f4bdc8224d58488a3d17195dd",
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa",
+      "lines": 286,
+      "reading": "Targeted 70-145 re-read for the actual symmetric ten-form and its J5 frame change"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "git_blob": "e4e0d7ac64c0a85063d9dd70806b841af1f5fab6",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "lines": 159,
+      "reading": "Read in full this continuation for compact vector compensators and source N/H matrices"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_ZERO_MODE_CURRENT_AND_RANK_ONE_VECTOR_2026_11_08.md",
+      "git_blob": "e76cf9419ac4fb02c2595247487e086ac3f1410c",
+      "sha256": "70e2cfbd88b5d61ed7d8fc87dece743bcff6224e551e949d8ec530e233f9319b",
+      "lines": 326,
+      "reading": "Targeted first 200 lines read again; physical up/down representatives and all four current grades"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEXT_PROBE_NATIVE_NEUTRAL_FIELDS_AND_MOMENT_RESPONSE_2026_11_08.md",
+      "git_blob": "cbcf9903b34959e25a4e4ff16bab9a409c62e98e",
+      "sha256": "d4648d115b13481ed86c926cee06e626ab6807c86f2f063de0854569661bc9a6",
+      "lines": 161,
+      "reading": "Read in full; records the previously open cross-form/conjugate-up cancellation duty"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/UP_SECTOR_EXPLORATORY_NEUTRAL_NOTES_2026_11_08.md",
+      "git_blob": "3086b9aa443a92a330e393861fbaed6118b66a0c",
+      "sha256": "c4110e34a25e37d72dd9ec1823cb01320071cb6ae17608d68c3a658bd38a9de0",
+      "lines": 56,
+      "reading": "Read in full; discarded exploratory count not used; threshold-domain warning retained"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN.md",
+      "git_blob": "7a4ff53f1cf6cc7036bb2cc0f7d7f44ea2fd8107",
+      "sha256": "3d627e26b050d219ddb4a960a920d7fe96f4ff20c9c61ca6f7415cf5d56fe8a2",
+      "lines": 141,
+      "reading": "Read in full as a distinct cyclic-family recovery control; not a premise of B-only invariance"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE.md",
+      "git_blob": "6ba086063e372270e55b05564b52d576886b8047",
+      "sha256": "2be866357d75909cc7dbe8468a5c6f9a7e72b4590637ef5325f53921289a75dc",
+      "lines": 320,
+      "reading": "Existing authored stationary-family and vector-response proof, not independently checked"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/INPUTS_AND_REVIEW_DUTIES.md",
+      "git_blob": "65b74927cd9fbd4016c5ce1a505b836ec4b3d9ec",
+      "sha256": "03dbb98f461eb35794588ded01139bafa34524f95ae73d04cd8f527b9d15d442",
+      "lines": 65,
+      "reading": "Existing input and earning-condition account retained"
+    },
+    {
+      "commit": "d5f40bff728404231c9d4dba25b009305a4c31c4",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "git_blob": "df4bae0daca59451632a9aa96fef60f88780d5a0",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "lines": 264,
+      "reading": "Prior full mass/isometry/domain reading reused; no new import"
+    }
+  ],
+  "primary_reading": [
+    {
+      "title": "On the perturbation lemma, and deformations",
+      "author": "M. Crainic",
+      "version": "arXiv math/0403266v1",
+      "url": "https://arxiv.org/pdf/math/0403266",
+      "coverage": "Personally read section 2 definitions, sign convention, lemma and proof, and section 3.1-3.6; targeted pages 1-5, not full paper",
+      "use": "Standard algebraic perturbation formula only; bounded physical-domain extension is the new author proof"
+    }
+  ],
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "cas": 0,
+  "scientific_tests": 0,
+  "new_agents": 0,
+  "independent_mathematical_review": false,
+  "foundational_inputs_counted_removed": 0,
+  "controls_written_not_run": [
+    "Same-sign replacement of the two-five symmetric form fails the literal reflection",
+    "Dropping the opposite-charge T sign produces a false nonzero cubic",
+    "The distinct cyclic-spin family is not covered by pure-B persistence",
+    "Massive spectra and currents are not inferred invariant from a bounded cohomology equivalence"
+  ],
+  "not_completed": [
+    "Independent proof/domain checking",
+    "Deformed normalized weak-current algebra",
+    "Physical weak chirality and vacuum selection",
+    "Derivation of the supplied parent from genesis",
+    "Gravity"
+  ],
+  "preserved_index_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
