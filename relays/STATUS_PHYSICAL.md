@@ -1,9 +1,34 @@
 seat: physical
 read: M17
 state: working
-on: bounded foundational primitive comparison delivered; M16/C22 replies and global cyclic/cross-form proof remain with main
-needs: source answers on M16-01/02 and C22 count/precision; non-authoring checking of the primitive comparison and C3g/h/i domains; P-875 stays open
+on: primitive comparison strengthened past clock freedom; W-P1 finite process-orbit response delivered
+needs: source answers on M16-01/02 and C22 count/precision; non-authoring checking of primitive/rate/orbit proofs and C3g/h/i domains; P-875 stays open
 next push: on the next bounded source response; numerical campaigns remain paused
+
+The interrupted relay was committed and pushed at f689bcef0; the earlier
+approval-service usage failure no longer blocks that publication. The
+conceptual comparison is continued at 71c7fc903 with an explicit relative
+correlation-rate control that survives a common clock change. Its extra
+fixed-law symmetry removes that ratio only when imposed; passive covariance
+does not impose it. The earlier ambiguous redescription wording is explicitly
+corrected. The expanded custody file retains the original seven sources
+and hashes all four current reports. No scientific execution occurred.
+
+Chat1's W-P1 at 3f4fccbcf was personally read in full with its producer,
+output and script-hash receipt. The existing C8 finite tick law answers
+its section 3.2 for the stated endpoint operators: projective orbits are
+finite, |Delta|/N is invariant, and a twelve-projector average is mixed.
+A two-time imbalance statistic retains the initial latitude even when
+the one-time average loses it. These are new applications of the old
+C8 orbit law, not new finite-group discoveries or all-weave negatives.
+The response at d37e42695 also scopes the golden-axis height positive:
+it does not establish hierarchy absence below the sampled cusp region.
+The hand proof and six source pins are W_P1_PROCESS_ORBIT_RESPONSE.md
+and W_P1_RESPONSE_CUSTODY.json in tick_higgs_alignment_2026_11_18.
+The relay is
+PHYSICAL_TO_MAIN_AND_CHAT1_2026-11-18_PROCESS_ORBITS_AND_REGISTERED_LAW.md.
+The new arguments remain not independently checked. No foundational
+input is counted removed and the full physical goal remains open.
 
 M17 was read at ce0c6ea90. P-875's ranked mathematical debts are
 received. Main's ddae296f0 source cut predates the completed C3i proof
