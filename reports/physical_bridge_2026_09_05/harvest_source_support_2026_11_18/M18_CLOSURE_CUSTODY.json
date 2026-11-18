@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-18",
+  "kind": "Source-based classification closure for the named physical harvest cut, not scientific acceptance",
+  "main_pin": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+  "physical_register_cut": "e55148259",
+  "sources": [
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "docs/seats/physical.md",
+      "sha256": "27542b0bbd88b2aa5efe6e6c761eef3a1cfeaf7387b27426d6180b0b7803fdf7",
+      "git_blob": "a07ed3b2262073e236e77d6aebcd8979c9b06143",
+      "lines": 456,
+      "reading": "M18 read in full, prior messages reused from earlier readings"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "docs/POINT_REGISTER.md",
+      "sha256": "c7c2e6e1dad045ae0413578856e1c31b1c72587d9aa64e59ebdcfa360ca5938d",
+      "git_blob": "4a1f2cc875ca1dc4e12dcc62995a399fcd3c7cde",
+      "lines": 1091,
+      "reading": "P-875 debt row and priority pointer read, not full point-register review"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/UNITS.json",
+      "sha256": "b56e98356cd22fa01fdb6245a5b7dedb1dbd2b7b0de88809483d0f89a02bbc90",
+      "git_blob": "e08c8d0297d4cfc9a7bf85585616aea0796cce3b",
+      "lines": 1,
+      "reading": "Physical lane source-cut metadata inspected"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/second_reading/physical_unmarked.json",
+      "sha256": "b393e0e874aa1114e0edceab6b5251e08d62a3c1c0af6a942c9467d6068aa019",
+      "git_blob": "e091dc31c8cbf75e0b67b445bffb78e49005b4d6",
+      "lines": 4602,
+      "reading": "Two corrected M16 grounds inspected; earlier full narrowing-reason reading reused"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/sm-c22-02.json",
+      "sha256": "dc0f9d8b4f36ea6adb05713d747a40484b98a0e2d2659f4499be3f4b01596cc8",
+      "git_blob": "ea9f28429707b18c1b92f9aba0ce1abec4fb0f40",
+      "lines": 16,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/sm_c22_mp.py",
+      "sha256": "51f245233535a8b836d16ab69e46e2188d389b1974f78ec14a2ea987375c6a71",
+      "git_blob": "ff6c2b537af14c221c457335f4f8f2ec5b8c0322",
+      "lines": 30,
+      "reading": "Full source read as text, not executed"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/sm_c22_mp_run.txt",
+      "sha256": "a17015f1063d2f5d0137d211c741e94d00e2e05fa6dcd08347863045a6d43d6a",
+      "git_blob": "01768a19f45b34afcdc2354bccf07985ac7890c1",
+      "lines": 2,
+      "reading": "Full committed output read, not rerun"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/third_reading_physical.py",
+      "sha256": "2613e5e552ced35b9df217d23b1e1aaa29a39f3491043e56b31237211dba7c69",
+      "git_blob": "f4351db62f6dbe13fbf59003cfdf93de0560a884",
+      "lines": 28,
+      "reading": "Full source read as text, not executed"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3h-03.json",
+      "sha256": "b5f354024c3899b798ffef5d1982a4bac432dac8f6634f24a805bb6f11495bfc",
+      "git_blob": "5c367cf53e8c79d28e64a9386049a1c963c5b283",
+      "lines": 24,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3i-02.json",
+      "sha256": "a4960dbec37606a2736d90a559915cb021a89e185b22ef4b8f83f03c028e74b9",
+      "git_blob": "67a40909de703c6884b0fe5b48ecdd919cace1ae",
+      "lines": 67,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ff-01-r3p.json",
+      "sha256": "f665eae8ad000b56ceefbae6bfbe850be2b9ad8ae7015474562e76f26f270c10",
+      "git_blob": "de1b499c73b2d954d732724b0e5282976e7e3494",
+      "lines": 27,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m10r-03.json",
+      "sha256": "5d47d59e698e23f93ef717bfa8c3f851997052e18029264551257e526a45fd44",
+      "git_blob": "a4e4120102c814d4904cd34cdcce8f81f403ad0a",
+      "lines": 17,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m16a-01.json",
+      "sha256": "1163c6128a56bb957292833783f0c48fda64b864f9ee5be08bed50874719ad20",
+      "git_blob": "446151ad707b0e2c7922ce372947cab932af5340",
+      "lines": 10,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m16a-02.json",
+      "sha256": "6c7718a9d35484540ff4a3f9dc38dcb11332a5ba52b6c3f8f5bcbc7bb43b36a7",
+      "git_blob": "524ab5ff62d4afc35f9ad2924a6d4782b0e0d521",
+      "lines": 20,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m16b-01.json",
+      "sha256": "139e7a9535572385cd1eff7bce9bf8239892655f971f0b6101e8a70d4d646c0f",
+      "git_blob": "c41b1f3fdfe72f62ae4991c75a3c33defc3e2fff",
+      "lines": 40,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m16b-02.json",
+      "sha256": "c6357556bbfd8afa7a62cd5a7dd98342efeacd40bca4f75ab3049400084190cd",
+      "git_blob": "13cf049704624013d1e820d7bed67495016fc399",
+      "lines": 49,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-sp-01.json",
+      "sha256": "e8695a1f902878596392d241a3eed223419ea769491a9be4d0bf28765a311010",
+      "git_blob": "fd3bfd3c7569631669a47f999cf3371a6068eac8",
+      "lines": 10,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-sp-02.json",
+      "sha256": "a03a49cdddfdf41d5d956f3bae70e352cb38b67e1a5d4546c04ee8536f129a6f",
+      "git_blob": "253bcd79fecc21412725986a8e426e5c7b8e5d8e",
+      "lines": 35,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-sp-03.json",
+      "sha256": "241ebfd7952abbaff2426e5c0aa0433fccf5cc09d5a2be19678379ef54179c4c",
+      "git_blob": "980f2b1d7c8302f8c5c163a7b53f4935e0569e6a",
+      "lines": 55,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-st3-01.json",
+      "sha256": "996f71ad02150b6ef91d9b66864fe8f6a236a2858d0f224480ecccf65ac00c5f",
+      "git_blob": "6a165530bd0e3d13bd314157dc4642cc52667c6c",
+      "lines": 33,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    },
+    {
+      "commit": "23cd5a5cac0894f07daa8ae36a19a6b225ea2d76",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-st4-01.json",
+      "sha256": "fabd33fde93b4fbfa110db2ce80506fd8051d84d534249da7a8365d352ff8a5f",
+      "git_blob": "657b9389076953910d505b69d3cb8e13aa8c8a55",
+      "lines": 16,
+      "reading": "Full verdict, ground and note read; unit identifiers treated as metadata"
+    }
+  ],
+  "report_sha256": "da9be0bfc39a42f31df733b582563cb86fadb62a659488b0c5b911c139703425",
+  "closure_conditions": [
+    "Two M16 ground omissions corrected without upgrading their uncomputed wider claims",
+    "C22 denominator and numerical precision method corrected; new precision check separately received",
+    "C3i hand proof registered conditional, retaining non-authoring review",
+    "Ranked mathematical tasks 2 to 5 retained as P-875"
+  ],
+  "outside_closure": [
+    "newer primitive and relative-rate hand arguments",
+    "newer W-P1 process-orbit hand response",
+    "P-876 older whole-repository intakes",
+    "full SM3, vacuum selection and gravity"
+  ],
+  "execution": {
+    "scientific_imports": 0,
+    "scientific_runs": 0,
+    "scientific_tests": 0,
+    "new_agents": 0,
+    "data_comparisons": 0
+  }
+}
