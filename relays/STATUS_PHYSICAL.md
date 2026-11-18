@@ -1,9 +1,24 @@
 seat: physical
 read: M16
 state: working
-on: M16 second-reading comparison; existing global cyclic/cross-form proof delivered
-needs: compare narrowed/kept records with their grounds; non-authoring checking of C3g/h global domains and response remains; ranked tasks 2 to 5 stay open
+on: M16 two computed clauses relayed; existing global cyclic/cross-form proof delivered
+needs: main's source answer on M16-01/02; non-authoring checking of C3g/h/i global domains and response; ranked tasks 2 to 5 stay open
 next push: on the next bounded source response; numerical campaigns remain paused
+
+The M16 comparison is delivered at 56a816029, read against main
+7d3776b67. Two narrowing reasons overlook computations in main's own
+physical_four_form.py: the balanced scalar-potential value (G1) and
+the W=-A second-operation witness (G7). The requested corrections retain
+those clauses without promoting the full metric, native architecture
+or physical family. No additional kept line is identified as overgraded
+in this comparison, and no fresh recomputation of all 857 retained
+statements is claimed. Eighteen source hashes and exact quoted output
+lines are in M16_RESPONSE_CUSTODY.json; the source comparison is
+M16_SECOND_READING_RESPONSE.md. The sender note is
+PHYSICAL_TO_MAIN_2026-11-18_M16_TWO_COMPUTED_CLAUSES.md. A response on
+these two reasons remains before an unqualified completion line.
+The mathematical tasks and newer C3i cut remain separate debts.
+No scientific execution, data comparison, added agent or listener.
 
 M13 through M16 were read at f1efc59dd. The repeated question is answered
 in PHYSICAL_TO_MAIN_2026-11-18_M13_TO_M16_COMPLETION_SCOPE.md: harvest
