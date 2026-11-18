@@ -1324,6 +1324,13 @@ def test_the_physical_lanes_native_signed_action():
     assert "character norm 2 (trivial plus two-dimensional: 2); its inner product with the signed triplet 0" in r
 
 
+
+def test_agy_002s_older_files_taken_in_under_p876():
+    """added 2026-11-18, later: the four facts of agy-002's older reviews main computes (checks/agy002_older_reviews.py)"""
+    r = (pathlib.Path(__file__).resolve().parent / "checks" / "agy002_older_reviews_run.txt").read_text()
+    assert "A1: ordered 16275; cyclic orbits [15, 165, 2635], total 2815" in r and "m = 11, N = 125: [1, 124]; m = 13, N = 173: [1, 172]" in r
+    assert "with entries in [-7, 7]: 360; of positive trace 180" in r and "ratios 1.99" in r and "at 86930f574, the commit the seat read, B1927's table gives 1.79: True" in r
+
 def test_the_web_seats_section_27_and_its_mends():
     """added 2026-11-18, later: section 27 (e46bbc14c) held against main at 1a70d5dbe (checks/web_section27.py), and its three mends:
     the relay ledger's stale OPEN rows of its relays BANKED, its part of P-876 closed, companion_grounds.py naming the move."""

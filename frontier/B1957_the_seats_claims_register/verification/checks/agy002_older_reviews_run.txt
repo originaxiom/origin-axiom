@@ -1,0 +1,5 @@
+A1: ordered 16275; cyclic orbits [15, 165, 2635], total 2815
+A2: m = 9, N = 85: [1, 16, 69, 84]; m = 11, N = 125: [1, 124]; m = 13, N = 173: [1, 172]
+A3: hyperbolic matrices with entries in [-7, 7]: 360; of positive trace 180
+A4: B1927's table gives 1.79: False; its arc_corner_run.txt lines 1 and 3: ['theta 80 deg, L_max: ratios 1.99 (0.01 to 0.02), 1.98 (0.02 to 0.04); gap on the arc 2.7e-01', 'theta 70 deg, L_max: ratios 1.99 (0.01 to 0.02), 1.98 (0.02 to 0.04); gap on the arc 1.3e-01']
+A4: at 86930f574, the commit the seat read, B1927's table gives 1.79: True

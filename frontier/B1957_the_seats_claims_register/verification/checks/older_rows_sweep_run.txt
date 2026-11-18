@@ -10,7 +10,7 @@ S1: web seat (chat1): rows 21 (naming no file 10); files 13: {'in the register':
 S1: codex seat: rows 18 (naming no file 12); files 9: {'not found': 9}
 S1: cloud seat (outside bench): rows 17 (naming no file 0); files 18: {"on main's tree, not in the register": 18}
 S1: the physical lane: rows 14 (naming no file 0); files 28: {'a name several files share, given without its path': 1, 'in the register': 27}
-S1: agy-002: rows 13 (naming no file 2); files 18: {'in the register': 7, "on a seat's branch only, not in the register": 11}
+S1: agy-002: rows 13 (naming no file 2); files 18: {'in the register': 18}
 S1: agy-exp: rows 7 (naming no file 0); files 12: {'in the register': 10, "on a seat's branch only, not in the register": 2}
 S1: hostile-review seat: rows 6 (naming no file 0); files 6: {'not found': 6}
 S1: advisor seat: rows 6 (naming no file 0); files 9: {"on a seat's branch only, not in the register": 9}
@@ -26,4 +26,4 @@ S1: SM seat: rows 1 (naming no file 0); files 2: {"on a seat's branch only, not 
 S1: the advisor seat: rows 1 (naming no file 0); files 8: {"on a seat's branch only, not in the register": 8}
 S1: physical lane (codex): rows 1 (naming no file 0); files 12: {'a name several files share, given without its path': 1, 'in the register': 11}
 S1: agyaudit: rows 1 (naming no file 0); files 1: {'in the register': 1}
-S2: 28 seat labels; 667 rows; 220 of them name no file; files: {'a name several files share, given without its path': 9, 'in the register': 153, "kept out at the seat's request": 3, 'not found': 17, "on a seat's branch only, not in the register": 288, "on main's tree, not in the register": 49}
+S2: 28 seat labels; 667 rows; 220 of them name no file; files: {'a name several files share, given without its path': 9, 'in the register': 164, "kept out at the seat's request": 3, 'not found': 17, "on a seat's branch only, not in the register": 277, "on main's tree, not in the register": 49}

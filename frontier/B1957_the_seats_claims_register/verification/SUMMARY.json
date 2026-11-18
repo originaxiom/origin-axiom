@@ -27,16 +27,16 @@
    "PENDING": 0
   },
   "agy-002-verify": {
-   "files": 16,
-   "read": 13,
-   "units": 808,
-   "statements": 709,
-   "VERIFIED": 169,
+   "files": 25,
+   "read": 22,
+   "units": 1381,
+   "statements": 1221,
+   "VERIFIED": 263,
    "REFUTED": 3,
-   "CONDITIONAL": 11,
-   "PARTIAL": 128,
+   "CONDITIONAL": 282,
+   "PARTIAL": 131,
    "SUPERSEDED": 0,
-   "NOTED": 398,
+   "NOTED": 542,
    "PENDING": 0
   },
   "agy-002-endgame": {
@@ -1640,6 +1640,58 @@
    "NOTED": 52,
    "PENDING": 0
   },
+  "agy-002-verify | relays/AGY002_TO_CC_2026-11-12_M10_B1881_23_PLANTS_RERUN.md": {
+   "lane": "agy-002-verify",
+   "units": 26,
+   "statements": 23,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 16,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 7,
+   "PENDING": 0
+  },
+  "agy-002-verify | relays/AGY002_TO_CC_2026-11-14_M24_CONTEMPLATION_AND_A2_OWN1.md": {
+   "lane": "agy-002-verify",
+   "units": 92,
+   "statements": 84,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 65,
+   "PARTIAL": 2,
+   "SUPERSEDED": 0,
+   "NOTED": 17,
+   "PENDING": 0
+  },
+  "agy-002-verify | relays/AGY002_TO_CC_2026-11-14_M26_M30_A2_LIMIT_PROOF_CHECK.md": {
+   "lane": "agy-002-verify",
+   "units": 20,
+   "statements": 16,
+   "read": true,
+   "VERIFIED": 12,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 4,
+   "PENDING": 0
+  },
+  "agy-002-verify | relays/AGY002_TO_CC_2026-11-14_WHAT_SURVIVES_CANCELLATION.md": {
+   "lane": "agy-002-verify",
+   "units": 14,
+   "statements": 12,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 9,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 3,
+   "PENDING": 0
+  },
   "agy-002-verify | relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md": {
    "lane": "agy-002-verify",
    "units": 28,
@@ -1731,6 +1783,45 @@
    "NOTED": 64,
    "PENDING": 0
   },
+  "agy-002-verify | relays/REVIEW_79B_AGY-002.md": {
+   "lane": "agy-002-verify",
+   "units": 66,
+   "statements": 59,
+   "read": true,
+   "VERIFIED": 28,
+   "REFUTED": 0,
+   "CONDITIONAL": 10,
+   "PARTIAL": 1,
+   "SUPERSEDED": 0,
+   "NOTED": 20,
+   "PENDING": 0
+  },
+  "agy-002-verify | relays/REVIEW_80_AGY-002.md": {
+   "lane": "agy-002-verify",
+   "units": 129,
+   "statements": 121,
+   "read": true,
+   "VERIFIED": 40,
+   "REFUTED": 0,
+   "CONDITIONAL": 47,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 34,
+   "PENDING": 0
+  },
+  "agy-002-verify | relays/REVIEW_82_AGY-002.md": {
+   "lane": "agy-002-verify",
+   "units": 162,
+   "statements": 150,
+   "read": true,
+   "VERIFIED": 14,
+   "REFUTED": 0,
+   "CONDITIONAL": 124,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 12,
+   "PENDING": 0
+  },
   "agy-002-verify | relays/REVIEW_83_AGY-002.md": {
    "lane": "agy-002-verify",
    "units": 212,
@@ -1794,6 +1885,32 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 15,
+   "PENDING": 0
+  },
+  "agy-002-verify | relays/cards/AGY-002_A2-R79b_review-79-answers-and-cross-mends.md": {
+   "lane": "agy-002-verify",
+   "units": 39,
+   "statements": 30,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 30,
+   "PENDING": 0
+  },
+  "agy-002-verify | relays/cards/AGY-002_A2-R79d_b1881-23-plants-at-c40446392.md": {
+   "lane": "agy-002-verify",
+   "units": 25,
+   "statements": 17,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 17,
    "PENDING": 0
   },
   "agy-002-verify | relays/cards/AGY-002_A2-R83_review-83-cold-read-b1930-b1944.md": {

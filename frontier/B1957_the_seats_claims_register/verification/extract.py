@@ -43,6 +43,20 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
     # arc cites are not reopened here (FINDINGS).
     # agy-exp (added 2026-11-18): the twenty files older than its window that its own HARVEST REVIEW FOR MAIN (its status page at c4c48f541,
     # section 1a) lists as owed, not read or deferred on main's record.
+    # agy-002 (added 2026-11-18, later; P-876, main's sweep of the rows recorded as received, registered or not read): nine files older
+    # than lane agy-002-verify's window that main's ledger records only as registered by file name or received through the mask
+    # (harvest rows 1728, 1741, 1749, 1796, 1801, 1807, 1828), taken into the register by the rule main chose for P-876.
+    "agy-002-verify": (
+        "relays/REVIEW_79B_AGY-002.md",
+        "relays/cards/AGY-002_A2-R79b_review-79-answers-and-cross-mends.md",
+        "relays/AGY002_TO_CC_2026-11-12_M10_B1881_23_PLANTS_RERUN.md",
+        "relays/cards/AGY-002_A2-R79d_b1881-23-plants-at-c40446392.md",
+        "relays/REVIEW_80_AGY-002.md",
+        "relays/AGY002_TO_CC_2026-11-14_M24_CONTEMPLATION_AND_A2_OWN1.md",
+        "relays/REVIEW_82_AGY-002.md",
+        "relays/AGY002_TO_CC_2026-11-14_WHAT_SURVIVES_CANCELLATION.md",
+        "relays/AGY002_TO_CC_2026-11-14_M26_M30_A2_LIMIT_PROOF_CHECK.md",
+    ),
     "agy-exp": (
         "relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md",
         "relays/AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS.md",

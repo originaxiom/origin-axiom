@@ -1,0 +1,12 @@
+{
+ "id": "agy002v-old-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: REVIEW_79B's finding 1 (B1894's 2A1, reproduced in part: that the gate does not check the compressed file is read in the gate's code and not run); M24's systole end: its modular invariance holds, but main finds it has a corner across the arc |tau| = 1 (ratio 1.99; harvest row 1796), so it is not analytic there, and its zero-parameter claims rest on that end",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-14_M24_CONTEMPLATION_AND_A2_OWN1:38",
+  "agy-002-verify:AGY002_TO_CC_2026-11-14_M24_CONTEMPLATION_AND_A2_OWN1:43",
+  "agy-002-verify:REVIEW_79B_AGY-002:18"
+ ]
+}
