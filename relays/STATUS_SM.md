@@ -1,6 +1,6 @@
 seat: sm
 read: M39
-state: SM-C21 delivered: frame D1 at its tick-fixed Higgs has no cusp hierarchy (exponents -> 0) and mostly generic mixing
+state: SM-C22 delivered: no Higgs vector gives D1 both an aligned cusp mixing and a hierarchy, and none makes it single-valued
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: nothing from main
 next push: on main's word (SM-C13c proposed)
@@ -461,3 +461,8 @@ next push: on main's word (SM-C13c proposed)
   - The sealed kill line (no aligned point) is not triggered. The route fails instead on the hierarchy, which the page
     says plainly.
   - So frame C has a hierarchy but a reading choice, and D1 has no choice but no hierarchy.
+- **SM-C22 delivered** (`relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md`).
+  - T1: Z³ and X³ anticommute, so no Higgs vector makes D1 single-valued (least defect 0.57).
+  - S1: 0 of 5 021 vectors have both a top-aligned majority and a hierarchy. The hierarchy appears only on single modes
+    and pairs (top alignment ≤ 0.38), and generic or best-aligned vectors have E ≈ 0.
+  - With SM-C21, D1 is closed at the cusp. A frame keeping both would need a new construction: main's question.

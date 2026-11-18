@@ -1,0 +1,31 @@
+tensors at height 8
+tensors at height 10
+{
+ "T1 ||Z3 X3 + X3 Z3||": 0.0,
+ "T1 least defect over 2000 random v (down sector)": 0.5703963523091518,
+ "random: max top-aligned share": 0.5833333333333334,
+ "random: max median E(s3/s1)": 6.720713408397596e-05,
+ "random: max median E among those with top-aligned share >= 0.5": -0.00015686586955371016,
+ "random: max top-aligned share among those with median E >= 0.1": null,
+ "S1 vectors with both": {},
+ "S1 count with both": 0
+}
+mode 0                       top-aligned 0.38  median E3 1.067  mark E [0.533, 0.8]
+mode 1                       top-aligned 0.33  median E3 0.933  mark E [0.133, 1.2]
+mode 2                       top-aligned 0.25  median E3 1.067  mark E [0.533, 0.8]
+mode 3                       top-aligned 0.17  median E3 0.933  mark E [0.133, 1.2]
+mode 4                       top-aligned 0.17  median E3 1.067  mark E [0.533, 0.8]
+mode 5                       top-aligned 0.29  median E3 0.933  mark E [0.133, 1.2]
+U_M eigvec phase 0.833 pi    top-aligned 0.00  median E3 -0.009  mark E [-0.002, -0.002]
+U_M eigvec phase -0.833 pi   top-aligned 0.17  median E3 -0.009  mark E [0.014, -0.014]
+U_M eigvec phase -0.167 pi   top-aligned 0.17  median E3 -0.009  mark E [0.004, -0.004]
+U_M eigvec phase 0.167 pi    top-aligned 0.00  median E3 -0.008  mark E [-0.01, -0.012]
+U_M eigvec phase -0.333 pi   top-aligned 0.58  median E3 -0.003  mark E [-0.0, -0.005]
+U_M eigvec phase 0.333 pi    top-aligned 0.29  median E3 -0.004  mark E [0.0, -0.0]
+e0 + e3                      top-aligned 0.17  median E3 0.233  mark E [0.1, 0.233]
+e0 - e3                      top-aligned 0.17  median E3 0.233  mark E [0.1, 0.233]
+e1 + e4                      top-aligned 0.17  median E3 0.233  mark E [0.1, 0.233]
+e1 - e4                      top-aligned 0.17  median E3 0.233  mark E [0.1, 0.233]
+e2 + e5                      top-aligned 0.17  median E3 0.233  mark E [0.1, 0.233]
+e2 - e5                      top-aligned 0.17  median E3 0.233  mark E [0.1, 0.233]
+exit 0
