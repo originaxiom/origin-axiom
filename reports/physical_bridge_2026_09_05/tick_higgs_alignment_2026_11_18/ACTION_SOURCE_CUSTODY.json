@@ -37,6 +37,41 @@
       "sha256": "5a2ce4c7dbf63555b83c2d3388f311a771bbf81795142db182f0fb7374690ad3",
       "lines": 58,
       "reading": "Full literal theta/overlap source re-read without import or execution"
+    },
+    {
+      "commit": "0217bd0b3ce657419af4b914811f8460e3f74266",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+      "sha256": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977",
+      "lines": 179,
+      "reading": "Targeted old root-SU2 branching paragraph at 142-148 and preceding context; no reuse of its cusp thresholds as torus masses"
+    },
+    {
+      "commit": "0217bd0b3ce657419af4b914811f8460e3f74266",
+      "path": "reports/physical_bridge_2026_09_05/weave_global_condensate_2026_10_08/PROOF.md",
+      "sha256": "05a4f2423a6ba030d8f041c0a3236c32117f1ee78b69feb2cc71ce5050b03e55",
+      "lines": 194,
+      "reading": "Targeted unbroken E7 algebra and full-248 branching paragraph; old context retained"
+    },
+    {
+      "commit": "0217bd0b3ce657419af4b914811f8460e3f74266",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "lines": 264,
+      "reading": "Full displayed actual mass map, isometries and domain discussion in first 152 lines re-read; charged-index sections inspected as distinct older scope"
+    },
+    {
+      "commit": "0217bd0b3ce657419af4b914811f8460e3f74266",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "lines": 192,
+      "reading": "Full proof re-read for differential normalization and parallel-background orthogonal argument; compact normal-field application is a new author argument"
+    },
+    {
+      "commit": "0217bd0b3ce657419af4b914811f8460e3f74266",
+      "path": "reports/physical_bridge_2026_09_05/weave_neutral_stability_2026_10_08/PROOF.md",
+      "sha256": "a9a2e595d6594483a8695da881ce80bf311425eecf72de3da543f3fe4fb5f862",
+      "lines": 267,
+      "reading": "Targeted first 105 lines: existing neutral spin amplitude and full magnetic quadratic form; distinct cusp case preserved"
     }
   ],
   "primary_literature": [
@@ -62,6 +97,21 @@
   "limits": [
     "Local root/vertex realization on a chosen compact torus; not the complete-cusp field map.",
     "The solved Cartan response path is not a full stationary nonzero solution or complete relaxed sextic.",
-    "No target data, measured couplings, SM-family identification or gravitational dynamics used."
+    "No target data, measured couplings, SM-family identification or gravitational dynamics used.",
+    "The explicit stabilizer is a supplied state direction/amplitude, and its fermion gap is retained; it is not a chiral SM repair."
+  ],
+  "analytical_supplements": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL.md",
+      "sha256": "deae02944996c92cbf719cb6a8dc6cf26ce19c711dd832534381b3af987e3344",
+      "lines": 127,
+      "method": "Author hand derivation; no independent mathematical check or scientific execution"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE.md",
+      "sha256": "00c2d698e0e3f82ff3ae8e05c1c381dc503a9a821dd0178fc4bd81ffe5038b2d",
+      "lines": 140,
+      "method": "Author hand derivation; no independent mathematical check or scientific execution"
+    }
   ]
 }

@@ -1,9 +1,37 @@
 seat: physical
 read: M11
 state: working
-on: M10 actual-background H1/H3 reply and existing action/selection source review; C8 delivery awaits independent checking
-needs: independent checking of the actual-background application of B1959 and the C8 coherent control; M9 record corrections remain open
-next push: actual-background H1/H3 source reply and bounded action-source continuation; no scientific execution
+on: M10 actual-background reply and C8 compact action/response control, with full E8 roster and stabilizer's fermion price
+needs: checking of B1959's physical application and new C8 source/action proofs; M9 record corrections remain open
+next push: on the next source response or bounded analytical continuation; numerical campaigns remain paused
+
+The H1/H3 reply is pushed at 6f074b770. A further C8 action-source
+control is sealed at 0217bd0b3. The literal magnetic overlap has a
+typed q/r/connection realization in a regular A2 block of the supplied
+action on a chosen compact torus. Its curvature mass and normalized
+quartic are fixed within that parent. An explicit Cartan response
+removes the frozen quartic's direction dependence along the response
+path. Its sextic remainder is not the full relaxed potential, and
+all other negative/zero modes remain. The complete-cusp field map,
+stable vacuum and common physical SM3 construction are not claimed.
+
+The sender note is
+relays/PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE.md.
+Source hashes and targeted primary reading are in
+tick_higgs_alignment_2026_11_18/ACTION_SOURCE_CUSTODY.json. No scientific
+execution or extra reviewer was started. All new claims are hand
+derivations, not independently checked; foundational inputs removed zero.
+
+The compact control is extended to every E8 root. Reusing the existing
+root-SU2 branching gives 168 charge-one and six charge-two transverse
+negative connection modes for the chosen degree-three Cartan flux.
+The cocharacter T=(0,1,0,1,1,1,1,-1) provides a same-action stationary
+adjoint-amplitude control that can stabilize the 168 while retaining
+the six. Its full fermion map simultaneously lifts the flux-three
+zero modes. This is a permitted mechanism with a spectrum price,
+not a derived chiral vacuum or a programme-wide exclusion.
+Both supplement proofs and their source hashes are in the same C8
+directory and sender note. No empirical comparison or execution occurred.
 
 M10/M11 were read at 84fcf1e57. B1959's complete five-file arc was
 personally read as text without execution. It supplies an independent
