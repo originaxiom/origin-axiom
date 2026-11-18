@@ -214,4 +214,29 @@ identity labelling, A(T): (a, b) → (a, b − a), A(S): (a, b) → (−b, a) (B
 the frame's couplings satisfy S₁ = S₂. Their sum and the phased sum do not depend on the class. Whether frame C
 satisfies S₁ = S₂ is one computation on main's frame, which this seat does not run.
 
+## Step 3's follow-up: the diagnosis's result, and the bound (W-P1c-E)
+
+**What happened.** The diagnosis (`wp1c_diag_out.txt`) did not find the suspect. The worst word has no grazing run.
+The per-word differences are 0.6e-2 to 6e-2 at every height, including heights 2 to 6. By the clause written above,
+that is a failure: F3 is withdrawn until the cause is settled. Its D2 points at the sampling: at ten times the density
+the worst word's difference falls from 6.3e-2 to 4.3e-3. Written before the next script.
+
+**The bound, derived now from the sampling's own scheme.** Each piece of length ℓ is cut into m ≥ ℓ·DENS equal parts,
+each sampled at its midpoint and weighted ℓ/m ≤ 1/DENS. The height along a thread is continuous. A part without a
+crossing of the level y is counted exactly. A part with a crossing is off by at most its weight. So for every word and
+height, |sampled − exact| ≤ (number of crossings)/DENS. If the closed form is exact, its excursions are one arc per
+run with ρ > y, so the crossings number 2·N, with N the number of such runs. The 5e-3 set in F0 ignored this. With
+DENS = 120 a word with N = 5 may be off by 0.083.
+
+**What, fixed now.** The same words, the same two methods.
+- **E1.** For every word of every setting and every height: whether |sampled − closed| ≤ 2·N/DENS. Report the number
+  of violations, and the largest ratio of the difference to the bound.
+- **E2.** The ten words with the largest difference at each height (over all settings): the difference at DENS = 120,
+  1,200 and 12,000.
+
+**Expected [J].** No violation; the ratio below 1. E2's differences fall roughly tenfold per step.
+
+**Failure.** A violation, or a difference that does not fall with the density. Then the closed form is wrong for that
+word; F3 stays withdrawn, and so does any use of it.
+
 0 of 19.

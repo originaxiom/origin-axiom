@@ -1,0 +1,8 @@
+D1 a 20: worst per-word difference at heights 1.118/2/3/4/6: ['3.6e-02', '1.8e-02', '9.9e-03', '1.5e-02', '8.0e-03']
+D1 a 40: worst per-word difference at heights 1.118/2/3/4/6: ['4.2e-02', '2.4e-02', '1.6e-02', '1.1e-02', '6.2e-03']
+D1 a 80: worst per-word difference at heights 1.118/2/3/4/6: ['6.3e-02', '3.0e-02', '2.0e-02', '1.4e-02', '6.9e-03']
+D1 b 100: worst per-word difference at heights 1.118/2/3/4/6: ['1.8e-02', '1.5e-02', '1.6e-02', '1.3e-02', '8.2e-03']
+D1 b 200: worst per-word difference at heights 1.118/2/3/4/6: ['2.4e-02', '2.1e-02', '1.6e-02', '1.4e-02', '1.2e-02']
+D1 b 400: worst per-word difference at heights 1.118/2/3/4/6: ['2.9e-02', '2.2e-02', '1.6e-02', '1.6e-02', '1.5e-02']
+D2: the worst word (80 letters, longest run 6) at height 1.118: difference 6.31e-02; runs with rho - y in (0, 1e-3): 0, their closed-form time 0.0000
+D2: at ten times the density: difference 4.28e-03 (before 6.31e-02)
