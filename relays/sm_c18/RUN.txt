@@ -1,8 +1,8 @@
-/home/user/origin-axiom/relays/sm_c18/run_c18.py:23: RuntimeWarning: overflow encountered in exp
+relays/sm_c18/run_c18.py:23: RuntimeWarning: overflow encountered in exp
   return np.exp(1j * np.pi * n ** 2 * tau + 2j * np.pi * n * z).sum()
-/usr/local/lib/python3.11/dist-packages/numpy/_core/_methods.py:49: RuntimeWarning: invalid value encountered in reduce
+<site-packages>/numpy/_core/_methods.py:49: RuntimeWarning: invalid value encountered in reduce
   return umr_sum(a, axis, dtype, out, keepdims, initial, where)
-/home/user/origin-axiom/relays/sm_c18/run_c18.py:42: RuntimeWarning: invalid value encountered in scalar multiply
+relays/sm_c18/run_c18.py:42: RuntimeWarning: invalid value encountered in scalar multiply
   out[i, j, k] = pre * cmath.exp(2j * math.pi * k / 6) * cmath.exp(6j * math.pi * xi * xi.imag / y) * theta(c / 6, 6 * xi, 6 * tau)
 {
  "K1": {
