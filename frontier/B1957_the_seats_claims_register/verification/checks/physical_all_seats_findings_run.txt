@@ -1,0 +1,6 @@
+A1: the matrix of ones: least valuation over the permutations 0; its determinant: 0
+A2: (N, r, gamma, for the two signs of the Fourier kernel: (F^2 = C, (ST)^3 = S^2, S^2 = C, S^2 = -C)): [(15, 1, 1j, {1: (True, False, False, True), -1: (True, True, False, True)}), (5, 3, (1+0j), {1: (True, False, True, False), -1: (True, True, True, False)}), (3, 2, 1j, {1: (True, False, False, True), -1: (True, True, False, True)})]; gamma_15(1) - gamma_5(3) gamma_3(2) = 2.4e-16
+A3: with lambda' = 2 lambda the three terms 12 lambda'^2, -78 lambda'^3, -24 lambda'^2 Y2 become -48*Y2*lambda**2 - 312*lambda**3 + 24*lambda**2
+A4: the dimension matrix of two masses has rank 1 for 2 quantities: 1 free ratio
+A5: (gap, the off-diagonal change over E_12 (m_1 + m_2)^2, the rotation over E_12 (m_1 + m_2)/(m_2 - m_1), the rotation per unit eps): [(0.5, 0.999998, 1.0, 1.255), (0.05, 1.000004, 1.0, 1.478), (0.005, 0.999996, 0.9999, 36.476)]
+A6: three matrices F with F^dagger G F = 1; the moduli of F times the vector of ones: [[0.317, 0.071, 0.837], [0.363, 0.83, 0.73], [0.665, 0.09, 0.089]]

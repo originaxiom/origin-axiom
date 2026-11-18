@@ -1,0 +1,10 @@
+{
+ "id": "web-r79-06",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "REVIEW_79's line 70, a qualification by the seat of its own row ('a qualification of section 1's row, not a new finding'), with a condition it leaves open (whether a dated refresh is a record of its review): read; it is not a finding for main to verify, and main had taken it 'as it stands' inside a VERIFIED record",
+ "note": "Split out of web-r79-02 on 2026-11-18 at the seat's section 9.2, item 10.",
+ "units": [
+  "web:REVIEW_79_CHAT1:70"
+ ]
+}

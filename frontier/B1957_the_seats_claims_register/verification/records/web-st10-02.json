@@ -1,0 +1,16 @@
+{
+ "id": "web-st10-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what the seat read for its section 10; that M48 could not have seen its section 9; that items 2 to 10 of its section 9.2 were still short at that head; and that HARVEST COMPLETE is not written",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:912",
+  "web:STATUS_CHAT1:913",
+  "web:STATUS_CHAT1:914",
+  "web:STATUS_CHAT1:916",
+  "web:STATUS_CHAT1:918",
+  "web:STATUS_CHAT1:937",
+  "web:STATUS_CHAT1:939"
+ ]
+}

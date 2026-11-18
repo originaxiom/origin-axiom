@@ -1,11 +1,10 @@
 {
  "id": "web-weave-02",
  "date": "2026-11-18",
- "verdict": "VERIFIED",
+ "verdict": "CONDITIONAL",
  "how": "the note's table of verdicts, checked by main as exact arithmetic on W154's formula (A = w0 - (15/16) w_p - (31/1024) w_rho, B = (31/1024) w_rho; a complex scalar counts +2 and a Weyl fermion -2): the four characteristics give A = -1/8 as fermions (omega) and +1/8 as bosons (the cusp); the three parities alone +15/8 and -15/8; the trivial twist alone -2 and +2; the matter's representation alone A = 31/512 > 0 as a fermion (the cusp) and A = -31/512 < 0 < B with B/|A| = 1, below the threshold 2.148, as a boson (omega). So the verdict flips with the statistics in every row; the axis regime needs B > 0, that is w_rho > 0, which is necessary and not sufficient (E8's 248 has B > 0 and A = 3583/32 > 0: the cusp); W154's four cumulative rows all have A > 0",
- "note": "Conditional on W154's formula and regimes, which are the SM seat's (harvest row 1388) and are not recomputed here.",
+ "note": "Conditional on W154's formula and regimes, which are the SM seat's (harvest row 1388) and are not recomputed here. [2026-11-18, the seat's section 9.2, item 10: this record was VERIFIED with a note saying it was conditional on a formula not recomputed. By the register's own definitions that is CONDITIONAL, and it is now: the arithmetic on W154's formula is checked by main; the formula and its regimes are the SM seat's and are not recomputed.]",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM:111",
   "web:CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM:172",
   "web:CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM:176",
   "web:CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM:181",

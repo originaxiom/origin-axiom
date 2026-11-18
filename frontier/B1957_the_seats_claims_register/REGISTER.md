@@ -8,10 +8,10 @@
 | agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
-| physical | 136 | 56 | 10952 | 516 | 0 | 584 | 6 | 37 | 8033 | **1776** |
-| web | 137 | 137 | 6648 | 1843 | 2 | 7 | 394 | 60 | 4342 | **0** |
+| physical | 136 | 71 | 10952 | 613 | 0 | 645 | 6 | 37 | 8189 | **1462** |
+| web | 137 | 137 | 6710 | 1870 | 2 | 15 | 404 | 54 | 4365 | **0** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 406 | 243 | 20801 | 2904 | 14 | 680 | 539 | 97 | 12750 | **3817** |
+| **all** | 406 | 258 | 20863 | 3028 | 14 | 749 | 549 | 91 | 12929 | **3503** |
 
 ## By file
 
@@ -191,24 +191,24 @@
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md` | no | 12 | 0 | **12** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION.md` | no | 9 | 0 | **9** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/README.md` | no | 3 | 0 | **3** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BRANCH_COVERAGE.md` | no | 26 | 0 | **26** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINDINGS.md` | no | 44 | 0 | **44** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM.md` | no | 26 | 3 | **23** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/MAIN_CHECKLIST.md` | no | 27 | 0 | **27** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_PACKET_MAP.md` | no | 17 | 0 | **17** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/PREPARATION_FIRST_FAILURE.md` | no | 4 | 0 | **4** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/README.md` | no | 6 | 0 | **6** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/READ_SCOPE.md` | no | 17 | 0 | **17** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BRANCH_COVERAGE.md` | yes | 26 | 26 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINDINGS.md` | yes | 44 | 44 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM.md` | yes | 26 | 26 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/MAIN_CHECKLIST.md` | yes | 27 | 27 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_PACKET_MAP.md` | yes | 17 | 17 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/PREPARATION_FIRST_FAILURE.md` | yes | 4 | 4 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/README.md` | yes | 6 | 6 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/READ_SCOPE.md` | yes | 17 | 17 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/COVERAGE.md` | no | 24 | 0 | **24** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/PHYSICAL_PRIORITY_AFTER_REFRESH.md` | no | 36 | 0 | **36** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/REVIEW.md` | no | 47 | 0 | **47** |
-| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md` | no | 32 | 0 | **32** |
-| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN.md` | no | 25 | 0 | **25** |
-| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/FINDINGS.md` | no | 20 | 0 | **20** |
-| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/NEXT_DEPENDENCY_AUDIT.md` | no | 14 | 0 | **14** |
-| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/PRIOR_WORK_RECONCILIATION.md` | no | 7 | 0 | **7** |
-| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REVIEW_BRIEF.md` | no | 9 | 0 | **9** |
-| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS.md` | no | 43 | 0 | **43** |
+| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md` | yes | 32 | 32 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN.md` | yes | 25 | 25 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/FINDINGS.md` | yes | 20 | 20 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/NEXT_DEPENDENCY_AUDIT.md` | yes | 14 | 14 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/PRIOR_WORK_RECONCILIATION.md` | yes | 7 | 7 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REVIEW_BRIEF.md` | yes | 9 | 9 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS.md` | yes | 43 | 43 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md` | yes | 34 | 34 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS.md` | yes | 33 | 33 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS.md` | yes | 26 | 26 | **0** |
@@ -345,7 +345,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 538 | 538 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 600 | 600 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

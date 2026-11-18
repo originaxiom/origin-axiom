@@ -1,0 +1,17 @@
+{
+ "id": "physical-read-13",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINDINGS.md",
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM.md",
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BRANCH_COVERAGE.md",
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/README.md",
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/MAIN_CHECKLIST.md",
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/READ_SCOPE.md",
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_PACKET_MAP.md",
+  "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/PREPARATION_FIRST_FAILURE.md"
+ ]
+}

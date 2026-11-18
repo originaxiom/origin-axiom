@@ -1,0 +1,10 @@
+{
+ "id": "web-fr-05",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "'the floated escape is closed': it holds for one condensate per leg, which is how the seat's own audit scopes it, and there main verified the bound it rests on (an isotropic direction and a real one overlap by at most one half: checks/web_first_row_bound.py); with both condensates on one leg the coupling has rank 3 and 'closed' is withdrawn by the seat",
+ "note": "Split out of web-fr-03 on 2026-11-18 at the seat's section 9.2, item 8.",
+ "units": [
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:82"
+ ]
+}

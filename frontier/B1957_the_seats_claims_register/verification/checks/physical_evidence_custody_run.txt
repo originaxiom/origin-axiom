@@ -1,0 +1,7 @@
+QUOTED_SOURCE_EVIDENCE.json: 28 items
+LATE_CLOSURE_QUOTED_EVIDENCE.json: 18 items
+all: {'items': 46, 'sha256 right': 46, 'quotation at its line': 46, 'quotation in the file': 46}
+by finding (held / items): {'F01': '3/3', 'F02': '4/4', 'F03': '3/3', 'F04': '5/5', 'F05': '2/2', 'F06': '4/4', 'F07': '1/1', 'F08': '1/1', 'F09': '2/2', 'F10': '3/3', 'F11': '2/2', 'F12': '3/3', 'F13': '2/2', 'F14': '3/3', 'F15': '3/3', 'F16': '3/3', 'F17': '2/2'}
+not held as pinned: none
+the coverage table: 25 branches; the head named is a commit of that branch for 25; not so: none
+F08: files changed between the two heads: 4; F11: 'y3_from_sm' occurs 4 times in the other seat's first gate-4 script and 0 times in the lane's own checker

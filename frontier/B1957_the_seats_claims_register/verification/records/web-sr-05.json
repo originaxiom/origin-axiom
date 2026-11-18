@@ -2,12 +2,14 @@
  "id": "web-sr-05",
  "date": "2026-11-18",
  "verdict": "PARTIAL",
- "how": "the arithmetic of 'the number 3 does two independent jobs' is verified on main (web-sr-02's check: order 3 gives trace -1, det(A - 1) = 3 and three fixed points; order 3 is prime to the order of E6's outer group, so the lift is inner; and the two are independent of each other, as the D4 control shows: there the first holds and the second fails). What is not computed by this check and stays a reading of the programme's: that the three fixed lines are three generations, and that the inner lift is 'the reason they are chiral'. On main's record the count of three is three per unit with the unit unearned (B1641, B1700, B1894). The relay's account of the SM seat's B1280 theorem 2 is right (main verified that theorem in B1298, harvest row 5); the 'one-liner' that generalises it fails at its third step (web-sr-01), and its conclusion holds for another reason",
+ "how": "the arithmetic of 'the number 3 does two independent jobs' is verified on main (web-sr-02's check: order 3 gives trace -1, det(A - 1) = 3 and three fixed points; order 3 is prime to the order of E6's outer group, so the lift is inner; and the two are independent of each other, as the D4 control shows: there the first holds and the second fails). What is not computed by this check and stays a reading of the programme's: that the three fixed lines are three generations, and that the inner lift is 'the reason they are chiral'. On main's record the count of three is three per unit with the unit unearned (B1641, B1700, B1894). The relay's account of the SM seat's B1280 theorem 2 is right (main verified that theorem in B1298, harvest row 5); the 'one-liner' that generalises it fails at its third step (web-sr-01), and its conclusion holds for another reason. [Later the same day, at the seat's section 9.2, item 2: the relay's two lines 'the outer-lift theorem does not apply' and 'order 2 can and does lift outer' are here too: their arithmetic is verified (gcd(3, 2) = 1 and gcd(2, 2) = 2; minus the identity on the Cartan is not in W(E6)), and what they conclude about the lift of a particular symmetry is a reading this check does not compute]",
  "note": "",
  "units": [
   "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:69",
   "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:145",
   "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:147",
-  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:152"
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:152",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:149",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:155"
  ]
 }

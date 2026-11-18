@@ -1,0 +1,16 @@
+{
+ "id": "physical-read-12",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md",
+  "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN.md",
+  "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS.md",
+  "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/FINDINGS.md",
+  "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/NEXT_DEPENDENCY_AUDIT.md",
+  "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/PRIOR_WORK_RECONCILIATION.md",
+  "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REVIEW_BRIEF.md"
+ ]
+}

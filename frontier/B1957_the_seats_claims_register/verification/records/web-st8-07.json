@@ -1,0 +1,11 @@
+{
+ "id": "web-st8-07",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "two lines of the seat's section 8.2 that its own section 9.2 withdraws: that one record of main's was of the kind 'verified over lines not recomputed', and that a scan of every VERIFIED record found no other. There were more (its items 3 to 7), and its search had missed three wordings",
+ "note": "Split out of web-st8-05 at the seat's item 9.",
+ "units": [
+  "web:STATUS_CHAT1:707",
+  "web:STATUS_CHAT1:712"
+ ]
+}

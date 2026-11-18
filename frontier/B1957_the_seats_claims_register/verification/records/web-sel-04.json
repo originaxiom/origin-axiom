@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "the rest of the report, read in full: the two corrections at its head; its answer in brief (no principle found that fixes the nineteen; the selection problem relocated to 'which thread', not solved); what B990's law forbids and does not (canonical points, not canonical orbits; Michel's theorem and Kim's corollary, cited); why every symmetric point is flat, in the record's and the literature's terms; the class-S reading (a reading); the table of ways out; what stands and what is withdrawn of the locus by thread and of the height law; the principle as it then stood and what it does not settle; its measure against main's six-item specification; its ranked next steps; what its two referees changed (two blockers taken: the one-number law fails beyond length 8; the claim that the puncture is forced in the root's vacuum is withdrawn); its sources. Main read it in full in October (harvest row 1163) and took it into B1652, B1651's addendum and three register rows",
- "note": "LEADS it names that the record did not follow: the hierarchy as a displacement from a symmetric point, with the size set by a U(1)-breaking coefficient over the isotropy coupling (section 2a's second escape); a weight that prefers climbing threads; whether anything on the record reads a word's order (the CP question).",
+ "note": "LEADS it names that the record did not follow: the hierarchy as a displacement from a symmetric point, with the size set by a U(1)-breaking coefficient over the isotropy coupling (section 2a's second escape); a weight that prefers climbing threads; whether anything on the record reads a word's order (the CP question). [2026-11-18: line 65 of the principle ('a principle that selects nothing inside a vacuum takes two of the four questions off the list') moved here from web-sel-02: no head note of the seat withdraws it, and the same content at lines 354 and 356 is held here. Main had superseded it in error (the seat's section 9.2, item 8).]",
  "units": [
   "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:3",
   "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:8",
@@ -170,6 +170,7 @@
   "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:461",
   "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:462",
   "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:463",
-  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:465"
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:465",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:65"
  ]
 }

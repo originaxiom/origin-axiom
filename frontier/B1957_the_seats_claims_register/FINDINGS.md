@@ -451,6 +451,31 @@ noted, and none is pending.
     consistent classical sector where a join may be sought. It counts zero inputs removed.
   - **Its review of agy-exp's X-UNIFY** gives four objections to that seat's source. Main verified the thirteen finite
     claims in it and holds the four objections for its own reading of that lane.
+- **The web seat's corrected section 9 (2026-11-18, late): ten items on main's record, all right, all taken.**
+  - **Six VERIFIED verdicts had rested on the seat's run, not on main's.** Each is computed on main now
+    (`checks/web_section9_items.py`): twisted duality on bronze's 56 non-split modules; b₁ at golden levels 1 to 8;
+    the index 12 by volumes and the images at (2), (4), (8); the scale folder's sign control and tail bounds. Every
+    figure is the seat's.
+  - **Superseded was too wide in eight places.** One statement had never been withdrawn; seven were withdrawn in part.
+    Each now says what the seat withdrew and what stands.
+  - **A VERIFIED record whose own note said "conditional"** is conditional now.
+  - **The lesson for main's records:** a verdict of VERIFIED may not sit over a note that says "not recomputed",
+    "registered" or "the seat's reading". The seat found this five times in one day.
+  - **A second fault in main's realigning tool:** a record all of whose lines had changed kept its stale ids. Four
+    records rebuilt; the tool mended.
+- **The physical lane's package P-C3f (cyclic charged masses): 150 statements, 40 verified, 50 conditional, 60 noted.**
+  - Verified as mathematics on an elliptic curve (`checks/physical_cyclic_mass.py`): the two divisors, the lengths of
+    the complex's cohomology, the count 18, 16, 8, and the rank 1 of the secondary map.
+  - **It changes a lead main held** ("a hierarchy from rank"). On the lane's native cyclic family the third singlet
+    pair is massless at every order, not massive at second order. The second-order mass is in the colour-triplet
+    coefficient. The lane says the spectrum is vector-like and that a charged-pair mass does not answer the family
+    question.
+- **The physical lane's preparation for main on every seat's branch (F01 to F17): 164 statements, 57 verified, 11
+  conditional, 96 noted.**
+  - All 46 quotations behind the findings are where the lane pins them (`checks/physical_evidence_custody.py`).
+  - The mathematics inside the findings holds on main (`checks/physical_all_seats_findings.py`).
+  - Main's own earlier records of agy-002's lanes agree with eight of the findings or go further.
+  - Six findings are about agy-exp's sources, which main has not yet harvested: held for that reading.
 
 ## When it closes
 

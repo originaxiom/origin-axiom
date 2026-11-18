@@ -1,0 +1,6 @@
+I3: bronze, level 2 (prime 200017): 56 modules V(l, alpha); h^2(V) = h^1_rel(V*) on 56 of them
+I4: golden, levels 1 to 8: (level, det(J^n - 1), fibre torsion, b_1, the cusp's rank): [(1, -1, 1, 1, 1), (2, -1, 1, 1, 1), (3, -4, 4, 1, 1), (4, -5, 5, 1, 1), (5, -11, 11, 1, 1), (6, -16, 16, 1, 1), (7, -29, 29, 1, 1), (8, -45, 45, 1, 1)]
+I5: vol = 2.029883212819307250042 (SnapPy's: 2.029883212819307); the covolume of PSL(2, O) = 0.1691569344016089375035; the ratio minus 12 = -4.2e-45
+I5: (N, order of the image, it holds -1, order of SL(2, O/N), index): [(2, 10, True, 60, 6), (4, 320, True, 3840, 12), (8, 20480, True, 245760, 12)] (at N = 8 the order of SL(2, O/N) is 64 times that at 4)
+I6: the cusp: this convention's equation 0, the opposite's not zero, curvature -4; the round metric: this convention's not zero, the opposite's 0, curvature 4
+I7: at c = 6, (tail bound, lower end of the root's share, the share, the sum Z) under the three weights: {'A': ('0.0179949', 0.264, 0.2737, '0.4787'), 'B': ('3.11944e-6', 0.502, 0.5019, '0.116'), 'C': ('0.0291149', 0.615, 0.6601, '0.397')}; under 3^-n the tail is 2.69e-5 of Z

@@ -1,0 +1,18 @@
+{
+ "id": "web-st10-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's check of main's M48 (its section 10), held against its sources: its recount of the register at 4744bdfe0 (137 files, 6,602 statements, none pending; 1,815 verified, 1 refuted, 7 conditional, 390 partial, 60 superseded, 4,329 noted) is SUMMARY.json at 5d4fd32fe figure for figure; the cold read is in and its record is NOTED; the file B1937 pins has the sha256 the script asserts; and it cut all of its units again with the register's own rule and found every id, kind and hash matching",
+ "note": "It did not check that web-st-log still describes the text at its ids after main's realignment. Main checked: every unit that record holds is present in the cut at fc4b658c8, and the record is a note of the page's log lines, not a verdict on their content.",
+ "units": [
+  "web:STATUS_CHAT1:921",
+  "web:STATUS_CHAT1:923",
+  "web:STATUS_CHAT1:925",
+  "web:STATUS_CHAT1:926",
+  "web:STATUS_CHAT1:927",
+  "web:STATUS_CHAT1:928",
+  "web:STATUS_CHAT1:931",
+  "web:STATUS_CHAT1:933",
+  "web:STATUS_CHAT1:934"
+ ]
+}

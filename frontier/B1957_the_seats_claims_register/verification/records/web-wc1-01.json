@@ -2,8 +2,8 @@
  "id": "web-wc1-01",
  "date": "2026-11-18",
  "verdict": "VERIFIED",
- "how": "E2, the knot group's congruence level, on main's own code (checks/web_wz1_c3_indices.py, run at the Z1 card): Riley's pair over Z[omega]; the image modulo +-1 has 10 elements of 60 at (2) and 160 of 1,920 at (4), indices 6 and 12 (the seat's orders 10, 320, 20,480 count with -1: 10, 2 x 160, and at (8) index 12 again by the seat; main ran (2), (3), (4), (6), (7)); the level is (4). Main's lock (tests/test_b734_m004_congruence.py, 14 pass today) asserts index 12 at level (4). The seat's verdict 'accepted' stands",
- "note": "Main did not recompute the volume route (the ratio of volumes giving 12) nor the image at (8); those are the seat's.",
+ "how": "E2, the knot group's congruence level, on main's own code (checks/web_wz1_c3_indices.py, run at the Z1 card): Riley's pair over Z[omega]; the image modulo +-1 has 10 elements of 60 at (2) and 160 of 1,920 at (4), indices 6 and 12 (the seat's orders 10, 320, 20,480 count with -1: 10, 2 x 160, and at (8) index 12 again by the seat; main ran (2), (3), (4), (6), (7), (8) and (12): corrected 2026-11-18, the record had left out (8), which the script does run); the level is (4). Main's lock (tests/test_b734_m004_congruence.py, 14 pass today) asserts index 12 at level (4). The seat's verdict 'accepted' stands",
+ "note": "Main did not recompute the volume route (the ratio of volumes giving 12) nor the image at (8); those are the seat's. [2026-11-18, the seat's section 9.2, item 5: the two things this note said main had not recomputed are computed (checks/web_section9_items.py, I5): the volume route gives 12 to 40 digits (3 Cl_2(2 pi/3) over 3^(3/2) zeta_K(2)/(4 pi^2)); the image of Riley's pair at (2), (4), (8), closed without adding -1, has 10, 320 and 20,480 elements and holds -1 each time; the indices are 6, 12, 12. The record was also wrong to say main had not run (8): checks/web_wz1_c3_indices.py does, modulo +-1.]",
  "units": [
   "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:12",
   "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:22",

@@ -473,3 +473,53 @@ def test_the_axis_stabiliser_in_the_binary_octahedral_group_has_order_sixteen():
     stab = [g for g in G if np.allclose(g @ qk @ np.linalg.inv(g), qk) or np.allclose(g @ qk @ np.linalg.inv(g), -qk)]
     assert len(stab) == 16 and len(G) // len(stab) == 3                            # three axes, three cosets
     assert len([g for g in stab if np.allclose(g @ qi @ np.linalg.inv(g), qi) or np.allclose(g @ qi @ np.linalg.inv(g), -qi)]) == 8
+
+
+def test_the_figure_eight_group_has_index_twelve_by_volume_and_by_its_images():
+    import mpmath as mp
+    mp.mp.dps = 30; vol = 3 * mp.clsin(2, 2 * mp.pi / 3); L2 = (mp.zeta(2, mp.mpf(1) / 3) - mp.zeta(2, mp.mpf(2) / 3)) / 9
+    cov = mp.mpf(3) ** mp.mpf("1.5") * mp.zeta(2) * L2 / (4 * mp.pi ** 2); assert abs(vol / cov - 12) < mp.mpf(10) ** -25
+    assert abs(2 * mp.clsin(2, mp.pi / 3) / cov - 12) < mp.mpf(10) ** -25 and abs(mp.clsin(2, mp.pi / 3) / cov - 12) > 1      # one tetrahedron is not the knot
+    for N, order in ((2, 10), (4, 320)):
+        mulr = lambda x, y: ((x[0] * y[0] - x[1] * y[1]) % N, (x[0] * y[1] + x[1] * y[0] - x[1] * y[1]) % N); addr = lambda x, y: ((x[0] + y[0]) % N, (x[1] + y[1]) % N)
+        mm = lambda X, Y: tuple(tuple(addr(mulr(X[i][0], Y[0][j]), mulr(X[i][1], Y[1][j])) for j in range(2)) for i in range(2))
+        one, zero = (1, 0), (0, 0); a = ((one, one), (zero, one)); b = ((one, zero), ((0, (-1) % N), one)); I = ((one, zero), (zero, one)); mI = ((((-1) % N, 0), zero), (zero, ((-1) % N, 0)))
+        seen = {I}; todo = [I]
+        while todo:
+            X = todo.pop()
+            for g in (a, b):
+                Y = mm(X, g)
+                if Y not in seen: seen.add(Y); todo.append(Y)
+        assert len(seen) == order and mI in seen                                  # indices 60/10 = 6 and 3840/320 = 12
+
+
+def test_no_power_of_the_golden_tick_fixes_a_class_and_the_silver_square_root_does_not_change_that():
+    mul = lambda X, Y: tuple(tuple(sum(X[i][k] * Y[k][j] for k in range(2)) for j in range(2)) for i in range(2)); J = ((1, 1), (1, 0)); P = ((1, 0), (0, 1)); dets = []
+    for n in range(1, 13): P = mul(P, J); dets.append((P[0][0] - 1) * (P[1][1] - 1) - P[0][1] * P[1][0])
+    assert [abs(d) for d in dets[:8]] == [1, 1, 4, 5, 11, 16, 29, 45] and all(d != 0 for d in dets)
+    I2 = ((1, 0), (0, 1)); assert (I2[0][0] - 1) * (I2[1][1] - 1) - I2[0][1] * I2[1][0] == 0      # the identity, by contrast, fixes everything: b_1 would be 3
+
+
+def test_the_sign_of_the_equation_is_the_sign_of_the_curvature():
+    import sympy as sp
+    z, zb = sp.symbols("z zb"); curv = lambda rho: sp.simplify(-4 * sp.exp(-2 * rho) * sp.diff(rho, z, zb)); Lh = -sp.log(z * zb)
+    assert curv(-sp.log(Lh) - sp.log(z * zb) / 2) == -4 and curv(-sp.log(1 + z * zb)) == 4
+    assert sp.simplify(-sp.diff(-sp.log(Lh), z, zb) + sp.exp(-2 * sp.log(Lh)) / (z * zb)) == 0          # the cusp solves this sign
+    assert sp.simplify(-sp.diff(-sp.log(Lh), z, zb) - sp.exp(-2 * sp.log(Lh)) / (z * zb)) != 0          # and not the other
+
+
+def test_a_common_zero_of_the_two_maps_leaves_as_many_classes_as_its_order():
+    import physical_cyclic_mass as CM, sympy as sp
+    w = sp.symbols("w")
+    for f0, f1, want in ((w ** 2, w * (w - 1), 1), (w ** 2, sp.Integer(0), 2), (w ** 2, (w - 1) * (w - 2), 0)):
+        d1, d2, (n0, n1, n2) = CM.trunc_complex(f0, f1, 6); r1, r2 = d1.rank(), d2.rank()
+        assert (n0 - r1, n1 - r1 - r2, n2 - r2) == (0, want, want)
+    assert CM.h1(-2, False) == 2 and CM.h0(2, False) == 2 and CM.h1(-1, False) == 1 and CM.h0(1, False) == 1 and CM.h0(0, False) == 0 and CM.h0(0, True) == 1
+
+
+def test_the_square_of_the_fourier_generator_is_the_parity_up_to_the_gauss_scalar():
+    for N, r, want in ((3, 2, -1), (5, 3, 1)):
+        h = pow(2, -1, N); w = np.exp(2j * np.pi / N); x = np.arange(N); g = sum(w ** ((r * h * k * k) % N) for k in range(N)) / np.sqrt(N)
+        T = np.diag(w ** ((r * h * x * x) % N)); C = np.zeros((N, N)); C[(-x) % N, x] = 1; Fm = w ** ((-r * np.outer(x, x)) % N) / np.sqrt(N); S = Fm / g
+        assert np.allclose(Fm @ Fm, C) and np.allclose(np.linalg.matrix_power(S @ T, 3), S @ S) and np.allclose(S @ S, want * C)
+        assert not np.allclose(np.linalg.matrix_power(Fm @ T, 3), Fm @ Fm) or abs(g - 1) < 1e-12        # without the scalar the relation fails unless the scalar is 1
