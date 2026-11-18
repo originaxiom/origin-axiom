@@ -1,0 +1,32 @@
+tau = 0.13+1.70i, down, S : K1 Y(tau, -w) against Y(tau, w): 1.7e-15 (relative)
+tau = 0.13+1.70i, down, S : K1 class 2 (K = I): singular values at tau + 1 against tau: 3.8e-14; without the table (the plant): 6.8e-02
+tau = 0.13+1.70i, down, S : K1 class 1 (K = diag(1, 3)): singular values at tau + 1 against tau: 1.6e-14; without the table (the plant): 6.8e-02
+tau = 0.13+1.70i, down, S : K2 ||S_1 - S_2|| / ||S_1||: 5.228e+00
+tau = 0.13+1.70i, down, S : K3 plain Gramian ratios ['0.725538', '0.151355']
+tau = 0.13+1.70i, down, S : K3 class 2 (K = I): G_3 ratios ['0.637479', '0.147117'], G_2 ratios ['0.927532', '0.071791']
+tau = 0.13+1.70i, down, S : K3 class 1 (K = diag(1, 3)): G_3 ratios ['0.730306', '0.152399'], G_2 ratios ['0.350952', '0.105165']
+tau = 0.13+1.70i, down, S : K3 the classes' G_3 ratios differ by at most 9.283e-02, G_2's by 5.766e-01; the closed form (sqrt 5/4)(S_1 - S_2) holds to 6.4e-16 (relative)
+tau = 0.13+1.70i, down, St: K1 Y(tau, -w) against Y(tau, w): 2.0e-15 (relative)
+tau = 0.13+1.70i, down, St: K1 class 2 (K = I): singular values at tau + 1 against tau: 9.0e-14; without the table (the plant): 4.9e-02
+tau = 0.13+1.70i, down, St: K1 class 1 (K = diag(1, 3)): singular values at tau + 1 against tau: 3.9e-14; without the table (the plant): 4.8e-02
+tau = 0.13+1.70i, down, St: K2 ||S_1 - S_2|| / ||S_1||: 2.554e+00
+tau = 0.13+1.70i, down, St: K3 plain Gramian ratios ['0.678808', '0.150668']
+tau = 0.13+1.70i, down, St: K3 class 2 (K = I): G_3 ratios ['0.616016', '0.149242'], G_2 ratios ['0.869585', '0.069141']
+tau = 0.13+1.70i, down, St: K3 class 1 (K = diag(1, 3)): G_3 ratios ['0.675443', '0.149097'], G_2 ratios ['0.645000', '0.198124']
+tau = 0.13+1.70i, down, St: K3 the classes' G_3 ratios differ by at most 5.943e-02, G_2's by 2.246e-01; the closed form (sqrt 5/4)(S_1 - S_2) holds to 1.5e-16 (relative)
+tau = 0.31+1.20i, down, S : K1 Y(tau, -w) against Y(tau, w): 1.4e-15 (relative)
+tau = 0.31+1.20i, down, S : K1 class 2 (K = I): singular values at tau + 1 against tau: 2.3e-14; without the table (the plant): 1.2e-01
+tau = 0.31+1.20i, down, S : K1 class 1 (K = diag(1, 3)): singular values at tau + 1 against tau: 2.1e-14; without the table (the plant): 8.8e-02
+tau = 0.31+1.20i, down, S : K2 ||S_1 - S_2|| / ||S_1||: 2.780e+00
+tau = 0.31+1.20i, down, S : K3 plain Gramian ratios ['0.776377', '0.543176']
+tau = 0.31+1.20i, down, S : K3 class 2 (K = I): G_3 ratios ['0.702857', '0.522693'], G_2 ratios ['0.896661', '0.173932']
+tau = 0.31+1.20i, down, S : K3 class 1 (K = diag(1, 3)): G_3 ratios ['0.771789', '0.541160'], G_2 ratios ['0.574411', '0.350011']
+tau = 0.31+1.20i, down, S : K3 the classes' G_3 ratios differ by at most 6.893e-02, G_2's by 3.223e-01; the closed form (sqrt 5/4)(S_1 - S_2) holds to 2.1e-16 (relative)
+tau = 0.31+1.20i, down, St: K1 Y(tau, -w) against Y(tau, w): 1.7e-15 (relative)
+tau = 0.31+1.20i, down, St: K1 class 2 (K = I): singular values at tau + 1 against tau: 2.0e-14; without the table (the plant): 1.0e-01
+tau = 0.31+1.20i, down, St: K1 class 1 (K = diag(1, 3)): singular values at tau + 1 against tau: 1.7e-14; without the table (the plant): 7.3e-02
+tau = 0.31+1.20i, down, St: K2 ||S_1 - S_2|| / ||S_1||: 3.107e+00
+tau = 0.31+1.20i, down, St: K3 plain Gramian ratios ['0.755444', '0.524817']
+tau = 0.31+1.20i, down, St: K3 class 2 (K = I): G_3 ratios ['0.684522', '0.507302'], G_2 ratios ['0.891694', '0.171585']
+tau = 0.31+1.20i, down, St: K3 class 1 (K = diag(1, 3)): G_3 ratios ['0.751364', '0.521958'], G_2 ratios ['0.601956', '0.419649']
+tau = 0.31+1.20i, down, St: K3 the classes' G_3 ratios differ by at most 6.684e-02, G_2's by 2.897e-01; the closed form (sqrt 5/4)(S_1 - S_2) holds to 4.8e-16 (relative)
