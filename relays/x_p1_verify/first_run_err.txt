@@ -11,3 +11,17 @@ Traceback (most recent call last):
     dm = DomainMatrix.from_dict({r_i: r for r_i, r in enumerate(rows_dict)}, (len(rows_dict), len(wt_tuples)), QQ)
          ^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: type object 'DomainMatrix' has no attribute 'from_dict'. Did you mean: 'from_list'?
+
+--- Second pre-result stop (individual D(w) is P-mixed before summing w and -w; fixed by constructing full 10D Lambda^2 and 5D Lambda^4 exterior derivations before extracting multiplet blocks) ---
+Traceback (most recent call last):
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 1834, in <module>
+    main()
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 1796, in main
+    mod_j = run_module_j_exterior_join()
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 987, in run_module_j_exterior_join
+    b0 = build_five_multiplet_gramians(y_base[rd], use_phase_table=True)
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 872, in build_five_multiplet_gramians
+    big_op += kron_mp(ytil[w], ext_deriv_matrix(d_adap[w], btups))
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 850, in ext_deriv_matrix
+    row_i = idx_map[tuple(lst)]
+KeyError: (0, 1)

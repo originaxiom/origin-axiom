@@ -857,28 +857,47 @@ def run_module_j_exterior_join() -> Dict[str, Any]:
         dc_tuples = [(1, 2, 3, 4), (0, 2, 3, 4), (0, 1, 3, 4)]
         l_tuples = [(0, 1, 2, 3), (0, 1, 2, 4)]
 
-        mult_defs = {
-            "Q": q_tuples,
-            "uc": uc_tuples,
-            "ec": ec_tuples,
-            "dc": dc_tuples,
-            "L": l_tuples,
+        all_lam2 = q_tuples + uc_tuples + ec_tuples   # ordered [Q (0..5), uc (6..8), ec (9)]
+        all_lam4 = dc_tuples + l_tuples               # ordered [dc (0..2), L (3..4)]
+
+        big_lam2 = mp.zeros(30, 30)
+        big_lam4 = mp.zeros(15, 15)
+        for w in PTS_24:
+            big_lam2 += kron_mp(ytil[w], ext_deriv_matrix(d_adap[w], all_lam2))
+            big_lam4 += kron_mp(ytil[w], ext_deriv_matrix(d_adap[w], all_lam4))
+
+        # Verify summed exterior operators have zero off-block leakage across Q/uc/ec and dc/L
+        for fi in range(3):
+            for fj in range(3):
+                for r_l2 in range(10):
+                    for c_l2 in range(10):
+                        b_r = 0 if r_l2 < 6 else (1 if r_l2 < 9 else 2)
+                        b_c = 0 if c_l2 < 6 else (1 if c_l2 < 9 else 2)
+                        if b_r != b_c:
+                            mix_32 = max(mix_32, abs(big_lam2[10 * fi + r_l2, 10 * fj + c_l2]))
+                for r_l4 in range(5):
+                    for c_l4 in range(5):
+                        if (r_l4 < 3) != (c_l4 < 3):
+                            mix_32 = max(mix_32, abs(big_lam4[5 * fi + r_l4, 5 * fj + c_l4]))
+
+        slices_info = {
+            "Q": (big_lam2, 10, range(0, 6), 6),
+            "uc": (big_lam2, 10, range(6, 9), 3),
+            "ec": (big_lam2, 10, range(9, 10), 1),
+            "dc": (big_lam4, 5, range(0, 3), 3),
+            "L": (big_lam4, 5, range(3, 5), 2),
         }
         gramians_direct: Dict[str, mp.matrix] = {}
-        for mname, btups in mult_defs.items():
-            dim_r = len(btups)
-            big_op = mp.zeros(3 * dim_r, 3 * dim_r)
-            for w in PTS_24:
-                big_op += kron_mp(ytil[w], ext_deriv_matrix(d_adap[w], btups))
+        for mname, (big_op, stride, idx_rng, dim_r) in slices_info.items():
             gr = mp.zeros(3, 3)
             for fi in range(3):
                 for fk in range(3):
                     acc = mp.mpc(0)
                     for fj in range(3):
-                        for x in range(dim_r):
-                            for y in range(dim_r):
-                                acc += big_op[dim_r * fi + x, dim_r * fj + y] * mp.conj(
-                                    big_op[dim_r * fk + x, dim_r * fj + y]
+                        for x in idx_rng:
+                            for y in idx_rng:
+                                acc += big_op[stride * fi + x, stride * fj + y] * mp.conj(
+                                    big_op[stride * fk + x, stride * fj + y]
                                 )
                     gr[fi, fk] = acc / mp.mpf(dim_r)
             gramians_direct[mname] = gr
@@ -1078,28 +1097,32 @@ def run_module_j_exterior_join() -> Dict[str, Any]:
                         dm_out[idx_map[tuple(lst)], col_i] += sgn * coeff
             return dm_out
 
-        mult_scr = {
-            "Q": [(0, 3), (0, 4), (1, 3), (1, 4), (2, 3), (2, 4)],
-            "uc": [(1, 2), (0, 2), (0, 1)],
-            "ec": [(3, 4)],
-            "dc": [(1, 2, 3, 4), (0, 2, 3, 4), (0, 1, 3, 4)],
-            "L": [(0, 1, 2, 3), (0, 1, 2, 4)],
+        all_lam2_s = [(0, 3), (0, 4), (1, 3), (1, 4), (2, 3), (2, 4), (1, 2), (0, 2), (0, 1), (3, 4)]
+        all_lam4_s = [(1, 2, 3, 4), (0, 2, 3, 4), (0, 1, 3, 4), (0, 1, 2, 3), (0, 1, 2, 4)]
+        big_l2_s = mp.zeros(30, 30)
+        big_l4_s = mp.zeros(15, 15)
+        for w in PTS_24:
+            big_l2_s += kron_mp(ytil_scr[w], ext_deriv_scr(d_adap_scr[w], all_lam2_s))
+            big_l4_s += kron_mp(ytil_scr[w], ext_deriv_scr(d_adap_scr[w], all_lam4_s))
+
+        slices_scr = {
+            "Q": (big_l2_s, 10, range(0, 6), 6),
+            "uc": (big_l2_s, 10, range(6, 9), 3),
+            "ec": (big_l2_s, 10, range(9, 10), 1),
+            "dc": (big_l4_s, 5, range(0, 3), 3),
+            "L": (big_l4_s, 5, range(3, 5), 2),
         }
         g_scr: Dict[str, mp.matrix] = {}
-        for mname, btups in mult_scr.items():
-            dim_r = len(btups)
-            big_op = mp.zeros(3 * dim_r, 3 * dim_r)
-            for w in PTS_24:
-                big_op += kron_mp(ytil_scr[w], ext_deriv_scr(d_adap_scr[w], btups))
+        for mname, (big_op, stride, idx_rng, dim_r) in slices_scr.items():
             gr = mp.zeros(3, 3)
             for fi in range(3):
                 for fk in range(3):
                     acc = mp.mpc(0)
                     for fj in range(3):
-                        for x in range(dim_r):
-                            for y in range(dim_r):
-                                acc += big_op[dim_r * fi + x, dim_r * fj + y] * mp.conj(
-                                    big_op[dim_r * fk + x, dim_r * fj + y]
+                        for x in idx_rng:
+                            for y in idx_rng:
+                                acc += big_op[stride * fi + x, stride * fj + y] * mp.conj(
+                                    big_op[stride * fk + x, stride * fj + y]
                                 )
                     gr[fi, fk] = acc / mp.mpf(dim_r)
             g_scr[mname] = gr
