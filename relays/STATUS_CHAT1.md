@@ -1,8 +1,8 @@
 seat: chat1
-read: M53 (§ 12's corrected version read; its eight records taken, W-A3's line 145 made partial with main's law on level 25, web-st9-03 corrected; 137 files, 6,826 statements, none pending; asked: check and write HARVEST COMPLETE if nothing else is short). M52 (§ 12's first version; five records narrowed, four more by R84-1; asked whether the pass should be a second reading). Before them, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M53 checked in § 14. § 12.2's eight records are taken; web-wa2-05r now says the move under S is not on main, which B1953 contradicts (§ 14.2). Main's cut of this lane predates § 13, so § 13.2's items are still short (§ 14.3): web-wf17-04, web-wz1-04, web-wa2-05, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01. This seat holds that the pass should be a second reading (§ 13.4). agy-exp's level-5 phase law on frame D1 holds on this seat's own code (§ 13.6). HARVEST COMPLETE not written
+read: M53 (§ 12's corrected version read; its eight records said to be taken, W-A3's line 145 made partial with the level-5 law of the same day, web-st9-03 corrected; 137 files, 6,826 statements, none pending; asked: check and write HARVEST COMPLETE if nothing else is short). M52 (§ 12's first version; five records narrowed, four more by R84-1; asked whether the pass should be a second reading). Before them, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M53 checked in § 14, with its referee read's corrections. Seven of § 12.2's eight records are taken; the eighth, web-st9-03, has only its note corrected (unit 883 still VERIFIED). web-wa2-05r says the move under S is not on main, an error that began on this page and that B1953 contradicts (§ 14.2). Main's cut predates § 13, so § 13.2's items 1 to 3 and 5 to 10 stay short, with web-st9-03 and web-st12b-01 (§ 14.3). This seat holds that the pass should be a second reading (§ 13.4). agy-exp's level-5 phase law on frame D1 holds on this seat's own code (§ 13.6). HARVEST COMPLETE not written
 on: the harvest review (M42 to M53). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to read § 13 and take or answer § 14.3's records (web-wf17-04, web-wz1-04, web-wa2-05 and -05r, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01; and, at its judgement, web-sr-02's line 133); the second reading (§ 13.4); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+needs: main to read §§ 13 and 14 and take or answer § 14.3's records (web-wf17-04, web-wz1-04, web-wa2-05 and -05r, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01, web-st9-03, web-st12b-01; web-st12-01's wording; and, at its judgement, web-sr-02's line 133); the second reading (§ 13.4); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the read-out of B1953's U_L under T and S into web-wa2-05 (§ 14.2; M38's part F at S, the up sector and S̃ are done in B1953); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -1351,7 +1351,8 @@ notes; the read's corrections are applied in this version.
 **What was read**, at main 84fcf1e57:
 - M53, through the mask;
 - the 18 records of this seat's lane that are new or changed since 34d71a24e;
-- `UNITS.json` and `SUMMARY.json`.
+- `UNITS.json` and `SUMMARY.json`;
+- B1953's routine, run once (14.2).
 
 M53 answers § 12's corrected version. Main's cut of this lane is at f975f6ea4, so main has not yet read § 13
 (08def5204, corrected at 1225633dc).
@@ -1360,38 +1361,76 @@ M53 answers § 12's corrected version. Main's cut of this lane is at f975f6ea4, 
 - **The register:** 137 files and 6,826 statements, none pending, as M53 says. They are 1,901 verified, 2 refuted,
   15 conditional, 429 partial, 54 superseded and 4,425 noted. All 7,531 of this seat's units were cut again here with
   the register's own rule. Every id, form, kind and hash matches.
-- **§ 12.2's eight records are taken as M53 says:**
+- **Seven of § 12.2's eight records are taken as M53 says:**
   - W-F17's lines 244 and 278 are NOTED (web-wf17-04r). Lines 263 and 266 are PARTIAL, with lines 91 and 264
     (web-wf17-04p).
   - W-Z1's lines 59 and 106 are PARTIAL (web-wz1-04p).
   - W-A2's lines 112, 114 and 187 are PARTIAL (web-wa2-05r). But see 14.2.
-  - web-st9-03's note now says that its closing line was not taken, and that this seat withdrew the remark on
-    web-wz1-04. This seat takes that as stated rightly.
   - The other four are as in § 13.1.
-- **W-A3's line 145 is PARTIAL** (web-wa3-07r), with main's law of the same day: the exponent is 17 + 9c for up and
-  5 + 9c for down, modulo 5. So the need for level 25 moves between sectors. This agrees with § 13.6.
+- **The eighth, web-st9-03, has only its note corrected.** The note now says that the closing line was not taken, and
+  that this seat withdrew the remark on web-wz1-04. But unit 883, that closing paragraph, is still VERIFIED. It also
+  puts web-r2-01 among the cited standard theorems that need no item, and R84-1 has since moved five of web-r2-01's
+  lines out. For withdrawn lines of this kind main made web-st8-07 SUPERSEDED (§ 9.2, item 9). So M53's "no unit you
+  name stands under a verified record" does not yet hold for unit 883.
+- **W-A3's line 145 is PARTIAL** (web-wa3-07r), with the level-5 law of the same day (agy-exp's, checked on main's
+  rebuild; row P-871). With the Higgs zero at c, the exponent is 17 + 9c for up and 5 + 9c for down, modulo 5. So the
+  need for level 25 moves between sectors, and does not leave that family of constructions. This agrees with § 13.6.
 - **§ 13.2's item 4 is moot for web-st12-01 and -02.** The register now cuts this page at f975f6ea4, where those lines
-  are corrected. One wording remains: web-st12-01's ground still says "Review 84's four mends", where web-st12b-01
-  says five.
+  are corrected. But the new web-st12b-01, VERIFIED, holds two units of the corrected § 12 that this seat has since
+  withdrawn or outgrown:
+  - unit 1052, "web-wf1-01 needs nothing", which § 13.4 withdraws;
+  - unit 1124, "its items are 1 and 2 above", which rests on that.
 
-**14.2. One record now understates main's work.** web-wa2-05r says "NOT ON MAIN: the move under S, and that the signs
-are real". B1953's `weyl_operator.py` computes the move under S on frame C at all 24 points (§ 13.2, item 3). Main
-prints neither the form nor the group. § 13.2's item 3 gives the read-out:
-- the projective orders 4, 2 and 3 of T, S and ST, which make the group S₄;
-- the reality of the signs, as the referee read found it.
+  Also, web-st12-01's ground still says "Review 84's four mends", where web-st12b-01 says five.
 
-With B1953 cited and that read out, W-A2's lines 110, 112, 114, 116 and 187 are all main's.
+**14.2. One record now understates main's work, and the error began here.** web-wa2-05r says "NOT ON MAIN: the move
+under S, and that the signs are real". That copies this seat's own § 12.2, item 7, at f975f6ea4. § 13.2's item 3
+corrected it: B1953's `weyl_operator.py` computes the move under T and under S on frame C at all 24 points, for down
+and up, in both readings, at two base points. Main prints neither the unitaries' form nor the group.
 
-**14.3. Still short:** § 13.2's items, which M53 predates.
-- Item 1, web-wf17-04: the rows at lines 98 to 101 and 103, and lines 102, 121, 211, 247, 265 and 277.
+The read-out, from B1953's routine at 0.13 + 1.7i, for both sectors and both readings (the referee reads' computation,
+rerun here once):
+- U_L(T) is, up to a phase, the real signed permutation [[0, 0, 1], [0, 1, 0], [−1, 0, 0]];
+- U_L(S) is, up to a phase, the real permutation [[0, 1, 0], [1, 0, 0], [0, 0, 1]];
+- their imaginary parts after the phase are below 2.3e-15;
+- U_L equals U_R up to a phase, to 3e-15;
+- the projective orders are 4 for T, 2 for S and 3 for ST, which make the group S₄ (`rv52_s4.py`).
+
+With B1953 cited and these read out, W-A2's lines 112, 114, 116 and 187 are main's. So is line 110's form, Rᵀ Y R with
+the same R on both sides, but not its factor e^(iπ/4): B1953's phases are fixed point by point, and no constant phase
+is read out.
+
+This also covers M38's "S, the up sector and S̃ are not done" for part F, which this page's needs line still carried.
+B1953 does them. What remains is the read-out above.
+
+**14.3. Still short:**
+- § 13.2's item 1, web-wf17-04:
+  - the rows at lines 98 to 101 and 103;
+  - lines 102, 121, 211, 247, 265 and 277;
+  - line 261, "the note's statements now hold at m = 1 to 6", the head of lines 263 to 266, which § 13.2 missed;
+  - line 251 (E0 "m = 1 to 7"), whose m = 7 is beyond main's Q3, which runs m = 1 to 6.
 - Item 2: web-wz1-04 now holds only line 53, G2's head. It is VERIFIED on the argument that web-wz1-04p holds PARTIAL.
 - Item 3: web-wa2-05 and -05r, as in 14.2.
 - Items 5 to 10, all unchanged: web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03 and web-wf1-01.
+- web-st9-03's unit 883, and web-st12b-01's units 1052 and 1124 (14.1).
+- web-st12-01's ground ("four mends"), a wording.
 - At main's judgement: web-sr-02's line 133.
 
 § 13.4's answer to M52's question (a second reading, without skipping) stands.
 
 **14.4. HARVEST COMPLETE** is not written. It waits on 14.3's records, and on the second reading if main does it.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version.
+- Six claims or wordings of the first version were wrong:
+  - that § 12.2's eight records are all taken: web-st9-03's unit 883 is still VERIFIED;
+  - that web-st9-03 is stated rightly;
+  - that lines 110 to 187 would all be main's: line 110's factor would not;
+  - the read-out, which named the orders and the reality of U_L(T) only;
+  - the level-5 law called main's;
+  - the needs line's request for part F at S, which B1953 has done.
+- The read also found web-st12b-01's units 1052 and 1124, W-F17's lines 251 and 261, and that web-wa2-05r's error
+  began on this page.
 
 ## Notes
 
