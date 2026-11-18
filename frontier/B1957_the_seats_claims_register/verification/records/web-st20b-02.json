@@ -1,0 +1,10 @@
+{
+ "id": "web-st20b-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: H4 extends the seat's rv57_linear.py to the second reading and other x (main's code); what its own run tested and its figure are its account of its own run",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1972"
+ ]
+}

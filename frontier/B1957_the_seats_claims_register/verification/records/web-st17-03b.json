@@ -1,0 +1,10 @@
+{
+ "id": "web-st17-03b",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: that the channels' law holds at the points with a = 0, both base points and both sectors, for five vectors x, is computed by main (checks/web_wa2_readout.py, H4: 320 cases including these, worst residual 2.0e-15); the figure 1.1e-15 is the seat's own run on its own x in the reading S, which main's residual does not beat",
+ "note": "Split from web-st17-03 2026-11-18 at the seat's corrected section 20.4, item 1.",
+ "units": [
+  "web:STATUS_CHAT1:1717"
+ ]
+}

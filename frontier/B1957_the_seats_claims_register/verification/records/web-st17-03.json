@@ -3,9 +3,6 @@
  "date": "2026-11-18",
  "verdict": "CONDITIONAL",
  "how": "its direct test of the channels' part with the Higgs input a free vector (rv57_linear.py: five vectors, both base points and sectors, 1.1e-15): its own run, read as text; main's side is the arithmetic of checks/web_wa2_readout.py, H1 to H3",
- "note": "",
- "units": [
-  "web:STATUS_CHAT1:1715",
-  "web:STATUS_CHAT1:1717"
- ]
+ "note": "KEPT 2026-11-18 for its ground, with no statement under it: at the seat's corrected section 20.4, item 1, its two lines moved, line 1715 to web-st17-02 (verified on H4) and line 1717 to web-st17-03b (partial: H4's worst residual is 2.0e-15 over other x and both readings; the seat's 1.1e-15 is its own run on its own x in S).",
+ "units": []
 }

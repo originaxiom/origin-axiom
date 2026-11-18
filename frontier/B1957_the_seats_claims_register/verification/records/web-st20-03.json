@@ -3,23 +3,16 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "what it read; its headings; HARVEST COMPLETE, written by the seat at 5322929cd after checking main's record at 57e0b3d63 (its section 20.5): its own word that main's record states its work rightly, with nothing missing or understated that it knows of and none pending, under the scope of its section 7.5, and that it checks main's records of its corrected section 19 and of this section, and the mend of its section 20.4, as later changes; its next work (P-874), ready to start on main's word",
- "note": "",
+ "note": "CORRECTED 2026-11-18 at the seat's corrected section 20 (d3ecf1dea): the HARVEST COMPLETE this record described was withdrawn by the seat after its referee read found three things in main's records (its section 20.4, items 1 to 3), and the line that wrote it is gone from its page. The withdrawal is web-st20b-03.",
  "units": [
   "web:STATUS_CHAT1:1952",
-  "web:STATUS_CHAT1:1954",
-  "web:STATUS_CHAT1:1955",
-  "web:STATUS_CHAT1:1956",
-  "web:STATUS_CHAT1:1957",
-  "web:STATUS_CHAT1:2006",
-  "web:STATUS_CHAT1:2013",
-  "web:STATUS_CHAT1:2016",
-  "web:STATUS_CHAT1:2017",
-  "web:STATUS_CHAT1:2018",
-  "web:STATUS_CHAT1:2019",
-  "web:STATUS_CHAT1:2022",
-  "web:STATUS_CHAT1:2023",
-  "web:STATUS_CHAT1:2024",
-  "web:STATUS_CHAT1:2025",
-  "web:STATUS_CHAT1:2027"
+  "web:STATUS_CHAT1:1959",
+  "web:STATUS_CHAT1:1960",
+  "web:STATUS_CHAT1:1961",
+  "web:STATUS_CHAT1:2053",
+  "web:STATUS_CHAT1:2054",
+  "web:STATUS_CHAT1:2055",
+  "web:STATUS_CHAT1:2056",
+  "web:STATUS_CHAT1:2058"
  ]
 }

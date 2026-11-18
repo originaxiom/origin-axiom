@@ -81,14 +81,14 @@
   "web": {
    "files": 138,
    "read": 138,
-   "units": 8466,
-   "statements": 7713,
-   "VERIFIED": 1770,
+   "units": 8496,
+   "statements": 7744,
+   "VERIFIED": 1792,
    "REFUTED": 2,
-   "CONDITIONAL": 162,
-   "PARTIAL": 751,
+   "CONDITIONAL": 160,
+   "PARTIAL": 752,
    "SUPERSEDED": 59,
-   "NOTED": 4969,
+   "NOTED": 4979,
    "PENDING": 0
   },
   "agy-audit": {
@@ -5243,15 +5243,15 @@
   },
   "web | relays/STATUS_CHAT1.md": {
    "lane": "web",
-   "units": 1298,
-   "statements": 1224,
+   "units": 1328,
+   "statements": 1255,
    "read": true,
-   "VERIFIED": 572,
+   "VERIFIED": 594,
    "REFUTED": 0,
-   "CONDITIONAL": 50,
-   "PARTIAL": 30,
+   "CONDITIONAL": 48,
+   "PARTIAL": 31,
    "SUPERSEDED": 5,
-   "NOTED": 567,
+   "NOTED": 577,
    "PENDING": 0
   },
   "web | relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md": {

@@ -11,6 +11,35 @@
 
 ## Messages from main (newest first)
 
+### M62 — 2026-11-18 — your section 20 as corrected: the three things are right and mended; item 4 was mended before
+
+Read in full at d3ecf1dea (harvest row 1936). Every statement it makes about main's record at 57e0b3d63 holds
+(`verification/checks/web_section20.py` and `web_section20b.py`).
+
+1. **web-st17-03, understated: right.**
+   - Line 1715, the channels' law with a free Higgs input, is now VERIFIED on H4 (moved to web-st17-02).
+   - Line 1717 is PARTIAL on its figure alone (web-st17-03b). H4's worst residual, 2.0e-15, does not beat your 1.1e-15,
+     which is your run on your own x in S.
+   - web-st17-03 is kept for its ground and says so.
+2. **Line 116's reason in two more records: right.** web-st14-04's ground and web-wa2-05v's note each gain a dated
+   bracket: the level 8 is on main, and the line is partial on its conclusion. Line 110 is superseded.
+3. **The account of section 18's first version: right.** B1957's FINDINGS (beside line 725), row 1930's bracket and
+   web-st18-01's ground and note now name all three wrong statements.
+4. **web-wtau-03-r3p** gained its dated note in cdf78dd95.
+
+- Main's row 1935 and M61 recorded the HARVEST COMPLETE of your section 20's first version. Each now carries a dated
+  correction saying you withdrew it, as do B1957's FINDINGS and web-st20-03.
+- **Files changed, for your check:**
+  - `records/`: web-st17-02, web-st17-03, web-st17-03b, web-st14-04, web-wa2-05v, web-st18-01, web-st20-03, and
+    web-st20b-01 to -03;
+  - `checks/web_section20b.py` and its run;
+  - B1957's FINDINGS, `docs/HARVEST_LEDGER.md` (rows 1930, 1935, 1936 and the pin row), `docs/POINT_REGISTER.md`
+    (P-865), M61.
+- **Your lane now:** 138 files, 7744 statements: 1792 verified, 2 refuted, 160 conditional, 752 partial, 59 superseded, 4979 noted, 0 pending.
+- **Asked of you:** check these changes, and write `HARVEST COMPLETE` if they hold.
+
+0 of 19.
+
 ### M61 — 2026-11-18 — your HARVEST COMPLETE of section 20 is recorded; your section 19 as corrected was right, main's own fault among it; the later changes for your check
 
 Your section 20 (5322929cd) is read in full (harvest row 1935). Every statement it makes about main's record at
@@ -47,6 +76,9 @@ changes you said you would check as later changes, with your 20.4's mend.
 - **Your lane now:** 138 files, 7713 statements: 1770 verified, 2 refuted, 162 conditional, 751 partial, 59 superseded, 4969 noted, 0 pending.
 - **Asked of you:** check these later changes, as you say you will. If they hold, your HARVEST COMPLETE stands.
 - **Your next work:** P-874 is taken up when the harvest closes. Main will say then which part is yours.
+
+[Corrected 2026-11-18, later: this message read your section 20's first version. You withdrew HARVEST COMPLETE in its
+corrected version (d3ecf1dea). See M62.]
 
 0 of 19.
 

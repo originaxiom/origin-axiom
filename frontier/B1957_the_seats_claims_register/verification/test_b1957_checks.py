@@ -1178,3 +1178,33 @@ def test_the_web_seats_section_20_states_mains_record_rightly():
     assert "320 cases, residual 2.0e-15, c [0.125] [0.125] with Q and [0.625] [0.625] with -Q" in run
     assert "each saying so in its note: True; web-read-44 READ; web-wa3-04's ground names part D True" in run
     assert "'statements': 7648, 'VERIFIED': 1729" in run and "holds lines [65, 80]" in run
+
+
+def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
+    """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of
+    the ground plane have zeros; only h* (zeros at 2, 3, 4) gives a full up-sector hierarchy, (1/3, 2/3) in 48 cases,
+    confirmed numerically; no least term cancels.  The rule's exponents at the mark for h* are recomputed here exactly."""
+    import re, itertools
+    run = (pathlib.Path(__file__).resolve().parent / "checks" / "p873_zero_directions_run.txt").read_text()
+    assert "Z1: the zero sets of directions of E: [((0,)" in run and "((1, 5)" in run and "((2, 3, 4)" in run
+    assert re.search(r"Z2: direction zero at \(2, 3, 4\):.*'\(1/3, 2/3\)': 64\}; up-sector cases with 0 < E2 < E3: 48", run)
+    assert re.search(r"Z2: direction zero at \(0,\):.*up-sector cases with 0 < E2 < E3: 0", run) and re.search(r"Z2: direction zero at \(1, 5\):.*up-sector cases with 0 < E2 < E3: 0", run)
+    assert all(float(x) > 0.1 for x in re.findall(r"summed leading coefficients: ([0-9.e+-]+)", run))
+    for m in re.finditer(r"numerical \(([0-9.-]+), ([0-9.-]+)\) from 11 -> 14; rule \((\d+)/(\d+), (\d+)/(\d+)\)", run):
+        assert abs(float(m.group(1)) - int(m.group(3)) / int(m.group(4))) < 1e-3 and abs(float(m.group(2)) - int(m.group(5)) / int(m.group(6))) < 1e-3
+    assert len(re.findall(r"Z4: at .*rule \(1/3, 2/3\)", run)) == 2
+    # the rule at the mark for h*, up: the least sums of 6 r^2 over the non-zero minors give (0, 4/3)
+    def nearest(alpha):
+        out = []
+        for c in range(6):
+            x = F(c, 6) + alpha; r = x - round(x); r = r if abs(r) <= F(1, 2) else r - (1 if r > 0 else -1); out.append(r)
+        return out
+    r = nearest(5 * F(2, 5) / 2); e = [6 * x * x for x in r]; ent = {}
+    for i in range(3):
+        for j in range(3):
+            for m in (0, 1):
+                k = (i + j + 1 + 3 * m) % 6; c = (i - j + 3 * m) % 6
+                if k in (0, 1, 5): ent.setdefault((i, j), []).append(e[c])
+    best = [min(sum(min(ent[(rw, cl)]) for rw, cl in zip(rows, perm)) for rows in itertools.combinations(range(3), n) for cols in itertools.combinations(range(3), n) for perm in itertools.permutations(cols) if all((rw, cl) in ent for rw, cl in zip(rows, perm))) for n in (1, 2, 3)]
+    s = [best[0], best[1] - best[0], best[2] - best[1]]
+    assert (s[1] - s[0], s[2] - s[0]) == (0, F(4, 3))

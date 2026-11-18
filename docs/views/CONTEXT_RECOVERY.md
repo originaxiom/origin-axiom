@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1935 |
+| harvest rows (the last number) | 1936 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT HAS WRITTEN HARVEST COMPLETE AGAIN, AFTER CHECKING MAIN'S MENDS; MAIN HAS READ EVERY VERIFIED STATEMENT OF THE PHYSICAL LANE ITSELF (1,390: 857 KEPT, 130 PARTIAL, 4 CONDITIONAL, 399 NOTED); NO VERIFIED STATEMENT OF ANY LANE NOW STANDS UNREAD BY MAIN (B1957, OPEN; harvest rows 1932 to 1935; P-865, P-873, P-874).** The register: 484 files, 424 read at source, 24626 statements: 2941 verified, 25 refuted, 1943 conditional, 2019 partial, 165 superseded, 17533 noted, 0 pending. The web seat checks main's later records as later changes (M61); agy-002 waits only on its own check of main's changes (M51); the physical lane is asked what its compl…”
+“LATEST (2026-11-18, S306p, night, latest: P-873'S SECOND QUESTION ANSWERED ON MAIN: OF THE THREE DIRECTIONS OF THE HIGGS PLANE WITH ZEROS, ONLY h* GIVES A FULL UP-SECTOR HIERARCHY, (1/3, 2/3) IN 48 OF 96 CASES; THE WEB SEAT WITHDREW HARVEST COMPLETE AGAIN AFTER ITS REFEREE READ, THREE THINGS MENDED (B1957, OPEN; harvest row 1936; P-865, P-873).** The register: 484 files, 424 read at source, 24657 statements: 2963 verified, 25 refuted, 1941 conditional, 2020 partial, 165 superseded, 17543 noted, 0 pending. Main has read every verified statement of every lane itself. The web seat checks the mends and writes HARVEST COMPLETE if they hold (M62); agy-002 waits only on its own check of main's cha…”
 
 ## Completeness (nothing skipped silently)
 

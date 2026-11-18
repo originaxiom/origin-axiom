@@ -719,12 +719,20 @@ noted, and none is pending.
   [corrected 2026-11-18, at the seat's section 19.3: when this was written the channels' eighth was the quotient of
   main's constant by the Higgs's phase, the law itself resting on the seat's own test; since harvest row 1931 main
   computes the channels' law with a free Higgs input itself (checks/web_wa2_readout.py, H4).]
+- **P-873, QUESTION 2, ANSWERED ON MAIN** (checks/p873_zero_directions.py): the Higgs ground plane of frame D1 has
+  exactly three directions with zero entries (zeros at mode 0, at modes 1 and 5, at modes 2, 3 and 4, the last being h*).
+  Only h* gives a full hierarchy in the up sector: ratio exponents (1/3, 2/3) in 48 of its 96 up-sector cases, confirmed
+  at 80 digits (0.3333, 0.6667); at the mark it gives (0, 4/3). Nothing computed selects any direction.
 - **Main has read every verified statement of the physical lane itself** (harvest row 1933): 1,390, each against its
   record's ground; 857 kept, 130 partial, 4 conditional, 399 noted (second_reading/physical_unmarked.json). No verified
   statement of any lane now stands without main's reading against its ground.
 - **THE WEB SEAT HAS WRITTEN HARVEST COMPLETE AGAIN** (its section 20, 5322929cd, after checking main's mends at
   57e0b3d63; harvest row 1935). Every statement it makes there about main's record holds (checks/web_section20.py). It
   checks main's later records of its sections 19 and 20 as later changes (M61).
+  [corrected 2026-11-18, later: the seat withdrew it again in its corrected section 20 (d3ecf1dea), after its referee
+  read found three more things in main's records (an understated verdict, a false reason left in two records, the
+  incomplete account above), each right and each mended (harvest row 1936). No seat has written HARVEST COMPLETE as it
+  stands.]
 - **agy-002's card A2-X1 and its harvest review (harvest row 1929)** are settled. Every figure of the card holds on
   main's own construction of frame D1 (checks/agy002_a2x1.py). At the mark, |V(h*)| comes within 3.8e-4 of the
   maximal 1-3 mixing matrix the seat states, at height 24; that this is the exact limit rests on the seat's
@@ -736,6 +744,7 @@ noted, and none is pending.
   [corrected 2026-11-18, the same evening: the seat withdrew it at 10c488d71 after its referee read found five things in
   main's records, each right and each mended (harvest row 1931); main now computes the channels' law with a free Higgs
   input itself (checks/web_wa2_readout.py, H4). No seat has written HARVEST COMPLETE as it stands.]
+  [added 2026-11-18, at the seat's corrected section 20.4: three of the statements it calls holding did not: that web-wa3-04's ground named wa3_on_main.py, part D (only its note did), that the read-out computed what its section 17.2 says (it did not compute the channels' law for a free Higgs input until H4), and that the records of section 17 stated it rightly (harvest row 1932).]
 - **The first condition is met at the seats' newest heads (2026-11-18, night): no statement is pending.** The second is
   not: no seat has written the line.
   - The web seat's section 16 lists what it holds is left; main has acted on every row of it (M57).

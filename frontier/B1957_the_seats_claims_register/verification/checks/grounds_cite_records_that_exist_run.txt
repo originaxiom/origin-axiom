@@ -1,2 +1,2 @@
-N1: records: 1564; ids cited in grounds and notes: 718; cited and not existing: 0 []; cited as history, replaced: {'web-wa2-05r': 'web-wa2-05v (and its companion web-wa2-05v-r2p)', 'web-wz1-04': 'web-wz1-04p'}
-N2: companion records whose parent record does not exist: 0; records kept for their ground with no statement under them: 107, each saying so in its note: True
+N1: records: 1568; ids cited in grounds and notes: 721; cited and not existing: 0 []; cited as history, replaced: {'web-wa2-05r': 'web-wa2-05v (and its companion web-wa2-05v-r2p)', 'web-wz1-04': 'web-wz1-04p'}
+N2: companion records whose parent record does not exist: 0; records kept for their ground with no statement under them: 108, each saying so in its note: True

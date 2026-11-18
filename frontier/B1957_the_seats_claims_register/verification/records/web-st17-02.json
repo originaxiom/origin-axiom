@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "its corrected section 17.2, recomputed on main (checks/web_wa2_readout.py, H1 to H3): the Higgs triplet moves under tau + 1 by h Q with Q real, h an eighth of a turn with Q of determinant 1 and five eighths with determinant -1 (a convention); the coupling's constant, a quarter turn in S and none in S-tilde, is the channels' part (an eighth, or five eighths under the other convention) times the Higgs's own phase in that reading; R and -R give the same law. So line 110's e^(i pi/4) is the Higgs's own phase and not the coupling's constant: the seat withdraws it and main records it superseded (record web-wa2-05v-r2s). Line 113 rests on two conventions and stays partial, as the seat says",
- "note": "CORRECTED 2026-11-18 at the seat's section 18.2, item 1: when this record was written, main's side was the quotient of its constant by the Higgs's own phase (H2), and the channels' law itself rested on the seat's direct test (web-st17-03, conditional); the seat was right that its units 1718, 1720 and 1728 were overstated. Main now computes the channels' law with a free Higgs input on its own code (checks/web_wa2_readout.py, H4: c an eighth of a turn with Q of determinant 1, five eighths with -Q, in both readings, 320 cases to 2.0e-15), so the three units are verified on main's computation.",
+ "note": "CORRECTED 2026-11-18 at the seat's section 18.2, item 1: when this record was written, main's side was the quotient of its constant by the Higgs's own phase (H2), and the channels' law itself rested on the seat's direct test (web-st17-03, conditional); the seat was right that its units 1718, 1720 and 1728 were overstated. Main now computes the channels' law with a free Higgs input on its own code (checks/web_wa2_readout.py, H4: c an eighth of a turn with Q of determinant 1, five eighths with -Q, in both readings, 320 cases to 2.0e-15), so the three units are verified on main's computation. ADDED 2026-11-18 at the seat's corrected section 20.4, item 1: its section 17's line 1715 (the channels' law with a free Higgs input, tested directly) moved here from web-st17-03, VERIFIED on H4, which computes that law on main.",
  "units": [
   "web:STATUS_CHAT1:1712",
   "web:STATUS_CHAT1:1718",
@@ -16,6 +16,7 @@
   "web:STATUS_CHAT1:1730",
   "web:STATUS_CHAT1:1731",
   "web:STATUS_CHAT1:1732",
-  "web:STATUS_CHAT1:1734"
+  "web:STATUS_CHAT1:1734",
+  "web:STATUS_CHAT1:1715"
  ]
 }

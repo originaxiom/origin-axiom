@@ -1,0 +1,4 @@
+B1: web-st17-03 at 57e0b3d63: CONDITIONAL with 2 units; its ground names H1 to H3 as main's side: True
+B2: line 116's reason: in web-st14-04's ground 'its level 8 not being read out': True; in web-wa2-05v's note 'the level 8 of line 116 are not read out by main': True
+B3: FINDINGS line 725 says every statement held: True; row 1930's head says so: True; its bracket names only the withdrawal: True; web-st18-01's ground still lists web-wa3-04's ground as naming part D: True
+B4: the pin row at 57e0b3d63 records the withdrawal: True; FINDINGS lines 716 to 718 name the channels' eighth: True
