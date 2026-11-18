@@ -1,0 +1,12 @@
+{
+ "id": "sm-read-pc",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "sm",
+ "how": "read by main in full at the SM seat's branch (b3385948b); its scripts read as text, not run",
+ "files": [
+  "relays/SM_CHECK_PHYSICAL_W_P1.md",
+  "relays/SM_CHECK_PHYSICAL_NATIVE_REGISTER.md",
+  "relays/SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER.md"
+ ]
+}

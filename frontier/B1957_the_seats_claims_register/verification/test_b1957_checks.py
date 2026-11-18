@@ -1294,6 +1294,17 @@ def test_agy_exp_xp1_equation_2_and_the_norm_law():
 
 
 
+
+def test_the_sm_seats_checks_of_the_physical_lane():
+    """added 2026-11-18, later: the SM seat's checks of the physical lane's hand proofs, computed by main where they go beyond its
+    earlier checks (checks/sm_physical_checks.py); the lumpability criterion is held by its one-line argument, not by a test."""
+    r = (pathlib.Path(__file__).resolve().parent / "checks" / "sm_physical_checks_run.txt").read_text()
+    for conv in ("T6 S6 K", "P T6 S6 K"):
+        seg = r[r.index(conv + ": |Sigma^2"):][:200]; nums = [float(x) for x in __import__("re").findall(r"[=:] (\d\.\de-\d+)", seg)[:4]]
+        assert len(nums) == 4 and max(nums) < 1e-12, seg
+    assert "integer roots of x^2 - 3x + 1: []" in r and "with ad - bc = 1: 0" in r and "composition True; consistency True; each length sums to 1 (lengths 0 to 4) True" in r
+    assert "W(a a^-1) = 1/25, W(b b^-1) = 9/100; p(1 - p) at 1/3 = 2/9; sum rho (1 - rho)^n = 1" in r and "L1" not in r
+
 def test_the_physical_lanes_native_signed_action():
     """added 2026-11-18, later: the physical lane's native signed action and invariant metric, computed by main from B1601's maps"""
     r = (pathlib.Path(__file__).resolve().parent / "checks" / "physical_native_action_run.txt").read_text()

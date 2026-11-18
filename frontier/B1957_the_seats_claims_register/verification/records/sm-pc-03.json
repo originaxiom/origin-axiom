@@ -1,0 +1,11 @@
+{
+ "id": "sm-pc-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: every finite statement of the history and register note holds and both controls do (sm_physical_checks.py H1, H2; physical_primitives.py F3), except item (4), which main has not computed",
+ "note": "",
+ "units": [
+  "sm:SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER:30",
+  "sm:STATUS_SM:550"
+ ]
+}

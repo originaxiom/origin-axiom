@@ -15,7 +15,7 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "798281903"),
     ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "19685b3ce"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "6b961101e"),
-    ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "386973969"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
+    ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "b3385948b"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
     # added 2026-11-18, at the author's question whether the agy seats were fetched: the branch of 2026-11-11 whose session named itself agy-002
     # (harvest row 1702). Main's ledger records its seven reports and receipts as not read (row 1696), its three arcs read at name level
     # (row 1677) and P-781 owing main's check of every data-free statement in them; none of it was in the register.

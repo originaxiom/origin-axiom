@@ -118,16 +118,16 @@
    "PENDING": 0
   },
   "sm": {
-   "files": 14,
-   "read": 9,
-   "units": 6778,
-   "statements": 6123,
-   "VERIFIED": 231,
+   "files": 17,
+   "read": 12,
+   "units": 6831,
+   "statements": 6172,
+   "VERIFIED": 260,
    "REFUTED": 4,
-   "CONDITIONAL": 3861,
-   "PARTIAL": 202,
+   "CONDITIONAL": 3864,
+   "PARTIAL": 204,
    "SUPERSEDED": 0,
-   "NOTED": 1825,
+   "NOTED": 1840,
    "PENDING": 0
   },
   "agy-002-sync": {
@@ -6749,6 +6749,32 @@
    "NOTED": 7,
    "PENDING": 0
   },
+  "sm | relays/SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER.md": {
+   "lane": "sm",
+   "units": 16,
+   "statements": 14,
+   "read": true,
+   "VERIFIED": 8,
+   "REFUTED": 0,
+   "CONDITIONAL": 3,
+   "PARTIAL": 1,
+   "SUPERSEDED": 0,
+   "NOTED": 2,
+   "PENDING": 0
+  },
+  "sm | relays/SM_CHECK_PHYSICAL_NATIVE_REGISTER.md": {
+   "lane": "sm",
+   "units": 18,
+   "statements": 17,
+   "read": true,
+   "VERIFIED": 10,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 7,
+   "PENDING": 0
+  },
   "sm | relays/SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM.md": {
    "lane": "sm",
    "units": 19,
@@ -6760,6 +6786,19 @@
    "PARTIAL": 2,
    "SUPERSEDED": 0,
    "NOTED": 10,
+   "PENDING": 0
+  },
+  "sm | relays/SM_CHECK_PHYSICAL_W_P1.md": {
+   "lane": "sm",
+   "units": 14,
+   "statements": 13,
+   "read": true,
+   "VERIFIED": 9,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 4,
    "PENDING": 0
   },
   "sm | relays/SM_HARVEST_UNVERIFIED_ROWS.md": {
@@ -6777,15 +6816,15 @@
   },
   "sm | relays/STATUS_SM.md": {
    "lane": "sm",
-   "units": 308,
-   "statements": 301,
+   "units": 313,
+   "statements": 306,
    "read": true,
-   "VERIFIED": 12,
+   "VERIFIED": 14,
    "REFUTED": 1,
    "CONDITIONAL": 5,
-   "PARTIAL": 18,
+   "PARTIAL": 19,
    "SUPERSEDED": 0,
-   "NOTED": 265,
+   "NOTED": 267,
    "PENDING": 0
   },
   "sm | relays/cards/SM_C18_the-triple-overlaps-covariance.md": {

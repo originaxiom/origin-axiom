@@ -1,0 +1,12 @@
+{
+ "id": "sm-pc-02",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its own run and reading, not recomputed by main: that V and U descend through q(x, r) = x (needs the lane's definitions; main has not computed it); the section 4 step on two labelled identity maps, by hand; that the lumpability criterion is the one in the cited paper's Theorem 1 (main has not read the paper)",
+ "note": "",
+ "units": [
+  "sm:SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER:24",
+  "sm:SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER:26",
+  "sm:SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER:31"
+ ]
+}

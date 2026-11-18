@@ -1,0 +1,24 @@
+{
+ "id": "sm-pc-04",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what each note read and how (sources at the lane's commits, its own code, both tick conventions); the proofs' limits it restates (the state space, the fixed law, probabilities, a clock, the identification with fields, the scale; the axis bound's scope; continuous transport and other moves not computed); that it took up the physical lane's checking while that lane is not running, at the author's word as it reports it (a relayed sentence; the lane pushed again at 798281903); that the lane's earlier hand proofs stay for main to name",
+ "note": "",
+ "units": [
+  "sm:SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER:3",
+  "sm:SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER:34",
+  "sm:SM_CHECK_PHYSICAL_NATIVE_REGISTER:3",
+  "sm:SM_CHECK_PHYSICAL_NATIVE_REGISTER:23",
+  "sm:SM_CHECK_PHYSICAL_NATIVE_REGISTER:24",
+  "sm:SM_CHECK_PHYSICAL_NATIVE_REGISTER:25",
+  "sm:SM_CHECK_PHYSICAL_NATIVE_REGISTER:26",
+  "sm:SM_CHECK_PHYSICAL_NATIVE_REGISTER:27",
+  "sm:SM_CHECK_PHYSICAL_NATIVE_REGISTER:29",
+  "sm:SM_CHECK_PHYSICAL_W_P1:3",
+  "sm:SM_CHECK_PHYSICAL_W_P1:25",
+  "sm:SM_CHECK_PHYSICAL_W_P1:26",
+  "sm:SM_CHECK_PHYSICAL_W_P1:28",
+  "sm:STATUS_SM:541",
+  "sm:STATUS_SM:552"
+ ]
+}
