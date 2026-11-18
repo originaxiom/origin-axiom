@@ -1,0 +1,67 @@
+1 | PF1 | -
+1 | PF2 | -
+1 | PF3 | -
+1 | PF5 | -
+2 | GM1 | POSTULATED DERIVED
+2 | GM2 | POSTULATED
+2 | GM3 | POSTULATED
+2 | GM4 | POSTULATED CONDITIONAL
+2 | GM5a | POSTULATED
+2 | GM5b | ADOPTED
+2 | GM5c | OPEN
+2 | GM5d | CHOSEN
+3 | Re | -
+3 | Wo | -
+3 | Si | -
+3 | Cy | -
+3 | De | -
+3 | Fi | -
+3 | Or | -
+3 | Co | -
+4 | SE1 | POSTULATED
+4 | T-ROOT | DERIVED
+4 | SE2 | CHOSEN
+4 | SE3 | POSTULATED
+5 | F-FC | -
+5 | F-CI | -
+5 | F-MC | -
+5 | F-HE | -
+5 | F-AP | -
+5 | Ob | -
+5 | Th | -
+8 | FK1 | CONFIRMED
+8 | FK2 | CHOSEN
+8 | FK3 | OPEN
+8 | FK4 | ANSWERED
+8 | FK5 | OPEN
+8 | FK6 | CHOSEN
+8 | FK7 | OPEN
+8 | FK8 | OPEN
+8 | FK9 | OPEN
+8 | FK10 | OPEN
+8 | FK11 | UNEARNED UNEARNABLE
+8 | FK12 | OPEN
+8 | FK14 | OPEN
+8 | FK13 | RULED
+8 | FK15 | OPEN
+8 | FK16 | OPEN
+9 | Ol | -
+9 | A0 | -
+9 | A0 | -
+9 | L1 | -
+9 | T3 | -
+9 | A5 | CONDITIONAL
+9 | A6 | -
+9 | T7 | -
+9 | C3 | -
+9 | A1 | -
+9 | A2 | -
+9 | A3 | -
+9 | A4 | -
+9 | A5 | -
+9 | A6 | -
+9 | A7 | -
+9 | C1 | -
+9 | F1 | -
+controls: SE1 True, SE3 True, SE2 True, FK6 True
+rows: 65
