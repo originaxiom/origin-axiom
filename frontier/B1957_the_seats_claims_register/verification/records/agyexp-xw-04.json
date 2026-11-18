@@ -1,0 +1,16 @@
+{
+ "id": "agyexp-xw-04",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header and labels, and its three requirements for the next frame (the isospin distinction on the two-dimensional factor and never on the family index; a coherent read-out before singular values are taken; a phased sum over the points with the lift to levels 10 or 15)",
+ "note": "The first requirement is the lead recorded with the seat's view (the pairings into the top form act on the doublet factor only); the second and third are where B1945 section 6, B1953 and row P-871 stand.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:4",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:5",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:6",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:76",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:77",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:78",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:79"
+ ]
+}

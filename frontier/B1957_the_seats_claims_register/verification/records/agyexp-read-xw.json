@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-read-xw",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the note read by main in full at c4c48f541 (81 lines); its checker not run",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP.md"
+ ]
+}

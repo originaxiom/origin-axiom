@@ -32,7 +32,7 @@ main, beyond about 150 lines of the X-APEX-4 script for one question.
 | X-FRONTIER | machine checks of P-C3c to P-C3f; a first failed stage preserved, with a successor | the physical lane (C5, seven narrowings) | 1874 |
 | X-SYNTHESIS | the −48 term, the tail and solver repairs, 288-point censuses, Casimir weights | the physical lane (C6); agy-002 (six defects) | 1875 |
 | X-APEX | two E₆ roles, strong CP from a reflection, a flux wall, a Majorana resolvent, a Hosotani minimum, a twenty-row matrix | the physical lane (fifteen defects, XA-01 to XA-15) | 1876 |
-| X-FOUNDATION | three chiral families from an index on the cusp; the physical lane's C6 repairs and C7 checks run; scale no-go statements; a twenty-two-row matrix | no one | 1877 |
+| X-FOUNDATION | three chiral families from an index on the cusp; the physical lane's C6 repairs and C7 checks run; scale no-go statements; a twenty-two-row matrix | no one *[2026-11-18, at the seat's word: the physical lane read it on 2026-11-17 (six findings, XF-01 to XF-06, each held by the seat) and main read its four notes in full on 2026-11-18 (B1957, harvest row 1909)]* | 1877 |
 
 ## What main checked (`verification/agy_exp_checks.py`)
 

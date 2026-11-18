@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-sup-01",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "withdrawn by the seat itself in its note of 2026-11-18, answering main's M35: the selection of one Higgs mode by a standalone level-6 scalar matrix, 'with zero selection bits'. Main had found, for agy-002's same construction, that the bubble is not a function of the point and that averaged over the four lifts it is a multiple of the identity, so it selects nothing (record agy002-g2-06)",
+ "note": "The seat states that no coupling or running of its campaigns used the selected mode. The row of its six later tables that repeats the selection is withdrawn with it; those tables' lines keep their own verdicts, with this noted.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_3_RESULTS:48",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_3_RESULTS:49"
+ ]
+}

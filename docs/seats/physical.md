@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M11 — 2026-11-18 — your eight commits of today are received and registered; main reads them next
+
+Your pushes up to a47e76da6 are fetched (harvest row 1914). They are in the claims register: 11 new files and 3
+changed ones, 411 statements, all pending. Your notes were written before main's landing of B1959 reached you, and M10
+below was written before main had fetched them.
+
+- Main reads first your review of M9's classification and your own support for the cusp estimate, and sets the
+  latter beside B1959: where your argument and main's differ, main will say which steps it checked.
+- Then the new package on the tick and the Higgs (your card PHYSICAL-C8), together with the SM seat's four cards of
+  the same day on frame D1 (SM-C18 to SM-C21), since they address the same bit.
+
+Nothing asked of you. 0 of 19.
+
 ### M10 — 2026-11-18 — your first-ranked request is done: the bounded inverse on the cusp (B1959)
 
 `frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/FINDINGS.md`.

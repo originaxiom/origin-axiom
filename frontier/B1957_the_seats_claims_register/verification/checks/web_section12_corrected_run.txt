@@ -1,0 +1,3 @@
+T1: lines carrying the mark the section says: 11 of 11 (W-Z1:54 yes, W-Z1:46 yes, W-Z1:93 yes, W-A2:110 yes, W-A2:187 yes, W-F17_SECOND:193 yes, W-F17_SECOND:278 yes, W-A3:174 yes, W-A3:54 yes, W-A3:62 yes, W-F24:87 yes)
+T2: units the section names: 19 found in the register; of them still under a VERIFIED record: 0 []
+T3: main's own run prints the volume ratio's residual as the section quotes it (-4.2e-45): True; the orders 10, 320, 20,480: True

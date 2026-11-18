@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-read-xc9",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the note read by main in full at c4c48f541 (84 lines); its checker not run",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS.md"
+ ]
+}

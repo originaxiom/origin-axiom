@@ -1,0 +1,4 @@
+X1: over 601 characters on 16 levels the closed form of the first step equals 2 i Delta/pi, that is -L_odd/pi^2 by main's own winding: largest difference 3.2e-14; it is zero on 40 characters
+X2: Delta divided by (pi i/2) times the closed form: +1 on 0 characters, -1 on 561 (of the 561 where it is not zero). The note's second step displays +(pi i/2); the sign that holds is -(pi i/2)
+X3: controls: with nu2's sign changed the closed form still equals it on 143 of 601; with nu1 and nu2 exchanged on 111
+X4: (-2 pi i)(pi i/2) = +9.869604 = +pi^2 (9.869604): with the display's sign the third step would give L_odd = +pi^2 eta_A; with the sign that holds it gives -pi^2 eta_A, the identity

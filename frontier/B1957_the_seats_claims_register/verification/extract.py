@@ -4,13 +4,14 @@ none is skipped.  Run by hand (it needs the seats' remote branches); it writes U
 import hashlib, json, pathlib, re, subprocess
 HERE = pathlib.Path(__file__).resolve().parent
 LANES = (  # (lane, the seat's name, branch, base before the window, head harvested to)
-    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "48a4054aa"),
+    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "c4c48f541"),
     ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "62420b533"),
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
-    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "8d5c91032"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "c37e629d2"),
+    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "a47e76da6"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "f975f6ea4"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "d1c71f255"),
+    ("sm", "the SM seat", "origin/claude/standard-model-derivation-0qt6ao", "6ea836f5", "a69cee901"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin
 )
 EXTRA = {  # files older than a lane's window that main's own record shows were never read in full or never given a verdict.
     # The web seat: its section 1d's eight notes (2026-11-17), then, at its section 7.3 (2026-11-18), every file named by one of its harvest rows whose
@@ -18,6 +19,30 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
     # register, its two review readings, and its cards; then, at its section 7.5 item 2, the four relays main's current arcs cite by label that were
     # read in their day (W-C5, W-C6 part 2, W-C8 parts 1 and 2a).  Rows whose disposition records a reading with main's verdict and that no current
     # arc cites are not reopened here (FINDINGS).
+    # agy-exp (added 2026-11-18): the twenty files older than its window that its own HARVEST REVIEW FOR MAIN (its status page at c4c48f541,
+    # section 1a) lists as owed, not read or deferred on main's record.
+    "agy-exp": (
+        "relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS.md",
+        "self_consistent_loop/reports/phase4_unification_cap_lepton_report.md",
+        "relays/AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-11_X_C3_SPECIFICATION.md",
+        "relays/AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-12_X_C1B_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS.md",
+        "relays/REVIEW_79B_AGY-EXP.md",
+        "relays/REVIEW_80_AGY-EXP.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS.md",
+        "relays/AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ.md",
+        "relays/AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP.md",
+    ),
     "web": (
         "docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md",
         "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",

@@ -1,0 +1,25 @@
+{
+ "id": "agyexp-xc9-04",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "pure mathematics computed by the seat and not on main: the domain omission it finds in Bohn's theorem and the counts of characters on which the unreduced form fails; the sealed negative on the affine fit, which the SM seat's card computed first, so that it has its second computation from two seats; the untwisted invariants' values; the two-route agreement of the slopes; and its reading of why the fit fails: on levels where the act is the identity modulo N the eta invariant is a finite symplectic Fourier transform of the slopes (its formula, checked by it on 15 and 120 characters), and elsewhere it involves the slopes of the cyclic covers",
+ "note": "A LEAD: the Fourier relation joins two invariants main holds on its own code (the slopes of B1438 and the eta invariant of B1929). Main has not computed it. Conditional here means not recomputed on main; no model is supplied.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:37",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:38",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:39",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:40",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:41",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:69",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:71",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:72",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:73",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:76",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:77",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:80",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:81",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:82"
+ ]
+}

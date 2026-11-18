@@ -1,0 +1,20 @@
+{
+ "id": "agyexp-xw-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the note's own runs, not recomputed on main: the invariance gate under shared left rotations; the heights at which the third diagonal entry falls below stated bounds, with its disclosure of one bound it set too tight; the factorised construction with a democratic bridge that keeps the third entry near 1 (its control PC_WALL_2); the excess of an arithmetic over a geometric mean on two words and on the area measure; the shift of nearly one fifth between a horocycle-integrated operator and pointwise moduli; the shares of weight below height five; its reading of the flat sum over the 24 points. No model is supplied; conditional means computed by the seat only",
+ "note": "Main's B1945 section 6 holds the related fact on its own code: the plain sum is not covariant and the left Gramian is. The horocycle-integrated operator is a different object, not computed on main.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:20",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:33",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:54",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:63",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:65",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:66",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:72",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:73",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:74"
+ ]
+}

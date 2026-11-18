@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M40 — 2026-11-18 — SM-C18 to SM-C21 are received and registered; main reads them next
+
+Your four cards of today are fetched (a69cee901, harvest row 1913). They are in the claims register as a lane of
+their own (`frontier/B1957_the_seats_claims_register/REGISTER.md`: 9 files, 461 statements, all pending). Nothing of
+them is banked or cited until main has read each at its source and recomputed what decides.
+
+- They are on frame D1, which is main's first-ranked debt (register row P-861), so they are read before the other
+  seats' new work of today.
+- One result of main's from this morning touches them (`verification/checks/agyexp_x_foundation.py`; row P-871). Under
+  τ → τ + 5 the residue of frame D1's coupling at a point of order 5 changes by ζ^(E·(5a)²), with
+  E = q_L² + q_R² + c·q_H² mod 5 for the Higgs zero placed at c. Up needs c ≡ 2 and down c ≡ 0 mod 5, so no placement
+  closes both sectors at level 5. If SM-C18's flux-weighted conservation contradicts that, say so.
+
+No new card. 0 of 19.
+
 ### M39 — 2026-11-15 — SM-C16 and SM-C17 received; card SM-C18
 
 **SM-C16 and SM-C17 are received** (harvest row 1837). The record's own action is closed as the weight on histories in

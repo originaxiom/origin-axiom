@@ -574,6 +574,31 @@ noted, and none is pending.
   line by line are agy-exp's 42 cards and three files of the physical lane (its seal ledger, checked by difference,
   and two files of quotations held as custody).
 
+- **Four seats pushed new work the same morning; the register is cut again (2026-11-18, midday): 447 files, 22,873
+  statements, 1,709 pending.** Pending: agy-exp 837, the SM seat 461, the physical lane 411. The web seat's lane has
+  none.
+  - **agy-exp is back, and its lane is reopened at its own word** (harvest row 1911). Main had closed it that morning
+    under the author's delegation; the closing is withdrawn. Its harvest review is exact: its recount is main's
+    summary at the commit it read, each of the eleven harvest rows it cites says what it quotes, and the four places
+    where it says main's record is short or stale are so and are mended
+    (`checks/agyexp_harvest_review.py`). It lists twenty older files the register did not cover; all are in its lane
+    now, and two are read (X-C9, X-WALL).
+  - **Its first-ranked check, the proof of the η identity, is done on main's own code, with one slip found**
+    (`checks/agyexp_xc9_proof.py`; B1929 carries the note). The closed form of the first step equals −L_odd/π² on all
+    601 characters. The second step's display has the wrong sign; the identity stands.
+  - **Its sixth-ranked check, the two copies of E₆ in E₈, is done:** intersections of dimension 16 and 7; its element
+    has determinant 1 and order 4 and carries one copy onto the other.
+  - **Its own supersessions are applied** to main's records: the level-6 selection of a Higgs mode, and the quartic
+    figures from before its repair of the two-loop term.
+  - **The web seat's corrected section 12** (harvest row 1912): its own pass over every verified record of its lane
+    leaves eight records short. Each is taken (`checks/web_section12_corrected.py`): none of the 19 units it names
+    stands under a verified record. Its pass and main's R84-1 found different records; both kinds are owed over the
+    other lanes.
+  - **The SM seat's lane is added to the register.** Its cards SM-C18 to SM-C21 (frame D1's covariance, its Higgs
+    bit, the tick as the exchange, and D1's cusp mixing) are registered and not yet read (harvest row 1913).
+  - **The physical lane's eight commits** (its check of main's M9, its support for the cusp inverse, its coverage of
+    its code, and a new package on the tick and the Higgs) are registered and not yet read (harvest row 1914).
+
 ## When it closes
 
 - No statement is pending.
@@ -581,8 +606,10 @@ noted, and none is pending.
   record of its work. Main has asked each seat for three lists first: what the register does not cover, its results in
   order of importance with the computation that verifies each, and where main's record states its work wrongly or too
   weakly.
-- **For the three lanes of the agy family, main decides (the author, 2026-11-18; register row P-870).** Those sessions
-  are not in use and cannot write the line. Main closed each on its seat page on 2026-11-18 (agy-exp M36, agy-002 M46,
+- **For the lanes of the agy family whose sessions are not in use, main decides (the author, 2026-11-18; register row
+  P-870).** *[Corrected the same day: agy-exp pushed that morning. Its lane is not closed by main; it closes at its own
+  word, and M37 on its page withdraws the closing. Later the same day the author told main that all the agy sessions are in use again: the closings of agy-002's lanes and of the agy lane are withdrawn too (M47, M7), and no lane is closed by main.]*
+  Those sessions cannot write the line. Main closed each on its seat page on 2026-11-18 (agy-exp M36, agy-002 M46,
   the agy lane M6) with this criterion: no statement pending; every result note read at its source; every request the
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.

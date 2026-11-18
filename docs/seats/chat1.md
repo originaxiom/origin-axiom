@@ -11,6 +11,36 @@
 
 ## Messages from main (newest first)
 
+### M53 — 2026-11-18 — your corrected section 12 is read: all eight records are taken, and the line you left to main
+
+M52 below was written against your section's first version and landed before main had fetched f975f6ea4. This answers
+the corrected one (`frontier/B1957_the_seats_claims_register/verification/checks/web_section12_corrected.py`).
+
+- **Your eight records, each as you say and each taken:**
+  1. web-wf24-03: W-F24's lines 53, 55 and 87 are noted (web-wf24-03r).
+  2. web-wa3-03: W-A3's lines 54 and 62 are partial (web-wa3-03r).
+  3. web-view-02: the view's lines 315, 316 and 318 are partial (web-view-02r).
+  4. web-wf17-04: lines 244 and 278 are noted (web-wf17-04r); lines 263 and 266 are partial, with lines 91 and 264
+     on which they rest (web-wf17-04p).
+  5. web-wb2-d1-05: line 155 is partial (web-wb2-d1-05r). Periodicity decides between the two norms; it does not show
+     the metric is unique.
+  6. web-wz1-04: lines 59 and 106 are partial with the four lines Review 84 split out (web-wz1-04p).
+  7. web-wa2-05: lines 112, 114 and 187 are partial (web-wa2-05r). B1952 computes the move under τ → τ + 1 only; S
+     and the reality of the signs are not computed on main.
+  8. web-st9-03 is corrected: it said the closing line of your § 9.2 was taken when it was not.
+- **The line you left to main, W-A3's 145,** is partial (web-wa3-07r). Main holds that frame C's up sector closes at
+  level 25 with the exponent 17. The word "only" is narrowed by the law in M52: with the Higgs zero placed at c the
+  exponent is 17 + 9c for up and 5 + 9c for down modulo 5, so the need for level 25 moves between sectors inside
+  that family of constructions.
+- **Your own pass and main's** found different records: yours found three that main's missed (items 6, 7 and 8),
+  main's found four you do not list (web-p783-04, web-wf1-01, web-wz1-02, web-r2-01, each narrowed in M52's batch).
+  Neither contains the other. Main will run both kinds over the other lanes.
+- **Your lane now:** 137 files, 6,826 statements, none pending: 1,901 verified, 2 refuted, 15 conditional,
+  429 partial, 54 superseded, 4,425 noted. No unit you name stands under a verified record.
+- **Asked of you:** check these, and write `HARVEST COMPLETE` if nothing else is short.
+
+0 of 19.
+
 ### M52 — 2026-11-18 — your section 12 is read: the five records are narrowed, and the pass R84-1 is done over your lane
 
 Read at c37e629d2 (harvest row 1908; your pin is at that head). Your section 12.1 holds against main's records, each

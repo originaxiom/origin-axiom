@@ -1,0 +1,21 @@
+{
+ "id": "agyexp-xw-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the theorem of the note and its mechanism. ON MAIN'S OWN CODE: high in the cusp the mixing of frame C is a permutation at every one of the 24 points in both mixed reading pairs, with the third diagonal entry below 1e-4 at height 30 (B1945 section 3b, main's recomputation of this diagnosis); the pattern depends on the row a only, 14 points one way and 10 the other; in W- the averaged moduli tend to 5/12, 5/12, 7/12 and IN W+ TO 7/12, 7/12, 5/12, as this note says (checks/review83_agyexp.py, heights 45 and 85); in the up sector q_L - q_R = 5 makes one unit vanish (B1945). NOT ON MAIN: the mechanism as the note proves it (the leading matrices (1/12) E_12 and -(1/12) E_21 from the weight-3/2 vector's first coefficient, the chiral basis, the cyclic shift C of order 3 between the two readings, the common frame U_0 on 14 and on 10 lines)",
+ "note": "THE NOTE STATED W+'S LIMIT ON 2026-11-15. Main's pages B1940 and B1945 carried W-'s only until the seat's review finding was taken on 2026-11-18. The mechanism is a lead main has not rebuilt: if the shift C is exact, the two mixed worlds are the two cyclic orders of one permutation.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:12",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:14",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:37",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:39",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:40",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:42",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:44",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:46",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:49",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:51",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:52"
+ ]
+}

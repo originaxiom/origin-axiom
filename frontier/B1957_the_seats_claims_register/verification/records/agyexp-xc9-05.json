@@ -1,0 +1,22 @@
+{
+ "id": "agyexp-xc9-05",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's method line, its disclosure of three fixes made before any output and of one sealed check after the run (its first run fed the theorem a character outside the range the appendix assumes; the first output is preserved), and its five planted controls with their counts",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:14",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:26",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:28",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:43",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:44",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:45",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:46",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:47",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:48"
+ ]
+}

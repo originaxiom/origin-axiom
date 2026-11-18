@@ -1,0 +1,26 @@
+{
+ "id": "agyexp-hr-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/agyexp_harvest_review.py, R1 to R3 and R6, R7: what the seat says of main's record, held against main's own files at the commit it read (c34a926a2). Its recount of the register is main's summary there (88 files, 2,099 statements, 2,027 pending). Each of the eleven harvest rows it cites exists and holds the words it quotes (not read, owed, not checked, not recomputed). The twenty older files it lists were outside the register. Its four points on main's record are right: a record of the web seat's lane left clauses to records of this lane that did not exist; B1956's line 35 and row 1877 said nobody had read X-FOUNDATION a second time; row 1875 did not name X-APEX's repairs; the foot of its page on main was stale. The one result it says lives in code only is on main: the Schur complement 41/35 (checks/agyexp_x_closure.py, C3)",
+ "note": "ONE FIGURE IS LOOSE: it puts the 2,027 pending statements in 83 unread files; at that commit they lay in 85 files, the two notes it calls read among them. TAKEN, each the same day: the twenty files are added to this lane of the register (extract.py) and are being read; the four places are mended (the record's note, B1956's page, rows 1875 and 1877, the page's foot). Its list says 'fourteen files' and names twenty; all twenty are added.",
+ "units": [
+  "agy-exp:STATUS_AGY-EXP:17",
+  "agy-exp:STATUS_AGY-EXP:24",
+  "agy-exp:STATUS_AGY-EXP:25",
+  "agy-exp:STATUS_AGY-EXP:26",
+  "agy-exp:STATUS_AGY-EXP:27",
+  "agy-exp:STATUS_AGY-EXP:28",
+  "agy-exp:STATUS_AGY-EXP:29",
+  "agy-exp:STATUS_AGY-EXP:30",
+  "agy-exp:STATUS_AGY-EXP:31",
+  "agy-exp:STATUS_AGY-EXP:32",
+  "agy-exp:STATUS_AGY-EXP:33",
+  "agy-exp:STATUS_AGY-EXP:34",
+  "agy-exp:STATUS_AGY-EXP:39",
+  "agy-exp:STATUS_AGY-EXP:103",
+  "agy-exp:STATUS_AGY-EXP:104",
+  "agy-exp:STATUS_AGY-EXP:105",
+  "agy-exp:STATUS_AGY-EXP:106"
+ ]
+}

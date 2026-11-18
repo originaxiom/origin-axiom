@@ -18,13 +18,13 @@
 | … NEGATIVE | 386 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 871 |
-| … “QUEUED” | 317 |
+| register points | 872 |
+| … “QUEUED” | 318 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1910 |
+| harvest rows (the last number) | 1914 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p: THE CLAIMS REGISTER HAS NO STATEMENT PENDING (B1957, OPEN; P-865); THE AGY LANES CLOSED BY MAIN UNDER THE AUTHOR'S DELEGATION (P-870); A LAW FOR THE POINT'S PHASE AT LEVEL 5 (P-871).** The register: 406 files, 361 read at source, 20,949 statements: 3,615 verified, 19 refuted, 1,346 conditional, 758 partial, 147 superseded, 15,064 noted, none pending. agy-exp's lane (88 files, 2,099 statements) and the last fourteen lines of agy-002's closing note are settled (harvest rows 1909, 1910). The author has left to main the judgement of when the agy sessions' harvest is complete, since they are not in use; main closes the three lanes on their pages with the criterion and…”
+“LATEST (2026-11-18, S306p, midday: FOUR SEATS PUSHED NEW WORK; THE REGISTER IS CUT AGAIN AND HAS 1,709 STATEMENTS PENDING; agy-exp IS BACK AND ITS LANE REOPENED AT ITS OWN WORD; THE WEB SEAT'S EIGHT RECORDS TAKEN (B1957, OPEN; harvest rows 1911 to 1914; P-865).** The register: 447 files, 22,873 statements; pending: agy-exp 837 (older files it asked for), the SM seat 461 (its cards SM-C18 to SM-C21 on frame D1, registered, not yet read), the physical lane 411 (eight commits of today, registered, not yet read); the web seat none. **agy-exp** pushed a harvest review the morning main had closed its lane under the author's delegation: the closing is withdrawn. Its review is exact (its recount, i…”
 
 ## Completeness (nothing skipped silently)
 

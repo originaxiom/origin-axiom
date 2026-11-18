@@ -1,0 +1,10 @@
+{
+ "id": "web-wa3-07r",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "split out on 2026-11-18, which the seat leaves to main's judgement (its section 12.2, last paragraph). ON MAIN: in frame C the up sector's phases close at level 25 and not at level 5, with the exponent q_L^2 + q_R^2 = 17 that the line's quadratic module carries (B1945 section 6; checks/agyexp_x_foundation.py). THE WORD 'ONLY' IS THE SEAT'S READING, and main's law of the same day narrows it: with the Higgs zero placed at c the exponent is 17 + 9c for up and 5 + 9c for down modulo 5, so the need for level 25 moves between sectors and does not leave that family of constructions (register row P-871)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:145"
+ ]
+}

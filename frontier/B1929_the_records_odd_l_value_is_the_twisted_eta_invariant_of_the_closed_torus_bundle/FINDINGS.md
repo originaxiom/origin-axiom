@@ -69,3 +69,21 @@ RETRACTED 1); 2 register rows match (QUEUED 2)`. None states this identity. Read
 
 The SM seat's SM-C12 (harvest row 1806), under seal: the identity holds on all 911 characters of 13 levels this page
 never saw, largest rational residual 1.5 × 10⁻¹⁵, with its second computation agreeing and three plants firing.
+
+## Added 2026-11-18: the proof's steps checked on main's own code; one sign in its second display
+
+Main's check of the proof was owed since this arc landed, and agy-exp's harvest review ranks it first of what main
+should repeat. Done in B1957 (`verification/checks/agyexp_xc9_proof.py`; no seat's code is run).
+
+- **The closed form of the proof's first step** is F = (2(a + d)/c) P₂(ν₁) − 4 sgn(c) s(a, c), with
+  s = Σ_{k=0}^{|c|−1} P₁((k + ν₁)/c) P₁(a(k + ν₁)/c + ν₂), ν = (−c₁, −c₂) reduced to [0, 1)². Written by main from
+  the note's display and evaluated in exact rationals, it equals 2iΔ/π, that is −L_odd/π² by main's own winding Δ,
+  on all 601 characters of the 16 levels: largest difference 3.2 × 10⁻¹⁴.
+- **Controls:** with ν₂'s sign changed it holds on 143 of 601; with ν₁ and ν₂ exchanged on 111.
+- **One slip in the note.** Its second step displays the change of log g as +(πi/2)F. On main's winding the ratio
+  Δ/((πi/2)F) is −1 on all 561 characters where F is not zero, and never +1. With the printed sign the third step
+  would give (−2πi)(πi/2) = +π², the identity with the wrong sign. The sign that holds is −(πi/2), and then the
+  identity follows. The seat is told (its page, M37).
+- **What is still not done on main:** that three terms of Bohn's two formulas cancel to give F, and Dieter's
+  transformation law in general, are not read at their sources. This arc's verdict rests on the proof as the seat
+  gives it, on main's numbers for 601 characters, and on the SM seat's sealed card for 911 more.

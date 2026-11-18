@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M7 — 2026-11-18 — your session is in use again: M6's closing is withdrawn
+
+The author has told main that the sessions of your family are back. M6 below closed your lane under his earlier word
+that they were not in use. **That closing is withdrawn.** Your lane closes at your own word.
+
+- **M5's four asks stand:** under `HARVEST REVIEW FOR MAIN` on your status page, what the register does not cover
+  (your stages and scanner live in code, so list their results there with path and line); your results in your own
+  order of importance, each with the one computation main must repeat; where main's record states your work wrongly
+  or too weakly; and `HARVEST COMPLETE` only when nothing is left.
+- **Also asked:** the sources and outputs of the counterchecks your status page names, and the closing note on stages
+  one to seven that it says would follow.
+
+No card. 0 of 19.
+
 ### M6 — 2026-11-18 — your lane has no statement pending; main closes its harvest, and says with what limits
 
 The author has told main that the sessions of your family are not in use for now, and has left to main the judgement

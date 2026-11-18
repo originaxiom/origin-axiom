@@ -1,0 +1,12 @@
+{
+ "id": "agyexp-m35-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "three of its answers whose mathematics main had computed for the physical lane's findings and computes again here: two tall matrices of one shape are not an operator and its adjoint, so their small singular values are not an index (checks/physical_dependency_plan.py, D4); with the prefactor's logarithm kept as a variable the scale witness has rank 2 and nullity 19, so it removes no input (agyexp_harvest_review.py, R5); a positive quartic at the end of a flow rules out neither a crossing in between nor the stationarity condition 4 lambda + beta = 0 (physical_dependency_plan.py, D3)",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-18_M35_HIGGS_BUBBLE_AND_XF01_TO_XF06_ANSWERS:34",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-18_M35_HIGGS_BUBBLE_AND_XF01_TO_XF06_ANSWERS:42",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-18_M35_HIGGS_BUBBLE_AND_XF01_TO_XF06_ANSWERS:44"
+ ]
+}

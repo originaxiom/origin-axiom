@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-sup-02",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "the quartic coupling's figures in the campaigns before X-SYNTHESIS-3, computed with -24 where the two-loop term is -48: superseded at the seat's own word (its harvest review of 2026-11-18, and its table's row for the physical lane's finding F12), by the values of X-SYNTHESIS-3 and later. Main verified the coefficient (record agyexp-xs-01)",
+ "note": "These nine lines were conditional before (outputs inside the supplied model). Other figures in the same lines stay conditional on the same premises.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:41",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:46",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:59",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS:26",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:57",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:59",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS:35",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS:28",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS:24"
+ ]
+}

@@ -797,3 +797,47 @@ def test_a_path_inside_the_four_field_vacuum_set_costs_a_constant_over_the_lengt
     E = lambda Lx: 0.5 * (np.linalg.norm(np.diff(P, axis=0), axis=(1, 2)) ** 2).sum() / (Lx / 4000)
     assert abs(E(6) * 6 - np.pi ** 2 / 4) < 1e-5 and abs(E(48) * 48 - E(6) * 6) < 1e-9
     assert abs(np.linalg.det(0.5 * (path(0) + path(1)))) > 0.2                          # the straight path leaves the set
+
+
+# ---- agy-exp's harvest review of 2026-11-18: the checks it ranks first and sixth, and two small ones ----
+def test_the_scale_witness_removes_no_input_while_its_prefactor_is_free():
+    import sympy as sp
+    A = sp.zeros(2, 21); A[0, :20] = sp.ones(1, 20); A[1, 0] = 1; A[1, 19] = -1; A[1, 20] = -1
+    assert (A.rank(), 21 - A.rank()) == (2, 19) and (A[:, :20].rank(), 20 - A[:, :20].rank()) == (2, 18)   # the 21st column is the prefactor
+
+
+def test_only_the_scalars_commute_with_the_clock_and_the_shift_of_order_three():
+    w = np.exp(2j * np.pi / 3); X = np.roll(np.eye(3), 1, axis=0); Z = np.diag([1, w, w * w])
+    K = lambda gens: np.vstack([np.kron(np.eye(3), G) - np.kron(G.T, np.eye(3)) for G in gens])
+    assert 9 - np.linalg.matrix_rank(K([X, Z])) == 1 and 9 - np.linalg.matrix_rank(K([Z])) == 3
+
+
+def test_the_two_copies_of_e6_in_e8_meet_in_dimension_sixteen_and_the_second_ones_g422_meets_the_first_in_seven():
+    import itertools, sympy as sp
+    e = lambda i: tuple(F(int(k == i)) for k in range(8)); sub = lambda a, b: tuple(x - y for x, y in zip(a, b)); dot = lambda a, b: sum(x * y for x, y in zip(a, b))
+    roots = [tuple((si if k == i else sj if k == j else F(0)) for k in range(8)) for i, j in itertools.combinations(range(8), 2) for si in (F(1), F(-1)) for sj in (F(1), F(-1))]
+    roots += [tuple(F(s, 2) for s in sg) for sg in itertools.product((1, -1), repeat=8) if sum(1 for s in sg if s < 0) % 2 == 0]
+    a2 = lambda tr: [sub(e(i), e(j)) for i in tr for j in tr if i != j]; COL, HID = a2((0, 1, 2)), a2((3, 4, 5)); rk = lambda vs: sp.Matrix([list(v) for v in vs]).rank()
+    cent = [r for r in roots if all(dot(r, c) == 0 for c in COL)]; gut = [r for r in roots if all(dot(r, c) == 0 for c in HID)]; both = set(cent) & set(gut)
+    assert (len(cent), len(gut), len(both), 8 - rk(COL + HID)) == (72, 72, 12, 4)                                  # 12 + 4 = 16
+    a1, a2_ = sub(e(0), e(1)), sub(e(1), e(2)); a3 = next(a for a in gut if dot(a2_, a) == -1 and dot(a1, a) == 0); span = sp.Matrix([list(a1), list(a2_), list(a3)]).T
+    su4 = [r for r in gut if sp.Matrix.hstack(span, sp.Matrix(list(r))).rank() == 3]; lr = [r for r in gut if all(dot(r, x) == 0 for x in su4)]
+    inter = [r for r in su4 + lr if all(dot(r, c) == 0 for c in COL)]
+    assert (len(su4), len(lr), len(inter), rk(su4 + lr) - rk(COL)) == (12, 4, 4, 3) and not [r for r in su4 if r in inter]   # 4 + 3 = 7, and no root of su(4)
+    refl = lambda a: sp.eye(8) - 2 * sp.Matrix(list(a)) * sp.Matrix(list(a)).T / dot(a, a)
+    W = refl(sub(e(0), e(4))) * refl(sub(e(4), e(1))) * refl(sub(e(1), e(3))) * refl(sub(e(2), e(5)))
+    act = lambda M, r: tuple(F(int(sp.Rational(x).p), int(sp.Rational(x).q)) for x in M * sp.Matrix(list(r)))
+    assert W.det() == 1 and W ** 2 != sp.eye(8) and W ** 4 == sp.eye(8) and {act(W, r) for r in cent} == set(gut)
+    assert {act(W * W, r) for r in cent} == set(cent) != set(gut)                                                  # its square does not exchange them
+
+
+def test_the_eta_identitys_closed_form_holds_and_the_printed_sign_of_its_second_step_does_not():
+    import json, math
+    root = next(q for q in pathlib.Path(__file__).resolve().parents if (q / "frontier").is_dir() and (q / "GENESIS.md").is_file())
+    B = next((root / "frontier").glob("B1929_*")) / "verification"; sys.path.insert(0, str(B)); sys.path.insert(0, str(HERE / "checks")); import agyexp_xc9_proof as X
+    pop = json.loads((B / "received_sm" / "population.json").read_text())[::12]; flipped = 0
+    for o in pop:
+        Dl = X.winding(o); Fc = X.closed(o); assert abs(float(Fc) - (2j * Dl / math.pi).real) < 1e-9
+        if Fc != 0: assert abs(Dl / (1j * math.pi / 2 * float(Fc)) + 1) < 1e-8                                    # minus, where the note prints plus
+        flipped += abs(float(X.closed(o, flip=-1)) - (2j * Dl / math.pi).real) < 1e-9
+    assert len(pop) >= 50 and flipped < len(pop) // 2                                                             # the form with nu2's sign changed fails on most

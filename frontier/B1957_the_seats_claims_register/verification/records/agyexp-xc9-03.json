@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-xc9-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "lines where main holds part. THE PROOF'S FIRST AND THIRD STEPS: the closed form of the first step is the eta invariant by main's own computation (X1), and L_odd = -2 pi i Delta is main's (B1929); that three terms of Bohn's two formulas cancel to give that closed form is not checked at Bohn's text. THE TWO SLIPS IN THE WORKED EXAMPLES: the arithmetic is right as the note gives it (-sgn(c(a+d)) - sgn(c) = 0 and +sgn(c(a+d)) - sgn(c) = -2 at c = 1, a + d = -3; and 2(1/4 - 1/2) - 4/4 + 1 - 2/4 = -1); that the dissertation prints those lines is the seat's reading of a source main has not opened. THE ROUTE BY THE SIEGEL FUNCTION is main's own too (B1929); the seat's quadrature route and its agreement figures are its run",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:42",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:56",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:61"
+ ]
+}

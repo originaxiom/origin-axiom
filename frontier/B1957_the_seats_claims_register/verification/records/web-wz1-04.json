@@ -5,8 +5,6 @@
  "how": "by a short argument: m004's group has one cusp and PSL(2, Z[omega]) has one cusp, so the group acts transitively on the cusps of the Bianchi group, the cosets of the two cusp stabilisers correspond, and the two Eisenstein series are the same sum; the congruence level plays no part. That the Bianchi group's scattering is a ratio of completed Dedekind zetas of Q(sqrt -3) is the standard result, not recomputed",
  "note": "",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:53",
-  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:59",
-  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:106"
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:53"
  ]
 }

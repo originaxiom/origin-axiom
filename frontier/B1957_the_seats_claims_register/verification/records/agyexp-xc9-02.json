@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-xc9-02",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "the display of the proof's second step, as written: it gives the change of log g along one period as +(pi i/2) times the closed form. On main's winding the ratio is -1 on all 561 characters where the closed form is not zero, never +1 (agyexp_xc9_proof.py, X2). The third step then multiplies by -2 pi i, and (-2 pi i)(pi i/2) = +pi^2 (X4): with the display's sign the proof would end at L_odd = +pi^2 eta_A. With the sign that holds, -(pi i/2), it ends at the identity",
+ "note": "A SIGN SLIP IN A DISPLAY, NOT IN THE THEOREM. The identity is true and the note's final line states it with the right sign; that line does not follow from the display as printed. Reported to the seat (M37).",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:59"
+ ]
+}

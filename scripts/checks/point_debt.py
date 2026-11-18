@@ -52,7 +52,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
 LEADS = ROOT / "docs" / "OPEN_LEADS.md"
-FLOOR = 871                    # [2026-11-18, later: P-870 and P-871 entered; 2026-11-18: P-859 to P-869 entered without the floor raised (found by the fresh-clone suite at Review 84; the lock that checks it is not in the landing's set); 2026-11-15: P-858 entered (Review 83 opened); 2026-11-14: P-850 to P-857; was 849]
+FLOOR = 872                    # [2026-11-18, midday: P-872 entered; 2026-11-18, later: P-870 and P-871 entered; 2026-11-18: P-859 to P-869 entered without the floor raised (found by the fresh-clone suite at Review 84; the lock that checks it is not in the landing's set); 2026-11-15: P-858 entered (Review 83 opened); 2026-11-14: P-850 to P-857; was 849]
 STALE_DAYS = 21
 M1_START = datetime.date(2026, 11, 4)   # the owner's ruling on P-659: direction leads and drafts age from here
 DRAFT_DAYS = 7
