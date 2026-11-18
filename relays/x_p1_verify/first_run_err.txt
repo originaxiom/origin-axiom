@@ -25,3 +25,11 @@ Traceback (most recent call last):
   File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 850, in ext_deriv_matrix
     row_i = idx_map[tuple(lst)]
 KeyError: (0, 1)
+
+--- Third pre-result stop (all 4 modules J, Z, W, C finished cleanly; SymPy Matrix.tolist() returned sp.Integer in json.dumps before writing verify_x_p1_out.json) ---
+Traceback (most recent call last):
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 1857, in <module>
+    main()
+  File "/Users/dri/.gemini/antigravity/scratch/origin-axiom-self-consistent-loop/relays/x_p1_verify/verify_x_p1.py", line 1849, in main
+    out_txt = json.dumps(payload, indent=2, sort_keys=False) + "\n"
+TypeError: Object of type Integer is not JSON serializable

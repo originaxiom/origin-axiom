@@ -1846,7 +1846,14 @@ def main() -> None:
         "all_planted_controls_passed": all_planted_passed,
     }
 
-    out_txt = json.dumps(payload, indent=2, sort_keys=False) + "\n"
+    def _json_default(obj: Any) -> Any:
+        if isinstance(obj, sp.Integer):
+            return int(obj)
+        if isinstance(obj, sp.logic.boolalg.Boolean):
+            return bool(obj)
+        raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
+
+    out_txt = json.dumps(payload, indent=2, sort_keys=False, default=_json_default) + "\n"
     OUT_PATH.write_text(out_txt, encoding="utf-8")
     sha = hashlib.sha256(out_txt.encode("utf-8")).hexdigest()
     OUT_SHA_PATH.write_text(f"{sha}  verify_x_p1_out.json\n", encoding="utf-8")
