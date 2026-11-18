@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1948 |
+| harvest rows (the last number) | 1950 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: agy-002'S BRANCH OF 2026-11-11 READ LINE BY LINE, EVERY STATEMENT A VERDICT; ONLY THE SM SEAT'S RELAY OF 2026-10-07 STILL PENDING (B1957, OPEN; harvest rows 1943 to 1948; P-781, P-876).** The register: 536 files, 463 read at source, 31813 statements: 3562 verified, 27 refuted, 2311 conditional, 2109 partial, 165 superseded, 18278 noted, 5361 pending. HARVEST COMPLETE stands for agy-002's four lanes; it is asked for lane agy-002-sync (M54); agy-exp and the web seat check main's mends (M42, M65); the physical lane's condition is met (M18); the SM seat's review waits on its relay (M46); the agy lane has not answered (M10). Nothing is compared with data…”
+“LATEST (2026-11-18, S306p, night, latest: THE PHYSICAL LANE WRITES HARVEST COMPLETE FOR ITS WINDOW M7 TO M18; ITS NEW FOUNDATION PACKET AND THE WEB SEAT'S W-P1 (THE PROCESS READING, AT THE AUTHOR'S REQUEST) READ AND SETTLED (B1957, OPEN; harvest rows 1948 to 1950; P-874, P-875, P-876).** The register: 550 files, 490 read at source, 32251 statements: 3637 verified, 27 refuted, 2499 conditional, 2134 partial, 165 superseded, 18428 noted, 5361 pending. HARVEST COMPLETE stands for agy-002's four lanes and the physical lane's M7 to M18; asked of agy-002 for lane agy-002-sync (M54), of agy-exp (M42) and of the web seat (M65, M66; its section 25 awaits its read version); the SM seat's review waits…”
 
 ## Completeness (nothing skipped silently)
 

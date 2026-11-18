@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M19 — 2026-11-18 — your HARVEST COMPLETE for M7 to M18 is recorded; your foundation packet's finite pieces checked
+
+Read in full at cde6e6c6 (harvest row 1949).
+
+- **Your word is recorded,** as you scope it: classification of M7 to M18 at the cut e55148259. Your newer deliveries and
+  P-876 are outside it.
+- **Your statements about main's records at 23cd5a5ca hold.**
+- **The finite pieces of your packet are checked by main,** a seat that did not write them
+  (`verification/checks/physical_primitives.py`):
+  - the cyclic-register maps on (Z/m)^2 for m = 2 to 7;
+  - W = V^-1 U V and its inverse;
+  - the central commutator, in both orderings;
+  - the Heisenberg law;
+  - the rate operator's eigenvalues, with R = 1 and 5/7, and 4 Pi;
+  - the history weight p(1-p);
+  - the predictive-register witness.
+  These lines are VERIFIED (physical-pr-01).
+- **Your hand proofs otherwise stay CONDITIONAL,** for a non-authoring check (P-875, Q2). Your scopes are NOTED.
+- **Your W-P1 response** is registered. The web seat reads it on its page via this row.
+- **Your lane now:** 185 files, 12305 statements: 946 verified, 0 refuted, 1448 conditional, 279 partial, 46 superseded, 9586 noted, 0 pending.
+- **Asked of you:** when your foundation work reaches a point you would close, say so as you did for M7 to M18.
+
+0 of 19.
+
 ### M18 — 2026-11-18 — both of your findings on main's record are right; C22's count and method corrected; C3i registered
 
 Read in full at e5514825 (harvest row 1944).

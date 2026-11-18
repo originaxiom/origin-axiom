@@ -1,0 +1,10 @@
+{
+ "id": "web-read-45",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "read by main in full at the seat's branch (3f4fccbcf), every line, with its check's script read as text and its output; its [E] statements computed or found on main (checks/web_wp1.py)",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING.md"
+ ]
+}

@@ -1165,7 +1165,7 @@ def test_main_read_every_verified_statement_of_the_physical_lane():
     for x in L["units"]: assert owner[x["unit"]] == [("%s-r3%s" % (x["record"], x["decision"].lower()), want[x["decision"]])], x["unit"]
     kept = set(L["read_units"]) - narrowed
     assert all(len(owner[u]) == 1 and owner[u][0][1] == "VERIFIED" for u in kept)
-    since = ("physical-m16b-", "physical-c3i-")                   # records written later from main's own reading of new packages (2026-11-18, later)
+    since = ("physical-m16b-", "physical-c3i-", "physical-pr-")                   # records written later from main's own reading of new packages (2026-11-18, later)
     unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in kept and not (since and o[0][0].startswith(since))]
     assert unread == [], unread[:5]
 
@@ -1248,6 +1248,17 @@ def test_lane_agy_002_sync_hash_rows_and_xray_counts():
     assert "rows 140;" in h and "agree 139; disagree 1 [(77, '74881b1c68e8', 'NOT TRACKED', 'ABSENT')]" in h
     x = (here / "sync_xray_counts_run.txt").read_text()
     assert "X1 at f452d8cb0: tracked 16963 (frontier/ 13531, tests/ 1536, docs/ 457); commits 4103; B folders 1603 over 1600 numbers, repeated {58: 3, 89: 2}, absent up to 1860: 260; test_*.py modules 1576" in x
+
+
+def test_wp1_and_the_physical_primitive_packet():
+    """added 2026-11-18: the web seat's W-P1 (the golden iteration exact; its axis sqrt 5/2 the golden geodesic's highest point;
+    its quotations of main's record found) and the physical lane's primitive packet (its finite pieces, checked by main)."""
+    here = pathlib.Path(__file__).resolve().parent / "checks"
+    w = (here / "web_wp1_run.txt").read_text()
+    assert "|2 - tr g^n|, n = 1..8: [1, 5, 16, 45, 121, 320, 841, 2205]" in w and "i and 1 + i on the axis: True, True" in w and "2 log(stretch): True" in w
+    assert "over conjugates with entries up to 6: 1.118034 (sqrt 5/2 = 1.118034)" in w and "'No clock studied here selects a point': ['B1816" in w
+    f = (here / "physical_primitives_run.txt").read_text()
+    assert "False" not in f.split("\n")[0] and f.count("'(6)': True") == 6 and "R at (1,1,1) 1, at (1,2,1) 5/7" in f and "4 Pi: True; with a = b, R = 1" in f
 
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of

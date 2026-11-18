@@ -712,6 +712,10 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **The physical lane writes HARVEST COMPLETE for its window M7 to M18 (harvest row 1949),** classification only at
+  e55148259; its foundation-primitive packet's finite pieces are checked by main (`checks/physical_primitives.py`), its
+  hand proofs conditional. **The web seat's W-P1 (row 1950),** the process reading, written at the author's request: its
+  mathematics exact on main (`checks/web_wp1.py`; the golden thread never above sqrt 5/2), entered under P-874.
 - **Lane agy-002-sync read line by line (harvest row 1948; P-876, Q1):** 0 pending. Its hash-list page holds in 139 of
   140 rows recomputed at 015be0cc7 (`checks/sync_hash_lists.py`); its X-ray of main has two figures git does not give
   (refuted as written; `checks/sync_xray_counts.py`); its arcs' mathematics stays conditional, P-781's checks owed.

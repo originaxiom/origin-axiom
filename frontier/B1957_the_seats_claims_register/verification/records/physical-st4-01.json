@@ -5,12 +5,12 @@
  "how": "the status page's paragraphs of 2026-11-18 after M12: each restates one of the notes above, whose statements carry their own verdicts (the reply to M12; the cross-form packet; the compact control, its roster and its stabiliser), and says that no completion line is written",
  "note": "",
  "units": [
-  "physical:STATUS_PHYSICAL:82",
-  "physical:STATUS_PHYSICAL:97",
-  "physical:STATUS_PHYSICAL:108",
-  "physical:STATUS_PHYSICAL:115",
-  "physical:STATUS_PHYSICAL:121",
-  "physical:STATUS_PHYSICAL:131",
-  "physical:STATUS_PHYSICAL:138"
+  "physical:STATUS_PHYSICAL:174",
+  "physical:STATUS_PHYSICAL:189",
+  "physical:STATUS_PHYSICAL:200",
+  "physical:STATUS_PHYSICAL:207",
+  "physical:STATUS_PHYSICAL:213",
+  "physical:STATUS_PHYSICAL:223",
+  "physical:STATUS_PHYSICAL:230"
  ]
 }

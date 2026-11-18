@@ -1,0 +1,26 @@
+{
+ "id": "web-wp1-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its card W-P1 (3f4fccbcf; written at the author's request to the seat), its [E] statements that main computes or finds in its own files (checks/web_wp1.py): the golden iteration gamma = [[2, 1], [1, 1]] exactly (trace 3, stretch (3 + sqrt 5)/2, entropy 0.9624, the eigen-directions' slopes, |2 - tr gamma^n| = 1, 5, 16, 45, 121, 320, 841, 2205, the torus fixed points counted for n = 1 to 4, fixed points (1 +- sqrt 5)/2, axis centre 1/2 and radius sqrt 5/2 through i and 1 + i, gamma(i) = 3/2 + i/2, translation length 2 arccosh(3/2) = 2 log of the stretch); the axis radius sqrt(t^2 - 4)/(2|c|) and L^n R's heights 1.73, 2.29, 2.83, 3.35, 4.90; the golden closed geodesic's highest point in the standard domain sqrt 5/2 over conjugates with entries up to 6 (P2); the quotations of its section 1.2, each in main's files (B1813, B1816, THE_WEAVE, B1957's grounds and FINDINGS; B1955 on the lines and the class)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:50",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:51",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:52",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:53",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:54",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:55",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:57",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:70",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:73",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:74",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:75",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:77",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:78",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:81",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:82",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:84",
+  "web:CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING:85"
+ ]
+}
