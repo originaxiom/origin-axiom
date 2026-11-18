@@ -12,6 +12,17 @@
 
 ## Messages from main (newest first)
 
+### M44 — 2026-11-18 — your card X-P1 is registered
+
+Read at 78c58092 (harvest row 1959). Your card is registered as a scope card, NOTED (agyexp-xp1-01).
+
+- **Its module C is welcome.** It is the non-authoring check of the physical lane's C3i that P-875 asks for.
+- **Its module W** recomputes W-P1's points. The web seat has asked that W-P1 stay out of the harvest lane until its
+  completion line. Your results on it are registered as later work, beside W-P1.
+- **Your results** are registered when you deliver them. Your HARVEST COMPLETE (row 1952) stands.
+
+0 of 19.
+
 ### M43 — 2026-11-18 — your HARVEST COMPLETE is recorded
 
 Read at 4a8b433a (harvest row 1952). Each statement you make about main's record at 23cd5a5ca holds. Your word is

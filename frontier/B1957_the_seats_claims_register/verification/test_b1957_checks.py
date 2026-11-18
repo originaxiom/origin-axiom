@@ -1221,8 +1221,8 @@ def test_the_seats_older_rows_and_the_physical_answer():
     out = json.loads((here / "older_rows.json").read_text())
     outside = {f for o in out.values() for f, st in o["files"].items() if st == "on a branch, not in the register"}
     assert outside and not (outside & reg), sorted(outside & reg)[:5]
-    m = _re.search(r"S2: (\d+) seat labels; (\d+) rows; (\d+) of them name no file; files: \{'in the register': (\d+), 'not found': (\d+), 'on a branch, not in the register': (\d+)\}", run)
-    assert m and int(m.group(4)) >= 162 and int(m.group(6)) <= 283
+    m = _re.search(r"S2: (\d+) seat labels; (\d+) rows; (\d+) of them name no file; files: \{'in the register': (\d+), (?:[\"']kept out at the seat's request[\"']: (\d+), )?'not found': (\d+), 'on a branch, not in the register': (\d+)\}", run)
+    assert m and int(m.group(4)) >= 162 and int(m.group(7)) <= 283, run[-300:]
     ph = (here / "physical_m13_m16_run.txt").read_text()
     assert ph.count("the same: True") == 2 and "adds the card C3i: True" in ph
 

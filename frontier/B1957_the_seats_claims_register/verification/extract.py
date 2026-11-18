@@ -4,7 +4,7 @@ none is skipped.  Run by hand (it needs the seats' remote branches); it writes U
 import hashlib, json, pathlib, re, subprocess
 HERE = pathlib.Path(__file__).resolve().parent
 LANES = (  # (lane, the seat's name, branch, base before the window, head harvested to)
-    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "4a8b433a2"),
+    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "78c58092d"),
     ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "bd4af8277"),
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),

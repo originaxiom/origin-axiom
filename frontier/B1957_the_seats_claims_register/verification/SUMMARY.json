@@ -1,16 +1,16 @@
 {
  "lanes": {
   "agy-exp": {
-   "files": 111,
+   "files": 112,
    "read": 66,
-   "units": 3984,
-   "statements": 3236,
+   "units": 4009,
+   "statements": 3260,
    "VERIFIED": 157,
    "REFUTED": 7,
    "CONDITIONAL": 471,
    "PARTIAL": 531,
    "SUPERSEDED": 60,
-   "NOTED": 2010,
+   "NOTED": 2034,
    "PENDING": 0
   },
   "agy-002-verify": {
@@ -1417,6 +1417,19 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 11,
+   "PENDING": 0
+  },
+  "agy-exp | relays/cards/AGY-EXP_X-P1_exterior-operator-join-symmetry-nullity-wp1-and-c3i-check.md": {
+   "lane": "agy-exp",
+   "units": 25,
+   "statements": 24,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 24,
    "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md": {

@@ -4,7 +4,7 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 111 | 66 | 3236 | 157 | 7 | 471 | 531 | 60 | 2010 | **0** |
+| agy-exp | 112 | 66 | 3260 | 157 | 7 | 471 | 531 | 60 | 2034 | **0** |
 | agy-002-verify | 16 | 13 | 709 | 169 | 3 | 11 | 128 | 0 | 398 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
@@ -14,7 +14,7 @@
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 18 | 32 | 0 | 63 | **0** |
 | sm | 14 | 9 | 6123 | 231 | 4 | 3861 | 202 | 0 | 1825 | **0** |
 | agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
-| **all** | 550 | 489 | 32295 | 3659 | 27 | 6197 | 2119 | 765 | 19528 | **0** |
+| **all** | 551 | 489 | 32319 | 3659 | 27 | 6197 | 2119 | 765 | 19552 | **0** |
 
 ## By file
 
@@ -119,6 +119,7 @@
 | agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-3_one-loop-spectral-action-and-kronecker-cancellation.md` | no | 33 | 33 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-4_literature-gated-rge-bridge-and-naumov-invariants.md` | no | 31 | 31 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-L5_level5-point-phase-law-and-odd-c-sign-recomputation.md` | no | 11 | 11 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-P1_exterior-operator-join-symmetry-nullity-wp1-and-c3i-check.md` | no | 24 | 24 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md` | no | 23 | 23 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-2_sec2-sec3-flavor-exponents-across-levels-5-10-15.md` | no | 26 | 26 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-3_amphichiral-determinants-seesaw-crt-and-atlas.md` | no | 22 | 22 | **0** |

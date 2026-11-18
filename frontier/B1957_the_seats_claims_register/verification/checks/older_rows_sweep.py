@@ -13,9 +13,15 @@ L = (ROOT / "docs" / "HARVEST_LEDGER.md").read_text().split("\n")
 # the first version compared bare file names with them, so registered files under folders were listed as outside the register
 reg = {u[0].split(":")[1].split("/")[-1] for u in json.loads((V / "UNITS.json").read_text())["units"]}
 OPEN = re.compile(r"^\**\s*(RECEIVED|REGISTERED|UNREAD|NOT READ)|NOT READ|NOTHING VERIFIED|REGISTERED BY|not read in full|read at name level|by file name", re.I)
+# added 2026-11-18, later: files a seat asked to keep out of the harvest lane (extract.py's EXCLUDE_PATTERNS) are their own class
+import fnmatch, re as _re
+_ex = (V / "extract.py").read_text(); _i = _ex.index("EXCLUDE_PATTERNS = {"); _j = _ex.index("\n}\n", _i)
+_g = {}; exec(_ex[_i:_j + 3], _g); _pats = [p for v in _g["EXCLUDE_PATTERNS"].values() for p in v]
+kept = set()
 stems = set()
 for b in [b.strip() for b in git("for-each-ref", "--format=%(refname:short)", "refs/remotes/origin").split("\n") if b.strip()]:
-    stems |= {f.split("/")[-1][:-3] for f in git("ls-tree", "-r", "--name-only", b).split("\n") if f.endswith(".md")}
+    _fs = [f for f in git("ls-tree", "-r", "--name-only", b).split("\n") if f.endswith(".md")]
+    stems |= {f.split("/")[-1][:-3] for f in _fs}; kept |= {f.split("/")[-1][:-3] for f in _fs if any(fnmatch.fnmatch(f, p) for p in _pats)}
 out = collections.OrderedDict()
 for l in L:
     m = re.match(r"\| (\d{3,4}) \| ([^|]+) \|", l)
@@ -26,7 +32,7 @@ for l in L:
     o["rows"].append(int(m.group(1)))
     fs = {f.split("/")[-1][:-3] for f in re.findall(r"[\w][\w./-]*\.md", c[2] + " " + c[3] + " " + c[4])}
     if not fs: o["rows_no_file"].append(int(m.group(1)))
-    for s in fs: o["files"][s] = "in the register" if s in reg else ("on a branch, not in the register" if s in stems else "not found")
+    for s in fs: o["files"][s] = "in the register" if s in reg else ("kept out at the seat's request" if s in kept else ("on a branch, not in the register" if s in stems else "not found"))
 tot = collections.Counter(); nrows = nnone = 0
 for seat, o in sorted(out.items(), key=lambda kv: -len(kv[1]["rows"])):
     st = collections.Counter(o["files"].values()); tot.update(st); nrows += len(o["rows"]); nnone += len(o["rows_no_file"])
