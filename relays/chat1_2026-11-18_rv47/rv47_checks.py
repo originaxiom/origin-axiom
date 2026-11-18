@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """The check behind the status page's section 9 (main's M47). Data-free. Post hoc and not sealed: computed once.
 
-    python3 -I -u rv46_checks.py <a checkout of main at a5e967af9> <a directory of reruns of main's checks>
+    python3 -I -u rv47_checks.py <a checkout of main at a5e967af9> <a directory of reruns of main's checks>
 
-G1  Main's new and changed check scripts for this seat's notes (the web_*.py files added to or changed in B1957's checks between c458df8ce and
-    a5e967af9), rerun on a clean checkout of main: each rerun's output against the run file main committed, line by
-    line. Only whether the lines are equal, and for unequal lines whether only numbers below 1e-6 differ, is printed;
+G1  Main's new and changed check scripts for this seat's notes (the web_*.py files added to or changed in B1957's
+    checks between c458df8ce and a5e967af9), rerun on a clean checkout of main: each rerun's output against the run
+    file main committed, line by line. Only whether the lines are equal, and for unequal lines whether only numbers below 1e-6 differ, is printed;
     the outputs' text is not printed.
+G2  The two checks main seeded at M47 (web_wb1_on_main, web_wf5_on_main), each run twice: the two runs compared.
 """
 import os
 import re
