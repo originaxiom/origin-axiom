@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-18",
+  "scope_card_commit": "566c54d4c",
+  "method": "Personal source reading and author hand derivation; not independently checked",
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "scientific_collection": 0,
+  "foundational_inputs_counted_removed": 0,
+  "sources": [
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md",
+      "sha256": "6be0e08fd8ec07a5ea0fe91596d141d9dd6067c811ed232149889e504190d2a8",
+      "lines": 59,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C19_WHICH_BIT.md",
+      "sha256": "044a200df8bca70490a7590ff9341cfcfca98a1fcec0e8739b9831d92b92a5c1",
+      "lines": 53,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md",
+      "sha256": "3b44bc75b9e05de4abc5abf61ba3442065a5f65061eac6a76a346f0d99c22920",
+      "lines": 52,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/cards/SM_C18_the-triple-overlaps-covariance.md",
+      "sha256": "f589c7df8dc8acc5187d07ef4aab1b160e1192cb2de456e34509bf5725be7bb9",
+      "lines": 86,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md",
+      "sha256": "9278cb214730caacc7ba75786698fe4bff4b333de75ebe00ab04eb4ff8f0ca39",
+      "lines": 64,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/cards/SM_C20_is-the-exchange-the-tick.md",
+      "sha256": "61af650e5f7da0cc5360cf5edefbd2ebc288ae5e1d29ced4fff8694ed0050723",
+      "lines": 49,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c18/run_c18.py",
+      "sha256": "6e570853e4fe4079d5f52069854864e00dff76a9e32abf5fcbffc7ca405fd30e",
+      "lines": 133,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c18/c18_results.json",
+      "sha256": "146d9eea5aaa8257bebaf2d3c932e96c4115deedc5b59f139b7649fbbd0ac53d",
+      "lines": 38,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c18/posthoc_leptons_mp.py",
+      "sha256": "b08f12220c787098d62d07b917e11b08da893fb9dfe8ffa9f75f68ea964387ea",
+      "lines": 42,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c18/posthoc_leptons_mp.json",
+      "sha256": "df62016790ae21a2b1fa6f46ea560bebbc7b6c79ec50bb2d6c14f4fcf821b8c8",
+      "lines": 4,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c19/run_c19.py",
+      "sha256": "a5d53bdd83224ce0a821df7fb9310c9ebced5d7603747265b30544b2091a3207",
+      "lines": 75,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c19/c19_results.json",
+      "sha256": "fb8ab4162a8d661cf8ee3eb56cf9a637ddc9c41cd16dad0569201cd28ece8903",
+      "lines": 75,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c20/run_c20.py",
+      "sha256": "75ceb162a73207c0d91307d51d1ec85f9bd118b7eb754c1e4873a849d3d84f1d",
+      "lines": 44,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c20/c20_results.json",
+      "sha256": "1e142ce5046be4fdf24a2014a810b068c01a62e992ec7fe574bb7bca73c4a259",
+      "lines": 15,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c20/RUN.txt",
+      "sha256": "3fc9d65611fccbfebde177ec2e2a6fc646029fe788f7fd2dbe6afcb362b6f4d6",
+      "lines": 15,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C13_THE_LEPTON_ROWS.md",
+      "sha256": "6d9f564fe75641d5e8aa5f132dc1c8ac86262923073a33611d46b6f28ff736be",
+      "lines": 69,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C9_THE_L_VALUE_AS_A_RHO_INVARIANT.md",
+      "sha256": "fac5ac54d9a0536851c15eb73b9d214cb6b0a606fde41e7a9cb0554d9ecaca01",
+      "lines": 74,
+      "reading": "Read in full as source/text; no imports or execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C13b_THE_READ_OUT_AT_ORDER_10.md",
+      "sha256": "fe2b43e3272aef48a3fe2b0f30db296f72850c718e30bdadca1136dd2d1817a1",
+      "lines": 101,
+      "reading": "Report and dated carrier/cover scope; large repeated output was truncated, no fresh recomputation or claim every cited artifact was read"
+    },
+    {
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/level6_higgs.py",
+      "sha256": "dd73c011a59c523804ddec74103d264e0ca2a80df0afc22211416d98884e8c1b",
+      "lines": 95,
+      "reading": "Read in full as source; no imports, quadrature or scientific execution"
+    },
+    {
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/cim_overlap.py",
+      "sha256": "528274f41de4e0fa415f20740992df97aab6bf198d5497411135d18bcfe550a9",
+      "lines": 112,
+      "reading": "Read in full as source; no imports, quadrature or scientific execution"
+    },
+    {
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/cim_closed.py",
+      "sha256": "5a2ce4c7dbf63555b83c2d3388f311a771bbf81795142db182f0fb7374690ad3",
+      "lines": 58,
+      "reading": "Read in full as source; no imports, quadrature or scientific execution"
+    },
+    {
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "frontier/B1957_the_seats_claims_register/FINDINGS.md",
+      "sha256": "5afeac0d482e64ead54dcf6090694f204e9e949c5292ce6faad9492c4a0ae7fe",
+      "lines": 543,
+      "reading": "Targeted gate-2/Higgs paragraphs and prior reading reused; not a new full-arc audit"
+    },
+    {
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "GENESIS.md",
+      "sha256": "6313a3e0e043bf0ef85b2fdc39e638ab6834690a2dac5542249944f8327bbb4d",
+      "lines": 832,
+      "reading": "Targeted PF/SE and generated-state/move definitions; not read in full in this packet"
+    },
+    {
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "docs/seats/physical.md",
+      "sha256": "4d65f9b8691b5a10d74dafcb28ef47eca7aea5554c59de9a2819d9271731e015",
+      "lines": 196,
+      "reading": "Current M9 and prior instructions read; no new execution release inferred"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "lines": 243,
+      "reading": "Actual metric, moment, cubic and sum-of-squares potential at lines 49\u2013128 re-read; earlier source reading reused"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION.md",
+      "sha256": "639bc536acfc9f5a3112337ec62efecd852d5ca4050b557e695673013f136259",
+      "lines": 164,
+      "reading": "Full proof read in this review chain; it is a protected lower bound, not an exact relaxed potential"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md",
+      "sha256": "0e2385953452c3e2d4266c8d83d5bbb5021997230a4f0016baeacc1fc6fae321",
+      "lines": 206,
+      "reading": "Full source reading reused with exact stationary-family and domain hypotheses"
+    }
+  ],
+  "primary_literature": [
+    {
+      "title": "Computing Yukawa Couplings from Magnetized Extra Dimensions",
+      "authors": "D. Cremades, L. E. Ibanez, F. Marchesano",
+      "url": "https://arxiv.org/pdf/hep-th/0404229",
+      "reading": "Introduction and targeted sections 3.1.1 and 3.1.3 on transition laws and positive normalization, pp.11\u201312 and 15\u201316; not the whole 74-page paper",
+      "use": "Confirm geometric nature of normalized magnetic modes and gauge transitions; the new finite and kinetic hand arguments use the literal repository definitions"
+    }
+  ],
+  "limits": [
+    "The six-mode construction, supplied fluxes and geodesic kinetic prescription are model premises.",
+    "A matrix identity or an allowed selector is not a derived physical vacuum law.",
+    "The source unrun author packages retain their review/admission requirements.",
+    "No observer/qualia, SM-family or gravitational identification is inferred from a dimension match."
+  ]
+}
