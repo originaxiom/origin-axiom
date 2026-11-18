@@ -1,0 +1,10 @@
+{
+ "id": "agy002s-hash-rows-p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "row 77 of its OTHER_HASH_LISTS.md says NOT TRACKED, a file present on its disk and not in git: main holds that it was not in the tree at 015be0cc7 (checks/sync_hash_lists.py); its presence on the seat's disk is its own",
+ "note": "",
+ "units": [
+  "agy-002-sync:docs/OTHER_HASH_LISTS:77"
+ ]
+}

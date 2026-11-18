@@ -712,6 +712,9 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **Lane agy-002-sync read line by line (harvest row 1948; P-876, Q1):** 0 pending. Its hash-list page holds in 139 of
+  140 rows recomputed at 015be0cc7 (`checks/sync_hash_lists.py`); its X-ray of main has two figures git does not give
+  (refuted as written; `checks/sync_xray_counts.py`); its arcs' mathematics stays conditional, P-781's checks owed.
 - **The batch of harvest rows 1943 to 1947 (2026-11-18, night): three faults of main's found by seats, each mended.**
   - **P-871's 'no change at c = +-2' held only in double precision** (agy-002's A2-M51): main's frame-D1 code casts each
     point's matrix to double before summing; at 80 digits every obstructed case changes, by 2e-26 to 7e-24

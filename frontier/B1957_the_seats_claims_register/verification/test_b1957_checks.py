@@ -1238,6 +1238,17 @@ def test_the_batch_of_harvest_rows_1943_to_1947():
     k = r("agyexp_m39_m41_run.txt"); assert "all: True" in k and "each VERIFIED there in the record it names: True" in k and "K J K^-1 = J^-1: True" in k
     s2 = r("sm_harvest_review_run.txt"); assert "rows by the rule at f1efc59dd: 181; its listing: 181 rows; the same rows: True; the same rows with the same cut texts: True" in s2
 
+
+def test_lane_agy_002_sync_hash_rows_and_xray_counts():
+    """added 2026-11-18: lane agy-002-sync (its branch of 2026-11-11): its hash-list page's 140 rows recomputed at 015be0cc7
+    with its key and resolution rule rebuilt (139 agree; row 77's NOT TRACKED is a disk state git cannot show); its X-ray's
+    git-decidable counts at f452d8cb0, two of which (16,976 tracked files, 513 under docs/) git does not give."""
+    here = pathlib.Path(__file__).resolve().parent / "checks"
+    h = (here / "sync_hash_lists_run.txt").read_text()
+    assert "rows 140;" in h and "agree 139; disagree 1 [(77, '74881b1c68e8', 'NOT TRACKED', 'ABSENT')]" in h
+    x = (here / "sync_xray_counts_run.txt").read_text()
+    assert "X1 at f452d8cb0: tracked 16963 (frontier/ 13531, tests/ 1536, docs/ 457); commits 4103; B folders 1603 over 1600 numbers, repeated {58: 3, 89: 2}, absent up to 1860: 260; test_*.py modules 1576" in x
+
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of
     the ground plane have zeros; only h* (zeros at 2, 3, 4) gives a full up-sector hierarchy, (1/3, 2/3) in 48 cases,

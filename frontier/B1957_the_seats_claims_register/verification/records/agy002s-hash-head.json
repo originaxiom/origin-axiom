@@ -1,0 +1,13 @@
+{
+ "id": "agy002s-hash-head",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the header and classification of its OTHER_HASH_LISTS.md: main holds the 140 non-verifying entries row by row (checks/sync_hash_lists.py); the totals (79 lists, 266 entries, 126 verifying, 65 disk digests) and its classification of 71 files are its own count by its own rule, on its branch's gate",
+ "note": "",
+ "units": [
+  "agy-002-sync:docs/OTHER_HASH_LISTS:3",
+  "agy-002-sync:docs/OTHER_HASH_LISTS:14",
+  "agy-002-sync:docs/OTHER_HASH_LISTS:15",
+  "agy-002-sync:docs/OTHER_HASH_LISTS:16"
+ ]
+}

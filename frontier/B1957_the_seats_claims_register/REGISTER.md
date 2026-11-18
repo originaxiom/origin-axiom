@@ -13,8 +13,8 @@
 | web | 138 | 138 | 7998 | 1951 | 2 | 160 | 762 | 59 | 5064 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
 | sm | 14 | 9 | 6123 | 231 | 4 | 13 | 116 | 0 | 398 | **5361** |
-| agy-002-sync | 39 | 0 | 1064 | 0 | 0 | 0 | 0 | 0 | 0 | **1064** |
-| **all** | 536 | 424 | 31813 | 3423 | 25 | 2005 | 2023 | 165 | 17747 | **6425** |
+| agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 306 | 86 | 0 | 531 | **0** |
+| **all** | 536 | 463 | 31813 | 3562 | 27 | 2311 | 2109 | 165 | 18278 | **5361** |
 
 ## By file
 
@@ -517,42 +517,42 @@
 | sm | `relays/cards/SM_C20_is-the-exchange-the-tick.md` | yes | 23 | 23 | **0** |
 | sm | `relays/cards/SM_C21_the-d1-cusp-mixing-at-the-ticks-higgs.md` | yes | 26 | 26 | **0** |
 | sm | `relays/cards/SM_C22_every-higgs-vector-in-d1.md` | no | 25 | 25 | **0** |
-| agy-002-sync | `d37c773d6:CHANGELOG.md` | no | 26 | 0 | **26** |
-| agy-002-sync | `d37c773d6:CLAIMS.md` | no | 1 | 0 | **1** |
-| agy-002-sync | `d37c773d6:PROGRESS_LOG.md` | no | 8 | 0 | **8** |
-| agy-002-sync | `d37c773d6:README.md` | no | 3 | 0 | **3** |
-| agy-002-sync | `d37c773d6:docs/CAMPAIGN_STATUS.md` | no | 2 | 0 | **2** |
-| agy-002-sync | `d37c773d6:docs/HARVEST_LEDGER.md` | no | 5 | 0 | **5** |
-| agy-002-sync | `d37c773d6:docs/LAW_MAP.md` | no | 6 | 0 | **6** |
-| agy-002-sync | `d37c773d6:docs/OTHER_HASH_LISTS.md` | no | 144 | 0 | **144** |
-| agy-002-sync | `d37c773d6:docs/POINT_REGISTER.md` | no | 9 | 0 | **9** |
-| agy-002-sync | `d37c773d6:docs/RELAY_LEDGER.md` | no | 4 | 0 | **4** |
-| agy-002-sync | `d37c773d6:docs/SEAL_LEDGER.md` | no | 49 | 0 | **49** |
-| agy-002-sync | `d37c773d6:docs/SEAL_ORDER_UNSHOWN.md` | no | 22 | 0 | **22** |
-| agy-002-sync | `d37c773d6:docs/THE_SM_VERDICT.md` | no | 0 | 0 | **0** |
-| agy-002-sync | `d37c773d6:docs/views/CONTEXT_RECOVERY.md` | no | 10 | 0 | **10** |
-| agy-002-sync | `d37c773d6:docs/views/COVERAGE.md` | no | 3 | 0 | **3** |
-| agy-002-sync | `d37c773d6:docs/views/REVIEWER.md` | no | 5 | 0 | **5** |
-| agy-002-sync | `d37c773d6:docs/views/THE_SPINE.md` | no | 3 | 0 | **3** |
-| agy-002-sync | `d37c773d6:docs/views/VERDICT_LEDGER.md` | no | 4 | 0 | **4** |
-| agy-002-sync | `d37c773d6:frontier/B1858_the_closure_map/CLOSURE_QUEUE.md` | no | 2 | 0 | **2** |
-| agy-002-sync | `d37c773d6:frontier/B1858_the_closure_map/MAP.md` | no | 1 | 0 | **1** |
-| agy-002-sync | `d37c773d6:frontier/B1861_the_closure_programme/FINDINGS.md` | no | 1 | 0 | **1** |
-| agy-002-sync | `d37c773d6:frontier/B1861_the_closure_programme/PROGRAMME.md` | no | 23 | 0 | **23** |
-| agy-002-sync | `d37c773d6:frontier/B1879_reaudit3_enforcement_and_p670_closure/FINDINGS.md` | no | 35 | 0 | **35** |
-| agy-002-sync | `d37c773d6:frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/FINDINGS.md` | no | 49 | 0 | **49** |
-| agy-002-sync | `d37c773d6:frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/received/AUDIT_SEAT_TO_CC_2026-11-11.md` | no | 31 | 0 | **31** |
-| agy-002-sync | `d37c773d6:frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/FINDINGS.md` | no | 37 | 0 | **37** |
-| agy-002-sync | `d37c773d6:frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/PREREGISTRATION.md` | no | 42 | 0 | **42** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/AGY002_TO_CC_2026-11-11_SEAT_NAME_AND_READY_FOR_DIRECTIONS.md` | no | 26 | 0 | **26** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/AGY_TO_CC_2026-11-11_FULL_AUDIT_OPINION_AND_REPO_SPLIT_PROPOSAL.md` | no | 54 | 0 | **54** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/CLAIMS_PROVEN.md` | no | 7 | 0 | **7** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/README.md` | no | 14 | 0 | **14** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/01_REPO_CRYSTAL_CLEAR_XRAY.md` | no | 84 | 0 | **84** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/02_ZERO_TRUST_FULL_AUDIT_PLAN.md` | no | 67 | 0 | **67** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/03_FULL_RESTRUCTURE_PROPOSAL_AND_BREAKTHROUGH_BLUEPRINT.md` | no | 136 | 0 | **136** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/04_STAGE1_ZERO_TRUST_AUDIT_REPORT.md` | no | 47 | 0 | **47** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/06_STAGE2_WORKSTREAMS_REPORT.md` | no | 22 | 0 | **22** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/08_STAGE3_EXECUTION_REPORT.md` | no | 35 | 0 | **35** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/10_STAGE4_COMPLETE_EXECUTION_REPORT.md` | no | 45 | 0 | **45** |
-| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/master_audit_receipts/reports/E3_PROPAGATION_PATCHES.md` | no | 2 | 0 | **2** |
+| agy-002-sync | `d37c773d6:CHANGELOG.md` | yes | 26 | 26 | **0** |
+| agy-002-sync | `d37c773d6:CLAIMS.md` | yes | 1 | 1 | **0** |
+| agy-002-sync | `d37c773d6:PROGRESS_LOG.md` | yes | 8 | 8 | **0** |
+| agy-002-sync | `d37c773d6:README.md` | yes | 3 | 3 | **0** |
+| agy-002-sync | `d37c773d6:docs/CAMPAIGN_STATUS.md` | yes | 2 | 2 | **0** |
+| agy-002-sync | `d37c773d6:docs/HARVEST_LEDGER.md` | yes | 5 | 5 | **0** |
+| agy-002-sync | `d37c773d6:docs/LAW_MAP.md` | yes | 6 | 6 | **0** |
+| agy-002-sync | `d37c773d6:docs/OTHER_HASH_LISTS.md` | yes | 144 | 144 | **0** |
+| agy-002-sync | `d37c773d6:docs/POINT_REGISTER.md` | yes | 9 | 9 | **0** |
+| agy-002-sync | `d37c773d6:docs/RELAY_LEDGER.md` | yes | 4 | 4 | **0** |
+| agy-002-sync | `d37c773d6:docs/SEAL_LEDGER.md` | yes | 49 | 49 | **0** |
+| agy-002-sync | `d37c773d6:docs/SEAL_ORDER_UNSHOWN.md` | yes | 22 | 22 | **0** |
+| agy-002-sync | `d37c773d6:docs/THE_SM_VERDICT.md` | yes | 0 | 0 | **0** |
+| agy-002-sync | `d37c773d6:docs/views/CONTEXT_RECOVERY.md` | yes | 10 | 10 | **0** |
+| agy-002-sync | `d37c773d6:docs/views/COVERAGE.md` | yes | 3 | 3 | **0** |
+| agy-002-sync | `d37c773d6:docs/views/REVIEWER.md` | yes | 5 | 5 | **0** |
+| agy-002-sync | `d37c773d6:docs/views/THE_SPINE.md` | yes | 3 | 3 | **0** |
+| agy-002-sync | `d37c773d6:docs/views/VERDICT_LEDGER.md` | yes | 4 | 4 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1858_the_closure_map/CLOSURE_QUEUE.md` | yes | 2 | 2 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1858_the_closure_map/MAP.md` | yes | 1 | 1 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1861_the_closure_programme/FINDINGS.md` | yes | 1 | 1 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1861_the_closure_programme/PROGRAMME.md` | yes | 23 | 23 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1879_reaudit3_enforcement_and_p670_closure/FINDINGS.md` | yes | 35 | 35 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/FINDINGS.md` | yes | 49 | 49 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/received/AUDIT_SEAT_TO_CC_2026-11-11.md` | yes | 31 | 31 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/FINDINGS.md` | yes | 37 | 37 | **0** |
+| agy-002-sync | `d37c773d6:frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/PREREGISTRATION.md` | yes | 42 | 42 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/AGY002_TO_CC_2026-11-11_SEAT_NAME_AND_READY_FOR_DIRECTIONS.md` | yes | 26 | 26 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/AGY_TO_CC_2026-11-11_FULL_AUDIT_OPINION_AND_REPO_SPLIT_PROPOSAL.md` | yes | 54 | 54 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/CLAIMS_PROVEN.md` | yes | 7 | 7 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/README.md` | yes | 14 | 14 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/01_REPO_CRYSTAL_CLEAR_XRAY.md` | yes | 84 | 84 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/02_ZERO_TRUST_FULL_AUDIT_PLAN.md` | yes | 67 | 67 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/03_FULL_RESTRUCTURE_PROPOSAL_AND_BREAKTHROUGH_BLUEPRINT.md` | yes | 136 | 136 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/04_STAGE1_ZERO_TRUST_AUDIT_REPORT.md` | yes | 47 | 47 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/06_STAGE2_WORKSTREAMS_REPORT.md` | yes | 22 | 22 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/08_STAGE3_EXECUTION_REPORT.md` | yes | 35 | 35 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/10_STAGE4_COMPLETE_EXECUTION_REPORT.md` | yes | 45 | 45 | **0** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/master_audit_receipts/reports/E3_PROPAGATION_PATCHES.md` | yes | 2 | 2 | **0** |

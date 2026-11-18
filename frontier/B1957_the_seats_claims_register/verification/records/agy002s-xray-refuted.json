@@ -1,0 +1,11 @@
+{
+ "id": "agy002s-xray-refuted",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "AS WRITTEN: its X-ray gives as the exact value at f452d8cb0 16,976 tracked files and 513 under docs/; at that commit git has 16,963 and 457 (and at 9b3ae6f33, its later fetch, 16,990 and 459) (checks/sync_xray_counts.py)",
+ "note": "",
+ "units": [
+  "agy-002-sync:agy_2026-11-11_audit_and_repo_blueprint/full_reports/01_REPO_CRYSTAL_CLEAR_XRAY:21",
+  "agy-002-sync:agy_2026-11-11_audit_and_repo_blueprint/full_reports/01_REPO_CRYSTAL_CLEAR_XRAY:37"
+ ]
+}

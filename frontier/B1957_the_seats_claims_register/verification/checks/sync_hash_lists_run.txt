@@ -1,0 +1,1 @@
+H1: rows 140; the seat's states {'ABSENT': 70, 'MISMATCH': 65, 'NO NAME': 4, 'NOT TRACKED': 1}; main's {'ABSENT': 71, 'MISMATCH': 65, 'NO NAME': 4}; agree 139; disagree 1 [(77, '74881b1c68e8', 'NOT TRACKED', 'ABSENT')]
