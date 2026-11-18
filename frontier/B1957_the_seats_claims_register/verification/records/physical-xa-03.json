@@ -1,0 +1,18 @@
+{
+ "id": "physical-xa-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the package's header, its disclosure of overlap with its own earlier constructions, and its readme (what was read, the custody files, zero scientific execution, no measured value used), read in full",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:3",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:11",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/README:3",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/README:9",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/README:15",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/README:22",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/README:26",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/README:31",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/README:36"
+ ]
+}

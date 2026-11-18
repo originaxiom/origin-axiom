@@ -534,3 +534,55 @@ def test_the_one_loop_relation_among_the_couplings():
     assert (b2 - b3, b1 - b2) == (F(23, 6), F(109, 15))
     assert F(22) * F(23, 3) / 67 == F(506, 201)
     assert (F(3, 5) * (F(-7, 3) - F(-7)) / den) != F(23, 134)                                 # another b2 gives another constant
+
+
+def test_the_pair_of_coefficient_spheres_is_not_the_native_pair_and_the_composite_is():
+    import physical_four_form as FF, math
+    qi = np.array([[1j, 0], [0, -1j]]); qj = np.array([[0, 1], [-1, 0]], dtype=complex)
+    trs = [float(np.trace(FF.gc(qi @ FF.Dp(p), qj @ FF.Dp(-p))).real) for p in (0.0, 0.5, math.pi / 2)]
+    assert all(abs(t - (2 - 4 * math.cos(p) ** 2)) < 1e-12 for t, p in zip(trs, (0.0, 0.5, math.pi / 2))) and abs(trs[0] - trs[2]) > 3      # one gauge orbit, traces from -2 to 2
+    rng = np.random.default_rng(7); cv = lambda: rng.normal(size=2) + 1j * rng.normal(size=2); un = lambda: (lambda x: x / np.linalg.norm(x))(cv())
+    u0, v0, d1, d2 = un(), un(), cv(), cv()
+    def curve(s):
+        u_ = u0 + s * d1; v_ = v0 + s * d2; return u_ / np.linalg.norm(u_), v_ / np.linalg.norm(v_)
+    AW = lambda u_, v_: (FF.Um(u_) @ FF.Jm @ np.linalg.inv(FF.Um(u_)), FF.Um(u_) @ np.linalg.inv(FF.Um(np.conj(v_))))
+    assert max(np.abs(a - b).max() for a, b in zip(AW(u0, v0), AW(np.exp(0.6j) * u0, np.exp(-0.6j) * v0))) < 1e-12          # the composite is constant on the orbit
+    h = 1e-5; (um, vm), (up, vp) = curve(-h), curve(h); du, dv = (up - um) / (2 * h), (vp - vm) / (2 * h)
+    A0, W0 = AW(u0, v0); dA = (AW(up, vp)[0] - AW(um, vm)[0]) / (2 * h); dW = (AW(up, vp)[1] - AW(um, vm)[1]) / (2 * h); k = dW @ np.linalg.inv(W0); DA = dA - FF.com(k, A0) / 2
+    lhs, conn = FF.quot(u0, v0, du, dv)
+    assert abs(lhs - (FF.ip(DA, DA) + FF.ip(k, k)) / 2) < 1e-7 and abs(conn - (np.vdot(u0, du).imag - FF.ip(A0, k) / 2)) < 1e-7
+    assert abs(lhs - (FF.ip(dA, dA) + FF.ip(k, k)) / 2) > 1e-3                                                                 # without the cross term the metric is another
+
+
+def test_the_cross_module_kernel_is_a_line_and_the_planar_normal_term_is_sixteen_over_d():
+    import sympy as sp
+    c0, c1, c2, c3, t0, t1, f = sp.symbols("c0 c1 c2 c3 t0 t1 f"); Q = sp.zeros(5, 5)
+    for i, c in enumerate((c0, c1, c2, c3)): Q[i, i + 1] = c
+    Q[3, 0] = f * t0; Q[4, 1] = f * t1
+    assert Q.det() == 0 and Q[0:4, 1:5].det() == c0 * c1 * c2 * c3
+    Q[4, 0] = 1; assert Q.det() != 0                                              # an entry of another weight would lift the kernel
+    a, s = sp.symbols("a s", real=True); d = 10 - 6 * a; D = 5 - d * s * (1 - s)
+    assert sp.simplify(d * D - 9 * (1 - a ** 2) - (sp.diff(D, s) / 2) ** 2 - 16) == 0        # |v|^2 D - (D'/2)^2 = 16, with N^2 = 9 b^2
+
+
+def test_a_permutation_called_an_involution_has_order_four():
+    p = [4, 3, 5, 0, 1, 2, 6, 7]; q = list(range(8)); order = 0
+    while True:
+        q = [p[i] for i in q]; order += 1
+        if q == list(range(8)): break
+    assert order == 4
+
+
+def test_the_monodromy_has_order_four_modulo_three_and_its_root_order_eight():
+    mul = lambda X, Y, n: tuple(tuple(sum(X[i][k] * Y[k][j] for k in range(2)) % n for j in range(2)) for i in range(2)); one = ((1, 0), (0, 1))
+    def order(X, n):
+        P = tuple(tuple(x % n for x in r) for r in X); k = 1
+        while P != one: P = mul(P, X, n); k += 1
+        return k
+    M, J = ((2, 1), (1, 1)), ((1, 1), (1, 0))
+    assert order(M, 3) == 4 and order(J, 3) == 8 and mul(M, M, 3) == ((2, 0), (0, 2))          # another seat had written 'order 8' for M
+    pts = [(a, b) for a in range(3) for b in range(3) if (a, b) != (0, 0)]; act = lambda w, X: tuple(sum(w[k] * X[k][j] for k in range(2)) % 3 for j in range(2))
+    orb = {(1, 0)}; w = act((1, 0), M)
+    while w not in orb: orb.add(w); w = act(w, M)
+    assert len(orb) == 4 and len(pts) == 8                                                     # not transitive on the eight points
+    assert order(M, 5) == 10 and mul(tuple(tuple((M[i][j] + one[i][j]) % 5 for j in range(2)) for i in range(2)), tuple(tuple((M[i][j] + one[i][j]) % 5 for j in range(2)) for i in range(2)), 5) == ((0, 0), (0, 0))

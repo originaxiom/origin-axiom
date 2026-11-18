@@ -1,0 +1,15 @@
+{
+ "id": "physical-read-14",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION.md",
+  "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/CROSS_FORM_FINITE_SERIES.md",
+  "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE.md",
+  "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/ACTUAL_SOURCE_NORMAL_TEST.md",
+  "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW.md",
+  "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/README.md"
+ ]
+}

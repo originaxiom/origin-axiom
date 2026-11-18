@@ -1,0 +1,8 @@
+F0: quoted line ranges held: 10 of 10
+F1: R doubly periodic to 4.93e-32; at three points (Laplacian of log R plus 2 pi/Im tau, the curvature computed directly, by the note's formula): [('-3.94e-31', '-1.2553548', '-1.2553548'), ('-3.94e-31', '-1.4517788', '-1.4517788'), ('1.18e-30', '-1.2974113', '-1.2974113')]
+F2: (T, the area beyond T by direct integration, 2 pi/(T + a)): [(4, '0.9838568131', '0.9838546349'), (8, '0.6049496665', '0.6049496662')]; at T = 18: 2 pi/(19 + log 4) = 0.3082063467
+F3: the five tails (integrand times r^2): [r/(a + t), r**5*(a + t)**3, r**3*(a + t)**3, r**4*(a + t)**2, r**2*(a + t)**2]; the weights of the four averages in d log(lambda/e): [1, -1/2, -3/2, 1], sum 0
+F4: shifts of the words of length four: [-17, -16, -13, -9], of the word of length two: -8; all beyond the span 6: True
+F5: W(s0) = -sqrt(B)*sqrt(K)*s0**2*(2*s0 - 3)/3; W''(0) = 2*sqrt(B)*sqrt(K); the tension = sqrt(B)*sqrt(K)/3; the first-order solution solves s' = -sqrt(V/K): True; its energy 0.4271123506 against W(s0) = 0.4271123506; the kink: c' - m sin c = 0, action 4*m; the phase identity's difference: 0
+F5: a finite interval from 0.2 to 0.7 with first integral C = 0.05: the profile reaches 0.70000000 at the length 1.4403767; its energy 0.381619557 against the formula's 0.381619557
+F6: V on the path: x**2*(b + c**2)*(x - 1)**2; the normal derivative of V there: 2*c*x*(x - 1); the normal component of (DR)^T C: -c, against the right side 0 (a straight path has no normal curvature)

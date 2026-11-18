@@ -1,0 +1,17 @@
+{
+ "id": "physical-read-16",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md",
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md",
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md",
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/BASED_REGISTER_AND_RELATIONAL_REFERENCE.md",
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md",
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/CONSTRAINED_PHASE_RESPONSE_FROM_SAME_KINETIC_ACTION.md",
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/README.md",
+  "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/REVIEW_AND_DISCRIMINATORS.md"
+ ]
+}

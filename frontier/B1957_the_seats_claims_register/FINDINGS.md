@@ -475,6 +475,28 @@ noted, and none is pending.
   - The mathematics inside the findings holds on main (`checks/physical_all_seats_findings.py`).
   - Main's own earlier records of agy-002's lanes agree with eight of the findings or go further.
   - Six findings are about agy-exp's sources, which main has not yet harvested: held for that reading.
+- **Review 84 read this arc cold (B1958, 2026-11-18) and found nine faults in it,** each mended: the verdict file's
+  stale counts, two lock lines that could not fail, a page count that did not match its run, a sentence wider than
+  its records, and five records that said more than their checks. A pass over every verified record is owed (R84-1).
+- **Five more packages of the physical lane (frontier response, input recheck, four-form register, X-APEX review,
+  its review of the X-FUNNEL campaign): 661 statements, 332 verified, 209 conditional, 120 noted.** Nothing of any
+  seat's was run.
+  - **Custody:** every quotation the packages pin from another seat's scripts is at its commit, path and line (10 line
+    ranges, 31 pinned files, 36 excerpts).
+  - **Verified as mathematics** (four check scripts): the omitted cusp area 2π/(T + 1 + log 4); the half-line
+    response and its sewing; a scalar wall that solves its own equation and fails the normal one; the cross module's
+    kernel a line for every parameter; a second fundamental form that needs its gauge connection (a frame-change
+    counterexample, and the missing term 144 cos²θ/D³ in the other seat's own example); the four-form quotient, its
+    connection and primitive unit, the centre of order three, the composite map and the constrained phase response.
+  - **Two statements of another seat are refuted by the lane, and main confirms both:** "M mod 3 has order 8" (it
+    has order 4, with two orbits of four), and the inference that a two-loop running cannot give opposite skews from
+    equal starting values (a diagonal counterexample, on main's own one-loop running).
+  - **Main adds one finding of its own:** the other seat's comparator density has curvature −1.26, −1.45 and −1.30
+    at three points. It is not the hyperbolic metric of the punctured torus. The lane had said only that the
+    identity "still needs to be earned".
+  - **A lead, in the lane's careful words:** the unit of the four-form connection on the effective circle is three
+    times the unit of the full charge circle, because the charge comes in thirds on E₈. The unit is in parameter
+    space; a map from the physical carrier's end into the family is still required, and no family count is claimed.
 
 ## When it closes
 

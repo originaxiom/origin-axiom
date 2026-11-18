@@ -1,0 +1,33 @@
+{
+ "id": "physical-xa-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the source facts and the mathematics of the lane's fifteen findings XA-01 to XA-15 on another seat's X-APEX sources, on main (checks/physical_x_apex_review.py; that seat's scripts read as text, nothing run): all 36 excerpts are at the commit, path and line the package names, and each statement held here quotes one of them or is one of six pieces of mathematics main checked: the written 'involution' is the permutation (0 4 1 3)(2 5), of order 4; for q = f0 + f1 exp(i y) the cubic has modes -1 and 2 with coefficients f0^2 f1 and f0 f1^2; a Ritz value on a subspace bounds the least eigenvalue from above and never from below; with S the Fourier transform over the Gauss scalar S^2 is minus the parity at 3 and 15, so a row that writes it as the parity is wrong there (physical_all_seats_findings.py, A2); singular-value ratios of an averaged matrix do not see an overall scale and a nonlinear running does; a determinant can be non-zero at a finite height while its leading coefficient cancels",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:17",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:19",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:22",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:37",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:39",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:52",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:54",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:59",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:80",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:82",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:87",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:106",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:127",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:142",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:143",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:146",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:154",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:161",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:174",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:220",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:231",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:236",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:262",
+  "physical:physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS:277"
+ ]
+}

@@ -8,10 +8,10 @@
 | agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 104 | 1 | 28 | 33 | 0 | 91 | **14** |
-| physical | 136 | 71 | 10952 | 613 | 0 | 645 | 6 | 37 | 8189 | **1462** |
+| physical | 136 | 91 | 10952 | 945 | 0 | 854 | 6 | 37 | 8309 | **801** |
 | web | 137 | 137 | 6757 | 1897 | 2 | 15 | 409 | 54 | 4380 | **0** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 406 | 258 | 20910 | 3054 | 14 | 749 | 555 | 91 | 12944 | **3503** |
+| **all** | 406 | 278 | 20910 | 3386 | 14 | 958 | 555 | 91 | 13064 | **2842** |
 
 ## By file
 
@@ -184,8 +184,8 @@
 | physical | `relays/cards/PHYSICAL_X_APEX_READING_2026-11-17.md` | no | 5 | 0 | **5** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD.md` | no | 11 | 0 | **11** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md` | no | 80 | 0 | **80** |
-| physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/CARD.md` | no | 5 | 0 | **5** |
-| physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/REVIEW.md` | no | 82 | 0 | **82** |
+| physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/CARD.md` | yes | 5 | 5 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/REVIEW.md` | yes | 82 | 82 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN.md` | yes | 72 | 7 | **65** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md` | yes | 35 | 4 | **31** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md` | no | 12 | 0 | **12** |
@@ -216,22 +216,22 @@
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS.md` | yes | 18 | 18 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL.md` | yes | 37 | 37 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF.md` | yes | 11 | 11 | **0** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/BASED_REGISTER_AND_RELATIONAL_REFERENCE.md` | no | 50 | 0 | **50** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/CONSTRAINED_PHASE_RESPONSE_FROM_SAME_KINETIC_ACTION.md` | no | 28 | 0 | **28** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md` | no | 46 | 0 | **46** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md` | no | 34 | 0 | **34** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md` | no | 52 | 0 | **52** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md` | no | 41 | 0 | **41** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/README.md` | no | 18 | 0 | **18** |
-| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/REVIEW_AND_DISCRIMINATORS.md` | no | 17 | 0 | **17** |
-| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/ACTUAL_SOURCE_NORMAL_TEST.md` | no | 25 | 0 | **25** |
-| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/CROSS_FORM_FINITE_SERIES.md` | no | 13 | 0 | **13** |
-| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION.md` | no | 30 | 0 | **30** |
-| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/README.md` | no | 10 | 0 | **10** |
-| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE.md` | no | 49 | 0 | **49** |
-| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW.md` | no | 25 | 0 | **25** |
-| physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS.md` | no | 47 | 0 | **47** |
-| physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/RECHECK.md` | no | 21 | 0 | **21** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/BASED_REGISTER_AND_RELATIONAL_REFERENCE.md` | yes | 50 | 50 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/CONSTRAINED_PHASE_RESPONSE_FROM_SAME_KINETIC_ACTION.md` | yes | 28 | 28 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md` | yes | 46 | 46 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md` | yes | 34 | 34 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md` | yes | 52 | 52 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md` | yes | 41 | 41 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/README.md` | yes | 18 | 18 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/REVIEW_AND_DISCRIMINATORS.md` | yes | 17 | 17 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/ACTUAL_SOURCE_NORMAL_TEST.md` | yes | 25 | 25 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/CROSS_FORM_FINITE_SERIES.md` | yes | 13 | 13 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION.md` | yes | 30 | 30 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/README.md` | yes | 10 | 10 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE.md` | yes | 49 | 49 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW.md` | yes | 25 | 25 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS.md` | yes | 47 | 47 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/RECHECK.md` | yes | 21 | 21 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/ACTUAL_NEUTRAL_SOURCE_AND_EXACT_REFLECTION.md` | yes | 29 | 29 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md` | yes | 34 | 34 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FINDINGS.md` | yes | 16 | 16 | **0** |
@@ -280,8 +280,8 @@
 | physical | `reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF.md` | yes | 59 | 59 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL.md` | yes | 20 | 20 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_2026-11-12_HARMONIC_TRANSPORT_FIRST_RETURN.md` | yes | 2 | 2 | **0** |
-| physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | no | 61 | 0 | **61** |
-| physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | no | 7 | 0 | **7** |
+| physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | yes | 61 | 61 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | yes | 7 | 7 | **0** |
 | web | `docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
 | web | `frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |

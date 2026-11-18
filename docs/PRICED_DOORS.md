@@ -757,3 +757,19 @@ and their findings corrected four statements of main's mathematics (B1950).**
 - **After the window, Review 84's to read:** B1945 (frame C's cusp exponents), B1946 (the cusp mixing and the Higgs
   readings), B1947 (a twisted Higgs is not covariant), B1948 (the relations inventoried), B1949 (the lepton–down
   relation by level), B1950 (this review).
+
+## ⟳ VIEW REFRESH — 2026-11-18 (Review 84)
+
+Touched at Review 84 (its anchor `1fc1e224e`). **The window (`c8cece9be` to `1fc1e224e`) holds B1945 to B1957: frame C's
+cusp exponents and its cusp mixing (B1945, B1946), frame D1's coupling (B1947), the relations the record holds, typed
+(B1948), the lepton–down relation (B1949), Review 83 (B1950), the Weil representation's centre and what it gives
+(B1951 to B1953, B1955), and the harvest of the seats' work, reopened and carried statement by statement (B1954, B1956, B1957). Three cold
+readers read a seeded sample of five arcs with seven planted faults: all seven were caught, and twenty further findings
+in main's own arcs were each right and are mended (B1958).**
+- **For this page:** the goal stays P-862, the relations that hold in every history; value frames are paused. What
+  moved in the window: the dictionary from the Weil centre (P-863, with its flux and coupling hypotheses, P-866), and
+  the harvest as a register of every statement, 3,503 of 20,910 still pending (B1957, P-865). The review's main
+  finding is one kind of fault: a page or a verdict that says more than the committed output behind it (R84-1).
+  Open as before: P-861, P-847, P-845.
+- **After the window, Review 85's to read:** B1958 (this review). Owed from this window: its eight arcs outside the
+  sample (R84-5), and a reading by sessions of the other model family (R84-2).
