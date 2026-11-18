@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-18",
+  "scope_card_commit": "e4ed95eaf",
+  "method": "Existing-proof source support and hand estimate, not independently checked",
+  "scientific_execution_count": 0,
+  "scientific_import_count": 0,
+  "scientific_collection_count": 0,
+  "foundational_inputs_counted_removed": 0,
+  "repository_sources": [
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md",
+      "sha256": "31c5b4b487551ead91ba78003f4b8469f98a4a6bf539d8111329b033133ae118",
+      "lines": 245,
+      "reading": "Full source reading reused from this source-review chain; targeted passages re-read for the cusp note"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS.md",
+      "sha256": "f7a83f64c02d79cc0beeebf896e7aefc1814a0283902ca8afce04932675b3a43",
+      "lines": 133,
+      "reading": "Full source reading reused from this source-review chain; targeted passages re-read for the cusp note"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "lines": 192,
+      "reading": "Full source reading reused from this source-review chain; targeted passages re-read for the cusp note"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md",
+      "sha256": "fdaaeae39c1719d769e59f8a00ae68cf50a80200759da0c0799e7e5797391da1",
+      "lines": 174,
+      "reading": "Full source reading reused from this source-review chain; targeted passages re-read for the cusp note"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFLECTION_ENDPOINT_GAP_AND_GLOBAL_JOIN_DUTY.md",
+      "sha256": "5b6f52df8751175abe89a39c144c978264cd00e146b94cdbc65ac305ddd08063",
+      "lines": 172,
+      "reading": "Full source reading reused from this source-review chain; targeted passages re-read for the cusp note"
+    },
+    {
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "lines": 124,
+      "reading": "Full source reading reused from this source-review chain; targeted passages re-read for the cusp note"
+    },
+    {
+      "commit": "5dec726d6468b0834f3fcdbb4650195e57bbfc42",
+      "path": "docs/seats/physical.md",
+      "sha256": "db70a6bd5453caaf1cd741ce2c1d394623c14c7bd3d2a397c8fd86c8e0eb3dc1",
+      "lines": 165,
+      "reading": "Read in full in this source-review chain; not executed here"
+    },
+    {
+      "commit": "5dec726d6468b0834f3fcdbb4650195e57bbfc42",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-03.json",
+      "sha256": "fd3a74ddaac2f217273cb646753e938e75b4686005782513caaaf86f75cb8970",
+      "lines": 27,
+      "reading": "Read in full in this source-review chain; not executed here"
+    },
+    {
+      "commit": "5dec726d6468b0834f3fcdbb4650195e57bbfc42",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-04.json",
+      "sha256": "cc0a433d3498458851f0c2bddf2f7c285e847b241eee447256e114e9553277b0",
+      "lines": 21,
+      "reading": "Read in full in this source-review chain; not executed here"
+    },
+    {
+      "commit": "5dec726d6468b0834f3fcdbb4650195e57bbfc42",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c3e_indicial.py",
+      "sha256": "67a85ba5966618e282e8d840fc1cdf216567769c339c68a56dd9afafab32dfec",
+      "lines": 35,
+      "reading": "Read in full in this source-review chain; not executed here"
+    },
+    {
+      "commit": "5dec726d6468b0834f3fcdbb4650195e57bbfc42",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c3e_two_steps.py",
+      "sha256": "48391ec57a299581decc9add08cd13f51c3bec5d391fb6c10b1642194fddb34a",
+      "lines": 77,
+      "reading": "Read in full in this source-review chain; not executed here"
+    }
+  ],
+  "primary_reading": [
+    {
+      "title": "Random Walk on Surfaces with Hyperbolic Cusps",
+      "authors": "Hans Christianson, Colin Guillarmou, Laurent Michel",
+      "url": "https://www.imo.universite-paris-saclay.fr/~colin.guillarmou/randomcusp2504.pdf",
+      "read": "Introduction/geometry through p.4 and section 6.2 through its proof, pp.22–23; not the whole paper",
+      "use": "Scalar cusp measure, Fourier square, essential threshold and zero-mode isolation; not our matrix-drift estimate"
+    },
+    {
+      "title": "PDE II – Schauder estimates",
+      "author": "Robert Haslhofer",
+      "url": "https://www.math.utoronto.ca/roberth/pde2/schauder_estimates.pdf",
+      "read": "Theorem 0.1, its coefficient hypotheses, and proof through p.3; not full p.4",
+      "use": "Interior estimate on fixed lifted charts; finite lower-order system terms handled separately"
+    }
+  ],
+  "limits": [
+    "The global coherent construction and its metrics remain supplied model premises.",
+    "The completed hand argument still requires independent proof review.",
+    "No finite-check receipt is promoted to a full-PDE or SM3 verification."
+  ]
+}

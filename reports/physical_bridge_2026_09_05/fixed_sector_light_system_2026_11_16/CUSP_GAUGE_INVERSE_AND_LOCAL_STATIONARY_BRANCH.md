@@ -7,6 +7,15 @@ exact complete cusp, physical source metrics and common fixed sector
 already specified. The analytic estimates and their domains are
 load-bearing parts of the independent review requested here.
 
+2026-11-18 author clarification: the linear angular drift below has a
+bounded weight coefficient, but its radial value grows as exp(t).
+It is dominated by the quadratic exp(2t) term, not a bounded radial
+perturbation. The literal operator, uniform estimate, kernel/source
+premises and lifted-chart argument are written out in
+`../harvest_source_support_2026_11_18/CUSP_INVERSE_SOURCE_SUPPORT.md`.
+This is existing-proof support pending independent review; no scientific
+execution or independent acceptance is implied.
+
 ## 1. Use spaces carrying the actual unbroken asymptote
 
 The real gauge operator P_v has its complete nonnegative realization
@@ -35,8 +44,8 @@ The only c=0 coefficient is Q. The nonnegative gauge energy requires
 every other zero-c coefficient to commute with both triples, their
 adjoints and the connection, whose E6 centralizer is precisely Q.
 The nonzero angular operators additionally contain their growing
-quadratic term, bounded linear angular drift and the same finite
-parallel Hermitian potential.
+quadratic term, linear angular drift with a bounded weight coefficient
+and the same finite parallel Hermitian potential.
 
 The real gauge normalization makes this explicit. Its source form is
 
@@ -96,7 +105,7 @@ decaying homogeneous solution belong to C_delta. The strict choice
 of delta avoids resonance with every such homogeneous exponent.
 
 For nonzero angular frequency, the quadratic angular term dominates
-the bounded linear drift sufficiently far out. The physical L2
+the linear exp(t) drift sufficiently far out. The physical L2
 solution uses its decaying fundamental solution. The usual scalar
 variation-of-constants formula then preserves exp(-delta t) decay
 for a source in Y_delta. The finite commuting matrix projections

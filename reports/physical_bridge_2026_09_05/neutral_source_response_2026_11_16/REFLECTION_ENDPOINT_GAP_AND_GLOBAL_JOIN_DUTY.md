@@ -92,10 +92,18 @@ for Q and 25/(4ell^2) for D5's (2,2). The one-half connection metric
 and the differing scalar density are necessary for this calculation.
 
 All nonzero angular modes have a growing quadratic angular term;
-bounded drift gives only lower-order terms. The half-root coefficients
+the finite weight coefficients give terms growing at most linearly in
+the angular variable |nu|exp(t). The half-root coefficients
 have the source antiperiodic transition Ad_Zeta=-1, so every angular
 mode in their block is confining. These statements use the actual
 combined peripheral transition and do not change it by J restriction.
+
+2026-11-18 terminology correction: the former phrase "bounded drift"
+referred to the finite weight coefficient, not a bounded radial function.
+The quadratic-versus-linear comparison must retain its exp(t) factor.
+The companion gauge-inverse estimate is written out in
+`../harvest_source_support_2026_11_18/CUSP_INVERSE_SOURCE_SUPPORT.md`;
+that gauge estimate is not substituted for this fermion operator.
 
 ## 4. Endpoint Fredholmness in the stated sector
 
