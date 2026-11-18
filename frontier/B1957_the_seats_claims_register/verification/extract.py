@@ -9,7 +9,7 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
     ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "8d5c91032"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "f1c99520e"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "4744bdfe0"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "d1c71f255"),
 )
 EXTRA = {  # files older than a lane's window that main's own record shows were never read in full or never given a verdict.
@@ -120,6 +120,7 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
         "relays/cards/CHAT1_W-R81_review_81.md",
         "relays/cards/CHAT1_W-V1_view_on_selection_and_dictionary.md",
         "relays/cards/CHAT1_cold_read_the_three_part_structure.md",
+        "relays/CHAT1_TO_CC_2026-11-11_A_COLD_READ_OF_THE_THREE_PART_STRUCTURE.md",      # added 2026-11-18: named in main's own list and left out of this one; found by the seat (its section 8.2)
         "relays/chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW.md",
         "relays/chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME.md",
         "relays/chat1_2026-10-14_selection/PREREGISTRATION_LAGRANGE_LAW.md",

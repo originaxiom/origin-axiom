@@ -103,3 +103,13 @@ any seal" is overtaken by B1932's early seal, and the run waits for the second c
 - Nothing about whether frame C's values are right. That is the run's question.
 - The area options' second computation.
 - The lepton rows as a claim of frame C. They are reported because P-341 binds their reporting.
+
+## Dated note, 2026-11-18: second_computations.py no longer reads a commit outside main (the web seat's W-F21, N4)
+
+Amendment A14 answered the first part of N4 (the script's absolute path). The second part stood until today:
+the script read agy-exp's raw output by `git show` from 48926341b, a commit of that seat's branch that is not an
+ancestor of main, so a rerun on a checkout of main alone could not find it. The web seat said so again on
+2026-11-18 (its status page, section 8). The same bytes are now kept beside the script
+(`verification/agy_exp_x_exact_w_out_at_48926341b.json`, copied unread, sha256 638fe7d5…71bd81, asserted by the
+script), and the script reads them. Its output is `second_computations_run.txt` byte for byte; the lock passes.
+The script still prints none of that file's numbers.

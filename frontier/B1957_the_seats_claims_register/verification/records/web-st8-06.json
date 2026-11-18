@@ -1,0 +1,25 @@
+{
+ "id": "web-st8-06",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the rest of the corrected section: the detail of its rerun (one residual of 1.6e-15 against main's 1.3e-15; what its sampled-differences file prints); that its page kept listing items A14 had answered until 2026-11-18, its own error; what it did not check (W-C1's corrections on main's pages and locks; main's W-C8 figures against its notes; main's agreement figures for W-C6's part 2; main's readings of two proofs; main's re-dating of 168 records); its section 8.3 (the first condition is met with section 8.2's two items added to it; the second is met when the cold read is in the register and the pending statements are settled); and the five claims of its first version that its own referee read found wrong, said plainly",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:665",
+  "web:STATUS_CHAT1:671",
+  "web:STATUS_CHAT1:691",
+  "web:STATUS_CHAT1:696",
+  "web:STATUS_CHAT1:697",
+  "web:STATUS_CHAT1:698",
+  "web:STATUS_CHAT1:700",
+  "web:STATUS_CHAT1:701",
+  "web:STATUS_CHAT1:718",
+  "web:STATUS_CHAT1:719",
+  "web:STATUS_CHAT1:722",
+  "web:STATUS_CHAT1:724",
+  "web:STATUS_CHAT1:725",
+  "web:STATUS_CHAT1:726",
+  "web:STATUS_CHAT1:727",
+  "web:STATUS_CHAT1:728"
+ ]
+}

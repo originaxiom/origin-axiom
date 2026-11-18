@@ -1,0 +1,7 @@
+J2: the binary octahedral group has 48 elements; every O_g is a signed permutation of determinant 1: True; g -> Pi_g is a homomorphism: True; Pi = 1 on Q8: True; det Pi at the quarter-turn (1 + i)/sqrt 2: -1; the signs of O at i and at j on (i, j, k): [1, -1, -1], [-1, 1, -1]
+J1: on Q8: the axis lift intertwines R as the inner automorphism, its residual is O (x) 1 and commutes with every R_k: True; the residual is multiplicative: True; the permutation lift's residual is the identity: True
+J3: (A x) x (A y) = det(A) A (x x y) on 200 random orthogonal A (determinants [-1, 1]): largest difference 2.7e-15
+J4: the span of Y(S, M) over all S, M has rank 9; with S traceless, rank 9; identity (10a) for a random z: largest difference 6.3e-16
+J5: Y(g S g^-1, g M g^T) = O_g Y O_g^T and O_g^T O_g = 1 on 100 random g in SL(2, C): largest difference 3.8e-13
+J6: Y0 and the traceless-S value are the note's: True, True; O at j in the order (j, i, k): [1, -1, -1]; the unsigned slots fail (O Y O^T differs from Y by 2 and 2); the signed slots hold: True
+J7: the matrices commuting with all of M_3 form a space of dimension 1 (the scalars)

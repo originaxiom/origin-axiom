@@ -1,0 +1,8 @@
+F1: the cubic part of the parent is -i tr(u [a, v]) = i tr(a [u, v]): largest difference 1.1e-14
+F2: |d| s/conj(d) = conj(s): 6.3e-16; the three kinetic densities unchanged: 1.1e-14; J V = conj(V) J for V in SU(2): True; at z' = iz: s^2 d = (1+0j), the input form's phase 1/conj(d) = (-0+1j) and the target's 1/d = -1j; at z' = 2z: a' = a/2 and |s| = 0.7071
+F3: (gauge phase, flavour centre) on the four half-root representatives: [(-1, 1), (1, -1), (1, -1), (-1, 1)]; their product is -1 on each: True
+F4: the characters of the three axis lines on (a, b): [(1, -1), (-1, 1), (-1, -1)]; distinct: True; none trivial: True; so a common character matches at most one line (rank at most 1) and the trivial one matches none
+F5: (sign on rho(a) = i, sign on rho(b) = j) under conjugation by j, i, k: [(-1, 1), (1, -1), (-1, -1)]; each squares to -1: True
+F5: labels 16; orbits under the diagonal operation: 4, each of size [4]; eta eps constant on each orbit: True
+F6: the phase of sqrt(2 pi i w) at zeta + 1 over its value at zeta: (-1+0j)
+F7: E8: 112 roots with integer coordinates and 8 Cartan directions make 120; 128 with half-integer coordinates; together 248

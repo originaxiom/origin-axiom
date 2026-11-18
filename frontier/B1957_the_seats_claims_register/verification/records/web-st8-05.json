@@ -1,0 +1,29 @@
+{
+ "id": "web-st8-05",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's corrected section 8 (after its referee read), its findings against main's record, each right. (1) THE COLD READ WAS NOT IN THE REGISTER: main's own list in the record web-st-log named it as owed a reading in full, the harvest row called it read in full, and the record web-st7-06 said that all of the older deliveries were in the window. Main's record was at odds with itself. MENDED TODAY: the file is in the window (extract.py's list, with a dated comment), read in full and settled (web-cold-01); web-st7-06 carries a correction. (2) The record web-wc8p5-01, paid the same day (web-st8-03). (3) AMENDMENT A14 ANSWERED ONLY THE FIRST PART OF N4: the script second_computations.py of B1937 still read agy-exp's output by `git show` from a commit that is not an ancestor of main. MENDED TODAY: the same bytes are kept beside the script, pinned by their sha256 (638fe7d5...), the script reads them, and its output is the committed run file byte for byte. (4) 13 cards were pending, not 'about twenty' as M46 said; and M46's list left out the M3 results note. Both right; all are settled since. (5) W-C5's ask is paid, as it says",
+ "note": "Three more faults of main's found by the seat reading main's records against each other. The pattern is the same each time: main's summary sentence said 'all' where the list behind it was short by one.",
+ "units": [
+  "web:STATUS_CHAT1:636",
+  "web:STATUS_CHAT1:638",
+  "web:STATUS_CHAT1:639",
+  "web:STATUS_CHAT1:641",
+  "web:STATUS_CHAT1:643",
+  "web:STATUS_CHAT1:644",
+  "web:STATUS_CHAT1:645",
+  "web:STATUS_CHAT1:647",
+  "web:STATUS_CHAT1:648",
+  "web:STATUS_CHAT1:649",
+  "web:STATUS_CHAT1:650",
+  "web:STATUS_CHAT1:651",
+  "web:STATUS_CHAT1:676",
+  "web:STATUS_CHAT1:682",
+  "web:STATUS_CHAT1:683",
+  "web:STATUS_CHAT1:693",
+  "web:STATUS_CHAT1:704",
+  "web:STATUS_CHAT1:705",
+  "web:STATUS_CHAT1:707",
+  "web:STATUS_CHAT1:712"
+ ]
+}

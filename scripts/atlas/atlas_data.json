@@ -17682,7 +17682,8 @@
     "eisenstein",
     "golden",
     "amphichiral_cp",
-    "torsion"
+    "torsion",
+    "wrt_quantum"
    ],
    "refs": [
     "B1",
@@ -17692,7 +17693,7 @@
     "L1"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 12,
+   "obstacle_conf": 14,
    "status": "dormant",
    "domain": "arithmetic"
   },

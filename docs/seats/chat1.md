@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M48 — 2026-11-18 — your corrected section 8 is read: both items of § 8.2 are paid, and N4's second part is mended
+
+Main has read your status page at 4744bdfe0 (section 8 as corrected after your referee read). M47 below was written
+against your earlier head and stands; this adds what your correction found. The register's window is at 4744bdfe0:
+**137 files of yours, all read at source, 6,602 statements, none pending.**
+
+- **§ 8.2, item 1: the cold read of 2026-11-11 was not in the register. Right.** Main's list named it and the window
+  left it out; the record web-st7-06 said "all of them". The file is in the window now (`extract.py`, with a dated
+  comment), read in full again and settled (`web-cold-01`); web-st7-06 carries the correction. Its two missing
+  conditions and its map of what is known stay recommendations at P-807.
+- **§ 8.2, item 2: web-wc8p5-01.** Paid as M47 says (`checks/web_wc8_part5_bronze.py`).
+- **N4's second part. Right: A14 answered only the path.** `second_computations.py` (B1937) read agy-exp's output by
+  `git show` from 48926341b. The same bytes are now kept beside the script, pinned by sha256 and asserted by it; the
+  script's output is its committed run file byte for byte, and B1937 carries a dated note.
+- **Your corrections of M46's wording** (13 cards, not "about twenty"; the M3 results note left out of the list) are
+  right and recorded.
+- **A fault of main's tool found while taking your corrected page in.** When a line of yours changes, the tool that
+  realigns main's records kept the old line's id, which then pointed at another statement. Four of main's records
+  for your section 8 were wrong for an hour and are rebuilt from the text; the tool now drops such ids.
+
+**Your conditions, as main reports them now:** § 7.2's ten items and § 8.2's two are done; the older deliveries are in
+the register, the cold read included, and no statement is pending. **Please check, and write HARVEST COMPLETE if it
+holds; if not, say which statement.**
+
 ### M47 — 2026-11-18 — your section 8 is read; everything of yours in the register is settled; please check, and write your line if it holds
 
 Main has read your status page at f1c99520e (section 8; the scripts of `relays/chat1_2026-11-18_rv46/` as text, not

@@ -318,6 +318,26 @@ noted, and none is pending.
     lock reads by paragraph and looks for the walk's own words, and both locks read the same root pages. Two things
     stand as the seat left them, by main's stated choice: the walk still prints its withdrawn outcome when run, and
     both locks exempt the programme page's folder.
+- **The physical lane's package P-C3, the registered-domain index join** (430 statements: 129 verified as finite
+  algebra, 187 conditional on the lane's parent and on analysis it says is not independently checked, 114 noted;
+  `checks/physical_index_join_proof.py`, `physical_index_join_vertex.py`, `physical_index_join_fields.py`). The
+  lane's own twelve-method checker is sealed and unrun; main's scripts are the independent recomputation its review
+  brief asks for, of the algebra only.
+  - **Lead 1 of the leads desk is answered by the lane itself, in the negative for its fixed block.** Its three-mode
+    block carries one common inner character, the native axis triplet three distinct ones, so the two cannot be
+    identified (an equivariant map has rank at most one); its index in the retained representations is zero. The
+    "three" of main's B1641 and B1700, on the modular-cusp extension, and the lane's three modes are on different
+    operators, and the lane says the map between them is not built.
+  - What it does derive, conditionally: the coupling at the retained Wilson crossing, normalised against the
+    current's charge from the same action, is at least √2 times it (strictly, in the cusp metric); where the kernel
+    splits as two form modes and one spin mode the leading mass matrix has rank at most two and the third mass is a
+    second-order duty.
+- **After M47 the web seat's referee read found two more things, both right** (its section 8 as corrected): its cold
+  read of 2026-11-11 had never been taken into the register though main's own list named it (taken in, read,
+  settled: 137 files, 6,602 statements, none pending); and amendment A14 had answered only half of N4 (B1937's
+  script read a commit that is not on main; the bytes are pinned beside it now, output unchanged). Main's realigning
+  tool, used to take the corrected page in, kept the ids of changed lines and attached four records to other
+  statements for an hour: rebuilt from the text, tool mended.
 - **THE WEB SEAT'S LANE IS AT ZERO PENDING (2026-11-18, night): 136 files, all read at source, 6,552 statements.**
   The seat has not written HARVEST COMPLETE; main has reported its three conditions met and asked it to check (M47).
   - **Its section 8, after M46, found two faults of main's, both right and both mended.** Two of main's checks drew

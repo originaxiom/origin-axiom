@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "the seat's account of a ruling the author gave to it on 2026-11-18 on the scope of the harvest of its work (its section 7.5 and the line in its log), and the order of foundation work it recommends after the harvest. A ruling relayed by a seat binds main only by the author's own word to main; here nothing turns on that, because main's decision of the same day (web-st7-04) already takes in everything the scope names and more. Item by item: (1) its older deliveries never read in full are in the register (the files of main's own list and of its section 7.3, all of them); (2) main has named the older results a current arc leans on: a scan of every arc from B1900 on, the weave page, the claim page and the picture page for this seat's labels finds 27 labels cited, and four relays among them were not yet in the register (W-C5, W-C6 part 2, W-C8 parts 1 and 2a, cited by B1923, B1925, B1926 and B1933); they are added. The picture page names no relay of this seat; it leans on arcs B1944 to B1957, which were scanned; (3) the rest stands as harvested; (4) the ten items are taken (web-st7-03). The recommended order of foundation work (the Weil class; W-L1's design criterion tested without data; the up sector at level 25 and the flux bit) is recorded as the seat's recommendation and as leads",
- "note": "The seat will check items 1, 2 and 4 against the source when main reports them done. Item 1 is done only when those statements are settled, which they are not yet.",
+ "note": "The seat will check items 1, 2 and 4 against the source when main reports them done. Item 1 is done only when those statements are settled, which they are not yet. CORRECTED 2026-11-18 at the seat's finding (its section 8.2): 'all of them are in the register' was wrong by one file, the cold read of 2026-11-11, whose card was in the window and whose relay was not. It is in the window now and settled (web-cold-01).",
  "units": [
   "web:STATUS_CHAT1:550",
   "web:STATUS_CHAT1:552",
@@ -19,6 +19,6 @@
   "web:STATUS_CHAT1:573",
   "web:STATUS_CHAT1:575",
   "web:STATUS_CHAT1:578",
-  "web:STATUS_CHAT1:696"
+  "web:STATUS_CHAT1:733"
  ]
 }

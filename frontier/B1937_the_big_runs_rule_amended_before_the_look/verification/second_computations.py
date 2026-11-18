@@ -7,7 +7,15 @@ ROOT = str(next(q for q in pathlib.Path(__file__).resolve().parents if (q / "fro
 V = ROOT + "/frontier/B1932_the_big_runs_values_committed_frame_c_with_the_exact_weight_in_four_declared_options/verification/BIG_RUN_VALUES.json"
 raw = open(V, "rb").read(); assert hashlib.sha256(raw).hexdigest().startswith("df1c9bee002ecf5e")
 mine = json.loads(raw)
-seat = json.loads(subprocess.run(["git", "-C", ROOT, "show", "48926341b:relays/x_exact_w_verify/verify_x_exact_w_out.json"], capture_output=True, text=True, check=True).stdout)
+# CHANGED 2026-11-18 (the web seat's W-F21, N4, second part; its status page, section 8): this line read the seat's output by
+# `git show` from 48926341b, a commit of the agy-exp branch that is not an ancestor of main, so a rerun on a checkout of main
+# alone could not find it.  The same bytes are now kept beside this script, pinned by their sha256 (the file is the blob at
+# 48926341b:relays/x_exact_w_verify/verify_x_exact_w_out.json, copied unread; this script still prints none of its numbers).
+# The line as it stood:
+#   seat = json.loads(subprocess.run(["git", "-C", ROOT, "show", "48926341b:relays/x_exact_w_verify/verify_x_exact_w_out.json"], capture_output=True, text=True, check=True).stdout)
+_seat_raw = (pathlib.Path(__file__).resolve().parent / "agy_exp_x_exact_w_out_at_48926341b.json").read_bytes()
+assert hashlib.sha256(_seat_raw).hexdigest() == "638fe7d546152ae93377e4672a088316cf85bf679d3e9b973d8b8a2cce71bd81"
+seat = json.loads(_seat_raw)
 KEYS = ["up__2_over_3", "up__1_over_3", "down__2_over_3", "down__1_over_3", "mixing__1_2", "mixing__2_3", "mixing__1_3"]
 assert mine["positions"] == ['up m2/m3', 'up m1/m3', 'down m2/m3', 'down m1/m3', '|V12|', '|V23|', '|V13|']
 DELTA = 5.4e-3

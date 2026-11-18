@@ -5,10 +5,9 @@
  "how": "its one item still short in main's record (section 8.2): RIGHT. The record web-wc8p5-01 was marked VERIFIED and held two lines of W-C8's part 5 that main had not recomputed, as the record's own note admitted: bronze's free-cusp frame and twisted duality on bronze's levels. MAIN COMPUTED BOTH TODAY (checks/web_wc8_part5_bronze.py, exact over F_p): at levels 1, 2, 3 of both ticks b_1 = 1 and the cusp's rank is 1; h^2(V) = h^1_rel(V* w) on every character (golden 2, 2, 16; bronze 18, 54, 1,296); with w left out it fails on 4 and 70 characters at bronze's levels 1 and 3 and on 6 at golden's level 3, on none at the even levels, and on none at golden's level 1, as the seat's note says. Main ran characters, not the record's doublet modules, on bronze",
  "note": "A verdict of VERIFIED over lines the record's own note said were not recomputed: the same fault as the seat's item 4 of section 7.2, made again by main the same day.",
  "units": [
-  "web:STATUS_CHAT1:680",
-  "web:STATUS_CHAT1:681",
-  "web:STATUS_CHAT1:682",
-  "web:STATUS_CHAT1:683",
-  "web:STATUS_CHAT1:684"
+  "web:STATUS_CHAT1:708",
+  "web:STATUS_CHAT1:709",
+  "web:STATUS_CHAT1:710",
+  "web:STATUS_CHAT1:711"
  ]
 }

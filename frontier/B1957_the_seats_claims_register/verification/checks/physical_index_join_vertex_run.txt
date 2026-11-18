@@ -1,0 +1,9 @@
+V1: |y| = sqrt(2)*sqrt(A_w)*sqrt(G)*q/(I_w*sqrt(h)); |y|^2/e_H^2 - 2 A_w A_g/I_w^2 = 0
+V2: a constant conformal factor: 2 A_w A_g/I_w^2 = 2.000000
+V2: a non-constant one: 2 A_w A_g/I_w^2 = 2.240000
+V2: one that decays: 2 A_w A_g/I_w^2 = 3.314359
+V3: [H, E] = 5 E for E between a weak and a colour index: True; the charge over six: 5/6
+V4: the largest rank over 1,000 random matrices of the block form: 2
+V5: rank of Y1: 2; at t = 1e-2, 1e-3, 1e-4 the three smallest singular values over (t s_1, t s_2, t^2 |m2|): [(1.0001, 0.9877, 1.0244), (1.0001, 0.9988, 1.0025), (1.0, 0.9999, 1.0002)]
+V6: the solution space of L^T E_ij = E_ij R^-1 over the five matrices has dimension 1 (L = c, R = 1/c); with E_33 left out: 2; with all nine: 1
+V7: R preserves the Gram: True; G^(1/2) R G^(-1/2) is unitary: True
