@@ -1,0 +1,4 @@
+H3: det(J^n - 1), n = 1 to 12: [-1, -1, -4, -5, -11, -16, -29, -45, -76, -121, -199, -320]; |.| for n = 1 to 8: [1, 1, 4, 5, 11, 16, 29, 45]; never 0: True
+H4: N = 2: the closure has 10 elements; it holds -1: True
+H4: N = 4: the closure has 320 elements; it holds -1: True
+H4: N = 8: the closure has 20480 elements; it holds -1: True
