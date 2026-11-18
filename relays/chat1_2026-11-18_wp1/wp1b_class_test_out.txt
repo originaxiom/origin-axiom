@@ -1,0 +1,15 @@
+C0 a=1: elements 120; repeated arrivals 121; clashes 0
+C0 a=2: elements 120; repeated arrivals 121; clashes 0
+C1 a=1: max |det - 1| 3.0e-15; rho(-I) = parity True; even/odd dims 3/2; commutant dim 2, I and P in it True; 6Y eigenvalues [np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(3.0), np.float64(3.0)]; max ||tr|^2 - fixed points| 7.1e-15; signature for W (x) conj W 0.200000
+C1 a=2: max |det - 1| 2.7e-15; rho(-I) = parity True; even/odd dims 3/2; commutant dim 2, I and P in it True; 6Y eigenvalues [np.float64(-2.0), np.float64(-2.0), np.float64(-2.0), np.float64(3.0), np.float64(3.0)]; max ||tr|^2 - fixed points| 3.6e-15; signature for W (x) conj W 0.200000
+C2 a=1: the labels move as g itself acts on (p, q): False
+C2 a=2: the labels move as g itself acts on (p, q): False
+C2: the same permutation of labels in both classes for every g: False; the same phases: False
+C2: (element, label) pairs whose phase differs between the classes: 2176 of 3000
+C2: (element, label) pairs whose image label differs between the classes: 2656 of 3000
+C3: elements whose traces differ between the classes: 24 of 120; tr rho_2(g) = tr rho_1(h g h^-1) for h = diag(2, 1), for all g: True
+C3 a=1: the even part's traces on the elements of order 5: [np.float64(-0.618034), np.float64(1.618034)] ((1 +- sqrt 5)/2 = 1.618034, -0.618034)
+C3 a=2: the even part's traces on the elements of order 5: [np.float64(-0.618034), np.float64(1.618034)] ((1 +- sqrt 5)/2 = 1.618034, -0.618034)
+C4: tr rho(gamma^2) = -2.236068, 2.236068 (differ: True); det rho(-I) = 1.000000, 1.000000 and rho(-I) the parity in both: True
+C5 a=1: tr rho(gamma^k), k = 1..10: ['1.000-0.000i', '-2.236+0.000i', '1.000+0.000i', '2.236-0.000i', '1.000+0.000i', '2.236+0.000i', '1.000-0.000i', '-2.236-0.000i', '1.000+0.000i', '5.000+0.000i']; fixed space of rho(gamma): dimension 1, even [True]
+C5 a=2: tr rho(gamma^k), k = 1..10: ['1.000+0.000i', '2.236+0.000i', '1.000+0.000i', '-2.236+0.000i', '1.000+0.000i', '-2.236-0.000i', '1.000+0.000i', '2.236+0.000i', '1.000-0.000i', '5.000+0.000i']; fixed space of rho(gamma): dimension 1, even [True]
