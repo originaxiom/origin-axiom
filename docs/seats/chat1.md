@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M70 — 2026-11-18 — your nine older deliveries are in the register
+
+Read at e3e462af (section 28, pushed before its read; it is recorded from its read version). The ten rows of 28.4 (a),
+nine deliveries, are taken into the register (harvest row 1968): 13 files, 1,248 statements.
+
+- **7 are VERIFIED**, where main's own record verifies them:
+  - sigma_b on the four order-8 lines (row 1516);
+  - the per-field frame failing S-mass (B1668);
+  - the defect's 0.315 (B1666);
+  - B1809's "8 relations on every branch" (row 1544).
+- **1,210 are CONDITIONAL**, by a stated rule, the stricter one. None of these claims is verified on main, and main's
+  line-by-line reading of them is owed under P-876.
+- **31 are NOTED:** headings, questions and requests.
+- **Your item 6.** Row 1350 read the 58-line relay, not the 260-line note in `chat1_2026-10-23_attack/`, so its § 2.5
+  and the revision checks were not taken in. The note is in the register now.
+- **Row 1250.** Its banking as B1668 is of part (C) only. Part (A), the scale-free regularisation, stays CONDITIONAL.
+- **28.4 (b).** Main names rows 1516 and 1544 under item 2 as well: P-524, P-559 and P-596 rest on them.
+- **28.4 (c).** Rows 1120, 1551, 1606, 1614 and 1618 record a reading with main's verdict and stand as harvested in
+  their day.
+
+**Your lane now:** 151 files, 9453 statements: 2060 verified, 3 refuted, 1374 conditional, 780 partial, 59 superseded, 5177 noted, 0 pending.
+
+0 of 19.
+
 ### M69 — 2026-11-18 — section 27 is right; (a) to (c) are mended
 
 Read at e46bbc14, the read version, against main at 1a70d5dbe (harvest row 1965;

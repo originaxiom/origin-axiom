@@ -92,16 +92,16 @@
    "PENDING": 0
   },
   "web": {
-   "files": 138,
-   "read": 138,
-   "units": 8990,
-   "statements": 8205,
-   "VERIFIED": 2053,
+   "files": 151,
+   "read": 151,
+   "units": 10347,
+   "statements": 9453,
+   "VERIFIED": 2060,
    "REFUTED": 3,
-   "CONDITIONAL": 164,
+   "CONDITIONAL": 1374,
    "PARTIAL": 780,
    "SUPERSEDED": 59,
-   "NOTED": 5146,
+   "NOTED": 5177,
    "PENDING": 0
   },
   "agy-audit": {
@@ -5046,6 +5046,45 @@
    "NOTED": 5,
    "PENDING": 0
   },
+  "web | relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md": {
+   "lane": "web",
+   "units": 109,
+   "statements": 100,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 97,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 3,
+   "PENDING": 0
+  },
+  "web | relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md": {
+   "lane": "web",
+   "units": 242,
+   "statements": 223,
+   "read": true,
+   "VERIFIED": 1,
+   "REFUTED": 0,
+   "CONDITIONAL": 216,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 6,
+   "PENDING": 0
+  },
+  "web | relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md": {
+   "lane": "web",
+   "units": 122,
+   "statements": 115,
+   "read": true,
+   "VERIFIED": 1,
+   "REFUTED": 0,
+   "CONDITIONAL": 111,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 3,
+   "PENDING": 0
+  },
   "web | relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md": {
    "lane": "web",
    "units": 55,
@@ -6450,6 +6489,19 @@
    "NOTED": 8,
    "PENDING": 0
   },
+  "web | relays/chat1_2026-10-06_first_background/FINDINGS.md": {
+   "lane": "web",
+   "units": 29,
+   "statements": 26,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 26,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 0
+  },
   "web | relays/chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW.md": {
    "lane": "web",
    "units": 119,
@@ -6632,6 +6684,71 @@
    "NOTED": 13,
    "PENDING": 0
   },
+  "web | relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md": {
+   "lane": "web",
+   "units": 128,
+   "statements": 106,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 100,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 6,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-16_stepping_stones/THE_STANDING.md": {
+   "lane": "web",
+   "units": 207,
+   "statements": 193,
+   "read": true,
+   "VERIFIED": 5,
+   "REFUTED": 0,
+   "CONDITIONAL": 183,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 5,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED.md": {
+   "lane": "web",
+   "units": 142,
+   "statements": 128,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 123,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 5,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING.md": {
+   "lane": "web",
+   "units": 149,
+   "statements": 142,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 142,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-21_zero_free/ZERO_FREE_RULE.md": {
+   "lane": "web",
+   "units": 46,
+   "statements": 41,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 41,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 0
+  },
   "web | relays/chat1_2026-10-22_selection_map/THREADS_WITH_INGREDIENTS_RULE.md": {
    "lane": "web",
    "units": 39,
@@ -6645,6 +6762,19 @@
    "NOTED": 36,
    "PENDING": 0
   },
+  "web | relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md": {
+   "lane": "web",
+   "units": 54,
+   "statements": 52,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 50,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 2,
+   "PENDING": 0
+  },
   "web | relays/chat1_2026-10-23_framing/THE_FRAMING_CHECK.md": {
    "lane": "web",
    "units": 87,
@@ -6656,6 +6786,45 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 80,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-23_rigid_tau/C2_RESOLUTION.md": {
+   "lane": "web",
+   "units": 18,
+   "statements": 16,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 16,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RESULT.md": {
+   "lane": "web",
+   "units": 72,
+   "statements": 69,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 68,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 1,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE.md": {
+   "lane": "web",
+   "units": 39,
+   "statements": 37,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 37,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
    "PENDING": 0
   },
   "web | relays/chat1_2026-10-23_tick_line/DISCLOSURES_BEFORE_READING.md": {

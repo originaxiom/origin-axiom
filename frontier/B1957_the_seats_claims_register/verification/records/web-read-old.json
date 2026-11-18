@@ -1,0 +1,22 @@
+{
+ "id": "web-read-old",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "taken into the register under P-876 (harvest row 1968); read through by main for the lines its record verifies, the rest sorted by a stated rule (web-old-02), main's line-by-line reading owed; the seat's code not run",
+ "files": [
+  "relays/chat1_2026-10-06_first_background/FINDINGS.md",
+  "relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md",
+  "relays/chat1_2026-10-16_stepping_stones/THE_STANDING.md",
+  "relays/chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED.md",
+  "relays/chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING.md",
+  "relays/chat1_2026-10-21_zero_free/ZERO_FREE_RULE.md",
+  "relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE.md",
+  "relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RESULT.md",
+  "relays/chat1_2026-10-23_rigid_tau/C2_RESOLUTION.md",
+  "relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md",
+  "relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md",
+  "relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md",
+  "relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md"
+ ]
+}

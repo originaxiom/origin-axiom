@@ -91,6 +91,22 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
         "relays/AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP.md",
     ),
     "web": (
+        # added 2026-11-18, later (harvest row 1968): the nine older deliveries the web seat names at its section 28.4 (a) (its branch at
+        # e3e462afd), each recorded only as read at its headline, at its scope, in part, queued or pending, and read in no later row:
+        # rows 1088, 1201, 1250, 1291, 1332 and 1337, 1346, 1513, 1516, 1544 (main names rows 1516 and 1544 under item 2 of the scope too)
+        "relays/chat1_2026-10-06_first_background/FINDINGS.md",
+        "relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md",
+        "relays/chat1_2026-10-16_stepping_stones/THE_STANDING.md",
+        "relays/chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED.md",
+        "relays/chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING.md",
+        "relays/chat1_2026-10-21_zero_free/ZERO_FREE_RULE.md",
+        "relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE.md",
+        "relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RESULT.md",
+        "relays/chat1_2026-10-23_rigid_tau/C2_RESOLUTION.md",
+        "relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md",
+        "relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md",
+        "relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md",
+        "relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md",
         "docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md",
         "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
         "relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md",

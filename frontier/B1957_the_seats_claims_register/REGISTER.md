@@ -11,11 +11,11 @@
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 187 | 184 | 12354 | 967 | 0 | 1448 | 280 | 46 | 9613 | **0** |
-| web | 138 | 138 | 8205 | 2053 | 3 | 164 | 780 | 59 | 5146 | **0** |
+| web | 151 | 151 | 9453 | 2060 | 3 | 1374 | 780 | 59 | 5177 | **0** |
 | agy-audit | 5 | 5 | 165 | 12 | 0 | 37 | 32 | 0 | 84 | **0** |
 | sm | 21 | 16 | 6455 | 366 | 4 | 3935 | 219 | 0 | 1931 | **0** |
 | agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
-| **all** | 577 | 514 | 33583 | 4051 | 29 | 6604 | 2153 | 765 | 19981 | **0** |
+| **all** | 590 | 527 | 34831 | 4058 | 29 | 7814 | 2153 | 765 | 20012 | **0** |
 
 ## By file
 
@@ -398,6 +398,9 @@
 | web | `e46bbc14c:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
 | web | `e46bbc14c:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md` | yes | 100 | 100 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md` | yes | 223 | 223 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md` | yes | 115 | 115 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md` | yes | 96 | 96 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md` | yes | 126 | 126 | **0** |
@@ -506,6 +509,7 @@
 | web | `relays/cards/CHAT1_W-R81_review_81.md` | yes | 28 | 28 | **0** |
 | web | `relays/cards/CHAT1_W-V1_view_on_selection_and_dictionary.md` | yes | 11 | 11 | **0** |
 | web | `relays/cards/CHAT1_cold_read_the_three_part_structure.md` | yes | 8 | 8 | **0** |
+| web | `relays/chat1_2026-10-06_first_background/FINDINGS.md` | yes | 26 | 26 | **0** |
 | web | `relays/chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW.md` | yes | 113 | 113 | **0** |
 | web | `relays/chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME.md` | yes | 92 | 92 | **0** |
 | web | `relays/chat1_2026-10-14_selection/PREREGISTRATION_LAGRANGE_LAW.md` | yes | 28 | 28 | **0** |
@@ -520,8 +524,17 @@
 | web | `relays/chat1_2026-10-14_the_scale/T_ROOT_PREREGISTRATION.md` | yes | 44 | 44 | **0** |
 | web | `relays/chat1_2026-10-14_the_scale/T_SIGN_FINDINGS.md` | yes | 18 | 18 | **0** |
 | web | `relays/chat1_2026-10-14_the_scale/T_SIGN_PREREGISTRATION.md` | yes | 13 | 13 | **0** |
+| web | `relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md` | yes | 106 | 106 | **0** |
+| web | `relays/chat1_2026-10-16_stepping_stones/THE_STANDING.md` | yes | 193 | 193 | **0** |
+| web | `relays/chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED.md` | yes | 128 | 128 | **0** |
+| web | `relays/chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING.md` | yes | 142 | 142 | **0** |
+| web | `relays/chat1_2026-10-21_zero_free/ZERO_FREE_RULE.md` | yes | 41 | 41 | **0** |
 | web | `relays/chat1_2026-10-22_selection_map/THREADS_WITH_INGREDIENTS_RULE.md` | yes | 36 | 36 | **0** |
+| web | `relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md` | yes | 52 | 52 | **0** |
 | web | `relays/chat1_2026-10-23_framing/THE_FRAMING_CHECK.md` | yes | 80 | 80 | **0** |
+| web | `relays/chat1_2026-10-23_rigid_tau/C2_RESOLUTION.md` | yes | 16 | 16 | **0** |
+| web | `relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RESULT.md` | yes | 69 | 69 | **0** |
+| web | `relays/chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE.md` | yes | 37 | 37 | **0** |
 | web | `relays/chat1_2026-10-23_tick_line/DISCLOSURES_BEFORE_READING.md` | yes | 5 | 5 | **0** |
 | web | `relays/chat1_2026-10-23_tick_line/PREDICTION_BEFORE_ZERO_FREE_HOLOMORPHIC.md` | yes | 5 | 5 | **0** |
 | web | `relays/chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RESULT.md` | yes | 47 | 47 | **0** |
