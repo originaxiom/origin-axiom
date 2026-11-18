@@ -1,0 +1,22 @@
+{
+ "T6 S6 K": {
+  "Sigma^2 = U_M on E": 1.3637707092083895e-15,
+  "Sigma^12 h = -h": 1.1415878710499686e-14,
+  "(2) |Delta|/N constant on orbits": 1.3877787807814457e-15,
+  "(3) the 12-point average is I_E/2": 1.2212705609191797e-15,
+  "d_k = (-1)^k d_0": 1.3877787807814457e-15,
+  "(4) the two-time statistic (-1)^l d_0^2": 6.938893903907228e-16
+ },
+ "P T6 S6 K": {
+  "Sigma^2 = U_M on E": 1.047382306668854e-15,
+  "Sigma^12 h = -h": 5.949024176960441e-15,
+  "(2) |Delta|/N constant on orbits": 1.5543122344752192e-15,
+  "(3) the 12-point average is I_E/2": 1.3322787910603717e-15,
+  "d_k = (-1)^k d_0": 1.5543122344752192e-15,
+  "(4) the two-time statistic (-1)^l d_0^2": 9.992007221626409e-16
+ },
+ "U^6 = -I on E": 1.6344917351940885e-15,
+ "fixed-point separation^2 = ((a+d)^2 - 4 det)/c^2": true,
+ "conjugates with c = 0 (must be none)": 0,
+ "largest axis radius over conjugates (sqrt5/2 = 1.118034)": 1.118034
+}
