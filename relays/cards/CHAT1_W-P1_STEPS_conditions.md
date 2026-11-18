@@ -239,4 +239,32 @@ DENS = 120 a word with N = 5 may be off by 0.083.
 **Failure.** A violation, or a difference that does not fall with the density. Then the closed form is wrong for that
 word; F3 stays withdrawn, and so does any use of it.
 
+## Step 2, frame C's own Gramians in both classes (W-P1b-H)
+
+**Why.** W-P1b leaves one item open: whether frame C's down coupling satisfies S₁ = S₂. If it does not, B1953's two
+Gramians differ between the classes. The author's ruling of 2026-11-15 (morning) lets this seat compute and print frame
+C's outputs anywhere on the surface, with nothing compared with data. This seat's own transcription of frame C (W-F24's
+and W-F26's code, as W-A1 used it) gives Y(τ, w). Main's code is not run; main's JSON tables of the end are read, as
+W-F24 reads them. Written before the script.
+
+**What, fixed now.** Frame C's down sector, readings S and S̃, at B1953's two base points τ = 0.13 + 1.7i and
+0.31 + 1.2i. Y(τ, w) is computed at the 24 points w = aτ + b, (a, b) ∈ {0, …, 4}²/5 \ 0, with W-F26's `couplings`,
+L₂ = L₂(τ) and the triplet at τ. A(w) = ζ^(−ab)·Y(τ, w) (B1953's table, with (a, b) as integers mod 5).
+- **K1, the control.**
+  - Y(τ, −w) = Y(τ, w) at every point.
+  - The 15 singular values of O_K at τ + 1 against τ, for class 2 (K = I) and class 1 (K = diag(1, 3)). At τ + 1 the
+    coupling is computed afresh, with the triplet at τ + 1 and L₂(τ) (the end is periodic under T).
+  - The same without the table, as a plant: it must move.
+- **K2.** ‖S₁ − S₂‖/‖S₁‖ (largest entries), at each base point and reading.
+- **K3.** The ratios of the two Gramians G₃ and G₂, in both classes, and of the plain Gramian, at each base point and
+  reading; and the largest difference between the classes' G₃ ratios.
+
+**Expected [J].** K1: Y even to 1e-12; singular values at τ + 1 within 1e-8 of τ's in both classes; the plant moves
+them by more than 1e-2. K2: above 1e-3. K3: the classes' G₃ ratios differ by more than 1e-3.
+
+**Failure.** K1 fails. Then the transcription does not carry B1953's law, and K2 and K3 say nothing about frame C.
+
+**What is printed.** Frame C's Gramian ratios at two points, as the ruling allows. Nothing is compared with data, and
+nothing with B1953's printed values. Main may compare the transcription with its own.
+
 0 of 19.
