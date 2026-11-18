@@ -1,0 +1,333 @@
+{
+ "summary": {
+  "checks": 41,
+  "hold": 41,
+  "fail": [],
+  "plants": 5,
+  "plants_failing_as_required": 5
+ },
+ "rows": [
+  {
+   "id": "K0",
+   "claim": "the vector five carries a unique invariant symmetric form for the principal sl2 (so5 exists)",
+   "holds": true,
+   "detail": "free parameters 1, form antidiagonal [0, 0, 0, 0, 1, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 0, 0]",
+   "plant": false
+  },
+  {
+   "id": "K1",
+   "claim": "E^j lies in so5 for j = 1, 3 (odd powers), E^2 does not; T_(3) ~ (E^dagger)^3 is the lowest j=3 element",
+   "holds": true,
+   "detail": "ad(Jz) T3 = -3 T3",
+   "plant": false
+  },
+  {
+   "id": "K2a",
+   "claim": "A = (-i N) exp(-i pi H/4): each vector-five highest vector (m = 2) maps with phase i to the other",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "K2b",
+   "claim": "Ad_A |j,m>_+ = i^(-m)|j,m>_- and Ad_A |j,m>_- = i^(-m)|j,m>_+ ; in particular Ad_A T_(j,+) = (-i)^j T_(j,-)",
+   "holds": true,
+   "detail": "failing weights []",
+   "plant": false
+  },
+  {
+   "id": "K2c",
+   "claim": "the lowest j=3 elements are exchanged with phase -i (used in the cubic, section 2)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "K3",
+   "claim": "(1) A_(+-j) phases equal i^(-(w-1)) at w = +-j (spin slot carries +1, trivial phase)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "K4",
+   "claim": "j=1: the two core phases are opposite in either sigma_x eigenline; exponents 0, 2 with degree 0; no section",
+   "holds": true,
+   "detail": "[(1, 0, '1', '-1'), (1, 0, '-1', '1'), (-1, 2, '-1', '1'), (-1, 2, '1', '-1')]",
+   "plant": false
+  },
+  {
+   "id": "K5",
+   "claim": "j=3: w=+3 exponent -2 has negative degree; w=-3 exponent 4 with characters (delta, delta), one pole, one section each: exactly two neutral spin modes; all exponents even",
+   "holds": true,
+   "detail": "[(3, -2, '-1', '-1'), (3, -2, '1', '1'), (-3, 4, '1', '1'), (-3, 4, '-1', '-1')]",
+   "plant": false
+  },
+  {
+   "id": "K6",
+   "claim": "(2,2) cross form: highest weight w = 2+2 = 4; Hodge-dual exponent w+2 = 6, pole bound two, two sections",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "K7",
+   "claim": "charged forms (w=3): Hodge-dual S^5 L^-1(2p) has dim 2; charged spin (w=0): S^1, no pole, nowhere-zero section only for trivial total character",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "K8",
+   "claim": "cross adjoint highest element v1^v2 has A-phase +1 (i^2 times the exchanged exterior factors)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "K9",
+   "claim": "counts: neutral 5 (A,B1,B2,N+,N-), charge +-1 3 each, Q gaugino 1: 12 = 11 chiral + 1; misaligned 9 + 1",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "C1",
+   "claim": "one form slot, weight pairing and Q conservation leave exactly A S T, P N T, R N S; B pairs with nothing",
+   "holds": true,
+   "detail": "[('A', 'S', 'T'), ('P', 'N', 'T'), ('R', 'N', 'S')]",
+   "plant": false
+  },
+  {
+   "id": "C1b",
+   "claim": "spin pair weight sums are 0, -3, -6 only",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "C2",
+   "claim": "every channel's spin exponents add to the form's Hodge-dual exponent w+2; N x T has at most one pole inside the two-pole target",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "C3",
+   "claim": "(3): with alpha_+ = -alpha_-, alpha_+ alpha_- = -1, only N_(delta_+) couples P to T; alpha_- delta_- = eta",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "C4",
+   "claim": "spinor 4 = V_(3/2) is symplectic (so5 = sp4); (E^dagger)^3 lies in sp4 and has a unique nonzero matrix element <-3/2|.|3/2>; so5 = 3 + 7 = dim sp4",
+   "holds": true,
+   "detail": "entry 6",
+   "plant": false
+  },
+  {
+   "id": "M1",
+   "claim": "Y1 from W3 at A = 0, N = t nu equals the packet's matrix; rank 2; singular values |t l+ nu_c|, |t l- nu_d|; null pair (P_s, R_s)",
+   "holds": true,
+   "detail": "[0, lambda_m*nu_d*t, lambda_p*nu_c*t]",
+   "plant": false
+  },
+  {
+   "id": "M2",
+   "claim": "with S = T = N = 0 every first derivative of W3 vanishes (pure charged forms are cubic-flat)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "M3",
+   "claim": "only A, S, T active: W3 reduces to y A S T",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "M4",
+   "claim": "(7) d/drho [e_Q(1 - rho^2)] at rho = 1 is -2 e_Q; m_Q^2 = 2 e_Q^2 t^2 (1 + rho^2) = 4 e_Q^2 t^2 at rho = 1",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "T1",
+   "claim": "(2) mu2 = -i[a_x, a_y] = [a, a^dagger]/2 for Hermitian a_x, a_y",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "T2",
+   "claim": "(4) connection part: delta F_xy = (D_x^2 + D_y^2) psi exactly (nonabelian, first order)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "T3",
+   "claim": "(4) spin part: delta [q, q^dagger] with delta q = [q0, psi], psi Hermitian, equals -(ad_q^dag ad_q + ad_q ad_q^dag) psi; that operator is positive semidefinite",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "G1",
+   "claim": "(6)/(1) indicial exponents (1 +- sqrt(1+4 ell^2 c))/2 = -beta_c, 1+beta_c",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "G2",
+   "claim": "measure exp(-t)dt: constant (c=0) and exp(-beta t) are L2, exp(t) and exp((1+beta)t) are not",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "G3",
+   "claim": "source exp(-delta t): particular solution exp(-delta t)/den; den = 0 iff delta = beta_c (c>0), never for c = 0, delta>0 (non-resonance of the strict weight)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "V0",
+   "claim": "in a B-orthonormal frame E and T_(3) are complex antisymmetric (elements of so(5,C))",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "V1",
+   "claim": "Clifford chiral spinor is a 128-dim rep of so16: [s(X), s(Y)] = s([X, Y])",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "P1",
+   "claim": "nilpotent pencil kernels in the 248: diagonal triple 68, single raising triple 100; ranks 180 and 148",
+   "holds": true,
+   "detail": "kernels 68, 100",
+   "plant": false
+  },
+  {
+   "id": "P1b",
+   "claim": "summand counts: 10 -> V1+V3 (2), 11 V2, 55 V0, 32 V_(3/2) = 100; diagonal 4+5+12+15+32 = 68",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "E1",
+   "claim": "roster: one adjoint 10, eleven vector 5, thirty-two spinor 4, 55 trivial; 10+55+128+55 = 248",
+   "holds": true,
+   "detail": "nonzero weights 180",
+   "plant": false
+  },
+  {
+   "id": "E2",
+   "claim": "at mu = i lambda: Tr_10 X^8 = 68, Tr_5 X^8 = 4, Tr_4 X^8 = 1/4 (times lambda^8)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "E3",
+   "claim": "(3) Tr_248 (ad X)^8 = 120 lambda^8 = (15/2)(Tr_5 X^4)^2 on Tr_5 X^2 = 0; Tr_248 X^4 = 0 there",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "E3b",
+   "claim": "the identity holds as a polynomial identity modulo Tr_5 X^2 = 2(lambda^2 + mu^2)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "E4",
+   "claim": "Tr_5 X^2 = 0, Tr_5 X^4 = 4 a^3 b Tr(E^3 T3) with Tr(E^3 T3) > 0; char poly x^5 - (Tr_5 X^4/4) x (eigenvalues 0, +-lam, +-i lam, lam^4 = Tr X^4/4)",
+   "holds": true,
+   "detail": "Tr E^3 T3 = 288",
+   "plant": false
+  },
+  {
+   "id": "E5",
+   "claim": "matrix 248 (so16 adjoint + chiral spinor): Tr (ad X)^8 = (15/2)(Tr_5 X^4)^2 and Tr (ad X)^4 = 0 for X = E + 0.7 T3; the b = 0 reference is nilpotent (trace 0)",
+   "holds": true,
+   "detail": "4877107.200000 vs 4877107.200000",
+   "plant": false
+  },
+  {
+   "id": "E6",
+   "claim": "a complex orthogonal gauge conjugation preserves Tr_5 X^4 and the pencil ranks",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "N1",
+   "claim": "[q0', v] = [r0', u] = [u, v] = 0; linear moment [q0', u^dag] + [u, q0'^dag] = 0 (T_(3) lowest)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "N2",
+   "claim": "compact centralizer of both triples: 0 in D5 = so10, 0 on the 16; so in E6 = so10+u1+16+16bar it is the single u1 (one Q direction)",
+   "holds": true,
+   "detail": "so10 0, 16 0",
+   "plant": false
+  },
+  {
+   "id": "N2b",
+   "claim": "control: the centralizer of only one triple in so10 is the other so5 (dim 10)",
+   "holds": true,
+   "detail": "",
+   "plant": false
+  },
+  {
+   "id": "X1",
+   "claim": "PLANT: cross-module phase with a symmetric (not exterior) product is +1",
+   "holds": false,
+   "detail": "",
+   "plant": true
+  },
+  {
+   "id": "X2",
+   "claim": "PLANT: the identity (3) and the quartic cancellation survive without the 32 spinor fours",
+   "holds": false,
+   "detail": "",
+   "plant": true
+  },
+  {
+   "id": "X3",
+   "claim": "PLANT: flipping the sign of d_t^2 gives the same exponents",
+   "holds": false,
+   "detail": "",
+   "plant": true
+  },
+  {
+   "id": "X4",
+   "claim": "PLANT: a non-strict pole bound (m <= e/2) still gives one section of S^4 L_delta",
+   "holds": false,
+   "detail": "",
+   "plant": true
+  },
+  {
+   "id": "X5",
+   "claim": "PLANT: the misordered pencil kernel (single triple gives 68)",
+   "holds": false,
+   "detail": "",
+   "plant": true
+  }
+ ]
+}
