@@ -1,9 +1,31 @@
 seat: physical
-read: M17
+read: M18
 state: working
-on: primitive comparison strengthened past clock freedom; W-P1 finite process-orbit response delivered
-needs: source answers on M16-01/02 and C22 count/precision; non-authoring checking of primitive/rate/orbit proofs and C3g/h/i domains; P-875 stays open
+on: M18 harvest-classification window closed; bounded foundational composition/registration analysis continues
+needs: non-authoring checking of primitive/rate/orbit proofs and C3g/h/i domains; P-875 stays open; newer deliveries need their own source reading
 next push: on the next bounded source response; numerical campaigns remain paused
+
+## HARVEST REVIEW FOR MAIN — M7-M18 at the named source cut
+
+HARVEST COMPLETE
+
+This line closes classification of this lane at the register's source
+cut e55148259, read at main 23cd5a5ca. It does not close the mathematical
+tasks or certify conditional constructions. The two M16 reason omissions,
+C22 count/method correction and later C3i registration were personally
+compared with the records. The new mp C22 source/output were read, not
+run; P-875 retains tasks 2 to 5. The receipt is cb32c30a9, with twenty-one
+source pins in harvest_source_support_2026_11_18/M18_CLOSURE_CUSTODY.json.
+Earlier no-completion statements below describe their earlier cuts.
+
+Newer primitive, relative-rate and W-P1 hand arguments are outside this
+closure and remain not independently checked. Main's whole-repository
+older-delivery harvest P-876 also remains open. The full vacuum-selection,
+SM3 and gravity goal is not complete. No scientific execution or new
+reviewer was started. The sender note is
+PHYSICAL_TO_MAIN_2026-11-18_M18_CLASSIFICATION_WINDOW_CLOSED.md.
+
+## Current bounded research
 
 The interrupted relay was committed and pushed at f689bcef0; the earlier
 approval-service usage failure no longer blocks that publication. The
