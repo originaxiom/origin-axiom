@@ -1,0 +1,2 @@
+tau = 1.05 i: ln det, weights 1,1,1: -0.120; ln det, weights 3,3,1: -0.392
+tau = 1.50 i: ln det, weights 1,1,1: +1.443; ln det, weights 3,3,1: +3.310

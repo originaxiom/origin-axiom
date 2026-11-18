@@ -1,0 +1,51 @@
+[
+ {
+  "id": "P1",
+  "kind": "number",
+  "file": "frontier/B1945_the_frames_cusp_exponents/FINDINGS.md",
+  "old": "the 14 points with a = 0 or ±1/5 give |V₁₃| = 1",
+  "new": "the 16 points with a = 0 or ±1/5 give |V₁₃| = 1"
+ },
+ {
+  "id": "P2",
+  "kind": "wording",
+  "file": "frontier/B1945_the_frames_cusp_exponents/FINDINGS.md",
+  "old": "- **The lock** checks five points at height 30.",
+  "new": "- **The lock** checks all 24 points at height 30."
+ },
+ {
+  "id": "P3",
+  "kind": "number",
+  "file": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/FINDINGS.md",
+  "old": "(least distance 0.553)",
+  "new": "(least distance 0.535)"
+ },
+ {
+  "id": "P4",
+  "kind": "number",
+  "file": "frontier/B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/FINDINGS.md",
+  "old": "46 neutral, 32 singlets of charge ±1, 162 coloured",
+  "new": "46 neutral, 32 singlets of charge ±1, 164 coloured"
+ },
+ {
+  "id": "P5",
+  "kind": "number",
+  "file": "frontier/B1957_the_seats_claims_register/FINDINGS.md",
+  "old": "subregular sl₂ fixes no vector of the 27: 13 + 9 + 5)",
+  "new": "subregular sl₂ fixes no vector of the 27: 15 + 7 + 5)"
+ },
+ {
+  "id": "P6",
+  "kind": "number",
+  "file": "frontier/B1950_review_83_entered_both_readers_caught_all_six_plants/FINDINGS.md",
+  "old": "agy-002 reports 31 and agy-exp 20.",
+  "new": "agy-002 reports 31 and agy-exp 21."
+ },
+ {
+  "id": "P7",
+  "kind": "wording",
+  "file": "frontier/B1957_the_seats_claims_register/FINDINGS.md",
+  "old": "Six findings are about agy-exp's sources, which main has not yet harvested: held for that reading.",
+  "new": "Six findings are about agy-exp's sources, which main has harvested in full: nothing is held."
+ }
+]

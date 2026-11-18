@@ -60,4 +60,4 @@ if __name__ == "__main__":
     det, n, orders, smith, A = period_four()
     print("3. M^4 - 1 = %s: |det| = %d, %d points of period dividing 4, by order %s; Smith form %s" % (A, det, n, orders, smith))
     print("4. E8: %d roots = %d neutral + %d colour singlets of charge +-1 + %d coloured" % e8_partition())
-    print("5. a line bundle of degree k on a torus has |k| sections: three families from flux three is the input k = 3")
+    print("5. (a remark, not a check) a line bundle of degree k > 0 on a torus has k sections: three families from flux three is the input k = 3")

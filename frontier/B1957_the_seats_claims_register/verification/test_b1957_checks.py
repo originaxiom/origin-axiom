@@ -523,3 +523,14 @@ def test_the_square_of_the_fourier_generator_is_the_parity_up_to_the_gauss_scala
         T = np.diag(w ** ((r * h * x * x) % N)); C = np.zeros((N, N)); C[(-x) % N, x] = 1; Fm = w ** ((-r * np.outer(x, x)) % N) / np.sqrt(N); S = Fm / g
         assert np.allclose(Fm @ Fm, C) and np.allclose(np.linalg.matrix_power(S @ T, 3), S @ S) and np.allclose(S @ S, want * C)
         assert not np.allclose(np.linalg.matrix_power(Fm @ T, 3), Fm @ Fm) or abs(g - 1) < 1e-12        # without the scalar the relation fails unless the scalar is 1
+
+
+def test_the_one_loop_relation_among_the_couplings():
+    """added at Review 84: a record cited the three coefficients and its check computed one of them"""
+    b1, b2, b3 = F(41, 10), F(-19, 6), F(-7)
+    den = (b1 - b2) + F(8, 5) * (b2 - b3)
+    assert (F(3, 5) * (b2 - b3) / den, (b1 - b2) / den) == (F(23, 134), F(109, 201))         # sin^2 = 23/134 + (109/201) alpha_EM/alpha_3
+    d = (F(-10) - b1, F(-7, 3) - b2, F(-7, 3) - b3)                                           # the Pati-Salam stage's coefficients minus the Standard Model's
+    assert (b2 - b3, b1 - b2) == (F(23, 6), F(109, 15))
+    assert F(22) * F(23, 3) / 67 == F(506, 201)
+    assert (F(3, 5) * (F(-7, 3) - F(-7)) / den) != F(23, 134)                                 # another b2 gives another constant

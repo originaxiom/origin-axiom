@@ -13,25 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1654 |
-| … PROVED | 1152 |
+| arcs with a verdict file | 1655 |
+| … PROVED | 1153 |
 | … NEGATIVE | 386 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 866 |
+| register points | 867 |
 | … “QUEUED” | 314 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 536 |
+| … “DONE” | 537 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1903 |
+| harvest rows (the last number) | 1904 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
-| B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the 275 markdown files the seats added or cha…” |
+| B1958 | PROVED | “REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted):…” |
+| B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the markdown files the seats added or changed…” |
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
 | B1955 | PROVED | “[CORRECTED 2026-11-17, the web seat's harvest review, sections 3.3 and 5.4: the top wedge's invariance at level 5 is generic (any representation of determinant 1, both classes) and conditional on the Fock-space reading,…” |
 | B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
@@ -42,7 +43,6 @@
 | B1949 | PROVED | “IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector…” |
 | B1948 | OPEN | “THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second…” |
 | B1947 | NEGATIVE | “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)…” |
-| B1946 | PROVED | “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-17, S306p: THE HARVEST IS REOPENED AT THE AUTHOR'S RULE: NO SEAT'S CLAIM IGNORED, UNVERIFIED OR UNREGISTERED; IT IS DONE ONLY WHEN THE SEATS SAY SO (B1957, OPEN; P-865).** Main's report of the harvest as done is withdrawn: it read summaries and verified little. The seats' claims register holds every statement of the 275 markdown files of the window, 14,878 statements, each pending until a record gives its verdict and how it was reached; a file counts as read only at its source. Every seat is asked on its page for what the register misses, its results in order with the computation that verifies each, and where main's record is wrong or too weak. 0 of 19.”
+“LATEST (2026-11-18, S306p: REVIEW 84 ENTERED (B1958; P-867): THE REVIEW GATE FIRED AT MAIN'S FORTIETH LANDING SINCE REVIEW 83, UNCOUNTED; THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS, EACH RIGHT AND EACH MENDED.** The window is c8cece9be to 1fc1e224e, 13 arcs; the sample B1945, B1950, B1955, B1956 and B1957 was read in full on a copy of the head with seven planted faults by three sessions of main's own family that built none of it. Eleven of the twenty findings are of one kind: a page or a verdict that says more than the committed output behind it (B1945's planted case and its piece exponents; Review 83's own entry; B1957's verdict file, its lock and…”
 
 ## Completeness (nothing skipped silently)
 

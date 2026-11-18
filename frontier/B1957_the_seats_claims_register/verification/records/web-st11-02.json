@@ -1,0 +1,24 @@
+{
+ "id": "web-st11-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what the seat read for its section 11; what it did not check (the wording of the P-740 lock and its half-letter step, the seventh manifold's two extra symmetries, the SM lane's mended check); that HARVEST COMPLETE is not written, waiting on items 3 to 10 of its section 9.2, item 9 as widened, and unit 155; and its list of five claims of its own first version that were wrong or too strong",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:943",
+  "web:STATUS_CHAT1:944",
+  "web:STATUS_CHAT1:945",
+  "web:STATUS_CHAT1:947",
+  "web:STATUS_CHAT1:948",
+  "web:STATUS_CHAT1:990",
+  "web:STATUS_CHAT1:991",
+  "web:STATUS_CHAT1:993",
+  "web:STATUS_CHAT1:1011",
+  "web:STATUS_CHAT1:1014",
+  "web:STATUS_CHAT1:1016",
+  "web:STATUS_CHAT1:1017",
+  "web:STATUS_CHAT1:1018",
+  "web:STATUS_CHAT1:1019",
+  "web:STATUS_CHAT1:1020"
+ ]
+}

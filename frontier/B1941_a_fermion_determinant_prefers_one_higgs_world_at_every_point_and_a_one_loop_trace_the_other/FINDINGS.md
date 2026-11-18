@@ -39,7 +39,7 @@ W₊ = (up S, down S̃, leptons S̃). Beside it the card lists a one-loop term, 
 
 ## What it means
 - **With the determinant, the preference is robust.** The fermion determinant prefers W₋, the record's practice, at
-  every sampled point. That holds with either colour weighting and either channel weight. So no measure can reverse it. *[CORRECTED 2026-11-17, Review 83, agy-002's R83-17, recomputed by main (B1950): false. Near τ = i the sign reverses: at τ = 1.05i the difference is −0.39 with the colour weights (3, 3, 1) and −0.12 with (1, 1, 1), and it vanishes at i. The sample never went below height 1.2. So the determinant prefers W₋ at the 28 sampled points, not at every point, and a measure concentrated near i reverses it.]*
+  every sampled point. That holds with either colour weighting and either channel weight. So no measure can reverse it. *[CORRECTED 2026-11-17, Review 83, agy-002's R83-17, recomputed by main (B1950; the output is `verification/near_i_run.txt`, committed at Review 84): false. Near τ = i the sign reverses: at τ = 1.05i the difference is −0.39 with the colour weights (3, 3, 1) and −0.12 with (1, 1, 1), and it vanishes at i. The sample never went below height 1.2. So the determinant prefers W₋ at the 28 sampled points, not at every point, and a measure concentrated near i reverses it.]*
   This is a stronger form of the seat's S4, and it agrees with it.
 - **With the trace term, it reverses.** The one-loop term the seat lists beside it prefers W₊ at every sampled point. Its
   size grows with the frame's overall coupling scale, which frame C does not fix (C08), whereas the determinant's

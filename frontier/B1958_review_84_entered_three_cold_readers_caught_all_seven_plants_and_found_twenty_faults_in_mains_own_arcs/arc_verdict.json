@@ -1,0 +1,28 @@
+{
+ "id": "B1958",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1950",
+  "B1945",
+  "B1955",
+  "B1956",
+  "B1957",
+  "B1941"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Review 84: the window c8cece9be to 1fc1e224e, its seeded sample B1945, B1950, B1955, B1956, B1957 read in full on a copy of the head with seven planted faults, by three sessions of main's own model family that built none of it",
+  "object": "the plants' catch, the quotations checked by machine at their cited paths, and the readers' twenty other findings, each checked by main on its own tree and mended",
+  "reach": "single",
+  "hypotheses": "a process arc; the readers are of main's own family, which is weaker than the other family's reading of Reviews 82 and 83; the record-by-record pass over B1957's verified records is carried, not done"
+ },
+ "claim_one_line": "REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted): all 27 quotations are in the files their findings cite; each of the twenty findings is right on main's own check and is mended: B1945's planted charge breaks 40 cells and not 20, its summed ratios differ by up to 99 per cent, its closed form covers the second generation only, and its four piece exponents, stated as measured with no script, are measured now and hold; B1955's 'exact' and 'never' were floating point and a grid, and its frame signature a count with an assumed phase; B1956 listed an unchecked statement as checked; Review 83's entry named one script for eight mends where it held four, and the reversal near i had no committed output (it has: -0.392 at 1.05i); B1957's verdict file was stale, its lock had two lines that could not fail, and five of its records said more than their checks. Carried: the record-by-record pass over B1957's verified records, and the other family's reading. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

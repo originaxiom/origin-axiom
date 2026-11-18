@@ -17460,7 +17460,7 @@
     "V2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 17,
+   "obstacle_conf": 19,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -17697,6 +17697,31 @@
    "obstacle_conf": 22,
    "status": "dormant",
    "domain": "arithmetic"
+  },
+  "B1958": {
+   "slug": "review 84 entered three cold readers caught all seven plants and found twenty faults in mains own arcs",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "z3_generation"
+   ],
+   "refs": [
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "physics"
   },
   "B196": {
    "slug": "entropy conformal dimension",

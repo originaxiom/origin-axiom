@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1654** |
-| words of findings prose | **1,498,364** |
+| research arcs with findings | **1655** |
+| words of findings prose | **1,500,341** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1654** (100.0 %) |
+| arcs carrying an authored verdict | **1655** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1152 |
+| PROVED | 1153 |
 | NEGATIVE | 386 |
 | OPEN | 103 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1956`** (1228 words, 0 locks)  
-“AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes read, X-APEX and X-FOUNDATION in full, through the mask. Main's exact checks hold: the one-loop relation 23/134 + (109/201) alpha_EM/alpha_3; the Pati-Salam term (506/(201 pi)) alpha_EM Delta_PS given its coefficients; 45 points of period 4 split 1 + 8 + 4 + 32; E8's 46 + 32 + 162. Found: every corridor has a free scale or a typed-in number (Delta_PS; the coupling as volume times area; the running distance and the electroweak hierarchy as multiples of 45 times the volume; the point (4/15, 8/15); the loop factor); its three families (X-FOUNDATION) are the three units of flux put in, chosen as a minimum; UR-3's envelope touches a held-out target and is not compared; it did not pause. Nothing banked. 0 of 19.”  
-`B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/FINDINGS.md`
+**PROVED — `B1958`** (1423 words, 0 locks)  
+“REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted): all 27 quotations are in the files their findings cite; each of the twenty findings is right on main's own check and is mended: B1945's planted charge breaks 40 cells and not 20, its summed ratios differ by up to 99 per cent, its closed form covers the second generation only, and its four piece exponents, stated as measured with no script, are measured now and hold; B1955's 'exact' and 'never' were floating point and a grid, and its frame signature a count with an assumed phase; B1956 listed an unchecked statement as checked; Review 83's entry named one script for eight mends where it held four, and the reversal near i had no committed output (it has: -0.392 at 1.05i); B1957's verdict file was stale, its lock had two lines that could not fail, and five of its records said more than their checks. Carried: the record-by-record pass over B1957's verified records, and the other family's reading. 0 of 19.”  
+`B1958_review_84_entered_three_cold_readers_caught_all_seven_plants_and_found_twenty_faults_in_mains_own_arcs/FINDINGS.md`
 
 **NEGATIVE — `B1947`** (711 words, 0 locks)  
 “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  

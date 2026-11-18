@@ -15,7 +15,7 @@
 - **The readers:** agy-exp (harvest row 1844) and agy-002 (row 1843), sessions of the other model family. Each read the
   window in full, built none of it, and recused itself from its own lines.
 - **Quotations** (`verification/quote_check.py`): every quotation main's check could parse is exact in the reading
-  commit: agy-002's 28 of 28 and agy-exp's 20 of 20.
+  commit: agy-002's 28 of 28 and agy-exp's 20 of 20. *[Added 2026-11-18, Review 84: no output of this check was committed; it is now (`verification/quote_check_run.txt`, rerun today). "Exact" here means present, whitespace-normalised, somewhere in the window's text at the reading commit, not at the path the reader cited; and the check can be rerun only while that commit exists.]*
 
 ## The plants (`verification/plants.json`, sha256 as published at the opening, b3da3d92…)
 
@@ -34,7 +34,9 @@
 
 agy-002 reports 31 and agy-exp 20. Six of each are the plants, and several of the rest coincide.
 
-### Mended in this entry, each recomputed by main (`verification/main_checks.py`)
+### Mended in this entry, each recomputed by main
+
+*[Corrected 2026-11-18, Review 84: this heading named `verification/main_checks.py` for all eight. That script holds four of them (C1 to C4: RL's line, m003, the signed residues, the two frames at height 12). The reversal near τ = i had no committed output; it has one now (B1941's `verification/near_i.py`: −0.392 and −0.120 at 1.05i). The other three mends are of wording, a lock and two verdict files, and are held by the files themselves.]*
 
 | finding | what was wrong | the mend |
 |---|---|---|
@@ -42,7 +44,7 @@ agy-002 reports 31 and agy-exp 20. Six of each are the plants, and several of th
 | F-R83-07 | the scoreboard's S03 said SE1 selects m003 beside m004. m003 = −LR has torsion of order 5 | the scoreboard |
 | R83-17 | B1941's "at every point" and "no measure can reverse it". The four draws at height 0.9 were rejected, so the sample spans 1.2 to 9, and at τ = 1.05i the determinant's difference is −0.39 | B1941's title, page and verdict, narrowed |
 | R83-18 | the rule's A13 misstated B1941 ("under every declared change but one") | a dated note in the rule |
-| R83-19 | B1940 blamed double precision for the exchange of ∣V₂₃∣ and ∣V₁₃∣ at height 12. The double and extended frames agree there; the exchange is the real approach to the cusp limits | B1940's page |
+| R83-19 | B1940 blamed double precision for the exchange of ∣V₂₃∣ and ∣V₁₃∣ at height 12. The double and extended frames agree there on the three mixing moduli at x = 0.13 (0.4282, 0.4169, 0.5832 against 0.42815, 0.41689, 0.58318), though the double frame fails its own symmetry check at that height (1.2e-1) *[scoped so 2026-11-18, Review 84]*; the exchange is the real approach to the cusp limits | B1940's page |
 | F-R83-11 | B1935's "acts as S₃" holds for the channels' moduli. The complex residues carry signs: under T, (R_i, R_j, R_k)/R_1 goes to (R_i, R_k, −R_j) | B1935's page, scoped |
 | R83-11, F-R83-14 | B1938's lock compared signed differences without an absolute value | the lock |
 | R83-26, F-R83-16, F-R83-17 | B1940's verdict file said "second computation owed" with no seat cited; B1944's named SM-C15 without citing it | both verdict files |

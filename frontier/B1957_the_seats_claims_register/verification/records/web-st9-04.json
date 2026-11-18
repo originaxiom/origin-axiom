@@ -2,8 +2,8 @@
  "id": "web-st9-04",
  "date": "2026-11-18",
  "verdict": "NOTED",
- "how": "what the seat read; main's ask as it restates it; what it says it did not check (main's 31 findings on its review readings and the three open in main's gates, R2's block against the paper, the weave's critical points, main's corrections of P-316 and of three harvest rows); and that HARVEST COMPLETE is not written, waiting on the two items of 9.2",
- "note": "",
+ "how": "the seat's section 9 as corrected at fc4b658c8: what it read (main's 13 scripts run and searched, not read line by line); what it says it did not check (the figures behind main's verdicts on the files read since M46, main's 31 findings on its review readings and the three open in main's gates, R2's block against the paper, the weave's critical points, main's corrections of P-316 and of three harvest rows, its fourth condition beyond its scan); its list of the seven claims of its own first version that were wrong or too strong; and that HARVEST COMPLETE is not written, waiting on items 2 to 10 of its section 9.2",
+ "note": "[2026-11-18: the ground reworded to the corrected section; it had still said 'the two items' (the seat's section 11.2).]",
  "units": [
   "web:STATUS_CHAT1:733",
   "web:STATUS_CHAT1:734",

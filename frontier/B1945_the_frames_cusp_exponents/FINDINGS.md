@@ -1,7 +1,7 @@
 # B1945 — Frame C's cusp exponents are the census lines', and its average takes their minima
 
-**Verdict: PROVED** (at leading order in |q|; every cell, both generations, equal to B1788's closed form and tropical
-rule, which rest on B1659's law, shown here to hold on frame C exactly; planted charges caught; its second computation the web seat's W-F25, which agrees, § 1b). Main, 2026-11-15. Data-free: nothing here is set
+**Verdict: PROVED** (at leading order in |q|; every second-generation cell, all 96, equal to B1788's closed form, and every cell of both generations, all 192, given by its tropical
+rule *[worded so 2026-11-18, Review 84: the page said "every cell, both generations, equal to B1788's closed form", and the closed form is for m₂/m₃ only]*, which rest on B1659's law, shown here to hold on frame C exactly; planted charges caught; its second computation the web seat's W-F25, which agrees, § 1b). Main, 2026-11-15. Data-free: nothing here is set
 beside a measured number. Register row P-859. **0 of 19.**
 
 ## Seen first
@@ -42,7 +42,7 @@ beside a measured number. Register row P-859. **0 of 19.**
     a = ±1/5, 3/10 at ±2/5 and 1/2 at 0. For the down sector (1, 2), it gives 1/5 and 1/2.
   - The points a = ±2/5 give W178's tuple for the slope-2/5 lines, (3/10, 4/5, 1/5, 11/20).
 - **The lock** (`test_b1945_cusp_exponents.py`) checks the closed form, W178's tuple and the a = 0 cells.
-  - With the up quark's charge planted as −3 for −4, the closed form breaks in all 20 cells it touches.
+  - With the up quark's charge planted as −3 for −4, the closed form breaks in 40 cells, on the 20 points with a ≠ 0 (both readings), and holds on the 8 cells at a = 0. *[Corrected 2026-11-18, Review 84: the page said "all 20 cells it touches", from no committed output; the lock now holds the planted case.]*
 - **A failed run, disclosed.** A first run of the a = 0 points at heights 60, 80 and 100 used the frame's default
   30 + 2 Im τ digits.
   - Its m₁/m₃ rates on the S reading came out erratic, from 0.57 to 1.43.
@@ -81,7 +81,7 @@ beside a measured number. Register row P-859. **0 of 19.**
   - the unit "1" vanishes at every point, since its d-characteristic is always (½, ½).
 - **B1659's determinant law holds on frame C** (`determinant_law.py`): det Y = 4 det S det M tr(εSMᵀ), with worst
   relative residual 1.8e-30 over 48 cases.
-- **Each piece has a closed form.** Write D = ‖2q_L a‖/2 and E′ = ‖2q_R a‖/2. Measured at the three kinds of point:
+- **Each piece has a closed form.** Write D = ‖2q_L a‖/2 and E′ = ‖2q_R a‖/2. Measured at the three kinds of point (`piece_exponents.py`, added 2026-11-18 at Review 84: the page stated these as measured and no script of the arc computed them; measured now between heights 30 and 38, they hold, the largest distance 0.008, at a = 0 where the corrections in 1/Im τ are largest):
   - the largest entry: e(Y) = D² + E′² − ¼;
   - the adjugate: e(adj Y) = 2D² + 2E′² − D − E′;
   - the matter's determinant: e(det M) = [(½ − 2D)² + (½ − 2E′)²]/2. M's leading part is nilpotent, like the Higgs's;
@@ -177,7 +177,7 @@ beside a measured number. Register row P-859. **0 of 19.**
 - **The candidate** (agy-exp's point (a)): sum frame C's coupling over the 24 points with equal weights, then take the
   SVD of the sum.
 - **It is not a function on the modular surface** (`amplitude_sum.py`). Its mass ratios at τ and at τ + 1 differ, by up
-  to 80 %: up S at 0.13 + 1.7i gives 0.066 against 0.119. The pointwise ratios are covariant (B1928; B1940's V2), so
+  to 99 %: at 0.13 + 1.7i the m₁/m₃ of down S is 0.0051 against 0.0101, and the m₂/m₃ of up S is 0.066 against 0.119 (80 %). *[Corrected 2026-11-18, Review 84: the page said "up to 80 %", which is one of the four rows of the run.]* The pointwise ratios are covariant (B1928; B1940's V2), so
   their average is invariant, but the sum of the couplings is not.
 - **Corrected 2026-11-17.** This section said that phases do not repair the sum, from a comparison of entrywise moduli.
   That comparison could not tell: two unitaries that are the same at every point also change entrywise moduli.

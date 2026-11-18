@@ -134,3 +134,29 @@ def test_the_gramian_is_covariant_and_the_plain_sum_closes_at_level_5_only_for_d
     G0, _ = GS.objs("0.13", 1.7, "down", "S"); G1, _ = GS.objs("1.13", 1.7, "down", "S")
     assert GS.dev(GS.ratios(G1, True), GS.ratios(G0, True)) < 1e-12
 
+
+
+def test_a_planted_right_charge_breaks_the_closed_form_on_every_cell_off_a_equal_zero():
+    """added at Review 84: the page stated the planted case and no test held it"""
+    def broken(qr_up):
+        bad = 0
+        for p in D:
+            a = Fr(p.split(",")[0]); e = Fr(1, 2) - (nd(2 * SIXY[SEC["up"][0]] * a) + nd(2 * qr_up * a)) / 2
+            for k in KEYS["up"]:
+                bad += abs(last(k, p, 0) - float(e)) >= (2e-3 if p in A0 else 1e-3)
+        return bad
+    assert broken(SIXY[SEC["up"][1]]) == 0 and broken(-3) == 40          # 20 points with a != 0, two readings; the 8 cells at a = 0 cannot see the charge
+
+
+def test_the_pieces_exponents_are_their_closed_forms():
+    """added at Review 84: section 2's four closed forms, measured between two heights at two kinds of point"""
+    import piece_exponents as PE
+    mp = PE.mp
+    for a, b, sec in ((Fr(1, 5), Fr(2, 5), "up"), (Fr(2, 5), Fr(1, 5), "down")):
+        ql, qr = PE.B.SIXY[PE.B.SECTORS[sec][0]], PE.B.SIXY[PE.B.SECTORS[sec][1]]; Dv = nd(2 * ql * a) / 2; Ev = nd(2 * qr * a) / 2
+        want = {"Y|S": Dv * Dv + Ev * Ev - Fr(1, 4), "adj|S": 2 * Dv * Dv + 2 * Ev * Ev - Dv - Ev, "detM": ((Fr(1, 2) - 2 * Dv) ** 2 + (Fr(1, 2) - 2 * Ev) ** 2) / 2, "detS": Fr(1, 4)}
+        m0, m1 = PE.measures("0.13", 30, a, b, sec), PE.measures("0.13", 36, a, b, sec)
+        for k, w in want.items():
+            got = float(-(mp.log(m1[k]) - mp.log(m0[k])) / (2 * mp.pi * 6))
+            assert abs(got - float(w)) < 2e-3, (sec, k, got, w)
+            assert abs(got - float(w) - 0.05) > 2e-3                                   # a form off by a twentieth would be seen

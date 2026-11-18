@@ -1,0 +1,13 @@
+{
+ "id": "web-wz1-04p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "four statements the seat itself labels 'a reading, not computed': that the figure-eight group's Eisenstein series at its one cusp is the Bianchi group's own, with scattering a ratio of completed zetas of Q(sqrt -3). The argument is sound as an argument (one cusp makes the two coset spaces the same, the index 12 being the index of the cusp subgroups) and the scattering formula is the cited standard result; nothing here is computed by main",
+ "note": "Split out of web-wz1-04 on 2026-11-18 at Review 84: a VERIFIED record over lines the seat marks as readings.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:46",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:54",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:57",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:93"
+ ]
+}

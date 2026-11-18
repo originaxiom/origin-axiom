@@ -102,8 +102,8 @@ noted, and none is pending.
     the torus. The seat's sum takes one lift of each point and so is not covariant; averaged over the four lifts,
     the bubble of every single point is an exact multiple of the identity on the six Higgs modes, for a three-line
     reason. It selects nothing: the ground space is two-dimensional, one bit, not zero.
-  - **Not resolved (gate 5, P-861):** with hypercharge as the Wilson line the mixing in this frame is deranged (15 of
-    24 points orthogonal, 9 inside a degenerate pair, none aligned) and lift-dependent; with one Higgs mode the
+  - **Not resolved (gate 5, P-861):** with hypercharge as the Wilson line the mixing in this frame is deranged (at 15 of
+    the 24 points the heavy directions are apart: 10 orthogonal and 5 with the down direction outside the up matrix's degenerate pair; 9 inside that pair; none aligned at the seat's representatives, 4 under two of the lifts *[counts restated 2026-11-18, Review 84: the page said "15 of 24 points orthogonal"]*) and lift-dependent; with one Higgs mode the
     mixing matrix is always a permutation; the reported alignment at 288 points is one matrix compared with
     itself; the small angles shown are typed in. This agrees with B1946 and B1947 on main.
   - **Gates 6, 7 and 7B:** every figure reproduced on main's own code: the three Majorana tensors and their
@@ -383,8 +383,7 @@ noted, and none is pending.
   October. Where those notes set an output beside a measured value, main read and compares nothing.
 - **The web seat's foundations cards, received on 2026-11-14 and never read in full by main, are now read and
   recomputed on main's own code** (W-F1 to W-F16, W-F18 to W-F23, W-F26, W-B1, with their cards; scripts
-  `checks/web_wf*_on_main.py`, `web_wb1_on_main.py`; other primes than the seat's). **Every computed figure of the seat's
-  reproduces.** What they establish, each with its limit:
+  `checks/web_wf*_on_main.py`, `web_wb1_on_main.py`; other primes than the seat's). **Every figure main computed reproduces** *[worded so 2026-11-18, Review 84: the page said "every computed figure of the seat's"; the parts main did not recompute are held as partial in the records whose ids end in p]*. What they establish, each with its limit:
   - **The puncture is not a separate input of the seat's system** (W-F3, W-F5): a cone point is a relation
     (abc)^K = 1 among the three distinctions, and every such relation kills the classes on the scar. Verified to
     K = 13 on the face and for fibre orders 2 to 6 on the 3-dimensional objects; for every K by a short hand argument

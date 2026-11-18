@@ -12,7 +12,7 @@ none of its code is run. No measured number is used and nothing is compared. **0
   B1945 § 6 and B1953 (the coupling's law over the 24 points); B1954 (the physical lane's reviews of these campaigns,
   with its fifteen defects in X-APEX); agy-002's audit of X-SYNTHESIS (harvest row 1850, six defects).
 - **The literature:** the one-loop relation among the gauge couplings with an SU(5) boundary, and its change with an
-  intermediate Pati–Salam stage (standard); a line bundle of degree k on a torus has ∣k∣ sections (standard); the
+  intermediate Pati–Salam stage (standard); a line bundle of degree k > 0 on a torus has k sections, and one of negative degree has none (standard) *[corrected 2026-11-18, Review 84: the page said ∣k∣ sections for every degree]*; the
   index theorems the lane cites (Callias; Witten's vanishing in odd dimension on closed manifolds) are not checked here.
 
 ## What was read
@@ -42,7 +42,7 @@ main, beyond about 150 lines of the X-APEX-4 script for one question.
 | with a Pati–Salam stage of coefficients (−10, −7/3, −7/3), the added term (506/(201π))·α_EM·Δ_PS | holds, given those coefficients and the matching |
 | 45 points of period dividing 4, split 1 + 8 + 4 + 32 by order; the Smith form (3, 15) | holds |
 | E₈'s roots under its Q: 46 neutral, 32 singlets of charge ±1, 162 coloured | holds (and agrees with B1954's count) |
-| the two-body sum cannot close for both sectors at level 5, in either convention (X-FOUNDATION-4) | agrees with B1953 and B1955, which main computed |
+| the two-body sum cannot close for both sectors at level 5, in either convention (X-FOUNDATION-4) | **not checked by this script** *[corrected 2026-11-18, Review 84: the row stood under "main's exact check" and said "agrees with B1953 and B1955"]*. What main's own arcs say is narrower: B1953 computed that a phase table on the points does not close for the up sector, scoped to that table and that operator; B1955 found the up coupling as a top wedge invariant at level 5, which is generic and not a gain |
 
 ## What main finds
 

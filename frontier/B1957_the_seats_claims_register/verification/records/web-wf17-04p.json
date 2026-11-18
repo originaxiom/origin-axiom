@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "split from web-wf17-04 on the seat's own finding (its status page, section 7.2, item 4): the decomposition and the listed components are main's; the curves' degrees, the point counts on kappa = 2, that kappa varies on every component, the completeness tests and the plants are the seat's and its referee's",
- "note": "",
+ "note": "[2026-11-18, Review 84: the 'Completeness' line (the randomised test that every fixed point lies on a listed component) moved here; main did not recompute it.]",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:122",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:239",
@@ -16,6 +16,7 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:258",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:264",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:267",
-  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:276"
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:276",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:91"
  ]
 }

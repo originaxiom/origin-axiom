@@ -1,6 +1,6 @@
 # B1955 — The knot's dihedral cover supplies the Weil space and the parity with no flux; the frame does not see the Weil class, and the object carries both; the up coupling as the top wedge is invariant at level 5
 
-**Verdict: PROVED** (the computed statements; exact group theory, SnapPy for the covers' homology; the web seat's W-A3
+**Verdict: PROVED** (the computed statements; finite group theory computed in floating point, each identity to 1e-12 or better *[corrected 2026-11-18, Review 84: the page said "exact group theory"]*, SnapPy for the covers' homology; the web seat's W-A3
 recomputed on main's own code, with the facts main found first). Main, 2026-11-17. What it means for the count of
 inputs is a reading, stated as such. No measured number is used. Register rows P-866 and P-863. **0 of 19.**
 
@@ -33,8 +33,8 @@ inputs is a reading, stated as such. No measured number is used. Register rows P
 | B, the cover | on the five sheets the longitude acts trivially and the meridian is an involution fixing one sheet. **The cusp has three preimages, of degrees 1, 2, 2** |
 | B, the deck groups | the 5-sheeted cover of m004 has **no deck transformations** (the image's centraliser in S₅ is trivial). Over the double cover the five rotations commute with themselves: **the shifts, a group of order 5** |
 | C, homology | the double cover: ℤ/5 + ℤ. The 3-cusped 5-sheeted cover: ℤ³, no torsion, five times the volume; SnapPy identifies it as the complement of the link 8³₄ |
-| D, the two Weil classes | for T = diag ψ(x²) and for T = diag ψ(2x²): 120 elements, **determinant 1 on all**, ρ(−I) = P. An element in the act's class is never a scalar times P (least distance 0.553). **Every exterior power's T-spectrum is in fifth roots** |
-| D, does a class show in the frame | the signature tr R(T²)/tr R(T)² is +1/5 for a class with its own conjugate and −1/5 for mixed classes. **On the frame's 25 lines it is +1/5** |
+| D, the two Weil classes | for T = diag ψ(x²) and for T = diag ψ(2x²): 120 elements, **determinant 1 on all**, ρ(−I) = P. An element in the act's class is not a scalar times P (least distance 0.553 over a grid of 360 phases: a numerical statement with that margin *[worded so 2026-11-18, Review 84; the page said "never"]*). **Every exterior power's T-spectrum is in fifth roots** |
+| D, does a class show in the frame | the signature tr R(T²)/tr R(T)² is +1/5 for a class with its own conjugate and −1/5 for mixed classes. **On the frame's 25 lines it is +1/5**, as a count of T's fixed lines (5 of the 25 at both powers) with the phase on a fixed line taken as 1; that phase is assumed, not computed here *[added 2026-11-18, Review 84]* |
 | E, the knot's form | V + Vᵀ = [[2, 1], [1, −2]], determinant −5, signature 0. Its discriminant form is **q = x²/5**; its bilinear form is 2x²/5. B1951's ρ(T) = diag ψ(2x²) is the other class |
 | F, level 25 | x² − 3x + 1 has one root mod 5 and **none mod 25**. Frame C's up phases are of order 25, its down phases of order 5 (B1953). q_L² + q_R² mod 5 is 0 for down and leptons and 2 for up |
 
