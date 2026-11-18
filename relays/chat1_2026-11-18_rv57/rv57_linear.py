@@ -12,9 +12,12 @@ sectors: Y(tau + 1; Q x) = c R Y(tau; x) R^T, with R = [[0, 0, 1], [0, 1, 0], [-
 and Q the real rotation of determinant +1 with c3(tau + 1) = h Q c3(tau) (rv57_constant.py), for x = e1, e2, e3 and two
 fixed complex vectors. Printed: c in turns and |c|, and the largest relative residual; and the same with R -> -R and
 with Q of determinant -1 (h then 5/8 of a turn), to show which choices are conventions.
+First run (2026-11-18) stopped before any result: parts() takes the point as fractions; fixed here, nothing else changed.
 """
 import pathlib
 import sys
+
+from fractions import Fraction as Fr
 
 import numpy as np
 
@@ -56,8 +59,8 @@ print("Q (det %+.0f) with h = %.4f of a turn; the other choice: Q (det %+.0f) wi
 for (tx, ty) in WO.BASES:
     for sec in ("down", "up"):
         for (a, b) in [(0, 1), (0, 2), (0, 3), (0, 4)]:
-            Mw0 = qn(DL.parts(tx, ty, 0, mp.mpf(b) / 5, sec)[1])
-            Mw1 = qn(DL.parts(mp.nstr(mp.mpf(tx) + 1, 30), ty, 0, mp.mpf(b) / 5, sec)[1])
+            Mw0 = qn(DL.parts(tx, ty, Fr(0), Fr(b, 5), sec)[1])
+            Mw1 = qn(DL.parts(mp.nstr(mp.mpf(tx) + 1, 30), ty, Fr(0), Fr(b, 5), sec)[1])
             for label, Q, RR in (("det Q +1, R", Qp, R), ("det Q +1, -R", Qp, -R), ("det Q -1, R", Qm, R)):
                 cs, res = [], 0.0
                 for x in XS:
