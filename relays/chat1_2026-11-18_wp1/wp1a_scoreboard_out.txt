@@ -1,0 +1,30 @@
+identification price: 13 (4 + 9, B#'s union-find over IDENTIFICATION_LEDGER (the owner's ruling of #-10-29, P-#))
+earned: 0
+shared | S01 | ANSATZ | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry)
+shared | S02 | CHOSEN | the orientation: the orientable, amphichiral member (SE2)
+shared | S03 | CHOSEN | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m#) 
+frame C: the read-out on the whole: the frame averaged over the allowed weave at level 5, every thread at its own line,
+frame C | C01 | CHOSEN | the measure over histories: every move equally likely, each thread weighted by its length 
+frame C | C02 | CHOSEN | the line class of order 5: the ground's frustrated level
+frame C | C03 | CHOSEN | the Higgs direction: the frame's covariant triplet
+frame C | C04 | CHOSEN | the Higgs reading (S~, S, S): its global bit
+frame C | C05 | CHOSEN | the end: B#'s horocycle of length 2, read point by point
+frame C | C06 | CHOSEN | the channel weights sqrt(2 pi L + c_s) at that end
+frame C | C07 | CHOSEN | the generations' metric H = I
+frame C | C08 | CHOSEN | one coupling for all sectors (no tau and no line: B#)
+frame C | C09 | CHOSEN | the scale: tree level, no running
+frame C by type: {'CHOSEN': 9}
+frame A: the record's candidate: THE SIX AT THE AREA-4 HOROCYCLE (FR-FIB at B#'s E4 row; B#, P-#)
+frame A | A01 | FITTED | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3
+frame A | A02 | CHOSEN | the slope 2/5 of the line class
+frame A | A03 | CHOSEN | the line's offset: (2/5, 4/5), order 5, at B#'s row (an odd/10 offset, order 10, at the re
+frame A | A04 | CHOSEN | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covarian
+frame A | A05 | CHOSEN | the up-conjugate reading (S~, S, S) at a0 = 0
+frame A | A07 | CHOSEN | the end: the exact horoball norm at B#'s principled entry E4 (was the small-cut norm 2 pi 
+frame A | A08 | CHOSEN | the generations' metric H = I
+frame A | A09 | CHOSEN | the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat n
+frame A | A10 | FITTED | the lepton factor c (continuous and fitted at B#'s row; c = 3 at the small-cut end)
+frame A | A11 | CHOSEN | one address: one tau, one line, one point coupling for all sectors
+frame A | A12 | CHOSEN | the scale: tree level at M_Z, no running
+frame A by type: {'FITTED': 2, 'CHOSEN': 9}
+frame B (another seat's) by type: {'FORCED-BY-MAIN': 7, 'FITTED': 2, 'CHOSEN': 17, 'UNKNOWN': 2, 'MEASURED-INPUT': 8, 'ANSATZ': 14, 'VERIFIED-BY-MAIN': 1, 'REFUTED': 4}

@@ -1,0 +1,19 @@
+H0: LR: top 1.118024368674 (sqrt 5/2 = 1.118033988750); time above 1.118: 0; pieces 1.924847300238, translation length 1.924847300238
+H0: L^2 R: top 1.732036 (expected 1.732051); pieces 2.633915794 against 2.633915794
+H0: L^3 R: top 2.291269 (expected 2.291288); pieces 3.133598474 against 3.133598474
+H0: L^5 R: top 3.354102 (expected 3.354102); pieces 3.849694600 against 3.849694600
+H0: L^8 R: top 4.898937 (expected 4.898979); pieces 4.584863339 against 4.584863339
+H1 (a) n = 20, 2000 words: share above 1.118/2/4/6: ['0.73768', '0.17179', '0.00781', '0.00043']; worst |pieces - length| 0; worst top - (a/2 + 1) 0
+H1 (a) n = 40, 2000 words: share above 1.118/2/4/6: ['0.73754', '0.16982', '0.00792', '0.00039']; worst |pieces - length| 0; worst top - (a/2 + 1) 0
+H1 (a) n = 80, 2000 words: share above 1.118/2/4/6: ['0.73600', '0.16889', '0.00771', '0.00034']; worst |pieces - length| 0; worst top - (a/2 + 1) 0
+H2 (b) X = 100, 1214 primitive classes: share above 1.118/2/4/6: ['0.85005', '0.46691', '0.22459', '0.14347']; 3/(pi y): ['0.85412', '0.47746', '0.23873', '0.15915']; worst |pieces - length| 0; worst top - (a/2 + 1) 0
+H2 (b) X = 200, 4186 primitive classes: share above 1.118/2/4/6: ['0.85251', '0.47174', '0.23138', '0.15094']; 3/(pi y): ['0.85412', '0.47746', '0.23873', '0.15915']; worst |pieces - length| 0; worst top - (a/2 + 1) 0
+H2 (b) X = 400, 14690 primitive classes: share above 1.118/2/4/6: ['0.85334', '0.47427', '0.23470', '0.15485']; 3/(pi y): ['0.85412', '0.47746', '0.23873', '0.15915']; worst |pieces - length| 0; worst top - (a/2 + 1) 0
+H3 (a) n = 40, above 1.118, by the longest run a: 1: 0.000, 2: 0.000, 3: 0.029, 4-5: 0.477, 6-9: 0.460, 10+: 0.034
+H3 (a) n = 40, above 2, by the longest run a: 1: 0.000, 2: 0.000, 3: 0.007, 4-5: 0.399, 6-9: 0.546, 10+: 0.048
+H3 (a) n = 40, above 4, by the longest run a: 1: 0.000, 2: 0.000, 3: 0.000, 4-5: 0.000, 6-9: 0.707, 10+: 0.293
+H3 (a) n = 40, above 6, by the longest run a: 1: 0.000, 2: 0.000, 3: 0.000, 4-5: 0.000, 6-9: 0.000, 10+: 1.000
+H3 (b) X = 400, above 1.118, by the longest run a: 1: 0.000, 2: 0.005, 3: 0.029, 4-5: 0.117, 6-9: 0.227, 10+: 0.622
+H3 (b) X = 400, above 2, by the longest run a: 1: 0.000, 2: 0.000, 3: 0.004, 4-5: 0.063, 6-9: 0.189, 10+: 0.744
+H3 (b) X = 400, above 4, by the longest run a: 1: 0.000, 2: 0.000, 3: 0.000, 4-5: 0.000, 6-9: 0.057, 10+: 0.943
+H3 (b) X = 400, above 6, by the longest run a: 1: 0.000, 2: 0.000, 3: 0.000, 4-5: 0.000, 6-9: 0.000, 10+: 1.000
