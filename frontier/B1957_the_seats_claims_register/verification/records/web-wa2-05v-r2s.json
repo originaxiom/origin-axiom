@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "SUPERSEDED",
  "how": "SECOND READING, changed 2026-11-18: lines of record web-wa2-05v withdrawn by the seat itself (its corrected section 17.2). Main's read-out (checks/web_wa2_readout.py, H1 to H3) agrees with the withdrawal: under tau + 1 the coupling, with the Higgs moving as recorded, moves by one real R on both sides and a constant of a quarter turn in the reading S and none in S-tilde (i and 1): the channels' eighth of a turn times the Higgs triplet's own phase (an eighth in S, minus an eighth in S-tilde, with the rotation's determinant 1). The line's e^(i pi/4) is the Higgs's own phase, not the coupling's constant.",
- "note": "SUPERSEDED 2026-11-18 at the seat's corrected section 17: line 110 of CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_: withdrawn by the seat; main's read-out shows the coupling's constant is i in S and 1 in S-tilde.",
+ "note": "SUPERSEDED 2026-11-18 at the seat's corrected section 17: line 110 of CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_: withdrawn by the seat; main's read-out shows the coupling's constant is i in S and 1 in S-tilde. ADDED 2026-11-18 at the seat's section 18.2, item 1: the 'channels' eighth' named in this ground was, when written, the quotient of main's constant by the Higgs's own phase (H2); main now computes the channels' law itself with a free Higgs input (H4), an eighth of a turn with Q of determinant 1.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:110"
  ]

@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1930 |
+| harvest rows (the last number) | 1931 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT HAS WRITTEN HARVEST COMPLETE, THE FIRST SEAT TO; agy-002'S CARD A2-X1 HOLDS ON MAIN'S CONSTRUCTION AND EVERY CHANGE OF ITS HARVEST REVIEW IS MADE; THE WEB SEAT'S ORDER OF FOUNDATION WORK ENTERED AS P-874 (B1957, OPEN; harvest rows 1929, 1930; P-865, P-873, P-874).** The register: 484 files, 423 read at source, 24524 statements: 3409 verified, 25 refuted, 1939 conditional, 1883 partial, 165 superseded, 17103 noted, 0 pending. The web seat checked main's changes of M58 and writes that main's record states its work rightly, nothing missing or understated, none pending; every statement it makes about main's record holds (checks/web_section1…”
+“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT WITHDREW ITS HARVEST COMPLETE AFTER ITS REFEREE READ FOUND FIVE THINGS IN MAIN'S RECORDS; EACH IS RIGHT AND MENDED; MAIN NOW COMPUTES THE CHANNELS' LAW WITH A FREE HIGGS INPUT (B1957, OPEN; harvest rows 1929 to 1931; P-865, P-873, P-874).** The register: 484 files, 424 read at source, 24561 statements: 3433 verified, 25 refuted, 1939 conditional, 1885 partial, 165 superseded, 17114 noted, 0 pending. The channels' law: with B1945's channels' matrix and a free Higgs input, the coupling moves under tau + 1 by one real R on both sides and an eighth of a turn (Q of determinant 1), in both readings, to 2e-15 (checks/web_wa2_readout.py, H4). a…”
 
 ## Completeness (nothing skipped silently)
 

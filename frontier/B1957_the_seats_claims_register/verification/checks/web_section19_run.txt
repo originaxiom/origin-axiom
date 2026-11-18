@@ -1,0 +1,4 @@
+Z1: the web lane at 0ffa123c8: {'files': 138, 'read': 137, 'statements': 7611, 'VERIFIED': 1705, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 745, 'SUPERSEDED': 59, 'NOTED': 4938, 'PENDING': 0}
+Z2: the lane's records new or changed between 6f337047b and 0ffa123c8: 10: ['web-st-log', 'web-st18-01', 'web-st18-02', 'web-st18-03', 'web-st7-06', 'web-wa2-02-r2p', 'web-wa3-02-r2n', 'web-wa3-05-r3p', 'web-wf16-01-r3n', 'web-wf17-04-r3n']
+Z3: N2: companion records whose parent record does not exist: 0; records kept for their ground with no statement under them: 102, each saying so in its note: True
+Z4: web-st18-03 at 0ffa123c8 names HARVEST COMPLETE at 6f337047b: True; web-wa2-05-r3p says 'no statement under it': True and holds W-A2's line 113: True

@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "THE READING OF THE UNMARKED LINES, 2026-11-18. These lines stood under record web-wa2-05, verified; no sorter had marked them, so main had not read them one by one. Main read all 990 such lines of the lane against their records' grounds. Narrowed: line 113: the gaps a quarter, a quarter and a half are main's (B1952 part F; the read-out's R); the absolute phases 0, 1/4, 3/4 depend on R's sign and on line 110's constant, which main's read-out does not give as the note has it.",
- "note": "The parent's ground is unchanged for its other lines. EVERY LINE OF THIS RECORD HAS MOVED (2026-11-18). It is kept, with no statement under it, for its ground. BACK TO PARTIAL 2026-11-18 at the seat's corrected section 17: line 113 of CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_: the eigenphases 0, 1/4, 3/4 are R's with determinant 1, which the law does not fix (R and -R give the same R^T Y R), and with the constant kept off the blocks: two conventions, as the seat says.",
+ "note": "The parent's ground is unchanged for its other lines. EVERY LINE OF THIS RECORD HAS MOVED (2026-11-18). It was kept for its ground, its lines all moved [corrected 2026-11-18 at the web seat's section 18.2, item 4: line 113 returned to it the same day, at the seat's corrected section 17, so it holds a statement again]. BACK TO PARTIAL 2026-11-18 at the seat's corrected section 17: line 113 of CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_: the eigenphases 0, 1/4, 3/4 are R's with determinant 1, which the law does not fix (R and -R give the same R^T Y R), and with the constant kept off the blocks: two conventions, as the seat says.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:113"
  ]

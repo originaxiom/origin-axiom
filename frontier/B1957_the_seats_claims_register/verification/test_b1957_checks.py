@@ -1102,6 +1102,8 @@ def test_the_constant_under_t_over_the_higgss_own_phase_is_an_eighth():
     run = (pathlib.Path(__file__).resolve().parent / "checks" / "web_wa2_readout_run.txt").read_text()
     m = re.search(r"H1: .* h = ([0-9.]+) of a turn; .*determinant ([0-9.]+); Q's eigenphases \[([^\]]*)\]", run); assert m and m.group(1) == "0.1250" and m.group(2) == "1.0000" and m.group(3) == "0.0, 0.25, 0.75"
     assert re.search(r"H2: .*over the eight cases: \[0\.125\] of a turn", run)
+    m4 = re.search(r"H4: .* over (\d+) cases .*: worst residual ([0-9.e+-]+); c = \[0\.125\] of a turn in S and \[0\.125\] in S-tilde with Q; \[0\.625\] and \[0\.625\] with -Q", run)
+    assert m4 and int(m4.group(1)) == 320 and float(m4.group(2)) < 1e-12                # added 2026-11-18: the channels' law with a free Higgs input
     R = np.array([[0, 0, 1], [0, 1, 0], [-1, 0, 0]]); ph = sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(R)) / (2 * np.pi)) % 1)
     assert round(np.linalg.det(R)) == 1 and ph == [0.0, 0.25, 0.75] and sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(-R)) / (2 * np.pi)) % 1) != ph
 
@@ -1136,3 +1138,13 @@ def test_the_web_seats_section_18_states_mains_record_rightly():
     assert "'files': 138, 'statements': 7581, 'VERIFIED': 1690, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 744, 'SUPERSEDED': 59, 'NOTED': 4924, 'PENDING': 0}; units 8327; cut at bf3b06b14" in run
     assert "new 8, changed 22, gone 0" in run and "29 units it names" in run and "not with the verdict it says: 0 []" in run and "not verified: []" in run
     assert "part D, for the trace signature: True; web.json's decision for W-A2's line 110: ['S']" in run
+
+
+
+def test_the_web_seats_section_19_states_mains_record_rightly():
+    """the web seat's section 19 (checks/web_section19.py, from its committed run): its lane at 0ffa123c8, the ten records
+    changed since 6f337047b, the N2 line true there, and the two records it names as they stood there."""
+    run = (pathlib.Path(__file__).resolve().parent / "checks" / "web_section19_run.txt").read_text()
+    assert "'statements': 7611, 'VERIFIED': 1705, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 745, 'SUPERSEDED': 59, 'NOTED': 4938, 'PENDING': 0" in run
+    assert "and 0ffa123c8: 10:" in run and "102, each saying so in its note: True" in run
+    assert "names HARVEST COMPLETE at 6f337047b: True" in run and "holds W-A2's line 113: True" in run

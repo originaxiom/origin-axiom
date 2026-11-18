@@ -88,3 +88,27 @@ print("H2: the Higgs's own phase: %s of a turn in S and %s in S-tilde; main's co
 Rm = np.array(more[0][3]["T"][2], float)
 print("H3: R = %s has determinant %d; its eigenphases %s of a turn (the note's line 113: 0, 1/4 and 3/4); -R would have determinant %d and eigenphases %s"
       % (Rm.astype(int).tolist(), round(np.linalg.det(Rm)), sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(Rm)) / (2 * np.pi)) % 1), round(np.linalg.det(-Rm)), sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(-Rm)) / (2 * np.pi)) % 1)))
+#  H4  (added 2026-11-18, at the web seat's section 18.2, item 1: main had computed the quotient of its constant by the Higgs's own
+#      phase, not the channels' law itself) THE CHANNELS' LAW WITH A FREE HIGGS INPUT, on main's own code: with the channels'
+#      matrix Mw of B1945's determinant_law.parts and an arbitrary Higgs input x in place of the triplet (S = x . (QI, QJ, QK) in
+#      the reading S, eps conj(S) eps^T in S-tilde), Y(tau + 1; Q x) = c R Y(tau; x) R^T at the points with a = 0 (which tau + 1
+#      fixes), both base points, both sectors, five random complex x; the constant c, and with -Q in place of Q.
+from fractions import Fraction as FrH
+FMh = DLW.FM; _, QIh, QJh, QKh, EPSh, _, _, BLKh = FMh.setup()
+def y_free(Mw, x, rd):
+    S = mpw.mpc(x[0]) * QIh + mpw.mpc(x[1]) * QJh + mpw.mpc(x[2]) * QKh
+    if rd == "St": S = EPSh * mpw.matrix([[mpw.conj(S[i, j]) for j in range(2)] for i in range(2)]) * EPSh.T
+    return np.array([[complex(sum(((Ca.T * EPSh * S * Cb)[m, n] * Mw[m, n] for m in range(2) for n in range(2)), mpw.mpc(0))) for Cb in BLKh] for Ca in BLKh])
+rngh = np.random.default_rng(5); xs = [rngh.normal(size=3) + 1j * rngh.normal(size=3) for _ in range(5)]
+law4 = {"S": set(), "St": set()}; law4m = {"S": set(), "St": set()}; res4 = 0.0; n4 = 0
+for (tx, ty) in WO.BASES:
+    for sec in ("down", "up"):
+        for j5 in range(1, 5):
+            Mw0 = DLW.parts(tx, ty, FrH(0), FrH(j5, 5), sec)[1]; Mw1 = DLW.parts(mpw.nstr(mpw.mpf(tx) + 1, 30), ty, FrH(0), FrH(j5, 5), sec)[1]
+            for x in xs:
+                for rd in ("S", "St"):
+                    for sgn, store in ((1, law4), (-1, law4m)):
+                        Z = Rm @ y_free(Mw0, x, rd) @ Rm.T; Y1 = y_free(Mw1, sgn * (Qh @ x), rd); c = np.vdot(Z, Y1) / np.vdot(Z, Z)
+                        res4 = max(res4, float(np.abs(Y1 - c * Z).max() / np.abs(Y1).max())); store[rd].add(turn(c)); n4 += 1
+print("H4: the channels' law with a free Higgs input x (Q of determinant 1 from H1, R from H3): Y(tau + 1; Q x) = c R Y(tau; x) R^T over %d cases (two base points, two sectors, the four points with a = 0, five x, both readings, Q and -Q): worst residual %.1e; c = %s of a turn in S and %s in S-tilde with Q; %s and %s with -Q (determinant -1). With the Higgs's own phase (H1: an eighth in S, minus an eighth in S-tilde) the coupling's constant is the product: a quarter turn in S and none in S-tilde, main's constants"
+      % (n4, res4, sorted(law4["S"]), sorted(law4["St"]), sorted(law4m["S"]), sorted(law4m["St"])))

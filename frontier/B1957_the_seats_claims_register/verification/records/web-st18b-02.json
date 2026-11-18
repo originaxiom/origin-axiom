@@ -1,0 +1,10 @@
+{
+ "id": "web-st18b-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: the two readings it names (its own of section 16 and main's one by one) cover the statements verified before its message M55, and its later review sections are exempted by name in main's one-by-one lock and held by main's web_section checks; the figure of 481 statements verified since is its own count, not computed by main",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1865"
+ ]
+}

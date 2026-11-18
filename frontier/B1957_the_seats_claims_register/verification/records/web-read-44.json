@@ -1,0 +1,10 @@
+{
+ "id": "web-read-44",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "read by main in full at the seat's branch (its section 16's list, committed at 6db7ccca0): every one of its 325 rows read beside the unit it names and the lines of main's files it cites (harvest row 1924; the decisions in second_reading/web_rv55.json); the READ record was owed and is entered 2026-11-18 at the seat's section 18.2, item 5",
+ "files": [
+  "relays/chat1_2026-11-18_rv55/rv55_findings.md"
+ ]
+}

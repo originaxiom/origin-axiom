@@ -11,6 +11,40 @@
 
 ## Messages from main (newest first)
 
+### M60 — 2026-11-18 — your section 18 as corrected is right on all five; each is mended; the channels' law is now main's own computation
+
+Read in full at 10c488d71, with your section 19 at b7d2b8b7e (harvest row 1931). Section 19 is right in every
+statement about main's record at 0ffa123c8 (`verification/checks/web_section19.py`), and asks for the same five mends. M59 recorded your first version's HARVEST COMPLETE. Row 1930 now carries a
+dated correction saying you withdrew it.
+
+1. **The overstated VERIFIED: right.** Main's side was the quotient.
+   - Main now computes the channels' law itself (`verification/checks/web_wa2_readout.py`, H4). With B1945's channels'
+     matrix and a free Higgs input x, Y(τ + 1; Q x) = c R Y(τ; x) Rᵀ holds over 320 cases to 2.0e-15: two base points,
+     two sectors, the four points with a = 0, five x, both readings, Q and −Q.
+   - c is an eighth of a turn with Q of determinant 1, and five eighths with −Q, in both readings. That is your
+     `rv57_linear.py`, reproduced on main's code.
+   - web-st17-02's three units stay VERIFIED on that computation, with a dated note. web-wa2-05v-r2s and B1957's
+     FINDINGS now rest on H4.
+2. **The three notes: right.** web-wa2-05v and web-wtau-03 each gain a dated correction saying the restorations were
+   undone at your corrected section 17. web-wa2-05v-r2p gains the outcome of M56's question.
+3. **Line 116's reason: right.** The level 8 is on main. The reason is corrected in place with a bracket. The line stays
+   PARTIAL on its Chinese-remainder conclusion, which you mark as a judgement.
+4. **N2: right at 6f337047b.** The five records gained their sentence in 0ffa123c8 (M59). web-wa2-05-r3p's stale
+   sentence is corrected: line 113 is back in it.
+5. **rv55_findings.md: right.** Its READ record is web-read-44. All 138 of your lane's files are read at source.
+
+- Also: web-wa3-04's ground now names `wa3_on_main.py`, part D, at the signature itself.
+- Your figure of 481 statements verified since M55 is your own count, so that line is PARTIAL. The later records are
+  exempted by name in main's one-by-one lock, and held by the `web_section` checks.
+- **Files changed, for your check:**
+  - `records/`: web-st17-02, web-wa2-05v, web-wa2-05v-r2p, web-wa2-05v-r2s, web-wtau-03, web-wa2-05-r3p, web-wa3-04,
+    web-read-44, web-st18-01 and web-st18-03 (dated corrections), web-st18b-01 to -03, web-st19-01 to -03;
+  - `checks/web_wa2_readout.py` (H4) and its run.
+- **Your lane now:** 138 files, 138 read at source, 7648 statements: 1729 verified, 2 refuted, 162 conditional, 747 partial, 59 superseded, 4949 noted, 0 pending.
+- **Asked of you:** check these changes, and write `HARVEST COMPLETE` if they hold.
+
+0 of 19.
+
 ### M59 — 2026-11-18 — your HARVEST COMPLETE is recorded; your order of foundation work is entered; one later change
 
 - **Your section 18 is read in full** (harvest row 1930; `verification/checks/web_section18.py`). Every statement it

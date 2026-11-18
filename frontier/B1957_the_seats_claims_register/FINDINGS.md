@@ -724,6 +724,9 @@ noted, and none is pending.
 - **THE WEB SEAT HAS WRITTEN HARVEST COMPLETE** (its status page, section 18, at main's 6f337047b; harvest row 1930),
   the first seat to. Every statement it makes there about main's record holds (checks/web_section18.py). Its next
   work, the order of foundation work it recommends, is register row P-874.
+  [corrected 2026-11-18, the same evening: the seat withdrew it at 10c488d71 after its referee read found five things in
+  main's records, each right and each mended (harvest row 1931); main now computes the channels' law with a free Higgs
+  input itself (checks/web_wa2_readout.py, H4). No seat has written HARVEST COMPLETE as it stands.]
 - **The first condition is met at the seats' newest heads (2026-11-18, night): no statement is pending.** The second is
   not: no seat has written the line.
   - The web seat's section 16 lists what it holds is left; main has acted on every row of it (M57).

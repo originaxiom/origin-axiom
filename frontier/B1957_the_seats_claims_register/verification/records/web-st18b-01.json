@@ -1,0 +1,26 @@
+{
+ "id": "web-st18b-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its corrected section 18 (10c488d71), each statement about main's record right at the commit it read (6f337047b) and acted on in harvest row 1931: the read-out computed h, main's constant, their quotient and R (H1 to H3) and not the channels' law for a free Higgs input, which main now computes (checks/web_wa2_readout.py, H4: Y(tau + 1; Q x) = c R Y(tau; x) R^T over 320 cases to 2.0e-15, c an eighth of a turn with Q of determinant 1 and five eighths with -Q, in both readings); web-st17-02's three units rested for their channels' content on the seat's direct test, and the naming of the quotient as the channels' eighth in web-wa2-05v-r2s and B1957's FINDINGS, both now computed by main (H4); the three notes stating what the corrected section 17 withdrew, each now corrected with a dated sentence; line 116's false reason, corrected in web-wa2-05v-r2p's ground (the level 8 is on main, B1952 part D); the N2 line of grounds_cite_records_that_exist false at 6f337047b and true at 364ce101e (its committed runs), the five emptied records without the sentence (mended in 0ffa123c8), and web-wa2-05-r3p's stale sentence (corrected); rv55_findings.md without a READ record (now web-read-44); web-wa3-04's ground placing the trace signature (now placed at wa3_on_main.py, part D)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1831",
+  "web:STATUS_CHAT1:1833",
+  "web:STATUS_CHAT1:1834",
+  "web:STATUS_CHAT1:1835",
+  "web:STATUS_CHAT1:1836",
+  "web:STATUS_CHAT1:1838",
+  "web:STATUS_CHAT1:1842",
+  "web:STATUS_CHAT1:1844",
+  "web:STATUS_CHAT1:1849",
+  "web:STATUS_CHAT1:1850",
+  "web:STATUS_CHAT1:1851",
+  "web:STATUS_CHAT1:1853",
+  "web:STATUS_CHAT1:1854",
+  "web:STATUS_CHAT1:1858",
+  "web:STATUS_CHAT1:1860",
+  "web:STATUS_CHAT1:1862",
+  "web:STATUS_CHAT1:1863"
+ ]
+}
