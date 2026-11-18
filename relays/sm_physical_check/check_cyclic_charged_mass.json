@@ -1,0 +1,295 @@
+{
+ "A1 (1) with source columns reordered (1/2,-1/2,-3/2,3/2) is diag(c1,c2,c3) + f_z corner": true,
+ "A2 factor SDR: dP h + h dP = 1 - i p, p i = 1, h i = 0, p h = 0, h h = 0": true,
+ "A2 corner times pivot homotopy vanishes in both orders (h delta = delta h = 0)": true,
+ "A2 factor transferred differential p delta i = f_z exactly (no inverse of f_z)": true,
+ "A3 two-factor Koszul total differential squares to zero": true,
+ "A4 tensor SDR: d h + h d = 1 - i p and side conditions": true,
+ "A4 perturbation series terms of order >= 2 vanish (no higher algebraic corner term)": true,
+ "A4 retained differential is A -(f_z,f_w)-> B+C -(-f_w,f_z)-> D, eq. (2)": true,
+ "A5 pointwise cohomology dims of the 16-32-16 complex equal those of the retained 1-2-1 complex": {
+  "origin": [
+   [
+    1,
+    2,
+    1
+   ],
+   [
+    1,
+    2,
+    1
+   ],
+   true
+  ],
+  "z-axis": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   true
+  ],
+  "w-axis": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   true
+  ],
+  "generic": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   true
+  ]
+ },
+ "B1 S-powers: A->B, A->C, B->D, C->D each shift by the S^4 neutral coefficient; A D = B C": true,
+ "B2 largest L2-admissible pole order at a = -3, 1, 5 (packet: -2, 0, 2)": [
+  -2,
+  0,
+  2
+ ],
+ "B2 Hom degrees A->B, B->D are 2 and deg A + deg D = deg B + deg C": true,
+ "C1 g = theta3/theta1 has multipliers (-1,-1) under z+pi, z+pi*tau (the character of xi)": [
+  "(-1.0 + 1.64721258408e-31j)",
+  "(-1.0 + 6.49662776327e-32j)"
+ ],
+ "C2 residue of g at the puncture z=0 (nonzero: actual simple pole)": "(1.23011527641 - 0.243187971811j)",
+ "C3 zeros of theta1, theta3 per cell (one pole, one zero of g)": [
+  "(1.0 + 0.0j)",
+  "(1.0 + 0.0j)"
+ ],
+ "C3 the zero q of g sits at the half period (pi + pi tau)/2, so q != p: |theta3(q)|, |theta3(p)|": [
+  "1.1558e-31",
+  "1.03338321705"
+ ],
+ "C4 common divisor (2): generic, z1=0, z0=0": [
+  {
+   "p": 1
+  },
+  {
+   "p": 2
+  },
+  {
+   "q": 1,
+   "p": 1
+  }
+ ],
+ "D1 local Koszul over the valuation ring: H1 = A(Z)/A, H2 = D/D(-Z), length = ord of common factor": {
+  "ord (1,1)": {
+   "d1 d0 = 0": true,
+   "residual pair unimodular at 0": true,
+   "length H1 = length H2 = ord_0 gcd": 1,
+   "min of the two orders": 1
+  },
+  "ord (2,1)": {
+   "d1 d0 = 0": true,
+   "residual pair unimodular at 0": true,
+   "length H1 = length H2 = ord_0 gcd": 1,
+   "min of the two orders": 1
+  },
+  "ord (1,3)": {
+   "d1 d0 = 0": true,
+   "residual pair unimodular at 0": true,
+   "length H1 = length H2 = ord_0 gcd": 1,
+   "min of the two orders": 1
+  },
+  "ord (2,2)": {
+   "d1 d0 = 0": true,
+   "residual pair unimodular at 0": true,
+   "length H1 = length H2 = ord_0 gcd": 2,
+   "min of the two orders": 2
+  },
+  "ord (3,None)": {
+   "d1 d0 = 0": true,
+   "residual pair unimodular at 0": true,
+   "length H1 = length H2 = ord_0 gcd": 3,
+   "min of the two orders": 3
+  }
+ },
+ "D2 Euler characteristic of A -> B+C -> D on genus one is 0, so dim H1_tot = dim H2_tot": 0,
+ "D2 Riemann-Roch: h1(Abar), h0(Dbar), h1(Abar(p)), h0(Dbar(-p))": [
+  2,
+  2,
+  1,
+  1
+ ],
+ "D3 kernel table (origin, one coeff., both): packet aligned 3,2,1 / 2,2,1 / 18,16,8; misaligned 16,16,8": {
+  "aligned": {
+   "singlet": [
+    3,
+    2,
+    1
+   ],
+   "triplet": [
+    2,
+    2,
+    1
+   ],
+   "128-block": [
+    18,
+    16,
+    8
+   ]
+  },
+  "misaligned": {
+   "singlet": [
+    2,
+    2,
+    1
+   ],
+   "triplet": [
+    2,
+    2,
+    1
+   ],
+   "128-block": [
+    16,
+    16,
+    8
+   ]
+  }
+ },
+ "D3 128 = (4 x 4 spinor product) x (4 + 4bar); 4 = 1 + 3": true,
+ "E1 K_* = F0 G_C F1 - F1 G_B F0 is closed; rank K = 2 - deg Z (packet: rank 1 for Z = p)": {
+  "2p and p+q (Z=p)": {
+   "K closed (global section of D)": true,
+   "rank K": 1,
+   "K": "[[-1, 0], [0, 0]]"
+  },
+  "coprime (Z=0)": {
+   "K closed (global section of D)": true,
+   "rank K": 2,
+   "K": "[[0, 1], [1, 0]]"
+  },
+  "proportional (Z=2p)": {
+   "K closed (global section of D)": true,
+   "rank K": 0,
+   "K": "[[0, 0], [0, 0]]"
+  },
+  "axis f1=0": {
+   "K closed (global section of D)": true,
+   "rank K": 0,
+   "K": "[[0, 0], [0, 0]]"
+  }
+ },
+ "E2 kernel of K = span{x^-2} = image of the endpoint quotient Abar(p)/Abar in H1(Abar)": true,
+ "E2 image of K = span{1} = H0(Dbar(-p)) inside H0(Dbar) = span{1, x}": true,
+ "E3 K kills exact representatives (changing alpha by d gamma leaves K unchanged)": true,
+ "F1 M = sqrt2 (d + d^dag) in a finite metric model: light masses = sqrt2 |nu0 nu1| sigma_* t^2 (6)": {
+  "2p and p+q (Z=p)": {
+   "d^2 max": 1.2017106534520757e-16,
+   "K closed residual": 1.3877787807814457e-17,
+   "sigma(K)": [
+    2.5748506394207333,
+    1.930484633265089e-16
+   ],
+   "predicted sqrt2|nu0 nu1| sigma": [
+    4.089070354768986
+   ],
+   "runs": [
+    {
+     "t": 0.01,
+     "light |eigenvalues| / t^2": [
+      5.959082141814338e-12,
+      1.3004335631993279e-11,
+      4.078758689755726,
+      4.078758689766606
+     ]
+    },
+    {
+     "t": 0.001,
+     "light |eigenvalues| / t^2": [
+      1.215741634382224e-10,
+      3.290378758565858e-09,
+      4.088966790198266,
+      4.088966793887095
+     ]
+    },
+    {
+     "t": 0.0001,
+     "light |eigenvalues| / t^2": [
+      7.841126542681301e-09,
+      4.760943728228472e-07,
+      4.089069227170359,
+      4.089069411009391
+     ]
+    }
+   ],
+   "rel. deviation at t=1e-4": 2.757591650581759e-07,
+   "persistent eigenvalues (t=1e-4, /t^2)": [
+    7.841126542681301e-09,
+    4.760943728228472e-07
+   ]
+  },
+  "coprime (Z=0)": {
+   "d^2 max": 6.008553267260379e-17,
+   "K closed residual": 0.0,
+   "sigma(K)": [
+    2.73019449101804,
+    1.5330807537685962
+   ],
+   "predicted sqrt2|nu0 nu1| sigma": [
+    2.434655807108242,
+    4.335768912206509
+   ],
+   "runs": [
+    {
+     "t": 0.01,
+     "light |eigenvalues| / t^2": [
+      2.433707554580481,
+      2.4337075545863724,
+      4.333206131582359,
+      4.333206131596229
+     ]
+    },
+    {
+     "t": 0.001,
+     "light |eigenvalues| / t^2": [
+      2.434646316765652,
+      2.4346463175355444,
+      4.335743257043431,
+      4.335743258892611
+     ]
+    },
+    {
+     "t": 0.0001,
+     "light |eigenvalues| / t^2": [
+      2.4346556971597297,
+      2.4346557186382647,
+      4.335768659276793,
+      4.335768669712786
+     ]
+    }
+   ],
+   "rel. deviation at t=1e-4": 5.8335608121851124e-08,
+   "persistent eigenvalues (t=1e-4, /t^2)": []
+  }
+ },
+ "G1 the November 9 source named in PRIOR_WORK_RECONCILIATION exists at 798281903": true,
+ "G2 main's docs/seats/physical.md at 613c4f41 carries M4 (end law) and M5": true,
+ "PLANTS (each must be False)": {
+  "A3-plant: total differential without the Koszul sign squares to zero (must FAIL)": false,
+  "C3-plant: q = p, i.e. theta3 vanishes at the puncture (must FAIL)": false,
+  "E1-plant: the + sign F0 G_C F1 + F1 G_B F0 is closed (must FAIL)": false,
+  "F-plant: light mass = |nu0 nu1| sigma t^2 without sqrt2, within 1e-3 (must FAIL)": false
+ }
+}

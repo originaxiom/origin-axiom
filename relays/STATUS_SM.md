@@ -549,5 +549,14 @@ rows, are not yet done. HARVEST COMPLETE is therefore not written.
     invariant metric is λ·I, and the signed module is irreducible while the unsigned one is not.
   - **History weights and the predictive register** (`relays/SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER.md`): every
     finite claim holds, including both of that lane's controls. Two one-line steps are by hand, and are said so.
-  - That lane's newest hand proofs (W-P1, the native register, history weights, the predictive register) are now
-    checked at their finite steps. The earlier ones its status lists stay for main to name.
+  - **Four earlier packets, checked in parallel at 798281903** (each on its own independent script, re-run here):
+    - relative rates and full undo (`relays/SM_CHECK_PHYSICAL_RELATIVE_RATES_AND_UNDO.md`): 49 of 49 claims hold,
+      8 plants fail. (11)'s commutator holds only in its stated order; W fixes the m states with x = −1.
+    - the four-form register (`relays/SM_CHECK_PHYSICAL_FOUR_FORM_REGISTER.md`): 68 of 68 hold, 11 plants fail. The
+      E8 roster's list of charges omits ±4/3 (the roots ±(e_i + e_j), i, j ≤ 3); no conclusion changes.
+    - the cyclic charged mass (`relays/SM_CHECK_PHYSICAL_CYCLIC_CHARGED_MASS.md`): 20 rows hold, 4 plants fail. The
+      secondary map and the √2 normalisation are checked on an analogue only; σ_* is not evaluated, nothing compared.
+    - the fixed-sector light system (`relays/SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM.md`): 41 of 41 hold,
+      5 plants fail. The β phases are taken as given.
+  - In every packet the analytic core (inverses, implicit-function steps, estimates) is not checked; the conclusions
+    that rest on it stay conditional, as the packets themselves say.
