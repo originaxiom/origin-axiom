@@ -1,0 +1,223 @@
+{
+  "date": "2026-11-18",
+  "kind": "C8 bounded source intake, not a new scientific campaign or independent spectrum verification",
+  "sm_pin": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+  "main_pin": "7d3776b67c6832c99506e334e7e4e45df155d580",
+  "sources": [
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md",
+      "sha256": "f984d1825cb6fc66303fbb3a91f5523bf57070f31c3b87c8688a423c1ff14553",
+      "git_blob": "1c9d7fd29911a94ef3f9e783fc468e1e3f2d5e42",
+      "lines": 71,
+      "reading": "Full page read, including the dated narrowing"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/cards/SM_C22_every-higgs-vector-in-d1.md",
+      "sha256": "b40ff736dccb436a696a2c88b8bc61576761f27b506744cdd9d3bfaa4aa3fb31",
+      "git_blob": "cbb3b1a061b173130c6b3122763c1843c7501f92",
+      "lines": 54,
+      "reading": "Full sealed card read as text"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c22/run_c22.py",
+      "sha256": "6029acd42e0ef82eaf8561f053f0797ab561f137ee3de3d9bb894b0dc1e9d677",
+      "git_blob": "97c2769611612cd7207e6bc9280a4b10283c925f",
+      "lines": 114,
+      "reading": "Entire source read as text; not imported or run"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c22/c22_results.json",
+      "sha256": "e9957953b99e43cf4cf71e1a7323d788cae3e439b2ffcfc8e28c9685f3bbb014",
+      "git_blob": "e97ce75126fdb5add73b645e153c06c13f4e3de2",
+      "lines": 156,
+      "reading": "Entire committed output read; named-key counts are metadata only"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c22/RUN.txt",
+      "sha256": "224505c50cb6f36c186d9fbaaaf41195f7b3b04f3ff346810f3a8df8251aec33",
+      "git_blob": "90c00b7d67f311654a5b9b1282abf1a4974fce63",
+      "lines": 31,
+      "reading": "Full committed run log read, not rerun"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/SM_C19_WHICH_BIT.md",
+      "sha256": "a755ba2062d3d9dd37ba988c8cd351c18c7b3f1ce03051eb7c175db19b00c4aa",
+      "git_blob": "f7f6ca6c54d674a2061da221cc9c5b4e93a32146",
+      "lines": 69,
+      "reading": "Dated amendment read in the difference from e7bf7bfca; not a fresh reading of every old claim"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md",
+      "sha256": "2c642d6752b6a085a2b71cef4815b8dac62c81ca35100168f06f1bb3676fcecb",
+      "git_blob": "c8f7b16ae60d3b10a9b17ce180e9e24ed797679a",
+      "lines": 64,
+      "reading": "Dated amendment read in the difference from e7bf7bfca"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/SM_C21_THE_D1_CUSP_MIXING.md",
+      "sha256": "9d7f3709043ba06e7d0b938f821c5e3eb8ee7021116e74c63591e7dfb5849c07",
+      "git_blob": "903ba978a89fa92a64c9dfc5666b1f85c5dcf6a0",
+      "lines": 66,
+      "reading": "Dated amendment read in the difference from e7bf7bfca"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c19/check_s6.py",
+      "sha256": "76d08c719f19298ff465b1a7b1347be2ada16484ec9d4cfe3bff137b54c02656",
+      "git_blob": "5438dbeb6817785851860d36583da5ecacc8e423",
+      "lines": 50,
+      "reading": "Entire source read as text; not imported or run"
+    },
+    {
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c19/check_s6.json",
+      "sha256": "8d5f6c0531da3f4398968cbf45070cd8fa0d8e4f78b818a2853c145318d2e4ae",
+      "git_blob": "767993b5cdb0022ea9f512d072c003cea28d45ed",
+      "lines": 13,
+      "reading": "Full committed result read; group count explicitly withdrawn by author"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/sm_c22.py",
+      "sha256": "688b687de936e10c368093bd9ab16ee78cbae24d91aa04643c93591cbee72184",
+      "git_blob": "488c919aad37bd21fcdfb765e49e6624e697b20d",
+      "lines": 45,
+      "reading": "Entire source read as text; not imported or run"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/sm_c22_run.txt",
+      "sha256": "ac3ebd01dcebb0c6cf9a1abd61cd453fdc3e889b1c89a14b5c13e0e253d2210d",
+      "git_blob": "585930b4d92d7e55c5d440dbcfa8741cd7f2299a",
+      "lines": 9,
+      "reading": "Full committed result read"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "docs/seats/sm.md",
+      "sha256": "1a17a1ab764013a332b9c42868d7cd3e811cfbea26d2adce745d0a06bbd405df",
+      "git_blob": "342f531c98bd06b62f89b577c859c969202d4589",
+      "lines": 726,
+      "reading": "M40-M45 read; older messages not re-read in this intake"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/sm-c22-01.json",
+      "sha256": "69125c8d3c46b5198bd39d018bdea887b08909f9722c4824ac4c916860678ba1",
+      "git_blob": "82cd6ee955ac54199165205ae99b410cc7294060",
+      "lines": 19,
+      "reading": "Full verdict, how and note read; unit lists treated as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/sm-c22-02.json",
+      "sha256": "50f0a0b1debf42ae2ed7646469a83c9f14eebf672698ea9dfde85ded0a2dc675",
+      "git_blob": "7ac78935c8d8c90510d96aa4a8652de2340ed123",
+      "lines": 16,
+      "reading": "Full verdict, how and note read; unit lists treated as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/sm-c22-03.json",
+      "sha256": "75b81e7fb6fb9fdcf82891bd792c7bfca815193c95b554119b848a5e496f71b4",
+      "git_blob": "fe722c21a16fa8600acd7ace0ccd03fb5edb3ff4",
+      "lines": 11,
+      "reading": "Full verdict, how and note read; unit lists treated as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/sm-c22-04.json",
+      "sha256": "e19b86309d574bf87d04439dc5c77ed8d868038af74922e11788b302ab6a9059",
+      "git_blob": "bd36d63f0852cebb6ec5e4fcbdc4100fecbfa7a4",
+      "lines": 17,
+      "reading": "Full verdict, how and note read; unit lists treated as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/sm-c22-05.json",
+      "sha256": "f036c2827e2494a410adb07c9d95ee25a96d59d8cfee30072e22fbfd97dae988",
+      "git_blob": "3eb7f9c68b0a42c5790db817a47bd57963654697",
+      "lines": 37,
+      "reading": "Full verdict, how and note read; unit lists treated as metadata"
+    }
+  ],
+  "quoted_evidence": [
+    {
+      "finding": "C22-S01",
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md",
+      "first_line": 12,
+      "last_line": 17,
+      "text": ">   - What the scan supports is narrower: none of the 5 021 vectors scanned combines a top-aligned majority with a\n>     hierarchy. h* agrees with that, having a top-aligned share of 0.\n>   - The reading, that a hierarchy needs few modes, is consistent with h*.\n> - **Partial:** \"D1 is closed at the cusp for every Higgs vector, structurally\". It rests on a scan and on a reading\n>   this page itself says is not a proof. So read: closed for every vector computed (5 021 here, and h* on main), not\n>   for every vector."
+    },
+    {
+      "finding": "C22-S01",
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c22/run_c22.py",
+      "first_line": 65,
+      "last_line": 76,
+      "text": "    # the vectors\n    vecs = {}\n    for k in range(6):\n        e = np.zeros(6, complex); e[k] = 1; vecs[\"mode %d\" % k] = e\n    ev, V = np.linalg.eig(UM)\n    for n in range(6):\n        vecs[\"U_M eigvec phase %.3f pi\" % (np.angle(ev[n]) / np.pi)] = V[:, n] / np.linalg.norm(V[:, n])\n    for k in range(3):\n        for s in (1, -1):\n            e = np.zeros(6, complex); e[k] = 1; e[k + 3] = s; vecs[\"e%d %s e%d\" % (k, \"+\" if s > 0 else \"-\", k + 3)] = e / np.sqrt(2)\n    for n in range(5000):\n        v = rng.normal(size=6) + 1j * rng.normal(size=6); vecs[\"random %d\" % n] = v / np.linalg.norm(v)"
+    },
+    {
+      "finding": "C22-S02",
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c22/run_c22.py",
+      "first_line": 31,
+      "last_line": 35,
+      "text": "def Ymp(tau, xi):\n    d = CC.Y_mp(tau, xi, dps=60); T = np.zeros((3, 3, 6), complex)\n    for (i, j, k), v in d.items():\n        T[i, j, k] = complex(v)\n    return T"
+    },
+    {
+      "finding": "C22-S02",
+      "commit": "d88ea8e8a34190bd82a132d9ff7ddf41facc2b30",
+      "path": "relays/sm_c22/run_c22.py",
+      "first_line": 81,
+      "last_line": 88,
+      "text": "            Mu = {hy: np.einsum(\"ijk,k->ij\", T[(hy, idx, \"up\")], v) for hy in (8, 10)}\n            Md = {hy: np.einsum(\"ijk,k->ij\", T[(hy, idx, \"down\")], v) for hy in (8, 10)}\n            Uu = np.linalg.svd(Mu[10])[0]; Ud = np.linalg.svd(Md[10])[0]\n            if abs(np.vdot(Uu[:, 0], Ud[:, 0])) > 0.99:\n                top += 1\n            s8 = np.linalg.svd(Md[8], compute_uv=False); s10 = np.linalg.svd(Md[10], compute_uv=False)\n            e = lambda s, r: math.log(max(s[r] / s[0], 1e-300))\n            E = [-(e(s10, r) - e(s8, r)) / (2 * math.pi) for r in (1, 2)]"
+    },
+    {
+      "finding": "C22-S02",
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/sm_c22.py",
+      "first_line": 19,
+      "last_line": 22,
+      "text": "def Ymp(tau, xi):\n    d = CC.Y_mp(tau, xi, dps=60); T = np.zeros((3, 3, 6), complex)\n    for (i, j, k), v in d.items(): T[i, j, k] = complex(v)\n    return T"
+    },
+    {
+      "finding": "C22-S02",
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/sm_c22.py",
+      "first_line": 31,
+      "last_line": 36,
+      "text": "        M = {(hy, s): np.einsum(\"ijk,k->ij\", T[(hy, idx, s)], v) for hy in (8, 10) for s in (\"up\", \"down\")}\n        Uu = np.linalg.svd(M[(10, \"up\")])[0]; Ud = np.linalg.svd(M[(10, \"down\")])[0]\n        top += abs(np.vdot(Uu[:, 0], Ud[:, 0])) > 0.99\n        for s in (\"up\", \"down\"):\n            s8 = np.linalg.svd(M[(8, s)], compute_uv=False); s10 = np.linalg.svd(M[(10, s)], compute_uv=False)\n            e = lambda q, r: math.log(max(q[r] / q[0], 1e-300)); E = [-(e(s10, r) - e(s8, r)) / (2 * math.pi) for r in (1, 2)]"
+    }
+  ],
+  "roster_metadata": {
+    "named_output_keys": 18,
+    "named_categories": {
+      "mode ": 6,
+      "U_M eigvec ": 6,
+      "e": 6
+    },
+    "random_loop_bound": 5000,
+    "declared_total": 5018,
+    "published_total": 5021,
+    "basis": "Read from source and output keys; scientific producer not run"
+  },
+  "precision_finding": "Both new C22 sources convert extended-precision theta entries to ordinary complex arrays before SVD; not a claim that any particular printed value is false",
+  "report_sha256": "5ba633e9948c5f1b65d6035f462e7cce5a8b165ba880cfec133454a3702b4b88",
+  "execution": {
+    "scientific_imports": 0,
+    "scientific_runs": 0,
+    "scientific_tests": 0,
+    "data_comparisons": 0,
+    "additional_agents": 0
+  }
+}
