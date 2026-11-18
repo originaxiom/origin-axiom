@@ -1,0 +1,27 @@
+{
+ "id": "agy002v-m51-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "its HARVEST COMPLETE for its four lanes at main's f1efc59dd (recorded as its word; its branch of 2026-11-11, lane agy-002-sync, entered the register after it, M52); headings and pointers; its card's question, sealed expectations and four falsifiers (the first tested on main: flipping R*'s corner sign gives a commutator of 0.020, R7)",
+ "note": "",
+ "units": [
+  "agy-002-verify:STATUS_AGY-002:63",
+  "agy-002-verify:STATUS_AGY-002:69",
+  "agy-002-verify:STATUS_AGY-002:70",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:6",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:12",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:13",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:14",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:15",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:18",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:22",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:23",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:24",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:25",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:26",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:32",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:33",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:34",
+  "agy-002-verify:cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking:35"
+ ]
+}

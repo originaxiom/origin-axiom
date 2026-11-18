@@ -3,24 +3,18 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "its theorems C and D. ON MAIN: (0,0,0,0,0,1,1,1) is not in the E8 lattice and twice it is, with its pairings (checks/web_wc2_census_and_lattices.py, W2 to W4); the vectors of the lattice of five-tuples of sum zero number 1,350 to half-norm 12, of which 1,020 in the upper band (checks/agyexp_older_notes.py, O2: the theorem's '1,020' is the slip the seat conceded); on the rational elliptic surface the curve 5 S + 6 F has self-intersection 35, genus 16 and ramification 40 (O9); 248 = 24 + 24 + 4 x 50 and the charge sums of the stated pairings vanish modulo 5, the singlet's charge being forced to 0 (O9). NOT ON MAIN: the triangular law for the least half-norm at a given sheet magnitude; the lattice index on finite lattices; the nine flux pairs allowed by the congruence; the symmetry of one overlap matrix and the invariance tests: its own runs",
- "note": "",
+ "note": "RESTORED 2026-11-18 (agy-exp's harvest review, 3A): lines 106, 113, 114, 115, 130, 131 moved to agyexp-p781-03v, VERIFIED: main's own scripts compute them.",
  "units": [
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:102",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:104",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:106",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:108",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:112",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:113",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:114",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:115",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:116",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:122",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:124",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:127",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:128",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:129",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:130",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:131",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:132"
  ]
 }

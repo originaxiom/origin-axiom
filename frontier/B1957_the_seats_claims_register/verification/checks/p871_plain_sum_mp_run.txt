@@ -1,0 +1,6 @@
+M c = +2, up (E = 0): S: ratios (0.290722, 0.233323), change 4.09e-79 | St: ratios (0.0521466, 0.0315485), change 2.14e-79
+M c = +2, down (E = 3): S: ratios (0.13473, 7.68319e-81), change 3.22e-26 | St: ratios (0.152143, 1.25548e-80), change 1.95e-26
+M c = +2, lepton (E = 3): S: ratios (0.0883441, 8.10964e-82), change 8.24e-26 | St: ratios (0.240307, 3.13099e-82), change 3.31e-25
+M c = -2, up (E = 4): S: ratios (0.149493, 0.0447648), change 6.22e-24 | St: ratios (0.142458, 0.0709909), change 7.06e-24
+M c = -2, down (E = 2): S: ratios (0.197782, 0.0678644), change 1.28e-24 | St: ratios (0.180256, 0.0312648), change 2.03e-24
+M c = -2, lepton (E = 2): S: ratios (0.196754, 0.0997407), change 2.31e-24 | St: ratios (0.127789, 0.0458767), change 1.68e-24

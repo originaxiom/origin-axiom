@@ -1,0 +1,2 @@
+S1: ||Z^3 X^3 + X^3 Z^3|| = 0.0e+00 and ||Z^3 X^3 - X^3 Z^3|| = 2.0 on the six modes: they anticommute
+S3mp: h* with the SVD at 60 digits: median E(s3/s1) down 1.0911, up 1.3268; at the mark (E2, E3): {'up': [-0.0043, 1.3355], 'down': [0.1994, 0.7995]}

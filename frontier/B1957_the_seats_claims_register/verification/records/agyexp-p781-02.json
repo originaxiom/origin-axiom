@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "its theorems A and B. ON MAIN: B1939, main's own arc, has the census of 285 necklaces in 228 oriented and 124 unoriented classes (20 amphicheiral, 70 chiral reversible, 34 chiral irreversible), the six lines of characters with one unramified and four ramified, and the torsion moduli 2 sin(pi/5) and 2 sin(2 pi/5) with product 5 on the ramified lines; B1939 also found that 8 of the 285 have monodromy +-1 modulo 5 and a larger cohomology, so the theorem's hypothesis of multiplicity one matters. CORRECTED BY THE SEAT ITSELF: 'two such involutions' in theorem A's third part (one of the two negates the mark: its answers on W-C2, record agyexp-wc2a-02). NOT ON MAIN: the anti-unitary selection rule as stated, the minimal-volume representatives, and its 'honest negative' that nothing selects a chiral irreversible class without a premise (its reading, which main's record does not contradict)",
- "note": "",
+ "note": "RESTORED 2026-11-18 (agy-exp's harvest review, 3A): lines 87, 88 moved to agyexp-p781-02v, VERIFIED: main's own scripts compute them.",
  "units": [
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:52",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:54",
@@ -21,8 +21,6 @@
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:82",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:84",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:86",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:87",
-  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:88",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:89",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:90",
   "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:91",

@@ -1,0 +1,28 @@
+{
+ "id": "sm-hr-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its answer to M40 to M45 and its harvest review (386973969), each statement about main's record or computed by main held: its corrected SM-C19 (the unitary S6 carries U_M to its inverse and exchanges v+ and v-; only orientation-reversing elements exchange the pair: main's agy002_a2x1.py X1, twelve unitaries exchanging the ground pair), SM-C20 (the reflection z -> zbar, tau -> -taubar is conjugation with the parity, as M41 computed), SM-C22 (h* has a hierarchy, median 1.09 down and 1.33 up: main's sm_c22.py S3, and at 60 digits sm_c22_mp.py); its relay section 36's sign corrected to +6Y (its diff read); its check of the physical lane's packet, items F1, F2, F3, F5, F7, each computed by main (physical_c8_magnetic.py G8: [p e12 + r e23 + p e34, e13 + e24] = 0 and -2p e14 with e13 - e24, X x X's transfer, the Wronskian's simple pole, no common line); the rows its review names, as received, registered or read by page only (sm_harvest_review.py L2), row 1831 checked, SM-C18 verified; its 181 rows listed (L1)",
+ "note": "",
+ "units": [
+  "sm:SM_C19_WHICH_BIT:7",
+  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:7",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:8",
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:12",
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:13",
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:14",
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:15",
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:16",
+  "sm:STATUS_SM:471",
+  "sm:STATUS_SM:479",
+  "sm:STATUS_SM:488",
+  "sm:STATUS_SM:490",
+  "sm:STATUS_SM:491",
+  "sm:STATUS_SM:493",
+  "sm:STATUS_SM:495",
+  "sm:STATUS_SM:514",
+  "sm:STATUS_SM:519",
+  "sm:STATUS_SM:525",
+  "sm:STATUS_SM:531"
+ ]
+}

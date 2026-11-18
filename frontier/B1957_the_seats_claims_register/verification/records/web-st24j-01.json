@@ -1,0 +1,13 @@
+{
+ "id": "web-st24j-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "MAIN'S JUDGEMENT 2026-11-18 at the web seat's section 24.5, item 4: four lines held VERIFIED mix the seat's own account or request with a statement about main's record, and main's rule for mixed lines makes such a line PARTIAL: line 2098 (web-st20-03 records the word as the seat's: main's; the seat's request), line 2180 (that A3 passed unit 1990: main's, web_section20.py A3b; that its section 21 did not read the script: its own account), line 2310 (the six records changed since 57cc5d5fe: main's, E4; that it read them: its own account), line 2346 (M63's taking of its section 21.4: main's; its request). Moved here from web-st21-01, web-st22-01 and web-st23-01, each of which notes the move.",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2098",
+  "web:STATUS_CHAT1:2180",
+  "web:STATUS_CHAT1:2310",
+  "web:STATUS_CHAT1:2346"
+ ]
+}

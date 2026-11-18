@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1942 |
+| harvest rows (the last number) | 1947 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: A GAP IN THE HARVEST FOUND AND OPENED: AN agy-002 BRANCH OF 2026-11-11 WITH SEVEN REPORTS NEVER READ IS NOW A LANE OF THE REGISTER, 1,064 STATEMENTS PENDING, AND EVERY SEAT'S OLDER ROWS RECORDED AS NOT READ ARE BEING TAKEN IN (P-876); THE PHYSICAL LANE'S TASKS 2 TO 5 REGISTERED AS DEBTS (P-875) (B1957, OPEN; harvest rows 1939 to 1942).** The register: 525 files, 424 read at source, 25912 statements: 3074 verified, 26 refuted, 1940 conditional, 2026 partial, 165 superseded, 17617 noted, 1064 pending. No seat has HARVEST COMPLETE standing: the web seat checks M64's changes; the physical lane compares M16's list first (M17); agy-002 waits on its own ch…”
+“LATEST (2026-11-18, S306p, night, latest: EVERY SEAT'S NEW WORK READ AND SETTLED; THREE FAULTS OF MAIN'S FOUND BY SEATS AND MENDED (P-871'S c = +-2 RESULT WAS A DOUBLE-PRECISION ARTIFACT; TWO NARROWING REASONS AND 26 NARROWED LINES WERE COMPUTED BY MAIN'S OWN SCRIPTS); agy-002 WRITES HARVEST COMPLETE FOR FOUR LANES; THE REGISTER'S COMPANION CONVENTION STATED WITH A LOCK (B1957, OPEN; harvest rows 1943 to 1947; P-871, P-873, P-875, P-876).** The register: 536 files, 424 read at source, 31813 statements: 3423 verified, 25 refuted, 2005 conditional, 2023 partial, 165 superseded, 17747 noted, 6425 pending: every lane at 0 pending but the two large reads of P-876, agy-002's branch of 2026-11-11…”
 
 ## Completeness (nothing skipped silently)
 

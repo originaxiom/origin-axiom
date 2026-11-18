@@ -10,7 +10,10 @@ LEAST drift over its cases, which shows that some case has none, not that none h
  P3  the same plain sum at tau + 25, where the law closes.
  P4  (added 2026-11-18) why c = +-2 shows no change: the five rows' sums differ in size by tens of orders, so the plain sum is
      the largest row's alone, and a phase common to one row cannot move singular-value ratios; the same sum with the law's
-     phases put on the rows at tau has the same ratios there, and at c = 0 it does not."""
+     phases put on the rows at tau has the same ratios there, and at c = 0 it does not.
+ CORRECTED 2026-11-18, later: this script works in double precision (couple() casts each point's matrix before the sum);
+ the 'no change' at c = +-2 holds only there. At 80 digits every obstructed case changes, by 2e-26 to 7e-24
+ (p871_plain_sum_mp.py; agy-002's A2-M51 found it)."""
 import sys, pathlib, functools
 from fractions import Fraction as Fr
 import numpy as np

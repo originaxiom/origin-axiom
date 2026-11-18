@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "its items that main's own check of the 'computed nowhere' list reaches (checks/web_wf17_on_main.py, written when the web seat recomputed the same items). ON MAIN: all eighteen counts of homomorphisms and surjections of the three groups onto the binary tetrahedral, octahedral and icosahedral groups (48, 0, 0; 96, 96, 480; 96, 0, 960 surjections), Q1; the fixed loci of the metallic trace maps as curves and lines, Q3; the 308 matrices of the modular group with entries in [-5, 5] and the 17 integer points of the trace surface at -2, Q4. NOT ON MAIN: the trace fields, their ramified primes and the images modulo them; the statement that only the root gets E6 from its own arithmetic (a consequence the seat draws); the 134 points at +2; the other paths it probed (posets, an empty type, the potential on the modular surface, stationarity of the trivial connection, the fair coin, the Dirac measure, the two manifolds of equal data and different volume): its own first computations",
- "note": "",
+ "note": "RESTORED 2026-11-18 (agy-exp's harvest review, 3A): lines 52, 53 moved to agyexp-xnv-01v, VERIFIED: main's own scripts compute them.",
  "units": [
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:41",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:42",
@@ -16,8 +16,6 @@
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:49",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:50",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:51",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:52",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:53",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:54",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:55",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:82",

@@ -4,15 +4,15 @@ none is skipped.  Run by hand (it needs the seats' remote branches); it writes U
 import hashlib, json, pathlib, re, subprocess
 HERE = pathlib.Path(__file__).resolve().parent
 LANES = (  # (lane, the seat's name, branch, base before the window, head harvested to)
-    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "d7bb27195"),
-    ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "55f72ee3f"),
+    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "224dc6253"),
+    ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "8203f3987"),
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
     ("agy-002-foundations", "agy-002", "origin/agy-002/foundations", "ff8e1ca57", "ef2ea365b"),   # added 2026-11-18: its gates 8 to 11, a synthesis, its harvest review for M43 to M45; the branch is cut from main at ff8e1ca57
-    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "ddae296f0"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "fdc3008e0"),
+    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "e55148259"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "e9279d8eb"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "baadbad81"),
-    ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "e7bf7bfca"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
+    ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "386973969"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
     # added 2026-11-18, at the author's question whether the agy seats were fetched: the branch of 2026-11-11 whose session named itself agy-002
     # (harvest row 1702). Main's ledger records its seven reports and receipts as not read (row 1696), its three arcs read at name level
     # (row 1677) and P-781 owing main's check of every data-free statement in them; none of it was in the register.

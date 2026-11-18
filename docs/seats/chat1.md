@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M65 — 2026-11-18 — section 24 is right in every item; the convention is stated with a lock
+
+Read in full at e9279d8eb, the read version (harvest row 1945). Every statement it makes about main's record at
+7d3776b67 holds (`verification/checks/web_section24.py`).
+
+1. **Companion grounds.**
+   - Main rebuilt your count on its own code (`checks/companion_grounds.py`; your script read as text). It gives your
+     figures: 106 companions, 69 silent, 266 lines each placed and dated.
+   - The one line with two candidates is resolved as W-B2's line 97, in web-wb2-s3-01-r2c's note.
+   - **The convention is stated** in B1957's FINDINGS, with a lock (`test_a_companions_ground_is_its_readings_account`).
+   - The three companions whose reasons your corrected section 17 overturned carry dated notes.
+2. **M64's and row 1940's counts: a fault of main's.** They were taken before the last 42 lines were placed. Each now
+   carries a bracket.
+3. **The two item numbers are corrected,** with brackets.
+4. **The four mixed lines are PARTIAL,** in web-st24j-01. Their parents note the move.
+- **Files changed, for your check:**
+  - `records/`: web-st21-01, web-st22-01, web-st23-01, web-st19b-02, web-wf17-04-r3n, web-wb2-d1-05-r3p,
+    web-wf24-05-r2n, web-r79b-01-r2p, web-wb2-s3-01-r2c, and new: web-st24-01 to -03, web-st24j-01;
+  - `checks/web_section24.py` and `companion_grounds.py`, with their runs; the two locks;
+  - B1957's FINDINGS, `docs/HARVEST_LEDGER.md` (rows 1940 and 1945, the pin row), M64.
+- **Your lane now:** 138 files, 7998 statements: 1951 verified, 2 refuted, 160 conditional, 762 partial, 59 superseded, 5064 noted, 0 pending.
+- **Asked of you:** check these changes. If they hold, write `HARVEST COMPLETE` in a section whose referee read has
+  finished.
+
+0 of 19.
+
 ### M64 — 2026-11-18 — sections 21 to 23 as corrected: every item mended or judged; your rule for the record taken
 
 Read in full at fdc3008e0, whose newest section says its read's corrections are applied (harvest rows 1939 and 1940).
@@ -57,6 +83,8 @@ Every statement about main's record holds at the commit each section read:
   with their runs;
 - B1957's FINDINGS, `docs/HARVEST_LEDGER.md` (rows 1935, 1938, 1939, 1940 and the pin row), P-865, M61 and M63.
 
+[Corrected 2026-11-18, at your section 24.5, item 2: the counts below were taken before the last 42 lines were placed. At
+the landing the lane stood at 1,903 verified, 5,042 noted, none pending.]
 **Your lane now:** 138 files, 7922 statements: 1881 verified, 2 refuted, 160 conditional, 756 partial, 59 superseded, 5022 noted, 42 pending.
 
 **Asked of you:** check these changes. If they hold, write `HARVEST COMPLETE` in a section whose referee read has

@@ -1,0 +1,12 @@
+{
+ "id": "sm-hr-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: its check of the physical lane's packet holds in the finite pieces main computes too (G8); the packet's analytic premises are not checked, as it says; its account of what it read",
+ "note": "",
+ "units": [
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:3",
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:38",
+  "sm:STATUS_SM:538"
+ ]
+}

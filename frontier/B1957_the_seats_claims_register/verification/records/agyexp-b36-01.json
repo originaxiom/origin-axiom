@@ -3,16 +3,14 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/agyexp_older_notes.py, O1, exact: 6Y of the five multiplets of one generation is 1, 1, 2, 2, 1 modulo 5, on the ten-plet and the five-bar; the four non-zero residues split into the matter half {1, 2} and its negative {3, 4}; of the four multipliers only 2 and 3 put the matter half in a single parity class ({2, 4} and {1, 3}); the down and lepton couplings need a Higgs residue in the matter half and the up coupling one in its negative, for either sign of 6Y",
- "note": "",
+ "note": "NARROWED 2026-11-18 at the seat's harvest review, 3B: lines moved to agyexp-hr2-p (PARTIAL) or agyexp-hr2-n (NOTED), as each says.",
  "units": [
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:17",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:19",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:20",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:23",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:25",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:26",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:27",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:30",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:32",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:33"
  ]

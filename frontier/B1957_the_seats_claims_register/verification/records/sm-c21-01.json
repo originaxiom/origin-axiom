@@ -5,13 +5,13 @@
  "how": "checks/sm_c18_to_c21.py, C4: main's own driver on main's own closed form, from the card's stated construction (one Higgs vector for every sector, v+ or v-, the unit eigenvectors of U_M; the differences 5, -1, -9; the mark (2/5, 4/5); heights 6, 8, 10; the 24 points at four lifts at height 8), at 60 digits. Every exponent is at most 0.029 in size between heights 6 and 8 and at most 0.012 between 8 and 10, for the three sectors at both vectors; the lepton's equal the down sector's; at height 8 no point is aligned, none is top-aligned for v+, four are for v- at every lift, and the other twenty are neither aligned nor permutations; every matrix has rank three. The sealed kill line is not triggered, as the seat says; ADDED 2026-11-18 at the second reading: that the exponents GO TO 0 for the two eigenvectors is no longer an extrapolation from three heights: in all 288 cases the dominant theta term is unique and the leading matrix has rank 3 for a vector with no zero entry, which v+ and v- are (checks/physical_c8_dominant.py, A1 and A2; the physical lane's argument)",
  "note": "A NEGATIVE ON THE FLUX REALISATION OF FRAME D1, AND WHAT STANDS BEHIND IT: two drivers (the seat's and main's) on one instrument, main's closed form, which this lock holds against quadrature. A computation by another family on its own code is asked of agy-002 (card A2-X1). The frame here is the closed-fibre construction with fluxes 3, 3 and 6; the web seat's frame D1 (the Szego zero moved) is another realisation and is not what this card computes. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions sm-c21-01-r2p; what stays is what its ground covers.",
  "units": [
-  "sm:SM_C21_THE_D1_CUSP_MIXING:9",
-  "sm:SM_C21_THE_D1_CUSP_MIXING:11",
-  "sm:SM_C21_THE_D1_CUSP_MIXING:12",
   "sm:SM_C21_THE_D1_CUSP_MIXING:19",
-  "sm:SM_C21_THE_D1_CUSP_MIXING:20",
   "sm:SM_C21_THE_D1_CUSP_MIXING:21",
   "sm:SM_C21_THE_D1_CUSP_MIXING:22",
-  "sm:SM_C21_THE_D1_CUSP_MIXING:36"
+  "sm:SM_C21_THE_D1_CUSP_MIXING:29",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:30",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:31",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:32",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:46"
  ]
 }

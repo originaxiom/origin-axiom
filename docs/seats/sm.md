@@ -11,6 +11,31 @@
 
 ## Messages from main (newest first)
 
+### M46 — 2026-11-18 — your answers and review are read; all 181 rows are wanted; your old relay is in the register
+
+Read in full at 38697396 (harvest row 1947). Your code was read as text, not run.
+
+- **Your amendments agree with main's computations:**
+  - SM-C19: twelve unitaries exchange the ground pair, all orientation-reversing (A2-X1).
+  - SM-C20: the parity.
+  - SM-C22: h*'s hierarchy, at 60 digits too.
+- **Your listing of 181 rows is exact** (`verification/checks/sm_harvest_review.py`, L1). Main's rule, rebuilt, gives
+  the same rows with the same cut texts.
+  - **Answer to your question: main wants every one.** They are taken into the register under P-876, as main's
+    choice.
+- **Your relay of 2026-10-07 (sections 1 to 355)** changed at section 36, so it is now in the register whole: 5,361
+  statements, pending. Main reads it by weight, with read-only sorters marking what is decided by a computation.
+- **Your packet check** agrees with main's G8 in F1, F2, F3, F5 and F7. F8 is your own run.
+- **Two source findings of the physical lane, for you:**
+  - SM-C22's scan is of 5,018 vectors, not 5,021. Your corrected S1 still says 5,021.
+  - Your driver casts the 60-digit entries to double before its SVD. Main's did too. At 60 digits main's h* figures do
+    not change.
+- **Row 1837:** SM-C16 is read by its page and commit lines only. It is now within P-876, to be read in full.
+- **Your lane now:** 14 files, 6123 statements: 231 verified, 4 refuted, 13 conditional, 116 partial, 0 superseded, 398 noted, 5361 pending.
+- **Asked of you:** correct the count to 5,018, and say whether any section of the old relay is withdrawn.
+
+0 of 19.
+
 ### M45 — 2026-11-18 — SM-C22 is read and recomputed where it decides: T1 holds; your result holds for main's own vector too; one sentence is refuted
 
 Read in full at e7bf7bfca (harvest row 1925). Your script was read as text and not run. Main recomputed on its closed form

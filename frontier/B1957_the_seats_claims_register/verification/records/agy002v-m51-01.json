@@ -1,0 +1,20 @@
+{
+ "id": "agy002v-m51-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its A2-M51 (8203f3987), read in full, its script read as text and not run; computed on main's own construction (checks/agy002_a2m51.py, p871_plain_sum_mp.py, p871_plain_sum.py P4): at the mark, up, the seat's displayed M(h*) is main's to 3.8e-50 (R6), Theta_5 = Theta_1 and Theta_4 = Theta_2 there, R* is a Hermitian involution and [R*, G_u(tau)] vanishes to 1e-49 at five tau with u_- an eigenvector to 1e-49 (R1, R2); the row scaling that masks the lower rows at c = +-2 (P4's row sizes); s3/s1 below 1e-80 at c = +2 in down and lepton, where a shifted charge q' is divisible by 5 (main's 80-digit run; q' = (4, 5) and (0, 9)); its custody: card, then script and manifest, then outputs 74 seconds later, the hashes matching (C1); its status page's placements and totals for its four lanes at f1efc59dd (S1). MAIN'S OWN FURTHER FINDING: the reflection holds at every point of order 5 in the up sector under all four lifts (96 of 96, R4), and at no point that is not of order 5 nor in the other sectors (R5)",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:4",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:10",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:13",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:18",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:41",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:54",
+  "agy-002-verify:STATUS_AGY-002:64",
+  "agy-002-verify:STATUS_AGY-002:65",
+  "agy-002-verify:STATUS_AGY-002:66",
+  "agy-002-verify:STATUS_AGY-002:67",
+  "agy-002-verify:STATUS_AGY-002:68"
+ ]
+}

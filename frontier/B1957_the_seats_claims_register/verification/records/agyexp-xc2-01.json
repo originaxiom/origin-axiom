@@ -3,21 +3,12 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "the seat's exact findings on the web seat's note of harvest row 1464 (the two words). ON MAIN (checks/agyexp_older_notes.py, O6): |det(LR - 1)| = |det(RL - 1)| = 1, so the only solution modulo 1 is zero; the order of LR modulo 2, 5, 10, 25, 30 is 3, 10, 30, 50, 60; L^2 R has |trace - 2| = 2 and fixes 2 of the 4 points of order dividing 2. NOT ON MAIN: its counts of solutions under the four combinations of centre phases and outer conjugation (1, 5, 25, 125 with 100 lines of order 25), the minimal cover degrees and their dependence on the basis: its own run",
- "note": "",
+ "note": "RESTORED 2026-11-18 (agy-exp's harvest review, 3A): lines 41, 46, 47, 48, 49, 50, 52, 53, 55 moved to agyexp-xc2-01v, VERIFIED: main's own scripts compute them.",
  "units": [
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:41",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:43",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:44",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:45",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:46",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:47",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:48",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:49",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:50",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:51",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:52",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:53",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:54",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:55"
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:54"
  ]
 }

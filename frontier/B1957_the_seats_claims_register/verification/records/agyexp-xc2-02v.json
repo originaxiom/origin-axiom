@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-xc2-02v",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "RESTORED 2026-11-18, a fault of main's found by agy-exp (its harvest review, 3A; harvest row 1946): main had narrowed these lines as not computed, and a committed script of main's computes each in full: checks/agyexp_older_notes.py O6 (266 lines of exact order at most 12 up to sign) (checks/agyexp_m39_m41.py K2 quotes each run line). Lines: 66",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:66"
+ ]
+}

@@ -5,7 +5,6 @@
  "how": "'The hierarchy lives only on vectors concentrated on one or two modes', and the status page's 'appears only on single modes and pairs', are false as written: main's coherent vector h* = (1/sqrt 2, e^(i pi/12)/2, 0, 0, 0, e^(i pi/12)/2) has weight on three modes and a hierarchy at every point's median (E(s3/s1) 1.09 down, 1.33 up; at the mark (1/5, 4/5) down and (0, 4/3) up), on main's closed form under the seat's own definitions (checks/sm_c22.py, S3). What the scan shows is that its single modes and pairs have a hierarchy and its spread vectors do not",
  "note": "The seat's reading (its lines 38 to 42) says a hierarchy needs a vector supported on few modes; h* is consistent with that reading, and not with 'one or two'.",
  "units": [
-  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:16",
-  "sm:STATUS_SM:466"
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:29"
  ]
 }

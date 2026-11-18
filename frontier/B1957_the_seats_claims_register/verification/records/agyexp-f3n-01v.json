@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-f3n-01v",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "RESTORED 2026-11-18, a fault of main's found by agy-exp (its harvest review, 3A; harvest row 1946): main had narrowed these lines as not computed, and a committed script of main's computes each in full: checks/agyexp_older_notes.py O3 (theta_1 odd, entering as a product of two; theta_2, theta_3, theta_4 even) (checks/agyexp_m39_m41.py K2 quotes each run line). Lines: 33, 34",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE:33",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE:34"
+ ]
+}

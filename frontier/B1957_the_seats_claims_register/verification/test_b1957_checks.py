@@ -1165,8 +1165,8 @@ def test_main_read_every_verified_statement_of_the_physical_lane():
     for x in L["units"]: assert owner[x["unit"]] == [("%s-r3%s" % (x["record"], x["decision"].lower()), want[x["decision"]])], x["unit"]
     kept = set(L["read_units"]) - narrowed
     assert all(len(owner[u]) == 1 and owner[u][0][1] == "VERIFIED" for u in kept)
-    since = ()                                                     # records written later from main's own reading of new packages
-    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in kept and not o[0][0].startswith(since)]
+    since = ("physical-m16b-", "physical-c3i-")                   # records written later from main's own reading of new packages (2026-11-18, later)
+    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in kept and not (since and o[0][0].startswith(since))]
     assert unread == [], unread[:5]
 
 
@@ -1216,6 +1216,27 @@ def test_the_seats_older_rows_and_the_physical_answer():
     assert "S2: 27 seat labels; 662 rows; 219 of them name no file; files: {'in the register': 125, 'not found': 16, 'on a branch, not in the register': 320}" in run
     ph = (here / "physical_m13_m16_run.txt").read_text()
     assert ph.count("the same: True") == 2 and "adds the card C3i: True" in ph
+
+
+def test_the_batch_of_harvest_rows_1943_to_1947():
+    """added 2026-11-18: agy-002's A2-M51 on main's construction (the reflection identity at every up-sector point of order 5,
+    the seat's matrix, custody, its four lanes' totals); P-871 at 80 digits (every obstructed c = +-2 case drifts, the
+    unobstructed one does not); main's C22 S3 unchanged with the SVD at 60 digits; the web seat's section 24 at 7d3776b67;
+    agy-exp's slips, 3A citations and 3B lines; the SM seat's listing of its 181 rows."""
+    import re
+    here = pathlib.Path(__file__).resolve().parent / "checks"; r = lambda f: (here / f).read_text()
+    a = r("agy002_a2m51_run.txt")
+    line = next(l for l in a.split("\n") if l.startswith("R1/R2 at the mark, up:")); vals = [float(x) for x in re.findall(r"(?:commutator|residual) ([0-9.]+e-\d+)", line)]
+    assert "in 96 of 96 cases" in a and len(vals) == 10 and max(vals) < 1e-45, vals
+    assert "largest entry difference 3.8e-50" in a and "outputs absent at the script's commit: True" in a and "'PENDING': 0}" in a and "'VERIFIED': 179" in a
+    m = r("p871_plain_sum_mp_run.txt")
+    for c, sec, e, ch in re.findall(r"M c = ([+-]\d), (\w+) \(E = (\d)\): S: ratios \([^)]*\), change ([0-9.e+-]+)", m):
+        assert (float(ch) < 1e-70) if e == "0" else (1e-27 < float(ch) < 1e-22), (c, sec, e, ch)
+    assert "median E(s3/s1) down 1.0911, up 1.3268" in r("sm_c22_mp_run.txt")
+    w = r("web_section24_run.txt")
+    assert "new or changed since f1efc59dd: 18" in w and "1881 verified, 2 refuted, 160 conditional, 756 partial, 59 superseded, 5022 noted, 42 pending" in w and "1903 verified, 5042 noted, 0 pending" in w
+    k = r("agyexp_m39_m41_run.txt"); assert "all: True" in k and "each VERIFIED there in the record it names: True" in k and "K J K^-1 = J^-1: True" in k
+    s2 = r("sm_harvest_review_run.txt"); assert "rows by the rule at f1efc59dd: 181; its listing: 181 rows; the same rows: True; the same rows with the same cut texts: True" in s2
 
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of

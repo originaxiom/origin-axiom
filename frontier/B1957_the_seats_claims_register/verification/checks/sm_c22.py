@@ -1,4 +1,6 @@
 """B1957: the SM seat's card SM-C22 (its branch at e7bf7bfca: SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md, its card, its script read as
+# NOTED 2026-11-18 (the physical lane's C22 intake): the theta entries are evaluated at 60 digits and cast to double before the
+# SVD below; the SVD is double precision. sm_c22_mp.py repeats S3 with the SVD at 60 digits and gets the same figures.
 text and not run), on main's own closed form (cim_closed.Y_mp, 60 digits) with SM-C22's definitions as its script states them:
 the top-aligned share (|<u_1(up), u_1(down)>| > 0.99 at height 10, over the 24 points of order 5, lift (0, 0), Re tau = 0.13)
 and the median over the 24 points of the down sector's exponent E(s3/s1) between heights 8 and 10.

@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-xnv-01v",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "RESTORED 2026-11-18, a fault of main's found by agy-exp (its harvest review, 3A; harvest row 1946): main had narrowed these lines as not computed, and a committed script of main's computes each in full: checks/web_wf17_on_main.py Q1 (all eighteen homomorphism and surjection counts) (checks/agyexp_m39_m41.py K2 quotes each run line). Lines: 52, 53",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:52",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:53"
+ ]
+}

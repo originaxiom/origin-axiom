@@ -1,0 +1,21 @@
+{
+ "id": "agy002v-m51-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: the uncentered 80-digit drift of every case, none where E = 0 and 2e-26 to 7e-24 where E is not 0 at c = +-2, is main's own computation (checks/p871_plain_sum_mp.py) and agrees with each of its figures; the drift weighted by its reading of D4's flat metric, and its figures, are its own run; the 2 x 2 block's asymptotic orders and the down sector's rank-one Schur argument for the limit at rate e^(-pi y/10) are its own: main's distances at heights 8, 14, 24 (agy002_a2x1.py X2) sit at 0.80, 0.71, 0.71 of e^(-pi y/10), consistent and not a proof",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:26",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:31",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:46",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:47",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:48",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:49",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:50",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:51",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:52",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT:53",
+  "agy-002-verify:STATUS_AGY-002:71",
+  "agy-002-verify:STATUS_AGY-002:72"
+ ]
+}

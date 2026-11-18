@@ -5,13 +5,13 @@
  "how": "its conclusions: that the two properties sit on opposite sides, and that frame D1 is closed at the cusp 'for every Higgs vector ... structurally'. Main's computation agrees on every vector it ran (the six modes, h*), and T1 is proved; the claim for every vector rests on a scan and on a reading the page itself says is not a proof, so 'every Higgs vector' is not established. The chain SM-C18 to SM-C22 in one line holds for what each card established (main's records sm-c18 to sm-c21)",
  "note": "",
  "units": [
-  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:25",
-  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:34",
-  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:46",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:38",
   "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:47",
-  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:48",
-  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:49",
-  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:50",
-  "sm:STATUS_SM:468"
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:59",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:60",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:61",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:62",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:63",
+  "sm:STATUS_SM:469"
  ]
 }

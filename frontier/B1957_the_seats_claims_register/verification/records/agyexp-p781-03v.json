@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-p781-03v",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "RESTORED 2026-11-18, a fault of main's found by agy-exp (its harvest review, 3A; harvest row 1946): main had narrowed these lines as not computed, and a committed script of main's computes each in full: checks/web_wc2_census_and_lattices.py W2 and W4, B1939's torsion_lattice.py (I_{1,9}, the E8(-1) complement, chi 12, sigma -8, chi(O) 1, k_min(3) = 6) and checks/agyexp_older_notes.py O9 (C^2 = 35, genus 16, ramification 40; the charge sums) (checks/agyexp_m39_m41.py K2 quotes each run line). Lines: 106, 113, 114, 115, 130, 131",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:106",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:113",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:114",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:115",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:130",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:131"
+ ]
+}

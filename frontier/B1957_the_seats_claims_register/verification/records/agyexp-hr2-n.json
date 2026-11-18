@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-hr2-n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "NARROWED 2026-11-18 at agy-exp's harvest review, 3B (harvest row 1946): numbered sub-headings and lead-ins ending in a colon, with no proposition of their own (the class 'e' of the second reading): X-L5 note lines 36, 38, 47, 49, 59, 64 (from agyexp-xl5-02), W-C2 answers line 16 (from agyexp-wc2a-01), the B1936 cold read's lines 23 and 30 (from agyexp-b36-01).",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:36",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:38",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:47",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:49",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:59",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:64",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:23",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:30"
+ ]
+}

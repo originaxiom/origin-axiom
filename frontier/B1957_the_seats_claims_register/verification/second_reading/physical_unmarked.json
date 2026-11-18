@@ -1080,7 +1080,7 @@
    "unit": "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION:115",
    "record": "physical-ff-01",
    "decision": "P",
-   "why": "the Kahler potential 2 sqrt(tr Z Z^dagger) is not computed"
+   "why": "identifying 2 sqrt(tr Z Z^dagger) as the Kahler potential of the quotient metric (its Hessian) is not computed [corrected 2026-11-18, at the physical lane's M16 response: this read 'the Kahler potential 2 sqrt(tr Z Z^dagger) is not computed'; G1 computes its value on the balanced representative]"
   },
   {
    "unit": "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION:138",
@@ -1230,7 +1230,7 @@
    "unit": "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION:150",
    "record": "physical-ff-01",
    "decision": "P",
-   "why": "that the second operation leaves the subfamily (W = -A) is not computed"
+   "why": "the general clauses (that the second operation generally leaves the subfamily, the swap, the full native architecture) are not computed [corrected 2026-11-18, at the physical lane's M16 response: this read 'that the second operation leaves the subfamily (W = -A) is not computed'; G7 computes the W = -A witness, A W = 1]"
   },
   {
    "unit": "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION:158",
@@ -3274,7 +3274,7 @@
   "physical:PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR:47",
   "physical:PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS:32",
   "physical:PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS:50",
-  "physical:STATUS_PHYSICAL:296",
+  "physical:STATUS_PHYSICAL:333",
   "physical:docs/SEAL_LEDGER:9413",
   "physical:docs/SEAL_LEDGER:9417",
   "physical:docs/SEAL_LEDGER:9418",

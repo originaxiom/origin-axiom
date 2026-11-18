@@ -1,0 +1,12 @@
+{
+ "id": "agyexp-p781-01v",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "RESTORED 2026-11-18, a fault of main's found by agy-exp (its harvest review, 3A; harvest row 1946): main had narrowed these lines as not computed, and a committed script of main's computes each in full: checks/agyexp_older_notes.py O9 (J L J = L^T, J R J = R^T, J (1, 2) = 2 (1, 3) mod 5; W12 fixing the mark; Smith invariants [1, 45] and [1, 105]) (checks/agyexp_m39_m41.py K2 quotes each run line). Lines: 28, 45, 46",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:28",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:45",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:46"
+ ]
+}

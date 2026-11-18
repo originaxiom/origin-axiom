@@ -1,0 +1,15 @@
+{
+ "id": "sm-hr-02",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its own runs: its corrected S1 (no vector of its scan has both a top-aligned majority and a hierarchy; the scan is of 5,018 vectors, not the 5,021 it writes: the physical lane's intake, main's recount, sm-c22-02's note); its check's item F8 (the weights 1/2 and 1/2 on the test channels); the raw and generic level-7 summaries of SM-C14 (eight primes); its results as listed with what to repeat (SM-C13 and -C13b's lepton rows, SM-C14 HE-1)",
+ "note": "",
+ "units": [
+  "sm:SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM:17",
+  "sm:STATUS_SM:466",
+  "sm:STATUS_SM:498",
+  "sm:STATUS_SM:500",
+  "sm:STATUS_SM:507",
+  "sm:STATUS_SM:511"
+ ]
+}

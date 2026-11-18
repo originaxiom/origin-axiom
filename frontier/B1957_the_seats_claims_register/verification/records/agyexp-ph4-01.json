@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "the report's census and lattice statements. ON MAIN: the census 285, 228, 124 with 20, 70 and 34, and the torsion product 5 on the ramified lines (B1939); 1,350 lattice vectors and the curve's genus 16 and ramification 40 (checks/agyexp_older_notes.py, O2, O9). TWO SLIPS OF THE REPORT, both right in its later note of four theorems: it gives the first homology of the bundle of L^5 R L^2 R^2 L R as Z/5 + Z, and the Smith invariants are 1 and 105 (O9); it gives the curve's self-intersection as 60, and it is 35 (O9), the genus it states being that of 35. NOT ON MAIN: the volumes and symmetry groups of the named bundles, the 240 roots found two ways, the nine admitted flux pairs",
- "note": "",
+ "note": "RESTORED 2026-11-18 (agy-exp's harvest review, 3A): line 100 moved to agyexp-ph4-01v, VERIFIED: main's own scripts compute them.",
  "units": [
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:69",
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:70",
@@ -17,7 +17,6 @@
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:81",
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:84",
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:98",
-  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:100",
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:101",
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:102",
   "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:103"

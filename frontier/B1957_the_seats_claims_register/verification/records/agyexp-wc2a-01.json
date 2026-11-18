@@ -3,10 +3,9 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/agyexp_older_notes.py, O2, exact enumeration: the integer five-tuples of sum zero number 20, 30, 60, 60, 120, 40 at half-norm 1 to 6 (330) and 180, 150, 140, 130, 240, 180 at 7 to 12 (1,020), 1,350 in all to 12: the figure 1,020 in its theorem's summary was the upper band's subtotal, as it says and as the web seat's check found",
- "note": "",
+ "note": "NARROWED 2026-11-18 at the seat's harvest review, 3B: lines moved to agyexp-hr2-p (PARTIAL) or agyexp-hr2-n (NOTED), as each says.",
  "units": [
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:12",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:16",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:18",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:19",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:20",

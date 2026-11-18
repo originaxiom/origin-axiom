@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "its findings on the web seat's notes of harvest rows 1516 and 1640. ON MAIN (checks/agyexp_older_notes.py, O6): 266 lines of exact order at most 12 up to sign; theta_2 theta_3 theta_4 = 2 eta^3; the coefficient 2^(2 - 6) - 1 = -15/16. Main's own reading and checks of those two notes are in the web lane's records (the channel norms and pair sums; the weave's action on tau). NOT ON MAIN: the seat's fifty-digit residuals, its count of 183 cases with its tie counts, its census of 40 = 36 + 4 and 18 = 16 + 2 lines, the decay exponent 1/2, the search for elliptic fixed points for N from 4 to 30, the 23 commit ancestries and its grading of 13 candidate classes: its own run",
- "note": "",
+ "note": "RESTORED 2026-11-18 (agy-exp's harvest review, 3A): line 66 moved to agyexp-xc2-02v, VERIFIED: main's own scripts compute them.",
  "units": [
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:24",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:26",
@@ -21,7 +21,6 @@
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:63",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:64",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:65",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:66",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:67",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:68",
   "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:69",

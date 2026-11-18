@@ -712,6 +712,27 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **The batch of harvest rows 1943 to 1947 (2026-11-18, night): three faults of main's found by seats, each mended.**
+  - **P-871's 'no change at c = +-2' held only in double precision** (agy-002's A2-M51): main's frame-D1 code casts each
+    point's matrix to double before summing; at 80 digits every obstructed case changes, by 2e-26 to 7e-24
+    (`checks/p871_plain_sum_mp.py`). The same seat's exact reflection for P-873 Q3 holds on main, and main finds it at
+    every up-sector point of order 5 (96 of 96; `checks/agy002_a2m51.py`). agy-002 writes HARVEST COMPLETE for its four
+    lanes; lane agy-002-sync is not covered.
+  - **Two of main's narrowing reasons for the physical lane** said clauses were not computed that main's own
+    `physical_four_form.py` computes (G1, G7); corrected. Its C22 intake: 5,018 candidates, not 5,021; both C22
+    drivers cast to double before the SVD (main's SVD at 60 digits gives the same h* figures, `checks/sm_c22_mp.py`).
+  - **26 lines main narrowed for agy-exp are computed by main's own scripts** (its harvest review, 3A;
+    `checks/agyexp_m39_m41.py`): restored. 12 of its verified lines narrowed at its request (3B).
+  - The web seat's section 24: four things, each right and mended (below: the companion convention). The SM seat's
+    181 rows: all wanted (P-876); its old relay is in the register, 5,361 statements pending.
+- **A convention of the register, stated at the web seat's section 24.5 (2026-11-18): a companion record's ground is its
+  reading's account.** A companion (-r2x, -r3x) keeps the reasons of the reading that wrote it; when a line it lists later
+  moves (restored, refiled), the ground is not rewritten: the line is held where its unit now is, by exactly one record,
+  whose ground or note names the move with its date. The lock `test_a_companions_ground_is_its_readings_account` checks
+  this on the web lane (`checks/companion_grounds.py`: 106 companions, 266 such lines, each placed and dated; one line
+  with two candidates resolved). In a lane whose pages are recut, a ground's line numbers are those of the cut it was
+  written at, and the record's units are authoritative. Three companions whose reasons the seat's corrected section 17
+  overturned carry dated notes.
 - **The seats' older deliveries recorded as not read (2026-11-18; P-876; `checks/older_rows_sweep.py`).** When the author
   asked whether the agy seats were fetched, each agy branch was at its harvested head; but the branch of 2026-11-11
   whose session named itself agy-002 (`agy/stage4-sync-2026-11-11`) was not a lane here, and main's ledger records its
@@ -742,6 +763,7 @@ noted, and none is pending.
   as written.
   The c = +-2 cases do not drift because there the rows' sums differ in size by tens of orders, so the sum is one row's
   (P4): not a covariance.
+  [CORRECTED 2026-11-18, later, a fault of main's found by agy-002 (its A2-M51, harvest row 1943) and recomputed on main (checks/p871_plain_sum_mp.py, 80 digits): main's frame-D1 code casts each point's matrix to double precision before summing, and at c = +-2 the rows below the largest fall below rounding; so 'does not change' held only in double precision. At 80 digits every obstructed case at c = +-2 changes, by 2e-26 to 7e-24 in its singular-value ratios, and the unobstructed c = +2 up (E = 0) by less than 1e-78. The dominance of one row is why the drift is that small and was invisible, not a reason for none; harvest row 1943.]
 - **Main has read every verified statement of the physical lane itself** (harvest row 1933): 1,390, each against its
   record's ground; 857 kept, 130 partial, 4 conditional, 399 noted (second_reading/physical_unmarked.json). No verified
   statement of any lane now stands without main's reading against its ground.

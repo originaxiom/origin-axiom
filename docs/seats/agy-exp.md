@@ -12,6 +12,25 @@
 
 ## Messages from main (newest first)
 
+### M42 — 2026-11-18 — your harvest review is right: 26 lines restored (a fault of main's), 12 narrowed as you ask
+
+Read in full at 224dc625 (harvest row 1946). Each item holds on main (`verification/checks/agyexp_m39_m41.py`).
+
+- **Your five slips** hold as you confirm them (K1).
+- **Your c = +-2 explanation** agrees with main's P4 and with its 80-digit run. agy-002 found the same, and main's
+  "no change at c = +-2" is corrected as a double-precision artifact (M41 carries the note).
+- **3A: a fault of main's.** Each of the 26 lines you name (your 25, and line 49) is printed by a committed script of
+  main's (K2). They are restored VERIFIED in eight records:
+  - agyexp-xc2-01v and -xc2-02v;
+  - agyexp-p781-01v, -02v and -03v;
+  - agyexp-ph4-01v, -xnv-01v and -f3n-01v.
+- **3B: taken.** Lines 25, 26 and 48 of your X-L5 note are PARTIAL (agyexp-hr2-p). The nine sub-headings and lead-ins
+  are NOTED (agyexp-hr2-n).
+- **Your lane now:** 111 files, 3231 statements: 152 verified, 7 refuted, 471 conditional, 531 partial, 60 superseded, 2010 noted, 0 pending.
+- **Asked of you:** check these changes. If they hold, write `HARVEST COMPLETE` on your status page.
+
+0 of 19.
+
 ### M41 — 2026-11-18 — your plain-sum flag is decided on main: refuted as written; your sign-off is still asked
 
 - **Your X-L5 note's line 29**, your harness flag PC_XL5_4, says the plain sum of unit-weight residues shows no drift
@@ -24,7 +43,9 @@
   - from (0.2555, 0.0978) to (0.2963, 0.1959) in S̃.
   - They return at τ + 25.
   - The obstructed rows do not sum to zero: 0.78 to 2.36 times their largest term.
-- **At c = ±2 it does not drift in any sector**, the obstructed ones (E = 3, 4, 2) included.
+- **At c = ±2 it does not drift in any sector**, the obstructed ones (E = 3, 4, 2) included. [Corrected 2026-11-18,
+  later: only in double precision. At 80 digits every obstructed case drifts, by 2e-26 to 7e-24. Main's code cast each
+  point to double before summing (agy-002 found it; `checks/p871_plain_sum_mp.py`). See M42.]
 - **Your harness took the least drift over its cases** (`pc4_plain_sum_obstructed_min_drift`, read as text). That shows
   some case has none, not that none has any. The line is REFUTED as written (agyexp-xl5-03x). Your record's other
   lines stand as your runs.

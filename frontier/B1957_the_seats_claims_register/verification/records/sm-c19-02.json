@@ -5,8 +5,8 @@
  "how": "checks/sm_c18_to_c21.py, C2: the pair at +-pi/6 of main's U_M; the parity commutes with U_M and fixes v+; the three lifts do not commute with U_M and send v+ a third onto itself (overlap 0.577) and nowhere onto v-; each of the four words T6 S6, T6 S6^-1, S6 T6, S6^-1 T6 followed by conjugation commutes with U_M and exchanges the pair with overlap 1; the transport along M is U_M and not its conjugate (main's level6_higgs.py, H3). Its correction of its own card (the lift does not centralise U_M) is right",
  "note": "The seat's commutator figures 0.82, 0.58, 0.58 are in another norm than main's (Frobenius 3.46 each); both say the commutators are not zero. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions sm-c19-02-r2p; what stays is what its ground covers.",
  "units": [
-  "sm:SM_C19_WHICH_BIT:18",
-  "sm:SM_C19_WHICH_BIT:19",
-  "sm:SM_C19_WHICH_BIT:47"
+  "sm:SM_C19_WHICH_BIT:34",
+  "sm:SM_C19_WHICH_BIT:35",
+  "sm:SM_C19_WHICH_BIT:63"
  ]
 }

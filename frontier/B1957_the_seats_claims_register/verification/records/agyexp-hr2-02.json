@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-hr2-02",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its own: that in double precision a lower Im tau or centred points expose the drift, with the magnitudes it gives; main has not computed these",
+ "note": "",
+ "units": [
+  "agy-exp:STATUS_AGY-EXP:293"
+ ]
+}

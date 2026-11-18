@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-ff-01, verified. The physical lane read every record of its own lane itself, so no sorter read this lane; main read all 1,390 of its verified statements one by one against their records' grounds. Narrowed: each line has a figure or a clause that the record's ground does not name and no script of main's computes; the clause, by line, is in second_reading/physical_unmarked.json. The parent's ground stands for what it names.",
- "note": "",
+ "note": "CORRECTED 2026-11-18, a fault of main's found by the physical lane (its M16 response, harvest row 1944): two narrowing reasons said a clause was not computed that main's own physical_four_form.py computes: line 115's potential's value on the balanced representative (G1) and line 150's W = -A witness (G7). Both lines stay partial, on the Hessian identification and on the wider clauses; the reasons in second_reading/physical_unmarked.json are corrected.",
  "units": [
   "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/BASED_REGISTER_AND_RELATIONAL_REFERENCE:102",
   "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/BASED_REGISTER_AND_RELATIONAL_REFERENCE:202",

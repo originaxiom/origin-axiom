@@ -585,35 +585,35 @@
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:9",
+   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:19",
    "record": "sm-c21-01",
    "class": "b",
    "why": "\"exponents go to 0\" is extrapolation; how only gives small, shrinking values",
    "decision": "K"
   },
   {
-   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:13",
+   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:23",
    "record": "sm-c21-01",
    "class": "b",
    "why": "\"D1 has no cusp hierarchy\" overreaches; note says frame D1 is another realisation, not computed",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:28",
+   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:38",
    "record": "sm-c21-01",
    "class": "c",
    "why": "row carries expectation percentage (35%), seat's own",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:30",
+   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:40",
    "record": "sm-c21-01",
    "class": "c",
    "why": "row carries expectation percentage (70%)",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:31",
+   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:41",
    "record": "sm-c21-01",
    "class": "a",
    "why": "rational denominators <=10, distances 0.004-0.012, v+/v- difference not in how",
@@ -622,7 +622,7 @@
    "changed": "2026-11-18, after the landing of the second reading, at main's own second look at the lines it had kept: 0.012 is main's; the least distance 0.004 is the seat's figure and is not in main's ground"
   },
   {
-   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:32",
+   "unit": "sm:SM_C21_THE_D1_CUSP_MIXING:42",
    "record": "sm-c21-01",
    "class": "a",
    "why": "1e-15 agreement and 70% expectation not in how",
@@ -706,28 +706,28 @@
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C19_WHICH_BIT:8",
+   "unit": "sm:SM_C19_WHICH_BIT:24",
    "record": "sm-c19-02",
    "class": "b",
    "why": "\"averaged over the lifts it is the whole ground space\" not covered",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C19_WHICH_BIT:25",
+   "unit": "sm:SM_C19_WHICH_BIT:41",
    "record": "sm-c19-02",
    "class": "a",
    "why": "seat's commutator figures 0.82/0.58 (other norm per note), 6e-16, 60% expectation",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C19_WHICH_BIT:26",
+   "unit": "sm:SM_C19_WHICH_BIT:42",
    "record": "sm-c19-02",
    "class": "a",
    "why": "1.7e-15 and 80% expectation not stated in how",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C19_WHICH_BIT:27",
+   "unit": "sm:SM_C19_WHICH_BIT:43",
    "record": "sm-c19-02",
    "class": "a",
    "why": "residual 1e-15 and 65% expectation not in how",
@@ -736,7 +736,7 @@
    "changed": "2026-11-18, after the landing of the second reading, at main's own second look at the lines it had kept: the four words exchange the pair, as computed (C2); 'the bit is the hand' is the card's reading, which main's computation contradicts as written: the unitary S6 exchanges the pair too (register row P-873)"
   },
   {
-   "unit": "sm:SM_C19_WHICH_BIT:29",
+   "unit": "sm:SM_C19_WHICH_BIT:45",
    "record": "sm-c19-02",
    "class": "a",
    "why": "2.9e-15 and 0.82 figures not in how",
@@ -799,35 +799,35 @@
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:10",
+   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:22",
    "record": "sm-c20-01",
    "class": "a",
    "why": "2.4e-15 vs how's 1.7e-15",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:24",
+   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:36",
    "record": "sm-c20-01",
    "class": "a",
    "why": "1.2e-16, 9.4e-16 and 95% expectation not in how",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:25",
+   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:37",
    "record": "sm-c20-01",
    "class": "a",
    "why": "2.4e-15, 1.5e-15, 75% expectation not in how",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:26",
+   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:38",
    "record": "sm-c20-01",
    "class": "c",
    "why": "row carries 90% expectation",
    "decision": "P"
   },
   {
-   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:28",
+   "unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:40",
    "record": "sm-c20-01",
    "class": "b",
    "why": "sigma = T.J factorisation not in how; rests on R0-as-conjugation step not written out (note)",

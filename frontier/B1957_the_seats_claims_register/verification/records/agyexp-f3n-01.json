@@ -3,11 +3,9 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "the note's section 3, that negating every matter charge leaves the frame unchanged. ON MAIN: the identity was first seen numerically on main's frame (register row P-847); theta_1 is odd and theta_2, theta_3, theta_4 are even under z -> -z (checks/agyexp_older_notes.py, O3), which is the note's reason, the odd one entering as a product of two. NOT COMPUTED: the step for the regularised channel norm (the lattice inversion), read and found right by hand",
- "note": "",
+ "note": "RESTORED 2026-11-18 (agy-exp's harvest review, 3A): lines 33, 34 moved to agyexp-f3n-01v, VERIFIED: main's own scripts compute them.",
  "units": [
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE:31",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE:33",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE:34",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE:35",
   "agy-exp:AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE:36"
  ]
