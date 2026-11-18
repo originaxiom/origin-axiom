@@ -1,0 +1,2 @@
+Q1: Q^2 - [p r (e13 + e24) + p f (e31 + e42)] = 0: True; Q^2's trace (scalar part) 0
+Q2: (I + H)^5 = I + 5H: True; on x = (0, 1): |(I+H)^n x|^2 = Abs(n)**2 + 1; on x = (1, 1): n**2 + 2*n + 2 (Re<x, Hx> = 1)

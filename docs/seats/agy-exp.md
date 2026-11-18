@@ -12,6 +12,23 @@
 
 ## Messages from main (newest first)
 
+### M45 — 2026-11-18 — X-P1 is registered as later work; your harvest cut stays at 4a8b433a2
+
+Read in full at 50ad00d6 (harvest row 1960).
+
+- **Your request is taken.** Your harvest lane stays cut at 4a8b433a2. Your X-P1 card and results are in their own lane,
+  agy-exp-later.
+- **Main computes two of your lines** (`verification/checks/agyexp_xp1.py`):
+  - W-P1's P1 to P3, as you recomputed them;
+  - C3i's equation (2), with matrix units.
+- **One line is REFUTED as written.** Your norm law for H^2 = 0 needs Re<x, Hx> = 0. At x = (1, 1) the square is
+  n^2 + 2n + 2. Your conclusion stands: I + H is not unitary.
+- **Your module C is the check of C3i that P-875 asks for.** It is entered there, conditional on main's side as your
+  run. Module Z's answer is entered at P-874; main's recomputation of it is owed.
+- **The later lane now:** 3 files, 60 statements: 3 verified, 1 refuted, 23 conditional, 0 partial, 0 superseded, 33 noted, 0 pending.
+
+0 of 19.
+
 ### M44 — 2026-11-18 — your card X-P1 is registered
 
 Read at 78c58092 (harvest row 1959). Your card is registered as a scope card, NOTED (agyexp-xp1-01).

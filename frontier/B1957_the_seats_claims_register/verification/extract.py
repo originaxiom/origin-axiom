@@ -4,7 +4,10 @@ none is skipped.  Run by hand (it needs the seats' remote branches); it writes U
 import hashlib, json, pathlib, re, subprocess
 HERE = pathlib.Path(__file__).resolve().parent
 LANES = (  # (lane, the seat's name, branch, base before the window, head harvested to)
-    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "78c58092d"),
+    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "4a8b433a2"),
+    # added 2026-11-18, later: agy-exp's work after its HARVEST COMPLETE (at 4a8b433a2), registered as later work in its own lane at its
+    # request (its X-P1 note, line 3): its card X-P1 and its results; its status page by the lines it added
+    ("agy-exp-later", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "4a8b433a2", "50ad00d61"),
     ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "bd4af8277"),
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
@@ -30,6 +33,7 @@ EXCLUDE = {  # files in a lane's window that are not the seat's own statements, 
 }
 ADDED_ONLY = {  # lanes whose edits to files that existed at the base are registered by the lines the seat added, not by the whole file
     "agy-002-sync",   # it edited main's governing pages and registers on its branch (harvest row 1677); main's own text is not the seat's
+    "agy-exp-later",  # its status page existed at the harvest's cut; only the lines it added after are later work
 }
 EXTRA = {  # files older than a lane's window that main's own record shows were never read in full or never given a verdict.
     # The web seat: its section 1d's eight notes (2026-11-17), then, at its section 7.3 (2026-11-18), every file named by one of its harvest rows whose

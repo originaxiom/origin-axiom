@@ -1,16 +1,29 @@
 {
  "lanes": {
   "agy-exp": {
-   "files": 112,
+   "files": 111,
    "read": 66,
-   "units": 4009,
-   "statements": 3260,
+   "units": 3984,
+   "statements": 3236,
    "VERIFIED": 157,
    "REFUTED": 7,
    "CONDITIONAL": 471,
    "PARTIAL": 531,
    "SUPERSEDED": 60,
-   "NOTED": 2034,
+   "NOTED": 2010,
+   "PENDING": 0
+  },
+  "agy-exp-later": {
+   "files": 3,
+   "read": 3,
+   "units": 68,
+   "statements": 60,
+   "VERIFIED": 3,
+   "REFUTED": 1,
+   "CONDITIONAL": 23,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 33,
    "PENDING": 0
   },
   "agy-002-verify": {
@@ -1419,19 +1432,6 @@
    "NOTED": 11,
    "PENDING": 0
   },
-  "agy-exp | relays/cards/AGY-EXP_X-P1_exterior-operator-join-symmetry-nullity-wp1-and-c3i-check.md": {
-   "lane": "agy-exp",
-   "units": 25,
-   "statements": 24,
-   "read": false,
-   "VERIFIED": 0,
-   "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 24,
-   "PENDING": 0
-  },
   "agy-exp | relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md": {
    "lane": "agy-exp",
    "units": 30,
@@ -1586,6 +1586,45 @@
    "PARTIAL": 15,
    "SUPERSEDED": 0,
    "NOTED": 8,
+   "PENDING": 0
+  },
+  "agy-exp-later | relays/AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I.md": {
+   "lane": "agy-exp-later",
+   "units": 36,
+   "statements": 30,
+   "read": true,
+   "VERIFIED": 2,
+   "REFUTED": 1,
+   "CONDITIONAL": 19,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 8,
+   "PENDING": 0
+  },
+  "agy-exp-later | relays/STATUS_AGY-EXP.md": {
+   "lane": "agy-exp-later",
+   "units": 7,
+   "statements": 6,
+   "read": true,
+   "VERIFIED": 1,
+   "REFUTED": 0,
+   "CONDITIONAL": 4,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 1,
+   "PENDING": 0
+  },
+  "agy-exp-later | relays/cards/AGY-EXP_X-P1_exterior-operator-join-symmetry-nullity-wp1-and-c3i-check.md": {
+   "lane": "agy-exp-later",
+   "units": 25,
+   "statements": 24,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 24,
    "PENDING": 0
   },
   "agy-002-verify | relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md": {

@@ -1,0 +1,10 @@
+{
+ "id": "agyexpl-xp1-02",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "AS WRITTEN: for H^2 = 0 and Hx != 0 it states |(I + H)^n x|^2 = |x|^2 + n^2 |Hx|^2; in general the square is |x|^2 + 2n Re<x, Hx> + n^2 |Hx|^2, and at x = (1, 1) with H = [[0, 1], [0, 0]] it is n^2 + 2n + 2 (checks/agyexp_xp1.py, Q2). The law holds when Re<x, Hx> = 0, as on its test state perhaps; its conclusion stands, that I + H is not unitary (the physical lane's C3i section 7)",
+ "note": "",
+ "units": [
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:59"
+ ]
+}

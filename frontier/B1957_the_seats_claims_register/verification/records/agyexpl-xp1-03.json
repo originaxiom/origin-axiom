@@ -1,0 +1,32 @@
+{
+ "id": "agyexpl-xp1-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its own run's results, with its custody (card and script before the run, outputs committed unread, 55 digits): module J (the dimension-2 sl(5)-invariant classification in both Weil classes, the Georgi-Jarlskog Clebsch -3, the linear commutant wall, the exterior-derivation Gramians and the residue dyad law); module Z (P-874's second question without data: at tau = i and rho the pointwise couplings and the four non-abelian Gramians have full rank, and B1953's covariant phased sum F has rank 2 and a forced null mode, by stabilizer covariance); module W's answer on W-P1's section 5, item 2 (S and S-tilde repeat in one turn, S* does not; the sign of B on the Higgs plane); module C (C3i's equations (1) to (7) the same on another model, in the full 32 x 32 Cl(10) and the 8-block complex, with the chirality scalar law it states): a check of C3i by a seat that did not write it (P-875, Q2), conditional on main's side as its run",
+ "note": "",
+ "units": [
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:12",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:13",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:15",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:16",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:18",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:21",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:31",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:32",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:33",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:35",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:42",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:44",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:45",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:51",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:53",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:54",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:57",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:58",
+  "agy-exp-later:AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I:60",
+  "agy-exp-later:STATUS_AGY-EXP:355",
+  "agy-exp-later:STATUS_AGY-EXP:356",
+  "agy-exp-later:STATUS_AGY-EXP:357",
+  "agy-exp-later:STATUS_AGY-EXP:358"
+ ]
+}

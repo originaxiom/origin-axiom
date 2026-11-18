@@ -425,15 +425,15 @@
    "CONVENTIONS": "on a branch, not in the register",
    "W138_RULE": "on a branch, not in the register",
    "SM_C1_VERDICTS": "on a branch, not in the register",
-   "SM_C2_VERDICTS": "on a branch, not in the register",
    "STATUS_SM": "in the register",
+   "SM_C2_VERDICTS": "on a branch, not in the register",
    "SM_C5_WP19_COMPUTATIONS": "on a branch, not in the register",
    "SM_C6_E1_THE_BASED_COUNT": "on a branch, not in the register",
    "SM_C6_E2_THE_RANK_OF_THE_BITS": "on a branch, not in the register",
    "SM_C6_E6_FILLING_DESCENT": "on a branch, not in the register",
    "SM_C6_E5_THE_DECKS_ANOMALY": "on a branch, not in the register",
-   "SM_C8_the-partner-test": "on a branch, not in the register",
    "SM_ANSWER_M22_W31": "on a branch, not in the register",
+   "SM_C8_the-partner-test": "on a branch, not in the register",
    "SM_LITERATURE_NOTE_1": "on a branch, not in the register",
    "SM_SCOPE_NOTE_CLOSED_JOINS": "on a branch, not in the register",
    "SM_C10_the-one-tick-object": "on a branch, not in the register",
@@ -450,14 +450,14 @@
    "SM_PROPOSAL_THE_CRITICAL_PATH": "on a branch, not in the register",
    "SM_C16_THE_ACTION_AS_THE_WEIGHT": "on a branch, not in the register",
    "SM_C17_THE_ACTION_AS_A_PHASE": "on a branch, not in the register",
+   "SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE": "in the register",
+   "SM_C20_is-the-exchange-the-tick": "in the register",
+   "SM_C20_THE_EXCHANGE_IS_THE_TICK": "in the register",
    "SM_C21_the-d1-cusp-mixing-at-the-ticks-higgs": "in the register",
    "SM_C18_the-triple-overlaps-covariance": "in the register",
-   "SM_C20_is-the-exchange-the-tick": "in the register",
    "SM_C19_WHICH_BIT": "in the register",
    "SM_C19_which-bit-is-the-higgs-ground-bit": "in the register",
    "SM_C21_THE_D1_CUSP_MIXING": "in the register",
-   "SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE": "in the register",
-   "SM_C20_THE_EXCHANGE_IS_THE_TICK": "in the register",
    "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT": "in the register"
   }
  },
@@ -577,8 +577,8 @@
    "B1233_B1234_FRESH_MAIN_SCOPE_AUDIT": "not found",
    "A1_SU6_RANK_REDUCTION": "not found",
    "CODEX_TO_CC_2026-09-02_A1_RANK_REDUCTION": "not found",
-   "A4_2T_LIFT_TORSOR": "not found",
    "CODEX_TO_CC_2026-09-02_A4_2T_LIFT_TORSOR": "not found",
+   "A4_2T_LIFT_TORSOR": "not found",
    "CODEX_TO_CC_2026-09-01_WAVE9_QUESTION_MAP": "not found"
   }
  },
@@ -1208,8 +1208,8 @@
   "rows_no_file": [],
   "files": {
    "DESIGN_BACK_EDGE_A_THE_STATE": "on a branch, not in the register",
-   "WHY_EACH_CASE_PASSES": "on a branch, not in the register",
    "THE_ADVISOR_SEATS_PLAN": "on a branch, not in the register",
+   "WHY_EACH_CASE_PASSES": "on a branch, not in the register",
    "ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_3_SIX_PATCHES": "on a branch, not in the register",
    "ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES": "on a branch, not in the register",
    "ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ": "on a branch, not in the register",
@@ -1255,18 +1255,18 @@
    "AGY-EXP_X-MEASURE_measure-from-principle-and-area-readout": "on a branch, not in the register",
    "AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ": "in the register",
    "REVIEW_83_AGY-EXP": "in the register",
-   "AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS": "in the register",
    "AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS": "in the register",
-   "AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS": "in the register",
+   "AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS": "in the register",
    "AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS": "in the register",
+   "AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS": "in the register",
    "AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS": "in the register",
    "AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS": "in the register",
-   "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS": "in the register",
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS": "in the register",
-   "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS": "in the register",
+   "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS": "in the register",
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS": "in the register",
-   "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS": "in the register",
+   "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS": "in the register",
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS": "in the register",
+   "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS": "in the register",
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS": "in the register",
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS": "in the register",
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS": "in the register",
@@ -1276,8 +1276,8 @@
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS": "in the register",
    "AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS": "in the register",
    "AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE": "in the register",
-   "AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES": "in the register",
-   "STATUS_AGY": "in the register"
+   "STATUS_AGY": "in the register",
+   "AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES": "in the register"
   }
  },
  "SM seat": {
@@ -1286,8 +1286,8 @@
   ],
   "rows_no_file": [],
   "files": {
-   "REVIEW_79B_SM": "on a branch, not in the register",
-   "SM_R79b_locks-again-answers-and-the-unread-changes": "on a branch, not in the register"
+   "SM_R79b_locks-again-answers-and-the-unread-changes": "on a branch, not in the register",
+   "REVIEW_79B_SM": "on a branch, not in the register"
   }
  },
  "agy-002": {
@@ -1313,8 +1313,8 @@
   "files": {
    "REVIEW_79B_AGY-002": "on a branch, not in the register",
    "AGY-002_A2-R79b_review-79-answers-and-cross-mends": "on a branch, not in the register",
-   "AGY-002_A2-R79d_b1881-23-plants-at-c40446392": "on a branch, not in the register",
    "AGY002_TO_CC_2026-11-12_M10_B1881_23_PLANTS_RERUN": "on a branch, not in the register",
+   "AGY-002_A2-R79d_b1881-23-plants-at-c40446392": "on a branch, not in the register",
    "REVIEW_80_AGY-002": "on a branch, not in the register",
    "AGY002_TO_CC_2026-11-14_M24_CONTEMPLATION_AND_A2_OWN1": "on a branch, not in the register",
    "REVIEW_82_AGY-002": "on a branch, not in the register",
@@ -1322,9 +1322,9 @@
    "AGY002_TO_CC_2026-11-14_M26_M30_A2_LIMIT_PROOF_CHECK": "on a branch, not in the register",
    "REVIEW_83_AGY-002": "in the register",
    "AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT": "in the register",
-   "AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16": "in the register",
    "AGY002_CLOSURE_G4_RESULTS": "in the register",
    "AGY002_CLOSURE_G7B_RESULTS": "in the register",
+   "AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16": "in the register",
    "AGY002_ENDGAME_V2_G3_RESULTS": "in the register",
    "AGY002_ENDGAME_V2_G0_RESULTS": "in the register"
   }
@@ -1343,8 +1343,8 @@
   "files": {
    "AGY-EXP_X-R79b_review-79-answers-and-mends": "on a branch, not in the register",
    "REVIEW_79B_AGY-EXP": "in the register",
-   "AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS": "in the register",
    "STATUS_AGY-EXP": "in the register",
+   "AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS": "in the register",
    "AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS": "in the register",
    "AGY_EXP_TO_CC_2026-11-12_X_C1B_RESULTS": "in the register",
    "AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS": "in the register",
@@ -1359,13 +1359,13 @@
   ],
   "rows_no_file": [],
   "files": {
-   "README": "in the register",
-   "STATUS_CLD-ADVISOR": "on a branch, not in the register",
    "cld-advisor_C2_wp-0-7-series-4": "on a branch, not in the register",
-   "cld-advisor_C6_wp-0-7-series-5": "on a branch, not in the register",
-   "ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS": "on a branch, not in the register",
    "ADVISOR_TO_CC_2026-11-12_REVIEW_79_THE_ELEVEN_FINDINGS_THE_TEN_SPECIFICATIONS_AND_P_816": "on a branch, not in the register",
-   "THE_ADVISOR_SEATS_PLAN": "on a branch, not in the register"
+   "THE_ADVISOR_SEATS_PLAN": "on a branch, not in the register",
+   "STATUS_CLD-ADVISOR": "on a branch, not in the register",
+   "README": "in the register",
+   "cld-advisor_C6_wp-0-7-series-5": "on a branch, not in the register",
+   "ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS": "on a branch, not in the register"
   }
  },
  "the web seat (chat1)": {
@@ -1458,14 +1458,14 @@
    "CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT": "in the register",
    "STATUS_CHAT1": "in the register",
    "CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES": "in the register",
-   "CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY": "in the register",
    "CHAT1_W-V1_view_on_selection_and_dictionary": "in the register",
+   "CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY": "in the register",
    "CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY": "in the register",
    "CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS": "in the register",
-   "CHAT1_W-A2_deriving_postulate_d": "in the register",
    "CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND": "in the register",
-   "CHAT1_W-A3_the_cover_the_class_and_the_up_sector": "in the register",
+   "CHAT1_W-A2_deriving_postulate_d": "in the register",
    "CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR": "in the register",
+   "CHAT1_W-A3_the_cover_the_class_and_the_up_sector": "in the register",
    "CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT": "in the register"
   }
  },
@@ -1489,32 +1489,32 @@
   "rows_no_file": [],
   "files": {
    "PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW": "in the register",
-   "PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS": "in the register",
    "PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS": "in the register",
+   "PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS": "in the register",
    "PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW": "in the register",
    "PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW": "in the register",
-   "PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT": "in the register",
-   "PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT": "in the register",
    "PHYSICAL_TO_SM_AND_CC_2026-11-16_FOUR_SLOT_DOMAINS_AND_REGISTERING_DEFECT": "in the register",
+   "PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT": "in the register",
    "PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3_SEAL_AND_X_BRIDGE_INTAKE": "in the register",
+   "PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT": "in the register",
    "PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS": "in the register",
-   "PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN": "in the register",
    "PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR": "in the register",
+   "PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN": "in the register",
    "PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS": "in the register",
    "PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3E_COMPLETE_LIGHT_SYSTEM_AND_STATIONARY_FAMILIES": "in the register",
    "LATE_CLOSURE_ADDENDUM": "in the register",
+   "FINDINGS": "in the register",
    "MAIN_CHECKLIST": "in the register",
    "PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION": "in the register",
-   "FINDINGS": "in the register",
    "PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE": "in the register",
    "PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-17_INPUT_RECHECK_AND_COVARIANT_JOIN_CORRECTIONS": "in the register",
    "PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17": "in the register",
    "PHYSICAL_TO_MAIN_SM_AND_SEATS_2026-11-17_C7_FOUR_FORM_CONNECTION_AND_RETAINED_REGISTER": "in the register",
    "DEFECTS": "in the register",
    "PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY": "in the register",
-   "STATUS_PHYSICAL": "in the register",
-   "ASSESSMENT_AND_PLAN": "in the register",
    "PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS": "in the register",
+   "ASSESSMENT_AND_PLAN": "in the register",
+   "STATUS_PHYSICAL": "in the register",
    "CURRENT_SOURCE_FINDINGS": "in the register"
   }
  },
@@ -1524,18 +1524,18 @@
   ],
   "rows_no_file": [],
   "files": {
-   "PHYSICAL_TO_MAIN_2026-11-18_M9_SCOPE_CORRECTIONS_AND_CUSP_SUPPORT": "in the register",
-   "README": "in the register",
-   "M9_REGISTER_REVIEW": "in the register",
-   "NON_MARKDOWN_COVERAGE": "in the register",
-   "STATUS_PHYSICAL": "in the register",
+   "COVARIANT_LIFTS_AND_KINETIC_RESPONSE": "in the register",
    "EXACT_GROUND_SPACE_AND_SELECTION": "in the register",
    "WILSON_FAMILY_TRANSPORT": "in the register",
+   "PHYSICAL_TO_MAIN_2026-11-18_M9_SCOPE_CORRECTIONS_AND_CUSP_SUPPORT": "in the register",
    "CUSP_INVERSE_SOURCE_SUPPORT": "in the register",
-   "COVARIANT_LIFTS_AND_KINETIC_RESPONSE": "in the register",
-   "PHYSICAL_C8_TICK_HIGGS_ALIGNMENT_2026-11-18": "in the register",
+   "M9_REGISTER_REVIEW": "in the register",
+   "NON_MARKDOWN_COVERAGE": "in the register",
+   "PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18": "in the register",
    "ACTION_JOIN_AND_SELECTOR_REQUIREMENTS": "in the register",
-   "PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18": "in the register"
+   "PHYSICAL_C8_TICK_HIGGS_ALIGNMENT_2026-11-18": "in the register",
+   "STATUS_PHYSICAL": "in the register",
+   "README": "in the register"
   }
  },
  "agyaudit": {

@@ -1277,6 +1277,13 @@ def test_the_web_seats_section_25():
     assert "companions 106, silent 69, placed 266" in r and "with a date within 200 characters of the line's mention: 117 of 266" in r
     assert "holds 2240, 2437, 2456: [True, True, True]" in r and "'statements': 7998, 'VERIFIED': 1951" in r
 
+
+def test_agy_exp_xp1_equation_2_and_the_norm_law():
+    """added 2026-11-18: X-P1's restatement of C3i's equation (2) holds with matrix units; its norm law for H^2 = 0 needs
+    Re<x, Hx> = 0 (refuted as written)."""
+    r = (pathlib.Path(__file__).resolve().parent / "checks" / "agyexp_xp1_run.txt").read_text()
+    assert "Q1: Q^2 - [p r (e13 + e24) + p f (e31 + e42)] = 0: True; Q^2's trace (scalar part) 0" in r and "on x = (1, 1): n**2 + 2*n + 2 (Re<x, Hx> = 1)" in r
+
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of
     the ground plane have zeros; only h* (zeros at 2, 3, 4) gives a full up-sector hierarchy, (1/3, 2/3) in 48 cases,

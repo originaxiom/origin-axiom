@@ -1,0 +1,12 @@
+{
+ "id": "agyexpl-read-01",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp-later",
+ "how": "read by main in full at agy-exp's branch (50ad00d61): its card X-P1, its results note, and the lines it added to its status page after 4a8b433a2",
+ "files": [
+  "relays/cards/AGY-EXP_X-P1_exterior-operator-join-symmetry-nullity-wp1-and-c3i-check.md",
+  "relays/AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I.md",
+  "relays/STATUS_AGY-EXP.md"
+ ]
+}
