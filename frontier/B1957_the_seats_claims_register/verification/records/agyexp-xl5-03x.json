@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "REFUTED",
  "how": "REFUTED AS WRITTEN on main's own frame D1 (checks/p871_plain_sum.py; the seat's harness read as text, not run): the plain sum over the 24 points of order 5 of the residue-level coupling with unit weights does change under tau + 5 in the up sector at c = 0 (E = 2): its singular-value ratios move from (0.0650, 0.0025) to (0.1268, 0.0149) in reading S and from (0.2555, 0.0978) to (0.2963, 0.1959) in S-tilde, and return at tau + 25; the obstructed rows do not sum to zero (their sums are 0.78 to 2.36 times the largest single term), so the Fourier projection does not annihilate the obstructed harmonics at residue level, and the drift does not arise only once channel norms enter. At c = 2 and c = -2 the plain sum does not change in any sector, the obstructed ones included (E = 3, 4 and 2; to 3e-16). The seat's harness took the LEAST drift over its cases, which shows that some case has none, not that none has any.",
- "note": "",
+ "note": "ADDED 2026-11-18 (checks/p871_plain_sum.py, P4): why c = +-2 shows no change: there the five rows' sums differ in size by tens of orders (about 0.8, 3e2, 6e12, 1e29 and 5e52 at c = 2, down), so the plain sum is the largest row's alone, and a phase common to one row cannot move singular-value ratios; it is not a covariance. At c = 0 the rows are comparable and the drift shows.",
  "units": [
   "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:29"
  ]

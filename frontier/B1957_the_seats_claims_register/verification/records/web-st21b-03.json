@@ -1,0 +1,12 @@
+{
+ "id": "web-st21b-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "its section 21's provenance: pushed before its referee read finished; the read's corrections applied in this version, after M63, and in section 22; its account of what the first version left out",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2178",
+  "web:STATUS_CHAT1:2184",
+  "web:STATUS_CHAT1:2173"
+ ]
+}

@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "main holds part of each: 1968, H4 is main's and agrees with the seat's rv57_linear.py, whose own run's 1.1e-15 is its figure; 2002, the lane's counts at 57e0b3d63 are main's (A4), its own cut of the units is its run; 2010, its count of 23 records whose ground lists lines, five naming lines they do not hold, is its own",
- "note": "",
+ "note": "CORRECTED 2026-11-18 at the seat's section 22 (its corrections to its section 21): at cdf78dd95 this record held PARTIAL the first version's line 1968, a sentence (that H4 is its run built again) the corrected section 20 withdrew; the line left the page at the corrected version. CORRECTED 2026-11-18 at the seat's corrected section 22.4, item 2: the ground above names lines 1968, 2002 and 2010 of section 20's first version; 1968 left the page with the corrected version, and the record now holds the corrected page's two lines on the seat's own recut and its own count of records whose grounds name lines they do not hold.",
  "units": [
   "web:STATUS_CHAT1:2015",
   "web:STATUS_CHAT1:2044"

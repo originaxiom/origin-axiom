@@ -1179,6 +1179,32 @@ def test_the_web_seats_section_20_states_mains_record_rightly():
     assert "each saying so in its note: True; web-read-44 READ; web-wa3-04's ground names part D True" in run
     assert "'statements': 7648, 'VERIFIED': 1729" in run and "holds lines [65, 80]" in run
 
+    # added 2026-11-18 at the seat's corrected section 22.4, item 1: A3 tests each wrong statement, in the note and the brackets
+    assert "A3b: web-st18-01's note at 57e0b3d63 names each wrong statement of section 18's first version: {\"web-wa3-04's ground\": False, 'the read-out': True, \"section 17's records\": True}" in run
+    assert "A3c: at 57e0b3d63 row 1930's brackets name each: {\"web-wa3-04's ground\": False, 'the read-out': False, \"section 17's records\": False}" in run
+
+
+def test_the_web_seats_sections_21_to_23_state_mains_record_rightly():
+    """the web seat's sections 21 and 22 as corrected after their referee reads and its section 23 (checks/web_section22.py
+    and web_section23.py, from their committed runs): the open things it names stand at the commits it read; the old reason
+    for line 116 is in two records only, each bracketed; web-wf17-04-r3n held line 236 alone; four lines of section 21's
+    first version, held verified, are not on the corrected page."""
+    here = pathlib.Path(__file__).resolve().parent / "checks"
+    r22 = (here / "web_section22_run.txt").read_text(); r23 = (here / "web_section23_run.txt").read_text()
+    assert "D12: records of the lane at 57cc5d5fe still giving 'not read out': ['web-st14-04', 'web-wa2-05v']; each with its dated bracket: True" in r22
+    assert "web-st20-02 at 57cc5d5fe: its ground names 1968, 2002 and 2010: True; it holds 2 lines; its note empty: True" in r22
+    assert "web-wf17-04-r3c holds line 139 as CONDITIONAL" in r22 and "with the three named beside it: False" in r22
+    assert "E3: web-wf17-04-r3n over its history (commit, verdict, W-F17 lines held): [('364ce101e', 'NOTED', [236]), ('6f337047b', 'NOTED', [])" in r23
+    assert "E3: web-wf17-04-r3c over its history (commit, verdict, W-F17 lines held): [('364ce101e', 'CONDITIONAL', [139])]" in r23
+    assert "E5: those four texts on the corrected page (eb545d286): [False, False, False, False]" in r23
+    assert "rows that recorded every statement holding of a version the seat later corrected: 1930 True, 1935 True, 1938 True" in r23
+    assert "'statements': 7796, 'VERIFIED': 1831" in r23 and "'CAMPAIGN_STATUS': False" in r23 and "'the pin row': False" in r23
+    assert "its history entry for row 1935 carries the withdrawal at 57cc5d5fe: False, at f1efc59dd: True" in r23
+    assert "the first section 21's line 2141 on the page at fdc3008e0: False" in r23 and "on the page at fdc3008e0: [False, False, False, False]" in r23
+    r21 = (here / "web_section21_run.txt").read_text()                # C2, C3, C6's limits tested in full (the seat's section 23.2)
+    assert "C2b: web-st20-01 at cdf78dd95 holds the first version's lines 1961 and 1990: [True, True]; web-st20-02 holds its line 1968: True; web-st20-03 holds its line 2006: True" in r21
+    assert "FINDINGS [False, False, False], row 1930 [False, False, False], P-865 [False, False, False]" in r21 and "names the three statements: False" in r21
+
 
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of
@@ -1221,3 +1247,9 @@ def test_p871_the_plain_sum_of_residues_drifts_at_c0_up_and_not_at_c_pm2():
         assert float(d25) < 1e-12 and float(d25t) < 1e-12
         if (c, sec) == ("+0", "up"): assert E == "2" and float(d5) > 0.05 and float(d5t) > 0.05
         else: assert float(d5) < 1e-12 and float(d5t) < 1e-12
+    p4 = re.findall(r"P4 c = ([+-]\d), (\w+) \(E = \d\): the rows' sums by size \(5a = 0..4\): \[([^\]]*)\]; the plain sum's ratios \[([^\]]*)\], with the law's phases on the rows \[([^\]]*)\]", run)
+    assert len(p4) == 3                                            # added 2026-11-18: why c = +-2 does not drift
+    for c, sec, sizes, plain, phased in p4:
+        sz = [float(x.strip(" '")) for x in sizes.split(",")]
+        if c == "+0": assert max(sz) / min(sz) < 100 and plain != phased
+        else: assert max(sz) / sorted(sz)[-2] > 1e20 and plain == phased

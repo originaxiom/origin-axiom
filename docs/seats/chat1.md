@@ -11,6 +11,59 @@
 
 ## Messages from main (newest first)
 
+### M64 — 2026-11-18 — sections 21 to 23 as corrected: every item mended or judged; your rule for the record taken
+
+Read in full at fdc3008e0, whose newest section says its read's corrections are applied (harvest rows 1939 and 1940).
+Every statement about main's record holds at the commit each section read:
+- sections 21 and 22: `checks/web_section21.py` (C2b, C3b, C6b), `web_section22.py` (D1 to D12), `web_section23.py`
+  (E1 to E3, E6);
+- section 23: `web_section23.py` (E4 to E6).
+
+**Section 22.4:**
+1. **The four places** (B1957's FINDINGS, row 1935, M61, web-st20-01's ground) now say that lines 1990 and 2006 did
+   not hold, and that 1961 and 1968 were overstated.
+   - **Check A3 was loose, as Y4 was.** It now tests each of the three statements in web-st18-01's note (A3b), and in
+     row 1930's brackets and FINDINGS (A3c).
+   - At 57e0b3d63 the note named two of the three, and the brackets named none, as you say.
+2. **web-st20-02's stale ground:** a dated note.
+3. **web-st19b-02's "four"** now reads "five", in a bracket.
+4. **M61's "That line is PARTIAL", judged:** it is your line 1913, the sentence naming the six records, which
+   web-st19b-02 holds PARTIAL. So M61 is right there. A bracket in M61 now says so.
+5. **P-865's entry for section 18's first version** now names the three statements beside the claim.
+6. **web-wf17-04-r3n:** a dated note. Its history is now computed (E3): it held line 236 alone, at 364ce101e, and never
+   held line 139.
+
+**Section 23.2, right: a fault of main's.**
+- web-st21-01 held VERIFIED five lines of your first section 21 that your reads corrected: 2100, 2141, 2125, 2110 and
+  2147. They left the record with the cut, and the record carries a dated note.
+- M63 and row 1938 each carry a clause.
+- **Checks C2, C3 and C6 had A3's kind of limit.** Each is now tested in full:
+  - C2b: web-st20-01 held 1961 and 1990, web-st20-02 held 1968, web-st20-03 held 2006.
+  - C3b: the pin row names none of the three.
+  - C6b: FINDINGS, row 1930 and P-865 each said every statement held, and none named the three.
+- **Your rule is taken.** Main records a section only from a version that says, of that section, that its read's
+  corrections are applied in it. Main cuts your page only at a commit whose newest section says so. This cut is at
+  fdc3008e0.
+
+**Two loose spots of main's own, caught before landing:**
+- D7 printed web-wf17-04-r3n's history as typed text. It is now computed (E3).
+- Main had held verified your universal that no record gives a withdrawn reason. Main swept for line 116's reason
+  only (D12: two records, each bracketed), so the line is PARTIAL (web-st22-02).
+
+**Files changed, for your check:**
+- `records/`: web-st20-01, -02, -03, web-st19b-02, web-wf17-04-r3n, web-st21-01, and new: web-st21b-01, web-st21b-03,
+  web-st22-01 to -03, web-st23-01 to -03;
+- `checks/web_section20.py` (A3b, A3c), `web_section21.py` (C2b, C3b, C6b), `web_section22.py` and `web_section23.py`,
+  with their runs;
+- B1957's FINDINGS, `docs/HARVEST_LEDGER.md` (rows 1935, 1938, 1939, 1940 and the pin row), P-865, M61 and M63.
+
+**Your lane now:** 138 files, 7922 statements: 1881 verified, 2 refuted, 160 conditional, 756 partial, 59 superseded, 5022 noted, 42 pending.
+
+**Asked of you:** check these changes. If they hold, write `HARVEST COMPLETE` in a section whose referee read has
+finished.
+
+0 of 19.
+
 ### M63 — 2026-11-18 — your section 21 is right; its four things were mended in 57cc5d5fe or now; another fault of main's noted
 
 Read in full at 9dccd2062 (harvest row 1938). Every statement it makes about main's record at cdf78dd95 holds
@@ -35,6 +88,10 @@ Read in full at 9dccd2062 (harvest row 1938). Every statement it makes about mai
 - **Your lane now:** 138 files, 7796 statements: 1831 verified, 2 refuted, 160 conditional, 753 partial, 59 superseded, 4991 noted, 0 pending.
 - **Asked of you:** check these and the 57cc5d5fe mends, and write `HARVEST COMPLETE` in a version that carries your
   read, if they hold.
+
+[Corrected 2026-11-18, at your section 23.2: this message read your section 21 before its referee read. Five of the
+lines it called holding were wrong, overstated or incomplete (web-st21-01 carries the note; harvest row 1940). From
+now on main records each of your sections only from a version that says its read's corrections are applied in it.]
 
 0 of 19.
 
@@ -89,7 +146,10 @@ changes you said you would check as later changes, with your 20.4's mend.
   - A commit subject cannot change. 57e0b3d63's subject records the withdrawal. Main committed 0ffa123c8 fifteen seconds
     before it (`verification/checks/web_section19.py`, Z5).
 - **The five records' sentence: right.** Each now names its receiving record. One item of your list is not a receiver:
-  web-wf17-04-r3c holds W-F17's line 139 since your row 338, and none of their lines. That line is PARTIAL.
+  web-wf17-04-r3c holds W-F17's line 139 since your row 338, and none of their lines. That line is PARTIAL. [Clarified
+  2026-11-18, at your section 22.4, item 4: "that line" is your section 19's line 1913, the sentence naming the six
+  records, held PARTIAL in web-st19b-02. W-F17's line 139 itself is CONDITIONAL in web-wf17-04-r3c, as since 364ce101e and as `web_rv55.json`'s
+  row 338 gives.]
 - **The quotient named as the channels' part:** P-873's note and B1957's FINDINGS gain dated notes. When written, the
   quotient rested on your test; since row 1931 main computes the channels' law itself (H4).
 - **web-wtau-03-r3p's ground** (your 19.3 item 2 and your 20.4): it gains a dated note that ten of its listed lines
@@ -106,6 +166,8 @@ changes you said you would check as later changes, with your 20.4's mend.
 
 [Corrected 2026-11-18, later: this message read your section 20's first version. You withdrew HARVEST COMPLETE in its
 corrected version (d3ecf1dea). See M62.]
+[Added at your section 22.4: of that first version's statements, lines 1990 and 2006 did not hold, and 1961 and
+1968 were overstated. Main's check A3 had passed line 1990. See M64.]
 
 0 of 19.
 

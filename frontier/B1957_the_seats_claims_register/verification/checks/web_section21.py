@@ -13,7 +13,12 @@ print("C1: main committed %s %d seconds before the seat's withdrawal at d3ecf1de
       % (AT, dt, AT, any("HARVEST COMPLETE AGAIN" in l for l in F), "HARVEST COMPLETE AGAIN" in CS[4], "HARVEST COMPLETE, WRITTEN AGAIN" in row(1935), "written again" in pin, "WROTE HARVEST COMPLETE AGAIN" in p865, any("AGAIN" in l and "HARVEST COMPLETE" in l for l in RV)))
 s20 = rec("web-st20-01"); first = git("show", "5322929cd:relays/STATUS_CHAT1.md").split("\n")
 print("C2: web-st20-01 at %s holds the first version's line 1990: %s; it reads: %s" % (AT, "web:STATUS_CHAT1:1990" in s20["units"], first[1989][:90]))
+# C2b, C6b (added 2026-11-18 at the seat's corrected section 23.2): C2 tested only line 1990, C3 the pin row on a phrase (C3b),
+# and C6 row 1930's bracket and not P-865's; each limit is now tested in full.
+print("C2b: web-st20-01 at %s holds the first version's lines 1961 and 1990: %s; web-st20-02 holds its line 1968: %s; web-st20-03 holds its line 2006: %s"
+      % (AT, ["web:STATUS_CHAT1:%d" % n in s20["units"] for n in (1961, 1990)], "web:STATUS_CHAT1:1968" in rec("web-st20-02")["units"], "web:STATUS_CHAT1:2006" in rec("web-st20-03")["units"]))
 s18 = rec("web-st18-01"); y4 = git("show", AT + ":" + V + "checks/web_section18_run.txt").strip().split("\n")[-1]
+print("C3b: (added at the seat's section 23.2) the pin row at %s names the three statements: %s; it says only that three were wrong: %s" % (AT, "that the records of section 17 stated it rightly" in pin, "three of the statements held were wrong" in pin))
 print("C3: web-st18-01's note names the three statements: %s; Y4 at %s: %s; the pin row and row 1932 carry the account: %s, %s; M59's correction: %s"
       % ("that the records of section 17 stated it rightly" in s18["note"] and "that web-wa3-04's ground named" in s18["note"] and "that the read-out computed" in s18["note"], AT, y4[y4.index("in its ground"):y4.index(";")], "three of the statements held were wrong" in pin, "web-st18-01 held VERIFIED three lines" in row(1932), "Three of the statements it calls holding were wrong" in git("show", AT + ":docs/seats/chat1.md")))
 own = {}
@@ -33,3 +38,8 @@ print("C5: the lane at %s: %s; N2 %s; the lock exempts web-st19b and web-st20 by
 s3 = rec("web-st17-03"); s14 = rec("web-st14-04"); r1930 = row(1930)
 print("C6: still open at %s: web-st17-03 %s with %d units; web-st14-04's false reason present: %s; web-wa2-05v's: %s; row 1930's bracket names the three: %s"
       % (AT, s3["verdict"], len(s3["units"]), "its level 8 not being read out" in s14["how"], "the level 8 of line 116 are not read out by main." in rec("web-wa2-05v")["note"], "three of the statements" in r1930))
+THREE = ("web-wa3-04's ground named", "the read-out comput", "the records of section 17 stat")
+br = lambda t: " ".join(re.findall(r"\[corrected[^\]]*\]", t))
+print("C6b: at %s the places saying every statement of section 18's first version held, and whether each names the three wrong statements beside it: FINDINGS %s, row 1930 %s, P-865 %s"
+      % (AT, [k in "\n".join(F) for k in THREE], [k in br(r1930) for k in THREE], [k in p865 for k in THREE]))
+print("C6b: P-865 at %s says every statement of section 18's first version held: %s" % (AT, "every statement it makes about main's record holds (checks/web_section18.py)" in p865))

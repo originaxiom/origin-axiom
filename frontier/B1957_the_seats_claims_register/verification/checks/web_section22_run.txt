@@ -1,0 +1,12 @@
+D1: the lane's records new or changed between cdf78dd95 and 57cc5d5fe: 14
+D2: web-st17-03 at 57cc5d5fe holds 0 units, kept for its ground: True; web-st17-03b PARTIAL with 1 unit; web-st17-02's note names line 1715 on H4: True
+D3: line 116's brackets: web-st14-04 True, web-wa2-05v True
+D4: the three wrong statements named at 57cc5d5fe in FINDINGS: [747]; in row 1930's bracket: True; in web-st18-01's ground and note: True, True
+D5: section 20's withdrawal recorded at 57cc5d5fe: row 1935 True, web-st20-03 True; web-st20-01 holds the first version's 1961 or 1990: False
+D6: the lane at 57cc5d5fe: {'files': 138, 'read': 138, 'statements': 7744, 'VERIFIED': 1792, 'REFUTED': 2, 'CONDITIONAL': 160, 'PARTIAL': 752, 'SUPERSEDED': 59, 'NOTED': 4979, 'PENDING': 0}; N2 each saying so in its note: True; T2: verified statements main has not read one by one against the record's ground: 0
+D7: still open at 57cc5d5fe: web-st19b-02's ground says 'four': True; web-wf17-04-r3n's ground lists line 139: True; its history is E3 of web_section23.py
+D8: web-st20-02 at 57cc5d5fe: its ground names 1968, 2002 and 2010: True; it holds 2 lines; its note empty: True
+D9: M61 at 57cc5d5fe says of W-F17's line 139 'That line is PARTIAL': True; web-wf17-04-r3c holds line 139 as CONDITIONAL
+D10: P-865's entry for section 18's first version says every statement held: True, with the three named beside it: False; the one-by-one lock exempts web-st20b and web-st17-03b: True
+D11: at cdf78dd95 web-st20-01 held the first version's lines 1961 and 1990: True; web-st20-02 held line 1968: True
+D12: records of the lane at 57cc5d5fe still giving 'not read out': ['web-st14-04', 'web-wa2-05v']; each with its dated bracket: True; the recovery view's line 67 records the withdrawal: True, names d3ecf1dea: False; CAMPAIGN_STATUS line 5 records it: True, names d3ecf1dea: False

@@ -1,0 +1,32 @@
+{
+ "id": "web-st23-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its section 23 as corrected after its referee read (fdc3008e0), read at main's f1efc59dd, each statement about main's record held there (checks/web_section23.py E4 to E6; web_section21.py C2b, C3b, C6b; web_section22.py D7, D11): M63's changes hold (web-st20-01's note naming line 1990 only; the pin row recording the withdrawal at d3ecf1dea; web-st21-01 to -03 VERIFIED, PARTIAL and NOTED; web-st-log and web-st7-06 changed only their unit ids; the 6 records changed since 57cc5d5fe; the lane cut at 9dccd2062; its counts; N2 true, 0 unread, the lock exempting web-st21 by name); and THE SAME FAULT ONE SECTION ON, right: M63 and row 1938 said every statement of section 21 about main's record held, while web-st21-01 held VERIFIED five lines its referee reads found wrong, overstated or incomplete (2100: web-st20-01 held two corrected lines, not one; 2141: three places, with P-865, not two, still said every statement of section 18's first version held; 2125: web-st19b-02's 'four'; 2110: the pin row named none of the three; 2147: its item 4 left out the four places); the five are not on the corrected page (E5, E6); main's checks of section 21 had limits of A3's kind (C2 tested line 1990 only, C3 the pin row on a phrase, C6 row 1930's bracket and not P-865's), each now tested in full (C2b, C3b, C6b); M63 took its section 21.4 for the word. Main takes its rule (harvest row 1940)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2307",
+  "web:STATUS_CHAT1:2312",
+  "web:STATUS_CHAT1:2315",
+  "web:STATUS_CHAT1:2316",
+  "web:STATUS_CHAT1:2318",
+  "web:STATUS_CHAT1:2320",
+  "web:STATUS_CHAT1:2321",
+  "web:STATUS_CHAT1:2326",
+  "web:STATUS_CHAT1:2341",
+  "web:STATUS_CHAT1:2319",
+  "web:STATUS_CHAT1:2324",
+  "web:STATUS_CHAT1:2327",
+  "web:STATUS_CHAT1:2329",
+  "web:STATUS_CHAT1:2330",
+  "web:STATUS_CHAT1:2331",
+  "web:STATUS_CHAT1:2332",
+  "web:STATUS_CHAT1:2333",
+  "web:STATUS_CHAT1:2335",
+  "web:STATUS_CHAT1:2337",
+  "web:STATUS_CHAT1:2338",
+  "web:STATUS_CHAT1:2339",
+  "web:STATUS_CHAT1:2340",
+  "web:STATUS_CHAT1:2343"
+ ]
+}

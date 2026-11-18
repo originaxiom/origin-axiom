@@ -727,6 +727,8 @@ noted, and none is pending.
   unit-weight residues drifts under tau + 5 in the up sector at c = 0 (E = 2) and returns at tau + 25; at c = +-2 it does
   not drift in any sector, the obstructed ones included. agy-exp's flag that it never drifts at residue level is refuted
   as written.
+  The c = +-2 cases do not drift because there the rows' sums differ in size by tens of orders, so the sum is one row's
+  (P4): not a covariance.
 - **Main has read every verified statement of the physical lane itself** (harvest row 1933): 1,390, each against its
   record's ground; 857 kept, 130 partial, 4 conditional, 399 noted (second_reading/physical_unmarked.json). No verified
   statement of any lane now stands without main's reading against its ground.
@@ -737,6 +739,10 @@ noted, and none is pending.
   read found three more things in main's records (an understated verdict, a false reason left in two records, the
   incomplete account above), each right and each mended (harvest row 1936). No seat has written HARVEST COMPLETE as it
   stands.]
+  [added 2026-11-18, at the seat's section 22.4: of that first version's statements two did not hold (its line that the brackets and web-st18-01's note gave the right account of section 18's first version, and its line that one small thing was left and changed no verdict) and two were overstated (that each of section 19.3's six things was mended, where three places stood unchanged on H4, and that H4 is its run built again, where H4 extends it to the second reading); main's check A3 had tested only that web-st18-01's note carried a correction, and now tests each statement (A3b); harvest row 1939.]
+  [added 2026-11-18, at the seat's section 23.2: main recorded its section 21 before the referee read and held verified
+  five lines the reads corrected (web-st21-01's note; harvest row 1940); main now records each section from the version
+  that carries its referee read.]
 - **agy-002's card A2-X1 and its harvest review (harvest row 1929)** are settled. Every figure of the card holds on
   main's own construction of frame D1 (checks/agy002_a2x1.py). At the mark, |V(h*)| comes within 3.8e-4 of the
   maximal 1-3 mixing matrix the seat states, at height 24; that this is the exact limit rests on the seat's

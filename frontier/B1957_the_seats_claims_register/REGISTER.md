@@ -10,10 +10,10 @@
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 164 | 158 | 11833 | 857 | 0 | 1203 | 278 | 46 | 9449 | **0** |
-| web | 138 | 138 | 7796 | 1831 | 2 | 160 | 753 | 59 | 4991 | **0** |
+| web | 138 | 138 | 7922 | 1903 | 2 | 160 | 756 | 59 | 5042 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
 | sm | 11 | 9 | 516 | 30 | 5 | 7 | 113 | 0 | 361 | **0** |
-| **all** | 484 | 424 | 24709 | 3002 | 26 | 1940 | 2021 | 165 | 17555 | **0** |
+| **all** | 484 | 424 | 24835 | 3074 | 26 | 1940 | 2024 | 165 | 17606 | **0** |
 
 ## By file
 
@@ -413,7 +413,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 1307 | 1307 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1433 | 1433 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

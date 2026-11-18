@@ -17695,7 +17695,8 @@
     "H2",
     "H4",
     "L1",
-    "L5"
+    "L5",
+    "P4"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 29,

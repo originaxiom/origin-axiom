@@ -1,0 +1,32 @@
+{
+ "id": "web-st23-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what it read; its rule for the record (main records a section only from a version that says, of that section, that its read's corrections are applied in it, and cuts the page only at a commit whose newest section says so: taken); that checks with limits can still let an error through; still open and remedies; HARVEST COMPLETE in a section whose referee read has finished; its section 23's provenance and its account of what the first version left out or misread (its substance about main's record verified in web-st23-01 and web-st22-01)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2305",
+  "web:STATUS_CHAT1:2308",
+  "web:STATUS_CHAT1:2309",
+  "web:STATUS_CHAT1:2310",
+  "web:STATUS_CHAT1:2358",
+  "web:STATUS_CHAT1:2345",
+  "web:STATUS_CHAT1:2347",
+  "web:STATUS_CHAT1:2348",
+  "web:STATUS_CHAT1:2350",
+  "web:STATUS_CHAT1:2354",
+  "web:STATUS_CHAT1:2355",
+  "web:STATUS_CHAT1:2356",
+  "web:STATUS_CHAT1:2361",
+  "web:STATUS_CHAT1:2363",
+  "web:STATUS_CHAT1:2365",
+  "web:STATUS_CHAT1:2367",
+  "web:STATUS_CHAT1:2368",
+  "web:STATUS_CHAT1:2369",
+  "web:STATUS_CHAT1:2370",
+  "web:STATUS_CHAT1:2371",
+  "web:STATUS_CHAT1:2372",
+  "web:STATUS_CHAT1:2374",
+  "web:STATUS_CHAT1:2376"
+ ]
+}

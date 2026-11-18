@@ -1,0 +1,19 @@
+{
+ "id": "web-st21b-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its section 21 as corrected after its referee reads (cut at fdc3008e0, whose newest section says its read's corrections are applied; main had recorded the first version at 9dccd2062 in web-st21-01 to -03), the lines new in the corrected version, each a statement about main's record at cdf78dd95 that holds there (checks/web_section21.py C2b, C3b, C6b; web_section23.py E1, E2; web_section22.py D7, D11): web-st20-01 held two lines of section 20's first version VERIFIED that the corrected version corrects (1990, which did not hold, and 1961, overstated) and web-st20-02 held 1968 PARTIAL on a sentence it withdrew; web-st18-01's note named two of the three wrong statements and the brackets none; four places said every statement of that first version held (FINDINGS line 726, row 1935, M61, web-st20-01's ground); the account of section 18's first version mended in web-st18-01, M59, the pin row and row 1932, while three places (FINDINGS, row 1930, P-865) still said every statement held with only the withdrawal beside them; row 1932 names all three, the pin row says three were wrong and points to rows 1931 and 1932; the records of section 19 right but for web-st19b-02's 'four'; section 20's word, web-st20-01's line 1990 and the four places open",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2107",
+  "web:STATUS_CHAT1:2111",
+  "web:STATUS_CHAT1:2118",
+  "web:STATUS_CHAT1:2134",
+  "web:STATUS_CHAT1:2100",
+  "web:STATUS_CHAT1:2101",
+  "web:STATUS_CHAT1:2105",
+  "web:STATUS_CHAT1:2150",
+  "web:STATUS_CHAT1:2156",
+  "web:STATUS_CHAT1:2157"
+ ]
+}

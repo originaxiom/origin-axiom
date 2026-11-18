@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1938 |
+| harvest rows (the last number) | 1940 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: P-871'S NEXT COMPUTATION DONE ON MAIN: THE PLAIN SUM OF FRAME D1'S RESIDUES DRIFTS UNDER tau + 5 AT c = 0 IN THE UP SECTOR AND NOT AT c = +-2, AND agy-exp'S FLAG IS REFUTED AS WRITTEN; P-873'S SECOND QUESTION ANSWERED (ONLY h* GIVES A FULL UP-SECTOR HIERARCHY); THE WEB SEAT'S SECTION 21 READ (B1957, OPEN; harvest rows 1936 to 1938; P-865, P-871, P-873).** The register: 484 files, 424 read at source, 24709 statements: 3002 verified, 26 refuted, 1940 conditional, 2021 partial, 165 superseded, 17555 noted, 0 pending. Main has read every verified statement of every lane itself. No seat has written HARVEST COMPLETE as it stands: the web seat writes it on…”
+“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT'S SECTIONS 21 TO 23, RECORDED FROM THEIR READ VERSIONS: EVERY ITEM IT FOUND IS RIGHT AND MENDED, TWO LOOSE CHECKS OF MAIN'S CORRECTED, AND MAIN NOW RECORDS EACH SECTION ONLY FROM THE VERSION THAT CARRIES ITS REFEREE READ; P-871'S C = +-2 CASES EXPLAINED (ONE ROW DOMINATES THE SUM) (B1957, OPEN; harvest rows 1937 to 1940; P-865, P-871, P-873).** The register: 484 files, 424 read at source, 24835 statements: 3074 verified, 26 refuted, 1940 conditional, 2024 partial, 165 superseded, 17606 noted, 0 pending. Main has read every verified statement of every lane itself. No seat has written HARVEST COMPLETE as it stands: the web seat checks the…”
 
 ## Completeness (nothing skipped silently)
 

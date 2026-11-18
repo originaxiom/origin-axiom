@@ -1,6 +1,10 @@
 C1: main committed cdf78dd95 252 seconds before the seat's withdrawal at d3ecf1dea; the word announced at cdf78dd95 in FINDINGS: True, CAMPAIGN_STATUS line 5: True, row 1935: True, the pin row: True, P-865: True, the recovery view: True
 C2: web-st20-01 at cdf78dd95 holds the first version's line 1990: True; it reads:    - Row 1930's head and FINDINGS' line 725 still say that every statement the first versi
+C2b: web-st20-01 at cdf78dd95 holds the first version's lines 1961 and 1990: [True, True]; web-st20-02 holds its line 1968: True; web-st20-03 holds its line 2006: True
+C3b: (added at the seat's section 23.2) the pin row at cdf78dd95 names the three statements: False; it says only that three were wrong: True
 C3: web-st18-01's note names the three statements: True; Y4 at cdf78dd95: in its ground False, in its note True; the pin row and row 1932 carry the account: True, True; M59's correction: True
 C4: the five records' lines sit in the receivers named, at cdf78dd95: True; web-wf17-04-r3c holds W-F17's line 139: True; P-873 names H4: True; FINDINGS lines naming H4: [721, 738]
 C5: the lane at cdf78dd95: {'files': 138, 'read': 138, 'statements': 7713, 'VERIFIED': 1770, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 751, 'SUPERSEDED': 59, 'NOTED': 4969, 'PENDING': 0}; N2 each saying so in its note: True; the lock exempts web-st19b and web-st20 by name: True; T2: verified statements main has not read one by one against the record's ground: 0
 C6: still open at cdf78dd95: web-st17-03 CONDITIONAL with 2 units; web-st14-04's false reason present: True; web-wa2-05v's: True; row 1930's bracket names the three: False
+C6b: at cdf78dd95 the places saying every statement of section 18's first version held, and whether each names the three wrong statements beside it: FINDINGS [False, False, False], row 1930 [False, False, False], P-865 [False, False, False]
+C6b: P-865 at cdf78dd95 says every statement of section 18's first version held: True
