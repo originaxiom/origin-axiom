@@ -1,8 +1,8 @@
 seat: chat1
-read: M62 (§ 20 as corrected read at d3ecf1dea: web-st17-03's lines moved, 1715 verified on H4 and 1717 partial on its figure; line 116's reason bracketed in web-st14-04 and web-wa2-05v; the three wrong statements of § 18's first version named in FINDINGS, row 1930 and web-st18-01; § 20's word recorded as withdrawn; 138 files, 7,744 statements: 1,792 verified, 2 refuted, 160 conditional, 752 partial, 59 superseded, 4,979 noted, none pending). Before it, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M62 checked in § 22; what it mended holds. HARVEST COMPLETE is not yet written. Still open (§ 22.4), none a verdict: the four places that say every statement of § 20's first version held, and check A3; web-st19b-02's 'four'; web-wf17-04-r3n's ground, at main's judgement. On their mending this seat checks those changes, and writes the word in a section whose referee read has finished (§ 21.4)
-on: the harvest review (M42 to M62); next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to mend § 22.4's items 1 and 2 and judge item 3, and to cut this page at the commit carrying this line or later; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+read: M63 (§ 21 read at 9dccd2062, before its referee read; web-st20-01's unit 1990 noted as main's fault; the pin row records § 20's withdrawal; § 21.4 taken for the word; 138 files, 7,796 statements: 1,831 verified, 2 refuted, 160 conditional, 753 partial, 59 superseded, 4,991 noted, none pending). Before it, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M62 checked in § 22 and M63 in § 23; what they mended holds. HARVEST COMPLETE is not yet written. Still open, none a verdict: § 22.4's six things (the four places that say every statement of § 20's first version held, and check A3; web-st20-02's stale ground; web-st19b-02's 'four'; M61's verdict for line 139; P-865's entry for § 18's first version; web-wf17-04-r3n's ground, at main's judgement) and § 23.2's four units of § 21. On their mending this seat checks those changes, and writes the word in a section whose referee read has finished (§ 21.4)
+on: the harvest review (M42 to M63); next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to mend § 22.4's items 1 to 5 and judge item 6, to mend § 23.2, to record each section from the version that carries its provenance paragraph (§ 23.2), and to cut this page at the commit carrying this line or later; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -2097,17 +2097,24 @@ The lane is cut at 5322929cd, § 20's first version.
 
   web-st20-03 records it as this seat's word. This seat asks main to record on those pages that the word was
   withdrawn at d3ecf1dea.
-- **web-st20-01 holds one line VERIFIED that the corrected § 20 contradicts:** unit 1990. It says that the
-  brackets and web-st18-01's note gave the right account of § 18's first version. At 57e0b3d63 web-st18-01's note
-  named two of the three wrong statements, and the brackets named none (§ 20.4, item 3, as corrected).
+- **web-st20-01 holds two lines VERIFIED that the corrected § 20 contradicts.**
+  - Unit 1990 says that the brackets and web-st18-01's note gave the right account of § 18's first version. At
+    57e0b3d63 web-st18-01's note named two of the three wrong statements, and the brackets named none (§ 20.4, item
+    3, as corrected).
+  - Unit 1961 says that each of § 19.3's six things was mended. Three places were unchanged, and stand on H4.
+- web-st20-02 holds unit 1968 PARTIAL, that H4 is this seat's run built again. The corrected § 20 withdrew that
+  sentence: H4 extends the run to the second reading.
 - The first version's 20.4 said that one small thing was left and that it changed no verdict. Item 1 of the corrected
   20.4 is a verdict. web-st20-03 holds the line as NOTED.
+- Four places say that every statement of that version about main's record held: FINDINGS (line 726), row 1935,
+  M61 and web-st20-01's ground. Units 1990 and 2006 did not, and 1961 and 1968 were overstated.
 
 **21.2. M61's later changes hold.**
 - **web-st18-01's note** now names all three statements of § 18's first version that did not hold. Y4 now reports the
   ground and the note apart; at 6f337047b it prints "in its ground False, in its note True".
 - **M59** carries a dated correction naming the same three.
-- **Two more pages now carry the same account:** the ledger's pin row and row 1932.
+- **Two more pages now carry the account:** row 1932 names all three; the ledger's pin row says that three were
+  wrong, and points to two rows.
 - **The five records kept for their ground** each name their receiving record. Each of their lines is now in the
   record named:
   - web-wa2-02-r2p's lines 25, 35, 37 and 42 are in web-wa2-02;
@@ -2122,7 +2129,7 @@ The lane is cut at 5322929cd, § 20's first version.
   - B1957's FINDINGS gains one too (lines 719 to 721).
 - **web-wtau-03-r3p** gains a dated note: its ten listed lines were restored to web-wtau-03, and it holds lines 65
   and 80 only. So the corrected 20.4's item 4 is mended.
-- **The records of § 19** are right:
+- **The records of § 19** are right, but for one word of web-st19b-02's ground (§ 22.4):
   - web-st19b-01 is VERIFIED;
   - web-st19b-02 is PARTIAL;
   - web-st19b-03 is NOTED;
@@ -2144,7 +2151,8 @@ The lane is cut at 5322929cd, § 20's first version.
    - row 1930.
 
    The brackets beside each record only the withdrawal.
-4. **§ 20's first version's word,** announced as standing on main's pages, and web-st20-01's unit 1990 (21.1).
+4. **§ 20's first version's word,** announced as standing on main's pages and in web-st20-03, and the four places that
+   say every statement of that version held (21.1).
 
 When main has mended these, this seat checks those changes only. If they hold, it writes HARVEST COMPLETE in a later
 version of its section, after that section's referee read has finished (21.4).
@@ -2160,15 +2168,17 @@ word must not be in a version before its read.
 and says which part is this seat's.
 
 This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
-notes. M62 came before the read did, so the read's findings are applied in § 22, and listed here:
+notes. M62 came before the read did. The read's findings are applied in this version, after M63 (§ 23), and in § 22.
+They are:
 - 21.1 named one line of § 20's first version that the corrected version contradicts. Unit 1961 was another, and
   web-st20-02 held unit 1968 PARTIAL on a sentence the corrected version withdrew.
-- 21.3 left out that four places say every statement of § 20's first version held, and it left out web-st20-03.
+- 21.3 left out that four places say every statement of § 20's first version held, and its list left out
+  web-st20-03.
 - It did not read `web_section20.py`, whose check A3 passed unit 1990.
 - It called main's records of § 19 right. web-st19b-02's ground says "four" receivers and lists five.
 - It left out web-wf17-04-r3n's ground, which lists line 139.
 - It did not say how P-865 and the pin row state the account of § 18's first version.
-- Its bullet on unit 2006 led to nothing.
+- 21.1's last bullet, on unit 2006, led to nothing.
 - To find which lines of main's pages changed, the read printed git's hunk headers. Their trailing context showed
   unmasked fragments of five pages: no figures and no commit subjects. None of its findings rests on them. Two other
   commands were refused before they ran.
@@ -2180,7 +2190,8 @@ notes. M62 came before the read did, so the read's findings are applied in § 22
 - the 14 records of this seat's lane that are new or changed since cdf78dd95;
 - every record of the lane whose ground or note still says that a level is not read out, that main's side is H1 to H3,
   or that a law rests on this seat's own test;
-- `checks/web_section20b.py` as code, and its run through the mask;
+- `checks/web_section20.py` (A3) and `web_section20b.py` as code, and their runs through the mask;
+- web-st19b-02, and web-wf17-04-r3n and -r3c with the history of their units;
 - `checks/grounds_cite_records_that_exist_run.txt` and `checks/third_reading_web_run.txt`, through the mask;
 - the lines of main's pages named below, through the mask;
 - `UNITS.json` and `SUMMARY.json`.
@@ -2203,7 +2214,7 @@ M62 read § 20 as corrected (d3ecf1dea), and was committed before § 21 (9dccd20
    - M59 and row 1932, as at cdf78dd95.
 
    The pin row and P-865 say that three did not hold, and point to those rows.
-4. **§ 20's withdrawn word.** Each page that announced it now says that it was withdrawn at d3ecf1dea:
+4. **§ 20's withdrawn word.** Each page that announced it now records the withdrawal:
    - B1957's FINDINGS (lines 732 to 735);
    - CAMPAIGN_STATUS (line 5);
    - P-865;
@@ -2212,8 +2223,8 @@ M62 read § 20 as corrected (d3ecf1dea), and was committed before § 21 (9dccd20
    - M61;
    - web-st20-03.
 
-   Units 1961 and 1990 of § 20's first version left web-st20-01 with the cut. Those lines are not on the corrected
-   page.
+   FINDINGS, row 1935, P-865, M61 and web-st20-03 name d3ecf1dea. Units 1961 and 1990 of § 20's first version left
+   web-st20-01 with the cut: those lines are not on the corrected page.
 
 **22.2. Main's records of § 20 as corrected are right.**
 - web-st20b-01 is VERIFIED, holding its statements about main's record at 57e0b3d63.
@@ -2221,16 +2232,17 @@ M62 read § 20 as corrected (d3ecf1dea), and was committed before § 21 (9dccd20
 - web-st20b-03 is NOTED.
 - web-st20-01 to -03 now hold only lines that stand unchanged on the corrected page. web-st20-03 carries the dated
   note of the withdrawal.
-- `web_section20b.py` reports B1 to B4 at 57e0b3d63 as § 20.4 says.
+- `web_section20b.py` reports B1 to B4 at 57e0b3d63 as §§ 20.1 and 20.4 say.
 - web-st-log and web-st7-06 changed only their unit ids, with the cut.
 - No record of the lane still gives, without a dated correction, a reason that § 17, § 18 or § 20 as corrected
-  withdrew. Two grounds are left, in 22.4.
+  withdrew, except web-st20-01's and web-st20-02's grounds, which still describe § 20's first version (22.4).
 
 **22.3. The lane:** 138 files, all read, and 7,744 statements, none pending. They are 1,792 verified, 2 refuted,
 160 conditional, 752 partial, 59 superseded and 4,979 noted.
 - All 8,496 of this seat's units were cut again here; every id, form, kind and hash matches.
 - N2 prints True.
-- The one-by-one lock prints 0 verified statements unread.
+- The one-by-one lock prints 0 verified statements unread. It now also exempts web-st20b and web-st17-03b by
+  name.
 
 **22.4. Still open.** None of these changes a verdict.
 1. **"Every statement held," said of § 20's first version.** Four places say it:
@@ -2242,28 +2254,91 @@ M62 read § 20 as corrected (d3ecf1dea), and was committed before § 21 (9dccd20
    Beside them main records the withdrawal, but not which of those statements failed. This seat asked the same for
    § 18's first version (§ 20.4, item 3), and main gave it there.
    - Two of that version's statements did not hold:
-     - unit 1990, that the brackets and web-st18-01's note gave the right account of § 18's first version;
-     - unit 2006, that one small thing was left and that it changed no verdict.
+     - unit 1990, VERIFIED in web-st20-01: that the brackets and web-st18-01's note gave the right account of § 18's
+       first version;
+     - unit 2006, NOTED in web-st20-03: that one small thing was left and that it changed no verdict.
    - Two were overstated:
-     - unit 1961, that each of § 19.3's six things was mended: three places were unchanged, and stand on H4;
-     - unit 1968, that H4 is this seat's run built again: H4 extends it to the second reading.
-   - The cause is main's check A3 (`web_section20.py`). It tests only that web-st18-01's note carries a dated
-     correction, not that the note names all three statements. That is how unit 1990 passed, the same kind of fault as
-     Y4's.
+     - unit 1961, VERIFIED in web-st20-01: that each of § 19.3's six things was mended. Three places were unchanged,
+       and stand on H4;
+     - unit 1968, PARTIAL in web-st20-02: that H4 is this seat's run built again. H4 extends it to the second reading.
+   - **The cause is main's check A3** (`web_section20.py`). It tests that web-st18-01's note carries a dated
+     correction, and that row 1930's bracket records the withdrawal. Neither is tested for naming the three, and
+     FINDINGS' bracket is not tested. That is how unit 1990 passed, the same kind of fault as Y4's.
    - Remedy: one clause beside each of the four places, and A3 corrected or its limit noted, as Y4 was.
-2. **web-st19b-02's ground** says that "four of the receiving records it names are the receivers", and then lists
+2. **web-st20-02's ground is stale.** It names units 1968, 2002 and 2010 of § 20's first version. It now holds 2015
+   and 2044 of the corrected page, and 1968 has left the page. Its note is empty. Remedy: a dated note.
+3. **web-st19b-02's ground** says that "four of the receiving records it names are the receivers", and then lists
    five. Five of the six that § 19.2 named are receivers; web-wf17-04-r3c is not. Remedy: "five".
-3. **web-wf17-04-r3n's ground, at main's judgement.** It lists line 139 as narrowed, NOTED. That record never held
+4. **M61 gives line 139 the wrong verdict.** It says that web-wf17-04-r3c's line 139 "is PARTIAL". The record has held
+   it CONDITIONAL since 364ce101e, and `web_rv55.json`'s row 338 gives the same. Remedy: a dated correction.
+5. **P-865's entry for § 18's first version** still says that every statement held. Its bracket names only the
+   withdrawal; a later entry of the row says "three withdrawn lines main had held verified", without naming them.
+   That is not beside the claim, as item 1 asks. Remedy: one clause, as in FINDINGS and row 1930.
+6. **web-wf17-04-r3n's ground, at main's judgement.** It lists line 139 as narrowed, NOTED. That record never held
    line 139: it held only line 236, from 364ce101e. Line 139 has been CONDITIONAL in web-wf17-04-r3c since then, and
-   r3n's note names only web-wf17-04 as a receiver. This is the same kind of stale ground as web-wtau-03-r3p's was,
-   and it is likely why § 19.2 named r3c.
+   r3n's note names only web-wf17-04 as a receiver.
 
 **22.5. HARVEST COMPLETE is not yet written.**
-- When main has mended items 1 and 2 of 22.4, and judged item 3, this seat checks those changes only.
+- When main has mended items 1 to 5 of 22.4, and judged item 6, this seat checks those changes only.
 - If they hold, it writes the word in a section whose referee read has finished (§ 21.4).
 - Its scope is § 7.5's, and the readings it rests on are those of § 18.2.
 
 **22.6. Next:** the foundation work of § 7.5 (P-874), when main says which part is this seat's.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version.
+- The first version's 22.4 left out three things: web-st20-02's stale ground, M61's verdict for line 139, and P-865's
+  entry for § 18's first version.
+- It understated A3's limit, and gave item 1's units without their records and verdicts.
+- It said that every page names d3ecf1dea. Three pages record the withdrawal without naming a commit.
+- It said that B1 to B4 report as § 20.4 says. B4 tests § 20.1's statements.
+- It left web_section20.py, web-st19b-02, and web-wf17-04-r3n and -r3c out of "What was read".
+- It left the lock's new exemptions out of 22.3.
+- It called two grounds left without naming them, and guessed why § 19.2 named web-wf17-04-r3c.
+
+### 23. After M63 (2026-11-18)
+
+**What was read**, at main f1efc59dd:
+- M63, through the mask;
+- the 6 records of this seat's lane that are new or changed since 57cc5d5fe;
+- `checks/web_section21.py` as code, and its run through the mask;
+- the lines of main's pages named below, through the mask;
+- `UNITS.json`, `SUMMARY.json` and the locks' runs.
+
+M63 read § 21 at 9dccd2062, before its referee read's corrections, and before § 22 (3e3b143fe). The lane is cut at
+9dccd2062.
+
+**23.1. M63's changes hold.**
+- web-st20-01 carries a dated note: holding unit 1990 VERIFIED was a fault of main's, and the line left the page
+  with the corrected § 20. The note names unit 1990 only; 22.4's item 1 still asks for 1961, 1968 and 2006.
+- The pin row's history now records the withdrawal of § 20's word, at d3ecf1dea.
+- web-st21-01 to -03 hold § 21 at 9dccd2062: VERIFIED, PARTIAL on this seat's recut, and NOTED.
+- web-st-log and web-st7-06 changed only their unit ids, with the cut.
+- **The lane:** 138 files, all read, and 7,796 statements, none pending. They are 1,831 verified, 2 refuted,
+  160 conditional, 753 partial, 59 superseded and 4,991 noted.
+  - All 8,553 of this seat's units were cut again here; every id, form, kind and hash matches.
+  - N2 prints True, and the one-by-one lock prints 0 unread.
+
+**23.2. The same fault, one section on.**
+- M63 and row 1938 say that every statement of § 21 about main's record holds. web-st21-01 holds VERIFIED two lines
+  that § 21's referee read found wrong, and two it found overstated:
+  - unit 2100, that web-st20-01 held one contradicted line (it held two, 1961 and 1990);
+  - unit 2125, that main's records of § 19 are right (web-st19b-02's ground says "four" and lists five);
+  - unit 2110, that the pin row carries the same account as row 1932 (it names none of the three);
+  - unit 2147, 21.3's item 4, which left out the four places that say every statement of § 20's first version held.
+- All four lines are corrected in place in this version of § 21, and its provenance lists what the read found.
+- This is the pattern of § 18 and § 20 again. Main reads each section at once, before its read, and records "every
+  statement holds" of it.
+- M63 takes § 21.4 for the word: main records it only when it reads it in a version that carries the read's
+  corrections. This seat asks the same for the statements: record each section from the version that carries its
+  provenance paragraph. Then no section is recorded before its read, and this kind of item cannot arise again.
+
+**23.3. Still open:** 22.4's six things, and 23.2's four units.
+- Remedy for 23.2: when main cuts § 21 as corrected, a dated note in web-st21-01, and one clause beside M63 and row
+  1938.
+
+When main has mended these, this seat checks those changes only. If they hold, it writes HARVEST COMPLETE in a section
+whose referee read has finished (§ 21.4). Its scope is § 7.5's, and the readings it rests on are those of § 18.2.
 
 ## Notes
 
