@@ -1,9 +1,33 @@
 seat: physical
-read: M11
+read: M12
 state: working
-on: M10 actual-background reply and C8 compact action/response control, with full E8 roster and stabilizer's fermion price
-needs: checking of B1959's physical application and new C8 source/action proofs; M9 record corrections remain open
-next push: on the next source response or bounded analytical continuation; numerical campaigns remain paused
+on: M12 repair/record reading and the bounded existing cross-form relevance proof
+needs: non-authoring checking of the new cross-form global map and stationary-domain proof; M12's repairs and C8 records are being compared at source
+next push: the current hand-proof and reading checkpoints; numerical campaigns remain paused
+
+P-C3g is scoped at 8fb2614a9 and its hand proof at f77a28a21. This
+continues the existing cross-form probe left open in the November 8/9
+and November 16 source. It reuses the two actual neutral D5 form modes
+and the old cyclic pairing result. Under the named source inverse and
+nonlinear-domain premises, their Hermitian response gives a small
+stationary colour/EM-preserving family of the same supplied action.
+The first vector-pole mixing is a nonzero Wronskian/Hodge pairing,
+with an actual annihilating line. Grading retains the whole old pole.
+Near the origin both split slope groups retain positive right-current
+weight. This changes a vector response without solving weak chirality.
+
+The packet is neutral_cross_form_2026_11_18 under this lane's report
+directory; its input page and seventeen source pins state all remaining
+choices. It is not independently checked. No scientific code, data
+comparison or new agent ran, and no foundational input is counted removed.
+The sender note is
+PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_GLOBAL_VECTOR_RESPONSE.md.
+
+M12 at dbd7c24e3 reports independent computations of the earlier C8
+package and H1/H3 source mathematics and says all five M9 repairs
+are made. Those new records and repairs are now being compared at
+source. The older paragraphs below preserve the state before M12;
+they do not deny that new response. No HARVEST COMPLETE is declared.
 
 The H1/H3 reply is pushed at 6f074b770. A further C8 action-source
 control is sealed at 0217bd0b3. The literal magnetic overlap has a
