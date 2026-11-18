@@ -1323,6 +1323,20 @@ def test_the_physical_lanes_native_signed_action():
     assert "= <ell>: True" in r and "orbits on ordered pairs: 3" in r and "(free parameters 1)" in r and "(free 1); the signed triplet's character norm 1" in r
     assert "character norm 2 (trivial plus two-dimensional: 2); its inner product with the signed triplet 0" in r
 
+
+def test_the_web_seats_section_27_and_its_mends():
+    """added 2026-11-18, later: section 27 (e46bbc14c) held against main at 1a70d5dbe (checks/web_section27.py), and its three mends:
+    the relay ledger's stale OPEN rows of its relays BANKED, its part of P-876 closed, companion_grounds.py naming the move."""
+    import re as _re
+    V = pathlib.Path(__file__).resolve().parent; r = (V / "checks" / "web_section27_run.txt").read_text()
+    assert "rows 70, naming no file 13, files 62" in r and "marks 45 of the seat's own relays OPEN; 41 in the register (statements pending under them: 0)" in r and "= 45 OPEN, where section 27.4 (a) says 44" in r
+    assert "1848: True}" in r and all(("%d: True" % n) in r for n in (1143, 1304, 1317, 1322, 1323, 1338, 1340, 1342, 1642, 1686, 1822, 1833))
+    RL = (V.parents[2] / "docs" / "RELAY_LEDGER.md").read_text().split("\n")
+    open_own = [l for l in RL if _re.match(r"\| `CHAT1_TO_CC_", l) and " | OPEN | " in l]
+    assert len(open_own) == 3 and all("W-P1" in l for l in open_own), [l[:80] for l in open_own]
+    cg = (V / "checks" / "companion_grounds.py").read_text(); assert "dated move" not in cg.replace("this read 'with a dated move'", "") and "undated" not in cg
+    p876 = next(l for l in (V.parents[2] / "docs" / "POINT_REGISTER.md").read_text().split("\n") if l.startswith("| P-876 |")); assert "the web seat's part of this point is closed" in p876
+
 def test_the_web_seats_section_26_and_its_mends():
     """added 2026-11-18, later: the web seat's section 26 (19685b3ce) held against main at d18e3c30c (checks/web_section26.py), and
     the mends it asked: K2b shows the record's history; N2's last clause is true; the moved lines are where their records say."""

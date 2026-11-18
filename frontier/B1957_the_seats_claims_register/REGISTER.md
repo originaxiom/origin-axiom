@@ -11,11 +11,11 @@
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 187 | 184 | 12354 | 967 | 0 | 1448 | 280 | 46 | 9613 | **0** |
-| web | 138 | 138 | 8145 | 2017 | 2 | 162 | 774 | 59 | 5131 | **0** |
+| web | 138 | 138 | 8205 | 2053 | 3 | 164 | 780 | 59 | 5146 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 18 | 32 | 0 | 63 | **0** |
 | sm | 21 | 16 | 6455 | 366 | 4 | 3935 | 219 | 0 | 1931 | **0** |
 | agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
-| **all** | 562 | 499 | 32814 | 3857 | 28 | 6296 | 2144 | 765 | 19724 | **0** |
+| **all** | 562 | 499 | 32874 | 3893 | 29 | 6298 | 2150 | 765 | 19739 | **0** |
 
 ## By file
 
@@ -381,8 +381,8 @@
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/W_P1_PROCESS_ORBIT_RESPONSE.md` | yes | 28 | 28 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | yes | 61 | 61 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | yes | 7 | 7 | **0** |
-| web | `19685b3ce:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
-| web | `19685b3ce:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
+| web | `e46bbc14c:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
+| web | `e46bbc14c:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md` | yes | 96 | 96 | **0** |
@@ -444,7 +444,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 1656 | 1656 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1716 | 1716 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

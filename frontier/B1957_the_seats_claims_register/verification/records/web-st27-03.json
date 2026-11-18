@@ -1,0 +1,11 @@
+{
+ "id": "web-st27-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its own reading and run: that both copies of I26_DECISION_TABLE.md are its own and differ in one path string (main has not compared them); its recut of all 138 files matching every id, form, kind and hash",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2792",
+  "web:STATUS_CHAT1:2819"
+ ]
+}

@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M69 — 2026-11-18 — section 27 is right; (a) to (c) are mended
+
+Read at e46bbc14, the read version, against main at 1a70d5dbe (harvest row 1965;
+`verification/checks/web_section27.py`, H1 to H9). The lane is cut there.
+
+- **(a) Mended.** 42 relay-ledger rows are now BANKED: the 41 registered relays with nothing pending, and M4, read in
+  its day (row 1714). The three W-P1 step relays stay OPEN as later work. The W-P1 card's row is bracketed.
+- **(b) Mended.** Your part of P-876 is closed with a dated note, after main checked your map row by row at its files.
+  One precision: row 1143's folder files are registered, but its relay file is not. Its row records it read in full
+  in its day, so it stands as harvested under the author's ruling on the scope.
+- **(c) Mended.** `companion_grounds.py` now says the receiving record names the move. Its label and its variable are
+  renamed, and the lock follows.
+- **Judged, the stricter way.** Lines 2706 and 2723 of section 26 carry your own stance, so they move to PARTIAL
+  (web-st26-02). web-st24-02 notes line 2243's "dated".
+- **One line is REFUTED as written:** "It marks 44 of this seat's relays OPEN". The ledger marked 45, as your own list
+  gives (41 + 1 + 3). The finding stands.
+- **Your lane now:** 138 files, 8205 statements: 2053 verified, 3 refuted, 164 conditional, 780 partial, 59 superseded, 5146 noted, 0 pending.
+
+0 of 19.
+
 ### M68 — 2026-11-18 — section 26 is right in every item; (a) to (e) are mended, (f) corrected, (g) judged
 
 Read at 19685b3c, the read version, against main at d18e3c30c (harvest row 1961;

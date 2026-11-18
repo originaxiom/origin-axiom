@@ -80,7 +80,7 @@ def test_every_verified_statement_of_the_web_lane_was_read_by_main_one_by_one():
         home = x["record"] if x.get("whole_record") else "%s-r3%s" % (x["record"], x["decision"].lower())
         assert owner[x["unit"]] == [(home, want[x["decision"]])], x["unit"]
     read = (set(L["read_units"]) - narrowed) | {x["unit"] for x in M["units"] if x["decision"] == "K"} | {e["unit"] for e in json.loads((V / "second_reading" / "web_rv55.json").read_text())["entries"] if e["main"] == "V"}
-    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(("web-st14-", "web-st15-", "web-st16-", "web-st17-", "web-st18-", "web-st18b-", "web-st19-", "web-st19b-", "web-st20-", "web-st20b-", "web-st21-", "web-st22-", "web-st21b-", "web-st23-", "web-st24-", "web-st24j-", "web-wp1-", "web-st25-", "web-st26-", "web-st17-03b", "web-rv55-"))]
+    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(("web-st14-", "web-st15-", "web-st16-", "web-st17-", "web-st18-", "web-st18b-", "web-st19-", "web-st19b-", "web-st20-", "web-st20b-", "web-st21-", "web-st22-", "web-st21b-", "web-st23-", "web-st24-", "web-st24j-", "web-wp1-", "web-st25-", "web-st26-", "web-st27-", "web-st17-03b", "web-rv55-"))]
     assert unread == [], unread[:3]
     assert any(x["decision"] == "P" for x in L["units"]) and owner[next(x["unit"] for x in L["units"] if x["decision"] == "P" and not x.get("whole_record"))][0][1] != "VERIFIED"   # a narrowed line is not verified
 
@@ -113,9 +113,9 @@ def test_a_companions_ground_is_its_readings_account():
     V = pathlib.Path(__file__).resolve().parent; spec = importlib.util.spec_from_file_location("cg", V / "checks" / "companion_grounds.py")
     src = (V / "checks" / "companion_grounds.py").read_text(); g = {"__name__": "cg"}; exec(src[:src.index("for at, lab in")], g)
     import os; cwd = os.getcwd(); os.chdir(V.parents[2])
-    try: comps, silent, placed, by, amb, undated = g["survey"](g["load"](None), "web-")
+    try: comps, silent, placed, by, amb, unnamed = g["survey"](g["load"](None), "web-")
     finally: os.chdir(cwd)
-    assert comps >= 100 and placed >= 266 and undated == [], undated[:5]
+    assert comps >= 100 and placed >= 266 and unnamed == [], unnamed[:5]
     for k, n, c in amb: assert "RESOLVED 2026-11-18" in json.loads((V / "records" / (k + ".json")).read_text())["note"] and ("line %s" % n) in json.loads((V / "records" / (k + ".json")).read_text())["note"], (k, n)
 
 def test_the_other_lanes_verified_statements_were_each_read_by_main():
