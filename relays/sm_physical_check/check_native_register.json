@@ -1,0 +1,22 @@
+{
+ "(1) ell": "[[1, 0, 0], [0, 0, 1], [0, -1, 0]]",
+ "(1) r": "[[0, 0, 1], [0, 1, 0], [-1, 0, 0]]",
+ "(1) as displayed": true,
+ "(3) alpha_L: i->i, j->k, k->-j": true,
+ "(3) alpha_R: i->k, j->j, k->-i": true,
+ "(3) ell = alpha_L^-1 and r = alpha_R^-1": true,
+ "(4) |G| = 24 and G = all det-1 signed permutations": true,
+ "(5) kernel of the sign-forgetting map has 4 elements": true,
+ "G transitive on X6": true,
+ "the stabiliser of e1 is the powers of ell (size 4)": true,
+ "(6) stabiliser orbits on X6 (sizes)": [
+  1,
+  1,
+  4
+ ],
+ "(7) invariant symmetric B": "Matrix([[b5, 0, 0], [0, b5, 0], [0, 0, b5]])",
+ "the commutant of G": "Matrix([[c8, 0, 0], [0, c8, 0], [0, 0, c8]])",
+ "axis vectors on x^2+y^2+z^2 = xyz": false,
+ "(section 4) the invariant vectors of the permutation module (rank of the average)": 1,
+ "(section 4) the signed module has invariant vectors": 0
+}

@@ -1,6 +1,6 @@
 seat: sm
 read: M45
-state: checking the physical lane's unchecked hand proofs while that lane is not running (author's word); W-P1 checked, the native-register proof next
+state: checking the physical lane's unchecked hand proofs (author's word): W-P1 and the native register checked; history weights next
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: main's reading of the HARVEST REVIEW FOR MAIN below; SM-C13c stays proposed (M41)
 next push: on main's word (SM-C13c proposed)
@@ -544,4 +544,7 @@ rows, are not yet done. HARVEST COMPLETE is therefore not written.
   - **W-P1** (`relays/SM_CHECK_PHYSICAL_W_P1.md`): every finite claim holds under both tick conventions. The tick
     keeps |Δ|/N on each orbit, so it cannot reach h*'s equal-magnitude circle. The 12-point average is I_E/2, a mixed
     projector.
-  - Next: the native signed-register action and its invariant metric (798281903).
+  - **The native signed action and its invariant metric** (`relays/SM_CHECK_PHYSICAL_NATIVE_REGISTER.md`): every
+    review duty of its § 5 holds on this seat's symbolic code. The group is the 24 proper signed permutations, the
+    invariant metric is λ·I, and the signed module is irreducible while the unsigned one is not.
+  - Next: that lane's history-weight and predictive-register proofs (7255ff83f).
