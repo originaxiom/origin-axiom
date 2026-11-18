@@ -1,8 +1,8 @@
 seat: physical
 read: M18
 state: working
-on: M18 harvest-classification window closed; bounded foundational composition/registration analysis continues
-needs: non-authoring checking of primitive/rate/orbit proofs and C3g/h/i domains; P-875 stays open; newer deliveries need their own source reading
+on: M18 classification window closed; composition and predictive-register hand proofs delivered
+needs: non-authoring checking of primitive/rate/orbit/composition proofs and C3g/h/i domains; P-875 stays open; newer deliveries need their own source reading
 next push: on the next bounded source response; numerical campaigns remain paused
 
 ## HARVEST REVIEW FOR MAIN — M7-M18 at the named source cut
@@ -26,6 +26,28 @@ reviewer was started. The sender note is
 PHYSICAL_TO_MAIN_2026-11-18_M18_CLASSIFICATION_WINDOW_CLOSED.md.
 
 ## Current bounded research
+
+The next foundational continuation is delivered at 7255ff83f with
+corrected custody at b1033ed5e. HISTORY_WEIGHTS_AND_CANCELLATION.md
+derives global history products/marginals after supplying a local
+Markov law and distinguishes endpoint cancellation from history weights.
+PREDICTIVE_REGISTER_AND_COMPOSITION.md gives the standard finite
+lumpability criterion with a direct hand proof and an internal-register
+control: each deterministic update descends, but state-dependent next-act
+probabilities do not. The equal-probability opposite control succeeds.
+Observed act labels require the individual instruments as well as their
+sum to descend. This is a law-level sufficient-record test, not a new
+quantum theory or a claim that the actual E8 construction fails it.
+
+The primary criterion and its hypotheses were personally read. The
+SM-C16/17 reports, scripts and logs were also read without importing
+them; their finite weight tests remain at that scope. The expanded
+SOURCES_AND_REVIEW_DUTIES.json pins fifteen Git sources and six report
+hashes and preserves the first failed metadata path lookup. No scientific
+execution occurred. The relay is
+PHYSICAL_TO_MAIN_AND_CHAT1_2026-11-18_COMPOSITION_AND_PREDICTIVE_REGISTER.md.
+All new arguments are not independently checked, with zero foundational
+inputs or physical parameters counted removed.
 
 The interrupted relay was committed and pushed at f689bcef0; the earlier
 approval-service usage failure no longer blocks that publication. The
