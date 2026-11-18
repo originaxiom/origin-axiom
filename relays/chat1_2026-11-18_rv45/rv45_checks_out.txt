@@ -1,0 +1,9 @@
+G1: the twelve log ratios at the mark fall from height 2 to height 6 by 5.56 to 21.00 at Re tau = 0, and by 5.62 to 20.47 as the mean over 11 columns (Re tau -0.5 to 0.5)
+G2: web_posthoc_closure          lines 7 against 7; unequal 0; identical
+G2: web_wz1_other_discriminants  lines 10 against 10; unequal 5; only numbers below 1e-6 differ (largest 3.2e-14)
+G2: web_wf17_on_main             lines 21 against 21; unequal 0; identical
+G2: web_wc4_theorem_c            lines 4 against 4; unequal 0; identical
+G2: web_wb2_d1                   lines 13 against 13; unequal 5; only numbers below 1e-6 differ (largest 2.1e-15)
+G2: web_wf24_wf25                lines 4 against 4; unequal 0; identical
+G2: web_wc2_census_and_lattices  lines 7 against 7; unequal 0; identical
+G2: web_p783_spectrum            lines 10 against 10; unequal 0; identical
