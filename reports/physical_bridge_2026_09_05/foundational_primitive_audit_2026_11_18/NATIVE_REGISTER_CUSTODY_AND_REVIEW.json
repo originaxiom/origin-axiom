@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-18",
+  "status": "Author hand derivation; not independently checked",
+  "scope_commit": "fe35fea58d1d1bcedb9789f093fe210d6c2de772",
+  "sources": [
+    {
+      "commit": "da6f87f5d68d228a121ee8fcd5f5bf517460a315",
+      "path": "frontier/B1601_the_common_point_is_the_geometry_mod_3/FINDINGS.md",
+      "git_blob": "19b4b3ec64bb8dcdf5ad64f2cfdd166dc28cfdab",
+      "sha256": "a5aa2621fd5f22feb38a38b5662012913bb60842523a69bdefe30459c0e8f2eb",
+      "lines": 110,
+      "reading": "Entire report read; section 2 supplies the native derivative action; census results are not used as proof of a physical state space."
+    },
+    {
+      "commit": "da6f87f5d68d228a121ee8fcd5f5bf517460a315",
+      "path": "frontier/B1601_the_common_point_is_the_geometry_mod_3/verification/meets.py",
+      "git_blob": "1866b293848e577c3dcd23b823e2863c7cfc63fe",
+      "sha256": "086dd6db336e0a28484c1e3f25c919cbd39e856a74ea9e10fc6024a1bc557b0d",
+      "lines": 359,
+      "reading": "Lines 1-160 read as text; maps at lines 35-36 used, with direct hand differentiation. No import or execution."
+    },
+    {
+      "commit": "da6f87f5d68d228a121ee8fcd5f5bf517460a315",
+      "path": "frontier/B1600_the_weave_verified/verification/weave_verify.py",
+      "git_blob": "096cdfa1e4cbc2da852c710166731b31ed8a3e0a",
+      "sha256": "5770da844a668d7e7571e8edc74b8ada4e3508b9b148045534d04ded71c26203",
+      "lines": 70,
+      "reading": "Entire source read as text; W1, W2, explicit Q8 matrices and forward substitutions used. No import or execution."
+    },
+    {
+      "commit": "da6f87f5d68d228a121ee8fcd5f5bf517460a315",
+      "path": "docs/THE_WEAVE.md",
+      "git_blob": "97fb9906382db70767a5a73e6446f5e1ce0a3858",
+      "sha256": "6d825c3f487875038050fed940662616b58fd708fd054d4116c477516271f2da",
+      "lines": 969,
+      "reading": "Lines 38-112 read for W1-W4 and WM1-WM2; signed/parity distinctions used. No whole-document fresh audit claimed."
+    },
+    {
+      "commit": "da6f87f5d68d228a121ee8fcd5f5bf517460a315",
+      "path": "docs/seats/physical.md",
+      "git_blob": "985f91dfdc3e2dc7c8d5ee38c84b0226b0726f7b",
+      "sha256": "cb590d8f1c603a7b6cd9ebbc84df2f82e6e3d1212dda9482bc296a6cb40c6609",
+      "lines": 480,
+      "reading": "M19 read in full; finite checks received without claiming independent review of the general hand proofs."
+    },
+    {
+      "commit": "fe35fea58d1d1bcedb9789f093fe210d6c2de772",
+      "path": "relays/cards/PHYSICAL_NATIVE_REGISTER_LAW_PROBE_2026-11-18.md",
+      "git_blob": "dcc59b3866ea544de43f137c24b97980f59e37e5",
+      "sha256": "56899e4aad6005e5bb518386810e351ac5f2173aa285db7000acbe3c393853ac",
+      "lines": 53,
+      "reading": "Entire scope brief; publication after planning, not a before-all-reasoning preregistration."
+    }
+  ],
+  "local_files": {
+    "NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC.md": {
+      "sha256": "e5aedb55cf5d42a73ca117f6c3fb621cd51b67756b329d0618206fe9c281d7b3",
+      "lines": 155
+    }
+  },
+  "proof_duties": [
+    "Check derivative and forward/inverse quaternion action conventions.",
+    "Check the kernel/image order argument and stabilizer orbits.",
+    "Check invariant metric uniqueness and its supplied invariance premise.",
+    "Keep the noncentral-orbit and Markov-surface carrier caveats.",
+    "Check that unsigned labels are not identified with the signed irreducible module."
+  ],
+  "execution": {
+    "scientific_runs": 0,
+    "scientific_tests": 0,
+    "cas_runs": 0,
+    "data_comparisons": 0,
+    "new_agents": 0,
+    "metadata_only": "Git reads, JSON, hashes and whitespace checks"
+  },
+  "preservation": {
+    "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+  },
+  "accounting": {
+    "foundational_inputs_removed": 0,
+    "physical_parameters_earned": 0,
+    "full_goal_complete": false
+  }
+}

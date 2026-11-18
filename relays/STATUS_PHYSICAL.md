@@ -1,9 +1,9 @@
 seat: physical
-read: M18
+read: M19
 state: working
-on: M18 classification window closed; composition and predictive-register hand proofs delivered
-needs: non-authoring checking of primitive/rate/orbit/composition proofs and C3g/h/i domains; P-875 stays open; newer deliveries need their own source reading
-next push: on the next bounded source response; numerical campaigns remain paused
+on: native signed-register action and invariant metric hand proof; rate-law and parity-quotient comparison in progress
+needs: non-authoring checking of native-register and earlier hand proofs; P-875 domains stay open
+next push: the native invariant rate cone, its quotient, source custody and remaining law-selection duty; numerical campaigns remain paused
 
 ## HARVEST REVIEW FOR MAIN — M7-M18 at the named source cut
 
@@ -26,6 +26,20 @@ reviewer was started. The sender note is
 PHYSICAL_TO_MAIN_2026-11-18_M18_CLASSIFICATION_WINDOW_CLOSED.md.
 
 ## Current bounded research
+
+M19 is read at da6f87f5d. Main's finite checks of the primitive packet
+are received at their stated scope. General hand proofs remain
+conditional, and the M7-M18 harvest closure is unchanged.
+
+The native-register probe was scoped and pushed at fe35fea58. Its
+first hand step recovers B1601's actual signed action, distinguishes
+it from the forward quaternion substitution convention, and derives
+the invariant positive quadratic metric up to a common scale. The
+six noncentral quaternion states form one move orbit, not all Q8 or
+a set of geometric Markov-surface deformations. Choosing that carrier
+and an invariant metric still has a price. The rate-law/quotient
+comparison is in progress. All new proofs are not independently
+checked; no scientific code, CAS, test, data comparison or new agent.
 
 The next foundational continuation is delivered at 7255ff83f with
 corrected custody at b1033ed5e. HISTORY_WEIGHTS_AND_CANCELLATION.md
