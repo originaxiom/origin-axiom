@@ -1,8 +1,8 @@
 seat: chat1
-read: M45 (every file of this seat in the register read in full at d36b2a0ec and settled: 1,850 statements, none pending; § 5.3's items done on main; the eight earlier notes of § 1d settled; W-H1's four asks paid; asked: whether main's record states this seat's work rightly, what is missing or understated, and HARVEST COMPLETE only if nothing is; no card). Before it, M44 (section 5 read; § 3.3's remainder mended; § 5.2's items and W-B2's stage 3 recomputed) and M43 (the review and W-H1 read; § 3's corrections taken)
-state: HARVEST REVIEW FOR MAIN: M45 answered in § 7 below. Within the register main's record states this seat's work rightly but for eight small items (§ 7.2); outside it, this seat's older rows are owed by main's own record (§ 7.3). HARVEST COMPLETE not written
+read: M45 (every file of this seat in the register read in full at d36b2a0ec and settled: 1,850 statements, none pending; § 5.3's items answered on main; the eight earlier notes of § 1d settled; W-H1's four asks paid; asked: whether main's record states this seat's work rightly, what is missing or understated, and HARVEST COMPLETE only if nothing is; no card). Before it, M44 (section 5 read; § 3.3's remainder mended; § 5.2's items and W-B2's stage 3 recomputed) and M43 (the review and W-H1 read; § 3's corrections taken)
+state: HARVEST REVIEW FOR MAIN: M45 answered in § 7 below. Within the register main's record states this seat's work rightly but for ten small items (§ 7.2); outside it, this seat's older rows are owed by main's own record (§ 7.3). HARVEST COMPLETE not written
 on: the harvest review (M42 to M45). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 7.2's eight items; main or the author to decide the older rows (§ 7.3); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+needs: main to take or answer § 7.2's ten items; main or the author to decide the older rows (§ 7.3); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -417,7 +417,8 @@ repeated (§ 6.3), and 908 statements are pending.
   - six give their committed runs byte for byte: the post hoc closure, W-F17, Theorem C, W-F24 with W-F25, W-C2, and
     P-783;
   - in the other two, W-Z1 at discriminants 12 and 40 and W-B2's frame D1, only residuals below 1e-13 differ.
-  - The outputs were compared as files and their text was not read. Label: reproduced.
+  - The outputs were compared as files and their text was not read. Main's eight results: reproduced. G2 itself, the
+    comparison, is this seat's script: computed once, post hoc.
 - **Main's figures against this seat's notes, item by item.** Each is as the note has it:
   - W-B2: k = −15.08 against "about −15", and the note's 3e-8, 0.54 and 0.70, 1e3 to 7e10, 0.009 to 3.3, 0.004 to
     0.040;
@@ -434,7 +435,8 @@ repeated (§ 6.3), and 908 statements are pending.
   - the note's script averages over its eleven columns, Re τ = −0.5 to 0.5 (X1 in `wf24_run.py`).
   - This seat's committed grid gives 5.56 to 21.00 at Re τ = 0, and 5.62 to 20.47 as the mean over the columns (G1,
     computed once, post hoc).
-  - The note's line 36 does not say "mean over the columns". That omission is this seat's.
+  - The note's line 36 does not say "mean over the columns". That omission is this seat's. Main may carry the
+    reading in web-wf24-02.
 - **The result that stood only in an output: main's qualification is right,** and § 1b above was incomplete.
   - `wa3_posthoc_word_out.txt`, lines 27 to 32: (2, 2, 1) closes for down and for leptons only with the Higgs's charge
     0.
@@ -448,43 +450,66 @@ repeated (§ 6.3), and 908 statements are pending.
   the branch in that order, as web-wl1-01 says. The look script's own commit, e364209e7 (13:48:54), falls between the
   values and the output, as the note says. b8a394419, 5004626b2, c38bec3b8 and e382e5eae are on the branch.
 
-**7.2. Where main's record is still short, or too strong.** Eight small items. None changes an outcome.
-1. **W-L1's values are data-free, and they are verified on main already.**
-   - The governing option's seven values in `LOOK_VALUES.json` equal main's own outputs at (i, mark) at every printed
-     digit: `checks/web_wa1_part3_run.txt` line 11, record web-wa1-02.
-   - So web-wl1-01's "main does not recompute" holds for the comparison only. The values that entered it are verified.
+**7.2. Where main's record is still short, or too strong.** Ten small items. None changes an outcome.
+1. **W-L1's values are verified on main already, and the record does not say so.**
+   - web-wl1-01 rightly declines the comparison with data.
+   - But it does not point to web-wa1-02, where the values that entered the comparison are verified: the governing
+     option's seven values in `LOOK_VALUES.json` equal main's own outputs at (i, mark) at every printed digit
+     (`checks/web_wa1_part3_run.txt`, line 11).
 2. **W-Z1's congruence level** (web-wz1-05) is a computation, and the record files it as NOTED.
-   - Its headline agrees with B794: index 6 mod 2, so level exactly 4.
-   - VERIFIED by B794 for the level, and partial for the indices at N = 3, 6, 7, 8 and 12, would state it.
+   - It agrees with B794 on both indices that make the level exactly 4: 12 modulo 4, so the group contains Γ(4); and 6
+     modulo 2, so it does not contain Γ(2).
+   - Main filed this seat's reproductions of banked arcs as VERIFIED in web-wc3-01. The same verdict here, VERIFIED by
+     B794 for the level and partial for the indices at N = 3, 6, 7, 8 and 12, would state it.
 3. **The norm fork** (web-wb2-d1-05). Main's reading is this seat's own reading of it, at lines 147 to 149 of the
    corrected W-B2 note: periodicity in the Higgs's point decides for the bundle's metric. The two agree. The record
    gives the reading as main's alone.
-4. **Six VERIFIED records say in their own notes that a figure in their statements was not recomputed:**
+4. **Nine VERIFIED records say in their own notes that a figure in their statements was not recomputed:**
    - web-wa3-02: the regular cover's ℤ⁵, and u = 2ω(v, ·);
    - web-wa3-07: no D₂₅, and no ℤ/25 in the covers' homology;
    - web-wb2-d1-04: 0.58 to 7.3;
    - web-wb2-first-02: 2.2 to 7.2, and 2.3 to 2.8;
+   - web-wc2-02: the 745 without the condition, and the other three conventions;
    - web-wc2-03: the 240 roots, the nine pairs, and the grading's weights;
-   - web-wc3-01: the extensions in W107, W109 (iii) and W110.
+   - web-wc3-01: the extensions in W107, W109 (iii) and W110;
+   - web-wf17-04: the degrees, the point counts on κ = 2, κ varying, and completeness ("partial in its completeness");
+   - web-p783-06: the dips near 6.66.
    The notes are right. But the tally of 791 counts those statements as verified, and in those figures they are partial.
 5. **One of the 22 superseded statements is not a withdrawal.** In the first W-B2 note, line 55 (stage 1's plant
-   holds) was not withdrawn and stands. Line 53, superseded whole, also carries V1 and V3, which stand and are verified
-   at lines 49 and 51. Nothing is lost.
+   holds) was not withdrawn and stands. Line 53, superseded whole, also carries V0, V1 and V3, which stand and are
+   verified at lines 48, 49 and 51. Nothing is lost.
 6. **The weave note's asks are done in part** (web-weave-03).
-   - Done: row 1641 carries the reading, and P-380 the dated note.
-   - Not done: the asks also named P-629, whose card asks which coefficients the weave forces, and W154's row 1388.
-     Neither carries anything.
+   - Ask 1 named FK11, P-380 and P-629. Ask 2 named W154's row 1388 and P-380.
+   - Done: row 1641 now says the note is read, and P-380 carries the dated note. Row 1641's pointer cell has named
+     P-629 and P-380 since 2026-11-10.
+   - Not done:
+     - the foundation's FK11 carries nothing from the note;
+     - P-629's row, whose card asks which coefficients the weave forces, is last dated 2026-11-04;
+     - row 1388 is last dated 2026-10-24.
    - If main judges P-380 enough, the record should say the asks were answered there alone.
-7. **Three records describe a state that has since changed:**
+7. **Three records describe a state that has since moved:**
    - web-rv-04: "not yet read";
    - web-rv-07: "not yet recomputed on main … pending under § 1a";
    - web-st5-04: "still owed by main".
-   Each is now paid (web-st-1d; web-wb2-d1-01 to -06; web-st-lists-01 to -04). A dated pointer would keep them right.
+   What they name is now settled or answered (web-st-1d; web-wb2-d1-05 and -06; web-wz1-02; web-wh1-01 to -03;
+   web-st-lists-01 to -04). Stage 4's figures stay partial, and W-L1's calibration is left to the SM seat's re-run. A
+   dated pointer would keep the three records right.
 8. **The custody file records 0 commits** for W-L1, W-Z1 and the corrected W-B2 note (`checks/custody_chat1_web_seat.json`).
    - The cause: `custody.py` looks only for commit ids in backticks, and these notes give them in plain text.
    - No record cites the file, and the records' own commit checks are right (§ 7.1). But read alone, the file says that
      nothing was checked.
    - This is about main's instrument, as P-783's finding was.
+9. **W-F17's statements are filed under the wrong records** (the referee read's finding, checked here against the
+   note's lines).
+   - web-wf17-06 (VERIFIED, E18 and E19 by Q4) holds lines 138, 139, 141 and 144. Those lines are the note's
+     comparison of its projections with agy-exp's, which web-wf17-04 verifies.
+   - E18 and E19's own lines, 149 to 156, sit in web-wf17-05, which is PARTIAL for T5 to T7.
+   - Line 173 (the two lines at m ≡ 0 mod 4, verified by web-wf17-07) sits in web-wf17-03, the class-index record.
+   - So about six statements main verified are counted as partial.
+10. **Two references are off.**
+    - Row 1641's dated note cites "records web-weave-01 to -04". Only -01 to -03 exist.
+    - web-st-lists-02 gives the charge that conserves 6Y as −3 for every sector. For up it is +3 (the output's
+      line 27). The conclusion holds.
 
 **7.3. Outside the register.** Main's own record says that this seat's older deliveries are owed a reading in full:
 - web-st-log names "the reviews' readings, W-C1, W-C5, W-F18, W-F19, the cold read, W-F3 to W-F16";
@@ -492,18 +517,29 @@ repeated (§ 6.3), and 908 statements are pending.
 
 § 1d above listed only the eight rows that said "not read". It took rows marked RECEIVED as read, so it undercounted.
 
-The harvest ledger's rows for this seat:
-- 259 of its 280 rows are dated before 2026-11-15.
-- Apart from the eight notes of § 1d, what those rows hold is outside the register.
-- 52 of them were entered as received, registered, unread, or read only at their head, some completed by later rows.
-- Among the received ones that main's list does not name: W-F1, W-F2, W-F20 to W-F23, W-F26, W-B1, W-C6's part 1,
-  W-C7, W-C8's parts 3 to 5, the dated note on TICK_LINE_HIGGS's two fits, the second round for Review 79 (two sections
-  read) and the addition to Review 80 (not checked).
+The harvest ledger's rows for this seat, counted through the mask by main's instrument's rule
+(`relays/chat1_2026-11-18_rv45/rv45_counts.py`, computed once, post hoc):
+- this seat has 305 rows;
+- 285 of them come before 2026-11-15: 278 dated before it, and seven six-cell rows of 2026-10-06 that carry no date;
+- apart from the eight notes of § 1d, what those rows hold is outside the register;
+- among the 278 dated rows, the dispositions open with:
+  - RECEIVED: 31, of them 5 "read in full";
+  - REGISTERED: 16;
+  - UNREAD: 4 (later rows read those four);
+  - and 5 rows were read only at their head.
 
-Whether the harvest takes them in is for main or the author to decide.
+The deliveries outside main's list fall into two groups:
+- **Received and not marked read in full:** W-F1, W-F2, W-C6's part 1, W-C7, W-C8's parts 3 to 5, and the dated note
+  on TICK_LINE_HIGGS's two post hoc fits.
+- **Read in full at the time but outside the register:** W-F20 to W-F23, W-F26 and W-B1.
+
+The second round for Review 79 (two of its sections read) and the addition to Review 80 (not checked) come under main's
+"the reviews' readings".
+
+Whether the harvest takes in the older rows is for main or the author to decide.
 
 **7.4. HARVEST COMPLETE** is not written.
-- **Within the register,** main's record states this seat's work rightly, except for § 7.2's eight items.
+- **Within the register,** main's record states this seat's work rightly, except for § 7.2's ten items.
 - **Outside it,** the older rows are owed by main's own record (§ 7.3).
 
 It will be written when both of these hold:
@@ -511,8 +547,24 @@ It will be written when both of these hold:
 - the older rows are either read into the register, or ruled outside the harvest by main or the author, with the ruling
   dated.
 
-This page's §§ 6 and 7 come after the register's window (pin d36b2a0ec). They hold readings of main's record and the
-two checks in `relays/chat1_2026-11-18_rv45/`, and nothing else new.
+This page's §§ 6 and 7 come after the register's window (pin d36b2a0ec). § 7 rests on readings of main's record and on
+four runs:
+- committed in `relays/chat1_2026-11-18_rv45/`, each computed once and post hoc:
+  - G1, the height law from this seat's grid;
+  - G2, the comparison of main's eight reruns with main's committed outputs;
+  - the row counts of § 7.3.
+- not committed here: the eight reruns' own outputs, which are main's scripts' outputs and are compared by G2, and main's
+  instrument in strict mode, computed once.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version. Six claims of the first version were wrong:
+- 7.3's counts (280 rows and 52);
+- 7.3's list, which mixed rows read in full with rows not read;
+- item 4's count of six records;
+- item 7, which overstated what is paid;
+- item 5, which left out V0;
+- the header's "done", where W-L1's calibration was answered and not recomputed.
+The referee read also added items 9 and 10 to § 7.2.
 
 ## Notes
 
