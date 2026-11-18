@@ -1,0 +1,108 @@
+{
+  "all_5_planted_faults_caught": true,
+  "card": "AGY-002_FOUND-G11",
+  "empirical_firewall": "0 of 19",
+  "gate_11_passed": true,
+  "section_0_ast_and_custody": {
+    "ast_and_custody_passed": true,
+    "complex_literals_in_entire_file": 0,
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "prior_sha256_manifests_matched": 17,
+    "prior_sha256_manifests_total": 17,
+    "self_script_sha256_matched": true
+  },
+  "section_1_resolvent_majorana": {
+    "PF11_1_caught": true,
+    "PF11_1_holomorphic_weight_abs_tau_err": 4.804280885368214e-15,
+    "PF11_1_unweighted_holomorphic_S_break": 0.5783610562611683,
+    "PF11_2_caught": true,
+    "PF11_2_kappa_mr_r13_span_factor": 267.53317823776456,
+    "PF11_2_kappa_seesaw_r12_span_factor": 368.4380823464508,
+    "PF11_4_caught": true,
+    "PF11_4_legacy_ones_so3_drift": 0.5497348355215603,
+    "continuous_majorana_knobs_before_vs_after": [
+      4,
+      1
+    ],
+    "haar_u6_u3_max_err_10_trials": 1.3322676295501878e-15,
+    "m44_level6_higgs_4lift_isotropy_err": 4.263256414560601e-14,
+    "m44_level6_higgs_z3_shift_err": 2.2940565157235895e-14,
+    "mr_sd_S_covariance_max_err": 4.396609337412844e-15,
+    "mr_sd_T_covariance_max_err": 5.997201785015249e-15,
+    "mr_sd_symmetry_max_err": 2.220446049250313e-16,
+    "rank_tree_vs_loop": [
+      1,
+      3
+    ],
+    "section_1_passed": true
+  },
+  "section_2_scale_and_apex_audit": {
+    "PF11_3_caught": true,
+    "PF11_3_log10_gap_45_vs_180": 37.88255470542873,
+    "PF11_3_log10_gap_4_vs_45": 11.505072169796874,
+    "PF11_5_caught": true,
+    "PF11_5_telescoping_flux_on_garbage": 1.0000000000004547,
+    "instanton_4_sheet_value": 0.07543170680114987,
+    "manifold_cover_degree_vs_fibre_torsion": [
+      4,
+      45
+    ],
+    "physical_c7_cas_verified": true,
+    "physical_c7_direct_map_gauge_drift": "-6784/4225",
+    "physical_c7_hopf_chern_number": 1,
+    "section_2_passed": true,
+    "symbolic_1loop_rg_transmutation_invariant": true,
+    "vol_m004_float": 2.0298832128193074,
+    "vol_m004_polylog_vs_clausen_diff": 3.503246160812043e-46
+  },
+  "section_3_foundational_52_dag": {
+    "category_counts": {
+      "OPERATOR": 7,
+      "RELATION": 10,
+      "ROOT": 8,
+      "SEAM": 8,
+      "SM_TARGET": 19
+    },
+    "dag_acyclic": true,
+    "guardrail_1_seam_honesty_passed": true,
+    "monotone_max_plus_invariant_passed": true,
+    "relation_rank_histogram_0_1_2_3": [
+      2,
+      5,
+      3,
+      0
+    ],
+    "section_3_passed": true,
+    "sm_target_rank_histogram_0_1_2_3": [
+      0,
+      0,
+      1,
+      18
+    ],
+    "total_dag_nodes": 52,
+    "unique_continuous_modulus_free_sm_parameter": "SM19:bar_theta_QCD",
+    "x_apex_p865b_six_defect_disposition": {
+      "D1_Ng3_vs_6x6_Mirror_StrongCP": "UNREPAIRED_IN_X_APEX_4_SOLVED_CLEANLY_IN_FOUND_G9",
+      "D2_Majorana_Orthonormal_Ones": "PARTIAL_IN_X_APEX_4_LEGACY_ACTIVE_AND_KAPPA_UNPRICED_SCOPED_IN_FOUND_G11",
+      "D3_22of45_Torsion_And_Alpha3_Target_Leakage": "UNREPAIRED_IN_X_APEX_4",
+      "D4_Scalar_Wall_Tension_Zero": "UNREPAIRED_IN_X_APEX_4_HAND_PINNED_ABELIAN_TOY_IN_X_APEX_2",
+      "D5_Dual_E6_Conflation": "ALGEBRAICALLY_SCOPED_IN_X_APEX_1_COMPLETED_WITH_ORDER2_INVOLUTION_IN_FOUND_G8",
+      "D6_Literal_Zero_Witness_And_Floats": "UNREPAIRED_IN_X_APEX_4"
+    }
+  }
+}
