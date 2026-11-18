@@ -1,4 +1,4 @@
-E1: 20 random points: |theta[-a,-b](u) - theta[a,b](-u)| <= 2.57e-41; |conj theta[a,b](u,T) - theta[a,-b](-conj u, -conj T)| <= 0; |... - theta[-a,b](conj u, -conj T)| <= 2.57e-41; the plant with +b: at least 0.0205
+E1: 20 random points: |theta[-a,-b](u) - theta[a,b](-u)| <= 4.59e-41; |conj theta[a,b](u,T) - theta[a,-b](-conj u, -conj T)| <= 0; |... - theta[-a,b](conj u, -conj T)| <= 2.37e-41; the plant with +b: at least 0.123
 E2: |R(tau + 1) - T_R R(tau)| = 6.62e-41; the eigenvalues of T_R as powers of w = exp(i pi/4): [1, 3, 7]; the fifth power of each differs from 1 by at least 0.765
-E5: on the mirror's fixed slice with b = 0: |N - K| <= 2.3e-41; at 20 generic points the two differ by at least 0.124 (relative)
-E6: main's bilinear: |bil(-x, -y, u, t) + bil(x, y, -u, t)| relative, 12 random points: 6.11e-40
+E5: on the mirror's fixed slice with b = 0: |N - K| <= 4.59e-41; at 20 generic points the two differ by at least 0.0566 (relative)
+E6: main's bilinear: |bil(-x, -y, u, t) + bil(x, y, -u, t)| relative, 12 random points: 9.19e-39

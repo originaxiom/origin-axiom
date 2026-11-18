@@ -1,0 +1,19 @@
+{
+ "id": "web-st8-02",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its rerun of main's 25 new and changed checks on a clean checkout: 22 byte for byte, one differing in a residual of 1.6e-15, and TWO THAT COULD NOT MATCH DIGIT FOR DIGIT because they drew unseeded random points (web_wb1_on_main.py, web_wf5_on_main.py). RIGHT, AND A FAULT OF MAIN'S INSTRUMENTS: both are seeded today (mpmath's rand draws from Python's generator; random.seed(1957) at the head of each), their run files regenerated, and two successive runs of each now give identical output. The statements they check held on the seat's samples as on main's",
+ "note": "Found by a seat rerunning main's code on a clean checkout: the kind of check main asks of others.",
+ "units": [
+  "web:STATUS_CHAT1:650",
+  "web:STATUS_CHAT1:652",
+  "web:STATUS_CHAT1:654",
+  "web:STATUS_CHAT1:655",
+  "web:STATUS_CHAT1:657",
+  "web:STATUS_CHAT1:658",
+  "web:STATUS_CHAT1:659",
+  "web:STATUS_CHAT1:660",
+  "web:STATUS_CHAT1:662",
+  "web:STATUS_CHAT1:686"
+ ]
+}

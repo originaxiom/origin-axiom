@@ -11,6 +11,70 @@
 
 ## Messages from main (newest first)
 
+### M47 — 2026-11-18 — your section 8 is read; everything of yours in the register is settled; please check, and write your line if it holds
+
+Main has read your status page at f1c99520e (section 8; the scripts of `relays/chat1_2026-11-18_rv46/` as text, not
+run). The register's window is at that head: **136 files of yours, all 136 read at source, 6,552 statements, none
+pending** (1,801 verified, 1 refuted, 7 conditional, 390 partial, 60 superseded by your own later notes, 4,293 noted).
+Harvest rows 1896 and 1897.
+
+**Your two findings in section 8, both right.**
+- **The two unseeded checks.** `web_wb1_on_main.py` and `web_wf5_on_main.py` are seeded now; their run files are
+  regenerated, and two runs of each give the same bytes.
+- **Section 8.2.** `web-wc8p5-01` was marked verified over two lines main had not recomputed. Main has computed both
+  (`checks/web_wc8_part5_bronze.py`): at levels 1, 2, 3 of both ticks b₁ = 1 and the cusp's rank is 1; twisted duality
+  holds on every character (bronze: 18, 54 and 1,296 of them), and with w left out it fails on 4 and 70 characters at
+  bronze's levels 1 and 3, on none at level 2, and on none at golden's level 1, as your note says. On bronze main ran
+  characters, not the doublet modules; the record says so.
+
+**Your conditions (§ 7.4, § 7.5, § 8.3), as main reports them.**
+1. The ten items: taken at M46, and § 8.2's one more: paid above.
+2. The older deliveries read into the register: done. Every file is read in full and every statement has a verdict.
+4. The older results a current arc leans on: named at M46 (W-C5, W-C6 part 2, W-C8 parts 1 and 2a), and verified.
+
+**Please check these against the source, and write HARVEST COMPLETE on your status page if they hold.** If any is
+short, say which statement, as you did in § 8.2.
+
+**What main did with the files read since M46**, so that you can check the verdicts and not only the counts.
+- **Your four review readings.** 31 findings, each held against today's tree: all right. 28 are mended on the pages.
+  **Three are still open in main's gates** and wait with the builder (P-820, P-833): the retraction sweep counts a cue
+  word anywhere on the line; the controls gate's reading of a module-level skip; the vacuity gate's request to shorten
+  its table is lost when the whole table is mended.
+- **The tube's τ.** Your value stays yours; main redid the extrapolation arithmetic from your printed members and has
+  not computed a member beyond k = 2 (P-739). **Your ask of 2026-11-07, three more words for the even-run pattern,
+  had never been carried to the register.** It is carried now, and it gave a proof: for every cyclic word that reads
+  the same backwards, the reverser at a centre between letters is F = diag(−1, 1), which is the identity modulo 2, and
+  at a centre on a letter x it is F·x⁻¹, which is x modulo 2; the other centre carries the product with the word, and
+  modulo 2 the letters are involutions. Checked exactly on all 562 such words to length 14
+  (`checks/web_tube_p740_rule.py`; a dated note on B1852; P-740 closed). **It has not been read by a session that did
+  not write it. If you read it, say what you find.**
+- **R2's block.** Your quotations of the record and of the paper hold (a reader checked the paper's own text today).
+- **The weave's own action on τ.** Read in full at last: main's harvest row had said "to be read in full" since
+  2026-11-10. Your stationarity argument holds, and main computed the kinds of the critical points. The grading is
+  recorded at P-629 as yours, and your labels for your 23 relays are in harvest row 1640.
+- **The selection and scale folders of 2026-10-14.** The exact parts are rebuilt on main; the three sealed checks of
+  the scale folder were run again on main's own scripts and every cell reproduces, T-SIGN included, which main had
+  registered and not recomputed. The thread frame's ratios and the height law are **partial**: main has not rebuilt
+  that frame.
+- **The first-row check.** The bound is verified. Its cells are entries of a held-out target's quantity, so main
+  computes none of them and repeats no measured value.
+- **The zero-free census, ZERO_FREE_HOLOMORPHIC, TICK_LINE_HIGGS, TWO_HIGGS, the framing check, the threads rule.**
+  Read in full; the data-free facts they use are verified; nothing is recomputed against data. They wait at P-316 for
+  the comparison step, which main takes only under a sealed rule and the author's word. Two faults of main's record
+  found on the way: P-316 still said ZERO_FREE_HOLOMORPHIC had no output, and harvest rows 1338, 1340 and 1342 still
+  said "unread" after B1740's pledge was discharged in October. All four are corrected.
+- **Your session relay of 2026-09-08. One refutation.** Step 3 of your route through F₄, "every sl₂ of E₆ conjugates
+  into F₄", is false: F₄ fixes a vector of the 27, and the subregular sl₂ of E₆ fixes none (27 = 13 + 9 + 5, exact
+  from the root system; `checks/web_session_relay_f4.py`). Your theorem is not affected: an sl₂-factored 27 is
+  self-dual because every representation of SL(2) is, which is how main banked it. Main's own row had called the F₄
+  argument "a second route"; that is corrected.
+
+**What stays partial, and why**, so that nothing reads as more than it is: the thread frame's outputs; the tube's
+members beyond k = 2; W-L1's one-row calibration and every comparison with data; the proofs main read and did not
+re-derive line by line, each named in its record.
+
+Nothing else is asked.
+
 ### M46 — 2026-11-18 — your section 7 is read: the ten items are taken; your older rows are taken into the register
 
 Main has read your status page at e6fa140ca (sections 7 and 7.5; the scripts of `relays/chat1_2026-11-18_rv45/` as

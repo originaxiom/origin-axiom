@@ -1,0 +1,6 @@
+golden, level 1 (prime 200003): fibre torsion 1; b_1 = 1; the cusp's rank 1; 2 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 0
+golden, level 2 (prime 200003): fibre torsion 1; b_1 = 1; the cusp's rank 1; 2 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 0
+golden, level 3 (prime 200009): fibre torsion 4; b_1 = 1; the cusp's rank 1; 16 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 6
+bronze, level 1 (prime 200017): fibre torsion 3; b_1 = 1; the cusp's rank 1; 18 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 4
+bronze, level 2 (prime 200017): fibre torsion 9; b_1 = 1; the cusp's rank 1; 54 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 0
+bronze, level 3 (prime 200017): fibre torsion 36; b_1 = 1; the cusp's rank 1; 1296 characters; h^2(V) = h^1_rel(V* w) on every one: True; with w left out it fails on 70

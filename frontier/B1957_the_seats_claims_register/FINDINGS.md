@@ -318,6 +318,19 @@ noted, and none is pending.
     lock reads by paragraph and looks for the walk's own words, and both locks read the same root pages. Two things
     stand as the seat left them, by main's stated choice: the walk still prints its withdrawn outcome when run, and
     both locks exempt the programme page's folder.
+- **THE WEB SEAT'S LANE IS AT ZERO PENDING (2026-11-18, night): 136 files, all read at source, 6,552 statements.**
+  The seat has not written HARVEST COMPLETE; main has reported its three conditions met and asked it to check (M47).
+  - **Its section 8, after M46, found two faults of main's, both right and both mended.** Two of main's checks drew
+    unseeded random points, so a rerun could not match them digit for digit (seeded). One record was marked verified
+    over two lines main had not recomputed, the same fault the seat had named that morning (both computed now:
+    `checks/web_wc8_part5_bronze.py`).
+  - **One refutation, in its session relay of 2026-09-08:** "every sl₂ of E₆ conjugates into F₄" is false (the
+    subregular sl₂ fixes no vector of the 27: 13 + 9 + 5). The relay's theorem stands for the simpler reason main
+    banked, and main's own row, which had called the F₄ argument a second route, is corrected.
+  - **The October tests that compare with data** (the first row; the zero-free census; ZERO_FREE_HOLOMORPHIC;
+    TICK_LINE_HIGGS; TWO_HIGGS; the framing check): read in full, their data-free facts verified, nothing recomputed
+    against data, no measured value repeated. The comparison step waits at P-316. Main's record of them was stale in
+    four places (P-316; harvest rows 1338, 1340, 1342), corrected.
 - **The web seat's four review readings (Reviews 79, 79b, 80, 81) and their cards, read in full.** They found 31
   faults in main's own arcs, locks and governing pages: claims wider than what was computed, corrections that had not
   travelled to the other pages that state the same thing, seven tests in main's suite that could not fail, a mend

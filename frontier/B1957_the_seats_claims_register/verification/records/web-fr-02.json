@@ -1,0 +1,16 @@
+{
+ "id": "web-fr-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the scored cells of the first-row check: its first cell is the bound (verified on main, above); the other cells are computed by the seat on main's banked group and couplings and are NOT recomputed by main, which checked the cap by hand in October (harvest row 1143) and no more. They are entries of the first row of a mixing matrix in the frame, a quantity of a held-out target, so main computes none of it MAIN READ THIS IN FULL AND COMPARES NOTHING: it sets outputs of a frame beside measured values under a rule of the seat's own; main recomputes nothing against data and repeats no measured value in its record.",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:34",
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:35",
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:36",
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:37",
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:38",
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:39",
+  "web:chat1_2026-10-14_the_first_row/FINDINGS:40"
+ ]
+}

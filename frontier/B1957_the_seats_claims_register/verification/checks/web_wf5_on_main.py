@@ -14,6 +14,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import web_wf4
 red2 = lambda w: functools.reduce(lambda s, c: s[:-1] if s and s[-1] == c else s + c, w, "")          # the free product: letters are involutions
 
 if __name__ == "__main__":
+    import random; random.seed(1957)                      # mpmath's rand draws from Python's generator: seeded on 2026-11-18 so that a rerun gives the same digits (the web seat's section 8)
     def h1_group(K):                                                    # (Z/2)^3 modulo K(a + b + c)
         return 3 if (K is None or K % 2 == 0) else 2
     print("F1: H_1(O_K) = (Z/2)^r with r = %s for K = 2 to 13, and 3 at K = infinity; the parity character needs (-1)^K = 1: it exists at K = %s and at infinity" % ([h1_group(K) for K in range(2, 14)], [K for K in range(2, 14) if K % 2 == 0]))

@@ -1,0 +1,10 @@
+{
+ "id": "web-sr-01",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "step 3 of the relay's route through F4: 'every sl2 of E6 conjugates into F4'. FALSE. F4 is the stabiliser of a vector of the 27 (27 = 26 + 1), so an sl2 inside a conjugate of F4 fixes a non-zero vector of the 27; the subregular sl2 of E6 (weight 2 on every node but the branch node) fixes none: the 27 is V_12 + V_8 + V_4, of dimensions 13 + 9 + 5 (checks/web_session_relay_f4.py, exact from the root system; controls: the regular sl2 gives 17 + 9 + 1 with a fixed vector, the adjoint decomposes for both, and the orbit has dimension 70). A second route to the same negative: E6 has 20 classes of sl2 and F4 has 15, by the standard tables of nilpotent orbits. An orbit being stable under the involution as a set does not give it a fixed element",
+ "note": "THE RELAY'S THEOREM IS NOT AFFECTED: for an sl2-factored representation the 27 is self-dual because every representation of SL(2) is, which is how main banked it on 2026-09-08 (harvest row 14, VERIFIED-DIFFERS). That row had recorded 'the F4 dressing' as a second route; it is not one, and the row carries a dated note.",
+ "units": [
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:75"
+ ]
+}

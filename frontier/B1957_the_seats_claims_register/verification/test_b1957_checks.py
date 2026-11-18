@@ -373,3 +373,27 @@ def test_a_chiral_thread_sees_the_level_and_its_mirror_sees_it_with_the_other_si
     assert abs(c1 + math.pi ** 2 / 24) < 1e-9 and abs(c1 + c2) < 1e-9 and abs(v1 - v2) < 1e-9 and abs(c0) < 1e-9 and abs(v0 - 2.0298832128) < 1e-9
     vm, cm, _ = __import__("web_scale_troot_tsign").data("b+-LR")
     assert abs(abs(cm) - math.pi ** 2 / 2) < 1e-9                                               # the sign of the monodromy shifts the invariant by a quarter
+
+
+def test_an_isotropic_direction_and_a_real_one_overlap_by_at_most_one_half():
+    import math
+    import web_first_row_bound as B
+    rng = np.random.default_rng(4)
+    for _ in range(4000):
+        u = rng.normal(size=3) + 1j * rng.normal(size=3); v = rng.normal(size=3) + 1j * rng.normal(size=3)
+        assert B.ratio(u, v) <= B.bound(B.sig(u), B.sig(v)) + 1e-12
+    x = np.array([1.0, 0, 0]); y = np.array([0, 1.0, 0]); iso = x + 1j * y
+    assert abs(B.sig(iso)) < 1e-15 and abs(B.ratio(iso, x) - 0.5) < 1e-15 and B.bound(0.0, 1.0) == 0.5        # attained
+    assert B.ratio(iso, iso) > B.bound(0.0, 1.0)                                                             # and the cap is not a bound for two isotropic directions
+
+
+def test_the_subregular_sl2_of_e6_fixes_no_vector_of_the_27_so_it_is_not_inside_f4():
+    import web_session_relay_f4 as E
+    Ci = E.inverse(E.C); w27 = E.weights((1, 0, 0, 0, 0, 0)); assert len(w27) == 27
+    def content(d):
+        eigs = []
+        for w in w27:
+            coef = [sum(Ci[i][j] * w[j] for j in range(6)) for i in range(6)]; eigs.append(int(sum(coef[i] * d[i] for i in range(6))))
+        return E.sl2_content(eigs)
+    assert content((2, 2, 2, 2, 2, 2)) == {16: 1, 8: 1, 0: 1}                    # the regular sl2: 17 + 9 + 1, a fixed vector, as inside F4
+    assert content((2, 2, 0, 2, 2, 2)) == {12: 1, 8: 1, 4: 1}                    # the subregular one: 13 + 9 + 5, none

@@ -1,0 +1,17 @@
+{
+ "id": "web-i26-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the decision table's arithmetic, by hand today and on main's code in September (harvest row 530: 'the table reproduces on main'): with the Euler characteristic of each manifold zero, the net count is minus the Euler characteristic of the chosen boundary piece; the three standard conventions (the whole torus, an annulus, an empty piece) give 0 on all three manifolds; the torus less the order-3 fixed discs gives 0, 6, 6 (three fixed points on each of two cusps); the same at one cusp gives 0, 3, 3; one disc per cusp gives -1, -2, -2",
+ "note": "Main's September note stands: two Betti sums in the note's first lines are misprinted (a manifold with two cusps has first Betti number at least 2); the Euler characteristics are zero regardless.",
+ "units": [
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:13",
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:20",
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:21",
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:22",
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:23",
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:24",
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:25",
+  "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:27"
+ ]
+}

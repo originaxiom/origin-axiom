@@ -17,6 +17,7 @@ def th(a, b, u, T, N=60): return mp.nsum(lambda n: mp.exp(1j * mp.pi * (n + a) *
 rnd = lambda: mp.mpf(mp.rand()) * 2 - 1
 
 if __name__ == "__main__":
+    import random; random.seed(1957)                      # mpmath's rand draws from Python's generator: seeded on 2026-11-18 so that a rerun gives the same digits (the web seat's section 8)
     wN = wK1 = wK2 = 0; plant = mp.inf
     for _ in range(20):
         a, b = rnd(), rnd(); u = mp.mpc(rnd(), rnd() * 0.3); T = mp.mpc(rnd(), 0.6 + mp.rand())

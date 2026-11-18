@@ -1,0 +1,16 @@
+{
+ "id": "web-sr-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "item 1(c), a bound on a supersymmetry-breaking scale from the family part of a Z' boson: main computed every structural step in B1303 (the closure of the Z', its neutrality, the anomaly cancellation between the 27s and their conjugates) and recorded the conclusion as one branch of a fork: the regime the relay names holds if the generation that takes the expectation value is a light family, and a far lower one if it is the third; the record does not say which. The number rests on a measured bound and on a guessed coupling, as the relay says; main compares nothing here",
+ "note": "",
+ "units": [
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:94",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:96",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:102",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:107",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:110",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:113",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:116"
+ ]
+}

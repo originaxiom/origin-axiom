@@ -1,0 +1,2 @@
+regular (2 on every node): the 27 as sl2 modules (highest weight: multiplicity): {16: 1, 8: 1, 0: 1}, dimensions [17, 9, 1]; a fixed vector in the 27: True; the adjoint decomposes: True; orbit dimension 78 - 6 - 0 = 72
+subregular (0 on the branch node, 2 elsewhere): the 27 as sl2 modules (highest weight: multiplicity): {12: 1, 8: 1, 4: 1}, dimensions [13, 9, 5]; a fixed vector in the 27: False; the adjoint decomposes: True; orbit dimension 78 - 8 - 0 = 70

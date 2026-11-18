@@ -9,9 +9,9 @@
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
 | physical | 136 | 23 | 10952 | 183 | 0 | 145 | 6 | 37 | 7790 | **2791** |
-| web | 136 | 120 | 6491 | 1702 | 0 | 0 | 383 | 55 | 3631 | **720** |
+| web | 136 | 136 | 6552 | 1801 | 1 | 7 | 390 | 60 | 4293 | **0** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 405 | 193 | 20644 | 2430 | 12 | 234 | 528 | 92 | 11796 | **5552** |
+| **all** | 405 | 209 | 20705 | 2529 | 13 | 241 | 535 | 97 | 12458 | **4832** |
 
 ## By file
 
@@ -282,9 +282,9 @@
 | physical | `reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_2026-11-12_HARMONIC_TRANSPORT_FIRST_RETURN.md` | yes | 2 | 2 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | no | 61 | 0 | **61** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | no | 7 | 0 | **7** |
-| web | `docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | no | 18 | 0 | **18** |
-| web | `frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | no | 48 | 0 | **48** |
-| web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | no | 6 | 0 | **6** |
+| web | `docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
+| web | `frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md` | yes | 96 | 96 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md` | yes | 126 | 126 | **0** |
@@ -344,7 +344,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 407 | 407 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 468 | 468 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |
@@ -397,8 +397,8 @@
 | web | `relays/chat1_2026-10-14_selection/PREREGISTRATION_LAGRANGE_LAW.md` | yes | 28 | 28 | **0** |
 | web | `relays/chat1_2026-10-14_selection/PREREGISTRATION_THREAD_FRAME.md` | yes | 59 | 59 | **0** |
 | web | `relays/chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE.md` | yes | 233 | 233 | **0** |
-| web | `relays/chat1_2026-10-14_the_first_row/FINDINGS.md` | no | 87 | 0 | **87** |
-| web | `relays/chat1_2026-10-14_the_first_row/PREREGISTRATION.md` | no | 78 | 0 | **78** |
+| web | `relays/chat1_2026-10-14_the_first_row/FINDINGS.md` | yes | 87 | 87 | **0** |
+| web | `relays/chat1_2026-10-14_the_first_row/PREREGISTRATION.md` | yes | 78 | 78 | **0** |
 | web | `relays/chat1_2026-10-14_the_scale/FINDINGS.md` | yes | 62 | 62 | **0** |
 | web | `relays/chat1_2026-10-14_the_scale/PREREGISTRATION.md` | yes | 53 | 53 | **0** |
 | web | `relays/chat1_2026-10-14_the_scale/THE_SCALE.md` | yes | 205 | 205 | **0** |
@@ -406,17 +406,17 @@
 | web | `relays/chat1_2026-10-14_the_scale/T_ROOT_PREREGISTRATION.md` | yes | 44 | 44 | **0** |
 | web | `relays/chat1_2026-10-14_the_scale/T_SIGN_FINDINGS.md` | yes | 18 | 18 | **0** |
 | web | `relays/chat1_2026-10-14_the_scale/T_SIGN_PREREGISTRATION.md` | yes | 13 | 13 | **0** |
-| web | `relays/chat1_2026-10-22_selection_map/THREADS_WITH_INGREDIENTS_RULE.md` | no | 36 | 0 | **36** |
-| web | `relays/chat1_2026-10-23_framing/THE_FRAMING_CHECK.md` | no | 80 | 0 | **80** |
-| web | `relays/chat1_2026-10-23_tick_line/DISCLOSURES_BEFORE_READING.md` | no | 5 | 0 | **5** |
-| web | `relays/chat1_2026-10-23_tick_line/PREDICTION_BEFORE_ZERO_FREE_HOLOMORPHIC.md` | no | 5 | 0 | **5** |
-| web | `relays/chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RESULT.md` | no | 47 | 0 | **47** |
-| web | `relays/chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RULE.md` | no | 34 | 0 | **34** |
-| web | `relays/chat1_2026-10-23_two_higgs/TWO_HIGGS_RESULT.md` | no | 54 | 0 | **54** |
-| web | `relays/chat1_2026-10-23_two_higgs/TWO_HIGGS_RULE.md` | no | 39 | 0 | **39** |
-| web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION.md` | no | 98 | 0 | **98** |
-| web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RESULT.md` | no | 48 | 0 | **48** |
-| web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RULE.md` | no | 37 | 0 | **37** |
+| web | `relays/chat1_2026-10-22_selection_map/THREADS_WITH_INGREDIENTS_RULE.md` | yes | 36 | 36 | **0** |
+| web | `relays/chat1_2026-10-23_framing/THE_FRAMING_CHECK.md` | yes | 80 | 80 | **0** |
+| web | `relays/chat1_2026-10-23_tick_line/DISCLOSURES_BEFORE_READING.md` | yes | 5 | 5 | **0** |
+| web | `relays/chat1_2026-10-23_tick_line/PREDICTION_BEFORE_ZERO_FREE_HOLOMORPHIC.md` | yes | 5 | 5 | **0** |
+| web | `relays/chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RESULT.md` | yes | 47 | 47 | **0** |
+| web | `relays/chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RULE.md` | yes | 34 | 34 | **0** |
+| web | `relays/chat1_2026-10-23_two_higgs/TWO_HIGGS_RESULT.md` | yes | 54 | 54 | **0** |
+| web | `relays/chat1_2026-10-23_two_higgs/TWO_HIGGS_RULE.md` | yes | 39 | 39 | **0** |
+| web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION.md` | yes | 98 | 98 | **0** |
+| web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RESULT.md` | yes | 48 | 48 | **0** |
+| web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RULE.md` | yes | 37 | 37 | **0** |
 | web | `relays/chat1_2026-11-17_wz1/EXPECTATIONS.md` | yes | 3 | 3 | **0** |
 | agy-audit | `relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md` | yes | 69 | 69 | **0** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | yes | 30 | 30 | **0** |

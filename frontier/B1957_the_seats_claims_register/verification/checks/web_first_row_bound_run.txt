@@ -1,0 +1,5 @@
+B1: 300000 random pairs in C^2, C^3, C^5: the largest value of (overlap - bound): 3.3e-16
+B1: 300 maximisations of (overlap - bound) by random ascent: the largest reached -1.2e-11
+B1: the sharp pairs on an 11 x 11 grid attain the bound to 4.4e-16; B2: at sigma_u = 0, sigma_v = 1 the bound is 0.500
+B3: (tau, |R.R|/|R|^2, the largest overlap of R with a real unit vector): [('(0.0 + 1.0j)', '3e-31', 0.5), ('(0.0 + 1.5j)', '0e+00', 0.5), ('(0.0 + 2.0j)', '1e-31', 0.5), ('(0.0 + 4.0j)', '1e-31', 0.5), ('(-0.5 + 0.866j)', '1e-31', 0.5), ('(0.3 + 1.1j)', '8e-32', 0.5), ('(-0.2 + 0.9j)', '3e-31', 0.5), ('(0.45 + 2.5j)', '2e-31', 0.5)]
+B3: at tau = i: theta_3^4/(theta_2^4 + theta_3^4 + theta_4^4) = 0.5; (theta_3^4 + theta_4^4)/(4 theta_3^4) = 0.375

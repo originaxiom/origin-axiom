@@ -1,0 +1,25 @@
+{
+ "id": "web-read-42",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/chat1_2026-10-14_the_first_row/FINDINGS.md",
+  "relays/chat1_2026-10-14_the_first_row/PREREGISTRATION.md",
+  "relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION.md",
+  "relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RULE.md",
+  "relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RESULT.md",
+  "relays/chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RULE.md",
+  "relays/chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RESULT.md",
+  "relays/chat1_2026-10-23_tick_line/DISCLOSURES_BEFORE_READING.md",
+  "relays/chat1_2026-10-23_tick_line/PREDICTION_BEFORE_ZERO_FREE_HOLOMORPHIC.md",
+  "relays/chat1_2026-10-23_two_higgs/TWO_HIGGS_RULE.md",
+  "relays/chat1_2026-10-23_two_higgs/TWO_HIGGS_RESULT.md",
+  "relays/chat1_2026-10-23_framing/THE_FRAMING_CHECK.md",
+  "relays/chat1_2026-10-22_selection_map/THREADS_WITH_INGREDIENTS_RULE.md",
+  "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
+  "docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md",
+  "relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md"
+ ]
+}
