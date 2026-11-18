@@ -122,4 +122,29 @@ F3: above height 2 under (a), most of the time under runs of 4 to 9; above 1.118
 **Failure.** F0 fails: then the closed form or the sampling is wrong, and neither F3 nor the page's § 4 stands until
 it is found.
 
+## Step 2, the sweep's follow-up (W-P1b-F)
+
+**Why.** Reading the scope's code after the step's run found quantities that the record computes in one class only,
+whose value in the other class the run did not print: B1856's HQ3 (ρ(LR)'s angles and traces on the two sectors),
+B1934's T-exponents on the triplet, W-A1's Frobenius-Schur indicators (main's `web_wa1_rest.py`, item 2), and B1953's
+two phase-free transports. The run's C3 also counted 24 elements without naming them. Written before the script.
+
+**What, fixed now.** The construction is `wp1b_class_test.py`'s (its text run up to its group), a = 1 and a = 2.
+- **G1.** The orders of the elements whose traces differ between the classes; whether the traces agree on every
+  element of order 10.
+- **G2.** ρ_a(LR)'s eigenvalue angles (in turns) and its traces, on the even and on the odd sector.
+- **G3.** ρ_a(T)'s exponents on the even sector, the triplet (as multiples of 1/5).
+- **G4.** The Frobenius-Schur indicators of the even 3 and the odd 2, and the orders of their images (projective for
+  the 3).
+- **G5.** B1953's two facts with D(a, b) = ψ(3ab) X^a Z^b: the largest residual of ρ_a(T) D(a, b) ρ_a(T)⁻¹ against
+  D(a, b − a), and of ρ_a(S) D(a, b) ρ_a(S)⁻¹ against D(−b, a), over the 24 labels.
+
+**Expected [J].** G1: the 24 are the elements of order 5, and order 10 agrees. G2: class 2 gives B1856's 1 − φ on the
+even sector and φ on the odd (B1856 builds e(3x²/5), class 2), and class 1 exchanges them. G3: {0, 1, 4} for a = 1 and
+{0, 2, 3} for a = 2 (B1934). G4: +1 and −1 in both classes; images of orders 60 and 120. G5: zero for a = 2 (B1953's
+class) and not zero for a = 1.
+
+**Failure.** G1 finds a differing trace on an element not of order 5: then the account of where the class shows is
+wrong, and the step's proof waits until it is mended.
+
 0 of 19.
