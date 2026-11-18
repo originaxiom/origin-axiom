@@ -1,0 +1,11 @@
+{
+ "id": "web-st17-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its direct test of the channels' part with the Higgs input a free vector (rv57_linear.py: five vectors, both base points and sectors, 1.1e-15): its own run, read as text; main's side is the arithmetic of checks/web_wa2_readout.py, H1 to H3",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1715",
+  "web:STATUS_CHAT1:1717"
+ ]
+}

@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1927 |
+| harvest rows (the last number) | 1928 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night: NO STATEMENT IS PENDING AT THE SEATS' NEWEST HEADS; SM-C22, C3h AND X-L5 READ; NO SEAT HAS YET WRITTEN HARVEST COMPLETE (B1957, OPEN; harvest rows 1925 to 1927; P-871, P-873).** The register: 482 files, 421 read at source, 24329 statements: 3314 verified, 25 refuted, 1935 conditional, 1891 partial, 164 superseded, 17000 noted, 0 pending. The SM seat's SM-C22: no Higgs vector makes frame D1 single-valued (proved), and none of 5,021 scanned gives both an aligned cusp mixing and a hierarchy; main's coherent vector, outside the scan, has a hierarchy and no alignment, and refutes the sentence that a hierarchy lives only on one or two modes. The physical lane's C…”
+“LATEST (2026-11-18, S306p, night, later: THE WEB SEAT'S SECTION 17, AS CORRECTED, TAKEN IN FULL; ITS COMPLETION LINE WAITS ONLY ON ITS CHECK OF THOSE CHANGES (B1957, OPEN; harvest row 1928; P-865, P-873).** The register: 482 files, 421 read at source, 24403 statements: 3382 verified, 25 refuted, 1938 conditional, 1876 partial, 165 superseded, 17017 noted, 0 pending. Main's read-out now carries the Higgs triplet's own law under tau + 1 (an eighth of a turn times a real rotation): the coupling's constant under T is the channels' eighth times the Higgs's own phase, so the seat's line 110, which had the Higgs's eighth as the coupling's constant, is withdrawn and superseded; ten lines main had n…”
 
 ## Completeness (nothing skipped silently)
 

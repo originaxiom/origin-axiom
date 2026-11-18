@@ -53,7 +53,7 @@ def test_the_second_readings_decisions_are_the_records_verdicts():
     for q in (HERE / "records").glob("*.json"):
         d = json.loads(q.read_text())
         for u in d.get("units", []): owner.setdefault(u, []).append((d["id"], d["verdict"]))
-    want = {"K": "VERIFIED", "N": "NOTED", "C": "CONDITIONAL", "P": "PARTIAL"}
+    want = {"K": "VERIFIED", "N": "NOTED", "C": "CONDITIONAL", "P": "PARTIAL", "S": "SUPERSEDED"}      # S added 2026-11-18: a kept line the seat itself later withdrew
     for name in ("web.json", "others.json"):                                                       # the second list (the other lanes) added the same day
         L = json.loads((HERE / "second_reading" / name).read_text())
         assert len(L["units"]) == L["candidates"] == sum(L["decisions"].values()) and L["decisions"]["K"] < L["candidates"] // 2      # most candidates were narrowed [2026-11-18: the bound was a quarter; the web seat's own reading showed 194 narrowed lines of its lane to be computed by main's own scripts and arcs, and they are restored, so its kept are 284 of 950]
@@ -80,7 +80,7 @@ def test_every_verified_statement_of_the_web_lane_was_read_by_main_one_by_one():
         home = x["record"] if x.get("whole_record") else "%s-r3%s" % (x["record"], x["decision"].lower())
         assert owner[x["unit"]] == [(home, want[x["decision"]])], x["unit"]
     read = (set(L["read_units"]) - narrowed) | {x["unit"] for x in M["units"] if x["decision"] == "K"} | {e["unit"] for e in json.loads((V / "second_reading" / "web_rv55.json").read_text())["entries"] if e["main"] == "V"}
-    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(("web-st14-", "web-st15-", "web-st16-", "web-rv55-"))]
+    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(("web-st14-", "web-st15-", "web-st16-", "web-st17-", "web-rv55-"))]
     assert unread == [], unread[:3]
     assert any(x["decision"] == "P" for x in L["units"]) and owner[next(x["unit"] for x in L["units"] if x["decision"] == "P" and not x.get("whole_record"))][0][1] != "VERIFIED"   # a narrowed line is not verified
 

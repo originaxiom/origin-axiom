@@ -9,7 +9,7 @@ owner = {}
 for q in (V / "records").glob("*.json"):
     d = json.loads(q.read_text())
     for u in d.get("units", []): owner.setdefault(u, []).append((d["id"], d["verdict"]))
-want = {"K": "VERIFIED", "N": "NOTED", "C": "CONDITIONAL", "P": "PARTIAL"}; bad = []; twice = [u for u, o in owner.items() if len(o) > 1]
+want = {"K": "VERIFIED", "N": "NOTED", "C": "CONDITIONAL", "P": "PARTIAL", "S": "SUPERSEDED"}; bad = []; twice = [u for u, o in owner.items() if len(o) > 1]      # S added 2026-11-18: a kept line the seat itself later withdrew
 for x in L["units"]:
     o = owner.get(x["unit"], [])
     if x["unit"] not in units or len(o) != 1 or o[0][1] != want[x["decision"]]: bad.append((x["unit"], x["decision"], o))

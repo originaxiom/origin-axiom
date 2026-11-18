@@ -1,0 +1,20 @@
+{
+ "id": "web-st17-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's check of M56 and M57 (its section 17.1, corrected version at bf3b06b14), each line held against main's register and lists at the commit it read: the lane's totals; every entry of web_rv55.json carries its record's verdict; the rows where main's action differs from the suggestion, each with main's reason, which the seat accepts; W-C3's lines 18, 100 and 105 verified; M56's correction of its wording",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1694",
+  "web:STATUS_CHAT1:1697",
+  "web:STATUS_CHAT1:1699",
+  "web:STATUS_CHAT1:1700",
+  "web:STATUS_CHAT1:1701",
+  "web:STATUS_CHAT1:1702",
+  "web:STATUS_CHAT1:1703",
+  "web:STATUS_CHAT1:1704",
+  "web:STATUS_CHAT1:1705",
+  "web:STATUS_CHAT1:1707",
+  "web:STATUS_CHAT1:1708"
+ ]
+}

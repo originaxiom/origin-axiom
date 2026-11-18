@@ -2,11 +2,11 @@
  "what": "The web lane's verified statements that no sorter marked at the second reading, and that main therefore had not read one by one. On 2026-11-18, after the web seat showed two KEPT lines wrong and asked that every verified statement be held against its record's ground with none skipped (its section 15.3), main read all of them, record by record, each line beside its record's full ground. 'units' lists every line main narrowed, with the reason; every other line of 'read_units' was kept verified. Decisions: P partial, N noted, C conditional. A narrowed line sits in its parent's companion record (suffix -r3p, -r3n, -r3c), or, where the parent held nothing else, the parent itself takes the verdict ('whole_record').",
  "read": 990,
  "decisions": {
-  "P": 40,
-  "C": 19,
-  "N": 26
+  "P": 28,
+  "C": 20,
+  "N": 24
  },
- "kept": 905,
+ "kept": 918,
  "units": [
   {
    "unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:23",
@@ -195,12 +195,6 @@
    "why": "rests on the seat's own run (its rerun of main's scripts, or its own search or script), whose output main read and did not make"
   },
   {
-   "unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:113",
-   "record": "web-wa2-05",
-   "decision": "P",
-   "why": "the gaps a quarter, a quarter and a half are main's (B1952 part F; the read-out's R); the absolute phases 0, 1/4, 3/4 depend on R's sign and on line 110's constant, which main's read-out does not give as the note has it"
-  },
-  {
    "unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:28",
    "record": "web-wa3-02",
    "decision": "P",
@@ -209,20 +203,8 @@
   {
    "unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:116",
    "record": "web-wa3-05",
-   "decision": "P",
-   "why": "its first sentence follows from main's facts; that the record's identification is the one the act's route gives is conditional on a labelling ('if the record's line labels are the fibre's homology') that nothing computes"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:126",
-   "record": "web-wb2-d1-05",
-   "decision": "P",
-   "why": "a control row of the seat's own table, with its own figure; main's check has no row of this name"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:127",
-   "record": "web-wb2-d1-05",
-   "decision": "P",
-   "why": "a control row of the seat's own table, with its own figure; main's check has no row of this name"
+   "decision": "C",
+   "why": "the web seat's corrected section 17: its first sentence follows from main's computation; its second holds under the premise it states (the record's line labels are the fibre's homology mod 5), so conditional, as main's own rule has it"
   },
   {
    "unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:76",
@@ -245,8 +227,8 @@
   {
    "unit": "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:19",
    "record": "web-wf16-01",
-   "decision": "N",
-   "why": "a definition"
+   "decision": "P",
+   "why": "the web seat's corrected section 17: its second sentence is a claim: the orbit count is main's (H3 enumerates the orbits on all 64 assignments); that it equals the rank count is not computed"
   },
   {
    "unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:139",
@@ -259,12 +241,6 @@
    "record": "web-wf17-04",
    "decision": "P",
    "why": "the two projections are main's; that they are consistent with what its mask showed is the seat's reading"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:236",
-   "record": "web-wf17-04",
-   "decision": "N",
-   "why": "a fragment of a list describing its method"
   },
   {
    "unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:36",
@@ -284,72 +260,6 @@
    "record": "web-wf24-05",
    "decision": "N",
    "why": "the theorem's hypothesis"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:55",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:60",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:61",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:65",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:68",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:70",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:90",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:99",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:100",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:132",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
-  },
-  {
-   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:136",
-   "record": "web-wtau-03",
-   "decision": "P",
-   "why": "restates one of main's arcs; only ten quotations of this note were held against their sources, and this line is not one of them"
   },
   {
    "unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:217",
@@ -518,6 +428,18 @@
    "record": "web-st9-03",
    "decision": "P",
    "why": "at the web seat's own reading (its row 442): \"golden has none at levels 1 to 3\" cites the seat's wc8_part5_out.txt; I3 runs bronze level 2 only (l.33 m, n = 3, 2; run l.1); web-wc8p5-01's note credits I3 with golden"
+  },
+  {
+   "unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:113",
+   "record": "web-wa2-05",
+   "decision": "P",
+   "why": "the web seat's corrected section 17: the eigenphases 0, 1/4, 3/4 are R's with determinant 1, which the law does not fix (R and -R give the same R^T Y R), and with the constant kept off the blocks: two conventions, as the seat says"
+  },
+  {
+   "unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:65",
+   "record": "web-wtau-03",
+   "decision": "P",
+   "why": "the web seat's corrected section 17: 'the common point's defining system' and 'its 6D term has no closed form' are in none of its arcs, as the seat says; it stays partial"
   }
  ],
  "read_units": [

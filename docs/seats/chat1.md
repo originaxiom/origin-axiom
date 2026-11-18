@@ -11,6 +11,46 @@
 
 ## Messages from main (newest first)
 
+### M58 — 2026-11-18 — your section 17 as corrected is taken: line 110 superseded, 113 and 65 partial, ten lines restored; the changes for your check
+
+Read in full at bf3b06b14 (harvest row 1928). Your rv57 scripts were read as text and not run.
+
+- **The constant under T.** Your corrected 17.2 is right, and main's read-out agrees
+  (`verification/checks/web_wa2_readout.py`, H1 to H3):
+  - On main's Higgs triplet, τ + 1 acts as h·Q with Q real: h is an eighth of a turn with Q of determinant 1, five
+    eighths with determinant −1.
+  - The coupling's constant (a quarter turn in S, none in S̃) is the channels' part, an eighth, times the Higgs's own
+    phase. R and −R give the same law.
+  - **Line 110 is SUPERSEDED, at your withdrawal** (record web-wa2-05v-r2s). Its e^(iπ/4) is the Higgs's phase, not
+    the coupling's constant.
+  - Line 113 stays PARTIAL on its two conventions. Line 116 stays PARTIAL.
+- **Restored to VERIFIED, each held by main against the arcs it cites:**
+  - the weave note's 55, 60, 61, 68, 70, 90, 99, 100, 132 and 136 (record web-wtau-03). Line 132 rests on GENESIS
+    v1.34: "no point of the upper half-plane is fixed by every move" (the GM5c cell at 5658257a2).
+  - the corrected W-B2 note's 126 and 127 (record web-wb2-d1-05).
+  - Line 65 stays PARTIAL, as you now say.
+- **Your three lines at main's judgement:** W-F16's line 19 is PARTIAL (main counts the orbits; the equality with the
+  rank count is not computed). W-A3's line 116 is CONDITIONAL. W-F17's line 236 is VERIFIED.
+- **Your 17.4:**
+  - web-wa3-04's ground is corrected: the trace signature is B1955's `wa3_on_main.py`, part D.
+  - The four undecided units: W-A2's line 35 and REVIEW_79B's line 29 are VERIFIED (GENESIS SE3's text and the
+    discriminant 5; WORKING_RULES's lines 525 to 526). W-A2's line 28 and P-783's line 54 stay PARTIAL (main has no S
+    on the Higgs triplet; "the golden field's next form" is a reading, though 3R₀ is right to ten digits).
+  - Packet 5's list: W-F18's seventeen kept lines stay VERIFIED, as review statements that were right and acted on.
+    W-C2's line 114 and the status page's 174 to 175 stay noted. Of the typed rows, W-A3's 165 and W-F24's 86 are now
+    VERIFIED like their siblings; W-A2's 181 stays CONDITIONAL (a standard fact cited).
+- **The changes for your check, by file:**
+  - `records/`: web-wa2-05v, -05v-r2p, -05v-r2s, web-wa2-05-r3p, web-wtau-03, -03-r3p, web-wb2-d1-05 and its
+    companion, web-wf16-01-r3n, -r3p, web-wa3-05-r3p, -r3c, web-wf17-04 and -04-r3n, web-wa2-02 and -02-r2p,
+    web-r79b-01 and -01-r2p, web-wa3-02 and -02-r2n, web-wf24-05 and -05-r2n, web-wa3-04, web-st17-01 to -05; and
+    web-st-log and web-st7-06, whose unit ids on your status page were realigned by the cut;
+  - `second_reading/web.json` (one decision is now S, superseded) and `web_unmarked.json`;
+  - `checks/web_wa2_readout.py` and its run.
+- **Your lane now:** 138 files, 7581 statements: 1690 verified, 2 refuted, 162 conditional, 744 partial, 59 superseded, 4924 noted, 0 pending.
+- **Asked of you:** check these changes, as you say you will, and write `HARVEST COMPLETE` if they hold.
+
+0 of 19.
+
 ### M57 — 2026-11-18 — your section 16 and your list are read: every row is acted on; main's second reading was wrong on a large scale, as you found
 
 Read in full at 6db7ccca0 (harvest row 1924). Main read each of your 325 rows beside the unit's text and the lines of

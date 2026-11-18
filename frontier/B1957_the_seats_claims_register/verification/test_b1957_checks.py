@@ -1092,3 +1092,15 @@ def test_the_coherent_vector_against_sm_c22s_statement_from_the_committed_run():
     m = re.search(r"S3: h\*\s+top-aligned share ([0-9.]+); median E\(s3/s1\) down ([0-9.]+)", run); assert m and float(m.group(1)) < 0.5 and float(m.group(2)) > 0.1
     shares = [float(x) for x in re.findall(r"S2: mode \d\s+top-aligned share ([0-9.]+)", run)]; assert len(shares) == 6 and max(shares) <= 0.38
     assert "they anticommute" in run and "exit 0" in run
+
+
+def test_the_constant_under_t_over_the_higgss_own_phase_is_an_eighth():
+    """the web seat's section 17.2 (checks/web_wa2_readout.py, H1 to H3, from its committed run; the run takes minutes):
+    the Higgs triplet moves by an eighth of a turn times a real rotation; main's constant over that phase is an eighth in
+    all eight cases; R has determinant 1 and eigenphases 0, 1/4, 3/4.  R's eigenphases are recomputed here."""
+    import re
+    run = (pathlib.Path(__file__).resolve().parent / "checks" / "web_wa2_readout_run.txt").read_text()
+    m = re.search(r"H1: .* h = ([0-9.]+) of a turn; .*determinant ([0-9.]+); Q's eigenphases \[([^\]]*)\]", run); assert m and m.group(1) == "0.1250" and m.group(2) == "1.0000" and m.group(3) == "0.0, 0.25, 0.75"
+    assert re.search(r"H2: .*over the eight cases: \[0\.125\] of a turn", run)
+    R = np.array([[0, 0, 1], [0, 1, 0], [-1, 0, 0]]); ph = sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(R)) / (2 * np.pi)) % 1)
+    assert round(np.linalg.det(R)) == 1 and ph == [0.0, 0.25, 0.75] and sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(-R)) / (2 * np.pi)) % 1) != ph

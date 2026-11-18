@@ -63,3 +63,28 @@ for tx, sec, rd, g in more:
 print("all eight cases: U_L(S) a real signed permutation up to one phase: %s; U_L = U_R = one real R: %s" % (all(g["S"][0] < 1e-8 and g["S"][4] for *_, g in more), all(max(g["T"][1], g["S"][1]) < 1e-8 for *_, g in more)))
 print("the constant under T with one real R on both sides: reading S %s, reading St %s (turns; the web seat's note W-A2, line 110, has one eighth, from its referee's algebra with the Higgs direction moving)"
       % (sorted({t for _, _, rd, g in more if rd == "S" for t in g["T"][3]}), sorted({t for _, _, rd, g in more if rd == "St" for t in g["T"][3]})))
+
+
+# ---- ADDED 2026-11-18, later (the web seat's section 17.2): the constant under T is one statement.  The Higgs triplet has its
+# own T-law; main's constant above keeps the Higgs's phase inside the coupling, the seat's line 110 moves the Higgs with it.
+#  H1  on main's own Higgs triplet (B1945's frame, te.B[1]): c3(tau + 1) = M c3(tau), fitted at six moduli; M = h Q with h a phase
+#      and Q real orthogonal of determinant 1: h, Q's eigenphases.
+#  H2  in the reading S-tilde = eps conj(S) eps^T the triplet is conjugated, so its phase is conj(h); main's constant under T in
+#      each of the eight cases divided by the Higgs's own phase in that reading.
+#  H3  R's determinant, and its eigenphases (line 113 of the note).
+sys.path.insert(0, str(next((ROOT / "frontier").glob("B1945_*")) / "verification")); import determinant_law as DLW
+mpw, tew = DLW.mp, DLW.te
+taus = [mpw.mpc("0.13", "1.7"), mpw.mpc("0.31", "1.2"), mpw.mpc("-0.2", "1.4"), mpw.mpc("0.05", "2.1"), mpw.mpc("0.4", "1.1"), mpw.mpc("-0.35", "1.6")]
+c3 = lambda t: np.array([complex(tew.ev(cc, t)) for cc in tew.B[1]])
+A3 = np.array([c3(t) for t in taus]); B3 = np.array([c3(t + 1) for t in taus]); Mh = np.linalg.lstsq(A3, B3, rcond=None)[0].T
+fit = max(np.abs(B3[i] - Mh @ A3[i]).max() for i in range(len(taus)))
+h = min([np.linalg.det(Mh) ** (1 / 3) * np.exp(2j * np.pi * k / 3) for k in range(3)], key=lambda x: np.abs((Mh / x).imag).max()); Qh = (Mh / h).real
+turn = lambda z: round(float((np.angle(z) / (2 * np.pi)) % 1), 6) % 1
+print("H1: the Higgs triplet under tau + 1: c3(tau + 1) = h Q c3(tau) at six moduli to %.1e; h = %.4f of a turn; |Im(M/h)| %.1e; Q orthogonal to %.1e with determinant %.4f; Q's eigenphases %s (a convention: with -Q, of determinant -1, h is %.4f of a turn)"
+      % (fit, turn(h), np.abs((Mh / h).imag).max(), np.abs(Qh @ Qh.T - np.eye(3)).max(), np.linalg.det(Qh), sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(Qh)) / (2 * np.pi)) % 1), turn(-h)))
+hph = {"S": turn(h), "St": turn(np.conj(h))}
+over = sorted({round((t - hph[rd]) % 1, 6) % 1 for _, _, rd, g in more for t in g["T"][3]})
+print("H2: the Higgs's own phase: %s of a turn in S and %s in S-tilde; main's constant under T divided by it, over the eight cases: %s of a turn: the channels' part. So the coupling's constant (i in S, 1 in S-tilde) is the channels' eighth times the Higgs's own phase; the web seat's line 110 had the Higgs's eighth as the coupling's constant and is withdrawn by the seat (its section 17.2, corrected)" % (hph["S"], hph["St"], over))
+Rm = np.array(more[0][3]["T"][2], float)
+print("H3: R = %s has determinant %d; its eigenphases %s of a turn (the note's line 113: 0, 1/4 and 3/4); -R would have determinant %d and eigenphases %s"
+      % (Rm.astype(int).tolist(), round(np.linalg.det(Rm)), sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(Rm)) / (2 * np.pi)) % 1), round(np.linalg.det(-Rm)), sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(-Rm)) / (2 * np.pi)) % 1)))

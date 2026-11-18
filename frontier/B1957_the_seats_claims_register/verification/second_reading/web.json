@@ -3,10 +3,11 @@
  "sorted": 1942,
  "candidates": 950,
  "decisions": {
-  "K": 284,
+  "K": 288,
   "C": 88,
-  "N": 325,
-  "P": 253
+  "N": 323,
+  "P": 250,
+  "S": 1
  },
  "units": [
   {
@@ -987,7 +988,9 @@
    "record": "web-r79b-01",
    "class": "a",
    "why": "counts 81, 16, 14 and \"eleven things\" not covered",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed_s17": "2026-11-18, the web seat's corrected section 17: WORKING_RULES.md lines 525 and 526 say it: 81 decisions, 16 statements and 14 entries, which are eleven things"
   },
   {
    "unit": "web:REVIEW_79B_CHAT1:31",
@@ -2502,7 +2505,9 @@
    "record": "web-wa2-02",
    "class": "b",
    "why": "the claim about GENESIS SE3 is not in the how",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed_s17": "2026-11-18, the web seat's corrected section 17: GENESIS SE3 says it (its line 222: 'Its level is the prime that its discriminant is, 5') and x^2 - 3x + 1 has discriminant 5"
   },
   {
    "unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:37",
@@ -2541,9 +2546,10 @@
    "record": "web-wa2-05v",
    "class": "c",
    "why": "[J], not computed on the frame",
-   "decision": "P",
+   "decision": "S",
    "first_decision": "K",
-   "changed": "2026-11-18, after the landing of the second reading, at the web seat's section 15.2, item 1: main had kept the line on its read-out of B1953's law; the read-out does not give line 110's factor nor line 116's level 8"
+   "changed": "2026-11-18, after the landing of the second reading, at the web seat's section 15.2, item 1: main had kept the line on its read-out of B1953's law; the read-out does not give line 110's factor nor line 116's level 8",
+   "changed_s17": "2026-11-18, the web seat's corrected section 17: withdrawn by the seat; main's read-out shows the coupling's constant is i in S and 1 in S-tilde"
   },
   {
    "unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:116",
@@ -7116,7 +7122,9 @@
    "record": "web-wf24-05",
    "class": "e",
    "why": "status row (\"not independently checked\")",
-   "decision": "N"
+   "decision": "K",
+   "first_decision": "N",
+   "changed_s17": "2026-11-18, the web seat's corrected section 17: a typed row whose claim, the composition theorem, is this record's: main read the proof step by step, the classical theorem taken as cited"
   },
   {
    "unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:26",
@@ -7139,7 +7147,9 @@
    "record": "web-wa3-02",
    "class": "e",
    "why": "status row (referee, sealed script)",
-   "decision": "N"
+   "decision": "K",
+   "first_decision": "N",
+   "changed_s17": "2026-11-18, the web seat's corrected section 17: a typed row whose claim is main's (B1955, wa3_on_main.py parts A to C, this record's ground), like the note's other typed rows main holds verified"
   },
   {
    "unit": "web:STATUS_CHAT1:414",

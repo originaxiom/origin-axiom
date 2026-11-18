@@ -712,6 +712,10 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **The web seat's section 17, as corrected (harvest row 1928), is taken in full;** its completion line waits only on its
+  own check of those changes (M58). The coupling's constant under T (a quarter turn in S, none in S-tilde) is the
+  channels' eighth times the Higgs triplet's own phase; the seat's line 110, which gave the Higgs's eighth as the
+  coupling's constant, is withdrawn and superseded.
 - **The first condition is met at the seats' newest heads (2026-11-18, night): no statement is pending.** The second is
   not: no seat has written the line.
   - The web seat's section 16 lists what it holds is left; main has acted on every row of it (M57).
