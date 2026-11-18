@@ -5,12 +5,14 @@
 
 The Weil representation of SL(2, F_5) on functions on F_5, in the class of the form a x^2 / 5 (a = 1, the knot's
 residue class; a = 2, the act's non-residue class, B1955 § 2): rho(T) = diag zeta^(a x^2), rho(S) = c F with
-F[x, y] = zeta^(2 a x y), zeta = exp(2 pi i / 5), and the scalar c fixed so that rho(S)^2 = (rho(S) rho(T))^3, the
+F[x, y] = zeta^(-2 a x y), zeta = exp(2 pi i / 5), and the scalar c fixed so that rho(S)^2 = (rho(S) rho(T))^3, the
 relation S^2 = (ST)^3 = -I of SL(2, Z). gamma = [[2, 1], [1, 1]] = T S T^-1 S^-1. Printed for each class:
   W1  the relations: rho(S)^4 = I, rho(S)^2 is the parity x -> -x, and the even and odd parts have dimensions 3 and 2;
   W2  gamma mod 5, gamma^5 mod 5, and whether rho(gamma)^5 equals the parity;
   W3  tr rho(gamma) and tr rho(gamma^2), and rho(gamma)'s eigenphases in tenths of a turn, on the even and odd parts;
   W4  the signature tr R(T^2) / tr R(T)^2 for R = W_a (x) conj(W_b), for the four pairs (a, b).
+First run (2026-11-18) stopped at the relation check, before any result: the Fourier kernel had the sign +2axy, for
+which no scalar c satisfies the relation; it is -2axy here, and nothing else is changed.
 """
 import numpy as np
 
@@ -21,7 +23,7 @@ Pm = np.zeros((5, 5)); Pm[(-X) % 5, X] = 1          # the parity f(x) -> f(-x)
 
 def weil(a):
     T = np.diag(z ** ((a * X * X) % 5))
-    F = z ** ((2 * a * np.outer(X, X)) % 5)
+    F = z ** ((-2 * a * np.outer(X, X)) % 5)
     A, B = F @ F, np.linalg.matrix_power(F @ T, 3)   # rho(S) = c F: c^2 A = c^3 B, so c = A/B (a scalar)
     k = np.argmax(np.abs(B))
     c = A.flat[k] / B.flat[k]

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/claude/origin-axiom/relays/chat1_2026-11-18_wp1/wp1_weil.py", line 39, in <module>
+    T, S = weil(a)
+           ~~~~^^^
+  File "/home/claude/origin-axiom/relays/chat1_2026-11-18_wp1/wp1_weil.py", line 29, in weil
+    assert np.allclose(S @ S, np.linalg.matrix_power(S @ T, 3)), "the relation"
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: the relation
