@@ -82,6 +82,16 @@
       "reading": "Introduction and section 3, particularly recognition, the universal property, Example 33, Definition 36 and Lemma 39 inspected personally; no complete-paper review claimed.",
       "use": "Identify standard conditional contextual-quotient mathematics already reused in November 7 work.",
       "byte_custody": "Read through web HTML extraction; no independent source-byte archive claimed."
+    },
+    {
+      "authors": "Martin Nilsson Jacobi and Olof Gornerup",
+      "title": "A dual eigenvector condition for strong lumpability of Markov chains",
+      "version": "arXiv:0710.1986v2",
+      "url": "https://arxiv.org/html/0710.1986v2",
+      "access_date": "2026-11-18",
+      "reading": "Introduction and section 2, including Theorem 1, equation (2.1), and the distinct spectral Theorem 2 and its proof personally inspected in HTML/PDF extraction; no full six-page audit claimed",
+      "use": "Standard block-transition criterion credited; no diagonalizability assumption imported into the elementary proof",
+      "byte_custody": "Read using web extraction; no local primary-file byte hash claimed"
     }
   ],
   "local_files": {
@@ -94,12 +104,20 @@
       "lines": 320
     },
     "FINDINGS.md": {
-      "sha256": "a915d59cc0d9970095156dfe85719f706df5b822c9e7354521ea693358a8b149",
-      "lines": 116
+      "sha256": "a61ab539b6835d7d49e224798a67bd8214c109ce1876184f28ff6247f7b0aa79",
+      "lines": 141
     },
     "RELATIVE_RATES_AND_THE_ROLE_OF_A_MOVE.md": {
       "sha256": "ec277cb4cd6445dfb4058aa3859ab4094f9e1fde8bcff13d617d2f210a07baab",
       "lines": 155
+    },
+    "HISTORY_WEIGHTS_AND_CANCELLATION.md": {
+      "sha256": "99dea04a9c4eb8c3e08c4266c7a785bdbcab5d585dbb28198dfb547dd819d3fb",
+      "lines": 137
+    },
+    "PREDICTIVE_REGISTER_AND_COMPOSITION.md": {
+      "sha256": "3e9d2334ce2aecbd0246d4565c52f5bf9dad3726a257b784d067298dc86e623e",
+      "lines": 151
     }
   },
   "canonical_status_evidence": [
@@ -124,7 +142,11 @@
     "Check the Heisenberg law, commutator, faithful action and binary dihedral/S4 distinctions.",
     "Check the stationary probability control, including supplied batching, probabilities and composition count.",
     "Check positive generator and semigroup, unique stationary state and the two rate correlations after a common clock change.",
-    "Check the U conjugation, fixed-law a=b condition, and distinction from passive relabelling with dual readouts."
+    "Check the U conjugation, fixed-law a=b condition, and distinction from passive relabelling with dual readouts.",
+    "Check chronology in the history cocycle, normalization, illegal-history convention and inverse-word countercontrols.",
+    "Check finite coarse-kernel criterion, all-initial-distribution and cylinder-probability statements.",
+    "Check U/V example against deterministic AR1/AR2 and the equal-probability opposite control.",
+    "Check the stronger labeled-instrument criterion and whether the particular label is an admitted observable."
   ],
   "execution": {
     "scientific_imports": 0,
@@ -151,5 +173,93 @@
     "author_scope_clarification": "Passive relabelling transports law and dual readouts; only the additional fixed-law equation U L U^-1=L forces a=b in this supplied family. The ambiguous original redescription phrase is explicitly corrected.",
     "physical_inputs_removed": 0,
     "scientific_execution": false
+  },
+  "composition_continuation": {
+    "date": "2026-11-18",
+    "basis_scope": "6941e2b1b74c8f585a59e1dd3183d941ffeaebd9",
+    "prior_packet_pin": "5b0a80be71c1080888b8a07f625c04028f791a53",
+    "proof_commit": "7255ff83f526b2b1061c7c9a2b747641e7f10d88",
+    "sources": [
+      {
+        "commit": "5b0a80be71c1080888b8a07f625c04028f791a53",
+        "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md",
+        "git_blob": "80b1adaefa5c929370350d0503252ddb24a553c5",
+        "sha256": "8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b",
+        "lines": 77,
+        "reading": "Previously read whole AR1-AR6 proof, specifically AR1/AR2 reused for deterministic comparison; not freshly executed"
+      },
+      {
+        "commit": "5b0a80be71c1080888b8a07f625c04028f791a53",
+        "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/INTEGER_END_DATA_AND_REGISTER.md",
+        "git_blob": "3a0ce2298f8aaecefee30846c2daba927d80d3c6",
+        "sha256": "d496c7fb2e0ad97710d11eaa6837f3747f21b11b53c6a3ee95e9869ac4c524ae",
+        "lines": 178,
+        "reading": "Lines 1-180 re-read; distinction between group additive labels and state-dependent cocycles reused, not newly certified"
+      },
+      {
+        "commit": "3869739697d4bee9f96c98628ad1e170bb268428",
+        "path": "relays/SM_C16_THE_ACTION_AS_THE_WEIGHT.md",
+        "git_blob": "64974a234a98192f1b390bb32d39f08a553408f5",
+        "sha256": "238ecea7edbbff080e2ccf584b28a1be5460d555b34f24e2bcf9076c86b5389b",
+        "lines": 48,
+        "reading": "Full report read as text; finite sample/weight prescription retained, no universal physical closure inferred"
+      },
+      {
+        "commit": "3869739697d4bee9f96c98628ad1e170bb268428",
+        "path": "relays/sm_c16/run_c16.py",
+        "git_blob": "233276cda3af90205d3fc498d3dfe4a99a8e1584",
+        "sha256": "b4ab24da7479216921610dd98017c21b7f912b21c93f334877e8bb1fd6238b54",
+        "lines": 116,
+        "reading": "Full producer read as text, not imported or run"
+      },
+      {
+        "commit": "3869739697d4bee9f96c98628ad1e170bb268428",
+        "path": "relays/sm_c16/RUN.txt",
+        "git_blob": "d7030fe9c468416896f77c39b1b1d3838b4287af",
+        "sha256": "e007bd5e2cfc4b6acf03998488941af4b2113097c61a51ed59468120f8437804",
+        "lines": 25,
+        "reading": "Entire committed run log read as received evidence, not rerun"
+      },
+      {
+        "commit": "3869739697d4bee9f96c98628ad1e170bb268428",
+        "path": "relays/SM_C17_THE_ACTION_AS_A_PHASE.md",
+        "git_blob": "79402e23937cb241642220c6221d4319987c52dc",
+        "sha256": "3dc302afc31b1ccd723954fe5dd3a57a0b226d951651e39c1980758354c8a0ff",
+        "lines": 53,
+        "reading": "Full report read as text; finite sample/phase prescription retained, no universal physical closure inferred"
+      },
+      {
+        "commit": "3869739697d4bee9f96c98628ad1e170bb268428",
+        "path": "relays/sm_c17/run_c17.py",
+        "git_blob": "ced8c5403a068d7609a972e1bd1f23765de3ab98",
+        "sha256": "8db139857e613911ded857b75d694e750ad89d9b6794936846535fa972fe0e4c",
+        "lines": 70,
+        "reading": "Full producer read as text, not imported or run"
+      },
+      {
+        "commit": "3869739697d4bee9f96c98628ad1e170bb268428",
+        "path": "relays/sm_c17/RUN.txt",
+        "git_blob": "6e19d4a507cd61db39b40c1d3c8941e42431d998",
+        "sha256": "8833b903503b96a781e09b3aa2b808b67f40f495e59ba1e0a2f856afa21352b0",
+        "lines": 43,
+        "reading": "Entire committed run log read as received evidence, not rerun"
+      }
+    ],
+    "prior_work_scope": "Selected existing act/register, integer/cocycle, finite weight and phase sources inspected; no repository-wide absence claim",
+    "new_hand_arguments": [
+      "Local product history law and finite-prefix consistency, with Markov assumption priced",
+      "Endpoint and fixed-length word-weight descent countercontrols, retaining induced transition kernels",
+      "Positive group-character condition with its exact inverse/additivity hypotheses",
+      "Finite predictive coarse-law criterion with sufficient and necessary indicator-function proof",
+      "Internal U/V example: each update descends but state-dependent probabilities do not; equal-probability opposite control",
+      "Labeled instrument duty when the act label is itself an admitted observable record"
+    ],
+    "scientific_execution": false,
+    "metadata_first_attempt": {
+      "outcome": "failed before writing updated custody JSON",
+      "cause": "Constructed source path used SM_C17_THE_ACTION_AS_THE_PHASE.md; actual read source is SM_C17_THE_ACTION_AS_A_PHASE.md",
+      "subsequent_effect": "The shell continued to commit the three proof/report files at 7255ff83f; no new custody file was included. This separate correction supplies the intended pins and refreshed hashes.",
+      "science_executed": false
+    }
   }
 }
