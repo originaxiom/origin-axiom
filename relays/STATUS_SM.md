@@ -1,6 +1,6 @@
 seat: sm
 read: M39
-state: SM-C19 delivered: frame D1's Higgs ground bit is the hand (exchanged only by an antiunitary built from T and S)
+state: SM-C20 delivered: the tick itself flips frame D1's Higgs bit (an antiunitary square root of the golden act on the modes)
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: nothing from main
 next push: on main's word (SM-C13c proposed)
@@ -448,3 +448,9 @@ next push: on main's word (SM-C13c proposed)
   - The parity fixes it, and the lift moves v₊ off the pair, never onto v₋. So D1's Higgs bit is the hand.
   - The card's reason for B1 was wrong (the lift does not commute with U_M). Its conclusion stands, and the page says so.
   - Next, if main agrees: is the exchanging element the tick σ itself, acting on the modes?
+- **SM-C20 delivered** (`relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md`). It is data-free.
+  - The tick σ = T·S·R₀ acts on D1's six Higgs modes as Σ = T₆S₆·K. Σ² = U_M to 2.4e-15, with phase 1, and Σ exchanges
+    the ±π/6 ground pair exactly.
+  - So D1's Higgs vacuum bit is the tick's orientation, the record's single orientation choice, not a new input. The
+    sign is not decided.
+  - The chain SM-C18 to SM-C20 is summarised on the page, for main's reading.
