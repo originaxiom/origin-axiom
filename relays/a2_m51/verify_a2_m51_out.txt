@@ -1,0 +1,16 @@
+Card A2-M51 Standalone Verification Summary (0 of 19; zero float/complex AST literals)
+zero_float_ast_literals = True
+P-873 Q3 [R_*, G_u] == 0 symbolic = True, worst_finite_tau_eig_err = 5.350704422659357e-80
+P-873 Q3 special line Re(tau)=-5/2 |V - V_lim| = {'8': 0.05838642296416505, '16': 0.004639474729624318, '24': 0.0003758215340421254}
+P-871 row4/row3 scale exp(2142*pi/125) = 2.3985744292281617e+23
+c=+0 up     E=2: S(f64=6.18e-02, 80dps=6.182e-02, met=0.0618) | St(f64=9.81e-02, 80dps=9.811e-02, met=0.0981)
+c=+0 down   E=0: S(f64=7.81e-17, 80dps=1.845e-81, met=0.0000) | St(f64=1.38e-16, 80dps=2.479e-81, met=0.0000)
+c=+0 lepton E=0: S(f64=8.33e-17, 80dps=3.806e-80, met=0.0000) | St(f64=1.29e-16, 80dps=1.404e-79, met=0.0000)
+c=+2 up     E=0: S(f64=5.55e-17, 80dps=7.680e-79, met=0.0000) | St(f64=7.63e-17, 80dps=3.440e-79, met=0.0000)
+c=+2 down   E=3: S(f64=6.81e-17, 80dps=3.215e-26, met=0.0040) | St(f64=2.78e-17, 80dps=1.951e-26, met=0.0136)
+c=+2 lepton E=3: S(f64=5.68e-17, 80dps=8.236e-26, met=0.0352) | St(f64=1.39e-16, 80dps=3.306e-25, met=0.0242)
+c=-2 up     E=4: S(f64=1.25e-16, 80dps=6.220e-24, met=0.0728) | St(f64=1.39e-16, 80dps=7.064e-24, met=0.0974)
+c=-2 down   E=2: S(f64=8.33e-17, 80dps=1.281e-24, met=0.2016) | St(f64=5.55e-17, 80dps=2.033e-24, met=0.3549)
+c=-2 lepton E=2: S(f64=1.94e-16, 80dps=2.313e-24, met=0.0353) | St(f64=1.46e-16, 80dps=1.685e-24, met=0.1312)
+planted_fault_controls = 4 / 4 caught
+all_assertions_passed = True
