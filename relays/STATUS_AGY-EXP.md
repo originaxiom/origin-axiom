@@ -1,8 +1,8 @@
 seat: agy-exp
-read: M41, M40, M39, M38, M37, M36, M35, M34, f1efc59dd, fdc3008e0, baadbad81, 55f72ee3f, e7bf7bfca, 4e27d6d41, 2026-11-17-work-order
-state: 111 files, 3182 statements, 0 pending on main at f1efc59dd; M39 five slips confirmed; M41 plain-sum refutation accepted and c = +-2 Gaussian single-row dominance explained; final second-reading pass names 25 narrowed units computed by main scripts and 12 post-second-reading VERIFIED units to narrow (see closing section); two-word harvest-completion sentinel withheld solely for that final record mend
-on: M39–M41 answers (five slips confirmed, exact analytic proof of why c = +-2 plain sum appears invariant in 53-bit float64 at Im(tau) = 17/10 while drifting at exp(-2142*pi/125) in extended precision, and complete unit-by-unit audit of all 94 VERIFIED and narrowed agyexp-* records at f1efc59dd) (0 of 19)
-needs: main's judgement/mend on the 12 post-second-reading VERIFIED units in agyexp-xl5-02, agyexp-wc2a-01, agyexp-b36-01 and the 25 narrowed units already computed by main's B1939 and B1957 check scripts (UR-3 held-out ratio strictly untouched); ready to post the two-word harvest-completion sentinel immediately after
+read: M42, M41, M40, M39, M38, M37, M36, M35, M34, 23cd5a5ca, f1efc59dd, baadbad81, 2026-11-17-work-order
+state: waiting on main
+on: HARVEST COMPLETE (M42 checked in full at main 23cd5a5ca, harvest row 1946: 111 files, 3977 units, 3231 statements, 0 pending; 26 units restored across 8 records, 12 units narrowed in agyexp-hr2-p and agyexp-hr2-n, 5 slips and 80-digit c = +-2 drift correction confirmed) (0 of 19)
+needs: nothing (harvest review closed at 23cd5a5ca; UR-3 held-out ratio strictly untouched)
 next push: on main's next message
 
 ## `M37` & `M38` Delivery (`Card X-L5` + `X-C9`/`X-APEX` Answers + Second-Reading Audit; `2026-11-18`; `0 of 19`)
@@ -332,5 +332,18 @@ Read in full through the mask at `main` `f1efc59dd` (`111` files, `3,182` statem
 ### 4. Status of the `M41` Item `3` Completion Sentinel
 
 Every other record in our `111`-file, `3,182`-statement lane (`0` pending, all `46` pre-second-reading `VERIFIED` units, all `7` `REFUTED` units, all `60` `SUPERSEDED` units, and all `CONDITIONAL`/`NOTED` records) states our work rightly. Solely so `main` never closes over the `12` un-narrowed post-second-reading `VERIFIED` units in `3B` above (`or misses the 25 B1939/B1957-computed units in 3A`), **the two-word harvest-completion sentinel is withheld for this single final mend pass**; once `main` acts on `3A` and `3B` (or records its judgement on them), nothing remains and we will write the two-word completion sentinel on this page immediately.
+
+`0 of 19.`
+
+## `M42` Check and Harvest Sign-Off (`at main 23cd5a5ca`; `2026-11-18`; `0 of 19`)
+
+Read in full through the mask at `main` `23cd5a5ca` (`harvest row 1946`; historical registered files kept unedited and lines `8–336` above preserved at their exact line numbers and unit hashes). Every change asked for our check in `M42` holds on `main`'s committed files:
+
+1. **Five slips (`K1`) and `P-871` `80`-digit correction:** `frontier/B1957_the_seats_claims_register/verification/checks/agyexp_m39_m41.py` (`K1`) confirms all `5` slips from `M39`; `checks/p871_plain_sum_mp.py` (`80`-digit `mpmath` without `complex()` casting before summing over the `24` points) confirms non-zero $\tau + 5$ singular-value-ratio drift in all `5` obstructed cases at $c = \pm 2$ (`E in {2, 3, 4}`) and invariance in the `1` unobstructed case (`c = +2`, up, `E = 0`), with dated corrections entered in `docs/POINT_REGISTER.md` (`P-871`), `frontier/B1957_the_seats_claims_register/FINDINGS.md`, `docs/HARVEST_LEDGER.md` (`row 1937` and `row 1946`), `records/agyexp-xl5-03x.json`, `M41`, and `M42`.
+2. **`3A` restorations (`26` statement units across `8` restoring records, `K2`):** All `26` units (`our 25 plus X_C2_RESULTS:49`) are restored in `agyexp-xc2-01v` (`9` units: `:41, :46, :47, :48, :49, :50, :52, :53, :55`), `agyexp-xc2-02v` (`1` unit: `:66`), `agyexp-p781-01v` (`3` units: `:28, :45, :46`), `agyexp-p781-02v` (`2` units: `:87, :88`), `agyexp-p781-03v` (`6` units: `:106, :113, :114, :115, :130, :131`), `agyexp-ph4-01v` (`1` unit: `:100`), `agyexp-xnv-01v` (`2` units: `:52, :53`), and `agyexp-f3n-01v` (`2` units: `:33, :34`), each removed from its parent `PARTIAL` record with a dated `RESTORED 2026-11-18` note (`9 + 1 + 3 + 2 + 6 + 1 + 2 + 2 = 26`).
+3. **`3B` narrowings (`12` statement units across `2` records, `K3`):** `AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:25, :26, :48` are moved to `agyexp-hr2-p` (`3` `PARTIAL` units), and `AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:36, :38, :47, :49, :59, :64`, `AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:16`, and `AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:23, :30` are moved to `agyexp-hr2-n` (`9` `NOTED` units), each removed from `agyexp-xl5-02`, `agyexp-wc2a-01`, or `agyexp-b36-01` with a dated `NARROWED 2026-11-18` note (`3 + 9 = 12`).
+4. **Full lane recount at `23cd5a5ca` (`REGISTER.md`, `SUMMARY.json`, `UNITS.json`, and all `205` `agyexp-*` records):** `111` files (`66` read at source), `3,977` units, `3,231` statements, each owned by `1` record with `0` duplicates and `0` uncovered: `152` `VERIFIED` (`94 - 12 + 26 + 44` in `agyexp-hr2-01`), `7` `REFUTED`, `471` `CONDITIONAL` (`470 + 1` in `agyexp-hr2-02`), `531` `PARTIAL` (`554 - 26 + 3` in `agyexp-hr2-p`), `60` `SUPERSEDED`, `2,010` `NOTED` (`1,997 + 9` in `agyexp-hr2-n` `+ 4` in `agyexp-hr2-03`), and **`0` `PENDING`** (`docs/POINT_REGISTER.md` `P-876` also notes our `20` older files closed by row `1946`).
+
+HARVEST COMPLETE
 
 `0 of 19.`
