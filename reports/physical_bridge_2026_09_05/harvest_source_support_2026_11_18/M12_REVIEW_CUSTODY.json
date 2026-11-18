@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-18",
+  "kind": "Source and author hand review with byte custody, not independent scientific execution",
+  "main_pin": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+  "physical_register_lane": {
+    "lane": "physical",
+    "seat": "physical (codex)",
+    "branch": "origin/audit/physical-bridge-2026-09-05",
+    "base": "1aa76251",
+    "head": "6f074b770"
+  },
+  "sources": [
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-01.json",
+      "git_blob": "614bfb2359427b3f3dbe1ed9bb2ca93aebc58bdd",
+      "sha256": "9344b3c660e4e3422014f26f11f1de05ac9f0ab2b70c9937b2e416482d59ca1f",
+      "lines": 63,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-02.json",
+      "git_blob": "3551f6bc794bc2bc4dcef0b3a7a6883d84e17e89",
+      "sha256": "29cb5dd9ec4f4451d28a0620240dbaa32c61a4b3ff1c3dd8c02c9f40d59c0502",
+      "lines": 12,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-03.json",
+      "git_blob": "3c936ba10b99c1fc165de7f2f475aa7d3438e076",
+      "sha256": "cedd60bde6c1f30ec1253a8294505cf11ee3c5fe76efa169cf7fcc711b1590ea",
+      "lines": 50,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-04.json",
+      "git_blob": "bfc5b2f023d906a9fba1f0494d06d2ea078c9f5a",
+      "sha256": "0a77e1306ac8a5047e91142d07f5705bbed5512e133ade646486620e36d4851f",
+      "lines": 16,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-05.json",
+      "git_blob": "f148aff6d8b9524ab027d3263bedc26e0a048879",
+      "sha256": "a93e7f36a778e0612247fb110bb95828d593cdcefdba13a8ccad1381c99dd16b",
+      "lines": 10,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-06.json",
+      "git_blob": "52c87ea25036b69b3a954ce274b209925cfc067d",
+      "sha256": "e3f8da293d297def0b99a32a5706bed0ae2417d03c71352807a10349901b51b6",
+      "lines": 24,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-07.json",
+      "git_blob": "3c2d4774e297d2f7e900aee92e9530f13c3f3d5d",
+      "sha256": "023f7f346b104c5dfaffe9cef682998cdae1a58d359b9cca4d1d580723da058c",
+      "lines": 18,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-08.json",
+      "git_blob": "19f4290e448009eedd601df32af001fa895ebfc9",
+      "sha256": "04f48090c0dad747ccfab357604eadda125ea069d08b60a9c09d5817a304ba1d",
+      "lines": 72,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-09.json",
+      "git_blob": "85ff8703bd3a9bf036f980cd5b6f69d4645fddc6",
+      "sha256": "44110dc921851521a91118d2b0e92899189b46a63145d44d657f23d9268fee25",
+      "lines": 28,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-10.json",
+      "git_blob": "d872a88aafca246622d80700e32a7a767e2aee29",
+      "sha256": "053b4975a6fbb9babd83f0347d40c230884c2e35bbf9120adf3cbe9fedaa71e8",
+      "lines": 36,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-11.json",
+      "git_blob": "f530473b67fd8081036f9238c7b7acb2fc7db33a",
+      "sha256": "34a083bfc8a05553151b253fdb985367c6361ad95039d1526b744aeb9750d898",
+      "lines": 90,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-02.json",
+      "git_blob": "044baf9d89e612ef95e521c0f485b9a99f2be92b",
+      "sha256": "1d02a816962f6ee4a04846268b16ac5b9f4c3e0eb66a979c8729e65833f75f2c",
+      "lines": 12,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m9-03.json",
+      "git_blob": "3d174327bfdded58a1c58e4ebbdd7efe03eba95a",
+      "sha256": "1fc468d253ede5296a5c3334901f7a33767ddf0bf6566ab6a7ebd0b16305a80a",
+      "lines": 16,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ij-03.json",
+      "git_blob": "20d0634a1b1018082822c8529c4bb703db109310",
+      "sha256": "bde9dc0e31ca6ae41252ecc27754ecc8bd381bc5ba2ff8f734e8e7dcf53d7396",
+      "lines": 123,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m10r-01.json",
+      "git_blob": "be4b2845c5f087ddecfbf5556040ee0a54c08519",
+      "sha256": "0badcd30c9f757247ca06c482d8298a9b04b95b39cb4ed88f248f8b1f894eaf9",
+      "lines": 24,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-m10r-02.json",
+      "git_blob": "94cf7adb7ee72cbd16a871bf576ce93877abb6c3",
+      "sha256": "0bb466ae1476fe16fbf2e06fe4370dde6d34e984e8a1904b6aca6fafa9d486fa",
+      "lines": 16,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata; not a re-derivation of every unit"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c8_tick_higgs.py",
+      "git_blob": "e5f9bfbe55b6dc851c5606c5f947849616454423",
+      "sha256": "03873526c748f2911ada9b2781d42647799b814fb13c6d26dcda2d7c40a77f3a",
+      "lines": 171,
+      "reading": "Full source read as text; not imported or run"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c8_tick_higgs_run.txt",
+      "git_blob": "3be62138257741cdee5614e9f592de7c19b62df4",
+      "sha256": "2beebbf444697b7edc2dfc090b57111711f3cec91b43e9e619436bfb79751378",
+      "lines": 31,
+      "reading": "Full committed output read as evidence of main execution; not reproduced here"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c8_dominant.py",
+      "git_blob": "1c9268e0531f1d6de25e0b7dba6bc149c9412666",
+      "sha256": "2bc8ac92fe05dc05f1cfb3245895e2dd30065350c46d12ba87c97a19d5b09c71",
+      "lines": 80,
+      "reading": "Full source read as text; not imported or run"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c8_dominant_run.txt",
+      "git_blob": "4ed85d5ec8ee5b407a31fccee1fcc38b195f842e",
+      "sha256": "4913f3235e0ebabf632458a2769e0f48dcd2a546ed175b3eddb2b1fa32598a57",
+      "lines": 11,
+      "reading": "Full committed output read as evidence of main execution; not reproduced here"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c8_modes.py",
+      "git_blob": "1b0a231158265ce05277b2257126640b78f3573d",
+      "sha256": "ecfd9ff943c17a58e4294b969c665865f96cea11da19661da147cc3c58ef4b19",
+      "lines": 68,
+      "reading": "Full source read as text; not imported or run"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c8_modes_run.txt",
+      "git_blob": "a8b4c141161f3876ca50b2d9d861ac9dd846a2c4",
+      "sha256": "2ca92471b793a8fe29d9e27206f00254fbeaf5a371b298f5fa4ab564c370785c",
+      "lines": 7,
+      "reading": "Full committed output read as evidence of main execution; not reproduced here"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_m9_review.py",
+      "git_blob": "184ab548c64a40af724d356b64b7a88316365d29",
+      "sha256": "d64c8f90e575e2e68c5e8c5e664475b33610990b631103a6b77d73c215e4e072",
+      "lines": 40,
+      "reading": "Full source read as text; not imported or run"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_m9_review_run.txt",
+      "git_blob": "699843845c86b645f339e0ae5f3056043baaf0ba",
+      "sha256": "1ccd7c60c0288d5c7206a828ee349e69a681ff22a7311ca8f3ae3f0ed0c10712",
+      "lines": 8,
+      "reading": "Full committed output read as evidence of main execution; not reproduced here"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_m10_reply.py",
+      "git_blob": "b8306cd5fd94f63813787db696c4a65414d6fc4a",
+      "sha256": "3ad684f823d948ab965d60be6047a03007440ab342d56be43711dfac332b31e1",
+      "lines": 49,
+      "reading": "Full source read as text; not imported or run"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_m10_reply_run.txt",
+      "git_blob": "7ac29f64f53d335768da4631207e4231670aa230",
+      "sha256": "6c011133913b6d3082b4c4725b6744c8fac6677bc54ca8f14e86d6fca74b400a",
+      "lines": 5,
+      "reading": "Full committed output read as evidence of main execution; not reproduced here"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_outputs_key_coverage.py",
+      "git_blob": "90002fc43dae2c463fdceeb7fd795b20008a650f",
+      "sha256": "a3aafe67891b30ee4de6ac912cb34865663942a35777be323212290b21fb8396",
+      "lines": 33,
+      "reading": "Full source read as text; not imported or run"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_outputs_key_coverage_run.txt",
+      "git_blob": "3ef487aa50bda51a31cbdf9ec6495e6a0b5edcaa",
+      "sha256": "57d0519a3c69631bcf26c7c0fc4b264fe709d8c4c2e4f5d972e831a14f112de0",
+      "lines": 68,
+      "reading": "Full committed output read as evidence of main execution; not reproduced here"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c3e_indicial.py",
+      "git_blob": "63cd365ce26876faec8d39bbb742999a8c28dfa7",
+      "sha256": "ed26903b4aa614338a1d89937eac68599150b89b8aba59822eec6844aabb2706",
+      "lines": 51,
+      "reading": "Full current script read, including preserved original display and dated scaling/drift corrections; not run"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_boundary_outputs.py",
+      "git_blob": "5141c3c4007c9b0a357014799f27029acf10dd88",
+      "sha256": "cc4eb39ecb2a81a75efddbde7cd3457259fd6606742ec4e0c8497bf471b208a5",
+      "lines": 66,
+      "reading": "Original full reading reused; narrowed headers and comparison tail re-read at current pin; no scientific import"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_endgame_outputs.py",
+      "git_blob": "77788fd0c30163e356bd5bd6a68b9b414da40d66",
+      "sha256": "5bae47a5e9132ecaa459d6a577d387df038ac68cad3a6a9c8b5fcf0b945612ff",
+      "lines": 148,
+      "reading": "Original full reading reused; narrowed headers and comparison tail re-read at current pin; no scientific import"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "docs/seats/physical.md",
+      "git_blob": "80f31e88203f919fc609e9d9563f4aa74d763a73",
+      "sha256": "0594616ee970dc96b6ba3044786df4c470673ea1f1e69e3c4b9a32b17ee02385",
+      "lines": 316,
+      "reading": "M12 in full and previous messages re-read as specified in this continuation"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/FINDINGS.md",
+      "git_blob": "f1d5a8dd400bf0aaf43012f69b68b632b0ce9f8c",
+      "sha256": "1230e5e80fb24469b3968cd1d378848f7feae0930be60aacdd170dc5ace35de4",
+      "lines": 182,
+      "reading": "Earlier full reading reused; new actual-H1/H3 dated addition read via Git diff"
+    },
+    {
+      "commit": "6f074b770",
+      "path": "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL.md",
+      "git_blob": "e8e4c7817ac62703cf8f681276c67bfac4a7a5b2",
+      "sha256": "8d06ab5092e511cb759b1730d6be8175f18bea2768c97e46afe1882d2617c1f2",
+      "lines": 240,
+      "reading": "Exact determinant/asymptotic section 141-188 re-read for phase cancellation; prior full source reading reused"
+    },
+    {
+      "commit": "6f074b770",
+      "path": "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE.md",
+      "git_blob": "7d528f18a0827bc482b6c12554b01953d741a52b",
+      "sha256": "5ee7f966013a8ab2179eeb9eefa57b017d57ad4dfd4ab6b671e524205c3c42d1",
+      "lines": 293,
+      "reading": "Targeted unit paragraphs of record physical-c8-08 read; earlier full reading reused"
+    },
+    {
+      "commit": "6f074b770",
+      "path": "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/WILSON_FAMILY_TRANSPORT.md",
+      "git_blob": "6f5d3f3c61ebf6268cb6a3a339e4f487abc92fd0",
+      "sha256": "f263535762c6aca8648aa1d65ffc3c4d279a88225e9694cdb7d16e9e6fb469eb",
+      "lines": 176,
+      "reading": "Targeted unit paragraphs of record physical-c8-08 read; earlier full reading reused"
+    },
+    {
+      "commit": "6f074b770",
+      "path": "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS.md",
+      "git_blob": "eb66f37e2d4ca9f8cf7c65cfdd552958d64a22da",
+      "sha256": "e34e773528a5495c293bf00dcafcce55519ad75da413c5b2d9aea24809c0bde2",
+      "lines": 229,
+      "reading": "Targeted unit paragraphs of record physical-c8-09 read; earlier full reading reused"
+    },
+    {
+      "commit": "6f074b770",
+      "path": "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY.md",
+      "git_blob": "34c347d7b2b713a77a3569e4e8157fcbf36b7c57",
+      "sha256": "58822e7d9b32aec4cc9323792663f0194ab0aece3d5262243701b677ad7d04af",
+      "lines": 132,
+      "reading": "Full source re-read against main reply and frame/spin normalization"
+    }
+  ],
+  "review_report": {
+    "path": "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW.md",
+    "sha256": "ec35856d4775b0faa1b08f2e80d8083ac90f8074ff0700a5df78c734e5c84f8f",
+    "lines": 109
+  },
+  "review_scope": [
+    "All eleven C8 verdict/how/note fields",
+    "All five requested repair categories",
+    "Source-level reading of the seven named current mathematical/checker scripts, no imports",
+    "Targeted actual source units for C8 kinematics/action",
+    "Explicit hand checks of no-cancellation for the named coherent example and unitary S exchange"
+  ],
+  "excluded": [
+    "A scientific rerun",
+    "Independent re-derivation of every classified physical unit",
+    "The full 576-element group enumeration",
+    "Review of the compact magnetic and cross-form packets after the main source cut"
+  ],
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "scientific_tests": 0,
+  "new_agents": 0,
+  "foundational_inputs_counted_removed": 0,
+  "new_harvest_complete_claim": false,
+  "preserved_index_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
