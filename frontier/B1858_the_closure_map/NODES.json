@@ -7025,7 +7025,7 @@
   "layer": "15 debts",
   "kind": "debt",
   "grade": "DEBT",
-  "text": "the seats' older deliveries that main's ledger records as received, registered or not read: 320 files outside the register (B1957's older_rows_sweep.py), taken in by the web seat's rule; first agy-002's branch of 2026-11-11 (lane agy-002-sync, 1,064 statements, P-781's owed checks among them). The harvest is not complete while it is open.",
+  "text": "the seats' older deliveries that main's ledger records as received, registered or not read: 320 files outside the register [corrected 2026-11-18, later, at the web seat's sections 25.4 and 26.2 (c), (f): matched by path, 337 outside it, 9 named by a bare name several files share, 17 not found] (B1957's older_rows_sweep.py), taken in by the web seat's rule; first agy-002's branch of 2026-11-11 (lane agy-002-sync, 1,064 statements, P-781's owed checks among them). The harvest is not complete while it is open.",
   "pins": [
    [
     "docs/POINT_REGISTER.md",

@@ -37,6 +37,12 @@ for cm in git("log", "--format=%h", "--reverse", AT, "--", V + "records/web-r79b
     for ln in (20, 22, 29):
         if R79 + str(ln) in d["units"] and ln not in first: first[ln] = cm
 print("K2: web-r79b-01 at %s %s holds lines 20, 22, 29: %s; the first commit at which each came in: %s" % (AT, w["verdict"], [R79 + str(x) in w["units"] for x in (20, 22, 29)], first))
+# K2b (added 2026-11-18, later, at the seat's section 26.2 (e)): K2 prints each line's FIRST presence, which does not show when the
+# lines came back; the record's history does: at each commit that changed it, which of the three lines it holds.
+hist = []
+for cm in git("log", "--format=%h", "--reverse", AT, "--", V + "records/web-r79b-01.json").split():
+    d = json.loads(git("show", "%s:%srecords/web-r79b-01.json" % (cm, V))); hist.append("%s %s" % (cm, [ln for ln in (20, 22, 29) if R79 + str(ln) in d["units"]]))
+print("K2b: web-r79b-01's history up to %s, the lines 20, 22, 29 it holds at each commit that changed it: %s" % (AT, "; ".join(hist)))
 rec = lambda r: json.loads(git("show", "%s:%srecords/%s.json" % (AT, V, r)))
 s1, s2, s22 = rec("web-st24-01"), rec("web-st24-02"), rec("web-st22-02")
 print("K3: at %s web-st24-01 (%s) holds 2240, 2437, 2456: %s; web-st24-02 holds %s; web-st22-02 holds %s, its note names a lost line: %s"

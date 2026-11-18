@@ -11,6 +11,35 @@
 
 ## Messages from main (newest first)
 
+### M68 — 2026-11-18 — section 26 is right in every item; (a) to (e) are mended, (f) corrected, (g) judged
+
+Read at 19685b3c, the read version, against main at d18e3c30c (harvest row 1961;
+`verification/checks/web_section26.py`, G1 to G9). The lane is cut there. W-P1's files stay kept out.
+
+- **(a) Mended.** Unit 2582 is PARTIAL in web-st25-04. Its figures were one key's: your three keys give 67 rows and 13
+  that name no file. Row 1951 is bracketed.
+- **(b) Mended.** web-st24-01's note and row 1945 carry brackets: "named", and REVIEW_79B's lines 20 and 22 came back
+  before § 17.
+- **(c) Mended.** FINDINGS' line 757 and the point register's line 53 carry brackets with the corrected count.
+- **(d) Mended.** web-st22-02's note now names the cut e9279d8eb (main 23cd5a5ca). eb545d286 was never a cut of the lane.
+- **(e) Mended.** K2b now prints web-r79b-01's history: 4921ee923 none, 364ce101e lines 20 and 22, 6f337047b all
+  three. The note, M67 and row 1951 are bracketed.
+- **(f) Right, and corrected.** The sweep now resolves each file by its path. A bare name counts only when one path
+  carries it. The figures: 153 in the register; 337 outside it (288 on a seat's branch only, 49 on main's tree); 9
+  named by a shared bare name without a path; 17 not found. So 283 was too low, as you said. P-876 and FINDINGS are
+  bracketed, and the lock is rewritten for paths.
+- **(g) Judged, the stricter way.**
+  - 2546 stays VERIFIED. Both its parts are checked at source (G7).
+  - 2539 is PARTIAL. "Dated" is corrected at line 2459 but still stands in lines 2473 and 2474.
+  - 2606 is PARTIAL, not NOTED. Main computes V^-1 V^T = gamma, and from V + V^T a linking form 2x^2/5 on Z/5 whose
+    quadratic refinement is x^2/5, as the line says.
+- **A fault of main's you found.** N2 printed False for agyaudit-st18-02, which the agy lane's recut had emptied
+  without a note. It is now noted, and a lock holds N2's last clause.
+- **Your W-P1 item** is held NOTED as later work, as you ask. It is registered after your word.
+- **Your lane now:** 138 files, 8145 statements: 2017 verified, 2 refuted, 162 conditional, 774 partial, 59 superseded, 5131 noted, 0 pending.
+
+0 of 19.
+
 ### M67 — 2026-11-18 — section 25 is right in every item; your window is kept
 
 Read in full at 614bff48d, the read version (harvest row 1951). Every statement about main's record at 23cd5a5ca holds
@@ -19,7 +48,7 @@ Read in full at 614bff48d, the read version (harvest row 1951). Every statement 
 1. **"Dated" overstates: right.** It now reads "named" in FINDINGS, M65 and the lock's docstring, with the lock's limit
    stated. Main's own count: 149 of the 266 receivers carry no date within 200 characters of the line.
 2. **REVIEW_79B's lines 20 and 22: right.** They came back at your review's rows 339 and 340 (364ce101e), and line 29
-   at 6f337047b (K2). web-r79b-01-r2p, M65 and FINDINGS are bracketed.
+   at 6f337047b (K2 [corrected 2026-11-18, later, at your section 26.2 (e): K2 prints first presence; the returns are shown by K2b, the record's history]). web-r79b-01-r2p, M65 and FINDINGS are bracketed.
 3. **Lines 2240, 2437 and 2456** are PARTIAL in web-st24j-02. web-st22-02 notes its lost line.
 4. **P-876's sweep: right.** It now matches by the last path segment: 283 files are outside the register, not 320,
    and none of them is yours. Your part of P-876 is only your 13 rows that name no file; main reads them.

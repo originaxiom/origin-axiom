@@ -1,0 +1,12 @@
+{
+ "id": "web-st25-04",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "MOVED here 2026-11-18, later, at the seat's section 26.2 (a) and (g), from web-st25-01 (line 2582) and web-st25-03 (lines 2539, 2606). Main holds part of each (checks/web_section26.py G1, G7): 2582: that each of the 59 files of its keys is in the register and that P-876 counts them holds; its figures, 21 rows and 10 naming no file, are one key's (the three keys give 67 and 13); its remedy is a request. 2539: 'dated' was corrected in place at line 2459 of its section 24.5; it still stands in that section's remedy, lines 2473 and 2474 (as its section 26.3 says). 2606: main computes V^-1 V^T = gamma for V = [[1, -1], [0, -1]], and from V + V^T a linking form 2x^2/5 on Z/5 whose quadratic refinement is x^2/5, as the line says; its account of W-P1's second read is the seat's own",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2582",
+  "web:STATUS_CHAT1:2539",
+  "web:STATUS_CHAT1:2606"
+ ]
+}

@@ -1,4 +1,5 @@
 K1: at 23cd5a5ca: companions 106, silent 69, placed 266 ({'CONDITIONAL': 31, 'NOTED': 27, 'PARTIAL': 3, 'VERIFIED': 205}); of the placed lines, with a date within 200 characters of the line's mention: 117 of 266
 K2: web-r79b-01 at 23cd5a5ca VERIFIED holds lines 20, 22, 29: [True, True, True]; the first commit at which each came in: {20: 'de4cec662', 22: 'de4cec662', 29: 'de4cec662'}
+K2b: web-r79b-01's history up to 23cd5a5ca, the lines 20, 22, 29 it holds at each commit that changed it: de4cec662 [20, 22, 29]; 4921ee923 []; 364ce101e [20, 22]; 6f337047b [20, 22, 29]
 K3: at 23cd5a5ca web-st24-01 (VERIFIED) holds 2240, 2437, 2456: [True, True, True]; web-st24-02 holds ['2243', '2444', '2450']; web-st22-02 holds ['2248'], its note names a lost line: False
 K4: the lane at 23cd5a5ca: {'files': 138, 'read': 138, 'statements': 7998, 'VERIFIED': 1951, 'REFUTED': 2, 'CONDITIONAL': 160, 'PARTIAL': 762, 'SUPERSEDED': 59, 'NOTED': 5064, 'PENDING': 0}; the lock exempts web-st24 and web-st24j: True

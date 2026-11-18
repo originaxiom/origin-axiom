@@ -17,11 +17,29 @@ OPEN = re.compile(r"^\**\s*(RECEIVED|REGISTERED|UNREAD|NOT READ)|NOT READ|NOTHIN
 import fnmatch, re as _re
 _ex = (V / "extract.py").read_text(); _i = _ex.index("EXCLUDE_PATTERNS = {"); _j = _ex.index("\n}\n", _i)
 _g = {}; exec(_ex[_i:_j + 3], _g); _pats = [p for v in _g["EXCLUDE_PATTERNS"].values() for p in v]
-kept = set()
-stems = set()
+# CORRECTED 2026-11-18, later still, at the web seat's section 26.2 (f): matching by the last path segment collides (fourteen
+# names, FINDINGS.md and PREREGISTRATION.md among them, are shared by several registered files), so a file of one seat could read
+# "in the register" through another seat's file of the same name.  A named file is now resolved by its path: a path with folders
+# by suffix at a folder boundary; a bare name only when exactly one path on the remote's branches carries it.  A name several
+# paths share, given without a path, is its own class: the row does not say which file it means.
+import sys as _sys
+_sys.path.insert(0, str(ROOT / "audit" / "claims")); import rec as _rec
+regpaths = {u["file"] for u in _rec.FULL["units"]}
+paths = set(); kept_paths = set()
 for b in [b.strip() for b in git("for-each-ref", "--format=%(refname:short)", "refs/remotes/origin").split("\n") if b.strip()]:
     _fs = [f for f in git("ls-tree", "-r", "--name-only", b).split("\n") if f.endswith(".md")]
-    stems |= {f.split("/")[-1][:-3] for f in _fs}; kept |= {f.split("/")[-1][:-3] for f in _fs if any(fnmatch.fnmatch(f, p) for p in _pats)}
+    paths |= set(_fs); kept_paths |= {f for f in _fs if any(fnmatch.fnmatch(f, p) for p in _pats)}
+    if b == "origin/main": main_paths = set(_fs)
+paths |= regpaths
+by_name = collections.defaultdict(set)
+for f in paths: by_name[f.split("/")[-1]].add(f)
+def where(f):
+    cand = {q for q in by_name.get(f.split("/")[-1], ()) if q == f or q.endswith("/" + f)} if "/" in f else set(by_name.get(f, ()))
+    if not cand: return "not found"
+    if cand <= regpaths or ("/" in f and cand & regpaths): return "in the register"
+    if len(cand) > 1 and "/" not in f: return "a name several files share, given without its path"
+    q = min(cand, key=lambda x: (x not in main_paths, x))      # a path given with its folders, found under several roots: one file
+    return "kept out at the seat's request" if q in kept_paths else ("on main's tree, not in the register" if q in main_paths else "on a seat's branch only, not in the register")
 out = collections.OrderedDict()
 for l in L:
     m = re.match(r"\| (\d{3,4}) \| ([^|]+) \|", l)
@@ -30,9 +48,9 @@ for l in L:
     if len(c) < 8 or not OPEN.search(c[5][:400]): continue
     o = out.setdefault(c[1].strip(), {"rows": [], "rows_no_file": [], "files": {}})
     o["rows"].append(int(m.group(1)))
-    fs = {f.split("/")[-1][:-3] for f in re.findall(r"[\w][\w./-]*\.md", c[2] + " " + c[3] + " " + c[4])}
+    fs = {f.lstrip("./") for f in re.findall(r"[\w][\w./-]*\.md", c[2] + " " + c[3] + " " + c[4])}
     if not fs: o["rows_no_file"].append(int(m.group(1)))
-    for s in fs: o["files"][s] = "in the register" if s in reg else ("kept out at the seat's request" if s in kept else ("on a branch, not in the register" if s in stems else "not found"))
+    for s in fs: o["files"][s] = where(s)
 tot = collections.Counter(); nrows = nnone = 0
 for seat, o in sorted(out.items(), key=lambda kv: -len(kv[1]["rows"])):
     st = collections.Counter(o["files"].values()); tot.update(st); nrows += len(o["rows"]); nnone += len(o["rows_no_file"])

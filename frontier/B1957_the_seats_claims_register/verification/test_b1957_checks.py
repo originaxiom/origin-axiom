@@ -1165,7 +1165,7 @@ def test_main_read_every_verified_statement_of_the_physical_lane():
     for x in L["units"]: assert owner[x["unit"]] == [("%s-r3%s" % (x["record"], x["decision"].lower()), want[x["decision"]])], x["unit"]
     kept = set(L["read_units"]) - narrowed
     assert all(len(owner[u]) == 1 and owner[u][0][1] == "VERIFIED" for u in kept)
-    since = ("physical-m16b-", "physical-c3i-", "physical-pr-")                   # records written later from main's own reading of new packages (2026-11-18, later)
+    since = ("physical-m16b-", "physical-c3i-", "physical-pr-", "physical-nr-")                   # records written later from main's own reading of new packages (2026-11-18, later)
     unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in kept and not (since and o[0][0].startswith(since))]
     assert unread == [], unread[:5]
 
@@ -1217,12 +1217,20 @@ def test_the_seats_older_rows_and_the_physical_answer():
     # grow with the ledger, so the lock tests the invariant: no file the sweep lists as outside the register is in UNITS.json.
     import json, re as _re
     V = pathlib.Path(__file__).resolve().parent
-    reg = {u[0].split(":")[1].split("/")[-1] for u in json.loads((V / "UNITS.json").read_text())["units"]}
+    # corrected again 2026-11-18, later still (the web seat's section 26.2 (f)): the last path segment collides on names several
+    # registered files share; files are resolved by their path. Invariants: no file listed outside the register resolves to a
+    # registered path; the classes are the six the sweep names; a shared bare name is never counted as in the register.
+    import sys as _sys, ast as _ast
+    _sys.path.insert(0, str(V.parents[2] / "audit" / "claims")); import rec as _rec
+    regpaths = {u["file"] for u in _rec.FULL["units"]}
     out = json.loads((here / "older_rows.json").read_text())
-    outside = {f for o in out.values() for f, st in o["files"].items() if st == "on a branch, not in the register"}
-    assert outside and not (outside & reg), sorted(outside & reg)[:5]
-    m = _re.search(r"S2: (\d+) seat labels; (\d+) rows; (\d+) of them name no file; files: \{'in the register': (\d+), (?:[\"']kept out at the seat's request[\"']: (\d+), )?'not found': (\d+), 'on a branch, not in the register': (\d+)\}", run)
-    assert m and int(m.group(4)) >= 162 and int(m.group(7)) <= 283, run[-300:]
+    outside = {f for o in out.values() for f, st in o["files"].items() if st.endswith("not in the register")}
+    assert outside and not any(q == f or q.endswith("/" + f) for f in outside if "/" in f for q in regpaths), "a path listed outside is registered"
+    m = _re.search(r"S2: (\d+) seat labels; (\d+) rows; (\d+) of them name no file; files: (\{.*\})", run); assert m, run[-300:]
+    cls = _ast.literal_eval(m.group(4))
+    assert set(cls) <= {"in the register", "kept out at the seat's request", "not found", "on a seat's branch only, not in the register", "on main's tree, not in the register", "a name several files share, given without its path"}, cls
+    assert cls["in the register"] >= 150 and cls["a name several files share, given without its path"] > 0
+
     ph = (here / "physical_m13_m16_run.txt").read_text()
     assert ph.count("the same: True") == 2 and "adds the card C3i: True" in ph
 
@@ -1283,6 +1291,31 @@ def test_agy_exp_xp1_equation_2_and_the_norm_law():
     Re<x, Hx> = 0 (refuted as written)."""
     r = (pathlib.Path(__file__).resolve().parent / "checks" / "agyexp_xp1_run.txt").read_text()
     assert "Q1: Q^2 - [p r (e13 + e24) + p f (e31 + e42)] = 0: True; Q^2's trace (scalar part) 0" in r and "on x = (1, 1): n**2 + 2*n + 2 (Re<x, Hx> = 1)" in r
+
+
+
+def test_the_physical_lanes_native_signed_action():
+    """added 2026-11-18, later: the physical lane's native signed action and invariant metric, computed by main from B1601's maps"""
+    r = (pathlib.Path(__file__).resolve().parent / "checks" / "physical_native_action_run.txt").read_text()
+    assert "as (1): True; dR(0) = [[0, 0, 1], [0, 1, 0], [-1, 0, 0]], as (1): True" in r and "blobs at da6f87f5d match: [True, True, True, True]" in r
+    assert "ell = alpha_L^-1: True; r = alpha_R^-1: True" in r and "|G| = 24; all det 1: True; kernel 4" in r and "image 6; involutions 9" in r
+    assert "= <ell>: True" in r and "orbits on ordered pairs: 3" in r and "(free parameters 1)" in r and "(free 1); the signed triplet's character norm 1" in r
+    assert "character norm 2 (trivial plus two-dimensional: 2); its inner product with the signed triplet 0" in r
+
+def test_the_web_seats_section_26_and_its_mends():
+    """added 2026-11-18, later: the web seat's section 26 (19685b3ce) held against main at d18e3c30c (checks/web_section26.py), and
+    the mends it asked: K2b shows the record's history; N2's last clause is true; the moved lines are where their records say."""
+    import json
+    V = pathlib.Path(__file__).resolve().parent; r = (V / "checks" / "web_section26_run.txt").read_text(); k = (V / "checks" / "web_section25_run.txt").read_text()
+    assert "rows [1, 21, 45], naming no file [0, 10, 3], files [1, 13, 45]" in r and "FINDINGS' lines giving 320: [757]" in r and "eb545d286 among them: False" in r
+    assert "names shared by several registered files: 13" in r and "through a shared name: 11" in r and "V^-1 V^T = [[2, 1], [1, 1]] (gamma = [[2, 1], [1, 1]]: True)" in r and "q = lambda / 2 = 1/5" in r
+    assert "the 266 placed lines sit in 105 receiving records" in r and "14 left: to web-st24j-02 3, to web-st25-01 4, ids that no longer exist 7; new ids 4" in r
+    assert "de4cec662 [20, 22, 29]; 4921ee923 []; 364ce101e [20, 22]; 6f337047b [20, 22, 29]" in k
+    n2 = (V / "checks" / "grounds_cite_records_that_exist_run.txt").read_text().strip().split("\n")[-1]; assert n2.endswith("each saying so in its note: True"), n2
+    rec = lambda i: json.loads((V / "records" / (i + ".json")).read_text())
+    assert rec("web-st25-04")["verdict"] == "PARTIAL" and set(rec("web-st25-04")["units"]) == {"web:STATUS_CHAT1:2582", "web:STATUS_CHAT1:2539", "web:STATUS_CHAT1:2606"}
+    assert "web:STATUS_CHAT1:2546" in rec("web-st25-01")["units"] and "web:STATUS_CHAT1:2582" not in rec("web-st25-01")["units"]
+    assert "e9279d8eb" in rec("web-st22-02")["note"] and "K2b" in rec("web-r79b-01-r2p")["note"] and "placed and named" in rec("web-st24-01")["note"]
 
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of

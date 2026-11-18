@@ -1,0 +1,13 @@
+{
+ "id": "web-st26-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part of each: the statement about main's record holds (web_section26.py G1 to G8; web_section25.py K1, K2b); the remedies it asks are its requests, each taken (harvest row 1961); in line 2650 the seat's own count of 235 is its own window; in line 2714 the judgment that NOTED is fair for unit 2606 is not taken: main computes V^-1 V^T = gamma and the form (G7) and holds the line PARTIAL",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2650",
+  "web:STATUS_CHAT1:2694",
+  "web:STATUS_CHAT1:2703",
+  "web:STATUS_CHAT1:2714"
+ ]
+}

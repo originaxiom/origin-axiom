@@ -3,6 +3,6 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "the agy lane's status line at baadbad81: its own code's nineteenth revision of stage one and the counterchecks it runs; its code is not run by main",
- "note": "",
+ "note": "KEPT 2026-11-18, later, for its ground, with no statement under it (found at the web seat's section 26.1): the agy lane's status line it held (line 16 at the cut baadbad81) was replaced when the lane was cut again at 6b961101e (harvest row 1954); the line now there is held by agyaudit-st20-01. N2 printed False for this record from d18e3c30c, and no lock tested N2's last clause; one does now.",
  "units": []
 }

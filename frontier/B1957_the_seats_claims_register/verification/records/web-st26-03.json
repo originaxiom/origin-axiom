@@ -1,0 +1,11 @@
+{
+ "id": "web-st26-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its own runs and readings, not recomputed by main: that no arc cited in W-P1's steps changed up to d18e3c30c (main has not swept W-P1's citations, which are registered with W-P1 as later work); its own recut of all 138 files at their registered heads matching every id, form, kind and hash",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2646",
+  "web:STATUS_CHAT1:2674"
+ ]
+}

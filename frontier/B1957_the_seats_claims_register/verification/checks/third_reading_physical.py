@@ -22,7 +22,7 @@ later = [u for u in kept if not (len(owner.get(u, [])) == 1 and owner[u][0][1] =
 print("P1: lines read: %d; narrowed: %d (%s); kept verified: %d; narrowed lines not where the list says: %d; kept lines not under a verified record now: %d"
       % (L["read"], len(L["units"]), ", ".join("%s %d" % (want[k].lower(), v) for k, v in sorted(L["decisions"].items())), len(kept), len(bad), len(later)))
 ver = {u: o[0][0] for u, o in owner.items() if o[0][1] == "VERIFIED"}
-since = ("physical-m16b-", "physical-c3i-", "physical-pr-")      # records written after the reading from main's own reading of the lane's later packages (2026-11-18, later)
+since = ("physical-m16b-", "physical-c3i-", "physical-pr-", "physical-nr-")      # records written after the reading from main's own reading of the lane's later packages (2026-11-18, later)
 cover = collections.Counter("read here" if u in set(kept) else "in a record written since from main's reading" if ver[u].startswith(since) and since else "NOT READ ONE BY ONE" for u in ver)
 print("P2: the lane's verified statements now: %d; %s" % (len(ver), "; ".join("%s: %d" % kv for kv in sorted(cover.items()))))
 print("P2: verified statements main has not read one by one against the record's ground: %d" % cover.get("NOT READ ONE BY ONE", 0))

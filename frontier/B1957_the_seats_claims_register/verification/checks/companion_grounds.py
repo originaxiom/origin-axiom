@@ -10,9 +10,11 @@ V = "frontier/B1957_the_seats_claims_register/verification/records/"
 def load(at):
     if at is None: return {os.path.basename(p)[:-5]: json.load(open(p)) for p in glob.glob(V + "*.json")}
     return {os.path.basename(f)[:-5]: json.loads(git("show", "%s:%s" % (at, f))) for f in git("ls-tree", "--name-only", at, V).split() if f.endswith(".json")}
+RECEIVERS = set()
 def survey(recs, lane_prefix):
     owner = {u: k for k, r in recs.items() if isinstance(r.get("units"), list) for u in r["units"]}
     comps, silent, placed, amb, undated = 0, 0, collections.Counter(), [], []
+    RECEIVERS.clear()        # added 2026-11-18, later: the receiving records, for the web seat's section 26.1's count
     for k, r in sorted(recs.items()):
         if not k.startswith(lane_prefix) or not re.search(r"-r[23][pncs]$", k): continue
         h = r.get("how", ""); nums = set()
@@ -29,7 +31,7 @@ def survey(recs, lane_prefix):
         for n in miss:
             c = [u for u in owner if u.rsplit(":", 1)[1] == n and u.split(":")[1] in tags and owner[u] != k]
             if len(c) != 1: amb.append((k, n, len(c))); continue
-            o = owner[c[0]]; placed[recs[o]["verdict"]] += 1; txt = recs[o].get("note", "") + " " + recs[o].get("how", "")
+            o = owner[c[0]]; RECEIVERS.add(o); placed[recs[o]["verdict"]] += 1; txt = recs[o].get("note", "") + " " + recs[o].get("how", "")
             if not (re.search(r"(RESTORED|REFILED|moved|returned)[^.]{0,200}\b(line|lines|row)\b[^.]{0,80}\b%s\b" % n, txt) or "(line %s)" % n in txt or "line %s of" % n in txt):
                 undated.append((k, n, o))
     return comps, silent, sum(placed.values()), dict(sorted(placed.items())), amb, undated

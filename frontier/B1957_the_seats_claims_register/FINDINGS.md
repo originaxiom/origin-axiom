@@ -712,9 +712,17 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **Harvest rows 1958 to 1962 (2026-11-18, night).** agy-exp's X-P1 is registered as later work in its own lane,
+  agy-exp-later; its harvest cut stays at 4a8b433a2, at its request. One of its lines is refuted as written: its norm law
+  for H^2 = 0 needs Re<x, Hx> = 0. Its module C is the check of C3i that P-875 asks for. The web seat's section 26, its
+  read version, is right in every item: (a) to (e) are mended. (f) is a fault of main's: P-876's sweep collided on file
+  names several registered files share. Resolved by path, it gives 337 files outside the register, not 283. (g) is
+  judged the stricter way. N2's last clause was false for one record, and it is now noted and locked. The web seat's
+  verified lines of section 26 were read by main one by one against `checks/web_section26.py`; the one-by-one lock
+  exempts web-st26- by name, as it does web-st25-. The physical lane's native signed action and invariant metric (row 1962): every finite statement is computed by main from its own B1601 maps (`checks/physical_native_action.py`), and all hold. The register: 555 files, 492 read at source, 32482 statements: 3722 verified, 28 refuted, 6222 conditional, 2127 partial, 765 superseded, 19618 noted, 0 pending.
 - **Harvest rows 1951 to 1955 (2026-11-18, night).** agy-exp writes HARVEST COMPLETE. agy-002's supersession map for
   lane agy-002-sync is applied (600 lines superseded at its word). The web seat's section 25: five things, each right
-  and mended, among them P-876's sweep (283 files outside, not 320) and its window: W-P1 and its steps are kept out of
+  and mended, among them P-876's sweep (283 files outside, not 320 [corrected 2026-11-18, later, at the seat's section 26.2 (f): the 283 collided on shared names; by path, 337 outside and 9 named by a shared bare name]) and its window: W-P1 and its steps are kept out of
   the harvest lane until its word, then registered as later work. The SM seat's relay of 2026-10-07 has a verdict for
   every statement by a rule stricter than the sorters' marks (main's line-by-line reading owed). The register stands at
   0 pending.
@@ -754,7 +762,7 @@ noted, and none is pending.
   whose session named itself agy-002 (`agy/stage4-sync-2026-11-11`) was not a lane here, and main's ledger records its
   seven reports and receipts as not read (row 1696) and its three arcs as owed under P-781. The same test on every
   seat's rows: 662 rows recorded as received, registered or not read, under 27 seat labels; 219 name no file; of the
-  461 files named, 125 are in the register, 320 are on a branch and not in it, 16 are not found. **Main's choice, the
+  461 files named, 125 are in the register, 320 are on a branch and not in it, 16 are not found [corrected 2026-11-18, later, at the web seat's sections 25.4 and 26.2 (c), (f): 320 was the first count, which compared bare names with paths; the next, by the last path segment, gave 283 and collided on thirteen names shared by several registered files; matched by its path (a path with folders by suffix; a bare name only when one path on the remote's branches carries it), the sweep gives 667 rows, 220 naming no file, and of 519 files named 153 in the register, 337 outside it (288 on a seat's branch only, 49 on main's tree), 9 named by a bare name several files share without its path, 3 kept out at the seat's request, 17 not found]. **Main's choice, the
   stricter: they are taken into the register by the web seat's rule, seat by seat;** first that branch, as lane
   agy-002-sync (39 files, 1,064 statements, pending: its own files, and the lines it added to main's pages, registered
   by the added lines only through the extractor's new ADDED_ONLY table; a byte-identical copy of the web seat's relay

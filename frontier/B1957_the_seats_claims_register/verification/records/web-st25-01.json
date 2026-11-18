@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "its section 25 as corrected after its referee read (614bff48d), each statement about main's record at 23cd5a5ca held there (checks/web_section25.py K1 to K4; companion_grounds.py; older_rows_sweep.py as corrected) and acted on (harvest row 1951): what M65 mended holds (the companion figures 106, 69, 266; the convention and its lock; line 97 resolved; the three companions' notes; web-r79b-01 holding REVIEW_79B's lines 20, 22, 29 VERIFIED; the counts, the item numbers, the four mixed lines); and its findings, each right: 'dated' overstates, since the receiving records name the move and most carry no date (main's count: 149 of the 266 with no date within 200 characters, 117 with one), now 'named' with the lock's limit noted; lines 20 and 22 came back at web_rv55.json's rows 339 and 340 at 364ce101e, before the corrected section 17, and only line 29 at it (K2; bracketed); lines 2240, 2437 and 2456 held VERIFIED in web-st24-01 should be PARTIAL (moved to web-st24j-02) and web-st22-02 lost a line without a note (noted); the lane's counts at 23cd5a5ca; P-876's sweep compared bare file names with the register's paths and listed ten of its registered files as outside the register (corrected); its window (W-P1 and its steps kept out of the harvest lane, registered later)",
- "note": "",
+ "note": "MOVED 2026-11-18, later, at the seat's section 26.2 (a): line 2582 is PARTIAL in web-st25-04 (its figures, 21 rows and 10 naming no file, were one key's; the line also carries the seat's request). CORRECTED the same day at 26.2 (e): K2, cited above, prints each line's first presence in web-r79b-01, not the return of REVIEW_79B's lines; the returns are shown by K2b, the record's history. JUDGED at 26.2 (g): line 2546 stays VERIFIED, both its parts checked at source (web_section26.py G7: FINDINGS' lines 734 and 735 and M65 at 23cd5a5ca say all three companions' reasons were overturned by the corrected section 17; the seat's section 24.5 at 614bff48d is corrected in place).",
  "units": [
   "web:STATUS_CHAT1:2458",
   "web:STATUS_CHAT1:2464",
@@ -40,7 +40,6 @@
   "web:STATUS_CHAT1:2575",
   "web:STATUS_CHAT1:2578",
   "web:STATUS_CHAT1:2579",
-  "web:STATUS_CHAT1:2580",
-  "web:STATUS_CHAT1:2582"
+  "web:STATUS_CHAT1:2580"
  ]
 }

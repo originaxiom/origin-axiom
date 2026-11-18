@@ -1,0 +1,9 @@
+N1: B1601's meets.py lines 35 and 36 at da6f87f5d: Lm = {x: x, y: z, z: x * z - y}          # a -> a, b -> ab | Rm = {x: z, y: y, z: y * z - x}          # a -> ab, b -> b
+N1: dL(0) = [[1, 0, 0], [0, 0, 1], [0, -1, 0]], as (1): True; dR(0) = [[0, 0, 1], [0, 1, 0], [-1, 0, 0]], as (1): True
+N1: its recorded git blobs at da6f87f5d match: [True, True, True, True]
+N2: alpha_L sends (i, j, k) to [(1, 0), (1, 2), (-1, 1)]; alpha_R to [(1, 2), (1, 1), (-1, 0)]; ell = alpha_L^-1: True; r = alpha_R^-1: True
+N3: |G| = 24; all det 1: True; kernel 4 (diagonal: [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]); image 6; involutions 9 (2T has 1); ell^2 = [[1, -1, -1]], r^2 = [[-1, 1, -1]]
+N4: transitive on X6: True; stabilizer of e1: 4 elements, = <ell>: True; its orbits: [[(1, 0, 0)], [(-1, 0, 0)], [(0, -1, 0), (0, 0, -1), (0, 0, 1), (0, 1, 0)]]; G's orbits on ordered pairs: 3
+N5: invariant symmetric B = [[b33, 0, 0], [0, b33, 0], [0, 0, b33]] (free parameters 1); commutant over C: [[c8, 0, 0], [0, c8, 0], [0, 0, c8]] (free 1); the signed triplet's character norm 1
+N6: the unsigned permutation module's character norm 2 (trivial plus two-dimensional: 2); its inner product with the signed triplet 0; the characters differ: True
+N7: e1 on x^2 + y^2 + z^2 = xyz: False; on x^2 + y^2 + z^2 = 0: False

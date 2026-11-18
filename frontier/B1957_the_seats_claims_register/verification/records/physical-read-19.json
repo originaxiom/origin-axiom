@@ -3,9 +3,9 @@
  "date": "2026-11-18",
  "verdict": "READ",
  "lane": "physical",
- "how": "each read by main in full at the lane's head 8d5c91032",
+ "how": "read by main in full at the physical lane's branch (798281903), with its custody file NATIVE_REGISTER_CUSTODY_AND_REVIEW.json",
  "files": [
-  "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md",
-  "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD.md"
+  "relays/cards/PHYSICAL_NATIVE_REGISTER_LAW_PROBE_2026-11-18.md",
+  "reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC.md"
  ]
 }

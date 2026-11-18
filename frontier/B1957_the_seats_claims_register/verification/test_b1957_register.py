@@ -80,7 +80,7 @@ def test_every_verified_statement_of_the_web_lane_was_read_by_main_one_by_one():
         home = x["record"] if x.get("whole_record") else "%s-r3%s" % (x["record"], x["decision"].lower())
         assert owner[x["unit"]] == [(home, want[x["decision"]])], x["unit"]
     read = (set(L["read_units"]) - narrowed) | {x["unit"] for x in M["units"] if x["decision"] == "K"} | {e["unit"] for e in json.loads((V / "second_reading" / "web_rv55.json").read_text())["entries"] if e["main"] == "V"}
-    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(("web-st14-", "web-st15-", "web-st16-", "web-st17-", "web-st18-", "web-st18b-", "web-st19-", "web-st19b-", "web-st20-", "web-st20b-", "web-st21-", "web-st22-", "web-st21b-", "web-st23-", "web-st24-", "web-st24j-", "web-wp1-", "web-st25-", "web-st17-03b", "web-rv55-"))]
+    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(("web-st14-", "web-st15-", "web-st16-", "web-st17-", "web-st18-", "web-st18b-", "web-st19-", "web-st19b-", "web-st20-", "web-st20b-", "web-st21-", "web-st22-", "web-st21b-", "web-st23-", "web-st24-", "web-st24j-", "web-wp1-", "web-st25-", "web-st26-", "web-st17-03b", "web-rv55-"))]
     assert unread == [], unread[:3]
     assert any(x["decision"] == "P" for x in L["units"]) and owner[next(x["unit"] for x in L["units"] if x["decision"] == "P" and not x.get("whole_record"))][0][1] != "VERIFIED"   # a narrowed line is not verified
 

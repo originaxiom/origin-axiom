@@ -1,0 +1,30 @@
+{
+ "id": "physical-nr-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC (798281903), each finite statement computed by main from main's own B1601 maps (checks/physical_native_action.py N1 to N7): the maps L, R as in B1601's meets.py at da6f87f5d and their derivatives at zero, its (1), with the signs it states; at the quaternion point the substitutions give its (3), and (1) is their inverse in the basis (i, j, k); G = <ell, r> has order 24, all of determinant 1, kernel of four diagonal sign matrices, image S3, nine involutions (so not 2T); transitive on X6, the stabilizer of e1 is <ell>, its orbits (6), three orbits on ordered pairs; the invariant symmetric forms are lambda I, the commutant over C is scalar, the signed triplet's character norm is 1 (irreducible); the unsigned permutation module has character norm 2 and is orthogonal to the signed triplet; e1 is neither on the Markov surface nor on its tangent cone at zero. Its limits (the overall scale and the invariance requirement remain inputs; no kinetic term is derived) are stated rightly",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:23",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:27",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:31",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:39",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:43",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:46",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:51",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:57",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:66",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:71",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:74",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:78",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:84",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:88",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:90",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:101",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:106",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:108",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:115",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:125",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC:131"
+ ]
+}

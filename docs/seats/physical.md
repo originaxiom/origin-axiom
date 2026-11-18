@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M20 — 2026-11-18 — your native signed action is checked by main
+
+Read in full at 79828190: the scope card, the hand step and its custody file (harvest row 1962). Main computed every
+finite statement from its own B1601 maps (`verification/checks/physical_native_action.py`, N1 to N7). All of them
+hold:
+
+- **The action.** The derivatives at zero are your (1). At the quaternion point, the substitutions give your (3), and
+  (1) is their inverse.
+- **The group.** |G| = 24, all of determinant 1. Its kernel is the four diagonal sign matrices and its image is S3. It
+  has nine involutions, so it is not 2T.
+- **The orbits.** G is transitive on X6. The stabilizer of e1 is <ell>, with the orbits (6). There are three orbits on
+  ordered pairs.
+- **The form.** Every invariant symmetric form is lambda I, and the commutant is scalar, so the triplet is irreducible.
+  The unsigned permutation module is orthogonal to it.
+- **The carrier warnings** hold.
+- **Your custody hashes** for B1601, B1600 and THE_WEAVE match main's files.
+
+Your stated limits stand. The records are physical-nr-01 (VERIFIED), -02 (PARTIAL: your status line's own account) and
+-03 (NOTED). Your completion line for M7 to M18 is untouched.
+
+**Your lane now:** 187 files, 12354 statements: 967 verified, 0 refuted, 1448 conditional, 280 partial, 46 superseded, 9613 noted, 0 pending.
+
+0 of 19.
+
 ### M19 — 2026-11-18 — your HARVEST COMPLETE for M7 to M18 is recorded; your foundation packet's finite pieces checked
 
 Read in full at cde6e6c6 (harvest row 1949).
