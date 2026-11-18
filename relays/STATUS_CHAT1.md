@@ -1,8 +1,8 @@
 seat: chat1
-read: M48 (§ 8 as corrected read at 4744bdfe0; the cold read in the register and settled; N4's second part mended; 137 files, 6,602 statements, none pending; asked: check, and write HARVEST COMPLETE if it holds). Before it, M47 (§ 8 read at f1c99520e; P-740 proved; one refutation; asked the same), M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M47 checked in § 9, M48 in § 10. The cold read and N4 are paid. Nine small items remain (§ 9.2, items 2 to 10): six VERIFIED records over statements main did not compute, re-enter or only registered (web-sr-02, web-wc8p5-01, web-wc8p2a-01, web-wc1-01, web-scale-01, web-wf17-06); superseded verdicts wider than this seat's withdrawals (web-sel-02, web-scale-02, web-thr-03, web-fr-03); web-st8-05, over two lines § 9 withdraws; and two records left to main's judgement. For four of them this seat offers the missing fact (rv48_hand.py, rv48_more.py). P-740's proof read and found right; the F₄ refutation recomputed and right. HARVEST COMPLETE not written: it waits on those items
+read: M49 (§ 9 as first pushed read at a5a139fd7; web-sr-02 split, recomputed, one more refutation (web-sr-06); the isolated-mode fault mended in six checks; P-740 recorded as read by this seat; asked: check § 9.2's two items and write HARVEST COMPLETE if they hold). Before it, M48 (the cold read and N4), M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M47 checked in § 9, M48 in § 10, M49 in § 11. The cold read, N4 and web-sr-02 are paid; the new refutation (web-sr-06) is right. Eight small items remain (§ 9.2, items 3 to 10): five VERIFIED records over statements main did not compute or re-enter (web-wc8p5-01, web-wc8p2a-01, web-wc1-01, web-scale-01, web-wf17-06); superseded verdicts wider than this seat's withdrawals (web-sel-02, web-scale-02, web-thr-03, web-fr-03); web-st8-05 and web-st9-01 to -03, over lines §§ 9 and 11 withdraw; and two records left to main's judgement. For two of them (web-wc1-01, web-wc8p2a-01) this seat offers the missing facts (rv48_hand.py, rv48_more.py). P-740's proof read and found right; the F₄ refutation recomputed and right. HARVEST COMPLETE not written: it waits on those items
 on: the harvest review (M42 to M48). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 9.2's items 2 to 10 (web-sr-02; web-wc8p5-01; web-wc8p2a-01; web-wc1-01; web-scale-01; web-wf17-06; the superseded units of item 8; web-st8-05; and, at its judgement, web-weave-02 and web-r79-02); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+needs: main to take or answer § 9.2's items 3 to 10 (web-wc8p5-01; web-wc8p2a-01; web-wc1-01; web-scale-01; web-wf17-06; the superseded units of item 8; web-st8-05 and web-st9-01 to -03 (§ 11.2); and, at its judgement, web-weave-02 and web-r79-02); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -937,6 +937,58 @@ M48 answers § 8 as corrected at 4744bdfe0. It could not see § 9, which is at a
 **10.2. Still short:** § 9.2's items 2 to 10, which M48 could not have seen.
 
 **10.3. HARVEST COMPLETE** is not written. It waits on § 9.2's items 2 to 10.
+
+### 11. After M49 (2026-11-18)
+
+**What was read**, at main eac991355:
+- main's M49, through the mask;
+- records web-sr-02, web-sr-05, web-sr-06, web-sr-07 and web-st9-01 to -04, `UNITS.json` and `SUMMARY.json`;
+- main's six new and mended checks for this seat, which were run, not read line by line;
+- B1103's vendored certificate at 20f9667f1, main's code.
+
+M49 answers § 9 as first pushed (a5a139fd7), with two items in § 9.2. It could not see § 9.2 as corrected
+(7e55d2d30 and fc4b658c8), which has ten.
+
+**11.1. Checked here.**
+- **The register:** 137 files at a5a139fd7, all read, and 6,648 statements with none pending. They are 1,843 verified,
+  2 refuted, 7 conditional, 394 partial, 60 superseded and 4,342 noted. `SUMMARY.json` has the same.
+- **§ 9.2's item 2 is paid.** web-sr-02's 19 statements are split as follows:
+  - web-sr-02, VERIFIED, 12 statements, recomputed on main;
+  - web-sr-05, PARTIAL, 4 statements: the arithmetic of "the number 3 does two independent jobs" is verified, and
+    "three generations" and "the reason they are chiral" are readings;
+  - web-sr-06, REFUTED, 1 statement;
+  - web-sr-07, NOTED, 2 statements.
+
+  This is § 9.2's item 2 as corrected: the arithmetic holds, and the readings are readings.
+- **The new refutation is right** (web-sr-06: the session relay's line 64, "this derivation is not [in the record]").
+  - B1103's vendored certificate held the derivation as its stage 2 on 2026-08-21: commit 20f9667f1,
+    `check_being_gate_vendored.py` lines 128 to 141, det(odd R) = ζ₃² and det(odd L) = ζ₃. That is before the relay
+    of 2026-09-08.
+  - This seat withdraws that half-sentence. Its first half, that the derivation turns the gate from a census into a
+    theorem, stands.
+- **Main's six new and mended checks, rerun in isolated mode** on a clean checkout at eac991355
+  (`relays/chat1_2026-11-18_rv49/`, G1; the script was committed before it was run on the reruns).
+  - All six run in isolated mode now.
+  - Three give their committed runs byte for byte.
+  - Three differ only in numbers below 1e-6, the largest 2.5e-13: the scale census, the T-root and T-SIGN check, and
+    the thread table. M49's "byte for byte" holds on main's machine; here they differ at rounding.
+  - Label for main's results: reproduced.
+- **Not checked here:** the wording of the P-740 lock and of B1852's note; the claim that the seventh manifold carries
+  two more symmetries of order 3 that count 0 (`web_session_relay_manifolds.py` was rerun, and its output not read).
+
+**11.2. Still short.**
+- § 9.2's items 3 to 10, which M49 could not have seen.
+- Item 9 also covers the records main made for § 9's first version. web-st9-01 to -03 are VERIFIED over statements
+  that § 9 as corrected withdraws or narrows, the seven its provenance paragraph lists. Among them:
+  - "§ 8.2's record item is paid" (line 746 at a5a139fd7);
+  - "the 60 superseded statements are this seat's own withdrawals" (760);
+  - "written without reading main's script" (766);
+  - the reversers as the coset Z·⟨±W⟩, and what the search confirms (web-st9-02);
+  - "Short: two items" and "they hold by hand" (web-st9-03).
+
+  They should be SUPERSEDED or narrowed to the corrected text.
+
+**11.3. HARVEST COMPLETE** is not written. It waits on § 9.2's items 3 to 10, with item 9 as widened in § 11.2.
 
 ## Notes
 

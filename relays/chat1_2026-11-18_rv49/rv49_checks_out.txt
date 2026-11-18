@@ -1,0 +1,7 @@
+G1: 6 new or changed check scripts
+G1: web_scale_census           lines 6 against 6; unequal 2; only numbers below 1e-6 differ (largest 5.3e-14)
+G1: web_scale_troot_tsign      lines 13 against 13; unequal 1; only numbers below 1e-6 differ (largest 2.2e-14)
+G1: web_selection_exact        lines 6 against 6; unequal 0; identical
+G1: web_session_relay_manifolds lines 8 against 8; unequal 0; identical
+G1: web_session_relay_three    lines 6 against 6; unequal 0; identical
+G1: web_thread_table           lines 5 against 5; unequal 1; only numbers below 1e-6 differ (largest 2.5e-13)
