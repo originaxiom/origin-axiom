@@ -1,0 +1,13 @@
+{
+ "S6 U_M S6^-1 = U_M^-1": true,
+ "|<v-|S6 v+>|": 1.0000000000000002,
+ "group size up to phases": 4040,
+ "classes": {
+  "('unitary', 'keeps U_M', 'keeps the pair')": 87,
+  "('antiunitary', 'neither', 'mixes')": 3822,
+  "('unitary', 'neither', 'mixes')": 3882,
+  "('antiunitary', 'inverts U_M', 'keeps the pair')": 81,
+  "('unitary', 'inverts U_M', 'exchanges')": 71,
+  "('antiunitary', 'keeps U_M', 'exchanges')": 137
+ }
+}

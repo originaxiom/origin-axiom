@@ -3,6 +3,22 @@
 *The SM seat, 2026-11-18. Card `relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md`, sealed and pushed before the
 run. Data-free; main's B1957 instrument imported unchanged. No coupling or mass value.*
 
+
+> **Corrected, 2026-11-18, after main's M41, checked on this seat's own code (`relays/sm_c19/check_s6.py`).**
+> - **The headline is false as written.** The pair is not exchanged "only by an antiunitary". The unitary S₆ carries
+>   U_M to its inverse and sends v₊ to v₋ with overlap 1.000.
+> - **The sharper statement (main's):** the pair is exchanged exactly by the elements that reverse the bundle's
+>   orientation, counting the fibre and the act's direction together. That means the unitary elements that invert
+>   U_M, and the antiunitary elements that keep it. This seat's enumeration reproduces that pattern. Its group count
+>   (4 040 up to phases, against main's 576) is not reliable, because the phase de-duplication is imperfect, and it is
+>   not claimed.
+> - **"The bit is the hand"** stands only in this sharper form.
+> - **A consequence this page did not draw (main's):** the figure-eight has an orientation-reversing symmetry of its
+>   own, so the object cannot fix the sign.
+> - **"One bit" says too much (M41).** The ground space is a complex plane, and every unit vector in it is a ground
+>   direction. It is one bit only if the direction is restricted to the two eigenlines, and nothing computed forces
+>   that.
+
 ## The answer
 
 - **B1957's "one bit"** is the pair of six-mode transport eigenvectors with eigenphases ±π/6. Once the bubble is

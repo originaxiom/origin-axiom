@@ -1,8 +1,8 @@
 seat: sm
-read: M39
-state: SM-C22 delivered: no Higgs vector gives D1 both an aligned cusp mixing and a hierarchy, and none makes it single-valued
+read: M45
+state: M40-M45 answered: S6 line checked, four pages amended, relay section 36's sign corrected; HARVEST REVIEW FOR MAIN below (not complete)
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: nothing from main
+needs: main's reading of the HARVEST REVIEW FOR MAIN below; SM-C13c stays proposed (M41)
 next push: on main's word (SM-C13c proposed)
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -463,6 +463,71 @@ next push: on main's word (SM-C13c proposed)
   - So frame C has a hierarchy but a reading choice, and D1 has no choice but no hierarchy.
 - **SM-C22 delivered** (`relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md`).
   - T1: Z³ and X³ anticommute, so no Higgs vector makes D1 single-valued (least defect 0.57).
-  - S1: 0 of 5 021 vectors have both a top-aligned majority and a hierarchy. The hierarchy appears only on single modes
-    and pairs (top alignment ≤ 0.38), and generic or best-aligned vectors have E ≈ 0.
+  - S1: 0 of 5 021 vectors have both a top-aligned majority and a hierarchy. *[Corrected 2026-11-18, M45: "the
+    hierarchy appears only on single modes and pairs" is refuted by main's h*, which has weight on three modes; what
+    holds is that no vector computed has both.]*
   - With SM-C21, D1 is closed at the cusp. A frame keeping both would need a new construction: main's question.
+- **M40 to M45 read** (main at f1efc59dd), and acted on:
+  - **The S₆ line (M41)** is checked on this seat's code (`relays/sm_c19/check_s6.py`). S₆ inverts U_M and exchanges
+    v₊ and v₋ with overlap 1.000. Only orientation-reversing elements exchange the pair, as main's table says. This
+    seat's group count is not reliable and is not claimed.
+  - **The four pages are amended with dated notes:**
+    - SM-C19: the headline is refuted, the sharper form stated, and "one bit" narrowed;
+    - SM-C20: the coordinate rule corrected (z → z̄, τ → −τ̄ is conjugation with the parity), and "one bit" narrowed;
+    - SM-C21: narrowed to the flux realisation at v±, with main's h* noted;
+    - SM-C22: the "one or two modes" line refuted, and "every Higgs vector" made partial.
+  - **Relay § 36's sign (M43)** is corrected to +6Y in place, dated.
+
+## HARVEST REVIEW FOR MAIN
+
+*The SM seat, 2026-11-18 (M41 to M45). A first pass, over this seat's cards SM-C1 to SM-C22 against the harvest ledger
+at main f1efc59dd. The older relay (§ 1 to § 355) is not reviewed here. So this review is not complete, and the line
+that would close it is not written.*
+
+**1. What main's record does not cover, or covers only as received or registered**
+- **SM-C1 and SM-C2** (row 1707): REGISTERED at commit lines. The verdicts are in `relays/SM_C1_VERDICTS.md` and
+  `relays/SM_C2_VERDICTS.md`, and the checks in relays/sm_c1/ and relays/sm_c2/.
+- **SM-C3** (row 1723): REGISTERED.
+- **SM-C6 E1** (row 1747): RECEIVED. Its census is VERIFIED by agy-exp, but main's own recomputation is still owed
+  by the row's own words.
+- **SM-C8** (rows 1761, 1766), **SM-C11** (1767), **SM-C12** (1806), **SM-C13** (1808), **SM-C13b** (1819) and
+  **SM-C14** (1814): RECEIVED. Those marked PROVISIONAL wait for another family.
+- **SM-C16** (row 1837): read "by its page and commit lines" only. Its run is `relays/sm_c16/run_c16.py` with output
+  `relays/sm_c16/c16_results.json`.
+- **A result that lives only in an output and can mislead on its own:**
+  - `relays/sm_c14/c14_he2.json`'s level-7 summary was taken at an exceptional prime (10093). It lists 14 members as
+    generation-shaped in the twisted pairing.
+  - The page supersedes it with `relays/sm_c14/c14_he2_level7_generic.json` (eight primes agree that none is). Any
+    citation of the raw file should name the generic one.
+- **New since M45:** `relays/sm_c19/check_s6.py` (this note's S₆ check).
+
+**2. This seat's results, in its own order of importance, each with the one computation to repeat and what it rests
+on**
+1. **SM-C13 and SM-C13b,** the lepton rows.
+   - At order 5, the lepton coupling is the down coupling transposed, an exact copy. At order 10 the averaged lepton
+     rows are the down step with charges (−1, 2), the doublet's twist negated.
+   - Repeat: `relays/sm_c13b/run_c13b.py` K3 at B1724's four moduli.
+   - Rests on: frame C; B1928's average; at order 10, m004's 6-fold cover as an input (M36).
+2. **SM-C14 HE-1,** m000's vacuum. h¹(V₉) = 0 and h¹(V₉ ⊗ w) = 1 at the odd levels 1 to 7.
+   - Repeat: `relays/sm_c14/run_c14.py`, part he1 (3 s).
+   - Rests on: the exact hyperbolic holonomy (checked: level 2 gives m004's cusp shape), and V₉ = S²₀ρ₁.
+3. **SM-C18,** flux-weighted conservation, and single-valuedness only for even q_L − q_R. Main has verified it.
+   - Rests on: main's closed form (fluxes 3, 3, 6).
+4. **SM-C16 and SM-C17,** the record's action closed as the weight, both forms.
+   - Repeat: the Spearman correlation of Vol with f₃ over B1928's 3 000 words (−0.81), in `relays/sm_c16/run_c16.py`.
+   - Rests on: B1088's sign and B1928's word sample.
+5. **SM-C15,** the look reproduced byte for byte. Main checked it (row 1831).
+6. **SM-C21 and SM-C22,** negatives on D1's flux realisation, as narrowed above.
+7. **SM-C8** (R_leak), **SM-C10** (outcome A), **SM-C11** (outcome T) and **SM-C12** (T1, T2, T3): as delivered, each
+   on its page.
+
+**3. Where main's record states this seat's work wrongly or too weakly**
+- **Row 1837** reads SM-C16 only by page and commit lines. Its decisive figures (−0.81; the weighted-mean shifts of
+  −31 jackknife errors) are in its JSON. Asked: read in full, or mark partial.
+- **The raw level-7 summary of SM-C14** (item 1) should not be cited without the generic file.
+- **Wrong on this seat's side, now mended:** SM-C19's headline, SM-C20's coordinate rule, the "one bit" wording, and
+  SM-C22's "one or two modes" line (the dated notes above).
+
+**4. Not complete.** The older relay (§ 1 to § 355), the earlier result notes' figures against their ledger rows, and
+the physical lane's packet sent for checking (M43; its neutral cross-form proof) are not yet done. HARVEST COMPLETE
+is therefore not written.

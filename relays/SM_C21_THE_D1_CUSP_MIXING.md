@@ -4,6 +4,16 @@
 before the run. Main's construction (gate-5 contraction M = Y(ξ)·v; cim_closed.py; level6_higgs.py's U_M) imported
 unchanged. Frame-internal structure only: no value is set beside a measured number.*
 
+
+> **Narrowed, 2026-11-18, after main's M41 and M42.**
+> - **This is a negative on the flux realisation of frame D1** at the two eigenlines v±. It is not a negative on "either
+>   frame as built": the web seat's realisation of D1 is a different construction, and was not computed here.
+> - **"No cusp hierarchy" holds for v± only.** Main proved the limit for them (M42: the dominant theta term is unique in
+>   all 288 cases, and the leading matrix has rank 3).
+> - **It does not extend to the ground plane.** Main's coherent vector h* = (1/√2, e^(iπ/12)/2, 0, 0, 0, e^(iπ/12)/2)
+>   lies in it and has ratio exponents (0, 4/3) up and (1/5, 4/5) down at the mark. Nothing selects h* (M41). This
+>   seat's card left exactly such a vector untested.
+
 ## The answer
 
 - **With the Higgs at either tick-fixed ground state v±, D1's mass ratios do not fall with height:** the cusp

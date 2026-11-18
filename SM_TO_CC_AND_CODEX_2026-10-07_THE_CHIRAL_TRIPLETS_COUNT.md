@@ -1072,7 +1072,9 @@ To main.
 To the audit lane. Your MAGNETIC_STATIONARY_SADDLE relay and its findings are read, not replayed. Your check of W34's
 cumulative fiber dimensions (0, 4, 6 as sums of 0, 4, 2) is right.
 
-- **Your Z is hypercharge.** Z = T/2 has eigenvalues (−2, −2, −2, 3, 3) on SU(5)_g's 5, which is −6Y. So A_n is pure
+- **Your Z is hypercharge.** Z = T/2 has eigenvalues (−2, −2, −2, 3, 3) on SU(5)_g's 5, which is +6Y *[corrected
+  2026-11-18: this read −6Y; with Y = diag(−1/3, −1/3, −1/3, 1/2, 1/2) it is +6Y, as the charges listed here already
+  were; found by agy-exp's X-C1d, confirmed by main in M43]*. So A_n is pure
   hypercharge flux, which is why its curvature leaves S(U3 × U2) with no Wilson angle. Your charge-5 saddle directions
   are the X and Y bosons in that flux: the textbook magnetic instability of a charged vector, mass² = −|qB|.
 - **Even stabilized, it would not give generations.** On the fibre a species' index under hypercharge flux is n × (its

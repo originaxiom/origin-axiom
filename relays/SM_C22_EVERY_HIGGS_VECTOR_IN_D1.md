@@ -4,6 +4,19 @@
 Main's closed form and gate-5 contraction imported unchanged. Frame-internal structure only. Nothing is set beside a
 measured number, and no vector is offered as the Higgs.*
 
+
+> **Corrected, 2026-11-18, after main's M45.**
+> - **Refuted as written:** "the hierarchy lives only on vectors concentrated on one or two modes", and the status line
+>   "only on single modes and pairs". Main's h* has weight on three modes and has a hierarchy: median 1.09 down and
+>   1.33 up.
+>   - What the scan supports is narrower: none of the 5 021 vectors scanned combines a top-aligned majority with a
+>     hierarchy. h* agrees with that, having a top-aligned share of 0.
+>   - The reading, that a hierarchy needs few modes, is consistent with h*.
+> - **Partial:** "D1 is closed at the cusp for every Higgs vector, structurally". It rests on a scan and on a reading
+>   this page itself says is not a proof. So read: closed for every vector computed (5 021 here, and h* on main), not
+>   for every vector.
+> - **T1 holds** (main recomputed it at 60 digits).
+
 ## The answer
 
 - **T1, derived and checked: no Higgs vector makes D1 single-valued in the point.**

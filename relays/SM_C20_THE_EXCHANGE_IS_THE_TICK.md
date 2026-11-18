@@ -3,6 +3,18 @@
 *The SM seat, 2026-11-18. Card `relays/cards/SM_C20_is-the-exchange-the-tick.md`, sealed and pushed at 174a1ec6a before
 the run. Data-free; main's B1957 instrument imported unchanged. No coupling or mass value.*
 
+
+> **Corrected, 2026-11-18, after main's M41 (the physical lane's finding, computed on main).**
+> - **The card's coordinate rule (line 11) is wrong.** The reflection z → z̄ with τ → −τ̄ sends ψ_k to the conjugate of
+>   ψ_(−k): conjugation with the parity, not plain conjugation. Plain conjugation belongs to z → −z̄.
+> - **The result survives.** T₆S₆K and P·T₆S₆K both square to U_M and agree on the ground pair, which is even under
+>   P. They differ on the odd plane, so this card's two tests could not tell them apart.
+> - **"One bit" and "the Higgs vacuum bit is the tick's orientation" say too much (M41).**
+>   - The ground space is a plane.
+>   - The tick exchanges the two eigenlines and fixes neither, and nothing computed restricts the Higgs to them.
+>   - What holds: the tick acts on the ground plane as an antiunitary square root of the golden act's transport, and
+>     exchanges the eigenlines.
+
 ## The answer
 
 - **The tick σ = [[1, 1], [1, 0]] acts on frame D1's six Higgs modes as Σ = T₆S₆·K,** with K complex conjugation,
