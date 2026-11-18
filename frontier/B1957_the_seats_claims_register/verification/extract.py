@@ -11,7 +11,7 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "a47e76da6"),
     ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "f975f6ea4"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "d1c71f255"),
-    ("sm", "the SM seat", "origin/claude/standard-model-derivation-0qt6ao", "6ea836f5", "a69cee901"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin
+    ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "a69cee901"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
 )
 EXTRA = {  # files older than a lane's window that main's own record shows were never read in full or never given a verdict.
     # The web seat: its section 1d's eight notes (2026-11-17), then, at its section 7.3 (2026-11-18), every file named by one of its harvest rows whose
@@ -212,12 +212,22 @@ def tag(path):
 
 if __name__ == "__main__":
     allu = []; files = []
+    def resolve(ref):
+        """a branch written the repository's way, `<remote>/<short name>`, is found by its last segments among the remote refs"""
+        if not ref.startswith("<remote>/"): return ref
+        short = ref.split("/", 1)[1]; c = [r for r in git("for-each-ref", "--format=%(refname:short)", "refs/remotes").split("\n") if r.endswith("/" + short)]
+        c = [r for r in c if r.startswith("origin/")] or c          # the same branch on a mirror remote is not a second candidate
+        assert len(c) == 1, (ref, c); return c[0]
     for lane, seat, ref, base, head in LANES:
-        assert git("rev-parse", "--short=9", ref).strip() == head, (lane, git("rev-parse", "--short=9", ref).strip(), head)
-        names = [f for f in git("diff", "--name-only", "--diff-filter=AM", base, ref, "--", "*.md").split("\n") if f]
+        # CHANGED 2026-11-18: the register is cut AT THE HEAD NAMED, not at the branch's tip, so that a seat's later push cannot change a
+        # cut already described; the head must lie on the branch, and a tip beyond it is said aloud (harvest_debt.py counts it as debt).
+        tip = git("rev-parse", "--short=9", resolve(ref)).strip()
+        assert subprocess.run(["git", "merge-base", "--is-ancestor", head, resolve(ref)], cwd=HERE).returncode == 0, (lane, head, "is not on", ref)
+        if tip != head: print("%-18s the branch is at %s, beyond the head this register is cut at (%s)" % (lane, tip, head))
+        names = [f for f in git("diff", "--name-only", "--diff-filter=AM", base, head, "--", "*.md").split("\n") if f]
         names = sorted(set(names) | set(EXTRA.get(lane, ())))
         for f in sorted(names):
-            text = git("show", "%s:%s" % (ref, f)); us = units_of(text); k = 0
+            text = git("show", "%s:%s" % (head, f)); us = units_of(text); k = 0
             for u in us:
                 t = re.sub(r"\s+", " ", u["text"])
                 kind = "meta" if (u["form"] == "head" or len(t) < 25 or META.match(t) or t.strip("*` .") in ("0 of 19", "")) else "statement"
