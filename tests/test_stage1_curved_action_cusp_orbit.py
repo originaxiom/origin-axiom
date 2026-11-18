@@ -253,6 +253,9 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "from collections import ChainMap\nca = ChainMap({'v': 4})\nfor dg in (0, 1):\n    ca.maps[0]['v'] = ca['v'] * 10 + dg\ncb = ChainMap({'v': 5})\nfor dg in (0, 3):\n    cb.maps[0]['v'] = cb['v'] * 10 + dg\nval = ca['v'] / cb['v']",
         "from collections import Counter\nu1 = Counter({'v': 1})\nu2 = u1 + u1\nu4 = u2 + u2\nu8 = u4 + u4\nu16 = u8 + u8\nu32 = u16 + u16\nu64 = u32 + u32\nu128 = u64 + u64\nu256 = u128 + u128\ncn = u256 + u128 + u16 + u1\ncd = u256 + u128 + u64 + u32 + u16 + u4 + u2 + u1\nval = cn['v'] / cd['v']",
         "import sympy as sp\nu = sp.Symbol('u')\ndef get_ex(x):\n    return x.extend\nsn = [u]\nfor b in ([u], [], [], [u], [], [], [], [u]):\n    if u is None:\n        break\n    get_ex(sn)(sn)\n    get_ex(sn)(b)\nsd = [u]\nfor b in ([u], [u], [u], [u], [], [u], [u], [u]):\n    if u is None:\n        break\n    get_ex(sd)(sd)\n    get_ex(sd)(b)\nval = len(sn) / len(sd)",
+        "from collections import Counter\nc = Counter({'v': 2}) | Counter({'v': 1})\nx = c['v']\nx2 = x * x\nx4 = x2 * x2\nx8 = x4 * x4\nx7 = x4 * x2 * x\nn = x8 + x7 + x4 + 1\nd = x8 + x7 + (x4 * x2) + (x4 * x) + x4 + x2 + x + 1\nval = n / d",
+        "from collections import defaultdict\ndd = defaultdict(lambda: 2)\nx = dd['k']\nx2 = x * x\nx4 = x2 * x2\nx8 = x4 * x4\nx7 = x4 * x2 * x\nn = x8 + x7 + x4 + 1\nd = x8 + x7 + (x4 * x2) + (x4 * x) + x4 + x2 + x + 1\nval = n / d",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef get_ex(x):\n    return x.extend\nsn = [u]\nfor b in ([u], [], [], [u], [], [], [], [u]):\n    if u is None:\n        break\n    fn = get_ex(sn)\n    fn(sn)\n    fn(b)\nsd = [u]\nfor b in ([u], [u], [u], [u], [], [u], [u], [u]):\n    if u is None:\n        break\n    fn = get_ex(sd)\n    fn(sd)\n    fn(b)\nval = len(sn) / len(sd)",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
@@ -532,6 +535,13 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "from collections import Counter\ndef dec(m):\n    m.update({'zero_v': -1})\ndef f(dyn):\n    c = Counter({'zero_v': 1, 'x': dyn})\n    dec(c)\n    return c",
         "from collections import defaultdict\ndef f(dyn):\n    d = defaultdict(int, {'x': dyn})\n    _ = d['zero_v']\n    return d",
         "def f(dyn):\n    return {'ok': any([True, dyn]), 'z': sum([dyn, -dyn]), 's': str(dyn).startswith(''), 'ne': (dyn,) != (1, 2), 'x': dyn}",
+        "import math\nimport cmath\ndef f(dyn):\n    return {'z1': math.sin(0.0), 'z2': cmath.sin(0), 'ok': math.isclose(1.0, 1.0), 'x': dyn}",
+        "import fractions\nimport decimal\ndef f(dyn):\n    return {'z1': float(fractions.Fraction(0, 1)), 'z2': float(decimal.Decimal(0)), 'x': dyn}",
+        "def make_mut(m):\n    alias_m = m\n    def inner():\n        alias_m['ok'] = True\n    return inner\ndef f(dyn):\n    d = {'x': dyn}\n    make_mut(d)()\n    return d",
+        "def make_const():\n    def inner():\n        return True\n    return inner\ndef f(dyn):\n    return {'ok': make_const()(), 'b': (0 or (lambda y: True))(dyn), 'z': (lambda: lambda y: 0)()(dyn), 'x': dyn}",
+        "def dec_sub(m):\n    m['zero_v'] -= 1\ndef f(dyn):\n    d = dict(zero_v=1, x=dyn)\n    dec_sub(d)\n    return {'z1': d['zero_v'], 'z2': {'a': 1, 'x': dyn}.get('a') - 1, 'x': dyn}",
+        "import operator\nfrom collections import defaultdict, Counter\ndef dec(m):\n    m.update({'zero_v': -1})\ndef f(dyn):\n    d = defaultdict(int, {'x': dyn})\n    operator.getitem(d, 'zero_v')\n    c = Counter({'zero_v': 1, 'x': dyn})\n    box = [c]\n    dec(box[0])\n    return d | c",
+        "def helper():\n    return []\ndef mut_it(b):\n    b.append({'ok': True})\ndef f(dyn):\n    lst = []\n    alias = lst\n    alias.append({'ok': True, 'x': dyn})\n    lst2 = helper()\n    mut_it(lst2)\n    return lst[0] | lst2[0]",
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
