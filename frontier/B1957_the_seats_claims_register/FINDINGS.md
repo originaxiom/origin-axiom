@@ -506,6 +506,23 @@ noted, and none is pending.
   order of importance with the computation that verifies each, and where main's record states its work wrongly or too
   weakly.
 
+- **Three more packages of the physical lane (its review of the X-ENDGAME campaign, its refresh of every branch,
+  its dependency plan for all seats): 318 statements, 82 verified, 80 conditional, 147 noted, 9 superseded.** Nothing
+  of any seat's was run.
+  - **Two faults of main's, found by the lane, both right.** B1953's page said the phased sum F is the trace of its
+    operator over the 3; it is F/2 (each of the 24 operators has trace 1/2 there; recomputed a second way in
+    `checks/physical_dependency_plan.py`; B1953 carries the correction). B1927's end routine returns the nearest
+    value where interpolation is not finite and flags only the upper edge (register row P-864).
+  - **Verified as mathematics** (three check scripts): the punctured carrier has no second cohomology class, and its
+    fourth cover has torsion 3 and 15; the mixed-product orders differ by (3/4)[H_u, H_d]; the Weil split and its
+    anomaly sums; the one-loop eliminant; the congruence projector is a finite sum; a first-order operator's adjoint
+    has no end condition; a free prefactor removes no input.
+  - **Custody:** 21 excerpts by hash and line range, 23 branch heads, four quoted sentences, each where the lane says.
+  - **What the lane says of all the seats' work, noted:** the common weakness is that nobody has derived that one
+    registering architecture forces one state space, statistics, gauge action, interaction, domain and boundary
+    response. It asks main to recompute its deciding analytic estimate first (the complete-cusp inverse of its
+    package P-C3e). Main has not done that; it has verified that package's finite algebra only.
+
 ## Not claimed
 
 - That anything is verified by being registered.

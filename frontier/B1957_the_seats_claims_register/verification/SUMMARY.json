@@ -54,16 +54,16 @@
   },
   "physical": {
    "files": 136,
-   "read": 91,
+   "read": 99,
    "units": 11241,
    "statements": 10952,
-   "VERIFIED": 945,
+   "VERIFIED": 1027,
    "REFUTED": 0,
-   "CONDITIONAL": 854,
+   "CONDITIONAL": 934,
    "PARTIAL": 6,
-   "SUPERSEDED": 37,
-   "NOTED": 8309,
-   "PENDING": 801
+   "SUPERSEDED": 46,
+   "NOTED": 8456,
+   "PENDING": 483
   },
   "web": {
    "files": 137,
@@ -2242,27 +2242,27 @@
    "lane": "physical",
    "units": 11,
    "statements": 11,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 11
+   "NOTED": 11,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md": {
    "lane": "physical",
    "units": 82,
    "statements": 80,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 41,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 31,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 80
+   "NOTED": 8,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/CARD.md": {
    "lane": "physical",
@@ -2300,60 +2300,60 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 65
+   "NOTED": 65,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md": {
    "lane": "physical",
    "units": 35,
    "statements": 35,
    "read": true,
-   "VERIFIED": 4,
+   "VERIFIED": 19,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 14,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 31
+   "NOTED": 2,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md": {
    "lane": "physical",
    "units": 12,
    "statements": 12,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 12
+   "NOTED": 12,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION.md": {
    "lane": "physical",
    "units": 9,
    "statements": 9,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
+   "SUPERSEDED": 9,
    "NOTED": 0,
-   "PENDING": 9
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/README.md": {
    "lane": "physical",
    "units": 3,
    "statements": 3,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 3
+   "NOTED": 3,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BRANCH_COVERAGE.md": {
    "lane": "physical",
@@ -2463,40 +2463,40 @@
    "lane": "physical",
    "units": 25,
    "statements": 24,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 24
+   "NOTED": 24,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/PHYSICAL_PRIORITY_AFTER_REFRESH.md": {
    "lane": "physical",
    "units": 38,
    "statements": 36,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 10,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 13,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 36
+   "NOTED": 13,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/REVIEW.md": {
    "lane": "physical",
    "units": 47,
    "statements": 47,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 16,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 22,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 47
+   "NOTED": 9,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md": {
    "lane": "physical",

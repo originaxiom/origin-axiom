@@ -1,0 +1,6 @@
+W0: the coverage table: 23 branches; the head named is a commit of that branch for 23
+W1: (1 - 5P)/2 = diag(-2, -2, -2, 3, 3); the even exterior algebra: 16 states, (multiplicity, charge): [(1, 0), (1, 6), (6, 1), (3, -4), (3, 2), (2, -3)]; linear, cubic, SU(3)^2 and SU(2)^2 sums: 0, 0, 0, 0
+W2: SU(3)^2: 3*a + 2*b; SU(2)^2: 3*a + 2*b; gravitational: 8*(3*a + 2*b); cubic: 4*(3*a + 2*b)*(9*a**2 + 6*a*b + 5*b**2); shifted at a = b = 1: {'-5/2': 1, '-1/2': 10, '3/2': 5}, linear sum 0, cubic sum 0
+W3: sum c = 0; c.b = 0; at N = 3 the slopes are [41/10, -19/6, -7]
+W4: (-3, 6) mod 5 = (2, 1); 6 mod 3 and mod 5: (0, 1); (6, 12) exchanged mod 15: (12, 6), and (-3, 6) mod 15: (12, 6); solutions at level 10: []; -15 w integral on the 15-torsion: True
+W5: the integral has modulus 0.9355; the finite sum at v = (0, 0), (5, 10), (1, 0), (2, 3): [1.0, 1.0, 0.0, 0.0]

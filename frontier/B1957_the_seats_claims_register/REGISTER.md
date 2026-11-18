@@ -8,10 +8,10 @@
 | agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 104 | 1 | 28 | 33 | 0 | 91 | **14** |
-| physical | 136 | 91 | 10952 | 945 | 0 | 854 | 6 | 37 | 8309 | **801** |
+| physical | 136 | 99 | 10952 | 1027 | 0 | 934 | 6 | 46 | 8456 | **483** |
 | web | 137 | 137 | 6757 | 1897 | 2 | 15 | 409 | 54 | 4380 | **0** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 406 | 278 | 20910 | 3386 | 14 | 958 | 555 | 91 | 13064 | **2842** |
+| **all** | 406 | 286 | 20910 | 3468 | 14 | 1038 | 555 | 100 | 13211 | **2524** |
 
 ## By file
 
@@ -182,15 +182,15 @@
 | physical | `relays/cards/PHYSICAL_C6_INPUT_ASSESSMENT_RECHECK.md` | no | 5 | 0 | **5** |
 | physical | `relays/cards/PHYSICAL_C7_FOUR_FORM_REGISTER_AND_JOINING_CONNECTION.md` | no | 13 | 0 | **13** |
 | physical | `relays/cards/PHYSICAL_X_APEX_READING_2026-11-17.md` | no | 5 | 0 | **5** |
-| physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD.md` | no | 11 | 0 | **11** |
-| physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md` | no | 80 | 0 | **80** |
+| physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD.md` | yes | 11 | 11 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md` | yes | 80 | 80 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/CARD.md` | yes | 5 | 5 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/REVIEW.md` | yes | 82 | 82 | **0** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN.md` | yes | 72 | 7 | **65** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md` | yes | 35 | 4 | **31** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md` | no | 12 | 0 | **12** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION.md` | no | 9 | 0 | **9** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/README.md` | no | 3 | 0 | **3** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN.md` | yes | 72 | 72 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md` | yes | 35 | 35 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md` | yes | 12 | 12 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION.md` | yes | 9 | 9 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/README.md` | yes | 3 | 3 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BRANCH_COVERAGE.md` | yes | 26 | 26 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINDINGS.md` | yes | 44 | 44 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM.md` | yes | 26 | 26 | **0** |
@@ -199,9 +199,9 @@
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/PREPARATION_FIRST_FAILURE.md` | yes | 4 | 4 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/README.md` | yes | 6 | 6 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/READ_SCOPE.md` | yes | 17 | 17 | **0** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/COVERAGE.md` | no | 24 | 0 | **24** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/PHYSICAL_PRIORITY_AFTER_REFRESH.md` | no | 36 | 0 | **36** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/REVIEW.md` | no | 47 | 0 | **47** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/COVERAGE.md` | yes | 24 | 24 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/PHYSICAL_PRIORITY_AFTER_REFRESH.md` | yes | 36 | 36 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/REVIEW.md` | yes | 47 | 47 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md` | yes | 32 | 32 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN.md` | yes | 25 | 25 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/FINDINGS.md` | yes | 20 | 20 | **0** |

@@ -586,3 +586,50 @@ def test_the_monodromy_has_order_four_modulo_three_and_its_root_order_eight():
     while w not in orb: orb.add(w); w = act(w, M)
     assert len(orb) == 4 and len(pts) == 8                                                     # not transitive on the eight points
     assert order(M, 5) == 10 and mul(tuple(tuple((M[i][j] + one[i][j]) % 5 for j in range(2)) for i in range(2)), tuple(tuple((M[i][j] + one[i][j]) % 5 for j in range(2)) for i in range(2)), 5) == ((0, 0), (0, 0))
+
+
+def test_the_punctured_mapping_torus_has_no_second_cohomology_and_its_fourth_cover_has_torsion_3_and_15():
+    import sympy as sp
+    from sympy.matrices.normalforms import smith_normal_form
+    d2 = sp.Matrix([[1, 1], [1, 0], [0, 0]])                                                   # M - 1 over a zero row for the base circle
+    assert d2.rank() == 2                                                                      # so H_2 = 0 and H^2 = 0 on the punctured carrier
+    assert sp.Matrix([[0, 0], [0, 0], [0, 0]]).rank() == 0                                     # the control: a trivial monodromy leaves H_2 = Z^2
+    M = sp.Matrix([[2, 1], [1, 1]]); S = smith_normal_form(M ** 4 - sp.eye(2), domain=sp.ZZ)
+    assert sorted(abs(S[i, i]) for i in range(2)) == [3, 15] and sorted(abs(x) for x in smith_normal_form(M ** 2 - sp.eye(2), domain=sp.ZZ).diagonal()) != [3, 15]
+    pts = [(a, b) for a in range(15) for b in range(15) if ((33 * a + 21 * b) % 15, (21 * a + 12 * b) % 15) == (0, 0)]
+    assert len(pts) == 45                                                                      # the fixed points of the fourth power on the 15-torsion
+
+
+def test_the_trace_over_the_three_is_half_the_phased_sum_and_the_projection_is_F_over_twelve():
+    import cmath, itertools
+    z = cmath.exp(2j * cmath.pi / 5); X = np.roll(np.eye(5), 1, axis=0); Z = np.diag([z ** k for k in range(5)]); P = np.zeros((5, 5)); P[(-np.arange(5)) % 5, np.arange(5)] = 1
+    P3 = (np.eye(5) + P) / 2
+    for a, b in itertools.product(range(5), repeat=2):
+        if (a, b) == (0, 0): continue
+        D = z ** (3 * a * b) * np.linalg.matrix_power(X, a) @ np.linalg.matrix_power(Z, b)
+        assert abs(np.trace(D @ P3) - 0.5) < 1e-12 and abs(np.trace(D)) < 1e-12                # main's B1953 had written 1: the factor two
+    assert abs(np.trace(P3) - 3) < 1e-12 and abs(np.trace(np.eye(5) @ P3) - 0.5) > 1          # the control: the identity is not one of the 24
+    Fv = 1.0; proj = np.diag([Fv / 6] * 3 + [-Fv / 4] * 2); Y6 = np.diag([-2.0, -2, -2, 3, 3])
+    assert np.allclose(proj, -Fv / 12 * Y6) and not np.allclose(proj, -Fv / 6 * Y6)            # the lane's own preserved draft had the second
+
+
+def test_a_free_prefactor_removes_no_input_and_the_log_quartic_is_stationary_off_its_zero():
+    import sympy as sp
+    v, a, Vol, c, phi = sp.symbols("v a Vol c phi", positive=True)
+    assert sp.solve(sp.Eq(sp.log(v), -a * Vol + sp.log(c)), c) == [v * sp.exp(Vol * a)]        # every v is reached by a choice of c
+    assert sp.solve(sp.Eq(sp.log(v), -a * Vol + sp.log(2)), v) == [2 * sp.exp(-Vol * a)]       # the control: with c fixed, v is fixed
+    l0, l1 = sp.symbols("l0 l1"); V = (l0 + l1 * sp.log(phi)) * phi ** 4 / 4; dV = sp.simplify(sp.diff(V, phi) / phi ** 3)
+    assert sp.simplify(dV - ((l0 + l1 * sp.log(phi)) + l1 / 4)) == 0                           # lambda + beta/4, not lambda
+
+
+def test_the_even_exterior_algebra_of_three_plus_two_is_anomaly_free_only_at_the_weil_charges():
+    import itertools
+    def sums(a, b):
+        st = [(sum(k3) * a + sum(k2) * b) for k3 in itertools.product((0, 1), repeat=3) for k2 in itertools.product((0, 1), repeat=2) if (sum(k3) + sum(k2)) % 2 == 0]
+        s = F(3 * a + 2 * b, 2); return len(st), sum(q - s for q in st), sum((q - s) ** 3 for q in st)
+    n, lin, cub = sums(-2, 3); assert n == 16 and lin == 0 and cub == 0                        # (1 - 5P)/2 = diag(-2, -2, -2, 3, 3)
+    assert sums(1, 1)[1:] == (0, 0) and sums(-2, 3)[0] == 16                                   # the shifted charges vanish for every a, b ...
+    st = [(sum(k3) * -2 + sum(k2) * 3) for k3 in itertools.product((0, 1), repeat=3) for k2 in itertools.product((0, 1), repeat=2) if (sum(k3) + sum(k2)) % 2 == 0]
+    assert sum(st) == 0 and sum(q ** 3 for q in st) == 0                                       # ... and unshifted only when 3a + 2b = 0
+    st1 = [(sum(k3) * 1 + sum(k2) * 1) for k3 in itertools.product((0, 1), repeat=3) for k2 in itertools.product((0, 1), repeat=2) if (sum(k3) + sum(k2)) % 2 == 0]
+    assert sum(st1) != 0

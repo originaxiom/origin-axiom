@@ -1,0 +1,18 @@
+{
+ "id": "physical-dp-04",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "the lane's own preserved draft of the projection section, which it marks 'do not use as a result': it repeated B1953's factor-two error (-(F/6) 6Y for -(F/12) 6Y) and was corrected before delivery",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:3",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:7",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:14",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:16",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:22",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:25",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:29",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:33",
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION:42"
+ ]
+}

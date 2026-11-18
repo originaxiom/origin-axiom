@@ -685,7 +685,7 @@ readers read a seeded sample of five arcs with seven planted faults: all seven w
 in main's own arcs were each right and are mended (B1958).**
 - **For this page:** the goal stays P-862, the relations that hold in every history; value frames are paused. What
   moved in the window: the dictionary from the Weil centre (P-863, with its flux and coupling hypotheses, P-866), and
-  the harvest as a register of every statement, 3,503 of 20,910 still pending (B1957, P-865). The review's main
+  the harvest as a register of every statement, 3,503 of 20,910 still pending (B1957, P-865). The review's chief
   finding is one kind of fault: a page or a verdict that says more than the committed output behind it (R84-1).
   Open as before: P-861, P-847, P-845.
 - **After the window, Review 85's to read:** B1958 (this review). Owed from this window: its eight arcs outside the

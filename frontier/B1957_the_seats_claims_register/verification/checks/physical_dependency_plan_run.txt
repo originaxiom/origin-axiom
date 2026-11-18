@@ -1,0 +1,6 @@
+D0: excerpts held by hash and line range: 21 of 21
+D1: over the 24 operators, the largest distances of tr D, tr(D P), tr over the 3 and tr over the 2 from 0, 1, 1/2, -1/2: ['3.0e-16', '1.9e-15', '9.3e-16', '9.3e-16']; the ranks of the two projectors: 3, 2
+D2: the projection minus -(F/12) 6Y: True; minus the preserved draft's -(F/6) 6Y: False
+D3: c = [v*exp(Vol*a)] for every v/M (written v here); V'(phi)/phi^3 = lam(log(phi)) + Subs(Derivative(lam(_xi_1), _xi_1), _xi_1, log(phi))/4, zero where 4 lambda + beta = 0
+D4: the 12 x 11 operator: kernel 0; its transpose: kernel 1; the same shape with the sign reversed: kernel 0, and it has the adjoint's shape: False
+D5: main's canon(): a nearest-value fallback is present: True; a flag for the upper edge: True; a flag for the lower edge or the hull: False

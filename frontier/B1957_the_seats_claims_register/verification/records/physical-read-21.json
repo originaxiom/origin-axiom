@@ -1,0 +1,14 @@
+{
+ "id": "physical-read-21",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN.md",
+  "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md",
+  "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md",
+  "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION.md",
+  "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/README.md"
+ ]
+}

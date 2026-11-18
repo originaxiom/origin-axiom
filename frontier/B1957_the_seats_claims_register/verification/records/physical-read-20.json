@@ -1,0 +1,12 @@
+{
+ "id": "physical-read-20",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/REVIEW.md",
+  "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/PHYSICAL_PRIORITY_AFTER_REFRESH.md",
+  "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/COVERAGE.md"
+ ]
+}

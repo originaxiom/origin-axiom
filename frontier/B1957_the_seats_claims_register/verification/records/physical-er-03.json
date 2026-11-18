@@ -1,0 +1,28 @@
+{
+ "id": "physical-er-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the review's card (its six deciding questions and expected outcomes, written before its checker), its header, a literature pointer, and its coverage, first failures and next corrections, read in full",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:3",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:8",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:14",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:98",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:356",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:363",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:370",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW:377",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:3",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:10",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:18",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:27",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:34",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:38",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:41",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:46",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:54",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:64",
+  "physical:physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD:69"
+ ]
+}

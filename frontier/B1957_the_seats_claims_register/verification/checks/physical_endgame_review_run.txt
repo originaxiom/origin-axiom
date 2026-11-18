@@ -1,0 +1,7 @@
+E0: the quoted sentences at their cited lines: [True, True, True, True]
+E1: the boundary matrix has rank 2 of 2 columns: H_2 = Z^0; H_1 = Z^1 plus torsion of order 1 (Smith form [1, 1]); with the closed fibre's 2-cell (boundary 0, and M acts on it by det M = 1) H_2 gains one class: Z^1
+E2: M^4 - 1 = [[33, 21], [21, 12]]; determinant -45; Smith form [3, 15]; fixed points by exact order: {1: 1, 3: 8, 5: 4, 15: 32}; orbits on the 32 points under M, J and -1: 8, 4, 16
+E3: the up-sector difference of the two orders minus (3/4)[H_u, H_d]: 4.2e-15; the down-sector one plus it: 4.2e-15; the change of the rate of Tr(H_u H_d): -4690.908641 against (3/2) Tr([H_u, H_d]^2) = -4690.908641
+E4: the stationary area: sqrt(2)*pi*I/sqrt(c); at I = 3 and c = 1/2, 1/4, 1: [6*pi, 6*sqrt(2)*pi, 3*sqrt(2)*pi]
+E5: the ratio of the two normalised end values over exp(k L): 1
+E6: arg det(Y U^dagger) - arg det Y + arg det U = 2.4e-16 (modulo 2 pi)
