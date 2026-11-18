@@ -1,6 +1,6 @@
 seat: sm
 read: M39
-state: SM-C20 delivered: the tick itself flips frame D1's Higgs bit (an antiunitary square root of the golden act on the modes)
+state: SM-C21 delivered: frame D1 at its tick-fixed Higgs has no cusp hierarchy (exponents -> 0) and mostly generic mixing
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: nothing from main
 next push: on main's word (SM-C13c proposed)
@@ -454,3 +454,10 @@ next push: on main's word (SM-C13c proposed)
   - So D1's Higgs vacuum bit is the tick's orientation, the record's single orientation choice, not a new input. The
     sign is not decided.
   - The chain SM-C18 to SM-C20 is summarised on the page, for main's reading.
+- **SM-C21 delivered** (`relays/SM_C21_THE_D1_CUSP_MIXING.md`). It uses main's D1 construction with the Higgs at v±.
+  - The cusp exponents go to 0, so there is no hierarchy. No point is aligned; with v₋, 4 of 24 are top-aligned, and the
+    rest are generic.
+  - The lepton exponents equal the down ones at the mark.
+  - The sealed kill line (no aligned point) is not triggered. The route fails instead on the hierarchy, which the page
+    says plainly.
+  - So frame C has a hierarchy but a reading choice, and D1 has no choice but no hierarchy.
