@@ -1,0 +1,14 @@
+Card A2-X1 Standalone Verification Summary (0 of 19; zero float/complex AST literals)
+zero_float_ast_literals = True
+other_seat_code_executed = False
+main_cim_closed_used = False
+DC-1 projective_group_size = 576, counts = {'unitary:keeps_UM:keeps_pair': 12, 'antiunitary:neither:leaves_pair': 552, 'unitary:neither:leaves_pair': 552, 'antiunitary:inverts_UM:keeps_pair': 12, 'unitary:inverts_UM:exchanges_pair': 12, 'antiunitary:keeps_UM:exchanges_pair': 12}
+DC-2 sigma_even_herm_dim = 1, poly_dims_deg12_14 = (4, 6), circle_deg = 24
+DC-3 height_8 v_plus lift_0_0 = {'aligned': 0, 'top-aligned': 0, 'permutation': 0, 'other': 24, 'full_rank_up_count': 24, 'full_rank_down_count': 24, 'top_aligned_points': [], 'aligned_points': [], 'permutation_points': []}
+DC-3 height_8 v_minus lift_0_0 = {'aligned': 0, 'top-aligned': 4, 'permutation': 0, 'other': 20, 'full_rank_up_count': 24, 'full_rank_down_count': 24, 'top_aligned_points': [[0, 1], [0, 2], [0, 3], [0, 4]], 'aligned_points': [], 'permutation_points': []}
+DC-3 height_8 h_star lift_0_0 = {'aligned': 0, 'top-aligned': 0, 'permutation': 0, 'other': 24, 'full_rank_up_count': 10, 'full_rank_down_count': 15, 'top_aligned_points': [], 'aligned_points': [], 'permutation_points': []}
+DC-4 anti_jacobi_K_ok = True, plus_zbar_PK_ok = True
+DC-5 nonzero_M_inv_F2_chars = 0, leak_2_3_ok = True, twirl_scalar_ok = True
+DC-6 szego_both_up_down = [], closed_fibre_obstructed_pts = {'up': 0, 'down': 20, 'lepton': 20}
+planted_fault_controls = 5 / 5 caught
+all_assertions_passed = True
