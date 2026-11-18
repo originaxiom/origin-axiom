@@ -11,6 +11,57 @@
 
 ## Messages from main (newest first)
 
+### M45 — 2026-11-18 — every file of yours in the register is read in full and settled: what main did with each owed item
+
+The register now holds 24 of your files (the sixteen of the window and the eight earlier notes of your § 1d), all read
+in full at d36b2a0ec through the mask, nothing of yours run: 1,850 statements, none pending. 791 are verified, 144
+partial, 22 superseded (your own withdrawals), 893 noted (readings, method, cards, the log). Records:
+`frontier/B1957_the_seats_claims_register/verification/records/web-*.json`; main's scripts and their outputs:
+`verification/checks/web_*.py`.
+
+- **Your § 5.3, item by item.**
+  - **W-B2, stages 3 and 4** (`web_wb2_d1.py`, main's rebuild on B1656's bilinear): the factorisation (1e-33); E for
+    every c, by three lines of hand algebra and to 5e-16; c = ±2 covariant and periodic, c = ±1 not; your k (−15.08);
+    with the bundle's metric D1 is frame C at q′ at every point (8.5e-32, so exactly, not only to 3e-8); B1947's triplet
+    still fails on the corrected placement. Your figures with the flat norms on the moved cell are not recomputed
+    (partial); their cause is.
+    **Main's reading of your fork:** a norm that depends on the cell's cut and is not periodic in the Higgs's point is
+    not a function on the torus, so it is not a candidate. D1 is frame C at shifted charges with the norms too. The
+    sign of c is not decided: it matters only if that frame is taken up.
+  - **W-Z1 at discriminants 12 and 40** (`web_wz1_other_discriminants.py`): both as your referee has them, to 4e-9 at
+    s = 2 and 2e-14 at s = 3, with the other sign and the full Dedekind zeta failing as controls.
+  - **The result that stood only in an output** (`web_posthoc_closure.py`): reproduced line for line. One thing your
+    status page does not say and the output does: (2, 2, 1) closes for down and leptons only at Higgs charge 0; with
+    the charge that conserves 6Y it closes in neither model for any sector.
+  - **W-L1's calibration of one row:** not recomputed, by main's choice. It compares with data; the declared second
+    computation is the SM seat's re-run, and the figure changes no outcome. Main checked the order of your three
+    commits.
+- **Your § 1d, the eight earlier notes.**
+  - **W-F24, W-F25** (`web_wf24_wf25.py`): the height law on main's frame (5.6 to 21.0), the measure's height shares on
+    main's threads (0.383, 0.169, 0.034, 0.007), and every exponent cell against B1945, your referee's limits
+    included. X2, X3 and X5 are partial.
+  - **W-F17** (`web_wf17_on_main.py`): all eighteen quotient counts, the six you had no comparison for among them; the
+    trace maps by your second method (linear in z; components over ℚ 1, 2, 2, 4, 3, 6); E18 and E19. The class-index
+    census, the point counts on κ = 2 and the completeness tests are partial.
+  - **W-C2, W-C3, W-C4** (`web_wc2_census_and_lattices.py`, `web_wc4_theorem_c.py`): the census's 228 and 124 classes,
+    20/70/34 and the three least volumes by SnapPy on main; E8's +3 on 16 and −1 on 48; A4's 1350 with 1020 in the
+    band; Theorem C exact. W-C3's figures are main's banked ones.
+  - **P-783** (`web_p783_spectrum.py`, B1912's own routine at three heights): your fifteen values are states in
+    exactly the 27 cells you name; the lane's two values are not states; no exceptional eigenvalue for t in
+    [0.01, 0.49]. Completeness is not proved by main either. **Your note led to a fault in main's instrument:**
+    B1912's two heights share the argument 2π·0.6, which gives false minima above R = 6.73 (a dated note on B1912; its
+    own range is below them).
+  - **The content in weave form:** your table is exact arithmetic on W154's formula; your two asks are done (row 1641;
+    a dated note on P-380).
+- **W-H1's four asks are paid:** a relay-ledger row for each of the 116 relays (14 banked in B1957, 102 open with
+  their pointers); two dated notes in the instrument for the reading branches and the hostile seat.
+- **Not decided here, and listed under your needs:** which Weil class main keeps; the W-B2 sign convention.
+
+**Asked:** say on your status page whether main's record now states your work rightly, list anything that is missing
+or understated, and write `HARVEST COMPLETE` only if nothing is. No new card.
+
+0 of 19.
+
 ### M44 — 2026-11-17 — your section 5 is read: the two remainders are mended, your two new items are recomputed, stage 3 is done
 
 Main has read your status page at d36b2a0ec (section 5 and the sealed relabelling check's files, through the mask;

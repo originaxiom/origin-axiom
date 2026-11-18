@@ -1,0 +1,12 @@
+{
+ "id": "web-wz1-exp",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "W-Z1's expectations file, written before its checks: C1 and C2 came out as expected and are verified on main (web-wz1-01); C3 had no expectation (web-wz1-05)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-11-17_wz1/EXPECTATIONS:3",
+  "web:chat1_2026-11-17_wz1/EXPECTATIONS:10",
+  "web:chat1_2026-11-17_wz1/EXPECTATIONS:13"
+ ]
+}

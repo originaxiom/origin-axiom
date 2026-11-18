@@ -9,9 +9,9 @@
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
 | physical | 136 | 4 | 10952 | 21 | 0 | 18 | 1 | 0 | 3 | **10909** |
-| web | 24 | 14 | 1850 | 749 | 0 | 0 | 144 | 22 | 528 | **407** |
+| web | 24 | 24 | 1850 | 791 | 0 | 0 | 144 | 22 | 893 | **0** |
 | agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 293 | 64 | 16003 | 1271 | 12 | 94 | 267 | 22 | 856 | **13481** |
+| **all** | 293 | 74 | 16003 | 1313 | 12 | 94 | 267 | 22 | 1221 | **13074** |
 
 ## By file
 
@@ -287,25 +287,25 @@
 | web | `relays/CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS.md` | yes | 62 | 62 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS.md` | yes | 102 | 102 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E.md` | yes | 18 | 18 | **0** |
-| web | `relays/CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE.md` | yes | 139 | 137 | **2** |
+| web | `relays/CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE.md` | yes | 139 | 139 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY.md` | yes | 127 | 127 | **0** |
-| web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT.md` | no | 40 | 40 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT.md` | yes | 40 | 40 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md` | yes | 77 | 77 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY.md` | yes | 45 | 45 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS.md` | yes | 66 | 66 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS.md` | yes | 58 | 58 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND.md` | yes | 106 | 106 | **0** |
-| web | `relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md` | no | 104 | 104 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md` | yes | 104 | 104 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 54 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | yes | 50 | 50 | **0** |
-| web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | no | 189 | 0 | **189** |
-| web | `relays/STATUS_CHAT1.md` | no | 259 | 207 | **52** |
-| web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | no | 18 | 0 | **18** |
-| web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | no | 37 | 0 | **37** |
-| web | `relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md` | no | 69 | 0 | **69** |
-| web | `relays/cards/CHAT1_W-L1_the_look_at_tau_i.md` | no | 26 | 0 | **26** |
-| web | `relays/cards/CHAT1_W-V1_view_on_selection_and_dictionary.md` | no | 11 | 0 | **11** |
-| web | `relays/chat1_2026-11-17_wz1/EXPECTATIONS.md` | no | 3 | 0 | **3** |
+| web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 189 | 189 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 259 | 259 | **0** |
+| web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
+| web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |
+| web | `relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md` | yes | 69 | 69 | **0** |
+| web | `relays/cards/CHAT1_W-L1_the_look_at_tau_i.md` | yes | 26 | 26 | **0** |
+| web | `relays/cards/CHAT1_W-V1_view_on_selection_and_dictionary.md` | yes | 11 | 11 | **0** |
+| web | `relays/chat1_2026-11-17_wz1/EXPECTATIONS.md` | yes | 3 | 3 | **0** |
 | agy-audit | `relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md` | no | 69 | 0 | **69** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | no | 30 | 0 | **30** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md` | no | 17 | 0 | **17** |

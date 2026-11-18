@@ -1,0 +1,11 @@
+{
+ "id": "web-wf17-07",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wf17_on_main.py Q3: the lines {x = z = 0} and {y = z = 0} are fixed at m = 4, 8 and 12 and at no other m from 1 to 12; so not at 2 or 6, as the note's post hoc 1 found",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:206",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:207"
+ ]
+}

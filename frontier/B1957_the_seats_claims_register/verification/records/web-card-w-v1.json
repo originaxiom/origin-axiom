@@ -1,0 +1,20 @@
+{
+ "id": "web-card-w-v1",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "a sealed card, read in full: the question, what would be computed, the expectations and the failure criteria, written before the run. Its outcomes are settled in the note's own records; the view's ground rules; its three elementary checks are redone by hand (web-view-01)",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:7",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:10",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:11",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:13",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:14",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:15",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:16",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:17",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:20",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:21",
+  "web:cards/CHAT1_W-V1_view_on_selection_and_dictionary:22"
+ ]
+}
