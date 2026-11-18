@@ -633,3 +633,34 @@ def test_the_even_exterior_algebra_of_three_plus_two_is_anomaly_free_only_at_the
     assert sum(st) == 0 and sum(q ** 3 for q in st) == 0                                       # ... and unshifted only when 3a + 2b = 0
     st1 = [(sum(k3) * 1 + sum(k2) * 1) for k3 in itertools.product((0, 1), repeat=3) for k2 in itertools.product((0, 1), repeat=2) if (sum(k3) + sum(k2)) % 2 == 0]
     assert sum(st1) != 0
+
+
+def test_the_physical_lanes_committed_checker_figures_are_reproduced_by_closed_forms():
+    import math
+    c, g2, kap, phi = F(7, 3), F(5, 2), F(11, 7), F(3); A = sum([F(1, 3), F(4, 5), F(7, 6), F(9, 10)]); L = sum([F(1, 2), F(2, 3), F(5, 4), F(8, 7), F(3, 5)])
+    r, p = c / (g2 * A), kap / L
+    assert phi * p / (r + p) == F(47520, 28069) and r * p * phi ** 2 / (2 * (r + p)) == F(20790, 28069)   # its finite-cell circulation and energy
+    assert phi * (2 * p) / (r + 2 * p) != F(47520, 28069)                                                 # the control: another stiffness
+    M, J, NEG = ((2, 1), (1, 1)), ((1, 1), (1, 0)), ((-1, 0), (0, -1))
+    act = lambda w, X: tuple(sum(w[k] * X[k][j] for k in range(2)) % 15 for j in range(2))
+    M4 = ((34, 21), (21, 13)); pts = [(a, b) for a in range(15) for b in range(15) if act((a, b), M4) == (a, b) and math.lcm(15 // math.gcd(a, 15), 15 // math.gcd(b, 15)) == 15]
+    def count(gens):
+        left, n = set(pts), 0
+        while left:
+            s = {min(left)}; st = list(s)
+            while st:
+                w = st.pop()
+                for g in gens:
+                    v = act(w, g)
+                    if v not in s: s.add(v); st.append(v)
+            left -= s; n += 1
+        return n
+    assert len(pts) == 32 and [count(g) for g in ([M], [J], [M, NEG], [J, NEG], [NEG])] == [8, 4, 4, 2, 16]
+
+
+def test_the_mixed_invariants_shift_in_the_lanes_rational_example_is_exact():
+    import sympy as sp
+    yu = sp.diag(sp.Rational(1, 5), sp.Rational(2, 5), sp.Rational(4, 5)); rot = sp.Matrix([[1, 0, 0], [0, sp.Rational(3, 5), 4 * sp.I / 5], [0, 4 * sp.I / 5, sp.Rational(3, 5)]])
+    yd = rot * sp.diag(sp.Rational(1, 7), sp.Rational(1, 3), sp.Rational(2, 3)); hu, hd = yu * yu.H, yd * yd.H; comm = hu * hd - hd * hu
+    assert sp.simplify(sp.Rational(3, 2) * (comm * comm).trace() + sp.Rational(1769472, 10 ** 8)) == 0   # -0.01769472, the figure of its checker's output
+    hd0 = sp.diag(sp.Rational(1, 49), sp.Rational(1, 9), sp.Rational(4, 9)); assert (hu * hd0 - hd0 * hu).is_zero_matrix   # the control: commuting inputs hide it

@@ -1,0 +1,8 @@
+Q1: circulation 47520/28069, uniform curvature 14850/28069 (the same in every cell, and one current on every edge: True), current -13860/28069, energy 20790/28069; the reduced formulas p Phi/(r + p) and r p Phi^2/(2 (r + p)) give the same: True, True; the energy's change under the full gauge change 0 and with the phase increments left behind 335501353/177811200
+    against the lane's output: 8 of 8 figures equal
+Q2: the coefficient 77/380; the least non-zero sectors [-1, 1]; E(3)/E(1) = 9; the soft and stiff fractions 9/7000000000009 and 9000000000000/9000000000007
+    against the lane's output: 5 of 5 figures equal
+Q3: the three cuts: fixed-flux circulations [5/2, 2, 1/2] with energies [7/5, 7/5, 7/5] (one value: True); seam-source circulations [165/251, 55/51, 275/157] with energies [2772/1255, 77/34, 924/157] (one value: False)
+    against the lane's output: 18 of 18 figures equal
+Q4: the disc's circulation at the minimum 273/145 = 1.882758620689655172413793, the formula's 273/145; the energy 1287*pi/203 = 19.91738790724169407833213, the formula's minus it: 0
+    against the lane's output: the circulation and the energy agree to 1e-35: True

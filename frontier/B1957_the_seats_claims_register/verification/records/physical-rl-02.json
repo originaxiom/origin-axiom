@@ -1,0 +1,28 @@
+{
+ "id": "physical-rl-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "relay lines that hold a fact main computed together with a reading or a figure main did not. VERIFIED PART, by check: H^2 of the knot exterior is 0 and of the pair Z (physical_endgame_review.py, E1; physical_boundary_law.py, W1); that the three-term matrix of the lane's checker obeys the same T and S laws under the weightings (1,1,1), (2,1,1), (1,2,1), (1,1,2) while a singular-value ratio moves by 0.27 (physical_endgame_outputs.py, P3; that this matrix is the other seat's is the lane's reading); the area dx dy/y^2 integrated is pi/3; an average of matrices of different fibres depends on the frames; a least valuation over permutations bounds and need not equal a determinant's; the series' nilpotence by weights; a scalar wall that fails its normal equation; the -48 at the cited lines; the doubled shear's (S0 T0)^3 against S0^2 modulo 5, D(z) + D(conj z) = 0, the Schur mass 1 + bc, a rotation moving (1, 1, 1) (physical_state_orbit.py, R1); the classical response c_H Phi^2/(2 G Area) (physical_boundary_law.py, W5); with the phase of the determinant zero, the branch pi leaves pi; a non-trivial holonomy alone excludes no flat bundle; a constant observable's ratio is 1; main's end routine's fallback (physical_dependency_plan.py, D5). NOT COMPUTED BY MAIN: that the Weil-Petersson density differs (it cites Wolpert); and its readings of what the other seats' scripts and status pages do beyond the quoted lines",
+ "note": "The readings are held for main's own reading of those lanes (agy-exp: 2,027 statements pending; the SM seat's weight tests; agy-002's notes).",
+ "units": [
+  "physical:PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS:50",
+  "physical:PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS:48",
+  "physical:PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW:11",
+  "physical:PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW:14",
+  "physical:PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW:36",
+  "physical:PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW:37",
+  "physical:PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW:14",
+  "physical:PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW:24",
+  "physical:PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS:52",
+  "physical:PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION:31",
+  "physical:PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE:36",
+  "physical:PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE:74",
+  "physical:PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-17_INPUT_RECHECK_AND_COVARIANT_JOIN_CORRECTIONS:16",
+  "physical:PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS:61",
+  "physical:PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS:73",
+  "physical:PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS:84",
+  "physical:PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS:93",
+  "physical:PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3_SEAL_AND_X_BRIDGE_INTAKE:68",
+  "physical:PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3_SEAL_AND_X_BRIDGE_INTAKE:74"
+ ]
+}

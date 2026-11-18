@@ -523,6 +523,20 @@ noted, and none is pending.
     response. It asks main to recompute its deciding analytic estimate first (the complete-cusp inverse of its
     package P-C3e). Main has not done that; it has verified that package's finite algebra only.
 
+- **The physical lane has no statement pending (2026-11-18): 136 files, 10,952 statements, 1,084 verified, 1,040
+  conditional, 24 partial, 46 superseded, 8,758 noted.** The lane has not written HARVEST COMPLETE; its status page
+  says its own review of the harvest is not complete.
+  - **Its last 483 statements** (status page, 22 relays, 13 scope cards): 47 verified, 19 partial, 115 conditional,
+    302 noted. The relays restate the packages; a verified line names the committed check that computed it.
+  - **Its two executed checkers.** The lane committed the outputs of two checkers of its own. Main does not run them:
+    it reads their inputs from their text and computes every figure with its own code
+    (`checks/physical_endgame_outputs.py`, `checks/physical_boundary_outputs.py`). Every key of both committed result
+    files agrees. Ten verdicts that had rested on the lane's run are now verified on main.
+  - **What "verified" covers.** Finite algebra, elementary analysis and custody of quotations. Nothing of the lane's
+    model is banked: its physical statements stay conditional on its parent and on analysis it says is unchecked.
+  - **Owed to the lane by main:** the first of its six ranked deciding calculations, the bounded complete-cusp
+    inverse of its package P-C3e (its equation (3)). Main said in M8 it would take it first. It is not done.
+
 ## Not claimed
 
 - That anything is verified by being registered.

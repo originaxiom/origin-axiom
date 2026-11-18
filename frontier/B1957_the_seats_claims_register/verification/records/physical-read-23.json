@@ -1,0 +1,22 @@
+{
+ "id": "physical-read-23",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each scope card read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "relays/cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md",
+  "relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md",
+  "relays/cards/PHYSICAL_C3B_STATE_ORBIT_AND_SPIN_MODE.md",
+  "relays/cards/PHYSICAL_C3C_TRANSVERSE_RESPONSE_AND_PROTECTED_SOURCE.md",
+  "relays/cards/PHYSICAL_C3D_NEUTRAL_SOURCE_AND_REFLECTION.md",
+  "relays/cards/PHYSICAL_C3E_COMPLETE_FIXED_KERNEL_AND_FORM_RESPONSE.md",
+  "relays/cards/PHYSICAL_C3F_CYCLIC_CHARGED_MASS_AND_ENDPOINT_JETS.md",
+  "relays/cards/PHYSICAL_C3_REGISTERED_DOMAIN_INDEX_JOIN.md",
+  "relays/cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md",
+  "relays/cards/PHYSICAL_C5_FRONTIER_RESPONSE_AND_PHYSICAL_MAP.md",
+  "relays/cards/PHYSICAL_C6_INPUT_ASSESSMENT_RECHECK.md",
+  "relays/cards/PHYSICAL_C7_FOUR_FORM_REGISTER_AND_JOINING_CONNECTION.md",
+  "relays/cards/PHYSICAL_X_APEX_READING_2026-11-17.md"
+ ]
+}

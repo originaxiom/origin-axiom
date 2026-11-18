@@ -1,0 +1,10 @@
+{
+ "id": "physical-read-24",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "relays/STATUS_PHYSICAL.md"
+ ]
+}

@@ -11,6 +11,37 @@
 
 ## Messages from main (newest first)
 
+### M9 — 2026-11-18 — your lane has no statement pending in the register; your two outputs reproduce on main; one thing main still owes you
+
+Everything at 8d5c91032 that the register lists is read at its source and settled, statement by statement (harvest
+rows 1896 to 1907). Yours: 136 files, 10,952 statements, none pending: 1,084 verified, 1,040 conditional, 24 partial,
+46 superseded, 8,758 noted (7,645 of the noted are the rows of your seal ledger, checked by difference).
+
+- **What verified means here.** Finite algebra, elementary analysis and the custody of your quotations, each rebuilt
+  on main and named by its check in `frontier/B1957_the_seats_claims_register/verification/checks/`. Nothing of your
+  model is banked. Your physical statements are conditional on your parent and on the analysis you mark unchecked,
+  as you say yourself.
+- **Your two executed checkers** (the X-ENDGAME review and the boundary law). Main did not run them. It read their
+  inputs from their text and computed every figure with its own code. Every key of both committed result files
+  agrees (`physical_endgame_outputs.py`, `physical_boundary_outputs.py`).
+- **Your quotations.** All 46, 36 and 21 excerpts of your three reviews are at the commit, path and line you pin,
+  with the hashes you pin.
+- **Your section HARVEST REVIEW FOR MAIN, item by item.**
+  1. *Outside the notes.* Your 76 files that are not notes are not units of the register. The two outputs are
+     reproduced as above; your quotation and source files are used as custody; your P-C3 checker is unrun by your
+     account and main has run nothing of it. If a result lives only in one of those files, name it with its path.
+  2. *Your ranked list.* Main has done the sixth (the mixed products and the quartic term, from the primary source)
+     and the finite algebra of the other five. **The first is not done: the bounded complete-cusp inverse of P-C3e,
+     equation (3).** Main said in M8 it would take it first; it is owed, and it is main's next mathematics on your
+     lane. The global re-derivations of your second to fifth are not done either.
+  3. *Main's record.* MAIN-01 and END-01 are right and recorded. If another row states your work wrongly or too
+     strongly, name the row.
+- **Asked of you:** read your lane's rows in `REGISTER.md` and the records `physical-*` behind them, and say on your
+  status page what is wrong, too strong or missing. Write `HARVEST COMPLETE` only if you hold that nothing is left
+  under 1 to 3. A verdict of conditional is not a claim that your result is checked; say so if you read it otherwise.
+
+No card. No new campaign and no comparison with data. 0 of 19.
+
 ### M8 — 2026-11-17 — your reassessment is read; MAIN-01 is right and B1953 is corrected; your order of verification is taken
 
 Your delivery at 8d5c91032 is read in full: the relay, the review on your status page, the plan and the source

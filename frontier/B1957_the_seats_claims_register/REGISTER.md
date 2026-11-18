@@ -8,10 +8,10 @@
 | agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 104 | 1 | 28 | 33 | 0 | 91 | **14** |
-| physical | 136 | 99 | 10952 | 1027 | 0 | 934 | 6 | 46 | 8456 | **483** |
+| physical | 136 | 133 | 10952 | 1084 | 0 | 1040 | 24 | 46 | 8758 | **0** |
 | web | 137 | 137 | 6757 | 1897 | 2 | 15 | 409 | 54 | 4380 | **0** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 406 | 286 | 20910 | 3468 | 14 | 1038 | 555 | 100 | 13211 | **2524** |
+| **all** | 406 | 320 | 20910 | 3525 | 14 | 1144 | 573 | 100 | 13513 | **2041** |
 
 ## By file
 
@@ -147,41 +147,41 @@
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles.md` | yes | 21 | 21 | **0** |
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff.md` | yes | 20 | 20 | **0** |
 | physical | `docs/SEAL_LEDGER.md` | no | 7649 | 7649 | **0** |
-| physical | `relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md` | no | 11 | 0 | **11** |
-| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md` | no | 24 | 0 | **24** |
-| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md` | no | 11 | 0 | **11** |
-| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS.md` | no | 9 | 4 | **5** |
-| physical | `relays/PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW.md` | no | 19 | 0 | **19** |
-| physical | `relays/PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW.md` | no | 12 | 0 | **12** |
-| physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT.md` | no | 7 | 0 | **7** |
-| physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT.md` | no | 12 | 0 | **12** |
-| physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md` | yes | 11 | 0 | **11** |
-| physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY.md` | no | 6 | 0 | **6** |
-| physical | `relays/PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION.md` | no | 13 | 0 | **13** |
-| physical | `relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE.md` | no | 21 | 0 | **21** |
-| physical | `relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-17_INPUT_RECHECK_AND_COVARIANT_JOIN_CORRECTIONS.md` | no | 12 | 0 | **12** |
-| physical | `relays/PHYSICAL_TO_MAIN_SM_AND_SEATS_2026-11-17_C7_FOUR_FORM_CONNECTION_AND_RETAINED_REGISTER.md` | no | 22 | 0 | **22** |
-| physical | `relays/PHYSICAL_TO_SM_AND_CC_2026-11-16_FOUR_SLOT_DOMAINS_AND_REGISTERING_DEFECT.md` | no | 20 | 0 | **20** |
-| physical | `relays/PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS.md` | no | 16 | 0 | **16** |
-| physical | `relays/PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3_SEAL_AND_X_BRIDGE_INTAKE.md` | no | 14 | 0 | **14** |
-| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN.md` | no | 13 | 0 | **13** |
-| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR.md` | no | 13 | 0 | **13** |
-| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3E_COMPLETE_LIGHT_SYSTEM_AND_STATIONARY_FAMILIES.md` | no | 16 | 0 | **16** |
-| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS.md` | no | 12 | 0 | **12** |
-| physical | `relays/STATUS_PHYSICAL.md` | no | 73 | 0 | **73** |
-| physical | `relays/cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md` | no | 7 | 0 | **7** |
-| physical | `relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md` | no | 11 | 0 | **11** |
-| physical | `relays/cards/PHYSICAL_C3B_STATE_ORBIT_AND_SPIN_MODE.md` | no | 12 | 0 | **12** |
-| physical | `relays/cards/PHYSICAL_C3C_TRANSVERSE_RESPONSE_AND_PROTECTED_SOURCE.md` | no | 10 | 0 | **10** |
-| physical | `relays/cards/PHYSICAL_C3D_NEUTRAL_SOURCE_AND_REFLECTION.md` | no | 9 | 0 | **9** |
-| physical | `relays/cards/PHYSICAL_C3E_COMPLETE_FIXED_KERNEL_AND_FORM_RESPONSE.md` | no | 11 | 0 | **11** |
-| physical | `relays/cards/PHYSICAL_C3F_CYCLIC_CHARGED_MASS_AND_ENDPOINT_JETS.md` | no | 10 | 0 | **10** |
-| physical | `relays/cards/PHYSICAL_C3_REGISTERED_DOMAIN_INDEX_JOIN.md` | no | 10 | 0 | **10** |
-| physical | `relays/cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md` | no | 9 | 0 | **9** |
-| physical | `relays/cards/PHYSICAL_C5_FRONTIER_RESPONSE_AND_PHYSICAL_MAP.md` | no | 8 | 0 | **8** |
-| physical | `relays/cards/PHYSICAL_C6_INPUT_ASSESSMENT_RECHECK.md` | no | 5 | 0 | **5** |
-| physical | `relays/cards/PHYSICAL_C7_FOUR_FORM_REGISTER_AND_JOINING_CONNECTION.md` | no | 13 | 0 | **13** |
-| physical | `relays/cards/PHYSICAL_X_APEX_READING_2026-11-17.md` | no | 5 | 0 | **5** |
+| physical | `relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md` | yes | 11 | 11 | **0** |
+| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md` | yes | 24 | 24 | **0** |
+| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md` | yes | 11 | 11 | **0** |
+| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS.md` | yes | 9 | 9 | **0** |
+| physical | `relays/PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW.md` | yes | 19 | 19 | **0** |
+| physical | `relays/PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW.md` | yes | 12 | 12 | **0** |
+| physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT.md` | yes | 7 | 7 | **0** |
+| physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT.md` | yes | 12 | 12 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md` | yes | 11 | 11 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY.md` | yes | 6 | 6 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION.md` | yes | 13 | 13 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE.md` | yes | 21 | 21 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-17_INPUT_RECHECK_AND_COVARIANT_JOIN_CORRECTIONS.md` | yes | 12 | 12 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_SM_AND_SEATS_2026-11-17_C7_FOUR_FORM_CONNECTION_AND_RETAINED_REGISTER.md` | yes | 22 | 22 | **0** |
+| physical | `relays/PHYSICAL_TO_SM_AND_CC_2026-11-16_FOUR_SLOT_DOMAINS_AND_REGISTERING_DEFECT.md` | yes | 20 | 20 | **0** |
+| physical | `relays/PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS.md` | yes | 16 | 16 | **0** |
+| physical | `relays/PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3_SEAL_AND_X_BRIDGE_INTAKE.md` | yes | 14 | 14 | **0** |
+| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN.md` | yes | 13 | 13 | **0** |
+| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR.md` | yes | 13 | 13 | **0** |
+| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3E_COMPLETE_LIGHT_SYSTEM_AND_STATIONARY_FAMILIES.md` | yes | 16 | 16 | **0** |
+| physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS.md` | yes | 12 | 12 | **0** |
+| physical | `relays/STATUS_PHYSICAL.md` | yes | 73 | 73 | **0** |
+| physical | `relays/cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md` | yes | 7 | 7 | **0** |
+| physical | `relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md` | yes | 11 | 11 | **0** |
+| physical | `relays/cards/PHYSICAL_C3B_STATE_ORBIT_AND_SPIN_MODE.md` | yes | 12 | 12 | **0** |
+| physical | `relays/cards/PHYSICAL_C3C_TRANSVERSE_RESPONSE_AND_PROTECTED_SOURCE.md` | yes | 10 | 10 | **0** |
+| physical | `relays/cards/PHYSICAL_C3D_NEUTRAL_SOURCE_AND_REFLECTION.md` | yes | 9 | 9 | **0** |
+| physical | `relays/cards/PHYSICAL_C3E_COMPLETE_FIXED_KERNEL_AND_FORM_RESPONSE.md` | yes | 11 | 11 | **0** |
+| physical | `relays/cards/PHYSICAL_C3F_CYCLIC_CHARGED_MASS_AND_ENDPOINT_JETS.md` | yes | 10 | 10 | **0** |
+| physical | `relays/cards/PHYSICAL_C3_REGISTERED_DOMAIN_INDEX_JOIN.md` | yes | 10 | 10 | **0** |
+| physical | `relays/cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md` | yes | 9 | 9 | **0** |
+| physical | `relays/cards/PHYSICAL_C5_FRONTIER_RESPONSE_AND_PHYSICAL_MAP.md` | yes | 8 | 8 | **0** |
+| physical | `relays/cards/PHYSICAL_C6_INPUT_ASSESSMENT_RECHECK.md` | yes | 5 | 5 | **0** |
+| physical | `relays/cards/PHYSICAL_C7_FOUR_FORM_REGISTER_AND_JOINING_CONNECTION.md` | yes | 13 | 13 | **0** |
+| physical | `relays/cards/PHYSICAL_X_APEX_READING_2026-11-17.md` | yes | 5 | 5 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CARD.md` | yes | 11 | 11 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md` | yes | 80 | 80 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/CARD.md` | yes | 5 | 5 | **0** |
