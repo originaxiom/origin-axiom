@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-18",
+  "kind": "Git, bytes and reading custody; not mathematical verification",
+  "scope_commit": "8fb2614a9",
+  "source_head": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+  "main_pin": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+  "proof_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE.md",
+      "sha256": "2be866357d75909cc7dbe8468a5c6f9a7e72b4590637ef5325f53921289a75dc",
+      "line_count": 320,
+      "evidence": "Author hand derivation; not independently checked"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/INPUTS_AND_REVIEW_DUTIES.md",
+      "sha256": "03dbb98f461eb35794588ded01139bafa34524f95ae73d04cd8f527b9d15d442",
+      "line_count": 65,
+      "evidence": "Author hand derivation; not independently checked"
+    }
+  ],
+  "sources": [
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS.md",
+      "git_blob": "32337c6a3456253fc896fbbeb53a50623219858c",
+      "sha256": "f7a83f64c02d79cc0beeebf896e7aefc1814a0283902ca8afce04932675b3a43",
+      "line_count": 133,
+      "reading": "Full text re-read; B character, Hodge space and full retained kernel"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS.md",
+      "git_blob": "ab1e78df32b071c0c95ff92869b119f0c3bba385",
+      "sha256": "221f02c7a7f81c93d003e9906f11e9fe8a8ca8627f812e78857bceae35a09cb5",
+      "line_count": 159,
+      "reading": "Full text re-read; projected cubic zero and higher-order limit"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md",
+      "git_blob": "8cae3774c3983def59cbb43c4ad4e693c5606ba5",
+      "sha256": "e021f192f2e7da5f3ad6217035b2108a8604988f20f099923aebca0648d09c37",
+      "line_count": 172,
+      "reading": "Full text re-read; actual moment, Hermitian response and metric"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md",
+      "git_blob": "8a6d3e6cbb496b6914c7c183b91e58c43e8563d0",
+      "sha256": "ba0192f686e718563e08ac3eb1f12e2735848758ee2106f5e9f809706e31c702",
+      "line_count": 254,
+      "reading": "Lines 1-200 re-read, including weighted inverse and nonlinear-map step; later charged balance not reapplied to D5"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL.md",
+      "git_blob": "480ca55f5e27212940cbc50a888ab247bab687d3",
+      "sha256": "22a9260110718bc9cd4e18e667f91486e6e780b9477b43f3e1125e4e0bb2b205",
+      "line_count": 198,
+      "reading": "Full text re-read; prior D5-restricted stationary-family mechanism"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/CUSP_INVERSE_SOURCE_SUPPORT.md",
+      "git_blob": "92efc25273212775fef6e1d76fe6009aaf377dc0",
+      "sha256": "10a62ce191413d963bcd38234e9986f9e7527c8982b436d38712bbdbb21d5381",
+      "line_count": 314,
+      "reading": "Full text re-read; exact source connection, positive D5 potential, cusp and nonlinear mapping"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "git_blob": "8f5398e2cfec03ae6a1a31a3276b2bb105283d90",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "line_count": 192,
+      "reading": "Full text re-read; metrics, differentials and charged complete-domain gap"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_ZERO_MODE_CURRENT_AND_RANK_ONE_VECTOR_2026_11_08.md",
+      "git_blob": "e76cf9419ac4fb02c2595247487e086ac3f1410c",
+      "sha256": "70e2cfbd88b5d61ed7d8fc87dece743bcff6224e551e949d8ec530e233f9319b",
+      "line_count": 326,
+      "reading": "Targeted lines 145-220 re-read for vector pole, extension and domain; prior broader reading reused"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PRELIMINARY_CURRENT_CROSSCHECKS_2026_11_08.md",
+      "git_blob": "1a13e8826bcdd31b7abd3d9e683fcb5435164ab0",
+      "sha256": "8ae3ef5b5cb1d601497a0748b5ecd3fa9a3fc58e56cee99ae0410d8fedc4e453",
+      "line_count": 190,
+      "reading": "Lines 1-165 re-read for rough Laplacian, actual norms, full-grade simplicity and domain"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md",
+      "git_blob": "281b959097168eb3577b63a7c5c915c4b05f19d6",
+      "sha256": "d63b14319b2ea19c29e9082c9e37d0534ee30285ca7fd028d35856182ec90c2a",
+      "line_count": 285,
+      "reading": "Full text re-read; both charged species and normalized current witnesses"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CARTAN_CYCLIC_VECTOR_PAIRING_AND_PHYSICAL_CURRENT_RESPONSE_2026_11_09.md",
+      "git_blob": "139f3173858e5f2705c3ce58408ecdf58712e6e6",
+      "sha256": "3158edfdda9aa958b72065eebe9ad03ea27275b34a00a5c67e3adaa53cf06a37",
+      "line_count": 325,
+      "reading": "Full text re-read; Theta phases, old exact pairing, full operator and current transport"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEXT_PROBE_NATIVE_NEUTRAL_FIELDS_AND_MOMENT_RESPONSE_2026_11_08.md",
+      "git_blob": "cbcf9903b34959e25a4e4ff16bab9a409c62e98e",
+      "sha256": "d4648d115b13481ed86c926cee06e626ab6807c86f2f063de0854569661bc9a6",
+      "line_count": 161,
+      "reading": "Full text personally read across this continuation; reuses the existing second candidate and its full-pole guardrail"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/NEXT_DEPENDENCY_AUDIT.md",
+      "git_blob": "b3171067be3e71a75c1aac0bd59c40e34ba25521",
+      "sha256": "84018402f69e27dc0e5a8eefde2edbcb14737c8c4577235452be30896a39b97a",
+      "line_count": 74,
+      "reading": "Full text re-read; bounded relevance task versus large new campaign"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/FINDINGS.md",
+      "git_blob": "6e9fb5110b8e205609bcde715d44f941aee6ce13",
+      "sha256": "50ec3e1d8e0ef0068b7c6e4ee3532f69a4a1bea5ba773e125763f2a0dea568c8",
+      "line_count": 109,
+      "reading": "Full text re-read; retained endpoint quotient remains a different open task"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/CROSS_FORM_FINITE_SERIES.md",
+      "git_blob": "4425a53909de8781566fbdc00024006c527f987b",
+      "sha256": "8d75dee7676c33dd35877546d4ab328df9fae816fd7b5d9d2c6413224a956546",
+      "line_count": 79,
+      "reading": "Full text re-read; distinct completed pointwise cyclic cross-form ansatz, no inherited global spectral claim"
+    },
+    {
+      "commit": "8fb2614a9a2e241d7a042a37e0060e8b4f866a8e",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "git_blob": "df4bae0daca59451632a9aa96fef60f88780d5a0",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "line_count": 264,
+      "reading": "Targeted first 155 lines re-read for complete physical mass map, kinetic weights and domains"
+    },
+    {
+      "commit": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+      "path": "frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/FINDINGS.md",
+      "git_blob": "f1d5a8dd400bf0aaf43012f69b68b632b0ce9f8c",
+      "sha256": "1230e5e80fb24469b3968cd1d378848f7feae0930be60aacdd170dc5ace35de4",
+      "line_count": 182,
+      "reading": "Full earlier theorem reading reused; current M12 H1/H3 reply received; new page update still to be compared during M12 review"
+    }
+  ],
+  "remote_heads_at_refresh": {
+    "origin/HEAD": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+    "origin/agy-002/closure": "358d6178608fa140bd0cc39f894775a90cf4f1c3",
+    "origin/agy-002/endgame": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+    "origin/agy-002/foundations": "ef2ea365bdb04cc05efb99e6a1af58513307c7db",
+    "origin/agy-002/verify": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+    "origin/agy/audit-2026-11-02": "d1c71f255ade662098dbec1167ba355b12584740",
+    "origin/agy/frontier-2026-10-26": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/agy/self-consistent-loop-2026-11-11": "c4c48f541c32128a9036cf934716263ecc7f6af2",
+    "origin/agy/stage4-sync-2026-11-11": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05": "db09418d1a1aee1cf04061004105e69d6c14aa5d",
+    "origin/chat1/web-seat": "f3ac592954ff772e202f5d4f8ee8a2cce5aaed09",
+    "origin/chatgpt/weave-physics-archive-2026-10-11": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+    "origin/cld/cool-hamilton-k9eqvo": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main": "dbd7c24e33535abdf87e3c0f3ae756b0a5fd3c8b",
+    "origin/referee/B1668_the_price_of_the_nineteen": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/review-82/read": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+    "origin/review-83/read": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+    "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  },
+  "external_reading": [
+    {
+      "url": "https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kato1.pdf",
+      "reading": "Search-indexed primary excerpt of VII Theorem 4.2 only; direct PDF fetch timed out. No claim to a full-book or full-chapter reading.",
+      "use": "Recovery reference for common-domain holomorphic closed forms; source-domain argument is written in proof section 5; not a certification of the model."
+    }
+  ],
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "cas": 0,
+  "scientific_tests": 0,
+  "new_agents": 0,
+  "independent_mathematical_review": false,
+  "foundational_inputs_counted_removed": 0,
+  "not_delivered": [
+    "Independent review of the new cross-form proof",
+    "Absolute mixing magnitude",
+    "Complete deformed fermion spectrum",
+    "Action on the cyclic endpoint quotient",
+    "Selected vacuum, SM3 or gravity"
+  ],
+  "preserved_index_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
