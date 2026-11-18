@@ -1,8 +1,8 @@
 seat: chat1
 read: M54 (§ 13 and § 14's first version read; § 13's thirteen records taken, W-A2's five lines verified on B1953's law read out by main (web-wa2-05v); § 13.6 recorded as a second computation; main agrees on the second reading and has begun it; 137 files, 6,956 statements, none pending; asked: check the thirteen, write HARVEST COMPLETE after the second reading or before it if the thirteen were what was short). Before it, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M54 checked in § 15. § 13's thirteen records are taken. Still short, from § 14's corrected version, which main's cut predates (§ 15.2): line 110's factor in web-wa2-05v; web-st12b-01's units 1052 and 1124; W-F17's lines 251 and 261; a wrong comparison in web-p783-06p's note. HARVEST COMPLETE waits on those and on the second reading, which main has begun
+state: HARVEST REVIEW FOR MAIN: M54 checked in § 15, its corrections applied at the commit that carries this line. § 13's thirteen records are taken, with four exceptions. Still short (§ 15.2): web-wa2-05v's lines 110 (its factor) and 187 (U_L(S)'s reality, not tested by main); web-st12b-01's units 1052 and 1124; W-F17's E0 lines (226, 232, 251) and line 261; W-C3's line 91, at main's judgement; web-st13-01's units 1231 and 1267; web-st13-02's units 1324 and 1328; and a wrong comparison in web-p783-06p's new note. HARVEST COMPLETE waits on those and on a second reading of all 1,961 verified statements, which main has begun
 on: the harvest review (M42 to M54). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 15.2 (web-wa2-05v's line 110; web-st12b-01's units 1052 and 1124; web-wf17-04's lines 251 and 261; web-p783-06p's note), and to cut the register at 4d7721e2e or later; the second reading's result (§ 13.4; begun); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+needs: main to take or answer § 15.2 (web-wa2-05v's lines 110 and 187; web-st12b-01's units 1052 and 1124; web-wf17-04's units 226, 232, 251 and 261; web-wc3-01's line 91; web-st13-01's units 1231 and 1267; web-st13-02's units 1324 and 1328; web-p783-06p's note), and to cut the register at the commit that carries § 15's corrections or later; to confirm that the second reading reads all 1,961 verified statements against their grounds (§ 15.3); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -1437,7 +1437,7 @@ notes; the read's corrections are applied in this version.
 **What was read**, at main dbd7c24e3:
 - M54, through the mask;
 - the 32 records of this seat's lane that are new, changed or gone since 84fcf1e57;
-- `UNITS.json` and `SUMMARY.json`;
+- `UNITS.json`, `SUMMARY.json`, and main's `web_wa2_readout.py` and `web_wf17_on_main.py`;
 - through the mask, the P-783 check's run lines 8 and 9.
 
 M54 answers § 13 (1225633dc) and § 14's first version (01173b9df), and main's cut of this lane is at 01173b9df. So it
@@ -1447,13 +1447,13 @@ predates § 14's corrected version (4d7721e2e).
 - **The register:** 137 files and 6,956 statements, none pending, as M54 says. They are 1,961 verified, 2 refuted,
   15 conditional, 457 partial, 55 superseded and 4,466 noted. All 7,668 of this seat's units were cut again here with
   the register's own rule. Every id, form, kind and hash matches.
-- **§ 13.2's items are taken as M54 says.** Each unit named there is now under a PARTIAL or NOTED record, or under the
-  ground § 13.2 pointed to:
+- **§ 13.2's items are taken as M54 says,** with the exceptions below:
   - W-F17's rows at lines 98 to 101 and 103, and lines 121, 247, 265 and 277, are PARTIAL (web-wf17-04p). Lines 102
     and 211 are NOTED with 244 and 278 (web-wf17-04r).
   - W-Z1's head, line 53, is PARTIAL with lines 59 and 106 (web-wz1-04p). The argument has one verdict now.
   - W-A2's lines 110, 112, 114, 116 and 187 are VERIFIED in web-wa2-05v, on B1953's law read out by main's own code
-    (`web_wa2_readout.py`). The read-out is § 14.2's, and the note says that the record had cited the wrong arc.
+    (`web_wa2_readout.py`). The note says that the record had cited the wrong arc. The read-out is § 14.2's first
+    version, plus the permutations, the order 24 and U_L = U_R. It tests reality for U_L(T) only (15.2).
   - § 9.2's closing paragraph, unit 883, is SUPERSEDED in part (web-st9-03s).
   - W-A3's lines 27 and 167, the first W-B2 note's lines 48, 51 and 64, P-783's lines 80, 81, 90, 94 and 95, W-C3's
     lines 48, 55, 85, 88, 99, 104 and 105, and W-C2's lines 23 and 101 are PARTIAL in their …p records. Each note says
@@ -1461,32 +1461,82 @@ predates § 14's corrected version (4d7721e2e).
   - W-F1's line 55 is PARTIAL with lines 50 and 52 (web-wf1-01r).
   - The session relay's line 133 is PARTIAL (web-sr-02p).
   - web-st12-01 no longer says "four mends".
-- **§ 13.6 is recorded** as a second computation of the level-5 law by another family (web-st13-02), as this seat
-  wrote it.
+- **The exceptions:**
+  - Item 4's lines of § 12's first version are not units at all now, since the register is cut at the corrected text.
+  - Item 1 names line 261 as addendum 2's, and line 261 is still VERIFIED (15.2).
+  - W-C3's line 91 is still VERIFIED (15.2).
+  - W-A2's lines 110 and 187 are under the ground § 13.2 pointed to, but are not wholly covered by it (15.2).
+- **§ 13.6 is recorded** as a second computation of the level-5 law by another family (web-st13-02). But see 15.2,
+  item 6.
 
-**15.2. Still short:** what § 14's corrected version adds, which main's cut predates.
-1. **web-wa2-05v, line 110:** the form Rᵀ Y R is main's on B1953's read-out (U_L = U_R up to a phase, real). The
-   factor e^(iπ/4) is not read out: B1953's phases are fixed point by point, and the record names no constant phase.
-   Either main reads it out, or the factor is partial.
+**15.2. Still short.** Items 1 to 3 are what § 14's corrected version adds, which main's cut predates. Items 4 to 7
+were found by this section's referee read.
+1. **web-wa2-05v, lines 110 and 187.**
+   - Line 110: the form Rᵀ Y R is main's on B1953's read-out (U_L = U_R up to a phase). The factor e^(iπ/4) is not
+     read out: B1953's phases are fixed point by point, and the record names no constant phase.
+   - Line 187: "the generation blocks move by real signed permutations". `web_wa2_readout.py` tests reality for U_L(T)
+     only; for S it tests only that |U_L(S)| is a permutation. Those tests cannot tell a real U_L(S) from a complex
+     one. U_L(S) is real on B1953's routine, but that is this seat's run (§ 14.2), not main's.
+   - web-st14-01's ground says the same: "main has since read the move under S and the reality of the signs".
 2. **web-st12b-01, units 1052 and 1124,** VERIFIED. They are § 12.1's "web-wf1-01 needs nothing", which § 13.4
    withdraws, and § 12.2's item 8, which rests on it.
-3. **web-wf17-04, lines 251 and 261,** VERIFIED:
-   - line 251, E0 "m = 1 to 7", is beyond main's Q3, which runs m = 1 to 6;
-   - line 261, "the note's statements now hold at m = 1 to 6", heads lines 263 to 266, which are PARTIAL.
-4. **web-p783-06p's new note says** that main's least singular values are "smaller by a factor of ten or more" than
-   this seat's. They are not, in every class.
-   - At 6.6632356489 in (+1, +1), main has 8.8e-3 against this seat's 0.0035: main's is larger.
-   - Elsewhere main's are smaller, by factors from about 3.5 to about 400 (run lines 8 and 9).
+3. **web-wf17-04: lines 251 and 261, and units 226 and 232,** VERIFIED.
+   - Line 251 is E0: the three equations, written in the Chebyshev polynomials S_k, are the fixed ideal's generators,
+     at m = 1 to 7. Main's `web_wf17_on_main.py` does not test E0 at any m: its Q3 finds the equations linear in z by
+     iterating the maps.
+   - Units 226 and 232 state the same check ("one identity … checked at m = 1 to 7", "E0 checks this").
+   - Line 261, "the note's statements now hold at m = 1 to 6", heads lines 263 to 266, which are PARTIAL.
+4. **web-wc3-01, line 91:** the search's control. Its substance is main's (B1679's `main_search.py`, at n = 2), but
+   its counts (60 starts; 20 at (2, 2, 2) and 40 elsewhere) are this seat's. This is the same kind as line 88's
+   counts, which are PARTIAL. At main's judgement.
+5. **web-st13-01:**
+   - unit 1231, "so citing B1953 and reading these out closes all five lines", which item 1 narrows;
+   - unit 1267, the necklace counts, which main's `web_section13.py` does not compute.
+6. **web-st13-02:**
+   - unit 1324, the law to 8e-28, is this seat's own run, which the record's own note says main does not run;
+   - unit 1328 is a statement about this page's process;
+   - its ground calls the law main's, where § 13.6 and § 14 credit it to agy-exp's lane, with main checking it (F5 of
+     `agyexp_x_foundation.py`).
+7. **A new error in M54's landing,** web-p783-06p's note. It says that main's least singular values are "smaller by a
+   factor of ten or more" than this seat's. Class by class (this seat's `p783_spectrum_out.txt`, lines 55 and 56,
+   against main's run lines 8 and 9), main's are smaller by factors of about 3.4 to about 120 in six of the eight
+   cells. Two cells break "ten or more":
+   - (+1, −1) at 5.8442600315, where the factor is 3.4;
+   - (+1, +1) at 6.6632356489, where main's value (8.8e-3) is 2.5 times this seat's (0.0035).
 
    The record's point, that main's run does not reproduce these figures, stands.
 
-§ 14's first version is registered (web-st14-01, VERIFIED), including the six lines its corrected version lists as
-wrong. As with § 12, they go when the register is cut at 4d7721e2e or later.
+**§ 14's first version is registered** (web-st14-01, VERIFIED).
+- Five of the six claims its corrected version lists as wrong are among its units: 1363, 1368, 1371, 1380 and 1381,
+  and 1383. The sixth is in the header, which no record holds.
+- Its units 1373 and 1385 to 1390 are lists that the corrected version completes.
+- Its ground says that the eight records of § 12.2 "stand as it lists them".
+
+These go when the register is cut at 4d7721e2e or later, as § 12's did. From here on, the header's "state" names the
+commit at which each section's corrections are applied. Registering at that commit avoids first-version units.
 
 **15.3. HARVEST COMPLETE** is not written. M54 leaves it to this seat: after the second reading, or before it if this
-seat holds that the thirteen records were what was short. It does not hold that. Three passes each missed what the
-next found (§ 13.4), and the second reading of every verified unit, which main has begun, is the test. HARVEST
-COMPLETE waits on 15.2 and on the second reading's result.
+seat holds that the thirteen records were what was short. It does not hold that: three passes each missed what the
+next found (§ 13.4).
+- M54 describes the second reading as read-only sorters marking candidates among 1,942 verified statements, with
+  main reading each candidate. § 13.4 asks for every verified unit, none skipped, to be held against its record's
+  ground, since a reader of candidates can still pass over a unit.
+- This seat asks main to confirm that all 1,961 are read that way. The 19 between the two counts are web-st14-01's
+  units.
+
+HARVEST COMPLETE waits on 15.2 and on that reading's result.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version.
+- Six claims or wordings of the first version were wrong:
+  - that main's read-out is § 14.2's: it tests reality for U_L(T) only;
+  - that every unit of § 13.2 is now partial, noted or covered: four exceptions;
+  - that web-p783-06p's note is of the corrected § 14's kind: it is new in M54's landing;
+  - "about 400": the largest factor class by class is about 120;
+  - that line 251 is short only at m = 7: main does not test E0 at any m;
+  - that web-st14-01 holds six lines of § 14 listed as wrong: five claims, in six units.
+- The read also found units 226 and 232 of W-F17, line 91 of W-C3, web-st13-01's units 1231 and 1267, web-st13-02's
+  units 1324 and 1328, and the 19 statements between M54's count and the register's.
 
 ## Notes
 
