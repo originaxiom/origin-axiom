@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-18",
+  "kind": "source custody for author hand derivation; not mathematical verification",
+  "proof_sha256": "ded0ac89c60f55c0bad4663d58024df01de26503cd0076430ba637f46df1b0e0",
+  "sources": [
+    {
+      "commit": "6f074b770ee6c733215983e46f794f49921e9119",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "lines": 243,
+      "reading": "Full parent proof read; source normalization and flat gauge restriction personally re-read"
+    },
+    {
+      "commit": "6f074b770ee6c733215983e46f794f49921e9119",
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f",
+      "lines": 172,
+      "reading": "Targeted stationary magnetic and negative-direction argument, lines 1-135; prior reading reused"
+    },
+    {
+      "commit": "6f074b770ee6c733215983e46f794f49921e9119",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/GAUGE_RESPONSE_MAGNETIC_REUSE_AND_OPERATOR_SCOPE_2026_11_08.md",
+      "sha256": "6d6e9411d4992a3b8a44e9a945ddaf44dbb6f3fcf87ca2cffbcbf03a7c46f534",
+      "lines": 83,
+      "reading": "Read in full as text; credits older magnetic mechanism and residual-zero restriction"
+    },
+    {
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/cim_overlap.py",
+      "sha256": "528274f41de4e0fa415f20740992df97aab6bf198d5497411135d18bcfe550a9",
+      "lines": 112,
+      "reading": "Full source reading from earlier P-C8 intake reused; no import or execution"
+    },
+    {
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/cim_closed.py",
+      "sha256": "5a2ce4c7dbf63555b83c2d3388f311a771bbf81795142db182f0fb7374690ad3",
+      "lines": 58,
+      "reading": "Full literal theta/overlap source re-read without import or execution"
+    }
+  ],
+  "primary_literature": [
+    {
+      "url": "https://arxiv.org/pdf/hep-th/0404229",
+      "authors": "D. Cremades, L. E. Ibanez, F. Marchesano",
+      "read": "Targeted section 3.3 eqs 3.62-3.70, section 5.1 eqs 5.5-5.6, Appendix B.1 Hermitian Yang-Mills passage; section 2.2 introduction read; earlier zero-mode/normalization reading reused; not full paper",
+      "use": "Distinguish scalar Laplacian and physical curvature mass, typed overlap and supersymmetric completion conditions"
+    },
+    {
+      "url": "https://arxiv.org/html/2306.00644v2",
+      "authors": "K. Kojima, Y. Okubo, C. S. Takeda",
+      "read": "Section 3 background EOM and connection parametrization; targeted section 5 quadratic/gauge-fixing formulas; targeted 6.4-6.5 Landau modes and physical/gauge masses; section 7 stabilization discussion and Appendix A surface-term passage; not full paper",
+      "use": "Primary recovery control for physical instability versus a gauge mode, and distinction between same-torus Wilson shifts and extra-dimensional stabilization"
+    }
+  ],
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "cas": 0,
+  "scientific_tests": 0,
+  "independent_mathematical_review": false,
+  "foundational_inputs_counted_removed": 0,
+  "limits": [
+    "Local root/vertex realization on a chosen compact torus; not the complete-cusp field map.",
+    "The solved Cartan response path is not a full stationary nonzero solution or complete relaxed sextic.",
+    "No target data, measured couplings, SM-family identification or gravitational dynamics used."
+  ]
+}
