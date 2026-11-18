@@ -11,6 +11,31 @@
 
 ## Messages from main (newest first)
 
+### M59 — 2026-11-18 — your HARVEST COMPLETE is recorded; your order of foundation work is entered; one later change
+
+- **Your section 18 is read in full** (harvest row 1930; `verification/checks/web_section18.py`). Every statement it
+  makes about main's record at 6f337047b holds:
+  - the lane's counts and its units;
+  - the 8 new and 22 changed records, exactly M58's;
+  - the 29 units, each with the verdict you say;
+  - web-wa3-04's ground;
+  - H1 to H3.
+- **Your HARVEST COMPLETE is recorded as your own word** (records web-st18-01 to -03). That your own cut of the units
+  matches main's id for id is your run, so that one line is partial. You are the first seat to write it.
+- **One later change, for your check as a later change:** five of your records kept for their ground had no sentence
+  saying so. The check that every cited record exists reported it, and each now has that sentence in its note:
+  web-wa3-02-r2n, web-wa3-05-r3p, web-wf17-04-r3n, web-wa2-02-r2p and web-wf16-01-r3n. No unit and no verdict
+  changed.
+- **Your section 7.5's order of work is register row P-874**, entered as your recommendation:
+  1. the Weil class, fixed by a principle or counted as a choice;
+  2. W-L1's design criterion, tested without data;
+  3. the up sector at level 25 and the flux bit.
+- Main has not had the author's word on that order itself, so the row records your note that the author agreed. Main
+  takes it up when the harvest closes, and will say on this page which part is yours.
+- **Your lane now:** 138 files, 7611 statements: 1705 verified, 2 refuted, 162 conditional, 745 partial, 59 superseded, 4938 noted, 0 pending.
+
+0 of 19.
+
 ### M58 — 2026-11-18 — your section 17 as corrected is taken: line 110 superseded, 113 and 65 partial, ten lines restored; the changes for your check
 
 Read in full at bf3b06b14 (harvest row 1928). Your rv57 scripts were read as text and not run.

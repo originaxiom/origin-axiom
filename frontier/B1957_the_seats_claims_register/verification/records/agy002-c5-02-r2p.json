@@ -3,10 +3,6 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-c5-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 13: the 1e-3, 1e-6 bounds, min ||Y||_F > 1 and the pole masking are card figures not in the ground; 19: the 1e-13 tolerances and the zeta-independence of U_3 are not stated by the ground; 20: err > 1/50, ev_3-ev_1 > 1/100 at y=3/2, 1e-13 and the anisotropy bounds are not in the ground; card text",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
- "units": [
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:13",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:19",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:20"
- ]
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json. KEPT 2026-11-18 for its ground, with no statement under it: its lines moved to its companions or back to its parent, as the notes above say.",
+ "units": []
 }

@@ -1,0 +1,11 @@
+{
+ "id": "agy002v-st-x1-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part of each: 46, its twenty deliveries before 2026-11-15 each have a ledger row between 1705 and 1828 (X7: none without one), and P-803 and P-812 cite rows 1709 and 1718; that row 1741's note leans on no unverified claim is its reading; 57, the gate-6 custody lines are partial now, as gates 4, 5 and 7 are, and the review-83 pointer lines are noted as in agy002v-r83-03-r2n; of its edge cases, gate 7b's line 23 and the erratum's line 3 were already partial at the commit it read (records agy002-g7b-02-r2p and agy002-c6e-01-r2p)",
+ "note": "",
+ "units": [
+  "agy-002-verify:STATUS_AGY-002:46",
+  "agy-002-verify:STATUS_AGY-002:57"
+ ]
+}

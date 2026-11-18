@@ -1,0 +1,24 @@
+{
+ "id": "agy002v-x1-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its six contradictions decided and its second computation, each on main: DC-1 by sm_c18_to_c21.py C3 (576 elements; 12 unitaries invert the transport and exchange the pair, 12 antiunitaries keep it and exchange the pair; 552 and 552 move off it; 12 and 12 keep or invert and keep the pair, the seat's six classes exactly); DC-2 by physical_c8_tick_higgs.py K3 to K5 and checks/agy002_a2x1.py (main's own construction of frame D1, 80 digits; the seat's script read as text, not run) X4, X5 (Hermitian forms kept and reversed by the tick: dimension 1 each; invariant polynomials 1, 2, 2, 3, 3, 4, 6 at degrees 2 to 14 and 15 at 24, against 4 and 7 for N and Delta^2 alone, numerically and exactly); DC-3 by K5, K6, sm_c18_to_c21.py C4 and X1, X2 (h* has no aligned case in 96; |V(h*)| at the mark near the matrix it states); DC-4 by K2, K9 and X5 (-conj z gives K exactly, conj z gives P K and misses K by 2.31; the two lifts agree on E and differ by an operator of singular values 2, 2 on the odd plane); DC-6 by B1945's law and X3 (the law under tau + 5 to 1e-78 at every entry, 24 points, three sectors; a fifth root left at 0, 20 and 20 points); its table's exponents (C4 and K6 for v+ and v-; X5 and K6 for h*, every column within the rounding it gives); M_lepton = e^(i phi) M_down^T at the mark (X6: 3e-80); the v+, v- and h* mixing classes (C4, X1, X5: the four top-aligned points of v- at a = 0; h* top-aligned at four points on the lifts that shift a by 1, which the seat numbers in the other order, and s3 > 1e-12 s1 at 10 and 15 of 24 on the others)",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:149",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:150",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:151",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:152",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:154",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:161",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:165",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:166",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:167",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:168",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:170",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:171",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:174",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:175",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:176"
+ ]
+}

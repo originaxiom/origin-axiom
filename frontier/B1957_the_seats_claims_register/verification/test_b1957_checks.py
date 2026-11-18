@@ -1104,3 +1104,35 @@ def test_the_constant_under_t_over_the_higgss_own_phase_is_an_eighth():
     assert re.search(r"H2: .*over the eight cases: \[0\.125\] of a turn", run)
     R = np.array([[0, 0, 1], [0, 1, 0], [-1, 0, 0]]); ph = sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(R)) / (2 * np.pi)) % 1)
     assert round(np.linalg.det(R)) == 1 and ph == [0.0, 0.25, 0.75] and sorted(round(float(x), 4) for x in (np.angle(np.linalg.eigvals(-R)) / (2 * np.pi)) % 1) != ph
+
+
+def test_agy002s_card_a2_x1_holds_on_mains_construction():
+    """agy-002's card A2-X1 (checks/agy002_a2x1.py and agy002_a2x1_quotes.py, from their committed runs; the first takes
+    minutes): h*'s mixing at the mark tends to the matrix the seat states, nearer at every height; the law under tau + 5
+    holds and leaves a fifth root at 0, 20 and 20 points; 15 invariants at degree 24, numerically and exactly; the
+    lepton matrix is the down matrix transposed up to a phase; every early delivery has a ledger row; every quotation is
+    where the note says.  The exact count at degree 24 is recomputed here, and a planted wrong count is caught."""
+    import re
+    C = pathlib.Path(__file__).resolve().parent / "checks"; run = (C / "agy002_a2x1_run.txt").read_text(); q = (C / "agy002_a2x1_quotes_run.txt").read_text()
+    d = [float(x) for x in re.findall(r"distance to the seat's limit ([0-9.e+-]+) with rows in the order \(0, 1, 2\) and columns \(0, 1, 2\)", run)]
+    assert len(d) == 3 and d[0] > d[1] > d[2] and d[2] < 1e-3
+    law = re.findall(r"  (up|down|lepton)\s*: \|ratio / law - 1\| at most ([0-9.e+-]+) .*?: (\d+) of 24", run)
+    assert {sec: int(n) for sec, _, n in law} == {"up": 0, "down": 20, "lepton": 20} and all(float(w) < 1e-60 for _, w, _ in law)
+    assert "numerically: {2: 1, 4: 2, 6: 2, 8: 3, 10: 3, 12: 4, 14: 6, 24: 15}; exactly: {2: 1, 4: 2, 6: 2, 8: 3, 10: 3, 12: 4, 14: 6, 24: 15}" in run
+    assert all(float(x) < 1e-60 for x in re.findall(r"X6: .*?= ([0-9.e+-]+) with \|c\| = 1\.0", run)) and len(re.findall(r"X6: ", run)) == 4
+    assert re.search(r"X7: .*without a row: \[\]", run) and "'agy-002-verify': (11, 500, 0)" in run
+    assert re.search(r"Q1: 12 citations .*; 63 quoted lines; not found at the commit, file and lines named: 0 \[\]", q) and "True, 'relays/a2_x1/verify_a2_x1_out.txt': True" in q
+
+    def exact(n, tick=True):                                       # N^a Delta^b w^k: k a multiple of 6, the tick's sign (-1)^(b + k/6)
+        return sum((1 if k == 0 else 2) for k in range(0, n + 1, 6) for b in range(0, n - k + 1) if not tick or (-1) ** (b + k // 6) == 1)
+    assert [exact(n) for n in (1, 2, 3, 4, 5, 6, 7, 12)] == [1, 2, 2, 3, 3, 4, 6, 15]
+    assert exact(12, tick=False) != 15                               # planted: without the tick the count is not the seat's
+
+
+def test_the_web_seats_section_18_states_mains_record_rightly():
+    """the web seat's section 18, where it writes HARVEST COMPLETE (checks/web_section18.py, from its committed run): its
+    lane's counts at 6f337047b, the records new and changed since 364ce101e, and the verdict of every unit it names."""
+    run = (pathlib.Path(__file__).resolve().parent / "checks" / "web_section18_run.txt").read_text()
+    assert "'files': 138, 'statements': 7581, 'VERIFIED': 1690, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 744, 'SUPERSEDED': 59, 'NOTED': 4924, 'PENDING': 0}; units 8327; cut at bf3b06b14" in run
+    assert "new 8, changed 22, gone 0" in run and "29 units it names" in run and "not with the verdict it says: 0 []" in run and "not verified: []" in run
+    assert "part D, for the trace signature: True; web.json's decision for W-A2's line 110: ['S']" in run

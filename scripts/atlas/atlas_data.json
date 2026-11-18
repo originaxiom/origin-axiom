@@ -17697,7 +17697,7 @@
     "L5"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 27,
+   "obstacle_conf": 28,
    "status": "dormant",
    "domain": "arithmetic"
   },

@@ -3,9 +3,9 @@
  "sorted": 696,
  "candidates": 473,
  "decisions": {
-  "K": 32,
-  "N": 196,
-  "P": 204,
+  "N": 217,
+  "K": 17,
+  "P": 198,
   "C": 41
  },
  "units": [
@@ -14,7 +14,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer, not a claim",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:76",
@@ -35,7 +37,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:86",
@@ -49,14 +53,18 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:102",
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:104",
@@ -77,7 +85,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:119",
@@ -91,7 +101,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:126",
@@ -105,7 +117,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:133",
@@ -126,7 +140,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:141",
@@ -147,7 +163,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:150",
@@ -161,7 +179,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:193",
@@ -182,7 +202,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:201",
@@ -203,7 +225,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:211",
@@ -224,7 +248,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:220",
@@ -238,7 +264,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:231",
@@ -259,7 +287,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:250",
@@ -273,7 +303,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:257",
@@ -287,7 +319,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:267",
@@ -308,7 +342,9 @@
    "record": "agy002v-r83-05",
    "class": "e",
    "why": "file-and-line pointer",
-   "decision": "K"
+   "decision": "N",
+   "first_decision": "K",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a pointer line, noted as in agy002v-r83-03-r2n"
   },
   {
    "unit": "agy-002-verify:REVIEW_83_AGY-002:284",
@@ -1532,14 +1568,18 @@
    "record": "agy002v-m33-04",
    "class": "b",
    "why": "charge preservation, channel weight, Theorem 90 correction not covered",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed_a2": "2026-11-18, agy-002's harvest review: checks/agy002_m33.py, M33.1, runs wb2_stage3_on_main.coupling with residue=False, so with the channel weights and the |a_0|^2 e^(-2 L_2) correction: at the 24 points of order 5, in both readings, Y_lepton = c Y_down^T to 3.5e-16 and the singular-value ratios agree to 2.8e-16"
   },
   {
    "unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:34",
    "record": "agy002v-m33-04",
    "class": "b",
    "why": "order-10 breaking on 72/72 points not covered (belongs to another record)",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed_a2": "2026-11-18, agy-002's harvest review: checks/agy002_m33.py, M33.2: at the 72 points of exact order 10 Y_lepton is at distance at least 0.4487 from every multiple of Y_down^T and the singular-value ratios agree at none"
   },
   {
    "unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:35",
@@ -2350,7 +2390,9 @@
    "record": "agy002-c5-02",
    "class": "a",
    "why": "the 1e-3, 1e-6 bounds, min ||Y||_F > 1 and the pole masking are card figures not in how",
-   "decision": "P"
+   "decision": "N",
+   "first_decision": "P",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a card's deliverable line ('Verify', 'Prove that'), noted like its sibling line 16, as agy-002 offers; its content is computed by main in checks/agy002_g5.py (run lines 1, 20, 21, 23 to 29), which beats every bound it states"
   },
   {
    "unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:15",
@@ -2371,14 +2413,18 @@
    "record": "agy002-c5-02",
    "class": "a",
    "why": "the 1e-13 tolerances and the zeta-independence of U_3 are not stated by how",
-   "decision": "P"
+   "decision": "N",
+   "first_decision": "P",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a card's deliverable line ('Verify', 'Prove that'), noted like its sibling line 16, as agy-002 offers; its content is computed by main in checks/agy002_g5.py (run lines 1, 20, 21, 23 to 29), which beats every bound it states"
   },
   {
    "unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:20",
    "record": "agy002-c5-02",
    "class": "a",
    "why": "err > 1/50, ev_3-ev_1 > 1/100 at y=3/2, 1e-13 and the anisotropy bounds are not in how; card text",
-   "decision": "P"
+   "decision": "N",
+   "first_decision": "P",
+   "changed_a2": "2026-11-18, agy-002's harvest review: a card's deliverable line ('Verify', 'Prove that'), noted like its sibling line 16, as agy-002 offers; its content is computed by main in checks/agy002_g5.py (run lines 1, 20, 21, 23 to 29), which beats every bound it states"
   },
   {
    "unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:5",
@@ -3056,7 +3102,9 @@
    "record": "agy002-es-05",
    "class": "a",
    "why": "down quarks at (2/15,1/2), ratio 3/2 and 11/10 for m1/m3 are not in the how",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed_a2": "2026-11-18, agy-002's harvest review: every figure is in checks/agy002_g2_run.txt (N = 15: down (2/15, 1/2), lepton (1/5, 11/20) in S and (1/5, 1/2) in S-tilde, the same as at N = 5; ratios 3/2 and 11/10 in S) and B1942's test (the 192 points of order 15 onto the 24 of order 5, eight each); 'colour-triality' is the seat's name for it"
   },
   {
    "unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:38",

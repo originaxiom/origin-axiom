@@ -1,0 +1,14 @@
+{
+ "id": "agy002v-st-x1-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its status page's review of main's register, each item right and acted on (M51): B1957's four agy-002 lanes at 4921ee923, 11, 12, 18 and 13 files and 500, 207, 271 and 189 statements, none pending (checks/agy002_a2x1.py (main's own construction of frame D1, 80 digits; the seat's script read as text, not run) X7); the three lines main's scripts compute (agy002_g2_run.txt lines 1 to 6 and B1942's test; agy002_m33_run.txt M33.1 with the norms and M33.2), restored; the gate-5 card's lines 13, 19 and 20, whose bounds agy002_g5_run.txt beats (least norm 3.191, step 1.4e-4; 9.2e-15; 4.0e-15 and 1.5e-14; even Delta 7.5e-15 to 6.7e-14, odd Delta 0.34 to 3.0; isotropy 0 and 4.4e-16), noted as their sibling line 16 is, the second of the two courses it offers",
+ "note": "",
+ "units": [
+  "agy-002-verify:STATUS_AGY-002:45",
+  "agy-002-verify:STATUS_AGY-002:50",
+  "agy-002-verify:STATUS_AGY-002:52",
+  "agy-002-verify:STATUS_AGY-002:53",
+  "agy-002-verify:STATUS_AGY-002:54"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "id": "agy002v-x1-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part of each: 4, the custody: checks/custody.py (custody_agy_002_verify_run.txt) finds its three commits on its branch in the order named and the script with no float or complex literal, and agy002_a2x1_quotes.py Q3 finds both manifests matching and the script last changed at 552f4ca17, the outputs at 20b911fd4; 'committed unread' is its statement of what it did; 5, the rule: its script imports no module of the repository (custody), 'zero .py files opened' is its statement; 153, DC-5: the four sheets, the leak of 2/3, no invariant character mod 2 and the averaged bubble's scalar are main's (K2, K7, K8), the single-point spread 17/100 at its point is its run (main's unaveraged bubble is not scalar, 0.07 at random points); 169, its generic vector's bounds: its weights are relative to its own eigenvectors, whose phases main's do not share; main's random vector of E behaves the same (K6); 177, P-873's question 3: main computes |V(h*)| at heights 8, 14 and 24 within 6.5e-2, 8.7e-3 and 3.8e-4 of the matrix it states (checks/agy002_a2x1.py (main's own construction of frame D1, 80 digits; the seat's script read as text, not run) X2, the same ordering), its own bounds; the limit as an exact statement rests on its dominant-term argument, which main has not computed, and its five planted controls are its run",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:4",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:5",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:153",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:169",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:177"
+ ]
+}

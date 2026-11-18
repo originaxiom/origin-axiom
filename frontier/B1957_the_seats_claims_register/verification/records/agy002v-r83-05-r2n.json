@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-r83-05, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 76, 86, 104, 119, 126, 133, 141, 150, 193, 201, 211, 220, 231, 250, 257, 267, 284",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 74 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 84 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 93 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 102 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 117 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 124 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 131 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 139 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 148 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 191 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 199 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 209 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 218 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 229 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 248 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 255 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 265 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n. NOTED AS A POINTER 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 282 of REVIEW_83_AGY-002.md: a pointer line, noted as in agy002v-r83-03-r2n.",
  "units": [
   "agy-002-verify:REVIEW_83_AGY-002:76",
   "agy-002-verify:REVIEW_83_AGY-002:86",
@@ -21,6 +21,24 @@
   "agy-002-verify:REVIEW_83_AGY-002:250",
   "agy-002-verify:REVIEW_83_AGY-002:257",
   "agy-002-verify:REVIEW_83_AGY-002:267",
-  "agy-002-verify:REVIEW_83_AGY-002:284"
+  "agy-002-verify:REVIEW_83_AGY-002:284",
+  "agy-002-verify:REVIEW_83_AGY-002:74",
+  "agy-002-verify:REVIEW_83_AGY-002:84",
+  "agy-002-verify:REVIEW_83_AGY-002:93",
+  "agy-002-verify:REVIEW_83_AGY-002:102",
+  "agy-002-verify:REVIEW_83_AGY-002:117",
+  "agy-002-verify:REVIEW_83_AGY-002:124",
+  "agy-002-verify:REVIEW_83_AGY-002:131",
+  "agy-002-verify:REVIEW_83_AGY-002:139",
+  "agy-002-verify:REVIEW_83_AGY-002:148",
+  "agy-002-verify:REVIEW_83_AGY-002:191",
+  "agy-002-verify:REVIEW_83_AGY-002:199",
+  "agy-002-verify:REVIEW_83_AGY-002:209",
+  "agy-002-verify:REVIEW_83_AGY-002:218",
+  "agy-002-verify:REVIEW_83_AGY-002:229",
+  "agy-002-verify:REVIEW_83_AGY-002:248",
+  "agy-002-verify:REVIEW_83_AGY-002:255",
+  "agy-002-verify:REVIEW_83_AGY-002:265",
+  "agy-002-verify:REVIEW_83_AGY-002:282"
  ]
 }

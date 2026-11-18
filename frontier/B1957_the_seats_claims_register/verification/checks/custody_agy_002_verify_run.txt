@@ -1,0 +1,15 @@
+AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md: 2 commits named, all on the branch: True; in the order named: 1 of 1 consecutive pairs
+     verify_smc13_order5.py: 505 lines, 22 float and 23 complex literals, imports ['__future__', 'fractions', 'json', 'math', 'mpmath', 'pathlib', 'random']
+AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md: 2 commits named, all on the branch: True; in the order named: 1 of 1 consecutive pairs
+     verify_a2_amp.py: 1225 lines, 144 float and 29 complex literals, imports ['__future__', 'cmath', 'fractions', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'random', 'sys', 'time', 'verify_a2_canon']
+AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK.md: 3 commits named, all on the branch: False (on neither the seat's branch nor main: ['fb7fc39ac']); in the order named: 1 of 1 consecutive pairs
+     compare_b1940_v2.py: 318 lines, 31 float and 0 complex literals, imports ['__future__', 'hashlib', 'json', 'math', 'pathlib', 'subprocess', 'sys', 'verify_a2_canon']
+     verify_a2_canon.py: 2174 lines, 551 float and 103 complex literals, imports ['__future__', 'json', 'math', 'mpmath', 'multiprocessing', 'numpy', 'os', 'pathlib', 'random', 'scipy', 'time', 'typing']
+AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md: 3 commits named, all on the branch: True; in the order named: 2 of 2 consecutive pairs
+     verify_b1947_d1.py: 676 lines, 51 float and 32 complex literals, imports ['__future__', 'fractions', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'random', 'sys', 'time', 'verify_a2_canon']
+REVIEW_83_AGY-002.md: 8 commits named, all on the branch: False (on neither the seat's branch nor main: ['b35eac607', '04293e826', 'fa1f2abd', '70fd6912', '135a2d5b']); in the order named: 1 of 1 consecutive pairs; main's own commits named: ['73e71e277', 'c8cece9be']
+     verify_r83_counterchecks.py: 1060 lines, 105 float and 66 complex literals, imports ['__future__', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'random', 'subprocess', 'sys', 'typing', 'verify_a2_canon']
+     verify_r83_extra_checks.py: 179 lines, 26 float and 5 complex literals, imports ['__future__', 'json', 'math', 'numpy', 'pathlib', 'random', 're', 'subprocess', 'sys', 'verify_r83_counterchecks']
+     verify_r83_quotes.py: 154 lines, 1 float and 0 complex literals, imports ['__future__', 'json', 'pathlib', 're', 'subprocess', 'sys']
+AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21.md: 7 commits named, all on the branch: False (on neither the seat's branch nor main: ['a69cee901', 'a47e76da6', 'aa9facef6']); in the order named: 3 of 3 consecutive pairs; main's own commits named: ['4921ee923']
+     verify_a2_x1.py: 1205 lines, 0 float and 0 complex literals, imports ['ast', 'json', 'mpmath', 'numpy', 'pathlib', 'sympy', 'time']

@@ -716,6 +716,14 @@ noted, and none is pending.
   own check of those changes (M58). The coupling's constant under T (a quarter turn in S, none in S-tilde) is the
   channels' eighth times the Higgs triplet's own phase; the seat's line 110, which gave the Higgs's eighth as the
   coupling's constant, is withdrawn and superseded.
+- **agy-002's card A2-X1 and its harvest review (harvest row 1929)** are settled. Every figure of the card holds on
+  main's own construction of frame D1 (checks/agy002_a2x1.py). At the mark, |V(h*)| comes within 3.8e-4 of the
+  maximal 1-3 mixing matrix the seat states, at height 24; that this is the exact limit rests on the seat's
+  dominant-term argument (P-873, question 3). Every record change its review asks for is made; its sign-off is asked
+  (M51).
+- **THE WEB SEAT HAS WRITTEN HARVEST COMPLETE** (its status page, section 18, at main's 6f337047b; harvest row 1930),
+  the first seat to. Every statement it makes there about main's record holds (checks/web_section18.py). Its next
+  work, the order of foundation work it recommends, is register row P-874.
 - **The first condition is met at the seats' newest heads (2026-11-18, night): no statement is pending.** The second is
   not: no seat has written the line.
   - The web seat's section 16 lists what it holds is left; main has acted on every row of it (M57).

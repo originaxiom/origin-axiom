@@ -5,15 +5,15 @@
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
 | agy-exp | 111 | 66 | 3182 | 94 | 6 | 471 | 554 | 60 | 1997 | **0** |
-| agy-002-verify | 11 | 11 | 500 | 135 | 3 | 10 | 111 | 0 | 241 | **0** |
-| agy-002-endgame | 12 | 12 | 207 | 13 | 8 | 33 | 46 | 0 | 107 | **0** |
-| agy-002-closure | 18 | 18 | 271 | 19 | 1 | 39 | 74 | 0 | 138 | **0** |
+| agy-002-verify | 13 | 13 | 591 | 151 | 3 | 11 | 116 | 0 | 310 | **0** |
+| agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
+| agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 164 | 158 | 11833 | 1390 | 0 | 1199 | 148 | 46 | 9050 | **0** |
-| web | 138 | 137 | 7581 | 1690 | 2 | 162 | 744 | 59 | 4924 | **0** |
+| web | 138 | 137 | 7611 | 1705 | 2 | 162 | 745 | 59 | 4938 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
 | sm | 11 | 9 | 516 | 30 | 5 | 7 | 113 | 0 | 361 | **0** |
-| **all** | 482 | 421 | 24403 | 3382 | 25 | 1938 | 1876 | 165 | 17017 | **0** |
+| **all** | 484 | 423 | 24524 | 3409 | 25 | 1939 | 1883 | 165 | 17103 | **0** |
 
 ## By file
 
@@ -135,12 +135,14 @@
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md` | yes | 47 | 47 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK.md` | yes | 22 | 22 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md` | yes | 22 | 22 | **0** |
+| agy-002-verify | `relays/AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21.md` | yes | 40 | 40 | **0** |
 | agy-002-verify | `relays/REVIEW_83_AGY-002.md` | yes | 204 | 204 | **0** |
-| agy-002-verify | `relays/STATUS_AGY-002.md` | yes | 26 | 26 | **0** |
+| agy-002-verify | `relays/STATUS_AGY-002.md` | yes | 42 | 42 | **0** |
 | agy-002-verify | `relays/cards/AGY-002_A2-AMP_amplitude-readout-twisted-eta-and-odd-ticks.md` | yes | 30 | 30 | **0** |
 | agy-002-verify | `relays/cards/AGY-002_A2-B1947_frame-d1-twisted-higgs-c2-covariance.md` | yes | 31 | 31 | **0** |
 | agy-002-verify | `relays/cards/AGY-002_A2-R83_review-83-cold-read-b1930-b1944.md` | yes | 11 | 11 | **0** |
 | agy-002-verify | `relays/cards/AGY-002_A2-SMC13_order5-lepton-down-copy.md` | yes | 20 | 20 | **0** |
+| agy-002-verify | `relays/cards/AGY-002_A2-X1_frame-d1-higgs-three-seat-cross-read-sm-c21-and-hstar-plane.md` | yes | 35 | 35 | **0** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G0_RESULTS.md` | yes | 19 | 19 | **0** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G1_RESULTS.md` | yes | 20 | 20 | **0** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G2_RESULTS.md` | yes | 18 | 18 | **0** |
@@ -411,7 +413,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 1092 | 1092 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1122 | 1122 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

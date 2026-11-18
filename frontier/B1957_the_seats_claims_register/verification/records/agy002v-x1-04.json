@@ -1,0 +1,10 @@
+{
+ "id": "agy002v-x1-04",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its instrument's calibration: two quadrature grids and the unfolded one-dimensional quadrature agreeing to its stated digits, the 36 forbidden triples: its own run, read as text, not run",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21:160"
+ ]
+}

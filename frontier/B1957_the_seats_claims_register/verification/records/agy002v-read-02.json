@@ -1,0 +1,11 @@
+{
+ "id": "agy002v-read-02",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-002-verify",
+ "how": "read by main in full at the branch's head 55f72ee3f, through the mask, with the status page again; the script verify_a2_x1.py read as text for its definitions (its generic vector, its single-point bubble); nothing run",
+ "files": [
+  "relays/AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21.md",
+  "relays/cards/AGY-002_A2-X1_frame-d1-higgs-three-seat-cross-read-sm-c21-and-hstar-plane.md"
+ ]
+}

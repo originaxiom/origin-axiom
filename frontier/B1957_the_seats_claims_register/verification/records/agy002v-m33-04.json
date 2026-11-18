@@ -3,10 +3,12 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "the arithmetic by hand (-3 = 2 and 6 = 1 mod 5; mod 2 the lepton charges are (1, 0) and the swapped down charges (0, 1)) and checks/agy002_m33.py M33.3: the four channel matrices and the four generation contractions each have transpose signs (-1, +1, +1, +1), in both readings, so every channel's product is +",
- "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions agy002v-m33-04-r2n, agy002v-m33-04-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions agy002v-m33-04-r2n, agy002v-m33-04-r2p; what stays is what its ground covers. RESTORED 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 33 of AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND: checks/agy002_m33.py, M33.1, runs wb2_stage3_on_main.coupling with residue=False, so with the channel weights and the |a_0|^2 e^(-2 L_2) correction: at the 24 points of order 5, in both readings, Y_lepton = c Y_down^T to 3.5e-16 and the singular-value ratios agree to 2.8e-16. RESTORED 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 34 of AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND: checks/agy002_m33.py, M33.2: at the 72 points of exact order 10 Y_lepton is at distance at least 0.4487 from every multiple of Y_down^T and the singular-value ratios agree at none.",
  "units": [
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:30",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:31",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:32"
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:32",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:33",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:34"
  ]
 }

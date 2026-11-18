@@ -232,5 +232,46 @@
     ]
    }
   }
+ },
+ {
+  "note": "relays/AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21.md",
+  "commits": [
+   "62420b533",
+   "4214628c8",
+   "552f4ca17",
+   "20b911fd4",
+   "a69cee901",
+   "a47e76da6",
+   "aa9facef6"
+  ],
+  "all_on_branch": false,
+  "missing": [
+   "a69cee901",
+   "a47e76da6",
+   "aa9facef6"
+  ],
+  "bare_nine_hex_not_commits": [],
+  "mains_commits_named": [
+   "4921ee923"
+  ],
+  "consecutive_in_order": 3,
+  "consecutive_pairs": 3,
+  "out_of_order": [],
+  "scripts": {
+   "relays/a2_x1/verify_a2_x1.py": {
+    "lines": 1205,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "ast",
+     "json",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "sympy",
+     "time"
+    ]
+   }
+  }
  }
 ]

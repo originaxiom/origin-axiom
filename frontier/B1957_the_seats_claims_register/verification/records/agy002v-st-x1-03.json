@@ -1,0 +1,18 @@
+{
+ "id": "agy002v-st-x1-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "its status page's head, its delivery row for A2-X1, headings, its acceptance of M48 and M49, its acceptance of the 268 partial lines (277 partial at 4921ee923, as it says) and its sign-off status, withheld on the changes now made (M51)",
+ "note": "",
+ "units": [
+  "agy-002-verify:STATUS_AGY-002:38",
+  "agy-002-verify:STATUS_AGY-002:44",
+  "agy-002-verify:STATUS_AGY-002:47",
+  "agy-002-verify:STATUS_AGY-002:49",
+  "agy-002-verify:STATUS_AGY-002:51",
+  "agy-002-verify:STATUS_AGY-002:56",
+  "agy-002-verify:STATUS_AGY-002:58",
+  "agy-002-verify:STATUS_AGY-002:60",
+  "agy-002-verify:STATUS_AGY-002:61"
+ ]
+}

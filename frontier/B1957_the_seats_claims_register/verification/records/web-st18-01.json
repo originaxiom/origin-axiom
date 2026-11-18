@@ -1,0 +1,24 @@
+{
+ "id": "web-st18-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its section 18.1, each statement about main's record at 6f337047b held against main's files there (checks/web_section18.py, Y2 to Y4): the lane's records new or changed since 364ce101e, 8 and 22, none gone; each of the 29 units it names has the verdict it says (W-A2's line 110 superseded and S in web.json; the weave note's ten lines verified and line 65 partial; the corrected W-B2 note's lines 126 and 127 verified; the rest as listed); web-wa3-04's ground names wa3_on_main.py, part D; the read-out's H1 to H3 as it says (checks/web_wa2_readout_run.txt: 1.6e-16, an eighth in all eight cases, R of determinant 1 with eigenphases 0, 1/4, 3/4); the records of section 17 cut at its corrected version, its direct test conditional (web-st17-03)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1819",
+  "web:STATUS_CHAT1:1820",
+  "web:STATUS_CHAT1:1821",
+  "web:STATUS_CHAT1:1823",
+  "web:STATUS_CHAT1:1825",
+  "web:STATUS_CHAT1:1826",
+  "web:STATUS_CHAT1:1827",
+  "web:STATUS_CHAT1:1828",
+  "web:STATUS_CHAT1:1829",
+  "web:STATUS_CHAT1:1830",
+  "web:STATUS_CHAT1:1831",
+  "web:STATUS_CHAT1:1832",
+  "web:STATUS_CHAT1:1833",
+  "web:STATUS_CHAT1:1834",
+  "web:STATUS_CHAT1:1835"
+ ]
+}

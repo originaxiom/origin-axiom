@@ -1,0 +1,10 @@
+{
+ "id": "web-st18-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: the lane at 6f337047b has 138 files and 7,581 statements, 1,690 verified, 2 refuted, 162 conditional, 744 partial, 59 superseded and 4,924 noted, none pending, 8,327 units, cut at bf3b06b14 (checks/web_section18.py, Y1); that every id, form, kind and hash matches its own cut of the units is its own run",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1816"
+ ]
+}

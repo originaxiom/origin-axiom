@@ -1,0 +1,25 @@
+X1: h*'s mixing classes at height 8 (24 points of order 5, four lifts; main's classifier of sm_c18_to_c21.py, C4):
+  lift (0, 0): {'aligned': 0, 'top-aligned': 0, 'permutation': 0, 'other': 24}; s3 > 1e-12 s1 at 10 of 24 points (up), 15 (down); top-aligned at (5a, 5b) = []
+  lift (0, 1): {'aligned': 0, 'top-aligned': 4, 'permutation': 0, 'other': 20}; s3 > 1e-12 s1 at 14 of 24 points (up), 19 (down); top-aligned at (5a, 5b) = [(0, 1), (0, 2), (0, 3), (0, 4)]
+  lift (1, 0): {'aligned': 0, 'top-aligned': 0, 'permutation': 0, 'other': 24}; s3 > 1e-12 s1 at 10 of 24 points (up), 15 (down); top-aligned at (5a, 5b) = []
+  lift (1, 1): {'aligned': 0, 'top-aligned': 4, 'permutation': 0, 'other': 20}; s3 > 1e-12 s1 at 14 of 24 points (up), 19 (down); top-aligned at (5a, 5b) = [(0, 1), (0, 2), (0, 3), (0, 4)]
+X2: |V(h*)| at the mark (2/5, 4/5), rows the up sector's left singular vectors and columns the down sector's, each by decreasing singular value:
+  height  8: |V| = [[0.704595, 0.064502, 0.706672], [0.707317, 0.017779, 0.706673], [0.056998, 0.997759, 0.035042]]; s3/s1 up 5.71e-15, down 3.69e-09; distance to the seat's limit 6.45e-02 with rows in the order (0, 1, 2) and columns (0, 1, 2)
+  height 14: |V| = [[0.707063, 0.008101, 0.707104], [0.707097, 0.004249, 0.707104], [0.008696, 0.999958, 0.002839]]; s3/s1 up 6.81e-26, down 1.05e-15; distance to the seat's limit 8.70e-03 with rows in the order (0, 1, 2) and columns (0, 1, 2)
+  height 24: |V| = [[0.707107, 0.000295, 0.707107], [0.707107, 0.000237, 0.707107], [0.000376, 1.0, 4.3e-05]]; s3/s1 up 4.38e-44, down 1.27e-26; distance to the seat's limit 3.76e-04 with rows in the order (0, 1, 2) and columns (0, 1, 2)
+X3: under tau + 5 at the 24 points (unshifted lift; heights 1.3 and 2.1):
+  up    : |ratio / law - 1| at most 2.13e-78 over 18 entries x 24 points x 2 moduli; points where a fifth root remains (ratio^12 != 1): 0 of 24
+  down  : |ratio / law - 1| at most 1.48e-79 over 18 entries x 24 points x 2 moduli; points where a fifth root remains (ratio^12 != 1): 20 of 24
+  lepton: |ratio / law - 1| at most 8.27e-78 over 18 entries x 24 points x 2 moduli; points where a fifth root remains (ratio^12 != 1): 20 of 24
+X4: under the transport w moves by e^(i pi 0.3333), under the tick by e^(i pi 0.1667) (Delta to -Delta); invariant real polynomials on E by degree, numerically: {2: 1, 4: 2, 6: 2, 8: 3, 10: 3, 12: 4, 14: 6, 24: 15}; exactly: {2: 1, 4: 2, 6: 2, 8: 3, 10: 3, 12: 4, 14: 6, 24: 15}; in N and Delta^2 alone: {2: 1, 4: 2, 6: 2, 8: 3, 10: 3, 12: 4, 14: 4, 24: 7}
+X5: Hermitian forms on E kept by the tick: dimension 1; reversed by it: dimension 1; |[P, T6]| = 9.4e-16, |[P, S6]| = 1.2e-15; on the parity's odd plane (dimension 2) the two lifts of the tick differ by an operator with singular values [2.0, 2.0]
+X5: v- is top-aligned at height 8 (unshifted lift) at (5a, 5b) = [(0, 1), (0, 2), (0, 3), (0, 4)]
+X5: h* up   at the mark: E2 -0.0124 (6 -> 8), -0.0043 (8 -> 10); E3 +1.3393, +1.3355
+X5: h* down at the mark: E2 +0.1978 (6 -> 8), +0.1994 (8 -> 10); E3 +0.7981, +0.7995
+X6: h*, height 8: |M_lepton - c M_down^T| / |M_lepton| = 3.05e-80 with |c| = 1.0
+X6: h*, height 14: |M_lepton - c M_down^T| / |M_lepton| = 1.02e-80 with |c| = 1.0
+X6: v+, height 8: |M_lepton - c M_down^T| / |M_lepton| = 8.21e-80 with |c| = 1.0
+X6: v+, height 14: |M_lepton - c M_down^T| / |M_lepton| = 2.78e-80 with |c| = 1.0
+X7: B1957 at main's 4921ee923, agy-002's lanes (files, statements, pending): {'agy-002-verify': (11, 500, 0), 'agy-002-endgame': (12, 207, 0), 'agy-002-closure': (18, 271, 0), 'agy-002-foundations': (13, 189, 0)}
+X7: its twenty deliveries before 2026-11-15 and the ledger rows (1705 to 1828) that name them: {'A2-C1': [1705, 1709], 'A2-R79': [1718, 1728, 1730, 1733, 1741], 'A2-C2': [1709, 1718], 'A2-R79b': [1728, 1730], 'A2-R79c': [1733], 'A2-R79d': [1741], 'A2-R80': [1737, 1749], 'A2-R80b': [1749], 'A2-C3': [1749], 'A2-R80c': [1749], 'A2-S-R80a': [1749], 'A2-S-R80b-p1': [1749], 'A2-NEG': [1789], 'A2-B1924': [1790], 'A2-P332': [1791], 'A2-TICK': [1795], 'A2-OWN1': [1796], 'A2-R82': [1801], 'A2-LIMIT': [1828], 'A2-PRINCIPLE': [1807]}; without a row: []
+exit 0

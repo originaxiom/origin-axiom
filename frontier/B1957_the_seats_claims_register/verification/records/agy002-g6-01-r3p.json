@@ -1,0 +1,14 @@
+{
+ "id": "agy002-g6-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE UNMARKED LINES, 2026-11-18, changed at agy-002's harvest review: lines of record agy002-g6-01 whose custody clauses main narrowed in the same seat's gates 4, 5 and 7 (records agy002-g4-01-r2p, -g5-01-r2p, -g7-01-r2p).",
+ "note": "NARROWED 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 8 of AGY002_CLOSURE_G6_RESULTS.md: 'committed unread' is the seat's statement of what it did, which no check of main's can compute. NARROWED 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 9 of AGY002_CLOSURE_G6_RESULTS.md: 'untouched under seal-immutable' is not covered by the ground. NARROWED 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 10 of AGY002_CLOSURE_G6_RESULTS.md: 'committed unread' is the seat's statement of what it did. NARROWED 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 13 of AGY002_CLOSURE_G6_RESULTS.md: 'committed unread' is the seat's statement of what it did. NARROWED 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 22 of AGY002_CLOSURE_G6_RESULTS.md: '4 / 4 producer manifests matched' is not the ground's 48 manifests.",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:8",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:9",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:10",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:13",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:22"
+ ]
+}

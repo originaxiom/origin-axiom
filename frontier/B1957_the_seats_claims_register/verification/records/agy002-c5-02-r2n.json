@@ -3,9 +3,12 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-c5-02, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 15, 18",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json. NOTED AS A CARD LINE 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 13 of AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-hol: a card's deliverable line ('Verify', 'Prove that'), noted like its sibling line 16, as agy-002 offers; its content is computed by main in checks/agy002_g5.py (run lines 1, 20, 21, 23 to 29), which beats every bound it states. NOTED AS A CARD LINE 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 19 of AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-hol: a card's deliverable line ('Verify', 'Prove that'), noted like its sibling line 16, as agy-002 offers; its content is computed by main in checks/agy002_g5.py (run lines 1, 20, 21, 23 to 29), which beats every bound it states. NOTED AS A CARD LINE 2026-11-18 at agy-002's harvest review (its status page at 55f72ee3f): line 20 of AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-hol: a card's deliverable line ('Verify', 'Prove that'), noted like its sibling line 16, as agy-002 offers; its content is computed by main in checks/agy002_g5.py (run lines 1, 20, 21, 23 to 29), which beats every bound it states.",
  "units": [
   "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:15",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:18"
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:18",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:13",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:19",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:20"
  ]
 }

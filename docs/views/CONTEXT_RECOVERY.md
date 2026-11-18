@@ -18,13 +18,13 @@
 | … NEGATIVE | 386 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 873 |
-| … “QUEUED” | 319 |
+| register points | 874 |
+| … “QUEUED” | 320 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1928 |
+| harvest rows (the last number) | 1930 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, later: THE WEB SEAT'S SECTION 17, AS CORRECTED, TAKEN IN FULL; ITS COMPLETION LINE WAITS ONLY ON ITS CHECK OF THOSE CHANGES (B1957, OPEN; harvest row 1928; P-865, P-873).** The register: 482 files, 421 read at source, 24403 statements: 3382 verified, 25 refuted, 1938 conditional, 1876 partial, 165 superseded, 17017 noted, 0 pending. Main's read-out now carries the Higgs triplet's own law under tau + 1 (an eighth of a turn times a real rotation): the coupling's constant under T is the channels' eighth times the Higgs's own phase, so the seat's line 110, which had the Higgs's eighth as the coupling's constant, is withdrawn and superseded; ten lines main had n…”
+“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT HAS WRITTEN HARVEST COMPLETE, THE FIRST SEAT TO; agy-002'S CARD A2-X1 HOLDS ON MAIN'S CONSTRUCTION AND EVERY CHANGE OF ITS HARVEST REVIEW IS MADE; THE WEB SEAT'S ORDER OF FOUNDATION WORK ENTERED AS P-874 (B1957, OPEN; harvest rows 1929, 1930; P-865, P-873, P-874).** The register: 484 files, 423 read at source, 24524 statements: 3409 verified, 25 refuted, 1939 conditional, 1883 partial, 165 superseded, 17103 noted, 0 pending. The web seat checked main's changes of M58 and writes that main's record states its work rightly, nothing missing or understated, none pending; every statement it makes about main's record holds (checks/web_section1…”
 
 ## Completeness (nothing skipped silently)
 

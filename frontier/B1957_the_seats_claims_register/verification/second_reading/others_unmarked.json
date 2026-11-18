@@ -3,9 +3,9 @@
  "read": 251,
  "decisions": {
   "N": 6,
-  "P": 5
+  "P": 10
  },
- "kept": 240,
+ "kept": 235,
  "units": [
   {
    "unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:16",
@@ -72,6 +72,36 @@
    "record": "agyexp-xb-01",
    "decision": "P",
    "why": "at the seat's own audit: the clause on its script's unimodular factors is not in the ground"
+  },
+  {
+   "unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:8",
+   "record": "agy002-g6-01",
+   "decision": "P",
+   "why": "agy-002's harvest review: 'committed unread' is the seat's statement of what it did, which no check of main's can compute"
+  },
+  {
+   "unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:9",
+   "record": "agy002-g6-01",
+   "decision": "P",
+   "why": "agy-002's harvest review: 'untouched under seal-immutable' is not covered by the ground"
+  },
+  {
+   "unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:10",
+   "record": "agy002-g6-01",
+   "decision": "P",
+   "why": "agy-002's harvest review: 'committed unread' is the seat's statement of what it did"
+  },
+  {
+   "unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:13",
+   "record": "agy002-g6-01",
+   "decision": "P",
+   "why": "agy-002's harvest review: 'committed unread' is the seat's statement of what it did"
+  },
+  {
+   "unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:22",
+   "record": "agy002-g6-01",
+   "decision": "P",
+   "why": "agy-002's harvest review: '4 / 4 producer manifests matched' is not the ground's 48 manifests"
   }
  ],
  "read_units": [
