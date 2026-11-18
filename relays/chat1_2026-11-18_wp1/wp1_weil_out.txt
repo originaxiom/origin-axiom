@@ -1,1 +1,11 @@
 W2: gamma mod 5 = [[2, 1], [1, 1]]; gamma^5 mod 5 = [[4, 0], [0, 4]]
+W1 a=1: S^4 = I True; S^2 = parity True; dims even/odd 3/2
+W2 a=1: rho(gamma)^5 = parity True
+W3 a=1: tr rho(gamma) = 1.000000-0.000000i; tr rho(gamma^2) = -2.236068+0.000000i (sqrt 5 = 2.236068); eigenphases in tenths: even [2, 8, 10], odd [3, 7]
+W1 a=2: S^4 = I True; S^2 = parity True; dims even/odd 3/2
+W2 a=2: rho(gamma)^5 = parity True
+W3 a=2: tr rho(gamma) = 1.000000+0.000000i; tr rho(gamma^2) = 2.236068+0.000000i (sqrt 5 = 2.236068); eigenphases in tenths: even [4, 6, 10], odd [1, 9]
+W4 (a, b) = (1, 1): tr R(T^2) / tr R(T)^2 = 0.200000+0.000000i
+W4 (a, b) = (1, 2): tr R(T^2) / tr R(T)^2 = -0.200000+0.000000i
+W4 (a, b) = (2, 1): tr R(T^2) / tr R(T)^2 = -0.200000-0.000000i
+W4 (a, b) = (2, 2): tr R(T^2) / tr R(T)^2 = 0.200000+0.000000i
