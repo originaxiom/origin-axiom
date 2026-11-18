@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-rtr-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "main read RIGID_TAU_HOLOMORPHIC_RULE.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 14: B1720: the best six within a factor 1.80 on its order-28 line",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE:14"
+ ]
+}

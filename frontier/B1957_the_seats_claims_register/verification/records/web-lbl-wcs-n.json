@@ -1,0 +1,33 @@
+{
+ "id": "web-lbl-wcs-n",
+ "date": "2026-11-19",
+ "verdict": "NOTED",
+ "how": "main read WHAT_COULD_BE_SETTLED.md line by line (harvest row 1970); headings, method, custody, sweeps, referee accounts, requests and proposals: not claims",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:3",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:6",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:7",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:8",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:13",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:18",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:22",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:40",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:69",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:87",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:89",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:90",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:94",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:141",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:145",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:146",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:156",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:157",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:161",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:173",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:186",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:196",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:202",
+  "web:chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:235"
+ ]
+}

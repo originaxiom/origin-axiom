@@ -1,0 +1,23 @@
+{
+ "id": "web-lbl-c2r-c",
+ "date": "2026-11-19",
+ "verdict": "CONDITIONAL",
+ "how": "main read C2_RESOLUTION.md line by line (harvest row 1970); these are the seat's own claims, readings and runs, which main has not verified: they stay CONDITIONAL (the file was recorded in its day as read only at its headline, scope or in part, or read in full with nothing re-run on main)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:5",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:9",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:13",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:15",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:16",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:19",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:29",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:30",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:33",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:34",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:35",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:39",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:41",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:46"
+ ]
+}

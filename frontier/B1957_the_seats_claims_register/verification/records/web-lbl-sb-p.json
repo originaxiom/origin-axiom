@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-sb-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md line by line (harvest row 1970); main holds part of each: line 164: B1734's verdict, PROVED as sealed for its question, holds; that it is a reading carried by one thread pair is the seat's account",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:164"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "web-lbl-dd-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md line by line (harvest row 1970); main holds part of each: line 76: B1494's definition quoted rightly; the seat's argument that every fixed-point companion's ends are alike is its own; line 82: v1.18's words quoted rightly; the rest is its reading; line 109: B1600's W1 quoted rightly; that it gives no run is the seat's reading; line 130: B1694's 'one fibre has one tau' quoted rightly; its per-sector heights are not checked here",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:76",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:82",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:109",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:130"
+ ]
+}

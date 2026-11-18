@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-std-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read THE_STANDING.md line by line (harvest row 1970); main holds part of each: line 205: B1658's factor 4 against 15.9 holds; B1660's sealed result on W59's lines is not checked here",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:205"
+ ]
+}

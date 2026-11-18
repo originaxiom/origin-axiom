@@ -1332,6 +1332,20 @@ def test_agy_002s_older_files_taken_in_under_p876():
     assert "with entries in [-7, 7]: 360; of positive trace 180" in r and "ratios 1.99" in r and "at 86930f574, the commit the seat read, B1927's table gives 1.79: True" in r
 
 
+
+def test_the_web_seats_older_deliveries_read_line_by_line():
+    """added 2026-11-19 (harvest row 1970, the web seat's section 29.4): every line of the older deliveries taken in at rows 1968 and
+    1969 sits in a record whose ground is main's line-by-line reading (web-lbl-*), or in web-old-01, -04 or -05 from main's record;
+    the rule records web-old-02, -03, -06, -07 are empty; the pair-sums note's checks (checks/web_pair_sums.py) hold."""
+    import json
+    V = pathlib.Path(__file__).resolve().parent; R = V / "records"
+    for r in ("web-old-02", "web-old-03", "web-old-06", "web-old-07"):
+        assert json.loads((R / (r + ".json")).read_text())["units"] == [], r
+    lbl = [json.loads(q.read_text()) for q in R.glob("web-lbl-*.json")]
+    assert len(lbl) >= 40 and all("line by line" in d["how"] for d in lbl) and sum(len(d["units"]) for d in lbl) >= 1400
+    r = (V / "checks" / "web_pair_sums_run.txt").read_text()
+    assert "violations of the first inequality 0, of the second 0" in r and "c_inf(3/8) = -1.9587128014618" in r and "c_inf(1/8) = 13.704645886188" in r
+
 def test_the_web_seats_section_28_and_its_answers():
     """added 2026-11-19: section 28 (61a0684e0) held against main at 996638890 (checks/web_section28.py), and its answers: P-356
     corrected, row 1088 bracketed, the P-327 relay's e19 in the register"""

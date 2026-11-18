@@ -1,0 +1,14 @@
+{
+ "id": "web-lbl-zfr-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "main read THE_ZERO_FREE_READING.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 63: computed here: psi(i) = 0.59017, psi(omega) = 0.59645, the maximum at omega a known theorem (Osgood-Phillips-Sarnak); line 146: classical, standard (the valence formula; E4 vanishes at omega; a zero-free level-one form is c Delta^n); line 151: classical, standard (the valence formula; E4 vanishes at omega; a zero-free level-one form is c Delta^n); line 163: B1670: a massless up quark excluded at 31 sigma; line 202: classical, standard (the valence formula; E4 vanishes at omega; a zero-free level-one form is c Delta^n)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:63",
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:146",
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:151",
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:163",
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:202"
+ ]
+}

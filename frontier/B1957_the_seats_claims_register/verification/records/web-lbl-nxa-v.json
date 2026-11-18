@@ -1,0 +1,16 @@
+{
+ "id": "web-lbl-nxa-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "main read THE_NEXT_ATTACK.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 20: B1735 title and table: 3.09, 0.03%; line 22: B1741: P1 14.93, P2 0.60%; line 25: B1735 line 63: 109; B1741 line 28: 204 and 1 410; line 28: B1739: nearly null, each sector's lightest state on h-bar or h; line 53: row 1350: section 1.2 verified symbolically (B1744 section 2 D); line 100: rows 1349, 1350: the idealised up channel's lemma and its bound R5 (B1743 section 3); line 117: row 1350: section 1.7, the lepton-down identity (B1742 section 3)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:20",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:22",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:25",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:28",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:53",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:100",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:117"
+ ]
+}

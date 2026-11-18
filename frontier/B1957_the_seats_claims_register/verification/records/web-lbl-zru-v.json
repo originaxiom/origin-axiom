@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-zru-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "main read ZERO_FREE_RULE.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 76: computed here: psi(i) = 0.590, psi(omega) = 0.596, psi(1.5i) = 0.558",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:76"
+ ]
+}

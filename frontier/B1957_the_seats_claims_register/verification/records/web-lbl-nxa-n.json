@@ -1,0 +1,24 @@
+{
+ "id": "web-lbl-nxa-n",
+ "date": "2026-11-19",
+ "verdict": "NOTED",
+ "how": "main read THE_NEXT_ATTACK.md line by line (harvest row 1970); headings, method, custody, sweeps, referee accounts, requests and proposals: not claims",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:3",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:8",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:37",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:196",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:200",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:201",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:204",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:225",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:227",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:229",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:231",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:239",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:246",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:248",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:253"
+ ]
+}

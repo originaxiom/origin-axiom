@@ -1,0 +1,20 @@
+{
+ "id": "web-lbl-zru-c",
+ "date": "2026-11-19",
+ "verdict": "CONDITIONAL",
+ "how": "main read ZERO_FREE_RULE.md line by line (harvest row 1970); these are the seat's own claims, readings and runs, which main has not verified: they stay CONDITIONAL (the file was recorded in its day as read only at its headline, scope or in part, or read in full with nothing re-run on main)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:7",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:10",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:11",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:14",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:17",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:18",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:19",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:21",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:54",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:57",
+  "web:chat1_2026-10-21_zero_free/ZERO_FREE_RULE:74"
+ ]
+}

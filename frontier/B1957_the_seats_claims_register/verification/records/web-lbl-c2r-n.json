@@ -1,0 +1,11 @@
+{
+ "id": "web-lbl-c2r-n",
+ "date": "2026-11-19",
+ "verdict": "NOTED",
+ "how": "main read C2_RESOLUTION.md line by line (harvest row 1970); headings, method, custody, sweeps, referee accounts, requests and proposals: not claims",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:3",
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:27"
+ ]
+}

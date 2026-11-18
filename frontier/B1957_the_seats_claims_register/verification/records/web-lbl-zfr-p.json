@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-zfr-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read THE_ZERO_FREE_READING.md line by line (harvest row 1970); main holds part of each: line 62: |E4(omega)| = 0 holds (computed here); the Niemeier dressings' zeros inside the domain are not checked here",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:62"
+ ]
+}

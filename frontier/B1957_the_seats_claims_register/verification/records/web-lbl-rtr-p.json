@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-rtr-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read RIGID_TAU_HOLOMORPHIC_RULE.md line by line (harvest row 1970); main holds part of each: line 11: B1696's 26.8% holds; 'about three times too small' is not checked here",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE:11"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "id": "web-lbl-ps-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md line by line (harvest row 1970); main holds part of each: line 194: row 1516: main reproduced the value at 0.13 + 1.9i (-+0.10); the other values are the seat's run; line 222: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 224: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 226: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 227: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 228: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 233: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 250: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 251: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:194",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:222",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:224",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:226",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:227",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:228",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:233",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:250",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:251"
+ ]
+}

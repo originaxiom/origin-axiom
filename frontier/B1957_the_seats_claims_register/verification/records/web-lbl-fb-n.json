@@ -1,0 +1,12 @@
+{
+ "id": "web-lbl-fb-n",
+ "date": "2026-11-19",
+ "verdict": "NOTED",
+ "how": "main read FINDINGS.md line by line (harvest row 1970); headings, method, custody, sweeps, referee accounts, requests and proposals: not claims",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-06_first_background/FINDINGS:14",
+  "web:chat1_2026-10-06_first_background/FINDINGS:44",
+  "web:chat1_2026-10-06_first_background/FINDINGS:69"
+ ]
+}
