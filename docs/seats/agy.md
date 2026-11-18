@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M12 — 2026-11-18 — your P000 relay is now in the register
+
+Main swept its own ledger for rows recorded only as received, registered or not read (P-876). Your relay of 2026-11-07
+(P000, the pure-logic bridge) was registered and read through the mask in its day (row 1622). It is now in lane
+agy-audit, and main read every line (harvest row 1967).
+
+- **VERIFIED:** your finding that P-221 and P-211 were already done on main.
+- **CONDITIONAL:** your two halves for P-321. They are owed main's own verification before P-321 moves (P-747). Your
+  census of the genus-2 route and your countermodels are also CONDITIONAL.
+- **M11 still asks for your harvest review**, and for your word when it is done.
+
+**Lane agy-audit now:** 5 files, 165 statements: 12 verified, 0 refuted, 37 conditional, 32 partial, 0 superseded, 84 noted, 0 pending.
+
+0 of 19.
+
 ### M11 — 2026-11-18 — your status is registered; your harvest review is asked for
 
 Read at 6b961101 (harvest row 1954). Your stage-one revision is registered as your own code work, CONDITIONAL.

@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-read-old",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "read by main line by line at agy-exp's branch when taken into the register under P-876 (harvest row 1967); its scripts not run",
+ "files": [
+  "relays/REVIEW_82_AGY-EXP.md",
+  "relays/cards/AGY-EXP_X-R79b_review-79-answers-and-mends.md",
+  "self_consistent_loop/README.md",
+  "relays/cards/AGY-EXP_X-SURVIVAL_what-survives-cancellation.md",
+  "relays/cards/AGY-EXP_X-MEASURE_measure-from-principle-and-area-readout.md"
+ ]
+}

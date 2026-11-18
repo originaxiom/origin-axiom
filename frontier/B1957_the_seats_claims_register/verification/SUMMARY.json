@@ -1,16 +1,16 @@
 {
  "lanes": {
   "agy-exp": {
-   "files": 111,
-   "read": 66,
-   "units": 3984,
-   "statements": 3236,
-   "VERIFIED": 157,
+   "files": 116,
+   "read": 71,
+   "units": 4188,
+   "statements": 3392,
+   "VERIFIED": 220,
    "REFUTED": 7,
-   "CONDITIONAL": 471,
+   "CONDITIONAL": 487,
    "PARTIAL": 531,
    "SUPERSEDED": 60,
-   "NOTED": 2010,
+   "NOTED": 2087,
    "PENDING": 0
   },
   "agy-exp-later": {
@@ -105,16 +105,16 @@
    "PENDING": 0
   },
   "agy-audit": {
-   "files": 4,
-   "read": 4,
-   "units": 144,
-   "statements": 124,
-   "VERIFIED": 11,
+   "files": 5,
+   "read": 5,
+   "units": 199,
+   "statements": 165,
+   "VERIFIED": 12,
    "REFUTED": 0,
-   "CONDITIONAL": 18,
+   "CONDITIONAL": 37,
    "PARTIAL": 32,
    "SUPERSEDED": 0,
-   "NOTED": 63,
+   "NOTED": 84,
    "PENDING": 0
   },
   "sm": {
@@ -990,6 +990,19 @@
    "NOTED": 77,
    "PENDING": 0
   },
+  "agy-exp | relays/REVIEW_82_AGY-EXP.md": {
+   "lane": "agy-exp",
+   "units": 125,
+   "statements": 93,
+   "read": true,
+   "VERIFIED": 63,
+   "REFUTED": 0,
+   "CONDITIONAL": 8,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 22,
+   "PENDING": 0
+  },
   "agy-exp | relays/REVIEW_83_AGY-EXP.md": {
    "lane": "agy-exp",
    "units": 197,
@@ -1432,6 +1445,32 @@
    "NOTED": 11,
    "PENDING": 0
   },
+  "agy-exp | relays/cards/AGY-EXP_X-MEASURE_measure-from-principle-and-area-readout.md": {
+   "lane": "agy-exp",
+   "units": 30,
+   "statements": 26,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 26,
+   "PENDING": 0
+  },
+  "agy-exp | relays/cards/AGY-EXP_X-R79b_review-79-answers-and-mends.md": {
+   "lane": "agy-exp",
+   "units": 31,
+   "statements": 22,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 22,
+   "PENDING": 0
+  },
   "agy-exp | relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md": {
    "lane": "agy-exp",
    "units": 30,
@@ -1469,6 +1508,19 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 22,
+   "PENDING": 0
+  },
+  "agy-exp | relays/cards/AGY-EXP_X-SURVIVAL_what-survives-cancellation.md": {
+   "lane": "agy-exp",
+   "units": 12,
+   "statements": 9,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 5,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 4,
    "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-SYNTHESIS-1_hyperbolic-liouville-metric-cusp-tail-and-multigrid-lambdas-sigma-star.md": {
@@ -1573,6 +1625,19 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 20,
+   "PENDING": 0
+  },
+  "agy-exp | self_consistent_loop/README.md": {
+   "lane": "agy-exp",
+   "units": 6,
+   "statements": 6,
+   "read": true,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 3,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 3,
    "PENDING": 0
   },
   "agy-exp | self_consistent_loop/reports/phase4_unification_cap_lepton_report.md": {
@@ -6773,6 +6838,19 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 17,
+   "PENDING": 0
+  },
+  "agy-audit | relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57.md": {
+   "lane": "agy-audit",
+   "units": 55,
+   "statements": 41,
+   "read": true,
+   "VERIFIED": 1,
+   "REFUTED": 0,
+   "CONDITIONAL": 19,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 21,
    "PENDING": 0
   },
   "agy-audit | relays/STATUS_AGY.md": {

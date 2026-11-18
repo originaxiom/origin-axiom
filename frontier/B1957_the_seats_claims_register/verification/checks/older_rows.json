@@ -424,9 +424,9 @@
    "W34_RULE.md": "a name several files share, given without its path",
    "CONVENTIONS.md": "a name several files share, given without its path",
    "W138_RULE.md": "on a seat's branch only, not in the register",
-   "relays/SM_C1_VERDICTS.md": "on a seat's branch only, not in the register",
    "relays/SM_C2_VERDICTS.md": "on a seat's branch only, not in the register",
    "relays/STATUS_SM.md": "in the register",
+   "relays/SM_C1_VERDICTS.md": "on a seat's branch only, not in the register",
    "relays/SM_C5_WP19_COMPUTATIONS.md": "on a seat's branch only, not in the register",
    "relays/SM_C6_E1_THE_BASED_COUNT.md": "on a seat's branch only, not in the register",
    "relays/SM_C6_E2_THE_RANK_OF_THE_BITS.md": "on a seat's branch only, not in the register",
@@ -436,8 +436,8 @@
    "relays/cards/SM_C8_the-partner-test.md": "on a seat's branch only, not in the register",
    "relays/SM_LITERATURE_NOTE_1.md": "on a seat's branch only, not in the register",
    "relays/SM_SCOPE_NOTE_CLOSED_JOINS.md": "on a seat's branch only, not in the register",
-   "relays/cards/SM_C10_the-one-tick-object.md": "on a seat's branch only, not in the register",
    "relays/SM_THE_CANDIDATE_SYSTEM.md": "on a seat's branch only, not in the register",
+   "relays/cards/SM_C10_the-one-tick-object.md": "on a seat's branch only, not in the register",
    "relays/SM_C9_THE_L_VALUE_AS_A_RHO_INVARIANT.md": "on a seat's branch only, not in the register",
    "relays/SM_C8_THE_PARTNER_TEST.md": "on a seat's branch only, not in the register",
    "relays/SM_C11_THE_FIVE_ENDED_COMPANION.md": "on a seat's branch only, not in the register",
@@ -451,13 +451,13 @@
    "relays/SM_C16_THE_ACTION_AS_THE_WEIGHT.md": "on a seat's branch only, not in the register",
    "relays/SM_C17_THE_ACTION_AS_A_PHASE.md": "on a seat's branch only, not in the register",
    "relays/SM_C19_WHICH_BIT.md": "in the register",
-   "relays/cards/SM_C18_the-triple-overlaps-covariance.md": "in the register",
-   "relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md": "in the register",
-   "relays/cards/SM_C20_is-the-exchange-the-tick.md": "in the register",
-   "relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md": "in the register",
    "relays/cards/SM_C21_the-d1-cusp-mixing-at-the-ticks-higgs.md": "in the register",
-   "relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md": "in the register",
+   "relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md": "in the register",
+   "relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md": "in the register",
    "relays/SM_C21_THE_D1_CUSP_MIXING.md": "in the register",
+   "relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md": "in the register",
+   "relays/cards/SM_C20_is-the-exchange-the-tick.md": "in the register",
+   "relays/cards/SM_C18_the-triple-overlaps-covariance.md": "in the register",
    "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md": "in the register"
   }
  },
@@ -571,14 +571,14 @@
    229
   ],
   "files": {
-   "documents/program-question-map/evidence/PROGRESS_BANK_2026-08-30_R030.md": "not found",
    "memos/YUKAWA_PHI_COVER_SPECIALIZATION_308.md": "not found",
+   "documents/program-question-map/evidence/PROGRESS_BANK_2026-08-30_R030.md": "not found",
    "memos/SPIN_IDENTIFICATIONS_PHASE_C.md": "not found",
    "memos/B1233_B1234_FRESH_MAIN_SCOPE_AUDIT.md": "not found",
-   "memos/A1_SU6_RANK_REDUCTION.md": "not found",
    "CODEX_TO_CC_2026-09-02_A1_RANK_REDUCTION.md": "not found",
-   "CODEX_TO_CC_2026-09-02_A4_2T_LIFT_TORSOR.md": "not found",
+   "memos/A1_SU6_RANK_REDUCTION.md": "not found",
    "memos/A4_2T_LIFT_TORSOR.md": "not found",
+   "CODEX_TO_CC_2026-09-02_A4_2T_LIFT_TORSOR.md": "not found",
    "CODEX_TO_CC_2026-09-01_WAVE9_QUESTION_MAP.md": "not found"
   }
  },
@@ -617,8 +617,8 @@
    "outside_bench/memos/WHAT_WE_CAN_ANSWER_OURSELVES.md": "on main's tree, not in the register",
    "outside_bench/memos/THE_TWO_TIER_ONE_SOURCES.md": "on main's tree, not in the register",
    "outside_bench/memos/THE_CHAIN_IS_TWENTY_ONE.md": "on main's tree, not in the register",
-   "outside_bench/memos/THE_GATE_HAS_NO_PRODUCT_ROW.md": "on main's tree, not in the register",
    "docs/KIND_TABLE.md": "on main's tree, not in the register",
+   "outside_bench/memos/THE_GATE_HAS_NO_PRODUCT_ROW.md": "on main's tree, not in the register",
    "outside_bench/memos/THE_Z2_SLOTS_ARE_FULL.md": "on main's tree, not in the register",
    "outside_bench/memos/THE_MAGIC_SQUARE_SPLITS_THE_CHARGES.md": "on main's tree, not in the register",
    "outside_bench/memos/L142_THREE_FACTS.md": "on main's tree, not in the register",
@@ -1071,11 +1071,11 @@
    "relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md": "in the register",
    "relays/STATUS_CHAT1.md": "in the register",
-   "relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-11_A_COLD_READ_OF_THE_THREE_PART_STRUCTURE.md": "in the register",
+   "relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md": "in the register",
    "relays/REVIEW_80_CHAT1.md": "in the register",
-   "relays/cards/CHAT1_W-C4_the_agy_lanes_theorems_c_d_e.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E.md": "in the register",
+   "relays/cards/CHAT1_W-C4_the_agy_lanes_theorems_c_d_e.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD.md": "in the register"
   }
  },
@@ -1165,8 +1165,8 @@
    "reports/phase_common_line_2026_10_04/FINDINGS.md": "on a seat's branch only, not in the register",
    "reports/phase_component_interaction_2026_10_04/FINDINGS.md": "on a seat's branch only, not in the register",
    "reports/phase_component_matter_2026_10_04/FINDINGS.md": "on a seat's branch only, not in the register",
-   "PROOF.md": "a name several files share, given without its path",
    "reports/global_quotient_admission_2026_09_27/FINDINGS.md": "on a seat's branch only, not in the register",
+   "PROOF.md": "a name several files share, given without its path",
    "reports/charged_l2_bridge_2026_09_27/FINDINGS.md": "on a seat's branch only, not in the register",
    "reports/goal_reassessment_2026_09_27/ASSESSMENT.md": "on a seat's branch only, not in the register",
    "reports/monomial_gauge_centralizer_2026_09_27/FINDINGS.md": "on a seat's branch only, not in the register",
@@ -1226,7 +1226,7 @@
    1779
   ],
   "files": {
-   "relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57.md": "on a seat's branch only, not in the register",
+   "relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57.md": "in the register",
    "relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md": "in the register"
   }
  },
@@ -1240,8 +1240,8 @@
   "files": {
    "reports/physical_bridge_2026_09_05/REGISTRATION_TO_SM3_GOAL_2026_11_08.md": "on a seat's branch only, not in the register",
    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md": "on a seat's branch only, not in the register",
-   "reports/physical_bridge_2026_09_05/precalibration_closure_2026_11_10/WORK_ORDER.md": "on a seat's branch only, not in the register",
-   "WORK_ORDER.md": "a name several files share, given without its path"
+   "WORK_ORDER.md": "a name several files share, given without its path",
+   "reports/physical_bridge_2026_09_05/precalibration_closure_2026_11_10/WORK_ORDER.md": "on a seat's branch only, not in the register"
   }
  },
  "advisor seat": {
@@ -1256,14 +1256,14 @@
   "rows_no_file": [],
   "files": {
    "relays/advisor_2026-11-10_audit/back_edge_A/DESIGN_BACK_EDGE_A_THE_STATE.md": "on a seat's branch only, not in the register",
-   "relays/advisor_2026-11-10_audit/wp_0_7/WHY_EACH_CASE_PASSES.md": "on a seat's branch only, not in the register",
    "THE_ADVISOR_SEATS_PLAN.md": "on a seat's branch only, not in the register",
+   "relays/advisor_2026-11-10_audit/wp_0_7/WHY_EACH_CASE_PASSES.md": "on a seat's branch only, not in the register",
    "relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_3_SIX_PATCHES.md": "on a seat's branch only, not in the register",
-   "ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md": "on a seat's branch only, not in the register",
    "relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ.md": "on a seat's branch only, not in the register",
-   "relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md": "on a seat's branch only, not in the register",
+   "ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md": "on a seat's branch only, not in the register",
+   "relays/STATUS_CLD-ADVISOR.md": "on a seat's branch only, not in the register",
    "relays/cards/cld-advisor_C5_wp-0-9-series-2.md": "on a seat's branch only, not in the register",
-   "relays/STATUS_CLD-ADVISOR.md": "on a seat's branch only, not in the register"
+   "relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md": "on a seat's branch only, not in the register"
   }
  },
  "agy lane": {
@@ -1297,33 +1297,33 @@
    1836
   ],
   "files": {
-   "self_consistent_loop/README.md": "on a seat's branch only, not in the register",
+   "self_consistent_loop/README.md": "in the register",
    "relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md": "in the register",
    "relays/STATUS_AGY-EXP.md": "in the register",
-   "relays/cards/AGY-EXP_X-SURVIVAL_what-survives-cancellation.md": "on a seat's branch only, not in the register",
-   "relays/cards/AGY-EXP_X-MEASURE_measure-from-principle-and-area-readout.md": "on a seat's branch only, not in the register",
+   "relays/cards/AGY-EXP_X-SURVIVAL_what-survives-cancellation.md": "in the register",
+   "relays/cards/AGY-EXP_X-MEASURE_measure-from-principle-and-area-readout.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ.md": "in the register",
    "relays/REVIEW_83_AGY-EXP.md": "in the register",
-   "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md": "in the register",
-   "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md": "in the register",
+   "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS.md": "in the register",
-   "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md": "in the register",
+   "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md": "in the register",
+   "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS.md": "in the register",
-   "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS.md": "in the register",
-   "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS.md": "in the register",
+   "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md": "in the register",
+   "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS.md": "in the register",
-   "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS.md": "in the register",
+   "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS.md": "in the register",
    "relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md": "in the register",
    "relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md": "in the register",
    "relays/STATUS_AGY.md": "in the register"
@@ -1360,12 +1360,12 @@
    1942
   ],
   "files": {
+   "relays/cards/AGY-002_A2-R79b_review-79-answers-and-cross-mends.md": "in the register",
    "REVIEW_79B_AGY-002.md": "in the register",
    "relays/REVIEW_79B_AGY-002.md": "in the register",
-   "relays/cards/AGY-002_A2-R79b_review-79-answers-and-cross-mends.md": "in the register",
+   "relays/cards/AGY-002_A2-R79d_b1881-23-plants-at-c40446392.md": "in the register",
    "AGY002_TO_CC_2026-11-12_M10_B1881_23_PLANTS_RERUN.md": "in the register",
    "relays/AGY002_TO_CC_2026-11-12_M10_B1881_23_PLANTS_RERUN.md": "in the register",
-   "relays/cards/AGY-002_A2-R79d_b1881-23-plants-at-c40446392.md": "in the register",
    "relays/REVIEW_80_AGY-002.md": "in the register",
    "relays/AGY002_TO_CC_2026-11-14_M24_CONTEMPLATION_AND_A2_OWN1.md": "in the register",
    "relays/REVIEW_82_AGY-002.md": "in the register",
@@ -1373,11 +1373,11 @@
    "relays/AGY002_TO_CC_2026-11-14_M26_M30_A2_LIMIT_PROOF_CHECK.md": "in the register",
    "relays/REVIEW_83_AGY-002.md": "in the register",
    "relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md": "in the register",
-   "relays/AGY002_CLOSURE_G7B_RESULTS.md": "in the register",
    "relays/AGY002_CLOSURE_G4_RESULTS.md": "in the register",
+   "relays/AGY002_CLOSURE_G7B_RESULTS.md": "in the register",
    "relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md": "in the register",
-   "relays/AGY002_ENDGAME_V2_G3_RESULTS.md": "in the register",
-   "relays/AGY002_ENDGAME_V2_G0_RESULTS.md": "in the register"
+   "relays/AGY002_ENDGAME_V2_G0_RESULTS.md": "in the register",
+   "relays/AGY002_ENDGAME_V2_G3_RESULTS.md": "in the register"
   }
  },
  "agy-exp": {
@@ -1392,18 +1392,18 @@
   ],
   "rows_no_file": [],
   "files": {
-   "relays/cards/AGY-EXP_X-R79b_review-79-answers-and-mends.md": "on a seat's branch only, not in the register",
-   "relays/REVIEW_79B_AGY-EXP.md": "in the register",
    "REVIEW_79B_AGY-EXP.md": "in the register",
-   "AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md": "in the register",
+   "relays/REVIEW_79B_AGY-EXP.md": "in the register",
+   "relays/cards/AGY-EXP_X-R79b_review-79-answers-and-mends.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md": "in the register",
    "relays/STATUS_AGY-EXP.md": "in the register",
-   "relays/AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS.md": "in the register",
+   "AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-12_X_C1B_RESULTS.md": "in the register",
+   "relays/AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS.md": "in the register",
    "relays/AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE.md": "in the register",
-   "relays/REVIEW_82_AGY-EXP.md": "on a seat's branch only, not in the register"
+   "relays/REVIEW_82_AGY-EXP.md": "in the register"
   }
  },
  "the advisor seat": {
@@ -1413,12 +1413,12 @@
   "rows_no_file": [],
   "files": {
    "relays/STATUS_CLD-ADVISOR.md": "on a seat's branch only, not in the register",
-   "relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_REVIEW_79_THE_ELEVEN_FINDINGS_THE_TEN_SPECIFICATIONS_AND_P_816.md": "on a seat's branch only, not in the register",
-   "relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md": "on a seat's branch only, not in the register",
    "relays/cards/cld-advisor_C2_wp-0-7-series-4.md": "on a seat's branch only, not in the register",
+   "ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS.md": "on a seat's branch only, not in the register",
+   "relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md": "on a seat's branch only, not in the register",
    "relays/cards/cld-advisor_C6_wp-0-7-series-5.md": "on a seat's branch only, not in the register",
    "relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS.md": "on a seat's branch only, not in the register",
-   "ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS.md": "on a seat's branch only, not in the register",
+   "relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_REVIEW_79_THE_ELEVEN_FINDINGS_THE_TEN_SPECIFICATIONS_AND_P_816.md": "on a seat's branch only, not in the register",
    "relays/advisor_2026-11-10_audit/wp_0_7/series_4/README.md": "on a seat's branch only, not in the register"
   }
  },
@@ -1506,8 +1506,8 @@
    "relays/CHAT1_TO_CC_2026-11-14_W-B1_FRAME_D_AND_B1936S_PREMISE.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10.md": "in the register",
    "relays/cards/CHAT1_W-F25_frame_cs_cusp_exponents.md": "in the register",
-   "relays/CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY.md": "in the register",
+   "relays/CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT.md": "in the register",
    "relays/STATUS_CHAT1.md": "in the register",
@@ -1516,8 +1516,8 @@
    "relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS.md": "in the register",
-   "relays/CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND.md": "in the register",
    "relays/cards/CHAT1_W-A2_deriving_postulate_d.md": "in the register",
+   "relays/CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md": "in the register",
    "relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md": "in the register",
    "relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md": "in the register"
@@ -1543,32 +1543,32 @@
   "rows_no_file": [],
   "files": {
    "relays/PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW.md": "in the register",
-   "relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md": "in the register",
    "relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS.md": "in the register",
+   "relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md": "in the register",
    "relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md": "in the register",
    "relays/PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW.md": "in the register",
-   "relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT.md": "in the register",
-   "relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT.md": "in the register",
    "relays/PHYSICAL_TO_SM_AND_CC_2026-11-16_FOUR_SLOT_DOMAINS_AND_REGISTERING_DEFECT.md": "in the register",
    "relays/PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3_SEAL_AND_X_BRIDGE_INTAKE.md": "in the register",
+   "relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT.md": "in the register",
+   "relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT.md": "in the register",
    "relays/PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS.md": "in the register",
-   "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN.md": "in the register",
    "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR.md": "in the register",
+   "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN.md": "in the register",
    "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3E_COMPLETE_LIGHT_SYSTEM_AND_STATIONARY_FAMILIES.md": "in the register",
    "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS.md": "in the register",
-   "FINDINGS.md": "a name several files share, given without its path",
    "MAIN_CHECKLIST.md": "in the register",
    "LATE_CLOSURE_ADDENDUM.md": "in the register",
    "relays/PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION.md": "in the register",
+   "FINDINGS.md": "a name several files share, given without its path",
    "relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE.md": "in the register",
    "relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-17_INPUT_RECHECK_AND_COVARIANT_JOIN_CORRECTIONS.md": "in the register",
-   "relays/PHYSICAL_TO_MAIN_SM_AND_SEATS_2026-11-17_C7_FOUR_FORM_CONNECTION_AND_RETAINED_REGISTER.md": "in the register",
    "relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md": "in the register",
+   "relays/PHYSICAL_TO_MAIN_SM_AND_SEATS_2026-11-17_C7_FOUR_FORM_CONNECTION_AND_RETAINED_REGISTER.md": "in the register",
    "relays/PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY.md": "in the register",
    "DEFECTS.md": "in the register",
    "relays/STATUS_PHYSICAL.md": "in the register",
-   "CURRENT_SOURCE_FINDINGS.md": "in the register",
    "relays/PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md": "in the register",
+   "CURRENT_SOURCE_FINDINGS.md": "in the register",
    "ASSESSMENT_AND_PLAN.md": "in the register"
   }
  },
@@ -1578,18 +1578,18 @@
   ],
   "rows_no_file": [],
   "files": {
+   "M9_REGISTER_REVIEW.md": "in the register",
+   "relays/cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18.md": "in the register",
    "relays/STATUS_PHYSICAL.md": "in the register",
-   "WILSON_FAMILY_TRANSPORT.md": "in the register",
-   "relays/cards/PHYSICAL_C8_TICK_HIGGS_ALIGNMENT_2026-11-18.md": "in the register",
    "CUSP_INVERSE_SOURCE_SUPPORT.md": "in the register",
-   "ACTION_JOIN_AND_SELECTOR_REQUIREMENTS.md": "in the register",
-   "COVARIANT_LIFTS_AND_KINETIC_RESPONSE.md": "in the register",
    "NON_MARKDOWN_COVERAGE.md": "in the register",
    "EXACT_GROUND_SPACE_AND_SELECTION.md": "in the register",
-   "README.md": "a name several files share, given without its path",
+   "WILSON_FAMILY_TRANSPORT.md": "in the register",
    "relays/PHYSICAL_TO_MAIN_2026-11-18_M9_SCOPE_CORRECTIONS_AND_CUSP_SUPPORT.md": "in the register",
-   "relays/cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18.md": "in the register",
-   "M9_REGISTER_REVIEW.md": "in the register"
+   "relays/cards/PHYSICAL_C8_TICK_HIGGS_ALIGNMENT_2026-11-18.md": "in the register",
+   "COVARIANT_LIFTS_AND_KINETIC_RESPONSE.md": "in the register",
+   "ACTION_JOIN_AND_SELECTOR_REQUIREMENTS.md": "in the register",
+   "README.md": "a name several files share, given without its path"
   }
  },
  "agyaudit": {

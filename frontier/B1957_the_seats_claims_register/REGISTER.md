@@ -4,7 +4,7 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 111 | 66 | 3236 | 157 | 7 | 471 | 531 | 60 | 2010 | **0** |
+| agy-exp | 116 | 71 | 3392 | 220 | 7 | 487 | 531 | 60 | 2087 | **0** |
 | agy-exp-later | 3 | 3 | 60 | 3 | 1 | 23 | 0 | 0 | 33 | **0** |
 | agy-002-verify | 25 | 22 | 1221 | 263 | 3 | 282 | 131 | 0 | 542 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
@@ -12,10 +12,10 @@
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 187 | 184 | 12354 | 967 | 0 | 1448 | 280 | 46 | 9613 | **0** |
 | web | 138 | 138 | 8205 | 2053 | 3 | 164 | 780 | 59 | 5146 | **0** |
-| agy-audit | 4 | 4 | 124 | 11 | 0 | 18 | 32 | 0 | 63 | **0** |
+| agy-audit | 5 | 5 | 165 | 12 | 0 | 37 | 32 | 0 | 84 | **0** |
 | sm | 21 | 16 | 6455 | 366 | 4 | 3935 | 219 | 0 | 1931 | **0** |
 | agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
-| **all** | 571 | 508 | 33386 | 3987 | 29 | 6569 | 2153 | 765 | 19883 | **0** |
+| **all** | 577 | 514 | 33583 | 4051 | 29 | 6604 | 2153 | 765 | 19981 | **0** |
 
 ## By file
 
@@ -86,6 +86,7 @@
 | agy-exp | `relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md` | yes | 62 | 62 | **0** |
 | agy-exp | `relays/REVIEW_79B_AGY-EXP.md` | yes | 58 | 58 | **0** |
 | agy-exp | `relays/REVIEW_80_AGY-EXP.md` | yes | 131 | 131 | **0** |
+| agy-exp | `relays/REVIEW_82_AGY-EXP.md` | yes | 93 | 93 | **0** |
 | agy-exp | `relays/REVIEW_83_AGY-EXP.md` | yes | 159 | 159 | **0** |
 | agy-exp | `relays/STATUS_AGY-EXP.md` | yes | 254 | 254 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_R83_review-83.md` | no | 30 | 30 | **0** |
@@ -120,9 +121,12 @@
 | agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-3_one-loop-spectral-action-and-kronecker-cancellation.md` | no | 33 | 33 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-4_literature-gated-rge-bridge-and-naumov-invariants.md` | no | 31 | 31 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-L5_level5-point-phase-law-and-odd-c-sign-recomputation.md` | no | 11 | 11 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-MEASURE_measure-from-principle-and-area-readout.md` | yes | 26 | 26 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-R79b_review-79-answers-and-mends.md` | yes | 22 | 22 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md` | no | 23 | 23 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-2_sec2-sec3-flavor-exponents-across-levels-5-10-15.md` | no | 26 | 26 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-3_amphichiral-determinants-seesaw-crt-and-atlas.md` | no | 22 | 22 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-SURVIVAL_what-survives-cancellation.md` | yes | 9 | 9 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-1_hyperbolic-liouville-metric-cusp-tail-and-multigrid-lambdas-sigma-star.md` | no | 13 | 13 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-2_crossform-nilpotence-end-response-and-parent-normal-wall.md` | no | 13 | 13 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-3_minus48-rge-pati-salam-3bl-tm1-and-weil-s2-scalar.md` | no | 13 | 13 | **0** |
@@ -131,6 +135,7 @@
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-2_lowdin-petersson-amphichiral-cs-and-3family-dparity-strong-cp.md` | no | 17 | 17 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-3_all288-tropical-noncancellation-r2-286-envelope-and-radiative-vacuum-audit.md` | no | 23 | 23 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-4_cross-seat-master-closure-matrix-pati-salam-corridors-and-final-0-of-19-suite.md` | no | 20 | 20 | **0** |
+| agy-exp | `self_consistent_loop/README.md` | yes | 6 | 6 | **0** |
 | agy-exp | `self_consistent_loop/reports/phase4_unification_cap_lepton_report.md` | yes | 78 | 78 | **0** |
 | agy-exp-later | `relays/AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I.md` | yes | 30 | 30 | **0** |
 | agy-exp-later | `relays/STATUS_AGY-EXP.md` | yes | 6 | 6 | **0** |
@@ -531,6 +536,7 @@
 | agy-audit | `relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md` | yes | 69 | 69 | **0** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | yes | 30 | 30 | **0** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md` | yes | 17 | 17 | **0** |
+| agy-audit | `relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57.md` | yes | 41 | 41 | **0** |
 | agy-audit | `relays/STATUS_AGY.md` | yes | 8 | 8 | **0** |
 | sm | `c9296d14a:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` | no | 5361 | 5361 | **0** |
 | sm | `relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md` | yes | 27 | 27 | **0** |

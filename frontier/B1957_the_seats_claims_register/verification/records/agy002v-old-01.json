@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "agy-002's older files taken into the register under P-876 (lane agy-002-verify; harvest row 1966), the lines main's own record or computation settles: REVIEW_79B's findings 2 to 17 (B1894 reproduced its round-two findings from main's own files, twelve in full; B1895 held all four on B1881) and its account of the twelve closed and seven open; REVIEW_80's 36 findings of its first table (B1898: agy-002's 36 of the first 43, each checked in full by main and held; Review 81 found 29 of the 80 checks left no output), its Row thirteen, and the false statement main's 2W5 mend put into B1884 (mended, B1923); the necklace counts 16,275 and 2,815 (checks/agy002_older_reviews.py A1); M26's three points on B1928's proof (row 1828: each checked by main against the files); REVIEW_82's B1927 lock that computed and never asserted (B1931: mended, main's direct check), B1927's corner ratio 1.79 in its table against 1.99 in its run at 86930f574 (A4), B1925's square-root sentence false at m = 11 and 13 (A2: only +-1 modulo 125 and 173) and its 360 hyperbolic matrices of which 180 have positive trace (A3)",
- "note": "",
+ "note": "[CORRECTED 2026-11-18, later still (harvest row 1967): B1927's corner ratio 1.79 at 86930f574 was a fault PLANTED in the reading copy (B1931's plant P1, 1.99 planted as 1.79), not an error of main's record; agy-002's finding caught the plant, as B1931 says both readers did. The same holds of B1925's 'every metallic' (P5) and B1929's lock (P3), which its other lines catch.]",
  "units": [
   "agy-002-verify:AGY002_TO_CC_2026-11-14_M26_M30_A2_LIMIT_PROOF_CHECK:13",
   "agy-002-verify:AGY002_TO_CC_2026-11-14_M26_M30_A2_LIMIT_PROOF_CHECK:14",

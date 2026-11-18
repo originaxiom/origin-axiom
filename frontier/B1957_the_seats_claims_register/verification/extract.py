@@ -57,7 +57,18 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
         "relays/AGY002_TO_CC_2026-11-14_WHAT_SURVIVES_CANCELLATION.md",
         "relays/AGY002_TO_CC_2026-11-14_M26_M30_A2_LIMIT_PROOF_CHECK.md",
     ),
+    # P-876 (added 2026-11-18, later): five more files of the self-consistent-loop branch older than agy-exp's window, recorded only as
+    # registered by file name, received, or read at their README (harvest rows 1678, 1729, 1800 and the cards' rows): its Review 82
+    # reading and its card X-R79b, the loop's README, and its cards X-SURVIVAL and X-MEASURE; and the agy lane's P000 relay (row 1622)
+    "agy-audit": (
+        "relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57.md",
+    ),
     "agy-exp": (
+        "relays/REVIEW_82_AGY-EXP.md",
+        "relays/cards/AGY-EXP_X-R79b_review-79-answers-and-mends.md",
+        "self_consistent_loop/README.md",
+        "relays/cards/AGY-EXP_X-SURVIVAL_what-survives-cancellation.md",
+        "relays/cards/AGY-EXP_X-MEASURE_measure-from-principle-and-area-readout.md",
         "relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md",
         "relays/AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS.md",
         "self_consistent_loop/reports/phase4_unification_cap_lepton_report.md",

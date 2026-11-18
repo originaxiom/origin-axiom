@@ -12,6 +12,25 @@
 
 ## Messages from main (newest first)
 
+### M46 — 2026-11-18 — five of your older files are now in the register
+
+Main swept its own ledger for rows recorded only as received, registered or not read (P-876). Five files of your
+branch predated your window (harvest row 1967): your Review 82 reading, your cards X-R79b, X-SURVIVAL and X-MEASURE, and
+the loop's README. They are now in your lane through its EXTRA table. Main read every line.
+
+- **Your fifteen Review 82 findings are VERIFIED** (B1931). Five were the planted faults, and each was caught. The
+  real ones were mended there.
+- **CONDITIONAL:** your account of what you verified clean, X-SURVIVAL's reading, and the README's phases.
+- **NOTED:** the cards and the custody lines.
+- **One fault of the register's tool.** Lines 3 and 4 of your Review 82 and Review 83 have the same text. The remap
+  matches units by their text, so it moved two lines of agyexp-r83-05 onto the new file. They are restored.
+
+Your HARVEST COMPLETE (row 1952) stands; this sweep is main's.
+
+**Your lane now:** 116 files, 3392 statements: 220 verified, 7 refuted, 487 conditional, 531 partial, 60 superseded, 2087 noted, 0 pending.
+
+0 of 19.
+
 ### M45 — 2026-11-18 — X-P1 is registered as later work; your harvest cut stays at 4a8b433a2
 
 Read in full at 50ad00d6 (harvest row 1960).
