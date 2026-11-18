@@ -1,227 +1,260 @@
-# W-P1: the process reading. Wherever the programme chooses, ask what the object's own iteration does there. The golden thread's iteration forces its numbers without a choice, but it never rises above Im τ = √5/2, while frame C's hierarchy lives higher, so how the weave weighs its threads is the selection question and the hierarchy question at once. The frame's lines cannot see the Weil class, so a process that reaches the read-out only through them cannot fix it
+# W-P1: the process reading. A working rule: wherever the programme chooses, ask what the object's own iteration does there, and score the net count of choices. Applied to the record's open choices, it settles none by computation. Read as a principle, it names the act's Weil class, 2x²/5 (B1951's). The Higgs direction and the reading survive it, and naming parts by the iteration over-splits colour
 
-**From:** the web seat (chat1). **To:** main (cc). **Kind:** `card:` a design, data-free. Nothing of any frame is
-computed here; one exact check of a single matrix is (`relays/chat1_2026-11-18_wp1/`, committed before its run).
+**From:** the web seat (chat1). **To:** main (cc). **Kind:** `card:` a design, data-free. No frame is computed here.
+Two exact checks are, each committed before its run (`relays/chat1_2026-11-18_wp1/`).
 
-**Why now.** The author asked this seat, on 2026-11-18, to write the reading below as a card for main and the seats.
-It belongs under the first foundation step the author agreed (the Weil class, status page § 7.5; P-874), and it
-applies to the other two. It is main's to take up; this seat takes the part main assigns.
+**Why now.** The author asked this seat, on 2026-11-18, to write the reading below as a card. It is offered under the
+first step of the order of foundation work in this seat's status page, § 7.5, which main entered as P-874 as this
+seat's recommendation. It is main's to take up.
 
 **Typing.**
-- [E] marks what is established, by the record (cited) or by standard mathematics (the check named).
+- [E] marks what is established: by the record (cited), by standard mathematics, or by the checks named.
 - [J] marks this seat's judgement.
 - Nothing here is compared with a measured value.
+
+**Not blind at τ = i.** This seat ran W-L1's look at τ = i, which lies on the golden axis, and W-F24 came after the big
+run's look (both say so). This card proposes no value anywhere and reads no frame.
 
 ---
 
 ## 0. In short
 
-1. **[J] The reframing.**
-   - The founding principle names a process: what remains when cancelling to nothing cannot complete.
-   - The programme turned it into an object, and reads the object's frames at places it supplies: a point of the
-     modulus, a Higgs direction, a Weil class, a reading.
-   - Selection and the dictionary may be the properties of the running process, not of the object read at a point.
-2. **[J] The working rule:** at every step where the programme makes a choice, ask what the object's own iteration does
-   there instead. Either the iteration settles the choice, or the choice survives it and is counted.
-3. **[E] The record has taken this step once, for τ, and it was right to.** The frame is canonical as an average along
-   a thread at the thread's own line (B1922). But the average still needs a measure over threads, and the measure moves
-   the values (P-776, P-845; W-F24).
-4. **[E] and [J] A sharp new point:** the golden thread's geodesic never rises above Im τ = √5/2 ≈ 1.118. Frame C's
-   hierarchy is a height variable, measured from height 2 up (W-F24).
-   - So the golden process never visits where the hierarchy lives. Only threads with long runs of one letter rise
-     there.
-   - Under the move count, which the record's principle names (P-845), the weave's measure sharpens at i, in the bulk
-     (B1868).
-   - So whether the principle's own process visits the hierarchy at all is a data-free count, and the measure question
-     and the hierarchy question are one question.
-5. **[E] and [J] A sharp failure test for the Weil class:** the frame's lines are blind to the class (B1955). A process
-   that reaches the read-out only through the lines cannot fix it, and the class then stays a counted choice.
+1. **[J] The rule.** The founding principle names a process: what remains when cancelling to nothing cannot complete.
+   So at each choice the programme makes, ask what the object's own iteration does there.
+   - Either the iteration imposes a test that exactly one option passes, and the choice is settled;
+   - or the choice survives, and it is counted.
+   - Score the net count: choices removed minus principles added.
+2. **[E] For τ, the record has already done this.**
+   - The frame is canonical as an average along a thread at its own line (B1922).
+   - The end is fixed by the fibre's geometry, under a stated regularity condition (B1927).
+   - The weight over threads is the open choice. The record's principle names the letter count (P-845).
+   - The rule adds nothing new for τ.
+3. **[E] and [J] The Weil class.**
+   - The object carries both classes. The knot's form gives x²/5, and the act's unipotent part gives 2x²/5 (B1955,
+     § 2).
+   - The golden iteration tells the two apart but prefers neither (2.2).
+   - Read as a principle, "what the process does decides" names the act's class, 2x²/5. That is one counted principle
+     for one choice: net zero, unless the same principle settles another.
+4. **[E] The Higgs direction survives the rule.** The iteration keeps N and |Δ| (P-873, check K4). So it cannot move a
+   ray of E toward any set.
+5. **[E] and [J] The dictionary.** The golden iteration splits level 5's 3 into 1 + 2, so naming parts by their role
+   under it splits colour. Only its fifth power, the parity P, gives W-A1's 3 + 2.
 
 ---
 
-## 1. The reframing, and why
+## 1. The rule, and what it is not
 
-**1.1. [J] The misreading the programme may be making.** The object is treated as the finished thing, and selection
-is sought inside it: which point, which direction, which class, which reading. A process does not select by being read
-at a point. It selects by what it does when it runs: its stretch, its fixed sets, the measure it settles into, its
-rates. Those are forced, with nothing to pick.
+**1.1. [J] The rule.** The object is often read as a finished structure, evaluated at places the programme supplies:
+a point of the modulus, a Higgs direction, a Weil class, a reading. A process selects differently. It selects by what
+it does when it runs: its fixed sets, its spectrum, the measure it settles into, its rates. So at every choice, ask
+what the iteration does there, and type the choice by the bins of this seat's view (its § 3.1):
+- **equivalence:** the iteration exchanges the options;
+- **consistency:** exactly one option passes a test the iteration imposes;
+- **counted:** neither.
 
-**1.2. [E] Why now: the searches for a selected point have come back flat.**
-- "Nothing computed selects any direction" of the Higgs plane (P-873; B1957's FINDINGS, at P-873's second question).
-- "The three parity sectors together leave tau free" (harvest row 1075).
-- "No clock studied here selects a point" (B1816).
-- "the democratic thread sum is flat" (B1813).
+**1.2. [J] What it is not.**
+- **It is not "average everything".** Averaging used as a stand-in for "no choice" destroyed the hierarchy the frame
+  has (this seat's view, § 0; W-F24). A process reading keeps the process's fixed sets, spectra and rates. Only what
+  the process mixes is averaged.
+- **It is not new for τ** (§ 3.1).
+- **Telling options apart is not selecting one.** An iteration that acts differently on two options settles nothing
+  unless one of them fails a test (§ 3.2).
+
+**1.3. [J] Three ways the rule can be circular, stated first.**
+- **The clock depends on the generators.** P-845's note says the move count depends on the choice of generators.
+  - [J] The object is defined as words in L and R, so the letter count in L and R is the object's own clock. It was
+    counted once, when the programme chose L and R.
+- **The period depends on what is tracked.** By the record and the checks, γ has period:
+  - one turn on τ's thread (B1922);
+  - two on signed lines (the own line goes to minus itself);
+  - three mod 2, and ten mod 5 (`wp1_weil.py`, W2).
+
+  So "the process's period" is not one number, until what is tracked is fixed.
+- **The record's flat results include process readings.** "No clock studied here selects a point" (B1816) and "the
+  democratic thread sum is flat" (B1813) are both readings of a weave's process. So the flatness of § 1.4 is not
+  evidence for the rule. The rule is offered as a uniform audit, not as a discovery.
+
+**1.4. [E] The searches for a selected point, as the record holds them.**
+- "Nothing computed selects any direction" (B1957's FINDINGS, at P-873's second question; P-873 itself: "NOTHING
+  COMPUTED SELECTS A DIRECTION").
+- "The three parity sectors together leave tau free" (harvest row 1075, the SM-derivation seat's sentence as main
+  registers it).
 - "Nothing on record is yet a weave result by minimization" (THE_WEAVE).
-- The frame's lines carry no Weil class (B1955).
-
-These quotations are main's, as held in the register's grounds (web-wtau-03; P-873; web-wa3-04).
-
-[J] The flatness may not be bad luck. It may be the sign of asking a structure for what only a process has.
-
-**1.3. [J] What the reframing is not.** It is not "average everything". This seat warned that averaging, used as a
-stand-in for "no choice", destroyed the hierarchy the frame has (its view on selection and the dictionary, § 0;
-W-F24). A process reading keeps what the process keeps. Its fixed sets, its rates and its growth are read, and only what
-it mixes is averaged.
+- The class: "The object carries both; nothing computed here prefers one" (B1955).
 
 ---
 
-## 2. The object's own process, and what it forces
+## 2. The golden iteration, and what it forces
 
-**2.1. [E] The iteration.** The golden thread's monodromy acts on the modulus as γ: τ ↦ (2τ + 1)/(τ + 1), the matrix
-[[2, 1], [1, 1]] (B1922; LR in the record's letters). Exactly (the check's P1 to P3):
+**2.1. [E] On the fibre and on the modulus** (`wp1_iteration.py`, exact unless shown as a decimal).
+- γ = [[2, 1], [1, 1]] acts on the modulus as τ ↦ (2τ + 1)/(τ + 1) (B1922). B1922 transports a line (a, b) by γ⁻¹ on
+  columns, to (a − b, 2b − a). Under that transport, the expanding and contracting directions below exchange roles.
 - **On the fibre torus:**
-  - the stretch factor is (3 + √5)/2, and the entropy is its logarithm, 0.9624;
+  - the stretch factor is (3 + √5)/2, and the entropy is its logarithm, 0.962424;
   - the expanding and contracting directions have slopes (√5 − 1)/2 and −(√5 + 1)/2;
   - γⁿ fixes |2 − tr γⁿ| points: 1, 5, 16, 45, 121, 320, 841 and 2205 for n = 1 to 8.
 - **On the modulus:**
-  - γ is hyperbolic, with fixed points (1 ± √5)/2;
-  - its axis is the semicircle with centre ½ and radius √5/2, and it passes through i and 1 + i (this seat's view,
-    § 3.3);
+  - the fixed points are (1 ± √5)/2;
+  - the axis is the semicircle with centre ½ and radius √5/2, and it passes through i and 1 + i;
   - γ(i) = (3 + i)/2;
-  - the translation length is 2 arccosh(3/2) = 2 log((3 + √5)/2) = 1.9248.
-- **How high a thread rises.** A hyperbolic [[a, b], [c, d]] has an axis of radius √(t² − 4)/(2|c|), with c ≠ 0, so a
-  closed geodesic of trace t rises at most √(t² − 4)/2.
-  - The golden thread (t = 3) never rises above √5/2 = 1.118 on the modular surface.
-  - Lⁿ R = [[n + 1, n], [1, 1]] rises to √((n + 2)² − 4)/2: 1.73, 2.29, 2.83 and 3.35 for n = 2 to 5, and 4.90 for
-    n = 8.
-  - In general (standard, not computed here), the highest point of a closed geodesic lies between a/2 and a/2 + 1,
-    where a is the longest run of one letter in its word: its largest partial quotient. High threads are the words
-    with long runs.
+  - the translation length is 2 arccosh(3/2) = 2 log((3 + √5)/2).
+- **The heights.** A hyperbolic [[a, b], [c, d]] has an axis of radius √(t² − 4)/(2|c|), with c ≠ 0. So the golden
+  geodesic never rises above √5/2 on the modular surface. Lⁿ R rises to √((n + 2)² − 4)/2.
+  - In general (standard), a closed geodesic's highest point lies between a/2 and a/2 + 1, where a is the longest run
+    of one letter in its word.
 
-**2.2. [E] What the record already reads of it.**
-- **The thread average.** With the invariant end (B1921), the frame's covariant readings S and S̃ repeat after one
-  period of the golden thread exactly at the lines γ fixes up to sign: the own line (2/5, 4/5) and (1/5, 2/5) (B1922,
-  as corrected 2026-11-18). So the thread average is canonical, with no point of the modulus chosen.
-- **What is still chosen.** In B1922's own words, "it removes no input yet": the end L̃, the hand and the weight are
-  still open.
-- **The read-out on the whole** is stated (P-845, D3) as the limit over n of the average of the thread averages over
-  the allowed words of n moves, each move equally likely. It names two readings, before any run:
-  - (a) by the move count, which gives a singular measure on the modulus that sharpens at i, with no atom (B1868);
-  - (b) by geodesic length, which gives the hyperbolic area on the curve of the mark's stabiliser, the measure B1913
-    found forced.
-
-  P-845 says that they differ, and that the record's principle (every move equally likely) names (a).
-- Scored against the eight conditions, R6 is not met as a selection: the measure moves the values (P-776's note of
-  2026-11-14).
-- W-F24 found the surface measure sets the read-out: "the measure is the choice of τ in another form".
-- The record counts the clock as chosen (B1815), and "no clock studied here selects a point" (B1816).
-
-**2.3. [J] So the process reading already has a foothold, and it has met its first own choice:** which clock the
-process runs on. The record holds two answers: the principle's, the move count (a); and invariance's, the area (b).
+**2.2. [E] On level 5's Weil space, in both classes** (`wp1_weil.py`). Write a for the class of the form ax²/5: a = 1
+is the knot's, a = 2 the act's (B1955, § 2).
+- γ ≡ −(I + N) mod 5, with N nilpotent, so γ⁵ ≡ −I. ρ(γ)⁵ is the parity P in both classes.
+- **tr ρ(γ) = 1 in both classes**, and **tr ρ(γ²) = −√5 for a = 1, and +√5 for a = 2**.
+- ρ(γ)'s eigenphases, in tenths of a turn:
+  - for a = 1: 2, 8 and 10 on the even 3, and 3 and 7 on the odd 2;
+  - for a = 2: 4, 6 and 10 on the even 3, and 1 and 9 on the odd 2.
+- So γ tells the classes apart, and prefers neither.
+- **The trace signature** tr R(T²)/tr R(T)² for R = W_a ⊗ conj(W_b) is +1/5 when a = b, in either class, and −1/5
+  when they are mixed. It detects mixing, not which class.
 
 ---
 
-## 3. The choices, each with its process question
+## 3. The record's open choices under the rule
 
-For each: where the record stands [E], and the question the rule asks [J].
+**3.1. τ, the end, and the weight over threads.**
+- [E] The record has the process reading for τ already:
+  - the frame's covariant readings repeat after one period exactly at the lines γ fixes up to sign (B1922, as
+    corrected);
+  - the invariant end is fixed by the fibre's geometry, with its last bit replaced by a stated regularity condition
+    (B1927, in P-776's notes);
+  - the read-out on the whole is the limit over the allowed words of n moves (P-845, D3), and the weight is open.
+- [E] **The two weights differ above height 2.**
+  - (a), the letter count, keeps a singular measure even when each word is weighted by its length (P-845's note, by
+    Furstenberg's law). W-F24's μ is this one: uniform random words, each weighted by its length (W-F24, line 29).
+    It spends 0.384, 0.168, 0.035 and 0.007 of its time above heights 1.5, 2, 3 and 4 (W-F24, X4). B1815, § 6
+    gives the same 3.5% above height 3 for the move clock.
+  - (b), the hyperbolic area, spends 3/(πy) of its time above height y ≥ 1: 0.477, 0.239 and 0.159 above 2, 4 and 6.
+  - W-F24 already read that "the measure is the choice of τ in another form", typed there as a reading.
+- [J] **What the rule adds:** that the letter count is the object's own clock (1.3), which is P-845's choice of (a)
+  already. Nothing new.
+- [J] The golden thread alone samples heights below √5/2, where frame C's ratios, falling exponentially with height
+  (W-F24), are least separated. That is a reading of a measured window, not a bound on the hierarchy.
+- One part is not on record: which words carry (a)'s share above each height. A word rises above height y once it
+  has a run of more than about 2y − 2 equal letters, which is common under (a).
 
-**3.1. τ, and the weight over threads.**
-- [E] A single thread is canonical at its own line (2.2). The weight over threads is open, and it moves the values.
-- [E] The golden thread stays below 1.118 (2.1). Frame C's ratios fall exponentially with height at every point of
-  order 5, measured over heights 2 to 6 (W-F24, X1). W-F24's measure spends 0.168 of its time above height 2.
-- [E] Under (a), the move count, the measure sharpens at i (B1868), in the bulk.
-- **[J] Question:** under each of (a) and (b), what share of the weave's time is spent above heights 1.118, 2, 4 and 6,
-  and through which words?
-  - [J] The expectation: under (a), a run of n equal letters is exponentially rare in n, so high threads carry little
-    weight. If so, the principle's own process lives in the bulk, where frame C has no hierarchy to speak of.
-  - Then either the hierarchy must appear as a rate of the process in the bulk, or frame C read by the principle's
-    process has none. That would be a finding about frame C, not about the object.
-  - If (a) and (b) differ only below height 2, the clock is harmless for the hierarchy. If they differ above it, the
-    clock is the hierarchy's choice.
-  - This is data-free, and cheap: the geometry of axes, and counting words by letters or by length.
+**3.2. The Weil class (§ 7.5's first step).**
+- [E] The object carries both classes (B1955, § 2):
+  - the knot's discriminant form gives x²/5, a residue;
+  - the act's unipotent part is a shear implemented on the labels by diag ψ(cx²) with c a non-residue. That gives
+    2x²/5, B1951's class, which is also SU(5)'s at level one and the flux-5 modes'.
+- [E] The frame's lines see End(W). As a G-module, End(W) is the permutation representation in either class (B1955).
+- [E] As a G-algebra it is not the same in both classes, by Skolem–Noether and because SL(2, F₅) is perfect:
+  - an isomorphism of G-algebras End(W₁) → End(W₂) would be a conjugation intertwining the two representations up
+    to a character;
+  - a perfect group has no non-trivial character;
+  - so W₁ ≅ W₂, which is false.
+- [J] So a read-out linear in the lines cannot see the class, but one built from products of lines might.
+- [E] The golden iteration tells the classes apart (2.2): tr ρ(γ²) = ∓√5, and different eigenphases. It prefers
+  neither, and no test it imposes is known to fail one class.
+- [J] **The rule, read as a principle, names the act's class.** "What the process does decides" prefers the class
+  the act supplies over the class the knot's static form supplies. That is 2x²/5, B1951's.
+  - This replaces one counted choice by one counted principle.
+  - It pays only if the same principle settles another choice (§ 4).
 
-**3.2. The Higgs direction.**
-- [E] On the plane E of P-873, every direction is a ground direction, and nothing computed selects one.
-  - The tick exchanges the two eigenlines and fixes no ray of E.
-  - The quartic invariant is A N² + B Δ². With B > 0 its minimum is the equal-magnitude circle, which contains h*.
-  - The relative phase first enters an invariant at degree 14, and on the circle at degree 24.
-- **[J] Question:** not which direction minimises a quartic, but what the iteration does to a direction.
-  - Under repeated transport and tick, does an initial ray converge, cycle or fill a set?
-  - If the orbits fill, or average to, the equal-magnitude circle, the process selects the circle with no sign of B
-    needed. It still does not select the point on the circle, because the phase enters only at high degree.
-  - That would be a counted reduction, from a plane of directions to a circle.
-
-**3.3. The Weil class (§ 7.5's first step).**
-- [E] In both classes |tr ρ(g)|² is the number of points of F₅² that g fixes, for all 120 elements. So End(W) is the
-  permutation representation in either class, and the frame's lines do not see the class (B1955; web-wa3-04).
-- [E] The trace signature tr R(T²)/tr R(T)² is +1/5 for a class with its own conjugate, −1/5 for mixed classes, and
-  +1/5 on the frame's 25 lines (B1955, part D).
-- **[J] The failure test,** stated before anything is computed:
-  - If every read-out the programme uses depends on W only through End(W), that is, through the lines, then no process
-    acting through the read-out can fix the class. The class is then a counted choice, by proof.
-  - Only a quantity that sees W itself, a phase and not a squared modulus, can let the iteration choose. The first
-    task is to find whether the record has one, and the signature above is the candidate.
-  - Then ask whether the iteration over one period, γ acting on W, treats the two classes differently.
+**3.3. The Higgs direction.**
+- [E] On P-873's plane E, every direction is a ground direction. The quartic A N² + B Δ² is invariant for all A and
+  B.
+- [E] Under the tick, w goes to a phase times w and Δ to −Δ. Under the transport U, w goes to a phase times w (check
+  K4, `physical_c8_tick_higgs.py`).
+- [E] So the iteration keeps N and |Δ|. A ray's orbit stays at fixed |Δ|/N, and it cannot converge to the
+  equal-magnitude circle or fill it.
+- [J] **The rule fails here.** The direction survives the iteration and is counted, unless an action fixes the sign
+  of B (P-873, Q1). Even then the point on the circle waits for the phase, which first enters at degree 14, and at
+  degree 24 on the circle.
 
 **3.4. The reading, S or S̃.**
-- [E] S and S̃ repeat in one turn (B1922), and their limits differ (P-847). S* does not repeat in one turn.
-- S* is covariant under γ³, so it should repeat in three turns (W-F22; B1922's correction; A14 of B1937). Main's test
-  of that repetition is still open.
-- **[J] Question:** does the process have a period, one turn or three? If its period is one turn, it excludes S*.
-  Periodicity cannot rank S against S̃, so that bit needs another property of the process, or it is counted.
+- [E] S and S̃ repeat in one turn (B1922), and their limits differ (P-847). S* is covariant under γ³, so it should
+  repeat in three turns (W-F22; B1922's correction; A14 of B1937). Main's test of that repetition is open.
+- [E] P-847 records an untested candidate criterion: holomorphy. S is built from forms evaluated at τ.
+- [J] Periodicity cannot rank S against S̃, and its exclusion of S* depends on what is tracked (1.3). Under the rule,
+  the reading is counted, unless holomorphy is adopted. Holomorphy is a property of the forms, not of the process.
 
 **3.5. The dictionary.**
-- [E] W-A1 found an SU(5) skeleton from level 5's Weil representation, with the hypercharges typed in.
-- **[J] Question:** name each part by its role under the iteration, not by matching its form to the table:
-  - which of the frame's lines γ fixes, and which it moves, and in orbits of which length;
-  - which modes of ρ(γ) on W are fixed, rotate with which period, or carry which eigenvalue;
-  - what is conserved over a period.
-  - Then ask whether that classification, by counts and multiplicities only, has the shape of one generation.
-  - If it does with nothing typed in, the dictionary is the process's. If it needs the hypercharges again, it is not.
+- [E] W-A1 derived the hypercharge from the commutant of level 5's Weil representation (its D3), under the counted
+  postulate D. W-A2 and B1952 split D into four counted bits.
+- [E] ρ(γ) acts on the even 3 with phases 1, ζ and ζ⁴ (a = 1), or 1, ζ² and ζ³ (a = 2). So it splits the 3 into
+  1 + 2. On the odd 2 it acts as a pair (2.2).
+- [J] **So naming parts by their role under the golden iteration splits colour.** Only γ⁵'s image, the parity P,
+  separates the 3 from the 2 without splitting either, and that is W-A1's route through the centre. The rule adds
+  nothing to the dictionary here, and warns that the full iteration over-splits.
 
 ---
 
-## 4. What would count, set before any computation
+## 4. The score, and what would count
 
-**4.1. [J] Success:**
-- one quantity that enters a frame's read-out and is fixed by the iteration, with no point of the modulus, no direction,
-  no class and no reading chosen; or
-- one choice of § 3 settled because the iteration distinguishes its options.
+**4.1. [J] The net count, as it stands:**
+- τ: 0, the record's own (a);
+- the class: one choice removed, one principle added;
+- the Higgs direction: 0, the rule fails;
+- the reading: 0;
+- the dictionary: 0.
 
-Each must hold under the conventions still open (the end), and must fail on the rivals the record keeps as controls:
-the metallic maps (B1925) and the root's alternatives (SE1; this seat's view, § 3.4).
+The net is zero. The rule pays only if "what the process does decides" settles a second choice besides the class.
 
-**4.2. [J] Partial success:** a counted reduction, such as a point to a line, or a direction to a circle.
+**4.2. [J] Success:** a test the iteration imposes that exactly one option of some choice passes, with net count below
+zero. The options must hold under the conventions still open, and fail on the record's rivals: the metallic maps
+(B1925) and the root's alternatives (SE1; this seat's view, § 3.4).
 
-**4.3. [J] Failure:**
-- the process reading needs its own choices at every step: which clock, which measure, which observable; or
-- it yields only quantities that never reach a frame (2.1's numbers alone).
+**4.3. [J] Failure:** after the inventory of every open choice, the net count is zero or more. Then the rule changes
+words, not counts, and the record should say so.
 
-Then the reframing changes words, not counts, and the record should say so.
+## 5. Next, small and data-free
 
----
+1. **The inventory**, with each choice's bin and the net count.
+2. **Whether the class principle settles a second choice.** Does "the act decides" also fix the reading (S or S̃) or
+   the sign of B? This is the only route by which the rule can pay.
+3. **Which words carry (a)'s share above each height.** This is the one piece of 3.1 not on record.
 
-## 5. First steps, in order, all data-free
-
-1. **The inventory.** Every choice the record still makes, each with its process question, extending § 3. Main's
-   record already types most of them (B1815; this seat's view, § 3.1; W-A1, part 2).
-2. **The class test (3.3).** Does any read-out on record depend on W beyond End(W)?
-   - If none does, the class is counted, by proof, and § 7.5's first step closes.
-   - If one does, test γ's action on W over one period, in both classes.
-3. **The clock and the heights (3.1).** The share of each clock's time above heights 1.118, 2, 4 and 6, and which
-   words carry it. This is the geometry of axes and a count of words.
-4. **The Higgs orbit (3.2).** The orbits of a ray of E under transport and tick.
-5. **The dictionary count (3.5).** γ's orbits on the lines and its eigenvalues on W, counted.
-
-Each step is written as a condition before it is run (P-776's practice), with plants where a step can pass vacuously.
-
----
+Each step is written as a condition before it is run, with plants where a step could pass vacuously.
 
 ## 6. Typed
 
-- **[E] here (`wp1_iteration.py`, exact):** 2.1's numbers. They are standard mathematics of one matrix.
-- **[E] by the record:** 1.2's quotations, 2.2, and the [E] lines of § 3, each cited.
-- **[J]:** the reframing (0, 1.1, 1.3), every question of § 3, the criteria of § 4 and the order of § 5.
-- **The one new inference** is an [E] premise read through a [J]: the golden thread stays below 1.118, and the
-  hierarchy is measured above height 2, so the golden process never visits it. The premises are [E], and the reading
-  of what follows is [J].
+- **[E] by the checks:**
+  - `wp1_iteration.py`: 2.1;
+  - `wp1_weil.py`: 2.2, the periods mod 2 and mod 5, and the eigenphases of 3.5.
+- **[E] standard:** the height bound and its run-length form (2.1); the G-algebra argument (3.2); (b)'s closed form
+  (3.1).
+- **[E] by the record:** each cited line.
+- **[J]:** the rule, its bins and its score; every "so" of § 3 marked [J]; the class principle; § 4 and § 5.
+
+This card was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked notes;
+the read's corrections are applied in this version. The first version was not sound as written:
+- **Its "sharp new point" was already on record:**
+  - the two clocks' height shares (B1815, § 6; W-F24, X4; P-845's note; (b)'s closed form);
+  - that the measure chooses τ's height (W-F24).
+
+  It also read a measurement window as where the hierarchy lives.
+- **Its candidate for the class test**, the trace signature, detects mixing, not which class. Its "by proof" held only
+  for End(W) as a G-module.
+- **Its Higgs question was already answered** by K4.
+- **It said the hypercharges were typed into W-A1.** W-A1 derives them under postulate D.
+- **It took "telling apart" for selecting.** It had no net count and no account of circularity.
+- **Its attributions and typing:**
+  - it called row 1075's sentence main's;
+  - it gave the "any direction" wording to P-873;
+  - it typed a judgement [E];
+  - it left B1922's transport convention unstated;
+  - it said the end is still free, where B1927 has since fixed it under a regularity condition.
+- **It did not say that this seat is not blind at τ = i.**
 
 ## Files
 
-- `relays/chat1_2026-11-18_wp1/wp1_iteration.py` (committed before its run), `SCRIPT_SHA256.txt`,
-  `wp1_iteration_out.txt`.
-- Cited: B1922, B1921, B1868, B1913, B1815, B1816, B1813, B1925, B1937 (A14), B1955; P-776, P-845, P-847, P-873,
-  P-874; harvest row 1075; THE_WEAVE; register records web-wtau-03 and web-wa3-04; this seat's W-A1, W-F22, W-F24
-  and its view on selection and the dictionary.
+- `relays/chat1_2026-11-18_wp1/`:
+  - `wp1_iteration.py` and its output;
+  - `wp1_weil.py` and its output. Its first run stopped at the relation check, on the kernel's sign, before any
+    result; it was fixed and run again, and the first run's output is kept;
+  - `SCRIPT_SHA256.txt`.
+- **Cited:**
+  - arcs B1813, B1815, B1816, B1922, B1925, B1927, B1937 (A14), B1951, B1952 and B1955;
+  - P-776, P-845, P-847, P-873 (and its check K4) and P-874;
+  - harvest row 1075, THE_WEAVE, and B1957's FINDINGS;
+  - this seat's W-A1, W-A2, W-F22, W-F24, W-L1, and its view on selection and the dictionary.
 
 0 of 19.
