@@ -1,0 +1,358 @@
+{
+  "gate": "AGY-002_FOUND-G11_COLD_ROOM_REFEREE",
+  "empirical_inputs": "0 of 19",
+  "section_0_custody_and_ast_lock": {
+    "float_literal_count": 0,
+    "complex_literal_count": 0,
+    "repo_import_count": 0,
+    "disallowed_imports": [],
+    "empirical_inputs_used": "0 of 19",
+    "prior_manifest_count": 19,
+    "prior_manifests_matched": 19,
+    "campaign_total_manifests_with_self_pair": 21,
+    "prior_manifests": [
+      {
+        "manifest": "relays/agy002_found_g8/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8/verify_found_g8_out.json",
+        "expected_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+        "actual_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8/verify_found_g8.py",
+        "expected_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+        "actual_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed_out.json",
+        "expected_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+        "actual_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed.py",
+        "expected_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+        "actual_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8_referee/referee_found_g8_out.json",
+        "expected_sha256": "fca1af9127b5b16238f43292f4d82db30fd6fd65e4fc17dd3148995ce6dbe151",
+        "actual_sha256": "fca1af9127b5b16238f43292f4d82db30fd6fd65e4fc17dd3148995ce6dbe151",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8_referee/referee_found_g8.py",
+        "expected_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+        "actual_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9/verify_found_g9.py",
+        "expected_sha256": "1d2a98e22ad702ec1b851302c4c0eb107f737e3d26c89b1e2e4ee603e124b99b",
+        "actual_sha256": "1d2a98e22ad702ec1b851302c4c0eb107f737e3d26c89b1e2e4ee603e124b99b",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_fixed/verify_found_g9_fixed_out.json",
+        "expected_sha256": "6ced885098360536f2e41edb7901e499493b96d8a07555f2e36c1ccbcebb3237",
+        "actual_sha256": "6ced885098360536f2e41edb7901e499493b96d8a07555f2e36c1ccbcebb3237",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_fixed/verify_found_g9_fixed.py",
+        "expected_sha256": "9f6ea407e0a7b2470bee90ec69922013c476fbcdf7f87e685ab2e6e0ab68e3bc",
+        "actual_sha256": "9f6ea407e0a7b2470bee90ec69922013c476fbcdf7f87e685ab2e6e0ab68e3bc",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_referee/referee_found_g9_out.json",
+        "expected_sha256": "dabcfb5b960903e7f7e4256413a71154a45188fcb9f6483e8147795f4e6b0aa7",
+        "actual_sha256": "dabcfb5b960903e7f7e4256413a71154a45188fcb9f6483e8147795f4e6b0aa7",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_referee/referee_found_g9.py",
+        "expected_sha256": "19dd3dc2ac890bc809d68372d5f999d309e8d5da7324ff900751face8656cb27",
+        "actual_sha256": "19dd3dc2ac890bc809d68372d5f999d309e8d5da7324ff900751face8656cb27",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_v2/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_v2/verify_found_g9_v2_out.json",
+        "expected_sha256": "b5fb9596e233444e6051dcb481cae30f04331cabe38aa1d62bd490b8167e17a9",
+        "actual_sha256": "b5fb9596e233444e6051dcb481cae30f04331cabe38aa1d62bd490b8167e17a9",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_v2/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_v2/verify_found_g9_v2.py",
+        "expected_sha256": "f92b95c2bfb74fae1cdc3f62daa212363cd83fb3175678fd37df4f88d92ee2c3",
+        "actual_sha256": "f92b95c2bfb74fae1cdc3f62daa212363cd83fb3175678fd37df4f88d92ee2c3",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g10/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g10/verify_found_g10_out.json",
+        "expected_sha256": "55916cfa23378a8db773201032757432876f29c4c83928027ecd0a40c303fc77",
+        "actual_sha256": "55916cfa23378a8db773201032757432876f29c4c83928027ecd0a40c303fc77",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g10/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g10/verify_found_g10.py",
+        "expected_sha256": "e6fed4d1748f41e8544779d82f3cc4a2fa1d19fb78e44c6241a877ebca42d44e",
+        "actual_sha256": "e6fed4d1748f41e8544779d82f3cc4a2fa1d19fb78e44c6241a877ebca42d44e",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g10_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g10_referee/referee_found_g10_out.json",
+        "expected_sha256": "c13c31f02290f0b87f1f5dc4bbaf888ecf994aeb1e9076876a94f83cdd64f18a",
+        "actual_sha256": "c13c31f02290f0b87f1f5dc4bbaf888ecf994aeb1e9076876a94f83cdd64f18a",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g10_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g10_referee/referee_found_g10.py",
+        "expected_sha256": "7b422ca6821593d298388e9fed38d3739aa9ee5ee20d8ded7ead3c0aa0a5e084",
+        "actual_sha256": "7b422ca6821593d298388e9fed38d3739aa9ee5ee20d8ded7ead3c0aa0a5e084",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g11/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g11/verify_found_g11_out.json",
+        "expected_sha256": "bda428df8963f43f72c7409da40e8a5d41cb41508652f7d989d148f140312f30",
+        "actual_sha256": "bda428df8963f43f72c7409da40e8a5d41cb41508652f7d989d148f140312f30",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g11/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g11/verify_found_g11.py",
+        "expected_sha256": "e317c5c3ecd1742e1fab4787821de16f22cfe26b567951b3dfec25969b4fe840",
+        "actual_sha256": "e317c5c3ecd1742e1fab4787821de16f22cfe26b567951b3dfec25969b4fe840",
+        "matched": true
+      }
+    ],
+    "self_script_manifest": {
+      "manifest": "relays/agy002_found_g11_referee/SCRIPT_SHA256.txt",
+      "target": "relays/agy002_found_g11_referee/referee_found_g11.py",
+      "expected_sha256": "fa9d944b16e2520280f484300d4d380fd7b09e5716ec61853e3bf311584e4a49",
+      "actual_sha256": "fa9d944b16e2520280f484300d4d380fd7b09e5716ec61853e3bf311584e4a49",
+      "matched": true
+    },
+    "memory_tamper_control_caught": true,
+    "passed": true
+  },
+  "section_1_resolvent_majorana_and_m44_isotropy": {
+    "max_1d_analytic_vs_42x42_quadrature_err": 4.706601218993839e-14,
+    "max_mode_orthonormality_err": 5.753117059250319e-15,
+    "max_weil_transport_unitarity_err": 2.001054065324557e-15,
+    "max_weil_closed_vs_quadrature_err": 1.4716868420109454e-14,
+    "resolvent_moduli_checks": {
+      "tau_gen_23_100_plus_141_100i": {
+        "symmetry_err": 6.405852537383933e-16,
+        "bergman_rank1_reproducing_err": 7.0434946289666815e-16,
+        "T_covariance_err": 1.4744909743842983e-15,
+        "S_covariance_err": 3.2169201569283048e-15,
+        "rank_transition_tree_to_loop": [
+          1,
+          3
+        ],
+        "singular_values_ascending_loop": [
+          0.019122103634457634,
+          0.0995640331217511,
+          2.4871696203654783
+        ]
+      },
+      "tau_cusp_2sqrt3_i": {
+        "symmetry_err": 7.85047537656347e-16,
+        "bergman_rank1_reproducing_err": 4.557795319825887e-16,
+        "T_covariance_err": 6.621145882919241e-16,
+        "S_covariance_err": 2.3619554790143316e-15,
+        "rank_transition_tree_to_loop": [
+          1,
+          3
+        ],
+        "singular_values_ascending_loop": [
+          0.00021169681967400173,
+          0.14174686730310343,
+          1.3247975863276626
+        ]
+      }
+    },
+    "max_symmetry_err": 7.85047537656347e-16,
+    "max_bergman_rank1_err": 7.0434946289666815e-16,
+    "max_T_covariance_err": 1.4744909743842983e-15,
+    "max_S_covariance_err": 3.2169201569283048e-15,
+    "all_rank_transitions_1_to_3": true,
+    "haar_10_trial_U6_x_U3_max_drift": 1.0658141036401503e-14,
+    "m44_klein_4lift_checks": {
+      "tau_gen": {
+        "Z3_shift_1_conjugation_err": 4.880386072354459e-15,
+        "X3_shift_tau_conjugation_err": 1.1178039049941215e-14,
+        "raw_unconjugated_shift_1_norm": 0.25919501029120284,
+        "raw_unconjugated_shift_tau_norm": 11.70939311643742,
+        "klein_4lift_scalar_isotropy_err": 3.552713678800501e-15,
+        "single_lift_eigenvalue_spread": 4.780622815459903
+      },
+      "tau_cusp": {
+        "Z3_shift_1_conjugation_err": 8.90590076171547e-16,
+        "X3_shift_tau_conjugation_err": 1.5937821296898976e-14,
+        "raw_unconjugated_shift_1_norm": 0.010363904682053731,
+        "raw_unconjugated_shift_tau_norm": 31.52744937602088,
+        "klein_4lift_scalar_isotropy_err": 3.076740298213702e-15,
+        "single_lift_eigenvalue_spread": 12.871027418774048
+      }
+    },
+    "m44_max_Z3_conjugation_err": 4.880386072354459e-15,
+    "m44_max_X3_conjugation_err": 1.5937821296898976e-14,
+    "m44_max_4lift_scalar_isotropy_err": 3.552713678800501e-15,
+    "m44_e5_24pt_4lift_scalar_isotropy_err": 6.355287432313019e-14,
+    "m44_repricing_PR5_discrete_bits": 1,
+    "PF11_1_weight1_law_err": 4.262551439925444e-15,
+    "PF11_1_unweighted_S_violation": 1.4230592381419607,
+    "PF11_1_caught": true,
+    "PF11_2_mr_r13_sweep_factor": 267.53317823796453,
+    "PF11_2_seesaw_r12_sweep_factor": 251.79999114518745,
+    "PF11_2_mr_s3_over_s1_span": 207809.08737071944,
+    "PF11_2_seesaw_s2_over_s1_span": 666.91570123146,
+    "PF11_2_caught": true,
+    "PF11_4_gs_asc_sigma2_over_sigma1_shift": 3.988043204698526,
+    "PF11_4_gs_bounded_sigma1_over_sigma2_shift": 0.7980861259187644,
+    "PF11_4_lowdin_asc_sigma2_over_sigma1_shift": 2.4905448577221967,
+    "PF11_4_caught": true,
+    "passed": true
+  },
+  "section_2_transmutation_vol_m004_and_c7_cas": {
+    "gross_wilczek_b0_benchmark_passed": true,
+    "transmutation_d_ln_Lambda_d_ln_mu": 0,
+    "transmutation_symbolic_exact": true,
+    "transmutation_extra_knobs_beyond_alpha_UV_inv": 0,
+    "transmutation_rk4_invariant_max_drift": 7.105427357601002e-15,
+    "vol_m004_50digits": "2.0298832128193072500424051085490405718833786150606",
+    "vol_m004_dilog_vs_dirichlet_L_diff": 4.7477838728798994e-66,
+    "vol_m004_dilog_vs_lobachevsky_quad_diff": 0.0,
+    "abs_det_LR4_minus_I2": 45,
+    "abs_det_RL4_minus_I2": 45,
+    "LR4_minus_I2_smith_invariant_factors": [
+      3,
+      15
+    ],
+    "manifold_cyclic_cover_degree": 4,
+    "PF11_3_log10_4sheet_vs_45torsion_ratio": 11.505072169796874,
+    "PF11_3_45_vs_180_discrepancy": 135,
+    "PF11_3_caught": true,
+    "PF11_5_random_interior_max_dev_from_1": 9.094947017729282e-13,
+    "PF11_5_caught": true,
+    "c7_conifold_det_Z_zero_and_gauge_invariant": true,
+    "c7_hopf_stereographic_and_spherical_chern_number": 1,
+    "c7_hopf_chern_verified": true,
+    "c7_composite_AW_zero_drift_and_order4_verified": true,
+    "c7_direct_tr_comm_phi_0": "-766/4225",
+    "c7_direct_tr_comm_phi_pi_over_2": "-302/169",
+    "c7_direct_commutator_trace_drift": "-6784/4225",
+    "c7_direct_orbit_failure_verified": true,
+    "passed": true
+  },
+  "section_3_foundational_52node_dag": {
+    "total_nodes": 52,
+    "total_edges": 137,
+    "category_counts": {
+      "ROOT": 8,
+      "OPERATOR": 7,
+      "SEAM": 8,
+      "RELATION": 10,
+      "SM_TARGET": 19
+    },
+    "kahn_visited_count": 52,
+    "kahn_acyclic": true,
+    "dfs_cycle_detected": false,
+    "monotone_violation_count": 0,
+    "guardrail_1_and_premise_violation_count": 0,
+    "PR_5_propagated_rank": 2,
+    "relation_rank_histogram": [
+      2,
+      5,
+      3,
+      0
+    ],
+    "relations_by_rank": {
+      "0": [
+        "PR-1",
+        "PR-10"
+      ],
+      "1": [
+        "PR-3",
+        "PR-4",
+        "PR-6",
+        "PR-7",
+        "PR-8"
+      ],
+      "2": [
+        "PR-2",
+        "PR-5",
+        "PR-9"
+      ],
+      "3": []
+    },
+    "sm_target_rank_histogram": [
+      0,
+      0,
+      1,
+      18
+    ],
+    "sm_targets_by_rank": {
+      "0": [],
+      "1": [],
+      "2": [
+        "SM19:bar_theta_QCD"
+      ],
+      "3": [
+        "SM01:y_u",
+        "SM02:y_c",
+        "SM03:y_t",
+        "SM04:y_d",
+        "SM05:y_s",
+        "SM06:y_b",
+        "SM07:y_e",
+        "SM08:y_mu",
+        "SM09:y_tau",
+        "SM10:theta_12_CKM",
+        "SM11:theta_23_CKM",
+        "SM12:theta_13_CKM",
+        "SM13:delta_CKM",
+        "SM14:g_1",
+        "SM15:g_2",
+        "SM16:g_3",
+        "SM17:v_EW",
+        "SM18:m_H"
+      ]
+    },
+    "unique_rank2_sm_parameter": "SM19:bar_theta_QCD",
+    "cycle_injection_control_caught": true,
+    "rank_laundering_control_caught": true,
+    "guardrail_1_seam_tamper_control_caught": true,
+    "passed": true
+  },
+  "planted_fault_summary": {
+    "PF11_1_caught": true,
+    "PF11_2_caught": true,
+    "PF11_3_caught": true,
+    "PF11_4_caught": true,
+    "PF11_5_caught": true
+  },
+  "all_5_planted_faults_caught": true,
+  "overall_passed": true
+}
