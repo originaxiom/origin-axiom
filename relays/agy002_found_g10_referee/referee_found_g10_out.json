@@ -1,0 +1,334 @@
+{
+  "gate": "AGY-002_FOUND-G10_COLD_ROOM_REFEREE",
+  "empirical_inputs": "0 of 19",
+  "section_0_custody_and_ast_lock": {
+    "float_literal_count": 0,
+    "complex_literal_count": 0,
+    "repo_import_count": 0,
+    "disallowed_imports": [],
+    "empirical_inputs_used": "0 of 19",
+    "prior_manifest_count": 15,
+    "prior_manifests_matched": 15,
+    "prior_manifests": [
+      {
+        "manifest": "relays/agy002_found_g8/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8/verify_found_g8_out.json",
+        "expected_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+        "actual_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8/verify_found_g8.py",
+        "expected_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+        "actual_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed_out.json",
+        "expected_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+        "actual_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed.py",
+        "expected_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+        "actual_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8_referee/referee_found_g8_out.json",
+        "expected_sha256": "fca1af9127b5b16238f43292f4d82db30fd6fd65e4fc17dd3148995ce6dbe151",
+        "actual_sha256": "fca1af9127b5b16238f43292f4d82db30fd6fd65e4fc17dd3148995ce6dbe151",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8_referee/referee_found_g8.py",
+        "expected_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+        "actual_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9/verify_found_g9.py",
+        "expected_sha256": "1d2a98e22ad702ec1b851302c4c0eb107f737e3d26c89b1e2e4ee603e124b99b",
+        "actual_sha256": "1d2a98e22ad702ec1b851302c4c0eb107f737e3d26c89b1e2e4ee603e124b99b",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_fixed/verify_found_g9_fixed_out.json",
+        "expected_sha256": "6ced885098360536f2e41edb7901e499493b96d8a07555f2e36c1ccbcebb3237",
+        "actual_sha256": "6ced885098360536f2e41edb7901e499493b96d8a07555f2e36c1ccbcebb3237",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_fixed/verify_found_g9_fixed.py",
+        "expected_sha256": "9f6ea407e0a7b2470bee90ec69922013c476fbcdf7f87e685ab2e6e0ab68e3bc",
+        "actual_sha256": "9f6ea407e0a7b2470bee90ec69922013c476fbcdf7f87e685ab2e6e0ab68e3bc",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_referee/referee_found_g9_out.json",
+        "expected_sha256": "dabcfb5b960903e7f7e4256413a71154a45188fcb9f6483e8147795f4e6b0aa7",
+        "actual_sha256": "dabcfb5b960903e7f7e4256413a71154a45188fcb9f6483e8147795f4e6b0aa7",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_referee/referee_found_g9.py",
+        "expected_sha256": "19dd3dc2ac890bc809d68372d5f999d309e8d5da7324ff900751face8656cb27",
+        "actual_sha256": "19dd3dc2ac890bc809d68372d5f999d309e8d5da7324ff900751face8656cb27",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_v2/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_v2/verify_found_g9_v2_out.json",
+        "expected_sha256": "b5fb9596e233444e6051dcb481cae30f04331cabe38aa1d62bd490b8167e17a9",
+        "actual_sha256": "b5fb9596e233444e6051dcb481cae30f04331cabe38aa1d62bd490b8167e17a9",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_v2/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_v2/verify_found_g9_v2.py",
+        "expected_sha256": "f92b95c2bfb74fae1cdc3f62daa212363cd83fb3175678fd37df4f88d92ee2c3",
+        "actual_sha256": "f92b95c2bfb74fae1cdc3f62daa212363cd83fb3175678fd37df4f88d92ee2c3",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g10/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g10/verify_found_g10_out.json",
+        "expected_sha256": "55916cfa23378a8db773201032757432876f29c4c83928027ecd0a40c303fc77",
+        "actual_sha256": "55916cfa23378a8db773201032757432876f29c4c83928027ecd0a40c303fc77",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g10/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g10/verify_found_g10.py",
+        "expected_sha256": "e6fed4d1748f41e8544779d82f3cc4a2fa1d19fb78e44c6241a877ebca42d44e",
+        "actual_sha256": "e6fed4d1748f41e8544779d82f3cc4a2fa1d19fb78e44c6241a877ebca42d44e",
+        "matched": true
+      }
+    ],
+    "self_script_manifest": {
+      "manifest": "relays/agy002_found_g10_referee/SCRIPT_SHA256.txt",
+      "target": "relays/agy002_found_g10_referee/referee_found_g10.py",
+      "expected_sha256": "7b422ca6821593d298388e9fed38d3739aa9ee5ee20d8ded7ead3c0aa0a5e084",
+      "actual_sha256": "7b422ca6821593d298388e9fed38d3739aa9ee5ee20d8ded7ead3c0aa0a5e084",
+      "matched": true
+    },
+    "passed": true
+  },
+  "section_1_culler_spin_lift_and_baer_gap": {
+    "wirtinger_relation_sigma_plus_zero": true,
+    "wirtinger_relation_sigma_minus_zero": true,
+    "cusp_commutator_sigma_plus_zero": true,
+    "cusp_commutator_sigma_minus_zero": true,
+    "longitude_word_length": 8,
+    "longitude_abelianization": 0,
+    "seifert_commutator_identity_exact": true,
+    "fricke_klein_commutator_trace": -2,
+    "domain_matrix_qq_zeta6_exact": true,
+    "peripheral_traces_sigma_plus": [
+      2,
+      -2
+    ],
+    "peripheral_traces_sigma_minus": [
+      -2,
+      -2
+    ],
+    "tau_cusp_recovered": "2*sqrt(3)*i",
+    "mu_min_sq_sigma_plus_exact": "pi**2/12",
+    "mu_min_sq_sigma_minus_exact": "13*pi**2/12",
+    "mu_min_sq_sigma_plus_val": 0.8224670334241132,
+    "mu_min_sq_sigma_minus_val": 10.692071434513473,
+    "essential_spectrum_empty_both_lifts": true,
+    "sl2c_10_trial_max_conjugation_err": 3.9997623876778127e-14,
+    "PF10_1_forbidden_00_mu_min_sq": 0,
+    "PF10_1_caught": true,
+    "PF10_2_nonperipheral_comm_norm_conv1": 3.872983346207417,
+    "PF10_2_nonperipheral_comm_norm_conv2": 3.8729833462074166,
+    "PF10_2_caught": true,
+    "passed": true
+  },
+  "section_2_rayleigh_ritz_and_horn_zero_mode": {
+    "symbolic_H_minus_factorization_exact": true,
+    "symbolic_H_plus_factorization_exact": true,
+    "symbolic_A_psi0_zero": true,
+    "symbolic_H_minus_psi0_zero": true,
+    "psi0_norm_sq_exp_2mu_E1_2mu": 0.38924132009331724,
+    "psi0_norm_sq_quad_vs_E1_diff": 0.0,
+    "gauss_legendre_weights_strictly_positive": true,
+    "shen_legendre_modes": 96,
+    "sine_galerkin_modes": 140,
+    "lambda_1_Dir_D0_shen_legendre": 5.93270508564194,
+    "lambda_1_Dir_D0_sine_galerkin": 5.93270508564189,
+    "lambda_1_Dir_halfline_whittaker_50d": 5.932705085642181,
+    "lambda_1_D_open_shen_legendre": 6.0758538152157286e-27,
+    "A_psi0_rel_L2_norm": 0.0,
+    "open_ground_state_overlap_with_psi0": 0.9999999999999999,
+    "PF10_3_domain_monotonicity_gap": 5.93270508564194,
+    "PF10_3_caught": true,
+    "PF10_4_wrong_chirality_Adag_lambda_1": 5.932705085642485,
+    "PF10_4_caught": true,
+    "passed": true
+  },
+  "section_3_fox_cohomology_and_branch_b_casimir": {
+    "alexander_polynomial": "t**2 - 3*t + 1",
+    "alexander_coefficients": [
+      1,
+      -3,
+      1
+    ],
+    "alexander_discriminant": 5,
+    "seifert_monodromy_LR_charpoly_matches": true,
+    "betti_numbers_b0_b1_b2": [
+      1,
+      1,
+      0
+    ],
+    "euler_characteristic": 0,
+    "C_UV_exact": "189/2",
+    "C_UV_components": {
+      "gauge_21_plus_57": "231/4",
+      "fermions_3x27_48_plus_33": "153/4",
+      "higgs_27_13_plus_14": "-3/2"
+    },
+    "cohomological_NB0_real_set": [
+      4,
+      27,
+      47,
+      68
+    ],
+    "branch_b_pairs": [
+      {
+        "M_0": 1,
+        "N_B0_real": 4,
+        "C_IR": -4,
+        "L4_star": "1.6825691489809530761373063081366",
+        "ln_4_L4_star": "1.9066162417606583105758432437075",
+        "V_star": -0.0001234946782350107,
+        "d2V_star": 0.0014443827411478112,
+        "abs_dV_bessel": 9.956824444577827e-60,
+        "abs_dV_momentum_quad": 2.61051331022641e-59,
+        "abs_V_bessel_minus_quad": 2.4892061111444567e-60,
+        "passed": true
+      },
+      {
+        "M_0": 1,
+        "N_B0_real": 27,
+        "C_IR": -27,
+        "L4_star": "1.0293101559731353589314670777441",
+        "ln_4_L4_star": "1.41518318749532493722616059579",
+        "V_star": -0.004396596947585197,
+        "d2V_star": 0.09441645464595022,
+        "abs_dV_bessel": 3.1861838222649046e-58,
+        "abs_dV_momentum_quad": 2.0542381787114607e-57,
+        "abs_V_bessel_minus_quad": 3.1861838222649046e-58,
+        "passed": true
+      },
+      {
+        "M_0": 1,
+        "N_B0_real": 47,
+        "C_IR": -47,
+        "L4_star": "0.84705424518980112538667626556442",
+        "ln_4_L4_star": "1.220303818646759934646010107381",
+        "V_star": -0.014308587372089173,
+        "d2V_star": 0.39693080257170343,
+        "abs_dV_bessel": 1.2744735289059618e-57,
+        "abs_dV_momentum_quad": 9.05679541435421e-57,
+        "abs_V_bessel_minus_quad": 9.558551466794714e-58,
+        "passed": true
+      },
+      {
+        "M_0": 1,
+        "N_B0_real": 68,
+        "C_IR": -68,
+        "L4_star": "0.73222438758742122701982754828873",
+        "ln_4_L4_star": "1.0746260895451242978635306415727",
+        "V_star": -0.03261432755551579,
+        "d2V_star": 1.103459606579553,
+        "abs_dV_bessel": 2.5489470578119236e-57,
+        "abs_dV_momentum_quad": 2.6350274274174394e-56,
+        "abs_V_bessel_minus_quad": 1.2744735289059618e-57,
+        "passed": true
+      },
+      {
+        "M_0": 3,
+        "N_B0_real": 4,
+        "C_IR": -4,
+        "L4_star": "1.5663776904811487320233583678144",
+        "ln_4_L4_star": "1.8350601112698952422941859214506",
+        "V_star": -0.0001583701054823447,
+        "d2V_star": 0.002015658658390727,
+        "abs_dV_bessel": 5.974763154715998e-60,
+        "abs_dV_momentum_quad": 4.6134160071229803e-60,
+        "abs_V_bessel_minus_quad": 2.4892061111444567e-60,
+        "passed": true
+      },
+      {
+        "M_0": 3,
+        "N_B0_real": 27,
+        "C_IR": -27,
+        "L4_star": "0.91254256994048706756551029071382",
+        "ln_4_L4_star": "1.2947738184958047819806787945936",
+        "V_star": -0.006460357595249031,
+        "d2V_star": 0.16124138719144251,
+        "abs_dV_bessel": 7.567186577879148e-58,
+        "abs_dV_momentum_quad": 7.707542566356685e-57,
+        "abs_V_bessel_minus_quad": 3.1861838222649046e-58,
+        "passed": true
+      },
+      {
+        "M_0": 3,
+        "N_B0_real": 47,
+        "C_IR": -47,
+        "L4_star": "0.73573435956625991853023740758078",
+        "ln_4_L4_star": "1.0794082112153409930796757420256",
+        "V_star": -0.022094442584211612,
+        "d2V_star": 0.7398452602060098,
+        "abs_dV_bessel": 3.1861838222649046e-57,
+        "abs_dV_momentum_quad": 2.814659446042089e-57,
+        "abs_V_bessel_minus_quad": 9.558551466794714e-58,
+        "passed": true
+      },
+      {
+        "M_0": 3,
+        "N_B0_real": 68,
+        "C_IR": -68,
+        "L4_star": "0.62775405624997932007597506765978",
+        "ln_4_L4_star": "0.92068754172363514677367021038897",
+        "V_star": -0.051894502736564714,
+        "d2V_star": 2.1905182487500223,
+        "abs_dV_bessel": 1.401920881796558e-56,
+        "abs_dV_momentum_quad": 1.4873444032086096e-56,
+        "abs_V_bessel_minus_quad": 5.735130880076828e-57,
+        "passed": true
+      }
+    ],
+    "max_abs_dV_bessel_across_8_pairs": 1.401920881796558e-56,
+    "max_abs_dV_momentum_quad_across_8_pairs": 2.6350274274174394e-56,
+    "max_abs_V_bessel_minus_quad_across_8_pairs": 5.735130880076828e-57,
+    "PF10_5_branch_a_C_IR": 28,
+    "PF10_5_branch_a_max_dV_on_quarter_to_4": -4.685554113569754e-05,
+    "PF10_5_branch_a_bessel_vs_quad_at_3": 2.240285500030011e-59,
+    "PF10_5_injected_quadratic_dV_at_3": 1.9998022257167996,
+    "PF10_5_caught": true,
+    "passed": true
+  },
+  "planted_fault_summary": {
+    "PF10_1_caught": true,
+    "PF10_2_caught": true,
+    "PF10_3_caught": true,
+    "PF10_4_caught": true,
+    "PF10_5_caught": true
+  },
+  "all_5_planted_faults_caught": true,
+  "overall_passed": true
+}
