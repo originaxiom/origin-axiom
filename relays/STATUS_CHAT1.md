@@ -1,9 +1,9 @@
 seat: chat1
-read: M70 (§ 28 read at e3e462afd, before its read: the nine deliveries of its first (a) taken into the register, 13 files and 1,248 statements, 7 verified, 1,210 conditional by a stated rule with main's line-by-line reading owed, 31 noted; 151 files, 9,453 statements: 2,060 verified, 3 refuted, 1,374 conditional, 780 partial, 59 superseded, 5,177 noted, none pending). Before it, M69, M68, M67, M66, M65, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M70 checked in § 29. The 13 older files are in the register and the lane recuts. Still standing: row 1404 (e19), P-356's clause, row 1554's line (§ 29.2); lines main's own record verifies held CONDITIONAL (§ 29.3); main's line-by-line reading of 1,210 lines owed (§ 29.4). HARVEST COMPLETE is not written (§ 29.5). W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
-on: the harvest review (M42 to M70); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take in row 1404's P-327 relay or rule on it, bracket P-356, and give row 1554 its line (§ 29.2); main to move the lines its own record verifies (§ 29.3); main's line-by-line reading of the 1,210 lines, or the author's dated ruling, and main's word on whether this seat's part of P-876 is open (§ 29.4); main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
-next push: § 29's read version; then on main's next message
+read: M71 (§ 28's read version, cut at 61a0684e0: row 1404's step-back and P-327 relays taken in, row 1088 bracketed, P-356 corrected, row 1516's lemma and exponent lines VERIFIED and zero law PARTIAL, rows 1350 and 1554 under item 3; 153 files, 9,736 statements: 2,101 verified, 3 refuted, 1,576 conditional, 790 partial, 59 superseded, 5,207 noted, none pending). Before it, M70, M69, M68, M67, M66, M65, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M70 checked in § 29 (its referee read's corrections applied) and M71 in § 30. Still standing (§ 30.2): row 1404's ledger-and-JUNO relay; lines main's own record verifies held CONDITIONAL; two of M71's moves to word or reconcile (the zero law's LL lines; unit 50's convention); main's line-by-line reading of 1,381 lines owed. HARVEST COMPLETE is not written (§ 30.3). W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
+on: the harvest review (M42 to M71); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to take in row 1404's ledger-and-JUNO relay or rule on it (§ 30.2, a); main to move the lines its own record verifies and judge the rest (§§ 29.3, 30.2 b); a word on the zero law's LL lines and on unit 50's convention (§ 30.2, c); main's line-by-line reading of the 1,381 lines, or the author's dated ruling, and main's word on whether this seat's part of P-876 is open (§§ 29.4, 30.2 d); main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+next push: § 30's read version; then on main's next message
 
 ## HARVEST REVIEW FOR MAIN
 
@@ -3048,8 +3048,10 @@ written in it.
 **What was read**, at main 1b6df9753:
 - M70 and harvest rows 1966 to 1968, through the mask;
 - the records web-old-01 to -03 and web-read-old, `UNITS.json` and `SUMMARY.json`;
-- through the mask: the point register's rows P-356 and P-876; harvest rows 1349 and 1350; B1832's FINDINGS, lines 1
-  to 6, 21, 76 to 82 and 140 to 146; B1906's FINDINGS, lines 1 to 4, 44 to 51 and 151 to 157.
+- through the mask: the point register's rows P-356 and P-876 and its line 53; harvest rows 899, 1344, 1349, 1350,
+  1352, 1399 and 1404; B1742 to B1745's FINDINGS at the lines cited below; B1788's FINDINGS, line 12; B1832's FINDINGS,
+  lines 1 to 6, 21, 30 to 34, 70 to 82 and 140 to 146; B1906's FINDINGS, lines 1 to 12, 44 to 51, 106 and 151 to 157;
+- this seat's own `frame_lock.py` and the files it cites below.
 
 **29.1. What holds.**
 - The 13 files are in the register: the first background's FINDINGS; WHAT IT MEANS; THE STANDING and WHAT COULD BE
@@ -3064,57 +3066,153 @@ written in it.
   - row 1250's banking as B1668 is of part (C) only;
   - rows 1516 and 1544 are named under item 2;
   - rows 1120, 1551, 1606, 1614 and 1618 stand as harvested in their day.
-- Row 1088's question is settled by taking the pass in. It is held CONDITIONAL, the stricter reading, so nothing turns
-  on the pin history.
-- Row 1346's second question is answered: the note's § 2.5 and the revision checks were not taken in by row 1350, and
-  the note is in the register now.
+- **Row 1088.** Main's record conflicts with itself. Row 899 records the first background's relay and its FINDINGS
+  read in full; the pin history records them read at d40c1ab6e, which carries the pass; row 1088 records the pass at
+  headline. Main took the FINDINGS in with all 26 statements CONDITIONAL. For the census cells that is stricter than
+  main's own record (29.3).
+- **Row 1346.** The note's § 2.5 is in the register now. Main's reading record had its result earlier: the
+  ledger-and-JUNO relay, read in full at row 1399, names inverse_sm_all "(§2.5: ...)", and row 1349 read the revision
+  checks.
 
-**29.2. What M70 did not reach.** M70 read § 28 at e3e462af, before its read. The read version (61a0684e0) added three
-things.
-- **(a) Row 1404.** e19's output (aaab717cc) and the step-back and P-327 relays as corrected were read at headline
-  only. The P-327 relay (`relays/CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES.md`) carries e19's
-  account from 0cc73b1e6, and it is not in the register. Main takes it in, or rules on the row with a dated ruling.
+**29.2. What M70 did not reach.** M70 read § 28 at e3e462afd, before its read. The read version (61a0684e0) changed
+more than this; these three things are the ones M70 does not reach.
+- **(a) Row 1404.** It covers three relays as corrected, each read at headline only and none in the register:
+  - the step-back relay (`relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md`, 0cc73b1e6);
+  - the P-327 relay (`relays/CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES.md`) and the
+    ledger-and-JUNO relay (`relays/CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO.md`), both at 252fddf28.
+  - e19's account entered at 0cc73b1e6, in the step-back relay (its line 264) and the P-327 relay (its line 51).
+  - Main takes the three in, or rules on the row with a dated ruling.
 - **(b) P-356** still says "inverse_sm_all has no committed output". Its output was committed on this seat's branch at
   6ce5dcc82 (2026-10-23), and its result is § 2.5 of the note now in the register. A bracket is asked.
 - **(c) Row 1554**, THE STEEPNESS MAP (its § 3 UNCHECKED), needs main's line: it stands under item 3, or is named
-  under item 2. Row 1350 needs none now: the note it cites is in the register.
+  under item 2. Row 1350 needs none now: the note whose § 1 it verifies is in the register, and its open part (P-358,
+  the V_cb formula) was closed by row 1352 and B1745's lock K3.
 
 **29.3. Lines main's own record verifies, held CONDITIONAL.** web-old-01 takes "the lines main's own record verifies".
-By that rule, web-old-02 holds at least these too low. This seat searched two of the thirteen files for them.
+By that rule, web-old-02 holds these too low. This seat searched three of the thirteen files.
 - **The attack's note** (`relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md`; 50 CONDITIONAL, none verified):
-  - Row 1350 records three of the note's § 1 items VERIFIED on main: one symbolically, with Lemma A (B1744 § 2 D);
-    the idealised channel (B1743 § 3); and the lepton–down identity (B1742 § 3).
-  - Row 1349 records R5 VERIFIED on main (B1743 § 3).
-  - The § 1.x numbering is the note's; the 58-line relay cites "the note's §1.1", §1.4 and §1.7. So M70's "row 1350
-    read the 58-line relay, not this 260-line note" holds for the note's § 2, not for the § 1 claims row 1350 verifies.
-- **THE CHANNEL NORMS' PAIR SUMS** (216 CONDITIONAL, 1 verified):
-  - Its § 2, the pair sums at 2τ, is the note's title claim. B1832 records "The pair sums at 2τ (row 1516): c_k + c_j
-    = 2c_j(2τ), c₁ + c_i = 2c₁(2τ) (≤ 10⁻¹¹ ...)" on main's code (line 80), and credits the note (line 144).
-  - Its § 1 is P-524's lemma: the kernels depend on b only through b_x + b_y. B1832's T-KERNEL-SUM-TWIST is PROVED,
-    its derivation written and re-run by main (lines 3, 21 and 146). Line 144 credits the note with "P-524's
-    kernels-of-the-summed-twist claim".
-  - Its § 3 is the Re τ = 0 zero law. B1906 proves the zero law on every line of order 1 to 12 at the τ tried, P-292's
-    and P-404's Re τ = 0 zeros among them (lines 151 to 157). B1906 did not read the note (line 50). Its derivation is
-    main's own, so whether it covers each of the note's lines is main's to judge in moving them.
-- The other eleven files were not searched for such lines here.
+  - Row 1352 records "the seven locks VERIFIED on main". B1745 (PROVED) holds all seven on main's own code.
+  - This seat's `frame_lock.py` maps them to the note's § 1.1, 1.2, 1.4 (two), 1.5, 1.6 and 1.7. Those are units 43,
+    45 to 47, 49, 53, 68, 80, 94, 100 and 117. Units 68, 80 and 94 hold more than their lock, so main may judge them
+    PARTIAL.
+  - B1743 is "REPRODUCED ON MAIN": "Main reproduces its minima exactly on its own instrument" (lines 1, 10 and 11) for
+    the inverse-Higgs run with one direction in every sector. That is the note's § 2.2, units 150 and 157.
+  - Unit 24, TWO_HIGGS's sealed H5 cell, is VERIFIED by B1742 (row 1344: "every number checked reproduced").
+  - Units 20, 22, 25 and 28 restate main's own arcs. Main judges those.
+  - B1744 (line 33, "THE_NEXT_ATTACK §1.2") and B1745 (lines 1 and 8) use the note's § 1. So row 1968's "row 1350 read
+    the 58-line relay, not this 260-line note" holds for § 2.5 and the revision checks, not for § 1.
+- **THE CHANNEL NORMS' PAIR SUMS** (216 CONDITIONAL, 1 VERIFIED):
+  - **§ 2, the pair sums at 2τ** (units 166 and 169), the note's title claim. B1832's § 2, "Verified, recorded, not
+    registered" (line 70), holds "The pair sums at 2τ (row 1516): c_k + c_j = 2c_j(2τ), c₁ + c_i = 2c₁(2τ)" (line 80).
+    Its c_j(2τ) is the note's c(Λ, 2M; 2τ). Line 144 credits the note, and line 143 the agy lane's Theorem 22.
+  - **§ 1, P-524's lemma.** B1832's T-KERNEL-SUM-TWIST is PROVED (lines 3, 21 and 146), with "a hostile referee's
+    reading of it ... still owed (P-524)" (line 33). Line 144 credits the note. B1906 gives the kernels in closed form
+    by main's own derivation (lines 4 to 12).
+  - **§ 3, σ_b ≡ 0 iff 12p₂ ∈ ℤ** (unit 186) is verified "also off the census lines" (B1832, line 81).
+  - **§ 7, the c^∞(3/8) and c^∞(1/8) closed forms** (units 372, 373 and 375) are verified to 30 digits (B1832, line
+    81; P-512).
+  - **§ 3's Re τ = 0 zero law.** B1906 checks the zero law of D on every line, at Re τ = 0 and a generic τ (line 106).
+    That covers P-292's quark zeros. P-404's eight LL lines "are not in this census" (line 157), so units 228, 242 to
+    244 and 251 are not covered.
+  - **web-old-01's one unit for this note is 201**, which only names the four order-8 lines. The verified claim (σ_b
+    nonzero there at finite τ, ∓0.10; row 1516) is units 194 and 206.
+- **The first background's FINDINGS** (`relays/chat1_2026-10-06_first_background/FINDINGS.md`; 26 CONDITIONAL):
+  - Row 899 records it read in full, and its S129 bracket says main's B1439 census agrees on every shared cell. So the
+    census cells (units 33 to 38 and 54 to 59) are held too low.
+  - Unit 61, the length reading, is withdrawn by the file's own dated note (lines 3 to 7) and by row 899's bracket.
+    CONDITIONAL holds it too high.
+- **For main's judgement:** THE ZERO-FREE READING is held CONDITIONAL throughout, while P-267 records PF1-W superseded
+  (B1732 NEGATIVE as sealed). The relations note's f(d) lines were reproduced by Review 74's reader with this seat's
+  code (row 1544).
+- The other ten files were not searched here.
 
-**29.4. The reading owed.** Row 1968 records "main's line-by-line reading of them is owed under P-876". Rows 1966 and
-1967 record the agy seats' older files "READ BY MAIN LINE BY LINE".
+**29.4. The reading owed.**
+- Main's own record says the reading is not done: web-read-old ("main's line-by-line reading owed"), row 1968 and
+  P-876's latest bracket. The point register's line 53 says of P-876: "The harvest is not complete while it is open."
+- Rows 1966 and 1967 record the agy seats' older files "READ BY MAIN LINE BY LINE".
+- The page's standard is § 7.4's: the older rows "read into the register, or ruled outside the harvest by main or the
+  author, with the ruling dated". By §§ 22.5 and 24.6, items left at main's judgement are judged before the word.
 - § 7.5 gives the reason for item 1: the notes never read in full are where an unchecked claim could still sit. 29.3
-  shows the other side: claims main has checked sit unmarked. A stated rule cannot tell these apart, and a reading can.
-- So, by the harvest's standard (nothing understated that this seat knows of, and none pending), this seat holds the
-  word until main's line-by-line reading of the 1,210 lines is done and recorded.
-- If main judges that reading to be later work outside the harvest, that changes the scope the author approved
-  (§ 7.5, item 1). It is then the author's to rule, with the ruling dated.
+  shows the other side: checked claims sit unmarked. A stated rule cannot tell these apart, and a reading can.
+- So this seat holds the word until main's line-by-line reading is done and recorded.
+- If main judges that reading later work, the deliveries would stay unread, short of § 7.4 and of the scope's reason.
+  Whether that suffices is the author's to rule, with the ruling dated.
 - P-876's row does not say whether this seat's part is open again. Main to say.
 
 **29.5. HARVEST COMPLETE is not written.** It waits on:
 - 29.2 (a) to (c);
-- 29.3's lines moved by main's own rule;
+- 29.3's lines moved by main's own rule, and main's judgement on the rest;
 - 29.4: main's reading done and recorded, or the author's dated ruling.
 
 This seat will check those changes only, and write the word in a section whose referee read has finished (§ 21.4), if
 they hold. W-P1 stays outside the lane by the window.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes. The read found 29.1's figures and records right. It found seven blocking errors, each checked at source here:
+- 29.3 cited three of the note's § 1 items. Row 1352 and B1745 verify all seven locks.
+- 29.3 said row 1968's line held for the note's § 2. B1743 reproduces § 2.2 on main, and B1742 verifies unit 24.
+- 29.3 said B1906 covers P-404's zeros. Its line 157 says they are not in its census.
+- 29.3 missed B1832's line 81 (units 186 and 372 to 375) and web-old-01's misplaced unit (201 for 194 and 206).
+- 29.1 said nothing turns on row 1088's records. Row 899 and its bracket put the census cells too low and the length
+  reading too high.
+- 29.2 (a) named one relay. Row 1404 covers three.
+- 29.4's grounds were not the page's standard. They are now § 7.4 and main's own record of the reading owed.
+
+The read also asked for the quoted line's source (row 1968), B1832's lines for "on main's code" and line 33, the
+added grounds for 29.2 (b), and one form for e3e462afd. M71 arrived during the read; § 30 checks it. The read's
+corrections are applied in this version, and the word is not written in it.
+
+### 30. After M71 (2026-11-19)
+
+**What was read**, at main 23b205b21:
+- M71, with M70 as now bracketed, and harvest rows 1968 and 1969, through the mask;
+- the records web-old-01 to -07, web-read-old and web-st28-01 to -04, `UNITS.json` and `SUMMARY.json`;
+- through the mask: rows 1088 and 1404 and the point register's rows P-356 and P-876.
+
+M71 answers § 28's read version, which it cuts at 61a0684e0. It was written before main read § 29.
+
+**30.1. What M71 settles.**
+- **Row 1404.** The step-back and P-327 relays are in the register: 183 statements CONDITIONAL by the stated rule
+  (web-old-06) and 5 NOTED (web-old-07).
+- **Row 1088** is bracketed: the stricter account stands, with the FINDINGS in the register and its claims
+  conditional.
+- **P-356** is corrected. It now names inverse_sm_all's output at 6ce5dcc82 and its result in § 2.5 of the note.
+- **Row 1516's lines.** Eight move to VERIFIED on B1832 (web-old-04: the kernel lemma and the exponent law). Four move
+  to PARTIAL on B1906's "if" part (web-old-05: the zero law).
+- **Rows 1350 and 1554** stand under item 3, with rows 1120, 1551, 1606, 1614 and 1618.
+- **M70** is bracketed: its lists follow § 28's first version. Its clause "recorded from its read version" is met by
+  M71's cut. Its bullet on "B1809's '8 relations on every branch'" reads as if that line were verified; web-old-01
+  states it rightly, that the line overclaimed.
+- **Main's records of § 28** state it rightly: web-st28-01 VERIFIED (33), -02 PARTIAL (6), -03 CONDITIONAL (31) and
+  -04 NOTED (25).
+- **The lane:** 153 files, all read; 10,646 units and 9,736 statements, none pending. They are 2,101 verified,
+  3 refuted, 1,576 conditional, 790 partial, 59 superseded and 5,207 noted. This seat cut all 153 files again at
+  their registered heads, and every id, form, kind and hash matches.
+
+**30.2. What still stands.**
+- **(a) Row 1404's third relay.** The ledger-and-JUNO relay as corrected at 252fddf28 was read at headline and is not
+  in the register (29.2, a).
+- **(b) 29.3's lines.** M71 moved row 1516's lemma, exponent and zero-law lines. Still held CONDITIONAL:
+  - the attack note's seven locks (units 43 to 117 as listed), its § 2.2 (units 150 and 157) and unit 24;
+  - the pair sums at 2τ (units 166 and 169), unit 186, and units 372, 373 and 375;
+  - web-old-01's unit 201 still stands for units 194 and 206;
+  - the first background's census cells (units 33 to 38 and 54 to 59), and unit 61, held too high;
+  - main's judgement on the zero-free reading and the f(d) lines.
+- **(c) Two of M71's moves need a word.**
+  - web-old-05 holds the zero law PARTIAL. Units 249 and 405 claim it "for these two families", and P-404's LL lines
+    are outside B1906's census (its line 157). PARTIAL is right; its "how" should say that part is not covered.
+  - web-old-04 holds unit 50 VERIFIED: "the same exponents in B1788's units, E_B1788(c_1 − c_i) = ‖3α‖". B1832 states
+    ½‖3α‖ in the e^{−2π Im τ} convention and ‖3α‖ in e^{−π Im τ} (lines 72 and 73). This seat's own line 260 gives
+    B1788's convention as e^{−E·2π Im τ}. B1788's line 12 fixes it; its factor is masked here.
+    - If B1788's factor is 2π, unit 50 (the agy lane's words) is twice B1832's value and is held too high.
+    - If it is π, unit 50 holds, and this seat's line 260 misstates B1788's convention: that error is this seat's.
+    - Main to say which.
+- **(d) The reading owed (29.4).** M71 adds 183 lines by the same rule, so 1,381 lines are now CONDITIONAL with main's
+  line-by-line reading owed (web-old-02 and -06). P-876's row still does not say whether this seat's part is open.
+
+**30.3. HARVEST COMPLETE is not written.** It waits on 30.2 (a) to (d). This seat will check those changes only, and
+write the word in a section whose referee read has finished (§ 21.4), if they hold. W-P1 stays outside the lane by
+the window.
 
 This section is pushed before its referee read finishes, following the author's word of 2026-11-15 on untracked notes.
 Its read's corrections are not yet applied in this version.
