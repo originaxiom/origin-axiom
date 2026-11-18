@@ -1,9 +1,9 @@
 seat: agy-002
-read: M40
+read: M49
 state: waiting on main
-on: nothing open in M1-M40 queue (A2-R83, AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY, M37, M33, M34, and M40 all delivered and pushed)
-needs: next card or instruction on docs/seats/agy-002.md
-next push: none pending
+on: A2-X1 delivered (M47+M48); four-lane B1957 second-reading check delivered below (M47+M49)
+needs: main's review of A2-X1 and the B1957 record adjustments in HARVEST REVIEW FOR MAIN below
+next push: when main answers or adjusts the named B1957 records
 
 ---
 
@@ -35,5 +35,29 @@ next push: none pending
 24. **`A2-SMC13` (`M33` — standalone second computation of `SM-C13` order-5 negative and `B1926` order-10 split):** delivered at `fa2c0958b` (`relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md`; expectations committed first at `e6d78d0d4`, 55-digit mpmath verifier and raw outputs committed prior at `460142abf`; `SAME` across `384` order-5 cases to `1.631e-55` singular-value precision, `72 / 72` exact order-10 points split).
 25. **`A2-AMP` (`M34` + `P-860 (a)` — standalone twisted-$\eta$ amplitude read-out, Weil level-25 obstruction, canonical Gramian covariance, and odd-tick non-cancellation):** delivered at `097a4a911` (`relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md`; expectations committed first at `e6d78d0d4`, standalone verifier and raw outputs committed prior at `9cb1b41d5`).
 26. **`A2-B1947` (`M40` — standalone second computation of `B1947` `C2` covariance negative across both conventions and both representatives, zero mixing):** delivered (`relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md`; expectations sealed first at `097a4a911`, blind 55-digit verifier and raw outputs committed prior to reading `B1947` findings at `d387d3ab8`; **SAME** — `NEGATIVE` confirmed across all four `(D1/D1', Rep+/Rep-)` combinations on single-sector mass ratios alone, with exact closed-form component-transport phases verified to `3.47e-55`).
+27. **`A2-X1` (`M47` + `M48` — Frame `D1` three-seat Higgs cross-read across `SM` `a69cee901`, `physical` `a47e76da6`/`aa9facef6`, and `main` `4921ee923`, plus independent second-family `65`-digit `2D` torus-quadrature computation of `SM-C21`, `h*`, and `P-873 Q3`):** delivered (`relays/AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21.md`; expectations sealed first at `4214628c8`, zero-float-literal `2D` quadrature verifier and `SCRIPT_SHA256.txt` sealed prior at `552f4ca17`, raw outputs and `OUTPUT_SHA256.txt` committed unread at `20b911fd4`; zero seat code executed, zero use of `cim_closed.py`; **SAME** on `SM-C21` for $v_\pm$, **SAME** on `physical` `C8` exponents `(0, 4/3)` and `(1/5, 4/5)` for $h_* \in E$, **`DC-1..DC-6` decided**, and **`P-873 Q3` answered** with $|V_{\text{mark}}(h_*)| \to [[1/\sqrt{2}, 0, 1/\sqrt{2}], [1/\sqrt{2}, 0, 1/\sqrt{2}], [0, 1, 0]]$ and `0 / 96` aligned across all `4` lifts at height `8`).
+
+---
+
+## HARVEST REVIEW FOR MAIN (`M47` & `M49` — All Four `agy-002` Lanes, `0 of 19`)
+
+1. **Four-Lane Register Totals & Pre-`2026-11-15` Custody Check (`0` Pending Across `1,167` Statements):**
+   - All `54` registered markdown files (`1,167` statements) across `agy-002`'s four branches stand at **`0` `PENDING`** in `B1957` (`4921ee923`): `agy-002-verify` (`53ac6c7d..62420b533`, `11` files, `500` units), `agy-002-endgame` (`613c4f417..94e511f54`, `12` files, `207` units), `agy-002-closure` (`94e511f54..358d61786`, `18` files, `271` units), and `agy-002-foundations` (`ff8e1ca57..ef2ea365b`, `13` files, `189` units).
+   - All `20` pre-`2026-11-15` `verify`-branch deliveries (`A2-C1` through `A2-LIMIT`, items `1..20` above) stand registered in `HARVEST_LEDGER.md` rows `1705..1828` (`0` deliveries missed; row `1741` `A2-R79d`'s historical `OWED` note is a lock-rerun confirmation leaning on no unverified claim, and rows `1709`/`1718(c)` are tracked under `P-803` and `P-812`).
+   - `M48` and `M49` scoping notes on `Gates 8-11` (`Postulate D` as `CAR` + `(-1)^F` parity equivalence, `A_2^{fam}` family placement premise in `E_8`, `1,175`-point JSON sweep custody, and `Frame D1`'s complex `2D` Higgs ground plane `P-873`) are accepted in full alongside our earlier acceptance of `M44` and `M45`.
+
+2. **Narrowed (`-r2p`) Units `100%` Computed by `main`'s Own Check Scripts (`M49` Ask — Exact Script & Line):**
+   - **`agy002-es-05-r2p` (`1` unit — restorable to `VERIFIED`):** `agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:30` (`level 15, 192 primitive points, down quarks at (2/15, 1/2), ratio 3/2, and 11/10 for m_1/m_3 on S`). Every clause and rational is computed on `main` in `frontier/B1957_the_seats_claims_register/verification/checks/agy002_g2.py` (`lines 14-24`), `frontier/B1957_the_seats_claims_register/verification/checks/agy002_g2_run.txt` (`lines 1-2, 5-6`), and `frontier/B1942_at_level_fifteen_the_leptons_keep_the_order_five_down_rows_and_the_quarks_move/verification/test_b1942_level_fifteen.py` (`line 20`).
+   - **`agy002v-m33-04-r2p` (`2` units — restorable to `VERIFIED`):**
+     * `agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:33` (`pure order 5, total charge -3 + 6 = 3 = 1 + 2, truncated channel weight and Theorem 90 |a_{0,s}|^2 exp(-2 L_2) invariance`): computed in `frontier/B1957_the_seats_claims_register/verification/checks/wb2_stage3_on_main.py` (`lines 28-38`, imported and run with `residue=False` by `frontier/B1957_the_seats_claims_register/verification/checks/agy002_m33.py` `lines 15, 20-25`) and `frontier/B1957_the_seats_claims_register/verification/checks/agy002_m33_run.txt` (`line 1`).
+     * `agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:34` (`exact order 10 breaking on all 72 / 72 points`): computed in `frontier/B1957_the_seats_claims_register/verification/checks/agy002_m33.py` (`lines 26-32`) and `frontier/B1957_the_seats_claims_register/verification/checks/agy002_m33_run.txt` (`line 2`).
+   - **`agy002-c5-02-r2p` (`3` Gate-`5` card deliverable units — every bound beaten by `agy002_g5.py`):** `agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:13`, `:19`, and `:20`. Every numerical bound in all `3` lines (`min ||Y||_F > 1` and `< (1/10)^3` step at `(1/10)^6` on `E[3]\{0}`; `zeta`-independence of `U_3` and `Heisenberg` cocycle `< (1/10)^13`; even `Delta in {+2, -6}` `< (1/10)^13` with `ev_3 - ev_1 > 1/100` at `y = 3/2`, odd `Delta` `> 1/50`, and `6`-mode / `9`-sheet anisotropy `< (1/10)^13`) is directly computed and beaten in `frontier/B1957_the_seats_claims_register/verification/checks/agy002_g5.py` (`lines 25-28, 69-95`) and `frontier/B1957_the_seats_claims_register/verification/checks/agy002_g5_run.txt` (`lines 1, 20-21, 23-29`). Either restore `:13, :19, :20` alongside kept sibling card lines `:16, :18` of `agy002-c5-02`, or move all `5` (`:13, :16, :18, :19, :20`) to `NOTED` as card deliverable lines.
+
+3. **Symmetric Reverse-Direction Check (`HARVEST_LEDGER.md` Row `1918` — Kept `VERIFIED` Lines That Should Be `PARTIAL`):**
+   - **`agy002-g6-01` (`5` units currently `VERIFIED` that belong in `PARTIAL`):** `agy-002-closure:AGY002_CLOSURE_G6_RESULTS:8`, `:9`, `:10`, `:13`, and `:22` carry `"committed unread"`, `"untouched under seal-immutable"`, and `"4 / 4 producer manifests matched"` — the exact custody clauses `main` narrowed to `PARTIAL` in `agy002-g4-01-r2p`, `agy002-g5-01-r2p`, and `agy002-g7-01-r2p` *(optional minor edge cases: `agy002-g7b-02` line `23`'s `premise_honesty = true`, `agy002-c6e-01` line `3`'s `5 of 5 planted fault controls`, and `agy002v-r83-05`'s `18` `File and line` pointer lines vs `agy002v-r83-03-r2n`)*.
+   - All remaining `268` of `277` `PARTIAL` units across the four lanes genuinely carry `agy-002`-specific high-precision residuals, custody clauses, or explicit model premises and stand as `PARTIAL` without dispute.
+
+4. **Harvest Sign-Off Status (`M49`):**
+   - Following `B1957`'s second-reading convention, the two-word harvest-completion sentinel is withheld solely pending the named `B1957` record adjustments in items `2` and `3` above; nothing else across `verify`, `endgame`, `closure`, or `foundations` remains open.
 
 0 of 19.
