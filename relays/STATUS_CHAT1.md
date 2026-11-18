@@ -1,8 +1,8 @@
 seat: chat1
 read: M45 (every file of this seat in the register read in full at d36b2a0ec and settled: 1,850 statements, none pending; § 5.3's items answered on main; the eight earlier notes of § 1d settled; W-H1's four asks paid; asked: whether main's record states this seat's work rightly, what is missing or understated, and HARVEST COMPLETE only if nothing is; no card). Before it, M44 (section 5 read; § 3.3's remainder mended; § 5.2's items and W-B2's stage 3 recomputed) and M43 (the review and W-H1 read; § 3's corrections taken)
-state: HARVEST REVIEW FOR MAIN: M45 answered in § 7 below. Within the register main's record states this seat's work rightly but for ten small items (§ 7.2); outside it, this seat's older rows are owed by main's own record (§ 7.3). HARVEST COMPLETE not written
+state: HARVEST REVIEW FOR MAIN: M45 answered in § 7 below. Within the register main's record states this seat's work rightly but for ten small items (§ 7.2). The older rows (§ 7.3) are settled by the author's ruling of 2026-11-18 on the harvest's scope (§ 7.5): about thirty older notes never read in full, and anything a current arc leans on, go into the register; the rest stands as harvested. HARVEST COMPLETE not written: it waits on § 7.5's items 1, 2 and 4
 on: the harvest review (M42 to M45). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 7.2's ten items; main or the author to decide the older rows (§ 7.3); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+needs: main to carry out the author's scope ruling of 2026-11-18 (§ 7.5: the older notes never read in full, and any older result a current arc leans on, into the register; § 7.2's ten items taken or answered); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -547,6 +547,36 @@ It will be written when both of these hold:
 - the older rows are either read into the register, or ruled outside the harvest by main or the author, with the ruling
   dated.
 
+**7.5. The author's ruling on the harvest's scope (2026-11-18, early morning).** This seat put a scope to the author,
+and the author approved it and agreed with its reasoning. It settles § 7.3's question. The scope, put to main:
+1. **Into the register:** this seat's older deliveries that main never read in full.
+   - Main's own list (web-st-log): W-F3 to W-F16, W-F18, W-F19, W-C1, W-C5, the cold read, and the reviews' readings.
+   - § 7.3's additions: W-F1, W-F2, W-C6's part 1, W-C7, W-C8's parts 3 to 5, and the dated note on TICK_LINE_HIGGS's
+     two post hoc fits.
+2. **Into the register as well:** any older result of this seat that a current arc or the picture page leans on, even
+   if main read it in its day. Main names which.
+3. **Everything else of this seat's before 2026-11-15** stands as harvested in its day: rows main read or verified
+   under the standard of the time, which nothing now leans on. They are not re-registered. This ruling is the record
+   that this is a decision and not an omission.
+4. **Main takes or answers § 7.2's ten items.**
+
+When main reports 1, 2 and 4 done, this seat checks them against the source and writes HARVEST COMPLETE if they hold.
+
+The reasoning:
+- most of the older rows were read or verified when they came in, and several are superseded by this seat's later
+  notes, so re-registering all 285 would cost main days and change little;
+- the roughly thirty notes never read in full, the foundation notes W-F3 to W-F16 above all, are where an unchecked
+  claim could still sit.
+
+**After the harvest, the order of work this seat recommends for the foundations,** with which the author agreed. All
+three are data-free and all three are main's to take up:
+1. **The Weil class.** The object carries both classes and the frame's lines cannot tell them apart (B1955; W-A3). So
+   the class is fixed by a stated principle, or it is counted as a choice.
+2. **W-L1's design criterion, tested without data before any further look.** A frame meant to work at a point the
+   object names should be built so that its couplings are forced to zero exactly there, with the hierarchy carried by
+   the departure from that point.
+3. **The up sector at level 25, and the flux bit** (part F at S; P-863).
+
 This page's §§ 6 and 7 come after the register's window (pin d36b2a0ec). § 7 rests on readings of main's record and on
 four runs:
 - committed in `relays/chat1_2026-11-18_rv45/`, each computed once and post hoc:
@@ -567,6 +597,8 @@ notes; the read's corrections are applied in this version. Six claims of the fir
 The referee read also added items 9 and 10 to § 7.2.
 
 ## Notes
+
+- **The author's ruling, 2026-11-18, early morning (the harvest's scope).** The author approved the scope this seat proposed for the harvest of its work, with its reasoning: its older deliveries never read in full by main, and any older result a current arc or the picture page leans on, go into B1957's register; its other rows before 2026-11-15 stand as harvested in their day; main takes or answers § 7.2's ten items. The author also agreed with the order of foundation work after the harvest (§ 7.5). The full scope is in § 7.5.
 
 - **The author's ruling, 2026-11-15, afternoon (the look).** The author answered in main's place that the τ = i read-out is to be tested against data, and that this seat runs the look (card W-L1): it may open the two data files the big run pins and compare W-A1's read-out with them under W-L1's rule. This seat is no longer blind to those data. Every other firewall line stands.
 
