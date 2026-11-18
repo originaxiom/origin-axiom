@@ -1,0 +1,24 @@
+{
+ "id": "sm-pc2-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part of each: its summary lines ('every claim holds', 49 of 49, 68 of 68, 20 rows, 41 of 41) hold for the claims main computes (sm-pc2-01's grounds), the rest being its run; the section 7 line (6 of 24 permutations: sm_physical_checks2.py U2; P_t on S4, its run); the based register's (1) (U(e^{i phi} u) = U(u) D_phi: G6; SU2 membership and the quaternion convention, its run); section 5's scale and potential (G5; omega = d Theta and Theta(iP, -iR) = 0, its run); K4 to K7 (the section counts from the stated degrees: physical_c3e_roster.py R8; the strict pole rule and the beta_j, its reading and the lane's premise)",
+ "note": "",
+ "units": [
+  "sm:SM_CHECK_PHYSICAL_CYCLIC_CHARGED_MASS:80",
+  "sm:SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM:22",
+  "sm:SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM:23",
+  "sm:SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM:24",
+  "sm:SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM:25",
+  "sm:SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM:69",
+  "sm:SM_CHECK_PHYSICAL_FOUR_FORM_REGISTER:44",
+  "sm:SM_CHECK_PHYSICAL_FOUR_FORM_REGISTER:86",
+  "sm:SM_CHECK_PHYSICAL_FOUR_FORM_REGISTER:90",
+  "sm:SM_CHECK_PHYSICAL_RELATIVE_RATES_AND_UNDO:60",
+  "sm:SM_CHECK_PHYSICAL_RELATIVE_RATES_AND_UNDO:77",
+  "sm:STATUS_SM:553",
+  "sm:STATUS_SM:555",
+  "sm:STATUS_SM:557",
+  "sm:STATUS_SM:559"
+ ]
+}

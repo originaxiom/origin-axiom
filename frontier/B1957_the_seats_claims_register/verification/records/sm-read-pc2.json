@@ -1,0 +1,13 @@
+{
+ "id": "sm-read-pc2",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "sm",
+ "how": "read by main in full at the SM seat's branch (c9296d14a); its scripts read as text, not run",
+ "files": [
+  "relays/SM_CHECK_PHYSICAL_RELATIVE_RATES_AND_UNDO.md",
+  "relays/SM_CHECK_PHYSICAL_FOUR_FORM_REGISTER.md",
+  "relays/SM_CHECK_PHYSICAL_CYCLIC_CHARGED_MASS.md",
+  "relays/SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM.md"
+ ]
+}

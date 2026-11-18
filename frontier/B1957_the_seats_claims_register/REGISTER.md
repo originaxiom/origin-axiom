@@ -13,9 +13,9 @@
 | physical | 187 | 184 | 12354 | 967 | 0 | 1448 | 280 | 46 | 9613 | **0** |
 | web | 138 | 138 | 8145 | 2017 | 2 | 162 | 774 | 59 | 5131 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 18 | 32 | 0 | 63 | **0** |
-| sm | 17 | 12 | 6172 | 260 | 4 | 3864 | 204 | 0 | 1840 | **0** |
+| sm | 21 | 16 | 6455 | 366 | 4 | 3935 | 219 | 0 | 1931 | **0** |
 | agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
-| **all** | 558 | 495 | 32531 | 3751 | 28 | 6225 | 2129 | 765 | 19633 | **0** |
+| **all** | 562 | 499 | 32814 | 3857 | 28 | 6296 | 2144 | 765 | 19724 | **0** |
 
 ## By file
 
@@ -523,18 +523,22 @@
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | yes | 30 | 30 | **0** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md` | yes | 17 | 17 | **0** |
 | agy-audit | `relays/STATUS_AGY.md` | yes | 8 | 8 | **0** |
-| sm | `b3385948b:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` | no | 5361 | 5361 | **0** |
+| sm | `c9296d14a:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` | no | 5361 | 5361 | **0** |
 | sm | `relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md` | yes | 27 | 27 | **0** |
 | sm | `relays/SM_C19_WHICH_BIT.md` | yes | 20 | 20 | **0** |
 | sm | `relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md` | yes | 23 | 23 | **0** |
 | sm | `relays/SM_C21_THE_D1_CUSP_MIXING.md` | yes | 26 | 26 | **0** |
 | sm | `relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md` | no | 27 | 27 | **0** |
+| sm | `relays/SM_CHECK_PHYSICAL_CYCLIC_CHARGED_MASS.md` | yes | 54 | 54 | **0** |
+| sm | `relays/SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM.md` | yes | 58 | 58 | **0** |
+| sm | `relays/SM_CHECK_PHYSICAL_FOUR_FORM_REGISTER.md` | yes | 85 | 85 | **0** |
 | sm | `relays/SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER.md` | yes | 14 | 14 | **0** |
 | sm | `relays/SM_CHECK_PHYSICAL_NATIVE_REGISTER.md` | yes | 17 | 17 | **0** |
 | sm | `relays/SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM.md` | no | 18 | 18 | **0** |
+| sm | `relays/SM_CHECK_PHYSICAL_RELATIVE_RATES_AND_UNDO.md` | yes | 81 | 81 | **0** |
 | sm | `relays/SM_CHECK_PHYSICAL_W_P1.md` | yes | 13 | 13 | **0** |
 | sm | `relays/SM_HARVEST_UNVERIFIED_ROWS.md` | no | 182 | 182 | **0** |
-| sm | `relays/STATUS_SM.md` | yes | 306 | 306 | **0** |
+| sm | `relays/STATUS_SM.md` | yes | 311 | 311 | **0** |
 | sm | `relays/cards/SM_C18_the-triple-overlaps-covariance.md` | yes | 36 | 36 | **0** |
 | sm | `relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md` | yes | 28 | 28 | **0** |
 | sm | `relays/cards/SM_C20_is-the-exchange-the-tick.md` | yes | 23 | 23 | **0** |

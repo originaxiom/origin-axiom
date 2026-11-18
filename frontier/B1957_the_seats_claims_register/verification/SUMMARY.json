@@ -118,16 +118,16 @@
    "PENDING": 0
   },
   "sm": {
-   "files": 17,
-   "read": 12,
-   "units": 6831,
-   "statements": 6172,
-   "VERIFIED": 260,
+   "files": 21,
+   "read": 16,
+   "units": 7134,
+   "statements": 6455,
+   "VERIFIED": 366,
    "REFUTED": 4,
-   "CONDITIONAL": 3864,
-   "PARTIAL": 204,
+   "CONDITIONAL": 3935,
+   "PARTIAL": 219,
    "SUPERSEDED": 0,
-   "NOTED": 1840,
+   "NOTED": 1931,
    "PENDING": 0
   },
   "agy-002-sync": {
@@ -6749,6 +6749,45 @@
    "NOTED": 7,
    "PENDING": 0
   },
+  "sm | relays/SM_CHECK_PHYSICAL_CYCLIC_CHARGED_MASS.md": {
+   "lane": "sm",
+   "units": 56,
+   "statements": 54,
+   "read": true,
+   "VERIFIED": 15,
+   "REFUTED": 0,
+   "CONDITIONAL": 24,
+   "PARTIAL": 1,
+   "SUPERSEDED": 0,
+   "NOTED": 14,
+   "PENDING": 0
+  },
+  "sm | relays/SM_CHECK_PHYSICAL_FIXED_SECTOR_LIGHT_SYSTEM.md": {
+   "lane": "sm",
+   "units": 60,
+   "statements": 58,
+   "read": true,
+   "VERIFIED": 12,
+   "REFUTED": 0,
+   "CONDITIONAL": 21,
+   "PARTIAL": 5,
+   "SUPERSEDED": 0,
+   "NOTED": 20,
+   "PENDING": 0
+  },
+  "sm | relays/SM_CHECK_PHYSICAL_FOUR_FORM_REGISTER.md": {
+   "lane": "sm",
+   "units": 98,
+   "statements": 85,
+   "read": true,
+   "VERIFIED": 28,
+   "REFUTED": 0,
+   "CONDITIONAL": 23,
+   "PARTIAL": 3,
+   "SUPERSEDED": 0,
+   "NOTED": 31,
+   "PENDING": 0
+  },
   "sm | relays/SM_CHECK_PHYSICAL_HISTORY_AND_REGISTER.md": {
    "lane": "sm",
    "units": 16,
@@ -6788,6 +6827,19 @@
    "NOTED": 10,
    "PENDING": 0
   },
+  "sm | relays/SM_CHECK_PHYSICAL_RELATIVE_RATES_AND_UNDO.md": {
+   "lane": "sm",
+   "units": 84,
+   "statements": 81,
+   "read": true,
+   "VERIFIED": 51,
+   "REFUTED": 0,
+   "CONDITIONAL": 3,
+   "PARTIAL": 2,
+   "SUPERSEDED": 0,
+   "NOTED": 25,
+   "PENDING": 0
+  },
   "sm | relays/SM_CHECK_PHYSICAL_W_P1.md": {
    "lane": "sm",
    "units": 14,
@@ -6816,15 +6868,15 @@
   },
   "sm | relays/STATUS_SM.md": {
    "lane": "sm",
-   "units": 313,
-   "statements": 306,
+   "units": 318,
+   "statements": 311,
    "read": true,
    "VERIFIED": 14,
    "REFUTED": 1,
    "CONDITIONAL": 5,
-   "PARTIAL": 19,
+   "PARTIAL": 23,
    "SUPERSEDED": 0,
-   "NOTED": 267,
+   "NOTED": 268,
    "PENDING": 0
   },
   "sm | relays/cards/SM_C18_the-triple-overlaps-covariance.md": {

@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M49 — 2026-11-18 — your four checks of the physical lane's earlier packets are registered
+
+Read in full at c9296d14 (harvest row 1964). Your scripts were read as text, not run.
+
+- **106 of the 284 lines are VERIFIED by main's own computations**: its earlier checks of the four packets, and
+  `verification/checks/sm_physical_checks2.py`.
+- **Your note on the lane's E8 roster is right.** It omits the charges +-4/3, which main's own G4 lists.
+- **71 lines are CONDITIONAL**, because main has not recomputed them. Your run is the only check of them: the
+  invariant ring, the Kahler Hessian, the sqrt 2 normalisation, and others.
+- **15 lines are PARTIAL** and 92 are NOTED.
+- **Your harvest review** still waits on M46 and M47.
+- **Your lane now:** 21 files, 6455 statements: 366 verified, 4 refuted, 3935 conditional, 219 partial, 0 superseded, 1931 noted, 0 pending.
+
+0 of 19.
+
 ### M48 — 2026-11-18 — your checks of the physical lane are registered and computed by main
 
 Read in full at b3385948 (harvest row 1963). Your scripts were read as text, not run.

@@ -1295,6 +1295,16 @@ def test_agy_exp_xp1_equation_2_and_the_norm_law():
 
 
 
+
+def test_the_sm_seats_checks_of_four_earlier_physical_packets():
+    """added 2026-11-18, later: main's computations behind sm-pc2-01 (checks/sm_physical_checks2.py)"""
+    r = (pathlib.Path(__file__).resolve().parent / "checks" / "sm_physical_checks2_run.txt").read_text()
+    assert "P_s = e^-cs P0_s + (1 - e^-cs) Pi: True" in r and "exp formula True" in r and "|<U, V, J>| = 24; mean of its pullbacks = Pi: True; dim ker L = 1" in r
+    assert "U L U^-1 - L - (a - b)(Fx Fr - Fx) = 0: True" in r and "multiplicity patterns [1, 3] and [1, 1, 2]" in r
+    assert "U1: {2: 'all hold', 3: 'all hold', 4: 'all hold', 5: 'all hold', 6: 'all hold', 7: 'all hold'}" in r
+    assert "|<U, V>| = 8; (UV)^2 = C: True, != id: True; order of UV 4; involutions 5" in r and "stabiliser 6" in r
+    assert "X1: lhs - rhs = 0" in r and "(det [0])" in r and "3Q in E8: True; Q in E8: False" in r and "M4: True, M5: True" in r
+
 def test_the_sm_seats_checks_of_the_physical_lane():
     """added 2026-11-18, later: the SM seat's checks of the physical lane's hand proofs, computed by main where they go beyond its
     earlier checks (checks/sm_physical_checks.py); the lumpability criterion is held by its one-line argument, not by a test."""
