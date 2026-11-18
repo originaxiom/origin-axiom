@@ -13,7 +13,7 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
     ("agy-002-foundations", "agy-002", "origin/agy-002/foundations", "ff8e1ca57", "ef2ea365b"),   # added 2026-11-18: its gates 8 to 11, a synthesis, its harvest review for M43 to M45; the branch is cut from main at ff8e1ca57
     ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "798281903"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "e46bbc14c"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "61a0684e0"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "6b961101e"),
     ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "c9296d14a"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
     # added 2026-11-18, at the author's question whether the agy seats were fetched: the branch of 2026-11-11 whose session named itself agy-002
@@ -107,6 +107,10 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
         "relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md",
         "relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md",
         "relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md",
+        # added 2026-11-19 (harvest row 1969), at the seat's section 28.4 (a) as read (61a0684e0): row 1404, e19's account, read at
+        # headline in the corrected P-327 and step-back relays (0cc73b1e6), neither in the register
+        "relays/CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES.md",
+        "relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md",
         "docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md",
         "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
         "relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md",

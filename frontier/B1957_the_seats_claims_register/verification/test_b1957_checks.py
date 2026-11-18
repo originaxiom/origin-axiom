@@ -1331,6 +1331,17 @@ def test_agy_002s_older_files_taken_in_under_p876():
     assert "A1: ordered 16275; cyclic orbits [15, 165, 2635], total 2815" in r and "m = 11, N = 125: [1, 124]; m = 13, N = 173: [1, 172]" in r
     assert "with entries in [-7, 7]: 360; of positive trace 180" in r and "ratios 1.99" in r and "at 86930f574, the commit the seat read, B1927's table gives 1.79: True" in r
 
+
+def test_the_web_seats_section_28_and_its_answers():
+    """added 2026-11-19: section 28 (61a0684e0) held against main at 996638890 (checks/web_section28.py), and its answers: P-356
+    corrected, row 1088 bracketed, the P-327 relay's e19 in the register"""
+    V = pathlib.Path(__file__).resolve().parent; r = (V / "checks" / "web_section28_run.txt").read_text()
+    assert "still OPEN: 3 (all W-P1: True); rows BANKED as stale: 42" in r and "units 8990" in r and "P-356 says inverse_sm_all has no committed output: True" in r
+    assert "6ce5dcc82 on the seat's branch: True, with inverse_sm_all_two_higgs.json: True" in r and "names e19 at 5d4e3b11d: False; at 0cc73b1e6: True" in r
+    root = V.parents[2]; P = (root / "docs" / "POINT_REGISTER.md").read_text(); L = (root / "docs" / "HARVEST_LEDGER.md").read_text().split("\n")
+    assert "was committed on the seat's branch at 6ce5dcc82" in next(l for l in P.split("\n") if l.startswith("| P-356 |"))
+    assert "nothing re-run" in next(l for l in L if l.startswith("| 1088 |")) and "harvest row 1969" in next(l for l in L if l.startswith("| 1088 |"))
+
 def test_the_web_seats_section_27_and_its_mends():
     """added 2026-11-18, later: section 27 (e46bbc14c) held against main at 1a70d5dbe (checks/web_section27.py), and its three mends:
     the relay ledger's stale OPEN rows of its relays BANKED, its part of P-876 closed, companion_grounds.py naming the move."""

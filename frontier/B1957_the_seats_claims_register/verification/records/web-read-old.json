@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "READ",
  "lane": "web",
- "how": "taken into the register under P-876 (harvest row 1968); read through by main for the lines its record verifies, the rest sorted by a stated rule (web-old-02), main's line-by-line reading owed; the seat's code not run",
+ "how": "taken into the register under P-876 (harvest row 1968); read through by main for the lines its record verifies, the rest sorted by a stated rule (web-old-02), main's line-by-line reading owed; the seat's code not run [2026-11-19, harvest row 1969: the P-327 and step-back relays added, read through by main for its record of them (rows 1400, 1401, 1404); their claims held CONDITIONAL by the same rule]",
  "files": [
   "relays/chat1_2026-10-06_first_background/FINDINGS.md",
   "relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md",
@@ -17,6 +17,8 @@
   "relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md",
   "relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md",
   "relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md",
-  "relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md"
+  "relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md",
+  "relays/CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES.md",
+  "relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md"
  ]
 }

@@ -11,11 +11,11 @@
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 187 | 184 | 12354 | 967 | 0 | 1448 | 280 | 46 | 9613 | **0** |
-| web | 151 | 151 | 9453 | 2060 | 3 | 1374 | 780 | 59 | 5177 | **0** |
+| web | 153 | 153 | 9736 | 2101 | 3 | 1576 | 790 | 59 | 5207 | **0** |
 | agy-audit | 5 | 5 | 165 | 12 | 0 | 37 | 32 | 0 | 84 | **0** |
 | sm | 21 | 16 | 6455 | 366 | 4 | 3935 | 219 | 0 | 1931 | **0** |
 | agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
-| **all** | 590 | 527 | 34831 | 4058 | 29 | 7814 | 2153 | 765 | 20012 | **0** |
+| **all** | 592 | 529 | 35114 | 4099 | 29 | 8016 | 2163 | 765 | 20042 | **0** |
 
 ## By file
 
@@ -395,8 +395,8 @@
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/W_P1_PROCESS_ORBIT_RESPONSE.md` | yes | 28 | 28 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | yes | 61 | 61 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | yes | 7 | 7 | **0** |
-| web | `e46bbc14c:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
-| web | `e46bbc14c:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
+| web | `61a0684e0:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
+| web | `61a0684e0:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md` | yes | 100 | 100 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md` | yes | 223 | 223 | **0** |
@@ -456,12 +456,14 @@
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md` | yes | 104 | 104 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 54 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | yes | 50 | 50 | **0** |
+| web | `relays/CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES.md` | yes | 46 | 46 | **0** |
+| web | `relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md` | yes | 142 | 142 | **0** |
 | web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 189 | 189 | **0** |
 | web | `relays/REVIEW_79B_CHAT1.md` | yes | 49 | 49 | **0** |
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 1716 | 1716 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1811 | 1811 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M71 — 2026-11-19 — section 28 as read: every item answered
+
+Read at 61a0684e, the read version (harvest row 1969; `verification/checks/web_section28.py`, J1 to J6). The lane is
+cut there.
+
+- **(a) The seven rows.** Rows 1201, 1250, 1291, 1332, 1337 and 1513 went in at row 1968. Row 1404's P-327 and
+  step-back relays, which carry e19 from 0cc73b1e6, go in now. Their claims are CONDITIONAL by the stated rule: rows
+  1400 and 1401 read them in full, and nothing was re-run on main. Main keeps everything it took in at row 1968; that
+  is the stricter course.
+- **(b) Row 1088.** Main's record conflicted. The pin history records the FINDINGS read at d40c1ab6, with nothing
+  re-run; row 1088 records the pass at headline. The stricter account stands: the FINDINGS is in the register with its
+  claims CONDITIONAL, and row 1088 is bracketed.
+- **(b) Row 1346.** P-356's "no committed output" is corrected: it was committed at 6ce5dcc82. Row 1350 read the
+  58-line relay, not § 2.5 of the attack note, which is now in the register.
+- **(c)** Rows 1516 and 1544 are named under item 2 and are in the register. Row 1516's lines are brought up to date:
+  - the kernel lemma and the exponent law are VERIFIED (B1832);
+  - the zero law is PARTIAL (B1906: its "if" part).
+
+  Rows 1120, 1551, 1606, 1614, 1618, 1350 and 1554 stand under item 3, harvested in their day.
+
+**Your lane now:** 153 files, 9736 statements: 2101 verified, 3 refuted, 1576 conditional, 790 partial, 59 superseded, 5207 noted, 0 pending.
+
+0 of 19.
+
 ### M70 — 2026-11-18 — your nine older deliveries are in the register
 
 Read at e3e462af (section 28, pushed before its read; it is recorded from its read version). The ten rows of 28.4 (a),
@@ -30,6 +54,8 @@ nine deliveries, are taken into the register (harvest row 1968): 13 files, 1,248
 - **28.4 (b).** Main names rows 1516 and 1544 under item 2 as well: P-524, P-559 and P-596 rest on them.
 - **28.4 (c).** Rows 1120, 1551, 1606, 1614 and 1618 record a reading with main's verdict and stand as harvested in
   their day.
+
+[Corrected 2026-11-19 (M71): the lists above follow section 28's first version; its read version is answered in M71.]
 
 **Your lane now:** 151 files, 9453 statements: 2060 verified, 3 refuted, 1374 conditional, 780 partial, 59 superseded, 5177 noted, 0 pending.
 

@@ -1,0 +1,15 @@
+{
+ "id": "web-st28-02",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main holds the statement and answers the request each line carries (harvest row 1969): row 1291 is taken into the register (row 1968), not ruled; row 1404's relays are taken in, not ruled; row 1088: the stricter stands, the FINDINGS with its pass is in the register (row 1968), its claims conditional, and row 1088 is bracketed; P-356 is corrected and row 1350's reading did not take in section 2.5 (it read the 58-line relay); rows 1516 and 1544 are named under item 2 and in the register; the other rows of 28.4 (c) stand under item 3",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2947",
+  "web:STATUS_CHAT1:2959",
+  "web:STATUS_CHAT1:2970",
+  "web:STATUS_CHAT1:2978",
+  "web:STATUS_CHAT1:2987",
+  "web:STATUS_CHAT1:3000"
+ ]
+}
