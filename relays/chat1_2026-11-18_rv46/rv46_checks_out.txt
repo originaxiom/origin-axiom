@@ -1,0 +1,26 @@
+G1: 25 new or changed check scripts
+G1: web_wb1_on_main            lines 4 against 4; unequal 3; DIFFERS
+G1: web_wc5_on_main            lines 5 against 5; unequal 0; identical
+G1: web_wc6_part2_on_main      lines 16 against 16; unequal 0; identical
+G1: web_wc8_part1_on_main      lines 9 against 9; unequal 0; identical
+G1: web_wc8_part2a_duality     lines 7 against 7; unequal 0; identical
+G1: web_wc8_part4_on_main      lines 4 against 4; unequal 0; identical
+G1: web_wf11_on_main           lines 4 against 4; unequal 0; identical
+G1: web_wf12_on_main           lines 3 against 3; unequal 0; identical
+G1: web_wf13_algebra           lines 2 against 2; unequal 1; only numbers below 1e-6 differ (largest 1.6e-15)
+G1: web_wf16_on_main           lines 6 against 6; unequal 0; identical
+G1: web_wf19_on_main           lines 9 against 9; unequal 0; identical
+G1: web_wf1_on_main            lines 14 against 14; unequal 0; identical
+G1: web_wf20_parity            lines 8 against 8; unequal 0; identical
+G1: web_wf22_on_main           lines 5 against 5; unequal 0; identical
+G1: web_wf24_wf25              lines 5 against 5; unequal 0; identical
+G1: web_wf26_on_main           lines 12 against 12; unequal 0; identical
+G1: web_wf2_on_main            lines 5 against 5; unequal 0; identical
+G1: web_wf3_on_main            lines 15 against 15; unequal 0; identical
+G1: web_wf4_on_main            lines 14 against 14; unequal 0; identical
+G1: web_wf5_on_main            lines 7 against 7; unequal 1; DIFFERS
+G1: web_wf6_on_main            lines 11 against 11; unequal 0; identical
+G1: web_wf7_on_main            lines 12 against 12; unequal 0; identical
+G1: web_wf8_on_main            lines 12 against 12; unequal 0; identical
+G1: web_wf9_on_main            lines 5 against 5; unequal 0; identical
+G1: web_wz1_c3_indices         lines 10 against 10; unequal 0; identical

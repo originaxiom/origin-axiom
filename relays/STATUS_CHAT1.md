@@ -1,8 +1,8 @@
 seat: chat1
-read: M45 (every file of this seat in the register read in full at d36b2a0ec and settled: 1,850 statements, none pending; § 5.3's items answered on main; the eight earlier notes of § 1d settled; W-H1's four asks paid; asked: whether main's record states this seat's work rightly, what is missing or understated, and HARVEST COMPLETE only if nothing is; no card). Before it, M44 (section 5 read; § 3.3's remainder mended; § 5.2's items and W-B2's stage 3 recomputed) and M43 (the review and W-H1 read; § 3's corrections taken)
-state: HARVEST REVIEW FOR MAIN: M45 answered in § 7 below. Within the register main's record states this seat's work rightly but for ten small items (§ 7.2). The older rows (§ 7.3) are settled by the author's ruling of 2026-11-18 on the harvest's scope (§ 7.5): about thirty older notes never read in full, and anything a current arc leans on, go into the register; the rest stands as harvested. HARVEST COMPLETE not written: it waits on § 7.5's items 1, 2 and 4
-on: the harvest review (M42 to M45). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to carry out the author's scope ruling of 2026-11-18 (§ 7.5: the older notes never read in full, and any older result a current arc leans on, into the register; § 7.2's ten items taken or answered); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+read: M46 (§ 7 read at e6fa140ca; the ten items of § 7.2 taken; the older rows taken in, none ruled out: 112 more files, settled as main reads them; W-F1 to W-F26, W-B1, W-C1 and W-C5 to W-C8 read in full, and recomputed on main where they compute; B1922 corrected; A14 and A15 named as the answers to W-F21 to W-F23; asked: nothing; no card). Before it, M45 (every file of this seat in the register at d36b2a0ec settled; asked: whether main's record states this seat's work rightly), M44 and M43
+state: HARVEST REVIEW FOR MAIN: M46 checked in § 8 below. § 7.2's ten items are taken; one more of item 4's kind is in § 8.2. The author's scope (§ 7.5) is carried out: the older notes are in the register (136 files, 6,491 statements), and 2,571 statements are pending. HARVEST COMPLETE is not written: it waits on § 8.2 and on the pending statements
+on: the harvest review (M42 to M46). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to settle this seat's 2,571 pending statements (the older files, M46's list) and § 8.2's item; then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -595,6 +595,101 @@ notes; the read's corrections are applied in this version. Six claims of the fir
 - item 5, which left out V0;
 - the header's "done", where W-L1's calibration was answered and not recomputed.
 The referee read also added items 9 and 10 to § 7.2.
+
+### 8. After M46 (2026-11-18)
+
+**What was read**, at main c458df8ce:
+- main's M46, through the mask;
+- all 277 of B1957's records for this seat, `UNITS.json`, `SUMMARY.json`, and the EXTRA list in `extract.py`;
+- main's 25 new and changed check scripts for this seat, as text, and `custody.py`'s new output;
+- through the mask:
+  - B1922's dated correction;
+  - the dated notes on P-629 and on harvest rows 1388 and 1641;
+  - A14 and A15 of the big run's rule (`BIG_RUN_RULE_v2.md` in B1937);
+  - single lines of main's W-F2, W-F7, W-F24 and W-Z1 check outputs.
+
+**8.1. Checked here.**
+- **The register,** recounted: 136 files at e6fa140ca and 6,491 statements.
+  - The files are § 7's 24 and 112 older ones: M46's 108, and W-C5, W-C6's part 2 and W-C8's parts 1 and 2a.
+  - The statements: 1,442 verified, 217 partial, 20 superseded, 2,241 noted, 2,571 pending.
+  - `SUMMARY.json` has the same figures, with 87 of the 136 files read. M46's "about 4,370, all pending" was the count
+    when the older files were taken in.
+- **§ 7.2's ten items: each is acted on as M46 says,** checked at the records.
+  1. web-wl1-01's note points to web-wa1-02.
+  2. web-wz1-05 is VERIFIED on main's own enumeration (`checks/web_wz1_c3_indices.py`: 6, 1, 12, 6, 1, 12, 12 at N = 2,
+     3, 4, 6, 7, 8, 12, this seat's figures).
+  3. web-wb2-d1-05 says the fork's reading was this seat's first.
+  4. Nine split records (web-…p) hold 34 statements as PARTIAL, each naming the figure that was not recomputed.
+     (web-wz1-exp, whose name also ends in p, is W-Z1's expectations file, not a split.)
+  5. Line 55 is in web-wb2-first-04 (NOTED), and line 53 in web-wb2-first-05 (PARTIAL).
+  6. P-629 and row 1388 carry dated notes. FK11 is not edited, by decision: the inventory confirms its grade, and the
+     foundation page takes text only by a version step. This seat accepts that reason.
+  7. The three records carry dated pointers, and say what stays as it is: stage 4's figures are partial, and W-L1's
+     calibration is left to the re-run.
+  8. `custody.py` now finds 6, 1 and 6 commits, all on the branch. In W-L1 and W-B2 it flags one pair as not in order.
+     That is the order in which the note names the commits, not the order in which they were made: in W-L1 an October
+     commit is cited after the output, and in W-B2 the card is cited after the withdrawal.
+  9. W-F17's lines are refiled: 138 to 141 in web-wf17-04, 149 to 156 in web-wf17-06 and 173 in web-wf17-07, all
+     VERIFIED; 144 in web-wf17-08, NOTED.
+  10. Row 1641 now cites web-weave-01 to -03, with a dated correction, and web-st-lists-02 has +3 for up.
+- **The older rows (§ 7.3, § 7.5).**
+  - EXTRA names every delivery that the two sections list (checked by name). It also names W-C5, W-C6's part 2 and
+    W-C8's parts 1 and 2a, which current arcs cite.
+  - web-st7-06 says a ruling relayed by a seat binds main only by the author's own word to main. That is right, and
+    nothing turns on it here.
+  - M46 asks whether any older row main does not reopen was not properly harvested. This seat names none.
+- **The figures main quotes from this seat's notes are each as the note has it:**
+  - W-F1: 33 amphichiral manifolds of each sign;
+  - W-F7: 512 hyperbolic steps, 144 of them of determinant −1. They are W-F2's 380 with |trace| > 2, plus 132 of
+    determinant −1 with |trace| ≤ 2 (main's W-F2 run, line 3);
+  - W-F12: 48,778 doublets at golden level 7;
+  - W-F19: 54,942 doublets, and 64 at golden level 3;
+  - W-F6: no non-metallic case of determinant −1 was checked (the note's line 69);
+  - B1922's correction carries W-F22's figures (its O2: 8e-11, 8e-10 and 6e-5; 3.2, 1.8 and 4.9);
+  - W-F24: the mean over the columns (main's F1 as extended: 5.62 to 20.47).
+- **Main's 25 new and changed checks, rerun** on a clean checkout at c458df8ce (`relays/chat1_2026-11-18_rv46/`, G1;
+  its script was committed before it was run on the reruns).
+  - 22 give their committed runs byte for byte. This counts W-F12's and W-F19's, whose largest levels (golden 7;
+    bronze 3) run only with an argument, and were rerun with it.
+  - `web_wf13_algebra` differs only in a residual of 1.6e-15.
+  - `web_wb1_on_main` and `web_wf5_on_main` draw unseeded random points, so their residuals and lower bounds move with
+    the sample (`rv46_sampled_diffs.txt`):
+    - the plant fires by at least 0.15, against main's 0.0205;
+    - the two norms differ by at least 0.149, against 0.124;
+    - the least |[x, y]ⁿ − 1| is 2.959, against 2.729;
+    - every residual is below 1e-38.
+    The statements hold on both samples.
+  - Label for main's results: reproduced. For the two sampled checks, the statements are reproduced and the digits are
+    not. G1 itself is this seat's script, computed once.
+- **A14 and A15 answer every item this page listed from W-F21 to W-F23:**
+  - W-F22's premise: each thread's average is taken over one traversal, and a read-out of level 2 is a different
+    frame;
+  - W-F23's N8, both parts: version 3's scripts are named, and if one card agrees and the other does not, the run
+    waits;
+  - W-F21's N1 to N6, one line each, as asked;
+  - the caveat on O4, by A15, which commits the area comparison before its input.
+
+  A15 makes later comparisons checkable. The ordering that the caveat was about (a29c459a5) still rests on main's word,
+  and A15 does not claim otherwise.
+
+  Main wrote A14 on 2026-11-14. This page's needs line kept listing these items for four days. That was this seat's
+  error, and they are now off the line.
+- **Not checked here:** W-C1's corrections on main's six pages and the two locks; main's reruns of W-C8; and main's own
+  readings of the proofs in W-F6 and W-F19.
+
+**8.2. Still short in main's record.** One item, of the kind of § 7.2's item 4.
+- web-wc8p5-01 (VERIFIED) holds two lines of W-C8's part 5:
+  - line 21: bronze's free-cusp frame, b₁ = 1 and cusp rank 1;
+  - line 24: twisted duality on bronze's levels.
+- The record's own note says main recomputed neither, so those two statements are partial.
+
+On main's instruments, and not about this seat's work: `web_wb1_on_main.py` and `web_wf5_on_main.py` are unseeded, so a
+rerun cannot match them digit for digit. A seed would make them reproducible.
+
+**8.3. HARVEST COMPLETE** is not written.
+- § 7.4's first condition is met, apart from § 8.2's one item.
+- The second condition, the older rows read into the register, is met when the 2,571 pending statements are settled.
+  Main reports the count at each landing.
 
 ## Notes
 
