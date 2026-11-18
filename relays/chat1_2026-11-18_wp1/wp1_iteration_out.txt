@@ -1,0 +1,10 @@
+P1: tr 3, det 1; stretch factor sqrt(5)/2 + 3/2 = 2.61803398875; entropy log of it = 0.962423650119
+P1: eigenvalue 3/2 - sqrt(5)/2, slope y/x of its direction -sqrt(5)/2 - 1/2
+P1: eigenvalue sqrt(5)/2 + 3/2, slope y/x of its direction -1/2 + sqrt(5)/2
+P1: points fixed by gamma^n on the torus, n = 1..8: [1, 5, 16, 45, 121, 320, 841, 2205] | 2 - tr gamma^n: [1, 5, 16, 45, 121, 320, 841, 2205]
+P2: fixed points [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]; axis centre 1/2, radius sqrt(5)/2 = 1.11803398875 (its highest point, Im tau)
+P2: |I - centre|^2 - radius^2 = 0 (0: on the axis)
+P2: |1 + I - centre|^2 - radius^2 = 0 (0: on the axis)
+P2: gamma(i) = 3/2 + I/2; translation length 2 arccosh(3/2) = 1.92484730024 = 2 log(stretch) = 1.92484730024
+P3: L^n R, its entries and its axis radius (highest Im tau): [(1, [2, 1, 1, 1], 1.11803), (2, [3, 2, 1, 1], 1.73205), (3, [4, 3, 1, 1], 2.29129), (4, [5, 4, 1, 1], 2.82843), (5, [6, 5, 1, 1], 3.35410), (6, [7, 6, 1, 1], 3.87298), (7, [8, 7, 1, 1], 4.38748), (8, [9, 8, 1, 1], 4.89898)]
+P3: gamma's axis radius for comparison: 1.11803
