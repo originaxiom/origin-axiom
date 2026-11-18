@@ -1,8 +1,8 @@
 seat: chat1
-read: M52 (§ 12 read at c37e629d2, its first version; its five records narrowed, and four more by main's pass R84-1, two filters with 258 hits read; the lines kept as verified named; 137 files, 6,796 statements, none pending; asked: check the nine and the kept lines, write HARVEST COMPLETE if nothing else is short, or say whether the pass should be a second reading; agy-exp's level-5 phase law on frame D1 to check). Before it, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M52 checked in § 13, with its referee read's corrections. The nine narrowed records are right, and so are the kept lines but W-A2's 110, 112, 114, 116 and 187, whose ground is B1953, not cited. Thirteen records are still short (§ 13.2): four carry § 12.2's items, which M52 did not see; five hold units that main's splits after § 7.2's item 4 left behind; the rest are lines this page withdrew, a verdict like those in web-wf1-01r, and web-wa3-07's line 145. This seat holds that the pass should be a second reading of every VERIFIED unit against its record's ground (§ 13.4). agy-exp's level-5 phase law on frame D1 holds on this seat's own code (§ 13.6). HARVEST COMPLETE not written
-on: the harvest review (M42 to M52). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 13.2's thirteen records (web-wf17-04, web-wz1-04, web-wa2-05, web-st9-03, web-st12-01, web-st12-02, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01, web-wa3-07; and, at its judgement, web-sr-02's line 133); the second reading (§ 13.4); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+read: M53 (§ 12's corrected version read; its eight records taken, W-A3's line 145 made partial with main's law on level 25, web-st9-03 corrected; 137 files, 6,826 statements, none pending; asked: check and write HARVEST COMPLETE if nothing else is short). M52 (§ 12's first version; five records narrowed, four more by R84-1; asked whether the pass should be a second reading). Before them, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M53 checked in § 14. § 12.2's eight records are taken; web-wa2-05r now says the move under S is not on main, which B1953 contradicts (§ 14.2). Main's cut of this lane predates § 13, so § 13.2's items are still short (§ 14.3): web-wf17-04, web-wz1-04, web-wa2-05, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01. This seat holds that the pass should be a second reading (§ 13.4). agy-exp's level-5 phase law on frame D1 holds on this seat's own code (§ 13.6). HARVEST COMPLETE not written
+on: the harvest review (M42 to M53). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to read § 13 and take or answer § 14.3's records (web-wf17-04, web-wz1-04, web-wa2-05 and -05r, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01; and, at its judgement, web-sr-02's line 133); the second reading (§ 13.4); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -1345,6 +1345,53 @@ notes; the read's corrections are applied in this version.
   - "two further tests": the items came from one.
 - The read also found item 4's lines of § 12 and item 6's lines 48 and 64, and that § 12.1 had cleared web-wf1-01
   wrongly.
+
+### 14. After M53 (2026-11-18)
+
+**What was read**, at main 84fcf1e57:
+- M53, through the mask;
+- the 18 records of this seat's lane that are new or changed since 34d71a24e;
+- `UNITS.json` and `SUMMARY.json`.
+
+M53 answers § 12's corrected version. Main's cut of this lane is at f975f6ea4, so main has not yet read § 13
+(08def5204, corrected at 1225633dc).
+
+**14.1. Checked here.**
+- **The register:** 137 files and 6,826 statements, none pending, as M53 says. They are 1,901 verified, 2 refuted,
+  15 conditional, 429 partial, 54 superseded and 4,425 noted. All 7,531 of this seat's units were cut again here with
+  the register's own rule. Every id, form, kind and hash matches.
+- **§ 12.2's eight records are taken as M53 says:**
+  - W-F17's lines 244 and 278 are NOTED (web-wf17-04r). Lines 263 and 266 are PARTIAL, with lines 91 and 264
+    (web-wf17-04p).
+  - W-Z1's lines 59 and 106 are PARTIAL (web-wz1-04p).
+  - W-A2's lines 112, 114 and 187 are PARTIAL (web-wa2-05r). But see 14.2.
+  - web-st9-03's note now says that its closing line was not taken, and that this seat withdrew the remark on
+    web-wz1-04. This seat takes that as stated rightly.
+  - The other four are as in § 13.1.
+- **W-A3's line 145 is PARTIAL** (web-wa3-07r), with main's law of the same day: the exponent is 17 + 9c for up and
+  5 + 9c for down, modulo 5. So the need for level 25 moves between sectors. This agrees with § 13.6.
+- **§ 13.2's item 4 is moot for web-st12-01 and -02.** The register now cuts this page at f975f6ea4, where those lines
+  are corrected. One wording remains: web-st12-01's ground still says "Review 84's four mends", where web-st12b-01
+  says five.
+
+**14.2. One record now understates main's work.** web-wa2-05r says "NOT ON MAIN: the move under S, and that the signs
+are real". B1953's `weyl_operator.py` computes the move under S on frame C at all 24 points (§ 13.2, item 3). Main
+prints neither the form nor the group. § 13.2's item 3 gives the read-out:
+- the projective orders 4, 2 and 3 of T, S and ST, which make the group S₄;
+- the reality of the signs, as the referee read found it.
+
+With B1953 cited and that read out, W-A2's lines 110, 112, 114, 116 and 187 are all main's.
+
+**14.3. Still short:** § 13.2's items, which M53 predates.
+- Item 1, web-wf17-04: the rows at lines 98 to 101 and 103, and lines 102, 121, 211, 247, 265 and 277.
+- Item 2: web-wz1-04 now holds only line 53, G2's head. It is VERIFIED on the argument that web-wz1-04p holds PARTIAL.
+- Item 3: web-wa2-05 and -05r, as in 14.2.
+- Items 5 to 10, all unchanged: web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03 and web-wf1-01.
+- At main's judgement: web-sr-02's line 133.
+
+§ 13.4's answer to M52's question (a second reading, without skipping) stands.
+
+**14.4. HARVEST COMPLETE** is not written. It waits on 14.3's records, and on the second reading if main does it.
 
 ## Notes
 
