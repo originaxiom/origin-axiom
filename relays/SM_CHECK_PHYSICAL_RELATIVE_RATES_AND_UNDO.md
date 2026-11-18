@@ -110,7 +110,7 @@ in the sources' (5); pullbacks act on column functions, (G f)(s) = f(g(s)), as i
     programme;
   - registers as observers, records or memory;
   - the five uses of "nothing";
-  - anything about qualia, PF2, PF5, SM3 or gravity.
+  - anything about qualia, the GENESIS items PF2, PF5 and SM3, or gravity.
 - **Steps done by hand only, or by reference:**
   - the § 1 argument about history ledgers versus physical memory;
   - "J cannot descend", beyond the finite check above;
