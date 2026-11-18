@@ -1,0 +1,746 @@
+{
+  "card": "AGY-EXP_X-P1",
+  "date": "2026-11-18",
+  "empirical_inputs_used": 0,
+  "held_out_targets_touched": 0,
+  "ast_audit": {
+    "float_literal_count": 0,
+    "ast_zero_float_passed": true
+  },
+  "module_J_exterior_join": {
+    "up_weight_space_dim": 360,
+    "up_sl5_invariant_dim": 2,
+    "down_weight_space_dim": 220,
+    "down_sl5_invariant_dim": 2,
+    "weil_group_sizes": {
+      "1": 120,
+      "2": 120
+    },
+    "det_rho_unit_passed": true,
+    "sl2f5_wedge_invariance_both_classes_passed": true,
+    "commutant_projection_constant_across_24_passed": true,
+    "ch5_lepton_over_down_ratio": "1/1",
+    "ch45_lepton_over_down_ratio": "-3/1",
+    "pc2_untraceless_ratio": "-3/2",
+    "linear_proportionality_wall_passed": true,
+    "parity_3_2_block_diagonal_passed": true,
+    "five_multiplet_closed_forms_passed": true,
+    "hypercharge_square_specialization_passed": true,
+    "matrix_schur_plancherel_passed": true,
+    "sl2z_invariance_all_five_gramians_passed": false,
+    "strict_positivity_all_five_gramians": false,
+    "all_ten_multiplet_pairs_distinct": true,
+    "q_dc_eigenbasis_nontrivial_overlap": true,
+    "haar_10trial_basis_invariance_passed": true,
+    "pc1_dropped_phase_table_breaks_sl2z": true
+  },
+  "module_Z_symmetry_nullity": {
+    "orbifold_fixed_points_exact": true,
+    "b1_third_component_vanishes_at_i": true,
+    "b1_isotropic_square_vanishes_at_rho": false,
+    "loci": {
+      "tau_eq_i": {
+        "residue": {
+          "S": {
+            "mark_down": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "mark_up": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 24,
+            "points_of_24_with_nullity_ge_1_up": 24,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          "St": {
+            "mark_down": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "mark_up": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 24,
+            "points_of_24_with_nullity_ge_1_up": 24,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        },
+        "channel_weighted": {
+          "S": {
+            "mark_down": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "mark_up": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 0,
+            "points_of_24_with_nullity_ge_1_up": 0,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          "St": {
+            "mark_down": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "mark_up": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 0,
+            "points_of_24_with_nullity_ge_1_up": 0,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        }
+      },
+      "tau_eq_rho": {
+        "residue": {
+          "S": {
+            "mark_down": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1
+              ]
+            },
+            "mark_up": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 24,
+            "points_of_24_with_nullity_ge_1_up": 24,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          "St": {
+            "mark_down": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1
+              ]
+            },
+            "mark_up": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 24,
+            "points_of_24_with_nullity_ge_1_up": 24,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        },
+        "channel_weighted": {
+          "S": {
+            "mark_down": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "mark_up": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 0,
+            "points_of_24_with_nullity_ge_1_up": 0,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          "St": {
+            "mark_down": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "mark_up": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "points_of_24_with_nullity_ge_1_down": 0,
+            "points_of_24_with_nullity_ge_1_up": 0,
+            "phased_sum_F": {
+              "rank": 2,
+              "nullity": 1,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                2
+              ]
+            },
+            "gramian_G3": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G2": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_uc": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            },
+            "gramian_G_Q": {
+              "rank": 3,
+              "nullity": 0,
+              "clean_zero_gap": true,
+              "nonzero_degeneracy_partition": [
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "module_W_wp1_check": {
+    "P1_trace_det": [
+      3,
+      1
+    ],
+    "P1_stretch_minpoly_zero": true,
+    "P1_fixed_points_n1_to_8": [
+      1,
+      5,
+      16,
+      45,
+      121,
+      320,
+      841,
+      2205
+    ],
+    "P1_trace_formula_matches": true,
+    "P2_axis_center": "1/2",
+    "P2_axis_radius_sq": "5/4",
+    "P2_i_and_1plus_i_on_axis": true,
+    "P2_gamma_of_i": [
+      "3/2",
+      "1/2"
+    ],
+    "P3_LnR_axis_radii_sq_n1_to_8": [
+      "5/4",
+      "3/1",
+      "21/4",
+      "8/1",
+      "45/4",
+      "15/1",
+      "77/4",
+      "24/1"
+    ],
+    "W2_orders_mod2_mod5": [
+      3,
+      10
+    ],
+    "W2_gamma5_mod5": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "weil_classes_check": {
+      "1": {
+        "S2_equals_P": true,
+        "S4_equals_I": true,
+        "rho_gamma_5_equals_P": true,
+        "tr_rho_gamma_zero": false,
+        "tr_rho_gamma2_abs_sq_eq_5": true,
+        "eigenphases_tenths_even3": [
+          2,
+          8,
+          10
+        ],
+        "eigenphases_tenths_odd2": [
+          3,
+          7
+        ]
+      },
+      "2": {
+        "S2_equals_P": true,
+        "S4_equals_I": true,
+        "rho_gamma_5_equals_P": true,
+        "tr_rho_gamma_zero": false,
+        "tr_rho_gamma2_abs_sq_eq_5": true,
+        "eigenphases_tenths_even3": [
+          4,
+          6,
+          10
+        ],
+        "eigenphases_tenths_odd2": [
+          1,
+          9
+        ]
+      }
+    },
+    "W4_signature_table": {
+      "1_1": "1/5",
+      "1_2": "-1/5",
+      "2_1": "-1/5",
+      "2_2": "1/5"
+    },
+    "W4_signature_exact_passed": true,
+    "sec5_item2_sign_B_invariant_under_U_and_swap": false,
+    "sec5_item2_both_S_and_St_repeat_in_1_turn": true,
+    "sec5_item2_axis_reflection_swaps_S_and_St": false,
+    "pc3_Sstar_breaks_1turn_and_repeats_at_3turns": true,
+    "pc4_wrong_fourier_sign_fails_relation": true
+  },
+  "module_C_c3i_check": {
+    "eq2_spin5_polynomial_exact": true,
+    "clifford_commutators_exact": true,
+    "f_flatness_32_exact": true,
+    "chirality_proportionality_mp_3i_exact": true,
+    "both_16plus_and_16minus_verified": true,
+    "eq5_koszul_anticommutator_exact": true,
+    "eq6_h2_hdnh_commutator_exact": true,
+    "eq7_chain_isomorphism_all_degrees_exact": true,
+    "core_swap_gluing_exact": false,
+    "chi0_128_divisor_counts_origin_axis1_axis2_generic": [
+      24,
+      32,
+      32,
+      16
+    ],
+    "divisor_h1_eq_h2_and_wilson18_exact": false,
+    "non_unitary_quadratic_norm_growth_verified": true,
+    "pc5a_omitted_koszul_sign_fails": true,
+    "pc5b_vec10_q2r2_zero_while_cross_nonzero": true
+  },
+  "planted_controls": {
+    "PC_XP1_1_dropped_phase_table_breaks_sl2z": true,
+    "PC_XP1_2_untraceless_45_gives_minus_3_halves": true,
+    "PC_XP1_3_Sstar_breaks_1turn_repeats_3turns": true,
+    "PC_XP1_4_wrong_weil_sign_fails_relation": true,
+    "PC_XP1_5_koszul_sign_and_vec10_controls": true
+  },
+  "all_planted_controls_passed": true
+}
