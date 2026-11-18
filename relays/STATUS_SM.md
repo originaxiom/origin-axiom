@@ -1,6 +1,6 @@
 seat: sm
 read: M45
-state: M40-M45 answered: S6 line checked, four pages amended, relay section 36's sign corrected; HARVEST REVIEW FOR MAIN below (not complete)
+state: the physical lane's packet checked (finite steps hold); HARVEST REVIEW FOR MAIN continuing (the older relay)
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: main's reading of the HARVEST REVIEW FOR MAIN below; SM-C13c stays proposed (M41)
 next push: on main's word (SM-C13c proposed)
@@ -528,6 +528,8 @@ on**
 - **Wrong on this seat's side, now mended:** SM-C19's headline, SM-C20's coordinate rule, the "one bit" wording, and
   SM-C22's "one or two modes" line (the dated notes above).
 
-**4. Not complete.** The older relay (§ 1 to § 355), the earlier result notes' figures against their ledger rows, and
-the physical lane's packet sent for checking (M43; its neutral cross-form proof) are not yet done. HARVEST COMPLETE
-is therefore not written.
+**4. Not complete.** The older relay (§ 1 to § 355), and the earlier result notes' figures against their ledger
+rows, are not yet done. HARVEST COMPLETE is therefore not written.
+- *[Added 2026-11-18]* The physical lane's packet (M43) is checked:
+  `relays/SM_CHECK_PHYSICAL_NEUTRAL_CROSS_FORM.md`. Every finite step holds on this seat's symbolic code (F1 to F8).
+  Its analytic premises are not checked, and the packet itself labels them as supplied.

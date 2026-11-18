@@ -1,0 +1,18 @@
+{
+ "F1 [Q, e13 + e24] = 0 (highest vector, equal entries)": true,
+ "F1 hand control 4: [Q, e13 - e24] = -2p e14": true,
+ "F1 the highest vectors of the form a e13 + b e24 (solutions of [Q, X] = 0)": "[{a: b}]",
+ "F2 Z_B u1 = c v2 and Z_B u2 = c v1 with the same c (X(x)X)": true,
+ "F3 W = u (F H' - H F')": true,
+ "F3 F H' - H F' has no u^-3 term (the cubic pole cancels)": true,
+ "F3 W has at most a simple pole (W * u is regular at 0)": true,
+ "F5 A and D have a common invariant line": false,
+ "F7 eigenvalues of (9)": [
+  "-sqrt(L_i**2 + L_r**2)",
+  "sqrt(L_i**2 + L_r**2)"
+ ],
+ "F8 |<w_L|v>|^2 and |<w_R|v>|^2 for (11)": [
+  "1/2",
+  "1/2"
+ ]
+}
