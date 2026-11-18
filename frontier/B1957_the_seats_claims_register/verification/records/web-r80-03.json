@@ -3,12 +3,10 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "what it recomputed for the rows of mathematics, against main: the knot group's index 6 at (2), 12 at (4) and 12 at (8) (main's checks/web_wz1_c3_indices.py: 10 of 60, 160 of 1,920, 10,240 of 122,880 modulo +-1; the seat's 10,240 at (8), and 20,480 with the centre, 2,560 by all eight central units of square one, by arithmetic); the common centraliser of diag(1, -1) and the swap in the traceless matrices has dimensions 1, 1 and 0 (by hand); the minimal polynomial of cos(2 pi/7) is 8x^3 + 4x^2 - 4x - 1 with discriminant 3,136 (main: the discriminant formula gives 3,136 = 56^2, and the polynomial vanishes at cos(2 pi/7) to 1e-15), sin(pi/7) = cos(5 pi/14) lies in Q(zeta_28), and cos(2 pi/7) = 1 - 2 sin^2(pi/7); in the quotient by every central unit of square one the group has order 960 at (4) and the image index 6 at (4) and 12 at (8) (arithmetic from the same orders)",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-r80-03-r2n, web-r80-03-r2p; what stays is what its ground covers.",
  "units": [
-  "web:REVIEW_80_CHAT1:76",
   "web:REVIEW_80_CHAT1:77",
   "web:REVIEW_80_CHAT1:78",
-  "web:REVIEW_80_CHAT1:79",
   "web:REVIEW_80_CHAT1:145",
   "web:REVIEW_80_CHAT1:149",
   "web:REVIEW_80_CHAT1:150"

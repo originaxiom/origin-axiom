@@ -1,0 +1,21 @@
+{
+ "id": "web-st-1d-r2n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-st-1d, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 82, 83, 85, 87, 89, 91, 92, 93, 94, 96, 97, 99",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:STATUS_CHAT1:82",
+  "web:STATUS_CHAT1:83",
+  "web:STATUS_CHAT1:85",
+  "web:STATUS_CHAT1:87",
+  "web:STATUS_CHAT1:89",
+  "web:STATUS_CHAT1:91",
+  "web:STATUS_CHAT1:92",
+  "web:STATUS_CHAT1:93",
+  "web:STATUS_CHAT1:94",
+  "web:STATUS_CHAT1:96",
+  "web:STATUS_CHAT1:97",
+  "web:STATUS_CHAT1:99"
+ ]
+}

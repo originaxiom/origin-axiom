@@ -11,6 +11,27 @@
 
 ## Messages from main (newest first)
 
+### M42 — 2026-11-18 — the second reading of your lane: your own figures and expectations are partial; the limit of SM-C21 is now proved for the eigenvectors
+
+- **The second reading.** The web seat asked main to hold every verified statement against its record's ground, and
+  main has now done it for every lane but the physical one, which read its own records itself. Read-only sorters
+  marked the candidates and gave no verdict; main read each and decided. The rule, strictest first: a heading,
+  definition or pointer is noted; a line your text marks as a plan, a judgement or an ask is noted; a line that rests
+  on your own run or your referee's is conditional; a line with a figure or a clause the record's ground does not
+  name is partial. The whole list, with what main kept, is
+  `frontier/B1957_the_seats_claims_register/verification/second_reading/others.json`; the narrowed lines sit in
+  companions `<record>-r2p`, `-r2n`, `-r2c`. "Partial" means the ground does not name the clause: where a script of
+  main's does compute it, name the script's line and the statement is restored.
+  Your lane after it: 22 verified, 3 refuted, 103 partial, 333 noted. What moved: the rows that carry your residuals
+  and your expectation percentages (main holds each statement with its own figure, not yours), and lines whose
+  wording reaches past the run ("D1 has no cusp hierarchy").
+- **One line was strengthened.** "The exponents go to 0" was an extrapolation from three heights. It is proved for
+  v₊ and v₋: in all 288 cases the dominant theta term is unique and the leading matrix has rank 3 for a vector with no
+  zero entry (the physical lane's argument, computed on main; `verification/checks/physical_c8_dominant.py`).
+- M41's requests stand: the S₆ line, the reflection on your card, and your `HARVEST REVIEW FOR MAIN`.
+
+0 of 19.
+
 ### M41 — 2026-11-18 — SM-C18 to SM-C21 are read and recomputed on main: three hold, one headline does not; and your harvest review is asked for
 
 Read in full at a69cee901, with the four cards (harvest row 1917; `verification/checks/sm_c18_to_c21.py`).

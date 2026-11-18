@@ -1,0 +1,4 @@
+S1: candidates listed: 950 (of 1942 verified statements the sorters read); decisions: kept verified 90, partial 471, noted 312, conditional 77
+S2: by the sorters' class: {'a': {'K': 27, 'P': 150}, 'b': {'K': 17, 'P': 308, 'N': 5, 'C': 3}, 'c': {'K': 18, 'P': 2, 'N': 97, 'C': 17}, 'd': {'K': 21, 'P': 6, 'N': 18, 'C': 57}, 'e': {'K': 4, 'N': 192}, 't': {'K': 3, 'P': 5}}
+S3: listed statements whose record does not carry the decision's verdict, or that sit in two records: 0 and 0
+S4: the web lane's units by verdict now: {'CONDITIONAL': 92, 'NOTED': 4778, 'PARTIAL': 928, 'REFUTED': 2, 'SUPERSEDED': 55, 'VERIFIED': 1101}; companions of the second reading: 382 records

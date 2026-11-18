@@ -1,0 +1,17 @@
+{
+ "id": "web-st8-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-st8-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 613: file counts 24 and 112, and M46's 108, are not in the ground; 615: \"about 4,370\" and the 87-files-read detail are not in the ground; 619: indices 6,1,12,6,1,12,12 at N=2,3,4,6,7,8,12 are not in the ground; 622: nine split records and 34 PARTIAL statements are not in the ground; 629: custody counts 6, 1, 6 and the ordering explanation are not in the ground; 657: \"64 at golden level 3\" is not in the ground; 658: W-F6 \"no non-metallic case checked\" is not in the ground; 659: the figures 8e-11, 8e-10, 6e-5, 3.2, 1.8 and 4.9 are not in the ground, which says only \"carries its figures\"",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:STATUS_CHAT1:613",
+  "web:STATUS_CHAT1:615",
+  "web:STATUS_CHAT1:619",
+  "web:STATUS_CHAT1:622",
+  "web:STATUS_CHAT1:629",
+  "web:STATUS_CHAT1:657",
+  "web:STATUS_CHAT1:658",
+  "web:STATUS_CHAT1:659"
+ ]
+}

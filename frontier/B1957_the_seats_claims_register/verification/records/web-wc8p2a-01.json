@@ -3,13 +3,9 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "on main's own code, in three places. (1) Main's B1926 (2026-11-14) computed the sealed run's census independently and it agrees on every count; its proof is the note's 'why the recipe fails at the odd levels' (the Klein-bottle cusp forces c(lambda) = 0 for a character trivial on mu). (2) checks/web_wc8_part2a_duality.py, the post hoc's twisted duality: the fibre torsion at levels 1 to 8 is 1, 1, 4, 5, 11, 16, 29, 45; on every character at levels 3 to 8 (16, 50, 242, 128, 1,682, 1,350) h^2(V) = h^1_rel(V* w); with w left out it fails on 6, 20 and 56 characters at the odd levels and on none at the even ones. (3) The doublets (post hoc 2): 48 and 2,420 non-split doublets with c(lambda) != 0 at levels 3 and 5, each with l(mu) = -1; class index 0 on 2, 64 and 2,662 doublets at levels 1, 3, 5 and non-zero on 8 at level 4; the gaps +-1 on 4 + 4 and +-2 on 3 + 3 at level 3, 11 + 11 and 10 + 10 at level 5; the characters with gap +1 and -1 (web-wf12-01, web-wf19-01, web-wf9-01, web-wf6-01: each of these figures is in main's runs)",
- "note": "The free-cusp frame's line (b_1 = 1, the cusp's rank 1 at levels 1 to 8) is B1926's and the seat's; main did not recompute b_1 here. [2026-11-18, the seat's section 9.2, item 4: the free-cusp line is computed on main now (checks/web_section9_items.py, I4): at golden levels 1 to 8, from the group over F_p, b_1 = 1 and the cusp's rank is 1; det(J^n - 1) = -1, -1, -4, -5, -11, -16, -29, -45, the fibre torsion in absolute value, never zero.]",
+ "note": "The free-cusp frame's line (b_1 = 1, the cusp's rank 1 at levels 1 to 8) is B1926's and the seat's; main did not recompute b_1 here. [2026-11-18, the seat's section 9.2, item 4: the free-cusp line is computed on main now (checks/web_section9_items.py, I4): at golden levels 1 to 8, from the group over F_p, b_1 = 1 and the cusp's rank is 1; det(J^n - 1) = -1, -1, -4, -5, -11, -16, -29, -45, the fibre torsion in absolute value, never zero.] SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-wc8p2a-01-r2c, web-wc8p2a-01-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:30",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:31",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:32",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:33",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:34",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:35",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:36",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:37",
@@ -17,10 +13,7 @@
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:39",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:41",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:43",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:45",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:47",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:59",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:60",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:67"
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:60"
  ]
 }

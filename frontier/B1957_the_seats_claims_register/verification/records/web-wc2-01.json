@@ -3,11 +3,10 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "Theorem A's first two parts, on main: B1939 (main's arc) has the same census of 285 with 277 members of one unramified and four ramified lines and 8 with monodromy +-I mod 5 and H^1 of dimension 3, and the torsion moduli 2 sin(pi/5) and 2 sin(2 pi/5), product 5, on every member. The seven named bundles' homology (Z/5, Z/5, Z/10, Z/20, Z/45, Z/55, Z/105, each + Z) is SnapPy's on main; the two controls b++LLRR and b+-LLRR have no 5-torsion",
- "note": "The seat's point that the theorem's hypothesis (multiplicity one) excludes the 8 is agy-002's R83-22 as well, and still stands on B1939's page (R83-1).",
+ "note": "The seat's point that the theorem's hypothesis (multiplicity one) excludes the 8 is agy-002's R83-22 as well, and still stands on B1939's page (R83-1). SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-wc2-01-r2n, web-wc2-01-r2p; what stays is what its ground covers.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:15",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:16",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:27",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:33",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:34",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:35",
@@ -15,12 +14,8 @@
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:37",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:38",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:39",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:41",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:42",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:44",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:45",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:50",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:51",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:114"
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:51"
  ]
 }

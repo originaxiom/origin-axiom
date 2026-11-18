@@ -3,16 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/agyexp_view.py, V1 and V2, with main's own B1934 and B1951 for the split and its commutant: on the bigraded exterior algebra of C^3 + C^2 the generator is Q6 = 3q - 2p; the six summands of even total degree have dimensions 6, 3, 3, 2, 1, 1 and charges 1, -4, 2, -3, 6, 0, which are the record's; their dimensions sum to 16; the summand (0, 1) is a doublet of charge 3; the duality (p, q) -> (3 - p, 2 - q) negates the charge on every summand; the top form has odd total degree 5; two even summands pair with the Higgs's doublet into it in exactly four ways (by wedge (1,1) with (2,0) and (3,1) with (0,0); by contraction (1,1) with (2,2) and (3,1) with (0,2)), each with charge sum zero",
- "note": "THE SEAT REACHED THIS THE SAME DAY AS THE WEB SEAT AND INDEPENDENTLY (its page: written before reading any other seat's answer; committed 2026-11-15 13:39 +0100, the web seat's card at 13:28). Main's B1951 had credited the web seat alone; it now cites both and carries the pairings, which it did not have. That the pairings act on the two-dimensional factor only is true of this algebra; that it fixes a Higgs reading in a frame is not claimed by main.",
+ "note": "THE SEAT REACHED THIS THE SAME DAY AS THE WEB SEAT AND INDEPENDENTLY (its page: written before reading any other seat's answer; committed 2026-11-15 13:39 +0100, the web seat's card at 13:28). Main's B1951 had credited the web seat alone; it now cites both and carries the pairings, which it did not have. That the pairings act on the two-dimensional factor only is true of this algebra; that it fixes a Higgs reading in a frame is not claimed by main. SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions agyexp-vw-01-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:62",
   "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:69",
   "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:70",
   "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:71",
   "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:72",
   "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:73",
-  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:74",
-  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:78",
   "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:79"
  ]
 }

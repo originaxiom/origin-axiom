@@ -3,13 +3,12 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wf19_on_main.py (main's own code; prime 415801, not the seat's or its referee's): the sealed check's whole table at seven odd levels, 54,942 doublets. Golden 1, 3, 5, silver 1, 3 and bronze 1, 3 have 2, 64, 2,662, 16, 5,488, 54 and 46,656 doublets; Step 1's formula I_w(V) = h^0(P; V') + h^0(G; V) - h^0(G; V') - r^1(V) holds on every one with each term computed directly; I_w is zero on every one; n(V) = 1 on 0, 6, 90, 0, 156, 2 and 1,190, which is (|T| - 1)(|T| - 2) at each level, and exactly on the doublets the theorem's corollary names (l fibre-non-trivial with l(mu) = -1, beta fibre-non-trivial with beta(mu) = +1, alpha not w); the gap's census is the table's at every level; and at golden level 4 the same formula holds on the 12 record modules with I = +1, 0, -1 on 4 each",
- "note": "Silver and bronze were blind predictions of the proof for the seat; for main they are a second computation on other code.",
+ "note": "Silver and bronze were blind predictions of the proof for the seat; for main they are a second computation on other code. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-wf19-01-r2c, web-wf19-01-r2p; what stays is what its ground covers.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:38",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:39",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:42",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:129",
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:140",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:145",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:146",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:147",
@@ -17,11 +16,7 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:149",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:150",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:151",
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:153",
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:155",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:156",
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:158",
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:160",
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:164"
+  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:158"
  ]
 }

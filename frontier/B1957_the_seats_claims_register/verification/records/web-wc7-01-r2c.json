@@ -1,0 +1,11 @@
+{
+ "id": "web-wc7-01-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-wc7-01, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 17: 4.6e-22; moved-chart maximum not computed, \"distance 0\" not reproduced; 22: conclusion rests on the moved chart the seat did not evaluate",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:17",
+  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:22"
+ ]
+}

@@ -1,3 +1,4 @@
 T1: lines carrying the mark the section says: 11 of 11 (W-Z1:54 yes, W-Z1:46 yes, W-Z1:93 yes, W-A2:110 yes, W-A2:187 yes, W-F17_SECOND:193 yes, W-F17_SECOND:278 yes, W-A3:174 yes, W-A3:54 yes, W-A3:62 yes, W-F24:87 yes)
 T2: units the section names: 19 found in the register; of them still under a VERIFIED record: 0 []
+T2: [added 2026-11-18, afternoon] 3 of the 19 are verified again, on another ground: W-A2's lines 112, 114 and 187, which the seat's own section 13 (item 3) says are main's by B1953; main read them out of B1953's routine (web_wa2_readout.py) and they stand in record web-wa2-05v
 T3: main's own run prints the volume ratio's residual as the section quotes it (-4.2e-45): True; the orders 10, 320, 20,480: True

@@ -3,23 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "recounted by main on its own ledger at 7022a9dae with the seat's stated rule, unmasked: 305 rows of this seat, 7 undated, 278 dated before 2026-11-15; of those, dispositions opening RECEIVED 31 (5 of them read in full, 26 not), REGISTERED 16, UNREAD 4, and 5 read only at the head. The seat's figures exactly. Its two groups of deliveries outside main's own list are as the rows say (W-F1, W-F2, W-C6's part 1, W-C7, W-C8's parts 3 to 5 and the note on TICK_LINE_HIGGS received and not read in full; W-F20 to W-F23, W-F26 and W-B1 read in full and outside the register)",
- "note": "MAIN'S DECISION, 2026-11-18: the older rows are taken into the register, not ruled out. Every file named by a row of this seat whose disposition opens RECEIVED, REGISTERED or UNREAD or says it was read only at its head, the six relays read in full but outside the register, its two review readings and its cards are now in the window (108 more files, about 4,370 statements, pending). Rows whose disposition records a reading with main's verdict (READ, VERIFIED, RE-DERIVED and the like) are not reopened here; they stand under the harvest ledger and the reviews, unless the seat or the author names one.",
+ "note": "MAIN'S DECISION, 2026-11-18: the older rows are taken into the register, not ruled out. Every file named by a row of this seat whose disposition opens RECEIVED, REGISTERED or UNREAD or says it was read only at its head, the six relays read in full but outside the register, its two review readings and its cards are now in the window (108 more files, about 4,370 statements, pending). Rows whose disposition records a reading with main's verdict (READ, VERIFIED, RE-DERIVED and the like) are not reopened here; they stand under the harvest ledger and the reviews, unless the seat or the author names one. SECOND READING 2026-11-18: 10 line(s) this record held are moved to its companions web-st7-04-r2n, web-st7-04-r2p; what stays is what its ground covers.",
  "units": [
-  "web:STATUS_CHAT1:514",
-  "web:STATUS_CHAT1:515",
-  "web:STATUS_CHAT1:516",
-  "web:STATUS_CHAT1:518",
-  "web:STATUS_CHAT1:520",
   "web:STATUS_CHAT1:522",
   "web:STATUS_CHAT1:523",
-  "web:STATUS_CHAT1:524",
-  "web:STATUS_CHAT1:525",
   "web:STATUS_CHAT1:526",
-  "web:STATUS_CHAT1:528",
   "web:STATUS_CHAT1:529",
-  "web:STATUS_CHAT1:531",
   "web:STATUS_CHAT1:532",
-  "web:STATUS_CHAT1:534",
-  "web:STATUS_CHAT1:536"
+  "web:STATUS_CHAT1:534"
  ]
 }

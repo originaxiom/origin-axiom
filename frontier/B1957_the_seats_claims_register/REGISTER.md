@@ -4,15 +4,16 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 109 | 48 | 3124 | 128 | 6 | 248 | 197 | 58 | 1650 | **837** |
-| agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
-| agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
-| agy-002-closure | 18 | 18 | 271 | 104 | 1 | 28 | 42 | 0 | 96 | **0** |
+| agy-exp | 109 | 48 | 3124 | 49 | 6 | 251 | 252 | 58 | 1671 | **837** |
+| agy-002-verify | 11 | 11 | 500 | 138 | 3 | 10 | 108 | 0 | 241 | **0** |
+| agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
+| agy-002-closure | 18 | 18 | 271 | 24 | 1 | 39 | 70 | 0 | 137 | **0** |
+| agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 151 | 148 | 11496 | 1350 | 0 | 1071 | 107 | 46 | 8922 | **0** |
-| web | 137 | 137 | 6956 | 1961 | 2 | 15 | 457 | 55 | 4466 | **0** |
-| agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| sm | 9 | 9 | 461 | 44 | 3 | 0 | 81 | 0 | 333 | **0** |
-| **all** | 451 | 387 | 23139 | 4007 | 23 | 1394 | 974 | 159 | 15745 | **837** |
+| web | 137 | 137 | 6956 | 1101 | 2 | 92 | 928 | 55 | 4778 | **0** |
+| agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
+| sm | 9 | 9 | 461 | 22 | 3 | 0 | 103 | 0 | 333 | **0** |
+| **all** | 464 | 393 | 23328 | 2709 | 23 | 1513 | 1699 | 159 | 16388 | **837** |
 
 ## By file
 
@@ -168,6 +169,19 @@
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM_svd-projector-and-numpy-bool-json.md` | yes | 4 | 4 | **0** |
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles.md` | yes | 21 | 21 | **0** |
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff.md` | yes | 20 | 20 | **0** |
+| agy-002-foundations | `relays/AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17.md` | yes | 23 | 23 | **0** |
+| agy-002-foundations | `relays/AGY002_FOUND_G10_RESULTS.md` | yes | 14 | 14 | **0** |
+| agy-002-foundations | `relays/AGY002_FOUND_G11_RESULTS.md` | yes | 14 | 14 | **0** |
+| agy-002-foundations | `relays/AGY002_FOUND_G8_RESULTS.md` | yes | 16 | 16 | **0** |
+| agy-002-foundations | `relays/AGY002_FOUND_G9_RESULTS.md` | yes | 15 | 15 | **0** |
+| agy-002-foundations | `relays/STATUS_AGY-002.md` | yes | 30 | 30 | **0** |
+| agy-002-foundations | `relays/cards/AGY-002_FOUND-G10_seifert-spin-bordism-rayleigh-ritz-and-cohomological-branch-b.md` | no | 16 | 16 | **0** |
+| agy-002-foundations | `relays/cards/AGY-002_FOUND-G11_resolvent-majorana-scale-transmutation-c7-cas-52node-dag-and-p865-audit.md` | no | 17 | 17 | **0** |
+| agy-002-foundations | `relays/cards/AGY-002_FOUND-G8-ERRATUM_weil-character-and-orthogonal-involution.md` | no | 4 | 4 | **0** |
+| agy-002-foundations | `relays/cards/AGY-002_FOUND-G8_p863-clifford-fock-weil-commutant-metallic-primes-and-e8-orthogonality.md` | no | 19 | 19 | **0** |
+| agy-002-foundations | `relays/cards/AGY-002_FOUND-G9-ERRATUM-2_left-sl2z-multiply-and-annihilator-sign.md` | no | 4 | 4 | **0** |
+| agy-002-foundations | `relays/cards/AGY-002_FOUND-G9-ERRATUM_pf95-dict-key.md` | no | 1 | 1 | **0** |
+| agy-002-foundations | `relays/cards/AGY-002_FOUND-G9_domain-wall-aps-chirality-su2l-strong-cp-and-p864-repair.md` | no | 16 | 16 | **0** |
 | physical | `docs/SEAL_LEDGER.md` | no | 7649 | 7649 | **0** |
 | physical | `relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md` | yes | 11 | 11 | **0** |
 | physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md` | yes | 24 | 24 | **0** |

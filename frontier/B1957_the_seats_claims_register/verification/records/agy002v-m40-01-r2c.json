@@ -1,0 +1,11 @@
+{
+ "id": "agy002v-m40-01-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-m40-01, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 7: \"committed strictly prior to opening B1947 files\" cannot be checked (note); 8: zero measured numbers, zero mixing computed: seat's statement",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:7",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:8"
+ ]
+}

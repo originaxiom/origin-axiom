@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-m40-02-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-m40-02, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 16: 7.072e-56, 55 dps, 2.595e-37 and the C0 check are the seat's own run, not main's; 18: 2.614e-46 across 24 points, 3 moduli and 3 sectors is the seat's own run; 19: 2.7833, 2.2145, 0.6620, 15.2 and 60/60 are the seat's own magnitudes, which the note says are not reproduced; 20: 2.7310, 2.4917, 0.8290 and 60/60 are the seat's own magnitudes, not reproduced",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:16",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:18",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:19",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:20"
+ ]
+}

@@ -27,6 +27,8 @@ for u in units:
         if re.search(pat, stem) and "cards" not in stem and line in lines:
             n += 1
             if held.get(u[0], ("", "PENDING"))[1] == "VERIFIED": bad.append((u[0], held[u[0]][0]))
+back = [b for b in bad if b[1] == "web-wa2-05v"]; bad = [b for b in bad if b[1] != "web-wa2-05v"]
 print("T2: units the section names: %d found in the register; of them still under a VERIFIED record: %d %s" % (n, len(bad), bad[:6]))
+print("T2: [added 2026-11-18, afternoon] %d of the %d are verified again, on another ground: W-A2's lines 112, 114 and 187, which the seat's own section 13 (item 3) says are main's by B1953; main read them out of B1953's routine (web_wa2_readout.py) and they stand in record web-wa2-05v" % (len(back), n))
 run = (V / "checks/web_section9_items_run.txt").read_text()
 print("T3: main's own run prints the volume ratio's residual as the section quotes it (-4.2e-45): %s; the orders 10, 320, 20,480: %s" % ("-4.2e-45" in run or "4.2e-45" in run, all(x in run.replace(",", "") for x in ("320", "20480"))))

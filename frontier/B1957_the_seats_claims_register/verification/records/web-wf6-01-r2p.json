@@ -1,0 +1,17 @@
+{
+ "id": "web-wf6-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf6-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 20: referee's prime 9646561 and chi(t)=9471113 failure not covered; text cut off at 700 characters; 51: claim of exactly one chi with chi(mu)=-1 and one with +1 per theta not mentioned; 52: the G4 identification (part 2a) not covered by the ground; 57: B1438 recipe and Klein-bottle bar as special cases, not mentioned; 60: t-values being 2e-th roots plus 3 further elements per fibre part not stated in the ground; lead-in; 62: \"5 to 1,669... 1,769\" characters per level differs from the ground's 2 to 1,682; 66: phi_B analysis (conjugate to J3, torsion 3, 9, 36, not a non-metallic test) not in the ground; 80: phi_B value 8 not in the ground's list of data",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:20",
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:51",
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:52",
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:57",
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:60",
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:62",
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:66",
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:80"
+ ]
+}

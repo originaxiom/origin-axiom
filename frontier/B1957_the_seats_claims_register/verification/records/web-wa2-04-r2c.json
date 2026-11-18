@@ -1,0 +1,12 @@
+{
+ "id": "web-wa2-04-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-wa2-04, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 54: Stone-von Neumann is marked \"not independently checked; standard\"; 77: The Abe, Kobayashi and Ohki citation is not read at source (the note says so); 184: The \"checked outside the project\" provenance is the literature citation, not read",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:54",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:77",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:184"
+ ]
+}

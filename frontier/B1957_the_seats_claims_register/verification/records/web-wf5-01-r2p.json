@@ -1,0 +1,14 @@
+{
+ "id": "web-wf5-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf5-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 19: definition, and K=2k from aλa=(abc)^-2 (W-F1 A2), are not in the ground; 27: the ground says 200 random points and 2e-39. The unit says 2,000 points, 2e-36, |...|≥0.74 for n≤24 and k=2 to 6; 42: hand argument (finite order gives -I) is not among the ground's checked hand arguments; 44: hand argument (xy=-yx forces the origin) is not covered; 45: hand argument (-I times unipotent has infinite order) is not covered",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:19",
+  "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:27",
+  "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:42",
+  "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:44",
+  "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:45"
+ ]
+}

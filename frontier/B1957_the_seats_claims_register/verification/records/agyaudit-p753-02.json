@@ -3,21 +3,12 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "main's B1866 (the relay scrutinised claim by claim on main's own code, verification/join_scrutiny.py, 2026-11-10): every move keeps the quaternion holonomy, the odd spin structure (the three even ones are permuted) and the trivial flat character; one background is not kept, its orbit has three members and its stabiliser has index 3; the two coherent lifts are one choice (in E8, -1 of SU(4) is -1 of Spin(10) on all 240 roots) and neither is kept by every move, which withdrew main's own exploratory sentence in WP-2.2",
- "note": "The fuller table over all 248 dimensions is in agyaudit-p753-05.",
+ "note": "The fuller table over all 248 dimensions is in agyaudit-p753-05. SECOND READING 2026-11-18: 9 line(s) this record held are moved to its companions agyaudit-p753-02-r2c, agyaudit-p753-02-r2n, agyaudit-p753-02-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:36",
   "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:37",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:46",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:48",
   "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:61",
   "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:62",
   "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:63",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:64",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:65",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:108",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:109",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:110",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:111",
-  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:112"
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:110"
  ]
 }

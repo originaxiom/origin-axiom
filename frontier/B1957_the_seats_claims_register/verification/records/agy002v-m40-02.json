@@ -3,21 +3,12 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/agy002_m40.py: the note's closed transport law for the twisted triplet under tau -> tau + 1, for both representatives and both signs of the Higgs's charge, holds on main's own theta functions to 2.8e-40 at two moduli and three points; its multipliers at q_H = 3 are, digit for digit, the component ratios main's own B1947 run printed at (1/5, 2/5) and (2/5, 4/5). The three multipliers differ unless q_H a is an integer or half-integer, so no change of basis absorbs them: B1947's negative, with its mechanism in closed form",
- "note": "B1947's negative now has two second computations (the web seat's W-B2 and this one, from the other family) and a closed-form reason. The seat's own magnitudes of the failure (2.78, 2.73 in the logarithm of singular-value ratios) are in its own measure and are not reproduced digit for digit; main's B1947 states its own. The disclosure at line 40 (its hand draft for the second representative was wrong on the card, corrected in the note) is confirmed: main's check uses the corrected form.",
+ "note": "B1947's negative now has two second computations (the web seat's W-B2 and this one, from the other family) and a closed-form reason. The seat's own magnitudes of the failure (2.78, 2.73 in the logarithm of singular-value ratios) are in its own measure and are not reproduced digit for digit; main's B1947 states its own. The disclosure at line 40 (its hand draft for the second representative was wrong on the card, corrected in the note) is confirmed: main's check uses the corrected form. SECOND READING 2026-11-18: 9 line(s) this record held are moved to its companions agy002v-m40-02-r2c, agy002v-m40-02-r2n, agy002v-m40-02-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:16",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:17",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:18",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:19",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:20",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:21",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:29",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:30",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:31",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:33",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:36",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:40",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:41",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:42",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:43"
  ]

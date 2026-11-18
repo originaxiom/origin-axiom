@@ -1,0 +1,10 @@
+{
+ "id": "web-wc5-02-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-wc5-02, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 45: sympy check by \"post hoc 1 R1\" is another run; the ground says by hand",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:45"
+ ]
+}

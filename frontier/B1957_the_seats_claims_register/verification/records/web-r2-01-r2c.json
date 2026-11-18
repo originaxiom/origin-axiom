@@ -1,0 +1,10 @@
+{
+ "id": "web-r2-01-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-r2-01, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 43: Absence claim resting on B151's reading of sources the note says were not re-read",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:43"
+ ]
+}

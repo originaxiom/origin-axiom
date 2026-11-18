@@ -1,0 +1,19 @@
+{
+ "id": "web-sel-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-sel-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 130: B1646's D4 finding is another record's; not covered; 131: claim that interior minima need one of two things; not covered; 173: NPP figures (0.0145/(m+0.0625), 68.78m), O(1-20) terms; literature and \"unsealed\" exploration; 243: claim that the residual act is the thread's own; 244: monodromy description not covered; 245: B366 puncture fixed point and the S3 permutation claim not covered; 252: curve counts and \"covariant\" claims in the A4 row beyond the mod-2 action; 253: curve counts and \"covariant\" claims in the D4 row beyond the mod-2 action; 254: curve counts and \"every subset\" claims in the V4 row; 256: \"involution acts freely on the cusp torus\" not covered",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:130",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:131",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:173",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:243",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:244",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:245",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:252",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:253",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:254",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:256"
+ ]
+}

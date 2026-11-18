@@ -1,0 +1,14 @@
+{
+ "id": "agyaudit-p753-03-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agyaudit-p753-03, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 74: Q_8 of order 8 and its symmetric square generating Klein-four are not covered; 79: \"below ten to the minus fourteen\" and exact Q(zeta_24) arithmetic are not stated by the ground; 83: the definition of V_JD and the q-expansion powers (+1/8,-1/8,-1/8) are not covered; they cite the seat's Cauchy-quadrature script; 84: the identification as Ind(psi_theta) and the origin of the 1/8 phase in the order-eight lift g_L are not covered; 114: \"universal no-go across all 2D Mp(2,Z) modules\" goes beyond the twist census",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:74",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:79",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:83",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:84",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:114"
+ ]
+}

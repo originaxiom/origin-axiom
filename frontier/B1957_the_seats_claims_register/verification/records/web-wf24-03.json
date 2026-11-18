@@ -3,10 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wf24_wf25.py F2, with main's own threads (B1928's, as B1932 uses them), 600 words of 40 letters at two seeds: the measure on words spends 0.383, 0.169, 0.034 and 0.007 of its time above heights 1.5, 2, 3 and 4 (second seed: 0.378, 0.164, 0.034, 0.008); the seat: 0.384, 0.168, 0.035, 0.007. So about five sixths of the time is below height 2, and the read-out on the whole is the frame at the heights the measure visits",
- "note": "That the measure is the choice of tau in another form is the seat's reading; the fact under it is verified. It agrees with what agy-002's A2-AMP found on main's variant (no weight tried closes the gap between the two measures). [2026-11-18, the pass R84-1 over this lane (and, for five records, the seat's section 12.2): 3 statements moved to web-wf24-03r, NOTED: a reading or a judgement, not a computation]",
+ "note": "That the measure is the choice of tau in another form is the seat's reading; the fact under it is verified. It agrees with what agy-002's A2-AMP found on main's variant (no weight tried closes the gap between the two measures). [2026-11-18, the pass R84-1 over this lane (and, for five records, the seat's section 12.2): 3 statements moved to web-wf24-03r, NOTED: a reading or a judgement, not a computation] SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-wf24-03-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:39",
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:54",
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:84"
+  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:54"
  ]
 }

@@ -3,9 +3,8 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "by hand, mod 5: diag(1, 3) is the inverse of diag(1, 2) (3 * 2 = 6 = 1); and with phi = diag(1, 2), phi [[1, 0], [2, 1]] phi^-1 = [[1, 0], [4, 1]] and phi [[0, 3], [3, 0]] phi^-1 = [[0, 4], [1, 0]], the record's transport. So main's identification (web-rv-02) and the seat's are one, read in opposite directions",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 1 line(s) this record held are moved to its companions web-st5-02-r2n; what stays is what its ground covers.",
  "units": [
-  "web:STATUS_CHAT1:311",
   "web:STATUS_CHAT1:312",
   "web:STATUS_CHAT1:313",
   "web:STATUS_CHAT1:315",

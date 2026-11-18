@@ -3,14 +3,10 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's second computation of B1913 against main's own run (frontier/B1913's the_flat_area_is_not_on_the_curve_run.txt), figure by figure: the flat density's greatest place in the standard chart, the seat's 0.256228 + 0.314113 i and main's (0.25622810, 0.31411263); in the chart moved by (1, 0, 5, 1) and carried back, 0.314884 + 0.342973 i and (0.31488377, 0.34297318); their distance 0.0654 and 0.06537139; its distance 0.0559 from the greatest place of the invariant density, which from main's two points (0.25153978, 0.36976714) and (0.25622810, 0.31411263) is 0.05585; the invariant density unchanged under both moves (main's ratio 1.0). Two codes, the same numbers to the six digits the seat gives. B1913's statement, that the hyperbolic density's greatest place does not depend on the chart and the flat one's does, by 0.065, stands on two computations",
- "note": "The seat says plainly that it did not evaluate the moved chart near the peak (it used the transformation law it had just checked) and that its run was not blind; main's own run evaluates both charts.",
+ "note": "The seat says plainly that it did not evaluate the moved chart near the peak (it used the transformation law it had just checked) and that its run was not blind; main's own run evaluates both charts. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions web-wc7-01-r2c, web-wc7-01-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:15",
-  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:16",
-  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:17",
   "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:18",
   "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:19",
-  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:20",
-  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:22"
+  "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:20"
  ]
 }

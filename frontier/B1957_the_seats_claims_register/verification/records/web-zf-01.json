@@ -3,21 +3,11 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the data-free facts about the zero-free Higgs directions and the frame's readings, on main (checks/web_zero_free_directions.py; nothing is fitted and no measured value appears): the ten members with one unit of end data, their signs and twists (a = -10, 2, 14, 26 at r = 4; -6, 6, 18 at r = 12; -2, 10, 22 at r = 20; the sign +1 for a = 6 modulo 8); F_2's direction is the theta triplet's and is isotropic; the two isotropic components are eps theta_4^a - theta_3^a and eps theta_4^a + theta_3^a, and conjugation exchanges them; theta_3^a - theta_4^a is 4 a e^(i pi tau) near the cusp, to 6.0e-5 at 0.4 + 2.5i for all ten a and only to 12 per cent at 0.1 + 1.3i for a = 26, the note's two figures; the tick's lines are the multiples of (1, 2) and of (1, 3) modulo 5; for SU(2) matrices eps conj(Q) eps^T = Q, so the second reading is the first on the conjugate vector; and a flat U(1) connection has trivial holonomy around the puncture, whose loop is a commutator (by hand)",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 10 line(s) this record held are moved to its companions web-zf-01-r2n, web-zf-01-r2p; what stays is what its ground covers.",
  "units": [
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:15",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:18",
   "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:20",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:21",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:23",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:24",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:25",
   "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:28",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:30",
   "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:32",
-  "web:chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RULE:10",
-  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:87",
-  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:106",
-  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:241"
+  "web:chat1_2026-10-23_tick_line/TICK_LINE_HIGGS_RULE:10"
  ]
 }

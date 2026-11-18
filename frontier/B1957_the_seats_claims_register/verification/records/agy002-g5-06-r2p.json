@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g5-06-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-g5-06, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 25: tolerances (5e-15, 2e-14, anisotropy >5/100, Schur 1e-15) and referee column not in the ground; 31: covariance <1e-14 vs the ground's 7e-14; ev gap >1/100, \"Gate locked\", B1727 collapse claims not covered",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:25",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:31"
+ ]
+}

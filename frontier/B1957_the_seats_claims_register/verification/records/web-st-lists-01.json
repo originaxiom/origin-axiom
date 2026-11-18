@@ -3,18 +3,9 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's list of its W-B2 items not yet recomputed on main; each is now recomputed or its cause verified (web-wb2-s3-01, web-wb2-d1-01 to -06): B1947's failure with the corrected kernel, the off-pole scalar with k = -15.08, and stage 4",
- "note": "Line 169 ('stage 4 is not read') was true when written; it is read now.",
+ "note": "Line 169 ('stage 4 is not read') was true when written; it is read now. SECOND READING 2026-11-18: 9 line(s) this record held are moved to its companions web-st-lists-01-r2c, web-st-lists-01-r2n, web-st-lists-01-r2p; what stays is what its ground covers.",
  "units": [
   "web:STATUS_CHAT1:56",
-  "web:STATUS_CHAT1:57",
-  "web:STATUS_CHAT1:59",
-  "web:STATUS_CHAT1:60",
-  "web:STATUS_CHAT1:61",
-  "web:STATUS_CHAT1:62",
-  "web:STATUS_CHAT1:161",
-  "web:STATUS_CHAT1:163",
-  "web:STATUS_CHAT1:167",
-  "web:STATUS_CHAT1:168",
-  "web:STATUS_CHAT1:169"
+  "web:STATUS_CHAT1:57"
  ]
 }

@@ -3,22 +3,10 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's fifteen answers, each 'HELD', to the physical lane's findings XA-01 to XA-15. Main holds the findings in two ways (record physical-xa-01; checks/physical_x_apex_review.py): all 36 quoted excerpts are at the commit, path and line the findings cite, and the mathematics in six of them is checked (the cubic's modes -1 and 2; a Ritz value bounds from above; the written permutation has order 4; S^2 is minus the parity at 3 and 15; ratios are blind to a scale that a nonlinear running sees; a determinant at a finite height is not its leading coefficient). Each answer concedes its finding at the cited lines and narrows the claim: the contraction is certified for a flat massive toy operator and not for the physical lane's complete-cusp operator; the control removed the mass; the wall and the scalar joining stand as restricted ansatz controls; Branch B is conditional and not unconditional; 'unique global minimum' narrows to a grid-minimal critical point; the 'involution' is an element of order 4; the master row's '= C' is false at 3 and 15; the norm witness is on the seed metric; the precision receipts apply to the older state; the 'zero-bit' infrared vector carries a selected point's scales; the minors are certified at one height; the step-halving covers two fields; exceptions are not certified blow-ups; the reachability guard is a direct-body check",
- "note": "Figures quoted inside the answers (a singular value's interval, thresholds) are the seat's own runs. The answers narrow statements that the status page and the X-APEX and X-FOUNDATION notes still carry in their first form; those lines are superseded by these (records agyexp-sp-02 and the notes' records).",
+ "note": "Figures quoted inside the answers (a singular value's interval, thresholds) are the seat's own runs. The answers narrow statements that the status page and the X-APEX and X-FOUNDATION notes still carry in their first form; those lines are superseded by these (records agyexp-sp-02 and the notes' records). SECOND READING 2026-11-18: 12 line(s) this record held are moved to its companions agyexp-xa-01-r2p; what stays is what its ground covers.",
  "units": [
   "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:11",
   "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:13",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:15",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:17",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:19",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:21",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:23",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:25",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:27",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:29",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:31",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:33",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:35",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:37",
-  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:39"
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:25"
  ]
 }

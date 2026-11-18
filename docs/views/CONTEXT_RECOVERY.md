@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1917 |
+| harvest rows (the last number) | 1919 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, afternoon: THREE LANES SETTLED; THE HIGGS GROUND SPACE OF FRAME D1 IS A PLANE AND ONE DIRECTION IN IT HAS A CUSP HIERARCHY; FIVE FAULTS OF MAIN'S FOUND BY THE PHYSICAL LANE AND MENDED (B1957, OPEN; harvest rows 1915 to 1917; P-865, P-873).** The register: 451 files, 23139 statements: 4007 verified, 23 refuted, 1394 conditional, 974 partial, 159 superseded, 15745 noted, 837 pending, all in eighteen older files of agy-exp's. **The physical lane** read all of main's records of its lane and found five faults, each right and each mended: a bound without its factor ℓ², a Bessel function offered for a channel it does not solve, seven verified paragraphs that mixed comput…”
+“LATEST (2026-11-18, S306p, evening: THE SECOND READING DONE FOR SIX LANES, THE REGISTER'S VERIFIED COUNT FROM 4007 TO 2709; agy-002'S GATES 8 TO 11 SETTLED (B1957, OPEN; harvest rows 1918, 1919; P-865).** The register: 464 files, 23328 statements: 2709 verified, 23 refuted, 1513 conditional, 1699 partial, 159 superseded, 16388 noted, 837 pending (agy-exp's eighteen older files). **The second reading** is what the web seat asked for and Review 84's item R84-1: twelve read-only sorters read 2,638 verified statements beside their records' grounds and marked 1,423; main read each candidate and narrowed 1,298: 671 partial (the ground does not name a figure or a clause), 508 noted (headings, poin…”
 
 ## Completeness (nothing skipped silently)
 

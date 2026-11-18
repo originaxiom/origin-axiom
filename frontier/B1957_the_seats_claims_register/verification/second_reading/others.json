@@ -1,0 +1,3324 @@
+{
+"what": "the second reading of the verified statements of the lanes of agy-002, agy-exp, the agy audit lane and the SM seat, 2026-11-18: every statement a read-only sorter marked as possibly not covered by its record's ground (classes: a, a figure not in the ground; b, a claim not in the ground; c, marked by its own text as a reading, proposal or unchecked; d, the ground itself says it is the seat's; e, a heading or scope line; t, text cut in the sorter's copy), with main's decision (K kept verified, N noted, C conditional, P partial)",
+"sorted": 696,
+"candidates": 473,
+"decisions": {
+"K": 35,
+"N": 196,
+"P": 200,
+"C": 42
+},
+"units": [
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:74",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer, not a claim",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:76",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:81",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off mid-sentence; remaining figures unjudgeable",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:84",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:86",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:93",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:102",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:104",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:107",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:117",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:119",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:124",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:126",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:131",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:133",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:136",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:139",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:141",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:145",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:148",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:150",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:191",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:193",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:196",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:199",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:201",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:206",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:209",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:211",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:215",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:218",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:220",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:229",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:231",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:236",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:248",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:250",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:255",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:257",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:265",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:267",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:272",
+"record": "agy002v-r83-05",
+"class": "t",
+"why": "text cut off",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:282",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:284",
+"record": "agy002v-r83-05",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:5",
+"record": "agy002-g7-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:8",
+"record": "agy002-g7-01",
+"class": "b",
+"why": "\"committed unread\" not covered by how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:9",
+"record": "agy002-g7-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:10",
+"record": "agy002-g7-01",
+"class": "d",
+"why": "cold-room second script written without reading first is the seat's own statement; unread outputs",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:19",
+"record": "agy002-g7-01",
+"class": "a",
+"why": "manifest counts 36/36, 40/40, 42/42 differ from how's 48 manifests",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:29",
+"record": "agy002-g7-01",
+"class": "a",
+"why": "42 manifests, all Gate 4-7 scripts, \"Gate 7 locked\" not what how states (48)",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:5",
+"record": "agy002-g7-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:8",
+"record": "agy002-g7-01",
+"class": "b",
+"why": "\"committed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:9",
+"record": "agy002-g7-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:10",
+"record": "agy002-g7-01",
+"class": "d",
+"why": "independence-of-reading claim is seat's own; also text cut off",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:19",
+"record": "agy002-g7-01",
+"class": "a",
+"why": "manifest counts 42/42, 46/46, 48/48 not as how states",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:13",
+"record": "agy002-c7b-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:14",
+"record": "agy002-c7b-02",
+"class": "c",
+"why": "card instruction (plan to verify), not a result",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:15",
+"record": "agy002-c7b-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:16",
+"record": "agy002-c7b-02",
+"class": "c",
+"why": "card plan; 28-digit, 1e-22, Leibniz positivity not in how",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:18",
+"record": "agy002-c7b-02",
+"class": "c",
+"why": "card plan; contour integrals not repeated on main (d); 32-point, 1e-15 figures",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:19",
+"record": "agy002-c7b-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:20",
+"record": "agy002-c7b-02",
+"class": "c",
+"why": "card plan; tolerances 3/5, 1/50, 1/1000, Haar trials, dt not in how",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:21",
+"record": "agy002-c7b-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:22",
+"record": "agy002-c7b-02",
+"class": "c",
+"why": "card plan, not a result",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:23",
+"record": "agy002-c7b-02",
+"class": "d",
+"why": "premises registry is the seat's own list; 100% of 42 manifests vs how's 48",
+"decision": "C"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:6",
+"record": "agyexp-xr-01",
+"class": "e",
+"why": "scope line",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:7",
+"record": "agyexp-xr-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:9",
+"record": "agyexp-xr-01",
+"class": "b",
+"why": "\"zero-import\" not covered (how covers float literals only)",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:10",
+"record": "agyexp-xr-01",
+"class": "b",
+"why": "\"sealed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:6",
+"record": "agyexp-xr-01",
+"class": "e",
+"why": "scope line",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:7",
+"record": "agyexp-xr-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:9",
+"record": "agyexp-xr-01",
+"class": "b",
+"why": "\"zero-import\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:10",
+"record": "agyexp-xr-01",
+"class": "b",
+"why": "\"sealed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:6",
+"record": "agyexp-xr-01",
+"class": "e",
+"why": "scope line",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:7",
+"record": "agyexp-xr-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:9",
+"record": "agyexp-xr-01",
+"class": "b",
+"why": "\"zero-import\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:10",
+"record": "agyexp-xr-01",
+"class": "b",
+"why": "\"sealed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C21_THE_D1_CUSP_MIXING:9",
+"record": "sm-c21-01",
+"class": "b",
+"why": "\"exponents go to 0\" is extrapolation; how only gives small, shrinking values",
+"decision": "K"
+},
+{
+"unit": "sm:SM_C21_THE_D1_CUSP_MIXING:13",
+"record": "sm-c21-01",
+"class": "b",
+"why": "\"D1 has no cusp hierarchy\" overreaches; note says frame D1 is another realisation, not computed",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C21_THE_D1_CUSP_MIXING:28",
+"record": "sm-c21-01",
+"class": "c",
+"why": "row carries expectation percentage (35%), seat's own",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C21_THE_D1_CUSP_MIXING:30",
+"record": "sm-c21-01",
+"class": "c",
+"why": "row carries expectation percentage (70%)",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C21_THE_D1_CUSP_MIXING:31",
+"record": "sm-c21-01",
+"class": "a",
+"why": "rational denominators <=10, distances 0.004-0.012, v+/v- difference not in how",
+"decision": "K"
+},
+{
+"unit": "sm:SM_C21_THE_D1_CUSP_MIXING:32",
+"record": "sm-c21-01",
+"class": "a",
+"why": "1e-15 agreement and 70% expectation not in how",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:50",
+"record": "agyaudit-cross-04",
+"class": "e",
+"why": "scope/intro line",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:52",
+"record": "agyaudit-cross-04",
+"class": "e",
+"why": "definition of transformation u' = u sigma",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:54",
+"record": "agyaudit-cross-04",
+"class": "t",
+"why": "text cut off",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:56",
+"record": "agyaudit-cross-04",
+"class": "b",
+"why": "geodesic compactness, equidistribution, arc 1922 readings S, S~ not covered; also cut off",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:5",
+"record": "agy002-g4-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:8",
+"record": "agy002-g4-01",
+"class": "b",
+"why": "\"committed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:9",
+"record": "agy002-g4-01",
+"class": "b",
+"why": "\"untouched under seal-immutable\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:10",
+"record": "agy002-g4-01",
+"class": "b",
+"why": "\"committed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:11",
+"record": "agy002-g4-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:12",
+"record": "agy002-g4-01",
+"class": "d",
+"why": "cold-room independence is seat's statement; \"6 prior manifests\" vs how's 48",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:21",
+"record": "agy002-g4-01",
+"class": "a",
+"why": "\"6 / 6 manifests matched\" not how's 48",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C19_WHICH_BIT:8",
+"record": "sm-c19-02",
+"class": "b",
+"why": "\"averaged over the lifts it is the whole ground space\" not covered",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C19_WHICH_BIT:25",
+"record": "sm-c19-02",
+"class": "a",
+"why": "seat's commutator figures 0.82/0.58 (other norm per note), 6e-16, 60% expectation",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C19_WHICH_BIT:26",
+"record": "sm-c19-02",
+"class": "a",
+"why": "1.7e-15 and 80% expectation not stated in how",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C19_WHICH_BIT:27",
+"record": "sm-c19-02",
+"class": "a",
+"why": "residual 1e-15 and 65% expectation not in how",
+"decision": "K"
+},
+{
+"unit": "sm:SM_C19_WHICH_BIT:29",
+"record": "sm-c19-02",
+"class": "a",
+"why": "2.9e-15 and 0.82 figures not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:5",
+"record": "agy002-g5-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:8",
+"record": "agy002-g5-01",
+"class": "b",
+"why": "\"committed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:9",
+"record": "agy002-g5-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:10",
+"record": "agy002-g5-01",
+"class": "d",
+"why": "second script written without reading first is seat's statement; 80-digit figure",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:11",
+"record": "agy002-g5-01",
+"class": "b",
+"why": "\"committed unread\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:20",
+"record": "agy002-g5-01",
+"class": "a",
+"why": "\"2 / 2 producer manifests\" not how's 48",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:25",
+"record": "agy002-g5-06",
+"class": "a",
+"why": "tolerances (5e-15, 2e-14, anisotropy >5/100, Schur 1e-15) and referee column not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:31",
+"record": "agy002-g5-06",
+"class": "a",
+"why": "covariance <1e-14 vs how's 7e-14; ev gap >1/100, \"Gate locked\", B1727 collapse claims not covered",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:10",
+"record": "sm-c20-01",
+"class": "a",
+"why": "2.4e-15 vs how's 1.7e-15",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:24",
+"record": "sm-c20-01",
+"class": "a",
+"why": "1.2e-16, 9.4e-16 and 95% expectation not in how",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:25",
+"record": "sm-c20-01",
+"class": "a",
+"why": "2.4e-15, 1.5e-15, 75% expectation not in how",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:26",
+"record": "sm-c20-01",
+"class": "c",
+"why": "row carries 90% expectation",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:28",
+"record": "sm-c20-01",
+"class": "b",
+"why": "sigma = T.J factorisation not in how; rests on R0-as-conjugation step not written out (note)",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:21",
+"record": "agy002-g2-03",
+"class": "a",
+"why": "seat's and referee's figures (2.86e-14, 9.82e-15, mp40 5.73e-39) not main's",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:28",
+"record": "agy002-g2-03",
+"class": "a",
+"why": "3.4e-14, spin-sum and Wilson-line neutrality conditions, SM-C18 discharge not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:22",
+"record": "agy002-g2-04",
+"class": "a",
+"why": "24+72+192 point counts, matches_producer not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:29",
+"record": "agy002-g2-04",
+"class": "b",
+"why": "-3 mod 10 / 9 mod 20 frame explanation and \"colour-triality\" reading not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:4",
+"record": "agy002v-r83-01",
+"class": "b",
+"why": "commit read, branch and window not covered by how",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:7",
+"record": "agy002v-r83-01",
+"class": "b",
+"why": "\"numbers stated in plain English words\" and the discipline claim not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:22",
+"record": "agy002-g4-02",
+"class": "a",
+"why": "rel_err 2e-14, 45-digit 1e-24, tolerance 1e-12 not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:23",
+"record": "agy002-g4-02",
+"class": "a",
+"why": "abs_diff figures and solver comparison not in how",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:20",
+"record": "agyexp-ur1-01",
+"class": "a",
+"why": "60 random trajectories, 1e-12 bound, N_g 1..6 not in how; text cut off (t)",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:26",
+"record": "agy002-g0-06",
+"class": "d",
+"why": "figures 7.153e-14, 5.014e-15 only \"found in sealed outputs\", not recomputed",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:30",
+"record": "agy002-g4-06",
+"class": "a",
+"why": "strong-CP 1e-14, |J|>1/100, 2/1000 shift figures not in how; strong-CP clause conditional on borrowed premise",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:38",
+"record": "agy002-pr-10",
+"class": "c",
+"why": "registry row with kill-condition column and status \"0\" is seat's own list, not a computed result",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:110",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "file/line pointer, not a claim",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:111",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "verbatim quotation line, not a claim",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:112",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "heading \"supporting source line\"",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:113",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line pointer/quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:159",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "file/line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:160",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "verbatim quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:161",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:162",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:163",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:164",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:165",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "heading of findings list",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:167",
+"record": "agy002v-r83-04",
+"class": "a",
+"why": "figures (-0.392229, -0.119939, -0.0386, 1.05 i, seed 20261115) not stated as computed in the record",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:171",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "file/line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:172",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "verbatim quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:176",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "file/line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:177",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "verbatim quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:178",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:179",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:180",
+"record": "agy002v-r83-04",
+"class": "a",
+"why": "agreement figures (2e-4, 0.4282/0.42815, T-check 0.12 vs 0.40) not covered by the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:183",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "file/line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:184",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "verbatim quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:185",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:186",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:187",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:239",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "file/line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:240",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "verbatim quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:241",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:242",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:243",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:244",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:245",
+"record": "agy002v-r83-04",
+"class": "d",
+"why": "note: finding 26's mend is partial (FINDINGS line 5 and verdict hypotheses still say owed)",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:275",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "file/line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:276",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "verbatim quotation",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:277",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:278",
+"record": "agy002v-r83-04",
+"class": "e",
+"why": "source-line quotation",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:10",
+"record": "agyexp-pr-01",
+"class": "e",
+"why": "scope line (ten campaigns, ansatz, literature names, row numbers)",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:17",
+"record": "agyexp-pr-01",
+"class": "b",
+"why": "\"4 twin-pair selection bits in O_32\", XA-11 three sector scales not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:25",
+"record": "agyexp-pr-01",
+"class": "b",
+"why": "\"desert refuted (B915)\", free scale claim and 2-loop shift remark not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:27",
+"record": "agyexp-pr-01",
+"class": "b",
+"why": "B1947 refutation, held-out-target remark, 39/31, 5/3 arithmetic not explicitly covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:39",
+"record": "agyexp-pr-01",
+"class": "b",
+"why": "PHYSICAL-C7 Discriminator 7 verified in X-FOUNDATION-1 not covered (seat's)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:17",
+"record": "agy002v-m34-06",
+"class": "a",
+"why": "figures 4.05e-50, 1.60e-49, 1,357 words n=4..13, 6.99e-14 differ from how (3e-40, 344 words, 2.4e-14); \"proved for all n\"",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:63",
+"record": "agy002v-m34-06",
+"class": "a",
+"why": "4.050e-50 and 1.604e-49 at 50 dps are seat's figures, not main's",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:71",
+"record": "agy002v-m34-06",
+"class": "e",
+"why": "definition of the transfer operator",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:72",
+"record": "agy002v-m34-06",
+"class": "a",
+"why": "0.7071, 1.332e-15 differ from how's 1.4e-40; \"sign infinitely often\" is the seat's inference (note)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:87",
+"record": "agy002v-m34-06",
+"class": "a",
+"why": "\"Var grows ~0.148 per letter\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:88",
+"record": "agy002v-m34-06",
+"class": "a",
+"why": "n=12 value -0.0049 (length 12 not among checked), CKM moduli > 3, negative ratios not covered",
+"decision": "K"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:12",
+"record": "agy002-c2-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:13",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card ask (\"Prove ...\"), not a result",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:14",
+"record": "agy002-c2-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:15",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card ask with tolerance 1e-13",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:16",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card ask, hypercharge triples and test plan",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:17",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card ask, periodicity to <1e-12",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:18",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card ask, covariance to <1e-12",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:19",
+"record": "agy002-c2-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:20",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card ask, 24/72/192 points, <2e-3",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:21",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card expectation of level-5 equality",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:22",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card expectation, multipliers and <1e-13",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:23",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card expectation, ratios 3/2, 11/10",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:25",
+"record": "agy002-c2-02",
+"class": "c",
+"why": "card ask, order 12 and eigenphases, <1e-13",
+"decision": "N"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:17",
+"record": "sm-c18-01",
+"class": "b",
+"why": "splitting of the T-phase into phases on i, j, k not in the how",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:24",
+"record": "sm-c18-01",
+"class": "b",
+"why": "section over the double cover at every point, B1957 \"derived\": beyond the how",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:26",
+"record": "sm-c18-01",
+"class": "b",
+"why": "q_L+q_R parity and Higgs charge odd (6Y=±3) not in the how",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:32",
+"record": "sm-c18-01",
+"class": "d",
+"why": "3.9e-14, plant miss 2.0, 90% expectation: seat's own figures",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:33",
+"record": "sm-c18-01",
+"class": "d",
+"why": "seat's run, 85% expectation, extended-precision remark",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:34",
+"record": "sm-c18-01",
+"class": "d",
+"why": "1.2e-15, 3 solutions mod 12, alpha0=beta0=0: seat's own",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:35",
+"record": "sm-c18-01",
+"class": "d",
+"why": "5.1e-15 over 10 cases: seat's own figure",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:42",
+"record": "sm-c18-01",
+"class": "d",
+"why": "relative 1.0 figure: seat's own run",
+"decision": "P"
+},
+{
+"unit": "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:43",
+"record": "sm-c18-01",
+"class": "d",
+"why": "1.2e-48: seat's own figure",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:5",
+"record": "agy002-g0-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:9",
+"record": "agy002-g0-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:10",
+"record": "agy002-g0-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:11",
+"record": "agy002-g0-01",
+"class": "d",
+"why": "\"built without reading the first script\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:12",
+"record": "agy002-g0-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:5",
+"record": "agy002-g0-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:9",
+"record": "agy002-g0-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:10",
+"record": "agy002-g0-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:11",
+"record": "agy002-g0-01",
+"class": "d",
+"why": "\"built without reading\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:12",
+"record": "agy002-g0-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:3",
+"record": "agyaudit-cross-01",
+"class": "e",
+"why": "provenance/scope line (\"no measured value read\")",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:11",
+"record": "agyaudit-cross-01",
+"class": "b",
+"why": "description of arc 1919's identification and numerics, not covered",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:13",
+"record": "agyaudit-cross-01",
+"class": "e",
+"why": "lead-in sentence",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:15",
+"record": "agyaudit-cross-01",
+"class": "t",
+"why": "cut off at \"q_m equal to th\"",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:16",
+"record": "agyaudit-cross-01",
+"class": "e",
+"why": "lead-in sentence",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:20",
+"record": "agyaudit-cross-01",
+"class": "d",
+"why": "\"computed once\" at fifty digits, truncation, inversion invariance: lane's own check",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:11",
+"record": "agy002-c1-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:12",
+"record": "agy002-c1-02",
+"class": "c",
+"why": "card ask to prove (exact arithmetic list)",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:16",
+"record": "agy002-c1-02",
+"class": "c",
+"why": "card ask, <1e-13, 8 Haar trials",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:18",
+"record": "agy002-c1-02",
+"class": "c",
+"why": "card ask; b_PS, 2-loop matrix B_PS not in the how",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:19",
+"record": "agy002-c1-02",
+"class": "c",
+"why": "card ask; 2-loop corridor table, <1e-14 not covered",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:22",
+"record": "agy002-c1-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:23",
+"record": "agy002-c1-02",
+"class": "c",
+"why": "card ask to prove",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:29",
+"record": "agy002v-m33-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:33",
+"record": "agy002v-m33-04",
+"class": "b",
+"why": "charge preservation, channel weight, Theorem 90 correction not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:34",
+"record": "agy002v-m33-04",
+"class": "b",
+"why": "order-10 breaking on 72/72 points not covered (belongs to another record)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:35",
+"record": "agy002v-m33-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:36",
+"record": "agy002v-m33-04",
+"class": "a",
+"why": "\"residual 0.0e+00\" figure not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:11",
+"record": "agy002-c3-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:12",
+"record": "agy002-c3-02",
+"class": "c",
+"why": "card ask, <1e-11",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:13",
+"record": "agy002-c3-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:14",
+"record": "agy002-c3-02",
+"class": "c",
+"why": "card ask to prove",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:15",
+"record": "agy002-c3-02",
+"class": "c",
+"why": "card ask to prove, y_t=9/10",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:18",
+"record": "agy002-c3-02",
+"class": "c",
+"why": "card ask; >1e20, Delta_SM=28, 12 masses, <1e-12",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:20",
+"record": "agyexp-xb-01",
+"class": "a",
+"why": "matrix (33 21; 21 12) and split 1+4+8+32 not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:41",
+"record": "agyexp-xb-01",
+"class": "e",
+"why": "lead-in sentence ending in colon; the equation it introduces is cut",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:31",
+"record": "agyaudit-p753-07",
+"class": "e",
+"why": "lead-in line",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:32",
+"record": "agyaudit-p753-07",
+"class": "d",
+"why": "Outcome 1 curved-operator statement is the lanes' (note)",
+"decision": "C"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:33",
+"record": "agyaudit-p753-07",
+"class": "b",
+"why": "Outcome 2 \"resolved across proxy and physical bundles\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:113",
+"record": "agyaudit-p753-07",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:119",
+"record": "agyaudit-p753-07",
+"class": "e",
+"why": "readiness/ask line",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:24",
+"record": "agyexp-ur345-01",
+"class": "a",
+"why": "sv equality to <(1/1000)^4 across 24 vacua at tau* and generic tau not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:27",
+"record": "agyexp-ur345-01",
+"class": "a",
+"why": "sv equality tolerance, 192 vacua, \"splits by >2\" not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:31",
+"record": "agyexp-ur345-01",
+"class": "a",
+"why": "violation figure \">1\" for every multiplier not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:23",
+"record": "agy002-g6-02",
+"class": "a",
+"why": "48x48 quadrature, Bergman <2e-15, other thresholds and CP^2 shift >3/100 not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:24",
+"record": "agy002-g6-02",
+"class": "a",
+"why": "10-trial Haar <2e-14, nullspace drift figures not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:31",
+"record": "agy002-g6-02",
+"class": "b",
+"why": "Bergman reproducing-property rank-1 theorem, Haar figure; also cut off mid-sentence",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:5",
+"record": "agy002-g2-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:8",
+"record": "agy002-g2-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:9",
+"record": "agy002-g2-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:10",
+"record": "agy002-g2-01",
+"class": "d",
+"why": "\"built from the card alone without reading\" is the seat's statement (how says so)",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:11",
+"record": "agy002-g2-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:24",
+"record": "agyexp-xw-01",
+"class": "a",
+"why": "10^-131 figure and \"requiring order-10/level-15 lift or B-L\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP:60",
+"record": "agyexp-xw-01",
+"class": "a",
+"why": "1-3e-9, 7e-5 at y=30, factor >2e7, \"100% isolated to S->S~\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:12",
+"record": "agy002-c6-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:13",
+"record": "agy002-c6-02",
+"class": "c",
+"why": "card ask (\"Construct ...\")",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:14",
+"record": "agy002-c6-02",
+"class": "c",
+"why": "card ask with thresholds; 10-trial Haar, shift >1/200",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:7",
+"record": "agy002v-m40-01",
+"class": "d",
+"why": "\"committed strictly prior to opening B1947 files\" cannot be checked (note)",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:8",
+"record": "agy002v-m40-01",
+"class": "d",
+"why": "zero measured numbers, zero mixing computed: seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:14",
+"record": "agy002-g6-05",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:15",
+"record": "agy002-g6-05",
+"class": "c",
+"why": "planted-control results; thresholds >16/100, >2/1000 etc. not stated by the how",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:16",
+"record": "agy002-g6-05",
+"class": "d",
+"why": "second computation's figures are its own instances (how)",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:22",
+"record": "agy002v-m33-03",
+"class": "d",
+"why": "0.6445 and [1.6786e-02, 3.6608e-01] are the seat's own ranges, not reproduced (note)",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:27",
+"record": "agy002-g0-07",
+"class": "a",
+"why": "1.033e-14, 1.288e-14, 3.197e-14, 1.377e-14, trial counts are sealed-output figures, not main's",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:STATUS_AGY-002:10",
+"record": "agy002-es-09",
+"class": "b",
+"why": "branch heads, \"gates 4-7B\", other branches untouched, three-lane audit not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:23",
+"record": "agyexp-xe-01",
+"class": "a",
+"why": "\"error = 0\" figures and the planted control \"passed\" not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:21",
+"record": "agy002-g5-02",
+"class": "d",
+"why": "max_jump, <5e-5, thresholds are the seat's own figures (how: \"its figures\")",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:25",
+"record": "agy002v-view-02",
+"class": "a",
+"why": "\"636 arcs\" figure not in how; only the 0/24 and no-extremum table is covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:27",
+"record": "agy002v-view-02",
+"class": "t",
+"why": "cut off; eleven CHOSEN/POSTULATED plus one ANSATZ, and the Z_6 quotient claim are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:28",
+"record": "agy002v-view-02",
+"class": "t",
+"why": "cut off mid-claim; \"decisively\" and the washing-out of the mass hierarchy are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:53",
+"record": "agy002v-view-02",
+"class": "b",
+"why": "pointwise SVD then averaging over 24 points and X1(5), as a description of the method, is not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:55",
+"record": "agy002v-view-02",
+"class": "c",
+"why": "the note calls \"breaks QM in three provable ways\" the seat's framing",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:56",
+"record": "agy002v-view-02",
+"class": "t",
+"why": "cut off; the permutation-matrix and row-sum claims are not covered; 5/12 and 74/144 are covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:57",
+"record": "agy002v-view-02",
+"class": "a",
+"why": "O(10^-2) and 10^-5 figures and the wave-mechanics claim are not covered; the text is judgement",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:58",
+"record": "agy002v-view-02",
+"class": "b",
+"why": "the erasure of the arrow and J_CP = 0 are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:62",
+"record": "agy002v-view-02",
+"class": "t",
+"why": "cut off; the R83-17 countercheck is not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:68",
+"record": "agy002v-view-02",
+"class": "t",
+"why": "cut off; E6 upstairs claims and the colour-singlet argument are not covered; only (-3,6)=(2,1) is covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:94",
+"record": "agy002v-view-02",
+"class": "b",
+"why": "the D_chi^2 = I_2 pull-back to the m004 cover and the (-1)^{6Y} twist are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:138",
+"record": "agy002v-view-02",
+"class": "c",
+"why": "the unit carries the JUDGEMENT about the \"most important bridge\"",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:141",
+"record": "agy002v-view-02",
+"class": "c",
+"why": "the unit carries a JUDGEMENT about a route to deriving 3 generations",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:144",
+"record": "agy002v-view-02",
+"class": "c",
+"why": "JUDGEMENT on Z_6 = Z_2 x Z_3; text is also cut off (t)",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:147",
+"record": "agy002v-view-02",
+"class": "c",
+"why": "JUDGEMENT; the identification as a Szego kernel times det is not in how",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:16",
+"record": "agy002v-m40-02",
+"class": "d",
+"why": "7.072e-56, 55 dps, 2.595e-37 and the C0 check are the seat's own run, not main's",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:17",
+"record": "agy002v-m40-02",
+"class": "a",
+"why": "1.813e-55 etc. and the 72 cases are the seat's; main has 2.8e-40 at two moduli and three points",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:18",
+"record": "agy002v-m40-02",
+"class": "d",
+"why": "2.614e-46 across 24 points, 3 moduli and 3 sectors is the seat's own run",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:19",
+"record": "agy002v-m40-02",
+"class": "d",
+"why": "2.7833, 2.2145, 0.6620, 15.2 and 60/60 are the seat's own magnitudes, which the note says are not reproduced",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:20",
+"record": "agy002v-m40-02",
+"class": "d",
+"why": "2.7310, 2.4917, 0.8290 and 60/60 are the seat's own magnitudes, not reproduced",
+"decision": "C"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:21",
+"record": "agy002v-m40-02",
+"class": "a",
+"why": "3.434e-55 / 3.467e-55 over 144 cases are the seat's figures; only the ratios at q_H=3 are matched",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:36",
+"record": "agy002v-m40-02",
+"class": "a",
+"why": "the verification figures 3.434e-55 and 3.467e-55 and the reduction remark are the seat's; text is cut off (t)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:40",
+"record": "agy002v-m40-02",
+"class": "a",
+"why": "the 2.7310 excursion and \"both representatives fail C2\" are the seat's own magnitudes",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:41",
+"record": "agy002v-m40-02",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS:18",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "tolerances and the distance > 17/10 are the seat's own run; text is cut off (t)",
+"decision": "K"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS:19",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "the tolerance < 2*(1/1000)^5*(1/10) is the seat's run",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS:23",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "the brackets 487/1000, 471/1000, ratio brackets and |y''| = 6/5 are the seat's own run",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:19",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "the tolerances and the unique SVD reconstruction bound are the seat's own run",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:20",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "the tolerances, the control > 11/10 and \"confirming period 1 does not fix the action scale\" are the seat's",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:22",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "the bound < 6*(1/1000)^5*(1/10) is the seat's own run",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:23",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "the tolerances, the planted control 24/100 and the bracket 426/1000 are the seat's own",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:25",
+"record": "agyexp-xfd-01",
+"class": "a",
+"why": "the distances [2, >28/10, 0], the commutator trace 2 and the tolerance are not stated by how",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:36",
+"record": "agyaudit-p753-02",
+"class": "e",
+"why": "heading/label line; \"exact orbit-stabilizer theorem\" is a label",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:46",
+"record": "agyaudit-p753-02",
+"class": "d",
+"why": "the all-five-summands 248-dim evaluation is in agyaudit-p753-05, not this record's how",
+"decision": "C"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:48",
+"record": "agyaudit-p753-02",
+"class": "b",
+"why": "order-4 global quotient, the delta shifts and 45+15+60+64+64 are not covered; text is cut off (t)",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:64",
+"record": "agyaudit-p753-02",
+"class": "b",
+"why": "E_theta details (L^2->X, S_theta->exp(...), -I_2->K_pi) are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:65",
+"record": "agyaudit-p753-02",
+"class": "b",
+"why": "u(3) dim 9, so(5) dim 10, modes per rep and Gamma(2) are not covered; the 248-dim table is in -05 (d)",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:108",
+"record": "agyaudit-p753-02",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:109",
+"record": "agyaudit-p753-02",
+"class": "b",
+"why": "the global group (Spin(10) x Spin(6))/Z_4 is not covered",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:111",
+"record": "agyaudit-p753-02",
+"class": "d",
+"why": "the all-248-dimensions claim is in -05, and the so(5)/u(3) dims are not covered",
+"decision": "C"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:112",
+"record": "agyaudit-p753-02",
+"class": "b",
+"why": "the sum over the three branches restoring exact E-invariance is not covered",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:71",
+"record": "agyaudit-p753-03",
+"class": "e",
+"why": "definition of V and T; dim 6, B1600/B1610, signature (3,3) and B1879's 96 to 192 are not covered",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:73",
+"record": "agyaudit-p753-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:74",
+"record": "agyaudit-p753-03",
+"class": "b",
+"why": "Q_8 of order 8 and its symmetric square generating Klein-four are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:76",
+"record": "agyaudit-p753-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:79",
+"record": "agyaudit-p753-03",
+"class": "a",
+"why": "\"below ten to the minus fourteen\" and exact Q(zeta_24) arithmetic are not stated by how",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:82",
+"record": "agyaudit-p753-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:83",
+"record": "agyaudit-p753-03",
+"class": "b",
+"why": "the definition of V_JD and the q-expansion powers (+1/8,-1/8,-1/8) are not covered; they cite the seat's Cauchy-quadrature script",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:84",
+"record": "agyaudit-p753-03",
+"class": "b",
+"why": "the identification as Ind(psi_theta) and the origin of the 1/8 phase in the order-eight lift g_L are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:114",
+"record": "agyaudit-p753-03",
+"class": "b",
+"why": "\"universal no-go across all 2D Mp(2,Z) modules\" goes beyond the twist census",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:16",
+"record": "agy002v-m34-02",
+"class": "t",
+"why": "cut off; 2.4e-45 and the \"exact no-go theorem\" over all of SL2(Z) are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:27",
+"record": "agy002v-m34-02",
+"class": "b",
+"why": "the general-gamma law with 45-digit mpmath at tau_0 is not covered; how covers only tau -> tau+5",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:30",
+"record": "agy002v-m34-02",
+"class": "a",
+"why": "residuals 2.36e-45 and 1.18e-45 and the w-independence for general gamma are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:31",
+"record": "agy002v-m34-02",
+"class": "b",
+"why": "U_L shared between up and down and the w-dependent Weil phase are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:33",
+"record": "agy002v-m34-02",
+"class": "e",
+"why": "scope/setup line for the T^5 test; the test is described, not a result",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:37",
+"record": "agy002v-m34-02",
+"class": "a",
+"why": "figures 0.0265, 0.6887, 1.226e-44, 2.487e-44 are not in how; the 5 mod 5 and zero spread are covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:38",
+"record": "agy002v-m34-02",
+"class": "a",
+"why": "figures 0.6141, 0.5904, 0.5154, 1.4337, 1.314e-45 are not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:40",
+"record": "agy002v-m34-02",
+"class": "a",
+"why": "the explicit phase table c_down(w) and the 5.938e-44 invariance are not covered; how says only that the plain sum is unchanged",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:35",
+"record": "agyexp-xu-01",
+"class": "b",
+"why": "distinctness from the seam-phase Robin stiffness kappa_seam and its vanishing derivative are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:36",
+"record": "agyexp-xu-01",
+"class": "c",
+"why": "the explicit premise needed to select |m|=1 and the \"slotwise domain join\" left tracked are a reading/open item",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:18",
+"record": "agy002v-m34-09",
+"class": "c",
+"why": "the seat's expectation and its inference that a Pin- factor is needed; text is cut off (t)",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:95",
+"record": "agy002v-m34-09",
+"class": "e",
+"why": "definition/setup line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:99",
+"record": "agy002v-m34-09",
+"class": "a",
+"why": "1.6180 rad, 9.326e-15, 1.903e-12 and the typed mean 1.000000 are not in the ground; the Pin- inference is the seat's",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:25",
+"record": "agyexp-xc-01",
+"class": "a",
+"why": "the 65-digit tolerances, the residual bounds, the mod reductions and the Frobenius > 3 are the seat's run",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:27",
+"record": "agyexp-xc-01",
+"class": "a",
+"why": "the tolerances < (1/1000)^21 and the CRT conjugation claims are the seat's run",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:34",
+"record": "agyexp-xc-01",
+"class": "b",
+"why": "the m015 shape and the named control are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:36",
+"record": "agyexp-xc-01",
+"class": "d",
+"why": "CS(m004) mod 1/2 by two of the seat's routes with Goerner invariance is the seat's own run",
+"decision": "C"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:37",
+"record": "agyexp-xc-01",
+"class": "a",
+"why": "the tolerances < (1/1000)^19 and ^20 are the seat's; the values themselves are covered by SnapPy",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:9",
+"record": "agy002-c0-02",
+"class": "c",
+"why": "card requirement; \"zero repository imports / zero SM constants\" goes beyond how, which also lists scipy",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:10",
+"record": "agy002-c0-02",
+"class": "b",
+"why": "comparison with the Machacek-Vaughn, Jones and Buttazzo tables \"with zero discrepancy\" is not covered; card text",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:13",
+"record": "agy002-c0-02",
+"class": "c",
+"why": "card plan with synthetic couplings and the tolerance 1e-7; a specification, not a result",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:15",
+"record": "agy002-c0-02",
+"class": "c",
+"why": "card plan with tolerance 1e-9 for the Weinberg operator flow; a specification",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:16",
+"record": "agy002-c0-02",
+"class": "a",
+"why": "8 Haar tuples, 1e-12 and 21 observables are not stated by how; card specification (c)",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:13",
+"record": "agy002-c5-02",
+"class": "a",
+"why": "the 1e-3, 1e-6 bounds, min ||Y||_F > 1 and the pole masking are card figures not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:15",
+"record": "agy002-c5-02",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:18",
+"record": "agy002-c5-02",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:19",
+"record": "agy002-c5-02",
+"class": "a",
+"why": "the 1e-13 tolerances and the zeta-independence of U_3 are not stated by how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:20",
+"record": "agy002-c5-02",
+"class": "a",
+"why": "err > 1/50, ev_3-ev_1 > 1/100 at y=3/2, 1e-13 and the anisotropy bounds are not in how; card text",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:5",
+"record": "agy002-g3-01",
+"class": "e",
+"why": "label line",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:8",
+"record": "agy002-g3-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement, not checkable from the commits",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:9",
+"record": "agy002-g3-01",
+"class": "e",
+"why": "label line",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:10",
+"record": "agy002-g3-01",
+"class": "d",
+"why": "\"built without reading any verifier script\" is the seat's statement; \"14 manifests\" differs from how's 18",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:11",
+"record": "agy002-g3-01",
+"class": "d",
+"why": "\"committed unread\" is the seat's statement",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:20",
+"record": "agy002-g3-01",
+"class": "a",
+"why": "\"14/14 manifests matched\" is not what how says (18 manifests)",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:20",
+"record": "agyexp-xc9-01",
+"class": "d",
+"why": "the 531 out-of-sample characters across 10 matrices and \"proved unconditionally\" are the seat's; the note says Bohn and Dieter are not read",
+"decision": "C"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS:54",
+"record": "agyexp-xc9-01",
+"class": "e",
+"why": "theorem hypothesis/setup text, not a result",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:21",
+"record": "agy002-g3-02",
+"class": "d",
+"why": "the 10 tuples, SO(3)^5 rotations and \"matches first computation\" are the second computation's own run",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:22",
+"record": "agy002-g3-02",
+"class": "a",
+"why": "8.21e-14, 3.46e-15, 4.69e-13 and 1.35e-12 are not stated by how, which gives 4.5e-13",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:23",
+"record": "agy002-g3-02",
+"class": "a",
+"why": "+5.04e-3 v^2 and -9.43e-2 v^2 curvature figures are not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:29",
+"record": "agy002-g3-02",
+"class": "b",
+"why": "\"whenever top Yukawa dominates gauge couplings\" generalises beyond the benchmark and the two figures",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:28",
+"record": "agyexp-xap-01",
+"class": "d",
+"why": "fixing the weak factors holds only for the right su(4) copy; the note says main did not read which copy the seat takes",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:21",
+"record": "agy002-g7b-01",
+"class": "d",
+"why": "the contour quadratures, 1e-26, 1e-30, 1e-150 and 32/48-point figures are not repeated by main; the how says so",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:28",
+"record": "agy002-g7b-01",
+"class": "d",
+"why": "C_UV = 189/2 is not in how, and the 32/48-point Cauchy contours were not repeated; text is cut off (t)",
+"decision": "C"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:22",
+"record": "agy002-g1-01",
+"class": "a",
+"why": "t_tan=1, T_4=T_2L=T_2R=3, 4,372 words, Lobachevsky 4.22e-81 and polylog-vs-quad are not in how",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:25",
+"record": "agy002-g1-01",
+"class": "a",
+"why": "the 96 ODE histories, max_err 3.25e-15, 0.801317 and the 1.32e-5 sensitivity are not in how; the check computes only 506/201",
+"decision": "P"
+},
+{
+"unit": "agy-exp:REVIEW_83_AGY-EXP:6",
+"record": "agyexp-r83-01",
+"class": "a",
+"why": "the SHA-256 value and its manifest are not stated by how, which covers only commit order",
+"decision": "P"
+},
+{
+"unit": "agy-exp:REVIEW_83_AGY-EXP:7",
+"record": "agyexp-r83-01",
+"class": "a",
+"why": "the SHA-256 value and \"committed unread\" are not stated by how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:24",
+"record": "agy002-g5-05",
+"class": "a",
+"why": "32x32 Clifford, 1e-35, split > 10^7 and \"> 800 > 100\" are not covered; the how says the card's bar of 100 is not met at height 4",
+"decision": "K"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:22",
+"record": "agy002-g0-02",
+"class": "a",
+"why": "C_2(adj) = (2,3,4) is not stated by how",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:24",
+"record": "agy002-g0-02",
+"class": "a",
+"why": "the rel_err values 1.860e-13 and 2.567e-13 and the cross-script diff 1.689e-13 are not in how, which gives 12 digits",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:5",
+"record": "agy002-es-01",
+"class": "a",
+"why": "4 gates, commit 613c4f417, 16/16 digests and the seat-page labels are not in how, which says 18 manifests; text is cut off (t)",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:STATUS_AGY-002:18",
+"record": "agy002-es-01",
+"class": "b",
+"why": "\"0 repository imports\" and \"manifests committed before outputs\" are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:36",
+"record": "agy002-pr-08",
+"class": "c",
+"why": "the table's tolerances (<1e-13, >1/100) and the falsifier column are a card/proposal, not the computed eigenvalues",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:29",
+"record": "agy002-pr-01",
+"class": "c",
+"why": "the falsifier column is a proposal; \"global Z_6 quotient\" and \"16 of Spin(10) [0,0,0,0]\" are not covered",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:15",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "box length 6->8 and E6 ODE restricted-control claims are the seat's own runs",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:17",
+"record": "agyexp-xa-01",
+"class": "b",
+"why": "48-mode basis; Spin(2) holonomy R(-2pi)=-I removes the (0,0) channel; Tier II/I-A not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:19",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "Bessel weights (-34,-29,315/2) and (4,64,96,114,28,66) are the seat's own figures",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:21",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "48x48 grid, winding cutoffs 90/360, Newton polish are the seat's own runs",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:23",
+"record": "agyexp-xa-01",
+"class": "b",
+"why": "determinant +1 and the conjugation of E6cent onto E6GUT are not mentioned; only order 4 is checked",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:27",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "sigma 688/1000 and the hyperbolic interval (4041, 4043)/10000 are the seat's own figures",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:29",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "f64 versus mpmath32, 24-digit Haar/12-factor receipts and line numbers are the seat's own",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:31",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "points (4/15,8/15) and '4 discrete selection bits' are the seat's own",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:33",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "minor ratios 16 and 96 at Im(tau)=6 are the seat's own figures",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:35",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "600 versus 1200 step comparison and the omitted quantities are the seat's own",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:37",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "points (0,3/10),(0,7/10), eps_UV>42/10 and RK4 overflow are the seat's own",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:39",
+"record": "agyexp-xa-01",
+"class": "a",
+"why": "AST visitor details (five bare names, G2 closure) are the seat's own; the how names none",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:29",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "file-and-line pointer, not a claim",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:30",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "verbatim quotation of the planted faulty text",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:31",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:34",
+"record": "agy002v-r83-03",
+"class": "b",
+"why": "threshold >3.0 giving MISSED at 2.4 and the test-gap claim are not covered; only 6.4 is",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:37",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:38",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "verbatim quotation of the planted faulty text",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:39",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:40",
+"record": "agy002v-r83-03",
+"class": "a",
+"why": "table row figures +0.047, +0.020, below 1e-4 not covered; only 0.068 is",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:41",
+"record": "agy002v-r83-03",
+"class": "a",
+"why": "'mass ratios under 1e-4' is not covered; only 0.068 is",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:42",
+"record": "agy002v-r83-03",
+"class": "b",
+"why": "digits 0.067693, line 231 of the rule file and 'neither lock checks' are not covered; only 0.068",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:45",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:46",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "verbatim quotation of the planted faulty text",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:47",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:49",
+"record": "agy002v-r83-03",
+"class": "a",
+"why": "45-digit mpmath recomputation on seed 1939 and the test-gap claim are not covered; only +1.38",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:52",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:53",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "verbatim quotation of the planted faulty text",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:54",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:59",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:60",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "verbatim quotation of the planted faulty text",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:61",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:62",
+"record": "agy002v-r83-03",
+"class": "b",
+"why": "4 non-zero points, levels<=60, signs[-1] not covered; only (1,5)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:63",
+"record": "agy002v-r83-03",
+"class": "b",
+"why": "'every level to 60 enumerated; trace-4 control caught' not covered; only (1,5)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:67",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "file-and-line pointer",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:68",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "verbatim quotation of the planted faulty text",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:69",
+"record": "agy002v-r83-03",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:70",
+"record": "agy002v-r83-03",
+"class": "a",
+"why": "other figures in the row (59.3, 3.31e3, 3.59, 52.6, 1.21, 80.9) not covered; only 17.6",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:REVIEW_83_AGY-002:71",
+"record": "agy002v-r83-03",
+"class": "a",
+"why": "17.59 and the other options' 18.0, 16.6, 18.8 not covered; only 17.6",
+"decision": "P"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:17",
+"record": "agyexp-hr-01",
+"class": "a",
+"why": "the '83 files unread' figure is loose (85 at that commit); 3 settled and 2 read files, 72 and 55 statements, are uncovered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:24",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files with row citations",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:25",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:26",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:27",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:28",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:29",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:30",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:31",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:32",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:33",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:34",
+"record": "agyexp-hr-01",
+"class": "e",
+"why": "list of unread files",
+"decision": "N"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:39",
+"record": "agyexp-hr-01",
+"class": "b",
+"why": "only the Schur complement 41/35 is on main; 'every positive claim stated in RESULTS files' is not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:STATUS_AGY-EXP:105",
+"record": "agyexp-hr-01",
+"class": "b",
+"why": "claims that X-APEX-1 and X-APEX-4 repaired items (1) and (2) are the seat's own; main covers only 'row 1875 did not name them'",
+"decision": "P"
+},
+{
+"unit": "agy-exp:REVIEW_83_AGY-EXP:165",
+"record": "agyexp-r83-02",
+"class": "a",
+"why": "'four shifts from 3.25 to 11.5', '8 parts in 1e11' and '25 in 1e6' are not stated in the how",
+"decision": "P"
+},
+{
+"unit": "agy-exp:REVIEW_83_AGY-EXP:348",
+"record": "agyexp-r83-02",
+"class": "t",
+"why": "text cut off; the test_the_terms_in_short stub claim is not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:17",
+"record": "agy002v-m37-02",
+"class": "a",
+"why": "worst 2.910 differs from main's 2.96 (seat's error kept)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:18",
+"record": "agy002v-m37-02",
+"class": "a",
+"why": "0.525 is the seat's figure with its error; main's with error zero is 0.716",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:20",
+"record": "agy002v-m37-02",
+"class": "a",
+"why": "worst 1.770 differs from main's 1.81",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:21",
+"record": "agy002v-m37-02",
+"class": "a",
+"why": "0.486 is the seat's figure with its error; main's with error zero is 0.662",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:22",
+"record": "agy002v-m37-02",
+"class": "a",
+"why": "truncated-weight shift 0.01540, z=3.88 and '2,000 forty-letter words' are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:23",
+"record": "agy002v-m37-02",
+"class": "a",
+"why": "truncated-weight shift 0.01611 and z=3.27 are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:62",
+"record": "agyexp-vw-01",
+"class": "t",
+"why": "text cut off mid-formula",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:74",
+"record": "agyexp-vw-01",
+"class": "t",
+"why": "text cut off; SIXY, scoreboard C03 and the odd-sector doublet claim are not judgeable",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:78",
+"record": "agyexp-vw-01",
+"class": "b",
+"why": "'curing B1936's degree-zero neutral-singlet defect completely' is not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:12",
+"record": "agy002-es-05",
+"class": "e",
+"why": "table row of file lists; '>1e23 tuning' is not covered",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:25",
+"record": "agy002-es-05",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:26",
+"record": "agy002-es-05",
+"class": "a",
+"why": "the '<3.4e-14' periodicity and covariance figure is not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:27",
+"record": "agy002-es-05",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:29",
+"record": "agy002-es-05",
+"class": "a",
+"why": "'4e-23' bijection error is not the how's (main has 1.8e-13); 'strictly subleading' claim uncovered",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:30",
+"record": "agy002-es-05",
+"class": "a",
+"why": "down quarks at (2/15,1/2), ratio 3/2 and 11/10 for m1/m3 are not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:38",
+"record": "agy002-es-05",
+"class": "a",
+"why": "'>1e23 Barbieri-Giudice tuning' and the 1 + 1 parameter count are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:47",
+"record": "agy002v-m34-04",
+"class": "t",
+"why": "text cut off; invariance under every SL2(Z) goes beyond T and -1/tau checks",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:52",
+"record": "agy002v-m34-04",
+"class": "a",
+"why": "'<1e-43' in 45 dps, T^5 and all 7 read-out positions are not covered; main has 5e-17 and 9e-16",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:53",
+"record": "agy002v-m34-04",
+"class": "a",
+"why": "2.012e-45 and J=3.1410e-6 are not main's (main has 3.1387e-6); the 37/72 claim is only partly covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:54",
+"record": "agy002v-m34-04",
+"class": "a",
+"why": "150-digit precision, unitarity_err 4.27e-126 and the 'not an artifact' reading are not covered; 8.876e-21 differs from main's 8.887e-21",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:26",
+"record": "agyexp-xf-01",
+"class": "a",
+"why": "the '<(1/1000)^17' agreement figure is not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:5",
+"record": "agy002-g6-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:11",
+"record": "agy002-g6-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:12",
+"record": "agy002-g6-01",
+"class": "b",
+"why": "the second script being cold-room, built without reading the producer code, is the seat's claim; main checked custody only",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:21",
+"record": "agy002-g7-02",
+"class": "c",
+"why": "includes the planted-control result 'PF7.1 rank = 2'",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:13",
+"record": "agy002v-m33-02",
+"class": "a",
+"why": "384 cases, 4 moduli up to y=18 and '55 decimals' are the seat's own; main did 24 points in two readings",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:15",
+"record": "agy002v-m33-02",
+"class": "a",
+"why": "residual 3.263e-56 and the opposite-sign distance 2.000 are the seat's own figures",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:18",
+"record": "agy002v-m33-02",
+"class": "a",
+"why": "residual 3.378e-54 is the seat's own (main has 1.6e-15)",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:21",
+"record": "agy002v-m33-02",
+"class": "a",
+"why": "max difference 1.631e-55 over 384 cases is the seat's own",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:12",
+"record": "agy002-c7-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:13",
+"record": "agy002-c7-02",
+"class": "e",
+"why": "card instruction 'Verify', an ask and not a result",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:14",
+"record": "agy002-c7-02",
+"class": "e",
+"why": "card instruction, an ask",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:17",
+"record": "agy002-c7-02",
+"class": "e",
+"why": "card instruction, an ask; the kill-line numbers are listed as requests",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:18",
+"record": "agy002-c7-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:19",
+"record": "agy002-c7-02",
+"class": "e",
+"why": "card instruction, an ask; 36 manifests is not main's 48",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:22",
+"record": "agy002-g7b-02",
+"class": "a",
+"why": "Haar <2e-14, Antusch benchmark and Kahan RK4 versus expm <1e-13 are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:23",
+"record": "agy002-g7b-02",
+"class": "b",
+"why": "'premise_honesty = true', the DAG premise check and '9+9+9' are not covered",
+"decision": "K"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:29",
+"record": "agy002-g7b-02",
+"class": "b",
+"why": "non-degeneracy bound 1/3, 'Gate 7B is locked' and 'cannot be combined without a colour-reassignment map' are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir:12",
+"record": "agy002-c4-02",
+"class": "e",
+"why": "card heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir:13",
+"record": "agy002-c4-02",
+"class": "c",
+"why": "card ask; the Buttazzo agreement, 1e-11 and the factor-2 catch are not in the how",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir:14",
+"record": "agy002-c4-02",
+"class": "c",
+"why": "card ask, 'prove/verify'; 13/2, 11/2 and the 1e-12 bound are stated as requests",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir:20",
+"record": "agy002-c4-02",
+"class": "c",
+"why": "card instruction 'Compute'; its numbers are covered as results but not as an ask",
+"decision": "N"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS:24",
+"record": "agyexp-xs-01",
+"class": "a",
+"why": "'defect >4/5' and 'shifts sqrt(2 lambda_IR) by >2/1000' are not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS:31",
+"record": "agyexp-xs-01",
+"class": "a",
+"why": "55 digits and 'Gauss reciprocity <(1/1000)^18' are not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:4",
+"record": "agy002v-m33-01",
+"class": "e",
+"why": "scope or pointer line (what it answers)",
+"decision": "N"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:7",
+"record": "agy002v-m33-01",
+"class": "d",
+"why": "the note says 'no measured number touched' is read from imports, not proved",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:cards/AGY-002_CLOSURE-G6-ERRATUM_reproducing-kernel-rank1-vs-g6v0:3",
+"record": "agy002-c6e-01",
+"class": "a",
+"why": "243 histories, 5 of 5 controls and the squared condition number are not in the how",
+"decision": "K"
+},
+{
+"unit": "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:8",
+"record": "agy002v-m34-01",
+"class": "d",
+"why": "'zero measured numbers touched' is not covered by custody and git checks",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:12",
+"record": "agy002-g5-09",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:13",
+"record": "agy002-g5-09",
+"class": "c",
+"why": "planted-control results as such; commit id 431181218 is not covered",
+"decision": "C"
+},
+{
+"unit": "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:14",
+"record": "agy002-g5-09",
+"class": "a",
+"why": "planted-control figures >36/100 and >49/100 are the seat's own, not main's",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:24",
+"record": "agy002-g3-03",
+"class": "a",
+"why": "'RG residual 0.0', 6.90e-24 at 50 digits and 'stabilizes unbroken phase' are not covered",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:23",
+"record": "agy002-g2-05",
+"class": "a",
+"why": "seat's errors 4.15e-5, 2.22e-5, 5.55e-16, 3.99e-23 and 180 digits are not covered; main has 1.5e-3, 4e-4 and 1.8e-13",
+"decision": "P"
+},
+{
+"unit": "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:20",
+"record": "agy002-g2-02",
+"class": "b",
+"why": "zero float and complex literals, cubical/CW d^2=0 and '6Y neutral' are not in the how",
+"decision": "P"
+},
+{
+"unit": "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:19",
+"record": "agy002-ms-10",
+"class": "e",
+"why": "table row of file lists and commits; F16 Cauchy-contour proof and 48/48 SHA are not covered",
+"decision": "N"
+}
+]
+}

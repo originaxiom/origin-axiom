@@ -3,18 +3,14 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wf3_on_main.py (main's own Fox-calculus cohomology of matrix modules over F_p, on B1926's words; primes 881 and 1321, neither the seat's): every cell of the seat's table. Levels 2 to 6 have 2, 16, 50, 242 and 128 characters. With a cone point of fibre order k = 2 to 6: no class is non-zero on lambda, no non-split module of the family exists at any level, and the only gaps are two characters on the odd levels 3 and 5. At the puncture: 12 and 210 non-split modules on levels 4 and 6, a class with c(lambda) != 0 there, and 0, 8, 8, 22, 72 modules with a non-zero gap. At finite k, for every character, the gap equals h^0(V) - h^0(V* (x) w), and the two characters that keep one are the trivial character (+1) and w (-1), on odd levels only. So the sealed K2 fails as written and the corrected statement holds, as the note says. By hand: k c(lambda) = 0 for a character trivial on lambda, so no sector module can be normalised on a cone point of any finite order prime to p",
- "note": "A second computation on other code and other primes. The statement for every finite k rests on the hand argument and on duality; computed to k = 6.",
+ "note": "A second computation on other code and other primes. The statement for every finite k rests on the hand argument and on duality; computed to k = 6. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions web-wf3-01-r2c, web-wf3-01-r2n, web-wf3-01-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:27",
   "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:33",
   "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:34",
   "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:35",
   "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:36",
   "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:37",
   "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:39",
-  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:41",
-  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:44",
-  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:45",
-  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:57"
+  "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:44"
  ]
 }

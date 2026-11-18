@@ -3,14 +3,9 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/custody.py and checks/figures.py, without running the seat's code: the five commits named are on the branch and in the order named; both scripts parse with no float and no complex literal; the hash manifests match. Read with that: the scripts build their decimals as ratios of integers and compute in double precision; and that the second script was written without reading the first is the seat's statement",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions agy002-g2-01-r2c, agy002-g2-01-r2n; what stays is what its ground covers.",
  "units": [
-  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:5",
   "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:6",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:7",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:8",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:9",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:10",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:11"
+  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:7"
  ]
 }

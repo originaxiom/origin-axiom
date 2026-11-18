@@ -3,10 +3,9 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "statements about main's own frame C, computed on main. (1) Frame D1 with the twist in the Szego factor is frame C at the shifted charges q' = q - c q_H/2, identically off the pole, and with the bundle's metric the norms are frame C's too; at c = -2 that is frame C transposed, so every channel norm and singular-value ratio is frame C's (checks/web_wb2_d1.py, D2 and D4; checks/wb2_stage3_on_main.py, S1). (2) Frame C's cusp-exponent tables at the points of exact order 5, 10, 15 and 30, from MAIN'S OWN rule (B1788's tropical rule, as B1945 uses it; checks/agyexp_x_funnel.py, G4): at orders 5 and 10 the first exponent takes the values {1/5, 1/2} in the second and third sectors alike, with least values (1/10, 1/5, 1/5) in the three sectors; at orders 15 and 30 the third sector keeps {1/5, 1/2} and the second takes the seven values {2/15, 1/6, 1/5, 7/30, 3/10, 2/5, 1/2}; at a = 2/15 the pairs are (2/15, 37/60) and (1/5, 11/20), so the differences 29/60 and 7/20 are ordered the other way from the first exponents",
- "note": "A LEAD, recorded as one: in frame C, with no model added, the second and third sectors' exponents separate in opposite directions at order 15 from the exponent rule alone. Nothing is compared with data.",
+ "note": "A LEAD, recorded as one: in frame C, with no model added, the second and third sectors' exponents separate in opposite directions at order 15 from the exponent rule alone. Nothing is compared with data. SECOND READING 2026-11-18: 1 line(s) this record held are moved to its companions agyexp-xf-01-r2p; what stays is what its ground covers.",
  "units": [
   "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:25",
-  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:26",
   "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS:58",
   "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS:59"
  ]

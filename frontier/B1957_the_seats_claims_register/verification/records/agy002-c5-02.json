@@ -3,13 +3,8 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "as its results (records agy002-g5-02, -05, -06): no pole at the points of order 3; the bidoublet's neutrality; the periodicity of the e_0 matrix's singular values; the transport's independence of the Wilson line; the cocycle; the even-Delta Gramian covariant and not isotropic, the nine-sheet average and the six-mode trace isotropic",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions agy002-c5-02-r2n, agy002-c5-02-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:13",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:15",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:16",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:18",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:19",
-  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:20"
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:16"
  ]
 }

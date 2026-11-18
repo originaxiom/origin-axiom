@@ -1,0 +1,15 @@
+{
+ "id": "agy002f-read-01",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-002-foundations",
+ "how": "each read by main in full at ef2ea365b; the seven cards read at their heads and noted by section; no script of the seat's run",
+ "files": [
+  "relays/STATUS_AGY-002.md",
+  "relays/AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17.md",
+  "relays/AGY002_FOUND_G8_RESULTS.md",
+  "relays/AGY002_FOUND_G9_RESULTS.md",
+  "relays/AGY002_FOUND_G10_RESULTS.md",
+  "relays/AGY002_FOUND_G11_RESULTS.md"
+ ]
+}

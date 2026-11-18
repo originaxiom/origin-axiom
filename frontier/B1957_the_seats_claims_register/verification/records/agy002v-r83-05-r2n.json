@@ -1,0 +1,26 @@
+{
+ "id": "agy002v-r83-05-r2n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-r83-05, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 76, 86, 104, 119, 126, 133, 141, 150, 193, 201, 211, 220, 231, 250, 257, 267, 284",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:REVIEW_83_AGY-002:76",
+  "agy-002-verify:REVIEW_83_AGY-002:86",
+  "agy-002-verify:REVIEW_83_AGY-002:104",
+  "agy-002-verify:REVIEW_83_AGY-002:119",
+  "agy-002-verify:REVIEW_83_AGY-002:126",
+  "agy-002-verify:REVIEW_83_AGY-002:133",
+  "agy-002-verify:REVIEW_83_AGY-002:141",
+  "agy-002-verify:REVIEW_83_AGY-002:150",
+  "agy-002-verify:REVIEW_83_AGY-002:193",
+  "agy-002-verify:REVIEW_83_AGY-002:201",
+  "agy-002-verify:REVIEW_83_AGY-002:211",
+  "agy-002-verify:REVIEW_83_AGY-002:220",
+  "agy-002-verify:REVIEW_83_AGY-002:231",
+  "agy-002-verify:REVIEW_83_AGY-002:250",
+  "agy-002-verify:REVIEW_83_AGY-002:257",
+  "agy-002-verify:REVIEW_83_AGY-002:267",
+  "agy-002-verify:REVIEW_83_AGY-002:284"
+ ]
+}

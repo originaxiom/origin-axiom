@@ -1,0 +1,21 @@
+{
+ "id": "agyexp-xa-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agyexp-xa-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 15: box length 6->8 and E6 ODE restricted-control claims are the seat's own runs; 17: 48-mode basis; Spin(2) holonomy R(-2pi)=-I removes the (0,0) channel; Tier II/I-A not covered; 19: Bessel weights (-34,-29,315/2) and (4,64,96,114,28,66) are the seat's own figures; 21: 48x48 grid, winding cutoffs 90/360, Newton polish are the seat's own runs; 23: determinant +1 and the conjugation of E6cent onto E6GUT are not mentioned; only order 4 is checked; 27: sigma 688/1000 and the hyperbolic interval (4041, 4043)/10000 are the seat's own figures; 29: f64 versus mpmath32, 24-digit Haar/12-factor receipts and line numbers are the seat's own; 31: points (4/15,8/15) and '4 discrete selection bits' are the seat's own; 33: minor ratios 16 and 96 at Im(tau)=6 are the seat's own figures; 35: 600 versus 1200 step comparison and the omitted quantities are the seat's own; 37: points (0,3/10),(0,7/10), eps_UV>42/10 and RK4 overflow are the seat's own; 39: AST visitor details (five bare names, G2 closure) are the seat's own; the ground names none",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:15",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:17",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:19",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:21",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:23",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:27",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:29",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:31",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:33",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:35",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:37",
+  "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:39"
+ ]
+}

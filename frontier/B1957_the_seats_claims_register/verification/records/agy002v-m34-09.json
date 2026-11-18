@@ -3,13 +3,10 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "Part 2, checks/agy002_m34.py: for the odd ticks M0 P a point of order 5 is kept up to sign exactly when 5 divides the trace (no exception at lengths 1 to 14; det(M -+ I) = -+ tr for determinant -1); none at lengths 1 to 4; the counts (40, 40), (48, 48), (112, 112), (256, 256), (504, 504) and (15792, 15792) at length 14, each 4 times the number of such words; on the double cover (the word followed by its letter-exchange) eta is exactly zero on all 1,920 pairs of lengths 5 to 9 and through length 11, by the integer automaton, while the first half-word's own sum is not zero",
- "note": "So the eta phases give +1 on every odd tick and cancel none: verified. In the seat's script the printed mean 1.000000 is a typed constant, justified by the vanishing it computes. That an extra fourth-root factor would be needed is its inference.",
+ "note": "So the eta phases give +1 on every odd tick and cancel none: verified. In the seat's script the printed mean 1.000000 is a typed constant, justified by the vanishing it computes. That an extra fourth-root factor would be needed is its inference. SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions agy002v-m34-09-r2n, agy002v-m34-09-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:18",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:95",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:96",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:97",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:98",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:99"
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:98"
  ]
 }

@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g3-02-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-g3-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 22: 8.21e-14, 3.46e-15, 4.69e-13 and 1.35e-12 are not stated by the ground, which gives 4.5e-13; 23: +5.04e-3 v^2 and -9.43e-2 v^2 curvature figures are not in the ground; 29: \"whenever top Yukawa dominates gauge couplings\" generalises beyond the benchmark and the two figures",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:22",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:23",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:29"
+ ]
+}

@@ -3,17 +3,9 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1955 (main's own recomputation of this note, verification/wa3_on_main.py and class_is_a_choice.py), part F, and B1953: x^2 - 3x + 1 has one root mod 5 and none mod 25, so the act keeps no line mod 25; frame C's up phases are of order 25 and its down phases of order 5; q_L^2 + q_R^2 mod 5 is 0 for down and leptons and 2 for up (17 = 2 mod 5; agy-002's A2-AMP measures the same phases under tau + 5: agy002v-m34-02). So the 25th roots come from putting each field's charge into its theta characteristic, and the object supplies nothing of level 25 that was computed",
- "note": "No D_25 and no Z/25 in the covers' homology are the seat's and its referee's computations beyond main's part F (main checked the dihedral group of order 50). [2026-11-18, after the seat's section 7.2, item 4: 3 statements moved to web-wa3-07p, PARTIAL: a figure in them was not recomputed on main]",
+ "note": "No D_25 and no Z/25 in the covers' homology are the seat's and its referee's computations beyond main's part F (main checked the dihedral group of order 50). [2026-11-18, after the seat's section 7.2, item 4: 3 statements moved to web-wa3-07p, PARTIAL: a figure in them was not recomputed on main] SECOND READING 2026-11-18: 8 line(s) this record held are moved to its companions web-wa3-07-r2c, web-wa3-07-r2n, web-wa3-07-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:41",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:136",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:137",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:139",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:140",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:141",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:144",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:148",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:149",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:171"
  ]
 }

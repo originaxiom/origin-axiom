@@ -1,0 +1,19 @@
+{
+ "id": "agy002f-g8-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "gate 8, the seat's first-ranked result, its mathematics computed by main (checks/agy002_foundations.py, G1 to G4; the seat's scripts not run). ON MAIN: with 6Y = diag(-2, -2, -2, 3, 3) the even exterior powers carry the charges -4 (3), -3 (2), 0, 1 (6), 2 (3), 6, sixteen states of trace 0, and the first power -2 (3), 3 (2); the Weil representation of SL(2, F_5) has a commutant of dimension 1 in su(5) and its centre's image, the parity, one of dimension 12; the squarefree part of k^2 + 4 is 5 at k = 1, 4, 11 and 5 is the one prime with (p + 1)/2 = 3; in E8 the product of the reflections in e0 - e3, e1 - e4, e2 - e5, e6 - e7 has determinant 1 and order 2 and carries the centraliser of colour onto the centraliser of the second a2 (main's own element of the morning had order 4), and that a2 commutes with its centraliser. NOT ON MAIN: the seat's own figures (the rank 1,024 of the Clifford algebra, its Haar tests, its table over rival primes, its 624 brackets in 248 dimensions); and that this 'derives postulate D' or 'delivers three generations': those rest on its two stated premises, fermionic quantisation of the five-dimensional space with the even parity kept, and a spacetime bundle whose central monodromy is the parity, which restate the postulate and the placement of the families and do not remove them",
+ "note": "The same construction is the web seat's lead (its W-A2, step 3: the fibre's zero modes, second-quantised) and agy-exp's bigraded dictionary. Three seats now state it; none derives the choice of statistics and parity from the object.",
+ "units": [
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:18",
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:19",
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:20",
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:21",
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:22",
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:26",
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:27",
+  "agy-002-foundations:AGY002_FOUND_G8_RESULTS:28",
+  "agy-002-foundations:STATUS_AGY-002:37",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:11"
+ ]
+}

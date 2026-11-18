@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-m33-02-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-m33-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 13: 384 cases, 4 moduli up to y=18 and '55 decimals' are the seat's own; main did 24 points in two readings; 15: residual 3.263e-56 and the opposite-sign distance 2.000 are the seat's own figures; 18: residual 3.378e-54 is the seat's own (main has 1.6e-15); 21: max difference 1.631e-55 over 384 cases is the seat's own",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:13",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:15",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:18",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:21"
+ ]
+}

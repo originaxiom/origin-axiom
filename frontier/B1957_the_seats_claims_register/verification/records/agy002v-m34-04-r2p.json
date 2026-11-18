@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-m34-04-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-m34-04, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 47: text cut off; invariance under every SL2(Z) goes beyond T and -1/tau checks; 52: '<1e-43' in 45 dps, T^5 and all 7 read-out positions are not covered; main has 5e-17 and 9e-16; 53: 2.012e-45 and J=3.1410e-6 are not main's (main has 3.1387e-6); the 37/72 claim is only partly covered; 54: 150-digit precision, unitarity_err 4.27e-126 and the 'not an artifact' reading are not covered; 8.876e-21 differs from main's 8.887e-21",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:47",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:52",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:53",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:54"
+ ]
+}

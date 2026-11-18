@@ -3,15 +3,10 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "the arithmetic by hand (-3 = 2 and 6 = 1 mod 5; mod 2 the lepton charges are (1, 0) and the swapped down charges (0, 1)) and checks/agy002_m33.py M33.3: the four channel matrices and the four generation contractions each have transpose signs (-1, +1, +1, +1), in both readings, so every channel's product is +",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions agy002v-m33-04-r2n, agy002v-m33-04-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:29",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:30",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:31",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:32",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:33",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:34",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:35",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:36"
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:32"
  ]
 }

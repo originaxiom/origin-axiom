@@ -1,0 +1,14 @@
+{
+ "id": "web-wa3-07-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-wa3-07, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 41: the values 8, 7, 22, 3 are not in the ground; 137: the theta-characteristic phase formula e(-k²(q1²+q2²)/25) is not in the ground; 139: raw values 5, 45 and 17 and \"6Y_u=-4\" are not in the ground, which gives only the mod-5 values; 141: the lattice charge as centre eigenvalue (B1951) and the top-wedge claim are not covered; 149: \"no cyclic subgroup of order 25\" is not covered. The the ground covers only the eigenline mod 25",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:41",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:137",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:139",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:141",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:149"
+ ]
+}

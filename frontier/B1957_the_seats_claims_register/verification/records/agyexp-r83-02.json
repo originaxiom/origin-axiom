@@ -3,15 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/review83_agyexp.py, lines of which every clause is tested on main's files: the threshold literal on the board broke B1834's lock (it did at main's fresh clone of 2026-11-18; the literal is gone and the lock passes, 5 of 5); B1932's page gives '5 to 11' sampling errors where the least shift is under 5, '0.10 to 0.58' where W+'s least is 0.073, and the constant end's mirror figure for the canonical one; the calibration windows sample mixing moduli up to 10^0.3; THE W+ CUSP LIMIT IS 7/12, 7/12, 5/12 (main, at heights 45 and 85: 14, 14 and 10 of the 24 points; W- is 10, 10, 14; main's own run at height 30 prints 12, 14, 10 because at two points with a = 0 the down sector's two light singular values are in the ratio 1.11 and have not settled); the sweep's sentence on a tag that no entry carries; the waiver test's 'if a' drops an unresolved anchor; the selection gate misses 'selects (B1906) m004' and fires on 'No rule (B1204) selects'; curly quotes change no public-face count and a new inner word on a line already in the errata is not reported",
- "note": "The W+ limit was in neither list of Review 83's entry (B1950). It is taken now: dated notes on B1940's page, B1945 section 3b, the open-leads entry and B1950. The others stand on main's head and are action item R83-1, except the literal, mended in this landing's set.",
+ "note": "The W+ limit was in neither list of Review 83's entry (B1950). It is taken now: dated notes on B1940's page, B1945 section 3b, the open-leads entry and B1950. The others stand on main's head and are action item R83-1, except the literal, mended in this landing's set. SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions agyexp-r83-02-r2p; what stays is what its ground covers.",
  "units": [
   "agy-exp:REVIEW_83_AGY-EXP:147",
-  "agy-exp:REVIEW_83_AGY-EXP:165",
   "agy-exp:REVIEW_83_AGY-EXP:229",
   "agy-exp:REVIEW_83_AGY-EXP:277",
   "agy-exp:REVIEW_83_AGY-EXP:328",
   "agy-exp:REVIEW_83_AGY-EXP:346",
-  "agy-exp:REVIEW_83_AGY-EXP:347",
-  "agy-exp:REVIEW_83_AGY-EXP:348"
+  "agy-exp:REVIEW_83_AGY-EXP:347"
  ]
 }

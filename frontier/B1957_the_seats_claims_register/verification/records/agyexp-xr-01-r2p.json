@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-xr-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agyexp-xr-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): AGY_EXP_TO_CC_2026-11-15_X_R:9: \"zero-import\" not covered (the ground covers float literals only); AGY_EXP_TO_CC_2026-11-15_X_R:10: \"sealed unread\" not covered; AGY_EXP_TO_CC_2026-11-15_X_R:9: \"zero-import\" not covered; AGY_EXP_TO_CC_2026-11-15_X_R:10: \"sealed unread\" not covered; AGY_EXP_TO_CC_2026-11-15_X_R:9: \"zero-import\" not covered; AGY_EXP_TO_CC_2026-11-15_X_R:10: \"sealed unread\" not covered",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:9",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:10",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:9",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:10",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:9",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:10"
+ ]
+}

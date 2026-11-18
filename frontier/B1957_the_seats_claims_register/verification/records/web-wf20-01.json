@@ -3,9 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wf20_parity.py (enumeration on main) and by hand: the class 2(6Y) mod 5 of each field is its exterior degree mod 5 for the standard embedding (matter in classes 2 and 4, the Higgs and its conjugate in 1 and 4); there are four conjugation-odd functions on the four classes; exactly two put all matter in one class for both signs of the hypercharge convention, and they are complements; each gives (up S~, down S, leptons S) for both signs; exterior-degree parity is one of the two; with the Higgs entering as an operator of degree +1 or -1 both its components are odd and the rule gives S~ three times, against the charge rule. The standard facts used are standard: the centre of SU(5) acts on Lambda^k by zeta^k; 16 x 16 = 10 + 120 + 126; SL(2, Z/5) is perfect",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions web-wf20-01-r2c, web-wf20-01-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:23",
   "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:26",
   "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:28",
   "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:29",
@@ -15,8 +14,6 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:34",
   "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:36",
   "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:37",
-  "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:39",
-  "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:42",
-  "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:47"
+  "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:39"
  ]
 }

@@ -44,3 +44,22 @@ def test_the_verdict_file_carries_no_count_that_the_summary_does_not():
     files = sum(L["files"] for L in lanes.values()); statements = sum(L["statements"] for L in lanes.values())
     for m in re.finditer(r"([\d,]+) (?:markdown )?files", text): assert int(m.group(1).replace(",", "")) == files, m.group(0)
     for m in re.finditer(r"([\d,]+) statements", text): assert int(m.group(1).replace(",", "")) == statements, m.group(0)
+
+
+def test_the_second_readings_decisions_are_the_records_verdicts():
+    """added 2026-11-18: the web lane's second reading lists every statement a sorter marked and main's decision on it; the
+    records must carry that decision, each statement in one record, a narrowed one in its parent's companion"""
+    owner = {}
+    for q in (HERE / "records").glob("*.json"):
+        d = json.loads(q.read_text())
+        for u in d.get("units", []): owner.setdefault(u, []).append((d["id"], d["verdict"]))
+    want = {"K": "VERIFIED", "N": "NOTED", "C": "CONDITIONAL", "P": "PARTIAL"}
+    for name in ("web.json", "others.json"):                                                       # the second list (the other lanes) added the same day
+        L = json.loads((HERE / "second_reading" / name).read_text())
+        assert len(L["units"]) == L["candidates"] == sum(L["decisions"].values()) and L["decisions"]["K"] < L["candidates"] // 4      # most candidates were narrowed
+        for x in L["units"]:
+            o = owner.get(x["unit"]); assert o and len(o) == 1, x["unit"]
+            assert o[0][1] == want[x["decision"]], (x["unit"], o)
+            assert o[0][0] == x["record"] if x["decision"] == "K" else o[0][0] == "%s-r2%s" % (x["record"], x["decision"].lower()), (x["unit"], o)
+        # the check can fail: a narrowed statement put back under its parent is caught by the rule above
+        x = next(y for y in L["units"] if y["decision"] == "P"); assert owner[x["unit"]][0][0] != x["record"]

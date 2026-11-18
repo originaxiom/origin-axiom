@@ -3,16 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "held against main's record and recomputed where it is a computation: the register's count for this seat at 7022a9dae (24 files, 1,850 statements: 791, 144, 22, 893, none pending) is main's own; W-F24's two figures are one figure read two ways (checks/web_wf24_wf25.py, F1 as extended on 2026-11-18: 5.6 to 21.0 at Re tau = 0 and 5.62 to 20.47 as the mean over eleven columns, the seat's grid's figures exactly); the output-only result closes for down and leptons only at Higgs charge 0 (checks/web_posthoc_closure.py); W-L1's rule, values, look script and output are on the branch in that order (82c94361d, 4a9b788d6, e364209e7, ab41df26b: each an ancestor of the next), and the four other commits named are on the branch",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions web-st7-02-r2n, web-st7-02-r2p; what stays is what its ground covers.",
  "units": [
   "web:STATUS_CHAT1:414",
   "web:STATUS_CHAT1:433",
   "web:STATUS_CHAT1:435",
   "web:STATUS_CHAT1:436",
-  "web:STATUS_CHAT1:438",
   "web:STATUS_CHAT1:440",
-  "web:STATUS_CHAT1:441",
-  "web:STATUS_CHAT1:443",
-  "web:STATUS_CHAT1:449"
+  "web:STATUS_CHAT1:441"
  ]
 }

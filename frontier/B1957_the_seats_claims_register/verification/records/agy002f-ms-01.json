@@ -1,0 +1,12 @@
+{
+ "id": "agy002f-ms-01",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the synthesis's header and its table of the four gates with their cards, scripts and commits (custody of its own branch; the seat's statements that outputs were committed unread and that second scripts were written without reading the first cannot be checked from outside)",
+ "note": "",
+ "units": [
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:5",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:7",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:20"
+ ]
+}

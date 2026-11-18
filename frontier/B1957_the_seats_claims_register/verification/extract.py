@@ -8,6 +8,7 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "62420b533"),
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
+    ("agy-002-foundations", "agy-002", "origin/agy-002/foundations", "ff8e1ca57", "ef2ea365b"),   # added 2026-11-18: its gates 8 to 11, a synthesis, its harvest review for M43 to M45; the branch is cut from main at ff8e1ca57
     ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "6f074b770"),
     ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "01173b9df"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "d1c71f255"),

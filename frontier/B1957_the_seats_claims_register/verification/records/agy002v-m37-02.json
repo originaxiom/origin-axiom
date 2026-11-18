@@ -3,16 +3,10 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/agy002_m37.py: the seat's sealed values (read as data, none printed) against main's B1940 corrected file under the rule main committed before any seat's output existed (B1940's compare_area_second.py). Area options: worst 0.117 and 0.119 of the tolerance with the seat's error set to zero, largest |d ln| 0.00189 and 0.00232, the note's figures. Move-count options with the seat's own standard errors: 0.241 and 0.254, largest 0.00443 and 0.00463, the note's figures. Against B1932's uncorrected file the area options disagree (2.96 and 1.81 of the tolerance; largest 0.06792 and 0.03161). The two files' hashes are the ones named",
- "note": "So the area options have a second independent computation from this seat as well as agy-exp's X-MEASURE (B1940), and the move-count options one too. The truncated-weight control gives 0.716 and 0.662 of the tolerance on main with the seat's error set to zero (the note's 0.525 and 0.486 include its error); its largest |d ln|, 0.01160 and 0.01072, are the note's.",
+ "note": "So the area options have a second independent computation from this seat as well as agy-exp's X-MEASURE (B1940), and the move-count options one too. The truncated-weight control gives 0.716 and 0.662 of the tolerance on main with the seat's error set to zero (the note's 0.525 and 0.486 include its error); its largest |d ln|, 0.01160 and 0.01072, are the note's. SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions agy002v-m37-02-r2p; what stays is what its ground covers.",
  "units": [
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:14",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:16",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:17",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:18",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:19",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:20",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:21",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:22",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:23"
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:19"
  ]
 }

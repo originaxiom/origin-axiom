@@ -1,0 +1,16 @@
+{
+ "id": "agy002v-m34-02-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-m34-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 16: cut off; 2.4e-45 and the \"exact no-go theorem\" over all of SL2(Z) are not covered; 27: the general-gamma law with 45-digit mpmath at tau_0 is not covered; the ground covers only tau -> tau+5; 30: residuals 2.36e-45 and 1.18e-45 and the w-independence for general gamma are not covered; 31: U_L shared between up and down and the w-dependent Weil phase are not covered; 37: figures 0.0265, 0.6887, 1.226e-44, 2.487e-44 are not in the ground; the 5 mod 5 and zero spread are covered; 38: figures 0.6141, 0.5904, 0.5154, 1.4337, 1.314e-45 are not in the ground; 40: the explicit phase table c_down(w) and the 5.938e-44 invariance are not covered; the ground says only that the plain sum is unchanged",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:16",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:27",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:30",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:31",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:37",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:38",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:40"
+ ]
+}

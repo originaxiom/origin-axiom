@@ -1,0 +1,14 @@
+{
+ "id": "agyaudit-p753-02-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agyaudit-p753-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 48: order-4 global quotient, the delta shifts and 45+15+60+64+64 are not covered; text is cut off (t); 64: E_theta details (L^2->X, S_theta->exp(...), -I_2->K_pi) are not covered; 65: u(3) dim 9, so(5) dim 10, modes per rep and Gamma(2) are not covered; the 248-dim table is in -05 (d); 109: the global group (Spin(10) x Spin(6))/Z_4 is not covered; 112: the sum over the three branches restoring exact E-invariance is not covered",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:48",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:64",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:65",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:109",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:112"
+ ]
+}

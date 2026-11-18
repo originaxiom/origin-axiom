@@ -1,0 +1,18 @@
+{
+ "id": "agy002v-r83-03-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-r83-03, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 34: threshold >3.0 giving MISSED at 2.4 and the test-gap claim are not covered; only 6.4 is; 40: table row figures +0.047, +0.020, below 1e-4 not covered; only 0.068 is; 41: 'mass ratios under 1e-4' is not covered; only 0.068 is; 42: digits 0.067693, line 231 of the rule file and 'neither lock checks' are not covered; only 0.068; 49: 45-digit mpmath recomputation on seed 1939 and the test-gap claim are not covered; only +1.38; 62: 4 non-zero points, levels<=60, signs[-1] not covered; only (1,5); 63: 'every level to 60 enumerated; trace-4 control caught' not covered; only (1,5); 70: other figures in the row (59.3, 3.31e3, 3.59, 52.6, 1.21, 80.9) not covered; only 17.6; 71: 17.59 and the other options' 18.0, 16.6, 18.8 not covered; only 17.6",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:REVIEW_83_AGY-002:34",
+  "agy-002-verify:REVIEW_83_AGY-002:40",
+  "agy-002-verify:REVIEW_83_AGY-002:41",
+  "agy-002-verify:REVIEW_83_AGY-002:42",
+  "agy-002-verify:REVIEW_83_AGY-002:49",
+  "agy-002-verify:REVIEW_83_AGY-002:62",
+  "agy-002-verify:REVIEW_83_AGY-002:63",
+  "agy-002-verify:REVIEW_83_AGY-002:70",
+  "agy-002-verify:REVIEW_83_AGY-002:71"
+ ]
+}

@@ -3,10 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wf17_on_main.py Q3: the lines {x = z = 0} and {y = z = 0} are fixed at m = 4, 8 and 12 and at no other m from 1 to 12; so not at 2 or 6, as the note's post hoc 1 found",
- "note": "[2026-11-18, after the seat's section 7.2, item 9: line 173 added]",
+ "note": "[2026-11-18, after the seat's section 7.2, item 9: line 173 added] SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-wf17-07-r2n, web-wf17-07-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:206",
-  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:207",
-  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:173"
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:207"
  ]
 }

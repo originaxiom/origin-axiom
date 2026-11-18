@@ -1,0 +1,10 @@
+{
+ "id": "agy002v-m34-09-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-m34-09, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 99: 1.6180 rad, 9.326e-15, 1.903e-12 and the typed mean 1.000000 are not in the ground; the Pin- inference is the seat's",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:99"
+ ]
+}

@@ -3,15 +3,10 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the composition theorem, read line by line: a mean f^-1(E f(X)) that composes with a constant is homogeneous; the homogeneous quasi-arithmetic means are the power means and the geometric mean (the classical theorem the note cites from Hardy, Littlewood and Polya, taken as cited); for a power p not 0, composing X with itself needs E X^(2p) = (E X^p)^2, that is Var(X^p) = 0, which fails for every non-constant X; the logarithm satisfies the condition. The steps are right",
- "note": "The theorem number in the cited book is not checked, as the note says.",
+ "note": "The theorem number in the cited book is not checked, as the note says. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-wf24-05-r2c, web-wf24-05-r2n, web-wf24-05-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:59",
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:67",
   "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:68",
   "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:69",
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:70",
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:73",
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:75",
-  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:86"
+  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:73"
  ]
 }

@@ -3,21 +3,15 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/web_review.py R4 and R5, on main's own code (B1953's law), both Higgs readings and both generators: in B1953's convention the relabelling that removes both phases is Y -> zeta^(-ab) Y for down (6.8e-17, 5.6e-17, 1.7e-16, 4.3e-17 of a turn) and Y -> zeta^(+ab) Y for leptons (6.1e-17, 4.7e-17, 1.0e-16, 6.1e-17); with the other sign the phases vary by 0.40 of a turn in every case. So the seat's correction of its own W-A3 (lines 76 and 86 hold only read backwards) is right, and its by-product holds: the lepton lines move as a permutation of the 24 points too, under T and under S",
- "note": "The seat computed the lepton case once, at one base point, with lepton under S outside its committed expectations; this is its recomputation on main.",
+ "note": "The seat computed the lepton case once, at one base point, with lepton under S outside its committed expectations; this is its recomputation on main. SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-st5-03-r2c, web-st5-03-r2n, web-st5-03-r2p; what stays is what its ground covers.",
  "units": [
   "web:STATUS_CHAT1:319",
   "web:STATUS_CHAT1:320",
   "web:STATUS_CHAT1:321",
   "web:STATUS_CHAT1:322",
   "web:STATUS_CHAT1:323",
-  "web:STATUS_CHAT1:325",
-  "web:STATUS_CHAT1:326",
-  "web:STATUS_CHAT1:327",
   "web:STATUS_CHAT1:328",
-  "web:STATUS_CHAT1:329",
   "web:STATUS_CHAT1:331",
-  "web:STATUS_CHAT1:332",
-  "web:STATUS_CHAT1:333",
-  "web:STATUS_CHAT1:334"
+  "web:STATUS_CHAT1:332"
  ]
 }

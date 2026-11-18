@@ -1,0 +1,18 @@
+{
+ "id": "sm-c18-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record sm-c18-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 17: splitting of the T-phase into phases on i, j, k not in the ground; 24: section over the double cover at every point, B1957 \"derived\": beyond the ground; 26: q_L+q_R parity and Higgs charge odd (6Y=±3) not in the ground; 32: 3.9e-14, plant miss 2.0, 90% expectation: seat's own figures; 33: seat's run, 85% expectation, extended-precision remark; 34: 1.2e-15, 3 solutions mod 12, alpha0=beta0=0: seat's own; 35: 5.1e-15 over 10 cases: seat's own figure; 42: relative 1.0 figure: seat's own run; 43: 1.2e-48: seat's own figure",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:17",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:24",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:26",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:32",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:33",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:34",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:35",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:42",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:43"
+ ]
+}

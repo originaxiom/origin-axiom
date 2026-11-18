@@ -3,9 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1952 (main's own recomputation of this note, verification/wa2_on_main.py), part E, and by hand at p = 3: with the hypercharge traceless on the split (p + 1)/2 + (p - 1)/2, the even exterior powers are anomalous at p = 3 (sum Y^3 = 8 - 2 = 6; SU(2)^2 Y = -1/2) and the four sums vanish at 5, 7, 11, 13; only at p = 5 is the commutant's group S(U(3) x U(2)) and only there does the act fix exactly one line",
- "note": "The reason given for the vanishing at N >= 4 (the half-spinor of SO(2N) has no cubic anomaly) is standard and not re-derived.",
+ "note": "The reason given for the vanishing at N >= 4 (the half-spinor of SO(2N) has no cubic anomaly) is standard and not re-derived. SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions web-wa2-06-r2c, web-wa2-06-r2n; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:29",
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:132",
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:137",
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:138",
@@ -13,9 +12,7 @@
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:140",
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:141",
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:143",
-  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:145",
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:148",
-  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:149",
   "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:188"
  ]
 }

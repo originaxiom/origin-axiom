@@ -3,9 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/agyexp_harvest_review.py, R7, main's own computation on the 240 roots of E8 (the seat ranks it sixth of what main should repeat): the centraliser of colour and the centraliser of a second su(3) each have 72 roots and dimension 78; they share 12 roots and 4 Cartan directions, so their intersection has dimension 16; in the second, every su(4) that contains colour has 12 roots and commutes with 4 more, a sum of dimension 21, of which 4 roots and 3 Cartan directions commute with colour: dimension 7, and no root of su(4) does; the written product of four reflections has determinant 1, carries the first copy's roots onto the second's, and fixes each root of the two weak factors for three of the nine copies of su(4)",
- "note": "Raised from partial on 2026-11-18. The element has order 4 and is not an involution, as the seat's answer XA-07 concedes; its square carries each copy onto itself. That it fixes the weak factors holds for the right copy of su(4), which the seat's construction must be using; main did not read which one its checker takes.",
+ "note": "Raised from partial on 2026-11-18. The element has order 4 and is not an involution, as the seat's answer XA-07 concedes; its square carries each copy onto itself. That it fixes the weak factors holds for the right copy of su(4), which the seat's construction must be using; main did not read which one its checker takes. SECOND READING 2026-11-18: 1 line(s) this record held are moved to its companions agyexp-xap-01-r2c; what stays is what its ground covers.",
  "units": [
-  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:27",
-  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:28"
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:27"
  ]
 }

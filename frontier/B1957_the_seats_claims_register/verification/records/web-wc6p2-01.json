@@ -3,20 +3,12 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wc6_part2_on_main.py: main's own B1919 routines (the norm by B1656's definition; F_u by the general-s Fourier form) run at the SEAT'S twelve points, none a named point. B1919 holds there within 1.1e-9 (main's quadrature; the seat's 1.4e-11); its controls come out as the seat's to the digits it prints (u's components swapped: off by 0.18 to 11.44, the seat's 0.18 to 11.4; pi log Im tau left out: 0.33 to 1.67, the seat's the same). B1921 holds within 2.3e-9 (the seat's 2.2e-11), and its control c' = c is off by 0.18 to 9.78 (the seat's 0.18 to 9.8). The constant the seat's sealed run had dropped is right as it corrected it: kappa = psi(1/2) - psi(1) = -2 log 2 and pi kappa = -4.3551722 (the seat's -4.355172). Two codes, two sets of points, the same results",
- "note": "The seat's first, sealed run had failed B1919 by a constant; the seat itself found the dropped term by hand and tested the correction three ways before believing it. A negative that a second look reversed, in the seat's own account.",
+ "note": "The seat's first, sealed run had failed B1919 by a constant; the seat itself found the dropped term by hand and tested the correction three ways before believing it. A negative that a second look reversed, in the seat's own account. SECOND READING 2026-11-18: 8 line(s) this record held are moved to its companions web-wc6p2-01-r2n, web-wc6p2-01-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:17",
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:18",
   "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:19",
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:20",
   "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:21",
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:28",
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:30",
   "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:32",
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:36",
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:37",
   "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:39",
-  "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:40",
   "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:44"
  ]
 }

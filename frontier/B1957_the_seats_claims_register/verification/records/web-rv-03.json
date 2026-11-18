@@ -3,7 +3,7 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "the seat's own ranking of its results, each with the computation to repeat; for items 1, 2, 4, 5, 6 and 8 that computation is on main and agrees: the Weil centre and the hypercharges (B1951; three checks); the dihedral cover's deck group and parity (B1955, wa3_on_main.py); the classes (class_is_a_choice.py); the lines as Weyl operators and the flux-5 modes (B1952; checks/web_review.py); frame C at tau = i (records web-wa1-02, -03, -11; checks/web_wa1_h2.py); det rho = 1 on all 120 elements in both classes (B1955). The premises it lists for each are the ones main's arcs state. Item 8's caveat (generic, conditional) is now carried on main (B1955 § 3, corrected)",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-rv-03-r2n, web-rv-03-r2p; what stays is what its ground covers.",
  "units": [
   "web:STATUS_CHAT1:109",
   "web:STATUS_CHAT1:111",
@@ -24,17 +24,12 @@
   "web:STATUS_CHAT1:145",
   "web:STATUS_CHAT1:148",
   "web:STATUS_CHAT1:149",
-  "web:STATUS_CHAT1:150",
   "web:STATUS_CHAT1:151",
-  "web:STATUS_CHAT1:153",
   "web:STATUS_CHAT1:156",
   "web:STATUS_CHAT1:157",
   "web:STATUS_CHAT1:158",
   "web:STATUS_CHAT1:159",
-  "web:STATUS_CHAT1:170",
   "web:STATUS_CHAT1:172",
-  "web:STATUS_CHAT1:174",
-  "web:STATUS_CHAT1:175",
   "web:STATUS_CHAT1:176"
  ]
 }

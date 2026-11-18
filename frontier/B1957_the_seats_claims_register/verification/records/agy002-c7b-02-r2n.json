@@ -1,0 +1,18 @@
+{
+ "id": "agy002-c7b-02-r2n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-c7b-02, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 13, 14, 15, 16, 18, 19, 20, 21, 22",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:13",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:14",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:15",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:16",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:18",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:19",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:20",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:21",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:22"
+ ]
+}

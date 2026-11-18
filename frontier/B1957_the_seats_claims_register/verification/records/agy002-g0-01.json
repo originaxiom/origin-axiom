@@ -3,25 +3,15 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "custody and static checks by main without running its code (checks/custody.py): every commit the note names is on the branch, in the order named (card, erratum, script, output, second script, second output); its three scripts have 0 float and 0 complex literals and import only the standard library, numpy, mpmath and scipy",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 10 line(s) this record held are moved to its companions agy002-g0-01-r2c, agy002-g0-01-r2n; what stays is what its ground covers.",
  "units": [
-  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:5",
   "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:6",
   "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:7",
   "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:8",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:9",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:10",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:11",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:12",
   "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:21",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:5",
   "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:6",
   "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:7",
   "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:8",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:9",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:10",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:11",
-  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:12",
   "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:21"
  ]
 }

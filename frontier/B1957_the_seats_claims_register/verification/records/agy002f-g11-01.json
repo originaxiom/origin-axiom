@@ -1,0 +1,32 @@
+{
+ "id": "agy002f-g11-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "gate 11 and the seat's audit of two other seats' packages. ON MAIN: the bubble averaged over the four lifts is a multiple of the identity (main's own result, which the seat confirms on two codes of its own; checks/physical_c8_tick_higgs.py, K7); the physical lane's four-form package holds as mathematics (main's records physical-c7-*: the unit of the bundle and the map that does not descend); four of the lines the seat cites in agy-exp's X-APEX-4 checker hold what it says (checks/agy002_foundations.py, G7: the point typed in, the loop factor typed in, a literal zero witness, the earlier vector still built); the two copies of E6 meet in dimension 16 and 7 and agy-exp's element has order 4 (main's check of the morning). NOT ON MAIN: the seat's resolvent form of the singlet mass and its one remaining parameter; its drift figure -6784/4225 and its symbolic run of the four-form package; the rest of its line-by-line account of X-APEX (two of its six defects partly repaired, four not); its graph of 52 nodes",
+ "note": "The seat's confirmation of main's averaging result is a second computation by another family. Its audit of X-APEX is the work main asked for under P-865 (b) and (c).",
+ "units": [
+  "agy-002-foundations:AGY002_FOUND_G11_RESULTS:17",
+  "agy-002-foundations:AGY002_FOUND_G11_RESULTS:18",
+  "agy-002-foundations:AGY002_FOUND_G11_RESULTS:19",
+  "agy-002-foundations:AGY002_FOUND_G11_RESULTS:20",
+  "agy-002-foundations:AGY002_FOUND_G11_RESULTS:24",
+  "agy-002-foundations:AGY002_FOUND_G11_RESULTS:25",
+  "agy-002-foundations:AGY002_FOUND_G11_RESULTS:26",
+  "agy-002-foundations:STATUS_AGY-002:41",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:14",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:23",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:24",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:25",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:26",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:34",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:35",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:36",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:37",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:38",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:39",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:45",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:46",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:47",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:48"
+ ]
+}

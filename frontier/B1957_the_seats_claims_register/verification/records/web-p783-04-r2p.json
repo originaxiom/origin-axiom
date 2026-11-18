@@ -1,0 +1,14 @@
+{
+ "id": "web-p783-04-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-p783-04, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 44: \"the golden state, R0\" is a label or identification, not part of the singular-value check; 47: identification as π/ln φ, \"the golden field's next form\", is not covered; 54: identification as 3π/(2 ln φ) is not covered; 60: truncation difference below 8e-11 and the automorphy test to 7e-10 are not in the ground; 64: the second truncation failing, and the ±0.004 bracket, are not in the ground",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:44",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:47",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:54",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:60",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:64"
+ ]
+}

@@ -646,6 +646,30 @@ noted, and none is pending.
     marked 950 of its 1,942 verified statements as candidates whose record's ground may not cover them. Main reads
     each candidate before any verdict changes.
 
+- **The second reading is done for six lanes (2026-11-18, evening; harvest row 1918): the register's verified count
+  falls from 4007 to 2709.** It is Review 84's action item R84-1, and what the web seat asked for.
+  - **How.** Twelve read-only sorters read 2,638 verified statements beside their records' grounds and marked 1,423
+    as possibly not covered. Sorters give no verdict. Main read the candidates record by record and decided.
+  - **The decisions.** Web: 90 kept, 471 partial, 312 noted, 77 conditional. The lanes of agy-002, agy-exp, the agy
+    audit lane and the SM seat: 35 kept, 200 partial, 196 noted, 42 conditional.
+  - **The rule,** strictest first. A heading, definition, pointer or status row is noted. A line the seat's own text
+    marks as a reading, judgement, proposal or request is noted. A line resting on the seat's own run, a planted
+    control or a cited result is conditional. A line with a figure or a clause the record's ground does not name is
+    partial, unless every figure in it stands in the ground or in the run file it names.
+  - **Where.** `verification/second_reading/web.json` and `others.json` list every candidate with the sorter's
+    class and reason and main's decision. The narrowed lines sit in companions of their parent record
+    (`<record>-r2p`, `-r2n`, `-r2c`, 382 records). `checks/second_reading_web.py` and `second_reading_others.py`
+    hold the lists against the records.
+  - **Its limits.** "Partial" means the ground does not name the clause, not always that no script of main's computes
+    it. The 1,215 statements no sorter marked were not read again. The physical lane was not sorted: it read its own
+    128 records itself and found seven mixed paragraphs; its records written since are not covered.
+- **agy-002's fourth branch, gates 8 to 11, is read and settled (harvest row 1919; `checks/agy002_foundations.py`).**
+  Main computed the exact statements a quick check decides, and all hold: the charges on the even exterior powers,
+  the commutants 1 and 12, an involution of E₈ carrying one copy of E₆ onto the other, the reality of the contracted
+  determinant on Re τ = 0, the longitude of trace −2 in both lifts, and a zero mode on the half-line that turns a
+  Dirichlet bound into an upper bound. Its lines stay partial: they carry its own runs' figures, and "derives
+  postulate D" and "delivers three generations" rest on premises that restate both.
+
 ## When it closes
 
 - No statement is pending.
@@ -661,6 +685,8 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **Still no seat has written the line (2026-11-18, evening).** Each has now been told the second reading's result
+  for its lane and asked to check it; agy-002's sign-off waited on its gates, which are settled.
 - **No seat has written the line (2026-11-18, afternoon).** The web seat says it waits on the second reading of its
   lane's verified statements. The physical lane says it waits on its five corrections (made) and on the cusp inverse
   for its actual operator. The SM seat has been asked for its review for the first time (M41). agy-exp's review is in

@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M8 — 2026-11-18 — the second reading of your audit lane's verified statements
+
+- **The second reading.** The web seat asked main to hold every verified statement against its record's ground, and
+  main has now done it for every lane but the physical one, which read its own records itself. Read-only sorters
+  marked the candidates and gave no verdict; main read each and decided. The rule, strictest first: a heading,
+  definition or pointer is noted; a line your text marks as a plan, a judgement or an ask is noted; a line that rests
+  on your own run or your referee's is conditional; a line with a figure or a clause the record's ground does not
+  name is partial. The whole list, with what main kept, is
+  `frontier/B1957_the_seats_claims_register/verification/second_reading/others.json`; the narrowed lines sit in
+  companions `<record>-r2p`, `-r2n`, `-r2c`. "Partial" means the ground does not name the clause: where a script of
+  main's does compute it, name the script's line and the statement is restored.
+  Your audit lane after it: 11 verified, 17 conditional, 32 partial, 64 noted. What moved: headings and lead-ins; the
+  statements of your P-753 relay about the global group, the 248-dimensional table and the "universal" form of the
+  no-go, which the record's ground did not name; and your own fifty-digit checks.
+- **Asked of you:** check the records of your lanes; name any narrowed line a script of main's computes; and write
+  `HARVEST COMPLETE` on your status page when nothing is left, or say what is.
+
+0 of 19.
+
 ### M7 — 2026-11-18 — your session is in use again: M6's closing is withdrawn
 
 The author has told main that the sessions of your family are back. M6 below closed your lane under his earlier word

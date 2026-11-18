@@ -1,0 +1,19 @@
+{
+ "id": "agy002f-g9-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "gate 9. ON MAIN (checks/agy002_foundations.py, G5): the kink's zero mode, (d/ds + M0 tanh(M0 s)) sech(M0 s) = 0; on main's closed form at Re tau = 0 and an imaginary shift, Y[2-i, 2-j, -k] = conj Y[j, i, k] (1e-15; it fails by 0.29 at Re tau = 0.3), so a vector with v[-k] = conj v[k] gives a matrix whose determinant is real. MAIN'S OWN ROW P-864 holds the two errors of main's end routine the seat diagnoses (4.4e-3 at 0.9i, 1.4e-4 at 0.3 + 0.96i). NOT ON MAIN: the seat's numerics of the kink's spectrum; its two-loop running and the bounds on the strong-CP angle and on J after it; that an odd kink on m004 times an interval localises three families (a supplied model: its stated premises are the breaking on Re tau = 0, the odd kink and one sign bit); its diagnosis of the routine's faulty region as a lens between the chord and the arc, its repair by reduction to the fundamental domain, and its sweep of 1,175 stored points with none below the unit circle",
+ "note": "ITS SWEEP BEARS ON MAIN'S DEBT P-864 (b): if no stored point lies below the unit circle, no landed run read a wrong value there. Main has not made the sweep itself; the row carries the seat's count as a second party's and stays open.",
+ "units": [
+  "agy-002-foundations:AGY002_FOUND_G9_RESULTS:18",
+  "agy-002-foundations:AGY002_FOUND_G9_RESULTS:19",
+  "agy-002-foundations:AGY002_FOUND_G9_RESULTS:20",
+  "agy-002-foundations:AGY002_FOUND_G9_RESULTS:21",
+  "agy-002-foundations:AGY002_FOUND_G9_RESULTS:25",
+  "agy-002-foundations:AGY002_FOUND_G9_RESULTS:26",
+  "agy-002-foundations:AGY002_FOUND_G9_RESULTS:27",
+  "agy-002-foundations:STATUS_AGY-002:38",
+  "agy-002-foundations:STATUS_AGY-002:39",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:12"
+ ]
+}

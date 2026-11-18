@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "THE NORMALISER. Main read the proof step by step and each step holds: a matrix commuting with J is a + bJ (e_2 is cyclic); a unit a + bx with 1 < eps < x forces b = 1, then a(a + m) in {0, 2}, and both cases contradict 1 < eps, so x is the fundamental unit; K J K^-1 = -J^-1, so the normaliser of <J^2> is +-J^n K^e. checks/web_wf6_on_main.py (main's own code on its W-F4 cohomology; a prime per level, each 1 mod 2e), N1 and N2: for m = 1 to 60 the integer solutions of a^2 + m a b - b^2 = +-1 with |a|, |b| <= 2000 are exactly the +-x^k in the box; K J K^-1 = -J^-1 and K A K^-1 = A^-1; among +-J^k, |k| <= 20, only J and -J^-1 have trace m and determinant -1. The note's own correction of its card (the normaliser of <J> is only +-<J>) is right",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 1 line(s) this record held are moved to its companions web-wf6-02-r2c; what stays is what its ground covers.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:87",
   "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:88",
@@ -24,7 +24,6 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:111",
   "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:112",
   "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:113",
-  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:114",
-  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:116"
+  "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:114"
  ]
 }

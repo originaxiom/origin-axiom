@@ -3,14 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wc2_census_and_lattices.py W1, with SnapPy on B1939's own enumeration: 285 members, 228 oriented and 124 unoriented classes; 20 amphicheiral, 70 chiral with a symmetry group of order at least 4, 34 chiral with order 2; least volumes 2.0298832128 (b+-LR), 3.2969024143 (b++LLLRLL) and 7.1960774800 (b+-LLLLLRLLRR, H1 = Z/45 + Z). Every figure is the seat's and the lane's",
- "note": "Main's enumeration is one of the seat's four conventions; the 745 without the condition and the other three conventions are not rerun. [2026-11-18, after the seat's section 7.2, item 4: 3 statements moved to web-wc2-02p, PARTIAL: a figure in them was not recomputed on main]",
+ "note": "Main's enumeration is one of the seat's four conventions; the 745 without the condition and the other three conventions are not rerun. [2026-11-18, after the seat's section 7.2, item 4: 3 statements moved to web-wc2-02p, PARTIAL: a figure in them was not recomputed on main] SECOND READING 2026-11-18: 1 line(s) this record held are moved to its companions web-wc2-02-r2n; what stays is what its ground covers.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:72",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:73",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:74",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:75",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:76",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:77",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:79"
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:77"
  ]
 }

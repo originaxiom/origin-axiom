@@ -1,0 +1,15 @@
+{
+ "id": "web-wb2-d1-02-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-wb2-d1-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 31: seat's residuals 3.2e-10 and 0.56-1.2; main's are 1e-15, 0.31, 0.54; 32: seat's residuals and 0.68-0.97 not in the ground; 33: seat's 5.3e-15 and 1.2 not in the ground; 34: seat's 7.3e-15 and 1.4-2.4 not in the ground; 35: seat's 5.1e-15 etc. against main's 4.7e-16; 55: integer-charge condition (c q_H even) not mentioned",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:31",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:32",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:33",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:34",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:35",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:55"
+ ]
+}

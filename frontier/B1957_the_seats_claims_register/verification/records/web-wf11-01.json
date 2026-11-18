@@ -3,19 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wf11_on_main.py (main's own rewriting of the history on the records and its W-F4 cohomology with five generators; prime 294641): the whole table. The history H_5 fixes the scar as a reduced word, and the scar is x1 x3 x4^-1 x3^-1 x2^-1 x1^-1 x2 x4; at level 1 the fibre torsion is 1 for n = 3 and n = 5; at level 2 it is Z/5 and Z/29 (cyclic); the record characters number 4 and 28, each with h^1 = 1 and a class non-zero on lambda; the sector modules number 12 and 756; I = +1, -1, 0 on 4/4/4 and on 28/28/700, and never beyond 1 in size. The control at n = 3 is golden level 4's census (web-wf9-01)",
- "note": "So one world of five distinctions does carry the class-index frame's matter: a counterexample, as the note says, for one history, one level and one frame.",
+ "note": "So one world of five distinctions does carry the class-index frame's matter: a counterexample, as the note says, for one history, one level and one frame. SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-wf11-01-r2n, web-wf11-01-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:18",
   "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:19",
-  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:21",
-  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:22",
-  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:23",
-  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:24",
   "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:31",
   "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:32",
   "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:33",
   "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:34",
-  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:35",
-  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:37"
+  "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:35"
  ]
 }

@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g0-06-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-g0-06, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 26: figures 7.153e-14, 5.014e-15 only \"found in sealed outputs\", not recomputed",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:26"
+ ]
+}

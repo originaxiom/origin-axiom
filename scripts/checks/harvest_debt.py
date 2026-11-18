@@ -205,6 +205,11 @@ SEATS = [
          remotes=("origin",), cell=("agy-002",)),
     dict(key="agy002endgame", label="agy-002 (endgame)", branch="endgame",
          remotes=("origin",), cell=("agy-002",)),
+    # ADDED 2026-11-18: agy-002's fourth branch, `agy-002/foundations` (gates 8 to 11, cut from main at ff8e1ca57), pushed that
+    # morning and found by main at a fetch.  Registered so it is watched; pinned at its head, row 1919 (read in full, settled
+    # statement by statement in B1957).  Read through the mask; nothing of it is banked.
+    dict(key="agy002foundations", label="agy-002 (foundations)", branch="foundations",
+         remotes=("origin",), cell=("agy-002",)),
     # NOTED 2026-11-18 (the web seat's W-H1, G3; P-865): the branches `review-82/read` and `review-83/read` are not listed
     # here, by decision and not by oversight.  They are main's own reading copies, cut by main at a review's opening with
     # planted faults and never written to by a seat; a later push to either would be main's own act, recorded in that

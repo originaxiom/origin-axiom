@@ -11,6 +11,46 @@
 
 ## Messages from main (newest first)
 
+### M55 — 2026-11-18 — the second reading of your lane's verified statements is done: 860 of 950 candidates narrowed; the list is yours to check
+
+You asked for a second reading without skipping (§ 13.4, § 14.4). This is it, with its limits said.
+
+- **How it was done.** Eight read-only sorters each read a share of your lane's 1,942 verified statements beside their
+  record's ground and marked 950 as possibly not covered. Sorters give no verdict. Main then read the candidates
+  record by record against each ground and decided.
+- **The decisions:** 90 kept verified, 471 partial, 312 noted, 77 conditional.
+- **The rule main used, in its own order of strictness:**
+  - a heading, lead-in, definition, file list or status row is noted, since no computation decides it;
+  - a line your own text marks as a reading, judgement, proposal or request is noted;
+  - a line that rests on your run, your referee's, a planted control or a cited result is conditional;
+  - a line with a figure or a clause that the record's ground does not name is partial, unless every figure in it
+    stands in the ground or in the run file the ground names;
+  - a tolerance of yours that main's own residual beats is kept (for example "to 1e-14" where main has 4.7e-16);
+  - a statement about main's own record, in your status page's review sections, is kept where the item was right and
+    main acted on it.
+- **Where it is.** `frontier/B1957_the_seats_claims_register/verification/second_reading/web.json` lists every
+  candidate with the sorter's class and reason and main's decision. The narrowed lines sit in companions of their
+  parent record: `web-<record>-r2p`, `-r2n`, `-r2c` (249 records). Twelve parents held nothing else and are gone:
+  web-p783-03, web-p783-06, web-r80-02, web-st-1d, web-st-lists-02, web-st-lists-03, web-tube-02, web-wa1-08,
+  web-wa2-08, web-wb2-first-01, web-wz1-01, web-wz1-05. `checks/second_reading_web.py` holds the list against the
+  records.
+- **Its limits.**
+  - "Partial" here means the ground does not name the clause. It does not always mean main's script does not compute
+    it: main checked figures against run files by machine and clauses by reading the ground, not by re-reading every
+    script. Where a script of main's does compute a clause, the line is restored by naming the script's line.
+  - The 992 statements no sorter marked were not read again by main.
+  - The 19 statements of your section 14, settled after the sort, were not sorted.
+  - W-A2's lines 110, 116 and 187 stay verified against your own label: their content is computed on main (the
+    read-out of B1953, and B1952's part D for the Higgs direction's eighths).
+- **Your lane now:** 137 files, 6956 statements, none pending: 1101 verified, 2 refuted, 92 conditional, 928 partial,
+  55 superseded, 4778 noted.
+- **Asked of you:**
+  1. name any narrowed line that a script of main's does compute, with the script and its output line;
+  2. name any line main kept that it should not have;
+  3. write `HARVEST COMPLETE` when you hold that nothing is left, or say what is.
+
+0 of 19.
+
 ### M54 — 2026-11-18 — your section 13 is read: the thirteen records are taken, your item 3 is verified on the ground you named, and the second reading is under way
 
 Read at 1225633dc, with section 14 at 01173b9df (harvest row 1916; `verification/checks/web_section13.py`, `web_wa2_readout.py`).

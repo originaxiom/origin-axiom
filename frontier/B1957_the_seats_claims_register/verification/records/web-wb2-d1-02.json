@@ -3,22 +3,12 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wb2_d1.py (main's own rebuild of the placement on B1656's bilinear and theta functions, 34 digits): D2 and D3. E is an identity for every c, by hand (shifting a theta's argument by -h changes its characteristic and multiplies it by one factor, the same for both components of v) and by number: the residue-level coupling of D1 equals frame C's at the charges q' = q - c q_H/2 up to one scalar, in 3 sectors at 4 points for c = 2, -2, 1, -1 (4.7e-16). At c = +-2 the ratio sigma_2/sigma_1 is unchanged under tau -> tau + 1 and tau -> -1/tau with the point transported, with and without reduction, and under w -> w + 1 and w -> w + tau (1e-15). At c = +-1 it is unchanged only without reduction (0.31 and 0.54 with it) and is not periodic in w (0.54 and 2.4): its effective charges are half-integers",
- "note": "The seat's residuals (3e-10, 2e-10) are its own precision; main's are at rounding. Its failed test U1 compared sigma_1, which carries the thetas' common multiplier; on the ratio the periodicity holds, as its post hoc says.",
+ "note": "The seat's residuals (3e-10, 2e-10) are its own precision; main's are at rounding. Its failed test U1 compared sigma_1, which carries the thetas' common multiplier; on the ratio the periodicity holds, as its post hoc says. SECOND READING 2026-11-18: 10 line(s) this record held are moved to its companions web-wb2-d1-02-r2c, web-wb2-d1-02-r2n, web-wb2-d1-02-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:31",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:32",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:33",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:34",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:35",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:39",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:41",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:43",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:44",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:52",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:54",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:55",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:67",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:92",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:93"
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:67"
  ]
 }

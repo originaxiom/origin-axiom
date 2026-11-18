@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g4-02-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-g4-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 22: rel_err 2e-14, 45-digit 1e-24, tolerance 1e-12 not in the ground; 23: abs_diff figures and solver comparison not in the ground",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:22",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:23"
+ ]
+}

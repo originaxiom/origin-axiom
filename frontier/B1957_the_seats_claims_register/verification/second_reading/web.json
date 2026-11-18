@@ -1,0 +1,6663 @@
+{
+"what": "the second reading of the web lane's verified statements, 2026-11-18: every statement a read-only sorter marked as possibly not covered by its record's ground (classes: a, a figure not in the ground; b, a claim not in the ground; c, marked by its own text as a reading, proposal or unchecked; d, the ground itself says it is the seat's; e, a heading or scope line; t, text cut in the sorter's copy), with main's decision (K kept verified, N noted, C conditional, P partial)",
+"sorted": 1942,
+"candidates": 950,
+"decisions": {
+"K": 90,
+"C": 77,
+"P": 471,
+"N": 312
+},
+"units": [
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:47",
+"record": "web-scale-01",
+"class": "c",
+"why": "\"root's blindness is not the weave's\" is a reading, not a computed result",
+"decision": "K"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:59",
+"record": "web-scale-01",
+"class": "b",
+"why": "Non-abelian Hodge \"no free magnitude\" claim not mentioned in how",
+"decision": "C"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:60",
+"record": "web-scale-01",
+"class": "d",
+"why": "\"in general order one\" rests on Simpson's estimates, cited not re-derived",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:62",
+"record": "web-scale-01",
+"class": "b",
+"why": "growth |λ|·L/2 off the cone not covered (how has only flat semisimple control; referee's symbolic check)",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:116",
+"record": "web-scale-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:142",
+"record": "web-scale-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:143",
+"record": "web-scale-01",
+"class": "b",
+"why": "divergence at every σ in every mod-2 class not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:146",
+"record": "web-scale-01",
+"class": "b",
+"why": "convergence for every c>0 and the 1/k weight bound, volume ≥ 2k·v3, not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:148",
+"record": "web-scale-01",
+"class": "a",
+"why": "\"at least 4v3 = 4.06\" and corrections e^{-0.034c} not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:174",
+"record": "web-scale-01",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:177",
+"record": "web-scale-01",
+"class": "b",
+"why": "\"whatever the residue's normalisation\" and L/2 growth of dz/z not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:180",
+"record": "web-scale-01",
+"class": "d",
+"why": "Simpson's estimates, stated as cited not re-derived",
+"decision": "C"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:182",
+"record": "web-scale-01",
+"class": "b",
+"why": "off-cone growth, referee-checked symbolically, not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:216",
+"record": "web-scale-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:218",
+"record": "web-scale-01",
+"class": "b",
+"why": "Brown-Henneaux classicality claim not covered (standard result)",
+"decision": "C"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:288",
+"record": "web-scale-01",
+"class": "e",
+"why": "file description/scope line",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:290",
+"record": "web-scale-01",
+"class": "c",
+"why": "\"a plurality, and it sees k\" is a reading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:313",
+"record": "web-scale-01",
+"class": "b",
+"why": "identification of duals as cosets not covered (only arithmetic)",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/THE_SCALE:315",
+"record": "web-scale-01",
+"class": "d",
+"why": "E-series identification cited from literature, not computed",
+"decision": "C"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:24",
+"record": "web-scale-01",
+"class": "a",
+"why": "|CS| = 2.9e-15 not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:27",
+"record": "web-scale-01",
+"class": "a",
+"why": "tolerances Vol 1e-9, CS 1e-6 and SnapPy orientation-reversal agreement not in how (how says 4e-14)",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:40",
+"record": "web-scale-01",
+"class": "a",
+"why": "\"to 12 digits\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:42",
+"record": "web-scale-01",
+"class": "b",
+"why": "\"Guéritaud-Futer's bound is sharp\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:44",
+"record": "web-scale-01",
+"class": "c",
+"why": "credit/provenance statement",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:66",
+"record": "web-scale-01",
+"class": "b",
+"why": "divergence of action-weighted sum in every mod-2 class not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:78",
+"record": "web-scale-01",
+"class": "d",
+"why": "Simpson's estimates \"up to bounded factor\"; decay claim not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:82",
+"record": "web-scale-01",
+"class": "b",
+"why": "pointwise norm ½ \"everywhere\", uniformising field constant: not covered (how: b=0 case only)",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:88",
+"record": "web-scale-01",
+"class": "b",
+"why": "semisimple growth, referee's catch checked by hand, not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:101",
+"record": "web-scale-01",
+"class": "b",
+"why": "operator norms L^-1, 1, L not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:102",
+"record": "web-scale-01",
+"class": "b",
+"why": "B1644-B1649 rank/kernel survival not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:28",
+"record": "web-scale-01",
+"class": "a",
+"why": "geometric and Guéritaud-Futer on all 31,040 not stated (how: 745 only)",
+"decision": "K"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:29",
+"record": "web-scale-01",
+"class": "b",
+"why": "p(c) increasing under all weights not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:41",
+"record": "web-scale-01",
+"class": "e",
+"why": "descriptive heading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:54",
+"record": "web-scale-01",
+"class": "a",
+"why": "\"p(0) already 0.53\" not in how",
+"decision": "K"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:60",
+"record": "web-scale-01",
+"class": "a",
+"why": "per-length decay factors 0.74, 0.49 not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:61",
+"record": "web-scale-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:62",
+"record": "web-scale-01",
+"class": "c",
+"why": "convention note; normalisation \"not settled\"",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_ROOT_FINDINGS:64",
+"record": "web-scale-01",
+"class": "a",
+"why": "\"from k=6 on between 0.83 and 0.88\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_SIGN_FINDINGS:18",
+"record": "web-scale-01",
+"class": "b",
+"why": "\"all minus bundles build, orientable and geometric\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_SIGN_FINDINGS:22",
+"record": "web-scale-01",
+"class": "b",
+"why": "post hoc read-out to length 18: none at ¼, no chiral at 0 or ¼ not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:30",
+"record": "web-scale-01",
+"class": "a",
+"why": "checked against direct computation at four exponent sets not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:36",
+"record": "web-scale-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/FINDINGS:47",
+"record": "web-scale-01",
+"class": "b",
+"why": "operator norms L^-1, 1, L on sl2 directions not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_SIGN_FINDINGS:29",
+"record": "web-scale-01",
+"class": "b",
+"why": "bit = monodromy sign, B1224 forcing, not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_scale/T_SIGN_FINDINGS:32",
+"record": "web-scale-01",
+"class": "c",
+"why": "a reason, not a proof",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:45",
+"record": "web-r80-01",
+"class": "c",
+"why": "states an either-or (reading narrower, or change owed); a question",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:142",
+"record": "web-r80-01",
+"class": "a",
+"why": "the 10240 figure not in how (only 2,560)",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:15",
+"record": "web-zf-01",
+"class": "b",
+"why": "W133 theorem (all zero-free Higgs are theta powers, a≡2 mod 4, r≡2a mod 24) not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:18",
+"record": "web-zf-01",
+"class": "b",
+"why": "\"W127 counts three generations at r=12 and 20\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:21",
+"record": "web-zf-01",
+"class": "b",
+"why": "scalar η factor drops out of ratios; phase unseen by |V|, J: not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:23",
+"record": "web-zf-01",
+"class": "b",
+"why": "∂R is not zero-free (W133's P1) not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:24",
+"record": "web-zf-01",
+"class": "e",
+"why": "heading/pointer to checks",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:25",
+"record": "web-zf-01",
+"class": "b",
+"why": "line orders (1,-1,3) of R and ∂R (B1700) not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:30",
+"record": "web-zf-01",
+"class": "b",
+"why": "which line leads per ε, and size of i-component 2^a|e^{iπaτ/4}|, not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:87",
+"record": "web-zf-01",
+"class": "b",
+"why": "hypercharge flux as curvature, continuous number, flat line off finite order: beyond how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:106",
+"record": "web-zf-01",
+"class": "b",
+"why": "two sectors may take different directions \"by the code\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:241",
+"record": "web-zf-01",
+"class": "b",
+"why": "extension to SU(5), SO(10), E6 commutant case not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:34",
+"record": "web-wf26-01",
+"class": "a",
+"why": "exponents given between heights 6 and 8 (and 0.302), how gives heights 8 and 12",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:37",
+"record": "web-wf26-01",
+"class": "a",
+"why": "S̃,S̃ exponents between heights 6 and 8 and the 0.69 figure not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:39",
+"record": "web-wf26-01",
+"class": "a",
+"why": "twin same-reading exponents 0.90, 0.10, 1.00; 0.61, 0.09, 1.10 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:41",
+"record": "web-wf26-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:42",
+"record": "web-wf26-01",
+"class": "d",
+"why": "describes the referee's run; how says every figure is the seat's or referee's",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:44",
+"record": "web-wf26-01",
+"class": "b",
+"why": "referee's |V| equals the script's to printed digits not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:27",
+"record": "web-wc2-01",
+"class": "c",
+"why": "seat's description of its method, \"shares nothing with the lane's conventions\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:41",
+"record": "web-wc2-01",
+"class": "b",
+"why": "base line nonzero on peripheral subgroup not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:42",
+"record": "web-wc2-01",
+"class": "e",
+"why": "scope/heading line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:45",
+"record": "web-wc2-01",
+"class": "a",
+"why": "\"31 lines\" not in how; \"multiplicity one\" reading is the seat's",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:114",
+"record": "web-wc2-01",
+"class": "c",
+"why": "advice on how to read B.3; the seat's point",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:27",
+"record": "web-wf3-01",
+"class": "e",
+"why": "setting/scope line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:39",
+"record": "web-wf3-01",
+"class": "e",
+"why": "lead-in to the conclusion",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:41",
+"record": "web-wf3-01",
+"class": "b",
+"why": "example module [[1,c],[0,1]] with c(t)=1 and higher-dimensional carrying not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:45",
+"record": "web-wf3-01",
+"class": "d",
+"why": "\"every finite k\" rests on hand argument and duality, not computed beyond 6",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F3_THE_CONE_POINT_LOOPHOLE:57",
+"record": "web-wf3-01",
+"class": "b",
+"why": "Klein-bottle cusp analogy, orientable-puncture condition not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:95",
+"record": "web-wc2-03",
+"class": "a",
+"why": "330 and \"box of side 3 (1160)\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:96",
+"record": "web-wc2-03",
+"class": "a",
+"why": "Φ values (-2, -1) and Ψ = -5 on every L^6R(LR)^k not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:99",
+"record": "web-wc2-03",
+"class": "b",
+"why": "\"2q_S ≡ 0 gives q_S ≡ 0\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:109",
+"record": "web-wc2-03",
+"class": "c",
+"why": "ends in an ask to agy-exp",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_81_CHAT1:37",
+"record": "web-r81-01",
+"class": "a",
+"why": "counts 1,525 and 1,408 at 896cae025 not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:514",
+"record": "web-st7-04",
+"class": "e",
+"why": "scope sentence",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:515",
+"record": "web-st7-04",
+"class": "e",
+"why": "quoted pointer to the record",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:516",
+"record": "web-st7-04",
+"class": "e",
+"why": "pointer",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:518",
+"record": "web-st7-04",
+"class": "b",
+"why": "claim that the earlier listing undercounted not covered",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:520",
+"record": "web-st7-04",
+"class": "e",
+"why": "method/heading line",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:524",
+"record": "web-st7-04",
+"class": "b",
+"why": "\"outside the register\" contradicted by main's later decision; not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:525",
+"record": "web-st7-04",
+"class": "e",
+"why": "lead-in",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:528",
+"record": "web-st7-04",
+"class": "b",
+"why": "\"later rows read those four\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:531",
+"record": "web-st7-04",
+"class": "e",
+"why": "lead-in",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:536",
+"record": "web-st7-04",
+"class": "b",
+"why": "Reviews 79/80 readings (two sections read, not checked) not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:30",
+"record": "web-wa3-03",
+"class": "a",
+"why": "tolerance 2e-16 and best-scalar 1.9 on m004 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:32",
+"record": "web-wa3-03",
+"class": "a",
+"why": "3e-15, 6e-15 and \"three distinct eigenvalues\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:58",
+"record": "web-wa3-03",
+"class": "b",
+"why": "LR = -U mod 5 in every basis not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:60",
+"record": "web-wa3-03",
+"class": "c",
+"why": "\"cover sees the semisimple part (the chirp)\" is a reading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:15",
+"record": "web-wc7-01",
+"class": "a",
+"why": "2.8e-30 at three points is the sealed run's, not main's",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:16",
+"record": "web-wc7-01",
+"class": "b",
+"why": "|cz+d|^4 transformation law and 2.8e-30 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:17",
+"record": "web-wc7-01",
+"class": "d",
+"why": "4.6e-22; moved-chart maximum not computed, \"distance 0\" not reproduced",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:22",
+"record": "web-wc7-01",
+"class": "d",
+"why": "conclusion rests on the moved chart the seat did not evaluate",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:207",
+"record": "web-rv-05",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:208",
+"record": "web-rv-05",
+"class": "c",
+"why": "judgement of main's PARTIAL and of fault",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:210",
+"record": "web-rv-05",
+"class": "e",
+"why": "lead-in",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:215",
+"record": "web-rv-05",
+"class": "b",
+"why": "equivalence of main's 0.41-0.72, and 0.07-0.43 \"not computed\" by seat: not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:217",
+"record": "web-rv-05",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:220",
+"record": "web-rv-05",
+"class": "b",
+"why": "the two passing triples not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:221",
+"record": "web-rv-05",
+"class": "c",
+"why": "an ask/expectation that main run find_reps",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:20",
+"record": "web-p783-02",
+"class": "a",
+"why": "\"R0 to 2e-13\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:21",
+"record": "web-p783-02",
+"class": "a",
+"why": "1.7e-15, 0.94, 0.74, 0.23, 0.063 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:24",
+"record": "web-p783-02",
+"class": "e",
+"why": "definition/scope line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:26",
+"record": "web-p783-02",
+"class": "e",
+"why": "definition line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:27",
+"record": "web-p783-02",
+"class": "e",
+"why": "definition line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:79",
+"record": "web-wc2-02",
+"class": "e",
+"why": "definition/scope line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP:176",
+"record": "web-tube-02",
+"class": "a",
+"why": "\"tube at Re 0 to 1.4e-6\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:178",
+"record": "web-st-lists-03",
+"class": "d",
+"why": "congruence level 4 is B794's, not recomputed",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:180",
+"record": "web-st-lists-03",
+"class": "d",
+"why": "computation at s=1.7+3i and the first zero not main's; main checked s=2 only",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:182",
+"record": "web-st-lists-03",
+"class": "e",
+"why": "\"Premises: none\" is a scope line",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:183",
+"record": "web-st-lists-03",
+"class": "d",
+"why": "one value checked; congruence level not recomputed",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:23",
+"record": "web-wc6p2-02",
+"class": "c",
+"why": "conditional statement, \"does not claim\" it; expectation",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:26",
+"record": "web-wf19-02",
+"class": "e",
+"why": "setup/definition line, no claim the how covers",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:30",
+"record": "web-wf19-02",
+"class": "e",
+"why": "notation definition (coefficients, ft/fn, m)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:31",
+"record": "web-wf19-02",
+"class": "e",
+"why": "definition of doublet and class",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:32",
+"record": "web-wf19-02",
+"class": "e",
+"why": "definition of n(V) and r^1(V)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:64",
+"record": "web-wf19-02",
+"class": "b",
+"why": "orientable-level formula and I = ±1 at golden level 4 not mentioned in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:68",
+"record": "web-wf19-02",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:80",
+"record": "web-wf19-02",
+"class": "e",
+"why": "heading line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:106",
+"record": "web-wf19-02",
+"class": "b",
+"why": "claim that the connecting map vanishes in every case; how says main did not re-derive each row",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:123",
+"record": "web-wf19-02",
+"class": "b",
+"why": "bold-row argument (class interior, connecting map) not re-derived by main",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:131",
+"record": "web-wf19-02",
+"class": "e",
+"why": "heading/lead-in of the gap census",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:132",
+"record": "web-wf19-02",
+"class": "b",
+"why": "gap census pairing of rows with ±1 values not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:133",
+"record": "web-wf19-02",
+"class": "b",
+"why": "gap census pairing not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:135",
+"record": "web-wf19-02",
+"class": "b",
+"why": "gap census pairing (−2 and +2) not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:136",
+"record": "web-wf19-02",
+"class": "b",
+"why": "gap census claim not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:20",
+"record": "web-r79b-01",
+"class": "a",
+"why": "figures 1.6 to 2.0, 0.06 to 0.08, 1.6 to 2.4, 0.04 to 0.18 not in how",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:22",
+"record": "web-r79b-01",
+"class": "a",
+"why": "29 and 19 rows, plus the line-120/121 and line-115 comment, not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:29",
+"record": "web-r79b-01",
+"class": "a",
+"why": "counts 81, 16, 14 and \"eleven things\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:31",
+"record": "web-r79b-01",
+"class": "e",
+"why": "description of the sweep method and scope",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:42",
+"record": "web-r79b-01",
+"class": "e",
+"why": "file list of exempt places",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:44",
+"record": "web-r79b-01",
+"class": "e",
+"why": "file list of exempt places",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:45",
+"record": "web-r79b-01",
+"class": "e",
+"why": "file list of exempt places",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:46",
+"record": "web-r79b-01",
+"class": "e",
+"why": "file list of exempt places",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:47",
+"record": "web-r79b-01",
+"class": "e",
+"why": "file list of exempt places",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:48",
+"record": "web-r79b-01",
+"class": "e",
+"why": "file list of exempt places",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:50",
+"record": "web-r79b-01",
+"class": "b",
+"why": "W2's sentence on six other pages and the CAMPAIGN_STATUS reading are not in how",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:60",
+"record": "web-r79b-01",
+"class": "t",
+"why": "text cut off mid-sentence",
+"decision": "K"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:61",
+"record": "web-r79b-01",
+"class": "t",
+"why": "text cut off mid-sentence",
+"decision": "K"
+},
+{
+"unit": "web:REVIEW_79B_CHAT1:63",
+"record": "web-r79b-01",
+"class": "t",
+"why": "text cut off mid-sentence",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:61",
+"record": "web-wa1-01",
+"class": "t",
+"why": "text cut off at \";\" and claims about Z6 as the largest quotient and the four quotients are not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:65",
+"record": "web-wa1-01",
+"class": "b",
+"why": "SU(5) in SO(10) construction, B1936 placement and \"nothing new\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:71",
+"record": "web-wa1-01",
+"class": "b",
+"why": "U(3)×U(2) extra U(1) with charges 0, 2, 4 not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:76",
+"record": "web-wa1-01",
+"class": "b",
+"why": "three-families scope claim not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:77",
+"record": "web-wa1-01",
+"class": "b",
+"why": "A5 in SO(3) and the centraliser-not-closure claim only partly covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:81",
+"record": "web-wa1-01",
+"class": "b",
+"why": "Λ³+Λ⁵ conjugate generation and the colour triplet's −2 on Λ¹ only partly covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:22",
+"record": "web-wc8p1-01",
+"class": "e",
+"why": "lead-in line, no claim",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:24",
+"record": "web-wc8p1-01",
+"class": "b",
+"why": "parity law at n < 8 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:25",
+"record": "web-wc8p1-01",
+"class": "b",
+"why": "J exchanging the mark's pairs not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:27",
+"record": "web-wc8p1-01",
+"class": "b",
+"why": "det X·(−1)^e formula and relation to B1914/W-C5 not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:41",
+"record": "web-wc8p1-01",
+"class": "b",
+"why": "general-m gcd argument \"worked out by hand\"; how covers m = 1 to 12 only",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:54",
+"record": "web-wc8p1-01",
+"class": "b",
+"why": "referee's arithmetic (4 divides N, −1 not a square mod 4) not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:58",
+"record": "web-wh1-02",
+"class": "e",
+"why": "heading",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:64",
+"record": "web-wh1-02",
+"class": "a",
+"why": "\"4 files\" and \"three lines\" counts not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:67",
+"record": "web-wh1-02",
+"class": "c",
+"why": "\"probably answers it\" is a judgement",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:72",
+"record": "web-wh1-02",
+"class": "a",
+"why": "counts 6, 7 files and 4 docs not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:82",
+"record": "web-wh1-02",
+"class": "c",
+"why": "ask, with the figures 38 and 114",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:84",
+"record": "web-wh1-02",
+"class": "c",
+"why": "ask",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:86",
+"record": "web-wh1-02",
+"class": "c",
+"why": "ask",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:89",
+"record": "web-wh1-02",
+"class": "b",
+"why": "resolver behaviour and --strict effect only partly covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:91",
+"record": "web-wh1-02",
+"class": "c",
+"why": "proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:92",
+"record": "web-wh1-02",
+"class": "c",
+"why": "ask",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:228",
+"record": "web-rv-06",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:229",
+"record": "web-rv-06",
+"class": "e",
+"why": "location list",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:236",
+"record": "web-rv-06",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:244",
+"record": "web-rv-06",
+"class": "e",
+"why": "heading with the seat's own \"too strong\" judgement",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:246",
+"record": "web-rv-06",
+"class": "b",
+"why": "the 11/12 bound and the Dirichlet-L claim are about outside preprints, not computed",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:248",
+"record": "web-rv-06",
+"class": "b",
+"why": "two-thirds result claim not computed",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:254",
+"record": "web-rv-06",
+"class": "e",
+"why": "heading",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:262",
+"record": "web-rv-06",
+"class": "d",
+"why": "how says 3.7 is the seat's own statement",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:265",
+"record": "web-rv-06",
+"class": "d",
+"why": "how says 3.8 is the seat's own typing error, and \"recomputed on main (§1a)\" is not covered",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:62",
+"record": "web-wb2-s3-01",
+"class": "b",
+"why": "pole position u0 and the matter's-own-rule argument not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:73",
+"record": "web-wb2-s3-01",
+"class": "c",
+"why": "marked \"a reading, not computed\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:75",
+"record": "web-wb2-s3-01",
+"class": "a",
+"why": "figure 1.4e-14 is the other session's; main got 3e-16",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:77",
+"record": "web-wb2-s3-01",
+"class": "b",
+"why": "claim about separation by another prime not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:97",
+"record": "web-wb2-s3-01",
+"class": "c",
+"why": "row marked \"a reading\"",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:51",
+"record": "web-wb2-s3-01",
+"class": "e",
+"why": "scope line (commit and owed list)",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:55",
+"record": "web-wb2-s3-01",
+"class": "a",
+"why": "figure 1.4e-14 is the other session's, not main's",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:26",
+"record": "web-rv-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:33",
+"record": "web-rv-02",
+"class": "b",
+"why": "figure 0.76 withdrawn, not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:34",
+"record": "web-rv-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:41",
+"record": "web-rv-02",
+"class": "d",
+"why": "the other seat's own script; \"not a recomputation by main\"",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:43",
+"record": "web-rv-02",
+"class": "d",
+"why": "claim that the S kernel is in no committed script, not recomputed",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:44",
+"record": "web-rv-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:71",
+"record": "web-rv-02",
+"class": "c",
+"why": "\"a definition, not a result\" (measure behind H2)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-B1_FRAME_D_AND_B1936S_PREMISE:36",
+"record": "web-wb1-01",
+"class": "a",
+"why": "\"40 random points\" and residuals differ from how's 20 points",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-B1_FRAME_D_AND_B1936S_PREMISE:37",
+"record": "web-wb1-01",
+"class": "a",
+"why": "2e-30 and 5e-22 figures, and DR transforming the same, not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-B1_FRAME_D_AND_B1936S_PREMISE:39",
+"record": "web-wb1-01",
+"class": "b",
+"why": "D2 charge outcomes W₋ and W₊ not covered; how note calls E4 logic",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-B1_FRAME_D_AND_B1936S_PREMISE:40",
+"record": "web-wb1-01",
+"class": "a",
+"why": "\"at least 1.6 %\" and the \"2b and 2ab integers\" claim not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-B1_FRAME_D_AND_B1936S_PREMISE:53",
+"record": "web-wb1-01",
+"class": "b",
+"why": "quasi-periodicity cancellation and \"residue unchanged\" only partly covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:28",
+"record": "web-wa2-05",
+"class": "b",
+"why": "S₃ = SL(2,F₂) permutation parts under T and S not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:103",
+"record": "web-wa2-05",
+"class": "c",
+"why": "marked [J]",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:105",
+"record": "web-wa2-05",
+"class": "b",
+"why": "claim about what B1724 checks, not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:119",
+"record": "web-wa2-05",
+"class": "c",
+"why": "marked [J]",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:56",
+"record": "web-wf7-02",
+"class": "b",
+"why": "explicit hyperbolic step {a↦aca, b↦a, c↦b} and its action on the records not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:58",
+"record": "web-wf7-02",
+"class": "b",
+"why": "\"converse shown by example only\" and \"the corner is the scar\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:366",
+"record": "web-st6-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:368",
+"record": "web-st6-01",
+"class": "e",
+"why": "file list",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:369",
+"record": "web-st6-01",
+"class": "e",
+"why": "file list",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:370",
+"record": "web-st6-01",
+"class": "e",
+"why": "file list",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:372",
+"record": "web-st6-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:923",
+"record": "web-st10-01",
+"class": "a",
+"why": "28 units and 26 statements not in how; \"web-st7-06 carries the correction\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:925",
+"record": "web-st10-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:927",
+"record": "web-st10-01",
+"class": "b",
+"why": "clean-checkout rerun matching byte for byte not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:928",
+"record": "web-st10-01",
+"class": "a",
+"why": "figure 7,294 units not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:931",
+"record": "web-st10-01",
+"class": "d",
+"why": "note says the record-versus-text check was not done",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:933",
+"record": "web-st10-01",
+"class": "b",
+"why": "\"42 ids changed since M47\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:934",
+"record": "web-st10-01",
+"class": "d",
+"why": "web-st-log is not checked here",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:9",
+"record": "web-wb2-d1-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:10",
+"record": "web-wb2-d1-01",
+"class": "d",
+"why": "the seat's account of its own first-build error",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:13",
+"record": "web-wb2-d1-01",
+"class": "d",
+"why": "the seat's account: non-unitary conjugation by diag(1, e^(iπh)), not periodic",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:15",
+"record": "web-wb2-d1-01",
+"class": "d",
+"why": "referee's account and \"not blind\"; the seat's own",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:30",
+"record": "web-wb2-d1-01",
+"class": "a",
+"why": "3.9e-15 at 20 u; how gives 1.2e-33 at six points",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:91",
+"record": "web-wb2-d1-01",
+"class": "d",
+"why": "provenance row (computed once, found by referee); the seat's own",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:85",
+"record": "web-wb2-first-02",
+"class": "b",
+"why": "\"contrary to W-B1's frame D promised in outline\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1104",
+"record": "web-st12-02",
+"class": "c",
+"why": "note says this is the seat's reading (\"the measure is the choice of τ in another form\")",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:14",
+"record": "web-wc3-01",
+"class": "b",
+"why": "B1675 W34 table and the claim about FINDINGS are not named in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:19",
+"record": "web-wc3-01",
+"class": "a",
+"why": "the bound \"below 3e-15\" is not in the how, which says only that every value is zero",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:20",
+"record": "web-wc3-01",
+"class": "b",
+"why": "W83 (72, 30 of type A5, commutant 0, 1, 8) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:39",
+"record": "web-wc3-01",
+"class": "e",
+"why": "arc-count and scope summary",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:57",
+"record": "web-wc3-01",
+"class": "a",
+"why": "mean of means 0.0799 and off-diagonal 3.06% are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:58",
+"record": "web-wc3-01",
+"class": "a",
+"why": "algebra dimension 9, commutant dimension 1 and no common fixed vector are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:61",
+"record": "web-wc3-01",
+"class": "b",
+"why": "axis a function of the matrix mod 4 (Q3c) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:62",
+"record": "web-wc3-01",
+"class": "b",
+"why": "the 96-element average of rho and the \"no even-trace thread of order 3\" control are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:69",
+"record": "web-wc3-01",
+"class": "a",
+"why": "120 elements, 21 maximal subgroups (5, 6, 10), |Aut| 120 and |Inn| 60 are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:72",
+"record": "web-wc3-01",
+"class": "b",
+"why": "P and Q8 character (0,0,0) fixed by every move is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:73",
+"record": "web-wc3-01",
+"class": "b",
+"why": "\"nothing fixed under every move set\" is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:74",
+"record": "web-wc3-01",
+"class": "b",
+"why": "C1, 2I at n=3: no class or character fixed is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:75",
+"record": "web-wc3-01",
+"class": "b",
+"why": "CQ: no class fixed is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:78",
+"record": "web-wc3-01",
+"class": "b",
+"why": "the ordering inside 2I and its Hamilton-product closure are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:83",
+"record": "web-wc3-01",
+"class": "b",
+"why": "exact sympy fixed characters (0,0,0) and (2,2,2) are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:91",
+"record": "web-wc3-01",
+"class": "a",
+"why": "60 starts, 20 at (2,2,2) and 40 elsewhere are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:93",
+"record": "web-wc3-01",
+"class": "d",
+"why": "evidence for (i), proof left to agy-exp, so not checked",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:101",
+"record": "web-wc3-01",
+"class": "b",
+"why": "C3 [a,b]^k six classes to length 12 is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:102",
+"record": "web-wc3-01",
+"class": "b",
+"why": "C4 kappa=-2 singular only at the origin is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:110",
+"record": "web-wc3-01",
+"class": "e",
+"why": "the sealed script's shape error and Amendment 1 are scope and provenance",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:114",
+"record": "web-wc3-01",
+"class": "a",
+"why": "W34 table (3,3,3,0), (5,7,3,4), (7,8,6,2) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:115",
+"record": "web-wc3-01",
+"class": "b",
+"why": "joint L and R action keeps no class is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:116",
+"record": "web-wc3-01",
+"class": "b",
+"why": "rank-three L, R, P counts (1, 1, 2) are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:117",
+"record": "web-wc3-01",
+"class": "b",
+"why": "rank-four P three, L and R one each is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:118",
+"record": "web-wc3-01",
+"class": "a",
+"why": "the 758 states and the singular-value thresholds are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:119",
+"record": "web-wc3-01",
+"class": "a",
+"why": "758 of 758, 718 and 40, and 622 and 758 are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:121",
+"record": "web-wc3-01",
+"class": "b",
+"why": "the random SL(2,Q) control is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:123",
+"record": "web-wc3-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:124",
+"record": "web-wc3-01",
+"class": "b",
+"why": "an argument step about the tangent space at (0,0,0), not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:126",
+"record": "web-wc3-01",
+"class": "b",
+"why": "rests on B1689 K1 and L's linear part, not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:128",
+"record": "web-wc3-01",
+"class": "b",
+"why": "an argument step (a rotation fixes its axis), not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:129",
+"record": "web-wc3-01",
+"class": "b",
+"why": "main's v2_w34 run and the correction of FINDINGS section 1 are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:132",
+"record": "web-wc3-01",
+"class": "c",
+"why": "a judgement: this does not touch W34's claims",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:141",
+"record": "web-wc3-01",
+"class": "a",
+"why": "the largest |CS| of 2.95e-15 is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:142",
+"record": "web-wc3-01",
+"class": "b",
+"why": "E8 roots 72 and 30 of type A5 (W83) are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:143",
+"record": "web-wc3-01",
+"class": "b",
+"why": "commutant 0, 1, 8 (W83) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:145",
+"record": "web-wc3-01",
+"class": "a",
+"why": "LLR vs LR mirror symmetry, 126 roots and the order-96 group are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:176",
+"record": "web-wc3-01",
+"class": "c",
+"why": "summary verdict \"seven pairs, three in part, no item differs\" is not covered, and the note says the extensions are not rerun",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:15",
+"record": "web-wc1-02",
+"class": "b",
+"why": "advisor re-audit 7 accepted at 338b14fe3 and the referee's no-commit check are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:92",
+"record": "web-wc1-02",
+"class": "e",
+"why": "provenance and scope line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:97",
+"record": "web-wc1-02",
+"class": "b",
+"why": "B997 verdict-file check passing on a line that now says the opposite is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:98",
+"record": "web-wc1-02",
+"class": "b",
+"why": "ten citations (nine arcs; B266 twice) all PROVED is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:99",
+"record": "web-wc1-02",
+"class": "a",
+"why": "endpoint 8+3+3=14 against 12 is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:103",
+"record": "web-wc1-02",
+"class": "b",
+"why": "the acceptance row, family declaration and principal embedding are covered only in part",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:119",
+"record": "web-wc1-02",
+"class": "e",
+"why": "list lead-in",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:128",
+"record": "web-wc1-02",
+"class": "c",
+"why": "\"main could read these as records\" is a reading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:133",
+"record": "web-wc1-02",
+"class": "b",
+"why": "how the pages were found, the posthoc script and its commits are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:137",
+"record": "web-wc1-02",
+"class": "b",
+"why": "re-audit 7's sweep and its planted case are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:139",
+"record": "web-wc1-02",
+"class": "b",
+"why": "B1222 mention versus claim is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:19",
+"record": "web-wf5-01",
+"class": "b",
+"why": "definition, and K=2k from aλa=(abc)^-2 (W-F1 A2), are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:27",
+"record": "web-wf5-01",
+"class": "a",
+"why": "the how says 200 random points and 2e-39. The unit says 2,000 points, 2e-36, |...|≥0.74 for n≤24 and k=2 to 6",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:32",
+"record": "web-wf5-01",
+"class": "c",
+"why": "reading: a cone point is a relation, with a line-1 page reference",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:42",
+"record": "web-wf5-01",
+"class": "b",
+"why": "hand argument (finite order gives -I) is not among the how's checked hand arguments",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:44",
+"record": "web-wf5-01",
+"class": "b",
+"why": "hand argument (xy=-yx forces the origin) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:45",
+"record": "web-wf5-01",
+"class": "b",
+"why": "hand argument (-I times unipotent has infinite order) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F5_THE_CONE_POINT_IS_A_RELATION_AMONG_THE_DISTINCTIONS:46",
+"record": "web-wf5-01",
+"class": "c",
+"why": "\"choosing the cubic is choosing the puncture\" is a reading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:748",
+"record": "web-st9-01",
+"class": "a",
+"why": "b1=1, cusp rank 1 at levels 1 to 3 and twisted duality are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:750",
+"record": "web-st9-01",
+"class": "a",
+"why": "failure pattern with w left out (bronze 1 and 3, golden 3 with 6 characters) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:752",
+"record": "web-st9-01",
+"class": "d",
+"why": "the bronze run covered characters only and the note's line 24 says every module, which the how says was not run before the I3 run",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:765",
+"record": "web-st9-01",
+"class": "e",
+"why": "label line, not a claim",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:772",
+"record": "web-st9-01",
+"class": "b",
+"why": "lines 338 and 357 superseded whole, with obstacles that stand, are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:782",
+"record": "web-st9-01",
+"class": "b",
+"why": "self-duality of SL(2) reps and the withdrawal of \"theta-stable + involution\" are not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:760",
+"record": "web-st9-01",
+"class": "a",
+"why": "the how says residuals below 1e-12. The unit says below 1e-6 with largest 2.5e-13 for four named checks",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:12",
+"record": "web-wc1-01",
+"class": "b",
+"why": "\"six shapes a later page could take unseen\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:22",
+"record": "web-wc1-01",
+"class": "e",
+"why": "scope and provenance line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:31",
+"record": "web-wc1-01",
+"class": "a",
+"why": "control with -1 in place of -omega (order 6, index 10) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:33",
+"record": "web-wc1-01",
+"class": "c",
+"why": "\"not blind\" provenance remark",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:35",
+"record": "web-wc1-01",
+"class": "c",
+"why": "judgement that one cell discriminates less than it looks",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:38",
+"record": "web-wc1-01",
+"class": "d",
+"why": "ideal-sum closure is cited, not computed",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:45",
+"record": "web-wc1-01",
+"class": "d",
+"why": "narrative part rests on re-audit 6, not recomputed; lock-asserts detail (image order 160 in 1920) is only partly covered",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:46",
+"record": "web-wc1-01",
+"class": "b",
+"why": "planted case E2-1 and the generated spine are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:47",
+"record": "web-wc1-01",
+"class": "d",
+"why": "widening of the sweep rests on the seat's reading of the lock, not on main's cases",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:48",
+"record": "web-wc1-01",
+"class": "b",
+"why": "gloss withdrawn in three places is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:44",
+"record": "web-p783-04",
+"class": "b",
+"why": "\"the golden state, R0\" is a label or identification, not part of the singular-value check",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:47",
+"record": "web-p783-04",
+"class": "b",
+"why": "identification as π/ln φ, \"the golden field's next form\", is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:54",
+"record": "web-p783-04",
+"class": "b",
+"why": "identification as 3π/(2 ln φ) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:60",
+"record": "web-p783-04",
+"class": "a",
+"why": "truncation difference below 8e-11 and the automorphy test to 7e-10 are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:64",
+"record": "web-p783-04",
+"class": "a",
+"why": "the second truncation failing, and the ±0.004 bracket, are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:613",
+"record": "web-st8-01",
+"class": "a",
+"why": "file counts 24 and 112, and M46's 108, are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:615",
+"record": "web-st8-01",
+"class": "a",
+"why": "\"about 4,370\" and the 87-files-read detail are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:619",
+"record": "web-st8-01",
+"class": "a",
+"why": "indices 6,1,12,6,1,12,12 at N=2,3,4,6,7,8,12 are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:622",
+"record": "web-st8-01",
+"class": "a",
+"why": "nine split records and 34 PARTIAL statements are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:625",
+"record": "web-st8-01",
+"class": "c",
+"why": "the seat's acceptance of the decision, a judgement",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:629",
+"record": "web-st8-01",
+"class": "a",
+"why": "custody counts 6, 1, 6 and the ordering explanation are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:635",
+"record": "web-st8-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:657",
+"record": "web-st8-01",
+"class": "a",
+"why": "\"64 at golden level 3\" is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:658",
+"record": "web-st8-01",
+"class": "b",
+"why": "W-F6 \"no non-metallic case checked\" is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:659",
+"record": "web-st8-01",
+"class": "a",
+"why": "the figures 8e-11, 8e-10, 6e-5, 3.2, 1.8 and 4.9 are not in the how, which says only \"carries its figures\"",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:805",
+"record": "web-st9-02",
+"class": "c",
+"why": "the conclusion \"a theorem\" and permission to word B1852's note is a judgement",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:15",
+"record": "web-wf16-01",
+"class": "b",
+"why": "\"every surviving choice is a Z/2-torsor\" is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:16",
+"record": "web-wf16-01",
+"class": "c",
+"why": "\"a bit flipped by a symmetry is a convention\" is an interpretive claim",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:17",
+"record": "web-wf16-01",
+"class": "c",
+"why": "logic of relative sign, conditional on the frame's relations",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:28",
+"record": "web-wf16-01",
+"class": "b",
+"why": "the by-hand implication from W-F9 section 2.3 (P goes to a^m P a^-m) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F16_THE_TWO_WAY_CHOICES_SETTLE_EACH_OTHER:29",
+"record": "web-wf16-01",
+"class": "e",
+"why": "lead-in line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:41",
+"record": "web-wa3-07",
+"class": "a",
+"why": "the values 8, 7, 22, 3 are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:136",
+"record": "web-wa3-07",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:137",
+"record": "web-wa3-07",
+"class": "b",
+"why": "the theta-characteristic phase formula e(-k²(q1²+q2²)/25) is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:139",
+"record": "web-wa3-07",
+"class": "a",
+"why": "raw values 5, 45 and 17 and \"6Y_u=-4\" are not in the how, which gives only the mod-5 values",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:140",
+"record": "web-wa3-07",
+"class": "d",
+"why": "the level-5 condition q2≡±2q1 is \"as relayed\" from B1953, not computed here",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:141",
+"record": "web-wa3-07",
+"class": "b",
+"why": "the lattice charge as centre eigenvalue (B1951) and the top-wedge claim are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:144",
+"record": "web-wa3-07",
+"class": "c",
+"why": "[J] judgement",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:149",
+"record": "web-wa3-07",
+"class": "b",
+"why": "\"no cyclic subgroup of order 25\" is not covered. The how covers only the eigenline mod 25",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1037",
+"record": "web-st12-01",
+"class": "b",
+"why": "the seat's recut of all 7,458 units, with ids, kinds and hashes matching, is not in the how",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:1042",
+"record": "web-st12-01",
+"class": "b",
+"why": "corrections on web-wc8p5-01, web-wc8p2a-01, web-wc1-01 and web-scale-01 are not among the ten records named",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1045",
+"record": "web-st12-01",
+"class": "b",
+"why": "web-sel-04 holding lines 65, 354 and 356 is not among the records named (web-sel-05 is)",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1057",
+"record": "web-st12-01",
+"class": "d",
+"why": "the clean-checkout rerun is the seat's own run, which the note says main did not run",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:16",
+"record": "web-wf13-01",
+"class": "b",
+"why": "that j is iσ2 of the SM conjugate doublet, and that S is not a doublet, are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F13_P847_A_CRITERION_FOR_THE_HIGGS_READING:22",
+"record": "web-wf13-01",
+"class": "d",
+"why": "the fibre mirror is not derived and is taken from M24",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:25",
+"record": "web-wa2-02",
+"class": "b",
+"why": "the list of primes below 60, the referee's check to 2000 and B1884 to level 200 are not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:35",
+"record": "web-wa2-02",
+"class": "b",
+"why": "the claim about GENESIS SE3 is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:37",
+"record": "web-wa2-02",
+"class": "b",
+"why": "the \"record already has\" claim about B1884 is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:39",
+"record": "web-wa2-02",
+"class": "d",
+"why": "\"so for all primes\" is marked not independently checked",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:42",
+"record": "web-wa2-02",
+"class": "b",
+"why": "the line {k(1,2)/5} of B1943 is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:181",
+"record": "web-wa2-02",
+"class": "d",
+"why": "\"not independently checked\" (all primes)",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:110",
+"record": "web-wa2-05v",
+"class": "c",
+"why": "[J], not computed on the frame",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:116",
+"record": "web-wa2-05v",
+"class": "c",
+"why": "[J] reading about levels as powers of 2 and the CRT",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:187",
+"record": "web-wa2-05v",
+"class": "c",
+"why": "the unit's own text says \"a reading ... not computed on the frame\"",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:12",
+"record": "web-wf14-01",
+"class": "b",
+"why": "\"the only non-trivial continuous automorphism\" is not in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F14_M25_THE_GLOBAL_BIT:18",
+"record": "web-wf14-01",
+"class": "b",
+"why": "S and S̃ sharing their SU(2) action (W-F13 section 1) is not in this record's how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:311",
+"record": "web-st5-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:36",
+"record": "web-wb2-d1-03",
+"class": "a",
+"why": "the threshold \"above 1e-3\" is not in the how, which gives 0.70 and 8 percent",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:122",
+"record": "web-wa2-08",
+"class": "a",
+"why": "levels 2, 8, and \"blocks 2 or 4\", and \"Part D agrees\", are not in the how, which gives only \"never of level 5\"",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1189",
+"record": "web-st13-01",
+"class": "e",
+"why": "heading/scope line",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1191",
+"record": "web-st13-01",
+"class": "e",
+"why": "scope pointer line",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1192",
+"record": "web-st13-01",
+"class": "e",
+"why": "scope/explanation of splits, no computation",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1196",
+"record": "web-st13-01",
+"class": "c",
+"why": "says main did not recompute degrees, counts, completeness; \"partial\"",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1199",
+"record": "web-st13-01",
+"class": "a",
+"why": "degrees, counts on kappa=2 for m=1..6 not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1202",
+"record": "web-st13-01",
+"class": "b",
+"why": "lines 263/265/266 \"no forced choice\" claims not covered",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1204",
+"record": "web-st13-01",
+"class": "d",
+"why": "a plant, the seat's own",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1205",
+"record": "web-st13-01",
+"class": "c",
+"why": "planted-control result \"3 plants, all caught\"",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1206",
+"record": "web-st13-01",
+"class": "b",
+"why": "typed row, counts equal sealed run's; not covered",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1208",
+"record": "web-st13-01",
+"class": "a",
+"why": "timings (1,800 s; 6,900 s; 43 s) not computed by owner",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1211",
+"record": "web-st13-01",
+"class": "e",
+"why": "item heading, scope",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1212",
+"record": "web-st13-01",
+"class": "b",
+"why": "verdict of web-wz1-04p; not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1213",
+"record": "web-st13-01",
+"class": "b",
+"why": "verdict of web-wz1-04; not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1215",
+"record": "web-st13-01",
+"class": "c",
+"why": "judgement \"either verdict can stand\"",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1216",
+"record": "web-st13-01",
+"class": "a",
+"why": "eigenphase gaps quarter/quarter/half; six points; S not reached",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1221",
+"record": "web-st13-01",
+"class": "a",
+"why": "1.7e-15, 24 points, two base points: not stated as computed by owner",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1224",
+"record": "web-st13-01",
+"class": "e",
+"why": "lead-in line, no claim",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1225",
+"record": "web-st13-01",
+"class": "b",
+"why": "|U_L(S)| swaps first two blocks; how names only the group of order 24, T order 4",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1226",
+"record": "web-st13-01",
+"class": "b",
+"why": "projective orders 4, 2, 3 in eight cases not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1227",
+"record": "web-st13-01",
+"class": "a",
+"why": "U_L = U_R to 3e-15 not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1228",
+"record": "web-st13-01",
+"class": "d",
+"why": "S4 identification via rv52_s4.py; \"not rerun here\"",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1231",
+"record": "web-st13-01",
+"class": "c",
+"why": "judgement \"closes all five lines\"",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1233",
+"record": "web-st13-01",
+"class": "e",
+"why": "item heading; lines the seat withdrew",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1234",
+"record": "web-st13-01",
+"class": "d",
+"why": "withdrawn / superseded in part line",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1236",
+"record": "web-st13-01",
+"class": "d",
+"why": "lines of withdrawn first version of section 12",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1240",
+"record": "web-st13-01",
+"class": "c",
+"why": "classification of kinds, not computation",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1241",
+"record": "web-st13-01",
+"class": "d",
+"why": "note says main did not recompute these two figures",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1243",
+"record": "web-st13-01",
+"class": "a",
+"why": "residuals 3.3e-10, 1.7e-10, 1.8e-10, range 1.6 to 7.0 are seat's measure",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1247",
+"record": "web-st13-01",
+"class": "e",
+"why": "item heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1248",
+"record": "web-st13-01",
+"class": "b",
+"why": "verdict \"no state\" at three heights not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1249",
+"record": "web-st13-01",
+"class": "d",
+"why": "singular values are the seat's; main does not reproduce",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1251",
+"record": "web-st13-01",
+"class": "a",
+"why": "figures 0.12-0.33 vs 7.8e-3-3.4e-2 not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1252",
+"record": "web-st13-01",
+"class": "a",
+"why": "figures 0.0035, 8.8e-3 etc. not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1255",
+"record": "web-st13-01",
+"class": "a",
+"why": "main's least values over three heights not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1256",
+"record": "web-st13-01",
+"class": "a",
+"why": "truncation figures below 8e-11 etc.; line 95 \"not tested\"",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1258",
+"record": "web-st13-01",
+"class": "d",
+"why": "extensions not rerun on main",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1261",
+"record": "web-st13-01",
+"class": "d",
+"why": "24 lifts, order 96: not rerun",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1262",
+"record": "web-st13-01",
+"class": "d",
+"why": "\"every choice and convention\": not rerun",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1263",
+"record": "web-st13-01",
+"class": "d",
+"why": "W109 (iii) nine groups: not rerun",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1264",
+"record": "web-st13-01",
+"class": "a",
+"why": "119 zeros from 200 starts, n=4 and L_ij searches are seat's",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1267",
+"record": "web-st13-01",
+"class": "a",
+"why": "class counts 63,590 etc., n=5 carried; not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1270",
+"record": "web-st13-01",
+"class": "e",
+"why": "item heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1271",
+"record": "web-st13-01",
+"class": "d",
+"why": "grading weights are the seat's",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1273",
+"record": "web-st13-01",
+"class": "b",
+"why": "control for node of mark 6 not covered",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1274",
+"record": "web-st13-01",
+"class": "c",
+"why": "seat's criterion \"alive/dead\"",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1276",
+"record": "web-st13-01",
+"class": "c",
+"why": "typed a reading; rests on partial line",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1281",
+"record": "web-st13-01",
+"class": "d",
+"why": "the how says this line is partial, left to main; tetrahedra count the relay's",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1165",
+"record": "web-st13-01",
+"class": "a",
+"why": "register counts 137 files, 6,796 statements, tallies not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1167",
+"record": "web-st13-01",
+"class": "a",
+"why": "7,498 units recut, hashes match; not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1176",
+"record": "web-st13-01",
+"class": "a",
+"why": "8.5e-32 and \"principle main chose\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1181",
+"record": "web-st13-01",
+"class": "c",
+"why": "lines marked [J]/\"a reading\"",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1183",
+"record": "web-st13-01",
+"class": "b",
+"why": "W-A2 lines 51,103,119,149 verified on B1952; how covers only five lines",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1184",
+"record": "web-st13-01",
+"class": "b",
+"why": "W-A3 lines on B1955 not covered by how",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1185",
+"record": "web-st13-01",
+"class": "b",
+"why": "W-B2 lines 73, 97, stage 3 not covered by how",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1187",
+"record": "web-st13-01",
+"class": "e",
+"why": "pointer line to item 3",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:453",
+"record": "web-st7-03",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:462",
+"record": "web-st7-03",
+"class": "c",
+"why": "proposal of how to label verdicts; contradicts record",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:467",
+"record": "web-st7-03",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:468",
+"record": "web-st7-03",
+"class": "d",
+"why": "figure not recomputed (u = 2 omega, Z^5)",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:469",
+"record": "web-st7-03",
+"class": "d",
+"why": "not recomputed (no D25, no Z/25)",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:470",
+"record": "web-st7-03",
+"class": "d",
+"why": "0.58 to 7.3 not recomputed",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:471",
+"record": "web-st7-03",
+"class": "d",
+"why": "2.2 to 7.2, 2.3 to 2.8 not recomputed",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:472",
+"record": "web-st7-03",
+"class": "d",
+"why": "745 and other conventions not recomputed",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:473",
+"record": "web-st7-03",
+"class": "d",
+"why": "240 roots, nine pairs, weights not recomputed",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:474",
+"record": "web-st7-03",
+"class": "d",
+"why": "extensions W107/W109/W110 not rerun",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:475",
+"record": "web-st7-03",
+"class": "d",
+"why": "degrees, counts, completeness not recomputed",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:476",
+"record": "web-st7-03",
+"class": "d",
+"why": "dips near 6.66 not recomputed; partial",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:487",
+"record": "web-st7-03",
+"class": "b",
+"why": "P-629 row last dated 2026-11-04; not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:488",
+"record": "web-st7-03",
+"class": "b",
+"why": "row 1388 last dated 2026-10-24; not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:489",
+"record": "web-st7-03",
+"class": "c",
+"why": "conditional proposal for main's judgement",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:493",
+"record": "web-st7-03",
+"class": "b",
+"why": "claims what is settled, stage 4 partial, W-L1 left to SM seat; not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:509",
+"record": "web-st7-03",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:30",
+"record": "web-wc8p2a-01",
+"class": "b",
+"why": "orientability of levels, det -1: not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:32",
+"record": "web-wc8p2a-01",
+"class": "b",
+"why": "free-cusp b1 is B1926's and the seat's; torus/Klein cusp type not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:33",
+"record": "web-wc8p2a-01",
+"class": "b",
+"why": "m000 class-index frame empty: not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:34",
+"record": "web-wc8p2a-01",
+"class": "b",
+"why": "claims about sealed run never testing twist, control not met",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:45",
+"record": "web-wc8p2a-01",
+"class": "b",
+"why": "Wang-sequence argument not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:59",
+"record": "web-wc8p2a-01",
+"class": "a",
+"why": "n-gap 4+4, 36+36, 244+244 and h1 gap 4+4 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:67",
+"record": "web-wc8p2a-01",
+"class": "d",
+"why": "firing law computed once on the seat's code",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:24",
+"record": "web-wf25-02",
+"class": "e",
+"why": "bold heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:28",
+"record": "web-wf25-02",
+"class": "a",
+"why": "double-precision values 0.5999, 1.58, 1.77, \"4 resolved steps\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:29",
+"record": "web-wf25-02",
+"class": "a",
+"why": "0.3998, 1.0998, 1.2905-1.2937 figures; unsettled cell",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:48",
+"record": "web-wf25-02",
+"class": "b",
+"why": "dependence on first coordinate over 24 points not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:49",
+"record": "web-wf25-02",
+"class": "a",
+"why": "1.85 to 1.92, rates 1 and 2; how says 1/2 and 1; unsettled",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:53",
+"record": "web-wf25-02",
+"class": "b",
+"why": "(+-2/5, .) give mark's: not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:55",
+"record": "web-wf25-02",
+"class": "b",
+"why": "B1943's fixed-points claim, B1943 is theirs",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:57",
+"record": "web-wf25-02",
+"class": "a",
+"why": "agreement to 5e-4 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:100",
+"record": "web-wf25-02",
+"class": "b",
+"why": "independence of Re tau, of bounded end; \"not blind\"",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:101",
+"record": "web-wf25-02",
+"class": "c",
+"why": "ledger line \"computed once, expectations committed first\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:102",
+"record": "web-wf25-02",
+"class": "c",
+"why": "marked \"not settled\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:117",
+"record": "web-wf25-02",
+"class": "e",
+"why": "lead-in line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:118",
+"record": "web-wf25-02",
+"class": "a",
+"why": "1.599989, 1.299998 and run's 30/19, 22/17 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:15",
+"record": "web-wf2-01",
+"class": "e",
+"why": "scope/intro; four faces claim",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:18",
+"record": "web-wf2-01",
+"class": "b",
+"why": "geometry of all-mirror face not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:20",
+"record": "web-wf2-01",
+"class": "b",
+"why": "geometry of half-turn face, [x,y] conjugate to (abc)^-2",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:23",
+"record": "web-wf2-01",
+"class": "e",
+"why": "definition",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:35",
+"record": "web-wf2-01",
+"class": "c",
+"why": "\"what it shows\" reading; full finiteness is standard, not shown",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:52",
+"record": "web-wf2-01",
+"class": "b",
+"why": "comparison-table row on W-F1 results; not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:53",
+"record": "web-wf2-01",
+"class": "b",
+"why": "W-F1 A3 row; not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:54",
+"record": "web-wf2-01",
+"class": "c",
+"why": "\"strengthened given GM3\"; mixed faces not computed",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:55",
+"record": "web-wf2-01",
+"class": "b",
+"why": "W-F1 A4 row, k>=3 alive; not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:56",
+"record": "web-wf2-01",
+"class": "b",
+"why": "GM3/B749 row; not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:57",
+"record": "web-wf2-01",
+"class": "b",
+"why": "SE1/SE2 row, Gieseking; not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:37",
+"record": "web-wf22-01",
+"class": "a",
+"why": "third point 6e-5 against 1e-6 \"not met\"; extra figure",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:38",
+"record": "web-wf22-01",
+"class": "a",
+"why": "says 2.1 to 5.1; how says 2.3 to 5.1",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:43",
+"record": "web-wf22-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:53",
+"record": "web-wf22-01",
+"class": "b",
+"why": "action formula (a,b)->(a-b,2b-a), four points, two classes",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:58",
+"record": "web-wf22-01",
+"class": "b",
+"why": "one line up to sign, (1/5,2/5) = -(4/5,3/5); not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_first_row/FINDINGS:71",
+"record": "web-fr-01",
+"class": "e",
+"why": "heading with tag",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_first_row/FINDINGS:75",
+"record": "web-fr-01",
+"class": "c",
+"why": "Hill-Wootters/polarisation remark; \"its use is the content\"",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:15",
+"record": "web-fr-01",
+"class": "e",
+"why": "definition line",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:17",
+"record": "web-fr-01",
+"class": "e",
+"why": "definition line",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:29",
+"record": "web-fr-01",
+"class": "b",
+"why": "electron lies along theta triplet (B1649) not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:56",
+"record": "web-fr-01",
+"class": "b",
+"why": "exact 1/2 on tau = iy for all y; how gives only tau = i",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:16",
+"record": "web-wf8-01",
+"class": "e",
+"why": "definition/setup line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:28",
+"record": "web-wf8-01",
+"class": "b",
+"why": "GL(n-1,Z) claim and h1h1^-1 control not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:44",
+"record": "web-wf8-01",
+"class": "b",
+"why": "x3 image, exponential-growth claim, word-length remark not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F4_THE_NON_ORIENTABLE_CLOSING:22",
+"record": "web-wf4-01",
+"class": "c",
+"why": "pairing \"inferred from count\"; hand argument; referee check at n=3",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F4_THE_NON_ORIENTABLE_CLOSING:23",
+"record": "web-wf4-01",
+"class": "b",
+"why": "\"only non-split doublets are alpha x U\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW:40",
+"record": "web-thr-01",
+"class": "a",
+"why": "59 of 69 admitted, N=256 vs 384, run-of-five-letters not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:29",
+"record": "web-wc4-02",
+"class": "d",
+"why": "abelianisation Z cited not computed; conjugacy of x,y standard",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:31",
+"record": "web-wc4-02",
+"class": "t",
+"why": "text cut off; three script values fixed by definition, isomorphism untested",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:44",
+"record": "web-wc4-02",
+"class": "b",
+"why": "\"same as relay on every item of C\", other P-items unmoved; not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_4_THE_SYSTEMS_PAGE:47",
+"record": "web-wc8p4-01",
+"class": "b",
+"why": "t <= -3 case (imaginary field) not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1314",
+"record": "web-st13-02",
+"class": "e",
+"why": "heading / \"no error found\"",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1315",
+"record": "web-st13-02",
+"class": "e",
+"why": "provenance/scope line",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1323",
+"record": "web-st13-02",
+"class": "b",
+"why": "tau -> tau+25 phase 1 not in how",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1324",
+"record": "web-st13-02",
+"class": "d",
+"why": "8e-28 figure is the seat's own run, main does not run",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:1328",
+"record": "web-st13-02",
+"class": "e",
+"why": "scope line (not read by referee)",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:64",
+"record": "web-wz1-02",
+"class": "d",
+"why": "says \"Not recomputed: B1955 takes G3 as standing check\"; pointer line",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:668",
+"record": "web-st8-02",
+"class": "a",
+"why": "plant fires by 0.15 against 0.0205 not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:669",
+"record": "web-st8-02",
+"class": "a",
+"why": "norms differ by 0.149 against 0.124 not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:670",
+"record": "web-st8-02",
+"class": "a",
+"why": "least 2.959 against 2.729 not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:674",
+"record": "web-st8-02",
+"class": "d",
+"why": "label; G1 is the seat's own script, computed once",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:714",
+"record": "web-st8-02",
+"class": "c",
+"why": "proposal \"a seed would make them reproducible\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:1",
+"record": "web-wb2-first-01",
+"class": "t",
+"why": "text cut off mid-sentence; banner's referee results \"not sealed here\"",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS:73",
+"record": "web-wl1-02",
+"class": "c",
+"why": "unit itself says \"not independently checked\"",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:32",
+"record": "web-wf21-01",
+"class": "b",
+"why": "\"W-F18's two minor items taken\" is not mentioned in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:33",
+"record": "web-wf21-01",
+"class": "b",
+"why": "The moduli's sigma credited to B1735 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:34",
+"record": "web-wf21-01",
+"class": "b",
+"why": "The script asserting the values file's positions and options is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:36",
+"record": "web-wf21-01",
+"class": "a",
+"why": "Row indices (0,1,2,3,6,7,8), N_CAL 4,000 and seed 20261115 are not stated as checked by main",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:41",
+"record": "web-wf21-01",
+"class": "b",
+"why": "Commit a29c459a5 and the claim that agy-exp's output was committed unread at 48926341b are not checked",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:45",
+"record": "web-wf21-01",
+"class": "c",
+"why": "A proposal: what would make the ordering checkable",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:47",
+"record": "web-wf21-01",
+"class": "e",
+"why": "Heading \"What is not at issue\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:48",
+"record": "web-wf21-01",
+"class": "a",
+"why": "Times 12:45 and 16:28 and the \"delta is bound, not chosen\" claim are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:51",
+"record": "web-wf21-01",
+"class": "a",
+"why": "rms z 2.1 and 1.6 are not stated as computed by main",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:53",
+"record": "web-wf21-01",
+"class": "c",
+"why": "The judgement \"nothing here is chosen after the look\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:57",
+"record": "web-wf21-01",
+"class": "e",
+"why": "Scope or heading line for the four tests",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:58",
+"record": "web-wf21-01",
+"class": "a",
+"why": "Timing claims (08:40 before 12:45) and what was added after the values are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:61",
+"record": "web-wf21-01",
+"class": "b",
+"why": "\"No rule depends on another's outcome\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:62",
+"record": "web-wf21-01",
+"class": "b",
+"why": "The dropped step and the data files compared by program are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:73",
+"record": "web-wf21-01",
+"class": "a",
+"why": "The 1.7% to 2.2% widening and 1e-3 per-code error are arithmetic not stated as done by main",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:75",
+"record": "web-wf21-01",
+"class": "c",
+"why": "A proposal: the rule should say why it chose the stricter option",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:78",
+"record": "web-wf21-01",
+"class": "b",
+"why": "The git show from 48926341b, which is not in the fetch, is only partly covered (the root path was fixed; the git-show part was not)",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:82",
+"record": "web-wf21-01",
+"class": "e",
+"why": "Heading N5",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:87",
+"record": "web-wf21-01",
+"class": "e",
+"why": "Heading N6",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:91",
+"record": "web-wf21-01",
+"class": "b",
+"why": "The claim that test size is unaffected (a PASS at most about 1% of the time) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:96",
+"record": "web-wf21-01",
+"class": "e",
+"why": "Heading N7",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:35",
+"record": "web-wa3-05",
+"class": "b",
+"why": "Frame C T-phases e(-k^2/5), e(k^2/5), e(-17k^2/25) and agreement with B1953 are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:36",
+"record": "web-wa3-05",
+"class": "b",
+"why": "LR = -U mod 5, the symplectic basis, and U and U^2 conjugacy to T and T^2 are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:90",
+"record": "web-wa3-05",
+"class": "c",
+"why": "[J] reading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:92",
+"record": "web-wa3-05",
+"class": "b",
+"why": "The standard Weil representation statement is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:94",
+"record": "web-wa3-05",
+"class": "b",
+"why": "The shift group C5 as image of H1 of the double branched cover is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:96",
+"record": "web-wa3-05",
+"class": "e",
+"why": "Lead-in line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:99",
+"record": "web-wa3-05",
+"class": "a",
+"why": "The bilinear form -xy/5 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:101",
+"record": "web-wa3-05",
+"class": "b",
+"why": "The Heisenberg pairing as evaluation of deck characters is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:102",
+"record": "web-wa3-05",
+"class": "b",
+"why": "The Poincare-dual identification and the \"symplectic form up to -1\" are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:106",
+"record": "web-wa3-05",
+"class": "b",
+"why": "Labelling the clocks by k·v giving x^2/5 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:108",
+"record": "web-wa3-05",
+"class": "c",
+"why": "[J] judgement that the object does not fix the class",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:111",
+"record": "web-wa3-05",
+"class": "c",
+"why": "\"Coincidences of spectrum\" and the factor-of-2 shifts are a reading, not covered",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:114",
+"record": "web-wa3-05",
+"class": "b",
+"why": "U^2 against U for the double cover's monodromy is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:115",
+"record": "web-wa3-05",
+"class": "b",
+"why": "T^2 against T for the odd-flux modes is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:118",
+"record": "web-wa3-05",
+"class": "e",
+"why": "Heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:119",
+"record": "web-wa3-05",
+"class": "b",
+"why": "The claim that re-basing leaves the split, commutant and hypercharges unchanged is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:121",
+"record": "web-wa3-05",
+"class": "b",
+"why": "The need to identify lines with Weyl operators by diag(1,2) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:16",
+"record": "web-wf23-01",
+"class": "b",
+"why": "\"O1 to O10 stay closed\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:17",
+"record": "web-wf23-01",
+"class": "b",
+"why": "\"O4 keeps the caveat\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:18",
+"record": "web-wf23-01",
+"class": "b",
+"why": "A7 and A13 fixing the tolerance in advance is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:22",
+"record": "web-wf23-01",
+"class": "b",
+"why": "\"N7 settled by A13\" is not mentioned in the how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:23",
+"record": "web-wf23-01",
+"class": "b",
+"why": "\"Version 3 governs\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:24",
+"record": "web-wf23-01",
+"class": "b",
+"why": "\"Version 1 runs on sealed values, reported only\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:26",
+"record": "web-wf23-01",
+"class": "b",
+"why": "\"The correction is forced, not chosen\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:27",
+"record": "web-wf23-01",
+"class": "a",
+"why": "The tau->tau+1 failure above height 11 (P-853) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:29",
+"record": "web-wf23-01",
+"class": "a",
+"why": "Commits cf8b71000 at 17:29 and 14947e19f at 17:52 are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:32",
+"record": "web-wf23-01",
+"class": "b",
+"why": "\"Move-count options unchanged\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:49",
+"record": "web-wf23-01",
+"class": "b",
+"why": "The A7 condition is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:50",
+"record": "web-wf23-01",
+"class": "c",
+"why": "The seat's W-F22 work, and whether it counts as the independent second computation, is the seat's own and is left to main",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:53",
+"record": "web-wf23-01",
+"class": "b",
+"why": "S* not repeating in one turn is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:54",
+"record": "web-wf23-01",
+"class": "a",
+"why": "Residual 8e-16 and covariance under gamma^3 are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:59",
+"record": "web-wf23-01",
+"class": "c",
+"why": "A proposal: the rule should state the premise",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:64",
+"record": "web-wf23-01",
+"class": "b",
+"why": "That N1 to N6 still apply is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:65",
+"record": "web-wf23-01",
+"class": "b",
+"why": "N1 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:66",
+"record": "web-wf23-01",
+"class": "b",
+"why": "N2 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:67",
+"record": "web-wf23-01",
+"class": "b",
+"why": "N3 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:69",
+"record": "web-wf23-01",
+"class": "b",
+"why": "N4 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:70",
+"record": "web-wf23-01",
+"class": "b",
+"why": "N5 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:71",
+"record": "web-wf23-01",
+"class": "b",
+"why": "N6 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:72",
+"record": "web-wf23-01",
+"class": "e",
+"why": "Heading N8",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:140",
+"record": "web-wf19-01",
+"class": "c",
+"why": "The seat's own \"expectations met, plant fired\" and its prime 55456633 (main used 415801) are not main's",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:153",
+"record": "web-wf19-01",
+"class": "b",
+"why": "The claim that no doublet at the new levels had been computed before is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:155",
+"record": "web-wf19-01",
+"class": "b",
+"why": "E0, \"W-F6's law held on every character\", is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:160",
+"record": "web-wf19-01",
+"class": "c",
+"why": "A planted control's result: the weak plant, 58 doublets, and the referee's plants",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:164",
+"record": "web-wf19-01",
+"class": "d",
+"why": "Golden level 7 is \"not re-run\"; the figures given are the corollary's, not computed",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:17",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "\"Two resolutions agree within 1.6e-11 (A0)\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:18",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "The comparison column's 4.9e-7 on 24 cases at three golden points is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:19",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "The 2π log 2 shift of the sealed run and \"rotated placement off by 0.3 to 7\" are not covered",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:20",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "The comparison column's 1.9e-9 on nine cases is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:21",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "The comparison column's \"without the shift: 0.33 to 1.27\" is not covered",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:28",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "The fit misfit 9e-12 and the sealed run's A1 printing False are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:30",
+"record": "web-wc6p2-01",
+"class": "b",
+"why": "Post hoc 1, the wrong constant reading, is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:36",
+"record": "web-wc6p2-01",
+"class": "e",
+"why": "Lead-in to post hoc 2",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:37",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "C2: h=1e-4, 3.7e-7 and the 4.355 difference are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921:40",
+"record": "web-wc6p2-01",
+"class": "a",
+"why": "C1: the cut at k=30 versus 150 and 7.2e-11 are not covered",
+"decision": "P"
+},
+{
+"unit": "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:83",
+"record": "web-sr-02",
+"class": "b",
+"why": "Compatibility with fc's R72 count and the withdrawal of the seat's own first reading are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:51",
+"record": "web-view-01",
+"class": "e",
+"why": "Heading \"[E] (here), and a lead\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:184",
+"record": "web-view-01",
+"class": "b",
+"why": "The claim that the act's fixed line has exactly these two classes (B1943, W-F25) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:314",
+"record": "web-view-01",
+"class": "b",
+"why": "The claim that the fibre average is over the cusps of Klein's curve and the act fixes two of them is an implication, not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:639",
+"record": "web-st8-05",
+"class": "a",
+"why": "The figure \"136 files\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:643",
+"record": "web-st8-05",
+"class": "b",
+"why": "EXTRA naming W-C5, W-C6 part 2 and W-C8 parts 1 and 2a is only partly covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:644",
+"record": "web-st8-05",
+"class": "b",
+"why": "The ruling-relay point about web-st7-06 is not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:647",
+"record": "web-st8-05",
+"class": "a",
+"why": "\"2,571 pending in 49 unread files\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:649",
+"record": "web-st8-05",
+"class": "b",
+"why": "The reviews' four readings (79, 79b, 80, 81) are not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:650",
+"record": "web-st8-05",
+"class": "b",
+"why": "The October and early-November notes are not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:682",
+"record": "web-st8-05",
+"class": "b",
+"why": "W-F21's N1 to N3, N5 and N6 answered one line each is not covered",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:704",
+"record": "web-st8-05",
+"class": "e",
+"why": "Heading \"8.2. Still short\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:54",
+"record": "web-wa2-04",
+"class": "c",
+"why": "Stone-von Neumann is marked \"not independently checked; standard\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:56",
+"record": "web-wa2-04",
+"class": "b",
+"why": "\"The central character's class is the one choice left\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:73",
+"record": "web-wa2-04",
+"class": "e",
+"why": "Heading Step 3, a lead",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:77",
+"record": "web-wa2-04",
+"class": "d",
+"why": "The Abe, Kobayashi and Ohki citation is not read at source (the note says so)",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:184",
+"record": "web-wa2-04",
+"class": "d",
+"why": "The \"checked outside the project\" provenance is the literature citation, not read",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:29",
+"record": "web-wa2-06",
+"class": "e",
+"why": "Pointer line \"see § 3\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:137",
+"record": "web-wa2-06",
+"class": "a",
+"why": "The fixed-line count and the group column for p=3 are not stated",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:139",
+"record": "web-wa2-06",
+"class": "a",
+"why": "The fixed-line count 0 for p=7 is not stated",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:140",
+"record": "web-wa2-06",
+"class": "a",
+"why": "The fixed-line count 2 for p=11 is not stated",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:141",
+"record": "web-wa2-06",
+"class": "a",
+"why": "The fixed-line count 0 for p=13 is not stated",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:145",
+"record": "web-wa2-06",
+"class": "d",
+"why": "The half-spinor reason is \"not independently checked, standard\" (the note says not re-derived)",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:149",
+"record": "web-wa2-06",
+"class": "c",
+"why": "[J] judgement that the two criteria single out the same prime",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:149",
+"record": "web-wtau-01",
+"class": "e",
+"why": "Lead-in heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:150",
+"record": "web-wtau-01",
+"class": "b",
+"why": "The mirror-not-a-weave-move claim, W154's axis holder and B1704's minima are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:159",
+"record": "web-wtau-01",
+"class": "c",
+"why": "A judgement and mechanism reading (T4, P-139, B990, T6)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:39",
+"record": "web-wa3-06",
+"class": "a",
+"why": "The tolerances 6e-14 and 9e-16 are not covered",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:128",
+"record": "web-wa3-06",
+"class": "d",
+"why": "The coupling Λ²∧Λ²∧Λ¹→Λ⁵ is the Fock-space reading, which the how says is not derived",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:129",
+"record": "web-wa3-06",
+"class": "b",
+"why": "\"SL(2,F5) is perfect, so there is no other 1-dim character\" is not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:40",
+"record": "web-r80-02",
+"class": "b",
+"why": "The seat's line 279 (main's how says 277), the cue-word list, P-820 and P-817 claims and the sweep_probe result are not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:42",
+"record": "web-r80-02",
+"class": "a",
+"why": "Line 2763, forms G0 to G3, \"none of 53 controls\" and the P-820(8) claim are not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:43",
+"record": "web-r80-02",
+"class": "a",
+"why": "The figure 26 tests, the P-820(7) and B1896 claims and the code_probe result are not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:76",
+"record": "web-r80-03",
+"class": "e",
+"why": "Lead-in line",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:79",
+"record": "web-r80-03",
+"class": "b",
+"why": "Irreducibility of the polynomial and the post hoc zero of the printed identity are not covered",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_80_CHAT1:145",
+"record": "web-r80-03",
+"class": "b",
+"why": "The mechanics of the dated correction on B731 and \"nothing else changed\" are not covered",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:39",
+"record": "web-wf24-03",
+"class": "c",
+"why": "The expectation outcome \"X4 not met\" and \"not blind (smoke test)\"",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:84",
+"record": "web-wf24-03",
+"class": "a",
+"why": "The referee's 3,000 words and 0.0075 are not covered (main used 600 words)",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:708",
+"record": "web-st8-03",
+"class": "e",
+"why": "Lead-in naming the record and its verdict",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:711",
+"record": "web-st8-03",
+"class": "c",
+"why": "States a verdict (\"partial\") and a not-recomputed claim, not a result",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:89",
+"record": "web-p783-06",
+"class": "e",
+"why": "Heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:97",
+"record": "web-p783-06",
+"class": "e",
+"why": "Scope line: the lane's code and outputs are not opened",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:159",
+"record": "web-wa1-08",
+"class": "b",
+"why": "The claim that the referee's mirror covariance explains G1 (Part 2) and the \"hypothesis was wrong\" verdict are not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:77",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of finding O1, not a claim",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:79",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal, not a result",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:80",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"should be dated\": a proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:82",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O2",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:88",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:92",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O3",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:96",
+"record": "web-wf18-01",
+"class": "c",
+"why": "judgement that the PASS is not stricter; not computed",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:97",
+"record": "web-wf18-01",
+"class": "c",
+"why": "judgement about large-sigma rows beyond factor 3; no computation named",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:98",
+"record": "web-wf18-01",
+"class": "c",
+"why": "judgement that the calibrations differ",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:99",
+"record": "web-wf18-01",
+"class": "c",
+"why": "judgement \"nothing opens after it\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:100",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:103",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O4",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:108",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"should still be fixed now\": a proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:110",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:113",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O5",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:115",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"the rule should write it out\": a proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:117",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:120",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O6",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:122",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:124",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O7",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:126",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:128",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O8",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:131",
+"record": "web-wf18-01",
+"class": "a",
+"why": "figures 1.6 %, floor 0.10, bound 0.16: arithmetic not stated as computed by the owner",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:134",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:137",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O9",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:141",
+"record": "web-wf18-01",
+"class": "c",
+"why": "judgement \"early seal does no harm\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:143",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:146",
+"record": "web-wf18-01",
+"class": "e",
+"why": "heading of O10",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:148",
+"record": "web-wf18-01",
+"class": "c",
+"why": "\"Fix:\" proposal",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:818",
+"record": "web-st9-03",
+"class": "e",
+"why": "scope and summary line of the ten items",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:827",
+"record": "web-st9-03",
+"class": "b",
+"why": "\"by hand, not by H2\" reasoning (Out(E6)); `how` does not cover it",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:829",
+"record": "web-st9-03",
+"class": "c",
+"why": "the unit says these readings are not checked",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:843",
+"record": "web-st9-03",
+"class": "b",
+"why": "\"by hand\" argument on cusp rank; not computed",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:848",
+"record": "web-st9-03",
+"class": "a",
+"why": "\"10,240 of 122,880\" is the other script's output; `how` gives other figures",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:857",
+"record": "web-st9-03",
+"class": "d",
+"why": "Simpson's estimates are a cited theorem, not recomputed",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:859",
+"record": "web-st9-03",
+"class": "c",
+"why": "the filter's verdict is a reading; the unit says it is not verified",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:862",
+"record": "web-st9-03",
+"class": "e",
+"why": "heading of item 8",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:864",
+"record": "web-st9-03",
+"class": "e",
+"why": "scope line (\"superseded whole, but part stands\")",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:873",
+"record": "web-st9-03",
+"class": "b",
+"why": "W-B2 line 53 made PARTIAL is not mentioned in `how`",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:877",
+"record": "web-st9-03",
+"class": "e",
+"why": "heading of item 10",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:878",
+"record": "web-st9-03",
+"class": "c",
+"why": "seat's judgement on conditional versus verified; left to main",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:887",
+"record": "web-st9-03",
+"class": "b",
+"why": "claim about the seat's own scan and where items came from; not covered",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:7",
+"record": "web-wh1-01",
+"class": "d",
+"why": "the seat's own run at f2f019621 and its output file, not main's rerun",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:9",
+"record": "web-wh1-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:10",
+"record": "web-wh1-01",
+"class": "d",
+"why": "the seat's lookups through its mask, counts only",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:12",
+"record": "web-wh1-01",
+"class": "b",
+"why": "branch-versus-seat-list comparison not mentioned in `how`",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:14",
+"record": "web-wh1-01",
+"class": "d",
+"why": "the referee read's rerun, not main's",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:15",
+"record": "web-wh1-01",
+"class": "d",
+"why": "the 38 and G1-G3 counts \"recomputed independently\" by the seat",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:16",
+"record": "web-wh1-01",
+"class": "c",
+"why": "the unit says \"not independently checked\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:17",
+"record": "web-wh1-01",
+"class": "c",
+"why": "what is not tested: a scope line",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:22",
+"record": "web-wh1-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:23",
+"record": "web-wh1-01",
+"class": "d",
+"why": "847 ids and 27 seats are the seat's commit figures; main's run has 877",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:25",
+"record": "web-wh1-01",
+"class": "a",
+"why": "\"aged past 21 days 0, mirror lag 0\" not in `how`",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:26",
+"record": "web-wh1-01",
+"class": "d",
+"why": "\"skipped 5\" is the seat's figure; main's run reaches the hostile seat",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:29",
+"record": "web-wh1-01",
+"class": "b",
+"why": "the pin exception (the seat's own branch behind) is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:32",
+"record": "web-wh1-01",
+"class": "a",
+"why": "\"56 relays\" and \"last commit 2026-11-15\" not in `how`",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:36",
+"record": "web-wh1-01",
+"class": "d",
+"why": "114 is the seat's count; main's rerun gives 116",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:41",
+"record": "web-wh1-01",
+"class": "a",
+"why": "per-seat table row figures",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:42",
+"record": "web-wh1-01",
+"class": "a",
+"why": "per-seat table row figures",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:46",
+"record": "web-wh1-01",
+"class": "a",
+"why": "the \"38 not named by file\" list is not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:47",
+"record": "web-wh1-01",
+"class": "b",
+"why": "claim about ids recurring on the seat pages",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:48",
+"record": "web-wh1-01",
+"class": "a",
+"why": "specific page-content claims (C13-C21, R80A, R80B, M45)",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:49",
+"record": "web-wh1-01",
+"class": "a",
+"why": "specific page-content claims",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:50",
+"record": "web-wh1-01",
+"class": "c",
+"why": "\"counts match ids, not answers\": a judgement",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:51",
+"record": "web-wh1-01",
+"class": "a",
+"why": "\"eight of 28\" figure",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:52",
+"record": "web-wh1-01",
+"class": "a",
+"why": "cross-page id recurrence",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:53",
+"record": "web-wh1-01",
+"class": "c",
+"why": "judgement \"looks like missing bookkeeping\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:54",
+"record": "web-wh1-01",
+"class": "b",
+"why": "claim about the instrument's --strict mode and ageing; not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:56",
+"record": "web-wh1-01",
+"class": "a",
+"why": "date ranges and the 114/38 figures",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:120",
+"record": "web-sel-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:130",
+"record": "web-sel-01",
+"class": "b",
+"why": "B1646's D4 finding is another record's; not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:131",
+"record": "web-sel-01",
+"class": "b",
+"why": "claim that interior minima need one of two things; not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:136",
+"record": "web-sel-01",
+"class": "c",
+"why": "interpretive reading of \"the hierarchy\"",
+"decision": "N"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:173",
+"record": "web-sel-01",
+"class": "a",
+"why": "NPP figures (0.0145/(m+0.0625), 68.78m), O(1-20) terms; literature and \"unsealed\" exploration",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:243",
+"record": "web-sel-01",
+"class": "b",
+"why": "claim that the residual act is the thread's own",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:244",
+"record": "web-sel-01",
+"class": "b",
+"why": "monodromy description not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:245",
+"record": "web-sel-01",
+"class": "b",
+"why": "B366 puncture fixed point and the S3 permutation claim not covered",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:252",
+"record": "web-sel-01",
+"class": "b",
+"why": "curve counts and \"covariant\" claims in the A4 row beyond the mod-2 action",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:253",
+"record": "web-sel-01",
+"class": "b",
+"why": "curve counts and \"covariant\" claims in the D4 row beyond the mod-2 action",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:254",
+"record": "web-sel-01",
+"class": "b",
+"why": "curve counts and \"every subset\" claims in the V4 row",
+"decision": "P"
+},
+{
+"unit": "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:256",
+"record": "web-sel-01",
+"class": "b",
+"why": "\"involution acts freely on the cusp torus\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:17",
+"record": "web-wf7-01",
+"class": "e",
+"why": "definitional scope line on faces and history steps",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:32",
+"record": "web-wf7-01",
+"class": "d",
+"why": "referee's independent recomputation is not main's",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:45",
+"record": "web-wf7-01",
+"class": "e",
+"why": "heading \"The classes\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:46",
+"record": "web-wf7-01",
+"class": "b",
+"why": "\"it is a commutator... places no constraint\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:48",
+"record": "web-wf7-01",
+"class": "b",
+"why": "\"other labellings give one non-zero class too\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:71",
+"record": "web-wf7-01",
+"class": "b",
+"why": "\"W4 stands\" and \"equal the sealed ones\": the sealed MHH counts are not in `how`",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:45",
+"record": "web-wc5-02",
+"class": "d",
+"why": "sympy check by \"post hoc 1 R1\" is another run; `how` says by hand",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:70",
+"record": "web-wc5-02",
+"class": "a",
+"why": "grid of 306 points, the a = -8..8 list, the a = -2, 5, 7 rounding discussion; `how` names a = -4..4",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:89",
+"record": "web-wc5-02",
+"class": "c",
+"why": "scope and limits line: \"not addressed\", \"not this note's question\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:15",
+"record": "web-wc6p1-01",
+"class": "c",
+"why": "\"Suggested:\" rewording, a proposal",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD:24",
+"record": "web-wc6p1-01",
+"class": "c",
+"why": "\"Suggested:\" rewording, a proposal",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:70",
+"record": "web-view-02",
+"class": "c",
+"why": "\"that the measure is tau's choice... is W-F24's reading\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:73",
+"record": "web-view-02",
+"class": "d",
+"why": "W-F26 at the mark is the seat's own, computed once",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:248",
+"record": "web-view-02",
+"class": "c",
+"why": "\"in W-B2 that is a reading, computed once\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:367",
+"record": "web-view-02",
+"class": "e",
+"why": "scope line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:81",
+"record": "web-wb2-d1-05",
+"class": "c",
+"why": "\"Next, if main wants it\": a proposal; the \"k about -15\" is the seat's",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:130",
+"record": "web-wb2-d1-05",
+"class": "e",
+"why": "heading \"How far that reaches\"",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:137",
+"record": "web-wb2-d1-05",
+"class": "a",
+"why": "\"3e-8\" is the seat's figure; `how` supersedes it with exact agreement",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:21",
+"record": "web-wf12-01",
+"class": "b",
+"why": "description of characters; \"this run did not print |T|\"",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:23",
+"record": "web-wf12-01",
+"class": "b",
+"why": "control reproducing part 2a's post hoc 2 (G2, G3) not in `how`",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:24",
+"record": "web-wf12-01",
+"class": "d",
+"why": "referee's recomputation on other primes is not main's",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:26",
+"record": "web-wf12-01",
+"class": "c",
+"why": "planted-control result (12 of 64, 180 of 2,662)",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:27",
+"record": "web-wf12-01",
+"class": "c",
+"why": "plant \"replacing mu by t... not caught\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F12_THE_DOUBLETS_CLASS_INDEX_AT_ODD_LEVELS:29",
+"record": "web-wf12-01",
+"class": "b",
+"why": "\"0 failures\" and the W-F6 gap law on every character; `how` gives only the gap counts",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:26",
+"record": "web-wa2-03",
+"class": "t",
+"why": "text cut at \"M-I =\"; diag(1,4) and the swap also not in `how`",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:46",
+"record": "web-wa2-03",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:51",
+"record": "web-wa2-03",
+"class": "c",
+"why": "marked [J]",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:52",
+"record": "web-wa2-03",
+"class": "c",
+"why": "passive relabelling and the convention remark, attributed to the referee",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:182",
+"record": "web-wa2-03",
+"class": "d",
+"why": "provenance row (computed once, referee recomputed all four Weil classes)",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:325",
+"record": "web-st5-03",
+"class": "d",
+"why": "the seat's own script; `how` is main's R4 and R5",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:326",
+"record": "web-st5-03",
+"class": "d",
+"why": "base point and run description are the seat's",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:327",
+"record": "web-st5-03",
+"class": "a",
+"why": "9.6e-17 and 6.8e-17 are the seat's figures; main's figures differ",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:329",
+"record": "web-st5-03",
+"class": "d",
+"why": "the seat's label, hashes and commits",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:333",
+"record": "web-st5-03",
+"class": "b",
+"why": "claim about what W-A3 states at line 86",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:334",
+"record": "web-st5-03",
+"class": "d",
+"why": "\"computed once... not recomputed on main\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:72",
+"record": "web-wf1-02",
+"class": "b",
+"why": "the abelianisation of canonical words and of the first 200 inverses, and the \"rotations not checked\" remark, are not in `how`",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:74",
+"record": "web-wf1-02",
+"class": "c",
+"why": "\"reversing the act is a symmetry\": an interpretation",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:22",
+"record": "web-wz1-01",
+"class": "a",
+"why": "ratio to 15 digits at four values of s, lattice-sum 2e-6 at cut 400, narrow class number 1 are not in `how`",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:24",
+"record": "web-wz1-01",
+"class": "a",
+"why": "2.0298832128193072500 and 4e-41; `how` says 3.9e-31",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:44",
+"record": "web-wz1-01",
+"class": "b",
+"why": "claim about the record's formulas, B1917 and B1920",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:89",
+"record": "web-wz1-01",
+"class": "d",
+"why": "provenance row (computed once, referee)",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:91",
+"record": "web-wz1-01",
+"class": "d",
+"why": "provenance row (computed once, referee)",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:59",
+"record": "web-st-lists-01",
+"class": "d",
+"why": "the unit says none of stage 4 is recomputed on main",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:60",
+"record": "web-st-lists-01",
+"class": "d",
+"why": "stage 4 figures, 0.009 to 3.3",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:61",
+"record": "web-st-lists-01",
+"class": "d",
+"why": "stage 4 figures, 0.004 to 0.040 and 0.57",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:62",
+"record": "web-st-lists-01",
+"class": "d",
+"why": "stage 4, \"3e-8\"",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:161",
+"record": "web-st-lists-01",
+"class": "d",
+"why": "stage 3 and 4 finding, the metric-dependent answer",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:163",
+"record": "web-st-lists-01",
+"class": "d",
+"why": "description of the seat's script and the 0.54 and 0.70 figures",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:167",
+"record": "web-st-lists-01",
+"class": "e",
+"why": "list fragment (the quadrature norms)",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:168",
+"record": "web-st-lists-01",
+"class": "e",
+"why": "list fragment (\"the metric, which is the fork\")",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:169",
+"record": "web-st-lists-01",
+"class": "d",
+"why": "\"Stage 4 is not read\" (row 1848)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:153",
+"record": "web-wa3-08",
+"class": "e",
+"why": "scope lead-in line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:159",
+"record": "web-wa3-08",
+"class": "c",
+"why": "\"none of this bears on M39's question\" is a judgement; the expectation was wrong",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:22",
+"record": "web-p783-03",
+"class": "b",
+"why": "claims no exceptional eigenvalue for 0 < t < 1/2; `how` scans only 0.01 to 0.49 and says the rest is unscanned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:36",
+"record": "web-wtau-03",
+"class": "e",
+"why": "Heading/scope line (\"what the record already holds\"); not a checked claim.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:37",
+"record": "web-wtau-03",
+"class": "b",
+"why": "Only the GENESIS v1.34 quote is checked; v1.35, v1.41 and v1.46 retirement/scoping claims are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:45",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W1–W4 and WM1 module claim is not among the checked quotes or restated arcs.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:47",
+"record": "web-wtau-03",
+"class": "e",
+"why": "List heading for the W51/row 1075 functionals; not a claim.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:48",
+"record": "web-wtau-03",
+"class": "b",
+"why": "The Jacobi flatness of the joint determinant (W51) is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:49",
+"record": "web-wtau-03",
+"class": "b",
+"why": "Critical-point claim (minima at ω, maximum of y|η|⁴, i a saddle) is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:57",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W59 sector-label quote is not among the checked quotes.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:58",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W59/FK11 quotes are not among the checked quotes.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:72",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W154/row 1388/P-380 census quote is not covered; only B-arcs and rows 1075, 1076, 1438 and 1440 are.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:75",
+"record": "web-wtau-03",
+"class": "e",
+"why": "Heading naming sources (rows 1438, 1440, 1452, 1447, 1454, W175, W176); not a claim.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:82",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W175/P-277/P-411 post hoc claim on slope-2/5 classes is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:84",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W175/W176 no-minimum claim (P-277) is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:87",
+"record": "web-wtau-03",
+"class": "b",
+"why": "P-327, the seat's own earlier result, is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:88",
+"record": "web-wtau-03",
+"class": "e",
+"why": "Heading line for the list of holders.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:89",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W150 row 1371 claim is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:91",
+"record": "web-wtau-03",
+"class": "b",
+"why": "W154's chosen contents are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:93",
+"record": "web-wtau-03",
+"class": "b",
+"why": "P-139 / GENESIS FK9 v1.45–v1.46 is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:95",
+"record": "web-wtau-03",
+"class": "b",
+"why": "B990's law is not among the listed arcs.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:96",
+"record": "web-wtau-03",
+"class": "b",
+"why": "P-367 is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:97",
+"record": "web-wtau-03",
+"class": "b",
+"why": "The SM seat's relay §69 / row 1104 reading is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:105",
+"record": "web-wtau-03",
+"class": "b",
+"why": "P-495 quote is not among the checked quotes.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:108",
+"record": "web-wtau-03",
+"class": "e",
+"why": "\"Not found\" is an absence/scope line, not a verified computation.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:134",
+"record": "web-wtau-03",
+"class": "b",
+"why": "The W2 common-point claim is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:138",
+"record": "web-wtau-03",
+"class": "b",
+"why": "The T4/T2 claims on matter contents and W59/FK11 are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:33",
+"record": "web-r2-01",
+"class": "b",
+"why": "B151's Dimofte-row quote is not among the quotes checked; only the Córdova–Jafferis quotes are.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:40",
+"record": "web-r2-01",
+"class": "b",
+"why": "The claim about B1012's display and Witten's k+iσ is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:41",
+"record": "web-r2-01",
+"class": "b",
+"why": "The B1012 note quote and the DGLZ σ branch are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:43",
+"record": "web-r2-01",
+"class": "d",
+"why": "Absence claim resting on B151's reading of sources the note says were not re-read.",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:54",
+"record": "web-r2-01",
+"class": "e",
+"why": "Lead-in heading to a list of quotes.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:56",
+"record": "web-r2-01",
+"class": "b",
+"why": "R76-7 note quotes are not among the quotes checked.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:64",
+"record": "web-r2-01",
+"class": "b",
+"why": "σ = t − k, ca92036ca and f823dd25f are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:68",
+"record": "web-r2-01",
+"class": "b",
+"why": "R76-7 quote on the algebraic integer in ℚ(√5) is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:70",
+"record": "web-r2-01",
+"class": "b",
+"why": "Coloured Jones in ℤ[q^±1] and cyclotomic integers are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:72",
+"record": "web-r2-01",
+"class": "c",
+"why": "Reading about the kind of number; note says such statements are readings.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:73",
+"record": "web-r2-01",
+"class": "c",
+"why": "Self-described observation, not an exclusion; B650/B660 quote not covered.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:86",
+"record": "web-r2-01",
+"class": "b",
+"why": "The B1034/P-731/f823dd25f table rows are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:87",
+"record": "web-r2-01",
+"class": "b",
+"why": "The B1034 \"in tension\" quote and the P-731 row are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:88",
+"record": "web-r2-01",
+"class": "b",
+"why": "The B1034 stage-pin row and V3(c) quote are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:92",
+"record": "web-r2-01",
+"class": "b",
+"why": "Geometry-limit pointer and 991d7e2ac extrapolation are not covered; a pointer, not a claim.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:96",
+"record": "web-r2-01",
+"class": "b",
+"why": "The goal's scale clause and P-719 Q1 are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:102",
+"record": "web-r2-01",
+"class": "c",
+"why": "A proposed action (\"Record the answer\"), not a verified claim.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:106",
+"record": "web-r2-01",
+"class": "c",
+"why": "A proposed action (\"Record the pins of σ\"), not a verified claim.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:976",
+"record": "web-st11-01",
+"class": "d",
+"why": "The relay's \"55 files\" count is stated as not rechecked.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:983",
+"record": "web-st11-01",
+"class": "b",
+"why": "G1 script committed before the run, and outputs not committed; not in the how.",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:986",
+"record": "web-st11-01",
+"class": "a",
+"why": "The 2.5e-13 maximum is not in the how, which says only \"below 1e-6\".",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:988",
+"record": "web-st11-01",
+"class": "c",
+"why": "Proposed label (\"reproduced\"), a judgement rather than a computed claim.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:996",
+"record": "web-st11-01",
+"class": "e",
+"why": "Scope/list line of what M49 does not take up.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:997",
+"record": "web-st11-01",
+"class": "e",
+"why": "Scope/list pointer to unit 155.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:116",
+"record": "web-wf6-02",
+"class": "c",
+"why": "Planted control NP's result (\"missed solutions for every m\") is not in the how.",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:150",
+"record": "web-rv-03",
+"class": "c",
+"why": "\"D becomes four counted bits is a reading\", marked as a reading.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:153",
+"record": "web-rv-03",
+"class": "b",
+"why": "The triplet's S-law forcing a₃(i)=0 is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:170",
+"record": "web-rv-03",
+"class": "b",
+"why": "The claims that frame C's 25th roots come from the characteristic and that nothing computed is of level 25 are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:174",
+"record": "web-rv-03",
+"class": "c",
+"why": "The Fock-space reading, a premise; the note says it is not derived.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:175",
+"record": "web-rv-03",
+"class": "c",
+"why": "The top wedge as the up coupling, a premise/reading and not computed.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1059",
+"record": "web-st12b-01",
+"class": "a",
+"why": "The 56 non-split modules figure (I3) is not in the how.",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:1062",
+"record": "web-st12b-01",
+"class": "a",
+"why": "The orders 10, 320, 20,480 and the image holding −1 are not in the how; only −4.2e-45 is.",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:1102",
+"record": "web-st12b-01",
+"class": "e",
+"why": "Heading line for the list of short records.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:1120",
+"record": "web-st12b-01",
+"class": "b",
+"why": "The claim about what B1952 computes (τ→τ+1, not S) is not covered.",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:23",
+"record": "web-wf20-01",
+"class": "b",
+"why": "The seal/commit hashes and the \"all three expectations met\" account are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:42",
+"record": "web-wf20-01",
+"class": "c",
+"why": "The planted control's result is not covered.",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F20_B1936S_PREMISE_IS_A_CHOICE_IN_FRAME_C:47",
+"record": "web-wf20-01",
+"class": "b",
+"why": "The flipped-embedding remark (class is not the degree) is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_79_CHAT1:21",
+"record": "web-r79-01",
+"class": "a",
+"why": "The 0.06/0.08/0.08, 12 against 0.0667 and \"five of six cells\" figures are not in the how.",
+"decision": "P"
+},
+{
+"unit": "web:REVIEW_79_CHAT1:23",
+"record": "web-r79-01",
+"class": "a",
+"why": "The \"19 such rows at v1.64\" figure from the seat's K2b is not in the how.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:18",
+"record": "web-wf11-01",
+"class": "b",
+"why": "The E₅ = F₄ records, genus 2 and one cusp are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:21",
+"record": "web-wf11-01",
+"class": "b",
+"why": "The cusp group ⟨t, λ⟩ with μ = t is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:22",
+"record": "web-wf11-01",
+"class": "e",
+"why": "Heading line for the recipe.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:23",
+"record": "web-wf11-01",
+"class": "b",
+"why": "The B1438 recipe (character ℓ, class c(λ)=1) is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:24",
+"record": "web-wf11-01",
+"class": "b",
+"why": "The V(ℓ, α) matrix is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F11_FIVE_DISTINCTIONS_CARRY_THE_FRAMES_MATTER:37",
+"record": "web-wf11-01",
+"class": "b",
+"why": "H₃'s matrix and its conjugacy to LR are not covered; the how covers only the control census.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:32",
+"record": "web-wf17-02",
+"class": "b",
+"why": "Element-order histograms and associativity on all triples are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:42",
+"record": "web-wf17-02",
+"class": "b",
+"why": "The Q2 two-constructions agreement is not covered; the how covers Q1 only.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:43",
+"record": "web-wf17-02",
+"class": "b",
+"why": "The Q4 word-variant invariance is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:44",
+"record": "web-wf17-02",
+"class": "e",
+"why": "Heading line for the Q3 checks.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:45",
+"record": "web-wf17-02",
+"class": "b",
+"why": "The |Hom| divisible by |H| check (Solomon) is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:47",
+"record": "web-wf17-02",
+"class": "a",
+"why": "The Q5 fibre torsion 1, 12, 15 is not in the how.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:51",
+"record": "web-wf17-02",
+"class": "e",
+"why": "A statement of what the seat read of the other note, not a computed claim.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:289",
+"record": "web-st5-01",
+"class": "e",
+"why": "Heading line.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:308",
+"record": "web-st5-01",
+"class": "a",
+"why": "The register recount (16 files, 1167, 156, 5, 85, 921) is not in the how.",
+"decision": "P"
+},
+{
+"unit": "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:13",
+"record": "web-i26-01",
+"class": "d",
+"why": "Contains the Betti-sum expressions the note says are misprinted; the Sym = D₄ and order claims are also not covered.",
+"decision": "P"
+},
+{
+"unit": "web:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE:27",
+"record": "web-i26-01",
+"class": "b",
+"why": "The \"five benches found zero independently\" claim is not covered.",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:82",
+"record": "web-st-1d",
+"class": "e",
+"why": "Heading of a list of unread work.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:83",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:85",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:87",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:89",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:91",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list heading.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:92",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:93",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:94",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:96",
+"record": "web-st-1d",
+"class": "e",
+"why": "Scope line.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:97",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:99",
+"record": "web-st-1d",
+"class": "e",
+"why": "File list.",
+"decision": "N"
+},
+{
+"unit": "web:REVIEW_79_CHAT1:69",
+"record": "web-r79-02",
+"class": "a",
+"why": "The 111 rulings and \"add to 108\" figures are not in the how.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:41",
+"record": "web-wc4-03",
+"class": "b",
+"why": "Standard facts (b) and (c), about F₂² and SL(2) over the residue field, are not covered; the how covers only (a).",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:25",
+"record": "web-wz1-05",
+"class": "b",
+"why": "The PSL versus PSL(2,ℤ[ω]/N) centre remark and \"written before B794's code was seen\" are not covered.",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:92",
+"record": "web-wz1-05",
+"class": "d",
+"why": "\"Again by the referee\" is the other session's own check, not main's.",
+"decision": "C"
+},
+{
+"unit": "web:STATUS_CHAT1:67",
+"record": "web-st-lists-02",
+"class": "e",
+"why": "Heading.",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:68",
+"record": "web-st-lists-02",
+"class": "c",
+"why": "\"Bears on nothing now\" is a judgement, and \"the note gives only up\" is not computed.",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:16",
+"record": "web-wf6-01",
+"class": "e",
+"why": "setup definition (G, F, t, phi), not a computed claim",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:17",
+"record": "web-wf6-01",
+"class": "e",
+"why": "setup definition (phi(lambda), s)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:18",
+"record": "web-wf6-01",
+"class": "e",
+"why": "setup definition (mu, chi)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:20",
+"record": "web-wf6-01",
+"class": "a",
+"why": "referee's prime 9646561 and chi(t)=9471113 failure not covered; text cut off at 700 characters",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:30",
+"record": "web-wf6-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:34",
+"record": "web-wf6-01",
+"class": "e",
+"why": "setup line (\"Let c be a cocycle\")",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:42",
+"record": "web-wf6-01",
+"class": "b",
+"why": "theta=1 case, hyperbolic A having no root-of-unity eigenvalue: how only says the exception is handled",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:46",
+"record": "web-wf6-01",
+"class": "c",
+"why": "corollary marked \"not independently checked\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:51",
+"record": "web-wf6-01",
+"class": "b",
+"why": "claim of exactly one chi with chi(mu)=-1 and one with +1 per theta not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:52",
+"record": "web-wf6-01",
+"class": "b",
+"why": "the G4 identification (part 2a) not covered by how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:57",
+"record": "web-wf6-01",
+"class": "b",
+"why": "B1438 recipe and Klein-bottle bar as special cases, not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:60",
+"record": "web-wf6-01",
+"class": "a",
+"why": "t-values being 2e-th roots plus 3 further elements per fibre part not stated in how; lead-in",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:62",
+"record": "web-wf6-01",
+"class": "a",
+"why": "\"5 to 1,669... 1,769\" characters per level differs from how's 2 to 1,682",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:66",
+"record": "web-wf6-01",
+"class": "b",
+"why": "phi_B analysis (conjugate to J3, torsion 3, 9, 36, not a non-metallic test) not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:71",
+"record": "web-wf6-01",
+"class": "e",
+"why": "lead-in line to the table",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F6_THE_CHARACTER_GAP_LAW_AND_THE_NORMALISER:80",
+"record": "web-wf6-01",
+"class": "a",
+"why": "phi_B value 8 not in how's list of data",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:83",
+"record": "web-wf17-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:84",
+"record": "web-wf17-04",
+"class": "e",
+"why": "definition of the map and kappa",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:85",
+"record": "web-wf17-04",
+"class": "b",
+"why": "ideal equals phi_m(p)-p for m<=3 (T1) not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:87",
+"record": "web-wf17-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:88",
+"record": "web-wf17-04",
+"class": "d",
+"why": "method (Groebner factor-splitting) is the seat's; the certificate is not main's",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:89",
+"record": "web-wf17-04",
+"class": "d",
+"why": "containment, dimension and irreducibility of each component; completeness not recomputed per note",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:124",
+"record": "web-wf17-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:125",
+"record": "web-wf17-04",
+"class": "a",
+"why": "predicted line counts 0,1,1,1,4,5 over C not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:127",
+"record": "web-wf17-04",
+"class": "b",
+"why": "claim about what the sealed check compared, not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:135",
+"record": "web-wf17-04",
+"class": "d",
+"why": "seat's post hoc 1 (H2) at m=2,4,6,8, not main's run",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:136",
+"record": "web-wf17-04",
+"class": "b",
+"why": "\"count at m=6 as predicted\" not specified in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:217",
+"record": "web-wf17-04",
+"class": "e",
+"why": "status table row",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:218",
+"record": "web-wf17-04",
+"class": "e",
+"why": "status table row",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:220",
+"record": "web-wf17-04",
+"class": "e",
+"why": "provenance statement (no referee read)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:226",
+"record": "web-wf17-04",
+"class": "e",
+"why": "provenance and blindness statement",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:231",
+"record": "web-wf17-04",
+"class": "e",
+"why": "method description (seat's own script)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:232",
+"record": "web-wf17-04",
+"class": "b",
+"why": "E0 identity checked at m=1 to 7; how covers m=1 to 6",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:235",
+"record": "web-wf17-04",
+"class": "e",
+"why": "lead-in line",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:237",
+"record": "web-wf17-04",
+"class": "b",
+"why": "gcd-of-minors curve construction not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:251",
+"record": "web-wf17-04",
+"class": "a",
+"why": "E0 at m=1 to 7 against how's m=1 to 6",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:253",
+"record": "web-wf17-04",
+"class": "d",
+"why": "\"whole vertical part\" is a completeness claim, which the note says is not recomputed",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:261",
+"record": "web-wf17-04",
+"class": "d",
+"why": "note's statements hold at m=1 to 6: includes degrees, kappa counts and completeness not recomputed",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:272",
+"record": "web-wf17-04",
+"class": "e",
+"why": "editorial line about the title",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:280",
+"record": "web-wf17-04",
+"class": "e",
+"why": "file list",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:282",
+"record": "web-wf17-04",
+"class": "e",
+"why": "provenance statement",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:138",
+"record": "web-wf17-04",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:116",
+"record": "web-wa1-02",
+"class": "a",
+"why": "referee's 2.3e-14 at three tau values; how gives main's 3e-16",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:118",
+"record": "web-wa1-02",
+"class": "b",
+"why": "reflection tau to 1-conj(tau) reversing the axis not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:121",
+"record": "web-wa1-02",
+"class": "c",
+"why": "the rule is a proposal (\"read frame C where...\")",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:123",
+"record": "web-wa1-02",
+"class": "c",
+"why": "provenance: rule proposed after the look",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:124",
+"record": "web-wa1-02",
+"class": "b",
+"why": "apex (1+i sqrt5)/2 fixed by the reflection not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:144",
+"record": "web-wa1-02",
+"class": "a",
+"why": "\"z(s0) comes out as i to 15 digits\" and the frame transcription not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:152",
+"record": "web-wa1-02",
+"class": "c",
+"why": "I4 includes the 4.4e-3 and 0.3% judgement that the conclusion is unaffected",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:169",
+"record": "web-wa1-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:170",
+"record": "web-wa1-02",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:96",
+"record": "web-wa1-04",
+"class": "b",
+"why": "SE3 (level 5 tick) is not among the S01-S03 / C01-C09 ids checked",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:98",
+"record": "web-wa1-04",
+"class": "b",
+"why": "dictionary charges and pairing, and the replacement by postulate D (a proposal)",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:99",
+"record": "web-wa1-04",
+"class": "b",
+"why": "B1943 theorem (act fixes exactly one line) not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:102",
+"record": "web-wa1-04",
+"class": "b",
+"why": "B1941, B1936 and the H1/H3 equivalence at tau=i not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:104",
+"record": "web-wa1-04",
+"class": "b",
+"why": "W-F22 and A7/A14 consistency reasoning; how only says S* is out by B1922",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:105",
+"record": "web-wa1-04",
+"class": "c",
+"why": "\"one counted rule\" in place of the measure is a proposal",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:106",
+"record": "web-wa1-04",
+"class": "a",
+"why": "21% and 0.02 (H4) figures not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:107",
+"record": "web-wa1-04",
+"class": "a",
+"why": "1e-5 horoball match (B1932) not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:66",
+"record": "web-wa3-04",
+"class": "e",
+"why": "bold verdict heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:72",
+"record": "web-wa3-04",
+"class": "b",
+"why": "\"every phase c=0-4\" and \"presumes the lines carry one of the four products\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:76",
+"record": "web-wa3-04",
+"class": "d",
+"why": "note says the sign direction on this line was since corrected",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:79",
+"record": "web-wa3-04",
+"class": "b",
+"why": "agreement with W-A2's referee not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:81",
+"record": "web-wa3-04",
+"class": "c",
+"why": "marked [J]",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:84",
+"record": "web-wa3-04",
+"class": "d",
+"why": "note says the sign direction was since corrected; \"down 4, lepton 1\" and the expectation (E-D) are the seat's",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:169",
+"record": "web-wa3-04",
+"class": "e",
+"why": "status row; second half recomputed \"independently\" by the seat's referee",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:31",
+"record": "web-wb2-d1-02",
+"class": "a",
+"why": "seat's residuals 3.2e-10 and 0.56-1.2; main's are 1e-15, 0.31, 0.54",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:32",
+"record": "web-wb2-d1-02",
+"class": "a",
+"why": "seat's residuals and 0.68-0.97 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:33",
+"record": "web-wb2-d1-02",
+"class": "a",
+"why": "seat's 5.3e-15 and 1.2 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:34",
+"record": "web-wb2-d1-02",
+"class": "a",
+"why": "seat's 7.3e-15 and 1.4-2.4 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:35",
+"record": "web-wb2-d1-02",
+"class": "a",
+"why": "seat's 5.1e-15 etc. against main's 4.7e-16",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:39",
+"record": "web-wb2-d1-02",
+"class": "d",
+"why": "the seat's failed test U1; per note main's precision differs",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:41",
+"record": "web-wb2-d1-02",
+"class": "c",
+"why": "expectation (\"not expected to be invariant\")",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:43",
+"record": "web-wb2-d1-02",
+"class": "a",
+"why": "1e-14 is the seat's; main's is 1e-15",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:52",
+"record": "web-wb2-d1-02",
+"class": "a",
+"why": "\"to 1e-14\" is the seat's; main's is 4.7e-16",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:55",
+"record": "web-wb2-d1-02",
+"class": "b",
+"why": "integer-charge condition (c q_H even) not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:92",
+"record": "web-wb2-d1-02",
+"class": "e",
+"why": "status row (referee, 6e-15)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:93",
+"record": "web-wb2-d1-02",
+"class": "e",
+"why": "status row",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:20",
+"record": "web-wc8p5-01",
+"class": "b",
+"why": "m005/s464, GENESIS and B1925 claims not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:22",
+"record": "web-wc8p5-01",
+"class": "a",
+"why": "\"2 fibre-torsion characters (of 18)\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:23",
+"record": "web-wc8p5-01",
+"class": "a",
+"why": "\"8 of 54\" fibre-torsion characters, \"indices sum to 0\" and the firing law on all 56 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:25",
+"record": "web-wc8p5-01",
+"class": "b",
+"why": "cone points k=2,3,4 not in how; how's k=1..6 is on the closed objects",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:28",
+"record": "web-wc8p5-01",
+"class": "a",
+"why": "golden counts 0,0,3, the 16 characters and the 2 at levels 1 and 2 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_5_THE_BRONZE_RIVAL:46",
+"record": "web-wc8p5-01",
+"class": "c",
+"why": "observation, \"Not proved here\"; G4 identification and levels 5 and 7 not covered",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:26",
+"record": "web-wc5-01",
+"class": "a",
+"why": "main's 104 maps with families to 300 against how's 44; the seat's column is not main's",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:28",
+"record": "web-wc5-01",
+"class": "a",
+"why": "search bounds 12 and 9 and the 88 split not stated in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:31",
+"record": "web-wc5-01",
+"class": "t",
+"why": "cut off at 700 characters (\"Main's pa\")",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:84",
+"record": "web-wc5-01",
+"class": "d",
+"why": "centraliser fact \"standard, not computed here\"",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:86",
+"record": "web-wc5-01",
+"class": "c",
+"why": "a request to main to name the basis",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:32",
+"record": "web-wf25-03",
+"class": "a",
+"why": "figures 1.58/1.77, 1.2937/1.2905, 6e-4 and step counts not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:35",
+"record": "web-wf25-03",
+"class": "a",
+"why": "figures 1.51/1.58, 1e-4 and 0.8% not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:42",
+"record": "web-wf25-03",
+"class": "a",
+"why": "ends 1.5, 2.25, 3.0 held, four digits, and the referee's 0.2 drop not in how",
+"decision": "K"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:45",
+"record": "web-wf25-03",
+"class": "b",
+"why": "Y4 and the 30/19, 22/17 remark not mentioned",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:122",
+"record": "web-wf25-03",
+"class": "a",
+"why": "1e-5 at Re tau 0, 1/10, 1/4, 1/2 and ends 0.5-3.0 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:123",
+"record": "web-wf25-03",
+"class": "c",
+"why": "a reading (\"A reading of why\"); values not derived",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS:126",
+"record": "web-wf25-03",
+"class": "a",
+"why": "the 8/5 exponent from the referee's limit not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:28",
+"record": "web-wf1-01",
+"class": "a",
+"why": "\"200 draws\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:29",
+"record": "web-wf1-01",
+"class": "a",
+"why": "k range 3 to 12 not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:32",
+"record": "web-wf1-01",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:33",
+"record": "web-wf1-01",
+"class": "b",
+"why": "\"even part free on x and y\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:59",
+"record": "web-wf24-05",
+"class": "b",
+"why": "PL2 on frame C's own values not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:67",
+"record": "web-wf24-05",
+"class": "e",
+"why": "heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:70",
+"record": "web-wf24-05",
+"class": "d",
+"why": "HLP theorem taken as cited; theorem number unchecked",
+"decision": "C"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:75",
+"record": "web-wf24-05",
+"class": "b",
+"why": "independence of X,Y and \"frame's ratios are dependent\" not covered",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:86",
+"record": "web-wf24-05",
+"class": "e",
+"why": "status row (\"not independently checked\")",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:26",
+"record": "web-wa3-02",
+"class": "b",
+"why": "pi_1 presentation and \"plant gives only 3\" not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:49",
+"record": "web-wa3-02",
+"class": "c",
+"why": "bold verdict heading",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:165",
+"record": "web-wa3-02",
+"class": "e",
+"why": "status row (referee, sealed script)",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:414",
+"record": "web-st7-02",
+"class": "a",
+"why": "commit d36b2a0ec against how's 7022a9dae; \"M45's figures\"",
+"decision": "K"
+},
+{
+"unit": "web:STATUS_CHAT1:438",
+"record": "web-st7-02",
+"class": "c",
+"why": "admission and an ask to main",
+"decision": "N"
+},
+{
+"unit": "web:STATUS_CHAT1:443",
+"record": "web-st7-02",
+"class": "b",
+"why": "charge -3 closing in neither model, and up closing at no charge, not in how",
+"decision": "P"
+},
+{
+"unit": "web:STATUS_CHAT1:449",
+"record": "web-st7-02",
+"class": "a",
+"why": "timestamps not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F9_THE_ORDER_AT_THE_SCAR:14",
+"record": "web-wf9-01",
+"class": "e",
+"why": "scope line defining V(l, alpha)",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:151",
+"record": "web-wf17-06",
+"class": "b",
+"why": "\"hyperbolic survivors are the 16\" depends on the seat's filter reading",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:153",
+"record": "web-wf17-06",
+"class": "b",
+"why": "decomposition of the 17 points (origin, 4 sign changes, 12) not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:156",
+"record": "web-wf17-06",
+"class": "b",
+"why": "provenance claim (\"all three counts are its own\"); labels are the seat's reading",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:46",
+"record": "web-wf24-02",
+"class": "a",
+"why": "\"more than 1.6\" at all 24 points and W-F25's rational rate at 16 points not in how",
+"decision": "P"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:82",
+"record": "web-wf24-02",
+"class": "e",
+"why": "status row",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:206",
+"record": "web-wf17-07",
+"class": "e",
+"why": "provenance statement",
+"decision": "N"
+},
+{
+"unit": "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:173",
+"record": "web-wf17-07",
+"class": "b",
+"why": "order-4 elements on the lines, tr b free, not in how",
+"decision": "P"
+}
+]
+}

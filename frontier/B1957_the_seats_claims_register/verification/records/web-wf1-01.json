@@ -3,15 +3,11 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wf1_on_main.py (main's own code: exact words, matrices and quaternions), A1 to A5: the Tits form of n free involutions has signature (1,0), degenerate (1,0,1), then (n-1, 1) for n = 3 to 6; in Z/2*Z/2*Z/2 with x = ab, y = bc, a[x,y]a = (abc)^-2 as reduced words, and on the Pauli triple the product is i, the reversed product -i and [x, y] = -1; commuting involutions give [x, y] = 1; chi of S^2(2,2,2,k) is 1/k - 1/2 (0 at k = 2, negative from 3, -1/2 at the puncture); on H_1 of the even part (swap a, b)(a through b), (swap b, c)(a through b) and (swap a, c) are L, -R and -P. So the facts under its 'dead or alive' rows are right: one or two distinctions, compatible ones and the cone point of order 2 collapse; four or more distinctions and cone points of order 3 and up do not",
- "note": "The facts are standard, as the note says. That they form a layer under the grammar, and the test 'a postulate is stronger when its opposite is dead', are the seat's reading and its criterion. [2026-11-18, the pass R84-1 over this lane (and, for five records, the seat's section 12.2): 5 statements moved to web-wf1-01r, PARTIAL: a reading or a judgement, not a computation]",
+ "note": "The facts are standard, as the note says. That they form a layer under the grammar, and the test 'a postulate is stronger when its opposite is dead', are the seat's reading and its criterion. [2026-11-18, the pass R84-1 over this lane (and, for five records, the seat's section 12.2): 5 statements moved to web-wf1-01r, PARTIAL: a reading or a judgement, not a computation] SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions web-wf1-01-r2n, web-wf1-01-r2p; what stays is what its ground covers.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:26",
   "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:27",
-  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:28",
-  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:29",
   "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:30",
-  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:32",
-  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:33",
   "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:34",
   "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:35",
   "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:36"

@@ -3,9 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wb2_d1.py (main's own rebuild of the placement on B1656's bilinear and theta functions, 34 digits): D5: the reading S at h and the reading S~ at -h give different couplings (least distance up to a scalar 0.70; sigma_2/sigma_1 differs by at least 8 percent), so the Higgs's sign does not act as the reading and the reading is still a choice in this placement",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 1 line(s) this record held are moved to its companions web-wb2-d1-03-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:36",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:71",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:96"
  ]

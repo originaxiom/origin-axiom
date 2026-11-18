@@ -1,0 +1,12 @@
+{
+ "id": "agy002-c0-02-r2n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002-c0-02, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 9, 13, 15",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:9",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:13",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:15"
+ ]
+}

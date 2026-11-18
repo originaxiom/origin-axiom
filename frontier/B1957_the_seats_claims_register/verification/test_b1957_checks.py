@@ -963,3 +963,40 @@ def test_the_square_of_the_act_fixes_five_points_of_the_torus():
     M = sp.Matrix([[2, 1], [1, 1]]); K = M ** 2 - sp.eye(2); assert K.det() == -5
     assert sum(1 for a in range(45) for b in range(45) if all(x % 45 == 0 for x in (K * sp.Matrix([a, b])))) == 5
     assert (M - sp.eye(2)).det() == -1 and (M ** 4 - sp.eye(2)).det() == -45                               # the act itself fixes one point; its fourth power 45
+
+
+def test_four_orthogonal_root_reflections_give_an_involution_of_e8_that_carries_one_e6_onto_the_other():
+    import itertools
+    e = lambda i: tuple(F(int(k == i)) for k in range(8)); sub = lambda a, b: tuple(u - v for u, v in zip(a, b)); dot = lambda a, b: sum(u * v for u, v in zip(a, b))
+    roots = [tuple((si if k == i else sj if k == j else F(0)) for k in range(8)) for i, j in itertools.combinations(range(8), 2) for si in (F(1), F(-1)) for sj in (F(1), F(-1))]
+    roots += [tuple(F(s, 2) for s in sg) for sg in itertools.product((1, -1), repeat=8) if sum(1 for s in sg if s < 0) % 2 == 0]
+    a2 = lambda tr: [sub(e(i), e(j)) for i in tr for j in tr if i != j]; COL, HID = a2((0, 1, 2)), a2((3, 4, 5))
+    cent = {r for r in roots if all(dot(r, c) == 0 for c in COL)}; gut = {r for r in roots if all(dot(r, c) == 0 for c in HID)}
+    refl = lambda a, v: tuple(vi - 2 * dot(a, v) / dot(a, a) * ai for vi, ai in zip(v, a))
+    def W(v, four):
+        for a in four: v = refl(a, v)
+        return v
+    four = [sub(e(0), e(3)), sub(e(1), e(4)), sub(e(2), e(5)), sub(e(6), e(7))]
+    assert all(dot(a, b) == 0 for a, b in itertools.combinations(four, 2)) and len(cent) == len(gut) == 72 and cent != gut
+    assert {W(r, four) for r in cent} == gut and all(W(W(r, four), four) == r for r in roots)                      # order 2
+    assert {W(r, four[:2] + four[3:]) for r in cent} != gut                                                        # control: without the third reflection it does not
+
+
+def test_the_figure_eights_longitude_has_trace_minus_two_in_both_lifts_and_the_half_line_has_a_zero_mode():
+    import sympy as sp
+    w = sp.Rational(-1, 2) + sp.sqrt(3) * sp.I / 2; X = sp.Matrix([[1, 1], [0, 1]]); Y = sp.Matrix([[1, 0], [-w, 1]])
+    lam = lambda Xm, Ym: sp.simplify(Ym * Xm.inv() * Ym.inv() * Xm ** 2 * Ym.inv() * Xm.inv() * Ym)
+    L1 = lam(X, Y); assert sp.simplify(L1.trace()) == -2 and L1 == lam(-X, -Y) and sp.simplify(L1 * X - X * L1) == sp.zeros(2, 2)
+    Yc = sp.Matrix([[1, 0], [-2, 1]]); assert sp.simplify(lam(X, Yc).trace()) == -30 and sp.simplify(lam(X, Yc) * X - X * lam(X, Yc)) != sp.zeros(2, 2)   # control: with 2 in place of the cube root the word has trace -30 and does not commute with x
+    assert L1[0, 1] == -2 * sp.sqrt(3) * sp.I and lam(X, sp.Matrix([[1, 0], [-w ** 2, 1]]))[0, 1] == 2 * sp.sqrt(3) * sp.I               # the other cube root gives the conjugate entry (the seat's sign)
+    y, mu = sp.symbols("y mu", positive=True); psi = sp.exp(-mu * (sp.exp(y) - 1))
+    assert sp.simplify(sp.diff(psi, y) + mu * sp.exp(y) * psi) == 0 and sp.simplify(sp.diff(psi, y) - mu * sp.exp(y) * psi) != 0   # annihilated by A, not by its adjoint's first-order part
+
+
+def test_on_the_imaginary_axis_the_overlap_obeys_the_reflection_identity_and_the_contracted_determinant_is_real():
+    tau = 2j * np.sqrt(3); Yv = CC.Y(tau, 0.23j); k = np.arange(6)
+    assert max(abs(Yv[2 - i, 2 - j, (-kk) % 6] - np.conj(Yv[j, i, kk])) for i in range(3) for j in range(3) for kk in range(6)) < 1e-12
+    off = CC.Y(0.3 + 2j * np.sqrt(3), 0.23j); assert max(abs(off[2 - i, 2 - j, (-kk) % 6] - np.conj(off[j, i, kk])) for i in range(3) for j in range(3) for kk in range(6)) > 0.1
+    rng = np.random.default_rng(8); v = rng.normal(size=6) + 1j * rng.normal(size=6); v = v + np.conj(v[(-k) % 6]); d = np.linalg.det(np.einsum("ijk,k->ij", Yv, v))
+    assert abs(d.imag) < 1e-10 * abs(d)
+    u = rng.normal(size=6) + 1j * rng.normal(size=6); d2 = np.linalg.det(np.einsum("ijk,k->ij", Yv, u)); assert abs(d2.imag) > 1e-3 * abs(d2)   # a vector without the symmetry gives a complex determinant

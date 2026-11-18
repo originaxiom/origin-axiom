@@ -3,11 +3,9 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the by-product from the card's cusp-degree reading: checks/web_posthoc_closure.py reproduces the two models' closing lists exactly. For up, (2, 2, 1) closes in neither; the up assignments that close are (1, 1, 2) with a Higgs of charge +-3 in the first model and four mixed assignments with Higgs charge 0 in the second (web-st-lists-02)",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-wa3-08-r2n; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:153",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:155",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:156",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:159"
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:156"
  ]
 }

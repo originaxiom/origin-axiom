@@ -3,13 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/sm_c18_to_c21.py, C2: T S R0 with R0 = diag(1, -1) is the tick [[1, 1], [1, 0]], of determinant -1, and its square is the act; conj(T6) = T6^-1 and conj(S6) = S6^-1; with Sigma = T6 S6 followed by conjugation, Sigma^2 = T6 S6 T6^-1 S6^-1 = U_M (1.7e-15, no phase); Sigma commutes with U_M and exchanges v+ and v- with overlap 1",
- "note": "That the reflection R0 acts on these six modes as complex conjugation is the step that makes Sigma the tick; main takes it from the modes' definition (theta functions with real characteristics) and has not written it out.",
+ "note": "That the reflection R0 acts on these six modes as complex conjugation is the step that makes Sigma the tick; main takes it from the modes' definition (theta functions with real characteristics) and has not written it out. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions sm-c20-01-r2p; what stays is what its ground covers.",
  "units": [
-  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:10",
-  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:12",
-  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:24",
-  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:25",
-  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:26",
-  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:28"
+  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:12"
  ]
 }

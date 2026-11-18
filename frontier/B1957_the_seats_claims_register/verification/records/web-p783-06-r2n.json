@@ -1,0 +1,11 @@
+{
+ "id": "web-p783-06-r2n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record web-p783-06, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 89, 97",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:89",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:97"
+ ]
+}

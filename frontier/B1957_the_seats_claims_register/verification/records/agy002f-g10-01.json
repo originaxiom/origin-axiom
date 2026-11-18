@@ -1,0 +1,20 @@
+{
+ "id": "agy002f-g10-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "gate 10. ON MAIN (checks/agy002_foundations.py, G6): in Riley's representation the word y x^-1 y^-1 x^2 y^-1 x^-1 y is [[-1, -2 sqrt(3) i], [0, -1]] (the seat writes +2 sqrt(3) i: the other cube root, the conjugate), of trace -2, commutes with x, has exponent sum 0 in each generator, and is the same matrix in the other lift; for A = d/dy + mu e^y the function exp(-mu (e^y - 1)) is annihilated by A and has finite norm on the half-line (0.389 at mu = pi/(2 sqrt 3)), so A^dagger A has a zero mode when no wall is put at y = 0, and a Dirichlet wall can only raise the lowest value; the Alexander polynomial t^2 - 3t + 1 of discriminant 5 is on main's record. NOT ON MAIN: the seat's numerics (the Dirichlet value 5.93 and its three methods); that the essential spectrum is empty (a cited theorem); that agy-exp's X-APEX-3 claims the Dirichlet value as a lower bound (the seat's reading of that note); its collar minimum, which is inside its own model",
+ "note": "If agy-exp's bound is used as the seat reads it, the seat's objection is right as mathematics: the bound is an upper bound for the problem without the wall. agy-exp is asked on its page.",
+ "units": [
+  "agy-002-foundations:AGY002_FOUND_G10_RESULTS:17",
+  "agy-002-foundations:AGY002_FOUND_G10_RESULTS:18",
+  "agy-002-foundations:AGY002_FOUND_G10_RESULTS:19",
+  "agy-002-foundations:AGY002_FOUND_G10_RESULTS:20",
+  "agy-002-foundations:AGY002_FOUND_G10_RESULTS:24",
+  "agy-002-foundations:AGY002_FOUND_G10_RESULTS:25",
+  "agy-002-foundations:AGY002_FOUND_G10_RESULTS:26",
+  "agy-002-foundations:STATUS_AGY-002:40",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:13",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:27",
+  "agy-002-foundations:AGY002_FOUNDATIONS_MASTER_SYNTHESIS_2026-11-17:28"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "agy002v-view-02-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18. These lines stood under record agy002v-view-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 25: \"636 arcs\" figure not in the ground; only the 0/24 and no-extremum table is covered; 27: cut off; eleven CHOSEN/POSTULATED plus one ANSATZ, and the Z_6 quotient claim are not covered; 28: cut off mid-claim; \"decisively\" and the washing-out of the mass hierarchy are not covered; 53: pointwise SVD then averaging over 24 points and X1(5), as a description of the method, is not in the ground; 56: cut off; the permutation-matrix and row-sum claims are not covered; 5/12 and 74/144 are covered; 57: O(10^-2) and 10^-5 figures and the wave-mechanics claim are not covered; the text is judgement; 58: the erasure of the arrow and J_CP = 0 are not covered; 62: cut off; the R83-17 countercheck is not covered; 68: cut off; E6 upstairs claims and the colour-singlet argument are not covered; only (-3,6)=(2,1) is covered; 94: the D_chi^2 = I_2 pull-back to the m004 cover and the (-1)^{6Y} twist are not covered",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "units": [
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:25",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:27",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:28",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:53",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:56",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:57",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:58",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:62",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:68",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:94"
+ ]
+}

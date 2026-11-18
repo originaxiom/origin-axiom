@@ -3,10 +3,9 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/custody.py and git: the card e6d78d0d4 precedes the verifier and output 9cb1b41d5, both on the branch",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 1 line(s) this record held are moved to its companions agy002v-m34-01-r2c; what stays is what its ground covers.",
  "units": [
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:6",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:7",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:8"
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:7"
  ]
 }

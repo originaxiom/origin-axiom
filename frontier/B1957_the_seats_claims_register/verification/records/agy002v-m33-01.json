@@ -3,11 +3,9 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/custody.py and git, without running the seat's code: the card's commit e6d78d0d4 is on the branch and precedes the code and output at 460142abf; the script imports only its own and standard libraries",
- "note": "That no measured number was touched is read from the script's imports and text, not proved.",
+ "note": "That no measured number was touched is read from the script's imports and text, not proved. SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions agy002v-m33-01-r2c, agy002v-m33-01-r2n; what stays is what its ground covers.",
  "units": [
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:4",
   "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:5",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:6",
-  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:7"
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:6"
  ]
 }

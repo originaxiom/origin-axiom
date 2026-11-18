@@ -3,13 +3,8 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the golden state is the lowest twin-odd state in all four classes, and simple: main's B1912 (PROVED numerically: for 0.02 <= R <= 3.40 the only eigenvalue in the four classes is R0 = pi/(2 ln phi), in the class (sine, Fricke -1), simple there and absent elsewhere). checks/web_p783_spectrum.py (B1912's own Hejhal routine, main's code, at B1912's two heights and a third) P2 adds the lowest value of each other class: 4.8937812914 in (-1, +1), 6.5285026053 in (+1, +1), 7.4946304901 in (+1, -1), each a state at three heights",
- "note": "",
+ "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-p783-02-r2n, web-p783-02-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:20",
-  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:21",
-  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:24",
-  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:26",
-  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:27",
   "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:29"
  ]
 }
