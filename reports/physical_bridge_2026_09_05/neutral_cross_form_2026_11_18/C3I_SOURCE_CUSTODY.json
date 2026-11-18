@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-18",
+  "kind": "Source/byte custody for a new author hand derivation; not mathematical verification",
+  "scope_commit": "3cbb86bd2",
+  "source_head": "ddae296f08d0a7d57f924038c42990384de32c3d",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/GLOBAL_CYCLIC_CROSS_FORM_CHAIN_MAP.md",
+    "sha256": "5440d258066b7f5db7d4fa2b7494f0eede3a31ce34a5b1fed41ca002caa47646",
+    "lines": 263
+  },
+  "sources": [
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NATIVE_CYCLIC_DEFORMATION_AND_DERIVED_QUADRATIC_MOMENT_RESPONSE_2026_11_09.md",
+      "git_blob": "a2fcab44bccd56b5b53bc73daf2a17100326c9eb",
+      "sha256": "8a0476b191517bb60c5e0a4a71f086262fd16ae23cd069bb6fd98fc7d4bf90bb",
+      "lines": 351,
+      "reading": "Full text re-read for native fields, pointwise normalization, global character and actual Hermitian response"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN.md",
+      "git_blob": "7a4ff53f1cf6cc7036bb2cc0f7d7f44ea2fd8107",
+      "sha256": "3d627e26b050d219ddb4a960a920d7fe96f4ff20c9c61ca6f7415cf5d56fe8a2",
+      "lines": 141,
+      "reading": "Full text read for the actual cyclic complex and inherited complete-domain conditional duties"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md",
+      "git_blob": "3cd40989731189b0ce563fad94c4ff9570bd9033",
+      "sha256": "33760b1e06af632c09fb5f45f9acc674393437af75de4b6eb855f1032c0898b2",
+      "lines": 144,
+      "reading": "First 130 lines re-read; full previous reading reused; common divisor and complete per-representation counts"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/CROSS_FORM_FINITE_SERIES.md",
+      "git_blob": "4425a53909de8781566fbdc00024006c527f987b",
+      "sha256": "8d75dee7676c33dd35877546d4ab328df9fae816fd7b5d9d2c6413224a956546",
+      "lines": 79,
+      "reading": "Full text re-read; already-authored finite stopping certificate and unresolved global map"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "git_blob": "8f5398e2cfec03ae6a1a31a3276b2bb105283d90",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "lines": 192,
+      "reading": "Full earlier reading reused; actual tensor complex, exterior signs and original positive norms"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md",
+      "git_blob": "8a6d3e6cbb496b6914c7c183b91e58c43e8563d0",
+      "sha256": "ba0192f686e718563e08ac3eb1f12e2735848758ee2106f5e9f809706e31c702",
+      "lines": 254,
+      "reading": "Earlier targeted first 200 lines reused for weighted inverse and nonlinear mapping; no scientific import"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/CUSP_INVERSE_SOURCE_SUPPORT.md",
+      "git_blob": "92efc25273212775fef6e1d76fe6009aaf377dc0",
+      "sha256": "10a62ce191413d963bcd38234e9986f9e7527c8982b436d38712bbdbb21d5381",
+      "lines": 314,
+      "reading": "Full earlier source-support reading reused for actual operator/domain and weighted product estimates"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE.md",
+      "git_blob": "6ba086063e372270e55b05564b52d576886b8047",
+      "sha256": "2be866357d75909cc7dbe8468a5c6f9a7e72b4590637ef5325f53921289a75dc",
+      "lines": 320,
+      "reading": "Existing authored B family and vector response; not independently checked"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY.md",
+      "git_blob": "45dda7e361c96df20dce1d2bb283b28ad721cba5",
+      "sha256": "839e95da304b6241b6e04a54d4393af909fdc961d74c908799dd10289dcbe7d2",
+      "lines": 319,
+      "reading": "Existing authored pure-B full charged-kernel result; finite steps checked separately on main, global passage conditional"
+    },
+    {
+      "commit": "ddae296f08d0a7d57f924038c42990384de32c3d",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "git_blob": "df4bae0daca59451632a9aa96fef60f88780d5a0",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "lines": 264,
+      "reading": "Earlier mass/complex isometry and adjoint-domain reading reused; no new execution"
+    },
+    {
+      "commit": "af08bc3d272c01a85e7341da91cfcc43d230d64c",
+      "path": "relays/x_frontier_3_verify/verify_x_frontier_3.py",
+      "git_blob": "eb3820142a46cb014c3fcf9c2981fe37575a1731",
+      "sha256": "e729422d2038a0a1fb60961051130b0533758720ecc0fc74c2201bbf2a813420",
+      "lines": 844,
+      "reading": "Personally re-read decisive 571-703, with 500-735 context; no import, execution or reliance on its numerical mass fixture"
+    },
+    {
+      "commit": "af08bc3d272c01a85e7341da91cfcc43d230d64c",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS.md",
+      "git_blob": "2d3e013038750b172608f9b4a04356ddf8d40c29",
+      "sha256": "b7b7fcef87e07180323cb385de4fa669aa08e589a02674bcb4221eb952b899d1",
+      "lines": 30,
+      "reading": "Full source report read; its global kernel/rank and numerical certification claims are not self-accepted"
+    }
+  ],
+  "upstream_current_producer_check": {
+    "current_head": "d7bb2719551c1cea604ded5a690d0fe180b89788",
+    "path": "relays/x_frontier_3_verify/verify_x_frontier_3.py",
+    "original_head": "af08bc3d272c01a85e7341da91cfcc43d230d64c",
+    "git_blob_equal": true,
+    "git_blob": "eb3820142a46cb014c3fcf9c2981fe37575a1731"
+  },
+  "primary_literature": "Crainic math/0403266v1 section 2 and 3.1-3.6 targeted reading from C3h is reused for context; the exact nilpotent chain map is derived directly in this proof",
+  "main_refresh": "f1efc59dd620e947fdffbc552944df010308c4ec",
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "cas": 0,
+  "scientific_tests": 0,
+  "new_agents": 0,
+  "independent_mathematical_review": false,
+  "foundational_inputs_counted_removed": 0,
+  "scope_limits": [
+    "Specified cyclic and completed centralizer class, full 128 only",
+    "Global complete-domain and nonlinear moment hypotheses remain conditional",
+    "Not a physical isometry or an elimination of state dependence from metrics/currents",
+    "No certification of upstream assigned mass matrices or numerical mass constants",
+    "No SM3, vacuum-selection or gravitational completion"
+  ],
+  "preserved_index_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
