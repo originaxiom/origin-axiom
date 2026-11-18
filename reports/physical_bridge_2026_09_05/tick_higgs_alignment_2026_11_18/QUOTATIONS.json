@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-18",
+  "kind": "literal source quotation custody; not scientific verification",
+  "quotations": [
+    {
+      "id": "C8-01a",
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md",
+      "line": 24,
+      "quote": "   - So for frame C's charges, frame D1's overlap is a section over the double cover of the w-torus, at every point,",
+      "file_sha256": "6be0e08fd8ec07a5ea0fe91596d141d9dd6067c811ed232149889e504190d2a8"
+    },
+    {
+      "id": "C8-01b",
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md",
+      "line": 48,
+      "quote": "  - (a) read it on the double cover of the w-torus, which is one extra bit. It is the two-dimensional ground space",
+      "file_sha256": "6be0e08fd8ec07a5ea0fe91596d141d9dd6067c811ed232149889e504190d2a8"
+    },
+    {
+      "id": "C8-02a",
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md",
+      "line": 39,
+      "quote": "So the Higgs's vacuum bit in frame D1 is not a free input. It is the same bit as the tick's orientation, which the",
+      "file_sha256": "3b44bc75b9e05de4abc5abf61ba3442065a5f65061eac6a76a346f0d99c22920"
+    },
+    {
+      "id": "C8-02b",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/level6_higgs.py",
+      "line": 95,
+      "quote": "    print(\"So: with B a function of the torus's points, M_H^2 = K - c B is K up to a constant: its ground space is the pair of modes with phases +-pi/6 (dimension 2, one bit), for every c.\")",
+      "file_sha256": "dd73c011a59c523804ddec74103d264e0ca2a80df0afc22211416d98884e8c1b"
+    },
+    {
+      "id": "C8-03",
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/cards/SM_C20_is-the-exchange-the-tick.md",
+      "line": 11,
+      "quote": "- R₀ is τ → −τ̄, z → z̄. On the flux-6 modes θ[k/6, 0](6z, 6τ), whose Fourier coefficients are real, it acts as plain",
+      "file_sha256": "61af650e5f7da0cc5360cf5edefbd2ebc288ae5e1d29ced4fff8694ed0050723"
+    },
+    {
+      "id": "C8-04",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/level6_higgs.py",
+      "line": 12,
+      "quote": "The reason the lift-invariant B selects nothing (H6), in three lines:",
+      "file_sha256": "dd73c011a59c523804ddec74103d264e0ca2a80df0afc22211416d98884e8c1b"
+    },
+    {
+      "id": "C8-05a",
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/SM_C21_THE_D1_CUSP_MIXING.md",
+      "line": 46,
+      "quote": "- **Frame D1** with its Higgs vacuum fixed by the tick (SM-C18 to SM-C20): no reading choice, but no cusp hierarchy, and",
+      "file_sha256": "0e42b99cd818350f46faa75cec87d95adc056b42ad35919017698b9515c88c42"
+    },
+    {
+      "id": "C8-05b",
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/SM_C21_THE_D1_CUSP_MIXING.md",
+      "line": 9,
+      "quote": "- **With the Higgs at either tick-fixed ground state v±, D1's mass ratios do not fall with height:** the cusp",
+      "file_sha256": "0e42b99cd818350f46faa75cec87d95adc056b42ad35919017698b9515c88c42"
+    },
+    {
+      "id": "C8-05c",
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/sm_c21/run_c21.py",
+      "line": 39,
+      "quote": "    d = CC.Y_mp(tau, xi, dps=60); T = np.zeros((3, 3, 6), complex)",
+      "file_sha256": "3f35b2e22ec92d1d073321f4bb5d76a11870ba4be1f157b1b53698f7d6b6055a"
+    },
+    {
+      "id": "C8-05d",
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/sm_c21/run_c21.py",
+      "line": 41,
+      "quote": "        T[i, j, k] = complex(v)",
+      "file_sha256": "3f35b2e22ec92d1d073321f4bb5d76a11870ba4be1f157b1b53698f7d6b6055a"
+    },
+    {
+      "id": "RECOVERY-half",
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/SM_C13_THE_LEPTON_ROWS.md",
+      "line": 61,
+      "quote": "- **The card's X4 said \"four points of order 10\".** Halving is a bijection on points of order 5, so one of the four",
+      "file_sha256": "6d9f564fe75641d5e8aa5f132dc1c8ac86262923073a33611d46b6f28ff736be"
+    }
+  ],
+  "additional_source_reading": [
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c18/RUN.txt",
+      "sha256": "741e77f0b0c2cfb0ed66ae25e82b49671e7aa09250761bece59ca9e3eff1a8c8",
+      "lines": 44,
+      "reading": "Read in full as historical output text; no execution"
+    },
+    {
+      "commit": "ac0b3e75283f4e9f56a4bc9035e41a5290adffa3",
+      "path": "relays/sm_c19/RUN.txt",
+      "sha256": "e2006d37d3523599c77792f355448219e7398b1b9447823dec9389d65d7b974b",
+      "lines": 75,
+      "reading": "Read in full as historical output text; no execution"
+    }
+  ],
+  "preserved_first_failure": {
+    "type": "metadata quote search",
+    "exit_code": 1,
+    "cause": "The search phrase unique half was absent from the C13 text; no quotation file was written. Repaired to the literal phrase Halving is a bijection on points of order 5. No mathematical source changed."
+  },
+  "scientific_execution": 0
+}

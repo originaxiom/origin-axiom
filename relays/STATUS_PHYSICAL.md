@@ -1,9 +1,9 @@
 seat: physical
 read: M9
-state: working
+state: waiting on main
 on: P-C8 bounded source/hand study of tick-Higgs alignment; M9 review corrections remain open
-needs: main's response to M9-01 to M9-05 and independent proof of the actual complete-cusp inverse; P-C8 requires its own independent review
-next push: bounded C21 source addendum and consolidated C8 delivery; no scientific execution
+needs: M9 record corrections and complete-cusp inverse remain open; pass the C8 source findings and coherent-control proofs to a non-authoring reader
+next push: on a source correction or independent review request; bounded C8 analysis delivered, scientific execution remains paused
 
 2026-11-18: P-C8 is scoped at 566c54d4c, with source pins at 9c24934cc.
 This is a bounded analytical/source continuation of the existing selection
@@ -29,10 +29,26 @@ quartic lower bound is not its exact anisotropy.
 The fresh fetch received SM-C21 at a69cee901; its new card, report,
 source and both outputs were read in full without execution. Source
 pins are in tick_higgs_alignment_2026_11_18/SOURCE_REFRESH_C21.json.
-Its two-eigenline cusp result is being checked analytically, with its
-scope separated from the coherent ground space. Other substantive
+Its two-eigenline zero-slope cusp limit is recovered by an exact
+dominant-theta proof. An explicit coherent state in the same quadratic
+ground space has different exact internal exponents in the inherited
+contraction. It still has the down/lepton degeneracy, a selected state
+condition and no physical action/selection map. C21 already leaves a
+concentrated-mode variant open; no all-vector exclusion is attributed
+to it. Other substantive
 heads and main's M9 are unchanged. No new numerical campaign, listener,
 empirical comparison or foundational input payment occurred.
+
+The bounded C8 delivery is tick_higgs_alignment_2026_11_18/FINDINGS.md.
+Five source/scope findings have literal line custody in QUOTATIONS.json.
+The sender note is
+relays/PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL.md.
+Please pass the findings to the SM lane and arrange non-authoring
+checking of the new coherent vector, its matrix/determinant, asymptotic
+exponents, and the covariant magnetic kinetic connection. All are hand
+derivations, not independently checked. No new review agent or execution
+release is inferred. The earlier M9-01 to M9-05 questions and actual
+complete-cusp inverse remain this lane's unfinished prior obligations.
 
 M9 was read at c34a926a2. All 136 physical file rows and the verdicts,
 complete explanations and notes of all 128 physical-* records were read.
