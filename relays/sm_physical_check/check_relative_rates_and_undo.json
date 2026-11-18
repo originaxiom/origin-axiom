@@ -1,0 +1,287 @@
+{
+ "summary": {
+  "claims": 49,
+  "claims_holding": 49,
+  "plants": 8,
+  "plants_failing_as_expected": 8
+ },
+ "claims": {
+  "RR s2: F_x, F_r commute, square to I, product flips both": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR (1): off-diagonals of L nonnegative, rows and columns sum 0, L symmetric": {
+   "holds": true,
+   "detail": "off-diagonal entries: ['a + c/4', 'b + c/4']"
+  },
+  "RR (2): exp[t(F-I)] = ((1+e^-2t)/2) I + ((1-e^-2t)/2) F": {
+   "holds": true,
+   "detail": "max deviation 2.2e-16"
+  },
+  "RR (3) premise: Pi commutes with F_x, F_r, F_xF_r and Pi^2 = Pi": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR (3): P_s = e^-cs P0_s + (1 - e^-cs) Pi (50 random a,b,c,s)": {
+   "holds": true,
+   "detail": "max deviation 3.3e-15"
+  },
+  "RR s2: P0_s is the product of the three stochastic factors (2)": {
+   "holds": true,
+   "detail": "3.5e-15"
+  },
+  "RR s2: every entry of P_s strictly positive for s > 0": {
+   "holds": true,
+   "detail": "min entry over trials 5.990e-02"
+  },
+  "RR s2: U, V, J generate all 24 permutations of S_2 (S4)": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR s2: the average of the 24 permutation pullbacks is Pi": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR s2: c(Pi - I) = (c/24) sum_g (G - I), every g (incl. U, J) at rate c/24": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR (4): L1 = 0, L f_x = -(2(a+b)+c) f_x, L f_r = same, L f_p = -(4a+c) f_p": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR s3: 1, f_x, f_r, f_p are a basis; the last three have zero mean": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR s3: zero eigenvalue is simple (unique stationary uniform law), uniform is stationary": {
+   "holds": true,
+   "detail": "kernel dims [1, 1, 1]"
+  },
+  "RR s3: detailed balance with the uniform law (diag(pi) L symmetric)": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR (5): E[f_x f_x(s)] = e^-lambda_x s, E[f_p f_p(s)] = e^-lambda_p s": {
+   "holds": true,
+   "detail": "2.0e-15"
+  },
+  "RR (6): R(1,1,1) = 1 and R(1,2,1) = 5/7": {
+   "holds": true,
+   "detail": "R(1,1,1) = 1, R(1,2,1) = 5/7"
+  },
+  "RR s3: eliminating s gives C_p = C_x^R": {
+   "holds": true,
+   "detail": "3.2e-15"
+  },
+  "RR s3: spectra {0, -5^3} vs {0, -7^2, -5}; no state permutation with a clock scaling identifies them": {
+   "holds": true,
+   "detail": "[(-5, 3), (0, 1)] vs [(-7, 2), (-5, 1), (0, 1)]"
+  },
+  "RR s4: L invariant under both coordinate translations and J": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR s4: conjugation by U fixes F_r and Pi and exchanges F_x with F_xF_r": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR s4: U L U^-1 = L exactly when a = b": {
+   "holds": true,
+   "detail": "U L U^-1 - L = (a-b)(F_xF_r - F_x) check: True"
+  },
+  "RR s4: I, F_x, F_r, F_xF_r linearly independent": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR (7): I + F_x + F_r + F_xF_r = 4 Pi; at a = b, L = (4a+c)(Pi - I) and R = 1": {
+   "holds": true,
+   "detail": ""
+  },
+  "RR s4: passive transport L' = C L C^-1, f' = C f, mu' = mu C^-1 preserves mu f and mu P f (all 24 C)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (1)-(3): V^-1, U^-1, J^-1 = J are two-sided inverses on S_m (m = 2..7)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (1): R(U^-1 U s) = R(s) for every s (any R): U^-1 U = id on S_m": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (4): J U J(x,r) = (x+r, r) (m = 2..7)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (5): U V(x,r) = (x+1, r+x+1), V U(x,r) = (x+1, r+x) (m = 2..7)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (6): W = V^-1 U V, W(x,r) = (x, r+x+1), W != id_S (m = 2..7)": {
+   "holds": true,
+   "detail": "W fixes exactly the m states with x = -1 mod m; it is not the identity map"
+  },
+  "IR (7): W^-1 = V^-1 U^-1 V = (x, r-x-1), a two-sided inverse of W (m = 2..7)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s3 table: (0,0) -> V (1,0) -> U (1,1) -> V^-1 (0,1)": {
+   "holds": true,
+   "detail": "[(0, 0), (1, 0), (1, 1), (0, 1)]"
+  },
+  "IR s1: e(h) = id does not force h = empty: h = V^-1 V is a length-2 word with identity evaluation": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s2 (Z): V and J V J reach every integer pair (window [-6,6]^2); U has total inverse on Z": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s2: d components: outputs after permutations separate states; transitive; 4 and 8 states at m = 2": {
+   "holds": true,
+   "detail": {
+    "m=2,d=2": {
+     "states": 4,
+     "group": 24,
+     "transitive": true,
+     "separate": true
+    },
+    "m=2,d=3": {
+     "states": 8,
+     "group": 1344,
+     "transitive": true,
+     "separate": true
+    },
+    "m=3,d=2": {
+     "states": 9,
+     "group": 432,
+     "transitive": true,
+     "separate": true
+    },
+    "m=3,d=3": {
+     "states": 27,
+     "group": 303264,
+     "transitive": true,
+     "separate": true
+    }
+   }
+  },
+  "IR (8): q(J(x,r)) = r (m = 2,3,5)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s4: with V, U and inverses only, every future x output is independent of r": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s4: o_x and o_x J separate all of S_m": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (9): <U,V> = {T(a,b,c)} with m^3 distinct elements (m = 2..5)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (10): T(a,b,c) T(a',b',c') = T(a+a', b+b', c+c'+b a')": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s5: T(a,b,c)^-1 = T(-a, -b, ba - c)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (11): [U,V] = U V U^-1 V^-1 = C, C(x,r) = (x, r+1); C commutes with U and V": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (12): V^a U^b C^c = T(a,b,c) for every triple": {
+   "holds": true,
+   "detail": ""
+  },
+  "note: the other commutator convention V U V^-1 U^-1 equals C only at m = 2 (it is C^-1)": {
+   "2": true,
+   "3": false,
+   "4": false,
+   "5": false
+  },
+  "IR s5 m=2: 8 elements, U != V nonidentity involutions, (UV)^2 = C != id, UV of order 4": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s5 m=2: dihedral of order 8 (5 involutions, a 4-cycle), not Q8 (1 involution)": {
+   "holds": true,
+   "detail": "involutions: D 5, Q8 1"
+  },
+  "IR s5 m=2: U, J fix (0,0); U swaps (1,0),(1,1); J swaps (1,0),(0,1); transitive; |stab| = 6; group = S4": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR (13): H/~ has exactly |G| classes, and h ~ k iff pi(h) = pi(k); a binary test separates 6 and 9 classes": {
+   "holds": true,
+   "detail": {
+    "S4 -> S3": {
+     "classes": 6,
+     "image": 6,
+     "fibres": true
+    },
+    "Heis(3) -> Z3 x Z3": {
+     "classes": 9,
+     "image": 9,
+     "fibres": true
+    },
+    "D4 -> Z2 (x-shift parity)": {
+     "classes": 2,
+     "image": 2,
+     "fibres": true
+    }
+   }
+  },
+  "IR (14)-(16): P_t > 0, doubly stochastic, S_N-commuting, unique stationary; P_t^n, E[f f_n] (N = 2..5)": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s7: over S4, exactly 6 of 24 permutations take any input to any output": {
+   "holds": true,
+   "detail": ""
+  },
+  "IR s7: P_t = sum_g w_g G with w_g = (1-t)/24 + t [g = id] > 0": {
+   "holds": true,
+   "detail": ""
+  }
+ },
+ "countercontrols": {
+  "PLANT IR (6), stronger than the text: W moves every state": {
+   "fails_as_expected": true,
+   "detail": "fixed points per m: {2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7}"
+  },
+  "PLANT IR s4: J descends through q(x,r) = x": {
+   "fails_as_expected": true,
+   "detail": ""
+  },
+  "PLANT IR (10): the transposed cocycle c+c'+a b' (m = 2..5, any m)": {
+   "fails_as_expected": true,
+   "detail": "holds at m: []"
+  },
+  "PLANT IR s5: <U,V> at m = 2 is isomorphic to Q8 (same involution count)": {
+   "fails_as_expected": true,
+   "detail": ""
+  },
+  "PLANT RR s4: U L U^-1 = L at (a,b,c) = (1,2,1)": {
+   "fails_as_expected": true,
+   "detail": ""
+  },
+  "PLANT RR (6): R(1,2,1) = 1": {
+   "fails_as_expected": true,
+   "detail": ""
+  },
+  "PLANT IR (6): W = V^-1 U V is the identity on S_3": {
+   "fails_as_expected": true,
+   "detail": ""
+  },
+  "PLANT RR (4): f_p has the same eigenvalue as f_x for (a,b,c) = (1,2,1)": {
+   "fails_as_expected": true,
+   "detail": ""
+  }
+ }
+}
