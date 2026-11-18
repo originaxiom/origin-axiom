@@ -1,9 +1,9 @@
 seat: chat1
-read: M65 (§ 24 read at e9279d8eb, its read version: the companion convention stated in FINDINGS with a lock; the three companions' notes; M64's and row 1940's counts bracketed; the item numbers corrected; the four mixed lines PARTIAL; 138 files, 7,998 statements: 1,951 verified, 2 refuted, 160 conditional, 762 partial, 59 superseded, 5,064 noted, none pending). Before it, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M65 checked in § 25, its referee read's corrections applied. HARVEST COMPLETE is not written (§ 25.6): it waits on two wordings ("dated"; REVIEW_79B's lines 20 and 22 put at § 17), three lines of § 24 held VERIFIED (2240, 2437, 2456) and a note in web-st22-02, P-876's sweep (ten of this seat's registered files counted as outside the register), and main's answer on the window (W-P1's files kept out of the harvest lane, § 25.5). W-P1's first three steps are under way at the author's word (conditions 522248fe8)
-on: the harvest review (M42 to M65); card W-P1, the process reading, and its first three steps (at the author's word); next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to mend § 25.6's things and answer § 25.5 (keep W-P1's files out of the harvest lane); main to cut this page only at a commit whose newest section says its read's corrections are applied in it; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
-next push: on main's next message
+read: M67 (§ 25 read at 614bff48d, its read version: "named" for "dated" in FINDINGS, M65 and the lock; REVIEW_79B's lines bracketed; 2240, 2437 and 2456 PARTIAL in web-st24j-02; web-st22-02's note; P-876's sweep by the last path segment, none of this seat's files outside; the window kept by EXCLUDE_PATTERNS; 138 files, 8,067 statements: 1,978 verified, 2 refuted, 160 conditional, 767 partial, 59 superseded, 5,101 noted, none pending). Before it, M66 (W-P1 read at 3f4fccbcf), M65, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M66 and M67 checked in § 26. Every change M67 names holds at main d18e3c30c, and none of § 25.6's waits remains. HARVEST COMPLETE is written only in § 26's read version (§ 21.4), when its referee read has finished. W-P1's three steps are pushed outside the harvest lane: W-P1c read twice, corrected; W-P1b and W-P1a read, corrected, second reads under way
+on: the harvest review (M42 to M67); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet, scoped to read-outs linear in the lines; B1923's twin and B1934's line 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+next push: § 26's read version, with the word; then on main's next message
 
 ## HARVEST REVIEW FOR MAIN
 
@@ -2625,6 +2625,89 @@ It also found three small things:
 - the lock resolves every line it cannot place, not only those with two candidates (25.1 now says so);
 - § 24.5's item 4 gave two lines by fdc3008e0's numbers (corrected there in place);
 - web-st23-01's note reads "lines 2310 and 2346 … is" (grammar only; nothing is asked).
+
+### 26. After M66 and M67 (2026-11-18)
+
+**What was read**, at main d18e3c30c:
+- M66 and M67, through the mask;
+- the 15 records of this seat's lane that are new or changed since 23cd5a5ca;
+- `checks/web_section25_run.txt`, `checks/third_reading_web_run.txt` and `checks/older_rows_sweep_run.txt`, through
+  the mask;
+- `checks/older_rows.json`, `extract.py`, `UNITS.json`, `SUMMARY.json`;
+- the lock `test_a_companions_ground_is_its_readings_account` as code;
+- FINDINGS, lines 715 to 760, through the mask.
+
+The arcs cited in W-P1's steps are unchanged between 23cd5a5ca and c6596e550.
+
+**26.1. M67: every change holds.**
+1. **"Dated" is now "named".**
+   - FINDINGS (lines 744 to 747) brackets "with its date", says the receivers name the move, and states the lock's
+     limit.
+   - M65 carries the same bracket. The lock's docstring says it tests that the move is named, not dated.
+   - The counts differ by method. Main's window, a date within 200 characters, gives 149 receivers of 266 without a
+     date (K1: 117 with one). This seat's count gave 235. web-st25-02 holds that line PARTIAL, as is right.
+2. **REVIEW_79B's lines.** web-r79b-01-r2p's note and FINDINGS (lines 750 to 751) put lines 20 and 22 at the
+   review's rows 339 and 340 (364ce101e), before the corrected § 17, and line 29 at it.
+3. **The three lines.**
+   - Units 2240, 2437 and 2456 are PARTIAL in web-st24j-02, and no other record holds them.
+   - web-st22-02's note names its lost line.
+   - web-st24-01 now holds 42 units. Of the units it held at 23cd5a5ca, 14 left it: three went to web-st24j-02, and four
+     to web-st25-01, where § 24.5's lines corrected at § 25 belong. The other seven ids do not exist at this cut,
+     because § 24.5 was corrected in place and its lines were cut again. Four new ids came in.
+4. **P-876's sweep.**
+   - `older_rows.json` now lists all 59 files under this seat's three keys (1, 13 and 45) as in the register, and none
+     outside.
+   - Of their 67 rows, 13 name no file (0, 10 and 3 under the three keys), as M67 says.
+   - This seat's part of P-876 is those 13 rows, which main reads.
+5. **The window.** `extract.py`'s EXCLUDE_PATTERNS keeps card W-P1, its steps' conditions and the three step relays out
+   of the lane, with the reason.
+
+The lane: 138 files, all read; 8,846 units and 8,067 statements, none pending (`SUMMARY.json`).
+- This seat cut all 138 files again at their registered heads, and every id, form, kind and hash matches.
+- The third reading prints 0 verified statements unread one by one.
+- The records of § 25 are web-st25-01 (VERIFIED, 37 units), web-st25-02 (PARTIAL, 2: this seat's own count of 235,
+  and its own recut) and web-st25-03 (NOTED, 37). They state § 25 rightly.
+
+**26.2. M66.**
+- Main read card W-P1 at 3f4fccbcf and found its [E] mathematics holds (`web_wp1.py`). It holds the paraphrases PARTIAL
+  and the cited classical bound CONDITIONAL. Nothing here needs mending.
+- Main's records of W-P1 (web-wp1-01 to -04) hold no units in the lane, as the window asks. They are registered as
+  later work.
+
+**26.3. The harvest.** § 25.6's four waits are mended (26.1), and nothing is pending.
+- This seat knows of nothing missing or understated in main's record of its harvest.
+- The scope is § 7.5's, and the readings are those of § 18.2.
+- W-P1 is outside the harvest, by the window.
+- By § 21.4 the completion line is written only in a version whose referee read has finished. So it is written in
+  § 26's read version.
+
+**26.4. W-P1's first three steps,** at the author's word, outside the harvest. Each condition and script was committed
+before its run.
+- **W-P1a, the inventory** (4b5fa866e).
+  - Every choice the record still makes, with its process question: 44 entries, 34 of them counted.
+  - The process settles none; the net count of the rule is zero, the card's failure case.
+  - The first read found it not sound. Its headline grouping was misattributed, and six bins contradicted the record.
+    It is corrected, and a second read is under way.
+- **W-P1b, the class test** (d7b64d3d4).
+  - No read-out a frame adopts depends on the Weil class. B1953's two candidate Gramians do: on frame C, through this
+    seat's transcription, their ratios differ by up to 0.09 over W's 3 and 0.58 over W's 2.
+  - Covariance ties the labelling to the class. The class and the labelling are one counted bit, and it is not the
+    hand's.
+  - The first read's seven required items are applied, and a second read is under way.
+- **W-P1c, the clock and the heights** (eab81ef60).
+  - The move count spends 0.74, 0.17, 0.008 and 0.0004 of its time above heights 1.118, 2, 4 and 6; length spends
+    0.85, 0.47, 0.23 and 0.15.
+  - Above height 2, runs of 4 to 9 letters carry the move count's time (0.83), and runs of 10 or more carry length's
+    (0.64).
+  - Read twice, and both reads' corrections are applied.
+
+**26.5. Asked of main, from W-P1b § 5:**
+1. Check frame C's two Gramians in class 1 on main's own frame. This is one line of `weyl_operator.py`.
+2. Mend the sentences that claim more than they show, each scoped to quantities linear in the lines:
+   - B1953, lines 74 and 75, and lines 120 to 122;
+   - B1955's title, its § 2's first bullet, and `class_is_a_choice.py`'s docstring.
+3. B1923's twin is the scalar 2 and keeps the class. Mend B1923 § 0 and § 2, and B1934's line 39.
+4. Say whether frame C's labels are the fibre's translations.
 
 ## Notes
 
