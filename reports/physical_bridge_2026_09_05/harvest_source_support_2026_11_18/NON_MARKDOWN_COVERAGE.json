@@ -1,0 +1,1516 @@
+{
+  "method": "Git blob inventory, JSON reading and AST inspection only; no scientific execution",
+  "base": "1aa76251",
+  "source_head": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+  "main_register_head": "5dec726d6468b0834f3fcdbb4650195e57bbfc42",
+  "original_candidates": 76,
+  "expanded_candidates": 84,
+  "new_paths": [
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FETCH_HEADS.json",
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FINAL_INTAKE_SOURCES.json",
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FINAL_REFRESH.json",
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FOUNDATION4_SOURCE_REUSE.json",
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/M7_NON_MARKDOWN_INTAKE.json",
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/QUOTATIONS.json",
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/READING_LEDGER.json",
+    "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/SOURCE_INDEX.json"
+  ],
+  "counts_by_category": {
+    "provenance, specification, or source-quotation metadata": 67,
+    "mathematical checker source": 3,
+    "historical mathematical output": 2,
+    "empty preserved stream": 4,
+    "proposed unexecuted checker repair": 1,
+    "custody-only source": 1,
+    "execution infrastructure source": 2,
+    "engineering-only receipt or output": 4
+  },
+  "historical_output_source_identity": [
+    {
+      "output": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/result.json",
+      "source_sha256_matches": true,
+      "recorded_completed": true,
+      "recorded_groups": [
+        "exact_topology_and_orbits",
+        "weil_order",
+        "majorana_coefficient_freedom",
+        "ordered_yukawa_products",
+        "rank_one_two_loop_mixing",
+        "gluing_area_and_collar"
+      ],
+      "execution_in_this_collection": false
+    },
+    {
+      "output": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/result.json",
+      "source_sha256_matches": true,
+      "recorded_completed": true,
+      "recorded_groups": [
+        "finite_cell_response",
+        "reference_and_sector_controls",
+        "cut_and_source_controls",
+        "smooth_radial_control"
+      ],
+      "execution_in_this_collection": false
+    }
+  ],
+  "registered_companion_files": [
+    {
+      "lane": "physical",
+      "seat": "physical (codex)",
+      "file": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md",
+      "head": "8d5c91032",
+      "lines": 382,
+      "units": 82
+    },
+    {
+      "lane": "physical",
+      "seat": "physical (codex)",
+      "file": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS.md",
+      "head": "8d5c91032",
+      "lines": 102,
+      "units": 42
+    },
+    {
+      "lane": "physical",
+      "seat": "physical (codex)",
+      "file": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/NORMALIZED_WILSON_CROSSING_VERTEX.md",
+      "head": "8d5c91032",
+      "lines": 137,
+      "units": 56
+    },
+    {
+      "lane": "physical",
+      "seat": "physical (codex)",
+      "file": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF.md",
+      "head": "8d5c91032",
+      "lines": 197,
+      "units": 87
+    },
+    {
+      "lane": "physical",
+      "seat": "physical (codex)",
+      "file": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/DESIGN.md",
+      "head": "8d5c91032",
+      "lines": 96,
+      "units": 21
+    },
+    {
+      "lane": "physical",
+      "seat": "physical (codex)",
+      "file": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS.md",
+      "head": "8d5c91032",
+      "lines": 54,
+      "units": 9
+    }
+  ],
+  "limits": "Inventory and coverage, not independent acceptance; quotation metadata retains its original reading limits",
+  "entries": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CHECKER_SEAL.json",
+      "bytes": 782,
+      "lines": 29,
+      "sha256": "7e604311adc4d654787f98ad648c5aea3592d1f63df12cc7edb6762e8721ade0",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_sha256",
+        "card_sha256",
+        "source_receipt_sha256",
+        "imports",
+        "runtime",
+        "execution_status",
+        "check_entry_points"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW_RECEIPT.json",
+      "bytes": 3924,
+      "lines": 109,
+      "sha256": "a5564a98062aadb20934dc258c83b8bf3d974b6a08861338f80a637e5ddb6851",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_head",
+        "quotations",
+        "upstream_pins",
+        "literature"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/RUN01_PREPARATION.json",
+      "bytes": 709,
+      "lines": 16,
+      "sha256": "6167728a03a24957c078da8106b58c74a7f6f8b03d176bbe26fb8994873f7554",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "checker_commit",
+        "reviewed_head",
+        "checker_sha256",
+        "isolated_source_directory",
+        "source_file_count",
+        "scientific_execution_started",
+        "output_will_be",
+        "argv"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/SOURCE_RECEIPT.json",
+      "bytes": 6029,
+      "lines": 162,
+      "sha256": "73343a4b531b082c76ff2d1ace5836e216a8b8d53c8dc346493e0d724af0984f",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_head",
+        "base",
+        "sources",
+        "scientific_execution"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/independent_checks.py",
+      "bytes": 18040,
+      "lines": 440,
+      "sha256": "19ee0b2ed7437e0cf8a9ae540f21198ad634070d342dfe8baf033995fa732c35",
+      "category": "mathematical checker source",
+      "in_original_intake": true,
+      "top_level_functions": [
+        "multiply",
+        "power",
+        "determinant",
+        "rational_rank",
+        "matrix_order",
+        "act",
+        "orbit_count",
+        "exact_topology_and_orbits",
+        "frac",
+        "norm",
+        "trace",
+        "weil_order",
+        "eisenstein",
+        "majorana_terms",
+        "singular_ratios",
+        "majorana_coefficient_freedom",
+        "ordered_yukawa_products",
+        "rank_one_two_loop_mixing",
+        "gluing_area_and_collar",
+        "serializable",
+        "main"
+      ],
+      "test_methods": []
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/CUSTODY.json",
+      "bytes": 631,
+      "lines": 23,
+      "sha256": "5d33ac28d012c2485e56bd175b01f6311328e3aab6cd7d8227df7d1fe042ec3b",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "execution_exit_code",
+        "source_sha256",
+        "source_unchanged",
+        "results_read_for_analysis",
+        "files"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/result.json",
+      "bytes": 5779,
+      "lines": 171,
+      "sha256": "9b982ebf4f47e12bc459ecbfd7d28cdf602e862c1fce74f82dbf2a354240513b",
+      "category": "historical mathematical output",
+      "in_original_intake": true,
+      "json_shape": [
+        "state",
+        "python",
+        "mpmath",
+        "working_digits",
+        "source_sha256",
+        "checks",
+        "completed",
+        "seconds"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/stderr.log",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "empty preserved stream",
+      "in_original_intake": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/stdout.log",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "empty preserved stream",
+      "in_original_intake": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/SOURCE_RECEIPT.json",
+      "bytes": 9714,
+      "lines": 243,
+      "sha256": "d0d8703d62384e52e0346d6b33e19d45d89ab9e856d085c2d3e3062ba72f5743",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "kind",
+        "reviewed_head",
+        "main_head",
+        "sources",
+        "saved_boolean_flags",
+        "declared_script_and_output_pins_match",
+        "source_quotations",
+        "primary_literature_reading"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FETCH_HEADS.json",
+      "bytes": 15139,
+      "lines": 238,
+      "sha256": "a3a2e4986b5696ec01e6d5ab30c53728a01eb81a534387ac2c2a74b82ddc7229",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "date",
+        "fetch",
+        "remote_branches_excluding_HEAD_alias",
+        "refs"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FINAL_INTAKE_SOURCES.json",
+      "bytes": 2526,
+      "lines": 89,
+      "sha256": "dd78022d3a7a61d606ef0b0e292ec63c6de8209e602b0c0ae76f48a250897e8d",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "reading",
+        "sources"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FINAL_REFRESH.json",
+      "bytes": 3495,
+      "lines": 117,
+      "sha256": "8acb354d4f8c966c85ef603e5cd41c34a3b0fadfa4c70f9bb860096aaf09672c",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "date",
+        "method",
+        "refs",
+        "main_message_read",
+        "changes_since_initial_snapshot",
+        "no_new_scientific_execution"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/FOUNDATION4_SOURCE_REUSE.json",
+      "bytes": 8981,
+      "lines": 587,
+      "sha256": "f43de1e0f9f00c6d72f5df89a2b2032ac831249d80ed19461cbc800f323724bc",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "base_commit",
+        "base_path",
+        "target_commit",
+        "target_path",
+        "base_review",
+        "method",
+        "base_sha256",
+        "target_sha256",
+        "blocks"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/M7_NON_MARKDOWN_INTAKE.json",
+      "bytes": 22823,
+      "lines": 466,
+      "sha256": "748a8d33ed80cf8b2392a2c5d0d34ad6f97504e537a935881a6592e57afb412e",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "window",
+        "purpose",
+        "remaining",
+        "candidates"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/QUOTATIONS.json",
+      "bytes": 17829,
+      "lines": 194,
+      "sha256": "2a1ca55f88f0bca219ed4aa51e3029f288cfc584de538238dcdc71b82fdb9093",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "meaning",
+        "excerpts"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/READING_LEDGER.json",
+      "bytes": 39111,
+      "lines": 1124,
+      "sha256": "b468470e94a9183f281eec0118efd8b694fada999d0e5daf2f71d578a95eb14e",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "date",
+        "scope_card",
+        "scientific_execution_count",
+        "empirical_comparisons",
+        "additional_agents",
+        "listener_started",
+        "overall_evidence_label",
+        "prior_review_reused",
+        "limits",
+        "coverage"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/SOURCE_INDEX.json",
+      "bytes": 30644,
+      "lines": 797,
+      "sha256": "3dd11d11a33819eab3458594c3beefbccd79bd884aded54e314083bf6b4ffb6f",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": false,
+      "json_shape": [
+        "evidence",
+        "sources"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BASELINE_HEADS.json",
+      "bytes": 1992,
+      "lines": 27,
+      "sha256": "4ead1572bb3d31c1efc7d6838d5c397ba33384e2c4ab85a8c23f6f37d3ea3534",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "origin/HEAD",
+        "origin/agy-002/endgame",
+        "origin/agy-002/verify",
+        "origin/agy/audit-2026-11-02",
+        "origin/agy/frontier-2026-10-26",
+        "origin/agy/self-consistent-loop-2026-11-11",
+        "origin/agy/stage4-sync-2026-11-11",
+        "origin/audit/fork-2026-09-20",
+        "origin/audit/independent-2026-11-03",
+        "origin/audit/physical-bridge-2026-09-05",
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/outside-bench",
+        "origin/claude/paper-review-verification-kaz3f5",
+        "origin/claude/project-thread-hctlox",
+        "origin/claude/standard-model-derivation-0qt6ao",
+        "origin/cld/cool-hamilton-k9eqvo",
+        "origin/explore/2026-11-05",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing",
+        "origin/review-82/read",
+        "origin/review-83/read",
+        "origin/sep16-branch"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/CLOSURE_SOURCE_INVENTORY.json",
+      "bytes": 18000,
+      "lines": 439,
+      "sha256": "13e03b12155d6da692f36b48d60b01957544a8a4009711f8498f16d80c55f63f",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "files"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/CUSTODY_AND_RECORDED_FLAGS.json",
+      "bytes": 16944,
+      "lines": 387,
+      "sha256": "3d87ed0c2c21b316527ee0ef0b4b69e46618f2a22ee4399dc0b3c724e8284df0",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "source_hashes_checked",
+        "manifest_checks",
+        "reported_false_flags",
+        "x_closure_commit_order",
+        "agy_changed_top_level_definitions",
+        "inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/DELIVERY_METADATA_VALIDATION.json",
+      "bytes": 9662,
+      "lines": 338,
+      "sha256": "2ed02ca21dc361867afcac5769804c2a9d07218ca8429a1009cd3255a28e89fa",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "quoted_lines_checked",
+        "quoted_lines",
+        "source_hash_entries_checked",
+        "upstream_manifest_entries_checked",
+        "json_documents_parse",
+        "metadata_collector_syntax",
+        "own_gram_patch_applicability_exit_code",
+        "own_gram_patch_applied",
+        "inherited_staged_diff_sha256",
+        "referenced_local_review_paths_exist",
+        "new_scientific_results_certified",
+        "own_gram_patch_applicability_command"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FETCH_COMPARISON.json",
+      "bytes": 2742,
+      "lines": 47,
+      "sha256": "ec10ae95af19f1508fddd19533d8b07d4b03509b5d11752dfa2d9a13f8ab64bf",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "exit_code",
+        "remote",
+        "heads",
+        "changed_external_heads",
+        "scientific_execution",
+        "inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FETCH_RECEIPT.json",
+      "bytes": 2742,
+      "lines": 47,
+      "sha256": "ec10ae95af19f1508fddd19533d8b07d4b03509b5d11752dfa2d9a13f8ab64bf",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "exit_code",
+        "remote",
+        "heads",
+        "changed_external_heads",
+        "scientific_execution",
+        "inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINAL_FETCH_RECEIPT.json",
+      "bytes": 2407,
+      "lines": 40,
+      "sha256": "bf84a4d9a5f48f80c71292a6b3f3b6469fe04bbafb61adeeda1d6e0bc1188558",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "exit_code",
+        "changed_external_heads_since_review_targets",
+        "heads"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FRONT_DOORS.json",
+      "bytes": 6524,
+      "lines": 103,
+      "sha256": "10e7ed501b15067b7fd7837ff48469afab45a6229b9f03c8d98e9d7ef578d512",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "pages"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_CUSTODY_AND_FLAGS.json",
+      "bytes": 13361,
+      "lines": 297,
+      "sha256": "1c93b9adb02349aa1c54107912b2e9d67bf18bebc20fcbf1918a4d8271543144",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "commit",
+        "source_hashes_checked",
+        "manifest_checks",
+        "reported_false_flags"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "bytes": 7587,
+      "lines": 149,
+      "sha256": "7bc7fbcf7acc7c550885d3a3e35757948c89070703f581bfe56f00c409ca7f9c",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "items"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_GRAM_CHECK_REPAIR.diff",
+      "bytes": 580,
+      "lines": 8,
+      "sha256": "71db2d270b67a68f7227d8a3f356a36ce97777c0be9fad4748eb3d0162e65fd1",
+      "category": "proposed unexecuted checker repair",
+      "in_original_intake": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_REPAIR_PROPOSAL.json",
+      "bytes": 694,
+      "lines": 8,
+      "sha256": "f6e5ca696677f49c5561dac0755f128516db6bd5f3173fbeb05bf9670f705138",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "status",
+        "source",
+        "source_sha256",
+        "proposed_sha256",
+        "scope",
+        "applicability_command"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/PROCESSED_HEADS.json",
+      "bytes": 2519,
+      "lines": 36,
+      "sha256": "1851b352fdf5c01148c9de34cd6e6a0bf146ae78a08b03515dea203497ac7103",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "heads",
+        "advertised_branch_count_excluding_HEAD_alias",
+        "new_external_changes_after_late_review",
+        "scope",
+        "scientific_execution"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/QUOTED_SOURCE_EVIDENCE.json",
+      "bytes": 10866,
+      "lines": 229,
+      "sha256": "5bc665e3dd30f95d939f616a4079e81a76c3c4ca3663bda6587f4ce6f1940664",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "items"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/SOURCE_INVENTORY.json",
+      "bytes": 24739,
+      "lines": 621,
+      "sha256": "358733e450fa711717aa7559017ae2f8b6ab9d4223ec6d0c5d837cc0bee83c05",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "files"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/TARGET_HEADS.json",
+      "bytes": 1992,
+      "lines": 27,
+      "sha256": "c7856463507dbd9d8389f5f38096880801f4d004e52b236a106f205fffc1a467",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "origin/HEAD",
+        "origin/agy-002/endgame",
+        "origin/agy-002/verify",
+        "origin/agy/audit-2026-11-02",
+        "origin/agy/frontier-2026-10-26",
+        "origin/agy/self-consistent-loop-2026-11-11",
+        "origin/agy/stage4-sync-2026-11-11",
+        "origin/audit/fork-2026-09-20",
+        "origin/audit/independent-2026-11-03",
+        "origin/audit/physical-bridge-2026-09-05",
+        "origin/chat1/web-seat",
+        "origin/chatgpt/weave-physics-archive-2026-10-11",
+        "origin/claude/kind-hypatia-uk0vv9",
+        "origin/claude/outside-bench",
+        "origin/claude/paper-review-verification-kaz3f5",
+        "origin/claude/project-thread-hctlox",
+        "origin/claude/standard-model-derivation-0qt6ao",
+        "origin/cld/cool-hamilton-k9eqvo",
+        "origin/explore/2026-11-05",
+        "origin/main",
+        "origin/referee/B1668_the_price_of_the_nineteen",
+        "origin/referee/landing",
+        "origin/review-82/read",
+        "origin/review-83/read",
+        "origin/sep16-branch"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/collect_source_metadata.py",
+      "bytes": 5073,
+      "lines": 103,
+      "sha256": "aa0be5876e0758a2ba8731e4c36f4c433f98121f4d0d54f1d97432b4ce037bf4",
+      "category": "custody-only source",
+      "in_original_intake": true,
+      "top_level_functions": [
+        "dump"
+      ],
+      "test_methods": []
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/FRONT_DOORS.json",
+      "bytes": 63590,
+      "lines": 773,
+      "sha256": "de8dd1d134a492df733aabebc1d8edae62083fba239a2993534da318abfd9963",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": {
+        "list_length": 23
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/READ_SCOPE.json",
+      "bytes": 25735,
+      "lines": 481,
+      "sha256": "293b62698b6e27de90f32992bbec9a68669ef466d013ff7805b2554ab4e8938a",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "branches"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/REMOTE_HEADS.json",
+      "bytes": 9843,
+      "lines": 143,
+      "sha256": "8f31d2455d88e09604fb1b68495475ab09b9b85b4f36713608ae0eb07217fde7",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "scope",
+        "refs"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/SOURCE_OBSERVATIONS.json",
+      "bytes": 1517,
+      "lines": 42,
+      "sha256": "bf44a7369eae7163cb7323c43b028062581c96d090aecf90425b3510cdd40177",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "exp_head",
+        "source_observations"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REFRESH_RECEIPT.json",
+      "bytes": 3103,
+      "lines": 106,
+      "sha256": "d50bcd7e466815ad78300d5ba15a897e1c5d1c407140995460b0ec4d0e94bba3",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "exit_code",
+        "previous_receipt",
+        "refs",
+        "changed_external_heads",
+        "scientific_execution"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SOURCES.json",
+      "bytes": 25850,
+      "lines": 467,
+      "sha256": "bc9993999dd11b04f2e9d495678fc0099e6a57d697b6e5e99f3258500075505c",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "scope_card",
+        "first_proof_checkpoint",
+        "source_pin_head",
+        "evidence_grade",
+        "source_completeness",
+        "scientific_execution",
+        "foundational_inputs_removed",
+        "sources",
+        "artifacts",
+        "external_readings",
+        "protected_inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REFRESH_RECEIPT.json",
+      "bytes": 3200,
+      "lines": 106,
+      "sha256": "ca4636656d519fa28e1fd1a053969fe8814cdc840fd7197e440e4f7e4d47f49e",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "exit_code",
+        "prior_receipt",
+        "refs",
+        "changed_external_heads",
+        "scope"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/SOURCES.json",
+      "bytes": 22519,
+      "lines": 408,
+      "sha256": "a51e8f102da092b715b9e67c3ae85051e14cf47af84eccc6c401061a4e485c8b",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "scope_cards",
+        "first_proof_commits",
+        "source_pin_head",
+        "method",
+        "independent_review",
+        "source_completeness",
+        "scientific_execution",
+        "foundational_inputs_removed",
+        "sources",
+        "artifacts",
+        "protected_inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/METADATA_RECEIPT.json",
+      "bytes": 1069,
+      "lines": 24,
+      "sha256": "e9c4bf317817b90a21be0561c68cb3d63ff5ed88e34f4ce464568b7103c943cd",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date_utc",
+        "checks",
+        "source_pins_matching",
+        "inherited_staged_binary_diff_sha256",
+        "scientific_execution_count",
+        "scientific_import_count",
+        "scientific_collection_count",
+        "independent_mathematical_acceptance",
+        "foundational_inputs_counted_removed",
+        "continuation_scope_commit",
+        "proof_artifact_pins_matching",
+        "proof_commit",
+        "internal_composite_scope_commits"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/SOURCES.json",
+      "bytes": 20851,
+      "lines": 331,
+      "sha256": "cfe4eae0293d5c6d65d49efe505ab361e5bf3e0b83d0f2f40f00155af6e38c2e",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date_utc",
+        "scope_commit",
+        "scope_card",
+        "source_pins",
+        "branch_heads",
+        "primary_literature",
+        "prior_work_search",
+        "reading_scope",
+        "evidence_status",
+        "continuation_scope_commit",
+        "internal_composite_scope_commits",
+        "continuation_proof_commit",
+        "proof_artifact_pins",
+        "latest_metadata_check_utc",
+        "latest_fetched_branch_heads",
+        "latest_fetch_note",
+        "proof_revision_history",
+        "source_revision_history"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/METADATA_RECEIPT.json",
+      "bytes": 7168,
+      "lines": 185,
+      "sha256": "5c2745af621a3c276db12fb0eaeb79695394c59833a2aa1214bf8cbeecf110ac",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date_utc",
+        "operations",
+        "upstream_artifacts_verified",
+        "provided_manifest_checks",
+        "upstream_received_gate_flags",
+        "scientific_execution_count",
+        "scientific_import_count",
+        "mathematical_passes_inferred_from_metadata",
+        "inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCES.json",
+      "bytes": 16859,
+      "lines": 394,
+      "sha256": "6363ae9a8485645184041ecc338012048121414234ea2a3c53942f201a2e49dd",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date_utc",
+        "scope_card_commit",
+        "upstream_head",
+        "branch_heads",
+        "changed_external_heads_since_previous_review",
+        "upstream_sources",
+        "physical_author_sources",
+        "reading_coverage",
+        "literature_reading"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_QUOTES.json",
+      "bytes": 71192,
+      "lines": 72,
+      "sha256": "4b2a61b9be6d89ba364b82219e955485c66bde66989e6e5fbcc0cf040f89b202",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": {
+        "list_length": 10
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/RECEIPT.json",
+      "bytes": 14990,
+      "lines": 372,
+      "sha256": "88b2a609e38ec603c9ffa17b156e16b5c65773ccee27aba6a286f06dff00405c",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date_utc",
+        "scope_commit",
+        "branch_heads",
+        "advertised_branch_count",
+        "changes_from_C5",
+        "new_upstream_artifacts",
+        "provided_manifest_matches",
+        "reading_coverage",
+        "guard_sources",
+        "guard_non_scanner_module_AST_nodes_identical",
+        "guard_non_scanner_node_count",
+        "canonical_sources",
+        "canonical_counts",
+        "received_gate_flags",
+        "scientific_execution_count",
+        "scientific_import_count",
+        "scientific_collection_count",
+        "inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFRESH_RECEIPT.json",
+      "bytes": 3098,
+      "lines": 106,
+      "sha256": "afa5f45a46ddc131b8e00c397f9527dd74798be13a0c9f4bdec747e9c2ea0b1b",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "exit_code",
+        "refs",
+        "previous_receipt",
+        "changed_external_heads",
+        "scientific_execution"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/SOURCES.json",
+      "bytes": 8515,
+      "lines": 177,
+      "sha256": "5bb914a34c08ffcde74dfe570f12ef65f91ea17e28aa306ff8ac8196ca918a48",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "scope_card",
+        "proof_checkpoints",
+        "source_pin_head",
+        "method",
+        "independent_review",
+        "source_completeness",
+        "scientific_execution",
+        "foundational_inputs_removed",
+        "sources",
+        "artifacts",
+        "protected_inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/CUSTODY.json",
+      "bytes": 1746,
+      "lines": 31,
+      "sha256": "9233117ebcdb3d20853607579f1c2b79cd98a63e3aa1bc1950ae1513fe0e1ce8",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "status",
+        "preserved_on",
+        "reason",
+        "artifacts"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/REFRESH_RECEIPT.json",
+      "bytes": 11595,
+      "lines": 178,
+      "sha256": "a5eea949e522912ae864dd80e950064db1f4065faa5435d138ccb3a270eebda4",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "operation",
+        "fetch_exit_code",
+        "scope",
+        "refs",
+        "comparison_baseline",
+        "previously_processed_overrides",
+        "changed_since_processed_heads",
+        "new_substantive_remote_review",
+        "unrelated_staged_diff_sha256",
+        "scientific_execution"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/SOURCES.json",
+      "bytes": 15101,
+      "lines": 339,
+      "sha256": "792fe5056352a960bc61e85570c82f870c427ecc63151e6bef66a05c0120ccec",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "scope_cards",
+        "physical_proof_commits",
+        "source_pin_head",
+        "method",
+        "independent_review",
+        "source_completeness",
+        "scientific_execution",
+        "foundational_inputs_removed",
+        "local_sources",
+        "remote_review_sources",
+        "artifacts",
+        "protected_inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/SOURCES.json",
+      "bytes": 10223,
+      "lines": 192,
+      "sha256": "13328e69d2bc23a9521a6766cb8766a39068908e2c3c11ff63fa8606230e672a",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "cards",
+        "first_proof_checkpoint",
+        "source_pin_head",
+        "evidence_grade",
+        "source_completeness",
+        "scientific_execution",
+        "foundational_inputs_removed",
+        "prior_all_branch_survey",
+        "sources",
+        "artifacts",
+        "protected_inherited_staged_diff_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/CONTINUATION_SOURCES.json",
+      "bytes": 3951,
+      "lines": 77,
+      "sha256": "e7b9476a6a9164efeca4c82c5f19fbe4f6c7a3ee7fd2c6874f68a7465d510d1c",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "scope_card",
+        "sources",
+        "primary_source_reading"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_SOURCES.json",
+      "bytes": 10490,
+      "lines": 209,
+      "sha256": "c2a2c1111ea553ee10107b767ec5c98afa8fe05410ae8a5c645204e8a72e4cda",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date",
+        "scope_card",
+        "method",
+        "independent_review",
+        "scientific_execution",
+        "foundational_inputs_removed",
+        "sources",
+        "new_claim_artifacts",
+        "primary_reading",
+        "fresh_other_branch_intake",
+        "continuation"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SOURCE_RECEIPT.json",
+      "bytes": 4178,
+      "lines": 85,
+      "sha256": "e72b574783ec6d35f0cb4e4126a9c96d1efe7f485a2a38713a854b7a4eed3190",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "scope_card",
+        "sources",
+        "inherited_staged_sha256"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/X_BRIDGE_INTAKE.json",
+      "bytes": 1044,
+      "lines": 25,
+      "sha256": "af35e792a58584e3a00f8bc17b2532e4886d1b559eec0ec2e00eaf6cab86424a",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "head",
+        "method",
+        "reports_read",
+        "targeted_source",
+        "scientific_scripts_run",
+        "full_campaign_review_complete"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/ENVIRONMENT.json",
+      "bytes": 454,
+      "lines": 13,
+      "sha256": "922d6e89c21596cba42db207cc4949f314b0f3957be57b7f40f37a0fbe928c0c",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "schema",
+        "status",
+        "python",
+        "implementation",
+        "packages",
+        "required_flags",
+        "external_tools",
+        "measured_data",
+        "imports"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/EXPECTED.json",
+      "bytes": 865,
+      "lines": 14,
+      "sha256": "415268dc2b89fbde41e1f6cb9145c09e49e98ff3283058f60bcaf27e351b40a5",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": {
+        "list_length": 12
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/SOURCE_RESOLUTION.json",
+      "bytes": 12757,
+      "lines": 266,
+      "sha256": "0cb12afe96f47adda658045d96a4b31a13409b111deaf6f17fdde377841fe98d",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": {
+        "list_length": 24
+      }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/SPECIFICATION.json",
+      "bytes": 13247,
+      "lines": 293,
+      "sha256": "0a755649dffe504d8d29a3a2bbbc8f3cbe07e33b6f0caf742e725c5a68be8b8b",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "schema",
+        "experiment_id",
+        "authors",
+        "design",
+        "artifacts",
+        "commands",
+        "outputs",
+        "environment"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/STATIC_INSPECTION.json",
+      "bytes": 2727,
+      "lines": 74,
+      "sha256": "400f3d6eb65a99b3cc86e17015c909a3126444150c905e49477055282e2bf2c1",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "scientific_module_imported",
+        "tests_collected",
+        "scientific_checks_run",
+        "proofs_independently_checked",
+        "syntax_parsed",
+        "statically_declared_methods",
+        "expected_count",
+        "specification_artifacts",
+        "source_receipt_entries_checked",
+        "materialized_main_inputs",
+        "imports_for_review",
+        "runtime_metadata",
+        "specification",
+        "additional_static_review"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/checks.py",
+      "bytes": 19689,
+      "lines": 397,
+      "sha256": "ef8c2013e58fd38fa812962adb3877874d155f3e766b881a2a3a23ce0cff8f97",
+      "category": "mathematical checker source",
+      "in_original_intake": true,
+      "top_level_functions": [
+        "commutator",
+        "reduced",
+        "matrix_unit",
+        "quaternion_data",
+        "axis_action",
+        "contraction",
+        "root_data",
+        "source_cubic",
+        "polarized_vertex",
+        "normalized_squared"
+      ],
+      "test_methods": [
+        "RegisteredVertexChecks.test_quaternion_relations_and_conjugation_generators",
+        "RegisteredVertexChecks.test_coupling_span_full_and_traceless",
+        "RegisteredVertexChecks.test_coupling_covariance_and_unsigned_counterexample",
+        "RegisteredVertexChecks.test_inner_residual_and_vertical_spin_sheet",
+        "RegisteredVertexChecks.test_full_and_slot_family_constant_stabilizers",
+        "PhysicalVertexChecks.test_source_cubic_and_polarization",
+        "PhysicalVertexChecks.test_root_vertex_and_physical_mass_derivative",
+        "PhysicalVertexChecks.test_normalized_vertex_current_and_rescalings",
+        "PhysicalVertexChecks.test_shape_inequality_exact_metric_controls",
+        "PhysicalVertexChecks.test_slot_rank_and_illicit_form_entry",
+        "PhysicalVertexChecks.test_full_complement_response_and_backreaction",
+        "PhysicalVertexChecks.test_complex_bilinear_gram_and_current_transport"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_checks.py",
+      "bytes": 4584,
+      "lines": 89,
+      "sha256": "709ee7a580ad1d52a1f4e7595c7a5880992b8fd60cbae6584c24a0e7316ae15e",
+      "category": "execution infrastructure source",
+      "in_original_intake": true,
+      "top_level_functions": [
+        "main"
+      ],
+      "test_methods": [
+        "RunnerRejectionChecks.test_changed_pin_rejected_before_scientific_import",
+        "RunnerRejectionChecks.test_untracked_file_rejected_before_scientific_import",
+        "RunnerRejectionChecks.test_ignored_file_rejected_before_scientific_import"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/RECEIPT.json",
+      "bytes": 892,
+      "lines": 18,
+      "sha256": "cd76ef38aa438b376e84e9c004cab6498425b1679fe0394d64c7bce380f1d13a",
+      "category": "engineering-only receipt or output",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "source_seal_commit",
+        "specification_sha256",
+        "fixture_source_sha256",
+        "raw_output",
+        "tests_run",
+        "failures",
+        "errors",
+        "scientific_checker_imported",
+        "scientific_tests_run",
+        "independent_review",
+        "scientific_admission",
+        "limits"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/REPEAT_RECEIPT.json",
+      "bytes": 1009,
+      "lines": 19,
+      "sha256": "1d2f4ab49837a023a3f38207a7684223608dc5b8186ee4ee8b669309f937d9d6",
+      "category": "engineering-only receipt or output",
+      "in_original_intake": true,
+      "json_shape": [
+        "method",
+        "source_seal_commit",
+        "specification_sha256",
+        "fixture_source_sha256",
+        "raw_output",
+        "tests_run",
+        "failures",
+        "errors",
+        "scientific_checker_imported",
+        "scientific_tests_run",
+        "independent_review",
+        "scientific_admission",
+        "limits",
+        "first_output_preserved"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/first-d5b9afdf6.log",
+      "bytes": 532,
+      "lines": 8,
+      "sha256": "0f004bbc8e3136510e3f0be3b64819f006ed83d339bb0cd5f08b24abc7da6aee",
+      "category": "engineering-only receipt or output",
+      "in_original_intake": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/repeat-ca02b5d8d.log",
+      "bytes": 532,
+      "lines": 8,
+      "sha256": "c3e6fb96f093b08bf24c56caab427f4eaf23b95237401c345832047b3b60f4a4",
+      "category": "engineering-only receipt or output",
+      "in_original_intake": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/run_checks.py",
+      "bytes": 9289,
+      "lines": 189,
+      "sha256": "064a6a723babb52055e85d908028e26493ae3e836a2389f975ca3621aac2c1b9",
+      "category": "execution infrastructure source",
+      "in_original_intake": true,
+      "top_level_functions": [
+        "require",
+        "extra_files",
+        "verify_pins",
+        "load_infrastructure",
+        "main"
+      ],
+      "test_methods": []
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CHECKER_SEAL.json",
+      "bytes": 888,
+      "lines": 38,
+      "sha256": "79a92c9dbdc8802a4facf646d2ba56846833f843bc9161564f362064670e1ceb",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "execution_status",
+        "runtime",
+        "imports",
+        "files"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/RUN01_PREPARATION.json",
+      "bytes": 387,
+      "lines": 8,
+      "sha256": "5a2e29965aa19a1aaa757f3b76beadbf3d32eb1cf94dfd400715981566bb14fd",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_commit",
+        "source_sha256",
+        "run_directory",
+        "status",
+        "runtime",
+        "execution_limit_seconds"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SOURCE_RECEIPT.json",
+      "bytes": 4258,
+      "lines": 75,
+      "sha256": "88c9f448559a174d05a375930fca355e56d5fd2770d77ab5d628d8d43c9edd2b",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_recovery",
+        "external_source"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/check_boundary_law.py",
+      "bytes": 10045,
+      "lines": 225,
+      "sha256": "68a0b11eda51daa3dd25ca960600cd2bf4a871031e93dd929c7f9339396557f3",
+      "category": "mathematical checker source",
+      "in_original_intake": true,
+      "top_level_functions": [
+        "linear_solve",
+        "gauge_energy",
+        "finite_cell_response",
+        "reference_and_sector_controls",
+        "cut_and_source_controls",
+        "smooth_radial_control",
+        "encode",
+        "main"
+      ],
+      "test_methods": []
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/CUSTODY.json",
+      "bytes": 663,
+      "lines": 24,
+      "sha256": "302922f77ca0c2070b49d970056d0a576bd7a05417f84b5d9db9c3f852509124",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_sha256",
+        "source_unchanged",
+        "source_commit",
+        "execution_exit_code",
+        "results_read_for_analysis",
+        "files"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/result.json",
+      "bytes": 3409,
+      "lines": 110,
+      "sha256": "835fe799a7f9722c41d2317c5aefeb3d7d7a9a76ac5a012575bd257531b37164",
+      "category": "historical mathematical output",
+      "in_original_intake": true,
+      "json_shape": [
+        "status",
+        "python",
+        "mpmath",
+        "source_sha256",
+        "checks",
+        "completed",
+        "seconds"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/stderr.txt",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "empty preserved stream",
+      "in_original_intake": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/stdout.txt",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "empty preserved stream",
+      "in_original_intake": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/COMPARISON_SOURCES.json",
+      "bytes": 1234,
+      "lines": 46,
+      "sha256": "78271231cd0780fec9bc4514e7fe4c6895d92bc3e5bca58ba02b725fe792c4fe",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_files"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/QUOTATIONS.json",
+      "bytes": 7696,
+      "lines": 260,
+      "sha256": "512aa7036888c039b30fb58d93388d177c6cfb2d92295ce8f04163c4ed2523b3",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_commit",
+        "checks",
+        "method",
+        "date_utc",
+        "finding_count"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/READ_SCOPE.json",
+      "bytes": 8248,
+      "lines": 345,
+      "sha256": "e45918ac40d83dde89250b8541bdc40a6b8c81cde60f06d3418bca7e11d537c7",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "date_utc",
+        "main_head",
+        "target_head",
+        "scope_commit",
+        "status",
+        "coverage",
+        "scientific_runs",
+        "empirical_comparisons",
+        "notes",
+        "supplied_hash_checks",
+        "scripts_read_line_count",
+        "final_fetched_main_head",
+        "final_fetched_target_head",
+        "main_instruction_note"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/SEAL_HISTORY.json",
+      "bytes": 1811,
+      "lines": 43,
+      "sha256": "ba1a5890cd9672d1d1313e5110ba541e7c60191dc4ad287d418d2c32a8b80f8f",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "checked_utc",
+        "source_commit",
+        "trails",
+        "limitation"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/SOURCE_INDEX.json",
+      "bytes": 8032,
+      "lines": 197,
+      "sha256": "00d2ab9e41a42e8adaf3ec64b0e7330905a041696a0f12bcc7ccc0470d2c1611",
+      "category": "provenance, specification, or source-quotation metadata",
+      "in_original_intake": true,
+      "json_shape": [
+        "source_commit",
+        "source_files"
+      ]
+    }
+  ]
+}
