@@ -1,4 +1,4 @@
-# W-P1b: the class test. No read-out a frame adopts depends on level 5's Weil class. Two candidates that B1953 prints do: its family Gramians over W's 3 and over W's 2. Covariance ties the labelling of the 24 points to the class, and on frame C the classes' Gramians differ. The iteration passes each class with its own labelling, and fails class 1 with the record's. The class and the labelling are one counted bit, and it is not the hand's
+# W-P1b: the class test. In the scope, no read-out a frame adopts depends on level 5's Weil class. Two candidates that B1953 prints do: its family Gramians over W's 3 and over W's 2. Covariance ties the labelling of the 24 points to the class, and on frame C the classes' Gramians differ. The iteration passes each class with its own labelling, and fails class 1 with the record's. The class and the labelling are one counted bit, and it is not the hand's
 
 **From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:` data-free. It is step 2 of card W-P1
 (`relays/CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING.md`, § 5), at the author's word of 2026-11-18.
@@ -14,7 +14,9 @@ is disclosed below.
   quantities the first run had not computed in both classes, and when W-P1b's first version left frame C open:
   - "the sweep's follow-up": condition 859f63845, `wp1b_followup.py` f302754cf, output eb7a7c963;
   - "the two Gramians": condition 317f82de8, `wp1b_gramians.py` 2ec9ed3ca, output 6ddbe8c6c;
-  - "frame C's own Gramians in both classes": condition f36bf5b3b, `wp1b_frame.py` fdbbfd09a, output 0c6b24355.
+  - "frame C's own Gramians in both classes": condition f36bf5b3b, `wp1b_frame.py` fdbbfd09a, output 0c6b24355;
+  - "the direct tests", after the second read: condition 0bc0051b2, `wp1b_frame2.py` 795cc05dd, output c28ac330d. It
+    was not blind: the read's own numbers were known when its condition was written.
 
 **Typing.** [E] marks what the runs, the record or a standard result establish; [J] marks this seat's judgement.
 Nothing here is compared with a measured value.
@@ -46,17 +48,21 @@ Nothing here is compared with a measured value.
      - which labellings of the 24 points by Weyl operators are covariant. For class 2 these are the four scalars,
        B1953's identity among them. For class 1 they are four diagonal matrices of non-square determinant, diag(1, 3)
        among them (J1). This restates W-A2 part B, main's R2, and B1955 § 2's third bullet with its
-       `class_is_a_choice.py`, item 2, in the frame's own transport.
+       `class_is_a_choice.py`, item 2, in the frame's own transport. R2 gives diag(1, 2) for the other class, which
+       is diag(1, 3)⁻¹: the same identification taken in the other direction.
      - what is built from products of Weyl operators under that labelling: B1953's two family Gramians and O's
        singular values.
-3. **[E] On frame C, B1953's two Gramians differ between the classes** (§ 3a). At B1953's two base points and in both
-   readings:
-   - both classes' operators keep their singular values under T to 1e-13;
-   - S₁ − S₂ is larger than S₁;
-   - the Gramians' ratios differ by up to 0.09 over the 3 and up to 0.58 over the 2.
+3. **[E] On frame C, B1953's two Gramians differ between the classes** (§ 3a). This is on this seat's transcription of
+   frame C, at B1953's two base points, in both readings:
+   - each class's operator, with its own labelling, is covariant under T: the W-side Gramian moves by ρ_a(T) to
+     1.2e-13. The mismatched pairs fail by 0.11 to 0.30 (L1);
+   - S₁ − S₂ exceeds S₁ in its largest entry, by 2.6 to 5.2 times;
+   - the Gramians' ratios differ by up to 0.09 over the 3, and by up to 0.58 over the 2;
+   - O's singular values, each over the largest, differ by 0.61 to 0.66 (L4).
 
    B1953 calls the Gramians covariant candidates, not read-outs (its "Not claimed"). Main's JOIN check
-   (`physical_main01.py`) keeps only the phased sum, which is free of the class.
+   (`physical_main01.py`) finds that, under its hypotheses (a gauge intertwiner), only the phased sum survives. The
+   phased sum is free of the class.
 4. **[E] Three of the record's sentences claim more than they show.**
    - **B1953, lines 74 and 75.** Its first sentence holds for even couplings: the scalings D(cw) are class 2's own
      labellings, and they give the same Gramians. Its "so the two Weil classes are not told apart" does not follow.
@@ -67,16 +73,22 @@ Nothing here is compared with a measured value.
      the lines, not for products of them.
 5. **[E] The iteration tests the class and the labelling together.**
    - With each class's own labelling, both operators are covariant under γ for ten steps (J4, which is J1 iterated).
-   - With the record's identity labelling, class 1 fails already under T and S (G5), and so under γ.
-   - Given the labelling, exactly one class passes, so the iteration settles the class. It does not settle the pair.
+   - With the record's identity labelling, class 1 fails under γ itself: residual 1.9 (L2).
+   - Given a labelling that passes, exactly one class passes it, so the iteration settles the class. It does not
+     settle the pair.
+   - Under γ alone, 20 labellings pass for each class and 440 pass neither; under T and S together, 4, 4 and 472 (L2).
+     By the second read's check, G₃'s ratios depend only on the square class of det K.
 6. **[E] The twin and the hand are not the class.**
    - The line's twin, v ↦ 2v, is the scalar 2, of determinant 4, a square. By J1 it is one of class 2's own
      labellings.
-   - B1914's symmetries that exchange the twins have determinant −1, also a square, so they keep the class.
+   - B1914's symmetries, ±JⁿKᵉ, have determinant ±1, both squares mod 5, so none changes the class. The ones that
+     reverse the orientation exchange the twins.
    - B1923's exchange of the triplets is the scaling of the character ψ, which is the class change itself, not the
      twin.
-   - The hand is the Legendre symbol of the act's eigenvalue on the line (B1934); the class is the square class of a
-     determinant. They are different invariants.
+   - The class is the square class of a; Ad(h) changes it by the square class of det h. The hand is the Legendre
+     symbol of a symmetry's eigenvalue on the mark's line (B1934, line 44). On B1914's group the hand takes both
+     values, while every determinant is a square: K = [[0, 1], [−1, 0]] has hand −1 and determinant +1. So the hand is
+     not the class.
 7. **[J] So the class, with the labelling, is one counted bit, and it is not the hand's.**
    - It moves no adopted read-out. It moves B1953's two candidate Gramians.
    - It would be fixed if frame C's labels are the fibre's translations (§ 4). That would be consistency with the
@@ -112,7 +124,8 @@ Nothing here is compared with a measured value.
 | K1–K3 | frame C: § 3a |
 
 Every expectation set in the conditions was met, except one: step 2's expectation that B1953's read-outs are free of
-the class "as their own pages say". J3 and § 3a contradict it for the two Gramians.
+the class "as their own pages say". What fails is B1953's own phrase, "these read-outs" (line 75): J3 and § 3a
+contradict it for the two Gramians, which the page now calls candidates.
 
 ## 2. The sweep: every quantity in the scope, by arc
 
@@ -146,7 +159,7 @@ quantity printed as a frame's output and not declared as its read-out.
 | B1953 § 1: the phase-free transports with B1951's ρ | (ii) | class 2 only (G5) | neither: the labelling |
 | B1953 § 3: the law and its phase table; O's covariance; the split exists; Parseval; the phased sum | (ii) | the same table serves both (J1: no phase); the split exists in both, with different blocks; Parseval holds in both; the phased sum agrees, since tr(D(u)P) = 1 for every u | the phased sum is a candidate, the one main's JOIN keeps: class-free |
 | **B1953 § 3–4: the two family Gramians, over the 3 and over the 2** | (ii), products | **differ by (√5/4)(S₁ − S₂)** (J3); **on frame C by up to 0.09 and 0.58 in their ratios** (§ 3a) | **candidates, printed as the frame's outputs** (B1953's "Not claimed", lines 135–136) |
-| B1953 § 3: O's 15 singular values | (ii), products | their invariance under T holds in both classes (§ 3a, K1). The values themselves differ under a non-square labelling: the first referee found relative differences of 0.30 to 0.71 on synthetic couplings, which this seat has not computed | neither: B1953 prints only their invariance |
+| B1953 § 3: O's 15 singular values | (ii), products | their invariance under T holds for every labelling (§ 3a, K1). The values differ between the classes: on frame C by 0.61 to 0.66 in their ratios to the largest (L4); on synthetic couplings by 0.30 to 0.71 (the first referee's check) | neither: B1953 prints only their invariance |
 | B1955 D: the classes' groups, det, ρ(−I) = P, ρ(LR) against multiples of P, the signature | (i), rational | same | — |
 | B1955 D: the T-spectrum of the exterior powers | (iii) | differ in their fifth roots between the classes | neither |
 | B1955 E: the knot's form x²/5 | not W | one realization of class 1 | neither |
@@ -161,8 +174,8 @@ quantity printed as a frame's output and not declared as its read-out.
 
 **Outside the condition's scope.** The condition named two of main's checks. Main has others on W-A1 to W-A3, and they
 are not swept here: `web_wa1_reps.py`, `web_wa2_readout.py`, `web_wa1_part3.py`, `web_wa1_h2.py` and
-`web_wa1_star.py`. Main's JOIN check, `physical_main01.py`, reads G₃ and G₂ separately in class 2 only, and keeps the
-phased sum as what survives gauge intertwining.
+`web_wa1_star.py`. Main's JOIN check, `physical_main01.py`, uses a random family that is not even, with B1953's
+identity labelling and no ρ. It finds that, under its hypotheses (a gauge intertwiner), only the phased sum survives.
 
 ## 3. The proof
 
@@ -212,7 +225,8 @@ because σ moves the operators' phases and not the couplings.
 **Theorem [E].** In the scope:
 - every read-out a frame adopts is the same in both Weil classes;
 - B1953's two candidate Gramians differ between the classes on frame C (§ 3a);
-- O's singular values differ on synthetic couplings, by the first referee's check; this seat has not computed them.
+- O's singular values differ between the classes on frame C (L4), as on synthetic couplings (the first referee's
+  check).
 
 **The bit [E, then J].**
 - [E] The object carries both classes (B1955 § 2).
@@ -220,15 +234,23 @@ because σ moves the operators' phases and not the couplings.
   This is standard; C3 tests h = diag(2, 1), and the first referee checked all 480 h. The bundle's symmetries lie in
   GL(2, ℤ) (B1914), whose determinants ±1 are both squares mod 5.
 - [E] With its own labelling, each class passes the iteration's covariance (J4). With the record's labelling, class 1
-  fails (G5).
-- [J] By the card's bins, the pair (class, labelling) is neither an equivalence nor a consistency. So it is one
-  counted bit. Given either half, the other is settled.
+  fails under γ (L2). As an argument: by J1, class 1 realises K·A(γ)·K⁻¹, and A(γ) = [[1, 4], [4, 2]] does not commute
+  with diag(1, 3).
+- [J] By the card's bins, the pair (class, labelling) is not shown to be an equivalence or a consistency. So, as it
+  stands, it is one counted bit. Given either half, the other is settled. § 4 names how it could become a consistency.
 
 ## 3a. Frame C itself (W-P1b-H)
 
-This seat's own transcription of frame C (W-F24's and W-F26's code, as W-A1 used it) gives the down coupling Y(τ, w)
-at the 24 points w = aτ + b. The end's tables are main's JSON, read as W-F24 reads them. A(w) = ζ^(−ab)·Y(τ, w),
-B1953's table.
+This seat's own transcription of frame C (W-F24's and W-F26's code, as W-A1 used it) gives the down coupling Y(τ, w).
+- Its cA is computed by quadrature, where main uses a closed form (W-F24's docstring).
+- The 24 points are w = (aτ + b)/5, with (a, b) integers mod 5, not both 0.
+- A(w) = ζ^(−ab)·Y(τ, w), B1953's table.
+- The end's tables are main's JSON, read as W-F24 reads them. At τ + 1 the end is held at L₂(τ), as the end is
+  periodic under T, and the triplet is recomputed at τ + 1.
+
+The labelling is B1953's. The second read compared the code: the transcription's characteristic at (a, b) is main's
+`parts()` at (i/5, j/5), with the same table. It found Y(τ + 1, (a, b)) = Y(τ, (a, a + b)) to 1e-13, which is main's
+transport for T. K1 alone could not detect a relabelling.
 
 | τ, reading | K1: Y even | K1: O's singular values at τ + 1 against τ, class 2 / class 1 | K1: the plant, without the table | K2: ‖S₁ − S₂‖/‖S₁‖ | G₃'s ratios, class 2 / class 1 | G₂'s ratios, class 2 / class 1 |
 |---|---|---|---|---|---|---|
@@ -237,13 +259,24 @@ B1953's table.
 | 0.31 + 1.20i, S | 1.4e-15 | 2.3e-14 / 2.1e-14 | 1.2e-1 / 8.8e-2 | 2.8 | (0.7029, 0.5227) / (0.7718, 0.5412) | (0.8967, 0.1739) / (0.5744, 0.3500) |
 | 0.31 + 1.20i, S̃ | 1.7e-15 | 2.0e-14 / 1.7e-14 | 1.0e-1 / 7.3e-2 | 3.1 | (0.6845, 0.5073) / (0.7514, 0.5220) | (0.8917, 0.1716) / (0.6020, 0.4196) |
 
-- [E] **The transcription carries B1953's law in both classes.** Y is even, and both classes' operators keep their
-  singular values under T to 1e-13. Without the table they move by 5e-2 to 1e-1, the plant.
-- [E] **S₁ ≠ S₂ on frame C.** Their difference is larger than S₁ itself.
+- [E] **The transcription obeys B1953's law under T.** Y is even. O's singular values keep under T to 1e-13 for every
+  labelling, since the D's are symmetric Weyl operators: K1 does not test the class. Without the table they move by
+  4.8e-2 to 1.2e-1, the plant. So the table is needed.
+- [E] **The class is tested directly (W-P1b-I, L1).** The W-side Gramian Γ = tr_families(O_K O_K†) at τ + 1 against
+  ρ_a(T) Γ(τ) ρ_a(T)†:
+  - I with class 2, and diag(1, 3) with class 1: within 1.2e-13;
+  - the mismatched pairs: 0.11 to 0.30;
+  - diag(1, 4), a square but not a scalar: 0.06 to 0.19 in both classes.
+
+  S was not tested, since at −1/τ the end needs its own law (P-864).
+- [E] **S₁ ≠ S₂ on frame C.** In the largest entry, their difference exceeds S₁ by 2.6 to 5.2 times.
 - [E] **So B1953's two Gramians differ between the classes on frame C.** Their ratios differ by up to 0.09 over the 3,
   and up to 0.58 over the 2. The difference of the G₃'s equals (√5/4)(S₁ − S₂) to 6.4e-16.
-- [E] The plain Gramian's ratios are the same in both classes, as Parseval requires.
-- The expectations set in the condition (K1 to K3) were met.
+- [E] The plain Gramian involves no labels, so it is the same in both classes. Parseval holds in each class to 2.6e-15
+  (L3).
+- [E] O's singular values, each over the largest, differ between the classes by 0.61 to 0.66 (L4). Class 1's fall
+  faster at every point.
+- The expectations set in the conditions (K1 to K3, L1 to L4) were met.
 - Nothing here is compared with data or with any value on record. Main may compare this transcription with its own.
 
 ## 4. What it means
@@ -252,7 +285,7 @@ B1953's table.
   determinant, relative to the class.
   - It moves no adopted read-out.
   - If the record ever reads the down sector through G₃ or G₂ separately, the class is an input of that read-out.
-- [J] **B1953's choice is class 2's.** Its identity labelling is covariant only under class 2 (G5, J1).
+- [E] **B1953's choice is class 2's.** Its identity labelling is covariant only under class 2 (G5, J1, L1, L2).
   - B1934, line 37, says the Weil representation enters frame C only as the way its level-5 theta characteristics
     transform. So the frame's labels are characteristics, points of the fibre.
   - The fibre's translations by those points act on its degree-5 thetas as the Weyl operators with the canonical
@@ -277,7 +310,10 @@ B1953's table.
 3. Mend the twin and the triplet:
    - B1923, § 0 and § 2: scaling ψ by 2 is the class change, not the line's twin, which is the scalar 2 and keeps the
      class;
-   - B1934, line 39: the lead tying the triplets to the hand.
+   - B1934, lines 9 and 10 (which repeat B1923's sentence) and line 39 (the lead tying the triplets to the hand);
+   - B1955 § 2, line 70: "only the T-phases on the 3 differ". The 2's T-exponents differ too, {1, 4} against
+     {2, 3}, and so do the Gramians;
+   - the verdict ledger's copy of B1955's title.
 4. Say whether frame C's labels are the fibre's translations (§ 4). If they are, the class is fixed at 2 by
    consistency with the fibre. If they are not, the class is one counted bit, an input of B1953's two candidates.
 
@@ -291,14 +327,14 @@ B1953's table.
   - main's R2, R3 and JOIN.
 - **[E] standard:** the Galois conjugation of the Weil representation; Ad by a non-square determinant exchanges the
   classes.
-- **[J]:** § 0 item 7; the bit's bin (§ 3); § 4.
-- **Not done:** O's singular values in class 1 on frame C; main's checks outside the condition's scope (§ 2).
+- **[J]:** § 0 item 7; the bit's bin (§ 3); § 4, except its first [E] item.
+- **Not done:** S on frame C; main's checks outside the condition's scope (§ 2).
 
 ## Files
 
-- `relays/chat1_2026-11-18_wp1/`: `wp1b_class_test.py`, `wp1b_labels.py`, `wp1b_followup.py`, `wp1b_gramians.py` and
-  `wp1b_frame.py`, each with `_out.txt` and `_err.txt`; `SCRIPT_SHA256.txt`.
-- The conditions: `relays/cards/CHAT1_W-P1_STEPS_conditions.md` (step 2 and its three follow-ups).
+- `relays/chat1_2026-11-18_wp1/`: `wp1b_class_test.py`, `wp1b_labels.py`, `wp1b_followup.py`, `wp1b_gramians.py`,
+  `wp1b_frame.py` and `wp1b_frame2.py`, each with `_out.txt` and `_err.txt`; `SCRIPT_SHA256.txt`.
+- The conditions: `relays/cards/CHAT1_W-P1_STEPS_conditions.md` (step 2 and its four follow-ups).
 - Cited: B1856, B1914, B1923, B1934, B1936, B1951, B1952, B1953, B1955; `checks/web_wa1_rest.py`, `checks/web_review.py`
   and `checks/physical_main01.py`; W-A1 and W-A2 part B; W-F24 and W-F26 (the transcription); card W-P1 § 3.2.
 
@@ -331,10 +367,42 @@ It also raised eleven smaller points:
 - table slips;
 - rounding.
 
-Each was checked at its source: B1953's lines 54, 74–75, 120–122 and 135–136; B1955 § 2; and B1934, lines 37 to 39, all
-through the mask; and J1, G5 and J4 in this seat's outputs. Three numbers on this page are the referee's and are marked
-as such: the 480 h, the odd couplings, and O's singular values. The frame-C section, § 3a, was added with its own
-condition after the read was launched, and has not had a read of its own. The read's corrections are applied in this
-version.
+Each was checked at its source: B1953's lines 54, 74–75, 120–122 and 135–136; B1955 § 2; B1934, lines 37 to 39; and
+B1914 and B1923; all through the mask. J1, G5 and J4 were checked in this seat's outputs. Three numbers on this page
+are the first referee's and are marked as such: the 480 h, the odd couplings, and O's singular values on synthetic
+couplings.
+
+The corrected version (d7b64d3d4), with § 3a added, had a second read by another referee who had not written it. The
+verdict was sound with corrections. The referee found that § 3a's script computes what its condition fixed, and
+reproduced its output byte for byte. It confirmed the labelling against main's code, and found no adopted read-out on
+record built from products of Weyl operators. Three items were required:
+1. K1 does not test the class: O's singular values keep under T for every labelling. A direct test with ρ_a was
+   needed.
+2. "B1914's symmetries that exchange the twins have determinant −1" was false. K has determinant +1 and also exchanges
+   them.
+3. Class 1's failure under γ was inferred from T and S.
+
+The three needed numbers, which this seat computed on its own committed script (W-P1b-I, L1 to L4) rather than taking
+the read's. They agree with the read's: residuals of 1e-13 against 0.11 to 0.30; 1.9 under γ; and the counts of
+labellings. Thirteen smaller points were also applied:
+- the wording of "given the labelling";
+- the hand against the class;
+- the scope of the frame-C claims;
+- the points written w = (aτ + b)/5;
+- the plant's range;
+- Parseval;
+- O's singular values, now printed;
+- the JOIN check's hypotheses and design;
+- "in the scope";
+- "not shown to be";
+- [E] for B1953's choice;
+- the mending list;
+- R2's direction.
+
+**Disclosed.** Reading B1953 in full through the mask, before § 3a's run, this seat saw B1953's printed frame outputs
+(its lines 88 to 93), which the mask does not hide. The page compares nothing with them, as its condition says. Main may
+make that comparison.
+
+The read's corrections are applied in this version.
 
 0 of 19.
