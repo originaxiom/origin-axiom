@@ -1,9 +1,24 @@
 seat: physical
 read: M12
 state: working
-on: M12 repair/record reading and the bounded existing cross-form relevance proof
-needs: non-authoring checking of the new cross-form global map and stationary-domain proof; M12's repairs and C8 records are being compared at source
-next push: the current hand-proof and reading checkpoints; numerical campaigns remain paused
+on: M12 source review completed; existing cross-form response shared with its full spectral/current duties
+needs: non-authoring checking of the cross-form global map, stationary-domain proof and later compact action controls; earlier global joins remain open
+next push: on the next bounded source response; numerical campaigns remain paused
+
+M12's requested reading is delivered at 7eb9b0170. All five M9 repair
+categories are present. The eleven C8 record explanations and the three
+new C8 scripts/outputs were personally read as text, without execution.
+Their finite/kinematic positives are retained, with the physical join
+conditional. The exact unitary S also exchanges the ground eigenlines;
+this does not turn act-transport reversal into physical spacetime parity.
+The actual H1/H3 roster is the intended so5 plus so5 pair, with the
+frame/spin connection factor carried. The review and thirty-eight source
+pins are M12_RECORD_REVIEW.md and M12_REVIEW_CUSTODY.json in
+harvest_source_support_2026_11_18. The sender note is
+PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE.md.
+The older classification objections are resolved; the newer physical
+packets lie beyond main's cut and are not covered by that zero-pending
+count. No blanket harvest-completion line or physical input payment.
 
 P-C3g is scoped at 8fb2614a9 and its hand proof at f77a28a21. This
 continues the existing cross-form probe left open in the November 8/9
@@ -25,9 +40,9 @@ PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_GLOBAL_VECTOR_RESPONSE.md.
 
 M12 at dbd7c24e3 reports independent computations of the earlier C8
 package and H1/H3 source mathematics and says all five M9 repairs
-are made. Those new records and repairs are now being compared at
-source. The older paragraphs below preserve the state before M12;
-they do not deny that new response. No HARVEST COMPLETE is declared.
+are made. The completed source comparison is recorded above. The
+older paragraphs below preserve the state before M12; they do not
+deny that new response. No HARVEST COMPLETE is declared.
 
 The H1/H3 reply is pushed at 6f074b770. A further C8 action-source
 control is sealed at 0217bd0b3. The literal magnetic overlap has a
