@@ -1,0 +1,18 @@
+{
+ "(2) W(hk;x) = W(h;x) W(k;T_h x)": 2.7755575615628914e-17,
+ "(3) sum_a W(ha;x) = W(h;x)": 5.551115123125783e-17,
+ "length-4 weights sum to 1": 2.220446049250313e-16,
+ "(4) W(u u^-1) = p(1-p) != 1": "2/9",
+ "same-length control: p^2, q^2 (2p + 2q = 1)": [
+  "1/25",
+  "9/100",
+  true
+ ],
+ "section 3: w(g)^2 = 1 and w > 0 give w = 1": true,
+ "(5) sum_n rho (1-rho)^n -> 1 (400 terms)": 1.0,
+ "(1) iff (2) on 200 random chains (half built lumpable)": "200 of 200 agree",
+ "V and U descend through q": true,
+ "(6) unequal p_0 != p_1: lumpable": false,
+ "opposite control p_0 = p_1: lumpable": true,
+ "section 4: two labelled identities give the kernel I": true
+}
