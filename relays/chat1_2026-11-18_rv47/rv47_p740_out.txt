@@ -1,0 +1,2 @@
+P1: 118 words with a reflection, length 2 to 10: the searched classes equal the rule's on 118, differ on 0
+P2: the control (the kinds exchanged) differs on 68 of 118

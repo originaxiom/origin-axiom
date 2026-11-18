@@ -1,0 +1,16 @@
+G1: 13 new or changed check scripts
+G1: web_first_row_bound        lines 5 against 5; unequal 2; only numbers below 1e-6 differ (largest 4.4e-16)
+G1: web_scale_census           lines 6 against 6; unequal 2; only numbers below 1e-6 differ (largest 5.3e-14)
+G1: web_scale_troot_tsign      lines 13 against 13; unequal 1; only numbers below 1e-6 differ (largest 2.2e-14)
+G1: web_selection_exact        lines 6 against 6; unequal 0; identical
+G1: web_session_relay_f4       lines 2 against 2; unequal 0; identical
+G1: web_thread_table           lines 5 against 5; unequal 1; only numbers below 1e-6 differ (largest 2.5e-13)
+G1: web_tube_arithmetic        lines 6 against 6; unequal 0; identical
+G1: web_tube_p740_rule         lines 8 against 8; unequal 0; identical
+G1: web_wb1_on_main            lines 4 against 4; unequal 0; identical
+G1: web_wc8_part5_bronze       lines 6 against 6; unequal 0; identical
+G1: web_weave_action_on_tau    lines 8 against 8; unequal 0; identical
+G1: web_wf5_on_main            lines 7 against 7; unequal 0; identical
+G1: web_zero_free_directions   lines 6 against 6; unequal 0; identical
+G2: web_wb1_on_main            two runs here: identical
+G2: web_wf5_on_main            two runs here: identical
