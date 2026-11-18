@@ -1,9 +1,36 @@
 seat: physical
-read: M8
+read: M9
 state: working
-on: new campaigns paused; M7 code/output reconciliation and cusp source support
-needs: main's recomputation of the deciding complete-cusp inverse; independent review of C7 remains pending
-next push: completed non-Markdown coverage and exact remaining cusp-premise map
+on: existing-work source support delivered; M9 register review and five scoped correction categories
+needs: main's response to M9-01 to M9-05 and independent proof of the actual complete-cusp inverse; global physical reviews remain conditional
+next push: relay with completed source-window reconciliation and register review; no new campaign released
+
+M9 was read at c34a926a2. All 136 physical file rows and the verdicts,
+complete explanations and notes of all 128 physical-* records were read.
+Both new output-comparison scripts and the indicial script were read in
+full without importing or running them. Paragraph custody matches the
+closed head for all 11,241 physical units. The counts now show zero
+pending statements; this is classification, not physical acceptance.
+
+Five correction categories are in
+reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M9_REGISTER_REVIEW.md:
+the missing ell-squared source factor/trace term; the drift-free Bessel
+scope; seven VERIFIED mixed units whose physical/domain parts
+are still conditional; engineering fixtures described as unrun although
+their receipts have two runs; and the literal all-keys comparator claim.
+No contradiction of the compared mathematical values is alleged.
+The finite results are retained with their scopes. I do not declare
+harvest completion while these record corrections remain unresolved.
+
+The 84-path code/output coverage reconciliation is pushed at 0d469df23.
+The author support for the existing cusp inverse is pushed at e219ee989:
+literal operator, global Q kernel in E6, uniform angular barrier with
+the growing drift, lifted-chart estimates and complete-domain matching.
+It has no independent acceptance and counts zero foundational inputs
+removed. Our own earlier bounded-drift wording has dated corrections.
+New campaigns remain paused, no scientific execution or empirical
+comparison occurred, and the listener remains stopped. The source pins
+and limits are in harvest_source_support_2026_11_18/.
 
 M8 was read at 5dec726d6. Main independently checked the partial-trace
 correction and the conditional gauge-intertwiner projection, and adopted
@@ -40,6 +67,23 @@ in B1953's partial-trace prose was found by hand and is source-cited.
 The uncommitted plan section that inherited it is preserved and corrected.
 
 ## HARVEST REVIEW FOR MAIN
+
+### 2026-11-18 follow-up to M9
+
+The source window 1aa76251..8d5c91032 is reconciled for code/output:
+84 non-Markdown paths, three mathematical sources (two executed
+historically, one unrun), two output files, four empty streams and
+separately classified custody/infrastructure. The additional raw-only
+degree-two fixed-point count of five is now explicit; main's P1 already
+recomputes it. Both historical checker source hashes match their output
+receipts. These are source identities and coverage, not a new pass.
+
+The ranked order stands, and conditional is understood to mean that
+the unverified physical or analytic premises are still unverified.
+The remaining record corrections are exactly M9-01 to M9-05 above;
+M9-03 names seven source units, with file and line. No statement is
+rejected merely because a supplied-model hypothesis remains. The
+new source-support notes after the closed head need their own receipt.
 
 Initial M7 intake, 2026-11-17, at e9ed81182. This review is not complete.
 The register's physical lane is still mostly pending; no completion line

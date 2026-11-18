@@ -1,0 +1,115 @@
+{
+  "method": "Fixed-source paragraph hashes and keyword reading candidates only",
+  "main_head": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+  "source_head": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+  "physical_units_checked": 11241,
+  "source_hash_mismatches": [],
+  "reading_candidates": [
+    {
+      "id": "physical:PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW:11",
+      "path": "relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md",
+      "line": 11,
+      "record": "physical-rl-01",
+      "text": "- A relative Chern number can reside in a wound boundary reference while F=0. Its full invariant pairs curvature with the reference connection. Magnetic zero modes require the actual operator/domain.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINDINGS:122",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINDINGS.md",
+      "line": 122,
+      "record": "physical-as-01",
+      "text": "That is a legitimate test of determinant-phase preservation from those initial conditions. The matrix test does not establish a complete four-dimensional fermion domain, its chiral index, three simultaneous families, or the lifted spacetime symmetry and vacuum that enforce those conditions. Internal D-parity by itself does not provide that last map. The proposed orientation-reversing geometry could contribute to such a map, which must be exhibited on fields, action and domains.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL:100",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md",
+      "line": 100,
+      "record": "physical-cm-01",
+      "text": "| Complete 128-block physical left-kernel dimension | 18 | 16 | 8 |",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:29",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md",
+      "line": 29,
+      "record": "physical-bal-01",
+      "text": "The linear moment vanishes by (1), and the source moment is at most quadratic. The field profile and its complete-domain nonlinear products are bounded and decay at the cusp.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:134",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md",
+      "line": 134,
+      "record": "physical-bal-01",
+      "text": "Thus the minimized quartic coefficient on these balanced form tangents is zero and its cancellation is attained by the explicit response (5). The source completeness and complete-domain hypotheses are part of this conditional statement. A single nonzero charge has the protected Q moment (3) and cannot use (5) to cancel that kernel component.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:88",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md",
+      "line": 88,
+      "record": "physical-c3e-02",
+      "text": "For f in Y_delta,0 the physical complete L2 inverse gives a unique Q-perpendicular psi. It has local elliptic regularity. On the cusp, the zero-angular homogeneous solutions of (1) have exponents -beta_c and 1+beta_c. The growing solution is excluded by the actual vector measure exp(-t)dt. For c=0 only a constant Q term remains, with a decaying particular solution for the given decaying source. For c>0 the source variation-of-constants integral and the admitted decaying homogeneous solution belong to C_delta. The strict choice of delta avoids resonance with every such homogeneous exponent.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW:122",
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW.md",
+      "line": 122,
+      "record": "physical-fr-01",
+      "text": "The caller uses m_Q=2 at line 3108. The function has no E6 field embedding X(c), no actual Gauss operator or gauge response, no source quartic and no full normal residual. Its interior collocation residual checks this scalar ODE. The whole-line kink c=2 arctan exp[m_Q(x-x0)] has action 4m_Q, explaining the reported action near eight.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FORCED_CUSP_RESPONSE_AND_CORE_MATCHING:126",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FORCED_CUSP_RESPONSE_AND_CORE_MATCHING.md",
+      "line": 126,
+      "record": "physical-ns-01",
+      "text": "For f=0 the norm is |a|^2/(2ell k), diverging as k approaches zero when a is fixed nonzero. The limiting zero coefficient in (10) cannot be used to admit a nonzero constant tail at k=0. For a weighted source, G_m tends to ell^2 min(t-T,s-T). The resulting zero-energy field tends to a+ell^2 M1 at infinity. L2 therefore requires a=-ell^2 M1, recovering exactly (5)-(8). The derivative then gives -M0. The source-free and source-dependent limits agree with the original complete domain.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE:184",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE.md",
+      "line": 184,
+      "record": "physical-tr-01",
+      "text": "Exact internal gauge variations have no harmonic component. Internal Maxwell curvature terms pair to zero by the actual complete-domain integration by parts. Equation (4) therefore does not require the internal Abelian connection to remain flat everywhere along the join.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/MARKED_PHYSICAL_FAMILY_AND_CUSP_FRAMES:165",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/MARKED_PHYSICAL_FAMILY_AND_CUSP_FRAMES.md",
+      "line": 165,
+      "record": "physical-ij-01",
+      "text": "This recovers periodic integer-root/Cartan fields and antiperiodic half-root fields on all four slots. It also recovers the source's 120 and 128 coefficient populations. The coordinate-density changes are exactly the isometries of the four-slot proof, so their complete domains and Green pairings travel through (7)-(9).",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_INNER_ACTION_AND_SPIN_ORBIT:86",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_INNER_ACTION_AND_SPIN_ORBIT.md",
+      "line": 86,
+      "record": "physical-ij-01",
+      "text": "The corresponding spin powers are S^-3, S, S, S^5, as in the source. Both Dolbeault degrees retain the same (7). The physical Hodge/kernel identification is equivariant because (4) is a unitary chain map. This passage uses the existing bounded retraction and complete-domain Hodge hypotheses, which still require independent analytic review. It introduces no pure-slot truncation of reconstructed physical modes.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF:30",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF.md",
+      "line": 30,
+      "record": "physical-ij-01",
+      "text": "The actual section operator is",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    },
+    {
+      "id": "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS:39",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS.md",
+      "line": 39,
+      "record": "physical-bl-08",
+      "text": "The checker independently constructs a constrained finite-cell quadratic system before comparing its exact solution with the reduced formula. It also checks reference-only winding, local gauge transformations, source orientation, old flux sewing at three cuts and a smooth radial Maxwell solution by high-precision quadrature and root finding. All four groups completed in the first run. The gauge test catches a missing phase transformation, and the circulation test catches the reversed source sign. The smooth radial residual is below 10^-60. These are author checks of the proposed mathematics and recovered limits. They supply no independent review, full stability proof, complete chiral SM spectrum or parameter comparison. Foundational inputs removed in this card number zero.",
+      "meaning": "Reading candidate only; keyword match is not a defect"
+    }
+  ],
+  "scientific_execution_count": 0,
+  "proof_verification": false
+}

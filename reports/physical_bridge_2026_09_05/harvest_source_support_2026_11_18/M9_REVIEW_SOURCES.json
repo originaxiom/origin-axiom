@@ -1,0 +1,1181 @@
+{
+  "date": "2026-11-18",
+  "main_reviewed_head": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+  "physical_harvested_head": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+  "current_physical_proof_checkpoint": "e219ee989",
+  "method": "Source classification review and hand counterchecks; standard-library Git/JSON custody only",
+  "physical_file_rows_read": 136,
+  "record_verdict_explanations_and_notes_read": 128,
+  "record_counts_by_verdict": {
+    "VERIFIED": 44,
+    "CONDITIONAL": 26,
+    "NOTED": 28,
+    "PARTIAL": 4,
+    "SUPERSEDED": 2,
+    "READ": 24
+  },
+  "all_record_unit_ids_resolve": true,
+  "reported_physical_summary": {
+    "files": 136,
+    "read": 133,
+    "units": 11241,
+    "statements": 10952,
+    "VERIFIED": 1084,
+    "REFUTED": 0,
+    "CONDITIONAL": 1040,
+    "PARTIAL": 24,
+    "SUPERSEDED": 46,
+    "NOTED": 8758,
+    "PENDING": 0
+  },
+  "reading_limits": {
+    "read_all_128_explanations": true,
+    "read_all_referenced_scientific_sources_afresh": false,
+    "independent_main_scripts_read_full": [
+      "physical_c3e_indicial.py",
+      "physical_endgame_outputs.py",
+      "physical_boundary_outputs.py"
+    ],
+    "extract_script_read": "units_of, tag and serialization; build script through main output generation",
+    "individual_source_paragraphs_rechecked": "The mixed paragraph at line 88, its source hash, plus the exact engineering receipts and logs and source/output comparator fields cited in the report",
+    "scientific_execution_count": 0,
+    "scientific_import_count": 0,
+    "scientific_collection_count": 0
+  },
+  "mixed_paragraph": {
+    "unit_id": "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:88",
+    "source_path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md",
+    "source_head": "8d5c91032",
+    "first_line": 88,
+    "last_line": 96,
+    "text": "For f in Y_delta,0 the physical complete L2 inverse gives a unique Q-perpendicular psi. It has local elliptic regularity. On the cusp, the zero-angular homogeneous solutions of (1) have exponents -beta_c and 1+beta_c. The growing solution is excluded by the actual vector measure exp(-t)dt. For c=0 only a constant Q term remains, with a decaying particular solution for the given decaying source. For c>0 the source variation-of-constants integral and the admitted decaying homogeneous solution belong to C_delta. The strict choice of delta avoids resonance with every such homogeneous exponent.",
+    "registered_sha1_10": "6cae8e55be",
+    "observed_sha1_10": "6cae8e55be",
+    "current_record": "physical-c3e-02",
+    "requested_grade": "PARTIAL or split into conditional global premise and verified indicial discussion"
+  },
+  "findings": [
+    "M9-01 physical source scaling and trace term",
+    "M9-02 scope Bessel formula to drift-free control",
+    "M9-03 seven mixed paragraphs overgraded",
+    "M9-04 engineering execution history",
+    "M9-05 literal key-coverage wording"
+  ],
+  "record_sources": [
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ar-01.json",
+      "sha256": "87cecb9a1acf7de7cbd5b07252271949524b1cc34f4664eac1716eda87222742",
+      "id": "physical-ar-01",
+      "verdict": "VERIFIED",
+      "unit_count": 52,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ar-02.json",
+      "sha256": "3260ddc644d2504cdc12a18ce60a878223a581dcc1cf30b77353e2cf4bdd0244",
+      "id": "physical-ar-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 19,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ar-03.json",
+      "sha256": "793c9bbce4037d47e5b845048ea3033473aef33b00526f9395aab8a017e03506",
+      "id": "physical-ar-03",
+      "verdict": "NOTED",
+      "unit_count": 16,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-as-01.json",
+      "sha256": "d59d3fb9a1da99eff2e7b75c768d7a20bae4387504ab60842071d5ca276a56e3",
+      "id": "physical-as-01",
+      "verdict": "VERIFIED",
+      "unit_count": 57,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-as-02.json",
+      "sha256": "cbaec9a485a3427de3cd3911422dc527cae69325b88eea3858b707383104fcc7",
+      "id": "physical-as-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 11,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-as-03.json",
+      "sha256": "954080b885ec620f70bf2e7337baa3d24ce57b5500240175ceedc1ef67e66588",
+      "id": "physical-as-03",
+      "verdict": "NOTED",
+      "unit_count": 96,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bal-01.json",
+      "sha256": "6b21e3487ca3a9f4836088962db2d184b99557eaa7fb9036888cd2bd02d01a74",
+      "id": "physical-bal-01",
+      "verdict": "VERIFIED",
+      "unit_count": 18,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bal-02.json",
+      "sha256": "2886bedddd2c734b6a84b5b97fe15524a1cfaddc8d3ab0e206c60ccb99b8f55b",
+      "id": "physical-bal-02",
+      "verdict": "VERIFIED",
+      "unit_count": 2,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bal-03.json",
+      "sha256": "ab3eff03648564a1a817a73aca2ba56dde59c4ee9a3d9da701c962ff1f3eb7fe",
+      "id": "physical-bal-03",
+      "verdict": "CONDITIONAL",
+      "unit_count": 14,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-01.json",
+      "sha256": "05f834f3571cd68dbf3528f784b3b38a4a5c20018e5b6bae55893738f7613873",
+      "id": "physical-bl-01",
+      "verdict": "VERIFIED",
+      "unit_count": 11,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-02.json",
+      "sha256": "67fee0ca38fc90752473fe4b070882360ca29475f98c7bd259684ffee0086906",
+      "id": "physical-bl-02",
+      "verdict": "VERIFIED",
+      "unit_count": 19,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-03.json",
+      "sha256": "fc4f0e0cd8518215b40d133741e739b8a21624d0c755e6ae2907eb8921383a78",
+      "id": "physical-bl-03",
+      "verdict": "VERIFIED",
+      "unit_count": 16,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-04.json",
+      "sha256": "3f919314f0e5773f93ba41a1897464707bb14da2100da912f91f6534446dab0f",
+      "id": "physical-bl-04",
+      "verdict": "NOTED",
+      "unit_count": 13,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-05.json",
+      "sha256": "766541c64f34ed1e2dc91593283a6043b27d6cfb369c3f9f6507a77b47829c0c",
+      "id": "physical-bl-05",
+      "verdict": "VERIFIED",
+      "unit_count": 10,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-06.json",
+      "sha256": "86def36e97b5a981940f9e817930e0675d1184856165ca607ae0315309ac224a",
+      "id": "physical-bl-06",
+      "verdict": "CONDITIONAL",
+      "unit_count": 1,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-07.json",
+      "sha256": "9afbb4a098a404026bb2ab444909788e49e23ed3c0e9fc1e98d883c64145314e",
+      "id": "physical-bl-07",
+      "verdict": "NOTED",
+      "unit_count": 6,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-08.json",
+      "sha256": "75a8a3469f78a4eb1eb23b6c8a25ea38e002386004b5a4460a5f23d70b52183c",
+      "id": "physical-bl-08",
+      "verdict": "VERIFIED",
+      "unit_count": 6,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-09.json",
+      "sha256": "0d6afefc6f1c5fdab43ba0e03a38829a4d3a354ee51bae47629496154c5988b9",
+      "id": "physical-bl-09",
+      "verdict": "NOTED",
+      "unit_count": 15,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-bl-10.json",
+      "sha256": "d00846b1a6560c0505a96d8060b6808bb976af17883817a44cb50b95fc16e0fa",
+      "id": "physical-bl-10",
+      "verdict": "VERIFIED",
+      "unit_count": 3,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-01.json",
+      "sha256": "69e4c9d113dbec70193469f2d172ffbf229c589909ebb0065287d01e44d25067",
+      "id": "physical-c3e-01",
+      "verdict": "NOTED",
+      "unit_count": 3,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-02.json",
+      "sha256": "02d3419e3d72806c0c5ea7cb2f4a0143584fd468723288d15078ef277979a913",
+      "id": "physical-c3e-02",
+      "verdict": "VERIFIED",
+      "unit_count": 4,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-03.json",
+      "sha256": "fd3a74ddaac2f217273cb646753e938e75b4686005782513caaaf86f75cb8970",
+      "id": "physical-c3e-03",
+      "verdict": "CONDITIONAL",
+      "unit_count": 18,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-04.json",
+      "sha256": "80c53f200bf247538ed39c92fe5dca683ee6593970b779a692e54af6c410cf99",
+      "id": "physical-c3e-04",
+      "verdict": "VERIFIED",
+      "unit_count": 12,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-05.json",
+      "sha256": "bcac0db330fa269f8bfa23d7727ced640ad706f8ead963546acf908d049940a1",
+      "id": "physical-c3e-05",
+      "verdict": "CONDITIONAL",
+      "unit_count": 10,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-brief-01.json",
+      "sha256": "a78ba72d96aaeabe0f8232b93a010c0181f6acca44c7564573e7a602fc1d7dc0",
+      "id": "physical-c3e-brief-01",
+      "verdict": "NOTED",
+      "unit_count": 11,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-find-01.json",
+      "sha256": "8c6ce84fe74803b32fb926a87268db173a3267e4cbe98141082b0605e1c708ed",
+      "id": "physical-c3e-find-01",
+      "verdict": "CONDITIONAL",
+      "unit_count": 9,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-find-02.json",
+      "sha256": "ebab8160f8d71dd3bcda7c5b70a55c0d4b8fd5956d8c445e37a4ab73f40558b8",
+      "id": "physical-c3e-find-02",
+      "verdict": "VERIFIED",
+      "unit_count": 4,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3e-find-03.json",
+      "sha256": "5f408366874bd5aaf6010e283091b4b2ab4deaa58945dacfeaae29fe04c8df06",
+      "id": "physical-c3e-find-03",
+      "verdict": "NOTED",
+      "unit_count": 5,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-cd-01.json",
+      "sha256": "d0e47f218afe950d83da59f1654f877c3c5874d868cae3c552156062a6fa2a26",
+      "id": "physical-cd-01",
+      "verdict": "NOTED",
+      "unit_count": 120,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-cm-01.json",
+      "sha256": "92f11b4aae84d032d05f90f5a86ea7382ad6f0e807a8fbff0b1ae03932412eed",
+      "id": "physical-cm-01",
+      "verdict": "VERIFIED",
+      "unit_count": 40,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-cm-02.json",
+      "sha256": "935120b57820d3f515d200535224860cafff3c9f72d40d7d478ccbee92a4ed9f",
+      "id": "physical-cm-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 50,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-cm-03.json",
+      "sha256": "0cad335507045f634747455184a5a3bdb9011d6c3ad7ad81d3f6f4c56c462d39",
+      "id": "physical-cm-03",
+      "verdict": "NOTED",
+      "unit_count": 60,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-cub-01.json",
+      "sha256": "b3fc54a65b44942ad237b95dadd3430794583695289dd047e442aa806788816a",
+      "id": "physical-cub-01",
+      "verdict": "VERIFIED",
+      "unit_count": 4,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-cub-02.json",
+      "sha256": "9c7df2bfb2df1cbd9de12cf4385254dc5104003eea2776ae12a671a16d7c387f",
+      "id": "physical-cub-02",
+      "verdict": "PARTIAL",
+      "unit_count": 1,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-cub-03.json",
+      "sha256": "75daaea913ec0d7862f71d739195b3e7e1c61d816cf28f0bcea44fcb9d199bcd",
+      "id": "physical-cub-03",
+      "verdict": "CONDITIONAL",
+      "unit_count": 28,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-dp-01.json",
+      "sha256": "e728e5fc67226983239e1c80f33e5973b155fefa4fd142b458a374fb56b7b2e6",
+      "id": "physical-dp-01",
+      "verdict": "VERIFIED",
+      "unit_count": 15,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-dp-02.json",
+      "sha256": "4efc6f24fad93caa6793bcf497958310dfbd338ddf448bab1f28a07b53626680",
+      "id": "physical-dp-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 14,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-dp-03.json",
+      "sha256": "673f0f5f934aea972116dc8339e9f6e2cd4a4a953fcd3152c143d1fc14ee5465",
+      "id": "physical-dp-03",
+      "verdict": "NOTED",
+      "unit_count": 82,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-dp-04.json",
+      "sha256": "98f860acf2f76f2db59637fe796eefcf6c1e60eb1dbea18e119cd8d966c0f053",
+      "id": "physical-dp-04",
+      "verdict": "SUPERSEDED",
+      "unit_count": 9,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-er-01.json",
+      "sha256": "bdb5e44acb8a9969a04070ded350e73c33c72e7c43bca2e05e883be4cd1e6dad",
+      "id": "physical-er-01",
+      "verdict": "VERIFIED",
+      "unit_count": 41,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-er-02.json",
+      "sha256": "35f9da8246b03a16eb7689490de8408ddf4369aadbe9a195c1a6cbdf6269023d",
+      "id": "physical-er-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 22,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-er-03.json",
+      "sha256": "1ace312bdc7b6bd389cafb901ed4e2b3f081352038a95b03a3efa24db00c4ff0",
+      "id": "physical-er-03",
+      "verdict": "NOTED",
+      "unit_count": 19,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-er-04.json",
+      "sha256": "aaafa2e49c9ad702b73e683569c339a59fb9e092c53feabda2f412af621ba20b",
+      "id": "physical-er-04",
+      "verdict": "VERIFIED",
+      "unit_count": 9,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-f12-01.json",
+      "sha256": "b3085e8728db0c8a088b163f1144a76fd711a921053d2ec7e1076ff74261de61",
+      "id": "physical-f12-01",
+      "verdict": "VERIFIED",
+      "unit_count": 3,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ff-01.json",
+      "sha256": "289b5658411b46d98156b3f1303245a0d4661a585cd08f0715209e7ee28b0004",
+      "id": "physical-ff-01",
+      "verdict": "VERIFIED",
+      "unit_count": 151,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ff-02.json",
+      "sha256": "3242b3da7718dc0145afc70f7e2d5798b0174d2419db56c982c178315a5ff441",
+      "id": "physical-ff-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 80,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ff-03.json",
+      "sha256": "0fc15e834667de3186454a6f066418677004f104a12ecaadf5a8b1575dc9c5b5",
+      "id": "physical-ff-03",
+      "verdict": "NOTED",
+      "unit_count": 55,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-fr-01.json",
+      "sha256": "7824e5aaa92b8dd5ac7af4237d765ad8b5366698f8fb53869e8227e75c2824a6",
+      "id": "physical-fr-01",
+      "verdict": "VERIFIED",
+      "unit_count": 68,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-fr-02.json",
+      "sha256": "19162830d1609864ba2cebac24463968cc632e4a482ad812dd716eecac5cbfec",
+      "id": "physical-fr-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 54,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-fr-03.json",
+      "sha256": "9dfb973fd966d148ab8a0dff060eb69a95ee028587f59762862c58e80600d632",
+      "id": "physical-fr-03",
+      "verdict": "NOTED",
+      "unit_count": 30,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-01.json",
+      "sha256": "495873fb5a5ea3196a6a5db84bc92e679410feb1721ff9696e726f68152fbb98",
+      "id": "physical-harm-01",
+      "verdict": "NOTED",
+      "unit_count": 6,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-02.json",
+      "sha256": "0b3af78b743f572a13d0fd4e317d221519ec6a2ca0c6e4eb342c626427b3831d",
+      "id": "physical-harm-02",
+      "verdict": "VERIFIED",
+      "unit_count": 13,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-03.json",
+      "sha256": "be5cfa6eb6f104c90978c60d7b666950041866796c92afb4f14e2b2ff669f3fb",
+      "id": "physical-harm-03",
+      "verdict": "VERIFIED",
+      "unit_count": 9,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-04.json",
+      "sha256": "f6bfb314b1ea21c48f2a2ec1e9f9f87deb6750a8472180e38ece58175bc750ae",
+      "id": "physical-harm-04",
+      "verdict": "VERIFIED",
+      "unit_count": 9,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-05.json",
+      "sha256": "9fdf8d4d485a4cf7f339343f8d63cb968fcb059651b303c798aae50b5e669571",
+      "id": "physical-harm-05",
+      "verdict": "SUPERSEDED",
+      "unit_count": 37,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-06.json",
+      "sha256": "8b8d905e6795c4909ea5599881fcc3e155866de8fe164eb27068e63f21be39e4",
+      "id": "physical-harm-06",
+      "verdict": "CONDITIONAL",
+      "unit_count": 27,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-07.json",
+      "sha256": "cd448614bcc7c0ab89b848a01931f55157e86efd1f9835a6747a132dca7d14c4",
+      "id": "physical-harm-07",
+      "verdict": "VERIFIED",
+      "unit_count": 1,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-08.json",
+      "sha256": "f4d3e8b197dacf01736f7068ae5cf1cf1056a5cfe58ecda9570071ac909bf99f",
+      "id": "physical-harm-08",
+      "verdict": "NOTED",
+      "unit_count": 17,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-harm-09.json",
+      "sha256": "5045cae6034be5473e6966ad44af559b10691c26b3031e3faca70064fbd0845a",
+      "id": "physical-harm-09",
+      "verdict": "NOTED",
+      "unit_count": 2,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ij-01.json",
+      "sha256": "950cbe49eec182f2cce3e4735844d660b00e3154d9cb357551f9d999ea0c64a0",
+      "id": "physical-ij-01",
+      "verdict": "VERIFIED",
+      "unit_count": 129,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ij-02.json",
+      "sha256": "dbe3f40314a50ab07df591c4b2b4941499373a82471d0deb604a7a9d3081b2c0",
+      "id": "physical-ij-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 187,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ij-03.json",
+      "sha256": "4216c60856e1fa08d0f1f6678ac378129e11095021e6574de7223c6cfc435e2c",
+      "id": "physical-ij-03",
+      "verdict": "NOTED",
+      "unit_count": 114,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-join-01.json",
+      "sha256": "24a56df421820fd648b074c535a89d184ec430faa97698316649b1853a82a026",
+      "id": "physical-join-01",
+      "verdict": "VERIFIED",
+      "unit_count": 7,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ker-01.json",
+      "sha256": "65b89c104ee6e700194f530f83331c1b18ec57b293a0c8cf450c662ae2167056",
+      "id": "physical-ker-01",
+      "verdict": "VERIFIED",
+      "unit_count": 4,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ker-02.json",
+      "sha256": "d5b829dad2ca2fcadc674f603dfde4cc2a641245e5fcaa815602d73943095af5",
+      "id": "physical-ker-02",
+      "verdict": "PARTIAL",
+      "unit_count": 2,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ker-03.json",
+      "sha256": "dbcf0264cd018aca0a0cffcbef04ea08b526acdb29af7c3b1429db9e7d7efe22",
+      "id": "physical-ker-03",
+      "verdict": "CONDITIONAL",
+      "unit_count": 20,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-main01.json",
+      "sha256": "e3a615d04585bd44705372ba12ab8ff6f1ac6e5ebcae80dccb1eb688a2ac0321",
+      "id": "physical-main01",
+      "verdict": "VERIFIED",
+      "unit_count": 4,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ns-01.json",
+      "sha256": "136c9e71ac289144b3f1634a6070b4b886e8379bbe644e770ec87b0717e30aef",
+      "id": "physical-ns-01",
+      "verdict": "VERIFIED",
+      "unit_count": 73,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ns-02.json",
+      "sha256": "0cbc79bf266486f4ede1f3b1d1b0011bc0fdaf8f2fc461035918d5fbb08a2d56",
+      "id": "physical-ns-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 57,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ns-03.json",
+      "sha256": "d757a3a2b573f69fef10ead452a719e3e9499bd02e12aff08694d73ce2fa4104",
+      "id": "physical-ns-03",
+      "verdict": "NOTED",
+      "unit_count": 36,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-pen-01.json",
+      "sha256": "395afc202848a0b0771eac67facfafff353463b9ad95a12b5340fc8a719da8c4",
+      "id": "physical-pen-01",
+      "verdict": "VERIFIED",
+      "unit_count": 13,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-pen-02.json",
+      "sha256": "a44259003f3aefa894ed310febbfb7b2b38e1388f2518f18ccdd32041f7bf832",
+      "id": "physical-pen-02",
+      "verdict": "VERIFIED",
+      "unit_count": 4,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-pen-03.json",
+      "sha256": "30c68fd15c7a2a678ffcaed167f754016c3cce566ed6cf233f017a3acf0be38e",
+      "id": "physical-pen-03",
+      "verdict": "PARTIAL",
+      "unit_count": 2,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-pen-04.json",
+      "sha256": "60f8348effb7a7aaeed487bf728de1f47fdb3f1890a29f440e6f4d5407df4146",
+      "id": "physical-pen-04",
+      "verdict": "CONDITIONAL",
+      "unit_count": 18,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-pins-01.json",
+      "sha256": "3b9364d08fdc5b7742608869a6718ba3dd5eb045ccb467733b5748ff5ab118a9",
+      "id": "physical-pins-01",
+      "verdict": "NOTED",
+      "unit_count": 67,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rc-01.json",
+      "sha256": "8f50d81163501a8d7120cbc64d9074a867cb3f45a2101c41af77d54afc143679",
+      "id": "physical-rc-01",
+      "verdict": "VERIFIED",
+      "unit_count": 37,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rc-02.json",
+      "sha256": "f5f7661ee1553b91f1350aef9472d3e0ffccd9b9d75835d8908b7d6d54f8ac04",
+      "id": "physical-rc-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 21,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rc-03.json",
+      "sha256": "7f6e6b0dbc3ee3ec1dba62557e15ce20cdc5c15fb43669478f4dbec7361a9a73",
+      "id": "physical-rc-03",
+      "verdict": "NOTED",
+      "unit_count": 10,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-01.json",
+      "sha256": "6387b85c98640775c5f9bf179a81854700af0fc4de9af650a9edf6315749cf1a",
+      "id": "physical-read-01",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-02.json",
+      "sha256": "29124a0385e1e51555df7cb47ad2dafefb6d20ab9afbbfadc8f7d51041080ccf",
+      "id": "physical-read-02",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-03.json",
+      "sha256": "7752c9d9510fcd85a8f5517cc3c1a234632ead0e54f3d38aca27368aa166cc9a",
+      "id": "physical-read-03",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-04.json",
+      "sha256": "e724a8ba3b554b4c2e511896e2fd6b1182dbc9e3f05eef1486bb72bf2502ffc6",
+      "id": "physical-read-04",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-05.json",
+      "sha256": "50ce6bc6b6a7a8c230050f44700e4c9a21330d4a22ba4efc163e6dd0b2c5a1ae",
+      "id": "physical-read-05",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-06.json",
+      "sha256": "e4513ff0ddc83ff583f45edf0ca86a020d9aa7cb1cfa3306b75b5f47c51b7781",
+      "id": "physical-read-06",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-07.json",
+      "sha256": "6c4ef629d7659e58a1b7a3b56a459861046a363d7147ad8ab78898be9fb442b3",
+      "id": "physical-read-07",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-08.json",
+      "sha256": "5fc21d89f2e8057c974934129afbc2ef36e03c8777bd1e853de5e70517043d7f",
+      "id": "physical-read-08",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-09.json",
+      "sha256": "d5ee0d69f4767405b0459381c56401601de461dcb36c403fae774113981f2d5f",
+      "id": "physical-read-09",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-10.json",
+      "sha256": "190797cad09cbdc4465f4afe63ebec0785cc2dae5b0c01286aa9cce0235e667e",
+      "id": "physical-read-10",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-11.json",
+      "sha256": "43e840d13a01cd76784591ffd25972f48a035bf9435158514fabfadcec254378",
+      "id": "physical-read-11",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-12.json",
+      "sha256": "b06a106a7934d675627113baf8a3d71e9398f8623eb2463772c6b5cafc9dcc30",
+      "id": "physical-read-12",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-13.json",
+      "sha256": "223cce59141764f99afddbe6a7c88d57fa4be3a342dcf40b0fdfa2ef5e615cda",
+      "id": "physical-read-13",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-14.json",
+      "sha256": "8a2c96b45c02e67412700ebc683a36700ef605b3a5b3b9c0c7c8fd9efe565e6e",
+      "id": "physical-read-14",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-15.json",
+      "sha256": "779de4e5c27db160acc168904b51ecddea11324e842dfbcbaf1d3cc1a0060151",
+      "id": "physical-read-15",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-16.json",
+      "sha256": "df648e1410c15cd2824aecc9233509e30c8c65bd2a8c7fcc8ae52933af408d81",
+      "id": "physical-read-16",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-17.json",
+      "sha256": "71f3ba138b5980cea235cae8f92c3fd1507d3f0313aded03c748ec3fb9044d0e",
+      "id": "physical-read-17",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-18.json",
+      "sha256": "3320f3b61ed41226a7d3c63b9d07750c0ea1827db7377a89bbd8bc62ddf7a308",
+      "id": "physical-read-18",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-19.json",
+      "sha256": "5cf0f45912b577c87608455360e115699d883c93a0807d82884d8e3d09bb4ce2",
+      "id": "physical-read-19",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-20.json",
+      "sha256": "bee17018df510bb0f2dbeffb50cf4ebbf39f7bc0aba976486b5d6d18154a602b",
+      "id": "physical-read-20",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-21.json",
+      "sha256": "1c3c00d12effd7fc226f781fad0c8454b82816e6199f4b6a551daf93d90b1d95",
+      "id": "physical-read-21",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-22.json",
+      "sha256": "efd869b93ed1e5874190af67ed759f3595efa47ec380005e8230a9cbc0c3fc18",
+      "id": "physical-read-22",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-23.json",
+      "sha256": "d93d32c8b88ecdc5c907c16947ccf7705b52e2215de980bc76c3df17f4d8b425",
+      "id": "physical-read-23",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-read-24.json",
+      "sha256": "cfd2ff85d07c0d941811edad16c182d052c662ec7966073b3c5d164ad5eb207f",
+      "id": "physical-read-24",
+      "verdict": "READ",
+      "unit_count": 0,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rf-01.json",
+      "sha256": "bbb30e82d9d3e9c0e6d2666d948a89a1182296e4cac3a679c1b3f9f74b2f9599",
+      "id": "physical-rf-01",
+      "verdict": "VERIFIED",
+      "unit_count": 26,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rf-02.json",
+      "sha256": "eb600f3409d7f4485900dbb9101ef153ede0140cb929c476e1bd64da03e71e42",
+      "id": "physical-rf-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 35,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rf-03.json",
+      "sha256": "9778b4582ffb6ebe034155f2abcd8b25c816fe53bc2be2c9be0507b0eb76e6db",
+      "id": "physical-rf-03",
+      "verdict": "NOTED",
+      "unit_count": 46,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rl-01.json",
+      "sha256": "ab2399b9fda7941617a1d44d69a74d628b4eb6eb3f5695ceb102940e031e85e8",
+      "id": "physical-rl-01",
+      "verdict": "VERIFIED",
+      "unit_count": 46,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rl-02.json",
+      "sha256": "4972823b3854921c7e03d747c08e842249258699caf50a95d31ade9dd9f24748",
+      "id": "physical-rl-02",
+      "verdict": "PARTIAL",
+      "unit_count": 19,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rl-03.json",
+      "sha256": "a4ea994d7ccf3e006091faa079cc3167fa2b5f0b8a118887cb7d93367de2c0b6",
+      "id": "physical-rl-03",
+      "verdict": "CONDITIONAL",
+      "unit_count": 89,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-rl-04.json",
+      "sha256": "dc6c36b813ad4c8499bbcef220930ce9884fd8154dea9640021480d0eec55172",
+      "id": "physical-rl-04",
+      "verdict": "NOTED",
+      "unit_count": 136,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-seal-01.json",
+      "sha256": "99d2394d672f8ae032a11d3e371bbfd8b5fd37a157d285a8c542c3ed57e77f58",
+      "id": "physical-seal-01",
+      "verdict": "VERIFIED",
+      "unit_count": 4,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-seal-02.json",
+      "sha256": "646c1d8cc26aa52bbd028c41b0b0bbf28152320ab3aed5781ebe240a6a73b486",
+      "id": "physical-seal-02",
+      "verdict": "NOTED",
+      "unit_count": 7645,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-so-01.json",
+      "sha256": "a1cea748698fd4994995bef32fce0e40c919a833919bf1e89605d677d60a556c",
+      "id": "physical-so-01",
+      "verdict": "VERIFIED",
+      "unit_count": 76,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-so-02.json",
+      "sha256": "6fbb24ccaf4444d60a8ef72bddeffcfd2547d0c430312e6993f80dbf1eafa96a",
+      "id": "physical-so-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 128,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-so-03.json",
+      "sha256": "58c3ba68932bba64ee628f207841d3220d2d6ceaaf16fdb4c34a595ab69a2827",
+      "id": "physical-so-03",
+      "verdict": "VERIFIED",
+      "unit_count": 13,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-so-04.json",
+      "sha256": "bd15e958adf174083b953e53664a994918fa7adee6111aa657864527ec827687",
+      "id": "physical-so-04",
+      "verdict": "CONDITIONAL",
+      "unit_count": 14,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-so-05.json",
+      "sha256": "703d084bd8ab036e0df993f0cff86e088ae5092ae3e08a776112ca7485889567",
+      "id": "physical-so-05",
+      "verdict": "NOTED",
+      "unit_count": 60,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-sp-01.json",
+      "sha256": "6cf05404e71abef244ab82551f295c2ad526b08d5637eefdcca1be01adc56afe",
+      "id": "physical-sp-01",
+      "verdict": "VERIFIED",
+      "unit_count": 1,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-sp-02.json",
+      "sha256": "942ad9861fcfe018ebafccfb5d1ecfabde78b14b4f567dd42794a1bb2dc17b5f",
+      "id": "physical-sp-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 26,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-sp-03.json",
+      "sha256": "b4f4dee3295c3741626b83194fed4d1b8b422d5b494decfb165677f123bd3659",
+      "id": "physical-sp-03",
+      "verdict": "NOTED",
+      "unit_count": 46,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-tr-01.json",
+      "sha256": "63faf5621472d78341de0112b8d7d2d3a146a54cf3c56d7b9524ea053ce9beaf",
+      "id": "physical-tr-01",
+      "verdict": "VERIFIED",
+      "unit_count": 42,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-tr-02.json",
+      "sha256": "56418ff1d6ff044d365d2c6249501bed1c6b5c0508d195aff970dcad98396e25",
+      "id": "physical-tr-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 53,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-tr-03.json",
+      "sha256": "3d62cc25350b07fecf7253f84ccf24f85060ab6a8da6814b2dce72c2a8883318",
+      "id": "physical-tr-03",
+      "verdict": "NOTED",
+      "unit_count": 33,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-xa-01.json",
+      "sha256": "bd1307c076c0295dd44797b94055fc4f0465a13e4d3380ea5490d7b856e64305",
+      "id": "physical-xa-01",
+      "verdict": "VERIFIED",
+      "unit_count": 24,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-xa-02.json",
+      "sha256": "b6e2c1600e68fddbd044b93e5d620264ef4d1329133361bd9db93a02988ad109",
+      "id": "physical-xa-02",
+      "verdict": "CONDITIONAL",
+      "unit_count": 35,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-xa-03.json",
+      "sha256": "11dc9812135d0eb0398dccfa10707050f582da5cee65e09331f77cacda992266",
+      "id": "physical-xa-03",
+      "verdict": "NOTED",
+      "unit_count": 9,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-xe-01.json",
+      "sha256": "cf7937d638438996e694a6e01b9d45c6be1c899aae8e3fe407feac87f1c3bdb1",
+      "id": "physical-xe-01",
+      "verdict": "VERIFIED",
+      "unit_count": 2,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-xe-02.json",
+      "sha256": "871aea94ad8e199987bf504e9fa71a129f315c4a5ba8a2113213284af30b505e",
+      "id": "physical-xe-02",
+      "verdict": "VERIFIED",
+      "unit_count": 1,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-xe-03.json",
+      "sha256": "d510af897301480ff1419b8265b8af7a165eeea5a38b5e0c3083448c846f28b3",
+      "id": "physical-xe-03",
+      "verdict": "VERIFIED",
+      "unit_count": 1,
+      "read_scope": "Verdict, complete explanation and note; referenced unit identifiers mapped mechanically"
+    }
+  ],
+  "other_sources": [
+    {
+      "path": "docs/seats/physical.md",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "4d65f9b8691b5a10d74dafcb28ef47eca7aea5554c59de9a2819d9271731e015",
+      "lines": 196
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/REGISTER.md",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "b6fa0aadb1815f7c1e44dce9b4a25f0e39c4a72d8534aa3a60636079e53fe9a9",
+      "lines": 425
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/UNITS.json",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "0ac3076b6488f2f699b9e08893c23eb4cad1960bc09d0248caff4ec857eb399d",
+      "lines": 1
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/extract.py",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "fd0ee698b8cd75aeb91aa9f4efc9634ded3df220d47c3a71749b2ed99e0c8a93",
+      "lines": 212
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/build.py",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "70f229668f4b35799c03b8e119b3ffacadf34c329007e239a079343150964b4e",
+      "lines": 74
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_c3e_indicial.py",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "67a85ba5966618e282e8d840fc1cdf216567769c339c68a56dd9afafab32dfec",
+      "lines": 35
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_endgame_outputs.py",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "e4659e5cca983e9367200e758206495fc80cb308e96cee0757d7474049adc005",
+      "lines": 148
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_boundary_outputs.py",
+      "commit": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+      "sha256": "65e1e35904c760f8730525c67b96807b57297bdd1622cc002556fcc1294ce00c",
+      "lines": 66
+    }
+  ],
+  "refreshed_heads": {
+    "origin/HEAD": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+    "origin/agy-002/closure": "358d6178608fa140bd0cc39f894775a90cf4f1c3",
+    "origin/agy-002/endgame": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+    "origin/agy-002/verify": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+    "origin/agy/audit-2026-11-02": "d1c71f255ade662098dbec1167ba355b12584740",
+    "origin/agy/frontier-2026-10-26": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/agy/self-consistent-loop-2026-11-11": "48a4054aa28e2ac6b6c48652af9c41149554b0d3",
+    "origin/agy/stage4-sync-2026-11-11": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05": "e219ee9893c0adb0796adc44771ecb9f40b82b26",
+    "origin/chat1/web-seat": "f975f6ea4ee1983aecdd4527d59653266f64f20a",
+    "origin/chatgpt/weave-physics-archive-2026-10-11": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao": "72ed55ac0b8ea8a34cd8f570857fb083bd8e70f6",
+    "origin/cld/cool-hamilton-k9eqvo": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+    "origin/referee/B1668_the_price_of_the_nineteen": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/review-82/read": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+    "origin/review-83/read": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+    "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  },
+  "listener_started": false,
+  "new_campaign_started": false,
+  "foundational_inputs_counted_removed": 0,
+  "harvest_complete": false,
+  "paragraph_custody": {
+    "artifact": "M9_PARAGRAPH_CUSTODY.json",
+    "physical_unit_hashes_checked": 11241,
+    "hash_mismatches": 0,
+    "verified_paragraphs_selected_by_keyword": 13,
+    "selected_paragraphs_personally_read": 13,
+    "mixed_scope_units_reported": 7,
+    "limits": "Keywords are a reading aid; this is not a semantic audit or independent proof of every unit."
+  }
+}

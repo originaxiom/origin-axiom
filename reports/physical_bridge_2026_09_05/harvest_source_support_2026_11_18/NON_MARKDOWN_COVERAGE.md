@@ -145,3 +145,11 @@ complete-cusp inverse in P-C3e (3), including every angular mode and its
 global domain. The companion cusp note supports that existing duty.
 The four later packages retain the order in the delivered dependency
 plan. No new campaign or empirical comparison is requested here.
+
+2026-11-18 later receipt: M9 at c34a926a2 supersedes the earlier
+3,204-pending snapshot with zero pending physical statements. Its new
+P1 recomputation includes the degree-two fixed count of five. The source
+classification and unrun-checker distinction above stand. The literal
+all-keys output-comparison wording and other precise record corrections
+are reviewed in `M9_REGISTER_REVIEW.md`; zero pending is not treated
+as independent verification of the complete cusp or physical model.
