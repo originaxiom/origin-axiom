@@ -1,0 +1,17 @@
+c = +0, up    : E = 2; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 2.17e-29
+c = +0, down  : E = 0; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 1.83e-29
+c = +0, lepton: E = 0; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 1.01e-28
+c = +1, up    : E = 1; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 2.3e-28
+c = +1, down  : E = 4; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 1.49e-28
+c = +1, lepton: E = 4; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 2.02e-28
+c = -1, up    : E = 3; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 1.59e-28
+c = -1, down  : E = 1; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 1.01e-28
+c = -1, lepton: E = 1; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 3.5e-28
+c = +2, up    : E = 0; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 6.1e-28
+c = +2, down  : E = 3; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 5.14e-28
+c = +2, lepton: E = 3; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 7.84e-28
+c = -2, up    : E = 4; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 4.22e-28
+c = -2, down  : E = 2; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 5.98e-28
+c = -2, lepton: E = 2; largest deviation from the law at tau + 5 and tau + 25, all 24 points, all four entries: 5.39e-28
+sectors that close at level 5 (E = 0), by c: {0: ['down', 'lepton'], 1: [], -1: [], 2: ['up'], -2: []}
+residues c mod 5 closing up and down together: []
