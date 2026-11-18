@@ -1,9 +1,9 @@
 seat: chat1
 read: M69 (§ 27 read at e46bbc14c, its read version: (a) to (c) mended, this seat's part of P-876 closed, one count refuted as written (45 OPEN, not 44); 138 files, 8,205 statements: 2,053 verified, 3 refuted, 164 conditional, 780 partial, 59 superseded, 5,146 noted, none pending). Before it, M68, M67, M66, M65, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M69 checked in § 28. M69's mends hold. This seat's own recount finds ten older rows, nine deliveries, read only at their head or in part, read in no later row and outside the register, which § 7.3's count missed (§ 28.4). HARVEST COMPLETE is not written (§ 28.5). W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
+state: HARVEST REVIEW FOR MAIN: M69 checked in § 28, its referee read's corrections applied. M69's mends hold. This seat's own recount finds six older deliveries, seven rows, read only at their head or queued, read in full in no later row and outside the register, which § 7.3's count missed (§ 28.4, a), two questions on main's record (b) and rows for main's line under item 3 or 2 (c). HARVEST COMPLETE is not written (§ 28.5). W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
 on: the harvest review (M42 to M69); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to read § 28.4 (a)'s ten rows into the register, or rule on each with a dated ruling, and to say whether row 1350 took in row 1346's owed parts; main to name under item 2 what leans on them (§ 28.4, b) and to answer § 28.4 (c); main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
-next push: § 28's read version; then on main's next message
+needs: main to read § 28.4 (a)'s seven rows into the register, or rule on each with a dated ruling; main to answer § 28.4 (b) (row 1088's two records; P-356's clause on inverse_sm_all, and whether row 1350 took in § 2.5); main's line on § 28.4 (c) and its naming under item 2 (row 1544 first); main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
 
@@ -2875,16 +2875,17 @@ version, and the word is not written in it.
 **What was read**, at main 996638890:
 - M69, through the mask;
 - the five records of § 27 (web-st27-01 to -05), `companion_grounds.py`, `UNITS.json` and `SUMMARY.json`;
-- through the mask: the relay ledger's rows of this seat; P-876's row and the point register's debts by load (lines 46
-  to 125); B1957's FINDINGS, lines 280 to 295; B1740's FINDINGS, lines 66 and 67; and every row of this seat in the
-  harvest ledger.
+- through the mask: the relay ledger's rows of this seat; the point register's rows P-252, P-267, P-337, P-356, P-524,
+  P-559 and P-876, and its debts by load (lines 46 to 125); B1957's FINDINGS, lines 280 to 295; B1740's FINDINGS,
+  lines 66 and 67; B1668's FINDINGS, lines 1 to 20; and every row of this seat in the harvest ledger, with its pin
+  history (line 30).
 
 **28.1. M69's mends hold.**
 - **(a)** The 42 relay-ledger rows of § 27.4 (a) now open with BANKED: the 41 registered relays, and M4 (line 1241),
   read in its day. Only the three W-P1 step relays (lines 1388 to 1390) stay OPEN, as later work. Line 1386, the W-P1
   card's row, is bracketed.
-- **(b)** P-876's row carries a dated note closing this seat's part, each of its 13 rows covered as the map gave it.
-  The other seats' parts stay open.
+- **(b)** P-876's row carries a dated note closing this seat's part, each of its 13 rows covered as the map gave it,
+  with main's precision on row 1143 (28.2). The other seats' parts stay open.
 - **(c)** `companion_grounds.py` says the receiving record "names the line's move". The label is renamed, the variable
   is now `unnamed`, and the lock follows.
 - Lines 2706 and 2723 are PARTIAL in web-st26-02, judged the stricter way. web-st24-02 notes line 2243's "dated".
@@ -2916,51 +2917,91 @@ registered heads, and every id, form, kind and hash matches.
     repeats it.
   - Each of the 66 rows was then checked by hand: against later rows, against B1957's register, and against this
     seat's own files.
-- Rows are cited by number. At 996638890 a row's line in the ledger is its number plus 56.
+- **What the recount does not cover** (found by this section's referee read):
+  - Both scripts split cells on every "|", so rows whose cells hold an escaped bar are misparsed. Parsed rightly, the
+    first finds 58: it adds rows 1322 and 1323 ("outputs unread"), both covered (their files are registered; § 27.4,
+    b).
+  - The seat filter misses rows 92 to 99 ("the session-relay seat"). They are covered by the registered session
+    relay, read in full at row 1897.
+  - The seven undated rows of 2026-10-06 are outside "dated". Each is VERIFIED, RULED or TAKEN AS WRITTEN.
+  - Rows 1241 to 1243, read "through a reading agent for main" or "§§2–5 by main", match neither script. They stand
+    under item 3.
+  - Rows 1349, 1350 and 1554 match neither script and were found by hand. They are placed below.
+- Rows are cited by number. At 996638890 a row's line in the ledger is its number plus 56; for rows up to 940 it is
+  plus 55.
 
-**(a) Ten rows, nine deliveries: read only at their head or in part, read in no later row, and outside the register.**
-By item 1 of the scope, and by B1957's clause that such rows are reopened when a seat names one, this seat names them:
-1. **Row 1088**, the verification pass on the first-background census, read at headline level. It is a section of
-   `relays/chat1_2026-10-06_first_background/FINDINGS.md`, added at d40c1ab6e. Row 899 read the relay and its FINDINGS
-   in full at 7c5bb737a, before that section existed, and the registered relay does not carry it. It re-checks the
-   registered census and changes nothing in it.
-2. **Row 1201**, WHAT IT MEANS (`relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md`), read at headline level.
-3. **Row 1250**, THE STANDING and three open puzzles (`relays/chat1_2026-10-16_stepping_stones/`), read at headline
-   level. Its row ties part (A) to main's B1667 and B1668.
-4. **Row 1291**, THE ZERO-FREE READING and the zero-free layer's sealed run, read at headline level
-   (`relays/chat1_2026-10-21_zero_free/`: THE_ZERO_FREE_READING.md, ZERO_FREE_RULE.md and `zero_free_checks`). The
-   lepton test in the same folder was read in its day (rows 1292 and 1296).
-5. **Rows 1332 and 1337**, RIGID_TAU_HOLOMORPHIC, a sealed test (`relays/chat1_2026-10-23_rigid_tau/`: its rule, its
+**(a) Seven rows, six deliveries, read only at their head or queued, read in full in no later row, and outside the
+register.** Item 1 of the scope covers them, and so does main's decision of 2026-11-18, which takes in rows "read only
+at the head" and unread (B1957's FINDINGS, lines 287 to 295). This seat names them:
+1. **Row 1201**, WHAT IT MEANS (`relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md`), read at headline level.
+2. **Row 1250**, THE STANDING and three open puzzles (`relays/chat1_2026-10-16_stepping_stones/`), read at headline
+   level.
+   - Its part (C), the per-field census at every depth, was verified and banked as B1668, whose FINDINGS cite row 1250.
+   - Its part (A) main took up as its own question (P-185, B1667).
+   - The note itself and its other parts were read at headline.
+3. **Row 1291**, THE ZERO-FREE READING and the zero-free layer's sealed run, read at headline level
+   (`relays/chat1_2026-10-21_zero_free/`: THE_ZERO_FREE_READING.md, ZERO_FREE_RULE.md and `zero_free_checks`).
+   - P-252 (DONE) records "the web seat's zero-free reading and lepton test read" (S177).
+   - P-267 registered PF1-W as a reading. It is DONE and superseded: the reading's test ran, and B1732 is NEGATIVE as
+     sealed.
+   - The lepton test in the same folder was read in its day (rows 1292 and 1296). Main may rule on the row with these.
+4. **Rows 1332 and 1337**, RIGID_TAU_HOLOMORPHIC, a sealed test (`relays/chat1_2026-10-23_rigid_tau/`: its rule, its
    result and C2_RESOLUTION.md). The rule's row says QUEUED (P-316). The result's row says read at headline level
    (P-347), with "the note itself after B1740's outputs".
    - B1740's FINDINGS (lines 66 and 67) names the notes read after its outputs: ZERO_FREE_HOLOMORPHIC, TWO_HIGGS, the
      framing read-outs and THE_FRAMING_CHECK. RIGID_TAU is not among them.
    - Those siblings were read in full and registered (row 1897). This one was not.
-6. **Row 1346**, the attack's reconnaissance, read in part. Its row says "inverse_sm_all and the revision checks rowed
-   unread, owed". Their results are in `relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md` (§ 2.5, and the revision
-   checks). Row 1350 records that note's relay READ and verifies parts of its Part A. Whether that reading took in
-   § 2.5 and the revision checks is for main to say.
-7. **Row 1513**, DOOR D (`relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md`), read at its scope
+5. **Row 1404**, e19's output (aaab717cc), read at headline level, with the corrected step-back and P-327 relays
+   (0cc73b1e6, 252fddf28).
+   - At 5d4e3b11d, the commit read in full at rows 1400 and 1401, the P-327 relay has no e19, and the step-back relay
+     names e17 to e19 only in passing.
+   - e19's account was added to the P-327 relay at 0cc73b1e6. That relay is not in the register.
+   - Main's line on the row, "the corrections change no figure main entered", may serve as its ruling if main says so.
+6. **Row 1513**, DOOR D (`relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md`), read at its scope
    and headline. Its row says P-555 must read it before its design note.
-8. **Row 1516**, THE CHANNEL NORMS' PAIR SUMS
-   (`relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md`). One claim is verified. The
-   kernel lemma (P-524), hypotheses (a) and (c) (P-559) and the zero law (P-337, P-292, P-404) are "NOT YET VERIFIED
-   on main".
-9. **Row 1544**, THE RELATIONS THE FRAME FORCES (`relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md`),
-   VERIFIED-PENDING. f(d) was reproduced with this seat's code; the half-period output was not re-run (P-596, P-355,
-   P-568).
 
-**(b) Main's own debts lean on two of them.** The point register's first group of debts, those that bear on current
-work, holds P-596 ("P-355's list and P-568's relation count ... rest on the web seat's runs": row 1544), and P-559 and
-P-524 (row 1516). P-316, which holds row 1332's test, is in its fourth group. So rows 1516 and 1544 look to fall under
-item 2 of the scope as well. Main names which.
+**(b) Two questions on main's own record.**
+- **Row 1088, the verification pass on the first-background census.** Main's record conflicts with itself.
+  - The pass is a section of `relays/chat1_2026-10-06_first_background/FINDINGS.md`, added at d40c1ab6e.
+  - The harvest ledger's pin history (line 30) records the first-background relay and its FINDINGS "read at this head"
+    on 2026-10-07 (S65), at d40c1ab6e.
+  - Row 899's location cell names only the relay, at 7c5bb737a, and the relay never carried the section.
+  - Row 1088 (S115) records the pass read at headline level.
+  - Which stands is for main to say. If the pin history does, row 1088 needs a bracket. The pass re-checks the
+    registered census and changes nothing in it.
+- **Row 1346, the attack's reconnaissance, read in part.** Row 1349 reads its revision checks (R5 verified, B1743
+  § 3). P-356 is DONE, recording "the attack's reconnaissance read in full" (the record pairs, the weight pencil and
+  the revision checks), with "inverse_sm_all has no committed output".
+  - The last clause is not right. inverse_sm_all's output (`inverse_sm_all_two_higgs.json`) was committed on this
+    seat's branch at 6ce5dcc82 (2026-10-23). Its result is stated in § 2.5 of
+    `relays/chat1_2026-10-23_attack/THE_NEXT_ATTACK.md` (3e668e337).
+  - Main to correct P-356, and to say whether row 1350's reading took in § 2.5.
 
-**(c) Five rows verified in part, with main's verdict on that part:** rows 1120 (THE FIELD), 1551 (THE SINGLET'S LAW),
-1606 (agy's stage, checked twice), 1614 (THE TUBE'S OWN τ ALONG L⁶R(LR)^k) and 1618 (P-714 ATTACKED BY THE OBJECT).
-They record a reading with main's verdict, so under item 3 and B1957's clause they stand as harvested in their day.
-This seat does not name them. It asks main to say so in a line, or to name any of them under item 2.
+**(c) Rows read with part verified, which stand under item 3 unless main names them.** B1957's clause reads: "Rows
+whose disposition records a reading with main's verdict are not reopened here; they stand under the harvest ledger and
+the reviews unless a seat or the author names one."
+- **Main's debts lean on one of them.** P-596 is in the point register's first group of debts, those bearing on
+  current work. It says "P-355's list and P-568's relation count ... rest on the web seat's runs". That is row 1544,
+  THE RELATIONS THE FRAME FORCES (`relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md`):
+  - READ; VERIFIED-PENDING. f(d) was reproduced with this seat's code, and the half-period output was not re-run.
+  - So row 1544 looks to fall under item 2 of the scope. Main names which.
+- **Row 1516**, THE CHANNEL NORMS' PAIR SUMS
+  (`relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md`).
+  - At S298 it was READ, with one claim verified and the rest "NOT YET VERIFIED on main".
+  - Since then, B1832 derived the kernel lemma on main's code (P-524; a hostile referee of the derivation remains). It
+    also verified the replacement exponents asymptotically (P-559).
+  - B1906 derived the zero law's "if" part (P-337). The converse stays open, and is numerical.
+  - P-524's debt line ("on a relay's say-so") concerns P-512's relay, not this note.
+- **Rows verified in part with main's verdict:**
+  - rows 1120 (THE FIELD), 1551 (THE SINGLET'S LAW), 1606 (agy's stage, checked twice), 1614 (THE TUBE'S OWN τ
+    ALONG L⁶R(LR)^k) and 1618 (P-714 ATTACKED BY THE OBJECT);
+  - row 1350 (THE_NEXT_ATTACK; its V_cb formula not re-derived, P-358);
+  - row 1554 (THE STEEPNESS MAP; its § 3 UNCHECKED).
+- This seat does not name these. It asks main to say in a line that they stand under item 3, or to name any of them
+  under item 2, row 1544 first.
 
-**(d) The other 51 rows are covered.** No mend is asked. They are listed so that main can see each was checked.
+**(d) The other 50 of the 66 rows are covered.** No mend is asked. They are listed so that main can see each was
+checked.
 - Read in full or registered later:
   - row 1304, the threads rule (registered; its run read at row 1308);
   - row 1331, whose results are stated in two registered notes; its precision check feeds PRECISION_BAR, adopted at
@@ -2968,8 +3009,7 @@ This seat does not name them. It asks main to say so in a line, or to name any o
   - rows 1338 to 1340 and 1342, bracketed or registered (row 1339's results read with row 1342);
   - rows 1351 and 1353, completed by rows 1352, 1354 and 1355;
   - row 1382, completed by rows 1385 and 1392;
-  - rows 1398 and 1404 (e16 to e19), in the relays read in full at rows 1400 and 1401. Row 1404's corrections were
-    read at headline, and main says they change no figure it entered;
+  - row 1398 (e16 to e18), in the step-back and P-327 relays as read in full at rows 1400 and 1401;
   - row 1411, whose relay was read at row 1414;
   - row 1430, whose result was read at row 1443;
   - row 1642, verified at row 1652.
@@ -2978,15 +3018,30 @@ This seat does not name them. It asks main to say so in a line, or to name any o
   for W-C6's part 1, W-C7, W-C8's parts 3 to 5, W-F1 to W-F19 and the note on TICK_LINE_HIGGS.
 
 **28.5. HARVEST COMPLETE is not written.** It waits on:
-- the ten rows of 28.4 (a), each read into the register, or ruled harvested in its day by main or the author with the
-  ruling dated (§ 7.4); for row 1346, main's word on whether row 1350 took in its owed parts;
-- main's naming under item 2 (28.4, b), and its line on 28.4 (c).
+- the seven rows of 28.4 (a), each read into the register, or ruled harvested in its day by main or the author with
+  the ruling dated (§ 7.4);
+- main's answers to 28.4 (b), with P-356 corrected;
+- main's line on 28.4 (c), and its naming under item 2.
 
 This seat will check those changes only, and write the word in a section whose referee read has finished (§ 21.4), if
 they hold. W-P1 stays outside the lane by the window.
 
-This section is pushed before its referee read finishes, following the author's word of 2026-11-15 on untracked notes.
-Its read's corrections are not yet applied in this version.
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes. The read found 28.1 to 28.3 right, and found eight blocking errors in 28.4, each checked at source here.
+- Row 1088 was put as a gap; main's pin history records its FINDINGS read in full at the head that carries the pass.
+  It is now a question (b).
+- Row 1346 was said to be read in no later row; row 1349 and P-356 read it. It is now a question, with P-356's clause
+  on inverse_sm_all, which this seat checked on its branch.
+- Row 1250's verified part is (C), banked as B1668, not (A).
+- Rows 1516 and 1544 were read with part verified, so they are not item 1's. They move to (c).
+- Row 1516's "NOT YET VERIFIED" was dated to S298 and is brought up to B1832 and B1906. Only P-596 rests plainly on
+  this seat's runs.
+- e19 was not in the relays read in full, so row 1404 moves from (d) to (a).
+- Rows 1350 and 1554 were missing from (c).
+- The line offset is 55 for rows up to 940.
+The read also asked for main's precision on row 1143 in 28.1 (b), the clause quoted exactly, P-252 and P-267 under
+row 1291, and the recount's limits disclosed. The read's corrections are applied in this version, and the word is not
+written in it.
 
 ## Notes
 
