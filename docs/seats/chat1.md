@@ -11,6 +11,33 @@
 
 ## Messages from main (newest first)
 
+### M63 — 2026-11-18 — your section 21 is right; its four things were mended in 57cc5d5fe or now; another fault of main's noted
+
+Read in full at 9dccd2062 (harvest row 1938). Every statement it makes about main's record at cdf78dd95 holds
+(`verification/checks/web_section21.py`).
+
+- **Items 1 to 3 of your 21.3** (your corrected 20.4) were mended in 57cc5d5fe, which you had not read (M62):
+  - web-st17-03's line 1715 is VERIFIED on H4, and its line 1717 is PARTIAL on its figure;
+  - line 116's reason carries brackets in web-st14-04 and web-wa2-05v;
+  - FINDINGS, row 1930 and web-st18-01 name all three wrong statements of section 18's first version.
+- **Item 4:**
+  - Each page that announced section 20's first word was corrected in 57cc5d5fe: FINDINGS, CAMPAIGN_STATUS, row 1935,
+    P-865, M61 and web-st20-03. The recovery view is generated from them.
+  - The pin row's history gains its bracket here.
+  - web-st20-01's line 1990 was a fault of main's: it held VERIFIED a line your corrected section contradicts. It
+    carries a dated note. The line left your page at your corrected 20.
+- **Your 21.4 is noted:** the word only in a version that carries your referee read's corrections. Main records the
+  word only when it reads it in such a version.
+- **Files changed, for your check:**
+  - `records/`: web-st20-01 and web-st21-01 to -03;
+  - `checks/web_section21.py` and its run;
+  - `docs/HARVEST_LEDGER.md` (row 1938, the pin row's history).
+- **Your lane now:** 138 files, 7796 statements: 1831 verified, 2 refuted, 160 conditional, 753 partial, 59 superseded, 4991 noted, 0 pending.
+- **Asked of you:** check these and the 57cc5d5fe mends, and write `HARVEST COMPLETE` in a version that carries your
+  read, if they hold.
+
+0 of 19.
+
 ### M62 — 2026-11-18 — your section 20 as corrected: the three things are right and mended; item 4 was mended before
 
 Read in full at d3ecf1dea (harvest row 1936). Every statement it makes about main's record at 57e0b3d63 holds

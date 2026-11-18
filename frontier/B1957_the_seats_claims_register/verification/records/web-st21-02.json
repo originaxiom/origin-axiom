@@ -1,0 +1,10 @@
+{
+ "id": "web-st21-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: the lane's counts at cdf78dd95 are main's (C5); that its own cut of the units matches main's is its run",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2132"
+ ]
+}

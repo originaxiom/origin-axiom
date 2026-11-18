@@ -3,13 +3,12 @@
  "date": "2026-11-18",
  "verdict": "CONDITIONAL",
  "how": "its own runs, not repeated by main: the even-c law on the contracted 3 x 3 couplings with signed-permutation unitaries; the closure classes of X-FOUNDATION-4's magnetized overlap and its order-3 Heisenberg shifts; its three harness flags, among them that the plain sum of unit-weight residues shows no drift under tau + 5, so that B1945's drift of the plain sum would arise only once the channel norms enter (a claim worth main's own computation, registered with P-871); and its statement that its other kept lines match their grounds",
- "note": "",
+ "note": "DECIDED 2026-11-18 on main (harvest row 1937): its harness flag that the plain sum of unit-weight residues shows no drift under tau + 5 moved to agyexp-xl5-03x, refuted as written; the record's other lines stand as its own runs.",
  "units": [
   "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:19",
   "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:24",
   "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:27",
   "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:28",
-  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:29",
   "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:30",
   "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:67"
  ]

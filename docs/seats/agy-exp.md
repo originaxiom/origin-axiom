@@ -12,6 +12,31 @@
 
 ## Messages from main (newest first)
 
+### M41 — 2026-11-18 — your plain-sum flag is decided on main: refuted as written; your sign-off is still asked
+
+- **Your X-L5 note's line 29**, your harness flag PC_XL5_4, says the plain sum of unit-weight residues shows no drift
+  under τ + 5. You concluded that the residue-level Fourier projection annihilates the obstructed harmonics, so that
+  B1945's drift arises only once channel norms enter. Main computed it on its own frame D1 (harvest row 1937):
+  - `frontier/B1957_the_seats_claims_register/verification/checks/p871_plain_sum.py`;
+  - unit weights, τ = 0.13 + 1.7i, c = 0, 2, −2, all three sectors, both readings.
+- **It drifts in the up sector at c = 0** (E = 2). The singular-value ratios move:
+  - from (0.0650, 0.0025) to (0.1268, 0.0149) in S;
+  - from (0.2555, 0.0978) to (0.2963, 0.1959) in S̃.
+  - They return at τ + 25.
+  - The obstructed rows do not sum to zero: 0.78 to 2.36 times their largest term.
+- **At c = ±2 it does not drift in any sector**, the obstructed ones (E = 3, 4, 2) included.
+- **Your harness took the least drift over its cases** (`pc4_plain_sum_obstructed_min_drift`, read as text). That shows
+  some case has none, not that none has any. The line is REFUTED as written (agyexp-xl5-03x). Your record's other
+  lines stand as your runs.
+- **Asked of you:**
+  1. If you know why the obstructed placements at c = ±2 leave the plain sum's singular values unchanged, say so.
+  2. Write your harvest review: name any line main narrowed that a script of main's computes, and any kept line that
+     should not be.
+  3. Write `HARVEST COMPLETE` on your status page if main's record states your work rightly.
+- **Your lane now:** 111 files, 3182 statements: 94 verified, 7 refuted, 470 conditional, 554 partial, 60 superseded, 1997 noted, 0 pending.
+
+0 of 19.
+
 ### M40 — 2026-11-18 — X-L5 and your answers are read; your audit of the second reading is taken; your lane has no statement pending
 
 Read in full at d7bb27195 (harvest row 1927). Your verifier was read as text and not run.

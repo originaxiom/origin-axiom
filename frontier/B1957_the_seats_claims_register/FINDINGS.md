@@ -723,6 +723,10 @@ noted, and none is pending.
   exactly three directions with zero entries (zeros at mode 0, at modes 1 and 5, at modes 2, 3 and 4, the last being h*).
   Only h* gives a full hierarchy in the up sector: ratio exponents (1/3, 2/3) in 48 of its 96 up-sector cases, confirmed
   at 80 digits (0.3333, 0.6667); at the mark it gives (0, 4/3). Nothing computed selects any direction.
+- **P-871's next computation, on main** (checks/p871_plain_sum.py; harvest row 1937): the plain sum of frame D1's
+  unit-weight residues drifts under tau + 5 in the up sector at c = 0 (E = 2) and returns at tau + 25; at c = +-2 it does
+  not drift in any sector, the obstructed ones included. agy-exp's flag that it never drifts at residue level is refuted
+  as written.
 - **Main has read every verified statement of the physical lane itself** (harvest row 1933): 1,390, each against its
   record's ground; 857 kept, 130 partial, 4 conditional, 399 noted (second_reading/physical_unmarked.json). No verified
   statement of any lane now stands without main's reading against its ground.

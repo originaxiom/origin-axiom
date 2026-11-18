@@ -1208,3 +1208,16 @@ def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     best = [min(sum(min(ent[(rw, cl)]) for rw, cl in zip(rows, perm)) for rows in itertools.combinations(range(3), n) for cols in itertools.combinations(range(3), n) for perm in itertools.permutations(cols) if all((rw, cl) in ent for rw, cl in zip(rows, perm))) for n in (1, 2, 3)]
     s = [best[0], best[1] - best[0], best[2] - best[1]]
     assert (s[1] - s[0], s[2] - s[0]) == (0, F(4, 3))
+
+
+def test_p871_the_plain_sum_of_residues_drifts_at_c0_up_and_not_at_c_pm2():
+    """P-871 (checks/p871_plain_sum.py, from its committed run): the plain sum of frame D1's unit-weight residues changes
+    under tau + 5 in the up sector at c = 0 and returns at tau + 25; at c = +-2 it does not change in any sector."""
+    import re
+    run = (pathlib.Path(__file__).resolve().parent / "checks" / "p871_plain_sum_run.txt").read_text()
+    rows = re.findall(r"P c = ([+-]\d), (\w+) \(E = (\d)\): S: .*?change ([0-9.e+-]+); at tau \+ 25 change ([0-9.e+-]+);.*?\| St: .*?change ([0-9.e+-]+); at tau \+ 25 change ([0-9.e+-]+);", run)
+    assert len(rows) == 9
+    for c, sec, E, d5, d25, d5t, d25t in rows:
+        assert float(d25) < 1e-12 and float(d25t) < 1e-12
+        if (c, sec) == ("+0", "up"): assert E == "2" and float(d5) > 0.05 and float(d5t) > 0.05
+        else: assert float(d5) < 1e-12 and float(d5t) < 1e-12

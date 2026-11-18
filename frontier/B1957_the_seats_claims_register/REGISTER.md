@@ -4,16 +4,16 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 111 | 66 | 3182 | 94 | 6 | 471 | 554 | 60 | 1997 | **0** |
+| agy-exp | 111 | 66 | 3182 | 94 | 7 | 470 | 554 | 60 | 1997 | **0** |
 | agy-002-verify | 13 | 13 | 591 | 151 | 3 | 11 | 116 | 0 | 310 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 164 | 158 | 11833 | 857 | 0 | 1203 | 278 | 46 | 9449 | **0** |
-| web | 138 | 138 | 7744 | 1792 | 2 | 160 | 752 | 59 | 4979 | **0** |
+| web | 138 | 138 | 7796 | 1831 | 2 | 160 | 753 | 59 | 4991 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
 | sm | 11 | 9 | 516 | 30 | 5 | 7 | 113 | 0 | 361 | **0** |
-| **all** | 484 | 424 | 24657 | 2963 | 25 | 1941 | 2020 | 165 | 17543 | **0** |
+| **all** | 484 | 424 | 24709 | 3002 | 26 | 1940 | 2021 | 165 | 17555 | **0** |
 
 ## By file
 
@@ -413,7 +413,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 1255 | 1255 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1307 | 1307 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

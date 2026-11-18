@@ -1,0 +1,21 @@
+{
+ "id": "web-st21-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what it read; its word that it checks the mends and writes HARVEST COMPLETE only in a version of a section that carries its referee read's corrections, everything else still pushed before the read; its next work (P-874)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2076",
+  "web:STATUS_CHAT1:2077",
+  "web:STATUS_CHAT1:2078",
+  "web:STATUS_CHAT1:2080",
+  "web:STATUS_CHAT1:2081",
+  "web:STATUS_CHAT1:2082",
+  "web:STATUS_CHAT1:2083",
+  "web:STATUS_CHAT1:2149",
+  "web:STATUS_CHAT1:2152",
+  "web:STATUS_CHAT1:2155",
+  "web:STATUS_CHAT1:2157",
+  "web:STATUS_CHAT1:2159"
+ ]
+}

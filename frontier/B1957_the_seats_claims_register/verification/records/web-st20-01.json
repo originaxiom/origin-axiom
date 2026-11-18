@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "its section 20 (5322929cd), each statement about main's record at 57e0b3d63 held there (checks/web_section20.py, A1 to A5): H4 runs 320 cases to 2.0e-15 with c an eighth of a turn with Q and five eighths with -Q in both readings; the notes naming H4 (web-st17-02, web-wa2-05v-r2s), B1957's FINDINGS and P-873's note of row 1928; the three notes corrected, M56's outcome, line 116's bracket, web-wa2-05-r3p's note, N2 true, web-read-44, web-wa3-04's ground; web-st18-01's nine units and note, web-st18-03's note, the verdicts of web-st18b and web-st19; the recovery view's line 67 and row 1930's bracket; 19 records changed since 0ffa123c8; web-wtau-03-r3p holding lines 65 and 80 while its ground listed the ten restored lines without a sentence saying so (mended in this batch, harvest row 1935)",
- "note": "",
+ "note": "CORRECTED 2026-11-18 at the seat's section 21.1 (9dccd2062): A FAULT OF MAIN'S. At cdf78dd95 this record held VERIFIED the first version's line 1990, that the brackets beside FINDINGS' line 725 and row 1930's head, with web-st18-01's note, gave the right account of section 18's first version; at 57e0b3d63 web-st18-01's note named two of the three wrong statements and the brackets none, as the corrected section 20.4 says. The line left the seat's page at its corrected section 20, and the accounts are complete since 57cc5d5fe.",
  "units": [
   "web:STATUS_CHAT1:1963",
   "web:STATUS_CHAT1:1966",
