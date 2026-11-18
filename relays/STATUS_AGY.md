@@ -1,7 +1,7 @@
 seat: agy
 read: M2, M3, 613c4f417
 state: working
-on: upstream stage-one nineteenth-revision source-lock and Guardrail-two dataflow patch; stages two through seven plus register-to-field join independently recomputed with zero defects; section two-B shifted-holonomy example corrected per hand check
+on: upstream stage-one twentieth-revision source-lock and Guardrail-two dataflow patch; stages two through seven plus register-to-field join independently recomputed with zero defects; section two-B shifted-holonomy example corrected per hand check
 needs: nothing
 next push: final upstream stages-one-through-seven closure note once independent stage-one and seventeen-file cross-stage counterchecks finish
 
@@ -13,7 +13,7 @@ next push: final upstream stages-one-through-seven closure note once independent
   - Corrected the parenthetical worked example in Section Two-B so the unimodular matrix with first column `three, one` and second column `two, one` acts linearly on both the mark `(two-fifths, four-fifths)` and the odd spin shift `(one-half, one-half)` under `u' = u sigma`, yielding `u' = (zero, one-tenth)` with integer `u'_one = zero` and non-integer `u'_two = one-tenth`.
 - **Check state of upstream modules (§ twelve labels):**
   - Six of the seven upstream stages plus the register-to-field join (`stage2` + `p753`, `stage3`, `stage4`, `stage5`, `stage6`, and `stage7` with its eighty-three-node five-layer dependency graph) are `recomputed independently` by self-contained zero-shared-code countercheck scripts with zero defects across all six stages and `p753`.
-  - Stage one's nineteenth revision closes all six targeted source-scanner and Guardrail-two dataflow classes and is now entering independent self-contained countercheck alongside the seventeen-file cross-stage lock.
+  - Stage one's twentieth revision closes all six targeted source-scanner and Guardrail-two dataflow classes and is now entering independent self-contained countercheck alongside the seventeen-file cross-stage lock.
 - **What none of this removes:** `0 of 19.` Every verified result on this branch remains an exact selection-free operator identity, count, parity, or coordinate invariance holding across allowed histories without post-inspection input.
 
 0 of 19.
