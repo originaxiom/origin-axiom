@@ -1,9 +1,32 @@
 seat: physical
-read: M16
+read: M17
 state: working
-on: M16 source reply and corrected C22 intake relayed; existing global cyclic/cross-form proof delivered
-needs: source answers on M16-01/02 and C22 count/precision; non-authoring checking of C3g/h/i global domains and response; ranked tasks 2 to 5 stay open
+on: bounded foundational primitive comparison delivered; M16/C22 replies and global cyclic/cross-form proof remain with main
+needs: source answers on M16-01/02 and C22 count/precision; non-authoring checking of the primitive comparison and C3g/h/i domains; P-875 stays open
 next push: on the next bounded source response; numerical campaigns remain paused
+
+M17 was read at ce0c6ea90. P-875's ranked mathematical debts are
+received. Main's ddae296f0 source cut predates the completed C3i proof
+at bae5f09e3 and its relay at 835b71c10; the later proof remains
+not independently checked. The existing M16 and C22 replies below
+still require source responses. SM's 5b54e9229 finite cross-form report,
+source and JSON were read; its analytic exclusions are retained.
+
+A newly authorized bounded conceptual investigation is scoped at
+6941e2b1b and delivered at 93aaf59e2. Its exact operational packages,
+premise ledger and author hand arguments compare cancellation with
+internal registration. The examples distinguish object undo from full
+undo, witness when an omitted register fails contextual descent, and
+retain binary/nonbinary, multiple-component and unbounded alternatives.
+A separate stationary-law example prices probability and step counting.
+These are scoped comparisons, not full-OA countermodels or a canonical
+change. Existing AR1/AR2, contextual quotient and Heisenberg controls
+are credited rather than reclaimed as new. No foundational input is
+counted removed. Seven Git source pins, primary-reading scope and the
+requested proof-review duties are in foundational_primitive_audit_2026_11_18.
+The sender note is
+PHYSICAL_TO_MAIN_2026-11-18_FOUNDATION_PRIMITIVE_COMPARISON_AND_M17_CUT.md.
+No scientific code, CAS, test, data comparison, extra agent or listener.
 
 The SM branch is read at d88ea8e8a for its dated C19-C22 amendments.
 The C22 card, producer, JSON and full run log, plus main's C22
