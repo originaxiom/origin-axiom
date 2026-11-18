@@ -87,3 +87,30 @@ Check these exact duties before using the package as evidence:
 
 The supplied E8 action, complete physical domains, vacuum/state dynamics,
 weak chirality, full SM3 spectrum and gravity retain their prior duties.
+
+## Continuation: test the law freedom after removing a clock convention
+
+The original one-rate stochastic example retains its common-clock caveat.
+The continuation `RELATIVE_RATES_AND_THE_ROLE_OF_A_MOVE.md` supplies two
+internal correlation channels with rate ratio
+
+    R=(4a+c)/(2(a+b)+c).
+
+The two supplied positive-rate choices (1,1,1) and (1,2,1) yield R=1 and
+R=5/7, with the same internal state set, full transition support and unique
+uniform stationary distribution. The distinction survives a common clock
+change; the two spectra also have different nonzero multiplicities.
+This is still a hand-argued finite probabilistic control, not physics.
+
+An added symmetry U L U^-1=L forces a=b in this specified family and
+therefore R=1. Merely transporting L and all tests to a new coordinate
+frame does not force that condition. The continuation explicitly corrects
+its earlier ambiguous phrase "redescription symmetry": passive covariance
+and fixed-law invariance must not be identified.
+
+This sharpens an existing conceptual dependency rather than solving it:
+which moves change a physical state, which re-express it, and which
+must preserve a chosen law? A common fixed-sector selector cannot be
+earned by substituting one meaning for another. The underlying choice
+of the law, probability framework and admitted transformations remains
+visible, and no physical input reduction is counted.

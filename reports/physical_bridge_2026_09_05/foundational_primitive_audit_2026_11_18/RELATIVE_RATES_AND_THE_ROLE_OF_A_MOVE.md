@@ -5,6 +5,12 @@ scope `6941e2b1b`; not independently checked. No scientific code, CAS,
 enumeration or test was executed. This is an explicitly supplied finite
 probabilistic model, not a derivation of physical probability or time.
 
+Scope clarification after the author re-read at `b2be722de`: the phrase
+"U-redescription symmetry" below originally named the stronger condition
+U L U^-1=L. Passive redescription with the operator and tests transported
+does not impose that equation. The distinction is now explicit; the rate
+calculations are unchanged. This is an author correction, not review.
+
 ## 1. Why the first control needs this qualification
 
 The earlier P_t=Pi+t(I-Pi) example has only one nonzero decay factor.
@@ -13,8 +19,8 @@ can amount to changing a clock unit. Its original clock caveat is retained.
 It does not by itself demonstrate a relative interaction parameter.
 
 The following example supplies two correlation channels and keeps their
-dimensionless rate ratio. It also separates an admitted physical update
-from a redescription under which a fixed law is required to be invariant.
+dimensionless rate ratio. It also separates an admitted physical update,
+a passive redescription, and an automorphism of a fixed law.
 
 ## 2. Same internal state, explicitly supplied stochastic dynamics
 
@@ -113,26 +119,35 @@ When a=b,
     I+F_x+F_r+F_x F_r=4Pi,
     L=(4a+c)(Pi-I),  R=1.                            (7)
 
-Thus an additionally justified U-redescription symmetry would eliminate
+Thus an additionally justified fixed-law U symmetry would eliminate
 the relative correlation distinction **within this supplied family**.
 Only the total clock rate remains in its state transition kernel;
 a and c can still distinguish separately labeled jump implementations.
 No label information is silently erased by calling those implementations
 identical as whole models.
 
-This is a conditional positive, not a derivation that U must be a gauge
-change. Treating every allowed active process as a law symmetry would
+This is a conditional positive, not a derivation that U must preserve
+the fixed L. Treating every allowed active process as a law symmetry would
 insert the condition that does the work. Conversely an example without
 that condition does not refute a theory that explicitly includes it.
+
+Passive relabelling alone permits L'=C L C^-1 for a state permutation C,
+with column functions f'=C f and row distributions mu'=mu C^-1. It
+preserves mu' f'=mu f without requiring L'=L in the old frame.
+That construction is possible for every a,b,c
+here. Requiring one common fixed coefficient sector or one fixed matrix
+under all moves is stronger than such transport, as the earlier earning
+audit already states. Nothing in this example derives the stronger duty.
 
 ## 5. Consequence for the foundations question
 
 The common stationary state, all finite histories in the support and
 internal registration do not select R for this package. A precise extra
-equivalence requirement can select it within the example. The earning
-duty is therefore concrete: identify which transformations are active
-interactions and which are changes of description, and derive or price
-why the latter must preserve the same law, tests and registering data.
+fixed-law symmetry requirement can select it within the example. The
+earning duty is therefore concrete: identify active interactions, passive
+changes of description and fixed-law automorphisms. Derive or price any
+requirement that selects the last rather than only transporting the law,
+tests and registering data covariantly.
 
 This extends the existing law-versus-fixed-sector distinction; it does
 not rediscover that distinction or select the OA physical action.

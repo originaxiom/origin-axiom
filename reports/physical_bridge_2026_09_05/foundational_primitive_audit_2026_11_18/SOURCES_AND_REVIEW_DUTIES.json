@@ -94,8 +94,12 @@
       "lines": 320
     },
     "FINDINGS.md": {
-      "sha256": "ae44f314929dfd5783239e245b5f465451d3a2e63e80d0a3b74c52337b98cbf3",
-      "lines": 89
+      "sha256": "a915d59cc0d9970095156dfe85719f706df5b822c9e7354521ea693358a8b149",
+      "lines": 116
+    },
+    "RELATIVE_RATES_AND_THE_ROLE_OF_A_MOVE.md": {
+      "sha256": "ec277cb4cd6445dfb4058aa3859ab4094f9e1fde8bcff13d617d2f210a07baab",
+      "lines": 155
     }
   },
   "canonical_status_evidence": [
@@ -118,7 +122,9 @@
     "Check arbitrary-m, unbounded and d-component controls and state what kind of rank each tests.",
     "Check contextual descent and the smaller-observable opposite control.",
     "Check the Heisenberg law, commutator, faithful action and binary dihedral/S4 distinctions.",
-    "Check the stationary probability control, including supplied batching, probabilities and composition count."
+    "Check the stationary probability control, including supplied batching, probabilities and composition count.",
+    "Check positive generator and semigroup, unique stationary state and the two rate correlations after a common clock change.",
+    "Check the U conjugation, fixed-law a=b condition, and distinction from passive relabelling with dual readouts."
   ],
   "execution": {
     "scientific_imports": 0,
@@ -136,5 +142,14 @@
     "physical_parameters_earned": 0,
     "new_generic_theorem_claimed": false,
     "full_goal_complete": false
+  },
+  "continuation": {
+    "date": "2026-11-18",
+    "initial_packet_commit": "93aaf59e2998bb4b4a0eb36282ec90bf155bcb8b",
+    "first_relative_rate_commit": "b2be722de250191fbf8b8d1f9dbefd395f063000",
+    "scope": "Strengthen the existing stationary-law control after its common-clock caveat; no new numerical campaign",
+    "author_scope_clarification": "Passive relabelling transports law and dual readouts; only the additional fixed-law equation U L U^-1=L forces a=b in this supplied family. The ambiguous original redescription phrase is explicitly corrected.",
+    "physical_inputs_removed": 0,
+    "scientific_execution": false
   }
 }
