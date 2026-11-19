@@ -1,0 +1,27 @@
+{
+ "id": "B1969",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1968",
+  "B1967",
+  "B1966",
+  "B1736",
+  "B1659"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1736's closed form under the charge rule, every channel free in C^4 per sector, the Higgs h = (cos t, i sin t, 0) of reality r = cos 2t",
+  "object": "the least feasibility distance to an aligned mixing (smallest diagonal 0.9) with a full hierarchy in both sectors (m2/m3 <= 1e-2, m1/m2 <= 0.1), by reality",
+  "reach": "class",
+  "hypotheses": "a search (60 Nelder-Mead starts of 8,000 evaluations per reality), not exhaustive; the bars are chosen numbers; a first run with a biased objective kept and not read as evidence"
+ },
+ "claim_one_line": "THE COUPLING'S FORM NEARLY ALLOWS AN ALIGNED MIXING WITH A FULL HIERARCHY IN BOTH SECTORS (OPEN, a search; data-free; P-879): with every channel free under the charge rule, a feasibility search finds no aligned mixing with both m2/m3 <= 1e-2 and both m1/m2 <= 0.1, but comes within a factor of about 2 near a null Higgs (reality 0.003: alignment 0.90, heavy pairs 2.7e-3 and 2.2e-2, light pairs 0.10 and 0.07), the distance growing steadily with reality to 3.4 at 1; so no clean impossibility holds at the level of the form, and the mixing's exclusion rests on frame C's own channels (B1968's floor 0.457), whose proof is P-879; det Y = (h.h)(w^2 + u.u)(u.h) checked exactly, B1659's law in B1736's variables. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

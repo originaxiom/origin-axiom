@@ -1,0 +1,8 @@
+r 0.001: best -3.987; smallest diagonal 0.907; m2/m3 up 5.9e-02 down 4.9e-04; m1/m2 up 1.76e-03 down 1.76e-03 -> none
+r 0.003: best -3.264; smallest diagonal 0.910; m2/m3 up 1.5e-03 down 8.7e-01; m1/m2 up 6.29e-04 down 6.29e-04 -> none
+r 0.010: best -3.299; smallest diagonal 0.959; m2/m3 up 6.0e-01 down 5.1e-03; m1/m2 up 8.34e-04 down 8.34e-04 -> none
+r 0.030: best -6.935; smallest diagonal 0.915; m2/m3 up 1.2e-01 down 1.5e-02; m1/m2 up 1.00e-06 down 1.00e-06 -> none
+r 0.100: best -6.690; smallest diagonal 0.908; m2/m3 up 4.7e-02 down 2.0e-01; m1/m2 up 1.00e-06 down 1.00e-06 -> none
+r 0.300: best -6.472; smallest diagonal 0.907; m2/m3 up 3.4e-01 down 1.5e-01; m1/m2 up 1.00e-06 down 1.00e-06 -> none
+r 0.600: best -6.315; smallest diagonal 0.904; m2/m3 up 4.6e-01 down 4.8e-01; m1/m2 up 1.00e-06 down 1.00e-06 -> none
+r 1.000: best -6.243; smallest diagonal 0.904; m2/m3 up 5.7e-01 down 5.7e-01; m1/m2 up 1.00e-06 down 1.00e-06 -> none

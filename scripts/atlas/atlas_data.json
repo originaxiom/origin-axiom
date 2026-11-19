@@ -17913,6 +17913,17 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1969": {
+   "slug": "the couplings form nearly allows an aligned full hierarchy",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 16,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [
