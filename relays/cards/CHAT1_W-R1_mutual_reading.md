@@ -43,7 +43,8 @@ carry a number. So the question is whether a reading the records make of each ot
   identification ledger).
 - **P-204:** the author's argument that existence belongs to the whole system of acts and their relations. Main adopted
   its distinction test.
-- **P-177:** the author's "the interaction is the reality"; item 5 is still open.
+- **P-177:** the author's view that reality is the interaction between existence and what pushes back; item 5 is still
+  open.
 - **This seat's door-C relay (2026-11-06, § 6):** the author's teller and listener. There the listener only conditions
   which lifts pass, a selection and not a back-action.
 
@@ -158,8 +159,23 @@ image of S₃ on M_k: 4 × (the sum of the squares of the distinct irreducibles'
 ## 6. Not in scope, and next
 
 - Readers in other modules: the matter triplet T, the coefficient module ρ_Q's odd blocks, the frame's couplings.
-- A reader of the frame: the read-out I-33 itself, and two frames reading each other, such as the two vacua S and S̃
-  (P-177's open item).
+- A reader of the frame: the read-out I-33 itself, and two frames reading each other, such as the two vacua S and S̄
+  (P-177's item 2, folded into P-277).
 - Data, of any kind.
+
+---
+
+## Errata, 2026-11-19, after the run and its referee read
+
+The run had been sealed and read when these were found. None changes a computation or an expectation the script tested.
+- **A quotation of the author's words** in § 1's P-177 line is replaced by a paraphrase. The rule is not to quote him.
+- **P-177's open item.** § 6 called the two vacua "P-177's open item". The two vacua are P-177's item 2, folded into
+  P-277, which is DONE. Its open item is item 5, the enlarged thread-set census. § 6 now says so. § 1 had it right.
+- **P1's Hom line.** "1 between any two of V₂, V₄, V₅ and V₆" should exclude the pair (V₄, V₆), which the same line
+  gives as 2. The script encoded 2.
+- **"Inner automorphisms, −I among them"** (§ 3). −I is not inner in Aut(F₂). It induces an inner automorphism of Q₈,
+  conjugation by k, which is why it acts trivially on M_k.
+- **The amendment of f039ca4df** also added the Burnside predictions ("Also reported, predicted now"), not only C4. It
+  came before the script, so the seal holds; its note named only C4.
 
 0 of 19.
