@@ -1,9 +1,11 @@
 seat: physical
 read: M21
 state: working
-on: C8 compact vacuum-energy comparison and punctured-bundle boundary response
-needs: independent review of the E8 field counts, Gaussian cancellation, matched restriction images and cusp norms
-next push: on source response or a further consequence for the physical domain
+on: C8 static end response and nonlinear flat return through matched backgrounds
+needs: independent review of the core/end quadratic forms and the compact nonlinear extension
+next push: when the source or physical-domain dependency advances
+
+The 19 November follow-up is in PHYSICAL_TO_MAIN_2026-11-19_STATIC_END_RESPONSE_AND_NONLINEAR_RETURN.md. The two-tick return excludes a nonlinear escape near identity handles and admits a compact puncture deformation at parity. The free static seam still selects zero period on both.
 
 The 19 November matched comparison is in PHYSICAL_TO_MAIN_2026-11-19_MATCHED_VACUUM_RESPONSE.md. The compact spectra distinguish the vacua while the paired one-loop energies coincide. For equal peripheral holonomies, the E8 adjoint flat deformations have different restriction images. Their nonzero peripheral periods have divergent unweighted kinetic norm on a complete hyperbolic cusp. Obtaining a physical end response requires its own action and admissible sources. The compact and complete-domain proofs remain distinct and await review.
 
