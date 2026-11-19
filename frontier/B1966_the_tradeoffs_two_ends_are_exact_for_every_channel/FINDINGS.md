@@ -3,6 +3,8 @@
 **Verdict: PROVED** (exact, sympy, from B1736's closed form; one part checked numerically, stated). Main, 2026-11-19.
 Data-free. Register rows P-879 and P-847. **0 of 19.**
 
+> *Dated note 2026-11-19 (B1967): the interior's "for every channel" form is false. With tuned channels a Higgs of reality 0.003 gives an aligned mixing with heavy-pair ratios near 1e-3. The two ends proved here stand. What is open (P-879) is whether frame C's own channels reach the tuned region.*
+
 ## Seen first
 
 - **Swept, in the record's own words:** `VERDICT topic-sweep /nearly null|non-null Higgs|reality of the Higgs|V_ud|hierarchy and (the )?alignment|dichotomy|Standard Model's reading|trade-off/: 31 of 1706 arcs on main match (NEGATIVE 6, OPEN 4, PROVED 21); 19 register rows match (DONE 12, QUEUED 7)`.

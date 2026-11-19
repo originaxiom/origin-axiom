@@ -17875,7 +17875,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 15,
+   "obstacle_conf": 16,
    "status": "banked",
    "domain": "physics"
   },
@@ -17886,7 +17886,18 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1967": {
+   "slug": "the tradeoff is not in the couplings form",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "physics"
   },

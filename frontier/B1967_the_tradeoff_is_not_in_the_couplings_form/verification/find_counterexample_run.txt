@@ -1,0 +1,1 @@
+r 0.00: best objective -2.335: smallest diagonal 0.901, up m2/m3 4.6e-03, down m2/m3 1.7e-03, max m1/m2 0.50 -> COUNTEREXAMPLE

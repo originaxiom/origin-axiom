@@ -1,0 +1,8 @@
+r 0.00: best objective 12.000: smallest diagonal 0.000, up m2/m3 1.0e-06, down m2/m3 1.0e-06, max m1/m2 0.00 -> none
+r 0.10: best objective -1.219: smallest diagonal 0.900, up m2/m3 6.0e-02, down m2/m3 6.0e-02, max m1/m2 0.15 -> none
+r 0.30: best objective -0.742: smallest diagonal 0.900, up m2/m3 1.8e-01, down m2/m3 1.8e-01, max m1/m2 0.07 -> none
+r 0.50: best objective -0.508: smallest diagonal 0.900, up m2/m3 3.1e-01, down m2/m3 3.1e-01, max m1/m2 0.43 -> none
+r 0.70: best objective -0.380: smallest diagonal 0.900, up m2/m3 4.2e-01, down m2/m3 4.2e-01, max m1/m2 0.50 -> none
+r 0.90: best objective -0.386: smallest diagonal 0.900, up m2/m3 4.1e-01, down m2/m3 4.1e-01, max m1/m2 0.50 -> none
+r 0.97: best objective -0.400: smallest diagonal 0.940, up m2/m3 4.0e-01, down m2/m3 4.0e-01, max m1/m2 0.50 -> none
+r 1.00: best objective -0.398: smallest diagonal 0.901, up m2/m3 4.0e-01, down m2/m3 4.0e-01, max m1/m2 0.50 -> none

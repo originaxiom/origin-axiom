@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1663** |
-| words of findings prose | **1,522,088** |
+| research arcs with findings | **1664** |
+| words of findings prose | **1,522,859** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1663** (100.0 %) |
+| arcs carrying an authored verdict | **1664** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1159 |
+| PROVED | 1160 |
 | NEGATIVE | 387 |
 | OPEN | 104 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1966`** (797 words, 0 locks)  
-“THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vector conj(h), and the conjugate reading's light state h is exactly orthogonal to it whatever the channels (B1739's lemma without 'channels off'); a real Higgs is flavour-blind up to the reflection 1 - 2 h h^T (Y times it is c 1 + [a]_x), so B1727's sharp floor m2/m3 >= 1/3 holds for every channel, making B1740's non-null loss a theorem at reality 1; a null Higgs's heavy pair has m2 m3 = |h|^2 |u1^2 + u.u|, the channels' near-nullity; under the charge rule neither end gives an aligned mixing with a hierarchy, and the interior stays open. 0 of 19.”  
-`B1966_the_tradeoffs_two_ends_are_exact_for_every_channel/FINDINGS.md`
+**PROVED — `B1967`** (626 words, 0 locks)  
+“THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diagonal |V| 0.967, 0.901, 0.915) with heavy-pair ratios 4.6e-3 (up) and 1.7e-3 (down) and three distinct non-zero masses in each sector, recomputed at 50 digits; the least heavy-pair ratio compatible with alignment 0.9 rises from 4.6e-3 at reality 0.003 to about 0.4 above 0.7, and alignment is impossible exactly at 0 (B1966); so the exclusion B1965 found at four points of frame C must come from the channels the frame produces, and P-879 is whether they ever reach the tuned region. 0 of 19.”  
+`B1967_the_tradeoff_is_not_in_the_couplings_form/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1079 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms is assumed, not shown. 0 of 19.”  

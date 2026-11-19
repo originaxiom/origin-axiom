@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1663 |
-| … PROVED | 1159 |
+| arcs with a verdict file | 1664 |
+| … PROVED | 1160 |
 | … NEGATIVE | 387 |
 | … OPEN | 104 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1967 | PROVED | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diago…” |
 | B1966 | PROVED | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vec…” |
 | B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
 | B1964 | PROVED | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector…” |
@@ -42,7 +43,6 @@
 | B1958 | PROVED | “REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted):…” |
 | B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the markdown files the seats added or changed…” |
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
-| B1955 | PROVED | “[CORRECTED 2026-11-17, the web seat's harvest review, sections 3.3 and 5.4: the top wedge's invariance at level 5 is generic (any representation of determinant 1, both classes) and conditional on the Fock-space reading,…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p, evening, later: THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (B1966, PROVED; P-879).** Two one-line consequences of B1736's closed form, not on record before: Y h = (h.h) u, so a null Higgs makes the two readings' light states exactly orthogonal whatever the channels (B1739's lemma without 'channels off'), its heavy pair set by the channels' near-nullity; and a real Higgs is flavour-blind up to the reflection 1 - 2 h h^T, so B1727's sharp floor m2/m3 >= 1/3 holds for every channel, making B1740's non-null loss a theorem at reality 1. Under the charge rule neither end of the reality scale gives an aligned mixing with a hierarchy; the interior 0 < r < 1 is t…”
+“LATEST (2026-11-19, S306p, night: THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (B1967, PROVED by an example; P-879 restated).** With both sectors' channels free, under the charge rule, a nearly null Higgs (reality 0.003) gives an aligned mixing with heavy-pair ratios near 1e-3: tuned channels rotate both light states into alignment, though exactly at reality 0 that is impossible (B1966). So the exclusion B1965 found at four points of frame C is a property of the channels the frame produces, not of the coupling, and P-879 becomes: do frame C's channels, fixed by the matter charges, the point and the end norms, ever reach the tuned region? B1965's criterion sentence corrected by a dated note (…”
 
 ## Completeness (nothing skipped silently)
 

@@ -1,0 +1,26 @@
+{
+ "id": "B1967",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1736",
+  "B1966",
+  "B1965",
+  "B1727"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1736's closed form of the coupling under the charge rule, with both sectors' channels free in C^4",
+  "object": "the least heavy-pair ratio compatible with an aligned mixing, by reality of the Higgs, and an explicit aligned example with a heavy-pair hierarchy",
+  "reach": "class",
+  "hypotheses": "the example exact as exhibited (50 digits); the frontier table from Nelder-Mead searches (40 starts per reality), not a proof of minimality; frame C's own channels not used"
+ },
+ "claim_one_line": "THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diagonal |V| 0.967, 0.901, 0.915) with heavy-pair ratios 4.6e-3 (up) and 1.7e-3 (down) and three distinct non-zero masses in each sector, recomputed at 50 digits; the least heavy-pair ratio compatible with alignment 0.9 rises from 4.6e-3 at reality 0.003 to about 0.4 above 0.7, and alignment is impossible exactly at 0 (B1966); so the exclusion B1965 found at four points of frame C must come from the channels the frame produces, and P-879 is whether they ever reach the tuned region. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

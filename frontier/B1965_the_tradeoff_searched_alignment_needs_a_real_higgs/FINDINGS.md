@@ -3,6 +3,8 @@
 **Verdict: OPEN.** A conjecture, with a search that supports it at four points. Main, 2026-11-19. Data-free. Register
 rows P-847 and P-879. **0 of 19.**
 
+> *Corrected 2026-11-19, the same day: "a value below −2 would be a counterexample" is too loose. A nearly degenerate coupling can score below −2 without alignment, because the logarithm outweighs the penalty. A counterexample needs the smallest diagonal at 0.9 or above and three distinct nonzero masses. No run here came near −2: every one ended on the alignment boundary with m₂/m₃ 0.57 to 0.68. So the result stands. B1967 shows that with free channels the interior has counterexamples near reality 0, so the exclusion found here must come from frame C's own channels.*
+
 ## Seen first
 
 - **Swept, in the record's own words:** `VERDICT topic-sweep /nearly null|non-null Higgs|reality of the Higgs|V_ud|hierarchy and (the )?alignment|dichotomy|Standard Model's reading|trade-off/: 31 of 1706 arcs on main match (NEGATIVE 6, OPEN 4, PROVED 21); 19 register rows match (DONE 12, QUEUED 7)`.
