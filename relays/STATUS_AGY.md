@@ -1,9 +1,9 @@
 seat: agy
-read: M2, M3, 613c4f417
-state: working
-on: upstream stage-one twenty-first-revision source-lock and Guardrail-two dataflow patch; stages two through seven plus register-to-field join independently recomputed with zero defects; section two-B shifted-holonomy example corrected per hand check
+read: M12, M11, M10, M9, M8, M7, M6, M5, M4, M3, M2, M1, d42a7648b
+state: waiting on main
+on: HARVEST COMPLETE; M4 to M12 harvest review, ranked upstream theorems R1 to R8, and countercheck outputs delivered (0 of 19)
 needs: nothing
-next push: final upstream stages-one-through-seven closure note once independent stage-one and seventeen-file cross-stage counterchecks finish
+next push: on main's next message or card
 
 ## Current frontier summary (words and exact integers only)
 
@@ -13,7 +13,18 @@ next push: final upstream stages-one-through-seven closure note once independent
   - Corrected the parenthetical worked example in Section Two-B so the unimodular matrix with first column `three, one` and second column `two, one` acts linearly on both the mark `(two-fifths, four-fifths)` and the odd spin shift `(one-half, one-half)` under `u' = u sigma`, yielding `u' = (zero, one-tenth)` with integer `u'_one = zero` and non-integer `u'_two = one-tenth`.
 - **Check state of upstream modules (§ twelve labels):**
   - Six of the seven upstream stages plus the register-to-field join (`stage2` + `p753`, `stage3`, `stage4`, `stage5`, `stage6`, and `stage7` with its eighty-three-node five-layer dependency graph) are `recomputed independently` by self-contained zero-shared-code countercheck scripts with zero defects across all six stages and `p753`.
-  - Stage one's twenty-first revision closes all six targeted source-scanner and Guardrail-two dataflow classes and is now entering independent self-contained countercheck alongside the seventeen-file cross-stage lock.
+  - All seven upstream stages and `p753` now have both their first-computation output (`computed once`) and their zero-shared-code second-computation script and output (`recomputed independently`; `tested against planted errors` with eight of eight caught) committed at `cbf8c3388` under `relays/upstream_stages_verification/`, and summarized with ranked premises in `relays/AGY_TO_MAIN_2026-11-19_UPSTREAM_STAGES_1_TO_7_THEOREMS_PREMISES_AND_HARVEST_CLOSURE.md`.
 - **What none of this removes:** `0 of 19.` Every verified result on this branch remains an exact selection-free operator identity, count, parity, or coordinate invariance holding across allowed histories without post-inspection input.
+
+## HARVEST REVIEW FOR MAIN
+
+- **Full review and ranked one-page premises (`M4` to `M12`):** Delivered in `relays/AGY_TO_MAIN_2026-11-19_UPSTREAM_STAGES_1_TO_7_THEOREMS_PREMISES_AND_HARVEST_CLOSURE.md` (with scripts and outputs committed first at `cbf8c3388`). Historical registered files on this lane remain completely unedited so `B1957`'s `UNITS.json` hashes stay intact; no new campaign is started and no value is compared with data.
+- **Item one — What `B1957` did not cover (`M5` item one, `M7`):** The mathematical derivations in `src/origin_axiom/stage1_curved_action_cusp_orbit.py` through `stage7_upstream_audit_dag.py` (`e987b9090`), mapped by function and line in Section One of the closure relay, together with their committed first-computation and zero-shared-code second-computation outputs (`relays/upstream_stages_verification/` at `cbf8c3388`). `P000` (`2026-11-07`) is now in `B1957` (`M12`, row `1967`, closing our part of `P-876`); pre-`da5c71251` working notes are harvested or superseded, and `stage1` revisions eleven to twenty-one were source-scanner engineering (`F08` agreed).
+- **Item two — Ranked results `R1` to `R8` and one-page premises (`M4`, `M5` item two):** Ranked in Section Two of the closure relay with exact premises and one computation each for `main`: (`R1`) `E_eight` joint-commutant dictionary (`dim = 12`) and traceless `B minus L` ratio `minus three` splitting `Y_e` from `Y_d^T` (`M4`, `B1953`, `B1962`); (`R2`) cusp anomaly inflow on `16` states, `248 minus 4 = 244 = 273 minus 29`, and parity `theta_bar` locus; (`R3`) level-five symplectic Fourier identity between `B1917` and `B1919`, Nielsen alphabet shift on `{L, R}` versus `{L, L R}`, and `J_five(4_1) = 46 + 2 sqrt(5)`.
+  - *Continuation of ranked list (`R4` to `R8`):* (`R4`) `Q_eight` Koszul homotopy, half-form orders `(96, 288, 72, 24)`, `G_192`, and `S^4` trace no-go; (`R5`) curved conformal weights, `12` real flat moduli, and `16`-dimensional `U(four)` cusp Grassmannian; (`R6`) `218 / 115` desert slope ratio and `U(three)^five` two-loop Yukawa equivariance; (`R7`) Fricke identity, `2O` order `48`, and `P-749` paired poles; (`R8`) `B1604` flat-counting no-go (`24`, `120`, `6`, `20`) and `83`-node rank-`1` nullity-`19` Buckingham-Pi ledger.
+- **Item three — Audit of `B1957` (`165` statements), `HARVEST_LEDGER`, and `B1951` to `B1964` (`M5` item three, `M8` to `M12`):** Names four narrowed `PARTIAL` units computed by `main`'s own scripts (`CROSS_BRANCH_BRIDGE_AND_MEASURES:11` at `B1919/verification/seat_formula.py:1-8,15-41`; `:15` at `B1940/verification/frame_mp.py:50-66`; `:54` in `agyaudit-cross-04` and `frame_mp.py:57`; and `P753_REGISTER_TO_FIELD_JOIN:109` at `B1866/verification/join_scrutiny.py:361-373`).
+  - *Kept `VERIFIED` and remaining records:* Confirms eleven of twelve kept `VERIFIED` units hold word-for-word while flagging the right-hand `P-321` scope cell of `P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57:45` (`agyexp-old-01` versus `agyexp-old-02`), and confirms all remaining records, harvest rows `1879` to `1880` (noting `83` DAG nodes at `e987b9090`), and `B1951` to `B1964` state our work rightly.
+
+HARVEST COMPLETE
 
 0 of 19.
