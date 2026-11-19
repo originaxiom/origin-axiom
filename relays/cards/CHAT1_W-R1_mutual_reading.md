@@ -58,7 +58,8 @@ maps into another; it never asked whether two records read each other.
 - **A reading of V_k' by V_k:** a bilinear form B: V_k × V_k' → ℂ.
 - **A mutual reading that the weave keeps:** B(gx, gy) = B(x, y) for every move g. The space of these is
   Hom_G(V_k, V_k'^*).
-- **What exists, on this reading:** the invariants of pairs. That is B1327's type R, now with a definite number per pair.
+- **What exists, on this reading:** the invariants of pairs. That is B1327's type R, now with a definite number per
+  pair.
 - **The two records of the ends:** x_L, the private class L keeps, and x_R, the one R keeps. Their mutual reading is
   B(x_L, x_R).
 
@@ -115,9 +116,9 @@ order"), made exact. It reproduces every number in § 1:
 
 On the weave's private modules, k = 1 to 6, computed by extending W-C3's code (`w34_private_states_amendment_1.py`,
 imported unchanged):
-- **T1.** For G = ⟨L, R⟩ and G = ⟨L, R, P, −I⟩: the dimensions of End_G(V_k), Hom_G(V_k, V_k') and the invariant bilinear
-  forms, with each form's symmetric and alternating parts and its rank; P's sign on each; Burnside's dimension of the
-  algebra the moves generate on V_k.
+- **T1.** For G = ⟨L, R⟩ and G = ⟨L, R, P, −I⟩: the dimensions of End_G(V_k), Hom_G(V_k, V_k') and the invariant
+  bilinear forms, with each form's symmetric and alternating parts and its rank; P's sign on each; Burnside's dimension
+  of the algebra the moves generate on V_k.
 - **T0, P0's check.** St and M_k by their own routes; the dimension of Hom_G(St ⊗ M_k, V_k), and whether it contains an
   invertible map. M_k's decomposition under S₃ is computed from characters.
 - **T2.** In each V_k: L's and R's fixed spaces, B(x_L, x_R) for each invariant form, and the fixed list of scale-free
