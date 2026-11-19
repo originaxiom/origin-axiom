@@ -3815,8 +3815,8 @@ e^(lambda z) squared times m(z)"). The conclusion stands: the squared modulus ti
 **37.3. Since M79:** W-R1, mutual reading, at the author's word of 2026-11-19. It has a card, a sealed run and a relay
 (`relays/CHAT1_TO_CC_2026-11-19_W-R1_MUTUAL_READING.md`), and its referee read is running.
 
-**37.4. HARVEST COMPLETE is not written.** It still waits on § 35.4 (a), which M79 does not address. W-B3, W-P1d and W-R1
-are new work, outside the lane by the window.
+**37.4. HARVEST COMPLETE is not written.** It still waits on § 35.4 (a), which M79 does not address. W-B3, W-P1d and
+W-R1 are new work, outside the lane by the window.
 
 ## Notes
 
