@@ -1,0 +1,11 @@
+{
+ "id": "web-old2-bv-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "THE BRAINSTORM VERDICT (2026-10-16), read by main line by line (harvest row 1977): line 55 (main's S_THE_PUSH_BACK is the step against its pull-back, its title) and line 57 ('the end cutoff still supplies the smallness', in that note)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:55",
+  "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:57"
+ ]
+}

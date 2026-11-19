@@ -5,6 +5,6 @@
  "how": "the status page's line on main's own B1953: its partial-trace sentence missed a factor two, and the covariance and the hypercharge trace stand (checks/physical_main01.py; physical_dependency_plan.py, D1; B1953 carries the correction)",
  "note": "",
  "units": [
-  "physical:STATUS_PHYSICAL:439"
+  "physical:STATUS_PHYSICAL:465"
  ]
 }

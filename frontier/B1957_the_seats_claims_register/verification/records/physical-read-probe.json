@@ -1,0 +1,16 @@
+{
+ "id": "physical-read-probe",
+ "date": "2026-11-19",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "the lane's delivery of 2026-11-19 read by main in full at 60d8afc6f; harvest row 1978",
+ "note": "",
+ "files": [
+  "relays/PHYSICAL_TO_MAIN_2026-11-19_NATIVE_REGISTER_LAW_PROBE_DELIVERY.md",
+  "relays/STATUS_PHYSICAL.md",
+  "reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/FINDINGS.md",
+  "reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_RATE_CONE_AND_PARITY_QUOTIENT.md",
+  "reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_REGISTER_PREMISE_LEDGER.md"
+ ],
+ "units": []
+}

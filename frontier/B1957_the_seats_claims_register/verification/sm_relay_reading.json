@@ -10604,9 +10604,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "its corrections to W53 and W54 are withdrawn and F2's grade suspended"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3078",
@@ -10954,9 +10961,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "B1635's forms are polynomials over η¹⁸ with double-precision SVD coefficients"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3192",
@@ -10973,9 +10987,16 @@
 "adversarial": "PART",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "B1635's forms are polynomials over η¹⁸ with double-precision SVD coefficients"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3196",
@@ -10992,9 +11013,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "are most likely artifacts; its corrections to W53 and W54 are withdrawn"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3199",
@@ -11004,9 +11032,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "((5, 7, 3) at 1.86; (3, 7, 7) at 6.72; the up sector at 6.66; the nine masses at 20.6)"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3201",
@@ -11023,9 +11058,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "((5, 7, 3) at 1.86; (3, 7, 7) at 6.72; the up sector at 6.66; the nine masses at 20.6)"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3204",
@@ -11035,9 +11077,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "so the forms are good to ~10⁻³ near Im τ 6.8 and ~10⁻¹⁰ near 3.4"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3205",
@@ -11571,9 +11620,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "are most likely artifacts; its corrections to W53 and W54 are withdrawn"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3364",
@@ -11583,9 +11639,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 354,
+"line": 353,
 "quote": "are most likely artifacts; its corrections to W53 and W54 are withdrawn"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 354,
+"to": 353
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3367",
@@ -11902,9 +11965,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 352,
+"line": 351,
 "quote": "the parabolic part DONE — §107 checked by hand on main (Stokes: a smooth (0, 1) Higgs carrying parity is ∂̄-"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 352,
+"to": 351
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3490",
@@ -11949,9 +12019,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 352,
+"line": 351,
 "quote": "the parabolic part DONE — §107 checked by hand on main (Stokes: a smooth (0, 1) Higgs carrying parity is ∂̄-"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 352,
+"to": 351
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3498",
@@ -11961,9 +12038,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 352,
+"line": 351,
 "quote": "the parabolic part DONE — §107 checked by hand on main (Stokes: a smooth (0, 1) Higgs carrying parity is ∂̄-"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 352,
+"to": 351
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3500",
@@ -11994,9 +12078,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 352,
+"line": 351,
 "quote": "the parabolic part DONE — §107 checked by hand on main (Stokes: a smooth (0, 1) Higgs carrying parity is ∂̄-"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 352,
+"to": 351
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3504",
@@ -12006,9 +12097,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 352,
+"line": 351,
 "quote": "the parabolic part DONE — §107 checked by hand on main (Stokes: a smooth (0, 1) Higgs carrying parity is ∂̄-"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 352,
+"to": 351
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3506",
@@ -12046,9 +12144,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 352,
+"line": 351,
 "quote": "the parabolic part DONE — §107 checked by hand on main (Stokes: a smooth (0, 1) Higgs carrying parity is ∂̄-"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 352,
+"to": 351
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3511",
@@ -12058,9 +12163,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 352,
+"line": 351,
 "quote": "the parabolic part DONE — §107 checked by hand on main (Stokes: a smooth (0, 1) Higgs carrying parity is ∂̄-"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 352,
+"to": 351
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:3514",
@@ -21526,9 +21638,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 431,
+"line": 430,
 "quote": "the link from the kept class to PF1 is circular"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 431,
+"to": 430
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:6006",
@@ -27633,9 +27752,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 563,
+"line": 562,
 "quote": "B1740 §3: foreknown and not run"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 563,
+"to": 562
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:7810",
@@ -28601,9 +28727,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 581,
+"line": 580,
 "quote": "is one free ratio μ/M̃ until something on record fixes it"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 581,
+"to": 580
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:8105",
@@ -29765,9 +29898,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 590,
+"line": 589,
 "quote": "needs net ρ_Q bosons outweighing the rest 42–48 times within a 13% window"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 590,
+"to": 589
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:8508",
@@ -29777,9 +29917,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 590,
+"line": 589,
 "quote": "needs net ρ_Q bosons outweighing the rest 42–48 times within a 13% window"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 590,
+"to": 589
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:8509",
@@ -29824,9 +29971,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 590,
+"line": 589,
 "quote": "needs net ρ_Q bosons outweighing the rest 42–48 times within a 13% window"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 590,
+"to": 589
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:8528",
@@ -34972,9 +35126,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 487,
+"line": 486,
 "quote": "ANSWERED, verified on main"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 487,
+"to": 486
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:10074",
@@ -36302,9 +36463,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 777,
+"line": 776,
 "quote": "on order-5 lines the frame is minimal SU(5) exactly (Y_u symmetric, the down and lepton spectra identical)"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 777,
+"to": 776
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:10439",
@@ -37324,9 +37492,16 @@
 "adversarial": "HOLDS",
 "ground": {
 "path": "docs/POINT_REGISTER.md",
-"line": 801,
+"line": 800,
 "quote": "THE RETRIEVAL SWEEP's CANDIDATES AND ASKS"
+},
+"reanchored": [
+{
+"date": "2026-11-19",
+"from": 801,
+"to": 800
 }
+]
 },
 {
 "id": "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:10690",

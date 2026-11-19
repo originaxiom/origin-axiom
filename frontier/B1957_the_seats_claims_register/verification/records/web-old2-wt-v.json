@@ -1,0 +1,11 @@
+{
+ "id": "web-old2-wt-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "W_TRACE_UNTWISTED (2026-10-16), read by main line by line (harvest row 1977): line 37's 2 pi 7/4 = 11.00 (checks/web_trace_notes.py T1); line 90's 'B1654's L is a cutoff' (B1654, B1667)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:37",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:90"
+ ]
+}

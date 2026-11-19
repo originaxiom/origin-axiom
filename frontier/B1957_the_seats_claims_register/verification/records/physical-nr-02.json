@@ -3,8 +3,6 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "its status line on the probe's first step: what it says of the signed action, the forward convention, the invariant metric up to scale and the one orbit of six noncentral states holds (physical_native_action.py N1 to N7); that choosing the carrier and the metric still has a price, and the rate-law comparison in progress, are its own account",
- "note": "",
- "units": [
-  "physical:STATUS_PHYSICAL:34"
- ]
+ "note": "KEPT 2026-11-19 for its ground, with no statement under it: the lane rewrote its status line at 60d8afc6f (the native-register probe delivered); the new line is in physical-rc-v (harvest row 1978).",
+ "units": []
 }

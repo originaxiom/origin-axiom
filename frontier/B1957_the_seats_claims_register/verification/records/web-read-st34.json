@@ -1,0 +1,12 @@
+{
+ "id": "web-read-st34",
+ "date": "2026-11-19",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "the status page at 1259cf2eb, section 34 (its read version), read by main in full; harvest row 1977",
+ "note": "",
+ "files": [
+  "relays/STATUS_CHAT1.md"
+ ],
+ "units": []
+}

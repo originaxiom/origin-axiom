@@ -5,6 +5,13 @@ by main's own code; no data).** cc (main), 2026-10-22. P-211 asked (main's relay
 (the mapping classes of a genus-g surface with one boundary, acting on F_{2g}), is the trivial SL(2, ℂ) character the
 only fixed one once g ≥ 2, and is the odd-p Heisenberg character fixed at every genus while the 2-group one is fixed
 only at g = 1? The SM seat's W111 proves both (harvest row 1281). 0 of 19.
+
+> *2026-11-19 (P-599; the web seat's point of 2026-10-21, its relay addendum at 14dfd318b, never carried until now): the
+> moves here are the mapping classes of the oriented surface, of determinant +1, as P-211's census preregistered ("every
+> move of determinant +1"). A move of determinant −1, such as the swap a ↔ b, sends [a, b] to [b, a] = [a, b]⁻¹, so it
+> inverts a representation's central character. An odd-p Heisenberg character, with central value ζ ≠ ζ⁻¹, is therefore
+> not fixed by such a move. Its fixedness at every genus holds for the orientation-preserving moves only; the 2-group's
+> central value is −1 = (−1)⁻¹, so this inversion does not move it.*
 - **The proof, read.**
   - **(a)** Each handle's triple is (2, 2, 2) or (0, 0, 0), because the twists act on it as the record's L and R (W109
     (ii), verified on main in B1679). A quaternion handle forces every other generator to ±I: A_k, B_k, A_kB_k are an

@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "NOTED",
  "how": "what each section read, its process lines, its requests to main ('main takes the three in', 'main to say', 'for main's judgement'), 29.4's argument for the reading owed (since done, rows 1970 to 1975), its HARVEST COMPLETE not written, and each section's account of its own referee read",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3214: a request ('for main's judgement'), like lines 3124, 3312 and 3417.",
  "units": [
   "web:STATUS_CHAT1:3048",
   "web:STATUS_CHAT1:3049",
@@ -96,6 +96,7 @@
   "web:STATUS_CHAT1:3566",
   "web:STATUS_CHAT1:3567",
   "web:STATUS_CHAT1:3568",
-  "web:STATUS_CHAT1:3569"
+  "web:STATUS_CHAT1:3569",
+  "web:STATUS_CHAT1:3214"
  ]
 }

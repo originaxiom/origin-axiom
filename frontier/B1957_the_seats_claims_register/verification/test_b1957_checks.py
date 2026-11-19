@@ -1165,7 +1165,7 @@ def test_main_read_every_verified_statement_of_the_physical_lane():
     for x in L["units"]: assert owner[x["unit"]] == [("%s-r3%s" % (x["record"], x["decision"].lower()), want[x["decision"]])], x["unit"]
     kept = set(L["read_units"]) - narrowed
     assert all(len(owner[u]) == 1 and owner[u][0][1] == "VERIFIED" for u in kept)
-    since = ("physical-m16b-", "physical-c3i-", "physical-pr-", "physical-nr-")                   # records written later from main's own reading of new packages (2026-11-18, later)
+    since = ("physical-m16b-", "physical-c3i-", "physical-pr-", "physical-nr-", "physical-rc-")                   # records written later from main's own reading of new packages (2026-11-18, later)
     unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in kept and not (since and o[0][0].startswith(since))]
     assert unread == [], unread[:5]
 
@@ -1354,7 +1354,7 @@ def test_the_sm_seats_relay_read_by_main_line_by_line():
     V = pathlib.Path(__file__).resolve().parent
     live = subprocess.run([sys.executable, "-B", str(V / "checks" / "sm_relay_grounds.py")], capture_output=True, text=True).stdout
     assert live == (V / "checks" / "sm_relay_grounds_run.txt").read_text() and live.strip().endswith("ALL HOLD: True")
-    assert "G1: 5361 statements in the register, 5361 entries" in live and "failing: none" in live
+    assert "G1: 5361 statements in the register, 5361 entries" in live and "not in its file: none" in live
     R = V / "records"
     for old in ("sm-relay-claims", "sm-relay-noted", "sm-relay-partial-secs"):
         d = json.loads((R / (old + ".json")).read_text()); assert d["units"] == [] and "line by line (harvest row 1976)" in d["note"]

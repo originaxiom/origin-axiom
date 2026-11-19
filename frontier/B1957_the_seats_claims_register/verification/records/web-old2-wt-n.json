@@ -1,0 +1,20 @@
+{
+ "id": "web-old2-wt-n",
+ "date": "2026-11-19",
+ "verdict": "NOTED",
+ "how": "provenance, files, scope lines, its pointers to the SM seat and main, and its sign-off",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:10",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:102",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:104",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:109",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:28",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:29",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:3",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:88",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:9",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:95",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:98"
+ ]
+}

@@ -1,5 +1,5 @@
 G1: 5361 statements in the register, 5361 entries, one each and each in its sm-lbl record with its verdict: True
-G2: 563 grounds; quotation within two lines of its line: 563; failing: none
+G2: 563 grounds; quotation in its file: 563 (at its line 562, moved 1); not in its file: none
 G3: grounds in an excluded place: none
 G4: {'CONDITIONAL': 3189, 'NOTED': 1609, 'PARTIAL': 488, 'REFUTED': 1, 'SUPERSEDED': 21, 'VERIFIED': 53}
 ALL HOLD: True

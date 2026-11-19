@@ -1,0 +1,15 @@
+{
+ "id": "physical-rc-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "lines whose finite part main's check holds and whose rest is the lane's reasoning (the act labels, the passive re-expression, 'not a no-go theorem', the four-label restriction, the summary)",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-19_NATIVE_REGISTER_LAW_PROBE_DELIVERY:41",
+  "physical:PHYSICAL_TO_MAIN_2026-11-19_NATIVE_REGISTER_LAW_PROBE_DELIVERY:46",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_RATE_CONE_AND_PARITY_QUOTIENT:105",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_RATE_CONE_AND_PARITY_QUOTIENT:192",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_RATE_CONE_AND_PARITY_QUOTIENT:200",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_REGISTER_PREMISE_LEDGER:8"
+ ]
+}

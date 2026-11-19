@@ -1,0 +1,11 @@
+{
+ "id": "web-st34-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "34.3's recut sentence ('this seat cut all 154 files again ... every id, form, kind and hash matches') is the seat's run, its counts main's record; 34.4 (e)'s search for an answer to 1028 is the seat's",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:3606",
+  "web:STATUS_CHAT1:3649"
+ ]
+}

@@ -1,0 +1,16 @@
+R1: |G| = 24; ordered-pair orbits: 3, sizes [6, 6, 24] (expected 6, 6, 24)
+R2: the commutant of G has dimension 3
+R2: L = a (antipode - id) + b (perpendicular - 4 id) commutes with G: True; zero row sums: True
+R3: spectrum {-6*b: 2, -2*a - 4*b: 3, 0: 1} (expected {0: 1, -6b: 2, -(2a + 4b): 3})
+R3: the even sum-zero plane has eigenvalue -6b and the constants 0: True; the odd space -(2a + 4b): True
+R4: C_signed(t) = exp(2*t*(-a - 2*b)); C_axis(t) = exp(-6*b*t)
+R4: as stated: True, True
+R5: R = (a + 2*b)/(3*b); at a = b: 1; at a = 2b: 4/3
+R6: b = 0 connects +e_1 to +e_2: False; b = 1, a = 0 connects all: True
+R7: lumpable to the three axes: True; quotient generator [[-4*b, 2*b, 2*b], [2*b, -4*b, 2*b], [2*b, 2*b, -4*b]]; depends on a: False
+control: a changed rate on one perpendicular pair commutes with G: False; its multiplicities at a = b = 1: [1, 1, 4]
+R8: three half turns about the axes: 3; L = 6b(Pi - I) + (3/2)(a - b)(H - I): True
+R9: quarter turns about the axes: 6; their generator is L(a = 0, b = r0): True; R there 2/3; closed under conjugation: True
+R10: L symmetric: True; uniform stationary: True; exp(tL) entrywise positive at three points with b > 0: True
+R11: the stabiliser of +e_1 in G has order 4
+ALL HOLD: True

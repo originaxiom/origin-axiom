@@ -79,29 +79,29 @@
    "PENDING": 0
   },
   "physical": {
-   "files": 187,
-   "read": 184,
-   "units": 12707,
-   "statements": 12354,
-   "VERIFIED": 967,
+   "files": 190,
+   "read": 187,
+   "units": 12806,
+   "statements": 12450,
+   "VERIFIED": 1019,
    "REFUTED": 0,
-   "CONDITIONAL": 1448,
-   "PARTIAL": 280,
+   "CONDITIONAL": 1451,
+   "PARTIAL": 285,
    "SUPERSEDED": 46,
-   "NOTED": 9613,
+   "NOTED": 9649,
    "PENDING": 0
   },
   "web": {
-   "files": 154,
-   "read": 154,
-   "units": 10961,
-   "statements": 10038,
-   "VERIFIED": 2434,
+   "files": 156,
+   "read": 156,
+   "units": 11178,
+   "statements": 10250,
+   "VERIFIED": 2454,
    "REFUTED": 3,
-   "CONDITIONAL": 1005,
-   "PARTIAL": 859,
+   "CONDITIONAL": 1127,
+   "PARTIAL": 883,
    "SUPERSEDED": 62,
-   "NOTED": 5675,
+   "NOTED": 5721,
    "PENDING": 0
   },
   "agy-audit": {
@@ -2862,6 +2862,19 @@
    "NOTED": 9,
    "PENDING": 0
   },
+  "physical | relays/PHYSICAL_TO_MAIN_2026-11-19_NATIVE_REGISTER_LAW_PROBE_DELIVERY.md": {
+   "lane": "physical",
+   "units": 15,
+   "statements": 15,
+   "read": true,
+   "VERIFIED": 4,
+   "REFUTED": 0,
+   "CONDITIONAL": 1,
+   "PARTIAL": 2,
+   "SUPERSEDED": 0,
+   "NOTED": 8,
+   "PENDING": 0
+  },
   "physical | relays/PHYSICAL_TO_MAIN_AND_CHAT1_2026-11-18_COMPOSITION_AND_PREDICTIVE_REGISTER.md": {
    "lane": "physical",
    "units": 13,
@@ -3046,13 +3059,13 @@
   },
   "physical | relays/STATUS_PHYSICAL.md": {
    "lane": "physical",
-   "units": 111,
-   "statements": 108,
+   "units": 113,
+   "statements": 110,
    "read": true,
-   "VERIFIED": 2,
+   "VERIFIED": 5,
    "REFUTED": 0,
    "CONDITIONAL": 27,
-   "PARTIAL": 1,
+   "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 78,
    "PENDING": 0
@@ -3761,15 +3774,15 @@
   },
   "physical | reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/FINDINGS.md": {
    "lane": "physical",
-   "units": 32,
-   "statements": 30,
+   "units": 35,
+   "statements": 33,
    "read": true,
-   "VERIFIED": 0,
+   "VERIFIED": 2,
    "REFUTED": 0,
    "CONDITIONAL": 27,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 3,
+   "NOTED": 4,
    "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/HISTORY_WEIGHTS_AND_CANCELLATION.md": {
@@ -3796,6 +3809,32 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 6,
+   "PENDING": 0
+  },
+  "physical | reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_RATE_CONE_AND_PARITY_QUOTIENT.md": {
+   "lane": "physical",
+   "units": 50,
+   "statements": 48,
+   "read": true,
+   "VERIFIED": 33,
+   "REFUTED": 0,
+   "CONDITIONAL": 2,
+   "PARTIAL": 3,
+   "SUPERSEDED": 0,
+   "NOTED": 10,
+   "PENDING": 0
+  },
+  "physical | reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_REGISTER_PREMISE_LEDGER.md": {
+   "lane": "physical",
+   "units": 29,
+   "statements": 28,
+   "read": true,
+   "VERIFIED": 10,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 1,
+   "SUPERSEDED": 0,
+   "NOTED": 17,
    "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC.md": {
@@ -5906,15 +5945,15 @@
   },
   "web | relays/STATUS_CHAT1.md": {
    "lane": "web",
-   "units": 2175,
-   "statements": 2062,
+   "units": 2222,
+   "statements": 2109,
    "read": true,
-   "VERIFIED": 1038,
+   "VERIFIED": 1054,
    "REFUTED": 1,
-   "CONDITIONAL": 90,
-   "PARTIAL": 67,
+   "CONDITIONAL": 96,
+   "PARTIAL": 79,
    "SUPERSEDED": 5,
-   "NOTED": 861,
+   "NOTED": 874,
    "PENDING": 0
   },
   "web | relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md": {
@@ -6736,6 +6775,19 @@
    "NOTED": 25,
    "PENDING": 0
   },
+  "web | relays/chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED.md": {
+   "lane": "web",
+   "units": 67,
+   "statements": 65,
+   "read": true,
+   "VERIFIED": 2,
+   "REFUTED": 0,
+   "CONDITIONAL": 49,
+   "PARTIAL": 3,
+   "SUPERSEDED": 0,
+   "NOTED": 11,
+   "PENDING": 0
+  },
   "web | relays/chat1_2026-10-16_stepping_stones/THE_STANDING.md": {
    "lane": "web",
    "units": 207,
@@ -6760,6 +6812,19 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 24,
+   "PENDING": 0
+  },
+  "web | relays/chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT.md": {
+   "lane": "web",
+   "units": 103,
+   "statements": 100,
+   "read": true,
+   "VERIFIED": 2,
+   "REFUTED": 0,
+   "CONDITIONAL": 67,
+   "PARTIAL": 9,
+   "SUPERSEDED": 0,
+   "NOTED": 22,
    "PENDING": 0
   },
   "web | relays/chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING.md": {

@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "its section 28, the read version (61a0684e0), each statement about main's record at 996638890 held there (checks/web_section28.py J1 to J6) and acted on (harvest row 1969): M69's mends hold; main's records of section 27 state it rightly; the lane's counts; the dispositions of rows 1201, 1250, 1291, 1332, 1337, 1404 and 1513 (read at headline, scope or queued; row 1250's banking as B1668 is of part (C)); the P-327 relay carries e19 only from 0cc73b1e6, and was not in the register; main's record on row 1088 conflicts with itself (the pin history records the first background's FINDINGS read at d40c1ab6, nothing re-run; row 1088 records the pass at headline); P-356's clause that inverse_sm_all has no committed output is wrong (its output was committed at 6ce5dcc82, its result stated in the attack note's section 2.5); row 1544 READ, verified-pending; row 1516's 'not yet verified' brought up to B1832 (the kernel lemma, P-524; the exponent law, P-559) and B1906 (the zero law's 'if' part, P-337)",
- "note": "",
+ "note": "CORRECTED 2026-11-19 (harvest row 1977): line 2901 moved to web-st28-02.",
  "units": [
   "web:STATUS_CHAT1:2884",
   "web:STATUS_CHAT1:2887",
@@ -12,7 +12,6 @@
   "web:STATUS_CHAT1:2894",
   "web:STATUS_CHAT1:2895",
   "web:STATUS_CHAT1:2897",
-  "web:STATUS_CHAT1:2901",
   "web:STATUS_CHAT1:2933",
   "web:STATUS_CHAT1:2936",
   "web:STATUS_CHAT1:2937",

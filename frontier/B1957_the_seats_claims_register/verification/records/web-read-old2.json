@@ -1,0 +1,13 @@
+{
+ "id": "web-read-old2",
+ "date": "2026-11-19",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "the two older notes no ledger row named (P-599), read by main in full and line by line at the seat's head 1259cf2eb; harvest row 1977",
+ "note": "",
+ "files": [
+  "relays/chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED.md",
+  "relays/chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT.md"
+ ],
+ "units": []
+}

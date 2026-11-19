@@ -3,9 +3,18 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "30.2 (d)'s derivation of the exponent law's convention: its conclusion, that B1832's clause gave half the rate, is main's own finding at harvest row 1971 (B1832's check states and measures E(c1 - c_i) = ||3 alpha|| in the e^{-2 pi Im tau} convention; dated correction); the seat's series and fit are its own and not recomputed",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3062: the recut sentence ('this seat cut all N files again ... every id, form, kind and hash matches') is the seat's run; checks/web_sections29_33.py L1 checks the counts only. ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3192: the same recut sentence. ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3281: the same recut sentence. ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3402: the same recut sentence. ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3496: the same recut sentence. ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3284: it carries the seat's stance ('this seat accepts'). ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3475: it carries the seat's stance ('this seat accepts'). ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3329: main's record now places all three items in its tree and unit 239 is PARTIAL, so 'main's not found is right' holds in part. ADDED 2026-11-19 (harvest row 1977; the seat's section 34.4 (b)): line 3422: as line 3329: the items are placed in main's tree since.",
  "units": [
   "web:STATUS_CHAT1:3220",
-  "web:STATUS_CHAT1:3224"
+  "web:STATUS_CHAT1:3224",
+  "web:STATUS_CHAT1:3062",
+  "web:STATUS_CHAT1:3192",
+  "web:STATUS_CHAT1:3281",
+  "web:STATUS_CHAT1:3402",
+  "web:STATUS_CHAT1:3496",
+  "web:STATUS_CHAT1:3284",
+  "web:STATUS_CHAT1:3475",
+  "web:STATUS_CHAT1:3329",
+  "web:STATUS_CHAT1:3422"
  ]
 }

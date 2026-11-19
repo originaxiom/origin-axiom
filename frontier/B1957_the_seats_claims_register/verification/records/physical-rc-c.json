@@ -1,0 +1,12 @@
+{
+ "id": "physical-rc-c",
+ "date": "2026-11-19",
+ "verdict": "CONDITIONAL",
+ "how": "the lane's readings (what the conclusion is relative to; the price of batching) and its metadata-only custody check, not repeated by main",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-19_NATIVE_REGISTER_LAW_PROBE_DELIVERY:58",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_RATE_CONE_AND_PARITY_QUOTIENT:147",
+  "physical:physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_RATE_CONE_AND_PARITY_QUOTIENT:177"
+ ]
+}

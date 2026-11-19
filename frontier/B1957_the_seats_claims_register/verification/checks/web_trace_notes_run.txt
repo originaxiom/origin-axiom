@@ -1,0 +1,5 @@
+T1: 2 pi 7/4 = 10.9956, to two decimals 11.00
+T2: LR = [[2, 1], [1, 1]], RL = [[1, 1], [1, 2]]; traces 3, 3; tr(LR RL) = 6
+T3: a b a^-1 b^-1 = [[-7, 6], [-6, 5]]; its inverse b a b^-1 a^-1 = [[5, -6], [6, -7]] (the notes' matrix: True); traces -2, -2; fixed points [1], [1]
+T4: #R - #L of L^(t-2) R for t = 3 to 12: [0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
+ALL HOLD: True

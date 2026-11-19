@@ -1,0 +1,12 @@
+{
+ "id": "web-old2-wt-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "lines tying the seat's run to main's record: 72 (the rank-two cells as the record has them, B1642, B1649), 74 (the deepest pair primitive at D = t^2 - 4), 106 (the zeros at omega, B1657); the rest of each line is the seat's",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:106",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:72",
+  "web:chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED:74"
+ ]
+}

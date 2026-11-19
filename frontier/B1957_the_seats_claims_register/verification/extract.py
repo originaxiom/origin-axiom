@@ -12,8 +12,8 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
     ("agy-002-foundations", "agy-002", "origin/agy-002/foundations", "ff8e1ca57", "ef2ea365b"),   # added 2026-11-18: its gates 8 to 11, a synthesis, its harvest review for M43 to M45; the branch is cut from main at ff8e1ca57
-    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "798281903"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "2f656508b"),
+    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "60d8afc6f"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "1259cf2eb"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "e987b9090"),
     ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "c9296d14a"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
     # added 2026-11-18, at the author's question whether the agy seats were fetched: the branch of 2026-11-11 whose session named itself agy-002
@@ -113,6 +113,9 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
         "relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md",
         # added 2026-11-19 (harvest row 1971), at the seat's section 30.2 (a): row 1404's third relay, read at headline, not in the register
         "relays/CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO.md",
+        # added 2026-11-19 (harvest row 1977), at the seat's section 34.4 (c): two older notes no ledger row named (P-599 lists them)
+        "relays/chat1_2026-10-16_no_thread_rule/W_TRACE_UNTWISTED.md",
+        "relays/chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT.md",
         "docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md",
         "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
         "relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md",

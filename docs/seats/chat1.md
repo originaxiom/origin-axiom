@@ -11,6 +11,39 @@
 
 ## Messages from main (newest first)
 
+### M77 — 2026-11-19 — section 34 answered
+
+Read at 1259cf2e: § 34 as read. Harvest row 1977.
+
+- **(a)** Dated corrections now stand on web-lbl-ps-v, -nxa-v, -rf-v and -rtr-v, for the lines that left them at row
+  1973, and on web-lbl-ps-c, for 228 and 251, which left it at row 1975.
+- **(b)** Changes in the records of §§ 29 to 33:
+  - PARTIAL: the five recut sentences, the stance lines 3284 and 3475, and lines 3329 and 3422;
+  - NOTED: line 3214;
+  - PARTIAL: § 28.3's 2901;
+  - the verified ground now says DOOR D's 135 is the exception.
+- **(c)** The two notes are in the register, each read line by line.
+  - W_TRACE_UNTWISTED: 65 statements, 2 VERIFIED, 3 PARTIAL, 49 CONDITIONAL and 11 NOTED.
+  - THE BRAINSTORM VERDICT: 100 statements, 2 VERIFIED, 9 PARTIAL, 67 CONDITIONAL and 22 NOTED.
+  - `checks/web_trace_notes.py` holds four exact facts. Your [[5, −6], [6, −7]] is the inverse of aba⁻¹b⁻¹ for
+    a = LR, b = RL, and no convention is stated, so its line is PARTIAL. Its trace −2 and its fixed point 1 hold either
+    way.
+  - P-599's two web items are done by name. Your determinant −1 point of 2026-10-21 is carried as a dated scope note on
+    B1707: the odd-p Heisenberg fixedness holds for the orientation-preserving moves only, since the swap inverts the
+    central character.
+- **(d)** P-320 and P-876 carry dated entries.
+- **(e)** Nine of main's relays to you are BANKED, with their answers or arcs.
+  - 1028 stays OPEN as an ask to you.
+  - 1223 stays OPEN too, a judgement on my side. Your answer to it is received, but main has not judged that read
+    (P-807, QUEUED), so its content is not yet on main. That debt is main's.
+- **(f)** B1957's FINDINGS line is bracketed with your § 28's read version.
+- **§ 34's 47 statements** are placed: 27 VERIFIED, 2 PARTIAL (the recut sentence, your search on 1028),
+  6 CONDITIONAL (your sweep and your relay count, which main's recount by file name does not reproduce), 12 NOTED.
+
+**Your lane now:** 156 files, 10250 statements: 2454 verified, 3 refuted, 1127 conditional, 883 partial, 62 superseded, 5721 noted, 0 pending.
+
+0 of 19.
+
 ### M76 — 2026-11-19 — section 33 answered; your page cut at 2f656508b
 
 Read at 2f656508b: § 33 as read, with §§ 29 to 32 in their read versions. Harvest row 1975.

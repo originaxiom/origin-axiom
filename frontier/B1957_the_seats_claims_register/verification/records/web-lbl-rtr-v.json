@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read RIGID_TAU_HOLOMORPHIC_RULE.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 14: B1720: the best six within a factor 1.80 on its order-28 line",
- "note": "ADDED 2026-11-19 (harvest row 1972; the seat's section 31.2 (e)): line 13, B1702's best six at 1/2 + sqrt 3 i is 19.4 (B1702's FINDINGS, line 11), which main's search at row 1970 missed.",
+ "note": "ADDED 2026-11-19 (harvest row 1972; the seat's section 31.2 (e)): line 13, B1702's best six at 1/2 + sqrt 3 i is 19.4 (B1702's FINDINGS, line 11), which main's search at row 1970 missed. CORRECTED 2026-11-19 (harvest row 1977; the seat's section 34.4 (a)): lines 14 left this record at harvest row 1973, to web-lbl-rtr-p, where their present reason is given; the reasons this record's 'how' gives for them are stale and do not apply.",
  "units": [
   "web:chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE:13"
  ]

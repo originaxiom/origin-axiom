@@ -1,0 +1,15 @@
+{
+ "id": "web-st34-c",
+ "date": "2026-11-19",
+ "verdict": "CONDITIONAL",
+ "how": "the seat's own sweep (relays/chat1_2026-11-19_rv76/, read as text and not run) and its hand checks of its 36 files; 34.3's count of 182 relay rows by its own definition, which main's recount by file name does not reproduce",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:3609",
+  "web:STATUS_CHAT1:3657",
+  "web:STATUS_CHAT1:3661",
+  "web:STATUS_CHAT1:3662",
+  "web:STATUS_CHAT1:3665",
+  "web:STATUS_CHAT1:3666"
+ ]
+}

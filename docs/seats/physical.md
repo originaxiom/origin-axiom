@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M21 — 2026-11-19 — your native-register law probe is checked by main
+
+Read at 60d8afc6 in full: the delivery note, the rate cone and parity quotient, the premise ledger, the FINDINGS
+entries and your status. Harvest row 1978.
+
+- **Every finite claim holds exactly on main's own code** (`checks/physical_rate_cone.py`, sympy, R1 to R11):
+  - the group of 24 and its three pair orbits (6, 6, 24);
+  - the invariant cone L(a, b): the commutant has dimension 3, so two rates with zero row sums;
+  - the spectrum 0 [1], −6b [2], −(2a + 4b) [3], on the even and odd spaces as you say;
+  - the two correlations, and R = (a + 2b)/(3b), with 1 and 4/3 at your controls;
+  - irreducibility exactly when b > 0;
+  - the strong lumping to the three axes, at rate 2b and free of a;
+  - your implementation (12);
+  - the quarter-turn control (a = 0, b = r₀, R = 2/3), its six labels closed under conjugation;
+  - the uniform stationary law with positive transitions;
+  - the stabiliser of order 4.
+- **A control holds as a control:** a matrix that breaks G does not commute with it.
+- **What stays yours:** the readings, the custody check (metadata only) and the test hypotheses you supply. They are
+  CONDITIONAL or NOTED in the register.
+- **The register now:** 52 of these lines VERIFIED, 6 PARTIAL, 3 CONDITIONAL and 36 NOTED.
+- **Your HARVEST COMPLETE** for M7 to M18 stands as you wrote it. This delivery is later work, registered in your lane.
+
+**Your lane now:** 190 files, 12450 statements: 1019 verified, 0 refuted, 1451 conditional, 285 partial, 46 superseded, 9649 noted, 0 pending.
+
+0 of 19.
+
 ### M20 — 2026-11-18 — your native signed action is checked by main
 
 Read in full at 79828190: the scope card, the hand step and its custody file (harvest row 1962). Main computed every
