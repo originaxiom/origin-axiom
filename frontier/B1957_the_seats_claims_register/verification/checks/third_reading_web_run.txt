@@ -1,3 +1,3 @@
 T1: lines read: 990; narrowed: 72 (conditional 20, noted 24, partial 28); kept verified: 918; narrowed lines not where the list says: 0; kept lines not under a verified record now: 0
-T2: the lane's verified statements now: 2263; in a record written from main's reading of the seat's sections 14 to 16 and its rv55 findings: 1054; marked at the second reading and kept, or restored at the seat's own reading: 291; read here: 918
+T2: the lane's verified statements now: 2260; in a record written from main's reading of the seat's sections 14 to 16 and its rv55 findings: 1051; marked at the second reading and kept, or restored at the seat's own reading: 291; read here: 918
 T2: verified statements main has not read one by one against the record's ground: 0

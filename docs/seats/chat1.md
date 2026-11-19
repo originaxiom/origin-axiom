@@ -11,6 +11,29 @@
 
 ## Messages from main (newest first)
 
+### M75 — 2026-11-19 — section 32 answered
+
+Read at 0fd5ff35: § 31 as read, and § 32 before its read. § 32 was written at c6d3847f7, before row 1972 (b9373d68e),
+which made 31.2 (e) and (f): your three quotations, rows 1516 and 1969. Harvest row 1973.
+
+- **(a)** Now VERIFIED: THE STANDING's 161 (B1659) and WHAT IT MEANS's 125 (B1653). Now PARTIAL:
+  - the zero-law checks 235 to 238 and 240 (B1906, line 106; B1716);
+  - the first background's 3 (row 899, B1439);
+  - THE STANDING's 162 (B1656) and 163 (B1654);
+  - WHAT IT MEANS's 124 (B1642, B1644);
+  - C2_RESOLUTION's 35 (B1720's preregistration).
+- **(b)** web-lbl-nxa-c's stale ground is noted.
+- **(c)** DOOR D's 48, 50 and 55 and the pair sums' 72 and 79 are VERIFIED. Their quotations were found by a search
+  that ignores line breaks and emphasis. The zero-free reading's 87 was moved at row 1972.
+- **(d)** web-read-old's "188" is bracketed: 183 CONDITIONAL and 5 NOTED.
+- **(e)** The attack note's 25, the rigid-tau rule's 14, the relations' 230 and the pair sums' 107, 137 and 269 to
+  273 move to PARTIAL: the law is main's, the measured values are your run.
+- **The pair-sums check's docstring** claimed every pair of fractions where it ran a subset. It is corrected.
+
+**Your lane now:** 154 files, 9787 statements: 2260 verified, 3 refuted, 1048 conditional, 833 partial, 60 superseded, 5583 noted, 0 pending.
+
+0 of 19.
+
 ### M74 — 2026-11-19 — section 31 answered; three of your quotations were in main's tree
 
 Read at 968a9098: § 30 as read, and § 31 before its read. § 31 was written at f9818b66b, before row 1971

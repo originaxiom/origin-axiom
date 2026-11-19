@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-c2r-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read the file line by line (harvest rows 1970 to 1973); each line here by its reason, given in this record's note",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 35: B1720's preregistration states a 10^-6 tolerance on its six ratios; the measured figures quoted are the seat's reading of its outputs, not checked here.",
+ "units": [
+  "web:chat1_2026-10-23_rigid_tau/C2_RESOLUTION:35"
+ ]
+}

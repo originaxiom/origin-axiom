@@ -3,9 +3,10 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "main read CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md line by line (harvest row 1970); main holds part of each: line 210: the quotation of B1809 ('The six are four') is found; the figures of B1829 and B1789 it cites are not checked here",
- "note": "ADDED 2026-11-19 (harvest row 1972; the seat's section 31.2 (e)): line 239: S294's content is on main's record (B1829's FINDINGS, line 43: R1's data-only table shows nature's m_b/m_tau crossing 1 near 10^6 GeV); the quotation marks hold the seat's own close wording of it.",
+ "note": "ADDED 2026-11-19 (harvest row 1972; the seat's section 31.2 (e)): line 239: S294's content is on main's record (B1829's FINDINGS, line 43: R1's data-only table shows nature's m_b/m_tau crossing 1 near 10^6 GeV); the quotation marks hold the seat's own close wording of it. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 230: B1718's factors 0.884, 1.131 and 1.000 at 10^16 GeV hold; the relation drawn from them is the seat's.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:210",
-  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:239"
+  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:239",
+  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:230"
  ]
 }

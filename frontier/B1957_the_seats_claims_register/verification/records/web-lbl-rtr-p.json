@@ -3,8 +3,9 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "main read RIGID_TAU_HOLOMORPHIC_RULE.md line by line (harvest row 1970); main holds part of each: line 11: B1696's 26.8% holds; 'about three times too small' is not checked here",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 14: B1720's best six 1.80 on its order-28 line holds; the line's description of the completion map is the seat's.",
  "units": [
-  "web:chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE:11"
+  "web:chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE:11",
+  "web:chat1_2026-10-23_rigid_tau/RIGID_TAU_HOLOMORPHIC_RULE:14"
  ]
 }

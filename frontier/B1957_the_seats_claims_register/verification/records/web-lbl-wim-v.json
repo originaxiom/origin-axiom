@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read WHAT_IT_MEANS_2026-10-15.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 72: B1655 (main audits its negatives, P-152): the auditors re-ran the sealed instruments and every one reproduced; line 73: B1655 (main audits its negatives, P-152): the auditors re-ran the sealed instruments and every one reproduced; line 74: B1655 (main audits its negatives, P-152): the auditors re-ran the sealed instruments and every one reproduced; line 79: B1655 (main audits its negatives, P-152): the auditors re-ran the sealed instruments and every one reproduced; line 100: B1655 section 3: what the audits left standing; line 102: B1655 section 3: what the audits left standing; line 103: B1655 section 3: what the audits left standing; line 104: B1655 section 3: what the audits left standing; line 105: B1655 section 3: what the audits left standing; line 161: B1655: B1654's sensitivity at tau = i, L = 40, 4.906 x 10^-4 to 1.069 x 10^-3 with a 1% error; line 191: B1655 section 3: what the audits left standing",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 125: B1653: at a point no flat line and no Higgs lifts the zero; 'what lifts the zero is a coupling's shape' (its FINDINGS, line 87).",
  "units": [
   "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:72",
   "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:73",
@@ -15,6 +15,7 @@
   "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:104",
   "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:105",
   "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:161",
-  "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:191"
+  "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:191",
+  "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:125"
  ]
 }

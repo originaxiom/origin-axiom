@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "main read CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md line by line (harvest row 1970); main holds part of each: line 194: row 1516: main reproduced the value at 0.13 + 1.9i (-+0.10); the other values are the seat's run; line 222: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 224: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 226: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 227: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 228: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 233: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 250: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open; line 251: B1906 derives the zero law's 'if' part on every line of order 1 to 12 at the tau tried; the converse stays open",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 235: B1906 checks the zero law of D on every line at Re tau = 0 and a generic tau (its line 106); the figures are the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 236: B1906 checks the zero law of D on every line at Re tau = 0 and a generic tau (its line 106); the figures are the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 237: B1906 checks the zero law of D on every line at Re tau = 0 and a generic tau (its line 106); the figures are the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 238: B1906 checks the zero law of D on every line at Re tau = 0 and a generic tau (its line 106); the figures are the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 240: the leptons' zero there is B1716's, as the line says; its figures are the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 107: the kernel lemma is B1832's; the check's figures (1.5 x 10^-14, 3.2 x 10^-12) are the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 137: the multipliers are part of B1832's lemma; the check's 1.1 x 10^-14 is the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 269: the predicted exponent is B1832's law; the measured value is the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 270: the predicted exponent is B1832's law; the measured value is the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 271: the predicted exponent is B1832's law; the measured value is the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 272: the predicted exponent is B1832's law; the measured value is the seat's run. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 273: the predicted exponent is B1832's law; the measured value is the seat's run.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:194",
   "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:222",
@@ -11,6 +11,18 @@
   "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:226",
   "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:227",
   "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:233",
-  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:250"
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:250",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:235",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:236",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:237",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:238",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:240",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:107",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:137",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:269",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:270",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:271",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:272",
+  "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:273"
  ]
 }

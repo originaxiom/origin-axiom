@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-fb-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read the file line by line (harvest rows 1970 to 1973); each line here by its reason, given in this record's note",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 3: the dated note from the SM seat's W86, which row 899's S129 bracket records and main's B1439 bears out on the 59 shared cells; its other words are the seat's.",
+ "units": [
+  "web:chat1_2026-10-06_first_background/FINDINGS:3"
+ ]
+}

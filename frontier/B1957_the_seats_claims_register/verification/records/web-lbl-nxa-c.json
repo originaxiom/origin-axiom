@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "CONDITIONAL",
  "how": "main read THE_NEXT_ATTACK.md line by line (harvest row 1970); these are the seat's own claims, readings and runs, which main has not verified: they stay CONDITIONAL (the file was recorded in its day as read only at its headline, scope or in part, or read in full with nothing re-run on main): the canonical matrix and tilts (1.1, 1.3, 1.5), the V_cb formula (1.4, not re-derived, P-358), the stored channels' rough bound and CKM counts, the seat's TWO_HIGGS line, section 2's post hoc fits with free Higgs directions (data comparisons, read after B1740's outputs), its section 2.5, and its proposals' factual parts",
- "note": "",
+ "note": "CORRECTED 2026-11-19 (harvest row 1973; the seat's section 32.2 (b)): this ground's list is stale: section 1.1 moved to VERIFIED and sections 1.4 and 1.5 to PARTIAL at row 1971 (B1745, row 1352: the seven locks hold on main's own code; P-358 is DONE); what remains here is section 2 and the proposals' factual parts.",
  "units": [
   "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:19",
   "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:32",

@@ -1,7 +1,8 @@
 """The web seat's THE CHANNEL NORMS' PAIR SUMS (row 1516; in the register since row 1968): the claims main settles here.
 Nothing of the seat's is run.
  Q1  section 4: for the distance to the integers, ||ax + ay|| >= | ||ax|| - ||ay|| |, and 1/2 - ||ax + ay|| >= | 1/2 - ||ax|| - ||ay|| |,
-     on 200 000 random pairs and on every pair of fractions with denominator <= 40.
+     on 200 000 random pairs and on the pairs of fractions a/n, b/m with n, m <= 40 and a + b divisible by 7 (a subset, not
+     every pair; corrected 2026-11-19 at the web seat's section 32.2: this line said 'every pair').
  Q2  section 7: c_inf(l) = -2 pi ln 2 pi - 2 pi gamma - pi [psi(l) + psi(1 - l)] at l = 3/8 and 1/8 against the closed forms
      2 pi [ln(8/pi) -+ sqrt 2 ln(1 + sqrt 2)] and the stated digits; P-512's x at L_max and L_2 (main's B1667 values), its zero
      and its quarter point.

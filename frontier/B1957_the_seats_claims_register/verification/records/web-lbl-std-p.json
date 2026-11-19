@@ -3,8 +3,10 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "main read THE_STANDING.md line by line (harvest row 1970); main holds part of each: line 205: B1658's factor 4 against 15.9 holds; B1660's sealed result on W59's lines is not checked here",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 162: B1656: on W59's lines at tau = omega the charged leptons' first generation stays exactly massless under every channel weight; 'for every Higgs' is the seat's wording. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 163: B1654's end condition and its lift D(tau)/(2 pi L) on main's record; the rank-one vacua and the quarter in the parallel vacuum are not checked here.",
  "units": [
-  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:205"
+  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:205",
+  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:162",
+  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:163"
  ]
 }

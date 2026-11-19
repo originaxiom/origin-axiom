@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read THE_STANDING.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 106: B1663 (NEGATIVE as sealed): the escape rate falls from 0.396 to 0.101 per step; the averaged defect 0.516 to 0.519 at every strength; line 127: GENESIS's PF1 row and 'not a derivation' (quotations found); line 136: classical (computed here: [LR, RL] = [[-7, 6], [-6, 5]] of trace -2, conjugate to R^6; S^2 = -I; (L^-1 R)^3 = -I) or a standard theorem it names; line 137: classical (computed here: [LR, RL] = [[-7, 6], [-6, 5]] of trace -2, conjugate to R^6; S^2 = -I; (L^-1 R)^3 = -I) or a standard theorem it names; line 139: classical (computed here: [LR, RL] = [[-7, 6], [-6, 5]] of trace -2, conjugate to R^6; S^2 = -I; (L^-1 R)^3 = -I) or a standard theorem it names; line 140: classical (computed here: [LR, RL] = [[-7, 6], [-6, 5]] of trace -2, conjugate to R^6; S^2 = -I; (L^-1 R)^3 = -I) or a standard theorem it names; line 141: classical (computed here: [LR, RL] = [[-7, 6], [-6, 5]] of trace -2, conjugate to R^6; S^2 = -I; (L^-1 R)^3 = -I) or a standard theorem it names; line 142: classical (computed here: [LR, RL] = [[-7, 6], [-6, 5]] of trace -2, conjugate to R^6; S^2 = -I; (L^-1 R)^3 = -I) or a standard theorem it names; line 143: classical (computed here: [LR, RL] = [[-7, 6], [-6, 5]] of trace -2, conjugate to R^6; S^2 = -I; (L^-1 R)^3 = -I) or a standard theorem it names; line 164: B1658: one Higgs spreads the sectors by at most a factor 4, against 15.92 (quotation found); line 169: S_THE_PUSH_BACK's correction (quotation found); line 188: B1666: 30 674 threads; the top quarter's mean 0.3144; line 191: B1663 (NEGATIVE as sealed): the escape rate falls from 0.396 to 0.101 per step; the averaged defect 0.516 to 0.519 at every strength; line 315: B1663 (NEGATIVE as sealed): the escape rate falls from 0.396 to 0.101 per step; the averaged defect 0.516 to 0.519 at every strength; line 363: B1663 (NEGATIVE as sealed): the escape rate falls from 0.396 to 0.101 per step; the averaged defect 0.516 to 0.519 at every strength; line 396: B1666's 0.315 and B1663's 0.517",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 161: B1659's joint law: the coupling's determinant and adjugate factor through the Higgs's and the matter's defects, exactly.",
  "units": [
   "web:chat1_2026-10-16_stepping_stones/THE_STANDING:106",
   "web:chat1_2026-10-16_stepping_stones/THE_STANDING:127",
@@ -20,6 +20,7 @@
   "web:chat1_2026-10-16_stepping_stones/THE_STANDING:191",
   "web:chat1_2026-10-16_stepping_stones/THE_STANDING:315",
   "web:chat1_2026-10-16_stepping_stones/THE_STANDING:363",
-  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:396"
+  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:396",
+  "web:chat1_2026-10-16_stepping_stones/THE_STANDING:161"
  ]
 }

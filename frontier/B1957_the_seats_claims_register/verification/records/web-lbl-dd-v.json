@@ -3,11 +3,14 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 56: its quotation of main's record found in main's tree (P-479); line 64: its quotation of main's record found in main's tree (FK14, GENESIS v1.15); line 84: its quotation of main's record found in main's tree (v1.21, B1495); line 137: its quotation of main's record found in main's tree (the towers frame, P-466, P-415)",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 48: its quotation of B1815 found there. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 50: its quotation of B1813's run-height rule found there. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 55: its quotation of B1815 ('The data cannot decide it. B1814 had about 19% power, and one world carries about one nat') found there, behind bold markers.",
  "units": [
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:56",
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:64",
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:84",
-  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:137"
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:137",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:48",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:50",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:55"
  ]
 }

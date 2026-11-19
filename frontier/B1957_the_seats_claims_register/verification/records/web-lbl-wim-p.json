@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-wim-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read the file line by line (harvest rows 1970 to 1973); each line here by its reason, given in this record's note",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 124: B1642 and B1644 give the zero modes' coupling and its first-generation zero by Jacobi on the fibre (B1655 books it a feature, E89); 'rank two' as worded is the seat's.",
+ "units": [
+  "web:chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:124"
+ ]
+}
