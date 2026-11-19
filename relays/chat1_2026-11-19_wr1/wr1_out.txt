@@ -1,0 +1,55 @@
+W-R1: mutual reading on the weave's private records. Exact; data-free.
+C4 holds: True | L has no lift at W-C3's random pair
+k = 1: dim V = 3, private dim 0, dim M_k 0  [0 s]
+k = 2: dim V = 5, private dim 4, dim M_k 2  [0 s]
+k = 3: dim V = 7, private dim 2, dim M_k 1  [0 s]
+k = 4: dim V = 9, private dim 6, dim M_k 3  [1 s]
+k = 5: dim V = 11, private dim 4, dim M_k 2  [1 s]
+k = 6: dim V = 13, private dim 8, dim M_k 4  [2 s]
+St: L [1, 0, 1, 1], R [1, 1, 0, 1], P [0, 1, 1, 0], -I [-1, 0, 0, -1]
+T0 k = 1: no private states; dim M_k = 0
+T0 k = 2: chi_M (id, L, LR) = (2, 0, -1), M_k = 0 1 + 0 e + 1 s; dim Hom_G(St (x) M_k, V_k) = 1, invertible: True  [2 s]
+T0 k = 3: chi_M (id, L, LR) = (1, -1, 1), M_k = 0 1 + 1 e + 0 s; dim Hom_G(St (x) M_k, V_k) = 1, invertible: True  [2 s]
+T0 k = 4: chi_M (id, L, LR) = (3, 1, 0), M_k = 1 1 + 0 e + 1 s; dim Hom_G(St (x) M_k, V_k) = 2, invertible: True  [2 s]
+T0 k = 5: chi_M (id, L, LR) = (2, 0, -1), M_k = 0 1 + 0 e + 1 s; dim Hom_G(St (x) M_k, V_k) = 1, invertible: True  [2 s]
+T0 k = 6: chi_M (id, L, LR) = (4, 0, 1), M_k = 1 1 + 1 e + 1 s; dim Hom_G(St (x) M_k, V_k) = 3, invertible: True  [2 s]
+P0 holds: True
+T1 <L,R>      V_2: End 1; invariant forms 1 (symmetric 0, alternating 1, a generic one's rank 4); forms P reverses 1; Burnside 16  [2 s]
+T1 <L,R>      V_3: End 1; invariant forms 1 (symmetric 0, alternating 1, a generic one's rank 2); forms P reverses 1; Burnside 4  [2 s]
+T1 <L,R>      V_4: End 2; invariant forms 2 (symmetric 0, alternating 2, a generic one's rank 6); forms P reverses 2; Burnside 20  [2 s]
+T1 <L,R>      V_5: End 1; invariant forms 1 (symmetric 0, alternating 1, a generic one's rank 4); forms P reverses 1; Burnside 16  [2 s]
+T1 <L,R>      V_6: End 3; invariant forms 3 (symmetric 0, alternating 3, a generic one's rank 8); forms P reverses 3; Burnside 24  [4 s]
+T1 <L,R>      V_2, V_3: Hom 0, 0; invariant forms between them 0
+T1 <L,R>      V_2, V_4: Hom 1, 1; invariant forms between them 1
+T1 <L,R>      V_2, V_5: Hom 1, 1; invariant forms between them 1
+T1 <L,R>      V_2, V_6: Hom 1, 1; invariant forms between them 1
+T1 <L,R>      V_3, V_4: Hom 0, 0; invariant forms between them 0
+T1 <L,R>      V_3, V_5: Hom 0, 0; invariant forms between them 0
+T1 <L,R>      V_3, V_6: Hom 1, 1; invariant forms between them 1
+T1 <L,R>      V_4, V_5: Hom 1, 1; invariant forms between them 1
+T1 <L,R>      V_4, V_6: Hom 2, 2; invariant forms between them 2
+T1 <L,R>      V_5, V_6: Hom 1, 1; invariant forms between them 1
+T1 <L,R,P,-I> V_2: End 1; invariant forms 0 (symmetric 0, alternating 0, a generic one's rank 0); forms P reverses -; Burnside 16  [5 s]
+T1 <L,R,P,-I> V_3: End 1; invariant forms 0 (symmetric 0, alternating 0, a generic one's rank 0); forms P reverses -; Burnside 4  [5 s]
+T1 <L,R,P,-I> V_4: End 2; invariant forms 0 (symmetric 0, alternating 0, a generic one's rank 0); forms P reverses -; Burnside 20  [5 s]
+T1 <L,R,P,-I> V_5: End 1; invariant forms 0 (symmetric 0, alternating 0, a generic one's rank 0); forms P reverses -; Burnside 16  [5 s]
+T1 <L,R,P,-I> V_6: End 3; invariant forms 0 (symmetric 0, alternating 0, a generic one's rank 0); forms P reverses -; Burnside 24  [6 s]
+T1 <L,R,P,-I> V_2, V_3: Hom 0, 0; invariant forms between them 0
+T1 <L,R,P,-I> V_2, V_4: Hom 1, 1; invariant forms between them 0
+T1 <L,R,P,-I> V_2, V_5: Hom 1, 1; invariant forms between them 0
+T1 <L,R,P,-I> V_2, V_6: Hom 1, 1; invariant forms between them 0
+T1 <L,R,P,-I> V_3, V_4: Hom 0, 0; invariant forms between them 0
+T1 <L,R,P,-I> V_3, V_5: Hom 0, 0; invariant forms between them 0
+T1 <L,R,P,-I> V_3, V_6: Hom 1, 1; invariant forms between them 0
+T1 <L,R,P,-I> V_4, V_5: Hom 1, 1; invariant forms between them 0
+T1 <L,R,P,-I> V_4, V_6: Hom 2, 2; invariant forms between them 0
+T1 <L,R,P,-I> V_5, V_6: Hom 1, 1; invariant forms between them 0
+P1 holds: True | P2 holds: True | non-degenerate where M_k is irreducible: True | Burnside as predicted: True
+T2 V_2: L keeps 1, R keeps 1, P keeps 2; W(x_L, x_R) non-zero, R1 = -4, R2 = -1
+T2 V_3: L keeps 0, R keeps 0, P keeps 1
+T2 V_4: L keeps 2, R keeps 2, P keeps 3
+T2 V_5: L keeps 1, R keeps 1, P keeps 2; W(x_L, x_R) non-zero, R1 = -4, R2 = -1
+T2 V_6: L keeps 2, R keeps 2, P keeps 4
+P3 holds: True
+C1 holds: True | C2 holds: True | C3 holds: True | C4 holds: True
+done [8 s]
