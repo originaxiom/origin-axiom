@@ -1,0 +1,27 @@
+{
+ "id": "B1964",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1963",
+  "B1946",
+  "B1945",
+  "B1940",
+  "B1691"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C's coupling Y_ab = sum (C_a^T eps S C_b)_mn Mw_mn with generation blocks (QJ, QI, QK), eps = QJ (frame_mp), its code unchanged",
+  "object": "the lightest left singular vector of each sector's coupling under the readings S and S~, and the light-light entry of the charge-consistent mixing",
+  "reach": "class",
+  "hypotheses": "the lemma exact for S a multiple of E12 or E21 and det Mw != 0; its cusp limit checked at every point of orders 2 to 10 at height 30 (574 rank-2 cases), Mw rank 2 meaning a singular ratio of at least 1e-30; the rate measured at one point; the heavy pair's 3-cycle not proven"
+ },
+ "claim_one_line": "IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector is (-i, 0, 1) for every channel matrix Mw, of rank 2 exactly when det Mw != 0, and for E21 it is (i, 0, 1), orthogonal; the conjugate reading only conjugates the Higgs's coefficients, and frame C's Higgs tends to a multiple of E12 (lower-left entry about 20 e^{-pi y} of the upper-right, diagonal about 4 e^{-pi y/2}); so wherever Mw has rank 2 every sector's lightest generation tends to (-i, 0, 1)/sqrt 2 under S and (i, 0, 1)/sqrt 2 under S~, checked at all 574 such cases of orders 3 to 10 at height 30, and a charge-consistent pairing makes the light-light mixing entry vanish: the analytic core of B1946's and B1963's derangement, whatever the point and the charges. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

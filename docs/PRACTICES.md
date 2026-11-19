@@ -1487,3 +1487,25 @@ not counted.
 
 **Why it exists.** A reader outside the project met the record's inner words on its front pages, and a decision read as if
 an authority had confirmed it.
+
+## A screen sits at the working precision, and an unsettled convention is run both ways — MANUAL (adopted 2026-11-19, B1962 to B1964)
+
+**The rule.**
+- **Screens.** A screen that sets points aside as degenerate is tied to the working precision of the code it reads,
+  never to a fixed small number. For frame C that is 10^−(dps − 5), with dps = 30 + 2y as the frame sets it. Before a
+  screened run is read, its count of points set aside is checked against a control the record already holds.
+- **Conventions.** When a convention the result may depend on is not settled (the sign of c in frame D1), the card runs
+  every option and states, before the run, what each outcome would mean. It does not choose one first.
+- **Hash records.** A script's hash taken before its run is kept in a markdown table with its UTC time and a note. A
+  hash taken before an amendment stays in the table, marked as superseded, and the lock checks the script against the
+  last hash recorded for it.
+
+**Why it exists.**
+- **B1963's first run set all 295 points aside,** order 5's included, which B1946 classifies cleanly. Its screen,
+  1e-30, sat above the frame's own hierarchy, about 1e-65 at height 30. The run was kept as void, the screen amended
+  before the second run, and the expectations left as they were.
+- **B1962 ran c = +2 and c = −2 together.** The outcome did not depend on the sign, so the result needs no convention.
+  Choosing one first would have left the result conditional on it.
+- **The hash records:** a record kept as a text file of hash lines is read by the artifact-hash gate as a seal list.
+  A superseded hash in such a file then reads as a broken seal.
+

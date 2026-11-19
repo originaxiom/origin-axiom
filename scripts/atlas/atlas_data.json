@@ -17843,6 +17843,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1964": {
+   "slug": "frame c the reading fixes the lightest generation",
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 18,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

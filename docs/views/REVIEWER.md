@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1660** |
-| words of findings prose | **1,518,988** |
+| research arcs with findings | **1661** |
+| words of findings prose | **1,520,044** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1660** (100.0 %) |
+| arcs carrying an authored verdict | **1661** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1157 |
+| PROVED | 1158 |
 | NEGATIVE | 387 |
 | OPEN | 103 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1963`** (1366 words, 0 locks)  
-“IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs derange the mixing at every non-degenerate point of every order from 2 to 10 (271 points at height 30, 238 at 60), the conjugation tending to a 3-cycle of the generations; across height, at four columns and the points of orders 5 and 7, the mixing is aligned only at height 1.0 (hierarchy h >= 3.9e-3), at no point from height 1.2, and deranged at every point from height 3; no case has an aligned charge-consistent mixing with three orders of hierarchy; so the aligned option needs (S, S), the reading the charge rule excludes. 0 of 19.”  
-`B1963_frame_c_charge_consistent_mixing_aligns_only_in_the_bulk/FINDINGS.md`
+**PROVED — `B1964`** (1056 words, 0 locks)  
+“IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector is (-i, 0, 1) for every channel matrix Mw, of rank 2 exactly when det Mw != 0, and for E21 it is (i, 0, 1), orthogonal; the conjugate reading only conjugates the Higgs's coefficients, and frame C's Higgs tends to a multiple of E12 (lower-left entry about 20 e^{-pi y} of the upper-right, diagonal about 4 e^{-pi y/2}); so wherever Mw has rank 2 every sector's lightest generation tends to (-i, 0, 1)/sqrt 2 under S and (i, 0, 1)/sqrt 2 under S~, checked at all 574 such cases of orders 3 to 10 at height 30, and a charge-consistent pairing makes the light-light mixing entry vanish: the analytic core of B1946's and B1963's derangement, whatever the point and the charges. 0 of 19.”  
+`B1964_frame_c_the_reading_fixes_the_lightest_generation/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1079 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms is assumed, not shown. 0 of 19.”  

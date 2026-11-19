@@ -1,0 +1,6 @@
+L1: u^H Y(E12) = Matrix([[0], [0], [0]]); det Y(E12) = 0; the 2 x 2 minors' gcd: m11*m22 - m12*m21
+L2: u^H Y(E21) = Matrix([[0], [0], [0]]); det Y(E21) = 0
+L3: <u_S, u_S~> = 0
+L4: eps conj(Q) eps^T = Q for QI, QJ, QK: [True, True, True]
+L5: S = 2 c1 E12: True; its conjugate reading = -2 conj(c1) E21: True
+L6: u_S^H Y(a E12 + b E21 + d QI) = 0 for every Mw requires: [{b: 0, d: 0}]
