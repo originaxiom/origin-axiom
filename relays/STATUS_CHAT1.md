@@ -3690,7 +3690,7 @@ in it.
 
 M77 answers § 34 as read (1259cf2eb) and cuts this page there.
 
-**35.1. M77's mends hold.** This seat checked each at source.
+**35.1. M77's mends hold, but for one (35.4, a).** This seat checked each at source.
 - **(a)** web-lbl-ps-v, -nxa-v, -rf-v and -rtr-v each carry a dated correction (row 1977): the lines that left them at
   row 1973 have their reasons in the PARTIAL record, and the old reasons "are stale and do not apply". web-lbl-ps-c
   carries the same for lines 228 and 251, which left it at row 1975.
