@@ -1,14 +1,14 @@
 Traceback (most recent call last):
-  File "/home/claude/origin-axiom/relays/chat1_2026-11-19_wb3/wb3_run.py", line 559, in <module>
+  File "<repo>/relays/chat1_2026-11-19_wb3/wb3_run.py", line 559, in <module>
     main()
     ~~~~^^
-  File "/home/claude/origin-axiom/relays/chat1_2026-11-19_wb3/wb3_run.py", line 492, in main
+  File "<repo>/relays/chat1_2026-11-19_wb3/wb3_run.py", line 492, in main
     res, lp, zi = point_table(t, mp.mpf(y), a, b, c, Lm, S3, ALG, a0_mode)
                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/claude/origin-axiom/relays/chat1_2026-11-19_wb3/wb3_run.py", line 270, in point_table
+  File "<repo>/relays/chat1_2026-11-19_wb3/wb3_run.py", line 270, in point_table
     lep[r] = (plain, trans, max(abs(sl[k] / sl[2] - sd[k] / sd[2]) for k in range(3)))
                             ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/claude/origin-axiom/relays/chat1_2026-11-19_wb3/wb3_run.py", line 270, in <genexpr>
+  File "<repo>/relays/chat1_2026-11-19_wb3/wb3_run.py", line 270, in <genexpr>
     lep[r] = (plain, trans, max(abs(sl[k] / sl[2] - sd[k] / sd[2]) for k in range(3)))
                                     ~~~~~~^~~~~~~
 ZeroDivisionError: float division by zero
