@@ -1,0 +1,44 @@
+# Gauge and matter fields at the two compact flat fibre vacua
+
+19 November 2026. C8 author hand continuation at f2bbb7c94. Independent review pending. This calculation compares internal closed flat two-tori in flat external four-space. Treating the return as an additional compact spacetime dimension would change the operator.
+
+## Count the E8 fields before comparing energies
+
+Use the regular SU(3) in the C8 parent, with all spectator Wilson backgrounds trivial. Main B252 step 4 gives the complexified adjoint branching under E6 times SU(3) as (78,1) + (1,8) + (27,3) + (dual 27,dual 3). The two candidate fibre holonomies are the identity pair and the diagonal Klein four image. Its three nontrivial sign characters, each of order two, occur once in the defining three. The dual three has the same sign characters.
+
+In the SU(3) adjoint the two Cartans are trivial. The six matrix units Eij with i different from j split two per nontrivial character, since the quotient of any two different nonzero parity characters is the third. Adding the E6 terms gives 80 trivial and 56 of each nontrivial character, with 80+3 times 56 = 248. There is a separate check using the C8 root count. A nonidentity sign holonomy is conjugate to exp(i pi C) for its root coroot C. The two odd charges contribute 112 minus signs. The trace is therefore 248-224=24. Averaging the three equal traces and the identity over the four group elements gives 80 invariants, and the other three multiplicities are (248-24)/4=56 each.
+
+On the closed fibre the vector zero modes comprise 248 or 80 real generators. For the parity pair their algebra is e6 plus two Cartans. A cyclic base permutation removes the two Cartans if one also requires invariance under the explicit A4 lift of the previous note. Its fixed Lie algebra in E8 is e6. The SU(3) block has zero continuous stabilizer under the combined history, while the full gauge theory retains this 78-dimensional algebra. Spectator twists or a different lift require their own calculation.
+
+## Spectral test on the actual fields
+
+Write s in D[2] for the flat spin holonomy in a parallel frame, and h in D[2] for a gauge character. On the fibre R²/Z² with constant metric g, the nonnegative scalar Laplacian on a line with character h has eigenvalues 4 pi² (n+h)^T g^{-1}(n+h), n in Z². This follows by applying the covariant derivative in the flat frame to the quasi-periodic exponentials. Constant rescalings in a chosen kinetic convention can be carried through both members of an operator pair. The vector and connection fields use h. The spin chiral fields Q,R use h+s. For a degree-zero flat line on a compact flat torus the kernel consists of parallel sections, by integration of the gradient square. Thus the linear massless mode counts per field before imposing any base identification are
+
+| gauge pair | vectors (real) | connection chirals (complex) | each of Q,R if s=0 (complex) | each of Q,R if s nonzero (complex) |
+|---|---:|---:|---:|---:|
+| identity | 248 | 248 | 248 | 0 |
+| parity | 80 | 80 | 80 | 56 |
+
+The connection column counts harmonic (0,1)-coefficients. The flat gauge orbit has stabilizers and the nonlinear moment map still acts on these linear modes. For either choice of s, the E6 representations inside each nontrivial 56 include both 27 and its dual plus the two SU(3) root coefficients. A family interpretation requires an actual fermion operator, its interactions and its physical domain. These modes carry paired E6 matter in the stated sector. Keep s explicit when carrying the chosen magnetic characteristics to the flat endpoint. On one fibre the counts hold for each of the four flat spin lines. A comparison around the base also needs an isomorphism of its transported spin and gauge data.
+
+## The zero-field Gaussian vacuum energy
+
+Both backgrounds at Q=R=0 satisfy W'=0 and moment=0. The October 27 report SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md derives the kinetic-normalized gauge map d, superpotential Hessian H and the left-Weyl mass operator M. On this closed fibre the covariant derivatives act on smooth sections with their given spin and flat gauge transitions. Integration by parts has no boundary term. Gauge invariance gives H d=0. The same metric enters the moment and the gauge fixing. Its equations (5), (9), (12) give
+
+    P_v = d†d,     P_c = H†H + dd†,     M†M = diag(P_v,P_c)
+
+where the conjugate vector sector is identified using its compact real structure. All three operators use the periodic or twisted domains of their fields. In particular the two spin bosons and their respective 4D Weyl partners inherit the same internal spin line. This follows from the source's 4D chiral superfields with coefficients in S. Imposing a relative fermion twist would supply different dynamics.
+
+At zero external field strength, each scalar eigenvalue of P_v contributes the following coefficients of log(p²+lambda) at external momentum p. The real four-vector gives 4/2, the complex Grassmann ghost pair gives -1, and the two-component gaugino gives -1 after squaring its kinetic operator. Their sum vanishes. For P_c the complex scalar gives +1 and its Weyl partner -1. M†M pairs the spectra even when the component mass matrix mixes the gaugino and the chiral fields. Thus the parity-even one-loop vacuum-energy difference, parity pair minus identity, vanishes mode by mode for a common supersymmetry-preserving regulator. The differing unbroken gauge groups and their massless dimensions do not obstruct this cancellation. Keep zero modes as light fields, or match at p²>0 before removing an infrared regulator. Collective-coordinate measures and stabilizer volumes require a separate treatment if the observable is a probability distribution over vacua.
+
+This argument evaluates the coefficient of the volume term with no external gauge insertions. The +1,-3 weights in the October report are for an external F² insertion. Using them for vacuum energy would give a spurious selector. For example the vector heat trace at large internal heat time tends to the vector kernel dimension, which differs by 168 between the two backgrounds. Dropping its partners could retain an apparent holonomy response even at zero external fields. At tree level the source curvature and matter energy vanish for both backgrounds. Within these hypotheses the degeneracy survives the parity-even Gaussian correction. The calculation places no constraint on a phase of the determinant, interactions beyond Gaussian order, a puncture end sector with unmatched domains, or a gravitational action.
+
+## Do the matter fields provide a classical preference?
+
+There are actual flat matter directions beyond the linear kernel. For any nontrivial s at the parity background select i,j with gauge character of Eij equal to s. In a parallel frame let Q = u (Eij+Eji) times a unit local spin frame, R=0, with any constant complex u. The product is single valued because the two signs cancel. It is covariantly parallel, [Q,Q†]=0 and [Q,R]=0. With F=0 the complete source vacuum equations hold. The invariant norm of Q varies with |u|, so different magnitudes give gauge-inequivalent zero-energy configurations. For s=0 one obtains a corresponding family from a parallel Cartan. At the identity background a nonzero s has no parallel adjoint spin section. Its zero-matter configuration still solves the equations and has the same energy. This compares explicit stationary solutions without imposing a nonzero spin condensate as a selection rule. A nonzero spin field transported as part of a complete history can impose further constraints.
+
+## Source and review handoff
+
+The compact action and its spin assignments are in LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE.md §§1–2. FULL_E8_MAGNETIC_ROSTER_CONTROL.md §§1–2 supplies the coroot counts. The underlying potential and superspace field content are in weave_curved_action_2026_10_08/PROOF.md. The flat-pair classification and puncture distinction are at f2bbb7c94. The external field threshold calculation in word_architecture_audit_2026_10_17 supplies the normalized operators. The branching is in main b438a6e94, frontier/B252_chirality_obstruction/FINDINGS.md. General supersymmetric degree counting is also described in [Martin, section 1](https://arxiv.org/pdf/hep-ph/9709356). The Gaussian cancellation above follows directly from the stated operators and domains.
+
+For review, check the two routes to the 80+3×56 decomposition, the spectator E6 stabilizer, each spin-line domain, the real gauge and Weyl factors, and the nonlinear flat matter example. Remaining physical dependency: a holonomy-sensitive effect with a derivation of its domains and its uncancelled contribution, or a proved equivalence on all observables. No scientific code was executed. Physical inputs removed: zero.
