@@ -1,0 +1,2 @@
+W-B3: frame D1 at the norms, and its cusp mixing on this seat's code. Data-free.
+C2 holds: True | term-by-term triplet against W-F22's finite difference at 0.13 + 1.7i: 2.05e-19
