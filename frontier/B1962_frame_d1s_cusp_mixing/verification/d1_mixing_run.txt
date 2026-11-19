@@ -1,0 +1,39 @@
+c = +0: charges {'up': (1, -4), 'down': (1, 2), 'lep': (-3, 6)}
+  height  6.0  up S  down S : smallest diagonal |V| 9.932e-01, largest off-diagonal 1.161e-01
+  height  6.0  up St down St: smallest diagonal |V| 9.752e-01, largest off-diagonal 2.215e-01
+  height  6.0  up St down S : smallest diagonal |V| 1.251e-07, largest off-diagonal 1.000e+00
+  height  6.0  up S  down St: smallest diagonal |V| 2.583e-07, largest off-diagonal 1.000e+00
+  height  6.0  leptons against down, reading S : |U_lep^H U_down| from a 0/1 pattern 1.792e-01; against Y_down^T 1.238e-39; normalised singular values differ by 0.000e+00
+  height  6.0  leptons against down, reading St: |U_lep^H U_down| from a 0/1 pattern 3.419e-01; against Y_down^T 1.201e-37; normalised singular values differ by 0.000e+00
+  height 30.0  up S  down S : smallest diagonal |V| 1.000e+00, largest off-diagonal 6.277e-05
+  height 30.0  up St down St: smallest diagonal |V| 7.235e-39, largest off-diagonal 1.000e+00
+  height 30.0  up St down S : smallest diagonal |V| 2.319e-40, largest off-diagonal 1.000e+00
+  height 30.0  up S  down St: smallest diagonal |V| 3.612e-40, largest off-diagonal 1.000e+00
+  height 30.0  leptons against down, reading S : |U_lep^H U_down| from a 0/1 pattern 9.651e-05; against Y_down^T 3.507e-71; normalised singular values differ by 2.325e-92
+  height 30.0  leptons against down, reading St: |U_lep^H U_down| from a 0/1 pattern 1.930e-04; against Y_down^T 2.253e-72; normalised singular values differ by 0.000e+00
+c = -2: charges {'up': (4, -1), 'down': (-2, -1), 'lep': (-6, 3)}
+  height  6.0  up S  down S : smallest diagonal |V| 5.636e-02, largest off-diagonal 9.984e-01
+  height  6.0  up St down St: smallest diagonal |V| 1.252e-01, largest off-diagonal 9.921e-01
+  height  6.0  up St down S : smallest diagonal |V| 2.619e-07, largest off-diagonal 1.000e+00
+  height  6.0  up S  down St: smallest diagonal |V| 1.283e-07, largest off-diagonal 1.000e+00
+  height  6.0  leptons against down, reading S : |U_lep^H U_down| from a 0/1 pattern 1.792e-01; against Y_down^T 2.948e-40; normalised singular values differ by 0.000e+00
+  height  6.0  leptons against down, reading St: |U_lep^H U_down| from a 0/1 pattern 3.419e-01; against Y_down^T 6.421e-38; normalised singular values differ by 0.000e+00
+  height 30.0  up S  down S : smallest diagonal |V| 3.374e-05, largest off-diagonal 1.000e+00
+  height 30.0  up St down St: smallest diagonal |V| 7.874e-39, largest off-diagonal 1.000e+00
+  height 30.0  up St down S : smallest diagonal |V| 5.363e-40, largest off-diagonal 1.000e+00
+  height 30.0  up S  down St: smallest diagonal |V| 7.529e-41, largest off-diagonal 1.000e+00
+  height 30.0  leptons against down, reading S : |U_lep^H U_down| from a 0/1 pattern 9.651e-05; against Y_down^T 3.272e-72; normalised singular values differ by 2.325e-92
+  height 30.0  leptons against down, reading St: |U_lep^H U_down| from a 0/1 pattern 1.930e-04; against Y_down^T 6.738e-71; normalised singular values differ by 0.000e+00
+c = +2: charges {'up': (-2, -7), 'down': (4, 5), 'lep': (0, 9)}
+  height  6.0  up S  down S : smallest diagonal |V| 5.545e-02, largest off-diagonal 9.984e-01
+  height  6.0  up St down St: smallest diagonal |V| 1.256e-01, largest off-diagonal 9.921e-01
+  height  6.0  up St down S : smallest diagonal |V| 5.569e-05, largest off-diagonal 1.000e+00
+  height  6.0  up S  down St: smallest diagonal |V| 1.499e-06, largest off-diagonal 1.000e+00
+  height  6.0  leptons against down, reading S : |U_lep^H U_down| from a 0/1 pattern 4.359e-01; against Y_down^T 5.046e-38; normalised singular values differ by 0.000e+00
+  height  6.0  leptons against down, reading St: |U_lep^H U_down| from a 0/1 pattern 4.359e-01; against Y_down^T 9.852e-37; normalised singular values differ by 0.000e+00
+  height 30.0  up S  down S : smallest diagonal |V| 3.374e-05, largest off-diagonal 1.000e+00
+  height 30.0  up St down St: smallest diagonal |V| 1.780e-38, largest off-diagonal 1.000e+00
+  height 30.0  up St down S : smallest diagonal |V| 4.925e-40, largest off-diagonal 1.000e+00
+  height 30.0  up S  down St: smallest diagonal |V| 1.163e-39, largest off-diagonal 1.000e+00
+  height 30.0  leptons against down, reading S : |U_lep^H U_down| from a 0/1 pattern 6.618e-05; against Y_down^T 2.902e-70; normalised singular values differ by 1.054e-91
+  height 30.0  leptons against down, reading St: |U_lep^H U_down| from a 0/1 pattern 1.324e-04; against Y_down^T 2.506e-64; normalised singular values differ by 0.000e+00

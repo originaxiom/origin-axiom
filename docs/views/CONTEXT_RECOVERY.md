@@ -15,8 +15,8 @@
 |---|---|
 | arcs with a verdict file | 1659 |
 | … PROVED | 1156 |
-| … NEGATIVE | 386 |
-| … OPEN | 104 |
+| … NEGATIVE | 387 |
+| … OPEN | 103 |
 | … RETRACTED | 13 |
 | register points | 877 |
 | … “QUEUED” | 308 |
@@ -31,7 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
-| B1962 | OPEN | “FRAME D1'S CUSP MIXING, ITS CARD SEALED BEFORE ITS OUTPUTS (OPEN; P-861): frame D1 is frame C at shifted charges (identity E, the web seat's W-B2 stage 3 with main's hand reduction), so its mixing is computed on frame C…” |
+| B1962 | NEGATIVE | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861…” |
 | B1961 | PROVED | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every ano…” |
 | B1960 | PROVED | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, unc…” |
 | B1959 | PROVED | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the l…” |
@@ -64,13 +64,13 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p: REVIEW 85 ENTERED (B1960; P-877): THE REVIEW GATE FIRED A FOURTH TIME AT MAIN'S FORTIETH LANDING SINCE REVIEW 84, UNCOUNTED; THREE COLD READERS CAUGHT SIX OF SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS, EACH RIGHT AND EACH MENDED.** The window is 1fc1e224e to 49c7bdf08 (B1958, B1959, the register's landings and the three debts). B1959's zero-frequency step had a gap at infinity, closed by a barrier; B933's design still called the J argument proven; B1958 miscounted Review 83's closed items. Owed: the count inside the pre-landing commands, B1959's K5 and K6 in its lock, the other family's reading. 0 of 19.”
+“LATEST (2026-11-19, S306p: THE SESSION'S GOAL IS THE FINAL READING; FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY READING (B1962, NEGATIVE as sealed, provisional; P-861).** The author set the goal: reduce the menu by principle until one value-specific card can be sealed, compare it once, and write up the count of free numbers the object leaves; or prove the remaining choices cannot be removed by principle and write up the structure and the count. The harvest goes on maintenance. First package: frame D1's mixing, its card pushed before the run (399670b39). With a frame-C control reproducing B1946 exactly, no reading pair aligns at height 30 under either sign of c, and the leptons copy the dow…”
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 167 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 166 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

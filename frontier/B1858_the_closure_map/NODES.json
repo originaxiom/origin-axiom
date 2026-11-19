@@ -6569,7 +6569,7 @@
   "layer": "15 debts",
   "kind": "debt",
   "grade": "DEBT",
-  "text": "frame D1's coupling and its cusp mixing, computed data-free before any look (B1946): the gate the next frame must pass, since frame C's mixing is deranged by its mixed Higgs readings. (P-853, the precision debt, closed 2026-11-15.)",
+  "text": "identity E at the norms (frame D1 is frame C at shifted charges at the residues; B1962 computed D1's mixing on that identity and found every reading pair deranged, NEGATIVE as sealed): what stays owed of frame D1. (P-853, the precision debt, closed 2026-11-15.)",
   "pins": [
    [
     "docs/POINT_REGISTER.md",

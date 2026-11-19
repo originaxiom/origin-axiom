@@ -17817,15 +17817,17 @@
   "B1962": {
    "slug": "frame d1s cusp mixing",
    "motifs": [
-    "coupling"
+    "choice",
+    "coupling",
+    "figure_eight"
    ],
    "refs": [
     "B2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 7,
+   "obstacle_conf": 13,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
   },
   "B196": {
    "slug": "entropy conformal dimension",

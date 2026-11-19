@@ -20,10 +20,10 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1659** |
-| words of findings prose | **1,516,762** |
+| words of findings prose | **1,517,622** |
 | test lock files referenced | **946** |
 | arcs carrying an authored verdict | **1659** (100.0 %) |
-| recorded closures | **862** (692 classified, 170 routed-only) |
+| recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,8 +34,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1156 |
-| NEGATIVE | 386 |
-| OPEN | 104 |
+| NEGATIVE | 387 |
+| OPEN | 103 |
 | RETRACTED | 13 |
 
 ## How the doors were shut
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `“other”` | 359 |
-| `“unrouted-unclassified”` | 170 |
+| `“unrouted-unclassified”` | 171 |
 | `“kind-mismatch”` | 51 |
 | `“genericity”` | 38 |
 | `“no-landing-site”` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**532 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**533 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; the auditor's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.”  
 `B1961_six_verification_debts_recomputed_on_main/FINDINGS.md`
 
-**NEGATIVE — `B1947`** (711 words, 0 locks)  
-“[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  
-`B1947_frame_d1s_coupling/FINDINGS.md`
+**NEGATIVE — `B1962`** (1079 words, 0 locks)  
+“FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms is assumed, not shown. 0 of 19.”  
+`B1962_frame_d1s_cusp_mixing/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  
 “[RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT (SM-C7 step 3, run by main): at three points of the golden geodesic the norm is not alpha log|theta[c](0)| + beta a^2 Im tau + gamma(tau) over 30 characteristics (residual 22-25 on a spread of about 100, while a planted exact relation is recovered to 5e-15), nor log|g| of the Siegel function at c, c+1/2, Jc or Jc+1/2; its geodesic average is not affine in the averaged log|g| (residual 29 on 177). Outcome D: B1917 stands; B1737 section 4's reading fails for the frame's norm; P-384 is not paid by this route. Lead: the analytic torsion of the twisted torus is the Kronecker function, so a determinant-defined channel weight would be supplied by the arithmetic. 0 of 19.”  

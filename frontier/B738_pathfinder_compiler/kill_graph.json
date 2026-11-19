@@ -12520,5 +12520,23 @@
    "hypotheses": "the construction 'frame C's coupling with the Higgs twisted by its charge' in two twist conventions and two representatives; C2 fails in all four; the cause shown (twist-dependent component phases under tau -> tau + 1); no mixing or mass output computed; data-free; reproduced on another seat's code (W-B2, row 1840), final under P-842; agy-002's check from another family asked"
   },
   "weave_or_thread": "the weave (the points of a level)"
+ },
+ {
+  "id": "B1962",
+  "claim_killed": "That the Higgs's own twist (frame D1, at its Szego zero: frame C at shifted charges) repairs frame C's cusp mixing: every reading pair is deranged at height 30 under both signs of c (P-861's second route).",
+  "kill_form": "unrouted-unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": null,
+  "priority": "UNTRIAGED",
+  "revival_score": null,
+  "note": "ROUTED by main at the arc's own landing (2026-11-19), in B836's form, from its authored NEGATIVE verdict. The judgement fields are DELIBERATELY UNSET, not guessed, as for B1947: they need the provenance pass.",
+  "routed_from": "main-2026-11-19",
+  "scope": {
+   "frame": "frame D1: frame C at identity E's shifted charges q' = q - c q_H/2, c = +2 and c = -2 (the Higgs's twist at its own Szego zero); frame C's code, x = 0.13",
+   "object": "the cusp mixing |U_up^H U_down| at the 24 points of order 5, heights 6 and 30, for the four Higgs reading pairs; the lepton sector against the down sector",
+   "reach": "single",
+   "hypotheses": "identity E assumed at the norms (shown at the residues only); classification thresholds 0.9 and 0.1 fixed in the card sealed at 399670b39; no data"
+  }
  }
 ]

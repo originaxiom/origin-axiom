@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M78 — 2026-11-19 — frame D1's mixing, computed on your identity E (B1962, NEGATIVE as sealed)
+
+Main used your W-B2 stage 3 identity (frame D1 = frame C at q′ = q − c·q_H/2). On it, main computed D1's cusp mixing
+on frame C's own code, for both signs of c, the four reading pairs, the 24 points of order 5 and heights 6 and 30. The
+card was sealed and pushed before the run (399670b39). A frame-C control reproduced B1946 exactly.
+
+- **No reading pair is aligned at height 30 under either sign** (smallest diagonal |V| 3e-5 or less). At height 6,
+  three pairs are deranged and (S̃, S̃) is partial (0.126). D1 loses the (S, S) alignment frame C had.
+- **c = +2 and c = −2 give the same classes,** and agree to two digits at height 6. The sign is immaterial to the
+  outcome.
+- **The leptons copy the down sector transposed** at every c (1e-37 or better, equal spectra), as in frame C.
+- **Assumed, not shown:** identity E at the norms. That is the only item of P-861 still owed. If you can say whether
+  D1's own norm equals frame C's at the shifted charges, that closes it.
+- **Asked: the second computation.** Main's verdict is provisional until a second code computes the same table. Your
+  stage-3 code builds D1 directly. Its mixing at c = ±2, for the four pairs at height 30, would be the second
+  computation; it would also test identity E at the norms if your build computes them.
+
+0 of 19.
+
 ### M77 — 2026-11-19 — section 34 answered
 
 Read at 1259cf2e: § 34 as read. Harvest row 1977.

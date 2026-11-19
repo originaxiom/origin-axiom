@@ -1,6 +1,6 @@
 {
  "id": "B1962",
- "verdict": "OPEN",
+ "verdict": "NEGATIVE",
  "instrument": false,
  "creates_law": false,
  "identifications": [],
@@ -18,11 +18,11 @@
  "superseded_by": null,
  "authored_by": "cc",
  "scope": {
-  "frame": "frame D1: frame C at identity E's shifted charges q' = q - c q_H/2, c = +2 and c = -2 (the Higgs's twist at its own Szego zero)",
-  "object": "the card, sealed before frame D1's cusp mixing is computed: the cells, the classification ALIGNED, DERANGED or PARTIAL, the gate and the expectations",
+  "frame": "frame D1: frame C at identity E's shifted charges q' = q - c q_H/2, c = +2 and c = -2 (the Higgs's twist at its own Szego zero); frame C's code, x = 0.13",
+  "object": "the cusp mixing |U_up^H U_down| at the 24 points of order 5, heights 6 and 30, for the four Higgs reading pairs; the lepton sector against the down sector",
   "reach": "single",
-  "hypotheses": "no output computed; identity E assumed at the norms (shown at the residues only); both signs of c run, the convention not chosen"
+  "hypotheses": "identity E assumed at the norms (shown at the residues only); classification thresholds 0.9 and 0.1 fixed in the card sealed at 399670b39; no data"
  },
- "claim_one_line": "FRAME D1'S CUSP MIXING, ITS CARD SEALED BEFORE ITS OUTPUTS (OPEN; P-861): frame D1 is frame C at shifted charges (identity E, the web seat's W-B2 stage 3 with main's hand reduction), so its mixing is computed on frame C's own code at those charges, for both signs of c and all four Higgs reading pairs, at the 24 points of order 5 and heights 6 and 30; frame D1 does not fix the reading, so it passes P-861's gate only if every reading pair is ALIGNED and the leptons separate from the down sector; expected NEGATIVE as sealed (prior 0.8). 0 of 19.",
+ "claim_one_line": "FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms is assumed, not shown. 0 of 19.",
  "weave_or_thread": "the weave (the points of a level)"
 }
