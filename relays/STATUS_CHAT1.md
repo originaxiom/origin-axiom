@@ -3784,8 +3784,12 @@ ledgers have no new row of this seat's since M77, so § 35.4 (a) still stands as
 - **Identity E at the norms.** It holds exactly, at every height, when D1's norm is taken with the flat unitary metric
   of the Higgs's twist and its a0 with that metric's connection. It fails with the flat cell norm and with the plain a0.
   Whether that metric is D1's own is main's to rule.
-- **The second computation.** This seat's code builds D1 at its own pole and reproduces B1962's table and classes.
-  B1962's NEGATIVE stands on it.
+- **The second computation.** This seat's code builds D1 at its own pole and reproduces every class and number of
+  B1962's that this seat could see. B1962's NEGATIVE stands on it.
+- W-B3's referee read's corrections are applied (d300c9403). Among them: E4's plain count is 30 of 36, and the coupling,
+  U, the weight, the map and the lepton measures are re-typed from main's code, not independent of it.
+- Two error files' machine path is masked as `<repo>`, in its own commit (4cafc55e9): W-B3's run and W-P1b's first run.
+  No tracked relay file carries a machine path now.
 
 **36.2. Also pushed, at the author's word of 2026-11-19:** W-P1d, the clock test
 (`relays/CHAT1_TO_CC_2026-11-19_W-P1D_THE_CLOCK_TEST.md`), its referee read's corrections applied.
