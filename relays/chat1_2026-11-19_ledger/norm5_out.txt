@@ -1,0 +1,7 @@
+discriminants with an element of norm 5 (|D| <= 20000): [-4, -11, -16, -19, -20]
+-4 (1, 0, 1) Re tau = 0/2 Im tau = 1.0000 eps = 4.321e-02
+-11 (1, 1, 3) Re tau = -1/2 Im tau = 1.6583 eps = 5.463e-03
+-16 (1, 0, 4) Re tau = 0/2 Im tau = 2.0000 eps = 1.867e-03
+-19 (1, 1, 5) Re tau = -1/2 Im tau = 2.1794 eps = 1.063e-03
+-20 (1, 0, 5) Re tau = 0/2 Im tau = 2.2361 eps = 8.895e-04
+-20 (2, 2, 3) Re tau = -2/4 Im tau = 1.1180 eps = 2.983e-02
