@@ -303,4 +303,93 @@ its main.
 **Failure.** A matched pair fails L1, or a mismatched one passes. Then the tie between class and labelling on frame C
 does not stand as stated.
 
+---
+
+## Step 4 (W-P1d): the clock test, frame C's read-outs under both clocks
+
+**At the author's word** of 2026-11-19, after W-P1's three steps closed. Data-free. No frame value is computed anew:
+the run reads W-F24's committed fibre table. Nothing is set beside a measured number (the author's ruling of
+2026-11-15).
+
+**What.** Frame C's two read-outs under (a), the move count, and (b), length: A_read (frame C's form) and G_read (the
+geometric form). Does each have a limit as (b)'s cutoff X grows?
+
+**Not blind.** These are known: W-F24's read-outs under (a); W-P1c's height shares under both clocks; W-F25's cusp
+exponents (log F falls linearly with height at the points it resolves). D0 and D3 below follow from them, so they
+check the computation. No read-out under (b) has been computed.
+
+**Definitions, fixed now.**
+- **The fibre:** W-F24's table (`relays/chat1_2026-11-15_wf24/wf24_summary.json`, its "fibre"). It gives A(τ) and
+  G(τ) for the 12 sector ratios at 154 points, heights 0.876 to 6.
+  - A node's value is the linear interpolation of A and of log G on those points.
+  - Outside their hull, it is the nearest point's value. This is W-F24's rule.
+- **Above the table's top (Im τ > 6),** three treatments.
+  - **T1, clamped:** the value at (Re τ, 6), W-F24's rule.
+  - **T2, the cusp law:** log A and log G continue linearly in Im τ from their values at (Re τ, 6). The slope is the
+    least-squares slope of the table's column over heights 4, 5 and 6, interpolated linearly in Re τ between the 11
+    columns.
+  - **T2b:** as T2, with the slope over heights 2, 2.5, 3, 3.5 and 4. It is reported, with no expectation.
+  - The end's tables also stop at height 6 (B1927's grid), and W-F25 held the end there above it. So T2 and T2b
+    model the frame above 6; they do not compute it [J].
+- **The threads and their time:** W-P1c's (`relays/chat1_2026-11-18_wp1/wp1c_heights.py`, its functions run as text).
+  - One period is cut into one piece per letter.
+  - Each piece is sampled at midpoints, at least 30 points per unit length and 8 per piece.
+  - Each sample is reduced to SL(2, ℤ)'s standard domain, keeping Re τ and Im τ.
+  - Each word is weighted by its length.
+- **(a):** W-P1c's words: 2,000 uniform random words of n = 20, 40 and 80 letters (seeds 1, 2 and 3). The standard
+  errors come from 1,000 resamples of the words (seed 7).
+- **(b):** W-P1c's classes: every primitive cyclic word with both letters and trace at most X, for X = 100, 200, 400
+  and 800, each counted once.
+- **The read-outs:** A_read = Σ time·A / Σ time, and log G_read = Σ time·log G / Σ time.
+- **Reported without expectation:**
+  - the read-outs under each clock and treatment;
+  - E[height] and E[(height − 6)⁺];
+  - the share of log G_read that comes from above heights 2, 4 and 6;
+  - the column slopes;
+  - A_read and G_read under (b) over the same under (a);
+  - how many table values at heights 4 to 6 lie below 1e-12, where double precision does not resolve a ratio (W-F25).
+
+**Plants and controls.**
+- **PL1:** with the table replaced by constants (A = 0.3, G = 0.2), every read-out is 0.3 and 0.2 to 1e-12, under
+  both clocks and every treatment.
+- **PL2, the clock without the frame:** under each clock setting, the time-weighted mean of (height − 1)⁺ equals the
+  closed form within 1e-3 relative. The closed form is Σ 2(ρ arccos(1/ρ) − arccosh ρ) over the runs with ρ > 1,
+  divided by Σ length.
+  - ρ is the run's axis radius, from W-P1c's closed form; integrating its 2 arccosh(ρ/y) over y ≥ 1 gives the term.
+  - For a run of R, ρ is taken from the same axis's ends (y, x) as (1/x − 1/y)/2. The letter swap acts as z ↦ 1/z.
+    This is checked against W-P1c's `closed` on control words before the run.
+- **PL3:** at the table's 154 points, the interpolated A and log G equal the table's within 1e-12.
+- **PL4, W-F24 reproduced:** W-F24's own sampler (its `thread_nodes` and `reduce_fd`, copied), with its seed and its
+  1,000 words, under T1, gives its A_read and G_read (`wf24_summary.json`) within 1e-9 relative.
+- **PL5, the cusp law's path:** with log G replaced by −Im τ at the table's points, T2's log G_read equals the
+  time-weighted mean of −height at the nodes within 5e-3 relative, under every clock setting.
+
+**Expected [J].**
+- **D0, the clocks' heights:**
+  - Under (a), E[height] moves by less than 0.02 from n = 40 to n = 80.
+  - Under (b), it rises from X = 100 to 800 by (3/π) log 8 = 1.99, within 25%.
+- **D1, (a) settles:**
+  - At n = 40 and 80, A_read and log G_read differ by less than 3 standard errors of the difference, for every
+    sector ratio, under T1 and T2.
+  - At n = 40, T1 and T2 differ by less than 1% in A_read and 0.01 in log G_read.
+- **D1b, two samplers:** at n = 40 under T1, this run's A_read and log G_read lie within 3 combined standard errors of
+  W-F24's. W-F24's standard errors come from resampling its 1,000 words (seed 7).
+- **D2, (b) clamped converges:** under T1, for every sector ratio, the change in A_read and in log G_read is smaller
+  in size from X = 400 to 800 than from X = 100 to 200.
+- **D3, (b) under the cusp law falls:** under T2, for every sector ratio:
+  - log G_read falls at each step, X = 100, 200, 400 and 800;
+  - its fall from 100 to 800 is (3/π) s̄ log 8 within 25%. Here s̄ is the mean of the column slopes over Re τ, with
+    trapezoid weights on the 11 columns.
+- **D4, A_read under (b) converges under T1 and T2:** for every sector ratio, it changes by less than 2% relative
+  from X = 400 to 800.
+- **D5:** for every sector ratio, under T1 and T2, A_read under (b) at X = 800 is below A_read under (a) at n = 40.
+- **D6, the exponent ratio:** under T2, for each sector and reading, the ratio log G_read(σ₃/σ₁) / log G_read(σ₂/σ₁)
+  lies closer at X = 800 than at X = 100 to the ratio of the two column-mean slopes.
+- **D7:** every column slope of log A and of log G, over 4 to 6, is negative.
+
+**Failure.**
+- If a plant fails, no read-out stands.
+- If D3 fails, this reading does not stand as computed: that under length the geometric read-out runs to the cusp.
+- If D2 or D4 fails, the limits under (b) are not shown.
+
 0 of 19.
