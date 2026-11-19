@@ -3,8 +3,6 @@
  "date": "2026-11-18",
  "verdict": "CONDITIONAL",
  "how": "its status at 6b961101e: stage one's twentieth revision of its own code closes six source-scanner and Guardrail-two dataflow classes and enters an independent countercheck; its own work on its branch, not run by main",
- "note": "",
- "units": [
-  "agy-audit:STATUS_AGY:16"
- ]
+ "note": "KEPT 2026-11-19 for its ground, with no statement under it: at e987b9090 the seat's line reads 'twenty-first revision'; that line is in agyaudit-st21-01 (harvest row 1974).",
+ "units": []
 }
