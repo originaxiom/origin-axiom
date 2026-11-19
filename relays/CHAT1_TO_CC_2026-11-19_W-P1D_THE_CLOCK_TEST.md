@@ -1,4 +1,4 @@
-# W-P1d: the clock test. Frame C's own read-out converges under both clocks. Length sets it at 0.61 to 0.65 of the move count's, nearly alike for every sector ratio. The geometric read-out converges under the move count only. Under length, if the frame's ratios keep falling above height 6, it falls as a power of the cutoff, about X^(−1.5) for σ₂/σ₁ and X^(−3.7) for σ₃/σ₁: the cutoff takes the place of W-F25's open scale. Every plant and expectation held
+# W-P1d: the clock test. Frame C's own read-out converges under both clocks; length sets it at 0.61 to 0.65 of the move count's, nearly alike for every sector ratio. The geometric read-out converges under the move count. Under length it converges only if the frame stops falling at height 6. If the frame keeps falling exponentially above 6, as W-F25's frame does with the end held, it falls as a power of the cutoff (from X = 100 to 800 about X^(−1.4) for σ₂/σ₁ and X^(−3.5) for σ₃/σ₁, steepening towards X^(−1.48) and X^(−3.7)), and the cutoff takes the place of W-F25's open scale. Every plant and expectation held
 
 **From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:` data-free. It is W-P1's step 4, at the author's
 word of 2026-11-19, after card W-P1's three steps had closed
@@ -13,8 +13,11 @@ fibre table. Nothing is set beside a measured number.
 - the script: `relays/chat1_2026-11-19_wp1d/wp1d_clock.py` (789f6ef84), with `SCRIPT_SHA256.txt`;
 - its output: `wp1d_clock_out.txt`, `wp1d_clock_err.txt` (empty) and `wp1d_summary.json` (ecb14a3b9). A partial output
   was committed unread mid-run (6b14d91a1). Both were committed before the output was read.
-- Before its commit, the script was smoke-tested once at small sizes with the frame replaced by random numbers. No frame
-  value entered that test.
+- Between the condition's commit and the script's, the script was smoke-tested once at small sizes with the frame
+  replaced by random numbers: 40 words at each setting of (a), and the classes with trace at most 60 for every X.
+  - No frame value entered that test.
+  - It printed frame-free quantities on those small sets, among them E[height]: 1.53 to 1.55 under (a), and 3.40 for
+    trace at most 60. The condition, with D0, was committed before it.
 
 **Not blind.** These were known: W-F24's read-outs under (a), W-P1c's height shares under both clocks, and W-F25's cusp
 exponents. D0 and D3 follow from them, so they check the computation. No read-out under (b) had been computed.
@@ -34,19 +37,27 @@ exponents. D0 and D3 follow from them, so they check the computation. No read-ou
    most 0.5%.
    - Under length, at X = 800, it is 0.609 to 0.654 of the move count's, for every sector ratio.
    - Within each sector and reading, A_read(σ₃/σ₁)/A_read(σ₂/σ₁) moves by +1.6% to +6.2% between the clocks.
-3. **[E] The geometric form, G_read, converges under the move count.** There the two treatments above 6 differ by less
-   than 1e-3 in log.
-   - Under length, clamped at height 6, it converges slowly (at most 3.1% from X = 400 to 800). It settles at 0.020 to
-     0.13 of the move count's.
-   - Under the cusp law it falls at each doubling of X: by 2.5 to 2.8 for σ₂/σ₁, and by 11 to 13 for σ₃/σ₁. The law
-     predicts the fall from 100 to 800 to within 4.3% (D3).
-4. **[E, standard] Why.** Under length the mean height grows without bound, like (3/π) log X. The run gives 0.62 to 0.65
-   per doubling, against 0.66. So the geometric mean of a ratio whose log falls linearly with height tends to 0 (§ 5).
-5. **[J] What it means.** The clock decides which read-outs exist, not only where the weight lies.
-   - Frame C's form exists under both clocks.
-   - The geometric form exists under the move count only.
-   - Under length, the geometric form becomes W-F25's exponent reading averaged over the fibre, with the cutoff for its
-     scale. The net count of card W-P1 stays zero (§ 6).
+3. **[E] The geometric form, G_read, converges under the move count.** There the three treatments above 6 differ by
+   less than 1e-3 in log.
+   - Under length, clamped at height 6 (T1), it converges slowly (at most 3.1% from X = 400 to 800). At X = 800 it is
+     0.020 to 0.13 of the move count's. The referee's integration of the area limit gives 0.019 to 0.128.
+   - Under the cusp law (T2) it falls at each doubling of X: by 2.5 to 2.8 for σ₂/σ₁, and by 11 to 13 for σ₃/σ₁.
+     - From X = 100 to 800 the run's fall is X^(−1.37) to X^(−1.42) for σ₂/σ₁, and X^(−3.53) to X^(−3.60) for σ₃/σ₁.
+     - The last doubling gives 1.41 to 1.46 and 3.63 to 3.71. That is rising towards the law's 3|s̄|/π: 1.43 to 1.48,
+       and 3.69 to 3.76.
+     - The law predicts the fall from 100 to 800 to within 4.3% (D3).
+4. **Why.**
+   - [E, standard] Under length the mean height grows without bound (§ 5).
+   - [J, and the run] Its rate is near (3/π) log X, the area cut off near height X/2. The run gives 0.62 to 0.65 per
+     doubling, against 0.66.
+   - So, if a ratio's log keeps falling linearly with height, its geometric mean tends to 0 under length.
+5. **[J] What it means.** Given how the frame behaves above height 6, the clock decides which read-outs exist, not only
+   where the weight lies.
+   - Frame C's form exists under both clocks, and what lies above 6 hardly moves it (§ 5).
+   - The geometric form exists under the move count. Under length it exists only if the frame stops falling.
+   - If the frame keeps falling, as W-F25's frame does with the end held, the geometric form under length becomes
+     W-F25's exponent reading averaged over the fibre, with the cutoff for its scale.
+   - The net count of card W-P1 stays zero (§ 6).
 
 ---
 
@@ -111,7 +122,7 @@ The last column is T1's.
 | down, S, σ₃/σ₁ | 0.01598 | 4.29e-4 | 5.34e-6 | 4.93e-7 | 4.31e-8 | 3.48e-9 |
 
 - Under (a), T1 and T2 differ by at most 9.7e-4 in log G_read (n = 20, 40 and 80), and by 2.6e-6 relative in A_read
-  (n = 40).
+  (n = 40). T2b differs from T1 by at most 9.1e-4 in log G_read.
 - E[(height − 6)⁺] is 2.5e-4 at n = 40. Under (b) it is 1.18 at X = 100 and 3.04 at X = 800.
 - The standard errors at n = 40 are 0.0009 or less on A_read and 0.0086 or less on log G_read. All twelve ratios are
   in the output.
@@ -140,33 +151,48 @@ Each line was set in the condition before the run. Each was met.
   X = 800 than at 100, in all six sector-readings. For example, up S goes 2.288, then 2.359, towards 2.505.
 - **D7.** Every column slope over heights 4 to 6 is negative: none of 264 is above zero.
 
-[J] D3's shortfall of 4% matches the cutoff. Trace ≤ X keeps heights below X/2, and the expected (height − 6)⁺
-grows by (3/π)(log 8 − 0.105) rather than (3/π) log 8, which is 0.95 of it.
+**D3's shortfall of 4%, taken apart.**
+- [E] Under T2, log G = log G_T1 + s(Re τ)·(height − 6)⁺. So the fall is the clamped part's own fall plus about
+  |s̄|·ΔE[(height − 6)⁺]. For up S σ₂/σ₁ that is 0.093 + 1.549 × 1.853 = 2.962, the run's fall.
+- [E] ΔE[(height − 6)⁺] = 3.035 − 1.182 = 1.853, which is 0.933 of (3/π) log 8. The clamped part's own fall adds back
+  0.024 to 0.030 of the law.
+- [J] Trace ≤ X keeps heights below X/2. A cutoff there accounts for 0.95 of the cusp term; renormalised, 0.94. The rest
+  of the 6.7% shortfall is the finite-X approach to the area, which this step does not account for.
 
-## 5. Why the clocks part [E, standard, and the run]
+## 5. Why the clocks part
 
-**Under length, the mean height grows without bound.**
+**Under length, the mean height grows without bound** [E, standard].
 - Closed geodesics ordered by length equidistribute in the hyperbolic area (Pollicott 1986; Roblin 2003). W-P1c and
   B1813 cite the same, and W-P1c's shares approach it.
 - Equidistribution applies to bounded continuous functions. Take f_M = min(height, M), which is continuous and bounded
   on the modular surface. Its area average is at least (3/π) ∫₁^M dy/y = (3/π) log M, because above height 1 the domain
   has width 1 and the area is (3/π) dx dy/y².
 - So E_X[height] ≥ E_X[f_M], which tends to at least (3/π) log M, for every M. Hence E_X[height] → ∞.
-- The run gives 3.83, 4.45, 5.08 and 5.74 at X = 100, 200, 400 and 800: steps of 0.62, 0.63 and 0.65, against
-  (3/π) log 2 = 0.66.
 
-**Under the move count it does not grow.**
-- A word of n letters stays below height n/2 + 1 (W-P1c).
-- E[height] is 1.545, 1.542 and 1.539 at n = 20, 40 and 80.
-- B1813's tail, 4^(−Y), has a finite mean.
+**Its rate** [J, and the run]. The argument gives the divergence, not its rate. Cutting the area off near height X/2
+suggests (3/π) log X plus a constant. The run gives 3.83, 4.45, 5.08 and 5.74 at X = 100, 200, 400 and 800: steps of
+0.62, 0.63 and 0.65, against (3/π) log 2 = 0.66.
+
+**Under the move count it stays near 1.54** [E, the run and the record].
+- E[height] is 1.545, 1.542 and 1.539 at n = 20, 40 and 80. (W-P1c's bound, n/2 + 1, grows with n, so it does not show
+  this.)
+- B1813's computed limit has the tail ≈ 3.9·4^(−Y)/√Y, which has a finite mean.
 
 **So a geometric read-out of a ratio that falls exponentially in the cusp tends to 0 under length.** Suppose
 log G ≤ C − c·height with c > 0. Then E_X[log G] ≤ C − c·E_X[height], which tends to −∞. Under T2, c is at least 1.49
 for σ₂/σ₁. Clamping (T1) stops the fall at height 6 by fiat, so under T1 G_read converges.
+- What frame C does far above 6 is not on record. W-F25 found the fall continuing to height 10 (its referee: 20),
+  with the end held at its height-6 value. With B1924's falling end the channels drop out (W-F25, Y3).
+- Under T2, 0.73 to 0.76 of log G_read at X = 800 comes from above height 6, where the sampled heights reach about 400.
+  So every statement here about the geometric read-out under length is conditional on the frame there.
 
 **[E] The arithmetic read-out hardly depends on what lies above 6.** A is bounded: it is a mean of ratios of singular
 values, each at most 1. So equidistribution gives A_read a limit under length, the area average of A. Above height 6
 A is small, and T2 and T2b move A_read from T1 by at most 0.48% at any X.
+- The referee's integration of the area limit makes this stronger. Setting A to 0 above height 6 moves the limit by at
+  most 0.60% (up S̃ σ₂/σ₁: 0.23502 to 0.23360).
+- So any frame with 0 ≤ A ≤ A(Re τ, 6) above 6 gives a limit within 0.6% of T1's.
+- The same integration gives the length limit at 0.607 to 0.652 of the move count's.
 
 ## 6. What it means [J]
 
@@ -184,12 +210,16 @@ A is small, and T2 and T2b move A_read from T1 by at most 0.48% at any X.
   - 10 points have first coordinate ±2/5: up (3/5, 1), down (2/5, 11/10).
   - For σ₂/σ₁: up (4 + 2 + 6)/24 = 1/2, and down (4 + 4 + 4)/24 = 1/2.
   - For σ₃/σ₁: up (8 + 12 + 10)/24 = 5/4, and down (8 + 11 + 11)/24 = 5/4.
-  - The run's slopes sit 1.4% below these for σ₂/σ₁, and 1.2% (up) and 1.7% (down) below for σ₃/σ₁. That is
-    consistent with the points (0, j/5), whose slopes W-F25 found still rising.
-- **So under length, G_read ≈ const · X^(−3Ē)**, with Ē the fibre's mean exponent. The area's 3/(πy) times the π in ε
-  gives the 3.
-  - With W-F25's exponents that is X^(−3/2) for σ₂/σ₁ and X^(−15/4) for σ₃/σ₁. In the S reading the run's laws are
-    X^(−1.48) and X^(−3.69) to X^(−3.71).
+  - W-F25 printed the fibre's mean exponents itself, from its slopes up to height 10: 0.497 and 1.231 (up, S), and
+    0.505 and 1.231 (down, S).
+  - The run's slopes, over heights 4 to 6, sit 1.4% below 1/2 for σ₂/σ₁. For σ₃/σ₁ they sit 1.2% (up) and 1.7% (down)
+    below 5/4. That fits the points (0, j/5): W-F25 found their slopes still rising, and its referee's fits there carry
+    a power of Im τ in front.
+- **So under length, if every point's ratio keeps falling as W-F25 found with the end held, G_read ≈ const · X^(−3Ē)**.
+  Here Ē is the fibre's mean exponent, and the 3 is the area's 3/(πy) times the π in ε.
+  - With W-F25's exponents that is X^(−3/2) for σ₂/σ₁ and X^(−15/4) for σ₃/σ₁.
+  - In the S reading the cusp law's asymptote, 3|s̄|/π, is 1.48 and 3.69 to 3.71. The run's falls from X = 100 to 800
+    are 1.42 and 3.53 to 3.55. At the last doubling they rise to 1.46 and 3.63 to 3.65.
   - The log ratio tends to 5/2 for up and down alike, in the S reading. The run gives 2.505 and 2.493 for the slopes'
     ratio.
   - The 24-point average does not see the sector difference that W-F25 found at the mark (5/3 against 11/4). Over
@@ -200,27 +230,30 @@ A is small, and T2 and T2b move A_read from T1 by at most 0.48% at any X.
 **For C01, the measure over histories.**
 - W-P1c showed that the clocks differ in which words they count. This step shows they differ in which read-outs exist.
   - Frame C's own form has a limit under both. Length moves it by a factor of 0.61 to 0.65, nearly uniform across the
-    sector ratios, so ratios of read-outs move by only 2% to 6%.
-  - The geometric form has a limit under the move count only.
+    sector ratios, so A_read(σ₃/σ₁)/A_read(σ₂/σ₁) moves by only 1.6% to 6.2%.
+  - The geometric form has a limit under the move count. Under length it has one only if the frame stops falling above
+    height 6. W-F25's frame, with the end held, does not stop up to height 10 (its referee: 20).
 - C01 stays a counted choice: the record's principle names the move count (P-845, D3), and nothing here names it.
 
 **For card W-P1, § 4.2.** No test the iteration imposes separates the clocks here.
-- "The read-out composes, and it has a limit" would pass the move count alone.
+- If the frame keeps falling above 6, a rule that the read-out compose and have a limit would pass the move count
+  alone.
 - But composition is this seat's principle, not the iteration's (W-F24's theorem). And W-F24 refuted the geometric
   form as a fix for the hierarchy.
 - The net count stays zero.
 
 **For W-F25's proposal.**
-- Under length, the geometric read-out is W-F25's exponent reading averaged over the fibre. The cutoff takes the place
-  of its open scale: log G_read ≈ const − 3Ē log X.
+- If the frame keeps falling above 6, then under length the geometric read-out is W-F25's exponent reading averaged
+  over the fibre. The cutoff takes the place of its open scale: log G_read ≈ const − 3Ē log X.
 - The scale stays open, because X is a choice. It also loses the sector difference, because the average runs over the
   whole fibre and not the act's line.
 - This supports W-F25's reading at the act's line and not over the fibre. It does not select a scale.
 
 **For the hierarchy.**
 - Under the move count both read-outs sit in the bulk, where W-F24 found the hierarchy weak.
-- Under length, frame C's form stays in the bulk. Its hierarchy is unchanged within 6%, at 0.61 to 0.65 of the level.
-- Under length, the geometric form's hierarchy grows without bound with the cutoff.
+- Under length, frame C's form stays in the bulk. Its hierarchy moves by at most 6.2%, at 0.61 to 0.65 of the level.
+- Under length, the geometric form's hierarchy grows without bound with the cutoff if the frame keeps falling above 6.
+  Clamped, it settles.
 
 ## 7. Typed
 
@@ -229,10 +262,12 @@ A is small, and T2 and T2b move A_read from T1 by at most 0.48% at any X.
   - W-F24's table and read-outs;
   - W-P1c's sampler, closed form and height bound;
   - W-F25's exponents, two of them not settled in double precision;
-  - B1813's tail; P-845, D3.
+  - B1813's computed limit and its tail; W-F25's Y3; P-845, D3.
+- **[E] by the referee's code:** the area-limit numbers (0.019 to 0.128; 0.60%; 0.607 to 0.652).
 - **[E] standard:** the equidistribution of closed geodesics ordered by length (Pollicott 1986; Roblin 2003), and the
   truncation argument of § 5.
 - **[J]:**
+  - the rate (3/π) log X, checked by the run but not derived;
   - T2 and T2b. They model the frame above height 6, where neither the table nor the end's tables reach; they do not
     compute it.
   - § 4's account of D3's shortfall.
@@ -248,7 +283,38 @@ A is small, and T2 and T2b move A_read from T1 by at most 0.48% at any X.
   - B1813, B1927 and P-845;
   - M. Pollicott (1986) and T. Roblin (2003).
 
-This relay is pushed before its referee read finishes, following the author's word of 2026-11-15 on untracked notes.
-Its read's corrections are not yet applied in this version.
+## Provenance
+
+The first version (5e953e503) was pushed before its referee read finished, following the author's word of 2026-11-15
+on untracked notes. A referee who had not written it read it. The verdict was sound with corrections.
+- **What held.**
+  - The order of work and the SHA, and the script against the condition, with no departure and no threshold changed.
+  - Every number in the relay, against the output.
+  - Two recomputations on the referee's own code:
+    - the closed form, which gives E[(height − 6)⁺] at X = 100, 200, 400 and 800 to about 2e-5;
+    - its own sampler and slope fit, which give A_read to 5e-6 and log G_read to 3.2e-4 at X = 200, and the shares
+      above 2, 4 and 6 at X = 800.
+  - § 6's exponents and their sums, against W-F25.
+  - § 5's argument and its citations.
+- **Four corrections were required.**
+  1. The geometric read-out's fate under length was stated without its condition. It rests on T2, a model; under T1
+     it converges. Each place now says so.
+  2. The rate (3/π) log X was typed standard. The argument gives only the divergence, so the rate is now [J] and the
+     run.
+  3. § 4's account of D3's shortfall did not fit the run's own numbers. It is now taken apart: the cusp term's 0.933,
+     and the clamped part's own fall.
+  4. The law's asymptote was presented as the run's fall. The two are now given separately.
+- **Smaller points, each applied.**
+  - The values at X = 800, set beside the referee's area limit.
+  - A_read's 0.6% bound, from the referee's integration.
+  - The move count's non-growth, with B1813's tail as it is.
+  - 1.6% to 6.2% throughout.
+  - T2b's difference under (a).
+  - The smoke test: when it ran, and what it printed.
+  - W-F25's printed fibre means.
+  - The quotation marks in § 6.
+
+Each item was checked at its source here: the output and summary, W-F25's output (its fibre means), and the
+decomposition of D3's fall. The read's corrections are applied in this version.
 
 0 of 19.
