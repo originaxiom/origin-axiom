@@ -139,3 +139,32 @@ is a scoped conceptual control, not a new Markov theorem, a derived
 quantum theory or a verdict against the actual E8 construction. The new
 arguments remain not independently checked. Their physical counterpart
 still needs the actual fields, action, norms, observables and domains.
+
+## Continuation: the native signed action and a test of law selection
+
+The fe35fea58 probe now reuses B1601's actual signed action, with the
+quaternion substitution convention kept distinct from its dual. An
+invariant positive quadratic metric on that module is lambda I. This
+recovers the standard invariant-form consequence; no physical family
+metric or kinetic term is claimed derived.
+
+On the explicitly chosen six-state noncentral Q8 orbit, the complete
+G-invariant Markov rate cone has an antipodal rate a and a perpendicular
+rate b. Its spectrum is 0, -6b twice, and -(2a+4b) three times. The
+dimensionless ratio (a+2b)/(3b) survives one common clock change and is
+measurable by two normalized invariant correlations. The unsigned
+three-parity quotient has exactly the same coarse law for every a:
+it correctly preserves its own state histories while discarding signed
+readouts. Observed act labels would require their instruments too.
+
+This is an author hand result for a supplied finite Markov framework,
+not an independently checked physical conclusion or a countermodel
+to the full foundations. The six-state orbit is neither all Q8 under
+multiplication nor a set of geometric Markov-surface deformations.
+A native group-jump implementation explicitly prices word batching;
+an equal-quarter-turn opposite control fixes a different ratio only
+after its elementary alphabet is supplied. Thus the next earning duty
+is an actual elementary-event and weight law, not another dimension
+identification or an assumed averaging rule. The proof, premise/number
+ledger and review duties travel together. No independent foundational
+input or physical parameter is counted removed.

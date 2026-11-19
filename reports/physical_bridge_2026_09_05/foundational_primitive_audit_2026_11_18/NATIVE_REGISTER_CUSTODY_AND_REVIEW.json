@@ -50,12 +50,80 @@
       "sha256": "56899e4aad6005e5bb518386810e351ac5f2173aa285db7000acbe3c393853ac",
       "lines": 53,
       "reading": "Entire scope brief; publication after planning, not a before-all-reasoning preregistration."
+    },
+    {
+      "commit": "7982819039cf40e2e55acad7b2638da2f66a98bf",
+      "path": "reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC.md",
+      "git_blob": "5fcb9e3bb6041fbd49550f03c34e20213f2422cf",
+      "sha256": "e5aedb55cf5d42a73ca117f6c3fb621cd51b67756b329d0618206fe9c281d7b3",
+      "lines": 155,
+      "reading": "First analytical checkpoint, pushed before the rate-cone delivery; same current action/metric text."
+    },
+    {
+      "commit": "cde6e6c649b75aa7a234266cb0f516965a3a8fa2",
+      "path": "reports/physical_bridge_2026_09_05/foundational_primitive_audit_2026_11_18/PREDICTIVE_REGISTER_AND_COMPOSITION.md",
+      "git_blob": "fb599ddf8888eee988c83c327a3f7b16eef48386",
+      "sha256": "3e9d2334ce2aecbd0246d4565c52f5bf9dad3726a257b784d067298dc86e623e",
+      "lines": 151,
+      "reading": "Earlier author hand proof re-read, including block-transition and observable-instrument distinctions; no new independent-check claim."
+    },
+    {
+      "commit": "19685b3cea29eb4780328f2e242f4fa5dfc0a41e",
+      "path": "relays/CHAT1_TO_CC_2026-11-18_W-P1A_THE_INVENTORY.md",
+      "git_blob": "98fb03dfc307e4d84e2dd1fe61a3ba2bbb7eb5d2",
+      "sha256": "1f94463c599e45d4366ab43919bab1c097be32436d56fc946de669a880fea8b1",
+      "lines": 312,
+      "reading": "Sections 0-3 and the C01/choice discussion inspected for overlap; this is source intake, not a fresh full audit or acceptance of its counts."
+    },
+    {
+      "commit": "19685b3cea29eb4780328f2e242f4fa5dfc0a41e",
+      "path": "relays/CHAT1_TO_CC_2026-11-18_W-P1C_THE_CLOCK_AND_THE_HEIGHTS.md",
+      "git_blob": "5c75d2f69f2ca1ad416d6d4ff88c6f4ca5583856",
+      "sha256": "60be915abfd1d36681db8309250f1cc39f0af330819d70abd23531475a560c6e",
+      "lines": 276,
+      "reading": "Sections 2-5 inspected, especially its separation of word measure and arc-length clock; scripts and raw outputs not audited in this intake."
+    },
+    {
+      "commit": "bb97e1625ca9efdac85f0533af03275cd877b319",
+      "path": "docs/seats/agy-exp.md",
+      "git_blob": "c327ec7ac2c2b9b44986c25dc8d47d924b6045fa",
+      "sha256": "3570f7f5e366ed21fb18a9d0f1034c6f7fd9834de86dc433915f75c050bdde23",
+      "lines": 873,
+      "reading": "M45 read in full; receiving main’s registration of the external C3i check, not independently reviewing a construction authored by this seat."
+    },
+    {
+      "commit": "bb97e1625ca9efdac85f0533af03275cd877b319",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/agyexp_xp1.py",
+      "git_blob": "f885737241ea86d50ff3c374eca15629e2312e2d",
+      "sha256": "2e45c2beaa3ee25355d4191f407c84918104eea1f7c1515b7053f09da98a2cdb",
+      "lines": 14,
+      "reading": "Entire source read as text; main’s matrix-unit equation and missing real cross term received without running this code."
+    },
+    {
+      "commit": "bb97e1625ca9efdac85f0533af03275cd877b319",
+      "path": "docs/POINT_REGISTER.md",
+      "git_blob": "d439f15a7265fa6a400703d09f43966d6865d4b4",
+      "sha256": "5b881e440f15047b449866876ee2953af4a5103d6303f45c3dac8ccfd9983618",
+      "lines": 1091,
+      "reading": "P-875 row read in full; its remaining domain/stationarity/Hodge debts retained. No full point-register re-audit claimed."
     }
   ],
   "local_files": {
     "NATIVE_SIGNED_ACTION_AND_INVARIANT_METRIC.md": {
       "sha256": "e5aedb55cf5d42a73ca117f6c3fb621cd51b67756b329d0618206fe9c281d7b3",
       "lines": 155
+    },
+    "NATIVE_RATE_CONE_AND_PARITY_QUOTIENT.md": {
+      "sha256": "6fe9225ed2d7dcfb61876c542c3bcc563b351e3ca22c37fae4585889b959f132",
+      "lines": 221
+    },
+    "NATIVE_REGISTER_PREMISE_LEDGER.md": {
+      "sha256": "ec1829ee88235d3f5f97bc1f72c598b3def570c70f0b37ab995e5fda025d196f",
+      "lines": 76
+    },
+    "FINDINGS.md": {
+      "sha256": "f4234ea43c1895c1ccfeeec58d9db1ecfb596809c8d4435ff718cb640ce51358",
+      "lines": 170
     }
   },
   "proof_duties": [
@@ -63,7 +131,15 @@
     "Check the kernel/image order argument and stabilizer orbits.",
     "Check invariant metric uniqueness and its supplied invariance premise.",
     "Keep the noncentral-orbit and Markov-surface carrier caveats.",
-    "Check that unsigned labels are not identified with the signed irreducible module."
+    "Check that unsigned labels are not identified with the signed irreducible module.",
+    "Check coefficient comparison proving invariance iff constancy on ordered-pair orbits.",
+    "Check generator positivity, connectivity, finite-time full support and unique stationary measure without inferring a physical vacuum.",
+    "Check the complete even/odd spectrum and both normalized, transported correlations.",
+    "Check common-clock and similarity inequivalence of the two deliberately chosen positive controls.",
+    "Check exact state-process lumping for all initial states, preserving the distinction from observed label instruments.",
+    "Check the group-jump implementation and its native-word batching price.",
+    "Check the equal-quarter-turn opposite control and that its alphabet is an extra premise.",
+    "Check that this conditional conclusion is not exported to all OA axioms, all Q8 composition, geometric deformation states or physical generations."
   ],
   "execution": {
     "scientific_runs": 0,
@@ -80,5 +156,9 @@
     "foundational_inputs_removed": 0,
     "physical_parameters_earned": 0,
     "full_goal_complete": false
-  }
+  },
+  "delivery_date": "2026-11-19",
+  "latest_main_intake": "bb97e1625ca9efdac85f0533af03275cd877b319",
+  "completion_scope": "Author analytical delivery for the stated finite conditional question; no independent review closure, canonical adoption or full-goal completion.",
+  "duplicate_check_scope": "Targeted text searches on main and the SM branch for signed-axis/antipodal invariant Markov rates found no same-construction report in the searched paths; this is not a whole-repository or all-branch novelty certificate. Native action, standard invariant-form consequences and generic group/Markov facts are reused."
 }

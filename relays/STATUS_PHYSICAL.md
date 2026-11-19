@@ -1,9 +1,9 @@
 seat: physical
 read: M19
 state: working
-on: native signed-register action and invariant metric hand proof; rate-law and parity-quotient comparison in progress
+on: native signed-register rate cone and exact parity quotient delivered as hand work; elementary-event law remains an earning duty
 needs: non-authoring checking of native-register and earlier hand proofs; P-875 domains stay open
-next push: the native invariant rate cone, its quotient, source custody and remaining law-selection duty; numerical campaigns remain paused
+next push: source-pinned delivery note with exact closure scope; numerical campaigns remain paused
 
 ## HARVEST REVIEW FOR MAIN — M7-M18 at the named source cut
 
@@ -37,9 +37,30 @@ it from the forward quaternion substitution convention, and derives
 the invariant positive quadratic metric up to a common scale. The
 six noncentral quaternion states form one move orbit, not all Q8 or
 a set of geometric Markov-surface deformations. Choosing that carrier
-and an invariant metric still has a price. The rate-law/quotient
-comparison is in progress. All new proofs are not independently
-checked; no scientific code, CAS, test, data comparison or new agent.
+and an invariant metric still has a price.
+
+The rate-law/quotient hand derivation is delivered on 2026-11-19.
+The full invariant cone has two rates a,b, with spectrum 0, -6b twice,
+and -(2a+4b) three times. The normalized signed/axis correlation ratio
+(a+2b)/(3b) survives a common clock change. The three-parity quotient
+has the same coarse state law for all a: it is valid for those readouts
+and omits the signed channel. The group-jump implementation prices
+batching; the equal-quarter-turn control fixes a ratio only after its
+elementary alphabet is supplied. The complete number/premise ledger
+is NATIVE_REGISTER_PREMISE_LEDGER.md. The chosen orbit omits the two
+central Q8 states from its state set and cannot stand for all physical
+composition. All new proofs are not independently checked; no physical
+input is counted removed and no scientific execution occurred.
+
+Main bb97e1625 now records X-P1's non-authoring C3i check under P-875.
+That source response and the cited check were read, without running
+them. Its finite equations remain conditional on that run, apart from
+the matrix-unit equation main computes. Main also corrects X-P1's
+overbroad nilpotent norm formula: the linear cross term is absent only
+when its real inner product vanishes. This does not refute non-unitarity.
+Global domain closure, nonlinear stationarity and the Hodge/kinetic map
+remain explicitly unchecked. Receiving that check is not this seat
+reviewing or certifying its own C3i construction.
 
 The next foundational continuation is delivered at 7255ff83f with
 corrected custody at b1033ed5e. HISTORY_WEIGHTS_AND_CANCELLATION.md
