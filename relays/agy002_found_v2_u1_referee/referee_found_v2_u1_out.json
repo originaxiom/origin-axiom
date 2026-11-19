@@ -1,0 +1,403 @@
+{
+  "all_assertions_passed": true,
+  "gate": "AGY-002_FOUND-V2-U1",
+  "role": "cold_room_independent_zero_trust_referee",
+  "section_0_ast_and_sha_custody": {
+    "ast_scan": {
+      "ast_clean": true,
+      "complex_literal_count": 0,
+      "disallowed_imports": [],
+      "float_complex_call_count": 0,
+      "float_literal_count": 0,
+      "relative_import_count": 0,
+      "unique_import_roots": [
+        "__future__",
+        "ast",
+        "collections",
+        "fractions",
+        "hashlib",
+        "itertools",
+        "json",
+        "mpmath",
+        "pathlib",
+        "re",
+        "sympy"
+      ]
+    },
+    "sha_custody": {
+      "all_sha_verified": true,
+      "producer_output": {
+        "computed_sha256": "afa6e12cabc47cab30a19781e4ffa8200310580987d266d31b6401de9a616cc6",
+        "manifest": "relays/agy002_found_v2_u1/OUTPUT_SHA256.txt",
+        "recorded_sha256": "afa6e12cabc47cab30a19781e4ffa8200310580987d266d31b6401de9a616cc6",
+        "target": "relays/agy002_found_v2_u1/verify_found_v2_u1_out.json",
+        "target_name_ok": true,
+        "verified": true
+      },
+      "producer_script": {
+        "computed_sha256": "3a8b8d0c30fcd1b615ed8ac6bd11419ac9f532318d04229c9bcf5be9526c18b0",
+        "manifest": "relays/agy002_found_v2_u1/SCRIPT_SHA256.txt",
+        "recorded_sha256": "3a8b8d0c30fcd1b615ed8ac6bd11419ac9f532318d04229c9bcf5be9526c18b0",
+        "target": "relays/agy002_found_v2_u1/verify_found_v2_u1.py",
+        "target_name_ok": true,
+        "verified": true
+      },
+      "referee_script": {
+        "computed_sha256": "cbe922830cc7eb673cbd457994bb5aa4fef22db5de035acdb4f52a9d10789be4",
+        "manifest": "relays/agy002_found_v2_u1_referee/SCRIPT_SHA256.txt",
+        "recorded_sha256": "cbe922830cc7eb673cbd457994bb5aa4fef22db5de035acdb4f52a9d10789be4",
+        "target": "relays/agy002_found_v2_u1_referee/referee_found_v2_u1.py",
+        "target_name_ok": true,
+        "verified": true
+      }
+    }
+  },
+  "section_1_dihedral_cover_and_homology": {
+    "exhaustive_dihedral_scan_odd_3_to_31": {
+      "11": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 22,
+        "total_surjective": 0
+      },
+      "13": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 26,
+        "total_surjective": 0
+      },
+      "15": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 90,
+        "total_surjective": 0
+      },
+      "17": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 34,
+        "total_surjective": 0
+      },
+      "19": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 38,
+        "total_surjective": 0
+      },
+      "21": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 42,
+        "total_surjective": 0
+      },
+      "23": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 46,
+        "total_surjective": 0
+      },
+      "25": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 150,
+        "total_surjective": 0
+      },
+      "27": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 54,
+        "total_surjective": 0
+      },
+      "29": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 58,
+        "total_surjective": 0
+      },
+      "3": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 6,
+        "total_surjective": 0
+      },
+      "31": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 62,
+        "total_surjective": 0
+      },
+      "5": {
+        "meridian_pinned_surjective": 4,
+        "total_homs": 30,
+        "total_surjective": 20
+      },
+      "7": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 14,
+        "total_surjective": 0
+      },
+      "9": {
+        "meridian_pinned_surjective": 0,
+        "total_homs": 18,
+        "total_surjective": 0
+      }
+    },
+    "fox_calculus_4_1": {
+      "Jx": "-t + 3 - 1/t",
+      "Jy": "t - 3 + 1/t",
+      "abs_Jx_at_minus1": 5,
+      "abs_Jy_at_minus1": 5,
+      "fundamental_identity_residual": "0",
+      "matches_t2_minus_3t_plus_1": true
+    },
+    "riley_sl2_z_zeta6": {
+      "WX_equals_YW_exact": true,
+      "det_lambda_is_1": true,
+      "lambda_commutes_with_X_exact": true,
+      "lambda_non_identity_parabolic": true,
+      "mp60_residual": "0.0",
+      "mp60_within_tol": true,
+      "tr_longitude_lambda": -2,
+      "tr_meridian_X": -2
+    },
+    "seifert_4_1": {
+      "abs_alex_at_minus1": 5,
+      "alexander_from_seifert": "-t**2 + 3*t - 1",
+      "snf": {
+        "abs_det": 5,
+        "det_U": 1,
+        "det_W": -1,
+        "identity_holds": true,
+        "invariant_factors": [
+          1,
+          5
+        ],
+        "matrix": [
+          [
+            2,
+            -1
+          ],
+          [
+            -1,
+            -2
+          ]
+        ],
+        "smith_normal_form": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    },
+    "sheet_action_and_centralizers": {
+      "P_eigenvalues": [
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "centralizer_S5_D5_order": 1,
+      "centralizer_S5_Z5_order": 5,
+      "lambda_trivial_on_all_4_covers": true,
+      "peripheral_orbits_by_b": {
+        "1": [
+          1,
+          2,
+          2
+        ],
+        "2": [
+          1,
+          2,
+          2
+        ],
+        "3": [
+          1,
+          2,
+          2
+        ],
+        "4": [
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    "unique_n5_cover": {
+      "cover_isomorphism_classes": 1,
+      "n15_count": 0,
+      "n25_count": 0,
+      "only_n5_has_surjective": true,
+      "pinned_n5_count": 4,
+      "pinned_n5_targets": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "weyl_24_and_hypercharge_block": {
+      "U_P_unitary": true,
+      "mp60_all_within_tol": true,
+      "orthonormality_exact": true,
+      "orthonormality_mp60_max_err": "1.555753819465285e-61",
+      "q_eigenbasis_diag_exact": true,
+      "q_eigenbasis_mp60_max_err": "6.235157758242127e-61",
+      "q_equals_block_formula_exact": true,
+      "tr_DP_equals_1_exact": true,
+      "tr_DP_mp60_max_err": "0.0",
+      "xz_mp60_err": "2.20016815120155e-61",
+      "xz_relation_exact": true
+    }
+  },
+  "section_2_exterior_cl10_berezin_and_gauge": {
+    "berezin_and_pfaffian": {
+      "explicit_matrices_all_3_methods_pass": true,
+      "explicit_matrix_count": 4,
+      "parametric_10x10_det_equals_detM_sq": true,
+      "symbolic_5x5_945_matching_pfaffian_equals_det": true,
+      "symbolic_5x5_s5_grassmann_equals_det": true
+    },
+    "cl10_and_aps_chirality": {
+      "all_10_gammas_hermitian": true,
+      "aps_L_even_all_plus1": true,
+      "aps_L_odd_all_minus1": true,
+      "aps_left_handed_zero_mode_dim": 16,
+      "chiral_volume_equals_minus1_F": true,
+      "cl10_anticommutator_2delta": true
+    },
+    "commutant_and_global_z6": {
+      "commutant_center_dim": 1,
+      "commutant_derived_dim": 11,
+      "commutant_lie_closed": true,
+      "dim_C_su5_P_eig": 12,
+      "dim_C_su5_P_sheet": 12,
+      "gcd_6Y_charges_on_16": 1,
+      "global_kernel_elements": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          5
+        ]
+      ],
+      "global_kernel_order_on_16_plus": 6,
+      "global_kernel_order_on_W5": 6,
+      "sm_12_spans_commutant": true
+    },
+    "exterior_car_algebra": {
+      "ant_cc_zero": true,
+      "ant_ccdag_delta": true,
+      "ant_cdag_cdag_zero": true
+    },
+    "kawamura_doublet_triplet_splitting": {
+      "collar_odd_color_triplet_zero_modes": 0,
+      "collar_odd_weak_doublet_zero_modes": 2,
+      "matches_direct_projection": true
+    },
+    "lambda_even_spectrum_and_anomalies": {
+      "all_4_anomalies_zero": true,
+      "anom_Tr_SU2sq_Y_max": "0",
+      "anom_Tr_SU3sq_Y_max": "0",
+      "anom_Tr_Y": "0",
+      "anom_Tr_Y3": "0",
+      "basis_invariance_Lambda_UP_ok": true,
+      "dLambda_lie_homomorphism_ok": true,
+      "matches_expected_6Y_spectrum": true,
+      "spectrum_6Y_even_sorted": [
+        -4,
+        -4,
+        -4,
+        -3,
+        -3,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        6
+      ]
+    }
+  },
+  "section_3_planted_fault_controls": {
+    "PFU1_1_trefoil_anomaly": {
+      "fault_confirmed": true,
+      "fox_abs_det_at_minus1": 3,
+      "snf_abs_det": 3,
+      "snf_invariant_factors": [
+        1,
+        3
+      ],
+      "tr_Y3_even": -6,
+      "tr_Y_even": 0
+    },
+    "PFU1_2_bronze_p13_gauge_dim": {
+      "dim_C_su13_P13": 84,
+      "fault_confirmed": true,
+      "su13_gen_count": 168
+    },
+    "PFU1_3_level25_cover_absence": {
+      "D25_pinned_surjective": 0,
+      "D25_total_surjective": 0,
+      "fault_confirmed": true
+    },
+    "PFU1_4_collar_even_scalar": {
+      "color_triplet_zero_modes": 3,
+      "fault_confirmed": true,
+      "weak_doublet_zero_modes": 0
+    },
+    "PFU1_5_full_32D_vector_like": {
+      "even_minus_odd_net_chirality": {
+        "-1": -6,
+        "-2": -3,
+        "-3": 2,
+        "-4": 3,
+        "-6": -1,
+        "0": 0,
+        "1": 6,
+        "2": 3,
+        "3": -2,
+        "4": -3,
+        "6": 1
+      },
+      "fault_confirmed": true,
+      "full_32_dim": 32,
+      "full_6Y_multiplicities": {
+        "-1": 6,
+        "-2": 3,
+        "-3": 2,
+        "-4": 3,
+        "-6": 1,
+        "0": 2,
+        "1": 6,
+        "2": 3,
+        "3": 2,
+        "4": 3,
+        "6": 1
+      },
+      "vector_like_Y_minusY_symmetry": true
+    }
+  }
+}
