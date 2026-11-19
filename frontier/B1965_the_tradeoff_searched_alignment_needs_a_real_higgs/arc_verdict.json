@@ -1,0 +1,30 @@
+{
+ "id": "B1965",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1739",
+  "B1740",
+  "B1743",
+  "B1963",
+  "B1964",
+  "B1945"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's R5 (verified on main in B1743): m2/m3 >= |h.h|/4 in the idealised up channel"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C's code (B1945's split), with a constant Higgs triplet h in C^3 in place of DR; the charge rule (up S~, down S)",
+  "object": "the cusp mixing's smallest diagonal |V| and each sector's m2/m3 at four points (heights 3 and 6)",
+  "reach": "single",
+  "hypotheses": "exploratory: a random scan (400 triplets at three points) and a Nelder-Mead adversary (12 starts at four points); no proof; the counterexample threshold fixed in the script before its run, no expectations hashed"
+ },
+ "claim_one_line": "IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four points no constant triplet h in C^3 gives an aligned mixing (smallest diagonal 0.9) with both sectors' m2/m3 below 1e-2; the adversary's best everywhere is aligned at 0.9 with m2/m3 0.57 to 0.68 and reality r 0.94 to 1.0, and a 400-triplet scan at three points agrees, with the heavy-pair hierarchy growing with r; the conjecture, that alignment forces m2/m3 above about 0.5 for every Higgs, would join B1739's exact lemma and the web seat's R5 (B1743), each proved only in an idealisation; if it holds, the choice of Higgs direction cannot rescue frame C's mixing under the charge rule. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

@@ -17866,6 +17866,19 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1965": {
+   "slug": "the tradeoff searched alignment needs a real higgs",
+   "motifs": [
+    "coupling",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

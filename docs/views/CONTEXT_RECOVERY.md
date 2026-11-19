@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1661 |
+| arcs with a verdict file | 1662 |
 | … PROVED | 1158 |
 | … NEGATIVE | 387 |
-| … OPEN | 103 |
+| … OPEN | 104 |
 | … RETRACTED | 13 |
-| register points | 878 |
-| … “QUEUED” | 309 |
+| register points | 879 |
+| … “QUEUED” | 310 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 553 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
 | B1964 | PROVED | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector…” |
 | B1963 | PROVED | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs…” |
 | B1962 | NEGATIVE | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861…” |
@@ -42,7 +43,6 @@
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
 | B1955 | PROVED | “[CORRECTED 2026-11-17, the web seat's harvest review, sections 3.3 and 5.4: the top wedge's invariance at level 5 is generic (any representation of determinant 1, both classes) and conditional on the Fock-space reading,…” |
 | B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
-| B1953 | PROVED | “FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p, a correction of main's own: B1963 AND B1964 RE-DERIVE B1739 AND B1740 IN FRAME C.** Their seen-first sweeps used this campaign's words and missed the record's own. B1739 (October, B1656's frame) found the mechanism: the nearly null Higgs puts the two readings' lightest states on h-bar and h, nearly orthogonal, so under the Standard Model's reading the light generation misaligns. B1740 sealed the other half for F_-2: a non-null Higgs aligns the light generation and loses the hierarchy. B1742 added two nearly null directions read S in every sector (hierarchy, alignment, mixing too small). What today adds is narrower: frame D1 (B1962), frame C's grid (B1963), and the…”
+“LATEST (2026-11-19, S306p, evening: THE TRADE-OFF, SEARCHED (B1965, OPEN; P-879).** The general half of B1740's dichotomy, tried adversarially in the full frame: in frame C under the charge rule, a Nelder-Mead search over every Higgs triplet in C^3 at four points found an aligned mixing only with a nearly real Higgs, the heavy pair then nearly degenerate (m2/m3 0.57 to 0.68); no triplet gives alignment with both heavy-pair ratios below 1e-2, and a 400-triplet scan at three points agrees. The conjecture (P-879) would join B1739's exact lemma and the web seat's R5 (B1743), each proved only in an idealisation; if it holds, the Higgs direction cannot rescue frame C's mixing under the charge rul…”
 
 ## Completeness (nothing skipped silently)
 
