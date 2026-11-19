@@ -61,7 +61,11 @@ both conventions ⟹ discrete Dirac spectrum, unconditional).
   > fact whose source is open (P-540).*
   > *2026-11-19 (P-540): the source is found and checked: m004's orientation-reversing involution
   > Φ(z, t) = (z̄ + 1 + ω, t), which keeps both spin structures, with U = σ₂ ∘ Φ* anticommuting with D. So
-  > spec(D) = −spec(D) holds after all, as a theorem from a different operator than J (B940's `pairing_source.py`).*
+  > spec(D) = −spec(D) holds after all, from a different operator than J, by main's derivation from the identities
+  > B940's `pairing_source.py` checks (the closing operator step is not run as a test). [Corrected 2026-11-19 at Review
+  > 85, finding C3: this line said 'as a theorem'.] [Review 85, finding C2: DESIGN § 5a still states the J argument
+  > as proven, and so does § 2's sentence that cites § 5. DESIGN.md is sealed and is not edited; this note and the one
+  > of 2026-10-30 above are its correction: J commutes with D, and the symmetry is P-540's U.]*
 - **An instrument-level Kramers-type doubling**: the ENTIRE singular
   spectrum is doubled at every λ. Mechanism open (obligation O1); blocks
   multiplicity language, not eigenvalue claims.

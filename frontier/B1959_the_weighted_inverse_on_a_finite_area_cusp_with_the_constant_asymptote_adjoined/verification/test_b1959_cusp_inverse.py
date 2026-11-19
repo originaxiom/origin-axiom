@@ -1,5 +1,6 @@
-"""B1959's lock: the computable steps of the proof, each recomputed here (no stored number is read), each with the
-change that breaks it."""
+"""B1959's lock: K1, K2 and K3 (symbolic), K4 and K7 recomputed here (no stored number is read), with controls for K1, K3
+and K4 and a growth check for K7's.  K5, K6 and K2's eigenvalue count are not in this lock (corrected 2026-11-19 at
+Review 85, finding B8: this line said every computable step, each with the change that breaks it; owed, R85-3)."""
 import math, pathlib, sys
 import numpy as np
 import sympy as sp

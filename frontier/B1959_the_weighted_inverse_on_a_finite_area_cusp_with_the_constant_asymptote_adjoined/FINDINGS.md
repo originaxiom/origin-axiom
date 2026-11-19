@@ -22,10 +22,13 @@ lane's own statements about its fields. Inputs removed: zero. Nothing is compare
     specialist's review and never read by main. It is a different operator and end; nothing of it is used here.
   - The other matching arcs are harvests that use the word Fredholm for seats' index counts. None proves an inverse.
 - **The literature** (searched on 2026-11-18; the papers themselves were not read for this arc):
-  - The frame is the weighted theory of elliptic operators on manifolds with cylindrical ends (Lockhart and McOwen,
-    *Elliptic differential operators on noncompact manifolds*, Ann. Scuola Norm. Sup. Pisa, 1985): such an operator is
-    Fredholm between weighted spaces exactly when the weight is not an indicial root, and the index changes only
-    across those roots. The exponents −β and 1 + β of § 1 are indicial roots in that sense.
+  - The nearest standard frame is the weighted theory of elliptic operators on manifolds with cylindrical ends
+    (Lockhart and McOwen, *Elliptic differential operators on noncompact manifolds*, Ann. Scuola Norm. Sup. Pisa, 1985):
+    such an operator is Fredholm between weighted spaces exactly when the weight is not an indicial root, and the index
+    changes only across those roots. *[Corrected 2026-11-19 at Review 85, finding B1: the cusp is not a cylindrical end.
+    Its circle shrinks, and the nonzero frequencies see e^(2t) D_x². Only the zero-frequency part has that form, and its
+    exponents −β and 1 + β are indicial roots in that sense. The frame is cited for orientation; the proof does not use
+    it, and the papers were not read.]*
   - That the essential spectrum of the Laplacian on a surface with a hyperbolic cusp starts at 1/4 is classical
     (spectral theory of manifolds with cusps; W. Müller, Math. Nachr. 111, 1983).
   - **No novelty is claimed.** The statement is of a known kind. What this arc adds is a self-contained proof for the
@@ -77,7 +80,10 @@ by parts gives ‖Du‖² + ⟨u, Mu⟩ = 0. By H3, u is a multiple of Q, and it
 
 **Step 3: a solution in the square-integrable sense.** With u = e^(t/2) v, −u″ + u′ = e^(t/2)(−v″ + v/4), and the norm
 of u against e^(−t) dt is the plain norm of v. So a zero-frequency channel is −d²/dt² + 1/4 + ℓ²c_j, and its quadratic
-form is at least (1/4 + ℓ²c_j)‖u‖². A channel of nonzero frequency has V_m → ∞. By Persson's formula the essential
+form is at least (1/4 + ℓ²c_j)‖u‖² for sections supported in the cusp, which are the ones Persson's formula uses *[added
+2026-11-19 at Review 85, finding B3: with v = e^(−t/2)u the form is ∫|v′|² + (1/4 + ℓ²c_j)‖v‖² − v(T₀)²/2, so a section
+that does not vanish at the cut can lie below; K2's eigenvalue 0.9031 under the threshold 1.15, with the cut's own
+boundary condition, is such a state, and it is discrete]*. A channel of nonzero frequency has V_m → ∞. By Persson's formula the essential
 spectrum of P starts at or above 1/(4ℓ²). Zero is therefore an isolated eigenvalue, of eigenspace ℝQ (H3). For f in
 Y_δ,0 there is a unique square-integrable u orthogonal to Q with Pu = f, and ‖u‖ ≤ ‖f‖/λ₁, where λ₁ > 0 is the gap.
 It is smooth by interior regularity, and on a collar {T ≤ t ≤ T + 1} its values are bounded by a constant times the
@@ -90,7 +96,11 @@ norm of f.
 - *Zero frequency, c_j > 0.* Here V = ℓ²c_j, and V > δ + δ² exactly when δ < β_j, because β_j² + β_j = ℓ²c_j. The
   solutions of the homogeneous equation are e^(−β_j t) and e^((1+β_j)t). The second is not square-integrable against
   e^(−t) dt, so u is a decaying particular solution plus a multiple of e^(−β_j t). At an interior maximum of |W|,
-  (∗) gives (V − δ − δ²)|W| ≤ ℓ² e^(δt)|f|. So
+  (∗) gives (V − δ − δ²)|W| ≤ ℓ² e^(δt)|f|. *[Added 2026-11-19 at Review 85, finding B4: the supremum could be
+  approached at infinity, and the step as first written did not exclude that. The repair: u is bounded, being a decaying
+  particular solution plus a multiple of e^(−β_j t), so |W| grows at most like e^(δt). For γ in (δ, 1 + β_j + δ) the
+  operator of (∗) maps e^(γt) to a positive multiple of itself, since its exponents are δ − β_j and 1 + β_j + δ. So the
+  maximum principle compares |W| with M + ε e^(γt), where M is the right side below, and ε → 0 gives |W| ≤ M.]* So
 
       sup e^(δt)|u| ≤ max( e^(δT)|u(T)| , ℓ² sup e^(δt)|f| / (ℓ²c_j − δ − δ²) ).
 
@@ -103,7 +113,7 @@ norm of f.
       (N²)″ − (N²)′ = 2 Σ|u_m′|² + 2 Σ V_m |u_m|² − 2ℓ² Re Σ ū_m f_m,
 
   and (N′)² ≤ Σ|u_m′|² by Cauchy–Schwarz. With K(t) the least of the V_m, this gives −N″ + N′ + K N ≤ ℓ²F wherever
-  N > 0. Let m₀ > 0 be the least nonzero |m|. Beyond T₁ = log(max|w_j|/m₀), K(t) ≥ m₀² e^(2t)/4, which is increasing.
+  N > 0. Let m₀ > 0 be the least nonzero |m|. Beyond T₁ = log(max|w_j|/m₀), K(t) ≥ m₀² e^(2t)/4, and K is increasing there, since each V_m is when |m|e^t > |w_j|/2 *[the reason corrected 2026-11-19 at Review 85, finding B5: the line gave the bound's growth as the reason]*.
   Take T₁ larger if needed so that K₁ = K(T₁) > δ + δ². Compare N with
 
       Z(t) = N(T₁) e^(−β₁(t − T₁)) + ℓ² F₀ e^(−δt)/(K₁ − δ − δ²),   β₁ = (√(1 + 4K₁) − 1)/2 > δ,
@@ -129,7 +139,7 @@ elliptic and Schauder estimates.
 
 ## 4. What is computed (`verification/cusp_inverse.py`)
 
-The proof's formulas, each checked, and each with the change that breaks it. The numerics do not prove the theorem.
+The proof's formulas, each checked. K4 and K7 carry a control that breaks them here, and the lock adds controls for K1, K3 and K4; K2, K5 and K6 have none, and K5 and K6 are not in the lock *[corrected 2026-11-19 at Review 85, finding B6: the line said each had the change that breaks it; owed, R85-3]*. The numerics do not prove the theorem.
 They test its steps on examples.
 
 | | what | result |

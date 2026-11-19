@@ -1,5 +1,6 @@
 """B1959: the weighted inverse of a Laplace-type operator on a finite-area hyperbolic cusp, with the constant asymptote
-adjoined.  The computable steps of the proof in FINDINGS.md, each checked here, and each with the change that breaks it.
+adjoined.  The computable steps of the proof in FINDINGS.md, each checked here; K4 and K7 with a control that breaks them
+(corrected 2026-11-19 at Review 85: this line said each step had one; K2, K5 and K6 have none).
 Main's own code; nothing of any seat's is run.  Light: one-dimensional solves on grids.
  K1  the channel operator: on exp(i m x) with D_x = d/dx + i (w/2) exp(-t), -exp(2t) D_x^2 is (m exp(t) + w/2)^2: a
      perfect square, equal to w^2/4 at m = 0.

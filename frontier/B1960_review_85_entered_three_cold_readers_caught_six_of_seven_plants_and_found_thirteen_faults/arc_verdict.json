@@ -1,0 +1,29 @@
+{
+ "id": "B1960",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1958",
+  "B1959",
+  "B1957",
+  "B1811",
+  "B940",
+  "B933",
+  "B1667"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Review 85: the window 1fc1e224e to 49c7bdf08, its seeded sample B1958 and B1959 and main's added part (the window's checks of 2026-11-19), read in full on a copy of the held head with seven planted faults, by three sessions of main's own model family that built none of it",
+  "object": "the plants' catch, the quotations checked by machine at their cited paths, and the readers' thirteen other findings, each checked by main on its own tree and mended",
+  "reach": "single",
+  "hypotheses": "a process arc; the readers are of main's own family, which is weaker than the other family's reading of Reviews 82 and 83; B1959's lock still lacks K5 and K6 (R85-3), and the window outside the sample was read by its author only (R85-5)"
+ },
+ "claim_one_line": "REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, uncounted a fourth time): all 19 quotations are in the files their findings cite; the missed plant was a wording plant. Each of the thirteen findings is right on main's own check and is mended. B1959 cited a cylindrical-ends frame for a cusp that is not one; its form bound needed sections supported in the cusp; its zero-frequency step had a gap at infinity, now closed by a barrier; its monotonicity reason was the bound's; and its page and lock claimed controls for every step where K2, K5 and K6 have none. B933's design still called the J argument proven, and its new note said 'as a theorem' over main's derivation. B1958 said four items closed where one was, and named three of four statements; Review 84's counts were taken at different moments unsaid; B1957 left out row 1968's 31 noted. Carried: K5 and K6 into B1959's lock, the other family's reading, the window outside the sample. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

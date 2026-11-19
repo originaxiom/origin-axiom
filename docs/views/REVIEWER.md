@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1656** |
-| words of findings prose | **1,511,382** |
+| research arcs with findings | **1657** |
+| words of findings prose | **1,513,433** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1656** (100.0 %) |
+| arcs carrying an authored verdict | **1657** (100.0 %) |
 | recorded closures | **862** (692 classified, 170 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1154 |
+| PROVED | 1155 |
 | NEGATIVE | 386 |
 | OPEN | 103 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1959`** (2539 words, 0 locks)  
-“THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the lane's): for a Laplace-type operator P = D*D + M that is homogeneous on a finite-area hyperbolic cusp, nonnegative, with bounded kernel spanned by one parallel section Q, and for a weight 0 < delta < min beta_c, P is a bijection with bounded inverse from {a chi Q + decaying, orthogonal to Q} onto {decaying sources orthogonal to Q} in weighted Hoelder spaces; the constant a is fixed by the source. The proof: the essential spectrum starts at 1/(4 ell^2), so zero is isolated; on the cusp each zero-frequency channel is an ordinary equation with exponents -beta and 1 + beta, the growing one excluded by the area measure, and a maximum principle on exp(delta t) u gives the decay exactly when delta < beta; the channel of Q gives the constant; the nonzero frequencies obey one convexity inequality for their norm over the circle; uniform interior estimates on balls of the universal cover give the Hoelder bounds. The lane's condition delta < 1 is not needed. What it gives the lane: its equation (3) holds for its operator if H1 to H3 hold for its fields; H2's algebra is on main already, H1 and H3 are its model's facts and are not checked. Nothing of its model is banked; inputs removed: zero; nothing is compared with data”  
-`B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/FINDINGS.md`
+**PROVED — `B1960`** (1573 words, 0 locks)  
+“REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, uncounted a fourth time): all 19 quotations are in the files their findings cite; the missed plant was a wording plant. Each of the thirteen findings is right on main's own check and is mended. B1959 cited a cylindrical-ends frame for a cusp that is not one; its form bound needed sections supported in the cusp; its zero-frequency step had a gap at infinity, now closed by a barrier; its monotonicity reason was the bound's; and its page and lock claimed controls for every step where K2, K5 and K6 have none. B933's design still called the J argument proven, and its new note said 'as a theorem' over main's derivation. B1958 said four items closed where one was, and named three of four statements; Review 84's counts were taken at different moments unsaid; B1957 left out row 1968's 31 noted. Carried: K5 and K6 into B1959's lock, the other family's reading, the window outside the sample. 0 of 19.”  
+`B1960_review_85_entered_three_cold_readers_caught_six_of_seven_plants_and_found_thirteen_faults/FINDINGS.md`
 
 **NEGATIVE — `B1947`** (711 words, 0 locks)  
 “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  

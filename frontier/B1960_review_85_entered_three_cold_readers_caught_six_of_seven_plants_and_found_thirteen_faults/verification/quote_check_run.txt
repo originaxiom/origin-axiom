@@ -1,0 +1,4 @@
+reader A: 5 findings; 5 quotations parsed; 5 found in the cited file; 4 at the cited line; not found: none
+reader B: 8 findings; 8 quotations parsed; 8 found in the cited file; 8 at the cited line; not found: none
+reader C: 6 findings; 6 quotations parsed; 6 found in the cited file; 5 at the cited line; not found: none
+plants caught (plant: the finding at its line): {'P1': ['F-R85-A1'], 'P3': ['F-R85-B7'], 'P4': ['F-R85-B2'], 'P5': ['F-R85-C1'], 'P6': ['F-R85-C5'], 'P7': ['F-R85-C4']}; missed: ['P2']

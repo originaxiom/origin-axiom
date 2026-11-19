@@ -27,7 +27,9 @@
   took B1957. Their reports are `verification/READING_A.md`, `READING_B.md` and `READING_C.md`, as delivered.
 - **This is weaker than Reviews 82 and 83,** whose readers were sessions of the other model family. That reading of
   this window is owed (R84-2).
-- **Quotations** (`verification/quote_check.py`, run file beside it): all 27 are in the file their finding cites.
+- **Quotations** (`verification/quote_check.py`, run file beside it): all 27 are in the file their finding cites; 23 are
+  within two lines of the line cited, and four of reader C's are further *[added 2026-11-19 at Review 85, finding A5: the
+  run file gives both counts, and the page gave only the first]*.
   Review 83's check had searched the whole window's text; this one holds each quotation at its cited path.
 
 ## The plants
@@ -91,12 +93,13 @@ Twenty-seven: seven are the plants. Main checked each of the other twenty on its
   verdict in a record, that says more than the committed output behind it. Eleven of the twenty findings are of
   this kind.
 - **Four statements were true and had no output behind them** (A3 apart, which was also wrong): the piece exponents,
-  the reversal near i, the quotation counts. A true figure with no committed output reads the same as a wrong one.
+  the reversal near i, the quotation counts, and a record's three coefficients (C10). *[The fourth added 2026-11-19 at
+  Review 85, finding A3: the line named three.]* A true figure with no committed output reads the same as a wrong one.
 - **Review 83's own entry had three faults** in how it described its checks. A review's entry is read like any arc.
 - **Main's own family read main's arcs cold and found faults in every arc of the sample.** The plants show the
   readers read with care; they do not show what a reader of another family would add.
 
 ## The loop
 
-Nineteen items were open. Four are closed here; the rest are carried, and ten of those are past their third carry
+Nineteen items were open. One is closed here (R82-4); the rest are carried *[corrected 2026-11-19 at Review 85, finding A2: this line said 'Four are closed here', against the entry's own 'One is closed' and its eighteen carried items]*, and ten of those are past their third carry
 with no disposition, which the entry in `docs/progress/REVIEWS.md` states line by line.

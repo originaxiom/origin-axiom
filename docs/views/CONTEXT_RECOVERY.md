@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1656 |
-| … PROVED | 1154 |
+| arcs with a verdict file | 1657 |
+| … PROVED | 1155 |
 | … NEGATIVE | 386 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 876 |
+| register points | 877 |
 | … “QUEUED” | 320 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 540 |
+| … “DONE” | 541 |
 | … “DECLINED” | 12 |
 | harvest rows (the last number) | 1974 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1960 | PROVED | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, unc…” |
 | B1959 | PROVED | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the l…” |
 | B1958 | PROVED | “REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted):…” |
 | B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the markdown files the seats added or changed…” |
@@ -42,7 +43,6 @@
 | B1951 | PROVED | “THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on th…” |
 | B1950 | PROVED | “REVIEW 83 ENTERED: BOTH READERS CAUGHT ALL SIX PLANTS, AND THEIR FINDINGS INCLUDE ERRORS IN MAIN'S MATHEMATICS (PROVED, a process arc): every quotation main's check could parse is exact (28 of 28 and 20 of 20); mended o…” |
 | B1949 | PROVED | “IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector…” |
-| B1948 | OPEN | “THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: EVERY STATEMENT OF EVERY SEAT IN THE REGISTER HAS A VERDICT, 0 PENDING; agy-exp WRITES HARVEST COMPLETE; agy-002'S SUPERSESSION MAP APPLIED; THE SM SEAT'S RELAY OF 2026-10-07 GIVEN A VERDICT FOR EVERY STATEMENT (B1957, OPEN; harvest rows 1951 to 1955; P-874, P-876).** The register: 550 files, 489 read at source, 32295 statements: 3659 verified, 27 refuted, 6197 conditional, 2119 partial, 765 superseded, 19528 noted, 0 pending. HARVEST COMPLETE stands for agy-exp, agy-002's four lanes and the physical lane's M7 to M18; asked of agy-002 for lane agy-002-sync (M55), of the web seat (M67), of the SM seat after its own review of its relay (M47) and of th…”
+“LATEST (2026-11-19, S306p: REVIEW 85 ENTERED (B1960; P-877): THE REVIEW GATE FIRED A FOURTH TIME AT MAIN'S FORTIETH LANDING SINCE REVIEW 84, UNCOUNTED; THREE COLD READERS CAUGHT SIX OF SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS, EACH RIGHT AND EACH MENDED.** The window is 1fc1e224e to 49c7bdf08 (B1958, B1959, the register's landings and the three debts). B1959's zero-frequency step had a gap at infinity, closed by a barrier; B933's design still called the J argument proven; B1958 miscounted Review 83's closed items. Owed: the count inside the pre-landing commands, B1959's K5 and K6 in its lock, the other family's reading. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

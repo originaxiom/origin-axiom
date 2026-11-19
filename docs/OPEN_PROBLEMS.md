@@ -1049,3 +1049,20 @@ in main's own arcs were each right and are mended (B1958).**
   Open as before: P-861, P-847, P-845.
 - **After the window, Review 85's to read:** B1958 (this review). Owed from this window: its eight arcs outside the
   sample (R84-5), and a reading by sessions of the other model family (R84-2).
+
+## ⟳ VIEW REFRESH — 2026-11-19 (Review 85)
+
+Touched at Review 85 (its anchor `49c7bdf08`). **The window (`1fc1e224e` to `49c7bdf08`) holds two arcs with a verdict,
+Review 84 (B1958) and the weighted inverse on a finite-area cusp (B1959), with the harvest's register carried to no
+statement pending (B1957, harvest rows 1904 to 1974), P-528's note on I-26, and three debts: the source of B940's ±
+pairing found (P-540: m004's orientation-reversing involution keeps the spin structure), B1811's numbers decoded
+data-free (P-517) and B1667's radii measured between its grid points (P-542). Three cold readers read the sample with
+seven planted faults: six were caught, and thirteen further findings in the record's own arcs were each right and are
+mended (B1960).**
+- **For this page:** the goal stays P-862, the relations that hold in every history; value frames are paused. What
+  moved in the window: the harvest as a register of every statement, now with a verdict on each (35,165, none pending;
+  B1957), and B1959's inverse on a finite-area cusp for a class of Laplace-type operators, conditional on its hypotheses
+  H1 to H3. The review's finding is again a page that says more than the output behind it, and one proof step with a gap at
+  infinity, closed (B1959).
+- **After the window, Review 86's to read:** B1960 (this review). Owed from this window: B1959's K5 and K6 in its lock
+  (R85-3), its work outside the sample (R85-5), and a reading by sessions of the other model family (R85-4).
