@@ -4,11 +4,13 @@ Nothing of the seat's is run.
      on 200 000 random pairs and on the pairs of fractions a/n, b/m with n, m <= 40 and a + b divisible by 7 (a subset, not
      every pair; corrected 2026-11-19 at the web seat's section 32.2: this line said 'every pair').
  Q2  section 7: c_inf(l) = -2 pi ln 2 pi - 2 pi gamma - pi [psi(l) + psi(1 - l)] at l = 3/8 and 1/8 against the closed forms
-     2 pi [ln(8/pi) -+ sqrt 2 ln(1 + sqrt 2)] and the stated digits; P-512's x at L_max and L_2 (main's B1667 values), its zero
-     and its quarter point.
+     2 pi [ln(8/pi) -+ sqrt 2 ln(1 + sqrt 2)] and the stated digits; P-512's x(L) = (2 pi L + c_inf(3/8))/(2 pi L + c_inf(1/8)),
+     its zero and its quarter point (x at B1667's radii is not computed here; corrected 2026-11-19 at the web seat's section
+     33.3, which found this line naming it).
  Q3  section 5: K(u; -S) = -K(-u; S) for K = theta1'(0) theta[c](u) / (theta[c](0) theta1(u)), at random c, u, tau.
  Q4  the record it quotes (lines 37 to 93): each double-quoted phrase of 12 characters or more, searched in main's tree at
-     354a4ea4d (the head the note read) and now."""
+     354a4ea4d (the head the note read) and now, one line at a time: a phrase split across a line break is not found
+     (said here 2026-11-19 at the web seat's section 33.3; harvest rows 1972 and 1973 found three such)."""
 import random, itertools, subprocess, re, json, sys
 from fractions import Fraction as Fr
 import mpmath as mp

@@ -5,7 +5,6 @@
  "how": "main read CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO.md line by line (harvest row 1971); the seat's proposed ledger rows and corrections, its account of its own looks, the release's figures and the register comparisons: not verified on main, and nothing of them is compared with data by main",
  "note": "",
  "units": [
-  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:22",
   "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:24",
   "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:27",
   "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:34",
@@ -35,8 +34,6 @@
   "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:92",
   "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:93",
   "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:94",
-  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:97",
-  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:104",
-  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:106"
+  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:97"
  ]
 }

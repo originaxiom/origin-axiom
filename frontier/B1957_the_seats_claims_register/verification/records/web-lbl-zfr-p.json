@@ -3,8 +3,9 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "main read THE_ZERO_FREE_READING.md line by line (harvest row 1970); main holds part of each: line 62: |E4(omega)| = 0 holds (computed here); the Niemeier dressings' zeros inside the domain are not checked here",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 93: GENESIS lists 'All legal states are physically realised together' as NOT DERIVED; why it matters for a zero is the seat's.",
  "units": [
-  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:62"
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:62",
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:93"
  ]
 }

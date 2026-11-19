@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-juno-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "main read the file line by line (harvest rows 1970 to 1975); each line here by its reason, given in this record's note",
+ "note": "ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 22: its quotation is B1753's (section 3), with m about 51 to 52 and Bonferroni passing for m up to 55.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:22"
+ ]
+}

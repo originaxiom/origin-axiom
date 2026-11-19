@@ -1,0 +1,16 @@
+{
+ "id": "web-st29-33-c",
+ "date": "2026-11-19",
+ "verdict": "CONDITIONAL",
+ "how": "33.2's quotation sweep: what its script does and its counts (900 statements, 103 with 125 quotations, 7, 41 and 55) are the seat's run of relays/chat1_2026-11-19_rv75/rv75_quote_sweep.py, not run by main; and its nine matches that are not main's words at their source, not checked by main",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:3500",
+  "web:STATUS_CHAT1:3503",
+  "web:STATUS_CHAT1:3509",
+  "web:STATUS_CHAT1:3512",
+  "web:STATUS_CHAT1:3513",
+  "web:STATUS_CHAT1:3515",
+  "web:STATUS_CHAT1:3517"
+ ]
+}

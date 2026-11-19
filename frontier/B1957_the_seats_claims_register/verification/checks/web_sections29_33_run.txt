@@ -1,0 +1,12 @@
+L1 1b6df9753: stated (151, 10347, 9453, 2060, 3, 1374, 780, 59, 5177); register (151, 10347, 9453, 2060, 3, 1374, 780, 59, 5177); pending 0; HOLDS
+L1 23b205b21: stated (153, 10646, 9736, 2101, 3, 1576, 790, 59, 5207); register (153, 10646, 9736, 2101, 3, 1576, 790, 59, 5207); pending 0; HOLDS
+L1 f9818b66b: stated (153, 10646, 9736, 2240, 3, 1058, 808, 59, 5568); register (153, 10646, 9736, 2240, 3, 1058, 808, 59, 5568); pending 0; HOLDS
+L1 c6d3847f7: stated (154, 10704, 9787, 2261, 3, 1068, 812, 60, 5583); register (154, 10704, 9787, 2261, 3, 1068, 812, 60, 5583); pending 0; HOLDS
+L1 a6c922f88: stated (154, 10704, 9787, 2260, 3, 1048, 833, 60, 5583); register (154, 10704, 9787, 2260, 3, 1048, 833, 60, 5583); pending 0; HOLDS
+L2 1b6df9753: web-old-01, -02, -03 hold [7, 1210, 31] units (stated 7, 1210, 31): HOLDS
+L3 23b205b21: web-st28-01 to -04 hold [33, 6, 31, 25] units (stated 33, 6, 31, 25): HOLDS
+L4 c6d3847f7: the ledger-and-JUNO relay has 51 statements, by verdict {'NOTED': 15, 'PARTIAL': 3, 'VERIFIED': 0, 'CONDITIONAL': 33, 'REFUTED': 0, 'READ': 0, 'SUPERSEDED': 0} (stated 51: 33 CONDITIONAL, 3 PARTIAL, 15 NOTED): HOLDS
+L5 1b6df9753: the attack note: 52 statements, by verdict {'NOTED': 2, 'CONDITIONAL': 50} (stated {'CONDITIONAL': 50, 'VERIFIED': 0}): HOLDS
+L5 1b6df9753: the pair sums: 223 statements, by verdict {'NOTED': 6, 'VERIFIED': 1, 'CONDITIONAL': 216} (stated {'CONDITIONAL': 216, 'VERIFIED': 1}): HOLDS
+L5 1b6df9753: the first background: 26 statements, by verdict {'CONDITIONAL': 26} (stated {'CONDITIONAL': 26}): HOLDS
+ALL HOLD: True

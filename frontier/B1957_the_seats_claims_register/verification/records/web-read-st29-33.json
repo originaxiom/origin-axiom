@@ -1,0 +1,12 @@
+{
+ "id": "web-read-st29-33",
+ "date": "2026-11-19",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "the web seat's status page at 2f656508b, sections 29 to 33 (its read versions), read by main in full; harvest row 1975",
+ "note": "",
+ "files": [
+  "relays/STATUS_CHAT1.md"
+ ],
+ "units": []
+}

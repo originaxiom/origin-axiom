@@ -1,0 +1,11 @@
+{
+ "id": "web-lbl-juno-s",
+ "date": "2026-11-19",
+ "verdict": "SUPERSEDED",
+ "how": "main read the file line by line (harvest rows 1970 to 1975); each line here by its reason, given in this record's note",
+ "note": "ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 104: P-273 is DONE: B1756 pinned JUNO's figures and graded P10 and P10' (its verification/data.json). ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 106: B1756 read JUNO's second release (arXiv:2609.37895) on 2026-10-24 and pinned it in its verification/data.json.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:104",
+  "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:106"
+ ]
+}

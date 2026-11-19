@@ -3,11 +3,20 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "main read CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md line by line (harvest row 1970); main holds part of each: line 76: B1494's definition quoted rightly; the seat's argument that every fixed-point companion's ends are alike is its own; line 82: v1.18's words quoted rightly; the rest is its reading; line 109: B1600's W1 quoted rightly; that it gives no run is the seat's reading; line 130: B1694's 'one fibre has one tau' quoted rightly; its per-sector heights are not checked here",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 51: its quotations are P-438's row; 'QUEUED, a candidate' was its status at the note's date, and P-438 is DONE now. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 71: B1492's quotation holds, its pieces joined at the ellipses, and P-244's and B1696's; 'no end is singled out by its geometry' is the seat's reading of the S3 action and the one shape. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 89: both quotations hold (GENESIS v1.17, TERMINOLOGY); the argument that the ends are no history's points is the seat's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 98: the quotation is P-474's row; the reading of the generations as three excursions is the seat's proposal. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 111: both quotations are B1621's; 'it reads only the principle's own word' is the seat's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 121: 'all realised' is THE FINAL ACT'S BAR's, and P-439's S274 note takes in the seat's premise map; the scope it states is the seat's reading. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 135: P-466 asks that the breaking depth and the hierarchy depth be one excursion; the first quotation is not in main's tree. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 182: the quotation is P-479's row; main's arithmetic gives the bound 1/(e p ln(1/p)) = 227 (7.8 bits) at p = 0.01/53; the letters and the height are the seat's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 212: the quotation is GENESIS v1.18's; the summary of the three cases is the seat's.",
  "units": [
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:76",
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:82",
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:109",
-  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:130"
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:130",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:51",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:71",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:89",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:98",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:111",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:121",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:135",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:182",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:212"
  ]
 }

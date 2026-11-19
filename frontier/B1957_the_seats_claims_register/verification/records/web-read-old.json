@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "READ",
  "lane": "web",
- "how": "taken into the register under P-876 (harvest row 1968); read through by main for the lines its record verifies, the rest sorted by a stated rule (web-old-02), main's line-by-line reading owed; the seat's code not run [2026-11-19, harvest row 1969: the P-327 and step-back relays added, read through by main for its record of them (rows 1400, 1401, 1404); their claims held CONDITIONAL by the same rule] [2026-11-19, harvest row 1971: the ledger-and-JUNO relay added, read line by line] [corrected 2026-11-19 (harvest row 1973): of the P-327 and step-back relays' 188 statements, 183 were held CONDITIONAL and 5 NOTED by the rule; all are now placed by main's line-by-line reading (rows 1970 to 1973)]",
+ "how": "taken into the register under P-876 (harvest row 1968); read through by main for the lines its record verifies, the rest sorted by a stated rule (web-old-02), main's line-by-line reading owed; the seat's code not run [2026-11-19, harvest row 1969: the P-327 and step-back relays added, read through by main for its record of them (rows 1400, 1401, 1404); their claims held CONDITIONAL by the same rule] [2026-11-19, harvest row 1971: the ledger-and-JUNO relay added, read line by line] [corrected 2026-11-19 (harvest row 1973): of the P-327 and step-back relays' 188 statements, 183 were held CONDITIONAL and 5 NOTED by the rule; all are now placed by main's line-by-line reading (rows 1970 to 1973)] [2026-11-19, harvest row 1975: the clause 'main's line-by-line reading owed' is done for every file of this record, rows 1970 to 1975]",
  "files": [
   "relays/chat1_2026-10-06_first_background/FINDINGS.md",
   "relays/chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15.md",

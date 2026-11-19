@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 49: its quotation of main's record found at 354a4ea4d and now; line 52: B1728's verdict: PROVED, the 'if' direction; line 54: its quotation of main's record found at 354a4ea4d and now; line 72: its quotation of main's record found at 354a4ea4d and now; line 87: its quotation of main's record found at 354a4ea4d and now; line 92: B1809 says f(d) <= 2 with DR at a fixed line (quotation found); the ten are functions of tau on a branch; line 112: row 1544: B1809's line corrected by main's own check with B1821's evaluator (f(d) = 1 on the 32 branches of orders 1 and 2); line 141: B1728's law, the 'if' direction (PROVED), read as relations among the outputs; line 142: B1728's law, the 'if' direction (PROVED), read as relations among the outputs; line 144: B1728's law, the 'if' direction (PROVED), read as relations among the outputs; line 145: B1728's law, the 'if' direction (PROVED), read as relations among the outputs; line 162: B1659's adjugate law: a null direction gives det Y = 0 in every sector; line 230: B1718's table: 0.884, 1.131 and 1.000 at 10^16 GeV; line 246: its quotation of main's record found at 354a4ea4d and now",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 57: its quotations are B1742's (section 3, its pieces), P-355's row and B1789's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 60: each item is at its source: B1713's dated note (the null vectors coincide), B1726's 'R7's near miss' with D = 9 D_frame, a0 = eta^4 F_-2/6 (B1824), P-489's continuous datum set by hand. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 74: its quotation is P-568's row, a [LEAD] at Q1. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 237: its quotation is reader A5's in B1827.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:49",
   "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:52",
@@ -17,6 +17,10 @@
   "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:144",
   "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:145",
   "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:162",
-  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:246"
+  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:246",
+  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:57",
+  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:60",
+  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:74",
+  "web:CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:237"
  ]
 }

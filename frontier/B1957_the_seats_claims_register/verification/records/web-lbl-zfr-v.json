@@ -3,13 +3,15 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read THE_ZERO_FREE_READING.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 63: computed here: psi(i) = 0.59017, psi(omega) = 0.59645, the maximum at omega a known theorem (Osgood-Phillips-Sarnak); line 146: classical, standard (the valence formula; E4 vanishes at omega; a zero-free level-one form is c Delta^n); line 151: classical, standard (the valence formula; E4 vanishes at omega; a zero-free level-one form is c Delta^n); line 163: B1670: a massless up quark excluded at 31 sigma; line 202: classical, standard (the valence formula; E4 vanishes at omega; a zero-free level-one form is c Delta^n)",
- "note": "ADDED 2026-11-19 (harvest row 1972; the seat's section 31.2 (e)): line 87, its two quotations of GENESIS, are in GENESIS at lines 106 to 107 ('kappa = 2 the locus where the cancellation completes') and 109 to 110 ('-2 at the root, which is the parabolic cusp'), each split across a line break, which main's search at row 1970 missed.",
+ "note": "ADDED 2026-11-19 (harvest row 1972; the seat's section 31.2 (e)): line 87, its two quotations of GENESIS, are in GENESIS at lines 106 to 107 ('kappa = 2 the locus where the cancellation completes') and 109 to 110 ('-2 at the root, which is the parabolic cusp'), each split across a line break, which main's search at row 1970 missed. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 132: its quotation is B1670's sealed page (THE_PRICE_OF_THE_NINETEEN), the row HOLDS, by construction. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 142: GENESIS v1.39 adopts the cusp's unit as a tagged working postulate, results carrying 'given the unit'.",
  "units": [
   "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:63",
   "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:146",
   "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:151",
   "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:163",
   "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:202",
-  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:87"
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:87",
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:132",
+  "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:142"
  ]
 }

@@ -1346,6 +1346,27 @@ def test_the_web_seats_older_deliveries_read_line_by_line():
     r = (V / "checks" / "web_pair_sums_run.txt").read_text()
     assert "violations of the first inequality 0, of the second 0" in r and "c_inf(3/8) = -1.9587128014618" in r and "c_inf(1/8) = 13.704645886188" in r
 
+def test_the_web_seats_sections_29_to_33_and_section_33s_placements():
+    """added 2026-11-19 (harvest row 1975): sections 29 to 33 at 2f656508b, their counts held against the register at the head
+    each names (checks/web_sections29_33.py, rerun live: it reads committed heads only); and section 33's 46 statements
+    placed, each with its reason, with the LL lines on B1799 and the two JUNO lines superseded"""
+    import subprocess, sys, json
+    V = pathlib.Path(__file__).resolve().parent; root = V.parents[2]
+    live = subprocess.run([sys.executable, "-B", str(V / "checks" / "web_sections29_33.py")], capture_output=True, text=True, cwd=root).stdout
+    assert live == (V / "checks" / "web_sections29_33_run.txt").read_text() and live.strip().endswith("ALL HOLD: True")
+    assert live.count("HOLDS") == 11 and "DIFFERS" not in live
+    R = V / "records"; rec = lambda r: json.loads((R / (r + ".json")).read_text())
+    placed = 0
+    for r in ("web-lbl-juno-v", "web-lbl-dd-v", "web-lbl-dd-p", "web-lbl-ps-v", "web-lbl-ps-p", "web-lbl-rf-v", "web-lbl-rf-p", "web-lbl-sb-v", "web-lbl-sb-p",
+              "web-lbl-std-v", "web-lbl-std-p", "web-lbl-zfr-v", "web-lbl-zfr-p", "web-lbl-p327-p", "web-lbl-wim-p", "web-lbl-juno-s"):
+        placed += rec(r)["note"].count("(harvest row 1975; the seat's section 33)")
+    assert placed == 50, placed                                   # the 46, JUNO 106, and the three LL lines
+    j = rec("web-lbl-juno-s"); assert j["verdict"] == "SUPERSEDED" and {"web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:104", "web:CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:106"} <= set(j["units"])
+    ll = "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:%d"
+    assert all(ll % k in rec("web-lbl-ps-p")["units"] for k in (228, 243, 251)) and "B1799 (PROVED, lines 47 to 50)" in rec("web-lbl-ps-p")["note"]
+    assert "Ã read so" in rec("web-lbl-std-v")["note"] and "line 84 (line 80 before" in rec("web-lbl-ps-v")["how"]
+    assert {rec("web-st29-33-" + k)["verdict"] for k in "vpcn"} == {"VERIFIED", "PARTIAL", "CONDITIONAL", "NOTED"}
+
 def test_the_web_seats_section_28_and_its_answers():
     """added 2026-11-19: section 28 (61a0684e0) held against main at 996638890 (checks/web_section28.py), and its answers: P-356
     corrected, row 1088 bracketed, the P-327 relay's e19 in the register"""

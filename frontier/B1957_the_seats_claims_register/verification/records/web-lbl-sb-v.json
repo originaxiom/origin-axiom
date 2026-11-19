@@ -3,11 +3,13 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 73: D = 9 exactly on order-5 lines with c = 3 (B1726, B1728), against P-094's 10.58 +- 0.11; line 117: B1753's verdict: PROVED as sealed for its question; line 159: B1698: NEGATIVE as sealed, 1.675% against the 1% bar; line 161: B1733's title: a thread fixes a flat line of order N exactly when N divides the larger Smith invariant of A -+ I",
- "note": "",
+ "note": "ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 59: its quotation is B1726's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 105: B1734 uses B1726's frame, readings and menus, and 'mostly a pick' is P-384's.",
  "units": [
   "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:73",
   "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:117",
   "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:159",
-  "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:161"
+  "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:161",
+  "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:59",
+  "web:CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:105"
  ]
 }

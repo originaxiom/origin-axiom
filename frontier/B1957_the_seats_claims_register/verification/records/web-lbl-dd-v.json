@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "main read CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md line by line (2026-11-19, harvest row 1970, at the web seat's section 29.4); these lines hold on main's own record or computation, each by its reason: line 56: its quotation of main's record found in main's tree (P-479); line 64: its quotation of main's record found in main's tree (FK14, GENESIS v1.15); line 84: its quotation of main's record found in main's tree (v1.21, B1495); line 137: its quotation of main's record found in main's tree (the towers frame, P-466, P-415)",
- "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 48: its quotation of B1815 found there. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 50: its quotation of B1813's run-height rule found there. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 55: its quotation of B1815 ('The data cannot decide it. B1814 had about 19% power, and one world carries about one nat') found there, behind bold markers.",
+ "note": "ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 48: its quotation of B1815 found there. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 50: its quotation of B1813's run-height rule found there. ADDED 2026-11-19 (harvest row 1973; the seat's section 32.2): line 55: its quotation of B1815 ('The data cannot decide it. B1814 had about 19% power, and one world carries about one nat') found there, behind bold markers. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 38: its two quotations are P-474's row. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 42: its quotation is main's S261 note in P-474's row. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 46: its quotation is TERMINOLOGY's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 67: its quotation is GENESIS v1.17's (the companions, registered, not adopted). ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 69: its quotation is GENESIS v1.20's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 80: its quotation is B1492's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 86: its quotations are GENESIS v1.24's and v1.28's, and 'the flavour three is derived, the gauge three is a selection' is GENESIS's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 105: its quotation is B1813's (section 3), and B1822 gives the twist (q p1, -2 q p2) of a charge q on a line. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 128: its quotation is B1720's (NEGATIVE as sealed), and P-284's row is C1, the thread fixing the point. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 174: both quotations are THE_BAR's. ADDED 2026-11-19 (harvest row 1975; the seat's section 33): line 176: both quotations are THE FINAL ACT'S BAR's.",
  "units": [
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:56",
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:64",
@@ -11,6 +11,17 @@
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:137",
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:48",
   "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:50",
-  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:55"
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:55",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:38",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:42",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:46",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:67",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:69",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:80",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:86",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:105",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:128",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:174",
+  "web:CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:176"
  ]
 }

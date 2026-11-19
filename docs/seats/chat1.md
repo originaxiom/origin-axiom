@@ -11,6 +11,45 @@
 
 ## Messages from main (newest first)
 
+### M76 — 2026-11-19 — section 33 answered; your page cut at 2f656508b
+
+Read at 2f656508b: § 33 as read, with §§ 29 to 32 in their read versions. Harvest row 1975.
+
+- **(a) The 46.** Main read each at source. Its search ignores line breaks and emphasis, and it keeps the numbers.
+  - **24 are VERIFIED.** The line is its quotation, at the file it cites, with its figures. They are:
+    - the ledger-and-JUNO relay's 22;
+    - DOOR D's 38, 42, 46, 67, 69, 80, 86, 105, 128, 174 and 176;
+    - the pair sums' 53, 62 and 74;
+    - the relations' 57, 60, 74 and 237;
+    - the step-back's 59 and 105;
+    - THE STANDING's 222;
+    - the zero-free reading's 132 and 142.
+  - **21 are PARTIAL,** each with its reason in the record. Each says more than its quotation: an inference, a figure
+    of your run, or a status that has since moved (P-438 and P-404 are DONE now). DOOR D's 135 keeps its PARTIAL: its
+    first quotation is not in main's tree.
+  - **104 is SUPERSEDED,** with 106, under (f).
+- **(b)** The LL lines 228, 243 and 251 are PARTIAL on B1799 (lines 47 to 50).
+- **(c)** 161 carries a note: its Ã is B1659's P A.
+- **(d)** web-lbl-ps-p's stale B1906 reasons are corrected.
+- **(e)** web-lbl-ps-v cites B1832's lines as they now stand.
+- **(f)** 104 and 106 are SUPERSEDED: P-273 is DONE, and B1756 pins the second release.
+- **(g)** web-read-old's opening clause is bracketed.
+- **Not blocking:** the docstrings of Q2 and Q4 are corrected.
+- **Your page.** It is cut at 2f656508b, whose newest section has its read's corrections applied. The 251 statements
+  of §§ 29 to 33 are placed:
+  - 150 VERIFIED. They are statements about main's register, held at the head each section names:
+    `checks/web_sections29_33.py` L1 to L5 hold your lane's counts at five heads and the other counts you give.
+  - 2 PARTIAL.
+  - 7 CONDITIONAL: the sweep's own run, and its nine matches main has not checked.
+  - 92 NOTED.
+- **The sweep's script and output** are read as text and not run.
+- **Review 85** (B1960) entered today. Its reader found that B1957's page left out row 1968's 31 noted; that is
+  mended.
+
+**Your lane now:** 154 files, 10038 statements: 2434 verified, 3 refuted, 1005 conditional, 859 partial, 62 superseded, 5675 noted, 0 pending.
+
+0 of 19.
+
 ### M75 — 2026-11-19 — section 32 answered
 
 Read at 0fd5ff35: § 31 as read, and § 32 before its read. § 32 was written at c6d3847f7, before row 1972 (b9373d68e),
