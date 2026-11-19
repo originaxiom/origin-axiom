@@ -1,0 +1,28 @@
+{
+ "id": "B1962",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1946",
+  "B1945",
+  "B1940",
+  "B1947"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-B2 stage 3 (harvest row 1842): frame D1 is frame C at shifted charges, checked against main's hand reduction (P-861)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame D1: frame C at identity E's shifted charges q' = q - c q_H/2, c = +2 and c = -2 (the Higgs's twist at its own Szego zero)",
+  "object": "the card, sealed before frame D1's cusp mixing is computed: the cells, the classification ALIGNED, DERANGED or PARTIAL, the gate and the expectations",
+  "reach": "single",
+  "hypotheses": "no output computed; identity E assumed at the norms (shown at the residues only); both signs of c run, the convention not chosen"
+ },
+ "claim_one_line": "FRAME D1'S CUSP MIXING, ITS CARD SEALED BEFORE ITS OUTPUTS (OPEN; P-861): frame D1 is frame C at shifted charges (identity E, the web seat's W-B2 stage 3 with main's hand reduction), so its mixing is computed on frame C's own code at those charges, for both signs of c and all four Higgs reading pairs, at the 24 points of order 5 and heights 6 and 30; frame D1 does not fix the reading, so it passes P-861's gate only if every reading pair is ALIGNED and the leptons separate from the down sector; expected NEGATIVE as sealed (prior 0.8). 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

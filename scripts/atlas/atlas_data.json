@@ -17814,6 +17814,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1962": {
+   "slug": "frame d1s cusp mixing",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [
+    "B2"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

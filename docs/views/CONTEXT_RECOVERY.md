@@ -13,10 +13,10 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1658 |
+| arcs with a verdict file | 1659 |
 | … PROVED | 1156 |
 | … NEGATIVE | 386 |
-| … OPEN | 103 |
+| … OPEN | 104 |
 | … RETRACTED | 13 |
 | register points | 877 |
 | … “QUEUED” | 308 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1962 | OPEN | “FRAME D1'S CUSP MIXING, ITS CARD SEALED BEFORE ITS OUTPUTS (OPEN; P-861): frame D1 is frame C at shifted charges (identity E, the web seat's W-B2 stage 3 with main's hand reduction), so its mixing is computed on frame C…” |
 | B1961 | PROVED | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every ano…” |
 | B1960 | PROVED | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, unc…” |
 | B1959 | PROVED | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the l…” |
@@ -42,7 +43,6 @@
 | B1953 | PROVED | “FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5…” |
 | B1952 | PROVED | “THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-…” |
 | B1951 | PROVED | “THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on th…” |
-| B1950 | PROVED | “REVIEW 83 ENTERED: BOTH READERS CAUGHT ALL SIX PLANTS, AND THEIR FINDINGS INCLUDE ERRORS IN MAIN'S MATHEMATICS (PROVED, a process arc): every quotation main's check could parse is exact (28 of 28 and 20 of 20); mended o…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -71,6 +71,6 @@
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 166 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 167 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 
