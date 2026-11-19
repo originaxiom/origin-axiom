@@ -1,1 +1,109 @@
 D-1 done  [2 s]
+D-2 done  [92 s]
+D-1 mark x = 0      height  6: aligned  least diagonal 0.999998  |V12| 0.000908220546772 |V23| 0.00148746010958 |V13| 2.20312823196e-8  J -2.32549304689e-14  up ['2.21220781682e-5', '4.68878786743e-7']  down ['0.000255873943842', '4.31364084643e-8']  ln D2 3.1e-39 ln D1 5.2e-38
+D-1 mark x = 0      height  8: aligned  least diagonal 1.000000  |V12| 2.09369759532e-5 |V23| 0.000224206587007 |V13| 2.17304244154e-11  J -8.18402413048e-20  up ['5.09765575924e-7', '8.75631426344e-10']  down ['2.08597695197e-5', '4.31864824221e-11']  ln D2 7.1e-42 ln D1 4.4e-38
+D-1 mark x = 0      height 10: aligned  least diagonal 1.000000  |V12| 4.82682825262e-7 |V23| 3.39751369125e-5 |V13| 2.15739069679e-14  J -2.85778571469e-25  up ['1.17517020154e-8', '1.63519274066e-12']  down ['1.69268013131e-6', '4.30688153672e-14']  ln D2 4.3e-45 ln D1 8.8e-39
+D-1 mark x = 0      height 14: aligned  least diagonal 1.000000  |V12| 2.56542067377e-10 |V23| 7.82708479512e-7 |V13| 2.13838545254e-20  J -3.47670500505e-36  up ['6.24591248241e-12', '5.70247700452e-18']  down ['1.11134917094e-8', '4.27613205366e-20']  ln D2 1.7e-50 ln D1 3.4e-41
+D-1 mark x = 0      height 20: aligned  least diagonal 1.000000  |V12| 3.14342944124e-15 |V23| 2.73965632517e-9 |V13| 2.11422225703e-29  J -1.47456181563e-52  up ['7.65316382386e-17', '3.71368804503e-26']  down ['5.90705676699e-12', '4.2284299432e-29']  ln D2 1.8e-59 ln D1 2.5e-44
+D-1 mark x = 0      height 30: aligned  least diagonal 1.000000  |V12| 2.0471308042e-23 |V23| 2.21088625945e-13 |V13| 2.07495907518e-44  J -7.60564712994e-80  up ['4.98405569652e-25', '8.43416088649e-40']  down ['2.05999559206e-17', '4.14991812365e-44']  ln D2 9.3e-75 ln D1 3.3e-49
+   rate of |V12| between consecutive heights: 0.6000 0.6000 0.6000 0.6000 0.6000
+   rate of |V23| between consecutive heights: 0.3012 0.3003 0.3001 0.3000 0.3000
+   rate of |V13| between consecutive heights: 1.1016 1.1006 1.1001 1.1000 1.1000
+   rate of |J|: 1.9985 1.9998 2.0000 2.0000 2.0000
+D-1 mark x = 13/100 height  6: aligned  least diagonal 0.999999  |V12| 0.000843322877589 |V23| 0.00149361632782 |V13| 2.20152873043e-8  J -1.66760151086e-14  up ['1.83027713849e-5', '4.68879496579e-7']  down ['0.000275547597492', '4.31273002176e-8']  ln D2 1.7e-39 ln D1 5.8e-37
+D-1 mark x = 13/100 height  8: aligned  least diagonal 1.000000  |V12| 1.94461492722e-5 |V23| 0.000224463660096 |V13| 2.17283291854e-11  J -5.92823315081e-20  up ['4.21691829601e-7', '8.75631435044e-10']  down ['2.24588313407e-5', '4.31857489465e-11']  ln D2 3.7e-42 ln D1 6.3e-38
+D-1 mark x = 13/100 height 10: aligned  least diagonal 1.000000  |V12| 4.48323565347e-7 |V23| 3.3986151635e-5 |V13| 2.15734124765e-14  J -2.07567176423e-25  up ['9.72120567383e-9', '1.63519274077e-12']  down ['1.82240519829e-6', '4.30687562245e-14']  ln D2 1.3e-44 ln D1 1.3e-38
+D-1 mark x = 13/100 height 14: aligned  least diagonal 1.000000  |V12| 2.38280886499e-10 |V23| 7.827289876e-7 |V13| 2.13838167294e-20  J -2.52769577351e-36  up ['5.1667183774e-12', '5.70247700452e-18']  down ['1.19651985971e-8', '4.27613201516e-20']  ln D2 1.3e-50 ln D1 2.5e-42
+D-1 mark x = 13/100 height 20: aligned  least diagonal 1.000000  |V12| 2.9196738446e-15 |V23| 2.73965797973e-9 |V13| 2.1142221712e-29  J -1.07215321845e-52  up ['6.33081907656e-17', '3.71368804503e-26']  down ['6.35975699367e-12', '4.22842994318e-29']  ln D2 1.2e-59 ln D1 2.8e-44
+D-1 mark x = 13/100 height 30: aligned  least diagonal 1.000000  |V12| 1.90141193791e-23 |V23| 2.21088626194e-13 |V13| 2.07495907502e-44  J -5.530073605e-80  up ['4.12289029848e-25', '8.43416088649e-40']  down ['2.21786786385e-17', '4.14991812365e-44']  ln D2 5.2e-75 ln D1 2.9e-49
+   rate of |V12| between consecutive heights: 0.6000 0.6000 0.6000 0.6000 0.6000
+   rate of |V23| between consecutive heights: 0.3016 0.3004 0.3001 0.3000 0.3000
+   rate of |V13| between consecutive heights: 1.1015 1.1005 1.1001 1.1000 1.1000
+   rate of |J|: 1.9969 1.9994 1.9999 2.0000 2.0000
+D-1 mark x = 1/4    height  6: aligned  least diagonal 0.999999  |V12| 0.000803732362247 |V23| 0.00149810030699 |V13| 2.19367704137e-8  J -1.08644118629e-14  up ['1.42588664147e-5', '4.6888001524e-7']  down ['0.000289085448117', '4.3121156565e-8']  ln D2 1.5e-39 ln D1 1.2e-36
+D-1 mark x = 1/4    height  8: aligned  least diagonal 1.000000  |V12| 1.85379228359e-5 |V23| 0.000224651303064 |V13| 2.17065876354e-11  J -3.9249250831e-20  up ['3.28430820518e-7', '8.75631441402e-10']  down ['2.35588881881e-5', '4.31852542103e-11']  ln D2 3.3e-42 ln D1 8.6e-38
+D-1 mark x = 1/4    height 10: aligned  least diagonal 1.000000  |V12| 4.27394159557e-7 |V23| 3.39941980759e-5 |V13| 2.15670966423e-14  J -1.38065852435e-25  up ['7.57110385381e-9', '1.63519274084e-12']  down ['1.91164617886e-6', '4.3068716332e-14']  ln D2 8.5e-45 ln D1 8.9e-39
+D-1 mark x = 1/4    height 14: aligned  least diagonal 1.000000  |V12| 2.27157500977e-10 |V23| 7.82743973956e-7 |V13| 2.1383302647e-20  J -1.68427051228e-36  up ['4.02395409192e-12', '5.70247700452e-18']  down ['1.25511070438e-8', '4.27613198919e-20']  ln D2 5.7e-51 ln D1 1.5e-40
+D-1 mark x = 1/4    height 20: aligned  least diagonal 1.000000  |V12| 2.78337819158e-15 |V23| 2.73965918885e-9 |V13| 2.11422099793e-29  J -7.1451264675e-53  up ['4.93058129755e-17', '3.71368804503e-26']  down ['6.67117972272e-12', '4.22842994317e-29']  ln D2 8.7e-60 ln D1 1.2e-44
+D-1 mark x = 1/4    height 30: aligned  least diagonal 1.000000  |V12| 1.81265059144e-23 |V23| 2.21088626376e-13 |V13| 2.07495907287e-44  J -3.68540766435e-80  up ['3.21099774793e-25', '8.43416088649e-40']  down ['2.32647177175e-17', '4.14991812365e-44']  ln D2 9.3e-74 ln D1 1.4e-48
+   rate of |V12| between consecutive heights: 0.5999 0.6000 0.6000 0.6000 0.6000
+   rate of |V23| between consecutive heights: 0.3020 0.3005 0.3001 0.3000 0.3000
+   rate of |V13| between consecutive heights: 1.1011 1.1004 1.1001 1.1000 1.1000
+   rate of |J|: 1.9944 1.9986 1.9998 2.0000 2.0000
+D-1 twin x = 0      height  6: aligned  least diagonal 0.993315  |V12| 2.05414663312e-6 |V23| 0.115434825194 |V13| 2.39909257511e-7  J 5.16910866645e-16  up ['0.00712892213629', '5.11362759066e-9']  down ['0.000916419035955', '8.36447024814e-8']  ln D2 2.2e-42 ln D1 3.5e-38
+D-1 twin x = 0      height  8: aligned  least diagonal 0.998038  |V12| 7.2332789489e-9 |V23| 0.0626089184671 |V13| 4.54264789737e-10  J 7.91587663041e-23  up ['0.00204175277074', '2.72974178541e-12']  down ['7.60954167146e-5', '8.4419010072e-11']  ln D2 2.2e-44 ln D1 4.3e-39
+D-1 twin x = 0      height 10: aligned  least diagonal 0.999437  |V12| 2.53502659379e-11 |V23| 0.0335529475577 |V13| 8.51304433612e-13  J -4.72396720006e-29  up ['0.000582079487883', '1.45219869368e-15']  down ['6.20601304429e-6', '8.43936746798e-14']  ln D2 2.4e-46 ln D1 1.7e-39
+D-1 twin x = 0      height 14: aligned  least diagonal 0.999954  |V12| 3.10738833611e-16 |V23| 0.00956518216764 |V13| 2.97247780092e-18  J -9.22041213402e-41  up ['4.71784025277e-5', '4.10349876507e-22']  down ['4.08206484671e-8', '8.38668596354e-20']  ln D2 1.1e-52 ln D1 9.9e-42
+D-1 twin x = 0      height 20: aligned  least diagonal 0.999999  |V12| 1.33283710944e-23 |V23| 0.00145254190233 |V13| 1.93600481511e-26  J -9.40071679703e-59  up ['1.08771233513e-6', '6.16106523961e-32']  down ['2.17004362233e-11', '8.29377719856e-29']  ln D2 1.2e-61 ln D1 6.7e-45
+D-1 twin x = 0      height 30: aligned  least diagonal 1.000000  |V12| 7.00471091591e-36 |V23| 6.27702354661e-5 |V13| 4.39687354864e-40  J -9.06359309616e-89  up ['2.03124296624e-9', '2.61300250292e-48']  down ['7.56772271378e-17', '8.13979660919e-44']  ln D2 3.5e-75 ln D1 2.6e-49
+   rate of |V12| between consecutive heights: 0.8991 0.8998 0.9000 0.9000 0.9000
+   rate of |V23| between consecutive heights: 0.0974 0.0993 0.0999 0.1000 0.1000
+   rate of |V13| between consecutive heights: 0.9978 0.9994 0.9999 1.0000 1.0000
+   rate of |J|: 2.4974 2.2810 2.1456 2.1978 2.2000
+D-1 twin x = 13/100 height  6: aligned  least diagonal 0.993319  |V12| 2.02462704699e-6 |V23| 0.115402882987 |V13| 2.35332469514e-7  J 4.85004825728e-16  up ['0.0072651812746', '5.22891007879e-9']  down ['0.000933761518007', '8.36345091948e-8']  ln D2 1.7e-41 ln D1 1.4e-37
+D-1 twin x = 13/100 height  8: aligned  least diagonal 0.998038  |V12| 7.099862882e-9 |V23| 0.0626045001673 |V13| 4.45716246807e-10  J 8.86764598929e-23  up ['0.00208085951478', '2.7923689969e-12']  down ['7.75517177836e-5', '8.44181958003e-11']  ln D2 2.2e-43 ln D1 3.1e-38
+D-1 twin x = 13/100 height 10: aligned  least diagonal 0.999437  |V12| 2.48744979711e-11 |V23| 0.0335522905639 |V13| 8.35301715553e-13  J -2.60090692303e-29  up ['0.000593229770512', '1.48556283893e-15']  down ['6.32488721376e-6', '8.43936092391e-14']  ln D2 2.8e-47 ln D1 1.3e-39
+D-1 twin x = 13/100 height 14: aligned  least diagonal 0.999954  |V12| 3.04898217027e-16 |V23| 0.00956516712478 |V13| 2.91660681409e-18  J -6.70225880768e-41  up ['4.80821589197e-5', '4.19778793666e-22']  down ['4.16026144512e-8', '8.38668592098e-20']  ln D2 1.7e-52 ln D1 1.5e-41
+D-1 twin x = 13/100 height 20: aligned  least diagonal 0.999999  |V12| 1.30778498701e-23 |V23| 0.0014525418497 |V13| 1.89961549973e-26  J -6.90258304342e-59  up ['1.10854871343e-6', '6.30263277588e-32']  down ['2.21161329878e-11', '8.29377719852e-29']  ln D2 8.0e-61 ln D1 3.3e-44
+D-1 twin x = 13/100 height 30: aligned  least diagonal 1.000000  |V12| 6.8730497586e-36 |V23| 6.27702354617e-5 |V13| 4.31422952991e-40  J -6.65655341468e-89  up ['2.07015375681e-9', '2.67304347187e-48']  down ['7.71269112891e-17', '8.13979660918e-44']  ln D2 1.9e-75 ln D1 5.2e-49
+   rate of |V12| between consecutive heights: 0.8997 0.8999 0.9000 0.9000 0.9000
+   rate of |V23| between consecutive heights: 0.0973 0.0993 0.0999 0.1000 0.1000
+   rate of |V13| between consecutive heights: 0.9978 0.9994 0.9999 1.0000 1.0000
+   rate of |J|: 2.4692 2.3940 2.1235 2.1972 2.2000
+D-1 twin x = 1/4    height  6: aligned  least diagonal 0.993321  |V12| 2.00670707393e-6 |V23| 0.115381316041 |V13| 2.32386488333e-7  J 3.74893575435e-16  up ['0.00735564750418', '5.30515077778e-9']  down ['0.000945267339266', '8.36276359805e-8']  ln D2 2.3e-40 ln D1 1.3e-36
+D-1 twin x = 1/4    height  8: aligned  least diagonal 0.998039  |V12| 7.01431635678e-9 |V23| 0.0626015195707 |V13| 4.40215007782e-10  J 7.37803244225e-23  up ['0.00210682737106', '2.83382563063e-12']  down ['7.85186769038e-5', '8.44176465795e-11']  ln D2 1.8e-44 ln D1 2.6e-38
+D-1 twin x = 1/4    height 10: aligned  least diagonal 0.999437  |V12| 2.45684211211e-11 |V23| 0.0335518474037 |V13| 8.25003693894e-13  J -1.34570739269e-29  up ['0.000600633877758', '1.50765023848e-15']  down ['6.40382266296e-6', '8.43935650987e-14']  ln D2 1.5e-46 ln D1 8.7e-39
+D-1 twin x = 1/4    height 14: aligned  least diagonal 0.999954  |V12| 3.01139693941e-16 |V23| 0.00956515697821 |V13| 2.88065294084e-18  J -4.47366095869e-41  up ['4.86822793201e-5', '4.2602087395e-22']  down ['4.21218624785e-8', '8.38668589228e-20']  ln D2 2.0e-52 ln D1 1.2e-40
+D-1 twin x = 1/4    height 20: aligned  least diagonal 0.999999  |V12| 1.2916635459e-23 |V23| 0.0014525418142 |V13| 1.87619839377e-26  J -4.63983743022e-59  up ['1.1223846717e-6', '6.39635254789e-32']  down ['2.23921676711e-11', '8.29377719851e-29']  ln D2 6.9e-61 ln D1 2.6e-44
+D-1 twin x = 1/4    height 30: aligned  least diagonal 1.000000  |V12| 6.78832369984e-36 |V23| 6.27702354588e-5 |V13| 4.26104678317e-40  J -4.47515849838e-89  up ['2.09599164796e-9', '2.71279146827e-48']  down ['7.80895435245e-17', '8.13979660918e-44']  ln D2 4.7e-76 ln D1 3.9e-49
+   rate of |V12| between consecutive heights: 0.9002 0.8999 0.9000 0.9000 0.9000
+   rate of |V23| between consecutive heights: 0.0973 0.0993 0.0999 0.1000 0.1000
+   rate of |V13| between consecutive heights: 0.9977 0.9994 0.9999 1.0000 1.0000
+   rate of |J|: 2.4575 2.4696 2.1032 2.1969 2.2000
+D-2 mark height 10 Wm, no singlet: deranged (least diagonal 4.483e-07), ln D2 1.3e-44, ln D1 1.3e-38
+   odd : aligned in   2 of 184 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 0; largest |ln D| 1.703e+00; kappa >= 3 all aligned: False
+   even: aligned in   2 of 184 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 2; largest |ln D| 1.703e+00; kappa >= 3 all aligned: False
+D-2 mark height 10 Wp, no singlet: deranged (least diagonal 1.462e-12), ln D2 1.3e-44, ln D1 6.7e-38
+   odd : aligned in   0 of 184 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.582e+00; kappa >= 3 all aligned: False
+   even: aligned in   0 of 184 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.582e+00; kappa >= 3 all aligned: False
+D-2 mark height 20 Wm, no singlet: deranged (least diagonal 2.920e-15), ln D2 1.2e-59, ln D1 2.8e-44
+   odd : aligned in   2 of 344 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 0; largest |ln D| 2.207e+00; kappa >= 3 all aligned: False
+   even: aligned in   2 of 344 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 2; largest |ln D| 2.207e+00; kappa >= 3 all aligned: False
+D-2 mark height 20 Wp, no singlet: deranged (least diagonal 3.346e-26), ln D2 1.2e-59, ln D1 3.3e-39
+   odd : aligned in   0 of 344 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.989e+00; kappa >= 3 all aligned: False
+   even: aligned in   0 of 344 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.989e+00; kappa >= 3 all aligned: False
+D-2 mark height 30 Wm, no singlet: deranged (least diagonal 1.901e-23), ln D2 5.2e-75, ln D1 2.9e-49
+   odd : aligned in   2 of 504 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 0; largest |ln D| 1.624e+00; kappa >= 3 all aligned: False
+   even: aligned in   2 of 504 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 2; largest |ln D| 1.624e+00; kappa >= 3 all aligned: False
+D-2 mark height 30 Wp, no singlet: deranged (least diagonal 7.599e-40), ln D2 5.2e-75, ln D1 4.7e-42
+   odd : aligned in   0 of 504 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 2.015e+00; kappa >= 3 all aligned: False
+   even: aligned in   0 of 504 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 2.015e+00; kappa >= 3 all aligned: False
+D-2 twin height 10 Wm, no singlet: deranged (least diagonal 4.495e-13), ln D2 2.8e-47, ln D1 1.3e-39
+   odd : aligned in   0 of 184 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.531e+00; kappa >= 3 all aligned: False
+   even: aligned in   0 of 184 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.531e+00; kappa >= 3 all aligned: False
+D-2 twin height 10 Wp, no singlet: partial (least diagonal 1.289e-07), ln D2 4.3e-47, ln D1 1.4e-36
+   odd : aligned in   2 of 184 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.203e-01 at k = 1, j = 0; largest |ln D| 2.402e+00; kappa >= 3 all aligned: False
+   even: aligned in   2 of 184 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.203e-01 at k = 1, j = 2; largest |ln D| 2.402e+00; kappa >= 3 all aligned: False
+D-2 twin height 20 Wm, no singlet: deranged (least diagonal 1.021e-26), ln D2 8.0e-61, ln D1 3.3e-44
+   odd : aligned in   0 of 344 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.383e+00; kappa >= 3 all aligned: False
+   even: aligned in   0 of 344 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 1.383e+00; kappa >= 3 all aligned: False
+D-2 twin height 20 Wp, no singlet: deranged (least diagonal 8.396e-16), ln D2 8.0e-61, ln D1 4.1e-39
+   odd : aligned in   2 of 344 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 0; largest |ln D| 1.647e+00; kappa >= 3 all aligned: False
+   even: aligned in   2 of 344 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 2; largest |ln D| 1.647e+00; kappa >= 3 all aligned: False
+D-2 twin height 30 Wm, no singlet: deranged (least diagonal 2.319e-40), ln D2 1.9e-75, ln D1 5.2e-49
+   odd : aligned in   0 of 504 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 2.026e+00; kappa >= 3 all aligned: False
+   even: aligned in   0 of 504 cells (kappa exponents k/2 with k in none); least heavy-pair ratio when aligned none; largest |ln D| 2.026e+00; kappa >= 3 all aligned: False
+D-2 twin height 30 Wp, no singlet: deranged (least diagonal 5.468e-24), ln D2 1.9e-75, ln D1 7.8e-42
+   odd : aligned in   2 of 504 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 0; largest |ln D| 1.317e+00; kappa >= 3 all aligned: False
+   even: aligned in   2 of 504 cells (kappa exponents k/2 with k in [1]); least heavy-pair ratio when aligned 4.202e-01 at k = 1, j = 2; largest |ln D| 1.317e+00; kappa >= 3 all aligned: False
+C1 holds: False
+C2 holds: True
+C3 holds: True
+C4 holds: True | worst |V| change at 20 more digits 0.00e+00, classes unchanged True
+X1 holds: True
+X2 holds: False
+X3 holds: True
+X4 holds: False
+X5 holds: True
+X6 holds: False | odd splits somewhere True, even splits somewhere True
+done  [92 s]
