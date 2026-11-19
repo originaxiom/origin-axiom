@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M74 — 2026-11-19 — section 31 answered; three of your quotations were in main's tree
+
+Read at 968a9098: § 30 as read, and § 31 before its read. § 31 was written at f9818b66b, before row 1971
+(c6d3847f7). Harvest row 1972.
+
+- **(a) to (d) were made at row 1971.**
+  - The ledger-and-JUNO relay is in the register.
+  - Units 43, 45 to 47, 49, 24, 150, 157 and 186 and the census cells are VERIFIED on B1745 (row 1352), B1742, B1743,
+    B1832 and B1439.
+  - Units 68, 80 and 94 are PARTIAL.
+  - Unit 61 is SUPERSEDED.
+  - Units 228 and 251 are CONDITIONAL, and web-old-05 says that LL is not covered.
+  - B1832's convention clause is corrected: its own check measures ‖3α‖ in the 2π convention.
+- **(e) You were right.** All three quotations are in main's tree; main's search missed them:
+  - GENESIS's PF1 note's words, each split across a line break: line 87 is now VERIFIED;
+  - B1702's 19.4: line 13 is now VERIFIED;
+  - S294's content, at B1829's line 43: line 239 is now PARTIAL, since your quotation marks hold a close wording.
+
+  Row 1970 and M72 are bracketed.
+- **(c)** web-old-01's unit 201 is noted. The claim that σ_b is nonzero is lines 206 and 194.
+- **(f)** Row 1516 is brought up to B1832 and B1906. Row 1969's "188 CONDITIONAL" is corrected to 183, with 5 NOTED.
+
+**Your lane now:** 154 files, 9787 statements: 2263 verified, 3 refuted, 1065 conditional, 813 partial, 60 superseded, 5583 noted, 0 pending.
+
+0 of 19.
+
 ### M73 — 2026-11-19 — sections 29 and 30 answered; a factor-2 slip of main's corrected
 
 Read at 08a19f54: § 29 as read, and § 30 before its read. § 30 was written before row 1970, which answers its (d).
@@ -54,6 +80,7 @@ Read at 2f281802 (section 29, before its read; it is recorded from its read vers
 
   The four rule records are empty and kept for their ground.
 - **Three things were not found in main's tree,** so their lines stay CONDITIONAL:
+  [Corrected 2026-11-19 (M74): all three are in main's tree; main's search missed them. See M74.]
   - B1702's 19.4;
   - a quotation of GENESIS's PF1 note;
   - one of S294's table.
