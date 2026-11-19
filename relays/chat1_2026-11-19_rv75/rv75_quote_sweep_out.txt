@@ -1,0 +1,180 @@
+corpus: 4171 markdown files of main, read through the mask; units to sweep: 900
+CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:22 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1753_the_six_on_the_five_ality_lines/FINDINGS.md
+CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:47 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:69 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO:104 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:38 | CONDITIONAL | quotations 2 | found 2
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_4.md
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_4.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:42 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_4.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:46 | CONDITIONAL | quotations 1 | found 1
+      in TERMINOLOGY.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:51 | CONDITIONAL | quotations 3 | found 3
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_3.md
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_3.md
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_3.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:57 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:67 | CONDITIONAL | quotations 1 | found 1
+      in GENESIS.md, frontier/B1492_the_three_ended_companion_read/received/GENESIS_v1_17_main.md, frontier/B1493_the_room_on_the_companions/received/GENESIS_v1_18_main.md (+43)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:69 | CONDITIONAL | quotations 1 | found 1
+      in GENESIS.md, frontier/B1495_the_orbit_in_one_module/received/GENESIS_v1_20_main.md, frontier/B1496_three_generations_researched/received/GENESIS_v1_21_main.md (+40)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:71 | CONDITIONAL | quotations 3 | found 3
+      in frontier/B1492_the_three_ended_companion_read/FINDINGS.md
+      in CHANGELOG.md, docs/POINT_REGISTER.md, docs/views/VERDICT_LEDGER.md
+      in docs/POINT_REGISTER.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:76 | PARTIAL | quotations 1 | found 1
+      in CHANGELOG.md, PROGRESS_LOG.md, docs/CAMPAIGN_STATUS.md (+1)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:80 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1492_the_three_ended_companion_read/FINDINGS.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:82 | PARTIAL | quotations 2 | found 2
+      in GENESIS.md, docs/OPEN_LEADS.md, frontier/B1493_the_room_on_the_companions/received/GENESIS_v1_18_main.md (+43)
+      in frontier/B1492_the_three_ended_companion_read/FINDINGS.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:86 | CONDITIONAL | quotations 2 | found 2
+      in GENESIS.md, frontier/B1601_the_common_point_is_the_geometry_mod_3/received/GENESIS_v1_24_main.md, frontier/B1602_the_forced_cover_on_every_thread/received/GENESIS_v1_25_main.md (+36)
+      in GENESIS.md, frontier/B1607_the_principles_tick_at_the_common_point/received/GENESIS_v1_28_main.md, frontier/B1609_the_even_subweave/received/GENESIS_v1_29_main.md (+32)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:89 | CONDITIONAL | quotations 2 | found 2
+      in CHANGELOG.md, GENESIS.md, PROGRESS_LOG.md (+48)
+      in TERMINOLOGY.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:98 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, docs/THE_CLOCK_AND_THE_NEXT_ATTACK_2026-10-29.md, frontier/B1830_the_register_triaged/verification/batch_4.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:105 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/FINDINGS.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:109 | PARTIAL | quotations 1 | found 1
+      in docs/THE_WEAVE.md, frontier/B1600_the_weave_verified/FINDINGS.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:111 | CONDITIONAL | quotations 2 | found 2
+      in docs/LAW_MAP.md, docs/THE_WEAVE.md, frontier/B1621_the_principles_clock_and_tick_on_the_matter/FINDINGS.md
+      in docs/OPEN_LEADS.md, docs/THE_WEAVE.md, docs/views/VERDICT_LEDGER.md (+2)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:114 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:116 | CONDITIONAL | quotations 2 | found 0
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:121 | CONDITIONAL | quotations 1 | found 1
+      in docs/THE_FINAL_ACTS_BAR_2026-10-29.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:125 | CONDITIONAL | quotations 2 | found 0
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:128 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1720_the_thread_fixes_the_point/FINDINGS.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:130 | PARTIAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1694_the_parameter_free_curve/FINDINGS.md, frontier/B1695_one_line_one_tau_the_unique_section/PREREGISTRATION.md (+1)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:133 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:135 | CONDITIONAL | quotations 2 | found 1
+      in CHANGELOG.md, PROGRESS_LOG.md, docs/CAMPAIGN_STATUS.md (+7)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:174 | CONDITIONAL | quotations 1 | found 1
+      in docs/THE_BAR.md, frontier/B1458_the_bar_adopted_and_the_own_level_law/received/THE_BAR_sm.md, frontier/B1462_the_seats_harvested_p_is_the_swap_and_the_levels/received/THE_BAR_sm_B1524.md (+1)
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:176 | CONDITIONAL | quotations 2 | found 2
+      in docs/THE_FINAL_ACTS_BAR_2026-10-29.md
+      in docs/THE_FINAL_ACTS_BAR_2026-10-29.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:178 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:182 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_4.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:190 | CONDITIONAL | quotations 1 | found 1
+      in docs/THE_WEAVE.md, frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/FINDINGS.md
+CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY:212 | CONDITIONAL | quotations 1 | found 1
+      in GENESIS.md, docs/OPEN_LEADS.md, frontier/B1493_the_room_on_the_companions/received/GENESIS_v1_18_main.md (+43)
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:43 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:53 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1826_the_agy_lanes_november_audit_verified_on_main/FINDINGS.md
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:62 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_5.md
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:70 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:71 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:74 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_2.md
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:76 | CONDITIONAL | quotations 2 | found 2
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_3.md
+      in docs/POINT_REGISTER.md, frontier/B1799_the_neutrinos_self_pairing_at_the_canonical_end/FINDINGS.md, frontier/B1830_the_register_triaged/verification/batch_3.md
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:81 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:212 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:252 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_2.md
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:305 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1788_the_closed_form_of_the_exponents/FINDINGS.md
+CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:307 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1788_the_closed_form_of_the_exponents/FINDINGS.md
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:57 | CONDITIONAL | quotations 3 | found 3
+      in frontier/B1742_two_higgs_verified_on_main/FINDINGS.md
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_3.md
+      in frontier/B1789_the_lepton_factor_not_derived_in_the_frame/FINDINGS.md
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:60 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1726_the_two_ingredients_replicated/FINDINGS.md
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:74 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_5.md
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:150 | CONDITIONAL | quotations 1 | found 1
+      in CHANGELOG.md, CLAIMS.md, PROGRESS_LOG.md (+10)
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:180 | CONDITIONAL | quotations 1 | found 1
+      in docs/ERROR_LEDGER.md, docs/progress/REVIEWS.md, frontier/B1742_two_higgs_verified_on_main/FINDINGS.md (+3)
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:210 | PARTIAL | quotations 1 | found 1
+      in CHANGELOG.md, PROGRESS_LOG.md, ROADMAP.md (+15)
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:213 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_3.md
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:237 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1827_the_framing_ledger/verification/readers/A5_blind_pass.md
+CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES:239 | PARTIAL | quotations 1 | found 0
+CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES:17 | CONDITIONAL | quotations 1 | found 1
+      in CHANGELOG.md, docs/CAMPAIGN_STATUS.md, docs/POINT_REGISTER.md (+5)
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:59 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1726_the_two_ingredients_replicated/FINDINGS.md
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:80 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:101 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:105 | CONDITIONAL | quotations 1 | found 1
+      in CHANGELOG.md, PROGRESS_LOG.md, ROADMAP.md (+19)
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:106 | CONDITIONAL | quotations 2 | found 2
+      in frontier/B1726_the_two_ingredients_replicated/FINDINGS.md
+      in frontier/B1753_the_six_on_the_five_ality_lines/FINDINGS.md
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:144 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:167 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:195 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:205 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:252 | CONDITIONAL | quotations 1 | found 1
+      in PROGRESS_LOG.md, docs/CAMPAIGN_STATUS.md, docs/LOOK_LEDGER.md (+11)
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:262 | CONDITIONAL | quotations 1 | found 0
+CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK:265 | CONDITIONAL | quotations 2 | found 0
+chat1_2026-10-06_first_background/FINDINGS:3 | PARTIAL | quotations 1 | found 0
+chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:87 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:94 | CONDITIONAL | quotations 1 | found 1
+      in CHANGELOG.md, GENESIS.md, PROGRESS_LOG.md (+27)
+chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:196 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:210 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-15_route/WHAT_IT_MEANS_2026-10-15:221 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-16_stepping_stones/THE_STANDING:203 | CONDITIONAL | quotations 1 | found 1
+      in CHANGELOG.md, PROGRESS_LOG.md, docs/POINT_REGISTER.md (+19)
+chat1_2026-10-16_stepping_stones/THE_STANDING:222 | CONDITIONAL | quotations 1 | found 1
+      in frontier/B1660_the_one_higgs_census/FINDINGS.md
+chat1_2026-10-16_stepping_stones/THE_STANDING:236 | CONDITIONAL | quotations 1 | found 1
+      in docs/archive/speculations/S_THE_PUSH_BACK.md
+chat1_2026-10-16_stepping_stones/THE_STANDING:240 | CONDITIONAL | quotations 1 | found 1
+      in GENESIS.md, docs/THE_CHAIN_STATUS.md, frontier/B1456_genesis_v1_2_verified_and_the_seats_reconciled/received/GENESIS_v1_2.md (+59)
+chat1_2026-10-16_stepping_stones/THE_STANDING:246 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-16_stepping_stones/THE_STANDING:343 | CONDITIONAL | quotations 1 | found 1
+      in CHANGELOG.md, PROGRESS_LOG.md, ROADMAP.md (+38)
+chat1_2026-10-16_stepping_stones/WHAT_COULD_BE_SETTLED:41 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:23 | CONDITIONAL | quotations 2 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:31 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_2.md
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:79 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:86 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:91 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_2.md
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:93 | CONDITIONAL | quotations 1 | found 1
+      in GENESIS.md, docs/THE_CHAIN_STATUS.md, docs/THE_FINAL_ACTS_BAR_2026-10-29.md (+63)
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:129 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:132 | CONDITIONAL | quotations 1 | found 1
+      in docs/THE_PRICE_OF_THE_NINETEEN.md
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:142 | CONDITIONAL | quotations 1 | found 1
+      in GENESIS.md, TERMINOLOGY.md, frontier/B1631_the_cusp_unit_tagged_and_the_negatives_audited/FINDINGS.md (+33)
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:145 | CONDITIONAL | quotations 1 | found 1
+      in docs/POINT_REGISTER.md, frontier/B1830_the_register_triaged/verification/batch_2.md
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:168 | CONDITIONAL | quotations 1 | found 1
+      in CHANGELOG.md, PROGRESS_LOG.md, docs/CAMPAIGN_STATUS.md (+14)
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:179 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:184 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:191 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:238 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/ZERO_FREE_RULE:14 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/ZERO_FREE_RULE:18 | CONDITIONAL | quotations 2 | found 0
+chat1_2026-10-21_zero_free/ZERO_FREE_RULE:19 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/ZERO_FREE_RULE:21 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-21_zero_free/ZERO_FREE_RULE:57 | CONDITIONAL | quotations 2 | found 0
+chat1_2026-10-23_rigid_tau/C2_RESOLUTION:30 | CONDITIONAL | quotations 1 | found 0
+chat1_2026-10-23_rigid_tau/C2_RESOLUTION:34 | CONDITIONAL | quotations 2 | found 0
+units with quotations: 104; quotations: 126, found: 74; units with a quotation found: 60
