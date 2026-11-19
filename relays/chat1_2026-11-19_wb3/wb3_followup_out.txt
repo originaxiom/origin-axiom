@@ -1,0 +1,37 @@
+F1 (C4) holds: True | |V| at 20 more digits, two points at height 30, c = +2: 0.00e+00  [1 s]
+F2 plain c = -2 height  6.0: points where a sector's coupling vanishes: up 0, down 0, leptons 0 (of 24)
+   up S  down S  over 24 points: smallest diagonal |V| 1.8736e-04, largest off-diagonal 1.0000e+00  DERANGED
+   up St down St over 24 points: smallest diagonal |V| 1.8803e-04, largest off-diagonal 1.0000e+00  DERANGED
+   up St down S  over 24 points: smallest diagonal |V| 5.0857e-13, largest off-diagonal 1.0000e+00  DERANGED
+   up S  down St over 24 points: smallest diagonal |V| 5.0857e-13, largest off-diagonal 1.0000e+00  DERANGED
+   leptons against down, reading S , over 24 points: plain 1.830e-01, transposed 2.970e-40, spectra 0.000e+00
+   leptons against down, reading St, over 24 points: plain 3.490e-01, transposed 7.398e-39, spectra 0.000e+00
+   [3 s]
+F2 plain c = -2 height 30.0: points where a sector's coupling vanishes: up 0, down 0, leptons 0 (of 24)
+   up S  down S  over 24 points: smallest diagonal |V| 9.6805e-21, largest off-diagonal 1.0000e+00  DERANGED
+   up St down St over 24 points: smallest diagonal |V| 7.8738e-39, largest off-diagonal 1.0000e+00  DERANGED
+   up St down S  over 24 points: smallest diagonal |V| 6.0289e-72, largest off-diagonal 1.0000e+00  DERANGED
+   up S  down St over 24 points: smallest diagonal |V| 6.0289e-72, largest off-diagonal 1.0000e+00  DERANGED
+   leptons against down, reading S , over 24 points: plain 9.884e-05, transposed 2.360e-71, spectra 8.087e-92
+   leptons against down, reading St, over 24 points: plain 1.977e-04, transposed 8.105e-72, spectra 0.000e+00
+   [5 s]
+F2 plain c = +2 height  6.0: points where a sector's coupling vanishes: up 5, down 5, leptons 5 (of 24)
+   up S  down S  over 19 points: smallest diagonal |V| 3.8344e-02, largest off-diagonal 9.9926e-01  DERANGED
+   up St down St over 19 points: smallest diagonal |V| 9.2896e-02, largest off-diagonal 9.9568e-01  DERANGED
+   up St down S  over 19 points: smallest diagonal |V| 4.4455e-13, largest off-diagonal 1.0000e+00  DERANGED
+   up S  down St over 19 points: smallest diagonal |V| 4.4455e-13, largest off-diagonal 1.0000e+00  DERANGED
+   leptons against down, reading S , over 19 points: plain 1.868e-01, transposed 1.176e-38, spectra 0.000e+00
+   leptons against down, reading St, over 19 points: plain 2.604e-01, transposed 4.265e-38, spectra 0.000e+00
+   [6 s]
+F2 plain c = +2 height 30.0: points where a sector's coupling vanishes: up 5, down 5, leptons 5 (of 24)
+   up S  down S  over 19 points: smallest diagonal |V| 2.5280e-05, largest off-diagonal 1.0000e+00  DERANGED
+   up St down St over 19 points: smallest diagonal |V| 1.7799e-38, largest off-diagonal 1.0000e+00  DERANGED
+   up St down S  over 19 points: smallest diagonal |V| 4.9508e-72, largest off-diagonal 1.0000e+00  DERANGED
+   up S  down St over 19 points: smallest diagonal |V| 4.9508e-72, largest off-diagonal 1.0000e+00  DERANGED
+   leptons against down, reading S , over 19 points: plain 7.163e-05, transposed 1.924e-70, spectra 9.699e-92
+   leptons against down, reading St, over 19 points: plain 1.433e-04, transposed 9.965e-67, spectra 0.000e+00
+   [8 s]
+F3: C0 holds: True
+F3: X3 holds: True | parts: True True True True
+F3: X4 holds: True
+done  [8 s]
