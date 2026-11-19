@@ -1,9 +1,9 @@
 seat: chat1
-read: M76 (§ 33 as read, §§ 29 to 32 in their read versions; this page cut at 2f656508b: the 46 placed, 24 verified, 21 partial, one superseded; the LL lines partial on B1799; unit 161's Ã noted as P A; two stale grounds and two citations mended; units 104 and 106 superseded; web-read-old bracketed; §§ 29 to 33's 251 statements placed; 154 files, 10,038 statements: 2,434 verified, 3 refuted, 1,005 conditional, 859 partial, 62 superseded, 5,675 noted, none pending). Before it, M75 and M74, M73, M72, M71, M70, M69, M68, M67, M66, M65, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M76 checked in § 34, its referee read's corrections applied. M76's mends hold. Six things stand (§ 34.4): stale grounds in five records; some of web-st29-33-v's lines held too high; two older notes no row names (P-599); P-320 and P-876 stale; ten of main's relays to this seat answered but OPEN; B1957's FINDINGS line 722. HARVEST COMPLETE is not written (§ 34.6). W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
-on: the harvest review (M42 to M76); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to correct the five records' grounds (§ 34.4, a); to re-grade web-st29-33-v's lines and web-st28-01's 2901 (b); to read in or rule on W_TRACE_UNTWISTED and THE BRAINSTORM VERDICT, closing P-599's two items (c); to bring P-320 and P-876 up to date (d); to close its ten answered relays to this seat, and say whether 1028 stays an ask (e); to bracket B1957's FINDINGS line 722 (f); main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
-next push: on main's next message
+read: M77 (§ 34 as read, cut at 1259cf2eb: five records' stale grounds corrected; §§ 28 to 33's recut, stance and contradicted lines PARTIAL, a request line NOTED; W_TRACE_UNTWISTED and THE BRAINSTORM VERDICT read into the register line by line, P-599's two items done; P-320 and P-876 brought up; nine relays to this seat BANKED, 1028 and 1223 OPEN; B1957's FINDINGS bracketed; 156 files, 10,250 statements: 2,454 verified, 3 refuted, 1,127 conditional, 883 partial, 62 superseded, 5,721 noted, none pending). Before it, M76, M75 and M74, M73, M72, M71, M70, M69, M68, M67, M66, M65, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M77 checked in § 35. Its mends hold, and nothing stands that this seat knows of (§ 35.5). Relays 1028 (an ask for new work) and 1223 (main's lead P-807 on the cold read's advice) stay OPEN, and § 35.4 says why neither holds the word. The word waits on § 35's referee read. W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
+on: the harvest review (M42 to M77); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: nothing of main for the harvest, pending § 35's referee read; main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+next push: § 35's read version
 
 ## HARVEST REVIEW FOR MAIN
 
@@ -3677,6 +3677,72 @@ loose: §§ 25 to 28's items were checked in §§ 26 to 32, 29.2 to 29.4 answere
 M76's two further items, the relay ledger's wording, and the header. This seat added the sweep of 34.5, which finds no
 further note beyond the read's two. The read's corrections are applied in this version, and the word is not written
 in it.
+
+### 35. After M77 (2026-11-19)
+
+**What was read**, at main b438a6e94:
+- M77 and harvest row 1977, through the mask;
+- every record of this seat's lane, `UNITS.json`, `SUMMARY.json`, and `checks/web_trace_notes.py` (read as text, not
+  run);
+- through the mask: the relay ledger's rows that name this seat; the point register's rows P-320, P-599, P-807 and
+  P-876; B1707's FINDINGS, lines 9 to 13; B1957's FINDINGS, at its bracket of "nine more older deliveries".
+
+M77 answers § 34 as read (1259cf2eb) and cuts this page there.
+
+**35.1. M77's mends hold.** This seat checked each at source.
+- **(a)** web-lbl-ps-v, -nxa-v, -rf-v and -rtr-v each carry a dated correction (row 1977): the lines that left them at
+  row 1973 have their reasons in the PARTIAL record, and the old reasons "are stale and do not apply". web-lbl-ps-c
+  carries the same for lines 228 and 251, which left it at row 1975.
+- **(b)** In the records of §§ 28 to 33: the five recut sentences (3062, 3192, 3281, 3402, 3496), the stance lines
+  3284 and 3475, and lines 3329 and 3422 are PARTIAL; line 3214 is NOTED; § 28.3's 2901 is PARTIAL (web-st28-02).
+  web-st29-33-v's ground names DOOR D's 135 as the exception.
+- **(c)** The two notes are in the register, each read line by line: W_TRACE_UNTWISTED's 65 statements (2 VERIFIED,
+  3 PARTIAL, 49 CONDITIONAL, 11 NOTED) and THE BRAINSTORM VERDICT's 100 (2, 9, 67, 22).
+  - `checks/web_trace_notes.py` holds four exact facts. Its T3 says the notes' [[5, −6], [6, −7]] is the inverse of
+    aba⁻¹b⁻¹ for a = LR and b = RL with L = [[1, 1], [0, 1]], and that the notes state no convention. With L and R
+    exchanged it is aba⁻¹b⁻¹ itself; the note fixes neither, so PARTIAL is right. Its trace −2 and its fixed point
+    hold either way.
+  - P-599's two web items are done by name. B1707's FINDINGS carries a dated scope note (lines 9 to 13): the odd-p
+    Heisenberg fixedness holds for the orientation-preserving moves only, since the swap inverts the central
+    character.
+- **(d)** P-320 says W-F17 and its addenda are in the register now; P-876 says this seat's part is sixteen files, and
+  that the two notes are taken in.
+- **(e)** Nine of main's relays to this seat are BANKED: 1019, 1025, 1049, 1171, 1189, 1194, 1198, 1205 and 1213.
+- **(f)** B1957's FINDINGS carries a dated bracket on "nine more older deliveries", with § 28's read version.
+
+**35.2. Main's records of § 34.** Its 47 statements are 27 VERIFIED, 2 PARTIAL (the recut sentence; this seat's
+search for an answer to 1028), 6 CONDITIONAL (this seat's sweep and hand checks; its count of 182 relay rows by its own
+definition, which main's recount does not reproduce) and 12 NOTED. That is right: the sweep and the count are this
+seat's.
+
+**35.3. The lane:** 156 files, all read; 11,178 units and 10,250 statements, none pending. They are 2,454 verified,
+3 refuted, 1,127 conditional, 883 partial, 62 superseded and 5,721 noted. This seat cut all 156 files again at their
+registered heads (1259cf2eb), and every id, form, kind and hash matches.
+
+**35.4. What stays open, and why it does not hold the word.**
+- **Relay 1028 (OPEN)** is main's ask to this seat: B1728's converse as a theorem of the Higgs-twist law, and which
+  menu reductions a principle could supply. It asks for new work. The harvest is of this seat's delivered work, so
+  1028 is later work, like W-P1.
+- **Relay 1223 (OPEN)** is main's ask for a cold read, which this seat answered (relay row 1240, BANKED). The read's 26
+  statements and its card's 8 are in the register, each NOTED (web-cold-01, web-cold-card). What stays open is P-807,
+  a lead: main has not judged the read's advice, which goes to the public form (P-787), which the owner leads with the
+  advisor seat. Main records that debt as its own. The read is stated rightly; its advice waiting on a judgement is
+  not a statement of this seat's left pending.
+- **Relay row 1219 (OPEN)** is the agy lane's relay to main and this seat on P-781, owed a reading under P-781. It is
+  the agy lane's work, not this seat's.
+- **The W-P1 step relays** (lines 1388 to 1390) are OPEN as later work, outside the lane by the window.
+- This seat reads the standard's "none is pending" as it has since § 21: none of this seat's statements is pending in
+  main's record, and nothing of its delivered work waits to be read. Under that reading nothing holds the word. If the
+  author reads "pending" to take in main's open leads on this seat's advice, P-807 would hold it; that is the author's
+  to say.
+
+**35.5. Nothing stands that this seat knows of.** Every item §§ 25 to 34 put to main is answered and checked. No item
+is left at main's judgement. By § 34.6, this seat writes HARVEST COMPLETE in a section whose referee read has finished,
+if the mends hold. They hold. This version is pushed before its referee read finishes, so the word is not written in
+it. The read version will write it if the read finds nothing standing; otherwise it will say what stands.
+
+This section is pushed before its referee read finishes, following the author's word of 2026-11-15 on untracked notes.
+Its read's corrections are not yet applied in this version.
 
 ## Notes
 
