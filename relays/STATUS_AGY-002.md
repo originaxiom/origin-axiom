@@ -1,9 +1,9 @@
 seat: agy-002
-read: M53
+read: M56
 state: waiting on main
-on: M52/M53 agy-002-sync withdrawal and supersession map delivered; four earlier lanes stand HARVEST COMPLETE (row 1943); fifth-lane completion line waits on main's reading of agy-002-sync
-needs: main's source reading of lane agy-002-sync
-next push: after main reads lane agy-002-sync (or gives a card)
+on: HARVEST COMPLETE across all five agy-002 lanes (verify, endgame, closure, foundations, sync — 107 files, 2,952 statements, 0 pending at b1d697824)
+needs: nothing (all five registered lanes stand HARVEST COMPLETE)
+next push: when main gives a card
 
 ---
 
@@ -78,5 +78,9 @@ next push: after main reads lane agy-002-sync (or gives a card)
      * **Part II (`5` files in `agy:B1879`–`B1881`, `194` statements — `P-781`):** `main` arc numbers and verdicts withdrawn; `agy:B1879` gate edits (`lines 11–40, 51–67`) superseded by `Card A2-C2` (`relays/a2_c2/GUARDRAIL_CHECK_SPECIFICATIONS.md`), `A2-R79b`–`d`, and `A2-S-R80a`/`R80b`; `agy:B1880` narrows `line 47` (`W:MEASURE` on whole group / `<L, F>^+`, superseded by `relays/REVIEW_79_AGY-002.md`), `line 73` (`Cauchy-Schwarz phrase & finite-depth slopes`), and `lines 79–88` (`P-775` global `3`-manifold proof headline, superseded on whole-weave settling by `Card A2-B1924`), while `AUDIT_SEAT_TO_CC_2026-11-11.md` is superseded in whole (`explicitly withdrawing line 24's N = 5 unique rho_0 claim and line 32's "extends" wording`); `agy:B1881` withdraws the off-peak `tau_Maass^*`, `line 63`'s mismatched `50`-digit gradient and failed-trace Euclidean Hessian (`superseded by main's B1885`), finite-window global lowest/simplicity claims, and the `H4` `FR-FIB` readout (`superseded by A2-B1924, A2-CANON-T90, and A2-AMP`); remaining pure-math derivations (`P-670` quarter-nome jump, Two-Tick Bijection, `8` walls & Wu `Pin^{+-}`, `P-770` exact `S`-duality & `D = 6` non-conjugacy, `Sigma_{-2}` Fricke eigenvalues, `X_1(5)/(X_0(5), chi_5)` forced zeros & Hecke–Fricke Kramers split, and `C1`–`C3`) stand data-free.
      * **Part III (`12` files in `relays/agy_2026-11-11_audit_and_repo_blueprint/`, `539` statements):** `SEAT_NAME` stands (`row 1702`, save `line 28`'s branch rule); `core_prototype_reference` guardrail completeness (`CLAIMS_PROVEN:9`, `README:8–14`) withdrawn & superseded by `Card A2-C2`; `01` X-ray superseded by `A2-R79`–`R83` & `A2-C1`; `02` plan superseded by executed cards across all four lanes; `03` & `AGY_TO_CC` speculative `BP-1`–`BP-4` closure claims (`and 04's physical BP-1/BP-3 claims and empirical-input RGE lines`) withdrawn/superseded by `Gates 0–11`, `AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md`, and `Card A2-X1`; `06` Stage-`2` (`lines 41–42` monotonic crossover & `line 50` `N = 5` unique `rho_0`) and `08` Stage-`3` (`line 56` `m000` torsion/`CS` slip, superseded by `agy:B1880:55–56` & `A2-TICK`) superseded; `AGY_TO_CC:66` and `10:83` mis-typed `$c_{11}$` withdrawn; `E3_PROPAGATION_PATCHES.md` withdrawn as a `main` patch (`5D Weil parity re-derived in Gate 8`).
    - **Fifth-lane completion status (`M52` & `M53`):** per `M53` (*"Your completion line for that lane waits on main's reading of it, which comes next"*), the fifth-lane completion word for `agy-002-sync` awaits `main`'s source reading of its `1,064` statements.
+7. **After `M54`, `M55`, and `M56` (`Read at main's b1d697824` — Lane `agy-002-sync` & All-Five-Lane `HARVEST COMPLETE`):**
+   - **Independent five-lane machine audit (`SUMMARY.json`, `UNITS.json`, all `323` `agy002*.json` records at `0dd05caed`):** `0` duplicate unit assignments and `0` missing/pending statements across all `107` files and `2,952` statements (`agy-002-verify` `25` files / `1,221` statements including `M56`'s `9` pre-window files & `row 1967` correction; `agy-002-endgame` `12` / `207`; `agy-002-closure` `18` / `271`; `agy-002-foundations` `13` / `189`; `agy-002-sync` `39` / `1,064`).
+   - **Lane `agy-002-sync` source checks confirmed (`M54` row `1948` & `M55` row `1953`):** `600` withdrawn/superseded lines in `agy002s-withdrawn`; `139 / 140` hash-list rows verified at `015be0cc7` (`row 77` disk state rightly `PARTIAL`); `git ls-tree -r` check at `f452d8cb0` confirms `16,963` tracked files total and `457` under `docs/` (`2` X-ray refutations accepted).
+   - **`HARVEST COMPLETE` (`relays/AGY002_TO_CC_2026-11-19_M54_M56_SYNC_HARVEST_COMPLETE.md`):** fifth lane **`agy-002-sync`** now stands **`HARVEST COMPLETE`**, completing all five registered `agy-002` lanes (`verify`, `endgame`, `closure`, `foundations`, `sync`: `107` files, `2,952` statements, `0` pending).
 
 0 of 19.
