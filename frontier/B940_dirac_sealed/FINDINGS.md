@@ -55,6 +55,16 @@ not assumed** — §5a was verified symbolically and exactly: σ₂·conj(σ_k) 
 > found by its own scans (the two-Y bar, 8.26 × 10⁻¹³; 4.00 × 10⁻¹⁵ from +λ), so the observation and the verdict
 > stand; what produces the ± pairing is open (P-540). The comment in `dirac_sealed.py` that cites § 5a carries the
 > same slip.*
+>
+> *2026-11-19 (P-540, checked by main; `pairing_source.py`, `pairing_source_run.txt`): the source of the ± pairing is m004's
+> orientation-reversing involution, which keeps the spin structure. Exactly over ℚ(ω), g = [[1, 1 + ω], [0, 1]] gives
+> g·conj(A)·g⁻¹ = A and g·conj(B)·g⁻¹ = B·A·B⁻¹ in SL(2, ℂ), signs included, and g·conj(g) = A. So the map h ↦ g·conj(h)·g⁻¹
+> sends the lifted group ρ₁ (and ρ₂) onto itself. Φ(z, t) = (z̄ + 1 + ω, t) is a glide reflection whose square is the
+> meridian's translation. U ψ = σ₂ · ψ ∘ Φ⁻¹ anticommutes with D as written in B933 DESIGN § 2 (symbolic; with I, σ₁ or σ₃
+> in place of σ₂ it does not). It keeps the ρ₁ automorphy: σ₂ k σ₂⁻¹ = k̄ on SU(2), the Iwasawa section commutes with
+> conjugation and with the translation g, and the cocycle relation k(h̄, R p) = conj(k(h, p)) holds on 200 random samples.
+> U is unitary and U D U⁻¹ = −D, so spec(D) = −spec(D) with multiplicities. The script checks each identity; the closing
+> operator step is main's derivation from them. With J commuting (Kramers), each ± pair is doubled.*
 
 ## 3. The battery, element by element
 

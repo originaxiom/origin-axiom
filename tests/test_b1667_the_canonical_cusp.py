@@ -45,3 +45,24 @@ def test_live_eta_control_and_wrong_root_bite():
         P0 = m.mobius_of(m.puncture_loop(lat, c, z0, 0.05))
         g, *_ = m.normalise(Aa, Ab, P0)
         assert sign * m.uniformisation_check(tau, c, g, npts=4) > 0             # bite: the wrong root fails
+
+
+def test_the_radii_between_the_grid_points_p542():
+    """P-542 (2026-11-19): the committed midpoint run reproduces the committed column at the grid points, and each stated
+    interpolation error is recomputed here from the run's midpoint radius and the committed column's two neighbours."""
+    import re
+    run = (A / "verification" / "radius_midpoints_run.txt").read_text(encoding="utf-8")
+    rep = float(re.search(r"largest difference ([0-9.e+-]+)", run).group(1)); assert rep < 1e-10, rep
+    col = {round(r[0], 6): (r[1], r[2]) for r in json.loads((A / "verification" / "the_canonical_cusp.json").read_text())["readout"]["column_025"]}
+    rows = re.findall(r"^\s+(\d\.\d{3})\s+([0-9.]+)\s+([+-][0-9.e+-]+)\s+([0-9.]+)\s+([+-][0-9.e+-]+)$", run, re.M)
+    assert len(rows) == 12
+    em = e2 = 0.0
+    for y, lm, dm, l2, d2 in rows:
+        y = float(y); lo, hi = col[round(y - 0.125, 6)], col[round(y + 0.125, 6)]
+        tol = lambda d: 1e-6 + 6e-3 * abs(float(d))                    # the run prints L to 6 decimals, errors to 3 figures
+        assert abs(float(lm) - (lo[0] + hi[0]) / 2 - float(dm)) < tol(dm) and abs(float(l2) - (lo[1] + hi[1]) / 2 - float(d2)) < tol(d2)
+        assert float(dm) < 0 and float(d2) < 0                       # convex: the chord lies above
+        em, e2 = max(em, abs(float(dm))), max(e2, abs(float(d2)))
+    assert 6.6e-4 < em < 6.8e-4 and 4.3e-3 < e2 < 4.5e-3, (em, e2)
+    f = (A / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "at most 6.7 × 10⁻⁴ in L_max and 4.4 × 10⁻³ in L_2" in f

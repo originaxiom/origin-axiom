@@ -77,6 +77,13 @@ The run covers 54 points: 48 on the grid, 4 on the ray from ω and 2 controls. N
   - that the fibre frame is nature's (B1652);
   - any value. The read-out heights at which the lift crosses a given size are not compared with data here.
   - It is a census over the grid, not a proof between grid points.
+  > *2026-11-19 (P-542): between the grid points, measured. `verification/radius_midpoints.py` imports this arc's sealed
+  > instrument unchanged and computes L_max and L_2 along Re τ = 1/4 at the 13 grid points (reproducing the committed column
+  > to 1.4 × 10⁻¹²) and at the 12 midpoints. B1726's census evaluator (and B1821's) interpolates this column linearly in
+  > Im τ. The interpolation errors at the midpoints are all negative: L is convex in Im τ, and the chord lies above it.
+  > They are at most 6.7 × 10⁻⁴ in L_max and 4.4 × 10⁻³ in L_2, largest at Im τ = 1.125, falling to 1.6 × 10⁻⁵ and
+  > 1.7 × 10⁻⁴ at 3.875. P-542's estimate from the column's slope jumps ("at most ~1e-3 in L") holds for L_max and
+  > understates L_2 near Im τ = 1 by about four times. In 2πL the largest errors are 4.2 × 10⁻³ and 2.8 × 10⁻².*
 
 ## 3. Files
 
@@ -86,4 +93,5 @@ The run covers 54 points: 48 on the grid, 4 on the ray from ω and 2 controls. N
   - the draft module (not runnable in place);
   - the commutator-subgroup check;
   - the smoke test of the controls.
+- `verification/radius_midpoints.py` and `radius_midpoints_run.txt` (2026-11-19, P-542: the radii at the midpoints).
 - The lock: `tests/test_b1667_the_canonical_cusp.py`.

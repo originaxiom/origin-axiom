@@ -48,6 +48,8 @@
   parameter-free too and were not run.
 - **The direction of the miss.**
   - On the 22 non-degenerate cells, all at τ = i, every ratio is too large: 7.5× to 1 739× at the χ²-best row.
+    *[2026-11-19, P-517: the 22 count (configuration, direction, reading) triples. In the unit of the 208 cells below,
+    which also counts the two radii, the non-degenerate cells are 44 (208 − 164). `verification/decode.py`.]*
   - Every other cell carries a massless state, rank one or (0, 1) (B1810), and misses by zeros: 164 of the 208
     seat-reading cells (all of (ω, 0) and (ω, (⅓, ⅔)); 48 at (i, (½, ½)); DR, R and t at (i, 0)). *[Corrected 2026-10-30 at Review 73: 156 before, a mis-sum of
     52 + 52 + 48 + 12; recounted from census.jsonl by its reader and, without reading data, by main.]*
@@ -92,6 +94,18 @@
 - a₀ ≠ F₆ at (i, 0) (relative 2.35) but equal on (i, (½, ½)).
 
 The last corrects B1810 § 2.3, by dated note.
+
+> *2026-11-19 (P-517): `verification/decode.py` and `decode_run.txt` print, from the committed census and comparison,
+> with no measured value read, the following:
+> - the 164 cells with a massless state (a gap from 9.1 × 10⁻¹⁶ to 1.3 × 10⁻², over thirteen orders) and the split above;
+> - the non-degenerate cells in both units;
+> - D = 9.0 = c², V_ud = 1 and J = −2 × 10⁻⁵² at line 70, L₂, (S̃, S̃, S̃), c = 3;
+> - a₀ against F₆: relative 2.352 at (i, 0), in up's m₁/m₃ at L_max, and 4.8 × 10⁻¹⁵ on (i, (½, ½));
+> - the stored χ²_six minimum, best_six and best_nine.
+>
+> Three facts cannot be decoded without comparing with data, so they rest on the referee's rerun above: that line 70 is
+> the χ²-best row, its six model-over-measured factors, and the location of χ²_nine's minimum (line 60, L_max).
+> comparison.json stores best_nine by the worst factor (line 111).*
 
 ## Seen first
 

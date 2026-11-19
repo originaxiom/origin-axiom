@@ -59,6 +59,9 @@ both conventions ⟹ discrete Dirac spectrum, unconditional).
   > eigenvalue (Kramers), which is the doubling of the next bullet; it does not pair λ with −λ, so the spectral
   > symmetry is not a theorem. ker D's even dimension stands. The ± pairing the probe and B940 observed is a computed
   > fact whose source is open (P-540).*
+  > *2026-11-19 (P-540): the source is found and checked: m004's orientation-reversing involution
+  > Φ(z, t) = (z̄ + 1 + ω, t), which keeps both spin structures, with U = σ₂ ∘ Φ* anticommuting with D. So
+  > spec(D) = −spec(D) holds after all, as a theorem from a different operator than J (B940's `pairing_source.py`).*
 - **An instrument-level Kramers-type doubling**: the ENTIRE singular
   spectrum is doubled at every λ. Mechanism open (obligation O1); blocks
   multiplicity language, not eigenvalue claims.

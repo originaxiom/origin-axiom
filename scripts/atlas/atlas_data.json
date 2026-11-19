@@ -14852,8 +14852,8 @@
     "S2",
     "S275"
    ],
-   "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle": "measure",
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -35261,6 +35261,7 @@
    "motifs": [
     "closing",
     "figure_eight",
+    "eisenstein",
     "golden",
     "symplectic"
    ],
@@ -35271,7 +35272,7 @@
     "S274"
    ],
    "obstacle": "cancellation",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },
@@ -35405,8 +35406,10 @@
    "slug": "dirac sealed",
    "motifs": [
     "measurement",
+    "closing",
     "coupling",
     "figure_eight",
+    "eisenstein",
     "golden",
     "amphichiral_cp"
    ],

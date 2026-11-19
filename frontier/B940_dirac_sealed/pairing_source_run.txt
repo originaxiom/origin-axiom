@@ -1,0 +1,6 @@
+E1 {'x_equals_1_plus_omega': True, 'A_to_A': True, 'B_to_BAB': True, 'minus_A_to_minus_A': True, 'minus_B_to_rho2_word': True, 'g_conj_g_is_A': True, 'traces_plus_2': True, 'control_x_conj_fails': True, 'control_no_g_fails': True}
+E2 {'U_D_plus_D_U_is_zero': True, 'control_identity_in_place_of_sigma2_fails': True, 'control_sigma1_fails': True, 'control_sigma3_fails': True}
+E3 {'sigma2_k_sigma2inv_is_conj_k': True}
+E4 {'s_of_reflection_is_conj_s': True, 's_of_translate_is_g_s': True}
+E5 {'samples': 200, 'k_in_SU2_max_defect': 1.294098736784628e-14, 'k_conj_relation_max_defect': 0.0, 'control_without_conj_max_defect': 1.9920991704032476, 'holds': True}
+ALL HOLD: True
