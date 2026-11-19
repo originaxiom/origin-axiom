@@ -112,4 +112,35 @@ Notation as W-B2: T = 2τ; v(u) = (θ[α, β](u, T), −i θ[α + ½, β](u, T))
 - If X3 fails, this seat's table and B1962's differ. The relay says where, and B1962's verdict stays provisional.
 - If X1 fails, the derivation above is wrong as written.
 
+---
+
+## After the run: the follow-up (W-B3-F), written after the run's output was read and before its script
+
+**What happened.** The run (script 89c491f47, output fc1ff20f7) stopped with a ZeroDivisionError. It stopped in the
+fork's variant, the plain a0, at c = +2 and height 6, in the leptons' normalised spectra: the lepton coupling had no
+non-zero singular value. Every check of Q1 and every covariant table had been printed before. Three things were not
+reached:
+- C4, the precision control;
+- the plain variant at c = +2 (both heights);
+- the script's own verdict lines for C0, X3 and X4, and its summary file. Their numbers are in the output.
+
+The cause is a case the script did not guard: with the plain a0, Theorem 90's weight can have a non-positive argument in
+every channel of a sector, and that sector's coupling then vanishes. E4 had already counted this in double precision:
+29 of its 36 plain cases vanish.
+
+**The follow-up script** (`wb3_followup.py`) imports the run's functions unchanged and computes only what was not
+reached:
+- **F1 = C4 as written:** the first two of the 24 points at height 30, c = +2, at 90 and at 110 digits; every |V|
+  entry within 1e-15.
+- **F2, the plain variant, guarded,** at c = −2 and +2 and heights 6 and 30:
+  - at each point, which sectors' couplings vanish (every weight zero);
+  - the four pairs' smallest diagonal and largest off-diagonal |V|, over the points where up and down both survive;
+  - the leptons' three numbers over the points where leptons and down both survive.
+- **F3:** the run's verdicts for C0, X3 and X4, read off its printed output by the rules the card fixed.
+
+**Expected [J], not blind** (the run's output has been read): F1 holds. Under the plain a0, some sector vanishes at
+some point at both heights, so the plain variant is not a frame everywhere. Its mixing is reported with no expectation.
+
+**Failure.** If F1 fails, the height-30 tables are not guarded by C4 and do not stand as computed.
+
 0 of 19.
