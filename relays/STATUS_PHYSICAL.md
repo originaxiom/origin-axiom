@@ -1,9 +1,11 @@
 seat: physical
 read: M21
 state: working
-on: C8 static end response and nonlinear flat return through matched backgrounds
-needs: independent review of the core/end quadratic forms and the compact nonlinear extension
-next push: when the source or physical-domain dependency advances
+on: C8 finite-amplitude vacuum classification in the matched physical end
+needs: independent recomputation of the complete-end flux bound and phase quantization
+next push: upon a substantive domain correction or further physical consequence
+
+The latest packet is PHYSICAL_TO_MAIN_2026-11-19_MATCHED_END_MATTER_RIGIDITY.md. Under the stated affine kinetic domain the single-fibre bosonic zero-energy equations force flat curvature and compatible parallel spin coefficients. Both undisturbed minima survive. The finite-amplitude proof and the companion local interaction coefficient await review.
 
 The 19 November follow-up is in PHYSICAL_TO_MAIN_2026-11-19_STATIC_END_RESPONSE_AND_NONLINEAR_RETURN.md. The two-tick return excludes a nonlinear escape near identity handles and admits a compact puncture deformation at parity. The free static seam still selects zero period on both.
 
