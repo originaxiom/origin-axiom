@@ -53,3 +53,16 @@ def test_the_identity_live_and_its_bite():
     NM = [[-4, -4], [4, -4]]
     vals = [mp.fsum(x * y for x, y in zip(g(t), g(mob(NM, t)))) for t in (mp.mpc(0.21, 0.88), mp.mpc(-0.37, 1.6))]
     assert abs(vals[0] - vals[1]) > 1e-3
+
+
+
+def test_the_discriminants_to_100_p031():
+    """P-031 (2026-11-19): every primitive class of the ruled branch with discriminant <= 100, at weights 1, 2 and 4 --
+    only LR at weight 2 is constant; the committed run is read here (it takes minutes) and its rows are held"""
+    import json, pathlib
+    V = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B1638_the_golden_identity" / "verification"
+    run = (V / "discriminants_to_100_run.txt").read_text(); rows = json.loads((V / "discriminants_to_100.json").read_text())
+    assert "classes: 22 (discriminants [5, 12, 21, 32, 45, 60, 77, 96])" in run and "constant (spread < 1e-20): [('LR', 5, 2)]" in run
+    assert len(rows) == 22 and sum(1 for r in rows for k in (1, 2, 4) if r["spread_k%d" % k] < 1e-20) == 1
+    assert {r["disc"] for r in rows if r["content"] == 1} == {5, 21, 45, 77}
+    lr = next(r for r in rows if r["word"] == "LR"); assert lr["spread_k2"] < 1e-25 and lr["spread_k1"] > 1e-3 and lr["spread_k4"] > 1e-3

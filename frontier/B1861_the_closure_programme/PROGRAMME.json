@@ -483,9 +483,6 @@
   ]
  },
  "debt_of": {
-  "P-025": "WP-0.4",
-  "P-030": "WP-0.4",
-  "P-031": "WP-0.4",
   "P-054": "WP-0.4",
   "P-055": "WP-0.4",
   "P-056": "WP-0.4",
@@ -2706,9 +2703,6 @@
    ],
    "closure_nodes": [],
    "debts": [
-    "P-025",
-    "P-030",
-    "P-031",
     "P-054",
     "P-055",
     "P-056",
@@ -5290,8 +5284,8 @@
   "candidate_frame_joints": 14,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 92,
-  "debts_on_the_map_joined_to_nothing": 76,
+  "debts": 89,
+  "debts_on_the_map_joined_to_nothing": 73,
   "exits_by_kind": {
    "ADMITTED": 4,
    "BACK-EDGE NAMED": 6,
@@ -5327,7 +5321,7 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 285,
+  "map_nodes": 282,
   "nodes_assigned": 135,
   "nodes_needing_a_path": 135,
   "open_choices_under_each_conditional_headline": {

@@ -114,73 +114,70 @@ frontier/B1830_the_register_triaged/). **Rechecked the same day at the owner's w
 56. P-430 — W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked.
 57. P-316 — B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main.
 58. P-310 — B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument.
-59. P-025 — Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings.
-60. P-030 — The golden identity (MC10 arcs, B1638) cites classical input via secondary sources.
-61. P-031 — The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings.
-62. P-492 — B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.
-63. P-571 — The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).
-64. P-334 — Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).
+59. P-492 — B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.
+60. P-571 — The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).
+61. P-334 — Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).
 
 *added by B1833 (S300; the brainstorms re-read):*
 
-65. P-653 — GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry.
-66. P-643 — THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take.
-67. P-646 — B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09.
-68. P-670 — the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it.
+62. P-653 — GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry.
+63. P-643 — THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take.
+64. P-646 — B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09.
+65. P-670 — the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it.
 
 *added at S305 (the closure prepared):*
 
-69. P-688 — the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets.
-70. P-687 — B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion.
-71. P-698 — frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*.
+66. P-688 — the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets.
+67. P-687 — B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion.
+68. P-698 — frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*.
 
 *added at S306k (the web seat's open-book relay):*
 
-72. P-733 — B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR.
+69. P-733 — B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR.
 
 *added at S306o (the advisor seat's audit, 2026-11-10):*
 
-73. P-757 — the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal).
+70. P-757 — the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal).
 
 *added at S306o (the advisor seat's second re-audit, 2026-11-10):*
 
-74. P-772 — what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form.
-75. P-773 — the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled.
+71. P-772 — what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form.
+72. P-773 — the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled.
 *added on 2026-11-11 (S306p):*
 
-76. P-777 — 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c).
-77. P-781 — the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it.
-78. P-786 — what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict.
-79. P-804 — what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence.
-80. P-806 — the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list.
-81. P-808 — what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things.
-82. P-810 — the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it.
+73. P-777 — 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c).
+74. P-781 — the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it.
+75. P-786 — what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict.
+76. P-804 — what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence.
+77. P-806 — the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list.
+78. P-808 — what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things.
+79. P-810 — the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it.
 
 *added on 2026-11-12 (S306p):*
 
-83. P-811 — the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead.
+80. P-811 — the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead.
 
-84. P-812 — eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions.
+81. P-812 — eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions.
 
-85. P-813 — what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome.
+82. P-813 — what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome.
 
-86. P-816 — a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen.
+83. P-816 — a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen.
 
-87. P-817 — the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases.
+84. P-817 — the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases.
 
-88. P-820 — after the third enforcement series six shapes still pass: a retracted phrase over two lines, four kinds of test that cannot fail, a lock that is a folder; and the tables of what is held by name can grow in the commit that needs the room.
+85. P-820 — after the third enforcement series six shapes still pass: a retracted phrase over two lines, four kinds of test that cannot fail, a lock that is a folder; and the tables of what is held by name can grow in the commit that needs the room.
 
-89. P-821 — by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show.
+86. P-821 — by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show.
 
 *added on 2026-11-12 with the owner's word of that day (P-825):*
 
-90. P-253 — eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none.
+87. P-253 — eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none.
 
-91. P-827 — the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar.
+88. P-827 — the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar.
 
 *added on 2026-11-13 (S306p):*
 
-92. P-839 — the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption.
+89. P-839 — the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption.
 
 ## The queue (worked in this order)
 
@@ -232,13 +229,13 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
 | P-022 | 2026-10-13 | DF1.1 | τ has two roles: integrated over in the index (W45/W46), evaluated in the couplings (B1634–B1637) | LEAD | [LEAD] L251; Q3 [S306i, R76-1: carries P-455, P-069 (c) (closed as merged; see each row)] | 2026-11-06 |
 | P-023 | 2026-10-13 | DF3, CE | the near-fixed-point mechanism on the ruled branch, with fields given their own representations and weights, is not computed | DONE | merged into P-257 (R76-1, S306i; main's check at the pointer): C5; its own escalation tied it there (no hierarchy at ω or i, B1691) [was: (typed LEAD) Q4 ESCALATED(2026-10-28: tied to the completion map's C5 (the near-ω regime, QUEUED): decide C5 first (no hierarchy at ω or i, B1691; it cannot act on the order-5 and order-10 lines that carry the six), then close both together)] | 2026-11-06 |
 | P-024 | 2026-10-13 | MC5 | B1620's census of residuals should be rerun with residuals restricted to the stabilisers of τ (scalars, order 8 at i, order 12 at ω) | DONE | B1617 (the residual at ω) and B1630 (the residual at i) are the stabiliser-restricted analyses; B1620's conclusion for couplings in τ alone stands; the ruled-branch frame is retired [S231, the register sweep; earlier: Q4] | 2026-10-28 |
-| P-025 | 2026-10-13 | DF1.2 | holomorphy and the minimal Kähler term are imported; without them (non-holomorphic forms, non-minimal Kähler) the count is larger | QUEUED | [DEBT] Q4 ESCALATED(2026-11-03: ranked #53 of the debts by load; next: Compute the count with non-minimal Kahler/non-holomorphic forms or scope the stated count as conditional) | 2026-10-13 |
+| P-025 | 2026-10-13 | DF1.2 | holomorphy and the minimal Kähler term are imported; without them (non-holomorphic forms, non-minimal Kähler) the count is larger | DONE | B1635, B1637: the count scoped as conditional, the debt's second branch (2026-11-19): B1635's count 2 + sum(2d - 1) is a count under the modular-flavour ansatz (holomorphic couplings, a minimal Kahler term, one T and one Higgs per sector; B1640 section 3), larger without it, so a lower count; dated notes on B1635 and on B1637's P >= 21. Computing the larger count is not done. Before: [DEBT] Q4 ESCALATED(2026-11-03: ranked #53 of the debts by load; next: Compute the count with non-minimal Kahler/non-holomorphic forms or scope the stated count as conditional) | 2026-11-19 |
 | P-026 | 2026-10-13 | PT2 | the frame is never audited: B1631 audited reproduction, inputs and integrity, not premises | DONE | B1647 (Review 63): the premise audit judged the window's load-bearing "forced", "every", "only" and "cannot" (20 claims); four repairs rowed (P-119 to P-122) | 2026-10-14 |
 | P-027 | 2026-10-13 | MC9 | the load-bearing positives of B1634–B1638 were mostly established after the seal; B1638 is "PROVED (numerically)" | DONE | B1647 (Review 63): per PROVED arc, sealed versus post-seal; B1634's headline is mostly post-seal without its verdict line saying so (repair in P-121); B1640 changed GENESIS without a seal (an audit arc) | 2026-10-14 |
 | P-028 | 2026-10-13 | PT2 | vocabulary drift (July: hearing, stage, shadow; October: weave, thread, tick) defeats the regex "seen first" sweeps | DONE | B1647 (Review 63): confirmed on five preregistrations (B1290 the sharpest miss); repair P-123 | 2026-10-14 |
 | P-029 | 2026-10-13 | PT2 | errors are caught from outside (owner, peer seat, adversarial lane); the method grows more than it closes | DONE | B1647 (Review 63): measured on the window's 29 disclosed errors: the seals caught computation-level errors; every premise-level error was caught outside main's seal loop (the owner, the owner's archive audit, the audit lane, the SM seat, the frame-audit lenses); the premise audit is now part of the review (R63-2) | 2026-10-14 |
-| P-030 | 2026-10-13 | MC10 | the golden identity's classical input is cited through secondary sources; Berndt III p. 280 not read | QUEUED | [DEBT] Q6 ESCALATED(2026-11-03: ranked #54 of the debts by load; next: Read Berndt III p. 280 or re-derive the input; else grade conditional) | 2026-10-13 |
-| P-031 | 2026-10-13 | MC10, PT4A | "special to discriminant 5" rests on five other geodesics; B1638's controls at discriminants 12 and 32 have non-primitive N_M (content 2, 4); test all discriminants ≤ 100, other weights, Ramanujan's degree-3 and degree-7 equations | QUEUED | [DEBT] Q6 ESCALATED(2026-11-03: ranked #55 of the debts by load; next: Run discriminants <=100 with primitive N_M, other weights, degrees 3 and 7; scope the claim) | 2026-10-13 |
+| P-030 | 2026-10-13 | MC10 | the golden identity's classical input is cited through secondary sources; Berndt III p. 280 not read | DONE | B1639, B1638: graded conditional, the debt's third branch (2026-11-19): B1639's proof uses Entry 13(xii) through Bairy (2009) and Guadalupe (2026), the book still unread and the input not re-derived; R3's 2.0e-49 at 20 points is evidence, not proof; dated notes on B1639 and B1638. A citation-free proof by q-expansions to the Sturm bound is named, not done. Before: [DEBT] Q6 ESCALATED(2026-11-03: ranked #54 of the debts by load; next: Read Berndt III p. 280 or re-derive the input; else grade conditional) | 2026-11-19 |
+| P-031 | 2026-10-13 | MC10, PT4A | "special to discriminant 5" rests on five other geodesics; B1638's controls at discriminants 12 and 32 have non-primitive N_M (content 2, 4); test all discriminants ≤ 100, other weights, Ramanujan's degree-3 and degree-7 equations | DONE | B1638: frontier/B1638_the_golden_identity/verification/discriminants_to_100.py (2026-11-19): all 22 primitive classes of the ruled branch with discriminant <= 100, weights 1, 2 and 4: only LR at weight 2 is constant (spread 1.4e-30); every other class varies by 10 to 160 per cent, the primitive-N_M classes (discriminants 21, 45, 77) included. The claim scoped on B1638's page: special to discriminant 5 among these sums, on these classes. Not tested: Ramanujan's degree-3 and degree-7 equations. Before: [DEBT] Q6 ESCALATED(2026-11-03: ranked #55 of the debts by load; next: Run discriminants <=100 with primitive N_M, other weights, degrees 3 and 7; scope the claim) | 2026-11-19 |
 | P-032 | 2026-10-13 | MC10 | the converse (F = 8 only on the discriminant-5 geodesics) is a numerical conjecture | QUEUED | [LEAD] Q6 | 2026-10-13 |
 | P-033 | 2026-10-13 | PT1a | the McKay ladder (levels 3/4/5 ↔ 2T/2O/2I ↔ E₆/E₇/E₈) recurs from July to October and is not unified; B997, B644, B248, B981 uncited by the weave | LEAD | [LEAD] L252; Q7 [S306i, R76-1: carries P-034, P-040, P-041, P-331 (closed as merged; see each row)] | 2026-11-06 |
 | P-034 | 2026-10-13 | PT1b | the July level-5 golden corpus (B640, B674, B685, B691, B694, B695, B699, B702, B705) is cited by no B1400+ arc | DONE | merged into P-033 (R76-1, S306i; main's check at the pointer): L252 [was: (typed LEAD) L252; Q7] | 2026-11-06 |

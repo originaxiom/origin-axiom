@@ -56,6 +56,9 @@ runs beside them.
 - **The first count.** Given the sectors' weights, the flavour sector leaves 2 + Σ_s (2 d(k_s) − 1) free real numbers:
   τ, plus the coefficients modulo one phase per sector. At the lowest weights, two sectors leave 4 numbers. The weights,
   τ and the field dictionary are not fixed by the principle.
+  *[2026-11-19, P-025: this is a count under the modular-flavour ansatz (holomorphic couplings, a minimal Kähler term,
+  every field in one T and one Higgs per sector; B1640 § 3). With non-holomorphic forms or a non-minimal Kähler term the
+  count is larger. So the count is a lower count, conditional on that ansatz.]*
 
 ## 4. Disclosed
 

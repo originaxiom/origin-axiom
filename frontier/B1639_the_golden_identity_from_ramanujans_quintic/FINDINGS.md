@@ -11,6 +11,13 @@ As sealed: `VERDICT topic-sweep /Ramanujan|quintic|Jacobi|modular equation|golde
 this identity. **Literature:** Berndt, *Ramanujan's Notebooks* III (1991), ch. 19, Entry 13(xii), pp. 280–282. It was
 seen through Bairy (Gen. Math. 17, 2009) and Guadalupe (Integers, 2026); the book was not opened.
 
+> *2026-11-19 (P-030): graded CONDITIONAL on that citation. The proof's step 3 uses Entry 13(xii) as the two secondary
+> sources state it; Berndt's book has still not been read, and the input has not been re-derived. R3's first clause holds
+> to 2.0 × 10⁻⁴⁹ at 20 points, which is evidence for the input and not a proof of it. So this arc's PROVED holds given the
+> cited theorem, as its verdict line says, and the record should cite it as conditional on that theorem. A route to a
+> proof that needs no citation is to compare q-expansions of the two weight-two forms up to the Sturm bound; it is not
+> done here.*
+
 ## 1. The sealed run (`golden_from_ramanujan.py`, unchanged)
 
 | cell | prediction | prior | result |

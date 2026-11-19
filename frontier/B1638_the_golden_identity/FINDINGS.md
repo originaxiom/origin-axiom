@@ -1,6 +1,6 @@
 # B1638 — THE GOLDEN IDENTITY: Σ_p (θ_p(τ)θ_p(Nτ)/(η(τ)η(Nτ)))² = 8 everywhere, with N = [[−1, −2], [2, −1]] of determinant 5; on the tick's axis that is F = Σ|θ_p/η|⁴ = 8, so the weave's lowest coupling is golden on every discriminant-5 geodesic; no other closed geodesic tested has such an identity
 
-**Verdict: PROVED** (numerically, to 49 digits; I1–I5 all hold; the proof is B1639). cc (main), 2026-10-13. Sealed
+**Verdict: PROVED** (numerically, to 49 digits; I1–I5 all hold; the proof is B1639). *[2026-11-19, P-030: B1639's proof is conditional on Ramanujan's Entry 13(xii), read through secondary sources; see its dated note.]* cc (main), 2026-10-13. Sealed
 `2401dab14` before the run. No data. **0 of 19.**
 
 ## 0. Seen first
@@ -31,7 +31,15 @@ F = Σ|g_p|² = H_M(τ) := Σ_p g_p(τ)·g_p(N_M τ). If H_M is a constant every
 - **The golden spectrum is one holomorphic identity of degree 5, evaluated on the axis:**
   Σ_p (θ_p(τ)θ_p(Nτ)/(η(τ)η(Nτ)))² = 8. In Weber's functions it reads
   (𝔣𝔣′)⁴ + (𝔣₁𝔣₁′)⁴ + (𝔣₂𝔣₂′)⁴ = 8, with ′ at Nτ.
-- **It is special to discriminant 5.** The analogous sums for five other closed geodesics vary by 6 to 17 units. That is
+- **It is special to discriminant 5.** The analogous sums for five other closed geodesics vary by 6 to 17 units.
+  > *2026-11-19 (P-031; `verification/discriminants_to_100.py` and its run file): now tested on every primitive class of
+  > the ruled branch with discriminant up to 100. That is 22 classes (positive words in L and R up to rotation) at
+  > discriminants 5, 12, 21, 32, 45, 60, 77 and 96, at weights 1, 2 and 4, at six points each, to 30 digits. Only LR at
+  > weight 2 is constant (H = 8, spread 1.4 × 10⁻³⁰). Every other class varies, by 10 to 160 per cent of its size; so do
+  > the four classes whose N_M is primitive (content 1: discriminants 21, 45 and 77 besides 5), and so does LR at weights
+  > 1 and 4. B1638's two controls at 12 and 32 had content 2 and 4. Not tested: Ramanujan's degree-3 and degree-7 modular
+  > equations, and sums of other shapes. The claim stands as scoped: special to discriminant 5 among these sums, on
+  > these classes.* That is
   why the principle's tick (trace 3, discriminant 5, the discriminant of x² − x − 1) and no other closed geodesic tested
   carries the golden spectrum.
 - B1639 derives the identity from Ramanujan's form of the degree-5 modular equation.

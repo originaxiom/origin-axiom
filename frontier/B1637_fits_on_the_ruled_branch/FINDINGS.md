@@ -49,7 +49,8 @@ but a failure is a statement about this search.
 - **W53's masses-only number was an overestimate.** Main reaches 20.6 where W53 reported 163, because main's search
   goes to Im τ = 10 and finds its minima near 7. The exclusion rests on the CKM, not on the masses alone.
 - **On this branch the modular structure fits only by spending more parameters than it explains.** Every fit has
-  P ≥ 21 for 13 numbers, so none predicts a flavour relation.
+  P ≥ 21 for 13 numbers, so none predicts a flavour relation. *[2026-11-19, P-025: P is B1635's count, made under the
+  modular-flavour ansatz (B1640 § 3); without it the count is larger, so P ≥ 21 is a lower bound.]*
 - **Scope (P-014, P-016).**
   - This is one ansatz, not the principle: holomorphic modular couplings at one τ, with three independent sectors.
     The Higgs content is beyond Λ and is assumed, not derived; one 27_H relating Y_u, Y_d and Y_e is a different test,
