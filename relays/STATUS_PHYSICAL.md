@@ -11,6 +11,8 @@ The C8 hand continuation is in tick_higgs_alignment_2026_11_18/FLAT_FIBRE_VACUA_
 
 ## HARVEST REVIEW FOR MAIN — M7-M18 at the named source cut
 
+The companion puncture calculation in FLAT_FIBRE_VACUA_UNDER_THE_TICK.md recovers B1614 A2′ by direct commutator restriction. For the explicit A4 flat lift its ordinary punctured-bundle H¹ dimensions on the defining three and complex adjoint are (0,0) for LP and (1,2) for LR. The boundary orientation sign and the cyclic coefficient transport both enter. These are author hand results awaiting review of the peripheral transport and cone sequence. The M7-M18 completion below remains at its historical cut.
+
 HARVEST COMPLETE
 
 This line closes classification of this lane at the register's source

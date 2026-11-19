@@ -49,6 +49,27 @@ The permutation action on the nonzero triple lifts explicitly to SU(3) by sendin
 
 The nontrivial triple also has a directly testable price for a proposed matter assignment. Each of its three defining-representation fibre characters is nontrivial. The same two-generator Koszul contraction gives zero in every degree of the closed fibre with those coefficients. With trivial holonomies the fibre dimensions are instead 3, 6 and 3. Keeping the irreducible triple while assigning it three parallel fundamental sections would be inconsistent. This comparison concerns cohomology in the defining representation on the closed flat fibre. Spin, gauge representations, fluxes and domains of a physical fermion operator still have to be specified.
 
+## Keeping the puncture and the boundary transport
+
+Restore a single puncture and keep the same A4 local system by pullback along fibre abelianization. The fibre group is now free on a,b. For one nontrivial character with values p,q, a cocycle has values u,v on those generators. Its value on the commutator is
+
+    (1-q)u+(p-1)v.
+
+This map onto the one-dimensional boundary coefficient is surjective. Its one-dimensional kernel is spanned by the coboundary (p-1,q-1). Thus restriction identifies that character's entire H¹ with the boundary H¹. All three defining characters have this property. This explicitly recovers the existing parity-line result B1614 A2′. The trivially acting puncture here differs from the spinorial matter coefficient of B1614 A2, whose puncture acts by minus one.
+
+The return contributes a sign on boundary H¹, since a degree d=det U map of the boundary circle multiplies its generator by d. Basepoint transport can also contribute a fibre holonomy. In the defining representation the resulting coefficient transport around the base therefore has the form of a three-cycle times a diagonal matrix of determinant one, up to inversion conventions. Its cube is the identity and its eigenvalues are 1 and the two primitive cube roots. In the adjoint its conjugation has the same three eigenvalues on each of the two cyclic triples of off-diagonal matrix units. Their phases telescope around each cycle. In each case restriction is equivariant when the boundary orientation and the coefficient transport are both included.
+
+For this particular A4 system and its restriction to the double cover, the dimensions now follow from the cone sequence:
+
+| coefficients | punctured fibre H¹ | punctured bundle H¹ for T | punctured bundle H¹ for M=T² |
+|---|---:|---:|---:|
+| defining three | 3 | 0 | 1 |
+| complexified SU(3) adjoint | 10 | 0 | 2 |
+
+For the defining three, H⁰ of the fibre vanishes. In the adjoint the six off-diagonal characters are nontrivial, contributing six boundary classes. The two trivial Cartan directions supply four additional fibre H¹ classes. Their base eigenvalues come from the tensor product with the hyperbolic fibre action, hence none equals one. Fibre H⁰ is the Cartan plane, with no base-fixed vector for either return and zero cokernel for base minus identity. On the boundary classes, the sign for T removes the eigenvalue one from the signed three-cycle, while M preserves one invariant per cycle. Thus the table counts ordinary twisted cohomology. It does not impose a physical end condition. On the M side the extra adjoint classes are infinitesimal deformation candidates and their integration to actual solutions is a separate question.
+
+This identifies what a physical end law has to act on in this example. Passing straight to the closed fibre kills the three residue channels. Equating those three punctured-fibre classes with three bulk fermion families would skip both the base transport and the physical operator domain.
+
 ## What the action decides
 
 On the chosen tick the classification singles out one irreducible flat class. The identity connection and that irreducible connection both attain exactly zero in the displayed positive curvature action. The all-trivial history and the A4 history have identical local curvature and different Wilson loops, e.g. a nontrivial fibre sign matrix has defining trace -1 versus 3 at the identity. Both comparisons are gauge invariant. Curvature alone assigns the same energy even though these states can be distinguished. Irreducibility would select a class if imposed, and remains an independent selection requirement. The existing compact action supplies no energy splitting between these examples. Its frozen quartic at a different, unstable magnetic background does not compare their energies.
