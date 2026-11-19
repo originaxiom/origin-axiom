@@ -19,10 +19,10 @@
 | … OPEN | 103 |
 | … RETRACTED | 13 |
 | register points | 876 |
-| … “QUEUED” | 322 |
+| … “QUEUED” | 321 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 538 |
+| … “DONE” | 539 |
 | … “DECLINED” | 12 |
 | harvest rows (the last number) | 1974 |
 | the Standard Model's 19 derived | 0 |
