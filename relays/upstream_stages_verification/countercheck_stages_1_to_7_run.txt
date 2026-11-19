@@ -1,0 +1,10 @@
+Independent zero-shared-code second computation of upstream results R1 to R8 (data-free, 0 of 19)
+R1 (Stage 5 dictionary & B-L split): E8_roots=240, Z4_kernel=True, dim_u3=9, dim_so5=10, dim_SM=12, mult_16_exact=True, BL_trace=0, BL_lepton_to_quark_ratio=-3; plant_P1_caught=True
+R2 (Stage 4 anomalies & FL:16): anomalies_all_zero=True, SU2_doublets=4, GS_6D_244_match=True, theta_herm_zero=True, SU3_Haar_drift_below_10_pow_minus_13=True; plant_P2_caught=True
+R3 (Stage 2 + P-753 join): Koszul_homotopy_below_10_pow_minus_13=True, Sym2_S4_traces=[1, 3], orders=(proxy:24, eta3:96, eta1:288, spin_eta1:72, B1879_exch:192); plant_P3_caught=True
+R4 (Stage 1 curved action & cusp end): one_form_weight=1, two_form_weight=Omega**(-2), flat_moduli_dim_R=12, U4_boundary_dim_R=16; plant_P4_caught=True
+R5 (Stage 6 Kronecker, Nielsen & Kashaev): Kronecker_RaySinger_DFT_below_10_pow_minus_30=True, Nielsen_alphabet_shift_nonzero=True, J5_4_1_eq_46_plus_2sqrt5=True; plant_P5_caught=True
+R6 (Stage 6 2-loop RGE & U(3)^5 invariance): desert_slope_ratio=218/115, U3_5_equiv_below_10_pow_minus_13=True; plant_P6_caught=True
+R7 (Stage 3 & 4 Fricke, 2O & paired poles): Fricke_identity_exact=True, ord_2O=48, twisted_Szego_multipliers=(+1,-1):True; plant_P7_caught=True
+R8 (Stage 7 B1604 & Buckingham-Pi): Aut_Q8=24, SL2_F5=120, P1_F5=6, stab_order=20, dim_rank=1, nullity_Pi=19 (0 of 19); plant_P8_caught=True
+Summary: results_verified=8/8 (all_hold=True); planted_errors_caught=8/8; 0 of 19.
