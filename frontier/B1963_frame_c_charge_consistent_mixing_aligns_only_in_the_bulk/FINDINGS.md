@@ -3,6 +3,8 @@
 **Verdict: PROVED** (computed on frame C's own code, on the grid stated below; data-free). Main, 2026-11-19. Register
 row P-847. **0 of 19.**
 
+> *Corrected 2026-11-19, the same day (Seen first was incomplete): the sweep used this campaign's words and missed the record's own. **B1739** (PROVED, October; B1656's frame) found the mechanism first: the frame's Higgs is nearly null, the cusp is led by ρ(T)'s null eigenlines (0, 1, ±i), each sector's lightest state sits on h̄ under S and on h under S̃, and under the Standard Model's reading (this arc's charge-consistent pair) the median |V_ud| on B1726's census is 0.28, following r^0.52. **B1740** (NEGATIVE as sealed, for F₋₂) found the other half: a non-null Higgs aligns the light generation and loses the hierarchy. B1742 adds the third regime. So this arc is a frame-C replication of B1739's census result on a wider grid (four columns, orders 2 to 10, heights 1 to 60), not a new exclusion. Its numbers stand.*
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /charge-consistent|charge rule|derange|cusp mixing|height window|S-tilde/: 2 of 1704 arcs on main match (NEGATIVE 1, PROVED 1); 7 register rows match (QUEUED 7)`.

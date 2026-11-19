@@ -17839,7 +17839,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 23,
+   "obstacle_conf": 25,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -17862,7 +17862,7 @@
     "L6"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 18,
+   "obstacle_conf": 19,
    "status": "banked",
    "domain": "physics"
   },

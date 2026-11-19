@@ -4,6 +4,8 @@
 2026-11-15. agy-exp's X-WALL (harvest row 1836), recomputed. Data-free: nothing is set beside a measured number.
 Register row P-861. **0 of 19.**
 
+> *Dated note 2026-11-19 (found at B1964): this arc's seen-first did not cite **B1739** (PROVED, October; B1656's frame), which found the same derangement under the Standard Model's reading and its mechanism (the nearly null Higgs puts the two readings' lightest states on h̄ and h, nearly orthogonal), nor **B1740**, whose sealed dichotomy (for F₋₂) is the other half. This arc is their frame-C form.*
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /V_tb|V_33|\|V33\||permutation matrix|corner inversion|heaviest generation|orthogonal generations/: 2 of 1686 arcs on main match (OPEN 1, PROVED 1); 4 register rows match (DONE 2, QUEUED 2)`

@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p, later still: IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION, AND THE TWO READINGS FIX ORTHOGONAL ONES (B1964, PROVED; P-847).** The exclusion of B1963 now has its analytic core. The conjugate reading only conjugates the Higgs's coefficients; frame C's Higgs tends to a multiple of the nilpotent E12 high in the cusp; and, exactly, an E12 Higgs gives every sector's coupling the left null vector (-i, 0, 1) whatever its channel matrix (of rank 2), an E21 Higgs the orthogonal (i, 0, 1). So under the charge rule the lightest up and lightest down generations are orthogonal, at every point and for every charge assignment, and the mixing cannot align high…”
+“LATEST (2026-11-19, S306p, a correction of main's own: B1963 AND B1964 RE-DERIVE B1739 AND B1740 IN FRAME C.** Their seen-first sweeps used this campaign's words and missed the record's own. B1739 (October, B1656's frame) found the mechanism: the nearly null Higgs puts the two readings' lightest states on h-bar and h, nearly orthogonal, so under the Standard Model's reading the light generation misaligns. B1740 sealed the other half for F_-2: a non-null Higgs aligns the light generation and loses the hierarchy. B1742 added two nearly null directions read S in every sector (hierarchy, alignment, mixing too small). What today adds is narrower: frame D1 (B1962), frame C's grid (B1963), and the…”
 
 ## Completeness (nothing skipped silently)
 

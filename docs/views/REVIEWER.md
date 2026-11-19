@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1661** |
-| words of findings prose | **1,520,044** |
+| words of findings prose | **1,520,379** |
 | test lock files referenced | **946** |
 | arcs carrying an authored verdict | **1661** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1964`** (1056 words, 0 locks)  
+**PROVED — `B1964`** (1188 words, 0 locks)  
 “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector is (-i, 0, 1) for every channel matrix Mw, of rank 2 exactly when det Mw != 0, and for E21 it is (i, 0, 1), orthogonal; the conjugate reading only conjugates the Higgs's coefficients, and frame C's Higgs tends to a multiple of E12 (lower-left entry about 20 e^{-pi y} of the upper-right, diagonal about 4 e^{-pi y/2}); so wherever Mw has rank 2 every sector's lightest generation tends to (-i, 0, 1)/sqrt 2 under S and (i, 0, 1)/sqrt 2 under S~, checked at all 574 such cases of orders 3 to 10 at height 30, and a charge-consistent pairing makes the light-light mixing entry vanish: the analytic core of B1946's and B1963's derangement, whatever the point and the charges. 0 of 19.”  
 `B1964_frame_c_the_reading_fixes_the_lightest_generation/FINDINGS.md`
 

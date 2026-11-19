@@ -3,6 +3,8 @@
 **Verdict: PROVED.** An exact lemma, and its cusp-limit consequence checked at every point where the lemma applies.
 Main, 2026-11-19. Data-free. Register row P-847. **0 of 19.**
 
+> *Corrected 2026-11-19, the same day (Seen first was incomplete): **B1739** (PROVED, October; B1656's frame) proved the lemma's first form: with the channel triplet off (u = 0) the left null vector of u₁[h]_× is h̄ exactly, and with the channels on the lightest state overlaps h̄ with median 0.999 (10th percentile 0.54). It also found ρ(T)'s null eigenlines leading the Higgs at the cusp. What this arc adds: the lemma exact for every channel matrix Mw of rank 2 in frame C's exact coupling (L1 to L6), in the nilpotent limit, with all 574 rank-2 cases of orders 3 to 10 matching to 1e-10, and the nilpotent limit's rates measured. The a < 0 members of B1730's family, led by the non-null line, are B1740's: they align and lose the hierarchy.*
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /charge-consistent|charge rule|derange|cusp mixing|height window|S-tilde/: 2 of 1704 arcs on main match (NEGATIVE 1, PROVED 1); 7 register rows match (QUEUED 7)`.
