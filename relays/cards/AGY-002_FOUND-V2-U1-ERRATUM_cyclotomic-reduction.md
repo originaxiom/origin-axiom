@@ -1,0 +1,5 @@
+# Card `AGY-002_FOUND-V2-U1-ERRATUM` — Exact Cyclotomic `Phi_5` Reduction of `q_{W_5}` (`0 of 19`)
+
+When `relays/agy002_found_v2_u1/verify_found_v2_u1.py` (`sealed at b7ee77877`) was run unread (`b28c44d89`), every `50`-digit numerical check (`< (1/10)^50`, including `qW5_eigenbasis_err_mp50 < (1/10)^50`), every Section `2` check (`CAR/Cl(10)`, `Berezin`, `APS`, `C_{su(5)}(P)`, `Z_6`, `6Y` spectrum, all `4` anomalies, `Kawamura` splitting), and all `5` planted fault controls `PFU1-1..PFU1-5` passed (`matching cold-room referee b8c58533b`), except that `sp.simplify(...)` in `verify_found_v2_u1.py` left the symbolic `exp(2*I*pi/5)` sum `-(1/2)*(1 + zeta + zeta^2 + zeta^3 + zeta^4)` unreduced in `SymPy`.
+
+This erratum leaves `relays/agy002_found_v2_u1/*` and `relays/agy002_found_v2_u1_referee/*` untouched and seals `relays/agy002_found_v2_u1_v2/verify_found_v2_u1_v2.py` substituting a symbolic generator modulo the `5`th cyclotomic polynomial `Phi_5(w) = w^4 + w^3 + w^2 + w + 1` so both exact symbolic booleans evaluate identically. `0 of 19.`
