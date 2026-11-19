@@ -1,7 +1,7 @@
 # W-D1: route (d)'s two untested variants, set out for main to seal. The first is frame C's exact cusp patterns on the act's line in the second Higgs world (S, S̃, S̃), which W174 left out. The second is the quarks alone, in both worlds. The exponents are B1945's, proved. Nothing is compared, and the look ledger names what has already been seen
 
-**From:** the web seat (chat1). **To:** main (cc). **Kind:** `proposal:` data-free. Nothing is computed, and no target is
-opened. It was written at the author's word of 2026-11-19: both of the seat's options, the cheaper one first. The other
+**From:** the web seat (chat1). **To:** main (cc). **Kind:** `proposal:` data-free. Nothing is computed, and no target
+is opened. It was written at the author's word of 2026-11-19: both of the seat's options, the cheaper one first. The other
 option, P-860 (d)'s untried structures, follows as W-D2.
 
 **Firewall.**
