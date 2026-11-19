@@ -1,0 +1,25 @@
+W-P1d: frame C's read-outs under the two clocks. Data-free; the frame is W-F24's committed table.
+table: 154 points, top 6.0, 11 columns; DENS 30
+D7 holds: True | column slopes over 4 to 6 above zero: 0 of 264
+  slopes per unit of Im tau, mean over Re tau (trapezoid): log A over 4-6, log G over 4-6, log G over 2-4; log G over 4-6 min and max over the columns
+   up|S|r2        -0.633   -1.549   -1.819   [  -1.549,   -1.548]
+   up|S|r3        -3.150   -3.880   -3.436   [  -3.887,   -3.877]
+   up|St|r2       -0.583   -1.548   -1.785   [  -1.565,   -1.527]
+   up|St|r3       -3.088   -3.938   -3.712   [  -4.029,   -3.858]
+   down|S|r2      -1.212   -1.549   -1.709   [  -1.550,   -1.549]
+   down|S|r3      -3.438   -3.862   -3.481   [  -3.863,   -3.861]
+   down|St|r2     -1.147   -1.492   -1.637   [  -1.493,   -1.492]
+   down|St|r3     -3.057   -3.883   -3.576   [  -3.904,   -3.879]
+   lep|S|r2       -1.212   -1.549   -1.709   [  -1.550,   -1.549]
+   lep|S|r3       -3.438   -3.862   -3.481   [  -3.864,   -3.860]
+   lep|St|r2      -1.147   -1.492   -1.637   [  -1.493,   -1.492]
+   lep|St|r3      -3.057   -3.883   -3.576   [  -3.904,   -3.879]
+  table values at heights 4 to 6 below 1e-12: A 0, G 0 (of 396 each)
+PL3 holds: True | largest difference at the table's points: 1.1e-16
+radii control holds: True | 1414 words, largest relative difference 0
+PL4 holds: True | W-F24's words: 1000; largest relative difference from its read-outs 8.9e-15
+  [8 s]
+(a) n = 20: 2000 words, 968928 nodes; E[height] 1.5452, E[(height - 6)+] 0.000196; PL1 5e-16, PL2 2.1e-06, PL5 7.7e-07 [12 s]
+(a) n = 40: 2000 words, 1939814 nodes; E[height] 1.5424, E[(height - 6)+] 0.000246; PL1 6.1e-16, PL2 2.3e-06, PL5 7.9e-07 [21 s]
+(a) n = 80: 2000 words, 3884657 nodes; E[height] 1.5393, E[(height - 6)+] 0.000212; PL1 3.9e-16, PL2 2.2e-06, PL5 7.3e-07 [39 s]
+(b): 52091 classes with trace at most 800, 2467328 letters  [68 s]
