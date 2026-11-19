@@ -11319,7 +11319,7 @@
   "hatch": "the masses are not in the weave's group: a forced modulus (the fibre's tau) or dynamics; the sum rule m1 + m2 = m3 for the neutrinos (the Majorana analysis T(x)T(x)H, sealed) and its cosmological consequence (Sigma m ~ 0.115 eV at normal ordering)",
   "priority": "medium",
   "routed_from": "main, at banking (2026-10-08), for tests/test_b833_negative_routing.py",
-  "note": "Read as a specification: the charged leptons' hierarchy is out of reach of every residual-aligned vacuum (m2 >= m3/2 in the only continuous family); the masses are three free parameters per sector at TM1's symmetry.",
+  "note": "Read as a specification: the charged leptons' hierarchy is out of reach of every residual-aligned vacuum (m2 >= m3/2 in the only continuous family); the masses are three free parameters per sector at TM1's symmetry. [Scoped 2026-11-19, P-160, by B1655's audit: with one Higgs irreducible at a time and a vacuum fixed by RL, L, R or RRL; with several irreducibles the masses are free (C5; B1620); the sum rule m1 + m2 = m3 is structure, not a failure.]",
   "faces_consulted": [
    "B1612",
    "B1611",

@@ -1,4 +1,4 @@
-# B1630 — THE TICK'S POINT: the principle's tick passes through τ = i, not ω; at i the weave's residual symmetry fixes the clock's line and swaps the two letter lines, so every mass spectrum is one value apart and two equal (never three distinct), the single on the clock's line — the 1 + 2 the rule's word gave outside the weave, now from the weave's own symmetry; the clock's line mixes only with itself
+# B1630 — THE TICK'S POINT: the principle's tick passes through τ = i, not ω; at i the weave's residual symmetry fixes the clock's line and swaps the two letter lines, so every mass spectrum is one value apart and two equal (never three distinct), the single on the clock's line — the 1 + 2 the rule's word gave outside the weave, now from the weave's own symmetry; the clock's line mixes only with itself [STANDS ONLY AS SCOPED (B1655, B1648): where the inner automorphisms act; the scope carried into this headline 2026-11-19, P-160]
 
 > *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (the inner automorphisms act; B1648). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
 

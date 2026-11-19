@@ -1,4 +1,4 @@
-# B1618 — THE WEIGHTED CELL AT ω: given τ = ω, Dirac masses are degenerate at ω for every weight — the inner automorphisms make every mass matrix diagonal in the three parity lines at every τ, and U cycles the three entries; near ω they stay equal at leading order — so the tagged postulate τ = ω cannot give the observed hierarchy within the weave
+# B1618 — THE WEIGHTED CELL AT ω: given τ = ω, Dirac masses are degenerate at ω for every weight — the inner automorphisms make every mass matrix diagonal in the three parity lines at every τ, and U cycles the three entries; near ω they stay equal at leading order — so the tagged postulate τ = ω cannot give the observed hierarchy within the weave [STANDS ONLY AS SCOPED (B1655): where the inner automorphisms act; wrong on the ruled branch; near ω not computed; the scope carried into this headline 2026-11-19, P-160]
 
 > *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (the inner automorphisms act); the headline is wrong on the ruled branch; near ω not computed. The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
 

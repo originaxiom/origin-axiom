@@ -1,6 +1,17 @@
 # B1643 — THE CROSSINGS CENSUS: every attempt to cross from the principle's mathematics to a physical number, read together; none has produced a derived Standard Model number, every one identified an object's number with a physical one by fiat, and none crossed through a field — the criteria for a crossing through a field, and why none is ready yet
 
 > *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (the rows read; not exhaustive; two independent routes). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+>
+> *2026-11-19 (P-158, from B1655's audit table): the census left out three entries the record holds. None is a crossing,
+> and the census's answer stands.*
+> - *B1075 (NEGATIVE, sealed): the moduli crossing, a MISS at power.*
+> - *B1126 (PROVED): no object period is a Standard Model ratio, over 352 pairs, 351 of them below two significant
+>   figures.*
+> - *The near-match of sin²θ₁₂ to 1/(2φ), at 0.15σ. B856 refutes that reading on kind, and B1075 calls it the known
+>   designer coincidence.*
+>
+> *The lock's `test_the_bite` changes one cited verdict (B915 to PROVED) and checks that it then differs from the
+> record. That holds by construction, so the test shows that the verdicts are read; it does not lock the census's rows.*
 
 **Verdict: PROVED** (a census arc; every row is a banked arc read at its verdict file). cc (main), 2026-10-13, at the
 owner's question: "one question we havent tackled in a long time, tackled properly… did we do any crossing to physics
@@ -81,7 +92,8 @@ Antusch, Hinze and Saad, arXiv:2510.01312 (the double ratio, as data); Barger, a
 ## 4. Status: no crossing through a field is ready
 
 - **C6 fails today.** The fibre's zero modes give no flavour structure: three independent routes agree (B1642, W61,
-  the audit lane's residue audit). The hierarchy needs a datum acting on the multiplicity M (P-105). Until one is found
+  the audit lane's residue audit). *[2026-11-19, P-158: two independent routes, not three. W61 is the audit lane's residue audit
+  (the table's row for B1642 says so), so the routes are B1642 and that audit (B1655's audit of this arc).]* The hierarchy needs a datum acting on the multiplicity M (P-105). Until one is found
   and computed, no flavour target can be tested.
 - **Golden-ratio mixing is already dead.** The golden coupling's mixing at τ = i (the patterns referee's unsealed
   probe, P-071) is sin²θ₁₂ = 1/(2+φ) = 0.2764, which B1066 excluded at 4.7σ against NuFIT 6.1. P-071 is closed by the

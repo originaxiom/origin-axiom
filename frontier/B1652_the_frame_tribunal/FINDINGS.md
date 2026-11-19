@@ -83,6 +83,10 @@ D1–D5 are the owner's agreed demands; D6–D8 are main's.
 | **D7** | **SATISFIED as allowed:** CP broken only by couplings (B1611); J = 0 at leading order (B1649) [sealed] | **FAILS:** CP-invariant (W74); the mirror-symmetric threads carry bit 0 (W76; chat1's T-SIGN) [seat] | **UNTESTED** | **OPEN; a CP sign NOT SELECTABLE by the weave:** a word and its reverse are one oriented manifold (B1456; FK12), with equal Vol and CS and conjugate couplings, so no weight built from them picks a sign [chat1, labelled post hoc] |
 | **D8** | **OPEN:** the scale is external (B1015); W75's "no free size" holds for the ordinary uniformizing field only (W81) [seat] | **UNTESTED** | gravity **UNTESTED**; the scale a reading (W75) | **OPEN:** the vacuum's weight is the 3D gravity action (c, Vol); no scale [chat1] |
 
+> *2026-11-19 (P-160): D2's F1 cell, 'SATISFIED given Λ', rests on B1606, which B1655 grades STANDS ONLY AS SCOPED:
+> ±3 holds when the end condition keeps the parity grading, and its dim Λ₊ − 3 and the M₁,₂ reading are the SM seat's
+> (P-156, open). W23 and W24, unverified on main when B1655 wrote, are verified since (B1689).*
+
 **Notes on the cells, from the attacks.**
 - **F1, D1** (chat1): the root-share weighting weighs conjugacy classes (threads), not points τ, so it does not pay F1's
   D6 debt.

@@ -581,7 +581,7 @@ re-read of the record that led to it is `docs/THE_REREAD_2026-10-06.md`.
   leptonic relation, TM1, without the swap — sin²θ₁₂ = 0.318 and δ_CP ≈ 262.5° given θ₂₃, registered as falsifier P10
   (B1612, B1613; value contact reopened by the owner, `docs/KIND_TABLE.md`).
 - **Masses.** Not in the weave's group: three free couplings per sector at TM1's symmetry; residual vacua rigid or
-  m₁ + m₂ = m₃, the charged-lepton hierarchy out of reach (B1615); no residual Majorana vacuum survives the splittings
+  m₁ + m₂ = m₃, the charged-lepton hierarchy out of reach (B1615; *scoped 2026-11-19, P-160, by B1655: with one Higgs irreducible at a time and a vacuum fixed by RL, L, R or RRL; with several irreducibles the masses are free, C5 and B1620*); no residual Majorana vacuum survives the splittings
   (B1616); given the owner's tagged postulate τ = ω, the masses are degenerate at ω (B1617), and B1618 asks whether
   any weight changes that.
 - **The physical vacuum (the audit lane, headline level).** One supplied curved E₈ action admits a stable stationary
@@ -606,7 +606,7 @@ ledger's sections on the flavour sector. Scope throughout: the weave's fibre at 
 - **The first generation at leading order (B1649).** For every Higgs at the puncture the theta triplet R is a
   two-sided null vector, by Jacobi's identity. With both quark sectors on one fibre: m_u = m_d = θ₁₂ = θ₁₃ = J = 0.
   That is five zeros. Four sit close to nature; the Cabibbo angle does not.
-- **The second and third generations (B1646).** The Higgs's direction in M is exactly the 2–3 mass matrix, so
+- **The second and third generations (B1646).** *[Scoped 2026-11-19, P-160, by B1655: B1646's 'never between' holds for a quartic potential only; one octic invariant, or the zero modes' one-loop term, puts minima between.]* The Higgs's direction in M is exactly the 2–3 mass matrix, so
   m_c, m_t, m_s, m_b and θ₂₃ are free on this route. A symmetric potential puts the direction on the isotropic cone
   or the real locus, never between, and nothing on record fixes it.
 - **No crossing yet (B1643).** Every earlier crossing was a fiat identification; criteria C1–C6 for one through a field

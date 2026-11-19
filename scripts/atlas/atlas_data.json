@@ -11761,7 +11761,7 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 23,
-   "status": "dead",
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B1644": {

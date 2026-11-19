@@ -1,7 +1,9 @@
 """B1637 -- fits on the ruled branch.  Sealed instrument unchanged; the stored cells graded as on the page: F3 (each sector
 alone fits, spread of best Im tau > 1), F4 (u and d at weight 3 fail on all 13), F5 (fits exist, every one with P >= 15;
 the smallest 21), F2's recorded failure as worded (the masses-only chi2 below 100) kept visible; the bite -- the stored
-P formula reproduces 2 + sum(2 d(k) - 1) for every assignment."""
+P formula reproduces 2 + sum(2 d(k) - 1) for every assignment.  The sealed P = 21 is asserted as the record of the run;
+B1655 (P-152) grades the fits STANDS ONLY AS SCOPED: P >= 25 in the reliable region (T x T, odd weights, Im tau <= 10).
+(Said here 2026-11-19, P-160.)"""
 import hashlib, json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 A = ROOT / "frontier" / "B1637_fits_on_the_ruled_branch"
