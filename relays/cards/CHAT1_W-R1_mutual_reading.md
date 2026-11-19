@@ -129,8 +129,13 @@ imported unchanged):
   (0, 0, 1).
 - **C2:** B1717's: End_G(V₂) = End_G(V₃) = 1, Hom_G(V₂, V₃) = 0.
 - **C3, a positive control:** End_G(V₂ ⊕ V₂) = 4.
-- **C4:** at a random irreducible pair (W-C3's K1), where Sym^{2k} has no finite image, the invariant forms on the
-  private module are computed and reported. That is the generic case, outside the derivation.
+- **C4:** at a random irreducible pair (W-C3's K1) no move keeps the representation, so the moves do not act on its
+  private states and no invariant form is defined there. The script checks that L has no lift at that pair.
+  - Amended before the script was written. The card's first version (e3771b29e) asked for the invariant forms at the
+    random pair, which are not defined. Nothing had been computed.
+
+**Also reported, predicted now:** Burnside's dimension on V_k is 16, 4, 20, 16, 24 for k = 2 to 6. It is End(St) ⊗ the
+image of S₃ on M_k: 4 × (the sum of the squares of the distinct irreducibles' dimensions).
 
 **Expected [J].** P0, P1, P2 and P3 hold, and every control holds.
 
