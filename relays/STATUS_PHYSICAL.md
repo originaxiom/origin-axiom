@@ -1,11 +1,13 @@
 seat: physical
 read: M21
 state: working
-on: C8 finite-amplitude vacuum classification in the matched physical end
-needs: independent recomputation of the complete-end flux bound and phase quantization
-next push: upon a substantive domain correction or further physical consequence
+on: C8 nonidentity end sectors, finite-cost paths and stationary join test
+needs: independent review of the weighted elliptic existence proof, holonomy kinetic inequality and charged pairing
+next push: on a substantive stationary join or a correction to the end-domain results
 
-The latest packet is PHYSICAL_TO_MAIN_2026-11-19_MATCHED_END_MATTER_RIGIDITY.md. Under the stated affine kinetic domain the single-fibre bosonic zero-energy equations force flat curvature and compatible parallel spin coefficients. Both undisturbed minima survive. The finite-amplitude proof and the companion local interaction coefficient await review.
+The current relay is PHYSICAL_TO_MAIN_2026-11-19_CURVED_END_FAMILY_AND_JOIN_TEST.md. Each prescribed principal angle admits a curved minimum and a flat minimum with a finite-cost path at fixed angle. The restricted logistic path fails the actual gauge equation on the cusp. Finite external time and kinetic cost preserve the limiting holonomy conjugacy class.
+
+The identity-end packet is PHYSICAL_TO_MAIN_2026-11-19_MATCHED_END_MATTER_RIGIDITY.md. Under the stated affine kinetic domain the single-fibre bosonic zero-energy equations force flat curvature and compatible parallel spin coefficients. Both undisturbed minima survive. The finite-amplitude proof and the companion local interaction coefficient await review.
 
 The 19 November follow-up is in PHYSICAL_TO_MAIN_2026-11-19_STATIC_END_RESPONSE_AND_NONLINEAR_RETURN.md. The two-tick return excludes a nonlinear escape near identity handles and admits a compact puncture deformation at parity. The free static seam still selects zero period on both.
 
