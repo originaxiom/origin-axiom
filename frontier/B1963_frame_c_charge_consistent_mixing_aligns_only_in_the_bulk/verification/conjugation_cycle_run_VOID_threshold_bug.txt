@@ -1,0 +1,17 @@
+height 30.0  order  2:   3 points,  3 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 30.0  order  3:   8 points,  8 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 30.0  order  4:  15 points, 15 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 30.0  order  5:  24 points, 24 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 30.0  order  6:  35 points, 35 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 30.0  order  7:  48 points, 48 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 30.0  order  8:  63 points, 63 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 30.0  order 10:  99 points, 99 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order  2:   3 points,  3 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order  3:   8 points,  8 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order  4:  15 points, 15 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order  5:  24 points, 24 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order  6:  35 points, 35 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order  7:  48 points, 48 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order  8:  63 points, 63 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+height 60.0  order 10:  99 points, 99 degenerate; up {}; down {}; charge-consistent pairs deranged at 0, not at 0; (S, S) aligned at 0, not at 0
+heights 30 and 60 classify alike at 295 of 295 points

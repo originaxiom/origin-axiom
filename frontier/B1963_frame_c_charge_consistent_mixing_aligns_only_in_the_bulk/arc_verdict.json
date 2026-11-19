@@ -1,0 +1,28 @@
+{
+ "id": "B1963",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1946",
+  "B1945",
+  "B1940",
+  "B1962"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-F13 and W-F14 (rows 1793, 1794) and agy-exp's X-OWN (rows 1798, 1799): the relative reading fixed by hypercharge, through P-847"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C (B1940's frame as B1945 splits it), its code unchanged; the charge-consistent Higgs readings (S~ up with S down, or the mirror)",
+  "object": "the cusp mixing |U_up^H U_down| and the hierarchy s_min/s_max, on a grid: orders 2 to 10 at heights 30 and 60 (x = 0.13); orders 5 and 7 at heights 1 to 10 and columns x = 0, 0.13, 0.25, 0.5",
+  "reach": "class",
+  "hypotheses": "a grid computation, not a theorem; frame C's Higgs direction, end, channel weights and metric held fixed; thresholds fixed before each run (aligned >= 0.9, deranged < 0.1); degenerate points at the working precision set aside; no data"
+ },
+ "claim_one_line": "IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs derange the mixing at every non-degenerate point of every order from 2 to 10 (271 points at height 30, 238 at 60), the conjugation tending to a 3-cycle of the generations; across height, at four columns and the points of orders 5 and 7, the mixing is aligned only at height 1.0 (hierarchy h >= 3.9e-3), at no point from height 1.2, and deranged at every point from height 3; no case has an aligned charge-consistent mixing with three orders of hierarchy; so the aligned option needs (S, S), the reading the charge rule excludes. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

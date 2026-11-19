@@ -17829,6 +17829,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1963": {
+   "slug": "frame c charge consistent mixing aligns only in the bulk",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 23,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1659 |
-| … PROVED | 1156 |
+| arcs with a verdict file | 1660 |
+| … PROVED | 1157 |
 | … NEGATIVE | 387 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 877 |
-| … “QUEUED” | 308 |
+| register points | 878 |
+| … “QUEUED” | 309 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 553 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1963 | PROVED | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs…” |
 | B1962 | NEGATIVE | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861…” |
 | B1961 | PROVED | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every ano…” |
 | B1960 | PROVED | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, unc…” |
@@ -42,7 +43,6 @@
 | B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
 | B1953 | PROVED | “FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5…” |
 | B1952 | PROVED | “THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-…” |
-| B1951 | PROVED | “THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on th…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p: THE SESSION'S GOAL IS THE FINAL READING; FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY READING (B1962, NEGATIVE as sealed, provisional; P-861).** The author set the goal: reduce the menu by principle until one value-specific card can be sealed, compare it once, and write up the count of free numbers the object leaves; or prove the remaining choices cannot be removed by principle and write up the structure and the count. The harvest goes on maintenance. First package: frame D1's mixing, its card pushed before the run (399670b39). With a frame-C control reproducing B1946 exactly, no reading pair aligns at height 30 under either sign of c, and the leptons copy the dow…”
+“LATEST (2026-11-19, S306p, later: IN FRAME C THE CHARGE RULE AND A HIERARCHY EXCLUDE AN ALIGNED CUSP MIXING (B1963, PROVED on its grid; P-847).** B1946's order-5 fault is universal on frame C: high in the cusp the charge-consistent readings derange the mixing at every non-degenerate point of orders 2 to 10, the conjugation tending to a 3-cycle of the generations; across height, at four columns, the mixing is aligned only at height 1.0, with at most about two orders of hierarchy, and deranged everywhere from height 3. No case has an aligned charge-consistent mixing with three orders of hierarchy. With B1962 (frame D1 deranged for every reading), the record's frames hold no aligned mixing und…”
 
 ## Completeness (nothing skipped silently)
 

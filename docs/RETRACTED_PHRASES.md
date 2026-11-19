@@ -354,3 +354,18 @@ replaces it), B1924's reading of the twin as fading (equal at every n, by agy-00
 (every odd metallic act), B1928's locus of the return time's blow-up, and the channel weight's truncation in frame C
 (B1932: the exact weight moves four values by about 1 %). Review 82's readers read them (B1931).
 
+## Currency note, 2026-11-19 (through B1963)
+
+The window B1933 to B1963 withdrew no sentence that this registry's sweep must hold today. Its corrections stand beside
+their old words, each dated, on their own pages:
+- B1602's and B1603's counts restated over candidate kernels (P-155);
+- B1660, B1748 and B1720 scoped at M_Z, tree level (P-590);
+- B1959's step at infinity closed;
+- the interpolation bound and the halved count found in the harvest (B1957's checks).
+
+**Not current in two places** (searched by phrase; P-878):
+- B1088's "zero free dimensionless constants" is scoped on two pages and stands unscoped in about 23 other files;
+- B1625's "TM1 is allowed under T̄ ⊗ T only" is noted on B1625 and repeated in about 11.
+
+No row is added today. Each first needs its dated brackets at the live uses.
+

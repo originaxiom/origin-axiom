@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1659** |
-| words of findings prose | **1,517,622** |
+| research arcs with findings | **1660** |
+| words of findings prose | **1,518,988** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1659** (100.0 %) |
+| arcs carrying an authored verdict | **1660** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1156 |
+| PROVED | 1157 |
 | NEGATIVE | 387 |
 | OPEN | 103 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1961`** (1667 words, 1 locks)  
-“SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; the auditor's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.”  
-`B1961_six_verification_debts_recomputed_on_main/FINDINGS.md`
+**PROVED — `B1963`** (1366 words, 0 locks)  
+“IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs derange the mixing at every non-degenerate point of every order from 2 to 10 (271 points at height 30, 238 at 60), the conjugation tending to a 3-cycle of the generations; across height, at four columns and the points of orders 5 and 7, the mixing is aligned only at height 1.0 (hierarchy h >= 3.9e-3), at no point from height 1.2, and deranged at every point from height 3; no case has an aligned charge-consistent mixing with three orders of hierarchy; so the aligned option needs (S, S), the reading the charge rule excludes. 0 of 19.”  
+`B1963_frame_c_charge_consistent_mixing_aligns_only_in_the_bulk/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1079 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms is assumed, not shown. 0 of 19.”  
