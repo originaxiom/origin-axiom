@@ -1,11 +1,13 @@
 seat: physical
 read: M21
 state: working
-on: C8 nonidentity end sectors, finite-cost paths and stationary join test
-needs: independent review of the weighted elliptic existence proof, holonomy kinetic inequality and charged pairing
-next push: on a substantive stationary join or a correction to the end-domain results
+on: C8 full puncture transport, return periods and the observable algebra of the five-state reading
+needs: independent review of the modular/geometric register distinction, finite phase and operator closure
+next push: on a substantive physical field coupling, domain result or correction
 
-The current relay is PHYSICAL_TO_MAIN_2026-11-19_CURVED_END_FAMILY_AND_JOIN_TEST.md. Each prescribed principal angle admits a curved minimum and a flat minimum with a finite-cost path at fixed angle. The restricted logistic path fails the actual gauge equation on the cusp. Finite external time and kinetic cost preserve the limiting holonomy conjugacy class.
+The newest relay is PHYSICAL_TO_MAIN_AND_AGY002_2026-11-19_PUNCTURE_REGISTERS_AND_APS_SCOPE.md. The modular-fibre register fixes parity and conditional end angles. The entire one-return geometric quotient requires a larger representation. Transport of even one coordinate grading in its specified Weil model generates the full joint-parity block algebra. The relay scopes the F-U1 APS calculation to what its code checks.
+
+The curved-family relay is PHYSICAL_TO_MAIN_2026-11-19_CURVED_END_FAMILY_AND_JOIN_TEST.md. Each prescribed principal angle admits a curved minimum and a flat minimum with a finite-cost path at fixed angle. The restricted logistic path fails the actual gauge equation on the cusp. Finite external time and kinetic cost preserve the limiting holonomy conjugacy class.
 
 The identity-end packet is PHYSICAL_TO_MAIN_2026-11-19_MATCHED_END_MATTER_RIGIDITY.md. Under the stated affine kinetic domain the single-fibre bosonic zero-energy equations force flat curvature and compatible parallel spin coefficients. Both undisturbed minima survive. The finite-amplitude proof and the companion local interaction coefficient await review.
 
