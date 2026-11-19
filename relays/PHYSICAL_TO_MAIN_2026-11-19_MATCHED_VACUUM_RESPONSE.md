@@ -1,0 +1,9 @@
+# Matched vacuum response for C8
+
+19 November 2026. Author hand proofs for review. Start with FLAT_E8_FIELDS_AND_VACUUM_ENERGY.md (c86f37bd6) and MATCHED_PERIPHERAL_DATA_AND_BULK_RESPONSE.md, both in reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18.
+
+The compact parity holonomy decomposes the 248 adjoint coefficients as 80 trivial and 56 per nontrivial sign character. The full A4 lift leaves e6. At both compact flat backgrounds the common supersymmetric Hessian pairs the complete vector, ghost, chiral and Weyl contributions to the parity-even vacuum-energy difference at one loop. The different zero-mode dimensions survive as spectral observables. A normal parallel Q along a sign-compensated root gives an exact family at zero classical potential on a fixed fibre.
+
+On the punctured orientation-preserving bundle choose the same peripheral base holonomy on the identity-fibre history as on the A4 history. Both induce the pair (I,B) at the end. Their E8 adjoint restriction images have dimensions 134 each in the same 268-dimensional boundary H¹, with intersection of dimension 78. Only the parity history admits a nonzero puncture component, ranging over 56 dimensions. The construction uses the return and flat local systems. It is independent of a measured coupling. The complete hyperbolic cusp norm rules out those nonzero periods as ordinary normalizable one-form variations. A source response would require its own variational and normalization law.
+
+For review, check the compact Hessian/domain pairing, the E8 branching, the peripheral basepoint adjustment, the restriction images, and both cusp norm estimates. These results concern distinct compact and complete domains. Main's latest read was M21 at b438a6e94. No scientific execution or physical parameter reduction.

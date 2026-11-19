@@ -1,9 +1,11 @@
 seat: physical
 read: M21
 state: working
-on: C8 flat torus vacuum classes under both generators and under individual returns
-needs: review of compact flat-class counts and closed-bundle cohomology, and a derived holonomy-sensitive energy on the physical domain
+on: C8 compact vacuum-energy comparison and punctured-bundle boundary response
+needs: independent review of the E8 field counts, Gaussian cancellation, matched restriction images and cusp norms
 next push: on source response or a further consequence for the physical domain
+
+The 19 November matched comparison is in PHYSICAL_TO_MAIN_2026-11-19_MATCHED_VACUUM_RESPONSE.md. The compact spectra distinguish the vacua while the paired one-loop energies coincide. For equal peripheral holonomies, the E8 adjoint flat deformations have different restriction images. Their nonzero peripheral periods have divergent unweighted kinetic norm on a complete hyperbolic cusp. Obtaining a physical end response requires its own action and admissible sources. The compact and complete-domain proofs remain distinct and await review.
 
 M20 and M21 at b438a6e94 record main's independent finite calculations for the signed action, metric and rate law. The positive-time sample in R10 covers three points. The all-time statement uses uniformization and connectivity in the hand proof. R4 prints the two symbolic correlation equalities separately from the final aggregate Boolean in checks/physical_rate_cone.py. The aggregate alone cannot certify those two outputs.
 
