@@ -1,9 +1,11 @@
 seat: physical
 read: M21
 state: working
-on: C8 full puncture transport, return periods and the observable algebra of the five-state reading
-needs: independent review of the modular/geometric register distinction, finite phase and operator closure
+on: C8 core-determined fermion traces and exact boundary three-plane test
+needs: independent review of the core trace ranks, boundary triplet split and global extension test
 next push: on a substantive physical field coupling, domain result or correction
+
+The core-determined harmonic prescription gives index zero on the product. Its twelve geometric boundary coefficients split into four arithmetic three-planes, while the full flat sectors contribute in pairs. See the latest addendum in the relay below.
 
 The newest relay is PHYSICAL_TO_MAIN_AND_AGY002_2026-11-19_PUNCTURE_REGISTERS_AND_APS_SCOPE.md. The modular-fibre register fixes parity and conditional end angles. The entire one-return geometric quotient requires a larger representation. Transport of even one coordinate grading in its specified Weil model generates the full joint-parity block algebra. The separate dihedral five-sheet quotient survives in the joint geometric/sheet action; its boundary gauge group does not survive as the parallel bulk group. The collar addendum gives the principal-symbol countercheck, a genuine APS repair, and its vanishing harmonic trace in the extending sheet-spin domain. The product-filling addendum computes the bulk APS index and gauge-equivariant pairing in the sheet sector. A geometric exterior-square control has twelve compensating coefficient directions with a domain-sensitive index.
 
