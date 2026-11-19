@@ -1,0 +1,161 @@
+{
+  "card": "AGY-002_FOUND-V2-U4 + ERRATUM",
+  "empirical_firewall": "0 of 19",
+  "gate_f_u4_passed": true,
+  "runtime_seconds_int": 345,
+  "section_0_ast_manifests_and_ode": {
+    "bad_imports": [],
+    "complex_literal_count": 0,
+    "float_literal_count": 0,
+    "manifest_count": 18,
+    "manifest_mismatches": [],
+    "section_0_passed": true,
+    "self_script_sha256_verified": true,
+    "unreduced_ode_L2_S_err": 0.0,
+    "unreduced_ode_L2_T_err": 6.217248937900877e-15,
+    "verified_manifests_count": 18
+  },
+  "section_1_p862_universal_laws": {
+    "max_64pt_det_identity_err": "3.91834e-34",
+    "section_1_passed": true,
+    "sympy_cholesky_12var_sos_exact": true,
+    "uf1_min_R_ed": 1.6191830975464552,
+    "uf1_min_R_ud": 1.0413438945501627,
+    "uf2_weil_bounds": {
+      "m1_S": {
+        "R_ed_max": 4.189068320043685,
+        "R_ed_min": 1.6191830975464552,
+        "R_ud_max": 2.463086763727588,
+        "R_ud_min": 1.8018505968116074
+      },
+      "m1_tilde_S": {
+        "R_ed_max": 4.186812691693504,
+        "R_ed_min": 2.104005936281917,
+        "R_ud_max": 1.8889514301491839,
+        "R_ud_min": 1.8027231381734623
+      },
+      "m3_S": {
+        "R_ed_max": 757.9834434833027,
+        "R_ed_min": 26.952111928425815,
+        "R_ud_max": 1.0837173458374452,
+        "R_ud_min": 1.0413438945501627
+      },
+      "m3_tilde_S": {
+        "R_ed_max": 48.303842899638155,
+        "R_ed_min": 15.773020505241735,
+        "R_ud_max": 1.154019447068566,
+        "R_ud_min": 1.0413641916813818
+      }
+    },
+    "uf3_orbifold_continuity": {
+      "i": {
+        "R_ud": 1.8063190875533706,
+        "R_ud_pert_diff": "2.71611e-14",
+        "holomorphic_sig3_over_sig1": "4.53365e-43"
+      },
+      "rho": {
+        "R_ud": 1.8011322187045453,
+        "R_ud_pert_diff": "4.7705e-14",
+        "holomorphic_sig3_over_sig1": "2.20983e-51"
+      }
+    },
+    "uf4_haar_su3_5_err": "2.42152e-48",
+    "uf4_modular_S_err": "3.60581e-36",
+    "uf4_modular_T_err": "4.32988e-49"
+  },
+  "section_2_wp1c_process_clocks": {
+    "clockC_poincare_area_err": 1.1453370271086172e-06,
+    "hyperbolic_word_count": 62,
+    "m1_S_clocks": {
+      "A_move_count": {
+        "ln_R_ed": 1.23164734558708,
+        "ln_R_ud": 0.6274174406405932
+      },
+      "B_hyp_length": {
+        "ln_R_ed": 1.2525316565659008,
+        "ln_R_ud": 0.6221985216523769
+      },
+      "C_poincare_area": {
+        "ln_R_ed": 1.1714001706236405,
+        "ln_R_ud": 0.6490591889418328
+      },
+      "spread_ln_R_ed": 0.08113148594226027,
+      "spread_ln_R_ud": 0.02686066728945591
+    },
+    "m3_S_clocks": {
+      "A_move_count": {
+        "ln_R_ed": 3.8208076156237003,
+        "ln_R_ud": 0.055148835211724256
+      },
+      "B_hyp_length": {
+        "ln_R_ed": 3.7742589356719174,
+        "ln_R_ud": 0.05448009651612568
+      }
+    },
+    "max_clock_det_id_err": "2.51046e-30",
+    "parabolic_words": [
+      "LLLLLL",
+      "RRRRRR"
+    ],
+    "pell_orbifold_words": [
+      {
+        "trace": 14,
+        "word": "RRLRRL"
+      },
+      {
+        "trace": 14,
+        "word": "LRRLRR"
+      }
+    ],
+    "section_2_passed": true,
+    "unique_fd_apex_count": 27
+  },
+  "section_3_58node_dag_v2": {
+    "category_counts": {
+      "OPERATOR": 9,
+      "RELATION": 13,
+      "ROOT": 9,
+      "SEAM": 8,
+      "SM_TARGET": 19
+    },
+    "dag_acyclic": true,
+    "ewsb_anchor_rank": 3,
+    "guardrail_1_seam_honesty_passed": true,
+    "monotone_max_plus_invariant_passed": true,
+    "relation_rank_histogram_0_1_2_3": [
+      2,
+      8,
+      3,
+      0
+    ],
+    "section_3_passed": true,
+    "sm18_v_ew_rank": 3,
+    "sm19_bar_theta_rank": 2,
+    "sm_target_rank_histogram_0_1_2_3": [
+      0,
+      0,
+      1,
+      18
+    ],
+    "total_dag_nodes": 58
+  },
+  "section_4_planted_faults": {
+    "PFU4_1_caught": true,
+    "PFU4_1_linear_sv_split_collapse": "6.7482e-47",
+    "PFU4_2_caught": true,
+    "PFU4_2_swapped_clocks": {
+      "A": -0.6274174406405932,
+      "B": -0.6221985216523769,
+      "C": -0.6490591889418328
+    },
+    "PFU4_3_caught": true,
+    "PFU4_3_seam_honesty_passed_when_broken": false,
+    "PFU4_4_caught": true,
+    "PFU4_4_cycle_acyclic": false,
+    "PFU4_4_detached_sm18_rank": 0,
+    "PFU4_5_caught": true,
+    "PFU4_5_haar_err": "1.20161e-43",
+    "PFU4_5_real_part_det_shift": "43.307259",
+    "all_5_planted_faults_caught": true
+  }
+}
