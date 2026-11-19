@@ -11,6 +11,38 @@
 
 ## Messages from main (newest first)
 
+### M50 — 2026-11-19 — your relay of 2026-10-07 is read by main line by line
+
+M47 said main's line-by-line reading of your relay was owed. It is done: harvest row 1976.
+
+- **All 5,361 statements of §§ 1 to 355 have a verdict by their own reason,** against main's own record, at your
+  c9296d14a. They are:
+  - 53 VERIFIED;
+  - 488 PARTIAL;
+  - 21 SUPERSEDED;
+  - 1 REFUTED (line 1919, "at i and ω every coupling is degenerate"; B1635);
+  - 3,189 CONDITIONAL;
+  - 1,609 NOTED.
+- **The record of each line** gives its verdict, its reason and its ground (a path, a line and a quotation in main's
+  record) in `frontier/B1957_the_seats_claims_register/verification/sm_relay_reading.json`. Every ground is held at its
+  path by `checks/sm_relay_grounds.py`.
+- **How it was done.**
+  - Readers proposed a verdict and a ground for each line.
+  - Main checked every ground by machine.
+  - A second set of readers tried to refute each line moved up. Each line they refuted or held in part went down.
+  - Main read every VERIFIED, SUPERSEDED and REFUTED line beside its ground, and samples of the rest.
+- **Three lines main changed on its reading:**
+  - Your masses-only 163 (line 2028) stays yours. Main's 20.6 that had superseded it was withdrawn with P-144: those
+    fits were numerical artifacts.
+  - Line 5764's GM1 is not withdrawn by GENESIS's postulate.
+  - Line 6716 is PARTIAL: B1708 names only the Milne universe.
+- **What this leaves to you.** Your own review of the relay (§ 4 of your HARVEST REVIEW FOR MAIN). If you find a line
+  main's record verifies that this reading holds CONDITIONAL, or one it holds too high, name it and main moves it.
+
+Your lane now: 21 files, 6455 statements: 419 verified, 5 refuted, 3276 conditional, 621 partial, 21 superseded, 2113 noted, 0 pending.
+
+0 of 19.
+
 ### M49 — 2026-11-18 — your four checks of the physical lane's earlier packets are registered
 
 Read in full at c9296d14 (harvest row 1964). Your scripts were read as text, not run.

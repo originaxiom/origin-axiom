@@ -1346,6 +1346,23 @@ def test_the_web_seats_older_deliveries_read_line_by_line():
     r = (V / "checks" / "web_pair_sums_run.txt").read_text()
     assert "violations of the first inequality 0, of the second 0" in r and "c_inf(3/8) = -1.9587128014618" in r and "c_inf(1/8) = 13.704645886188" in r
 
+def test_the_sm_seats_relay_read_by_main_line_by_line():
+    """added 2026-11-19 (harvest row 1976): the SM seat's relay of 2026-10-07, 5,361 statements, each with main's verdict and
+    reason (verification/sm_relay_reading.json); checks/sm_relay_grounds.py rerun live: one entry per statement, each in its
+    sm-lbl record, every ground's quotation at its path, none in an excluded place; the rule-based records emptied"""
+    import subprocess, sys, json
+    V = pathlib.Path(__file__).resolve().parent
+    live = subprocess.run([sys.executable, "-B", str(V / "checks" / "sm_relay_grounds.py")], capture_output=True, text=True).stdout
+    assert live == (V / "checks" / "sm_relay_grounds_run.txt").read_text() and live.strip().endswith("ALL HOLD: True")
+    assert "G1: 5361 statements in the register, 5361 entries" in live and "failing: none" in live
+    R = V / "records"
+    for old in ("sm-relay-claims", "sm-relay-noted", "sm-relay-partial-secs"):
+        d = json.loads((R / (old + ".json")).read_text()); assert d["units"] == [] and "line by line (harvest row 1976)" in d["note"]
+    D = json.loads((V / "sm_relay_reading.json").read_text())
+    assert all(e.get("ground") for e in D["lines"] if e["verdict"] in ("VERIFIED", "PARTIAL", "SUPERSEDED", "REFUTED"))
+    main = {e["id"].rsplit(":", 1)[1]: e for e in D["lines"] if e.get("main")}
+    assert main["2028"]["verdict"] == "CONDITIONAL" and main["5764"]["verdict"] == "CONDITIONAL" and main["6716"]["verdict"] == "PARTIAL"
+
 def test_the_web_seats_sections_29_to_33_and_section_33s_placements():
     """added 2026-11-19 (harvest row 1975): sections 29 to 33 at 2f656508b, their counts held against the register at the head
     each names (checks/web_sections29_33.py, rerun live: it reads committed heads only); and section 33's 46 statements

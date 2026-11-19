@@ -1,0 +1,10 @@
+{
+ "id": "sm-lbl-r",
+ "date": "2026-11-19",
+ "verdict": "REFUTED",
+ "how": "the SM seat's relay of 2026-10-07 (sections 1 to 355, at c9296d14a), read by main line by line (harvest row 1976): main's record shows the line false (B1635: 'every coupling is degenerate at i' is false); read by main beside its ground",
+ "note": "",
+ "units": [
+  "sm:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT:1919"
+ ]
+}
