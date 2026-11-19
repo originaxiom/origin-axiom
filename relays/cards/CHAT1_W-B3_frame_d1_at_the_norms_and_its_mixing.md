@@ -22,9 +22,10 @@ are computed and printed. No data is opened and nothing is set beside a measured
 
 ## Q1: the derivation, written before computing
 
-Notation as W-B2: T = 2τ; v(u) = (θ[α, β](u, T), −i θ[α + ½, β](u, T)); frame C's kernel K_C(u) = v_x(u) v_y(u)ᵀ / θ₁(u, τ)
-with x = (q_L a, 2q_L b), y = (q_R a, 2q_R b) at the point w = aτ + b; D1's kernel K_D1(u) = v_x(u) v_y(u)ᵀ / θ₁(u + h, τ)
-with h = c·q_H·w, its pole at u = −h.
+Notation as W-B2: T = 2τ; v(u) = (θ[α, β](u, T), −i θ[α + ½, β](u, T)).
+- Frame C's kernel is K_C(u) = v_x(u) v_y(u)ᵀ / θ₁(u, τ), with x = (q_L a, 2q_L b) and y = (q_R a, 2q_R b) at the point
+  w = aτ + b.
+- D1's kernel is K_D1(u) = v_x(u) v_y(u)ᵀ / θ₁(u + h, τ), with h = c·q_H·w. Its pole is at u = −h.
 
 - **The shift law** (standard): θ[α, β](u + pT + r, T) = e^(−iπTp² − 2πip(u + β + r)) θ[α + p, β + r](u, T).
 - With z − h = z + pT + r, p = −c·q_H·a/2 and r = −c·q_H·b, both components of v_x get the same factor, and the new
@@ -41,8 +42,8 @@ with h = c·q_H·w, its pole at u = −h.
 - **So, before any computation:** E holds at the norms, at every height, if D1's norm is taken with the flat unitary
   metric and its a0 with that metric's connection. It fails with the flat norm over the cell (W-B2 stage 4). With the
   metric's norm but the plain a0, Theorem 90's weight differs through |a0 + λ|² at the 20 points with a ≠ 0.
-- **Which is D1's own** stays a reading [J]: W-B2 stage 4's referee found the cell norm not periodic in the Higgs's point,
-  and the unitary metric periodic.
+- **Which is D1's own** stays a reading [J]. W-B2 stage 4's referee found the cell norm not periodic in the Higgs's
+  point, and the unitary metric periodic.
 
 **Checks of Q1** (computed in the script, in extended precision unless stated):
 - **E1, pointwise.** At Re τ = 0.13 and heights 1.7, 6 and 30, for every sector, c = ±2, the 24 points and 5 points z
