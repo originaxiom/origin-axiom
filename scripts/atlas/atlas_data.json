@@ -17879,6 +17879,17 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1966": {
+   "slug": "the tradeoffs two ends are exact for every channel",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1662 |
-| … PROVED | 1158 |
+| arcs with a verdict file | 1663 |
+| … PROVED | 1159 |
 | … NEGATIVE | 387 |
 | … OPEN | 104 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1966 | PROVED | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vec…” |
 | B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
 | B1964 | PROVED | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector…” |
 | B1963 | PROVED | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs…” |
@@ -42,7 +43,6 @@
 | B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the markdown files the seats added or changed…” |
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
 | B1955 | PROVED | “[CORRECTED 2026-11-17, the web seat's harvest review, sections 3.3 and 5.4: the top wedge's invariance at level 5 is generic (any representation of determinant 1, both classes) and conditional on the Fock-space reading,…” |
-| B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p, evening: THE TRADE-OFF, SEARCHED (B1965, OPEN; P-879).** The general half of B1740's dichotomy, tried adversarially in the full frame: in frame C under the charge rule, a Nelder-Mead search over every Higgs triplet in C^3 at four points found an aligned mixing only with a nearly real Higgs, the heavy pair then nearly degenerate (m2/m3 0.57 to 0.68); no triplet gives alignment with both heavy-pair ratios below 1e-2, and a 400-triplet scan at three points agrees. The conjecture (P-879) would join B1739's exact lemma and the web seat's R5 (B1743), each proved only in an idealisation; if it holds, the Higgs direction cannot rescue frame C's mixing under the charge rul…”
+“LATEST (2026-11-19, S306p, evening, later: THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (B1966, PROVED; P-879).** Two one-line consequences of B1736's closed form, not on record before: Y h = (h.h) u, so a null Higgs makes the two readings' light states exactly orthogonal whatever the channels (B1739's lemma without 'channels off'), its heavy pair set by the channels' near-nullity; and a real Higgs is flavour-blind up to the reflection 1 - 2 h h^T, so B1727's sharp floor m2/m3 >= 1/3 holds for every channel, making B1740's non-null loss a theorem at reality 1. Under the charge rule neither end of the reality scale gives an aligned mixing with a hierarchy; the interior 0 < r < 1 is t…”
 
 ## Completeness (nothing skipped silently)
 

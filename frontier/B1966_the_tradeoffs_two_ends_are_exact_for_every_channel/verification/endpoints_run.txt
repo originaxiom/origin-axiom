@@ -1,0 +1,8 @@
+E1: Y h - (h.h) u = Matrix([[0, 0, 0]]); h^T Y - (h.h) u^T = Matrix([[0, 0, 0]])
+E3 (covariance): R Y(h, u) R^T - Y(Rh, Ru) = 0 for a rotation R: True
+E3: for h = e1, Y (1 - 2 e1 e1^T) = [[-b1, b2, b3], [-b2, -b1, -c], [-b3, c, -b1]]; its symmetric part is a multiple of 1: True (= -b1 1)
+E4 sample 0: m1 = 2.5e-40; m2 m3 = 124.654699385993; |u1^2 + u.u| = 62.327349692997; ratio 2.000000000000
+E4 sample 1: m1 = 1.1e-40; m2 m3 = 135.068150923255; |u1^2 + u.u| = 67.534075461627; ratio 2.000000000000
+E4 sample 2: m1 = 7.7e-41; m2 m3 = 20.547256582970; |u1^2 + u.u| = 10.273628291485; ratio 2.000000000000
+E4 sample 3: m1 = 1.1e-40; m2 m3 = 87.151097426917; |u1^2 + u.u| = 43.575548713459; ratio 2.000000000000
+E4 sample 4: m1 = 3.6e-41; m2 m3 = 49.649860442657; |u1^2 + u.u| = 24.824930221328; ratio 2.000000000000

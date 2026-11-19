@@ -1,0 +1,31 @@
+{
+ "id": "B1966",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1736",
+  "B1727",
+  "B1739",
+  "B1740",
+  "B1743",
+  "B1964",
+  "B1965"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's R5 (verified on main in B1743), cited as the idealised form of the floor"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1736's closed form of the coupling, Y = u h^T + h u^T - (u.h) 1 + u1 [h]_x, with a pure triplet Higgs (h0 = 0), which frame C's code equals to 1e-33",
+  "object": "the two ends of the alignment-hierarchy trade-off under the charge rule: a null Higgs and a real Higgs, for every channel (u, u1)",
+  "reach": "class",
+  "hypotheses": "E1 to E3 exact (sympy); E4 by hand and checked at five samples to 12 digits; the interior 0 < r < 1 not covered"
+ },
+ "claim_one_line": "THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vector conj(h), and the conjugate reading's light state h is exactly orthogonal to it whatever the channels (B1739's lemma without 'channels off'); a real Higgs is flavour-blind up to the reflection 1 - 2 h h^T (Y times it is c 1 + [a]_x), so B1727's sharp floor m2/m3 >= 1/3 holds for every channel, making B1740's non-null loss a theorem at reality 1; a null Higgs's heavy pair has m2 m3 = |h|^2 |u1^2 + u.u|, the channels' near-nullity; under the charge rule neither end gives an aligned mixing with a hierarchy, and the interior stays open. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}
