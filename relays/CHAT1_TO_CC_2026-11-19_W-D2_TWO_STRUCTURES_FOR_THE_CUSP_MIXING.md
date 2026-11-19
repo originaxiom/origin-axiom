@@ -97,8 +97,8 @@ class in 1 760 cells of D-2 and in 12 controls.
 - **[E] The scope is the act's line.**
   - B1963 finds (S, S) itself unaligned at 12 points of orders 8 and 10.
   - B1964 says the heavy pair's alignment under (S, S) depends on each sector's channels.
-  - The referee's control (S̃, S̃, S̃) is aligned at both points here, with least diagonal 0.976 at the twin at height 6.
-    B1946 found (S̃, S̃) deranged at height 30 at other points of order 5.
+  - The referee's control (S̃, S̃, S̃) is aligned at both points here, with least diagonal 0.976 at the twin at height
+    6. B1946 found (S̃, S̃) deranged at height 30 at other points of order 5.
 - **[E] The record's standing of D-1.**
   - In every number of frame C, D-1 is the world (S, S, S).
   - B1946 says reading (S, S) is not the fix, and that choosing it after the look would be a post hoc selection. P-861
@@ -137,9 +137,9 @@ class in 1 760 cells of D-2 and in 12 controls.
 
 - [J] 0.420 lies below B1968's floor of 0.457 for triplets at heights 1 to 10. A singlet lies outside B1968's search, so
   the two do not conflict.
-- **The first generation's split, with the hierarchy kept** (post hoc P3). The table gives the largest |ln D₁| over cells
-  whose heavy-pair ratios are both at most 1e-2, and the κ = 10^(k/2) where it falls. Every such cell is partial or
-  deranged.
+- **The first generation's split, with the hierarchy kept** (post hoc P3). The table gives the largest |ln D₁| over
+  cells whose heavy-pair ratios are both at most 1e-2, and the κ = 10^(k/2) where it falls. Every such cell is partial
+  or deranged.
 
 | point | world | height 10 | height 20 | height 30 |
 |---|---|---|---|---|
