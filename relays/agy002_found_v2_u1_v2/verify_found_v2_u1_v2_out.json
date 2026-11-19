@@ -1,0 +1,123 @@
+{
+  "card": "AGY-002_FOUND-V2-U1",
+  "empirical_firewall": "0 of 19",
+  "gate_f_u1_passed": true,
+  "runtime_seconds_int": 5,
+  "section_0_ast_and_custody": {
+    "bad_imports": [],
+    "complex_literal_count": 0,
+    "float_literal_count": 0,
+    "script_sha256": "ddd3cb57326be9aca7b867e8a6551c60850769be642ce682dec87aa08fc3a3b4",
+    "script_sha256_matched": true,
+    "section_0_passed": true
+  },
+  "section_1_dihedral_cover_and_weyl": {
+    "centralizer_D5_in_S5_order": 1,
+    "centralizer_Z5_in_S5_order": 5,
+    "longitude_exp_sum": 0,
+    "longitude_perm_on_5_sheets": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "longitude_riley_exact": true,
+    "meridian_perm_on_5_sheets": [
+      0,
+      4,
+      3,
+      2,
+      1
+    ],
+    "peripheral_orbit_sizes": [
+      1,
+      2,
+      2
+    ],
+    "qW5_closed_form_half_I_minus_5half_P_exact": true,
+    "qW5_eigenbasis_diag_m2m2m2p3p3_exact": true,
+    "qW5_eigenbasis_err_mp50": "9.0762708791782849407488681876141969616189876993797e-51",
+    "riley_rel_zero": true,
+    "section_1_passed": true,
+    "surjective_Dn_counts_odd_3_to_31": {
+      "11": 0,
+      "13": 0,
+      "15": 0,
+      "17": 0,
+      "19": 0,
+      "21": 0,
+      "23": 0,
+      "25": 0,
+      "27": 0,
+      "29": 0,
+      "3": 0,
+      "31": 0,
+      "5": 4,
+      "7": 0,
+      "9": 0
+    },
+    "tr_D_P_equals_1_err_mp50": "6.4861209852496632533313813012617104016421582595132e-51",
+    "weyl_XZ_relation_exact": true,
+    "weyl_orthonormality_err_mp50": "2.672764710092195646140536467151481878815196880105e-51"
+  },
+  "section_2_berezin_aps_kawamura": {
+    "anomaly_tr_SU2sq_Y": 0,
+    "anomaly_tr_SU3sq_Y": 0,
+    "anomaly_tr_Y": 0,
+    "anomaly_tr_Y3": 0,
+    "aps_parity_16_16_split_ok": true,
+    "berezin_det_exact": true,
+    "car_anticommutator_errors": 0,
+    "dim_commutant_P": 12,
+    "dim_su5": 24,
+    "global_kernel_Z6_order": 6,
+    "higgs_doublet_6Y_weights": [
+      3,
+      3
+    ],
+    "kawamura_color_triplet_zero_modes": 0,
+    "kawamura_weak_doublet_zero_modes": 2,
+    "section_2_passed": true,
+    "spec_even_6Y": [
+      -4,
+      -4,
+      -4,
+      -3,
+      -3,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      6
+    ]
+  },
+  "section_3_planted_faults": {
+    "PFU1_1_caught": true,
+    "PFU1_1_trefoil_even_6Y": [
+      0,
+      -2,
+      1,
+      1
+    ],
+    "PFU1_1_trefoil_surj_D3": 2,
+    "PFU1_1_trefoil_tr_Y3": -6,
+    "PFU1_2_caught": true,
+    "PFU1_2_p13_commutant_dim": 84,
+    "PFU1_3_caught": true,
+    "PFU1_3_d25_surj_count": 0,
+    "PFU1_4_caught": true,
+    "PFU1_4_even_scalar_color_modes": 3,
+    "PFU1_4_even_scalar_doublet_modes": 0,
+    "PFU1_5_caught": true,
+    "PFU1_5_even16_chiral": true,
+    "PFU1_5_full32_vectorlike": true,
+    "all_5_planted_faults_caught": true
+  }
+}
