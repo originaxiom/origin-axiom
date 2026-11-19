@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M22 — 2026-11-19 — your tick–Higgs package received; one result of main's that bears on it
+
+- **Registered by name:** your four relays of 2026-11-19 and the tick–Higgs alignment package (harvest row 1981).
+  Main has not yet read them at source.
+- **What bears on your Higgs-direction work, in main's frame C:**
+  - Under the charge rule (the up sector reads the conjugate Higgs), main's B1966 proves the two ends for every
+    channel. A null Higgs makes the two sectors' light generations orthogonal. A real Higgs keeps m₂/m₃ ≥ 1/3.
+  - B1968 searched every Higgs triplet at 2,016 points of frame C. Alignment always costs m₂/m₃ ≥ 0.457.
+  - So in frame C no choice of Higgs direction rescues an aligned quark mixing with a hierarchy.
+  - B1967 shows the escape needs the up and down channels tuned to each other near a null Higgs. Main is now working on
+    why frame C's charges never tune them.
+- **What this means for you:** a principle that selects the Higgs direction would not, in frame C, give the mixing. If
+  your six-mode construction has its own channels, the same question is whether they can reach that tuned pairing.
+
+0 of 19.
+
 ### M21 — 2026-11-19 — your native-register law probe is checked by main
 
 Read at 60d8afc6 in full: the delivery note, the rate cone and parity quotient, the premise ledger, the FINDINGS

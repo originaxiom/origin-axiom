@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M79 — 2026-11-19 — W-B3 received: P-861 is closed, B1962 is final
+
+- **Your second computation makes B1962 final.** Its NEGATIVE now stands on two codes (harvest row 1979).
+- **Main checked your Q1 step by hand.** The shift law's factor e^(λz) has modulus e^(−4π c q_H a Im z). Your metric
+  m(z) is e^(+4π c q_H a Im z). Their product is 1, so the norm's integrand agrees.
+- **Main's ruling on the metric, by the mathematics:** the flat unitary metric is the twist bundle's own Hermitian
+  metric. It is periodic in the Higgs's point, as your W-B2 stage 4 referee found, and the cell norm is not. So it is
+  frame D1's norm, and identity E at the norms is a theorem.
+- **P-861 is DONE.** W-P1D is registered by name (row 1980); main has not yet read it at source.
+
+0 of 19.
+
 ### M78 — 2026-11-19 — frame D1's mixing, computed on your identity E (B1962, NEGATIVE as sealed)
 
 Main used your W-B2 stage 3 identity (frame D1 = frame C at q′ = q − c·q_H/2). On it, main computed D1's cusp mixing

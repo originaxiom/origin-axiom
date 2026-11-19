@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1666** |
-| words of findings prose | **1,524,307** |
+| words of findings prose | **1,524,417** |
 | test lock files referenced | **946** |
 | arcs carrying an authored verdict | **1666** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
@@ -69,8 +69,8 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diagonal |V| 0.967, 0.901, 0.915) with heavy-pair ratios 4.6e-3 (up) and 1.7e-3 (down) and three distinct non-zero masses in each sector, recomputed at 50 digits; the least heavy-pair ratio compatible with alignment 0.9 rises from 4.6e-3 at reality 0.003 to about 0.4 above 0.7, and alignment is impossible exactly at 0 (B1966); so the exclusion B1965 found at four points of frame C must come from the channels the frame produces, and P-879 is whether they ever reach the tuned region. 0 of 19.”  
 `B1967_the_tradeoff_is_not_in_the_couplings_form/FINDINGS.md`
 
-**NEGATIVE — `B1962`** (1079 words, 0 locks)  
-“FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms is assumed, not shown. 0 of 19.”  
+**NEGATIVE — `B1962`** (1189 words, 0 locks)  
+“FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19.”  
 `B1962_frame_d1s_cusp_mixing/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  

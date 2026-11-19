@@ -4,6 +4,8 @@
 399670b39 before the run; the second computation is asked of the web seat, M78). Main,
 2026-11-19. Data-free: nothing is set beside a measured number. **0 of 19.**
 
+> *2026-11-19, later: the second computation is made. The web seat's W-B3 (harvest row 1979), on its own code, reproduces every number of this arc it could see: at height 30 no pair aligned under either sign, at height 6 (S̃, S̃) 0.12525 and 0.12559, and the leptons a transposed copy. So the verdict is final: NEGATIVE as sealed. W-B3 also shows identity E at the norms exactly, under the flat unitary metric of the Higgs's twist; main checked the step by hand. That metric is the twist bundle's own and is periodic in the Higgs's point, so this arc's one assumption is now a theorem, and P-861 is closed.*
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /frame D1|shifted charges|cusp mixing|Szego zero|identity E|Higgs.s own twist/: 7 of 1702 arcs on main match (NEGATIVE 2, PROVED 5); 12 register rows match (DONE 1, QUEUED 11)`.

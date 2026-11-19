@@ -19,12 +19,12 @@
 | … OPEN | 106 |
 | … RETRACTED | 13 |
 | register points | 879 |
-| … “QUEUED” | 310 |
+| … “QUEUED” | 309 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 553 |
+| … “DONE” | 554 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1978 |
+| harvest rows (the last number) | 1983 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -38,7 +38,7 @@
 | B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
 | B1964 | PROVED | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector…” |
 | B1963 | PROVED | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs…” |
-| B1962 | NEGATIVE | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, PROVISIONAL until its second computation, asked of the web seat; P-861…” |
+| B1962 | NEGATIVE | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free…” |
 | B1961 | PROVED | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every ano…” |
 | B1960 | PROVED | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, unc…” |
 | B1959 | PROVED | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the l…” |
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p, late: THE COUPLING'S FORM NEARLY ALLOWS AN ALIGNED FULL HIERARCHY (B1969, OPEN, a search; P-879).** With every channel free, a fair feasibility search finds no aligned charge-consistent mixing with a full hierarchy in both sectors but comes within a factor of about 2 near a null Higgs; so no clean impossibility holds at the level of the coupling's form, and the mixing's exclusion rests on frame C's own channels (B1968's floor 0.457, a search). A first search with a biased objective is kept and not read as evidence. For the goal: the mixing branch of an impossibility write-up has its two exact ends (B1966) and a frame-level search (B1968), and lacks the proof of th…”
+“LATEST (2026-11-19, S306p, evening: P-861 CLOSED; B1962 FINAL ON THE WEB SEAT'S SECOND COMPUTATION; FOUR SEATS' DELIVERIES REGISTERED.** The web seat's W-B3 reproduces B1962 on its own code and shows identity E at the norms exactly under the Higgs twist's flat unitary metric (main's hand check; the metric is the twist bundle's own and periodic in the Higgs's point), so frame D1 is closed: deranged for every reading. Registered by name: W-B3 and W-P1D (rows 1979, 1980), the physical lane's tick-Higgs continuation (row 1981; its own word: it selects no Higgs direction), the agy audit lane's R1 to R8 and HARVEST COMPLETE (row 1982), agy-002's HARVEST COMPLETE for all five lanes (row 1983); the…”
 
 ## Completeness (nothing skipped silently)
 
