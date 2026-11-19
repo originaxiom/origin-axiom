@@ -1,0 +1,3 @@
+x    0 height  1.0: 72 points; alignment 0.9 reached at 61; least max m2/m3 there 4.73e-01; counterexamples so far 0
+x    0 height  1.5: 72 points; alignment 0.9 reached at 57; least max m2/m3 there 4.63e-01; counterexamples so far 0
+x    0 height  2.0: 72 points; alignment 0.9 reached at 57; least max m2/m3 there 4.60e-01; counterexamples so far 0

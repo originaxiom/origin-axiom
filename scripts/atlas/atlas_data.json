@@ -17901,6 +17901,18 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1968": {
+   "slug": "frame cs channels never reach the tuned region on a grid",
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

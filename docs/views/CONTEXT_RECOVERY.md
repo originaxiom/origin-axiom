@@ -13,10 +13,10 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1664 |
+| arcs with a verdict file | 1665 |
 | … PROVED | 1160 |
 | … NEGATIVE | 387 |
-| … OPEN | 104 |
+| … OPEN | 105 |
 | … RETRACTED | 13 |
 | register points | 879 |
 | … “QUEUED” | 310 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1968 | OPEN | “ON A GRID OF 2,016 POINTS FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION (OPEN, a search; data-free; P-879): with any Higgs triplet in C^3 an adversary finds no aligned charge-consistent mixing with a heavy-pair hi…” |
 | B1967 | PROVED | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diago…” |
 | B1966 | PROVED | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vec…” |
 | B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
@@ -42,7 +43,6 @@
 | B1959 | PROVED | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the l…” |
 | B1958 | PROVED | “REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted):…” |
 | B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the markdown files the seats added or changed…” |
-| B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p, night: THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (B1967, PROVED by an example; P-879 restated).** With both sectors' channels free, under the charge rule, a nearly null Higgs (reality 0.003) gives an aligned mixing with heavy-pair ratios near 1e-3: tuned channels rotate both light states into alignment, though exactly at reality 0 that is impossible (B1966). So the exclusion B1965 found at four points of frame C is a property of the channels the frame produces, not of the coupling, and P-879 becomes: do frame C's channels, fixed by the matter charges, the point and the end norms, ever reach the tuned region? B1965's criterion sentence corrected by a dated note (…”
+“LATEST (2026-11-19, S306p, night, later: FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION ON A 2,016-POINT GRID (B1968, OPEN, a search; P-879).** With any Higgs triplet, alignment under the charge rule needs a heavy-pair ratio of at least 0.457 at every point searched; no counterexample with three distinct masses anywhere. With B1966's exact ends and B1967's free-channel escape, the picture of the mixing in frame C is: the coupling's form allows an escape only with the up and down channels tuned to each other near a null Higgs, and frame C's charges never tune them on the grid. A proof (that pairing condition, characterised) would make the exclusion a theorem of the frame. Nothing is com…”
 
 ## Completeness (nothing skipped silently)
 

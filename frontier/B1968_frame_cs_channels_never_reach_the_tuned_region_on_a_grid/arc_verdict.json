@@ -1,0 +1,28 @@
+{
+ "id": "B1968",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1967",
+  "B1966",
+  "B1965",
+  "B1736",
+  "B1727",
+  "B1945"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C's own channels (B1945's split) in B1736's closed form, with any constant Higgs triplet h in C^3; the charge rule",
+  "object": "the least heavy-pair ratio compatible with an aligned mixing (smallest diagonal 0.9), and counterexamples with three distinct masses, on 2,016 points",
+  "reach": "class",
+  "hypotheses": "an adversarial Nelder-Mead search (8 starts of 2,000 evaluations per point), not exhaustive; orders 5 and 7, four columns, heights 1 to 10; double precision, the closed form checked to 1e-16 against the frame"
+ },
+ "claim_one_line": "ON A GRID OF 2,016 POINTS FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION (OPEN, a search; data-free; P-879): with any Higgs triplet in C^3 an adversary finds no aligned charge-consistent mixing with a heavy-pair hierarchy and three distinct masses at any point (orders 5 and 7, four columns, heights 1 to 10); alignment 0.9 is reachable at 52 to 64 of 72 points per row but only with the least heavy-pair ratio 0.457 to 0.476, the search always ending at the real-Higgs end; no single channel invariant is constant, so the floor comes from the pairing of the up and down channels, which frame C's charges never tune as B1967's escape needs; a proof is P-879. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}
