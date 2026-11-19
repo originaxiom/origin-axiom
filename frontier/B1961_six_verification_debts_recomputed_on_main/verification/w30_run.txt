@@ -1,0 +1,30 @@
+comm(C,S)=w: True
+Q1: image of -1 in Sym^n (x) chi has eigenvalue (-1)^n*(+-1) in {+1,-1}, n=0..8: never w. General: g^2=1 => rho(g)^2=1
+twist 0 0 intertwiner dim 1 invertible True
+twist 0 1 intertwiner dim 1 invertible True
+twist 0 2 intertwiner dim 1 invertible True
+twist 1 0 intertwiner dim 1 invertible True
+twist 1 1 intertwiner dim 1 invertible True
+twist 1 2 intertwiner dim 1 invertible True
+twist 2 0 intertwiner dim 1 invertible True
+twist 2 1 intertwiner dim 1 invertible True
+twist 2 2 intertwiner dim 1 invertible True
+SU3: A eigen set closed under w -> {l,wl,w^2 l}, det=l^3=1, so A^3=1; same B => 9 twists, all conjugate (above)
+GL3 pair (tC,S) comm w: True conj to (C,S) intertwiner dim 1
+GL3 pair (tC,S) comm w: True conj to (C,S) intertwiner dim 0
+L new commutator scalar (-0.5+0.866j) (w=(-0.5+0.866j), wbar=(-0.5-0.866j)) intertwiner dims over 9 twists: [1] count 9
+R new commutator scalar (-0.5+0.866j) (w=(-0.5+0.866j), wbar=(-0.5-0.866j)) intertwiner dims over 9 twists: [1] count 9
+-I new commutator scalar (-0.5+0.866j) (w=(-0.5+0.866j), wbar=(-0.5-0.866j)) intertwiner dims over 9 twists: [1] count 9
+P new commutator scalar (-0.5-0.866j) (w=(-0.5+0.866j), wbar=(-0.5-0.866j)) intertwiner dims over 9 twists: [0] count 0
+PK new commutator scalar (-0.5+0.866j) (w=(-0.5+0.866j), wbar=(-0.5-0.866j)) intertwiner dims over 9 twists: [1] count 9
+K(plain conj) new commutator scalar (-0.5-0.866j) (w=(-0.5+0.866j), wbar=(-0.5-0.866j)) intertwiner dims over 9 twists: [0] count 0
+det UL,UR,U-I: (1.0000000000000002+0j) (1.0000000000000007+0j) (1-2.2204460492503123e-16j)
+group <UL,UR> (det1 lifts) order 72 mod scalars 24 commutant 2
+phase-free image order (L,R): 24
+<UL,UR,U-I(det1 lift)> order 648 mod scalars 216 commutant 1
+bare -I lift k->-k det -1.0 intertwines -I: True
+<UL,UR,bare(k->-k)> order 1296 mod scalars 216 commutant 1
+<chi,chi> for <UL,UR>: 2.0 (2 for 2+1 non-isomorphic; 1 irreducible)
+invariant lines found: 1
+element orders mod scalars (L,R group): [(1, 3), (2, 3), (3, 24), (4, 18), (6, 24)]
+dim of the 1-dim summand's action: even/odd functions: k->-k parity

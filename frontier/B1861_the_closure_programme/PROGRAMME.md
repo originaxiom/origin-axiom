@@ -7,7 +7,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **135 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 135 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 89 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 83 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 23, started 19, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
@@ -306,7 +306,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** P-355 first (the lepton–down identity's lines), with the agy lane's Theorem D verified on main.
 - **Closed when:** the class is empty.
 - **Register:** P-355 (QUEUED), P-747 (DONE).
-- **Debts (25):** P-157, P-355, P-384, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-861, P-864, P-865, P-869, P-875, P-876.
+- **Debts (24):** P-355, P-384, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-861, P-864, P-865, P-869, P-875, P-876.
 - **The audit's findings (5):** V1, V2, V3, V4, V5.
 
 **WP-0.3 — Checks that cannot fail, instruments and seal claims** (DERIVE; STARTED; owner: main)
@@ -314,7 +314,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Can every lock under a banked result fail?
 - **The first step:** the register's ranked debts of this class.
 - **Closed when:** the class is empty.
-- **Debts (16):** P-233, P-239, P-317, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821.
+- **Debts (15):** P-233, P-239, P-317, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821.
 - **The audit's findings (10):** L1, L2, L3, L4, L5, L6, L7, L8, L9, L10.
 
 **WP-0.4 — Unverified premises and seat results under banked results** (VERIFY; STARTED; owner: main)
@@ -322,7 +322,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Does a banked structural result rest on a seat's word?
 - **The first step:** the register's ranked debts of this class.
 - **Closed when:** the class is empty.
-- **Debts (19):** P-054, P-055, P-056, P-057, P-091, P-117, P-135, P-155, P-156, P-263, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781.
+- **Debts (15):** P-057, P-091, P-117, P-135, P-156, P-263, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781.
 
 **WP-0.5 — A green full suite on a fresh clone** (DERIVE; STARTED; owner: main)
 
@@ -843,9 +843,9 @@ feeds every row.
 | package | debts |
 |---|---|
 | WP-0.1 False or stale statements in foundation and front documents | 17: P-092, P-138, P-318, P-319, P-320, P-374, P-426, P-427, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827 |
-| WP-0.2 Debts that bear on current work | 25: P-157, P-355, P-384, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-861, P-864, P-865, P-869, P-875, P-876 |
-| WP-0.3 Checks that cannot fail, instruments and seal claims | 16: P-233, P-239, P-317, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821 |
-| WP-0.4 Unverified premises and seat results under banked results | 19: P-054, P-055, P-056, P-057, P-091, P-117, P-135, P-155, P-156, P-263, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781 |
+| WP-0.2 Debts that bear on current work | 24: P-355, P-384, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-861, P-864, P-865, P-869, P-875, P-876 |
+| WP-0.3 Checks that cannot fail, instruments and seal claims | 15: P-233, P-239, P-317, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821 |
+| WP-0.4 Unverified premises and seat results under banked results | 15: P-057, P-091, P-117, P-135, P-156, P-263, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781 |
 | WP-0.5 A green full suite on a fresh clone | 1: P-810 |
 | WP-0.6 The map kept current and complete | 1: P-253 |
 | WP-0.7 Enforcement that enforces | 7: P-757, P-772, P-777, P-806, P-812, P-816, P-820 |

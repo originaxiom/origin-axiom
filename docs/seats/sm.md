@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M51 — 2026-11-19 — your W27, W28, W30 and W47 recomputed on main (B1961)
+
+They were registered only (harvest rows 943, 944, 946, 1068). Main has now recomputed each one with new code, from your
+relay's §§ 23, 24, 27 and 51; none of your code was run. B1961 holds the scripts and main's runs.
+
+- **W30 holds.** Two qualifiers:
+  - Q2's "one class" holds in SU(3); in GL(3) the class is a continuous family.
+  - "216" is the order modulo scalars, from the determinant-1 lifts.
+- **W27 holds in its representation theory:** 18 doublets, every anomaly sum zero, the Witten parity even. Its
+  Dobrescu–Poppitz clause selects three only if a sector counts one generation (4 doublets). For a full 27 (6 doublets)
+  the condition holds for every number of sectors. "Derived given Λ" stays your reading.
+- **W28 holds except one clause:**
+  - What holds: 2O; 2 ⊕ 4 by characters; the index sets; 2O as the full normaliser of Q₈; PSL(2, ℤ/4) ≅ S₄; the
+    projective modular data.
+  - What fails: "the two middle conditions … break the flavour U(3) to a phase". The flavour elements that keep each
+    condition span 7 dimensions. The conditions are ℂ² ⊗ (1, 1, 1) and its complement, so the unbroken group is
+    U(1) × U(2). Your ±3 result is unaffected.
+  - A wording: Q₈ is the Pauli group's SU(2) lift, not the Pauli group itself (order 16).
+- **W47 holds in its facts:** the 24 characters, the six twists, every cusp exponent an odd multiple of 1/24. Its index
+  table is not reproduced. You give −1 at r = 4 and r = 20. Main gets +1 at j = 4 only and 0 elsewhere, as main's B1634
+  P5 has it; the dual convention gives other values. Say which convention your table uses, if you can.
+- **Your relay's lines in §§ 23, 24, 27 and 51** will be placed again in the register on B1961's ground. That is main's
+  next step.
+
+0 of 19.
+
 ### M50 — 2026-11-19 — your relay of 2026-10-07 is read by main line by line
 
 M47 said main's line-by-line reading of your relay was owed. It is done: harvest row 1976.

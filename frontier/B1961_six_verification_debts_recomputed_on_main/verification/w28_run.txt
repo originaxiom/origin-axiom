@@ -1,0 +1,56 @@
+lifts found by solving g rho(x) g^-1 = rho(phi x): unique up to scalar; det=1 normalised
+L [[(0.7071+0.7071j), -0j], [-0j, (0.7071-0.7071j)]]
+R [[(0.7071-0j), (-0.7071+0j)], [(0.7071-0j), (0.7071-0j)]]
+P [[0.7071j, (0.7071-0j)], [(-0.7071-0j), -0.7071j]]
+-I [[(-0-0j), (-0-1j)], [(-0-1j), (-0-0j)]]
+g_L ~ (1+iZ)/sqrt2: True ; g_R ~ (1-iY)/sqrt2: True ; g_P ~ i(Z+Y)/sqrt2: True ; g_-I ~ iX: True
+u_p ~ axis: (1,0)->Y? [True, True, True]
+L intertwines W (up to the convention phi or phi^-1): True | or inverse-direction: False
+R intertwines W (up to the convention phi or phi^-1): True | or inverse-direction: False
+E1: B^-1 (Pi(x)G) B equals twisted lift (L,R): [True, True]
+C1: |<M_L,M_R>| = 48
+distinct 2x2 elements of <g_L,g_R>: 48 (= pairs, so M determines g: True )
+order profile 2x2 group: [(1, 1), (2, 1), (3, 8), (4, 18), (6, 8), (8, 12)] expected 2O: {1:1,2:1,3:8,4:18,6:8,8:12}
+contains -1 as -I6: True
+moves: commutant dim 2 clump dims [2, 4] kept dims [0, 2, 4, 6] indices [-3, -1, 1, 3]
+pieces dims 2 4
+V2 char == tr g (spin 1/2) all 48: True | V4 char == tr^3-2tr (spin 3/2): True
+norms <chi,chi>: V2 1.0 V4 1.0 ; <chi2,chi4> 0.0
+spin 3/2 char test on spectrum: 6x6 eigenvalues multiset {l,l*,l,l*,l^3,l*^3} for all: False
+in Pi(x)G basis: V2 = {(v,v,v)}: True V4 = {v1+v2+v3=0}: True |group order 48
+flavour algebra (commutant of W(a),W(b)) dim: 9
+lifts normalise flavour algebra: True
+flavour alone: commutant dim 4 clumps [3, 3] dims [0, 3, 6] indices [-3, 0, 3]
+moves+flavour: dims [0, 6] indices [-3, 3]
+dim{A in flavour algebra: A V ⊂ V}: V2 7 V4 7 (1 = scalars)
+grading alone: dims [0, 1, 2, 3, 4, 5, 6] indices [-3, -2, -1, 0, 1, 2, 3]
+moves+grading: dims [0, 6] indices [-3, 3]
+W([a,b]) = -1 on six: True
+locality (invariant under all of M6): dims [0, 6] indices [-3, 3]
+with -I lift order 48
+
+== Part II
+<iZ,iY> order 8 ; iZ*iY == iX: True ; Q8 = Pauli group ∩ SU(2); full Pauli group <X,Y,Z> order: 16 (Q8 is index 2 in it; mod phases both are Z2^2)
+MUB overlaps |<e|f>|^2: {('X', 'Y'): [[0.5, 0.5], [0.5, 0.5]], ('Y', 'Z'): [[0.5, 0.5], [0.5, 0.5]], ('X', 'Z'): [[0.5, 0.5], [0.5, 0.5]]}
+all 48 normalise Q8: True
+|Aut(Q8)| by brute force: 24
+centraliser of Q8 inside 2O: 2 => image in Aut(Q8) has order 24 = |Aut| (so 2O is the whole normaliser in SU(2), since centraliser of irreducible Q8 in SU(2) is ±1)
+Clifford <H,S> rotations: 24 ; <g_L,g_R> rotations: 24 ; equal sets: True
+cube rotation group size 24 ; Ad(2O) == cube group: True
+S^2=1: True ; (ST)^3=S^2: True
+W_A=Z: True W_B=X: True anticommute: True
+T fixes W_A: True ; T W_B T^-1 ∝ W_A W_B: True ratio -1j
+(2,3,4): s^2=1 True (st)^3=1 True t^4=1 True ; t^2 != 1: True
+dictionary M, semion T: 1 [[[0, -1, 0], [-1, 0, 0], [0, 0, -1]]] ; anti-semion: 1 [[[0, 1, 0], [-1, 0, 0], [0, 0, 1]]]
+|PSL(2,Z/4)| from L,R: 24 ; word->rotation well defined on PSL(2,Z/4): True ; injective onto 24 rotations: True
+SL(2,Z/4) order (all 2x2 det 1 mod 4): 48
+order-3 subgroups: 4
+conjugation action on the 4 Sylow-3 subgroups: image size 24 (24 => injective into S4 => PSL(2,Z/4) ≅ S4); homomorphism check: True
+
+== E4 debug / recheck
+ singular values [1. 1. 0. 0. 0. 0. 0. 0. 0.]
+ singular values [1. 1. 0. 0. 0. 0. 0. 0. 0.]
+V2: 7 V4: 7
+V2 in W-basis: is it of form {sum u_p v (x) e_p}? check via projection norms per block: [np.float64(0.6667), np.float64(0.6667), np.float64(0.6667)]
+Cw ranks: [np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2)]
+tr(M^k) = tr(g^k)^3 - tr(g^k), k=1,2,3, all 48: True

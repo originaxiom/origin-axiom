@@ -1,6 +1,12 @@
 # B1603 — THE COUNT AT EVERY MEMBER: the seat's dictionary read at all 442 interior classes on the weave's forced covers — the floor and ceiling hold on every one; +LR's twenty-four are all (−1, −1) and −LR's are all (0, −3); and the generation shape is not the root's: ninety-eight more generation-shaped readings sit on ten even-trace threads, eight kinds of reading in all, only one with the physical index's shape
 
 > *Audited 2026-10-15 by main (P-152, B1655): STANDS ONLY AS SCOPED (candidate kernels; six kinds; 120 readings with +LR's). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+>
+> *2026-11-19 (P-155, B1961): the forced kernel cannot be identified from the record (the extension's sign choices are
+> not located in SnapPy's generators), so the counts are over candidate kernels: of 42 even-trace threads (26 with two
+> D₄ kernels, 16 with four V₄ ones), 17 carry on some kernel and 25 on none, 16 on B1604's reliable kernels; 12 carry
+> on every kernel and 5 on some only; by kernel position, 15, 12, 4 or 6 carry. ±LLR has the generation shape on every
+> candidate. Identifying the kernel needs the SM seat's explicit even-trace extension.*
 
 **Verdict: NEGATIVE as sealed** (C3 and C5 fail; C1, C2, C4 hold) — a weave result by inheritance (B1602's population,
 every member). cc (main), 2026-10-07. Sealed `5d2787345` before any member beyond the three of S82 was extended. No

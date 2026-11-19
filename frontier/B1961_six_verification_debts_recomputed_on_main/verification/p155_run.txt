@@ -1,0 +1,28 @@
+threads 74 even-trace 42 Counter({('D4', 2): 26, ('V4', 4): 16})
+carry on some kernel 17 none 25
+carry on EVERY kernel 12
+carry on some not all (kernel-dependent): 5
+  b++LLLLLLRR V4 [2, 0, 0, 10]
+  b++LLLLRR V4 [6, 0, 0, 2]
+  b++LLLRLLR D4 [1, 0]
+  b+-LLLLLLRR V4 [0, 0, 2, 6]
+  b+-LLLLRR V4 [0, 0, 10, 2]
+kernel index 0 carriers 15 of 42 threads having it
+kernel index 1 carriers 12 of 42 threads having it
+kernel index 2 carriers 4 of 16 threads having it
+kernel index 3 carriers 6 of 16 threads having it
+threads with one kernel []
+b++LLR ['thread', 'deck', 'covers']
+covers 2 ['cover_homology', 'cusps', 'members']
+b+-LLR ['thread', 'deck', 'covers']
+covers 2 ['cover_homology', 'cusps', 'members']
+--- reliability tiers (B1604 stored, read only)
+Counter({'reliable': 81, 'marginal': 23, 'unreliable': 12})
+threads 42 carry on some reliable kernel 16 carry on any kernel 17
+gen-shaped threads on reliable kernels ['b++LLLLLLRR', 'b++LLLLR', 'b++LLR', 'b++LLRR', 'b+-LLLLLLR', 'b+-LLLLR', 'b+-LLLLRR', 'b+-LLR', 'b+-LLRR']
+b++LLR [(0, 'reliable', 11, 8), (1, 'reliable', 5, 4)]
+b+-LLR [(0, 'reliable', 11, 8), (1, 'reliable', 5, 4)]
+kernel 0 reliable 29 carriers 14 genshaped kernels 3
+kernel 1 reliable 28 carriers 9 genshaped kernels 6
+kernel 2 reliable 15 carriers 4 genshaped kernels 3
+kernel 3 reliable 9 carriers 5 genshaped kernels 2

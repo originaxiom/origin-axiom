@@ -1,6 +1,8 @@
 # B1660 — THE ONE-HIGGS CENSUS UNDER THE CANONICAL END CONDITION: one Higgs reproduces the data's five non-electron mass ratios on none of W59's lines, in any reading of the up sector (a scoreboard)
 
 **Verdict: NEGATIVE, as sealed.** Every cell's pass criterion held as sealed. Two expectations stated beside the cells missed: C1's start rates were exceeded for S̃ and S̄ (the search more reliable than predicted), and S̄ came to 34.40 on two lines, not "several hundred". cc (main), 2026-10-16.
+
+*[2026-11-19, P-590: scoped at M_Z, tree level. Every sealed look compares tree-level outputs at M_Z (LOOK_LEDGER: 'at M_Z unless marked'). A frame whose values hold at another scale moves the target by a fixed vector δ (R1: ∣δ∣² = 11.8 for the ten at 2 × 10¹⁶ GeV, about 5.9 for the six), so this negative closes the route at M_Z and tree level only; it is not re-graded at another scale here.]*
 - Sealed `f798b2368` (sha256 f0f9518c) before the run. The output was committed unread at `aff4233ea`: one run of
   6 h 43 min, exit 0, the instrument unchanged since the seal (sha256 d5d4d905).
 - No interruption, so no resume.

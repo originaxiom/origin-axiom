@@ -573,6 +573,9 @@ re-read of the record that led to it is `docs/THE_REREAD_2026-10-06.md`.
 - **Three generations (S3).** On the weave, the flavour three is DERIVED — three, alike, chiral under the weave's own
   group, one per parity (B1606, with the SM seat's W19–W22 verified) — and the gauge three is a selection (FK11; the
   owner's ruling of 2026-10-08 makes W27's link Λ a tagged working postulate, results "given Λ").
+  *[2026-11-19, B1961: W27's representation theory verified on main (18 doublets, every anomaly sum zero); its
+  Dobrescu–Poppitz clause selects three only if a parity sector counts one generation, not a full 27. W28's flavour
+  clause fails: its middle conditions leave U(1) × U(2) of the flavour U(3), not a phase. Its ±3 holds.]*
 - **Chirality (S2).** The three's hand is the orientation sheet chosen at SE2 (B1609, B1610); the owner ruled "even
   ticks observed" (GM5c), so the observed weave is ⟨L, R⟩ and which hand is called left is a convention.
 - **CP.** The weave's generalized CP is the record swap; CP violation is allowed, not forced; no phase is fixed by the

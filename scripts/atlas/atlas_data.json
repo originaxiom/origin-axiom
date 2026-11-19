@@ -2110,10 +2110,12 @@
    ],
    "refs": [
     "B259",
+    "B980",
+    "L154",
     "L174"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 5,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "topology"
   },
@@ -10890,7 +10892,7 @@
     "S84"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 3,
+   "obstacle_conf": 4,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -10907,8 +10909,8 @@
     "S84"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 13,
-   "status": "banked",
+   "obstacle_conf": 14,
+   "status": "open",
    "domain": "topology"
   },
   "B1604": {
@@ -17794,6 +17796,23 @@
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "topology"
+  },
+  "B1961": {
+   "slug": "six verification debts recomputed on main",
+   "motifs": [
+    "choice",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B196": {
    "slug": "entropy conformal dimension",

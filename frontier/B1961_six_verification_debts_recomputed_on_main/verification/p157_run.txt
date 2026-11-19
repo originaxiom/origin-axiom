@@ -1,0 +1,101 @@
+unitary defect 1.7985613534252352e-14 |G| 96
+subgroups 68
+{'TbT': 57, 'TT': 24, 'S2': 16}
+
+LEPTON Tbar x T (Dirac) x NEUTRINO Tbar x T (Dirac) pairs=3249
+   dim 0 tags () count 585 example orders (3, 3)
+   dim 0 tags ('TM1col', 'TM2col') count 36 example orders (3, 16)
+   dim 0 tags ('TM1row', 'TM2row') count 36 example orders (16, 3)
+   dim 0 tags ('TM2col', 'TM2row') count 432 example orders (3, 4)
+   dim 1 tags () count 939 example orders (2, 2)
+   dim 2 tags () count 312 example orders (2, 2)
+   dim 2 tags ('TM1col',) count 36 example orders (3, 8)
+   dim 2 tags ('TM1row',) count 36 example orders (8, 3)
+   dim 2 tags ('TM2col',) count 180 example orders (3, 2)
+   dim 2 tags ('TM2row',) count 180 example orders (2, 3)
+   dim 3 tags () count 144 example orders (2, 8)
+   dim 4 tags () count 333 example orders (1, 1)
+
+LEPTON Tbar x T (Dirac) x NEUTRINO T x T (Dirac) pairs=1368
+   dim 0 tags () count 201 example orders (3, 3)
+   dim 0 tags ('TM1row', 'TM2row') count 24 example orders (16, 3)
+   dim 0 tags ('TM2col', 'TM2row') count 204 example orders (3, 4)
+   dim 1 tags () count 363 example orders (2, 2)
+   dim 2 tags () count 108 example orders (2, 2)
+   dim 2 tags ('TM1row',) count 24 example orders (8, 3)
+   dim 2 tags ('TM2col',) count 108 example orders (3, 2)
+   dim 2 tags ('TM2row',) count 120 example orders (2, 3)
+   dim 3 tags () count 36 example orders (8, 2)
+   dim 4 tags () count 180 example orders (1, 1)
+
+LEPTON Tbar x T (Dirac) x NEUTRINO Sym2 T (Majorana) pairs=912
+   dim 0 tags () count 105 example orders (4, 4)
+   dim 0 tags ('TM2col', 'TM2row') count 60 example orders (3, 4)
+   dim 1 tags () count 339 example orders (2, 2)
+   dim 2 tags () count 108 example orders (2, 2)
+   dim 2 tags ('TM2col',) count 108 example orders (3, 2)
+   dim 3 tags () count 36 example orders (8, 2)
+   dim 4 tags () count 156 example orders (1, 1)
+
+LEPTON T x T (Dirac) x NEUTRINO Tbar x T (Dirac) pairs=1368
+   dim 0 tags () count 201 example orders (3, 3)
+   dim 0 tags ('TM1col', 'TM2col') count 24 example orders (3, 16)
+   dim 0 tags ('TM2col', 'TM2row') count 204 example orders (3, 4)
+   dim 1 tags () count 363 example orders (2, 2)
+   dim 2 tags () count 108 example orders (2, 2)
+   dim 2 tags ('TM1col',) count 24 example orders (3, 8)
+   dim 2 tags ('TM2col',) count 120 example orders (3, 2)
+   dim 2 tags ('TM2row',) count 108 example orders (2, 3)
+   dim 3 tags () count 36 example orders (2, 8)
+   dim 4 tags () count 180 example orders (1, 1)
+
+LEPTON T x T (Dirac) x NEUTRINO T x T (Dirac) pairs=576
+   dim 0 tags () count 89 example orders (3, 3)
+   dim 0 tags ('TM2col', 'TM2row') count 80 example orders (3, 4)
+   dim 1 tags () count 117 example orders (2, 2)
+   dim 2 tags () count 54 example orders (2, 2)
+   dim 2 tags ('TM2col',) count 72 example orders (3, 2)
+   dim 2 tags ('TM2row',) count 72 example orders (2, 3)
+   dim 4 tags () count 92 example orders (1, 1)
+
+LEPTON T x T (Dirac) x NEUTRINO Sym2 T (Majorana) pairs=384
+   dim 0 tags () count 25 example orders (4, 4)
+   dim 0 tags ('TM2col', 'TM2row') count 40 example orders (3, 4)
+   dim 1 tags () count 117 example orders (2, 2)
+   dim 2 tags () count 54 example orders (2, 2)
+   dim 2 tags ('TM2col',) count 72 example orders (3, 2)
+   dim 4 tags () count 76 example orders (1, 1)
+
+LEPTON Sym2 T (Dirac) x NEUTRINO Tbar x T (Dirac) pairs=912
+   dim 0 tags () count 105 example orders (4, 4)
+   dim 0 tags ('TM2col', 'TM2row') count 60 example orders (4, 3)
+   dim 1 tags () count 339 example orders (2, 2)
+   dim 2 tags () count 108 example orders (2, 2)
+   dim 2 tags ('TM2row',) count 108 example orders (2, 3)
+   dim 3 tags () count 36 example orders (2, 8)
+   dim 4 tags () count 156 example orders (1, 1)
+
+LEPTON Sym2 T (Dirac) x NEUTRINO T x T (Dirac) pairs=384
+   dim 0 tags () count 25 example orders (4, 4)
+   dim 0 tags ('TM2col', 'TM2row') count 40 example orders (4, 3)
+   dim 1 tags () count 117 example orders (2, 2)
+   dim 2 tags () count 54 example orders (2, 2)
+   dim 2 tags ('TM2row',) count 72 example orders (2, 3)
+   dim 4 tags () count 76 example orders (1, 1)
+
+LEPTON Sym2 T (Dirac) x NEUTRINO Sym2 T (Majorana) pairs=256
+   dim 0 tags () count 25 example orders (4, 4)
+   dim 1 tags () count 117 example orders (2, 2)
+   dim 2 tags () count 54 example orders (2, 2)
+   dim 4 tags () count 60 example orders (1, 1)
+
+SUMMARY: pairs with a fixed TM column, by family dimension
+lepton Tbar x T  nu Tbar x T : TM1 dims [0, 2] (pairs 72); TM2 dims [0, 2] (pairs 648)
+lepton Tbar x T  nu T x T    : TM1 dims [] (pairs 0); TM2 dims [0, 2] (pairs 312)
+lepton Tbar x T  nu Sym2 T   : TM1 dims [] (pairs 0); TM2 dims [0, 2] (pairs 168)
+lepton T x T     nu Tbar x T : TM1 dims [0, 2] (pairs 48); TM2 dims [0, 2] (pairs 348)
+lepton T x T     nu T x T    : TM1 dims [] (pairs 0); TM2 dims [0, 2] (pairs 152)
+lepton T x T     nu Sym2 T   : TM1 dims [] (pairs 0); TM2 dims [0, 2] (pairs 112)
+lepton Sym2 T    nu Tbar x T : TM1 dims [] (pairs 0); TM2 dims [0] (pairs 60)
+lepton Sym2 T    nu T x T    : TM1 dims [] (pairs 0); TM2 dims [0] (pairs 40)
+lepton Sym2 T    nu Sym2 T   : TM1 dims [] (pairs 0); TM2 dims [] (pairs 0)

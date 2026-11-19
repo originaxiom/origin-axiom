@@ -1134,13 +1134,6 @@
   "note": ""
  },
  {
-  "src": "P:157",
-  "kind": "bears-on",
-  "dst": "PR:P10",
-  "grade": "DEBT",
-  "note": ""
- },
- {
   "src": "P:318",
   "kind": "bears-on",
   "dst": "MC:UNIQ",

@@ -16,6 +16,11 @@
 
 ## THE CLAIM, MADE PRECISE
 
+> *2026-11-19 (P-138; the web seat's scale note, B1650): σ = ℓ/4G₃ is itself dimensionless (B980, B1015), and its anchor
+> is pending (L154). So 'zero free dimensionless constants' holds once σ is fixed by that anchor; until then σ is one
+> dimensionless number the action does not fix. GENESIS GAP5's line citing this arc carries the same repair at its next
+> version.*
+
 **The action has ZERO free dimensionless constants.** Its single scale σ is not new
 freedom: it is the input ledger's one unit (the ℝ₊ closing, B1015/B1017 — priced there,
 and B1015's no-dimensionless-number-flows theorem plus the ray's non-normalisability

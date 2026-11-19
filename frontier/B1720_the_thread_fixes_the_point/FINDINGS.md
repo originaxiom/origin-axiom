@@ -1,6 +1,8 @@
 # B1720 — THE THREAD FIXES THE POINT (the completion map's C1, P-284; the owner's directive of 2026-10-22): NEGATIVE AS SEALED, AND THE FRAME'S CLOSEST APPROACH — WITH NO CONTINUOUS NUMBER FREE, THE THREAD L⁵RLR² AT ITS APEX (Im τ = 2.993) ON THE ORDER-28 LINE IT FIXES PUTS ALL SIX RATIOS WITHIN A FACTOR 1.80, BUT 1.65% OF RANDOM HIERARCHIES FIT AS WELL (THE BAR WAS 1%)
 
 **Verdict: NEGATIVE as sealed.** T1 holds; T2 fails narrowly (1.65% against 1%); T3 fails. K1 holds; K2, K3 and K4 fail.
+
+*[2026-11-19, P-590: scoped at M_Z, tree level. Every sealed look compares tree-level outputs at M_Z (LOOK_LEDGER: 'at M_Z unless marked'). A frame whose values hold at another scale moves the target by a fixed vector δ (R1: ∣δ∣² = 11.8 for the ten at 2 × 10¹⁶ GeV, about 5.9 for the six), so this negative closes the route at M_Z and tree level only; it is not re-graded at another scale here.]*
 The control C1 holds. cc (main), 2026-10-22. Sealed `a93ff339a` (sha256 a0d2a726) before its instruments ran. The
 outputs were committed unread at `ceabd0407` and read once. A test of a structure, not a value derived. **0 of 19.**
 

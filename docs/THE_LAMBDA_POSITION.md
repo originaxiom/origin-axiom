@@ -23,7 +23,9 @@ the gravity lane's G1 (the cusp-torus re-pose) but independent of its outcome.*
   (B981): hyperbolic H³ is Riemannian and AdS is Lorentzian — B716 bans the
   identification (signature is the observer's; no canonical Wick rotation) —
   and the object HAS a positive-curvature end.
-- **The scale term is invisible to the object in principle.** B1012:
+- **The scale term is invisible to the object in principle.** *[Scoped 2026-11-19, P-138 (the web seat's scale note,
+  B1650): this holds where CS = 0, for the root and the amphichiral threads; on the weave's chiral threads CS ≠ 0 and
+  ∂S/∂k = −CS does not vanish.]* B1012:
   S = −CS·k − Vol·σ exactly, so ∂S/∂k = −CS ≡ 0 — "the object's k-blindness is
   EQUIVALENT to its amphichirality… it deletes the only term that could have
   carried the scale."

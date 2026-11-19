@@ -1,6 +1,12 @@
 # B1602 — THE FORCED COVER ON EVERY THREAD: on the 74 signed threads to length eight the common point's cover carries members of the four on ±LR and on one more odd-trace thread, −LLRLRLRR, whose member counts the floor's value (+3, +1) with four live ends — and on 17 of 42 even-trace threads, not all; neither the ±LR exclusivity nor the even-trace genericity survives
 
 > *Audited 2026-10-15 by main (P-152, B1655): WRONG AS WORDED for the exclusivity (withdrawn: B1604, B1605); the rest STANDS ONLY AS SCOPED (candidate kernels). The grades, the corrected wording and the checks are in `frontier/B1655_main_audits_its_negatives/FINDINGS.md`.*
+>
+> *2026-11-19 (P-155, B1961): the forced kernel cannot be identified from the record (the extension's sign choices are
+> not located in SnapPy's generators), so the counts are over candidate kernels: of 42 even-trace threads (26 with two
+> D₄ kernels, 16 with four V₄ ones), 17 carry on some kernel and 25 on none, 16 on B1604's reliable kernels; 12 carry
+> on every kernel and 5 on some only; by kernel position, 15, 12, 4 or 6 carry. ±LLR has the generation shape on every
+> candidate. Identifying the kernel needs the SM seat's explicit even-trace extension.*
 
 **Verdict: NEGATIVE as sealed** (T2 and T3 fail; T1 holds; T4 half) — scoped to the forced covers at sign characters;
 a weave result (every thread under the rule, none chosen). cc (main), 2026-10-07. Sealed `fee144f6b` before any thread

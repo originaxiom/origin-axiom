@@ -1,0 +1,37 @@
+{
+ "id": "B1961",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1689",
+  "B1634",
+  "B1602",
+  "B1603",
+  "B1604",
+  "B1606",
+  "B1620",
+  "B1625",
+  "B1624"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat's W27, W28, W30 and W47 (its relay of 2026-10-07, sections 23, 24, 27 and 51), recomputed here by new code, none of the seat's run",
+  "sm:W27",
+  "sm:W28",
+  "sm:W30",
+  "sm:W47"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "six registered debts' claims (W27, W28, W30, W47; P-155, P-156, P-157), each recomputed by new code from its stated source, every script re-run by main from this arc's folder",
+  "object": "the representation theory and group actions the claims state, and B1602's, B1606's and B1620's stored data and functions",
+  "reach": "single",
+  "hypotheses": "the seats' readings (W27's 'given Lambda', W28's physics identifications, W47's headline) are not checked; P-156's dim Lambda_+ - 3 and M_{1,2} identification are not computed anywhere on main; no data compared"
+ },
+ "claim_one_line": "SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; the auditor's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.",
+ "weave_or_thread": "weave"
+}

@@ -1,6 +1,8 @@
 # B1748 — THE HEAVY GENERATIONS FROM THE GEOMETRY ALONE (P-362): NEGATIVE AS SEALED FOR ITS QUESTION — WITH THE HIGGS EXACTLY NULL (NO HIGGS FREEDOM) AND τ AT FRESH THREAD APEXES, m_c/m_t, m_s/m_b, m_μ/m_τ AND ∣V_cb∣ ARE REACHED AT THE DATA'S VALUES (χ²_heavy 1.16 < 13.28) BUT NOT SPECIFICALLY (1.54% OF RANDOM TARGETS AS GOOD); THE SPLIT IS NOT EVIDENCED AS A PREDICTION
 
 **Verdict: NEGATIVE as sealed for its question (R1, P1, L2 hold; R2, P2, L1 fail; C1 holds)** — the heavy sector is
+
+*[2026-11-19, P-590: scoped at M_Z, tree level. Every sealed look compares tree-level outputs at M_Z (LOOK_LEDGER: 'at M_Z unless marked'). A frame whose values hold at another scale moves the target by a fixed vector δ (R1: ∣δ∣² = 11.8 for the ten at 2 × 10¹⁶ GeV, about 5.9 for the six), so this negative closes the route at M_Z and tree level only; it is not re-graded at another scale here.]*
 reachable from the geometry at rule-placed τ, as P-350 foreknew, but the geometry spans that region generically. cc
 (main), 2026-10-24, at the owner's word ("lets do them all PROPERLY"). Sealed `3bf82d0ca` (sha256 a431ae36) before its
 instruments ran; the census outputs committed unread at `52668590e`, the comparison's at `56611ce77`, then read once.
