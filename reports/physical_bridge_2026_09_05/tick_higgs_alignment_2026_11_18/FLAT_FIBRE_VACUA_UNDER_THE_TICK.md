@@ -1,0 +1,56 @@
+# Flat fibre vacua that return under the tick
+
+19 November 2026. Hand analysis for the existing compact C8 field model. Independent review pending.
+
+## Which vacuum problem is being solved
+
+At physical commit 60d8afc6f, LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE.md §§2 and 5 give a positive curvature energy on a closed two-torus with the other fields set to zero. The displayed smooth SU(3) bundle admits flat connections. In that sector every flat connection attains the absolute lower bound zero. A zero has vanishing first variation for the full smooth sum of squared residuals whenever the other residuals also vanish there. The magnetic stationary point in §2 has positive energy.
+
+Here we classify those flat connections that return up to SU(3) gauge under the specified fibre return. This adds a global compatibility hypothesis. Demanding a stationary history of the full system could allow time-dependent fibres or another lift. Use ordinary unitary gauge conjugation on internal indices. A simultaneous permutation of fibre holonomy eigenlines is allowed. A puncture, prescribed end holonomy, retained splitting into flux lines, antiunitary gauge lift, or restriction on allowed gauge transformations changes the problem.
+
+## Count the fixed fibre classes
+
+Two commuting SU(3) holonomies admit a simultaneous orthonormal eigenbasis. Their unordered triple of joint eigencharacters lies in the dual two-torus D = Hom(Z²,U(1)), with sum zero in D by the two determinant conditions. Conversely this data determines their joint conjugacy class. An overall scalar adjustment of a unitary conjugator makes its determinant one. Take the generator on D as T = [[1,1],[1,0]], the golden LP of main GENESIS.md line 136 at b438a6e94. Using the inverse transpose gives the same orbits here since T is symmetric. Put M=T². The fixed fibre classes are precisely the invariant multisets of size three with sum zero.
+
+For T and M there is exactly one fixed character, 0, since det(T-I) and det(M-I) are units. A multiset therefore consists of three zeros, a fixed character plus an exact two-cycle, or one exact three-cycle. Each orbit sum is fixed and hence zero. For an integral matrix U with det(U-I) nonzero, the number of its fixed points on D is |det(U-I)| by the lattice index. For the first three powers the counts are
+
+| return | fixed by power 1 | power 2 | power 3 | fixed fibre classes | irreducible extensions to the bundle group |
+|---|---:|---:|---:|---:|---:|
+| T | 1 | 1 | 4 | 1+0+1 = 2 | 1 |
+| M | 1 | 5 | 16 | 1+2+5 = 8 | 5 |
+
+Indeed T³-I=[[2,2],[2,0]] has determinant -4. The traces of M, M², M³ are 3, 7, 18, and their determinants are one. Removing the one fixed character from each power count and dividing by the exact period gives the entries. The 1,5,16 counts were already obtained in W-P1 §2.1 at chat1 d0e15a2dc. They count individual characters. The columns to their right here use unordered gauge classes.
+
+## A joint representation, its uniqueness and its gauge zero modes
+
+Extend over the group Z² semidirect Z of the closed torus bundle. The base generator must permute the character spaces. For a three-cycle its matrix is a cyclic permutation with three unit phases of product one. Conjugating by diagonal phases removes all three, since the product is one, and the conjugator can again be normalized to determinant one. Transitivity on the three distinct character lines gives irreducibility. A shorter orbit within the triple gives an invariant proper subspace. For three zero characters the remaining one unitary matrix is diagonalizable and reducible. In this last case its conjugacy class is free: counting fixed fibre classes does not count all histories including their base holonomy.
+
+For T the three nonzero two-torsion points in D make up its only three-cycle. Its fibre image is the four diagonal sign matrices of determinant one. Its base lift is a three-cycle and its combined image is the tetrahedral group A4. Its continuous SU(3) stabilizer has dimension zero. This recovers the familiar triplet on the nonzero parities by a flat-connection construction. The parent block and the action of T are inputs. Even the rank can be tested conditionally: a rank-two irreducible unitary extension would need a two-cycle, because a single repeated character leaves a single diagonalizable base unitary. T has none. Thus three is the first possible rank above one for an irreducible extension under this tick with commuting fibre holonomies. It counts the rank of one flat bundle.
+
+There is also an exact deformation test on the **closed torus bundle**. In the complexified adjoint, the six off-diagonal matrix units have nontrivial fibre characters given by the ratios of distinct joint characters. Each of their fibre cochain complexes is acyclic: one of the two commuting scalar holonomies differs from one and its difference from one contracts the two-generator Koszul complex. The surviving coefficients are the traceless diagonal plane. On it the base permutes three entries cyclically with eigenvalues the two primitive cube roots, so the base-minus-identity on fibre H⁰ has zero cokernel. On fibre H¹ the additional torus factor has the hyperbolic eigenvalues of the return or its inverse, each of modulus different from one. Their products with those cube roots have no eigenvalue one. The mapping-torus cochain complex is the cone of base pullback minus identity on the fibre complex. Its degree-one exact sequence has just that H⁰ cokernel and H¹ kernel as its end terms. Both vanish. Hence H¹ with adjoint coefficients vanishes for each irreducible class in the table. Equivalently the linearized flatness equation has only infinitesimal gauge variations there. This conclusion uses the closed fibre. On a punctured torus the missing two-cell changes the calculation even when the holonomies of a particular solution commute.
+
+## Control across other generated returns
+
+For a hyperbolic integral return U on D, let t=tr U, d=det U=±1 and S=I+U+U². A determinant-one triple on an exact three-cycle is specified by x in ker S after excluding shorter periods. Since (U-I)S=U³-I, only period one needs exclusion. For a fixed x the sum is 3x. Thus the count of irreducible SU(3) extensions is
+
+    ( |t²+(1+d)t+1-d+d²| - |ker(U-I) on D[3]| ) / 3.
+
+The first term is |det S| from the two eigenvalues. The second counts exactly the fixed points of U on the nine three-torsion points. This correction matters whenever U has nontrivial fixed characters. For L²P=[[2,1],[1,0]], det S=7 and U-I is invertible modulo three, giving two irreducibles. The count of one for LP therefore cannot be exported even to the next metallic return.
+
+The periodic-character construction is standard. Boden and Friedl classify irreducible semidirect-product representations by cyclic character orbits, with their determinant-one theorem assuming that multiplication by t-1 is invertible on the module (Theorems 2.3 and 3.3). The direct orbit sum above keeps the determinant condition when that hypothesis fails, as for L²P. [Primary paper](https://friedl.app.uni-regensburg.de/papers/metab_rep7.pdf)
+
+## What survives across both generators
+
+There is a stronger fixed-fibre test that uses the entire generated L,R action on the abelian fibre. Require simultaneous invariance of the unordered triple under both shears. On a set of at most three distinct characters each generator has sixth power acting trivially. In coordinates (u,v) on D, the two sixth powers therefore give 6u=6v=0 for each point. This argument also works for the inverse transpose action, which interchanges the two elementary shears up to inversion.
+
+If a point has a nonzero three-primary part, doubling maps its orbit equivariantly onto the orbit of a nonzero element of D[3]. The two elementary shears modulo three and their powers generate SL(2,F3) by row elimination, and this group moves any nonzero vector to any other (extend each to a basis of determinant one). The image orbit would already have eight points. That contradicts the size of the triple. Thus all its points lie in D[2]. On the three nonzero points of D[2] the two shears act as distinct transpositions. Their multiplicities must be equal. The two possibilities are consequently three zero characters, or the three different nonzero two-torsion characters once each. Both multisets sum to zero. This proves the common fixed-fibre classification without selecting LP, a handedness or even a primitive word. It uses simultaneous invariance under both moves, a stronger premise than simply allowing those moves.
+
+The permutation action on the nonzero triple lifts explicitly to SU(3) by sending a permutation matrix P to det(P)P. This is multiplicative, has determinant one and conjugates the diagonal sign matrices as required. Together these transformations act irreducibly, by the distinct fibre characters and transitivity. This exhibits one coherent lift. Fixed-fibre uniqueness among nontrivial triples leaves the possible phases, additional data, and interpretation of lifts as separate questions. In particular, allowing a base move to exchange two allowed vacua does not require either vacuum to be fixed by that move.
+
+The nontrivial triple also has a directly testable price for a proposed matter assignment. Each of its three defining-representation fibre characters is nontrivial. The same two-generator Koszul contraction gives zero in every degree of the closed fibre with those coefficients. With trivial holonomies the fibre dimensions are instead 3, 6 and 3. Keeping the irreducible triple while assigning it three parallel fundamental sections would be inconsistent. This comparison concerns cohomology in the defining representation on the closed flat fibre. Spin, gauge representations, fluxes and domains of a physical fermion operator still have to be specified.
+
+## What the action decides
+
+On the chosen tick the classification singles out one irreducible flat class. The identity connection and that irreducible connection both attain exactly zero in the displayed positive curvature action. The all-trivial history and the A4 history have identical local curvature and different Wilson loops, e.g. a nontrivial fibre sign matrix has defining trace -1 versus 3 at the identity. Both comparisons are gauge invariant. Curvature alone assigns the same energy even though these states can be distinguished. Irreducibility would select a class if imposed, and remains an independent selection requirement. The existing compact action supplies no energy splitting between these examples. Its frozen quartic at a different, unstable magnetic background does not compare their energies.
+
+The unresolved physical question is whether the admitted fields, their end conditions or their action give a response to these holonomies that distinguishes the two states. Retaining a ground state with nontrivial puncture, identifying the triplet as three chiral families, and deriving the metric dynamics each require further evidence. The present count earns no Standard Model parameter. Review should check the return and bundle conventions, the fixed multisets, determinant restriction, allowed gauge conjugators and the cohomology calculation before any use as a physical selector.

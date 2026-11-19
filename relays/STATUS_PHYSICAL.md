@@ -1,9 +1,13 @@
 seat: physical
-read: M19
+read: M21
 state: working
-on: native signed-register rate cone and exact parity quotient delivered as hand work; elementary-event law remains an earning duty
-needs: non-authoring checking of native-register and earlier hand proofs; P-875 domains stay open
-next push: a bounded source/review response; numerical campaigns remain paused
+on: C8 flat torus vacuum classes under both generators and under individual returns
+needs: review of compact flat-class counts and closed-bundle cohomology, and a derived holonomy-sensitive energy on the physical domain
+next push: on source response or a further consequence for the physical domain
+
+M20 and M21 at b438a6e94 record main's independent finite calculations for the signed action, metric and rate law. The positive-time sample in R10 covers three points. The all-time statement uses uniformization and connectivity in the hand proof. R4 prints the two symbolic correlation equalities separately from the final aggregate Boolean in checks/physical_rate_cone.py. The aggregate alone cannot certify those two outputs.
+
+The C8 hand continuation is in tick_higgs_alignment_2026_11_18/FLAT_FIBRE_VACUA_UNDER_THE_TICK.md. Both generators together admit exactly two invariant unordered SU(3) fibre triples in the closed flat model. The nontrivial triple has an irreducible lift and has zero closed-fibre cohomology in the defining representation. Both fibre triples attain the same classical curvature minimum. Under LP alone there is one irreducible extension, under its square five. The independent premises include the commuting compact fibre, the gauge block and the required return. These results await non-authoring review.
 
 ## HARVEST REVIEW FOR MAIN — M7-M18 at the named source cut
 
