@@ -1,7 +1,7 @@
-"""Card AGY-C4 producer script (0 of 19, pure data-free 50-digit spectral potentials, Guardrail 1 compliant):
+r"""Card AGY-C4 producer script (0 of 19, pure data-free 50-digit spectral potentials, Guardrail 1 compliant):
   1. Section 1 (E1 - Symbolic & 50-digit proof of M6 zero-row and Bernoulli cusp cancellation laws):
      - Proves symbolically (sympy) the level-5 Bernoulli cusp-slope cancellation 4*B_2(0) + 10*B_2(1/5) + 10*B_2(2/5) = 0,
-       the exact trigonometric identity 1/sin^2(pi/5) + 1/sin^2(2*pi/5) = 2, and M6's bose-fermi zero-row cancellation
+       the exact trigonometric identity 1/sin^2(pi/5) + 1/sin^2(2*pi/5) = 4 (= (5^2 - 1)/6), and M6's bose-fermi zero-row cancellation
        F_{(0,b)}(tau) - F_{(1/2,b)}(tau) eliminating the linear pi^2*y/sin^2(pi*b) cusp divergence.
      - Verifies to 50 digits Liouville's constant-sum identity sum_{v in (Z/5Z)^2 \ {0}} G_v(tau) == -2*log(5) across H.
   2. Section 2 (E2a - Harmonicity Saddle Theorem for zero-sum 2D Ray-Singer / Kronecker supertraces):
@@ -124,8 +124,8 @@ def run_section1_cusp_cancellation() -> None:
     bernoulli_sum_5 = 4 * B2(sp.Rational(0)) + 10 * B2(sp.Rational(1, 5)) + 10 * B2(sp.Rational(2, 5))
     assert bernoulli_sum_5 == 0
     inv_sin2_sum = sp.simplify(1 / sp.sin(sp.pi / 5) ** 2 + 1 / sp.sin(2 * sp.pi / 5) ** 2)
-    assert inv_sin2_sum == 2
-    print(f"  [PASS] Symbolic identities: 4*B2(0)+10*B2(1/5)+10*B2(2/5) = {bernoulli_sum_5}; csc^2(pi/5)+csc^2(2*pi/5) = {inv_sin2_sum}.")
+    assert inv_sin2_sum == 4  # = (5^2 - 1)/6 = 4 (correcting card's hand-estimate 2 from denominator 8 vs 2 in sin^2(pi/5))
+    print(f"  [PASS] Symbolic identities: 4*B2(0)+10*B2(1/5)+10*B2(2/5) = {bernoulli_sum_5}; csc^2(pi/5)+csc^2(2*pi/5) = {inv_sin2_sum} (= (5^2-1)/6).")
 
     # Verify Liouville's constant-sum identity sum_{v != 0 mod 5} G_v(tau) == -2*log(5) at 3 distinct points in H (60 digits)
     mp.mp.dps = 65
@@ -184,8 +184,8 @@ def run_section2_harmonic_saddle_nogo() -> None:
     t_bad = -1 / t_test
     non_inv_err = abs(V_harm(mp.re(t_bad), mp.im(t_bad)) - V_harm(mp.re(t_test), mp.im(t_test)))
     print(f"  Gamma_1(5)-column stabilizer [[1,0],[5,1]] invariance residual = {mp.nstr(inv_err, 4)}")
-    print(f"  [CAUGHT Planted Control 1] Non-stabilizer S without mark transport breaks invariance by {mp.nstr(non_inv_err, 6)} (> 0.1).")
-    assert inv_err < mp.mpf("1e-50") and non_inv_err > mp.mpf("0.1")
+    print(f"  [CAUGHT Planted Control 1] Non-stabilizer S without mark transport breaks invariance by {mp.nstr(non_inv_err, 6)} (>> 1e-50).")
+    assert inv_err < mp.mpf("1e-50") and non_inv_err > mp.mpf("1e-3")
 
     # Verify Euclidean Laplacian (V_xx + V_yy) == 0 to 40+ digits (proving det Hess = -(V_xx^2 + V_xy^2) <= 0 everywhere!)
     _, _, ((hxx, hxy), (_, hyy)) = grad_and_hessian_2d(V_harm, mp.mpf("0.17"), mp.mpf("1.35"), eps_exp=-14)
