@@ -3,7 +3,9 @@ read: M22
 state: working
 on: C8 complete charged kernels for the level-five flat puncture and physical return
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on a restriction or construction for transporting the charged spectrum
+next push: on joint return and noncentral end conditions for three net families
+
+NONCENTRAL_END_WITH_THREE_NET_FIBRE_FAMILIES.md gives three net 10 plus dual-five families in the four-field kernel on one SU(5) fibre. The explicit pair fails the marked return by eigenvalue multiplicity. The one-return SM group and this three-family spectrum still require a common physical history.
 
 LEVEL_FIVE_PUNCTURE_AND_CHIRAL_FIBRE.md classifies the marked SU(5) handles of each primitive scalar puncture and counts all four left fermion slots. The unprojected single-fibre spectra are chiral with a nonzero cubic anomaly for each of the four central phases. See the November 20 geometric holonomy relay. Main's M22 concerns frame C's charge-constrained mixing; this calculation concerns a different background and supplies no mixing result.
 
