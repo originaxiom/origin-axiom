@@ -1,0 +1,25 @@
+=== SECTION 1: M6 ZERO-ROW & BERNOULLI CUSP CANCELLATION LAWS (sympy + 50-digit mpmath) ===
+  [PASS] Symbolic identities: 4*B2(0)+10*B2(1/5)+10*B2(2/5) = 0; csc^2(pi/5)+csc^2(2*pi/5) = 4 (= (5^2-1)/6).
+  50-digit Liouville identity |sum_{v!=0} G_v(tau) - (-2 log 5)| max residual = 4.131e-64
+  [CAUGHT Planted Control 2] Unbalanced (0,1/5) slope [y=10->20] = 28.56686215 (analytic pi^2/sin^2(pi/5) = 28.56685134, diff = 1.081e-5)
+  M6 zero-row-balanced bose-fermi slope [y=10->20] = 6.077e-65 (linear y divergence cancelled!)
+
+=== SECTION 2: HARMONICITY SADDLE NO-GO FOR ZERO-SUM SUPERTRACES (E2a) ===
+  Gamma_1(5)-column stabilizer [[1,0],[5,1]] invariance residual = 8.043e-86
+  [CAUGHT Planted Control 1] Non-stabilizer S without mark transport breaks invariance by 0.0380264 (>> 1e-50).
+  Harmonic trace |V_xx + V_yy|: G_v supertrace = 4.022e-41, F_u zero-sum diff = 8.365e-41
+  [PASS] Harmonicity saddle theorem verified: tr(Hess) == 0 identically on zero-sum G_v and F_u supertraces.
+
+=== SECTION 3: 50-DIGIT SUBHARMONIC KRONECKER & Gamma_0(5) SPECTRAL STATIONARITY (E2b, E3) ===
+  V_0(tau) SL(2,Z) invariance residual = 6.434e-85
+  V_0 at tau = i       : V=3.3134009554, |grad|=2.039e-44, det(Hess)=-3.8209317 (< 0 -> SADDLE)
+  V_0 at tau = exp(2pi*i/3): V=3.24689656471, |grad|=5.234e-45, tr(Hess)=4.1887902 (> 0), det(Hess)=4.3864908 (> 0 -> STRICT MINIMUM)
+  V_{Gamma_0(5)} invariance under [[2,1],[5,3]] and Fricke W_5: max residual = 7.721e-85
+  Fricke fixed point i/sqrt(5): V=4.82827956627, |grad|=4.113e-43, tr(Hess)=15.707963, det(Hess)=-775.66364 -> SADDLE
+  Gamma_0(5) order-2 elliptic point (2+i)/5: V=3.3134009554, |grad|=1.719e-42, tr(Hess)=78.539816, det(Hess)=127.25081 -> STRICT LOCAL MINIMUM
+  Global minimum of V_{Gamma_0(5)} found by 50-digit Newton: tau_* = 0.4 + 0.2i, V=3.3134009554033, |grad|=1.433e-47, tr(Hess)=78.539816, det(Hess)=127.25081
+  Guardrail 1 accounting: V_{Gamma_0(5)} embeds 0 target coordinates, but choosing its positive bosonic-minus-fermionic
+  sign and cover weight carries a non-zero discrete potential-specification choice (no 0-bit credit claimed).
+  [PASS] Section 3 50-digit subharmonic stationarity and Hessian classification verified.
+
+ALL AGY-C4 CHECKS PASSED in 6.95s (0 of 19).
