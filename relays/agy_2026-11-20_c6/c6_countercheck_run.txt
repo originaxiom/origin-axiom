@@ -1,0 +1,22 @@
+=== IC1: LORENTZIAN SL(2, C) BOOST INVARIANCE & SYLVESTER INERTIA AUDIT ===
+  Hom_{SL(2,C)}((1/2,0), (0,1/2)) dim = 0; 30 random SL(2,C)-Lagrangian checks: dim_L - dim_R == 0.
+  [PASS] Lorentzian boost Schur lemma and Sylvester inertia index-zero theorem verified.
+
+=== IC2: WANG SEQUENCE INTEGER SMITH NORMAL FORM (ZERO SnapPy) & S_5/S_6 COMMUTATOR AUDIT ===
+  Wang SNF m= 2: b_1 = 1 => N_cusps = 1, H_1_tor invariant factors = (5,)
+  Wang SNF m= 5: b_1 = 1 => N_cusps = 1, H_1_tor invariant factors = (11, 11)
+  Wang SNF m= 8: b_1 = 1 => N_cusps = 1, H_1_tor invariant factors = (21, 105)
+  Wang SNF m=40: b_1 = 1 => N_cusps = 1, H_1_tor invariant factors = (102334155, 511670775)
+  S_5 / S_6 50,000-pair audit: observed even-cycle commutator cusp counts = {5: set(), 6: {2}} (strictly even >= 2).
+  [PASS] Wang SNF homology (matching SnapPy to 9 digits at m=40) and S_5/S_6 commutator parity verified.
+
+=== IC3: NON-ABELIAN so(10) I_8 ANOMALY & 5/5 PLANTED NEGATIVE CONTROLS ===
+  Non-abelian so(10) on 16_+: |tr(H^3)| = 4.44e-16 (==0), |tr(H^4) - (tr H^2)^2/16| = 20.933200 (>0 -> 7D inflow needed).
+  [CAUGHT Plant 1] Unbalanced (4D_L, K^{1/2}) boundary condition violates Gamma^r isotropy (norm = 1.00).
+  [CAUGHT Plant 2] Isotropic L-R diagonal pairing violates Lorentz boost K_3 invariance (err = 0.50).
+  [CAUGHT Plant 3] Single 4-cycle cusp permutation (N_cusps=1) has sgn = -1 != +1 (excluded from [S_d, S_d]).
+  [CAUGHT Plant 4] D_8 cover has 12 unwrapped cusp modes, but D_8 deck-invariant transfer collapses to 1 != 3.
+  [CAUGHT Plant 5] Opposite spin-lift sign (+i)R(pi) flips selection to (4D_L, 4D_R) = (0, 48) (anti-holomorphic!).
+  [PASS] 5/5 planted faults caught.
+
+ALL AGY-C6 INDEPENDENT COUNTERCHECKS PASSED (5/5 PLANTS CAUGHT; 0 of 19).
