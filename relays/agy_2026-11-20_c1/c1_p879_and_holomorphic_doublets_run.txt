@@ -1,0 +1,65 @@
+=== SECTION 1: SYMBOLIC SPINOR, TAKAGI, AND CKM CEILING PROOFS (sympy) ===
+  [PASS] Frame C symmetric Pauli-spinor basis A_a = C_a^T * EPS and EPS * C_b = -A_b verified.
+  [PASS] Spinor inner-product identity <L_psi(a), L_psi'(a')> - (<a,a'><psi,psi'> + <a,psi'><psi,a'>) == 0.
+  [PASS] Exact rank-1 outer-product factorization Y = -L_psi(alpha) L_psi(beta)^T == 0 residual.
+  [PASS] B1736 symbolic rank-1 image identity: every column of Y(h_null; u_null, w_null) || (h x u - w h).
+  [PASS] Monomial 3x3 Takagi theorem verified: Y(h; mu_+ e_+ + mu_- e_-, 0) maps (e_+, e_-, e_3) -> (2 c_+ mu_- e_-, 2 c_- mu_+ e_+, -(mu_+ c_+ + mu_- c_-) e_3).
+  [PASS] Null-Higgs heavy-CKM ceiling verified: sup |V_tb| = 1/3 at gamma = 1; |V_tb| >= 9/10 requires gamma <= 6*sqrt(2)/19.
+
+=== SECTION 2: CLOSED-FORM 50-DIGIT FULL-HIERARCHY WITNESS BELOW r = 1/1000 (B1969) ===
+  r = |h.h|            = 0.0005 (exact rational 1/2000)
+  up   (hbar) m2/m3    = 0.000500000029688,  m1/m2 = 0.049999996875
+  down (h)    m2/m3    = 0.00799999200001,  m1/m2 = 0.0625000039063
+  min_k |V_kk|         = 1.0,  max_{i!=j} |V_ij| = 1.3976e-48
+  Haar basis-scrambling drift: sv_rel = 8.06691e-48, |V| = 2.43097e-49
+  [PASS] Full-hierarchy form-level witness verified at 50 digits (and Haar-invariant to < 1e-40).
+
+=== SECTION 3: P-879 JACOBI RESIDUE RANK-1 LAW & 2,016-POINT SPINOR CENSUS ===
+  Frame C charges: up (q_L, q_R) = (1, -4), down (q_L, q_R) = (1, 2)
+  Control 1 (B1967 r=3/1000 escape): eta_tilde_u=0.00293, eta_tilde_d=0.00054, gamma=0.300880 < gamma_crit=0.446594
+  Control 2 (AGY-C1 r=1/2000 witness): eta_tilde_u=0.00001, eta_tilde_d=0.00400, gamma=0.000000 < gamma_crit=0.446594
+  x=0.13 y= 1.0: pts=72, both_eta<=0.02 at  0 pts, min_gamma_there=1.000000, cone_hits=0
+  x=0.13 y= 1.5: pts=72, both_eta<=0.02 at  0 pts, min_gamma_there=1.000000, cone_hits=0
+  x=0.13 y= 2.0: pts=72, both_eta<=0.02 at 18 pts, min_gamma_there=0.992062, cone_hits=0
+  x=0.13 y= 3.0: pts=72, both_eta<=0.02 at 34 pts, min_gamma_there=0.999426, cone_hits=0
+  x=0.13 y= 4.0: pts=72, both_eta<=0.02 at 50 pts, min_gamma_there=0.972642, cone_hits=0
+  x=0.13 y= 6.0: pts=72, both_eta<=0.02 at 72 pts, min_gamma_there=0.986031, cone_hits=0
+  x=0.13 y=10.0: pts=72, both_eta<=0.02 at 72 pts, min_gamma_there=0.997369, cone_hits=0
+  Completed 2,016-point census in 212.40s:
+    max |Mw - DL.parts| (8 spot checks)           = 0.0
+    max |det R_mat| / ||R_mat||_F^2 (4,032 evals) = 1.146e-31
+    max |1 - gamma_res| (2016 nonzero pairs)     = 1.110e-15
+    y=10 quarter-threshold checks (a != 0)        = 248/248 passed, min_gamma = 0.99736920
+    y=20 asymptotic quarter-threshold (62 pts)    = 62/62 passed, min_gamma = 0.99996964
+    2,016-point tuned-cone hits                   = 0
+    Planted q_L^(up)=2 mismatch at (1/5,2/5) y=10 : gamma_res = 4.310e-02, gamma_Mw = 7.276442e-02 < gamma_crit = 0.446594 (|au[1]|=1.00000, |ad[0]|=0.99734)
+  [PASS] P-879 Jacobi residue rank-1 identity, 2,016-point spinor exclusion, and planted q_L control verified.
+
+=== SECTION 4: RIGOROUS LIPSCHITZ / WEYL / DAVIS-KAHAN CP^2 COVERING CERTIFICATES ===
+  Positive Control 1 (B1967 r=3/1000 escape):   {'status': 'WITNESS_FOUND', 'depth': 6, 'evaluated_boxes': 236320, 'diag': 0.9292536894580865, 'r2': (0.004531567724809312, 0.0017026960264240117), 'r1': (0.4832950146484011, 0.21578194146862098)}
+  Positive Control 2 (AGY-C1 r=1/2000 witness): {'status': 'WITNESS_FOUND', 'depth': 7, 'evaluated_boxes': 591104, 'diag': 0.9118275064877414, 'r2': (0.0005675179055644393, 0.007308873256993246), 'r1': (0.040174098327607016, 0.07750082689648247)}
+  Frame C ('0.13', 3.0, '1/5', '2/5'): eta=(0.0823,0.0260), gamma=0.9522 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 114272}
+  Frame C ('0.13', 3.0, '1/7', '6/7'): eta=(0.0058,0.0426), gamma=0.9822 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 66240}
+  Frame C ('0.13', 3.0, '2/5', '0'): eta=(0.0034,0.0110), gamma=0.9998 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 83584}
+  Frame C ('0.13', 3.0, '3/7', '1/7'): eta=(0.0068,0.0043), gamma=0.9999 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 72112}
+  Frame C ('0.13', 6.0, '1/5', '2/5'): eta=(0.0144,0.0009), gamma=0.9872 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 88608}
+  Frame C ('0.13', 6.0, '1/7', '6/7'): eta=(0.0000,0.0048), gamma=0.9996 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 63792}
+  Frame C ('0.13', 6.0, '2/5', '0'): eta=(0.0000,0.0003), gamma=1.0000 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 75520}
+  Frame C ('0.13', 6.0, '3/7', '1/7'): eta=(0.0002,0.0000), gamma=1.0000 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 73328}
+  Frame C ('0.13', 10.0, '1/5', '2/5'): eta=(0.0012,0.0000), gamma=0.9989 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 75472}
+  Frame C ('0.13', 10.0, '1/7', '6/7'): eta=(0.0000,0.0002), gamma=1.0000 -> {'status': 'CERTIFIED_EMPTY', 'depth': 4, 'evaluated_boxes': 63696}
+  Frame C ('0.13', 10.0, '2/5', '0'): eta=(0.0000,0.0000), gamma=1.0000 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 73056}
+  Frame C ('0.13', 10.0, '3/7', '1/7'): eta=(0.0000,0.0000), gamma=1.0000 -> {'status': 'CERTIFIED_EMPTY', 'depth': 5, 'evaluated_boxes': 73104}
+  [PASS] Certified 0 continuous CP^2 counterexamples across all 12 representative Frame C cases (76.10s).
+
+=== SECTION 5: HOLOMORPHIC TWO-DOUBLET (S, S) VS (S_tilde, S) CUSP OPERATOR (P-847) ===
+  height y= 2.0 (dps= 52): (S,S) min_diag[a!=0, 20 pts] = 0.70591328, (S,S) min_diag[a=0, 4 pts] = 0.98709017 | (St,S) max_min_diag[a!=0] = 0.511645
+  height y= 6.0 (dps= 66): (S,S) min_diag[a!=0, 20 pts] = 0.99323728, (S,S) min_diag[a=0, 4 pts] = 0.99999989 | (St,S) max_min_diag[a!=0] = 0.0016473
+  height y=15.0 (dps= 97): (S,S) min_diag[a!=0, 20 pts] = 0.99997559, (S,S) min_diag[a=0, 4 pts] = 1.0 | (St,S) max_min_diag[a!=0] = 7.06786e-11
+  height y=30.0 (dps=150): (S,S) min_diag[a!=0, 20 pts] = 1.0, (S,S) min_diag[a=0, 4 pts] = 1.0 | (St,S) max_min_diag[a!=0] = 3.71451e-23
+  (S,S) cusp rates [y=15->30] at (1/5,2/5): up=(0.1, 0.6) [exact (1/10, 3/5)], down=(0.2, 0.55) [exact (1/5, 11/20)]
+  (S,S) cusp rates [y=15->30] at (2/5,2/5): up=(0.3, 0.5) [exact (3/10, 1/2)], down=(0.2, 0.55) [exact (1/5, 11/20)]
+  Worst (S, S) cusp exponent deviation across all 20 (a != 0) points [y=15->30]: 1.225e-6
+  [PASS] Shared holomorphic (S, S) achieves simultaneous 3-generation cusp hierarchy AND CKM alignment (min_k |V_kk| > 0.99 at y>=15).
+
+ALL AGY-C1 CHECKS PASSED (0 of 19).
