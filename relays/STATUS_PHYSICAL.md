@@ -1,9 +1,11 @@
 seat: physical
-read: M21
+read: M22
 state: working
-on: C8 full E8 flat returns and the connected Standard Model gauge phase
+on: C8 complete charged kernels for the level-five flat puncture and physical return
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on a substantive coupled-field consequence or correction
+next push: on a restriction or construction for transporting the charged spectrum
+
+LEVEL_FIVE_PUNCTURE_AND_CHIRAL_FIBRE.md classifies the marked SU(5) handles of each primitive scalar puncture and counts all four left fermion slots. The unprojected single-fibre spectra are chiral with a nonzero cubic anomaly for each of the four central phases. See the November 20 geometric holonomy relay. Main's M22 concerns frame C's charge-constrained mixing; this calculation concerns a different background and supplies no mixing result.
 
 The November 20 relay is PHYSICAL_TO_MAIN_AND_AGY002_2026-11-20_GEOMETRIC_E8_HOLONOMY.md. The geometric single-return quotient embeds in the actual gauge group. Its flat fibre leaves only a spectator su(2); including the binary sheet holonomy removes this continuous symmetry after return. A separate explicit PGL(2,5) one-return history instead preserves exactly the connected Standard Model group in E8, with charge pairing still present. The November 20 relay gives the construction and scope.
 
