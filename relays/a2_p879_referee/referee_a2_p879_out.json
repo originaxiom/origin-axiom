@@ -1,8 +1,8 @@
 {
   "card": "A2-P879",
   "empirical_firewall": "0 of 19",
-  "runtime_seconds": 119.73425889015198,
-  "all_gates_passed": false,
+  "runtime_seconds": 212.0956747531891,
+  "all_gates_passed": true,
   "gates": {
     "convention_guardrail4": {
       "max_diff_Y_down": 8.881784197001252e-16,
@@ -14,27 +14,27 @@
       "passed": true
     },
     "L2_weierstrass_ode": {
-      "max_rk4_step_doubling_err": 4.8828196356148306e-09,
-      "max_half_period_3_diff": 6.201921106778929e-07,
-      "max_imag_leak": 3.494144513388524e-07,
-      "sl2z_direct_ode_diff_2i": 1.1422066397958804e-07,
-      "sl2z_direct_ode_diff_13_100_2i": 1.1392219412918186e-07,
+      "max_rk4_step_doubling_err": 4.88282043332849e-09,
+      "max_half_period_3_diff": 6.65531455542387e-08,
+      "max_imag_leak": 3.187448136976451e-08,
+      "sl2z_direct_ode_diff_2i": 8.798968327008969e-09,
+      "sl2z_direct_ode_diff_13_100_2i": 8.78886516515864e-09,
       "gauss_reduction_roundtrip_err": 9.595295105615121e-23,
-      "cusp_diff_at_y12": 0.012607487447988328,
+      "cusp_diff_at_y12": 0.012607329823110382,
       "holomorphic_monotonicity_ok": true,
       "x_13_100_L2_values": {
-        "1/1": 2.718728244119688,
-        "3/2": 2.5394959171684612,
-        "2/1": 2.440417792932753,
-        "3/1": 2.339718967761526,
-        "6/1": 2.250511819281372,
+        "1/1": 2.718728243493878,
+        "3/2": 2.539495895328503,
+        "2/1": 2.4404177563539697,
+        "3/1": 2.339718909751289,
+        "6/1": 2.250511717977905,
         "15/1": 2.2068809977593573,
         "30/1": 2.2068809977593573,
-        "12/1_ode": 2.219488485207346,
+        "12/1_ode": 2.219488327582468,
         "cusp_formula": 2.2068809977593573
       },
       "rk4_tolerance": 1e-08,
-      "passed": false
+      "passed": true
     },
     "T1_null_2x2_reduction": {
       "sympy_so3_orthog_zero": true,
@@ -124,23 +124,23 @@
       "max_res_mu2_mu1_up": 1.3487743104059251e-16,
       "max_res_mu2_mu1_down": 2.371643777312853e-16,
       "max_res_sL": 5.225528750701094e-16,
-      "max_full_sL_overall": 0.31649898281861777,
+      "max_full_sL_overall": 0.31649898411562816,
       "cusp_max_sL_table": {
         "0/1": {
           "1/1": 0.2873196953098084,
-          "3/2": 0.31649898281861777,
-          "2/1": 0.30446826777059743,
-          "3/1": 0.25044091037052096,
-          "6/1": 0.10552725046397554,
+          "3/2": 0.31649898411562816,
+          "2/1": 0.3044682699045409,
+          "3/1": 0.2504409132539434,
+          "6/1": 0.10552725259624553,
           "15/1": 0.013692058674513514,
           "30/1": 0.00044127336002332534
         },
         "1/4": {
-          "1/1": 0.3013883443560186,
-          "3/2": 0.3132937016184848,
-          "2/1": 0.3021492280791417,
-          "3/1": 0.24960959874560834,
-          "6/1": 0.10548403241206944,
+          "1/1": 0.3013883444564005,
+          "3/2": 0.313293702897536,
+          "2/1": 0.3021492301877816,
+          "3/1": 0.24960960160793946,
+          "6/1": 0.10548403453889554,
           "15/1": 0.013692058673137676,
           "30/1": 0.00044127336002353144
         }
@@ -151,8 +151,8 @@
       "passed": true
     },
     "T5_cp2_certifier_and_control": {
-      "n_frame_c_points_certified": 324,
-      "n_frame_c_excluded": 324,
+      "n_frame_c_points_certified": 316,
+      "n_frame_c_excluded": 316,
       "n_sensitivity_points": 48,
       "n_sensitivity_excluded": 48,
       "max_surviving_boxes": 0,
@@ -179,9 +179,9 @@
     },
     "guardrail3_haar_invariance": {
       "n_trials_per_case": 10,
-      "max_sv_ratio_drift": 9.992007221626409e-16,
+      "max_sv_ratio_drift": 1.2212453270876722e-15,
       "max_Vckm_drift": 8.218425939787721e-14,
-      "max_certifier_theta_drift": 1.199040866595169e-14,
+      "max_certifier_theta_drift": 1.021405182655144e-14,
       "prune_mask_mismatches": 0,
       "tolerance": 1e-12,
       "passed": true
@@ -195,8 +195,8 @@
       "PF2_same_h_up_frameC": {
         "certifier_excluded": false,
         "surviving_boxes": 20094,
-        "best_null_V33": 0.9975592830702257,
-        "best_null_m2_m3": 0.0032032096110868394,
+        "best_null_V33": 0.9975592830372617,
+        "best_null_m2_m3": 0.0032032096462854672,
         "caught": true
       },
       "PF3_corrupt_lipschitz_b1967": {
@@ -205,7 +205,7 @@
         "caught": true
       },
       "PF4_corrupt_qRu_to_plus2": {
-        "wu_magnitude_at_1_5_0": 1.6557438181427089,
+        "wu_magnitude_at_1_5_0": 1.6557438084377227,
         "max_uu_minus_ud": 0.0,
         "caught": true
       },
