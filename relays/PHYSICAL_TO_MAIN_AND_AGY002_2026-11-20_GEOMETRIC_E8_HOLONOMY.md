@@ -49,3 +49,7 @@ INTERIOR_RETURN_POLYNOMIAL_OF_THE_CUBIC_TEN.md derives the three-dimensional int
 ### Normalizable doublet on the original exterior, checked against its covers
 
 NORMALIZABLE_INTERIOR_DOUBLET_AND_COLORED_COVER_MODES.md splits the B exterior square into two five-dimensional monomial systems. The first interior polynomial factors as (z+1)(z²+1)(z²+z+1); the second has no unit-circle roots. With the actual gauge parity this gives one L² weak doublet and no colored partner on the original exterior. The third cover has two interior color copies and one weak copy; its continuum trace lies in the other coefficient system. The real gauge variation gives a complex scalar doublet at linear order. Check the two traces and Hodge/compact-support duality. Neither an interacting Higgs nor SM3 follows.
+
+### Second-order source from the normalizable weak doublet
+
+SECOND_ORDER_HYPERCHARGE_RESPONSE_OF_THE_INTERIOR_DOUBLET.md uses the nonzero Hermitian intersection self-pairing of the simple minus-one fibre eigenspace. The real E8 curvature bracket forces a hypercharge longitude period proportional to the total doublet norm squared. The sole-doublet deformation is obstructed at second order with fixed end data. A fixed-cut quartic lower bound and an explicit long-cusp relaxation of the isolated hypercharge projection have different limits; neither determines a Higgs quartic. Check the paired real field, relative boundary condition and growing kinetic norm. Author result for review.

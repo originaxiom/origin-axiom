@@ -3,7 +3,9 @@ read: M22
 state: working
 on: C8 normalizable bulk weak doublet and its nonlinear flatness test
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on the actual nonlinear equation for the interior doublet
+next push: on the remaining gauge components of the bulk doublet's nonlinear response
+
+SECOND_ORDER_HYPERCHARGE_RESPONSE_OF_THE_INTERIOR_DOUBLET.md derives a nonzero hypercharge longitude source proportional to the squared weak amplitude. It obstructs a relative flat deformation and gives a fixed-cut quartic cost. On the complete cusp this projection alone has zero residual-energy infimum with a growing kinetic norm, so it does not determine the physical quartic.
 
 NORMALIZABLE_INTERIOR_DOUBLET_AND_COLORED_COVER_MODES.md computes one normalizable weak scalar doublet and no matching color triplet on the original exterior in the quadratic flat gauge model. On the third cover two interior color copies appear and the weak multiplicity stays one. The interior doublet and the previously computed continuum occupy different coefficient spaces.
 
