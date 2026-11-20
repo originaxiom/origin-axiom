@@ -1,1 +1,1 @@
-40e19dd8637daf2e9b478e06664afa1203c975a46e31ccdfd6d7878ca33e6823  relays/agy_2026-11-20_c4/c4_spectral_potential_stationarity.py
+86ef6dc3f9ddd39e7260eaa3d461baf91559f0559af8f013f3906388009f82c8  relays/agy_2026-11-20_c4/c4_spectral_potential_stationarity.py
