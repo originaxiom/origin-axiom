@@ -1,0 +1,267 @@
+{
+  "protocol_version": "preregistered_blind_predictions_v1",
+  "blind_status_at_creation": "100% BLIND (0 of 19 empirical constants read or fitted)",
+  "m004_parameter_free_geometric_invariants": {
+    "lam1_b940": 2.9745505801732,
+    "ell1": 1.0870701449957392,
+    "th1": 1.7227684498700901,
+    "ell2": 1.662885891058621,
+    "th2": 2.392123788172313,
+    "eps_1": 0.0033038740772546055,
+    "eps_2": 0.00042987524849588205,
+    "r_sh": 0.1301124796054855,
+    "Lc_star": 3.8040743647892863,
+    "spin11_kk_diff_shifts_inv_g2": [
+      -0.10656157429248658,
+      0.025371803402973014,
+      0.0
+    ]
+  },
+  "priced_macro_inputs_specification": {
+    "continuous_macro_anchors_calibrated_in_phase3b": [
+      "alpha_em_inv(M_Z) -> fixes hat{g}_7^2 (unified Spin(11) coupling)",
+      "alpha_3(M_Z)      -> fixes ln(M_KK / M_Z) (electroweak-to-KK hierarchy)"
+    ],
+    "overall_dimensionful_unit_anchor": "v_EW (1 overall energy unit; all masses compared as dimensionless m_i / v_EW)",
+    "gravity_and_cc_inputs": [
+      "Discrete 3-form flux integer N_flux (selected by M_Pl / M_KK = sqrt(V_5) R_*(N_flux)^(5/2))",
+      "1 continuous orientifold tension tuning tau_4 setting Lambda_cc = 0"
+    ],
+    "zero_parameter_out_of_sample_predictions_count": "17+ SM/neutrino dimensionless observables predicted with 0 free parameters once (alpha_em_inv, alpha_3) are fixed"
+  },
+  "predeclared_evaluation_tiers": {
+    "Tier_1_Precision_Hit": "|frac_err| <= 0.15 or |log10(pred/obs)| <= 0.15 (within <= 1.41x)",
+    "Tier_2_Structural_O1_Hit": "0.15 < |log10(pred/obs)| <= 0.50 (factor 1.41x to 3.16x, O(1) threshold/shell geometry factor)",
+    "Tier_3_Quantitative_Tension_or_Miss": "|log10(pred/obs)| > 0.50 (factor > 3.16x)"
+  },
+  "synthetic_grid_verification_outputs": {
+    "M1_Coh": {
+      "synthetic_anchor_125_0p11": {
+        "uv_macro_inputs": {
+          "alpha_GUT_inv_SU3": 41.167118112709694,
+          "ln_MKK_over_muIR": 28.41961400171255
+        },
+        "ir_gauge_ew": {
+          "alpha_em_inv": 125.0,
+          "alpha_3": 0.10999999999999976,
+          "sin2_thetaW": 0.2192873349734163,
+          "MW_over_vEW": 0.33854246733500704,
+          "MZ_over_vEW": 0.3831488644018776,
+          "mH_over_vEW": 0.6661350320710739,
+          "mH_over_MW": 1.9676557488189375,
+          "lambda_H": 0.22186794047616537
+        },
+        "ir_fermion_masses_over_vEW": {
+          "m_u_over_vEW": 1.8019927513357403e-05,
+          "m_c_over_vEW": 0.004651922821046769,
+          "m_t_over_vEW": 0.7429585403131046,
+          "m_d_over_vEW": 2.7947126395362196e-07,
+          "m_s_over_vEW": 0.00011158973200533747,
+          "m_b_over_vEW": 0.021782921537782596,
+          "m_e_over_vEW": 1.6299653180648628e-08,
+          "m_mu_over_vEW": 1.999463088788673e-05,
+          "m_tau_over_vEW": 0.008363320944109189
+        },
+        "ir_mass_ratios": {
+          "mt_over_mb": 34.1073872494302,
+          "mb_over_mtau": 2.6045779760641223,
+          "mc_over_mt": 0.006261349144847722,
+          "mu_over_mc": 0.003873651435451499,
+          "ms_over_mb": 0.005122808334583792,
+          "md_over_ms": 0.0025044532228131397,
+          "mmu_over_mtau": 0.0023907525517085654,
+          "me_over_mmu": 0.0008152015044460453
+        },
+        "ir_ckm": {
+          "V_us": 0.42229586336153757,
+          "V_cb": 0.000778273285994717,
+          "V_ub": 0.000348251064641891,
+          "V_tb": 0.9999996365058783,
+          "jarlskog_J_q": 1.0034778164750107e-07
+        },
+        "ir_pmns_and_neutrinos": {
+          "sin2_theta12": 0.4529867733026164,
+          "sin2_theta23": 0.6526374608763836,
+          "sin2_theta13": 0.039866736385297426,
+          "jarlskog_J_lep": 0.043057257141989894,
+          "delta_m21_sq_over_delta_m31_sq": 0.016647427449080973,
+          "mnu1_over_vEW": 7.661440778888412e-16,
+          "mnu2_over_vEW": 5.8883210478267955e-15,
+          "mnu3_over_vEW": 4.525562260618199e-14,
+          "sum_mnu_over_vEW": 5.1910087731897625e-14
+        },
+        "shooting_residual_norm": 1.1796119636642288e-13
+      },
+      "synthetic_anchor_130_0p12": {
+        "uv_macro_inputs": {
+          "alpha_GUT_inv_SU3": 42.60398709364765,
+          "ln_MKK_over_muIR": 30.358025523788605
+        },
+        "ir_gauge_ew": {
+          "alpha_em_inv": 130.00000000000003,
+          "alpha_3": 0.12000000000000002,
+          "sin2_thetaW": 0.21452364428061896,
+          "MW_over_vEW": 0.33563379009597594,
+          "MZ_over_vEW": 0.37870332559793896,
+          "mH_over_vEW": 0.6892928792013024,
+          "mH_over_MW": 2.0537052571619685,
+          "lambda_H": 0.23756233665881069
+        },
+        "ir_fermion_masses_over_vEW": {
+          "m_u_over_vEW": 1.8812586677418135e-05,
+          "m_c_over_vEW": 0.004856549235647314,
+          "m_t_over_vEW": 0.7675696839505087,
+          "m_d_over_vEW": 2.915536979498007e-07,
+          "m_s_over_vEW": 0.00011641414401138954,
+          "m_b_over_vEW": 0.022965217033820942,
+          "m_e_over_vEW": 1.5832134764225146e-08,
+          "m_mu_over_vEW": 1.9421130453024816e-05,
+          "m_tau_over_vEW": 0.008123428608926024
+        },
+        "ir_mass_ratios": {
+          "mt_over_mb": 33.423140866472394,
+          "mb_over_mtau": 2.8270350044791135,
+          "mc_over_mt": 0.006327176981054992,
+          "mu_over_mc": 0.003873653033172774,
+          "ms_over_mb": 0.005069150613292532,
+          "md_over_ms": 0.0025044525338886324,
+          "mmu_over_mtau": 0.002390755355649322,
+          "me_over_mmu": 0.0008152015044911719
+        },
+        "ir_ckm": {
+          "V_us": 0.422295716981683,
+          "V_cb": 0.0007701069225922976,
+          "V_ub": 0.0003445968358763214,
+          "V_tb": 0.9999996440941114,
+          "jarlskog_J_q": 9.825291817349278e-08
+        },
+        "ir_pmns_and_neutrinos": {
+          "sin2_theta12": 0.4529862351368364,
+          "sin2_theta23": 0.6526368230089499,
+          "sin2_theta13": 0.03986670867831611,
+          "jarlskog_J_lep": 0.04305725708146114,
+          "delta_m21_sq_over_delta_m31_sq": 0.016647427411101035,
+          "mnu1_over_vEW": 1.0266412640914881e-16,
+          "mnu2_over_vEW": 7.890413216973931e-16,
+          "mnu3_over_vEW": 6.064301865598367e-15,
+          "sum_mnu_over_vEW": 6.9560073137049086e-15
+        },
+        "shooting_residual_norm": 3.1628888083286134e-14
+      }
+    },
+    "M2_Landau2Shell": {
+      "synthetic_anchor_125_0p11": {
+        "uv_macro_inputs": {
+          "alpha_GUT_inv_SU3": 41.16711745418063,
+          "ln_MKK_over_muIR": 28.419614104768577
+        },
+        "ir_gauge_ew": {
+          "alpha_em_inv": 125.0,
+          "alpha_3": 0.1099999999999998,
+          "sin2_thetaW": 0.21928733398830288,
+          "MW_over_vEW": 0.3385424680954311,
+          "MZ_over_vEW": 0.3831488650207641,
+          "mH_over_vEW": 0.666143977617741,
+          "mH_over_MW": 1.9676821681053114,
+          "lambda_H": 0.2218738994581927
+        },
+        "ir_fermion_masses_over_vEW": {
+          "m_u_over_vEW": 0.00013030261140744223,
+          "m_c_over_vEW": 0.0008545527693811367,
+          "m_t_over_vEW": 0.7429634222656901,
+          "m_d_over_vEW": 1.5764267620261277e-06,
+          "m_s_over_vEW": 1.9289527052912606e-05,
+          "m_b_over_vEW": 0.021788284026315108,
+          "m_e_over_vEW": 1.3383733717486906e-06,
+          "m_mu_over_vEW": 8.500988645298518e-06,
+          "m_tau_over_vEW": 0.00836761099570375
+        },
+        "ir_mass_ratios": {
+          "mt_over_mb": 34.09921687124904,
+          "mb_over_mtau": 2.6038834785104186,
+          "mc_over_mt": 0.0011501949406542134,
+          "mu_over_mc": 0.1524804740868218,
+          "ms_over_mb": 0.0008853164861269207,
+          "md_over_ms": 0.08172449006664974,
+          "mmu_over_mtau": 0.001015939752656194,
+          "me_over_mmu": 0.15743737906165534
+        },
+        "ir_ckm": {
+          "V_us": 0.13102496629983457,
+          "V_cb": 5.2108237000711804e-05,
+          "V_ub": 7.665300527220253e-05,
+          "V_tb": 0.9999999957045241,
+          "jarlskog_J_q": -4.7541663218417e-10
+        },
+        "ir_pmns_and_neutrinos": {
+          "sin2_theta12": 0.9847959679929916,
+          "sin2_theta23": 0.2919349244063597,
+          "sin2_theta13": 0.5293440197550808,
+          "jarlskog_J_lep": 0.01653465201318662,
+          "delta_m21_sq_over_delta_m31_sq": 0.01664742901757905,
+          "mnu1_over_vEW": 7.669922311548629e-16,
+          "mnu2_over_vEW": 5.894839826484293e-15,
+          "mnu3_over_vEW": 4.530572159795673e-14,
+          "sum_mnu_over_vEW": 5.1967553655595884e-14
+        },
+        "shooting_residual_norm": 9.71445146547012e-14
+      },
+      "synthetic_anchor_130_0p12": {
+        "uv_macro_inputs": {
+          "alpha_GUT_inv_SU3": 42.60398639166619,
+          "ln_MKK_over_muIR": 30.358025632747943
+        },
+        "ir_gauge_ew": {
+          "alpha_em_inv": 129.99999999999997,
+          "alpha_3": 0.12000000000000029,
+          "sin2_thetaW": 0.2145236432749426,
+          "MW_over_vEW": 0.33563379088269335,
+          "MZ_over_vEW": 0.37870332624317593,
+          "mH_over_vEW": 0.6893025669058828,
+          "mH_over_MW": 2.053734116261254,
+          "lambda_H": 0.2375690143715195
+        },
+        "ir_fermion_masses_over_vEW": {
+          "m_u_over_vEW": 0.00013603442228917015,
+          "m_c_over_vEW": 0.0008921432154166485,
+          "m_t_over_vEW": 0.7675750133340203,
+          "m_d_over_vEW": 1.6445814374282635e-06,
+          "m_s_over_vEW": 2.012348389152632e-05,
+          "m_b_over_vEW": 0.022970885687584045,
+          "m_e_over_vEW": 1.2999858450046596e-06,
+          "m_mu_over_vEW": 8.257161372670756e-06,
+          "m_tau_over_vEW": 0.008127599748783432
+        },
+        "ir_mass_ratios": {
+          "mt_over_mb": 33.4151248573276,
+          "mb_over_mtau": 2.8262816080506927,
+          "mc_over_mt": 0.001162287984781522,
+          "mu_over_mc": 0.15248047615946886,
+          "ms_over_mb": 0.0008760430122380187,
+          "md_over_ms": 0.08172448897483257,
+          "mmu_over_mtau": 0.0010159409454072485,
+          "me_over_mmu": 0.15743737906192606
+        },
+        "ir_ckm": {
+          "V_us": 0.13102496446676054,
+          "V_cb": 5.1561463945949214e-05,
+          "V_ub": 7.58486834273251e-05,
+          "V_tb": 0.999999995794196,
+          "jarlskog_J_q": -4.6549185307770335e-10
+        },
+        "ir_pmns_and_neutrinos": {
+          "sin2_theta12": 0.9847959860803338,
+          "sin2_theta23": 0.2919344180300573,
+          "sin2_theta13": 0.5293434771941303,
+          "jarlskog_J_lep": 0.016534652038648026,
+          "delta_m21_sq_over_delta_m31_sq": 0.016647429024550926,
+          "mnu1_over_vEW": 1.0277786322248363e-16,
+          "mnu2_over_vEW": 7.899154863772714e-16,
+          "mnu3_over_vEW": 6.0710201053063855e-15,
+          "sum_mnu_over_vEW": 6.9637134549061404e-15
+        },
+        "shooting_residual_norm": 1.4846269296970062e-13
+      }
+    }
+  }
+}

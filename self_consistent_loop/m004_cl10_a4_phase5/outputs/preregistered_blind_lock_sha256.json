@@ -1,0 +1,27 @@
+{
+  "campaign_script_count": 20,
+  "empirical_literal_leaks": {},
+  "script_sha256_digests": {
+    "explore_apex3.py": "6e3d8278741d82f5c62044d48105b1ba0419e6222243501c6732a0823b50a0f1",
+    "explore_canonical_norm_and_sfam.py": "329398cd56a6421817131a28b224f15fc852c2b8ae58ba9b1bdae3e3ef67c108",
+    "explore_cosmogony.py": "2b47ace02c8fcf283256b30d0e90e96f841494ecf7f3b66ab55fb3ba22ce6b91",
+    "explore_gates_1_2_3.py": "544493a5e6fa95e4f86f1d2531ac1bed83980b858cdd2003bd6f3a3ce2dda39e",
+    "explore_gates_4_5.py": "e2a6840583d68b8a48cbf03f446ae8b5834ffd850fe6d7c06fadf9e64082f29c",
+    "explore_landau_2leg_ff.py": "f96b816b9aba069423c379a088ae74a4b610ffcba1defe5b7b87a992b2938f64",
+    "explore_three_pivots.py": "34e23d55c8ba8b8074decfa1c424c457574f56d511196015cba63eaf27c31a5b",
+    "explore_three_pivots_deep.py": "472698f4405f37bd606d4e4b7987f1c673f2e4b6704d47edf1b1130cc75deaeb",
+    "preregistered_blind_predictions_v1.py": "3ed66a3cba2d644381048ee0694a874b85e0026ad2fedea094936dec436c71bf",
+    "referee_stage_e.py": "bfc1e6664edf7086a086e4c8b8bc58282cbc987915858a3cb00dba753dbafcda",
+    "referee_stage_f.py": "02130d2c28a2bd6fe67970051ce0189a072f115359aa18c2a3f1f3ec2f895a8b",
+    "referee_stages_a_to_d.py": "d4ccc52a20d1c49d45cf6f44978f7e08626cbe4fba5a02056170793579b1572d",
+    "stage_a_backjump_refine.py": "1a1c6ac6988fe2ac666293cac9f53f942bd86c57c1b4ed24f8f9a0ff73c95646",
+    "stage_a_final_lock.py": "4d4f6b551254e0b8be0df0cf187996d4ae02260c256cadbc1644047902dcb747",
+    "stage_a_flavour_completion.py": "8a7586f1909642c99a63a34a54d6962922477ab3852e0c8964c83a616e78151f",
+    "stage_a_pmns_theorem.py": "5359c6d9d9a9bdc997e9dccdd3e429d40205a2aec075fe2daf94e93453d80057",
+    "stage_b_hosotani_and_collar.py": "ea9813c3897834a50b7233957fb1361ca6b6609f2ab800e7c1c44381efe191f5",
+    "stage_c_gravity_and_radion.py": "423a939ebd2c12bb35fbfa128b3eb30047e033ad6d461a214268df68766fec55",
+    "stage_e_rge_and_scale_closure.py": "ef19bf02ada43388bb749f1d82a9ed72a1a1b94388d4edfcbf2466ef3e09a96a",
+    "stage_f_threshold_warp_and_19obs.py": "e6d388eff816cbacb4c20e17fe8cce21ad4495beea78ec8209f804d8513d441e"
+  },
+  "preregistered_manifest_sha256": "ece3d98345a3f4982757dad6cea6837af95923ff088086f64cbc374674f2edbd"
+}
