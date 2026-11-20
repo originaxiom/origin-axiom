@@ -45,3 +45,7 @@ GLOBAL_GAUGE_RESPONSE_OF_THE_EXTENDING_DOUBLET.md varies the longitudinal Gauss 
 ### All cyclic covers for the cubic ten's interior cohomology
 
 INTERIOR_RETURN_POLYNOMIAL_OF_THE_CUBIC_TEN.md derives the three-dimensional interior return polynomial z³−2s²z²−2z+s². Reduction modulo two gives irreducibility, and the normalized discriminant 29 forces a nonunit root. No root is a root of unity. Every cyclic cover therefore has zero interior H¹ in the ten and zero complete-domain flat Hodge one-form kernel there, despite the visible periods on the third cover. A commuting hypercharge meridian can tune at most one charge type. This uses the specific cubic-root flat history; the exterior square is separate. Hand proof, independent review pending.
+
+### Normalizable doublet on the original exterior, checked against its covers
+
+NORMALIZABLE_INTERIOR_DOUBLET_AND_COLORED_COVER_MODES.md splits the B exterior square into two five-dimensional monomial systems. The first interior polynomial factors as (z+1)(z²+1)(z²+z+1); the second has no unit-circle roots. With the actual gauge parity this gives one L² weak doublet and no colored partner on the original exterior. The third cover has two interior color copies and one weak copy; its continuum trace lies in the other coefficient system. The real gauge variation gives a complex scalar doublet at linear order. Check the two traces and Hodge/compact-support duality. Neither an interacting Higgs nor SM3 follows.

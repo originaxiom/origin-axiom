@@ -1,9 +1,11 @@
 seat: physical
 read: M22
 state: working
-on: C8 charge-dependent boundary response on the cubic history and its native covers
+on: C8 normalizable bulk weak doublet and its nonlinear flatness test
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on the physical source or interior field joining the extending charged trace
+next push: on the actual nonlinear equation for the interior doublet
+
+NORMALIZABLE_INTERIOR_DOUBLET_AND_COLORED_COVER_MODES.md computes one normalizable weak scalar doublet and no matching color triplet on the original exterior in the quadratic flat gauge model. On the third cover two interior color copies appear and the weak multiplicity stays one. The interior doublet and the previously computed continuum occupy different coefficient spaces.
 
 INTERIOR_RETURN_POLYNOMIAL_OF_THE_CUBIC_TEN.md excludes invisible degree-one modes of the flat ten on every cyclic cover of the cubic background. The test uses the full cohomological return.
 
