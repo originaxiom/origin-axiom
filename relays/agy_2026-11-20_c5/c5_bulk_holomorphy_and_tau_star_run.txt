@@ -1,0 +1,31 @@
+=== SECTION 1: 32x32 SPIN(10) CLIFFORD DERIVATION OF X:HOL & DOUBLET-TRIPLET SPLIT (E1) ===
+  Spin(10) C32 invariance (45 gens): max residual = 0.0e+00
+  Cubic Yukawa selection norms: (10x10|H5,H5b)=(24.49, 0.0), (10x5b|H5,H5b)=(0.0, 20.00), (5bx1|H5,H5b)=(10.00, 0.0)
+  B1936 §2 refutation: ||[c0^+ c1^+, 2*c1] - 2*c0^+|| = 0.0e+00 (complex-linear k=4 -> k=1 in so(10)!)
+  Gauge breaking: dim so(10)^+ = 21 (Pati-Salam), dim u(5)^+ = 13, dim su(5)^+ = 12 (G_SM)
+  Holomorphic (1,0)-form P_hat*dz=+dz on 10_SO(10): (n_H, n_T) = (2, 0), slope = 9/5 (== ker B_inc of 8^3_4)
+  [CAUGHT Planted Control 1a] Scalar +dz parity gives (n_H, n_T) = (0, 2), slope = 56/25 != 9/5.
+  Kawamura bulk-16 split under P_hat: (+1, -1) = (8, 8) [Q_L(6)+L_L(2)=8 vs singlets 3+3+1+1=8] -> 16 must localize on cusp.
+  [PASS] Section 1 X:HOL Spin(10) derivation, doublet-triplet split, and bulk-16 boundary theorem verified.
+
+=== SECTION 2: HOLOMORPHIC (S, S) VS (S_tilde, S) AT m * tau_* FOR m IN {1, 5, 8, 40} (E2) ===
+  Halphen-Serre S(tau) vs B1940 te.ev residual at y=1.6 = 1.6542e-61
+  m= 1 (tau=0.4+0.2i, L=2.7193): up(m1/m2,m2/m3)=(0.1272,0.534), dn=(0.1045,0.524), min|V_kk|(S,S)=0.92228 vs (St,S)=0.92228
+  m= 5 (tau=2.0+1.0i, L=2.7193): up(m1/m2,m2/m3)=(0.1467,0.6697), dn=(0.1482,0.6239), min|V_kk|(S,S)=0.93058 vs (St,S)=0.93058
+  m= 8 (tau=3.2+1.6i, L=2.5171): up(m1/m2,m2/m3)=(0.08346,0.166), dn=(0.168,0.2897), min|V_kk|(S,S)=0.77893 vs (St,S)=0.46235
+  m=40 (tau=16.0+8.0i, L=2.2505): up(m1/m2,m2/m3)=(1.337e-9,0.002042), dn=(1.109e-6,7.61e-5), min|V_kk|(S,S)=0.99804 vs (St,S)=2.4486e-10
+  m=40 all 20 (a != 0) order-5 points: min|V_kk|(S,S) = 0.998032 (> 99/100) vs [CAUGHT Planted Control 1b] max min|V_kk|(St,S) = 3.3781e-5
+  [PASS] Section 2 shallow real-Higgs floor (m=1,5) vs unwrapped level-40 cusp hierarchy & CKM alignment verified.
+
+=== SECTION 3: QUATERNIONIC P_CP PARITY, GOLDEN-RATIO PHASE AT tau_*, & HAAR SCRAMBLING (E3, Guardrail 3) ===
+  Exact P_CP = diag(1,1,-1) law ||u(-conj(tau)) - P_CP conj(u(tau))|| = 8.299e-56
+  50-digit golden-ratio modular phase max |Im/Re - phi| at tau_*^+ on (1/5,0) = 3.2627e-55 [algebraic |(1+i*phi)^2 - 5*i*phi*tau_*^+| = 2.039e-56]
+  [Disclosed E3 refinement] Generic h in R^3 with h_2 != 0 breaks P_CP at tau=i: Im det[Hu,Hd](i) = 87.757453 != 0.
+  P_CP-real h in R^2x{0}: |Im det[Hu,Hd]| at i = 0.0, at 8i = 0.0, at +tau_* (golden cancellation) = 1.177e-56
+  8*tau_*^{+-} = (+-16+8i)/5: Im det[Hu,Hd](+) = 136.0791321, (-) = -136.0791321, |sum| = 7.569e-53; J_CP(+) = 0.0031171524, |J(+)+J(-)| = 2.111e-57
+  8*tau_*^{+-} singular-value & |V_CKM| symmetry residuals = (1.631e-55, 1.02e-55)
+  Guardrail 3 (20 Haar scramblings U_L, U_Ru, U_Rd): max physical variation = 1.149e-14 (< 1e-12)
+  [CAUGHT Planted Control 2] Illegal right-handed Im det[Y_u^H Y_u, Y_d^H Y_d] varies by 3.7271e+03 (>> 1).
+  [PASS] Section 3 P_CP parity law, golden-ratio phase, Fricke CP negation, and Guardrail 3 scrambling verified.
+
+ALL AGY-C5 CHECKS PASSED in 21.14s (0 of 19).
