@@ -276,6 +276,23 @@ def spinor_invariants(Mw_u: np.ndarray, Mw_d: np.ndarray):
     return eta_tilde_u, eta_tilde_d, gamma, Uu[:, 0], Ud[:, 0]
 
 
+def th1_and_prime_mp(z: mp.mpc, t: mp.mpc) -> tuple[mp.mpc, mp.mpc]:
+    """Exact series for theta_1(z|tau) and d/dz theta_1(z|tau), centered at the Gaussian peak."""
+    y = float(mp.im(t))
+    K = int(math.sqrt(mp.mp.dps * 2.31 / (math.pi * y)) + 8)
+    I_m = mp.mpc(0, 1)
+    n0 = int(round(-float(mp.im(z)) / y))
+    val = mp.mpc(0)
+    der = mp.mpc(0)
+    half = mp.mpf("0.5")
+    for dk in range(-K, K + 1):
+        m = mp.mpf(n0 + dk) + half
+        term = mp.exp(I_m * mp.pi * t * (m * m) + 2 * I_m * mp.pi * m * (z + half))
+        val -= term
+        der -= (2 * I_m * mp.pi * m) * term
+    return val, der
+
+
 def precompute_tau_context(tx: str, ty: float, dps: int | None = None):
     mp.mp.dps = dps or int(30 + 2 * ty)
     I_m, QI, QJ, QK, EPS, U, ED, BLOCKS = FM.setup()
@@ -285,7 +302,6 @@ def precompute_tau_context(tx: str, ty: float, dps: int | None = None):
     L = mp.mpf(FM.CR.canon(complex(xr, float(ty)))["L_2"])
     eta = mp.exp(I_m * mp.pi * t / 12) * mp.qp(mp.exp(2 * I_m * mp.pi * t))
     t1p = 2 * mp.pi * eta**3
-    th1 = lambda z: FM.B.th_mp(1, z, t)
     c3 = [FM.te.ev(cc, t) for cc in FM.te.B[1]]
     S = c3[0] * QI + c3[1] * QJ + c3[2] * QK
     conj_m = lambda A: mp.matrix([[mp.conj(A[i, j]) for j in range(A.cols)] for i in range(A.rows)])
@@ -300,7 +316,6 @@ def precompute_tau_context(tx: str, ty: float, dps: int | None = None):
         "y": y,
         "L": L,
         "t1p": t1p,
-        "th1": th1,
         "RD": RD,
     }
 
@@ -312,7 +327,6 @@ def eval_point_matrices(ctx: dict, a: Fr, b: Fr, ql: int, qr: int):
     y = ctx["y"]
     L = ctx["L"]
     t1p = ctx["t1p"]
-    th1 = ctx["th1"]
     ED = ctx["ED"]
     H = FM.H
     f2m = FM.f2m
@@ -342,7 +356,8 @@ def eval_point_matrices(ctx: dict, a: Fr, b: Fr, ql: int, qr: int):
         R_dict[s] = R_val
         al, be = cs[s][0] - H, cs[s][1] - H
         z = f2m(al) * t + f2m(be)
-        a0 = 2 * I_m * mp.pi * f2m(al) + mp.diff(th1, z) / th1(z)
+        th1_v, th1_d = th1_and_prime_mp(z, t)
+        a0 = 2 * I_m * mp.pi * f2m(al) + th1_d / th1_v
         c_val = FM.F_u(al, be, t, y) + mp.pi * mp.log(y) - 2 * mp.pi * (mp.euler + mp.log(mp.pi))
         c_val = c_val - mp.pi * abs(a0) ** 2 * mp.exp(-2 * L)
         arg = 2 * mp.pi * L + c_val
@@ -497,8 +512,9 @@ def run_p879_grid_and_parity_census() -> dict:
 
     # Planted negative control 2: mismatch q_L^(up) = 2 vs q_L^(down) = 1 at (a, b) = (1/5, 2/5), y = 10
     ctx10 = precompute_tau_context("0.13", 10.0)
-    _, Mwu_plant = eval_point_matrices(ctx10, Fr(1, 5), Fr(2, 5), 2, qr_u)
-    _, Mwd_plant = eval_point_matrices(ctx10, Fr(1, 5), Fr(2, 5), 1, qr_d)
+    Ru_plant, Mwu_plant = eval_point_matrices(ctx10, Fr(1, 5), Fr(2, 5), 2, qr_u)
+    Rd_plant, Mwd_plant = eval_point_matrices(ctx10, Fr(1, 5), Fr(2, 5), 1, qr_d)
+    _, _, gam_res_plant, _, _ = spinor_invariants(mp2np(Ru_plant), mp2np(Rd_plant))
     _, _, gam_plant, au_p, ad_p = spinor_invariants(mp2np(Mwu_plant), mp2np(Mwd_plant))
 
     elapsed = time.time() - t0
@@ -509,7 +525,10 @@ def run_p879_grid_and_parity_census() -> dict:
     print(f"    y=10 quarter-threshold checks (a != 0)        = {parity_checks_y10}/248 passed, min_gamma = {parity_min_gamma_y10:.8f}")
     print(f"    y=20 asymptotic quarter-threshold (62 pts)    = 62/62 passed, min_gamma = {min_gamma_y20:.8f}")
     print(f"    2,016-point tuned-cone hits                   = {tuned_cone_hits}")
-    print(f"    Planted q_L^(up)=2 mismatch at (1/5,2/5) y=10 : gamma = {gam_plant:.6e} (|au[1]|={abs(au_p[1]):.5f}, |ad[0]|={abs(ad_p[0]):.5f})")
+    print(
+        f"    Planted q_L^(up)=2 mismatch at (1/5,2/5) y=10 : gamma_res = {gam_res_plant:.3e}, "
+        f"gamma_Mw = {gam_plant:.6e} < gamma_crit = {gamma_crit:.6f} (|au[1]|={abs(au_p[1]):.5f}, |ad[0]|={abs(ad_p[0]):.5f})"
+    )
 
     assert worst_dl_diff < mp.mpf("1e-30")
     assert worst_res_det < mp.mpf("1e-28")
@@ -518,7 +537,7 @@ def run_p879_grid_and_parity_census() -> dict:
     assert parity_min_gamma_y10 > 0.95
     assert min_gamma_y20 > 0.999
     assert tuned_cone_hits == 0
-    assert gam_plant < 1e-2
+    assert gam_res_plant < 1e-12 and gam_plant < 0.15
     print("  [PASS] P-879 Jacobi residue rank-1 identity, 2,016-point spinor exclusion, and planted q_L control verified.")
     return {
         "b1967": ((uu67, wu67), (ud67, wd67)),
