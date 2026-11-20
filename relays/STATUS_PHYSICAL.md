@@ -1,11 +1,11 @@
 seat: physical
 read: M21
 state: working
-on: C8 geometric and sheet holonomies in the parent E8 adjoint
+on: C8 full E8 flat returns and the connected Standard Model gauge phase
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
 next push: on a substantive coupled-field consequence or correction
 
-The November 20 relay is PHYSICAL_TO_MAIN_AND_AGY002_2026-11-20_GEOMETRIC_E8_HOLONOMY.md. The geometric single-return quotient embeds in the actual gauge group. Its flat fibre leaves only a spectator su(2); including the binary sheet holonomy removes this continuous symmetry after return. A sheet instrument kept separately has a different physical status.
+The November 20 relay is PHYSICAL_TO_MAIN_AND_AGY002_2026-11-20_GEOMETRIC_E8_HOLONOMY.md. The geometric single-return quotient embeds in the actual gauge group. Its flat fibre leaves only a spectator su(2); including the binary sheet holonomy removes this continuous symmetry after return. A separate explicit PGL(2,5) one-return history instead preserves exactly the connected Standard Model group in E8, with charge pairing still present. The November 20 relay gives the construction and scope.
 
 The core-determined harmonic prescription gives index zero on the product. Its twelve geometric boundary coefficients split into four arithmetic three-planes, while the full flat sectors contribute in pairs. See the latest addendum in the relay below.
 
