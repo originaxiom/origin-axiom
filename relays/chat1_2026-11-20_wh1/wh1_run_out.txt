@@ -1,0 +1,17 @@
+mark x = 13/100 y = 3/2  channels 11  H0 4.7e-41  H1 7.5e-40  H2(S) 1.1e-40  H2(S~) 1.51e+00 to 7.09e+00  H3 6.1e-01  H4 up 3.11e-02 down 5.54e-02 lep 5.54e-02
+mark x = 13/100 y = 3    channels 11  H0 2.5e-42  H1 9.5e-40  H2(S) 4.7e-40  H2(S~) 1.19e+00 to 5.22e+00  H3 9.6e-01  H4 up 1.67e-03 down 9.26e-03 lep 9.26e-03
+mark x = 13/100 y = 6    channels 11  H0 3.3e-41  H1 1.1e-38  H2(S) 1.8e-39  H2(S~) 1.19e+00 to 5.10e+00  H3 1.0e+00  H4 up 5.93e-06 down 2.20e-04 lep 2.20e-04
+mark x = 31/100 y = 3/2  channels 11  H0 4.8e-41  H1 2.8e-39  H2(S) 3.4e-40  H2(S~) 1.45e+00 to 1.05e+01  H3 6.6e-01  H4 up 2.83e-02 down 5.84e-02 lep 5.84e-02
+mark x = 31/100 y = 3    channels 11  H0 6.9e-42  H1 3.7e-39  H2(S) 6.4e-40  H2(S~) 1.19e+00 to 4.96e+00  H3 9.6e-01  H4 up 1.65e-03 down 9.27e-03 lep 9.27e-03
+mark x = 31/100 y = 6    channels 11  H0 2.4e-41  H1 1.3e-38  H2(S) 2.2e-39  H2(S~) 1.19e+00 to 5.04e+00  H3 1.0e+00  H4 up 5.93e-06 down 2.20e-04 lep 2.20e-04
+twin x = 13/100 y = 3/2  channels 11  H0 4.7e-41  H1 2.8e-40  H2(S) 9.1e-41  H2(S~) 1.64e+00 to 1.44e+01  H3 6.1e-01  H4 up 8.95e-02 down 6.42e-02 lep 6.42e-02
+twin x = 13/100 y = 3    channels 11  H0 2.5e-42  H1 8.2e-40  H2(S) 6.5e-41  H2(S~) 1.59e+00 to 2.44e+01  H3 9.6e-01  H4 up 3.68e-02 down 2.00e-02 lep 2.00e-02
+twin x = 13/100 y = 6    channels 11  H0 3.3e-41  H1 1.5e-38  H2(S) 5.9e-40  H2(S~) 1.66e+00 to 2.50e+01  H3 1.0e+00  H4 up 6.17e-03 down 1.35e-03 lep 1.35e-03
+twin x = 31/100 y = 3/2  channels 11  H0 4.8e-41  H1 1.3e-39  H2(S) 1.1e-40  H2(S~) 1.50e+00 to 1.33e+01  H3 6.6e-01  H4 up 9.95e-02 down 6.55e-02 lep 6.55e-02
+twin x = 31/100 y = 3    channels 11  H0 6.9e-42  H1 2.2e-39  H2(S) 1.8e-40  H2(S~) 1.58e+00 to 2.42e+01  H3 9.6e-01  H4 up 3.68e-02 down 2.00e-02 lep 2.00e-02
+twin x = 31/100 y = 6    channels 11  H0 2.4e-41  H1 1.3e-38  H2(S) 5.6e-40  H2(S~) 1.66e+00 to 2.50e+01  H3 1.0e+00  H4 up 6.17e-03 down 1.35e-03 lep 1.35e-03
+H0 holds: True
+H1 holds: True
+H2 holds: True
+H3 holds: False
+H4 holds: False
