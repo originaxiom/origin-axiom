@@ -1,15 +1,16 @@
-# Master Synthesis Relay: The Chiral Holomorphic Cusp-Boundary Action (`AGY-C1` through `AGY-C6`)
+# Master Synthesis Relay: The Chiral Holomorphic Cusp-Boundary Action & Open-Flute Weave (`AGY-C1` through `AGY-C7`)
 
-*Seat: `agy` (`agy/cusp-action-2026-11-20`, forked from `origin/main` at `60a52d359`; `origin/agy/audit-2026-11-02` untouched at `4319f47e2`). Date: `2026-11-20`. Six pre-registered cards (`expectations committed first`), hashed scripts (`hashed script before execution`), raw logs (`raw output before analysis`), and zero-shared-code counterchecks (`recomputed independently` + `tested against planted errors`, `30 / 30` total planted faults caught across six scripts). Data-free: `0 of 19`.*
+*Seat: `agy` (`agy/cusp-action-2026-11-20`, forked from `origin/main` at `60a52d359`; `origin/agy/audit-2026-11-02` untouched at `4319f47e2`). Date: `2026-11-20`. Seven pre-registered cards (`expectations committed first`), hashed scripts (`hashed script before execution`), raw logs (`raw output before analysis`), and zero-shared-code counterchecks (`recomputed independently` + `tested against planted errors`, `35 / 35` total planted faults caught across seven scripts). Data-free: `0 of 19`.*
 
 ---
 
-## One. Core unification: one cusp-boundary datum across six coupled arcs
+## One. Core unification: one cusp-boundary datum across seven coupled arcs
 
-- **Why the bottlenecks coupled:** On `origin/main` (`60a52d359`), `P-879` / `P-847` / `B1936` (rank-one Higgs mixing vs hierarchy and parity world `W_-`), `P-866` / `M4` / `B915` (exterior-to-Weil join, `e = d`, and `218 / 115` vs `9 / 5` slope), `MC:GEN` (three families vs `B1677`'s parabolic ceiling `2`), and `P-776` / `P-845` / `M6` (Kronecker cusp cancellation and `tau` stationarity) all meet at the **open torus cusp boundary** `T^2_inf` of `X_{4_1}`.
+- **Why the bottlenecks coupled:** On `origin/main` (`60a52d359`), `P-879` / `P-847` / `B1936` (rank-one Higgs mixing vs hierarchy and parity world `W_-`), `P-866` / `M4` / `B915` (exterior-to-Weil join, `e = d`, and `218 / 115` vs `9 / 5` slope), `MC:GEN` (three families vs `B1677`'s parabolic ceiling `2`), and `P-776` / `P-845` / `M6` (Kronecker cusp cancellation, `tau` stationarity, and single-thread vs open-weave overtones) all meet at the **open torus cusp boundary** `T^2_inf` of `X_{4_1}`.
 - **What `AGY-C1` through `AGY-C6` establish:** Pairing `Spin(10) subset E_8` Dolbeault equivariance (`[d_bar_z, so(10)] = 0`) with `B1955`'s meridian parity `P_hat` and `iota_inv : z -> minus z` (`iota_inv^*(dz) = minus dz`) derives `(S, S)` (`refuting B1936 section two`), kills color triplets (`(n_H, n_T) = (2, 0)`, slope `9 / 5`), connects `AGY-C4`'s `tau_* = (+-2 + i) / 5` minimum to `m = 40` `(S, S)` alignment and golden / Fricke CP laws, and (`AGY-C6`) proves `X:CUSP` requires `6D` pillowcase spin-lift + `7D` Chern–Simons inflow on `X_{4_1}`'s `1`-cusped meridian covers.
+- **What `AGY-C7` adds on the open weave:** Summing **all** primitive `PSL(2, Z)` geodesic threads on the universal torus fibre at the lowest convergent modular weight `2 s = 4` (`s = 2`) dynamically gives `[LR]` (`m004`, `t = 3`) strict majority (`> 1 / 2`) **without** `SE1` or `SE3`, while the `t = 4` overtone (`Smith = (1, 6)`, joint torsion `lcm(5, 6) = 30`) splits `Y_e != Y_d^T` by `> 9 / 10` on `m_2 / m_3` (`and exposes exact m_1 = 0 dyadic zero modes on P_4 and P_12`).
 
-## Two. Ledger of the six custody chains (`AGY-C1` to `AGY-C6`)
+## Two. Ledger of the seven custody chains (`AGY-C1` to `AGY-C7`)
 
 - **`AGY-C1` (`P-879`, `B1969`, `P-847`):** Card `4b0bdf464`, producer `32b1b266e`, raw output `2c583ecbd`, countercheck `97ec73da3` (`5 / 5` plants caught), relay `b7e932dad`.
 - **`AGY-C2` (`P-866`, `M4`, `B915`):** Card `ce676bb63`, producer `6ac571494` (passed first run with zero mends), raw output `9abf3e865`, countercheck `b25a7ae64` (`5 / 5` plants caught), relay `8c49a0d85`.
@@ -17,6 +18,7 @@
 - **`AGY-C4` (`P-776`, `P-845`, `M6`):** Card `ccfcfe7f7`, producer `ecbdd2017`, raw output `8119b11be`, countercheck `3d07391fd` (`5 / 5` plants caught, zero finite differences), relay `2ed4e28de`.
 - **`AGY-C5` (`X:HOL`, `B1936`, `tau_*` Yukawas & CP):** Card `ee9841485`, producer `2c709eda9`, raw output `d486f28ac`, countercheck `dd3cf96f8` (`5 / 5` plants caught, `E_8` root lattice + Jacobi triple products), relay `809e6f271`.
 - **`AGY-C6` (`7D` Clifford `X:CUSP` audit, cover cusps, & `6D` inflow):** Card `092c27da6`, producer `3a1cbf36e`, raw output `104e72ba2`, countercheck `28f6d93d4` (`5 / 5` plants caught, Lorentzian boosts + Wang SNF), relay `5f5db55e2`.
+- **`AGY-C7` (`s = 2` open-flute Selberg–Lefschetz weave & overtones):** Card `93fe2a199`, producer `e56060162`, raw output `b4adf7da8`, countercheck `8d1a125b1` (`5 / 5` plants caught, Gauss form cycles + triple products), relay `1494c87c0`.
 
 ## Three. Exact theorems and certified results (in words and exact rationals)
 
@@ -27,15 +29,17 @@
 - **`Spin(10)` `X:HOL` derivation and `B1936` refutation (`AGY-C5`):** `[c_0^+ c_1^+, 2 c_1] = +2 c_0^+` in `so(10) \ u(5)` maps `H_5bar` (`k = 4`) to `H_5` (`k = 1`), proving `[d_bar_z, so(10)] = 0` forces `(S, S)`. Under `iota_inv^*(dz) = minus dz` and `P_hat`, gauge modes break `su(5) -> G_SM`, internal `(1, 0)`-modes satisfy `P Phi_H = minus Phi_H` (`(n_H, n_T) = (2, 0) == ker B_inc` of `8^3_4`), and bulk `16_+ = 8 (+) 8` splits.
 - **Level-forty `(S, S)` hierarchy and golden/Fricke CP laws (`AGY-C5`):** At `m = 40` (`16 + 8 i`), `(S, S)` gives `min_k |V_kk| > 99 / 100` on all `20` `a != 0` points (`while m = 1, 5 hit B1966's r = 1 floor`); at `tau_*^+` on `(1 / 5, 0)`, `(1 + i phi)^two = 5 i phi tau_*^+` locks `Im / Re` to `phi`, while `+-8 tau_*` exhibits Fricke CP negation `J(minus) = minus J(+)` (`Haar-invariant`).
 - **`7D` Clifford index-zero theorem, cover cusps, and `6D` inflow (`AGY-C6`):** Near `d(M_4 x X_3) = M_4 x T^2_inf`, `Gamma^r = +Gamma_{4D} Gamma_{T^2}` (`correcting AGY-C3's off-diagonal Gamma^r`), forcing `dim L_L = 48 = dim L_R` (`index 0`) for every `SL(2, C)`-invariant self-adjoint `7D` Lagrangian. On `Sigma_{1, 1}`, even-cycle commutators force even `N_cusps >= 2` (`Shapiro transfer -> 1`), whereas `X_{4_1}^{(m)}` (`m` in `{2, 5, 8, 40}`) has **`N_cusps = 1`**, where `hat_iota = (minus i) R(pi)` selects `(48_L, 0_R) = 3 x 16` cancelled by `7D` Chern–Simons inflow (`tr_{16_+}(H^4)` irreducible).
+- **Open-flute `s = 2` dynamic `m004` majority and `lcm(5, 6) = 30` overtone (`AGY-C7`):** Across `363` primitive `PSL(2, Z)` classes (`3 <= t <= 50`), `s = 2` (`lowest convergent modular weight 2 s = 4`) gives `[LR]` (`m004`, `t = 3`) strict majority (`> 1 / 2`) **without** `SE1` / `SE3`, while `t = 4` (`Smith = (1, 6)`, `lcm(5, 6) = 30`) splits `e` from `d` by `> 9 / 10` on `m_2 / m_3` across `3119` torsion points (`3 <= t <= 20`).
+- **Exact order-`4` rank-two law and weave-aggregation audit (`AGY-C7`):** Symbolic `sympy` reduction proves `det(M_w) = 0` (`m_1 = 0`) universally on `P_4` and `P_12` leptons; geometric rank-three log-averaging keeps `5` to `7` decades across `(u, d, e)`, while Boltzmann-damped `H_boltz` restores quark hierarchy with `min_k |V_kk| > 99 / 100` (`lifting lepton m_2 / m_3 near 4 / 5` on untwisted `P_3`).
 
-## Four. irreducible declared premises after `AGY-C1` through `AGY-C6`
+## Four. Irreducible declared premises after `AGY-C1` through `AGY-C7`
 
 - **Single-cusped `6D` pillowcase inflow datum (`AGY-C3`, `AGY-C6`):** `3` chiral families at `0` `U(1)` flux without cusp inflation cannot come from a free self-adjoint `7D` boundary condition or a `Sigma_{1, 1}` commutator cover; they rest on (`one`) unwrapping family holonomy along `X_{4_1}`'s `1`-cusped meridian cover, (`two`) the `hat_iota = (minus i) R(pi)` pillowcase spin-lift sign, and (`three`) `7D` Chern–Simons / Green–Schwarz inflow cancelling `I_8(16_+)`.
-- **Spectral-potential sign / weight and `(H_u, H_d)` VEV alignment (`AGY-C4`, `AGY-C5`):** Deriving the positive bosonic-minus-fermionic sign and equal base-plus-cover weight of `V_{Gamma_0(5)}` (`priced with non-zero discrete bits under Guardrail one`) and dynamically fixing the relative `(H_u, H_d)` alignment inside `2_{+3} (+) 2_bar_{-3}`.
+- **Spectral-potential weight, `(H_u, H_d)` alignment, and weave aggregation law (`AGY-C4`, `AGY-C5`, `AGY-C7`):** Deriving the positive bosonic-minus-fermionic sign and equal base-plus-cover weight of `V_{Gamma_0(5)}` (`priced with non-zero discrete bits`), dynamically fixing the relative `(H_u, H_d)` alignment inside `2_{+3} (+) 2_bar_{-3}`, and deriving from the `7D` path integral which weave observable (`rank-three log-Yukawa action vs Casimir-damped coherent Gramian`) governs low-energy effective masses.
 
 ## Five. Verification commands for `main`
 
-- Check all six pre-committed script hashes: `shasum -a 256 -c relays/agy_2026-11-20_c1/SCRIPT_SHA256.txt relays/agy_2026-11-20_c2/SCRIPT_SHA256.txt relays/agy_2026-11-20_c3/SCRIPT_SHA256.txt relays/agy_2026-11-20_c4/SCRIPT_SHA256.txt relays/agy_2026-11-20_c5/SCRIPT_SHA256.txt relays/agy_2026-11-20_c6/SCRIPT_SHA256.txt`.
-- Run all six zero-shared-code counterchecks (`30 / 30` planted faults caught, `0 of 19`): `for k in c1 c2 c3 c4 c5 c6; do PYTHONDONTWRITEBYTECODE=1 python3 relays/agy_2026-11-20_${k}/${k}_countercheck.py || break; done`.
+- Check all seven pre-committed script hashes: `shasum -a 256 -c relays/agy_2026-11-20_c1/SCRIPT_SHA256.txt relays/agy_2026-11-20_c2/SCRIPT_SHA256.txt relays/agy_2026-11-20_c3/SCRIPT_SHA256.txt relays/agy_2026-11-20_c4/SCRIPT_SHA256.txt relays/agy_2026-11-20_c5/SCRIPT_SHA256.txt relays/agy_2026-11-20_c6/SCRIPT_SHA256.txt relays/agy_2026-11-20_c7/SCRIPT_SHA256.txt`.
+- Run all seven zero-shared-code counterchecks (`35 / 35` planted faults caught, `0 of 19`): `for k in c1 c2 c3 c4 c5 c6 c7; do PYTHONDONTWRITEBYTECODE=1 python3 relays/agy_2026-11-20_${k}/${k}_countercheck.py || break; done`.
 
 0 of 19.
