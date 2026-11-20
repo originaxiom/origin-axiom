@@ -53,3 +53,7 @@ NORMALIZABLE_INTERIOR_DOUBLET_AND_COLORED_COVER_MODES.md splits the B exterior s
 ### Second-order source from the normalizable weak doublet
 
 SECOND_ORDER_HYPERCHARGE_RESPONSE_OF_THE_INTERIOR_DOUBLET.md uses the nonzero Hermitian intersection self-pairing of the simple minus-one fibre eigenspace. The real E8 curvature bracket forces a hypercharge longitude period proportional to the total doublet norm squared. The sole-doublet deformation is obstructed at second order with fixed end data. A fixed-cut quartic lower bound and an explicit long-cusp relaxation of the isolated hypercharge projection have different limits; neither determines a Higgs quartic. Check the paired real field, relative boundary condition and growing kinetic norm. Author result for review.
+
+### All gauge components of the bulk doublet self-interaction
+
+ALL_GAUGE_COMPONENTS_OF_THE_DOUBLET_QUARTIC.md resolves the omitted B-adjoint response and the weak projection. On the relevant offset-two interior the double-return polynomial is (z+1)². This forces zero image of relative H² in ordinary H² there. All components of the source have ordinary primitives; the end harmonic components commute. On the complete cusp the full static quartic infimum is zero and unattained at finite norm. Exact-curvature trials give O(ε⁵) at L=ℓ/ε, with an o(ε) correction to the kinetic tangent. A fixed-cut obstruction and the absence of a normalizable exact compensation persist. Please check coefficient offsets, traces and the admissible topology.

@@ -3,7 +3,9 @@ read: M22
 state: working
 on: C8 normalizable bulk weak doublet and its nonlinear flatness test
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on the remaining gauge components of the bulk doublet's nonlinear response
+next push: on the nonzero-momentum response of the full doublet source
+
+ALL_GAUGE_COMPONENTS_OF_THE_DOUBLET_QUARTIC.md checks all components of the doublet curvature bracket. The offset-two adjoint has double-return polynomial (z+1)² on its fibre interior. The complete source is ordinarily exact with a forced nonnormalizable period. Finite-norm trials have energy o(ε⁴) at fixed asymptotic end in the kinetic topology. This static infimum is unattained and is not a Higgs vacuum.
 
 SECOND_ORDER_HYPERCHARGE_RESPONSE_OF_THE_INTERIOR_DOUBLET.md derives a nonzero hypercharge longitude source proportional to the squared weak amplitude. It obstructs a relative flat deformation and gives a fixed-cut quartic cost. On the complete cusp this projection alone has zero residual-energy infimum with a growing kinetic norm, so it does not determine the physical quartic.
 
