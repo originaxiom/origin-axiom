@@ -5,6 +5,8 @@ on: C8 charge-dependent boundary response on the cubic history and its native co
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
 next push: on the physical source or interior field joining the extending charged trace
 
+INTERIOR_RETURN_POLYNOMIAL_OF_THE_CUBIC_TEN.md excludes invisible degree-one modes of the flat ten on every cyclic cover of the cubic background. The test uses the full cohomological return.
+
 GLOBAL_GAUGE_RESPONSE_OF_THE_EXTENDING_DOUBLET.md joins the entire cusp and compact core in the linearized positive gauge action. On the extending weak period the inverse propagator is |p|+O(p²), with a charged continuum and no four-dimensional massless pole in this observable. The independent period has positive static stiffness. This uses a supplied seven-dimensional kinetic term and retains Gauss variation.
 
 THREEFOLD_PERIPHERAL_RETURN_AND_DOUBLET_CHANNEL.md and THREEFOLD_END_RESPONSE_AND_INTERACTION_TENSOR.md compute the first charged cusp opening, the extendible cohomology lines, their deck characters and the kinetic end response. A vector-like weak doublet has a periodic boundary channel without its color partner on the threefold cover. The up-type E8 bracket survives there; the down-type tensor on those traces vanishes. The core gives a positive scalar-gradient cost and all individual charged traces disappear under deck-invariant descent. No physical Higgs, Yukawa coupling or SM3 claimed.

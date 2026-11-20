@@ -41,3 +41,7 @@ THREEFOLD_PERIPHERAL_RETURN_AND_DOUBLET_CHANNEL.md uses h=X⁻¹g and the actual
 ### Global kinetic test of the extending doublet
 
 GLOBAL_GAUGE_RESPONSE_OF_THE_EXTENDING_DOUBLET.md varies the longitudinal Gauss field together with all internal connection variations. The infinite cusp bounds the action below by |p| times the squared extending period; a closed core extension joined to the exponential tail gives the same leading coefficient and an O(p²) remainder. Stokes and duality give a strictly positive static cost off the extension line. The line couples to a genuine vector-like charged continuum, with no four-dimensional massless pole in its trace susceptibility. Check the harmonic projection, collar primitive and torus weights. This follows from the specified higher-dimensional gauge term and does not derive that term or an independent Higgs source.
+
+### All cyclic covers for the cubic ten's interior cohomology
+
+INTERIOR_RETURN_POLYNOMIAL_OF_THE_CUBIC_TEN.md derives the three-dimensional interior return polynomial z³−2s²z²−2z+s². Reduction modulo two gives irreducibility, and the normalized discriminant 29 forces a nonunit root. No root is a root of unity. Every cyclic cover therefore has zero interior H¹ in the ten and zero complete-domain flat Hodge one-form kernel there, despite the visible periods on the third cover. A commuting hypercharge meridian can tune at most one charge type. This uses the specific cubic-root flat history; the exterior square is separate. Hand proof, independent review pending.
