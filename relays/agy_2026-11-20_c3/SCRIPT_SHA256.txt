@@ -1,1 +1,1 @@
-745cc7e1a0890d9894e6f973e7a394cfcf13b609d4254f2922827acd0b67b058  relays/agy_2026-11-20_c3/c3_cusp_three_family_gluing.py
+52e77ad874540543c6cac51702d116a09ca4b798a42b4d47eb78fdd7e174814a  relays/agy_2026-11-20_c3/c3_cusp_three_family_gluing.py

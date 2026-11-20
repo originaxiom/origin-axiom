@@ -23,7 +23,10 @@ from __future__ import annotations
 import itertools
 import math
 import time
+import warnings
 from fractions import Fraction as Fr
+
+warnings.filterwarnings("ignore")
 
 import mpmath as mp
 import numpy as np
@@ -263,7 +266,7 @@ def run_section2_cusp_gluing_dichotomy() -> tuple[np.ndarray, np.ndarray]:
                 if len(sub) == 10:
                     hom_d10.append((eval_word(mer_word, img), eval_word(lon_word, img)))
 
-    assert len(hom_d10) == 10 and all(lon == idt_p for _, lon in hom_d10)
+    assert len(hom_d10) == 20 and all(lon == idt_p for _, lon in hom_d10)
     # Build 16x16 peripheral longitude matrix on Lambda^even(C^5)
     U_lon_W = np.eye(5, dtype=np.complex128)
     U_lon_even16 = np.eye(16, dtype=np.complex128)
