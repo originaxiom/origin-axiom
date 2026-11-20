@@ -1,0 +1,22 @@
+=== IC1: PENTAGONAL ETA, JACOBI TRIPLE PRODUCT, & 50-DIGIT FOURIER BRIDGE ===
+  Triple-product sum_{v!=0} G_v(tau) + 2*log(5) residual = 2.489e-60
+  Gauss-sum F_u == F_{-u} residual = 2.489e-60; zero-row [(0,2/5)-(0,3/5)] slope [y=12->24] = 1.659e-60
+  [PASS] Triple-product Liouville identity and M6 zero-row cancellation verified.
+
+=== IC2: ANALYTIC RAMANUJAN JETS & EXACT CLOSED-FORM HESSIANS (ZERO FINITE DIFFERENCES) ===
+  Analytic V_0(i)    : |grad|=3.90e-66, tr(Hess)=3.1415927, det(Hess)=-3.8209317 (< 0 SADDLE)
+  Analytic V_0(omega): |grad|=7.82e-66, tr(Hess)=4.188790205 [err vs 4pi/3: 0.0], det(Hess)=4.386490845 [err vs 4pi^2/9: 0.0]
+  Analytic V_{Gamma_0(5)} at i/sqrt(5): V=4.82827956627, |grad|=0.0, tr=15.707963, det=-775.66364
+  Analytic V_{Gamma_0(5)} at (2+i)/5  : V=3.3134009554, |grad|=1.702e-67, tr=78.539816, det=127.25081
+  Analytic Ramanujan global minimum of V_{Gamma_0(5)}: tau_* = 0.4 + 0.2i, V=3.3134009554033, |grad|=3.124e-65, tr(Hess)=78.539816, det(Hess)=127.25081
+  [PASS] Exact analytic Ramanujan gradients and Hessians verified to 55+ digits.
+
+=== IC3: PLANTED NEGATIVE CONTROLS (TESTING DETECTOR SENSITIVITY) ===
+  [CAUGHT Plant 1] Omitting 2*pi*v1^2*y breaks G_v modular S-covariance (err = 1.1185 vs 1.07e-50).
+  [CAUGHT Plant 2] Unbalanced zero-row shift diverges linearly with slope 28.56686.
+  [CAUGHT Plant 3] Non-stabilizer S without mark transport breaks V_harm invariance by 0.028848 (>> 1e-50).
+  [CAUGHT Plant 4] Harmonic zero-sum supertrace has tr(Hess)=0 => det(Hess) = -4|d_tau^2 V|^2 <= 0 (no strict minimum).
+  [CAUGHT Plant 5] Corrupted cover factor eta(3*tau) breaks Fricke W_5 invariance by 4.0972.
+  [PASS] 5/5 planted faults caught.
+
+ALL AGY-C4 INDEPENDENT COUNTERCHECKS PASSED (5/5 PLANTS CAUGHT; 0 of 19).
