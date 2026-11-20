@@ -1,0 +1,24 @@
+=== IC1: JORDAN-WIGNER FOCK SPACE & HAAR REYNOLDS INVARIANT DIMENSIONS ===
+  Haar Reynolds invariant dimensions on sl(W)^+: linear = 1, quadratic (sesquilinear) = 3
+  [PASS] Jordan-Wigner 16-state even Fock decomposition and Reynolds (1 linear vs 3 quadratic) invariants verified.
+
+=== IC2: ZERO-SHARED-CODE WEIL BLOCK GRAMIANS & ORDER-15 B-L SPLIT ===
+  Indep O(tau) at y=6 (L=2.8): 3-2 leak=9.55e-17, H3/3=(0.15763, 0.00000) vs H2/2=(0.43290, 0.00000)
+  Indep Order-15 (1/15,2/15) y=6: (m2/m3)_d = 3.60564e-6, (m2/m3)_e = 0.00023611, ratio = 65.4835
+  [PASS] Zero-shared-code Weil Gramians and Order-15 B-L split verified.
+
+=== IC3: STATE-BY-STATE CARTAN BETA SUMMATION & ADAPTIVE ODEFUN CHECK ===
+  State-by-state slopes: 1HDM = 218/115, 2HDM = 9/5, unsplit (2,2) = 2; B^{2HDM} exact.
+  Perturbative adaptive odefun [alpha_i^-1(0)=40, d(ln mu)=-30] 1HDM: ratio = 1.8109714, a3^-1 = 6.09403
+  Perturbative adaptive odefun [alpha_i^-1(0)=40, d(ln mu)=-30] 2HDM: ratio = 1.7194619, a3^-1 = 6.09319
+  [PASS] State-by-state 1-loop/2-loop betas and perturbative adaptive Taylor ODE verified.
+
+=== IC4: PLANTED NEGATIVE CONTROLS (TESTING DETECTOR SENSITIVITY) ===
+  [CAUGHT Plant 1] Breaking w <-> -w parity in O(tau) mixes 3 and 2 blocks (3-2 leak = 0.1838).
+  [CAUGHT Plant 2] Setting B - L channel coefficient kappa = 0 collapses e/d ratio split (diff = 3.62e-17).
+  [CAUGHT Plant 3] Corrupted lepton B - L = -1/3 fails su(4)_C tracelessness (trace = 2/3 != 0).
+  [CAUGHT Plant 4] Unnormalized hypercharge k_u1 = 1 gives slope = 60/23 != 218/115.
+  [CAUGHT Plant 5] Unprojected colour triplet (n_H=2, n_T=1) reverts slope to 218/115 > 9/5.
+  [PASS] 5/5 planted faults caught.
+
+ALL AGY-C2 INDEPENDENT COUNTERCHECKS PASSED (5/5 PLANTS CAUGHT; 0 of 19).
