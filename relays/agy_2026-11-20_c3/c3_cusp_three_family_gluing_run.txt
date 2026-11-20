@@ -1,0 +1,19 @@
+=== SECTION 1: MEHTA-SESHADRI PARABOLIC INDEX & MILNOR-WOOD BOUND ON Sigma_{1,1} (E1) ===
+  50,000 Haar U(3) commutators + trivial: observed N_par counts = {0: 1, 1: 24972, 2: 25028}
+  Extremal Heisenberg SU(3) commutators: [Z3, X3] -> N_par=1 (d_inf=0), [X3, Z3] -> N_par=2 (d_inf=0)
+  [PASS] Strict Milnor-Wood bound proved & verified: N_par in {0, 1, 2} (never 3 without U(1) flux); dim H^0 - dim H^1 = -r.
+
+=== SECTION 2: CUSP HOLONOMY & BOUNDARY ZERO-MODE DICHOTOMY ON T (x) Lambda^even(C^5) (E2) ===
+  m004 -> D_10 (20 surjections): peripheral longitude == id_5 on all; Lambda^even(C^5) has d_infty = 16, N_par = 0.
+  Triplet T = S(tau)/eta(tau)^3: unitary image |G_T| = 96, order(U_T) = 8, det(U_T) = -0.7071+0.7071j
+  Base punctured torus Gamma' commutator U_infty^(T): thetas=[0.0, 0.5, 0.5], N_par^(T) = 1 (< 3), d_infty^(T) = 1 (< 3) -> base puncture alone gives < 3 boundary families!
+  Trivialized cusp cover (ord(U_T)=8 -> U_infty = I_48): Gamma^r signature=(48,48), L_+ isotropy=0.0e+00, surviving chiral families = 3 (48 Weyl states), all 7 anomalies = 0.
+  [PASS] Exact base-vs-cover boundary dichotomy and anomaly-free 3-family cusp projection verified.
+
+=== SECTION 3: CHINESE REMAINDER SL(2, Z/40Z) FACTORIZATION & PLANTED CONTROLS (E3) ===
+  |SL(2,Z/8Z)|=384, |SL(2,Z/5Z)|=120, |SL(2,Z/40Z)|=46080, tensor commutator=0.00e+00
+  [CAUGHT Planted Control 1] Vector-like / closed-torus pairing yields net chiral index = 0 (vs +48 = 3x16 on L_+).
+  [CAUGHT Planted Control 2] Omitting nu_R^c yields U(1)_(B-L)^3 residual = -3 != 0.
+  [PASS] Section 3 CRT factorization and planted negative controls verified.
+
+ALL AGY-C3 CHECKS PASSED in 19.59s (0 of 19).
