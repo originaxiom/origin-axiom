@@ -1,0 +1,4614 @@
+{
+  "card": "A2-OW1",
+  "role": "independent_cold_room_referee",
+  "hygiene": {
+    "empirical_inputs": "0 of 19",
+    "transversal_sizes": {
+      "2T_n2": 16,
+      "2T_n3": 520,
+      "A5_n2": 19,
+      "A5_n3": 1668
+    }
+  },
+  "OW1-A": {
+    "spherical_bound": {
+      "2": {
+        "sum_reciprocals": "4/3",
+        "strictly_gt_1": true,
+        "geometry": "spherical"
+      },
+      "3": {
+        "sum_reciprocals": "7/6",
+        "strictly_gt_1": true,
+        "geometry": "spherical"
+      },
+      "4": {
+        "sum_reciprocals": "13/12",
+        "strictly_gt_1": true,
+        "geometry": "spherical"
+      },
+      "5": {
+        "sum_reciprocals": "31/30",
+        "strictly_gt_1": true,
+        "geometry": "spherical"
+      },
+      "6": {
+        "sum_reciprocals": "1/1",
+        "strictly_gt_1": false,
+        "geometry": "euclidean"
+      },
+      "7": {
+        "sum_reciprocals": "41/42",
+        "strictly_gt_1": false,
+        "geometry": "hyperbolic"
+      }
+    },
+    "finite_rungs": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "rung_orders": {
+      "2": 6,
+      "3": 12,
+      "4": 24,
+      "5": 60
+    },
+    "total_core_free_action_involution_pairs_d_le_12": 21,
+    "sm_passing_count": 1,
+    "unique_sm_pass": true,
+    "unique_sm_winner": {
+      "N": 5,
+      "group_order": 60,
+      "subgroup_order": 12,
+      "subgroup_conjugacy_class_size": 5,
+      "degree_d": 5,
+      "involution_class_index": 0,
+      "involution_class_size": 15,
+      "cycle_partition": [
+        1,
+        2,
+        2
+      ],
+      "d": 5,
+      "a": 3,
+      "b": 2,
+      "dim_centralizer": 12,
+      "dim_lambda_even": 16,
+      "y_vec_fund": [
+        -2,
+        -2,
+        -2,
+        3,
+        3
+      ],
+      "y_multiset": {
+        "-4": 3,
+        "-3": 2,
+        "0": 1,
+        "1": 6,
+        "2": 3,
+        "6": 1
+      },
+      "is_chiral": true,
+      "anomalies": {
+        "Tr_Y": 0,
+        "Tr_Y3": 0,
+        "Tr_SUa2_Y": 0,
+        "Tr_SUb2_Y": 0
+      },
+      "anomaly_free": true,
+      "kernel_order_y_reduced": 6,
+      "kernel_order_faithful_u1": 6,
+      "gcd_even_charges": 1,
+      "is_cyclic_z6": true,
+      "collar_odd_dim": 4,
+      "collar_even_dim": 6,
+      "collar_odd_b_multiplets": 2,
+      "collar_odd_a_multiplets": 0,
+      "matches_sm_6y": true,
+      "is_sm_doublet_triplet_split": true,
+      "passes_full_sm_bar": true
+    },
+    "rungs": {
+      "2": {
+        "order": 6,
+        "total_subgroups": 6,
+        "total_subgroup_conjugacy_classes": 4,
+        "involution_conjugacy_class_count": 1,
+        "involution_class_sizes": [
+          3
+        ],
+        "core_free_actions_d_le_12_count": 2,
+        "core_free_actions_d_le_12": [
+          {
+            "degree_d": 6,
+            "subgroup_order": 1,
+            "subgroup_conjugacy_class_size": 1,
+            "involution_evaluations": [
+              {
+                "N": 2,
+                "group_order": 6,
+                "subgroup_order": 1,
+                "subgroup_conjugacy_class_size": 1,
+                "degree_d": 6,
+                "involution_class_index": 0,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2
+                ],
+                "d": 6,
+                "a": 3,
+                "b": 3,
+                "dim_centralizer": 17,
+                "dim_lambda_even": 32,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-2": 6,
+                  "0": 20,
+                  "2": 6
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 6,
+                "kernel_order_faithful_u1": 3,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 6,
+                "collar_even_dim": 6,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 3,
+            "subgroup_order": 2,
+            "subgroup_conjugacy_class_size": 3,
+            "involution_evaluations": [
+              {
+                "N": 2,
+                "group_order": 6,
+                "subgroup_order": 2,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 3,
+                "involution_class_index": 0,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  1,
+                  2
+                ],
+                "d": 3,
+                "a": 2,
+                "b": 1,
+                "dim_centralizer": 4,
+                "dim_lambda_even": 4,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  2
+                ],
+                "y_multiset": {
+                  "-2": 1,
+                  "0": 1,
+                  "1": 2
+                },
+                "is_chiral": true,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": -6,
+                  "Tr_SUa2_Y": 2,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": false,
+                "kernel_order_y_reduced": 2,
+                "kernel_order_faithful_u1": 2,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 2,
+                "collar_even_dim": 4,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "order": 12,
+        "total_subgroups": 10,
+        "total_subgroup_conjugacy_classes": 5,
+        "involution_conjugacy_class_count": 1,
+        "involution_class_sizes": [
+          3
+        ],
+        "core_free_actions_d_le_12_count": 3,
+        "core_free_actions_d_le_12": [
+          {
+            "degree_d": 12,
+            "subgroup_order": 1,
+            "subgroup_conjugacy_class_size": 1,
+            "involution_evaluations": [
+              {
+                "N": 3,
+                "group_order": 12,
+                "subgroup_order": 1,
+                "subgroup_conjugacy_class_size": 1,
+                "degree_d": 12,
+                "involution_class_index": 0,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 12,
+                "a": 6,
+                "b": 6,
+                "dim_centralizer": 71,
+                "dim_lambda_even": 2048,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-6": 1,
+                  "-4": 66,
+                  "-2": 495,
+                  "0": 924,
+                  "2": 495,
+                  "4": 66,
+                  "6": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 12,
+                "kernel_order_faithful_u1": 6,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 12,
+                "collar_even_dim": 12,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 6,
+            "subgroup_order": 2,
+            "subgroup_conjugacy_class_size": 3,
+            "involution_evaluations": [
+              {
+                "N": 3,
+                "group_order": 12,
+                "subgroup_order": 2,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 6,
+                "involution_class_index": 0,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "d": 6,
+                "a": 4,
+                "b": 2,
+                "dim_centralizer": 19,
+                "dim_lambda_even": 32,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  2,
+                  2
+                ],
+                "y_multiset": {
+                  "-4": 1,
+                  "-2": 6,
+                  "-1": 8,
+                  "0": 2,
+                  "1": 8,
+                  "2": 6,
+                  "4": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 8,
+                "kernel_order_faithful_u1": 8,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 8,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 4,
+            "subgroup_order": 3,
+            "subgroup_conjugacy_class_size": 4,
+            "involution_evaluations": [
+              {
+                "N": 3,
+                "group_order": 12,
+                "subgroup_order": 3,
+                "subgroup_conjugacy_class_size": 4,
+                "degree_d": 4,
+                "involution_class_index": 0,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  2,
+                  2
+                ],
+                "d": 4,
+                "a": 2,
+                "b": 2,
+                "dim_centralizer": 7,
+                "dim_lambda_even": 8,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-2": 1,
+                  "0": 6,
+                  "2": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 4,
+                "kernel_order_faithful_u1": 2,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 4,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          }
+        ]
+      },
+      "4": {
+        "order": 24,
+        "total_subgroups": 30,
+        "total_subgroup_conjugacy_classes": 11,
+        "involution_conjugacy_class_count": 2,
+        "involution_class_sizes": [
+          6,
+          3
+        ],
+        "core_free_actions_d_le_12_count": 6,
+        "core_free_actions_d_le_12": [
+          {
+            "degree_d": 12,
+            "subgroup_order": 2,
+            "subgroup_conjugacy_class_size": 6,
+            "involution_evaluations": [
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 2,
+                "subgroup_conjugacy_class_size": 6,
+                "degree_d": 12,
+                "involution_class_index": 0,
+                "involution_class_size": 6,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 12,
+                "a": 7,
+                "b": 5,
+                "dim_centralizer": 73,
+                "dim_lambda_even": 2048,
+                "y_vec_fund": [
+                  -5,
+                  -5,
+                  -5,
+                  -5,
+                  -5,
+                  -5,
+                  -5,
+                  7,
+                  7,
+                  7,
+                  7,
+                  7
+                ],
+                "y_multiset": {
+                  "-30": 7,
+                  "-28": 5,
+                  "-20": 35,
+                  "-18": 105,
+                  "-16": 70,
+                  "-14": 10,
+                  "-10": 21,
+                  "-8": 175,
+                  "-6": 350,
+                  "-4": 210,
+                  "-2": 35,
+                  "0": 2,
+                  "2": 35,
+                  "4": 210,
+                  "6": 350,
+                  "8": 175,
+                  "10": 21,
+                  "14": 10,
+                  "16": 70,
+                  "18": 105,
+                  "20": 35,
+                  "28": 5,
+                  "30": 7
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 70,
+                "kernel_order_faithful_u1": 35,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 10,
+                "collar_even_dim": 14,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              },
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 2,
+                "subgroup_conjugacy_class_size": 6,
+                "degree_d": 12,
+                "involution_class_index": 1,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 12,
+                "a": 6,
+                "b": 6,
+                "dim_centralizer": 71,
+                "dim_lambda_even": 2048,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-6": 1,
+                  "-4": 66,
+                  "-2": 495,
+                  "0": 924,
+                  "2": 495,
+                  "4": 66,
+                  "6": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 12,
+                "kernel_order_faithful_u1": 6,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 12,
+                "collar_even_dim": 12,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 12,
+            "subgroup_order": 2,
+            "subgroup_conjugacy_class_size": 3,
+            "involution_evaluations": [
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 2,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 12,
+                "involution_class_index": 0,
+                "involution_class_size": 6,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 12,
+                "a": 6,
+                "b": 6,
+                "dim_centralizer": 71,
+                "dim_lambda_even": 2048,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-6": 1,
+                  "-4": 66,
+                  "-2": 495,
+                  "0": 924,
+                  "2": 495,
+                  "4": 66,
+                  "6": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 12,
+                "kernel_order_faithful_u1": 6,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 12,
+                "collar_even_dim": 12,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              },
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 2,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 12,
+                "involution_class_index": 1,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 12,
+                "a": 8,
+                "b": 4,
+                "dim_centralizer": 79,
+                "dim_lambda_even": 2048,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "y_multiset": {
+                  "-8": 1,
+                  "-6": 28,
+                  "-5": 32,
+                  "-4": 76,
+                  "-3": 224,
+                  "-2": 196,
+                  "-1": 256,
+                  "0": 422,
+                  "1": 256,
+                  "2": 196,
+                  "3": 224,
+                  "4": 76,
+                  "5": 32,
+                  "6": 28,
+                  "8": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 16,
+                "kernel_order_faithful_u1": 16,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 8,
+                "collar_even_dim": 16,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 8,
+            "subgroup_order": 3,
+            "subgroup_conjugacy_class_size": 4,
+            "involution_evaluations": [
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 3,
+                "subgroup_conjugacy_class_size": 4,
+                "degree_d": 8,
+                "involution_class_index": 0,
+                "involution_class_size": 6,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 8,
+                "a": 4,
+                "b": 4,
+                "dim_centralizer": 31,
+                "dim_lambda_even": 128,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-4": 1,
+                  "-2": 28,
+                  "0": 70,
+                  "2": 28,
+                  "4": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 8,
+                "kernel_order_faithful_u1": 4,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 8,
+                "collar_even_dim": 8,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              },
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 3,
+                "subgroup_conjugacy_class_size": 4,
+                "degree_d": 8,
+                "involution_class_index": 1,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 8,
+                "a": 4,
+                "b": 4,
+                "dim_centralizer": 31,
+                "dim_lambda_even": 128,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-4": 1,
+                  "-2": 28,
+                  "0": 70,
+                  "2": 28,
+                  "4": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 8,
+                "kernel_order_faithful_u1": 4,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 8,
+                "collar_even_dim": 8,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 6,
+            "subgroup_order": 4,
+            "subgroup_conjugacy_class_size": 3,
+            "involution_evaluations": [
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 4,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 6,
+                "involution_class_index": 0,
+                "involution_class_size": 6,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "d": 6,
+                "a": 4,
+                "b": 2,
+                "dim_centralizer": 19,
+                "dim_lambda_even": 32,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  2,
+                  2
+                ],
+                "y_multiset": {
+                  "-4": 1,
+                  "-2": 6,
+                  "-1": 8,
+                  "0": 2,
+                  "1": 8,
+                  "2": 6,
+                  "4": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 8,
+                "kernel_order_faithful_u1": 8,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 8,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              },
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 4,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 6,
+                "involution_class_index": 1,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "d": 6,
+                "a": 4,
+                "b": 2,
+                "dim_centralizer": 19,
+                "dim_lambda_even": 32,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  2,
+                  2
+                ],
+                "y_multiset": {
+                  "-4": 1,
+                  "-2": 6,
+                  "-1": 8,
+                  "0": 2,
+                  "1": 8,
+                  "2": 6,
+                  "4": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 8,
+                "kernel_order_faithful_u1": 8,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 8,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 6,
+            "subgroup_order": 4,
+            "subgroup_conjugacy_class_size": 3,
+            "involution_evaluations": [
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 4,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 6,
+                "involution_class_index": 0,
+                "involution_class_size": 6,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2
+                ],
+                "d": 6,
+                "a": 3,
+                "b": 3,
+                "dim_centralizer": 17,
+                "dim_lambda_even": 32,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-2": 6,
+                  "0": 20,
+                  "2": 6
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 6,
+                "kernel_order_faithful_u1": 3,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 6,
+                "collar_even_dim": 6,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              },
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 4,
+                "subgroup_conjugacy_class_size": 3,
+                "degree_d": 6,
+                "involution_class_index": 1,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "d": 6,
+                "a": 4,
+                "b": 2,
+                "dim_centralizer": 19,
+                "dim_lambda_even": 32,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  2,
+                  2
+                ],
+                "y_multiset": {
+                  "-4": 1,
+                  "-2": 6,
+                  "-1": 8,
+                  "0": 2,
+                  "1": 8,
+                  "2": 6,
+                  "4": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 8,
+                "kernel_order_faithful_u1": 8,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 8,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 4,
+            "subgroup_order": 6,
+            "subgroup_conjugacy_class_size": 4,
+            "involution_evaluations": [
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 6,
+                "subgroup_conjugacy_class_size": 4,
+                "degree_d": 4,
+                "involution_class_index": 0,
+                "involution_class_size": 6,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2
+                ],
+                "d": 4,
+                "a": 3,
+                "b": 1,
+                "dim_centralizer": 9,
+                "dim_lambda_even": 8,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  3
+                ],
+                "y_multiset": {
+                  "-2": 3,
+                  "0": 2,
+                  "2": 3
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 6,
+                "kernel_order_faithful_u1": 3,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 2,
+                "collar_even_dim": 6,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              },
+              {
+                "N": 4,
+                "group_order": 24,
+                "subgroup_order": 6,
+                "subgroup_conjugacy_class_size": 4,
+                "degree_d": 4,
+                "involution_class_index": 1,
+                "involution_class_size": 3,
+                "cycle_partition": [
+                  2,
+                  2
+                ],
+                "d": 4,
+                "a": 2,
+                "b": 2,
+                "dim_centralizer": 7,
+                "dim_lambda_even": 8,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-2": 1,
+                  "0": 6,
+                  "2": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 4,
+                "kernel_order_faithful_u1": 2,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 4,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          }
+        ]
+      },
+      "5": {
+        "order": 60,
+        "total_subgroups": 59,
+        "total_subgroup_conjugacy_classes": 9,
+        "involution_conjugacy_class_count": 1,
+        "involution_class_sizes": [
+          15
+        ],
+        "core_free_actions_d_le_12_count": 4,
+        "core_free_actions_d_le_12": [
+          {
+            "degree_d": 12,
+            "subgroup_order": 5,
+            "subgroup_conjugacy_class_size": 6,
+            "involution_evaluations": [
+              {
+                "N": 5,
+                "group_order": 60,
+                "subgroup_order": 5,
+                "subgroup_conjugacy_class_size": 6,
+                "degree_d": 12,
+                "involution_class_index": 0,
+                "involution_class_size": 15,
+                "cycle_partition": [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 12,
+                "a": 6,
+                "b": 6,
+                "dim_centralizer": 71,
+                "dim_lambda_even": 2048,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "y_multiset": {
+                  "-6": 1,
+                  "-4": 66,
+                  "-2": 495,
+                  "0": 924,
+                  "2": 495,
+                  "4": 66,
+                  "6": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 12,
+                "kernel_order_faithful_u1": 6,
+                "gcd_even_charges": 2,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 12,
+                "collar_even_dim": 12,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 10,
+            "subgroup_order": 6,
+            "subgroup_conjugacy_class_size": 10,
+            "involution_evaluations": [
+              {
+                "N": 5,
+                "group_order": 60,
+                "subgroup_order": 6,
+                "subgroup_conjugacy_class_size": 10,
+                "degree_d": 10,
+                "involution_class_index": 0,
+                "involution_class_size": 15,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "d": 10,
+                "a": 6,
+                "b": 4,
+                "dim_centralizer": 51,
+                "dim_lambda_even": 512,
+                "y_vec_fund": [
+                  -2,
+                  -2,
+                  -2,
+                  -2,
+                  -2,
+                  -2,
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "y_multiset": {
+                  "-12": 1,
+                  "-8": 15,
+                  "-7": 24,
+                  "-6": 6,
+                  "-4": 15,
+                  "-3": 80,
+                  "-2": 90,
+                  "-1": 24,
+                  "0": 2,
+                  "1": 24,
+                  "2": 90,
+                  "3": 80,
+                  "4": 15,
+                  "6": 6,
+                  "7": 24,
+                  "8": 15,
+                  "12": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 24,
+                "kernel_order_faithful_u1": 24,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 8,
+                "collar_even_dim": 12,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 6,
+            "subgroup_order": 10,
+            "subgroup_conjugacy_class_size": 6,
+            "involution_evaluations": [
+              {
+                "N": 5,
+                "group_order": 60,
+                "subgroup_order": 10,
+                "subgroup_conjugacy_class_size": 6,
+                "degree_d": 6,
+                "involution_class_index": 0,
+                "involution_class_size": 15,
+                "cycle_partition": [
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "d": 6,
+                "a": 4,
+                "b": 2,
+                "dim_centralizer": 19,
+                "dim_lambda_even": 32,
+                "y_vec_fund": [
+                  -1,
+                  -1,
+                  -1,
+                  -1,
+                  2,
+                  2
+                ],
+                "y_multiset": {
+                  "-4": 1,
+                  "-2": 6,
+                  "-1": 8,
+                  "0": 2,
+                  "1": 8,
+                  "2": 6,
+                  "4": 1
+                },
+                "is_chiral": false,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 8,
+                "kernel_order_faithful_u1": 8,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": false,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 8,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": false,
+                "is_sm_doublet_triplet_split": false,
+                "passes_full_sm_bar": false
+              }
+            ]
+          },
+          {
+            "degree_d": 5,
+            "subgroup_order": 12,
+            "subgroup_conjugacy_class_size": 5,
+            "involution_evaluations": [
+              {
+                "N": 5,
+                "group_order": 60,
+                "subgroup_order": 12,
+                "subgroup_conjugacy_class_size": 5,
+                "degree_d": 5,
+                "involution_class_index": 0,
+                "involution_class_size": 15,
+                "cycle_partition": [
+                  1,
+                  2,
+                  2
+                ],
+                "d": 5,
+                "a": 3,
+                "b": 2,
+                "dim_centralizer": 12,
+                "dim_lambda_even": 16,
+                "y_vec_fund": [
+                  -2,
+                  -2,
+                  -2,
+                  3,
+                  3
+                ],
+                "y_multiset": {
+                  "-4": 3,
+                  "-3": 2,
+                  "0": 1,
+                  "1": 6,
+                  "2": 3,
+                  "6": 1
+                },
+                "is_chiral": true,
+                "anomalies": {
+                  "Tr_Y": 0,
+                  "Tr_Y3": 0,
+                  "Tr_SUa2_Y": 0,
+                  "Tr_SUb2_Y": 0
+                },
+                "anomaly_free": true,
+                "kernel_order_y_reduced": 6,
+                "kernel_order_faithful_u1": 6,
+                "gcd_even_charges": 1,
+                "is_cyclic_z6": true,
+                "collar_odd_dim": 4,
+                "collar_even_dim": 6,
+                "collar_odd_b_multiplets": 2,
+                "collar_odd_a_multiplets": 0,
+                "matches_sm_6y": true,
+                "is_sm_doublet_triplet_split": true,
+                "passes_full_sm_bar": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "a5_uniqueness": {
+      "order": 60,
+      "isomorphic_to_PSL2_F5_verified": true,
+      "index_5_subgroup_classes": 1,
+      "index_5_subgroup_order_profile": {
+        "1": 1,
+        "2": 3,
+        "3": 8
+      },
+      "index_6_subgroup_classes": 1,
+      "index_6_subgroup_order_profile": {
+        "1": 1,
+        "2": 5,
+        "5": 4
+      },
+      "involution_conjugacy_classes": 1,
+      "total_involutions": 15,
+      "all_involution_cycle_types_on_5_pts": [
+        [
+          1,
+          2,
+          2
+        ]
+      ]
+    },
+    "weyl_24_and_cl10": {
+      "weyl_24_count": 24,
+      "exact_cyclotomic_identity_holds": true,
+      "exact_eigenbasis_diag_holds": true,
+      "eigenbasis_diag": [
+        -2,
+        -2,
+        -2,
+        3,
+        3
+      ],
+      "mpmath_dps": 60,
+      "mpmath_max_err_perm_basis": "1.60363433128e-61",
+      "mpmath_max_err_eigenbasis": "6.22301527786e-61",
+      "mpmath_below_1e_minus_50": true,
+      "cl10_dim": 32,
+      "car_anticommutator_errors": 0,
+      "gamma_anticommutator_errors": 0,
+      "fock_even_dim": 16,
+      "fock_odd_dim": 16,
+      "fock_even_6y_multiset": {
+        "-4": 3,
+        "-3": 2,
+        "0": 1,
+        "1": 6,
+        "2": 3,
+        "6": 1
+      }
+    }
+  },
+  "OW1-B": {
+    "total_threads": 50,
+    "branch_counts": {
+      "+": 21,
+      "-": 21,
+      "P": 8
+    },
+    "census_isometry_checks": {
+      "m000_eq_b-+L": true,
+      "m003_eq_b+-LR": true,
+      "m004_eq_b++LR": true
+    },
+    "cross_check_mismatches": {
+      "h1_torsion": 0,
+      "dp_counts": 0,
+      "d5_boundary": 0,
+      "count_2t": 0,
+      "count_a5": 0,
+      "amphichiral_dual": 0
+    },
+    "summary": {
+      "d5_survivors_count": 32,
+      "d5_survivors": [
+        "b++LR",
+        "b++LLR",
+        "b++LRR",
+        "b++LLRR",
+        "b++LLLLR",
+        "b++LLLRR",
+        "b++LLRLR",
+        "b++LLRRR",
+        "b++LRLRR",
+        "b++LRRRR",
+        "b++LLLLRR",
+        "b++LLLRLR",
+        "b++LLRRRR",
+        "b++LRLRRR",
+        "b+-LLR",
+        "b+-LRR",
+        "b+-LLRR",
+        "b+-LLLLR",
+        "b+-LLLRR",
+        "b+-LLRLR",
+        "b+-LLRRR",
+        "b+-LRLRR",
+        "b+-LRRRR",
+        "b+-LLLLLR",
+        "b+-LLLLRR",
+        "b+-LLRRRR",
+        "b+-LRRRRR",
+        "b-+LL",
+        "b-+LLLL",
+        "b-+LLRL",
+        "b-+LLLLL",
+        "b-+LLLRL"
+      ],
+      "d5_all_boundary_trivial_count": 6,
+      "d5_all_boundary_trivial": [
+        "b++LR",
+        "b++LLLRLR",
+        "b++LRLRRR",
+        "b+-LLLLLR",
+        "b+-LRRRRR",
+        "b-+LLLLL"
+      ],
+      "d5_any_boundary_trivial_count": 8,
+      "d5_any_boundary_trivial": [
+        "b++LR",
+        "b++LLLRR",
+        "b++LLRRR",
+        "b++LLLRLR",
+        "b++LRLRRR",
+        "b+-LLLLLR",
+        "b+-LRRRRR",
+        "b-+LLLLL"
+      ],
+      "surj_2T_survivors_count": 26,
+      "surj_2T_survivors": [
+        "b++LR",
+        "b++LLLR",
+        "b++LRRR",
+        "b++LLLLLR",
+        "b++LLLRLR",
+        "b++LLLRRR",
+        "b++LLRLRR",
+        "b++LLRRLR",
+        "b++LRLRRR",
+        "b++LRRRRR",
+        "b+-LR",
+        "b+-LLLR",
+        "b+-LRRR",
+        "b+-LLRLR",
+        "b+-LRLRR",
+        "b+-LLLLLR",
+        "b+-LLLRLR",
+        "b+-LLLRRR",
+        "b+-LLRLRR",
+        "b+-LLRRLR",
+        "b+-LRLRRR",
+        "b+-LRRRRR",
+        "b-+L",
+        "b-+LLL",
+        "b-+LLLLL",
+        "b-+LLRLL"
+      ],
+      "surj_A5_survivors_count": 34,
+      "surj_A5_survivors": [
+        "b++LLR",
+        "b++LRR",
+        "b++LLLLR",
+        "b++LLLRR",
+        "b++LLRLR",
+        "b++LLRRR",
+        "b++LRLRR",
+        "b++LRRRR",
+        "b++LLLLRR",
+        "b++LLLRLR",
+        "b++LLLRRR",
+        "b++LLRLRR",
+        "b++LLRRLR",
+        "b++LLRRRR",
+        "b++LRLRRR",
+        "b+-LLR",
+        "b+-LRR",
+        "b+-LLLLR",
+        "b+-LLLRR",
+        "b+-LLRLR",
+        "b+-LLRRR",
+        "b+-LRLRR",
+        "b+-LRRRR",
+        "b+-LLLLRR",
+        "b+-LLLRLR",
+        "b+-LLLRRR",
+        "b+-LLRLRR",
+        "b+-LLRRLR",
+        "b+-LLRRRR",
+        "b+-LRLRRR",
+        "b-+LLL",
+        "b-+LLRL",
+        "b-+LLLLL",
+        "b-+LLRLL"
+      ],
+      "d5_and_2T_count": 8,
+      "d5_and_2T": [
+        "b++LR",
+        "b++LLLRLR",
+        "b++LRLRRR",
+        "b+-LLRLR",
+        "b+-LRLRR",
+        "b+-LLLLLR",
+        "b+-LRRRRR",
+        "b-+LLLLL"
+      ],
+      "d5_any_triv_and_2T_count": 6,
+      "d5_any_triv_and_2T": [
+        "b++LR",
+        "b++LLLRLR",
+        "b++LRLRRR",
+        "b+-LLLLLR",
+        "b+-LRRRRR",
+        "b-+LLLLL"
+      ],
+      "d5_all_triv_and_2T_count": 6,
+      "d5_all_triv_and_2T": [
+        "b++LR",
+        "b++LLLRLR",
+        "b++LRLRRR",
+        "b+-LLLLLR",
+        "b+-LRRRRR",
+        "b-+LLLLL"
+      ],
+      "chiral_d5_any_triv_and_2T_count": 4,
+      "chiral_d5_any_triv_and_2T": [
+        "b++LLLRLR",
+        "b++LRLRRR",
+        "b+-LLLLLR",
+        "b+-LRRRRR"
+      ],
+      "chiral_d5_all_triv_and_2T_count": 4,
+      "chiral_d5_all_triv_and_2T": [
+        "b++LLLRLR",
+        "b++LRLRRR",
+        "b+-LLLLLR",
+        "b+-LRRRRR"
+      ],
+      "chiral_d5_triv_and_2T_and_A5": [
+        "b++LLLRLR",
+        "b++LRLRRR"
+      ]
+    },
+    "key_threads": {
+      "b++LR": {
+        "snappy_name": "b++LR",
+        "branch": "+",
+        "word": "LR",
+        "word_len": 2,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 3,
+        "h1_torsion_order": 1,
+        "h1_torsion_divisors": [],
+        "volume": 2.02988321,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      "b++LLLRLR": {
+        "snappy_name": "b++LLLRLR",
+        "branch": "+",
+        "word": "LLLRLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 13,
+        "h1_torsion_order": 11,
+        "h1_torsion_divisors": [
+          11
+        ],
+        "volume": 5.13354843,
+        "chern_simons": -0.03968119,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 4
+      },
+      "b+-LR": {
+        "snappy_name": "b+-LR",
+        "branch": "-",
+        "word": "LR",
+        "word_len": 2,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -3,
+        "h1_torsion_order": 5,
+        "h1_torsion_divisors": [
+          5
+        ],
+        "volume": 2.02988321,
+        "chern_simons": 0.25,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      "b+-LLLLLR": {
+        "snappy_name": "b+-LLLLLR",
+        "branch": "-",
+        "word": "LLLLLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -7,
+        "h1_torsion_order": 9,
+        "h1_torsion_divisors": [
+          9
+        ],
+        "volume": 3.29690241,
+        "chern_simons": 0.19153429,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 4,
+        "surj_A5": 0
+      },
+      "b-+L": {
+        "snappy_name": "b-+L",
+        "branch": "P",
+        "word": "L",
+        "word_len": 1,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 1,
+        "h1_torsion_order": 1,
+        "h1_torsion_divisors": [],
+        "volume": 1.01494161,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      "b-+LLLLL": {
+        "snappy_name": "b-+LLLLL",
+        "branch": "P",
+        "word": "LLLLL",
+        "word_len": 5,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 5,
+        "h1_torsion_order": 5,
+        "h1_torsion_divisors": [
+          5
+        ],
+        "volume": 3.03349612,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 2
+      }
+    },
+    "threads": [
+      {
+        "snappy_name": "b++LR",
+        "branch": "+",
+        "word": "LR",
+        "word_len": 2,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 3,
+        "h1_torsion_order": 1,
+        "h1_torsion_divisors": [],
+        "volume": 2.02988321,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b++LLR",
+        "branch": "+",
+        "word": "LLR",
+        "word_len": 3,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 4,
+        "h1_torsion_order": 2,
+        "h1_torsion_divisors": [
+          2
+        ],
+        "volume": 2.66674478,
+        "chern_simons": -0.02083333,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b++LRR",
+        "branch": "+",
+        "word": "LRR",
+        "word_len": 3,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 4,
+        "h1_torsion_order": 2,
+        "h1_torsion_divisors": [
+          2
+        ],
+        "volume": 2.66674478,
+        "chern_simons": 0.02083333,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b++LLLR",
+        "branch": "+",
+        "word": "LLLR",
+        "word_len": 4,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 5,
+        "h1_torsion_order": 3,
+        "h1_torsion_divisors": [
+          3
+        ],
+        "volume": 2.98912028,
+        "chern_simons": -0.03689313,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 1,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b++LLRR",
+        "branch": "+",
+        "word": "LLRR",
+        "word_len": 4,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 6,
+        "h1_torsion_order": 4,
+        "h1_torsion_divisors": [
+          2,
+          2
+        ],
+        "volume": 3.66386238,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 3,
+          "5": 3,
+          "7": 3,
+          "11": 3,
+          "13": 3
+        },
+        "d5_count": 3,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b++LRRR",
+        "branch": "+",
+        "word": "LRRR",
+        "word_len": 4,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 5,
+        "h1_torsion_order": 3,
+        "h1_torsion_divisors": [
+          3
+        ],
+        "volume": 2.98912028,
+        "chern_simons": 0.03689313,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 1,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b++LLLLR",
+        "branch": "+",
+        "word": "LLLLR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 6,
+        "h1_torsion_order": 4,
+        "h1_torsion_divisors": [
+          4
+        ],
+        "volume": 3.17729328,
+        "chern_simons": -0.04906304,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b++LLLRR",
+        "branch": "+",
+        "word": "LLLRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 8,
+        "h1_torsion_order": 6,
+        "h1_torsion_divisors": [
+          6
+        ],
+        "volume": 4.17775107,
+        "chern_simons": -0.01984977,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 2,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 2,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 0,
+        "surj_A5": 3
+      },
+      {
+        "snappy_name": "b++LLRLR",
+        "branch": "+",
+        "word": "LLRLR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 10,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          8
+        ],
+        "volume": 4.75170197,
+        "chern_simons": -0.02161871,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b++LLRRR",
+        "branch": "+",
+        "word": "LLRRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 8,
+        "h1_torsion_order": 6,
+        "h1_torsion_divisors": [
+          6
+        ],
+        "volume": 4.17775107,
+        "chern_simons": 0.01984977,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 2,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 2,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 0,
+        "surj_A5": 3
+      },
+      {
+        "snappy_name": "b++LRLRR",
+        "branch": "+",
+        "word": "LRLRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 10,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          8
+        ],
+        "volume": 4.75170197,
+        "chern_simons": 0.02161871,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b++LRRRR",
+        "branch": "+",
+        "word": "LRRRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 6,
+        "h1_torsion_order": 4,
+        "h1_torsion_divisors": [
+          4
+        ],
+        "volume": 3.17729328,
+        "chern_simons": 0.04906304,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b++LLLLLR",
+        "branch": "+",
+        "word": "LLLLLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 7,
+        "h1_torsion_order": 5,
+        "h1_torsion_divisors": [
+          5
+        ],
+        "volume": 3.29690241,
+        "chern_simons": -0.05846571,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b++LLLLRR",
+        "branch": "+",
+        "word": "LLLLRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 10,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          2,
+          4
+        ],
+        "volume": 4.46465891,
+        "chern_simons": -0.03576568,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 4,
+          "5": 3,
+          "7": 3,
+          "11": 3,
+          "13": 3
+        },
+        "d5_count": 3,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b++LLLRLR",
+        "branch": "+",
+        "word": "LLLRLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 13,
+        "h1_torsion_order": 11,
+        "h1_torsion_divisors": [
+          11
+        ],
+        "volume": 5.13354843,
+        "chern_simons": -0.03968119,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 4
+      },
+      {
+        "snappy_name": "b++LLLRRR",
+        "branch": "+",
+        "word": "LLLRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 11,
+        "h1_torsion_order": 9,
+        "h1_torsion_divisors": [
+          3,
+          3
+        ],
+        "volume": 4.81381919,
+        "chern_simons": 0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 1
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 10,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b++LLRLRR",
+        "branch": "+",
+        "word": "LLRLRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 15,
+        "h1_torsion_order": 13,
+        "h1_torsion_divisors": [
+          13
+        ],
+        "volume": 5.62537825,
+        "chern_simons": 0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b++LLRRLR",
+        "branch": "+",
+        "word": "LLRRLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 15,
+        "h1_torsion_order": 13,
+        "h1_torsion_divisors": [
+          13
+        ],
+        "volume": 5.62537825,
+        "chern_simons": 0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b++LLRRRR",
+        "branch": "+",
+        "word": "LLRRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 10,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          2,
+          4
+        ],
+        "volume": 4.46465891,
+        "chern_simons": 0.03576568,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 4,
+          "5": 3,
+          "7": 3,
+          "11": 3,
+          "13": 3
+        },
+        "d5_count": 3,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b++LRLRRR",
+        "branch": "+",
+        "word": "LRLRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 13,
+        "h1_torsion_order": 11,
+        "h1_torsion_divisors": [
+          11
+        ],
+        "volume": 5.13354843,
+        "chern_simons": 0.03968119,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 4
+      },
+      {
+        "snappy_name": "b++LRRRRR",
+        "branch": "+",
+        "word": "LRRRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": 7,
+        "h1_torsion_order": 5,
+        "h1_torsion_divisors": [
+          5
+        ],
+        "volume": 3.29690241,
+        "chern_simons": 0.05846571,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b+-LR",
+        "branch": "-",
+        "word": "LR",
+        "word_len": 2,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -3,
+        "h1_torsion_order": 5,
+        "h1_torsion_divisors": [
+          5
+        ],
+        "volume": 2.02988321,
+        "chern_simons": 0.25,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b+-LLR",
+        "branch": "-",
+        "word": "LLR",
+        "word_len": 3,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -4,
+        "h1_torsion_order": 6,
+        "h1_torsion_divisors": [
+          6
+        ],
+        "volume": 2.66674478,
+        "chern_simons": 0.22916667,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b+-LRR",
+        "branch": "-",
+        "word": "LRR",
+        "word_len": 3,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -4,
+        "h1_torsion_order": 6,
+        "h1_torsion_divisors": [
+          6
+        ],
+        "volume": 2.66674478,
+        "chern_simons": -0.22916667,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b+-LLLR",
+        "branch": "-",
+        "word": "LLLR",
+        "word_len": 4,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -5,
+        "h1_torsion_order": 7,
+        "h1_torsion_divisors": [
+          7
+        ],
+        "volume": 2.98912028,
+        "chern_simons": 0.21310687,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b+-LLRR",
+        "branch": "-",
+        "word": "LLRR",
+        "word_len": 4,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -6,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          2,
+          4
+        ],
+        "volume": 3.66386238,
+        "chern_simons": 0.25,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 3,
+          "5": 3,
+          "7": 3,
+          "11": 3,
+          "13": 3
+        },
+        "d5_count": 3,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b+-LRRR",
+        "branch": "-",
+        "word": "LRRR",
+        "word_len": 4,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -5,
+        "h1_torsion_order": 7,
+        "h1_torsion_divisors": [
+          7
+        ],
+        "volume": 2.98912028,
+        "chern_simons": -0.21310687,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b+-LLLLR",
+        "branch": "-",
+        "word": "LLLLR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -6,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          8
+        ],
+        "volume": 3.17729328,
+        "chern_simons": 0.20093696,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b+-LLLRR",
+        "branch": "-",
+        "word": "LLLRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -8,
+        "h1_torsion_order": 10,
+        "h1_torsion_divisors": [
+          10
+        ],
+        "volume": 4.17775107,
+        "chern_simons": 0.23015023,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 3
+      },
+      {
+        "snappy_name": "b+-LLRLR",
+        "branch": "-",
+        "word": "LLRLR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -10,
+        "h1_torsion_order": 12,
+        "h1_torsion_divisors": [
+          12
+        ],
+        "volume": 4.75170197,
+        "chern_simons": 0.22838129,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b+-LLRRR",
+        "branch": "-",
+        "word": "LLRRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -8,
+        "h1_torsion_order": 10,
+        "h1_torsion_divisors": [
+          10
+        ],
+        "volume": 4.17775107,
+        "chern_simons": -0.23015023,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 3
+      },
+      {
+        "snappy_name": "b+-LRLRR",
+        "branch": "-",
+        "word": "LRLRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -10,
+        "h1_torsion_order": 12,
+        "h1_torsion_divisors": [
+          12
+        ],
+        "volume": 4.75170197,
+        "chern_simons": -0.22838129,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b+-LRRRR",
+        "branch": "-",
+        "word": "LRRRR",
+        "word_len": 5,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -6,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          8
+        ],
+        "volume": 3.17729328,
+        "chern_simons": -0.20093696,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b+-LLLLLR",
+        "branch": "-",
+        "word": "LLLLLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -7,
+        "h1_torsion_order": 9,
+        "h1_torsion_divisors": [
+          9
+        ],
+        "volume": 3.29690241,
+        "chern_simons": 0.19153429,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 4,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b+-LLLLRR",
+        "branch": "-",
+        "word": "LLLLRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -10,
+        "h1_torsion_order": 12,
+        "h1_torsion_divisors": [
+          2,
+          6
+        ],
+        "volume": 4.46465891,
+        "chern_simons": 0.21423432,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 3,
+          "5": 3,
+          "7": 3,
+          "11": 3,
+          "13": 3
+        },
+        "d5_count": 3,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b+-LLLRLR",
+        "branch": "-",
+        "word": "LLLRLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -13,
+        "h1_torsion_order": 15,
+        "h1_torsion_divisors": [
+          15
+        ],
+        "volume": 5.13354843,
+        "chern_simons": 0.21031881,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 1,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 4
+      },
+      {
+        "snappy_name": "b+-LLLRRR",
+        "branch": "-",
+        "word": "LLLRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -11,
+        "h1_torsion_order": 13,
+        "h1_torsion_divisors": [
+          13
+        ],
+        "volume": 4.81381919,
+        "chern_simons": 0.25,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 4,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b+-LLRLRR",
+        "branch": "-",
+        "word": "LLRLRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -15,
+        "h1_torsion_order": 17,
+        "h1_torsion_divisors": [
+          17
+        ],
+        "volume": 5.62537825,
+        "chern_simons": 0.25,
+        "is_amphichiral": true,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 1
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b+-LLRRLR",
+        "branch": "-",
+        "word": "LLRRLR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -15,
+        "h1_torsion_order": 17,
+        "h1_torsion_divisors": [
+          17
+        ],
+        "volume": 5.62537825,
+        "chern_simons": 0.25,
+        "is_amphichiral": true,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 1
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b+-LLRRRR",
+        "branch": "-",
+        "word": "LLRRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -10,
+        "h1_torsion_order": 12,
+        "h1_torsion_divisors": [
+          2,
+          6
+        ],
+        "volume": 4.46465891,
+        "chern_simons": -0.21423432,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 3,
+          "5": 3,
+          "7": 3,
+          "11": 3,
+          "13": 3
+        },
+        "d5_count": 3,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b+-LRLRRR",
+        "branch": "-",
+        "word": "LRLRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -13,
+        "h1_torsion_order": 15,
+        "h1_torsion_divisors": [
+          15
+        ],
+        "volume": 5.13354843,
+        "chern_simons": -0.21031881,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 1,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 4
+      },
+      {
+        "snappy_name": "b+-LRRRRR",
+        "branch": "-",
+        "word": "LRRRRR",
+        "word_len": 6,
+        "orientable": true,
+        "det_M": 1,
+        "trace_M": -7,
+        "h1_torsion_order": 9,
+        "h1_torsion_divisors": [
+          9
+        ],
+        "volume": 3.29690241,
+        "chern_simons": -0.19153429,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 4,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b-+L",
+        "branch": "P",
+        "word": "L",
+        "word_len": 1,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 1,
+        "h1_torsion_order": 1,
+        "h1_torsion_divisors": [],
+        "volume": 1.01494161,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b-+LL",
+        "branch": "P",
+        "word": "LL",
+        "word_len": 2,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 2,
+        "h1_torsion_order": 2,
+        "h1_torsion_divisors": [
+          2
+        ],
+        "volume": 1.83193119,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b-+LLL",
+        "branch": "P",
+        "word": "LLL",
+        "word_len": 3,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 3,
+        "h1_torsion_order": 3,
+        "h1_torsion_divisors": [
+          3
+        ],
+        "volume": 2.40690959,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 1
+      },
+      {
+        "snappy_name": "b-+LLLL",
+        "branch": "P",
+        "word": "LLLL",
+        "word_len": 4,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 4,
+        "h1_torsion_order": 4,
+        "h1_torsion_divisors": [
+          4
+        ],
+        "volume": 2.78680456,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b-+LLRL",
+        "branch": "P",
+        "word": "LLRL",
+        "word_len": 4,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 6,
+        "h1_torsion_order": 6,
+        "h1_torsion_divisors": [
+          6
+        ],
+        "volume": 3.77750738,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "11": 1,
+          "13": 1
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b-+LLLLL",
+        "branch": "P",
+        "word": "LLLLL",
+        "word_len": 5,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 5,
+        "h1_torsion_order": 5,
+        "h1_torsion_divisors": [
+          5
+        ],
+        "volume": 3.03349612,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_boundary_trivial_count": 1,
+        "d5_all_boundary_trivial": true,
+        "d5_any_boundary_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "snappy_name": "b-+LLLRL",
+        "branch": "P",
+        "word": "LLLRL",
+        "word_len": 5,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 8,
+        "h1_torsion_order": 8,
+        "h1_torsion_divisors": [
+          2,
+          4
+        ],
+        "volume": 4.21439419,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 3,
+          "5": 3,
+          "7": 3,
+          "11": 3,
+          "13": 3
+        },
+        "d5_count": 3,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "snappy_name": "b-+LLRLL",
+        "branch": "P",
+        "word": "LLRLL",
+        "word_len": 5,
+        "orientable": false,
+        "det_M": -1,
+        "trace_M": 9,
+        "h1_torsion_order": 9,
+        "h1_torsion_divisors": [
+          9
+        ],
+        "volume": 4.55814401,
+        "chern_simons": null,
+        "is_amphichiral": null,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_boundary_trivial_count": 0,
+        "d5_all_boundary_trivial": false,
+        "d5_any_boundary_trivial": false,
+        "surj_2T": 4,
+        "surj_A5": 2
+      }
+    ]
+  },
+  "OW1-C": {
+    "total_knots": 35,
+    "hyperbolic_count": 31,
+    "non_hyperbolic_knots": [
+      "3_1",
+      "5_1",
+      "7_1",
+      "8_19"
+    ],
+    "cross_check_mismatches": {
+      "det_fox_vs_seifert": 0,
+      "dp_vs_divisibility_and_snf": 0,
+      "d5_longitude_nontrivial": 0,
+      "amphichiral_dual": 0,
+      "signature_vs_amphichiral": 0
+    },
+    "summary": {
+      "amphichiral_knots_all": [
+        "4_1",
+        "6_3",
+        "8_3",
+        "8_9",
+        "8_12",
+        "8_17",
+        "8_18"
+      ],
+      "d5_count": 8,
+      "d5_knots": [
+        "4_1",
+        "5_1",
+        "7_4",
+        "8_8",
+        "8_9",
+        "8_16",
+        "8_18",
+        "8_21"
+      ],
+      "surj_2T_count": 15,
+      "surj_2T_knots": [
+        "3_1",
+        "4_1",
+        "7_2",
+        "7_3",
+        "8_1",
+        "8_4",
+        "8_5",
+        "8_10",
+        "8_11",
+        "8_13",
+        "8_15",
+        "8_18",
+        "8_19",
+        "8_20",
+        "8_21"
+      ],
+      "surj_A5_count": 21,
+      "surj_A5_knots": [
+        "3_1",
+        "5_1",
+        "5_2",
+        "6_3",
+        "7_4",
+        "8_1",
+        "8_3",
+        "8_4",
+        "8_5",
+        "8_6",
+        "8_7",
+        "8_8",
+        "8_10",
+        "8_11",
+        "8_15",
+        "8_16",
+        "8_17",
+        "8_18",
+        "8_19",
+        "8_20",
+        "8_21"
+      ],
+      "d5_and_2T_count": 3,
+      "d5_and_2T_knots": [
+        "4_1",
+        "8_18",
+        "8_21"
+      ],
+      "d5_and_2T_hyperbolic_knots": [
+        "4_1",
+        "8_18",
+        "8_21"
+      ],
+      "d5_and_2T_hyperbolic_chiral_knots": [
+        "8_21"
+      ],
+      "d5_and_2T_hyperbolic_amphichiral_knots": [
+        "4_1",
+        "8_18"
+      ],
+      "d5_and_2T_and_A5_knots": [
+        "8_18",
+        "8_21"
+      ]
+    },
+    "knots": [
+      {
+        "knot": "3_1",
+        "det": 3,
+        "det_seifert": 3,
+        "h1_double_branched_invariants": [
+          3
+        ],
+        "signature_exact": -2,
+        "is_hyperbolic": false,
+        "volume": 0,
+        "chern_simons": null,
+        "is_amphichiral": false,
+        "self_isometry_count": null,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 1
+      },
+      {
+        "knot": "4_1",
+        "det": 5,
+        "det_seifert": 5,
+        "h1_double_branched_invariants": [
+          5
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 2.02988321,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "knot": "5_1",
+        "det": 5,
+        "det_seifert": 5,
+        "h1_double_branched_invariants": [
+          5
+        ],
+        "signature_exact": -4,
+        "is_hyperbolic": false,
+        "volume": 0,
+        "chern_simons": null,
+        "is_amphichiral": false,
+        "self_isometry_count": null,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 0,
+        "surj_A5": 2
+      },
+      {
+        "knot": "5_2",
+        "det": 7,
+        "det_seifert": 7,
+        "h1_double_branched_invariants": [
+          7
+        ],
+        "signature_exact": 2,
+        "is_hyperbolic": true,
+        "volume": 2.82812209,
+        "chern_simons": -0.15320413,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 1,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "knot": "6_1",
+        "det": 9,
+        "det_seifert": 9,
+        "h1_double_branched_invariants": [
+          9
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 3.16396323,
+        "chern_simons": 0.15597702,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "6_2",
+        "det": 11,
+        "det_seifert": 11,
+        "h1_double_branched_invariants": [
+          11
+        ],
+        "signature_exact": 2,
+        "is_hyperbolic": true,
+        "volume": 4.40083252,
+        "chern_simons": -0.2024925,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 1,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "6_3",
+        "det": 13,
+        "det_seifert": 13,
+        "h1_double_branched_invariants": [
+          13
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 5.69302109,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 1
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "knot": "7_1",
+        "det": 7,
+        "det_seifert": 7,
+        "h1_double_branched_invariants": [
+          7
+        ],
+        "signature_exact": -6,
+        "is_hyperbolic": false,
+        "volume": 0,
+        "chern_simons": null,
+        "is_amphichiral": false,
+        "self_isometry_count": null,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 1,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "7_2",
+        "det": 11,
+        "det_seifert": 11,
+        "h1_double_branched_invariants": [
+          11
+        ],
+        "signature_exact": -2,
+        "is_hyperbolic": true,
+        "volume": 3.33174423,
+        "chern_simons": 0.05515353,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 1,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "knot": "7_3",
+        "det": 13,
+        "det_seifert": 13,
+        "h1_double_branched_invariants": [
+          13
+        ],
+        "signature_exact": -4,
+        "is_hyperbolic": true,
+        "volume": 4.5921257,
+        "chern_simons": -0.18722018,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 1
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "knot": "7_4",
+        "det": 15,
+        "det_seifert": 15,
+        "h1_double_branched_invariants": [
+          15
+        ],
+        "signature_exact": 2,
+        "is_hyperbolic": true,
+        "volume": 5.1379412,
+        "chern_simons": 0.02172669,
+        "is_amphichiral": false,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "knot": "7_5",
+        "det": 17,
+        "det_seifert": 17,
+        "h1_double_branched_invariants": [
+          17
+        ],
+        "signature_exact": -4,
+        "is_hyperbolic": true,
+        "volume": 6.44353738,
+        "chern_simons": -0.12055587,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "7_6",
+        "det": 19,
+        "det_seifert": 19,
+        "h1_double_branched_invariants": [
+          19
+        ],
+        "signature_exact": -2,
+        "is_hyperbolic": true,
+        "volume": 7.08492595,
+        "chern_simons": -0.18228319,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "7_7",
+        "det": 21,
+        "det_seifert": 21,
+        "h1_double_branched_invariants": [
+          21
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 7.64337517,
+        "chern_simons": 0.1329856,
+        "is_amphichiral": false,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 1,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "8_1",
+        "det": 13,
+        "det_seifert": 13,
+        "h1_double_branched_invariants": [
+          13
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 3.42720525,
+        "chern_simons": 0.22213312,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 1
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_2",
+        "det": 17,
+        "det_seifert": 17,
+        "h1_double_branched_invariants": [
+          17
+        ],
+        "signature_exact": -4,
+        "is_hyperbolic": true,
+        "volume": 4.93524268,
+        "chern_simons": -0.21291851,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "8_3",
+        "det": 17,
+        "det_seifert": 17,
+        "h1_double_branched_invariants": [
+          17
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 5.2386841,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 2
+      },
+      {
+        "knot": "8_4",
+        "det": 19,
+        "det_seifert": 19,
+        "h1_double_branched_invariants": [
+          19
+        ],
+        "signature_exact": 2,
+        "is_hyperbolic": true,
+        "volume": 5.50048642,
+        "chern_simons": 0.18195281,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_5",
+        "det": 21,
+        "det_seifert": 21,
+        "h1_double_branched_invariants": [
+          21
+        ],
+        "signature_exact": 4,
+        "is_hyperbolic": true,
+        "volume": 6.99718915,
+        "chern_simons": 0.18207828,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 1,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "knot": "8_6",
+        "det": 23,
+        "det_seifert": 23,
+        "h1_double_branched_invariants": [
+          23
+        ],
+        "signature_exact": -2,
+        "is_hyperbolic": true,
+        "volume": 7.47523743,
+        "chern_simons": 0.0725349,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 2
+      },
+      {
+        "knot": "8_7",
+        "det": 23,
+        "det_seifert": 23,
+        "h1_double_branched_invariants": [
+          23
+        ],
+        "signature_exact": -2,
+        "is_hyperbolic": true,
+        "volume": 7.02219659,
+        "chern_simons": 0.13195856,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_8",
+        "det": 25,
+        "det_seifert": 25,
+        "h1_double_branched_invariants": [
+          25
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 7.80134122,
+        "chern_simons": 0.11709937,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_9",
+        "det": 25,
+        "det_seifert": 25,
+        "h1_double_branched_invariants": [
+          25
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 7.58818022,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "8_10",
+        "det": 27,
+        "det_seifert": 27,
+        "h1_double_branched_invariants": [
+          27
+        ],
+        "signature_exact": 2,
+        "is_hyperbolic": true,
+        "volume": 8.65114856,
+        "chern_simons": -0.15705232,
+        "is_amphichiral": false,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "knot": "8_11",
+        "det": 27,
+        "det_seifert": 27,
+        "h1_double_branched_invariants": [
+          27
+        ],
+        "signature_exact": -2,
+        "is_hyperbolic": true,
+        "volume": 8.28631682,
+        "chern_simons": -0.01930934,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_12",
+        "det": 29,
+        "det_seifert": 29,
+        "h1_double_branched_invariants": [
+          29
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 8.93585693,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 8,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "8_13",
+        "det": 29,
+        "det_seifert": 29,
+        "h1_double_branched_invariants": [
+          29
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 8.5312322,
+        "chern_simons": 0.19278366,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 0
+      },
+      {
+        "knot": "8_14",
+        "det": 31,
+        "det_seifert": 31,
+        "h1_double_branched_invariants": [
+          31
+        ],
+        "signature_exact": 2,
+        "is_hyperbolic": true,
+        "volume": 9.21780032,
+        "chern_simons": -0.05199305,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 0
+      },
+      {
+        "knot": "8_15",
+        "det": 33,
+        "det_seifert": 33,
+        "h1_double_branched_invariants": [
+          33
+        ],
+        "signature_exact": -4,
+        "is_hyperbolic": true,
+        "volume": 9.93064829,
+        "chern_simons": 0.01842472,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 1,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "knot": "8_16",
+        "det": 35,
+        "det_seifert": 35,
+        "h1_double_branched_invariants": [
+          35
+        ],
+        "signature_exact": 2,
+        "is_hyperbolic": true,
+        "volume": 10.57902192,
+        "chern_simons": -0.15138167,
+        "is_amphichiral": false,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 0,
+          "5": 1,
+          "7": 1,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_17",
+        "det": 37,
+        "det_seifert": 37,
+        "h1_double_branched_invariants": [
+          37
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 10.98590761,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 0,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 0,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_18",
+        "det": 45,
+        "det_seifert": 45,
+        "h1_double_branched_invariants": [
+          3,
+          15
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 12.35090621,
+        "chern_simons": -0.0,
+        "is_amphichiral": true,
+        "self_isometry_count": 16,
+        "dp_surjections": {
+          "3": 4,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 10,
+        "surj_A5": 4
+      },
+      {
+        "knot": "8_19",
+        "det": 3,
+        "det_seifert": 3,
+        "h1_double_branched_invariants": [
+          3
+        ],
+        "signature_exact": 6,
+        "is_hyperbolic": false,
+        "volume": 0,
+        "chern_simons": null,
+        "is_amphichiral": false,
+        "self_isometry_count": null,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 1
+      },
+      {
+        "knot": "8_20",
+        "det": 9,
+        "det_seifert": 9,
+        "h1_double_branched_invariants": [
+          9
+        ],
+        "signature_exact": 0,
+        "is_hyperbolic": true,
+        "volume": 4.12490325,
+        "chern_simons": 0.10336345,
+        "is_amphichiral": false,
+        "self_isometry_count": 2,
+        "dp_surjections": {
+          "3": 1,
+          "5": 0,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 0,
+        "d5_longitude_trivial_count": 0,
+        "d5_all_longitude_trivial": false,
+        "surj_2T": 2,
+        "surj_A5": 2
+      },
+      {
+        "knot": "8_21",
+        "det": 15,
+        "det_seifert": 15,
+        "h1_double_branched_invariants": [
+          15
+        ],
+        "signature_exact": -2,
+        "is_hyperbolic": true,
+        "volume": 6.78371352,
+        "chern_simons": 0.2418046,
+        "is_amphichiral": false,
+        "self_isometry_count": 4,
+        "dp_surjections": {
+          "3": 1,
+          "5": 1,
+          "7": 0,
+          "11": 0,
+          "13": 0
+        },
+        "d5_count": 1,
+        "d5_longitude_trivial_count": 1,
+        "d5_all_longitude_trivial": true,
+        "surj_2T": 2,
+        "surj_A5": 3
+      }
+    ]
+  },
+  "OW1-D": {
+    "PF-OW1-1": {
+      "caught": true,
+      "eval": {
+        "d": 3,
+        "a": 2,
+        "b": 1,
+        "dim_centralizer": 4,
+        "dim_lambda_even": 4,
+        "y_vec_fund": [
+          -1,
+          -1,
+          2
+        ],
+        "y_multiset": {
+          "-2": 1,
+          "0": 1,
+          "1": 2
+        },
+        "is_chiral": true,
+        "anomalies": {
+          "Tr_Y": 0,
+          "Tr_Y3": -6,
+          "Tr_SUa2_Y": 2,
+          "Tr_SUb2_Y": 0
+        },
+        "anomaly_free": false,
+        "kernel_order_y_reduced": 2,
+        "kernel_order_faithful_u1": 2,
+        "gcd_even_charges": 1,
+        "is_cyclic_z6": false,
+        "collar_odd_dim": 2,
+        "collar_even_dim": 4,
+        "collar_odd_b_multiplets": 2,
+        "collar_odd_a_multiplets": 0,
+        "matches_sm_6y": false,
+        "is_sm_doublet_triplet_split": false,
+        "passes_full_sm_bar": false
+      }
+    },
+    "PF-OW1-2": {
+      "caught": true,
+      "eval": {
+        "d": 4,
+        "a": 2,
+        "b": 2,
+        "dim_centralizer": 7,
+        "dim_lambda_even": 8,
+        "y_vec_fund": [
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "y_multiset": {
+          "-2": 1,
+          "0": 6,
+          "2": 1
+        },
+        "is_chiral": false,
+        "anomalies": {
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "Tr_SUa2_Y": 0,
+          "Tr_SUb2_Y": 0
+        },
+        "anomaly_free": true,
+        "kernel_order_y_reduced": 4,
+        "kernel_order_faithful_u1": 2,
+        "gcd_even_charges": 2,
+        "is_cyclic_z6": false,
+        "collar_odd_dim": 4,
+        "collar_even_dim": 4,
+        "collar_odd_b_multiplets": 2,
+        "collar_odd_a_multiplets": 0,
+        "matches_sm_6y": false,
+        "is_sm_doublet_triplet_split": false,
+        "passes_full_sm_bar": false
+      }
+    },
+    "PF-OW1-3": {
+      "caught": true,
+      "det_P": -1,
+      "eval": {
+        "d": 5,
+        "a": 4,
+        "b": 1,
+        "dim_centralizer": 16,
+        "dim_lambda_even": 16,
+        "y_vec_fund": [
+          -1,
+          -1,
+          -1,
+          -1,
+          4
+        ],
+        "y_multiset": {
+          "-4": 1,
+          "-2": 6,
+          "0": 1,
+          "1": 4,
+          "3": 4
+        },
+        "is_chiral": true,
+        "anomalies": {
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "Tr_SUa2_Y": 0,
+          "Tr_SUb2_Y": 0
+        },
+        "anomaly_free": true,
+        "kernel_order_y_reduced": 4,
+        "kernel_order_faithful_u1": 4,
+        "gcd_even_charges": 1,
+        "is_cyclic_z6": false,
+        "collar_odd_dim": 2,
+        "collar_even_dim": 8,
+        "collar_odd_b_multiplets": 2,
+        "collar_odd_a_multiplets": 0,
+        "matches_sm_6y": false,
+        "is_sm_doublet_triplet_split": false,
+        "passes_full_sm_bar": false
+      }
+    },
+    "PF-OW1-4": {
+      "caught": true,
+      "eval": {
+        "d": 7,
+        "a": 4,
+        "b": 3,
+        "dim_centralizer": 24,
+        "dim_lambda_even": 64,
+        "y_vec_fund": [
+          -3,
+          -3,
+          -3,
+          -3,
+          4,
+          4,
+          4
+        ],
+        "y_multiset": {
+          "-12": 1,
+          "-6": 6,
+          "-5": 12,
+          "-4": 3,
+          "0": 1,
+          "1": 12,
+          "2": 18,
+          "3": 4,
+          "8": 3,
+          "9": 4
+        },
+        "is_chiral": true,
+        "anomalies": {
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "Tr_SUa2_Y": 0,
+          "Tr_SUb2_Y": 0
+        },
+        "anomaly_free": true,
+        "kernel_order_y_reduced": 12,
+        "kernel_order_faithful_u1": 12,
+        "gcd_even_charges": 1,
+        "is_cyclic_z6": false,
+        "collar_odd_dim": 6,
+        "collar_even_dim": 8,
+        "collar_odd_b_multiplets": 2,
+        "collar_odd_a_multiplets": 0,
+        "matches_sm_6y": false,
+        "is_sm_doublet_triplet_split": false,
+        "passes_full_sm_bar": false
+      }
+    },
+    "all_4_caught": true
+  }
+}
