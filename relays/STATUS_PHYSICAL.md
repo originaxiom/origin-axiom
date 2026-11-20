@@ -1,9 +1,11 @@
 seat: physical
 read: M22
 state: working
-on: C8 return of the charged zero modes and its physical kinetic law
+on: C8 charge-dependent boundary response on the cubic history and its native covers
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on a global operator or end response beyond projection of the flat fibre kernels
+next push: on the physical source or interior field joining the extending charged trace
+
+THREEFOLD_PERIPHERAL_RETURN_AND_DOUBLET_CHANNEL.md and THREEFOLD_END_RESPONSE_AND_INTERACTION_TENSOR.md compute the first charged cusp opening, the extendible cohomology lines, their deck characters and the kinetic end response. A vector-like weak doublet has a periodic boundary channel without its color partner on the threefold cover. The up-type E8 bracket survives there; the down-type tensor on those traces vanishes. The core gives a positive scalar-gradient cost and all individual charged traces disappear under deck-invariant descent. No physical Higgs, Yukawa coupling or SM3 claimed.
 
 FORM_RETURN_DETERMINANT_AND_THREE_FAMILY_TEST.md derives the full determinant of kinetic Hodge transport for the geometric form modes. It excludes three fixed net families in the remaining scalar end and the irreducible finite cyclic-sheet ansatz for the specified projection. Independent review is pending.
 
