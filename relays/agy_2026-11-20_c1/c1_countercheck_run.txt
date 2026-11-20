@@ -1,0 +1,34 @@
+=== IC1: INDEPENDENT SO(3) NULL-HIGGS MAXIMIZATION VS ANALYTIC |V_tb| CEILING ===
+  [PASS] Independent Sym^2(C^2) contraction matches B1736 vector form (residual 2.48e-16).
+  gamma=0.000000: SO(3) max |V_tb| = 0.999928, analytic (1+sinT)/(3-sinT) = 1.000000
+  gamma=0.250000: SO(3) max |V_tb| = 0.968600, analytic (1+sinT)/(3-sinT) = 0.968742
+  gamma=0.446594: SO(3) max |V_tb| = 0.899990, analytic (1+sinT)/(3-sinT) = 0.900000
+  gamma=0.700000: SO(3) max |V_tb| = 0.749829, analytic (1+sinT)/(3-sinT) = 0.749891
+  gamma=1.000000: SO(3) max |V_tb| = 0.333333, analytic (1+sinT)/(3-sinT) = 0.333333
+  [PASS] B1967 escape JSON independently yields gamma = 0.300880 < 0.446594.
+
+=== IC2: 60-DIGIT GRAMIAN CHECK OF r = 1/2000 FULL-HIERARCHY WITNESS ===
+  Gramian su ratios: m2/m3=0.000500000029688, m1/m2=0.049999996875
+  Gramian sd ratios: m2/m3=0.00799999200001, m1/m2=0.0625000039063
+  Gramian min_k |V_kk| = 1.0
+  At r = 1/1000: minimal monomial m1/m2 at m2/m3=0.01 is 0.0999997749999 (razor-thin 2.25e-7 margin); at r = 1001/1000000 it is 0.100099774575 > 0.1
+  [PASS] 60-digit Gramian check of r = 1/2000 witness and exact 1/1000 monomial threshold verified.
+
+=== IC3: ZERO-SHARED-CODE THETA / GAUSS-DIGAMMA / SERRE S(tau) CUSP & (S,S) CHECK ===
+  y=12: max |det R_mat|/||R_mat||^2 = 6.32e-88, min_gamma(8 order-5/7 pts) = 0.99924407
+  y=24: max |det R_mat|/||R_mat||^2 = 3.684e-130, min_gamma(8 order-5/7 pts) = 0.99999650
+  L=5/2 (1/5,2/5): min_diag(y=28)=1.0, slopes=[0.1, 0.6, 0.2, 0.55], max_err=7.557e-7
+  L=5/2 (2/5,1/5): min_diag(y=28)=1.0, slopes=[0.3, 0.5, 0.2, 0.55], max_err=2.177e-7
+  L=16/5 (1/5,2/5): min_diag(y=28)=1.0, slopes=[0.1, 0.6, 0.2, 0.55], max_err=6.41e-7
+  L=16/5 (2/5,1/5): min_diag(y=28)=1.0, slopes=[0.3, 0.5, 0.2, 0.55], max_err=2.296e-7
+  [PASS] Zero-shared-code Serre S(tau) + Gauss-sum F_u independently reproduces (S, S) alignment and B1945 exponents.
+
+=== IC4: PLANTED NEGATIVE CONTROLS (TESTING DETECTOR SENSITIVITY) ===
+  [CAUGHT Plant 1] +(u.h)I_3 sign fault breaks Y h = (h.h) u (residual = 0.3082).
+  [CAUGHT Plant 2] gamma = 0.60 > 6*sqrt(2)/19 caps null-Higgs |V_tb| at 0.81818 < 0.9.
+  [CAUGHT Plant 3] r = 0.005 > 1/1000 forces monomial m1/m2 = 0.625 > 0.1.
+  [CAUGHT Plant 4] Mismatched q_L^(up)=2 breaks shared-Q_L residue spinor alignment (gamma_res = 6.561e-03 << 1).
+  [CAUGHT Plant 5] S_tilde up-sector substitution collapses alignment (min_k |V_kk| = 1.595e-37).
+  [PASS] 5/5 planted faults caught.
+
+ALL AGY-C1 INDEPENDENT COUNTERCHECKS PASSED (5/5 PLANTS CAUGHT; 0 of 19).
