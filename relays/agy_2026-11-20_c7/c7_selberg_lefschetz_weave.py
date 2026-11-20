@@ -17,8 +17,9 @@ r"""Card AGY-C7 producer script (0 of 19, pure data-free algebra & 52-digit modu
        (level-40 cover of tau_*^+) and (13/100) + 8i.
      - Verifies exact antipodal left-Gramian invariance Y_f(-w) Y_f(-w)^H == Y_f(w) Y_f(w)^H and F_{-w} == F_w to < 1e-44.
      - Proves numerically across all 3,119 points the exact dyadic order-4 singularity law: det(M_w) = (u_1^2 + u_i^2 +
-       u_j^2 + u_k^2)/4 == 0 (< 1e-40, forcing rank(Y_f) = 2 and m_1 = 0 identically) on all 12 points of P_4 in (u, d, e),
-       all 96 lepton points of P_12 (since 3*P_12 = P_4), and 32 quark points of P_12, with full rank 3 everywhere else.
+       u_j^2 + u_k^2)/4 == 0 (< 1e-40, forcing rank(Y_f) = 2 and m_1 = 0 identically) universally on all 12 points of
+       P_4 in (u, d, e) and all 96 lepton points of P_12 (since 3*P_12 = P_4), plus 32 quark points of P_12 on the
+       CP-symmetric axis 2*Re(tau) in Z (0 quark points at generic Re(tau) = 13/100).
      - Catches Planted Control 1 (t = 3 taped-holes truncation collapses |r_e - r_d|/r_d to < 1e-35 < 1e-30 in both
        arithmetic and geometric rules), while opening 3 <= t <= 20 at s = 2 automatically splits both (m_1/m_2, m_2/m_3)
        lepton-vs-down ratios by > 20% (max relative split > 90%).
@@ -583,7 +584,8 @@ def evaluate_modulus_weave(tx: Fr, ty: Fr, label: str, canon_l2, cls50: list) ->
         f"rank<3 loci (d, |P_d|, zero_u, zero_d, zero_e) = {zero_rank_summary}; min non-zero sv[0] = {mp.nstr(min_sv0_non_p4, 5)}."
     )
     assert max_det_mw_p4 < mp.mpf("1e-40")
-    assert zero_rank_summary == [(4, 12, 12, 12, 12), (12, 96, 32, 32, 96)]
+    exp_p12_q = 32 if ((2 * tx) % 1 == 0) else 0
+    assert zero_rank_summary == [(4, 12, 12, 12, 12), (12, 96, exp_p12_q, exp_p12_q, 96)]
 
     # Print key individual orbit averages P_2, P_3, P_5, P_6:
     for d_show in (2, 3, 5, 6):
