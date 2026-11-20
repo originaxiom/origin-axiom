@@ -1,0 +1,1 @@
+fc268de72095c9d04c0f23e50e7d3bf6f85bfb056e9dd536556d61ce40adb9a6  relays/a2_wg96/verify_a2_wg96.py
