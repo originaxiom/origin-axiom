@@ -1,9 +1,11 @@
 seat: physical
 read: M22
 state: working
-on: C8 complete charged kernels for the level-five flat puncture and physical return
+on: C8 return of the charged zero modes and its physical kinetic law
 needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on physical fermion transport or vacuum selection in the admitted gauge histories
+next push: on the surviving level-five candidate's actual mode transport
+
+PHYSICAL_RETURN_CAPACITY_OF_THE_CHIRAL_FIBRE.md counts four forward 10s on the cubic-root background. A parity-fixed three-family spectrum needs at least six, excluding that zero-mode projection. Among scalar level-five ends, k=4 alone passes this necessary capacity check in the specified orientation. Its physical return remains uncomputed.
 
 ONE_RETURN_WITH_THREE_NET_FIBRE_FAMILIES.md supplies a different gauge history satisfying both return equations with three net 10 and dual-five families on its fibre and the connected SM history stabilizer. Physical fermion transport is still open.
 
