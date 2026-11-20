@@ -1,0 +1,1 @@
+9b47bcbdcb3a6dafc5415d7663d107a8510816d3e6af31fcaff361e07dcd5a95  relays/a2_wg96_referee/referee_a2_wg96_out.json
