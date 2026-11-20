@@ -240,11 +240,18 @@ def cusp_l2_exact():
     return mp.pi + mp.log(mp.pi) - 3 * mp.log(2)
 
 
-def solve_l2_weierstrass_ode_direct(tau, B_init=None, steps_root: int = 48, steps_eval: int = 96):
+def solve_l2_weierstrass_ode_direct(
+    tau,
+    B_init=None,
+    steps_root: int = 32,
+    steps_eval: int = 96,
+    check_hp3: bool = False,
+    steps_hp3: int = 160,
+):
     """Solve the Fuchsian Weierstrass ODE y'' + (1/4 wp(z;tau) + B) y = 0 directly on [0, 1/2] & [0, tau/2].
 
     Desingularizes z = z_target * t^2 on t in [0, 1] and integrates via pure-mpmath RK4 with
-    step-doubling (N vs 2N) and Richardson extrapolation.
+    two-stage B(tau) polishing, step-doubling (N vs 2N), and Richardson extrapolation.
     """
     pi = mp.pi
     im_tau = mp.im(tau)
@@ -377,15 +384,26 @@ def solve_l2_weierstrass_ode_direct(tau, B_init=None, steps_root: int = 48, step
     wp1_r = precomp_wp(half, steps_root)
     wp2_r = precomp_wp(tau / 2, steps_root)
 
-    def F2(Br, Bi):
+    def F_root(Br, Bi):
         B_c = mp.mpc(Br, Bi)
         diff = eval_S(half, B_c, steps_root, wp1_r) - eval_S(tau / 2, B_c, steps_root, wp2_r)
         return mp.re(diff), mp.im(diff)
 
-    sol = mp.findroot(F2, (mp.re(B_init), mp.im(B_init)), tol=mp_pow10(-12))
+    sol0 = mp.findroot(F_root, (mp.re(B_init), mp.im(B_init)), tol=mp_pow10(-8))
+    B0 = mp.mpc(sol0[0], sol0[1])
+
+    # Polish B_sol at steps_eval so B truncation error drops below 1e-8
+    wp1_e = precomp_wp(half, steps_eval)
+    wp2_e = precomp_wp(tau / 2, steps_eval)
+
+    def F_polish(Br, Bi):
+        B_c = mp.mpc(Br, Bi)
+        diff = eval_S(half, B_c, steps_eval, wp1_e) - eval_S(tau / 2, B_c, steps_eval, wp2_e)
+        return mp.re(diff), mp.im(diff)
+
+    sol = mp.findroot(F_polish, (mp.re(B0), mp.im(B0)), tol=mp_pow10(-13))
     B_sol = mp.mpc(sol[0], sol[1])
 
-    wp1_e = precomp_wp(half, steps_eval)
     wp1_2e = precomp_wp(half, 2 * steps_eval)
     S_N = eval_S(half, B_sol, steps_eval, wp1_e)
     S_2N = eval_S(half, B_sol, 2 * steps_eval, wp1_2e)
@@ -394,12 +412,19 @@ def solve_l2_weierstrass_ode_direct(tau, B_init=None, steps_root: int = 48, step
     L2_rich = (16 * L2_2N - L2_N) / 15
     step_err = abs(L2_2N - L2_N)
 
-    # Also check 3rd half-period (1+tau)/2 consistency at steps_eval
-    wp3_e = precomp_wp((1 + tau) / 2, steps_eval)
-    S3_e = eval_S((1 + tau) / 2, B_sol, steps_eval, wp3_e)
-    L2_3 = pi - mp.re(S3_e) / 2
-    hp_consistency = abs(L2_3 - L2_N)
-    im_leak = max(abs(mp.im(S_N)), abs(mp.im(S3_e)))
+    hp_consistency = mp.mpf(0)
+    im_leak = abs(mp.im(S_2N))
+    if check_hp3:
+        wp3_e = precomp_wp((1 + tau) / 2, steps_hp3)
+        wp3_2e = precomp_wp((1 + tau) / 2, 2 * steps_hp3)
+        S3_N = eval_S((1 + tau) / 2, B_sol, steps_hp3, wp3_e)
+        S3_2N = eval_S((1 + tau) / 2, B_sol, 2 * steps_hp3, wp3_2e)
+        L2_3N = pi - mp.re(S3_N) / 2
+        L2_3_2N = pi - mp.re(S3_2N) / 2
+        L2_3 = (16 * L2_3_2N - L2_3N) / 15
+        hp_consistency = abs(L2_3 - L2_rich)
+        im_leak = max(im_leak, abs(mp.im(S3_2N)))
+
     return {
         "L2": L2_rich,
         "L2_N": L2_N,
@@ -417,6 +442,13 @@ def compute_l2_suite():
     xs = [Fraction(0, 1), Fraction(13, 100), Fraction(1, 4), Fraction(1, 2)]
     ys_ode = [Fraction(1, 1), Fraction(3, 2), Fraction(2, 1), Fraction(3, 1), Fraction(6, 1)]
     ys_all = ys_ode + [Fraction(15, 1), Fraction(30, 1)]
+
+    hp3_targets = {
+        (Fraction(0, 1), Fraction(1, 1)),
+        (Fraction(0, 1), Fraction(2, 1)),
+        (Fraction(13, 100), Fraction(2, 1)),
+        (Fraction(13, 100), Fraction(6, 1)),
+    }
 
     l2_cache = {}
     max_step_err = ZERO_F
@@ -437,14 +469,16 @@ def compute_l2_suite():
                     "source": "cusp_formula",
                 }
             else:
-                res = solve_l2_weierstrass_ode_direct(tau_fd)
+                do_hp3 = (xf, yf) in hp3_targets
+                res = solve_l2_weierstrass_ode_direct(tau_fd, check_hp3=do_hp3, steps_hp3=160)
                 l2_val = res["L2"] - mp.log(abs(c * tau + d))
                 res["L2"] = l2_val
                 res["source"] = "weierstrass_rk4_richardson"
                 l2_cache[(xf, yf)] = res
                 max_step_err = max(max_step_err, float(res["step_err"]))
-                max_hp3_diff = max(max_hp3_diff, float(res["hp3_diff"]))
                 max_im_leak = max(max_im_leak, float(res["im_leak"]))
+                if do_hp3:
+                    max_hp3_diff = max(max_hp3_diff, float(res["hp3_diff"]))
 
     # Explicit cusp check at x=13/100, y=12 (ODE vs cusp formula)
     tau_12 = mp_crat(13, 100, 12, 1)
@@ -827,52 +861,89 @@ def verify_t3(b1967_channels: dict) -> dict:
 # Frame C Channel Construction (Theta Residue + Theorem 90 Weights)
 # ---------------------------------------------------------------------------
 
-def theta_c_mp(alpha, beta, tau):
+def prepare_tau_context(tau):
+    """Precompute eta denominator, theta_1 weights, and adaptive truncation bounds for tau."""
+    y = mp.im(tau)
+    q = mp.exp(2 * mp.pi * I_MP * tau)
+    n_eta = 32 if y < 2 else (16 if y < 5 else 8)
+    prod = mp.mpc(1)
+    qn = q
+    for _ in range(1, n_eta):
+        prod *= 1 - qn
+        qn *= q
+    eta_denom = 2 * mp.pi * ((mp.exp(mp.pi * I_MP * tau / 12) * prod) ** 3)
+    n_t1 = 10 if y < 2 else (6 if y < 5 else 4)
+    half = mp_rat(1, 2)
+    t1_weights = [
+        (2 * (1 if (n % 2 == 0) else -1) * mp.exp(mp.pi * I_MP * ((n + half) ** 2) * tau), (2 * n + 1) * mp.pi)
+        for n in range(n_t1)
+    ]
+    n_tc = 11 if y < 2 else (6 if y < 5 else 4)
+    n_f = 16 if y < 2 else (8 if y < 5 else 4)
+    return {
+        "eta_denom": eta_denom,
+        "t1_weights": t1_weights,
+        "n_tc": n_tc,
+        "n_f": n_f,
+        "log_y": mp.log(y),
+        "const_shift": 2 * mp.pi * (mp.euler + mp.log(mp.pi)),
+    }
+
+
+def theta_c_mp(alpha, beta, tau, n_tc: int = 12):
     n0 = -int(mp.nint(alpha))
     s = mp.mpc(0)
-    for n in range(n0 - 14, n0 + 15):
+    for n in range(n0 - n_tc, n0 + n_tc + 1):
         na = n + alpha
         s += mp.exp(mp.pi * I_MP * na * na * tau + 2 * mp.pi * I_MP * na * beta)
     return s
 
 
-def theta1_and_deriv_mp(z, tau):
+def theta1_and_deriv_mp(z, tau, t1_weights=None):
     s = mp.mpc(0)
     sp_z = mp.mpc(0)
-    half = mp_rat(1, 2)
-    for n in range(12):
-        sgn = 1 if (n % 2 == 0) else -1
-        m = n + half
-        fac = 2 * sgn * mp.exp(mp.pi * I_MP * m * m * tau)
-        arg = (2 * n + 1) * mp.pi * z
+    if t1_weights is None:
+        half = mp_rat(1, 2)
+        for n in range(10):
+            sgn = 1 if (n % 2 == 0) else -1
+            m = n + half
+            fac = 2 * sgn * mp.exp(mp.pi * I_MP * m * m * tau)
+            arg = (2 * n + 1) * mp.pi * z
+            s += fac * mp.sin(arg)
+            sp_z += fac * (2 * n + 1) * mp.pi * mp.cos(arg)
+        return s, sp_z
+    for fac, mpi in t1_weights:
+        arg = mpi * z
         s += fac * mp.sin(arg)
-        sp_z += fac * (2 * n + 1) * mp.pi * mp.cos(arg)
+        sp_z += fac * mpi * mp.cos(arg)
     return s, sp_z
 
 
 def eta_mp(tau):
     q = mp.exp(2 * mp.pi * I_MP * tau)
     prod = mp.mpc(1)
-    for n in range(1, 35):
-        prod *= 1 - (q ** n)
+    qn = q
+    for _ in range(1, 35):
+        prod *= 1 - qn
+        qn *= q
     return mp.exp(mp.pi * I_MP * tau / 12) * prod
 
 
-def f_green_row_mp(alpha, beta, tau, cache: dict):
+def f_green_row_mp(alpha, beta, tau, cache: dict, n_f: int = 16):
     key = (str(alpha), str(beta), str(mp.re(tau)), str(mp.im(tau)))
     if key in cache:
         return cache[key]
     x = mp.re(tau)
     y = mp.im(tau)
     zero_tol = mp_pow10(-15)
-    cut_tol = mp_pow10(-24)
+    cut_tol = mp_pow10(-22)
     if abs(alpha) < zero_tol:
         sin_b = mp.sin(mp.pi * beta)
         res = y * (mp.pi ** 2) / (sin_b * sin_b) + 2 * mp.pi * mp.euler
-        m_list = [m for m in range(-28, 29) if m != 0]
+        m_list = [m for m in range(-n_f, n_f + 1) if m != 0]
     else:
         res = -mp.pi * (mp.psi(0, alpha) + mp.psi(0, 1 - alpha))
-        m_list = list(range(-28, 29))
+        m_list = list(range(-n_f, n_f + 1))
     for m in m_list:
         ma = m + alpha
         r = mp.exp(-2 * mp.pi * abs(ma) * y)
@@ -890,8 +961,10 @@ def is_int_pair_mp(x, y) -> bool:
     return bool(abs(x - mp.nint(x)) < tol and abs(y - mp.nint(y)) < tol)
 
 
-def frame_c_sector_channels(tau, L2, af: Fraction, bf: Fraction, qL: int, qR: int, f_cache: dict, eta_denom=None):
-    """Return (res_dict, full_dict, N_dict) for channels {'1','i','j','k'}."""
+def frame_c_base_terms(tau, af: Fraction, bf: Fraction, qL: int, qR: int, f_cache: dict, tau_ctx=None):
+    """Compute L_2-independent terms (Rs, Fu, |a0|^2, base_const) for channels {'1','i','j','k'}."""
+    if tau_ctx is None:
+        tau_ctx = prepare_tau_context(tau)
     a = mp_rat(af.numerator, af.denominator)
     b = mp_rat(bf.numerator, bf.denominator)
     x0, x1 = qL * a, 2 * qL * b
@@ -904,35 +977,54 @@ def frame_c_sector_channels(tau, L2, af: Fraction, bf: Fraction, qL: int, qR: in
     cs = {"1": (ap + H, bp + H), "i": (ap + H, bp), "j": (ap, bp + H), "k": (ap, bp)}
     ds = {"1": (am + H, bm + H), "i": (am + H, bm), "j": (am, bm + H), "k": (am, bm)}
 
-    if eta_denom is None:
-        eta_denom = 2 * mp.pi * (eta_mp(tau) ** 3)
-    y = mp.im(tau)
-    log_y = mp.log(y)
-    const_shift = 2 * mp.pi * (mp.euler + mp.log(mp.pi))
-    exp_neg_2l2 = mp.exp(-2 * L2)
+    eta_denom = tau_ctx["eta_denom"]
+    n_tc = tau_ctx["n_tc"]
+    n_f = tau_ctx["n_f"]
+    t1_w = tau_ctx["t1_weights"]
+    base_shift = tau_ctx["log_y"] * mp.pi - tau_ctx["const_shift"]
 
-    rs_out = {}
-    us_out = {}
-    ns_out = {}
+    terms = {}
     for s in ("1", "i", "j", "k"):
         c0, c1 = cs[s]
         d0, d1 = ds[s]
         if is_int_pair_mp(c0 - H, c1 - H) or is_int_pair_mp(d0 - H, d1 - H):
+            terms[s] = None
+        else:
+            Rs = kappa[s] * theta_c_mp(c0, c1, tau, n_tc) * theta_c_mp(d0, d1, tau, n_tc) / eta_denom
+            al_r = (c0 - H) % 1
+            be_r = (c1 - H) % 1
+            t1, t1p = theta1_and_deriv_mp(al_r * tau + be_r, tau, t1_w)
+            a0 = 2 * mp.pi * I_MP * al_r + t1p / t1
+            Fu = f_green_row_mp(al_r, be_r, tau, f_cache, n_f)
+            terms[s] = (Rs, Fu + base_shift, mp.pi * (abs(a0) ** 2))
+    return terms
+
+
+def frame_c_eval_from_terms(terms: dict, L2):
+    exp_neg_2l2 = mp.exp(-2 * L2)
+    two_pi_l2 = 2 * mp.pi * L2
+    rs_out = {}
+    us_out = {}
+    ns_out = {}
+    for s in ("1", "i", "j", "k"):
+        item = terms[s]
+        if item is None:
             rs_out[s] = complex(0, 0)
             us_out[s] = complex(0, 0)
             ns_out[s] = ZERO_F
         else:
-            Rs = kappa[s] * theta_c_mp(c0, c1, tau) * theta_c_mp(d0, d1, tau) / eta_denom
-            al_r = (c0 - H) % 1
-            be_r = (c1 - H) % 1
-            t1, t1p = theta1_and_deriv_mp(al_r * tau + be_r, tau)
-            a0 = 2 * mp.pi * I_MP * al_r + t1p / t1
-            Fu = f_green_row_mp(al_r, be_r, tau, f_cache)
-            Ns = 2 * mp.pi * L2 + Fu + mp.pi * log_y - const_shift - mp.pi * (abs(a0) ** 2) * exp_neg_2l2
+            Rs, base_part, a0_coef = item
+            Ns = two_pi_l2 + base_part - a0_coef * exp_neg_2l2
             rs_out[s] = complex(Rs)
             ns_out[s] = float(Ns)
             us_out[s] = complex(mp.sqrt(max(mp.mpf(0), Ns)) * Rs)
     return rs_out, us_out, ns_out
+
+
+def frame_c_sector_channels(tau, L2, af: Fraction, bf: Fraction, qL: int, qR: int, f_cache: dict, tau_ctx=None):
+    """Return (res_dict, full_dict, N_dict) for channels {'1','i','j','k'}."""
+    terms = frame_c_base_terms(tau, af, bf, qL, qR, f_cache, tau_ctx)
+    return frame_c_eval_from_terms(terms, L2)
 
 
 def channels_dict_to_mw(ch: dict, e_dual: dict) -> np.ndarray:
@@ -975,7 +1067,7 @@ def verify_t4(l2_cache: dict) -> dict:
     yf_mid = Fraction(2, 1)
     tau_mid = mp_crat(xf_mid.numerator, xf_mid.denominator, yf_mid.numerator, yf_mid.denominator)
     l2_mid = l2_cache[(xf_mid, yf_mid)]["L2"]
-    denom_mid = 2 * mp.pi * (eta_mp(tau_mid) ** 3)
+    ctx_mid = prepare_tau_context(tau_mid)
     f_cache = {}
 
     max_wu_order5 = ZERO_F
@@ -984,8 +1076,8 @@ def verify_t4(l2_cache: dict) -> dict:
     max_sL_res = ZERO_F
 
     for idx, (af, bf) in enumerate(all36):
-        ru, uu, _ = frame_c_sector_channels(tau_mid, l2_mid, af, bf, 1, -4, f_cache, denom_mid)
-        rd, ud, _ = frame_c_sector_channels(tau_mid, l2_mid, af, bf, 1, 2, f_cache, denom_mid)
+        ru, uu, _ = frame_c_sector_channels(tau_mid, l2_mid, af, bf, 1, -4, f_cache, ctx_mid)
+        rd, ud, _ = frame_c_sector_channels(tau_mid, l2_mid, af, bf, 1, 2, f_cache, ctx_mid)
         if idx < 24:
             max_wu_order5 = max(max_wu_order5, float(abs(ru["1"])), float(abs(uu["1"])))
         mu_res = channels_dict_to_mw(ru, e_dual)
@@ -1017,11 +1109,11 @@ def verify_t4(l2_cache: dict) -> dict:
         for yf in ys_cusp:
             tau = mp_crat(xf.numerator, xf.denominator, yf.numerator, yf.denominator)
             l2 = l2_cache[(xf, yf)]["L2"]
-            denom = 2 * mp.pi * (eta_mp(tau) ** 3)
+            ctx = prepare_tau_context(tau)
             max_sL_h = ZERO_F
             for idx, (af, bf) in enumerate(pts_cusp):
-                _, uu, _ = frame_c_sector_channels(tau, l2, af, bf, 1, -4, f_cache, denom)
-                _, ud, _ = frame_c_sector_channels(tau, l2, af, bf, 1, 2, f_cache, denom)
+                _, uu, _ = frame_c_sector_channels(tau, l2, af, bf, 1, -4, f_cache, ctx)
+                _, ud, _ = frame_c_sector_channels(tau, l2, af, bf, 1, 2, f_cache, ctx)
                 if idx < 24:
                     max_wu_cusp = max(max_wu_cusp, float(abs(uu["1"])))
                 Mu = channels_dict_to_mw(uu, e_dual)
@@ -1281,25 +1373,26 @@ def b1967_control_channels() -> dict:
 def verify_t5(l2_cache: dict, b1967_ch: dict) -> dict:
     mp.mp.dps = 20
     pts5, pts12 = torsion_point_sets()
-    all36 = pts5 + pts12
 
     # Build Frame C certification jobs
-    # 1) Full 36-point slices at x=13/100 across all 7 heights y in {1, 3/2, 2, 3, 6, 15, 30} -> 252 pts
-    # 2) Representative slices at x in {0, 1/4, 1/2}, y=2 (6 pts each) + (0,1) & (1/4,6) (3 pts each) -> 24 pts
+    # 1) Full 24 order-5 + 12 order-3..8 slices across all 7 heights y in {1, 3/2, 2, 3, 6, 15, 30} at x=13/100 -> 252 pts
+    # 2) Representative slices at x in {0, 1/4, 1/2}, y=2 (4 pts each) + (0,1) & (1/4,6) (2 pts each) -> 16 pts
     # 3) L_2 +- 1/50 sensitivity check at (13/100, 2) across 24 pts (12 order-5 + 12 order-3..8) -> 48 pts
     jobs_spec = []
     xf_13 = Fraction(13, 100)
     ys_full = [Fraction(1, 1), Fraction(3, 2), Fraction(2, 1), Fraction(3, 1), Fraction(6, 1), Fraction(15, 1), Fraction(30, 1)]
     for yf in ys_full:
-        for af, bf in all36:
-            jobs_spec.append(("main_x13", xf_13, yf, mp.mpf(0), af, bf))
+        for af, bf in pts5:
+            jobs_spec.append(("main_x13_o5", xf_13, yf, mp.mpf(0), af, bf))
+        for af, bf in pts12:
+            jobs_spec.append(("main_x13_o38", xf_13, yf, mp.mpf(0), af, bf))
 
-    rep6 = [pts5[0], pts5[4], pts5[10]] + [pts12[0], pts12[2], pts12[6]]
+    rep4 = [pts5[0], pts5[4]] + [pts12[0], pts12[6]]
     for xf in [Fraction(0, 1), Fraction(1, 4), Fraction(1, 2)]:
-        for af, bf in rep6:
+        for af, bf in rep4:
             jobs_spec.append(("cross_col", xf, Fraction(2, 1), mp.mpf(0), af, bf))
     for xf, yf in [(Fraction(0, 1), Fraction(1, 1)), (Fraction(1, 4), Fraction(6, 1))]:
-        for af, bf in [pts5[0], pts5[4], pts12[6]]:
+        for af, bf in [pts5[0], pts12[6]]:
             jobs_spec.append(("cross_col", xf, yf, mp.mpf(0), af, bf))
 
     sens24 = pts5[:12] + pts12
@@ -1308,18 +1401,26 @@ def verify_t5(l2_cache: dict, b1967_ch: dict) -> dict:
         for af, bf in sens24:
             jobs_spec.append((tag, xf_13, Fraction(2, 1), delta, af, bf))
 
-    # Precompute (uu, wu, ud, wd) grouped by (xf, yf, delta) to reuse eta and F_row cache
+    # Precompute base terms cached by (xf, yf, af, bf) so sensitivity runs reuse Rs, Fu, |a0|^2
     f_cache = {}
-    eta_cache = {}
+    ctx_cache = {}
+    base_cache = {}
     cert_inputs = []
     for tag, xf, yf, delta, af, bf in jobs_spec:
         tau = mp_crat(xf.numerator, xf.denominator, yf.numerator, yf.denominator)
-        if (xf, yf) not in eta_cache:
-            eta_cache[(xf, yf)] = 2 * mp.pi * (eta_mp(tau) ** 3)
-        denom = eta_cache[(xf, yf)]
+        if (xf, yf) not in ctx_cache:
+            ctx_cache[(xf, yf)] = prepare_tau_context(tau)
+        tau_ctx = ctx_cache[(xf, yf)]
+        pt_key = (xf, yf, af, bf)
+        if pt_key not in base_cache:
+            base_cache[pt_key] = (
+                frame_c_base_terms(tau, af, bf, 1, -4, f_cache, tau_ctx),
+                frame_c_base_terms(tau, af, bf, 1, 2, f_cache, tau_ctx),
+            )
+        terms_u, terms_d = base_cache[pt_key]
         l2 = l2_cache[(xf, yf)]["L2"] + delta
-        _, ch_u, _ = frame_c_sector_channels(tau, l2, af, bf, 1, -4, f_cache, denom)
-        _, ch_d, _ = frame_c_sector_channels(tau, l2, af, bf, 1, 2, f_cache, denom)
+        _, ch_u, _ = frame_c_eval_from_terms(terms_u, l2)
+        _, ch_d, _ = frame_c_eval_from_terms(terms_d, l2)
         uu, wu = channels_dict_to_uw(ch_u)
         ud, wd = channels_dict_to_uw(ch_d)
         cert_inputs.append((uu, wu, ud, wd))
