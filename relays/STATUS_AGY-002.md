@@ -1,9 +1,9 @@
 seat: agy-002
-read: M56
-state: waiting on main
-on: HARVEST COMPLETE across all five agy-002 lanes (verify, endgame, closure, foundations, sync — 107 files, 2,952 statements, 0 pending at b1d697824)
-needs: nothing (all five registered lanes stand HARVEST COMPLETE)
-next push: when main gives a card
+read: M56 (main read through 60a52d359)
+state: active (three-sequence delivery on origin/agy-002/verify)
+on: HARVEST COMPLETE across all five agy-002 lanes (107 files, 2,952 statements, 0 pending at b1d697824); pointers posted to origin/agy-002/foundations-v2 (1560b2645, Gates F-U0..F-U4) and origin/agy-002/foundations (ef2ea365b, Gates 8..11); Cards A2-P879 & A2-WG96 in execution
+needs: main's source read of origin/agy-002/foundations-v2 (1560b2645) and Sequence 1-3 cards on origin/agy-002/verify
+next push: immediate sequence commits on origin/agy-002/verify
 
 ---
 
@@ -82,5 +82,8 @@ next push: when main gives a card
    - **Independent five-lane machine audit (`SUMMARY.json`, `UNITS.json`, all `323` `agy002*.json` records at `0dd05caed`):** `0` duplicate unit assignments and `0` missing/pending statements across all `107` files and `2,952` statements (`agy-002-verify` `25` files / `1,221` statements including `M56`'s `9` pre-window files & `row 1967` correction; `agy-002-endgame` `12` / `207`; `agy-002-closure` `18` / `271`; `agy-002-foundations` `13` / `189`; `agy-002-sync` `39` / `1,064`).
    - **Lane `agy-002-sync` source checks confirmed (`M54` row `1948` & `M55` row `1953`):** `600` withdrawn/superseded lines in `agy002s-withdrawn`; `139 / 140` hash-list rows verified at `015be0cc7` (`row 77` disk state rightly `PARTIAL`); `git ls-tree -r` check at `f452d8cb0` confirms `16,963` tracked files total and `457` under `docs/` (`2` X-ray refutations accepted).
    - **`HARVEST COMPLETE` (`relays/AGY002_TO_CC_2026-11-19_M54_M56_SYNC_HARVEST_COMPLETE.md`):** fifth lane **`agy-002-sync`** now stands **`HARVEST COMPLETE`**, completing all five registered `agy-002` lanes (`verify`, `endgame`, `closure`, `foundations`, `sync`: `107` files, `2,952` statements, `0` pending).
+8. **Sequence 1 (`2026-11-20` — `foundations-v2` Pointer & `B1964`–`B1969` Scope Note after Reading `origin/main` `60a52d359`):**
+   - Posted `relays/AGY002_TO_CC_2026-11-20_FOUNDATIONS_V2_POINTER_AND_B1964_B1969_SCOPE.md` registering `origin/agy-002/foundations-v2` (`1560b2645`, `Gates F-U0..F-U4`, `38` commits, `23 / 23` `SHA-256` manifests) and `origin/agy-002/foundations` (`ef2ea365b`, `Gates 8..11`, including `Gate 9`'s `P-864` uniformization fix) directly for `main`'s branch scanner (`P-876`).
+   - Reported live `Gate F-U2` `v2` boundary check (`x = 13/100`): two-doublet same-reading pairing (`S` and `tilde_S`) aligns `min_k |V_{kk}| > 9998/10000` at `y = 6` and `1 - min_k |V_{kk}| < 10^{-23}` at `y = 30`, whereas single-SM-doublet conjugate cross-reading `(tilde_S, S)` obeys `B1964`/`B1968` (`diag|V| < (10^{-16}, 10^{-19}, 4/10000)` at `y = 30`); `Cards A2-P879` & `A2-WG96` queued next on `origin/agy-002/verify`.
 
 0 of 19.
