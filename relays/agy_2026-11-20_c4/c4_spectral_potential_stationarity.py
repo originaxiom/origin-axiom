@@ -149,9 +149,8 @@ def run_section1_cusp_cancellation() -> None:
     analytic_div_slope = (mp.pi**2) / (mp.sin(mp.pi / 5) ** 2)
     slope_err_unbal = abs(unbal_slope - analytic_div_slope)
 
-    # Balanced bose-fermi zero-row cancellation: [F_{(0, 1/5)} - F_{(0, 1/5 + 1/2)}]? Wait: (0, 7/10) has sin^2(7*pi/10) = cos^2(pi/5) != sin^2(pi/5),
-    # whereas pairing (0, 1/5) with its half-spin shift (1/2, 1/5) OR pairing equal-sin^2 zero-row bose/fermi states (0, 1/5)_B - (0, 4/5)_F
-    # cancels pi^2*y/sin^2(pi*b) to ZERO! Let's check (0, 1/5)_B - (0, 4/5)_F (at x != 0, their oscillator terms differ while zero-row cancels!):
+    # Balanced bose-fermi zero-row cancellation: pairing equal-sin^2(pi*b) zero-row states (0, 1/5)_B - (0, 4/5)_F
+    # cancels the linear +pi^2*y/sin^2(pi/5) cusp divergence while preserving non-zero oscillator phases at x != 0:
     bal_diff_10 = fu_kronecker_mp(Fr(0), Fr(1, 5), t10) - fu_kronecker_mp(Fr(0), Fr(4, 5), t10)
     bal_diff_20 = fu_kronecker_mp(Fr(0), Fr(1, 5), t20) - fu_kronecker_mp(Fr(0), Fr(4, 5), t20)
     bal_slope = (bal_diff_20 - bal_diff_10) / 10
@@ -210,17 +209,23 @@ def v_gamma0_5(x: mp.mpf, y: mp.mpf) -> mp.mpf:
     return -mp.pi * mp.log(y * mp.sqrt(5) * (abs(eta_mp(t)) ** 2) * (abs(eta_mp(5 * t)) ** 2))
 
 
-def newton_2d_stationary(fn, x_init: mp.mpf, y_init: mp.mpf, n_iter: int = 7):
+def newton_2d_stationary(fn, x_init: mp.mpf, y_init: mp.mpf, n_iter: int = 12):
     x, y = x_init, y_init
     for _ in range(n_iter):
+        if y <= mp.mpf("0.05"):
+            return x, y, None
         _, (gx, gy), ((hxx, hxy), (_, hyy)) = grad_and_hessian_2d(fn, x, y, eps_exp=-22)
         if mp.hypot(gx, gy) < mp.mpf("1e-38"):
             break
         det_h = hxx * hyy - hxy * hxy
+        if abs(det_h) < mp.mpf("1e-30"):
+            return x, y, None
         dx = (hyy * gx - hxy * gy) / det_h
         dy = (-hxy * gx + hxx * gy) / det_h
         x -= dx
         y -= dy
+    if y <= mp.mpf("0.05"):
+        return x, y, None
     return x, y, grad_and_hessian_2d(fn, x, y, eps_exp=-22)
 
 
@@ -277,18 +282,18 @@ def run_section3_subharmonic_stationarity() -> None:
 
     # Search along the imaginary axis x = 0 and boundary x = 1/2 (and refine by 2D Newton-Raphson) for strict global minimum of V_{Gamma_0(5)}!
     best_pt = None
-    for x_seed in (mp.mpf("0.0"), mp.mpf("0.2"), mp.mpf("0.4"), mp.mpf("0.5")):
-        for y_seed_f in (0.25, 0.35, 0.45, 0.65, 0.90):
-            try:
-                xs, ys, (vs, gs, Hs) = newton_2d_stationary(v_gamma0_5, x_seed, mp.mpf(str(y_seed_f)), n_iter=10)
-                if ys > mp.mpf("0.05") and mp.hypot(*gs) < mp.mpf("1e-35"):
-                    trH = Hs[0][0] + Hs[1][1]
-                    detH = Hs[0][0] * Hs[1][1] - Hs[0][1] ** 2
-                    if detH > 0 and trH > 0:
-                        if best_pt is None or vs < best_pt[0]:
-                            best_pt = (vs, xs % 1, ys, trH, detH, mp.hypot(*gs))
-            except ZeroDivisionError:
+    for x_seed in (mp.mpf("0.0"), mp.mpf("0.2"), mp.mpf("0.3"), mp.mpf("0.4"), mp.mpf("0.5")):
+        for y_seed_f in (0.17, 0.25, 0.35, 0.45, 0.65, 0.90):
+            xs, ys, jet = newton_2d_stationary(v_gamma0_5, x_seed, mp.mpf(str(y_seed_f)), n_iter=12)
+            if jet is None:
                 continue
+            vs, gs, Hs = jet
+            if ys > mp.mpf("0.05") and mp.hypot(*gs) < mp.mpf("1e-35"):
+                trH = Hs[0][0] + Hs[1][1]
+                detH = Hs[0][0] * Hs[1][1] - Hs[0][1] ** 2
+                if detH > 0 and trH > 0:
+                    if best_pt is None or vs < best_pt[0]:
+                        best_pt = (vs, xs % 1, ys, trH, detH, mp.hypot(*gs))
 
     assert best_pt is not None, "Expected at least one strict local minimum for confining subharmonic V_{Gamma_0(5)}!"
     vs, xs, ys, trH, detH, gnorm = best_pt
