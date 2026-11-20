@@ -10,7 +10,7 @@ r"""Card AGY-C7 producer script (0 of 19, pure data-free algebra & 52-digit modu
      - Evaluates Selberg geodesic partition sums Z_weave(s; T) across s in {0, 1, 2, 3}: confirms s = 1 hits the entropy
        pole, canonical s = 2 (lowest convergent modular weight 2s = 4, zero free parameters) gives [LR] strict dynamic
        majority (> 50% > 2/5 without SE1 or SE3) and t in {3, 4} > 74%, while Planted Control 2 (s = 0 white noise on
-       3 <= t <= 30) collapses [LR]'s share to 1/129 < 1/50.
+       3 <= t <= 30) collapses [LR]'s share to 1/151 < 1/50.
   2. Section 2 (E2, Exact Dyadic Order-4 Isotropic Quaternion Theorem, & Planted Control 1):
      - Evaluates holomorphic (S, S, S) Szego couplings (Y_u, Y_d, Y_e) at 52 working digits across all 21 primitive
        torsion orbits P_2 .. P_22 (3,119 non-zero torsion points excited by 3 <= t <= 20) at cusp moduli 16 + 8i
@@ -272,8 +272,10 @@ def run_section1_weave_census() -> list[tuple[int, tuple[tuple[int, int], ...], 
             assert share30 < mp.mpf(1) / 50
             print(f"  [CAUGHT Planted Control 2] At s=0 (3<=t<=30), [LR] weight share = 1/{int(z30)} = {mp.nstr(share30,5)} < 1/50.")
         if s_val == 1:
-            assert z50 - z25 > mp.mpf("0.5")  # logarithmic divergence at Selberg entropy pole s=1
+            # Prime Geodesic Theorem: sum_{T1 < t <= T2} exp(-ell) ~ ln(ln(T2)/ln(T1)) = ln(ln 50 / ln 25) ~= 0.195 > 0.15
+            assert z50 - z25 > mp.mpf("0.15")
         if s_val == 2:
+            assert z50 - z25 < mp.mpf("2e-4")  # rapid convergence above s=1 pole!
             w_t4 = 2 * (((mp.mpf(4) + mp.sqrt(12)) / 2) ** (-4))
             share_t4_50 = w_t4 / z50
             assert share50 > mp.mpf(2) / 5 and share50 > mp.mpf("0.50")
