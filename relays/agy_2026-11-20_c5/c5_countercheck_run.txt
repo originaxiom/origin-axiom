@@ -1,0 +1,20 @@
+=== IC1: EXACT 248-ELEMENT E_8 ROOT & WEIGHT SYSTEM IN Q^8 (ZERO CLIFFORD MATRICES) ===
+  E_8 = 45+15+60+64+64 = 248; Yukawa root hits (10x10|H5,H5b)=(30,0), (10x5b|H5,H5b)=(0,20); so(10)^+=21, u(5)^+=13; 16 split=(8,8).
+  [PASS] Weight-lattice E_8 derivation of X:HOL and doublet-triplet projection verified.
+
+=== IC2: TRIPLE-PRODUCT GOLDEN PHASE, FRICKE CP NEGATION, & m=40 ALIGNMENT ===
+  [PASS] Symbolic sympy identity (1 + i*phi)^2 - 5*i*phi*((2+i)/5) = 0.
+  Triple-product 50-digit golden phase residual at tau_*^+ = 2.2969e-52
+  Triple-product Im det[Hu,Hd] at +-8*tau_*: (+) = 153.715479, (-) = -153.715479, |sum| = 9.355e-50
+  Triple-product m=40 (1/5,2/5) (S,S) min|V_kk| = 0.998038 (> 99/100)
+  [PASS] Triple-product golden phase, Fricke CP negation, and m=40 CKM alignment verified.
+
+=== IC3: PLANTED NEGATIVE CONTROLS (TESTING DETECTOR SENSITIVITY) ===
+  [CAUGHT Plant 1] Assigning anti-holomorphic mode to k=1 breaks [d_taubar, so(10)]=0 (|d_taubar|=0.18374 vs 1.07e-31).
+  [CAUGHT Plant 2] Scalar +dz rule leaves only color triplets (n_H,n_T)=(0,2), slope=56/25 != 9/5.
+  [CAUGHT Plant 3] Bulk P_hat=+1 projection on 16_M breaks SU(3)_C^3 cubic Cartan anomaly (-1 vs full-16 0).
+  [CAUGHT Plant 4] Non-P_CP-real h_2 != 0 breaks time-reversal at tau=i (|Im det[Hu,Hd]| = 106.505).
+  [CAUGHT Plant 5] Right-handed basis rotation shifts illegal RH commutator by 7.8122e+02 (LH shift = 6.82e-13).
+  [PASS] 5/5 planted faults caught.
+
+ALL AGY-C5 INDEPENDENT COUNTERCHECKS PASSED (5/5 PLANTS CAUGHT; 0 of 19).
