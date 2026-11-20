@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1666 |
-| … PROVED | 1160 |
+| arcs with a verdict file | 1667 |
+| … PROVED | 1161 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -24,13 +24,14 @@
 | … “OWNER” | 0 |
 | … “DONE” | 554 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1983 |
+| harvest rows (the last number) | 1987 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1970 | PROVED | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXIN…” |
 | B1969 | OPEN | “THE COUPLING'S FORM NEARLY ALLOWS AN ALIGNED MIXING WITH A FULL HIERARCHY IN BOTH SECTORS (OPEN, a search; data-free; P-879): with every channel free under the charge rule, a feasibility search finds no aligned mixing w…” |
 | B1968 | OPEN | “ON A GRID OF 2,016 POINTS FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION (OPEN, a search; data-free; P-879): with any Higgs triplet in C^3 an adversary finds no aligned charge-consistent mixing with a heavy-pair hi…” |
 | B1967 | PROVED | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diago…” |
@@ -42,7 +43,6 @@
 | B1961 | PROVED | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every ano…” |
 | B1960 | PROVED | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, unc…” |
 | B1959 | PROVED | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the l…” |
-| B1958 | PROVED | “REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted):…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-19, S306p, evening: P-861 CLOSED; B1962 FINAL ON THE WEB SEAT'S SECOND COMPUTATION; FOUR SEATS' DELIVERIES REGISTERED.** The web seat's W-B3 reproduces B1962 on its own code and shows identity E at the norms exactly under the Higgs twist's flat unitary metric (main's hand check; the metric is the twist bundle's own and periodic in the Higgs's point), so frame D1 is closed: deranged for every reading. Registered by name: W-B3 and W-P1D (rows 1979, 1980), the physical lane's tick-Higgs continuation (row 1981; its own word: it selects no Higgs direction), the agy audit lane's R1 to R8 and HARVEST COMPLETE (row 1982), agy-002's HARVEST COMPLETE for all five lanes (row 1983); the…”
+“LATEST (2026-11-20, S306p: THE READING DERIVED GIVEN THE DICTIONARY, AN IDENTIFICATION AND HOLOMORPHY (B1970, PROVED for its checks; the web seat's W-H1 first; P-295, P-847).** The record's own 27 gives the up quarks and the down quarks and leptons two distinct Higgs doublets with exactly the frame's charges, so the conjugate reading the record imported from the one-doublet Standard Model (FL-09) is not needed; holomorphy in tau, which the frame's Higgs and matter factors have and the conjugate reading breaks, then fixes every sector to read S, and the cusp mixing aligns (B1946; W-D2). The masses-versus-mixing clash belongs to the one-doublet reading. What it costs: the identification I-37…”
 
 ## Completeness (nothing skipped silently)
 

@@ -17955,6 +17955,23 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1970": {
+   "slug": "the dictionarys two doublets read s in every sector",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 17,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [

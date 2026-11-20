@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1666 of 1666 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1667 of 1667 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1160)
+## PROVED (1161)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1172,6 +1172,7 @@
 | `B1964` | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector is (-i, 0, 1) for every channel matrix Mw, of rank 2 exactly when det Mw != 0, and for E21 it is (i, 0, 1), orthogonal; the conjugate reading only conjugates the Higgs's coefficients, and frame C's Higgs tends to a multiple of E12 (lower-left entry about 20 e^{-pi y} of the upper-right, diagonal about 4 e^{-pi y/2}); so wherever Mw has rank 2 every sector's lightest generation tends to (-i, 0, 1)/sqrt 2 under S and (i, 0, 1)/sqrt 2 under S~, checked at all 574 such cases of orders 3 to 10 at height 30, and a charge-consistent pairing makes the light-light mixing entry vanish: the analytic core of B1946's and B1963's derangement, whatever the point and the charges. 0 of 19.” |  | 0 |
 | `B1966` | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vector conj(h), and the conjugate reading's light state h is exactly orthogonal to it whatever the channels (B1739's lemma without 'channels off'); a real Higgs is flavour-blind up to the reflection 1 - 2 h h^T (Y times it is c 1 + [a]_x), so B1727's sharp floor m2/m3 >= 1/3 holds for every channel, making B1740's non-null loss a theorem at reality 1; a null Higgs's heavy pair has m2 m3 = |h|^2 |u1^2 + u.u|, the channels' near-nullity; under the charge rule neither end gives an aligned mixing with a hierarchy, and the interior stays open. 0 of 19.” |  | 0 |
 | `B1967` | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diagonal |V| 0.967, 0.901, 0.915) with heavy-pair ratios 4.6e-3 (up) and 1.7e-3 (down) and three distinct non-zero masses in each sector, recomputed at 50 digits; the least heavy-pair ratio compatible with alignment 0.9 rises from 4.6e-3 at reality 0.003 to about 0.4 above 0.7, and alignment is impossible exactly at 0 (B1966); so the exclusion B1965 found at four points of frame C must come from the channels the frame produces, and P-879 is whether they ever reach the tuned region. 0 of 19.” |  | 0 |
+| `B1970` | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXING ALIGNS (PROVED for the checks; the reading derived given H1 to H3 and found after the look; data-free; P-295, P-847; the holomorphy argument is the web seat's W-H1, this arc grounding its two-doublet step in the record's dictionary): the 10 of the record's 27 carries doublets at Y = +1/2 and -1/2; the dictionary's Q u^c term uses the first and its Q d^c and L e^c terms the second, two distinct states; the frame's sectors need exactly these charges (up +1/2, down and leptons -1/2), so no sector needs the conjugate doublet, which the record had imported from the one-doublet Standard Model (FL-09); the frame's Higgs and matter factors are holomorphic in tau and the conjugate reading makes the Higgs factor antiholomorphic, so with holomorphy required every sector reads S, fixing the global bit too; the all-S mixing is aligned (B1946; W-D2 D-1); the problem moves to the mixing's size and the lepton-down split. 0 of 19.” |  | 0 |
 
 ## NEGATIVE (387)
 

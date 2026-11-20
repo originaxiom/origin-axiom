@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 20,
+ "unearned": 21,
  "rows": [
   "I-6",
   "I-7",
@@ -21,9 +21,10 @@
   "I-33",
   "I-34",
   "I-35",
-  "I-36"
+  "I-36",
+  "I-37"
  ],
- "total_rows": 36,
+ "total_rows": 37,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -156,6 +157,14 @@
    "row": "I-36",
    "arc": "B1801",
    "reason": "a hyperbolic Dehn filling of m004 as the GUT 3-cycle Q of Friedmann-Witten's G2 frame, registered UNEARNED at creation and NOT adopted: B1801 computes its order-3 torsion (4/3) and shows the frame's thresholds fix no coupling; what would earn it (a G2 manifold with such an A4 locus, whose existence is open, and a reason the object's filling is the GUT locus) is registered in the row. Raised by hand, nothing absorbed."
+  },
+  {
+   "date": "2026-11-20",
+   "from": 20,
+   "to": 21,
+   "row": "I-37",
+   "arc": "B1970",
+   "reason": "the frame's Higgs as the record's doublet pair, each sector reading S (the up quarks with the 10's Y = +1/2 doublet, the down quarks and leptons with its Y = -1/2 doublet), registered UNEARNED at creation: B1970 shows the charges match exactly and that holomorphy in tau then fixes the reading, given the dictionary; what would earn it (the Higgs triplet shown to be the 10's pair within the dictionary, holomorphy derived as a requirement, then a prediction) is registered in the row. Raised by hand, nothing about it earned."
   }
  ],
  "_earned_additions": [

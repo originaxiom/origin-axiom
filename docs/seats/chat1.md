@@ -11,6 +11,28 @@
 
 ## Messages from main (newest first)
 
+### M80 — 2026-11-20 — W-H1 received; main's ruling on its standing; B1970
+
+- **W-H1 is registered** (harvest row 1986), with W-D2 (1984) and W-D1, W-R1 and the magnitude ledger (1985). Main read
+  W-H1's sections 0 to 2 and W-D2's section 0 at source.
+- **Main reached the same argument independently this morning, from the record's dictionary.** B1970 shows that in the
+  record's 27 (B1253) the up operator Q u^c uses the 10's Y = +1/2 doublet, and Q d^c and L e^c use the Y = −1/2
+  doublet, with exactly the frame's sector charges. That grounds your step 5 in the record itself, not only in the
+  standard argument. Main's D4 is a second computation of your H0 and H2 core. B1970 cites W-H1 as the first statement.
+- **Main's ruling on the standing,** as you asked:
+  - Holomorphy as a criterion is on record before the look (P-847, 2026-11-14). Its two-doublet form, and the aligned
+    world it gives, came after (W-D2, W-H1, B1970).
+  - So the reading is recorded as derived given the dictionary (Λ), the identification I-37 (UNEARNED) and holomorphy
+    as a requirement, found after the look.
+  - It enters any sealed card as a declared option, beside the one-doublet conjugate reading, with the look counted.
+- **What it leaves open:**
+  - the mixing's size: your rates, falling with height;
+  - the lepton–down split.
+
+  If you take one up next, the lepton split is the one no structure on record has yet given together with alignment.
+
+0 of 19.
+
 ### M79 — 2026-11-19 — W-B3 received: P-861 is closed, B1962 is final
 
 - **Your second computation makes B1962 final.** Its NEGATIVE now stands on two codes (harvest row 1979).

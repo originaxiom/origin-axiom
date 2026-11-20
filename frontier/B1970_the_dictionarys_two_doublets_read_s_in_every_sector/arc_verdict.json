@@ -1,0 +1,38 @@
+{
+ "id": "B1970",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-37",
+   "status": "UNEARNED",
+   "note": "made here: the frame's Higgs as the dictionary's doublet pair, each sector reading S; what would earn it is in the row"
+  }
+ ],
+ "depends_on": [
+  "B1253",
+  "B1252",
+  "B1656",
+  "B1790",
+  "B1946",
+  "B1945",
+  "B1742"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-H1 (harvest row 1986, 2026-11-20): the holomorphy argument and its fuller computation; this arc's D4 is a second computation of its core check",
+  "the web seat's W-D2 D-1 (harvest row 1984, 2026-11-19): two doublets of opposite hypercharge sharing one fibre triplet align the cusp mixing on the act's line"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's dictionary (B1253's 27 with B1252's derived hypercharge) and frame C's coupling (B1656's charges, B1945's split)",
+  "object": "which electroweak doublet each Standard Model Yukawa operator uses, the frame's per-sector Higgs charge, the holomorphy of the Higgs factor under each reading, and the cusp mixing under the all-S reading",
+  "reach": "class",
+  "hypotheses": "H1 the dictionary (given Lambda); H2 the frame's Higgs identified with the 10's doublet pair (I-37, unearned); H3 holomorphy in tau required of every sector's coupling; the argument assembled after B1946's look, its premises older"
+ },
+ "claim_one_line": "THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXING ALIGNS (PROVED for the checks; the reading derived given H1 to H3 and found after the look; data-free; P-295, P-847; the holomorphy argument is the web seat's W-H1, this arc grounding its two-doublet step in the record's dictionary): the 10 of the record's 27 carries doublets at Y = +1/2 and -1/2; the dictionary's Q u^c term uses the first and its Q d^c and L e^c terms the second, two distinct states; the frame's sectors need exactly these charges (up +1/2, down and leptons -1/2), so no sector needs the conjugate doublet, which the record had imported from the one-doublet Standard Model (FL-09); the frame's Higgs and matter factors are holomorphic in tau and the conjugate reading makes the Higgs factor antiholomorphic, so with holomorphy required every sector reads S, fixing the global bit too; the all-S mixing is aligned (B1946; W-D2 D-1); the problem moves to the mixing's size and the lepton-down split. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

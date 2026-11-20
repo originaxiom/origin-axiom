@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1666** |
-| words of findings prose | **1,524,417** |
+| research arcs with findings | **1667** |
+| words of findings prose | **1,525,874** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1666** (100.0 %) |
+| arcs carrying an authored verdict | **1667** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1160 |
+| PROVED | 1161 |
 | NEGATIVE | 387 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1967`** (626 words, 0 locks)  
-“THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diagonal |V| 0.967, 0.901, 0.915) with heavy-pair ratios 4.6e-3 (up) and 1.7e-3 (down) and three distinct non-zero masses in each sector, recomputed at 50 digits; the least heavy-pair ratio compatible with alignment 0.9 rises from 4.6e-3 at reality 0.003 to about 0.4 above 0.7, and alignment is impossible exactly at 0 (B1966); so the exclusion B1965 found at four points of frame C must come from the channels the frame produces, and P-879 is whether they ever reach the tuned region. 0 of 19.”  
-`B1967_the_tradeoff_is_not_in_the_couplings_form/FINDINGS.md`
+**PROVED — `B1970`** (1457 words, 0 locks)  
+“THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXING ALIGNS (PROVED for the checks; the reading derived given H1 to H3 and found after the look; data-free; P-295, P-847; the holomorphy argument is the web seat's W-H1, this arc grounding its two-doublet step in the record's dictionary): the 10 of the record's 27 carries doublets at Y = +1/2 and -1/2; the dictionary's Q u^c term uses the first and its Q d^c and L e^c terms the second, two distinct states; the frame's sectors need exactly these charges (up +1/2, down and leptons -1/2), so no sector needs the conjugate doublet, which the record had imported from the one-doublet Standard Model (FL-09); the frame's Higgs and matter factors are holomorphic in tau and the conjugate reading makes the Higgs factor antiholomorphic, so with holomorphy required every sector reads S, fixing the global bit too; the all-S mixing is aligned (B1946; W-D2 D-1); the problem moves to the mixing's size and the lepton-down split. 0 of 19.”  
+`B1970_the_dictionarys_two_doublets_read_s_in_every_sector/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1189 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19.”  

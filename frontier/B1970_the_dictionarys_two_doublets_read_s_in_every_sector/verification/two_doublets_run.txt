@@ -1,0 +1,21 @@
+D1: the 10's hypercharges: [(Fraction(-1, 2), 2), (Fraction(-1, 3), 3), (Fraction(1, 3), 3), (Fraction(1, 2), 2)]
+    the 16's hypercharges: [(Fraction(-2, 3), 3), (Fraction(-1, 2), 2), (Fraction(0, 1), 1), (Fraction(1, 6), 6), (Fraction(1, 3), 3), (Fraction(1, 1), 1)] ; the 1: [Fraction(0, 1)]
+D2: Yukawa-type triples 10.16.16: 40
+    Q u^c      uses 10-states with Y = [Fraction(1, 2)] (states [4, 9])
+    Q d^c      uses 10-states with Y = [Fraction(-1, 2)] (states [15, 22])
+    L e^c      uses 10-states with Y = [Fraction(-1, 2)] (states [15, 22])
+    L nu^c     uses 10-states with Y = [Fraction(1, 2)] (states [4, 9])
+    the up operator's 10-states and the down operator's are disjoint: True; the down and lepton operators share theirs: True
+    every Yukawa triple conserves Y: True
+D3: the frame's up     sector needs a Higgs of 6Y = +3, Y = 1/2; the dictionary's Q u^c operator uses Y = [Fraction(1, 2)]: True
+D3: the frame's down   sector needs a Higgs of 6Y = -3, Y = -1/2; the dictionary's Q d^c operator uses Y = [Fraction(-1, 2)]: True
+D3: the frame's lepton sector needs a Higgs of 6Y = -3, Y = -1/2; the dictionary's L e^c operator uses Y = [Fraction(-1, 2)]: True
+D4: tau (0.13 + 1.4j), Higgs component 0: |d c/d conj tau| / |d c/d tau| = 4.0e-25; for conj(c): |d/d tau| / |d/d conj tau| = 4.0e-25
+D4: tau (0.13 + 1.4j), Higgs component 1: |d c/d conj tau| / |d c/d tau| = 6.9e-25; for conj(c): |d/d tau| / |d/d conj tau| = 6.9e-25
+D4: tau (0.13 + 1.4j), Higgs component 2: |d c/d conj tau| / |d c/d tau| = 6.4e-25; for conj(c): |d/d tau| / |d/d conj tau| = 6.4e-25
+D4: tau (0.13 + 1.4j), a matter residue's theta product: |d/d conj tau| / |d/d tau| = 4.9e-25; with both characteristics negated (F3's case) 4.9e-25
+D4: tau (-0.31 + 2.2j), Higgs component 0: |d c/d conj tau| / |d c/d tau| = 1.0e-25; for conj(c): |d/d tau| / |d/d conj tau| = 1.0e-25
+D4: tau (-0.31 + 2.2j), Higgs component 1: |d c/d conj tau| / |d c/d tau| = 8.6e-26; for conj(c): |d/d tau| / |d/d conj tau| = 8.6e-26
+D4: tau (-0.31 + 2.2j), Higgs component 2: |d c/d conj tau| / |d c/d tau| = 1.4e-25; for conj(c): |d/d tau| / |d/d conj tau| = 1.4e-25
+D4: tau (-0.31 + 2.2j), a matter residue's theta product: |d/d conj tau| / |d/d tau| = 1.3e-25; with both characteristics negated (F3's case) 1.3e-25
+D5: every sector reading S, height 30, three points of order 5: smallest diagonal |V| 1.000000, largest off-diagonal 6.28e-05
