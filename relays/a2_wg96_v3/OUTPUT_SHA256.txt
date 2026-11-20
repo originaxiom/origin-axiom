@@ -1,0 +1,1 @@
+e4906a3de9dedcbed2cb9dbc6e28e8ed41f7e3b739c69583de00c3717d4346fa  relays/a2_wg96_v3/verify_a2_wg96_out.json
