@@ -1,0 +1,2664 @@
+{
+  "OW4-A": {
+    "actions": [
+      {
+        "N": 2,
+        "a": 2,
+        "anomalies": {
+          "2Tr_SUa2_Y": 1,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": -6,
+          "witten_SU2a_doublets_1gen": 1,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": false
+        },
+        "anomaly_free": false,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 1,
+        "confining_bowl_1H": true,
+        "confining_bowl_2H": true,
+        "cycle_type": [
+          1,
+          2
+        ],
+        "d": 3,
+        "fock_even": 4,
+        "inv_class_size": 3,
+        "is_chiral": true,
+        "n_B_1H": 10,
+        "n_B_2H": 12,
+        "n_F_chiral_3gen": 24,
+        "n_F_minus_n_B_1H": 14,
+        "n_F_minus_n_B_2H": 12,
+        "n_V": 4,
+        "n_W_chiral_3gen": 12,
+        "n_s_1H": 2,
+        "n_s_2H": 4,
+        "sub_order": 2,
+        "unpaired_weight_states": 3,
+        "y_A": -1,
+        "y_B": 2
+      },
+      {
+        "N": 2,
+        "a": 3,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 3,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2
+        ],
+        "d": 6,
+        "fock_even": 32,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 40,
+        "n_B_2H": 46,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -40,
+        "n_F_minus_n_B_2H": -46,
+        "n_V": 17,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 6,
+        "n_s_2H": 12,
+        "sub_order": 1,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 3,
+        "a": 2,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 2,
+          "witten_SU2b_doublets_1gen": 2,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 2,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2
+        ],
+        "d": 4,
+        "fock_even": 8,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 18,
+        "n_B_2H": 22,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -18,
+        "n_F_minus_n_B_2H": -22,
+        "n_V": 7,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 3,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 3,
+        "a": 4,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 8,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 2,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "fock_even": 32,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 42,
+        "n_B_2H": 46,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -42,
+        "n_F_minus_n_B_2H": -46,
+        "n_V": 19,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 2,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 2
+      },
+      {
+        "N": 3,
+        "a": 6,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 6,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "fock_even": 2048,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 154,
+        "n_B_2H": 166,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -154,
+        "n_F_minus_n_B_2H": -166,
+        "n_V": 71,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 12,
+        "n_s_2H": 24,
+        "sub_order": 1,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 4,
+        "a": 2,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 2,
+          "witten_SU2b_doublets_1gen": 2,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 2,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2
+        ],
+        "d": 4,
+        "fock_even": 8,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 18,
+        "n_B_2H": 22,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -18,
+        "n_F_minus_n_B_2H": -22,
+        "n_V": 7,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 6,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 4,
+        "a": 3,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 1,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2
+        ],
+        "d": 4,
+        "fock_even": 8,
+        "inv_class_size": 6,
+        "is_chiral": false,
+        "n_B_1H": 20,
+        "n_B_2H": 22,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -20,
+        "n_F_minus_n_B_2H": -22,
+        "n_V": 9,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 2,
+        "n_s_2H": 4,
+        "sub_order": 6,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 3
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 8,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 2,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "fock_even": 32,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 42,
+        "n_B_2H": 46,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -42,
+        "n_F_minus_n_B_2H": -46,
+        "n_V": 19,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 4,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 2
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 8,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 2,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "fock_even": 32,
+        "inv_class_size": 6,
+        "is_chiral": false,
+        "n_B_1H": 42,
+        "n_B_2H": 46,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -42,
+        "n_F_minus_n_B_2H": -46,
+        "n_V": 19,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 4,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 2
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 8,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 2,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "fock_even": 32,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 42,
+        "n_B_2H": 46,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -42,
+        "n_F_minus_n_B_2H": -46,
+        "n_V": 19,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 4,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 2
+      },
+      {
+        "N": 4,
+        "a": 3,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 3,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2
+        ],
+        "d": 6,
+        "fock_even": 32,
+        "inv_class_size": 6,
+        "is_chiral": false,
+        "n_B_1H": 40,
+        "n_B_2H": 46,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -40,
+        "n_F_minus_n_B_2H": -46,
+        "n_V": 17,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 6,
+        "n_s_2H": 12,
+        "sub_order": 4,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 4,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 8,
+        "fock_even": 128,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 70,
+        "n_B_2H": 78,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -70,
+        "n_F_minus_n_B_2H": -78,
+        "n_V": 31,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 8,
+        "n_s_2H": 16,
+        "sub_order": 3,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 4,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 8,
+        "fock_even": 128,
+        "inv_class_size": 6,
+        "is_chiral": false,
+        "n_B_1H": 70,
+        "n_B_2H": 78,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -70,
+        "n_F_minus_n_B_2H": -78,
+        "n_V": 31,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 8,
+        "n_s_2H": 16,
+        "sub_order": 3,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 4,
+        "a": 8,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 4,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "fock_even": 2048,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 166,
+        "n_B_2H": 174,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -166,
+        "n_F_minus_n_B_2H": -174,
+        "n_V": 79,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 8,
+        "n_s_2H": 16,
+        "sub_order": 2,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 2
+      },
+      {
+        "N": 4,
+        "a": 6,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 6,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "fock_even": 2048,
+        "inv_class_size": 6,
+        "is_chiral": false,
+        "n_B_1H": 154,
+        "n_B_2H": 166,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -154,
+        "n_F_minus_n_B_2H": -166,
+        "n_V": 71,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 12,
+        "n_s_2H": 24,
+        "sub_order": 2,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 4,
+        "a": 6,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 6,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "fock_even": 2048,
+        "inv_class_size": 3,
+        "is_chiral": false,
+        "n_B_1H": 154,
+        "n_B_2H": 166,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -154,
+        "n_F_minus_n_B_2H": -166,
+        "n_V": 71,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 12,
+        "n_s_2H": 24,
+        "sub_order": 2,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      },
+      {
+        "N": 4,
+        "a": 7,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 5,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "fock_even": 2048,
+        "inv_class_size": 6,
+        "is_chiral": false,
+        "n_B_1H": 156,
+        "n_B_2H": 166,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -156,
+        "n_F_minus_n_B_2H": -166,
+        "n_V": 73,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 10,
+        "n_s_2H": 20,
+        "sub_order": 2,
+        "unpaired_weight_states": 0,
+        "y_A": -5,
+        "y_B": 7
+      },
+      {
+        "N": 5,
+        "a": 3,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 4,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": true,
+        "anomaly_free_confining_2H": true,
+        "b": 2,
+        "confining_bowl_1H": true,
+        "confining_bowl_2H": true,
+        "cycle_type": [
+          1,
+          2,
+          2
+        ],
+        "d": 5,
+        "fock_even": 16,
+        "inv_class_size": 15,
+        "is_chiral": true,
+        "n_B_1H": 28,
+        "n_B_2H": 32,
+        "n_F_chiral_3gen": 96,
+        "n_F_minus_n_B_1H": 68,
+        "n_F_minus_n_B_2H": 64,
+        "n_V": 12,
+        "n_W_chiral_3gen": 48,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 12,
+        "unpaired_weight_states": 15,
+        "y_A": -2,
+        "y_B": 3
+      },
+      {
+        "N": 5,
+        "a": 4,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 8,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 2,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "fock_even": 32,
+        "inv_class_size": 15,
+        "is_chiral": false,
+        "n_B_1H": 42,
+        "n_B_2H": 46,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -42,
+        "n_F_minus_n_B_2H": -46,
+        "n_V": 19,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 4,
+        "n_s_2H": 8,
+        "sub_order": 10,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 2
+      },
+      {
+        "N": 5,
+        "a": 6,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 4,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 10,
+        "fock_even": 512,
+        "inv_class_size": 15,
+        "is_chiral": false,
+        "n_B_1H": 110,
+        "n_B_2H": 118,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -110,
+        "n_F_minus_n_B_2H": -118,
+        "n_V": 51,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 8,
+        "n_s_2H": 16,
+        "sub_order": 6,
+        "unpaired_weight_states": 0,
+        "y_A": -2,
+        "y_B": 3
+      },
+      {
+        "N": 5,
+        "a": 6,
+        "anomalies": {
+          "2Tr_SUa2_Y": 0,
+          "2Tr_SUb2_Y": 0,
+          "A_SUa3": 0,
+          "A_SUb3": 0,
+          "Tr_Y": 0,
+          "Tr_Y3": 0,
+          "witten_SU2a_doublets_1gen": 0,
+          "witten_SU2b_doublets_1gen": 0,
+          "witten_free_3gen": true
+        },
+        "anomaly_free": true,
+        "anomaly_free_confining_1H": false,
+        "anomaly_free_confining_2H": false,
+        "b": 6,
+        "confining_bowl_1H": false,
+        "confining_bowl_2H": false,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "fock_even": 2048,
+        "inv_class_size": 15,
+        "is_chiral": false,
+        "n_B_1H": 154,
+        "n_B_2H": 166,
+        "n_F_chiral_3gen": 0,
+        "n_F_minus_n_B_1H": -154,
+        "n_F_minus_n_B_2H": -166,
+        "n_V": 71,
+        "n_W_chiral_3gen": 0,
+        "n_s_1H": 12,
+        "n_s_2H": 24,
+        "sub_order": 5,
+        "unpaired_weight_states": 0,
+        "y_A": -1,
+        "y_B": 1
+      }
+    ],
+    "count_anomalous": 1,
+    "count_anomaly_free": 20,
+    "count_chiral": 2,
+    "count_vector_like": 19,
+    "groups": {
+      "N=2": {
+        "action_involution_pairs": 2,
+        "faithful_actions_d_le_12": 2,
+        "group_order": 6,
+        "involution_classes": 1,
+        "ord_a": 2,
+        "ord_ab": 2,
+        "ord_b": 3,
+        "rep_label": "PSL(2, F_2)",
+        "total_subgroup_classes": 4
+      },
+      "N=3": {
+        "action_involution_pairs": 3,
+        "faithful_actions_d_le_12": 3,
+        "group_order": 12,
+        "involution_classes": 1,
+        "ord_a": 2,
+        "ord_ab": 3,
+        "ord_b": 3,
+        "rep_label": "PSL(2, F_3)",
+        "total_subgroup_classes": 5
+      },
+      "N=4": {
+        "action_involution_pairs": 12,
+        "faithful_actions_d_le_12": 6,
+        "group_order": 24,
+        "involution_classes": 2,
+        "ord_a": 2,
+        "ord_ab": 4,
+        "ord_b": 3,
+        "rep_label": "SO(3, Z)_cube",
+        "total_subgroup_classes": 11
+      },
+      "N=5": {
+        "action_involution_pairs": 4,
+        "faithful_actions_d_le_12": 4,
+        "group_order": 60,
+        "involution_classes": 1,
+        "ord_a": 2,
+        "ord_ab": 5,
+        "ord_b": 3,
+        "rep_label": "PSL(2, F_5)",
+        "total_subgroup_classes": 9
+      }
+    },
+    "ow4_a_pass": true,
+    "total_actions": 21,
+    "unique_anomaly_free_confining_1H": [
+      {
+        "N": 5,
+        "a": 3,
+        "b": 2,
+        "cycle_type": [
+          1,
+          2,
+          2
+        ],
+        "d": 5,
+        "n_F_minus_n_B_1H": 68
+      }
+    ],
+    "unique_anomaly_free_confining_2H": [
+      {
+        "N": 5,
+        "a": 3,
+        "b": 2,
+        "cycle_type": [
+          1,
+          2,
+          2
+        ],
+        "d": 5,
+        "n_F_minus_n_B_2H": 64
+      }
+    ]
+  },
+  "OW4-B": {
+    "S2xS2": {
+      "C2": "16/3",
+      "D": 4,
+      "E4": "8",
+      "R": "4",
+      "mpmath_direct_sum_rel_err_at_t_1_200": {
+        "scalar": "9.08389687408e-34",
+        "vector": "3.62277388457e-34",
+        "weyl": "4.80775169916e-34"
+      },
+      "mpmath_explicit_2d_double_sum_rel_err_at_t_1_20": {
+        "scalar": "9.37749200439e-21",
+        "vector": "4.12838431548e-21"
+      },
+      "scalar_conf": {
+        "a0": "1",
+        "a1": "0",
+        "a2": "1/45",
+        "w": "0",
+        "xi_c": "1/6"
+      },
+      "scalar_min": {
+        "a0": "1",
+        "a1": "2/3",
+        "a2": "11/45",
+        "w": "1/6"
+      },
+      "vector": {
+        "a0": "2",
+        "a1": "-8/3",
+        "a2": "-38/45",
+        "w": "-2/3"
+      },
+      "vol_factor_4pi_sq_over_Vol": "1",
+      "weyl": {
+        "a0": "-2",
+        "a1": "2/3",
+        "a2": "1/90",
+        "w": "1/6"
+      }
+    },
+    "broda_szanecki_4d_gate": {
+      "6_w_V_S2xS2": "-4",
+      "6_w_V_S4": "-4",
+      "6_w_W_S2xS2": "1",
+      "6_w_W_S4": "1",
+      "pass": true,
+      "xi_scan": [
+        {
+          "6_w_s_S2xS2": "1",
+          "6_w_s_S4": "1",
+          "exact_match": true,
+          "expected_1_minus_6xi": "1",
+          "xi": "0"
+        },
+        {
+          "6_w_s_S2xS2": "0",
+          "6_w_s_S4": "0",
+          "exact_match": true,
+          "expected_1_minus_6xi": "0",
+          "xi": "1/6"
+        },
+        {
+          "6_w_s_S2xS2": "-1/2",
+          "6_w_s_S4": "-1/2",
+          "exact_match": true,
+          "expected_1_minus_6xi": "-1/2",
+          "xi": "1/4"
+        },
+        {
+          "6_w_s_S2xS2": "-1",
+          "6_w_s_S4": "-1",
+          "exact_match": true,
+          "expected_1_minus_6xi": "-1",
+          "xi": "1/3"
+        },
+        {
+          "6_w_s_S2xS2": "-5",
+          "6_w_s_S4": "-5",
+          "exact_match": true,
+          "expected_1_minus_6xi": "-5",
+          "xi": "1"
+        }
+      ]
+    },
+    "central_charges_2x2_inversion": {
+      "conformal_scalar": {
+        "a": "1/360",
+        "c": "1/120"
+      },
+      "gauge_vector": {
+        "a": "31/180",
+        "c": "1/10"
+      },
+      "matrix_det": "128",
+      "weyl_fermion": {
+        "a": "11/720",
+        "c": "1/40"
+      }
+    },
+    "method": "exact_bernoulli_hurwitz_zeta_fraction_plus_mpmath_50dps_checks",
+    "mpmath_independent_checks": {
+      "S4_dirac_mellin_t_quad_s3_rel_err": "2.07550599483e-22",
+      "S4_dirac_zeta0_a2_W_abs_err": "0.0",
+      "direct_spectral_sum_max_rel_err_t_1_200": "2.67349577835e-32",
+      "hurwitz_zeta_bernoulli_max_abs_err": "0.0"
+    },
+    "ow4_b_pass": true,
+    "spheres": {
+      "S^10": {
+        "D": 10,
+        "R": "90",
+        "dirac": {
+          "a0": "32",
+          "a1": "-240",
+          "a2": "728"
+        },
+        "hodge_1form_full": {
+          "a0": "10",
+          "a1": "60",
+          "a2": "130"
+        },
+        "mpmath_direct_sum_rel_err_at_t_1_200": {
+          "dirac": "4.63444832616e-37",
+          "scalar": "7.61522693716e-33",
+          "transverse_1form": "3.48477257481e-34",
+          "vector": "1.40193094801e-33"
+        },
+        "scalar_conf": {
+          "a0": "1",
+          "a1": "-5",
+          "a2": "9",
+          "w": "-1/18",
+          "xi_c": "2/9"
+        },
+        "scalar_min": {
+          "a0": "1",
+          "a1": "15",
+          "a2": "109",
+          "w": "1/6"
+        },
+        "transverse_1form": {
+          "a0": "9",
+          "a1": "45",
+          "a2": "21"
+        },
+        "vector": {
+          "a0": "8",
+          "a1": "30",
+          "a2": "-88",
+          "w": "1/3"
+        },
+        "vector_omitting_l0_ghost": {
+          "a2": "-88"
+        },
+        "vol_factor_4pi_pow_m_over_Vol": "15120",
+        "weyl": {
+          "a0": "-16",
+          "a1": "120",
+          "a2": "-364",
+          "w": "4/3"
+        }
+      },
+      "S^4": {
+        "D": 4,
+        "R": "12",
+        "dirac": {
+          "a0": "4",
+          "a1": "-4",
+          "a2": "11/15"
+        },
+        "hodge_1form_full": {
+          "a0": "4",
+          "a1": "-4",
+          "a2": "-4/15"
+        },
+        "mpmath_direct_sum_rel_err_at_t_1_200": {
+          "dirac": "3.61855594268e-33",
+          "scalar": "1.98995578761e-32",
+          "transverse_1form": "4.72100279288e-33",
+          "vector": "3.1010269215e-33"
+        },
+        "scalar_conf": {
+          "a0": "1",
+          "a1": "0",
+          "a2": "-1/15",
+          "w": "0",
+          "xi_c": "1/6"
+        },
+        "scalar_min": {
+          "a0": "1",
+          "a1": "2",
+          "a2": "29/15",
+          "w": "1/6"
+        },
+        "transverse_1form": {
+          "a0": "3",
+          "a1": "-6",
+          "a2": "19/5"
+        },
+        "vector": {
+          "a0": "2",
+          "a1": "-8",
+          "a2": "-62/15",
+          "w": "-2/3"
+        },
+        "vector_omitting_l0_ghost": {
+          "a2": "28/15"
+        },
+        "vol_factor_4pi_pow_m_over_Vol": "6",
+        "weyl": {
+          "a0": "-2",
+          "a1": "2",
+          "a2": "-11/30",
+          "w": "1/6"
+        }
+      },
+      "S^6": {
+        "D": 6,
+        "R": "30",
+        "dirac": {
+          "a0": "8",
+          "a1": "-20",
+          "a2": "16"
+        },
+        "hodge_1form_full": {
+          "a0": "6",
+          "a1": "0",
+          "a2": "-8"
+        },
+        "mpmath_direct_sum_rel_err_at_t_1_200": {
+          "dirac": "1.97269775194e-34",
+          "scalar": "2.17720145491e-32",
+          "transverse_1form": "9.79826416069e-34",
+          "vector": "4.41830427138e-33"
+        },
+        "scalar_conf": {
+          "a0": "1",
+          "a1": "-1",
+          "a2": "0",
+          "w": "-1/30",
+          "xi_c": "1/5"
+        },
+        "scalar_min": {
+          "a0": "1",
+          "a1": "5",
+          "a2": "12",
+          "w": "1/6"
+        },
+        "transverse_1form": {
+          "a0": "5",
+          "a1": "-5",
+          "a2": "-20"
+        },
+        "vector": {
+          "a0": "4",
+          "a1": "-10",
+          "a2": "-32",
+          "w": "-1/3"
+        },
+        "vector_omitting_l0_ghost": {
+          "a2": "-32"
+        },
+        "vol_factor_4pi_pow_m_over_Vol": "60",
+        "weyl": {
+          "a0": "-4",
+          "a1": "10",
+          "a2": "-8",
+          "w": "1/3"
+        }
+      },
+      "S^8": {
+        "D": 8,
+        "R": "56",
+        "dirac": {
+          "a0": "16",
+          "a1": "-224/3",
+          "a2": "392/3"
+        },
+        "hodge_1form_full": {
+          "a0": "8",
+          "a1": "56/3",
+          "a2": "0"
+        },
+        "mpmath_direct_sum_rel_err_at_t_1_200": {
+          "dirac": "9.61490487279e-36",
+          "scalar": "2.67349577835e-32",
+          "transverse_1form": "7.31594976003e-34",
+          "vector": "5.52956692881e-33"
+        },
+        "scalar_conf": {
+          "a0": "1",
+          "a1": "-8/3",
+          "a2": "2",
+          "w": "-1/21",
+          "xi_c": "3/14"
+        },
+        "scalar_min": {
+          "a0": "1",
+          "a1": "28/3",
+          "a2": "42",
+          "w": "1/6"
+        },
+        "transverse_1form": {
+          "a0": "7",
+          "a1": "28/3",
+          "a2": "-42"
+        },
+        "vector": {
+          "a0": "6",
+          "a1": "0",
+          "a2": "-84",
+          "w": "0"
+        },
+        "vector_omitting_l0_ghost": {
+          "a2": "-84"
+        },
+        "vol_factor_4pi_pow_m_over_Vol": "840",
+        "weyl": {
+          "a0": "-8",
+          "a1": "112/3",
+          "a2": "-196/3",
+          "w": "2/3"
+        }
+      }
+    }
+  },
+  "OW4-C": {
+    "D_Ngen_scan": [
+      {
+        "6_C_grav_conf": "-32",
+        "6_C_grav_min_1H": "-28",
+        "6_C_grav_min_2H": "-24",
+        "C_grav_min_1H": "-14/3",
+        "C_grav_min_2H": "-4",
+        "D": 4,
+        "N_gen": 1,
+        "N_gen_required_for_cancellation": "3",
+        "attractive_min_1H": false,
+        "attractive_min_2H": false,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "-16/3",
+        "n_V": 12,
+        "n_W": 16,
+        "w_V": "-2/3",
+        "w_W": "1/6",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "-16",
+        "6_C_grav_min_1H": "-12",
+        "6_C_grav_min_2H": "-8",
+        "C_grav_min_1H": "-2",
+        "C_grav_min_2H": "-4/3",
+        "D": 4,
+        "N_gen": 2,
+        "N_gen_required_for_cancellation": "3",
+        "attractive_min_1H": false,
+        "attractive_min_2H": false,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "-8/3",
+        "n_V": 12,
+        "n_W": 32,
+        "w_V": "-2/3",
+        "w_W": "1/6",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "0",
+        "6_C_grav_min_1H": "4",
+        "6_C_grav_min_2H": "8",
+        "C_grav_min_1H": "2/3",
+        "C_grav_min_2H": "4/3",
+        "D": 4,
+        "N_gen": 3,
+        "N_gen_required_for_cancellation": "3",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": true,
+        "fermion_gauge_balance": "0",
+        "n_V": 12,
+        "n_W": 48,
+        "w_V": "-2/3",
+        "w_W": "1/6",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "16",
+        "6_C_grav_min_1H": "20",
+        "6_C_grav_min_2H": "24",
+        "C_grav_min_1H": "10/3",
+        "C_grav_min_2H": "4",
+        "D": 4,
+        "N_gen": 4,
+        "N_gen_required_for_cancellation": "3",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "8/3",
+        "n_V": 12,
+        "n_W": 64,
+        "w_V": "-2/3",
+        "w_W": "1/6",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "8",
+        "6_C_grav_min_1H": "12",
+        "6_C_grav_min_2H": "16",
+        "C_grav_min_1H": "2",
+        "C_grav_min_2H": "8/3",
+        "D": 6,
+        "N_gen": 1,
+        "N_gen_required_for_cancellation": "3/4",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "4/3",
+        "n_V": 12,
+        "n_W": 16,
+        "w_V": "-1/3",
+        "w_W": "1/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "40",
+        "6_C_grav_min_1H": "44",
+        "6_C_grav_min_2H": "48",
+        "C_grav_min_1H": "22/3",
+        "C_grav_min_2H": "8",
+        "D": 6,
+        "N_gen": 2,
+        "N_gen_required_for_cancellation": "3/4",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "20/3",
+        "n_V": 12,
+        "n_W": 32,
+        "w_V": "-1/3",
+        "w_W": "1/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "72",
+        "6_C_grav_min_1H": "76",
+        "6_C_grav_min_2H": "80",
+        "C_grav_min_1H": "38/3",
+        "C_grav_min_2H": "40/3",
+        "D": 6,
+        "N_gen": 3,
+        "N_gen_required_for_cancellation": "3/4",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "12",
+        "n_V": 12,
+        "n_W": 48,
+        "w_V": "-1/3",
+        "w_W": "1/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "104",
+        "6_C_grav_min_1H": "108",
+        "6_C_grav_min_2H": "112",
+        "C_grav_min_1H": "18",
+        "C_grav_min_2H": "56/3",
+        "D": 6,
+        "N_gen": 4,
+        "N_gen_required_for_cancellation": "3/4",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "52/3",
+        "n_V": 12,
+        "n_W": 64,
+        "w_V": "-1/3",
+        "w_W": "1/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "64",
+        "6_C_grav_min_1H": "68",
+        "6_C_grav_min_2H": "72",
+        "C_grav_min_1H": "34/3",
+        "C_grav_min_2H": "12",
+        "D": 8,
+        "N_gen": 1,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "32/3",
+        "n_V": 12,
+        "n_W": 16,
+        "w_V": "0",
+        "w_W": "2/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "128",
+        "6_C_grav_min_1H": "132",
+        "6_C_grav_min_2H": "136",
+        "C_grav_min_1H": "22",
+        "C_grav_min_2H": "68/3",
+        "D": 8,
+        "N_gen": 2,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "64/3",
+        "n_V": 12,
+        "n_W": 32,
+        "w_V": "0",
+        "w_W": "2/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "192",
+        "6_C_grav_min_1H": "196",
+        "6_C_grav_min_2H": "200",
+        "C_grav_min_1H": "98/3",
+        "C_grav_min_2H": "100/3",
+        "D": 8,
+        "N_gen": 3,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "32",
+        "n_V": 12,
+        "n_W": 48,
+        "w_V": "0",
+        "w_W": "2/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "256",
+        "6_C_grav_min_1H": "260",
+        "6_C_grav_min_2H": "264",
+        "C_grav_min_1H": "130/3",
+        "C_grav_min_2H": "44",
+        "D": 8,
+        "N_gen": 4,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "128/3",
+        "n_V": 12,
+        "n_W": 64,
+        "w_V": "0",
+        "w_W": "2/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "152",
+        "6_C_grav_min_1H": "156",
+        "6_C_grav_min_2H": "160",
+        "C_grav_min_1H": "26",
+        "C_grav_min_2H": "80/3",
+        "D": 10,
+        "N_gen": 1,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "76/3",
+        "n_V": 12,
+        "n_W": 16,
+        "w_V": "1/3",
+        "w_W": "4/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "280",
+        "6_C_grav_min_1H": "284",
+        "6_C_grav_min_2H": "288",
+        "C_grav_min_1H": "142/3",
+        "C_grav_min_2H": "48",
+        "D": 10,
+        "N_gen": 2,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "140/3",
+        "n_V": 12,
+        "n_W": 32,
+        "w_V": "1/3",
+        "w_W": "4/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "408",
+        "6_C_grav_min_1H": "412",
+        "6_C_grav_min_2H": "416",
+        "C_grav_min_1H": "206/3",
+        "C_grav_min_2H": "208/3",
+        "D": 10,
+        "N_gen": 3,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "68",
+        "n_V": 12,
+        "n_W": 48,
+        "w_V": "1/3",
+        "w_W": "4/3",
+        "w_s": "1/6"
+      },
+      {
+        "6_C_grav_conf": "536",
+        "6_C_grav_min_1H": "540",
+        "6_C_grav_min_2H": "544",
+        "C_grav_min_1H": "90",
+        "C_grav_min_2H": "272/3",
+        "D": 10,
+        "N_gen": 4,
+        "N_gen_required_for_cancellation": "impossible",
+        "attractive_min_1H": true,
+        "attractive_min_2H": true,
+        "exact_fg_cancellation": false,
+        "fermion_gauge_balance": "268/3",
+        "n_V": 12,
+        "n_W": 64,
+        "w_V": "1/3",
+        "w_W": "4/3",
+        "w_s": "1/6"
+      }
+    ],
+    "all21_4d_gravity_table": [
+      {
+        "N": 2,
+        "a": 2,
+        "anomaly_free": false,
+        "b": 1,
+        "cycle_type": [
+          1,
+          2
+        ],
+        "d": 3,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-12",
+            "6_C_grav_min_1H": "-10",
+            "6_C_grav_min_2H": "-8",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 4
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-8",
+            "6_C_grav_min_1H": "-6",
+            "6_C_grav_min_2H": "-4",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 8
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-4",
+            "6_C_grav_min_1H": "-2",
+            "6_C_grav_min_2H": "0",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 12
+          }
+        },
+        "is_chiral": true,
+        "n_V": 4,
+        "n_s_1H": 2,
+        "n_s_2H": 4
+      },
+      {
+        "N": 2,
+        "a": 3,
+        "anomaly_free": true,
+        "b": 3,
+        "cycle_type": [
+          2,
+          2,
+          2
+        ],
+        "d": 6,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-68",
+            "6_C_grav_min_1H": "-62",
+            "6_C_grav_min_2H": "-56",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-68",
+            "6_C_grav_min_1H": "-62",
+            "6_C_grav_min_2H": "-56",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-68",
+            "6_C_grav_min_1H": "-62",
+            "6_C_grav_min_2H": "-56",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 17,
+        "n_s_1H": 6,
+        "n_s_2H": 12
+      },
+      {
+        "N": 3,
+        "a": 2,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          2,
+          2
+        ],
+        "d": 4,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-28",
+            "6_C_grav_min_1H": "-24",
+            "6_C_grav_min_2H": "-20",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-28",
+            "6_C_grav_min_1H": "-24",
+            "6_C_grav_min_2H": "-20",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-28",
+            "6_C_grav_min_1H": "-24",
+            "6_C_grav_min_2H": "-20",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 7,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 3,
+        "a": 4,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 19,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 3,
+        "a": 6,
+        "anomaly_free": true,
+        "b": 6,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 71,
+        "n_s_1H": 12,
+        "n_s_2H": 24
+      },
+      {
+        "N": 4,
+        "a": 2,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          2,
+          2
+        ],
+        "d": 4,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-28",
+            "6_C_grav_min_1H": "-24",
+            "6_C_grav_min_2H": "-20",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-28",
+            "6_C_grav_min_1H": "-24",
+            "6_C_grav_min_2H": "-20",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-28",
+            "6_C_grav_min_1H": "-24",
+            "6_C_grav_min_2H": "-20",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 7,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 4,
+        "a": 3,
+        "anomaly_free": true,
+        "b": 1,
+        "cycle_type": [
+          1,
+          1,
+          2
+        ],
+        "d": 4,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-36",
+            "6_C_grav_min_1H": "-34",
+            "6_C_grav_min_2H": "-32",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-36",
+            "6_C_grav_min_1H": "-34",
+            "6_C_grav_min_2H": "-32",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-36",
+            "6_C_grav_min_1H": "-34",
+            "6_C_grav_min_2H": "-32",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 9,
+        "n_s_1H": 2,
+        "n_s_2H": 4
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 19,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 19,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 19,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 4,
+        "a": 3,
+        "anomaly_free": true,
+        "b": 3,
+        "cycle_type": [
+          2,
+          2,
+          2
+        ],
+        "d": 6,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-68",
+            "6_C_grav_min_1H": "-62",
+            "6_C_grav_min_2H": "-56",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-68",
+            "6_C_grav_min_1H": "-62",
+            "6_C_grav_min_2H": "-56",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-68",
+            "6_C_grav_min_1H": "-62",
+            "6_C_grav_min_2H": "-56",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 17,
+        "n_s_1H": 6,
+        "n_s_2H": 12
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomaly_free": true,
+        "b": 4,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 8,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-124",
+            "6_C_grav_min_1H": "-116",
+            "6_C_grav_min_2H": "-108",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-124",
+            "6_C_grav_min_1H": "-116",
+            "6_C_grav_min_2H": "-108",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-124",
+            "6_C_grav_min_1H": "-116",
+            "6_C_grav_min_2H": "-108",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 31,
+        "n_s_1H": 8,
+        "n_s_2H": 16
+      },
+      {
+        "N": 4,
+        "a": 4,
+        "anomaly_free": true,
+        "b": 4,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 8,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-124",
+            "6_C_grav_min_1H": "-116",
+            "6_C_grav_min_2H": "-108",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-124",
+            "6_C_grav_min_1H": "-116",
+            "6_C_grav_min_2H": "-108",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-124",
+            "6_C_grav_min_1H": "-116",
+            "6_C_grav_min_2H": "-108",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 31,
+        "n_s_1H": 8,
+        "n_s_2H": 16
+      },
+      {
+        "N": 4,
+        "a": 8,
+        "anomaly_free": true,
+        "b": 4,
+        "cycle_type": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-316",
+            "6_C_grav_min_1H": "-308",
+            "6_C_grav_min_2H": "-300",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-316",
+            "6_C_grav_min_1H": "-308",
+            "6_C_grav_min_2H": "-300",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-316",
+            "6_C_grav_min_1H": "-308",
+            "6_C_grav_min_2H": "-300",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 79,
+        "n_s_1H": 8,
+        "n_s_2H": 16
+      },
+      {
+        "N": 4,
+        "a": 6,
+        "anomaly_free": true,
+        "b": 6,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 71,
+        "n_s_1H": 12,
+        "n_s_2H": 24
+      },
+      {
+        "N": 4,
+        "a": 6,
+        "anomaly_free": true,
+        "b": 6,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 71,
+        "n_s_1H": 12,
+        "n_s_2H": 24
+      },
+      {
+        "N": 4,
+        "a": 7,
+        "anomaly_free": true,
+        "b": 5,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-292",
+            "6_C_grav_min_1H": "-282",
+            "6_C_grav_min_2H": "-272",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-292",
+            "6_C_grav_min_1H": "-282",
+            "6_C_grav_min_2H": "-272",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-292",
+            "6_C_grav_min_1H": "-282",
+            "6_C_grav_min_2H": "-272",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 73,
+        "n_s_1H": 10,
+        "n_s_2H": 20
+      },
+      {
+        "N": 5,
+        "a": 3,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          1,
+          2,
+          2
+        ],
+        "d": 5,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-32",
+            "6_C_grav_min_1H": "-28",
+            "6_C_grav_min_2H": "-24",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 16
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-16",
+            "6_C_grav_min_1H": "-12",
+            "6_C_grav_min_2H": "-8",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 32
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "0",
+            "6_C_grav_min_1H": "4",
+            "6_C_grav_min_2H": "8",
+            "attractive_1H": true,
+            "attractive_2H": true,
+            "n_W": 48
+          }
+        },
+        "is_chiral": true,
+        "n_V": 12,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 5,
+        "a": 4,
+        "anomaly_free": true,
+        "b": 2,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "d": 6,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-76",
+            "6_C_grav_min_1H": "-72",
+            "6_C_grav_min_2H": "-68",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 19,
+        "n_s_1H": 4,
+        "n_s_2H": 8
+      },
+      {
+        "N": 5,
+        "a": 6,
+        "anomaly_free": true,
+        "b": 4,
+        "cycle_type": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 10,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-204",
+            "6_C_grav_min_1H": "-196",
+            "6_C_grav_min_2H": "-188",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-204",
+            "6_C_grav_min_1H": "-196",
+            "6_C_grav_min_2H": "-188",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-204",
+            "6_C_grav_min_1H": "-196",
+            "6_C_grav_min_2H": "-188",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 51,
+        "n_s_1H": 8,
+        "n_s_2H": 16
+      },
+      {
+        "N": 5,
+        "a": 6,
+        "anomaly_free": true,
+        "b": 6,
+        "cycle_type": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "d": 12,
+        "gravity_4d": {
+          "N_gen=1": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=2": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          },
+          "N_gen=3": {
+            "6_C_grav_conf": "-284",
+            "6_C_grav_min_1H": "-272",
+            "6_C_grav_min_2H": "-260",
+            "attractive_1H": false,
+            "attractive_2H": false,
+            "n_W": 0
+          }
+        },
+        "is_chiral": false,
+        "n_V": 71,
+        "n_s_1H": 12,
+        "n_s_2H": 24
+      }
+    ],
+    "all_vector_like_ghost_gravity": true,
+    "honest_a0_cc_nogo": {
+      "a0_V": "2",
+      "a0_W": "-2",
+      "a0_s": "1",
+      "a0_total_1H": "-68",
+      "a0_total_2H": "-64",
+      "cc_nogo_confirmed": true,
+      "quartic_cc_cancellation_occurs": false
+    },
+    "ow4_c_pass": true,
+    "trace_anomaly_4d_SM": {
+      "1H": {
+        "a": "253/90",
+        "a_positive": true,
+        "c": "73/30",
+        "c_positive": true
+      },
+      "2H": {
+        "a": "127/45",
+        "a_positive": true,
+        "c": "37/15",
+        "c_positive": true
+      }
+    },
+    "unique_attractive_af_1to3_1H": [
+      {
+        "N": 5,
+        "N_gen": 3,
+        "cycle_type": [
+          1,
+          2,
+          2
+        ],
+        "d": 5
+      }
+    ],
+    "unique_attractive_af_1to3_2H": [
+      {
+        "N": 5,
+        "N_gen": 3,
+        "cycle_type": [
+          1,
+          2,
+          2
+        ],
+        "d": 5
+      }
+    ],
+    "unique_exact_fg_cancellation": [
+      {
+        "D": 4,
+        "N_gen": 3
+      }
+    ]
+  },
+  "OW4-D": {
+    "caught_count": 4,
+    "faults": {
+      "PF-OW4-1": {
+        "6_C_grav_min_1H": "-92",
+        "6_C_grav_min_2H": "-88",
+        "broda_6wW_minus_1_residual": "-2",
+        "caught": true,
+        "description": "Flip Dirac Berezin sign (+a1_D/2 instead of -a1_D/2)",
+        "fg_balance_4D_3gen": "-16",
+        "w_W_fault": "-1/6"
+      },
+      "PF-OW4-2": {
+        "a2_V_S4_fault": "28/15",
+        "a2_V_S4_true": "-62/15",
+        "a_V_fault_from_2x2": "-7/90",
+        "c_V_fault_from_2x2": "-11/40",
+        "caught": true,
+        "description": "Omit l=0 scalar ghost zero-mode (-6) on S^4",
+        "shift": "6"
+      },
+      "PF-OW4-3": {
+        "6_C_grav_min_1H": "-12",
+        "6_C_grav_min_2H": "-8",
+        "caught": true,
+        "description": "Shift N_gen = 2 at N = 5, D = 4",
+        "n_W": 32
+      },
+      "PF-OW4-4": {
+        "N_gen_required_6D": "3/4",
+        "caught": true,
+        "description": "Shift external dimension to D = 6 at N = 5, N_gen = 3",
+        "fg_balance_6D_3gen": "12",
+        "w_V_6": "-1/3",
+        "w_W_6": "1/3"
+      }
+    },
+    "ow4_d_pass": true,
+    "total_faults": 4
+  },
+  "card_id": "AGY-002_A2-OW4",
+  "empirical_inputs": "0 of 19",
+  "overall_pass": true,
+  "role": "cold_room_zero_trust_referee"
+}
