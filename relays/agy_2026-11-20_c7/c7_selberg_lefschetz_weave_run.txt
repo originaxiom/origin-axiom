@@ -1,0 +1,48 @@
+=== SECTION 1: PRIMITIVE PSL(2, Z) WEAVE CENSUS (3 <= t <= 50), h^+(Delta) BIJECTION, & Z_weave(s) (E1) ===
+  Enumerated 363 primitive PSL(2, Z) classes for 3 <= t <= 50; 48/48 traces match Gauss sum_g h^+((t^2-4)/g^2).
+  First primitive counts N_prim(t) for t=3..14: [1, 2, 2, 3, 2, 4, 2, 6, 3, 4, 4, 6]
+  t=3 ([LR]): SNF=(1,5), orders={5}; t=4 ([LR^2],[L^2R]): SNF=(1,6), orders=[2, 3, 6] -> lcm(5,6) = 30 = 2*3*5.
+  t=6 ([LR^4],[L^4R],[L^2R^2]): SNFs=[(1, 8), (1, 8), (2, 4)], dyadic orders=[2, 4, 8].
+  s=0: Z(T<=25)=104.0, Z(T<=30)=151.0, Z(T<=50)=363.0 | [LR] share(T<=30)=0.0066225, share(T<=50)=0.0027548
+  [CAUGHT Planted Control 2] At s=0 (3<=t<=30), [LR] weight share = 1/151 = 0.0066225 < 1/50.
+  s=1: Z(T<=25)=0.937202, Z(T<=30)=0.99724, Z(T<=50)=1.12672 | [LR] share(T<=30)=0.1463, share(T<=50)=0.12949
+  s=2: Z(T<=25)=0.0420893, Z(T<=30)=0.042167, Z(T<=50)=0.0422527 | [LR] share(T<=30)=0.50481, share(T<=50)=0.50378
+  Canonical s=2 (weight 2s=4): [LR] dynamic majority = 50.378% (> 50% > 2/5 without SE1/SE3); t=4 share = 24.4%; combined (t=3,4) = 74.778%.
+  s=3: Z(T<=25)=0.0041406, Z(T<=30)=0.0041407, Z(T<=50)=0.00414076 | [LR] share(T<=30)=0.75002, share(T<=50)=0.75001
+  [PASS] Section 1 Lyndon census, Gauss narrow class bijection, lcm(5,6)=30 overtone, and s=2 dominance verified.
+
+=== WEAVE EVALUATION AT tau = 16 + 8i (level-40 cover of tau_*^+) (L_2 = 2.25051171, 52 dps) ===
+  Antipodal invariance check at (2/7, 3/7): ||G(-w) - G(w)|| = 1.3241e-46, |F(-w) - F(w)| = 8.3524e-53
+  Exact dyadic order-4 singularity theorem: max_{w in P_4} |det M_w| = 1.0356e-48 (< 1e-40); rank<3 loci (d, |P_d|, zero_u, zero_d, zero_e) = [(4, 12, 12, 12, 12), (12, 96, 32, 32, 96)]; min non-zero sv[0] = 8.9019e-18.
+  Orbit P_2 (|P_2|= 3) arith (m1/m2,m2/m3): u=(1.462e-5,3.802e-10) d=(1.462e-5,3.802e-10) e=(1.462e-5,3.802e-10)
+  Orbit P_3 (|P_3|= 8) arith (m1/m2,m2/m3): u=(2.305e-7,0.00213) d=(2.305e-7,0.00213) e=(1.532e-10,3.768e-10)
+  Orbit P_5 (|P_5|=24) arith (m1/m2,m2/m3): u=(0.0009554,0.0006499) d=(1.719e-6,3.189e-5) e=(1.719e-6,3.189e-5)
+  Orbit P_6 (|P_6|=24) arith (m1/m2,m2/m3): u=(2.968e-7,0.001422) d=(2.968e-7,0.001422) e=(1.462e-5,3.802e-10)
+  [CAUGHT Planted Control 1] Taped-flute (t=3 only) |r_e - r_d|/r_d: arith = 4.041e-39 (< 1e-30), geom = 4.6437e-37 (< 1e-30).
+  Rank-3 generic weight shares at s=2 (3<=t<=20): u=0.97263, e=0.97022
+  Rule (a) Arith mean (full ker): u=(0.0008239,0.0008077) d=(4.795e-6,0.0004687) e=(6.938e-6,4.3e-5) | |r_e-r_d|/r_d=(0.4471,0.9083)
+  Rule (a') Arith mean (a != 0) : u=(0.0009526,0.0009722) d=(5.786e-6,0.00057) e=(8.16e-6,4.913e-5) | |r_e-r_d|/r_d=(0.4102,0.9138)
+  Rule (b) Geom log-mean (rk 3) : u=(2.786e-7,2.894e-6) d=(2.958e-7,3.657e-6) e=(2.359e-7,2.752e-7) | |r_e-r_d|/r_d=(0.2023,0.9247)
+  Rule (c1) Coherent H_raw      : u=(5.592e-10,0.5191) d=(4.408e-10,0.4874) e=(4.391e-10,0.4819) | 1-min|V_kk|=1.181e-11 | max|r_e-r_d|/r_d=0.01119
+  Rule (c2) Coherent H_boltz    : u=(1.017e-7,0.005184) d=(7.231e-8,0.006061) e=(5.484e-10,0.8007) | 1-min|V_kk|=9.393e-17 | max|r_e-r_d|/r_d=131.1
+  [PASS Guardrail 3] 10 independent 52-digit unitary basis scramblings: max observable drift = 3.5413e-42 (< 1e-12).
+  [PASS] Completed weave evaluation at tau = 16 + 8i (level-40 cover of tau_*^+) in 87.95s.
+
+=== WEAVE EVALUATION AT tau = (13/100) + 8i (generic y=8 cusp slice) (L_2 = 2.25051171, 52 dps) ===
+  Antipodal invariance check at (2/7, 3/7): ||G(-w) - G(w)|| = 9.7072e-47, |F(-w) - F(w)| = 8.3524e-53
+  Exact dyadic order-4 singularity theorem: max_{w in P_4} |det M_w| = 1.053e-48 (< 1e-40); rank<3 loci (d, |P_d|, zero_u, zero_d, zero_e) = [(4, 12, 12, 12, 12), (12, 96, 0, 0, 96)]; min non-zero sv[0] = 1.6589e-17.
+  Orbit P_2 (|P_2|= 3) arith (m1/m2,m2/m3): u=(1.459e-5,3.798e-10) d=(1.459e-5,3.798e-10) e=(1.459e-5,3.798e-10)
+  Orbit P_3 (|P_3|= 8) arith (m1/m2,m2/m3): u=(2.305e-7,0.00213) d=(2.305e-7,0.00213) e=(1.541e-10,3.758e-10)
+  Orbit P_5 (|P_5|=24) arith (m1/m2,m2/m3): u=(0.0009888,0.0006501) d=(1.722e-6,3.189e-5) e=(1.722e-6,3.189e-5)
+  Orbit P_6 (|P_6|=24) arith (m1/m2,m2/m3): u=(2.924e-7,0.001422) d=(2.924e-7,0.001422) e=(1.459e-5,3.798e-10)
+  [CAUGHT Planted Control 1] Taped-flute (t=3 only) |r_e - r_d|/r_d: arith = 2.2074e-39 (< 1e-30), geom = 4.6036e-36 (< 1e-30).
+  Rank-3 generic weight shares at s=2 (3<=t<=20): u=0.97383, e=0.97022
+  Rule (a) Arith mean (full ker): u=(0.0008493,0.0008078) d=(5.028e-6,0.0004688) e=(6.956e-6,4.3e-5) | |r_e-r_d|/r_d=(0.3835,0.9083)
+  Rule (a') Arith mean (a != 0) : u=(0.0009822,0.0009723) d=(6.03e-6,0.00057) e=(8.179e-6,4.913e-5) | |r_e-r_d|/r_d=(0.3564,0.9138)
+  Rule (b) Geom log-mean (rk 3) : u=(2.832e-7,2.88e-6) d=(2.971e-7,3.646e-6) e=(2.358e-7,2.753e-7) | |r_e-r_d|/r_d=(0.2062,0.9245)
+  Rule (c1) Coherent H_raw      : u=(5.592e-10,0.5191) d=(4.408e-10,0.4874) e=(4.391e-10,0.4819) | 1-min|V_kk|=1.181e-11 | max|r_e-r_d|/r_d=0.01119
+  Rule (c2) Coherent H_boltz    : u=(1.017e-7,0.005184) d=(7.231e-8,0.006061) e=(5.484e-10,0.8007) | 1-min|V_kk|=9.393e-17 | max|r_e-r_d|/r_d=131.1
+  [PASS Guardrail 3] 10 independent 52-digit unitary basis scramblings: max observable drift = 4.4298e-42 (< 1e-12).
+  [PASS] Completed weave evaluation at tau = (13/100) + 8i (generic y=8 cusp slice) in 94.74s.
+
+ALL AGY-C7 PRODUCER CHECKS PASSED (total elapsed: 182.83s; 0 of 19).
