@@ -139,17 +139,16 @@ def run_section1_spin10_clifford_xhol() -> None:
         for Vop in vec10_ops
     ]
     assert p_eigs_10 == [1, 1, 1, -1, -1, 1, 1, 1, -1, -1]
-    # (1,0)-form condition (-1) * P_eig == +1 => P_eig == -1: selects indices {3,4} (H_u) and {8,9} (H_d)!
-    n_H_dz = sum(1 for idx in range(5) if p_eigs_10[idx] == -1) // 2 + sum(1 for idx in range(5, 10) if p_eigs_10[idx] == -1) // 2
-    n_T_dz = sum(1 for idx in range(5) if p_eigs_10[idx] == 1) // 3 + sum(1 for idx in range(5, 10) if p_eigs_10[idx] == 1) // 3
-    # Wait: for 1-loop slope formula (220 - 2*n_H + 2*n_T) / (110 + 5*n_H - 5*n_T), n_H counts complex SU(2) doublets (2),
-    # n_T counts complex SU(3) triplets (0 under -dz, 2 under planted +dz)!
+    # (1,0)-form condition (-1) * P_eig == +1: count surviving weak doublets in {3,4,8,9} and color triplets in {0,1,2,5,6,7}
+    n_H_dz = sum(1 for idx in (3, 4, 8, 9) if -p_eigs_10[idx] == 1) // 2
+    n_T_dz = sum(1 for idx in (0, 1, 2, 5, 6, 7) if -p_eigs_10[idx] == 1) // 3
     slope_fn = lambda nh, nt: Fr(220 - 2 * nh + 2 * nt, 110 + 5 * nh - 5 * nt)
     assert (n_H_dz, n_T_dz) == (2, 0) and slope_fn(n_H_dz, n_T_dz) == Fr(9, 5)
-    # Planted Control 1a: scalar parity iota_inv*(1) = +1 selects P_eig == +1 => (n_H, n_T) = (0, 2), slope = 224/100 = 56/25!
-    n_H_plant, n_T_plant = 0, 2
+    # Planted Control 1a: scalar parity (+1) * P_eig == +1 computed directly from p_eigs_10 (Guardrail 2)
+    n_H_plant = sum(1 for idx in (3, 4, 8, 9) if p_eigs_10[idx] == 1) // 2
+    n_T_plant = sum(1 for idx in (0, 1, 2, 5, 6, 7) if p_eigs_10[idx] == 1) // 3
     slope_plant = slope_fn(n_H_plant, n_T_plant)
-    assert slope_plant == Fr(56, 25) and slope_plant != Fr(9, 5)
+    assert (n_H_plant, n_T_plant) == (0, 2) and slope_plant == Fr(56, 25) and slope_plant != Fr(9, 5)
 
     # Equivalence to ker(B_inc) of B1955's 3-cusped 8^3_4 sheet incidence matrix (cusps: {0}, {1,4}, {2,3}):
     B_inc = np.array([[1, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 1, 1, 0]], dtype=float)
