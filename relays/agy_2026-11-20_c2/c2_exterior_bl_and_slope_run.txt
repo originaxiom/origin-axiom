@@ -1,0 +1,28 @@
+=== SECTION 1: SL(2, F_5) EXTERIOR-TO-WEIL JOIN & LINEAR ADJOINT NO-GO (P-866, M4) ===
+  Weil class c=1: |SL(2,F_5)|=120, canonical wedge C0 invariance residual=3.82e-15, dim Hom_{SL(2,F_5)}(Lambda^2 x Lambda^4 x W^*, C) = 5
+  Weil class c=2: |SL(2,F_5)|=120, canonical wedge C0 invariance residual=4.14e-15, dim Hom_{SL(2,F_5)}(Lambda^2 x Lambda^4 x W^*, C) = 5
+  dim (sl(W)^+)^{SU(3)_C x SU(2)_L} = 1 (spanned uniquely by hypercharge 6Y = diag(-2,-2,-2,3,3))
+  Exterior derivation G_SM-singlet weights across all 12 even Weyl directions: Lambda^2=(lep -1/2, down -1/12), Lambda^4=(lep +1/4, down -1/6), max dev=5.06e-16 -> 0 generation split!
+  E_8 check: all 24 SU(2)_L-doublet states in (10, 6) carry B - L = 0 (zero (15,2,2) bidoublets); su(4)_C B - L in (45, 1) has trace 0 and lepton/quark ratio -3.
+  [PASS] Section 1 linear singlet no-go and E_8 representation decomposition verified.
+
+=== SECTION 2: QUADRATIC 3+2 WEIL GRAMIANS & TWO-CHANNEL B-L SPLITTING ESCAPES (E2) ===
+  y= 1.7 (S): 3-2 leak=1.69e-16, Parseval=8.48e-16, H3/3 ratios=(0.63748, 0.14712) vs H2/2 ratios=(0.92753, 0.07179), linear |tr O3 vs -tr O2| diff=2.51e-16
+  y= 6.0 (S): 3-2 leak=1.15e-16, Parseval=5.92e-16, H3/3 ratios=(0.16516, 0.00000) vs H2/2 ratios=(0.45295, 0.00000), linear |tr O3 vs -tr O2| diff=3.80e-17
+  y=15.0 (S): 3-2 leak=8.74e-17, Parseval=6.89e-19, H3/3 ratios=(0.00958, 0.00000) vs H2/2 ratios=(0.02872, 0.00000), linear |tr O3 vs -tr O2| diff=1.21e-17
+  Order-5 (1/5,2/5) y=6.0: max |ratios(Y_e) - ratios(Y_d^T)| = 4.776e-67 (mod-5 congruence lock)
+  Order-15 (1/15,2/15) y=6.0: down ratios=(4.48293e-6, 3.41507e-12) vs lepton ratios=(0.000275548, 4.31273e-8)
+  Two-channel B-L interference: kappa=0 diff=0.0; kappa=1 (m2/m3)_e/(m2/m3)_d = 1.682655, (m1/m3)_e/(m1/m3)_d = 0.7507468, Haar drift = 4.451e-67
+  [PASS] Section 2 quadratic 3+2 Weil Gramian split and two-channel B-L interference verified.
+
+=== SECTION 3: EXACT 1-LOOP & 2-LOOP GAUGE SLOPE THEOREM 218/115 -> 9/5 (B915, P-847) ===
+  [PASS] Guardrail 4 Literature Gate: 1-Higgs SM b=[Fraction(41, 10), Fraction(-19, 6), Fraction(-7, 1)], slope=218/115 (218/115), 2-loop B_ij == Machacek-Vaughn (1983) exact.
+  [PASS] Symbolic closed form proved: (b1 - b2)/(b2 - b3) == (220 - 2*n_H + 2*n_T) / (110 + 5*n_H - 5*n_T).
+  Holomorphy-forced 2HDM (n_H=2, n_T=0): b=[Fraction(21, 5), Fraction(-3, 1), Fraction(-7, 1)], exact 1-loop slope = 9/5 (down from 218/115 by 11/115).
+  Holomorphy-forced 2HDM exact 2-loop B_ij = [['104/25', '18/5', '44/5'], ['6/5', '8', '12'], ['11/10', '9/2', '-26']]
+  Unsplit Lambda^1(C^5) control: (n_H=2, n_T=2) gives slope = 2 (> 218/115); (n_H=2, n_T=1) gives slope = 218/115 (erasing the 9/5 shift -> cusp projection of 3_{-2} required).
+  Formal 2-loop UV->IR ratio [alpha_i(0)=1/25, d(ln mu)=-30]: 1HDM = 0.74901195 (1-loop 1.895652), 2HDM = 1.7673814 (1-loop 1.800000)
+  [CAUGHT Planted Control 2] Omitting 3/5 hypercharge normalization yields slope = 60/23 != 218/115.
+  [PASS] Section 3 exact 1-loop/2-loop gauge-beta theorem verified.
+
+ALL AGY-C2 CHECKS PASSED in 12.41s (0 of 19).
