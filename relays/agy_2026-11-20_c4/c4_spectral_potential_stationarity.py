@@ -168,31 +168,23 @@ def run_section1_cusp_cancellation() -> None:
 # ---------------------------------------------------------------------------
 def run_section2_harmonic_saddle_nogo() -> None:
     print("\n=== SECTION 2: HARMONICITY SADDLE NO-GO FOR ZERO-SUM SUPERTRACES (E2a) ===")
-    mp.mp.dps = 70
-    # Test a non-constant Gamma_1(5)-invariant zero-sum bose-fermi supertrace:
-    # V_harm(tau) = G_{(1/5, 0)}(tau) - G_{(2/5, 0)}(tau)  (invariant under Gamma_1(5)!)
-    # Verify Gamma_1(5) stabilizer invariance under gamma = [[1, 1], [5, 6]] in Gamma_1(5):
-    # Wait: (1/5, 0) * [[1, 1], [5, 6]] = (1/5, 1/5) != (1/5, 0); for Gamma(5) or T^5 / [[6, 5], [-5, -4]]?
-    # Check [[1, 0], [5, 1]]: (a, 0) * [[1, 0], [5, 1]] = (a, 0) mod 1 FOR ALL a in (1/5)Z!!
-    # YES! gamma_stab = [[1, 0], [5, 1]] fixes BOTH (1/5, 0) and (2/5, 0) mod 1!
+    mp.mp.dps = 85
     V_harm = lambda x, y: gv_raysinger_mp(Fr(1, 5), Fr(0), mp.mpc(x, y)) - gv_raysinger_mp(Fr(2, 5), Fr(0), mp.mpc(x, y))
 
     t_test = mp.mpc(mp.mpf("0.17"), mp.mpf("1.35"))
-    t_img = t_test / (5 * t_test + 1)  # [[1, 0], [5, 1]] action on H!
+    t_img = t_test / (5 * t_test + 1)
     inv_err = abs(V_harm(mp.re(t_img), mp.im(t_img)) - V_harm(mp.re(t_test), mp.im(t_test)))
-    # Planted Control 1: apply non-stabilizer S: tau -> -1/tau without transporting v -> (0, 1/5)
     t_bad = -1 / t_test
     non_inv_err = abs(V_harm(mp.re(t_bad), mp.im(t_bad)) - V_harm(mp.re(t_test), mp.im(t_test)))
     print(f"  Gamma_1(5)-column stabilizer [[1,0],[5,1]] invariance residual = {mp.nstr(inv_err, 4)}")
     print(f"  [CAUGHT Planted Control 1] Non-stabilizer S without mark transport breaks invariance by {mp.nstr(non_inv_err, 6)} (>> 1e-50).")
     assert inv_err < mp.mpf("1e-50") and non_inv_err > mp.mpf("1e-3")
 
-    # Verify Euclidean Laplacian (V_xx + V_yy) == 0 to 40+ digits (proving det Hess = -(V_xx^2 + V_xy^2) <= 0 everywhere!)
-    _, _, ((hxx, hxy), (_, hyy)) = grad_and_hessian_2d(V_harm, mp.mpf("0.17"), mp.mpf("1.35"), eps_exp=-14)
+    # At dps=85 and h=1e-22, O(h^2) truncation ~ 1e-44 and roundoff ~ 1e-41 balance near 1e-40:
+    _, _, ((hxx, hxy), (_, hyy)) = grad_and_hessian_2d(V_harm, mp.mpf("0.17"), mp.mpf("1.35"), eps_exp=-22)
     lap_harm = abs(hxx + hyy)
-    # Also check F_{(1/5, 2/5)} - F_{(2/5, 1/5)} (zero-sum Kronecker difference, cancelling -pi*log(y))
     F_diff = lambda x, y: fu_kronecker_mp(Fr(1, 5), Fr(2, 5), mp.mpc(x, y)) - fu_kronecker_mp(Fr(2, 5), Fr(1, 5), mp.mpc(x, y))
-    _, _, ((fxx, _), (_, fyy)) = grad_and_hessian_2d(F_diff, mp.mpf("0.17"), mp.mpf("1.35"), eps_exp=-14)
+    _, _, ((fxx, _), (_, fyy)) = grad_and_hessian_2d(F_diff, mp.mpf("0.17"), mp.mpf("1.35"), eps_exp=-22)
     lap_fdiff = abs(fxx + fyy)
     print(f"  Harmonic trace |V_xx + V_yy|: G_v supertrace = {mp.nstr(lap_harm, 4)}, F_u zero-sum diff = {mp.nstr(lap_fdiff, 4)}")
     assert lap_harm < mp.mpf("1e-35") and lap_fdiff < mp.mpf("1e-35")
@@ -221,20 +213,20 @@ def v_gamma0_5(x: mp.mpf, y: mp.mpf) -> mp.mpf:
 def newton_2d_stationary(fn, x_init: mp.mpf, y_init: mp.mpf, n_iter: int = 7):
     x, y = x_init, y_init
     for _ in range(n_iter):
-        _, (gx, gy), ((hxx, hxy), (_, hyy)) = grad_and_hessian_2d(fn, x, y, eps_exp=-15)
-        if mp.hypot(gx, gy) < mp.mpf("1e-42"):
+        _, (gx, gy), ((hxx, hxy), (_, hyy)) = grad_and_hessian_2d(fn, x, y, eps_exp=-22)
+        if mp.hypot(gx, gy) < mp.mpf("1e-38"):
             break
         det_h = hxx * hyy - hxy * hxy
         dx = (hyy * gx - hxy * gy) / det_h
         dy = (-hxy * gx + hxx * gy) / det_h
         x -= dx
         y -= dy
-    return x, y, grad_and_hessian_2d(fn, x, y, eps_exp=-15)
+    return x, y, grad_and_hessian_2d(fn, x, y, eps_exp=-22)
 
 
 def run_section3_subharmonic_stationarity() -> None:
     print("\n=== SECTION 3: 50-DIGIT SUBHARMONIC KRONECKER & Gamma_0(5) SPECTRAL STATIONARITY (E2b, E3) ===")
-    mp.mp.dps = 75
+    mp.mp.dps = 85
 
     # 3a. SL(2, Z) invariance & critical points of V_0(tau) = -2*pi*log(sqrt(y)*|eta(tau)|^2)
     t0 = mp.mpc(mp.mpf("0.23"), mp.mpf("1.41"))
@@ -244,9 +236,9 @@ def run_section3_subharmonic_stationarity() -> None:
                   abs(v0_kronecker(mp.re(tT), mp.im(tT)) - v0_kronecker(mp.re(t0), mp.im(t0))))
     assert err_sl2 < mp.mpf("1e-55")
 
-    val_i, gi, Hi = grad_and_hessian_2d(v0_kronecker, mp.mpf(0), mp.mpf(1), eps_exp=-15)
+    val_i, gi, Hi = grad_and_hessian_2d(v0_kronecker, mp.mpf(0), mp.mpf(1), eps_exp=-22)
     det_Hi = Hi[0][0] * Hi[1][1] - Hi[0][1] ** 2
-    val_om, gom, Hom = grad_and_hessian_2d(v0_kronecker, mp.mpf("-0.5"), mp.sqrt(3) / 2, eps_exp=-15)
+    val_om, gom, Hom = grad_and_hessian_2d(v0_kronecker, mp.mpf("-0.5"), mp.sqrt(3) / 2, eps_exp=-22)
     tr_Hom = Hom[0][0] + Hom[1][1]
     det_Hom = Hom[0][0] * Hom[1][1] - Hom[0][1] ** 2
 
@@ -256,11 +248,10 @@ def run_section3_subharmonic_stationarity() -> None:
         f"  V_0 at tau = exp(2pi*i/3): V={mp.nstr(val_om, 12)}, |grad|={mp.nstr(mp.hypot(*gom), 4)}, "
         f"tr(Hess)={mp.nstr(tr_Hom, 8)} (> 0), det(Hess)={mp.nstr(det_Hom, 8)} (> 0 -> STRICT MINIMUM)"
     )
-    assert mp.hypot(*gi) < mp.mpf("1e-40") and det_Hi < 0
-    assert mp.hypot(*gom) < mp.mpf("1e-40") and tr_Hom > 0 and det_Hom > 0 and val_om < val_i
+    assert mp.hypot(*gi) < mp.mpf("1e-35") and det_Hi < 0
+    assert mp.hypot(*gom) < mp.mpf("1e-35") and tr_Hom > 0 and det_Hom > 0 and val_om < val_i
 
     # 3b. Gamma_0(5) + Fricke W_5 invariance & critical-point classification of V_{Gamma_0(5)}(tau)
-    # Test gamma = [[2, 1], [5, 3]] in Gamma_0(5) (det = 6 - 5 = 1, c = 5 == 0 mod 5) AND Fricke W_5: tau -> -1/(5*tau)
     t_g5 = (2 * t0 + 1) / (5 * t0 + 3)
     t_w5 = -1 / (5 * t0)
     err_g05 = max(
@@ -270,16 +261,11 @@ def run_section3_subharmonic_stationarity() -> None:
     print(f"  V_{{Gamma_0(5)}} invariance under [[2,1],[5,3]] and Fricke W_5: max residual = {mp.nstr(err_g05, 4)}")
     assert err_g05 < mp.mpf("1e-55")
 
-    # Evaluate Fricke self-dual fixed point tau_Fricke = i / sqrt(5) AND search Gamma_0(5) elliptic fixed points!
-    # Recall Gamma_0(5) has TWO elliptic fixed points of order 2 in H/Gamma_0(5):
-    #   e_1 = (2 + i) / 5  (fixed by [[2, -1], [5, -2]], det = -4 + 5 = 1, trace = 0!),
-    #   e_2 = (-2 + i) / 5 (equivalent mod 1: (-2+i)/5 + 1 = (3+i)/5, fixed by [[-2,-1],[5,2]]!),
-    # PLUS the Fricke W_5 fixed point tau_W5 = i / sqrt(5) on the imaginary axis!
     for label, x_c, y_c in (
         ("Fricke fixed point i/sqrt(5)", mp.mpf(0), 1 / mp.sqrt(5)),
         ("Gamma_0(5) order-2 elliptic point (2+i)/5", mp.mpf(2) / 5, mp.mpf(1) / 5),
     ):
-        val_c, gc, Hc = grad_and_hessian_2d(v_gamma0_5, x_c, y_c, eps_exp=-15)
+        val_c, gc, Hc = grad_and_hessian_2d(v_gamma0_5, x_c, y_c, eps_exp=-22)
         tr_c = Hc[0][0] + Hc[1][1]
         det_c = Hc[0][0] * Hc[1][1] - Hc[0][1] ** 2
         kind = "STRICT LOCAL MINIMUM" if (det_c > 0 and tr_c > 0) else ("SADDLE" if det_c < 0 else "DEGENERATE")
@@ -287,7 +273,7 @@ def run_section3_subharmonic_stationarity() -> None:
             f"  {label}: V={mp.nstr(val_c, 12)}, |grad|={mp.nstr(mp.hypot(*gc), 4)}, "
             f"tr(Hess)={mp.nstr(tr_c, 8)}, det(Hess)={mp.nstr(det_c, 8)} -> {kind}"
         )
-        assert mp.hypot(*gc) < mp.mpf("1e-38")
+        assert mp.hypot(*gc) < mp.mpf("1e-35")
 
     # Search along the imaginary axis x = 0 and boundary x = 1/2 (and refine by 2D Newton-Raphson) for strict global minimum of V_{Gamma_0(5)}!
     best_pt = None
