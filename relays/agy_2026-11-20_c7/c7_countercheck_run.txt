@@ -1,0 +1,20 @@
+=== IC1: LAGRANGE-GAUSS QUADRATIC FORM CYCLES (ZERO LYNDON WORDS) ===
+  Gauss reduced-form cycles enumerated 363 primitive classes (3<=t<=50); t=3..14 counts = [1, 2, 2, 3, 2, 4, 2, 6, 3, 4, 4, 6].
+  Gauss generator SNF(M+I): t=3 -> [(1, 5)], t=4 -> [(1, 6), (1, 6)] (lcm=30), t=6 -> [(1, 8), (1, 8), (2, 4)].
+  s=2 Selberg partition: Z_weave(2; T<=50) = 0.04225274, [LR] share = 50.378% (> 50%), t=4 share = 24.4%.
+  [CAUGHT Plant 2] White-noise s=0 (3<=t<=30) collapses [LR] share to 1/151 = 0.0066225 < 1/50.
+  [CAUGHT Plant 3] Including imprimitive geodesic powers ((LR)^2 at t=7, etc.) inflates 363 -> 375 classes.
+  [PASS] Disjoint Gauss quadratic-form cycle census & s=2 dynamic dominance verified.
+
+=== IC2 & IC3: TRIPLE-PRODUCT WEAVE RECOMPUTATION & 5 PLANTED CONTROLS ===
+  [PASS] Symbolic sympy proof: 4*det(M_w) == u_1^2 + u_i^2 + u_j^2 + u_k^2 == 0 across all 12x3 order-4 twists.
+  [16 + 8i] P_4 isotropic residual = 5.624e-56; [CAUGHT Plant 1] P_5 |r_e-r_d|/r_d = 7.978e-48 (< 1e-35).
+  [16 + 8i] 3<=t<=6 s=2 weave splits |r_e-r_d|/r_d: arith=(0.5308,0.9121), geom=(0.2044,0.9298).
+  [16 + 8i] [CAUGHT Plant 5] Unweighted H_raw washes down m2/m3 to 0.4727 (> 0.45), vs H_boltz 0.006004 (< 0.01) with 1-min|V_kk|=1.256e-16.
+  [(13/100) + 8i] P_4 isotropic residual = 5.945e-56; [CAUGHT Plant 1] P_5 |r_e-r_d|/r_d = 2.571e-47 (< 1e-35).
+  [(13/100) + 8i] 3<=t<=6 s=2 weave splits |r_e-r_d|/r_d: arith=(0.5307,0.9121), geom=(0.2058,0.9298).
+  [(13/100) + 8i] [CAUGHT Plant 5] Unweighted H_raw washes down m2/m3 to 0.4727 (> 0.45), vs H_boltz 0.006004 (< 0.01) with 1-min|V_kk|=1.256e-16.
+  [CAUGHT Plant 4] P_15 lepton vs P_5 down: true (-3,6) diff = 1.123e-47 (< 1e-35) vs corrupted (-2,6) = 2306.0 (> 0.10).
+  [PASS] All 5/5 planted negative controls caught; zero-shared-code triple-product countercheck complete.
+
+ALL AGY-C7 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught in 20.62s; 0 of 19).
