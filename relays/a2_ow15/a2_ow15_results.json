@@ -1,0 +1,487 @@
+{
+  "all_gates_passed": true,
+  "card_id": "A2-OW15",
+  "empirical_inputs": "0 of 19",
+  "ow15_a": {
+    "chirality_factorization_15_to_13_02": {
+      "factorization_verified": true,
+      "matrix_dim": 8,
+      "relative_sign": 1
+    },
+    "gate_pass": true,
+    "signatures_11": {
+      "D4_0_4": {
+        "D": 4,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 1,
+            "eps": 1,
+            "fs_BstarB": -1
+          },
+          {
+            "chirality_flip": 1,
+            "eps": -1,
+            "fs_BstarB": -1
+          }
+        ],
+        "matrix_dim": 4,
+        "pde_type": "elliptic",
+        "s": 4,
+        "signature": "(0,4)",
+        "spinor_reality": "H",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-I",
+          "I"
+        ],
+        "t": 0,
+        "vol_sq": 1
+      },
+      "D4_1_3": {
+        "D": 4,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": true,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": -1,
+            "eps": 1,
+            "fs_BstarB": 1
+          },
+          {
+            "chirality_flip": -1,
+            "eps": -1,
+            "fs_BstarB": -1
+          }
+        ],
+        "matrix_dim": 4,
+        "pde_type": "strictly_hyperbolic",
+        "s": 3,
+        "signature": "(1,3)",
+        "spinor_reality": "C",
+        "strictly_hyperbolic": true,
+        "symbol_probe_roots": [
+          "-1",
+          "1"
+        ],
+        "t": 1,
+        "vol_sq": -1
+      },
+      "D4_2_2": {
+        "D": 4,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 1,
+            "eps": 1,
+            "fs_BstarB": 1
+          },
+          {
+            "chirality_flip": 1,
+            "eps": -1,
+            "fs_BstarB": 1
+          }
+        ],
+        "matrix_dim": 4,
+        "pde_type": "ultrahyperbolic",
+        "s": 2,
+        "signature": "(2,2)",
+        "spinor_reality": "R",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-sqrt(3)*I",
+          "sqrt(3)*I"
+        ],
+        "t": 2,
+        "vol_sq": 1
+      },
+      "D6_0_6": {
+        "D": 6,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": -1,
+            "eps": 1,
+            "fs_BstarB": -1
+          },
+          {
+            "chirality_flip": -1,
+            "eps": -1,
+            "fs_BstarB": 1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "elliptic",
+        "s": 6,
+        "signature": "(0,6)",
+        "spinor_reality": "C",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-I",
+          "I"
+        ],
+        "t": 0,
+        "vol_sq": -1
+      },
+      "D6_1_5": {
+        "D": 6,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": true,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 1,
+            "eps": 1,
+            "fs_BstarB": -1
+          },
+          {
+            "chirality_flip": 1,
+            "eps": -1,
+            "fs_BstarB": -1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "strictly_hyperbolic",
+        "s": 5,
+        "signature": "(1,5)",
+        "spinor_reality": "H",
+        "strictly_hyperbolic": true,
+        "symbol_probe_roots": [
+          "-1",
+          "1"
+        ],
+        "t": 1,
+        "vol_sq": 1
+      },
+      "D6_2_4": {
+        "D": 6,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": -1,
+            "eps": 1,
+            "fs_BstarB": 1
+          },
+          {
+            "chirality_flip": -1,
+            "eps": -1,
+            "fs_BstarB": -1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "ultrahyperbolic",
+        "s": 4,
+        "signature": "(2,4)",
+        "spinor_reality": "C",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-sqrt(3)*I",
+          "sqrt(3)*I"
+        ],
+        "t": 2,
+        "vol_sq": -1
+      },
+      "D6_3_3": {
+        "D": 6,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 1,
+            "eps": 1,
+            "fs_BstarB": 1
+          },
+          {
+            "chirality_flip": 1,
+            "eps": -1,
+            "fs_BstarB": 1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "ultrahyperbolic",
+        "s": 3,
+        "signature": "(3,3)",
+        "spinor_reality": "R",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-sqrt(3)*I",
+          "sqrt(3)*I"
+        ],
+        "t": 3,
+        "vol_sq": 1
+      },
+      "D7_0_7": {
+        "D": 7,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 0,
+            "eps": -1,
+            "fs_BstarB": 1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "elliptic",
+        "s": 7,
+        "signature": "(0,7)",
+        "spinor_reality": "R",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-I",
+          "I"
+        ],
+        "t": 0,
+        "vol_sq": null
+      },
+      "D7_1_6": {
+        "D": 7,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": true,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 0,
+            "eps": 1,
+            "fs_BstarB": -1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "strictly_hyperbolic",
+        "s": 6,
+        "signature": "(1,6)",
+        "spinor_reality": "H",
+        "strictly_hyperbolic": true,
+        "symbol_probe_roots": [
+          "-1",
+          "1"
+        ],
+        "t": 1,
+        "vol_sq": null
+      },
+      "D7_2_5": {
+        "D": 7,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 0,
+            "eps": -1,
+            "fs_BstarB": -1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "ultrahyperbolic",
+        "s": 5,
+        "signature": "(2,5)",
+        "spinor_reality": "H",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-sqrt(3)*I",
+          "sqrt(3)*I"
+        ],
+        "t": 2,
+        "vol_sq": null
+      },
+      "D7_3_4": {
+        "D": 7,
+        "clifford_verified": true,
+        "dirac_kinetic_positive_definite": false,
+        "gamma_star_sq_verified": true,
+        "intertwiners_B": [
+          {
+            "chirality_flip": 0,
+            "eps": 1,
+            "fs_BstarB": 1
+          }
+        ],
+        "matrix_dim": 8,
+        "pde_type": "ultrahyperbolic",
+        "s": 4,
+        "signature": "(3,4)",
+        "spinor_reality": "R",
+        "strictly_hyperbolic": false,
+        "symbol_probe_roots": [
+          "-sqrt(3)*I",
+          "sqrt(3)*I"
+        ],
+        "t": 3,
+        "vol_sq": null
+      }
+    },
+    "unique_d4_complex_chiral": [
+      "D4_1_3"
+    ],
+    "unique_tower_hyp_pos_kin": [
+      "D4_1_3",
+      "D6_1_5",
+      "D7_1_6"
+    ]
+  },
+  "ow15_b": {
+    "conformal_bh_entropy": {
+      "bernoulli_B2_0": "1/6",
+      "bernoulli_B2_half": "-1/12",
+      "schwarzschild_log_corrections": {
+        "ir_gsm_2h_45weyl": {
+          "Ns": 8,
+          "Nv": 12,
+          "Nw": 45,
+          "a": "1999/720",
+          "c": "287/120",
+          "coeff_2_c_minus_a": "-277/360",
+          "coeff_2_c_minus_a_val": "-0.769444444444444444"
+        },
+        "ir_gsm_2h_48weyl": {
+          "Ns": 8,
+          "Nv": 12,
+          "Nw": 48,
+          "a": "127/45",
+          "c": "37/15",
+          "coeff_2_c_minus_a": "-32/45",
+          "coeff_2_c_minus_a_val": "-0.711111111111111111"
+        },
+        "uv_spin10_real10": {
+          "Ns": 10,
+          "Nv": 45,
+          "Nw": 48,
+          "a": "383/45",
+          "c": "347/60",
+          "coeff_2_c_minus_a": "-491/90",
+          "coeff_2_c_minus_a_val": "-5.45555555555555556"
+        }
+      },
+      "spin10_induced_bh_entropy": {
+        "c_log_contact": "103/3",
+        "c_log_ent": "-55/3",
+        "c_log_total": "16",
+        "include_kabat_proca": true,
+        "matches_a2_ow8_c_log_16": true,
+        "xi_scalar": "1/6"
+      },
+      "weights": {
+        "massive_proca": {
+          "w_contact": "-1",
+          "w_ent": "1/2",
+          "w_tot": "-1/2"
+        },
+        "massless_gauge": {
+          "w_contact": "-1",
+          "w_ent": "1/3",
+          "w_tot": "-2/3"
+        },
+        "real_scalar_sym": {
+          "w_contact": "-xi",
+          "w_ent": "1/6",
+          "w_tot": "1/6 - xi",
+          "w_tot_at_1_6": "0"
+        },
+        "weyl_fermion": {
+          "w_contact": "0",
+          "w_ent": "1/6",
+          "w_tot": "1/6"
+        }
+      }
+    },
+    "gate_pass": true
+  },
+  "ow15_c": {
+    "gate_pass": true,
+    "x1_x37_audit": {
+      "F3_unitary": true,
+      "boundary_ledger": {
+        "X1_L2_born_norm_given_unitarity": "PROVED",
+        "X1_hilbert_space_superposition_and_measurement": "EXTERNAL_AXIOM",
+        "X37_abelian_7d_cs_3form_inflow_gerbe": "DERIVED",
+        "X37_nonabelian_2form_gerbe_uv_quantization": "OPEN_UV_BOUNDARY"
+      },
+      "haar_u3_10_trials": {
+        "max_drift_by_p": {
+          "p_1": "0.7065882261576268",
+          "p_2": "4.078315292499078e-56",
+          "p_3": "0.3958971577715923",
+          "p_4": "0.6241159089501761"
+        },
+        "max_unitarity_err": "1.03793649428e-55"
+      },
+      "lp_exact_F3": {
+        "p_1": {
+          "conserved": false,
+          "drift_abs_val": "0.732050807568877294",
+          "drift_exact": "-1 + sqrt(3)",
+          "p": 1,
+          "sum_after_F3": "sqrt(3)",
+          "sum_initial": "1"
+        },
+        "p_2": {
+          "conserved": true,
+          "drift_abs_val": "0.0",
+          "drift_exact": "0",
+          "p": 2,
+          "sum_after_F3": "1",
+          "sum_initial": "1"
+        },
+        "p_3": {
+          "conserved": false,
+          "drift_abs_val": "0.422649730810374235",
+          "drift_exact": "-1 + sqrt(3)/3",
+          "p": 3,
+          "sum_after_F3": "sqrt(3)/3",
+          "sum_initial": "1"
+        },
+        "p_4": {
+          "conserved": false,
+          "drift_abs_val": "0.666666666666666667",
+          "drift_exact": "-2/3",
+          "p": 4,
+          "sum_after_F3": "1/3",
+          "sum_initial": "1"
+        }
+      },
+      "x37_spin10_topology": {
+        "H3_Spin10_Z": "Z",
+        "center_order_spin10": 4,
+        "dim_so10": 45,
+        "pi_1_SO10": "Z_2",
+        "pi_1_Spin10": "0",
+        "pi_2_Spin10": "0",
+        "pi_3_Spin10": "Z",
+        "rank_so10": 5
+      }
+    }
+  },
+  "ow15_d": {
+    "gate_pass": true,
+    "pf_ow15_1_kleinian_2_2": {
+      "detected": true,
+      "spinor_reality": "R",
+      "strictly_hyperbolic": false
+    },
+    "pf_ow15_2_omit_kabat_proca": {
+      "c_log_total": "-17",
+      "detected": true
+    },
+    "pf_ow15_3_minimal_xi0_scalars": {
+      "c_log_total": "44/3",
+      "detected": true
+    },
+    "pf_ow15_4_L4_born_violation": {
+      "detected": true,
+      "drift_exact": "-2/3"
+    },
+    "planted_faults_detected": 4
+  },
+  "seat": "AGY-002"
+}
