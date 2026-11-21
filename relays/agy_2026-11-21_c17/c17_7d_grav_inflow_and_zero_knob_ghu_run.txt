@@ -1,0 +1,18 @@
+=== SECTION 1: 8D GRASSMANN STORA-ZUMINO DESCENT & 4D GRAVITON NORMALIZABILITY (E1a/E1b, 0 of 19) ===
+  3 random non-abelian so(6) quadratic jets on R^8: max |d(Omega_7^{LCS}) - tr(R^4)|/|tr(R^4)| = 7.452e-16 (< 1e-14), GL5 match = 2.132e-14.
+  Symbolic Green-Schwarz check: rem(tr R^4, tr R^2) = 4*r2**4 + 4*r2**2*r3**2 + 4*r3**4 != 0 (pure-6D single-tensor cannot factorize tr R^4).
+  [CAUGHT Plant 1a] Perturbing 4/5 -> 1 (unweighted homotopy) breaks d(Omega_7)==tr(R^4) by min rel err = 0.1178 (> 0.05)!
+  50-digit Vol(X_4_1^(1,8,40)) Bloch-Wigner == Dirichlet L(chi_-3,2) err < 1e-47; H^3 graviton gap lambda_ess = 1.
+  [CAUGHT Plant 1b] Flat cylinder graviton norm diverges: norm_flat(10^6 y0)/norm_hyp(infty) = 8.192e+6 (> 10^6)!
+  [PASS] Section 1 7D Stora-Zumino inflow and 4D graviton normalizability verified.
+
+=== SECTION 2 & 3: ZERO-KNOB GHU QUARTIC/INSTANTON EWSB & 35-DIGIT 22-OBSERVABLE HAAR AUDIT (E2/E3) ===
+  Explicit 6D Clifford + E_8 root GHU check: |(Gamma^5 Phi_5 + Gamma^6 Phi_6)/sqrt(2)| == 1, ||[E_a, E_b]|| == 1.
+  Zero-knob IR at t_EW = -48*pi/5: m_H^2=(-0.07689, 0.2839), lam=(0.354, 0.7483, -0.138), BFB_margin=0.354 (> 0), tan(beta)=10.79 (> 5).
+  Ratios: m_u3/m_d3=13.67 (> 10), m_d3/m_e3=1.874 (> 1.5), CKM=(0.5009>0.3585>0.1197), PMNS=(0.7138,0.6415,0.1953), weak_mix=0.20475.
+  [CAUGHT Plant 2a] Flipping top-quartic sign drives lambda_2(t_EW) = -1.249 (< 0, unbounded vacuum)!
+  [CAUGHT Plant 2b] Setting xi = 0 keeps m_Hu^2(t_EW) = 0.4019 (> 0, fails radiative EWSB)!
+  Guardrail 3 (5 simultaneous 35-digit Haar U(3)^5 x O(3)_{nuR} scramblings across 22 IR observables): max drift = 5.514e-33 (< 1e-25).
+  [PASS] Section 2 & 3 zero-knob GHU pipeline and 35-digit 22-observable Haar invariance verified.
+
+ALL AGY-C17 PRODUCER CHECKS PASSED (elapsed: 107.20s; 0 of 19).
