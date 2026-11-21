@@ -1,0 +1,498 @@
+{
+  "phase": "Phase 7 \u2014 7D Radion Plateau Inflation, K\u00e4hler Baryogenesis, Adams Cusp/Schwinger Audit, Pin_- Lepton Closure, & No-Go Theorems",
+  "track_a_empirical_inputs_used": "0 of 19",
+  "track_b_free_inflation_baryo_yukawa_mixing_spin_parameters": 0,
+  "preregistration_seals": {
+    "phases": {
+      "phase1": {
+        "directory": "self_consistent_loop_phi",
+        "preregistration_file": "PREREGISTRATION_PLAN.md",
+        "present": true,
+        "expected_sha256": "d42cedad6e6f54dc26f0b1ee20a0951c9f6ba167b671b9ec1a08215664312eda",
+        "actual_sha256": "d42cedad6e6f54dc26f0b1ee20a0951c9f6ba167b671b9ec1a08215664312eda",
+        "seal_intact": true
+      },
+      "phase2": {
+        "directory": "cusped_3d_loop_phase2",
+        "preregistration_file": "PREREGISTRATION_PHASE2.md",
+        "present": true,
+        "expected_sha256": "d92bec8593456d1d82003975d81f5ec21a3af5ced804313da040fff6c61827cf",
+        "actual_sha256": "d92bec8593456d1d82003975d81f5ec21a3af5ced804313da040fff6c61827cf",
+        "seal_intact": true
+      },
+      "phase3": {
+        "directory": "relational_yukawa_phase3",
+        "preregistration_file": "PREREGISTRATION_PHASE3.md",
+        "present": true,
+        "expected_sha256": "64039873eb88506cefb788a2ca0ba8a2e9578e0a45f91476aa7a94b1536cd48a",
+        "actual_sha256": "64039873eb88506cefb788a2ca0ba8a2e9578e0a45f91476aa7a94b1536cd48a",
+        "seal_intact": true
+      },
+      "phase4": {
+        "directory": "unification_cap_lepton_phase4",
+        "preregistration_file": "PREREGISTRATION_PHASE4.md",
+        "present": true,
+        "expected_sha256": "7cc9965761c0497533147382e3f8ace80dd9582d1296f03abe64a09331a0b4f6",
+        "actual_sha256": "7cc9965761c0497533147382e3f8ace80dd9582d1296f03abe64a09331a0b4f6",
+        "seal_intact": true
+      },
+      "phase5": {
+        "directory": "m004_cl10_a4_phase5",
+        "preregistration_file": "PREREGISTRATION_PHASE5.md",
+        "present": true,
+        "expected_sha256": "70867e4d00b88a639ea0bb6f97b20dfaf04b86d6b7f77831087490cb44780537",
+        "actual_sha256": "70867e4d00b88a639ea0bb6f97b20dfaf04b86d6b7f77831087490cb44780537",
+        "seal_intact": true
+      },
+      "phase6": {
+        "directory": "weave_toe_phase6",
+        "preregistration_file": "PREREGISTRATION_PHASE6.md",
+        "present": true,
+        "expected_sha256": "b54aa66a57e12176a7b97ebfa9632fa0df35e8dfadb0ae20f49b3bf67972a456",
+        "actual_sha256": "b54aa66a57e12176a7b97ebfa9632fa0df35e8dfadb0ae20f49b3bf67972a456",
+        "seal_intact": true
+      },
+      "phase7": {
+        "directory": "inflation_lepton_phase7",
+        "preregistration_file": "PREREGISTRATION_PHASE7.md",
+        "present": true,
+        "expected_sha256": "d38cd0e0da23f3f90541e9d10a8fe93056967810bb36d293b6205895e0689f1c",
+        "actual_sha256": "d38cd0e0da23f3f90541e9d10a8fe93056967810bb36d293b6205895e0689f1c",
+        "seal_intact": true
+      }
+    },
+    "track_a_v1_predictions_sha256": {
+      "expected": "ece3d98345a3f4982757dad6cea6837af95923ff088086f64cbc374674f2edbd",
+      "actual": "ece3d98345a3f4982757dad6cea6837af95923ff088086f64cbc374674f2edbd",
+      "v1_lock_intact": true
+    },
+    "all_seals_intact": true
+  },
+  "gate_p7_1_inflation_baryogenesis": {
+    "gate_p7_1_passed": true,
+    "starobinsky_benchmark_N55": {
+      "phi_star": 5.3213098413798345,
+      "phi_end": 0.6146439942745796,
+      "ns_exact": 0.964444831350733,
+      "r_exact": 0.0036430234217726155,
+      "ns_sr": 0.9640272869449963,
+      "r_sr": 0.0036857744676642517,
+      "eps_H": 0.00022768896386078847,
+      "V_star_unit": 0.9742209231385562,
+      "V_end_unit": 0.1557038267389294
+    },
+    "radion_plateau_track_a_predictions": {
+      "casimir_flux_7_9": {
+        "N_star_self_consistent": 48.33650564076469,
+        "ns_exact": 0.9574763821748066,
+        "r_exact": 0.0006076948501423557,
+        "A_s_pred_at_V0_eq_M7_4": 2.5035082752810177e-09,
+        "H_I_over_MPl_red": 2.7400101303292897e-06,
+        "H_I_over_2pi_fa0": 0.009560702546818374,
+        "fa_at_phi_star_over_MPl_red": 2.234275010849257e-06,
+        "phi_star": 2.753457732206044
+      },
+      "curvature_flux_5_9": {
+        "N_star_self_consistent": 48.373176580722564,
+        "ns_exact": 0.9583407593542521,
+        "r_exact": 0.001051107284570299,
+        "A_s_pred_at_V0_eq_M7_4": 1.4433756413203457e-09,
+        "H_I_over_MPl_red": 2.736201544571069e-06,
+        "H_I_over_2pi_fa0": 0.00954741326910537,
+        "fa_at_phi_star_over_MPl_red": 1.3458972492582862e-06,
+        "phi_star": 3.2161517532050508
+      }
+    },
+    "chaotic_quadratic_r_plant": 0.16,
+    "fa_weyl_exponent_in_R": -3,
+    "whitehead_kahler_affleck_dine_track_a": {
+      "overtone_sum_real": -0.0006777439720395679,
+      "overtone_sum_imag": 0.03815751801020041,
+      "adiabatic_charge_drift_tau75_to_100": 0.005453453308064031,
+      "sphaleron_Gamma_over_H_at_Treh": 101930.9366268456,
+      "Y_Phi_condensate": 8.541752757918792e-10,
+      "eta_B_kahler_portal_predicted": 2.664161872849608e-10,
+      "amphicheiral_zero_cp_plant_charge": 0.0,
+      "clause_P7_C1b_portal_disclosure": "Achieving eta_B ~ 2.66e-10 requires Planck-normalized K\u00e4hler angular kinetic metric and CS(m129)=1/8 B-L portal decay; pure shift-symmetric f_a-suppressed Co-Harigaya rotation is suppressed by (T_wsph / f_a)^2."
+    }
+  },
+  "gate_p7_2_schwinger_adams_cusp": {
+    "gate_p7_2_passed": true,
+    "contino_pilo_schwinger_benchmark": {
+      "covering_circle_circumference_2Lc": 7.608148729578573,
+      "schwinger_m1_quadrature_err_50d": 0.0,
+      "orbifold_differential_threshold_half_ln_pi": 0.5723649429247001,
+      "contino_pilo_50d_err": 7.263913509842685e-29
+    },
+    "theorem_P7_2_adams_maximal_cusp": {
+      "snappy_maximal_horoball_volume": 1.7320508075688787,
+      "exact_sqrt3_volume": 1.7320508075688772,
+      "adams_volume_abs_err": 1.5543122344752192e-15,
+      "euclidean_cusp_torus_area_2sqrt3": 3.4641016151377575,
+      "ir_cusp_area_over_6_ratio": 0.000286590877282456,
+      "matches_stage_w2_MKK_over_MPl_err": 0.0
+    },
+    "clause_P7_C2_cubic_divergence_audit": {
+      "m0_bulk_7d_doubling_cutoff_ratio": 8.0,
+      "alpha_GUT_inv_at_covering_2Lc": 43.24637149521454,
+      "alpha_GUT_inv_at_1Lc_plant": 5.405796436901817,
+      "alpha_GUT_inv_at_pi_over_Lc_plant": 0.05531148470986469,
+      "requires_uv_mtheory_tdual_winding_completion": true
+    }
+  },
+  "gate_p7_3_lepton_pin_minus": {
+    "gate_p7_3_passed": true,
+    "theorem_P7_3a_reactor_solar_sum_rule": {
+      "subspace_u1_0_plus_u1_1_err": 0.0,
+      "gY_zero_plant_w0_sq": 0.2033731153507454,
+      "gY_zero_plant_w1_sq": 0.2033731153507454,
+      "gY_active_w0_sq_sin2_theta13_0": 0.06505285650763644,
+      "gY_active_sin2_theta12_0": 0.31724497232495175
+    },
+    "theorem_P7_3b_monomial_and_spin_parities": {
+      "max_offdiag_norm_across_12_A4_elements": 0.0,
+      "shell1_word_parities": [
+        1,
+        1
+      ],
+      "shell2_word_parities": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    "r_sh": 0.13011247960548553,
+    "mrs": 0.06605887449537967,
+    "same_bundle_overtones_M5": [
+      {
+        "slope": [
+          1,
+          3
+        ],
+        "vol": 3.148509826440728,
+        "cs": -0.03780909956505251,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.028418950061628406
+      },
+      {
+        "slope": [
+          7,
+          1
+        ],
+        "vol": 3.296902414326637,
+        "cs": 0.19153428876829645,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.01772024729425668
+      },
+      {
+        "slope": [
+          11,
+          3
+        ],
+        "vol": 3.5376087845519217,
+        "cs": -0.19659426215280337,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.008236007729247504
+      },
+      {
+        "slope": [
+          -13,
+          1
+        ],
+        "vol": 3.5506445847205184,
+        "cs": 0.08739718375290748,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.007901254046641763
+      },
+      {
+        "slope": [
+          -1,
+          7
+        ],
+        "vol": 3.564454699220512,
+        "cs": 0.19607754795545254,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.007561446646251026
+      },
+      {
+        "slope": [
+          9,
+          7
+        ],
+        "vol": 3.592325182487255,
+        "cs": -0.15840994984399126,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.006919531213661362
+      },
+      {
+        "slope": [
+          17,
+          1
+        ],
+        "vol": 3.596828041033391,
+        "cs": 0.1540187203358666,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.0068210606461797055
+      },
+      {
+        "slope": [
+          -11,
+          7
+        ],
+        "vol": 3.6013046974122074,
+        "cs": -0.23461378419550838,
+        "sym_plus": 4,
+        "abs_weight_M5": 0.006724552226875155
+      }
+    ]
+  },
+  "gate_p7_4_nogo_and_bp_flux": {
+    "gate_p7_4_passed": true,
+    "exact_symbolic_Vbulk_over_MPl2_mrad2": "5/42",
+    "degenerate_type1_seesaw_clash": {
+      "Ynu_singular_ratios": [
+        1.0,
+        0.0011267182619579949,
+        9.329637175472891e-05
+      ],
+      "degenerate_MR_dm21_sq_over_dm31_sq": 1.4981800734319618e-12,
+      "degenerate_4d_type1_ruled_out": true
+    },
+    "bousso_polchinski_flux_lattice_audit": {
+      "b1_m004": 1,
+      "b1_M5_cover": 2,
+      "M5_torsion_divisors": [
+        2
+      ],
+      "J_4cycles_m004_x_dP9": 11,
+      "J_4cycles_M5_x_dP9": 21,
+      "bp_fractional_step_J11_R3": 2.723758942683768e-07,
+      "bp_fractional_step_J21_R3": 3.263522408058136e-10,
+      "global_min_step_all_J_at_R3": 1.238031642321099e-13,
+      "min_J_required_for_1e105_at_R10": 249
+    }
+  },
+  "gate_p7_5_track_b_scorecard": {
+    "gate_p7_5_passed": true,
+    "v9_pin_weave_calibration": {
+      "alpha_GUT_inv": 41.987696929865315,
+      "ln_MKK_MZ": 29.679970588171003,
+      "haar_10trial_SU3x5_max_err": 3.8593001457160055e-13
+    },
+    "v9_pin_weave_tier_summary": {
+      "Tier_1_Precision_Hit": 12,
+      "Tier_2_Structural_O1_Hit": 10,
+      "Tier_3_Quantitative_Tension_or_Miss": 2
+    },
+    "clause_P7_C3_reactor_floor": {
+      "full_rge_sin2_theta13": 0.07014868319361899,
+      "requires_non_monomial_13_majorana_portal_beyond_A4xD5": true
+    },
+    "cmb_and_baryogenesis_comparison": {
+      "casimir_flux_7_9_As": {
+        "observed_planck": 2.1e-09,
+        "predicted": 2.5035082752810177e-09,
+        "fractional_err": 0.19214679775286547,
+        "log10_ratio": 0.07632973655241364,
+        "tier": "Tier_1_Precision_Hit",
+        "ns_pred": 0.9574763821748066,
+        "ns_observed_planck": 0.9649,
+        "r_pred": 0.0006076948501423557,
+        "bicep_keck_r_upper_bound": 0.036
+      },
+      "curvature_flux_5_9_As": {
+        "observed_planck": 2.1e-09,
+        "predicted": 1.4433756413203457e-09,
+        "fractional_err": -0.31267826603793064,
+        "log10_ratio": -0.16283992294593852,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "clause_P7_C1a_minimally_coupled_beta_iso": 0.9999999999495238,
+      "planck_beta_iso_upper_bound": 0.038,
+      "kahler_affleck_dine_eta_B": {
+        "observed_planck": 6.12e-10,
+        "predicted": 2.664161872849608e-10,
+        "fractional_err": -0.5646794325409137,
+        "log10_ratio": -0.3611908133779267,
+        "tier": "Tier_2_Structural_O1_Hit"
+      }
+    },
+    "radion_bbn_cc_no_go_comparison": {
+      "BBN_minimum_m_rad_GeV": 149639.13541246444,
+      "minimum_BBN_safe_Vbulk_over_rho_Lambda": 6.168894730167969e+92,
+      "cc_tuned_A_plant_m_rad_eV": 6.024784407856254e-33
+    },
+    "v9_pin_weave_24_rows": {
+      "sin2_thetaW_MZ_MSbar": {
+        "observed": 0.23121,
+        "v9_pin_weave_predicted": 0.21577742518689844,
+        "fractional_err": -0.06674700407898258,
+        "log10_ratio": -0.03000060723088082,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "MW_over_vEW": {
+        "observed": 0.3264126157274613,
+        "v9_pin_weave_predicted": 0.3373262131184265,
+        "fractional_err": 0.033434974217042904,
+        "log10_ratio": 0.014283155150854076,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "MZ_over_vEW": {
+        "observed": 0.3703506198631994,
+        "v9_pin_weave_predicted": 0.38091705759976013,
+        "fractional_err": 0.028530903338203635,
+        "log10_ratio": 0.012217345080451794,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "mH_over_vEW": {
+        "observed": 0.5086921372847374,
+        "v9_pin_weave_predicted": 0.6851066482565203,
+        "fractional_err": 0.34680015286541765,
+        "log10_ratio": 0.12930315700963846,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "mH_over_MW": {
+        "observed": 1.5584328324781134,
+        "v9_pin_weave_predicted": 2.0309914308853227,
+        "fractional_err": 0.30322679845994965,
+        "log10_ratio": 0.11502000185878436,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "m_t_over_vEW": {
+        "observed": 0.6973448301140871,
+        "v9_pin_weave_predicted": 0.7631000456572166,
+        "fractional_err": 0.09429368757544494,
+        "log10_ratio": 0.039133894005007906,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "mt_over_mb": {
+        "observed": 59.41176470588235,
+        "v9_pin_weave_predicted": 33.300702608774834,
+        "fractional_err": -0.4394931244067602,
+        "log10_ratio": -0.25141905565796546,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "mb_over_mtau": {
+        "observed": 1.6550507682528048,
+        "v9_pin_weave_predicted": 2.79044462266514,
+        "fractional_err": 0.6860175386709989,
+        "log10_ratio": 0.22686208802799826,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "mc_over_mt": {
+        "observed": 0.0036051252184041934,
+        "v9_pin_weave_predicted": 0.007855822028907,
+        "fractional_err": 1.1790705046257384,
+        "log10_ratio": 0.33827128223090197,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "mu_over_mc": {
+        "observed": 0.002051696284329564,
+        "v9_pin_weave_predicted": 0.002148997620976736,
+        "fractional_err": 0.0474248247122831,
+        "log10_ratio": 0.020122862775126135,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "ms_over_mb": {
+        "observed": 0.01903114186851211,
+        "v9_pin_weave_predicted": 0.05726546427789297,
+        "fractional_err": 2.0090398502383757,
+        "log10_ratio": 0.47842793935989697,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "md_over_ms": {
+        "observed": 0.05272727272727273,
+        "v9_pin_weave_predicted": 0.025722456541344963,
+        "fractional_err": -0.5121603069744921,
+        "log10_ratio": -0.31172286625962664,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "mmu_over_mtau": {
+        "observed": 0.05882474214996249,
+        "v9_pin_weave_predicted": 0.020793657795020983,
+        "fractional_err": -0.6465151051234275,
+        "log10_ratio": -0.45162913975085417,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "me_over_mmu": {
+        "observed": 0.004736949706964699,
+        "v9_pin_weave_predicted": 0.009679085071370991,
+        "fractional_err": 1.043315988164263,
+        "log10_ratio": 0.3103355332033918,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "V_us": {
+        "observed": 0.225,
+        "v9_pin_weave_predicted": 0.2807531241740015,
+        "fractional_err": 0.24779166299556218,
+        "log10_ratio": 0.09614207960567746,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "V_cb": {
+        "observed": 0.04182,
+        "v9_pin_weave_predicted": 0.026659666365656347,
+        "fractional_err": -0.3625139558666584,
+        "log10_ratio": -0.19552931837984683,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "V_ub": {
+        "observed": 0.003732,
+        "v9_pin_weave_predicted": 0.008531407874851306,
+        "fractional_err": 1.2860149718251086,
+        "log10_ratio": 0.3590790703986051,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "abs_J_q": {
+        "observed": 3.12e-05,
+        "v9_pin_weave_predicted": 9.994933836556862e-06,
+        "fractional_err": -0.6796495565206134,
+        "log10_ratio": -0.4943746704530879,
+        "tier": "Tier_2_Structural_O1_Hit"
+      },
+      "sin2_theta12": {
+        "observed": 0.307,
+        "v9_pin_weave_predicted": 0.30961164366299215,
+        "fractional_err": 0.008506982615609636,
+        "log10_ratio": 0.0036789094907082706,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "sin2_theta23": {
+        "observed": 0.546,
+        "v9_pin_weave_predicted": 0.627345178253088,
+        "fractional_err": 0.14898384295437353,
+        "log10_ratio": 0.060313921669055186,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "sin2_theta13": {
+        "observed": 0.02203,
+        "v9_pin_weave_predicted": 0.07014868319361899,
+        "fractional_err": 2.184234371022196,
+        "log10_ratio": 0.5030050258670314,
+        "tier": "Tier_3_Quantitative_Tension_or_Miss"
+      },
+      "abs_J_lep_max": {
+        "observed": 0.033,
+        "v9_pin_weave_predicted": 0.0012010841940310359,
+        "fractional_err": -0.963603509271787,
+        "log10_ratio": -1.4389404880774088,
+        "tier": "Tier_3_Quantitative_Tension_or_Miss"
+      },
+      "delta_m21_sq_over_delta_m31_sq": {
+        "observed": 0.029510155316606928,
+        "v9_pin_weave_predicted": 0.024725429931336095,
+        "fractional_err": -0.1621382650798254,
+        "log10_ratio": -0.07682764332141452,
+        "tier": "Tier_1_Precision_Hit"
+      },
+      "mnu3_over_vEW": {
+        "observed": 2.0351746905659237e-13,
+        "v9_pin_weave_predicted": 1.861284367782865e-13,
+        "fractional_err": -0.08544245542612601,
+        "log10_ratio": -0.03878896322786389,
+        "tier": "Tier_1_Precision_Hit"
+      }
+    }
+  },
+  "all_phase7_gates_passed": true
+}
