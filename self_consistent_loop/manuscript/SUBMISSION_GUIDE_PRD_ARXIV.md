@@ -15,7 +15,7 @@ This guide contains everything needed to upload `self_consistent_loop/manuscript
    ```bash
    python3 self_consistent_loop/manuscript/build_prd_arxiv_bundle.py --out ~/Desktop/arxiv_prd_submission_bundle.tar.gz
    ```
-   This script compiles `main.bbl`, checks for `0` overfull boxes and `0` unresolved citations, packs the clean `.tar.gz` archive, and simulates arXiv's standalone `pdflatex`-only server in a fresh temporary directory to verify the 9-page PDF builds cleanly.
+   This script compiles `main.bbl`, checks for `0` overfull boxes and `0` unresolved citations, packs the clean `.tar.gz` archive, and simulates arXiv's standalone `pdflatex`-only server in a fresh temporary directory to verify the 10-page PDF builds cleanly.
 
 ---
 
@@ -29,7 +29,7 @@ This guide contains everything needed to upload `self_consistent_loop/manuscript
   ```
 - **Comments Field:**
   ```text
-  9 pages, 4 figures, 3 tables, REVTeX 4.2 (Appendices A-C included)
+  10 pages, 4 figures, 4 tables, REVTeX 4.2 (Appendices A-D included)
   ```
 - **Abstract (`1,801` characters — verified under arXiv's `1,920`-character hard limit and `PRD`'s `500`-word limit):**
   ```text

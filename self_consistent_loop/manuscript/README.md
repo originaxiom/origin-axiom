@@ -1,11 +1,11 @@
 # Self-Consistent Geometric Loop — Preprint Manuscript (`REVTeX 4.2`)
 
-Complete referee-audited `REVTeX 4.2` (`APS PRD` primary, `1`-word toggle to `APS PRX`) 9-page manuscript, self-contained Technical Appendices (`A–C`), and vector figure suite synthesizing Phases 1–11 (`26` Tier-1 + `6` Tier-2 + `4` Bounds = `36` of `36` at `0` continuous fitted or calibrated parameters, `165` of `165` zero-import planted-fault controls).
+Complete referee-audited `REVTeX 4.2` (`APS PRD` primary, `1`-word toggle to `APS PRX`) 10-page manuscript, self-contained Technical Appendices (`A–D`), and vector figure suite synthesizing Phases 1–11 (`26` Tier-1 + `6` Tier-2 + `4` Bounds = `36` of `36` at `0` continuous fitted or calibrated parameters, `165` of `165` zero-import planted-fault controls).
 
 ## Files
 
-- `self_consistent_loop/manuscript/main.tex` — `REVTeX 4.2` manuscript (`Introduction`, `Geometric Framework`, `Computational and Audit Methods`, `Results`, `One-Loop Hyperbolic Audit and Experimental Falsifiability`, `Conclusions`, `Data Availability`, and `Appendices A–C`).
-- `self_consistent_loop/manuscript/main.pdf` — Compiled 9-page two-column PDF (`0` overfull boxes, `0` unresolved citations).
+- `self_consistent_loop/manuscript/main.tex` — `REVTeX 4.2` manuscript (`Introduction`, `Geometric Framework`, `Computational and Audit Methods`, `Results`, `One-Loop Hyperbolic Audit and Experimental Falsifiability`, `Theoretical Scope, Threshold Uncertainties, and Discrete-Selection Audit`, `Conclusions`, `Data Availability`, and `Appendices A–D`).
+- `self_consistent_loop/manuscript/main.pdf` — Compiled 10-page two-column PDF (`0` overfull boxes, `0` unresolved citations).
 - `self_consistent_loop/manuscript/references.bib` — Publisher-verified primary literature bibliography (`26` foundational references).
 - `self_consistent_loop/manuscript/review-2026-11-21.md` — Structured `review-paper` audit (`Guidelines 1–9`) and Phase-4 applied changelog.
 - `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md` — Turnkey `arXiv` (`hep-ph`) metadata, pre-flight checklist, and APS *Physical Review D* cover letter.
