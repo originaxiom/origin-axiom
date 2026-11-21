@@ -1,0 +1,427 @@
+{
+  "OW8-A": {
+    "ew_threshold_nogo": {
+      "M_W_over_m_t": "804/1733",
+      "M_Z_over_m_t": "912/1733",
+      "c_log_ew_exact": "-1941001/3003289",
+      "c_log_ew_float": -0.6462917821095472,
+      "c_log_ew_negative": true
+    },
+    "pass": true,
+    "s4_exact_euler_maclaurin_heat_kernel": {
+      "conformal_quadratic_cancellation_C_grav_quad": "0",
+      "direct_spectral_L_max": 200,
+      "direct_spectral_check_t": "1/100",
+      "direct_spectral_tail_bound": 3.806760389493819e-170,
+      "fields": {
+        "proca_massive": {
+          "a0_exact": "3",
+          "a1_exact": "-6",
+          "a2_exact": "-11/5",
+          "c_log_exact": "1/2",
+          "em_vs_direct_abs_err_at_t_1e-2": 1.9283988566973283e-25,
+          "em_vs_direct_rel_err_at_t_1e-2": 3.9358030255706613e-29,
+          "spectral_match_lt_1e-20": true,
+          "w_exact": "-1/2"
+        },
+        "scalar_conformal": {
+          "a0_exact": "1",
+          "a1_exact": "0",
+          "a2_exact": "-1/15",
+          "c_log_exact": "0",
+          "em_vs_direct_abs_err_at_t_1e-2": 5.670174509752239e-26,
+          "em_vs_direct_rel_err_at_t_1e-2": 3.4021274734299964e-29,
+          "spectral_match_lt_1e-20": true,
+          "w_exact": "0"
+        },
+        "scalar_minimal": {
+          "a0_exact": "1",
+          "a1_exact": "2",
+          "a2_exact": "29/15",
+          "c_log_exact": "-1/6",
+          "em_vs_direct_abs_err_at_t_1e-2": 2.7621036211757394e-25,
+          "em_vs_direct_rel_err_at_t_1e-2": 1.6244570541325578e-28,
+          "spectral_match_lt_1e-20": true,
+          "w_exact": "1/6"
+        },
+        "vector_massless": {
+          "a0_exact": "2",
+          "a1_exact": "-8",
+          "a2_exact": "-62/15",
+          "c_log_exact": "2/3",
+          "em_vs_direct_abs_err_at_t_1e-2": 8.337047644784109e-26,
+          "em_vs_direct_rel_err_at_t_1e-2": 2.60589062771321e-29,
+          "spectral_match_lt_1e-20": true,
+          "w_exact": "-2/3"
+        },
+        "weyl_fermion": {
+          "a0_exact": "2",
+          "a1_exact": "-2",
+          "a2_exact": "11/30",
+          "c_log_exact": "-1/6",
+          "em_vs_direct_abs_err_at_t_1e-2": 2.289563057999837e-29,
+          "em_vs_direct_rel_err_at_t_1e-2": 6.937941219341396e-33,
+          "spectral_match_lt_1e-20": true,
+          "w_exact": "1/6"
+        }
+      },
+      "goldstone_eating": {
+        "a0_V_plus_a0_s_eq_a0_Proca": true,
+        "a1_V_plus_a1_s_eq_a1_Proca": true,
+        "a2_V_plus_a2_s_eq_a2_Proca": true,
+        "w_Proca": "-1/2",
+        "w_V": "-2/3",
+        "w_V_plus_w_s_eq_w_Proca": true,
+        "w_s": "1/6"
+      },
+      "max_series_degree_t": 10,
+      "method": "exact_rational_Bernoulli_Hurwitz_zeta_Euler_Maclaurin_zero_Vandermonde",
+      "proca_TrDelta1_minus_TrDelta0_eq_TrT_minus_1_exact": true,
+      "proca_direct_diff_abs_err": 0.0
+    },
+    "schwinger_proper_time": {
+      "I_asymptotic_card": "999948.5919978722285975013",
+      "I_asymptotic_with_O_M4_over_Lam2": "999948.5919898722285975013",
+      "I_exact_mp_e1": "999948.5919898722339308311",
+      "I_gauss_laguerre_N128": "999948.5919911473641995571",
+      "I_quad_s": "999948.5919898722339308311",
+      "I_quad_t": "999948.5919898722339308311",
+      "Lambda": 1000,
+      "M": 2,
+      "abs_err_e1_vs_asymptotic": 7.999994666670222e-06,
+      "abs_err_e1_vs_next_order": 5.3333297777799114e-12,
+      "abs_err_gauss_laguerre_vs_e1": 1.2751302687260076e-06,
+      "abs_err_quad_s_vs_e1": 1.401298464324817e-45,
+      "abs_err_quad_t_vs_asymptotic": 7.999994666670222e-06,
+      "abs_err_quad_t_vs_e1": 0.0,
+      "pass_lt_1e-4": true
+    },
+    "spin10_threshold": {
+      "M_Pl_over_M_X_log_plus_finite": 2.4838618414929026,
+      "M_Pl_over_M_X_pure_log": 2.256758334191025,
+      "M_Pl_red_over_M_X_log_plus_finite": 0.4954587536236402,
+      "M_Pl_red_over_M_X_pure_log": 0.45015815807855303,
+      "M_R_over_M_X_crit_sq_exact": "33",
+      "M_R_over_M_X_crit_sqrt33": 5.744562646538029,
+      "c_log_equal_mass_exact": "16",
+      "c_log_equal_mass_positive": true,
+      "inv_16piGN_over_MX2_log_plus_finite": 0.1227396882711455,
+      "inv_16piGN_over_MX2_pure_log": 0.10132118364233778,
+      "ln_Lam2_over_MX2": 2,
+      "n_broken_XY_proca_vectors": 33,
+      "n_heavy_nuc_weyl_fermions": 3
+    }
+  },
+  "OW8-B": {
+    "guardrail4_rge_benchmark_gate": {
+      "analytic_pure_quartic_err": 1.1518563880486e-15,
+      "buttazzo_1loop_dlam_dlnmu_at_mu0": -0.02008558312354044,
+      "buttazzo_1loop_lam_at_17_decades_above": -0.0320843263464792,
+      "buttazzo_1loop_log10_mu_inst_over_mu0": 5.853756101200004,
+      "buttazzo_benchmark_pass": true,
+      "max_analytic_gauge_err": 9.554579349924097e-13,
+      "pass": true
+    },
+    "pass": true,
+    "sm_1h_conformal_nogo": {
+      "pass": true,
+      "trajectories": {
+        "yt0=1/2": {
+          "dop853_vs_radau_max_diff": 1.1146639167236572e-13,
+          "g1_IR": 0.43144521032537825,
+          "g2_IR": 0.6447789065093302,
+          "g3_IR": 1.090899907168324,
+          "gY_IR": 0.33419602287822925,
+          "gt_15_over_100": true,
+          "lam_SM_IR": 0.17373518699987284,
+          "pass": true,
+          "yt_IR": 0.9417475571324668
+        },
+        "yt0=3/5": {
+          "dop853_vs_radau_max_diff": 1.567634910770721e-13,
+          "g1_IR": 0.43144521032537825,
+          "g2_IR": 0.6447789065093297,
+          "g3_IR": 1.0908999071682586,
+          "gY_IR": 0.33419602287822925,
+          "gt_15_over_100": true,
+          "lam_SM_IR": 0.23741381147980983,
+          "pass": true,
+          "yt_IR": 1.0130902483980793
+        }
+      }
+    },
+    "symbolic_2hdm_beta_verification": {
+      "all_verified": true,
+      "fermion_TypeII_box_identity": true,
+      "gauge_MV4_identity": true,
+      "scalar_hessian_identity": true
+    },
+    "thdm_2h_conformal_radiative_split": {
+      "pass": true,
+      "trajectories": {
+        "yt0=1/2,yb0=1/100": {
+          "dop853_vs_radau_max_diff": 1.3589129821411916e-13,
+          "g1_IR": 0.429815035799387,
+          "g2_IR": 0.635847741449538,
+          "g3_IR": 1.0908999071682874,
+          "gY_IR": 0.3329332951201141,
+          "lam1_IR": -0.10115046689881564,
+          "lam1_lt_minus_1_over_20": true,
+          "lam2_IR": 0.3458404759713954,
+          "lam2_gt_3_over_10": true,
+          "lam3_IR": -0.03782726310683158,
+          "lam4_IR": -0.027923984696341976,
+          "pass": true,
+          "yb_IR": 0.026215811872109425,
+          "yt_IR": 0.9402542781578195
+        },
+        "yt0=3/5,yb0=1/10": {
+          "dop853_vs_radau_max_diff": 1.0591527654923993e-13,
+          "g1_IR": 0.42981503579938696,
+          "g2_IR": 0.6358477414495374,
+          "g3_IR": 1.0908999071683554,
+          "gY_IR": 0.3329332951201141,
+          "lam1_IR": -0.0945584599894362,
+          "lam1_lt_minus_1_over_20": true,
+          "lam2_IR": 0.4712424001044936,
+          "lam2_gt_3_over_10": true,
+          "lam3_IR": 0.0016162721180514135,
+          "lam4_IR": -0.060324774651100775,
+          "pass": true,
+          "yb_IR": 0.2534440777587511,
+          "yt_IR": 1.0099406124929524
+        },
+        "yt0=3/5,yb0=1/100": {
+          "dop853_vs_radau_max_diff": 2.0250467969162855e-13,
+          "g1_IR": 0.42981503579938696,
+          "g2_IR": 0.6358477414495377,
+          "g3_IR": 1.09089990716819,
+          "gY_IR": 0.3329332951201141,
+          "lam1_IR": -0.10100978159032452,
+          "lam1_lt_minus_1_over_20": true,
+          "lam2_IR": 0.4726540880977436,
+          "lam2_gt_3_over_10": true,
+          "lam3_IR": -0.03320208681104179,
+          "lam4_IR": -0.025395471683556294,
+          "pass": true,
+          "yb_IR": 0.02589971225795951,
+          "yt_IR": 1.0115740936716595
+        }
+      }
+    },
+    "thdm_2h_gw_transmutation": {
+      "pass": true,
+      "strictly_monotone_before_qcd_pole": true,
+      "trajectories": {
+        "lam0=1/100": {
+          "before_qcd_pole": true,
+          "dop853_vs_radau_decade_diff": 5.608402631196441e-12,
+          "lam2_at_mu_GW": 0.04956950224146282,
+          "lam3_at_mu_GW": -0.005339857072875004,
+          "lam4_at_mu_GW": -0.005448066916240337,
+          "log10_mu_GW_over_M_UV": -2.8041903561344728,
+          "mu_GW_over_M_UV": 0.0015696746475565503,
+          "pass": true,
+          "t_GW": -6.4568869119529015,
+          "window_expected": [
+            "-3",
+            "-5/2"
+          ]
+        },
+        "lam0=1/20": {
+          "before_qcd_pole": true,
+          "dop853_vs_radau_decade_diff": 1.2434497875801753e-14,
+          "lam2_at_mu_GW": 0.4288731092344369,
+          "lam3_at_mu_GW": -0.03309260363225001,
+          "lam4_at_mu_GW": -0.026054281614992052,
+          "log10_mu_GW_over_M_UV": -14.046077325895634,
+          "mu_GW_over_M_UV": 8.993374407331482e-15,
+          "pass": true,
+          "t_GW": -32.34228826564896,
+          "window_expected": [
+            "-15",
+            "-13"
+          ]
+        },
+        "lam0=1/50": {
+          "before_qcd_pole": true,
+          "dop853_vs_radau_decade_diff": 4.165556788393587e-12,
+          "lam2_at_mu_GW": 0.11081059716428977,
+          "lam3_at_mu_GW": -0.01184809232741749,
+          "lam4_at_mu_GW": -0.011129500955556638,
+          "log10_mu_GW_over_M_UV": -5.684987652683179,
+          "mu_GW_over_M_UV": 2.065438876947277e-06,
+          "pass": true,
+          "t_GW": -13.090167822923501,
+          "window_expected": [
+            "-6",
+            "-11/2"
+          ]
+        }
+      },
+      "yb0": "1/100",
+      "yt0": "11/20"
+    },
+    "unification_slope_B_nH": {
+      "B1_eq_115_over_218": true,
+      "B2_eq_5_over_9": true,
+      "B2_gt_B1": true,
+      "B2_lt_5_over_7": true,
+      "k_Y": "5/3",
+      "pass": true,
+      "table": {
+        "1": {
+          "B_exact": "115/218",
+          "B_float": 0.5275229357798165,
+          "b1_exact": "41/10",
+          "b2_exact": "-19/6",
+          "b3_exact": "-7",
+          "bY_exact": "41/6",
+          "lt_5_over_7": true
+        },
+        "2": {
+          "B_exact": "5/9",
+          "B_float": 0.5555555555555556,
+          "b1_exact": "21/5",
+          "b2_exact": "-3",
+          "b3_exact": "-7",
+          "bY_exact": "7",
+          "lt_5_over_7": true
+        },
+        "3": {
+          "B_exact": "125/214",
+          "B_float": 0.5841121495327103,
+          "b1_exact": "43/10",
+          "b2_exact": "-17/6",
+          "b3_exact": "-7",
+          "bY_exact": "43/6",
+          "lt_5_over_7": true
+        },
+        "4": {
+          "B_exact": "65/106",
+          "B_float": 0.6132075471698113,
+          "b1_exact": "22/5",
+          "b2_exact": "-8/3",
+          "b3_exact": "-7",
+          "bY_exact": "22/3",
+          "lt_5_over_7": true
+        },
+        "6": {
+          "B_exact": "35/52",
+          "B_float": 0.6730769230769231,
+          "b1_exact": "23/5",
+          "b2_exact": "-7/3",
+          "b3_exact": "-7",
+          "bY_exact": "23/3",
+          "lt_5_over_7": true
+        },
+        "8": {
+          "B_exact": "25/34",
+          "B_float": 0.7352941176470589,
+          "b1_exact": "24/5",
+          "b2_exact": "-2",
+          "b3_exact": "-7",
+          "bY_exact": "8",
+          "lt_5_over_7": false
+        }
+      }
+    },
+    "uv_boundary_common": {
+      "decades_run_down": 14,
+      "g_UV": "13/25",
+      "log10_mu_QCD_pole_over_M_UV": -18.11629218073185
+    }
+  },
+  "OW8-C": {
+    "all_outputs_dimensionless_and_finite": true,
+    "auxiliary_threshold_ratios_priced": [
+      {
+        "dynamically_fixed_by_open_weave": false,
+        "name": "ln_Lam2_over_MX2",
+        "role": "Logarithmic UV-cutoff-to-M_X ratio entering M_Pl / M_X (evaluated at benchmark value 2)."
+      }
+    ],
+    "dimensionful_unit_anchors_used": 0,
+    "dimensionless_scale_outputs": {
+      "B_1H": "115/218",
+      "B_2H": "5/9",
+      "M_Pl_over_M_X_log_plus_finite_at_L2": 2.4838618414929026,
+      "M_Pl_over_M_X_pure_log_at_L2": 2.256758334191025,
+      "M_Pl_red_over_M_X_log_plus_finite_at_L2": 0.4954587536236402,
+      "M_Pl_red_over_M_X_pure_log_at_L2": 0.45015815807855303,
+      "M_R_over_M_X_positivity_bound": 5.744562646538029,
+      "c_log_ew_ratio": -0.6462917821095472,
+      "log10_mu_GW_over_M_UV_lam0_1e-2": -2.8041903561344728,
+      "log10_mu_GW_over_M_UV_lam0_2e-2": -5.684987652683179,
+      "log10_mu_GW_over_M_UV_lam0_5e-2": -14.046077325895634,
+      "log10_mu_QCD_pole_over_M_UV": -18.11629218073185
+    },
+    "empirical_firewall_pdg_inputs_used": 0,
+    "empirical_firewall_total_pdg_parameters": 19,
+    "max_dimensionful_unit_anchors_allowed": 1,
+    "pass": true,
+    "unfixed_continuous_parameter_count": 4,
+    "unfixed_continuous_parameters_priced": [
+      {
+        "dynamically_fixed_by_open_weave": false,
+        "name": "g_UV",
+        "role": "Unified gauge coupling at M_UV; sets QCD Landau pole ratio mu_QCD/M_UV and gauge driving of lam1."
+      },
+      {
+        "dynamically_fixed_by_open_weave": false,
+        "name": "lam_0",
+        "role": "Small positive UV quartic lam1(M_UV)=lam2(M_UV) for finite GW hierarchy (exact conformal limit is lam_0=0)."
+      },
+      {
+        "dynamically_fixed_by_open_weave": false,
+        "name": "tan_beta",
+        "role": "2HDM VEV ratio v_u/v_d (equivalently UV Yukawa ratio y_t/y_b); drives H_u vs H_d radiative split."
+      },
+      {
+        "dynamically_fixed_by_open_weave": false,
+        "name": "M_R_over_M_X",
+        "role": "Heavy Majorana nu^c to Spin(10) X,Y Proca mass ratio; must lie in (0, sqrt(33)) for attractive conformal 1/G_N > 0."
+      }
+    ]
+  },
+  "OW8-D": {
+    "caught_count": 4,
+    "faults": {
+      "PF-OW8-1": {
+        "c_log_fault": "-16",
+        "c_log_true": "16",
+        "caught": true,
+        "description": "Flipped mass-insertion sign (+w_i instead of -w_i) makes Spin(10) conformal gravity repulsive"
+      },
+      "PF-OW8-2": {
+        "M_R_over_M_X": "10",
+        "c_log_fault": "-67/2",
+        "caught": true,
+        "description": "M_R / M_X = 10 > sqrt(33) flips Spin(10) conformal gravity negative (-67/2 < 0)"
+      },
+      "PF-OW8-3": {
+        "B_2H_fault": "2/5",
+        "B_2H_true": "5/9",
+        "caught": true,
+        "description": "Wrong hypercharge normalization k_Y = 1 shifts B(2H) from 5/9 to 2/5"
+      },
+      "PF-OW8-4": {
+        "caught": true,
+        "description": "Equal Yukawas y_b(UV) = y_t(UV) = 3/5 eliminates H_d radiative destabilization (lam1_IR > 0, lam2_IR > 0)",
+        "lam1_IR_fault": 0.4086332211372044,
+        "lam2_IR_fault": 0.42722198186595317
+      }
+    },
+    "pass": true,
+    "total_count": 4
+  },
+  "all_pass": true,
+  "card_id": "AGY-002_A2-OW8",
+  "disjoint_methods": {
+    "OW8-A_s4_heat_kernel": "exact_rational_Bernoulli_Hurwitz_zeta_Euler_Maclaurin_zero_Vandermonde",
+    "OW8-A_schwinger": "exact_analytic_mp_e1_plus_direct_mp_quad_plus_Gauss_Laguerre_N128",
+    "OW8-B_beta_derivation": "symbolic_sympy_Coleman_Weinberg_Hessian_MV4_and_Mq4_traces",
+    "OW8-B_rge_integrator": "scipy_solve_ivp_DOP853_with_events_cross_checked_by_Radau"
+  },
+  "role": "cold_room_zero_trust_referee"
+}
