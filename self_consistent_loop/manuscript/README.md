@@ -8,6 +8,8 @@ Complete referee-audited `REVTeX 4.2` (`APS PRD` primary, `1`-word toggle to `AP
 - `self_consistent_loop/manuscript/main.pdf` — Compiled 9-page two-column PDF (`0` overfull boxes, `0` unresolved citations).
 - `self_consistent_loop/manuscript/references.bib` — Publisher-verified primary literature bibliography (`26` foundational references).
 - `self_consistent_loop/manuscript/review-2026-11-21.md` — Structured `review-paper` audit (`Guidelines 1–9`) and Phase-4 applied changelog.
+- `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md` — Turnkey `arXiv` (`hep-ph`) metadata, pre-flight checklist, and APS *Physical Review D* cover letter.
+- `self_consistent_loop/manuscript/build_prd_arxiv_bundle.py` — Deterministic packager & standalone `AutoTeX` (`pdflatex`-only) verifier producing the `main.tex` + `main.bbl` + `figures/*.pdf` upload tarball.
 - `self_consistent_loop/manuscript/figures/fig1_progression_and_36_scorecard.pdf` — Campaign progression & `32`-ratio zero-input scorecard.
 - `self_consistent_loop/manuscript/figures/fig2_zero_input_unification_and_hierarchy.pdf` — `2`-loop zero-input gauge running & $M^{(5)}$ scale hierarchy.
 - `self_consistent_loop/manuscript/figures/fig3_isocurvature_and_cy4_tadpole.pdf` — Axion isocurvature shootout & $\mathbb{P}^1 \times dP_r$ M2-tadpole step.
