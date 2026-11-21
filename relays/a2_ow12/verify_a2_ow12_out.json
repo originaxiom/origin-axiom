@@ -1,0 +1,200 @@
+{
+  "card": "A2-OW12",
+  "empirical_inputs_used": "0 of 19",
+  "script_sha256": "ba3d3782195cf2fc4a116a227855937f5ac758911a4294065656c7e34530a9f0",
+  "OW12_A_strong_cp_and_7D_CS_axion": {
+    "bar_theta_Q_CP_conserving_8i_div_sqrt5": "-3.2716398e-44",
+    "bar_theta_Q_E5_alone_m8": "0.9083949354106455",
+    "bar_theta_Q_E6_alone_m8": "-0.667135863702774",
+    "bar_theta_Q_E5_plus_E6_m8_tau_plus": "0.0156439708210822",
+    "bar_theta_Q_E5_plus_E6_m8_tau_minus": "-0.01564397082108494",
+    "bar_theta_Q_E5_plus_E6_m24_tau_plus": "-0.9053878048594192",
+    "cp_mirror_sum_abs_err": "2.74445e-15",
+    "max_10trial_SU3_haar_drift": "1.48888e-45",
+    "max_6perm_eps_scaling_drift": "4.05063e-46",
+    "spin10_7D_CS_axion": {
+      "E_gen": "16/3",
+      "N_gen": "2",
+      "E_over_N": "8/3"
+    },
+    "pass": false
+  },
+  "OW12_B_neutrino_seesaw_pmns_and_leptogenesis": {
+    "M_R_00_symmetry_err": "0.0",
+    "M_R_00_takagi_masses": [
+      "0.000133842842877",
+      "0.0499583634764",
+      "0.379010892705"
+    ],
+    "M_R_00_takagi_residual": "1.1818e-46",
+    "seesaw_M_R_I3_all6_perms": {
+      "[0, 1, 2]": {
+        "dm21_over_dm31": "0.00609896971114",
+        "s12_sq": "0.319504888495",
+        "s23_sq": "0.134773076089",
+        "s13_sq": "0.0641644431076",
+        "J_pmns": "0.00890863146359"
+      },
+      "[0, 2, 1]": {
+        "dm21_over_dm31": "0.00609896971114",
+        "s12_sq": "0.319505088078",
+        "s23_sq": "0.515887436356",
+        "s13_sq": "0.0641644158481",
+        "J_pmns": "-0.0435289017859"
+      },
+      "[1, 0, 2]": {
+        "dm21_over_dm31": "0.00609896971114",
+        "s12_sq": "0.0509411241027",
+        "s23_sq": "0.170300306239",
+        "s13_sq": "0.0240925733242",
+        "J_pmns": "0.00236763421708"
+      },
+      "[1, 2, 0]": {
+        "dm21_over_dm31": "0.00609896971114",
+        "s12_sq": "0.0509406847445",
+        "s23_sq": "0.181103408768",
+        "s13_sq": "0.0240918974352",
+        "J_pmns": "0.0041508974616"
+      },
+      "[2, 0, 1]": {
+        "dm21_over_dm31": "0.00609896971114",
+        "s12_sq": "0.287009975556",
+        "s23_sq": "0.521375552249",
+        "s13_sq": "0.0534489437675",
+        "J_pmns": "-0.04216512962"
+      },
+      "[2, 1, 0]": {
+        "dm21_over_dm31": "0.00609896971114",
+        "s12_sq": "0.287009194203",
+        "s23_sq": "0.155705871924",
+        "s13_sq": "0.0534487691784",
+        "J_pmns": "0.00829368708799"
+      }
+    },
+    "seesaw_M_R_00_all6_perms": {
+      "[0, 1, 2]": {
+        "dm21_over_dm31": "0.0268633859878",
+        "s12_sq": "0.108598053568",
+        "s23_sq": "0.562031704977",
+        "s13_sq": "0.102839432277",
+        "J_pmns": "0.004104410053"
+      },
+      "[0, 2, 1]": {
+        "dm21_over_dm31": "0.0268633859878",
+        "s12_sq": "0.108598163666",
+        "s23_sq": "0.675473196873",
+        "s13_sq": "0.10283951212",
+        "J_pmns": "-0.0397074258107"
+      },
+      "[1, 0, 2]": {
+        "dm21_over_dm31": "0.0268633859878",
+        "s12_sq": "0.019566453746",
+        "s23_sq": "0.585511540129",
+        "s13_sq": "0.0520175146885",
+        "J_pmns": "0.0039417450964"
+      },
+      "[1, 2, 0]": {
+        "dm21_over_dm31": "0.0268633859878",
+        "s12_sq": "0.0195665607962",
+        "s23_sq": "0.603021736181",
+        "s13_sq": "0.0520167954115",
+        "J_pmns": "0.00538200837723"
+      },
+      "[2, 0, 1]": {
+        "dm21_over_dm31": "0.0268633859878",
+        "s12_sq": "0.0936259089719",
+        "s23_sq": "0.681736265543",
+        "s13_sq": "0.0852025121409",
+        "J_pmns": "-0.0355602793271"
+      },
+      "[2, 1, 0]": {
+        "dm21_over_dm31": "0.0268633859878",
+        "s12_sq": "0.0936255466671",
+        "s23_sq": "0.588621172443",
+        "s13_sq": "0.0852021125558",
+        "J_pmns": "0.00187072584595"
+      }
+    },
+    "leptogenesis_fukugita_yanagida": {
+      "eps1_raw_tau_plus": "3.8050313544e-11",
+      "eps1_norm_tau_plus": "5.4537689496662e-6",
+      "eps1_norm_tau_minus": "-5.4537689496661e-6",
+      "cp_mirror_sum_abs_err": "1.21172e-19"
+    },
+    "haar_10trial_invariance": {
+      "max_pmns_drift": "0.688277",
+      "max_leptogenesis_drift": "6.58134e-5"
+    },
+    "pass": false
+  },
+  "OW12_C_7D_T3R_BmL_and_inter_sector_ratios": {
+    "spin10_T3R_BmL_identity_exact": true,
+    "T3R_zero_on_LH_and_nonzero_only_on_RH": true,
+    "max_uniform_LH_scaling_invariance_drift": "9.63393e-46",
+    "b_tau_proximity_perm_count": 4,
+    "e_mu_over_steepness_tension_all6": false,
+    "inter_sector_ratios_tan_beta_1_all6": {
+      "[0, 1, 2]": {
+        "y_t_over_y_b": "1.61419497",
+        "y_tau_over_y_b": "1.385848725",
+        "y_mu_over_y_s": "0.00754187326",
+        "y_e_over_y_d": "0.0001204409808"
+      },
+      "[0, 2, 1]": {
+        "y_t_over_y_b": "0.7245418573",
+        "y_tau_over_y_b": "0.2711404347",
+        "y_mu_over_y_s": "0.0384315519",
+        "y_e_over_y_d": "0.0001208056176"
+      },
+      "[1, 0, 2]": {
+        "y_t_over_y_b": "1.59992157",
+        "y_tau_over_y_b": "1.373313174",
+        "y_mu_over_y_s": "0.003789730842",
+        "y_e_over_y_d": "0.0002418752257"
+      },
+      "[1, 2, 0]": {
+        "y_t_over_y_b": "1.154611958",
+        "y_tau_over_y_b": "0.9267749256",
+        "y_mu_over_y_s": "0.005639669301",
+        "y_e_over_y_d": "0.0002408471027"
+      },
+      "[2, 0, 1]": {
+        "y_t_over_y_b": "0.7183768247",
+        "y_tau_over_y_b": "0.2687962668",
+        "y_mu_over_y_s": "0.04069034686",
+        "y_e_over_y_d": "0.0001150945384"
+      },
+      "[2, 1, 0]": {
+        "y_t_over_y_b": "1.152785082",
+        "y_tau_over_y_b": "0.9254666923",
+        "y_mu_over_y_s": "0.01188263981",
+        "y_e_over_y_d": "0.0001144710362"
+      }
+    },
+    "pass": false
+  },
+  "OW12_D_planted_faults": {
+    "PF_OW12_1_anomalous_U1A_phase_shift": {
+      "delta_bar_theta": "1.5",
+      "err_to_3_over_2": "3.50325e-46",
+      "caught": true
+    },
+    "PF_OW12_2_real_Ynu_MR_kills_leptogenesis": {
+      "faulty_eps1_norm": "2.82464e-50",
+      "caught": true
+    },
+    "PF_OW12_3_wrong_quark_twist_Yu_for_neutrinos": {
+      "faulty_dm21_over_dm31": "0.342301523",
+      "caught": true
+    },
+    "PF_OW12_4_omit_ec_from_axion_E_over_N": {
+      "faulty_E_over_N": "13/6",
+      "true_E_over_N": "8/3",
+      "caught": true
+    },
+    "caught_count": 4,
+    "total_planted": 4,
+    "pass": true
+  },
+  "all_gates_passed": false
+}
