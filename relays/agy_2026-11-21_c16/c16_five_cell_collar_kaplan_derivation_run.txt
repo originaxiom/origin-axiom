@@ -1,0 +1,24 @@
+=== SECTION 1: PURE-HIGGS Z_5 NO-GO VS 15x15 FIVE-CELL COLLAR KAPLAN-DIRAC OPERATOR (E1, 0 of 19) ===
+  Pure-Higgs Z_5 scan across 5^3 = 125 charge triples: 0/125 separate k=2 from k=0 (exact 0: pure-Higgs Z_5 no-go proved).
+  Symbolic sympy check: Schur(B_5) == x^5/(M1 M2 M3 M4), det(B_5) == x^5, tr((B_5^T B_5)^(-1)) exact.
+  50-digit 15x15 Schur complement vs analytic Y_f(Y_f^H Y_f)^2/(tr(Y_f^H Y_f))^2: max rel err = 4.186e-51 (< 1e-45).
+  Finite eps=0.05: exact Wall-0 CKM drift = 1.259e-41 (< 1e-40), full 15-state KK shift = 0.0002663 (O(eps^2)).
+  Finite eps=0.15: exact Wall-0 CKM drift = 4.591e-44 (< 1e-40), full 15-state KK shift = 0.00242 (O(eps^2)).
+  [CAUGHT Plant 1a] Periodic 0~5 wrap spoils 5-cell hierarchy: d-sector m2/m3 jumps from 0.0007453 to 0.2352 (> 50x)!
+  [PASS] Section 1 five-cell collar Kaplan-Dirac theorem verified.
+
+=== SECTION 2: UNIFORM 30x30 WEYL UNIFICATION OF CHARGED 5-STEP & NEUTRAL 1-STEP SEESAW (E2) ===
+  Symbolic 10x10 neutral check: uniform M_0 on (N^c_{1,3,5}, N_{1,3,L}) gives (M_0/(M^2-M_0^2)) y^2 + O(y^6); M_0=0 on N_L cancels to O(y^10)!
+  45-digit 30x30 Weinberg match at v_u/M_KK=0.01: rel_diff = 1.29e-10 (O(eps^4) < 1e-7).
+  [CAUGHT Plant 1b] Omitting M_0 on N_{1,3,L} triggers inverse-seesaw suppression ||m_bad||/||m_unif|| = 1.702e-17 (< 1e-14)!
+  30x30 Collar PMNS moduli: (|U_e2|, |U_mu3|, |U_e3|) = (0.7103, 0.6392, 0.2012).
+  [PASS] Section 2 uniform 30x30 charged/neutral collar unification verified.
+
+=== SECTION 3: DEGREE-1 HOMOGENEITY, SVD-FREE 2-LOOP y_d/y_e LIFT, & 45-DIGIT HAAR AUDIT (E3) ===
+  Degree-1 homogeneity err = 4.48e-46; trace-normalized UV y_d3/y_e3 = 0.68624 (in (0.5, 0.8)).
+  [CAUGHT Plant 2] Omitting Frobenius trace mass collapses UV y_d3/y_e3 to 0.14723 (< 0.20)!
+  SVD-free 2-loop IR flow (alpha_GUT=1/40, N=30): IR y_d3/y_e3 = 1.8258 (> 1.50!), normal CKM (0.5009>0.3585>0.1197).
+  Guardrail 3 (6 simultaneous 45-digit Haar U(3)^5 x O(3)_{nuR} scramblings on 15x15 & 30x30 operators): max drift = 3.18e-43 (< 1e-35).
+  [PASS] Section 3 degree-1 homogeneity, SVD-free 2-loop lift, and 45-digit Haar invariance verified.
+
+ALL AGY-C16 PRODUCER CHECKS PASSED (elapsed: 8.32s; 0 of 19).
