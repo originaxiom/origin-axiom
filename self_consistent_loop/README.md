@@ -1,6 +1,6 @@
-# Self-Consistent Loop (`Phi(X*) = X*`): Phases 1–5
+# Self-Consistent Loop (`Phi(X*) = X*`): Phases 1–6
 
-Clean-room (`0 of 19` empirical inputs in Track A) pre-registered implementations, outputs, unit tests, and AST-isolated zero-import referee suites testing the self-consistent geometric loop across Phases 1–5.
+Clean-room (`0 of 19` empirical inputs in Track A) pre-registered implementations, outputs, unit tests, and AST-isolated zero-import referee suites testing the self-consistent geometric loop across Phases 1–6.
 
 ## Directory Layout
 
@@ -9,7 +9,8 @@ Clean-room (`0 of 19` empirical inputs in Track A) pre-registered implementation
 - `relational_yukawa_phase3/` — **Phase 3:** Relational weak-compass quotient (`0.0` enantiomer collapse), 2-component coupled spin-flux Klein-four palindrome protection audit, 3D hyperbolic trilinear Yukawa & Jarlskog CP theorem (`(6)` vs. chiral irreversible `[5, 1, 2, 2]`), and unrigged $E_8$ instanton tadpole audit (`relational_yukawa_phase3/PREREGISTRATION_PHASE3.md`, `relational_yukawa_phase3/SEAL_SHA256.txt`, solver, referee, and tests).
 - `unification_cap_lepton_phase4/` — **Phase 4:** Unrestricted $|W| \le 12$ necklace census, 1-loop Fox–Wada Reidemeister acyclicity theorem ($\tau_{\text{Reid}}(k=0)=0$ vs. $\prod_{q=1}^4 \tau_{\text{Reid}}(k\ne 0)=5$), 4D $dP_9$ cusp-cap lattice $\mathbf{I}_{1,9}$ & mod-5 ramification audit, and parameter-free $SU(5)_{\text{GUT}}$ lopsided quark-vs.-lepton CKM/PMNS acid test (`unification_cap_lepton_phase4/PREREGISTRATION_PHASE4.md`, `unification_cap_lepton_phase4/SEAL_SHA256.txt`, solver, referee, and tests).
 - `m004_cl10_a4_phase5/` — **Phase 5:** `m004 × Cl(10) × A_4` flavour completion, `Spin(11)` `50`-digit Hosotani EW breaking & UV–IR collar mirror duality, $M^{(5)} = 8^3_4$ `1/5` covering-space systole lift, `7D → 4D` radion stabilization, benchmark-gated `76`-ODE `2`-loop SM + Weinberg RGEs, and `45 / 45` planted-fault zero-import referee (`m004_cl10_a4_phase5/PREREGISTRATION_PHASE5.md`, `m004_cl10_a4_phase5/SEAL_SHA256.txt`, solver, referee, and tests).
-- `reports/` — Phase 1–5 comprehensive reports (`reports/phase4_vacuum_cap_lepton_plan.md`, `reports/phase4_unification_cap_lepton_report.md`, and `reports/phase5_m004_cl10_a4_report.md`).
+- `weave_toe_phase6/` — **Phase 6:** Chiral Whitehead parent link `m129` weave unification (`|J_q|` promoted to `Tier 2`), zero-anchor `Spin(11)` NDA gauge couplings & Planck/Weyl/EW hierarchy, `11D` Hořava–Witten parent $\mathbb{R}^{1,3} \times M_3 \times dP_9$ anomaly cancellation, Svrček–Witten $C_3$ axion & radion BBN audit, and `65 / 65` cumulative planted-fault zero-import referee (`weave_toe_phase6/PREREGISTRATION_PHASE6.md`, `weave_toe_phase6/SEAL_SHA256.txt`, solver, referee, and tests).
+- `reports/` — Phase 1–6 comprehensive reports (`reports/phase4_vacuum_cap_lepton_plan.md`, `reports/phase4_unification_cap_lepton_report.md`, `reports/phase5_m004_cl10_a4_report.md`, and `reports/phase6_weave_toe_report.md`).
 
 ## Reproducing All Suites & Zero-Import Referees
 
@@ -32,5 +33,9 @@ python3 -m unittest discover -s tests -v
 
 # Phase 5
 cd ../m004_cl10_a4_phase5
+python3 -m unittest discover -s tests -v
+
+# Phase 6
+cd ../weave_toe_phase6
 python3 -m unittest discover -s tests -v
 ```
