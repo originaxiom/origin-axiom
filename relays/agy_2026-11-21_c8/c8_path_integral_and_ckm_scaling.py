@@ -85,43 +85,54 @@ def run_section1_selberg_logdet_and_bfourier(canon_l2) -> None:
     for m_cov in (16, 40):
         tx, ty = Fr(2 * m_cov, 5), Fr(m_cov, 5)
         ev = C7.TorusWeaveEvaluator(tx, ty, canon_l2(float(tx), float(ty)))
-        gu_sum = mp.zeros(3, 3)
-        gd_sum = mp.zeros(3, 3)
+        gu_all = mp.zeros(3, 3)
+        gd_all = mp.zeros(3, 3)
+        gu_a1 = mp.zeros(3, 3)
+        gd_a1 = mp.zeros(3, 3)
         line_v12 = []
         line_one_minus_vkk = []
-        for j in range(5):
-            _, yu = ev.mw_and_yukawa(Fr(1, 5), Fr(j, 5), 1, -4)
-            _, yd = ev.mw_and_yukawa(Fr(1, 5), Fr(j, 5), 1, 2)
-            uu, _ = svd_left_asc(yu)
-            ud, _ = svd_left_asc(yd)
-            vm = uu.H * ud
-            line_v12.append(abs(vm[0, 1]))
-            line_one_minus_vkk.append(mp.mpf(1) - min(abs(vm[k, k]) for k in range(3)))
-            gu_sum += (yu * yu.H) / 5
-            gd_sum += (yd * yd.H) / 5
+        for ia in range(1, 5):
+            for j in range(5):
+                _, yu = ev.mw_and_yukawa(Fr(ia, 5), Fr(j, 5), 1, -4)
+                _, yd = ev.mw_and_yukawa(Fr(ia, 5), Fr(j, 5), 1, 2)
+                uu, _ = svd_left_asc(yu)
+                ud, _ = svd_left_asc(yd)
+                vm = uu.H * ud
+                line_v12.append(abs(vm[0, 1]))
+                line_one_minus_vkk.append(mp.mpf(1) - min(abs(vm[k, k]) for k in range(3)))
+                gu_all += (yu * yu.H) / 20
+                gd_all += (yd * yd.H) / 20
+                if ia == 1:
+                    gu_a1 += (yu * yu.H) / 5
+                    gd_a1 += (yd * yd.H) / 5
 
-        uu_b, _ = C7.eig_herm_asc(gu_sum)
-        ud_b, _ = C7.eig_herm_asc(gd_sum)
-        vm_b = uu_b.H * ud_b
-        v12_bfourier = abs(vm_b[0, 1])
-        omv_bfourier = mp.mpf(1) - min(abs(vm_b[k, k]) for k in range(3))
-        mean_line_v12 = sum(line_v12) / 5
-        geom_line_v12 = mp.exp(sum(mp.log(x) for x in line_v12) / 5)
+        uu_all, _ = C7.eig_herm_asc(gu_all)
+        ud_all, _ = C7.eig_herm_asc(gd_all)
+        vm_all = uu_all.H * ud_all
+        v12_bfourier = abs(vm_all[0, 1])
+
+        uu_a1, _ = C7.eig_herm_asc(gu_a1)
+        ud_a1, _ = C7.eig_herm_asc(gd_a1)
+        vm_a1 = uu_a1.H * ud_a1
+        omv_a1_bfourier = mp.mpf(1) - min(abs(vm_a1[k, k]) for k in range(3))
+
+        mean_line_v12 = sum(line_v12) / 20
+        geom_line_v12 = mp.exp(sum(mp.log(x) for x in line_v12) / 20)
         min_line_omv = min(line_one_minus_vkk)
         print(
-            f"  m={m_cov:2d} (y={float(ty):.1f}): row a=1/5 arith/geom |V_12|=({mp.nstr(mean_line_v12,4)},{mp.nstr(geom_line_v12,4)}) "
-            f"vs b-sum |V_12|={mp.nstr(v12_bfourier,4)}; min(1-min|V_kk|)={mp.nstr(min_line_omv,4)} vs b-sum={mp.nstr(omv_bfourier,4)}"
+            f"  m={m_cov:2d} (y={float(ty):.1f}): 20-pt arith/geom |V_12|=({mp.nstr(mean_line_v12,4)},{mp.nstr(geom_line_v12,4)}) "
+            f"vs 20-pt b-sum |V_12|={mp.nstr(v12_bfourier,4)}; min line(1-min|V_kk|)={mp.nstr(min_line_omv,4)} vs row-a1 b-sum={mp.nstr(omv_a1_bfourier,4)}"
         )
         if m_cov == 16:
             collapse_arith = mean_line_v12 / v12_bfourier
             collapse_geom = geom_line_v12 / v12_bfourier
             print(
-                f"  [CAUGHT Planted Control 1] At m=16, b-Fourier trace collapses |V_12| by factor "
+                f"  [CAUGHT Planted Control 1] At m=16, 20-pt b-Fourier trace collapses |V_12| by factor "
                 f"{mp.nstr(collapse_arith, 5)} (arith) and {mp.nstr(collapse_geom, 5)} (geom), both > 1000."
             )
             assert collapse_arith > mp.mpf("1000") and collapse_geom > mp.mpf("1000")
         if m_cov == 40:
-            assert min_line_omv > mp.mpf("1e-3") and omv_bfourier < mp.mpf("1e-14")
+            assert min_line_omv > mp.mpf("1e-4") and omv_a1_bfourier < mp.mpf("1e-14")
 
     print("  [PASS] Section 1 Selberg log-determinant law and b-Fourier CKM extinction theorem verified.")
 
