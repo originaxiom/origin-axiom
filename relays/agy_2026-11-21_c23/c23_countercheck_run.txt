@@ -1,0 +1,15 @@
+=== COUNTERCHECK 1: SYMBOLIC 7D EINSTEIN (rr) CONSTRAINT & PLANT 1 ===
+  Symbolic 7D Einstein G_rr = 6*Ap**2 - 8*Ap + 1 (zero A'' dependence!); balanced Lambda_4=0 constraint = 2*Ap*(3*Ap - 4), roots A'(0+) = [0, 4/3].
+  [CAUGHT Plant 1] Untuned EWSB brane shift violates symbolic Lambda_4=0 (rr) Einstein constraint by 0.14880 (> 0.14; B980 enforced)!
+
+=== COUNTERCHECK 2: 5D WEIGHT-LATTICE Spin(10) MATTER PARITY & PLANT 2 ===
+  5D weight-lattice P_M counts: 16_fermions={1}, 2HDM_scalars={1}, D_fermions={-1}, psi_S=-1.
+  [CAUGHT Plant 2] 5D weight-lattice parity blocks psi_S L_L H_u (P_M = -1 != +1), guaranteeing psi_S stability!
+
+=== COUNTERCHECK 3: EXACT GFJN 1-LOOP IDENTITY, FLAVORED eps_tau, HILLTOP eta_V, & PLANTS 3-5 ===
+  GFJN pure-1-loop test: |sum_alpha eps_{1,alpha}| = 4.1103e-55 (< 1e-48 == 0!), while flavored eps_{1,tau} = -3.786913e-6 != 0!
+  [CAUGHT Plant 3] Non-unitary lepton doublet scaling corrupts flavored eps_{1,tau} by > 10%!
+  [CAUGHT Plant 4] CP-conserving real Yukawa matrix forces max|eps_{1,alpha}| == 0 (< 1e-50)!
+  [CAUGHT Plant 5] Disjoint pentagonal Fricke hilltop eta_V(n_K=1) = -5.5669136 (|eta_V| > 5 >> 0.1 slow-roll bound; Steep-Modulus No-Go confirmed)!
+
+ALL AGY-C23 COUNTERCHECKS PASSED (5/5 planted faults caught; elapsed: 0.42s; 0 of 19).
