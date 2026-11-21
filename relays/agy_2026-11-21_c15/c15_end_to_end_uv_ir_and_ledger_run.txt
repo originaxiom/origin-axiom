@@ -1,0 +1,16 @@
+=== SECTION 1: Z_40 ~= Z_8 x Z_5 SCHUR COMMUTANT NO-GO VS COVARIANT 5-SHEET NORM (E1) ===
+  Schur Commutant Obstruction: dim End_{G_T}(C^3) = 1 (spanned by I_3 => linear family-blind Z_5 twist cannot steepen ratios!).
+  [CAUGHT Planted Control 1] Basis-pinned diagonal W_R breaks U(3)_R singular-value invariance by 0.50912 (> 0.10)!
+  Covariant 5-sheet Y_f(Y_f^H Y_f)^2: 35-digit U(3)_R err = 8.906e-37 (< 1e-28), CKM=(0.4955, 0.3277, 0.1089) [NORMAL], UV (m1/m3, m2/m3)_d = (1.407e-5, 0.0007453).
+
+=== SECTION 2: 35-DIGIT 20-OBSERVABLE END-TO-END UV->IR WEINBERG+2HDM HAAR AUDIT (E2) ===
+  IR qualitative structure: normal CKM=0.5021>0.3663>0.1225, PMNS=(0.7086,0.615,0.1866), Dm21^2/Dm31^2=0.001547, m_u3/m_d3=11.26, m_d3/m_e3=1.803, slope_2loop=1.718.
+  Guardrail 3 (5 simultaneous 35-digit Haar U(3)^5 x O(3)_{nuR} scramblings across 20 IR observables): max drift = 5.849e-33 (< 1e-20 << 1e-12).
+  [PASS] Section 2 complete 20-observable UV->IR pipeline and 35-digit Haar invariance verified.
+
+=== SECTION 3: MECHANICAL GUARDRAIL 1 & GUARDRAIL 5 SPECIFICATION-BIT & SCALE AUDIT (E3) ===
+  Honest ledger verified: 1 energy unit anchor (<= 1, Guardrail 5), 18.5 priced specification bits (Guardrail 1).
+  [CAUGHT Plants 2a & 2b] 0-bit post-inspection claim and extra unpriced GeV anchor both rejected!
+  [PASS] Section 3 Guardrail 1 & Guardrail 5 ledger audit verified.
+
+ALL AGY-C15 PRODUCER CHECKS PASSED (elapsed: 42.91s; 0 of 19).
