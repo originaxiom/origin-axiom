@@ -1,0 +1,9 @@
+=== IC1: SYMBOLIC PROOF OF QUARK CUBE-ROOT PHASE VS LEPTON Y_nu == Y_e ON P_6 ===
+  [PASS] Symbolic P_6 proof: lepton (-3,0)==(-3,6) across all 24 pts; quark ratio = (-sqrt(3) + I)/(sqrt(3) + I) (||U_R U_R^T - I||_F == 3); [CAUGHT Plant 4] q_{R,nu}=2 breaks equality!
+
+=== IC2 & IC3: GAUSS CYCLES, B1736 VECTOR JOINT WEAVE, KY FAN CONVEXITY, & SCALAR FRICKE PAIR ===
+  Gauss cycle shares (omega_3, omega_4) = (0.69321, 0.30679); [CAUGHT Plant 3] s=1/2 drops t=3 share (t<=12) to 0.117 (< 0.15).
+  [CAUGHT Plants 1, 2, 3, 4, 5] Dirac P_6 kill, broken Fricke (-1+i)/5, s=1/2 inversion, q_L=-1 P_6 break, & non-orthogonal U(3)_{nuR} all caught!
+  [PASS] All 5/5 planted negative controls caught; zero-shared-code AGY-C12 countercheck complete.
+
+ALL AGY-C12 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught in 23.93s; 0 of 19).
