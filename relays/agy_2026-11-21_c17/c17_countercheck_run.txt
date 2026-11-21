@@ -1,0 +1,15 @@
+=== IC1: EXACT NON-COMMUTATIVE GRADED FREE-ALGEBRA PROOF OF d(Omega_7^{LCS}) == tr(R^4) ===
+  Exact rational non-commutative word identity proved: d(Omega_7^{LCS}) == tr((F + O^2)^4) (5 independent cyclic 8-form traces, residual == 0 over Q).
+  [CAUGHT Plant 1] Perturbing 4/5 -> 1 leaves exact non-zero rational cyclic-word residual in d(Omega_7) - tr(R^4)!
+  [CAUGHT Plant 2] SO(6) Cartan witness: identical tr(R^2) == -10 gives distinct tr(R^4) (34 != 26); pure-6D single-B_2 factorization impossible!
+
+=== IC2: REAL LOBACHEVSKY QUADRATURE Vol(4_1) & EXPLICIT 240-ROOT E_8 GHU NORM ===
+  Lobachevsky quadrature vs nsum L(chi_-3,2) err = 3.503e-46 (< 1e-40); 240-root E_8 check (1120 adjacent root pairs verified).
+  [CAUGHT Plant 3] Flat-cylinder graviton zero-mode integral diverges linearly (ratio > 5e4)!
+
+=== IC3: KUTTA 3/8-RULE ZERO-KNOB GHU PIPELINE, HOUSEHOLDER INVARIANCE, & PLANTS 4, 5 ===
+  Kutta 3/8-rule L_2=5/2: BFB=0.3514>0, tan(b)=10.97, m_u3/m_d3=13.92, m_d3/m_e3=1.873, Householder drift=8.4e-33.
+  [CAUGHT Plant 4] Flipped top-quartic sign drives lambda_2 = -1.245 < 0!
+  [CAUGHT Plant 5] Setting xi = 0 keeps m_Hu^2 = 0.4029 > 0 (no EWSB)!
+
+ALL AGY-C17 INDEPENDENT COUNTERCHECKS & 5/5 PLANTED FAULTS PASSED (elapsed: 45.26s; 0 of 19).
