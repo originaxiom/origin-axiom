@@ -1,0 +1,601 @@
+{
+  "card": "A2-OW9",
+  "empirical_inputs_used": "0 of 19",
+  "script_sha256": "cd11f6ae699521db213a29f0ca3fa9e81f4d1c3eab93e82fc0b011e9a00cdc05",
+  "OW9_A1_kk_tower_supertrace_nogo": {
+    "zero_mode": {
+      "n_B": 32,
+      "n_F": 96,
+      "n_B_minus_n_F": -64,
+      "adjoint_4d_zero_scalars": 0
+    },
+    "nonzero_kk_unordered_pair": {
+      "n_B_proca": 36,
+      "n_B_odd_scalars": 12,
+      "n_B_bulk_2H": 56,
+      "n_B_brane_2H": 48,
+      "n_F": 192,
+      "str_pair_bulk_2H": -136,
+      "str_pair_brane_2H": -144
+    },
+    "per_T2_lattice_point": {
+      "n_B_bulk_2H": 28,
+      "n_B_brane_2H": 24,
+      "n_F": 96,
+      "n_B_minus_n_F_bulk_2H": -68,
+      "n_B_minus_n_F_brane_2H": -72
+    },
+    "physical_6d_polarization_match": true,
+    "kk_tower_a0_nogo_verified": true,
+    "pass": true
+  },
+  "OW9_A2_de_sitter_casimir_and_X05_stabilization": {
+    "E3_values_45dps": {
+      "i": "4.6589136156038434402",
+      "rho": "4.1412565472034163913",
+      "tau_plus": "4.6589136156038434402",
+      "five_tau_plus": "4.6589136156038434402",
+      "i_div_sqrt5": "23.237183415034485392",
+      "i_mul_sqrt5": "23.237183415034485392"
+    },
+    "max_abs_diff_CS_vs_direct_R25": "3.4815615e-5",
+    "eq_tau_star_to_i_err": "0.0",
+    "casimir_de_sitter_density_at_tau_star": {
+      "prefactor_bulk_2H_times_pi3": 68,
+      "prefactor_brane_2H_times_pi3": 72,
+      "rho_bulk_2H": "10.21748367685655",
+      "rho_brane_2H": "10.81851212843635",
+      "strictly_positive_de_sitter": true
+    },
+    "E3_saddle_at_i": {
+      "grad_norm": "1.76171e-17",
+      "eig_1": "-7.2807784819804",
+      "eig_2": "35.234260175603"
+    },
+    "F3_stabilization_at_tau_plus": {
+      "F3_value": "9.3178272312076868803",
+      "grad_norm": "2.98943e-15",
+      "eig_1": "61.111462476818",
+      "eig_2": "1336.5626222043",
+      "analytic_pythagorean_eig_1": "61.111462476818",
+      "analytic_pythagorean_eig_2": "1336.5626222043",
+      "max_pythagorean_rel_err": "3.24485e-17",
+      "conformal_deriv_err_to_3_minus_4i": "7.8335e-46"
+    },
+    "F3_stabilization_at_tau_minus": {
+      "F3_value": "9.3178272312076868803",
+      "grad_norm": "2.98943e-15",
+      "eig_1": "61.111462476818",
+      "eig_2": "1336.5626222043"
+    },
+    "X05_global_comparison": {
+      "five_inert_in_Q_sqrt_neg3": true,
+      "five_splits_in_Zi": true,
+      "rho_6_coset_F3": {
+        "I": "169.4674862397585",
+        "S": "169.4674862397585",
+        "ST": "11.42259974208673",
+        "ST2": "11.42259974208673",
+        "ST3": "11.42259974208673",
+        "ST4": "169.4674862397585"
+      },
+      "min_rho_coset_F3": "11.42259974208673",
+      "gap_min_rho_minus_tau_star": "2.104772510879",
+      "F3_at_i_div_sqrt5": "46.47436683006897",
+      "gap_isq5_minus_tau_star": "37.156539598861",
+      "grid_1152pt_min_F3": "9.317827231207687",
+      "grid_1152pt_best_coset": "ST2",
+      "grid_1152pt_best_tau": "(-0.4 + 0.2j)",
+      "six_start_descent": {
+        "ST_rho": {
+          "final_x": "-0.4",
+          "final_y": "0.199999998029",
+          "final_F3": "9.317827231207689",
+          "abs_gap_to_2E3i": "2.10142e-15"
+        },
+        "ST2_rho": {
+          "final_x": "-0.299999992371",
+          "final_y": "0.0999999847412",
+          "final_F3": "9.317827231207722",
+          "abs_gap_to_2E3i": "3.55716e-14"
+        },
+        "ST3_rho": {
+          "final_x": "-0.300000003815",
+          "final_y": "0.100000011444",
+          "final_F3": "9.317827231207712",
+          "abs_gap_to_2E3i": "2.52099e-14"
+        },
+        "mid_1": {
+          "final_x": "0.399999961853",
+          "final_y": "0.199999980927",
+          "final_F3": "9.317827231207742",
+          "abs_gap_to_2E3i": "5.55806e-14"
+        },
+        "mid_2": {
+          "final_x": "0.4",
+          "final_y": "0.2",
+          "final_F3": "9.317827231207687",
+          "abs_gap_to_2E3i": "1.5078e-42"
+        },
+        "isq5_pert": {
+          "final_x": "0.4",
+          "final_y": "0.2",
+          "final_F3": "9.317827231207687",
+          "abs_gap_to_2E3i": "1.5092e-42"
+        }
+      },
+      "max_descent_gap_to_2E3i": "5.55806e-14"
+    },
+    "pass": true
+  },
+  "OW9_B1_zero_mode_nuc_nogo": {
+    "A5_simplicity_proof": {
+      "order": 60,
+      "conjugacy_class_sizes": [
+        1,
+        12,
+        12,
+        15,
+        20
+      ],
+      "nontrivial_normal_subgroup_orders": [],
+      "is_simple": true,
+      "has_index2_subgroup": false
+    },
+    "Spin10_nonSUSY_matter_parity": {
+      "species_count": 8,
+      "P_M_equals_fermion_number_count": 8,
+      "species": {
+        "Q": {
+          "P_M": -1,
+          "minus1_F": -1,
+          "identical": true
+        },
+        "uc": {
+          "P_M": -1,
+          "minus1_F": -1,
+          "identical": true
+        },
+        "dc": {
+          "P_M": -1,
+          "minus1_F": -1,
+          "identical": true
+        },
+        "L": {
+          "P_M": -1,
+          "minus1_F": -1,
+          "identical": true
+        },
+        "ec": {
+          "P_M": -1,
+          "minus1_F": -1,
+          "identical": true
+        },
+        "nuc": {
+          "P_M": -1,
+          "minus1_F": -1,
+          "identical": true
+        },
+        "Hu": {
+          "P_M": 1,
+          "minus1_F": 1,
+          "identical": true
+        },
+        "Hd": {
+          "P_M": 1,
+          "minus1_F": 1,
+          "identical": true
+        }
+      }
+    },
+    "single_nuc_decay_operators_dim_le_6": {
+      "zero_deriv_total": 17,
+      "zero_deriv_B_minus_L_conserving": 14,
+      "zero_deriv_delta_B_minus_L_2": 3,
+      "one_deriv_total": 5,
+      "one_deriv_B_minus_L_conserving": 3,
+      "one_deriv_delta_B_minus_L_2": 2,
+      "X_HOL_dim4_nuc_L_Hu_present": true,
+      "zero_deriv_list": [
+        {
+          "dim": 4,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hdb"
+          ]
+        },
+        {
+          "dim": 4,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hu"
+          ]
+        },
+        {
+          "dim": 5,
+          "three_BmL": 6,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "ec",
+            "Hd",
+            "Hd"
+          ]
+        },
+        {
+          "dim": 5,
+          "three_BmL": 6,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "ec",
+            "Hub",
+            "Hd"
+          ]
+        },
+        {
+          "dim": 5,
+          "three_BmL": 6,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "ec",
+            "Hub",
+            "Hub"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hd",
+            "Hdb",
+            "Hdb"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hu",
+            "Hd",
+            "Hdb"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hu",
+            "Hu",
+            "Hd"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hu",
+            "Hu",
+            "Hub"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hu",
+            "Hub",
+            "Hdb"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "Hub",
+            "Hdb",
+            "Hdb"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 2,
+          "fields": [
+            "nuc",
+            "Qbar",
+            "Qbar",
+            "dc"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 2,
+          "fields": [
+            "nuc",
+            "Qbar",
+            "ucb",
+            "L"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 2,
+          "nR": 2,
+          "fields": [
+            "nuc",
+            "ucb",
+            "dc",
+            "ecb"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 4,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "L",
+            "L",
+            "ec"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 4,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "Q",
+            "dc",
+            "L"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 4,
+          "nR": 0,
+          "fields": [
+            "nuc",
+            "uc",
+            "dc",
+            "dc"
+          ]
+        }
+      ],
+      "one_deriv_list": [
+        {
+          "dim": 5,
+          "three_BmL": 6,
+          "nL": 1,
+          "nR": 1,
+          "fields": [
+            "nuc",
+            "Lbar",
+            "Hd"
+          ]
+        },
+        {
+          "dim": 5,
+          "three_BmL": 6,
+          "nL": 1,
+          "nR": 1,
+          "fields": [
+            "nuc",
+            "Lbar",
+            "Hub"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 1,
+          "nR": 1,
+          "fields": [
+            "nuc",
+            "ecb",
+            "Hdb",
+            "Hdb"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 1,
+          "nR": 1,
+          "fields": [
+            "nuc",
+            "ecb",
+            "Hu",
+            "Hdb"
+          ]
+        },
+        {
+          "dim": 6,
+          "three_BmL": 0,
+          "nL": 1,
+          "nR": 1,
+          "fields": [
+            "nuc",
+            "ecb",
+            "Hu",
+            "Hu"
+          ]
+        }
+      ]
+    },
+    "zero_mode_nuc_strictly_stable": false,
+    "pass": true
+  },
+  "OW9_B2_gaussian_kk_shells_and_547_thread_LKP_stabilizer": {
+    "gaussian_norm_identity_mismatches": 0,
+    "lowest_kk_shells_at_tau_star": {
+      "Q_1": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "grade": [
+            0,
+            1
+          ]
+        },
+        {
+          "pair": [
+            1,
+            -2
+          ],
+          "grade": [
+            1,
+            0
+          ]
+        }
+      ],
+      "Q_2": [
+        {
+          "pair": [
+            1,
+            -3
+          ],
+          "grade": [
+            1,
+            1
+          ]
+        },
+        {
+          "pair": [
+            1,
+            -1
+          ],
+          "grade": [
+            1,
+            1
+          ]
+        }
+      ],
+      "Q_4": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "grade": [
+            0,
+            0
+          ]
+        },
+        {
+          "pair": [
+            2,
+            -4
+          ],
+          "grade": [
+            0,
+            0
+          ]
+        }
+      ],
+      "first_trivial_grade_Q": 4,
+      "mass_ratio_first_trivial_over_LKP": 2
+    },
+    "gl2z_547_thread_grading_audit": {
+      "psl_det_plus1_count": 363,
+      "odd_det_minus1_count": 184,
+      "total_threads": 547,
+      "gl2f2_bijection_failures": 0,
+      "cycle_type_census": {
+        "(3,)": 184,
+        "(1, 2)": 276,
+        "(1, 1, 1)": 87
+      },
+      "m004_fixed_nontrivial_grades": 0,
+      "m004_fixed_single_Z2_characters": 0
+    },
+    "E2_half_period_democracy_condition": {
+      "democratic_four_fixed_points_projection": {
+        "(0, 0)": 4,
+        "(1, 0)": 0,
+        "(0, 1)": 0,
+        "(1, 1)": 0
+      },
+      "single_puncture_origin_projection": {
+        "(0, 0)": 1,
+        "(1, 0)": 1,
+        "(0, 1)": 1,
+        "(1, 1)": 1
+      },
+      "democratic_forbids_LKP_to_SM_decay": true,
+      "single_puncture_breaks_Z2xZ2_and_opens_decay": true
+    },
+    "pass": true
+  },
+  "OW9_C_planted_faults": {
+    "PF_OW9_1_drop_A5_A6_gauge_polarizations": {
+      "faulty_str_lat_bulk2H": -80,
+      "true_str_lat_bulk2H": -68,
+      "caught": true
+    },
+    "PF_OW9_2_flip_berezin_casimir_sign": {
+      "faulty_rho_casimir": "-10.2174836769",
+      "caught": true
+    },
+    "PF_OW9_3_drop_chiral_SL2C_parity": {
+      "faulty_0d_operator_count": 34,
+      "true_0d_operator_count": 17,
+      "caught": true
+    },
+    "PF_OW9_4_single_puncture_breaks_E2_democracy": {
+      "puncture_proj_01": 1,
+      "puncture_proj_10": 1,
+      "caught": true
+    },
+    "caught_count": 4,
+    "total_planted": 4,
+    "pass": true
+  },
+  "all_gates_passed": true
+}
