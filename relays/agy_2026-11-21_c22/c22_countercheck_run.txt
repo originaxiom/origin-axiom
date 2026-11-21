@@ -1,0 +1,15 @@
+=== COUNTERCHECK 1: DISJOINT 2x2 SU(2) BFS CLOSURE OF 2I & 2T + PLANT 1 ===
+  BFS SU(2) group orders: |2I|=120, |2T|=24, [2I : 2T] = 5, classes = (9, 7).
+  [CAUGHT Plant 1] Non-icosahedral Dic_7 has order 28 not dividing |2I|=120 (120 mod 28 = 8 != 0)!
+
+=== COUNTERCHECK 2: CLAUSEN INTEGRAL M_11 / M_GUT QUADRATURE & PLANTS 2, 3, 4 ===
+  Disjoint Clausen Vol(X_{4_1}^{(40)}) = 81.19532851277229, M_11/M_GUT = 3.938639080627258.
+  Disjoint M_Pl/M_GUT benchmarks: SD = 25.49121233, Iso = 395.442062; M_Pl/v_EW(SD) = 3.194504376e+14.
+  [CAUGHT Plant 2] Unphysical (alpha_inv=1, m=5000) collapses M_11/M_GUT = 0.23033 < 1 (EFT breakdown)!
+  [CAUGHT Plant 3] Fixed-V_perp doubling scales (M_Pl/M_GUT)^2 by 0.629961 != 2.0!
+  [CAUGHT Plant 4] Importing empirical M_Pl alongside v_EW rejected by Guardrail 5!
+
+=== COUNTERCHECK 3: GRAVITON PARTIAL-WAVE UNITARITY & PLANT 5 ===
+  |a_2(M_11^2)| = 0.00011874 << 0.50; [CAUGHT Plant 5] |a_2((15 M_Pl)^2)| = 1.1191 > 0.50!
+
+ALL AGY-C22 COUNTERCHECKS PASSED (5/5 planted faults caught; elapsed: 0.69s; 0 of 19).
