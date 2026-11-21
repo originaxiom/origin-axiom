@@ -1,0 +1,13 @@
+=== COUNTERCHECK 1: EULER PENTAGONAL ETA, STENCIL HESSIAN WINDOW, & PLANTS 1, 2 ===
+  Disjoint pentagonal-stencil results: |grad|=1.166e-40, tr(H)=78.5398163397, det(H)=127.250814798.
+  Disjoint stability interval (r_min, r_max) = (0.632756613247, 1.58038648521).
+  [CAUGHT Plant 1] Inverted Bose-Fermi Casimir sign gives tr(Hess) = -2513.27 < 0 (local maximum)!
+  [CAUGHT Plant 2] Outside (r_min, r_max), det(Hess) turns negative: det(r=0.5)=-85.6297, det(r=2.0)=-342.519 < 0!
+
+=== COUNTERCHECK 2: BASIS-FREE COMMUTATOR CP NEGATION, HAAR INVARIANCE, & PLANTS 3, 4, 5 ===
+  Basis-free Im det[H_u, H_d]: (+)=1.06944e+6, (-)= -1.06944e+6, rel|sum|=0.0, Haar drift=6.407e-60.
+  [CAUGHT Plant 3] Non-unitary left scaling corrupts Im det[H_u, H_d] by > 500%!
+  [CAUGHT Plant 4] Asymmetric Re(tau) shift breaks CP-even eigenvalue equality by 0.41321 (> 0.10)!
+  [CAUGHT Plant 5] 0-bit post-inspection claim on V_{Gamma_0(5)} rejected by Guardrail 1!
+
+ALL AGY-C20 COUNTERCHECKS PASSED (5/5 planted faults caught; elapsed: 1.80s; 0 of 19).
