@@ -1,0 +1,21 @@
+=== SECTION 1: EXPLICIT SU(2) McKAY SUBGROUP [2I : 2T] = 5 & AFFINE E_8^hat -> E_6^hat (E1) ===
+  Verified |2I|=120, |2T|=24, [2I : 2T] = 5, coset permutation image |A_5| = 60.
+  McKay graphs from SU(2) characters: chi_orb(C^2/2I)=9 (dims=[1, 2, 2, 3, 3, 4, 4, 5, 6], det(E_8)=1); chi_orb(C^2/2T)=7 (dims=[1, 1, 1, 2, 2, 2, 3], det(E_6)=3).
+  [CAUGHT Plant 1] Adding a spurious edge to McKay E_8^hat breaks affine singularity (|det| = 8 != 0)!
+  [PASS] Section 1 McKay [2I : 2T] = 5 subgroup bridge and affine E_8^hat -> E_6^hat verified.
+
+=== SECTION 2: ZERO-PARAMETER M_11 / M_GUT LOCK & BLIND M_Pl / v_EW SCALING LAW (E2, 0 of 19) ===
+  Finite cover volume Vol(X_{4_1}^{(40)}) = 81.19532851277229.
+  Zero-parameter 11D cutoff lock M_11 / M_GUT = 3.938639080627258 (> 1; 7D unification valid below M_11!).
+  Blind Benchmark I  (self-dual T^4/2T): M_Pl/M_GUT = 25.49121233, M_Pl/v_EW = 3.194504376e+14, G_N v_EW^2 = 3.8989994e-31.
+  Blind Benchmark II (isotropic KK T^4/2T): M_Pl/M_GUT = 395.442062, M_Pl/v_EW = 4.955595604e+15, G_N v_EW^2 = 1.6201992e-33.
+  Honest WP-4.5 scope theorem: M_11/M_GUT is 0-parameter locked, whereas M_Pl/M_GUT scales as sqrt(V_hat_perp) pending G_4-flux stabilization on T^4/2T.
+  [CAUGHT Plant 2] Cover doubling m=40->80 obeys exact 2^(-2/3) scaling (err=1.02e-56), and second GeV anchor rejected by Guardrail 5!
+  [PASS] Section 2 zero-parameter M_11/M_GUT lock and blind M_Pl/v_EW scaling law verified.
+
+=== SECTION 3: 2 -> 2 GRAVITON PARTIAL-WAVE UNITARITY UP TO M_11 (E3) ===
+  Partial-wave |a_2(s)| (< 0.50 bound): at M_GUT (SD) = 7.65401e-6; at M_11 (SD) = 0.000118736; at M_11 (Iso) = 4.93397e-7.
+  [CAUGHT Plant 3] Trans-Planckian 4D extrapolation at sqrt(s)=20*M_Pl violates partial-wave unitarity: |a_2| = 1.98944 > 0.50!
+  [PASS] Section 3 graviton partial-wave unitarity up to 11D M-theory cutoff M_11 verified.
+
+ALL AGY-C22 PRODUCER CHECKS PASSED (elapsed: 0.52s; 0 of 19).
