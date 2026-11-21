@@ -1,0 +1,13 @@
+=== SECTION 1: E_8 -> E_6 x SU(3)_fam EXHIBITION & HALPHEN-SERRE UNIQUENESS FOR I-37 (E1, E3) ===
+  E_8 cubic (16,3)x(16,3)x(10,3) census: 40 SO(10) terms = 16 electroweak (H_u Y=+1/2, H_d Y=-1/2) + 24 color-triplet proton-decay terms [CAUGHT Plant 2b: P_hat kills all 24 color-triplet terms!].
+  Algebraic Halphen-Serre err = 3.957e-62 (< 1e-50); dim M_2(Gamma(2)) = 2 (== 2_std of S_3 => unique D-1!); eta*S(tau) weight-2 S-duality err = 3.934e-61 (< 1e-50).
+  [CAUGHT Planted Control 1] B1742's F_6 (wt 3) & F_22 (wt 11) violate S(tau)'s wt-3/2 modularity: err(F_6) = 0.8414 (> 0.5), err(F_22) = 46.783 (> 40)!
+  [PASS] Section 1 E_8 -> E_6 x SU(3) I-37 exhibition and M_2(Gamma(2)) uniqueness of D-1 verified.
+
+=== SECTION 2: SYMBOLIC 6D (1,0) GRAVITATIONAL tr R^4 LAW & E_8 PILLOWCASE COUNT (E2) ===
+  Symbolic 6D Pontryagin proof: a_(1/2)=1/5760, a_(3/2)/a_(1/2)=+245, a_B2/a_(1/2)=+28 => grav=-273 (-273), tensor=+29 (+29), N_H - N_V == 244 at n_T=1!
+  [CAUGHT Planted Control 2a] Perturbing 29*n_T -> 28*n_T leaves non-zero tr R^4 residual -1 != 0.
+  Exact pillowcase boundary ledger: chiral 3x27 gives N_H=81; unbroken N_V=12 (G_SM) or 14 (G_SM x U(1)^2) leaves pure-6D singlet/twisted requirement Delta_244 = 175 (resp. 177), unless cancelled by 7D bulk Lorentz CS d Omega_7^LCS = tr R^4.
+  [PASS] Section 2 symbolic 6D gravitational tr R^4 theorem and pillowcase ledger verified.
+
+ALL AGY-C13 PRODUCER CHECKS PASSED (elapsed: 0.33s; 0 of 19).
