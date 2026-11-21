@@ -1,0 +1,3114 @@
+{
+  "card_id": "A2-OW10",
+  "role": "Independent Cold-Room Zero-Trust Referee",
+  "empirical_firewall": "0 of 19 (Litim 2004 & DEP 1311-2898 strictly isolated in Guardrail 4)",
+  "working_dps": 55,
+  "script_sha256": "eaef2db4bd63aaf449e0fc27f3a7d0facc4f975a005c31e81f45f26956163030",
+  "OW10_A": {
+    "symbolic_frg_derivation": {
+      "rg_g_scaling_residual": "0",
+      "rg_lam_scaling_residual": "0",
+      "g_star_formula_diff": "0",
+      "eta_N_sub_residual": "0",
+      "beta_g_sub_residual": "0",
+      "cubic_scale_factor": "1",
+      "cubic_identity_residual": "0",
+      "denominator_scale_factor": "1",
+      "denominator_identity_residual": "0",
+      "pole_denom_identity_residual": "0",
+      "double_pincer_N_gen_bounds": [
+        "5/2",
+        "27/8"
+      ],
+      "double_pincer_N_gen_unique_integers": [
+        3
+      ],
+      "double_pincer_n_H_bounds": [
+        "0",
+        "7/2"
+      ],
+      "double_pincer_n_H_allowed_integers": [
+        1,
+        2,
+        3
+      ],
+      "M_g_14_discriminant_formula": "1152*M_l + 3556",
+      "M_g_14_critical_M_l_threshold": "-889/288",
+      "passed": true
+    },
+    "guardrail_4_benchmarks": {
+      "litim_2004_pure_gravity": {
+        "spectrum": {
+          "label": "Litim 2004 pure gravity",
+          "N_S": 0,
+          "N_W": 0,
+          "N_V": 0,
+          "f_W": 1,
+          "M_g": 0,
+          "M_l": "0",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 1,
+          "direct_2d_newton_root_count": 1,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 1,
+          "scan_lam_min": "-100.0",
+          "fixed_points": [
+            {
+              "g_star_str": "0.7073208809868445066639757660440347036096",
+              "g_star": 0.7073208809868445,
+              "lam_star_str": "0.1932005071507856455620476850017360804473",
+              "lam_star": 0.19320050715078566,
+              "u_star_str": "0.6135989856984287088759046299965278391054",
+              "eta_N_plus_2_abs_err": "0.0",
+              "one_minus_g_B2_str": "0.85388970704134398436",
+              "max_beta_residual": "0.0",
+              "newton_iters": 0,
+              "richardson_jac_conv_err": "4.30471e-41",
+              "char_det_err": "3.10279e-56",
+              "similarity_invariance_err": "8.40766e-56",
+              "theta_1_re_str": "1.475302425763854852324135810417622328906",
+              "theta_1_im_str": "3.043205846411925099489450456336516433935",
+              "theta_2_re_str": "1.475302425763854852324135810417622328906",
+              "theta_2_im_str": "-3.043205846411925099489450456336516433935",
+              "theta_1_re": 1.475302425763855,
+              "theta_1_im": 3.043205846411925,
+              "theta_2_re": 1.475302425763855,
+              "theta_2_im": -3.043205846411925,
+              "is_complex_conjugate_pair": true,
+              "in_physical_domain": true,
+              "in_card_lam_window": true,
+              "uv_attractive": true,
+              "numerical_certified": true
+            }
+          ]
+        },
+        "abs_err_g_vs_70732e_5": "8.80987e-7",
+        "abs_err_lam_vs_19320e_5": "5.07151e-7",
+        "abs_err_re_theta_vs_14753e_4": "2.42576e-6",
+        "abs_err_im_theta_vs_30432e_4": "5.84641e-6",
+        "passed": true
+      },
+      "dep_1311_2898_pure_fermion_type_ii": {
+        "rows": [
+          {
+            "label": "DEP Type-II N_D=0",
+            "N_S": 0,
+            "N_W": 0,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 0,
+            "M_l": "0",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "0.7073208809868445066639757660440347036096",
+                "g_star": 0.7073208809868445,
+                "lam_star_str": "0.1932005071507856455620476850017360804473",
+                "lam_star": 0.19320050715078566,
+                "u_star_str": "0.6135989856984287088759046299965278391054",
+                "eta_N_plus_2_abs_err": "0.0",
+                "one_minus_g_B2_str": "0.85388970704134398436",
+                "max_beta_residual": "0.0",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "4.30471e-41",
+                "char_det_err": "3.10279e-56",
+                "similarity_invariance_err": "8.40766e-56",
+                "theta_1_re_str": "1.475302425763854852324135810417622328906",
+                "theta_1_im_str": "3.043205846411925099489450456336516433935",
+                "theta_2_re_str": "1.475302425763854852324135810417622328906",
+                "theta_2_im_str": "-3.043205846411925099489450456336516433935",
+                "theta_1_re": 1.475302425763855,
+                "theta_1_im": 3.043205846411925,
+                "theta_2_re": 1.475302425763855,
+                "theta_2_im": -3.043205846411925,
+                "is_complex_conjugate_pair": true,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-II N_D=1",
+            "N_S": 0,
+            "N_W": 2,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 2,
+            "M_l": "-2",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "1.087474380088774582544761171135212536837",
+                "g_star": 1.0874743800887745,
+                "lam_star_str": "0.125",
+                "lam_star": 0.125,
+                "u_star_str": "0.75",
+                "eta_N_plus_2_abs_err": "0.0",
+                "one_minus_g_B2_str": "0.88461538461538461538",
+                "max_beta_residual": "0.0",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "2.17189e-41",
+                "char_det_err": "8.15663e-56",
+                "similarity_invariance_err": "1.15352e-55",
+                "theta_1_re_str": "0.6967670011148272017837235228539576365663",
+                "theta_1_im_str": "2.227956711535547534561144958491075710326",
+                "theta_2_re_str": "0.6967670011148272017837235228539576365663",
+                "theta_2_im_str": "-2.227956711535547534561144958491075710326",
+                "theta_1_re": 0.6967670011148271,
+                "theta_1_im": 2.2279567115355476,
+                "theta_2_re": 0.6967670011148271,
+                "theta_2_im": -2.2279567115355476,
+                "is_complex_conjugate_pair": true,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-II N_D=2",
+            "N_S": 0,
+            "N_W": 4,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 4,
+            "M_l": "-4",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "4.920773381744284698048358056048343892964",
+                "g_star": 4.920773381744285,
+                "lam_star_str": "-1.177209598352775051060557034734047922494",
+                "lam_star": -1.177209598352775,
+                "u_star_str": "3.354419196705550102121114069468095844989",
+                "eta_N_plus_2_abs_err": "4.07832e-56",
+                "one_minus_g_B2_str": "1.1249590718989864479",
+                "max_beta_residual": "2.00685e-55",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "7.69291e-44",
+                "char_det_err": "5.73513e-56",
+                "similarity_invariance_err": "1.63133e-55",
+                "theta_1_re_str": "3.060648796923443321472744586875903830274",
+                "theta_1_im_str": "0.0",
+                "theta_2_re_str": "1.828243534602729134729674534844189463787",
+                "theta_2_im_str": "0.0",
+                "theta_1_re": 3.0606487969234433,
+                "theta_1_im": 0.0,
+                "theta_2_re": 1.828243534602729,
+                "theta_2_im": 0.0,
+                "is_complex_conjugate_pair": false,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-II N_D=3",
+            "N_S": 0,
+            "N_W": 6,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 6,
+            "M_l": "-6",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "6.24662663282995583871842577554691722747",
+                "g_star": 6.246626632829956,
+                "lam_star_str": "-2.175836750159403406235309841941477623382",
+                "lam_star": -2.1758367501594034,
+                "u_star_str": "5.351673500318806812470619683882955246764",
+                "eta_N_plus_2_abs_err": "0.0",
+                "one_minus_g_B2_str": "1.1200959623591464797",
+                "max_beta_residual": "0.0",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "1.27379e-43",
+                "char_det_err": "2.03916e-56",
+                "similarity_invariance_err": "8.15663e-56",
+                "theta_1_re_str": "3.496875376263041734286903799149649266295",
+                "theta_1_im_str": "0.0",
+                "theta_2_re_str": "2.116250347202848179667680175065932645648",
+                "theta_2_im_str": "0.0",
+                "theta_1_re": 3.496875376263042,
+                "theta_1_im": 0.0,
+                "theta_2_re": 2.116250347202848,
+                "theta_2_im": 0.0,
+                "is_complex_conjugate_pair": false,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-II N_D=4",
+            "N_S": 0,
+            "N_W": 8,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 8,
+            "M_l": "-8",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "8.281298413592168277249291210761360211821",
+                "g_star": 8.281298413592168,
+                "lam_star_str": "-3.692021153959753534706643002141629828905",
+                "lam_star": -3.6920211539597534,
+                "u_star_str": "8.38404230791950706941328600428325965781",
+                "eta_N_plus_2_abs_err": "0.0",
+                "one_minus_g_B2_str": "1.1122533418439462242",
+                "max_beta_residual": "0.0",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "1.43538e-43",
+                "char_det_err": "1.01958e-56",
+                "similarity_invariance_err": "1.22349e-55",
+                "theta_1_re_str": "3.720458841563476492697939412179632290404",
+                "theta_1_im_str": "0.0",
+                "theta_2_re_str": "2.226188331957281016990321993104653640105",
+                "theta_2_im_str": "0.0",
+                "theta_1_re": 3.7204588415634765,
+                "theta_1_im": 0.0,
+                "theta_2_re": 2.226188331957281,
+                "theta_2_im": 0.0,
+                "is_complex_conjugate_pair": false,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-II N_D=5",
+            "N_S": 0,
+            "N_W": 10,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 10,
+            "M_l": "-10",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "12.29899929356894627745884033793181857155",
+                "g_star": 12.298999293568945,
+                "lam_star_str": "-6.622026153572841143670816767627577214554",
+                "lam_star": -6.6220261535728415,
+                "u_star_str": "14.24405230714568228734163353525515442911",
+                "eta_N_plus_2_abs_err": "4.07832e-56",
+                "one_minus_g_B2_str": "1.1048706776159275831",
+                "max_beta_residual": "5.01592e-55",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "1.90321e-43",
+                "char_det_err": "4.07832e-56",
+                "similarity_invariance_err": "1.22349e-55",
+                "theta_1_re_str": "3.853945558040039658528704055996398433793",
+                "theta_1_im_str": "0.0",
+                "theta_2_re_str": "2.283667851800954588135866634454441368804",
+                "theta_2_im_str": "0.0",
+                "theta_1_re": 3.85394555804004,
+                "theta_1_im": 0.0,
+                "theta_2_re": 2.2836678518009546,
+                "theta_2_im": 0.0,
+                "is_complex_conjugate_pair": false,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-II N_D=6",
+            "N_S": 0,
+            "N_W": 12,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 12,
+            "M_l": "-12",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "24.33689830032418472267639576409784490511",
+                "g_star": 24.336898300324187,
+                "lam_star_str": "-15.28891729781248753791602675695222376632",
+                "lam_star": -15.288917297812487,
+                "u_star_str": "31.57783459562497507583205351390444753264",
+                "eta_N_plus_2_abs_err": "4.07832e-56",
+                "one_minus_g_B2_str": "1.0983323084525540239",
+                "max_beta_residual": "3.26265e-54",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "3.47387e-43",
+                "char_det_err": "8.15663e-56",
+                "similarity_invariance_err": "1.22349e-55",
+                "theta_1_re_str": "3.940640374097107223064590560130109129294",
+                "theta_1_im_str": "0.0",
+                "theta_2_re_str": "2.317674475943272725078288033639955622766",
+                "theta_2_im_str": "0.0",
+                "theta_1_re": 3.940640374097107,
+                "theta_1_im": 0.0,
+                "theta_2_re": 2.3176744759432726,
+                "theta_2_im": 0.0,
+                "is_complex_conjugate_pair": false,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-II N_D=7",
+            "N_S": 0,
+            "N_W": 14,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 14,
+            "M_l": "-14",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 0,
+            "direct_2d_newton_root_count": 0,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 0,
+            "scan_lam_min": "-100.0",
+            "fixed_points": []
+          },
+          {
+            "label": "DEP Type-II N_D=8",
+            "N_S": 0,
+            "N_W": 16,
+            "N_V": 0,
+            "f_W": 1,
+            "M_g": 16,
+            "M_l": "-16",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 0,
+            "direct_2d_newton_root_count": 0,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 0,
+            "scan_lam_min": "-100.0",
+            "fixed_points": []
+          }
+        ],
+        "max_surviving_N_D": 6,
+        "first_destroyed_N_D": 7,
+        "passed": true
+      },
+      "dep_1311_2898_pure_fermion_type_i": {
+        "rows": [
+          {
+            "label": "DEP Type-I N_D=0",
+            "N_S": 0,
+            "N_W": 0,
+            "N_V": 0,
+            "f_W": 2,
+            "M_g": 0,
+            "M_l": "0",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "0.7073208809868445066639757660440347036096",
+                "g_star": 0.7073208809868445,
+                "lam_star_str": "0.1932005071507856455620476850017360804473",
+                "lam_star": 0.19320050715078566,
+                "u_star_str": "0.6135989856984287088759046299965278391054",
+                "eta_N_plus_2_abs_err": "0.0",
+                "one_minus_g_B2_str": "0.85388970704134398436",
+                "max_beta_residual": "0.0",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "4.30471e-41",
+                "char_det_err": "3.10279e-56",
+                "similarity_invariance_err": "8.40766e-56",
+                "theta_1_re_str": "1.475302425763854852324135810417622328906",
+                "theta_1_im_str": "3.043205846411925099489450456336516433935",
+                "theta_2_re_str": "1.475302425763854852324135810417622328906",
+                "theta_2_im_str": "-3.043205846411925099489450456336516433935",
+                "theta_1_re": 1.475302425763855,
+                "theta_1_im": 3.043205846411925,
+                "theta_2_re": 1.475302425763855,
+                "theta_2_im": -3.043205846411925,
+                "is_complex_conjugate_pair": true,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-I N_D=1",
+            "N_S": 0,
+            "N_W": 2,
+            "N_V": 0,
+            "f_W": 2,
+            "M_g": 4,
+            "M_l": "-2",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "1.081936282868489800250809780086537681206",
+                "g_star": 1.0819362828684898,
+                "lam_star_str": "0.1368505958822118126627006228938783675239",
+                "lam_star": 0.13685059588221182,
+                "u_star_str": "0.7262988082355763746745987542122432649523",
+                "eta_N_plus_2_abs_err": "4.07832e-56",
+                "one_minus_g_B2_str": "0.87114111028404203473",
+                "max_beta_residual": "4.41248e-56",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "3.02795e-41",
+                "char_det_err": "0.0",
+                "similarity_invariance_err": "2.04171e-55",
+                "theta_1_re_str": "0.5842372661258299475655258116389175311997",
+                "theta_1_im_str": "2.415738303845410693690118195713086113782",
+                "theta_2_re_str": "0.5842372661258299475655258116389175311997",
+                "theta_2_im_str": "-2.415738303845410693690118195713086113782",
+                "theta_1_re": 0.5842372661258299,
+                "theta_1_im": 2.4157383038454108,
+                "theta_2_re": 0.5842372661258299,
+                "theta_2_im": -2.4157383038454108,
+                "is_complex_conjugate_pair": true,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-I N_D=2",
+            "N_S": 0,
+            "N_W": 4,
+            "N_V": 0,
+            "f_W": 2,
+            "M_g": 8,
+            "M_l": "-4",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "9.063233671851727579974179616859520932877",
+                "g_star": 9.063233671851728,
+                "lam_star_str": "-2.481786508178533896581390838355527877468",
+                "lam_star": -2.481786508178534,
+                "u_star_str": "5.963573016357067793162781676711055754935",
+                "eta_N_plus_2_abs_err": "0.0",
+                "one_minus_g_B2_str": "1.1610059061137389174",
+                "max_beta_residual": "0.0",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "6.5253e-44",
+                "char_det_err": "5.09789e-56",
+                "similarity_invariance_err": "8.15663e-56",
+                "theta_1_re_str": "3.373379022434924531781864979858835444231",
+                "theta_1_im_str": "0.0",
+                "theta_2_re_str": "2.24288269523967310100929137641692864004",
+                "theta_2_im_str": "0.0",
+                "theta_1_re": 3.3733790224349245,
+                "theta_1_im": 0.0,
+                "theta_2_re": 2.242882695239673,
+                "theta_2_im": 0.0,
+                "is_complex_conjugate_pair": false,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-I N_D=3",
+            "N_S": 0,
+            "N_W": 6,
+            "N_V": 0,
+            "f_W": 2,
+            "M_g": 12,
+            "M_l": "-6",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 1,
+            "direct_2d_newton_root_count": 1,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 1,
+            "scan_lam_min": "-100.0",
+            "fixed_points": [
+              {
+                "g_star_str": "27.45951797460810514455497697804367104376",
+                "g_star": 27.459517974608104,
+                "lam_star_str": "-10.5976228163603732242510043717459836149",
+                "lam_star": -10.597622816360373,
+                "u_star_str": "22.19524563272074644850200874349196722979",
+                "eta_N_plus_2_abs_err": "0.0",
+                "one_minus_g_B2_str": "1.1552146977677235735",
+                "max_beta_residual": "0.0",
+                "newton_iters": 0,
+                "richardson_jac_conv_err": "1.56784e-42",
+                "char_det_err": "4.07832e-56",
+                "similarity_invariance_err": "2.85482e-55",
+                "theta_1_re_str": "3.853064396095343903938287667269101636394",
+                "theta_1_im_str": "0.0",
+                "theta_2_re_str": "2.467218462570190833213135965021201850798",
+                "theta_2_im_str": "0.0",
+                "theta_1_re": 3.853064396095344,
+                "theta_1_im": 0.0,
+                "theta_2_re": 2.467218462570191,
+                "theta_2_im": 0.0,
+                "is_complex_conjugate_pair": false,
+                "in_physical_domain": true,
+                "in_card_lam_window": true,
+                "uv_attractive": true,
+                "numerical_certified": true
+              }
+            ]
+          },
+          {
+            "label": "DEP Type-I N_D=4",
+            "N_S": 0,
+            "N_W": 8,
+            "N_V": 0,
+            "f_W": 2,
+            "M_g": 16,
+            "M_l": "-8",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 0,
+            "direct_2d_newton_root_count": 0,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 0,
+            "scan_lam_min": "-100.0",
+            "fixed_points": []
+          },
+          {
+            "label": "DEP Type-I N_D=5",
+            "N_S": 0,
+            "N_W": 10,
+            "N_V": 0,
+            "f_W": 2,
+            "M_g": 20,
+            "M_l": "-10",
+            "spurious_pole_roots_removed": 0,
+            "sturm_exact_physical_root_count": 0,
+            "direct_2d_newton_root_count": 0,
+            "sturm_matches_direct_solver": true,
+            "n_uv_attractive_fps": 0,
+            "scan_lam_min": "-100.0",
+            "fixed_points": []
+          }
+        ],
+        "max_surviving_N_D": 3,
+        "first_destroyed_N_D": 4,
+        "passed": true
+      },
+      "passed": true
+    },
+    "double_pincer_scans": {
+      "N_gen_scan_at_N5_2H": [
+        {
+          "label": "N=5 2H N_gen=1 Type-II",
+          "N_S": 8,
+          "N_W": 16,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": -24,
+          "M_l": "0",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 1,
+          "direct_2d_newton_root_count": 1,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 1,
+          "scan_lam_min": "-100.0",
+          "fixed_points": [
+            {
+              "g_star_str": "0.6310398302428648910803447800665875873974",
+              "g_star": 0.6310398302428649,
+              "lam_star_str": "0.1195604910168790328638687704086682501449",
+              "lam_star": 0.11956049101687903,
+              "u_star_str": "0.7608790179662419342722624591826634997103",
+              "eta_N_plus_2_abs_err": "0.0",
+              "one_minus_g_B2_str": "0.9365182880067732397",
+              "max_beta_residual": "0.0",
+              "newton_iters": 0,
+              "richardson_jac_conv_err": "3.51336e-42",
+              "char_det_err": "0.0",
+              "similarity_invariance_err": "2.8838e-56",
+              "theta_1_re_str": "1.939656451824987686627143794602414141255",
+              "theta_1_im_str": "1.637127096203049594663881990571666299606",
+              "theta_2_re_str": "1.939656451824987686627143794602414141255",
+              "theta_2_im_str": "-1.637127096203049594663881990571666299606",
+              "theta_1_re": 1.9396564518249877,
+              "theta_1_im": 1.6371270962030495,
+              "theta_2_re": 1.9396564518249877,
+              "theta_2_im": -1.6371270962030495,
+              "is_complex_conjugate_pair": true,
+              "in_physical_domain": true,
+              "in_card_lam_window": true,
+              "uv_attractive": true,
+              "numerical_certified": true
+            }
+          ]
+        },
+        {
+          "label": "N=5 2H N_gen=2 Type-II",
+          "N_S": 8,
+          "N_W": 32,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": -8,
+          "M_l": "-16",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 1,
+          "direct_2d_newton_root_count": 1,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 1,
+          "scan_lam_min": "-100.0",
+          "fixed_points": [
+            {
+              "g_star_str": "1.912624627930788295986031663518232150768",
+              "g_star": 1.9126246279307884,
+              "lam_star_str": "-1.387633252760149433512527511340984808515",
+              "lam_star": -1.3876332527601494,
+              "u_star_str": "3.775266505520298867025055022681969617029",
+              "eta_N_plus_2_abs_err": "4.07832e-56",
+              "one_minus_g_B2_str": "1.0458348251189745607",
+              "max_beta_residual": "7.80029e-56",
+              "newton_iters": 0,
+              "richardson_jac_conv_err": "2.44699e-44",
+              "char_det_err": "7.39195e-56",
+              "similarity_invariance_err": "4.07832e-56",
+              "theta_1_re_str": "3.712650377930812379364004995980701135075",
+              "theta_1_im_str": "0.0",
+              "theta_2_re_str": "1.960199460188497885227265715305932902668",
+              "theta_2_im_str": "0.0",
+              "theta_1_re": 3.7126503779308124,
+              "theta_1_im": 0.0,
+              "theta_2_re": 1.960199460188498,
+              "theta_2_im": 0.0,
+              "is_complex_conjugate_pair": false,
+              "in_physical_domain": true,
+              "in_card_lam_window": true,
+              "uv_attractive": true,
+              "numerical_certified": true
+            }
+          ]
+        },
+        {
+          "label": "N=5 2H N_gen=3 Type-II",
+          "N_S": 8,
+          "N_W": 48,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": 8,
+          "M_l": "-32",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 1,
+          "direct_2d_newton_root_count": 1,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 1,
+          "scan_lam_min": "-100.0",
+          "fixed_points": [
+            {
+              "g_star_str": "7.057992467235601864366205092420011094024",
+              "g_star": 7.057992467235602,
+              "lam_star_str": "-10.02085428519874125896865385674409743636",
+              "lam_star": -10.020854285198741,
+              "u_star_str": "21.04170857039748251793730771348819487271",
+              "eta_N_plus_2_abs_err": "0.0",
+              "one_minus_g_B2_str": "1.0419504998657810763",
+              "max_beta_residual": "0.0",
+              "newton_iters": 0,
+              "richardson_jac_conv_err": "2.28386e-43",
+              "char_det_err": "3.56853e-56",
+              "similarity_invariance_err": "6.93314e-55",
+              "theta_1_re_str": "3.964345070688327362528962927561592845901",
+              "theta_1_im_str": "0.0",
+              "theta_2_re_str": "2.129118446194644289095404516584100601338",
+              "theta_2_im_str": "0.0",
+              "theta_1_re": 3.9643450706883274,
+              "theta_1_im": 0.0,
+              "theta_2_re": 2.1291184461946444,
+              "theta_2_im": 0.0,
+              "is_complex_conjugate_pair": false,
+              "in_physical_domain": true,
+              "in_card_lam_window": true,
+              "uv_attractive": true,
+              "numerical_certified": true
+            }
+          ]
+        },
+        {
+          "label": "N=5 2H N_gen=4 Type-II",
+          "N_S": 8,
+          "N_W": 64,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": 24,
+          "M_l": "-48",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 0,
+          "direct_2d_newton_root_count": 0,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 0,
+          "scan_lam_min": "-100.0",
+          "fixed_points": []
+        }
+      ],
+      "N_gen_survivors": [
+        3
+      ],
+      "N_gen_pincer_passed": true,
+      "n_H_scan_at_N5_Ngen3": [
+        {
+          "label": "N=5 N_gen=3 n_H=1 Type-II",
+          "N_S": 4,
+          "N_W": 48,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": 4,
+          "M_l": "-34",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 1,
+          "direct_2d_newton_root_count": 1,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 1,
+          "scan_lam_min": "-100.0",
+          "fixed_points": [
+            {
+              "g_star_str": "4.179952941256720800496377652177261212824",
+              "g_star": 4.179952941256721,
+              "lam_star_str": "-6.237690705746735657868263213982123443139",
+              "lam_star": -6.2376907057467355,
+              "u_star_str": "13.47538141149347131573652642796424688628",
+              "eta_N_plus_2_abs_err": "0.0",
+              "one_minus_g_B2_str": "1.0374768551550657997",
+              "max_beta_residual": "0.0",
+              "newton_iters": 0,
+              "richardson_jac_conv_err": "2.93639e-43",
+              "char_det_err": "1.01958e-55",
+              "similarity_invariance_err": "4.89398e-55",
+              "theta_1_re_str": "3.94908540082225534050169484922695894287",
+              "theta_1_im_str": "0.0",
+              "theta_2_re_str": "2.098890340340523047746601385627127403555",
+              "theta_2_im_str": "0.0",
+              "theta_1_re": 3.949085400822255,
+              "theta_1_im": 0.0,
+              "theta_2_re": 2.098890340340523,
+              "theta_2_im": 0.0,
+              "is_complex_conjugate_pair": false,
+              "in_physical_domain": true,
+              "in_card_lam_window": true,
+              "uv_attractive": true,
+              "numerical_certified": true
+            }
+          ]
+        },
+        {
+          "label": "N=5 N_gen=3 n_H=2 Type-II",
+          "N_S": 8,
+          "N_W": 48,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": 8,
+          "M_l": "-32",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 1,
+          "direct_2d_newton_root_count": 1,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 1,
+          "scan_lam_min": "-100.0",
+          "fixed_points": [
+            {
+              "g_star_str": "7.057992467235601864366205092420011094024",
+              "g_star": 7.057992467235602,
+              "lam_star_str": "-10.02085428519874125896865385674409743636",
+              "lam_star": -10.020854285198741,
+              "u_star_str": "21.04170857039748251793730771348819487271",
+              "eta_N_plus_2_abs_err": "0.0",
+              "one_minus_g_B2_str": "1.0419504998657810763",
+              "max_beta_residual": "0.0",
+              "newton_iters": 0,
+              "richardson_jac_conv_err": "2.28386e-43",
+              "char_det_err": "3.56853e-56",
+              "similarity_invariance_err": "6.93314e-55",
+              "theta_1_re_str": "3.964345070688327362528962927561592845901",
+              "theta_1_im_str": "0.0",
+              "theta_2_re_str": "2.129118446194644289095404516584100601338",
+              "theta_2_im_str": "0.0",
+              "theta_1_re": 3.9643450706883274,
+              "theta_1_im": 0.0,
+              "theta_2_re": 2.1291184461946444,
+              "theta_2_im": 0.0,
+              "is_complex_conjugate_pair": false,
+              "in_physical_domain": true,
+              "in_card_lam_window": true,
+              "uv_attractive": true,
+              "numerical_certified": true
+            }
+          ]
+        },
+        {
+          "label": "N=5 N_gen=3 n_H=3 Type-II",
+          "N_S": 12,
+          "N_W": 48,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": 12,
+          "M_l": "-30",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 1,
+          "direct_2d_newton_root_count": 1,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 1,
+          "scan_lam_min": "-100.0",
+          "fixed_points": [
+            {
+              "g_star_str": "21.50951444103296265821001855550876887842",
+              "g_star": 21.509514441032962,
+              "lam_star_str": "-29.00173816890907506535537654201117788301",
+              "lam_star": -29.001738168909075,
+              "u_star_str": "59.00347633781815013071075308402235576602",
+              "eta_N_plus_2_abs_err": "4.07832e-56",
+              "one_minus_g_B2_str": "1.047366167924482589",
+              "max_beta_residual": "8.77226e-55",
+              "newton_iters": 0,
+              "richardson_jac_conv_err": "1.1528e-42",
+              "char_det_err": "2.03916e-55",
+              "similarity_invariance_err": "4.89398e-55",
+              "theta_1_re_str": "3.98597362821830066812419689941507640473",
+              "theta_1_im_str": "0.0",
+              "theta_2_re_str": "2.168412850059460911173147785240044580635",
+              "theta_2_im_str": "0.0",
+              "theta_1_re": 3.9859736282183005,
+              "theta_1_im": 0.0,
+              "theta_2_re": 2.168412850059461,
+              "theta_2_im": 0.0,
+              "is_complex_conjugate_pair": false,
+              "in_physical_domain": true,
+              "in_card_lam_window": true,
+              "uv_attractive": true,
+              "numerical_certified": true
+            }
+          ]
+        },
+        {
+          "label": "N=5 N_gen=3 n_H=4 Type-II",
+          "N_S": 16,
+          "N_W": 48,
+          "N_V": 12,
+          "f_W": 1,
+          "M_g": 16,
+          "M_l": "-28",
+          "spurious_pole_roots_removed": 0,
+          "sturm_exact_physical_root_count": 0,
+          "direct_2d_newton_root_count": 0,
+          "sturm_matches_direct_solver": true,
+          "n_uv_attractive_fps": 0,
+          "scan_lam_min": "-100.0",
+          "fixed_points": []
+        }
+      ],
+      "n_H_survivors": [
+        1,
+        2,
+        3
+      ],
+      "n_H_pincer_passed": true
+    },
+    "open_weave_and_caveats": {
+      "open_weave_2H_type_ii": {
+        "label": "N=5 2H N_gen=3 Type-II",
+        "N_S": 8,
+        "N_W": 48,
+        "N_V": 12,
+        "f_W": 1,
+        "M_g": 8,
+        "M_l": "-32",
+        "spurious_pole_roots_removed": 0,
+        "sturm_exact_physical_root_count": 1,
+        "direct_2d_newton_root_count": 1,
+        "sturm_matches_direct_solver": true,
+        "n_uv_attractive_fps": 1,
+        "scan_lam_min": "-100.0",
+        "fixed_points": [
+          {
+            "g_star_str": "7.057992467235601864366205092420011094024",
+            "g_star": 7.057992467235602,
+            "lam_star_str": "-10.02085428519874125896865385674409743636",
+            "lam_star": -10.020854285198741,
+            "u_star_str": "21.04170857039748251793730771348819487271",
+            "eta_N_plus_2_abs_err": "0.0",
+            "one_minus_g_B2_str": "1.0419504998657810763",
+            "max_beta_residual": "0.0",
+            "newton_iters": 0,
+            "richardson_jac_conv_err": "2.28386e-43",
+            "char_det_err": "3.56853e-56",
+            "similarity_invariance_err": "6.93314e-55",
+            "theta_1_re_str": "3.964345070688327362528962927561592845901",
+            "theta_1_im_str": "0.0",
+            "theta_2_re_str": "2.129118446194644289095404516584100601338",
+            "theta_2_im_str": "0.0",
+            "theta_1_re": 3.9643450706883274,
+            "theta_1_im": 0.0,
+            "theta_2_re": 2.1291184461946444,
+            "theta_2_im": 0.0,
+            "is_complex_conjugate_pair": false,
+            "in_physical_domain": true,
+            "in_card_lam_window": true,
+            "uv_attractive": true,
+            "numerical_certified": true
+          }
+        ]
+      },
+      "open_weave_2H_type_ii_passed": true,
+      "open_weave_2H_type_i": {
+        "label": "OpenWeave 2H (8, 48, 12) Type-I",
+        "N_S": 8,
+        "N_W": 48,
+        "N_V": 12,
+        "f_W": 2,
+        "M_g": 56,
+        "M_l": "-32",
+        "spurious_pole_roots_removed": 0,
+        "sturm_exact_physical_root_count": 0,
+        "direct_2d_newton_root_count": 0,
+        "sturm_matches_direct_solver": true,
+        "n_uv_attractive_fps": 0,
+        "scan_lam_min": "-100.0",
+        "fixed_points": []
+      },
+      "sm_1H_type_ii": {
+        "label": "SM 1H (4, 45, 12) Type-II",
+        "N_S": 4,
+        "N_W": 45,
+        "N_V": 12,
+        "f_W": 1,
+        "M_g": 1,
+        "M_l": "-31",
+        "spurious_pole_roots_removed": 0,
+        "sturm_exact_physical_root_count": 1,
+        "direct_2d_newton_root_count": 1,
+        "sturm_matches_direct_solver": true,
+        "n_uv_attractive_fps": 1,
+        "scan_lam_min": "-100.0",
+        "fixed_points": [
+          {
+            "g_star_str": "3.217240742204445345637993882401183489571",
+            "g_star": 3.2172407422044453,
+            "lam_star_str": "-4.393144362872777792558521374721956465286",
+            "lam_star": -4.3931443628727775,
+            "u_star_str": "9.786288725745555585117042749443912930571",
+            "eta_N_plus_2_abs_err": "4.07832e-56",
+            "one_minus_g_B2_str": "1.0382553239788264324",
+            "max_beta_residual": "1.31209e-55",
+            "newton_iters": 0,
+            "richardson_jac_conv_err": "1.63133e-43",
+            "char_det_err": "5.60768e-56",
+            "similarity_invariance_err": "8.15663e-56",
+            "theta_1_re_str": "3.926050124381778411294474746705119501409",
+            "theta_1_im_str": "0.0",
+            "theta_2_re_str": "2.08273460175220128291955844512880570496",
+            "theta_2_im_str": "0.0",
+            "theta_1_re": 3.9260501243817783,
+            "theta_1_im": 0.0,
+            "theta_2_re": 2.0827346017522013,
+            "theta_2_im": 0.0,
+            "is_complex_conjugate_pair": false,
+            "in_physical_domain": true,
+            "in_card_lam_window": true,
+            "uv_attractive": true,
+            "numerical_certified": true
+          }
+        ]
+      },
+      "sm_1H_type_i": {
+        "label": "SM 1H (4, 45, 12) Type-I",
+        "N_S": 4,
+        "N_W": 45,
+        "N_V": 12,
+        "f_W": 2,
+        "M_g": 46,
+        "M_l": "-31",
+        "spurious_pole_roots_removed": 0,
+        "sturm_exact_physical_root_count": 0,
+        "direct_2d_newton_root_count": 0,
+        "sturm_matches_direct_solver": true,
+        "n_uv_attractive_fps": 0,
+        "scan_lam_min": "-100.0",
+        "fixed_points": []
+      },
+      "strong_coupling_caveat_g_gt_7_lam_lt_minus_10": true,
+      "type_i_destruction_caveat_passed": true
+    },
+    "delta_23N_matrix_actions": {
+      "group_realizations": [
+        {
+          "N": 2,
+          "matrix_group": "GL(2, F_2)",
+          "isomorphic_to": "S_3",
+          "order": 6,
+          "expected_order": 6,
+          "ord_a": 2,
+          "ord_b": 3,
+          "ord_ab": 2,
+          "triangle_presentation_ok": true,
+          "n_subgroups_total": 6,
+          "n_conjugacy_classes_total": 4,
+          "n_involution_classes": 1,
+          "n_faithful_d_le_12": 2,
+          "n_faithful_all_d": 2
+        },
+        {
+          "N": 3,
+          "matrix_group": "PSL(2, F_3)",
+          "isomorphic_to": "A_4",
+          "order": 12,
+          "expected_order": 12,
+          "ord_a": 2,
+          "ord_b": 3,
+          "ord_ab": 3,
+          "triangle_presentation_ok": true,
+          "n_subgroups_total": 10,
+          "n_conjugacy_classes_total": 5,
+          "n_involution_classes": 1,
+          "n_faithful_d_le_12": 3,
+          "n_faithful_all_d": 3
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "isomorphic_to": "S_4",
+          "order": 24,
+          "expected_order": 24,
+          "ord_a": 2,
+          "ord_b": 3,
+          "ord_ab": 4,
+          "triangle_presentation_ok": true,
+          "n_subgroups_total": 30,
+          "n_conjugacy_classes_total": 11,
+          "n_involution_classes": 2,
+          "n_faithful_d_le_12": 6,
+          "n_faithful_all_d": 7
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "isomorphic_to": "A_5",
+          "order": 60,
+          "expected_order": 60,
+          "ord_a": 2,
+          "ord_b": 3,
+          "ord_ab": 5,
+          "triangle_presentation_ok": true,
+          "n_subgroups_total": 59,
+          "n_conjugacy_classes_total": 9,
+          "n_involution_classes": 1,
+          "n_faithful_d_le_12": 4,
+          "n_faithful_all_d": 8
+        }
+      ],
+      "all_matrix_groups_verified": true,
+      "all_conjugacy_invariance_verified": true,
+      "all_fock_basis_invariance_verified": true,
+      "exact_orbit_stabilizer_faithful_d_le_12_count": 15,
+      "exact_orbit_stabilizer_faithful_all_d_count": 20,
+      "all_transitive_d_le_12_count": 24,
+      "all_proper_transitive_d_le_12_count": 20,
+      "involution_paired_faithful_d_le_12_count": 21,
+      "card_21_matches_exact_faithful_d_le_12": false,
+      "card_21_matches_involution_paired_d_le_12": true,
+      "unique_n5_d5_in_exact_15": true,
+      "unique_n5_d5_in_all_20_faithful": true,
+      "unique_n5_d5_in_21_involution_pairs": true,
+      "unique_n5_d5_in_all_24_transitive": true,
+      "faithful_d_le_12_rows": [
+        {
+          "N": 2,
+          "matrix_group": "GL(2, F_2)",
+          "isomorphic_to": "S_3",
+          "class_idx": 2,
+          "d": 3,
+          "H_order": 2,
+          "n_conjugates": 3,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            1
+          ],
+          "cycle_type_b": [
+            3
+          ],
+          "cycle_type_ab": [
+            2,
+            1
+          ],
+          "gauge_split_p_q": [
+            2,
+            1
+          ],
+          "N_S": 4,
+          "N_W": 12,
+          "N_V": 4,
+          "M_g": 0,
+          "is_chiral": true,
+          "anomaly_free": false,
+          "sakharov_attractive": false,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 4,
+            "expected_half_fock": 4,
+            "is_chiral": true,
+            "anomaly_free": false,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": -6,
+              "tr_SUd3": 6,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 2,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 1,
+              "witten_q_doublets": 0,
+              "witten_even_ok": false
+            }
+          }
+        },
+        {
+          "N": 2,
+          "matrix_group": "GL(2, F_2)",
+          "isomorphic_to": "S_3",
+          "class_idx": 3,
+          "d": 6,
+          "H_order": 1,
+          "n_conjugates": 1,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2
+          ],
+          "cycle_type_b": [
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            3,
+            3
+          ],
+          "N_S": 12,
+          "N_W": 96,
+          "N_V": 17,
+          "M_g": 40,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 32,
+            "expected_half_fock": 32,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 3,
+          "matrix_group": "PSL(2, F_3)",
+          "isomorphic_to": "A_4",
+          "class_idx": 2,
+          "d": 4,
+          "H_order": 3,
+          "n_conjugates": 4,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2
+          ],
+          "cycle_type_b": [
+            3,
+            1
+          ],
+          "cycle_type_ab": [
+            3,
+            1
+          ],
+          "gauge_split_p_q": [
+            2,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 24,
+          "N_V": 7,
+          "M_g": 4,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 8,
+            "expected_half_fock": 8,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 2,
+              "witten_q_doublets": 2,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 3,
+          "matrix_group": "PSL(2, F_3)",
+          "isomorphic_to": "A_4",
+          "class_idx": 3,
+          "d": 6,
+          "H_order": 2,
+          "n_conjugates": 3,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "cycle_type_b": [
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            3,
+            3
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 32,
+            "expected_half_fock": 32,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 8,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 3,
+          "matrix_group": "PSL(2, F_3)",
+          "isomorphic_to": "A_4",
+          "class_idx": 4,
+          "d": 12,
+          "H_order": 1,
+          "n_conjugates": 1,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "cycle_type_b": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "gauge_split_p_q": [
+            6,
+            6
+          ],
+          "N_S": 24,
+          "N_W": 6144,
+          "N_V": 71,
+          "M_g": 5884,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 2048,
+            "expected_half_fock": 2048,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "isomorphic_to": "S_4",
+          "class_idx": 3,
+          "d": 4,
+          "H_order": 6,
+          "n_conjugates": 4,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            1,
+            1
+          ],
+          "cycle_type_b": [
+            3,
+            1
+          ],
+          "cycle_type_ab": [
+            4
+          ],
+          "gauge_split_p_q": [
+            3,
+            1
+          ],
+          "N_S": 4,
+          "N_W": 24,
+          "N_V": 9,
+          "M_g": -8,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": false,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 8,
+            "expected_half_fock": 8,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "isomorphic_to": "S_4",
+          "class_idx": 5,
+          "d": 6,
+          "H_order": 4,
+          "n_conjugates": 3,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "cycle_type_b": [
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            4,
+            2
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 32,
+            "expected_half_fock": 32,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 8,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "isomorphic_to": "S_4",
+          "class_idx": 6,
+          "d": 6,
+          "H_order": 4,
+          "n_conjugates": 3,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2
+          ],
+          "cycle_type_b": [
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            4,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            3,
+            3
+          ],
+          "N_S": 12,
+          "N_W": 96,
+          "N_V": 17,
+          "M_g": 40,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 32,
+            "expected_half_fock": 32,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "isomorphic_to": "S_4",
+          "class_idx": 7,
+          "d": 8,
+          "H_order": 3,
+          "n_conjugates": 4,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "cycle_type_b": [
+            3,
+            3,
+            1,
+            1
+          ],
+          "cycle_type_ab": [
+            4,
+            4
+          ],
+          "gauge_split_p_q": [
+            4,
+            4
+          ],
+          "N_S": 16,
+          "N_W": 384,
+          "N_V": 31,
+          "M_g": 276,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 128,
+            "expected_half_fock": 128,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "isomorphic_to": "S_4",
+          "class_idx": 8,
+          "d": 12,
+          "H_order": 2,
+          "n_conjugates": 3,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "cycle_type_b": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            4,
+            4,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            6,
+            6
+          ],
+          "N_S": 24,
+          "N_W": 6144,
+          "N_V": 71,
+          "M_g": 5884,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 2048,
+            "expected_half_fock": 2048,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "isomorphic_to": "S_4",
+          "class_idx": 9,
+          "d": 12,
+          "H_order": 2,
+          "n_conjugates": 6,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "cycle_type_b": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            4,
+            4,
+            4
+          ],
+          "gauge_split_p_q": [
+            7,
+            5
+          ],
+          "N_S": 20,
+          "N_W": 6144,
+          "N_V": 73,
+          "M_g": 5872,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 2048,
+            "expected_half_fock": 2048,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "isomorphic_to": "A_5",
+          "class_idx": 1,
+          "d": 5,
+          "H_order": 12,
+          "n_conjugates": 5,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            1
+          ],
+          "cycle_type_b": [
+            3,
+            1,
+            1
+          ],
+          "cycle_type_ab": [
+            5
+          ],
+          "gauge_split_p_q": [
+            3,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 48,
+          "N_V": 12,
+          "M_g": 8,
+          "is_chiral": true,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": true,
+          "fock_audit": {
+            "n_even_states": 16,
+            "expected_half_fock": 16,
+            "is_chiral": true,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 4,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "isomorphic_to": "A_5",
+          "class_idx": 2,
+          "d": 6,
+          "H_order": 10,
+          "n_conjugates": 6,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "cycle_type_b": [
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            5,
+            1
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 32,
+            "expected_half_fock": 32,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 8,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "isomorphic_to": "A_5",
+          "class_idx": 3,
+          "d": 10,
+          "H_order": 6,
+          "n_conjugates": 10,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "cycle_type_b": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "cycle_type_ab": [
+            5,
+            5
+          ],
+          "gauge_split_p_q": [
+            6,
+            4
+          ],
+          "N_S": 16,
+          "N_W": 1536,
+          "N_V": 51,
+          "M_g": 1348,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 512,
+            "expected_half_fock": 512,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "isomorphic_to": "A_5",
+          "class_idx": 4,
+          "d": 12,
+          "H_order": 5,
+          "n_conjugates": 6,
+          "core_order": 1,
+          "is_faithful": true,
+          "conj_invariance_ok": true,
+          "cycle_type_a": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "cycle_type_b": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "cycle_type_ab": [
+            5,
+            5,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            6,
+            6
+          ],
+          "N_S": 24,
+          "N_W": 6144,
+          "N_V": 71,
+          "M_g": 5884,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false,
+          "fock_audit": {
+            "n_even_states": 2048,
+            "expected_half_fock": 2048,
+            "is_chiral": false,
+            "anomaly_free": true,
+            "basis_invariant": true,
+            "anomalies": {
+              "tr_Q": 0,
+              "tr_Q3": 0,
+              "tr_SUd3": 0,
+              "tr_SUp3": 0,
+              "tr_SUq3": 0,
+              "tr_SUp2Q": 0,
+              "tr_SUq2Q": 0,
+              "witten_p_doublets": 0,
+              "witten_q_doublets": 0,
+              "witten_even_ok": true
+            }
+          }
+        }
+      ],
+      "involution_paired_d_le_12_rows": [
+        {
+          "N": 2,
+          "matrix_group": "GL(2, F_2)",
+          "d": 3,
+          "H_order": 2,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            1
+          ],
+          "gauge_split_p_q": [
+            2,
+            1
+          ],
+          "N_S": 4,
+          "N_W": 12,
+          "N_V": 4,
+          "M_g": 0,
+          "is_chiral": true,
+          "anomaly_free": false,
+          "sakharov_attractive": false,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": false
+        },
+        {
+          "N": 2,
+          "matrix_group": "GL(2, F_2)",
+          "d": 6,
+          "H_order": 1,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            3,
+            3
+          ],
+          "N_S": 12,
+          "N_W": 96,
+          "N_V": 17,
+          "M_g": 40,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 3,
+          "matrix_group": "PSL(2, F_3)",
+          "d": 4,
+          "H_order": 3,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            2,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 24,
+          "N_V": 7,
+          "M_g": 4,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": false
+        },
+        {
+          "N": 3,
+          "matrix_group": "PSL(2, F_3)",
+          "d": 6,
+          "H_order": 2,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 3,
+          "matrix_group": "PSL(2, F_3)",
+          "d": 12,
+          "H_order": 1,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            6,
+            6
+          ],
+          "N_S": 24,
+          "N_W": 6144,
+          "N_V": 71,
+          "M_g": 5884,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 4,
+          "H_order": 6,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 6,
+          "cycle_type_inv": [
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            3,
+            1
+          ],
+          "N_S": 4,
+          "N_W": 24,
+          "N_V": 9,
+          "M_g": -8,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": false,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 4,
+          "H_order": 6,
+          "inv_class_idx": 1,
+          "inv_is_generator_class": false,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            2,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 24,
+          "N_V": 7,
+          "M_g": 4,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 6,
+          "H_order": 4,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 6,
+          "cycle_type_inv": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 6,
+          "H_order": 4,
+          "inv_class_idx": 1,
+          "inv_is_generator_class": false,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 6,
+          "H_order": 4,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 6,
+          "cycle_type_inv": [
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            3,
+            3
+          ],
+          "N_S": 12,
+          "N_W": 96,
+          "N_V": 17,
+          "M_g": 40,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 6,
+          "H_order": 4,
+          "inv_class_idx": 1,
+          "inv_is_generator_class": false,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 8,
+          "H_order": 3,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 6,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            4,
+            4
+          ],
+          "N_S": 16,
+          "N_W": 384,
+          "N_V": 31,
+          "M_g": 276,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 8,
+          "H_order": 3,
+          "inv_class_idx": 1,
+          "inv_is_generator_class": false,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            4,
+            4
+          ],
+          "N_S": 16,
+          "N_W": 384,
+          "N_V": 31,
+          "M_g": 276,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 12,
+          "H_order": 2,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 6,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            6,
+            6
+          ],
+          "N_S": 24,
+          "N_W": 6144,
+          "N_V": 71,
+          "M_g": 5884,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 12,
+          "H_order": 2,
+          "inv_class_idx": 1,
+          "inv_is_generator_class": false,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            8,
+            4
+          ],
+          "N_S": 16,
+          "N_W": 6144,
+          "N_V": 79,
+          "M_g": 5844,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 12,
+          "H_order": 2,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 6,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            7,
+            5
+          ],
+          "N_S": 20,
+          "N_W": 6144,
+          "N_V": 73,
+          "M_g": 5872,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 4,
+          "matrix_group": "SO(3, Z)",
+          "d": 12,
+          "H_order": 2,
+          "inv_class_idx": 1,
+          "inv_is_generator_class": false,
+          "inv_class_size": 3,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            6,
+            6
+          ],
+          "N_S": 24,
+          "N_W": 6144,
+          "N_V": 71,
+          "M_g": 5884,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "d": 5,
+          "H_order": 12,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 15,
+          "cycle_type_inv": [
+            2,
+            2,
+            1
+          ],
+          "gauge_split_p_q": [
+            3,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 48,
+          "N_V": 12,
+          "M_g": 8,
+          "is_chiral": true,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": true,
+          "as_type_ii_exists": true,
+          "frg_sturm_roots": 1,
+          "frg_n_uv_fps": 1,
+          "passes_all_4": true
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "d": 6,
+          "H_order": 10,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 15,
+          "cycle_type_inv": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            4,
+            2
+          ],
+          "N_S": 8,
+          "N_W": 96,
+          "N_V": 19,
+          "M_g": 28,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "d": 10,
+          "H_order": 6,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 15,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "gauge_split_p_q": [
+            6,
+            4
+          ],
+          "N_S": 16,
+          "N_W": 1536,
+          "N_V": 51,
+          "M_g": 1348,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        },
+        {
+          "N": 5,
+          "matrix_group": "PSL(2, F_5)",
+          "d": 12,
+          "H_order": 5,
+          "inv_class_idx": 0,
+          "inv_is_generator_class": true,
+          "inv_class_size": 15,
+          "cycle_type_inv": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "gauge_split_p_q": [
+            6,
+            6
+          ],
+          "N_S": 24,
+          "N_W": 6144,
+          "N_V": 71,
+          "M_g": 5884,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "sakharov_attractive": true,
+          "as_type_ii_pincer": false,
+          "as_type_ii_exists": false,
+          "frg_sturm_roots": 0,
+          "frg_n_uv_fps": 0,
+          "passes_all_4": false
+        }
+      ]
+    },
+    "delta_uniqueness_passed": true,
+    "passed": true
+  },
+  "OW10_B": {
+    "c_2H": "37/15",
+    "a_2H": "127/45",
+    "c_1H": "73/30",
+    "a_1H": "253/90",
+    "twoH_exact_ok": true,
+    "oneH_exact_ok": true,
+    "bR_conformal_xi_1_6": "0",
+    "bR_conformal_zero": true,
+    "stelle_apart_expr": "-1/(x + 1) + 1/x",
+    "stelle_apart_diff": "0",
+    "residue_x_0": "1",
+    "residue_x_minus_1": "-1",
+    "stelle_spot_checks": [
+      {
+        "x": "1/3",
+        "lhs": "9/4",
+        "rhs": "9/4",
+        "exact_match": true
+      },
+      {
+        "x": "1",
+        "lhs": "1/2",
+        "rhs": "1/2",
+        "exact_match": true
+      },
+      {
+        "x": "5",
+        "lhs": "1/30",
+        "rhs": "1/30",
+        "exact_match": true
+      }
+    ],
+    "stelle_ghost_pole_proved": true,
+    "a_theorem_stages": [
+      {
+        "stage": 1,
+        "name": "UV (8, 48, 12)",
+        "N_S": 8,
+        "N_W": 48,
+        "N_V": 12,
+        "c": "37/15",
+        "a": "127/45",
+        "c_matches_card": true,
+        "a_matches_card": true
+      },
+      {
+        "stage": 2,
+        "name": "SM 1H + 3 nu^c (4, 48, 12)",
+        "N_S": 4,
+        "N_W": 48,
+        "N_V": 12,
+        "c": "73/30",
+        "a": "253/90",
+        "c_matches_card": true,
+        "a_matches_card": true,
+        "delta_a_from_prev": "1/90",
+        "delta_a_positive": true,
+        "delta_a_matches_card": true
+      },
+      {
+        "stage": 3,
+        "name": "SM 1H below M_R (4, 45, 12)",
+        "N_S": 4,
+        "N_W": 45,
+        "N_V": 12,
+        "c": "283/120",
+        "a": "1991/720",
+        "c_matches_card": true,
+        "a_matches_card": true,
+        "delta_a_from_prev": "11/240",
+        "delta_a_positive": true,
+        "delta_a_matches_card": true
+      },
+      {
+        "stage": 4,
+        "name": "Below EW (QCD + QED: 0, 39, 9)",
+        "N_S": 0,
+        "N_W": 39,
+        "N_V": 9,
+        "c": "15/8",
+        "a": "103/48",
+        "c_matches_card": true,
+        "a_matches_card": true,
+        "delta_a_from_prev": "223/360",
+        "delta_a_positive": true,
+        "delta_a_matches_card": true
+      },
+      {
+        "stage": 5,
+        "name": "Below QCD (QED + 3 pi + e + 3 nu: 3, 5, 1)",
+        "N_S": 3,
+        "N_W": 5,
+        "N_V": 1,
+        "c": "1/4",
+        "a": "37/144",
+        "c_matches_card": true,
+        "a_matches_card": true,
+        "delta_a_from_prev": "17/9",
+        "delta_a_positive": true,
+        "delta_a_matches_card": true
+      },
+      {
+        "stage": 6,
+        "name": "Deep IR (gamma + 3 nu_L: 0, 3, 1)",
+        "N_S": 0,
+        "N_W": 3,
+        "N_V": 1,
+        "c": "7/40",
+        "a": "157/720",
+        "c_matches_card": true,
+        "a_matches_card": true,
+        "delta_a_from_prev": "7/180",
+        "delta_a_positive": true,
+        "delta_a_matches_card": true
+      }
+    ],
+    "consecutive_positive_drops": 5,
+    "delta_a_sum": "125/48",
+    "delta_a_direct_UV_minus_IR": "125/48",
+    "telescope_equals_125_48": true,
+    "all_stages_exact": true,
+    "passed": true
+  },
+  "OW10_C": {
+    "total_rows": 12,
+    "status_counts": {
+      "PROVED": 5,
+      "PARTIAL / CONDITIONAL": 3,
+      "NO-GO / IMPOSSIBLE-BY-THEOREM": 2,
+      "STILL OPEN": 2
+    },
+    "partition_sum": 12,
+    "unclassified_count": 0,
+    "invalid_provenance_count": 0,
+    "exact_5_3_2_2_partition": true,
+    "a2_ow10_backing_gates_passed": true,
+    "rows": [
+      {
+        "row_id": 1,
+        "status": "PROVED",
+        "sector": "Gauge/Chiral/Anomaly Engine",
+        "cards": [
+          "A2-OW1",
+          "A2-OW4"
+        ]
+      },
+      {
+        "row_id": 2,
+        "status": "PROVED",
+        "sector": "N = 5 & N_gen = 3 Double-Pincer Selection",
+        "cards": [
+          "A2-OW4",
+          "A2-OW10"
+        ]
+      },
+      {
+        "row_id": 3,
+        "status": "PROVED",
+        "sector": "6D -> 7D Chirality & Inflow",
+        "cards": [
+          "A2-OW5"
+        ]
+      },
+      {
+        "row_id": 4,
+        "status": "PROVED",
+        "sector": "X_0(5) Dynamical Casimir Stabilization of tau_*^{+-} & Positive dS Sign",
+        "cards": [
+          "A2-OW2",
+          "A2-OW9"
+        ]
+      },
+      {
+        "row_id": 5,
+        "status": "PROVED",
+        "sector": "Conformal xi = 1/6 Attractive Finite Gravity & 2H Radiative EWSB Mechanism",
+        "cards": [
+          "A2-OW3",
+          "A2-OW8"
+        ]
+      },
+      {
+        "row_id": 6,
+        "status": "PARTIAL / CONDITIONAL",
+        "sector": "Flavor Hierarchies/CKM/CP via 7D QR-Decoupling with log_2(6) Perm Cost",
+        "cards": [
+          "A2-OW6",
+          "A2-OW7"
+        ]
+      },
+      {
+        "row_id": 7,
+        "status": "PARTIAL / CONDITIONAL",
+        "sector": "Dark Matter LKP Conditional on E[2] Democracy with Zero-Mode nu^c Ruled Out",
+        "cards": [
+          "A2-OW9"
+        ]
+      },
+      {
+        "row_id": 8,
+        "status": "PARTIAL / CONDITIONAL",
+        "sector": "4D Asymptotic Safety Conditional on Type-II Cutoff & Strong-Coupling Truncation",
+        "cards": [
+          "A2-OW10"
+        ]
+      },
+      {
+        "row_id": 9,
+        "status": "NO-GO / IMPOSSIBLE-BY-THEOREM",
+        "sector": "Pure-Volume/Untwisted Im(tau) > 1 & Raabe -36 Selection + 1H Conformal EWSB + Perturbative 4D Stelle Ghost",
+        "cards": [
+          "A2-OW3",
+          "A2-OW6",
+          "A2-OW8",
+          "A2-OW10"
+        ]
+      },
+      {
+        "row_id": 10,
+        "status": "NO-GO / IMPOSSIBLE-BY-THEOREM",
+        "sector": "T^2 / Z_2 KK-Tower a_0 Cosmological Constant Cancellation & 4D Zero-Mode nu^c Stabilizer",
+        "cards": [
+          "A2-OW4",
+          "A2-OW9"
+        ]
+      },
+      {
+        "row_id": 11,
+        "status": "STILL OPEN",
+        "sector": "Observed 10^(-120) Cosmological Constant Value & 4 Continuous Scale Inputs g_UV, lam_0, tan(beta), M_R/M_X",
+        "cards": [
+          "A2-OW8",
+          "A2-OW9"
+        ]
+      },
+      {
+        "row_id": 12,
+        "status": "STILL OPEN",
+        "sector": "Early-Universe Dynamics -- Inflation, Baryogenesis Rate, CMB Spectrum, Structure Formation & Non-Perturbative 7D/FRG Quantum Gravity",
+        "cards": [
+          "A2-OW10"
+        ]
+      }
+    ],
+    "passed": true
+  },
+  "OW10_D": {
+    "PF-OW10-1": {
+      "description": "Flip fermion sign in B_1 (f_W = -1) on (8, 48, 12)",
+      "M_g_nominal": 8,
+      "M_g_fault": -88,
+      "g_star_nominal_str": "7.057992467235601864366205092420011094024",
+      "g_star_fault_str": "0.3748831413518456907846111109053697914175",
+      "g_collapse_ratio_str": "18.827180229508746116",
+      "lam_star_nominal_str": "-10.02085428519874125896865385674409743636",
+      "lam_star_fault_str": "-0.486584004640034910334280655988588813591",
+      "spectrum": {
+        "label": "PF-OW10-1 flipped fermion sign",
+        "N_S": 8,
+        "N_W": 48,
+        "N_V": 12,
+        "f_W": -1,
+        "M_g": -88,
+        "M_l": "-32",
+        "spurious_pole_roots_removed": 0,
+        "sturm_exact_physical_root_count": 1,
+        "direct_2d_newton_root_count": 1,
+        "sturm_matches_direct_solver": true,
+        "n_uv_attractive_fps": 1,
+        "scan_lam_min": "-100.0",
+        "fixed_points": [
+          {
+            "g_star_str": "0.3748831413518456907846111109053697914175",
+            "g_star": 0.3748831413518457,
+            "lam_star_str": "-0.486584004640034910334280655988588813591",
+            "lam_star": -0.48658400464003493,
+            "u_star_str": "1.973168009280069820668561311977177627182",
+            "eta_N_plus_2_abs_err": "0.0",
+            "one_minus_g_B2_str": "1.0098737139453018998",
+            "max_beta_residual": "0.0",
+            "newton_iters": 0,
+            "richardson_jac_conv_err": "1.90321e-44",
+            "char_det_err": "2.47248e-55",
+            "similarity_invariance_err": "9.99187e-55",
+            "theta_1_re_str": "3.795863846502944151894100473241620612239",
+            "theta_1_im_str": "0.0",
+            "theta_2_re_str": "1.931967727863911285465667335949214202424",
+            "theta_2_im_str": "0.0",
+            "theta_1_re": 3.7958638465029444,
+            "theta_1_im": 0.0,
+            "theta_2_re": 1.9319677278639114,
+            "theta_2_im": 0.0,
+            "is_complex_conjugate_pair": false,
+            "in_physical_domain": true,
+            "in_card_lam_window": true,
+            "uv_attractive": true,
+            "numerical_certified": true
+          }
+        ]
+      },
+      "caught": true
+    },
+    "PF-OW10-2": {
+      "description": "Increase generations N_gen = 3 -> 4 ((8, 64, 12), Type-II)",
+      "M_g_fault": 24,
+      "sturm_root_count": 0,
+      "n_uv_attractive_fps": 0,
+      "caught": true
+    },
+    "PF-OW10-3": {
+      "description": "Switch Type-II (f_W = 1) -> Type-I (f_W = 2) on (8, 48, 12)",
+      "M_g_fault": 56,
+      "sturm_root_count": 0,
+      "n_uv_attractive_fps": 0,
+      "caught": true
+    },
+    "PF-OW10-4": {
+      "description": "Reverse UV/IR in a-theorem and set non-conformal xi = 0",
+      "a_IR_minus_a_UV": "-125/48",
+      "xi_zero_minus_sixth_sq": "1/36",
+      "bR_factor_xi_zero": "2/9",
+      "caught": true
+    },
+    "caught_count": 4,
+    "total_faults": 4,
+    "passed": true
+  },
+  "summary_gates": {
+    "guardrail4_benchmarks_passed": true,
+    "OW10_A_passed": true,
+    "OW10_B_passed": true,
+    "OW10_C_passed": true,
+    "OW10_D_passed": true,
+    "card_21_matches_exact_faithful_d_le_12": false,
+    "card_21_matches_involution_paired_d_le_12": true,
+    "all_core_gates_passed": true
+  }
+}
