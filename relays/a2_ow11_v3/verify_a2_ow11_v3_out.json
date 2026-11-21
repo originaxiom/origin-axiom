@@ -1,0 +1,407 @@
+{
+  "card": "A2-OW11",
+  "empirical_inputs_used": "0 of 19",
+  "script_sha256": "91199e876d194bc32797182a4fe33df5520fbf8290be2f9c8274a9cfd5ea66cd",
+  "OW11_A_spin10_orbifold_I8_and_casimir_selection": {
+    "orbifold_centralizers_in_so10": {
+      "dim_so10": 45,
+      "P_PS_commutes_J5": true,
+      "J5_sq_eq_minus_I10": true,
+      "dim_C_P_PS": 21,
+      "dim_odd_PS_coset": 24,
+      "dim_C_J5_U5": 25,
+      "dim_C_P_PS_and_J5": 13,
+      "dim_G_SM_after_U1X_breaking": 12,
+      "broken_Proca_vectors_count": 33,
+      "doublet_triplet_on_10": {
+        "kept_2H_components": 4,
+        "projected_color_triplets": 6
+      }
+    },
+    "spin10_6D_I8_anomaly": {
+      "spinor_16_state_count": 16,
+      "cartan_trace_checks": [
+        {
+          "h": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "tr10_F2": "2",
+          "tr16_F2": "4",
+          "tr10_F4": "2",
+          "tr16_F4": "1",
+          "identity_exact": true
+        },
+        {
+          "h": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "tr10_F2": "4",
+          "tr16_F2": "8",
+          "tr10_F4": "4",
+          "tr16_F4": "8",
+          "identity_exact": true
+        },
+        {
+          "h": [
+            1,
+            2,
+            3,
+            5,
+            7
+          ],
+          "tr10_F2": "176",
+          "tr16_F2": "352",
+          "tr10_F4": "6248",
+          "tr16_F4": "16984",
+          "identity_exact": true
+        },
+        {
+          "h": [
+            2,
+            -3,
+            1,
+            4,
+            -1
+          ],
+          "tr10_F2": "62",
+          "tr16_F2": "124",
+          "tr10_F4": "710",
+          "tr16_F4": "2173",
+          "identity_exact": true
+        }
+      ],
+      "all_identities_exact": true,
+      "c_tr10_F4_for_3x16": "-1/8",
+      "c_tr_R4_for_3x16": "1/120",
+      "c_mixed_U1": "0",
+      "still_forces_7D_CS_inflow": true
+    },
+    "spin10_6D_bulk_supertraces_and_casimir": {
+      "brane_2H": {
+        "n_B_per_T2_pt": 90,
+        "n_F_per_T2_pt": 96,
+        "n_B_minus_n_F_per_T2_pt": -6,
+        "casimir_prefactor_times_pi3": 6,
+        "de_sitter_stabilizes_tau_star": true
+      },
+      "bulk_2H": {
+        "n_B_per_T2_pt": 94,
+        "n_F_per_T2_pt": 96,
+        "n_B_minus_n_F_per_T2_pt": -2,
+        "casimir_prefactor_times_pi3": 2,
+        "de_sitter_stabilizes_tau_star": true
+      },
+      "bulk_real_10": {
+        "n_B_per_T2_pt": 95,
+        "n_F_per_T2_pt": 96,
+        "n_B_minus_n_F_per_T2_pt": -1,
+        "casimir_prefactor_times_pi3": 1,
+        "de_sitter_stabilizes_tau_star": true
+      },
+      "bulk_complex_10": {
+        "n_B_per_T2_pt": 100,
+        "n_F_per_T2_pt": 96,
+        "n_B_minus_n_F_per_T2_pt": 4,
+        "casimir_prefactor_times_pi3": -4,
+        "de_sitter_stabilizes_tau_star": false
+      }
+    },
+    "pass": true
+  },
+  "OW11_B_weak_frg_pati_salam_unification_and_proton_safety": {
+    "uv_and_intermediate_frg": {
+      "G_SM_2H": {
+        "TypeII": {
+          "M_g": 8,
+          "two_M_l": -64,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "7.057992467235602",
+              "lam_star": "-10.02085428519874",
+              "theta_1_re": "3.96434507069",
+              "theta_1_im": "0.0",
+              "theta_2_re": "2.12911844619",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "residual": "8.55285e-50"
+            }
+          ]
+        },
+        "TypeI": {
+          "M_g": 56,
+          "two_M_l": -64,
+          "uv_fp_count": 0,
+          "fps": []
+        }
+      },
+      "Spin10_real_10": {
+        "TypeII": {
+          "M_g": -122,
+          "two_M_l": 4,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "0.2522392303010549",
+              "lam_star": "0.05512703522298578",
+              "theta_1_re": "3.12190964729",
+              "theta_1_im": "0.0",
+              "theta_2_re": "2.25190147234",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "residual": "1.34835e-51"
+            }
+          ]
+        },
+        "TypeI": {
+          "M_g": -74,
+          "two_M_l": 4,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "0.3591314153980544",
+              "lam_star": "0.08665493512580146",
+              "theta_1_re": "2.50493861612",
+              "theta_1_im": "0.709664978396",
+              "theta_2_re": "2.50493861612",
+              "theta_2_im": "-0.709664978396",
+              "uv_attractive": true,
+              "residual": "1.91975e-51"
+            }
+          ]
+        }
+      },
+      "Spin10_complex_10": {
+        "TypeII": {
+          "M_g": -112,
+          "two_M_l": 14,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "0.2552157986061525",
+              "lam_star": "0.1194002023002809",
+              "theta_1_re": "2.64532388754",
+              "theta_1_im": "0.628545254271",
+              "theta_2_re": "2.64532388754",
+              "theta_2_im": "-0.628545254271",
+              "uv_attractive": true,
+              "residual": "6.68191e-52"
+            }
+          ]
+        },
+        "TypeI": {
+          "M_g": -64,
+          "two_M_l": 14,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "0.3349548847037446",
+              "lam_star": "0.17790802668881",
+              "theta_1_re": "2.50203735619",
+              "theta_1_im": "1.56845757001",
+              "theta_2_re": "2.50203735619",
+              "theta_2_im": "-1.56845757001",
+              "uv_attractive": true,
+              "residual": "8.95256e-52"
+            }
+          ]
+        }
+      },
+      "PS_122_412": {
+        "TypeII": {
+          "M_g": -12,
+          "two_M_l": -30,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "1.593564385313554",
+              "lam_star": "-1.070101242225324",
+              "theta_1_re": "3.65738998712",
+              "theta_1_im": "0.0",
+              "theta_2_re": "1.91447548499",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "residual": "1.70369e-50"
+            }
+          ]
+        },
+        "TypeI": {
+          "M_g": 36,
+          "two_M_l": -30,
+          "uv_fp_count": 0,
+          "fps": []
+        }
+      },
+      "PS_122_1511_412": {
+        "TypeII": {
+          "M_g": 3,
+          "two_M_l": -15,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "4.26998820604921",
+              "lam_star": "-1.695922080973141",
+              "theta_1_re": "3.51061430465",
+              "theta_1_im": "0.0",
+              "theta_2_re": "2.0077711323",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "residual": "2.13821e-50"
+            }
+          ]
+        },
+        "TypeI": {
+          "M_g": 51,
+          "two_M_l": -15,
+          "uv_fp_count": 0,
+          "fps": []
+        }
+      },
+      "PS_122_1013": {
+        "TypeII": {
+          "M_g": 32,
+          "two_M_l": 14,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "0.3822556538794715",
+              "lam_star": "0.303065737469758",
+              "theta_1_re": "4.050044562",
+              "theta_1_im": "5.12307175975",
+              "theta_2_re": "4.050044562",
+              "theta_2_im": "-5.12307175975",
+              "uv_attractive": true,
+              "residual": "8.01829e-51"
+            }
+          ]
+        },
+        "TypeI": {
+          "M_g": 80,
+          "two_M_l": 14,
+          "uv_fp_count": 1,
+          "fps": [
+            {
+              "g_star": "0.3648216856502225",
+              "lam_star": "0.3326117501783794",
+              "theta_1_re": "6.79845099352",
+              "theta_1_im": "6.21814879722",
+              "theta_2_re": "6.79845099352",
+              "theta_2_im": "-6.21814879722",
+              "uv_attractive": true,
+              "residual": "2.67276e-51"
+            }
+          ]
+        }
+      }
+    },
+    "coupling_weakening_ratio_G_SM_over_Spin10_real10": "27.9813431829",
+    "gauge_unification_ratios": {
+      "B_4D_2H": "5/9",
+      "B_6D_KK_brane_2H": "1/2",
+      "B_6D_KK_bulk_2H": "55/98",
+      "B_target": "5/7",
+      "pati_salam_closures": {
+        "PS_122_412": {
+          "b1_eff": "-83/15",
+          "b2L": "-3",
+          "b4": "-31/3",
+          "B_PS_ratio": "-55/19",
+          "b1_eff_lt_b2L": true,
+          "r_exact_for_B_5_7": "8/9",
+          "B_reconstructed": "5/7",
+          "exact_closure": true
+        },
+        "PS_122_1511_412": {
+          "b1_eff": "-79/15",
+          "b2L": "-3",
+          "b4": "-29/3",
+          "B_PS_ratio": "-50/17",
+          "b1_eff_lt_b2L": true,
+          "r_exact_for_B_5_7": "29/33",
+          "B_reconstructed": "5/7",
+          "exact_closure": true
+        },
+        "PS_122_1013": {
+          "b1_eff": "-13/15",
+          "b2L": "-3",
+          "b4": "-23/3",
+          "B_PS_ratio": "35/16",
+          "b1_eff_lt_b2L": false,
+          "r_exact_for_B_5_7": "11/15",
+          "B_reconstructed": "5/7",
+          "exact_closure": true
+        }
+      }
+    },
+    "proton_lifetime_enhancement_over_1e_neg3_MPl": "38553142191.755",
+    "pass": true
+  },
+  "OW11_C_3_eq_4_minus_1_dark_matter_collision": {
+    "fourier_projections_Z2xZ2": {
+      "E2_full_4pts": {
+        "(0, 0)": 4,
+        "(1, 0)": 0,
+        "(0, 1)": 0,
+        "(1, 1)": 0
+      },
+      "cusp_only_1pt": {
+        "(0, 0)": 1,
+        "(1, 0)": 1,
+        "(0, 1)": 1,
+        "(1, 1)": 1
+      },
+      "gen3_E2_minus_0_3pts": {
+        "(0, 0)": 3,
+        "(1, 0)": -1,
+        "(0, 1)": -1,
+        "(1, 1)": -1
+      },
+      "exact_C3_eq_C4_minus_C1": true,
+      "brane_3gen_breaks_Z2xZ2_with_amp_minus1": true,
+      "bulk_7D_gen_preserves_Z2xZ2": true
+    },
+    "brane_LKP_prompt_decay_Gamma_over_MKK": "0.005379437077",
+    "spin10_matter_parity_on_45_and_16": {
+      "adjoint_45_states_checked": 45,
+      "all_45_have_PM_plus1": true,
+      "all_16_have_PM_minus1": true
+    },
+    "pass": true
+  },
+  "OW11_D_planted_faults": {
+    "PF_OW11_1_wrong_involution_8_2": {
+      "faulty_centralizer_dim": 29,
+      "true_dim": 21,
+      "caught": true
+    },
+    "PF_OW11_2_bulk_complex_10_flips_AdS": {
+      "faulty_nB_minus_nF": 4,
+      "caught": true
+    },
+    "PF_OW11_3_omit_double_trace_F4": {
+      "tr16_F4": "8",
+      "minus_tr10_F4": "-4",
+      "caught": true
+    },
+    "PF_OW11_4_brane_3gen_violates_Z2xZ2": {
+      "C3_nontrivial": [
+        -1,
+        -1,
+        -1
+      ],
+      "caught": true
+    },
+    "caught_count": 4,
+    "total_planted": 4,
+    "pass": true
+  },
+  "all_gates_passed": true
+}
