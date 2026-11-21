@@ -1,0 +1,24 @@
+# Card AGY-C22: McKay [2I : 2T] = 5 Subgroup Theorem, 11D M-Theory Coupling Lock M_{11} / M_{GUT}, Transverse Planck Scaling Law, and Graviton Unitarity
+
+1. **The package and the question, in a sentence:** Under wave two's `3 + 1` gravity package (`WP-4` fifth) and `IDENTIFICATION_LEDGER` rows `I-1` and `I-6`, does embedding the `7D` `E_8 -> E_6` cusp theory into `11D` `M`-theory on `M_4 x X_{4_1}^{(40)} x (T^4 / Gamma)` exhibit an exact index-`5` McKay subgroup bridge `2T subset 2I` (`[2I : 2T] = 120 / 24 = 5`), lock `M_{11} / M_{GUT}` with zero free parameters, characterize the exact transverse-volume scaling law for `M_{Pl} / v_{EW}`, and preserve graviton partial-wave unitarity up to `M_{11}`?
+
+2. **What will be delivered, and what done means:** A pre-registered, hashed `0 of 19` script `relays/agy_2026-11-21_c22/c22_mckay_mtheory_planck_and_unitarity.py`, raw output, a zero-shared-code countercheck `c22_countercheck.py` with five planted negative controls, and a mask-clean relay testing:
+   - **Expectation E1 (Explicit `SU(2)` McKay Subgroup Bridge `2T subset 2I`, `[2I : 2T] = 5`, & Crepant `ALE` Euler Numbers):** Construct all `120` unit-quaternion elements of the binary icosahedral group `2I subset SU(2)` and all `24` elements of `2T subset 2I` directly from golden-ratio `SU(2)` matrices: verify `[2I : 2T] = 120 / 24 == 5` (`transitive A_5 coset action matching the 5-sheeted cover`), verify `9` conjugacy classes of `2I` (`McKay graph == affine E_8^hat`) restrict onto `7` conjugacy classes of `2T` (`McKay graph == affine E_6^hat`, `I-1`), and verify orbifold Euler numbers `chi_{orb}(C^two / 2I) = 9` and `chi_{orb}(C^two / 2T) = 7`.
+   - **Expectation E2 (Zero-Parameter `11D` Lock `M_{11} / M_{GUT}` & Transverse-Volume Scaling Law for `M_{Pl} / v_{EW}`):** At `alpha_{GUT} = 1 / 40` and `Vol(X_{4_1}^{(40)}) = 60 sqrt(3) L(chi_{-3}, 2)`, compute the **parameter-free** `50`-digit `11D` ratio `M_{11} / M_{GUT} = (160 pi^3 / Vol(X_{4_1}^{(40)}))^{1/3}`, prove `(M_{Pl} / v_{EW})^two = exp(96 pi / 5) * (20 / pi^3) * (M_{11} / M_{GUT})^two * V_hat_perp`, evaluate both parameter-free benchmarks (`self-dual T^4_{SD} / 2T` and `isotropic R_perp = M_{GUT}^{-1}`) strictly blind (`0 of 19`), and state the `1`-modulus `G_4`-flux stabilization condition on `V_hat_perp`.
+   - **Expectation E3 (`2 -> 2` Graviton Partial-Wave Unitarity & `KK` Cutoff Hierarchy `M_{KK} < M_{11} << sqrt(8 pi) M_{Pl}`):** Verify for both geometric benchmarks (`and any compact V_hat_perp >= 1`) that the `4D` tree-level `J = 2` graviton partial-wave amplitude `|a_2(s)| = s / (64 pi M_{Pl}^two)` remains strictly below `1 / 2` all the way past `sqrt(s) = M_{GUT}` and `sqrt(s) = M_{11}`, so `11D` `M`-theory softens scattering well below the `4D` unitarity ceiling.
+
+3. **How it could come out wrong, written before any run:**
+   - **F1:** `2T` might fail to embed as an index-`5` subgroup of `2I` in `SU(2)`, or the tensor-product McKay graphs with the defining `2D` `SU(2)` doublet could fail to reproduce the affine `E_8^hat` (`9`-node) and `E_6^hat` (`7`-node) Cartan matrices.
+   - **F2:** `M_{11} / M_{GUT}` at `m = 40` could drop below `1` (`placing the 11D quantum-gravity cutoff below the GUT unification scale and invalidating 4D/7D gauge unification!`).
+   - **F3:** `4D` graviton `J = 2` partial-wave unitarity could break down below `M_{11}` (`|a_2(M_{11}^two)| >= 1 / 2`).
+
+4. **What it rests on, and what it must not touch:** Rests on `AGY-C1` through `AGY-C21` on `agy/cusp-action-2026-11-20`, aligned with `origin/main` at `279459977`. Must not touch `main`, `agy/audit-2026-11-02`, or any measured gravitational or Standard Model constant (`strictly 0 of 19`, Guardrail `5`: `v_{EW}` remains the sole dimensionful anchor).
+
+5. **Controls that must fail if the work is broken:**
+   - **Control 1 (Non-subgroup `Dic_3` of order `12` or corrupted McKay Cartan determinant):** Affine Cartan `2 I - A_{McKay}` has exact nullity `1` (`det == 0`), whereas deleting one node gives `det == 1` (`E_8`) and `det == 3` (`E_6`); corrupting an edge breaks `det == 0`.
+   - **Control 2 (Cover-scaling law `m -> 2 m` & Guardrail `5` extra-anchor check):** Doubling cover degree `m = 40 -> 80` at fixed `ell_{11}` and `V_hat_perp` must scale `(M_{Pl} / M_{GUT})^two` by exact factor `2^{2/3}` (`or linear 2 at fixed g_{10}`), and importing empirical `G_N` in `GeV^{-2}` alongside `v_{EW}` in `GeV` must raise a hard Guardrail `5` error.
+   - **Control 3 (Trans-Planckian violation `sqrt(s) = 20 M_{Pl}`):** Evaluating `|a_2(s)|` above the `4D` unitarity bound `sqrt(32 pi) M_{Pl}` must violate `|a_2| < 1 / 2`.
+
+6. **What is needed from main or from another seat:** `main` (`wave two's 3+1 gravity package`) can verify `[2I : 2T] = 5` and the `M_{11} / M_{GUT}` vs `V_hat_perp` scaling relation; separated comparator seats evaluate blind `M_{Pl} / v_{EW}` benchmarks at `WP-6` comparison time (`0 of 19`).
+
+0 of 19.
