@@ -1,0 +1,14 @@
+=== IC1: SYMBOLIC TRANSFER/COFACTOR PROOF & PLANTS 1, 2, 3 ===
+  [CAUGHT Plant 1] Pure-Higgs Z_5 charges for k=0..4 are [1, 1, 1, 1, 1] (all identical mod 5; cannot isolate k=2)!
+  [CAUGHT Plant 2] Periodic 0~5 wrap injects linear O(x^1) term ew*x, spoiling O(x^5) collar suppression!
+  [CAUGHT Plant 3] Jacobi bordered-determinant proof: ML=M0 gives (M0/(M^2-M0^2))y^2; ML=0 cancels through y^9 to -y^10/(M0 M^8)!
+
+=== IC2 & IC3: DISJOINT HALPHEN-SERRE + BLOCK ELIMINATION + 3/8-RULE GRAMIAN RGE + PLANTS 4, 5 ===
+  L_2=9/4: UV y_d3/y_e3=0.67605 (robust across exact rational horocycle benchmarks).
+  [CAUGHT Plant 4 (9/4)] Omitting Frobenius trace mass drops UV y_d3/y_e3 to 0.14439 (< 0.16)!
+  [CAUGHT Plant 5 (9/4)] Replacing Weyl transpose with Hermitian conjugate breaks W_30 symmetry: ||W-W^T|| = 0.01716!
+  L_2=5/2: UV y_d3/y_e3=0.68563 -> 3/8-rule IR y_d3/y_e3=1.8248 (> 1.75), Householder drift = 2.988e-39 (< 1e-36).
+  [CAUGHT Plant 4 (5/2)] Omitting Frobenius trace mass drops UV y_d3/y_e3 to 0.14705 (< 0.16)!
+  [CAUGHT Plant 5 (5/2)] Replacing Weyl transpose with Hermitian conjugate breaks W_30 symmetry: ||W-W^T|| = 0.01822!
+
+ALL AGY-C16 INDEPENDENT COUNTERCHECKS & 5/5 PLANTED FAULTS PASSED (elapsed: 47.97s; 0 of 19).
