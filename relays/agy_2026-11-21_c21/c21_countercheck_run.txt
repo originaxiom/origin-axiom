@@ -1,0 +1,15 @@
+=== COUNTERCHECK 1: EXPLICIT 40x40 WEIL T_8 (x) T_5 MATRIX ORDER & PLANT 1 ===
+  Explicit 40x40 matrix powers k in 1..80 with ||T_40^k - I_40||_F < 1e-11: [40, 80] -> minimal k = 40.
+  [CAUGHT Plant 1] Sub-level k=24 leaves large modular framing anomaly ||T_40^24 - I_40||_F = 8.3033 (> 7.0)!
+
+=== COUNTERCHECK 2: GAUSS-LAGUERRE CUSP L^2 QUADRATURE & SYMBOLIC COLLAR (PLANTS 2, 3) ===
+  Disjoint Laguerre L^2 integral error = 0.00e+00; symbolic open 5-cell Schur = y**5/m_kk**4 (exact y^5 / m_kk^4!).
+  [CAUGHT Plant 2] Unphysical periodic wrap w_wrap=1 inflates light mode at y=1/100 by 1.00e+08x (> 10^7x)!
+  [CAUGHT Plant 3] Open 5-cell nullity at y=0 is 1 (1 chiral family mode), whereas paired 8-wall operator has nullity 0 (vector-like)!
+
+=== COUNTERCHECK 3: EXPLICIT SU(5) CLOCK-SHIFT 't HOOFT TORON INTEGRAL & PLANTS 4, 5 ===
+  Disjoint SU(5) clock-shift toron integral on T^4/Z_5: Q_1 = 0.040000 (exact 1/25), Q_A = 0.120000 < Q_B = 0.125000, exp(-(S_B-S_A)) = 0.2846095433.
+  [CAUGHT Plant 4] Single-toron 3-family 't Hooft vertex has |det| = 1.137e-33 == 0 (leaves 2 families massless)!
+  [CAUGHT Plant 5] Phase V honest bit total = 5.5 bits (down from 11.5); 0-bit post-inspection override rejected!
+
+ALL AGY-C21 COUNTERCHECKS PASSED (5/5 planted faults caught; elapsed: 0.32s; 0 of 19).
