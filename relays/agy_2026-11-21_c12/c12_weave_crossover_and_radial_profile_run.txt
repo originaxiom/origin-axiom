@@ -1,0 +1,28 @@
+=== SECTION 1: t=4 MAJORANA SEE-SAW TWIST & JOINT s=2 SELBERG WEAVE ACROSS m (E1) ===
+  [E1 Audit - Lepton Cube-Root Theorem] On coprime P_6 (8 pts with gcd(6a,6)=1, 3!|6b), quark q_L=+1 gives ||U_{R,q} U_{R,q}^T - I_3|| in [3.0, 3.0] (== 3), whereas lepton q_L=-3 cubes omega^3=1 so max ||Y_nu - Y_e||/||Y_e|| = 6.649e-66 (< 1e-48)!
+  [CAUGHT Planted Control 1] Even with Y_nu == Y_e on P_6, Majorana Y_nu Y_nu^T gives |U_e2| = 0.70419 (~ 1/sqrt(2)), whereas Dirac Y_nu Y_nu^H collapses |U_e2| to 6.323e-66 (< 1e-50)!
+  Exact s=2 Selberg pair shares (omega_3, omega_4) = (0.69321, 0.30679); [CAUGHT Plant 2b] wrong s=1/2 collapses t=3 share (t<=12) to 0.117 (< 0.15).
+  Joint (t=3+t=4) m= 8 (y=1.6): CKM=(0.4955, 0.3277, 0.1089) [NORMAL] | PMNS(|Ue2|,|Umu3|,|Ue3|)=(0.7279, 0.6316, 0.1523) | m2/m3(d,e)=(0.2368, 0.2647)
+  Joint (t=3+t=4) m=12 (y=2.4): CKM=(0.03745, 0.2049, 0.008153) [INVERTED] | PMNS(|Ue2|,|Umu3|,|Ue3|)=(0.999, 0.1744, 0.005314) | m2/m3(d,e)=(0.09781, 0.01823)
+  Joint (t=3+t=4) m=16 (y=3.2): CKM=(0.002859, 0.1979, 0.0007953) [INVERTED] | PMNS(|Ue2|,|Umu3|,|Ue3|)=(0.5041, 0.03243, 0.04509) | m2/m3(d,e)=(0.04586, 0.003402)
+  Joint (t=3+t=4) m=20 (y=4.0): CKM=(0.0008205, 0.1768, 0.0001602) [INVERTED] | PMNS(|Ue2|,|Umu3|,|Ue3|)=(0.2119, 0.02364, 0.02372) | m2/m3(d,e)=(0.01162, 0.0004221)
+  Joint (t=3+t=4) m=24 (y=4.8): CKM=(4.66e-5, 0.1382, 4.99e-6) [INVERTED] | PMNS(|Ue2|,|Umu3|,|Ue3|)=(0.3346, 0.006289, 0.004195) | m2/m3(d,e)=(0.007808, 0.0001305)
+  Joint (t=3+t=4) m=40 (y=8.0): CKM=(5.221e-9, 0.05069, 2.273e-10) [INVERTED] | PMNS(|Ue2|,|Umu3|,|Ue3|)=(0.2499, 0.0002055, 5.634e-5) | m2/m3(d,e)=(0.0001925, 3.039e-7)
+  Guardrail 3 (10 Haar U(3)^5 x O(3) scramblings on joint weave): max CKM/PMNS drift = 8.012e-64 (< 1e-50).
+  [PASS] Section 1 t=4 Majorana twist and joint Selberg weave verified.
+
+=== SECTION 2: H^3 RADIAL HOROCYCLE AVERAGING ON [8/5, 8] VS SECTOR LOCALIZATION (E2) ===
+  H^3 linear-Gramian (y_eff=2.692): CKM=(0.5497, 0.2706, 0.1299), m2/m3(u,d)=(0.07261, 0.1153)
+  H^3 log-Gramian    (y_eff=2.692): CKM=(0.1892, 0.2714, 0.03431), m2/m3(u,d)=(0.03502, 0.02534)
+  Single-slice at y_eff=2.692 (m_eff=13.46): CKM=(0.09731, 0.284, 0.01729), m2/m3(d)=0.0199 < log-radial 0.02534 (Ky Fan convexity: frame rotation only softens m2/m3, never steepens beyond y_eff!).
+  [PASS] Section 2 H^3 radial horocycle collar dominance and single-height log convexity verified.
+
+=== SECTION 3: EXACT FRICKE-PAIR STRONG-CP CANCELLATION AT EVERY COVER DEGREE m (E3) ===
+  m= 8 P_5: single |Delta^+ - 1| = 1.484, Fricke-paired |Delta^+ * Delta^- - 1| = 1.891e-78 (< 1e-50) | J_CP(+) + J_CP(-) = 2.735e-85
+  m=12 P_5: single |Delta^+ - 1| = 0.6124, Fricke-paired |Delta^+ * Delta^- - 1| = 1.185e-77 (< 1e-50) | J_CP(+) + J_CP(-) = 1.911e-81
+  m=16 P_5: single |Delta^+ - 1| = 1.79, Fricke-paired |Delta^+ * Delta^- - 1| = 9.351e-76 (< 1e-50) | J_CP(+) + J_CP(-) = 3.949e-78
+  m=40 P_5: single |Delta^+ - 1| = 2.653e-68, Fricke-paired |Delta^+ * Delta^- - 1| = 6.644e-68 (< 1e-50) | J_CP(+) + J_CP(-) = 7.081e-53
+  [CAUGHT Planted Control 2a] Perturbing tau_*^- -> (-1+i)/5 at m=8 breaks |Delta^+ * Delta^- - 1| to 1.9873 (> 0.5).
+  [PASS] Section 3 Fricke-paired Strong-CP cancellation across all m verified.
+
+ALL AGY-C12 PRODUCER CHECKS PASSED (elapsed: 24.89s; 0 of 19).
