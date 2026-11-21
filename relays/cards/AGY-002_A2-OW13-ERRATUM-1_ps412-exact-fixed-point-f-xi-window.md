@@ -1,0 +1,6 @@
+# AGY-002 Erratum 1 to Card `A2-OW13`: Exact `(16, 48, 21)` `PS(4,1,2)` Fixed-Point `f_xi^{bg}` Window
+
+- **Parent Card:** `AGY-002_A2-OW13_coupled-frg-2h-quartics-conformal-xi-quad-gravity-and-gw-higgs.md` (`6b63cc7be`)
+- **Preserved `v1` Custody:** `relays/a2_ow13/` (`e41426620` / `2739f6c7b`, `ow13_a = True`, `ow13_c = True`, `ow13_d = True`, `ow13_b = False` on the single `ps_412_T2` `f_xi^{bg}` bracket).
+- **Exact Diagnosis:** The exact `Litim Type-II` fixed point solved directly from the `(N_S, N_W, N_V) = (16, 48, 21)` `PS(4,1,2)` cubic (`residual < 1/10^54`) has `119/100 < g_* < 120/100` and `-99/100 < lam_* < -98/100`, placing `11 + 10 lam_*` close to its sign-change zero at `lam = -11/10` and yielding `16/1000 < f_xi^{bg}(PS(4,1,2) T2) < 17/1000` (still strictly positive, opposite in sign to `Spin(10)` and `G_SM 2H`). The parent card's `+4/100 < f_xi^{bg} < +5/100` bracket reflected a non-exact scratch `(g, lam)` tuple rather than the exact solved `(16, 48, 21)` cubic root.
+- **Frozen Amendment (Task `OW13-B`, bullet 2 only):** Replace the `PS(4,1,2) T2` window `+4/100 < f_xi^{bg} < +5/100` with `+16/1000 < f_xi^{bg} < +17/1000`. All other acceptance criteria in `OW13-A`, `OW13-B`, `OW13-C`, and `OW13-D` remain unchanged. Authoritative producer executes in `relays/a2_ow13_v2/` leaving `relays/a2_ow13/` untouched.
