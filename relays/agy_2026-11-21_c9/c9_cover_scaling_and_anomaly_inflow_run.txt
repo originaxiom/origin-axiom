@@ -1,0 +1,26 @@
+=== SECTION 1: MERIDIAN-COVER CUSP SCALING IN SNAPPY, EXTENSIVE V_cov, & MOSTOW CP (E1) ===
+  X_{4_1}^(2): N_cusps=1, vol=4.059766 (2*vol_1), SnapPy FD modulus = 1.7320508076i vs exact 1.7320508076i (err=8.88e-16)
+  X_{4_1}^(5): N_cusps=1, vol=10.149416 (5*vol_1), SnapPy FD modulus = 1.4433756730i vs exact 1.4433756730i (err=1.11e-15)
+  X_{4_1}^(8): N_cusps=1, vol=16.239066 (8*vol_1), SnapPy FD modulus = 2.3094010768i vs exact 2.3094010768i (err=1.07e-14)
+  [CAUGHT Planted Control 1] Quadratic cover scaling m^2/(2*sqrt(3)) misses SnapPy at m=5,8 by exact factor m (max SnapPy err=1.07e-14 < 1e-10).
+  V_cov^(8) [non-zero discrete potential bits] at 3.2+1.6i: |grad|=2.686e-30, tr(Hess)=9.81748 (exact 25*pi/8=9.81748), det(Hess)=1.9883 > 0 | Fricke saddle det(Hess)=-12.12 < 0
+  V_cov^(16) [non-zero discrete potential bits] at 6.4+3.2i: |grad|=6.716e-31, tr(Hess)=4.90874 (exact 25*pi/16=4.90874), det(Hess)=0.49707 > 0 | Fricke saddle det(Hess)=-3.0299 < 0
+  V_cov^(40) [non-zero discrete potential bits] at 16.0+8.0i: |grad|=1.075e-31, tr(Hess)=1.9635 (exact 25*pi/40=1.9635), det(Hess)=0.079532 > 0 | Fricke saddle det(Hess)=-0.48479 < 0
+  b-paired |Im det[G_u, G_d]| at m=8: Mostow (4i/sqrt(3)) = 1.979e-66 (< 1e-40, CP cancels on Re=0!) vs 8*tau_*^+ ((16+8i)/5) = 1.3329e-6 (> 1e-6, CP survives!).
+  [PASS] Section 1 meridian-cover scaling, extensive V_cov stationarity, and Mostow imaginary-axis CP law verified.
+
+=== SECTION 2: E_6 (27 = 16_+ + 10 + 1) & E_8 (248) QUARTIC I_8(F, R) ANOMALY FACTORIZATION (E2) ===
+  Symbolic E_8 remainder = 0; [CAUGHT Plant 2b] wrong coeff 1/60 leaves non-zero degree-4 polynomial.
+  Non-abelian so(10) check (10 trials): [CAUGHT Plant 2a] 16_+ alone min remainder = 2.525e+02 != 0, whereas 27 = 16_+ (+) 10 (+) 1 max rel err = 1.24e-15 (< 1e-13)!
+  6D 3x27 gauge+mixed anomaly factorizes identically: I_8^(gauge+mix)(3 x 27) = 3*trF2*(trF2 + trR2)/32; pure grav dim = 81 (needs 81 neutral/vector modes for trR4=0).
+  [PASS] Section 2 E_6 (27) and E_8 (248) quartic anomaly factorization verified symbolically and on non-abelian Spin(10).
+
+=== SECTION 3: COLLAR m=8 VS DEEP m=40 CKM ON MOSTOW & m*tau_*^+ + HAAR CHECK (E3) ===
+  m= 8 Mostow (4i/sqrt(3)) : geom CKM=['0.353', '0.05101', '0.03503'] [NORMAL], down(m1/m2,m2/m3)=['0.3222', '0.04026']
+  m= 8 8*tau_*^+ (3.2+1.6i): geom CKM=['0.2222', '0.1545', '0.08859'] [NORMAL], down(m1/m2,m2/m3)=['0.1504', '0.2229']
+  m=40 Mostow (20i/sqrt(3)): geom CKM=['1.159e-10', '0.000404', '9.648e-16'] [INVERTED], down(m1/m2,m2/m3)=['7.856e-10', '3.66e-7']
+  m=40 40*tau_*^+ (16+8i)  : geom CKM=['4.937e-7', '0.003746', '1.161e-10'] [INVERTED], down(m1/m2,m2/m3)=['1.923e-6', '3.141e-5']
+  [PASS Guardrail 3] 10 independent 55-digit unitary scramblings at Mostow m=8: max drift = 7.6468e-56 (< 1e-12).
+  [PASS] Section 3 collar-vs-deep-cusp comparison on Mostow and m*tau_*^+ verified.
+
+ALL AGY-C9 PRODUCER CHECKS PASSED (elapsed: 10.35s; 0 of 19).
