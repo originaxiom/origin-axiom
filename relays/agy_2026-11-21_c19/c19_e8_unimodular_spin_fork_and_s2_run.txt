@@ -3,3 +3,22 @@
   Single-sector unimodular (|Lambda^*/Lambda| == 1) lattices in catalog with 1 <= r <= 8: ['E_8']
   Modular S-invariance residual |Theta(-1/tau)/(tau^4 Theta(tau)) - 1|: E8 = 1.94713e-55 (< 1e-48).
   [CAUGHT Plant 1] Non-unimodular D8 (det=4) & E7 (det=2) fail single-sector modular S-invariance: D8 residual = 1.39877 (> 0.40)!
+  Rank-16 comparison: det(E8+E8)=1, det(D16^+)=1, root components (2 vs 1) -> r=8 is unique class-number-1 (r=16 introduces 1-bit ambiguity).
+  [PASS] Section 1 E8 minimal-rank modular unimodular uniqueness verified.
+
+=== SECTION 2: REAL Cl(12,4) CONSTRUCTION OF e_{8(-24)} & I-10/I-11 SPIN-CHARGE BRIDGE (E2) ===
+  3-spinor Fierz-Jacobi closure on 128_+^R: max residual = 7.633e-17 (< 1e-13).
+  Explicit 248D Killing signature of e_{8(-24)}: 112 non-compact (+), 136 compact (-), character = -24 (exact -24).
+  Chirality lock |(i J_Spin10)(i J_Lorentz) - 2 B_cusp| on 128_+^R: 0.000e+00 (exact 0; positive cusp subspace has real dim 64 = 1 chiral (16, (2,1)) + CPT conjugate).
+  Distler-Garibaldi / Coleman-Mandula audit: single 128_+^R carries 1 chiral family (proving 3 families require X_{4_1} cusp index and retaining 1 bit for M_4 soldering).
+  [CAUGHT Plant 2] Compact e_{8(-248)} has 0 Lorentz boosts, and overlapping Spin(1,3) with Spin(10) injects 9 positive-Killing ghost gauge generators!
+  [PASS] Section 2 real Cl(12,4) subset e_{8(-24)} spin-charge bridge and Coleman-Mandula audit verified.
+
+=== SECTION 3: PATTERSON-SULLIVAN ABSCISSA delta = 1 & FORCING OF s = 2 (E3) ===
+  Exact Gauss density identity (L_1 f_1)(x) == f_1(x) on [0, 1]: max 50-digit residual = 0.0 (< 1e-48).
+  Mayer-Selberg leading eigenvalue lambda_max(L_s): s=1 -> 0.999639 (~ 1, critical pole!), s=2 -> 0.19945882 (< 1), s=3 -> 0.06340265.
+  Primitive Lyndon partial sums (K=6..14): s=2 -> [0.040016, 0.041236, 0.041724, 0.041954, 0.042075] (last increment = 1.212e-04).
+  [CAUGHT Plant 3] s=1 sits on Patterson-Sullivan divergence threshold: partial sums [0.6099, 0.7746, 0.9113, 1.0282, 1.1302] grow monotonically (+0.5202), and s=1/2 explodes (+22.42)!
+  [PASS] Section 3 Patterson-Sullivan abscissa delta = 1 and minimal integer holomorphic exponent s = 2 verified.
+
+ALL AGY-C19 PRODUCER CHECKS PASSED (elapsed: 5.93s; 0 of 19).
