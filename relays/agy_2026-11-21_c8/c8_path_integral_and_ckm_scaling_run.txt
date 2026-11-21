@@ -1,0 +1,32 @@
+=== SECTION 1: SELBERG LOG-DETERMINANT IDENTITY & b-FOURIER CKM EXTINCTION LAW (E1) ===
+  Selberg log-determinant Euler-product vs geodesic-sum residual (t<=40, s=2) = 2.0006e-55 (< 1e-45)
+  m=16 (y=3.2): 20-pt arith/geom |V_12|=(0.2767,0.05877) vs 20-pt b-sum |V_12|=4.618e-5; mean(1-min|V_kk|)=0.19 vs rows(+-1/5) b-sum=1.924e-5
+  [CAUGHT Planted Control 1] At m=16, 20-pt b-Fourier trace collapses |V_12| by factor 5992.1 (arith) and 1272.6 (geom), both > 1000.
+  m=40 (y=8.0): 20-pt arith/geom |V_12|=(1.273e-5,4.937e-7) vs 20-pt b-sum |V_12|=5.156e-13; mean(1-min|V_kk|)=0.0009823 vs rows(+-1/5) b-sum=5.476e-13
+  [PASS] Section 1 Selberg log-determinant law and b-Fourier CKM extinction theorem verified.
+
+=== SECTION 2: EXACT RATIONAL CKM |q|-EXPONENTS & ORDERING CROSSOVER (E2) ===
+  P_5 (a=1/5) |q|-exponents (e12,e23,e13) = ['0.44999999', '0.049999947', '0.49999996'] vs exact (9/20, 1/20, 1/2), max err = 5.342e-8
+  P_5 (a=2/5) |q|-exponents (e12,e23,e13) = ['0.3', '0.15000001', '0.55000004'] vs exact (3/10, 3/20, 11/20), max err = 4.061e-8
+  P_7 (a=1/7) |q|-exponents = ['15/28', '3/28', '18/28'] (max err = 3.347e-6)
+  P_7 (a=2/7) |q|-exponents = ['10/28', '1/28', '11/28'] (max err = 4.933e-6)
+  P_7 (a=3/7) |q|-exponents = ['6/28', '5/28', '15/28'] (max err = 5.923e-6)
+  Height crossover scan along tau_m = m * ((2 + i)/5) over all 20 (a != 0) points of P_5:
+    m= 4 (y= 0.8): geom(|V12|,|V23|,|V13|)=(0.137,0.3645,0.08456) | arith=(0.171,0.4914,0.1162) [INVERTED (V12<V23)]
+    m= 8 (y= 1.6): geom(|V12|,|V23|,|V13|)=(0.2222,0.1545,0.08859) | arith=(0.2689,0.1677,0.108) [NORMAL (V12>V23>V13)]
+    m=12 (y= 2.4): geom(|V12|,|V23|,|V13|)=(0.3067,0.04373,0.03) | arith=(0.4099,0.1395,0.03264) [NORMAL (V12>V23>V13)]
+    m=16 (y= 3.2): geom(|V12|,|V23|,|V13|)=(0.05877,0.03333,0.001835) | arith=(0.2767,0.1271,0.005495) [NORMAL (V12>V23>V13)]
+    m=24 (y= 4.8): geom(|V12|,|V23|,|V13|)=(0.0009368,0.02735,4.308e-6) | arith=(0.005408,0.08406,8.017e-6) [INVERTED (V12<V23)]
+    m=32 (y= 6.4): geom(|V12|,|V23|,|V13|)=(2.14e-5,0.0102,2.258e-8) | arith=(0.0002621,0.05178,5.226e-8) [INVERTED (V12<V23)]
+    m=40 (y= 8.0): geom(|V12|,|V23|,|V13|)=(4.937e-7,0.003746,1.161e-10) | arith=(1.273e-5,0.03144,3.401e-10) [INVERTED (V12<V23)]
+  [CAUGHT Planted Control 2a] At m=40, one-doublet (S_tilde, S) collapses min_k |V_kk| to 2.4486e-10 (< 1/100).
+  [PASS] Section 2 exact rational CKM |q|-exponents and collar-vs-deep-cusp ordering crossover verified.
+
+=== SECTION 3: EXACT LEFT-GRAMIAN G_u == G_d CKM TRANSPARENCY OF t=4 OVERTONE & HAAR CHECK (E3) ===
+  Across all 35 points of P_2 (+) P_3 (+) P_6: raw ||Y_u-Y_d||/||Y_d|| = 1.7321 (SU(2)_R phase), while physical ||G_u-G_d||/||G_d|| = 6.3036e-71 (< 1e-60) and max(1-min|V_kk|) = 1.3584e-70 (< 1e-50)!
+  Simultaneous lepton-vs-down m2/m3 relative split on t=4 overtone = 1.0 (> 0.99).
+  [CAUGHT Planted Control 2b] Perturbing q_{R,u} = -4 -> -3 on P_6 breaks ||G_u - G_d||/||G_d|| to 17.568 (> 10).
+  [PASS Guardrail 3] 15 independent 70-digit unitary scramblings: max (|V_ij|, |J_CP|) drift = 1.2031e-70 (< 1e-12).
+  [PASS] Section 3 t=4 left-Gramian CKM transparency and Guardrail 3 basis invariance verified.
+
+ALL AGY-C8 PRODUCER CHECKS PASSED (elapsed: 10.42s; 0 of 19).
