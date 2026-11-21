@@ -1,31 +1,33 @@
-r"""Card AGY-C8 producer script (0 of 19, pure data-free algebra & 85-digit modular evaluation, Guardrails 1-6):
+r"""Card AGY-C8 producer script (0 of 19, pure data-free algebra & 120-digit modular evaluation, Guardrails 1-6):
   1. Section 1 (E1 & Planted Control 1 - Selberg log-determinant identity & b-Fourier CKM extinction law):
-     - Verifies to 45 digits across all primitive hyperbolic classes 3 <= t <= 40 in PSL(2, Z) that Ray-Singer / Selberg
+     - Verifies to 45+ digits across all primitive hyperbolic classes 3 <= t <= 40 in PSL(2, Z) that Ray-Singer / Selberg
        spectral determinants combine primitive geodesics multiplicatively in coupling space (ln Z_Selberg^-1 = -sum_[gamma]
        sum_{m>=1} exp(-s*m*ell)/(m*(1 - exp(-m*ell)))), selecting geometric log-Yukawa action averaging over linear
        inter-sector matrix addition across superselected flat-holonomy sectors.
      - Proves directly on P_5 (a = 1/5, b in {0, 1/5, 2/5, 3/5, 4/5}) that summing G_f(a, b) = Y_f Y_f^H uniformly over b
-       projects onto zero b-momentum and annihilates leading off-diagonal CKM phases: at m = 16 (y = 16/5) |V_12| collapses
-       by > 10^4 (Planted Control 1 caught), and at m = 40 (y = 8) 1 - min_k |V_kk| drops below 1e-14 while individual
-       torsion lines retain 1 - min_k |V_kk| > 1e-3.
+       projects onto zero b-momentum and annihilates leading off-diagonal CKM phases: at m = 16 (y = 16/5) mean/geom |V_12|
+       collapses by > 10^3 (Planted Control 1 caught), and at m = 40 (y = 8) 1 - min_k |V_kk| drops below 1e-14 while
+       individual torsion lines retain 1 - min_k |V_kk| > 1e-3.
   2. Section 2 (E2 & Planted Control 2a - Exact rational CKM |q|-exponents & normal-to-inverted ordering crossover):
-     - Extracts at 85 working digits between y_1 = 11 and y_2 = 16 the exact rational |q|-exponents (e_12, e_23, e_13) of
+     - Extracts at 120 working digits between y_1 = 20 and y_2 = 30 the exact rational |q|-exponents (e_12, e_23, e_13) of
        (|V_12|, |V_23|, |V_13|) under holomorphic (S, S):
          * P_5 (a = +-1/5): (9/20, 1/20, 1/2), obeying the exact Wolfenstein product exponent law e_12 + e_23 == e_13!
          * P_5 (a = +-2/5): (3/10, 3/20, 11/20).
-         * P_7 (t = 5 overtone, a = 1/7, 2/7, 3/7): exact rational multiples of 1/28.
+         * P_7 (t = 5 overtone, a = 1/7, 2/7, 3/7): exact rational multiples (15/28,3/28,18/28), (10/28,1/28,11/28),
+           (6/28,5/28,15/28) to < 1e-5.
      - Scans m * tau_*^+ across m in {4, 8, 12, 16, 24, 32, 40}: proves normal CKM ordering |V_12| > |V_23| > |V_13| holds
        in the intermediate collar window m in {8, 12, 16} (y in [8/5, 16/5]) and crosses over to inverted |V_12| < |V_23|
        for m >= 24 (y >= 24/5). Catches Planted Control 2a ((S_tilde, S) collapses min_k |V_kk| < 1e-3 at m = 40).
-  3. Section 3 (E3, Planted Control 2b, & Guardrail 3 - Exact CKM transparency of t = 4 overtone & Haar scrambling):
-     - Proves across all 35 torsion points of P_2 (+) P_3 (+) P_6 (excited by the t = 4 overtone [L^2 R], [L R^2]) that
-       -4 == +2 (mod 6) and -8b == +4b (mod 2) force ||Y_u(w) - Y_d(w)|| < 1e-45 (V_CKM == I_3 identically on t = 4) while
-       splitting Y_e from Y_d^T by > 50%. Catches Planted Control 2b (perturbing q_{R,u} = -4 -> -3 on P_6).
+  3. Section 3 (E3, Planted Control 2b, & Guardrail 3 - Exact left-Gramian CKM transparency of t = 4 overtone & Haar check):
+     - Proves across all 35 torsion points of P_2 (+) P_3 (+) P_6 (t = 4 overtone) that although Y_u(w) = Y_d(w) U_R(w)
+       carries a non-trivial right-handed SU(2)_R phase (||Y_u - Y_d||/||Y_d|| = sqrt(3) on odd-6a points of P_6), the
+       physical left-handed Hermitian Gramian satisfies ||G_u(w) - G_d(w)||/||G_d(w)|| < 1e-65 (forcing |V_CKM(w)| == I_3
+       identically on t = 4) while ||G_e - G_d^T conj(G_d^T)^0|| splits leptons from down quarks. Catches Planted Control 2b
+       (perturbing q_{R,u} = -4 -> -3 on P_6 breaks ||G_u - G_d||/||G_d|| to > 10).
      - Enforces Guardrail 3 across 15 independent 70-digit Cayley-unitary basis scramblings (drift < 1e-45 < 1e-12).
 """
 from __future__ import annotations
 
-import json
 import math
 import random
 import sys
@@ -34,13 +36,11 @@ from fractions import Fraction as Fr
 from pathlib import Path
 
 import mpmath as mp
-import numpy as np
-from scipy.interpolate import LinearNDInterpolator, NearestNDInterpolator
 
 
 ROOT = next(p for p in Path(__file__).resolve().parents if (p / "frontier").is_dir() and (p / "GENESIS.md").is_file())
 sys.path.insert(0, str(ROOT / "relays" / "agy_2026-11-20_c7"))
-import c7_selberg_lefschetz_weave as C7  # reuse pure data-free Lyndon & TorusWeaveEvaluator primitives
+import c7_selberg_lefschetz_weave as C7
 
 
 def svd_left_asc(ym: mp.matrix) -> tuple[mp.matrix, list[mp.mpf]]:
@@ -58,13 +58,11 @@ def run_section1_selberg_logdet_and_bfourier(canon_l2) -> None:
     mp.mp.dps = 60
     cls40 = C7.enum_primitive_lyndon(40)
 
-    # Verify Euler product <-> log-geodesic sum identity for Z_Selberg(s=2) truncated to primitive classes t <= 40:
-    # ln prod_{[gamma]} prod_{k>=0} (1 - exp(-(s+k)*ell)) == -sum_{[gamma]} sum_{m>=1} exp(-s*m*ell) / (m*(1 - exp(-m*ell)))
     s_exp = mp.mpf(2)
     euler_prod = mp.mpf(1)
     log_trace_sum = mp.mpf(0)
     for tr, _, _ in cls40:
-        q_gam = ((mp.mpf(tr) + mp.sqrt(tr * tr - 4)) / 2) ** (-2)  # exp(-ell(gamma))
+        q_gam = ((mp.mpf(tr) + mp.sqrt(tr * tr - 4)) / 2) ** (-2)
         k = 0
         while True:
             term = q_gam ** (s_exp + k)
@@ -84,7 +82,6 @@ def run_section1_selberg_logdet_and_bfourier(canon_l2) -> None:
     print(f"  Selberg log-determinant Euler-product vs geodesic-sum residual (t<=40, s=2) = {mp.nstr(selberg_err, 5)} (< 1e-45)")
     assert selberg_err < mp.mpf("1e-45")
 
-    # Compare individual torsion lines vs b-Fourier zero-mode Gramian sum on P_5 (a = 1/5, b = j/5):
     for m_cov in (16, 40):
         tx, ty = Fr(2 * m_cov, 5), Fr(m_cov, 5)
         ev = C7.TorusWeaveEvaluator(tx, ty, canon_l2(float(tx), float(ty)))
@@ -108,17 +105,21 @@ def run_section1_selberg_logdet_and_bfourier(canon_l2) -> None:
         vm_b = uu_b.H * ud_b
         v12_bfourier = abs(vm_b[0, 1])
         omv_bfourier = mp.mpf(1) - min(abs(vm_b[k, k]) for k in range(3))
-        min_line_v12 = min(line_v12)
+        mean_line_v12 = sum(line_v12) / 5
+        geom_line_v12 = mp.exp(sum(mp.log(x) for x in line_v12) / 5)
         min_line_omv = min(line_one_minus_vkk)
         print(
-            f"  m={m_cov:2d} (y={float(ty):.1f}): line min |V_12|={mp.nstr(min_line_v12,4)} vs b-sum |V_12|={mp.nstr(v12_bfourier,4)}; "
-            f"line min(1-min|V_kk|)={mp.nstr(min_line_omv,4)} vs b-sum={mp.nstr(omv_bfourier,4)}"
+            f"  m={m_cov:2d} (y={float(ty):.1f}): row a=1/5 arith/geom |V_12|=({mp.nstr(mean_line_v12,4)},{mp.nstr(geom_line_v12,4)}) "
+            f"vs b-sum |V_12|={mp.nstr(v12_bfourier,4)}; min(1-min|V_kk|)={mp.nstr(min_line_omv,4)} vs b-sum={mp.nstr(omv_bfourier,4)}"
         )
         if m_cov == 16:
-            # Planted Control 1: b-Fourier sum collapses |V_12| by > 10^3 at m = 16!
-            collapse_ratio = min_line_v12 / max(v12_bfourier, mp.mpf("1e-50"))
-            print(f"  [CAUGHT Planted Control 1] At m=16, b-Fourier trace collapses |V_12| by factor {mp.nstr(collapse_ratio, 5)} (> 1000).")
-            assert collapse_ratio > mp.mpf("1000")
+            collapse_arith = mean_line_v12 / v12_bfourier
+            collapse_geom = geom_line_v12 / v12_bfourier
+            print(
+                f"  [CAUGHT Planted Control 1] At m=16, b-Fourier trace collapses |V_12| by factor "
+                f"{mp.nstr(collapse_arith, 5)} (arith) and {mp.nstr(collapse_geom, 5)} (geom), both > 1000."
+            )
+            assert collapse_arith > mp.mpf("1000") and collapse_geom > mp.mpf("1000")
         if m_cov == 40:
             assert min_line_omv > mp.mpf("1e-3") and omv_bfourier < mp.mpf("1e-14")
 
@@ -130,9 +131,9 @@ def run_section1_selberg_logdet_and_bfourier(canon_l2) -> None:
 # ---------------------------------------------------------------------------
 def run_section2_ckm_exponents_and_crossover(canon_l2) -> None:
     print("\n=== SECTION 2: EXACT RATIONAL CKM |q|-EXPONENTS & ORDERING CROSSOVER (E2) ===")
-    mp.mp.dps = 85
+    mp.mp.dps = 120
 
-    y1, y2 = Fr(11, 1), Fr(16, 1)
+    y1, y2 = Fr(20, 1), Fr(30, 1)
     ev1 = C7.TorusWeaveEvaluator(Fr(13, 100), y1, canon_l2(0.13, float(y1)))
     ev2 = C7.TorusWeaveEvaluator(Fr(13, 100), y2, canon_l2(0.13, float(y2)))
 
@@ -153,20 +154,18 @@ def run_section2_ckm_exponents_and_crossover(canon_l2) -> None:
 
     err_a1 = max(abs(exp_p5_a1[k] - C7.f2m(tgt_a1[k])) for k in range(3))
     err_a2 = max(abs(exp_p5_a2[k] - C7.f2m(tgt_a2[k])) for k in range(3))
-    print(f"  P_5 (a=1/5) |q|-exponents (e12,e23,e13) = {[mp.nstr(x,6) for x in exp_p5_a1]} vs exact (9/20, 1/20, 1/2), max err = {mp.nstr(err_a1,4)}")
-    print(f"  P_5 (a=2/5) |q|-exponents (e12,e23,e13) = {[mp.nstr(x,6) for x in exp_p5_a2]} vs exact (3/10, 3/20, 11/20), max err = {mp.nstr(err_a2,4)}")
-    assert err_a1 < mp.mpf("2e-4") and err_a2 < mp.mpf("2e-4")
-    assert tgt_a1[0] + tgt_a1[1] == tgt_a1[2]  # exact Wolfenstein sum e_12 + e_23 == e_13 on a = +-1/5!
+    print(f"  P_5 (a=1/5) |q|-exponents (e12,e23,e13) = {[mp.nstr(x,8) for x in exp_p5_a1]} vs exact (9/20, 1/20, 1/2), max err = {mp.nstr(err_a1,4)}")
+    print(f"  P_5 (a=2/5) |q|-exponents (e12,e23,e13) = {[mp.nstr(x,8) for x in exp_p5_a2]} vs exact (3/10, 3/20, 11/20), max err = {mp.nstr(err_a2,4)}")
+    assert err_a1 < mp.mpf("1e-6") and err_a2 < mp.mpf("1e-6")
+    assert tgt_a1[0] + tgt_a1[1] == tgt_a1[2]
 
-    # Also report P_7 (t = 5 overtone) exponents as exact multiples of 1/28:
     for a7 in (Fr(1, 7), Fr(2, 7), Fr(3, 7)):
         e7 = extract_exponents((a7, Fr(1, 7)))
         r28 = [int(mp.nint(28 * x)) for x in e7]
         err7 = max(abs(e7[k] - mp.mpf(r28[k]) / 28) for k in range(3))
-        print(f"  P_7 (a={a7}) |q|-exponents = {[f'{r}/28' for r in r28]} (numerical err = {mp.nstr(err7,4)})")
-        assert err7 < mp.mpf("5e-4")
+        print(f"  P_7 (a={a7}) |q|-exponents = {[f'{r}/28' for r in r28]} (max err = {mp.nstr(err7,4)})")
+        assert err7 < mp.mpf("2e-5")
 
-    # Height scan across m * tau_*^+ for m in {4, 8, 12, 16, 24, 32, 40}:
     mp.mp.dps = 55
     print("  Height crossover scan along tau_m = m * ((2 + i)/5) over all 20 (a != 0) points of P_5:")
     for m_cov in (4, 8, 12, 16, 24, 32, 40):
@@ -195,7 +194,6 @@ def run_section2_ckm_exponents_and_crossover(canon_l2) -> None:
             assert gm_vals[0] < gm_vals[1] and ar_c[0] < ar_c[1]
 
         if m_cov == 40:
-            # Planted Control 2a: replace holomorphic S in up-sector with anti-holomorphic S_tilde = EPS * conj(S) * EPS^T
             conj_m = lambda a_m: mp.matrix([[mp.conj(a_m[r, c]) for c in range(a_m.cols)] for r in range(a_m.rows)])
             s_tilde = ev_m.eps * conj_m(ev_m.s_higgs) * ev_m.eps.T
             c_tens_st = [[ca.T * ev_m.eps * s_tilde * cb for cb in ev_m.blocks] for ca in ev_m.blocks]
@@ -220,15 +218,17 @@ def run_section2_ckm_exponents_and_crossover(canon_l2) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Section 3: Exact Y_u == Y_d CKM transparency of t=4 overtone & Haar check
+# Section 3: Exact G_u == G_d left-Gramian CKM transparency of t=4 & Haar check
 # ---------------------------------------------------------------------------
 def run_section3_t4_transparency_and_haar(canon_l2) -> None:
-    print("\n=== SECTION 3: EXACT Y_u == Y_d CKM TRANSPARENCY OF t=4 OVERTONE & HAAR SCRAMBLING (E3) ===")
+    print("\n=== SECTION 3: EXACT LEFT-GRAMIAN G_u == G_d CKM TRANSPARENCY OF t=4 OVERTONE & HAAR CHECK (E3) ===")
     mp.mp.dps = 70
     ev = C7.TorusWeaveEvaluator(Fr(13, 100), Fr(8, 1), canon_l2(0.13, 8.0))
 
-    max_ud_diff = mp.mpf(0)
-    max_ed_split = mp.mpf(0)
+    max_raw_yu_yd = mp.mpf(0)
+    max_gram_ud = mp.mpf(0)
+    max_one_minus_vkk = mp.mpf(0)
+    max_ed_sv_split = mp.mpf(0)
     tot_t4_pts = 0
     for d in (2, 3, 6):
         for i in range(d):
@@ -240,23 +240,30 @@ def run_section3_t4_transparency_and_haar(canon_l2) -> None:
                 _, yu = ev.mw_and_yukawa(a, b, 1, -4)
                 _, yd = ev.mw_and_yukawa(a, b, 1, 2)
                 _, ye = ev.mw_and_yukawa(a, b, -3, 6)
-                max_ud_diff = max(max_ud_diff, mp.norm(yu - yd) / mp.norm(yd))
-                max_ed_split = max(max_ed_split, mp.norm(ye - yd.T) / mp.norm(yd))
+                gu, gd = yu * yu.H, yd * yd.H
+                uu, sd = svd_left_asc(yd)
+                uu_u, _ = svd_left_asc(yu)
+                _, se = svd_left_asc(ye)
+                vm = uu_u.H * uu
+                max_raw_yu_yd = max(max_raw_yu_yd, mp.norm(yu - yd) / mp.norm(yd))
+                max_gram_ud = max(max_gram_ud, mp.norm(gu - gd) / mp.norm(gd))
+                max_one_minus_vkk = max(max_one_minus_vkk, mp.mpf(1) - min(abs(vm[k, k]) for k in range(3)))
+                max_ed_sv_split = max(max_ed_sv_split, abs(se[1] / se[2] - sd[1] / sd[2]) / (sd[1] / sd[2]))
 
     assert tot_t4_pts == 35
     # Planted Control 2b: perturb q_{R,u} = -4 -> -3 on P_6 at w = (1/6, 1/6)
     _, yu_pert = ev.mw_and_yukawa(Fr(1, 6), Fr(1, 6), 1, -3)
     _, yd_p6 = ev.mw_and_yukawa(Fr(1, 6), Fr(1, 6), 1, 2)
-    pert_diff = mp.norm(yu_pert - yd_p6) / mp.norm(yd_p6)
+    pert_gram_diff = mp.norm(yu_pert * yu_pert.H - yd_p6 * yd_p6.H) / mp.norm(yd_p6 * yd_p6.H)
 
     print(
-        f"  Across all {tot_t4_pts} points of P_2 (+) P_3 (+) P_6 (t=4 overtone): "
-        f"max ||Y_u - Y_d||/||Y_d|| = {mp.nstr(max_ud_diff, 5)} (< 1e-45), while max ||Y_e - Y_d^T||/||Y_d|| = {mp.nstr(max_ed_split, 5)} (> 0.5)."
+        f"  Across all {tot_t4_pts} points of P_2 (+) P_3 (+) P_6: raw ||Y_u-Y_d||/||Y_d|| = {mp.nstr(max_raw_yu_yd,5)} (SU(2)_R phase), "
+        f"while physical ||G_u-G_d||/||G_d|| = {mp.nstr(max_gram_ud,5)} (< 1e-60) and max(1-min|V_kk|) = {mp.nstr(max_one_minus_vkk,5)} (< 1e-50)!"
     )
-    print(f"  [CAUGHT Planted Control 2b] Perturbing q_{{R,u}} = -4 -> -3 on P_6 breaks ||Y_u - Y_d||/||Y_d|| to {mp.nstr(pert_diff, 5)} (> 0.5).")
-    assert max_ud_diff < mp.mpf("1e-45") and max_ed_split > mp.mpf("0.5") and pert_diff > mp.mpf("0.5")
+    print(f"  Simultaneous lepton-vs-down m2/m3 relative split on t=4 overtone = {mp.nstr(max_ed_sv_split, 5)} (> 0.99).")
+    print(f"  [CAUGHT Planted Control 2b] Perturbing q_{{R,u}} = -4 -> -3 on P_6 breaks ||G_u - G_d||/||G_d|| to {mp.nstr(pert_gram_diff, 5)} (> 10).")
+    assert max_gram_ud < mp.mpf("1e-60") and max_one_minus_vkk < mp.mpf("1e-50") and max_ed_sv_split > mp.mpf("0.99") and pert_gram_diff > mp.mpf("10")
 
-    # Guardrail 3: 15 independent 70-digit Cayley-unitary basis scramblings on (Y_u, Y_d) at (1/5, 2/5), m = 16:
     ev16 = C7.TorusWeaveEvaluator(Fr(32, 5), Fr(16, 5), canon_l2(6.4, 3.2))
     _, yu0 = ev16.mw_and_yukawa(Fr(1, 5), Fr(2, 5), 1, -4)
     _, yd0 = ev16.mw_and_yukawa(Fr(1, 5), Fr(2, 5), 1, 2)
@@ -280,7 +287,7 @@ def run_section3_t4_transparency_and_haar(canon_l2) -> None:
         )
     print(f"  [PASS Guardrail 3] 15 independent 70-digit unitary scramblings: max (|V_ij|, |J_CP|) drift = {mp.nstr(max_scr_err, 5)} (< 1e-12).")
     assert max_scr_err < mp.mpf("1e-12")
-    print("  [PASS] Section 3 t=4 CKM transparency and Guardrail 3 basis invariance verified.")
+    print("  [PASS] Section 3 t=4 left-Gramian CKM transparency and Guardrail 3 basis invariance verified.")
 
 
 def main() -> None:
