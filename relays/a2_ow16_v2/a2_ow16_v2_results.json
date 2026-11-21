@@ -1,0 +1,856 @@
+{
+  "all_gates_passed": true,
+  "card_id": "A2-OW16",
+  "empirical_inputs": "0 of 19",
+  "ow16_a": {
+    "blind_prediction_ledger_24": {
+      "bucket_counts": {
+        "CONDITIONAL_OR_QUALITATIVE": 4,
+        "DERIVED_EXACT": 11,
+        "INTERNAL_WALL_OR_TENSION": 6,
+        "OPEN_EXTERNAL_BOUNDARY": 3
+      },
+      "partition_verified": true,
+      "rows": [
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-01",
+          "name": "Macroscopic spacetime dimension D",
+          "source": "A2-OW4",
+          "value": "D = 4"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-02",
+          "name": "Lorentzian signature tower (4D/6D/7D)",
+          "source": "A2-OW15",
+          "value": "(1,3) -> (1,5) -> (1,6)"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-03",
+          "name": "Gauge group G_SM + 33 Spin(10) Proca",
+          "source": "A2-OW1/OW11",
+          "value": "SU(3)xSU(2)xU(1) (12) + 33 X,Y"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-04",
+          "name": "Fermion generations N_gen (std + unimod)",
+          "source": "A2-OW4/OW10/OW14",
+          "value": "N_gen = 3"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-05",
+          "name": "Two-Higgs Type-II X:HOL + 10 -> 4 + 6",
+          "source": "A2-OW3/OW8/OW11",
+          "value": "n_H = 2"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-06",
+          "name": "CP-breaking modulus tau_*^{+-} + 6D dS Casimir",
+          "source": "A2-OW2/OW9/OW11",
+          "value": "(+-2 + i)/5; real-10/2H dS"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-07",
+          "name": "6D I_8 inflow -> 7D CS axion E/N",
+          "source": "A2-OW5/OW11/OW12",
+          "value": "8/3"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-08",
+          "name": "Pati-Salam B = 5/7 closure & proton-lifetime factor",
+          "source": "A2-OW8/OW11",
+          "value": "38553142191.755"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-09",
+          "name": "Spin(10) UV-irrelevant 2H quartics (lam_0 -> 0)",
+          "source": "A2-OW11/OW13",
+          "value": "0.0026297139602025"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-10",
+          "name": "Conformal BH entropy S_BH = A/(4 G_ind) + log corr",
+          "source": "A2-OW8/OW15",
+          "value": "c_log=16; 2(c-a)=-277/360"
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "id": "OBS-11",
+          "name": "Unimodular / KP radiative a_0 = -64 decoupling",
+          "source": "A2-OW14",
+          "value": "g_*=4/5*pi; dLam/drho=0"
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "id": "OBS-12",
+          "name": "Quark hierarchies & CKM V_us > V_cb > V_ub + J_CP",
+          "source": "A2-OW7",
+          "value": "V_us in [0.14787612,0.24325874]; V_cb in [0.070818288,0.59642141]"
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "id": "OBS-13",
+          "name": "b-tau Yukawa proximity (4/6 perms, 7D T_3R/B-L)",
+          "source": "A2-OW12",
+          "value": "perm_count=4/6"
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "id": "OBS-14",
+          "name": "Neutrino normal ordering dm21/dm31 & s23^2 (M_R00)",
+          "source": "A2-OW12",
+          "value": "dm21/dm31=0.0268633859878; s23^2 in [0.5620317,0.68173627]"
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "id": "OBS-15",
+          "name": "Fukugita-Yanagida leptogenesis epsilon_1^{norm}",
+          "source": "A2-OW12",
+          "value": "5.4537689496661e-6"
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "id": "OBS-16",
+          "name": "Strong CP bar_theta_Q(tau_*^+) != 0 (needs 7D CS axion)",
+          "source": "A2-OW12",
+          "value": "0.015643970821084"
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "id": "OBS-17",
+          "name": "e/mu over-steepness across all 6/6 perms",
+          "source": "A2-OW12",
+          "value": "max y_mu/y_s=0.040690347; max y_e/y_d=0.00024187523"
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "id": "OBS-18",
+          "name": "PMNS sin^2(theta_12) vs sin^2(theta_23) M_R trade-off",
+          "source": "A2-OW12",
+          "value": "M_R00 s12^2 in [0.019566454,0.10859816]"
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "id": "OBS-19",
+          "name": "2H GW Higgs perturbative portal gap (m_h/v = 1/2)",
+          "source": "A2-OW13",
+          "value": "floor=0.039644046848038552; lam_eff_req=4.42889560235435187"
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "id": "OBS-20",
+          "name": "3 = 4 - 1 brane-gen vs Z_2xZ_2 LKP prompt decay",
+          "source": "A2-OW11",
+          "value": "0.005379437077"
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "id": "OBS-21",
+          "name": "7D single-radion hyperbolic inflation no-go (N < 1)",
+          "source": "A2-OW14",
+          "value": "0.8113759564144075584858"
+        },
+        {
+          "bucket": "OPEN_EXTERNAL_BOUNDARY",
+          "id": "OBS-22",
+          "name": "g_UV relevant in Spin(10) + free tan(beta), M_R/M_X",
+          "source": "A2-OW13",
+          "value": "b_Spin10=-151/6"
+        },
+        {
+          "bucket": "OPEN_EXTERNAL_BOUNDARY",
+          "id": "OBS-23",
+          "name": "X1 QM Hilbert space, superposition & measurement",
+          "source": "A2-OW15",
+          "value": "EXTERNAL_AXIOM"
+        },
+        {
+          "bucket": "OPEN_EXTERNAL_BOUNDARY",
+          "id": "OBS-24",
+          "name": "X37 non-abelian 2-form gerbe + unimodular Lambda_eff",
+          "source": "A2-OW14/OW15",
+          "value": "OPEN_UV_BOUNDARY"
+        }
+      ],
+      "total_observables": 24,
+      "unique_ids": true
+    },
+    "cross_card_locks": {
+      "all_locks_passed": true,
+      "lock_7_max_rel_diff": "1.32770782562e-16",
+      "locks": {
+        "LOCK_10_OW4_D4_and_OW15_Lorentzian_tower": true,
+        "LOCK_1_unique_N5_d5_A5_A4": true,
+        "LOCK_2_unique_Ngen3_std_and_unimod": true,
+        "LOCK_3_tau_star_cp_and_mirror": true,
+        "LOCK_4_2H_TypeII_XHOL": true,
+        "LOCK_5_6D_I8_7D_CS_EoverN_8_3": true,
+        "LOCK_6_OW8_c_log_16_eq_OW15_S_BH": true,
+        "LOCK_7_OW11_OW13_Spin10_FRG_match": true,
+        "LOCK_8_OW13_OW14_unimod_xi_protection": true,
+        "LOCK_9_GSM_2H_c_37_15_triple_match": true
+      },
+      "locks_passed": 10,
+      "total_locks": 10
+    },
+    "custody_manifests": [
+      {
+        "card": "A2-OW1",
+        "computed_sha256": "9c75b82b987d3483334c507e0c2d0fac1f8876819b247c2b654283fccb03fb7f",
+        "expected_sha256": "9c75b82b987d3483334c507e0c2d0fac1f8876819b247c2b654283fccb03fb7f",
+        "manifest": "relays/a2_ow1_v3/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow1_v3/verify_a2_ow1_v3.py"
+      },
+      {
+        "card": "A2-OW1",
+        "computed_sha256": "d2b30a5f189424ac0d1a20600deb78de2cbf0e4b391246467c8184d72b9c5778",
+        "expected_sha256": "d2b30a5f189424ac0d1a20600deb78de2cbf0e4b391246467c8184d72b9c5778",
+        "manifest": "relays/a2_ow1_v3/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow1_v3/verify_a2_ow1_v3_out.json"
+      },
+      {
+        "card": "A2-OW1",
+        "computed_sha256": "7263cd70a11cf8c83859e2af6e563e12756605f89cdcfedb1b749f836470ea68",
+        "expected_sha256": "7263cd70a11cf8c83859e2af6e563e12756605f89cdcfedb1b749f836470ea68",
+        "manifest": "relays/a2_ow1_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow1_referee/referee_a2_ow1.py"
+      },
+      {
+        "card": "A2-OW1",
+        "computed_sha256": "09600723bf4eb777b3564a46f584bf7ac8888236e27af660a0b7659e75e9b135",
+        "expected_sha256": "09600723bf4eb777b3564a46f584bf7ac8888236e27af660a0b7659e75e9b135",
+        "manifest": "relays/a2_ow1_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow1_referee/referee_a2_ow1_out.json"
+      },
+      {
+        "card": "A2-OW2",
+        "computed_sha256": "cb4ce4af62a29bbe5bf24775101628cd6a395bf870db7007221fbe791bd5a0a8",
+        "expected_sha256": "cb4ce4af62a29bbe5bf24775101628cd6a395bf870db7007221fbe791bd5a0a8",
+        "manifest": "relays/a2_ow2_v4/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow2_v4/verify_a2_ow2_v4.py"
+      },
+      {
+        "card": "A2-OW2",
+        "computed_sha256": "fc2365e59af2781de71c5c339135cabede862900345571bab9671dd87a4d9631",
+        "expected_sha256": "fc2365e59af2781de71c5c339135cabede862900345571bab9671dd87a4d9631",
+        "manifest": "relays/a2_ow2_v4/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow2_v4/verify_a2_ow2_v4_out.json"
+      },
+      {
+        "card": "A2-OW2",
+        "computed_sha256": "1c79d5a719e6c5b36624f4b70fb12da48086179ce39d78748cda942c300e954f",
+        "expected_sha256": "1c79d5a719e6c5b36624f4b70fb12da48086179ce39d78748cda942c300e954f",
+        "manifest": "relays/a2_ow2_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow2_referee/referee_a2_ow2.py"
+      },
+      {
+        "card": "A2-OW2",
+        "computed_sha256": "88b5d176b2e6f86301bb8cc25bd2877924948d5d4ad474d6cd7289398e9748c9",
+        "expected_sha256": "88b5d176b2e6f86301bb8cc25bd2877924948d5d4ad474d6cd7289398e9748c9",
+        "manifest": "relays/a2_ow2_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow2_referee/referee_a2_ow2_out.json"
+      },
+      {
+        "card": "A2-OW3",
+        "computed_sha256": "44b9e3885296c0e3a64f7e283d01795145372eec068834686c0cd64367a5d315",
+        "expected_sha256": "44b9e3885296c0e3a64f7e283d01795145372eec068834686c0cd64367a5d315",
+        "manifest": "relays/a2_ow3_v2/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow3_v2/verify_a2_ow3_v2.py"
+      },
+      {
+        "card": "A2-OW3",
+        "computed_sha256": "faa0bace9ae02c54475c6eb3f628e9b512c1f98e83a32d6c0d69e5d568b0b7cb",
+        "expected_sha256": "faa0bace9ae02c54475c6eb3f628e9b512c1f98e83a32d6c0d69e5d568b0b7cb",
+        "manifest": "relays/a2_ow3_v2/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow3_v2/verify_a2_ow3_v2_out.json"
+      },
+      {
+        "card": "A2-OW3",
+        "computed_sha256": "3441de710340187596969247812236ddc6319371980e6d6709f7d787ee5bc208",
+        "expected_sha256": "3441de710340187596969247812236ddc6319371980e6d6709f7d787ee5bc208",
+        "manifest": "relays/a2_ow3_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow3_referee/referee_a2_ow3.py"
+      },
+      {
+        "card": "A2-OW3",
+        "computed_sha256": "ae456a7eb9b314b800db01b2cf34973373e6ed18e57c5ae0337b4e17cd55f40b",
+        "expected_sha256": "ae456a7eb9b314b800db01b2cf34973373e6ed18e57c5ae0337b4e17cd55f40b",
+        "manifest": "relays/a2_ow3_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow3_referee/referee_a2_ow3_out.json"
+      },
+      {
+        "card": "A2-OW4",
+        "computed_sha256": "c88291acbe27196b2f250b7980c424f187037db9135065cb6c5a9d7c3dcc5f4f",
+        "expected_sha256": "c88291acbe27196b2f250b7980c424f187037db9135065cb6c5a9d7c3dcc5f4f",
+        "manifest": "relays/a2_ow4_v2/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow4_v2/verify_a2_ow4_v2.py"
+      },
+      {
+        "card": "A2-OW4",
+        "computed_sha256": "aa2fbd686da0ef0a28723aa225c31ff5924197247bbbe109c48b566ecf82624f",
+        "expected_sha256": "aa2fbd686da0ef0a28723aa225c31ff5924197247bbbe109c48b566ecf82624f",
+        "manifest": "relays/a2_ow4_v2/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow4_v2/verify_a2_ow4_v2_out.json"
+      },
+      {
+        "card": "A2-OW4",
+        "computed_sha256": "7622affa4f1dc04fc91ae13f8e36c3d2ce4b6220a0a3db39936eb149e29057b8",
+        "expected_sha256": "7622affa4f1dc04fc91ae13f8e36c3d2ce4b6220a0a3db39936eb149e29057b8",
+        "manifest": "relays/a2_ow4_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow4_referee/referee_a2_ow4.py"
+      },
+      {
+        "card": "A2-OW4",
+        "computed_sha256": "d6b61d9d657098ed9232118111c7183c632bd7d9485535c5c8b8c5ef28c2a503",
+        "expected_sha256": "d6b61d9d657098ed9232118111c7183c632bd7d9485535c5c8b8c5ef28c2a503",
+        "manifest": "relays/a2_ow4_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow4_referee/referee_a2_ow4_out.json"
+      },
+      {
+        "card": "A2-OW5",
+        "computed_sha256": "8d67629e3fe8c41fa1dccc615cacb3e40464e63062efaa3dcacae15f44a0b903",
+        "expected_sha256": "8d67629e3fe8c41fa1dccc615cacb3e40464e63062efaa3dcacae15f44a0b903",
+        "manifest": "relays/a2_ow5/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow5/verify_a2_ow5.py"
+      },
+      {
+        "card": "A2-OW5",
+        "computed_sha256": "66ed8860885a643ca6305e24798447dfce36cae2dc532e811357a73c3b4d388b",
+        "expected_sha256": "66ed8860885a643ca6305e24798447dfce36cae2dc532e811357a73c3b4d388b",
+        "manifest": "relays/a2_ow5/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow5/verify_a2_ow5_out.json"
+      },
+      {
+        "card": "A2-OW5",
+        "computed_sha256": "40225aedea711ffe704bae923d0961d358b199b7bf020452c81a8c29040fa64d",
+        "expected_sha256": "40225aedea711ffe704bae923d0961d358b199b7bf020452c81a8c29040fa64d",
+        "manifest": "relays/a2_ow5_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow5_referee/referee_a2_ow5.py"
+      },
+      {
+        "card": "A2-OW5",
+        "computed_sha256": "b15675122dd7ad9cd257b060dbc18488534541f49098706379f347b396a04ae0",
+        "expected_sha256": "b15675122dd7ad9cd257b060dbc18488534541f49098706379f347b396a04ae0",
+        "manifest": "relays/a2_ow5_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow5_referee/referee_a2_ow5_out.json"
+      },
+      {
+        "card": "A2-OW6",
+        "computed_sha256": "1c822be0c7ba0d0bf344caedbe8be313f7ed943d36eb1c9b8b36defa46a622be",
+        "expected_sha256": "1c822be0c7ba0d0bf344caedbe8be313f7ed943d36eb1c9b8b36defa46a622be",
+        "manifest": "relays/a2_ow6_v2/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow6_v2/verify_a2_ow6_v2.py"
+      },
+      {
+        "card": "A2-OW6",
+        "computed_sha256": "9ca180c0881848aea6f536b585c186d06f0c379e781a0978645c9309ff5b2921",
+        "expected_sha256": "9ca180c0881848aea6f536b585c186d06f0c379e781a0978645c9309ff5b2921",
+        "manifest": "relays/a2_ow6_v2/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow6_v2/verify_a2_ow6_v2_out.json"
+      },
+      {
+        "card": "A2-OW6",
+        "computed_sha256": "384e7560816a99f4db3834b4363b983e2c4272dc68d50f375af1e54239a4706d",
+        "expected_sha256": "384e7560816a99f4db3834b4363b983e2c4272dc68d50f375af1e54239a4706d",
+        "manifest": "relays/a2_ow6_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow6_referee/referee_a2_ow6.py"
+      },
+      {
+        "card": "A2-OW6",
+        "computed_sha256": "1f12ef75e7065a40bb167b7c1727385aaa6b2eaa4be510a56eaa35793d39d9a8",
+        "expected_sha256": "1f12ef75e7065a40bb167b7c1727385aaa6b2eaa4be510a56eaa35793d39d9a8",
+        "manifest": "relays/a2_ow6_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow6_referee/referee_a2_ow6_out.json"
+      },
+      {
+        "card": "A2-OW7",
+        "computed_sha256": "d151960f70dd64ea7c55cb79ebb3b267213d26251b9af03e433fa1a0e89ebfa2",
+        "expected_sha256": "d151960f70dd64ea7c55cb79ebb3b267213d26251b9af03e433fa1a0e89ebfa2",
+        "manifest": "relays/a2_ow7_v2/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow7_v2/verify_a2_ow7_v2.py"
+      },
+      {
+        "card": "A2-OW7",
+        "computed_sha256": "d9811bbc43eeb0c24a1260964c1dab5f079436b7743c33b32311c387e268d9ce",
+        "expected_sha256": "d9811bbc43eeb0c24a1260964c1dab5f079436b7743c33b32311c387e268d9ce",
+        "manifest": "relays/a2_ow7_v2/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow7_v2/verify_a2_ow7_v2_out.json"
+      },
+      {
+        "card": "A2-OW7",
+        "computed_sha256": "2d862333cbf029118717225d4fe13903ee1978d27532c7e005d623cf7ce7219d",
+        "expected_sha256": "2d862333cbf029118717225d4fe13903ee1978d27532c7e005d623cf7ce7219d",
+        "manifest": "relays/a2_ow7_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow7_referee/referee_a2_ow7.py"
+      },
+      {
+        "card": "A2-OW7",
+        "computed_sha256": "fa63ddc5ffabd39a722a0902d8ca6f9deb198ebb98560328a9002d2cefb2e166",
+        "expected_sha256": "fa63ddc5ffabd39a722a0902d8ca6f9deb198ebb98560328a9002d2cefb2e166",
+        "manifest": "relays/a2_ow7_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow7_referee/referee_a2_ow7_out.json"
+      },
+      {
+        "card": "A2-OW8",
+        "computed_sha256": "9507cf5f029f5ea4bd03cbcbce2f2a387f9fbccfe4fe21dd4b287cd874f49d86",
+        "expected_sha256": "9507cf5f029f5ea4bd03cbcbce2f2a387f9fbccfe4fe21dd4b287cd874f49d86",
+        "manifest": "relays/a2_ow8/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow8/verify_a2_ow8.py"
+      },
+      {
+        "card": "A2-OW8",
+        "computed_sha256": "2c23a9aeb764c2f685e46e3f474dc3cdf6f6d2d19415ce4c7162fedfa5925d51",
+        "expected_sha256": "2c23a9aeb764c2f685e46e3f474dc3cdf6f6d2d19415ce4c7162fedfa5925d51",
+        "manifest": "relays/a2_ow8/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow8/verify_a2_ow8_out.json"
+      },
+      {
+        "card": "A2-OW8",
+        "computed_sha256": "c139bf05b4ba44fe4d5006d75f2b9acac334383e69cf9acd063680b3bbdf0f84",
+        "expected_sha256": "c139bf05b4ba44fe4d5006d75f2b9acac334383e69cf9acd063680b3bbdf0f84",
+        "manifest": "relays/a2_ow8_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow8_referee/referee_a2_ow8.py"
+      },
+      {
+        "card": "A2-OW8",
+        "computed_sha256": "5503adff0c4e615dc4d004f3c15b5fbe7539dece118b4b34e49c5df2957a11aa",
+        "expected_sha256": "5503adff0c4e615dc4d004f3c15b5fbe7539dece118b4b34e49c5df2957a11aa",
+        "manifest": "relays/a2_ow8_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow8_referee/referee_a2_ow8_out.json"
+      },
+      {
+        "card": "A2-OW9",
+        "computed_sha256": "cd11f6ae699521db213a29f0ca3fa9e81f4d1c3eab93e82fc0b011e9a00cdc05",
+        "expected_sha256": "cd11f6ae699521db213a29f0ca3fa9e81f4d1c3eab93e82fc0b011e9a00cdc05",
+        "manifest": "relays/a2_ow9/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow9/verify_a2_ow9.py"
+      },
+      {
+        "card": "A2-OW9",
+        "computed_sha256": "98c3cab20862df748acbc34c291cad54821ad172f5f11f2519efc2e467fbe45f",
+        "expected_sha256": "98c3cab20862df748acbc34c291cad54821ad172f5f11f2519efc2e467fbe45f",
+        "manifest": "relays/a2_ow9/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow9/verify_a2_ow9_out.json"
+      },
+      {
+        "card": "A2-OW9",
+        "computed_sha256": "434fb699b3e0a0674cb4041c0d49f03c7f81fdf8c4daa9a9a94b37378a7fc908",
+        "expected_sha256": "434fb699b3e0a0674cb4041c0d49f03c7f81fdf8c4daa9a9a94b37378a7fc908",
+        "manifest": "relays/a2_ow9_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow9_referee/referee_a2_ow9.py"
+      },
+      {
+        "card": "A2-OW9",
+        "computed_sha256": "b8fb4f81d19912523144f70451ee1da1b45ac3e608daad49d017a08adf41076e",
+        "expected_sha256": "b8fb4f81d19912523144f70451ee1da1b45ac3e608daad49d017a08adf41076e",
+        "manifest": "relays/a2_ow9_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow9_referee/referee_a2_ow9_out.json"
+      },
+      {
+        "card": "A2-OW10",
+        "computed_sha256": "67e50af76bd75b9fcef482873e98e4d40506927556a28bed2a196e7866e9c248",
+        "expected_sha256": "67e50af76bd75b9fcef482873e98e4d40506927556a28bed2a196e7866e9c248",
+        "manifest": "relays/a2_ow10_v2/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow10_v2/verify_a2_ow10_v2.py"
+      },
+      {
+        "card": "A2-OW10",
+        "computed_sha256": "de961917c4663114dac80dd2084499597e99cdd1c089b70d3fb1b54f07689ce7",
+        "expected_sha256": "de961917c4663114dac80dd2084499597e99cdd1c089b70d3fb1b54f07689ce7",
+        "manifest": "relays/a2_ow10_v2/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow10_v2/verify_a2_ow10_v2_out.json"
+      },
+      {
+        "card": "A2-OW10",
+        "computed_sha256": "eaef2db4bd63aaf449e0fc27f3a7d0facc4f975a005c31e81f45f26956163030",
+        "expected_sha256": "eaef2db4bd63aaf449e0fc27f3a7d0facc4f975a005c31e81f45f26956163030",
+        "manifest": "relays/a2_ow10_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow10_referee/referee_a2_ow10.py"
+      },
+      {
+        "card": "A2-OW10",
+        "computed_sha256": "75719d1bd490d286f6d9503be23db37199dc82ff0de399461657f02c6e7ec8ef",
+        "expected_sha256": "75719d1bd490d286f6d9503be23db37199dc82ff0de399461657f02c6e7ec8ef",
+        "manifest": "relays/a2_ow10_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow10_referee/referee_a2_ow10_out.json"
+      },
+      {
+        "card": "A2-OW11",
+        "computed_sha256": "91199e876d194bc32797182a4fe33df5520fbf8290be2f9c8274a9cfd5ea66cd",
+        "expected_sha256": "91199e876d194bc32797182a4fe33df5520fbf8290be2f9c8274a9cfd5ea66cd",
+        "manifest": "relays/a2_ow11_v3/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow11_v3/verify_a2_ow11_v3.py"
+      },
+      {
+        "card": "A2-OW11",
+        "computed_sha256": "f7c89aacd55cc6505b47476366796ce7603cfb0cf5e6cecb5373465109ed3dc2",
+        "expected_sha256": "f7c89aacd55cc6505b47476366796ce7603cfb0cf5e6cecb5373465109ed3dc2",
+        "manifest": "relays/a2_ow11_v3/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow11_v3/verify_a2_ow11_v3_out.json"
+      },
+      {
+        "card": "A2-OW11",
+        "computed_sha256": "a4cdaca10695050211e9d1788f05d3fbf776a26ce125931c1b915591f0ac65da",
+        "expected_sha256": "a4cdaca10695050211e9d1788f05d3fbf776a26ce125931c1b915591f0ac65da",
+        "manifest": "relays/a2_ow11_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow11_referee/referee_a2_ow11.py"
+      },
+      {
+        "card": "A2-OW11",
+        "computed_sha256": "8b593cbdff97b0acd966f5b156f1dcb79a06b5c8721a7cc76039bdae52461b4c",
+        "expected_sha256": "8b593cbdff97b0acd966f5b156f1dcb79a06b5c8721a7cc76039bdae52461b4c",
+        "manifest": "relays/a2_ow11_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow11_referee/referee_a2_ow11_out.json"
+      },
+      {
+        "card": "A2-OW12",
+        "computed_sha256": "4badac99a84e847d059d5e2fbef09f4f362bbede5406e549d72770353b7f8d09",
+        "expected_sha256": "4badac99a84e847d059d5e2fbef09f4f362bbede5406e549d72770353b7f8d09",
+        "manifest": "relays/a2_ow12_v3/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow12_v3/verify_a2_ow12_v3.py"
+      },
+      {
+        "card": "A2-OW12",
+        "computed_sha256": "8dc74bf64534864b9c77ed165cdb4bf97cd98948b29c980416dd8a2923ed3fd5",
+        "expected_sha256": "8dc74bf64534864b9c77ed165cdb4bf97cd98948b29c980416dd8a2923ed3fd5",
+        "manifest": "relays/a2_ow12_v3/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow12_v3/verify_a2_ow12_v3_out.json"
+      },
+      {
+        "card": "A2-OW12",
+        "computed_sha256": "46d123207ec0a9df9d9cab0def975639e0d1f0211fa3908a3c75fa29b055c96b",
+        "expected_sha256": "46d123207ec0a9df9d9cab0def975639e0d1f0211fa3908a3c75fa29b055c96b",
+        "manifest": "relays/a2_ow12_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow12_referee/referee_a2_ow12.py"
+      },
+      {
+        "card": "A2-OW12",
+        "computed_sha256": "80e430e7fee912d8ff79113695c179e839418313092862f97824d12a9bf074bf",
+        "expected_sha256": "80e430e7fee912d8ff79113695c179e839418313092862f97824d12a9bf074bf",
+        "manifest": "relays/a2_ow12_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow12_referee/referee_a2_ow12_out.json"
+      },
+      {
+        "card": "A2-OW13",
+        "computed_sha256": "b07c6f6561d9501a5b9a8634fdfd7661dfcd882e32b926919dab2666d25b8b9d",
+        "expected_sha256": "b07c6f6561d9501a5b9a8634fdfd7661dfcd882e32b926919dab2666d25b8b9d",
+        "manifest": "relays/a2_ow13_v2/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow13_v2/verify_a2_ow13_v2.py"
+      },
+      {
+        "card": "A2-OW13",
+        "computed_sha256": "7736b22437716992786e53fcf11fd6d7a4f7545a2b8db4f2700c53849e66af7f",
+        "expected_sha256": "7736b22437716992786e53fcf11fd6d7a4f7545a2b8db4f2700c53849e66af7f",
+        "manifest": "relays/a2_ow13_v2/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow13_v2/a2_ow13_v2_results.json"
+      },
+      {
+        "card": "A2-OW13",
+        "computed_sha256": "552369ae7873525a67185c9e953735238a0fe22cb254b82c596249314436fb0e",
+        "expected_sha256": "552369ae7873525a67185c9e953735238a0fe22cb254b82c596249314436fb0e",
+        "manifest": "relays/a2_ow13_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow13_referee/referee_a2_ow13.py"
+      },
+      {
+        "card": "A2-OW13",
+        "computed_sha256": "36b9e684c445d2753b9502e81c738e8c44ba001ad1fe51e9d88b849c63285e3e",
+        "expected_sha256": "36b9e684c445d2753b9502e81c738e8c44ba001ad1fe51e9d88b849c63285e3e",
+        "manifest": "relays/a2_ow13_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow13_referee/a2_ow13_referee_results.json"
+      },
+      {
+        "card": "A2-OW14",
+        "computed_sha256": "ebdf1389797bbe312a9b1a13411ee913890727897b9443010790cf603afff8b3",
+        "expected_sha256": "ebdf1389797bbe312a9b1a13411ee913890727897b9443010790cf603afff8b3",
+        "manifest": "relays/a2_ow14_v2/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow14_v2/verify_a2_ow14_v2.py"
+      },
+      {
+        "card": "A2-OW14",
+        "computed_sha256": "8ee32689f299f47f221088770f36415632b3e5df3cc2b5ba6e5d1193cf16cf9c",
+        "expected_sha256": "8ee32689f299f47f221088770f36415632b3e5df3cc2b5ba6e5d1193cf16cf9c",
+        "manifest": "relays/a2_ow14_v2/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow14_v2/a2_ow14_v2_results.json"
+      },
+      {
+        "card": "A2-OW14",
+        "computed_sha256": "2b88727df9a2cc162983f99a4849ae05f9d9b0c9b5fb36671bd5edf480c3f11b",
+        "expected_sha256": "2b88727df9a2cc162983f99a4849ae05f9d9b0c9b5fb36671bd5edf480c3f11b",
+        "manifest": "relays/a2_ow14_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow14_referee/referee_a2_ow14.py"
+      },
+      {
+        "card": "A2-OW14",
+        "computed_sha256": "c7cf995001f6590f7d70532601ec21756314e535d812086810c9e512bf3c2ea0",
+        "expected_sha256": "c7cf995001f6590f7d70532601ec21756314e535d812086810c9e512bf3c2ea0",
+        "manifest": "relays/a2_ow14_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow14_referee/a2_ow14_referee_results.json"
+      },
+      {
+        "card": "A2-OW15",
+        "computed_sha256": "ea4ed0fa5f8b2f31c6462a40f663e825e23ba1d8705466f0e620a5172232d857",
+        "expected_sha256": "ea4ed0fa5f8b2f31c6462a40f663e825e23ba1d8705466f0e620a5172232d857",
+        "manifest": "relays/a2_ow15/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow15/verify_a2_ow15.py"
+      },
+      {
+        "card": "A2-OW15",
+        "computed_sha256": "e35ac5f00b3c787273a23a4ab7e206e5724f139239b45a049b83518ca4bfd66e",
+        "expected_sha256": "e35ac5f00b3c787273a23a4ab7e206e5724f139239b45a049b83518ca4bfd66e",
+        "manifest": "relays/a2_ow15/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "producer",
+        "target": "relays/a2_ow15/a2_ow15_results.json"
+      },
+      {
+        "card": "A2-OW15",
+        "computed_sha256": "64b47c280ab854341c5266dd5ea74bd07e1f2cf36623d058902635d17f8d23ae",
+        "expected_sha256": "64b47c280ab854341c5266dd5ea74bd07e1f2cf36623d058902635d17f8d23ae",
+        "manifest": "relays/a2_ow15_referee/SCRIPT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow15_referee/referee_a2_ow15.py"
+      },
+      {
+        "card": "A2-OW15",
+        "computed_sha256": "4d8f05b63a9f9fad7b829f81ac6abd76b00799d2b7c17f09a049e5f3c584b878",
+        "expected_sha256": "4d8f05b63a9f9fad7b829f81ac6abd76b00799d2b7c17f09a049e5f3c584b878",
+        "manifest": "relays/a2_ow15_referee/OUTPUT_SHA256.txt",
+        "match": true,
+        "role": "referee",
+        "target": "relays/a2_ow15_referee/a2_ow15_referee_results.json"
+      }
+    ],
+    "custody_manifests_total": 60,
+    "custody_manifests_verified": 60,
+    "gate_pass": true
+  },
+  "ow16_b": {
+    "gate_pass": true,
+    "guardrail5_input_ledger": {
+      "campaign1_sm_uv_continuous_ratios": [
+        "g_UV",
+        "lam_0",
+        "tan_beta",
+        "M_R_over_M_X"
+      ],
+      "campaign1_sm_uv_count": 4,
+      "campaign2_sm_uv_continuous_ratios": [
+        "g_UV",
+        "tan_beta",
+        "M_R_over_M_X"
+      ],
+      "campaign2_sm_uv_count": 3,
+      "dimensionful_unit_anchors": 1,
+      "discrete_flavor_selection_bits": "3.5849625007212",
+      "eliminated_in_campaign2": [
+        "lam_0 (via A2-OW13 Spin(10) f_lam > 0 UV-irrelevant quartics)"
+      ],
+      "guardrail5_anchor_limit_ok": true,
+      "honestly_priced_cosmology_and_axion_scales": [
+        "Lambda_eff_over_MPl4 (unimodular integration constant, decoupled from a_0=-64 by A2-OW14)",
+        "f_a_over_MPl (7D CS axion decay constant required by A2-OW12 bar_theta_Q != 0)",
+        "soft_portal_scale (required only if m_h/v = 1/2 lifted above A2-OW13 perturbative GW floor)"
+      ],
+      "sm_uv_reduction_delta": 1,
+      "sm_uv_reduction_verified": true,
+      "tier1_foundations_derived_in_campaign2": [
+        "X22_Lorentzian_1_3_signature (A2-OW15: 1 of 3 in 4D, 1 of 48 towers in 4D/6D/7D)",
+        "X2_conformal_BH_entropy_S_BH_eq_A_over_4Gind (A2-OW15: c_log = -55/3 + 103/3 = +16)",
+        "X1_L2_born_norm_uniqueness_given_unitarity (A2-OW15; Hilbert space/measurement remain EXTERNAL_AXIOM)",
+        "X37_abelian_7D_CS_3form_gerbe (A2-OW5/OW15; non-abelian 2-form gerbe remains OPEN_UV_BOUNDARY)"
+      ]
+    }
+  },
+  "ow16_c": {
+    "cross_seat_reconciliation": {
+      "surfaces": [
+        {
+          "agy002_open_weave": "A2-OW3/OW8/OW13: Spin(10) X:HOL 2H Type-II at conformal xi=1/6, gravity-fixed lam_0 -> 0, GW H_d top-tachyon cure (honest portal gap at m_h/v=1/2)",
+          "peer_agy_cusp_lane": "AGY-C5/C11/C14/C17: Holomorphic projection, 2-loop 2HDM RGE radiative splitting, zero-knob GHU D-term quartic with tan(beta) > 10",
+          "relation": "COMPLEMENTARY_CONVERGENT_2H_MECHANISM",
+          "surface": "Two-Higgs & EWSB"
+        },
+        {
+          "agy002_open_weave": "A2-OW12: Exact bar_theta_Q(tau_*^+) ~ +156/10^4 rad != 0 (heavy Re(tau)); addressed by forced 7D CS axion with Spin(10) E/N = 8/3",
+          "peer_agy_cusp_lane": "AGY-C11/C12: Universal Fricke Strong-CP audit on the cusp-boundary lane",
+          "relation": "SHARED_CP_SURFACE_AXION_VS_FRICKE",
+          "surface": "Strong CP"
+        },
+        {
+          "agy002_open_weave": "A2-OW12: Zero-param eps_nu=1 seesaw with M_R^{(00)} -> normal ordering dm21/dm31 ~ 269/10^4, s23^2 > 56/100 all 6 perms, leptogenesis eps_1 ~ +545/10^8",
+          "peer_agy_cusp_lane": "AGY-C10/C16: Untwisted neutrino seesaw & 30x30 Weyl collar derivation of Y_nu Y_nu^T",
+          "relation": "SHARED_NEUTRINO_UNTWISTING_CONVERGENCE",
+          "surface": "Neutrinos & Leptogenesis"
+        },
+        {
+          "agy002_open_weave": "A2-OW5/OW11/OW15: 6D Spin(10) 3x16_+ I_8 (c_{F^4}=-1/8, c_{R^4}=1/120) forcing 7D CS 3-form inflow & abelian U(1) gerbe",
+          "peer_agy_cusp_lane": "AGY-C6/C9/C13/C17: E_8 I_37 bridge, 6D gravitational anomaly, and 7D Stora-Zumino tr(R^4) inflow",
+          "relation": "CONVERGENT_7D_INFLOW_DIFFERENT_UV_GROUP",
+          "surface": "6D -> 7D Anomaly Inflow"
+        },
+        {
+          "agy002_open_weave": "A2-OW4/OW8/OW9/OW10/OW13/OW14/OW15: D=4, (1,3), N_gen=3 double-pincer, Spin(10) weak FRG, S_BH=A/(4G), 7D radion N_accel < 1, Unimodular det g=-1",
+          "peer_agy_cusp_lane": "AGY-C17: Finite cusped Vol(X_{4_1}^{(m)}) normalizing 4D graviton below lambda_ess = 1",
+          "relation": "NON_OVERLAPPING_COMPLEMENTARY_COVERAGE",
+          "surface": "Gravity, Signature & Cosmology"
+        },
+        {
+          "agy002_open_weave": "A2-OW16: 60/60 SHA-256 manifests, 24-observable 0-of-19 blind prediction seal, stops cleanly at docs/seats/README Section 9",
+          "peer_agy_cusp_lane": "AGY-C18: 22-observable blind_predictions_zero_knob_v1.json (FITTED=0), stops cleanly at docs/seats/README Section 9",
+          "relation": "IDENTICAL_BLIND_FIREWALL_DISCIPLINE",
+          "surface": "0-of-19 Blind Firewall"
+        }
+      ],
+      "total_surfaces": 6
+    },
+    "gate_pass": true
+  },
+  "ow16_d": {
+    "gate_pass": true,
+    "pf_ow16_1_tamper_1byte_manifest": {
+      "detected": true,
+      "match": false,
+      "target": "relays/a2_ow15/a2_ow15_results.json"
+    },
+    "pf_ow16_2_perturb_ow15_clog_15": {
+      "detected": true,
+      "lock_6": false
+    },
+    "pf_ow16_3_duplicate_row_partition": {
+      "detected": true,
+      "partition_verified": false,
+      "total_observables": 25
+    },
+    "pf_ow16_4_omit_lam0_elimination": {
+      "detected": true,
+      "sm_uv_reduction_delta": 0,
+      "sm_uv_reduction_verified": false
+    },
+    "planted_faults_detected": 4
+  },
+  "seat": "AGY-002"
+}
