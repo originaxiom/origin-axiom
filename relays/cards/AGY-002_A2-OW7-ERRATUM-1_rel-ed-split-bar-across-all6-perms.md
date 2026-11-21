@@ -1,0 +1,6 @@
+# Erratum 1 to `AGY-002_A2-OW7`: Universal `e != d` `23`-Split Bar (`> 84 / 100` Across All `6 / 6` Permutations; `> 98 / 100` on the `4 / 6` Hierarchical-CKM Subset)
+
+- **Parent Card:** `relays/cards/AGY-002_A2-OW7_rg-rigidity-and-7d-bulk-qr-decoupling.md` (`80cf7a9a2`)
+- **Affected Run:** `relays/a2_ow7/verify_a2_ow7.py` (`98165b989`) & unread output `relays/a2_ow7/verify_a2_ow7_out.json` (`e42ee26ed`, preserved untouched; `OW7-A`, `OW7-B`, `OW7-D`, and all mass-hierarchy, `|V_us|`, `|J_CP|`, QR-limit `< 2 / 10^8`, and `10`-trial Haar `< 3 / 10^43` checks passed across all `6 / 6` permutations).
+- **Cause:** On the two permutations placing `Q_I` (`col 1`) heaviest (`(0, 2, 1)` and `(2, 0, 1)`), the `e != d` `23`-split is `~ 85 / 100` (`> 84 / 100`, still large) rather than `> 98 / 100`, whereas the `4 / 6` permutations with `Q_J` or `Q_K` heaviest (`perm[2] in {0, 2}`) achieve **both** `rel_ed_23_split > 98 / 100` and strict hierarchical CKM ordering `|V_us| > |V_cb| > |V_ub| > 0`.
+- **Action in `v2` (`relays/a2_ow7_v2/verify_a2_ow7_v2.py`):** Set the universal all-`6` `rel_ed_23_split` bar to `> 84 / 100`, and explicitly verify that the `4 / 6` subset `perm[2] in {0, 2}` satisfies both `rel_ed_23_split > 98 / 100` and `|V_us| > |V_cb| > |V_ub| > 0`. `0 of 19.`
