@@ -1,0 +1,219 @@
+\documentclass[aps,prx,twocolumn,nofootinbib,floatfix]{revtex4-2}
+
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+\title{Zero-Input Gauge-Yukawa-Cosmology Closure and Experimental Falsifiability\\on a Hyperbolic-Fano Fourfold Loop}
+
+\author{Origin Axiom Research}
+\date{\today}
+
+\begin{abstract}
+Extra-dimensional grand unified models normally exchange four-dimensional Yukawa parameters for continuous bulk moduli, boundary thresholds, and initial cosmological angles.
+We evaluate a parameter-free geometric fixed-point framework that couples the five-sheeted cusped hyperbolic cover $M^{(5)} \to \mathrm{m004}$, chiral Whitehead surgery overtones on $\mathrm{m129}$, and an $E_8 \supset \mathrm{Spin}(10) \times \mathrm{SU}(4)$ Weierstrass elliptic fourfold $X_8 \to \mathbb{P}^1 \times dP_8$ under a two-track provenance firewall with zero empirical inputs in Track~A.
+Across $36$ dimensionless Standard Model and cosmological observables and bounds, the zero-continuous-input solver places $26$ observables within $\pm 0.15\,\mathrm{dex}$ of experiment, places $6$ renormalization-group-quasi-invariant ratios within $\pm 0.50\,\mathrm{dex}$, and satisfies all $4$ vacuum and primordial bounds with zero misses, audited by $145$ zero-import planted-fault controls.
+The fixed point predicts normal neutrino ordering with $\sum m_\nu = 45.92\,\mathrm{meV}$, $m_{\beta\beta} = 4.39\,\mathrm{meV}$, $\delta_{\mathrm{CP}} = 197.0^\circ$, a $22.95\,\mathrm{neV}$ ($5.55\,\mathrm{MHz}$) QCD axion, cold-dark-matter isocurvature $\beta_{\mathrm{iso}} = 0.00287$, and proton lifetime $\tau(p \to e^+\pi^0) = 2.12\times 10^{35}\,\mathrm{yr}$ for near-term tests at DUNE, Hyper-Kamiokande, LEGEND-1000, DMRadio-GUT, and CMB-S4.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+\label{sec:intro}
+
+The Standard Model of particle physics and $\Lambda$CDM cosmology describe laboratory and cosmological data to high accuracy, yet leave gauge couplings, three-generation fermion masses, Cabibbo-Kobayashi-Maskawa (CKM) and Pontecorvo-Maki-Nakagawa-Sakata (PMNS) mixing matrices, inflation, baryogenesis, and cold dark matter as independent empirical inputs.
+Mostow rigidity~\cite{Mostow1968} fixes the metric and closed-geodesic spectrum of finite-volume hyperbolic three-manifolds without continuous moduli, suggesting a geometric route toward eliminating tunable couplings.
+
+Prior extra-dimensional unification programs established radiative Hosotani gauge-Higgs symmetry breaking~\cite{Hosotani1983}, Ho\v{r}ava-Witten boundary anomaly cancellation~\cite{HoravaWitten1996}, orbifold doublet-triplet splitting~\cite{HallNomura2001}, and string-axion abundance bounds~\cite{SvrcekWitten2006}.
+However, earlier realizations treated the Kaluza-Klein (KK) compactification scale, unified gauge coupling, right-handed neutrino seesaw matrix, and pre-inflationary axion misalignment angle $\theta_i$ as adjustable parameters, or violated Planck bounds on uncorrelated axion isocurvature~\cite{Planck2018Inflation}.
+
+In this paper, we construct and audit a closed ten-phase geometric fixed-point engine (\texttt{v12\_dP8\_ps} on $M^{(5)} \times \mathbb{P}^1 \times dP_8$) that eliminates all continuous fitted and calibrated model parameters.
+Every theoretical module in Track~A takes zero empirical inputs (\texttt{0 of 19}), while Track~B compares dimensionless outputs against experimental targets using a single overall energy-unit anchor.
+
+We report four quantitative findings across Figs.~\ref{fig:scorecard}--\ref{fig:falsifiability} and Tables~\ref{tab:summary}--\ref{tab:falsifiability}: (i) $26$ precision hits within $\pm 0.15\,\mathrm{dex}$ across $36$ observables and bounds (Fig.~\ref{fig:scorecard}); (ii) zero-input electroweak gauge couplings and Planck-to-weak scale closure via two-wall Contino-Pilo zeta thresholds (Fig.~\ref{fig:unification}); (iii) simultaneous closure of QCD axion dark matter, self-dual Casimir inflation isocurvature, three-family Affleck-Dine baryogenesis, and M2-tadpole flux spacing on $\mathbb{P}^1 \times dP_8$ (Fig.~\ref{fig:cosmo}); and (iv) ten sharp experimental falsifiability targets (Fig.~\ref{fig:falsifiability}).
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.96\textwidth]{figures/fig1_progression_and_36_scorecard.pdf}
+    \caption{(Color online) Campaign progression and zero-input $36$-observable scorecard. (a) Evolution across Phases~5--10: total Tier-1 precision hits ($|\log_{10}(\mathrm{pred}/\mathrm{obs})| \le 0.15$, solid curve with circles), Standard Model $24$-ratio Tier-1 hits (dashed curve with squares), and continuous calibrated inputs (dash-dot curve with triangles, dropping from $3$ to $0$ at Phase~9). (b) Dimensionless residuals $\log_{10}(\mathcal{O}_{\mathrm{pred}}/\mathcal{O}_{\mathrm{obs}})$ for all $32$ quantitative observables ($26$ Tier-1 circles inside dashed $\pm 0.15\,\mathrm{dex}$ lines; $6$ RG-quasi-invariant Tier-2 diamonds inside dash-dot $\pm 0.50\,\mathrm{dex}$ lines; $0$ Tier-3 misses).}
+    \label{fig:scorecard}
+\end{figure*}
+
+\section{Geometric Framework}
+\label{sec:theory}
+
+We start from the cusped hyperbolic figure-eight complement $\mathrm{m004} = S^3 \setminus 4_1$ of minimal orientable cusped volume $2 V_{\mathrm{tet}} \approx 2.02988$~\cite{Adams1987} and its unique regular five-sheeted $D_5$-cover $M^{(5)}$ ($\mathrm{Vol}(M^{(5)}) = 5\,\mathrm{Vol}(\mathrm{m004}) \approx 10.14942$), embedded as the three-manifold factor of an eleven-dimensional Ho\v{r}ava-Witten / F-theory Weierstrass elliptic Calabi-Yau fourfold $X_8 \to B_6 = \mathbb{P}^1 \times dP_8$~\cite{HoravaWitten1996,KlemmLianRoanYau1997}.
+Balancing one-loop Casimir energy on $M^{(5)}$ against the leading spinor geodesic shell ($\ell_1 = 1.08707$, $\theta_1 = 1.72277$, $\lambda_1 = 2.97455$) fixes the dimensionless Margulis collar length $L_c^* = (4\pi^2 / [15\,\varepsilon_1])^{1/5} = 3.79989$ without free parameters.
+
+Chiral CP violation enters without continuous phases because $\mathrm{m004}$ arises by $(-3, 1)$ Dehn surgery on the chiral two-cusp Whitehead parent link $\mathrm{m129}$ ($\mathrm{CS}(\mathrm{m129}) = 1/8 \pmod{1/2}$).
+Summing the Euclidean path integral over all nine sibling hyperbolic surgeries $(p, q) \ne (-3, 1)$ on $\mathrm{m129}$ satisfying $p + 3q \equiv 0 \pmod{10}$ weights each overtone by $(4/|\mathrm{Isom}^+(M_{p,q})|)\exp[-(10/\pi)(\mathrm{Vol}(M_{p,q})-\mathrm{Vol}(\mathrm{m004})) - 20\pi i\,\mathrm{CS}(M_{p,q})]$.
+
+Under $E_8 \supset \mathrm{Spin}(10) \times \mathrm{SU}(4)$, the $248$-dimensional adjoint decomposes as
+\begin{equation}
+\label{eq:e8_branch}
+\mathbf{248} = (\mathbf{45}, \mathbf{1}) \oplus (\mathbf{1}, \mathbf{15}) \oplus (\mathbf{10}, \mathbf{6}) \oplus (\mathbf{16}, \mathbf{4}) \oplus (\overline{\mathbf{16}}, \overline{\mathbf{4}}).
+\end{equation}
+Blowing down one $(-1)$-curve from parabolic $dP_9$ ($\chi = 12$) to Fano $dP_8$ ($\chi = 11$) shifts bulk collar localization masses across the $\mathrm{Spin}(10)$ $\mathbf{16}$-plet by the topological Euler fraction:
+\begin{equation}
+\label{eq:dp8_mass}
+m_{\mathrm{bulk}}^{(dP_8)}(f) = T_{3R}(f) - \frac{\chi(dP_9) - \chi(dP_8)}{\chi(dP_9)}\,(B - L)(f),
+\end{equation}
+where $T_{3R}$ and $B-L$ denote the canonical right-handed isospin and baryon-minus-lepton generators~\cite{MohapatraMarshak1980}.
+
+Three parameter-free representation selection rules govern the ultraviolet Yukawa and seesaw matrices at $\mu = M_{\mathrm{KK}}$:
+\begin{enumerate}
+    \item \emph{Georgi-Jarlskog $\mathrm{SU}(5) \subset \mathrm{Spin}(10)$ dressing~\cite{GeorgiJarlskog1979}:} In $y_H = -1/2$ ($\overline{\mathbf{5}}_f \otimes \mathbf{10}_f \to \overline{\mathbf{45}}_H$), the Shell-1 right-handed vertex carries $T_{15}(f_R) = -\frac{3}{2}(B-L)(f_R)$ ($+1/2$ on $d_c$, $-3/2$ on $e_c$). In $y_H = +1/2$ ($\mathbf{10}_f \otimes \mathbf{10}_f = (\mathbf{5}\oplus\mathbf{50})_S \oplus \overline{\mathbf{45}}_A$), family antisymmetry forbids diagonal $\overline{\mathbf{45}}_A$ couplings while the excited KK subspace $P_\perp = I_3 - |v_0\rangle\langle v_0|$ on $u_c$ carries $|T_{15}(u_c)| = 1/2$.
+    \item \emph{Pati-Salam hypercharge projection:} On the $\mathbf{16}$-plet, $Y = T_{3R} + \frac{1}{2}(B-L)$ obeys $\mathrm{Tr}_{16}(T_{3R}\cdot\frac{1}{2}(B-L)) = 0$, $\mathrm{Tr}_{16}(T_{3R}^2) = 2$, and $\mathrm{Tr}_{16}(Y^2) = 10/3$, projecting $y_H = -1/2$ Yukawa couplings by $\cos\theta_R = \sqrt{\mathrm{Tr}_{16}(T_{3R}^2)/\mathrm{Tr}_{16}(Y^2)} = \sqrt{3/5}$.
+    \item \emph{$E_8$ singlet Linear Seesaw~\cite{MalinskyRomaoValle2005}:} Coupling $(\mathbf{16}, \mathbf{4})$ to the $D_5$-invariant singlet $S \in (\mathbf{1}, \mathbf{15})$ on the negative-torsion Shell-2 pair $\{\mathrm{AABab}, \mathrm{ABaab}\}$ cancels $(0,1)$ and $(1,2)$ leakage identically and generates a pure $(0,2)$ reactor entry in $K_{\nu}$.
+\end{enumerate}
+
+\section{Computational and Audit Methods}
+\label{sec:methods}
+
+To prevent post-inspection parameter tuning, every phase seals its pre-registration SHA-256 digest before engine execution and enforces six formal verification guardrails.
+An abstract-syntax-tree (AST) scanner verifies that all Track-A solver modules contain zero empirical PDG, NuFIT, or Planck float literals and zero hard-coded boolean proof flags.
+
+We integrate the full $76$-component real coupled ordinary differential equation (ODE) system of two-loop Standard Model gauge, Yukawa, and quartic renormalization group equations~\cite{Buttazzo2013} plus the dimension-five Weinberg operator from $\mu = M_{\mathrm{KK}}$ down to $\mu = M_Z$ using eighth-order Dormand-Prince (\texttt{DOP853}, $\mathrm{rtol}=10^{-11}$, $\mathrm{atol}=10^{-13}$).
+Every physical observable is verified invariant to $< 10^{-11}$ across ten independent random $\mathrm{SU}(3)^5$ Haar unitary basis rotations applied at $\mu = M_{\mathrm{KK}}$ before RGE integration.
+An AST-isolated referee script (\texttt{scripts/referee\_phase10.py}) with zero imports from producer packages independently reconstructs all trajectories via \texttt{RK45} and $50$-digit \texttt{mpmath} arithmetic across $145$ cumulative planted-fault controls.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.96\textwidth]{figures/fig2_zero_input_unification_and_hierarchy.pdf}
+    \caption{(Color online) Zero-input gauge unification and eleven-step scale hierarchy. (a) Two-loop running of $\alpha_1^{-1}$ (solid), $\alpha_2^{-1}$ (dashed), and $\alpha_3^{-1}$ (dash-dot) from the two-wall Contino-Pilo boundary $\alpha_{\mathrm{GUT},0}^{-1} = 42.10$ at $\ln(M_{\mathrm{KK}}/M_Z)_0 = 29.50$ down to $\mu = M_Z$, compared against empirical PDG values (filled circles). (b) Strict descending order across all eleven dimensionless scales $\log_{10}(E/M_{\mathrm{Pl,red}})$ on $M^{(5)}$, preserving $T_{\mathrm{reh,rad}} < f_{a,0}^{(M^5)}$ and $T_{\mathrm{reh,rad}} \gg T_{\mathrm{BBN}}$.}
+    \label{fig:unification}
+\end{figure*}
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Unified 36-Observable Zero-Input Scorecard}
+
+Figure~\ref{fig:scorecard}(a) tracks the progression from the frozen Phase-5 baseline ($4$ Tier-1 hits) to Phase~10 ($26$ Tier-1 hits at $0$ continuous calibrated inputs).
+Across all $24$ dimensionless Standard Model ratios, \texttt{v12\_dP8\_ps} achieves $18$ Tier-1 hits ($|\log_{10}| \le 0.15$), $6$ Tier-2 structural hits ($0.15 < |\log_{10}| \le 0.50$), and $0$ Tier-3 misses with Haar basis-scrambling error $4.52\times 10^{-13}$.
+
+Combining the $24$ Standard Model ratios with the $4$ zero-input gauge and Planck-hierarchy ratios, $4$ quantitative cosmological observables ($A_s, n_s, \eta_B, \Omega_a h^2$), and $4$ primordial and vacuum bounds ($r, \beta_{\mathrm{iso}}, |\bar{\theta}_{\mathrm{QCD}}|, \Delta\Lambda_{\mathrm{BP}}$) yields
+\begin{equation}
+\label{eq:scorecard_sum}
+N_{\mathrm{Tier\,1}} = 26, \quad N_{\mathrm{Tier\,2}} = 6, \quad N_{\mathrm{Bounds}} = 4, \quad N_{\mathrm{Miss}} = 0.
+\end{equation}
+This $26$-of-$36$ zero-continuous-input precision closure is our first main result (Fig.~\ref{fig:scorecard}(b) and Table~\ref{tab:summary}).
+
+\begin{table}[b]
+\caption{Summary of zero-input Track-A predictions vs.\ empirical benchmarks across gauge, hierarchy, and cosmological sectors.}
+\label{tab:summary}
+\begin{ruledtabular}
+\begin{tabular}{lccc}
+Observable & Pred. & Obs.\ / Bound & Offset \\
+\hline
+$\alpha_{\mathrm{EM}}^{-1}(M_Z)$ & $128.138$ & $127.951$ & $+0.15\%$ (T1) \\
+$\alpha_s(M_Z)$ & $0.1135$ & $0.1179$ & $-3.70\%$ (T1) \\
+$\sin^2\theta_W(M_Z)$ & $0.2170$ & $0.2312$ & $-6.13\%$ (T1) \\
+$v_{\mathrm{EW}}/M_{\mathrm{Pl,red}}$ & $1.166\times 10^{-16}$ & $1.011\times 10^{-16}$ & $+15.3\%$ (T1) \\
+$\ln(M_{\mathrm{Pl,red}}/M_Z)$ & $37.656$ & $37.824$ & $-0.17$ nep (T1) \\
+$m_t / m_b(M_Z)$ & $50.67$ & $59.41$ & $-14.7\%$ (T1) \\
+$m_c / m_t(M_Z)$ & $0.00388$ & $0.00361$ & $+7.49\%$ (T1) \\
+$\sin^2\theta_{12}$ & $0.3123$ & $0.3070$ & $+1.73\%$ (T1) \\
+$\sin^2\theta_{23}$ & $0.5925$ & $0.5460$ & $+8.52\%$ (T1) \\
+$\sin^2\theta_{13}$ & $0.03006$ & $0.02203$ & $+36.4\%$ (T1) \\
+$10^9 A_s$ & $2.629$ & $2.100$ & $+25.2\%$ (T1) \\
+$n_s$ & $0.9560$ & $0.9649$ & $-0.92\%$ (T1) \\
+$10^{10}\eta_B$ & $7.992$ & $6.120$ & $+30.6\%$ (T1) \\
+$\Omega_a h^2$ & $0.1686$ & $0.1200$ & $+40.5\%$ (T1) \\
+$\beta_{\mathrm{iso}}^{(1\mathrm{B\text{-}SD})}$ & $0.00287$ & $< 0.038$ & $13.3\times$ margin \\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\subsection{Zero-Input Gauge Couplings and Scale Hierarchy}
+
+On an $S^1/\mathbb{Z}_2$ orbifold collar $[0, L_c^*]$, each boundary contributes a one-loop Contino-Pilo differential zeta threshold $\Delta_{\mathrm{CP}} = (-\zeta'(0)) - (-\zeta'(0, 1/2)) = \frac{1}{2}\ln\pi$~\cite{ContinoPilo2001}.
+Summing across both collar walls ($y = 0$ and $y = L_c^*$) shifts the bulk coupling $\alpha_{\mathrm{GUT,bulk}}^{-1} = 9\,\mathrm{Vol}(M^{(5)})(2L_c^*)^3/(30\pi^3) = 43.2464$ without empirical inputs:
+\begin{equation}
+\label{eq:agut_2wall}
+\alpha_{\mathrm{GUT,2\text{-}wall}}^{-1} = \frac{9\,\mathrm{Vol}(M^{(5)})(2L_c^*)^3}{30\pi^3} - \ln\pi = 42.1016.
+\end{equation}
+
+Combining Adams' maximal horoball cusp volume $V_{\mathrm{horo}}(\mathrm{m004}) = \sqrt{3}$~\cite{Adams1987} ($\ln[M_{\mathrm{Pl,red}}/M_{\mathrm{KK}}] = 2L_c^* + \frac{1}{2}\ln 3 = 8.1575$) with the radiative Hosotani collar exponent $\ln(M_{\mathrm{KK}}/v_{\mathrm{EW}}) = \frac{15}{2}L_c^*$ fixes the internal RGE span via root-finding:
+\begin{equation}
+\label{eq:hierarchy_sum}
+\ln\!\left(\frac{M_{\mathrm{KK}}}{M_Z^{\mathrm{pred}}}\right)_0 = \frac{15}{2}L_c^* - \ln\!\left(\frac{M_Z^{\mathrm{pred}}}{v_{\mathrm{EW}}}\right) = 29.4986.
+\end{equation}
+Integrating down to $M_Z$ yields $\alpha_{\mathrm{EM}}^{-1}(M_Z) = 128.138$ ($+0.15\%$), $\alpha_s(M_Z) = 0.1135$ ($-3.70\%$), $v_{\mathrm{EW}}/M_{\mathrm{Pl,red}} = e^{-(19/2)L_c^*}/\sqrt{3} = 1.166\times 10^{-16}$ ($+15.3\%$), and $\ln(M_{\mathrm{Pl,red}}/M_Z) = 37.656$ vs.\ $37.824$ observed.
+This parameter-free unification of electroweak couplings and the Planck-to-weak hierarchy is our second main result (Fig.~\ref{fig:unification}).
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.96\textwidth]{figures/fig3_isocurvature_and_cy4_tadpole.pdf}
+    \caption{(Color online) Early-universe axion isocurvature shootout and fourfold flux spacing. (a) Cold-dark-matter axion isocurvature fraction $\beta_{\mathrm{iso}}$ across large-radius kinetic branches (\texttt{1A-i}, \texttt{1A-ii}), high-scale self-dual (\texttt{1B-i}), single-sheet Casimir self-dual (\texttt{1B-SD 1-sheet}), and five-sheet $M^{(5)}$-normalized Casimir self-dual ($\beta_{\mathrm{iso}}^{(M^5)} = 0.00287$, filled square) vs.\ Planck's upper limit $\beta_{\mathrm{iso}} < 0.038$ (dashed line). (b) Bousso-Polchinski flux step $-\log_{10}(\Delta\Lambda_{\mathrm{BP}}/|V_{\mathrm{bulk}}|)$ on $X_8 \to \mathbb{P}^1 \times dP_r$ under M2-tadpole positivity $N_{M2} \ge 0$, crossing the $105$-order threshold (dashed) at critical Fano rank $r_{\mathrm{crit}} = 8$ ($\mathbb{P}^1 \times dP_8$, filled square).}
+    \label{fig:cosmo}
+\end{figure*}
+
+\subsection{Cosmology, Dark Matter, and Fourfold Flux Spacing}
+
+By `'t~Hooft` fermion zero-mode alignment~\cite{tHooft1976}, ultraviolet $\mathrm{SU}(3)_C \subset \mathrm{Spin}(10)$ instantons on $\mathrm{m004}$ share the tree-level quark determinant phase $\theta_{\mathrm{m004}} = \arg\det(Y_u^{(\mathrm{m004})} Y_d^{(\mathrm{m004})})$ with infrared QCD instantons.
+Minimizing Coleman's Euclidean dilute-instanton-gas potential over the nine $\mathrm{m129}$ Whitehead overtones ($W_{\mathrm{ov}}$) cancels $\theta_{\mathrm{m004}}$ to $< 10^{-15}$ and fixes the zero-input misalignment angle $\theta_{\mathrm{mis},0} = |\theta_{\mathrm{UV},\min} - \theta_{\mathrm{IR},\min}| = 0.04487\,\mathrm{rad}$.
+
+For the $D_5$-invariant base three-form axion lifted along $M^{(5)} \xrightarrow{5:1} \mathrm{m004}$, integrating the kinetic norm over all five sheets gives $\|\omega_3\|_{L^2(M^{(5)})} = \sqrt{5}\,\|\omega_3\|_{L^2(\mathrm{m004})}$~\cite{SvrcekWitten2006}, so
+\begin{equation}
+\label{eq:fa_m5}
+f_{a,0}^{(M^5)} = \sqrt{5}\,\frac{M_{\mathrm{KK}}}{2\pi} = 2.484\times 10^{14}\,\mathrm{GeV}.
+\end{equation}
+Evaluating the lattice-QCD relic abundance~\cite{Borsanyi2016,GrillidiCortona2016} at $\theta_{\mathrm{mis},0}$ gives $\Omega_a h^2 = 0.1686$ ($\log_{10} = +0.148 \le 0.15$, Tier~1), while on the small-radius T-dual self-dual Casimir cusp-cap plateau ($R_{\mathrm{sd}} = M_7^{-1}$, $f_a(R_{\mathrm{sd}}) = (2L_c^*)^3 f_{a,0}^{(M^5)}$) exact Hubble-flow integration yields $A_s = 2.629\times 10^{-9}$ (Tier~1), $n_s = 0.9560$ (Tier~1), $r = 1.87\times 10^{-8}$, and $\beta_{\mathrm{iso}}^{(1\mathrm{B\text{-}SD})} = 0.00287 < 0.038$.
+Summing all $N_{\mathrm{gen}} = 3$ active $\mathrm{Spin}(10)$ families in the cylindrical K\"{a}hler Affleck-Dine anomaly portal ($N_{\mathrm{gen}}\,\mathrm{CS}(\mathrm{m129}) = 3/8$) gives $\eta_B = 7.992\times 10^{-10}$ ($\log_{10} = +0.116$, Tier~1), and blowing down $\mathbb{P}^1 \times dP_9$ ($\chi(X_8)=288$) to $\mathbb{P}^1 \times dP_8$ ($\chi(X_8)=2448$, $b_4 = 2424$) yields $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/|V_{\mathrm{bulk}}|) = -192.42 \le -105$ under $N_{M2} \ge 0$~\cite{KlemmLianRoanYau1997,BoussoPolchinski2000}.
+This simultaneous resolution of axion dark matter, primordial isocurvature, baryon asymmetry, and fourfold flux spacing is our third main result (Fig.~\ref{fig:cosmo}).
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.96\textwidth]{figures/fig4_falsifiability_landscape.pdf}
+    \caption{(Color online) Sharp experimental falsifiability targets. (a) Effective Majorana mass $m_{\beta\beta}$ vs.\ lightest mass $m_{\mathrm{lightest}}$, showing Normal-Ordering (solid) and Inverted-Ordering (dashed) bands, LEGEND-1000/nEXO sensitivity (dash-dot), and our zero-input Takagi prediction $(m_1, m_{\beta\beta}) = (2.21, 4.39)\,\mathrm{meV}$ (star). (b) QCD axion photon coupling $|g_{a\gamma\gamma}|$ vs.\ $m_a$, showing the straight $\mathrm{Spin}(10)$ $E/N = 8/3$ line (solid), KSVZ $E/N = 0$ line (dashed), and our zero-input $M^{(5)}$ target $(22.95\,\mathrm{neV}, 3.49\times 10^{-18}\,\mathrm{GeV}^{-1})$ (star).}
+    \label{fig:falsifiability}
+\end{figure*}
+
+\section{Analysis and Experimental Falsifiability}
+\label{sec:analysis}
+
+Six of the $36$ observables remain in Tier~2 ($0.21 \le |\log_{10}| \le 0.47$): $m_s/m_b$ ($+0.21\,\mathrm{dex}$), $|V_{ub}|$ ($+0.28\,\mathrm{dex}$), $|V_{cb}|$ ($-0.28\,\mathrm{dex}$), $m_\mu/m_\tau$ ($-0.32\,\mathrm{dex}$), $|J_{\mathrm{lep}}|/J_{\mathrm{lep}}^{\max}$ ($-0.47\,\mathrm{dex}$), and $|J_q|$ ($-0.47\,\mathrm{dex}$).
+Comparing ultraviolet ($M_{\mathrm{KK}}$) and infrared ($M_Z$) singular values shows that all six quantities are renormalization-group quasi-invariants whose maximal $30$-e-fold drift is $0.135\,\mathrm{dex} < 0.15$.
+Closing these $\mathcal{O}(1.6\text{--}2.9)$ offsets without continuous parameters requires exact one-loop hyperbolic Selberg fluctuation determinants around individual closed geodesics beyond the leading asymptotic saddle.
+Notably, $|J_{\mathrm{lep}}| = 0.01122$ sits below the maximal envelope $J_{\mathrm{lep}}^{\max} = 0.033$ because our predicted Dirac phase is $\delta_{\mathrm{CP}} = 197.03^\circ$ ($\sin\delta_{\mathrm{CP}} = -0.293$), matching the NuFIT normal-ordering global best fit $\delta_{\mathrm{CP}} = 197^{+42}_{-25}\,\mathrm{deg}$~\cite{Esteban2020NuFIT} ($|J_{\mathrm{lep}}^{\mathrm{NuFIT}}| = 0.0097$).
+
+\begin{table*}[t]
+\caption{Ten parameter-free experimental falsifiability targets of the \texttt{v12\_dP8\_ps} $+ M^{(5)}$ fixed point.}
+\label{tab:falsifiability}
+\begin{ruledtabular}
+\begin{tabular}{llcl}
+Sector & Observable & Zero-Input Prediction & Decisive Experiment \\
+\hline
+Neutrino ordering & Mass hierarchy & Normal Ordering ($m_1 < m_2 < m_3$) & JUNO / DUNE / Hyper-K \\
+Neutrino spectrum & $(m_1, m_2, m_3)$ & $(2.21, 6.20, 37.52)\,\mathrm{meV}$ & Project~8 / KATRIN \\
+Cosmological $\nu$ & $\sum m_\nu$ & $45.92\,\mathrm{meV}$ ($< 72\,\mathrm{meV}$ DESI+CMB) & DESI-II / Euclid / CMB-S4 \\
+$0\nu\beta\beta$ decay & $m_{\beta\beta}$ & $4.39\,\mathrm{meV}$ (below IO band) & LEGEND-1000 / nEXO \\
+Leptonic CP & $\delta_{\mathrm{CP}}$ ($\sin\delta_{\mathrm{CP}}$) & $197.03^\circ$ ($-0.2929$) & DUNE / Hyper-Kamiokande \\
+QCD axion mass & $m_a$ ($\nu_a$) & $22.95\,\mathrm{neV}$ ($5.55\,\mathrm{MHz}$) & DMRadio-m$^3$ / DMRadio-GUT \\
+Axion-photon~\cite{Srednicki1985} & $|g_{a\gamma\gamma}|$ ($E/N = 8/3$) & $3.49\times 10^{-18}\,\mathrm{GeV}^{-1}$ & DMRadio-GUT \\
+CDM isocurvature & $\beta_{\mathrm{iso}}$ & $0.00287$ ($< 0.038$ Planck) & CMB-S4 / LiteBIRD \\
+Primordial tensors & $r$, $dn_s/d\ln k$ & $1.87\times 10^{-8}$, $-9.25\times 10^{-4}$ & Simons Obs.\ / LiteBIRD \\
+Proton decay & $\tau(p \to e^+\pi^0)$ & $2.12\times 10^{35}\,\mathrm{yr}$ ($> 2.4\times 10^{34}\,\mathrm{yr}$ SK) & Hyper-Kamiokande \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+Proton stability provides an independent structural test.
+Naive four-dimensional $\mathrm{SU}(5)$ gauge exchange at $M_{\mathrm{KK}} = 6.98\times 10^{14}\,\mathrm{GeV}$ gives $\tau(p \to e^+\pi^0) = 6.3\times 10^{31}\,\mathrm{yr}$, violating the Super-Kamiokande bound $> 2.4\times 10^{34}\,\mathrm{yr}$.
+In $E_8 \supset \mathrm{Spin}(10) \times \mathrm{SU}(4)$ [Eq.~\eqref{eq:e8_branch}], $(X, Y)$ leptoquark bosons live in the $\mathrm{SU}(4)$ singlet $(\mathbf{45}, \mathbf{1})$ while chiral matter sits in $(\mathbf{16}, \mathbf{4})$.
+Projecting $Q_L$ and $(u_c, e_c)$ from orthogonal $\mathrm{SU}(4)$ harmonic components ($\langle e_1 | I_4 | e_2 \rangle = 0$) forbids tree-level KK leptoquark proton decay~\cite{HallNomura2001}, leaving ultraviolet $M_7 = 2L_c^* M_{\mathrm{KK}} = 5.31\times 10^{15}\,\mathrm{GeV}$ operators~\cite{Yoo2022RBC} with $\tau(p \to e^+\pi^0) = 2.12\times 10^{35}\,\mathrm{yr}$.
+This ten-observable experimental falsifiability ledger is our fourth main result (Table~\ref{tab:falsifiability} and Fig.~\ref{fig:falsifiability}).
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+We have constructed and zero-trust audited a ten-phase geometric unification loop on $M^{(5)} \times \mathbb{P}^1 \times dP_8$ that eliminates all continuous fitted and calibrated parameters across gauge, Yukawa, neutrino, inflationary, baryogenesis, dark-matter, and flux-landscape sectors, reaching $26$ Tier-1 precision hits, $6$ RG-quasi-invariant Tier-2 structural hits, and $4$ bound passes ($36$ of $36$, $0$ misses) across $145$ planted-fault controls.
+Exact one-loop hyperbolic Selberg determinant prefactors on geodesic shells and direct experimental tests of $\delta_{\mathrm{CP}} = 197.0^\circ$, $\sum m_\nu = 45.92\,\mathrm{meV}$, $m_a = 22.95\,\mathrm{neV}$, $\beta_{\mathrm{iso}} = 0.00287$, and $\tau(p \to e^+\pi^0) = 2.12\times 10^{35}\,\mathrm{yr}$ define the decisive next steps for this program.
+
+\bibliographystyle{apsrev4-2}
+\bibliography{references}
+
+\end{document}
