@@ -1,0 +1,8 @@
+=== IC1: CASIMIR DERIVATION & KUTTA 3/8-RULE PENDLETON-ROSS BENCHMARK ===
+  [PASS] Gramian 3/8-rule Pendleton-Ross err = 1.588e-14 (< 1e-12); [CAUGHT Plants 1 & 5]!
+
+=== IC2: RIGHT-FRAME-FREE GRAMIAN 2-LOOP FLOW, EWSB, & PLANTS 2, 3, 4 ===
+  [PASS] Gramian A_{d/e}=2.3837 (> 2.0), |V_cb| ratio=1.1660, EWSB m_Hu^2=-0.0461 < 0 < m_Hd^2=+0.0206, HH drift=1.332e-15!
+  [CAUGHT Plants 2, 3, 4] Dropped g_3 (< 1), swapped H_u<->H_d, & flipped +108*g_3^4 sign all caught!
+
+ALL AGY-C14 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught in 16.08s; 0 of 19).
