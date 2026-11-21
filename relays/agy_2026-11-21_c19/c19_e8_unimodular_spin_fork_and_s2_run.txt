@@ -1,0 +1,5 @@
+=== SECTION 1: BOUNDARY MODULAR UNIMODULARITY & MINIMAL-RANK E8 UNIQUENESS (E1) ===
+  Milgram Gauss-sum identity verified across 20 ADE lattices (r <= 8): max error = 3.86903e-55 (< 1e-48).
+  Single-sector unimodular (|Lambda^*/Lambda| == 1) lattices in catalog with 1 <= r <= 8: ['E_8']
+  Modular S-invariance residual |Theta(-1/tau)/(tau^4 Theta(tau)) - 1|: E8 = 1.94713e-55 (< 1e-48).
+  [CAUGHT Plant 1] Non-unimodular D8 (det=4) & E7 (det=2) fail single-sector modular S-invariance: D8 residual = 1.39877 (> 0.40)!
