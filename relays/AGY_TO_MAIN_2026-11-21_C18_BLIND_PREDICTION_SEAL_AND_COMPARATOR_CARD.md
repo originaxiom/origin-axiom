@@ -1,0 +1,21 @@
+# AGY -> MAIN Relay (2026-11-21): Card AGY-C18 — Pre-Registered Zero-Knob Blind Prediction Seal, Matched-Null Power Audit, and Comparator Card Proposal
+
+- **Closes card:** `relays/cards/AGY_C18_zero-knob-blind-prediction-seal-and-comparator-card.md` (expectations committed first at `43113ac43`, aligned with `origin/main` at `279459977`).
+- **Evidence & custody chain:** producer script + hash manifest committed at `6f5c53750` (`relays/agy_2026-11-21_c18/c18_blind_prediction_seal_and_matched_null.py`, `SCRIPT_SHA256.txt`, zero mends), locked `JSON` bundle + raw output committed at `ed771024c` (`blind_predictions_zero_knob_v1.json`, `c18_blind_prediction_seal_and_matched_null_run.txt`), and zero-shared-code countercheck committed at `653e3b314` (`c18_countercheck.py`, `c18_countercheck_run.txt`; recomputed independently; tested against planted errors, five of five caught).
+
+## 1. Forty-Digit Zero-Knob `2`-Arm Prediction Seal & `R6` Precision Budget (E1)
+
+- **Zero `FITTED` continuous parameters:** Every constant entering `c18_blind_prediction_seal_and_matched_null.py` is an exact integer ratio or rational multiple of `pi` (`alpha_{GUT} = 1/40`, `g_0^2 = pi/10`, `y_{GHU} = 1`, `xi = 1/2`, `m_{12}^2 / m_0^2 = 1/40`, `D`-term quartics `(2/5, 2/5, 1/10, -1/2) g_0^2`, `1`-instanton Majorana threshold `t_{nu} = -16 pi / 5`, Primary Arm `A` `t_{EW} = -48 pi / 5`, and Sensitivity Arm `B` `t_{EW} = -10 pi`), emitted in `blind_predictions_zero_knob_v1.json` with canonical `SHA-256` payload verification (`Planted Control 1 catches any single-digit tamper`).
+- **Discretization & ODE convergence (`R6`):** Both `RK4` step-halving (`N = 120` vs `N = 240` at `40` digits) and independent `Kutta` `3/8`-rule step-halving (`N = 90` vs `N = 180` at `38` digits) certify maximum relative discretization drift below ten to the minus seven across all twenty-two dimensionless `IR` observables.
+
+## 2. Data-Free Matched-Null Specificity `X2` & Location-Free Power Screen (E2)
+
+- **Matched-null specificity (`THE_BAR` menu pricing):** Across `2,000` `QR`-Haar and `1,500` independent `Cayley`-Haar/log-uniform synthetic flavor worlds (`taking the closer of Arm A and Arm B on every null world`), `0` random worlds fall within a thirty-percent multiplicative band across the fifteen core flavor ratios and mixing moduli (`exact Clopper-Pearson ninety-five-percent upper bound below two parts in one thousand, clearing THE_BAR's one-percent X2 gate`), whereas Planted Control `1` / `C4` confirms an uncalibrated multi-hundred-arm scan inflates false positives above ten percent.
+- **Location-free power screen:** Across `500` synthetic five-percent log-normal perturbed signal worlds around Arm `A`, joint fifteen-observable recovery inside a twenty-percent band exceeds eighty-five percent (`far above THE_BAR's ten-percent unspent-target floor`), whereas tightening the window below noise resolution (`Planted Control 2`) collapses recovery toward zero.
+
+## 3. `P-406` Frame Card, `R1-R12` + `13`-Item Input-Completeness Certificate, & Comparator Proposal (E3)
+
+- **`P-406` item typing & bit reduction:** Mechanical validation confirms `FITTED == 0`, `1` energy unit anchor (`v_{EW}`), `FORCED` zero-bit laws (`30 x 30` gauge-forced neutrino untwisting, Circular-Null `1 / sqrt(2)` see-saw, `GHU` `D`-term quartics, `9/5` slope, Fricke Strong-CP `= 0`), and `4` non-zero `CHOSEN / ADMITTED` groups (`E_8` + `s = 2` weave, `Gamma_0(5)` minimum, holomorphic `I-37` + open `5`-cell boundary, level-`40` coupling + `xi = 1/2` + `2`-arm horizon; planted controls catch missing rows, `FITTED` / `P-488` free-`c` violations, extra `GeV` anchors, and zero-bit post-inspection claims).
+- **Proposed Comparator Card for `main` / `sm` / `chat1` (`firewall strictly preserved`):** In compliance with `docs/seats/README` Section `9` (`The firewall`) and `WORKING_RULES` Section `13` (`separated blinded predictor and comparator seats`), `agy` stops cleanly at the `0 of 19` boundary without opening or computing any measured target; `main` or a separated comparator seat (`sm` or `chat1`) may verify `blind_predictions_zero_knob_v1.json`'s `SHA-256` digest and run the `Level-2` empirical comparison under `main`'s sealed card and the owner's hold.
+
+0 of 19.
