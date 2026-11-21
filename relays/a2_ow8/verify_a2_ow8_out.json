@@ -1,0 +1,208 @@
+{
+  "card": "A2-OW8",
+  "empirical_inputs_used": "0 of 19",
+  "script_sha256": "9507cf5f029f5ea4bd03cbcbce2f2a387f9fbccfe4fe21dd4b287cd874f49d86",
+  "OW8_A_conformal_finite_sakharov_gravity": {
+    "proper_time_quadrature": {
+      "I_quad": "999948.5919898722",
+      "I_asym": "999948.5919978722",
+      "abs_diff": "7.9999947e-6"
+    },
+    "S4_proca_spectral_fit": {
+      "a0_Proca": "3.0",
+      "w_Proca": "-0.49999999999916",
+      "w_Proca_err": "8.37473e-13",
+      "goldstone_eating_err": "0.0",
+      "w_s": "0.16666666666407",
+      "w_W": "0.16666666666687",
+      "w_V_massless": "-0.66666666666323"
+    },
+    "exact_logarithmic_weights_c_log": {
+      "conformal_scalar": "0",
+      "minimal_scalar": "-1/6",
+      "Weyl_fermion": "-1/6",
+      "massive_Proca_vector": "1/2"
+    },
+    "spin10_threshold_at_xi_1_over_6": {
+      "n_massive_XY_Proca": 33,
+      "n_heavy_nuR_Weyl": 3,
+      "c_log_equal_mass": "16",
+      "attractive_equal_mass": true,
+      "critical_MR_over_MX_squared": "33",
+      "critical_MR_over_MX": "5.74456264654",
+      "M_Pl_over_M_X_at_ln_ratio_2": "2.256758334"
+    },
+    "ew_scale_threshold_nogo": {
+      "c_log_ew_per_mt2": "-1941001/3003289",
+      "c_log_ew_float_approx": "-0.6462917821",
+      "ew_only_is_repulsive": true
+    },
+    "pass": true
+  },
+  "OW8_B_unification_and_2hdm_radiative_transmutation": {
+    "unification_slope_table_kY_5_over_3": [
+      {
+        "n_H": 1,
+        "b1": "41/10",
+        "b2": "-19/6",
+        "b3": "-7",
+        "B_ratio": "115/218",
+        "B_float": "0.52752294"
+      },
+      {
+        "n_H": 2,
+        "b1": "21/5",
+        "b2": "-3",
+        "b3": "-7",
+        "B_ratio": "5/9",
+        "B_float": "0.55555556"
+      },
+      {
+        "n_H": 3,
+        "b1": "43/10",
+        "b2": "-17/6",
+        "b3": "-7",
+        "B_ratio": "125/214",
+        "B_float": "0.58411215"
+      },
+      {
+        "n_H": 4,
+        "b1": "22/5",
+        "b2": "-8/3",
+        "b3": "-7",
+        "B_ratio": "65/106",
+        "B_float": "0.61320755"
+      },
+      {
+        "n_H": 6,
+        "b1": "23/5",
+        "b2": "-7/3",
+        "b3": "-7",
+        "B_ratio": "35/52",
+        "B_float": "0.67307692"
+      },
+      {
+        "n_H": 8,
+        "b1": "24/5",
+        "b2": "-2",
+        "b3": "-7",
+        "B_ratio": "25/34",
+        "B_float": "0.73529412"
+      }
+    ],
+    "2H_improves_over_1H_still_below_5_over_7": true,
+    "conformal_1H_SM_nogo": [
+      {
+        "yt_UV": "1/2",
+        "yt_IR": "0.941748",
+        "lam_SM_IR": "0.173735",
+        "radiative_ewsb_triggered": false
+      },
+      {
+        "yt_UV": "3/5",
+        "yt_IR": "1.013090",
+        "lam_SM_IR": "0.237414",
+        "radiative_ewsb_triggered": false
+      }
+    ],
+    "conformal_2H_TypeII_automatic_split": [
+      {
+        "yt_UV": "1/2",
+        "yb_UV": "1/100",
+        "yt_IR": "0.940254",
+        "yb_IR": "0.026216",
+        "lam1_Hd_IR": "-0.101150",
+        "lam2_Hu_IR": "+0.345840",
+        "lam3_IR": "-0.037827",
+        "lam4_IR": "-0.027924",
+        "automatic_Hu_stable_Hd_destabilized": true
+      },
+      {
+        "yt_UV": "3/5",
+        "yb_UV": "1/100",
+        "yt_IR": "1.011574",
+        "yb_IR": "0.025900",
+        "lam1_Hd_IR": "-0.101010",
+        "lam2_Hu_IR": "+0.472654",
+        "lam3_IR": "-0.033202",
+        "lam4_IR": "-0.025395",
+        "automatic_Hu_stable_Hd_destabilized": true
+      },
+      {
+        "yt_UV": "3/5",
+        "yb_UV": "1/10",
+        "yt_IR": "1.009941",
+        "yb_IR": "0.253444",
+        "lam1_Hd_IR": "-0.094558",
+        "lam2_Hu_IR": "+0.471242",
+        "lam3_IR": "+0.001616",
+        "lam4_IR": "-0.060325",
+        "automatic_Hu_stable_Hd_destabilized": true
+      }
+    ],
+    "gildener_weinberg_transmutation": [
+      {
+        "lam0_UV": "1/100",
+        "log10_muGW_over_MUV": "-2.804190",
+        "lam2_Hu_at_crossing": "+0.049631",
+        "crossed_before_16_decades": true
+      },
+      {
+        "lam0_UV": "1/50",
+        "log10_muGW_over_MUV": "-5.684988",
+        "lam2_Hu_at_crossing": "+0.110872",
+        "crossed_before_16_decades": true
+      },
+      {
+        "lam0_UV": "1/20",
+        "log10_muGW_over_MUV": "-14.046077",
+        "lam2_Hu_at_crossing": "+0.429021",
+        "crossed_before_16_decades": true
+      }
+    ],
+    "pass": true
+  },
+  "OW8_C_guardrail5_nondimensional_ledger": {
+    "unit_anchors_allowed_by_guardrail_5": 1,
+    "dynamically_fixed_dimensionless_structures": [
+      "D_ext = 4 (from A2-OW4)",
+      "N_gen = 3 (from A2-OW4 & W:T)",
+      "k_Y = 5/3 (from A2-OW1/A2-OW3)",
+      "n_H = 2 (from A2-OW3 X:HOL)",
+      "c_log(Spin(10) -> G_SM, xi=1/6) = +16 > 0 (from OW8-A)",
+      "B(2H) = 5/9 (from OW8-B)",
+      "Radiative EWSB sign split lam2(H_u) > 0, lam1(H_d) < 0 (from OW8-B)"
+    ],
+    "honestly_priced_open_continuous_inputs": [
+      "g_UV (unified gauge coupling at M_UV)",
+      "lam0_UV (small UV quartic boundary fixing exact log10(mu_GW / M_UV))",
+      "tan(beta) = v_u / v_d (Higgs VEV ratio)",
+      "M_R / M_X (heavy neutrino to X,Y gauge-boson mass ratio, bounded < sqrt(33))",
+      "overall dimensionful anchor (1 unit convention, e.g. M_X or v_EW)"
+    ],
+    "pass": true
+  },
+  "OW8_D_planted_faults": {
+    "PF_OW8_1_flipped_mass_insertion_sign": {
+      "c_log_flipped": "-16",
+      "caught": true
+    },
+    "PF_OW8_2_heavy_nuR_exceeds_sqrt33": {
+      "c_log_at_MR_10MX": "-67/2",
+      "caught": true
+    },
+    "PF_OW8_3_wrong_kY_eq_1": {
+      "faulty_B_2H": "2/5",
+      "caught": true
+    },
+    "PF_OW8_4_equal_yb_eq_yt_kills_Hd_ewsb": {
+      "lam1_Hd_IR": "+0.408633",
+      "lam2_Hu_IR": "+0.427222",
+      "caught": true
+    },
+    "caught_count": 4,
+    "total_planted": 4,
+    "pass": true
+  },
+  "all_gates_passed": true
+}
