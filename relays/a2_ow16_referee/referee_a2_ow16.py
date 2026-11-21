@@ -72,6 +72,8 @@ def to_frac(val):
 
 
 def to_mp(val):
+    if isinstance(val, mp.mpf):
+        return val
     if isinstance(val, dict) and "mp_str" in val:
         return to_mp(val["mp_str"])
     if isinstance(val, Fraction):
