@@ -1,0 +1,26 @@
+=== SECTION 1: MOD-6 RADIATIVE HIGGS NEUTRALITY ON t=4 VS STRICT TILT ON t=3 (E1) ===
+  [PASS] Symbolic sympy proof: M_{w,nu} M_{w,nu}^H == M_{w,e} M_{w,e}^H across all 35 points of P_2 (+) P_3 (+) P_6!
+  65-digit t=4 overtone check (35 pts): max ||G_nu-G_e||/||G_e|| = 7.321e-70 (< 1e-60), normalized |Delta Y^2| = 6.853e-68 (< 1e-60).
+  [CAUGHT Planted Control 2b] Perturbing q_{R,nu} = 0 -> 1 on P_6 breaks ||G_nu-G_e||/||G_e|| to 0.93002 (> 0.5).
+  m= 8: P_5 geom(yu3/yd3, yd3/ye3, ynu3/yu3)=(1.042, 1.0, 1.171), P_3 geom(yd3/ye3)=0.5887 (< 1) | P_5 mean_{a!=0} Delta Y^2 = +0.6579 (> 0)
+  m=16: P_5 geom(yu3/yd3, yd3/ye3, ynu3/yu3)=(1.121, 1.0, 1.436), P_3 geom(yd3/ye3)=0.2925 (< 1) | P_5 mean_{a!=0} Delta Y^2 = +57.93 (> 0)
+  m=40: P_5 geom(yu3/yd3, yd3/ye3, ynu3/yu3)=(1.168, 1.0, 2.646), P_3 geom(yd3/ye3)=0.0734 (< 1) | P_5 mean_{a!=0} Delta Y^2 = +9.914e+7 (> 0)
+  [PASS] Section 1 radiative Delta Y^2 > 0 tilt on t=3, exact neutrality on t=4, and cross-sector ratios verified.
+
+=== SECTION 2: 65-DIGIT STRONG-CP ORBIT PRODUCT Delta_{P_d} & WINDING INTEGER W_d AUDIT (E2) ===
+  Single-line CKM Jarlskog invariant Im det[G_u, G_d] at (1/5, 2/5) on 16+8i = -11.2223 (!= 0!)
+  16+8i (m=40) P_2 ( 3 pts): |Delta_{P_2} - 1| = 2.657e-64 (< 1e-45), W_cpx=+0, N_neg=0 (even), W_prin=+0 (int_err=0.0), (2*pi*W_prin/|P_2|)/pi = 0
+  16+8i (m=40) P_3 ( 8 pts): |Delta_{P_3} - 1| = 1.986e-57 (< 1e-45), W_cpx=-2, N_neg=0 (even), W_prin=-2 (int_err=3.162e-58), (2*pi*W_prin/|P_3|)/pi = -1/2
+  16+8i (m=40) P_5 (24 pts): |Delta_{P_5} - 1| = 2.504e-53 (< 1e-45), W_cpx=+3, N_neg=4 (even), W_prin=+5 (int_err=3.986e-54), (2*pi*W_prin/|P_5|)/pi = 5/12
+  16+8i (m=40) P_6 (24 pts): |Delta_{P_6} - 1| = 1.163e-55 (< 1e-45), W_cpx=-2, N_neg=0 (even), W_prin=-2 (int_err=1.851e-56), (2*pi*W_prin/|P_6|)/pi = -1/6
+  16+8i (m=40) P_7 (48 pts): |Delta_{P_7} - 1| = 1.019e-49 (< 1e-45), W_cpx=+1, N_neg=2 (even), W_prin=+2 (int_err=1.622e-50), (2*pi*W_prin/|P_7|)/pi = 1/12
+  Mostow 4i/sqrt(3) (Re=0) P_5: |Delta_{P_5} - 1| = 7.59e-64 (< 1e-50), W_cpx=+0, N_neg=6, W_prin=+3.
+  [CAUGHT Planted Control 1] Off-lattice Re(tau) breaks Delta_{P_5} == 1: |Delta_{P_5}(3.2+1.6i) - 1| = 1.4838 (> 1.0), |Delta_{P_5}(0.13+8i) - 1| = 1.7939 (> 1.0).
+  [PASS] Section 2 orbit Strong-CP product law and fractional-winding audit verified.
+
+=== SECTION 3: GUARDRAIL 3 SU(3) SPECIAL-UNITARY INVARIANCE VS U(1)_A AXIAL PLANT (E3) ===
+  15 independent 85-digit SU(3)^3 scramblings: max (arg det, Im det[Gu,Gd]) drift = 3.2244e-54 (< 1e-45).
+  [CAUGHT Planted Control 2a] Axial U(1) gate diag(i,1,1) (det != 1) shifts arg det(Y_u Y_d) by 1.5708 (== pi/2).
+  [PASS] Section 3 Guardrail 3 SU(3) Strong-CP invariance verified.
+
+ALL AGY-C11 PRODUCER CHECKS PASSED (elapsed: 13.71s; 0 of 19).
