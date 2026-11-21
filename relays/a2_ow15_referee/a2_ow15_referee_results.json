@@ -1,0 +1,1269 @@
+{
+  "metadata": {
+    "card_id": "A2-OW15",
+    "role": "independent_cold_room_zero_trust_referee",
+    "empirical_inputs_count": 0,
+    "mpmath_dps": 60,
+    "disjoint_methods": {
+      "OW15-A": "Weyl/chiral block-off-diagonal recursive Bott construction + sympy.Matrix.nullspace Sylvester solver",
+      "OW15-B": "Hurwitz zeta (-2*zeta_H(-1, a)) at 60 dps + symbolic Bessel-Laplace conical series + direct replica diff",
+      "OW15-C": "Exact F_3 + 10-trial deterministic Cayley transform U(3) at 60 dps + exact U(4) Householder + explicit so(10)/16_+ weight-lattice center Z_4",
+      "OW15-D": "Independent re-evaluation of all 4 planted fault scenarios PF-OW15-1..4"
+    }
+  },
+  "ow15_a_clifford_signatures": {
+    "signatures": {
+      "(0,4)": {
+        "D": 4,
+        "t": 0,
+        "s": 4,
+        "matrix_dim": 4,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": true,
+        "vol_sq_sign": 1,
+        "gamma_star_valid": true,
+        "gamma_star_diagonal": true,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1,
+            "chirality_conjugation_sign": 1
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1,
+            "chirality_conjugation_sign": 1
+          }
+        },
+        "spinor_reality_class": "H",
+        "spinor_reality_description": "Symplectic-Weyl (H)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-1": 2,
+                "1": 2
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-I": 2,
+                "I": 2
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "elliptic",
+          "probe_w_other": [],
+          "probe_k": [
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "xi_0**2",
+          "roots": [
+            "0"
+          ],
+          "real_root_count": 1,
+          "complex_root_count": 0,
+          "strictly_hyperbolic": false
+        }
+      },
+      "(1,3)": {
+        "D": 4,
+        "t": 1,
+        "s": 3,
+        "matrix_dim": 4,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": true,
+        "vol_sq_sign": -1,
+        "gamma_star_valid": true,
+        "gamma_star_diagonal": true,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1,
+            "chirality_conjugation_sign": -1
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1,
+            "chirality_conjugation_sign": -1
+          }
+        },
+        "spinor_reality_class": "C",
+        "spinor_reality_description": "Complex-Weyl (L* = R)",
+        "kinetic_norm": {
+          "positive_definite": true,
+          "H_norm_i_Gamma0_equals_I": true,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": true,
+              "K0_equals_identity": true,
+              "K0_eigenvalues": {
+                "1": 4
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "I": 2,
+                "-I": 2
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "strictly_hyperbolic",
+          "probe_w_other": [],
+          "probe_k": [
+            1,
+            0,
+            0
+          ],
+          "symbol_equation": "1 - xi_0**2",
+          "roots": [
+            "-1",
+            "1"
+          ],
+          "real_root_count": 2,
+          "complex_root_count": 0,
+          "strictly_hyperbolic": true
+        }
+      },
+      "(2,2)": {
+        "D": 4,
+        "t": 2,
+        "s": 2,
+        "matrix_dim": 4,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": true,
+        "vol_sq_sign": 1,
+        "gamma_star_valid": true,
+        "gamma_star_diagonal": true,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1,
+            "chirality_conjugation_sign": 1
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1,
+            "chirality_conjugation_sign": 1
+          }
+        },
+        "spinor_reality_class": "R",
+        "spinor_reality_description": "Majorana-Weyl (R)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-1": 2,
+                "1": 2
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-I": 2,
+                "I": 2
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "ultrahyperbolic",
+          "probe_w_other": [
+            2
+          ],
+          "probe_k": [
+            1,
+            0
+          ],
+          "symbol_equation": "-xi_0**2 - 3",
+          "roots": [
+            "-sqrt(3)*I",
+            "sqrt(3)*I"
+          ],
+          "real_root_count": 0,
+          "complex_root_count": 2,
+          "strictly_hyperbolic": false
+        }
+      },
+      "(0,6)": {
+        "D": 6,
+        "t": 0,
+        "s": 6,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": true,
+        "vol_sq_sign": -1,
+        "gamma_star_valid": true,
+        "gamma_star_diagonal": true,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1,
+            "chirality_conjugation_sign": -1
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1,
+            "chirality_conjugation_sign": -1
+          }
+        },
+        "spinor_reality_class": "C",
+        "spinor_reality_description": "Complex-Weyl (L* = R)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-1": 4,
+                "1": 4
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-I": 4,
+                "I": 4
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "elliptic",
+          "probe_w_other": [],
+          "probe_k": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "xi_0**2",
+          "roots": [
+            "0"
+          ],
+          "real_root_count": 1,
+          "complex_root_count": 0,
+          "strictly_hyperbolic": false
+        }
+      },
+      "(1,5)": {
+        "D": 6,
+        "t": 1,
+        "s": 5,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": true,
+        "vol_sq_sign": 1,
+        "gamma_star_valid": true,
+        "gamma_star_diagonal": true,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1,
+            "chirality_conjugation_sign": 1
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1,
+            "chirality_conjugation_sign": 1
+          }
+        },
+        "spinor_reality_class": "H",
+        "spinor_reality_description": "Symplectic-Weyl (H)",
+        "kinetic_norm": {
+          "positive_definite": true,
+          "H_norm_i_Gamma0_equals_I": true,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": true,
+              "K0_equals_identity": true,
+              "K0_eigenvalues": {
+                "1": 8
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "I": 4,
+                "-I": 4
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "strictly_hyperbolic",
+          "probe_w_other": [],
+          "probe_k": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "1 - xi_0**2",
+          "roots": [
+            "-1",
+            "1"
+          ],
+          "real_root_count": 2,
+          "complex_root_count": 0,
+          "strictly_hyperbolic": true
+        }
+      },
+      "(2,4)": {
+        "D": 6,
+        "t": 2,
+        "s": 4,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": true,
+        "vol_sq_sign": -1,
+        "gamma_star_valid": true,
+        "gamma_star_diagonal": true,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1,
+            "chirality_conjugation_sign": -1
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1,
+            "chirality_conjugation_sign": -1
+          }
+        },
+        "spinor_reality_class": "C",
+        "spinor_reality_description": "Complex-Weyl (L* = R)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-1": 4,
+                "1": 4
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-I": 4,
+                "I": 4
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "ultrahyperbolic",
+          "probe_w_other": [
+            2
+          ],
+          "probe_k": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "-xi_0**2 - 3",
+          "roots": [
+            "-sqrt(3)*I",
+            "sqrt(3)*I"
+          ],
+          "real_root_count": 0,
+          "complex_root_count": 2,
+          "strictly_hyperbolic": false
+        }
+      },
+      "(3,3)": {
+        "D": 6,
+        "t": 3,
+        "s": 3,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": true,
+        "vol_sq_sign": 1,
+        "gamma_star_valid": true,
+        "gamma_star_diagonal": true,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1,
+            "chirality_conjugation_sign": 1
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1,
+            "chirality_conjugation_sign": 1
+          }
+        },
+        "spinor_reality_class": "R",
+        "spinor_reality_description": "Majorana-Weyl (R)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-1": 4,
+                "1": 4
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-I": 4,
+                "I": 4
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "ultrahyperbolic",
+          "probe_w_other": [
+            2,
+            0
+          ],
+          "probe_k": [
+            1,
+            0,
+            0
+          ],
+          "symbol_equation": "-xi_0**2 - 3",
+          "roots": [
+            "-sqrt(3)*I",
+            "sqrt(3)*I"
+          ],
+          "real_root_count": 0,
+          "complex_root_count": 2,
+          "strictly_hyperbolic": false
+        }
+      },
+      "(0,7)": {
+        "D": 7,
+        "t": 0,
+        "s": 7,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": null,
+        "vol_sq_sign": -1,
+        "gamma_star_valid": null,
+        "gamma_star_diagonal": null,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": false,
+            "nullspace_dim": 0
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1
+          }
+        },
+        "spinor_reality_class": "R",
+        "spinor_reality_description": "Majorana-Dirac (R)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": false
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-I": 4,
+                "I": 4
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "elliptic",
+          "probe_w_other": [],
+          "probe_k": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "xi_0**2",
+          "roots": [
+            "0"
+          ],
+          "real_root_count": 1,
+          "complex_root_count": 0,
+          "strictly_hyperbolic": false
+        }
+      },
+      "(1,6)": {
+        "D": 7,
+        "t": 1,
+        "s": 6,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": null,
+        "vol_sq_sign": 1,
+        "gamma_star_valid": null,
+        "gamma_star_diagonal": null,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1
+          },
+          "eps_minus_1": {
+            "exists": false,
+            "nullspace_dim": 0
+          }
+        },
+        "spinor_reality_class": "H",
+        "spinor_reality_description": "Symplectic-Majorana (H)",
+        "kinetic_norm": {
+          "positive_definite": true,
+          "H_norm_i_Gamma0_equals_I": true,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": true,
+              "K0_equals_identity": true,
+              "K0_eigenvalues": {
+                "1": 8
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": false
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "strictly_hyperbolic",
+          "probe_w_other": [],
+          "probe_k": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "1 - xi_0**2",
+          "roots": [
+            "-1",
+            "1"
+          ],
+          "real_root_count": 2,
+          "complex_root_count": 0,
+          "strictly_hyperbolic": true
+        }
+      },
+      "(2,5)": {
+        "D": 7,
+        "t": 2,
+        "s": 5,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": null,
+        "vol_sq_sign": -1,
+        "gamma_star_valid": null,
+        "gamma_star_diagonal": null,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": false,
+            "nullspace_dim": 0
+          },
+          "eps_minus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": -1
+          }
+        },
+        "spinor_reality_class": "H",
+        "spinor_reality_description": "Symplectic-Majorana (H)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": false
+            },
+            "eps_H_plus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": false,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-I": 4,
+                "I": 4
+              }
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "ultrahyperbolic",
+          "probe_w_other": [
+            2
+          ],
+          "probe_k": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "-xi_0**2 - 3",
+          "roots": [
+            "-sqrt(3)*I",
+            "sqrt(3)*I"
+          ],
+          "real_root_count": 0,
+          "complex_root_count": 2,
+          "strictly_hyperbolic": false
+        }
+      },
+      "(3,4)": {
+        "D": 7,
+        "t": 3,
+        "s": 4,
+        "matrix_dim": 8,
+        "clifford_anticommutator_exact_zero": true,
+        "all_gammas_unitary": true,
+        "even_D_block_off_diagonal": null,
+        "vol_sq_sign": 1,
+        "gamma_star_valid": null,
+        "gamma_star_diagonal": null,
+        "intertwiners": {
+          "eps_plus_1": {
+            "exists": true,
+            "nullspace_dim": 1,
+            "unitary_ok": true,
+            "intertwiner_residual_zero": true,
+            "B_star_B_sign": 1
+          },
+          "eps_minus_1": {
+            "exists": false,
+            "nullspace_dim": 0
+          }
+        },
+        "spinor_reality_class": "R",
+        "spinor_reality_description": "Majorana-Dirac (R)",
+        "kinetic_norm": {
+          "positive_definite": false,
+          "H_norm_i_Gamma0_equals_I": false,
+          "candidates": {
+            "eps_H_minus_1": {
+              "exists": true,
+              "hermitian_unitary_ok": true,
+              "intertwiner_ok": true,
+              "K0_hermitian": true,
+              "K0_positive_definite": false,
+              "K0_equals_identity": false,
+              "K0_eigenvalues": {
+                "-1": 4,
+                "1": 4
+              }
+            },
+            "eps_H_plus_1": {
+              "exists": false
+            }
+          }
+        },
+        "wave_symbol": {
+          "classification": "ultrahyperbolic",
+          "probe_w_other": [
+            2,
+            0
+          ],
+          "probe_k": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "symbol_equation": "-xi_0**2 - 3",
+          "roots": [
+            "-sqrt(3)*I",
+            "sqrt(3)*I"
+          ],
+          "real_root_count": 0,
+          "complex_root_count": 2,
+          "strictly_hyperbolic": false
+        }
+      }
+    },
+    "chirality_factorization_1_5": {
+      "gamma5_13_sq_is_I": true,
+      "gamma3_02_sq_is_I": true,
+      "kk_clifford_exact_zero": true,
+      "kk_vol_sq_is_plus_I": true,
+      "kk_factorization_residual_zero": true,
+      "kk_global_sign": 1,
+      "bott_to_kk_unitary_exists": true,
+      "bott_to_kk_unitary_ok": true,
+      "bott_to_kk_intertwiner_ok": true,
+      "bott_to_kk_chirality_residual_zero": true,
+      "bott_to_kk_chirality_sign": 1
+    },
+    "unique_selection_theorem": {
+      "d4_complex_chiral_signatures": [
+        "(1,3)"
+      ],
+      "d4_kinetic_positive_signatures": [
+        "(1,3)"
+      ],
+      "d4_strictly_hyperbolic_signatures": [
+        "(1,3)"
+      ],
+      "d4_unique_1_3": true,
+      "total_candidate_towers_4_6_7": 48,
+      "qualifying_towers": [
+        [
+          "(1,3)",
+          "(1,5)",
+          "(1,6)"
+        ]
+      ],
+      "unique_tower_13_15_16": true
+    },
+    "checks": {
+      "all_11_clifford_zero_error": true,
+      "all_11_gammas_unitary": true,
+      "all_even_D_weyl_block_off_diagonal_and_diagonal_gamma_star": true,
+      "all_intertwiners_unitary_and_exact": true,
+      "kinetic_norm_pos_def_iff_t_eq_1": true,
+      "wave_symbol_strictly_hyperbolic_iff_t_eq_1": true,
+      "chirality_factorization_1_5_exact": true
+    }
+  },
+  "ow15_b_conformal_bh_entropy": {
+    "hurwitz_zeta_bernoulli": {
+      "dps": 60,
+      "cases": {
+        "a=0": {
+          "B2_exact": "1/6",
+          "minus_2_zeta_H_minus1_60dps": "0.16666666666666666666666666666666666666666666666667",
+          "abs_err": "0.0",
+          "matches_to_50dps": true
+        },
+        "a=1/2": {
+          "B2_exact": "-1/12",
+          "minus_2_zeta_H_minus1_60dps": "-0.083333333333333333333333333333333333333333333333333",
+          "abs_err": "0.0",
+          "matches_to_50dps": true
+        },
+        "a=1/3": {
+          "B2_exact": "-1/18",
+          "minus_2_zeta_H_minus1_60dps": "-0.055555555555555555555555555555555555555555555555556",
+          "abs_err": "0.0",
+          "matches_to_50dps": true
+        },
+        "a=1/4": {
+          "B2_exact": "-1/48",
+          "minus_2_zeta_H_minus1_60dps": "-0.020833333333333333333333333333333333333333333333333",
+          "abs_err": "0.0",
+          "matches_to_50dps": true
+        }
+      },
+      "all_match_50dps": true
+    },
+    "sommerfeld_bessel_series": {
+      "c_cone_boson": "(1 - alpha**2)/(12*alpha)",
+      "c_cone_ferm_1comp": "(alpha**2 - 1)/(24*alpha)",
+      "c_cone_kabat_2norm": "alpha - 1",
+      "boson_matches_B2_0": true,
+      "fermion_matches_B2_half": true,
+      "kabat_matches_minus_1_minus_alpha": true,
+      "all_vanish_at_alpha_1": true
+    },
+    "field_weights": {
+      "real_scalar_general_xi": {
+        "w_ent": "1/6",
+        "w_contact": "-xi",
+        "w_tot": "1/6 - xi",
+        "w_bulk_G_ind": "1/6 - xi",
+        "matches_bulk": true
+      },
+      "real_scalar_conformal_1_6": {
+        "w_ent": "1/6",
+        "w_contact": "-1/6",
+        "w_tot": "0",
+        "w_bulk_G_ind": "0",
+        "matches_bulk": true
+      },
+      "real_scalar_minimal_0": {
+        "w_ent": "1/6",
+        "w_contact": "0",
+        "w_tot": "1/6",
+        "w_bulk_G_ind": "1/6",
+        "matches_bulk": true
+      },
+      "weyl_majorana_fermion": {
+        "w_ent": "1/6",
+        "w_contact": "0",
+        "w_tot": "1/6",
+        "w_bulk_G_ind": "1/6",
+        "matches_bulk": true
+      },
+      "massive_proca_vector": {
+        "w_ent": "1/2",
+        "w_contact": "-1",
+        "w_tot": "-1/2",
+        "w_bulk_G_ind": "-1/2",
+        "matches_bulk": true
+      },
+      "massless_gauge_vector": {
+        "w_ent": "1/3",
+        "w_contact": "-1",
+        "w_tot": "-2/3",
+        "w_bulk_G_ind": "-2/3",
+        "matches_bulk": true
+      }
+    },
+    "a2_ow8_spin10_spectrum": {
+      "counts": {
+        "massive_proca": 33,
+        "majorana_nu_c": 3,
+        "conformal_2H_scalars": 8
+      },
+      "c_log_ent": "-55/3",
+      "c_log_ent_strictly_negative": true,
+      "c_log_contact_kabat": "33",
+      "c_log_contact_wald_noether": "4/3",
+      "c_log_contact": "103/3",
+      "c_log_contact_strictly_positive": true,
+      "c_log_total": "16",
+      "c_log_bulk_G_ind": "16",
+      "exact_bekenstein_hawking_identity": true
+    },
+    "schwarzschild_log_entropy": {
+      "ir_gsm_2h_45": {
+        "N_S": 8,
+        "N_W": 45,
+        "N_V": 12,
+        "c": "287/120",
+        "a": "1999/720",
+        "two_c_minus_a": "-277/360",
+        "sen_direct_formula": "-277/360",
+        "exact_match": true
+      },
+      "ir_gsm_2h_48": {
+        "N_S": 8,
+        "N_W": 48,
+        "N_V": 12,
+        "c": "37/15",
+        "a": "127/45",
+        "two_c_minus_a": "-32/45",
+        "sen_direct_formula": "-32/45",
+        "exact_match": true
+      },
+      "uv_spin10_real10": {
+        "N_S": 10,
+        "N_W": 48,
+        "N_V": 45,
+        "c": "347/60",
+        "a": "383/45",
+        "two_c_minus_a": "-491/90",
+        "sen_direct_formula": "-491/90",
+        "exact_match": true
+      }
+    },
+    "checks": {
+      "hurwitz_zeta_50dps_ok": true,
+      "sommerfeld_bessel_identities_ok": true,
+      "all_field_weights_match_bulk_G_ind": true,
+      "conformal_scalar_w_tot_zero": true,
+      "spin10_c_log_ent_is_minus_55_3": true,
+      "spin10_c_log_contact_is_103_3": true,
+      "spin10_exact_bekenstein_hawking_plus_16": true,
+      "all_3_schwarzschild_2ca_exact": true
+    }
+  },
+  "ow15_c_boundary_ledger": {
+    "x1_born_rule": {
+      "f3_exact": {
+        "unitary_exact_ok": true,
+        "drifts": {
+          "p=1": {
+            "exact": "-1 + sqrt(3)",
+            "abs_gt_one_third": true
+          },
+          "p=2": {
+            "exact": "0",
+            "abs_gt_one_third": false
+          },
+          "p=3": {
+            "exact": "-1 + sqrt(3)/3",
+            "abs_gt_one_third": true
+          },
+          "p=4": {
+            "exact": "-2/3",
+            "abs_gt_one_third": true
+          }
+        },
+        "p2_exact_zero": true,
+        "non_p2_abs_gt_one_third": true
+      },
+      "u3_cayley_10_trials": {
+        "num_trials": 10,
+        "dps": 60,
+        "max_unitarity_err": "7.77876909733e-62",
+        "unitary_below_1e_minus_45": true,
+        "max_abs_drift_by_p": {
+          "p=1": "0.6682253479286184",
+          "p=2": "1.555753819465285e-61",
+          "p=3": "0.3649430134499384",
+          "p=4": "0.5795925338096267"
+        },
+        "p2_below_1e_minus_45": true,
+        "non_p2_max_drift_gt_one_fifth": true
+      },
+      "u4_householder_exact": {
+        "hadamard_unitary_ok": true,
+        "hadamard_drifts": {
+          "p=1": "1",
+          "p=2": "0",
+          "p=3": "-1/2",
+          "p=4": "-3/4"
+        },
+        "complex_unitary_ok": true,
+        "complex_p2_drift": "0",
+        "complex_p4_drift": "-13056/28561",
+        "all_ok": true
+      },
+      "boundary_classification": {
+        "L2_born_norm_uniqueness_given_unitarity": "PROVED",
+        "complex_hilbert_space_linearity": "EXTERNAL_AXIOM",
+        "unitary_dynamics": "EXTERNAL_AXIOM",
+        "born_measurement_ontology": "EXTERNAL_AXIOM"
+      },
+      "all_ok": true
+    },
+    "x37_spin10_gerbe": {
+      "so10_dim": 45,
+      "so10_all_basis_skew": true,
+      "so10_bracket_pairs_checked": 990,
+      "so10_bracket_closure_ok": true,
+      "so10_rank": 5,
+      "cartan_commute_and_maximal": true,
+      "d5_root_count": 40,
+      "dim_equals_rank_plus_roots": true,
+      "d5_cartan_det": 4,
+      "d5_cartan_snf_diagonal": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "spinor_16_plus_weight_count": 16,
+      "center_spin10_order": 4,
+      "center_spin10_element_orders_sorted": [
+        1,
+        2,
+        4,
+        4
+      ],
+      "center_spin10_is_Z4": true,
+      "center_faithful_on_16_plus_Z4": true,
+      "center_elements": [
+        {
+          "torus_c": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "order": 1,
+          "action_on_16_plus": "1",
+          "action_on_16_minus": "1",
+          "action_on_10": "1",
+          "action_on_45_adj": "1"
+        },
+        {
+          "torus_c": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "order": 2,
+          "action_on_16_plus": "-1",
+          "action_on_16_minus": "-1",
+          "action_on_10": "1",
+          "action_on_45_adj": "1"
+        },
+        {
+          "torus_c": [
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ],
+          "order": 4,
+          "action_on_16_plus": "I",
+          "action_on_16_minus": "-I",
+          "action_on_10": "-1",
+          "action_on_45_adj": "1"
+        },
+        {
+          "torus_c": [
+            "3/2",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ],
+          "order": 4,
+          "action_on_16_plus": "-I",
+          "action_on_16_minus": "I",
+          "action_on_10": "-1",
+          "action_on_45_adj": "1"
+        }
+      ],
+      "ker_spin10_to_so10_order": 2,
+      "pi1_so10_is_Z2": true,
+      "dynkin_indices": {
+        "T_10": "1",
+        "T_16_plus": "2",
+        "T_45_adj_dual_coxeter": "8"
+      },
+      "homotopy_cohomology_invariants": {
+        "pi_1_SO10": "Z_2",
+        "pi_1_Spin10": "0",
+        "pi_2_Spin10": "0",
+        "pi_3_Spin10": "Z",
+        "H3_Spin10_Z": "Z",
+        "second_stiefel_whitney_lift_obstruction": "w_2 in H^2(M, Z_2)"
+      },
+      "boundary_classification": {
+        "abelian_u1_2gerbe_cs_inflow_H3_dB2_omegaCS": "DERIVED",
+        "nonabelian_2form_gerbe_uv_completion": "OPEN_UV_BOUNDARY"
+      },
+      "all_ok": true
+    }
+  },
+  "ow15_d_planted_faults": {
+    "faults": {
+      "PF-OW15-1": {
+        "description": "Select D=4 Kleinian (2,2) signature",
+        "spinor_reality_class": "R",
+        "vol_sq_sign": 1,
+        "chirality_conjugation_sign": 1,
+        "wave_classification": "ultrahyperbolic",
+        "wave_roots": [
+          "-sqrt(3)*I",
+          "sqrt(3)*I"
+        ],
+        "kinetic_positive_definite": false,
+        "detected": true
+      },
+      "PF-OW15-2": {
+        "description": "Omit Kabat vector edge contact term (w_contact^Proca = 0)",
+        "c_log_total_faulted": "-17",
+        "expected_baseline": "16",
+        "delta_c_log": "-33",
+        "detected": true
+      },
+      "PF-OW15-3": {
+        "description": "Shift 8 2H scalars from conformal xi=1/6 to minimal xi=0",
+        "c_log_total_faulted": "44/3",
+        "expected_baseline": "16",
+        "delta_c_log": "-4/3",
+        "detected": true
+      },
+      "PF-OW15-4": {
+        "description": "Replace L^2 (p=2) with L^4 (p=4) probability sum under exact U(3) DFT F_3",
+        "f3_p4_drift": "-2/3",
+        "detected": true
+      }
+    },
+    "planted_faults_detected": 4,
+    "planted_faults_total": 4,
+    "all_4_detected": true
+  },
+  "gates": {
+    "OW15_A_all_11_clifford_zero_error": true,
+    "OW15_A_all_11_gammas_unitary": true,
+    "OW15_A_even_D_weyl_block_off_diagonal": true,
+    "OW15_A_all_intertwiners_unitary_exact": true,
+    "OW15_A_kinetic_norm_pos_def_iff_t_eq_1": true,
+    "OW15_A_wave_strictly_hyperbolic_iff_t_eq_1": true,
+    "OW15_A_chirality_factorization_1_5_exact": true,
+    "OW15_A_unique_D4_1_3": true,
+    "OW15_A_unique_tower_13_15_16": true,
+    "OW15_B_hurwitz_zeta_50dps_ok": true,
+    "OW15_B_sommerfeld_bessel_identities_ok": true,
+    "OW15_B_all_field_weights_match_bulk_G_ind": true,
+    "OW15_B_conformal_scalar_w_tot_zero": true,
+    "OW15_B_spin10_c_log_ent_minus_55_3": true,
+    "OW15_B_spin10_c_log_contact_103_3": true,
+    "OW15_B_spin10_exact_bekenstein_hawking_16": true,
+    "OW15_B_all_3_schwarzschild_2ca_exact": true,
+    "OW15_C_X1_born_rule_uniqueness_ok": true,
+    "OW15_C_X37_spin10_topology_and_center_Z4_ok": true,
+    "OW15_D_all_4_planted_faults_detected": true
+  },
+  "gates_passed_count": 20,
+  "gates_total_count": 20,
+  "planted_faults_detected": 4,
+  "planted_faults_total": 4,
+  "all_gates_passed": true
+}
