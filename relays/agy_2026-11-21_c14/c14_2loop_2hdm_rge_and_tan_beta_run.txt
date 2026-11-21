@@ -1,0 +1,21 @@
+=== SECTION 1: GUARDRAIL 4 SYNTHETIC ANALYTIC LITERATURE BENCHMARKS (E1, 0 of 19) ===
+  Exact 1-loop b_3=-7 confinement horizons: t_pole(alpha=1/24) = -21.5423 (> -30!), t_pole(alpha=1/40) = -35.9039 (< -32).
+  Pendleton-Ross 1-loop [alpha=1/24, t=-15]: exact R = 0.872542106382, RK4 = 0.872542106382, rel_err = 6.489e-15 (< 1e-12).
+  Pendleton-Ross 1-loop [alpha=1/40, t=-30]: exact R = 0.790086697420, RK4 = 0.790086697420, rel_err = 1.391e-14 (< 1e-12).
+  [CAUGHT Planted Control 1] Confusing d/d ln(mu) vs d/d ln(mu^2) misses Pendleton-Ross by 1.02370 (> 0.15)!
+  Machacek-Vaughn 2-loop pure-gauge (alpha=1/40, t=-30): g_IR=[0.45646, 0.694805, 1.436094], step-halving err = 3.046e-14 (< 1e-13).
+  [PASS] Section 1 Guardrail 4 literature benchmarks verified to > 12 significant figures.
+
+=== SECTION 2: 2-LOOP TYPE-II 2HDM UV->IR RUNNING, y_d/y_e AMPLIFICATION, & RADIATIVE EWSB (E2) ===
+  N=28 e-folds: A_{d/e}(gen3,gen2)=(2.2221, 2.3051) (> 2.0), |V_cb|_IR/|V_cb|_UV=1.1060, (m_Hu^2, m_Hd^2)=(-0.0017, +0.1917) [EWSB m_Hu^2 < 0 < m_Hd^2 -> tan(beta)=9.63 > 2]!
+  N=30 e-folds: A_{d/e}(gen3,gen2)=(2.6477, 2.8038) (> 2.0), |V_cb|_IR/|V_cb|_UV=1.1223, (m_Hu^2, m_Hd^2)=(-0.0815, +0.1143) [EWSB m_Hu^2 < 0 < m_Hd^2 -> tan(beta)=7.75 > 2]!
+  N=32 e-folds: A_{d/e}(gen3,gen2)=(3.5136, 3.8474) (> 2.0), |V_cb|_IR/|V_cb|_UV=1.1454, (m_Hu^2, m_Hd^2)=(-0.1794, +0.0145) [EWSB m_Hu^2 < 0 < m_Hd^2 -> tan(beta)=5.21 > 2]!
+  [CAUGHT Plant 2a] Dropping g_3 in beta_{Y_d} collapses A_{d/e} to 0.93041 (< 1.0)!
+  [CAUGHT Plant 2b] Swapping H_u <-> H_d inverts radiative splitting: (m_Hu^2, m_Hd^2) = (+0.2472, -0.1993) (m_Hu^2 > m_Hd^2)!
+  [PASS] Section 2 downward 2-loop y_d/y_e QCD amplification, weak CKM stability, and radiative EWSB verified.
+
+=== SECTION 3: GUARDRAIL 3 30-EFOLD 2-LOOP MATRIX RGE HAAR U(3)^5 INVARIANCE (E3) ===
+  8 independent Haar U(3)^5 UV scramblings before 30-efold 2-loop RGE flow: max IR observable drift = 1.010e-14 (< 1e-13).
+  [PASS] Section 3 end-to-end 2-loop matrix RGE Haar U(3)^5 invariance verified.
+
+ALL AGY-C14 PRODUCER CHECKS PASSED (elapsed: 29.99s; 0 of 19).
