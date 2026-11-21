@@ -1,0 +1,8 @@
+=== IC1: BURNSIDE |G_T|=96 CHARACTER IRREDUCIBILITY & COVARIANT 5-SHEET CHECK ===
+  [PASS] Burnside |G|=768, <chi,chi>=1.000000000000 (== 1 => irreducible!); [CAUGHT Plant 1] pinned W_R err=0.2171 vs cov 2.78e-16!
+
+=== IC2 & IC3: 3/8-RULE WEINBERG+2HDM 20-OBSERVABLE HAAR CHECK & PLANTS 2-5 ===
+  [PASS] 20-observable HH drift = 9.798e-15 (< 1e-12); Weinberg sym err = 0.00e+00; [CAUGHT Plants 2, 3, 4, 5]!
+
+ALL AGY-C15 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught; 0 of 19).
+Elapsed: 15.33s.
