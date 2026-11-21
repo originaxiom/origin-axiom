@@ -1,0 +1,821 @@
+{
+  "card": "A2-OW10",
+  "empirical_inputs_used": "0 of 19",
+  "script_sha256": "67e50af76bd75b9fcef482873e98e4d40506927556a28bed2a196e7866e9c248",
+  "OW10_A_asymptotic_safety_double_pincer": {
+    "guardrail4_litim2004_pure_gravity": {
+      "M_g": 0,
+      "fps": [
+        {
+          "g_star": "0.707320880986844507",
+          "lam_star": "0.193200507150785646",
+          "theta_1_re": "1.4753024257639",
+          "theta_1_im": "3.0432058464119",
+          "theta_2_re": "1.4753024257639",
+          "theta_2_im": "-3.0432058464119",
+          "uv_attractive": true,
+          "max_beta_residual": "0.0"
+        }
+      ],
+      "benchmark_pass": true
+    },
+    "guardrail4_dep2014_pure_fermion_bounds": {
+      "type2_fp_counts_ND_0_to_8": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 0,
+        "8": 0
+      },
+      "type1_fp_counts_ND_0_to_5": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "type2_max_surviving_ND": 6,
+      "type1_max_surviving_ND": 3,
+      "benchmark_pass": true
+    },
+    "double_pincer_selection": {
+      "N_gen_lower_bound": "5/2",
+      "N_gen_upper_bound": "27/8",
+      "N_gen_winners_at_2H": [
+        3
+      ],
+      "n_H_winners_at_Ngen3": [
+        1,
+        2,
+        3
+      ],
+      "N_gen_scan_2H": {
+        "1": {
+          "M_g": -24,
+          "sakharov_attractive": false,
+          "type2_uv_fp_count": 1,
+          "double_pincer_pass": false,
+          "fps": [
+            {
+              "g_star": "0.631039830242864891",
+              "lam_star": "0.119560491016879033",
+              "theta_1_re": "1.939656451825",
+              "theta_1_im": "1.637127096203",
+              "theta_2_re": "1.939656451825",
+              "theta_2_im": "-1.637127096203",
+              "uv_attractive": true,
+              "max_beta_residual": "1.33638e-51"
+            }
+          ]
+        },
+        "2": {
+          "M_g": -8,
+          "sakharov_attractive": false,
+          "type2_uv_fp_count": 1,
+          "double_pincer_pass": false,
+          "fps": [
+            {
+              "g_star": "1.9126246279307883",
+              "lam_star": "-1.38763325276014943",
+              "theta_1_re": "3.7126503779308",
+              "theta_1_im": "0.0",
+              "theta_2_re": "1.9601994601885",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "max_beta_residual": "1.06911e-50"
+            }
+          ]
+        },
+        "3": {
+          "M_g": 8,
+          "sakharov_attractive": true,
+          "type2_uv_fp_count": 1,
+          "double_pincer_pass": true,
+          "fps": [
+            {
+              "g_star": "7.05799246723560186",
+              "lam_star": "-10.0208542851987413",
+              "theta_1_re": "3.9643450706883",
+              "theta_1_im": "0.0",
+              "theta_2_re": "2.1291184461946",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "max_beta_residual": "8.55285e-50"
+            }
+          ]
+        },
+        "4": {
+          "M_g": 24,
+          "sakharov_attractive": true,
+          "type2_uv_fp_count": 0,
+          "double_pincer_pass": false,
+          "fps": []
+        }
+      },
+      "n_H_scan_Ngen3": {
+        "1": {
+          "M_g": 4,
+          "sakharov_attractive": true,
+          "type2_uv_fp_count": 1,
+          "double_pincer_pass": true,
+          "fps": [
+            {
+              "g_star": "4.1799529412567208",
+              "lam_star": "-6.23769070574673566",
+              "theta_1_re": "3.9490854008223",
+              "theta_1_im": "0.0",
+              "theta_2_re": "2.0988903403405",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "max_beta_residual": "0.0"
+            }
+          ]
+        },
+        "2": {
+          "M_g": 8,
+          "sakharov_attractive": true,
+          "type2_uv_fp_count": 1,
+          "double_pincer_pass": true,
+          "fps": [
+            {
+              "g_star": "7.05799246723560186",
+              "lam_star": "-10.0208542851987413",
+              "theta_1_re": "3.9643450706883",
+              "theta_1_im": "0.0",
+              "theta_2_re": "2.1291184461946",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "max_beta_residual": "8.55285e-50"
+            }
+          ]
+        },
+        "3": {
+          "M_g": 12,
+          "sakharov_attractive": true,
+          "type2_uv_fp_count": 1,
+          "double_pincer_pass": true,
+          "fps": [
+            {
+              "g_star": "21.5095144410329627",
+              "lam_star": "-29.0017381689090751",
+              "theta_1_re": "3.9859736282183",
+              "theta_1_im": "0.0",
+              "theta_2_re": "2.1684128500595",
+              "theta_2_im": "0.0",
+              "uv_attractive": true,
+              "max_beta_residual": "1.71057e-49"
+            }
+          ]
+        },
+        "4": {
+          "M_g": 16,
+          "sakharov_attractive": true,
+          "type2_uv_fp_count": 0,
+          "double_pincer_pass": false,
+          "fps": []
+        }
+      }
+    },
+    "open_weave_2H_vs_TypeI_and_SM": {
+      "open_weave_2H_TypeII": {
+        "M_g": 8,
+        "uv_fp_count": 1,
+        "fps": [
+          {
+            "g_star": "7.05799246723560186",
+            "lam_star": "-10.0208542851987413",
+            "theta_1_re": "3.9643450706883",
+            "theta_1_im": "0.0",
+            "theta_2_re": "2.1291184461946",
+            "theta_2_im": "0.0",
+            "uv_attractive": true,
+            "max_beta_residual": "8.55285e-50"
+          }
+        ]
+      },
+      "open_weave_2H_TypeI": {
+        "M_g": 56,
+        "uv_fp_count": 0,
+        "fps": []
+      },
+      "sm_1H_no_nuR_TypeII": {
+        "M_g": 1,
+        "uv_fp_count": 1,
+        "fps": [
+          {
+            "g_star": "3.21724074220444535",
+            "lam_star": "-4.39314436287277779",
+            "theta_1_re": "3.9260501243818",
+            "theta_1_im": "0.0",
+            "theta_2_re": "2.0827346017522",
+            "theta_2_im": "0.0",
+            "uv_attractive": true,
+            "max_beta_residual": "4.27642e-50"
+          }
+        ]
+      },
+      "sm_1H_no_nuR_TypeI": {
+        "M_g": 46,
+        "uv_fp_count": 0,
+        "fps": []
+      },
+      "type1_destroys_fp": true,
+      "type2_strong_single_metric_coupling": true
+    },
+    "all_21_open_weave_actions_audit": {
+      "total_actions": 21,
+      "unique_winner_count": 1,
+      "unique_winner": {
+        "N": 5,
+        "d": 5,
+        "a_plus": 3,
+        "b_minus": 2,
+        "n_s_2H": 8,
+        "n_W_chiral_3gen": 48,
+        "n_V": 12,
+        "is_chiral": true,
+        "anomaly_free": true,
+        "M_g": 8,
+        "sakharov_attractive": true,
+        "type2_frg_fp_count": 1,
+        "all_four_gates_pass": true
+      },
+      "actions": [
+        {
+          "N": 2,
+          "d": 3,
+          "a_plus": 2,
+          "b_minus": 1,
+          "n_s_2H": 4,
+          "n_W_chiral_3gen": 12,
+          "n_V": 4,
+          "is_chiral": true,
+          "anomaly_free": false,
+          "M_g": 0,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 2,
+          "d": 6,
+          "a_plus": 3,
+          "b_minus": 3,
+          "n_s_2H": 12,
+          "n_W_chiral_3gen": 0,
+          "n_V": 17,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -56,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 3,
+          "d": 4,
+          "a_plus": 2,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 0,
+          "n_V": 7,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -20,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 3,
+          "d": 6,
+          "a_plus": 4,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 0,
+          "n_V": 19,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -68,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 3,
+          "d": 12,
+          "a_plus": 6,
+          "b_minus": 6,
+          "n_s_2H": 24,
+          "n_W_chiral_3gen": 0,
+          "n_V": 71,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -260,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 4,
+          "a_plus": 3,
+          "b_minus": 1,
+          "n_s_2H": 4,
+          "n_W_chiral_3gen": 0,
+          "n_V": 9,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -32,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 4,
+          "a_plus": 2,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 0,
+          "n_V": 7,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -20,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 6,
+          "a_plus": 4,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 0,
+          "n_V": 19,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -68,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 6,
+          "a_plus": 4,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 0,
+          "n_V": 19,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -68,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 6,
+          "a_plus": 3,
+          "b_minus": 3,
+          "n_s_2H": 12,
+          "n_W_chiral_3gen": 0,
+          "n_V": 17,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -56,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 6,
+          "a_plus": 4,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 0,
+          "n_V": 19,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -68,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 8,
+          "a_plus": 4,
+          "b_minus": 4,
+          "n_s_2H": 16,
+          "n_W_chiral_3gen": 0,
+          "n_V": 31,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -108,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 8,
+          "a_plus": 4,
+          "b_minus": 4,
+          "n_s_2H": 16,
+          "n_W_chiral_3gen": 0,
+          "n_V": 31,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -108,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 12,
+          "a_plus": 7,
+          "b_minus": 5,
+          "n_s_2H": 20,
+          "n_W_chiral_3gen": 0,
+          "n_V": 73,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -272,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 12,
+          "a_plus": 6,
+          "b_minus": 6,
+          "n_s_2H": 24,
+          "n_W_chiral_3gen": 0,
+          "n_V": 71,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -260,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 12,
+          "a_plus": 6,
+          "b_minus": 6,
+          "n_s_2H": 24,
+          "n_W_chiral_3gen": 0,
+          "n_V": 71,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -260,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 4,
+          "d": 12,
+          "a_plus": 8,
+          "b_minus": 4,
+          "n_s_2H": 16,
+          "n_W_chiral_3gen": 0,
+          "n_V": 79,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -300,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 5,
+          "d": 5,
+          "a_plus": 3,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 48,
+          "n_V": 12,
+          "is_chiral": true,
+          "anomaly_free": true,
+          "M_g": 8,
+          "sakharov_attractive": true,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": true
+        },
+        {
+          "N": 5,
+          "d": 6,
+          "a_plus": 4,
+          "b_minus": 2,
+          "n_s_2H": 8,
+          "n_W_chiral_3gen": 0,
+          "n_V": 19,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -68,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 5,
+          "d": 10,
+          "a_plus": 6,
+          "b_minus": 4,
+          "n_s_2H": 16,
+          "n_W_chiral_3gen": 0,
+          "n_V": 51,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -188,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        },
+        {
+          "N": 5,
+          "d": 12,
+          "a_plus": 6,
+          "b_minus": 6,
+          "n_s_2H": 24,
+          "n_W_chiral_3gen": 0,
+          "n_V": 71,
+          "is_chiral": false,
+          "anomaly_free": true,
+          "M_g": -260,
+          "sakharov_attractive": false,
+          "type2_frg_fp_count": 1,
+          "all_four_gates_pass": false
+        }
+      ]
+    },
+    "pass": true
+  },
+  "OW10_B_stelle_ghost_and_a_theorem": {
+    "open_weave_2H_c": "37/15",
+    "open_weave_2H_a": "127/45",
+    "sm_1H_plus_3nuR_c": "73/30",
+    "sm_1H_plus_3nuR_a": "253/90",
+    "conformal_xi_1_6_R2_prefactor": "0",
+    "perturbative_4d_stelle_spin2_ghost": {
+      "induced_C2_sign_positive": true,
+      "ghost_pole_residue": -1,
+      "partial_fraction_checks": [
+        {
+          "x": "1/3",
+          "lhs": "9/4",
+          "rhs": "9/4",
+          "exact_match": true
+        },
+        {
+          "x": "1",
+          "lhs": "1/2",
+          "rhs": "1/2",
+          "exact_match": true
+        },
+        {
+          "x": "5",
+          "lhs": "1/30",
+          "rhs": "1/30",
+          "exact_match": true
+        }
+      ],
+      "exact_identity_verified": true
+    },
+    "a_theorem_ladder": [
+      {
+        "stage": "UV_N5_2H_plus_3nuR",
+        "N_S": 8,
+        "N_W": 48,
+        "N_V": 12,
+        "c": "37/15",
+        "a": "127/45"
+      },
+      {
+        "stage": "EFT1_SM_1H_plus_3nuR",
+        "N_S": 4,
+        "N_W": 48,
+        "N_V": 12,
+        "c": "73/30",
+        "a": "253/90",
+        "delta_a_from_prev": "1/90",
+        "strictly_positive_drop": true
+      },
+      {
+        "stage": "EFT2_SM_1H_below_MR",
+        "N_S": 4,
+        "N_W": 45,
+        "N_V": 12,
+        "c": "283/120",
+        "a": "1991/720",
+        "delta_a_from_prev": "11/240",
+        "strictly_positive_drop": true
+      },
+      {
+        "stage": "EFT3_below_EW_QCD_QED",
+        "N_S": 0,
+        "N_W": 39,
+        "N_V": 9,
+        "c": "15/8",
+        "a": "103/48",
+        "delta_a_from_prev": "223/360",
+        "strictly_positive_drop": true
+      },
+      {
+        "stage": "EFT4_below_QCD_QED_pions",
+        "N_S": 3,
+        "N_W": 5,
+        "N_V": 1,
+        "c": "1/4",
+        "a": "37/144",
+        "delta_a_from_prev": "17/9",
+        "strictly_positive_drop": true
+      },
+      {
+        "stage": "Deep_IR_gamma_plus_3nuL",
+        "N_S": 0,
+        "N_W": 3,
+        "N_V": 1,
+        "c": "7/40",
+        "a": "157/720",
+        "delta_a_from_prev": "7/180",
+        "strictly_positive_drop": true
+      }
+    ],
+    "consecutive_positive_drops": 5,
+    "total_delta_a_UV_to_IR": "125/48",
+    "pass": true
+  },
+  "OW10_C_master_open_weave_toe_scorecard": {
+    "total_rows": 12,
+    "status_counts": {
+      "NO-GO / IMPOSSIBLE-BY-THEOREM": 2,
+      "PARTIAL / CONDITIONAL": 3,
+      "PROVED": 5,
+      "STILL OPEN": 2
+    },
+    "rows": [
+      {
+        "id": 1,
+        "sector": "Chiral Anomaly-Free SM Gauge-Matter Engine & 2H Doublet-Triplet Split",
+        "cards": [
+          "A2-OW1",
+          "A2-OW4"
+        ],
+        "status": "PROVED",
+        "summary": "Unique chiral anomaly-free confining bowl at N=5, d=5 (A_5/A_4, 1 of 21 actions); G_SM, 16 Weyl, 2H doublets, 0 color triplets without m004."
+      },
+      {
+        "id": 2,
+        "sector": "Unique (D=4, N=5, N_gen=3) Double-Pincer Selection (Sakharov + FRG)",
+        "cards": [
+          "A2-OW4",
+          "A2-OW10"
+        ],
+        "status": "PROVED",
+        "summary": "0 < N_S + N_W - 4 N_V < 14 gives 5/2 < N_gen < 27/8 => N_gen=3 uniquely at N=5, 2H (and n_H in {1,2,3}); exact n_W - 4 n_V = 0 only at (D=4, N=5, N_gen=3)."
+      },
+      {
+        "id": 3,
+        "sector": "Universal 6D -> 7D T^2/Z_2 Chirality & Bulk CS Anomaly Inflow",
+        "cards": [
+          "A2-OW5"
+        ],
+        "status": "PROVED",
+        "summary": "All 547/547 GL(2,Z) threads yield (48_L, 0_R); triple-locked 6D G_SM I_8 impossibility forces 7D bulk CS inflow."
+      },
+      {
+        "id": 4,
+        "sector": "Spontaneous CP Breaking & Dynamical X_0(5) Casimir Stabilization of tau_*^{+-}",
+        "cards": [
+          "A2-OW2",
+          "A2-OW9"
+        ],
+        "status": "PROVED",
+        "summary": "Finite 4D Casimir density has positive dS sign (+68/pi^3 E_3); F_3(tau)=E_3(tau)+E_3(5 tau) dynamically stabilizes tau_*^{+-}=(+-2+i)/5 via (3,4,5) Pythagorean Hessian interlocking."
+      },
+      {
+        "id": 5,
+        "sector": "Conformal (xi=1/6) Attractive Finite 4D Gravity & 2H Radiative EWSB Mechanism",
+        "cards": [
+          "A2-OW3",
+          "A2-OW8"
+        ],
+        "status": "PROVED",
+        "summary": "Spin(10) -> G_SM Proca vectors give c_log = +16 > 0 (M_R/M_X < sqrt(33)); forced X:HOL Type-II 2HDM radiatively destabilizes H_d while stabilizing H_u, generating exponential GW hierarchy."
+      },
+      {
+        "id": 6,
+        "sector": "Fermion Mass Hierarchies, e != d Splitting, CKM Mixing & Jarlskog J_CP",
+        "cards": [
+          "A2-OW6",
+          "A2-OW7"
+        ],
+        "status": "PARTIAL / CONDITIONAL",
+        "summary": "7D bulk RH geodesic QR-decoupling breaks A2-OW6 trade-off universally across all 6/6 permutations; individual permutation selection costs log_2(6) bits (4/6 subset gives strict CKM hierarchy)."
+      },
+      {
+        "id": 7,
+        "sector": "Dark-Matter Stabilizer (COSMOLOGY_LEDGER Row 4)",
+        "cards": [
+          "A2-OW9"
+        ],
+        "status": "PARTIAL / CONDITIONAL",
+        "summary": "Zero-mode nu^c ruled out (A_5 simple, P_M==(-1)^F, 17+5 dim<=6 decay ops); bulk Q=1 LKP strictly stable across 547/547 threads iff fixed-point branes preserve E[2] half-period democracy."
+      },
+      {
+        "id": 8,
+        "sector": "4D Asymptotic Safety UV Quantum Gravity Fixed Point",
+        "cards": [
+          "A2-OW10"
+        ],
+        "status": "PARTIAL / CONDITIONAL",
+        "summary": "UV-attractive fixed point (g*=7.058, lam*=-10.021) exists in Type-II Lichnerowicz cutoff; destroyed in Type-I cutoff and sits at strong single-metric coupling (higher-order/bi-metric stability open)."
+      },
+      {
+        "id": 9,
+        "sector": "Closed Routes: Pure-Volume Selection, Untwisted Im(tau)>1, Raabe -36, 1H Conformal EWSB, Perturbative 4D Stelle Ghost",
+        "cards": [
+          "A2-OW3",
+          "A2-OW6",
+          "A2-OW8",
+          "A2-OW10"
+        ],
+        "status": "NO-GO / IMPOSSIBLE-BY-THEOREM",
+        "summary": "Proved impossible: pure hyperbolic volume selection (Whitehead Hagedorn wall 4G), untwisted Im(tau)>1 minimum, E[5] Raabe -36 stabilization, conformal 1H SM EWSB, and perturbative 4D quadratic-gravity unitarity."
+      },
+      {
+        "id": 10,
+        "sector": "Closed Routes: T^2/Z_2 KK-Tower a_0 Cosmological Constant Cancellation & 4D Zero-Mode nu^c Parity",
+        "cards": [
+          "A2-OW4",
+          "A2-OW9"
+        ],
+        "status": "NO-GO / IMPOSSIBLE-BY-THEOREM",
+        "summary": "Zero mode (-64) and every nonzero KK shell (-68 bulk / -72 brane per T^2 pt) remain fermion-dominated; no misaligned KK Bose-Fermi cancellation and no forced exact stabilizer for zero-mode nu^c."
+      },
+      {
+        "id": 11,
+        "sector": "Observed 10^(-120) Cosmological Constant Value & 4 Continuous Scale Inputs",
+        "cards": [
+          "A2-OW8",
+          "A2-OW9"
+        ],
+        "status": "STILL OPEN",
+        "summary": "a_0 != 0 leaves the 10^(-120) CC fine-tuning problem unsolved; 4 continuous dimensionless ratios (g_UV, lam_0, tan(beta), M_R/M_X) and 1 overall unit anchor remain unfixed dynamically."
+      },
+      {
+        "id": 12,
+        "sector": "Early-Universe Dynamics (Inflation, Baryogenesis Rate, CMB, Structure) & Full Non-Perturbative 7D/FRG Quantum Gravity",
+        "cards": [
+          "A2-OW10"
+        ],
+        "status": "STILL OPEN",
+        "summary": "No derived inflaton, thermal baryogenesis rate, CMB power spectrum, structure-formation history, or bi-metric / 7D non-perturbative UV gravity proof exists yet."
+      }
+    ],
+    "pass": true
+  },
+  "OW10_D_planted_faults": {
+    "PF_OW10_1_flip_fermion_B1_sign": {
+      "faulty_M_g": -88,
+      "faulty_g_star": "0.374883141352",
+      "faulty_lam_star": "-0.48658400464",
+      "g_star_collapse_ratio": "18.82718023",
+      "caught": true
+    },
+    "PF_OW10_2_four_generations_destroys_fp": {
+      "faulty_M_g": 24,
+      "faulty_uv_fp_count": 0,
+      "caught": true
+    },
+    "PF_OW10_3_type1_cutoff_destroys_fp": {
+      "faulty_M_g": 56,
+      "faulty_uv_fp_count": 0,
+      "caught": true
+    },
+    "PF_OW10_4_reversed_a_theorem_and_nonconformal_xi": {
+      "reversed_delta_a": "-125/48",
+      "nonconformal_xi_0_sq": "1/36",
+      "caught": true
+    },
+    "caught_count": 4,
+    "total_planted": 4,
+    "pass": true
+  },
+  "all_gates_passed": true
+}
