@@ -1,0 +1,10 @@
+=== IC1: E_8 WEIGHT-LATTICE L*nu^c*H_5 PROOF & B1736 SYMBOLIC 1/sqrt(2) LAW ===
+  E_8 weight selection: L*nu^c*H_5 hits = 2, [CAUGHT Plant 3] L*nu^c*H_5bar hits = 0 (exact 0).
+  [PASS] Symbolic identity U_e^T * U_e == [[0,1,0],[1,0,0],[0,0,1]] proves exact 1/sqrt(2) solar Takagi rotation!
+
+=== IC2 & IC3: TRIPLE-PRODUCT SEE-SAW, HOUSEHOLDER O(3) SCRAMBLING, & 5 PLANTS ===
+  Triple-product m=40 |Ue1,2 - 1/sqrt(2)| = 3.056e-6; Householder O(3)_R drift = 5.045e-65 (< 1e-45).
+  [CAUGHT Plants 1, 2, 4, 5] Dirac |Ue2|=0.06437, phase shift=0.58, 6Y_nu=6 shift=0.3539, U_L^H V_R drift=0.4753.
+  [PASS] All 5/5 planted negative controls caught; zero-shared-code AGY-C10 countercheck complete.
+
+ALL AGY-C10 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught in 0.81s; 0 of 19).
