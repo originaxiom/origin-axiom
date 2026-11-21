@@ -1,0 +1,19 @@
+=== SECTION 1: 1-LOOP POLE / 2HDM MATCHING & 40-DIGIT FULL-TOE SEAL v2 (E1 & E2, 0 of 19) ===
+  Step-halving (N=180 vs N=360 across 35 SM+pole+2HDM+lepto quantities): max rel drift = 2.2067e-8 (< 1e-7).
+  Haar U(3)^5 basis-scrambling drift across all 12 pole/2HDM observables: 3.5873e-43 (< 1e-35).
+  1-Loop Pole & 2HDM Spectrum (in v_EW): u3_pole=0.9904174, d3(d3)/e3_pole=2.850025, d3_pole/e3_pole=3.326075, h0=0.873764, H0=1.13734, A0=1.12591, Hpm=1.23968.
+  Sealed blind_predictions_full_toe_v2.json (SHA-256 = d918700ed6cfc262...fc8f59bf).
+  [PASS] Section 1 1-loop pole/2HDM spectrum and 40-digit Full-ToE Seal v2 verified.
+
+=== SECTION 2: SINGLE-ARM 2,000-WORLD MATCHED NULL X2, POWER, & TAMPER CHECK (E2) ===
+  [CAUGHT Plant 1] Single-field tamper in blind_predictions_full_toe_v2.json rejected by SHA-256 seal!
+  Single-Arm Matched Null (2000 worlds): 0/2000 hits (closest max|ln(w/p)| = 4.788 > 0.262); Clopper-Pearson r_95 = 0.001497 (< 0.01).
+  Single-Arm 5%-noise location-free recovery power: 0.9940 (> 0.90 >> 0.10); [CAUGHT Plant 2] 0.1% window collapses power to 0.0000 (< 0.10)!
+  [PASS] Section 2 single-arm matched-null specificity X2 and power audit verified.
+
+=== SECTION 3: UPDATED 5.5-BIT P-406 LEDGER & CERTIFICATE VALIDATOR (E3) ===
+  Validated v2 Certificate: 12/12 R-rows, 13/13 IC-rows, FITTED=0, ANCHORS=1, discrete bits = 5.5 (4.5 bits on CP-even spectrum; down from 11.5 in C18 and 18.5 in C15!).
+  [CAUGHT Plant 3] FITTED knob, extra GeV anchor, and 0-bit post-inspection override all rejected!
+  [PASS] Section 3 updated 5.5-bit P-406 certificate verified.
+
+ALL AGY-C24 PRODUCER CHECKS PASSED (elapsed: 78.11s; 0 of 19).

@@ -1,0 +1,71 @@
+{
+  "sha256_payload_digest": "d918700ed6cfc262987d7d9abb174913ceeb383978a4952379561facfc8f59bf",
+  "prediction_bundle_v2": {
+    "protocol": "AGY-C24_full_toe_zero_knob_blind_prediction_v2",
+    "firewall_status": "0 of 19 (strictly data-free; zero empirical constants imported)",
+    "fitted_continuous_parameters": 0,
+    "dimensionful_unit_anchors": 1,
+    "honest_discrete_bits_signed_cp": 5.5,
+    "honest_discrete_bits_cp_even": 4.5,
+    "instanton_horizon_selection": "Single unique minimal-action 3-toron saddle t_EW = -48*pi/5 (Q_A = 3/25 < 1/8 = Q_B proved in AGY-C21)",
+    "step_halving_max_rel_error": "2.20668005407e-8",
+    "sm_msbar_at_ew_horizon": {
+      "u_m1_over_m3": "0.0000000101184852286639660081627942876",
+      "u_m2_over_m3": "0.000151963255188475193720246589801",
+      "d_m1_over_m3": "0.0000166144888384191567641381604459",
+      "d_m2_over_m3": "0.00088051352011594227869463863482",
+      "e_m1_over_m3": "0.0000000385410932156399434845455474811",
+      "e_m2_over_m3": "0.00146157661682894676673335840509",
+      "u3_over_d3": "13.6654854547962172490117891451",
+      "d3_over_e3": "1.87417598502388107539571112645",
+      "ckm_v12": "0.500889195772142335262589141943",
+      "ckm_v23": "0.35851878209884087809542126451",
+      "ckm_v13": "0.119693213884746610724329808995",
+      "ckm_jarlskog": "0.00197384020167278190123641753921",
+      "pmns_u12": "0.713882067334588066939806422464",
+      "pmns_u23": "0.641660535400511325586546989261",
+      "pmns_u13": "0.195343736822414803950946641146",
+      "pmns_jarlskog": "0.0249630875720489297529847830207",
+      "nu_dm21_sq_over_dm31_sq": "0.00180018768348781789452238904759",
+      "strong_cp_phase": "0.0",
+      "gauge_slope_2loop": "1.71763926066889137117108554744",
+      "tan_beta_radiative": "10.7869429229401583510521002969",
+      "quartic_bfb_margin": "0.354026113475864371464971918092",
+      "electroweak_mix_ratio": "0.204749062041981635848379062171"
+    },
+    "sm_1loop_pole_and_2hdm_bosons": {
+      "u3_pole_over_vew": "0.99041744816512881650200338501",
+      "d3_low_over_e3_pole": "2.85002482991366144678062298626",
+      "d3_pole_over_e3_pole": "3.32607492357370887318161673935",
+      "strong_coupling_ir": "0.171254391489190446011707730579",
+      "qed_coupling_ir": "0.00790483336683661074053460956234",
+      "mw_over_vew": "0.348265404785566257942242120176",
+      "mz_over_vew": "0.390533452326878747591532438458",
+      "higgs_h0_over_vew": "0.873763738123584686440537182299",
+      "higgs_H0_over_vew": "1.13733593446469909620260175675",
+      "higgs_A0_over_vew": "1.12590813969782595934165115267",
+      "higgs_Hpm_over_vew": "1.23968178139457998303489927792",
+      "ewsb_vmin_over_vew4": "-0.0916377966681856022102175531741"
+    },
+    "gravity_11d_mtheory_sector": {
+      "mckay_2I_over_2T_index": 5,
+      "m11_over_mgut_zero_knob": "3.93863908062725782741663306441",
+      "mpl_over_vew_benchmark_self_dual": "319450437572092.311292276144508",
+      "gn_vew_sq_benchmark_self_dual": "3.89899937537886139260635474655e-31",
+      "mpl_over_vew_benchmark_isotropic_kk": "4955595603590491.44209358648698",
+      "gn_vew_sq_benchmark_isotropic_kk": "1.62019923338684132452730574534e-33",
+      "open_modulus_note": "M_11/M_GUT is 0-knob locked; M_Pl/M_GUT scales as sqrt(V_hat_perp) pending G_4-flux stabilization on T^4/2T."
+    },
+    "cosmology_and_honest_obstructions": {
+      "dark_matter_spin10_matter_parity_psi_S": -1,
+      "dark_matter_topological_stability": "EXACT_UNBROKEN_Z2_B_MINUS_L",
+      "proton_decay_dim6_suppression_mgut_over_vew_pow4": "2.466334553878546681e+52",
+      "leptogenesis_eps_1_tau_primary_plus": "-0.0000207578400528324723796978",
+      "leptogenesis_baryon_sign_via_sphaleron": "+1 (since eps_{1,tau} < 0 => Y_B = -(28/79) Y_L > 0)",
+      "leptogenesis_washout_K1_self_dual": "2218.8847743508857773",
+      "leptogenesis_tau_equilibration_over_hubble_sd": "335.18858504624655711",
+      "vacuum_energy_cusp_self_tuning_status": "HONEST_NO_GO_THEOREM (G_rr = 2 A'(3 A' - 4) forbids untuned Lambda_4=0 EWSB shift; B980 enforced)",
+      "single_field_modular_hilltop_inflation_status": "HONEST_NO_GO_THEOREM (Fricke hilltop |eta_V| = 5.5669 > 1 for n_K=1, 1.8556 > 1 for n_K=3)"
+    }
+  }
+}
