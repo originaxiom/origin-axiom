@@ -1,0 +1,9 @@
+=== IC1: ZERO-SNAPPY RILEY PSL(2, Z[omega]) PARABOLIC PROOF OF MERIDIAN SCALING ===
+  [PASS] Riley Z[omega] longitude word 'BabAAbaB' (exp_sum=0) gives |z_lon| = 2*sqrt(3), tau_cov^(m) = m*i/(2*sqrt(3)); [CAUGHT Plant 1].
+
+=== IC2 & IC3: ZERO-FD RAMANUJAN HESSIANS, 78-DIM E_6 / 27 FACTORIZATION, & 5 PLANTS ===
+  [PASS] Zero-FD Ramanujan gradient (< 1e-50) & Hessians verified for m in {8,16,40}; [CAUGHT Plant 4: sign flip gives tr(Hess)=-1.9635 < 0].
+  [PASS] 78-dim E_6 & minuscule 27 = 16 + 10 + 1 sliced from E_8: tr_27(H^4) - (1/12)*(tr_27 H^2)^2 == 0 across all 6 E_6 Cartan directions!
+  [PASS] Caught Plants 2 (16 alone), 3 (wrong 1/16 coeff), and 5 (unbalanced 6D trR4); 5/5 planted faults caught.
+
+ALL AGY-C9 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught in 2.21s; 0 of 19).
