@@ -51,7 +51,8 @@ def build_and_verify_bundle(out_tar_gz: Path) -> dict[str, object]:
             shutil.copy2(MANUSCRIPT_DIR / rel_f, tmp1 / rel_f)
 
         _run(["pdflatex", "-interaction=nonstopmode", "-halt-on-error", "main.tex"], tmp1)
-        _run(["bibtex", "main"], tmp1)
+        bib_stdout = _run(["bibtex", "main"], tmp1)
+        assert "Warning--" not in bib_stdout, f"BibTeX warnings detected:\n{bib_stdout}"
         _run(["pdflatex", "-interaction=nonstopmode", "-halt-on-error", "main.tex"], tmp1)
         _run(["pdflatex", "-interaction=nonstopmode", "-halt-on-error", "main.tex"], tmp1)
 

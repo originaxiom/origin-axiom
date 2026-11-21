@@ -6,7 +6,7 @@ Complete referee-audited `REVTeX 4.2` (`APS PRD` primary, `1`-word toggle to `AP
 
 - `self_consistent_loop/manuscript/main.tex` — `REVTeX 4.2` manuscript (`Introduction`, `Geometric Framework`, `Computational and Audit Methods`, `Results`, `One-Loop Hyperbolic Audit and Experimental Falsifiability`, `Theoretical Scope, Threshold Uncertainties, and Discrete-Selection Audit`, `Conclusions`, `Data Availability`, and `Appendices A–D`).
 - `self_consistent_loop/manuscript/main.pdf` — Compiled 10-page two-column PDF (`0` overfull boxes, `0` unresolved citations).
-- `self_consistent_loop/manuscript/references.bib` — Publisher-verified primary literature bibliography (`26` foundational references).
+- `self_consistent_loop/manuscript/references.bib` — Publisher-verified primary literature bibliography (`28` foundational references).
 - `self_consistent_loop/manuscript/review-2026-11-21.md` — Structured `review-paper` audit (`Guidelines 1–9`) and Phase-4 applied changelog.
 - `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md` — Turnkey `arXiv` (`hep-ph`) metadata, pre-flight checklist, and APS *Physical Review D* cover letter.
 - `self_consistent_loop/manuscript/build_prd_arxiv_bundle.py` — Deterministic packager & standalone `AutoTeX` (`pdflatex`-only) verifier producing the `main.tex` + `main.bbl` + `figures/*.pdf` upload tarball.
