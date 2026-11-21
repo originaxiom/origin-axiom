@@ -1,0 +1,14 @@
+=== IC1: SYMBOLIC SYMPY PROOFS OF b-FOURIER ORTHOGONALITY & t=4 G_u == G_d ===
+  [PASS] Symbolic sympy proof: M_u M_u^H == M_d M_d^H across all 35 t=4 points, forcing Y_u Y_u^H == Y_d Y_d^H identically!
+
+=== IC2 & IC3: GAUSS SELBERG IDENTITY, 110-DPS TRIPLE-PRODUCT CKM EXPONENTS, & 5 PLANTS ===
+  Gauss Selberg log-det residual = 4.696e-60 (< 1e-45); [CAUGHT Plant 4] omitting 1/m gives 0.0002701.
+  Triple-product CKM exponents at (Fraction(1, 5), Fraction(2, 5)): ['0.4499999', '0.04999977', '0.4999998'] vs ['9/20', '1/20', '1/2'], err = 2.335e-7
+  Triple-product CKM exponents at (Fraction(2, 5), Fraction(1, 5)): ['0.3', '0.1500001', '0.5500002'] vs ['3/10', '3/20', '11/20'], err = 1.775e-7
+  [CAUGHT Plant 1] Triple-product 20-pt b-Fourier collapse factor at m=16 = 6085.3 (> 1000).
+  [CAUGHT Plant 2] Triple-product (S_tilde, S) at m=40 collapses min_k |V_kk| to 2.4479e-10 (< 1/100).
+  [CAUGHT Plant 3] Perturbing q_{R,u} = -4 -> -3 on P_6 breaks ||G_u - G_d||/||G_d|| to 17.568 (> 10).
+  [CAUGHT Plant 5] Non-unitary left-basis shear shifts |V_12| by 0.26476 (> 0.1).
+  [PASS] All 5/5 planted negative controls caught; zero-shared-code AGY-C8 countercheck complete.
+
+ALL AGY-C8 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught in 20.25s; 0 of 19).
