@@ -1,0 +1,2099 @@
+{
+  "all_gates_passed": true,
+  "card_id": "A2-OW16",
+  "empirical_inputs": "0 of 19",
+  "gates": {
+    "OW16_A_24_row_partition": true,
+    "OW16_A_all_10_cross_card_locks": true,
+    "OW16_A_ast_audit_30_scripts": true,
+    "OW16_A_custody_60_manifests": true,
+    "OW16_A_self_referee_ast_clean": true,
+    "OW16_B_guardrail5_input_ledger": true,
+    "OW16_C_cross_seat_6_surfaces": true,
+    "OW16_D_4_of_4_planted_faults": true
+  },
+  "gates_passed_count": 8,
+  "gates_total_count": 8,
+  "ow16_a": {
+    "ast_audit_30_scripts": {
+      "all_30_clean": true,
+      "records": [
+        {
+          "card": "A2-OW1",
+          "clean": true,
+          "dir": "a2_ow1_v3",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow1_v3/verify_a2_ow1_v3.py"
+        },
+        {
+          "card": "A2-OW2",
+          "clean": true,
+          "dir": "a2_ow2_v4",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow2_v4/verify_a2_ow2_v4.py"
+        },
+        {
+          "card": "A2-OW3",
+          "clean": true,
+          "dir": "a2_ow3_v2",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow3_v2/verify_a2_ow3_v2.py"
+        },
+        {
+          "card": "A2-OW4",
+          "clean": true,
+          "dir": "a2_ow4_v2",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow4_v2/verify_a2_ow4_v2.py"
+        },
+        {
+          "card": "A2-OW5",
+          "clean": true,
+          "dir": "a2_ow5",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow5/verify_a2_ow5.py"
+        },
+        {
+          "card": "A2-OW6",
+          "clean": true,
+          "dir": "a2_ow6_v2",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow6_v2/verify_a2_ow6_v2.py"
+        },
+        {
+          "card": "A2-OW7",
+          "clean": true,
+          "dir": "a2_ow7_v2",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow7_v2/verify_a2_ow7_v2.py"
+        },
+        {
+          "card": "A2-OW8",
+          "clean": true,
+          "dir": "a2_ow8",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow8/verify_a2_ow8.py"
+        },
+        {
+          "card": "A2-OW9",
+          "clean": true,
+          "dir": "a2_ow9",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow9/verify_a2_ow9.py"
+        },
+        {
+          "card": "A2-OW10",
+          "clean": true,
+          "dir": "a2_ow10_v2",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow10_v2/verify_a2_ow10_v2.py"
+        },
+        {
+          "card": "A2-OW11",
+          "clean": true,
+          "dir": "a2_ow11_v3",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow11_v3/verify_a2_ow11_v3.py"
+        },
+        {
+          "card": "A2-OW12",
+          "clean": true,
+          "dir": "a2_ow12_v3",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow12_v3/verify_a2_ow12_v3.py"
+        },
+        {
+          "card": "A2-OW13",
+          "clean": true,
+          "dir": "a2_ow13_v2",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow13_v2/verify_a2_ow13_v2.py"
+        },
+        {
+          "card": "A2-OW14",
+          "clean": true,
+          "dir": "a2_ow14_v2",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow14_v2/verify_a2_ow14_v2.py"
+        },
+        {
+          "card": "A2-OW15",
+          "clean": true,
+          "dir": "a2_ow15",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "producer",
+          "script_path": "relays/a2_ow15/verify_a2_ow15.py"
+        },
+        {
+          "card": "A2-OW1",
+          "clean": true,
+          "dir": "a2_ow1_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow1_referee/referee_a2_ow1.py"
+        },
+        {
+          "card": "A2-OW2",
+          "clean": true,
+          "dir": "a2_ow2_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow2_referee/referee_a2_ow2.py"
+        },
+        {
+          "card": "A2-OW3",
+          "clean": true,
+          "dir": "a2_ow3_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow3_referee/referee_a2_ow3.py"
+        },
+        {
+          "card": "A2-OW4",
+          "clean": true,
+          "dir": "a2_ow4_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow4_referee/referee_a2_ow4.py"
+        },
+        {
+          "card": "A2-OW5",
+          "clean": true,
+          "dir": "a2_ow5_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow5_referee/referee_a2_ow5.py"
+        },
+        {
+          "card": "A2-OW6",
+          "clean": true,
+          "dir": "a2_ow6_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow6_referee/referee_a2_ow6.py"
+        },
+        {
+          "card": "A2-OW7",
+          "clean": true,
+          "dir": "a2_ow7_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow7_referee/referee_a2_ow7.py"
+        },
+        {
+          "card": "A2-OW8",
+          "clean": true,
+          "dir": "a2_ow8_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow8_referee/referee_a2_ow8.py"
+        },
+        {
+          "card": "A2-OW9",
+          "clean": true,
+          "dir": "a2_ow9_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow9_referee/referee_a2_ow9.py"
+        },
+        {
+          "card": "A2-OW10",
+          "clean": true,
+          "dir": "a2_ow10_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow10_referee/referee_a2_ow10.py"
+        },
+        {
+          "card": "A2-OW11",
+          "clean": true,
+          "dir": "a2_ow11_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow11_referee/referee_a2_ow11.py"
+        },
+        {
+          "card": "A2-OW12",
+          "clean": true,
+          "dir": "a2_ow12_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow12_referee/referee_a2_ow12.py"
+        },
+        {
+          "card": "A2-OW13",
+          "clean": true,
+          "dir": "a2_ow13_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow13_referee/referee_a2_ow13.py"
+        },
+        {
+          "card": "A2-OW14",
+          "clean": true,
+          "dir": "a2_ow14_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow14_referee/referee_a2_ow14.py"
+        },
+        {
+          "card": "A2-OW15",
+          "clean": true,
+          "dir": "a2_ow15_referee",
+          "float_complex_literal_count": 0,
+          "float_complex_literals": [],
+          "frontier_import_count": 0,
+          "frontier_imports": [],
+          "role": "referee",
+          "script_path": "relays/a2_ow15_referee/referee_a2_ow15.py"
+        }
+      ],
+      "scripts_audited": 30,
+      "self_referee_ast": {
+        "clean": true,
+        "float_complex_literal_count": 0,
+        "float_complex_literals": [],
+        "frontier_import_count": 0,
+        "frontier_imports": []
+      },
+      "total_float_complex_literals": 0,
+      "total_frontier_imports": 0
+    },
+    "blind_prediction_ledger_24": {
+      "empirical_inputs": "0 of 19",
+      "observables": [
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "exact_fg_hits": [
+              [
+                4,
+                3
+              ]
+            ]
+          },
+          "id": "OBS-01",
+          "name": "Unique D = 4 spacetime dimension",
+          "source_cards": [
+            "A2-OW4"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "d4_candidates": 3,
+            "tower_candidates": 48,
+            "unique_d4": [
+              "D4_1_3"
+            ],
+            "unique_tower": [
+              "D4_1_3",
+              "D6_1_5",
+              "D7_1_6"
+            ]
+          },
+          "id": "OBS-02",
+          "name": "Lorentzian (1,3) & tower (1,3)->(1,5)->(1,6)",
+          "source_cards": [
+            "A2-OW15"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "N": 5,
+            "broken_Proca_count": 33,
+            "degree": 5,
+            "dim_G_SM": 12
+          },
+          "id": "OBS-03",
+          "name": "G_SM = SU(3)xSU(2)xU(1) (N=5,d=5) + 33 Proca vectors",
+          "source_cards": [
+            "A2-OW1",
+            "A2-OW4",
+            "A2-OW8",
+            "A2-OW11"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "standard_winners": [
+              3
+            ],
+            "unimod_cap22_winners": [
+              3
+            ],
+            "unimod_cap23_winners": [
+              3
+            ]
+          },
+          "id": "OBS-04",
+          "name": "N_gen = 3 chiral generations (standard + unimodular FRG)",
+          "source_cards": [
+            "A2-OW4",
+            "A2-OW10",
+            "A2-OW14"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "holomorphic_separation_exact": true,
+            "kept_2H_components": 4,
+            "projected_color_triplets": 6
+          },
+          "id": "OBS-05",
+          "name": "n_H = 2 Higgs doublets (X:HOL Type-II + 10 -> 4 + 6)",
+          "source_cards": [
+            "A2-OW3",
+            "A2-OW8",
+            "A2-OW11"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "F3_tau_star": "9.3178272312076868803",
+            "bulk2H_dS": true,
+            "complex10_dS": false,
+            "real10_dS": true
+          },
+          "id": "OBS-06",
+          "name": "tau_*^{+-} = (+-2+i)/5 + 6D Casimir selection (real 10/2H dS, complex 10 excluded)",
+          "source_cards": [
+            "A2-OW2",
+            "A2-OW9",
+            "A2-OW11"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "E_over_N": "8/3",
+            "H3_Spin10_Z": "Z",
+            "c_tr10_F4": "-1/8",
+            "c_tr_R4": "1/120"
+          },
+          "id": "OBS-07",
+          "name": "7D CS anomaly inflow & axion E/N = 8/3",
+          "source_cards": [
+            "A2-OW5",
+            "A2-OW11",
+            "A2-OW12",
+            "A2-OW15"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "B_4D_2H": "5/9",
+            "B_target": "5/7",
+            "PS_122_412_r": "8/9",
+            "proton_lifetime_enhancement": "38553142191.755"
+          },
+          "id": "OBS-08",
+          "name": "B = 5/7 Pati-Salam unification + > 3*10^10 proton-lifetime enhancement",
+          "source_cards": [
+            "A2-OW8",
+            "A2-OW11"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "f_crit": "0.0404323345429275442",
+            "gsm_LDW_has_real_root": false,
+            "spin10_T2_f_lam_LDW": "0.37964336032869936691",
+            "yb_high_max_ir_quartic_diff": "0.0026297139602025"
+          },
+          "id": "OBS-09",
+          "name": "lam_0 -> 0 UV-irrelevant 2H quartics (Spin(10) cures G_SM collision)",
+          "source_cards": [
+            "A2-OW13"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "c_48W": "37/15",
+            "c_log_contact": "103/3",
+            "c_log_ent": "-55/3",
+            "c_log_total": "16",
+            "schwarzschild_45W_2ca": "-277/360"
+          },
+          "id": "OBS-10",
+          "name": "S_BH = A / (4 G_ind) (c_log = +16 Kabat + Schwarzschild 2(c-a) = -277/360)",
+          "source_cards": [
+            "A2-OW8",
+            "A2-OW10",
+            "A2-OW15"
+          ]
+        },
+        {
+          "bucket": "DERIVED_EXACT",
+          "evidence_verified": true,
+          "harvested_value": {
+            "a0_2H": -64,
+            "dLam_res_drho_vac": "0",
+            "trace_free_shift_is_zero": true
+          },
+          "id": "OBS-11",
+          "name": "Unimodular / Kaloper-Padilla a_0 = -64 radiative decoupling",
+          "source_cards": [
+            "A2-OW4",
+            "A2-OW9",
+            "A2-OW13",
+            "A2-OW14"
+          ]
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "evidence_verified": true,
+          "harvested_value": {
+            "all_6_break_tradeoff": true,
+            "hierarchical_ckm_perm_count": 4,
+            "min_u_steeper_than_d_ratio": "23.640949",
+            "nonzero_J_CP_perm_count": 6
+          },
+          "id": "OBS-12",
+          "name": "Quark hierarchies & V_us > V_cb > V_ub CKM + J_CP != 0 across 6 perms",
+          "source_cards": [
+            "A2-OW7"
+          ]
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "evidence_verified": true,
+          "harvested_value": {
+            "b_tau_proximity_perm_count": 4,
+            "total_perms": 6
+          },
+          "id": "OBS-13",
+          "name": "b - tau Yukawa proximity on 4/6 perms",
+          "source_cards": [
+            "A2-OW12"
+          ]
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "evidence_verified": true,
+          "harvested_value": {
+            "dm21_over_dm31": "0.0268633859878",
+            "min_s23_sq_all6": "0.562031704977"
+          },
+          "id": "OBS-14",
+          "name": "Neutrino normal ordering dm21/dm31 ~ 269/10^4 + universal s23^2 > 56/100 (M_R^{(00)})",
+          "source_cards": [
+            "A2-OW12"
+          ]
+        },
+        {
+          "bucket": "CONDITIONAL_OR_QUALITATIVE",
+          "evidence_verified": true,
+          "harvested_value": {
+            "eps1_norm_tau_minus": "-5.4537689496661e-6",
+            "eps1_norm_tau_plus": "5.4537689496661e-6"
+          },
+          "id": "OBS-15",
+          "name": "Fukugita-Yanagida leptogenesis epsilon_1^{norm} ~ +545/10^8",
+          "source_cards": [
+            "A2-OW12"
+          ]
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "evidence_verified": true,
+          "harvested_value": {
+            "bar_theta_Q_tau_minus": "-0.0156439708210846",
+            "bar_theta_Q_tau_plus": "0.015643970821084"
+          },
+          "id": "OBS-16",
+          "name": "Strong CP bar_theta_Q ~ +156/10^4 rad != 0 at tau_*^+ requiring 7D CS axion",
+          "source_cards": [
+            "A2-OW12"
+          ]
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "evidence_verified": true,
+          "harvested_value": {
+            "e_mu_over_steepness_tension_all6": true,
+            "max_y_mu_over_y_s_all6": "0.04069034686"
+          },
+          "id": "OBS-17",
+          "name": "e / mu over-steepness y_mu / y_s < 5/100 across all 6/6 perms",
+          "source_cards": [
+            "A2-OW12"
+          ]
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "evidence_verified": true,
+          "harvested_value": {
+            "M_R_00_max_s12_sq": "0.1085981637",
+            "M_R_00_min_s23_sq": "0.562031705",
+            "M_R_I3_max_s12_sq": "0.3195050881",
+            "M_R_I3_min_s23_sq": "0.1347730761"
+          },
+          "id": "OBS-18",
+          "name": "PMNS s12^2 vs s23^2 trade-off between M_R = I_3 and M_R^{(00)}",
+          "source_cards": [
+            "A2-OW12"
+          ]
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "evidence_verified": true,
+          "harvested_value": {
+            "lam_eff_ew": "4.42889560235435187",
+            "lam_eff_gut": "4.4358420266482346",
+            "pure_gauge_mh_over_v_ew": "0.039644046848038552"
+          },
+          "id": "OBS-19",
+          "name": "2H GW perturbative portal gap lam_eff ~ 443/100 vs |lam_{3,4}| < 1",
+          "source_cards": [
+            "A2-OW13"
+          ]
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "evidence_verified": true,
+          "harvested_value": {
+            "brane_LKP_Gamma_over_MKK": "0.005379437077",
+            "gen3_fourier": {
+              "(0, 0)": 3,
+              "(0, 1)": -1,
+              "(1, 0)": -1,
+              "(1, 1)": -1
+            }
+          },
+          "id": "OBS-20",
+          "name": "3 = 4 - 1 brane-generation vs Z_2 x Z_2 LKP prompt decay collision",
+          "source_cards": [
+            "A2-OW9",
+            "A2-OW11"
+          ]
+        },
+        {
+          "bucket": "INTERNAL_WALL_OR_TENSION",
+          "evidence_verified": true,
+          "harvested_value": {
+            "N_accel_exact": "0.8113759564144075584858",
+            "w_late_t200": "0.1097006261351262"
+          },
+          "id": "OBS-21",
+          "name": "7D single-radion hyperbolic inflation no-go N_accel_max ~ 8114/10^4 < 1 << 60",
+          "source_cards": [
+            "A2-OW14"
+          ]
+        },
+        {
+          "bucket": "OPEN_EXTERNAL_BOUNDARY",
+          "evidence_verified": true,
+          "harvested_value": {
+            "asymptotically_free": true,
+            "b_1loop_spin10_real10": "-151/6",
+            "critical_MR_over_MX_sq": "33",
+            "has_interactive_uv_fp": false
+          },
+          "id": "OBS-22",
+          "name": "g_UV UV-relevant in asymptotically free Spin(10) (b = -151/6) + free tan(beta) & M_R/M_X",
+          "source_cards": [
+            "A2-OW8",
+            "A2-OW13"
+          ]
+        },
+        {
+          "bucket": "OPEN_EXTERNAL_BOUNDARY",
+          "evidence_verified": true,
+          "harvested_value": {
+            "L2_born_norm": "PROVED",
+            "hilbert_measurement": "EXTERNAL_AXIOM"
+          },
+          "id": "OBS-23",
+          "name": "X1 Quantum Mechanics Hilbert-space / measurement external axiom",
+          "source_cards": [
+            "A2-OW15"
+          ]
+        },
+        {
+          "bucket": "OPEN_EXTERNAL_BOUNDARY",
+          "evidence_verified": true,
+          "harvested_value": {
+            "X37_abelian_gerbe": "DERIVED",
+            "X37_nonabelian_gerbe": "OPEN_UV_BOUNDARY",
+            "unimodular_sequestering": true
+          },
+          "id": "OBS-24",
+          "name": "X37 non-abelian 2-form gerbe UV quantization + unimodular Lambda_obs constant",
+          "source_cards": [
+            "A2-OW14",
+            "A2-OW15"
+          ]
+        }
+      ],
+      "partition_audit": {
+        "all_evidence_verified": true,
+        "all_have_sources": true,
+        "bucket_counts": {
+          "CONDITIONAL_OR_QUALITATIVE": 4,
+          "DERIVED_EXACT": 11,
+          "INTERNAL_WALL_OR_TENSION": 6,
+          "OPEN_EXTERNAL_BOUNDARY": 3
+        },
+        "counts_match_11_4_6_3": true,
+        "expected_bucket_counts": {
+          "CONDITIONAL_OR_QUALITATIVE": 4,
+          "DERIVED_EXACT": 11,
+          "INTERNAL_WALL_OR_TENSION": 6,
+          "OPEN_EXTERNAL_BOUNDARY": 3
+        },
+        "pass": true,
+        "total_rows": 24,
+        "unique_ids_count": 24,
+        "unknown_buckets": []
+      }
+    },
+    "cross_card_locks_10": {
+      "all_10_pass": true,
+      "locks": {
+        "LOCK-1": {
+          "M_g_N5_2H": 8,
+          "N": 5,
+          "d": 5,
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true,
+          "total_actions": 21
+        },
+        "LOCK-10": {
+          "d4_candidate_count": 3,
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true,
+          "tower_candidate_count": 48,
+          "unique_D": 4,
+          "unique_tower": [
+            "D4_1_3",
+            "D6_1_5",
+            "D7_1_6"
+          ]
+        },
+        "LOCK-2": {
+          "N_gen_unique": 3,
+          "bounds_standard": [
+            "5/2",
+            "27/8"
+          ],
+          "bounds_unimodular_cap22": [
+            "5/2",
+            "31/8"
+          ],
+          "bounds_unimodular_cap23": [
+            "5/2",
+            "63/16"
+          ],
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true
+        },
+        "LOCK-3": {
+          "F3_prod_vs_ref_diff": "2.22478153611e-20",
+          "F3_tau_star": "9.3178272312076868803",
+          "bar_theta_mirror_sum_prod": "6.0e-16",
+          "bar_theta_prod_vs_ref_diff": "2.52602406309e-15",
+          "eps1_mirror_sum_prod": "0.0",
+          "eps1_prod_vs_ref_diff": "1.60729456015e-19",
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true
+        },
+        "LOCK-4": {
+          "doublet_triplet_split": [
+            4,
+            6
+          ],
+          "n_H": 2,
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true
+        },
+        "LOCK-5": {
+          "E_over_N": "8/3",
+          "H3_Spin10_Z": "Z",
+          "c_tr10_F4": "-1/8",
+          "c_tr_R4": "1/120",
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true
+        },
+        "LOCK-6": {
+          "pass": true,
+          "producer_check": {
+            "independent_weight_sum": "16",
+            "ow15_c_log_contact": "103/3",
+            "ow15_c_log_ent": "-55/3",
+            "ow15_c_log_ent_plus_contact": "16",
+            "ow15_c_log_total": "16",
+            "ow8_c_log": "16",
+            "pass": true
+          },
+          "producer_pass": true,
+          "referee_check": {
+            "independent_weight_sum": "16",
+            "ow15_c_log_contact": "103/3",
+            "ow15_c_log_ent": "-55/3",
+            "ow15_c_log_ent_plus_contact": "16",
+            "ow15_c_log_total": "16",
+            "ow8_c_log": "16",
+            "pass": true
+          },
+          "referee_pass": true
+        },
+        "LOCK-7": {
+          "max_rel_err_prod_ow11_vs_ow13": "1.32770782562e-16",
+          "max_rel_err_prod_vs_ref": "1.32785422491e-16",
+          "max_rel_err_ref_ow11_vs_ow13": "0.0",
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true,
+          "spin10_T1_g_star": "0.359131415398054438544026",
+          "spin10_T1_lam_star": "0.08665493512580145576926692",
+          "spin10_T2_g_star": "0.2522392303010548665063072",
+          "spin10_T2_lam_star": "0.05512703522298578120815408"
+        },
+        "LOCK-8": {
+          "f_xi_bg_at_lam0": "0",
+          "gsm_2h_unimod_f_lam": "16/3",
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true
+        },
+        "LOCK-9": {
+          "c_independent_formula": "37/15",
+          "c_values_prod": [
+            "37/15",
+            "37/15",
+            "37/15",
+            "37/15"
+          ],
+          "c_values_ref": [
+            "37/15",
+            "37/15",
+            "37/15",
+            "37/15"
+          ],
+          "pass": true,
+          "producer_pass": true,
+          "referee_pass": true
+        }
+      },
+      "locks_passed": 10,
+      "locks_total": 10
+    },
+    "custody_60_manifests": {
+      "manifests_checked": 60,
+      "manifests_matched": 60,
+      "manifests_mismatched": 0,
+      "pass": true,
+      "records": [
+        {
+          "byte_size": 57674,
+          "card": "A2-OW1",
+          "computed_sha256": "9c75b82b987d3483334c507e0c2d0fac1f8876819b247c2b654283fccb03fb7f",
+          "dir": "a2_ow1_v3",
+          "exact_match": true,
+          "expected_sha256": "9c75b82b987d3483334c507e0c2d0fac1f8876819b247c2b654283fccb03fb7f",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow1_v3/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow1_v3/verify_a2_ow1_v3.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 83589,
+          "card": "A2-OW1",
+          "computed_sha256": "d2b30a5f189424ac0d1a20600deb78de2cbf0e4b391246467c8184d72b9c5778",
+          "dir": "a2_ow1_v3",
+          "exact_match": true,
+          "expected_sha256": "d2b30a5f189424ac0d1a20600deb78de2cbf0e4b391246467c8184d72b9c5778",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow1_v3/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow1_v3/verify_a2_ow1_v3_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 73452,
+          "card": "A2-OW2",
+          "computed_sha256": "cb4ce4af62a29bbe5bf24775101628cd6a395bf870db7007221fbe791bd5a0a8",
+          "dir": "a2_ow2_v4",
+          "exact_match": true,
+          "expected_sha256": "cb4ce4af62a29bbe5bf24775101628cd6a395bf870db7007221fbe791bd5a0a8",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow2_v4/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow2_v4/verify_a2_ow2_v4.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 25637,
+          "card": "A2-OW2",
+          "computed_sha256": "fc2365e59af2781de71c5c339135cabede862900345571bab9671dd87a4d9631",
+          "dir": "a2_ow2_v4",
+          "exact_match": true,
+          "expected_sha256": "fc2365e59af2781de71c5c339135cabede862900345571bab9671dd87a4d9631",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow2_v4/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow2_v4/verify_a2_ow2_v4_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 28347,
+          "card": "A2-OW3",
+          "computed_sha256": "44b9e3885296c0e3a64f7e283d01795145372eec068834686c0cd64367a5d315",
+          "dir": "a2_ow3_v2",
+          "exact_match": true,
+          "expected_sha256": "44b9e3885296c0e3a64f7e283d01795145372eec068834686c0cd64367a5d315",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow3_v2/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow3_v2/verify_a2_ow3_v2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 8830,
+          "card": "A2-OW3",
+          "computed_sha256": "faa0bace9ae02c54475c6eb3f628e9b512c1f98e83a32d6c0d69e5d568b0b7cb",
+          "dir": "a2_ow3_v2",
+          "exact_match": true,
+          "expected_sha256": "faa0bace9ae02c54475c6eb3f628e9b512c1f98e83a32d6c0d69e5d568b0b7cb",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow3_v2/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow3_v2/verify_a2_ow3_v2_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 33220,
+          "card": "A2-OW4",
+          "computed_sha256": "c88291acbe27196b2f250b7980c424f187037db9135065cb6c5a9d7c3dcc5f4f",
+          "dir": "a2_ow4_v2",
+          "exact_match": true,
+          "expected_sha256": "c88291acbe27196b2f250b7980c424f187037db9135065cb6c5a9d7c3dcc5f4f",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow4_v2/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow4_v2/verify_a2_ow4_v2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 43518,
+          "card": "A2-OW4",
+          "computed_sha256": "aa2fbd686da0ef0a28723aa225c31ff5924197247bbbe109c48b566ecf82624f",
+          "dir": "a2_ow4_v2",
+          "exact_match": true,
+          "expected_sha256": "aa2fbd686da0ef0a28723aa225c31ff5924197247bbbe109c48b566ecf82624f",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow4_v2/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow4_v2/verify_a2_ow4_v2_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 32410,
+          "card": "A2-OW5",
+          "computed_sha256": "8d67629e3fe8c41fa1dccc615cacb3e40464e63062efaa3dcacae15f44a0b903",
+          "dir": "a2_ow5",
+          "exact_match": true,
+          "expected_sha256": "8d67629e3fe8c41fa1dccc615cacb3e40464e63062efaa3dcacae15f44a0b903",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow5/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow5/verify_a2_ow5.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 5122,
+          "card": "A2-OW5",
+          "computed_sha256": "66ed8860885a643ca6305e24798447dfce36cae2dc532e811357a73c3b4d388b",
+          "dir": "a2_ow5",
+          "exact_match": true,
+          "expected_sha256": "66ed8860885a643ca6305e24798447dfce36cae2dc532e811357a73c3b4d388b",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow5/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow5/verify_a2_ow5_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 45989,
+          "card": "A2-OW6",
+          "computed_sha256": "1c822be0c7ba0d0bf344caedbe8be313f7ed943d36eb1c9b8b36defa46a622be",
+          "dir": "a2_ow6_v2",
+          "exact_match": true,
+          "expected_sha256": "1c822be0c7ba0d0bf344caedbe8be313f7ed943d36eb1c9b8b36defa46a622be",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow6_v2/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow6_v2/verify_a2_ow6_v2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 8802,
+          "card": "A2-OW6",
+          "computed_sha256": "9ca180c0881848aea6f536b585c186d06f0c379e781a0978645c9309ff5b2921",
+          "dir": "a2_ow6_v2",
+          "exact_match": true,
+          "expected_sha256": "9ca180c0881848aea6f536b585c186d06f0c379e781a0978645c9309ff5b2921",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow6_v2/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow6_v2/verify_a2_ow6_v2_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 47820,
+          "card": "A2-OW7",
+          "computed_sha256": "d151960f70dd64ea7c55cb79ebb3b267213d26251b9af03e433fa1a0e89ebfa2",
+          "dir": "a2_ow7_v2",
+          "exact_match": true,
+          "expected_sha256": "d151960f70dd64ea7c55cb79ebb3b267213d26251b9af03e433fa1a0e89ebfa2",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow7_v2/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow7_v2/verify_a2_ow7_v2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 11312,
+          "card": "A2-OW7",
+          "computed_sha256": "d9811bbc43eeb0c24a1260964c1dab5f079436b7743c33b32311c387e268d9ce",
+          "dir": "a2_ow7_v2",
+          "exact_match": true,
+          "expected_sha256": "d9811bbc43eeb0c24a1260964c1dab5f079436b7743c33b32311c387e268d9ce",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow7_v2/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow7_v2/verify_a2_ow7_v2_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 19106,
+          "card": "A2-OW8",
+          "computed_sha256": "9507cf5f029f5ea4bd03cbcbce2f2a387f9fbccfe4fe21dd4b287cd874f49d86",
+          "dir": "a2_ow8",
+          "exact_match": true,
+          "expected_sha256": "9507cf5f029f5ea4bd03cbcbce2f2a387f9fbccfe4fe21dd4b287cd874f49d86",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow8/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow8/verify_a2_ow8.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 5780,
+          "card": "A2-OW8",
+          "computed_sha256": "2c23a9aeb764c2f685e46e3f474dc3cdf6f6d2d19415ce4c7162fedfa5925d51",
+          "dir": "a2_ow8",
+          "exact_match": true,
+          "expected_sha256": "2c23a9aeb764c2f685e46e3f474dc3cdf6f6d2d19415ce4c7162fedfa5925d51",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow8/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow8/verify_a2_ow8_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 36118,
+          "card": "A2-OW9",
+          "computed_sha256": "cd11f6ae699521db213a29f0ca3fa9e81f4d1c3eab93e82fc0b011e9a00cdc05",
+          "dir": "a2_ow9",
+          "exact_match": true,
+          "expected_sha256": "cd11f6ae699521db213a29f0ca3fa9e81f4d1c3eab93e82fc0b011e9a00cdc05",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow9/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow9/verify_a2_ow9.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 13240,
+          "card": "A2-OW9",
+          "computed_sha256": "98c3cab20862df748acbc34c291cad54821ad172f5f11f2519efc2e467fbe45f",
+          "dir": "a2_ow9",
+          "exact_match": true,
+          "expected_sha256": "98c3cab20862df748acbc34c291cad54821ad172f5f11f2519efc2e467fbe45f",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow9/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow9/verify_a2_ow9_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 34376,
+          "card": "A2-OW10",
+          "computed_sha256": "67e50af76bd75b9fcef482873e98e4d40506927556a28bed2a196e7866e9c248",
+          "dir": "a2_ow10_v2",
+          "exact_match": true,
+          "expected_sha256": "67e50af76bd75b9fcef482873e98e4d40506927556a28bed2a196e7866e9c248",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow10_v2/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow10_v2/verify_a2_ow10_v2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 23415,
+          "card": "A2-OW10",
+          "computed_sha256": "de961917c4663114dac80dd2084499597e99cdd1c089b70d3fb1b54f07689ce7",
+          "dir": "a2_ow10_v2",
+          "exact_match": true,
+          "expected_sha256": "de961917c4663114dac80dd2084499597e99cdd1c089b70d3fb1b54f07689ce7",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow10_v2/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow10_v2/verify_a2_ow10_v2_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 26508,
+          "card": "A2-OW11",
+          "computed_sha256": "91199e876d194bc32797182a4fe33df5520fbf8290be2f9c8274a9cfd5ea66cd",
+          "dir": "a2_ow11_v3",
+          "exact_match": true,
+          "expected_sha256": "91199e876d194bc32797182a4fe33df5520fbf8290be2f9c8274a9cfd5ea66cd",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow11_v3/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow11_v3/verify_a2_ow11_v3.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 10847,
+          "card": "A2-OW11",
+          "computed_sha256": "f7c89aacd55cc6505b47476366796ce7603cfb0cf5e6cecb5373465109ed3dc2",
+          "dir": "a2_ow11_v3",
+          "exact_match": true,
+          "expected_sha256": "f7c89aacd55cc6505b47476366796ce7603cfb0cf5e6cecb5373465109ed3dc2",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow11_v3/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow11_v3/verify_a2_ow11_v3_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 37155,
+          "card": "A2-OW12",
+          "computed_sha256": "4badac99a84e847d059d5e2fbef09f4f362bbede5406e549d72770353b7f8d09",
+          "dir": "a2_ow12_v3",
+          "exact_match": true,
+          "expected_sha256": "4badac99a84e847d059d5e2fbef09f4f362bbede5406e549d72770353b7f8d09",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow12_v3/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow12_v3/verify_a2_ow12_v3.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 6371,
+          "card": "A2-OW12",
+          "computed_sha256": "8dc74bf64534864b9c77ed165cdb4bf97cd98948b29c980416dd8a2923ed3fd5",
+          "dir": "a2_ow12_v3",
+          "exact_match": true,
+          "expected_sha256": "8dc74bf64534864b9c77ed165cdb4bf97cd98948b29c980416dd8a2923ed3fd5",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow12_v3/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow12_v3/verify_a2_ow12_v3_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 42415,
+          "card": "A2-OW13",
+          "computed_sha256": "b07c6f6561d9501a5b9a8634fdfd7661dfcd882e32b926919dab2666d25b8b9d",
+          "dir": "a2_ow13_v2",
+          "exact_match": true,
+          "expected_sha256": "b07c6f6561d9501a5b9a8634fdfd7661dfcd882e32b926919dab2666d25b8b9d",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow13_v2/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow13_v2/verify_a2_ow13_v2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 15421,
+          "card": "A2-OW13",
+          "computed_sha256": "7736b22437716992786e53fcf11fd6d7a4f7545a2b8db4f2700c53849e66af7f",
+          "dir": "a2_ow13_v2",
+          "exact_match": true,
+          "expected_sha256": "7736b22437716992786e53fcf11fd6d7a4f7545a2b8db4f2700c53849e66af7f",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow13_v2/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow13_v2/a2_ow13_v2_results.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 31192,
+          "card": "A2-OW14",
+          "computed_sha256": "ebdf1389797bbe312a9b1a13411ee913890727897b9443010790cf603afff8b3",
+          "dir": "a2_ow14_v2",
+          "exact_match": true,
+          "expected_sha256": "ebdf1389797bbe312a9b1a13411ee913890727897b9443010790cf603afff8b3",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow14_v2/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow14_v2/verify_a2_ow14_v2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 9579,
+          "card": "A2-OW14",
+          "computed_sha256": "8ee32689f299f47f221088770f36415632b3e5df3cc2b5ba6e5d1193cf16cf9c",
+          "dir": "a2_ow14_v2",
+          "exact_match": true,
+          "expected_sha256": "8ee32689f299f47f221088770f36415632b3e5df3cc2b5ba6e5d1193cf16cf9c",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow14_v2/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow14_v2/a2_ow14_v2_results.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 23691,
+          "card": "A2-OW15",
+          "computed_sha256": "ea4ed0fa5f8b2f31c6462a40f663e825e23ba1d8705466f0e620a5172232d857",
+          "dir": "a2_ow15",
+          "exact_match": true,
+          "expected_sha256": "ea4ed0fa5f8b2f31c6462a40f663e825e23ba1d8705466f0e620a5172232d857",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow15/SCRIPT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow15/verify_a2_ow15.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 12007,
+          "card": "A2-OW15",
+          "computed_sha256": "e35ac5f00b3c787273a23a4ab7e206e5724f139239b45a049b83518ca4bfd66e",
+          "dir": "a2_ow15",
+          "exact_match": true,
+          "expected_sha256": "e35ac5f00b3c787273a23a4ab7e206e5724f139239b45a049b83518ca4bfd66e",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow15/OUTPUT_SHA256.txt",
+          "role": "producer",
+          "target_exists": true,
+          "target_path": "relays/a2_ow15/a2_ow15_results.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 93382,
+          "card": "A2-OW1",
+          "computed_sha256": "7263cd70a11cf8c83859e2af6e563e12756605f89cdcfedb1b749f836470ea68",
+          "dir": "a2_ow1_referee",
+          "exact_match": true,
+          "expected_sha256": "7263cd70a11cf8c83859e2af6e563e12756605f89cdcfedb1b749f836470ea68",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow1_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow1_referee/referee_a2_ow1.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 118035,
+          "card": "A2-OW1",
+          "computed_sha256": "09600723bf4eb777b3564a46f584bf7ac8888236e27af660a0b7659e75e9b135",
+          "dir": "a2_ow1_referee",
+          "exact_match": true,
+          "expected_sha256": "09600723bf4eb777b3564a46f584bf7ac8888236e27af660a0b7659e75e9b135",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow1_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow1_referee/referee_a2_ow1_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 108416,
+          "card": "A2-OW2",
+          "computed_sha256": "1c79d5a719e6c5b36624f4b70fb12da48086179ce39d78748cda942c300e954f",
+          "dir": "a2_ow2_referee",
+          "exact_match": true,
+          "expected_sha256": "1c79d5a719e6c5b36624f4b70fb12da48086179ce39d78748cda942c300e954f",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow2_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow2_referee/referee_a2_ow2.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 47610,
+          "card": "A2-OW2",
+          "computed_sha256": "88b5d176b2e6f86301bb8cc25bd2877924948d5d4ad474d6cd7289398e9748c9",
+          "dir": "a2_ow2_referee",
+          "exact_match": true,
+          "expected_sha256": "88b5d176b2e6f86301bb8cc25bd2877924948d5d4ad474d6cd7289398e9748c9",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow2_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow2_referee/referee_a2_ow2_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 69519,
+          "card": "A2-OW3",
+          "computed_sha256": "3441de710340187596969247812236ddc6319371980e6d6709f7d787ee5bc208",
+          "dir": "a2_ow3_referee",
+          "exact_match": true,
+          "expected_sha256": "3441de710340187596969247812236ddc6319371980e6d6709f7d787ee5bc208",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow3_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow3_referee/referee_a2_ow3.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 35589,
+          "card": "A2-OW3",
+          "computed_sha256": "ae456a7eb9b314b800db01b2cf34973373e6ed18e57c5ae0337b4e17cd55f40b",
+          "dir": "a2_ow3_referee",
+          "exact_match": true,
+          "expected_sha256": "ae456a7eb9b314b800db01b2cf34973373e6ed18e57c5ae0337b4e17cd55f40b",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow3_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow3_referee/referee_a2_ow3_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 57972,
+          "card": "A2-OW4",
+          "computed_sha256": "7622affa4f1dc04fc91ae13f8e36c3d2ce4b6220a0a3db39936eb149e29057b8",
+          "dir": "a2_ow4_referee",
+          "exact_match": true,
+          "expected_sha256": "7622affa4f1dc04fc91ae13f8e36c3d2ce4b6220a0a3db39936eb149e29057b8",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow4_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow4_referee/referee_a2_ow4.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 64774,
+          "card": "A2-OW4",
+          "computed_sha256": "d6b61d9d657098ed9232118111c7183c632bd7d9485535c5c8b8c5ef28c2a503",
+          "dir": "a2_ow4_referee",
+          "exact_match": true,
+          "expected_sha256": "d6b61d9d657098ed9232118111c7183c632bd7d9485535c5c8b8c5ef28c2a503",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow4_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow4_referee/referee_a2_ow4_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 75625,
+          "card": "A2-OW5",
+          "computed_sha256": "40225aedea711ffe704bae923d0961d358b199b7bf020452c81a8c29040fa64d",
+          "dir": "a2_ow5_referee",
+          "exact_match": true,
+          "expected_sha256": "40225aedea711ffe704bae923d0961d358b199b7bf020452c81a8c29040fa64d",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow5_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow5_referee/referee_a2_ow5.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 17057,
+          "card": "A2-OW5",
+          "computed_sha256": "b15675122dd7ad9cd257b060dbc18488534541f49098706379f347b396a04ae0",
+          "dir": "a2_ow5_referee",
+          "exact_match": true,
+          "expected_sha256": "b15675122dd7ad9cd257b060dbc18488534541f49098706379f347b396a04ae0",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow5_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow5_referee/referee_a2_ow5_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 79618,
+          "card": "A2-OW6",
+          "computed_sha256": "384e7560816a99f4db3834b4363b983e2c4272dc68d50f375af1e54239a4706d",
+          "dir": "a2_ow6_referee",
+          "exact_match": true,
+          "expected_sha256": "384e7560816a99f4db3834b4363b983e2c4272dc68d50f375af1e54239a4706d",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow6_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow6_referee/referee_a2_ow6.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 19104,
+          "card": "A2-OW6",
+          "computed_sha256": "1f12ef75e7065a40bb167b7c1727385aaa6b2eaa4be510a56eaa35793d39d9a8",
+          "dir": "a2_ow6_referee",
+          "exact_match": true,
+          "expected_sha256": "1f12ef75e7065a40bb167b7c1727385aaa6b2eaa4be510a56eaa35793d39d9a8",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow6_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow6_referee/referee_a2_ow6_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 87735,
+          "card": "A2-OW7",
+          "computed_sha256": "2d862333cbf029118717225d4fe13903ee1978d27532c7e005d623cf7ce7219d",
+          "dir": "a2_ow7_referee",
+          "exact_match": true,
+          "expected_sha256": "2d862333cbf029118717225d4fe13903ee1978d27532c7e005d623cf7ce7219d",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow7_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow7_referee/referee_a2_ow7.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 27447,
+          "card": "A2-OW7",
+          "computed_sha256": "fa63ddc5ffabd39a722a0902d8ca6f9deb198ebb98560328a9002d2cefb2e166",
+          "dir": "a2_ow7_referee",
+          "exact_match": true,
+          "expected_sha256": "fa63ddc5ffabd39a722a0902d8ca6f9deb198ebb98560328a9002d2cefb2e166",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow7_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow7_referee/referee_a2_ow7_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 48819,
+          "card": "A2-OW8",
+          "computed_sha256": "c139bf05b4ba44fe4d5006d75f2b9acac334383e69cf9acd063680b3bbdf0f84",
+          "dir": "a2_ow8_referee",
+          "exact_match": true,
+          "expected_sha256": "c139bf05b4ba44fe4d5006d75f2b9acac334383e69cf9acd063680b3bbdf0f84",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow8_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow8_referee/referee_a2_ow8.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 15054,
+          "card": "A2-OW8",
+          "computed_sha256": "5503adff0c4e615dc4d004f3c15b5fbe7539dece118b4b34e49c5df2957a11aa",
+          "dir": "a2_ow8_referee",
+          "exact_match": true,
+          "expected_sha256": "5503adff0c4e615dc4d004f3c15b5fbe7539dece118b4b34e49c5df2957a11aa",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow8_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow8_referee/referee_a2_ow8_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 70224,
+          "card": "A2-OW9",
+          "computed_sha256": "434fb699b3e0a0674cb4041c0d49f03c7f81fdf8c4daa9a9a94b37378a7fc908",
+          "dir": "a2_ow9_referee",
+          "exact_match": true,
+          "expected_sha256": "434fb699b3e0a0674cb4041c0d49f03c7f81fdf8c4daa9a9a94b37378a7fc908",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow9_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow9_referee/referee_a2_ow9.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 27062,
+          "card": "A2-OW9",
+          "computed_sha256": "b8fb4f81d19912523144f70451ee1da1b45ac3e608daad49d017a08adf41076e",
+          "dir": "a2_ow9_referee",
+          "exact_match": true,
+          "expected_sha256": "b8fb4f81d19912523144f70451ee1da1b45ac3e608daad49d017a08adf41076e",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow9_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow9_referee/referee_a2_ow9_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 73247,
+          "card": "A2-OW10",
+          "computed_sha256": "eaef2db4bd63aaf449e0fc27f3a7d0facc4f975a005c31e81f45f26956163030",
+          "dir": "a2_ow10_referee",
+          "exact_match": true,
+          "expected_sha256": "eaef2db4bd63aaf449e0fc27f3a7d0facc4f975a005c31e81f45f26956163030",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow10_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow10_referee/referee_a2_ow10.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 94703,
+          "card": "A2-OW10",
+          "computed_sha256": "75719d1bd490d286f6d9503be23db37199dc82ff0de399461657f02c6e7ec8ef",
+          "dir": "a2_ow10_referee",
+          "exact_match": true,
+          "expected_sha256": "75719d1bd490d286f6d9503be23db37199dc82ff0de399461657f02c6e7ec8ef",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow10_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow10_referee/referee_a2_ow10_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 76953,
+          "card": "A2-OW11",
+          "computed_sha256": "a4cdaca10695050211e9d1788f05d3fbf776a26ce125931c1b915591f0ac65da",
+          "dir": "a2_ow11_referee",
+          "exact_match": true,
+          "expected_sha256": "a4cdaca10695050211e9d1788f05d3fbf776a26ce125931c1b915591f0ac65da",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow11_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow11_referee/referee_a2_ow11.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 29122,
+          "card": "A2-OW11",
+          "computed_sha256": "8b593cbdff97b0acd966f5b156f1dcb79a06b5c8721a7cc76039bdae52461b4c",
+          "dir": "a2_ow11_referee",
+          "exact_match": true,
+          "expected_sha256": "8b593cbdff97b0acd966f5b156f1dcb79a06b5c8721a7cc76039bdae52461b4c",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow11_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow11_referee/referee_a2_ow11_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 79817,
+          "card": "A2-OW12",
+          "computed_sha256": "46d123207ec0a9df9d9cab0def975639e0d1f0211fa3908a3c75fa29b055c96b",
+          "dir": "a2_ow12_referee",
+          "exact_match": true,
+          "expected_sha256": "46d123207ec0a9df9d9cab0def975639e0d1f0211fa3908a3c75fa29b055c96b",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow12_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow12_referee/referee_a2_ow12.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 25188,
+          "card": "A2-OW12",
+          "computed_sha256": "80e430e7fee912d8ff79113695c179e839418313092862f97824d12a9bf074bf",
+          "dir": "a2_ow12_referee",
+          "exact_match": true,
+          "expected_sha256": "80e430e7fee912d8ff79113695c179e839418313092862f97824d12a9bf074bf",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow12_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow12_referee/referee_a2_ow12_out.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 82060,
+          "card": "A2-OW13",
+          "computed_sha256": "552369ae7873525a67185c9e953735238a0fe22cb254b82c596249314436fb0e",
+          "dir": "a2_ow13_referee",
+          "exact_match": true,
+          "expected_sha256": "552369ae7873525a67185c9e953735238a0fe22cb254b82c596249314436fb0e",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow13_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow13_referee/referee_a2_ow13.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 74082,
+          "card": "A2-OW13",
+          "computed_sha256": "36b9e684c445d2753b9502e81c738e8c44ba001ad1fe51e9d88b849c63285e3e",
+          "dir": "a2_ow13_referee",
+          "exact_match": true,
+          "expected_sha256": "36b9e684c445d2753b9502e81c738e8c44ba001ad1fe51e9d88b849c63285e3e",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow13_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow13_referee/a2_ow13_referee_results.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 78326,
+          "card": "A2-OW14",
+          "computed_sha256": "2b88727df9a2cc162983f99a4849ae05f9d9b0c9b5fb36671bd5edf480c3f11b",
+          "dir": "a2_ow14_referee",
+          "exact_match": true,
+          "expected_sha256": "2b88727df9a2cc162983f99a4849ae05f9d9b0c9b5fb36671bd5edf480c3f11b",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow14_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow14_referee/referee_a2_ow14.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 30546,
+          "card": "A2-OW14",
+          "computed_sha256": "c7cf995001f6590f7d70532601ec21756314e535d812086810c9e512bf3c2ea0",
+          "dir": "a2_ow14_referee",
+          "exact_match": true,
+          "expected_sha256": "c7cf995001f6590f7d70532601ec21756314e535d812086810c9e512bf3c2ea0",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow14_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow14_referee/a2_ow14_referee_results.json",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 66888,
+          "card": "A2-OW15",
+          "computed_sha256": "64b47c280ab854341c5266dd5ea74bd07e1f2cf36623d058902635d17f8d23ae",
+          "dir": "a2_ow15_referee",
+          "exact_match": true,
+          "expected_sha256": "64b47c280ab854341c5266dd5ea74bd07e1f2cf36623d058902635d17f8d23ae",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "script",
+          "manifest_path": "relays/a2_ow15_referee/SCRIPT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow15_referee/referee_a2_ow15.py",
+          "valid_manifest_format": true
+        },
+        {
+          "byte_size": 36430,
+          "card": "A2-OW15",
+          "computed_sha256": "4d8f05b63a9f9fad7b829f81ac6abd76b00799d2b7c17f09a049e5f3c584b878",
+          "dir": "a2_ow15_referee",
+          "exact_match": true,
+          "expected_sha256": "4d8f05b63a9f9fad7b829f81ac6abd76b00799d2b7c17f09a049e5f3c584b878",
+          "ext_ok": true,
+          "inside_expected_dir": true,
+          "kind": "output",
+          "manifest_path": "relays/a2_ow15_referee/OUTPUT_SHA256.txt",
+          "role": "referee",
+          "target_exists": true,
+          "target_path": "relays/a2_ow15_referee/a2_ow15_referee_results.json",
+          "valid_manifest_format": true
+        }
+      ]
+    },
+    "gate_pass": true
+  },
+  "ow16_b": {
+    "campaign1_sm_uv_inputs": [
+      "g_UV",
+      "lam_0",
+      "tan(beta)",
+      "M_R / M_X"
+    ],
+    "campaign2_sector_cosmology_scales": [
+      {
+        "parameter": "Lambda_eff / M_Pl^4",
+        "radiative_decoupling_verified": true,
+        "status": "UNIMODULAR_INTEGRATION_CONSTANT"
+      },
+      {
+        "parameter": "f_a / M_Pl",
+        "status": "REQUIRED_BY_NONZERO_BAR_THETA_Q",
+        "triggered_by_nonzero_bar_theta": true
+      },
+      {
+        "parameter": "soft_breaking_or_portal_scale",
+        "status": "CONDITIONAL_ON_GW_PORTAL_GAP",
+        "triggered_by_gw_portal_gap": true
+      }
+    ],
+    "campaign2_sm_uv_inputs": [
+      "g_UV",
+      "tan(beta)",
+      "M_R / M_X"
+    ],
+    "discrete_flavor_selection": {
+      "bits_60dps": "3.58496250072115618145373894394781650875981440769248106",
+      "cusp_level_bits": 1,
+      "formula": "log2(6) + 1",
+      "inverse_identity_err": "0.0",
+      "num_permutations": 6,
+      "pass": true
+    },
+    "g_uv_remains_uv_relevant": true,
+    "gate_pass": true,
+    "lam0_eliminated_by_ow13": true,
+    "ow8_c1_ledger_match": true,
+    "reduction_audit": {
+      "campaign1_continuous_sm_uv": 4,
+      "campaign2_continuous_sm_uv": 3,
+      "pass": true,
+      "reduction_delta": 1,
+      "unit_anchors": 1,
+      "unit_anchors_le_1": true
+    },
+    "tier1_foundations": {
+      "X1_quantum_mechanics": {
+        "L2_born_norm": "PROVED",
+        "hilbert_space_and_measurement": "EXTERNAL_AXIOM"
+      },
+      "X22_lorentzian_signature": {
+        "status": "DERIVED"
+      },
+      "X2_bekenstein_hawking_entropy": {
+        "status": "DERIVED"
+      },
+      "X37_7d_cs_gerbe": {
+        "abelian_3form_inflow": "DERIVED",
+        "nonabelian_2form_gerbe": "OPEN_UV_BOUNDARY"
+      }
+    },
+    "tier1_foundations_count": 4,
+    "tier1_foundations_ok": true,
+    "unit_anchor_count": 1,
+    "working_dps": 60
+  },
+  "ow16_c": {
+    "all_cards_valid": true,
+    "domains_unique": true,
+    "gate_pass": true,
+    "ids_unique": true,
+    "read_only_audit": true,
+    "surface_count": 6,
+    "surfaces": [
+      {
+        "agy002_cards": [
+          "A2-OW3",
+          "A2-OW8",
+          "A2-OW13"
+        ],
+        "agy002_summary": "Conformal xi=1/6 Spin(10) + gravity-fixed lam_0 -> 0 UV-irrelevant 2H Type-II quartics & GW portal gap",
+        "domain": "two_higgs_and_ewsb",
+        "id": "SURFACE-1",
+        "peer_agy_cards": [
+          "AGY-C5",
+          "AGY-C11",
+          "AGY-C14",
+          "AGY-C17"
+        ],
+        "peer_agy_summary": "GHU D-term quartic + 2-loop 2HDM tan(beta) > 10",
+        "relationship": "COMPLEMENTARY_NON_OVERLAPPING",
+        "title": "Two-Higgs & EWSB"
+      },
+      {
+        "agy002_cards": [
+          "A2-OW12"
+        ],
+        "agy002_summary": "Spontaneous CP yields bar_theta_Q ~ +156/10^4 rad != 0 at tau_*^+; relaxed by 7D CS axion E/N = 8/3",
+        "domain": "strong_cp",
+        "id": "SURFACE-2",
+        "peer_agy_cards": [
+          "AGY-C11",
+          "AGY-C12"
+        ],
+        "peer_agy_summary": "Universal Fricke Strong-CP audit on cusp lane",
+        "relationship": "DISTINCT_MECHANISM_RECONCILED",
+        "title": "Strong CP"
+      },
+      {
+        "agy002_cards": [
+          "A2-OW12"
+        ],
+        "agy002_summary": "eps_nu = 1 seesaw M_R^{(00)} normal ordering + universal s23^2 > 56/100 + FY leptogenesis eps_1 ~ +545/10^8",
+        "domain": "neutrinos_and_leptogenesis",
+        "id": "SURFACE-3",
+        "peer_agy_cards": [
+          "AGY-C10",
+          "AGY-C16"
+        ],
+        "peer_agy_summary": "30 x 30 Weyl collar untwisting Y_nu Y_nu^T",
+        "relationship": "COMPLEMENTARY_NON_OVERLAPPING",
+        "title": "Neutrinos & Leptogenesis"
+      },
+      {
+        "agy002_cards": [
+          "A2-OW5",
+          "A2-OW11"
+        ],
+        "agy002_summary": "Spin(10) 3 x 16_+ I_8 (c_tr10_F4 = -1/8, c_tr_R4 = 1/120) + 7D CS 3-form inflow",
+        "domain": "6d_to_7d_anomaly_inflow",
+        "id": "SURFACE-4",
+        "peer_agy_cards": [
+          "AGY-C6",
+          "AGY-C9",
+          "AGY-C13",
+          "AGY-C17"
+        ],
+        "peer_agy_summary": "E_8 I_37 + 7D Stora-Zumino tr R^4",
+        "relationship": "SHARED_TOPOLOGICAL_INFLOW_DISTINCT_GAUGE_GROUP",
+        "title": "6D -> 7D Anomaly Inflow"
+      },
+      {
+        "agy002_cards": [
+          "A2-OW4",
+          "A2-OW8",
+          "A2-OW9",
+          "A2-OW10",
+          "A2-OW13",
+          "A2-OW14",
+          "A2-OW15"
+        ],
+        "agy002_summary": "D=4, N=5, N_gen=3 double-pincer, Lorentzian (1,3), S_BH = A/(4 G_ind), N_accel_max < 1, unimodular det g = -1",
+        "domain": "gravity_signature_cosmology",
+        "id": "SURFACE-5",
+        "peer_agy_cards": [
+          "AGY-C17"
+        ],
+        "peer_agy_summary": "Cusped Vol normalizing 4D graviton below lam_ess = 1",
+        "relationship": "COMPLEMENTARY_NON_OVERLAPPING",
+        "title": "Gravity, Signature & Cosmology"
+      },
+      {
+        "agy002_cards": [
+          "A2-OW16"
+        ],
+        "agy002_summary": "SHA-256-sealed 24-observable 0 of 19 blind prediction bundle stopping cleanly at docs/seats/README Section 9",
+        "domain": "blind_0_of_19_firewall",
+        "id": "SURFACE-6",
+        "peer_agy_cards": [
+          "AGY-C18"
+        ],
+        "peer_agy_summary": "SHA-256-sealed 0 of 19 blind prediction bundle stopping cleanly at docs/seats/README Section 9",
+        "relationship": "EXACT_PROTOCOL_ALIGNMENT",
+        "title": "0 of 19 Blind Firewall"
+      }
+    ]
+  },
+  "ow16_d": {
+    "faults": {
+      "PF-OW16-1": {
+        "clean_match": true,
+        "description": "1-byte in-memory tamper of A2-OW15 JSON payload",
+        "detected": true,
+        "expected_sha256": "e35ac5f00b3c787273a23a4ab7e206e5724f139239b45a049b83518ca4bfd66e",
+        "faulty_match": false,
+        "tampered_sha256": "18d1d1dc1600e275c2167b616b5e01785c31131cc6dfd1df3e852f58c8abffce"
+      },
+      "PF-OW16-2": {
+        "clean_lock6_pass": true,
+        "description": "Perturb A2-OW15 c_log_total from 16 to 15 breaking LOCK-6",
+        "detected": true,
+        "faulty_lock6_pass": false,
+        "perturbed_c_log_total": "15"
+      },
+      "PF-OW16-3": {
+        "clean_total_rows": 24,
+        "description": "Duplicate 1 row into DERIVED_EXACT bucket (25 != 24)",
+        "detected": true,
+        "faulty_derived_exact_count": 12,
+        "faulty_partition_pass": false,
+        "faulty_total_rows": 25
+      },
+      "PF-OW16-4": {
+        "clean_delta": 1,
+        "description": "Set Campaign 2 continuous SM/UV count to 4 (delta = 0 != 1)",
+        "detected": true,
+        "faulty_delta": 0,
+        "faulty_reduction_pass": false
+      }
+    },
+    "gate_pass": true,
+    "planted_faults_detected": 4,
+    "planted_faults_total": 4
+  },
+  "planted_faults_detected": 4,
+  "planted_faults_total": 4,
+  "role": "independent_cold_room_zero_trust_referee",
+  "seat": "AGY-002",
+  "working_dps": 60
+}
