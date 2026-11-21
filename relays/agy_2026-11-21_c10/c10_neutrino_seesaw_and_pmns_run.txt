@@ -1,0 +1,19 @@
+=== SECTION 1: SPIN(10) L*nu^c*H_u SELECTION & SYMBOLIC CIRCULAR-NULL 1/sqrt(2) THEOREM (E1) ===
+  Spin(10) cubic coupling ||<L, H_5 nu^c>|| = 4.0000 (> 0) vs ||<L, H_5bar nu^c>|| = 0.0 (exact 0).
+  [PASS] Symbolic sympy proof: circular-null Majorana pair has distinct singular values |mu +- eps| and exact |U_ab| == 1/sqrt(2)!
+
+=== SECTION 2: 70-DIGIT SEE-SAW PMNS VS QUARK CKM ACROSS m IN {8, 16, 40} (E1, E2) ===
+  m= 8 (3.2+1.6i): Maj (m2-m1)/m2=0.3564, m2/m3=0.05666 | pt(|Ue1|,|Ue2|,|Umu3|,|Ue3|)=(0.6672,0.6948,0.6312,0.2684) | 20pt_avg=(0.8383,0.4647,0.4158,0.0987)
+  m=16 (6.4+3.2i): Maj (m2-m1)/m2=0.005151, m2/m3=0.002924 | pt(|Ue1|,|Ue2|,|Umu3|,|Ue3|)=(0.6868,0.7255,0.04706,0.04539) | 20pt_avg=(0.8319,0.4767,0.05739,0.03212)
+  m=40 (16.0+8.0i): Maj (m2-m1)/m2=8.138e-7, m2/m3=1.859e-8 | pt(|Ue1|,|Ue2|,|Umu3|,|Ue3|)=(0.7071,0.7071,0.0004856,2.449e-5) | 20pt_avg=(0.8526,0.3842,0.00697,1.435e-5)
+  m=40 asymptotic solar check: max(|Ue1,2| - 1/sqrt(2)) = 3.056e-6 (< 1e-3), |U_mu3| = 0.0004856 (< 1e-2); [CAUGHT Planted Control 1] pure-Dirac min|U_kk|=0.99792 (> 0.99), |U_e2^Dir|=0.06439 (< 0.1).
+  Overtone P_6 (1/6,1/6) at m=8: snu_ratios=(0.853,0.05819), |U_PMNS| row0=(0.7069,0.7042,0.06652)
+  [PASS] Section 2 PMNS vs CKM see-saw dichotomy and asymptotic 1/sqrt(2) solar law verified.
+
+=== SECTION 3: GUARDRAIL 3 U(3)_L x U(3)_{eR} x O(3)_{nuR} SCRAMBLING & COMPLEX-PHASE PLANT (E3) ===
+  [m8] 15 independent 70-digit U(3)_L x U(3)_{eR} x O(3)_{nuR} scramblings: max drift = 9.4041e-69 (< 1e-40).
+  [m40] 15 independent 70-digit U(3)_L x U(3)_{eR} x O(3)_{nuR} scramblings: max drift = 7.2682e-51 (< 1e-40).
+  [CAUGHT Planted Control 2] Illegal complex phase diag(1,i,1) outside O(3,R) shifts |U_PMNS| by 0.58492 (> 0.1).
+  [PASS] Section 3 Guardrail 3 Majorana basis invariance verified.
+
+ALL AGY-C10 PRODUCER CHECKS PASSED (elapsed: 3.93s; 0 of 19).
