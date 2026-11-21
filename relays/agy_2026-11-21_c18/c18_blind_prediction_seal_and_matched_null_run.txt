@@ -1,0 +1,18 @@
+=== SECTION 1: 40-DIGIT ZERO-KNOB 2-ARM BLIND PREDICTION SEAL & R6 PRECISION BUDGET (E1, 0 of 19) ===
+  R6 ODE step-halving check (N=120 vs N=240 across 22 observables): max rel drift = 4.748e-8 (< 1e-7 << 0.01).
+  Emitted blind_predictions_zero_knob_v1.json (payload SHA-256 = 61e8dd7bd5840235...5de8b5d8).
+  [PASS] Section 1 40-digit blind prediction vector sealed.
+
+=== SECTION 2: 2,000-WORLD MATCHED-NULL SPECIFICITY X2 & LOCATION-FREE POWER SCREEN (E2) ===
+  2-Arm Matched Null (2000 Haar/log-uniform worlds): 0/2000 hits (closest world max|ln(w/p)| = 4.577 > 0.262); Clopper-Pearson r_95 = 0.001497 (< 0.01).
+  [CAUGHT Plant 1] Unpriced 500-arm scan inflates false-positive rate to 0.7975 (> 0.10)!
+  Location-free 5%-noise joint recovery power (15 observables within +-20%): 0.9940 (> 0.90 >> 0.10).
+  [CAUGHT Plant 2] Underpowered 0.1% window collapses 5%-noise power to 0.0000 (< 0.10)!
+  [PASS] Section 2 matched-null specificity X2 and location-free power screen verified.
+
+=== SECTION 3: MECHANICAL P-406, R1-R12, 13-ITEM INPUT-COMPLETENESS, & GUARDRAIL 1/5 AUDIT (E3) ===
+  Certificate validated: 12/12 R-rows, 13/13 Input-Completeness rows, FITTED=0, ANCHORS=1, honest discrete bits=11.5.
+  [CAUGHT Plants 3a, 3b, 3c] Missing IC row, FITTED continuous knob, and 0-bit post-inspection credit all rejected!
+  [PASS] Section 3 complete P-406, R1-R12, and 13-item Input-Completeness certificate verified.
+
+ALL AGY-C18 PRODUCER CHECKS PASSED (elapsed: 61.04s; 0 of 19).
