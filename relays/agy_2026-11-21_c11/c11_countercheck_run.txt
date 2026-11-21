@@ -1,0 +1,15 @@
+=== IC1: SYMBOLIC DERIVATION OF B1945 SCALAR DETERMINANT & FROBENIUS-TRACE LAWS ===
+  [PASS] Symbolic B1945 scalar determinant & Frobenius-trace laws proved identically (diff_tr == 0, sign_det = +1)!
+
+=== IC2 & IC3: ZERO-3x3-MATRIX SCALAR STRONG-CP PRODUCT & 5 PLANTED CONTROLS ===
+  Scalar law [16+8i (m=40)] P_2: |Delta_{P_2} - 1| = 5.105e-80 (< 1e-45), W_cpx=+0, N_neg=0, W_prin=+0
+  Scalar law [16+8i (m=40)] P_3: |Delta_{P_3} - 1| = 2.824e-81 (< 1e-45), W_cpx=-2, N_neg=0, W_prin=-2
+  Scalar law [16+8i (m=40)] P_5: |Delta_{P_5} - 1| = 8.001e-81 (< 1e-45), W_cpx=+3, N_neg=4, W_prin=+5
+  Scalar law [16+8i (m=40)] P_6: |Delta_{P_6} - 1| = 5.648e-79 (< 1e-45), W_cpx=-2, N_neg=0, W_prin=-2
+  Scalar law [16+8i (m=40)] P_7: |Delta_{P_7} - 1| = 1.5e-80 (< 1e-45), W_cpx=+1, N_neg=2, W_prin=+2
+  [CAUGHT Plant 1] Off-lattice 3.2+1.6i (m=8) breaks scalar |Delta_{P_5} - 1| = 1.9535 (> 1.0).
+  Scalar P_5 mean_{a!=0} Delta Y^2 (m=8) = +0.60399 (quark +0.2933 > 0, lepton +0.3106 > 0; Plant 5 swapped H_u<->H_d gives -0.60399 < 0).
+  [CAUGHT Plants 2, 3, 4, 5] Axial shift == pi/2 (err=2.45e-91), P_6 q_nu=1 breaks norm, W_prin(P_5)=+5 != 0, SU(3) drift=2.45e-91.
+  [PASS] All 5/5 planted negative controls caught; zero-shared-code AGY-C11 countercheck complete.
+
+ALL AGY-C11 INDEPENDENT COUNTERCHECKS PASSED (5/5 planted faults caught in 18.17s; 0 of 19).
