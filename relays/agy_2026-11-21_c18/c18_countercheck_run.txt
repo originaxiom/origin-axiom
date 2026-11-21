@@ -1,0 +1,11 @@
+=== IC1: CANONICAL JSON SHA-256 SEAL VERIFICATION & DISJOINT KUTTA 3/8-RULE STEP-HALVING ===
+  Canonical JSON SHA-256 verified (22 observables x 2 arms, FITTED==0); [CAUGHT Plant 1] 1-field tamper alters SHA-256!
+  Disjoint Kutta 3/8-rule step-halving (N=90 vs N=180): max rel err = 7.775e-8 (< 1e-7).
+
+=== IC2 & IC3: CAYLEY MATCHED NULL, THE_BAR C4 HYPERGEOMETRIC SCAN, & PLANTS 2..5 ===
+  Cayley null: 0/1500 hits (r_95=0.00200<0.01); 5%-noise power=1.000>0.85.
+  [CAUGHT Plant 2] THE_BAR C4 hypergeometric unpriced scan inflates p = 0.98955 (> 0.01)!
+  [CAUGHT Plant 3] Underpowered 0.05% window collapses power to 0.0000 (< 0.10)!
+  [CAUGHT Plants 4 & 5] Free-fitted c knob (P-488) and extra dimensionful scale (Guardrail 5) both rejected!
+
+ALL AGY-C18 INDEPENDENT COUNTERCHECKS & 5/5 PLANTED FAULTS PASSED (elapsed: 48.44s; 0 of 19).
