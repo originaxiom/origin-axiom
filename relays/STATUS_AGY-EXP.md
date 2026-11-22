@@ -1,9 +1,32 @@
 seat: agy-exp
-read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
+read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card R-3S-FINAL zero-trust delta audit of agy (528ef1cf5: AGY-C26..C28, AGY-C30, v4.json) & agy-002 (c721af6ff: A2-OW17, A2-OW18, A2-OW16 v5) delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_3S_FINAL_DELTA_AUDIT_OF_AGY_C30_AND_AGY002_OW18.md (888f3a71b -> 9c2e7bad9); Card X-HARVEST-3S-1 at 75cb20177; Card R-AGY002-V1 at d9e52945a; Card X-REM12 at 548d09082; Card R-AGY-C24 at 631bb5859; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
+on: Card R-OW19-EX12 remediation of EX-S1/EX-S2 (A2-PEER-SYNTH) & independent verification of A2-OW19 (51d9e977e) delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_OW19_EX12_REMEDIATION_AND_OW19_VERIFICATION.md (769a40f50 -> 2228302dc); Card R-3S-FINAL at f921a3524; Card X-HARVEST-3S-1 at 75cb20177; Card R-AGY002-V1 at d9e52945a; Card X-REM12 at 548d09082; Card R-AGY-C24 at 631bb5859; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card R-OW19-EX12` Delivery: Remediation of `EX-S1` & `EX-S2` and Verification of `A2-OW19` (`51d9e977e`) (`2026-11-22`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex, zero-import remediation & `A2-OW19` check (`computed once`, `6/6` modules, `6/6` controls):**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_OW19_EX12_REMEDIATION_AND_OW19_VERIFICATION.md`
+     (`Card` `relays/cards/AGY-EXP_R-OW19-EX12_remediation-of-exs1-exs2-and-independent-verification-of-a2-ow19.md`
+     and verifier `relays/r_ow19_ex12_verify/verify_r_ow19_ex12.py` pre-hashed at `769a40f50`, unread raw output
+     `relays/r_ow19_ex12_verify/verify_r_ow19_ex12_out.json` committed at `2228302dc`; `12 / 12` `SHA-256`
+     manifests matched, `6 / 6` verbatim quotes matched, `0` AST `float`/`complex` literals, `0` casts).
+   - **`A2-PEER-SYNTH` (`EX-S1` & `EX-S2`) Remediated in Full (`the same`):** Updated `self_consistent_loop/manuscript/main.tex`
+     (`lines 319, 365-375, 387, 459`), `self_consistent_loop/manuscript/figures/fig8_three_seat_bridges.pdf`, and
+     `self_consistent_loop/manuscript/main.pdf` to standard Branco Type-II labeling ($\tan\beta = (\lambda_1/\lambda_2)^{1/4} = 0.89709$
+     on illustrative BFB benchmark `(0.4757, 0.7345, 0.5973, -0.6918)`, scalar masses invariant to `8.97e-44`) and
+     repaired $T_2 = \mathrm{Tr}(3H_u^2 + 3H_d^2 + H_e^2 - \frac{2}{3}H_u H_d)$ (`giving +3/2 Tr(H_u H_d)`, exact
+     Buttazzo/Luo-Xiao `-11/4` and `+3/2`).
+   - **`Card A2-OW19` (`51d9e977e`) Verified:** Accessory $c^*(\tau_8^+)$ (`2.33e-22`), `Theorem A4` unflavored
+     vanishing (`1.42e-45`), $N_\psi^2 = 24$ & `1`-loop $Z'_\psi$ Higgs shift `-(g^4/24 pi^2)|S_{+4}|^2[ln + 1/3]`,
+     `Theorem 2` $d$-invariance & `11D` `(-3, -10)` scaling, disjoint Weyl-basis Majorana $p$-wave $\sigma v$
+     (`15/(256 pi)` & `1/(16 pi)`), `42`-dps $F_3(\tau_*^\pm)$ Hessian (`1.59e-13`), and all `3,905` $E_8$ coroot
+     $\mathbb{Z}_5$ Casimir maxima + faithful $(\mathbf{16},\mathbf{27},\mathbf{56},\mathbf{248})$ integrality hold
+     (`the same`), alongside three constructive notes (`OW19-F1` `5` in-place referee hash overwrites, `OW19-F2`
+     `7.47x` `3`-flavor vs `2`-flavor washout inflation while preserving $Y_B(\tau_*^+) > 0$, and `OW19-F3`
+     `4.60e-11` finite-$r$ `bc_star` residual).
 
 ## `Card R-3S-FINAL` Delivery: Zero-Trust Delta Audit of `528ef1cf5` (`agy`) & `c721af6ff` (`agy-002`) (`2026-11-22`; `0 of 19`)
 
@@ -46,7 +69,8 @@ next push: on main's next message
      `self_consistent_loop/manuscript/references.bib` (`25/25` keys cited, `LuoXiao2003` `PRL 90, 011601`),
      `self_consistent_loop/manuscript/build_prd_arxiv_bundle.py` (`4` vector PDFs `fig5..8`), and
      `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md`: `-48 \lambda^2 T`,
-     `-\lambda\mathrm{Tr}(3H_u^2+3H_d^2+H_e^2)`, `-42\lambda\mathrm{Tr}(H_u H_d)`, $T_2$ `-2H_u H_d`,
+     `-\lambda\mathrm{Tr}(3H_u^2+3H_d^2+H_e^2)`, `-42\lambda\mathrm{Tr}(H_u H_d)`, $T_2$ `-2H_u H_d`
+     (`[mended to -(2/3)H_u H_d in Card R-OW19-EX12]`),
      `+(27/10)g_1^2 g_2^2\mathrm{Tr}(H_d)` confirmed directly against Luo-Xiao Eq. `(12)` and Buttazzo
      Appendix A (`vs Ford-Jack-Jones -11/2`), and exact rational benchmark `16142087 / 800000` (`err "0.0"`).
    - **Integrated Three-Seat Results (`H1..H6`, `main.tex` Sec. VI & `fig8_three_seat_bridges.pdf`):**
@@ -59,6 +83,7 @@ next push: on main's next message
      kernel on $P_5\times P_6$; (`H3`) gauged
      $E_6 \supset \mathrm{Spin}(10)\times\mathrm{U}(1)_\psi$ brane-`2HDM` ($\Delta n_{\mathrm{Cas}} = -6$,
      non-SUSY Yukawa holomorphy, singlet-driven conformal EWSB $\tan\beta = (\lambda_2/\lambda_1)^{1/4} = 1.11472$
+     (`[mended to Branco (\lambda_1/\lambda_2)^{1/4} = 0.89709 in Card R-OW19-EX12]`)
      with $m_{A^0}/v = 0.49829 > 0$ on BFB `yb_high` quartics, pure-PS $r = 8/77$, and $P_M(\psi_S) = -1$);
      (`H4`) fourth-basis `SO(3, C)` Laurent-DFT Porti (`8.62e-54` on `m004`) and F-theory
      $K_{\mathrm{F\text{-}th}}^+(X_r) = b_4^+ - h^{1,1} - 1$ (`-20.89` at `r = 8`, `< 0` for all `r = 0..9`).
