@@ -49,3 +49,9 @@
    attractive 4D gravity (`G_N > 0`) — while conformal Higgs (`xi = 1 / 6`) gives exact zero quadratic Planck
    divergence (`C_grav = 0`), with positive trace-anomaly central charges `c = 37 / 15` and `a = 127 / 45`.
 3. **Honest Remaining Cosmological Constant Wall (`a_0 != 0`):** Because `n_B - n_F = -64` (`2H`) / `-68` (`1H`) is strictly nonzero (the exact same fermionic excess required for the confining 1-loop chiral bowl), the quartic vacuum-energy coefficient `a_0` does **not** vanish on the massless spectrum. `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-05`):** Under `G_SM`, `(1, 1)_0 = nu^c` is self-conjugate, leaving `15` genuinely chiral SM Weyl states + `1` self-conjugate singlet per generation (`45` chiral + `3` `nu^c`, retracting `16` chiral per gen in `verify_a2_ow4_v2.py:261` and `referee_a2_ow4.py:395`). At conformal `xi = 1/6`, `6 C_{grav} = 0` (`48` Weyl) and `-3 < 0` (`45` Weyl); see `A2-OW18 v3` `c4b79467c`.

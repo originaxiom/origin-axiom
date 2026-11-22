@@ -111,4 +111,11 @@
 - `PF-OW17-3` (non-commuting `diag(1, 2, 4)` vs `P_{m004}`): **CAUGHT**.
 - `PF-OW17-4` (non-unitary `U_L = diag(2, 1, 1)` -> drift `0.243067 > 1 / 10`): **CAUGHT**.
 
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum & `AGY-C29` Harvest):** Propagating `F-A2-03` and `F-A2-05` onto `OW17-A`, we retract `OW17-A`'s Chimera `4D` `Spin(10)`/`E_6` gravity + `G_SM` `2HDM` quartic pairing, Type-I `f_W = +2` (true `DP 1209.3649` value is `-1/2`), and UV-finite `G_{ind}` (`c_log = 16` Proca log term is dominated by `-50/3` / `-33/2 Lambda^2` UV anti-gravity). `4D` brane `2H` `6D` bulk Casimir `n_B - n_F = -6`, `OW17-B` pure Pati-Salam `r = 8/77`, `OW17-C` `m004` `span((1,2))` (`extended to 151/151 Synergy S-1 in A2-OW18 v3`), and Order-`24` `L_2` all stand and were independently
+verified `the same` by `agy` in `AGY-C29` (`d82bb5e4e`).
+
 0 of 19.

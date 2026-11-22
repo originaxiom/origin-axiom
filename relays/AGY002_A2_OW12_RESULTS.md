@@ -49,3 +49,9 @@
    logging the remaining quantitative flavor tensions (`sin^2(theta_12)` vs `sin^2(theta_23)` permutation
    trade-off between `M_R = I_3` and `M_R^{(00)}`, and `e / mu` over-steepness `y_mu / y_s < 5 / 100` from `|6
    Y_R(e^c)| = 6` despite `b-tau` proximity `y_tau / y_b ~ 93 / 100`). `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-01`):** Retracts `matter_dominance_selects_tau_plus = True`. Because `Delta(B - L) = -Delta L`, electroweak sphalerons (`Y_B = +(8/23) Y_{B-L} = -(8/23) Y_L`) yield antimatter `Y_B < 0` at `tau_*^+`; within `OW12`'s modular `Y_nu`, baryon dominance (`Y_B > 0`) selects **`tau_*^- = (-2+i)/5`** (`A2-OW18 v3` `c4b79467c`, `OBS-15` in `A2-OW16 v5`), disclosing `eps1_raw = -3.805e-11` (`143,330.46x` rescaling in `eps1_norm`) and noting `|6 T_{3R}| = (3,3,3,3)` universality on RH singlets vs nonzero `3(B-L)` on LH doublets.

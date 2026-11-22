@@ -48,3 +48,9 @@
 2. **Quantum-Gravity Check Result & Master Scorecard (`A2-OW1..A2-OW10`):**
    - **Positive survival:** Open-weave `2H` `(8, 48, 12)` possesses a unique UV-attractive Type-II fixed point (`7 < g_* < 71 / 10`, `-101 / 10 < lam_* < -10`, both real critical exponents `> 2`), zero 1-loop induced `R^2` scalaron at conformal `xi = 1 / 6`, and strict Komargodski-Schwimmer `a`-theorem monotonicity (`Delta a_total = 125 / 48 > 0` across all `5` consecutive EFT thresholds down to `gamma + 3 nu_L`).
    - **Honest limitations:** Perturbative 4D induced quadratic gravity has a massive spin-2 Stelle ghost (residue `-1` from `c = 37 / 15 > 0`), Type-I non-Lichnerowicz FRG destroys the UV fixed point completely (`M_g = +56 > 14`, `0` UV FPs), and the surviving Type-II fixed point sits at strong single-metric coupling (`g_* > 7`, `lam_* < -10`), so higher-order/bi-metric FRG or `7D` bulk UV completion remains open alongside the `10^(-120)` cosmological constant value, `4` continuous dimensionless scale ratios (`g_UV, lam_0, tan(beta), M_R / M_X`), and early-universe dynamics (`5 PROVED, 3 PARTIAL / CONDITIONAL, 2 NO-GO, 2 STILL OPEN`). `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-05`):** Retracts FRG `N_gen = 3` uniqueness (`OBS-04` demoted to `CONDITIONAL` in `A2-OW16 v5`): `M_g < 14` mixes Type-I gravity (`0805.2909`) with Type-II fermions (`1311.2898`); consistent Type-II has `M_g < 31` where `N_gen = 4` (`M_g = 24`) survives, and consistent Type-I (`1209.3649`) has `f_W = -1/2` per Weyl (`M_g = -64`, retracting `f_W = +2` in `PF-OW10-3`; verified in `A2-OW18 v3` `c4b79467c`).

@@ -39,3 +39,9 @@
 2. **Exact Persistent CP Violation at `m = 25` (`tau = 10 + 5 i`) — Erratum 3's `m = 25` Zero-CP Guess Falsified:**
    - Both Producer `v4` (`b400fc161`) and Cold-Room Referee (`a31eb8051`) independently prove `J_CP(10 + 5 i) = -J_CP(-10 + 5 i) != 0` to `14+` matching digits (`mirror err < (1/10)^70`), whereas pure-imaginary `tau = 5 i` gives exact `J_det == 0`!
    - **Exact cause proved via the `5 i` control:** Under `tau -> tau + Delta_x`, the `E[5]` theta exponent shifts by `exp(2 pi i Delta_x (q_L^2 + q_R^2) a_c^2 / 25)`. For down quarks `(q_L, q_R) = (1, 2)`, `1^2 + 2^2 = 5 == 0 mod 5` (period `5`), whereas for up quarks `(q_L, q_R) = (1, -4)`, `1^2 + (-4)^2 = 17 == 2 mod 5 != 0` (period `25`, so CP is restored only when `25 | Re(tau)`, i.e. `125 | m`). `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-12` / `F-A2-07`):** Discloses that `relays/a2_ow2_v4/verify_a2_ow2_v4_out.json` and `relays/a2_ow2_referee/referee_a2_ow2_out.json` carry `false` master flags (cataloged in `A2-OW16 v5` `7320b5f19`), and scopes `V_{Gamma_0(5)}` (`s = 1`) as a `2D` boundary spectral functional omitting `4D` loop momenta (`Y_u proportional to Y_d => J_CP = 0` without sector splitting).

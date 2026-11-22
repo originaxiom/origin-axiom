@@ -57,3 +57,9 @@
      preserves the `Z_2 x Z_2` grading (`0 / 547` failures), forbidding single-LKP decay to `(0, 0)` SM zero
      modes **if and only if** fixed-point brane operators respect `E[2]` half-period democracy (an asymmetric
      single-puncture `(0, 0)` brane coupling breaks `Z_2 x Z_2` and opens LKP decay). `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-07`):** Retracts simultaneous `E[5]` hypercharge twist + `6D` `s = 3` `tau_*^{+-}` stabilization: summing `E[5]` twists with Fricke yields factor `5^{-2} - 1 = -24/25`, flipping the `6D` `s = 3` coefficient to `-3864/25 < 0` (`4D` DOF) / `-1272/5 < 0` (`6D` bulk), making `tau_*^{+-}` an AdS maximum (`OBS-06` demoted in `A2-OW16 v5`). Bose symmetry kills `eps_{ab} H_d^a H_d^b == 0`, giving `15` (not `17`) zero-derivative dim-`5` `2HDM` operators (`A2-OW18 v3` `c4b79467c`).

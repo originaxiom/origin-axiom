@@ -50,3 +50,9 @@
    generating up to `14` decades of exponential Gildener-Weinberg hierarchy (`mu_GW / M_UV ~ 1 / 10^14` at
    `lam_0 = 1 / 20`) — while honestly pricing `g_UV`, `lam_0`, `tan(beta)`, and `M_R / M_X` as remaining
    continuous inputs under Guardrail 5. `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-03` / `F-A2-04`):** Retracts UV-finite attractive Sakharov `G_{ind}` (`a_1^{Proca} = -1/2` gives uncancelled `-50/3` (`32` Proca) / `-33/2` (`33` Proca) `Lambda_{UV}^2` UV anti-gravity, plus tree-level `-(1/12) v_{GUT}^2 R` at `xi = 1/6`). Also records `OW8-B`'s `2D` Kannike copositivity failure (`lam_3 + lam_4 = -0.0591 < 0` at `lam_1 = 0`) and massless `m_{A^0} = 0` at `lam_5 = m_{12}^2 = 0` (`A2-OW18 v3`).

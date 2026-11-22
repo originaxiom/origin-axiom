@@ -67,3 +67,9 @@ $E[5]\setminus\{0\}$ orbit-summed covariant spin modes `(Q_J, Q_I, Q_K)` (`Candi
 (`L/R` drift `< 4 * 10^{-28}`) and carry **`Outcome [1]`** canonically — realizing **`W:\overline{T}` (`H_Q <
 0`) at `k = 0` (`S` reading)** and **`W:T` (`H_Q > 0`) at `k = 18` (`\tilde{S}` reading)** inside
 $\mathrm{U}(3)$, with `B1736` `\det = 1` quotienting `C_4` to `{72, 72, 24}` (`S_4`). `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-12`):** Producer `verify_a2_wg96_v3.py` (`W1`-`W4`, `|W:G96| = 96`, `k = 0, 18` half-period join) held `the same` in `R-AGY002-V1`, while `referee_a2_wg96.py:397-449` collapsed the `2D` punctured-torus problem to a `1D` radial disk BVP giving `pi - 1 - (1/2) ln(17 / (10 pi)) = 2.44864347...` (offset `0.04483` from true Fuchsian `L_2(13/100 + 17/10 i) = 2.4934722835041529...`, verified in `A2-OW18 v3`).

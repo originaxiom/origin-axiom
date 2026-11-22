@@ -93,3 +93,9 @@
   non-fibered triples); the fiber-consistent ordered `D = 4 -> 6 -> 7` tower count is `5`, of which
   `(1, 3) -> (1, 5) -> (1, 6)` is uniquely selected (`1 of 5`), independently recomputed in
   `a2_ow16_v4` (`40b36f212`) and `a2_ow16_v4_referee` (`135247ae5`).
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-11` / `F-A2-04`):** Rescopes `OBS-02` to the unique Lorentzian physical signature class `{(1, 3) ~ (3, 1)}` modulo `g -> -g` (`1` of `3` classes `{(0,4), (1,3)~(3,1), (2,2)}`, retracting physical distinction between `(1, 3)` and `(3, 1)`). Retracts UV-finite induced `G_{ind}` due to Proca `-50/3` / `-33/2 Lambda^2` UV anti-gravity & tree `-(1/12) v_{GUT}^2 R`; Sen's IR `2(c - a) = -277/360` (`45` Weyl) stands.

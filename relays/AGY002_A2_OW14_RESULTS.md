@@ -89,3 +89,9 @@
 - **`S6` (Formal Card Erratum Logged):** Sealed card line 58 typo (`7 / 3` instead of exact
   `2 * (22 - 8) / (21 - 8) = 28 / 13`) is now closed by formal dated card erratum
   `relays/cards/AGY-002_A2-OW14-ERRATUM-1_traceless-cap22-theta-g-28-13.md` (`71581e83a`).
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-05` / `F-A2-12`):** Retracts `verify_a2_ow14_v2.py:537`'s minimal-scalar `0 < 16n - 40` lower bound at conformal `xi = 1/6` (`where 6 C_{grav}(N_gen=3) = 0` for `48` Weyl and `-3` for `45` Weyl; `A2-OW18 v3` `c4b79467c`), and discloses `relays/a2_ow14_referee/a2_ow14_referee_results.json` `all_gates_passed: false` (cataloged in `A2-OW16 v5` `7320b5f19`). The exact `7D -> 4D` radion bound `N_{accel,max} = 0.811376 < 1` stands (`Bridge B-3S-06`).

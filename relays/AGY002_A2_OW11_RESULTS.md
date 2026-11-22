@@ -61,3 +61,9 @@
   to `CONDITIONAL_OR_QUALITATIVE` (`CONDITIONAL_THRESHOLD`) and counts `M_{PS} / M_X` explicitly.
 - **`S6` (`§12` Disclosure):** `A2-OW11` updated quantitative thresholds in dated post-`v1` errata
   (`mended expectations` under `docs/seats/README.md` section 12).
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-02`):** Retracts `verify_a2_ow11_v3.py:143`'s hand-subtracted `dim_gsm = dim_sm_u1x - 1` and `10_R = 2H`. Exact `dim C_{so(10)}(P_PS, J_5) = 13` (`G_SM x U(1)_X`, `32` broken Proca vectors, not `33`), requiring an explicitly priced `B-L`-breaking scalar for `U(1)_X -> G_SM`, while `10_R` keeps `4` real (`1H`). `OBS-03` & `OBS-05` are demoted in `A2-OW16 v5` (`7320b5f19`) with `E_6` `27` (`B-3S-02`).

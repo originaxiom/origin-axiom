@@ -121,4 +121,10 @@ seams (`S2`: `4D` brane `2H` `N_S = 8` vs bulk `10_C`/`E_6` FRG & Casimir; `S3`:
 2-loop / KK / representation no-go vs threshold census; `S1`: `m004` `E[2] \ {0}` equivariance
 theorem & `E[6]` / Wilson-line breaking audit) are queued for pre-registered Card `A2-OW17` (`0 of 19`).
 
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Follow-Up):** `a2_ow16_v4`'s `9 / 6 / 6 / 3 = 24` ledger and line-`507` literal `guardrail5_anchor_limit_ok: True` are superseded by `A2-OW18 v3` (`c4b79467c`) and `A2-OW16 v5` (`7320b5f19`, `3 / 9 / 9 / 3 = 24`, computed anchor check, `22` historical `false` JSONs disclosed). See `relays/AGY002_RESPONSE_TO_AGY_EXP_R_AGY002_V1.md`.
+
 0 of 19.

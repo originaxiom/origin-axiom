@@ -94,3 +94,9 @@ and zero-shared-code independent referee `relays/a2_ow16_v4_referee/referee_a2_o
   Euclidean fiber addition (`Cl^0(1,3) ~= Cl^0(3,1)`), `1 of 5` ordered fibered towers (`1 of 48`
   Cartesian triples); `6` post-`v1` errata cards (`A2-P879`, `A2-OW6`, `A2-OW7`, `A2-OW11`,
   `A2-OW12`, `A2-OW13`) explicitly logged as `mended expectations` under section 12.
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum — Superseded by `A2-OW16 v5` `7320b5f19`):** Following `agy-exp` `Card R-AGY002-V1` (`d9e52945a`, `F-A2-01`..`F-A2-12`), both `v2` (`11/7/3/3`) and `v4` (`9/6/6/3`) are superseded by `relays/a2_ow16_v5/a2_ow16_v5_results.json` (`3 DERIVED_EXACT / 9 CONDITIONAL / 9 WALL / 3 OPEN = 24`, computed `guardrail5_anchor_limit_ok`, `22` historical `false` JSONs disclosed). See `relays/AGY002_A2_OW18_RESULTS.md`.

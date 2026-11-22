@@ -41,3 +41,9 @@
 2. **Open-Torus Yukawa Closure (`N = 5` Top Finite Rung, Zero `m004` Required):**
    - On the open weave's `N = 5` Weyl algebra (`A2-OW1`), `Tr_{W_3^+}(D(w)) == +1 / 2` and `Tr_{W_2^-}(D(w)) == -1 / 2` across all `24` nonzero `w in E[5] \ {0}`, proving unconditionally why any single-Higgs linear contraction collapses to one `3 x 3` matrix (`Path-A` no-go).
    - Explicitly lifting to `32 x 32` `Cl(10)` (`Spin(10)` holomorphic `10_C = 5_H (+) 5bar_H`) separates `H_u` (`Q u^c`, `L nu^c`) from `H_d` (`Q d^c`, `L e^c`) with exact zero crosstalk, exact `11 / 12` `tan(beta)` invariance, and verified Haar basis-scrambling invariance — completing the open-weave structural closure while leaving the continuous Yukawa/hierarchy inputs honestly accounted for. `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-02` / `F-A2-12`):** Discloses that `relays/a2_ow3_referee/referee_a2_ow3_out.json` carries `overall_pass: false` (cataloged in `A2-OW16 v5` `7320b5f19`). Complexifying `10_R -> 10_C` inside standalone `Spin(10)` leaves `16*16*10_C^*` gauge-invariant and flips `6D` bulk `n_B - n_F` to `+4` (AdS); gauged `X:HOL` without SUSY requires `E_6` `27 = 16_{+1} + 10_{-2} + 1_{+4}` (`Bridge B-3S-02` in `A2-OW18 v3` `c4b79467c`).

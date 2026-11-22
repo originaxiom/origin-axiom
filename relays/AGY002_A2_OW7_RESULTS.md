@@ -59,3 +59,9 @@
   In `A2-OW16 v4` (`40b36f212` / `135247ae5`), `OBS-12` is explicitly tagged `CONDITIONAL_ANSATZ`.
 - **`S6` (`§12` Disclosure):** `A2-OW7` updated quantitative expectations in a dated post-`v1`
   erratum (`mended expectations` under `docs/seats/README.md` section 12).
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-10` / `B-3S-03`):** Retracts `verify_a2_ow7_v2.py:109`'s `-12 y_tau^4` typo (true `N_c = 1` value is `-3 y_tau^4`) and notes `lines 211-225` ran pure `1`-loop matrix RGEs; complete `2`-loop `3x3` Yukawa matrix RGEs (`Haar <= 1.06e-39`) and priced `(M_u, M_d, M_e)` are delivered in `A2-OW18 v3` (`c4b79467c`). Under `F-A2-01` (`tau_*^-` matter selection), `3 / 4` hierarchical CKM perms flip to `J_CP > 0`.

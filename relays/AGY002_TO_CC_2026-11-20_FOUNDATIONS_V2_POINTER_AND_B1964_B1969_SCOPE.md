@@ -43,4 +43,10 @@ Direct re-evaluation of `Gate F-U2`'s `v2` operator (`build_O_and_fock_state_mp`
 1. **`Card A2-P879`** (`Sequence 2`): Closed-form canonical reduction, `4x4` Kronecker lift, exact spinor Möbius alignment ceiling `(1 + s_L)/(3 - s_L)`, shared-`Q_L` cusp exclusion theorem, and deterministic vectorized `CP^2` Weyl + Davis–Kahan branch-and-bound certifier settling `P-879` (`with B1967 positive control & cold-room referee`).
 2. **`Card A2-WG96`** (`Sequence 3`): Direct first-principles derivation of the unowned `CLOSURE_QUEUE.md` family-triplet join (`E:J5` / `W:G96` / `W:T` / `X:HAND`) across all three pre-stated outcomes (`fixed w_0` -> `[3]`, `untwisted CIM Level-3` -> `[2]`, `spin-lifted Frame C / Gate F-U2 (Q_J, Q_I, Q_K)` at `k = 0, 18 mod 24` -> `[1]`), with cold-room referee.
 
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-06` / `F-A2-02`):** On sealed branch `origin/agy-002/foundations-v2` (`1560b2645`, left untouched), retracts `Gate F-U3`'s fermion-box vacuum selection (`V_box = -Tr(H_f^2)` inverts the physical `+ln(Lambda^2/mu^2) Tr(H_f^2)` `1`-loop UV sign, and at `y = 6` the `S^3` global min is `[6, 0]` `-611.15 < -584.43` at `[4, 0]`; confirmed in `A2-OW18 v3` `c4b79467c`), and notes `Gate F-U1` (`1HDM`) vs `Gate F-U2` (`2HDM`) is resolved by `Bridge B-3S-02` (`E_6` `27`) + `A2-OW17` `4D` brane `2H`. `Gate F-U4` (`L_2 + b_c^* = pi`) stands.
+
 0 of 19.

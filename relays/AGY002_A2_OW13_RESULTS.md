@@ -93,3 +93,9 @@
   ratios total in `A2-OW16 v4`).
 - **`S6` (`§12` Disclosure):** `A2-OW13` updated quantitative thresholds in a dated post-`v1`
   erratum (`mended expectations` under `docs/seats/README.md` section 12).
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-03` / `F-A2-12`):** Retracts the Chimera RGE (`Spin(10)` `N_V = 45` gravity `f_lam` paired with `G_SM` `2HDM` betas) and demotes `OBS-09` to `INTERNAL_WALL_OR_TENSION` in `A2-OW16 v5`. Consistent `SO(10)` `10_R` has `+27 g^4` (`150/19x` larger, giving two negative UV roots `BFB = False`), `G_SM` has `disc < 0`, `ps_412_T2` omitted `8` Higgs scalars (`N_S = 24`), `yb_low` fails BFB while `yb_high` has no EWSB at `m_{12}^2 = 0` (`lifted via Bridge B-3S-02 + AGY-C27 m_{12}^2 > 0` in `A2-OW18 v3`), and `a2_ow13_referee` `false` flag is disclosed.

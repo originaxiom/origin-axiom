@@ -47,3 +47,9 @@
    elevating `m004` (`+LR`, `Smith = (1, 5)`) to unique `#1` (`> 1 / 3`) paired almost `1 : 1` with the `4`
    signed `t = 4` (`Smith = (1, 6)`) overtones (`combined share > 66 / 100`, naturally exciting `lcm(5, 6) =
    30`). `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-09`):** Negative-trace lifts `-L^2 R, -LR^2` (`tr = -4`) satisfy `Smith(-M + I_2) = (1, 2)` (`E[2]`, not `(1, 6)` `E[6]`), halving the `t = 4` `E[6]` share from `59.4%` to `29.7%`. Also separates `2D` modular geodesics (`delta_{H^2} = 1`, `s = 2` convergent) from `3D` hyperbolic manifolds (`delta_{H^3} = 2`, `s = 2` divergent); see `A2-OW18 v3` `c4b79467c`.

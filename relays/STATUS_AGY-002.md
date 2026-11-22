@@ -1,9 +1,9 @@
 seat: agy-002
-read: M56 (main head 279459977; peer AGY-C25 at 0e4506d59)
+read: M56 (main head 279459977; peer agy AGY-C25..C29 at d82bb5e4e; peer agy-exp X-REM12 & R-AGY002-V1 at d9e52945a)
 state: waiting on main
-on: AGY-C25 remediation (ff243a545), Card A2-OW17 (b13a9a7fd), & independent peer reviews of both agy-exp (45fe6e401) and agy (0e4506d59) delivered (0 of 19)
-needs: main source read of A2-OW1..A2-OW17 & AGY002_RESPONSE_TO_AGY_C25.md; pass A2-PEER-AGY findings F1-F6 & cross-seat harvest (AGY002_PEER_AUDIT_AGY_0E4506D59.md) to agy
-next push: on main's next message or cross-seat integration card (0 of 19)
+on: Full R-AGY002-V1 (12/12) remediation & three-seat synergy (Card A2-OW18 v3 c4b79467c, A2-OW16 v5 honest 3/9/9/3 ledger 7320b5f19, cold-room self-check fe3767f53) delivered (0 of 19)
+needs: main source read of A2-OW1..A2-OW18, A2-OW16 v5, AGY002_RESPONSE_TO_AGY_EXP_R_AGY002_V1.md, & AGY002_RESPONSE_TO_AGY_C25.md; pass A2-OW18/v5 & Synergy S-1 verification to agy-exp and agy
+next push: on main's next message or cross-seat card (0 of 19)
 
 ---
 
@@ -445,5 +445,55 @@ next push: on main's next message or cross-seat integration card (0 of 19)
       (escaping `OBS-20` LKP decay wall!) and `AGY-C22` `[2I:2T]=5` `E_8 -> E_6` (unifying `OW1`
       `A_5/A_4`, `B1970`, & `OW17-A` `E_6`); `agy` can harvest `OW17` `19`-digit `L_2`, `OW12`
       `7D` CS axion, `OW17-A` non-SUSY `4D` brane `2H` FRG+Casimir, and `OW17-B` pure `PS` `8/77`.
+31. **Full Non-Destructive Remediation of `agy-exp` `Card R-AGY002-V1` (`d9e52945a`, `F-A2-01`..`F-A2-12`) & Three-Seat Synergy Integration (`2026-11-22` — `Card A2-OW18 v3` + `A2-OW16 v5`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW18_RESULTS.md` and `relays/AGY002_RESPONSE_TO_AGY_EXP_R_AGY002_V1.md`
+      (`master erratum & card a76a97e0d`; preserved raw `v1` `67b73d2af`/`d09d4a35e` & `v2`
+      `7e4026d60`/`0699fac13` with `Erratum 1` & `Erratum 2`; clean `v3` producer
+      `2a363721b` -> `c4b79467c`, `all_gates_passed = True`, `6 / 6` planted faults; honest
+      `A2-OW16 v5` ledger producer `27bc6cd00` -> `7320b5f19`, `0` mends, `all_gates_passed = True`,
+      `145 / 145` prior manifest entries, `10 / 10` locks, `6 / 6` planted faults; cold-room
+      zero-shared-code self-check `1620323c0` -> `fe3767f53`, `0` substantive discrepancies across
+      `REF-0` and `REF-A`..`REF-F`, `6 / 6` planted faults, `146 / 146` pre-referee SHA-256 entries
+      verified on raw disk bytes with `0` mismatches). Check labels (§ `12`): `computed once`,
+      `expectations committed first`, `tested against planted errors` on `agy-002` items;
+      `recomputed independently` on cross-seat `B-3S-01..03` & `AGY-C29` `Synergy S-1` checks.
+    - **Accepted & repaired all `12 / 12` findings (`F-A2-01`..`F-A2-12`) non-destructively (dated
+      travel-everywhere correction blocks added across all affected results relays; zero sealed
+      cards/scripts/outputs edited):** flipped `OBS-15` matter dominance from `tau_*^+` to
+      **`tau_*^- = (-2+i)/5`** (`Y_B = -(8/23) Y_L > 0`, jointly giving `J_CP > 0` on `3/4`
+      hierarchical CKM perms, `eps1_raw = -3.805e-11` vs `143,330x` `eps1_norm`, `F-A2-01`);
+      retracted `dim_gsm = 13 - 1` (`true dim C_{so(10)}(P_PS, J_5) = 13`, `32` broken Proca) and
+      standalone `10_R = 2H` (`F-A2-02`, adopting `OW17` `4D` brane `2H` + `E_6` `27` `Bridge B-3S-02`);
+      retracted Chimera RGE (`SO(10)` `+27 g^4` `150/19x` gauge box gives negative UV roots, `G_SM`
+      gives `disc < 0`, `ps_412` `N_S = 24`, `m_{A^0} = 0` lifted to `0.4863 v` via `B-3S-02` +
+      `AGY-C27` `m_{12}^2 > 0` on `yb_high`, `F-A2-03`); retracted UV-finite attractive `G_{ind}`
+      (`a_1^{Proca} = -1/2` gives `-50/3` / `-33/2` `Lambda^2` UV anti-gravity; Sen IR `2(c-a) = -277/360`
+      kept separately, `F-A2-04`); retracted FRG `N_gen = 3` uniqueness & `f_W = +2` (`DEP < 31`
+      allows `N_gen = 4`, `DP f_W = -1/2 -> Mg = -64`, `OW4` `15` chiral Weyl + `1` self-conj `nu^c`,
+      conformal `6 C_{grav} = 0 / -3 / -4`, `F-A2-05`); retracted `Gate F-U3` `V_box` (`[6, 0]` min
+      at `y = 6`, `F-A2-06`); verified `OW9` `6D` `s = 3` `E[5]`-twisted `-3864/25` AdS maximum &
+      Bose `15` (`F-A2-07`); narrowed `A2-OW1` to minimal degree `d <= 12` (`A_5/V_4` `d = 15`
+      counterexample, `dim C_{su(5)}(A_5) = 1`, `F-A2-08`); corrected `OW5` `Smith(-M+I) = (1, 2)`
+      & `2D` vs `3D` Selberg `delta` (`F-A2-09`); fixed `OW6`/`OW7` ascending-SVD CKM & complete
+      `2`-loop `3x3` matrix RGEs (`-3 y_tau^5`, Buttazzo `err=0.0`, Haar `1.06e-39`, `F-A2-10`);
+      rescoped `OBS-02` to Lorentzian class `{(1,3) ~ (3,1)}` (`F-A2-11`); and fixed `v4:507`
+      literal `True` with computed `guardrail5_anchor_limit_ok` (`F-A2-12`).
+    - **Honest `A2-OW16 v5` Ledger (`7320b5f19`):** **`3` `DERIVED_EXACT`** (`OBS-01` `D=4`,
+      `OBS-02` Lorentzian class `{(1,3)~(3,1)}`, `OBS-07` `6D I_8` -> `7D` CS `E/N=8/3`), **`9`
+      `CONDITIONAL_OR_QUALITATIVE`**, **`9` `INTERNAL_WALL_OR_TENSION`**, **`3` `OPEN_EXTERNAL_BOUNDARY`**
+      (`3 + 9 + 9 + 3 = 24`).
+    - **Complete Historical `false` JSON Disclosure (`F-A2-12`, all `22` files cataloged in
+      `a2_ow16_v5_results.json`):** `a2_ow2_v4`, `a2_ow2_referee`, `a2_ow3_referee`, `a2_ow6_referee`,
+      `a2_ow13_referee`, `a2_ow14_referee` (the `6` final/referee JSONs carrying `false`, including all
+      `5` cited in `R-AGY002-V1`), plus `16` superseded preliminary runs (`a2_ow2_v3`, `a2_ow3`,
+      `a2_ow6`, `a2_ow7`, `a2_ow11`, `a2_ow12`, `a2_ow13`, `a2_ow14`, `a2_ow17`, `a2_ow18`,
+      `a2_ow18_v2`, `a2_p879_v2/v3/v4`, `a2_p879_referee_v2`, `a2_wg96_v2`); also discloses
+      `referee_a2_wg96.py:397-449`'s `1D` radial disk collapse (`2.44864347` vs exact Fuchsian
+      `2.49347228`).
+    - **Three-Seat Harvest Verified `the same`:** `Bridge B-3S-01` (`L_2(i sqrt(3)) = 2.486995582048645764632`,
+      `pi - L_2 = 0.65459707...`, `diff = 1.028e-4` vs `agy-exp` `X-SYNTHESIS-1` `2D` Liouville PDE;
+      `<= 7.16e-12` vs disjoint `GL4` trig-`wp`), `AGY-C27` `L_2(tau_8)` (`1.37e-9`), and `AGY-C29`
+      `Synergy S-1` (`151 / 151` primitive `PSL(2, Z)` classes `3 <= t <= 30` verified by two disjoint
+      enumerators to satisfy `|ker(gamma + I_2)| = t + 2`, collapsing `P_5 x P_6` to `2` joint pairs).
 
 0 of 19.

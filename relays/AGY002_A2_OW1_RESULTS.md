@@ -41,3 +41,9 @@
    (`b+-LR`) + `m000` (`b-+L`) pass `2T` with `D_5 = 0`. `m004` is merely the smallest-volume orientable
    amphichiral representative of an infinite family, whereas the gauge-matter engine itself lives natively on
    the open weave's top finite rung `A_5`. `0 of 19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-08` / `F-A2-02`):** Unqualified `A_5` subgroup uniqueness is narrowed to minimal degree `d <= 12` (`A_5/V_4` at `d = 15`, split `(9, 6)`, is also faithful, transitive, chiral, and `4D` anomaly-free; `A2-OW18 v3` `c4b79467c`). `dim C_{su(5)}(A_5) = 1` (`dim = 12` commutes only with a single involution `g`), and `b = 2` real collar modes give `1H` (`4` real scalars), not `2H`. See `relays/AGY002_RESPONSE_TO_AGY_EXP_R_AGY002_V1.md`.

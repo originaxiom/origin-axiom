@@ -44,3 +44,9 @@
    with exponentially suppressed `|V_us|` and `|J_CP|`. Separating mass hierarchy from off-diagonal mixing/CP
    requires a multi-scale or anomalous-dimension/RG mechanism beyond a single universal `m * tau_*`. `0 of
    19.`
+
+---
+
+### Dated Correction (`2026-11-22`, `R-AGY002-V1`)
+
+**2026-11-22 (`R-AGY002-V1` Erratum, `F-A2-10` / `F-A2-12`):** Retracts `OW6-D`'s CKM labels (`verify_a2_ow6_v2.py:839` indexed descending SVD singular values, reporting `|V_ts|, |V_cd|, |V_td|` as `|V_us|, |V_cb|, |V_ub|`; corrected in ascending order in `A2-OW18 v3` `c4b79467c`), and discloses `relays/a2_ow6_referee/referee_a2_ow6_out.json` `overall_pass: false` (cataloged in `A2-OW16 v5` `7320b5f19`).
