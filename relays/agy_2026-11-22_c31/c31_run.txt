@@ -1,0 +1,1 @@
+AGY-C31 producer complete in 99s: 159+148 manifests OK, EqB2=16142087/800000, Gamma14_err=2.1243217e-11, controls=5/5

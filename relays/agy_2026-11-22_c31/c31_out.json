@@ -1,0 +1,87 @@
+{
+  "E1_custody_and_manuscript_signoff": {
+    "E1_passed": true,
+    "agy_002_sha256_entries_verified": 148,
+    "agy_002_sha256_files": 146,
+    "agy_exp_sha256_entries_verified": 159,
+    "agy_exp_sha256_files": 164,
+    "control_1_manifest_tamper_caught": true,
+    "manuscript_author_placeholder_present": false,
+    "manuscript_bib_keys_total": 25,
+    "manuscript_bundle_pdf_figures": 4,
+    "manuscript_uncited_bib_keys": [],
+    "new_agy_exp_over680_lines": 0,
+    "peer_ast_strict_checks": {
+      "referee_a2_ow18.py": {
+        "float_or_complex_calls": 0,
+        "float_or_complex_literals": 0,
+        "passed": true
+      },
+      "verify_a2_ow16_v5.py": {
+        "float_or_complex_calls": 0,
+        "float_or_complex_literals": 0,
+        "passed": true
+      },
+      "verify_a2_ow18_v3.py": {
+        "float_or_complex_calls": 0,
+        "float_or_complex_literals": 0,
+        "passed": true
+      },
+      "verify_x_harvest_3s_1_v4.py": {
+        "float_or_complex_calls": 0,
+        "float_or_complex_literals": 0,
+        "passed": true
+      }
+    }
+  },
+  "E2_appendix_b_and_hurwitz_fricke": {
+    "E2_passed": true,
+    "L2_tau_star_plus_gamma_closed": "3.52397658431848967047221782955",
+    "bc_star_tau_star_plus_gamma_closed": "-0.382383930728696432009574446272",
+    "control_2_luo_xiao_benchmark_caught": true,
+    "control_3_hurwitz_fricke_log5_caught": true,
+    "exact_rational_beta_lam_2": "16142087/800000",
+    "lame_ode_vs_gamma_closed_abs_err": "2.1243217e-11",
+    "matches_h5_16142087_over_800000": true,
+    "patched_main_tex_has_all_c29_fixes": true,
+    "peer_h1_vs_gamma_closed_abs_err": "1.8839517e-30"
+  },
+  "E3_c721af6ff_and_wg96_signoff": {
+    "E3_passed": true,
+    "control_4_wg96_k21_collapse_caught": true,
+    "control_5_ow16_v5_false_json_catalog_caught": true,
+    "historical_false_jsons_found": 22,
+    "historical_false_jsons_match_v5_disclosure": true,
+    "ow16_v5_bucket_counts": {
+      "CONDITIONAL_OR_QUALITATIVE": 9,
+      "DERIVED_EXACT": 3,
+      "INTERNAL_WALL_OR_TENSION": 9,
+      "OPEN_EXTERNAL_BOUNDARY": 3
+    },
+    "proca_quad_coeff": "-33/2",
+    "townsend_wohlfarth_N_accel_max": "0.81137595641441",
+    "wg96_center_order": 4,
+    "wg96_cyclotomic_order": 96,
+    "wg96_k21_collapsed_order": 24,
+    "wg96_quotient_order": 24
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_and_call_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "passed": true
+  },
+  "card": "AGY-C31",
+  "check_labels_section_12": [
+    "recomputed independently",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "peer_commits_signed_off": {
+    "agy_002": "c721af6ff2a9038e45d446f7e0057189c4eb265c",
+    "agy_exp": "75cb20177efc04519fa7715056e303d0b0365bba"
+  },
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}
