@@ -1,0 +1,234 @@
+{
+  "M0_git_custody_and_quotes": {
+    "all_24_sha256_manifests_match": true,
+    "all_quotes_exact": true,
+    "c19_committed_run_txt_overwritten_in_place": true,
+    "commit_present_in_git": true,
+    "post_addition_card_file_modifications": 32,
+    "quote_count": 20,
+    "quotes": [
+      {
+        "exact_line": "*Seat: `agy` (`agy/cusp-action-2026-11-20`, forked from `origin/main` `60a52d359` and aligned with `279459977` / `B1970`; `origin/agy/audit-2026-11-02` untouched at `4319f47e2`). Date: `2026-11-21`. Twenty-four pre-registered cards (`expectations committed first`), hashed scripts (`hashed script before execution`), raw logs (`raw output before analysis`), and zero-shared-code counterchecks (`recomputed independently` + `tested against planted errors`, `120 / 120` total planted faults caught across twenty-four scripts). Data-free: `0 of 19`.*",
+        "file": "relays/AGY_TO_MAIN_2026-11-20_CHIRAL_HOLOMORPHIC_CUSP_BOUNDARY_SYNTHESIS.md",
+        "line": 3,
+        "matched": true
+      },
+      {
+        "exact_line": "- **Zero-knob `5`-cell Kaplan collar, `7D` gravitational inflow, & `v1` seal (`AGY-C16` to `AGY-C18`):** (`AGY-C16`) derives both `Y_f (Y_f^dag Y_f)^two / (tr(Y_f^dag Y_f))^two` and `Y_nu Y_nu^T` from one uniform `30 x 30` Weyl collar operator via `G_{SM}` conservation; (`AGY-C17`) proves non-abelian `d Omega_7^{LCS} == tr(R^4)`, `4D` graviton normalizability on cusped `X_{4_1}^{(m)}`, and zero-knob `GHU` EWSB at `t_{EW} = minus 48 pi / 5`; and (`AGY-C18`) seals `blind_predictions_zero_knob_v1.json` (`FITTED == 0`, `23 / 2` discrete bits).",
+        "file": "relays/AGY_TO_MAIN_2026-11-20_CHIRAL_HOLOMORPHIC_CUSP_BOUNDARY_SYNTHESIS.md",
+        "line": 11,
+        "matched": true
+      },
+      {
+        "exact_line": "  - *Statement:* Excluding anti-holomorphic `S_tilde` (`ker d_bar_z`) and coupling two chiral doublets `(H_u, H_d)` via Frame `C`'s holomorphic `S(tau)` turns `gamma -> 1` from an obstruction into exact CKM alignment: across all `20` `a != 0` order-five points, `min_k |V_kk|` exceeds `993 / 1000` at height `six`, `99997 / 100000` at height `fifteen`, and `1` at height `thirty`.",
+        "file": "relays/AGY_TO_MAIN_2026-11-20_C1_P879_RANK1_OBSTRUCTION_AND_HOLOMORPHIC_DOUBLETS.md",
+        "line": 18,
+        "matched": true
+      },
+      {
+        "exact_line": "        float(np.max(np.abs(np.kron(gT, np.eye(5)) @ np.kron(np.eye(3), gW) - np.kron(np.eye(3), gW) @ np.kron(gT, np.eye(5)))))",
+        "file": "relays/agy_2026-11-20_c3/c3_cusp_three_family_gluing.py",
+        "line": 382,
+        "matched": true
+      },
+      {
+        "exact_line": "- **Guardrail one bit-pricing (`data-free`):** `V_{Gamma_0(5)}(tau)` embeds `0` target coordinates, but selecting a net bosonic-minus-fermionic sign (`subharmonic +pi / y^two` rather than `minus pi / y^two`) and equal base/cover weight constitutes a non-zero discrete potential-specification choice (`no 0-bit post-inspection credit claimed`).",
+        "file": "relays/AGY_TO_MAIN_2026-11-20_C4_SPECTRAL_POTENTIAL_CUSP_CANCELLATION_AND_STATIONARITY.md",
+        "line": 25,
+        "matched": true
+      },
+      {
+        "exact_line": "    uu40, wu40 = uw_triple_mp(t40, Fr(1, 5), Fr(2, 5), 1, -4, mp.mpf(\"2.2505\"))",
+        "file": "relays/agy_2026-11-20_c5/c5_countercheck.py",
+        "line": 291,
+        "matched": true
+      },
+      {
+        "exact_line": "        n_cusps_wang = 1",
+        "file": "relays/agy_2026-11-20_c6/c6_countercheck.py",
+        "line": 109,
+        "matched": true
+      },
+      {
+        "exact_line": "    i8_three_27 = sp.expand(3 * (27 * a8_grav_unit + tr_r2 * (3 * tr_f2) / 96 + sp.Rational(3, 4) * (tr_f2 ** 2) / 24))",
+        "file": "relays/agy_2026-11-21_c9/c9_cover_scaling_and_anomaly_inflow.py",
+        "line": 265,
+        "matched": true
+      },
+      {
+        "exact_line": "        g_ir, yu_ir, _, _, _, _ = rk4_integrate(st0_pr, t_end=t_end, n_steps=4000, two_loop=False)",
+        "file": "relays/agy_2026-11-21_c14/c14_2loop_2hdm_rge_and_tan_beta.py",
+        "line": 175,
+        "matched": true
+      },
+      {
+        "exact_line": "- **Schur commutant no-go on family-blind `Z_5` twists (`recomputed independently` via `|G_T| = 96` Burnside sum `<chi, chi> = 1`):** Both Kronecker commutator SVD and BFS character summation prove `dim End_{G_T}(C^3) = 1` (`spanned by I_3`), so any family-blind linear `Z_5` operator commuting with `G_T` acts as `alpha_f I_3` and leaves `m_1 : m_2 : m_3` unchanged, while basis-pinned diagonal `W_R` violates `U(3)_R` invariance (`Plant 1`).",
+        "file": "relays/AGY_TO_MAIN_2026-11-21_C15_END_TO_END_UV_IR_PIPELINE_AND_BIT_LEDGER.md",
+        "line": 9,
+        "matched": true
+      },
+      {
+        "exact_line": "    m_kk = mp.sqrt(tr_g) / eps",
+        "file": "relays/agy_2026-11-21_c16/c16_five_cell_collar_kaplan_derivation.py",
+        "line": 70,
+        "matched": true
+      },
+      {
+        "exact_line": "        (evn[1] - evn[0]) / (evn[2] - evn[0]), mp.mpf(0), (ia[0] - ia[1]) / (ia[1] - ia[2]), tb,",
+        "file": "relays/agy_2026-11-21_c18/c18_blind_prediction_seal_and_matched_null.py",
+        "line": 166,
+        "matched": true
+      },
+      {
+        "exact_line": "    wrap_amp = mp.mpf(0) if r_cutoff_wrap is None else mp.exp(-2 * r_cutoff_wrap)",
+        "file": "relays/agy_2026-11-21_c21/c21_level40_cusp_coercivity_and_instanton_saddle.py",
+        "line": 100,
+        "matched": true
+      },
+      {
+        "exact_line": "    m11_over_mpl_sd = mp.mpf(\"3.93863908\") / mp.mpf(\"25.491212\")",
+        "file": "relays/agy_2026-11-21_c22/c22_countercheck.py",
+        "line": 163,
+        "matched": true
+      },
+      {
+        "exact_line": "        f_sv = mp.sqrt(x) * ((x - 1) / reg_denom + 1 - (1 + x) * mp.log(1 + 1 / x))",
+        "file": "relays/agy_2026-11-21_c23/c23_cosmology_vacuum_dm_leptogenesis_inflation.py",
+        "line": 369,
+        "matched": true
+      },
+      {
+        "exact_line": "        f_sv = mp.sqrt(x) * ((x - 1) / den + 1 - (1 + x) * mp.log(1 + 1 / x))",
+        "file": "relays/agy_2026-11-21_c23/c23_countercheck.py",
+        "line": 143,
+        "matched": true
+      },
+      {
+        "exact_line": "   - **Expectation E2 (`40`-Digit Single-Arm `blind_predictions_full_toe_v2.json` Seal, Step-Halving `< 10^{-7}`, & Matched-Null `X2`):** Lock `40` dimensionless `SM` (`MS-bar` + `pole/2HDM`), `11D` `M`-theory gravity (`M_{11} / M_{GUT}`, blind `M_{Pl} / v_{EW}` benchmarks), and cosmological (`P_M = -1` dark matter, flavored `eps_{1 tau}`, `Gamma_tau / H`, plus exact `B980` vacuum-energy and `eta_V` steepness no-go certificates) quantities with `SHA-256` payload seal, `N = 120` vs `N = 240` step-halving residual `< 10^{-7}`, `0 / 2000` single-arm random null hits (`r_{95} < 1 / 500`), and `5%`-noise recovery power `> 9 / 10`.",
+        "file": "relays/cards/AGY_C24_pole-matching-and-full-toe-seal-v2.md",
+        "line": 7,
+        "matched": true
+      },
+      {
+        "exact_line": "    out_120 = eval_full_toe_pipeline(n_steps=180, dps=42)",
+        "file": "relays/agy_2026-11-21_c24/c24_pole_matching_and_full_toe_seal_v2.py",
+        "line": 178,
+        "matched": true
+      },
+      {
+        "exact_line": "Disjoint Kutta 3/8-Rule Pole/2HDM Spectrum Verifier, Cayley-Haar Single-Arm Null,",
+        "file": "relays/agy_2026-11-21_c24/c24_countercheck.py",
+        "line": 2,
+        "matched": true
+      },
+      {
+        "exact_line": "- **`AGY-C24` (`1`-loop pole / `2HDM` matching & `blind_predictions_full_toe_v2.json` `11 / 2`-bit seal):** Card `c4de716a0`, producer `3a42da75b`, raw output `f2bc32dec`, countercheck `e27a7e923`, relay `5d33beaa6` \u2014 adds `1`-loop Tarrach `QCD / QED` pole conversion and `4`-boson `2HDM` masses into `blind_predictions_full_toe_v2.json` (`FITTED == 0`, `1` arm, `11 / 2` bits, `SHA-256` verified), stopping cleanly at `docs/seats/README` Section `9`'s `0 of 19` firewall.",
+        "file": "relays/STATUS_AGY.md",
+        "line": 20,
+        "matched": true
+      }
+    ],
+    "sha256_manifest_count": 24,
+    "sha256_manifests_matching": 24,
+    "target_commit": "6f285488c49f4bec5354b20df14c9240aa88a009"
+  },
+  "M1_e8_10_6_multiplicity": {
+    "PC_RAGY_1_caught": true,
+    "differs_from_agy_c5_two_doublet_claim": true,
+    "e8_root_count": 240,
+    "equals_dim_so16_136": true,
+    "n_H_full_e8": 12,
+    "n_H_single_10_slice": 2,
+    "roots_in_10_6": 60,
+    "slope_full_e8_rational": "98/85",
+    "slope_single_10_slice": "9/5",
+    "surviving_scalar_weights_in_10_6": 24,
+    "unbroken_gauge_dim_under_vP": 136
+  },
+  "M2_covers_and_mp2z": {
+    "G_T_order_in_U3": 96,
+    "PC_RAGY_2_caught": true,
+    "U_S_fourth_power_is_minus_I3": true,
+    "all_even_covers_m2_8_40_trivialize_meridian_parity_P": true,
+    "base_commutator_fixed_dim": 1,
+    "irred_3d_reps_count": 384,
+    "irred_meridian_orders": [
+      3,
+      6,
+      12
+    ],
+    "max_meridian_kernel_dim_at_m8_and_m40": 1,
+    "pillowcase_hat_iota_exact_order": 2,
+    "surjections_to_D10_count": 20,
+    "theta_check_max_err_lt_1e45": true
+  },
+  "M3_potential_collar_and_strong_cp": {
+    "PC_RAGY_3_caught": true,
+    "raw_m8_strong_cp_arg_det_p3_rad": "-0.5148543348",
+    "raw_m8_strong_cp_arg_det_p4_rad": "-3.023397298",
+    "raw_m8_strong_cp_nonzero": true,
+    "schur_5cell_formula": "y_u**5/(M_1*M_2*M_3*M_4)",
+    "su2_broken_when_tr_yu_neq_tr_yd": true,
+    "su2_bulk_doublet_mass_ratio_for_yu2_yd1": "2",
+    "v_gamma0_5_det_hess_r1": "127.2508148",
+    "v_gamma0_5_det_hess_r5_saddle": "-8916.075096",
+    "v_gamma0_5_grad_norm_r1": "1.71929e-22"
+  },
+  "M4_2loop_2hdm_rge_and_ewsb": {
+    "PC_RAGY_4_caught": true,
+    "ewsb_fails_without_nondecoupled_xi": true,
+    "l2_countercheck_vs_producer_um13_rel_diff": "0.0120239",
+    "m_Hu_sq_at_xi_zero": "0.38198326",
+    "missing_2loop_top_fraction": "9/16",
+    "mu_ir_sq_over_uv_sq": "6.36757e-27",
+    "pure_top_2loop_agy_truncated": "-21/4",
+    "pure_top_2loop_exact_mv": "-12",
+    "tan_beta_internal_rel_mismatch": "0.00119679",
+    "tan_beta_linearized_c18": "8.7164628368",
+    "tan_beta_newton_exact_c24": "8.72690709987",
+    "vew_sq_over_m0_sq": "0.315726"
+  },
+  "M5_resonant_leptogenesis_sign": {
+    "PC_RAGY_5_caught": true,
+    "branching_P_1_emu": "0.0872732",
+    "branching_P_1_tau": "0.912727",
+    "buggy_eps_1_tau": "-2.143586874e-5",
+    "buggy_eps_tot": "-2.635482965e-5",
+    "eps_1_tau_inflation_factor": "5.09092",
+    "large_x_sqrt_x_limit_buggy_c23": "1/2",
+    "large_x_sqrt_x_limit_true_crv": "-3/2",
+    "sphaleron_factor_2hdm_exact": "8/23",
+    "sphaleron_factor_used_in_v2_json": "28/79",
+    "true_crv_eps_1_tau": "-4.210607738e-6",
+    "true_crv_eps_tot": "2.691905159e-5",
+    "true_eps_1_e_plus_mu": "3.112965933e-5",
+    "true_washout_weighted_Y_B_sign_on_tau_star_plus": -1
+  },
+  "M6_mtheory_crystallography_and_c24_f2": {
+    "PC_RAGY_6_caught": false,
+    "c24_preregistered_F2_failed_gt_1e7": false,
+    "c24_substituted_N180_vs_N360_rel_drift_higgs_A0": "1.777056823e-8",
+    "c24_true_N120_vs_N240_rel_drift_higgs_A0": "8.895230323e-8",
+    "compact_T4_mod_2I_crystallographic_allowed": false,
+    "cubic_Z4_lattice_preserved_by_2T": false,
+    "hurwitz_2T_image_of_1000": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "trace_R4_order10_in_2I": "1 + sqrt(5)"
+  },
+  "all_6_planted_controls_caught": false,
+  "ast_zero_float_check": {
+    "float_literal_count": 0,
+    "float_literal_lines": [],
+    "zero_float_literals_passed": true
+  },
+  "card": "R-AGY-C24",
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 6,
+  "target_branch": "origin/agy/cusp-action-2026-11-20",
+  "target_commit": "6f285488c49f4bec5354b20df14c9240aa88a009"
+}
