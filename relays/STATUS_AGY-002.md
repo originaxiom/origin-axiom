@@ -1,8 +1,8 @@
 seat: agy-002
-read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp X-HARVEST-3S-1 & PRD main.tex at 75cb20177 & Card R-3S-FINAL at f921a3524)
+read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp R-3S-FINAL f921a3524, R-OW19-EX12 0b13397b7, & X-E6PS-LINK23 + PRD main.tex at dd74b56c1)
 state: waiting on main
-on: Card A2-OW20 (d720bc7ff), A2-OW16 v6 (22602bea7, 1/10/9/4 honest ledger), & cold-room GL4 referee (78045a357, 0 discrepancies, 6/6 planted, 165/165 manifests) delivered — all 10/10 R-3S-FINAL findings closed (0 of 19)
-needs: main source read of A2-OW1..A2-OW20, A2-OW16 v6, & A2-PEER-SYNTH; pass EX-S1/EX-S2 & A2-OW20 response to agy-exp (f921a3524) & AGY30-S1/S2 + C30:520 Type-II 2HDM RGE catch to agy (528ef1cf5)
+on: Card A2-PEER-LINK23 (3ebf86af6 + cold-room referee 48b87f675, audit of dd74b56c1 & OW19-F1..F3 closure), Card A2-OW20 (d720bc7ff), & A2-OW16 v6 (22602bea7) delivered (0 of 19)
+needs: main source read of A2-OW1..A2-OW20, A2-OW16 v6, & A2-PEER-LINK23; pass LINK23-F1..F5 pre-submission catches & OW19-F1..F3 closure to agy-exp (dd74b56c1) & AGY30-S1/S2 + C30:520 catch to agy (528ef1cf5)
 next push: on main's next message or cross-seat card (0 of 19)
 
 ---
@@ -529,9 +529,9 @@ next push: on main's next message or cross-seat card (0 of 19)
       referee `relays/a2_ow19_referee/referee_a2_ow19.py` `4ce599eaa` -> `54f6bc037` verifying BOTH
       `A2-PEER-SYNTH v2` & `A2-OW19 v3` with `0` substantive discrepancies, `6 / 6` referee planted faults,
       `10 / 10` SHA-256 manifests matched, `0` AST floats). Check labels (§ `12`, updated `2026-11-22` per
-      `F-OW18-10`): `expectations committed first`, `tested against planted errors`, `recomputed
-      independently` (`computed once` removed on multi-run `A2-OW19 v1 -> v2 -> v3`; `referee_a2_ow19`
-      passed on `v1`).
+      `F-OW18-10` & `OW19-F1`): `expectations committed first`, `tested against planted errors`, `recomputed
+      independently` (`computed once` removed; explicitly discloses `relays/a2_ow19_referee/SCRIPT_SHA256.txt`
+      had `5` in-place commits `4560cf557..4ce599eaa` and `OUTPUT_SHA256.txt` had `3` `ef9300e61..54f6bc037`).
     - **`OW19-A` (`2D` Hyperbolic Metric, Polar-Cusp Gauss-Bonnet, `2D` Kahler Overlaps, & Leptogenesis Sign):**
       Exact `35`-dps Fuchsian developing-map metric `e^{2 Omega_hyp(z)}` on `E_{tau_8^+} \ {0}` gives
       `K = -1` to `2.08e-12`, periodicity `<= 2.28e-15`, `b_c^* = pi - L_2 = 0.6264045227`, and
@@ -596,5 +596,33 @@ next push: on main's next message or cross-seat card (0 of 19)
       explicitly pricing all `15` continuous UV dimensionless ratios incl. `lambda_{1..4}(M_X)`, `m_{12}^2/M_X^2`,
       `Re/Im(tau)` + `1` CP bit + `2` broken-antipodal bits). Dated `2026-11-22` travel-everywhere fixes applied
       to `AGY002_A2_OW18_RESULTS.md`, `AGY002_A2_OW19_RESULTS.md`, and `STATUS_AGY-002.md` (`F-OW18-09/10`).
+35. **Independent Zero-Trust Audit & Harvest of `agy-exp` `Card X-E6PS-LINK23` (`dd74b56c1`) & Closure of `Card R-OW19-EX12` (`OW19-F1`..`F3`) (`2026-11-22` — `Card A2-PEER-LINK23`, `0 of 19`):**
+    - Delivered `relays/AGY002_PEER_AUDIT_LINK23_DD74B56C1_AND_OW19_RESPONSE.md` (`pre-registered card 3c5b7de82`;
+      first-run `v1` producer `3bf0b0082` -> `3ebf86af6`, `all_gates_passed = True`, `6 / 6` planted faults, `0`
+      AST `float`/`complex` literals, `0` binary64 casts, `7 / 7` peer manifests & `6 / 6` verbatim quotes matched;
+      disjoint cold-room Bourbaki/period-loop referee `v1` frozen untouched `35430d0f3` -> `e9a15043e`, `v2`
+      `1db5348c8` -> `48b87f675`, `0` theorem-level discrepancies, `6 / 6` referee planted faults, `0` in-place
+      overwrites). Check labels (§ `12`): `computed once` (producer `v1`), `expectations committed first`,
+      `tested against planted errors`, `recomputed independently`.
+    - **Verified `the same` & Harvested from `X-E6PS-LINK23` (`dd74b56c1`):** `351'_H` (`dim 351`, `Tr Q_psi = 0`),
+      `6D` `E_6` quartic factorization (`1/12`, `1/2`), exact `G_LR` `1`/`2`-loop betas (`r_LR = 2/5` chiral `M_g=15`,
+      `8/25` `D`-parity `M_g=21`, `GL4`/`RK4` agree to `2.15e-12`, `2`-loop `B_eff = 0.74912`), `2`-bidoublet
+      projector splitting escaping `V_CKM = I_3`, and `E5` `3x3` pseudoscalar mixing + unsuppressed `s`-wave Majorana
+      `chi_S` annihilation (escaping `OW19-B3`'s `Z'_psi` Planck `p`-wave wall).
+    - **Five Pre-Submission Catches (`differs`, `LINK23-F1`..`F5`) Confirmed in Both `8D` `E_8` & `6x6` Bourbaki `E_6`:**
+      `LINK23-F1` (CRITICAL: `Z_2^{C_psi}` never implemented; unique `r_{u1}` breaks `32/72` `E_6` roots; all `8` valid
+      `H_psi`-flipping sign involutions also invert `H_{B-L}` with fixed Cartan dim `<= 3 < 5`, so `U(1)_psi` cannot
+      be orbifold-projected while keeping `G_LR`); `LINK23-F2` (CRITICAL: `(v_1,v_2,v_3)` leaves `0/27` untwisted &
+      splits `16` into `4` disjoint sectors `[6,6,2,2]`; `S in 27` has `Q_psi=+4 == +1 mod 3` -> `mod-9 = 6 != 0`,
+      while all `5` UV-insensitive `Z_3` anomalies vanish without `chi_S` & `D_3 D_3bar` masses break `Z_3^{tau_3}`);
+      `LINK23-F3` (HIGH: `1`-loop `W_R, Z_R` CW shift on bidoublet `H_{u1,d2}` at `M_LR = e^{19.2} v_EW` is
+      `3.68e+15`–`4.06e+15 v_EW^2`, `6.19e+14` at `v_R = M_LR`, plus `16 pi^2 beta_{lam_{Phi Delta}} = +6 g_{2R}^4`);
+      `LINK23-F4` (HIGH: `40`-dps Chowla-Selberg twisted `6D` `s=3` Casimir under `T^2`-compatible `(v_1+v_2, v_3)`
+      flips untwisted `-6` to `+82.7057` AdS runaway at `tau_*=(2+i)/5`, `-12.5166` at `tau_8`, `-0.9566` at `i`);
+      `LINK23-F5` (MEDIUM: `E4` uses hand-typed toy matrices, `0` Szego code; `E5` `S^3` has `Q_psi=+12` & `Z_3`
+      cosmological domain walls).
+    - **Closed `R-OW19-EX12` (`OW19-F1`..`F3`):** Disclosed `5`/`3` in-place commits on `a2_ow19_referee`, confirmed
+      `OW19-F2` closed in `A2-OW20`, and computed exact `48`-digit Frobenius `bc_star(tau_8^+) = 0.62640452269979635179...`
+      (`0` binary64 casts, matched by disjoint period-loop Taylor referee to `1.10e-34`, confirming `4.5984052e-11`).
 
 0 of 19.
