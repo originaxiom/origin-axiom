@@ -1,0 +1,4 @@
+Pre-output stop at 475d0bcd5 (zero output written; MERGE_BASE_COMMIT had typo suffix beyond 60a52d359 instead of git rev-parse 60a52d359 = 60a52d35963569e453dfe65a39588fdff588f815):
+
+fatal: Invalid revision range 60a52d35959b7d6cd2008b1a23f0d365a8584208..6f285488c49f4bec5354b20df14c9240aa88a009
+subprocess.CalledProcessError: Command '['git', ..., 'log', '--reverse', '--name-status', '--format=COMMIT:%h', '60a52d35959b7d6cd2008b1a23f0d365a8584208..6f285488c49f4bec5354b20df14c9240aa88a009', '--', 'relays']' returned non-zero exit status 128.
