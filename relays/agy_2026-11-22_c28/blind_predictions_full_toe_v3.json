@@ -1,0 +1,74 @@
+{
+  "prediction_bundle_v3": {
+    "cosmology_crv_and_honest_bounds": {
+      "leptogenesis_Y_B_washout_weighted": "0.0000000239136779587706096800065299213",
+      "leptogenesis_eps_1_tau": "0.0000499198193449325573865374965129",
+      "leptogenesis_tau_equil_over_hubble": "7.13824051831745028912890484107",
+      "leptogenesis_washout_K1_tot": "210.230526545374971115065787833",
+      "proton_decay_dim6_mgut_over_vew_pow4": "2.46633455387854668103616284046e+52"
+    },
+    "cp_vacuum_branch": "tau_*^+ = (+2 + i)/5 (selected by holomorphic linear-weave CRV (1 - x) + 8/23 Y_B > 0)",
+    "dimensionful_unit_anchors": 1,
+    "firewall_status": "0 of 19 (strictly data-free; zero empirical constants imported)",
+    "fitted_continuous_parameters": 0,
+    "gravity_11d_d4_hurwitz_sector": {
+      "gn_vew_sq_d4_hurwitz_isotropic": "3.26526865917805483294063926403e-29",
+      "gn_vew_sq_d4_hurwitz_self_dual": "1.25938161075853808322925507459e-27",
+      "m11_over_mgut_zero_knob": "2.49206638386001311221539176241",
+      "mpl_over_vew_d4_hurwitz_isotropic": "175001003907226.536277189365059",
+      "mpl_over_vew_d4_hurwitz_self_dual": "28178724188742.3868045725845073"
+    },
+    "honest_discrete_bits_cp_even_rational": "39/2",
+    "honest_discrete_bits_signed_cp_rational": "41/2",
+    "open_theoretical_boundaries": {
+      "cosmological_constant_b980": "HONEST_NO_GO (7D G_rr = 2 A'(3 A' - 4) forbids untuned Lambda_4 = 0 EWSB shift)",
+      "dark_matter_relic_density": "OPEN (27 = 16_{+1} + 10_{-2} + 1_{+4}; pure Spin(10) (-1)^{3(B-L)} == +1 on 1_{+4} requires explicit Z_2 or 10_{-2} fermion; Omega_DM h^2 uncomputed)",
+      "modular_hilltop_inflation": "HONEST_NO_GO (Fricke hilltop |eta_V| > 1)",
+      "strong_cp_without_7d_cs_axion": "OPEN_NONZERO (raw bar_theta_QCD(tau_*^+) != 0 reported in sm_msbar_at_ew_horizon)",
+      "transverse_d4_2t_volume_modulus": "OPEN (M_11/M_GUT locked; M_Pl/v_EW reported at Hurwitz D_4/2T self-dual and isotropic benchmarks)"
+    },
+    "protocol": "AGY-C28_remediated_full_toe_blind_prediction_v3",
+    "remediation_of": "Card R-AGY-C24 (F-AGY-01 through F-AGY-10)",
+    "sm_1loop_pole_and_2hdm_bosons": {
+      "d3_low_over_e3_pole": "4.46653139247219990367815689245",
+      "d3_pole_over_e3_pole": "4.8310586654996984307075200627",
+      "ewsb_vmin_over_vew4": "-0.0236587778750157817976571873075",
+      "higgs_A0_over_vew": "0.435311124823585628442665783807",
+      "higgs_H0_over_vew": "0.731851050142805661317648399794",
+      "higgs_Hpm_over_vew": "0.701358050829826279985723768612",
+      "higgs_h0_over_vew": "0.434910289699086376137329327544",
+      "mw_over_vew": "0.348230000404491965221529680664",
+      "mz_over_vew": "0.390489476930785166599620171533",
+      "qed_coupling_ir": "0.00790255427678822965587529517757",
+      "strong_coupling_ir": "0.171197591937141423605497675371",
+      "u3_pole_over_vew": "0.667071450460229374837613186377"
+    },
+    "sm_msbar_at_ew_horizon": {
+      "ckm_jarlskog": "0.0196081046771665107701416529486",
+      "ckm_v12": "0.540644532603961683283076531243",
+      "ckm_v13": "0.139581772022580328209297936102",
+      "ckm_v23": "0.329641741801784995754343304097",
+      "d3_over_e3": "4.24558657596914568415681645759",
+      "d_m1_over_m3": "0.0000348353711714724305216018947207",
+      "d_m2_over_m3": "0.0014101110741730529354009913371",
+      "e_m1_over_m3": "0.00000237026126542979115873692488156",
+      "e_m2_over_m3": "0.00304454979234130093894012659509",
+      "electroweak_mix_ratio": "0.204731653203261747144431905356",
+      "gauge_slope_2loop": "1.71802517219151499249929108557",
+      "nu_dm21_sq_over_dm31_sq": "0.00177278049068619659607432243108",
+      "pmns_jarlskog": "0.00998814662713317355579787289443",
+      "pmns_u12": "0.696058471496613105718028500688",
+      "pmns_u13": "0.252319869458945898852312076326",
+      "pmns_u23": "0.625149098703567440660375435979",
+      "quartic_bfb_margin": "0.378991550790350695867079422376",
+      "strong_cp_bar_theta_qcd_raw_rad": "-1.1052566572863202157651620608",
+      "tan_beta_conformal": "0.966074733181539536670948726342",
+      "u3_over_d3": "0.998066756838147583584632299577",
+      "u_m1_over_m3": "0.00000113719436342712902143018627347",
+      "u_m2_over_m3": "0.000816266639513855047779663267305"
+    },
+    "step_halving_exact_N120_vs_N240_max_rel_error": "1.22856305042e-10",
+    "total_numerical_entries": 44
+  },
+  "sha256_payload_digest": "95f321f2828296d0eabc29c6c363ab08ced4544dce0f3adf3966bafa8e893781"
+}
