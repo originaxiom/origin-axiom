@@ -1,0 +1,184 @@
+{
+  "card_id": "A2-PEER-AGY-v4",
+  "seat": "agy-002",
+  "target_branch": "origin/agy/cusp-action-2026-11-20",
+  "target_commit": "0e4506d59",
+  "empirical_inputs": "0 of 19",
+  "peer_agy_1_custody_and_quotes": {
+    "commit_read": "0e4506d59",
+    "commit_count_since_base": 149,
+    "changed_files": 180,
+    "non_relay_edits": 0,
+    "script_sha256_verified": "25/25",
+    "custody_chains_ok": "25/25",
+    "countercheck_producer_imports": 0,
+    "frontier_imports": 0,
+    "py_files_with_float_literals": "48/50",
+    "md_lines_gt_680_files": 0,
+    "md_authority_heading_files": 0,
+    "vendor_hits": 0,
+    "empirical_hits": 0,
+    "v2_json_sha256_verified": true,
+    "quotes_matched": "13/13",
+    "failed_quotes": [],
+    "passed": true
+  },
+  "peer_agy_2_independent_math_checks": {
+    "AGY_C16_collar": {
+      "pure_higgs_z5_separations": 0,
+      "schur_15x15_exact_noncommuting_3x3": true,
+      "collar_30x30_su2_u1_gauge_invariant": true,
+      "singlet_blocks_with_M0": [
+        1,
+        2,
+        5,
+        6,
+        9
+      ],
+      "weyl_10x10_leading_seesaw_exact": true,
+      "passed": true
+    },
+    "AGY_C17_inflow_vol_dterm": {
+      "so6_trR2_equal_trR4_diff": true,
+      "vol_4_1_50dps": "2.02988321281930725004241",
+      "vol_4_1_clausen_err": "4.078315292e-56",
+      "vol_40_cover": "81.195328512772290002",
+      "dterm_quartics_over_g0sq": [
+        "2/5",
+        "2/5",
+        "1/10",
+        "-1/2"
+      ],
+      "passed": true
+    },
+    "AGY_C19_e8_so12_4_mayer": {
+      "det_E6_E7_E8": [
+        3,
+        2,
+        1
+      ],
+      "so12_4_compact_noncompact": [
+        72,
+        48
+      ],
+      "e8_m24_character": -24,
+      "compact_so10_dim_zero_ghosts": 45,
+      "mayer_gauss_telescoping_err": "4.078315292e-56",
+      "passed": true
+    },
+    "AGY_C20_quillen_v5": {
+      "V5_at_tau_plus": "3.313400955403250478841",
+      "cp_mirror_abs_diff": "0.0",
+      "grad_norm_at_tau_plus": "1.545970042e-26",
+      "hyperbolic_laplacian_err_vs_pi": "6.279925477e-27",
+      "det_hess_at_tau_plus": "127.2508147978283",
+      "passed": true
+    },
+    "AGY_C21_level40_toron": {
+      "k_min_z8_x_z5": 40,
+      "Q_A": "3/25",
+      "Q_B": "1/8",
+      "Q_A_lt_Q_B": true,
+      "exp_neg_dS_vs_abs_q_err": "4.078315292e-56",
+      "passed": true
+    },
+    "AGY_C22_mckay_scales": {
+      "order_2T": 24,
+      "order_2I": 120,
+      "2T_subset_2I": true,
+      "index_2I_over_2T": 5,
+      "m11_over_mgut": "3.938639080627257827417",
+      "m11_rel_err_vs_v2": "5.717982225e-31",
+      "mpl_sd_rel_err_vs_v2": "1.027689043e-30",
+      "mpl_iso_rel_err_vs_v2": "4.53078511e-31",
+      "a2_at_m11_sd": "0.0001187357621",
+      "passed": true
+    },
+    "AGY_C23_parity_grr_etav": {
+      "matter_parity_map": {
+        "Q_L (16)": 1,
+        "u_c (16)": 1,
+        "d_c (16)": 1,
+        "L_L (16)": 1.0,
+        "e_c (16)": 1,
+        "nu_c (16)": 1,
+        "H_u/H_d (10H)": 1,
+        "G_SM (45)": 1,
+        "psi_S (1_F)": -1,
+        "D/D_c (10_F)": -1,
+        "Htilde (10_F)": -1
+      },
+      "sm_decay_forbidden": true,
+      "e6_1F_10F_10H_allowed_needs_M_psiS_lt_M_10F": true,
+      "G_rr_symbolic": "6*Derivative(A(r), r)**2 - 8*Derivative(A(r), r) + 1",
+      "G_rr_matches_6Ap2_minus_8Ap_plus_1": true,
+      "eta_V_nK1": "-5.5669136124841",
+      "eta_V_nK3": "-1.855637870828",
+      "passed": true
+    },
+    "AGY_C24_internal_identities": {
+      "sw2_err": "1.619656363e-32",
+      "aem_rel_err": "2.801848596e-30",
+      "passed": true
+    }
+  },
+  "peer_agy_2_all_the_same": true,
+  "peer_agy_3_guardrail_findings": {
+    "F1_strong_cp_literal_zero_and_polar_erasure": {
+      "raw_arg_det_p3_rad": "1.098900662049",
+      "raw_arg_det_p4_rad": "-1.7085910061297",
+      "polar_hermitian_sqrt_arg_det": "7.871887726e-58",
+      "confirmed": true
+    },
+    "F2_c7_L2_interpolator_and_missing_S_ln_z": {
+      "exact_19dig_L2_m8": "2.5151881308899968867",
+      "c7_linear_interp_L2_m8": "2.517052247109742",
+      "abs_err_vs_exact": "0.00186411621975",
+      "rel_err_vs_exact": "0.000741143851965",
+      "missing_S_inversion_offset_at_tau_star": "0.80471895621705",
+      "confirmed": true
+    },
+    "F3_c18_vs_c24_tan_beta_discrepancy": {
+      "c18_approx_tan_beta_in_v2_json": "10.78694292294016",
+      "c23_c24_exact_tan_beta": "10.7818608519",
+      "abs_diff": "0.00508207104",
+      "rel_diff": "0.000471353796",
+      "ratio_to_claimed_R6_budget": "21360.314",
+      "confirmed": true
+    },
+    "F4_hybrid_susy_in_nonsusy_2hdm": {
+      "mr_split_nonsusy_factor1": "0.00070382825863",
+      "mr_split_c23_mssm_factor2": "0.00140820829032",
+      "factor2_over_factor1_ratio": "2.00078396",
+      "mhu2_at_t_ew_with_xi_half": "-0.347998563",
+      "mhu2_at_t_ew_with_xi_zero": "0.2748585114",
+      "dmh2_zero_crossing_t0_xi_half": "-20.75909513",
+      "dmh2_zero_crossing_t0_xi_zero": "NONE (strictly positive homogeneous exponential!)",
+      "t_ew_stopping_horizon": "-30.15928947",
+      "efolds_above_t_ew": "9.400194344",
+      "confirmed": true
+    },
+    "all_quantitative_findings_confirmed": true
+  },
+  "peer_agy_4_planted_faults": {
+    "pf_pa_1_v2_json_tamper": {
+      "detected": true
+    },
+    "pf_pa_2_flip_psi_S_parity": {
+      "detected": true
+    },
+    "pf_pa_3_omit_m40_volume": {
+      "detected": true
+    },
+    "pf_pa_4_zero_S_offset": {
+      "detected": true
+    },
+    "pf_pa_5_bad_section13_quote": {
+      "detected": true
+    },
+    "caught": 5,
+    "total": 5,
+    "passed": true
+  },
+  "all_passed": true
+}
