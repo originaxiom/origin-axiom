@@ -1,9 +1,37 @@
 seat: agy-exp
 read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 2d993276b, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card R-OW20-SYNC GL6/cubic verification of agy-002 A2-OW20 & OW16 v6 (2d993276b) & Appendix B non-commuting ordering mend delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_OW20_SYNC_VERIFICATION_AND_APPENDIX_B_MEND.md (78d5fd410 -> a24cb107a); Card X-E6PS-LINK23 at dd74b56c1; Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card R-OW20-SYNC (a24cb107a), Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
+on: Card X-FLAVOR-LINK4 holomorphic punctured-torus Lefschetz Yukawas, exact antipodal equivalence (p ~ -p), two-orbit rank-3 lifting, and order-6 lepton-down splitting delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_FLAVOR_LINK4_HOLOMORPHIC_PUNCTURED_TORUS_YUKAWAS.md (a82f8c472 -> a1bcfba80 & 4e5425981 -> fe458af8d); Card R-OW20-SYNC at dfbec4909; Card X-E6PS-LINK23 at dd74b56c1; Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-FLAVOR-LINK4 (a1bcfba80 & fe458af8d), Card R-OW20-SYNC (a24cb107a), Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card X-FLAVOR-LINK4` Delivery: Holomorphic Punctured-Torus Lefschetz Yukawas, Exact Antipodal Equivalence ($p \sim -p$), Null-Quaternion Rank-`3` Lifting, & Order-`6` Lepton–Down Splitting (`2026-11-22`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex producer `v5` + disjoint Jacobi-triple-product / $u=0$ contour / `GL6` cold-room referee `v2` (`recomputed independently`, `12/12` planted controls caught):**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_FLAVOR_LINK4_HOLOMORPHIC_PUNCTURED_TORUS_YUKAWAS.md`
+     (`Card` `relays/cards/AGY-EXP_X-FLAVOR-LINK4_holomorphic-punctured-torus-lefschetz-yukawas-antipode-invariance-and-lepton-down-split.md`;
+     prior pre-hashed versions `v1..v4` at `dcd08e9b3`, `6561cbf68`, `57c08018d`, `f1c0abb89 -> d492d1a67` and referee `v1`
+     at `1e6d1271e` preserved untouched; `v5` producer `relays/x_flavor_link4_v5_verify/verify_x_flavor_link4_v5.py`
+     pre-hashed at `a82f8c472` -> unread `verify_x_flavor_link4_v5_out.json` at `a1bcfba80`; disjoint referee `v2`
+     `relays/x_flavor_link4_referee_v2/referee_x_flavor_link4_v2.py` pre-hashed at `4e5425981` -> unread
+     `referee_x_flavor_link4_v2_out.json` at `fe458af8d`; `0` AST `float`/`complex` literals, `0` casts, `0` JSON float tokens).
+   - **Six Simultaneous Closures (`F1..F6` / `REF_FL4_1..6`):** (`1`) Exact weight-`3/2` cancellation
+     $\frac{1}{2\pi i}\partial_\tau\ln[\vartheta_a/(\vartheta_b\vartheta_c)] + E_2/24 \equiv \frac{1}{3\pi i}\partial_\tau\ln[\vartheta_a^2/(\vartheta_b\vartheta_c)]$
+     (`zero E_2 anomaly to 2.19e-47`) and Morera contour $\oint W_f^{\mathrm{hol}}\,d\tau = 0$ to `1.18e-40` (`vs S_tilde 0.735`);
+     (`2`) exact Poincaré-Heisenberg cocycle $W_f^{\mathrm{hol}}(\tau; p+m) = e^{4\pi i(q_L^2+q_R^2)p_a m_b} W_f^{\mathrm{hol}}(\tau; p)$
+     (`explaining why unsymmetrized p_5+p_6 jumps by \zeta_{d,p_6}=e^{2\pi i/3}, shifting CKM by 0.273`) and exact `0`
+     antipodal drift (`0` discrete sign bits, resolving `F-C30-06`/`F-OW18-06`) on both $K_5, K_6$ subgroup averages (`3.44e-48`)
+     and minimal-harmonic $\mathbb{Z}^2$-periodic connections (`0.0`); (`3`) Riemann quartic null-quaternion theorem
+     $\sum_s R_s(\tau;p)^2 \equiv 0 \implies \det W_f^{\mathrm{hol}}(\tau;p) \equiv 0$ (`2.85e-48` across all `48` points of
+     $(E[5]\setminus\{0\})\cup P_6$) vs two-orbit $K_5$ lifting to full rank `3` (`\det\widehat{\mathcal{W}}_u = 8.53e-6`,
+     prod vs Leibniz ref rel diff `7.08e-17`); (`4`) exact number-theoretic tie $q_{-,e}+q_{-,d} = -10 \equiv 0\ (\mathrm{mod}\ 5)$
+     locking $E[5]$ singular values to `2.81e-46` vs automatic order-`6` split $-10 \not\equiv 0\ (\mathrm{mod}\ 6)$ on $K_6$
+     (`87.7%` det split, hierarchical CKM `(0.362, 0.165, 0.0448, J=-0.00222)` with `0` Clebsch parameters, resolving `B1970`'s
+     open lepton-down tie and mixing suppression); (`5`) Killing-orthogonal $\mathrm{Tr}_{\mathbf{16}}(6Y\cdot Q_\chi) = 0$ +
+     $u_3 = 3(B-L)$ lifting all `5` sectors $(W_u, W_d, W_e, W_\nu, W_R)$ to full rank `3`, `SU(3)^5 x U(3)` scrambling `5.25e-46`,
+     and `2`-loop Type-II `2HDM` `GL6(85)` vs `GBS8(90)` agreement `1.26e-12`; (`6`) spin-cover $[0,2]^2$ Kähler Gramian
+     $(2\,\mathrm{Im}\,\tau)^{-1/2}I_3$ (`1.31e-45`, `0` external-leg flavor distortion) reducing all `18` internal `3x3`
+     flavor parameters to `0` at fixed $\tau$ (`integrated in self_consistent_loop/manuscript/main.tex Sec. VIII, Table VI, Fig. 6`).
 
 ## `Card R-OW20-SYNC` Delivery: Third-Integrator (`GL6`) Verification of `agy-002` `A2-OW20` & `OW16 v6` (`2d993276b`) & Appendix B Mend (`2026-11-22`; `0 of 19`)
 
