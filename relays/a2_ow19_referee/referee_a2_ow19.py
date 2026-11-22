@@ -810,12 +810,17 @@ def solve_fuchsian_disjoint_mp(tau_r: mp.mpc) -> dict[str, Any]:
             max(abs(mp.im(Rb[r, c])) for r in range(2) for c in range(2)),
         )
 
+        def rk4_seg_rich(za: mp.mpc, zb: mp.mpc, n_c: int, psi_in: mp.matrix) -> mp.matrix:
+            mc = rk4_segment_mp(wp_mp, c_cur, za, zb, n_c, psi_in)
+            mf = rk4_segment_mp(wp_mp, c_cur, za, zb, 2 * n_c, psi_in)
+            return (16 * mf - mc) / 15
+
         # Interior curvature check K(z_1) = -1 via 2nd-order central Laplacian at z_1 = 3/10 + (1/2)i
         z1 = mp.mpc(mp_rat(3, 10), mp_rat(1, 2))
-        # Path v0 -> (-1/2 + i/2) -> z1 stays far from puncture z=0
+        # Path v0 -> (-1/2 + i/2) -> z1 via Richardson-RK4 to avoid O(h^4) complex basis drift
         z_mid = mp.mpc(mp_rat(-1, 2), mp_rat(1, 2))
-        psi_mid = rk4_segment_mp(wp_mp, c_cur, v0, z_mid, 120, P)
-        psi_z1 = rk4_segment_mp(wp_mp, c_cur, z_mid, z1, 120, psi_mid)
+        psi_mid = rk4_seg_rich(v0, z_mid, 160, P)
+        psi_z1 = rk4_seg_rich(z_mid, z1, 160, psi_mid)
 
         def metric_from_psi(psi_m: mp.matrix) -> mp.mpf:
             imv = mp.im(psi_m[0, 0] * mp.conj(psi_m[0, 1]))
@@ -836,11 +841,6 @@ def solve_fuchsian_disjoint_mp(tau_r: mp.mpc) -> dict[str, Any]:
         curv_err = abs(K_z1 + mp.mpf(1))
 
         # Double periodicity check at z1: z1 -> z1 + 1 and z1 -> z1 + tau_r using Richardson-RK4
-        def rk4_seg_rich(za: mp.mpc, zb: mp.mpc, n_c: int, psi_in: mp.matrix) -> mp.matrix:
-            mc = rk4_segment_mp(wp_mp, c_cur, za, zb, n_c, psi_in)
-            mf = rk4_segment_mp(wp_mp, c_cur, za, zb, 2 * n_c, psi_in)
-            return (16 * mf - mc) / 15
-
         psi_z1_p1 = rk4_seg_rich(z1, z1 + mp.mpc(1), 160, psi_z1)
         psi_z1_ptau = rk4_seg_rich(z1, z1 + tau_r, 240, psi_z1)
         per_1_err = abs(metric_from_psi(psi_z1_p1) - e2om_z1)
