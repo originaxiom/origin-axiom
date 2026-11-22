@@ -750,7 +750,7 @@ def run_module_r6_radius_and_euler_divergence() -> Dict[str, Any]:
         m13 = m13_raw.filled_triangulation()
 
         def find_d5_hom(mf: Any) -> Dict[str, Tuple[int, ...]]:
-            fg = mf.fundamental_group()
+            fg = mf.fundamental_group(False)
             gs = list(fg.generators())
             rs = list(fg.relators())
             d5_els = [tuple((s * x + c) % 5 for x in range(5)) for s in (1, -1) for c in range(5)]

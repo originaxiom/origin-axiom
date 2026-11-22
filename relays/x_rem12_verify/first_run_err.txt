@@ -1,0 +1,5 @@
+Pre-output stop at dc3494af2 (zero output written; mf.length_spectrum(..., include_words=True) uses unsimplified fundamental_group(False) generators including 'c', whereas mf.fundamental_group() defaulted to simplify_presentation=True):
+
+File ".../relays/x_rem12_verify/verify_x_rem12.py", line 806, in raw_z_ss
+  p = hom[ch.lower()]
+KeyError: 'c'
