@@ -1,0 +1,24 @@
+# AGY-C26 Relay: Algebraic, Gauge-Invariance, Anomaly-Inflow, and Crystallographic Remediation of Peer Review Findings F-AGY-02, F-AGY-03, F-AGY-05, F-AGY-08, and F-AGY-09
+
+*Seat: `agy` (`agy/cusp-action-2026-11-20`; `origin/agy/audit-2026-11-02` untouched at `4319f47e2`). Date: `2026-11-22`. Check labels per `docs/seats/README.md` section twelve: `computed once`, `expectations committed first`, `tested against planted errors` (`5` of `5` planted faults caught in producer and `5` of `5` in disjoint self-check). Data-free: `0 of 19`.*
+
+## 1. Non-Destructive Retractions and Scopings (`WORKING_RULES.md` Rule Three)
+
+All historical commits, cards, scripts, and outputs of `AGY-C1` through `AGY-C25` remain untouched in git. Following `agy-exp`'s peer reading `Card R-AGY-C24` (`631bb5859` on `origin/agy/self-consistent-loop-2026-11-11`), we check each item at source and record the following dated retractions and scopings:
+
+1. **`F-AGY-02` & `F-AGY-05` (`AGY-C16` & `AGY-C18`):**
+   - **Retracted:** `C16`'s alternating `(Y_f, Y_f^dag)` `5`-cell chain with sector-dependent `m_kk = sqrt(tr G_f) / eps` (which broke `SU(2)_L` across odd-wall doublets, broke `(S, S, S)` holomorphy, and produced a dimension-`8` `(v_{EW} / M_{KK})^4` operator above EWSB), together with `C16:54`'s Hermitian `sqrt(Y Y^dag)` phase stripping and `C18:166`'s literal `mp.mpf(0)` Strong-CP assignment (`Guardrail 2`).
+2. **`F-AGY-03` (`AGY-C3`, `AGY-C5`, & `AGY-C6`):**
+   - **Retracted:** `C5`'s standalone `v_P` claim (`v_P` alone on `240` roots of `E_8` leaves `dim = 136` `so(16)` and `n_H = 12` doublets in `(10, 6)` with `1`-loop slope `98 / 85`); `C3`'s claim that `rho_T` descends to `SL(2, Z / 40 Z)` (`U_S^4 == -I_3` requires the metaplectic double cover `Mp(2, Z)`); and `C6`'s claim that cyclic meridian covers `X_{4_1}^{(m)}` at even `m in {8, 40}` yield `3` families via meridian kernel while preserving `D_{10}` parity `P` (`max meridian kernel dim = 1`, punctured-torus commutator fixed `dim = 1`, `P^m == +I_5` for even `m`, and pillowcase `(-i) R(pi)` has order `2`).
+3. **`F-AGY-08` & `F-AGY-09` (`AGY-C4`, `AGY-C9`, `AGY-C13`, `AGY-C17`, `AGY-C20`, `AGY-C22`, & `AGY-C23`):**
+   - **Scoped / Corrected:** `V_{Gamma_0(5)}` is scoped strictly to the `2D` worldsheet Ray-Singer determinant with fermion-minus-boson sign `N_F > N_B` (`correcting C4's reversed prose`) at priced equal-sheet weight `r = 1` (`sheet-proportional r = 5 has det Hess < 0`, while `6D -> 4D` bulk KK loops scale as real-analytic Eisenstein `E(tau, 3) ~ y^3`).
+   - **Corrected (`I_8` & `7D` transgression):** `C9`'s chiral `I_8` omits spin-`0` Higgs `10` (`contributing 0`) and carries `-1 / 48 p_1 tr(F^2)` from `A_hat_4 = -p_1 / 24`, while `C17`'s `d Omega_7^{LCS} = tr(R^4)` is scoped to differential transgression (`distinct from pi_7(Spin(7)) = Z quantization`).
+   - **Corrected (`2I / 2T` crystallography & `E_6` singlet):** `C22`'s `[2I : 2T] = 5` is scoped to local `ALE` `C^2 / Gamma` quivers (`tr_{R^4}(g_{10}) = 1 + sqrt(5) not in Z` forbids compact `T^4 / 2I`), compact `2T` acts crystallographically on the Hurwitz `D_4` lattice of covolume `1 / 2` (`orbifold volume (2 pi R)^4 / 48`), and `C23`'s `E_6` branching is `27 = 16_{+1} + 10_{-2} + 1_{+4}` (`pure Spin(10) (-1)^{3(B-L)} == +1` on `1_{+4}`).
+
+## 2. Verified Zero-Float Replacements (`computed once`, `expectations committed first`, `tested against planted errors`)
+
+- **Full `240`-root `E_8` commuting `(v_{Z_2}, w_{WL})` projection (`E1`):** Pairing `T^2 / Z_2` automorphism `v_{Z_2} = (0,0,0, 1/2,1/2, 0, 1/2,1/2)` with priced Cartan Wilson line `w_{WL} = (1/3,1/3,1/3, 1/5,1/5, -1/5, 1/7,2/7)` leaves `8` non-abelian gauge roots (`6` `SU(3)_C` + `2` `SU(2)_L`) and `4` complex `A_z` roots (`n_H = 2` doublets `H_u, H_d` at `Y = +-1/2`, `0` color triplets, `1`-loop slope `9 / 5`; `Control 1` `v_P`-alone `n_H = 12` caught).
+- **`G_{SM}`-invariant dim-`4` holomorphic iso-singlet overlap & raw non-zero Strong-CP (`E2`):** Placing linear `H_{u/d}` solely on Wall `0` and heavy vector-like links on inequivalent iso-singlets `(u^c, d^c, e^c)` gives exact `M_f`-independent Schur complement `H_u y_0 k_f^4` (`operator dimension 4`, `0` `(v_{EW} / M_{KK})^4` suppression, `0` `H^dag` links; `Control 2` caught), while preserving `arg det(Y_f^{eff}) == arg det(Y_f^{(0)})` to `< 10^{-38}` (`SU(3)^3` invariance `< 10^{-38}`) and disclosing non-zero tree-level `bar_theta_{QCD}(tau_*^{+-})` (`OPEN` without a `7D` CS axion; `Control 3` Hermitian stripping caught).
+- **Chiral `I_8(3 x 16_+)` & Hurwitz `D_4 / 2T` crystallography (`E3`):** Verified `4D` anomaly vanishing and exact `6D` coefficients `c(tr_3(F_3^3) F_Y) = 1 / 3`, `c(tr R^4) = 1 / 120`, `-1 / 48 p_1 tr(F^2)`, plus `SL(4, Z)` integrality `B^{-1} L(q) B` across all `24 / 24` Hurwitz `2T` units on `Lambda_{D_4}` (`Controls 4 & 5` caught).
+
+0 of 19.
