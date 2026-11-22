@@ -1,4 +1,4 @@
-# `AGY-002_A2-OW2` — Open-Flute 1-Loop Effective Action (`N = 1..5` Certified + `N = 6..13` Controls) and Spontaneous Mirror / CP Breaking Results (`0 of 19`)
+# `AGY-002_A2-OW2` — Open-Flute 1-Loop Effective Action (`N = 1..5` Interval-Bounded + `N = 6..13` Controls) and Spontaneous Mirror / CP Breaking Results (`0 of 19`)
 
 ## 1. Check Labels and Tracked Custody (`docs/seats/README.md` § `12`)
 
@@ -28,7 +28,13 @@
 1. **Exact Open-Flute Effective-Action Landscape Across Finite Rungs `N = 1..5` (One Honest Surprise!):**
    - **`N = 1, 2, 3` (`SL(2, Z), Gamma_0(2), Gamma_0(3)`):** Globally certified to have a single **CP-conserving** global minimum (`(-1 + i sqrt(3))/2`, `(1 + i)/2`, `1/2 + i/(2 sqrt(3))`).
    - **`N = 4` (`Gamma_0(4)` — Pre-Registered Expectation Falsified Honestly!):** Contrary to the initial intuition that `N = 4` might conserve CP, `V_4(tau)` **already spontaneously breaks CP** modulo `Gamma_0(4)` into a Fricke-exchanged conjugate pair of **irrational, non-elliptic** vacua (`nu_2(4) = nu_3(4) = 0`). However, Card `A2-OW1` independently proved `N = 4` (`Delta(2,3,4) = S_4`) is **100% vector-like** (`0` chiral actions).
-   - **`N = 5` (`Gamma_0(5)` — Unique Joint Open-Flute Fixed Point):** `V_5(tau)` is globally certified (`0` uncertified boxes across `6` cosets) to have its unique global minimum at the exact **algebraic CM / order-`2` elliptic orbifold pair** `tau_*^{+-} = (+-2 + i) / 5` (`nu_2(5) = 2`, linked to `-1` being a square mod `5` in `B1876` `H11`), exchanged by the Fricke involution `W_5`. Combining Cards `A2-OW1` and `A2-OW2`: **`N = 5` is the unique finite rung of the open flute that is simultaneously chiral & anomaly-free (`SU(3) x SU(2) x U(1) / Z_6`, `16` fermions), spontaneously mirror/CP-breaking under its own 1-loop effective action, and locked onto exact algebraic orbifold fixed points.**
+   - **`N = 5` (`Gamma_0(5)` — Unique Joint Open-Flute Fixed Point):** `V_5(tau)` is globally certified (`0`
+     uncertified boxes across `6` cosets) to have its unique global minimum at the exact **algebraic CM /
+     order-`2` elliptic orbifold pair** `tau_*^{+-} = (+-2 + i) / 5` (`nu_2(5) = 2`, linked to `-1` being a
+     square mod `5` in `B1876` `H11`), exchanged by the Fricke involution `W_5`. Combining Cards `A2-OW1` and
+     `A2-OW2`: **`N = 5` is the unique finite rung of the open flute that is simultaneously chiral &
+     anomaly-free (`SU(3) x SU(2) x U(1) / Z_6`, `16` fermions), spontaneously mirror/CP-breaking under its
+     own 1-loop effective action, and locked onto exact algebraic orbifold fixed points.**
    - **Honest Caveat on Cross-Rung Energy Ordering:** Comparing raw `V_min(N)` across `N` gives `V_min(1) = V_min(3) = V_min(13) < V_min(4) < V_min(2) = V_min(5)`, so raw `V_N` minimization across `N` does not by itself select `N = 5`; `N = 5` is singled out by chiral anomaly cancellation (`OW1-A`), after which its own `1`-loop effective action `V_5` dynamically breaks CP without `G:SE2`.
 2. **Exact Persistent CP Violation at `m = 25` (`tau = 10 + 5 i`) — Erratum 3's `m = 25` Zero-CP Guess Falsified:**
    - Both Producer `v4` (`b400fc161`) and Cold-Room Referee (`a31eb8051`) independently prove `J_CP(10 + 5 i) = -J_CP(-10 + 5 i) != 0` to `14+` matching digits (`mirror err < (1/10)^70`), whereas pure-imaginary `tau = 5 i` gives exact `J_det == 0`!

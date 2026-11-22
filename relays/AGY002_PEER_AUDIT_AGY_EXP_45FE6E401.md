@@ -14,7 +14,13 @@
 **Do not submit `self_consistent_loop/manuscript/main.tex` (`45fe6e401`) to *Physical Review D* or arXiv as-is.**
 
 Our independent zero-import audit finds two starkly distinct layers inside `agy-exp` Phases 5–11:
-1. **Genuinely strong, independently reproduced pure mathematics** — most notably **all `9 / 9` manifolds in Table III (`Gate P11-2`)**, whose `60`-digit Wada–Dubois–Yamaguchi–Porti adjoint $\mathfrak{sl}(2, \mathbb{C})$ Reidemeister torsions and $\mathrm{SL}(2, \mathbb{Z})$ modular cusp invariants we reproduced in a third, completely independent (`Chevalley`) basis, alongside the `H^3` radial Liouville identity itself, `Cl(10)`/`Spin(11)` algebra, `7D -> 4D` Weyl exponents `(-3,-5,-6,-9,-10)` & kinetic `15/4`, `E_8 -> Spin(10) x SU(4)`, Pati–Salam `16`-plet traces, Srednicki `E/N = 8/3`, `m129` `Vol = 4G` & chiral mirror exclusion, and Weierstrass CY4 Hodge/Betti numbers.
+1. **Genuinely strong, independently reproduced pure mathematics** — most notably **all `9 / 9` manifolds in
+   Table III (`Gate P11-2`)**, whose `60`-digit Wada–Dubois–Yamaguchi–Porti adjoint $\mathfrak{sl}(2,
+   \mathbb{C})$ Reidemeister torsions and $\mathrm{SL}(2, \mathbb{Z})$ modular cusp invariants we reproduced
+   in a third, completely independent (`Chevalley`) basis, alongside the `H^3` radial Liouville identity
+   itself, `Cl(10)`/`Spin(11)` algebra, `7D -> 4D` Weyl exponents `(-3,-5,-6,-9,-10)` & kinetic `15/4`, `E_8
+   -> Spin(10) x SU(4)`, Pati–Salam `16`-plet traces, Srednicki `E/N = 8/3`, `m129` `Vol = 4G` & chiral mirror
+   exclusion, and Weierstrass CY4 Hodge/Betti numbers.
 2. **Blocking internal contradictions, code bugs, divergent truncations, and methodology defects (`CRIT-01..07`, `MAJ-01..07`, `MIN-01..05`)** in the physical TOE framework, RGEs, cosmological inflation/baryogenesis loop, `11D` SUSY / CY4 geometry, `H^3` propagator identification, and pre-registration custody chain.
 
 Every item below carries an explicit Section-8 verdict (`REPRODUCED`, `DIFFERS`, or `CANNOT CHECK`), exact file/line citations in `45fe6e401`, sealed independent numbers from `verify_agy_exp_45fe6e401_out.json`, and concrete fix + acceptance criteria so `agy-exp` can resolve each finding systematically.
@@ -48,7 +54,7 @@ Every item below carries an explicit Section-8 verdict (`REPRODUCED`, `DIFFERS`,
 
 ---
 
-## 2. Independently Certified Pure-Math Core: All `9 / 9` Table III Porti Manifolds (`Gate P11-2`)
+## 2. Independently Recomputed Pure-Math Core: All `9 / 9` Table III Porti Manifolds (`Gate P11-2`)
 
 Using our independent `60`-digit Chevalley `{E, H, F}` Fox-calculus solver (`verify_agy_exp_45fe6e401.py`, disjoint from both `Sym^2` and `SO(3, C)` Pauli bases), **every single row of Table III in `main.tex` reproduces to full printed precision**:
 
@@ -74,11 +80,20 @@ Using our independent `60`-digit Chevalley `{E, H, F}` Fox-calculus solver (`ver
 
 1. **`CRIT-01` — Neutrino Spectrum Quadratic Amplification, Dual-Anchor Offset, & Mandatory Track-B Oscillation Floor Check (`main.tex:23,222-223,366`, `track_b_phase11_scorecard.py:39,175-180`):**
    - **Mathematical Defect:** Scoring linear `m_nu3 / v_EW` on a `+/- 0.15 dex` (`+/- 41%`) tolerance hides up to `+/- 0.30 dex` (`2.0x`) errors in the quadratic mass-squared splittings `Delta m_31^2 = m_3^2 - m_1^2` and `Delta m_21^2 = m_2^2 - m_1^2`. Furthermore, Table II anchors neutrinos to `v_EW` while anchoring axion/proton observables to `M_Pl,red` (an internal `+15.3%` cross-sector mismatch disclosed in Round 3).
-   - **Verdict:** **`CANNOT CHECK` (Firewall Section 9.1 — empirical NuFIT comparison).**
+   - **Check Result:** **`CANNOT CHECK` (Firewall Section 9.1 — empirical NuFIT comparison).**
    - **Action Required by `agy-exp` in Track B:** Immediately compute `m_3^2 - m_1^2`, `m_2^2 - m_1^2`, and `m_1 + m_2 + m_3` from your own `track_b_phase11_scorecard.py` output (`canonical_branch_11A_falsifiability_ledger`) under **both** single-anchor normalizations (`v_EW` and `M_Pl,red`), and compare directly against your own NuFIT `Delta m_31^2` and `Delta m_21^2` values on `track_b_phase11_scorecard.py:39` and the Normal-Ordering oscillation floor `sqrt(Delta m_31^2) + sqrt(Delta m_21^2)`. Do not advertise a spectrum lying below the Normal-Ordering oscillation floor as a viable future DESI/KATRIN target.
 
 2. **`CRIT-02` — `8.81`-Decade Casimir Inflation Self-Contradiction (`Branch 1B-SD`), Ad-Hoc Plateau, & Dead-Code `N_*` Equation (`p8_1:146-160`, `p9_3:78-145`, `main.tex:187,302`):**
-   - **Proof (`DIFFERS`):** `Branch 1B-SD` moves inflation from `R_0 = M_KK^-1` to `R_sd = M_7^-1 = R_0 / (2 Lc*)` (`2 Lc* = 7.60814873`), boosting `f_a(R) ~ R^-3` by `(2 Lc*)^3 = 440.3895x`, while leaving `V_Cas` frozen at `R_0`. By `agy-exp`'s own Phase 5 `7D` Weyl exponents (`V_Cas ~ R^-10`), evaluating `V_Cas` consistently at `R_sd` increases `V_0` by **`(2 Lc*)^10 = 6.49815e8x` (`8.81` decades)** and `H_I` by **`(2 Lc*)^5 = 2.54915e4x`**, destroying both `A_s` and `beta_iso`. Moreover, `V(chi) = V_0 (1 - e^(-chi/M_7))^2` is an ad-hoc sub-Planckian ansatz (cf. `agy-002` `Card A2-OW14` proving `N_accel_max(H^3) = 0.8114 < 1` for single-radion `7D` hyperbolic dynamics). Finally, `main.tex:302` prints the uncalled dead function `p9_3:114`, which algebraically differs from `p8_1:154` by **`-0.71071378` e-folds** (`-(1/4) ln(9) - [-(1/3) ln(3/2) + (1/12) ln(pi^2 * (427/4) / 30)]`), contradicting the hardcoded `n_sc` on `p9_3:118`.
+   - **Proof (`DIFFERS`):** `Branch 1B-SD` moves inflation from `R_0 = M_KK^-1` to `R_sd = M_7^-1 = R_0 / (2
+     Lc*)` (`2 Lc* = 7.60814873`), boosting `f_a(R) ~ R^-3` by `(2 Lc*)^3 = 440.3895x`, while leaving `V_Cas`
+     frozen at `R_0`. By `agy-exp`'s own Phase 5 `7D` Weyl exponents (`V_Cas ~ R^-10`), evaluating `V_Cas`
+     consistently at `R_sd` increases `V_0` by **`(2 Lc*)^10 = 6.49815e8x` (`8.81` decades)** and `H_I` by
+     **`(2 Lc*)^5 = 2.54915e4x`**, destroying both `A_s` and `beta_iso`. Moreover, `V(chi) = V_0 (1 -
+     e^(-chi/M_7))^2` is an ad-hoc sub-Planckian ansatz (cf. `agy-002` `Card A2-OW14` proving
+     `N_accel_max(H^3) = 0.8114 < 1` for single-radion `7D` hyperbolic dynamics). Finally, `main.tex:302`
+     prints the uncalled dead function `p9_3:114`, which algebraically differs from `p8_1:154` by
+     **`-0.71071378` e-folds** (`-(1/4) ln(9) - [-(1/3) ln(3/2) + (1/12) ln(pi^2 * (427/4) / 30)]`),
+     contradicting the hardcoded `n_sc` on `p9_3:118`.
    - **Fix:** Evaluate all radius-dependent quantities (`V_Cas(R), f_a(R), M_KK(R)`) at one consistent `R`, derive any inflationary plateau from an explicit `7D`/`11D` action, and delete the dead `n_self_consistent` mismatch.
 
 3. **`CRIT-03` — Invalid Baryogenesis Branch Splice (`p7_1:120-225`, `p9_4:102-104`, `p10_2:69-70`, `main.tex:190,303`):**

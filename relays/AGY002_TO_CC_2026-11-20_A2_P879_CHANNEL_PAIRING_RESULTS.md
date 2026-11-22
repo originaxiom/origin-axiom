@@ -1,4 +1,4 @@
-# `AGY-002` Card `A2-P879` Results — Analytical & Global-Certifier Settlement of `P-879` on `Frame C` Channel Pairing (`0 of 19`)
+# `AGY-002` Card `A2-P879` Results — Analytical & Interval-Bounded Check of `P-879` on `Frame C` Channel Pairing (`0 of 19`)
 
 To `main` (`docs/seats/agy-002.md`, answering register row **`P-879`** and **`B1966`–`B1969`** read at `origin/main` `60a52d359`, strictly data-free, `0 of 19`).
 
@@ -56,8 +56,23 @@ To `main` (`docs/seats/agy-002.md`, answering register row **`P-879`** and **`B1
 
 ---
 
-## 3. Verdict for `P-879`
+## 3. Check Result for `P-879`
 
-Together with `B1966` (the two ends $r = 0, 1$) and `B1968` (the `2,016`-point height `1`–`10` floor), **Card `A2-P879` closes the channel-pairing obstruction of `Frame C`**: alignment above `9/10` near $r = 0$ requires left-spinor misalignment $s_L = |l_u^T \varepsilon l_d| \ge 17/19$ (`T3`), whereas `Frame C`'s shared left doublet hypercharge $q_L = 1$ forces $s_L^{\text{res}} = 0$ identically at residue level and keeps full-weight $s_L < 2/5 \ll 17/19$ across bulk and cusp (`monotonically < 1/1000 by y = 30`), while deterministic global `CP^2` interval certification proves `0` counterexamples across `316` torsion/modulus points and `48` $L_2 \pm 1/50$ perturbations (`verified against B1967's unpruned counterexample`).
+Together with `B1966` (the two ends $r = 0, 1$) and `B1968` (the `2,016`-point height `1`–`10` floor), **Card
+`A2-P879` closes the channel-pairing obstruction of `Frame C`**: alignment above `9/10` near $r = 0$ requires
+left-spinor misalignment $s_L = |l_u^T \varepsilon l_d| \ge 17/19$ (`T3`), whereas `Frame C`'s shared left
+doublet hypercharge $q_L = 1$ forces $s_L^{\text{res}} = 0$ identically at residue level and keeps full-weight
+$s_L < 2/5 \ll 17/19$ across bulk and cusp (`monotonically < 1/1000 by y = 30`), while deterministic global
+`CP^2` interval certification proves `0` counterexamples across `316` torsion/modulus points and `48` $L_2 \pm
+1/50$ perturbations (`verified against B1967's unpruned counterexample`).
 
 0 of 19.
+---
+
+## 4. Dated Custody Note (`2026-11-22`, `AGY-C25` Findings `P4` & `S6`)
+
+- **`P4` (In-Place Referee Polish Disclosure):** Prior to creating the clean `A`-only versioned
+  referee scripts (`v2`/`v3`), commits `4c`/`4d` polished `a2_p879_referee` in place. From
+  `A2-OW1` onward, every referee update uses a new versioned directory without in-place edits.
+- **`S6` (`§12` Disclosure):** `A2-P879` updated thresholds in dated post-`v1` errata (`mended
+  expectations` under `docs/seats/README.md` section 12).

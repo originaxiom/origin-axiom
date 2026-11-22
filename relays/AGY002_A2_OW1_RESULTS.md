@@ -25,5 +25,19 @@
 
 ## 3. Core Foundational Findings (`0 of 19`)
 
-1. **The Standard Model Gauge-Matter Engine Does NOT Require `m004`, `G:SE1`, or `G:SE2`:** Across all four finite quotients of the open weave (`Delta(2,3,N)`, `N = 2, 3, 4, 5`) and all `21` faithful transitive `(N, d <= 12, P)` permutation actions, the minimal `5`-point action of the top finite rung `Delta(2,3,5) = A_5` on `A_5 / A_4` is the **unique** chiral, anomaly-free action. Every involution `P in A_5` is forced by even parity to cycle type `[1, 2, 2]` (`a = 3, b = 2`), and its unique maximal dihedral subgroup `D_5 < A_5` (`index 6`, matching `[SL(2, Z) : Gamma_0(5)] = 6`) generates the entire `Gate F-U1` `24`-Weyl `6Y` identity, `Cl(10)` `Berezin`-`CAR` `16`, `SU(3) x SU(2) x U(1) / Z_6` (`dim 12`), and doublet-triplet splitting directly on the open weave with zero hand-picked knot.
-2. **Unblocked `MC:REACH` Refutes `m004`-Uniqueness on Single Threads:** Dropping `G:SE1` and `G:SE2` reveals that `m004` (`b++LR`) is **not** unique among either punctured-torus threads or prime knots in `S^3`: `4` chiral orientable threads (`b++LLLRLR`, `b++LRLRRR`, `b+-LLLLLR`, `b+-LRRRRR`) and `1` non-orientable thread (`b-+LLLLL` = `m024`, which also surjects onto `A_5`) pass `D_5`-trivial-cusp + `2T`, while in `S^3` the chiral hyperbolic knot `8_21` (`det = 15`) passes `D_5` (trivial longitude) + `2T` + `A_5`, and `m003` (`b+-LR`) + `m000` (`b-+L`) pass `2T` with `D_5 = 0`. `m004` is merely the smallest-volume orientable amphichiral representative of an infinite family, whereas the gauge-matter engine itself lives natively on the open weave's top finite rung `A_5`. `0 of 19.`
+1. **The Standard Model Gauge-Matter Engine Does NOT Require `m004`, `G:SE1`, or `G:SE2`:** Across all four
+   finite quotients of the open weave (`Delta(2,3,N)`, `N = 2, 3, 4, 5`) and all `21` faithful transitive `(N,
+   d <= 12, P)` permutation actions, the minimal `5`-point action of the top finite rung `Delta(2,3,5) = A_5`
+   on `A_5 / A_4` is the **unique** chiral, anomaly-free action. Every involution `P in A_5` is forced by even
+   parity to cycle type `[1, 2, 2]` (`a = 3, b = 2`), and its unique maximal dihedral subgroup `D_5 < A_5`
+   (`index 6`, matching `[SL(2, Z) : Gamma_0(5)] = 6`) generates the entire `Gate F-U1` `24`-Weyl `6Y`
+   identity, `Cl(10)` `Berezin`-`CAR` `16`, `SU(3) x SU(2) x U(1) / Z_6` (`dim 12`), and doublet-triplet
+   splitting directly on the open weave with zero hand-picked knot.
+2. **Unblocked `MC:REACH` Refutes `m004`-Uniqueness on Single Threads:** Dropping `G:SE1` and `G:SE2` reveals
+   that `m004` (`b++LR`) is **not** unique among either punctured-torus threads or prime knots in `S^3`: `4`
+   chiral orientable threads (`b++LLLRLR`, `b++LRLRRR`, `b+-LLLLLR`, `b+-LRRRRR`) and `1` non-orientable
+   thread (`b-+LLLLL` = `m024`, which also surjects onto `A_5`) pass `D_5`-trivial-cusp + `2T`, while in `S^3`
+   the chiral hyperbolic knot `8_21` (`det = 15`) passes `D_5` (trivial longitude) + `2T` + `A_5`, and `m003`
+   (`b+-LR`) + `m000` (`b-+L`) pass `2T` with `D_5 = 0`. `m004` is merely the smallest-volume orientable
+   amphichiral representative of an infinite family, whereas the gauge-matter engine itself lives natively on
+   the open weave's top finite rung `A_5`. `0 of 19.`

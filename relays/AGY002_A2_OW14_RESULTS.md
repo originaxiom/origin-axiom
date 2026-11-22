@@ -7,7 +7,24 @@
   - Preserved `v1` Producer (untouched): `relays/a2_ow14/` (`81309c1fd` / `4a0f1fc98`, `ow14_a/c = True`, `ow14_b = False` due to an `A_5` generator typo fixing index `4`)
   - Authoritative `v2` Producer (`all_gates_passed = true`): `relays/a2_ow14_v2/verify_a2_ow14_v2.py` (`c4b1f5560`, `SCRIPT_SHA256 = ebdf1389797bbe312a9b1a13411ee913890727897b9443010790cf603afff8b3`) and `relays/a2_ow14_v2/a2_ow14_v2_results.json` (`d6ee2c158`, `OUTPUT_SHA256 = 8ee32689f299f47f221088770f36415632b3e5df3cc2b5ba6e5d1193cf16cf9c`)
   - Independent Cold-Room Zero-Trust Referee (strictly cold-room sealed unread): `relays/a2_ow14_referee/referee_a2_ow14.py` (`baf83287d`, `SCRIPT_SHA256 = 2b88727df9a2cc162983f99a4849ae05f9d9b0c9b5fb36671bd5edf480c3f11b`) and `relays/a2_ow14_referee/a2_ow14_referee_results.json` (`43fd95262`, `OUTPUT_SHA256 = c7cf995001f6590f7d70532601ec21756314e535d812086810c9e512bf3c2ea0`)
-  - **Cross-Check Verdict:** **`0` producer defects across all `112` compared fields** plus `4 / 4` planted faults (`PF-OW14-1..4`) detected identically. Disjoint referee methods: general `D = d + n` Weyl conformal / `(1 + 6)` ADM extrinsic-curvature reduction (disjoint from `7^3` Christoffel loop), Heaviside partial fractions + `sympy.integrate` + `70`-dps Gauss-Legendre / tanh-sinh quadrature + `scipy` `Radau` `1D` autonomous & `4D` cosmic-time ODEs (disjoint from `DOP853`), manual exact-`QQ` Sturm sequence + `60`-dps bisection/Halley, general `10`-parameter non-diagonal `L D L^T` unimodular metric tensor, and `sympy.combinatorics` `PermutationGroup` census. Max non-ODE discrepancy `<= 5 / 10^18` (JSON serialization floor); `1D Radau` vs `DOP853` `N_accel` matches to `< 2 / 10^15`; `4D Radau` vs `DOP853` `w_min` matches to `0` and `w_late(t = 200)` to `< 5 / 10^12`. *(Cold-room transparency notes: (i) in `referee_a2_ow14.py`, the referee's own `4D` event surface accidentally coded `3 v^2 - 2 V = 0` (`w = -1/2`) rather than `v^2 - V = 0` (`w = -1/3`), causing its sealed `OW14-A.2` flag to trip even though its `1D Radau`, `4D Radau` trajectory, and `70`-dps quadratures all reproduced every `v2` number to `< 5 / 10^12`; the cold-room seal `baf83287d`/`43fd95262` is preserved untouched; (ii) the referee caught a Card line `58` prose arithmetic typo stating `theta_g = 14/6 = 7/3` for traceless `cap = 22, N_gen = 3` whereas BOTH Producer `v2` and Referee compute the exact value `2*(22 - 8)/(21 - 8) = 28/13`; (iii) the referee noted Card line `59` omitted the `A2-OW10` `(max_index <= 12, involution-class)` pairing convention (`21` actions vs `20` unconstrained transitive cosets), while BOTH conventions uniquely select `N = 5, d = 5` (`M_g = 8`) for both caps.)*
+  - **Cross-Check Result:** **`0` producer defects across all `112` compared fields** plus `4 / 4` planted
+    faults (`PF-OW14-1..4`) detected identically. Disjoint referee methods: general `D = d + n` Weyl conformal
+    / `(1 + 6)` ADM extrinsic-curvature reduction (disjoint from `7^3` Christoffel loop), Heaviside partial
+    fractions + `sympy.integrate` + `70`-dps Gauss-Legendre / tanh-sinh quadrature + `scipy` `Radau` `1D`
+    autonomous & `4D` cosmic-time ODEs (disjoint from `DOP853`), manual exact-`QQ` Sturm sequence + `60`-dps
+    bisection/Halley, general `10`-parameter non-diagonal `L D L^T` unimodular metric tensor, and
+    `sympy.combinatorics` `PermutationGroup` census. Max non-ODE discrepancy `<= 5 / 10^18` (JSON
+    serialization floor); `1D Radau` vs `DOP853` `N_accel` matches to `< 2 / 10^15`; `4D Radau` vs `DOP853`
+    `w_min` matches to `0` and `w_late(t = 200)` to `< 5 / 10^12`. *(Cold-room transparency notes: (i) in
+    `referee_a2_ow14.py`, the referee's own `4D` event surface accidentally coded `3 v^2 - 2 V = 0` (`w =
+    -1/2`) rather than `v^2 - V = 0` (`w = -1/3`), causing its sealed `OW14-A.2` flag to trip even though its
+    `1D Radau`, `4D Radau` trajectory, and `70`-dps quadratures all reproduced every `v2` number to `< 5 /
+    10^12`; the cold-room seal `baf83287d`/`43fd95262` is preserved untouched; (ii) the referee caught a Card
+    line `58` prose arithmetic typo stating `theta_g = 14/6 = 7/3` for traceless `cap = 22, N_gen = 3` whereas
+    BOTH Producer `v2` and Referee compute the exact value `2*(22 - 8)/(21 - 8) = 28/13`; (iii) the referee
+    noted Card line `59` omitted the `A2-OW10` `(max_index <= 12, involution-class)` pairing convention (`21`
+    actions vs `20` unconstrained transitive cosets), while BOTH conventions uniquely select `N = 5, d = 5`
+    (`M_g = 8`) for both caps.)*
 
 ---
 
@@ -60,3 +77,15 @@
 - `PF-OW14-2` (flip AdS bulk `c_3 = -1` to dS `c_3 = +1`): **CAUGHT** — positive extrema drop from `1` to `0` (runaway).
 - `PF-OW14-3` (`N_gen = 4`, `M_g = +24` in unimodular FRG): **CAUGHT** — `g_* = -12 pi < 0` (`cap = 23`) and `-6 pi < 0` (`cap = 22`), no physical UV FP.
 - `PF-OW14-4` (omit `lam_s^4` scaling in Kaloper-Padilla): **CAUGHT** — `d(Lam_res) / d(rho_vac) = 1 != 0`.
+---
+
+## 4. Dated Correction (`2026-11-22`, `AGY-C25` Findings `S5` & `S6`)
+
+- **`S5` (Unimodular / KP Status Downgraded to `CONDITIONAL`):** While the algebraic identities
+  `g_* = 4 pi / 5` and `d(Lam_res)/d(rho_vac) = 0` are exact given `det g = -1` or global
+  Kaloper-Padilla variables (`0 < V_4 < infty`), that modified-gravity postulate is imported rather
+  than derived from `A2-OW4`/`A2-OW8`'s general-covariant induced gravity. `A2-OW16 v4` moves
+  `OBS-11` from `DERIVED_EXACT` to `CONDITIONAL_OR_QUALITATIVE` (`CONDITIONAL_GRAVITY_POSTULATE`).
+- **`S6` (Formal Card Erratum Logged):** Sealed card line 58 typo (`7 / 3` instead of exact
+  `2 * (22 - 8) / (21 - 8) = 28 / 13`) is now closed by formal dated card erratum
+  `relays/cards/AGY-002_A2-OW14-ERRATUM-1_traceless-cap22-theta-g-28-13.md` (`71581e83a`).

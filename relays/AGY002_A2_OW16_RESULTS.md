@@ -7,7 +7,7 @@
   - Preserved `v1` Producer (untouched): `relays/a2_ow16/` (`b9cd41bdc`, pre-run script with `OW8`/`OW10`/`OW11` key-name mismatch; no output written)
   - Authoritative `v2` Producer (`all_gates_passed = true`): `relays/a2_ow16_v2/verify_a2_ow16_v2.py` (`5a342492b`, `SCRIPT_SHA256 = 2ee2c8a8c59f57d4c33de0d3b76004e58291cd976ce8a89f0289a5c62d07faa2`) and `relays/a2_ow16_v2/a2_ow16_v2_results.json` (`4c9711427`, `OUTPUT_SHA256 = 4d2635b43d0045d3feabe9a77be4a2fa7edca1016fbd82413ace56f183c5259b`)
   - Independent Cold-Room Zero-Trust Referee (`all_gates_passed = true`, `8 / 8` gates, strictly cold-room sealed unread): `relays/a2_ow16_referee/referee_a2_ow16.py` (`28bb21bed` -> append-only pre-run rev `2` `09a96d703`, `SCRIPT_SHA256 = f2fd52f8c452f2ece82128cc5cb1e918edf82bd8e3991517fffbcd4ee42c8623`) and `relays/a2_ow16_referee/a2_ow16_referee_results.json` (`949664a33`, `OUTPUT_SHA256 = 04f40b5d5f5f202ab6cdc138835bb9df8c5681850de89f88afdf74e390d8f9a7`)
-  - **Cross-Check Verdict:** **`0` mismatches across all `337 / 337` compared fields**, `4 / 4` planted faults (`PF-OW16-1..4`) detected identically, `60 / 60` SHA-256 manifests (`A2-OW1..A2-OW15` producers + referees) verified via chunked streaming SHA-256, `32 / 32` authoritative producer + referee scripts (`A2-OW1..A2-OW16`) verified AST-clean (`0` float/complex literals, `0` `frontier/` imports), and all `10 / 10` cross-card consistency locks independently verified on BOTH the `15` producer JSONs AND the `15` Cold-Room Referee JSONs (`LOCK-7` `Spin(10)` FRG matches to `< 2 / 10^16` rel across producers and `0` across `35` digits between `R11` and `R13`).
+  - **Cross-Check Result:** **`0` mismatches across all `337 / 337` compared fields**, `4 / 4` planted faults (`PF-OW16-1..4`) detected identically, `60 / 60` SHA-256 manifests (`A2-OW1..A2-OW15` producers + referees) verified via chunked streaming SHA-256, `32 / 32` authoritative producer + referee scripts (`A2-OW1..A2-OW16`) verified AST-clean (`0` float/complex literals, `0` `frontier/` imports), and all `10 / 10` cross-card consistency locks independently verified on BOTH the `15` producer JSONs AND the `15` Cold-Room Referee JSONs (`LOCK-7` `Spin(10)` FRG matches to `< 2 / 10^16` rel across producers and `0` across `35` digits between `R11` and `R13`).
 
 ---
 
@@ -62,3 +62,35 @@ Reconciled strictly read-only across `6` non-overlapping physics surfaces (`AGY-
 - `PF-OW16-2` (perturb `A2-OW15` `c_log_total` from `16` to `15`): **CAUGHT** (`LOCK-6` flips `False`).
 - `PF-OW16-3` (duplicate `1` row into `DERIVED_EXACT`): **CAUGHT** (`25 != 24`, `partition_verified = False`).
 - `PF-OW16-4` (omit `lam_0` elimination, `c2 = 4`): **CAUGHT** (`sm_uv_reduction_delta = 0 != 1`).
+---
+
+## 5. Dated Correction & Superseding `v4` Seal (`2026-11-22`, `AGY-C25` `S1`-`S6`)
+
+Superseded on ledger/status classifications by pre-registered erratum
+`relays/cards/AGY-002_A2-OW16-ERRATUM-1_c25-ledger-and-scope-corrections.md` (`71581e83a`),
+producer `relays/a2_ow16_v4/verify_a2_ow16_v4.py` (`14bd80afd` -> `40b36f212`, `0` mends on `v4`),
+and zero-shared-code independent referee `relays/a2_ow16_v4_referee/referee_a2_ow16_v4.py`
+(`ac12217f7` -> `135247ae5`, `0` discrepancies, `66 / 66` SHA-256 manifests, `10 / 10` locks,
+`6 / 6` planted faults caught; check labels: `expectations committed first`, `recomputed independently`,
+`tested against planted errors`):
+
+- **Updated `24`-Observable Partition (`9 / 6 / 6 / 3`):**
+  - `DERIVED_EXACT`: **`9`** (`OBS-01..07`, `OBS-09..10`; down from `11`).
+  - `CONDITIONAL_OR_QUALITATIVE`: **`6`** (`OBS-08` `CONDITIONAL_THRESHOLD` per `S3`; `OBS-11`
+    `CONDITIONAL_GRAVITY_POSTULATE` per `S5`; `OBS-12` `CONDITIONAL_ANSATZ` per `S1`; `OBS-13..15`).
+  - `INTERNAL_WALL_OR_TENSION`: **`6`** (`OBS-16..21`, noting `S2` `10_R = 1H` vs `2H = 10_C` seam
+    and `S1` `m004` `3`-cycle collision).
+  - `OPEN_EXTERNAL_BOUNDARY`: **`3`** (`OBS-22..24`).
+- **Updated Guardrail-5 Continuous SM/UV Ledger (`S3`):**
+  - Without PS threshold (`B(2) = 5 / 9`, non-unified IR `1/alpha ~ (72, 28, 4)`): **`3`** ratios
+    (`g_UV`, `tan(beta)`, `M_R / M_X`; `delta = -1` vs Campaign 1 via `OW13` `lam_0 -> 0`).
+  - With Pati-Salam `B_{eff} = 5 / 7` closure: **`4`** continuous ratios (`g_UV`, `tan(beta)`,
+    `M_R / M_X`, **`M_{PS} / M_X`**; net `delta = 0` vs Campaign 1) plus extra PS scalars outside
+    `16 + 10 + 45` (`(4,1,2)_C`, `(15,1,1)_R`, or `(10,1,3)_C`).
+- **Updated Discrete Flavor Selection Bits (`S1`):** `log_2(6) + log_2(3) = log_2(18) ~ 417 / 100`
+  bits (`6` perms x `3` cusp levels `m_L in {8, 24, 40}`) BEFORE pricing the un-derived `D_{R,f}`
+  ansatz.
+- **Clarified `OBS-02` (`S4`) & `S6`:** `(1, 3)` selection requires `t = 1` hyperbolicity or
+  Euclidean fiber addition (`Cl^0(1,3) ~= Cl^0(3,1)`), `1 of 5` ordered fibered towers (`1 of 48`
+  Cartesian triples); `6` post-`v1` errata cards (`A2-P879`, `A2-OW6`, `A2-OW7`, `A2-OW11`,
+  `A2-OW12`, `A2-OW13`) explicitly logged as `mended expectations` under section 12.

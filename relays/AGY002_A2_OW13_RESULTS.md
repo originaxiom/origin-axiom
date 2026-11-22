@@ -8,7 +8,19 @@
   - Preserved `v1` Producer (untouched): `relays/a2_ow13/` (`e41426620` / `2739f6c7b`, `ow13_a/c/d = True`, `ow13_b = False` on pre-erratum `PS(4,1,2)` `f_xi^{bg}` bracket)
   - Authoritative `v2` Producer (`all_gates_passed = true`): `relays/a2_ow13_v2/verify_a2_ow13_v2.py` (`29c98fe53`, `SCRIPT_SHA256 = b07c6f6561d9501a5b9a8634fdfd7661dfcd882e32b926919dab2666d25b8b9d`) and `relays/a2_ow13_v2/a2_ow13_v2_results.json` (`7d9cf4ec6`, `OUTPUT_SHA256 = 7736b22437716992786e53fcf11fd6d7a4f7545a2b8db4f2700c53849e66af7f`)
   - Independent Cold-Room Zero-Trust Referee (strictly cold-room sealed unread): `relays/a2_ow13_referee/referee_a2_ow13.py` (`05af5ebca`, `SCRIPT_SHA256 = 552369ae7873525a67185c9e953735238a0fe22cb254b82c596249314436fb0e`) and `relays/a2_ow13_referee/a2_ow13_referee_results.json` (`a3327661d`, `OUTPUT_SHA256 = 36b9e684c445d2753b9502e81c738e8c44ba001ad1fe51e9d88b849c63285e3e`)
-  - **Cross-Check Verdict:** **`0` discrepancies across all `221 / 221` compared fields (`169` numeric, `12` exact rational, `40` boolean)** plus `4 / 4` planted faults (`PF-OW13-1..4`) detected identically. Disjoint referee methods: symbolic `sympy.integrate`/`sympy.diff` derivation of `I_litim`, `f_lam`, and `beta_xi^{grav, bg}`, `sympy.real_roots`/`nroots` for all `5` gravity cubics, first-principles `8 x 8` `sympy.hessian` `Tr(H^2)` derivation of `2HDM` quartic beta functions, pure `mpmath` `RK4` (`n = 400/800`) Richardson + `scipy` `Radau` ODE integration (disjoint from `DOP853`), and `sympy.solve`/`simplify` for `C^2 + R^2` and `2H` GW identities. Max non-ODE discrepancy `<= 5 / 10^18` (JSON serialization floor); max ODE relative discrepancy `<= 3 / 10^12`. *(Strict cold-room note: the sealed referee JSON logged `2` extra referee-internal non-Card checks as `false` — an extra downward `g_3(-38)` `RK4(400/800)` error of `~139 / 10^14` vs its self-imposed `< 1/10^12` bar while `Radau` hit `~1 / 10^15`, and `sympy.solve` returning both `+-I` and real positive `4`-th roots because `g2, gp` lacked `positive=True` — while 100% of Card `A2-OW13` criteria and all `221 / 221` producer fields passed with `0` discrepancies; the cold-room seal `05af5ebca` / `a3327661d` is preserved untouched.)*
+  - **Cross-Check Result:** **`0` discrepancies across all `221 / 221` compared fields (`169` numeric, `12`
+    exact rational, `40` boolean)** plus `4 / 4` planted faults (`PF-OW13-1..4`) detected identically.
+    Disjoint referee methods: symbolic `sympy.integrate`/`sympy.diff` derivation of `I_litim`, `f_lam`, and
+    `beta_xi^{grav, bg}`, `sympy.real_roots`/`nroots` for all `5` gravity cubics, first-principles `8 x 8`
+    `sympy.hessian` `Tr(H^2)` derivation of `2HDM` quartic beta functions, pure `mpmath` `RK4` (`n = 400/800`)
+    Richardson + `scipy` `Radau` ODE integration (disjoint from `DOP853`), and `sympy.solve`/`simplify` for
+    `C^2 + R^2` and `2H` GW identities. Max non-ODE discrepancy `<= 5 / 10^18` (JSON serialization floor); max
+    ODE relative discrepancy `<= 3 / 10^12`. *(Strict cold-room note: the sealed referee JSON logged `2` extra
+    referee-internal non-Card checks as `false` — an extra downward `g_3(-38)` `RK4(400/800)` error of `~139 /
+    10^14` vs its self-imposed `< 1/10^12` bar while `Radau` hit `~1 / 10^15`, and `sympy.solve` returning
+    both `+-I` and real positive `4`-th roots because `g2, gp` lacked `positive=True` — while 100% of Card
+    `A2-OW13` criteria and all `221 / 221` producer fields passed with `0` discrepancies; the cold-room seal
+    `05af5ebca` / `a3327661d` is preserved untouched.)*
 
 ---
 
@@ -67,3 +79,17 @@
 - `PF-OW13-2` (flip gauge-box sign in `beta_{lam_1}`): **CAUGHT** — `G_SM 2H` discriminant flips from `< -6` to `> +17`, falsely creating a real root.
 - `PF-OW13-3` (set non-conformal `xi = 5` in `C^2 + R^2` `Spin(10)`): **CAUGHT** — `omega` discriminant plunges to `~ -3786 < 0`, destroying both real UV fixed points.
 - `PF-OW13-4` (couple `y_t = 94/100` to `H_d` GW): **CAUGHT** — `B_GW` flips negative (`m_h^2 / v^2 ~ -281/10^4 < 0`, tachyonic).
+---
+
+## 5. Dated Correction (`2026-11-22`, `AGY-C25` Findings `S2`, `S3`, `S6`)
+
+- **`S2` (`10_R` vs `2H` FRG Seam):** The `Spin(10) real-10` FRG calculation uses `N_S = 10`
+  (`10_R`), which under `-P_{PS}` projects only to `1H` (`4` real scalars), not `2H` (`8` real
+  scalars = `10_C`). Testing `Spin(10)` with `4D` brane `2H` (`N_S = 8`) and bulk `10_C` (`N_S = 20`)
+  under coupled FRG + Casimir stabilization is opened in `A2-OW17`.
+- **`S3` (No-Threshold Non-Unification):** Without an intermediate Pati-Salam threshold, pure `2H`
+  `SM` has `B(2) = 5 / 9 != 5 / 7` and downward RGE lands at non-unified IR couplings
+  `1 / alpha ~ (72, 28, 4)`. Closing `B_{eff} = 5 / 7` adds `M_{PS} / M_X` (`4` continuous SM/UV
+  ratios total in `A2-OW16 v4`).
+- **`S6` (`§12` Disclosure):** `A2-OW13` updated quantitative thresholds in a dated post-`v1`
+  erratum (`mended expectations` under `docs/seats/README.md` section 12).

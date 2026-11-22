@@ -7,7 +7,16 @@
   - Disclosed Erratum committed before authoritative `v2`: `983932f61` (`Erratum 1`: extending the three Whitehead accumulation sequences to `k = 50` for the Neumann-Zagier `O(1 / k^2)` gap `< 1 / 100`). Earlier sealed `v1` (`1621a6c47` / `b9338f983`) is preserved untouched.
   - Authoritative producer `v2` script seal `6ee7c7daf` (`relays/a2_ow3_v2/verify_a2_ow3_v2.py`, `SCRIPT_SHA256.txt`) & unread output seal `2294c03c3` (`relays/a2_ow3_v2/verify_a2_ow3_v2_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`).
 - **recomputed independently:**
-  - Independent Cold-Room Referee built from Card + Erratum 1 alone (zero access to `a2_ow3*` prior to `Commit 4b`), using 3-way exact Catalan `4 G` (`Cl_2(pi / 2)`, Euler, Ramanujan), high-precision `SnapPy` `HP` volumes (`L5a1` and `5^2_1`), full unoriented-isometry deduplicated census (`53` pairwise non-isometric threads vs producer's `91` oriented Lyndon necklaces), exact `Q[w] / (Phi_5)` ring arithmetic, and independent `5`-fold Pauli Jordan-Wigner `32 x 32` `Cl(10)` construction in exact `Z[i]`: script seal `4163ac0a9` (`relays/a2_ow3_referee/referee_a2_ow3.py`, `SCRIPT_SHA256.txt`) & unread output seal `2fcde558a` (`relays/a2_ow3_referee/referee_a2_ow3_out.json`, `OUTPUT_SHA256.txt`; note two trivial `beta = 0` strict-inequality boundary checks in the sealed referee script evaluated `false` where `exp(0) == 1` exact equality holds, while every positive `beta` and every Card `A2-OW3` pass bar corroborated `v2` digit-for-digit).
+  - Independent Cold-Room Referee built from Card + Erratum 1 alone (zero access to `a2_ow3*` prior to `Commit
+    4b`), using 3-way exact Catalan `4 G` (`Cl_2(pi / 2)`, Euler, Ramanujan), high-precision `SnapPy` `HP`
+    volumes (`L5a1` and `5^2_1`), full unoriented-isometry deduplicated census (`53` pairwise non-isometric
+    threads vs producer's `91` oriented Lyndon necklaces), exact `Q[w] / (Phi_5)` ring arithmetic, and
+    independent `5`-fold Pauli Jordan-Wigner `32 x 32` `Cl(10)` construction in exact `Z[i]`: script seal
+    `4163ac0a9` (`relays/a2_ow3_referee/referee_a2_ow3.py`, `SCRIPT_SHA256.txt`) & unread output seal
+    `2fcde558a` (`relays/a2_ow3_referee/referee_a2_ow3_out.json`, `OUTPUT_SHA256.txt`; note two trivial `beta
+    = 0` strict-inequality boundary checks in the sealed referee script evaluated `false` where `exp(0) == 1`
+    exact equality holds, while every positive `beta` and every Card `A2-OW3` pass bar corroborated `v2`
+    digit-for-digit).
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `2294c03c3` and `2fcde558a` (`PF-OW3-1` false `m004` volume uniqueness refuted by `m000` at half volume and `m003` tie; `PF-OW3-2` false pure-volume convergence at `beta = 10` refuted by all `50` Whitehead terms strictly above `exp(-40 G)`; `PF-OW3-3` false Path-A trace variation refuted by constant `+1 / 2` to `< (1/10)^65`; `PF-OW3-4` false `H_u / H_d` cross-coupling refuted by exact `0` entries).
 

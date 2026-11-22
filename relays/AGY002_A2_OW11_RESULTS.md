@@ -8,7 +8,15 @@
   - Independent Cold-Room Referee (`e1d3f2365` / `a9d82818b`) passed `18 / 18` first-principles physics gates with `0` discrepancies on `OW11-A`, all `12` FRG spectra (`56` floats), proton safety, `OW11-C`, and `OW11-D`, and caught a genuine factor-of-2 scalar beta overcount on `2H / (1, 2, 2)_C` (`db_2 = 1 / 3` vs `2 / 3`, required by `SU(2)_L` beta continuity `b_2L = -3` across `M_PS`, and `6D` KK bulk `2H` `55 / 98` vs `5 / 8`).
   - Transparently logged in `Erratum 2` (`7f7ed84f3`); authoritative Producer `v3` script seal `e7be19a4b` (`relays/a2_ow11_v3/verify_a2_ow11_v3.py`, `SCRIPT_SHA256.txt`) & unread output seal `1680fd50c` (`relays/a2_ow11_v3/verify_a2_ow11_v3_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`) match Cold-Room Referee `a9d82818b` with **`0` discrepancies across all fields**.
 - **recomputed independently:**
-  - Independent Cold-Room Referee built from Card `93246dcb0` + `Erratum 1` `d39b7129d` alone (zero access to producer files prior to `Commit 4b`), using disjoint `so(10)` root-system + `32 x 32` `Cl(10)` Jordan-Wigner `16 x 16` spinor matrices (`tr_{16}(F^4)` by direct `16 x 16` matrix `M^4`), `55`-dps Chowla-Selberg `E_3` curvature verification, manual exact-`QQ` Sturm chain + `55`-dps direct 2D Newton-Raphson (zero `polyroots`) + 4th-order Richardson FD Jacobian (`max res < 7 / 10^55`), direct real-representation Cartan weights `Delta b_a = (1 / 6) Tr_R(T_a^2)`, and `4 x 4` Walsh-Hadamard `Z_2 x Z_2` character transform: script seal `e1d3f2365` (`relays/a2_ow11_referee/referee_a2_ow11.py`, `SCRIPT_SHA256.txt`) & unread output seal `a9d82818b` (`relays/a2_ow11_referee/referee_a2_ow11_out.json`, `OUTPUT_SHA256.txt`, **`0` discrepancies vs `v3` `1680fd50c`**).
+  - Independent Cold-Room Referee built from Card `93246dcb0` + `Erratum 1` `d39b7129d` alone (zero access to
+    producer files prior to `Commit 4b`), using disjoint `so(10)` root-system + `32 x 32` `Cl(10)`
+    Jordan-Wigner `16 x 16` spinor matrices (`tr_{16}(F^4)` by direct `16 x 16` matrix `M^4`), `55`-dps
+    Chowla-Selberg `E_3` curvature verification, manual exact-`QQ` Sturm chain + `55`-dps direct 2D
+    Newton-Raphson (zero `polyroots`) + 4th-order Richardson FD Jacobian (`max res < 7 / 10^55`), direct
+    real-representation Cartan weights `Delta b_a = (1 / 6) Tr_R(T_a^2)`, and `4 x 4` Walsh-Hadamard `Z_2 x
+    Z_2` character transform: script seal `e1d3f2365` (`relays/a2_ow11_referee/referee_a2_ow11.py`,
+    `SCRIPT_SHA256.txt`) & unread output seal `a9d82818b` (`relays/a2_ow11_referee/referee_a2_ow11_out.json`,
+    `OUTPUT_SHA256.txt`, **`0` discrepancies vs `v3` `1680fd50c`**).
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `1680fd50c` and `a9d82818b` (`PF-OW11-1` `diag(+1^8, -1^2)` breaks `so(10)` to `dim 29 != 21`; `PF-OW11-2` bulk complex `10` flips `n_B - n_F` to `+4 > 0` AdS destabilizing `tau_*`; `PF-OW11-3` omitting `(3/4)(tr_10 F^2)^2` fails `tr_{16}(F^4)` on `(1,1,0,0,0)`; `PF-OW11-4` `E[2] \ {0}` gives `C_3 = -1 != 0` on all three non-trivial `Z_2 x Z_2` grades).
 
@@ -26,5 +34,30 @@
 
 ## 3. Core Foundational Findings (`0 of 19`)
 
-1. **UV-IR Stitch (`Spin(10) -> Pati-Salam -> G_SM`) Resolves Limp 1:** Explicit `so(10)` orbifold centralizers (`P_PS` + `J_5`) produce `A2-OW8`'s exact `33` massive `X, Y` Proca bosons + doublet-triplet splitting (`10 -> 4 + 6`) while keeping `A2-OW5`'s `7D` Chern-Simons inflow mandatory (`c_{tr_10 F^4} = -1 / 8 != 0`, `c_{tr R^4} = +1 / 120 != 0`). Above `M_X`, `Spin(10)` (`45` gauge bosons) **cures BOTH caveats of `A2-OW10`**, pulling the FRG UV fixed point `~28x` weaker into perturbative coupling (`g_* ~ 25 / 100`, `lam_* > 0`) and surviving **both Type-II and Type-I cutoffs**. Simultaneously, `6D` bulk `Spin(10)` dynamically excludes bulk complex `10` (`+4` AdS, destabilizing `tau_*`) while brane `2H` (`-6`), bulk `2H` (`-2`), and real `10` (`-1`) preserve positive de Sitter `tau_*^{+-}` stabilization and slash bulk `a_0` imbalance up to `68x`. Intermediate Pati-Salam closes exact `B = 5 / 7` unification (`r = 8 / 9, 29 / 33, 11 / 15` with continuous `b_2L = -3`), while `A2-OW8`'s `M_X / M_Pl = sqrt(pi) / 4` suppresses proton decay by `> 3 * 10^10` relative to `M_GUT = M_Pl / 1000`.
+1. **UV-IR Stitch (`Spin(10) -> Pati-Salam -> G_SM`) Resolves Limp 1:** Explicit `so(10)` orbifold
+   centralizers (`P_PS` + `J_5`) produce `A2-OW8`'s exact `33` massive `X, Y` Proca bosons + doublet-triplet
+   splitting (`10 -> 4 + 6`) while keeping `A2-OW5`'s `7D` Chern-Simons inflow mandatory (`c_{tr_10 F^4} = -1
+   / 8 != 0`, `c_{tr R^4} = +1 / 120 != 0`). Above `M_X`, `Spin(10)` (`45` gauge bosons) **cures BOTH caveats
+   of `A2-OW10`**, pulling the FRG UV fixed point `~28x` weaker into perturbative coupling (`g_* ~ 25 / 100`,
+   `lam_* > 0`) and surviving **both Type-II and Type-I cutoffs**. Simultaneously, `6D` bulk `Spin(10)`
+   dynamically excludes bulk complex `10` (`+4` AdS, destabilizing `tau_*`) while brane `2H` (`-6`), bulk `2H`
+   (`-2`), and real `10` (`-1`) preserve positive de Sitter `tau_*^{+-}` stabilization and slash bulk `a_0`
+   imbalance up to `68x`. Intermediate Pati-Salam closes exact `B = 5 / 7` unification (`r = 8 / 9, 29 / 33,
+   11 / 15` with continuous `b_2L = -3`), while `A2-OW8`'s `M_X / M_Pl = sqrt(pi) / 4` suppresses proton decay
+   by `> 3 * 10^10` relative to `M_GUT = M_Pl / 1000`.
 2. **Exact `3 = 4 - 1` Brane-Generation vs. LKP Collision (Resolves Limp 2):** Localizing `3` chiral generations at the `3` non-cusp fixed points `E[2] \ {0}` carries exact Fourier character `C_3 = C_4 - C_1 = -1 != 0` on every non-trivial `Z_2 x Z_2` grade, breaking KK-parity at `O(1)` and causing prompt tree-level LKP decay (`Gamma / M_KK > 1 / 10^3`). Strictly stable `Q = 1` LKP dark matter therefore requires uniform `7D` bulk zero-mode generations (`C_4 = (4, 0, 0, 0)`), not brane-localized `E[2] \ {0}` generations. `0 of 19.`
+---
+
+## 4. Dated Correction (`2026-11-22`, `AGY-C25` Findings `S2`, `S3`, `S6`)
+
+- **`S2` (`10_R = 1H` vs `2H = 10_C` Orbifold Seam):** Under `-P_{PS} = diag(-1^6, +1^4)`, a real
+  `10_R` (`N_S = 10`) yields only `4` real even scalars (`1H`), NOT the `8` real scalars (`2H` =
+  `H_u, H_d` = complex `10_C`) required by `A2-OW3`, `A2-OW8`, and `A2-OW13`. Because `OW11-A`
+  excludes bulk `10_C` (`+4` AdS, destabilizing `tau_*`), realizing `2H` requires `4D` brane `2H`
+  (`-6` bulk) or bulk `2H` (`-2`), not bulk `10_R` alone (probed directly in `A2-OW17`).
+- **`S3` (Guardrail-5 `M_{PS} / M_X` & Extra PS Scalars):** Closing `B_{eff} = 5 / 7` imports extra
+  Pati-Salam scalars outside `16 + 10 + 45` (`(4,1,2)_C`, `(15,1,1)_R`, or `(10,1,3)_C`) plus the
+  continuous threshold ratio `M_{PS} / M_X`; `A2-OW16 v4` reclassifies `OBS-08` from `DERIVED_EXACT`
+  to `CONDITIONAL_OR_QUALITATIVE` (`CONDITIONAL_THRESHOLD`) and counts `M_{PS} / M_X` explicitly.
+- **`S6` (`§12` Disclosure):** `A2-OW11` updated quantitative thresholds in dated post-`v1` errata
+  (`mended expectations` under `docs/seats/README.md` section 12).

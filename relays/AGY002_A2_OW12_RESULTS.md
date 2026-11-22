@@ -6,7 +6,16 @@
   - Card commit `f9fa85bc7`: `relays/cards/AGY-002_A2-OW12_strong-cp-neutrino-seesaw-leptogenesis-and-7d-bulk-ratios.md`.
   - Preserved `v1` (`4a163a1ae` / `16de1c72d`) logged `Erratum 1` (`3d182b379`: `float64` `L_2` mirror tolerance, `M_R -> U_nu^* M_R U_nu^dagger` congruence fix, and all-6 `y_mu / y_s < 5 / 100` bound); preserved `v2` (`b4a768f5d`) hit an `mpmath` `.conj()` typo before producing output; authoritative Producer `v3` script seal `96dba7092` (`relays/a2_ow12_v3/verify_a2_ow12_v3.py`, `SCRIPT_SHA256.txt`) & unread output seal `c24dcc23f` (`relays/a2_ow12_v3/verify_a2_ow12_v3_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`).
 - **recomputed independently:**
-  - Independent Cold-Room Referee built from Card `f9fa85bc7` + `Erratum 1` `3d182b379` alone (zero access to `relays/a2_ow12*` prior to `Commit 4b`), using disjoint `55`-dps GL6 order-`20` Fuchsian `L_2` integration + branch-cut-free `mpmath.jtheta`, `mp.svd_c` Autonne-Takagi polar phase extraction (zero `mp.eigh`), complex Ginibre Householder-QR Mezzadri Haar `U(3)` / `SU(3)` samplers, and `sympy.Rational` `E / N` & `T_{3R}` checks: script seal `9d3f39231` (`relays/a2_ow12_referee/referee_a2_ow12.py`, `SCRIPT_SHA256.txt`) & unread output seal `c41b07f40` (`relays/a2_ow12_referee/referee_a2_ow12_out.json`, `OUTPUT_SHA256.txt`, **`0` discrepancies across all `90+` numerical, rational, and boolean fields**, noting that the referee's `E[5]+E[6]`-averaged `(0,0)` scale differs from `v3`'s raw single overlap by the exact positive real constant `w_3 / 6 + w_4 / 7`, canceling identically from all mass ratios, PMNS angles, `J_PMNS`, and `epsilon_1`).
+  - Independent Cold-Room Referee built from Card `f9fa85bc7` + `Erratum 1` `3d182b379` alone (zero access to
+    `relays/a2_ow12*` prior to `Commit 4b`), using disjoint `55`-dps GL6 order-`20` Fuchsian `L_2` integration
+    + branch-cut-free `mpmath.jtheta`, `mp.svd_c` Autonne-Takagi polar phase extraction (zero `mp.eigh`),
+    complex Ginibre Householder-QR Mezzadri Haar `U(3)` / `SU(3)` samplers, and `sympy.Rational` `E / N` &
+    `T_{3R}` checks: script seal `9d3f39231` (`relays/a2_ow12_referee/referee_a2_ow12.py`,
+    `SCRIPT_SHA256.txt`) & unread output seal `c41b07f40` (`relays/a2_ow12_referee/referee_a2_ow12_out.json`,
+    `OUTPUT_SHA256.txt`, **`0` discrepancies across all `90+` numerical, rational, and boolean fields**,
+    noting that the referee's `E[5]+E[6]`-averaged `(0,0)` scale differs from `v3`'s raw single overlap by the
+    exact positive real constant `w_3 / 6 + w_4 / 7`, canceling identically from all mass ratios, PMNS angles,
+    `J_PMNS`, and `epsilon_1`).
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `c24dcc23f` and `c41b07f40` (`PF-OW12-1` anomalous `U(1)_A` phase `exp(i / 2) I_3` shifts `arg det(Y_u Y_d)` by exact `+3 / 2`; `PF-OW12-2` real `Re(Y_nu), Re(M_R^{(00)})` kills leptogenesis `|epsilon_1^{norm}| < 1 / 10^49`; `PF-OW12-3` wrong quark twist `Y_u` inflates `M_R = I_3` `dm21 / dm31` from `~6 / 1000` to `> 34 / 100`; `PF-OW12-4` omitting `e^c` shifts `E / N` from `8 / 3` to `13 / 6`).
 
@@ -23,5 +32,20 @@
 
 ## 3. Core Foundational Findings (`0 of 19`)
 
-1. **Strong CP Wall Exposed & `7D` CS Axion Escape (`X6`):** Before spontaneous CP breaking (`tau_CP = 8 i / sqrt(5)`), `bar_theta_Q = 0` identically (`< 1 / 10^53`). At the Casimir-stabilized vacuum `tau_*^+ = (2 + i) / 5`, `E[5]` (`> +9 / 10`) and `E[6]` (`< -6 / 10`) partially cancel to `bar_theta_Q ~ +156 / 10^4 rad` (`m_L = 8`, `-9 / 10 rad` at `m = 24`) — invariant under `SU(3)^3` and positive `eps_f` scaling, and too large by `8` orders of magnitude absent Peccei-Quinn relaxation (since `Re(tau)` is Casimir-heavy `e_1 > 61`). `A2-OW5` / `A2-OW11`'s forced `7D` Chern-Simons inflow supplies a canonical GUT axion with exact `Spin(10)` anomaly ratio **`E / N = 8 / 3`**.
-2. **Zero-Parameter `eps_nu = 1` Neutrino Seesaw & Thermal Leptogenesis (`X7` & `COSMOLOGY_LEDGER` Row 6):** Applying `A2-OW7`'s exact bulk localization law to `nu^c` (`|6 Y_R| = 0 -> eps_nu = 1`) with true lepton twist `w_L = -3, w_R = 0` yields: (i) under canonical `(0,0)-(0,0)` symmetric Majorana overlap `M_R^{(00)}`, normal-ordering **`Delta m^2_21 / Delta m^2_31 ~ 269 / 10^4`**, universal large atmospheric mixing **`sin^2(theta_23) > 56 / 100` across all `6 / 6` permutations**, and **normalized Fukugita-Yanagida leptogenesis CP asymmetry `epsilon_1^{norm}(tau_*^+) ~ +545 / 10^8`** (flipping sign identically at `tau_*^-`, making the `Z_2` vacuum choice the literal matter-vs-antimatter switch!); while (ii) honestly logging the remaining quantitative flavor tensions (`sin^2(theta_12)` vs `sin^2(theta_23)` permutation trade-off between `M_R = I_3` and `M_R^{(00)}`, and `e / mu` over-steepness `y_mu / y_s < 5 / 100` from `|6 Y_R(e^c)| = 6` despite `b-tau` proximity `y_tau / y_b ~ 93 / 100`). `0 of 19.`
+1. **Strong CP Wall Exposed & `7D` CS Axion Escape (`X6`):** Before spontaneous CP breaking (`tau_CP = 8 i /
+   sqrt(5)`), `bar_theta_Q = 0` identically (`< 1 / 10^53`). At the Casimir-stabilized vacuum `tau_*^+ = (2 +
+   i) / 5`, `E[5]` (`> +9 / 10`) and `E[6]` (`< -6 / 10`) partially cancel to `bar_theta_Q ~ +156 / 10^4 rad`
+   (`m_L = 8`, `-9 / 10 rad` at `m = 24`) — invariant under `SU(3)^3` and positive `eps_f` scaling, and too
+   large by `8` orders of magnitude absent Peccei-Quinn relaxation (since `Re(tau)` is Casimir-heavy `e_1 >
+   61`). `A2-OW5` / `A2-OW11`'s forced `7D` Chern-Simons inflow supplies a canonical GUT axion with exact
+   `Spin(10)` anomaly ratio **`E / N = 8 / 3`**.
+2. **Zero-Parameter `eps_nu = 1` Neutrino Seesaw & Thermal Leptogenesis (`X7` & `COSMOLOGY_LEDGER` Row 6):**
+   Applying `A2-OW7`'s exact bulk localization law to `nu^c` (`|6 Y_R| = 0 -> eps_nu = 1`) with true lepton
+   twist `w_L = -3, w_R = 0` yields: (i) under canonical `(0,0)-(0,0)` symmetric Majorana overlap
+   `M_R^{(00)}`, normal-ordering **`Delta m^2_21 / Delta m^2_31 ~ 269 / 10^4`**, universal large atmospheric
+   mixing **`sin^2(theta_23) > 56 / 100` across all `6 / 6` permutations**, and **normalized Fukugita-Yanagida
+   leptogenesis CP asymmetry `epsilon_1^{norm}(tau_*^+) ~ +545 / 10^8`** (flipping sign identically at
+   `tau_*^-`, making the `Z_2` vacuum choice the literal matter-vs-antimatter switch!); while (ii) honestly
+   logging the remaining quantitative flavor tensions (`sin^2(theta_12)` vs `sin^2(theta_23)` permutation
+   trade-off between `M_R = I_3` and `M_R^{(00)}`, and `e / mu` over-steepness `y_mu / y_s < 5 / 100` from `|6
+   Y_R(e^c)| = 6` despite `b-tau` proximity `y_tau / y_b ~ 93 / 100`). `0 of 19.`

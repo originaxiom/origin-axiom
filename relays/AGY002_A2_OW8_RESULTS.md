@@ -6,7 +6,16 @@
   - Card commit `8276d9608`: `relays/cards/AGY-002_A2-OW8_conformal-finite-gravity-and-2hdm-radiative-transmutation.md`.
   - Producer script seal `113835d9c` (`relays/a2_ow8/verify_a2_ow8.py`, `SCRIPT_SHA256.txt`) & unread output seal `c9bc883c0` (`relays/a2_ow8/verify_a2_ow8_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`, first-shot pass, `0` errata).
 - **recomputed independently:**
-  - Independent Cold-Room Referee built from Card `8276d9608` alone (zero access to `relays/a2_ow8/` prior to `Commit 4b`), using disjoint exact `mp.e1` exponential integral + Gauss-Laguerre quadrature, exact rational Bernoulli / Hurwitz-zeta Euler-Maclaurin `S^4` Proca heat-kernel expansion (matching `50`-dps spectral sums to `< 2 / 10^28`), symbolic `sympy` derivation of all Type-II 2HDM quartic trace betas, and disjoint adaptive `DOP853` + `Radau` ODE solvers (`diff < 6 / 10^12`): script seal `7c7403c86` (`relays/a2_ow8_referee/referee_a2_ow8.py`, `SCRIPT_SHA256.txt`) & unread output seal `b4eaabb5f` (`relays/a2_ow8_referee/referee_a2_ow8_out.json`, `OUTPUT_SHA256.txt`, **`0` substantive discrepancies across all `74` cross-checked fields**, noting a benign `1`-step RK4 offset `< 2 / 10^4` on the uninterpolated `lam2_Hu_at_crossing` diagnostic while `log10(mu_GW / M_UV)` matches to all `6` printed decimals).
+  - Independent Cold-Room Referee built from Card `8276d9608` alone (zero access to `relays/a2_ow8/` prior to
+    `Commit 4b`), using disjoint exact `mp.e1` exponential integral + Gauss-Laguerre quadrature, exact
+    rational Bernoulli / Hurwitz-zeta Euler-Maclaurin `S^4` Proca heat-kernel expansion (matching `50`-dps
+    spectral sums to `< 2 / 10^28`), symbolic `sympy` derivation of all Type-II 2HDM quartic trace betas, and
+    disjoint adaptive `DOP853` + `Radau` ODE solvers (`diff < 6 / 10^12`): script seal `7c7403c86`
+    (`relays/a2_ow8_referee/referee_a2_ow8.py`, `SCRIPT_SHA256.txt`) & unread output seal `b4eaabb5f`
+    (`relays/a2_ow8_referee/referee_a2_ow8_out.json`, `OUTPUT_SHA256.txt`, **`0` substantive discrepancies
+    across all `74` cross-checked fields**, noting a benign `1`-step RK4 offset `< 2 / 10^4` on the
+    uninterpolated `lam2_Hu_at_crossing` diagnostic while `log10(mu_GW / M_UV)` matches to all `6` printed
+    decimals).
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `c9bc883c0` and `b4eaabb5f` (`PF-OW8-1` flipped mass-insertion sign gives repulsive `c_log = -16 < 0`; `PF-OW8-2` `M_R = 10 M_X > sqrt(33) M_X` gives `c_log = -67 / 2 < 0`; `PF-OW8-3` wrong `k_Y = 1` shifts `B(2H)` from `5 / 9` to `2 / 5`; `PF-OW8-4` equal `y_b = y_t = 3 / 5` forces both `lam_1(IR), lam_2(IR) > 0`, killing `H_d` radiative EWSB).
 
@@ -24,5 +33,20 @@
 
 ## 3. Core Foundational Findings (`0 of 19`)
 
-1. **Attractive Finite / Logarithmic 4D Gravity at Exact Conformal Coupling (`xi = 1 / 6`):** Even when `A2-OW4`'s conformal-Higgs vacuum cancels the quadratic Planck divergence identically (`48*(1/6) + 12*(-2/3) = 0`), the subleading logarithmic mass-insertion term `1 / (16 pi G_ind) = (1 / (32 pi^2)) sum_i (-w_i) M_i^2 ln(Lambda^2 / M_i^2)` has opposite sign to the quadratic term: fermions are repulsive (`-1 / 6`), conformal scalars vanish (`0`), and **massive Proca gauge vectors are attractive (`+1 / 2`)**. Across `A2-OW3`'s `Spin(10) -> G_SM` breaking (`33` massive `X, Y` vectors vs `3` heavy `nu^c` fermions), `c_log = +16 > 0` guarantees **strictly attractive finite 4D gravity for every `M_R / M_X < sqrt(33)`**, tying `M_Pl` directly to `M_X` (`M_Pl / M_X = 4 / sqrt(pi)` at `ln(Lambda^2 / M_X^2) = 2`), whereas an EW-scale-only threshold is repulsive (`c_log_ew < 0`).
-2. **Conformal `2H` Type-II 2HDM Radiative EWSB Transmutation (Impossible in `1H` SM):** Under `k_Y = 5 / 3`, `A2-OW3`'s forced `2H` (`X:HOL`) improves `B(n_H)` from `115 / 218` to `5 / 9` (still `< 5 / 7` without intermediate thresholds). Crucially, starting from conformal `lambda(M_UV) = 0`, `1H` SM drives `lambda(IR) > 17 / 100 > 0` (no radiative EWSB), whereas **`2H` Type-II 2HDM automatically stabilizes `H_u` (`lam_2 > 34 / 100 > 0`) while radiatively destabilizing `H_d` (`lam_1 < -9 / 100 < 0`)** whenever `y_b << y_t`, generating up to `14` decades of exponential Gildener-Weinberg hierarchy (`mu_GW / M_UV ~ 1 / 10^14` at `lam_0 = 1 / 20`) — while honestly pricing `g_UV`, `lam_0`, `tan(beta)`, and `M_R / M_X` as remaining continuous inputs under Guardrail 5. `0 of 19.`
+1. **Attractive Finite / Logarithmic 4D Gravity at Exact Conformal Coupling (`xi = 1 / 6`):** Even when
+   `A2-OW4`'s conformal-Higgs vacuum cancels the quadratic Planck divergence identically (`48*(1/6) +
+   12*(-2/3) = 0`), the subleading logarithmic mass-insertion term `1 / (16 pi G_ind) = (1 / (32 pi^2)) sum_i
+   (-w_i) M_i^2 ln(Lambda^2 / M_i^2)` has opposite sign to the quadratic term: fermions are repulsive (`-1 /
+   6`), conformal scalars vanish (`0`), and **massive Proca gauge vectors are attractive (`+1 / 2`)**. Across
+   `A2-OW3`'s `Spin(10) -> G_SM` breaking (`33` massive `X, Y` vectors vs `3` heavy `nu^c` fermions), `c_log =
+   +16 > 0` guarantees **strictly attractive finite 4D gravity for every `M_R / M_X < sqrt(33)`**, tying
+   `M_Pl` directly to `M_X` (`M_Pl / M_X = 4 / sqrt(pi)` at `ln(Lambda^2 / M_X^2) = 2`), whereas an
+   EW-scale-only threshold is repulsive (`c_log_ew < 0`).
+2. **Conformal `2H` Type-II 2HDM Radiative EWSB Transmutation (Impossible in `1H` SM):** Under `k_Y = 5 / 3`,
+   `A2-OW3`'s forced `2H` (`X:HOL`) improves `B(n_H)` from `115 / 218` to `5 / 9` (still `< 5 / 7` without
+   intermediate thresholds). Crucially, starting from conformal `lambda(M_UV) = 0`, `1H` SM drives `lambda(IR)
+   > 17 / 100 > 0` (no radiative EWSB), whereas **`2H` Type-II 2HDM automatically stabilizes `H_u` (`lam_2 >
+   34 / 100 > 0`) while radiatively destabilizing `H_d` (`lam_1 < -9 / 100 < 0`)** whenever `y_b << y_t`,
+   generating up to `14` decades of exponential Gildener-Weinberg hierarchy (`mu_GW / M_UV ~ 1 / 10^14` at
+   `lam_0 = 1 / 20`) — while honestly pricing `g_UV`, `lam_0`, `tan(beta)`, and `M_R / M_X` as remaining
+   continuous inputs under Guardrail 5. `0 of 19.`

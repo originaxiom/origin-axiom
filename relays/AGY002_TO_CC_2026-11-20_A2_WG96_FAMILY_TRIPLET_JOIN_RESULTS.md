@@ -57,6 +57,13 @@ Both Producer `v3` (`58 s`) and the independent Cold-Room Referee (`757 s`) agre
 
 ---
 
-## 3. Verdict for `CLOSURE_QUEUE.md` Row `E:J5`
+## 3. Check Result for `CLOSURE_QUEUE.md` Row `E:J5`
 
-**`E:J5` is settled across all three outcomes on `origin/agy-002/verify` (`0 of 19`):** fixed single torsion Wilson line $w_0 \neq 0$ (`Candidate I`) realizes **`Outcome [3]`** (`thread-selecting`); untwisted Level-`3` odd-spin `(1/2, 1/2)` `CIM` modes at $w_0 = 0$ (`Candidate II`) realize **`Outcome [2]`** (`2 + 1` split, `(M_S^{CIM})^2` parity `[-1, -1, 1]`, `0` overlap across all `24` twists); and the `Gate F-U2` `24`-pt $E[5]\setminus\{0\}$ orbit-summed covariant spin modes `(Q_J, Q_I, Q_K)` (`Candidate III`) keep `B_3 = <L, R>` (`L/R` drift `< 4 * 10^{-28}`) and carry **`Outcome [1]`** canonically — realizing **`W:\overline{T}` (`H_Q < 0`) at `k = 0` (`S` reading)** and **`W:T` (`H_Q > 0`) at `k = 18` (`\tilde{S}` reading)** inside $\mathrm{U}(3)$, with `B1736` `\det = 1` quotienting `C_4` to `{72, 72, 24}` (`S_4`). `0 of 19.`
+**`E:J5` is settled across all three outcomes on `origin/agy-002/verify` (`0 of 19`):** fixed single torsion
+Wilson line $w_0 \neq 0$ (`Candidate I`) realizes **`Outcome [3]`** (`thread-selecting`); untwisted Level-`3`
+odd-spin `(1/2, 1/2)` `CIM` modes at $w_0 = 0$ (`Candidate II`) realize **`Outcome [2]`** (`2 + 1` split,
+`(M_S^{CIM})^2` parity `[-1, -1, 1]`, `0` overlap across all `24` twists); and the `Gate F-U2` `24`-pt
+$E[5]\setminus\{0\}$ orbit-summed covariant spin modes `(Q_J, Q_I, Q_K)` (`Candidate III`) keep `B_3 = <L, R>`
+(`L/R` drift `< 4 * 10^{-28}`) and carry **`Outcome [1]`** canonically — realizing **`W:\overline{T}` (`H_Q <
+0`) at `k = 0` (`S` reading)** and **`W:T` (`H_Q > 0`) at `k = 18` (`\tilde{S}` reading)** inside
+$\mathrm{U}(3)$, with `B1736` `\det = 1` quotienting `C_4` to `{72, 72, 24}` (`S_4`). `0 of 19.`

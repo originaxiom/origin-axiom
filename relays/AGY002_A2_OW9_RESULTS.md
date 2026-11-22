@@ -6,7 +6,17 @@
   - Card commit `f089a2d82`: `relays/cards/AGY-002_A2-OW9_kk-tower-cosmological-constant-and-dark-matter-stabilizer.md`.
   - Producer script seal `1bad6bc3a` (`relays/a2_ow9/verify_a2_ow9.py`, `SCRIPT_SHA256.txt`) & unread output seal `c33fc2a72` (`relays/a2_ow9/verify_a2_ow9_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`, first-shot pass, `0` errata).
 - **recomputed independently:**
-  - Independent Cold-Room Referee built from Card `f089a2d82` alone (zero access to `relays/a2_ow9/` prior to `Commit 4b`), using strictly disjoint `8 x 8` `sympy` `6D` Clifford algebra + `2 x 2` KK Stueckelberg projectors (`OW9-A1`), `55`-dps Ewald / Terras incomplete-Gamma splitting (zero Chowla-Selberg / Bessel `K`) + `mp.quad` proper-time quadrature + 4th-order Richardson Hessian + `6`-start `2D` Nelder-Mead & damped Newton (`OW9-A2`), explicit `60`-element `PSL(2, F_5) = SL(2, F_5) / {+-I}` matrix-group simplicity proof + bottom-up DP multiset & Young/Dynkin `SU(3)` operator enumerator (`OW9-B1`), and direct `{L, R, J}` generator-tree enumeration cross-checked against Gauss narrow class numbers `h^+(D)` (`OW9-B2`): script seal `cade95d0c` (`relays/a2_ow9_referee/referee_a2_ow9.py`, `SCRIPT_SHA256.txt`) & unread output seal `f9f8be537` (`relays/a2_ow9_referee/referee_a2_ow9_out.json`, `OUTPUT_SHA256.txt`, **`0` discrepancies across all integer counts, operator multisets, `547`-thread `GL(2, F_2)` cycle census, planted faults, and `14–20`-digit numerical fields**).
+  - Independent Cold-Room Referee built from Card `f089a2d82` alone (zero access to `relays/a2_ow9/` prior to
+    `Commit 4b`), using strictly disjoint `8 x 8` `sympy` `6D` Clifford algebra + `2 x 2` KK Stueckelberg
+    projectors (`OW9-A1`), `55`-dps Ewald / Terras incomplete-Gamma splitting (zero Chowla-Selberg / Bessel
+    `K`) + `mp.quad` proper-time quadrature + 4th-order Richardson Hessian + `6`-start `2D` Nelder-Mead &
+    damped Newton (`OW9-A2`), explicit `60`-element `PSL(2, F_5) = SL(2, F_5) / {+-I}` matrix-group simplicity
+    proof + bottom-up DP multiset & Young/Dynkin `SU(3)` operator enumerator (`OW9-B1`), and direct `{L, R,
+    J}` generator-tree enumeration cross-checked against Gauss narrow class numbers `h^+(D)` (`OW9-B2`):
+    script seal `cade95d0c` (`relays/a2_ow9_referee/referee_a2_ow9.py`, `SCRIPT_SHA256.txt`) & unread output
+    seal `f9f8be537` (`relays/a2_ow9_referee/referee_a2_ow9_out.json`, `OUTPUT_SHA256.txt`, **`0`
+    discrepancies across all integer counts, operator multisets, `547`-thread `GL(2, F_2)` cycle census,
+    planted faults, and `14–20`-digit numerical fields**).
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `c33fc2a72` and `f9f8be537` (`PF-OW9-1` dropping internal `A_5, A_6` gauge polarizations shifts bulk `2H` `n_B - n_F` per `T^2` lattice point from `-68` to `-80`; `PF-OW9-2` flipping the Berezin fermion Casimir sign gives negative AdS density `< 0`; `PF-OW9-3` dropping chiral `(n_L, n_R)` `SL(2, C)` parity inflates `0`-derivative single-`nu^c` decay operators from `17` to `34`; `PF-OW9-4` inserting a single-puncture `(0, 0)` brane operator breaks `E[2]` half-period democracy with projection `+1` on `(0, 1)` and `(1, 0)`, opening LKP decay).
 
@@ -24,7 +34,26 @@
 
 ## 3. Core Foundational Findings (`0 of 19`)
 
-1. **Exact KK-Tower `a_0` No-Go & Positive de Sitter Casimir Stabilization of `tau_*^{+-} = (+-2 + i) / 5`:** On `M_4 x (T^2 / Z_2)`, every massive KK shell remains strictly fermion-dominated (`n_B - n_F = -68` bulk `2H` or `-72` brane `2H` per `T^2` lattice point, vs `-64` zero mode), proving no misaligned/KK Bose-Fermi cancellation removes the `a_0` quartic/sextic cosmological constant fine-tuning wall. Conversely, the subtracted finite `4D` Casimir vacuum energy density carries the **strictly positive de Sitter sign** `rho_Casimir = +(68 / pi^3) E_3(tau) > 0` (`+(72 / pi^3) E_3(tau) > 0` brane `2H`). Furthermore, the first-principles Atkin-Lehner symmetric Casimir sum `F_3(tau) = E_3(tau) + E_3(5 tau)` on `X_0(5)` (containing zero reference to `tau_*`, 100% Guardrail-1 compliant) **dynamically stabilizes `tau_*^{+-} = (+-2 + i) / 5` as its strict global minimum on `H / Gamma_0(5)`**: because `5 == 2 (mod 3)` is inert in `Q(sqrt(-3))` while `5 = 2^2 + 1^2` splits in `Q(i)`, the conformal pullback `gamma(tau) = +-2 - 1 / tau` (`gamma'(tau_*^+) = 3 - 4 i`) rotates the `E_3` saddle at `i` by the exact `(3, 4, 5)` Pythagorean angle (`sin^2(theta) = 16 / 25`), interlocking two saddles into a positive-definite bowl (`e_1 > 61`, `e_2 > 1336`) that beats all `6` `Gamma_0(5)` images of `rho` (`gap > 21 / 10`) and the CP-conserving point `i / sqrt(5)` (`gap > 37`, nearly `5x` deeper).
-2. **Closure of `docs/COSMOLOGY_LEDGER.md` Row 4 (Exact Open-Weave Dark-Matter Stabilizer Verdict):**
+1. **Exact KK-Tower `a_0` No-Go & Positive de Sitter Casimir Stabilization of `tau_*^{+-} = (+-2 + i) / 5`:**
+   On `M_4 x (T^2 / Z_2)`, every massive KK shell remains strictly fermion-dominated (`n_B - n_F = -68` bulk
+   `2H` or `-72` brane `2H` per `T^2` lattice point, vs `-64` zero mode), proving no misaligned/KK Bose-Fermi
+   cancellation removes the `a_0` quartic/sextic cosmological constant fine-tuning wall. Conversely, the
+   subtracted finite `4D` Casimir vacuum energy density carries the **strictly positive de Sitter sign**
+   `rho_Casimir = +(68 / pi^3) E_3(tau) > 0` (`+(72 / pi^3) E_3(tau) > 0` brane `2H`). Furthermore, the
+   first-principles Atkin-Lehner symmetric Casimir sum `F_3(tau) = E_3(tau) + E_3(5 tau)` on `X_0(5)`
+   (containing zero reference to `tau_*`, 100% Guardrail-1 compliant) **dynamically stabilizes `tau_*^{+-} =
+   (+-2 + i) / 5` as its strict global minimum on `H / Gamma_0(5)`**: because `5 == 2 (mod 3)` is inert in
+   `Q(sqrt(-3))` while `5 = 2^2 + 1^2` splits in `Q(i)`, the conformal pullback `gamma(tau) = +-2 - 1 / tau`
+   (`gamma'(tau_*^+) = 3 - 4 i`) rotates the `E_3` saddle at `i` by the exact `(3, 4, 5)` Pythagorean angle
+   (`sin^2(theta) = 16 / 25`), interlocking two saddles into a positive-definite bowl (`e_1 > 61`, `e_2 >
+   1336`) that beats all `6` `Gamma_0(5)` images of `rho` (`gap > 21 / 10`) and the CP-conserving point `i /
+   sqrt(5)` (`gap > 37`, nearly `5x` deeper).
+2. **Closure of `docs/COSMOLOGY_LEDGER.md` Row 4 (Open-Weave Dark-Matter Stabilizer Check Result):**
    - **Zero-mode `nu^c` (`N2`, `6Y = 0`) is NOT strictly stable:** `A_5` (`|A_5| = 60`) is simple (zero index-`2` subgroup), non-SUSY `Spin(10)` matter parity `(-1)^{3(B-L)}` collapses identically to fermion number `(-1)^F` on all `8 / 8` species, and `G_SM x SL(2, C)` permits **`17` `0`-derivative (`14` `B-L`-conserving, led by `A2-OW3`'s forced `dim 4` `nu^c L H_u`) and `5` `1`-derivative (`3` `B-L`-conserving) single-`nu^c` decay operators up to dimension `6`**.
-   - **Bulk `Q = 1` LKP is conditionally strictly stable across all `547` open-weave threads:** At `tau_*`, KK masses follow the exact Gaussian norm `Q(m, n) = (2 m + n)^2 + m^2`, placing `Q = 1` (`{(0, 1)}`, `{(1, -2)}`) and `Q = 2` in non-trivial `Z_2 x Z_2` grades while the first trivial `(0, 0)` KK shell lies at `Q = 4` (`mass ratio = 2`). Every one of the `547` primitive hyperbolic `GL(2, Z)` threads (`trace <= 50`) preserves the `Z_2 x Z_2` grading (`0 / 547` failures), forbidding single-LKP decay to `(0, 0)` SM zero modes **if and only if** fixed-point brane operators respect `E[2]` half-period democracy (an asymmetric single-puncture `(0, 0)` brane coupling breaks `Z_2 x Z_2` and opens LKP decay). `0 of 19.`
+   - **Bulk `Q = 1` LKP is conditionally strictly stable across all `547` open-weave threads:** At `tau_*`, KK
+     masses follow the exact Gaussian norm `Q(m, n) = (2 m + n)^2 + m^2`, placing `Q = 1` (`{(0, 1)}`, `{(1,
+     -2)}`) and `Q = 2` in non-trivial `Z_2 x Z_2` grades while the first trivial `(0, 0)` KK shell lies at `Q
+     = 4` (`mass ratio = 2`). Every one of the `547` primitive hyperbolic `GL(2, Z)` threads (`trace <= 50`)
+     preserves the `Z_2 x Z_2` grading (`0 / 547` failures), forbidding single-LKP decay to `(0, 0)` SM zero
+     modes **if and only if** fixed-point brane operators respect `E[2]` half-period democracy (an asymmetric
+     single-puncture `(0, 0)` brane coupling breaks `Z_2 x Z_2` and opens LKP decay). `0 of 19.`

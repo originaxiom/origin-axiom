@@ -1,4 +1,4 @@
-# `AGY-002_A2-OW6` — Hard Wall 1 Verdict: Analytic `X_0(N)` `Im(tau) <= 1` Ceiling, `E[5]` Twisted-Kernel Raabe No-Go, and Covering-Torus `E[5] + E[6]` Splitting & Trade-Off Results (`0 of 19`)
+# `AGY-002_A2-OW6` — Hard Wall 1 Check Result: Analytic `X_0(N)` `Im(tau) <= 1` Ceiling, `E[5]` Twisted-Kernel Raabe No-Go, and Covering-Torus `E[5] + E[6]` Splitting & Trade-Off Results (`0 of 19`)
 
 ## 1. Check Labels and Tracked Custody (`docs/seats/README.md` § `12`)
 
@@ -8,7 +8,14 @@
   - Authoritative producer `v2` script seal `25178a55a` (`relays/a2_ow6_v2/verify_a2_ow6_v2.py`, `SCRIPT_SHA256.txt`) & unread output seal `b57f20422` (`relays/a2_ow6_v2/verify_a2_ow6_v2_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`).
 - **recomputed independently:**
   - Independent Cold-Room Referee built from Card + Erratum 1 alone (zero access to `a2_ow6*` prior to `Commit 4b`), using disjoint `60`-dps Euler-pentagonal `V_1`, Eisenstein `E_2` + Ramanujan `E_4 - E_2^2` curvature check, 1D-Poisson Chowla-Selberg massive `K_2` / `K_3` Casimir sum, non-circular `mpmath.jtheta(1)` Kronecker 2nd-limit potential, and disjoint GL6 order-`20` Fuchsian `L_2` + `jtheta` Yukawa evaluator: script seal `49c58395c` (`relays/a2_ow6_referee/referee_a2_ow6.py`, `SCRIPT_SHA256.txt`) & unread output seal `e078dd365` (`relays/a2_ow6_referee/referee_a2_ow6_out.json`, `OUTPUT_SHA256.txt`, **`0` numerical discrepancies across all `89` shared fields**).
-  - **Two Transparent Cold-Room Audit Notes:** (i) In `verify_a2_ow6_v2`, `"V_us", "V_cb", "V_ub"` read the `(0,1), (1,2), (0,2)` entries of its descending `(t, c, u)` `|V_CKM|` matrix (`|V_ts|, |V_cd|, |V_td|`), whereas true ascending physical `|V_us|` is `> 12 / 100` at `m = 8`, `< 3 / 10^6` at `m = 24`, and `< 3 / 10^11` at `m = 40`; all `A2-OW6` trade-off inequalities hold strictly under **both** labelings (even sharper in physical ascending order). (ii) In the sealed referee script, `mp.eighe(Y Y^H)` at `45` dps squares `r13_e ~ 9 / 10^14` at `m = 40`, yielding `10`-trial Haar drift `< 2 / 10^29` (`17` orders tighter than Guardrail 3's `< (1 / 10)^12`; `V_abs` `< 2 / 10^43`, `J_CP` `< 2 / 10^56`), while `v2`'s direct `mp.svd_c` achieves `< 8 / 10^43`.
+  - **Two Transparent Cold-Room Audit Notes:** (i) In `verify_a2_ow6_v2`, `"V_us", "V_cb", "V_ub"` read the
+    `(0,1), (1,2), (0,2)` entries of its descending `(t, c, u)` `|V_CKM|` matrix (`|V_ts|, |V_cd|, |V_td|`),
+    whereas true ascending physical `|V_us|` is `> 12 / 100` at `m = 8`, `< 3 / 10^6` at `m = 24`, and `< 3 /
+    10^11` at `m = 40`; all `A2-OW6` trade-off inequalities hold strictly under **both** labelings (even
+    sharper in physical ascending order). (ii) In the sealed referee script, `mp.eighe(Y Y^H)` at `45` dps
+    squares `r13_e ~ 9 / 10^14` at `m = 40`, yielding `10`-trial Haar drift `< 2 / 10^29` (`17` orders tighter
+    than Guardrail 3's `< (1 / 10)^12`; `V_abs` `< 2 / 10^43`, `J_CP` `< 2 / 10^56`), while `v2`'s direct
+    `mp.svd_c` achieves `< 8 / 10^43`.
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `b57f20422` and `e078dd365` (`PF-OW6-1` Berezin sign flip gives `d(-V_1)/dy(2 i) < 0`; `PF-OW6-2` unreduced `E[5]` wrap-around at `m = 8` creates spurious `e != d` `> 36 / 100`; `PF-OW6-3` setting `w_4 = 0` collapses `e != d` `< (1 / 10)^46`; `PF-OW6-4` imaginary axis `tau = 5 i` collapses `|J_CP| < (1 / 10)^56` while `tau = 2 + i` retains Gauss-phase `|J_CP| > 1 / 100`).
 
@@ -27,4 +34,13 @@
 
 1. **Exact Analytic `X_0(N)` `Im(tau) <= 1` Ceiling Theorem:** Because `dV_1/dy(x + i y) >= dV_1/dy(i y) > 0` strictly for every `y > 1` and every `x in R`, **no** non-negative untwisted 1-loop spectral determinant `sum_k c_k V_1(d_k tau)` on any modular curve `X_0(N)` (nor `S`-dual massive 4D Kaluza-Klein Casimir potential) can stabilize `Im(tau) > 1`.
 2. **Exact Raabe Cancellation on the Twisted `E[5]` Isogeny Kernel:** Averaging the Fricke-symmetrized twisted potential over the `4`-point `Gamma_0(5)` kernel cancels every charged field identically (`sum_{k=1}^4 B_2(q k / 5) = (-4 / 5) B_2(0)`); only neutral `Y = 0` modes (`6` real `nu^c` minus `24` real gauge bosons) survive at the cusp, causing an exact **Higgs-independent `-36` runaway to `-infty`** for the full SM (both `2H` and `1H`). Even dropping gauge bosons (`+12` confining fermions-only) snaps the minimum straight back to `tau_*^{+-} = (+-2 + i) / 5` (`Im = 1 / 5`).
-3. **Topological Covering-Torus Lift, Automatic `e != d` Splitting, & Honest Remaining Flavor Wall:** The covering-torus integer lift `m * tau_*^+` (`m in {8, 24, 40}`) is thus forced as the unique untuned path to `Im(tau_eff) > 1`, and opening the `t = 4` (`E[6]`) overtone via `A2-OW5`'s zero-parameter Regime-4b weights (`w_3, w_4`) immediately breaks `E[5]`'s exact `e = d` degeneracy (`48 / 100` to `> 99 / 100`) while keeping nonzero `J_CP` and Haar invariance. However, along any single-modulus ray `m * (2 + i) / 5`, mass hierarchy and CKM/CP mixing obey a **strict exponential trade-off**: `m = 8` gives sizable mixing/CP with shallow masses, while `m = 24, 40` give multi-decade mass hierarchies (`< (1/10)^5` to `< (1/10)^10`) with exponentially suppressed `|V_us|` and `|J_CP|`. Separating mass hierarchy from off-diagonal mixing/CP requires a multi-scale or anomalous-dimension/RG mechanism beyond a single universal `m * tau_*`. `0 of 19.`
+3. **Topological Covering-Torus Lift, Automatic `e != d` Splitting, & Honest Remaining Flavor Wall:** The
+   covering-torus integer lift `m * tau_*^+` (`m in {8, 24, 40}`) is thus forced as the unique untuned path to
+   `Im(tau_eff) > 1`, and opening the `t = 4` (`E[6]`) overtone via `A2-OW5`'s zero-parameter Regime-4b
+   weights (`w_3, w_4`) immediately breaks `E[5]`'s exact `e = d` degeneracy (`48 / 100` to `> 99 / 100`)
+   while keeping nonzero `J_CP` and Haar invariance. However, along any single-modulus ray `m * (2 + i) / 5`,
+   mass hierarchy and CKM/CP mixing obey a **strict exponential trade-off**: `m = 8` gives sizable mixing/CP
+   with shallow masses, while `m = 24, 40` give multi-decade mass hierarchies (`< (1/10)^5` to `< (1/10)^10`)
+   with exponentially suppressed `|V_us|` and `|J_CP|`. Separating mass hierarchy from off-diagonal mixing/CP
+   requires a multi-scale or anomalous-dimension/RG mechanism beyond a single universal `m * tau_*`. `0 of
+   19.`

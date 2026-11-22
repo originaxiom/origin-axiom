@@ -7,7 +7,14 @@
   - Disclosed Erratum committed before authoritative `v2`: `71f07abde` (`Erratum 1`: setting the universal all-`6` `e != d` `23`-split bar to `> 84 / 100` while explicitly verifying that the `4 / 6` subset `perm[2] in {0, 2}` satisfies both `> 98 / 100` and strict hierarchical CKM ordering `|V_us| > |V_cb| > |V_ub| > 0`; earlier sealed `v1` `98165b989` / `e42ee26ed` is preserved untouched).
   - Authoritative producer `v2` script seal `3404bfac7` (`relays/a2_ow7_v2/verify_a2_ow7_v2.py`, `SCRIPT_SHA256.txt`) & unread output seal `57a8539b2` (`relays/a2_ow7_v2/verify_a2_ow7_v2_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`).
 - **recomputed independently:**
-  - Independent Cold-Room Referee built from Card + Erratum 1 alone (zero access to `a2_ow7*` prior to `Commit 4b`), using disjoint adaptive `DOP853` + `35`-dps `3`-stage implicit Gauss-Legendre `GL6` ODE integrators, disjoint `GL6` order-`20` Fuchsian `L_2` + `mpmath.jtheta` Yukawas, and `45`-dps complex Householder-reflection QR + `mp.svd_c`: script seal `0b3b28abd` (`relays/a2_ow7_referee/referee_a2_ow7.py`, `SCRIPT_SHA256.txt`) & unread output seal `19d2facbe` (`relays/a2_ow7_referee/referee_a2_ow7_out.json`, `OUTPUT_SHA256.txt`, **`0` discrepancies across all `90` permutation fields, all `80` RG trajectory fields, both literature benchmarks, and `4 / 4` planted faults**).
+  - Independent Cold-Room Referee built from Card + Erratum 1 alone (zero access to `a2_ow7*` prior to `Commit
+    4b`), using disjoint adaptive `DOP853` + `35`-dps `3`-stage implicit Gauss-Legendre `GL6` ODE integrators,
+    disjoint `GL6` order-`20` Fuchsian `L_2` + `mpmath.jtheta` Yukawas, and `45`-dps complex
+    Householder-reflection QR + `mp.svd_c`: script seal `0b3b28abd`
+    (`relays/a2_ow7_referee/referee_a2_ow7.py`, `SCRIPT_SHA256.txt`) & unread output seal `19d2facbe`
+    (`relays/a2_ow7_referee/referee_a2_ow7_out.json`, `OUTPUT_SHA256.txt`, **`0` discrepancies across all `90`
+    permutation fields, all `80` RG trajectory fields, both literature benchmarks, and `4 / 4` planted
+    faults**).
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `57a8539b2` and `19d2facbe` (`PF-OW7-1` factor-`1/2` `d / d ln mu^2` error shifts `log10(Lambda_lam / GeV) > 17`; `PF-OW7-2` flipped SM `c_cross` reverses Xing-Zhou upward `|V_cb|` & `J_CP` ratios `< 1`; `PF-OW7-3` illegal left-right overlap `V_u^T U_u` fails `10`-trial Haar gate with drift `> 9 / 10`; `PF-OW7-4` bare `m = 24` regresses into `|V_us| < 1 / 10^5` and `|J_CP| < (1 / 10)^15`).
 
@@ -25,4 +32,30 @@
 ## 3. Core Foundational Findings (`0 of 19`)
 
 1. **Exact Perturbative RG Rigidity Theorem (`OW7-B`):** Evolving `A2-OW6`'s open-weave UV Yukawa matrices down `14` decades proves that perturbative `4D` RG running (`SM` or `Type-II 2HDM`) cannot break the single-modulus Hierarchy-vs-CKM/CP trade-off: `m_1 / m_3` shifts by `< 17 / 10`, `|V_us|` stays frozen within `< 4 / 100`, and `|V_cb|, |J_CP|` change by `< 4x` (suppressed in `SM`, modestly enhanced `< 2x` in `A2-OW3`'s `Type-II 2HDM`).
-2. **Universal `7D` Bulk Right-Handed QR-Decoupling Breaks the Trade-Off Across All `6 / 6` Permutations (`OW7-C`):** Keeping left-handed doublets at `m_L = 8` (`ord(T_L) = 8`, `E[5] + E[6]` Regime-4b) while assigning right-handed singlets the zero-parameter hypercharge-weighted `3D` geodesic localization `eps_f = phi^(-2 |6 Y_R|)` (`|6 Y_R| = (4, 2, 6)`) shatters `A2-OW6`'s trade-off **universally across all `6 / 6` permutations** of the canonical `(Q_J, Q_I, Q_K)` orbifold fixed-point basis (`0` cherry-picking; Guardrail 1 prices any individual permutation choice at `log_2(6)` bits). Because `Y_f(m_L = 8) diag(eps_f^2, eps_f, 1)` sends mass ratios to `O(eps_f^2)` while its left unitary `U_{L,f}` converges to the parameter-free Gram-Schmidt / Householder QR limit `Q(Y_f^{rev})`, **mass hierarchies and CKM/CP mixing decouple completely**: all `6 / 6` permutations yield multi-decade hierarchies (`u` steeper than `d` by `> 23x`, `e != d` `> 84 / 100`), `14 / 100 < |V_us| < 25 / 100`, and `|J_CP| > 6 / 10^5` (`> 11` orders above bare `m = 24`), with `4 / 6` permutations (`Q_J` or `Q_K` heaviest) simultaneously achieving `e != d > 98 / 100` and strict hierarchical CKM ordering `|V_us| > |V_cb| > |V_ub| > 0`, all passing `10`-trial `45`-dps Haar scrambling to `< 4 / 10^43`. `0 of 19.`
+2. **Universal `7D` Bulk Right-Handed QR-Decoupling Breaks the Trade-Off Across All `6 / 6` Permutations
+   (`OW7-C`):** Keeping left-handed doublets at `m_L = 8` (`ord(T_L) = 8`, `E[5] + E[6]` Regime-4b) while
+   assigning right-handed singlets the zero-parameter hypercharge-weighted `3D` geodesic localization `eps_f =
+   phi^(-2 |6 Y_R|)` (`|6 Y_R| = (4, 2, 6)`) shatters `A2-OW6`'s trade-off **universally across all `6 / 6`
+   permutations** of the canonical `(Q_J, Q_I, Q_K)` orbifold fixed-point basis (`0` cherry-picking; Guardrail
+   1 prices any individual permutation choice at `log_2(6)` bits). Because `Y_f(m_L = 8) diag(eps_f^2, eps_f,
+   1)` sends mass ratios to `O(eps_f^2)` while its left unitary `U_{L,f}` converges to the parameter-free
+   Gram-Schmidt / Householder QR limit `Q(Y_f^{rev})`, **mass hierarchies and CKM/CP mixing decouple
+   completely**: all `6 / 6` permutations yield multi-decade hierarchies (`u` steeper than `d` by `> 23x`, `e
+   != d` `> 84 / 100`), `14 / 100 < |V_us| < 25 / 100`, and `|J_CP| > 6 / 10^5` (`> 11` orders above bare `m =
+   24`), with `4 / 6` permutations (`Q_J` or `Q_K` heaviest) simultaneously achieving `e != d > 98 / 100` and
+   strict hierarchical CKM ordering `|V_us| > |V_cb| > |V_ub| > 0`, all passing `10`-trial `45`-dps Haar
+   scrambling to `< 4 / 10^43`. `0 of 19.`
+---
+
+## 4. Dated Correction (`2026-11-22`, `AGY-C25` Finding `S1` & `S6`)
+
+- **`S1` (Premise Overclaim Withdrawn):** While linear-algebraic `QR` decoupling is exact, calling
+  `D_{R,f} = diag(eps_f^2, eps_f, 1)` with `eps_f = phi^(-2 |6 Y_R|)` "zero-parameter" overclaims:
+  no `7D` operator here derives `3 |Y_R|` or `D_L = I_3`, `L_{m004}` omits `A2-OW6`'s `t = 4`
+  (`E[6]`) weight, and exponents `(2, 1, 0)` break `m004 = [[2,1],[1,1]] mod 2`'s transitive
+  `3`-cycle on `E[2] \ {0}` (colliding with `A2-OW11-C`'s uniform bulk generation assumption).
+- **Discrete Bits & Status:** `m_L in {8, 24, 40}` costs `log_2(3)` bits, giving
+  `log_2(6) + log_2(3) = log_2(18)` discrete bits BEFORE pricing the un-derived `D_{R,f}` ansatz.
+  In `A2-OW16 v4` (`40b36f212` / `135247ae5`), `OBS-12` is explicitly tagged `CONDITIONAL_ANSATZ`.
+- **`S6` (`§12` Disclosure):** `A2-OW7` updated quantitative expectations in a dated post-`v1`
+  erratum (`mended expectations` under `docs/seats/README.md` section 12).

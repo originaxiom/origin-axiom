@@ -7,7 +7,18 @@
   - Early `v1` script `7f23a4235` (`relays/a2_ow10/verify_a2_ow10.py`, `SCRIPT_SHA256.txt`) caught a generator typo in `N = 5` `b` at the pre-run group-order assert and never produced an output; preserved untouched for strict `A`-only manifest custody.
   - Authoritative Producer `v2` script seal `4de06843e` (`relays/a2_ow10_v2/verify_a2_ow10_v2.py`, `SCRIPT_SHA256.txt`) & unread output seal `7fe067647` (`relays/a2_ow10_v2/verify_a2_ow10_v2_out.json`, `OUTPUT_SHA256.txt`, `all_gates_passed = true`, `0` errata).
 - **recomputed independently:**
-  - Independent Cold-Room Referee built from Card `09b9c55f1` alone (zero access to `relays/a2_ow10/` or `relays/a2_ow10_v2/` prior to `Commit 4b`), using strictly disjoint `sympy` symbolic cubic derivation + manual Sturm-sequence root counts + direct `55`-dps bracketed bisection & `2D` Newton-Raphson directly on `(beta_g, beta_lam)` (zero `polyroots`) + 4th-order Richardson finite-difference Jacobian (`jac_conv < 2 / 10^40`), disjoint matrix-group realizations (`GL(2, F_2)`, `PSL(2, F_3)`, `SO(3, Z)`, `PSL(2, F_5)`) + direct `0 .. 2^d - 1` bitmask Fock-space enumeration, and symbolic `sympy.apart` / `sympy.residue`: script seal `bb1569319` (`relays/a2_ow10_referee/referee_a2_ow10.py`, `SCRIPT_SHA256.txt`) & unread output seal `42157ca60` (`relays/a2_ow10_referee/referee_a2_ow10_out.json`, `OUTPUT_SHA256.txt`, **`0` discrepancies across all `51 / 51` numerical fields (`0 / 51` printed-digit rounding mismatches), all `21 / 21` action rows, all `6 / 6` `a`-theorem stages, all `12` scorecard rows, and `4 / 4` planted faults**; on the `19` non-chiral even-`d` rows producer sets decoupled `n_W_chiral = 0` while referee retains raw `3 * 2^(d-1)`, both identically yielding `is_chiral = false` and `all_four_gates_pass = false`).
+  - Independent Cold-Room Referee built from Card `09b9c55f1` alone (zero access to `relays/a2_ow10/` or
+    `relays/a2_ow10_v2/` prior to `Commit 4b`), using strictly disjoint `sympy` symbolic cubic derivation +
+    manual Sturm-sequence root counts + direct `55`-dps bracketed bisection & `2D` Newton-Raphson directly on
+    `(beta_g, beta_lam)` (zero `polyroots`) + 4th-order Richardson finite-difference Jacobian (`jac_conv < 2 /
+    10^40`), disjoint matrix-group realizations (`GL(2, F_2)`, `PSL(2, F_3)`, `SO(3, Z)`, `PSL(2, F_5)`) +
+    direct `0 .. 2^d - 1` bitmask Fock-space enumeration, and symbolic `sympy.apart` / `sympy.residue`: script
+    seal `bb1569319` (`relays/a2_ow10_referee/referee_a2_ow10.py`, `SCRIPT_SHA256.txt`) & unread output seal
+    `42157ca60` (`relays/a2_ow10_referee/referee_a2_ow10_out.json`, `OUTPUT_SHA256.txt`, **`0` discrepancies
+    across all `51 / 51` numerical fields (`0 / 51` printed-digit rounding mismatches), all `21 / 21` action
+    rows, all `6 / 6` `a`-theorem stages, all `12` scorecard rows, and `4 / 4` planted faults**; on the `19`
+    non-chiral even-`d` rows producer sets decoupled `n_W_chiral = 0` while referee retains raw `3 * 2^(d-1)`,
+    both identically yielding `is_chiral = false` and `all_four_gates_pass = false`).
 - **tested against planted errors:**
   - `4 of 4` planted faults caught identically in both `7fe067647` and `42157ca60` (`PF-OW10-1` flipping fermion sign in `B_1` shifts `M_g` from `+8` to `-88`, collapsing `g_*` by `> 18x` to `< 1 / 2` and shifting `lam_*` from `< -10` to `> -1`; `PF-OW10-2` `N_gen = 4` gives `M_g = +24 > 14` with `0` UV FPs; `PF-OW10-3` switching to Type-I cutoff gives `M_g = +56 > 14` with `0` UV FPs; `PF-OW10-4` reversed `a_IR - a_UV = -125 / 48 < 0` and non-conformal `xi = 0` `(0 - 1/6)^2 = 1/36 != 0`).
 
@@ -25,7 +36,15 @@
 
 ## 3. Core Foundational Findings (`0 of 19`)
 
-1. **Exact Double-Pincer Selection of `N_gen = 3` (`A2-OW4` + `A2-OW10`):** Combining `A2-OW4`'s lower bound for attractive 1-loop Sakharov gravity (`M_g = N_S + N_W - 4 N_V > 0`) with `A2-OW10`'s upper bound for a covariant Type-II Lichnerowicz Asymptotic Safety UV fixed point (`M_g < 14` in the fermion-dominated `M_l < 0` sector, proved via the exact integer cubic `2(M_g - 14) u^3 + (82 - 2 M_g - 6 M_l) u^2 - 118 u + 48 = 0`) yields the exact double-pincer `0 < N_S + N_W - 4 N_V < 14`. At `N = 5, 2H` (`N_S = 8, N_V = 12, N_W = 16 N_gen`), this reduces to `5 / 2 < N_gen < 27 / 8`, **uniquely selecting `N_gen = 3` generations** (and restricting Higgs doublets at `N_gen = 3` to `n_H in {1, 2, 3}`), while selecting **`N = 5, d = 5` (`A_5 / A_4`, `M_g = +8`) uniquely (`1 of 21`)** across all faithful transitive actions of `Delta(2, 3, N)` (`N = 2..5, d <= 12`).
-2. **Honest Quantum-Gravity Verdict & Master Scorecard (`A2-OW1..A2-OW10`):**
+1. **Exact Double-Pincer Selection of `N_gen = 3` (`A2-OW4` + `A2-OW10`):** Combining `A2-OW4`'s lower bound
+   for attractive 1-loop Sakharov gravity (`M_g = N_S + N_W - 4 N_V > 0`) with `A2-OW10`'s upper bound for a
+   covariant Type-II Lichnerowicz Asymptotic Safety UV fixed point (`M_g < 14` in the fermion-dominated `M_l <
+   0` sector, proved via the exact integer cubic `2(M_g - 14) u^3 + (82 - 2 M_g - 6 M_l) u^2 - 118 u + 48 =
+   0`) yields the exact double-pincer `0 < N_S + N_W - 4 N_V < 14`. At `N = 5, 2H` (`N_S = 8, N_V = 12, N_W =
+   16 N_gen`), this reduces to `5 / 2 < N_gen < 27 / 8`, **uniquely selecting `N_gen = 3` generations** (and
+   restricting Higgs doublets at `N_gen = 3` to `n_H in {1, 2, 3}`), while selecting **`N = 5, d = 5` (`A_5 /
+   A_4`, `M_g = +8`) uniquely (`1 of 21`)** across all faithful transitive actions of `Delta(2, 3, N)` (`N =
+   2..5, d <= 12`).
+2. **Quantum-Gravity Check Result & Master Scorecard (`A2-OW1..A2-OW10`):**
    - **Positive survival:** Open-weave `2H` `(8, 48, 12)` possesses a unique UV-attractive Type-II fixed point (`7 < g_* < 71 / 10`, `-101 / 10 < lam_* < -10`, both real critical exponents `> 2`), zero 1-loop induced `R^2` scalaron at conformal `xi = 1 / 6`, and strict Komargodski-Schwimmer `a`-theorem monotonicity (`Delta a_total = 125 / 48 > 0` across all `5` consecutive EFT thresholds down to `gamma + 3 nu_L`).
    - **Honest limitations:** Perturbative 4D induced quadratic gravity has a massive spin-2 Stelle ghost (residue `-1` from `c = 37 / 15 > 0`), Type-I non-Lichnerowicz FRG destroys the UV fixed point completely (`M_g = +56 > 14`, `0` UV FPs), and the surviving Type-II fixed point sits at strong single-metric coupling (`g_* > 7`, `lam_* < -10`), so higher-order/bi-metric FRG or `7D` bulk UV completion remains open alongside the `10^(-120)` cosmological constant value, `4` continuous dimensionless scale ratios (`g_UV, lam_0, tan(beta), M_R / M_X`), and early-universe dynamics (`5 PROVED, 3 PARTIAL / CONDITIONAL, 2 NO-GO, 2 STILL OPEN`). `0 of 19.`

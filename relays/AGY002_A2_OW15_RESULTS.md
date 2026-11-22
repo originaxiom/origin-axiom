@@ -6,7 +6,17 @@
   - Pre-Registration Card: `relays/cards/AGY-002_A2-OW15_clifford-lorentzian-signature-conformal-bh-entropy-and-qm-gerbe-boundary.md` (`b1df97a64`)
   - Authoritative `v1` Producer (`all_gates_passed = true`, zero errata): `relays/a2_ow15/verify_a2_ow15.py` (`c213aef6a`, `SCRIPT_SHA256 = ea4ed0fa5f8b2f31c6462a40f663e825e23ba1d8705466f0e620a5172232d857`) and `relays/a2_ow15/a2_ow15_results.json` (`98be8ec13`, `OUTPUT_SHA256 = e35ac5f00b3c787273a23a4ab7e206e5724f139239b45a049b83518ca4bfd66e`)
   - Independent Cold-Room Zero-Trust Referee (`all_gates_passed = true`, `20 / 20` gates, strictly cold-room sealed unread): `relays/a2_ow15_referee/referee_a2_ow15.py` (`26dd32a4d`, `SCRIPT_SHA256 = 64b47c280ab854341c5266dd5ea74bd07e1f2cf36623d058902635d17f8d23ae`) and `relays/a2_ow15_referee/a2_ow15_referee_results.json` (`0f4380af3`, `OUTPUT_SHA256 = 4d8f05b63a9f9fad7b829f81ac6abd76b00799d2b7c17f09a049e5f3c584b878`)
-  - **Cross-Check Verdict:** **`0` mismatches across all `257 / 257` compared fields** (`180` in `OW15-A`, `41` in `OW15-B`, `24` in `OW15-C`, `11` in `OW15-D`, `1` global) plus `4 / 4` planted faults (`PF-OW15-1..4`) detected identically. Disjoint referee methods: Weyl/chiral block-off-diagonal recursive Bott construction + `sympy.Matrix.nullspace()` on `d^2`-dim Sylvester equations for both `B` and `H_norm` (disjoint from `Z^k X/Y` Pauli chains & bitmask search), Hurwitz zeta `zeta_H(-1, a)` at `60` dps + direct `t -> 0` Bessel-Laplace conical Laurent series, `10`-trial `U(3)` Cayley transform `U = (I - i H)(I + i H)^{-1}` at `60` dps (`p = 2` drift `< 2 / 10^61`, disjoint from Ginibre/QR), and explicit `45`-dim skew-symmetric `so(10)` basis + `D_5` Cartan Smith Normal Form `[1, 1, 1, 1, 4]` + explicit `P^vee / Q^vee` weight enumeration on `16_+, 16_-, 10, 45` (closing producer `v1`'s integer literal `center_order_spin10 = 4` by explicit matrix/lattice proof). Exact `0` discrepancy across all algebraic/symbolic/boolean fields and `<= 5 / 10^18` on the `3` printed Schwarzschild display strings.
+  - **Cross-Check Result:** **`0` mismatches across all `257 / 257` compared fields** (`180` in `OW15-A`, `41`
+    in `OW15-B`, `24` in `OW15-C`, `11` in `OW15-D`, `1` global) plus `4 / 4` planted faults (`PF-OW15-1..4`)
+    detected identically. Disjoint referee methods: Weyl/chiral block-off-diagonal recursive Bott construction
+    + `sympy.Matrix.nullspace()` on `d^2`-dim Sylvester equations for both `B` and `H_norm` (disjoint from
+    `Z^k X/Y` Pauli chains & bitmask search), Hurwitz zeta `zeta_H(-1, a)` at `60` dps + direct `t -> 0`
+    Bessel-Laplace conical Laurent series, `10`-trial `U(3)` Cayley transform `U = (I - i H)(I + i H)^{-1}` at
+    `60` dps (`p = 2` drift `< 2 / 10^61`, disjoint from Ginibre/QR), and explicit `45`-dim skew-symmetric
+    `so(10)` basis + `D_5` Cartan Smith Normal Form `[1, 1, 1, 1, 4]` + explicit `P^vee / Q^vee` weight
+    enumeration on `16_+, 16_-, 10, 45` (closing producer `v1`'s integer literal `center_order_spin10 = 4` by
+    explicit matrix/lattice proof). Exact `0` discrepancy across all algebraic/symbolic/boolean fields and `<=
+    5 / 10^18` on the `3` printed Schwarzschild display strings.
 
 ---
 
@@ -70,3 +80,16 @@
 - `PF-OW15-2` (omit Kabat Proca contact term): **CAUGHT** — `c_log_total` plunges from `+16` to `-17 < 0`.
 - `PF-OW15-3` (shift `8` `2H` scalars to minimal `xi = 0`): **CAUGHT** — `c_log_total` shifts from `+16` to `44/3 != 16`.
 - `PF-OW15-4` (`L^4` norm under exact `F_3`): **CAUGHT** — exact `drift = -2/3 != 0`.
+---
+
+## 5. Dated Correction (`2026-11-22`, `AGY-C25` Finding `S4`)
+
+- **`S4` (Ordered `(3, 1)` Clifford Parity & Tower Count):** Across the `5` ordered `D = 4`
+  signatures `eta = diag(-1^t, +1^s)`, BOTH `(1, 3)` and `(3, 1)` have `vol^2 = -1` and complex
+  chiral Weyl spinors `Weyl = C (L^* = R)` (`Cl^0(1, 3) ~= Cl^0(3, 1)`). Ruling out `(3, 1)` uses
+  `t = 1` hyperbolicity / Dirac norm positivity OR Euclidean fiber addition
+  `(1, 3) + (0, 2) = (1, 5)` vs `(3, 1) + (0, 2) = (3, 3)`.
+- **Exact Tower Count:** `48 = 3 x 4 x 4` is the unordered Cartesian triple count (which includes
+  non-fibered triples); the fiber-consistent ordered `D = 4 -> 6 -> 7` tower count is `5`, of which
+  `(1, 3) -> (1, 5) -> (1, 6)` is uniquely selected (`1 of 5`), independently recomputed in
+  `a2_ow16_v4` (`40b36f212`) and `a2_ow16_v4_referee` (`135247ae5`).
