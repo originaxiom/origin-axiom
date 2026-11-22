@@ -56,7 +56,14 @@
 
 2. **`F2` (`C7` `LinearNDInterpolator` `L_2` Precision Floor & Missing `SL_2(Z)` `-ln|z|` Term):**
    - *Quotes:* `c7_selberg_lefschetz_weave.py:66` (`lin_i = LinearNDInterpolator(xy, l2_arr)`) and `:76` (`z = -1.0 / z`).
-   - *Independent Counter-Computation:* Against our `19`-digit `Order-24` Weierstrass-Taylor exact `L_2((16 + 8i)/5) = 2.5151881308899968867` (verified to `< 2.5e-19` against `L_2(i)`, `L_2(rho)`, and `S`-duality in `a2_ow17_referee`), `C7`'s `LinearNDInterpolator` returns `2.517052247109742` — an absolute error of **`1.864116 x 10^{-3}`** (`rel = 7.41e-4`, `~ 33,500x` larger than `C24`'s claimed `2.21e-8` `R6` precision budget!), invalidating digits `4` through `30` of `blind_predictions_full_toe_v2.json`. Additionally, `C7:76` applies `z = -1/z` without accumulating `-ln|z|`, introducing an exact **`+(1/2) ln(5) = 0.804719`** error whenever `|z| < 1` (e.g., at `tau_*^+ = (2+i)/5`).
+   - *Independent Counter-Computation:* Against our `19`-digit `Order-24` Weierstrass-Taylor exact `L_2((16
+     + 8i)/5) = 2.5151881308899968867` (verified to `< 2.5e-19` against `L_2(i)`, `L_2(rho)`, and
+     `S`-duality in `a2_ow17_referee`), `C7`'s `LinearNDInterpolator` returns `2.517052247109742` — an
+     absolute error of **`1.864116 x 10^{-3}`** (`rel = 7.41e-4`, `~ 33,500x` larger than `C24`'s claimed
+     `2.21e-8` `R6` precision budget!), invalidating digits `4` through `30` of
+     `blind_predictions_full_toe_v2.json`. Additionally, `C7:76` applies `z = -1/z` without accumulating
+     `-ln|z|`, introducing an exact **`+(1/2) ln(5) = 0.804719`** error whenever `|z| < 1` (e.g., at
+     `tau_*^+ = (2+i)/5`).
    - *Actionable Fix:* Replace `LinearNDInterpolator` with an analytic/ODE Lamé solver at working precision and accumulate `-ln|z|` on every `S`-inversion.
 
 3. **`F3` (`C18` vs `C24` `tan beta` Internal Contradiction Inside `blind_predictions_full_toe_v2.json`):**
@@ -73,7 +80,15 @@
 
 5. **`F5` (`Guardrail 1 & 5` Unpriced Postulates Inside `C24`'s `11 / 2`-Bit & `FITTED == 0` Ledger):**
    - *Quote:* `c18_...py:88` (`m12_sq = mp.mpf(1) / 40`).
-   - *Finding:* Seven quantitative postulates are either priced at `0` bits under `FORCED` (`C24:333-336`) or omitted from the continuous-parameter tally: (i) `m_{12}^2 / m_0^2 = 1/40` (directly setting `tan beta = 10.78` and all heavy Higgs masses); (ii) identifying Chern-Simons level `k_min = 40` with `1 / alpha_{GUT}` (`C21`); (iii) sector-dependent Frobenius bulk mass `M_{KK,f}^2 = eps^{-2} tr(Y_f^H Y_f)` (`C16`, without which `y_{d3}/y_{e3} < 1/6`); (iv) equating `3`-toron amplitude `e^{-48 pi/5}` to `m_0 / M_{GUT}` and the RG stopping horizon; (v) `Q_1 = 1/25` (requires `T^4/(Z_5 x Z_5)` orbifold volume `1/25`, whereas standard `SU(5)` `'t Hooft` torons on `T^4` have minimal `Q = 1/5`); (vi) unstabilized continuous modulus `V_hat_perp` (`C22`); and (vii) selecting two single points `p3 = (1/5, 2/5), p4 = (1/6, 1/6)` in `C16:46` (omitting `p4` from `yn_raw`).
+   - *Finding:* Seven quantitative postulates are either priced at `0` bits under `FORCED` (`C24:333-336`)
+     or omitted from the continuous-parameter tally: (i) `m_{12}^2 / m_0^2 = 1/40` (directly setting `tan
+     beta = 10.78` and all heavy Higgs masses); (ii) identifying Chern-Simons level `k_min = 40` with `1 /
+     alpha_{GUT}` (`C21`); (iii) sector-dependent Frobenius bulk mass `M_{KK,f}^2 = eps^{-2} tr(Y_f^H Y_f)`
+     (`C16`, without which `y_{d3}/y_{e3} < 1/6`); (iv) equating `3`-toron amplitude `e^{-48 pi/5}` to `m_0
+     / M_{GUT}` and the RG stopping horizon; (v) `Q_1 = 1/25` (requires `T^4/(Z_5 x Z_5)` orbifold volume
+     `1/25`, whereas standard `SU(5)` `'t Hooft` torons on `T^4` have minimal `Q = 1/5`); (vi) unstabilized
+     continuous modulus `V_hat_perp` (`C22`); and (vii) selecting two single points `p3 = (1/5, 2/5), p4 =
+     (1/6, 1/6)` in `C16:46` (omitting `p4` from `yn_raw`).
 
 6. **`F6` (`Guardrail 2` Placeholder Certificate Strings in `C24:325-326` & `C23` `10_F` Mass Caveat):**
    - *Quote:* `c24_pole_matching_and_full_toe_seal_v2.py:325` (`r_rows = {f"R{k}": f"Verified for Full-ToE Seal v2 row R{k}." for k in range(1, 13)}`).
