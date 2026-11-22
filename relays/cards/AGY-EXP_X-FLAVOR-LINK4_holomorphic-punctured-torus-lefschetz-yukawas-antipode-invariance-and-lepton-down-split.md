@@ -45,21 +45,24 @@
      of $W_e^{\mathrm{hol}}(\tau; p_5)$ and $W_d^{\mathrm{hol}}(\tau; p_5)$ to coincide identically (`< 10^{-42}`) at
      **all `24` nonzero points of $E[5]$** and on the $K_5$ subgroup average.
    - Because $-10 \not\equiv 0 \pmod 6$, at the unique primitive order-`6` kernel $K_6 = \{\pm(1/6, 1/6)\}$, expect
-     $q_{-,e} p_6 = (-3/2, -3/2)$ to hit the odd-theta puncture zero ($R_k^{\mathrm{lep}}(p_6) = 0$) while $q_{-,d} p_6$
-     has four nonzero channels, breaking lepton–down singular-value degeneracy on $K_5 \oplus K_6$ (`> 10^{-2}`) and
-     generating $V_{\mathrm{CKM}} \neq I_3$, $J_{\mathrm{CKM}} \neq 0$ with **zero free Clebsch parameters**.
+     $q_+ p_6 = (+1/2, +1/2)$ to zero $R_k$ in both sectors while $q_{-,e} p_6 = (-3/2, -3/2)$ vs $q_{-,d} p_6 = (-1/6, -1/6)$
+     splits all three remaining nonzero channels $s \in \{1, i, j\}$, breaking lepton–down singular-value degeneracy on
+     $K_5 \oplus K_6$ (`> 10^{-1}`) and generating $V_{\mathrm{CKM}} \neq I_3$, $J_{\mathrm{CKM}} \neq 0$ with **zero free Clebsch parameters**.
    - `PC_FL4_4`: Omitting $K_6$ (`evaluating \Phi_2 on K_5 alone`) locks $\sigma_i(W_e) = \sigma_i(W_d)$ to `< 10^{-42}`.
 5. **`F5` — Killing-Orthogonal $G_{\mathrm{LR}}$ Cartan Seesaw Completion, Basis Scrambling, & 2-Loop Type-II RGE (`PC_FL4_5`):**
    - Expect $\mathrm{Tr}_{\mathbf{16}}(6Y \cdot Q_\chi) = 0$ for $6Y = 6 T_{3R} + 3(B-L)$ and $Q_\chi = 4 T_{3R} - 3(B-L)$,
      and under `Card X-E6PS-LINK23`'s $u_3 = 3(B-L)$ seesaw twist (`as well as unified non-SU(5) G_{\mathrm{LR}} Cartan`
      `twists Q_{(a,b)} = 2a T_{3R} + 3b(B-L) with a \notin \{0, 3b, -2b\}`), all five holomorphic matrices
      $(\widehat{\mathcal{W}}_u, \widehat{\mathcal{W}}_d, \widehat{\mathcal{W}}_e, \widehat{\mathcal{W}}_\nu, \widehat{\mathcal{W}}_R)$
-     have full rank `3`, yielding `3` nonzero light seesaw masses, $U_{\mathrm{PMNS}} \neq I_3$, `2`-flavor leptogenesis,
-     `< 10^{-35}` `SU(3)^5 x U(3)_{N_R}` scrambling invariance, and `< 10^{-11}` `2`-loop Type-II `2HDM` RGE convergence.
+     have full rank `3` (`det > 10^{-6}`), yielding `3` nonzero light seesaw masses, $U_{\mathrm{PMNS}} \neq I_3$, `2`-flavor leptogenesis,
+     `< 10^{-35}` `SU(3)^5 x U(3)_{N_R}` scrambling invariance, and `< 10^{-11}` `2`-loop Type-II `2HDM` order-`6` `GBS6` convergence.
    - `PC_FL4_5`: Pure $6Y$ ($q_{\nu^c} = 0$) collapses $\det W_\nu = \det W_R = 0$; pure $Q_\chi$ ($a = -2b$) locks $W_e = W_d^T$.
 6. **`F6` — Spin-Cover Orthonormal Kähler Gramian ($\mathcal{K}_{\mathrm{spin}} \propto I_3$) & Guardrail-`1`/`5` Ledger (`PC_FL4_6`):**
    - Expect the spin-cover Riemann–Heisenberg $L^2$ Gram matrix on $(\vartheta_2, \vartheta_3, \vartheta_4)$ to equal
-     $\frac{1}{\sqrt{2\,\mathrm{Im}\,\tau}}\,I_3$ (`< 10^{-35}`), proving external-leg supergravity Kähler normalization
+     $\frac{1}{\sqrt{2\,\mathrm{Im}\,\tau}}\,I_3$ (`< 10^{-34}` on $\tau_{\mathrm{rect}}$ and $\tau_{\mathrm{cov}}$), proving external-leg supergravity Kähler normalization
      introduces **zero** $3\times 3$ flavor distortion, and audit the exact reduction from `42` complex Yukawa/Majorana
      entries (`0` free internal `3x3` texture entries given $\tau$) while explicitly pricing discrete choices and
      inventorying remaining overall bulk/brane scales for Link `B` (`PC_FL4_6` catches unpriced `0`-bit modulus smuggling).
+   - (`Revision note: v1 at dcd08e9b3 tripped assertions before writing output and is preserved untouched; v2 in`
+     `relays/x_flavor_link4_v2_verify/ fixes math.gcd, |P_6|=24 points, shared R_k=0 on p_6, order-6 GBS6 M=50 vs 100`
+     `RGE integration, and n_gl=28 quadrature before running v2 once.`)
