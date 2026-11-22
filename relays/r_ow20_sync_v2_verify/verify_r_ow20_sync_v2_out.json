@@ -1,0 +1,77 @@
+{
+  "M1_custody_manifests_and_json_float_audit": {
+    "M1_passed": true,
+    "PC_S0_1_caught": true,
+    "json_floats_ow20_v6_referee": [
+      0,
+      0,
+      1
+    ],
+    "manifests_matched": 6,
+    "ow20_n1_referee_json_float_caught": [
+      "1.0"
+    ],
+    "peer_py_ast_float_complex_count": 0,
+    "zero_in_place_overwrites": true
+  },
+  "M2_machacek_vaughn_identities_and_gl6_order6_rge": {
+    "M2_passed": true,
+    "PC_S0_2_caught": true,
+    "gl6_N25_vs_ow20_rk4_N120_max_frob_err": "8.4233471e-15",
+    "mv_2loop_g4_doublet_shifts_exact": true,
+    "mv_2loop_leg_identities_exact": true,
+    "noncommuting_3_4_commutator_frob": "0.00162775497544"
+  },
+  "M3_independent_2flavor_leptogenesis_and_tree_sign_flip": {
+    "M3_passed": true,
+    "PC_S0_3_caught": true,
+    "max_rel_err_vs_ow20": "1.4136733e-10",
+    "rad_2d_yb_2f_indep": "2.4741057133e-9",
+    "rad_flat_yb_2f_indep": "2.15793153648e-9",
+    "tree_2d_yb_2f_indep": "-2.104340956e-11",
+    "tree_flat_yb_2f_indep": "-2.858696532e-11"
+  },
+  "M4_exact_cubic_2hdm_frg_and_e6_selection": {
+    "M4_passed": true,
+    "PC_S0_4_caught": true,
+    "cubic_type1_disc": "789.613914561",
+    "cubic_type1_roots": [
+      "-0.008865250452",
+      "-2.350537722"
+    ],
+    "cubic_type2_disc": "-6.13857817174",
+    "max_rel_err_vs_peer": "4.6553336e-13"
+  },
+  "M5_synergy144_antipodal_and_binomial_so2d": {
+    "M5_passed": true,
+    "P5_x_P6_to_surviving_pairs": [
+      144,
+      2
+    ],
+    "PC_S0_5_caught": true,
+    "b_spin10_brane2h": "-76/3",
+    "delta_vcb_p3_swap_indep": "0.124212985264",
+    "so6_and_so8_to_so30_binomial_ok": true
+  },
+  "M6_ow16_v6_ledger_and_s12_wording_scan": {
+    "M6_passed": true,
+    "PC_S0_6_caught": true,
+    "ow20_n2_s12_header_lines_in_response_md": [
+      17
+    ],
+    "priced_continuous_uv_ratios": 15,
+    "v6_partition_1_10_9_4_verified": true
+  },
+  "all_6_modules_passed": true,
+  "all_6_planted_controls_caught": true,
+  "card": "R-OW20-SYNC",
+  "empirical_firewall": "0 of 19",
+  "peer_commit_audited": "2d993276b051962b0c4400590435e56ea1946173",
+  "planted_controls_caught": 6,
+  "planted_controls_total": 6,
+  "self_ast_zero_float_and_complex_scan": {
+    "ast_clean": true,
+    "binary64_cast_calls": 0,
+    "float_or_complex_literals": 0
+  }
+}
