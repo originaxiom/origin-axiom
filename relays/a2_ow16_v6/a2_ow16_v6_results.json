@@ -1,0 +1,434 @@
+{
+  "all_gates_passed": true,
+  "blind_prediction_ledger_24_v6": {
+    "counts_by_bucket": {
+      "CONDITIONAL_OR_QUALITATIVE": 10,
+      "DERIVED_EXACT": 1,
+      "INTERNAL_WALL_OR_TENSION": 9,
+      "OPEN_EXTERNAL_BOUNDARY": 4
+    },
+    "expected_counts_v6": {
+      "CONDITIONAL_OR_QUALITATIVE": 10,
+      "DERIVED_EXACT": 1,
+      "INTERNAL_WALL_OR_TENSION": 9,
+      "OPEN_EXTERNAL_BOUNDARY": 4
+    },
+    "ids_unique_24": true,
+    "obs22_brane2h_beta_ok": true,
+    "observables": [
+      {
+        "bucket": "DERIVED_EXACT",
+        "id": "OBS-07",
+        "observable": "6D I_8(16_+) rank-4 GS obstruction (det Q = 1/1679616) -> 7D CS axion E/N & Theorem 2 d-invariance",
+        "status_note": "Sole DERIVED_EXACT observable on branch; verified across all three seats",
+        "value": "E/N = 8/3; d-drift = 0.0 (OW19-B2)"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-02",
+        "observable": "Unique Lorentzian physical signature class {(1,3) ~ (3,1)} modulo g -> -g (conditional on D = 4)",
+        "status_note": "Demoted per F-OW18-07: depends on uncomputed D = 4 (OBS-01)",
+        "value": "1 Lorentzian class out of 3 physical 4D classes"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-03",
+        "observable": "Gauge group G_SM x U(1)_X (dim 13, 32 broken Proca) + conditional U(1)_X -> G_SM breaking",
+        "status_note": "Conditional on priced 4D brane B-L scalar; explicit SO(2d) SU(d)^3 cubic anomalies computed (OW20-C)",
+        "value": "dim C(P_PS, J_5) = 13, Proca = 32"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-04",
+        "observable": "Three fermion generations N_gen = 3 from topological b_1(8^3_4) = 3 (FRG uniqueness retracted; E_6 N_W = 81 conflict)",
+        "status_note": "Updated per F-OW18-05: gauged E_6 requires 3x27 (N_W=81) breaking DEP Type-II < 31 (DP Type-I = -161/2)",
+        "value": "b_1(8^3_4) = 3; chiral Weyl/gen = 15; E_6 3x27 N_W=81 -> Mg_DEP = 41 > 31"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-05",
+        "observable": "Two-Higgs Type-II X:HOL inside E_6 27 (Z_4 M_R == 0 obstruction, overline{126}_{-2} rescue, 1-loop Z'_psi hierarchy wall)",
+        "status_note": "Updated per F-C30-01 & OW19-B1: <S_{+4}> -> Z_4 forces M_R == 0 unless P_M-even overline{126}_{-2} enters; non-SUSY 1-loop Z'_psi shifts m_H^2",
+        "value": "Q_psi(16^2 10)=0, Z_4 forbids M_R; dm_H^2/(g^4 S^2/pi^2) = -1/24"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-08",
+        "observable": "Pure Pati-Salam 45 + 3x16 + (1,2,2)_C B = 5/7 closure at r = 8/77 (OW17-B, AGY-C29 verified)",
+        "status_note": "Conditional on priced intermediate threshold ratio M_PS/M_X",
+        "value": "r = 8/77, x = 69/77 (1 threshold ratio M_PS/M_X)"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-11",
+        "observable": "Unimodular / Kaloper-Padilla radiative vacuum decoupling (a_0 = -64) [CONDITIONAL_GRAVITY_POSTULATE]",
+        "status_note": "Conditional on unimodular / KP gravity postulate",
+        "value": "dLambda_eff/drho_vac = 0"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-12",
+        "observable": "Quark hierarchies & CKM via 2D hyperbolic Kahler, 2-loop Type-II 2HDM RGEs, & Synergy S-1 (144 -> 2, 6.17 bits; broken w ~ -w)",
+        "status_note": "Updated per F-OW18-01/06 & OW19-A: exact Type-II 2HDM 2-loop RGEs (+1/2 Hd), 2D Kahler shifts |V_12|, w ~ -w broken (4 worlds)",
+        "value": "2D E[2] |V_12|=0.4313527243; bits_144_to_2=6.1699250014423; Delta|V_cb|(w,-w)=0.124212985264"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-13",
+        "observable": "b-tau Yukawa proximity (4/6 perms; |6T_{3R}| universal=(3,3,3,3), splitting from 3(B-L))",
+        "status_note": "Scoped per F-A2-01: 3(B-L) is also nonzero on LH doublets (+1, -3)",
+        "value": "4/6 perms; 3(B-L)_RH = (-1,-1,+3,+3)"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-14",
+        "observable": "Neutrino normal ordering & s23^2 > 56/100 (M_R^(00) ansatz)",
+        "status_note": "Conditional on M_R^(00) seesaw ansatz (OW12)",
+        "value": "NO (dm21/dm31 ~ 0.02686)"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-15",
+        "observable": "2-Flavor (|tau> vs |e+mu>) Leptogenesis with Harvey-Turner sphaleron Y_B = -(8/23) Y_L (F-C30-08 harvest)",
+        "status_note": "Updated per F-C30-08 & OW20-A: radiative M_R keeps tau_*^+ (>0, 7.47x smaller than 3f); tree M_R(0,0) flips back to tau_*^- on both flat and 2D E[2]",
+        "value": "Rad flat Y_B^2f(tau_*^+) = 2.15793153648e-9 (0.1339x 3f); Tree flat Y_B^2f(tau_*^+) = -2.858696532e-11 (selects tau_*^-)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-06",
+        "observable": "6D s=3 Casimir modulus stabilization: exhaustive 3905-tuple Z_5 root-lattice no-go on G_SM/SU(5)/SO(10) vs exceptional rescues",
+        "status_note": "Updated per OW19-C: universal AdS no-go for G_SM/SU(5)/SO(10) & Z_2 SS (-3/4); only exceptional E_6/E_7/E_8 Wilson lines escape",
+        "value": "SO(10)+3x16 max=-1456/25; E_8 pure YM max=0; E_8+3x27 max=1568/25"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-09",
+        "observable": "Non-SUSY 2HDM UV quartics & EWSB wall: OW18-B Chimera retracted; consistent G_SM 2HDM has 0 positive UV FPs",
+        "status_note": "Updated per F-OW18-02/03: Chimera run_2hdm_1loop & +27% prose Higgs mass error retracted; all 4 UV quartics lambda_{1..4}(M_X) unfixed",
+        "value": "DP Type-I disc=789.61391456067 (both roots < 0); DEP Type-II disc=-6.1385781717429 (<0)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-10",
+        "observable": "Sakharov induced G_{ind} UV anti-gravity wall (-50/3 / -33/2 Lambda^2) vs exact Sen IR 2(c-a) = -277/360",
+        "status_note": "Unchanged UV Proca anti-gravity wall; Sen IR log term survives separately",
+        "value": "quad_32 = -50/3, quad_33 = -33/2; Sen IR 2(c-a) = -277/360"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-16",
+        "observable": "Strong CP raw bar_theta_Q(tau_*^{+-}) != 0 (requires 7D CS axion relaxation)",
+        "status_note": "Consistent across all three seats",
+        "value": "|bar_theta_Q| = 0.015644 (OW12); Synergy S-1 raw = -1.105 / +0.953 rad (OW20-C)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-17",
+        "observable": "Light-generation e/mu over-steepness across all 6 perms",
+        "status_note": "Unresolved flavor wall",
+        "value": "max y_mu/y_s = 0.04069 (OW7); 2D E[2] Ye s1/s2 = 0.000496 (OW19-A)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-18",
+        "observable": "PMNS s12^2 vs s23^2 M_R trade-off",
+        "status_note": "Unresolved neutrino mixing wall (OW12)",
+        "value": "s12^2 in [0.0196, 0.0562]"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-19",
+        "observable": "2H GW Higgs perturbative portal gap & OW8-B 2D Kannike copositivity failure",
+        "status_note": "Unresolved scalar stability wall",
+        "value": "floor = 0.03964; OW8-B lam3+lam4 = -0.0591 < 0 at lam1 = 0"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-20",
+        "observable": "DM relic wall: LKP prompt decay (BR=0.005379) & Majorana psi_S Planck-suppressed p-wave (<sigma v> ~ M_{11}^{-2})",
+        "status_note": "Updated per OW19-B3: thermal freeze-out fails (overclosure); requires non-thermal/freeze-in/Dirac mechanism",
+        "value": "Majorana <sigma v> (3x16) = c5**2*v**2/(16*pi*M11**2) (g_GUT^4 & <S>^4 cancel)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-21",
+        "observable": "Convergent three-seat single-modulus / radion inflation no-go (Bridge B-3S-06)",
+        "status_note": "Verified the same across agy-002 (OW14), agy (AGY-C23), and agy-exp (X-REM12)",
+        "value": "N_accel_max = 0.811376 < 1 << 60"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-01",
+        "observable": "Macroscopic spacetime dimension D = 4 (zero derivation script on branch)",
+        "status_note": "Demoted per F-OW18-07: no agy-002 verification script derives D = 4",
+        "value": "D = 4 (UNCOMPUTED_ON_BRANCH)"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-22",
+        "observable": "Free UV dimensionless ratios & discrete bits (explicitly pricing 4 2HDM UV quartics, m_12^2/M_X^2, Re/Im(tau), & 1 CP bit)",
+        "status_note": "Corrected per F-OW18-07/08: removed phantom bulk 10_R (-151/6 -> -76/3) & priced all unfixed scalar/modulus inputs",
+        "value": "b_Spin10 (pure-fermion brane-2H) = -76/3; 15 priced continuous UV ratios"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-23",
+        "observable": "X1 QM Hilbert space, superposition & Born measurement",
+        "status_note": "Unchanged external boundary",
+        "value": "EXTERNAL_AXIOM"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-24",
+        "observable": "X37 non-abelian 2-form gerbe & unimodular Lambda_eff integration constant",
+        "status_note": "Unchanged external boundary",
+        "value": "OPEN_UV_BOUNDARY"
+      }
+    ],
+    "partition_matches_expected": true,
+    "total_observables": 24
+  },
+  "branch_custody_manifests": {
+    "all_verified": true,
+    "mismatches": [],
+    "total_manifests": 163,
+    "verified_manifests": 163
+  },
+  "card_id": "A2-OW16-v6",
+  "cross_card_locks_v6": {
+    "all_locks_passed": true,
+    "locks": {
+      "LOCK_01_type2_2hdm_2loop_ce_benchmark_and_haar": true,
+      "LOCK_02_two_flavor_leptogenesis_rad_vs_tree_and_mirror": true,
+      "LOCK_03_consistent_non_chimera_frg_type1_vs_type2": true,
+      "LOCK_04_prose_higgs_error_audited_and_e6_nw81_z4": true,
+      "LOCK_05_synergy144_sl2z_covariance_and_broken_antipodal": true,
+      "LOCK_06_computed_so2d_cubic_anomalies_and_spin10_beta_neg76_3": true,
+      "LOCK_07_ow19_2d_hyperbolic_kahler_and_gauss_bonnet": true,
+      "LOCK_08_ow19_e6_hierarchy_axion_thm2_and_majorana_pwave": true,
+      "LOCK_09_ow19_6d_s3_z5_root_lattice_census_3905": true,
+      "LOCK_10_6d_i8_7d_cs_axion_E_over_N_8_3_exact": true,
+      "LOCK_11_proca_antigravity_vs_sen_ir_exact": true,
+      "LOCK_12_brane2h_casimir_and_dim13_proca32": true
+    },
+    "locks_passed": 12,
+    "total_locks": 12
+  },
+  "empirical_firewall": "0 of 19",
+  "guardrail5_input_ledger_v6": {
+    "all_15_continuous_ratios_priced": true,
+    "dimensionful_anchor_count": 1,
+    "dimensionful_anchors": [
+      "v_EW"
+    ],
+    "discrete_broken_antipodal_weave_bits": "2.0",
+    "discrete_cp_branch_bits": "1.0",
+    "discrete_flavor_perm_bits_log2_18": "4.16992500144",
+    "discrete_synergy_s1_144_to_2_bits": "6.1699250014423",
+    "flavor_bulk_mass_ratios": [
+      "M_u L_c",
+      "M_d L_c",
+      "M_e L_c"
+    ],
+    "guardrail5_anchor_limit_ok": true,
+    "s1_bits_exact_log2_72": true,
+    "total_priced_continuous_ratios": 15,
+    "unfixed_2hdm_uv_quartics_priced": [
+      "lambda_1(M_X)",
+      "lambda_2(M_X)",
+      "lambda_3(M_X)",
+      "lambda_4(M_X)"
+    ],
+    "unfixed_soft_and_modulus_priced": [
+      "m_12^2 / M_X^2",
+      "Re(tau)",
+      "Im(tau)"
+    ],
+    "uv_continuous_ratios_core": [
+      "g_UV",
+      "tan(beta)",
+      "M_R / M_X"
+    ],
+    "uv_continuous_ratios_threshold": [
+      "M_PS / M_X",
+      "v_{B-L} / M_X"
+    ]
+  },
+  "historical_false_json_disclosure": {
+    "all_5_r_agy002_v1_cited_files_disclosed": true,
+    "files": [
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow11/verify_a2_ow11_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow12/verify_a2_ow12_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow13/a2_ow13_results.json"
+      },
+      {
+        "false_keys": [
+          "summary.all_gates_passed"
+        ],
+        "file": "relays/a2_ow13_referee/a2_ow13_referee_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow14/a2_ow14_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow14_referee/a2_ow14_referee_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow17/a2_ow17_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow18/a2_ow18_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow18_v2/a2_ow18_v2_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow19/a2_ow19_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow19_v2/a2_ow19_v2_results.json"
+      },
+      {
+        "false_keys": [
+          "overall_pass"
+        ],
+        "file": "relays/a2_ow2_referee/referee_a2_ow2_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow2_v3/verify_a2_ow2_v3_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow2_v4/verify_a2_ow2_v4_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow3/verify_a2_ow3_out.json"
+      },
+      {
+        "false_keys": [
+          "overall_pass"
+        ],
+        "file": "relays/a2_ow3_referee/referee_a2_ow3_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow6/verify_a2_ow6_out.json"
+      },
+      {
+        "false_keys": [
+          "overall_pass"
+        ],
+        "file": "relays/a2_ow6_referee/referee_a2_ow6_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow7/verify_a2_ow7_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_referee_v2/referee_a2_p879_v2_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_v2/verify_a2_p879_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_v3/verify_a2_p879_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_v4/verify_a2_p879_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_peer_synth/a2_peer_synth_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_wg96_v2/verify_a2_wg96_out.json"
+      }
+    ],
+    "total_historical_false_flag_jsons": 25
+  },
+  "hygiene": {
+    "float_or_complex_count": 0,
+    "forbidden_import_count": 0,
+    "passed": true,
+    "script_sha256": "e53806e9ff8f4031700639b56c8b0eb2b211a632d4815d5d9acfba9a503aaf32"
+  },
+  "planted_faults_v6": {
+    "caught": 6,
+    "controls": {
+      "PF_OW16V6_1_tamper_1byte_manifest": true,
+      "PF_OW16V6_2_keep_v5_3_derived_exact": true,
+      "PF_OW16V6_3_phantom_bulk_10R_beta_obs22": true,
+      "PF_OW16V6_4_two_dimensionful_anchors": true,
+      "PF_OW16V6_5_omit_unfixed_quartics_modulus": true,
+      "PF_OW16V6_6_double_divided_517_s1_bits": true
+    },
+    "gate_pass": true,
+    "total": 6
+  },
+  "remediates": "Card R-3S-FINAL (F-OW18-01..10) + F-C30-01/08 + A2-OW19-v3 + A2-OW20",
+  "seat": "agy-002"
+}
