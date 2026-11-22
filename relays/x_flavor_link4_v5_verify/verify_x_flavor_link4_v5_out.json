@@ -1,0 +1,200 @@
+{
+  "ast_scan": {
+    "ast_clean_passed": true,
+    "binary64_cast_call_count": 0,
+    "float_or_complex_literal_count": 0,
+    "float_or_complex_literal_lines": []
+  },
+  "card": "AGY-EXP_X-FLAVOR-LINK4",
+  "empirical_anchor_status": "0 of 19",
+  "modules": {
+    "F1": {
+      "k5_harmonic_dbar_rel": "4.28947864093e-25",
+      "k5_subgroup_dbar_rel": "3.19079954823e-25",
+      "max_single_point_dbar_rel": "4.40780799194e-25",
+      "passed": true,
+      "pc_fl4_1_caught": true,
+      "planted_conjugate_St_W_dbar_rel": "0.734757323346",
+      "planted_conjugate_St_only_dbar_rel": "1.0",
+      "planted_norm_cube_dbar_rel": "0.395187129219",
+      "s_triplet_modular_S_weight_3_2_err": "2.18952885051e-47",
+      "s_triplet_modular_T_err": "3.94722926981e-47"
+    },
+    "F2": {
+      "harmonic_z2_and_antipode_err": "0.0",
+      "max_heisenberg_cocycle_err": "1.05270661494e-44",
+      "max_r2_evenness_err": "8.55720654481e-46",
+      "passed": true,
+      "pc_fl4_2_caught": true,
+      "planted_unsymmetrized_ckm_drift": "0.27321127538",
+      "subgroup_avg_antipode_err": "3.43820197132e-48",
+      "zeta_arg_over_2pi": {
+        "down_p5": "1.488098047e-47",
+        "down_p6": "0.3333333333",
+        "lep_p5": "-7.581654852e-46",
+        "lep_p6": "5.576545082e-46",
+        "nu_BL_p5": "-0.2",
+        "up_p5": "0.2"
+      }
+    },
+    "F3": {
+      "b1659_det_law_k5_rel_err": "7.83047637226e-47",
+      "det_Wd_K56": "4.532037254333706e-5",
+      "det_We_K56": "8.505789243142012e-5",
+      "det_Wu_K5": "8.533212358452736e-6",
+      "det_Wu_K5_harmonic": "0.0001681924064304642",
+      "max_single_point_det_W": "2.8521564467e-48",
+      "max_single_point_riemann_null_quat": "1.49545898827e-45",
+      "passed": true,
+      "pc_fl4_3_caught": true,
+      "planted_single_orbit_det_Wu": "2.05236748731e-49",
+      "sv_Wu_K5": [
+        "0.00724025060756",
+        "0.0197301085442",
+        "0.0597350842313"
+      ]
+    },
+    "F4": {
+      "ckm_v12_v23_v13_J": [
+        "0.362232584511",
+        "0.165446914121",
+        "0.0448083322008",
+        "-0.00222223316523"
+      ],
+      "k56_rel_det_split": "0.876813619528",
+      "k56_sv_ratio_split": "0.168469264601",
+      "max_e5_24pts_lepton_down_sv_diff": "2.80724753998e-46",
+      "p6_both_Rk_puncture_zero": true,
+      "p6_min_3channel_abs": "0.181200114655",
+      "p6_min_3channel_mag_split": "0.0879524545569",
+      "passed": true,
+      "pc_fl4_4_caught": true,
+      "planted_k5_only_sv_diff": "3.28429327576e-47"
+    },
+    "F5": {
+      "eps_N1_tau_and_emu": [
+        "0.000390649373938",
+        "0.000133368563637"
+      ],
+      "gbs8_45_vs_90_graded_type2_2loop_err": "3.05701818053e-12",
+      "ir_Yd_flat_18": [
+        "-0.0502285306402260442",
+        "0.572775301778005175",
+        "0.220076320125128259",
+        "0.259200691890259164",
+        "0.0284459682834330578",
+        "0.0916452165707896037",
+        "0.00872677325969139713",
+        "-0.26282678759398103",
+        "0.130178932377349756",
+        "-0.380024756973154908",
+        "-0.474856422419005949",
+        "0.0873577986742658271",
+        "-0.093439806122678953",
+        "0.0884433210814150527",
+        "-0.702248658070827615",
+        "0.274003372268484744",
+        "-0.849723772608457351",
+        "-0.42856723505407123"
+      ],
+      "ir_Ye_flat_18": [
+        "-0.0423083251438566984",
+        "0.000718672261224364266",
+        "0.0520106195082243737",
+        "-0.057226142664450073",
+        "0.0327488057508582774",
+        "-0.241961354515293905",
+        "0.0465895408067867929",
+        "-0.0936692519618946602",
+        "-0.133220338469899948",
+        "-0.0342559115745505472",
+        "-0.0190172192585462432",
+        "0.0142089548058928155",
+        "-0.218686104879855462",
+        "-0.0218333647475640745",
+        "-0.0312093244748910682",
+        "-0.105845786141342406",
+        "-0.105612889378378107",
+        "-0.0724554397332865632"
+      ],
+      "ir_Yu_flat_18": [
+        "-0.555888643941012192",
+        "0.0693117784893497315",
+        "-0.348164631694046769",
+        "0.0645744781250489067",
+        "-0.468597847934133497",
+        "-0.0233499159573069538",
+        "-0.347758106082216588",
+        "-0.0179985018056006794",
+        "0.763978614181188899",
+        "-0.0986719962809428084",
+        "0.227601105253502218",
+        "0.529988814803855434",
+        "0.224477227664886385",
+        "0.0474688509204031455",
+        "0.217865441648086502",
+        "0.530300599685267214",
+        "0.215553660888033816",
+        "0.496021458400462796"
+      ],
+      "ir_ckm_v12_v23_v13_J": [
+        "0.371016285668",
+        "0.190224370706",
+        "0.0518493872808",
+        "-0.0029335920881"
+      ],
+      "ir_ed_light_ratio_split": "0.0676807346252",
+      "ir_g1sq_g2sq_g3sq": [
+        "0.203856180390605336",
+        "0.501031786645988098",
+        "3.44890054286883022"
+      ],
+      "killing_trace_16_6Y_Qchi": 0,
+      "min_5sector_det_6Y_plus_3BL": "8.53321235845e-6",
+      "min_5sector_det_unified_Q_m3_2": "6.55397535484e-6",
+      "passed": true,
+      "pc_fl4_5_caught": true,
+      "planted_6Y_det_WR": "0",
+      "planted_6Y_det_Wnu": "1.27234397352e-49",
+      "planted_Qchi_ed_sv_diff": "8.2107331894e-47",
+      "su3_5_x_u3_scrambling_max_err": "7.00649232162e-46"
+    },
+    "F6": {
+      "discrete_structural_bits_priced": {
+        "antipodal_sign_ambiguity_bits": 0,
+        "connection_lift_01_heisenberg_vs_harmonic_Z2": "1 bit (to be derived from 6D kinetic action in Link B)",
+        "lefschetz_monodromy_pair_LR_x_T4S": "log2(72) ~ 6.17 bits (priced in Card X-HARVEST-3S-1)",
+        "two_bidoublet_locus_assignment_Phi1_K5_Phi2_K56": "2 bits (4 non-empty subset assignments of {K5, K6})"
+      },
+      "kahler_external_leg_flavor_distortion": "7.41460096876e-39",
+      "kahler_gram_err_tau_cov": "4.01436290995e-36",
+      "kahler_gram_err_tau_rect": "1.53859236736e-38",
+      "passed": true,
+      "pc_fl4_6_caught": true,
+      "prior_internal_dimensionless_flavor_params": 18,
+      "remaining_continuous_link_b_target_count": 13,
+      "remaining_continuous_link_b_targets": [
+        "Re(tau)",
+        "Im(tau)",
+        "alpha_GUT",
+        "r_LR_or_v_R_over_M_X",
+        "y_u0",
+        "y_d0",
+        "y_e0",
+        "y_nu0",
+        "M_R0_over_v_EW",
+        "v_S_over_v_EW",
+        "kappa_S_over_v_S",
+        "mu_SH_over_v_S",
+        "lambda_1..4_and_portal_quartics"
+      ],
+      "remaining_internal_texture_params_given_tau": 0
+    }
+  },
+  "modules_passed": 6,
+  "modules_total": 6,
+  "planted_controls_caught": 6,
+  "planted_controls_total": 6,
+  "version": "v5",
+  "working_dps": 45
+}
