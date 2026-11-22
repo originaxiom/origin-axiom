@@ -933,10 +933,10 @@ def solve_conformal_ewsb_2d_newton(l1, l2, l3, l4, m12_sq):
     # Direct 2D Newton solver on (v1, v2) for conformal 2HDM potential:
     # V(v1, v2) = -m12_sq * v1 * v2 + (l1/8) v1^4 + (l2/8) v2^4 + ((l3+l4)/4) v1^2 v2^2
     l34 = l3 + l4
-    # Initial guess (strictly away from closed-form solution to prove genuine 2D Newton convergence)
-    v1 = mp.mpf(7) / 10
-    v2 = mp.mpf(7) / 10
-    for _ in range(30):
+    # Initial guess strictly in the convex positive bowl (r > r_min) and off v1=v2 diagonal
+    v1 = mp.mpf(4)
+    v2 = mp.mpf(3)
+    for _ in range(40):
         g1 = -m12_sq * v2 + (l1 / 2) * v1 ** 3 + (l34 / 2) * v1 * v2 ** 2
         g2 = -m12_sq * v1 + (l2 / 2) * v2 ** 3 + (l34 / 2) * v1 ** 2 * v2
         if max(abs(g1), abs(g2)) < mpf_pow10(-34):
@@ -947,8 +947,11 @@ def solve_conformal_ewsb_2d_newton(l1, l2, l3, l4, m12_sq):
         detH = H11 * H22 - H12 * H12
         dv1 = (H22 * g1 - H12 * g2) / detH
         dv2 = (-H12 * g1 + H11 * g2) / detH
-        v1 -= dv1
-        v2 -= dv2
+        step = mp.mpf(1)
+        while (v1 - step * dv1 <= 0) or (v2 - step * dv2 <= 0):
+            step = step / 2
+        v1 -= step * dv1
+        v2 -= step * dv2
     g1 = -m12_sq * v2 + (l1 / 2) * v1 ** 3 + (l34 / 2) * v1 * v2 ** 2
     g2 = -m12_sq * v1 + (l2 / 2) * v2 ** 3 + (l34 / 2) * v1 ** 2 * v2
     res = max(abs(g1), abs(g2))
@@ -1673,8 +1676,8 @@ def run_ref_d(ow18_v3):
             comb_a = [sp.binomial(a_mult, p) for p in range(a_mult + 1)]
             comb_b = [sp.binomial(b_mult, q) for q in range(b_mult + 1)]
             for p in range(a_mult + 1):
-                # SU(a)^3 anomaly of Lambda^p(C^a) is (a - 2p) * C(a - 3, p - 1) for 1 <= p <= a-1, a >= 3
-                anom_p = int((a_mult - 2 * p) * sp.binomial(a_mult - 3, p - 1)) if (a_mult >= 3 and 1 <= p <= a_mult - 1) else 0
+                # Exact SU(N)^3 anomaly of Lambda^p(C^N) = (N - 2p)/(N - 2) * C(N - 2, p - 1) for 1 <= p <= N-1, N >= 3
+                anom_p = int(sp.Rational(a_mult - 2 * p, a_mult - 2) * sp.binomial(a_mult - 2, p - 1)) if (a_mult >= 3 and 1 <= p <= a_mult - 1) else 0
                 for q in range(b_mult + 1):
                     if (p + q) % 2 != 0:
                         continue
@@ -1683,7 +1686,7 @@ def run_ref_d(ow18_v3):
                     trQ += mult * Q
                     trQ3 += mult * (Q ** 3)
                     a_cub_a += int(comb_b[q]) * anom_p
-                    anom_q = int((b_mult - 2 * q) * sp.binomial(b_mult - 3, q - 1)) if (b_mult >= 3 and 1 <= q <= b_mult - 1) else 0
+                    anom_q = int(sp.Rational(b_mult - 2 * q, b_mult - 2) * sp.binomial(b_mult - 2, q - 1)) if (b_mult >= 3 and 1 <= q <= b_mult - 1) else 0
                     a_cub_b += int(comb_a[p]) * anom_q
             anomaly_free = (trQ == 0) and (trQ3 == 0) and (a_cub_a == 0) and (a_cub_b == 0)
         census.append(
