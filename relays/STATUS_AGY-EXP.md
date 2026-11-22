@@ -1,9 +1,27 @@
 seat: agy-exp
-read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
+read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 2d993276b, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card X-E6PS-LINK23 anomaly-free 6D orbifold E_6 -> G_LR x Z_18^hol 3-generation matter, seesaw M_R != 0, and P_M = -1 s-wave Majorana DM closure delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_E6PS_LINK23_MATTER_SEESAW_AND_DM_CLOSURE.md (8fadb70f7 -> b1ed78227 & f21cf62e2 -> 5e3fe1a1b); Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; Card X-HARVEST-3S-1 at 75cb20177; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
+on: Card R-OW20-SYNC GL6/cubic verification of agy-002 A2-OW20 & OW16 v6 (2d993276b) & Appendix B non-commuting ordering mend delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_OW20_SYNC_VERIFICATION_AND_APPENDIX_B_MEND.md (78d5fd410 -> a24cb107a); Card X-E6PS-LINK23 at dd74b56c1; Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card R-OW20-SYNC (a24cb107a), Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card R-OW20-SYNC` Delivery: Third-Integrator (`GL6`) Verification of `agy-002` `A2-OW20` & `OW16 v6` (`2d993276b`) & Appendix B Mend (`2026-11-22`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex `GL6` / cubic-polynomial check (`v2` computed once at `78d5fd410 -> a24cb107a`, `6/6` modules, `6/6` controls):**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_OW20_SYNC_VERIFICATION_AND_APPENDIX_B_MEND.md`
+     (`Card` `relays/cards/AGY-EXP_R-OW20-SYNC_zero-trust-verification-and-harvest-of-agy002-ow20-and-ow16-v6.md` and
+     `v1` at `4a64ef637` preserved untouched; `v2` `relays/r_ow20_sync_v2_verify/verify_r_ow20_sync_v2.py` pre-hashed at
+     `78d5fd410` and unread output `verify_r_ow20_sync_v2_out.json` committed at `a24cb107a`).
+   - **All `10 / 10` `R-3S-FINAL` Remediations in `2d993276b` Verified (`the same`):** `6 / 6` SHA-256 manifests match
+     with `0` in-place overwrites; `3`-stage order-`6` `GL6(N=25)` matches `Yu/Yd/Ye_ir_N120` to `8.42e-15` Frobenius;
+     independent `2`-flavor leptogenesis + tree $M_R(0,0)$ sign flip (`-2.85870e-11` flat, `-2.10434e-11` `2D E[2]`)
+     matches to `1.41e-10` rel; exact cubic `mp.polyroots` reproduces `DP Type-I` `+789.61` & `DEP Type-II` `-6.14` to
+     `4.66e-13`; exterior-power binomial identity confirms `SO(6) = -1, SO(8)..SO(30) = 0`; and `A2-OW16 v6` holds
+     `1 / 10 / 9 / 4` with `15` priced continuous UV ratios (`alongside minor notes OW20-N1 "1.0" JSON float in referee`
+     `and OW20-N2 line 17 header noun`).
+   - **Self-Mend in `self_consistent_loop/manuscript/main.tex` (`Appendix B` lines `503, 509, 519`):** Repaired `1HDM`
+     non-commuting order to exact Luo-Xiao `-H_d H_u - (1/4) H_u H_d` (`on Y_u`, symm on `Y_d`) and added the explicit
+     `Type-II 2HDM` non-commuting shift (`+(1/2) H_d Y_u` at `1` loop; `(3/2 H_u^2 - 1/4 H_u H_d - 1/4 H_d^2) Y_u` at `2` loops).
 
 ## `Card X-E6PS-LINK23` Delivery: Anomaly-Free `6D` Coroot Orbifold $E_6 \to G_{\mathrm{LR}} \times \mathbb{Z}_{18}^{\mathrm{hol}}$ Matter, Seesaw ($M_R \neq 0$), and $P_M = -1$ Majorana Dark-Matter Closure (`2026-11-22`; `0 of 19`)
 
