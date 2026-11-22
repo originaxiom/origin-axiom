@@ -1,0 +1,51 @@
+{
+  "E1_hurwitz_d4_modulus_theorem": {
+    "E1_passed": true,
+    "attractive_casimir_d2V_at_unit_point": "-180/1",
+    "attractive_casimir_plus_flux_Rstar": "10**(1/3)*a15**(1/3)/(2*c12**(1/3))",
+    "control_1_casimir_flux_saddle_caught": true,
+    "flux_plus_orientifold_d2V_at_unit_point": "96/1",
+    "general_curvature_R2_d2V_identity_verified": true,
+    "repulsive_casimir_plus_flux_runaway": true
+  },
+  "E2_qcd_scale_and_axion_quality": {
+    "E2_passed": true,
+    "Lambda_QCD_3f_over_vEW_2loop": "0.0335861923915410384776266311624",
+    "Lambda_QCD_3f_rg_invariance_rel_err": "5.7634024e-16",
+    "Lambda_QCD_4f_over_vEW_2loop": "0.0269300186459519564592804917515",
+    "Lambda_QCD_5f_over_vEW_2loop": "0.0179132425366290428813413892482",
+    "caswell_jones_2loop_bench_abs_err": "8.1465528e-17",
+    "control_2_flynn_randall_axion_quality_caught": true,
+    "control_3_lambda_qcd_sign_and_rg_inv_caught": true,
+    "flynn_randall_log10_abs_delta_theta_uv": "-54.8151228078",
+    "pre_registered_F3_mc_below_Lambda_QCD_confirmed": true,
+    "uv_abs_det_Yu_Yd": "4.427284588667e-19",
+    "uv_det_su3_basis_scramble_rel_err": "7.8473349e-50"
+  },
+  "E3_conformal_inflation_and_dm_freezein": {
+    "E3_passed": true,
+    "conformal_S4_eta_N60": "-0.015530701474597",
+    "conformal_S4_ns_N60": "0.967827137926011410871242840954",
+    "conformal_S4_r_N60": "0.00296389099945222972162343807469",
+    "control_4_conformal_attractor_vs_fricke_caught": true,
+    "control_5_dm_vpsi_dependence_caught": true,
+    "dm_psiS_mass_quad_scaling_2x_vpsi": "4/1",
+    "efold_equation_residual": "0.0",
+    "u0_cancels_from_eps_and_eta": true
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_and_call_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "passed": true
+  },
+  "card": "AGY-C33",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}

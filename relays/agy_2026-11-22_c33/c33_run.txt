@@ -1,0 +1,1 @@
+AGY-C33 producer complete in 4s: LamQCD_3f/v=0.0335862, log10|dtheta_UV|=-54.8151228078, ns60=0.96782714, r60=0.00296389, controls=5/5
