@@ -98,21 +98,21 @@
     "manifests_checked": 10
   },
   "REF_A_ow19_a_disjoint_countercheck": {
-    "gate_ref_a": false,
+    "gate_ref_a": true,
     "ref_a1_fuchsian_rk4_fourier": {
-      "K_z1": "-0.9999999999507328",
+      "K_z1": "-0.9999999999989786",
       "L2_diff_vs_ow19": "4.8664167e-10",
       "L2_tau8_referee": "2.51518813142262267",
       "bc_diff_vs_ow19": "4.8664173e-10",
       "bc_star_referee": "0.626404522167170572",
       "c_star_diff_vs_ow19": "1.6253001e-13",
       "c_star_referee": "(-1.608577465379272699421 + 0.00400843341049424640678j)",
-      "curv_err": "4.9267161e-11",
+      "curv_err": "1.0213584e-12",
       "im_tr_max": "1.7478343e-13",
       "max_im_R": "1.2594503e-13",
-      "ok": false,
-      "per_1_err": "3.6505788e-8",
-      "per_tau_err": "1.1391617e-7",
+      "ok": true,
+      "per_1_err": "4.7207772e-12",
+      "per_tau_err": "1.4609139e-11",
       "tr_comm_err": "6.6813324e-14"
     },
     "ref_a2_disjoint_2d_quadrature": {
@@ -349,7 +349,7 @@
   },
   "REF_D_planted_fault_controls": {
     "PF_REF_4_c6_naive": "17856/25",
-    "PF_REF_5_K_inverted": "3.742826302",
+    "PF_REF_5_K_inverted": "3.742826345",
     "PF_REF_6_neg_hess_eigs": [
       "-1336.562622",
       "-61.11146187"
@@ -418,7 +418,7 @@
       "recomputed_sha256_payload_digest": "b8cf65f9199bf661fdc18427a4e448606c042fe244e337b1fe3e7bbe19b44c81"
     }
   },
-  "all_referee_checks_passed": false,
+  "all_referee_checks_passed": true,
   "audited_commits": {
     "a2_ow19_v3": "62f08b148",
     "a2_peer_synth_v2": "c161ef045",
@@ -426,8 +426,8 @@
     "peer_agy_exp_x_harvest": "75cb20177"
   },
   "card_id": "A2-OW19-REFEREE",
-  "discrepancy_count": 1,
-  "elapsed_seconds_int": 43,
+  "discrepancy_count": 0,
+  "elapsed_seconds_int": 59,
   "firewall": "0 of 19",
   "planted_faults_caught": 6,
   "planted_faults_total": 6,
