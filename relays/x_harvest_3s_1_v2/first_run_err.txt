@@ -1,0 +1,12 @@
+Pre-output stop on relays/x_harvest_3s_1_v2/verify_x_harvest_3s_1_v2.py (b3baecb7e; zero output files written; v2 left frozen unedited, superseded before any output by relays/x_harvest_3s_1_v3/verify_x_harvest_3s_1_v3.py):
+
+Traceback (most recent call last):
+  File "relays/x_harvest_3s_1_v2/verify_x_harvest_3s_1_v2.py", line 998, in <module>
+    main()
+  File "relays/x_harvest_3s_1_v2/verify_x_harvest_3s_1_v2.py", line 990, in main
+    assert payload["all_6_modules_passed"], "One or more modules failed!"
+AssertionError: One or more modules failed!
+
+Causes identified by static algebraic inspection (zero output JSON written):
+1. In H2, RT_M used single-power theta_k/theta_1 phases ((0,2,1), (0,7,7)) (mixing even/odd mod 8 -> order 384) instead of squared half-period modes (-theta_2^2, -theta_4^2, i*theta_3^2)/eta^3 with rT = ((0,2,1), (1,1,5)) and rS = ((1,0,2), (1,1,1)) (pure odd phases on transpositions -> exact order 96, center 4, quotient 24).
+2. In H1, under z = z' / (-2 + i), bc_star(tau_*^+) = bc_star(i) - (1/2) ln 5, so L_2(tau_*^+) = pi - bc_star(tau_*^+) = L_2(i) + (1/2) ln 5 (plus sign, not minus), and linear inward steps z0 -> zs near z=0 have |h|/|z_s| ~ O(1), replaced by n_rad=96 geometric steps z_0 * (|z_s|/|z_0|)^(k/96) and exact Hurwitz Gamma(1/4) verification in v3.
