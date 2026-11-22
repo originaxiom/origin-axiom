@@ -1,0 +1,115 @@
+{
+  "L23_0_custody_manifests_and_quotes": {
+    "gate_0": true,
+    "manifests_matched": 7,
+    "manifests_total": 7,
+    "peer_scripts_all_clean_ast": true,
+    "quote_checks": {
+      "Q1_hardcoded_plus5": true,
+      "Q2_fermions_unshifted_u1_only": true,
+      "Q3_literal_zero_Zprime": true,
+      "Q4_untwisted_casimir_formula": true,
+      "Q5_mod9_chiS_neg1": true,
+      "Q6_main_tex_Zprime_claim": true
+    },
+    "verbatim_quotes_matched": 6,
+    "verbatim_quotes_total": 6
+  },
+  "L23_A_verified_link23_theorems": {
+    "dim_351p": 351,
+    "e3_b1_b2_exact_match": true,
+    "e5_goldstone_and_det_exact": true,
+    "e5_weyl_majorana_swave_exact": true,
+    "e6_6d_quartic_factorizes": true,
+    "gate_a": true,
+    "gl4_vs_peer_rk4_rel_err": "4.018658e-11",
+    "r_LR_1bidoublet_control": "8/17",
+    "r_LR_chiral": "2/5",
+    "r_LR_dparity": "8/25",
+    "two_loop_B_eff_at_r_2_5": "0.7491236685"
+  },
+  "L23_B_five_first_principles_catches": {
+    "LINK23_F1_Z2_Cpsi_impossibility": {
+      "all_valid_flips_also_invert_H_BL": true,
+      "inner_aut_forbidden_by_asymmetric_27": true,
+      "max_fixed_Cartan_dim_among_valid_flips": 3,
+      "r_u1_roots_broken_out_of_72": 32,
+      "valid_Hpsi_flip_sign_involutions": 8
+    },
+    "LINK23_F2_orbifold_16_split_and_chiS_charge": {
+      "Qpsi_D3_D3bar_mass_mod3": 2,
+      "Qpsi_singlet_in_27": 4,
+      "all_5_UV_insensitive_Z3_anomalies_zero_without_chiS_at_N3": true,
+      "disjoint_phase_sectors_inside_16": 4,
+      "mod9_Z3_cubic_with_27_singlet_at_N3": 6,
+      "sector_dims_in_16": [
+        2,
+        2,
+        6,
+        6
+      ],
+      "untwisted_weights_in_27": 0
+    },
+    "LINK23_F3_WR_ZR_hierarchy_wall": {
+      "M_LR_over_v_EW_at_r25_L32": "217998774.7",
+      "one_loop_SU2R_portal_beta_g4": "6",
+      "one_loop_WR_Higgs_shift_over_v_EW2": "4.538156693e+14"
+    },
+    "LINK23_F4_6d_twisted_casimir": {
+      "twisted_6d_casimir_tau_8_1plus8i_over5": "-12.51736719",
+      "twisted_6d_casimir_tau_i": "-0.9572334203",
+      "twisted_6d_casimir_tau_star_2plusi_over5": "82.71733289",
+      "two_cycle_T2_surviving_roots": 10,
+      "untwisted_6d_casimir": -6
+    },
+    "LINK23_F5_toy_E4_and_Z3_domain_walls": {
+      "Qpsi_S_cubed_violates_U1psi": 12,
+      "e4_contains_szego_or_theta_code": false
+    },
+    "gate_b": true
+  },
+  "L23_C_ow19_f1_f3_remediation": {
+    "OW19_F1_referee_overwrite_audit": {
+      "a2_ow19_referee_output_commits": 3,
+      "a2_ow19_referee_script_commits": 5,
+      "a2_ow20_referee_script_commits_zero_overwrite": 1
+    },
+    "OW19_F2_already_closed_in_A2_OW20": {
+      "ow20_Z4_forbids_MR": true,
+      "ow20_rad_flat_yb_2f_plus": "2.15793153648e-9"
+    },
+    "OW19_F3_exact_48dps_frobenius_bc_star": {
+      "L2_exact_48dps": "2.51518813088999688666864810396449329472484498059",
+      "bc_star_Ma_vs_Mb_diff": "1.2762782e-47",
+      "bc_star_exact_48dps": "0.626404522699796351793995279315009589472324418788",
+      "c_star_48dps_im": "0.00400843341049611801718037404351742807232766267334",
+      "c_star_48dps_re": "-1.60857746537943521865023225808014285439365385994",
+      "ow19_finite_r_residual_confirmed": "4.5984052e-11",
+      "tr_comm_plus_2_err": "1.0423493e-45"
+    },
+    "gate_c": true
+  },
+  "L23_D_planted_fault_controls": {
+    "PF_L23_1_ru1_breaks_32_roots": true,
+    "PF_L23_2_27_singlet_fails_mod9": true,
+    "PF_L23_3_1bidoublet_shifts_r_LR": true,
+    "PF_L23_4_kapS_zero_kills_det": true,
+    "PF_L23_5_twisted_casimir_flips_sign": true,
+    "PF_L23_6_ow19_finite_r_resid_caught": true,
+    "gate_d": true,
+    "planted_faults_caught": 6,
+    "planted_faults_total": 6
+  },
+  "all_gates_passed": true,
+  "card": "A2-PEER-LINK23",
+  "firewall": "0 of 19",
+  "hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0,
+    "script_sha256": "ebe91d5d35ae7162580e0831bd72af0aa84850f5832e824cdec2ef2a7606817a"
+  },
+  "seat": "agy-002",
+  "target_peer_rev": "dd74b56c1"
+}
