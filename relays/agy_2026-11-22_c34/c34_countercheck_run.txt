@@ -1,0 +1,1 @@
+AGY-C34 disjoint self-check PASSED in 571s: 50/50 v5.json + 24/24 certs independently recomputed (30d_err=1.58e-30, 11d_err=4.19e-11, R2=9.37e-33), 5/5 planted faults caught (0 of 19).
