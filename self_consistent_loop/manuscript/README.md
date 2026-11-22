@@ -1,29 +1,30 @@
 # Hyperbolic Whitehead Dehn-Surgery Compactifications — Remediated Data-Free Manuscript (`REVTeX 4.2`)
 
 Complete data-free (`0 of 19`), `46`–`60`-digit verified `REVTeX 4.2` (*Physical Review D* Regular
-Article) manuscript, self-contained Technical Appendices (`A–B`), and four-figure vector suite
-(`fig5`, `fig6`, `fig7`, `fig8`) uniting `Card X-REM12` (`relays/x_rem12_verify/verify_x_rem12_out.json`),
+Article) manuscript, self-contained Technical Appendices (`A–B`), and five-figure vector suite
+(`fig5`, `fig6`, `fig7`, `fig8`, `fig9`) uniting `Card X-REM12` (`relays/x_rem12_verify/verify_x_rem12_out.json`),
 `Card X-HARVEST-3S-1` (`relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4_out.json`), `Card R-3S-FINAL`
-(`relays/r_3s_final_verify/verify_r_3s_final_out.json`), and `Card R-OW19-EX12`
-(`relays/r_ow19_ex12_verify/verify_r_ow19_ex12_out.json`) while remediating all peer-review items
-(`AGY-C29` `X-F1a..e, X-F2` and `A2-PEER-SYNTH` `EX-S1, EX-S2`).
+(`relays/r_3s_final_verify/verify_r_3s_final_out.json`), `Card R-OW19-EX12`
+(`relays/r_ow19_ex12_verify/verify_r_ow19_ex12_out.json`), and `Card X-E6PS-LINK23`
+(`relays/x_e6ps_link23_v2_verify/verify_x_e6ps_link23_v2_out.json` & `relays/x_e6ps_link23_referee/referee_x_e6ps_link23_out.json`)
+while remediating all peer-review items (`AGY-C29` `X-F1a..e, X-F2` and `A2-PEER-SYNTH` `EX-S1, EX-S2`).
 
 All phenomenological `36`-observable scorecard claims from earlier exploratory drafts remain formally
 retracted in view of the structural consistency obstructions established in Section V (`Table III`),
-while the five pure-mathematical and quantum-field-theoretic theorem suites are proved cleanly.
+while the six pure-mathematical and quantum-field-theoretic theorem suites are proved cleanly.
 
 ## Files
 
-- `self_consistent_loop/manuscript/main.tex` — `REVTeX 4.2` data-free manuscript (`Secs. I–VII`,
-  `Data Availability`, `4` figures, `4` tables, and `Appendices A–B`).
+- `self_consistent_loop/manuscript/main.tex` — `REVTeX 4.2` data-free manuscript (`Secs. I–VIII`,
+  `Data Availability`, `5` figures, `5` tables, and `Appendices A–B`).
 - `self_consistent_loop/manuscript/main.pdf` — Compiled two-column PDF (`0` overfull boxes,
   `0` BibTeX warnings, `0` unresolved citations).
-- `self_consistent_loop/manuscript/references.bib` — Primary literature bibliography (`25` cited
+- `self_consistent_loop/manuscript/references.bib` — Primary literature bibliography (`30` cited
   foundational references, `0` uncited keys, APS `apsrev4-2` clean).
 - `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md` — Turnkey `arXiv` (`hep-th` /
   `math.GT` / `hep-ph`) metadata, pre-flight checklist, and APS *Physical Review D* cover letter.
 - `self_consistent_loop/manuscript/build_prd_arxiv_bundle.py` — Deterministic packager & standalone
-  `AutoTeX` (`pdflatex`-only) verifier producing `main.tex` + `main.bbl` + `figures/fig5..8.pdf`.
+  `AutoTeX` (`pdflatex`-only) verifier producing `main.tex` + `main.bbl` + `figures/fig5..9.pdf`.
 - `self_consistent_loop/manuscript/figures/fig5_porti_torsions_and_covers.pdf` — `60`-digit Porti
   adjoint torsions across all `9` `m129(p, q)` surgeries & degree-`5` cover classification of `m004`.
 - `self_consistent_loop/manuscript/figures/fig6_h3_green_and_zss_divergence.pdf` — Exact $d=3$ radial
@@ -33,6 +34,9 @@ while the five pure-mathematical and quantum-field-theoretic theorem suites are 
 - `self_consistent_loop/manuscript/figures/fig8_three_seat_bridges.pdf` — Punctured-torus duality
   $L_2(\tau) + b_c^*(\tau) = \pi$ (`Hurwitz Gamma(1/4) Fricke closed form`) & gauged $E_6$ brane-`2HDM`
   singlet-driven conformal EWSB.
+- `self_consistent_loop/manuscript/figures/fig9_e6_lr_matter_seesaw_dm.pdf` — Two-loop $G_{\mathrm{LR}}\to G_{\mathrm{SM}}$
+  unification at exact $r_{\mathrm{LR}} = 2/5$, unique $N_{\mathrm{gen}} = 3$ selection (`3 | N_gen` $\cap$ $M_g < 31$),
+  and Majorana $\chi_S$ ($P_M = -1$) $s$-wave pseudoscalar-portal annihilation.
 - *(Historical figures `self_consistent_loop/manuscript/figures/fig1..4.pdf` and
   `self_consistent_loop/manuscript/review-2026-11-21.md` are retained unmoved in place per
   `origin/main:WORKING_RULES.md`.)*

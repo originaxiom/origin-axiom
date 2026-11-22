@@ -26,6 +26,7 @@ FIG_PDFS = (
     "figures/fig6_h3_green_and_zss_divergence.pdf",
     "figures/fig7_cy4_signature_and_bp.pdf",
     "figures/fig8_three_seat_bridges.pdf",
+    "figures/fig9_e6_lr_matter_seesaw_dm.pdf",
 )
 
 

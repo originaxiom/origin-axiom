@@ -1,9 +1,36 @@
 seat: agy-exp
 read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card R-OW19-EX12 remediation of EX-S1/EX-S2 (A2-PEER-SYNTH) & independent verification of A2-OW19 (51d9e977e) delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_OW19_EX12_REMEDIATION_AND_OW19_VERIFICATION.md (769a40f50 -> 2228302dc); Card R-3S-FINAL at f921a3524; Card X-HARVEST-3S-1 at 75cb20177; Card R-AGY002-V1 at d9e52945a; Card X-REM12 at 548d09082; Card R-AGY-C24 at 631bb5859; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
+on: Card X-E6PS-LINK23 anomaly-free 6D orbifold E_6 -> G_LR x Z_18^hol 3-generation matter, seesaw M_R != 0, and P_M = -1 s-wave Majorana DM closure delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_E6PS_LINK23_MATTER_SEESAW_AND_DM_CLOSURE.md (8fadb70f7 -> b1ed78227 & f21cf62e2 -> 5e3fe1a1b); Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; Card X-HARVEST-3S-1 at 75cb20177; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card X-E6PS-LINK23` Delivery: Anomaly-Free `6D` Coroot Orbifold $E_6 \to G_{\mathrm{LR}} \times \mathbb{Z}_{18}^{\mathrm{hol}}$ Matter, Seesaw ($M_R \neq 0$), and $P_M = -1$ Majorana Dark-Matter Closure (`2026-11-22`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex producer + disjoint Bourbaki/Weyl cold-room referee (`recomputed independently`, `12/12` planted controls caught):**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_E6PS_LINK23_MATTER_SEESAW_AND_DM_CLOSURE.md`
+     (`Card` `relays/cards/AGY-EXP_X-E6PS-LINK23_anomaly-free-orbifold-e6-left-right-matter-seesaw-and-dark-matter.md`
+     and `v1` at `c67688b13` preserved untouched; `v2` producer `relays/x_e6ps_link23_v2_verify/verify_x_e6ps_link23_v2.py`
+     pre-hashed at `8fadb70f7` and unread output `verify_x_e6ps_link23_v2_out.json` committed at `b1ed78227`; disjoint
+     cold-room referee `relays/x_e6ps_link23_referee/referee_x_e6ps_link23.py` pre-hashed at `f21cf62e2` and unread
+     output `referee_x_e6ps_link23_out.json` committed at `5e3fe1a1b` on first run (`computed once`); `0` AST
+     `float`/`complex` literals, `0` binary64 casts, `0` empirical constants).
+   - **Six Simultaneous Closures (`E1..E6` / `REF_1..6`):** (`1`) Coroot shifts $(v_1, v_2, v_3) = (u_1/6, u_2/2, u_3/16) \in Q^\vee(E_6)\otimes\mathbb{Q}$
+     + $\mathbb{Z}_2^{\mathcal{C}_\psi}$ break $\mathfrak{e}_6$ (`78`) $\to \mathfrak{g}_{\mathrm{LR}}$ (`15`), preserve all
+     $3\times 16 = 48$ chiral spinors (`resolving F-C30-04`), isolate pure $\Phi_{1,2}$ (`4, 4`), $S$ (`1`), and
+     $\overline{\Delta}_R, \Delta_L \subset \mathbf{351}'_H$ (`3, 3` vs `36` at denom `8`), and satisfy exact `6D` $E_6$
+     quartic factorization $\mathrm{Tr}_{\mathbf{27}} F^4 = \frac{1}{12}(\mathrm{Tr}_{\mathbf{27}} F^2)^2$; (`2`) mod-`9`
+     Dreiner-Luhn-Thormeier $[\mathbb{Z}_3^{\tau_3}]^3 = 15 N_{\mathrm{gen}} \equiv 0 \pmod 9$ (`requiring 3 x chi_{S,-1},`
+     `since 3 x 16 = 48 == 3 != 0 mod 9!`) intersected with $M_g < 31$ uniquely locks $N_{\mathrm{gen}} = 3$ (`M_g = 15, 21, 13`,
+     `resolving F-OW18-05`); (`3`) $\mathbb{Z}_{18}^{\mathrm{hol}}$ ($q_{18}(\overline{\Delta}_R) = 0$) + rank-`1`
+     $\langle\overline{\Delta}_R\rangle$ projectors split light $(H_{u1}, H_{d2})$ and hit $B_{\mathrm{eff}} = 5/7$ at exact
+     $r_{\mathrm{LR}} = 2/5$ (`chiral`) & $8/25$ (`D-parity`), with `2`-loop `GL4(1000)` vs `RK4(4000)` agreeing to `5.15e-12`;
+     (`4`) full-rank $M_R = Y_R v_R \neq 0$ (`resolving F-C30-01`), holomorphic $V_{\mathrm{CKM}} \neq I_3$, and `2`-flavor
+     leptogenesis invariant to `6.13e-46` under `SU(3)^5 x U(3)_{N_R}` scrambling; (`5`) unbroken $P_M = (-1)^{q_{18}+2s}$
+     with $\det\mathcal{M}_{\mathrm{phys},2\times 2}^2 = \frac{3\kappa_S\mu_{SH}v_S^2 v_{\mathrm{EW}}^2}{2 v_u v_d} > 0$ and
+     unsuppressed $s$-wave Majorana $\chi_S$ annihilation (`resolving OW19-B3`); (`6`) zero `4D` $Z'_\psi$ Higgs wall
+     (`resolving OW19-B1`), Vissani $(M_{\mathrm{LR}}/M_X)^3 = 2.104\times 10^{-17}$, untwisted `6D` Casimir `-6`, and an
+     explicit single-anchor parameter ledger (`integrated in self_consistent_loop/manuscript/main.tex Sec. VII, Table V, Fig. 5`).
 
 ## `Card R-OW19-EX12` Delivery: Remediation of `EX-S1` & `EX-S2` and Verification of `A2-OW19` (`51d9e977e`) (`2026-11-22`; `0 of 19`)
 
