@@ -1,0 +1,57 @@
+{
+  "E1_unification_threshold_theorems": {
+    "E1_passed": true,
+    "control_1_hosotani_nogo_and_guardrail1_caught": true,
+    "control_2_10F_ordering_reversal_caught": true,
+    "e6_broken_proca_boson_count": 66,
+    "e6_dynkin_totals_su3_su2_u1": [
+      12,
+      12,
+      12
+    ],
+    "hosotani_desert_not_stationary": true,
+    "hosotani_desert_theta_grad_abs": "1.004960021",
+    "ps_centralizer_dim_in_so10": 0,
+    "r10_exotic_doublet_light_exact": "4/9",
+    "swapped_triplet_light_slope_at_4_9": "17/7"
+  },
+  "E2_instanton_determinant_prefactor": {
+    "E2_passed": true,
+    "S1_action": "10.05309649148734",
+    "S3_action": "30.15928947446202",
+    "abs_delta_t3_over_S3": "0.2080441476",
+    "collective_modes_nB": 8,
+    "control_3_collective_jacobian_sign_caught": true,
+    "delta_t_coll_1toron": "1.88001451698",
+    "delta_t_coll_3toron": "6.27446367166"
+  },
+  "E3_k40_qcd_confinement_sandwich": {
+    "E3_passed": true,
+    "control_4_k20_k33_landau_pole_caught": true,
+    "control_5_k80_deconfinement_hierarchy_caught": true,
+    "k20_hits_landau_pole_above_tEW": true,
+    "k33_hits_landau_pole_above_tEW": true,
+    "k40_LambdaQCD_over_vEW_1loop_3f": "0.016177726086",
+    "k40_alpha3_ir_pure_gauge": "0.169280165236",
+    "k80_LambdaQCD_over_vEW_1loop_3f": "9.37654003121e-15",
+    "k80_alpha3_ir_pure_gauge": "0.0216136060949",
+    "k_crit_1loop_qcd_horizon": "168/5",
+    "k_lcm_Z8_x_Z5": 40,
+    "qcd_1loop_alpha3_inv_shift": "-168/5"
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_and_call_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "passed": true
+  },
+  "card": "AGY-C32",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}

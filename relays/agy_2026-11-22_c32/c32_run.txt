@@ -1,0 +1,1 @@
+AGY-C32 producer complete in 3s: Z_PS=0, r10=4/9, |dt3|/S3=0.2080441476, k40_LamQCD/v=0.016177726086, controls=5/5
