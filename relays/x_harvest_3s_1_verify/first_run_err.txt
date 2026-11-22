@@ -1,0 +1,12 @@
+Pre-output stop on relays/x_harvest_3s_1_verify/verify_x_harvest_3s_1.py (d4938ac78; zero output files written; v1 left frozen unedited, superseded before any output by relays/x_harvest_3s_1_v2/verify_x_harvest_3s_1_v2.py):
+
+Traceback (most recent call last):
+  File "relays/x_harvest_3s_1_verify/verify_x_harvest_3s_1.py", line 1044, in <module>
+    main()
+  File "relays/x_harvest_3s_1_verify/verify_x_harvest_3s_1.py", line 1007, in main
+    h2 = run_h2_flavor_geometry_and_lefschetz()
+  File "relays/x_harvest_3s_1_verify/verify_x_harvest_3s_1.py", line 372, in run_h2_flavor_geometry_and_lefschetz
+    M_gen = sp.Matrix(3, 3, m_vars)
+ValueError: List length should be equal to rows*columns
+
+Cause: sp.symbols("m00:33") generated 33 range symbols (m00..m32) instead of 9 matrix entries [m_{r}_{c} for r in 0..2 for c in 0..2]. Fixed in fresh versioned directory relays/x_harvest_3s_1_v2/ prior to any JSON output.
