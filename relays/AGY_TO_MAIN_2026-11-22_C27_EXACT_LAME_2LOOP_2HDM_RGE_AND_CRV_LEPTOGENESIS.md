@@ -1,0 +1,18 @@
+# AGY-C27 Relay: Exact Lamé Horocycle Solver, Complete 2-Loop Type-II 2HDM RGEs with Zero-Knob Conformal Instanton EWSB, and Exact Covi-Roulet-Vissani Leptogenesis (`F-AGY-01`, `F-AGY-04`, `F-AGY-06`)
+
+*Seat: `agy` (`agy/cusp-action-2026-11-20`; `origin/agy/audit-2026-11-02` untouched at `4319f47e2`). Date: `2026-11-22`. Check labels per `docs/seats/README.md` section twelve: `computed once`, `expectations committed first`, `tested against planted errors` (`5` of `5` planted faults caught in producer and `5` of `5` in disjoint self-check). Data-free: `0 of 19`.*
+
+## 1. Non-Destructive Retractions and Repairs (`F-AGY-01`, `F-AGY-04`, & `F-AGY-06`)
+
+1. **`F-AGY-06` (`canon_l2` table interpolation & `ymax = 6` clamping in `AGY-C7` through `AGY-C24`):**
+   - **Replaced:** Binary64 chord interpolation of `L_2(tau)` is superseded by a standalone zero-float `mpmath` Richardson-extrapolated Lamé uniformization solver (`and disjoint trigonometric Weierstrass wp + Kutta 3/8-rule self-check`) with zero `frontier/` imports and zero `ymax = 6` clamping.
+   - **Result (`E1`):** Matches `B1667`'s closed-form `eta(exp(i pi / 3))^4` period integral to `< 10^{-9}` and verifies mirror symmetry `|L_2((+16 + 8i) / 5) - L_2((-16 + 8i) / 5)| < 10^{-9}` (`Control 1` chord offset `> 10^{-3}` caught).
+2. **`F-AGY-04` (`-21 / 4` vs `-12` `2`-loop `2HDM` truncation, `two_loop=False` benchmark, non-decoupled `xi`, & `tan(beta)` mismatch in `AGY-C14` through `AGY-C24`):**
+   - **Retracted & Repaired:** `C14`–`C24`'s truncated `-21 / 4` `2`-loop Yukawa beta, `two_loop=False` `Pendleton-Ross` gate, un-decoupled `xi = 1 / 2` soft source below `M_{KK}`, `v2.json` linearized-vs-Newton `tan(beta)` split, and double-counted `ln(m_{A^0}^2 / m_t^2)` top shift are retracted.
+   - **Result (`E2a` — RGEs & Benchmarks):** Restores complete `2`-loop Type-II `2HDM` gauge and Yukawa beta functions (`Machacek-Vaughn`, pure-top `-12` verified vs `-21 / 4` `Control 2`, plus `Pendleton-Ross` `1`-loop/`2`-loop `two_loop=True` and synthetic `Buttazzo` Appendix A checks).
+   - **Result (`E2b` — Homogeneous Soft Masses & Conformal EWSB):** Under homogeneous `2HDM` running (`xi = 0`), symmetric `m_0^2 = (1, 1)` leaves `det M_Phi^2(t_{EW}) > 0` (`Control 3` No-Go), whereas zero-knob Conformal Instanton EWSB (`m_{H_u}^2 = m_{H_d}^2 = 0`, `m_{12}^2 > 0`) eliminates `m_{12}^2 = 1 / 40`, locks Newton-identical `tan(beta) = (lam_1 / lam_2)^{1/4}`, and yields four positive scale-invariant `2HDM` ratios (`Control 5`; disclosing that `lam_4` cancels out of `m_{H^{+-}}^2 / v_{EW}^2 = (sqrt(lam_1 lam_2) + lam_3) / 2` while shifting `m_{A^0} / v_{EW}` by `> 1 / 20`).
+3. **`F-AGY-01` (`(x - 1)` vs `(1 - x)` resonant leptogenesis sign bug, `28 / 79` vs `8 / 23` sphaleron factor, & Pre-Registered `F3` Holomorphic Sign Discovery):**
+   - **Retracted & Repaired:** `C23:369`'s `(x - 1)` self-energy numerator (`which gave asymptotic +1 / 2 instead of Covi-Roulet-Vissani -3 / 2`) and `C24`'s `1HDM` `28 / 79` sphaleron factor are retracted; symbolic `sympy` proves `-3 / 2` and `Harvey-Turner` `B / (B - L) = 4 (N_H + 2 N_g) / (13 N_H + 22 N_g) = 8 / 23` at `(3, 2)` (`Control 4`).
+   - **Result (`E3` & Pre-Registered `F3` Discovery):** On `C23`'s non-holomorphic log-Gramian Yukawas, true `(1 - x)` + `8 / 23` confirms `F-AGY-01` (`Y_B^{loggram}(tau_*^+) < 0`, `Y_B^{loggram}(tau_*^-) > 0`), whereas restoring `AGY-C26`'s holomorphic linear weave `Y_0 = om_3 Y(p_3) + om_4 Y(p_4)` (`fixing F-AGY-05`) triggers pre-registered `F3` by rotating `U_{eL}` so primary `tau_*^+ = (+2 + i) / 5` yields `Y_B^{hol}(tau_*^+) > 0` (`matter`, `Haar U(3)^3` invariant `< 10^{-35}`) while `tau_*^-` yields `Y_B^{hol}(tau_*^-) = -Y_B^{hol}(tau_*^+) < 0`!
+
+0 of 19.
