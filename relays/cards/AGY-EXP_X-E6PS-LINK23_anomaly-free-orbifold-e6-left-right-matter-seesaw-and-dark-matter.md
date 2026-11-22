@@ -32,8 +32,9 @@
      $S^3$, and $S^*\chi_S^2$, and forbid $Q Q^c\tilde{\Phi}_{1,2}$ and $L L^c\tilde{\Phi}_{1,2}$ ($q_{18} = 6$).
    - Expect rank-`1` $\langle\overline{\Delta}_R\rangle$ projectors to split $(H_{u1}, H_{d2})$ (`mass 0`) from
      heavy $(H_{d1}, H_{u2})$, hit $B_{\mathrm{eff}} = 5/7$ at exact $r_{\mathrm{LR}} = 2/5$ (`chiral`) and
-     $8/25$ (`D-parity`), reproduce Buttazzo/MV `1HDM` `3x3` $b^{(2)}$ (`err 0`), and pass `2`-loop `N=120 vs 240`
-     step-halving `< 10^{-11}`.
+     $8/25$ (`D-parity`), reproduce Buttazzo/MV `1HDM` `3x3` $b^{(2)}$ (`err 0`), and pass `2`-loop `N=2000 vs 4000`
+     step-halving `< 10^{-11}`. (`Revision note: v1 at c67688b13 preserved untouched; v2 fixes D_3 phase key`
+     `2/16 = 1/8, 7/8 and refines RK4 grid N=120 -> 2000 before v2 run.`)
 4. **`E4` — Full-Rank Seesaw $M_R \neq 0$, Holomorphic $V_{\mathrm{CKM}} \neq I_3$, & `2`-Flavor Leptogenesis (`PC_L23_4`):**
    - Expect two-bidoublet punctured-torus holomorphic matrices $(Y_u, Y_d, Y_e, Y_\nu, Y_R)$ to yield
      $\det M_R \neq 0$, hierarchical $V_{\mathrm{CKM}} \neq I_3$ (`vs planted 1-bidoublet V_CKM == I_3`), and
