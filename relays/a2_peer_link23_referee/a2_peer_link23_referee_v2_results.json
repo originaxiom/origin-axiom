@@ -1,0 +1,236 @@
+{
+  "REF_0_ast_custody_manifests_and_quotes": {
+    "gate_0": true,
+    "peer_manifests_matched": 7,
+    "peer_manifests_total": 7,
+    "peer_scripts_all_clean_ast": true,
+    "producer_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "float_complex_literals": 0,
+      "forbidden_imports": 0
+    },
+    "producer_output_sha256_verified": true,
+    "producer_script_sha256_verified": true,
+    "quote_checks": {
+      "Q1_hardcoded_plus5": true,
+      "Q2_fermions_unshifted_u1_only": true,
+      "Q3_literal_zero_Zprime": true,
+      "Q4_untwisted_casimir_formula": true,
+      "Q5_mod9_chiS_neg1": true,
+      "Q6_main_tex_Zprime_claim": true
+    },
+    "referee_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "float_complex_literals": 0,
+      "forbidden_imports": 0
+    },
+    "verbatim_quotes_matched": 6,
+    "verbatim_quotes_total": 6
+  },
+  "REF_A_bourbaki_e6_and_e3_rk4": {
+    "E3_rk4_N1000": {
+      "b1_chiral_LR": [
+        "11/2",
+        "-8/3",
+        "-2",
+        "-7"
+      ],
+      "buttazzo_1hdm_2loop_benchmark_exact": true,
+      "inv_alpha_2R_at_MLR": "36.1920613612",
+      "r_LR_1bidoublet": "8/17",
+      "r_LR_chiral": "2/5",
+      "r_LR_dparity": "8/25",
+      "rk4_N1000_vs_N2000_rel_err": "1.4913748e-12",
+      "rk4_inv_alpha_IR_N1000": [
+        "55.395839880425",
+        "25.869694952794",
+        "3.7509609466415"
+      ],
+      "rk4_vs_peer_rel_err": "2.1549518e-12",
+      "two_loop_B_eff_diff_vs_producer": "4.412501e-11",
+      "two_loop_B_eff_rk4_N1000": "0.749123668544"
+    },
+    "LINK23_F1_bourbaki": {
+      "all_valid_flips_also_invert_H_BL": true,
+      "inner_aut_forbidden_by_asymmetric_27": true,
+      "max_fixed_Cartan_dim_among_valid_flips": 3,
+      "qpsi_27_spectrum": {
+        "-2": 10,
+        "1": 16,
+        "4": 1
+      },
+      "r_omega6_roots_broken_out_of_72": 32,
+      "valid_Hpsi_flip_sign_involutions": 8
+    },
+    "LINK23_F2_bourbaki": {
+      "Qpsi_D3_D3bar_mass_mod3": 2,
+      "Qpsi_singlet_in_27": 4,
+      "all_5_UV_insensitive_Z3_anomalies_zero_without_chiS_at_N3": true,
+      "disjoint_phase_sectors_inside_16": 4,
+      "mod9_Z3_cubic_with_27_singlet_at_N3": 6,
+      "sector_dims_in_16": [
+        2,
+        2,
+        6,
+        6
+      ],
+      "untwisted_weights_in_27": 0
+    },
+    "bourbaki_u1_u2_u3": [
+      [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        6,
+        3,
+        0
+      ]
+    ],
+    "cartan_6_orthogonal": true,
+    "dim_351p": 351,
+    "e6_6d_quartic_factorizes": true,
+    "gate_a": true,
+    "isolated_Delta_R_bar_and_Delta_L_dims": [
+      3,
+      3
+    ],
+    "tr_qpsi_351p": 0
+  },
+  "REF_B_e5_f3_f4_f5": {
+    "E5_symbolic_and_clifford": {
+      "charge_conj_ok": true,
+      "det_M_phys_2x2_exact": "3*kapS*muSH*vS**2*(vd**2 + vu**2)/(2*vd*vu)",
+      "det_matches_expected": true,
+      "dirac_pauli_clifford_ok": true,
+      "exact_single_EW_goldstone": true,
+      "kapS_zero_det_collapses": true,
+      "maj_pscal_bilinear_antisym": true,
+      "majorana_swave_exact": true,
+      "majorana_swave_sigma_v": "Nc*g_ca**2*g_fa**2*m*sqrt(m**2 - mf**2)/(2*pi*(-M_med**2 + 4*m**2)**2)",
+      "scalar_mediator_swave_vanishes": true
+    },
+    "LINK23_F3_hierarchy_wall": {
+      "M_LR_over_v_EW": "217998774.679",
+      "M_LR_rel_diff_vs_producer": "9.536541e-11",
+      "all_conventions_exceed_1e14_wall": true,
+      "cw_WR_symbolic_formula_exact": true,
+      "exact_CW_WR_at_MWR_eq_MLR_alphaGUT": "3.67779782e+15",
+      "exact_CW_WR_at_MWR_eq_MLR_running_alpha2R": "4.064756393e+15",
+      "exact_CW_WR_at_vR_eq_MLR_alphaGUT": "6.189412159e+14",
+      "exact_CW_WR_at_vR_eq_MLR_running_alpha2R": "7.533143048e+14",
+      "exact_CW_WR_log_only_at_MWR_eq_MLR_alphaGUT": "3.630525355e+15",
+      "one_loop_SU2R_portal_beta_g4_derived": "6",
+      "producer_WR_shift_reported": "4.538156693e+14",
+      "producer_equals_3_over_100pi_MLR2_rel_err": "6.473998e-11",
+      "ratio_exact_CW_WR_log_to_producer": "8.000000001"
+    },
+    "LINK23_F4_6d_twisted_casimir": {
+      "chowla_selberg_bench_E3_i_err": "0.0",
+      "chowla_selberg_bench_S_sym_err": "8.6095778e-42",
+      "diff_exact_vs_producer_tau_8": "0.00074112619",
+      "diff_exact_vs_producer_tau_i": "0.00061316935",
+      "diff_exact_vs_producer_tau_star": "0.01160933",
+      "diff_raw_M10_vs_producer_tau_8": "1.5414965e-9",
+      "diff_raw_M10_vs_producer_tau_i": "2.5728098e-11",
+      "diff_raw_M10_vs_producer_tau_star": "4.7272965e-9",
+      "diff_raw_M12_vs_producer_tau_star": "0.0022314558",
+      "exact_M_inf_tau_8": "-12.51662606381404",
+      "exact_M_inf_tau_i": "-0.9566202509531001",
+      "exact_M_inf_tau_star": "82.7057235600179",
+      "raw_box_M10_tau_8": "-12.5173671915",
+      "raw_box_M10_tau_i": "-0.957233420326",
+      "raw_box_M10_tau_star": "82.7173328853",
+      "raw_box_M12_tau_8": "-12.5170176845",
+      "raw_box_M12_tau_i": "-0.95698973785",
+      "raw_box_M12_tau_star": "82.7151014342",
+      "raw_box_M14_tau_star": "82.7098217653",
+      "two_cycle_T2_surviving_roots": 10,
+      "untwisted_6d_casimir": -6
+    },
+    "LINK23_F5_toy_E4_and_Z3_walls": {
+      "Qpsi_S_cubed": 12,
+      "Qpsi_S_cubed_mod3": 0,
+      "e4_contains_szego_or_theta_code": false
+    },
+    "gate_b": true
+  },
+  "REF_C_ow19_f1_f3_direct_period_loops": {
+    "OW19_F1_git_custody": {
+      "a2_ow19_referee_distinct_output_digests": 3,
+      "a2_ow19_referee_distinct_script_digests": 5,
+      "a2_ow19_referee_output_commits": 3,
+      "a2_ow19_referee_script_commits": 5,
+      "a2_ow20_referee_script_commits": 1
+    },
+    "OW19_F2_A2_OW20_closure": {
+      "ow20_Z4_forbids_MR": true,
+      "ow20_all_gates_passed": true,
+      "ow20_rad_flat_yb_2f_plus": "2.15793153648e-9"
+    },
+    "OW19_F3_direct_period_loop_order28": {
+      "L2_diff_vs_producer": "1.0985708e-34",
+      "L2_disjoint": "2.5151881308899968866686481039644934",
+      "bc_match_z1a_vs_z1b_diff": "6.0773962e-36",
+      "bc_star_diff_vs_producer": "1.0985708e-34",
+      "bc_star_disjoint": "0.62640452269979635179399527931500948",
+      "benchmark_tau_i_bc_star_err": "9.8871632e-35",
+      "benchmark_tau_i_c_star_err": "3.6817776e-49",
+      "c_star_diff_vs_producer": "1.2533066e-38",
+      "c_star_im": "0.00400843341049611801718037404351742808",
+      "c_star_re": "-1.60857746537943521865023225808014285",
+      "ow19_finite_r_residual": "4.598405179e-11",
+      "single_valued_err": "9.5954959e-35",
+      "sl2r_max_imag": "1.5796705e-39",
+      "tr_comm_plus_2_err": "1.0824707e-38"
+    },
+    "gate_c": true
+  },
+  "REF_D_planted_fault_controls": {
+    "PF_REF_1_1byte_output_sha_tamper_caught": true,
+    "PF_REF_2_bourbaki_r_omega6_breaks_32_roots": true,
+    "PF_REF_3_chiS_in_27_fails_mod9_Z3_cubic": true,
+    "PF_REF_4_1bidoublet_shifts_r_LR_to_8_over_17": true,
+    "PF_REF_5_twisted_casimir_rejects_untwisted_neg6": true,
+    "PF_REF_6_ow19a_finite_r_fails_1e12_gate": true,
+    "gate_d": true,
+    "planted_faults_caught": 6,
+    "planted_faults_total": 6
+  },
+  "all_gates_passed": true,
+  "card": "A2-PEER-LINK23-REFEREE-V2",
+  "firewall": "0 of 19",
+  "hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0,
+    "script_sha256": "28731fa65d16fe3b99a1c397a307cfe7c17909a3a50fcd5414dca2f3eaacdcfa"
+  },
+  "numerical_audit_notes": [
+    "LINK23-F3 W_R 1-loop CW prefactor: producer reports 4.538156693e+14 = (3/(100*pi))*M_LR^2, whereas exact CW for W_R^+- at M_WR = M_LR is 3.67779782e+15 (log-only ratio = 8.0x; at v_R = M_LR with running alpha_2R it is 7.533143048e+14). All conventions exceed 1e14, strengthening LINK23-F3.",
+    "LINK23-F4 finite-box truncation note: exact M->inf Chowla-Selberg 6D twisted Casimir is 82.7057235600179 at tau_*=(2+i)/5, -12.51662606381404 at tau_8=(1+8i)/5, and -0.9566202509531001 at i; producer values (82.7173, -12.5174, -0.9572) carry a small finite raw-box truncation offset (raw M=10 diff at tau_*: 4.7272965e-9, raw M=12 diff: 0.0022314558); the +82.7 > 0 AdS runaway sign flip is confirmed identically."
+  ],
+  "seat": "agy-002",
+  "target_peer_rev": "dd74b56c1",
+  "theorem_discrepancies": [],
+  "total_discrepancies": 0,
+  "v1_preserved_untouched": true
+}
