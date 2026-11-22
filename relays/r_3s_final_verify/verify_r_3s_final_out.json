@@ -1,0 +1,277 @@
+{
+  "D0_custody_overwrite_and_quotes": {
+    "D0_passed": true,
+    "PC_R3S_1_caught": true,
+    "agy002_commit_present": true,
+    "agy002_referee_ow18_in_place_overwrite_detected": true,
+    "agy002_referee_sha_a354_vs_1620": [
+      "fc68f9a5a4d4de95",
+      "6d0cc92d1d4d02d8"
+    ],
+    "agy_c26_crashes_labeled_computed_once": true,
+    "agy_c30_ctrl2_threshold_lowered_40pct_to_8pct": true,
+    "agy_commit_present": true,
+    "all_16_quotes_exact": true,
+    "quote_count": 16,
+    "quotes": [
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 147,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 526,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 618,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 619,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 729,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 857,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 912,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c30/c30_three_seat_unified_synthesis_and_toe_seal_v4.py",
+        "line": 964,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/agy_2026-11-22_c26/c26_algebraic_gauge_anomaly_and_crystallographic_remediation.py",
+        "line": 261,
+        "matched": true,
+        "rev": "528ef1cf5"
+      },
+      {
+        "file": "relays/AGY002_A2_OW18_RESULTS.md",
+        "line": 23,
+        "matched": true,
+        "rev": "c721af6ff"
+      },
+      {
+        "file": "relays/a2_ow18_v3/verify_a2_ow18_v3.py",
+        "line": 763,
+        "matched": true,
+        "rev": "c721af6ff"
+      },
+      {
+        "file": "relays/a2_ow18_v3/verify_a2_ow18_v3.py",
+        "line": 765,
+        "matched": true,
+        "rev": "c721af6ff"
+      },
+      {
+        "file": "relays/a2_ow18_referee/referee_a2_ow18.py",
+        "line": 473,
+        "matched": true,
+        "rev": "c721af6ff"
+      },
+      {
+        "file": "relays/a2_ow18_v3/verify_a2_ow18_v3.py",
+        "line": 1082,
+        "matched": true,
+        "rev": "c721af6ff"
+      },
+      {
+        "file": "relays/a2_ow18_v3/verify_a2_ow18_v3.py",
+        "line": 1587,
+        "matched": true,
+        "rev": "c721af6ff"
+      },
+      {
+        "file": "relays/a2_ow16_v5/verify_a2_ow16_v5.py",
+        "line": 147,
+        "matched": true,
+        "rev": "c721af6ff"
+      }
+    ],
+    "v4_json_internal_sha256_matches": true
+  },
+  "D1_agy_c30_MR_zero_wWL_spinors_and_zombie_horizons": {
+    "D1_passed": true,
+    "MR_identically_zero_under_27H_VEVs": true,
+    "PC_R3S_2_caught": true,
+    "c26_e8_spinor_roots_total": 128,
+    "c26_surviving_chiral_spinor_roots_under_w_WL": 0,
+    "dim4_S2_H2_portal_Qpsi": 0,
+    "dim4_S2_HuHd_Qpsi_forbidden": 4,
+    "ghu_quartic_over_c30_mssm_ratio": "5",
+    "locked_M0_over_vew_exp_32pi_5": "539521386.372",
+    "retracted_q1_25_instanton_S_over_pi": "16/5",
+    "scalar_16H_VEV_matter_parity_PM": -1,
+    "true_toron_q1_5_instanton_S_over_pi": "16",
+    "u1psi_NR_majorana_charge": 2,
+    "unbroken_Z4_residues_of_Sn_NR2": [
+      2
+    ]
+  },
+  "D2_agy_c30_l2_9digit_noise_and_tautological_R2": {
+    "D2_passed": true,
+    "PC_R3S_3_caught": true,
+    "c30_countercheck_echoed_R_certificates": [
+      "R2_lame_modular_S_invariance_abs_err",
+      "R3_machacek_vaughn_pure_top_2loop_abs_err",
+      "R5_true_step_halving_N120_vs_N240_max_rel_err",
+      "R7_conformal_ewsb_m12_scale_invariance_err",
+      "R9_leptogenesis_cp_mirror_antisymmetry_rel_err",
+      "R10_matched_null_2000_hits"
+    ],
+    "r2_tautology_maps_back_to_identical_z_red": true,
+    "r2_z_red_diff": "0.0",
+    "taylor28_r24_vs_r36_err": "2.6746262e-42",
+    "true_bc_star_tau8_30d": "0.626404522699796351793995279315",
+    "v4_bc_star_abs_err": "1.3652272e-9",
+    "v4_sealed_bc_star_tau8_30d": "0.626404524065023558402877750759"
+  },
+  "D3_synergy_s1_144_pairs_conjugacy_and_antipodal_break": {
+    "D3_passed": true,
+    "P5_antipodal_pairs": 12,
+    "P6_primitive_antipodal_pairs": 12,
+    "PC_R3S_4_caught": true,
+    "antipodal_Vcb_shift": "0.12421299",
+    "conjugacy_noninvariant": true,
+    "exact_bits_144_to_2": "6.16992500144",
+    "ker_t3_LR_vs_T3S": [
+      [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    ],
+    "ker_t4_T4S_vs_L2R_vs_LR2": [
+      [
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ]
+      ]
+    ],
+    "leptogenesis_Gamma_mu_over_H_at_M1": "6.3192745e-5",
+    "ow18_double_divided_bits_72_to_2": "5.16992500144",
+    "su3_basis_scramble_max_err": "1.2531172e-28",
+    "true_P5_x_P6_pairs": 144,
+    "uv_Vcb_plus_p3_vs_minus_p3": [
+      "0.3022969626",
+      "0.1780839773"
+    ],
+    "uv_theta_plus_p3_vs_minus_p3": [
+      "-1.105256658",
+      "0.9530523241"
+    ]
+  },
+  "D4_agy002_ow18a_1hdm_vs_2hdm_and_matrix_order_bug": {
+    "D4_passed": true,
+    "Hd_Yu_1loop_coeff_1hdm_vs_2hdm": [
+      "-3/2",
+      "1/2"
+    ],
+    "PC_R3S_5_caught": true,
+    "b_1hdm_vs_2hdm": [
+      [
+        "41/10",
+        "-19/6",
+        "-7"
+      ],
+      [
+        "21/5",
+        "-3",
+        "-7"
+      ]
+    ],
+    "ckm_running_direction_reversed": true,
+    "producer_json_omitted_3x3_ir_yukawas": true,
+    "producer_minus_referee_frob_norm": "0.007899967038",
+    "three_quarters_commutator_identity_err": "8.7007548e-42"
+  },
+  "D5_agy002_ow18b_chimera_prose_higgs_and_v5_audit": {
+    "D5_passed": true,
+    "PC_R3S_6_caught": true,
+    "b_spin10_brane2H_vs_10R": [
+      "-76/3",
+      "-151/6"
+    ],
+    "fl_gsm_consistent_type1_fW_neg_half": "0.197786268803",
+    "fl_gsm_retracted_hybrid_fW1": "0.0338281350858",
+    "gsm_disc_consistent_type1": "789.6139146",
+    "gsm_disc_retracted_hybrid": "-6.138578172",
+    "gsm_disc_sign_flips_positive": true,
+    "mg_gsm_type2_with_3x27_81_weyl": 41,
+    "ow18_json_mh0_mH0_mHpm": [
+      "0.48392069",
+      "0.7523597846",
+      "0.752656116"
+    ],
+    "ow18_prose_mH0_rel_error": "0.26997631",
+    "ow18_prose_mHpm_rel_error": "0.25721241",
+    "tr_Qpsi_on_3x16_without_exotics": 48
+  },
+  "all_6_modules_passed": true,
+  "all_6_planted_controls_caught": true,
+  "ast_zero_float_and_complex_check": {
+    "ast_clean_passed": true,
+    "binary64_cast_call_count": 0,
+    "float_or_complex_literal_count": 0,
+    "float_or_complex_literal_lines": []
+  },
+  "card": "R-3S-FINAL",
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 6,
+  "planted_controls_total": 6,
+  "targets": {
+    "agy": "528ef1cf538fef1f3cc42ab3a00192e8600545f5",
+    "agy_002": "c721af6ff2a9038e45d446f7e0057189c4eb265c"
+  }
+}
