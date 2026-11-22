@@ -1,0 +1,1031 @@
+{
+  "referee_id": "A2-OW18-AND-OW16V5-COLD-ROOM-REFEREE",
+  "seat": "agy-002",
+  "empirical_firewall": "0 of 19",
+  "targets": {
+    "a2_ow18_v3": "relays/a2_ow18_v3/a2_ow18_v3_results.json",
+    "a2_ow16_v5": "relays/a2_ow16_v5/a2_ow16_v5_results.json"
+  },
+  "summary": {
+    "module_statuses": {
+      "REF-0": "the same",
+      "REF-A": "the same",
+      "REF-B": "the same",
+      "REF-C": "the same",
+      "REF-D": "the same",
+      "REF-E": "the same",
+      "REF-F": "differs"
+    },
+    "total_discrepancies": 2,
+    "discrepancy_paths": [
+      "REF-F.comparisons.prior_manifests_145_of_145.status",
+      "REF-F.module_status"
+    ],
+    "planted_faults_caught": 6,
+    "planted_faults_total": 6,
+    "overall_status": "differs"
+  },
+  "modules": {
+    "REF-0": {
+      "self_ast": {
+        "file": "relays/a2_ow18_referee/referee_a2_ow18.py",
+        "float_or_complex_count": 0,
+        "float_or_complex_offenders": [],
+        "imported_modules": [
+          "ast",
+          "fractions",
+          "hashlib",
+          "itertools",
+          "json",
+          "mpmath",
+          "os",
+          "pathlib",
+          "subprocess",
+          "sympy",
+          "sys"
+        ],
+        "forbidden_imports": [],
+        "zero_float_status": "the same",
+        "zero_forbidden_imports_status": "the same"
+      },
+      "ow18_v3_ast": {
+        "file": "relays/a2_ow18_v3/verify_a2_ow18_v3.py",
+        "float_or_complex_count": 0,
+        "float_or_complex_offenders": [],
+        "imported_modules": [
+          "ast",
+          "collections",
+          "fractions",
+          "hashlib",
+          "itertools",
+          "json",
+          "math",
+          "mpmath",
+          "pathlib",
+          "random",
+          "subprocess",
+          "sympy"
+        ],
+        "forbidden_imports": [],
+        "zero_float_status": "the same",
+        "zero_forbidden_imports_status": "the same"
+      },
+      "ow16_v5_ast": {
+        "file": "relays/a2_ow16_v5/verify_a2_ow16_v5.py",
+        "float_or_complex_count": 0,
+        "float_or_complex_offenders": [],
+        "imported_modules": [
+          "ast",
+          "fractions",
+          "hashlib",
+          "json",
+          "mpmath",
+          "pathlib"
+        ],
+        "forbidden_imports": [],
+        "zero_float_status": "the same",
+        "zero_forbidden_imports_status": "the same",
+        "guardrail5_anchor_limit_ok_occurrences": [
+          {
+            "kind": "dict_entry",
+            "line": 353,
+            "value_node": "Name",
+            "is_literal_bool": false
+          }
+        ],
+        "guardrail5_no_literal_bool_status": "the same"
+      },
+      "all_relays_manifests_ex_self": {
+        "total_manifests": 144,
+        "verified_manifests": 144,
+        "mismatches": [],
+        "status": "the same"
+      },
+      "prior_to_v5_output_manifests": {
+        "total_manifests": 143,
+        "verified_manifests": 143,
+        "mismatches": [],
+        "status": "the same"
+      },
+      "self_script_sha256_precommit_status": "the same",
+      "module_status": "the same"
+    },
+    "REF-A": {
+      "comparisons": {
+        "harvey_turner_a_sph_2hdm": {
+          "referee": "8/23",
+          "sealed": "8/23",
+          "status": "the same"
+        },
+        "harvey_turner_a_sph_1hdm": {
+          "referee": "28/79",
+          "sealed": "28/79",
+          "status": "the same"
+        },
+        "loop_f_x100": {
+          "referee": "-0.150844262709864687",
+          "sealed": "-0.15084426270986",
+          "abs_diff": "4.6867985e-15",
+          "tol": "1.0e-12",
+          "status": "the same"
+        },
+        "norm_rescaling_factor": {
+          "referee": "143330.460164379019",
+          "sealed": "143330.460164",
+          "abs_diff": "3.7901895e-7",
+          "tol": "1.0e-5",
+          "status": "the same"
+        },
+        "matter_dominance_selects_tau_minus": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "abs_6T3R_RH_singlets": {
+          "referee": "[3, 3, 3, 3]",
+          "sealed": "[3, 3, 3, 3]",
+          "status": "the same"
+        },
+        "three_BmL_RH_singlets": {
+          "referee": "[-1, -1, 3, 3]",
+          "sealed": "[-1, -1, 3, 3]",
+          "status": "the same"
+        },
+        "three_BmL_LH_doublets": {
+          "referee": "[1, -3]",
+          "sealed": "[1, -3]",
+          "status": "the same"
+        },
+        "sm_hypercharge_reconstruction": {
+          "status": "the same"
+        },
+        "strict_hierarchical_count": {
+          "referee": "4",
+          "sealed": "4",
+          "status": "the same"
+        },
+        "hierarchical_JCP_positive_at_tau_minus": {
+          "referee": "3",
+          "sealed": "3",
+          "status": "the same"
+        },
+        "ckm_mirror_theorem_err_lt_1e25": {
+          "val": "0.0",
+          "status": "the same"
+        },
+        "sealed_ckm_mirror_sum_lt_1e12": {
+          "val": "0.0",
+          "status": "the same"
+        },
+        "haar_10trial_ckm_invariance_lt_1e25": {
+          "val": "2.181093e-40",
+          "status": "the same"
+        },
+        "c_self_quark_Nc3": {
+          "referee": "-12",
+          "sealed": "-12",
+          "status": "the same"
+        },
+        "c_self_lepton_Nc1": {
+          "referee": "-3",
+          "sealed": "-3",
+          "status": "the same"
+        },
+        "matrix_rhs_pure_yt5": {
+          "referee": "-12.0",
+          "sealed": "-12.0",
+          "abs_diff": "0.0",
+          "tol": "1.0e-12",
+          "status": "the same"
+        },
+        "matrix_rhs_pure_ytau5_exact": {
+          "referee": "-3.0",
+          "sealed": "-3.0",
+          "abs_diff": "0.0",
+          "tol": "1.0e-12",
+          "status": "the same"
+        },
+        "matrix_rhs_pure_ytau5_buggy": {
+          "referee": "-12.0",
+          "sealed": "-12.0",
+          "abs_diff": "0.0",
+          "tol": "1.0e-12",
+          "status": "the same"
+        },
+        "buttazzo_2loop_yt_exact_rational_zero": {
+          "referee": "0",
+          "sealed": "0",
+          "status": "the same"
+        },
+        "kutta38_haar_10trial_2loop_ode_covariance_lt_1e12": {
+          "max_drift": "6.1148093e-41",
+          "tol": "1.0e-12",
+          "status": "the same"
+        }
+      },
+      "module_status": "the same"
+    },
+    "REF-B": {
+      "gl4_yb_low_IR_quartics": [
+        "-0.144086127106",
+        "0.718721434139",
+        "-0.0419621791121",
+        "-0.0288197265429"
+      ],
+      "gl4_yb_high_IR_quartics": [
+        "0.483115260146",
+        "0.655796036711",
+        "0.568374599634",
+        "-0.657342132795"
+      ],
+      "comparisons": {
+        "dim_so10": {
+          "referee": "45",
+          "sealed": "45",
+          "status": "the same"
+        },
+        "dim_C_P_PS": {
+          "referee": "21",
+          "sealed": "21",
+          "status": "the same"
+        },
+        "dim_C_J5": {
+          "referee": "25",
+          "sealed": "25",
+          "status": "the same"
+        },
+        "dim_C_P_PS_and_J5_exact": {
+          "referee": "13",
+          "sealed": "13",
+          "status": "the same"
+        },
+        "n_broken_proca_exact": {
+          "referee": "32",
+          "sealed": "32",
+          "status": "the same"
+        },
+        "kept_10R_real_components_1H": {
+          "referee": "4",
+          "sealed": "4",
+          "status": "the same"
+        },
+        "E6_27_Tr_Q_psi": {
+          "referee": "0",
+          "sealed": "0",
+          "status": "the same"
+        },
+        "E6_Q_psi_16_16_10_allowed": {
+          "referee": "0",
+          "sealed": "0",
+          "status": "the same"
+        },
+        "E6_Q_psi_16_16_10star_forbidden": {
+          "referee": "4",
+          "sealed": "4",
+          "status": "the same"
+        },
+        "E6_Q_psi_1_10_10_m12_allowed": {
+          "referee": "0",
+          "sealed": "0",
+          "status": "the same"
+        },
+        "C2_10R_exact": {
+          "referee": "9/2",
+          "sealed": "9/2",
+          "status": "the same"
+        },
+        "casimir_proportional_to_I10": {
+          "status": "the same"
+        },
+        "SO10_10R_gauge_box": {
+          "referee": "27",
+          "sealed": "27",
+          "status": "the same"
+        },
+        "GSM_2HDM_gauge_box": {
+          "referee": "171/50",
+          "sealed": "171/50",
+          "status": "the same"
+        },
+        "gauge_box_ratio": {
+          "referee": "150/19",
+          "sealed": "150/19",
+          "status": "the same"
+        },
+        "f_crit_2HDM_at_g052": {
+          "referee": "0.0404323345429275442",
+          "sealed": "0.0404323345429",
+          "abs_diff": "2.7544213e-14",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "f_crit_SO10_high_at_g052": {
+          "referee": "0.16796365004981052",
+          "sealed": "0.16796365005",
+          "abs_diff": "1.8947997e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "Spin10_10R_f_lam_dD": {
+          "referee": "0.676144439864826263",
+          "sealed": "0.676144439865",
+          "abs_diff": "1.7373723e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "Spin10_10R_f_lam_LDW": {
+          "referee": "0.379643360328699367",
+          "sealed": "0.379643360329",
+          "abs_diff": "3.0063309e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "Spin10_dD_root_0": {
+          "referee": "-0.0215085729578865484",
+          "sealed": "-0.0215085729579",
+          "abs_diff": "1.3451595e-14",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "Spin10_dD_root_1": {
+          "referee": "-5.09909421767499208",
+          "sealed": "-5.09909421767",
+          "abs_diff": "4.992084e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "Spin10_LDW_root_0": {
+          "referee": "-0.0443111575833031035",
+          "sealed": "-0.0443111575833",
+          "abs_diff": "3.1034596e-15",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "Spin10_LDW_root_1": {
+          "referee": "-2.47509309125623866",
+          "sealed": "-2.47509309126",
+          "abs_diff": "3.7613394e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "GSM_2HDM_N12_f_lam_dD": {
+          "referee": "0.0338281350858007854",
+          "sealed": "0.0338281350858",
+          "abs_diff": "7.8535528e-16",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "GSM_2HDM_N12_disc_negative": {
+          "referee": "-6.13857817174285771",
+          "sealed": "-6.13857817174",
+          "abs_diff": "2.8577129e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "PS_412_Ns24_f_lam_dD": {
+          "referee": "0.342936078717258195",
+          "sealed": "0.342936078717",
+          "abs_diff": "2.581948e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "PS_412_Ns24_f_lam_LDW": {
+          "referee": "0.209747751118108108",
+          "sealed": "0.209747751118",
+          "abs_diff": "1.0810825e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "kannike_2d_copositivity_violation": {
+          "status": "the same"
+        },
+        "gl4_yb_low_bfb_ir": {
+          "referee": "False",
+          "sealed": "False",
+          "status": "the same"
+        },
+        "gl4_yb_high_bfb_ir": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "yb_high_zero_m12_ewsb": {
+          "referee": "False",
+          "sealed": "False",
+          "status": "the same"
+        },
+        "gl4_conformal_ewsb_all_masses_pos": {
+          "status": "the same"
+        },
+        "ewsb_tan_beta": {
+          "referee": "0.926603870119353302",
+          "sealed": "0.92660387011922",
+          "abs_diff": "1.3330177e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "ewsb_m12_sq_over_v2": {
+          "referee": "0.117917871074869743",
+          "sealed": "0.11791787107506",
+          "abs_diff": "1.902567e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "ewsb_mA0_over_v": {
+          "referee": "0.486334535721707131",
+          "sealed": "0.4863345357221",
+          "abs_diff": "3.9286909e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "ewsb_mHpm_over_v": {
+          "referee": "0.752656115949806409",
+          "sealed": "0.75265611595001",
+          "abs_diff": "2.035911e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "ewsb_mh0_over_v": {
+          "referee": "0.48392069004894041",
+          "sealed": "0.48392069004932",
+          "abs_diff": "3.7958956e-13",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "ewsb_mH0_over_v": {
+          "referee": "0.75235978455822759",
+          "sealed": "0.75235978455832",
+          "abs_diff": "9.2410464e-14",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "ewsb_2d_newton_residual_lt_1e30": {
+          "val": "1.1479437e-41",
+          "status": "the same"
+        }
+      },
+      "module_status": "the same"
+    },
+    "REF-C": {
+      "comparisons": {
+        "a1_proca_exact": {
+          "referee": "-1/2",
+          "sealed": "-1/2",
+          "status": "the same"
+        },
+        "quad_coeff_33_proca": {
+          "referee": "-33/2",
+          "sealed": "-33/2",
+          "status": "the same"
+        },
+        "log_coeff_33_proca": {
+          "referee": "16",
+          "sealed": "16",
+          "status": "the same"
+        },
+        "net_coeff_33_at_ln2": {
+          "referee": "-89.9194256323557287",
+          "sealed": "-89.9194256324",
+          "abs_diff": "4.4271251e-11",
+          "tol": "1.0e-9",
+          "status": "the same"
+        },
+        "quad_coeff_32_proca": {
+          "referee": "-50/3",
+          "sealed": "-50/3",
+          "status": "the same"
+        },
+        "log_coeff_32_proca": {
+          "referee": "31/2",
+          "sealed": "31/2",
+          "status": "the same"
+        },
+        "net_coeff_32_at_ln2": {
+          "referee": "-92.1509349821775038",
+          "sealed": "-92.1509349822",
+          "abs_diff": "2.2496213e-11",
+          "tol": "1.0e-9",
+          "status": "the same"
+        },
+        "strictly_negative_all_Lambda_ge_MX": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "tree_level_conformal_R_coeff": {
+          "referee": "-1/12",
+          "sealed": "-1/12",
+          "status": "the same"
+        },
+        "sen_ir_2_c_minus_a_45weyl": {
+          "referee": "-277/360",
+          "sealed": "-277/360",
+          "status": "the same"
+        },
+        "sen_ir_2_c_minus_a_48weyl": {
+          "referee": "-32/45",
+          "sealed": "-32/45",
+          "status": "the same"
+        },
+        "dep_1311_2898_type2_cap": {
+          "referee": "31",
+          "sealed": "31",
+          "status": "the same"
+        },
+        "Mg_Ngen3_min": {
+          "referee": "8",
+          "sealed": "8",
+          "status": "the same"
+        },
+        "Mg_Ngen4_min": {
+          "referee": "24",
+          "sealed": "24",
+          "status": "the same"
+        },
+        "Ngen4_survives_consistent_type2": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "dp_1209_3649_type1_fW_per_weyl": {
+          "referee": "-1/2",
+          "sealed": "-1/2",
+          "status": "the same"
+        },
+        "Mg_GSM_2H_true_type1": {
+          "referee": "-64",
+          "sealed": "-64",
+          "status": "the same"
+        },
+        "Mg_GSM_2H_buggy_fW2": {
+          "referee": "56",
+          "sealed": "56",
+          "status": "the same"
+        },
+        "cl10_16plus_dim_16": {
+          "referee": "16",
+          "sealed": "16",
+          "status": "the same"
+        },
+        "ow4_exact_chiral_weyl_per_gen": {
+          "referee": "15",
+          "sealed": "15",
+          "status": "the same"
+        },
+        "ow4_self_conjugate_nu_c_per_gen": {
+          "referee": "1",
+          "sealed": "1",
+          "status": "the same"
+        },
+        "ow4_vectorlike_pairs_zero": {
+          "referee": "0",
+          "sealed": "0",
+          "status": "the same"
+        },
+        "six_Cgrav_conformal_48weyl": {
+          "referee": "0",
+          "sealed": "0",
+          "status": "the same"
+        },
+        "six_Cgrav_conformal_45weyl": {
+          "referee": "-3",
+          "sealed": "-3",
+          "status": "the same"
+        },
+        "six_Cgrav_conformal_with_U1X": {
+          "referee": "-4",
+          "sealed": "-4",
+          "status": "the same"
+        },
+        "E5_fricke_s3_twist_factor": {
+          "referee": "-24/25",
+          "sealed": "-24/25",
+          "status": "the same"
+        },
+        "ow9_6d_s3_twisted_coeff_4d_dof": {
+          "referee": "-3864/25",
+          "sealed": "-3864/25",
+          "status": "the same"
+        },
+        "ow9_6d_s3_twisted_coeff_6d_bulk": {
+          "referee": "-1272/5",
+          "sealed": "-1272/5",
+          "status": "the same"
+        },
+        "tau_star_becomes_AdS_maximum": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "kronecker_orthogonality_lt_1e35": {
+          "val": "1.706541e-40",
+          "status": "the same"
+        },
+        "eps_Hd_Hd_symbolic": {
+          "referee": "0",
+          "sealed": "0",
+          "status": "the same"
+        },
+        "dim5_2hdm_zero_deriv_basis_corrected": {
+          "referee": "15",
+          "sealed": "15",
+          "status": "the same"
+        }
+      },
+      "module_status": "the same"
+    },
+    "REF-D": {
+      "gate_fu3_1560b2645_paths": {
+        "min": [
+          "/section_2_radiative_box_cw_det/y_6/S3_216_box_min",
+          "-611.14802442773"
+        ],
+        "hstar": [
+          "/section_2_radiative_box_cw_det/y_6/V_box_hstar",
+          "-584.43075379468"
+        ],
+        "cw_diff": [
+          "/section_2_radiative_box_cw_det/y_6/V_cw_muE_vp_minus_hstar",
+          "-295.17018098746"
+        ],
+        "argmin": [
+          "/section_2_radiative_box_cw_det/y_6/S3_216_box_argmin_theta8_phi24",
+          [
+            6,
+            0
+          ]
+        ]
+      },
+      "comparisons": {
+        "a5_total_conjugacy_classes": {
+          "referee": "9",
+          "sealed": "9",
+          "status": "the same"
+        },
+        "a5_all_9_classes_match": {
+          "referee": "[{'degree_d': 1, 'subgroup_order': 60, 'involution_split_a_b': [1, 0], 'faithful': False, 'chiral': False, 'anomaly_free_4d': False}, {'degree_d': 5, 'subgroup_order': 12, 'involution_split_a_b': [3, 2], 'faithful': True, 'chiral': True, 'anomaly_free_4d': True}, {'degree_d': 6, 'subgroup_order': 10, 'involution_split_a_b': [4, 2], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 10, 'subgroup_order': 6, 'involution_split_a_b': [6, 4], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 12, 'subgroup_order': 5, 'involution_split_a_b': [6, 6], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 15, 'subgroup_order': 4, 'involution_split_a_b': [9, 6], 'faithful': True, 'chiral': True, 'anomaly_free_4d': True}, {'degree_d': 20, 'subgroup_order': 3, 'involution_split_a_b': [10, 10], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 30, 'subgroup_order': 2, 'involution_split_a_b': [16, 14], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 60, 'subgroup_order': 1, 'involution_split_a_b': [30, 30], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}]",
+          "sealed": "[{'degree_d': 1, 'subgroup_order': 60, 'involution_split_a_b': [1, 0], 'faithful': False, 'chiral': False, 'anomaly_free_4d': False}, {'degree_d': 5, 'subgroup_order': 12, 'involution_split_a_b': [3, 2], 'faithful': True, 'chiral': True, 'anomaly_free_4d': True}, {'degree_d': 6, 'subgroup_order': 10, 'involution_split_a_b': [4, 2], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 10, 'subgroup_order': 6, 'involution_split_a_b': [6, 4], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 12, 'subgroup_order': 5, 'involution_split_a_b': [6, 6], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 15, 'subgroup_order': 4, 'involution_split_a_b': [9, 6], 'faithful': True, 'chiral': True, 'anomaly_free_4d': True}, {'degree_d': 20, 'subgroup_order': 3, 'involution_split_a_b': [10, 10], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 30, 'subgroup_order': 2, 'involution_split_a_b': [16, 14], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}, {'degree_d': 60, 'subgroup_order': 1, 'involution_split_a_b': [30, 30], 'faithful': True, 'chiral': False, 'anomaly_free_4d': True}]",
+          "status": "the same"
+        },
+        "a5_faithful_chiral_anomaly_free_degrees": {
+          "referee": "[5, 15]",
+          "sealed": "[5, 15]",
+          "status": "the same"
+        },
+        "a5_d5_unique_minimal_le_12": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "dim_C_su5_full_A5": {
+          "referee": "1",
+          "sealed": "1",
+          "status": "the same"
+        },
+        "dim_C_su5_single_involution": {
+          "referee": "12",
+          "sealed": "12",
+          "status": "the same"
+        },
+        "smith_plus_L2R_plus_I": {
+          "referee": "[1, 6]",
+          "sealed": "[1, 6]",
+          "status": "the same"
+        },
+        "smith_minus_L2R_plus_I": {
+          "referee": "[1, 2]",
+          "sealed": "[1, 2]",
+          "status": "the same"
+        },
+        "smith_plus_LR2_plus_I": {
+          "referee": "[1, 6]",
+          "sealed": "[1, 6]",
+          "status": "the same"
+        },
+        "smith_minus_LR2_plus_I": {
+          "referee": "[1, 2]",
+          "sealed": "[1, 2]",
+          "status": "the same"
+        },
+        "smith_unimodular_verified": {
+          "status": "the same"
+        },
+        "E6_share_halved_ratio": {
+          "referee": "1/2",
+          "sealed": "1/2",
+          "status": "the same"
+        },
+        "delta_H2_modular_2d": {
+          "referee": "1",
+          "sealed": "1",
+          "status": "the same"
+        },
+        "delta_H3_hyperbolic_3d": {
+          "referee": "2",
+          "sealed": "2",
+          "status": "the same"
+        },
+        "fu3_y6_argmin": {
+          "referee": "[6, 0]",
+          "sealed": "[6, 0]",
+          "status": "the same"
+        },
+        "fu3_y6_min": {
+          "referee": "-611.148024427731",
+          "sealed": "-611.148024428",
+          "abs_diff": "2.69e-10",
+          "tol": "1.0e-6",
+          "status": "the same"
+        },
+        "fu3_y6_hstar": {
+          "referee": "-584.4307537946823",
+          "sealed": "-584.430753795",
+          "abs_diff": "3.177e-10",
+          "tol": "1.0e-6",
+          "status": "the same"
+        },
+        "fu3_y6_min_lt_hstar": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "fu3_y6_cw_diff": {
+          "referee": "-295.17018098746166",
+          "sealed": "-295.170180987",
+          "abs_diff": "4.6166e-10",
+          "tol": "1.0e-6",
+          "status": "the same"
+        },
+        "fu3_cw_uv_log_coeff_positive": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "sig_4d_physical_classes": {
+          "referee": "[[0, 4], [1, 3], [2, 2]]",
+          "sealed": "[[0, 4], [1, 3], [2, 2]]",
+          "status": "the same"
+        },
+        "sig_4d_lorentzian_unique": {
+          "referee": "[[1, 3]]",
+          "sealed": "[[1, 3]]",
+          "status": "the same"
+        }
+      },
+      "module_status": "the same"
+    },
+    "REF-E": {
+      "L2_summary": {
+        "tau_isqrt3": {
+          "referee": "2.48699558205568385",
+          "sealed": "2.486995582048645764632",
+          "abs_diff": "7.03809e-12"
+        },
+        "tau_0": {
+          "referee": "2.49347228351130878",
+          "sealed": "2.493472283504152937894",
+          "abs_diff": "7.15585e-12"
+        },
+        "tau_8_plus": {
+          "referee": "2.51518813089663833",
+          "sealed": "2.515188130889996886669",
+          "abs_diff": "6.64145e-12"
+        },
+        "tau_8_minus": {
+          "referee": "2.51518813089521192",
+          "sealed": "2.515188130889996886669",
+          "abs_diff": "5.21503e-12"
+        }
+      },
+      "lefschetz_151_summary": {
+        "primitive_classes": 151,
+        "lefschetz_verified": 151
+      },
+      "comparisons": {
+        "tau_isqrt3_c_acc": {
+          "referee": "0.445939402220317329",
+          "sealed": "0.445939402221680016",
+          "abs_diff": "1.3626872e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "tau_isqrt3_L2": {
+          "referee": "2.48699558205568385",
+          "sealed": "2.48699558204864576",
+          "abs_diff": "7.0380885e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "tau_isqrt3_pi_minus_L2": {
+          "referee": "0.654597071534109385",
+          "sealed": "0.654597071541147474",
+          "abs_diff": "7.0380885e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "bridge_b3s01_diff_lt_2e4": {
+          "val": "0.00010276023",
+          "status": "the same"
+        },
+        "tau_0_L2": {
+          "referee": "2.49347228351130878",
+          "sealed": "2.49347228350415294",
+          "abs_diff": "7.1558458e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "tau_0_wg96_radial": {
+          "referee": "2.44864347098340813",
+          "sealed": "2.44864347098340813",
+          "abs_diff": "4.1452264e-22",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "tau_0_wg96_offset": {
+          "referee": "0.0448288125279006563",
+          "sealed": "0.04482881252",
+          "abs_diff": "7.9006563e-12",
+          "tol": "1.0e-9",
+          "status": "the same"
+        },
+        "tau_8_plus_L2": {
+          "referee": "2.51518813089663833",
+          "sealed": "2.51518813088999689",
+          "abs_diff": "6.6414463e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "tau_8_minus_L2": {
+          "referee": "2.51518813089521192",
+          "sealed": "2.51518813088999689",
+          "abs_diff": "5.2150335e-12",
+          "tol": "1.0e-10",
+          "status": "the same"
+        },
+        "tau_8_mirror_err_lt_1e10": {
+          "val": "1.4264128e-12",
+          "status": "the same"
+        },
+        "gl4_commutator_tr_err_lt_1e7": {
+          "val": "3.3121232e-8",
+          "status": "the same"
+        },
+        "primitive_psl2z_classes_3_to_30": {
+          "referee": "151",
+          "sealed": "151",
+          "status": "the same"
+        },
+        "classes_satisfying_ker_eq_t_plus_2": {
+          "referee": "151",
+          "sealed": "151",
+          "status": "the same"
+        },
+        "m004_LR_ker_points_mod5": {
+          "referee": "[[0, 0], [1, 2], [2, 4], [3, 1], [4, 3]]",
+          "sealed": "[[0, 0], [1, 2], [2, 4], [3, 1], [4, 3]]",
+          "status": "the same"
+        },
+        "m004_LR_nonzero_antipodal_pairs": {
+          "referee": "[[1, 2], [2, 4]]",
+          "sealed": "[[1, 2], [2, 4]]",
+          "status": "the same"
+        },
+        "T4S_ker_points_mod6": {
+          "referee": "[[0, 0], [1, 1], [2, 2], [3, 3], [4, 4], [5, 5]]",
+          "sealed": "[[0, 0], [1, 1], [2, 2], [3, 3], [4, 4], [5, 5]]",
+          "status": "the same"
+        },
+        "T4S_unique_prim6_antipodal_pair": {
+          "referee": "[[1, 1]]",
+          "sealed": "[[1, 1]]",
+          "status": "the same"
+        },
+        "P5_antipodal_pairs": {
+          "referee": "12",
+          "sealed": "12",
+          "status": "the same"
+        },
+        "P6_prim6_antipodal_pairs": {
+          "referee": "12",
+          "sealed": "12",
+          "status": "the same"
+        },
+        "lefschetz_joint_antipodal_pairs": {
+          "referee": "2",
+          "sealed": "2",
+          "status": "the same"
+        },
+        "bit_reduction_144_to_2": {
+          "referee": "6.16992500144231236",
+          "sealed": "6.169925001",
+          "abs_diff": "4.4231236e-10",
+          "tol": "1.0e-8",
+          "status": "the same"
+        },
+        "bit_reduction_72_to_2": {
+          "referee": "5.16992500144231236",
+          "sealed": "5.169925001",
+          "abs_diff": "4.4231236e-10",
+          "tol": "1.0e-8",
+          "status": "the same"
+        }
+      },
+      "module_status": "the same"
+    },
+    "REF-F": {
+      "planted_fault_controls": {
+        "PF-REF-1_sha256_tamper_and_ast_literal_bool": "the same",
+        "PF-REF-2_buggy_ytau12_shift_9": "the same",
+        "PF-REF-3_chimera_gauge_box_root_shift": "the same",
+        "PF-REF-4_type1_fW2_and_E5_twist_sign_flip": "the same",
+        "PF-REF-5_smith_sign_and_nonprimitive_cf_inflation": "the same",
+        "PF-REF-6_fuchsian_c_acc_perturbation_and_ledger_tamper": "the same"
+      },
+      "planted_faults_caught": 6,
+      "planted_faults_total": 6,
+      "nonprimitive_cf_count_fault_check": 157,
+      "comparisons": {
+        "total_observables_24": {
+          "referee": "24",
+          "sealed": "24",
+          "status": "the same"
+        },
+        "ids_unique_and_complete_24": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "bucket_partition_3_9_9_3": {
+          "referee": "{'DERIVED_EXACT': 3, 'CONDITIONAL_OR_QUALITATIVE': 9, 'INTERNAL_WALL_OR_TENSION': 9, 'OPEN_EXTERNAL_BOUNDARY': 3}",
+          "sealed": "{'DERIVED_EXACT': 3, 'CONDITIONAL_OR_QUALITATIVE': 9, 'INTERNAL_WALL_OR_TENSION': 9, 'OPEN_EXTERNAL_BOUNDARY': 3}",
+          "status": "the same"
+        },
+        "bucket_partition_matches_sealed": {
+          "referee": "{'DERIVED_EXACT': 3, 'CONDITIONAL_OR_QUALITATIVE': 9, 'INTERNAL_WALL_OR_TENSION': 9, 'OPEN_EXTERNAL_BOUNDARY': 3}",
+          "sealed": "{'DERIVED_EXACT': 3, 'CONDITIONAL_OR_QUALITATIVE': 9, 'INTERNAL_WALL_OR_TENSION': 9, 'OPEN_EXTERNAL_BOUNDARY': 3}",
+          "status": "the same"
+        },
+        "cross_card_locks_10_of_10_independent": {
+          "referee": "{'LOCK_1_minimal_deg_N5_d5_A5_A4_and_d15_scope': True, 'LOCK_2_topological_Ngen3_and_FRG_scheme_scope': True, 'LOCK_3_tau_star_minus_baryon_and_3of4_CKM_JCP': True, 'LOCK_4_dim13_32Proca_and_E6_27_brane2H_bridge': True, 'LOCK_5_6D_I8_7D_CS_EoverN_8_3_exact': True, 'LOCK_6_proca_antigravity_wall_vs_sen_ir_exact': True, 'LOCK_7_non_chimera_SO10_wall_and_B3S02_m12_EWSB': True, 'LOCK_8_ow9_6d_s3_twisted_AdS_wall_and_bose15': True, 'LOCK_9_three_seat_B3S01_and_Synergy_S1_151': True, 'LOCK_10_D4_and_Lorentzian_class_mod_negation': True}",
+          "sealed": "{'LOCK_1_minimal_deg_N5_d5_A5_A4_and_d15_scope': True, 'LOCK_2_topological_Ngen3_and_FRG_scheme_scope': True, 'LOCK_3_tau_star_minus_baryon_and_3of4_CKM_JCP': True, 'LOCK_4_dim13_32Proca_and_E6_27_brane2H_bridge': True, 'LOCK_5_6D_I8_7D_CS_EoverN_8_3_exact': True, 'LOCK_6_proca_antigravity_wall_vs_sen_ir_exact': True, 'LOCK_7_non_chimera_SO10_wall_and_B3S02_m12_EWSB': True, 'LOCK_8_ow9_6d_s3_twisted_AdS_wall_and_bose15': True, 'LOCK_9_three_seat_B3S01_and_Synergy_S1_151': True, 'LOCK_10_D4_and_Lorentzian_class_mod_negation': True}",
+          "status": "the same"
+        },
+        "prior_manifests_145_of_145": {
+          "referee": "(143, 143)",
+          "sealed": "(145, 145)",
+          "status": "differs"
+        },
+        "historical_false_count_22": {
+          "referee": "22",
+          "sealed": "22",
+          "status": "the same"
+        },
+        "historical_false_exact_set_match": {
+          "referee": "{'relays/a2_ow11/verify_a2_ow11_out.json': ['all_gates_passed'], 'relays/a2_ow12/verify_a2_ow12_out.json': ['all_gates_passed'], 'relays/a2_ow13/a2_ow13_results.json': ['all_gates_passed'], 'relays/a2_ow13_referee/a2_ow13_referee_results.json': ['summary.all_gates_passed'], 'relays/a2_ow14/a2_ow14_results.json': ['all_gates_passed'], 'relays/a2_ow14_referee/a2_ow14_referee_results.json': ['all_gates_passed'], 'relays/a2_ow17/a2_ow17_results.json': ['all_gates_passed'], 'relays/a2_ow18/a2_ow18_results.json': ['all_gates_passed'], 'relays/a2_ow18_v2/a2_ow18_v2_results.json': ['all_gates_passed'], 'relays/a2_ow2_referee/referee_a2_ow2_out.json': ['overall_pass'], 'relays/a2_ow2_v3/verify_a2_ow2_v3_out.json': ['all_gates_passed'], 'relays/a2_ow2_v4/verify_a2_ow2_v4_out.json': ['all_gates_passed'], 'relays/a2_ow3/verify_a2_ow3_out.json': ['all_gates_passed'], 'relays/a2_ow3_referee/referee_a2_ow3_out.json': ['overall_pass'], 'relays/a2_ow6/verify_a2_ow6_out.json': ['all_gates_passed'], 'relays/a2_ow6_referee/referee_a2_ow6_out.json': ['overall_pass'], 'relays/a2_ow7/verify_a2_ow7_out.json': ['all_gates_passed'], 'relays/a2_p879_referee_v2/referee_a2_p879_v2_out.json': ['all_gates_passed'], 'relays/a2_p879_v2/verify_a2_p879_out.json': ['all_gates_passed'], 'relays/a2_p879_v3/verify_a2_p879_out.json': ['all_gates_passed'], 'relays/a2_p879_v4/verify_a2_p879_out.json': ['all_gates_passed'], 'relays/a2_wg96_v2/verify_a2_wg96_out.json': ['all_gates_passed']}",
+          "sealed": "{'relays/a2_ow11/verify_a2_ow11_out.json': ['all_gates_passed'], 'relays/a2_ow12/verify_a2_ow12_out.json': ['all_gates_passed'], 'relays/a2_ow13/a2_ow13_results.json': ['all_gates_passed'], 'relays/a2_ow13_referee/a2_ow13_referee_results.json': ['summary.all_gates_passed'], 'relays/a2_ow14/a2_ow14_results.json': ['all_gates_passed'], 'relays/a2_ow14_referee/a2_ow14_referee_results.json': ['all_gates_passed'], 'relays/a2_ow17/a2_ow17_results.json': ['all_gates_passed'], 'relays/a2_ow18/a2_ow18_results.json': ['all_gates_passed'], 'relays/a2_ow18_v2/a2_ow18_v2_results.json': ['all_gates_passed'], 'relays/a2_ow2_referee/referee_a2_ow2_out.json': ['overall_pass'], 'relays/a2_ow2_v3/verify_a2_ow2_v3_out.json': ['all_gates_passed'], 'relays/a2_ow2_v4/verify_a2_ow2_v4_out.json': ['all_gates_passed'], 'relays/a2_ow3/verify_a2_ow3_out.json': ['all_gates_passed'], 'relays/a2_ow3_referee/referee_a2_ow3_out.json': ['overall_pass'], 'relays/a2_ow6/verify_a2_ow6_out.json': ['all_gates_passed'], 'relays/a2_ow6_referee/referee_a2_ow6_out.json': ['overall_pass'], 'relays/a2_ow7/verify_a2_ow7_out.json': ['all_gates_passed'], 'relays/a2_p879_referee_v2/referee_a2_p879_v2_out.json': ['all_gates_passed'], 'relays/a2_p879_v2/verify_a2_p879_out.json': ['all_gates_passed'], 'relays/a2_p879_v3/verify_a2_p879_out.json': ['all_gates_passed'], 'relays/a2_p879_v4/verify_a2_p879_out.json': ['all_gates_passed'], 'relays/a2_wg96_v2/verify_a2_wg96_out.json': ['all_gates_passed']}",
+          "status": "the same"
+        },
+        "historical_false_5_cited_present": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "guardrail5_anchor_limit_computed_ok": {
+          "referee": "True",
+          "sealed": "True",
+          "status": "the same"
+        },
+        "guardrail5_ast_no_literal_bool": {
+          "status": "the same"
+        },
+        "bits_log2_18": {
+          "referee": "4.16992500144231236",
+          "sealed": "4.16992500144",
+          "abs_diff": "2.3123629e-12",
+          "tol": "1.0e-9",
+          "status": "the same"
+        },
+        "bits_log2_72": {
+          "referee": "6.16992500144231236",
+          "sealed": "6.16992500144",
+          "abs_diff": "2.3123629e-12",
+          "tol": "1.0e-9",
+          "status": "the same"
+        },
+        "bits_log2_36": {
+          "referee": "5.16992500144231236",
+          "sealed": "5.16992500144",
+          "abs_diff": "2.3123629e-12",
+          "tol": "1.0e-9",
+          "status": "the same"
+        },
+        "planted_faults_6_of_6_caught": {
+          "referee": "6",
+          "sealed": "6",
+          "status": "the same"
+        }
+      },
+      "module_status": "differs"
+    }
+  }
+}
