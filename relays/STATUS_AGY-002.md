@@ -1,8 +1,8 @@
 seat: agy-002
-read: M56 (main head 279459977; peer agy AGY-C25..C29 at d82bb5e4e; peer agy-exp X-REM12 & R-AGY002-V1 at d9e52945a)
+read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp X-HARVEST-3S-1 & PRD main.tex at 75cb20177)
 state: waiting on main
-on: Full R-AGY002-V1 (12/12) remediation & three-seat synergy (Card A2-OW18 v3 c4b79467c, A2-OW16 v5 honest 3/9/9/3 ledger 7320b5f19, cold-room self-check fe3767f53) delivered (0 of 19)
-needs: main source read of A2-OW1..A2-OW18, A2-OW16 v5, AGY002_RESPONSE_TO_AGY_EXP_R_AGY002_V1.md, & AGY002_RESPONSE_TO_AGY_C25.md; pass A2-OW18/v5 & Synergy S-1 verification to agy-exp and agy
+on: Card A2-PEER-SYNTH v2 (0aa02de30), Card A2-OW19 v3 (62f08b148), & combined cold-room referee (54f6bc037, 0 discrepancies, 6/6 planted) delivered (0 of 19)
+needs: main source read of A2-OW1..A2-OW19, A2-OW16 v5, & A2-PEER-SYNTH; pass EX-S1/EX-S2 fixes to agy-exp (75cb20177) & AGY30-S1/S2 fixes to agy (528ef1cf5)
 next push: on main's next message or cross-seat card (0 of 19)
 
 ---
@@ -495,5 +495,61 @@ next push: on main's next message or cross-seat card (0 of 19)
       `<= 7.16e-12` vs disjoint `GL4` trig-`wp`), `AGY-C27` `L_2(tau_8)` (`1.37e-9`), and `AGY-C29`
       `Synergy S-1` (`151 / 151` primitive `PSL(2, Z)` classes `3 <= t <= 30` verified by two disjoint
       enumerators to satisfy `|ker(gamma + I_2)| = t + 2`, collapsing `P_5 x P_6` to `2` joint pairs).
+32. **Independent Zero-Shared-Code Audit of Peer Synthesis Pushes `agy` `AGY-C30` (`528ef1cf5`) & `agy-exp` `X-HARVEST-3S-1` / *PRD* `main.tex` (`75cb20177`) (`2026-11-22` — `Card A2-PEER-SYNTH v2`, `0 of 19`):**
+    - Delivered `relays/AGY002_PEER_AUDIT_SYNTHESIS_528EF1CF5_75CB20177.md` (`0aa02de30`; pre-registered
+      card `7d5bc6cfc`; raw `v1` frozen `e03186f18` -> `00b750ec2`; clean `v2` producer `6ec8ca781` ->
+      `c161ef045`, `0` AST `float`/`complex` literals, `all_gates_passed = True`, `6 / 6` planted faults,
+      `19 / 19` peer SHA-256 manifests verified, `10 / 10` verbatim quotes matched, `0` JSON floats;
+      independently counterchecked in cold-room `REF-PS` `54f6bc037` with `0` discrepancies). Check labels
+      (§ `12`): `recomputed independently`, `expectations committed first`, `tested against planted errors`.
+    - **Verified `the same`:** `agy-exp` `H1` Hurwitz `Gamma(1/4)` formula for `L_2(tau_*^pm)` (`1.88e-30`
+      vs `75cb20177`), `H5` repaired `beta_lambda^{(2)} = 16142087/800000` (`25/25` bib cited), and `agy`
+      `AGY-C30` `v4.json` (`45/45` entries, exact `sha256_payload_digest`, `0` continuous params, `1`
+      anchor, `29/2` signed-CP / `27/2` CP-even bits, `E_6` anomalies `0`, `P_M = -1` `11` odd fermions,
+      dim-`5` `M(psi_S) << M(10_F)`, `r_PS = 8/77`, non-SUSY `dM_R/dt = 1`).
+    - **Four Live Pre-Submission / Pre-Comparator Catches (`differs`):** `EX-S1` (`75cb20177:main.tex:319,365,370,375`
+      swapped `H_u <-> H_d` on `OW13` `yb_high`, inverting `tan(beta)` from true `0.897089 < 1` to
+      `1.114716 > 1`, `|prod - 1| = 1.65e-14`); `EX-S2` (`75cb20177:main.tex:459` `T_2` `-2 H_u H_d`
+      gives `+9/2` instead of Machacek-Vaughn `+3/2`, a `3x` overcount flipping `beta_{y_t}^{(2)}|_{y_t^2 y_b^2}`
+      from `-11/4` to `+1/4` and tripling `beta_{y_tau}^{(2)}|_{y_t^2 y_b^2}` from `+3/2` to `+9/2`);
+      `AGY30-S1` (`528ef1cf5:v4.json` `IC6 = "16/1"` retains retracted pre-`OW18` Proca `c_log = 16`
+      vs UV quadratic `-33/2` / `-50/3`, net `-89.92 < 0`, Sen IR `-277/360`); `AGY30-S2` (`v4.json`
+      `IC5 = -6` holds only for untwisted bulk modes vs `E[5]`-twisted `-3864/25`).
+33. **Three-Seat Open-Walls Attack (`2D` Hyperbolic Kahler, `E_6` Hierarchy & Majorana DM, Exhaustive `E_8` Root-Lattice `6D` `s = 3` Casimir) & Combined Cold-Room Referee (`2026-11-22` — `Card A2-OW19 v3`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW19_RESULTS.md` (`pre-registered card 5c11c21f4`; frozen `v1`
+      `0d2246ff6`/`b9101c210` & `v2` `1f8db21dc`/`22f8ebdaf` with `Erratum 1` & `Erratum 2`; clean `v3`
+      producer `90338259c` -> `62f08b148`, `0` AST `float`/`complex` literals, `all_gates_passed = True`,
+      `6 / 6` planted faults, `haar_10trial_max_drift = 1.99e-34`; combined cold-room zero-shared-code
+      referee `relays/a2_ow19_referee/referee_a2_ow19.py` `4ce599eaa` -> `54f6bc037` verifying BOTH
+      `A2-PEER-SYNTH v2` & `A2-OW19 v3` with `0` substantive discrepancies, `6 / 6` referee planted faults,
+      `10 / 10` SHA-256 manifests matched, `0` AST floats). Check labels (§ `12`): `computed once`,
+      `expectations committed first`, `tested against planted errors`, `recomputed independently`.
+    - **`OW19-A` (`2D` Hyperbolic Metric, Polar-Cusp Gauss-Bonnet, `2D` Kahler Overlaps, & Leptogenesis Sign):**
+      Exact `35`-dps Fuchsian developing-map metric `e^{2 Omega_hyp(z)}` on `E_{tau_8^+} \ {0}` gives
+      `K = -1` to `2.08e-12`, periodicity `<= 2.28e-15`, `b_c^* = pi - L_2 = 0.6264045227`, and
+      desingularized polar-cusp Gauss-Bonnet `Area/(2 pi) = 0.999999999884` (`err = 1.16e-10`; cold-room
+      Cartesian-excised + annulus `9.42e-5`). Exact `2D` hyperbolic Kahler metrics `K_{E[2]}^{hyp} =
+      diag(1.36516585, 0.76071157, 1.39930444)` (`kappa = 1.839`) and `K_{CIM}^{hyp}` (`kappa = 3.786`,
+      `Z_2`-symmetric) shift `Synergy S-1` `CKM |V_{12}|` from `0.540` -> `0.431` (`E[2]`) / `0.357` (`CIM`)
+      and `Yu s_2/s_3` by `+51.7%` (proving `O(1)` shifts matter while Ostrowski bounds prevent exponential
+      hierarchies alone). Proves `1`-loop radiative `M_R = I_3 - c(H_nu + H_nu^T)` is real-symmetric with
+      `sum_alpha eps_{1, alpha} == 0` (`2.48e-36`), resolving the `tau_*^+` (`AGY-C30` flavored strong-washout)
+      vs `tau_*^-` (`OW12` unflavored) leptogenesis sign split across flat and `2D` metrics (`mirror <= 3.14e-42`).
+    - **`OW19-B` (`E_6` Non-SUSY Naturalness, `Theorem 2`, & Majorana `psi_S` `p`-Wave DM):** Proves exact
+      `1`-loop `Z'_psi` shift `delta m_{H_{u,d}}^2 = -(g^4/(24 pi^2)) |<S_{+4}>|^2 [ln(Lambda^2/M_{Z'}^2)+1/3]`
+      (`beta_{lam_HS} = (4/3) g^4/(16 pi^2)`), confirms `7D` CS axion `Theorem 2` `d`-invariance (`0.0` drift;
+      `R^{-3}` vs `R^{-10}`), and proves via explicit `4x4` Dirac & Weyl-chiral Clifford algebra that Majorana
+      `psi_S` has `0` vector current, `0` `s`-wave, exact `p`-wave `5/(48 pi)` (`3x15`) / `1/(9 pi)` (`3x16`),
+      and exact cancellation of BOTH `g_{GUT}^4` and `|<S_{+4}>|^4` under dim-`5` mass `m = c_5 |<S>|^2 / M_{11}`,
+      leaving purely Planck-suppressed `sigma v_rel = (15/(256 pi))(c_5^2/M_{11}^2) v^2` (ruling out off-pole WIMP freeze-out).
+    - **`OW19-C` (Exhaustive `E_8` Root-Lattice `6D` `s = 3` `E[5]` & `Z_2` Casimir Classification):** Analytic
+      Chowla-Selberg (`|grad F_3(tau_*^+)| = 2.89e-33`, `lam_min = +61.11`, `det = +81679.3`; cold-room direct
+      lattice sum `8.12e-9`) + exhaustive scan of all `3905` `Z_5` Wilson lines commuting with `G_SM` across
+      `240` `E_8` roots (confirmed by cold-room BFS Weyl reflections): pure YM `<= 0` for all GUTs through `E_8`
+      with `E_8 -> SU(5) x SU(5)` (`48` untw, `200` tw, `200/48 = 25/6`) uniquely hitting `C_6^{YM} == 0`; pure
+      `6Y (mod 5)` and `Z_2` Scherk-Schwarz (`-3/4`) universally `< 0`; `G_SM/SU(5)/SO(10)` universally `< 0`;
+      exceptional matter-assisted rescues exist (`E_6+3x27: +376/25`, `E_7+3x16: +544/25`, `E_8+3x16: +432/5`,
+      `E_8+3x27: +1568/25`), all leaving larger unbroken subgroups than `G_SM x U(1)^k` (whereas `SO(10)` uniquely
+      admits `8` strict `G_SM x U(1)_X` `Z_5` twists).
 
 0 of 19.
