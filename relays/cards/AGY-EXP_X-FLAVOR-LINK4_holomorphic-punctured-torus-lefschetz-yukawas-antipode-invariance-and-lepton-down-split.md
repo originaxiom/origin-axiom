@@ -63,7 +63,7 @@
      introduces **zero** $3\times 3$ flavor distortion, and audit the exact reduction from `42` complex Yukawa/Majorana
      entries (`0` free internal `3x3` texture entries given $\tau$) while explicitly pricing discrete choices and
      inventorying remaining overall bulk/brane scales for Link `B` (`PC_FL4_6` catches unpriced `0`-bit modulus smuggling).
-   - (`Revision note: v1 at dcd08e9b3, v2 at 6561cbf68, and v3 at 57c08018d tripped pre-output assertions/exceptions,`
-     `including 2.54e-7 uniform-step GBS6 truncation near IR g_3^2 = 3.45 in v3, and are preserved untouched; v4 in`
-     `relays/x_flavor_link4_v4_verify/ uses order-8 GBS8 n=(2,4,6,8) on the exact telescoping graded mesh`
-     `Delta t_k = -L_span*((k+1)^2 - k^2)/M^2 at M=45 vs 90 with expectations unchanged.`)
+   - (`Revision note: v1 at dcd08e9b3, v2 at 6561cbf68, and v3 at 57c08018d tripped pre-output checks and v4 at`
+     `f1c0abb89 -> d492d1a67 are all preserved untouched; cold-room audit against Machacek-Vaughn NPB 221/222 caught`
+     `b_22^(2)=14 -> 8 and 1HDM sub-coefficients (43/80,-9/16,0), (79/80,-9/16,0), -3/2 Tr(H_u H_d) -> exact Type-II`
+     `2HDM (-41/240,33/16,16/3), (-53/240,33/16,16/3), -9/4 Tr(H_u H_d), sealed in v5 with expectations unchanged.`)
