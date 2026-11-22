@@ -1,0 +1,158 @@
+{
+  "H1_punctured_torus_fuchsian_liouville_duality": {
+    "H1_passed": true,
+    "L2_fricke_tau_plus_30d": "3.52397658431848967047221782955",
+    "L2_fricke_tau_plus_gamma_closed_30d": "3.52397658431848967047221782955",
+    "L2_isqrt3_30d": "2.48699558204864576463173477882",
+    "L2_square_i_30d": "2.71925762810143948317183816294",
+    "L2_tau8_30d": "2.51518813088999688666864810396",
+    "L2_tau8_vs_agy002_ow17_referee_err": "1.9189604e-22",
+    "PC_H3S_1_caught": true,
+    "agy_exp_2D_PDE_richardson_bc_star": "0.654494311264",
+    "bc_star_fricke_tau_plus_30d": "-0.382383930728696432009574446272",
+    "bc_star_isqrt3_eq_pi_minus_L2_30d": "0.654597071541147473830908604459",
+    "duality_L2_plus_bc_eq_pi_pde_diff": "0.00010276028",
+    "gamma_closed_tau_plus_abs_err": "8.6233823e-36",
+    "max_frobenius_r24_vs_r36_err": "3.7727642e-33",
+    "max_weierstrass_ode_res": "2.7694806e-41",
+    "s_duality_tau_plus_vs_i_abs_err": "8.6233823e-36"
+  },
+  "H2_flavor_mobius_wg96_m004_and_lefschetz_kernel": {
+    "H2_passed": true,
+    "PC_H3S_2_caught": true,
+    "m004_E2_commutant_dim": 3,
+    "m004_E2_diagonal_commutant_dim": 1,
+    "neg_trace_det_negL2R_plus_I": 2,
+    "p879_mobius_threshold_9_10": "17/19",
+    "synergy_S1_T4S_antipodal_pairs": 1,
+    "synergy_S1_T4S_prim6_points": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "synergy_S1_joint_pair_reduction": [
+      72,
+      2
+    ],
+    "synergy_S1_ker_LR_matches_span_1_2": true,
+    "synergy_S1_m004_antipodal_pairs": 2,
+    "wg96_b1736_det1_k21_collapsed_order": 24,
+    "wg96_braid_relation_exact": true,
+    "wg96_center_order": 4,
+    "wg96_cup_signature": [
+      3,
+      3
+    ],
+    "wg96_group_order": 96,
+    "wg96_quotient_S4_order": 24
+  },
+  "H3_e6_brane_2hdm_gauged_holomorphy_and_conformal_ewsb": {
+    "H3_passed": true,
+    "PC_H3S_3_caught": true,
+    "bulk_6D_casimir_nB_minus_nF": {
+      "e6_brane_2H": -6,
+      "e6_bulk_27H": 21,
+      "spin10_brane_2H": -6,
+      "spin10_bulk_10C": 4
+    },
+    "conformal_ewsb_tan_beta_identity_exact": true,
+    "e6_27_tr_qpsi_zero": true,
+    "gauged_U1psi_holomorphic_vs_conjugate_charges": [
+      0,
+      4
+    ],
+    "matter_parity_PM_16F_psiS_10H": [
+      1,
+      -1,
+      1
+    ],
+    "pure_PS_r_for_5_over_7": "8/77",
+    "singlet_S4_induces_m12_charge": 0,
+    "triplet_130C_B_at_r1": "5/7",
+    "yb_high_bfb_holds": true,
+    "yb_high_conformal_tan_beta": "1.1147163290668",
+    "yb_high_m12_sq_over_vew2": "0.12341728850491",
+    "yb_high_mA0_sq_over_vew2": "0.2482915856254",
+    "yb_high_mh0_mH0_over_vew": [
+      "0.493308121668",
+      "0.77203832854"
+    ]
+  },
+  "H4_fourth_basis_porti_cy4_ftheory_and_fricke_mirror": {
+    "H4_passed": true,
+    "PC_H3S_4_caught": true,
+    "cy4_Ftheory_vertical_orthogonal_samples": [
+      {
+        "K_Fth_plus": 13160,
+        "b4_plus": 13164,
+        "log10_BP_Fth_R2_over_VK": "-179.6109525",
+        "log10_BP_Fth_inv_K_VK": "-186.6450802",
+        "r": 0
+      },
+      {
+        "K_Fth_plus": 1624,
+        "b4_plus": 1636,
+        "log10_BP_Fth_R2_over_VK": "-20.89414697",
+        "log10_BP_Fth_inv_K_VK": "-26.11333317",
+        "r": 8
+      },
+      {
+        "K_Fth_plus": 182,
+        "b4_plus": 195,
+        "log10_BP_Fth_R2_over_VK": "-2.235973377",
+        "log10_BP_Fth_inv_K_VK": "-5.575226011",
+        "r": 9
+      }
+    ],
+    "cy4_all_r0_to_9_strictly_negative": true,
+    "m004_so3_laurent_dft_tau_ad": "3.46410161513775458705489268301",
+    "m004_so3_pauli_orth_err": "1.1549916e-57",
+    "m004_so3_vs_2sqrt3_abs_err": "8.6233269e-54"
+  },
+  "H5_luo_xiao_buttazzo_2loop_sm_rge_remediation": {
+    "H5_passed": true,
+    "PC_H3S_5_caught": true,
+    "exact_decimal_beta_lam_2_at_benchmark": "20.17760875",
+    "exact_rational_beta_lam_2_at_benchmark": "16142087/800000",
+    "ford_jack_jones_minus_11_2_shift": "-693/3200",
+    "g1sq_g2sq_hypercharge_law_u_d_e": {
+      "d": "27/10",
+      "e": "33/10",
+      "u": "63/10"
+    },
+    "g1sq_g2sq_law_matches_luo_xiao_and_buttazzo": true,
+    "q_vs_mpmath_beta_lam_2_err": "0.0",
+    "q_vs_mpmath_five_halves_Tg_err": "0.0",
+    "su3_pow5_haar_lam_err": "8.5528471e-50",
+    "su3_pow5_haar_yu_err": "2.1407103e-50"
+  },
+  "H6_convergent_three_seat_cosmology_and_proca_nogo": {
+    "H6_passed": true,
+    "PC_H3S_6_caught": true,
+    "proca_induced_gravity_quad_coeff": "-33/2",
+    "starobinsky_single_radius_2Lc_pow10": "649815309.7",
+    "townsend_wohlfarth_N_accel_max": "0.811375956414407558",
+    "warped_7D_Grr_algebraic_roots": [
+      "2/3 - sqrt(10)/6",
+      "sqrt(10)/6 + 2/3"
+    ]
+  },
+  "all_6_modules_passed": true,
+  "all_6_planted_controls_caught": true,
+  "ast_zero_float_and_complex_check": {
+    "ast_clean_passed": true,
+    "binary64_cast_call_count": 0,
+    "float_or_complex_literal_count": 0,
+    "float_or_complex_literal_lines": []
+  },
+  "card": "X-HARVEST-3S-1",
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 6,
+  "planted_controls_total": 6,
+  "version": "v4"
+}
