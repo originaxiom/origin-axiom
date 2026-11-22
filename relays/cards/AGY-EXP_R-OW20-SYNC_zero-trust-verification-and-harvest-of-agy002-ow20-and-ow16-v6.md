@@ -11,6 +11,7 @@
    - Expect all `6` new SHA-256 manifests (`a2_ow20`, `a2_ow16_v6`, `a2_ow20_referee`) at `2d993276b` to match with
      `0` in-place overwrites across `40c6add75..2d993276b` and `0` AST `float`/`complex` literals across all `3` `.py`
      files, while catching the `1` residual JSON float `"PM_126bar": 1.0` in `a2_ow20_referee_results.json` (`OW20-N1`).
+     (`Revision note: v1 at 4a64ef637 preserved untouched; v2 resolves relative basename in manifest path before run.`)
 2. **`M2` — First-Principles Machacek-Vaughn Identities & `3`-Stage Order-`6` `GL6` Countercheck (`PC_S0_2`):**
    - Expect exact `0` residual on the universal Machacek-Vaughn *NPB* `222` Eq. `(3.5)`/`(4.5)` & `236` Eq. `(3.4)`
      identities (`(17/4 c_L - 1/4 c_R - 3/2 c_S)` giving `(16/3, 33/16, -41/240, -53/240)` and

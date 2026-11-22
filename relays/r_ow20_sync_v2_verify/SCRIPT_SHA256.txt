@@ -1,0 +1,1 @@
+55899b751df470c82834874c5d4d0d81cd528111d4c41e12c86978b3948bb198  relays/r_ow20_sync_v2_verify/verify_r_ow20_sync_v2.py
