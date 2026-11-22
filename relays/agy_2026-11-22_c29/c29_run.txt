@@ -1,0 +1,1 @@
+AGY-C29 producer complete in 55s: 147+8 manifests OK, 9/9 SO(3,C) Porti max_diff=3.32819e-12, X-F1a..e caught, controls=5/5

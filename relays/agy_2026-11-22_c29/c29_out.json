@@ -1,0 +1,183 @@
+{
+  "E1_custody_and_governance": {
+    "E1_passed": true,
+    "active_md_over_680_counts": {
+      "AGY-EXP_X-REM12_peer-audit-verification-and-remediation-of-45fe6e401.md": 1,
+      "AGY_EXP_TO_AGY002_AND_MAIN_2026-11-22_PEER_AUDIT_REMEDIATION_AND_PATH_A_OVERHAUL.md": 1,
+      "AGY_EXP_TO_AGY_AND_MAIN_2026-11-22_FULL_VERIFICATION_REVIEW_OF_AGY_C1_TO_C24.md": 4,
+      "AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS.md": 1,
+      "AGY_EXP_TO_MAIN_2026-11-18_X_P1_EXTERIOR_JOIN_SYMMETRY_NULLITY_WP1_AND_C3I.md": 7,
+      "STATUS_AGY-EXP.md": 39
+    },
+    "active_md_over_680_total": 53,
+    "agy_002_delta_sha256_entries_verified": 8,
+    "agy_exp_sha256_entries_verified": 147,
+    "agy_exp_sha256_files": 146,
+    "agy_exp_sha256_mismatches": [],
+    "ast_zero_float_complex_agy_002_delta": {
+      "referee_a2_ow16_v4.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      },
+      "referee_a2_ow17.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      },
+      "verify_a2_ow16_v4.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      },
+      "verify_a2_ow17.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      }
+    },
+    "ast_zero_float_complex_agy_exp": {
+      "verify_agy_c1_to_c24.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      },
+      "verify_x_l5.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      },
+      "verify_x_p1.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      },
+      "verify_x_rem12.py": {
+        "complex_literal_count": 0,
+        "float_literal_count": 0,
+        "passed": true
+      }
+    },
+    "bundle_stale_4_figures_comment": true,
+    "control_1_manifest_tamper_caught": true,
+    "manuscript_uncited_bib_keys": [
+      "GeorgiJarlskog1979",
+      "MohapatraMarshak1980",
+      "Srednicki1985"
+    ],
+    "submission_guide_author_placeholder": true
+  },
+  "E2_peer_math_and_live_appendix_b_findings": {
+    "E2_passed": true,
+    "combinatorial_covers_match_table2": true,
+    "combinatorial_m004_deg5_covers": [
+      {
+        "b1": 1,
+        "is_regular": true,
+        "monodromy_order": 5,
+        "num_cusps": 1,
+        "torsion": [
+          11,
+          11
+        ]
+      },
+      {
+        "b1": 2,
+        "is_regular": false,
+        "monodromy_order": 120,
+        "num_cusps": 2,
+        "torsion": [
+          2
+        ]
+      },
+      {
+        "b1": 2,
+        "is_regular": false,
+        "monodromy_order": 120,
+        "num_cusps": 2,
+        "torsion": [
+          2
+        ]
+      },
+      {
+        "b1": 3,
+        "is_regular": false,
+        "monodromy_order": 10,
+        "num_cusps": 3,
+        "torsion": []
+      }
+    ],
+    "control_2_porti_cusp_normalization_caught": true,
+    "control_3_appendix_b_discrepancies_caught": true,
+    "cy4_r8_log10_BP_Ftheory_vertical_orth": "-20.894147",
+    "cy4_r8_log10_BP_b4plus_rem12": "-23.682493",
+    "cy4_refined_all_r0_to_r9_negative": true,
+    "live_findings_X_F1_appendix_b": {
+      "X_F1a_chi_g_lepton_exact_gp2": "25/8",
+      "X_F1a_verify_x_rem12_line412_bug_gp2": "75/8",
+      "X_F1e_claimed_benchmark_16315337_over_800000": "20.39417125",
+      "X_F1e_printed_EqB2_at_main_tex_state": "-2.15235968993",
+      "X_F1e_printed_EqB2_at_rem12_code_state": "17.0365075",
+      "X_F1e_rem12_code_at_main_tex_state": "2.7099602603"
+    },
+    "porti_9_manifolds_max_I_Porti_diff": "3.32819e-12",
+    "porti_9_manifolds_max_tau_diff": "7.91155e-14",
+    "porti_m004_SL2Z_T2S_invariance_err": "6.14933e-61",
+    "porti_so3_orthogonality_max_err": "1.63548e-60",
+    "poschl_teller_zero_dimensions": [
+      1,
+      3
+    ],
+    "selberg_over_gh3_m004_systole": "1.384205601",
+    "theorem2_fa_over_MPl4_d_independent": true,
+    "xl5_p871_c2_exponents_mod5": [
+      0,
+      3,
+      3
+    ],
+    "xp1_georgi_jarlskog_clebsch": "-3/1"
+  },
+  "E3_three_seat_synergy_harvest": {
+    "E3_passed": true,
+    "a2_ow17_seam_S2_brane2H_nB_minus_nF": -6,
+    "a2_ow17_seam_S2_bulk10C_AdS_flip": 4,
+    "a2_ow17_seam_S2_c_log_exact": "16/1",
+    "a2_ow17_seam_S3_45_triplet_B_at_r1": "5/7",
+    "a2_ow17_seam_S3_pure_PS_r_exact": "8/77",
+    "control_4_bulk_10C_casimir_flip_caught": true,
+    "control_5_lefschetz_36x_pair_reduction_caught": true,
+    "cross_seat_L2_tau8_agy_c27_vs_agy002_ow17_diff": "1.36523e-9",
+    "ker_LR_nonzero_antipodal_pairs": 2,
+    "ker_T4S_primitive_order6_antipodal_pairs": 1,
+    "lefschetz_equivariant_antipodal_pairs": 2,
+    "lefschetz_kernel_card_equals_t_plus_2_on_151_classes": true,
+    "synergy_bit_reduction_41_over_2_to_27_over_2": "41/2 -> 27/2 (7 bits saved via Lefschetz monodromy equivariance)",
+    "unequivariant_P5xP6_antipodal_pairs": 72
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "complex_literal_count": 0,
+    "float_literal_count": 0,
+    "passed": true
+  },
+  "card": "AGY-C29",
+  "check_labels_section_12": {
+    "new_synergy_lefschetz_kernel_E3": [
+      "computed once",
+      "expectations committed first",
+      "tested against planted errors"
+    ],
+    "peer_recomputations_E1_E2_OW17": [
+      "recomputed independently",
+      "expectations committed first",
+      "tested against planted errors"
+    ]
+  },
+  "empirical_firewall": "0 of 19",
+  "peer_targets_audited": {
+    "agy_002_delta": "b13a9a7fd",
+    "agy_exp": "548d09082831c1b9f6e72585cf41911c29a7711f"
+  },
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}
