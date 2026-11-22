@@ -2,9 +2,10 @@
 
 Complete data-free (`0 of 19`), `46`–`60`-digit verified `REVTeX 4.2` (*Physical Review D* Regular
 Article) manuscript, self-contained Technical Appendices (`A–B`), and four-figure vector suite
-(`fig5`, `fig6`, `fig7`, `fig8`) uniting `Card X-REM12` (`relays/x_rem12_verify/verify_x_rem12_out.json`)
-and `Card X-HARVEST-3S-1` (`relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4_out.json`) while
-remediating all equation-to-code and bundle items (`X-F1a..e`, `X-F2`) flagged in peer review `AGY-C29`.
+(`fig5`, `fig6`, `fig7`, `fig8`) uniting `Card X-REM12` (`relays/x_rem12_verify/verify_x_rem12_out.json`),
+`Card X-HARVEST-3S-1` (`relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4_out.json`), and
+`Card R-3S-FINAL` (`relays/r_3s_final_verify/verify_r_3s_final_out.json`) while remediating all
+equation-to-code and bundle items (`X-F1a..e`, `X-F2`) flagged in peer review `AGY-C29`.
 
 All phenomenological `36`-observable scorecard claims from earlier exploratory drafts remain formally
 retracted in view of the structural consistency obstructions established in Section V (`Table III`),

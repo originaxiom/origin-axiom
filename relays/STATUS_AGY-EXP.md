@@ -1,9 +1,36 @@
 seat: agy-exp
-read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
+read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card X-HARVEST-3S-1 three-seat mathematical harvest & AGY-C29 remediation delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_HARVEST_3S_1_THREE_SEAT_INTEGRATION_AND_C29_REMEDIATION.md (4b92430bf -> 5a2df69c3); Card R-AGY002-V1 at d9e52945a; Card X-REM12 at 548d09082; Card R-AGY-C24 at 631bb5859; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-HARVEST-3S-1 (5a2df69c3), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
+on: Card R-3S-FINAL zero-trust delta audit of agy (528ef1cf5: AGY-C26..C28, AGY-C30, v4.json) & agy-002 (c721af6ff: A2-OW17, A2-OW18, A2-OW16 v5) delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_3S_FINAL_DELTA_AUDIT_OF_AGY_C30_AND_AGY002_OW18.md (888f3a71b -> 9c2e7bad9); Card X-HARVEST-3S-1 at 75cb20177; Card R-AGY002-V1 at d9e52945a; Card X-REM12 at 548d09082; Card R-AGY-C24 at 631bb5859; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card R-3S-FINAL` Delivery: Zero-Trust Delta Audit of `528ef1cf5` (`agy`) & `c721af6ff` (`agy-002`) (`2026-11-22`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex, zero-import delta audit (`computed once`, `6/6` modules, `6/6` controls):**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_R_3S_FINAL_DELTA_AUDIT_OF_AGY_C30_AND_AGY002_OW18.md`
+     (`Card` `relays/cards/AGY-EXP_R-3S-FINAL_zero-trust-delta-audit-of-agy-c30-528ef1cf5-and-agy002-ow18-c721af6ff.md`
+     and verifier `relays/r_3s_final_verify/verify_r_3s_final.py` pre-hashed at `888f3a71b`, unread raw output
+     `relays/r_3s_final_verify/verify_r_3s_final_out.json` committed at `9c2e7bad9`; strictly blind to peer-review
+     files `AGY-C25`, `AGY-C29`, `A2-PEER-AGY`, and peer-review responses per `origin/main:docs/seats/README.md` S `13`).
+   - **Summary on `agy` (`6f285488c..528ef1cf5`, `F-C30-01..10`):** Pure-math/anomaly pieces (`|G_T| = 96`, `8^3_4`
+     cover, `27` `U(1)_psi` anomaly `0`, `P_M = -1`, `a_sph = 8/23`, `dM_R/dt` `+1`, `r_PS = 8/77`) hold (`the same`),
+     while `AGY-C30` & `v4.json` record `differs` across `10` findings: gauged `U(1)_psi` broken solely by `10_{-2}, 1_{+4}`
+     leaves unbroken `Z_4` with `Q_psi(N_R^c N_R^c) = +2 != 0 mod 4` (`forcing M_R == 0 identically`), `v4.json`'s
+     `30`-digit `cusp_robin_bc_star_tau8` has `1.365e-9` error (`22` corrupt digits) + tautological `R2 = 2.06e-41`
+     (`r2_z_red_diff = "0.0"`), `|P_5 x P_6| = 144` (`not 72`) + broken `w ~ -w` on coherent weave (`Delta|V_cb| = 0.1242`),
+     `c26:261` `w_wl` kills `128 / 128` `E_8` chiral spinor roots, retracted `Q_1 = 1/25` `16 pi/5` & `48 pi/5` horizons
+     remain live, `3`-flavor leptogenesis is invalid at `Gamma_mu / H = 6.32e-5 << 1`, and Guardrail `2`/`6` + S `12` issues.
+   - **Summary on `agy-002` (`ff243a545..c721af6ff`, `F-OW18-01..10`):** `a_sph = 8/23`, `Nc = 1` `-3 y_tau^5`,
+     `dim C(P_PS, J_5) = 13`, Type-I `f_W = -1/2`, `OW9` `-3864/25`, `A_5` `9` classes, `r_PS = 8/77`, and `NO_GO_PROVEN`
+     rows hold (`the same`), while `OW18` & `OW16 v5` record `differs` across `10` findings: `OW18-A` runs `1HDM` SM
+     RGEs (`-3/2 Hd Yu`) for a `2HDM` model + uncaught `(3/4)[Hd, Hu]Yu` Producer-vs-Referee bug (`norm 0.00790`),
+     `OW18-B` keeps retracted Chimera `fl_s10_dD` & hybrid `f_W = +1` (`consistent Type-I flips G_SM disc -6.14 -> +789.61`),
+     prose Higgs masses exceed JSON by `+27.0%`/`+25.7%`, `1620323c0` overwrote sealed `referee_a2_ow18.py` in place,
+     `3 x 16_{+1}` violates `Tr Q_psi = +48 != 0` (`while N_W = 81 gives M_g = +41 > 31`), and `OBS-01` has `0` computations.
+   - **Self-Check Mend on `agy-exp`:** Updated `self_consistent_loop/manuscript/main.tex` (`lines 317, 349, 376, 387`)
+     from `72 -> 2` to exact `144 -> 2` (`log_2 72 = 6.17` bits in `(LR, T^4 S)`) and added the `Z_4 subset U(1)_psi`
+     `Q_psi(N_R^c N_R^c) = +2 != 0 mod 4` selection-rule note to Theorem `4`.
 
 ## `Card X-HARVEST-3S-1` Delivery: Three-Seat Harvest & `AGY-C29` Remediation (`2026-11-22`; `0 of 19`)
 
@@ -28,7 +55,8 @@ next push: on main's next message
      (`8.62e-36` ODE match; `1.92e-22` match to `9ea05bb0d` `L_2((1+8i)/5)`; `1.03e-4` match to `2D`
      Liouville PDE at $i\sqrt{3}$); (`H2`) `17/19` `1HDM` Mobius threshold, exact `96`-element
      $\mathbb{Z}_8$-monomial group `W:G96` (`|Z|=4, G/Z=S_4`), `m004` `dim = 3` circulant commutant, and
-     `72 -> 2` (`7`-bit) spin-antiperiodic Lefschetz kernel on $P_5\times P_6$; (`H3`) gauged
+     `72 -> 2` (`[mended to 144 -> 2 (log_2 72 = 6.17 bits) in Card R-3S-FINAL]`) spin-antiperiodic Lefschetz
+     kernel on $P_5\times P_6$; (`H3`) gauged
      $E_6 \supset \mathrm{Spin}(10)\times\mathrm{U}(1)_\psi$ brane-`2HDM` ($\Delta n_{\mathrm{Cas}} = -6$,
      non-SUSY Yukawa holomorphy, singlet-driven conformal EWSB $\tan\beta = (\lambda_2/\lambda_1)^{1/4} = 1.11472$
      with $m_{A^0}/v = 0.49829 > 0$ on BFB `yb_high` quartics, pure-PS $r = 8/77$, and $P_M(\psi_S) = -1$);
