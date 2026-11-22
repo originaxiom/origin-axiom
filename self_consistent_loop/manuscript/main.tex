@@ -1,5 +1,4 @@
-% Primary recommended venue: APS Physical Review D (prd).
-% To switch to Physical Review X, change 'prd' to 'prx' below and include the Popular Summary in README.md.
+% APS Physical Review D Regular Article (REVTeX 4.2) — 100% Data-Free (0 of 19)
 \documentclass[aps,prd,twocolumn,nofootinbib,floatfix]{revtex4-2}
 
 \usepackage{amsmath,amssymb,bm}
@@ -8,19 +7,19 @@
 
 \begin{document}
 
-\title{Zero-Input Gauge-Yukawa-Cosmology Closure and Experimental Falsifiability\texorpdfstring{\\}{ }on a Hyperbolic-Fano Fourfold Loop}
+\title{Adjoint Reidemeister Torsions, Modular Cusp Invariants, and Consistency Obstructions\texorpdfstring{\\}{ }on Hyperbolic Whitehead Dehn-Surgery Compactifications}
 
-\author{Origin Axiom Research}
-% [reviewer] Insert institutional affiliation or research-group address before submission:
-\affiliation{Independent Theoretical Physics Collaboration}
+\author{originaxiom}
+\affiliation{Origin Axiom Research Programme}
 \date{\today}
 
 \begin{abstract}
-Extra-dimensional grand unified models normally exchange four-dimensional Yukawa parameters for continuous bulk moduli, boundary thresholds, and initial cosmological angles.
-We evaluate a parameter-free geometric fixed-point framework that couples the five-sheeted cusped hyperbolic cover $M^{(5)} \to \mathrm{m004}$, chiral Whitehead surgery saddles on $\mathrm{m129}$, and an $E_8 \supset \mathrm{Spin}(10) \times \mathrm{SU}(4)$ Weierstrass elliptic fourfold $X_8 \to \mathbb{P}^1 \times dP_8$ under a two-track provenance firewall with zero empirical inputs in Track~A.
-Across $36$ dimensionless Standard Model and cosmological observables and bounds, the zero-continuous-input solver places $26$ observables within $\pm 0.15\,\mathrm{dex}$ of experiment, places $6$ renormalization-group-quasi-invariant ratios within $\pm 0.50\,\mathrm{dex}$, and satisfies all $4$ vacuum and primordial bounds with zero misses, audited by $165$ zero-import planted-fault controls.
-Exact one-loop hyperbolic fluctuation analysis proves to $50$ digits that three-dimensional geodesic propagators receive zero subleading $1/\ell$ curvature corrections, reproduces Porti's adjoint Reidemeister torsion $|\tau_{\mathrm{Ad}}(\mathrm{m004};\mu)| = 2\sqrt{3}$ to $46$ digits, and shows that Planck's axion isocurvature bound excludes pure topological three-dimensional Chern-Simons weighting ($\beta_{\mathrm{iso}} = 0.825$) in favor of the eleven-dimensional supersymmetric bulk ($\beta_{\mathrm{iso}} = 0.00287$).
-The fixed point predicts normal neutrino ordering with $\sum m_\nu = 45.92\,\mathrm{meV}$, $m_{\beta\beta} = 4.39\,\mathrm{meV}$, $\delta_{\mathrm{CP}} = 197.0^\circ$, a $22.95\,\mathrm{neV}$ ($5.55\,\mathrm{MHz}$) QCD axion, and proton lifetime $\tau(p \to e^+\pi^0) = 2.12\times 10^{35}\,\mathrm{yr}$.
+Mostow rigidity fixes the metric, volume, and closed-geodesic length spectrum of finite-volume hyperbolic three-manifolds without continuous moduli, making cusped hyperbolic spaces natural laboratories for studying geometric invariants and consistency constraints in higher-dimensional field theories.
+We establish four exact mathematical-physics results and five quantitative effective-action obstructions across the figure-eight knot complement $\mathrm{m004}$, its degree-$5$ covers, the chiral Whitehead-link Dehn-surgery family $\mathrm{m129}(p,q)$ with $p + 3q \equiv 0 \pmod{10}$, and Weierstrass elliptic Calabi-Yau fourfolds $X_r \to \mathbb{P}^1 \times \mathrm{dP}_r$.
+First, using Wada-Dubois-Yamaguchi-Porti twisted Fox calculus at $60$-digit precision, we compute the complexified adjoint Reidemeister torsion $|\tau_{\mathrm{Ad}}(M_{p,q};\mu)|$ and cusp-normalized Porti invariant $I_{\mathrm{Porti}}(M_{p,q})$ across all nine cover-compatible hyperbolic surgeries, proving exact basis independence between Cartan-Chevalley and symmetric-square representations ($\max\Delta = 0$ to $60$ digits) and $\mathrm{SL}(2,\mathbb{Z})$ cusp-basis invariance ($6.2\times 10^{-61}$).
+Second, we classify all four degree-$5$ covers of $\mathrm{m004}$, isolating $8^3_4$ as the unique irregular $D_5$-quotient cover ($3$ cusps, torsion-free $H_1 = \mathbb{Z}^3$), and prove that for any $d$-sheet finite cover the ratio $f_a/M_{\mathrm{Pl},4}$ of a pullback harmonic axion zero mode to the four-dimensional Planck mass is strictly independent of $d$.
+Third, we prove that the radial Liouville-Huygens reduction of $(-\Delta_{\mathbb{H}^d} + \lambda^2 - \frac{(d-1)^2}{4})G = \delta$ holds uniquely in dimension $d = 3$, differs structurally from Selberg's one-loop Poincar\'e-return Jacobian ($+38.4\%$ on the systolic shell of $\mathrm{m004}$), and leaves $n=1$ Scherk-Schwarz geodesic Euler products non-convergent at the critical exponent $\delta(\Gamma) = 2$.
+Fourth, applying Hirzebruch's signature theorem $\tau(X_r) = 32 + \chi(X_r)/3$ on $X_r \to \mathbb{P}^1 \times \mathrm{dP}_r$, we prove that restricting Bousso-Polchinski four-form fluxes from indefinite $H^4(X_r,\mathbb{Z})$ to positive-definite self-dual $H^4_+(X_r)$ eliminates a $365$-order-of-magnitude sign flip and keeps $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/M_{\mathrm{Pl}}^4) < 0$ across all $r = 0,\dots,9$ under both Gukov-Vafa-Witten tadpole normalizations, while five scaling, curvature, and loop-normalization obstructions rule out single-radius phenomenological closure on naive $M^{(5)}\times \mathrm{dP}_8$ product ansatzes.
 \end{abstract}
 
 \maketitle
@@ -28,357 +27,360 @@ The fixed point predicts normal neutrino ordering with $\sum m_\nu = 45.92\,\mat
 \section{Introduction}
 \label{sec:intro}
 
-The Standard Model of particle physics and $\Lambda$CDM cosmology describe laboratory and cosmological data to high precision, yet leave gauge couplings, three-generation fermion masses, Cabibbo-Kobayashi-Maskawa (CKM) and Pontecorvo-Maki-Nakagawa-Sakata (PMNS) mixing matrices, inflation, baryogenesis, and cold dark matter as independent empirical inputs.
-Mostow rigidity~\cite{Mostow1968} fixes the metric and closed-geodesic spectrum of finite-volume hyperbolic three-manifolds without continuous moduli, suggesting a geometric route toward eliminating tunable couplings.
+In compactifications of higher-dimensional gauge and gravitational theories~\cite{Hosotani1983,HoravaWitten1996,HallNomura2001,SvrcekWitten2006}, continuous geometric moduli of Ricci-flat internal manifolds typically translate four-dimensional coupling constants into continuous vacuum expectation values.
+By Mostow's rigidity theorem~\cite{Mostow1968}, orientable hyperbolic three-manifolds of finite volume admit no continuous metric deformations: their volumes, Chern-Simons invariants, cusp shapes, and closed-geodesic length spectra are topological constants.
+Among orientable noncompact hyperbolic three-manifolds, Adams proved that the amphichiral figure-eight knot complement $\mathrm{m004} = S^3 \setminus 4_1$ realizes the minimal hyperbolic volume $\mathrm{Vol}(\mathrm{m004}) = 2 V_{\mathrm{tet}} \approx 2.02988321$, where $V_{\mathrm{tet}} = \mathrm{Im}\,\mathrm{Li}_2(e^{i\pi/3})$ is the volume of the regular ideal tetrahedron~\cite{Adams1987}.
+In three-dimensional quantum gravity and Chern-Simons perturbation theory, non-abelian adjoint Reidemeister torsions~\cite{Wada1994,Porti1997,DuboisYamaguchi2009} govern one-loop saddle-point determinants around hyperbolic flat connections~\cite{GiombiMaloneyYin2008}.
 
-Prior extra-dimensional unification programs established radiative Hosotani gauge-Higgs symmetry breaking~\cite{Hosotani1983}, Ho\v{r}ava-Witten boundary anomaly cancellation~\cite{HoravaWitten1996}, orbifold doublet-triplet splitting~\cite{HallNomura2001}, and string-axion abundance bounds~\cite{SvrcekWitten2006}.
-However, earlier realizations treated the Kaluza-Klein (KK) compactification scale, unified gauge coupling, right-handed neutrino seesaw matrix, and pre-inflationary axion misalignment angle $\theta_i$ as adjustable parameters, or violated Planck bounds on uncorrelated axion isocurvature~\cite{Planck2018Inflation}.
+Connecting such exact three-dimensional hyperbolic invariants to four-dimensional gauge-Yukawa renormalization group equations (RGEs)~\cite{MachacekVaughn1984,LuoXiao2003,Buttazzo2013,Antusch2001} or Calabi-Yau fourfold flux lattices~\cite{KlemmLianRoanYau1997,GukovVafaWitten2000,BoussoPolchinski2000} requires strict mathematical consistency across topological covers, propagator kernels, Kaluza-Klein (KK) thresholds~\cite{ContinoPilo2001}, and gravitational scaling laws.
+Earlier exploratory scripts in this research programme combined $M^{(5)}\times \mathrm{dP}_8$ collar-cap ansatzes with empirical phenomenological scorecards, but peer verification uncovered fatal inconsistencies in those phenomenological closures: single-radius Casimir-versus-axion rescaling contradictions, cross-branch inflationary splices, non-Ricci-flat supersymmetry assumptions, conflation of radial $\mathbb{H}^3$ Green functions with Selberg trace Jacobians, degree-$5$ cover mis-indexing, and two-loop RGE transcription errors.
+Here we retract all phenomenological scorecard claims and establish the rigorous, completely data-free mathematical-physics core and formal consistency-obstruction theorems of the hyperbolic-fourfold system.
 
-In this paper, we construct and audit an eleven-phase geometric fixed-point framework on $M^{(5)} \times \mathbb{P}^1 \times dP_8$ (denoted \texttt{v12\_dP8\_ps} in the accompanying replication suite) that eliminates all continuous fitted and calibrated model parameters.
-Every theoretical module in Track~A takes zero empirical inputs (\texttt{0 of 19}), while Track~B evaluates all $36$ scorecard observables strictly as dimensionless ratios and converts laboratory targets via explicit unit anchors (Sec.~\ref{sec:methods}).
-
-We report four quantitative findings across Figs.~\ref{fig:scorecard}--\ref{fig:falsifiability} and Tables~\ref{tab:summary}--\ref{tab:falsifiability}: (i) $26$ precision hits within $\pm 0.15\,\mathrm{dex}$ across $36$ observables and bounds, preserved at one loop by eleven-dimensional bulk supersymmetry while pure three-dimensional topological Chern-Simons weighting is ruled out by cosmic microwave background (CMB) isocurvature (Fig.~\ref{fig:scorecard}); (ii) zero-input electroweak gauge couplings and Planck-to-weak scale closure via two-wall Contino-Pilo zeta thresholds (Fig.~\ref{fig:unification}); (iii) simultaneous closure of QCD axion dark matter, self-dual Casimir inflation isocurvature, three-family Affleck-Dine baryogenesis, and M2-tadpole flux spacing on $\mathbb{P}^1 \times dP_8$ (Fig.~\ref{fig:cosmo}); and (iv) ten sharp experimental falsifiability targets (Fig.~\ref{fig:falsifiability}).
-
-\begin{figure*}[t]
-    \centering
-    \includegraphics[width=0.96\textwidth]{figures/fig1_progression_and_36_scorecard.pdf}
-    \caption{Campaign progression and zero-input $36$-observable scorecard. (a) Evolution across discrete topological completions from \texttt{P5 (v1)} (base $\mathrm{m004}$), \texttt{P6 (v8)} ($\mathrm{m129}$ Whitehead weave), \texttt{P7 (v9)} ($\mathrm{Pin}_-$ odd-systole solar), \texttt{P8 (v10)} ($E_8$ singlet Linear Seesaw), \texttt{P9 (v11)} ($dP_8$ Georgi-Jarlskog and Contino-Pilo zero-input closure), to \texttt{P10 (v12)} (Pati-Salam projection and $M^{(5)}$ five-sheet axion, verified one-loop exact in Phase~11): total Tier-1 precision hits ($|\log_{10}(\mathrm{pred}/\mathrm{obs})| \le 0.15$, solid curve with circles), Standard Model $24$-ratio Tier-1 hits (dashed curve with squares), and continuous calibrated inputs (dash-dot curve with triangles, dropping from $3$ to $0$ at Phase~9). (b) Dimensionless residuals $\log_{10}(\mathcal{O}_{\mathrm{pred}}/\mathcal{O}_{\mathrm{obs}})$ for all $32$ quantitative observables ($26$ Tier-1 circles inside dashed $\pm 0.15\,\mathrm{dex}$ lines; $6$ RG-quasi-invariant Tier-2 diamonds inside dash-dot $\pm 0.50\,\mathrm{dex}$ lines; $0$ Tier-3 misses).}
-    \label{fig:scorecard}
-\end{figure*}
-
-\section{Geometric Framework}
-\label{sec:theory}
-
-We begin from the cusped hyperbolic figure-eight knot complement $\mathrm{m004} = S^3 \setminus 4_1$ equipped with its canonical unit-sectional-curvature ($\kappa = -1$) metric, whose dimensionless cusped volume $2 V_{\mathrm{tet}} \approx 2.02988$ is minimal among orientable noncompact hyperbolic three-manifolds~\cite{Adams1987}, where $V_{\mathrm{tet}} = \mathrm{Im}\,\mathrm{Li}_2(e^{i\pi/3}) \approx 1.01494$ is the volume of the regular ideal hyperbolic tetrahedron.
-In eleven-dimensional Ho\v{r}ava-Witten M-theory on $\mathbb{R}^{1,3} \times M_7$~\cite{HoravaWitten1996}, the seven-real-dimensional internal space $M_7$ ($\dim_{\mathbb{R}} = 4 + 3 + 4 = 11$) is obtained by lifting $\mathrm{m004}$ to its unique regular five-sheeted $D_5$ cover $M^{(5)}$ ($\mathrm{Vol}(M^{(5)}) = 5\,\mathrm{Vol}(\mathrm{m004}) \approx 10.14942$) at physical curvature radius $R_{\mathrm{hyp}} = M_{\mathrm{KK}}^{-1}$, excising the noncompact cusp end beyond the stabilized Margulis collar $y = L_c^*$ ($L_{\mathrm{phys}} = L_c^* M_{\mathrm{KK}}^{-1}$), and capping it with a compact four-real-dimensional Fano surface $dP_8$.
-Finite hyperbolic volume $\mathrm{Vol}(M^{(5)}) < \infty$ together with compact $S^1/\mathbb{Z}_2$ collar-cap boundary conditions ensures $L^2$-normalizability of the four-dimensional graviton zero mode and a strictly discrete Kaluza-Klein spectrum.
-Under M-theory/F-theory duality along the boundary cusp torus $\mathbb{T}^2 \subset \partial M^{(5)}$ (shrinking one $S^1$ cycle while combining $[0, L_c^*]$ with the dual circle into $\mathbb{P}^1$), the collar-cap geometry lifts to a twelve-dimensional F-theory compactification $\mathbb{R}^{1,3} \times X_8$ on the Weierstrass elliptic Calabi-Yau fourfold $X_8 \to B_6 = \mathbb{P}^1 \times dP_8$ ($\dim_{\mathbb{R}} X_8 = 2 + 2 + 4 = 8$)~\cite{KlemmLianRoanYau1997}.
-
-Along the shortest closed loxodromic geodesic of complex length $\mathcal{L}_1 = \ell_1 + i\theta_1$ ($\ell_1 = 1.08707$, $\theta_1 = 1.72277$) and twisted spinor exponent $\lambda_1 = 2.97455$, the boundary-pinned geodesic propagator amplitude is $\varepsilon_1 = e^{-\lambda_1 \ell_1}/(2\pi |2\sinh(\mathcal{L}_1/2)|)$.
-Balancing one-loop Casimir pressure on $M^{(5)}$ against $\varepsilon_1$ stabilizes the dimensionless Margulis collar length at $L_c^* = (4\pi^2 / [15\,\varepsilon_1])^{1/5} = 3.80407$ without free parameters.
-
-Chiral CP violation enters without continuous phases because $\mathrm{m004}$ arises by $(-3, 1)$ Dehn surgery on one cusp of the chiral two-cusp Whitehead parent link $\mathrm{m129}$, whose Chern-Simons invariant is $\mathrm{CS}(\mathrm{m129}) = 1/8 \pmod{1/2}$.
-Within the mod-$10$ cover-compatible Dehn-surgery family $p + 3q \equiv 0 \pmod{10}$ ($1 \le q \le 8$, $|p| \le 17$), there are nine hyperbolic surgeries in total: the base manifold $(-3, 1) \cong \mathrm{m004}$ and eight higher-volume sibling overtones $M_{p,q}$ with $(p, q) \ne (-3, 1)$.
-Summing the Euclidean path integral over all eight sibling overtones defines the dimensionless chiral overtone amplitude
-\begin{align}
-\label{eq:w_ov}
-W_{\mathrm{ov}} = \sum_{(p,q)\ne (-3,1)} &\frac{4\,Z_{\mathrm{1\text{-}loop}}(M_{p,q}^{(5)})}{|\mathrm{Isom}^+(M_{p,q})|} \exp\Bigl\{-\frac{10}{\pi}\bigl[\mathrm{Vol}(M_{p,q})\nonumber\\
-&-\mathrm{Vol}(\mathrm{m004})\bigr] - 20\pi i\,\mathrm{CS}(M_{p,q})\Bigr\},
-\end{align}
-where $Z_{\mathrm{1\text{-}loop}}(M_{p,q}^{(5)})$ denotes the one-loop fluctuation ratio relative to $M^{(5)}$ ($Z_{\mathrm{1\text{-}loop}} = 1$ in the eleven-dimensional supersymmetric bulk; Sec.~\ref{sec:analysis} and Appendix~\ref{app:selberg}).
-
-Under $E_8 \supset \mathrm{Spin}(10) \times \mathrm{SU}(4)$, the $248$-dimensional adjoint representation decomposes as
-\begin{equation}
-\label{eq:e8_branch}
-\mathbf{248} = (\mathbf{45}, \mathbf{1}) \oplus (\mathbf{1}, \mathbf{15}) \oplus (\mathbf{10}, \mathbf{6}) \oplus (\mathbf{16}, \mathbf{4}) \oplus (\overline{\mathbf{16}}, \overline{\mathbf{4}}).
-\end{equation}
-Blowing down one $(-1)$-curve from parabolic $dP_9$ ($\chi = 12$) to Fano $dP_8$ ($\chi = 11$) shifts bulk collar localization masses across each $\mathrm{Spin}(10)$ $\mathbf{16}$-plet generation $f \in \{Q_L, u_c, d_c, L_L, e_c, \nu_c\}$ by the topological Euler fraction:
-\begin{equation}
-\label{eq:dp8_mass}
-m_{\mathrm{bulk}}^{(dP_8)}(f) = T_{3R}(f) - \frac{\chi(dP_9) - \chi(dP_8)}{\chi(dP_9)}\,(B - L)(f),
-\end{equation}
-where $T_{3R}$ and $B-L$ denote the canonical right-handed isospin and baryon-minus-lepton generators~\cite{MohapatraMarshak1980}.
-Across the three chiral $\mathrm{Spin}(10)$ $\mathbf{16}$-plet families ($3\nu_c$ included) plus the gauge-neutral singlet $S \in (\mathbf{1}, \mathbf{15})$, all six local and global anomaly conditions cancel identically: $[\mathrm{SU}(3)_C]^2\mathrm{U}(1)_Y = [\mathrm{SU}(2)_L]^2\mathrm{U}(1)_Y = [\mathrm{U}(1)_Y]^3 = [\mathrm{grav}]^2\mathrm{U}(1)_Y = [B-L]^3 = 0$, with $N_{\mathrm{doublets}} = 12 \equiv 0 \pmod 2$ preserving Witten global $\mathrm{SU}(2)_L$ invariance.
-
-Let $|v_0\rangle = (1, 1, 1)^{\mathsf{T}}/\sqrt{3}$ be the $A_4$-invariant democratic zero-mode vector, $y_H = \pm 1/2$ the Higgs weak hypercharge, $T_{15}$ the hypercharge-commuting $\mathrm{SU}(5) \subset \mathrm{Spin}(10)$ generator normalized as $T_{15}(f_R) = -\frac{3}{2}(B-L)(f_R)$ on right-handed matter, and $\kappa_\nu(M_{\mathrm{KK}}) = (y_{\nu,\max}^2 / M_R^*)\,K_\nu$ the ultraviolet dimension-five Weinberg neutrino operator (explicit $3\times 3$ matrices are given in Appendix~\ref{app:operators}).
-Three parameter-free representation selection rules govern the ultraviolet Yukawa matrices and $K_\nu$ at $\mu = M_{\mathrm{KK}}$:
-\begin{enumerate}
-    \item \emph{Georgi-Jarlskog $\mathrm{SU}(5) \subset \mathrm{Spin}(10)$ dressing~\cite{GeorgiJarlskog1979}:} In the $y_H = -1/2$ channel ($\overline{\mathbf{5}}_f \otimes \mathbf{10}_f \to \overline{\mathbf{45}}_H$), the Shell-1 right-handed vertex carries $T_{15}(f_R)$ ($+1/2$ on $d_c$, $-3/2$ on $e_c$). In the $y_H = +1/2$ channel ($\mathbf{10}_f \otimes \mathbf{10}_f = (\mathbf{5}\oplus\mathbf{50})_S \oplus \overline{\mathbf{45}}_A$), family antisymmetry forbids diagonal $\overline{\mathbf{45}}_A$ couplings while the excited KK subspace $P_\perp = I_3 - |v_0\rangle\langle v_0|$ on $u_c$ carries $|T_{15}(u_c)| = 1/2$.
-    \item \emph{Pati-Salam hypercharge projection:} On the $\mathbf{16}$-plet, $Y = T_{3R} + \frac{1}{2}(B-L)$ satisfies $\mathrm{Tr}_{16}(T_{3R}\cdot\frac{1}{2}(B-L)) = 0$, $\mathrm{Tr}_{16}(T_{3R}^2) = 2$, and $\mathrm{Tr}_{16}(Y^2) = 10/3$, projecting $y_H = -1/2$ Yukawa couplings by $\cos\theta_R = \sqrt{\mathrm{Tr}_{16}(T_{3R}^2)/\mathrm{Tr}_{16}(Y^2)} = \sqrt{3/5}$.
-    \item \emph{$E_8$ singlet Linear Seesaw~\cite{MalinskyRomaoValle2005}:} Coupling $(\mathbf{16}, \mathbf{4})$ to the $D_5$-invariant singlet $S \in (\mathbf{1}, \mathbf{15})$ on the negative-torsion Shell-2 geodesic pair $\{\mathrm{AABab}, \mathrm{ABaab}\}$ cancels $(0,1)$ and $(1,2)$ leakage identically and generates a pure $(0,2)$ reactor entry in $K_{\nu}$.
-\end{enumerate}
-
-\section{Computational and Audit Methods}
-\label{sec:methods}
-
-To prevent post-inspection parameter tuning, every campaign phase seals its pre-registration SHA-256 digest before engine execution and enforces six formal verification guardrails.
-An abstract-syntax-tree (AST) scanner verifies that all Track-A solver modules contain zero empirical Particle Data Group (PDG), NuFIT, or Planck float literals and zero hard-coded boolean proof flags.
-
-We integrate the full $76$-component real coupled ordinary differential equation (ODE) system comprising two-loop $\overline{\mathrm{MS}}$ Standard Model gauge ($\mathrm{SU}(5)$-normalized $g_1 = \sqrt{5/3}\,g_Y$), Yukawa, and Higgs quartic renormalization group equations (RGEs)~\cite{Buttazzo2013} together with the one-loop dimension-five Weinberg operator~\cite{Antusch2001} from $\mu = M_{\mathrm{KK}}$ down to $\mu = M_Z$ using eighth-order Dormand-Prince (\texttt{DOP853}, $\mathrm{rtol}=10^{-11}$, $\mathrm{atol}=10^{-13}$).
-In Track~B, all $36$ scorecard observables are evaluated strictly as dimensionless ratios (comparing running quark and charged-lepton mass ratios at the common $\overline{\mathrm{MS}}$ scale $\mu = M_Z$~\cite{XingZhangZhou2008}), while dimensionful laboratory predictions in Table~\ref{tab:falsifiability} anchor electroweak neutrino ratios to $v_{\mathrm{EW}}^{\mathrm{obs}} = 246.22\,\mathrm{GeV}$ and UV axion/proton scales to $M_{\mathrm{Pl,red}}^{\mathrm{obs}} = 2.435\times 10^{18}\,\mathrm{GeV}$ alongside lattice-QCD hadronic matrix elements~\cite{GrillidiCortona2016,Yoo2022RBC}.
-Every physical observable is verified invariant to $< 10^{-11}$ across ten independent random $\mathrm{SU}(3)^5$ Haar unitary basis rotations applied at $\mu = M_{\mathrm{KK}}$ before RGE integration.
-An AST-isolated referee script (\texttt{scripts/referee\_phase11.py}) with zero imports from producer packages independently reconstructs all trajectories, $\mathrm{SO}(3,\mathbb{C})$ Fox-Porti torsions, $\mathrm{SL}(2,\mathbb{Z})$ modular cusp transformations, and $50$--$60$-digit \texttt{mpmath} benchmarks via \texttt{RK45} across $165$ cumulative planted-fault controls.
+Specifically, we prove four exact theorems and quantify five structural obstructions:
+(i) exact $60$-digit dual-basis agreement of Porti's adjoint Reidemeister torsion across all nine cover-compatible hyperbolic Dehn surgeries on the chiral Whitehead link $\mathrm{m129}$ (Sec.~\ref{sec:porti}, Table~\ref{tab:porti}, and Fig.~\ref{fig:porti}(a));
+(ii) complete classification of the four degree-$5$ covers of $\mathrm{m004}$ isolating $8^3_4$ as the unique irregular $D_5$-quotient three-cusp cover, paired with strict $d$-independence of pullback harmonic axion decay constants $f_a/M_{\mathrm{Pl},4}$ across $d$-sheet covers (Sec.~\ref{sec:covers}, Table~\ref{tab:covers}, and Fig.~\ref{fig:porti}(b));
+(iii) uniqueness of the $d=3$ radial Liouville-Huygens Green function $G_{\mathbb{H}^3}(r;\lambda)$, its quantitative separation from Selberg's geodesic return factor $\varepsilon(\gamma)$, and the divergence of unregulated $n=1$ Scherk-Schwarz Euler products against the critical exponent $\delta(\Gamma) = 2$ (Sec.~\ref{sec:propagator} and Fig.~\ref{fig:propagator});
+and (iv) Hirzebruch signature splitting $(b_4^+, b_4^-)$ on Weierstrass elliptic fourfolds $X_r \to \mathbb{P}^1\times\mathrm{dP}_r$ ($r=0,\dots,9$), proving that self-dual flux restriction to $H^4_+(X_r)$ resolves the Bousso-Polchinski tadpole-normalization sign flip, followed by the five effective-action obstructions and the repaired two-loop $\overline{\mathrm{MS}}$ Standard Model RGE system (Secs.~\ref{sec:cy4}--\ref{sec:obstructions}, Fig.~\ref{fig:cy4}, Table~\ref{tab:obstructions}, and Appendices~\ref{app:porti}--\ref{app:rge}).
 
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=0.96\textwidth]{figures/fig2_zero_input_unification_and_hierarchy.pdf}
-    \caption{Zero-input gauge unification and scale hierarchy on $M^{(5)}$. (a) Two-loop running of $\alpha_1^{-1}$ (solid), $\alpha_2^{-1}$ (dashed), and $\alpha_3^{-1}$ (dash-dot) from the two-wall Contino-Pilo boundary $\alpha_{\mathrm{GUT},0}^{-1} = 42.10$ (with broken-generator orbifold Schwinger splittings $\Delta_i$ at $\ln[M_{\mathrm{KK}}/M_Z]_0 = 29.50$; Appendix~\ref{app:operators}) down to $\mu = M_Z$, compared against empirical PDG values (filled circles). (b) Strict descending order across the ten Track-A dimensionless scales $\log_{10}(E/M_{\mathrm{Pl,red}})$ plus the BBN threshold, preserving $T_{\mathrm{reh,rad}} \ll f_{a,0}^{(M^5)}$ and $T_{\mathrm{reh,rad}} \gg T_{\mathrm{BBN}}$.}
-    \label{fig:unification}
+    \includegraphics[width=0.96\textwidth]{figures/fig5_porti_torsions_and_covers.pdf}
+    \caption{Adjoint Reidemeister torsions on $\mathrm{m129}(p,q)$ and degree-$5$ cover topology of $\mathrm{m004}$. (a) Cusp-normalized Porti invariant $\log_{10} I_{\mathrm{Porti}}(M_{p,q})$ (solid line with squares) and meridian-referenced adjoint torsion $\log_{10}|\tau_{\mathrm{Ad}}(M_{p,q};\mu)|$ (dashed line with circles) versus hyperbolic volume $\mathrm{Vol}(M_{p,q})$ across all nine hyperbolic surgeries satisfying $p + 3q \equiv 0 \pmod{10}$ ($1 \le q \le 8$, $|p| \le 17$), approaching the two-cusp Whitehead parent volume $\mathrm{Vol}(\mathrm{m129}) = 4G \approx 3.66386$ (vertical dashed asymptote). Cartan-Chevalley and $\mathrm{Sym}^2(\mathbb{C}^2)$ evaluations agree identically to $60$ decimal digits. (b) Complete classification of the four index-$5$ subgroups of $\pi_1(\mathrm{m004})$ by cusp count $k = b_1$ (solid bars) and abelian torsion invariant factors in $H_1(M^{(5)};\mathbb{Z})$ (hatched bars), isolating index $2$ ($8^3_4 \cong \mathrm{o10\_150685}$) as the unique torsion-free three-cusp irregular $D_5$ cover ($J = 1 + 10b_1 = 31$).}
+    \label{fig:porti}
 \end{figure*}
 
-\section{Results}
-\label{sec:results}
+\section{Adjoint Reidemeister Torsions and Modular Cusp Invariants}
+\label{sec:porti}
 
-\subsection{Unified 36-Observable Zero-Input Scorecard}
-\label{sec:scorecard}
+Let $M$ be a compact orientable three-manifold with a single torus boundary $\partial M \cong \mathbb{T}^2$ whose interior admits a complete finite-volume hyperbolic metric.
+The holonomy of the complete hyperbolic structure lifts to a discrete faithful representation $\rho: \pi_1(M) \to \mathrm{SL}(2,\mathbb{C})$~\cite{Mostow1968,Porti1997}.
+Composing $\rho$ with the three-dimensional complexified adjoint representation $\mathrm{Ad}: \mathrm{SL}(2,\mathbb{C}) \to \mathrm{Aut}(\mathfrak{sl}_2(\mathbb{C})) \cong \mathrm{SO}(3,\mathbb{C})$ defines a unimodular local system without acyclic cohomology, because $H^1(M;\mathfrak{sl}_2(\mathbb{C})) \cong H^1(\partial M;\mathbb{C}) \cong \mathbb{C}$ tracks the complex Dehn-surgery deformation parameter.
 
-Because a parameter-free ultraviolet boundary theory omits low-scale threshold fits and tunable Clebsch parameters, we classify quantitative predictions into logarithmic accuracy tiers: Tier~1 ($|\log_{10}(\mathrm{pred}/\mathrm{obs})| \le 0.15$, within a factor of $1.41$), Tier~2 ($0.15 < |\log_{10}| \le 0.50$, within a factor of $3.16$), and Tier~3 ($|\log_{10}| > 0.50$).
-Figure~\ref{fig:scorecard}(a) tracks the progression across discrete topological completions from the frozen Phase-5 baseline ($4$ Tier-1 hits at $3$ calibrated inputs) to the zero-input fixed point ($26$ Tier-1 hits at $0$ continuous inputs).
+To resolve this one-dimensional cohomology ambiguity canonically, Porti~\cite{Porti1997} and Dubois and Yamaguchi~\cite{DuboisYamaguchi2009} relate the Reidemeister torsion $|\tau_{\mathrm{Ad}}(M;\gamma)|$ referenced to any primitive peripheral curve $\gamma \subset \partial M$ to Wada's twisted Alexander invariant~\cite{Wada1994}.
+Given a deficiency-one group presentation $\pi_1(M) = \langle x_1,\dots,x_g \mid r_1,\dots,r_{g-1}\rangle$ and an epimorphism $\phi: \pi_1(M) \to \mathbb{Z} = \langle t \rangle$, let $\Phi: \mathbb{Z}[\pi_1(M)] \to M_3(\mathbb{C}[t^{\pm 1}])$ be the ring homomorphism induced by $g \mapsto t^{\phi(g)}\mathrm{Ad}(\rho(g))$.
+Deleting column $j$ (corresponding to generator $x_j$ with $\phi(x_j) \ne 0$) from the $(g-1)\times g$ Fox Jacobian matrix $(\Phi(\partial r_i / \partial x_k))$ yields a $3(g-1)\times 3(g-1)$ matrix $M_j(t)$.
+Since $\det(I_3 - \mathrm{Ad}(\rho(g))) = 0$ identically for every $g \in \mathrm{SL}(2,\mathbb{C})$, Wada's ratio $\Delta_{\Phi}(t) = \det M_j(t) / \det(I_3 - t^{\phi(x_j)}\mathrm{Ad}(\rho(x_j)))$ has a removable $0/0$ singularity at $t = 1$.
+Evaluating the l'H\^opital derivative $\Delta'_{\Phi}(1)$ (explicitly derived in Appendix~\ref{app:porti}) and pairing with a peripheral curve $\gamma = \mu^p\lambda^q$ via $\phi(\gamma)$ yields $|\tau_{\mathrm{Ad}}(M;\gamma)|$.
 
-Across all $24$ dimensionless Standard Model ratios, \texttt{v12\_dP8\_ps} achieves $18$ Tier-1 hits, $6$ Tier-2 structural hits, and $0$ Tier-3 misses with Haar basis-scrambling error $4.19\times 10^{-13}$.
-Combining those $24$ Standard Model ratios with the $4$ zero-input gauge and Planck-hierarchy ratios, $4$ quantitative cosmological observables ($A_s, n_s, \eta_B, \Omega_a h^2$), and $4$ primordial and vacuum bounds ($r, \beta_{\mathrm{iso}}, |\bar{\theta}_{\mathrm{QCD}}|, \Delta\Lambda_{\mathrm{BP}}$) yields $26$ Tier-1 precision hits, $6$ Tier-2 structural hits, $4$ bound passes, and $0$ misses ($36$ of $36$).
-This $26$-of-$36$ zero-continuous-input precision closure is our first main result (Fig.~\ref{fig:scorecard}(b) and Table~\ref{tab:summary}).
+Two structural properties make these invariants canonical benchmarks for geometric compactifications:
+
+\emph{Theorem 1 (Dual-basis identity and $\mathrm{SL}(2,\mathbb{Z})$ cusp invariance).}
+Let $\mathrm{Ad}_{\mathrm{Chev}}(A)$ act on the Cartan-Chevalley basis $(e, h, f)$ of $\mathfrak{sl}_2(\mathbb{C})$ by conjugation $X \mapsto A X A^{-1}$, and let $\mathrm{Ad}_{\mathrm{Sym}^2}(A)$ act on homogeneous degree-$2$ polynomials $(u^2, uv, v^2)$ via $\mathrm{Sym}^2(\mathbb{C}^2)$ (Appendix~\ref{app:porti}).
+The constant invertible matrix $S_{\mathrm{basis}} = \mathrm{diag}(-1, 2, 1)$ satisfies $S_{\mathrm{basis}}\mathrm{Ad}_{\mathrm{Chev}}(A)S_{\mathrm{basis}}^{-1} = \mathrm{Ad}_{\mathrm{Sym}^2}(A)$ for all $A \in \mathrm{SL}(2,\mathbb{C})$, so $|\tau_{\mathrm{Ad}}(M;\gamma)|$ is strictly independent of basis.
+Moreover, if $u_\mu, u_\lambda \in \mathbb{C}$ denote the peripheral parabolic translation parameters ($\rho(\gamma) \sim \pm\bigl(\begin{smallmatrix} 1 & p u_\mu + q u_\lambda \\ 0 & 1 \end{smallmatrix}\bigr)$) with cusp shape $\tau_{\mathrm{cusp}} = u_\lambda / u_\mu \in \mathbb{H}$, then Porti's Theorem~4.1~\cite{Porti1997} implies $|\tau_{\mathrm{Ad}}(M; p\mu + q\lambda)| \propto |p + q\tau_{\mathrm{cusp}}|^2$.
+Normalizing by the hyperbolic cusp metric factor defines the $\mathrm{SL}(2,\mathbb{Z})$-invariant Porti constant
+\begin{equation}
+\label{eq:i_porti}
+I_{\mathrm{Porti}}(M) = \frac{\mathrm{Im}(\tau_{\mathrm{cusp}})}{|p + q\tau_{\mathrm{cusp}}|^2}\,\bigl|\tau_{\mathrm{Ad}}(M; p\mu + q\lambda)\bigr|,
+\end{equation}
+which depends only on the hyperbolic manifold $M$ and is invariant under all modular reparametrizations $\bigl(\begin{smallmatrix} a & b \\ c & d \end{smallmatrix}\bigr) \in \mathrm{SL}(2,\mathbb{Z})$ of the peripheral torus basis $(\mu,\lambda)$.
+
+\begin{table*}[t]
+\caption{Exact $60$-digit adjoint Reidemeister torsions and cusp-normalized Porti invariants across the nine cover-compatible hyperbolic Whitehead-link surgeries $M_{p,q} = \mathrm{m129}(p,q)$ satisfying $p + 3q \equiv 0 \pmod{10}$ ($1 \le q \le 8$, $|p| \le 17$). Here $\mathrm{CS}(M_{p,q})$ is reported modulo $1/2$, $|\tau_{\mathrm{Ad}}(M_{p,q};\mu)|$ is referenced to the unfilled cusp meridian $\mu$, $I_{\mathrm{Porti}}(M_{p,q})$ is the $\mathrm{SL}(2,\mathbb{Z})$-invariant cusp normalization of Eq.~\eqref{eq:i_porti}, $|\Delta_{\Phi}(1)|$ confirms exact vanishing of Wada's numerator/denominator ratio before l'H\^opital differentiation, and $\Delta_{\mathrm{basis}} = |I_{\mathrm{Porti}}^{\mathrm{Chev}} - I_{\mathrm{Porti}}^{\mathrm{Sym}^2}|$ measures dual-basis discrepancy at $60$ working digits.}
+\label{tab:porti}
+\begin{ruledtabular}
+\begin{tabular}{cccccccc}
+Slope $(p,q)$ & $\mathrm{Vol}(M_{p,q})$ & $\mathrm{CS}(M_{p,q}) \pmod{1/2}$ & $|\mathrm{Isom}^+(M_{p,q})|$ & $|\tau_{\mathrm{Ad}}(M_{p,q};\mu)|$ & $I_{\mathrm{Porti}}(M_{p,q})$ & $|\Delta_{\Phi}(1)|$ & $\Delta_{\mathrm{basis}}$ \\
+\hline
+$(-3, 1)$ $[\mathrm{m004}]$ & $2.029883213$ & $0$ & $4$ & $3.46410161513775$ & $6.44741959094125$ & $7.5\times 10^{-52}$ & $0.0$ \\
+$(1, 3)$ & $3.148509826$ & $-0.037809100$ & $4$ & $12.9104800536474$ & $17.3765411498309$ & $4.7\times 10^{-52}$ & $0.0$ \\
+$(7, 1)$ & $3.296902414$ & $+0.191534289$ & $4$ & $62.3277555959058$ & $83.8430034127922$ & $3.9\times 10^{-51}$ & $0.0$ \\
+$(11, 3)$ & $3.537608785$ & $-0.196594262$ & $4$ & $22.1132484363896$ & $30.4513449606323$ & $1.1\times 10^{-50}$ & $0.0$ \\
+$(-13, 1)$ & $3.550644585$ & $+0.087397184$ & $4$ & $336.102777463805$ & $478.870435774699$ & $3.8\times 10^{-51}$ & $0.0$ \\
+$(-1, 7)$ & $3.564454699$ & $+0.196077548$ & $4$ & $107.933080763814$ & $153.068115776541$ & $7.4\times 10^{-49}$ & $0.0$ \\
+$(9, 7)$ & $3.592325182$ & $-0.158409950$ & $4$ & $24.7105356160743$ & $34.3802056105571$ & $2.2\times 10^{-50}$ & $0.0$ \\
+$(17, 1)$ & $3.596828041$ & $+0.154018720$ & $4$ & $739.480977609607$ & $1041.55311386999$ & $7.8\times 10^{-47}$ & $0.0$ \\
+$(-11, 7)$ & $3.601304697$ & $-0.234613784$ & $4$ & $40.9985930751586$ & $58.8707811966291$ & $1.2\times 10^{-34}$ & $0.0$ \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+We evaluate Eq.~\eqref{eq:i_porti} across the Whitehead-link Dehn-surgery family $\mathrm{m129}(p,q)$.
+The two-cusp Whitehead link complement $\mathrm{m129}$ has exact volume $\mathrm{Vol}(\mathrm{m129}) = 4G \approx 3.663862377$, where $G = \sum_{k=0}^\infty (-1)^k/(2k+1)^2$ is Catalan's constant (verified numerically to $0.0$ residual), and is strictly chiral: its full isometry group has order $8$ and contains zero orientation-reversing elements ($\mathrm{CS}(\mathrm{m129}) \equiv 1/8 \pmod{1/2}$).
+Performing $(-3,1)$ Dehn filling on one cusp yields the amphichiral figure-eight complement $\mathrm{m004}$, where our $60$-digit solver reproduces Porti's analytical meridian value $|\tau_{\mathrm{Ad}}(\mathrm{m004};\mu)| = 2\sqrt{3}$~\cite{Porti1997} to $1.19\times 10^{-46}$ (limited solely by SnapPy's double-quadruple initial seed before $80$-digit Newton-Raphson polishing of the group relations) and confirms modular $S$-transformation invariance $|I_{\mathrm{Porti}}(\mu) - I_{\mathrm{Porti}}(\lambda)| = 6.22\times 10^{-61}$.
+
+Within the congruence family $p + 3q \equiv 0 \pmod{10}$ ($1 \le q \le 8$, $|p| \le 17$), exactly nine surgeries are hyperbolic.
+Table~\ref{tab:porti} and Fig.~\ref{fig:porti}(a) report $|\tau_{\mathrm{Ad}}(M_{p,q};\mu)|$ and $I_{\mathrm{Porti}}(M_{p,q})$ for all nine manifolds.
+Across all nine surgeries, the maximum discrepancy between the Cartan-Chevalley and $\mathrm{Sym}^2(\mathbb{C}^2)$ implementations is $\Delta_{\mathrm{basis}} = 0.0$ at $60$ decimal digits, providing a complete, representation-independent benchmark table for one-loop hyperbolic Chern-Simons and 3D gravity amplitudes~\cite{GiombiMaloneyYin2008}.
+
+\section{Degree-5 Cover Classification and Multi-Sheet Axion Scaling}
+\label{sec:covers}
+
+Finite-sheeted covers of $\mathrm{m004}$ lift its rigid $\kappa = -1$ geometry while enlarging the first Betti number $b_1$ and peripheral torus boundary components.
+Earlier phenomenological scripts mis-indexed SnapPy's degree-$5$ cover enumeration and mislabeled the target dihedral cover as ``regular'' with a single cusp.
+Table~\ref{tab:covers} and Fig.~\ref{fig:porti}(b) establish the complete classification of all index-$5$ subgroups of $\pi_1(\mathrm{m004})$.
 
 \begin{table}[b]
-\caption{Zero-input Track-A predictions vs.\ empirical benchmarks (with $1\sigma$ experimental uncertainties where dominant) across gauge, hierarchy, flavour, and cosmological sectors.}
-\label{tab:summary}
+\caption{Complete classification of the four connected degree-$5$ covers of $\mathrm{m004}$ ($\mathrm{Vol} = 5\,\mathrm{Vol}(\mathrm{m004}) \approx 10.149416$; census ID of $8^3_4$ is $\mathrm{o10\_150685}$). Here $k$ is the cusp count, $b_1 = \mathrm{rank}\,H_1(M;\mathbb{Z})$, ``Torsion'' lists $H_1(M;\mathbb{Z})_{\mathrm{tors}}$, and $J = 1 + 10b_1$.}
+\label{tab:covers}
 \begin{ruledtabular}
-\begin{tabular}{lccc}
-Observable & Pred. & Obs. & Offset \\
+\begin{tabular}{cccccc}
+Idx & Manifold & Type & $k$ & $b_1$ & Torsion ($J$) \\
 \hline
-$\alpha_{\mathrm{EM}}^{-1}(M_Z)$ & $128.14$ & $127.951(9)$ & $+0.15\%$ (T1) \\
-$\alpha_s(M_Z)$ & $0.1135$ & $0.1179(9)$ & $-3.7\%$ (T1) \\
-$\sin^2\theta_W(M_Z)$ & $0.2170$ & $0.23121(4)$ & $-6.1\%$ (T1) \\
-$v_{\mathrm{EW}}/M_{\mathrm{Pl,red}}$ & $1.17\times 10^{-16}$ & $1.01\times 10^{-16}$ & $+15.3\%$ (T1) \\
-$\ln(M_{\mathrm{Pl,red}}/M_Z)$ & $37.656$ & $37.824$ & $-0.17$ nep (T1) \\
-$m_t / m_b(M_Z)$ & $50.67$ & $59.41$ & $-14.7\%$ (T1) \\
-$m_c / m_t(M_Z)$ & $0.00388$ & $0.00361$ & $+7.5\%$ (T1) \\
-$\sin^2\theta_{12}$ & $0.3123$ & $0.307(12)$ & $+1.7\%$ (T1) \\
-$\sin^2\theta_{23}$ & $0.5925$ & $0.546(21)$ & $+8.5\%$ (T1) \\
-$\sin^2\theta_{13}$ & $0.0301$ & $0.0220(6)$ & $+36.4\%$ (T1) \\
-$10^9 A_s$ & $2.622$ & $2.10(3)$ & $+24.9\%$ (T1) \\
-$n_s$ & $0.9560$ & $0.9649(42)$ & $-0.92\%$ (T1) \\
-$10^{10}\eta_B$ & $7.992$ & $6.12(4)$ & $+30.6\%$ (T1) \\
-$\Omega_a h^2$ & $0.1686$ & $0.1200(12)$ & $+40.5\%$ (T1) \\
-$\beta_{\mathrm{iso}}^{(1\mathrm{B\text{-}SD})}$ & $0.00287$ & $< 0.038$ & $13.3\times$ margin \\
+$0$ & $\mathrm{o10\_150696}$ & Cyclic ($C_5$) & $1$ & $1$ & $\mathbb{Z}_{11}^2$ ($11$) \\
+$1$ & $\mathrm{o10\_150703}$ & Irregular & $2$ & $2$ & $\mathbb{Z}_2$ ($21$) \\
+$2$ & $8^3_4$ & $D_5$ irreg. & $3$ & $3$ & $\emptyset$ ($31$) \\
+$3$ & $\mathrm{o10\_150703}$ & Irregular & $2$ & $2$ & $\mathbb{Z}_2$ ($21$) \\
 \end{tabular}
 \end{ruledtabular}
 \end{table}
 
-\subsection{Zero-Input Gauge Couplings and Scale Hierarchy}
-\label{sec:unification}
+Because $H_1(\mathrm{m004};\mathbb{Z}) \cong \mathbb{Z}$ is generated by the knot meridian $\mu$, there is a unique regular (normal) degree-$5$ cover: the cyclic $C_5$ cover $\mathrm{o10\_150696}$ (\texttt{index 0}), which has $k = 1$ cusp, $b_1 = 1$, and $H_1 \cong \mathbb{Z} \oplus \mathbb{Z}_{11}^2$.
+By contrast, an epimorphism $\pi_1(\mathrm{m004}) \to D_5 = \mathbb{Z}_5 \rtimes \mathbb{Z}_2$ sends $\mu$ to an order-$2$ reflection $x \mapsto -x \pmod 5$; the point stabilizer $H = \mathrm{Stab}(0) \cong \mathbb{Z}_2$ has index $5$ in $D_5$ and is \emph{non-normal}, defining an irregular cover whose normal core is the degree-$10$ regular $D_5$ cover.
+Under $x \mapsto -x \pmod 5$, the five sheets decompose into cycle type $(0)(1\,4)(2\,3)$, producing exactly $k = 3$ torus cusps ($1$ single-sheeted cusp and $2$ double-sheeted cusps).
+Among the three irregular degree-$5$ covers of $\mathrm{m004}$ in Table~\ref{tab:covers}, \texttt{index 1} and \texttt{index 3} are isometric two-cusp manifolds ($\mathrm{o10\_150703}$, $b_1 = 2$, $\mathbb{Z}_2$ torsion), whereas \texttt{index 2} ($8^3_4 \cong \mathrm{o10\_150685}$) is the \emph{unique} three-cusp, torsion-free irregular $D_5$-quotient cover ($k = 3$, $b_1 = 3$, $H_1 \cong \mathbb{Z}^3$, $J = 31$).
 
-On an $S^1/\mathbb{Z}_2$ orbifold collar $[0, L_c^*]$, each boundary contributes a one-loop Contino-Pilo differential zeta threshold $\Delta_{\mathrm{CP}} = (-\zeta'(0)) - (-\zeta'(0, 1/2)) = \frac{1}{2}\ln\pi$~\cite{ContinoPilo2001}.
-Summing across both collar walls ($y = 0$ and $y = L_c^*$) shifts the bulk coupling $\alpha_{\mathrm{GUT,bulk}}^{-1} = 9\,\mathrm{Vol}(M^{(5)})(2L_c^*)^3/(30\pi^3) = 43.2464$ without empirical inputs:
-\begin{equation}
-\label{eq:agut_2wall}
-\alpha_{\mathrm{GUT,2\text{-}wall}}^{-1} = \frac{9\,\mathrm{Vol}(M^{(5)})(2L_c^*)^3}{30\pi^3} - \ln\pi = 42.1016.
-\end{equation}
+Passing to any $d$-sheet finite cover also obeys an exact cancellation for Kaluza-Klein axion decay constants~\cite{SvrcekWitten2006}:
 
-Adams' maximal horoball cusp volume $V_{\mathrm{horo}}(\mathrm{m004}) = \sqrt{3}$~\cite{Adams1987} fixes the compactification scale $M_{\mathrm{KK}}/M_{\mathrm{Pl,red}} = e^{-2L_c^*}/\sqrt{3}$ ($\ln[M_{\mathrm{Pl,red}}/M_{\mathrm{KK}}] = 2L_c^* + \frac{1}{2}\ln 3 = 8.1575$, $M_{\mathrm{KK}} = 6.98\times 10^{14}\,\mathrm{GeV}$) and the seven-dimensional gravitational unification scale $M_7 = 2L_c^* M_{\mathrm{KK}} = 5.31\times 10^{15}\,\mathrm{GeV}$.
-Combining this cusp relation with the radiative Hosotani collar exponent $\ln(M_{\mathrm{KK}}/v_{\mathrm{EW}}) = \frac{15}{2}L_c^*$ determines the internal RGE span via root-finding:
+\emph{Theorem 2 (Multi-sheet invariance of $f_a/M_{\mathrm{Pl},4}$).}
+Let $\pi: M^{(d)} \to M^{(1)}$ be a $d$-sheet Riemannian covering of finite-volume internal manifolds (or identically truncated collar-cap manifolds) with $\mathrm{Vol}(M^{(d)}) = d\,\mathrm{Vol}(M^{(1)})$.
+Let $a(x)\,\omega_d$ be a four-dimensional pseudoscalar zero mode arising from a $p$-form gauge potential integrated against the pullback harmonic form $\omega_d = \pi^*\omega_1$ normalized to the fundamental period lattice of $M^{(1)}$.
+Then the dimensionless ratio $f_a / M_{\mathrm{Pl},4}$ is strictly independent of the sheet number $d$.
+
+\emph{Proof.}
+Reducing the higher-dimensional Einstein-Hilbert and $p$-form kinetic terms $\frac{M_*^{D-2}}{2}\int R\,\mathrm{vol}_D - \frac{\kappa_p^2}{2}\int |dC_p|^2\,\mathrm{vol}_D$ over $M^{(d)}$ gives
+\begin{align}
+\label{eq:mpl_fa_scaling}
+M_{\mathrm{Pl},4}^2 &= M_*^{D-2}\,\mathrm{Vol}(M^{(d)}) = d\,M_*^{D-2}\,\mathrm{Vol}(M^{(1)}), \nonumber\\
+f_a^2 &= \kappa_p^2 \int_{M^{(d)}} \omega_d \wedge *\omega_d = d\,\kappa_p^2 \int_{M^{(1)}} \omega_1 \wedge *\omega_1.
+\end{align}
+Taking the ratio cancels the integer sheet factor $d$ identically:
 \begin{equation}
-\label{eq:hierarchy_sum}
-\ln\!\left(\frac{M_{\mathrm{KK}}}{M_Z^{\mathrm{pred}}}\right)_0 = \frac{15}{2}L_c^* - \ln\!\left(\frac{M_Z^{\mathrm{pred}}}{v_{\mathrm{EW}}}\right) = 29.4986.
+\label{eq:fa_ratio_invariant}
+\frac{f_a}{M_{\mathrm{Pl},4}} = \frac{\kappa_p}{M_*^{(D-2)/2}}\sqrt{\frac{\int_{M^{(1)}} \omega_1 \wedge *\omega_1}{\mathrm{Vol}(M^{(1)})}},
 \end{equation}
-Integrating down to $M_Z$ gives $\alpha_{\mathrm{EM}}^{-1}(M_Z) = 128.138$ ($+0.15\%$), $\alpha_s(M_Z) = 0.1135$ ($-3.70\%$), $v_{\mathrm{EW}}/M_{\mathrm{Pl,red}} = e^{-(19/2)L_c^*}/\sqrt{3} = 1.166\times 10^{-16}$ ($+15.3\%$), and $\ln(M_{\mathrm{Pl,red}}/M_Z) = 37.656$ vs.\ $37.824$ observed.
-Across Fig.~\ref{fig:unification}(b), the stabilized collar potential has strictly positive curvature with canonical radion mass $m_{\mathrm{rad}} = 6.34\times 10^{10}\,\mathrm{GeV}$ (six orders of magnitude above the $30\,\mathrm{TeV}$ cosmological moduli bound), and radion decay reheats at $T_{\mathrm{reh,rad}} = 1.10\times 10^6\,\mathrm{GeV}$—eight orders of magnitude below $f_{a,0}^{(M^5)}$ yet eight orders above Big Bang nucleosynthesis ($T_{\mathrm{BBN}} \approx 4\,\mathrm{MeV}$), preventing both post-inflationary Peccei-Quinn restoration and late-decay photodissociation.
-This parameter-free unification of electroweak couplings and the Planck-to-weak hierarchy is our second main result (Fig.~\ref{fig:unification}).
+which has zero $d$-dependence.
+Multiplying a single-sheet ratio $f_a^{(1)}/M_{\mathrm{Pl},4}$ by $\sqrt{d}$ is valid only if $M_{\mathrm{Pl},4}$ is held artificially fixed while $M_*^{D-2}$ is rescaled by $1/d$; in any self-consistent reduction where $M_{\mathrm{Pl},4}^2 \propto \mathrm{Vol}(M^{(d)})$, the $\sqrt{d}$ factors in $f_a$ and $M_{\mathrm{Pl},4}$ cancel identically. $\square$
 
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=0.96\textwidth]{figures/fig3_isocurvature_and_cy4_tadpole.pdf}
-    \caption{Early-universe axion isocurvature shootout and fourfold flux spacing. (a) Cold-dark-matter axion isocurvature fraction $\beta_{\mathrm{iso}}$ across large-radius kinetic branches (\texttt{1A-i}, \texttt{1A-ii}), high-scale self-dual (\texttt{1B-i}), single-sheet Casimir self-dual (\texttt{1B-SD 1-sheet}), and five-sheet $M^{(5)}$-normalized Casimir self-dual ($\beta_{\mathrm{iso}}^{(M^5)} = 0.00287$, filled square) vs.\ Planck's $95\%$~CL upper limit $\beta_{\mathrm{iso}} < 0.038$ (dashed line). (b) Bousso-Polchinski flux step $-\log_{10}(\Delta\Lambda_{\mathrm{BP}}/|V_{\mathrm{bulk}}|)$ on $X_8 \to \mathbb{P}^1 \times dP_r$ under M2-tadpole positivity $N_{M2} \ge 0$, crossing the $105$-order threshold (dashed) at critical Fano rank $r_{\mathrm{crit}} = 8$ ($\mathbb{P}^1 \times dP_8$, filled square).}
-    \label{fig:cosmo}
+    \includegraphics[width=0.96\textwidth]{figures/fig6_h3_green_and_zss_divergence.pdf}
+    \caption{Hyperbolic propagator exactness versus one-loop Selberg return geometry and $n=1$ Euler-product non-convergence. (a) Amplitude ratio relative to the exact radial $\mathbb{H}^3$ Green function $G_{\mathbb{H}^3}(r;\lambda) = e^{-\lambda r}/(4\pi\sinh r)$ (horizontal solid line at $1$, exact Huygens reduction at $d=3$): Selberg Poincar\'e-return factor $\varepsilon(\gamma)/[4\pi G_{\mathbb{H}^3}(r)]$ across loxodromic twist angles $\phi \in [0,\pi]$ (shaded band bounded by untwisted $\phi=0$ dashed and $\pi$-twisted dash-dot curves), flat-space Yukawa ratio $G_{\mathbb{R}^3}(r)/G_{\mathbb{H}^3}(r) = (\sinh r)/r$ (dotted curve), and the systolic geodesic shell $\ell_1 = 1.08707$ on $\mathrm{m004}$ (filled diamond at $+38.4\%$). (b) Cutoff dependence of the unregulated $n=1$ Scherk-Schwarz geodesic product $Z_{\mathrm{SS}}^{(1,3)}(\ell \le \ell_{\mathrm{cut}})/Z_0$ on $8^3_4$ across $\ell_{\mathrm{cut}} \in \{9/5, 11/5, 13/5, 3, 33/10\}$, exhibiting a $2.93\times$ non-convergent swing because exponential geodesic proliferation $N_{\mathrm{prim}}(\ell \le L) \sim e^{2L}/(2L)$ balances $e^{-2\ell_\gamma}$ at the critical exponent $\delta(\Gamma) = 2$.}
+    \label{fig:propagator}
 \end{figure*}
 
-\subsection{Cosmology, Dark Matter, and Fourfold Flux Spacing}
-\label{sec:cosmo}
+\section{Hyperbolic Propagators, Selberg Return Factors, and Critical-Exponent Divergence}
+\label{sec:propagator}
 
-By 't~Hooft fermion zero-mode alignment~\cite{tHooft1976}, ultraviolet $\mathrm{SU}(3)_C \subset \mathrm{Spin}(10)$ instantons on $\mathrm{m004}$ share the tree-level quark determinant phase $\theta_{\mathrm{m004}} = \arg\det(Y_u^{(\mathrm{m004})} Y_d^{(\mathrm{m004})})$ with infrared QCD instantons.
-Minimizing Coleman's Euclidean dilute-instanton-gas potential across the eight sibling $\mathrm{m129}$ Whitehead overtones ($W_{\mathrm{ov}}$ in Eq.~\eqref{eq:w_ov}) cancels strong CP violation to $|\bar{\theta}_{\mathrm{QCD}}| < 10^{-35}$ and fixes the zero-input misalignment angle $\theta_{\mathrm{mis},0} = |\theta_{\mathrm{UV},\min} - \theta_{\mathrm{IR},\min}| = 0.04487\,\mathrm{rad}$.
-
-For the $D_5$-invariant base three-form axion lifted along $M^{(5)} \xrightarrow{5:1} \mathrm{m004}$, higher-form $C_3$ gauge invariance forbids local Planck-suppressed Peccei-Quinn-violating operators to all perturbative orders, while integrating the kinetic norm over all five sheets gives $\|\omega_3\|_{L^2(M^{(5)})} = \sqrt{5}\,\|\omega_3\|_{L^2(\mathrm{m004})}$~\cite{SvrcekWitten2006}, fixing the infrared Peccei-Quinn scale
+On $d$-dimensional hyperbolic space $\mathbb{H}^d$ ($\kappa = -1$) with geodesic polar metric $ds^2 = dr^2 + \sinh^2 r\,d\Omega_{d-1}^2$, the radial Laplace-Beltrami operator acting on $SO(d)$-invariant functions $f(r)$ is
 \begin{equation}
-\label{eq:fa_m5}
-f_{a,0}^{(M^5)} = \sqrt{5}\,\frac{M_{\mathrm{KK}}}{2\pi} = 2.484\times 10^{14}\,\mathrm{GeV}.
+\label{eq:radial_laplacian}
+\Delta_{\mathbb{H}^d}^{\mathrm{rad}} f(r) = f''(r) + (d - 1)\coth r\,f'(r).
 \end{equation}
-Evaluating the lattice-QCD relic abundance~\cite{Borsanyi2016,GrillidiCortona2016} at $\theta_{\mathrm{mis},0}$ yields $\Omega_a h^2 = 0.1686$ ($\log_{10} = +0.148 \le 0.15$, Tier~1).
-During inflation on the T-dual self-dual Casimir cusp-cap plateau at collar radius $R_{\mathrm{sd}} = M_7^{-1}$ (Appendix~\ref{app:cosmo}), Weyl rescaling boosts the effective decay constant to $f_a(R_{\mathrm{sd}}) = (2L_c^*)^3 f_{a,0}^{(M^5)}$, and exact Hubble-flow integration yields $A_s = 2.622\times 10^{-9}$ (Tier~1), $n_s = 0.9560$ (Tier~1), $r = 1.87\times 10^{-8}$, and $\beta_{\mathrm{iso}}^{(1\mathrm{B\text{-}SD})} = 0.00287$, well below Planck's $95\%$~CL bound $\beta_{\mathrm{iso}} < 0.038$ at $k = 0.05\,\mathrm{Mpc}^{-1}$~\cite{Planck2018Inflation}.
+Substituting $f(r) = (\sinh r)^{-(d-1)/2} u(r)$ eliminates the first-derivative term and transforms the Helmholtz equation $[-\Delta_{\mathbb{H}^d}^{\mathrm{rad}} + \lambda^2 - \frac{(d-1)^2}{4}]f(r) = 0$ ($r > 0$) into the one-dimensional Schr\"odinger equation
+\begin{equation}
+\label{eq:liouville_poschl_teller}
+-u''(r) + \left[\lambda^2 + \frac{(d-1)(d-3)}{4\sinh^2 r}\right] u(r) = 0.
+\end{equation}
+The centrifugal P\"oschl-Teller potential $\frac{(d-1)(d-3)}{4\sinh^2 r}$ vanishes identically if and only if $d = 1$ or $d = 3$.
+Consequently, $d = 3$ is the unique nontrivial hyperbolic dimension in which the massive scalar Green function reduces to a single exact exponential divided by $\sinh r$:
+\begin{equation}
+\label{eq:gh3_exact}
+G_{\mathbb{H}^3}(r;\lambda) = \frac{e^{-\lambda r}}{4\pi\sinh r}, \qquad \lambda = \sqrt{m^2 + 1},
+\end{equation}
+with zero subleading $1/r$ or $1/\sinh r$ series corrections (verified numerically to $1.61\times 10^{-50}$ radial PDE residual at $d = 3$, versus $O(10^{-1})$ P\"oschl-Teller residuals $0.0689$ at $d = 2$ and $0.2068$ at $d = 4$).
 
-Baryogenesis and vacuum flux neutralization close on the same manifold without added parameters.
-Summing all $N_{\mathrm{gen}} = 3$ active $\mathrm{Spin}(10)$ families in the cylindrical K\"{a}hler Affleck-Dine anomaly portal ($N_{\mathrm{gen}}\,\mathrm{CS}(\mathrm{m129}) = 3/8$) gives $\eta_B = 7.992\times 10^{-10}$ ($\log_{10} = +0.116$, Tier~1).
-On the Weierstrass elliptic fourfold $X_8 \to \mathbb{P}^1 \times dP_r$ subject to M2-brane tadpole positivity $N_{M2} = \chi(X_8)/24 - \frac{1}{2}\int_{X_8} G_4 \wedge G_4 \ge 0$, blowing down $\mathbb{P}^1 \times dP_9$ ($\chi(X_8)=288$) to $\mathbb{P}^1 \times dP_8$ ($\chi(X_8)=2448$, $b_4 = 2424$) yields a Bousso-Polchinski flux step $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/|V_{\mathrm{bulk}}|) = -192.42 \le -105$ relative to the bare Casimir scale $|V_{\mathrm{bulk}}|$~\cite{KlemmLianRoanYau1997,BoussoPolchinski2000}; this establishes necessary flux-lattice density for vacuum neutralization, without claiming a constructive selection of the observed dark-energy value $\Lambda_{\mathrm{obs}}$.
-This simultaneous resolution of axion dark matter, primordial isocurvature, baryon asymmetry, and fourfold flux spacing is our third main result (Fig.~\ref{fig:cosmo}).
+Crucially, however, Eq.~\eqref{eq:gh3_exact} must not be conflated with the one-loop Selberg trace Jacobian along closed loxodromic geodesics $\gamma \in \Gamma$ of complex length $\mathcal{L}(\gamma) = \ell_\gamma + i\phi_\gamma$.
+By the method of images on $\mathbb{H}^3/\Gamma$, the two-point propagator $G_{\mathbb{H}^3/\Gamma}(x,x';\lambda) = \sum_{\gamma\in\Gamma} G_{\mathbb{H}^3}(d(x,\gamma x');\lambda)$ evaluates Eq.~\eqref{eq:gh3_exact} directly with denominator $4\pi\sinh\ell_\gamma$.
+By contrast, integrating $G_{\mathbb{H}^3}(d(x,\gamma x);\lambda)$ over the fundamental tube around $\gamma$ to form the functional determinant $\ln\det(-\Delta + m^2)$ introduces the transverse Poincar\'e return determinant $|\det(I_2 - R_{\phi_\gamma} e^{-\ell_\gamma})|^{-1} = |1 - e^{-\mathcal{L}(\gamma)}|^{-2} = |2\sinh(\mathcal{L}(\gamma)/2)|^{-2}$:
+\begin{equation}
+\label{eq:selberg_return}
+\varepsilon(\gamma;\lambda) = \frac{e^{-\lambda\ell_\gamma}}{|1 - e^{-(\ell_\gamma + i\phi_\gamma)}|^2} \ne 4\pi G_{\mathbb{H}^3}(\ell_\gamma;\lambda) = \frac{2 e^{-\lambda\ell_\gamma}}{\sinh\ell_\gamma}.
+\end{equation}
+Indeed, replacing $\sinh r$ by $\sinh(r/2)$ in Eq.~\eqref{eq:gh3_exact} fails the $\mathbb{H}^3$ radial Helmholtz equation with an $O(1)$ residual of $1.548$, and on the systolic geodesic shell $\ell_1 = 1.08707014$ of $\mathrm{m004}$ the Selberg return factor differs from the radial propagator amplitude by $+38.42\%$ (Fig.~\ref{fig:propagator}(a)).
+Furthermore, scalar propagators carry $\lambda_{\mathrm{scalar}} = \sqrt{m^2 + 1}$, whereas twisted hyperbolic Dirac spinor eigenvalues reflect first-order spin-connection coupling and cannot be inserted into scalar Helmholtz identities without explicit spinor trace reduction.
+
+A second analytical subtlety governs Scherk-Schwarz twisted one-loop determinants on $\mathbb{H}^3/\Gamma$.
+In the Euler product of the Selberg zeta function,
+\begin{align}
+\label{eq:selberg_euler}
+\zeta_{\Gamma,\chi}(s) &= \prod_{[\gamma_0]\,\mathrm{prim}} \prod_{k,m \ge 0} \Bigl(1 - \chi(\gamma_0)\nonumber\\
+&\quad \times e^{-(s + k + m)\ell_{\gamma_0} - i(k-m)\phi_{\gamma_0}}\Bigr),
+\end{align}
+prime geodesic proliferation on a finite-volume hyperbolic three-manifold obeys Margulis's asymptotic law $N_{\mathrm{prim}}(\ell \le L) \sim e^{\delta(\Gamma) L} / (\delta(\Gamma) L)$ with critical exponent (entropy) $\delta(\Gamma) = 2$.
+Consequently, the Euler product~\eqref{eq:selberg_euler} converges absolutely only for $\mathrm{Re}(s) > 2$.
+In a Scherk-Schwarz winding sum over $n \ge 1$ where each term carries damping $e^{-2 n \ell_\gamma}$, all higher harmonics $n \ge 2$ have effective spectral parameter $s_n = 2n \ge 4 > 2$ and converge exponentially, whereas the fundamental $n = 1$ sector sits directly on the abscissa of convergence $s_1 = 2 = \delta(\Gamma)$, where $N_{\mathrm{prim}}(\ell \le L) e^{-2L} \sim (2L)^{-1}$ fails absolute convergence.
+Evaluating the raw $n=1$ product on $8^3_4$ across rational length cutoffs $\ell_{\mathrm{cut}} \in \{9/5, 11/5, 13/5, 3, 33/10\}$ exhibits a non-convergent $2.93\times$ oscillation between $0.317$ and $0.930$ (Fig.~\ref{fig:propagator}(b)), proving that any finite-cutoff truncation at $n=1$ is unphysical and must be replaced by analytic continuation of $\zeta_{\Gamma,\chi}(s)$ across $s = 2$.
 
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=0.96\textwidth]{figures/fig4_falsifiability_landscape.pdf}
-    \caption{Sharp experimental falsifiability targets. (a) Effective Majorana mass $m_{\beta\beta}$ vs.\ lightest mass $m_{\mathrm{lightest}}$, showing NuFIT Normal-Ordering (solid) and Inverted-Ordering (dashed) oscillation reference bands, LEGEND-1000/nEXO sensitivity (dash-dot), and our zero-input Takagi prediction $(m_1, m_{\beta\beta}) = (2.21, 4.39)\,\mathrm{meV}$ at $m_3 = 37.52\,\mathrm{meV}$ (star). (b) QCD axion photon coupling $|g_{a\gamma\gamma}|$ vs.\ $m_a$, showing the straight $\mathrm{Spin}(10)$ $E/N = 8/3$ line (solid), KSVZ $E/N = 0$ line (dashed), and our zero-input $M^{(5)}$ target $(22.95\,\mathrm{neV}, 3.49\times 10^{-18}\,\mathrm{GeV}^{-1})$ (star).}
-    \label{fig:falsifiability}
+    \includegraphics[width=0.96\textwidth]{figures/fig7_cy4_signature_and_bp.pdf}
+    \caption{Hirzebruch signature splitting and self-dual Bousso-Polchinski flux spacing on Weierstrass elliptic Calabi-Yau fourfolds $X_r \to \mathbb{P}^1 \times \mathrm{dP}_r$ ($r = 0,\dots,9$). (a) Total middle Betti number $b_4(X_r) = b_4^+ + b_4^-$ (solid line with circles), self-dual rank $b_4^+(X_r)$ (dashed line with squares), anti-self-dual rank $b_4^-(X_r) > 0$ (dash-dot line with triangles), and Hirzebruch signature $\tau(X_r) = 32 + \chi(X_r)/3$ (dotted line with diamonds). At $r = 8$, $b_4 = 2424$ splits into $b_4^+ = 1636$ and $b_4^- = 788$ ($\tau = 848$). (b) Logarithmic flux-lattice spacing $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/M_{\mathrm{Pl}}^4)$: naive substitution of indefinite $b_4$ at $R_{\mathrm{flux}}^2 = \chi/24$ flips positive into the sparse shaded region ($+172.4$ at $r=8$, dashed triangles), whereas restricting to physical self-dual $H^4_+(X_r)$ ($b_4^+$) preserves dense negative spacing across all $r = 0,\dots,9$ under both $R_{\mathrm{flux}}^2 = \chi/24$ ($-23.7$ at $r=8$, solid circles) and $R_{\mathrm{flux}}^2 = \chi/12$ ($-269.9$ at $r=8$, dash-dot squares).}
+    \label{fig:cy4}
 \end{figure*}
 
-\section{One-Loop Hyperbolic Audit and Experimental Falsifiability}
-\label{sec:analysis}
+\section{Weierstrass Fourfold Signature Splitting and Self-Dual Flux Lattices}
+\label{sec:cy4}
 
-Six of the $36$ observables sit in Tier~2 ($0.21 \le |\log_{10}| \le 0.47$): $m_s/m_b$ ($+0.21\,\mathrm{dex}$), $|V_{ub}|$ ($+0.28\,\mathrm{dex}$), $|V_{cb}|$ ($-0.28\,\mathrm{dex}$), $m_\mu/m_\tau$ ($-0.32\,\mathrm{dex}$), $|J_{\mathrm{lep}}|/J_{\mathrm{lep}}^{\max} \equiv |J_\ell|/J_\ell^{\max}$ ($-0.47\,\mathrm{dex}$), and $|J_q|$ ($-0.47\,\mathrm{dex}$).
-Comparing ultraviolet ($M_{\mathrm{KK}}$) and infrared ($M_Z$) singular values shows that all six quantities are RGE quasi-invariants whose maximal $30$-e-fold drift is $0.135\,\mathrm{dex} < 0.15$.
-Notably, $|J_{\mathrm{lep}}| = 0.01122$ lies below the maximal envelope $J_{\mathrm{lep}}^{\max} = 0.033$ because our predicted Dirac phase is $\delta_{\mathrm{CP}} = 197.03^\circ$ ($\sin\delta_{\mathrm{CP}} = -0.293$), matching the NuFIT normal-ordering global fit $\delta_{\mathrm{CP}} = 197^{+42}_{-25}\,\mathrm{deg}$~\cite{Esteban2020NuFIT} ($|J_{\mathrm{lep}}^{\mathrm{NuFIT}}| = 0.0097$).
+Consider the family of smooth Weierstrass elliptic Calabi-Yau fourfolds $\pi: X_r \to B_3 = \mathbb{P}^1 \times \mathrm{dP}_r$ ($r = 0,\dots,9$) over the product of $\mathbb{P}^1$ ($c_1 = 2H$) and the del Pezzo surface $\mathrm{dP}_r$ obtained by blowing up $\mathbb{P}^2$ at $r$ generic points ($c_1(\mathrm{dP}_r)^2 = 9 - r$, $\chi(\mathrm{dP}_r) = 3 + r$).
+From Klemm, Lian, Roan, and Yau~\cite{KlemmLianRoanYau1997}, $h^{1,0}(X_r) = h^{2,0}(X_r) = 0$, $h^{1,1}(X_r) = 3 + r$, $\chi(X_r) = 12\int_{B_3} c_1(B_3)(c_2(B_3) + 30 c_1(B_3)^2) = 2160(9 - r) + 288$, $h^{3,1}(X_r) = \chi(X_r)/6 - 8 - h^{1,1}(X_r) = 360(9 - r) + 37 - r$, and $h^{2,2}(X_r) = 44 + 4h^{1,1}(X_r) + 4h^{3,1}(X_r) = 1440(9 - r) + 204$.
 
-To test whether subleading hyperbolic one-loop corrections shift these six ratios or reweight the surgery ensemble $W_{\mathrm{ov}}$, Phase~11 derives both the three-point geodesic propagator and zero-point surgery partition determinants exactly (Appendix~\ref{app:selberg}):
-\begin{enumerate}
-    \item \emph{Three-dimensional Huygens propagator exactness:} Conjugating the radial Laplacian $-\Delta_{\mathbb{H}^d}$ on hyperbolic $d$-space by $\sinh^{(d-1)/2}r$ yields a centrifugal barrier $\frac{(d-1)(d-3)}{4\sinh^2 r}$ that vanishes identically at $d = 3$ ($50$-digit PDE residual $5.26\times 10^{-50}$, vs.\ $0.145$ in $\mathbb{H}^2$ and $0.434$ in $\mathbb{H}^4$). Inserting closed-loop Selberg trace prefactors into boundary-pinned three-point Yukawa overlaps double-counts vacuum bubbles and spoils gauge unification ($\alpha_{\mathrm{EM}}^{-1} \to 140\text{--}176$). So the six Tier-2 offsets cannot arise from $1/\ell$ geodesic WKB corrections, localizing them instead to finite-collar KK boundary wavefunctions or Weierstrass $X_8$ fiber harmonics.
-    \item \emph{Sixty-digit Porti adjoint torsion and $M^{(5)}$ surgery shootout:} Using abelian-twisted Fox calculus~\cite{Wada1994,Porti1997,DuboisYamaguchi2009}, we verify $|\tau_{\mathrm{Ad}}(\mathrm{m004};\mu)| = 2\sqrt{3}$ to $1.19\times 10^{-46}$ and evaluate four zero-parameter one-loop surgery dressings on $M_{p,q}^{(5)}$~\cite{GiombiMaloneyYin2008} (Table~\ref{tab:shootout}). Pure three-dimensional topological Chern-Simons weighting $[I_{\mathrm{Porti}}(M_{p,q})/I_{\mathrm{Porti}}(\mathrm{m004})]^{-1/2}$ (assuming zero propagating bulk supermultiplets) destructively cancels $\mathrm{Im}\,W_{\mathrm{ov}}$, collapsing $\theta_{\mathrm{mis},0} \to 0.00111\,\mathrm{rad}$ and driving $\beta_{\mathrm{iso}} \to 0.825 \gg 0.038$, whereas eleven-dimensional bulk supersymmetry ($Z_{\mathrm{1\text{-}loop}}^{\mathrm{SUSY}} = 1$) uniquely preserves $26$ Tier-1 hits and $\beta_{\mathrm{iso}} = 0.00287$.
-\end{enumerate}
+In M-theory and F-theory flux compactifications~\cite{GukovVafaWitten2000,BoussoPolchinski2000}, the middle integral cohomology $H^4(X_r,\mathbb{Z})$ of total rank $b_4(X_r) = 2 + 2h^{3,1}(X_r) + h^{2,2}(X_r)$ carries the symmetric intersection pairing $Q(\alpha,\beta) = \int_{X_r} \alpha \wedge \beta$.
+Crucially, $Q$ is \emph{not} positive definite on $H^4(X_r,\mathbb{R})$.
+By the Hodge index and Hirzebruch signature theorems on a Calabi-Yau fourfold with $h^{1,0} = h^{2,0} = h^{2,1} = 0$, the Hodge star $*$ splits $H^4(X_r,\mathbb{R}) = H^4_+(X_r) \oplus H^4_-(X_r)$ into $+1$ (self-dual) and $-1$ (anti-self-dual) eigenspaces of signature
+\begin{align}
+\label{eq:cy4_signature}
+\tau(X_r) &= b_4^+(X_r) - b_4^-(X_r) \nonumber\\
+&= 4 - 2h^{1,1}(X_r) - 2h^{3,1}(X_r) + h^{2,2}(X_r) \nonumber\\
+&= 32 + \frac{\chi(X_r)}{3} = 720(9 - r) + 128,
+\end{align}
+giving exact positive- and negative-definite sublattice ranks (since $b_4(X_r) = 2162(9 - r) + 262$)
+\begin{align}
+\label{eq:b4_exact_ranks}
+b_4^+(X_r) &= \frac{b_4(X_r) + \tau(X_r)}{2} = 1441(9 - r) + 195, \nonumber\\
+b_4^-(X_r) &= \frac{b_4(X_r) - \tau(X_r)}{2} = 721(9 - r) + 67.
+\end{align}
+Evaluating Eq.~\eqref{eq:b4_exact_ranks} at $r = 0, 8, 9$ gives $(b_4^+, b_4^-) = (13164, 6556)$ at $r = 0$, $(1636, 788)$ at $r = 8$ ($\chi = 2448, b_4 = 2424, \tau = 848$), and $(195, 67)$ at $r = 9$ ($\chi = 288, b_4 = 262, \tau = 128$), proving $b_4^-(X_r) > 0$ across the entire del Pezzo tower (Fig.~\ref{fig:cy4}(a)).
+
+This signature splitting resolves an acute sensitivity in Bousso-Polchinski flux-lattice estimates~\cite{BoussoPolchinski2000}.
+For a Euclidean lattice of rank $K$ bounded by $\sum_{i=1}^K n_i^2 \le R_{\mathrm{flux}}^2$, the volume of the $K$-ball $V_K(R_{\mathrm{flux}}) = \pi^{K/2} R_{\mathrm{flux}}^K / \Gamma(1 + K/2)$ yields characteristic vacuum-energy spacing $\Delta\Lambda_{\mathrm{BP}}/M_{\mathrm{Pl}}^4 \sim R_{\mathrm{flux}}^2 / V_K(R_{\mathrm{flux}})$.
+Because $K \sim O(10^3)$ is large, Stirling's asymptotic $V_K(R) \approx (2\pi e R^2 / K)^{K/2} / \sqrt{\pi K}$ switches exponentially from dense ($\Delta\Lambda \ll 1$) to sparse ($\Delta\Lambda \gg 1$) across the critical threshold $K_{\mathrm{crit}} = 2\pi e R_{\mathrm{flux}}^2 \approx 17.079\,R_{\mathrm{flux}}^2$.
+In M2-brane tadpole cancellation $N_{\mathrm{M2}} + \frac{1}{2}\int_{X_r} G_4 \wedge G_4 = \frac{\chi(X_r)}{24}$~\cite{GukovVafaWitten2000}, setting $R_{\mathrm{flux}}^2 = \chi/24$ gives $K_{\mathrm{crit}} = \frac{\pi e}{12}\chi \approx 0.7116\,\chi$, whereas $b_4(X_r) \approx \chi(X_r) > K_{\mathrm{crit}}$!
+Thus, unphysically inserting the full indefinite rank $K = b_4(X_r)$ into a Euclidean ball formula causes $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/M_{\mathrm{Pl}}^4)$ to flip sign from negative (at $R_{\mathrm{flux}}^2 = \chi/12$) to $+172.43$ at $r = 8$ (and $> 0$ for every $r = 0,\dots,9$) at $R_{\mathrm{flux}}^2 = \chi/24$.
+
+However, on $H^4(X_r,\mathbb{R}) = H^4_+ \oplus H^4_-$, the tadpole integral is indefinite:
+\begin{equation}
+\label{eq:gvw_indefinite}
+\frac{1}{2}\int_{X_r} G_4 \wedge G_4 = \frac{1}{2}\int_{X_r} \bigl(|G_{4,+}|^2 - |G_{4,-}|^2\bigr)\,\mathrm{vol}_{X_r}.
+\end{equation}
+Unactivated anti-self-dual fluxes ($G_{4,-} \ne 0$) contribute \emph{negatively} to the tadpole and break supersymmetry ($*G_4 = +G_4$ is required by Becker-Becker / Gukov-Vafa-Witten domain-wall conditions~\cite{GukovVafaWitten2000}), so a finite positive tadpole budget bounds only the positive-definite self-dual subspace $H^4_+(X_r)$ of rank $K_+ = b_4^+(X_r) \approx \frac{2}{3}\chi(X_r) < 0.7116\,\chi(X_r)$.
+Restricting to $K_+ = b_4^+(X_r)$ yields $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/M_{\mathrm{Pl}}^4) < 0$ for \emph{every} $r = 0,\dots,9$ under \emph{both} normalizations: $-23.68$ ($R_{\mathrm{flux}}^2 = \chi/24$) and $-269.93$ ($R_{\mathrm{flux}}^2 = \chi/12$) at $r = 8$ (Fig.~\ref{fig:cy4}(b)).
+
+\section{Effective-Action Obstructions and Repaired Two-Loop RGEs}
+\label{sec:obstructions}
+
+While the topological invariants of Secs.~\ref{sec:porti}--\ref{sec:cy4} are mathematically exact, attempting to assemble a zero-parameter phenomenological compactification on a direct or collar-capped product $M^{(5)} \times \mathrm{dP}_8$ encounters five sharp structural obstructions, summarized in Table~\ref{tab:obstructions}.
 
 \begin{table*}[t]
-\caption{Ten parameter-free experimental falsifiability targets of the $M^{(5)} \times \mathbb{P}^1 \times dP_8$ (\texttt{v12\_dP8\_ps}) fixed point. Dimensionful entries convert Track-A ratios using sector-native anchors $v_{\mathrm{EW}}^{\mathrm{obs}} = 246.22\,\mathrm{GeV}$ (neutrinos) and $M_{\mathrm{Pl,red}}^{\mathrm{obs}} = 2.435\times 10^{18}\,\mathrm{GeV}$ plus lattice-QCD $\chi_{\mathrm{top}}, W_0$ (axion and proton); fixing a single global unit shifts cross-sector scales by the $+15.3\%$ $(v_{\mathrm{EW}}/M_{\mathrm{Pl,red}})$ offset ($\sum m_\nu = 53.0\,\mathrm{meV}$ at fixed $M_{\mathrm{Pl,red}}$, or $m_a = 26.5\,\mathrm{neV}$, $\tau_p = 1.20\times 10^{35}\,\mathrm{yr}$ at fixed $v_{\mathrm{EW}}$).}
-\label{tab:falsifiability}
+\caption{Quantitative effective-action consistency obstructions excluding single-radius zero-parameter phenomenological closure on naive $M^{(5)} \times \mathrm{dP}_8$ compactifications.}
+\label{tab:obstructions}
 \begin{ruledtabular}
-\begin{tabular}{llcl}
-Sector & Observable & Zero-Input Prediction & Decisive Experiment \\
+\begin{tabular}{lll}
+Obstruction & Scaling / geometric relation & Quantitative discrepancy / failure mode \\
 \hline
-Neutrino ordering & Mass hierarchy & Normal Ordering ($m_1 < m_2 < m_3$) & JUNO / DUNE / Hyper-K \\
-Neutrino spectrum & $(m_1, m_2, m_3)$ & $(2.21, 6.20, 37.52)\,\mathrm{meV}$ & Project~8 / KATRIN \\
-Cosmological $\nu$~\cite{DESI2024} & $\sum m_\nu$ & $45.92\,\mathrm{meV}$ ($< 72\,\mathrm{meV}$ DESI+CMB) & DESI-II / Euclid / CMB-S4 \\
-$0\nu\beta\beta$ decay & $m_{\beta\beta}$ & $4.39\,\mathrm{meV}$ (below IO band) & LEGEND-1000 / nEXO \\
-Leptonic CP & $\delta_{\mathrm{CP}}$ ($\sin\delta_{\mathrm{CP}}$) & $197.03^\circ$ ($-0.2929$) & DUNE / Hyper-Kamiokande \\
-QCD axion mass & $m_a$ ($\nu_a$) & $22.95\,\mathrm{neV}$ ($5.55\,\mathrm{MHz}$) & DMRadio-m$^3$ / DMRadio-GUT \\
-Axion-photon~\cite{Srednicki1985} & $|g_{a\gamma\gamma}|$ ($E/N = 8/3$) & $3.49\times 10^{-18}\,\mathrm{GeV}^{-1}$ & DMRadio-GUT \\
-CDM isocurvature & $\beta_{\mathrm{iso}}$ & $0.00287$ ($< 0.038$ Planck) & CMB-S4 / LiteBIRD \\
-Primordial tensors & $r$, $dn_s/d\ln k$ & $1.87\times 10^{-8}$, $-9.25\times 10^{-4}$ & Simons Obs.\ / LiteBIRD \\
-Proton decay~\cite{Takenaka2020SK} & $\tau(p \to e^+\pi^0)$ & $2.12\times 10^{35}\,\mathrm{yr}$ ($> 2.4\times 10^{34}\,\mathrm{yr}$ SK) & Hyper-Kamiokande \\
+1. Casimir vs.\ axion radius & $f_a \propto R^{-3}$, $V_{\mathrm{Cas}} \propto R^{-10}$ & $R \to R_0/(2L_c^*)$ boosts $f_a$ by $440.4\times$ \\
+ & & while omitting $(2L_c^*)^{10} = 6.498\times 10^8$ on $V_{\mathrm{Cas}}$ \\
+2. Inflation branch splice & $V_0^{(1A)} = M_7^4$ vs.\ $V_{\mathrm{Cas}}(R_0)$ & Rolling-radion $V_0^{(1A)}$ exceeds $V_{\mathrm{Cas}}(R_0)$ by $31{,}113.3\times$ \\
+ & & ($-0.7107$ $e$-fold drift in uncalled pivot helper) \\
+3. Curvature, SUSY, duality & $\kappa = -1$, $c_1(\mathrm{dP}_8) > 0$, $\dim_{\mathbb{R}} X_8 = 8$ & Non-Ricci-flat (no $G_2$ holonomy, $0$ SUSY); \\
+ & & M-theory on $X_8$ is $3\mathrm{D}$; $\mathbb{P}^1\times \mathrm{dP}_8$ lacks $M^{(5)}$ \\
+4. $7\mathrm{D}$ EH vs.\ cusp gravity & $M_{\mathrm{Pl}}^2 \sim M_7^5\mathrm{Vol}_3$ vs.\ $e^{4L_c^*}M_{\mathrm{KK}}^2$ & $7\mathrm{D}$ EH $M_{\mathrm{KK}}/M_{\mathrm{Pl}} = 1.966\times 10^{-3}$ exceeds Adams \\
+ & & cusp ansatz $2.866\times 10^{-4}$ by $6.860\times$ ($47.06\times$ in $M_{\mathrm{Pl}}^2$) \\
+5. Contino-Pilo loop factor & $\Delta(\alpha_i^{-1}) = -\frac{b_i}{2\pi}\ln\pi$ ($S^1/\mathbb{Z}_2$) & Zeta difference $\ln\pi$ carries $-\frac{1}{2\pi}\ln\pi = -0.18219\,b_i$ \\
+ & & per unit $b_i$ (vs.\ unnormalized $-\ln\pi = -1.14473$) \\
 \end{tabular}
 \end{ruledtabular}
 \end{table*}
 
-Proton stability provides an independent structural test.
-Naive four-dimensional $\mathrm{SU}(5)$ gauge exchange at $M_{\mathrm{KK}} = 6.98\times 10^{14}\,\mathrm{GeV}$ gives $\tau(p \to e^+\pi^0) = 6.3\times 10^{31}\,\mathrm{yr}$, violating the Super-Kamiokande $90\%$~CL lower limit $> 2.4\times 10^{34}\,\mathrm{yr}$~\cite{Takenaka2020SK}.
-In $E_8 \supset \mathrm{Spin}(10) \times \mathrm{SU}(4)$ [Eq.~\eqref{eq:e8_branch}], $(X, Y)$ leptoquark bosons live in the $\mathrm{SU}(4)$ singlet $(\mathbf{45}, \mathbf{1})$ while chiral matter sits in $(\mathbf{16}, \mathbf{4})$.
-Projecting $Q_L$ and $(u_c, e_c)$ from orthogonal $\mathrm{SU}(4)$ harmonic components ($\langle e_1 | I_4 | e_2 \rangle = 0$) forbids tree-level KK leptoquark proton decay, while orbifold doublet-triplet projection on $(\mathbf{10}, \mathbf{6})$ forbids the bilinear color-triplet Higgsino mass insertion $M_T T_H T_H^c$ responsible for dimension-five $p \to K^+\bar{\nu}$ decay in four-dimensional supersymmetric GUTs~\cite{HallNomura2001} (reinforced by $M_{\mathrm{KK}}$-scale boundary supersymmetry breaking on $dP_8$).
-Consequently, leading nucleon decay proceeds via ultraviolet $M_7 = 5.31\times 10^{15}\,\mathrm{GeV}$ dimension-six operators~\cite{Yoo2022RBC} with $\tau(p \to e^+\pi^0) = 2.12\times 10^{35}\,\mathrm{yr}$, while family-universality of $m_{\mathrm{bulk}}^{(dP_8)}(f)$ [Eq.~\eqref{eq:dp8_mass}] combined with $(v_{\mathrm{EW}}/M_{\mathrm{KK}})^2 \sim 10^{-25}$ suppression eliminates tree-level Kaluza-Klein flavour-changing neutral currents.
-This ten-observable experimental falsifiability ledger is our fourth main result (Table~\ref{tab:falsifiability} and Fig.~\ref{fig:falsifiability}).
+First, in a $D = 11$ background with fixed eleven-dimensional Planck scale $M_{11}$, an internal three-cycle axion decay constant scales with overall hyperbolic radius $R$ as $f_a(R) \propto R^{-3}$, whereas one-loop bulk Casimir energy density scales in four-dimensional Einstein frame as $V_{\mathrm{Cas}}(R) \propto R^{-10}$.
+Shifting the radius to a self-dual collar point $R_{\mathrm{sd}} = R_0 / (2L_c^*)$ with $2L_c^* = 7.608149$ enhances $f_a$ by $(2L_c^*)^3 = 440.39$, which suppresses axion misalignment abundance, but simultaneously multiplies $V_{\mathrm{Cas}}$ by $(2L_c^*)^{10} = 6.498\times 10^8$, destroying slow-roll CMB normalization unless two incompatible radii are substituted into $f_a$ and $V_{\mathrm{Cas}}$ simultaneously.
+Second, splicing Affleck-Dine baryogenesis trajectories computed on a rolling-radion potential $V_0^{(1A)} = M_7^4$ onto a Casimir plateau $V_0^{(1B\text{-}\mathrm{SD})}$ violates single-background consistency across a $31{,}113.3\times$ jump in vacuum energy ($176.4\times$ in Hubble expansion rate $H_{\mathrm{inf}}$).
 
-\section{Theoretical Scope, Threshold Uncertainties, and Discrete-Selection Audit}
-\label{sec:limitations}
+Third, a compactification on $M^{(5)} \times \mathrm{dP}_8$ combines constant negative sectional curvature on $M^{(5)}$ with positive first Chern class $c_1(\mathrm{dP}_8) > 0$: the seven-manifold is neither Ricci-flat nor of $G_2$ holonomy, breaking all eleven-dimensional supersymmetry at the compactification scale (so Bose-Fermi one-loop determinant cancellation $Z_{\mathrm{1\text{-}loop}} = 1$ cannot be invoked), while twelve-dimensional F-theory on $X_8 \to \mathbb{P}^1 \times \mathrm{dP}_8$ compactifies over a six-real-dimensional K\"ahler base with no hyperbolic three-manifold factor.
+Fourth, standard seven-dimensional Einstein-Hilbert dimensional reduction yields $M_{\mathrm{KK}}/M_{\mathrm{Pl,red}} = 1.9660\times 10^{-3}$, conflicting with the heuristic Adams horoball cusp-area ansatz $e^{-2L_c^*}/\sqrt{3} = 2.8659\times 10^{-4}$ by a factor of $6.860$ ($47.06$ in Newton's constant $G_N$).
+Fifth, while Contino and Pilo's Hurwitz-Riemann zeta identity $2[(-\zeta'(0)) - (-\zeta'(0,1/2))] = 2[\frac{1}{2}\ln(2\pi) - \frac{1}{2}\ln 2] = \ln\pi$~\cite{ContinoPilo2001} holds identically (to $0.0$ residual), one-loop gauge matching on $S^1/\mathbb{Z}_2$ multiplies $\ln\pi$ by the loop factor $-b_i/(2\pi)$ ($\Delta(\alpha_i^{-1}) = -0.18219\,b_i$), not $-1$ ($-\ln\pi = -1.14473$).
 
-Three methodological boundaries govern the interpretation of our zero-parameter results (the complete $36$-observable ledger is tabulated without omission in Appendix~\ref{app:full_ledger}, Table~\ref{tab:full36}):
-\begin{enumerate}
-    \item \emph{Unfitted ultraviolet-to-$M_Z$ threshold effects:} Track~A integrates pure two-loop Standard Model RGEs from $\mu = M_{\mathrm{KK}}$ to $\mu = M_Z$ with zero heavy-threshold matching parameters. Several Tier-1 predictions therefore exhibit percent- to tens-of-percent offsets that exceed laboratory measurement errors—most notably $\sin^2\theta_W(M_Z) = 0.2170$ ($-6.1\%$), $\alpha_s(M_Z) = 0.1135$ ($-3.7\%$), and $m_H/v_{\mathrm{EW}} = 0.674$ ($m_H \approx 166\,\mathrm{GeV}$, $+0.122\,\mathrm{dex}$, reflecting the minimal-SM infrared quartic quasi-fixed point prior to boundary sfermion/radion threshold matching). Computing finite Kaluza-Klein and $dP_8$ SUSY-breaking threshold matching at $\mu = M_{\mathrm{KK}}$, alongside finite-collar and $X_8$ fiber wavefunctions for the six Tier-2 flavour ratios, is required before confronting sub-percent precision electroweak pulls.
-    \item \emph{Discrete specification provenance:} While all continuous fitted and calibrated parameters are eliminated (\texttt{0 of 19}), the progression in Fig.~\ref{fig:scorecard}(a) incorporates discrete topological and group-theoretic completions across Phases~6--10 beyond the blind Phase-5 baseline (\texttt{v1}, $4$ Tier-1 hits). Each phase was SHA-256 pre-registered prior to execution with zero retroactive blind credit claimed, and each discrete step was selected by an independent consistency condition (chiral $\mathrm{m129}$ parent required for $J_q \ne 0$, $r_{\mathrm{crit}} = 8$ forced by $N_{M2} \ge 0$, canonical $\mathrm{Spin}(10)$ trace orthogonality, and $\mathrm{SU}(4)$ proton stability) rather than empirical curve fitting.
-    \item \emph{Independent look-elsewhere significance:} Subtracting the three algebraically dependent electroweak/hierarchy cross-checks ($m_H/M_W$, $M_Z/v_{\mathrm{EW}}$, and $\ln[M_{\mathrm{Pl,red}}/M_Z]$) leaves $N_{\mathrm{indep}} = 29$ algebraically independent quantitative ratios ($23$ Tier-1 hits and $6$ Tier-2 hits, $0$ misses). Even under a conservative narrow uniform null prior of width $3.0\,\mathrm{dex}$ ($p_{\mathrm{T1}} = 0.10$, $p_{\mathrm{T2}} = 0.233$) penalized by $N_{\mathrm{trials}} = 10^5$ discrete model-selection trials ($\approx 16.6$ bits), the chance coincidence probability is $p_{\mathrm{corr}} = 8.6\times 10^{-17}$ ($1.6\times 10^{-25}$ across a $6.0\,\mathrm{dex}$ prior).
-\end{enumerate}
+Finally, to ensure that future ultraviolet boundary constructions can be evolved reliably without transcription artifacts, we audit and repair the complete $76$-component two-loop $\overline{\mathrm{MS}}$ Standard Model gauge-Yukawa-quartic RGE system~\cite{MachacekVaughn1984,LuoXiao2003,Buttazzo2013} in Appendix~\ref{app:rge}.
+Removing a spurious $+16 g_3^2 H_e$ QCD dressing from the charged-lepton two-loop anomalous dimension ($H_f = Y_f Y_f^\dagger$), restoring the two-loop flavour-trace cross-terms $+\frac{5}{4}T H_d Y_u$ and $+\frac{5}{4}T H_u Y_d$ ($T = \mathrm{Tr}(3H_u + 3H_d + H_e)$), and restoring the complete two-loop Higgs quartic beta function $\beta_\lambda^{(2)}$~\cite{Buttazzo2013} eliminates a $30.19\%$ quartic error, reproduces the exact rational benchmark $\beta_\lambda^{(2)} = 16315337 / 800000 = 20.39417125$ to $0.0$ error at $50$ decimal digits, and preserves $\mathrm{SU}(3)^5$ Haar basis covariance to $8.35\times 10^{-53}$.
 
 \section{Conclusions}
 \label{sec:conclusions}
 
-We have constructed and zero-trust audited an eleven-phase geometric unification loop on $M^{(5)} \times \mathbb{P}^1 \times dP_8$ that eliminates all continuous fitted and calibrated parameters across gauge, Yukawa, neutrino, inflationary, baryogenesis, dark-matter, and flux-landscape sectors, reaching $26$ Tier-1 precision hits, $6$ RG-quasi-invariant Tier-2 structural hits, and $4$ bound passes ($36$ of $36$, $0$ misses) across $165$ planted-fault controls.
-Deriving finite-collar Kaluza-Klein and Weierstrass $X_8$ fiber wavefunctions for the remaining six flavour ratios—alongside direct experimental tests of $\delta_{\mathrm{CP}} = 197.0^\circ$, $\sum m_\nu = 45.92\,\mathrm{meV}$, $m_a = 22.95\,\mathrm{neV}$, $\beta_{\mathrm{iso}} = 0.00287$, and $\tau(p \to e^+\pi^0) = 2.12\times 10^{35}\,\mathrm{yr}$—defines the decisive next steps for this program.
+We have established a completely data-free, $60$-digit verified mathematical-physics benchmark and consistency-obstruction analysis for hyperbolic Whitehead Dehn-surgery compactifications and Weierstrass elliptic Calabi-Yau fourfolds:
+\begin{enumerate}
+    \item Across all nine cover-compatible hyperbolic surgeries $M_{p,q} = \mathrm{m129}(p,q)$ ($p + 3q \equiv 0 \pmod{10}$), Wada-Dubois-Yamaguchi-Porti adjoint Reidemeister torsions $|\tau_{\mathrm{Ad}}(M_{p,q};\mu)|$ and modular-invariant cusp constants $I_{\mathrm{Porti}}(M_{p,q})$ agree identically ($\Delta_{\mathrm{basis}} = 0.0$ to $60$ digits) between Cartan-Chevalley and $\mathrm{Sym}^2(\mathbb{C}^2)$ representations (Table~\ref{tab:porti}).
+    \item Among the four degree-$5$ covers of $\mathrm{m004}$, $8^3_4$ (\texttt{index 2}) is the unique three-cusp, torsion-free irregular $D_5$-quotient cover (Table~\ref{tab:covers}), and pullback harmonic axion ratios $f_a/M_{\mathrm{Pl},4}$ are strictly independent of cover degree $d$ (Theorem~2).
+    \item The radial Liouville-Huygens reduction $G_{\mathbb{H}^3}(r;\lambda) = e^{-\lambda r}/(4\pi\sinh r)$ holds uniquely at $d = 3$, differs by $+38.42\%$ on the systolic shell of $\mathrm{m004}$ from Selberg's one-loop return factor $\varepsilon(\gamma)$, and requires analytic continuation of $\zeta_{\Gamma,\chi}(s)$ at $s = \delta(\Gamma) = 2$ for $n = 1$ Scherk-Schwarz sectors (Fig.~\ref{fig:propagator}).
+    \item Hirzebruch's signature theorem $\tau(X_r) = 32 + \chi(X_r)/3$ splits $H^4(X_r,\mathbb{R})$ on $X_r \to \mathbb{P}^1\times\mathrm{dP}_r$ into $(b_4^+, b_4^-)$ with $b_4^- > 0$, and restricting Bousso-Polchinski fluxes to positive-definite self-dual $H^4_+(X_r)$ preserves $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/M_{\mathrm{Pl}}^4) < 0$ across both $R_{\mathrm{flux}}^2 = \chi/24$ and $\chi/12$ normalizations (Fig.~\ref{fig:cy4}), while five scaling, curvature, and loop-factor obstructions rule out naive single-radius closure on $M^{(5)}\times \mathrm{dP}_8$ (Table~\ref{tab:obstructions}).
+\end{enumerate}
+Any viable ultraviolet theory built from hyperbolic three-manifolds must resolve all five obstructions in Table~\ref{tab:obstructions} within a single dynamically stabilized action before confronting phenomenological data.
 
 \section*{Data Availability}
 
-All Track-A and Track-B Python solvers, $50$--$60$-digit \texttt{mpmath} topological and differential benchmarks, pre-registered SHA-256 manifests across Phases~1--11, serialized operator ledgers, and AST-isolated zero-import referee suites ($165$ cumulative planted-fault controls) supporting the findings of this article are openly available in the accompanying replication repository under \texttt{self\_consistent\_loop/}.
+All $50$--$60$-digit verification code, pre-committed scope cards, and raw machine-readable outputs (\texttt{relays/x\_rem12\_verify/verify\_x\_rem12.py} and \texttt{verify\_x\_rem12\_out.json}, verified by abstract-syntax-tree scanning to contain zero floating-point literals and zero empirical constants across six planted-fault controls) are archived in the project repository at \url{https://github.com/originaxiom/origin-axiom}.
 
 \appendix
 
-\section{Explicit \texorpdfstring{$A_4 \times D_5$}{A4 x D5} Geodesic Shell Operators and UV Boundary Matching}
-\label{app:operators}
+\section{Explicit Dual-Basis Adjoint Fox-Porti Calculus}
+\label{app:porti}
 
-On the figure-eight complement $\mathrm{m004} = \langle a, b \mid A b a B a = b a B a b\rangle$ ($A \equiv a^{-1}$, $B \equiv b^{-1}$), with left-to-right word multiplication $\rho_{A_4}(c_1\cdots c_k) = \rho_{A_4}(c_1)\cdots\rho_{A_4}(c_k)$, the tetrahedral $A_4 \subset \mathrm{SU}(3)$ flavour representation and $D_5 = \mathbb{Z}_5 \rtimes \mathbb{Z}_2$ five-sheeted cover permutations are generated by
+For $A = \bigl(\begin{smallmatrix} a & b \\ c & d \end{smallmatrix}\bigr) \in \mathrm{SL}(2,\mathbb{C})$ ($ad - bc = 1$), the Cartan-Chevalley basis $e = \bigl(\begin{smallmatrix} 0 & 1 \\ 0 & 0 \end{smallmatrix}\bigr)$, $h = \bigl(\begin{smallmatrix} 1 & 0 \\ 0 & -1 \end{smallmatrix}\bigr)$, $f = \bigl(\begin{smallmatrix} 0 & 0 \\ 1 & 0 \end{smallmatrix}\bigr)$ of $\mathfrak{sl}_2(\mathbb{C})$ transforms under $X \mapsto A X A^{-1}$ as
 \begin{equation}
-\rho_{A_4}(a) = C_3^{\mathsf{T}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0 \end{pmatrix}, \; \rho_{A_4}(b) = \mathrm{diag}(1,-1,-1)C_3^{\mathsf{T}},
+\label{eq:ad_chev}
+\mathrm{Ad}_{\mathrm{Chev}}(A) =
+\begin{pmatrix}
+a^2 & -2ab & -b^2 \\
+-ac & ad + bc & bd \\
+-c^2 & 2cd & d^2
+\end{pmatrix},
 \end{equation}
-together with $\pi_{D_5}(a): x \mapsto (-x)\bmod 5$ and $\pi_{D_5}(b): x \mapsto (1-x)\bmod 5$ for $x \in \{0,\dots,4\}$.
-With $\omega = e^{2\pi i/3}$, the first two primitive geodesic shells have exact complex half-lengths $\mathcal{L}_1/2 = \mathrm{arccosh}[(2+\omega)/2]$ ($\ell_1 = 1.087070$, $\theta_1 = 1.722768$, $\varepsilon_1 = 3.3039\times 10^{-3}$) and $\mathcal{L}_2/2 = \mathrm{arccosh}[(2+2\omega)/2]$ ($\ell_2 = 1.662886$, $\theta_2 = 2.392124$, $\varepsilon_2 = 4.2988\times 10^{-4}$), yielding shell ratio $r_{\mathrm{sh}} = \varepsilon_2/\varepsilon_1 = 0.130112$; higher primitive shells ($\ell_3 \ge 2.1741$) satisfy $\varepsilon_3/\varepsilon_1 \le 0.0228$, ensuring rapid exponential convergence of the two-shell truncation within Tier-1 precision.
+while the symmetric-square basis $(u^2, uv, v^2)$ of $\mathrm{Sym}^2(\mathbb{C}^2)$ gives
+\begin{equation}
+\label{eq:ad_sym2}
+\mathrm{Ad}_{\mathrm{Sym}^2}(A) =
+\begin{pmatrix}
+a^2 & ab & b^2 \\
+2ac & ad + bc & 2bd \\
+c^2 & cd & d^2
+\end{pmatrix},
+\end{equation}
+related identically by $\mathrm{Ad}_{\mathrm{Sym}^2}(A) = S_{\mathrm{basis}}\mathrm{Ad}_{\mathrm{Chev}}(A)S_{\mathrm{basis}}^{-1}$ with $S_{\mathrm{basis}} = \mathrm{diag}(-1, 2, 1)$.
 
-Writing $\zeta_5 = e^{2\pi i/5}$ and fixed sheets $x_{\mathrm{fix}} = (3, 0, 1, 0)$ across $\mathcal{S}_2 = \{(\mathrm{AAb}, +1), (\mathrm{Abb}, +1), (\mathrm{AABab}, -1), (\mathrm{ABaab}, -1)\}$, the Shell-1 and Shell-2 flavour matrices are
+Given a two-generator, one-relator presentation $\pi_1(M) = \langle x_1, x_2 \mid r \rangle$ of a one-cusp hyperbolic manifold $M$ (polished to $80$-digit precision via complex Newton-Raphson iteration on $r(A_1, A_2) = \pm I_2$ alongside parabolicity $\mathrm{Tr}\,\rho(\mu) = \pm 2$), choose $\phi: \pi_1(M) \to \mathbb{Z}$ with $k_j = \phi(x_j)$ not both zero and say $k_2 \ne 0$.
+Define the $3\times 3$ polynomial matrices $N(t) = \Phi(\partial r/\partial x_1)$ and $D(t) = I_3 - t^{k_2}\mathrm{Ad}(\rho(x_2))$.
+Because $\mathrm{Ad}(\rho(x_2)) \in \mathrm{SO}(3,\mathbb{C})$ has eigenvalues $\{1, \xi, \xi^{-1}\}$ ($\xi \ne 1$ for hyperbolic $x_2$), $\det D(1) = 0$ and $\det N(1) = 0$, while
 \begin{align}
-W_{s1} &= e^{i\theta_1/2}\zeta_5\,\rho_{A_4}(Ab) + e^{-i\theta_1/2}\zeta_5^4\,\rho_{A_4}(ABab), \nonumber\\
-Y_{s1} &= \zeta_5^2\,\rho_{A_4}(ABab), \nonumber\\
-C_{s2} &= \sum_{(w,s)\in\mathcal{S}_2} e^{is\theta_2/2}\zeta_5^{x_{\mathrm{fix}}(w)}\rho_{A_4}(w), \nonumber\\
-S_{2d} &= \sum_{(w,s)\in\mathcal{S}_2} e^{is\theta_2}\,\rho_{A_4}(w)|v_0\rangle\langle v_0|\rho_{A_4}(w)^\dagger.
+\label{eq:d_prime_1}
+\left.\frac{d}{dt}\det D(t)\right|_{t=1} &= -k_2(1 - \xi)(1 - \xi^{-1}) \nonumber\\
+&= -k_2\bigl[3 - \mathrm{Tr}\,\mathrm{Ad}(\rho(x_2))\bigr].
 \end{align}
-At collar localization mass $m_f = m_{\mathrm{bulk}}^{(dP_8)}(f)$ [Eq.~\eqref{eq:dp8_mass}], the boundary-overlap profiles on $[0, L_c^*]$ are $c_{\mathrm{UV}}(m) = \sqrt{4mL_c^*/(e^{4mL_c^*}-1)}$ ($c_{\mathrm{UV}}(0)=1$), $c_{\mathrm{IR}}(m) = c_{\mathrm{UV}}(-m)$, and $b_{\mathrm{cl}}(m) = \sqrt{\tanh(|m|L_c^*)/(|m|L_c^*)}$.
+Computing $\left.\frac{d}{dt}\det N(t)\right|_{t=1}$ via Jacobi's adjugate formula $\mathrm{Tr}[\mathrm{adj}(N(1))\,N'(1)]$ (or an $N_{\mathrm{pt}} = 16$ Cauchy contour integral around $|t - 1| = 10^{-15}$ at $80$-digit working precision) yields Wada's derivative $\Delta'_{\Phi}(1) = [\det N]'(1) / [\det D]'(1)$ and Porti's meridian-referenced torsion~\cite{Porti1997,DuboisYamaguchi2009}
+\begin{equation}
+\label{eq:tau_porti_explicit}
+\bigl|\tau_{\mathrm{Ad}}(M;\gamma)\bigr| = \frac{\bigl|\Delta'_{\Phi}(1)\bigr|}{|\phi(\gamma)|},
+\end{equation}
+for every primitive peripheral curve $\gamma \subset \partial M$ with $\phi(\gamma) \ne 0$.
 
-With canonical $\mathrm{Spin}(10) \supset \mathrm{SU}(5)\times\mathrm{U}(1)_X$ charge $q_X = (-1, -\frac{1}{5}, \frac{3}{5}, \frac{3}{5}, -\frac{1}{5}, -\frac{1}{5})$, hypercharge $y_f = (0, 1, -\frac{1}{2}, \frac{1}{3}, -\frac{2}{3}, \frac{1}{6})$, and frozen Phase-5 (\texttt{v1}) $\mathrm{Cl}(10)$ spinor-weight grading $w_n = (0, 3, 4.5, 7, 8, 10.5)/10.5$ across $(\nu_c, e_c, L, d_c, u_c, Q)$ at $g_Y = \sqrt{3/5}$, let $T_{1L} = w_n(f_L) W_{s1} + g_Y [y_f(f_L)+y_H] Y_{s1}$, $T_{1R} = \eta_{\mathrm{GJ}}(f_R,y_H)\{w_n(f_R) W_{s1} + g_Y [y_f(f_R)+y_H] Y_{s1}\}$ [where $\eta_{\mathrm{GJ}} = -\frac{3}{2}(B-L)(f_R)$ for $y_H < 0$ and $+1$ for $y_H > 0$], $q_{L,R} = [q_X(f_{L,R}) + \frac{1}{5}q_H] + g_Y [y_f(f_{L,R}) + \frac{1}{2}y_H]$ ($q_H = 2y_H$), $T_{2L,R} = q_{L,R} C_{s2}$, and $T_{L,R} = T_{1L,R} + T_{2L,R}$.
-Setting $w_{\mathrm{uv}} = c_{\mathrm{UV}}(m_{f_L})c_{\mathrm{UV}}(m_{f_R})$, $w_{\mathrm{lp}} = w_{\mathrm{uv}} + b_{\mathrm{cl}}(m_{f_L})b_{\mathrm{cl}}(m_{f_R})$, and $w_{\mathrm{ir}} = \frac{1}{5}c_{\mathrm{IR}}(m_{f_L})c_{\mathrm{IR}}(m_{f_R})$, the base $\mathrm{m004}$ Yukawa and Weinberg seesaw kernels are
-\begin{widetext}
+\section{Repaired Two-Loop Standard Model RGEs}
+\label{app:rge}
+
+With $\mathrm{SU}(5)$-normalized hypercharge $g_1 = \sqrt{5/3}\,g_Y$, $t = \ln\mu$, $H_f = Y_f Y_f^\dagger$ ($f \in \{u, d, e\}$), and $T = \mathrm{Tr}(3H_u + 3H_d + H_e)$, the complete two-loop $\overline{\mathrm{MS}}$ Standard Model Yukawa RGEs~\cite{MachacekVaughn1984,LuoXiao2003,Buttazzo2013} are $dY_f/dt = (16\pi^2)^{-1}\beta_{Y_f}^{(1)} + (16\pi^2)^{-2}\beta_{Y_f}^{(2)}$ with $\beta_{Y_u}^{(1)} = (\frac{3}{2}H_u - \frac{3}{2}H_d + T - \frac{17}{20}g_1^2 - \frac{9}{4}g_2^2 - 8g_3^2)Y_u$, $\beta_{Y_d}^{(1)} = (\frac{3}{2}H_d - \frac{3}{2}H_u + T - \frac{1}{4}g_1^2 - \frac{9}{4}g_2^2 - 8g_3^2)Y_d$, $\beta_{Y_e}^{(1)} = (\frac{3}{2}H_e + T - \frac{9}{4}g_1^2 - \frac{9}{4}g_2^2)Y_e$, and two-loop matrices
 \begin{align}
-Y_{\mathrm{m004}} &= w_{\mathrm{uv}}|v_0\rangle\langle v_0| + w_{\mathrm{lp}}\varepsilon_1\!\left[T_{1L}|v_0\rangle\langle v_0|T_{1R}^\dagger + \tfrac{1}{3}(T_{1L}|v_0\rangle\langle v_0| + |v_0\rangle\langle v_0|T_{1R}^\dagger)\right] + \varepsilon_2\!\left(w_{\mathrm{uv}}T_{2L}|v_0\rangle\langle v_0|T_{2R}^\dagger + w_{\mathrm{ir}}q_L q_R S_{2d}\right) \nonumber\\
-&\quad + w_{\mathrm{lp}}\varepsilon_1^2\!\left[T_L^2|v_0\rangle\langle v_0|(T_R^\dagger)^2 + \tfrac{1}{3}(T_L^2|v_0\rangle\langle v_0|T_R^\dagger + T_L|v_0\rangle\langle v_0|(T_R^\dagger)^2)\right], \\
-K_\nu &= K_{\mathrm{diag}} - \frac{r_{\mathrm{sh}}}{5}\sum_{(w,s)\in\mathcal{S}_2} e^{is\theta_2}\rho_{A_4}(w)K_{\mathrm{diag}}\rho_{A_4}(w)^{\mathsf{T}} + \frac{r_{\mathrm{sh}}}{2}\sum_{w\in\mathcal{S}_2^-} e^{-i\theta_2}\!\left[\rho_{A_4}(w)+\rho_{A_4}(w)^{\mathsf{T}}\right],
+\label{eq:beta_y_2loop}
+\beta_{Y_u}^{(2)} &= \biggl[\frac{3}{2}H_u^2 - H_u H_d - \frac{1}{4}H_d H_u + \frac{11}{4}H_d^2 \nonumber\\
+&\quad + T\Bigl(\frac{5}{4}H_d - \frac{9}{4}H_u\Bigr) - \frac{9}{4}T_2 + 6\lambda^2 - 12\lambda H_u \nonumber\\
+&\quad + \Bigl(\frac{223}{80}g_1^2 + \frac{135}{16}g_2^2 + 16g_3^2\Bigr)H_u \nonumber\\
+&\quad - \Bigl(\frac{43}{80}g_1^2 - \frac{9}{16}g_2^2 + 16g_3^2\Bigr)H_d + \frac{5}{2}T_g \nonumber\\
+&\quad + \frac{1187}{600}g_1^4 - \frac{9}{20}g_1^2 g_2^2 + \frac{19}{15}g_1^2 g_3^2 \nonumber\\
+&\quad - \frac{23}{4}g_2^4 + 9g_2^2 g_3^2 - 108g_3^4\biggr]Y_u, \nonumber\\[4pt]
+\beta_{Y_d}^{(2)} &= \biggl[\frac{3}{2}H_d^2 - H_d H_u - \frac{1}{4}H_u H_d + \frac{11}{4}H_u^2 \nonumber\\
+&\quad + T\Bigl(\frac{5}{4}H_u - \frac{9}{4}H_d\Bigr) - \frac{9}{4}T_2 + 6\lambda^2 - 12\lambda H_d \nonumber\\
+&\quad + \Bigl(\frac{187}{80}g_1^2 + \frac{135}{16}g_2^2 + 16g_3^2\Bigr)H_d \nonumber\\
+&\quad - \Bigl(\frac{79}{80}g_1^2 - \frac{9}{16}g_2^2 + 16g_3^2\Bigr)H_u + \frac{5}{2}T_g \nonumber\\
+&\quad - \frac{127}{600}g_1^4 - \frac{27}{20}g_1^2 g_2^2 + \frac{31}{15}g_1^2 g_3^2 \nonumber\\
+&\quad - \frac{23}{4}g_2^4 + 9g_2^2 g_3^2 - 108g_3^4\biggr]Y_d, \nonumber\\[4pt]
+\beta_{Y_e}^{(2)} &= \biggl[\frac{3}{2}H_e^2 - \frac{9}{4}T H_e - \frac{9}{4}T_2 + 6\lambda^2 - 12\lambda H_e \nonumber\\
+&\quad + \Bigl(\frac{387}{80}g_1^2 + \frac{135}{16}g_2^2\Bigr)H_e + \frac{5}{2}T_g \nonumber\\
+&\quad + \frac{1371}{200}g_1^4 + \frac{27}{20}g_1^2 g_2^2 - \frac{23}{4}g_2^4\biggr]Y_e,
 \end{align}
-\end{widetext}
-with $K_{\mathrm{diag}} = \mathrm{diag}(1, r_{\mathrm{sh}}, r_{\mathrm{sh}}^2)$, $\mathcal{S}_2^- = \{\mathrm{AABab}, \mathrm{ABaab}\}$, and $M_R^*/M_{\mathrm{KK}} = [b_{\mathrm{cl}}(m_{\nu_c})/c_{\mathrm{UV}}(m_{\nu_c})]^2$.
-On the parent Whitehead link $\mathrm{m129}$, lifting via the unique $A_4 \times D_5$ homomorphism matching $\rho_{A_4}(BcbC)=\rho_{A_4}(Ab)$, $\rho_{A_4}(Cb)=\rho_{A_4}(ABab)$, and $\pi_{D_5}(b)(0)=\pi_{D_5}(Abd)(0)=0$ on $(-3,1)\cong\mathrm{m004}$ yields the cusp-IR ($\ell \le 1.80$, $w_{\mathrm{eff}} = \frac{1}{5}c_{\mathrm{IR}}[T_{3R}(f_L)]c_{\mathrm{IR}}[T_{3R}(f_R)]$) Ford-conjugated overtone shifts $\Delta Y_{\mathrm{ov}}$, giving $Y_f^{\mathrm{weave}} = \mathcal{P}_f(Y_{\mathrm{m004},f} + \Delta Y_{\mathrm{ov},f})$ under $\mathcal{P}_u = \cdot(P_{v_0} + \frac{1}{2}P_\perp)$, $\mathcal{P}_{d,e} = \cos\theta_R$, and $\mathcal{P}_\nu = I_3$.
+where $T_2 = \mathrm{Tr}(3H_u^2 + 3H_d^2 + H_e^2 - H_u H_d)$ and $T_g = \mathrm{Tr}[(\frac{17}{20}g_1^2 + \frac{9}{4}g_2^2 + 8g_3^2)H_u + (\frac{1}{4}g_1^2 + \frac{9}{4}g_2^2 + 8g_3^2)H_d + (\frac{3}{4}g_1^2 + \frac{3}{4}g_2^2)H_e]$ (note zero $g_3^2 H_e$ term in $\beta_{Y_e}^{(2)}$ and explicit $+\frac{5}{4}T H_d Y_u$ and $+\frac{5}{4}T H_u Y_d$ terms).
 
-At $\mu = M_{\mathrm{KK}}$ [spanning Eq.~\eqref{eq:hierarchy_sum}], the initial $76$-component RGE state is fixed without free parameters by one-loop broken-generator orbifold Schwinger splittings $g_i^{-2}(M_{\mathrm{KK}}) = \alpha_{\mathrm{GUT,2\text{-}wall}}^{-1}/(4\pi) + \Delta_i$ [with $\alpha_{\mathrm{GUT,2\text{-}wall}}^{-1}$ from Eq.~\eqref{eq:agut_2wall}, $\Delta_i = r_i - r_3$, and $r_i = \frac{7}{32\pi^2}(t_i^{\mathrm{int}}\ln 2\pi + t_i^{\mathrm{half}}\ln 2)$ for $(t^{\mathrm{int}}, t^{\mathrm{half}}) = \{(0.8, 8.2), (6, 3), (5, 4)\}$], top gauge-Yukawa unification $Y_f(M_{\mathrm{KK}}) = [\bar{g}_{\mathrm{UV}}/\sigma_{\max}(Y_u^{\mathrm{weave}})]\,Y_f^{\mathrm{weave}}$ with $\bar{g}_{\mathrm{UV}} = \frac{1}{3}(g_1+g_2+g_3)|_{M_{\mathrm{KK}}}$, radiative Hosotani quartic $\lambda(M_{\mathrm{KK}}) = (\bar{g}_{\mathrm{UV}}^2/8)\,c_H^2/(0.04\,\alpha_{\mathrm{GUT,2\text{-}wall}}^{-1})$ ($c_H = 0.1272571765$), and $\kappa_\nu(M_{\mathrm{KK}}) = [\sigma_{\max}(Y_\nu(M_{\mathrm{KK}}))^2/M_R^*]\,K_\nu$.
-
-\section{Casimir Cusp-Cap Inflation, Affleck-Dine Portal, and Proton Decay}
-\label{app:cosmo}
-
-Minimizing Coleman's UV instanton potential $\sin(\theta + \theta_{\mathrm{m004}})(1 + \mathrm{Re}\,W_{\mathrm{ov}}) + \cos(\theta + \theta_{\mathrm{m004}})\,\mathrm{Im}\,W_{\mathrm{ov}} = 0$ at $W_{\mathrm{ov}} = -6.78\times 10^{-4} + 0.03816\,i$ and $\theta_{\mathrm{m004}} = 2.52255\,\mathrm{rad}$ against the IR minimum $\theta_{\mathrm{IR},\min} = -\theta_{\mathrm{weave}} = -2.51584\,\mathrm{rad}$ fixes $\theta_{\mathrm{mis},0} = |\theta_{\mathrm{UV},\min} - \theta_{\mathrm{IR},\min}| = 0.04487\,\mathrm{rad}$.
-The five-sheeted Casimir energy density coefficient on $M^{(5)}$ is $C_{\mathrm{Cas}} = \frac{4\pi^2}{15(2\pi)^3}\mathrm{Vol}(M^{(5)}) = 0.10769$, giving $V_{\mathrm{Cas}}(R_0) = C_{\mathrm{Cas}} M_{\mathrm{KK}}^4$, canonical radion mass $m_{\mathrm{rad}} = \sqrt{\frac{14}{15}C_{\mathrm{Cas}}}\,M_{\mathrm{KK}}^2/M_{\mathrm{Pl,red}} = 6.34\times 10^{10}\,\mathrm{GeV}$, and radion reheating temperature $T_{\mathrm{reh,rad}} = [90/(\pi^2 g_*)]^{1/4}\sqrt{m_{\mathrm{rad}}^3/(8\pi M_{\mathrm{Pl,red}})} = 1.10\times 10^6\,\mathrm{GeV}$ ($g_* = 106.75$).
-On the UV self-dual cusp-cap plateau (\texttt{Branch 1B-SD}, $R_{\mathrm{sd}} = M_7^{-1}$) with canonical potential $V(\chi) = V_{\mathrm{Cas}}(R_0)(1 - e^{-\chi/M_7})^2$, Liddle-Leach reheating matching $N_* = 61.55 + \frac{1}{4}\ln[V_*^2/(9 V_{\mathrm{end}} M_{\mathrm{Pl,red}}^4)] + \frac{1}{3}\ln(T_{\mathrm{reh,rad}}/V_{\mathrm{end}}^{1/4}) = 46.505$ fixes $H_I/M_{\mathrm{Pl,red}} = 1.556\times 10^{-8}$ and uncorrelated axion isocurvature power $\mathcal{P}_{\mathrm{iso}} = [(2/\theta_{\mathrm{mis},0})H_I/(2\pi f_a^{(M^5)}(R_{\mathrm{sd}}))]^2 = 6.04\times 10^{-12}$ [rescaling Eq.~\eqref{eq:fa_m5}], so $\beta_{\mathrm{iso}} = \mathcal{P}_{\mathrm{iso}}/(\mathcal{P}_{\mathrm{iso}} + A_s^{\mathrm{obs}}) = 0.00287$.
-Integrating the two-field cylindrical K\"{a}hler condensate driven by $W_{\mathrm{ov}}$ yields condensate ratio $Y_\Phi = \frac{3}{4}(T_{\mathrm{reh,rad}} M_{\mathrm{Pl,red}}^2 / M_7^2)(|n_\theta|/\rho_{\mathrm{tot}})$ and sphaleron-converted three-family baryon asymmetry $\eta_B = N_{\mathrm{gen}}\cdot 7.04\,\frac{28}{79}\,\mathrm{CS}(\mathrm{m129})\,Y_\Phi = 7.992\times 10^{-10}$.
-
-For proton decay via $p \to e^+\pi^0$, orthogonal $\mathrm{SU}(4)$ harmonic assignment inside $(\mathbf{16}, \mathbf{4})$ eliminates tree-level $M_{\mathrm{KK}}$ $(X, Y)$ exchange, leaving the ultraviolet $M_7 = 2L_c^* M_{\mathrm{KK}}$ Wilson coefficient $C_6 = g_{\mathrm{GUT}}^2/(2 M_7^2)$ and partial width
-\begin{equation}
-\Gamma(p \to e^+\pi^0) = \frac{m_p}{32\pi}\!\left(1 - \frac{m_{\pi^0}^2}{m_p^2}\right)^{\!2} A_R^2 |W_0|^2 \cdot 5\,C_6^2,
-\end{equation}
-which at lattice matrix element $W_0 = -0.112\,\mathrm{GeV}^2$~\cite{Yoo2022RBC} and short-distance enhancement $A_R = 2.5$ gives $\tau(p\to e^+\pi^0) = 2.12\times 10^{35}\,\mathrm{yr}$.
-
-\section{One-Loop Hyperbolic \texorpdfstring{$\mathbb{H}^3$}{H3} Propagator Exactness and \texorpdfstring{$60$}{60}-Digit Porti Torsion}
-\label{app:selberg}
-
-On hyperbolic $d$-space $\mathbb{H}^d$ of sectional curvature $-1$, substituting $G(r) = (\sinh r)^{-(d-1)/2} u(r)$ into $[-\Delta_{\mathbb{H}^d} + \lambda^2 - \frac{(d-1)^2}{4}] G(r) = 0$ yields
-\begin{equation}
-\left[-\frac{d^2}{dr^2} + \frac{(d-1)(d-3)}{4\sinh^2 r} + \lambda^2\right] u(r) = 0.
-\end{equation}
-Uniquely for $d \in \{1, 3\}$, the centrifugal curvature term $\frac{(d-1)(d-3)}{4\sinh^2 r}$ vanishes identically, making $G_{\mathbb{H}^3}(r) = e^{-\lambda r}/(4\pi\sinh r)$ and $\varepsilon(\gamma) = e^{-\lambda_1 \ell_\gamma}/(2\pi |2\sinh(\mathcal{L}_\gamma/2)|)$ exact to all orders in $1/\ell_\gamma$.
-
-\begin{table*}[t]
-\caption{Sixty-digit Wada-Dubois-Yamaguchi-Porti adjoint torsion $|\tau_{\mathrm{Ad}}(M_{p,q};\mu)|$, $\mathrm{SL}(2,\mathbb{Z})$-invariant cusp torsion $I_{\mathrm{Porti}}$, Chern-Simons invariant $\mathrm{CS}$ ($|\mathrm{Isom}^+|=4$ across all nine manifolds), and four-branch one-loop $M^{(5)}$ surgery shootout.}
-\label{tab:shootout}
-\begin{ruledtabular}
-\begin{tabular}{lccccc}
-Manifold / Branch & $\mathrm{Vol}$ / $\Omega_a h^2$ & $\mathrm{CS}$ / $\theta_{\mathrm{mis},0}$ & $|\tau_{\mathrm{Ad}}(\mu)|$ / $\beta_{\mathrm{iso}}$ & $I_{\mathrm{Porti}}$ / \texttt{T1/T2/B/M} & Verdict \\
-\hline
-$\mathrm{m004} \cong \mathrm{m129}(-3,1)$ & $2.02988$ & $0$ & $3.4641016$ & $6.4474196$ & $2\sqrt{3}$ ($1.2\times 10^{-46}$) \\
-$\mathrm{m129}(1,3)$ & $3.14851$ & $-0.03781$ & $12.910480$ & $17.376541$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-51}$ \\
-$\mathrm{m129}(7,1)$ & $3.29690$ & $+0.19153$ & $62.327756$ & $83.843003$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-48}$ \\
-$\mathrm{m129}(11,3)$ & $3.53761$ & $-0.19659$ & $22.113248$ & $30.451345$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-50}$ \\
-$\mathrm{m129}(-13,1)$ & $3.55064$ & $+0.08740$ & $336.10278$ & $478.87044$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-45}$ \\
-$\mathrm{m129}(-1,7)$ & $3.56445$ & $+0.19608$ & $107.93308$ & $153.06812$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-47}$ \\
-$\mathrm{m129}(9,7)$ & $3.59233$ & $-0.15841$ & $24.710536$ & $34.380206$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-49}$ \\
-$\mathrm{m129}(17,1)$ & $3.59683$ & $+0.15402$ & $739.48098$ & $1041.5531$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-45}$ \\
-$\mathrm{m129}(-11,7)$ & $3.60130$ & $-0.23461$ & $40.998593$ & $58.870781$ & $|\Delta_{\mathrm{Ad}}(1)| < 10^{-33}$ \\
-\hline
-\texttt{11A}: 11D SUSY ($Z_{\mathrm{1\text{-}loop}}=1$) & $0.1686$ (T1) & $0.04487\,\mathrm{rad}$ & $0.00287$ & $26 / 6 / 4 / 0$ & Canonical zero-miss \\
-\texttt{11B}: GMY graviton ($M^{(5)}$) & $0.2055$ (T2) & $0.04955\,\mathrm{rad}$ & $0.00235$ & $25 / 7 / 4 / 0$ & Non-SUSY bound \\
-\texttt{11C}: Bulk SS ($M^{(5)}$) & $0.1024$ (T1) & $0.03497\,\mathrm{rad}$ & $0.00471$ & $26 / 5 / 4 / 1$ & $1$ Miss ($|J_q|$) \\
-\texttt{11D}: 3D CS $(I_{\mathrm{Porti}}/I_0)^{-1/2}$ & $1.03\times 10^{-4}$ & $0.00111\,\mathrm{rad}$ & $0.8254$ & $25 / 5 / 3 / 3$ & Falsified (CMB) \\
-\end{tabular}
-\end{ruledtabular}
-\end{table*}
-
-For any one-cusp hyperbolic three-manifold $M$ with deficiency-one presentation $\langle g_1,\dots,g_n \mid r_1,\dots,r_{n-1}\rangle$ and free abelianization $\phi : \pi_1(M) \twoheadrightarrow \mathbb{Z}$, twisting $\mathrm{Ad}(\rho) : \pi_1(M) \to \mathrm{SL}(3,\mathbb{C})$ by $\rho_t(g_j) = t^{\phi(g_j)}\mathrm{Ad}(\rho(g_j))$ defines Wada's invariant $\Delta_{\mathrm{Ad}}(t) = \det D_{\hat{k}}(t)/\det[\rho_t(g_k) - I_3]$~\cite{Wada1994,DuboisYamaguchi2009}.
-On $\mathrm{m004}$, $\Delta_{\mathrm{Ad}}(t) = -t^{-3}(t-1)(t^2-5t+1)$ gives $|\Delta'_{\mathrm{Ad}}(1)| = 3$, Porti meridian torsion $|\tau_{\mathrm{Ad}}(M;\mu)| = 4|\Delta'_{\mathrm{Ad}}(1)|/(g_{\mu\lambda}|a_\mu + a_\lambda\tau_{\mathrm{cusp}}|) = 2\sqrt{3}$~\cite{Porti1997}, and $\mathrm{SL}(2,\mathbb{Z})$-invariant cusp torsion $I_{\mathrm{Porti}}(M) = |\tau_{\mathrm{Ad}}(M;\mu)|\sqrt{|\mathrm{Im}\,\tau_{\mathrm{cusp}}|} = (2\sqrt{3})^{3/2} = 6.44742 \equiv I_0$.
-In Table~\ref{tab:shootout}, the four zero-parameter $M_{p,q}^{(5)}$ one-loop weights entering Eq.~\eqref{eq:w_ov} are $Z_{\mathrm{1\text{-}loop}}^{(11\mathrm{A})} = 1$ (11D SUSY), $Z_{\mathrm{1\text{-}loop}}^{(11\mathrm{B})} = Z_{\mathrm{GMY}}(M_{p,q}^{(5)})/Z_{\mathrm{GMY}}(M^{(5)})$ with $Z_{\mathrm{GMY}} = \prod_{\tilde{\gamma}}\prod_{n=2}^\infty |1 - q_{\tilde{\gamma}}^n|^{-1}$ ($q_{\tilde{\gamma}} = e^{-\mathcal{L}_{\tilde{\gamma}}}$)~\cite{GiombiMaloneyYin2008}, $Z_{\mathrm{1\text{-}loop}}^{(11\mathrm{C})} = Z_{\mathrm{SS}}(M_{p,q}^{(5)})/Z_{\mathrm{SS}}(M^{(5)})$ with $Z_{\mathrm{SS}} = \prod_{\tilde{\gamma}}\prod_{n=1}^\infty |1 - s_{\tilde{\gamma}} q_{\tilde{\gamma}}^n|/|1 - q_{\tilde{\gamma}}^n|$, and $Z_{\mathrm{1\text{-}loop}}^{(11\mathrm{D})} = [I_{\mathrm{Porti}}(M_{p,q})/I_0]^{-1/2}$.
-
-\section{Complete 36-Observable Zero-Input Ledger}
-\label{app:full_ledger}
-
-Table~\ref{tab:full36} lists all $36$ dimensionless observables and bounds evaluated at the zero-continuous-input fixed point (\texttt{Branch 11A} / \texttt{v12\_dP8\_ps}), with empirical quark and charged-lepton mass ratios evaluated in $\overline{\mathrm{MS}}$ at $\mu = M_Z$~\cite{XingZhangZhou2008}; the three algebraically dependent cross-checks excluded from $N_{\mathrm{indep}} = 29$ in Sec.~\ref{sec:limitations} are marked with~$^\dagger$.
-
-\begin{table*}[t]
-\caption{Complete $36$-observable zero-continuous-input ledger ($26$ Tier-1 hits, $6$ Tier-2 hits, $4$ bound passes, $0$ misses; $^\dagger$derived cross-check; $^\ddagger\Delta\ln/\ln 10 = \log_{10}[(M_{\mathrm{Pl,red}}/M_Z)_{\mathrm{pred}}/(M_{\mathrm{Pl,red}}/M_Z)_{\mathrm{obs}}]$).}
-\label{tab:full36}
-\begin{ruledtabular}
-\begin{tabular}{lccclccc}
-Observable (1--18) & Pred. & Obs. & $\log_{10}$ (Tier) & Observable (19--36) & Pred. & Obs.\ / Bound & $\log_{10}$ (Tier) \\
-\hline
-$\sin^2\theta_W(M_Z)$ & $0.2170$ & $0.2312$ & $-0.027$ (T1) & $\sin^2\theta_{12}$ & $0.3123$ & $0.3070$ & $+0.007$ (T1) \\
-$M_W / v_{\mathrm{EW}}$ & $0.3361$ & $0.3264$ & $+0.013$ (T1) & $\sin^2\theta_{23}$ & $0.5925$ & $0.5460$ & $+0.035$ (T1) \\
-$M_Z / v_{\mathrm{EW}}\,^\dagger$ & $0.3798$ & $0.3704$ & $+0.011$ (T1) & $\sin^2\theta_{13}$ & $0.0301$ & $0.0220$ & $+0.135$ (T1) \\
-$m_H / v_{\mathrm{EW}}$ & $0.6742$ & $0.5087$ & $+0.122$ (T1) & $|J_{\mathrm{lep}}|$ (vs.\ $J_{\max}$) & $0.0112$ & $0.0330$ & $-0.469$ (T2) \\
-$m_H / M_W\,^\dagger$ & $2.0058$ & $1.5584$ & $+0.110$ (T1) & $\Delta m_{21}^2 / \Delta m_{31}^2$ & $0.0239$ & $0.0295$ & $-0.091$ (T1) \\
-$m_t / v_{\mathrm{EW}}$ & $0.7510$ & $0.6973$ & $+0.032$ (T1) & $m_{\nu_3} / v_{\mathrm{EW}}$ ($10^{-13}$) & $1.524$ & $2.035$ & $-0.126$ (T1) \\
-$m_t / m_b$ & $50.67$ & $59.41$ & $-0.069$ (T1) & $\alpha_{\mathrm{EM}}^{-1}(M_Z)$ & $128.14$ & $127.95$ & $+0.001$ (T1) \\
-$m_b / m_\tau$ & $2.071$ & $1.655$ & $+0.097$ (T1) & $\alpha_s(M_Z)$ & $0.1135$ & $0.1179$ & $-0.016$ (T1) \\
-$m_c / m_t$ ($10^{-3}$) & $3.875$ & $3.605$ & $+0.031$ (T1) & $v_{\mathrm{EW}}/M_{\mathrm{Pl,red}}$ ($10^{-16}$) & $1.166$ & $1.011$ & $+0.062$ (T1) \\
-$m_u / m_c$ ($10^{-3}$) & $2.194$ & $2.052$ & $+0.029$ (T1) & $\ln(M_{\mathrm{Pl,red}}/M_Z)\,^{\dagger\ddagger}$ & $37.66$ & $37.82$ & $-0.073$ (T1) \\
-$m_s / m_b$ ($10^{-2}$) & $3.094$ & $1.903$ & $+0.211$ (T2) & $10^9 A_s$ & $2.622$ & $2.100$ & $+0.096$ (T1) \\
-$m_d / m_s$ ($10^{-2}$) & $4.584$ & $5.273$ & $-0.061$ (T1) & $n_s$ & $0.9560$ & $0.9649$ & $-0.004$ (T1) \\
-$m_\mu / m_\tau$ ($10^{-2}$) & $2.785$ & $5.882$ & $-0.325$ (T2) & $10^{10}\eta_B$ & $7.992$ & $6.120$ & $+0.116$ (T1) \\
-$m_e / m_\mu$ ($10^{-3}$) & $5.888$ & $4.737$ & $+0.094$ (T1) & $\Omega_a h^2$ & $0.1686$ & $0.1200$ & $+0.148$ (T1) \\
-$|V_{us}|$ & $0.2820$ & $0.2250$ & $+0.098$ (T1) & $r$ (tensor-to-scalar) & $1.9\times 10^{-8}$ & $< 0.036$ & Bound PASS \\
-$|V_{cb}|$ ($10^{-2}$) & $2.185$ & $4.182$ & $-0.282$ (T2) & $\beta_{\mathrm{iso}}^{(1\mathrm{B\text{-}SD})}$ & $0.00287$ & $< 0.038$ & Bound PASS \\
-$|V_{ub}|$ ($10^{-3}$) & $7.064$ & $3.732$ & $+0.277$ (T2) & $|\bar{\theta}_{\mathrm{QCD}}|$ & $< 10^{-35}$ & $< 10^{-10}$ & Bound PASS \\
-$|J_q|$ ($10^{-5}$) & $1.054$ & $3.120$ & $-0.471$ (T2) & $\log_{10}(\Delta\Lambda_{\mathrm{BP}}/|V_{\mathrm{bulk}}|)$ & $-192.4$ & $\le -105$ & Bound PASS \\
-\end{tabular}
-\end{ruledtabular}
-\end{table*}
+For $V(H) = \lambda (H^\dagger H)^2$, the complete two-loop Higgs quartic beta function $\beta_\lambda^{(2)}$~\cite{LuoXiao2003,Buttazzo2013} is
+\begin{align}
+\label{eq:beta_lam_2loop}
+\beta_\lambda^{(2)} &= -312\lambda^3 + \frac{108}{5}\lambda^2(g_1^2 + 5g_2^2) - 144\lambda^2 T \nonumber\\
+&\quad + \lambda\Bigl(\frac{1887}{200}g_1^4 + \frac{117}{20}g_1^2 g_2^2 - \frac{73}{8}g_2^4\Bigr) \nonumber\\
+&\quad - 3\lambda\,\mathrm{Tr}(3H_u^2 + 3H_d^2 + H_e^2) + 42\lambda\,\mathrm{Tr}(H_u H_d) \nonumber\\
+&\quad + 80\lambda g_3^2\,\mathrm{Tr}(H_u + H_d) + \frac{9}{2}\lambda g_2^2 T \nonumber\\
+&\quad + \frac{1}{10}\lambda g_1^2\,\mathrm{Tr}(85H_u + 25H_d + 75H_e) \nonumber\\
+&\quad - \frac{3411}{2000}g_1^6 - \frac{1677}{400}g_1^4 g_2^2 - \frac{289}{80}g_1^2 g_2^4 + \frac{305}{16}g_2^6 \nonumber\\
+&\quad - \frac{3}{5}g_1^4\,\mathrm{Tr}\Bigl(\frac{57}{10}H_u - \frac{21}{10}H_d + \frac{15}{2}H_e\Bigr) \nonumber\\
+&\quad + \frac{3}{10}g_1^2 g_2^2\,\mathrm{Tr}(21H_u + 9H_d + 11H_e) - \frac{3}{4}g_2^4 T \nonumber\\
+&\quad - 4g_1^2\,\mathrm{Tr}\Bigl(\frac{4}{5}H_u^2 - \frac{2}{5}H_d^2 + \frac{6}{5}H_e^2\Bigr) \nonumber\\
+&\quad - 32g_3^2\,\mathrm{Tr}(H_u^2 + H_d^2) + 10\,\mathrm{Tr}(3H_u^3 + 3H_d^3 + H_e^3) \nonumber\\
+&\quad - 6\,\mathrm{Tr}[H_u H_d(H_u + H_d)],
+\end{align}
+which evaluates on the rational test state $(g_1, g_2, g_3, \lambda) = (1/2, 3/5, 1, 1/8)$, $Y_u = \mathrm{diag}(1/50, 1/10, 9/10)$, $Y_d = \mathrm{diag}(1/200, 1/50, 1/20)$, $Y_e = \mathrm{diag}(1/500, 1/100, 1/20)$ to the exact rational number $\beta_\lambda^{(2)} = 16315337 / 800000 = 20.39417125$.
 
 \bibliographystyle{apsrev4-2}
 \bibliography{references}

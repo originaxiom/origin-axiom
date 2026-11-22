@@ -1,19 +1,20 @@
-# Self-Consistent Geometric Loop — Preprint Manuscript (`REVTeX 4.2`)
+# Hyperbolic Whitehead Dehn-Surgery Compactifications — Remediated Data-Free Manuscript (`REVTeX 4.2`)
 
-Complete referee-audited `REVTeX 4.2` (`APS PRD` primary, `1`-word toggle to `APS PRX`) 10-page manuscript, self-contained Technical Appendices (`A–D`), and vector figure suite synthesizing Phases 1–11 (`26` Tier-1 + `6` Tier-2 + `4` Bounds = `36` of `36` at `0` continuous fitted or calibrated parameters, `165` of `165` zero-import planted-fault controls).
+Complete data-free (`0 of 19`), `60`-digit verified `REVTeX 4.2` (*Physical Review D* Regular Article) manuscript, self-contained Technical Appendices (`A–B`), and vector figure suite (`fig5`, `fig6`, `fig7`) remediating all findings of peer audit `AGY002_PEER_AUDIT_AGY_EXP_45FE6E401` (`Card X-REM12`, sealed raw output `relays/x_rem12_verify/verify_x_rem12_out.json`).
+
+All phenomenological `36`-observable scorecard claims from earlier exploratory drafts are formally retracted in view of the five structural consistency obstructions established in Section VI (`Table III`), while the exact pure-mathematical and quantum-field-theoretic theorems are proved and triple-verified cleanly.
 
 ## Files
 
-- `self_consistent_loop/manuscript/main.tex` — `REVTeX 4.2` manuscript (`Introduction`, `Geometric Framework`, `Computational and Audit Methods`, `Results`, `One-Loop Hyperbolic Audit and Experimental Falsifiability`, `Theoretical Scope, Threshold Uncertainties, and Discrete-Selection Audit`, `Conclusions`, `Data Availability`, and `Appendices A–D`).
-- `self_consistent_loop/manuscript/main.pdf` — Compiled 10-page two-column PDF (`0` overfull boxes, `0` unresolved citations).
-- `self_consistent_loop/manuscript/references.bib` — Publisher-verified primary literature bibliography (`28` foundational references).
-- `self_consistent_loop/manuscript/review-2026-11-21.md` — Structured `review-paper` audit (`Guidelines 1–9`) and Phase-4 applied changelog.
-- `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md` — Turnkey `arXiv` (`hep-ph`) metadata, pre-flight checklist, and APS *Physical Review D* cover letter.
-- `self_consistent_loop/manuscript/build_prd_arxiv_bundle.py` — Deterministic packager & standalone `AutoTeX` (`pdflatex`-only) verifier producing the `main.tex` + `main.bbl` + `figures/*.pdf` upload tarball.
-- `self_consistent_loop/manuscript/figures/fig1_progression_and_36_scorecard.pdf` — Campaign progression & `32`-ratio zero-input scorecard.
-- `self_consistent_loop/manuscript/figures/fig2_zero_input_unification_and_hierarchy.pdf` — `2`-loop zero-input gauge running & $M^{(5)}$ scale hierarchy.
-- `self_consistent_loop/manuscript/figures/fig3_isocurvature_and_cy4_tadpole.pdf` — Axion isocurvature shootout & $\mathbb{P}^1 \times dP_r$ M2-tadpole step.
-- `self_consistent_loop/manuscript/figures/fig4_falsifiability_landscape.pdf` — $0\nu\beta\beta$ ($m_{\beta\beta}$ vs. $m_{\mathrm{lightest}}$) & DMRadio-GUT axion ($|g_{a\gamma\gamma}|$ vs. $m_a$) targets.
+- `self_consistent_loop/manuscript/main.tex` — `REVTeX 4.2` data-free manuscript (`Introduction`, `Adjoint Reidemeister Torsions and Modular Cusp Invariants`, `Degree-5 Cover Classification and Multi-Sheet Axion Scaling`, `Hyperbolic Propagators, Selberg Return Factors, and Critical-Exponent Divergence`, `Weierstrass Fourfold Signature Splitting and Self-Dual Flux Lattices`, `Effective-Action Obstructions and Repaired Two-Loop RGEs`, `Conclusions`, `Data Availability`, and `Appendices A–B`).
+- `self_consistent_loop/manuscript/main.pdf` — Compiled two-column PDF (`0` overfull boxes, `0` BibTeX warnings, `0` unresolved citations).
+- `self_consistent_loop/manuscript/references.bib` — Primary literature bibliography (`21` foundational references, APS `apsrev4-2` clean).
+- `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md` — Turnkey `arXiv` (`hep-th` / `math-ph`) metadata, pre-flight checklist, and APS *Physical Review D* cover letter.
+- `self_consistent_loop/manuscript/build_prd_arxiv_bundle.py` — Deterministic packager & standalone `AutoTeX` (`pdflatex`-only) verifier producing the `main.tex` + `main.bbl` + `figures/fig5..7.pdf` upload tarball.
+- `self_consistent_loop/manuscript/figures/fig5_porti_torsions_and_covers.pdf` — `60`-digit Porti adjoint torsions across all `9` `m129(p, q)` surgeries & degree-`5` cover classification of `m004`.
+- `self_consistent_loop/manuscript/figures/fig6_h3_green_and_zss_divergence.pdf` — Exact $d=3$ radial $\mathbb{H}^3$ Green function vs. Selberg return factor & $n=1$ Scherk-Schwarz Euler-product non-convergence at $\delta(\Gamma) = 2$.
+- `self_consistent_loop/manuscript/figures/fig7_cy4_signature_and_bp.pdf` — Hirzebruch signature splitting $(b_4^+, b_4^-)$ & self-dual $H^4_+$ Bousso-Polchinski flux spacing across $X_r \to \mathbb{P}^1 \times \mathrm{dP}_r$ ($r = 0,\dots,9$).
+- *(Historical figures `self_consistent_loop/manuscript/figures/fig1..4.pdf` and `self_consistent_loop/manuscript/review-2026-11-21.md` are retained unmoved in place per `origin/main:WORKING_RULES.md` Rule 9.)*
 
 ## Compiling to PDF
 
@@ -23,13 +24,3 @@ bibtex main
 pdflatex main.tex
 pdflatex main.tex
 ```
-
-## Optional APS `PRX` Popular Summary (`208` Words, $\le 250$-Word Limit)
-
-If submitting to *Physical Review X* (by changing `prd` to `prx` on line 1 of `self_consistent_loop/manuscript/main.tex`), include the following non-technical Popular Summary in the APS submission portal:
-
-> Particle physics and modern cosmology rely on roughly two dozen measured constants—governing force strengths, quark and lepton masses, neutrino mixing, dark matter, cosmic inflation, and the survival of matter over antimatter—whose numerical values are inserted from experiment rather than calculated from geometry. Attempts to unify these constants using extra spatial dimensions typically introduce flexible hidden shapes ("moduli") whose unknown sizes replace old free parameters with new ones.
->
-> In three spatial dimensions, however, hyperbolic spaces around knots obey Mostow rigidity: their volumes, throat lengths, and closed-loop spectra are fixed mathematical constants that cannot flex continuously. Here we evaluate an eleven-dimensional geometric framework combining the five-sheeted cover of the minimal-volume figure-eight knot complement, its eight chiral Whitehead-link Dehn-surgery overtones, and an elliptic Calabi–Yau fourfold over a del Pezzo surface, audited under a strict code firewall containing zero experimental input numbers.
->
-> Across 36 dimensionless particle and cosmological observables and bounds, the zero-parameter equations place 26 quantities within 41% of observation, place 6 renormalization-invariant flavour ratios within a factor of three, and pass all primordial radiation bounds while showing that satellite cosmic microwave background limits rule out purely topological three-dimensional gravity. Ten concrete predictions—led by normal neutrino ordering, a 5.55-MHz dark-matter axion, and a $2.1\times 10^{35}$-year proton lifetime—offer decisive experimental tests over the coming decade.

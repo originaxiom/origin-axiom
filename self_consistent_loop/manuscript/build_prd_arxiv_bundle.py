@@ -22,10 +22,9 @@ import tempfile
 MANUSCRIPT_DIR = Path(__file__).resolve().parent
 
 FIG_PDFS = (
-    "figures/fig1_progression_and_36_scorecard.pdf",
-    "figures/fig2_zero_input_unification_and_hierarchy.pdf",
-    "figures/fig3_isocurvature_and_cy4_tadpole.pdf",
-    "figures/fig4_falsifiability_landscape.pdf",
+    "figures/fig5_porti_torsions_and_covers.pdf",
+    "figures/fig6_h3_green_and_zss_divergence.pdf",
+    "figures/fig7_cy4_signature_and_bp.pdf",
 )
 
 
