@@ -1785,7 +1785,7 @@ def build_weyl_clifford_sympy() -> dict[str, Any]:
     k2_vec = [E, -E * sp.sin(th), 0, -E * sp.cos(th)]
 
     def slash(vec) -> sp.Matrix:
-        return sum(eta[mu] * vec[mu] * gam[mu] for mu in range(4))
+        return sum((eta[mu] * vec[mu] * gam[mu] for mu in range(4)), sp.zeros(4, 4))
 
     sl_p1 = slash(p1_vec)
     sl_p2 = slash(p2_vec)
@@ -1797,9 +1797,9 @@ def build_weyl_clifford_sympy() -> dict[str, Any]:
     tr_vec = sp.Integer(0)
     for mu in range(4):
         for nu in range(4):
-            R_mn = sp.trace(sl_k1 * gam[mu] * PL * sl_k2 * gam[nu] * PL)
-            L_ax = sp.trace((sl_p1 + m * I4) * gam[mu] * g5 * (sl_p2 - m * I4) * gam[nu] * g5)
-            L_vc = sp.trace((sl_p1 + m * I4) * gam[mu] * (sl_p2 - m * I4) * gam[nu])
+            R_mn = (sl_k1 * gam[mu] * PL * sl_k2 * gam[nu] * PL).trace()
+            L_ax = ((sl_p1 + m * I4) * gam[mu] * g5 * (sl_p2 - m * I4) * gam[nu] * g5).trace()
+            L_vc = ((sl_p1 + m * I4) * gam[mu] * (sl_p2 - m * I4) * gam[nu]).trace()
             tr_ax += eta[mu] * eta[nu] * L_ax * R_mn
             tr_vec += eta[mu] * eta[nu] * L_vc * R_mn
 
