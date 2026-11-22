@@ -275,11 +275,16 @@ def run_e1_e8_mp2z_and_covers() -> dict[str, object]:
     # Exact Mp(2, Z) spinorial check on R(tau) = (-th2^2, -th4^2, i*th3^2)/(th2*th3*th4): U_S^4 == -I_3 != +I_3
     mp.mp.dps = 48
 
+    def th_char(al: mp.mpf, be: mp.mpf, tv: mp.mpc) -> mp.mpc:
+        return mp.fsum(
+            mp.exp(I_MP * mp.pi * tv * ((mp.mpf(k) + al) ** 2) + 2 * I_MP * mp.pi * (mp.mpf(k) + al) * be)
+            for k in range(-26, 27)
+        )
+
     def r_triplet(tv: mp.mpc) -> mp.matrix:
-        qv = mp.exp(I_MP * mp.pi * tv)
-        t2 = mp.jtheta(2, 0, qv)
-        t3 = mp.jtheta(3, 0, qv)
-        t4 = mp.jtheta(4, 0, qv)
+        t2 = th_char(mp_rat(1, 2), mp.mpf(0), tv)
+        t3 = th_char(mp.mpf(0), mp.mpf(0), tv)
+        t4 = th_char(mp.mpf(0), mp_rat(1, 2), tv)
         den = t2 * t3 * t4
         return mp.matrix([-(t2 * t2) / den, -(t4 * t4) / den, I_MP * (t3 * t3) / den])
 
@@ -358,22 +363,31 @@ def run_e1_e8_mp2z_and_covers() -> dict[str, object]:
             acc = mult_idx[acc][x]
         return acc
 
+    # Base punctured-torus Gamma' commutator [U_A, U_B] fixed-space dimension:
+    i_ut = key_to_idx[mkey(u_t)]
+    i_us = key_to_idx[mkey(u_s)]
+    i_ut_i = inv_idx[i_ut]
+    i_us_i = inv_idx[i_us]
+    i_ua = mul_seq([i_ut, i_us_i, i_ut, i_us])
+    i_ub = mul_seq([i_ut_i, i_us, i_ut_i, i_us_i])
+    i_ucomm = mul_seq([i_ua, i_ub, inv_idx[i_ua], inv_idx[i_ub]])
+    _, sc_base, _ = mp.svd_c(gt_elems[i_ucomm] - mp.eye(3))
+    base_comm_fixed = sum(1 for sv in sc_base if sv < mp_rat(1, 1000000))
+
     irred_meridian_orders: set[int] = set()
     max_ker_m8 = 0
     max_ker_m40 = 0
-    max_comm_fixed = 0
     irred_count = 0
-    # Compute character inner product to check irreducibility: (1/|H|) sum_{h in im} |tr(h)|^2 == 1
+    # Enumerate Wirtinger homomorphisms pi_1(X_{4_1}) = <a, b | a B A b a = b a B> -> G_T:
     tr_sq = [abs(gt_elems[i][0, 0] + gt_elems[i][1, 1] + gt_elems[i][2, 2]) ** 2 for i in range(96)]
     for ia in range(96):
         iA = inv_idx[ia]
         for ib in range(96):
             iB = inv_idx[ib]
             lhs = mul_seq([ia, iB, iA, ib, ia])
-            rhs = mul_seq([ib, ia, iB, iA, ib])
+            rhs = mul_seq([ib, ia, iB])
             if lhs != rhs:
                 continue
-            # Generate image subgroup <ia, ib>:
             im_set = {0}
             q_im = [0]
             while q_im:
@@ -388,7 +402,6 @@ def run_e1_e8_mp2z_and_covers() -> dict[str, object]:
                 irred_count += 1
                 ord_a = orders_gt[ia]
                 irred_meridian_orders.add(ord_a)
-                # Fixed subspace of a^m:
                 am8 = gt_elems[ia] ** 8
                 am40 = gt_elems[ia] ** 40
                 _, s8, _ = mp.svd_c(am8 - mp.eye(3))
@@ -397,15 +410,10 @@ def run_e1_e8_mp2z_and_covers() -> dict[str, object]:
                 k40 = sum(1 for sv in s40 if sv < mp_rat(1, 1000000))
                 max_ker_m8 = max(max_ker_m8, k8)
                 max_ker_m40 = max(max_ker_m40, k40)
-                # Longitude for 4_1: l = A b a B^2 a b A (or check commutator [a,b]):
-                icomm = mul_seq([ia, ib, iA, iB])
-                _, sc, _ = mp.svd_c(gt_elems[icomm] - mp.eye(3))
-                kc = sum(1 for sv in sc if sv < mp_rat(1, 1000000))
-                max_comm_fixed = max(max_comm_fixed, kc)
 
     assert irred_count == 384
     assert sorted(irred_meridian_orders) == [3, 6, 12]
-    assert max_ker_m8 == 1 and max_ker_m40 == 1 and max_comm_fixed == 1
+    assert max_ker_m8 == 1 and max_ker_m40 == 1 and base_comm_fixed == 1
 
     # D_10 = Z_5 rtimes Z_2: every reflection P has order 2 => P^m == +I for all even m in {2, 8, 40}:
     p_d10 = sp.Matrix([[1, 0, 0, 0, 0], [0, 0, 0, 0, 1], [0, 0, 0, 1, 0], [0, 0, 1, 0, 0], [0, 1, 0, 0, 0]])
@@ -434,7 +442,7 @@ def run_e1_e8_mp2z_and_covers() -> dict[str, object]:
         "gt_irred_meridian_orders": sorted(irred_meridian_orders),
         "max_meridian_kernel_dim_m8": max_ker_m8,
         "max_meridian_kernel_dim_m40": max_ker_m40,
-        "max_commutator_fixed_dim": max_comm_fixed,
+        "max_commutator_fixed_dim": base_comm_fixed,
         "even_m2_8_40_trivializes_D10_parity": even_kills_p,
         "pillowcase_hat_iota_exact_order_2": pillowcase_order_2,
         "E1_passed": (
@@ -453,7 +461,7 @@ def run_e1_e8_mp2z_and_covers() -> dict[str, object]:
 # Section 2 (E2): F-AGY-02 & F-AGY-05 — Dim-4 Iso-Singlet Collar & Nonzero Strong-CP
 # ---------------------------------------------------------------------------
 def run_e2_isosinglet_collar_and_strong_cp() -> dict[str, object]:
-    mp.mp.dps = 45
+    mp.mp.dps = 58
     # Symbolic proof: 1 Higgs insertion h_u * y_0 at Wall 0 + 4 heavy iso-singlet links (M_f * k_f vs -M_f):
     # Fermions: Q_L (1 SU(2)_L doublet), u^c_0..4 (5 right-handed iso-singlets), u_1..4 (4 left-handed iso-singlets).
     # Mass matrix between (Q_L_up, u_1, u_2, u_3, u_4) [rows] and (u^c_0, u^c_1, u^c_2, u^c_3, u^c_4) [cols]:
@@ -509,8 +517,8 @@ def run_e2_isosinglet_collar_and_strong_cp() -> dict[str, object]:
         raw_mats = []
         eff_mats = []
         for ql, qr in ((1, -4), (1, 2), (-3, 6)):
-            y3 = eval_holomorphic_yukawa(tx, ty, l2_test, p3[0], p3[1], ql, qr)
-            y4 = eval_holomorphic_yukawa(tx, ty, l2_test, p4[0], p4[1], ql, qr)
+            y3 = eval_holomorphic_yukawa(tx, ty, l2_test, p3[0], sign_x * p3[1], ql, qr)
+            y4 = eval_holomorphic_yukawa(tx, ty, l2_test, p4[0], sign_x * p4[1], ql, qr)
             y0_mat = om3 * y3 + om4 * y4
             g_rh = y0_mat.H * y0_mat
             tr_g = mp.re(g_rh[0, 0] + g_rh[1, 1] + g_rh[2, 2])

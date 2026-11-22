@@ -7,3 +7,5 @@ Traceback (most recent call last):
   File "relays/agy_2026-11-22_c26/c26_algebraic_gauge_anomaly_and_crystallographic_remediation.py", line 299, in run_e1_e8_mp2z_and_covers
     assert len(gt_elems) == 96
 AssertionError
+
+--- Second pre-output stop at a258ec1a0 (zero output files created): mp.jtheta(-q) branch cut on T-shift; replaced by direct theta series and 8-letter 4_1 Wirtinger relation before execution ---
