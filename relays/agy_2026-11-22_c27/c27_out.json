@@ -1,0 +1,71 @@
+{
+  "E1_exact_lame_horocycle": {
+    "E1_passed": true,
+    "L2_omega_abs_err": "4.9696e-10",
+    "L2_omega_eta4": "2.78647514288310037087624",
+    "L2_omega_lame": "2.7864751423861406052755",
+    "L2_tau8_minus": "2.51518813022331238002897",
+    "L2_tau8_mirror_err": "6.98543e-10",
+    "L2_tau8_plus": "2.51518812952476968005977",
+    "control_1_grid_chord_offset_caught": true
+  },
+  "E2_2loop_2hdm_and_conformal_ewsb": {
+    "E2_passed": true,
+    "buttazzo_appendix_a_check": {
+      "buttazzo_b_lam_2_exact_rational": "2377612517/1000000000",
+      "truncation_rel_error_caught": true,
+      "truncation_rel_error_str": "0.90300144"
+    },
+    "conformal_a0_lambda4_shift": "0.26604693",
+    "conformal_higgs_A0_over_vew": "0.435311124850301121092545",
+    "conformal_higgs_H0_over_vew": "0.731851050177435540324589",
+    "conformal_higgs_Hpm_over_vew": "0.701358050862925742116685",
+    "conformal_higgs_h0_over_vew": "0.434910289725809528590625",
+    "conformal_hpm_lambda4_cancellation_err": "0.0",
+    "conformal_tan_beta": "0.966074733183139037732308",
+    "control_2_rge_truncation_caught": true,
+    "control_3_symmetric_no_ewsb_caught": true,
+    "control_5_m12_invariance_and_l4_splitting_caught": true,
+    "cp_even_mirror_invariance_err": "5.60519e-45",
+    "m12_scale_invariance_err": "2.10195e-45",
+    "newton_vs_analytic_tb_err": "0.0",
+    "pendleton_ross_1loop_rel_err": "5.26221e-13",
+    "pendleton_ross_2loop_shift": "0.03452696",
+    "pure_top_2loop_coeff_buggy": "-5.25",
+    "pure_top_2loop_coeff_exact": "-12.0",
+    "symmetric_m0_1_1_ir_det_M_sq": "0.3193147143",
+    "symmetric_m0_1_1_ir_mHu_sq": "0.5184075505"
+  },
+  "E3_crv_leptogenesis_and_sphaleron": {
+    "E3_passed": true,
+    "Y_B_cp_mirror_rel_err": "6.39867e-42",
+    "c23_loggram_Y_B_tau_star_plus_buggy": "8.253360864653358e-10",
+    "c23_loggram_Y_B_tau_star_plus_true_crv": "-6.568318348847855e-9",
+    "control_4_crv_sign_and_sphaleron_caught": true,
+    "haar_u3_cubed_rel_err": "3.99917e-43",
+    "harvey_turner_1hdm_factor": "28/79",
+    "harvey_turner_2hdm_factor": "8/23",
+    "holomorphic_Y_B_tau_star_minus": "-2.3913677958770528142e-8",
+    "holomorphic_Y_B_tau_star_minus_sign": -1,
+    "holomorphic_Y_B_tau_star_plus": "2.3913677958770528142e-8",
+    "holomorphic_Y_B_tau_star_plus_sign": 1,
+    "pre_registered_F3_holomorphic_sign_restoration_discovered": true,
+    "sympy_large_x_limit_buggy": "1/2",
+    "sympy_large_x_limit_true_crv": "-3/2"
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "float_or_complex_literal_count": 0,
+    "lines": [],
+    "passed": true
+  },
+  "card": "AGY-C27",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}
