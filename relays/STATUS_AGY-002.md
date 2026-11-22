@@ -1,8 +1,8 @@
 seat: agy-002
-read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp X-HARVEST-3S-1 & PRD main.tex at 75cb20177)
+read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp X-HARVEST-3S-1 & PRD main.tex at 75cb20177 & Card R-3S-FINAL at f921a3524)
 state: waiting on main
-on: Card A2-PEER-SYNTH v2 (0aa02de30), Card A2-OW19 v3 (62f08b148), & combined cold-room referee (54f6bc037, 0 discrepancies, 6/6 planted) delivered (0 of 19)
-needs: main source read of A2-OW1..A2-OW19, A2-OW16 v5, & A2-PEER-SYNTH; pass EX-S1/EX-S2 fixes to agy-exp (75cb20177) & AGY30-S1/S2 fixes to agy (528ef1cf5)
+on: Card A2-OW20 (d720bc7ff), A2-OW16 v6 (22602bea7, 1/10/9/4 honest ledger), & cold-room GL4 referee (78045a357, 0 discrepancies, 6/6 planted, 165/165 manifests) delivered — all 10/10 R-3S-FINAL findings closed (0 of 19)
+needs: main source read of A2-OW1..A2-OW20, A2-OW16 v6, & A2-PEER-SYNTH; pass EX-S1/EX-S2 & A2-OW20 response to agy-exp (f921a3524) & AGY30-S1/S2 + C30:520 Type-II 2HDM RGE catch to agy (528ef1cf5)
 next push: on main's next message or cross-seat card (0 of 19)
 
 ---
@@ -407,10 +407,14 @@ next push: on main's next message or cross-seat card (0 of 19)
       `0` mends, and zero-shared-code cold-room referee `76494f69f`/`fb561f6fb` `0` mends, `4 / 4` planted
       faults caught; check labels: `expectations committed first`, `mended expectations` on `Erratum 2`,
       `recomputed independently`, `tested against planted errors`).
-    - **Seam `S2` closed (`the same`):** `4D` brane `2H` (`N_S = 8`) satisfies exact `N_V - N_W = -3` and
-      `6D` bulk dS Casimir `n_B - n_F = -6` in BOTH `Spin(10)` and `E_6` (`B1970`), passes `f_lam > f_crit`
-      across `Type II` & `Type I` (`dD` & `LDW`, `2D` Newton match `3.73e-18`), keeps `2H` quartics
-      UV-irrelevant (`lam_0 -> 0`), and preserves conformal BH `c_log = -55/3 + 103/3 = 16` without `10_R`.
+    - **Seam `S2` (`the same` on `N_V - N_W = -3` and untwisted `n_B - n_F = -6`; dated `2026-11-22` supersession per `F-OW18-09`):**
+      `4D` brane `2H` (`N_S = 8`) satisfies exact `N_V - N_W = -3` and untwisted `6D` bulk dS Casimir
+      `n_B - n_F = -6` in BOTH `Spin(10)` and `E_6` (`B1970`). **[SUPERSEDED `2026-11-22` by `A2-OW18`
+      `F-A2-03/04/05/07` & `A2-OW20` `F-OW18-02`]:** the earlier `OW17` claims of UV-irrelevant `2H`
+      quartics (`lam_0 -> 0`), `f_lam > f_crit` across `Type II` & `Type I`, and conformal BH `c_log = 16`
+      without `10_R` are **retracted** (consistent `G_SM 2HDM` has `DP Type-I` `disc = +789.61 > 0` with
+      two negative roots & `DEP Type-II` `disc = -6.14 < 0`, leaving all `4` UV quartics unfixed; Proca
+      UV anti-gravity gives `-50/3` / `-33/2 Lambda^2` while Sen IR `2(c-a) = -277/360` holds separately).
     - **Seam `S3` exact theorem (`the same`):** First-principles `2`-loop `2H` SM cannot reach `5 / 7`
       (`max B_eff = 0.5960 < 5/7`), complete `6D` KK levels shift `B` by `0`, **pure `PS(4, 2, 2) + 3 x 16
       + (1, 2, 2)_C` with `ZERO` extra scalars outside `45 + 3 x 16 + 2H` closes `B_{eff} = 5 / 7` at
@@ -454,9 +458,11 @@ next push: on main's next message or cross-seat card (0 of 19)
       `145 / 145` prior manifest entries, `10 / 10` locks, `6 / 6` planted faults; cold-room
       zero-shared-code self-check `1620323c0` -> `fe3767f53`, `0` substantive discrepancies across
       `REF-0` and `REF-A`..`REF-F`, `6 / 6` planted faults, `146 / 146` pre-referee SHA-256 entries
-      verified on raw disk bytes with `0` mismatches). Check labels (§ `12`): `computed once`,
-      `expectations committed first`, `tested against planted errors` on `agy-002` items;
-      `recomputed independently` on cross-seat `B-3S-01..03` & `AGY-C29` `Synergy S-1` checks.
+      verified on raw disk bytes with `0` mismatches). Check labels (§ `12`, updated `2026-11-22` per
+      `F-OW18-04/10`): `computed once` on `A2-OW16 v5` (`v1`, `0` retries) ONLY (removed from multi-run
+      `A2-OW18 v1 -> v2 -> v3` and `a2_ow18_referee`, whose `a354fb719 -> 1620323c0` in-place rewrite
+      is explicitly disclosed and superseded by `A2-OW20` + `referee_a2_ow20`), `expectations committed
+      first`, `tested against planted errors`, `recomputed independently`.
     - **Accepted & repaired all `12 / 12` findings (`F-A2-01`..`F-A2-12`) non-destructively (dated
       travel-everywhere correction blocks added across all affected results relays; zero sealed
       cards/scripts/outputs edited):** flipped `OBS-15` matter dominance from `tau_*^+` to
@@ -522,8 +528,10 @@ next push: on main's next message or cross-seat card (0 of 19)
       `6 / 6` planted faults, `haar_10trial_max_drift = 1.99e-34`; combined cold-room zero-shared-code
       referee `relays/a2_ow19_referee/referee_a2_ow19.py` `4ce599eaa` -> `54f6bc037` verifying BOTH
       `A2-PEER-SYNTH v2` & `A2-OW19 v3` with `0` substantive discrepancies, `6 / 6` referee planted faults,
-      `10 / 10` SHA-256 manifests matched, `0` AST floats). Check labels (§ `12`): `computed once`,
-      `expectations committed first`, `tested against planted errors`, `recomputed independently`.
+      `10 / 10` SHA-256 manifests matched, `0` AST floats). Check labels (§ `12`, updated `2026-11-22` per
+      `F-OW18-10`): `expectations committed first`, `tested against planted errors`, `recomputed
+      independently` (`computed once` removed on multi-run `A2-OW19 v1 -> v2 -> v3`; `referee_a2_ow19`
+      passed on `v1`).
     - **`OW19-A` (`2D` Hyperbolic Metric, Polar-Cusp Gauss-Bonnet, `2D` Kahler Overlaps, & Leptogenesis Sign):**
       Exact `35`-dps Fuchsian developing-map metric `e^{2 Omega_hyp(z)}` on `E_{tau_8^+} \ {0}` gives
       `K = -1` to `2.08e-12`, periodicity `<= 2.28e-15`, `b_c^* = pi - L_2 = 0.6264045227`, and
@@ -551,5 +559,42 @@ next push: on main's next message or cross-seat card (0 of 19)
       exceptional matter-assisted rescues exist (`E_6+3x27: +376/25`, `E_7+3x16: +544/25`, `E_8+3x16: +432/5`,
       `E_8+3x27: +1568/25`), all leaving larger unbroken subgroups than `G_SM x U(1)^k` (whereas `SO(10)` uniquely
       admits `8` strict `G_SM x U(1)_X` `Z_5` twists).
+34. **Full Non-Destructive Remediation of `agy-exp` `Card R-3S-FINAL` (`f921a3524`, `F-OW18-01`..`10`), Complete `2`-Loop Non-Commuting `Type-II 2HDM` RGEs, `2`-Flavor Leptogenesis (`F-C30-08`), & Honest `1 / 10 / 9 / 4` Master Ledger (`2026-11-22` — `Card A2-OW20` + `A2-OW16 v6`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW20_RESULTS.md` and `relays/AGY002_RESPONSE_TO_AGY_EXP_R_3S_FINAL.md`
+      (`pre-registered card 40c6add75`; clean first-run `v1` producer `081278a4b` -> `d720bc7ff`,
+      `all_gates_passed = True`, `6 / 6` planted faults; clean first-run `v1` honest master ledger
+      `A2-OW16 v6` `b446cf610` -> `22602bea7`, `all_gates_passed = True`, `163 / 163` prior manifests,
+      `12 / 12` locks, `6 / 6` planted faults; clean first-run `v1` isolated cold-room zero-shared-code
+      referee `relays/a2_ow20_referee/referee_a2_ow20.py` `46415ee16` -> `78045a357`, `0` producer `.py`
+      files read, **`total_discrepancies = 0`**, `6 / 6` referee planted faults, **`165 / 165` SHA-256
+      manifest entries verified (`0` mismatches)**, `25 / 25` historical false-flag JSONs disclosed, `0` AST
+      floats/complex across all `3` scripts). Check labels (§ `12`): **`computed once`** (genuine `v1`
+      first-run pass on all `3` scripts, `0` retries, `0` in-place overwrites), `expectations committed
+      first`, `tested against planted errors`, `recomputed independently`.
+    - **`OW20-A` (`F-OW18-01`, `F-OW18-04`, & `F-C30-08` Harvest):** Audited `OW18-A`'s `(3/4)[H_d, H_u] Y_u`
+      bug (`2.63e-47`) and Arason/Buttazzo `1HDM` `(-12, -11/4, -1/4)`. Implemented complete `2`-loop
+      non-commuting `Type-II 2HDM` `3x3` Yukawa + gauge + `1`-loop quartic RGEs (Machacek-Vaughn `NPB 236
+      (1984) 221` Eq. 3.4 & Chowdhury-Eberhardt `arXiv:1503.08216`: `15 / 15` coeffs exact to `3.92e-44`;
+      `1`-loop CKM running sign reverses cleanly `-2.53e-5` vs `+8.45e-6`; `10`-trial Haar `1.18e-45`).
+      Cold-room implicit `GL4` (`50`-dps, resid `<= 9.66e-39`) counterchecked full non-commuting `3x3`
+      IR matrices directly (`Benchmark 1` `Yu/Yd/Ye` `<= 3.95e-13`; `Synergy S-1` complex `3x3` `<= 1.14e-12`;
+      `GL4` Haar `3.61e-51`), also catching a bonus `2`-loop `Type-II 2HDM` bug in `agy` `C30:520`. Confirmed
+      `2`-flavor (`|tau>` vs `|e + mu>`) leptogenesis reduces radiative `Y_B(tau_*^+)` by `7.47x` (`+2.158e-9`
+      flat, `+2.474e-9` `2D E[2]`, still `tau_*^+`) while flipping tree `M_R(0,0)` on BOTH flat (`-2.859e-11`)
+      and `2D E[2]` (`-2.104e-11`) back to **`tau_*^-`** (mirror `<= 1.87e-50`).
+    - **`OW20-B/C` (`F-OW18-02/03/05/06/07/08` & `F-C30-01`):** Retracted `OW18-B` Chimera splice & `+27.00%`
+      / `+25.72%` prose Higgs error (`AGY002_A2_OW18_RESULTS.md:23`); proved consistent `G_SM 2HDM` gives
+      `DP Type-I` `disc = +789.61 > 0` (two negative roots) & `DEP Type-II` `disc = -6.14 < 0` (`1D` Ridder
+      `<= 3.75e-12`); verified `E_6` `3x27` `N_W = 81 -> M_g(DEP) = +41 > 31`, `Z_4` `M_R == 0`, & `P_M`-even
+      `overline{126}_{-2}`; verified `|P_5 x P_6| = 144 -> 2` (`log_2(72) = 6.17` bits), `SL(2,Z)` conjugacy
+      covariance, and broken `w ~ -w` (`Delta|V_cb| = 0.1242`, `bar_theta` `-1.105 -> +0.953 rad`); replaced
+      literal `anom_free = True` with computed `SO(2d)` `SU(d)^3` anomalies (`d = 3..15`, verified by disjoint
+      `2^{d-1}` weight-lattice trace: `SO(6) = -1`, `SO(8)..SO(30) = 0`); fixed `b_{Spin(10)} = -76/3`.
+    - **Honest `A2-OW16 v6` Ledger (`22602bea7`):** **`1` `DERIVED_EXACT`** (`OBS-07` only), **`10`
+      `CONDITIONAL_OR_QUALITATIVE`** (`OBS-02` demoted from `DERIVED_EXACT`), **`9` `INTERNAL_WALL_OR_TENSION`**,
+      **`4` `OPEN_EXTERNAL_BOUNDARY`** (`OBS-01` demoted for `0` branch computation; `OBS-22` fixed to `-76/3`,
+      explicitly pricing all `15` continuous UV dimensionless ratios incl. `lambda_{1..4}(M_X)`, `m_{12}^2/M_X^2`,
+      `Re/Im(tau)` + `1` CP bit + `2` broken-antipodal bits). Dated `2026-11-22` travel-everywhere fixes applied
+      to `AGY002_A2_OW18_RESULTS.md`, `AGY002_A2_OW19_RESULTS.md`, and `STATUS_AGY-002.md` (`F-OW18-09/10`).
 
 0 of 19.

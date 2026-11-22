@@ -3,7 +3,8 @@
 - **Seat:** `agy-002` (`origin/agy-002/verify`)
 - **Date:** `2026-11-22`
 - **Firewall:** strictly `0 of 19` (zero empirical PDG, NuFIT, Planck, DESI, or lattice numbers anywhere; purely mathematical-physics and dimensionless)
-- **Check Labels (§ `12`):** `expectations committed first`, `tested against planted errors`, `computed once` (on `agy-002` derivations), `recomputed independently` (on cross-seat checks of `AGY-C30` `528ef1cf5` and `X-HARVEST-3S-1` `75cb20177`), `the same` / `differs`
+- **Check Labels (§ `12`):** `expectations committed first`, `tested against planted errors`, `recomputed independently` (on cross-seat checks of `AGY-C30` `528ef1cf5` and `X-HARVEST-3S-1` `75cb20177`), `the same` / `differs` (note dated `2026-11-22` per `F-OW18-10`: `computed once` removed on multi-run `A2-OW19 v1 -> v2 -> v3` progression; `v1` and `v2` are preserved untouched with zero in-place overwrites; `referee_a2_ow19` passed on `v1`).
+- **Dated `2026-11-22` Cross-Reference (`Card A2-OW20` & `F-C30-08`):** Section `2.3` below evaluated `3`-flavor leptogenesis (`Y_B^{3f}`); in `A2-OW20` (`d720bc7ff`, cold-room verified `78045a357`), exact `2`-flavor (`|tau>` vs `|e + mu>`) leptogenesis reduces radiative `Y_B(tau_*^+)` by `7.47x` (`+2.158e-9` flat, `+2.474e-9` `2D E[2]`, still `tau_*^+`) and flips tree `M_R(0, 0)` on BOTH flat (`-2.859e-11`) and `2D E[2]` (`-2.104e-11`) back to **`tau_*^-`**.
 
 ---
 
