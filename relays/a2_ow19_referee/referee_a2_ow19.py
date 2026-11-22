@@ -758,40 +758,42 @@ def solve_fuchsian_disjoint_mp(tau_r: mp.mpc) -> dict[str, Any]:
         wp_mp, z2_wp_m1_mp, const_term, lam_coeffs = build_wp_fourier_mp(tau_r, n_terms=18)
         v0 = -(mp.mpc(1) + tau_r) / 2
 
-        # Precompute wp(z) along a-cycle (v0 -> v0 + 1) and b-cycle (v0 -> v0 + tau_r)
-        na_fine = 192  # stride 2 = 96 steps, stride 1 = 192 steps
-        nb_fine = 288  # stride 2 = 144 steps, stride 1 = 288 steps
-        dz_a = mp.mpc(1) / na_fine
-        dz_b = tau_r / nb_fine
-        nodes_a = [wp_mp(v0 + mp_rat(m, 2) * dz_a) for m in range(2 * na_fine + 1)]
-        nodes_b = [wp_mp(v0 + mp_rat(m, 2) * dz_b) for m in range(2 * nb_fine + 1)]
+        # Coarse warm-start (96, 144) followed by fine polish (384, 576) Richardson-RK4
+        def run_newton_stage(na_f: int, nb_f: int, c_init: mp.mpc, max_it: int, tol: mp.mpf):
+            dz_a = mp.mpc(1) / na_f
+            dz_b = tau_r / nb_f
+            nodes_a = [wp_mp(v0 + mp_rat(m, 2) * dz_a) for m in range(2 * na_f + 1)]
+            nodes_b = [wp_mp(v0 + mp_rat(m, 2) * dz_b) for m in range(2 * nb_f + 1)]
 
-        def eval_traces(c_val: mp.mpc) -> tuple[mp.mpc, mp.mpc, mp.matrix, mp.matrix]:
-            Ta = rk4_richardson_monodromy_mp(nodes_a, c_val, dz_a)
-            Tb = rk4_richardson_monodromy_mp(nodes_b, c_val, dz_b)
-            return Ta[0, 0] + Ta[1, 1], Tb[0, 0] + Tb[1, 1], Ta, Tb
+            def eval_tr(c_val: mp.mpc) -> tuple[mp.mpc, mp.mpc, mp.matrix, mp.matrix]:
+                Ta_l = rk4_richardson_monodromy_mp(nodes_a, c_val, dz_a)
+                Tb_l = rk4_richardson_monodromy_mp(nodes_b, c_val, dz_b)
+                return Ta_l[0, 0] + Ta_l[1, 1], Tb_l[0, 0] + Tb_l[1, 1], Ta_l, Tb_l
+
+            c_c = c_init
+            h_diff = mp_pow10(-9)
+            for _ in range(max_it):
+                xa_l, xb_l, _, _ = eval_tr(c_c)
+                f1, f2 = mp.im(xa_l), mp.im(xb_l)
+                if abs(f1) + abs(f2) < tol:
+                    break
+                xa_p, xb_p, _, _ = eval_tr(c_c + h_diff)
+                xa_m, xb_m, _, _ = eval_tr(c_c - h_diff)
+                dxa = (xa_p - xa_m) / (2 * h_diff)
+                dxb = (xb_p - xb_m) / (2 * h_diff)
+                j11, j12 = mp.im(dxa), mp.re(dxa)
+                j21, j22 = mp.im(dxb), mp.re(dxb)
+                det_j = j11 * j22 - j12 * j21
+                dc_r = -(j22 * f1 - j12 * f2) / det_j
+                dc_i = -(-j21 * f1 + j11 * f2) / det_j
+                c_c = c_c + mp.mpc(dc_r, dc_i)
+            xa_l, xb_l, Ta_l, Tb_l = eval_tr(c_c)
+            return c_c, xa_l, xb_l, Ta_l, Tb_l
 
         # Purely analytic initial guess (midpoint of a-cycle & b-cycle wp averages; zero target leakage)
-        c_cur = mp.mpc(-(mp.pi ** 2) / mp.mpf(3) + mp.pi / mp.im(tau_r), mp.mpf(0))
-        h_diff = mp_pow10(-9)
-        for _ in range(10):
-            xa, xb, _, _ = eval_traces(c_cur)
-            f1, f2 = mp.im(xa), mp.im(xb)
-            if abs(f1) + abs(f2) < mp_pow10(-26):
-                break
-            xa_p, xb_p, _, _ = eval_traces(c_cur + h_diff)
-            xa_m, xb_m, _, _ = eval_traces(c_cur - h_diff)
-            dxa = (xa_p - xa_m) / (2 * h_diff)
-            dxb = (xb_p - xb_m) / (2 * h_diff)
-            # Cauchy-Riemann Jacobian for (Im xa, Im xb) wrt (c_R, c_I):
-            j11, j12 = mp.im(dxa), mp.re(dxa)
-            j21, j22 = mp.im(dxb), mp.re(dxb)
-            det_j = j11 * j22 - j12 * j21
-            dc_r = -(j22 * f1 - j12 * f2) / det_j
-            dc_i = -(-j21 * f1 + j11 * f2) / det_j
-            c_cur = c_cur + mp.mpc(dc_r, dc_i)
-
-        xa, xb, Ta, Tb = eval_traces(c_cur)
+        c_guess = mp.mpc(-(mp.pi ** 2) / mp.mpf(3) + mp.pi / mp.im(tau_r), mp.mpf(0))
+        c_warm, _, _, _, _ = run_newton_stage(96, 144, c_guess, 8, mp_pow10(-18))
+        c_cur, xa, xb, Ta, Tb = run_newton_stage(384, 576, c_warm, 4, mp_pow10(-26))
         Ta_inv = mp.matrix([[Ta[1, 1], -Ta[0, 1]], [-Ta[1, 0], Ta[0, 0]]])
         Tb_inv = mp.matrix([[Tb[1, 1], -Tb[0, 1]], [-Tb[1, 0], Tb[0, 0]]])
         comm = Ta * Tb * Ta_inv * Tb_inv
@@ -833,9 +835,14 @@ def solve_fuchsian_disjoint_mp(tau_r: mp.mpc) -> dict[str, Any]:
         K_z1 = -lap_om / e2om_z1
         curv_err = abs(K_z1 + mp.mpf(1))
 
-        # Double periodicity check at z1: z1 -> z1 + 1 and z1 -> z1 + tau_r
-        psi_z1_p1 = rk4_segment_mp(wp_mp, c_cur, z1, z1 + mp.mpc(1), 160, psi_z1)
-        psi_z1_ptau = rk4_segment_mp(wp_mp, c_cur, z1, z1 + tau_r, 220, psi_z1)
+        # Double periodicity check at z1: z1 -> z1 + 1 and z1 -> z1 + tau_r using Richardson-RK4
+        def rk4_seg_rich(za: mp.mpc, zb: mp.mpc, n_c: int, psi_in: mp.matrix) -> mp.matrix:
+            mc = rk4_segment_mp(wp_mp, c_cur, za, zb, n_c, psi_in)
+            mf = rk4_segment_mp(wp_mp, c_cur, za, zb, 2 * n_c, psi_in)
+            return (16 * mf - mc) / 15
+
+        psi_z1_p1 = rk4_seg_rich(z1, z1 + mp.mpc(1), 160, psi_z1)
+        psi_z1_ptau = rk4_seg_rich(z1, z1 + tau_r, 240, psi_z1)
         per_1_err = abs(metric_from_psi(psi_z1_p1) - e2om_z1)
         per_tau_err = abs(metric_from_psi(psi_z1_ptau) - e2om_z1)
 
@@ -843,13 +850,13 @@ def solve_fuchsian_disjoint_mp(tau_r: mp.mpc) -> dict[str, Any]:
         # Path v0 -> (-1/2 + 0i) -> (-1/8 + 0i), then log-ODE inward to r = 10^{-4} and r = 5*10^{-5}
         z_left0 = mp.mpc(mp_rat(-1, 2), mp.mpf(0))
         z_start_cusp = mp.mpc(mp_rat(-1, 8), mp.mpf(0))
-        psi_left0 = rk4_segment_mp(wp_mp, c_cur, v0, z_left0, 120, P)
-        psi_start_cusp = rk4_segment_mp(wp_mp, c_cur, z_left0, z_start_cusp, 96, psi_left0)
+        psi_left0 = rk4_seg_rich(v0, z_left0, 120, P)
+        psi_start_cusp = rk4_seg_rich(z_left0, z_start_cusp, 96, psi_left0)
 
         s_r1 = mp.log(mp.mpf(1250))   # r1 = (1/8) / 1250 = 10^{-4}
         s_r2 = mp.log(mp.mpf(2500))   # r2 = (1/8) / 2500 = 5 * 10^{-5}
-        r1, b_eff_1 = rk4_log_cusp_mp(z2_wp_m1_mp, c_cur, z_start_cusp, s_r1, 240, psi_start_cusp)
-        r2, b_eff_2 = rk4_log_cusp_mp(z2_wp_m1_mp, c_cur, z_start_cusp, s_r2, 320, psi_start_cusp)
+        r1, b_eff_1 = rk4_log_cusp_mp(z2_wp_m1_mp, c_cur, z_start_cusp, s_r1, 320, psi_start_cusp)
+        r2, b_eff_2 = rk4_log_cusp_mp(z2_wp_m1_mp, c_cur, z_start_cusp, s_r2, 480, psi_start_cusp)
         # O(r^2) Richardson elimination:
         bc_star = (r1 * r1 * b_eff_2 - r2 * r2 * b_eff_1) / (r1 * r1 - r2 * r2)
         L2_tau8 = mp.pi - bc_star
