@@ -1,0 +1,16 @@
+<unknown>:266: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:1477: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:209: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:2: SyntaxWarning: invalid escape sequence '\{'
+AGY-C25 all_expectations_passed = True
+  E1_custody_and_quotes: True
+  E2_delta23n_unique_A5: True
+  E2_a_theorem_125_48: True
+  E2_I8_det_Q4: True
+  E2_selberg_547: True
+  E2_p879_T1_T3_T4_Haar: True
+  E2_wg96_and_FU4: True
+  E2_ow9_pythagorean_E3: True
+  E2_ow12_strong_cp_seesaw_lepto: True
+  E2_ow11_ow13_ow14_ow15: True
+  E3_seam_proofs: True

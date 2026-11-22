@@ -1,0 +1,461 @@
+{
+  "card": "AGY-C25",
+  "target_commits_read": {
+    "agy_002_verify": "0f185471b6b121321cddf311df62ab840a0feb0c",
+    "agy_002_foundations_v2": "1560b2645b8c25de54c76ffad863873e9e44495b",
+    "main_base": "279459977"
+  },
+  "firewall": "0 of 19",
+  "E1_custody_ast_quotes": {
+    "verify_sha_manifests": 114,
+    "fv2_sha_manifests": 23,
+    "total_sha_manifests": 137,
+    "sha_mismatches": 0,
+    "non_relay_edits": 0,
+    "custody_cards_ok": "18/18",
+    "py_scripts_scanned": 61,
+    "ast_violations": 0,
+    "buttazzo_leaf_isolated": true,
+    "quotes_matched": "15/15",
+    "passed": true
+  },
+  "E2_delta23n": {
+    "orders": {
+      "2": 6,
+      "3": 12,
+      "4": 24,
+      "5": 60
+    },
+    "total_actions_d_le_12": 21,
+    "chiral_actions": [
+      {
+        "N": 2,
+        "d": 3,
+        "a": 2,
+        "b": 1,
+        "dim_G": 4,
+        "is_chiral": true,
+        "tr_Y": "0",
+        "tr_Y3": "-1/36"
+      },
+      {
+        "N": 5,
+        "d": 5,
+        "a": 3,
+        "b": 2,
+        "dim_G": 12,
+        "is_chiral": true,
+        "tr_Y": "0",
+        "tr_Y3": "0"
+      }
+    ],
+    "chiral_anomaly_free": [
+      {
+        "N": 5,
+        "d": 5,
+        "a": 3,
+        "b": 2,
+        "dim_G": 12,
+        "is_chiral": true,
+        "tr_Y": "0",
+        "tr_Y3": "0"
+      }
+    ]
+  },
+  "E2_heat_kernel_inflow_selberg": {
+    "S4_weights": {
+      "w_s": "0.166666668641659",
+      "w_W": "0.083333333299282",
+      "w_V": "-0.666666669079476",
+      "a2_s": "1.93331674682",
+      "a2_W": "-0.183333047433",
+      "a2_V": "-4.13331307025"
+    },
+    "a_theorem": {
+      "UV_2H_ca": [
+        "37/15",
+        "127/45"
+      ],
+      "drops": [
+        "1/90",
+        "11/240",
+        "223/360",
+        "17/9",
+        "7/180"
+      ],
+      "total_drop": "125/48"
+    },
+    "I8_quad_det": {
+      "det_Q3_1gen": "-11/23328",
+      "det_Q4_1gen": "1/1679616",
+      "det_Q3_3gen": "-11/864",
+      "det_Q4_3gen": "1/20736"
+    },
+    "selberg_census": {
+      "n_psl": 363,
+      "n_det_neg": 184,
+      "total_547": 547,
+      "n_odd_squares": 7,
+      "first_12_psl_counts": [
+        1,
+        2,
+        2,
+        3,
+        2,
+        4,
+        2,
+        6,
+        3,
+        4,
+        4,
+        6
+      ],
+      "R1_m004_share_raw": "0.5037835734",
+      "R3_m000_share_raw": "0.6238261563",
+      "R3_m004_share_raw": "0.09101500961",
+      "R3_ratio_phi4_err": "0.0",
+      "R4b_m004_share": "0.3367050144",
+      "R4b_w4_over_w3": "0.9686590117",
+      "R4b_combined_share": "0.6628573609"
+    }
+  },
+  "E2_frg_unification_radion_clifford_bh": {
+    "FRG": {
+      "pure_grav": {
+        "Mg": 0,
+        "Ml": "0",
+        "n_phys_fp": 1,
+        "fps": [
+          {
+            "g_star": "0.707320881",
+            "lam_star": "0.1932005072",
+            "thetas": [
+              "1.4753024 +- 3.0432058i"
+            ],
+            "uv_attractive": true
+          }
+        ]
+      },
+      "G_SM_2H_T2": {
+        "Mg": 8,
+        "Ml": "-32",
+        "n_phys_fp": 1,
+        "fps": [
+          {
+            "g_star": "7.057992467",
+            "lam_star": "-10.02085429",
+            "thetas": [
+              "3.9643451",
+              "2.1291184"
+            ],
+            "uv_attractive": true
+          }
+        ]
+      },
+      "G_SM_2H_T1_nfp": 0,
+      "Spin10_r10_T2": [
+        {
+          "g_star": "0.2522392303",
+          "lam_star": "0.05512703522",
+          "thetas": [
+            "3.1219096",
+            "2.2519015"
+          ],
+          "uv_attractive": true
+        }
+      ],
+      "Spin10_r10_T1": [
+        {
+          "g_star": "0.3591314154",
+          "lam_star": "0.08665493513",
+          "thetas": [
+            "2.5049386 +- 0.70966498i"
+          ],
+          "uv_attractive": true
+        }
+      ],
+      "Spin10_c10_T2": [
+        {
+          "g_star": "0.2552157986",
+          "lam_star": "0.1194002023",
+          "thetas": [
+            "2.6453239 +- 0.62854525i"
+          ],
+          "uv_attractive": true
+        }
+      ]
+    },
+    "unification": {
+      "B_1H": "115/218",
+      "B_2H": "5/9",
+      "B_6D_bulk_2H": "55/98",
+      "B_6D_brane_2H": "1/2",
+      "PS_412": [
+        "-83/15",
+        "-3",
+        "8/9"
+      ],
+      "PS_412_15": [
+        "-79/15",
+        "-3",
+        "29/33"
+      ],
+      "PS_1013": [
+        "-13/15",
+        "-3",
+        "11/15"
+      ]
+    },
+    "OW13_quartic_and_GW": {
+      "f_crit": "0.04043233454",
+      "f_lam_gsm_dD": "0.03382813509",
+      "f_lam_so10_dD": "0.6761444399",
+      "mh_v_floor_EW": "0.03964404685",
+      "S4_quarter_EW": "2.104494144"
+    },
+    "OW14_radion": {
+      "L_ibp": "15*b**2*Derivative(sig(t), t)**2/4",
+      "N_tw_exact": "0.81137595641440755849",
+      "N_tw_quad_diff": "1.3364e-51"
+    },
+    "OW15_clifford": {
+      "D4_all_5_ordered": [
+        {
+          "sig": [
+            0,
+            4
+          ],
+          "vol_sq": 1,
+          "weyl": "H (Symplectic-Weyl)"
+        },
+        {
+          "sig": [
+            1,
+            3
+          ],
+          "vol_sq": -1,
+          "weyl": "C (L* = R)"
+        },
+        {
+          "sig": [
+            2,
+            2
+          ],
+          "vol_sq": 1,
+          "weyl": "R (Majorana-Weyl)"
+        },
+        {
+          "sig": [
+            3,
+            1
+          ],
+          "vol_sq": -1,
+          "weyl": "C (L* = R)"
+        },
+        {
+          "sig": [
+            4,
+            0
+          ],
+          "vol_sq": 1,
+          "weyl": "H (Symplectic-Weyl)"
+        }
+      ],
+      "D6_4_unordered": [
+        {
+          "sig": [
+            0,
+            6
+          ],
+          "vol_sq": -1,
+          "weyl": "C (L* = R)"
+        },
+        {
+          "sig": [
+            1,
+            5
+          ],
+          "vol_sq": 1,
+          "weyl": "H (Symplectic-Weyl)"
+        },
+        {
+          "sig": [
+            2,
+            4
+          ],
+          "vol_sq": -1,
+          "weyl": "C (L* = R)"
+        },
+        {
+          "sig": [
+            3,
+            3
+          ],
+          "vol_sq": 1,
+          "weyl": "R (Majorana-Weyl)"
+        }
+      ]
+    },
+    "OW15_BH": {
+      "c_log_ent": "-55/3",
+      "c_log_contact": "103/3",
+      "c_log_tot": "16",
+      "schw_45W": [
+        "287/120",
+        "1999/720",
+        "-277/360"
+      ],
+      "schw_48W": [
+        "37/15",
+        "127/45",
+        "-32/45"
+      ],
+      "schw_so10_r10": [
+        "347/60",
+        "383/45",
+        "-491/90"
+      ]
+    }
+  },
+  "E2_p879": {
+    "L2_benchmark_omega": "2.78646780016",
+    "L2_benchmark_tau1": "2.6005298759719",
+    "T1_sym_residual": "0",
+    "T3_max_err": "2.6728e-51",
+    "B1967_witness_min_diag_V": "0.900819229",
+    "B1967_m2_m3": [
+      "0.00462578",
+      "0.001724057"
+    ],
+    "Haar_10trial_drift": "3.2808e-49",
+    "T4_max_wu_ord5": "0.0",
+    "T4_max_sL_res": "1.1201e-50",
+    "T4_max_sL_y2_x0": "0.3853742432"
+  },
+  "E2_modular_potentials": {
+    "V4_min_tau": [
+      "0.392491036765208",
+      "0.20541739079634"
+    ],
+    "V5_grad_at_ts5": [
+      "7.523e-23",
+      "1.546e-22"
+    ],
+    "V5_detH_at_ts5": "127.2508148",
+    "raabe_identity_holds": true,
+    "E3_i": "4.6589136156038",
+    "E3_rho": "4.1412565472034",
+    "E3_saddle_eigs_at_i": [
+      "-7.280778482",
+      "35.23426018"
+    ],
+    "F3_grad_at_ts5": [
+      "1.2755e-15",
+      "2.7037e-15"
+    ],
+    "F3_eigs_at_ts5": [
+      "61.11146248",
+      "1336.562622"
+    ],
+    "F3_pythag_det_rel_err": "6.0547e-17",
+    "F3_kappa_6_5_grad_y_at_ts5": "-3.1441092e-15"
+  },
+  "E2_flavor_strong_cp_seesaw_lepto": {
+    "L2_at_tau8": "2.51517337854",
+    "OW6_E5_ed_diff": "1.8375e-51",
+    "OW12_bar_theta_Q_E5": "0.90839469",
+    "OW12_bar_theta_Q_E6": "-0.6671375",
+    "OW12_bar_theta_Q_m8": "0.01564175839",
+    "OW12_SU3_Haar_drift": "1.5327e-50",
+    "OW7_Vus_range_6perms": [
+      "0.147876",
+      "0.243259"
+    ],
+    "OW7_Jcp_min_6perms": "6.70865e-5",
+    "OW12_dm21_dm31_I3": "0.0060990377",
+    "OW12_dm21_dm31_MR00": "0.026863443",
+    "OW12_s23_sq_min_MR00": "0.562032",
+    "OW12_takagi_res": "1.0936e-51",
+    "OW12_eps1_norm": "5.453866632e-6",
+    "OW12_ymu_ys_max": "0.0406904",
+    "OW12_ytau_yb_range": [
+      "0.268796",
+      "1.38585"
+    ]
+  },
+  "E2_2hdm_rge": {
+    "uv_quartic_fp_Spin10_T2_dD": [
+      "0.0037892009",
+      "0.0078821971",
+      "0.0057430075",
+      "-0.00807539"
+    ],
+    "ir_quartics_grav_yb_9_20": [
+      "0.475703",
+      "0.734502",
+      "0.597304",
+      "-0.691825"
+    ],
+    "ir_quartics_zero_yb_9_20": [
+      "0.474844",
+      "0.733664",
+      "0.596371",
+      "-0.689196"
+    ],
+    "max_ir_diff_grav_vs_zero": "0.00262971",
+    "ir_lam1_lam2_yb_1_100": [
+      "-0.143778",
+      "0.798495"
+    ],
+    "ow13_no_ps_ir_weak_mix_sq": "0.191261",
+    "ow13_no_ps_ir_inv_alphas": [
+      "71.874",
+      "28.33",
+      "4.138"
+    ]
+  },
+  "E2_wg96_and_fu4": {
+    "W2_cand1_N3": {
+      "orbs": [
+        8
+      ],
+      "fixed": 0
+    },
+    "W2_cand1_N5": {
+      "orbs": [
+        24
+      ],
+      "fixed": 0
+    },
+    "W3_CIM_MS_sq_diag_eigs": [
+      "(-1.0 - 2.8825159e-51j)",
+      "(-1.0 - 5.0775571e-51j)",
+      "(1.0 + 1.1675984e-50j)"
+    ],
+    "W4_L2_at_tau0": "2.4934561051141",
+    "W4_FU2_L_drift_seed": "2.6995e-49",
+    "W4_FU2_R_drift_seed": "6.6816e-33",
+    "FU4_SOS_identity_residual": "0"
+  },
+  "E3_guardrail_seam_proofs": {
+    "S1_m004_transitive_3cycle_on_E2_nz": true,
+    "S2_even_real_scalars_in_real10": 4,
+    "S2_even_real_scalars_in_complex10_2H": 8,
+    "S6_exact_cap22_theta_g": "28/13",
+    "S6_differs_from_card_7_3": true
+  },
+  "assertions": {
+    "E1_custody_and_quotes": true,
+    "E2_delta23n_unique_A5": true,
+    "E2_a_theorem_125_48": true,
+    "E2_I8_det_Q4": true,
+    "E2_selberg_547": true,
+    "E2_p879_T1_T3_T4_Haar": true,
+    "E2_wg96_and_FU4": true,
+    "E2_ow9_pythagorean_E3": true,
+    "E2_ow12_strong_cp_seesaw_lepto": true,
+    "E2_ow11_ow13_ow14_ow15": true,
+    "E3_seam_proofs": true
+  },
+  "all_expectations_passed": true
+}
