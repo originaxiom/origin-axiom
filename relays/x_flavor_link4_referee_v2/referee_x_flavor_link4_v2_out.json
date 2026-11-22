@@ -1,0 +1,77 @@
+{
+  "ast_scan": {
+    "binary64_cast_call_count": 0,
+    "clean": true,
+    "float_or_complex_literal_count": 0
+  },
+  "audited_producer_version": "v5",
+  "card": "AGY-EXP_X-FLAVOR-LINK4",
+  "empirical_anchor_status": "0 of 19",
+  "modules": {
+    "REF_FL4_1": {
+      "g96_braid_err": "0.0",
+      "morera_cauchy_loop_hol_err": "1.17685933389e-40",
+      "passed": true,
+      "planted_morera_St_err": "0.101934404997",
+      "planted_morera_norm_cube_err": "0.000207346479189",
+      "r_pc_fl4_1_caught": true,
+      "s_triplet_weight_3_2_contour_err": "1.5959898326e-36"
+    },
+    "REF_FL4_2": {
+      "harmonic_adversarial_cell_err": "0.0",
+      "max_contour_cocycle_err": "4.36892539349e-44",
+      "max_prod_zeta_diff": "3.33333333333e-11",
+      "passed": true,
+      "planted_p6_jump_over_norm_vs_sqrt3": "1.22613615628e-45",
+      "r_pc_fl4_2_caught": true
+    },
+    "REF_FL4_3": {
+      "max_contour_null_quat_err": "3.12055873487e-46",
+      "max_prod_vs_ref_det_rel_err": "7.08001610888e-17",
+      "max_single_point_leibniz_det": "5.70345011343e-49",
+      "passed": true,
+      "planted_k6_only_det_Wd": "2.22418351376e-50",
+      "r_pc_fl4_3_caught": true
+    },
+    "REF_FL4_4": {
+      "k56_newton_girard_split": "0.00730707860869",
+      "max_e5_24pts_newton_girard_diff": "4.37905770102e-47",
+      "passed": true,
+      "planted_k5_only_ng_diff": "1.77899219104e-47",
+      "prod_vs_ref_ckm_diff": "4.58947639671e-13",
+      "r_pc_fl4_4_caught": true
+    },
+    "REF_FL4_5": {
+      "casimir_hd_yu_coeffs": [
+        "-41/240",
+        "33/16",
+        "16/3"
+      ],
+      "casimir_hu_yd_coeffs": [
+        "-53/240",
+        "33/16",
+        "16/3"
+      ],
+      "expm_scrambling_err": "5.25486924122e-46",
+      "gl6_85_vs_prod_gbs8_90_frob_err": "1.26330850758e-12",
+      "passed": true,
+      "planted_mssm_b22_14_g2sq_drift": "0.00151127164599",
+      "r_pc_fl4_5_caught": true
+    },
+    "REF_FL4_6": {
+      "passed": true,
+      "periodic_trap_kahler_err_tau_cov": "1.30670588781e-45",
+      "periodic_trap_kahler_err_tau_rect": "1.77824279699e-45",
+      "producer_ast_clean": true,
+      "producer_json_float_token_count": 0,
+      "producer_sha256_verified": true,
+      "r_pc_fl4_6_caught": true
+    }
+  },
+  "modules_passed": 6,
+  "modules_total": 6,
+  "planted_controls_caught": 6,
+  "planted_controls_total": 6,
+  "role": "cold_room_referee",
+  "working_dps": 45
+}
