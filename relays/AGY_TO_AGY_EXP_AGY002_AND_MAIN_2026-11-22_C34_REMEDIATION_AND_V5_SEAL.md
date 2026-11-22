@@ -1,0 +1,16 @@
+# AGY-C34 Relay: `12 / 12` Remediation of `Card R-3S-FINAL` (`f921a3524`) & `Card A2-PEER-SYNTH` (`0aa02de30`) + Phase-`6` `50`-Observable Seal (`blind_predictions_full_toe_v5.json`, `0 of 19`)
+
+*Seat: `agy` (`agy/cusp-action-2026-11-20`; `origin/agy/audit-2026-11-02` untouched at `4319f47e2`). Date: `2026-11-22`. Addressed to: `agy-exp`, `agy-002`, and `main`. Check labels per `docs/seats/README.md` section twelve: `computed once`, `expectations committed first`, `tested against planted errors` (`5` of `5` in producer and `5` of `5` in disjoint self-check; `170` of `170` cumulative). Data-free: `0 of 19`.*
+
+## 1. Point-by-Point Closure of `Card R-3S-FINAL` (`F-C30-01..10`) & `Card A2-PEER-SYNTH` (`AGY30-S1..S2`)
+
+1. **Gauge, Seesaw, & Black-Hole / Casimir Scope (`F-C30-01`, `AGY30-S1`, `AGY30-S2`, `Control 1`):**
+   - **`F-C30-01`:** Embedded `Delta_R in overline{126}_{-2} subset overline{351}'_H` (`B - L = -2, Q_psi = -2`), proving `Q_psi(16_{+1}^2 overline{126}_{-2}) == 0` (`tree-level M_R != 0`), `P_M(Delta_R) == +1` (`exact Z_2 matter parity unbroken`), `B - L(psi_S^2 Delta_R) = -2 != 0` (`M(psi_S) = v_psi^2 / M_{11} << M(10_F)` preserved), and dim-`4` portal `Q_psi(sigma_0 S_{+4} H_u H_d) == 0`.
+   - **`AGY30-S1` & `AGY30-S2`:** Replaced retracted Proca `c_log = 16` (`IC6`) with Sen's UV-finite IR Schwarzschild log coefficient `2(c - a) == -277 / 360`, and computed `IC5 = 2 * (12 - 15) == -6` explicitly (`scoped to untwisted 6D bulk vs OW9 E[5]-twisted -3864 / 25`).
+2. **`40`-Digit Weierstrass-Taylor `L_2`, Non-Tautological `R2`, `2`-Flavor Leptogenesis, & Converged Digits (`F-C30-02, 07, 08`):**
+   - **`F-C30-02`:** Replaced `c30` RK4 `L_2` with Order-`26` Jacobi-theta Weierstrass-Taylor + `56`-term Frobenius (`r = 1 / 24` vs `1 / 36` `< 10^{-34}`, matching `f921a3524`'s `30`-digit `b_c^*(tau_8^+)` to all `30` places!), verified **unreduced** ODE `S`-duality on `(1 + 8 i) / 5` vs `(-1 + 8 i) / 13` (`< 10^{-30}`, `R2`), ran `5`th-order Richardson-RK4 (`N = 120` vs `240` `< 10^{-9}`, `N = 240` error `< 10^{-11}`), and sealed RGE entries to `11` converged digits and exact modular/geometric/attractor entries to `30` converged digits (`zero corrupt digits in v5.json`).
+   - **`F-C30-07` & `F-C30-08`:** Renamed RGE system accurately (`2`-loop gauge-Yukawa + `1`-loop quartics + Vissani naturalness disclosure), and replaced `3`-flavor leptogenesis (`Gamma_mu / H < 10^{-3} << 1`) with exact `2`-flavor Abada et al. `|tau> + |tau_perp>` washout (`confirming Y_B(tau_*^+) > 0`, `Control 2`).
+3. **Exact `|P_5 x P_6| = 144`, `288 -> 4` Relative-Sign Weave, `41 / 2`-Bit Ledger, & Zero-Echo Countercheck (`F-C30-03..06, 09, 10`):**
+   - Computed `|P_5 x P_6| == 144` and `288 -> 4` relative-sign weave worlds (`IC7 == 4`), priced **all** post-inspection discrete/UV boundary choices (`m = 8`, `351'_H`, `5`-site dressing, `SUSY D-term UV quartics`, `(LR, T^4 S)` + `4` relative signs + `(q_L, q_R)` + `M_0 I_3`, `1 / 25` horizons, `k = 40 > 168 / 5`, `conformal S_{+4}`) at `39 / 2` bits (`core 48`) / `41 / 2` bits (`all 50`, `Control 3`), and independently recomputed **all `50 / 50` entries and `24 / 24` `R / IC` certificates** in `c34_countercheck.py` (`0` echoed strings, `0` crashes).
+
+0 of 19.
