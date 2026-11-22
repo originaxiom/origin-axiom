@@ -1,0 +1,183 @@
+{
+  "E1_orbifold_e6_coroot_multiplet_splitting": {
+    "E1_passed": true,
+    "PC_L23_1_caught": true,
+    "Tr_Qpsi_on_351p": 0,
+    "chiral_spinor_weights_across_3_families": 48,
+    "constructed_351p_dim": 351,
+    "coroot_generators_in_Qv_E6": true,
+    "e6_6d_quartic_trace_factorization_exact": true,
+    "isolated_Delta_L_dim_in_351p": 3,
+    "isolated_Delta_R_bar_dim_in_351p": 3,
+    "isolated_Phi_in_27_S_D3_D3bar_dims": [
+      4,
+      1,
+      3,
+      3
+    ],
+    "planted_c26_wWL_surviving_spinors": 0,
+    "sectors_in_27_count": 8,
+    "surviving_g_LR_dim": 15,
+    "surviving_root_split_SU3_SU2L_SU2R": [
+      6,
+      2,
+      2
+    ]
+  },
+  "E2_continuous_witten_discrete_anomalies_and_unique_Ngen3": {
+    "E2_passed": true,
+    "Mg_chiral_LR_Dparity_LR_SMplusS_at_N3": [
+      15,
+      21,
+      13
+    ],
+    "PC_L23_2_caught": true,
+    "anom_free_ngens_1_to_20": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18
+    ],
+    "dep_safe_ngens_SM_plus_S": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dep_safe_ngens_chiral_LR": [
+      1,
+      2,
+      3
+    ],
+    "planted_Ngen2_SU3_sq_Z3_residue": 2,
+    "planted_PS_10bar_Mg_exceeds_31": 32,
+    "unique_surviving_N_gen": [
+      3
+    ]
+  },
+  "E3_z18_holomorphy_projector_splitting_and_r_2_over_5_unification": {
+    "E3_passed": true,
+    "PC_L23_3_caught": true,
+    "allowed_operator_q18_residues": {
+      "L_Lc_Phi": 0,
+      "Lc_Lc_DeltaRbar": 0,
+      "Q_Qc_Phi": 0,
+      "S_Hu_Hd": 0,
+      "S_cubed": 0,
+      "Sconj_chiS_sq": 0
+    },
+    "b1_chiral_LR_BL_2L_2R_3C": [
+      "11/2",
+      "-8/3",
+      "-2",
+      "-7"
+    ],
+    "b2_chiral_LR_4x4": [
+      [
+        "61/2",
+        "9/2",
+        "81/2",
+        "4"
+      ],
+      [
+        "3/2",
+        "37/3",
+        "6",
+        "12"
+      ],
+      [
+        "27/2",
+        "6",
+        "31",
+        "12"
+      ],
+      [
+        "1/2",
+        "9/2",
+        "9/2",
+        "-26"
+      ]
+    ],
+    "bidoublet_projector_light_doublets": 2,
+    "buttazzo_1hdm_2loop_benchmark_exact": true,
+    "forbidden_wrong_higgs_q18_residues": {
+      "L_Lc_Phitilde": 6,
+      "Q_Qc_Phitilde": 6
+    },
+    "planted_wrong_hypercharge_r": "32/65",
+    "q18_Delta_R_bar_unbroken": 0,
+    "r_LR_chiral_exact": "2/5",
+    "r_LR_dparity_exact": "8/25",
+    "rk4_N2000_vs_N4000_rel_err": "8.3619046e-12",
+    "two_loop_inv_alpha_IR_at_aGUT40_L32": [
+      "55.395839880423",
+      "25.869694952791",
+      "3.7509609466496"
+    ]
+  },
+  "E4_full_rank_seesaw_ckm_2flavor_lepto_and_scrambling": {
+    "E4_passed": true,
+    "PC_L23_4_caught": true,
+    "abs_det_MR": "0.100787549609",
+    "ckm_moduli_v12_v23_v13": [
+      "0.1921438596",
+      "0.04730324491",
+      "0.02832301258"
+    ],
+    "nu_mass_ratios_13_23": [
+      "0.01022917481",
+      "0.1237936009"
+    ],
+    "planted_single_bidoublet_ckm_v12": "7.6019577e-46",
+    "pmns_moduli_u12_u23_u13": [
+      "0.5412388271",
+      "0.3412057432",
+      "0.174477091"
+    ],
+    "su3_pow5_x_u3_scramble_max_err": "6.1306808e-46",
+    "yb_2flavor_proxy": "0.0001797661843"
+  },
+  "E5_matter_parity_pseudoscalar_portal_and_swave_majorana_dm": {
+    "E5_passed": true,
+    "PC_L23_5_caught": true,
+    "PM_charges": {
+      "Delta_R_bar": 1,
+      "L": 1,
+      "Lc": 1,
+      "Phi_12": 1,
+      "Q": 1,
+      "Qc": 1,
+      "S": 1,
+      "chi_S": -1
+    },
+    "det_M_phys_2x2_exact": "3*kapS*muSH*vS**2*(vd**2 + vu**2)/(2*vd*vu)",
+    "exact_single_EW_goldstone": true,
+    "majorana_pseudoscalar_swave_sigma_v": "Nc*g_ca**2*g_fa**2*m*sqrt(m**2 - mf**2)/(2*pi*(-M_med**2 + 4*m**2)**2)",
+    "off_diag_A0_aS_mixing_sq": "muSH*sqrt(2*vd**2 + 2*vu**2)/2",
+    "planted_kapS_zero_det": "0"
+  },
+  "E6_radiative_higgs_stability_6d_casimir_and_guardrail5_ledger": {
+    "E6_passed": true,
+    "PC_L23_6_caught": true,
+    "honest_guardrail5_ledger_valid": true,
+    "n_4d_Zprime_psi_vectors": 0,
+    "planted_fake_zero_param_rejected": true,
+    "planted_two_anchors_rejected": true,
+    "untwisted_6d_bulk_casimir_computed": -6,
+    "vissani_cubic_suppression_at_r_2_5_L32": "2.1042236e-17"
+  },
+  "all_6_modules_passed": true,
+  "all_6_planted_controls_caught": true,
+  "ast_zero_float_and_complex_check": {
+    "ast_clean_passed": true,
+    "binary64_cast_call_count": 0,
+    "float_or_complex_literal_count": 0,
+    "float_or_complex_literal_lines": []
+  },
+  "card": "X-E6PS-LINK23",
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 6,
+  "planted_controls_total": 6
+}
