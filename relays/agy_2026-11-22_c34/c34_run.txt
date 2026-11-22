@@ -1,0 +1,1 @@
+AGY-C34 producer complete in 423s: 50/50 v5.json + 24 certs, bc_tau8=0.6264045226997963..., YB_2fl=3.0494696587e-9, R2=6.9e-37, R5=2.51e-10, controls=5/5
