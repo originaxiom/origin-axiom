@@ -2,3 +2,9 @@ Pre-output stop at 475d0bcd5 (zero output written; MERGE_BASE_COMMIT had typo su
 
 fatal: Invalid revision range 60a52d35959b7d6cd2008b1a23f0d365a8584208..6f285488c49f4bec5354b20df14c9240aa88a009
 subprocess.CalledProcessError: Command '['git', ..., 'log', '--reverse', '--name-status', '--format=COMMIT:%h', '60a52d35959b7d6cd2008b1a23f0d365a8584208..6f285488c49f4bec5354b20df14c9240aa88a009', '--', 'relays']' returned non-zero exit status 128.
+
+Pre-output stop 2 at 68e3801ec (zero output written; mpmath.matrix has no .conj() attribute at line 1075 — replaced with explicit elementwise mp.conj on u_tak and verified Takagi M_R = U_tak * diag(M_i) * U_tak^T):
+
+File ".../relays/r_agy_c24_verify/verify_agy_c1_to_c24.py", line 1075, in eval_leptogenesis_flavors
+  y_hat = ue_u.H * yn_m.conj() * u_tak
+AttributeError: 'matrix' object has no attribute 'conj'

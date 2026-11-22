@@ -1058,21 +1058,24 @@ def run_module_m4_rge_and_ewsb(
 def eval_leptogenesis_flavors(
     ye_m: mp.matrix, yn_m: mp.matrix, mr_m: mp.matrix, use_buggy_sign: bool
 ) -> Dict[str, Any]:
-    # Charged-lepton left eigenbasis U_e and Takagi symmetric diagonalization M_R = U_R^* diag(M_i) U_R^H
-    _, ue_ord_svd = svd_asc_mp(ye_m)
-    # Note: svd_asc_mp returns (U_ord, sv_list); unpack properly:
+    # Charged-lepton left eigenbasis U_e and Takagi symmetric diagonalization M_R = U_tak * diag(M_i) * U_tak^T
     ue_u, _ = svd_asc_mp(ye_m)
-    mr_h = mr_m.H * mr_m
-    ev_sq, u0 = mp.eighe((mr_h + mr_h.H) / 2)
+    mr_hh = mr_m * mr_m.H
+    ev_sq, u0 = mp.eighe((mr_hh + mr_hh.H) / 2)
     ord_m = sorted(range(3), key=lambda k: ev_sq[k])
     m_vals = [mp.sqrt(max(mp.mpf(0), ev_sq[k])) for k in ord_m]
     u_tak = mp.matrix([[u0[r, ord_m[c]] for c in range(3)] for r in range(3)])
-    sym_diag = u_tak.T * mr_m * u_tak
+    u_tak_conj0 = mp.matrix([[mp.conj(u_tak[r, c]) for c in range(3)] for r in range(3)])
+    sym_diag = u_tak.H * mr_m * u_tak_conj0
     for c in range(3):
         ph = mp.arg(sym_diag[c, c]) / 2
         for r in range(3):
-            u_tak[r, c] *= mp.exp(-mp.mpc(0, 1) * ph)
-    y_hat = ue_u.H * yn_m.conj() * u_tak
+            u_tak[r, c] *= mp.exp(mp.mpc(0, 1) * ph)
+    recon = u_tak * mp.diag(m_vals) * u_tak.T
+    tak_err = mp.sqrt(mp.fsum(abs(mr_m[r, c] - recon[r, c]) ** 2 for r in range(3) for c in range(3)))
+    assert tak_err < mp.mpf("1e-34"), f"Takagi error: {tak_err}"
+    u_tak_conj = mp.matrix([[mp.conj(u_tak[r, c]) for c in range(3)] for r in range(3)])
+    y_hat = ue_u.H * yn_m * u_tak_conj
     h_mat = y_hat.H * y_hat
     m1 = m_vals[0]
     eps_flav = [mp.mpf(0), mp.mpf(0), mp.mpf(0)]
