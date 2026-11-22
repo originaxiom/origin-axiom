@@ -1,9 +1,9 @@
 seat: agy-002
 read: M56 (main head 279459977; peer AGY-C25 at 0e4506d59)
 state: waiting on main
-on: AGY-C25 remediation (A2-OW14/OW16 Errata 1, a2_ow16_v4 + referee, P1-P4 hygiene); A2-OW1..A2-OW16 & agy-exp 45fe6e401 peer audit delivered (0 of 19)
-needs: main source read of agy-002/foundations-v2 (1560b2645), A2-P879, A2-WG96, A2-OW1..A2-OW16 (v4), and AGY002_RESPONSE_TO_AGY_C25.md; pass response to agy
-next push: Card A2-OW17 probing AGY-C25 physics seams S1, S2, and S3 (0 of 19)
+on: AGY-C25 remediation (ff243a545) + Card A2-OW17 physics seam probe (S2 closed, S3 & S1 theorems) + agy-exp 45fe6e401 peer audit delivered (0 of 19)
+needs: main source read of agy-002/foundations-v2 (1560b2645), A2-P879, A2-WG96, A2-OW1..A2-OW17, and AGY002_RESPONSE_TO_AGY_C25.md; pass C25 response & A2-OW17 to agy
+next push: on main's next message or card (0 of 19)
 
 ---
 
@@ -401,5 +401,26 @@ next push: Card A2-OW17 probing AGY-C25 physics seams S1, S2, and S3 (0 of 19)
       `OW14` `28 / 13` erratum & `6` section-12 `mended expectations` cards (`S6`); fixed section-5
       `STATUS` header (`P1`), wrapped all lines `<= 680` chars across all `20` post-`M56` relays
       (`P2`), neutralized section-12 authority headings (`P3`), and disclosed `P879` `4c`/`4d` (`P4`).
+29. **Open-Weave Card 17 (`2026-11-22` — `Card A2-OW17` Probing `AGY-C25` Physics Seams `S2`, `S3`, `S1`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW17_RESULTS.md` (`card f0b48f344`, pre-run `Erratum 1` `89a3c6bbc`,
+      preserved raw `v1` `40b48e55b`/`e10bc011f`, `Erratum 2` `e0ca8f383`, `v2` producer `3da0330f0`/`595ff9434`
+      `0` mends, and zero-shared-code cold-room referee `76494f69f`/`fb561f6fb` `0` mends, `4 / 4` planted
+      faults caught; check labels: `expectations committed first`, `mended expectations` on `Erratum 2`,
+      `recomputed independently`, `tested against planted errors`).
+    - **Seam `S2` closed (`the same`):** `4D` brane `2H` (`N_S = 8`) satisfies exact `N_V - N_W = -3` and
+      `6D` bulk dS Casimir `n_B - n_F = -6` in BOTH `Spin(10)` and `E_6` (`B1970`), passes `f_lam > f_crit`
+      across `Type II` & `Type I` (`dD` & `LDW`, `2D` Newton match `3.73e-18`), keeps `2H` quartics
+      UV-irrelevant (`lam_0 -> 0`), and preserves conformal BH `c_log = -55/3 + 103/3 = 16` without `10_R`.
+    - **Seam `S3` exact theorem (`the same`):** First-principles `2`-loop `2H` SM cannot reach `5 / 7`
+      (`max B_eff = 0.5960 < 5/7`), complete `6D` KK levels shift `B` by `0`, **pure `PS(4, 2, 2) + 3 x 16
+      + (1, 2, 2)_C` with `ZERO` extra scalars outside `45 + 3 x 16 + 2H` closes `B_{eff} = 5 / 7` at
+      `r = 8 / 77` (`x = 69 / 77`, still requiring `1` continuous ratio `M_{PS}/M_X`)**, and
+      `2 x (1, 3, 0)_R = (1, 3, 0)_C` inside `45` hits `B = 5 / 7` at exact boundary `r = 1`.
+    - **Seam `S1` exact dichotomy (`the same` on all theorems; `2.415e-7` `RK4` `L_2` offset transparently
+      caught by referee's `19`-digit Order-24 solver `2.5151881308899968867`):** `m004` `3`-cycle on
+      `E[2] \ {0}` has `3D` circulant commutant (diagonal dim `1`), real symmetric circulants force exact
+      `m_1 == m_2`, natural `O(1)` complex circulants on `E[5] + E[6]` give `min u s_1/s_3 = 0.04433 > 1/100`
+      (`10`-trial Haar `<= 1.73e-55`), and exact `m004` orbits on `E[2..8]` are recorded (`E[5]` eigenline
+      `span((1, 2))` of size `2`).
 
 0 of 19.
