@@ -63,6 +63,6 @@
      introduces **zero** $3\times 3$ flavor distortion, and audit the exact reduction from `42` complex Yukawa/Majorana
      entries (`0` free internal `3x3` texture entries given $\tau$) while explicitly pricing discrete choices and
      inventorying remaining overall bulk/brane scales for Link `B` (`PC_FL4_6` catches unpriced `0`-bit modulus smuggling).
-   - (`Revision note: v1 at dcd08e9b3 tripped assertions before writing output and is preserved untouched; v2 in`
-     `relays/x_flavor_link4_v2_verify/ fixes math.gcd, |P_6|=24 points, shared R_k=0 on p_6, order-6 GBS6 M=50 vs 100`
-     `RGE integration, and n_gl=28 quadrature before running v2 once.`)
+   - (`Revision note: v1 at dcd08e9b3 and v2 at 6561cbf68 tripped pre-output exceptions, including an outer`
+     `comprehension typo for c in range(3) on line 629 of v2, and are preserved untouched; v3 in`
+     `relays/x_flavor_link4_v3_verify/ fixes line 629's comprehension variable c -> r with expectations unchanged.`)
