@@ -1,0 +1,1 @@
+AGY-C30 disjoint self-check PASSED in 222s: 45/45 v4.json + 20/20 certs verified (max_rel=1.631e-9, Cayley_SU3_err=8.386e-33), 5/5 planted faults caught (0 of 19).
