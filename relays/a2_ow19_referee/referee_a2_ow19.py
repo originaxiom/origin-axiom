@@ -354,7 +354,7 @@ def run_ref_ps(ps_json: dict[str, Any]) -> tuple[dict[str, Any], int]:
         true_tan_beta = (lam1_Hd / lam2_Hu) ** mp_rat(1, 4)
 
         xh_json = json.loads(git_show_text("75cb20177", "relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4_out.json"))
-        xh_tan_beta = mp.mpf(xh_json["H3_e6_holomorphy_ewsb_and_pati_salam"]["yb_high_conformal_tan_beta"])
+        xh_tan_beta = mp.mpf(xh_json["H3_e6_brane_2hdm_gauged_holomorphy_and_conformal_ewsb"]["yb_high_conformal_tan_beta"])
         xh_main_tex = git_show_text("75cb20177", "self_consistent_loop/manuscript/main.tex")
         xh_script_txt = git_show_text("75cb20177", "relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4.py")
         tex_has_swapped_formula = ("\\left(\\frac{\\lambda_2}{\\lambda_1}\\right)^{\\!1/4}" in xh_main_tex) and ("1.11472" in xh_main_tex)
