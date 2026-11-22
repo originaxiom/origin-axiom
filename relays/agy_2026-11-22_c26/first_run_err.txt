@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "relays/agy_2026-11-22_c26/c26_algebraic_gauge_anomaly_and_crystallographic_remediation.py", line 779, in <module>
+    main()
+  File "relays/agy_2026-11-22_c26/c26_algebraic_gauge_anomaly_and_crystallographic_remediation.py", line 738, in main
+    e1 = run_e1_e8_mp2z_and_covers()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "relays/agy_2026-11-22_c26/c26_algebraic_gauge_anomaly_and_crystallographic_remediation.py", line 299, in run_e1_e8_mp2z_and_covers
+    assert len(gt_elems) == 96
+AssertionError
