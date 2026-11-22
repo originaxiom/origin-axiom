@@ -1,0 +1,1 @@
+AGY-C25 countercheck independent checks PASSED; planted faults caught: 5/5
