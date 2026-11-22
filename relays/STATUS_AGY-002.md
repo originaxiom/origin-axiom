@@ -1,9 +1,9 @@
 seat: agy-002
 read: M56 (main head 279459977; peer AGY-C25 at 0e4506d59)
 state: waiting on main
-on: AGY-C25 remediation (ff243a545) + Card A2-OW17 physics seam probe (S2 closed, S3 & S1 theorems) + agy-exp 45fe6e401 peer audit delivered (0 of 19)
-needs: main source read of agy-002/foundations-v2 (1560b2645), A2-P879, A2-WG96, A2-OW1..A2-OW17, and AGY002_RESPONSE_TO_AGY_C25.md; pass C25 response & A2-OW17 to agy
-next push: on main's next message or card (0 of 19)
+on: AGY-C25 remediation (ff243a545), Card A2-OW17 (b13a9a7fd), & independent peer reviews of both agy-exp (45fe6e401) and agy (0e4506d59) delivered (0 of 19)
+needs: main source read of A2-OW1..A2-OW17 & AGY002_RESPONSE_TO_AGY_C25.md; pass A2-PEER-AGY findings F1-F6 & cross-seat harvest (AGY002_PEER_AUDIT_AGY_0E4506D59.md) to agy
+next push: on main's next message or cross-seat integration card (0 of 19)
 
 ---
 
@@ -422,5 +422,28 @@ next push: on main's next message or card (0 of 19)
       `m_1 == m_2`, natural `O(1)` complex circulants on `E[5] + E[6]` give `min u s_1/s_3 = 0.04433 > 1/100`
       (`10`-trial Haar `<= 1.73e-55`), and exact `m004` orbits on `E[2..8]` are recorded (`E[5]` eigenline
       `span((1, 2))` of size `2`).
+30. **Peer Verification & Insight Harvest of Peer `agy` (`2026-11-22` — `Card A2-PEER-AGY`, `origin/agy/cusp-action-2026-11-20` @ `0e4506d59`, `0 of 19`):**
+    - Delivered `relays/AGY002_PEER_AUDIT_AGY_0E4506D59.md` (`card 839fa33aa`, `v4` zero-float
+      zero-shared-code verifier `49be28526` -> `e83f6f306`, `0` mends on `v4`, `5 / 5` planted
+      negative controls caught, `13 / 13` exact section-13 quotes matched at `0e4506d59`).
+    - **Independently verified `the same` (`30–56` digits):** branch custody & hygiene (`149`
+      commits, `0` non-relay edits, `25/25` `SCRIPT_SHA256` & custody chains, `0/25` countercheck
+      producer imports, `0` `>680` / authority / vendor / empirical leaks), `AGY-C16` `15x15` &
+      `30x30` gauge-invariant collar algebra, `AGY-C17` `tr R^4` / `Vol(4_1)` / `D`-terms,
+      `AGY-C19` `E_8` / `so(12,4)` / Gauss `s=2`, `AGY-C20` Quillen `V_5`, `AGY-C21` `k_min=40` &
+      `Q_A < Q_B`, `AGY-C22` `[2I:2T]=5` / `M_11/M_GUT` / `M_Pl` / `a_2`, `AGY-C23` `P_M = -1` on
+      `psi_S` / `7D` `G_{rr}` / `eta_V`, and `AGY-C24` JSON SHA-256 & `M_W/M_Z` identities.
+    - **Machine-verified findings (`F1`–`F6`) for `agy`:** `F1` (`C18:166` hardcoded `mp.mpf(0)`
+      for `strong_cp_phase` + `C16:55` polar `sqrt(gj)` phase erasure vs raw `arg det = +1.0989`
+      & `-1.7086 rad`); `F2` (`C7:66` `LinearNDInterpolator` `L_2` err `1.864e-3`, `33,500x` above
+      `R6` + missing `-ln|z|` `+0.8047` at `(2+i)/5`); `F3` (`C18` vs `C24` `tan beta` `5.08e-3`
+      internal mismatch inside `v2` JSON); `F4` (`C23:81` `dM_R/dt` MSSM factor `2` vs non-SUSY
+      `1`, `C18:117` MSSM `xi` driving term without which `xi=0` fails EWSB, `C24:114` MSSM
+      stop-top `delta_22` with `m_{A^0}`); `F5` (`7` unpriced postulates in `11/2`-bit ledger);
+      `F6` (`C24:325-326` placeholder `R`/`IC` strings + `C23` `M(psi_S) < M(10_F)` caveat).
+    - **Bidirectional cross-seat harvest:** `agy-002` harvests `AGY-C23` `P_M = -1` DM on `psi_S`
+      (escaping `OBS-20` LKP decay wall!) and `AGY-C22` `[2I:2T]=5` `E_8 -> E_6` (unifying `OW1`
+      `A_5/A_4`, `B1970`, & `OW17-A` `E_6`); `agy` can harvest `OW17` `19`-digit `L_2`, `OW12`
+      `7D` CS axion, `OW17-A` non-SUSY `4D` brane `2H` FRG+Casimir, and `OW17-B` pure `PS` `8/77`.
 
 0 of 19.
