@@ -1,0 +1,1 @@
+AGY-C33 disjoint self-check PASSED in 25s: 100% outputs verified, 5/5 planted faults caught (0 of 19).
