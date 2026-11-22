@@ -1,0 +1,11 @@
+Pre-output stop on relays/x_harvest_3s_1_v3/verify_x_harvest_3s_1_v3.py (fa9fa0aaf; zero output files written; v3 left frozen unedited, superseded before any output by relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4.py):
+
+Traceback (most recent call last):
+  File "relays/x_harvest_3s_1_v3/verify_x_harvest_3s_1_v3.py", line 1033, in <module>
+    main()
+  File "relays/x_harvest_3s_1_v3/verify_x_harvest_3s_1_v3.py", line 1025, in main
+    assert payload["all_6_modules_passed"], f"Failed modules: {[i+1 for i, ok in enumerate(mods) if not ok]}"
+AssertionError: Failed modules: [3]
+
+Modules 1, 2, 4, 5, 6 all passed cleanly on the first run.
+Cause in Module 3 (line 519): B_eff = (b_2 - b_3) / (b_1 - b_2) = 5/7 requires db23_eff == (5/7) * db12_eff (giving rhs = 5*36/5 - 7*4 = 8 and denom = 77 -> r = 8/77), whereas line 519 swapped numerator and denominator as db12_eff == (5/7) * db23_eff. Fixed in v4.
