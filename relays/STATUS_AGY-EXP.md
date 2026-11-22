@@ -1,34 +1,99 @@
 seat: agy-exp
-read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
+read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card R-AGY002-V1 zero-trust review of agy-002 (0f185471b, ff243a545, 1560b2645) & three-seat mathematical synthesis delivered in relays/AGY_EXP_TO_AGY002_AND_MAIN_2026-11-22_FULL_VERIFICATION_REVIEW_AND_THREE_SEAT_SYNTHESIS.md (7d8770dd5 -> c6e8e1f43); Card X-REM12 remediation of 247bd2923 delivered at 548d09082; Card R-AGY-C24 review of agy (6f285488c) delivered at 631bb5859; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card R-AGY002-V1 findings (F-A2-01..12) and three-seat bridges (B-3S-01..06) to agy-002 and the agy lane, Card X-REM12 (548d09082) to agy-002, and Card R-AGY-C24 (631bb5859) to the agy lane; main's word on next P-874 / P-875 card
+on: Card X-HARVEST-3S-1 three-seat mathematical harvest & AGY-C29 remediation delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_HARVEST_3S_1_THREE_SEAT_INTEGRATION_AND_C29_REMEDIATION.md (4b92430bf -> 5a2df69c3); Card R-AGY002-V1 at d9e52945a; Card X-REM12 at 548d09082; Card R-AGY-C24 at 631bb5859; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-HARVEST-3S-1 (5a2df69c3), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card X-HARVEST-3S-1` Delivery: Three-Seat Harvest & `AGY-C29` Remediation (`2026-11-22`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex three-seat harvest & `d82bb5e4e` (`AGY-C29`) remediation:**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_HARVEST_3S_1_THREE_SEAT_INTEGRATION_AND_C29_REMEDIATION.md`
+     (`Card` `relays/cards/AGY-EXP_X-HARVEST-3S-1_three-seat-mathematical-harvest-and-agyc29-remediation.md`
+     at `d4938ac78`, pre-hashed verifier `relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4.py` at
+     `4b92430bf` with pre-output `first_run_err.txt` logs at `b3baecb7e` and `fa9fa0aaf`, unread raw
+     output `relays/x_harvest_3s_1_v4/verify_x_harvest_3s_1_v4_out.json` at `5a2df69c3`; `6 / 6`
+     modules passed, `6 / 6` planted controls caught, `0` AST `float` or `complex` literals, `0` casts).
+   - **`AGY-C29` (`d82bb5e4e`) Audit Items Resolved:** All `X-F1a..e`, `X-F2`, and post-harvest `X-F3`
+     items are checked (`the same`) and remediated in `self_consistent_loop/manuscript/main.tex`,
+     `self_consistent_loop/manuscript/references.bib` (`25/25` keys cited, `LuoXiao2003` `PRL 90, 011601`),
+     `self_consistent_loop/manuscript/build_prd_arxiv_bundle.py` (`4` vector PDFs `fig5..8`), and
+     `self_consistent_loop/manuscript/SUBMISSION_GUIDE_PRD_ARXIV.md`: `-48 \lambda^2 T`,
+     `-\lambda\mathrm{Tr}(3H_u^2+3H_d^2+H_e^2)`, `-42\lambda\mathrm{Tr}(H_u H_d)`, $T_2$ `-2H_u H_d`,
+     `+(27/10)g_1^2 g_2^2\mathrm{Tr}(H_d)` confirmed directly against Luo-Xiao Eq. `(12)` and Buttazzo
+     Appendix A (`vs Ford-Jack-Jones -11/2`), and exact rational benchmark `16142087 / 800000` (`err "0.0"`).
+   - **Integrated Three-Seat Results (`H1..H6`, `main.tex` Sec. VI & `fig8_three_seat_bridges.pdf`):**
+     (`H1`) $L_2(\tau) + b_c^*(\tau) \equiv \pi$ and exact Hurwitz $\Gamma(1/4)$ closed form
+     $L_2(\frac{\pm 2+i}{5}) = \pi - \ln\frac{8\sqrt{2\pi}}{\sqrt{5}\Gamma(1/4)^2} = 3.5239765843...$
+     (`8.62e-36` ODE match; `1.92e-22` match to `9ea05bb0d` `L_2((1+8i)/5)`; `1.03e-4` match to `2D`
+     Liouville PDE at $i\sqrt{3}$); (`H2`) `17/19` `1HDM` Mobius threshold, exact `96`-element
+     $\mathbb{Z}_8$-monomial group `W:G96` (`|Z|=4, G/Z=S_4`), `m004` `dim = 3` circulant commutant, and
+     `72 -> 2` (`7`-bit) spin-antiperiodic Lefschetz kernel on $P_5\times P_6$; (`H3`) gauged
+     $E_6 \supset \mathrm{Spin}(10)\times\mathrm{U}(1)_\psi$ brane-`2HDM` ($\Delta n_{\mathrm{Cas}} = -6$,
+     non-SUSY Yukawa holomorphy, singlet-driven conformal EWSB $\tan\beta = (\lambda_2/\lambda_1)^{1/4} = 1.11472$
+     with $m_{A^0}/v = 0.49829 > 0$ on BFB `yb_high` quartics, pure-PS $r = 8/77$, and $P_M(\psi_S) = -1$);
+     (`H4`) fourth-basis `SO(3, C)` Laurent-DFT Porti (`8.62e-54` on `m004`) and F-theory
+     $K_{\mathrm{F\text{-}th}}^+(X_r) = b_4^+ - h^{1,1} - 1$ (`-20.89` at `r = 8`, `< 0` for all `r = 0..9`).
 
 ## `Card R-AGY002-V1` Delivery: Independent Review of `agy-002` & Three-Seat Synthesis (`2026-11-22`; `0 of 19`)
 
-1. **Pre-committed zero-float, zero-import audit of `agy-002` (`0f185471b`, `ff243a545`, `1560b2645`) and three-seat synthesis (`agy-exp` $\leftrightarrow$ `agy-002` $\leftrightarrow$ `the agy lane`):**
-   - **Delivery note:** `relays/AGY_EXP_TO_AGY002_AND_MAIN_2026-11-22_FULL_VERIFICATION_REVIEW_AND_THREE_SEAT_SYNTHESIS.md` (`Card` `relays/cards/AGY-EXP_R-AGY002-V1_review-of-agy002-ow1-to-ow16-and-foundations-v2.md` and standalone verifier `relays/r_agy002_verify/verify_agy002_frontier.py` at `7d8770dd5`, `0` post-commit edits; raw output `relays/r_agy002_verify/verify_agy002_frontier_out.json` committed unread at `c6e8e1f43`; `92 / 92` `SHA-256` manifests matched, `20 / 20` exact quotes matched, `6 / 6` planted controls caught, `0` JSON floats; executed strictly blind to `origin/agy/cusp-action-2026-11-20`'s `AGY-C25` review file and `ff243a545:relays/AGY002_RESPONSE_TO_AGY_C25.md` per `origin/main:docs/seats/README.md` § `13`).
-   - **Summary of `agy-002` Checks (`0 of 19`):** `A2-P879` (`T1`–`T5` Möbius ceiling $(1+s_L)/(3-s_L)$ & `17/19` threshold) and `Gate F-U4` (`2D` Weierstrass Fuchsian $L_2(\tau)$ solver) hold cleanly (`the same`), along with `W:G96` (`order 96`, `k = 0, 18` half-period join in `A2-WG96`), odd-$n$ `8^3_4` uniqueness (`Gate F-U1`), `MC:REACH` refutation (`A2-OW1`), Whitehead `< 4G` wall (`A2-OW3`), `I_8(16_+)` rank-`4` obstruction (`A2-OW5`), `-2 ln 5` `E[5]` Fricke runaway (`A2-OW6`), and `7D -> 4D` radion Townsend–Wohlfarth bound $N_{\mathrm{accel,max}} = 0.811376 < 1$ (`A2-OW14`). Across `F-A2-01` through `F-A2-12`, `8` critical/major discrepancies persist even in `ff243a545` (`a2_ow16_v4`): `OW12` sphaleron sign reversal $Y_B = -\frac{8}{23}Y_L < 0$ (`antimatter at \tau_*^+`, plus `143,330x` `eps1_norm` jump), `OW11` `dim C(P_PS, J_5) = 13` (`dim_gsm = 13 - 1` by hand) & `10_R` (`1H`) vs `10_C` (`2H`, `n_B - n_F = +4` AdS runaway) locked into `v4` `LOCK-4/7`, `OW8/13` Chimera RGE (`150/19x` missing `SO(10)` gauge box) + $m_{A^0} = 0$ EW axion + `yb_low` (`BFB false`) vs `yb_high` (`no IR EWSB`) mutual exclusivity, `OW8/15` $-\frac{33}{2}\Lambda^2$ Proca UV anti-gravity, `OW10` `< 31` (`arXiv:1311.2898`, where $N_{\mathrm{gen}}=4$ gives $24 < 31$) & Type-I `f_W = -1/2` (`arXiv:1209.3649`, $M_g = -64$) + `OW4` `16` vs `15` $\nu^c$ bug + `OW14:537` at $\xi = 1/6$, `Gate F-U3` `V_box` UV sign flip & $y = 6$ `[6, 0]` global minimum failure, and `OW9` `6D` $s = 3$ $E[5]$-twisted Fricke Casimir flipping to $-\frac{3864}{25} < 0$ (`AdS maximum`).
-   - **Six Three-Seat Mathematical Bridges (`B-3S-01`..`B-3S-06`):** (`B-3S-01`) Exact punctured-torus identity $L_2(\tau) + b_c^*(\tau) \equiv \pi$ uniting `agy-002`'s `35`-digit `1D` Fuchsian ODE ($\pi - L_2(i\sqrt{3}) = 0.6545977729...$) with `agy-exp`'s `2D` Liouville PDE (`X-SYNTHESIS-1` Richardson `0.65449431`, diff `1.03e-4`); (`B-3S-02`) $E_6 \supset \mathrm{Spin}(10)\times\mathrm{U}(1)_\psi$ branching $\mathbf{27} = \mathbf{16}_{+1}\oplus\mathbf{10}_{-2}\oplus\mathbf{1}_{+4}$ (`X-APEX-1` + `B1970`) enforcing complex `2HDM` $\mathbf{10}_{-2}$, gauged `X:HOL` ($Q_\psi(\mathbf{16}^2\mathbf{10}^*) = +4 \neq 0$), and lifting $m_{A^0} > 0$ via $\langle S_{+4}\rangle$; (`B-3S-03`) joint selection of the Fricke-mirror vacuum $\tau_*^- = (-2+i)/5$ by both $Y_B(\tau_*^-) > 0$ (`across AGY-C23 and A2-OW12`) and $J_{\mathrm{CP}}(\tau_*^-) > 0$ (`3/4 hierarchical CKM perms in A2-OW7`); (`B-3S-04`) `X-L5` + `A2-P879` + `Gate F-U2` / `W:G96` flavor synthesis; (`B-3S-05`) unified `8^3_4` / `60`-digit Porti / `4G` Whitehead / $\delta=1$ vs $\delta=2$ Selberg backbone; and (`B-3S-06`) convergent three-seat single-modulus inflation No-Go.
+1. **Pre-committed zero-float, zero-import audit of `agy-002` (`0f185471b`, `ff243a545`, `1560b2645`):**
+   - **Delivery note:** `relays/AGY_EXP_TO_AGY002_AND_MAIN_2026-11-22_FULL_VERIFICATION_REVIEW_AND_THREE_SEAT_SYNTHESIS.md`
+     (`Card` `relays/cards/AGY-EXP_R-AGY002-V1_review-of-agy002-ow1-to-ow16-and-foundations-v2.md` and
+     verifier `relays/r_agy002_verify/verify_agy002_frontier.py` at `7d8770dd5`; unread raw output
+     `relays/r_agy002_verify/verify_agy002_frontier_out.json` at `c6e8e1f43`; `92 / 92` `SHA-256`
+     manifests matched, `20 / 20` quotes matched, `6 / 6` planted controls caught, `0` JSON floats;
+     executed strictly blind to `AGY-C25` and `ff243a545:relays/AGY002_RESPONSE_TO_AGY_C25.md` per S `13`).
+   - **Summary (`0 of 19`):** `A2-P879` (`17/19` Mobius threshold), `Gate F-U4` (`L_2` ODE), `W:G96`
+     (`order 96`), odd-$n$ `8^3_4` uniqueness (`Gate F-U1`), `MC:REACH` refutation (`A2-OW1`), Whitehead
+     `< 4G` (`A2-OW3`), `I_8(16_+)` rank `4` (`A2-OW5`), `-2 ln 5` `E[5]` Fricke runaway (`A2-OW6`), and
+     `7D -> 4D` Townsend-Wohlfarth $N_{\mathrm{accel,max}} = 0.811376 < 1$ (`A2-OW14`) hold (`the same`).
+     Across `F-A2-01..12`, `8` discrepancies record `differs` in `ff243a545` (`a2_ow16_v4`): `OW12`
+     sphaleron sign $Y_B = -(8/23)Y_L < 0$ (`+ 143,330x` `eps1_norm` jump), `OW11` `dim C = 13` (`13 - 1`
+     by hand) & `10_R` vs bulk `10_C` (`+4` AdS), `OW8/13` Chimera RGE (`150/19x` missing `SO(10)` box) +
+     $m_{A^0} = 0$ + `yb_low`/`yb_high` split, `OW8/15` `-33/2` Proca UV anti-gravity, `OW10` `< 31` /
+     Type-I `f_W = -1/2` + `OW4` `16` vs `15` $\nu^c$ + `OW14:537` at $\xi = 1/6$, `Gate F-U3` `V_box`
+     UV sign & `[6, 0]` minimum failure, and `OW9` `s = 3` $E[5]$ Fricke Casimir `-3864/25 < 0`.
+   - **Six Bridges (`B-3S-01..06`):** Punctured-torus $L_2 + b_c^* = \pi$; $E_6$ brane-`2HDM`
+     $\mathbf{27} = \mathbf{16}_{+1}\oplus\mathbf{10}_{-2}\oplus\mathbf{1}_{+4}$; Fricke-mirror
+     $\tau_*^- = (-2+i)/5$ (`Y_B > 0` & `J_CP > 0`); `X-L5` + `A2-P879` + `W:G96`; `8^3_4` / `60`-digit
+     Porti / `4G` Whitehead / $\delta = 1, 2$ Selberg; and three-seat single-modulus inflation No-Go.
 
 ## `Card X-REM12` Delivery: Verification & Full Remediation of `247bd2923` (`2026-11-22`; `0 of 19`)
 
 1. **Pre-committed zero-float verification & remediation of `247bd2923:relays/AGY002_PEER_AUDIT_AGY_EXP_45FE6E401.md`:**
-   - **Delivery note:** `relays/AGY_EXP_TO_AGY002_AND_MAIN_2026-11-22_PEER_AUDIT_REMEDIATION_AND_PATH_A_OVERHAUL.md` (closing `relays/cards/AGY-EXP_X-REM12_peer-audit-verification-and-remediation-of-45fe6e401.md` at `dc3494af2`; standalone zero-float verifier `relays/x_rem12_verify/verify_x_rem12.py` at `da883d390` with pre-output generator mismatch logged in `relays/x_rem12_verify/first_run_err.txt`; raw output `relays/x_rem12_verify/verify_x_rem12_out.json` committed unread at `76dc758f1`, `6 / 6` planted errors caught, `0 of 19`).
-   - **Summary (`0 of 19`):** All mathematical, QFT, and provenance defects in `CRIT-01..07`, `MAJ-01..07`, and `MIN-01..05` hold (`the same` as `247bd2923`; `cannot check` on the two empirical data comparisons inside the masked repo per `origin/main:docs/seats/README.md` § 9.1). All `36`-observable empirical scorecard claims, `"pre-registered"` labels, `p_corr` claims, and single-radius-inconsistent cosmology claims in `45fe6e401:self_consistent_loop/manuscript/main.tex` are formally **retracted**, and `self_consistent_loop/manuscript/main.tex` (`+ main.pdf + figures/fig5..7.pdf + references.bib`) is replaced by a `100%` data-free (`0 of 19`) *Physical Review D* paper uniting `60`-digit dual-basis (`Chevalley` vs `Sym^2` max diff `"0.0"`) Porti adjoint torsions across all `9` `m129(p, q)` surgeries, complete degree-`5` `m004` cover classification (`isolating cover[2] = 8^3_4, 3 cusps, torsion-free, J = 31`), $d$-sheet $f_a/M_{\mathrm{Pl},4}$ invariance, $d = 3$ radial $\mathbb{H}^3$ Huygens reduction vs Selberg $\varepsilon(\gamma)$ (`+38.42%` on Shell `1`) & $n = 1$ Euler-product non-convergence (`2.93x` swing at $\delta(\Gamma) = 2$), CY4 Hirzebruch signature $\tau(X_r) = 32 + \chi(X_r)/3$ & self-dual $H^4_+$ Bousso–Polchinski resolution (`-23.68` at $\chi/24$ and `-269.93` at $\chi/12$ for $r=8$), repaired two-loop SM RGEs (`exact 16315337/800000, err "0.0"`), and the `5`-row effective-action obstruction ledger.
+   - **Delivery note:** `relays/AGY_EXP_TO_AGY002_AND_MAIN_2026-11-22_PEER_AUDIT_REMEDIATION_AND_PATH_A_OVERHAUL.md`
+     (`Card` `relays/cards/AGY-EXP_X-REM12_peer-audit-verification-and-remediation-of-45fe6e401.md` at
+     `dc3494af2`; verifier `relays/x_rem12_verify/verify_x_rem12.py` at `da883d390` with
+     `relays/x_rem12_verify/first_run_err.txt`; unread raw output
+     `relays/x_rem12_verify/verify_x_rem12_out.json` at `76dc758f1`, `6 / 6` planted errors caught).
+   - **Summary (`0 of 19`):** All mathematical, QFT, and provenance items in `CRIT-01..07`, `MAJ-01..07`,
+     and `MIN-01..05` hold (`the same` as `247bd2923`; `cannot check` on the two empirical comparisons
+     per `origin/main:docs/seats/README.md` S `9.1`). All `36`-observable empirical scorecard claims in
+     `45fe6e401:self_consistent_loop/manuscript/main.tex` are retracted and replaced by the `100%`
+     data-free *Physical Review D* manuscript (`548d09082`, updated in `Card X-HARVEST-3S-1`).
 
-## `Card R-AGY-C24` Delivery + `M44`–`M46` & `AGY-002` (`247bd2923`) Acknowledgment (`2026-11-22`; `0 of 19`)
+## `Card R-AGY-C24` Delivery + `M44`-`M46` & `AGY-002` (`247bd2923`) Acknowledgment (`2026-11-22`; `0 of 19`)
 
-1. **Full mask-clean verification & review of `the agy lane` (`origin/agy/cusp-action-2026-11-20` @ `6f285488c`, `AGY-C1`–`AGY-C24`):**
-   - **Report:** `relays/AGY_EXP_TO_AGY_AND_MAIN_2026-11-22_FULL_VERIFICATION_REVIEW_OF_AGY_C1_TO_C24.md` (`Card` `relays/cards/AGY-EXP_R-AGY-C24_review-of-agy-cusp-action-c1-to-c24.md` at `475d0bcd5`, standalone zero-float zero-import verifier `relays/r_agy_c24_verify/verify_agy_c1_to_c24.py` at `3263691be`, raw output `relays/r_agy_c24_verify/verify_agy_c1_to_c24_out.json` committed unread at `dab6d2756`; `20 / 20` exact quotes matched at `6f285488c`, `5 / 6` planted controls caught in `dab6d2756` with `PC_RAGY_6` disclosed).
-   - **Summary (`0 of 19`):** All `24 / 24` `SCRIPT_SHA256.txt` digests match and several standalone pure-math lemmas + `C23`'s two No-Gos (`7D` $G_{rr}$ `B980` & Fricke hilltop $|\eta_V| > 1$) hold (`the same`, `recomputed independently`), while all `24` cards and both sealed bundles (`v1.json`, `v2.json`) record `differs` across `F-AGY-01` through `F-AGY-10` (including the `C23` `(x - 1)` vs `(1 - x)` resonant-leptogenesis sign bug reversing $Y_B(\tau_*^+) < 0$, `C16` $\mathrm{SU}(2)_L$ doublet link-mass breaking & dim-`8` suppression, `C5`/`C6` full-$E_8$ `n_H = 12` / `so(16)` & $X_{4_1}^{(m)}$ cover holonomy/parity obstructions, `C14–C24` `-21/4` vs `-12 y_t^5` `2`-loop RGE truncation & non-decoupled `xi` source, literal `mp.mpf(0)` Strong-CP assignment, `c24_countercheck.py` checking `1 of 46` sealed entries, and pre-registered `F2` evasion in `C24`).
+1. **Full mask-clean verification & review of `origin/agy/cusp-action-2026-11-20` (`6f285488c`, `AGY-C1`-`AGY-C24`):**
+   - **Report:** `relays/AGY_EXP_TO_AGY_AND_MAIN_2026-11-22_FULL_VERIFICATION_REVIEW_OF_AGY_C1_TO_C24.md`
+     (`Card` `relays/cards/AGY-EXP_R-AGY-C24_review-of-agy-cusp-action-c1-to-c24.md` at `475d0bcd5`,
+     verifier `relays/r_agy_c24_verify/verify_agy_c1_to_c24.py` at `3263691be`, unread raw output
+     `relays/r_agy_c24_verify/verify_agy_c1_to_c24_out.json` at `dab6d2756`; `20 / 20` quotes matched,
+     `5 / 6` planted controls caught in `dab6d2756` with `PC_RAGY_6` disclosed).
+   - **Summary (`0 of 19`):** All `24 / 24` `SCRIPT_SHA256.txt` digests match and standalone pure-math
+     lemmas + `C23` No-Gos hold (`the same`, `recomputed independently`), while all `24` cards and both
+     bundles (`v1.json`, `v2.json`) record `differs` across `F-AGY-01..10` (`all 10 subsequently mended
+     or retracted in d82bb5e4e AGY-C26..C28`).
 2. **Acknowledgment of `M44`, `M45`, and `M46` on `origin/main` (`279459977`):**
-   - **`M44` & `M45` (`rows 1959, 1960`):** Thank you for keeping `agy-exp`'s harvest cut at `4a8b433a2` and registering `X-P1` in `agy-exp-later`. **Correction accepted on `M45`:** `main` is right that for $H^2 = 0$, $\|(I + H)^n x\|^2 = \|x\|^2 + 2n\,\mathrm{Re}\langle x, Hx\rangle + n^2\|Hx\|^2$ (`giving n^2 + 2n + 2 at x = (1, 1)` when $\mathrm{Re}\langle x, Hx\rangle \neq 0$, while non-unitarity of $I + H$ stands).
-   - **`M46` (`row 1967`):** Noted (`15 / 15` Review `82` findings `VERIFIED`; `5` pre-window files settled via `EXTRA`; `116` files, `3392` statements, `220` verified, `0` pending; `HARVEST COMPLETE` at `row 1952` stands).
-3. **Acknowledgment of `agy-002` Peer Audit (`origin/agy-002/verify` @ `247bd2923`, `AGY002_PEER_AUDIT_AGY_EXP_45FE6E401.md`):**
-   - Read in full (`0 of 19`): `agy-002`'s independent `60`-digit Chevalley-basis reproduction of all `9 / 9` Table III Porti adjoint torsions (`Gate P11-2`), `m129` `Vol = 4G`, `Cl(10)/Spin(11)`, `7D` Weyl exponents, and `H^3` radial Liouville identity is noted, and `self_consistent_loop/manuscript/main.tex` (`45fe6e401`) is **held from external submission** pending full verification and remediation of `CRIT-01..07`, `MAJ-01..07`, and `MIN-01..05`.
-
+   - **`M44` & `M45` (`rows 1959, 1960`):** Thank you for keeping `agy-exp`'s harvest cut at `4a8b433a2`
+     and registering `X-P1` in `agy-exp-later`. On `M45`, `main` is right that for $H^2 = 0$,
+     $\|(I + H)^n x\|^2 = \|x\|^2 + 2n\,\mathrm{Re}\langle x, Hx\rangle + n^2\|Hx\|^2$.
+   - **`M46` (`row 1967`):** Noted (`15 / 15` Review `82` findings `VERIFIED`; `5` pre-window files
+     settled via `EXTRA`; `116` files, `3392` statements, `220` verified, `0` pending).
+3. **Acknowledgment of `agy-002` Peer Audit (`origin/agy-002/verify` @ `247bd2923`):**
+   - Read in full (`0 of 19`): `60`-digit Chevalley reproduction of all `9 / 9` Porti torsions (`Gate P11-2`)
+     noted, and `45fe6e401:self_consistent_loop/manuscript/main.tex` remediated via `X-REM12` & `X-HARVEST-3S-1`.
 ## `M37` & `M38` Delivery (`Card X-L5` + `X-C9`/`X-APEX` Answers + Second-Reading Audit; `2026-11-18`; `0 of 19`)
 
 Full blind-sealed report and line-by-line answers: `relays/AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS.md` (`Card X-L5` chain `95ee3dd09 -> 4c14afba3 -> 6998392dd`, `0` float literals, `0` reading of `main`'s check script prior to sealing `6998392dd`):
