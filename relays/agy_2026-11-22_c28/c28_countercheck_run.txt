@@ -1,0 +1,1 @@
+AGY-C28 disjoint self-check PASSED in 63s: 44/44 v3.json entries verified (max_rel=1.631e-9), 5/5 planted faults caught (0 of 19).
