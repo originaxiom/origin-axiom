@@ -1,0 +1,90 @@
+{
+  "E1_audit_and_harvest_11fd7c712": {
+    "F1_S_triplet_weight_3_2_inversion_err": "5.867601977e-39",
+    "F1_morera_circle_contour_err": "7.599306624e-48",
+    "F2_K6_antipode_err": "0.0",
+    "F2_planted_unsym_p6_ckm_drift": "0.2732112754",
+    "F3_det_Wu_K5_rel_diff_vs_peer": "4.293666263e-17",
+    "F3_det_Wu_K5_triple_product": "8.533212358452736e-6",
+    "F3_single_point_null_quadric_err": "9.609584356e-46",
+    "F4_K56_ed_rel_det_split": "0.876813619528",
+    "F6_poisson_gaussian_kahler_err": "0.0",
+    "agy_002_head": "27f5d89fabf1653e1a61b910ed1e9b4b1dca371a",
+    "agy_exp_head": "11fd7c712229279ba802ecc74dc5e5dbd0efaa2d",
+    "app_b_eq_b1_luo_xiao_mended": true,
+    "control_2_caught": true,
+    "main_tex_sec7_still_carries_z2_cpsi_claim": true,
+    "peer_manifests_verified": 16,
+    "peer_py_zero_ast_float_count": 8
+  },
+  "E2_four_catches_on_11fd7c712_and_peers": {
+    "FL4_F1_3BL_Wnu_minus_We_frob": "0.0",
+    "FL4_F1_3BL_Wu_minus_Wd_frob": "0.0",
+    "FL4_F1_su2R_noncartan_roots_broken_by_3BL": 0,
+    "FL4_F1_su2R_noncartan_roots_broken_by_6Y": 2,
+    "FL4_F1_su2R_noncartan_roots_broken_by_Q_m3_2": 2,
+    "FL4_F2_f6_bundles_quartics_in_13_list": true,
+    "FL4_F2_omitted_quartic_yukawa_rel_byu2": "2.523737557",
+    "FL4_F3_bare_K5_sigma1_over_sigma3_Wu": "0.121205999803",
+    "FL4_F3_gl4_vs_peer_gbs8_ir_gauge_err": "5.932453739e-12",
+    "SYNC_F1_ow20_rad_flat_yb_2f_corrected": "1.44045846018e-9",
+    "SYNC_F1_r_ow20_sync_v2_has_3_over_4zeta3": true,
+    "SYNC_F1_yb_inflation_factor": "1.49808661349",
+    "control_1_caught": true,
+    "control_3_caught": true
+  },
+  "E3_audit_and_catches_on_27f5d89fa": {
+    "LINK23_F1_ru1_broken_roots_bourbaki": 32,
+    "LINK23_F1_surviving_gLR_roots_bourbaki": 10,
+    "LINK23_F2_16_phase_sectors_bourbaki": [
+      2,
+      2,
+      6,
+      6
+    ],
+    "LINK23_F2_mod9_with_27_singlet": 6,
+    "LINK23_F2_untwisted_27_weights_bourbaki": 0,
+    "LINK23_F4_chowla_selberg_tau_8_45dps": "-12.51662606381404",
+    "LINK23_F4_chowla_selberg_tau_i_45dps": "-0.9566202509531001",
+    "LINK23_F4_chowla_selberg_tau_star_45dps": "82.7057235600179",
+    "LINK23_F4_peer_10shell_box_truncation_err": "0.01160933",
+    "OW19_F3_bc_star_tau8_diff_vs_c35_v6": "9.589472324e-33",
+    "OW22_A_hecke_T2_E2_sum_err": "3.503246161e-45",
+    "OW22_B_qR0_seesaw_second_sv": "8.8095118e-48",
+    "OW22_C_R_crit_diff_vs_peer": "3.3676693e-16",
+    "OW22_C_R_crit_inflection_45dps": "1.092792956428295",
+    "OW22_F1_exact_a1_xi0_B4_52_and_B5_85": [
+      "39/2",
+      "36"
+    ],
+    "OW22_F1_ow22_json_stores_37_2_for_both_B4_and_B5": true,
+    "OW22_F2_B4_scherk_schwarz_Beff_at_r_ln2_over_32": "0.558242668973",
+    "OW22_F3_non_trivial_Hom_Z2_Z2_bijects_Ngen_3": 3,
+    "bourbaki_e6_roots_and_27_weights": [
+      72,
+      27
+    ],
+    "control_4_caught": true,
+    "control_5_caught": true,
+    "scope_unchecked_peer_modules": [
+      "11fd7c712 PDF figure rendering (fig9, fig10) & Porti m129 Dehn-surgery tables (Sec. II-V)",
+      "27f5d89fa 2D hyperbolic Kahler PDE overlap grids & 2-field 60-e-fold ODE integration"
+    ]
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "passed": true
+  },
+  "card": "AGY-C36",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "recomputed independently",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}
