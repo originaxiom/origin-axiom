@@ -30,6 +30,7 @@ FIG_PDFS = (
     "figures/fig10_holomorphic_punctured_torus_flavor.pdf",
     "figures/fig11_single_action_spin10_stabilization.pdf",
     "figures/fig12_hirzebruch_i8_liouville_lopsided_seesaw.pdf",
+    "figures/fig13_gs_hierarchy_e6_cubic_and_valley_inflation.pdf",
 )
 
 
