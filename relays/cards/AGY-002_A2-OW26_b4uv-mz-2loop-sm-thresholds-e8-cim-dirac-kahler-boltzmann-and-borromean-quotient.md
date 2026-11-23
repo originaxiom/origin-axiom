@@ -88,4 +88,8 @@ The isolated zero-shared-code Cold-Room Zero-Trust Referee `v1` (`relays/a2_ow26
 5. **`DISC-5` (`OW26-C`, flavored MSSM leptogenesis LNC self-energy sign):** Fixed `t2` from `+2/(x_j - 1)` to exact propagator sign **`-2/(x_j - 1)`** (`2/(1 - x_j)`), verified by an explicit `2`-flavor Weisskopf–Wigner $H = M - \frac{i}{2}\Gamma$ unitarity check AND explicitly proving the Dirac-vs-superpotential CP-branch invariance theorem (`Y_B > 0` selects identical physical `(J_CKM, delta_CP^PMNS)` signs in both conventions).
 6. **Cleanups:** Fixed `OW26-B1` comment swap (`q=1/5=(5,10)`, `q=2/5=(10,5bar)`), aligned `OW26-D`'s side-by-side `agy-exp` `8^3_4` profile faithfully with `abf9fdae0` `L5_4` `(k5+k6)/2` (`(3,-5)` & `(3,3)`, left-only `kis`, `G_s12_t8`, strictly Guardrail-1 priced as post-inspection peer import), and expanded `OW26-E` planted faults to catch `DISC-1..5` regressions.
 
+## Pre-`v7` Synthetic WW Test-Matrix Upgrade (`2026-11-23`; Frozen `v1..v6` Untouched)
+
+`A2-OW26 v6` (`403f8f1b9`) passed `OW26-A`, `OW26-B`, `OW26-D`, and all first-principles physics checks (reproducing Cold-Room Referee `v1`'s exact `GL4` `M_Z`, `FCNC`, and `Y_B = 8.4576e-8` values to `6–7` digits, with Weisskopf–Wigner exact unitarity `3.92e-13`), failing only because the synthetic `2x2` `y_ww` matrix had `|lnc/lnv| = 4.6%`, yielding `9.14%` error on wrong-sign LNC vs the `> 50%` gate. `relays/a2_ow26_v7/verify_a2_ow26_v7.py` uses integer-entry `y_ww = 10^{-5} [[1, 2+i], [1, -1+2i]]` (`500%` error on wrong-sign LNC vs `~1e-13` exact), leaving `v1..v6` untouched and producing an **identical** `B4_UV_MZ_BLIND_LOCK_V2` SHA-256 (`8c4c9d2ddf1179f47a4e703514af883add6e7d13b4a996167faa96bae31f7c32`).
+
 `0 of 19.`
