@@ -1,0 +1,831 @@
+{
+  "OW24_A_R2_magnetized_M8_single_torus_bridge": {
+    "cyclic_Z8_cover_and_ramanujan_X5": {
+      "R_8tau0_abs": "0.13390393984674",
+      "R_8tau0_arg_over_pi": "-0.72001303305845",
+      "cyclic_Z8_quotient_verified": true,
+      "ramanujan_R_5tau0_exact_err": "1.944692274e-62",
+      "sublattice_index_det": 8
+    },
+    "gate_passed": true,
+    "magnetized_dirac_6D_at_tau0": {
+      "L2_3x3_Gram_orthogonality_frob_err": "2.631339986e-60",
+      "L2_norm_diag_G11": "0.55901699437495",
+      "base_modulus_tau0": "2/5 + i/5",
+      "effective_theta_modulus_8tau0": "16/5 + 8i/5",
+      "max_6D_Dirac_PDE_residual": "6.268744285e-33",
+      "max_Z2_reflection_err": "0.0",
+      "max_odd_mode_parity_err": "0.0",
+      "max_quasi_periodicity_z_plus_1_err": "1.494252748e-60",
+      "max_quasi_periodicity_z_plus_tau0_err": "3.097864884e-60"
+    },
+    "unique_even_flux_M8_theorem": {
+      "M6_n_odd_control": 2,
+      "M8_counts_even_odd": [
+        5,
+        3
+      ],
+      "even_M_giving_3_Z2_odd_modes_in_1_to_20": [
+        8
+      ],
+      "parity_table_1_to_20": [
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 1,
+          "n_even": 1,
+          "n_odd": 0
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 2,
+          "n_even": 2,
+          "n_odd": 0
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 3,
+          "n_even": 2,
+          "n_odd": 1
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 4,
+          "n_even": 3,
+          "n_odd": 1
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 5,
+          "n_even": 3,
+          "n_odd": 2
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 6,
+          "n_even": 4,
+          "n_odd": 2
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 7,
+          "n_even": 4,
+          "n_odd": 3
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 8,
+          "n_even": 5,
+          "n_odd": 3
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 9,
+          "n_even": 5,
+          "n_odd": 4
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 10,
+          "n_even": 6,
+          "n_odd": 4
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 11,
+          "n_even": 6,
+          "n_odd": 5
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 12,
+          "n_even": 7,
+          "n_odd": 5
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 13,
+          "n_even": 7,
+          "n_odd": 6
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 14,
+          "n_even": 8,
+          "n_odd": 6
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 15,
+          "n_even": 8,
+          "n_odd": 7
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 16,
+          "n_even": 9,
+          "n_odd": 7
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 17,
+          "n_even": 9,
+          "n_odd": 8
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 18,
+          "n_even": 10,
+          "n_odd": 8
+        },
+        {
+          "E8_half_int_dirac_quantized": false,
+          "M": 19,
+          "n_even": 10,
+          "n_odd": 9
+        },
+        {
+          "E8_half_int_dirac_quantized": true,
+          "M": 20,
+          "n_even": 11,
+          "n_odd": 9
+        }
+      ]
+    }
+  },
+  "OW24_B_R3_e8_bulk_orbifold_anomalies_vs_g2_locus": {
+    "bulk_orbifold_census": {
+      "T2_Z2_M4_enhanced_to_E6_NV82": true,
+      "T2_Z2_count": 2,
+      "T2_Z2_solutions": [
+        {
+          "A_SO10_U1_1_2": [
+            "-12",
+            "-6"
+          ],
+          "A_SU2_U1_1_2": [
+            "-2",
+            "-1"
+          ],
+          "GS_diff_U1_1_2": [
+            "-10",
+            "-5"
+          ],
+          "N_C_bulk_total": 85,
+          "N_C_post_DT_HuHd": 85,
+          "N_C_post_DT_minus_NV": 3,
+          "N_V": 82,
+          "SU2_Witten_anomaly_mod2": 0,
+          "SU2_hid_doublets": 2,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "0",
+          "enhanced_to_E6": true,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": [
+            "-18",
+            "-3"
+          ],
+          "flux16_sectors": [
+            [
+              4,
+              3
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 3,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 7,
+          "orbifold": "T2/Z2",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": false,
+          "q": [
+            -2,
+            -2,
+            0,
+            4
+          ],
+          "r": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "unbroken_gauge_group": "E6 x SU(2)_hid x U(1)_{T1+T2}"
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-12",
+            "-2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-3",
+            "-1/2"
+          ],
+          "GS_diff_U1_1_2": [
+            "-9",
+            "-3/2"
+          ],
+          "N_C_bulk_total": 86,
+          "N_C_post_DT_HuHd": 60,
+          "N_C_post_DT_minus_NV": 10,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 1,
+          "SU2_hid_doublets": 3,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "0",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 3,
+          "has_exact_anomaly_free_U1": true,
+          "hid15_chiral_dof": 8,
+          "orbifold": "T2/Z2",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": true,
+          "q": [
+            -2,
+            -2,
+            1,
+            3
+          ],
+          "r": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        }
+      ],
+      "T2_Z4_count": 7,
+      "T2_Z4_solutions": [
+        {
+          "A_SO10_U1_1_2": [
+            "-10",
+            "-8"
+          ],
+          "A_SU2_U1_1_2": [
+            "-3",
+            "-11/2"
+          ],
+          "GS_diff_U1_1_2": [
+            "-7",
+            "-5/2"
+          ],
+          "N_C_bulk_total": 96,
+          "N_C_post_DT_HuHd": 80,
+          "N_C_post_DT_minus_NV": 30,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 1,
+          "SU2_hid_doublets": 13,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "31",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              8,
+              3
+            ]
+          ],
+          "h10_hid_charged": 1,
+          "h10_sing": 2,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 8,
+          "orbifold": "T2/Z4",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": false,
+          "q": [
+            -4,
+            -4,
+            0,
+            8
+          ],
+          "r": [
+            3,
+            3,
+            2,
+            0
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-10",
+            "-2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-4",
+            "-1"
+          ],
+          "GS_diff_U1_1_2": [
+            "-6",
+            "-1"
+          ],
+          "N_C_bulk_total": 78,
+          "N_C_post_DT_HuHd": 62,
+          "N_C_post_DT_minus_NV": 12,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 0,
+          "SU2_hid_doublets": 4,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "2",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              1,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 2,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 10,
+          "orbifold": "T2/Z4",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": false,
+          "q": [
+            -4,
+            -4,
+            1,
+            7
+          ],
+          "r": [
+            3,
+            3,
+            0,
+            2
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-10",
+            "-2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-3",
+            "-1/2"
+          ],
+          "GS_diff_U1_1_2": [
+            "-7",
+            "-3/2"
+          ],
+          "N_C_bulk_total": 75,
+          "N_C_post_DT_HuHd": 59,
+          "N_C_post_DT_minus_NV": 9,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 1,
+          "SU2_hid_doublets": 3,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "-1",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              2,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 2,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 7,
+          "orbifold": "T2/Z4",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": true,
+          "q": [
+            -4,
+            -4,
+            2,
+            6
+          ],
+          "r": [
+            3,
+            3,
+            0,
+            2
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-10",
+            "-2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-3",
+            "-1/2"
+          ],
+          "GS_diff_U1_1_2": [
+            "-7",
+            "-3/2"
+          ],
+          "N_C_bulk_total": 75,
+          "N_C_post_DT_HuHd": 59,
+          "N_C_post_DT_minus_NV": 9,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 1,
+          "SU2_hid_doublets": 3,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "-1",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              2,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 2,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 7,
+          "orbifold": "T2/Z4",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": true,
+          "q": [
+            -4,
+            -4,
+            2,
+            6
+          ],
+          "r": [
+            3,
+            3,
+            2,
+            0
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-10",
+            "-2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-4",
+            "0"
+          ],
+          "GS_diff_U1_1_2": [
+            "-6",
+            "-2"
+          ],
+          "N_C_bulk_total": 77,
+          "N_C_post_DT_HuHd": 61,
+          "N_C_post_DT_minus_NV": 11,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 0,
+          "SU2_hid_doublets": 4,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "-8",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 2,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 9,
+          "orbifold": "T2/Z4",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": false,
+          "q": [
+            -4,
+            -4,
+            3,
+            5
+          ],
+          "r": [
+            3,
+            3,
+            2,
+            0
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-10",
+            "2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-3",
+            "-1/2"
+          ],
+          "GS_diff_U1_1_2": [
+            "-7",
+            "5/2"
+          ],
+          "N_C_bulk_total": 74,
+          "N_C_post_DT_HuHd": 58,
+          "N_C_post_DT_minus_NV": 8,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 1,
+          "SU2_hid_doublets": 3,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "11",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 2,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 6,
+          "orbifold": "T2/Z4",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": true,
+          "q": [
+            -4,
+            -4,
+            4,
+            4
+          ],
+          "r": [
+            3,
+            3,
+            0,
+            2
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-10",
+            "-2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-2",
+            "0"
+          ],
+          "GS_diff_U1_1_2": [
+            "-8",
+            "-2"
+          ],
+          "N_C_bulk_total": 73,
+          "N_C_post_DT_HuHd": 57,
+          "N_C_post_DT_minus_NV": 7,
+          "N_V": 50,
+          "SU2_Witten_anomaly_mod2": 0,
+          "SU2_hid_doublets": 2,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "-4",
+          "enhanced_to_E6": false,
+          "ext_E6_U1_T1plusT2_vis_vs_hid": null,
+          "flux16_sectors": [
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "h10_hid_charged": 0,
+          "h10_sing": 2,
+          "has_exact_anomaly_free_U1": false,
+          "hid15_chiral_dof": 5,
+          "orbifold": "T2/Z4",
+          "passes_0_lt_NC_minus_NV_le_10_post_DT": true,
+          "q": [
+            -3,
+            -3,
+            2,
+            4
+          ],
+          "r": [
+            3,
+            3,
+            2,
+            0
+          ],
+          "unbroken_gauge_group": "SO(10)_vis x SU(2)_hid x U(1)^2"
+        }
+      ],
+      "T2_Z4_unique_M8_count": 1,
+      "T2_Z4_witten0_post_DT_le10_models": [
+        [
+          -3,
+          -3,
+          2,
+          4
+        ]
+      ],
+      "bulk_only_GS_universal_count_out_of_9": 0,
+      "obstruction_verdict": "0 of 9 bulk-only magnetized E_8 orbifolds satisfy 4D GS universality without twisted fixed-point states; T^2/Z_4 M=8 has 13 SU(2)_hid doublets (Witten=1) and T^2/Z_2 (-2,-2,0,4) enhances to E_6 x SU(2)_hid x U(1) (N_V=82, A_E6=-18 != A_SU2=-3).",
+      "smooth_T2_GS_exact_zero_all_4_test_fluxes": true
+    },
+    "g2_conical_locus_resolution": {
+      "Mg_DEP": "12",
+      "Mg_DP": "-138",
+      "N_C": 52,
+      "N_V": 48,
+      "SU2_L_Witten_mod2": 0,
+      "SU2_L_doublets_count": 14,
+      "SU5_vis_cubic_anomaly": "0",
+      "a1_xi0": "2",
+      "all_anomaly_and_gravity_gates_passed": true,
+      "gauge_group": "SU(5)_vis x SU(5)_hid",
+      "hidden_charged_matter_count": 0
+    },
+    "gate_passed": true
+  },
+  "OW24_C_R4_type12_cancel_hu_k5_and_384_atlas": {
+    "discrete_384_case_neutrino_atlas": {
+      "guardrail1_priced_search_bits_log2_384": "8.58496250072",
+      "hit_MR_takagi_err": "3.936340997e-57",
+      "hit_eps1_MSSM_tau8_plus": "-2.45293486017e-5",
+      "hit_eps1_SM_tau8_plus": "-1.22793805468e-5",
+      "hit_geom_CP_odd_MSSM_err": "4.185995876e-55",
+      "hit_geom_CP_odd_SM_err": "1.038910821e-54",
+      "hit_haar_10trial_U3_3_err": "5.760620351e-55",
+      "honest_physical_tension": "Unique 1/384 hit requires curved K_{E[2]}^{hyp} (28.4% 1-2 squark FCNC split) & q_R=+2 (2*q_psi / 4*T_{3R}) + 8.585 atlas bits.",
+      "nonsingular_MR_cases": 264,
+      "simultaneous_hits": [
+        {
+          "MR_op": "5-6",
+          "dirac_op": "5-6",
+          "geom": "CURV",
+          "n_5bar": [
+            0,
+            0,
+            0
+          ],
+          "obs": {
+            "J": "-0.0458094753784",
+            "dm": "0.0296698880089",
+            "s12sq": "0.376154785154",
+            "s13sq": "0.0547998664793",
+            "s23sq": "0.342614849467"
+          },
+          "q_R": 2,
+          "tag": "CURV_5-6_over_5-6_qR_2_n5b_000"
+        }
+      ],
+      "simultaneous_hits_count": 1,
+      "total_discrete_cases": 384
+    },
+    "gate_passed": true,
+    "physical_Hu_K5_vs_MR_K56_unblocking": {
+      "haar_10trial_U3_3_err": "1.312707735e-55",
+      "qR_plus3_n5b_000": {
+        "J": "0.0546012195862",
+        "dm": "0.248518442684",
+        "s12sq": "0.697906300638",
+        "s13sq": "0.300906654191",
+        "s23sq": "0.457934431582"
+      },
+      "qR_plus3_n5b_100": {
+        "J": "0.00275264399616",
+        "dm": "0.160347014174",
+        "s12sq": "0.0420020916993",
+        "s13sq": "0.000846526285212",
+        "s23sq": "0.664546674856"
+      }
+    },
+    "pure_lopsided_SU5_n5b_000": {
+      "curved_2D_hyp": {
+        "J": "-1.95015270567e-7",
+        "b_tau": "0.709392150423",
+        "d13": "0.000685906318925",
+        "e13": "0.000614172731273",
+        "u13": "2.35322486942e-6",
+        "v12": "0.0537328368875",
+        "v13": "0.000778753199442",
+        "v23": "0.00625254724071"
+      },
+      "curved_strict_CKM": true,
+      "discrete_bits_saved_vs_9int_FN": "6.64385618977",
+      "flat_horosphere": {
+        "J": "-1.67355279753e-7",
+        "b_tau": "0.700458414081",
+        "d13": "0.000834865483233",
+        "e13": "0.000745731020467",
+        "u13": "2.28562016329e-6",
+        "v12": "0.0754132549568",
+        "v13": "0.000776931639827",
+        "v23": "0.00534961114215"
+      },
+      "flat_strict_CKM": true,
+      "haar_10trial_U3_5_err": "1.772410337e-53",
+      "holomorphy_dbar": "3.28332627e-29"
+    },
+    "type1_eq_type2_cancellation_theorem": {
+      "K5_over_K5_s23sq_trapped": "0.0215679289549",
+      "qR_plus3_K56_Type1_vs_Type2_max_err": "5.480236174e-56",
+      "qR_plus3_K5_Type1_vs_Type2_max_err": "2.166604999e-56"
+    }
+  },
+  "OW24_D_12gate_and_dual_readiness": {
+    "candidate_alpha_12gates_mag": {
+      "G10_multi_axion_strong_CP_b1_3": true,
+      "G11_single_modulus_tau0_to_8tau0_M8_magnetized_bridge": true,
+      "G12_CP_domain_wall_erasure_m_tau_gt_H_inf": true,
+      "G1_exact_1loop_B_5_over_7_no_threshold": false,
+      "G2_DEP_lt_31_UV": true,
+      "G3_DP_lt_31_UV": true,
+      "G4_quad_hierarchy_StrM0_zero": false,
+      "G5_UV_quartics_fixed_and_BFB": true,
+      "G6_attractive_Sakharov_a1_xi0_gt_0": false,
+      "G7_positive_6D_Casimir": true,
+      "G8_DM_stable": true,
+      "G9_d5_proton_stability_DT_split": true
+    },
+    "candidate_alpha_score": 9,
+    "candidate_beta_12gates_mag": {
+      "G10_multi_axion_strong_CP_b1_3": true,
+      "G11_single_modulus_tau0_to_8tau0_M8_magnetized_bridge": true,
+      "G12_CP_domain_wall_erasure_m_tau_gt_H_inf": true,
+      "G1_exact_1loop_B_5_over_7_no_threshold": true,
+      "G2_DEP_lt_31_UV": true,
+      "G3_DP_lt_31_UV": true,
+      "G4_quad_hierarchy_StrM0_zero": true,
+      "G5_UV_quartics_fixed_and_BFB": true,
+      "G6_attractive_Sakharov_a1_xi0_gt_0": true,
+      "G7_positive_6D_Casimir": true,
+      "G8_DM_stable": true,
+      "G9_d5_proton_stability_DT_split": true
+    },
+    "candidate_beta_score": 12,
+    "conditional_priced_blind_lock_readiness": {
+      "criteria": {
+        "C1_Beta_passes_12_of_12_gates_on_M8_single_torus": true,
+        "C2_R2_single_torus_M8_Dirac_and_Gram_orthogonality_proved": true,
+        "C3_R3_G2_conical_locus_SU5xSU5_anomaly_free_8_of_8": true,
+        "C4_R4_simultaneous_large_mixing_PMNS_existence_proved_and_bit_priced": true,
+        "C5_cosmology_4D_unimod_anti_decompact_and_CP_wall_erasure": true
+      },
+      "ready_for_conditional_priced_blind_lock": true
+    },
+    "gate_passed": true,
+    "unconditional_readiness": {
+      "criteria": {
+        "U1_single_action_12_of_12_internal_gates": true,
+        "U2_R2_M8_flux_dynamically_derived_from_7D_M3_no_cusp_choice": false,
+        "U3_R3_bulk_orbifold_closes_GS_without_twisted_states": false,
+        "U4_R4_neutrino_PMNS_zero_atlas_search_bits": false
+      },
+      "ready_to_unblind_unconditional": false,
+      "remaining_uv_seams": [
+        "U2_R2_M8_flux_dynamically_derived_from_7D_M3_no_cusp_choice",
+        "U3_R3_bulk_orbifold_closes_GS_without_twisted_states",
+        "U4_R4_neutrino_PMNS_zero_atlas_search_bits"
+      ]
+    }
+  },
+  "OW24_E_planted_faults": {
+    "caught": 6,
+    "controls": {
+      "PF_OW24_1_M6_not_3_generations": true,
+      "PF_OW24_2_flipped_Dirac_connection_breaks_PDE": true,
+      "PF_OW24_3_Z4_M8_bulk_Witten_anomaly_caught": true,
+      "PF_OW24_4_K5_over_K5_restores_cancellation_trap": true,
+      "PF_OW24_5_Guardrail1_catches_zero_bit_atlas_claim": true,
+      "PF_OW24_6_corrupt_SU5_10_plus_5_cubic_anomaly": true
+    },
+    "gate_passed": true,
+    "total": 6
+  },
+  "all_gates_passed": true,
+  "card_id": "A2-OW24 v2",
+  "empirical_firewall": "0 of 19",
+  "hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0,
+    "script_sha256": "864248444808230b21111c81ac2ef58b22895bd6d33fd31cc59464104b1988a7"
+  },
+  "seat": "agy-002"
+}
