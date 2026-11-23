@@ -56,4 +56,14 @@
 - `PF_OW26_6`: Guardrail-1 audit rejects zero-bit assignment on `1/384` atlas or post-inspection `8^3_4` selection.
 - Seal **`B4_UV_MZ_BLIND_LOCK_V2`** (`blind_prediction_lock_v2_sha256`), update single-run **`A2-OW16 v15`**, and run isolated zero-shared-code Cold-Room Referee (`referee_a2_ow26.py`).
 
+---
+
+## Pre-`v2` Technical Erratum (`2026-11-23`; Frozen `v1` at `0322af735` Untouched)
+
+`A2-OW26 v1` (`0322af735`) passed `OW26-A` (`guardrail4_pass = true`, `10`-trial end-to-end Haar `2.33e-30`) on the first run and caught `4` clean implementation typos in `B/C/D`, fixed in `relays/a2_ow26_v2/verify_a2_ow26_v2.py` while leaving `v1` frozen untouched:
+1. **`OW26-B4` (`wp_and_p_mp` typo):** Fixed Weierstrass $\wp, \wp'$ factors (`(pi t30 t40 t2 / t1)^2` and `-2 pi^3 (t20 t30 t40)^2 t2 t3 t4 / t1^3`) and used 3-trace Gauss–Newton least squares (`Im tr(Ta), Im tr(Tb), Im tr(Ta Tb) = 0`) from `c = 0` so `c_*`, `tr_comm_err`, Gauss–Bonnet Area $= 2\pi$, and `s = 0` match `OW19_A` to `< 1e-6`, yielding the true spin-`1/2` Dirac Liouville Gramian `G^{(s=1/2)}_{E[2]}`.
+2. **`OW26-B1` (`V_D` normalization & ordered triplet count):** Used exact `V_D = g^2 Tr_fund(D^2)` (`2 Tr(T^a T^b) = \delta^{ab}`), cancelling `x_1^4, x_2^4` identically to prove `y_root^2 / g^2 == 1`, and checked `600` ordered (`300` unordered) root-sum triplets for both `10·10·5_H` and `10·5̄·5̄_H`; bumped `B2` periodic quadrature `18 -> 24` and added `k_H = 1` (`0.6350`) propagation.
+3. **`OW26-C` (True geometric CP mirror `(\tau, a, b) -> (-\bar\tau, a, -b)` & Boltzmann step count):** Reflected BOTH $\tau \mapsto -\bar\tau$ AND the $(K_5, K_6)$ orbit $(a, b) \mapsto (a, -b)$ (recording fixed-orbit `\tau_8^-` separately to show why fixed `K_5` breaks pure $\tau \mapsto -\bar\tau$), and bumped `n_z_steps` `320 -> 500` so step-halving `< 1e-6`.
+4. **`OW26-D` (`PSL(2)` sign, `j(\tau_0)` truncation, & quadratic-source cusp trial):** Divided `la_b[0,1]` by `la_b[0,0] = -1` (exact `\tau_cusp = +2i`), raised `j(\tau_0)` $q$-series order `55 -> 110` (`< 1e-40`), and used exact quadratic-source cusp trial `b(y) = eps^2 y (1 - y/L)^2` (`b'(0) = eps^2` from `[a \wedge a]`, giving exact `4 eps^5` at `L = 1/eps`).
+
 `0 of 19.`
