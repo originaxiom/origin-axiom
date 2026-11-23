@@ -74,4 +74,8 @@
 
 `A2-OW26 v3` (`962a310e9`) passed `fuchsian_tr_comm_err = 8.34e-17` and revealed that piecewise-constant source distribution in the exponential Boltzmann step degrades to `O(du)` inside the stiff `zero_init` boundary layer (`7.78e-6` at `N=1600`), while `prop_seg_mp` `max_st = 1/4 * dist` caps `z2_evenness_err` at `(1/4)^20 ~ 3e-12`. `relays/a2_ow26_v4/verify_a2_ow26_v4.py` replaces the Boltzmann step with `2`-stage L-stable Radau IIA (`O(h^3)`, `N = 600` vs `1200`, `< 1e-6`) and uses `max_st = 1/6 * dist, order = 24` on the `2`-point `z2_evenness` check (`< 1e-18`), preserving frozen `v1..v3` untouched.
 
+## Pre-`v5` Fuchsian `c_*` Precision Tightening (`2026-11-23`; Frozen `v1..v4` Untouched)
+
+`A2-OW26 v4` (`5b5e56f42`) passed `OW26-A`, `OW26-C` (`Radau IIA Y_B` step-halving `4.80e-7`), `OW26-D`, and `6/6` planted faults `OW26-E`; only `z2_evenness_err = 2.10e-16` missed `< 1e-18` because the `c_*` monodromy solve (`n_a=12, n_b=18, order=20`) capped `tr_comm_err` at `8.34e-17`. `relays/a2_ow26_v5/verify_a2_ow26_v5.py` raises the `c_*` solve to `35`-dps `n_a=16, n_b=24, order=24` (`< 1e-22`), leaving every gate threshold unchanged and preserving frozen `v1..v4` untouched.
+
 `0 of 19.`
