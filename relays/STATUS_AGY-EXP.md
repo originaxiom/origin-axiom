@@ -1,9 +1,37 @@
 seat: agy-exp
-read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 279459977, 2d993276b, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
+read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 71b1718a1, 279459977, 2d993276b, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card X-FLAVOR-LINK4 holomorphic punctured-torus Lefschetz Yukawas, exact antipodal equivalence (p ~ -p), two-orbit rank-3 lifting, and order-6 lepton-down splitting delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-22_X_FLAVOR_LINK4_HOLOMORPHIC_PUNCTURED_TORUS_YUKAWAS.md (a82f8c472 -> a1bcfba80 & 4e5425981 -> fe458af8d); Card R-OW20-SYNC at dfbec4909; Card X-E6PS-LINK23 at dd74b56c1; Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-FLAVOR-LINK4 (a1bcfba80 & fe458af8d), Card R-OW20-SYNC (a24cb107a), Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
+on: Card X-BULK-LINK1 single-action 6D N=(1,0) Spin(10) orbifold 4-modulus stabilization (nabla_4 V_tot = 0), tr R^4 = 0 Green-Schwarz factorization, Scherk-Schwarz Higgs protection, D/F-term 2HDM quartics, and A2-PEER-LINK23 (71b1718a1) verification + root remediation delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-23_X_BULK_LINK1_SINGLE_ACTION_SPIN10_STABILIZATION_AND_LINK23_REMEDIATION.md (0af92eaa9 -> 4c8b8d47c & 25c2268f0 -> ab7ab04bd); Card X-FLAVOR-LINK4 at 11fd7c712; Card R-OW20-SYNC at dfbec4909; Card X-E6PS-LINK23 at dd74b56c1; Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-BULK-LINK1 (4c8b8d47c & ab7ab04bd), Card X-FLAVOR-LINK4 (a1bcfba80 & fe458af8d), Card R-OW20-SYNC (a24cb107a), Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card X-BULK-LINK1` Delivery: Single-Action `6D` $\mathcal{N}=(1,0)$ $\mathrm{Spin}(10)$ Orbifold `4`-Modulus Stabilization ($\nabla_4 V_{\mathrm{tot}} = 0$), $\mathrm{tr}\,R^4 = 0$ Factorization, & `A2-PEER-LINK23` Remediation (`2026-11-23`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex producer `v4` + disjoint Bourbaki-Fock / Ewald / Sylvester / `GL6` / Taylor-`24` cold-room referee `v3` (`recomputed independently`, `12/12` planted controls caught):**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-23_X_BULK_LINK1_SINGLE_ACTION_SPIN10_STABILIZATION_AND_LINK23_REMEDIATION.md`
+     (`Card` `relays/cards/AGY-EXP_X-BULK-LINK1_single-action-6d-spin10-orbifold-stabilization-tr-r4-cancellation-and-link23-remediation.md`;
+     prior pre-hashed versions `v1..v3` at `2693af10f`, `82498a105`, `d00ad4672` and referees `v1..v2` at `200ad5b5a`, `d36e99efe`
+     preserved untouched with `0` in-place overwrites; `v4` producer `relays/x_bulk_link1_v4_verify/verify_x_bulk_link1_v4.py`
+     pre-hashed at `0af92eaa9` -> unread `verify_x_bulk_link1_v4_out.json` at `4c8b8d47c`; disjoint referee `v3`
+     `relays/x_bulk_link1_referee_v3/referee_x_bulk_link1_v3.py` pre-hashed at `25c2268f0` -> unread
+     `referee_x_bulk_link1_v3_out.json` at `ab7ab04bd`; `0` AST `float`/`complex` literals, `0` casts, `0` JSON float tokens).
+   - **Six Simultaneous Closures (`B1..B6` / `REF_BL1_1..6`, closing `Missing Link #1`, `Obstruction 1`, & `71b1718a1` `LINK23-F1..F5`):**
+     (`1`) Crystallographic $\mathrm{Spin}(10)$ involutions $(P_{\mathrm{PS}}, W_{\mathrm{GG}}) = (\exp(\pi i\omega_3^\vee), \exp(\pi i\omega_5^\vee))$
+     (`dim (21, 25) -> 13` $G_{\mathrm{SM}}\times\mathrm{U}(1)_\chi$ for all $\tau \in \mathbb{H}$, zero $A_\mu^\psi$), $2\times\mathbf{10}_H \to (H_{u1}, H_{d2})$,
+     unsplit brane $3\times\mathbf{16}_F$ (`6/6` $\mathrm{U}(1)_\chi$ anoms `0`), $P_M = (+1,+1,-1)$, neutral $S^3$ `(0,0,0)`, and exact
+     $\mathrm{tr}\,R^4 = \mathrm{tr}\,F^4 = 0$ ($273 - 29 + 45 - 289 = 0$) with $I_8 = -\frac{1}{16}(\mathrm{tr}\,R^2 - \mathrm{tr}\,F^2)(\mathrm{tr}\,R^2 + 2\,\mathrm{tr}\,F^2)$
+     (`0` rational diff); (`2`) $\mathrm{SU}(2)_R$ twist $\alpha = (\frac{1}{2},\frac{1}{2}) \in E[2]\setminus\{0\}$ flipping untwisted Casimir to
+     $+4(273-17) = +1024 > 0$ (`Ewald S-duality 3.07e-50`) + DKL $|\eta|^{-4}$ confining all `3` $\Gamma(2)$ cusps; (`3`) coupled `4`-modulus
+     $\mathrm{dS}$ stabilization ($w_0 = 0$, `0` embedded coordinates) at $(t_*, s_*) = (301.60528043, 31.16329326)$,
+     $\tau_* = 0.81764673 + 0.38613541\,i$, $V_{\mathrm{tot}}/M_{\mathrm{Pl}}^4 = +1.6575\times 10^{-9} > 0$, $\|\nabla_4 V\|_2 = 1.38\times 10^{-44}$
+     (`independent Ewald Newton 6.88e-41`), Sylvester minors $\Delta_{1..4} > 0$, and single area $\mathcal{A}_* M_6^2 = \sqrt{s_* t_*} = 96.9485$
+     (`5.35e-15`, `0` splice); (`4`) $\mathrm{STr}\,\mathcal{M}_{Z'_\chi}^2 = 0.0$, KK integral $\frac{7\zeta(3)}{8\pi^2} = 0.10656960$
+     (`quad 2.97e-36, EM 8.80e-22`), and $D/F$-term quartics `(0.16130, 0.16130, 0.04032, 0.15838)` (`Kannike > 0`, $\tan\beta_{\mathrm{tree}} = 1$,
+     $m_h^2/v_{\mathrm{EW}}^2 = 0.18$); (`5`) `5` full-rank Yukawa/Majorana matrices at $(s_*, \tau_*)$ (`contour vs prod 1.19e-14`),
+     `60.42%` $e$–$d$ split, $J_{\mathrm{CKM}}(\tau_*) = -1.709\times 10^{-4} \neq 0$, scrambling `1.07e-50`, $B_{\mathrm{MSSM}} = 5/7$, and
+     `GL6(55)` vs `GBS8(40)` `5.34e-14`; (`6`) `6/6` `71b1718a1` SHA manifests (`0` in-place overwrites), `OW19-F3` $b_c^*(\tau_8^+)$
+     matched via `GBS10` (`2.06e-13`) and Order-`24` Taylor (`2.07e-13`), and strict single-anchor parameter ledger (`integrated in`
+     `self_consistent_loop/manuscript/main.tex Sec. IX, Theorem 7, Table VII, Fig. 7; 19 pages, 0 overfull boxes, AutoTeX-verified`).
 
 ## `Card X-FLAVOR-LINK4` Delivery: Holomorphic Punctured-Torus Lefschetz Yukawas, Exact Antipodal Equivalence ($p \sim -p$), Null-Quaternion Rank-`3` Lifting, & Order-`6` Lepton–Down Splitting (`2026-11-22`; `0 of 19`)
 
