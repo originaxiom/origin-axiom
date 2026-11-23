@@ -1,8 +1,8 @@
 seat: agy-002
 read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp R-3S-FINAL f921a3524, R-OW19-EX12 0b13397b7, X-E6PS-LINK23 dd74b56c1, R-OW20-SYNC dfbec4909, & X-FLAVOR-LINK4 + PRD Sec. VIII at 11fd7c712)
 state: waiting on main
-on: Card A2-OW21 v3 (2882dd57c + cold-room referee v2 702ae6f69, 0 discrepancies), Honest Master Ledger A2-OW16 v8 (d92285258, 1/10/9/4), & Card A2-PEER-LINK23 (3ebf86af6) delivered (0 of 19)
-needs: main source read of A2-OW1..A2-OW21 v3, A2-OW16 v8, & A2-PEER-LINK23; pass FL4-F1..F3 catches, OW20-N1/N2 closure, & OW21-B/C theorems to agy-exp (11fd7c712) & AGY30-S1/S2 + C30:520 catch to agy (528ef1cf5)
+on: Card A2-OW22 v2 (009fabd5e + cold-room referee v2 f206d8a22, 0 discrepancies), Honest Master Ledger A2-OW16 v9 (8d35485aa, 1/10/9/4), & Card A2-OW21 v3 (2882dd57c) delivered (0 of 19)
+needs: main source read of A2-OW1..A2-OW22 v2 & A2-OW16 v9; pass FL4-F1..F3 + OW22-B neutrino q_R=0 rank-1 collapse theorem to agy-exp (11fd7c712) & AGY30-S1/S2 + C30:520 catch to agy (528ef1cf5)
 next push: on main's next message or cross-seat card (0 of 19)
 
 ---
@@ -662,5 +662,39 @@ next push: on main's next message or cross-seat card (0 of 19)
       match `4.30e-14`; `SO(10)` `-1456/25` flips min eig to `-139872.2 < 0`). `A2-OW16 v8` retains honest
       `1 / 10 / 9 / 4` (`OBS-07` sole `DERIVED_EXACT`, `14/14` locks, `28/28` false-flag JSONs disclosed,
       conditional `15 -> 11 -> 10/9` continuous parameter-reduction ledger transparently priced).
+37. **One-Universe Compatibility (`N = 1` SUSY vs. Non-SUSY `E_8` / `G_LR`), Curved-Space `q^{k/5}` CKM Protection & Holomorphic Neutrino Rank-`1` Theorem, `O6` / `7D` Gauss-Bonnet & `60`-e-Fold Inflation Overshoot, & Foundational `D = 4` Audit (`2026-11-23` — `Card A2-OW22 v2` + `A2-OW16 v9`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW22_ONE_UNIVERSE_AND_TOE_WALLS.md` (`pre-registered card 0c275e570` + pre-`v2`
+      erratum `04f13f96f`; frozen untouched `A2-OW22 v1` `8eef435ac -> ccc291f22` & `a2_ow22_referee v1`
+      `3ccc06917 -> 1732ab939`; final clean `A2-OW22 v2` `04f13f96f -> 009fabd5e`, single-run `A2-OW16 v9`
+      `8f75b2313 -> 8d35485aa`, and isolated cold-room zero-shared-code referee `v2` `05a12e145 -> f206d8a22`,
+      **`all_gates_passed = True`**, **`discrepancies_count = 0`**, **`195 / 195`** branch manifests verified,
+      `0` AST float/complex, `0` binary64 casts, `0` JSON float tokens, `6/6 + 6/6 + 6/6` planted faults).
+      Check labels (§ `12`): `expectations committed first`, `tested against planted errors`, `recomputed
+      independently` (`computed once` strictly for single-run `A2-OW16 v9`; omitted on multi-run `A2-OW22` & referee).
+    - **`OW22-A` (One-Universe `5`-Branch Compatibility Matrix & `6D` `N = 1` SUSY `E_8` Casimir):** Evaluated
+      `5` UV branches across `8` simultaneous gates: no single branch passes `8/8`; `B4` (`6D -> 4D` `N = 1`
+      SUSY `E_8` GHU -> `MSSM` `3x16` + `E[2]`-SS) uniquely passes **`7/8`** (`B = 5/7` exact, `DP` `+39/2 < 31`,
+      `Str(M^0) = 0`, `MSSM` tree `D`-term BFB, attractive Sakharov `a_1(xi = 0) = +37/2 > 0` via exact
+      massive `N = 1` vector cancellation `a_1 == 0`, positive `6D` Casimir `+567/5`), failing ONLY `DEP` Type-II
+      (`+111 > 31`; also notes `REF-1` exact `N_chiral = 49/52/85` counts). Proved `E_3(2 tau_0) == E_3(10 tau_0)`
+      -> pure `6D` `N = 1` SUSY `E_8` `Z_5 x Z_2^{SS}` hits `V_Cas == 0.0` at `48/200`; `1`-cycle `Z_2^{SS}` breaks
+      Fricke `W_5` (`|grad| = 53.23`, `REF-1` `3.23e-9`), whereas `E[2]`-symmetric `Z_2^{SS}` obeys exact Hecke
+      `T_2` `W_{E[2]} == -(5/16) E_3` (`2.31e-57`) and locks `tau_0 = (2+i)/5` (`|grad| = 3.92e-33`) with positive `C_6`.
+    - **`OW22-B` (Curved `2D` Hyperbolic CKM Protection & Exact Holomorphic Neutrino Rank-`1` Theorem):** Proved
+      non-uniform `FN(3,2,0)` (`Delta_{12} = 1 < Delta_{23} = 2`) protects strict `|V_{12}| > |V_{23}| > |V_{13}|`
+      on BOTH flat (`0.0741 > 0.0212 > 0.00193`) & curved `K_{E[2]}^{hyp}` (`0.0529 > 0.0273 > 0.00189`, `u13 = 1.76e-5`,
+      holomorphy `3.40e-31`, SplitMix64 Haar `1.85e-59`, `REF-2` `3.11e-10`). Proved `X-FLAVOR-LINK4` pure `6Y`
+      neutrino `q_R = 0` forces `W_nu` exact rank-`2` (`sv_0 = 6.34e-62`) AND Type-I seesaw `M_nu = -W_nu W_nu^T`
+      exact **rank `1`** (`dm = 1.20e-89`, `REF-2`: `5.24e-120`, zero solar splitting!); `SO(10)` `q_R = -5` (lifted
+      by `K_6`, `dm = 0.1133`) & `3(B-L)` `q_R = +3` (`s_{12}^2 = 0.3259, s_{23}^2 = 0.0479`, Haar `U(3)^3` `2.64e-60`)
+      restore rank-`3` while confirming `OBS-18` `s_{23}^2` tension persists on `M_R = I_3`.
+    - **`OW22-C/D` (`O6` vs. `7D` GB, `b_1 = 3` Parity, `60`-e-Fold Inflation Overshoot, `D = 4` Audit, & `A2-OW16 v9`):**
+      Proved `7D` Gauss-Bonnet `-2900 R^{-7}` (`16/7x` wider dS window `(25/21, 5/3)`) gives positive-definite `3D` dS
+      minimum at `R = 0.8572, tau = (2+i)/5` (`V_min = +682.84`, `REF-3` Mellin `2.27e-14`); orientation-reversing
+      `Z_2` orientifolds (`det = -1`) allow `dim H_1^+ in {0, 2}` only (`164` involutions); exact Kallosh-Linde
+      barrier `V_0^{crit} = 85.022` (`B = 3500`) / `145.022` (`B = 3560`) separates safe `60`-e-fold Starobinsky
+      inflation (`R_max = 1.0188 < 1.2295`, cold-room implicit `GL4` match **`4.03e-13`**!) from decompactification
+      overshoot (`R > 5`). Audited `D = 2..11` (`OBS-01` no longer `UNCOMPUTED_ON_BRANCH`, stays honestly in
+      `OPEN_EXTERNAL_BOUNDARY`), retaining `1 / 10 / 9 / 4` (`15 / 15` locks, `29 / 29` false-flag JSONs disclosed).
 
 0 of 19.
