@@ -784,5 +784,42 @@ next push: on main's next message or cross-seat card (0 of 19)
       **`ready_to_unblind_unconditional = False` (`3` UV seams: `U2, U3, U4`)** vs.
       **`ready_for_conditional_priced_blind_lock = True` (`5 / 5`)**; single-run `A2-OW16 v12` retains honest
       `1 / 10 / 9 / 4` (`17 / 17` locks, `34` historical false-flag JSONs).
+40. **Final `0 of 19` Pre-Lock IR Pipeline & UV Seam Closure (`B4_UV` `2`-Loop MSSM + Weinberg Operator + Radiative EWSB + EFT-Resummed `m_h` + `6.13x` Gluino FCNC Dilution, Arithmetic `\mathbb{Z}[i]` Borromean Rings `6^3_2` [`6/6` vs. Chiral Whitehead `3/6` vs. `m004` `0/6`], `0 / 9` Twisted `E_8` Orbifold `DEP <= 10` Obstruction Uniquely Forcing `G_2` `8 / 8`, & SHA-256 Sealed `B4_UV` IR Blind-Prediction Lock) (`2026-11-23` — `Card A2-OW25 v7` + `A2-OW16 v14`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW25_B4UV_IR_PIPELINE_AND_BLIND_LOCK_RESULTS.md` (`pre-registered card de0734a4b`
+      + pre-`v4` `8552d90ef` + pre-`v5` `133693661` + pre-`v6` `e618aab60`; frozen untouched `A2-OW25 v1..v6`
+      [`25de4b788, 1370363c8, 247af9373, be9639ce0, 99a8538de, 671befc1f`], `A2-OW16 v13` `041734297`, &
+      `a2_ow25_referee v1` `78fd710d9` [caught Guardrail-2 / chirality on Whitehead `3/6` & `m004` `0/6`]; final
+      remediated `A2-OW25 v7` `ab6f6d0d7 -> 6bb4335f4`, single-run `A2-OW16 v14` `c00fb3653 -> af1b714bd`, and
+      isolated cold-room zero-shared-code referee `v2` `3f7ee97e0 -> 7e863b41d`, **`all_gates_passed = True`**,
+      **`discrepancies_count = 0`**, **`240 / 240`** manifest entries verified across `238` `*SHA256*.txt` files
+      post-seal, `0` AST float/complex, `0` binary64 casts, `0` JSON float tokens, `6/6 + 6/6 + 6/6` planted
+      faults). Check labels (§ `12`): `expectations committed first`, `tested against planted errors`, `recomputed
+      independently` (`computed once` strictly for single-run `A2-OW16 v14`; omitted on multi-run `A2-OW25` & referee).
+    - **`OW25-A` (`B4_UV` `2`-Loop MSSM + Weinberg + Radiative EWSB + EFT `m_h` + `U4`):** Martin–Vaughn Casimir
+      derivation + `45`-dps NSVZ non-renormalization (`<= 2.46e-45`), `1`-loop `3`-gauge & Bernoulli Pendleton–Ross
+      (`< 1e-13`), `2`-loop step-halving `160` vs `320` (`7.34e-11`), UV match vs `OW24 v2` (`1.44e-12`), and
+      `10`-trial Haar `U(3)^5` through the full `2`-loop ODE (**`6.90e-30`**, `REF-1` LCG128+Householder through
+      disjoint implicit `GL4`: **`1.07e-24`**). All central IR gauge (`\sin^2\theta_W(M_{SUSY}) = 0.24039`, `M_{EW}`
+      band `0.2168..0.2285`, `\alpha_3(M_{SUSY}) = 0.10006`), pure-lopsided `SU(5)` `m_b / m_\tau` (`1.2615` FLAT /
+      `1.2765` CURV, `10/10` strict CKM ordered), and PMNS match disjoint `REF-1 GL4` to **`<= 2.28e-9` rel**.
+      `36 / 36` radiative EWSB benchmarks pass (`m_{H_u}^2 < 0`, EFT-resummed `m_h / M_Z = 1.54..1.61` at `m_0 = 3v`,
+      `1.835` at ref `10v`, `REF-1` `2.27e-11` rel). Proves `0 / 6` flat-horosphere `U4` RG rescues while curved
+      `1/384` hit stays in window at moderate `y_d` (`s_{12}^2 = 0.3917, s_{23}^2 = 0.3456, s_{13}^2 = 0.0550,
+      dm = 0.02963`) AND `SU(3)_c` gluino running (`M_3 / M_{1/2} = 2.500`) dilutes its curved `28.43%` `1–2`
+      squark FCNC split **`6.129x`** down to **`4.639%`**.
+    - **`OW25-B` (`U2` — Borromean `6^3_2` `6 / 6` vs. Whitehead `3 / 6` vs. `m004` `0 / 6`):** Zero-hardcoding
+      exact `SL(2, \mathbb{Z}[i])` & `SL(2, \mathbb{Z}[\omega])` holonomy (disjoint `REF-2` pure-integer rings +
+      Clausen/dilogarithm + Dedekind `E_4^3/\Delta` verified): Borromean `6^3_2` unites `b_1 = 3`, `V = 8 G_{Cat}`
+      (`err = 0.0`), all `3` cusps `2i` (`j = 66^3`, `1.07e-50`, det-`2` commensurable with `\tau_0`), and explicit
+      geometric `Z_2` involutions (`b_1^+ \in \{0, 2\}`) -> **`6 / 6`**; Whitehead `5^2_1` (`\tau_{can} = -2+2i`,
+      `\Gamma_w \bmod 2` order `8`, cusp-swap `S`) is strictly chiral -> **`3 / 6`**; `m004` (`b_1 = 1`,
+      `\tau = 2\sqrt{3} i` incommensurable, `PSL(2, \mathbb{F}_4)` order `10` forces order-`4` `b_1^+ = 0` &
+      `b_1^+ = 1` involution) -> **`0 / 6`**.
+    - **`OW25-C/D` & `A2-OW16 v14` (`U3` & Canonical Blind Lock — Hard Stop-Rule Reached):** `0 / 9` magnetized
+      `E_8` orbifolds survive twisted GS + Witten within `DEP <= 10` under exact `240`-root `E_8` doublet bounds
+      (`|q| \le 2/3`; `7/9` fail even unrestricted, remaining `2` need exotic `|q| \in \{14, 15\}`), uniquely
+      forcing `G_2` `SU(5)_{vis} x SU(5)_{hid}` (`8 / 8`). Sealed canonical **`blind_prediction_lock_sha256 =
+      d027938e33d3060e0725a8e5b77832437b6452ae3f155e88b42d4808d51c1254`**; single-run `A2-OW16 v14` retains honest
+      `1 / 10 / 9 / 4` (`18 / 18` locks, `38` historical false-flag JSONs). Ready to push/sync & unblind!
 
 0 of 19.
