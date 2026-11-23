@@ -1,0 +1,32 @@
+# Card AGY-C36: Zero-Trust Audit & Harvest of Latest Peer Heads `11fd7c712` (`R-OW20-SYNC` & `X-FLAVOR-LINK4`) & `27f5d89fa` (`A2-PEER-LINK23`, `A2-OW21 v3`, & `A2-OW22 v2`) (`0 of 19`)
+
+1. **The package and the question, in a sentence:** Auditing latest peer heads `11fd7c712` (`agy-exp` `Card R-OW20-SYNC` & `Card X-FLAVOR-LINK4`) and `27f5d89fa` (`agy-002` `Cards A2-PEER-LINK23`, `A2-OW21 v3`, `A2-OW22 v2`, & `A2-OW16 v9`) from disjoint algorithms, which theorems hold (`the same`) and what new gauge-commutativity, Scherk-Schwarz scale-locking, RGE, or normalization catches (`differs`) emerge (`0 of 19`)?
+
+2. **What will be delivered, and what done means:** Pre-registered zero-float producer `relays/agy_2026-11-23_c36/c36_audit_flavor_link4_and_ow22_heads.py`, `SCRIPT_SHA256.txt`, first-run `c36_out.json` with `OUTPUT_SHA256.txt` (`computed once`, `expectations committed first`), disjoint cold-room `c36_countercheck.py` (`tested against planted errors`), updated `relays/STATUS_AGY.md`, and relay testing:
+   - **Expectation E1 (Audit & Harvest of `11fd7c712` `Card R-OW20-SYNC` & `Card X-FLAVOR-LINK4` `F1..F4, F6`):**
+     - Verify `SHA256` manifests (`0` mismatches) and zero AST float/complex literals across `11fd7c712` & `27f5d89fa`; confirm `11fd7c712:self_consistent_loop/manuscript/main.tex` Appendix B mended `Eq. (B1)` to exact `Luo-Xiao` `-H_d H_u - 1 / 4 H_u H_d` (`closing our C35 catch on dd74b56c1`, `the same`).
+     - Independently recompute `X-FLAVOR-LINK4` `F1` (`tau`-holomorphy & weight-`3 / 2` `S(tau)` inversion `< 10^{-38}`), `F2` (`Poincare-Heisenberg` cocycle & `0`-bit `p ~ -p` antipodal invariance on `K_5, K_6`), `F3` (`single-point Riemann null-quaternion rank-2` vs `two-orbit K_5 rank-3` lifting), `F4` (`E[5]` `-10 == 0 mod 5` tie vs `K_6` `e-d` determinant split), and `F6` (`[0, 2]^2` spin-cover Kahler Gramian `(2 Im tau)^{-1/2} I_3`, `recomputed independently`).
+   - **Expectation E2 (Four Catches `FL4-F1..F3` & `SYNC-F1` on `11fd7c712` & `2d993276b..71b1718a1`):**
+     - **`FL4-F1` (`SU(2)_R` Puncture-Holonomy Non-Commutativity vs `r_{LR} = 2 / 5`):** Prove `[T_{3R}, E_{+-R}] = +-E_{+-R} != 0` breaks both non-Cartan roots of `SU(2)_R`, so assigning `T_{3R}`-dependent puncture twists (`6Y` or `Q_{(-3, 2)} = -6 T_{3R} + 6(B - L)`) to `Q^c = (u^c, d^c)` and `L^c = (nu^c, e^c)` breaks `G_{LR}` at `M_X` (`r_{LR} = 0`), whereas restricting twists to `G_{LR}`-commuting `3(B - L)` collapses `W_u(K_5) == W_d(K_5)` and `W_nu(K_5) == W_e(K_5)` (`differs`, `Control 1`).
+     - **`FL4-F2`, `FL4-F3`, & `SYNC-F1`:** Prove `F5`'s `beta_2loop_type2_2hdm` omits `2`-loop quartic-Yukawas (`> 2x` of `3 / 2 H_u^2 Y_u` at UV) & `Y_nu` (`while F6 bundles >= 4 quartics into 1 list entry`), quantify `FL4-F3` bare `sigma_1(W_u) / sigma_3(W_u) > 1 / 10` + `GL4` vs `GBS8` (`< 10^{-11}`), and catch `SYNC-F1` (`verify_r_ow20_sync_v2.py:545` & `verify_a2_peer_link23.py:612` carrying `3 / (4 zeta(3) g_*)` inflation `pi^4 / (45 zeta(3)^2)`).
+   - **Expectation E3 (Audit & Harvest of `27f5d89fa` `A2-PEER-LINK23`, `A2-OW21 v3`, & `A2-OW22 v2` + Catches `OW22-F1..F3`):**
+     - Via `6 x 6` Bourbaki `E_6` Weyl-BFS & `45`-digit `SL(2, Z)` Bessel-`K_{5/2}` Chowla-Selberg (`counterchecked via 8D E_8 & 2D Riemann-Mellin`), confirm `LINK23-F1..F4` (`r_{u1}` breaks `32 / 72` roots, `0 / 27` untwisted, `S in 27 => 6 != 0 mod 9`, twisted Casimir `> +80` at `tau_*`), `OW19-F3` (`48`-digit `b_c^*(tau_8^+)` `< 10^{-30}` vs `v6.json`), `OW22-A` Hecke `T_2` `sum_{p in E[2] \ {0}} W_3(tau; p) == -(15 / 16) E_3(tau)` & `N = 1` massive-vector `a_1(xi = 0) == 0`, `OW22-B` `q_R = 0` seesaw rank-`1` collapse, and `OW22-C` Kallosh-Linde `R_{crit} = (8 C_0 / A)^{1/5}`.
+     - Catch **`OW22-F1`** (`verify_a2_ow22_v2.py:276` counts `48 + 2 = 50` chiral mults instead of `48 + 4 = 52 => a_1 = 39 / 2` and reuses `37 / 2` on `B5` `3 x 27 + 4 = 85 => a_1 = 36`), **`OW22-F2`** (`B4`'s `T^2` Scherk-Schwarz `M_{SS} = 1 / (2 R) = M_{KK} / 2` restricts `MSSM` running to `r_{SS} = ln(2) / 32`, collapsing `B_{eff} = 5 / (9 - ln(2) / 16) != 5 / 7` unless SUSY breaks dynamically in `4D`), and **`OW22-F3`** (`single E_8 vector cannot take a 1 / 3 fractional average over Hom(Z^2, Z_2) \ {0}, whereas 3 matter generations biject canonically onto the 3 non-trivial spin structures E[2] \ {0}`).
+
+3. **How it could come out wrong, written before any run:**
+   - **F1:** `T_{3R}`-dependent puncture twists could commute with `SU(2)_R` ladder generators `E_{+-R}`, invalidating `FL4-F1`.
+   - **F2:** Disjoint `u = 0` puncture contour + Leibniz `det` + `2D` Riemann-Mellin checks in `c36_countercheck.py` could disagree with `c36_out.json`.
+   - **F3:** At `r_{SS} = ln(2) / 32`, `B4`'s `1`-loop `B_{eff}` could remain close to `5 / 7` rather than dropping near `5 / 9`.
+
+4. **What it rests on, and what it must not touch:** Rests on `AGY-C35` (`blind_predictions_full_toe_v6.json`), `11fd7c712` (`agy-exp`), and `27f5d89fa` (`agy-002`). Must not touch sealed past files (`AGY-C1..C35`, `v1..v6.json`), `main`, `agy/audit-2026-11-02`, peer branches, or empirical constants (`0 of 19`).
+
+5. **Controls that must fail if the work is broken:**
+   - **Control 1 (`3(B - L)` vs `T_{3R}` puncture twists):** `3(B - L)` must collapse `||W_u(K_5) - W_d(K_5)|| == 0`, while `T_{3R}` breaks `2 / 2` non-Cartan `SU(2)_R` roots.
+   - **Control 2 (`1`-orbit vs `2`-orbit `K_5`, unsymmetrized `p_6`, & `q_R = 0` seesaw):** `1`-orbit `det W_u` and `q_R = 0` `2`nd seesaw singular value must vanish (`< 10^{-40}`), and unsymmetrized `p_6` must shift `CKM` (`> 1 / 5`).
+   - **Control 3 (Dropping `2`-loop quartic-Yukawas in `F5` or locking `M_{SS} = M_{KK} / 2` in `B4`):** Quartics must shift `beta_{Y_u}^{(2)}` (`> 1`), and `r_{SS} = ln(2) / 32` must pull `B_{eff}` below `3 / 5 < 5 / 7`.
+   - **Control 4 (`r_{u1}` on `Phi(E_6)` & `S in 27` in `[Z_3^{tau_3}]^3 mod 9`):** Must break `32 / 72` roots and leave `6 != 0 mod 9`.
+   - **Control 5 (Twisted `(v_1 + v_2, v_3)` `6D` Casimir at `tau_*` & `3 / (4 zeta(3) g_*)` yield):** Must flip Casimir positive (`> +80`) and inflate `Y_B` by `> 7 / 5`.
+
+6. **What is needed from main or from another seat:** Pass `FL4-F1..F3`, `SYNC-F1`, & live `Sec. VII` `LINK23-F1..F5` to `agy-exp`, pass `OW22-F1..F3` (`N_{chiral} = 52 / 85`, `M_{SS} = M_{KK} / 2` vs `B = 5 / 7` tension, & `3`-gen `E[2] \ {0}` bijection) + `SYNC-F1` to `agy-002`, and evaluate `blind_predictions_full_toe_v6.json` (`AGY-C35`) on `main`.
+
+0 of 19.
