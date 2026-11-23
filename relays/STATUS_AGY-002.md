@@ -740,5 +740,49 @@ next push: on main's next message or cross-seat card (0 of 19)
       `2.80..4.15 > 1` per `REF3_CANONICAL_MTAU_HXY_NOTE`), and Energy Vise ordering (`0.0273 < 0.0394 < 1`). `12`-gate
       comparison: **Beta `11 / 12` vs. Alpha `8 / 12`**, `ready_to_unblind = False` (exact `3` blockers: `R2, R3, R4`),
       and single-run `A2-OW16 v10` retains honest `1 / 10 / 9 / 4` (`16 / 16` locks, `32` pre-referee false-flag JSONs).
+39. **Final Three Blockers Campaign (Single-Torus `M = 8` Magnetized `T^2 / Z_2` Bridge for `R2`, `240`-Root `E_8` Bulk Magnetized Orbifold GS Obstruction `0 / 9` vs. `G_2` Conical-Locus `8 / 8` for `R3`, Type-I == Type-II Cancellation + Pure Lopsided `SU(5)` + `H_u(K_5)` Unblocking + Priced `384`-Case Neutrino Atlas for `R4`, & `12 / 12` Beta Dual Pre-Unblinding Gate) (`2026-11-23` — `Card A2-OW24 v2` + `A2-OW16 v12`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW24_FINAL_THREE_BLOCKERS_RESULTS.md` (`pre-registered card 5b856e06e` +
+      pre-`v2` substantive erratum `942f6694e`; frozen untouched `A2-OW24 v1` `2829c668f -> 19311db5a`,
+      `A2-OW16 v11` `f31cfb6c6 -> 0b426dc80`, & `a2_ow24_referee v1` `226ead9d0 -> 598eaeb57` [caught `2` real
+      `OW24-B` Lie-algebra bugs: `(10, 6)` `(0, 3)` doublet double-count & `T^2/Z_2 (-2,-2,0,4)` unbroken `E_6`
+      `N_V = 82` enhancement]; final remediated `A2-OW24 v2` `ee114fa91 -> 9b60653f1`, single-run `A2-OW16 v12`
+      `22a167258 -> b71741c00`, and isolated cold-room zero-shared-code referee `v2` `fb1f9a537 -> c61617d4b`,
+      **`all_gates_passed = True`**, **`discrepancies_count = 0`**, **`219 / 219`** entries verified across `217`
+      `*SHA256*.txt` manifests, `0` AST float/complex, `0` binary64 casts, `0` JSON float tokens, `6/6 + 6/6 + 6/6`
+      planted faults). Check labels (§ `12`): `expectations committed first`, `tested against planted errors`,
+      `recomputed independently` (`computed once` strictly for single-run `A2-OW16 v12`; omitted on multi-run
+      `A2-OW24` & referee).
+    - **`OW24-A` (Blocker `R2` — Single-Torus `M = 8` Magnetized `T^2 / Z_2` Bridge):** Proved across `M = 1..20`
+      (SymPy nullspaces `20 / 20`) that **`M = 8` is the UNIQUE `E_8` spinor-quantized even flux yielding `N_{gen} = 3`
+      `Z_2`-odd chiral zero modes** (`5` even, `3` odd; `M = 6` gives `2`). On **ONE base torus `\tau_0 = (2+i)/5`**
+      (`j = 1728`), `M = 8` magnetized zero modes evaluate at `8\tau_0` and satisfy the `6D` Dirac PDE (`6.27e-33`,
+      disjoint `mp.jtheta` `REF-1`: `1.38e-35`), quasi-periodicity (`<= 3.10e-60`, `REF-1`: `4.96e-64`), `Z_2`
+      reflection (`0.0`, `REF-1`: `1.28e-64`), `L^2(T^2)` `3 x 3` Gram orthogonality (`2.63e-60`, disjoint `2D`
+      Gauss-Legendre `REF-1`: `1.85e-48`, `|G_{11} - \sqrt{5}/4| = 1.92e-49`), cyclic `Z / 8 Z` Smith Normal Form
+      `diag(1, 8)`, and Ramanujan `R(5\tau_0)` (`1.94e-62`, continued fraction `REF-1`: `4.20e-67`).
+    - **`OW24-B` (Blocker `R3` — `240`-Root `E_8` Bulk Orbifolds `0 / 9` vs. `G_2` Conical Locus `8 / 8`):**
+      Disjoint `M = 1..16` unitary DFT `mp.eig` (`1.31e-49`) + exact `240`-root `E_8` audit verify smooth-`T^2`
+      `GS_{diff} == (0, 0)` across all `4` fluxes and `9 / 9` models (`19` fields exact match): `7` `T^2 / Z_4`
+      models (uniquely `1 / 7` at `M = 8`: `(-4,-4,0,8), r = (3,3,2,0)`, `N_V = 50, N_C = 96`, `h_{10}^{hid} = 1`,
+      `13` `SU(2)_{hid}` doublets -> `Witten = 1`, `GS_{diff} = (-7,-5/2)`, `\det = 31`; sole Witten-free post-DT
+      `N_C - 50 <= 10` is `(-3,-3,2,4)` at `+7`) and `2` `T^2 / Z_2` models (`(-2,-2,0,4), r = (1,1,0,0)` has `32`
+      unbroken gauge roots enhancing to `E_6 x SU(2)_{hid} x U(1)_{T_1+T_2}`, `N_V = 82, N_C = 85`, `A(E_6^2) = -18
+      != A(SU(2)^2) = -3`; `(-2,-2,1,3)` has `Witten = 1`). Proves **`0 / 9` bulk-only magnetized `E_8` orbifolds
+      satisfy `4D` GS universality without twisted fixed-point states** (holding even under `REF2_ZERO_FLUX_CHIRAL_DZ_TWIST_NOTE`),
+      while `G_2` conical-locus `SU(5)_{vis} x SU(5)_{hid}` passes **`8 / 8`** (`0` hidden-charged matter,
+      `SU(5)^3 = 0`, `14` `SU(2)_L` doublets `Witten = 0`, `a_1 = +2 > 0`, `DEP = +12 < 31`, `DP = -138 < 31`).
+    - **`OW24-C/D` & `A2-OW16 v12` (Blocker `R4` & Dual Pre-Unblinding Gate):** Proved exact Type-I == Type-II
+      cancellation at `q_R = +3` (`5.48e-56`, `REF-3`: `< 8.56e-61`); pure lopsided `SU(5)` `n_{10}=(3,2,0),
+      n_{5bar}=(0,0,0)` saves `6.644` discrete bits while strictly protecting CKM on both flat (`u_{13}=2.29e-6`)
+      and curved `K_{E[2]}^{hyp}` (holomorphy `3.28e-29`, Haar `U(3)^5` `1.77e-53`); physical `H_u(K_5)` unblocks
+      `s_{23}^2` to `0.4579 / 0.6645` (`q_R = +3`, Haar `1.31e-55`); full `384`-case discrete atlas (`264`
+      non-singular, `0` continuous dials) yields uniquely **`1 / 384`** simultaneous large-mixing hit
+      `CURV_5-6_over_5-6_qR_2_n5b_000` (`s_{12}^2 = 0.3762, s_{23}^2 = 0.3426, s_{13}^2 = 0.0548, dm = 0.02967,
+      J = -0.04581, eps1_MSSM = -2.453e-5`, Takagi `3.94e-57`, `REF-3` real `6 x 6` `mp.eigsy` `6.30e-62`, geom CP
+      `4.19e-55`, Haar `U(3)^3` `5.76e-55`), honestly priced at **`8.585` discrete bits** (`\log_2 384`) with curved
+      FCNC + `q_R = +2` tension. `12`-gate verdict: **Beta_mag `12 / 12` vs. Alpha_mag `9 / 12`**; dual readiness
+      **`ready_to_unblind_unconditional = False` (`3` UV seams: `U2, U3, U4`)** vs.
+      **`ready_for_conditional_priced_blind_lock = True` (`5 / 5`)**; single-run `A2-OW16 v12` retains honest
+      `1 / 10 / 9 / 4` (`17 / 17` locks, `34` historical false-flag JSONs).
 
 0 of 19.
