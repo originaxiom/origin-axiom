@@ -1,0 +1,357 @@
+{
+  "OW21_A_fl4_audit_and_curved_kahler": {
+    "FL4_F1_curved_2d_hyperbolic_kahler_distortion": {
+      "ckm_v23_exceeds_v12_on_curved_2dhyp": true,
+      "flat_ckm_12_23_13_J": [
+        "0.3622325845",
+        "0.1654469141",
+        "0.0448083322",
+        "-0.002222233165"
+      ],
+      "hyp2d_ckm_12_23_13_J": [
+        "0.2454842619",
+        "0.2757470284",
+        "0.051399215",
+        "-0.003145149939"
+      ],
+      "rel_shift_J": "-0.4153105",
+      "rel_shift_Yu_s2_over_s3": "0.63266361",
+      "rel_shift_v12": "-0.3223021",
+      "rel_shift_v23": "0.66667979"
+    },
+    "FL4_F2_holomorphic_hierarchy_ceiling_and_q5_rescue": {
+      "q5_dressed_ckm_12_23_13_J": [
+        "0.06520247306",
+        "0.1575381092",
+        "0.01464130305",
+        "2.623387298e-5"
+      ],
+      "q5_dressed_dbar_rel": "2.3866682e-25",
+      "q5_dressed_haar_10trial_err": "8.2326285e-45",
+      "q5_dressed_u_d_e_s1_over_s3": [
+        "1.7134602e-5",
+        "0.00027064814",
+        "0.0001939153"
+      ],
+      "q5_dressed_u_d_e_s2_over_s3": [
+        "0.0069203562",
+        "0.045350858",
+        "0.026130129"
+      ],
+      "undressed_u_d_e_s1_over_s3": [
+        "0.121206",
+        "0.20279958",
+        "0.17135651"
+      ]
+    },
+    "FL4_F3_f5_omitted_2loop_quartics_shift": {
+      "frob_shift_ghu_vs_lam0_at_dt_neg12": "0.0001293927572"
+    },
+    "gate_a": false,
+    "peer_11fd7c712_manifests_matched": 13,
+    "peer_11fd7c712_manifests_total": 13,
+    "peer_scripts_ast_clean": true,
+    "verified_fl4_breakthroughs": {
+      "E5_lepton_down_tie_err": "3.2842933e-47",
+      "K5_det_Wu_rank3": "8.53321235845e-6",
+      "K6_lepton_down_det_split": "0.876813619528",
+      "dbar_hol_rel": "4.1259103e-25",
+      "dbar_norm_cube_rel": "0.19610279",
+      "p6_cocycle_err": "3.5966098e-46",
+      "single_p5_det_null": "7.6621875e-49"
+    }
+  },
+  "OW21_B_6d_e8_ghu_quartics_and_repaired_glr": {
+    "e8_holomorphic_yukawa_root_closure": {
+      "16_16_10_root_sum_zero": true,
+      "16_16_10star_forbidden": true
+    },
+    "gate_b": false,
+    "ghu_uv_quartics_over_g2": {
+      "all_three_residuals_zero": true,
+      "case1_single_10_3": [
+        "1",
+        "1",
+        "1",
+        "-1"
+      ],
+      "case2_split_type2": [
+        "1",
+        "1",
+        "0",
+        "-1/2"
+      ],
+      "case3_e6_78": [
+        "1",
+        "1",
+        "-1/2",
+        "-1/2"
+      ]
+    },
+    "repaired_glr_brane_matter_and_z3_cure": {
+      "Mg_repaired_GLR_x_U1psi_brane_3x16_3xchiS": 11,
+      "PM_S2_preserves_matter_parity": 1,
+      "PM_chiS_stable_dm": -1,
+      "soft_S2_lifts_Z3_domain_walls": true,
+      "survives_DEP_lt_31": true
+    },
+    "two_loop_ghu_2hdm_running_t_0_to_neg32": {
+      "all_9_runs_bfb_ir": true,
+      "case2_E8_tree_N160_vs_N320_err": "6.0458897e-8",
+      "runs": {
+        "case1_single_10_3": {
+          "E8_tree": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.4514320589392",
+              "0.70749993500605",
+              "1.8488758092578"
+            ],
+            "l_ir": [
+              "0.51847943830523",
+              "0.58315198929481",
+              "0.56096974019183",
+              "-0.70625220405948"
+            ],
+            "mh0_over_v_conformal": "0.449574281494",
+            "tan_beta_conformal": "0.971040724378",
+            "y_ir_33": [
+              "1.3448187343245",
+              "1.2935481425536",
+              "0.37731587341171"
+            ]
+          },
+          "y_high": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45148057960557",
+              "0.70770002013096",
+              "1.8536842896831"
+            ],
+            "l_ir": [
+              "0.67367237134994",
+              "0.76709252373425",
+              "0.72374054825412",
+              "-0.86817230946081"
+            ],
+            "mh0_over_v_conformal": "0.535644325487",
+            "tan_beta_conformal": "0.968055477393",
+            "y_ir_33": [
+              "1.4614191833341",
+              "1.4018824589175",
+              "0.42282607705371"
+            ]
+          },
+          "y_low": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45141813432897",
+              "0.70733243053723",
+              "1.8454625006843"
+            ],
+            "l_ir": [
+              "0.21755739208148",
+              "0.83418394796597",
+              "0.19014174680737",
+              "-0.33259945184958"
+            ],
+            "mh0_over_v_conformal": "0.356232234731",
+            "tan_beta_conformal": "0.714624668736",
+            "y_ir_33": [
+              "1.5017694726195",
+              "0.47135783673515",
+              "0.12999486018063"
+            ]
+          }
+        },
+        "case2_split_type2": {
+          "E8_tree": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45143204375504",
+              "0.70749984396006",
+              "1.8488734253318"
+            ],
+            "l_ir": [
+              "0.52583043256056",
+              "0.59027754321714",
+              "0.47552899332374",
+              "-0.66430290951793"
+            ],
+            "mh0_over_v_conformal": "0.428976342487",
+            "tan_beta_conformal": "0.971510198701",
+            "y_ir_33": [
+              "1.3446721946815",
+              "1.2933832138922",
+              "0.3773576627071"
+            ]
+          },
+          "y_high": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45148055752455",
+              "0.70769988546479",
+              "1.8536806682148"
+            ],
+            "l_ir": [
+              "0.67987204584656",
+              "0.77298276348191",
+              "0.6740003291181",
+              "-0.84348514365561"
+            ],
+            "mh0_over_v_conformal": "0.526724648747",
+            "tan_beta_conformal": "0.968421323952",
+            "y_ir_33": [
+              "1.4612788846563",
+              "1.401717845144",
+              "0.42288138025415"
+            ]
+          },
+          "y_low": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45141813888232",
+              "0.70733243592666",
+              "1.8454626410213"
+            ],
+            "l_ir": [
+              "0.22528555503328",
+              "0.83609853011883",
+              "0.062342560446644",
+              "-0.26213252999296"
+            ],
+            "mh0_over_v_conformal": "0.324608643042",
+            "tan_beta_conformal": "0.720475092755",
+            "y_ir_33": [
+              "1.5017952292333",
+              "0.4711658371931",
+              "0.13000317327813"
+            ]
+          }
+        },
+        "case3_e6_78": {
+          "E8_tree": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45143202582783",
+              "0.70749975629791",
+              "1.8488712075052"
+            ],
+            "l_ir": [
+              "0.51521766030976",
+              "0.58002127031126",
+              "0.4175808024447",
+              "-0.70796200435633"
+            ],
+            "mh0_over_v_conformal": "0.357808709182",
+            "tan_beta_conformal": "0.970815508036",
+            "y_ir_33": [
+              "1.3445453279965",
+              "1.2932569145486",
+              "0.37735075721285"
+            ]
+          },
+          "y_high": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45148053768706",
+              "0.70769978683803",
+              "1.8536781488681"
+            ],
+            "l_ir": [
+              "0.67629892590094",
+              "0.76959031487486",
+              "0.64252277380408",
+              "-0.87324697384503"
+            ],
+            "mh0_over_v_conformal": "0.49507688005",
+            "tan_beta_conformal": "0.968210472988",
+            "y_ir_33": [
+              "1.4611849452601",
+              "1.4016219311938",
+              "0.42288260775756"
+            ]
+          },
+          "y_low": {
+            "bfb_ir": true,
+            "g_ir": [
+              "0.45141812583669",
+              "0.70733238746494",
+              "1.8454614162555"
+            ],
+            "l_ir": [
+              "0.19088554615792",
+              "0.82459314830574",
+              "-0.024812161776513",
+              "-0.31069736081635"
+            ],
+            "mh0_over_v_conformal": "0.163884876552",
+            "tan_beta_conformal": "0.693638724179",
+            "y_ir_33": [
+              "1.5016878289714",
+              "0.47107754653088",
+              "0.12999619547147"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "OW21_C_universal_3term_ds_and_3d_stabilization": {
+    "e3_s_duality_err": "0.0",
+    "einstein_frame_7d_exponents_curv_brane_flux_cas": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "gate_c": false,
+    "nogo_7d_curv_flux_casimir_only_ok": true,
+    "simultaneous_3d_stabilization_E8_3x27": {
+      "A_curv": "3000",
+      "B_neg_tension": "3500",
+      "C_cas_coeff_E8_3x27": "1568/25",
+      "R_barrier_max": "1.224657245149132",
+      "R_min_dynamical": "0.9908960336452607989168",
+      "V_barrier_max": "129.5328899660445",
+      "V_min_metastable_dS": "91.21449914096274",
+      "all_3_eigenvalues_strictly_positive": false,
+      "grad_V_3d_norm": "4.674166e-18",
+      "hessian_3x3_eigenvalues": [
+        "-7568.3452564744",
+        "10417.802699263",
+        "182601.44064745"
+      ],
+      "tau_convergence_err_vs_2_5_plus_i_5": "0.083893905",
+      "tau_min_dynamical_re_im": [
+        "0.3333333333333333333298",
+        "0.1490711984999859797566"
+      ],
+      "u_dimensionless_in_25_24_to_5_4": "1.1773855450554"
+    },
+    "universal_3term_ds_window_symbolic_ok": true
+  },
+  "OW21_D_planted_fault_controls": {
+    "PF_OW21_1_flat_kahler_misses_67pct_v23": true,
+    "PF_OW21_2_norm_cube_breaks_holomorphy": false,
+    "PF_OW21_3_flipped_ghu_lam4_fails_V_tree": true,
+    "PF_OW21_4_zero_B_7d_no_minimum": true,
+    "PF_OW21_5_excess_B_flips_dS_to_AdS": true,
+    "PF_OW21_6_SO10_neg_casimir_destabilizes_tau": true,
+    "gate_d": false,
+    "planted_faults_caught": 5,
+    "planted_faults_total": 6
+  },
+  "all_gates_passed": false,
+  "card": "A2-OW21",
+  "firewall": "0 of 19",
+  "hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0,
+    "script_sha256": "be60a8203320b59455fd98a30ec261f37e69d4e61d5719cd92f657bd52f48c29"
+  },
+  "seat": "agy-002",
+  "target_peer_rev": "11fd7c712"
+}
