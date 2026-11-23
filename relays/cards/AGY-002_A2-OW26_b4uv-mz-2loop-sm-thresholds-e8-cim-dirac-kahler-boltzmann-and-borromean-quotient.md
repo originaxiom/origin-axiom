@@ -70,4 +70,8 @@
 
 `A2-OW26 v2` (`1bb5725e4`) passed `OW26-A`, `OW26-D`, and `6/6` planted faults `OW26-E`, reproduced `agy-exp`'s spin-`1/2` Dirac Gramian `(1.07020, 0.86840, 1.06140)` to `6` digits, and verified `Y_B(\tau_8^+) + Y_B(\text{CP mirror}) = 0` to `2.06e-40`. Only two numerical step-size tolerances in `B4` (`tr_comm_err = 6.14e-10`, `z2_evenness_err = 1.88e-8` at `8/12`-step `order=16`) and `C` (`Y_B` step-halving `8.73e-6` at `n_z_steps = 500`) exceeded the strict thresholds. `relays/a2_ow26_v3/verify_a2_ow26_v3.py` tightens `B4` to `30`-dps `12/18`-step `order=20` for `c_*` & `z2_evenness` (`< 1e-18`), tightens `C` to `n_z_steps = 1600` (`< 1e-6`), and records whether `CURV_s12_Dirac` stays inside `OW24-C`'s simultaneous PMNS window honestly (zero target change).
 
+## Pre-`v4` L-Stable Radau IIA Boltzmann & `z2` Path-Step Upgrade (`2026-11-23`; Frozen `v1..v3` Untouched)
+
+`A2-OW26 v3` (`962a310e9`) passed `fuchsian_tr_comm_err = 8.34e-17` and revealed that piecewise-constant source distribution in the exponential Boltzmann step degrades to `O(du)` inside the stiff `zero_init` boundary layer (`7.78e-6` at `N=1600`), while `prop_seg_mp` `max_st = 1/4 * dist` caps `z2_evenness_err` at `(1/4)^20 ~ 3e-12`. `relays/a2_ow26_v4/verify_a2_ow26_v4.py` replaces the Boltzmann step with `2`-stage L-stable Radau IIA (`O(h^3)`, `N = 600` vs `1200`, `< 1e-6`) and uses `max_st = 1/6 * dist, order = 24` on the `2`-point `z2_evenness` check (`< 1e-18`), preserving frozen `v1..v3` untouched.
+
 `0 of 19.`
