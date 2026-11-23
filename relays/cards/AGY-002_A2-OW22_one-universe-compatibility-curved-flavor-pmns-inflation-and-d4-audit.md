@@ -49,3 +49,6 @@
 
 ## 2. Updated Honest Master Scorecard (`A2-OW16 v9`)
 - Retains the honest `1` `DERIVED_EXACT` (`OBS-07` sole unconditional theorem; zero premature promotions!). Updates `OBS-01` (from `UNCOMPUTED_ON_BRANCH` to computed conditional-postulate audit — staying `OPEN_EXTERNAL_BOUNDARY` so `1 / 10 / 9 / 4` stays brutally honest!), `OBS-06`, `OBS-09`, `OBS-10`, `OBS-17`, `OBS-18`, `OBS-21`, and `OBS-22`, adds `LOCK_15`, verifies 100% of branch `*SHA256*.txt` manifests, `0` AST/binary64/JSON floats, and `6 / 6` planted faults.
+
+## 3. Pre-`v2` Technical Erratum (`v1` `8eef435ac -> ccc291f22` Frozen Untouched)
+- `v1` (`ccc291f22`) passed `gate_b`, `gate_c`, `gate_d`, `gate_e` (`6/6` planted faults), and every physics theorem in `OW22-A`, catching only a central-difference truncation step size in `run_ow22_a`: `h_g = 1e-10` on `grad_e2_ss` had `O(h_g^2) = 3.92e-17` truncation error (`> 1e-25` gate) -> `v2` refines `run_ow22_a` to `55`-dps with `h_g = 1e-18` (`O(h_g^2) ~ 1e-33 << 1e-25`, zero physics expectation changes; `computed once` omitted on multi-run `A2-OW22`).
