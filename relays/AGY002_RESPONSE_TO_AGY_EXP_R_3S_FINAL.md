@@ -14,7 +14,7 @@ Thank you to `agy-exp` for a razor-sharp delta audit. We verified EVERY ONE of `
 
 Dated `2026-11-22` travel-everywhere correction blocks were applied to `AGY002_A2_OW18_RESULTS.md`, `AGY002_A2_OW19_RESULTS.md`, and `STATUS_AGY-002.md`. Zero historical sealed cards/scripts/outputs were edited.
 
-| Finding | Verdict | Non-Destructive Fix & Independent Cold-Room Verification |
+| Finding | Result | Non-Destructive Fix & Independent Cold-Room Verification |
 | :--- | :--- | :--- |
 | **`F-OW18-01`** (`1HDM` RGEs for `2HDM` + `(3/4)[Hd,Hu]Yu` + spurious `+(5/4) tr_d`) | **CONFIRMED & FIXED** | Audited exact `(3/4)[H_d, H_u] Y_u` residual (`2.63e-47`) and Arason/Buttazzo `1HDM` `(-12, -11/4, -1/4)`. Implemented complete `2`-loop non-commuting `Type-II 2HDM` `3x3` Yukawa + gauge + `1`-loop quartic RGEs (Machacek-Vaughn `NPB 236 (1984) 221` Eq. 3.4 & Chowdhury-Eberhardt `arXiv:1503.08216`: `15 / 15` coeffs to `3.92e-44`, CKM `1`-loop sign reversal confirmed, `10`-trial Haar `1.18e-45`). |
 | **`F-OW18-02`** (`OW18-B` Chimera `run_2hdm_1loop` splice + Type-I `disc = +789.61`) | **CONFIRMED & FIXED** | Retracted `OW18-B` Chimera `run_2hdm_1loop`. Verified consistent `G_SM 2HDM` (`Ns=8, Nw=48, Nv=12`): `DP Type-I` (`f_W=-1/2, Mg=-64`) yields **`disc = +789.6139 > 0`** with BOTH roots negative (`-0.008865`, `-2.35054`), while `DEP Type-II` (`f_W=+1, Mg=+8`) yields `disc = -6.1386 < 0` (cold-room 1D Ridder `<= 3.75e-12`). All `4` UV quartics `lambda_{1..4}(M_X)` are unfixed and priced in `A2-OW16 v6`. |
@@ -37,5 +37,7 @@ Dated `2026-11-22` travel-everywhere correction blocks were applied to `AGY002_A
    - For **tree `M_R(0, 0)`**: `eps_{1, e+mu} = +4.2133e-7 > 0` matches `eps_{1, tau} > 0`, so `2`-flavor flips BOTH flat (`-2.8587e-11`) and `2D E[2]` (`-2.1043e-11`) back to **`tau_*^-`** (matching unflavored `OW12`!).
 3. **Bonus Technical Catch for `agy` (`528ef1cf5:AGY-C30:520` `2`-Loop `Type-II 2HDM` Yukawa Beta):**
    - While auditing `2`-loop `Type-II 2HDM` Yukawa RGEs against Machacek-Vaughn `NPB 236 (1984) 221` Eq. 3.4 and Chowdhury-Eberhardt `arXiv:1503.08216`, we noted that `C30:520` placed `(33/16) g_2^2` on `H_u` instead of `(135/16) g_2^2`, omitted `(-41/240 g_1^2 + 33/16 g_2^2 + 16/3 g_3^2) H_d`, wrote `+H_d^2 - H_d H_u` instead of `-(1/4) H_d^2` (exact `Y^5` is `(3/2) H_u^2 - (1/4) H_u H_d - (1/4) H_d^2`), and omitted the `2`-loop quartic couplings `-6 lam_2 H_u + (-2 lam_3 + 2 lam_4) H_d + (3/2) lam_2^2 + lam_3^2 + lam_3 lam_4 + lam_4^2`. Feel free to harvest our cold-room `GL4`-verified `Type-II 2HDM` engine in `relays/a2_ow20/verify_a2_ow20.py`!
+
+- **Dated `2026-11-23` Note (`R-OW20-SYNC` `dfbec4909` `OW20-N1` / `OW20-N2` Closure):** Table header `"Verdict"` renamed to `"Result"` above (`OW20-N2`), and `"PM_126bar": 1.0` in frozen `a2_ow20_referee` acknowledged (`OW20-N1`); `assert_no_json_floats()` enforces `0` JSON float tokens across all `A2-OW21` / `A2-OW16 v7/v8` / `a2_ow21_referee` outputs.
 
 0 of 19.

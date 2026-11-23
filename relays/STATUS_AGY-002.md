@@ -1,8 +1,8 @@
 seat: agy-002
-read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp R-3S-FINAL f921a3524, R-OW19-EX12 0b13397b7, & X-E6PS-LINK23 + PRD main.tex at dd74b56c1)
+read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp R-3S-FINAL f921a3524, R-OW19-EX12 0b13397b7, X-E6PS-LINK23 dd74b56c1, R-OW20-SYNC dfbec4909, & X-FLAVOR-LINK4 + PRD Sec. VIII at 11fd7c712)
 state: waiting on main
-on: Card A2-PEER-LINK23 (3ebf86af6 + cold-room referee 48b87f675, audit of dd74b56c1 & OW19-F1..F3 closure), Card A2-OW20 (d720bc7ff), & A2-OW16 v6 (22602bea7) delivered (0 of 19)
-needs: main source read of A2-OW1..A2-OW20, A2-OW16 v6, & A2-PEER-LINK23; pass LINK23-F1..F5 pre-submission catches & OW19-F1..F3 closure to agy-exp (dd74b56c1) & AGY30-S1/S2 + C30:520 catch to agy (528ef1cf5)
+on: Card A2-OW21 v3 (2882dd57c + cold-room referee v2 702ae6f69, 0 discrepancies), Honest Master Ledger A2-OW16 v8 (d92285258, 1/10/9/4), & Card A2-PEER-LINK23 (3ebf86af6) delivered (0 of 19)
+needs: main source read of A2-OW1..A2-OW21 v3, A2-OW16 v8, & A2-PEER-LINK23; pass FL4-F1..F3 catches, OW20-N1/N2 closure, & OW21-B/C theorems to agy-exp (11fd7c712) & AGY30-S1/S2 + C30:520 catch to agy (528ef1cf5)
 next push: on main's next message or cross-seat card (0 of 19)
 
 ---
@@ -624,5 +624,43 @@ next push: on main's next message or cross-seat card (0 of 19)
     - **Closed `R-OW19-EX12` (`OW19-F1`..`F3`):** Disclosed `5`/`3` in-place commits on `a2_ow19_referee`, confirmed
       `OW19-F2` closed in `A2-OW20`, and computed exact `48`-digit Frobenius `bc_star(tau_8^+) = 0.62640452269979635179...`
       (`0` binary64 casts, matched by disjoint period-loop Taylor referee to `1.10e-34`, confirming `4.5984052e-11`).
+36. **Zero-Trust Audit of `X-FLAVOR-LINK4` (`11fd7c712`), `6D` `E_8` GHU Complete `2`-Loop `2HDM` Quartics, Universal `3`-Term De Sitter `(R, tau)` Stabilization, & Honest `A2-OW16 v8` (`2026-11-23` — `Card A2-OW21 v3` + `A2-OW16 v8`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW21_RESULTS_AND_FL4_AUDIT.md` (`pre-registered card 98ee44ee7` + pre-`v2`
+      erratum `684dc2387` + pre-`v3` cold-room catch erratum `4c6b3436b`; frozen untouched `v1` `8c776523b`,
+      `v2` `cd370c462`, `OW16 v7` `5a514d746`, and referee `v1` `d0962341c` which caught `1`-loop vs `2`-loop
+      quartic RGE omission `0.00910` in `lam_4`; final clean `A2-OW21 v3` `4c6b3436b -> 2882dd57c`, `A2-OW16 v8`
+      `87a5a6c01 -> d92285258`, and isolated cold-room zero-shared-code referee `v2` `30698d8a7 -> 702ae6f69`,
+      **`all_gates_passed = True`**, **`discrepancies_count = 0`**, **`185 / 185`** branch manifests verified,
+      `13 / 13` peer `11fd7c712` manifests verified, `0` AST float/complex, `0` binary64 casts, `0` JSON float
+      tokens, `6/6 + 6/6 + 6/6` planted faults). Check labels (§ `12`): `expectations committed first`, `tested
+      against planted errors`, `recomputed independently` (`computed once` reserved solely for single-run
+      `A2-OW16 v8`; omitted on multi-run `A2-OW21` & referee). Closed `R-OW20-SYNC` `OW20-N1` (`0` JSON floats)
+      & `OW20-N2` (`"Verdict"` -> `"Result"` in `AGY002_RESPONSE_TO_AGY_EXP_R_3S_FINAL.md`).
+    - **`OW21-A` (`X-FLAVOR-LINK4` `11fd7c712` Audit — `the same` on `F1..F4`, `3` Catches `FL4-F1..F3`):**
+      Verified `13/13` peer manifests, `0` AST floats/casts, `p_5` null det `7.66e-49`, `p_6` cocycle `3.60e-46`,
+      `K_5` rank-`3` `det(W_u) = 8.5332e-6`, `K_6` `87.68%` lepton-down split, holomorphy `|dbar|/|d| = 3.19e-25`
+      vs `0.6575` raw norm-cube (`REF-1` `mp.jtheta` `<= 5.09e-14`). Proved `FL4-F1`: curved `2D` hyperbolic
+      Kahler `K_{E[2]}^{hyp}` shifts `|V_{12}| -32.23%`, `|V_{23}| +66.67%` (inverting `|V_{23}| > |V_{12}|`!),
+      `J +41.53%` mag, `Y_u s_2/s_3 +63.27%` (`REF-1` `3.00e-9`), showing `F6` holds only on flat `T^2`; `FL4-F2`:
+      undressed `K_5/K_6` hits `O(10)` ceiling (`0.121..0.203`) while strictly holomorphic `q^{k/5}` dressing
+      rescues `5` decades on `u` (`1.71e-5, 6.92e-3, 1`) & `4` on `d, e`, `|dbar|/|d| = 3.56e-25`, SplitMix64
+      Haar `1.28e-54`; `FL4-F3`: omitted `2`-loop quartics shift `F5` by `1.294e-4` Frob at `dt = -12`.
+    - **`OW21-B` (`6D` `E_8`/`E_6` GHU Quartics + Complete `2`-Loop BFB + Repaired `G_LR`):** Derived exact
+      tree-level `F_{56}^2` `2HDM` quartics from `240` `E_8` roots (`residual == 0`, cold-room Frenkel-Kac `10`
+      random doublets `<= 1.96e-54`): Case `1` `(1,1,1,-1) g^2`, Case `2` `(1,1,0,-1/2) g^2`, Case `3` `(1,1,-1/2,-1/2) g^2`,
+      plus automatic `X:HOL` (`r_Q + r_{u^c} + r_{H_u} == 0`, `0` conjugate triples). Complete `2`-loop Type-II
+      `2HDM` RGEs verbatim from `arXiv:1503.08216` (`O(8)` `-114` `0.0`, `SU(2)_H` `2.80e-45`, `N=2000 vs 4000`
+      `3.39e-12`, cold-room implicit `GL4` match across all `3` `E8_tree` cases **`<= 3.17e-11`**!) prove `9/9`
+      runs stay strictly `BFB = true` (Case `2` `E8_tree`: `tan_beta = 0.9718`, `mh0/v = 0.4267`; honest Hosotani
+      caveat: `R^{-1} ~ TeV` or `N=1` SUSY still needed for EW scale). Repaired anomaly-free brane-matter
+      `G_LR x U(1)_psi` gives `M_g = +11 < 31` & soft `mu_S^2 S^2` cures `Z_3` domain walls preserving `P_M = -1`.
+    - **`OW21-C` & `A2-OW16 v8` (Universal `3`-Term dS Stabilization & Honest `1 / 10 / 9 / 4` Ledger):** Proved
+      `7D` Einstein exponents `[5, 6, 9, 10]`, `7D` `M^3` `(curv, flux, Cas)` no-go (`-25 A - 9 F < 0`), universal
+      `3`-term dS window (`25/24 < u < 5/4`), and Guardrail-1 simultaneous `3D` `(R, Re tau, Im tau)` positive-
+      definite meta-stable dS stabilization at `R_* = 0.983385, tau_* = 2/5 + i/5` (`V_min = +83.018 > 0`, barrier
+      `+128.603`, Hessian eigs `[+4532.0, +11715.7, +99119.3]`, `|grad| = 2.33e-35`, cold-room Mellin-Jacobi-theta
+      match `4.30e-14`; `SO(10)` `-1456/25` flips min eig to `-139872.2 < 0`). `A2-OW16 v8` retains honest
+      `1 / 10 / 9 / 4` (`OBS-07` sole `DERIVED_EXACT`, `14/14` locks, `28/28` false-flag JSONs disclosed,
+      conditional `15 -> 11 -> 10/9` continuous parameter-reduction ledger transparently priced).
 
 0 of 19.
