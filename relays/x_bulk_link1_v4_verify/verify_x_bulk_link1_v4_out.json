@@ -1,0 +1,236 @@
+{
+  "card": "AGY-EXP_X-BULK-LINK1",
+  "empirical_anchor_touches": "0 of 19",
+  "ast_hygiene": {
+    "float_or_complex_literal_count": 0,
+    "float_or_complex_literal_lines": [],
+    "binary64_cast_call_count": 0,
+    "ast_clean_passed": true
+  },
+  "B1_spin10_orbifold_trR4_and_i8_factorization": {
+    "dim_PS_subalgebra": 21,
+    "dim_GG_subalgebra": 25,
+    "dim_unbroken_GSM_x_U1chi": 13,
+    "vector_sector_multiplicities": {
+      "(0,0)": 13,
+      "(0,1/2)": 8,
+      "(1/2,0)": 12,
+      "(1/2,1/2)": 12
+    },
+    "tr16_6Y_Qchi_killing": "0",
+    "light_Hu1_6Y_charges": [
+      3,
+      3
+    ],
+    "light_Hd2_6Y_charges": [
+      -3,
+      -3
+    ],
+    "all_6_4d_GSM_U1chi_anomalies_zero": true,
+    "gauged_PM_16_seesaw_chiS": [
+      1,
+      1,
+      -1
+    ],
+    "S_cubed_gauge_charges_6Y_Qchi_3BL": [
+      0,
+      0,
+      0
+    ],
+    "i8_polynomial_coeffs": {
+      "tr_R4": "0",
+      "tr_R2_sq": "-1/16",
+      "tr_F4": "0",
+      "tr_R2_tr_F2": "-1/16",
+      "tr_F2_sq": "1/8"
+    },
+    "i8_exact_integer_factorization": true,
+    "pc_bl1_1_ru1_broken_e6_roots": 32,
+    "pc_bl1_1_trR4_without_spectators": "269/5760",
+    "pc_bl1_1_trF4_with_3x10H": "-1/24",
+    "pc_bl1_1_planted_control_caught": true,
+    "passed": true
+  },
+  "B2_su2R_casimir_uplift_and_dkl_cusp_walls": {
+    "untwisted_SU2R_supertrace_coeff": 1024,
+    "epstein_e3_S_duality_err": "1.64229363994e-45",
+    "dkl_SL2Z_S_and_T_max_err": "1.06910588404e-50",
+    "C_Cas_at_tau_Eis": "0.944795097866417217",
+    "C_Cas_at_tau_i": "1.41559296467130438",
+    "f_DKL_cusp_walls_4i_i4_1plusi8": [
+      "152.863267601",
+      "152.863267601",
+      "26978.4891061"
+    ],
+    "pc_bl1_2_non_susy_E6_casimir_fricke_tau8_i": [
+      "83.0239985667",
+      "-12.1944356984",
+      "-0.956620456305"
+    ],
+    "pc_bl1_2_pure_casimir_cusp1_decay": "0.0131292308969",
+    "pc_bl1_2_planted_control_caught": true,
+    "passed": true
+  },
+  "B3_four_modulus_stabilization_and_single_area": {
+    "t_star_35d": "301.60528042578713688742842997716311",
+    "s_star_inv_alpha_GUT_35d": "31.163293259891396736704683207582365",
+    "re_tau_star_35d": "0.81764672865083388742235849032999551",
+    "im_tau_star_35d": "0.38613541162185962687958813515532771",
+    "V_tot_over_MPl4": "1.6575444465019223396e-9",
+    "grad4_l2_norm": "1.37641411194e-44",
+    "hessian_4x4_eigenvalues": [
+      "7.6720852216321e-12",
+      "6.8340396511833e-10",
+      "5.0327834356024e-9",
+      "2.1079553530198e-7"
+    ],
+    "cusp_V_ratios_inf_0_1": [
+      "317.9725322",
+      "322.6004705",
+      "3457.902125"
+    ],
+    "single_area_A_star_M6sq": "96.9485110903751162",
+    "M_KK_over_M_Pl": "0.0103147535609680787",
+    "fa_S_and_fa_T_over_M_Pl": [
+      "0.00510712849776808",
+      "0.000527692827085821"
+    ],
+    "single_area_consistency_rel_err": "2.329530413e-51",
+    "pc_bl1_3_s0_inverted_racetrack": "-18.5851515475",
+    "pc_bl1_3_planted_control_caught": true,
+    "passed": true
+  },
+  "B4_scherk_schwarz_higgs_and_2hdm_quartics": {
+    "STr_M2_heavy_U1chi_multiplet": "0.0",
+    "kk_hyperbolic_identity_err": "2.53181813358e-51",
+    "scherk_schwarz_integral_exact_7zeta3_over_8pi2": "0.10656959970437644773",
+    "scherk_schwarz_quadrature_err": "2.97267719299e-36",
+    "derived_2hdm_quartics_at_s_star": [
+      "0.161297081275202",
+      "0.161297081275202",
+      "0.0403242703188006",
+      "0.158378648405997"
+    ],
+    "quartic_2x2_identity_err": "1.67047794381e-52",
+    "kannike_bfb_margins": [
+      "0.161297081275",
+      "0.201621351594",
+      "0.36"
+    ],
+    "tan_beta_tree": "1.0",
+    "mh_tree_sq_over_vEW2": "0.18",
+    "pc_bl1_4_non_susy_WR_wall_over_vEW2": "4.53815669329e+14",
+    "pc_bl1_4_kannike3_when_lamS_zero": "0.0",
+    "pc_bl1_4_planted_control_caught": true,
+    "passed": true
+  },
+  "B5_end_to_end_flavor_seesaw_rge_at_tau_star": {
+    "abs_det_5_sectors_at_tau_star": [
+      "6.7917569462699e-5",
+      "3.730328556428e-5",
+      "9.424643637448e-5",
+      "3.502370291675e-5",
+      "3.3008268181025e-5"
+    ],
+    "lepton_down_det_rel_split_at_tau_star": "0.60419420617605",
+    "ckm_Vus_Vcb_Vub_J_at_tau_star": [
+      "0.14302743186816",
+      "0.30087058442098",
+      "0.020204339896364",
+      "-0.0001709163513871"
+    ],
+    "pmns_sin_angles_at_tau_star": [
+      "0.048916086347761",
+      "0.88089971584971",
+      "0.050581123805708"
+    ],
+    "su3_5_x_u3_scrambling_max_err": "1.06910588404e-50",
+    "B_MSSM_above_M_SS": "5/7",
+    "gbs8_45_vs_90_max_diff": "2.66810194781e-12",
+    "ir_g1sq_g2sq_g3sq_N90": [
+      "0.281139789481782404",
+      "0.575210452418115263",
+      "1.47423501492689211"
+    ],
+    "ir_yu_N90_re_im": [
+      [
+        [
+          "0.0931057771989209218",
+          "-0.11948421377743501"
+        ],
+        [
+          "0.160163849032484393",
+          "0.0146717237909291439"
+        ],
+        [
+          "0.0281697302344722472",
+          "0.0596480701577993543"
+        ]
+      ],
+      [
+        [
+          "0.160577330132948343",
+          "0.0158659883467306461"
+        ],
+        [
+          "-0.0198591415055085439",
+          "0.166252626426366723"
+        ],
+        [
+          "-0.141454151186387812",
+          "0.218842868264037432"
+        ]
+      ],
+      [
+        [
+          "0.023163616983483841",
+          "0.060971842607673711"
+        ],
+        [
+          "-0.142556908701619646",
+          "0.214139010854430991"
+        ],
+        [
+          "-0.718975913498870121",
+          "-0.317381129186419766"
+        ]
+      ]
+    ],
+    "pc_bl1_5_single_pt_det_and_pure6Y_det": [
+      "4.69841961e-53",
+      "1.836683786e-54"
+    ],
+    "pc_bl1_5_planted_control_caught": true,
+    "passed": true
+  },
+  "B6_peer_link23_audit_and_parameter_ledger": {
+    "peer_commit_verified": "71b1718a1",
+    "peer_sha256_manifests_matched": "6/6",
+    "peer_zero_in_place_overwrites": true,
+    "ow19_f3_bc_star_gbs10": "0.626404522699590137628726061",
+    "ow19_f3_vs_71b1718a1_abs_diff": "2.062141653e-13",
+    "single_anchor_parameter_ledger": {
+      "dimensionful_energy_anchors": 1,
+      "internal_3x3_flavor_parameters_after_Link_A": 0,
+      "bulk_moduli_dynamically_stabilized_in_Link_B": 4,
+      "quartic_couplings_fixed_by_DF_terms": 4,
+      "explicitly_priced_continuous_UV_couplings": [
+        "g_R^2 (6D U(1)_R flux coupling fixing t_*)",
+        "lambda_S (brane NMSSM superpotential coupling S H_u . H_d)",
+        "kappa_S (brane cubic singlet coupling S^3 / 3)",
+        "y_chi (Majorana dark-matter singlet coupling S chi_S^2)",
+        "v_chi / M_KK (D-flat brane U(1)_chi seesaw breaking scale ratio)"
+      ],
+      "explicitly_priced_discrete_quantum_numbers": [
+        "n_flux = 1 (quantized U(1)_R monopole number)",
+        "(b_1, b_2, c_1, c_2) = (36, 48, 3, 1) (pure-SYM E_6 x Spin(18) racetrack integers)",
+        "(P_PS, W_GG) in Spin(10) and alpha_SS = (1/2, 1/2) in E[2]",
+        "(K_5, K_6) Lefschetz kernels and N_gen = 3"
+      ],
+      "post_inspection_zero_bit_claims": 0
+    },
+    "pc_bl1_6_planted_control_caught": true,
+    "passed": true
+  },
+  "all_6_modules_and_6_planted_controls_passed": true
+}
