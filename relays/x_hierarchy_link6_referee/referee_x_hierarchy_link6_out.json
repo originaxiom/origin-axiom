@@ -1,0 +1,84 @@
+{
+  "all_checks_passed": true,
+  "audited_producer_output_sha256": "8780abc6c4e388cfa37c8c1552a85d831e75c19d51db247d7ac55182d5838a76",
+  "audited_producer_script_sha256": "a6b77c48ad47776b3a282364e7e710163402a3be0753a9145df846476101d295",
+  "card": "AGY-EXP_X-HIERARCHY-LINK6",
+  "empirical_constants_used": "0 of 19",
+  "modules_passed_count": 6,
+  "planted_controls_caught_count": 6,
+  "referee_modules": {
+    "REF_HL6_1": {
+      "passed": true,
+      "pentagonal_he2_eis_sq": "1.781320774e-205",
+      "r_pc_hl6_1_planted_control_caught": true,
+      "r_pc_hl6_1_sym22_agut_and_offlocus_VD": [
+        "18.11610461",
+        "1.576800748e-5"
+      ],
+      "ref_vs_prod_Vmin_Vbar_Vgi_m32_max_rel_diff": "2.1312398056e-18",
+      "ref_vs_prod_s_t_max_abs_diff": "9.32215151352e-38"
+    },
+    "REF_HL6_2": {
+      "cartan_trace_gram78_det_nonzero": true,
+      "explicit_27x27_generators_count": 78,
+      "finite_exp_e6_invariance_err": "1.566073072e-53",
+      "lie_bracket_closure_verified": true,
+      "passed": true,
+      "r_pc_hl6_2_ctr_pos1_exp_violation": "8.620910463",
+      "r_pc_hl6_2_planted_control_caught": true,
+      "unitary_basis_scrambling_ratio_err": "5.097894116e-56"
+    },
+    "REF_HL6_3": {
+      "exact_gl6_t_crit": "-8.954862122452435",
+      "gl6_120_vs_240_self_err": "8.793454389e-17",
+      "gl6_vs_gbs8_mp2_dflat_vchi_max_diff": "1.588394085e-14",
+      "passed": true,
+      "r_pc_hl6_3_planted_control_caught": true,
+      "r_pc_hl6_3_ungauged_V_at_10": "-47.63570222"
+    },
+    "REF_HL6_4": {
+      "gl6_vs_gbs8_two_stage_max_diff": "4.130986828e-17",
+      "martin_vaughn_1loop_gl6_benchmark_err": "5.485463546e-17",
+      "passed": true,
+      "r_pc_hl6_4_dlnmu2_g3_shift": "0.1007510392",
+      "r_pc_hl6_4_planted_control_caught": true
+    },
+    "REF_HL6_5": {
+      "gl6_960_vs_1440_self_err": "1.256942178e-14",
+      "gl6_vs_gbs8_valley_inflation_err": "1.666234945e-14",
+      "kallosh_linde_V0_crit_rel_diff": "2.956614612e-17",
+      "passed": true,
+      "r_pc_hl6_5_planted_control_caught": true,
+      "r_pc_hl6_5_wrong_sqrt2_exp_shift": "1.238796327e-8"
+    },
+    "REF_HL6_6": {
+      "all_10_cy4_chow_invariants_matched": true,
+      "chow_ring_chi_and_tau_densities": [
+        "360*c1**3 + 12*c1*c2",
+        "120*c1**3 + 16*c1*c2/3"
+      ],
+      "max_log10_BP_diff_vs_producer": "4.7090308e-5",
+      "passed": true,
+      "producer_ast_clean": true,
+      "producer_sha256_custody_verified": true,
+      "r_pc_hl6_6_indefinite_b4_log10_BP": "174.12052",
+      "r_pc_hl6_6_planted_control_caught": true
+    }
+  },
+  "referee_planted_controls": {
+    "R_PC_HL6_1": true,
+    "R_PC_HL6_2": true,
+    "R_PC_HL6_3": true,
+    "R_PC_HL6_4": true,
+    "R_PC_HL6_5": true,
+    "R_PC_HL6_6": true
+  },
+  "referee_script_sha256": "0819d4b92133c250c76950f1c2cfdc1867c2412c06c5e9435f66e71a187730ae",
+  "role": "disjoint_cold_room_referee",
+  "self_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  }
+}
