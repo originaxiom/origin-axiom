@@ -1,0 +1,336 @@
+{
+  "all_checks_passed": false,
+  "card": "AGY-EXP_X-F-THEORY-FLAVOR-LINK5",
+  "empirical_constants_used": "0 of 19",
+  "modules": {
+    "L5_1": {
+      "all_11_hirzebruch_GS_factorized": true,
+      "axion_E_over_N_exact": "8/3",
+      "bare_theta_QCD_at_tau_star_probe": "1.240471295151465",
+      "dynkin_T3_of_16": "2",
+      "hirzebruch_11_family": [
+        {
+          "discriminant": "9/256",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": 6,
+          "n_1": 269,
+          "n_10": 2,
+          "n_16": 0,
+          "v_tilde_GS": "2"
+        },
+        {
+          "discriminant": "25/1024",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": 5,
+          "n_1": 243,
+          "n_10": 3,
+          "n_16": 1,
+          "v_tilde_GS": "3/2"
+        },
+        {
+          "discriminant": "1/64",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": 4,
+          "n_1": 217,
+          "n_10": 4,
+          "n_16": 2,
+          "v_tilde_GS": "1"
+        },
+        {
+          "discriminant": "9/1024",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": 3,
+          "n_1": 191,
+          "n_10": 5,
+          "n_16": 3,
+          "v_tilde_GS": "1/2"
+        },
+        {
+          "discriminant": "1/256",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": 2,
+          "n_1": 165,
+          "n_10": 6,
+          "n_16": 4,
+          "v_tilde_GS": "0"
+        },
+        {
+          "discriminant": "1/1024",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": 1,
+          "n_1": 139,
+          "n_10": 7,
+          "n_16": 5,
+          "v_tilde_GS": "-1/2"
+        },
+        {
+          "discriminant": "0",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": 0,
+          "n_1": 113,
+          "n_10": 8,
+          "n_16": 6,
+          "v_tilde_GS": "-1"
+        },
+        {
+          "discriminant": "1/1024",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": -1,
+          "n_1": 87,
+          "n_10": 9,
+          "n_16": 7,
+          "v_tilde_GS": "-3/2"
+        },
+        {
+          "discriminant": "1/256",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": -2,
+          "n_1": 61,
+          "n_10": 10,
+          "n_16": 8,
+          "v_tilde_GS": "-2"
+        },
+        {
+          "discriminant": "9/1024",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": -3,
+          "n_1": 35,
+          "n_10": 11,
+          "n_16": 9,
+          "v_tilde_GS": "-5/2"
+        },
+        {
+          "discriminant": "1/64",
+          "exact_GS_factorization": true,
+          "k_Hirzebruch": -4,
+          "n_1": 9,
+          "n_10": 12,
+          "n_16": 10,
+          "v_tilde_GS": "-3"
+        }
+      ],
+      "instanton_hessian_cos_min": "1.0",
+      "passed": true,
+      "pc_fl5_1_planted_control_caught": true,
+      "perturbative_daT_Re_fvis": "0",
+      "relaxed_theta_eff_abs": "0.0",
+      "spin10_cartan_trace_identities_exact": true,
+      "tr16_Qem_sq": "16/3"
+    },
+    "L5_2": {
+      "fricke_F3_grad_at_tau0_plus": "1.3050608936e-34",
+      "gcp_reflection_rel_err_off_circle": "2.66912657446e-54",
+      "geodesic_circle_resid_abs": "4.49869346061e-32",
+      "hecke_T2_minus_5_16_rel_err": "6.40949491458e-55",
+      "m004_LR_mod2_E2_is_3cycle": true,
+      "passed": true,
+      "pc_fl5_2_bad_twist_gcp_rel_break": "0.0003151122691",
+      "pc_fl5_2_planted_control_caught": true,
+      "polished_4mod_grad_norm": "7.48973402162e-41",
+      "tau_F_imaginary_height_yF": "2.11751293554568166777838797620657268",
+      "tau_F_real_part_resid": "2.46702097645e-31",
+      "tau_star_re_im": [
+        "0.817646728440486606769353228283463649",
+        "0.386135411366344069821076529656636181"
+      ],
+      "topological_misalignment_J_CKM_at_tau_star": "-0.00017091635106771"
+    },
+    "L5_3": {
+      "G_s0_scalar_area_tau8": [
+        "1.39930444659",
+        "0.760711565128",
+        "1.36516585892"
+      ],
+      "G_s12_dirac_unitmean_tau8": [
+        "1.07020250513",
+        "0.868398137998",
+        "1.06139935687"
+      ],
+      "dirac_covariant_zero_mode_symbolic_zero": true,
+      "gauss_bonnet_area_over_2pi": "0.999999997878",
+      "gaussian_curvature_K_err": "5.762684579e-12",
+      "passed": true,
+      "pc_fl5_3_planted_control_caught": true,
+      "sl2z_modular_covariance_tau_star_vs_tau_F_err": "1.886430019e-6",
+      "tau8_L2_from_pi_minus_bc": "2.51518813092040638",
+      "tau8_bc_star": "0.626404522669386859",
+      "undressed_ckm_flat_12_23_13_J": [
+        "0.3622325845",
+        "0.1654469141",
+        "0.0448083322",
+        "-0.002222233165"
+      ],
+      "undressed_ckm_s0_area_12_23_13_J": [
+        "0.2403427715",
+        "0.27758652",
+        "0.05551819008",
+        "-0.003360309386"
+      ],
+      "undressed_ckm_s0_inverted": true,
+      "undressed_ckm_s12_dirac_12_23_13_J": [
+        "0.3101315557",
+        "0.1864066394",
+        "0.0484507632",
+        "-0.002488940477"
+      ],
+      "undressed_ckm_s12_dirac_inverted": false,
+      "weyl_exponents_yukawa_and_dirac_kinetic": [
+        "0",
+        "1"
+      ]
+    },
+    "L5_4": {
+      "ckm_strict_ordering_all_metrics": true,
+      "cusp_sheet_multiplicities_8_3_4": [
+        2,
+        1,
+        2
+      ],
+      "d5_sheet_momenta_abs_k": [
+        1,
+        0,
+        2
+      ],
+      "dbar_over_d_holomorphy_rel": "4.677823855e-25",
+      "derived_n10_exponents": [
+        2,
+        0,
+        3
+      ],
+      "haar_10trial_SU3_5_x_U3_max_err": "7.109400178e-44",
+      "passed": false,
+      "pc_fl5_4_misaligned_s23sq": "0.07039470067",
+      "pc_fl5_4_planted_control_caught": false,
+      "pmns_simultaneous_bilarge": true,
+      "step_differences_delta12_delta23": [
+        1,
+        2
+      ],
+      "tau8_dirac_s12_ckm_12_23_13_J": [
+        "0.04293596005",
+        "0.00966103654",
+        "0.0008713801989",
+        "-5.159587066e-8"
+      ],
+      "tau8_dirac_s12_mass_ratios_u_d_e": [
+        "5.389001683e-6",
+        "0.001364845074",
+        "0.001482258234"
+      ],
+      "tau8_dirac_s12_pmns_s12_s23_s13_dm_J": [
+        "0.3712564671",
+        "0.5704856234",
+        "0.1250115318",
+        "0.01328905841",
+        "-0.07396050983"
+      ],
+      "tau8_scalar_s0_ckm_12_23_13_J": [
+        "0.03848241552",
+        "0.007370986788",
+        "0.0007371976524",
+        "-7.278523789e-8"
+      ],
+      "tauF_stabilized_ckm_12_23_13_J": [
+        "0.01365225655",
+        "0.00288494866",
+        "3.14343522e-5",
+        "6.605944263e-11"
+      ],
+      "tauF_stabilized_pmns_s12_s23_s13_dm_J": [
+        "0.6756964083",
+        "0.3463513174",
+        "0.04403306933",
+        "0.002046641839",
+        "0.03505612976"
+      ]
+    },
+    "L5_5": {
+      "case2_E8_GHU_BFB_and_mh_over_v": [
+        true,
+        "0.971845668747",
+        "0.426725685857"
+      ],
+      "case2_E8_GHU_IR_quartics": [
+        "0.5270941180157458",
+        "0.590879545082745",
+        "0.4798104266774486",
+        "-0.6733999787683639"
+      ],
+      "case3_E6_GHU_BFB_and_mh_over_v": [
+        true,
+        "0.971178866253",
+        "0.358894307981"
+      ],
+      "custodial_SU2H_2loop_err": "2.802596929e-45",
+      "full_3x3_lopsided_IR_ckm_12_23_13": [
+        "0.042936292",
+        "0.009809717",
+        "0.00088478404"
+      ],
+      "full_3x3_lopsided_IR_ordered_and_BFB": true,
+      "gbs8_step_24_vs_48_max_err": "5.711717456e-12",
+      "haar_10trial_3x3_rhs_equivariance_err": "2.173479132e-48",
+      "o8_pure_scalar_2loop_err": "0.0",
+      "passed": false,
+      "pc_fl5_5_planted_control_caught": true
+    },
+    "L5_6": {
+      "e8_240_root_ghu_cases_1_2_3": [
+        [
+          "1",
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "1",
+          "1",
+          "0",
+          "-1/2"
+        ],
+        [
+          "1",
+          "1",
+          "-1/2",
+          "-1/2"
+        ]
+      ],
+      "gbs8_vs_peer_rk4_ow21_case2_quartic_diff": "2.324622758e-13",
+      "kallosh_linde_V0_crit_B3500": "85.0220111616",
+      "orientifold_rev_b1_eq_3_allowed_b1_plus": [
+        0,
+        2
+      ],
+      "passed": true,
+      "pc_fl5_6_V0_100_overshoot_caught": true,
+      "peer_27f5d89fa_ast_clean": true,
+      "peer_27f5d89fa_sha256_manifests_matched": 12,
+      "peer_27f5d89fa_sha256_manifests_total": 12,
+      "starobinsky_60efold_V0_50_safe_phi_R_Rmax": [
+        "5.13717526679",
+        "1.01841962316",
+        "1.01882253841"
+      ],
+      "susy_massive_vec_mult_a1_xi0_zero": true,
+      "susy_so10_mssm_a1_xi0": "37/2"
+    }
+  },
+  "modules_passed_count": 4,
+  "planted_controls": {
+    "PC_FL5_1": true,
+    "PC_FL5_2": true,
+    "PC_FL5_3": true,
+    "PC_FL5_4": false,
+    "PC_FL5_5": true,
+    "PC_FL5_6": true
+  },
+  "planted_controls_caught_count": 5,
+  "role": "standalone_prehashed_producer",
+  "script_sha256": "014ecf26272f187482f0ea45da86eb704ad625f4de26a473da410dd7dbd00874",
+  "self_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  }
+}
