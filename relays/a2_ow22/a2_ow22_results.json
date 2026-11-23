@@ -1,0 +1,462 @@
+{
+  "OW22_A_one_universe_matrix_and_6d_susy_casimir": {
+    "best_branch_B4_passes_7_of_8_failing_only_DEP": true,
+    "gate_a": false,
+    "gauge_unification_and_mssm_dterm": {
+      "B_1loop_2HDM": "5/9",
+      "B_1loop_MSSM": "5/7",
+      "mssm_tree_dterm_bfb_exact": true
+    },
+    "one_universe_5branch_matrix": [
+      {
+        "B_1loop_gauge": "5/9",
+        "C6_6d_casimir": "-1456/25",
+        "IR_dof_Ns_Nw_Nv": [
+          8,
+          48,
+          12
+        ],
+        "Mg_DEP_type2": "8",
+        "Mg_DP_type1": "-64",
+        "gates": {
+          "G1_exact_1loop_B_5_over_7_no_threshold": false,
+          "G2_DEP_type2_Mg_lt_31": true,
+          "G3_DP_type1_Mg_lt_31": true,
+          "G4_quad_higgs_hierarchy_StrM0_zero": false,
+          "G5_uv_quartics_fixed_and_bfb": false,
+          "G6_sakharov_a1_attractive_xi0": false,
+          "G7_6d_s3_casimir_positive_for_dS": false,
+          "G8_matter_parity_dm_stable": true
+        },
+        "gates_passed": 3,
+        "gates_total": 8,
+        "name": "B1_nonSUSY_SO10_brane2H_3x16",
+        "sakharov_a1_xi0": "-46/3",
+        "sakharov_a1_xi16": "-50/3"
+      },
+      {
+        "B_1loop_gauge": "5/9",
+        "C6_6d_casimir": "-1456/25",
+        "IR_dof_Ns_Nw_Nv": [
+          24,
+          51,
+          16
+        ],
+        "Mg_DEP_type2": "11",
+        "Mg_DP_type1": "-131/2",
+        "gates": {
+          "G1_exact_1loop_B_5_over_7_no_threshold": false,
+          "G2_DEP_type2_Mg_lt_31": true,
+          "G3_DP_type1_Mg_lt_31": true,
+          "G4_quad_higgs_hierarchy_StrM0_zero": false,
+          "G5_uv_quartics_fixed_and_bfb": false,
+          "G6_sakharov_a1_attractive_xi0": false,
+          "G7_6d_s3_casimir_positive_for_dS": false,
+          "G8_matter_parity_dm_stable": true
+        },
+        "gates_passed": 3,
+        "gates_total": 8,
+        "name": "B2_nonSUSY_GLR_U1psi_brane_3x16_3xchiS",
+        "sakharov_a1_xi0": "-46/3",
+        "sakharov_a1_xi16": "-50/3"
+      },
+      {
+        "B_1loop_gauge": "5/9",
+        "C6_6d_casimir": "1568/25",
+        "IR_dof_Ns_Nw_Nv": [
+          8,
+          81,
+          12
+        ],
+        "Mg_DEP_type2": "41",
+        "Mg_DP_type1": "-161/2",
+        "gates": {
+          "G1_exact_1loop_B_5_over_7_no_threshold": false,
+          "G2_DEP_type2_Mg_lt_31": false,
+          "G3_DP_type1_Mg_lt_31": true,
+          "G4_quad_higgs_hierarchy_StrM0_zero": false,
+          "G5_uv_quartics_fixed_and_bfb": true,
+          "G6_sakharov_a1_attractive_xi0": false,
+          "G7_6d_s3_casimir_positive_for_dS": true,
+          "G8_matter_parity_dm_stable": true
+        },
+        "gates_passed": 4,
+        "gates_total": 8,
+        "name": "B3_nonSUSY_6D_E8_GHU_3x27",
+        "sakharov_a1_xi0": "-46/3",
+        "sakharov_a1_xi16": "-50/3"
+      },
+      {
+        "B_1loop_gauge": "5/7",
+        "C6_6d_casimir": "567/5",
+        "IR_dof_Ns_Nw_Nv": [
+          98,
+          61,
+          12
+        ],
+        "Mg_DEP_type2": "111",
+        "Mg_DP_type1": "39/2",
+        "gates": {
+          "G1_exact_1loop_B_5_over_7_no_threshold": true,
+          "G2_DEP_type2_Mg_lt_31": false,
+          "G3_DP_type1_Mg_lt_31": true,
+          "G4_quad_higgs_hierarchy_StrM0_zero": true,
+          "G5_uv_quartics_fixed_and_bfb": true,
+          "G6_sakharov_a1_attractive_xi0": true,
+          "G7_6d_s3_casimir_positive_for_dS": true,
+          "G8_matter_parity_dm_stable": true
+        },
+        "gates_passed": 7,
+        "gates_total": 8,
+        "name": "B4_SUSY_6D_E8_GHU_MSSM_3x16_E2SS",
+        "sakharov_a1_xi0": "37/2",
+        "sakharov_a1_xi16": "-7/2"
+      },
+      {
+        "B_1loop_gauge": "5/7",
+        "C6_6d_casimir": "2058/25",
+        "IR_dof_Ns_Nw_Nv": [
+          170,
+          97,
+          12
+        ],
+        "Mg_DEP_type2": "219",
+        "Mg_DP_type1": "147/2",
+        "gates": {
+          "G1_exact_1loop_B_5_over_7_no_threshold": true,
+          "G2_DEP_type2_Mg_lt_31": false,
+          "G3_DP_type1_Mg_lt_31": false,
+          "G4_quad_higgs_hierarchy_StrM0_zero": true,
+          "G5_uv_quartics_fixed_and_bfb": true,
+          "G6_sakharov_a1_attractive_xi0": true,
+          "G7_6d_s3_casimir_positive_for_dS": true,
+          "G8_matter_parity_dm_stable": true
+        },
+        "gates_passed": 6,
+        "gates_total": 8,
+        "name": "B5_SUSY_6D_E8_GHU_3x27_E2SS",
+        "sakharov_a1_xi0": "37/2",
+        "sakharov_a1_xi16": "-7/2"
+      }
+    ],
+    "sakharov_susy_a1_exact": {
+      "a1_massive_N1_vec_mult_xi0": "0",
+      "a1_massive_N1_vec_mult_xi16": "-1/6",
+      "a1_total_SUSY_SO10_to_GSM_U1X_xi0": "37/2",
+      "a1_total_SUSY_SO10_to_GSM_U1X_xi16": "-7/2",
+      "a1_total_nonSUSY_xi16": "-50/3"
+    },
+    "six_d_susy_e8_z5_z2ss_casimir": {
+      "E2_symmetric_E8_3x16_C6": "567/5",
+      "E2_symmetric_E8_3x27_C6": "2058/25",
+      "E2_symmetric_Z2SS_grad_at_tau0_locks_min": "3.9236213e-17",
+      "E2_symmetric_Z2SS_hecke_T2_identity_err": "1.7516231e-46",
+      "E3_2tau0_vs_10tau0_err": "0.0",
+      "one_cycle_Z2SS_grad_at_tau0_breaks_W5": "53.22667713",
+      "pure_6D_SUSY_E8_SU5xSU5_Vcas_tau0": "-8.9683102e-44",
+      "tw_over_untw_ratio_exact_6_25": "0.24"
+    }
+  },
+  "OW22_B_curved_ckm_protection_and_neutrino_rank1": {
+    "curved_2d_hyp_ckm_structural_protection": {
+      "fn_320_curved_haar_10trial_err": "2.9268527e-44",
+      "fn_320_dbar_over_d_hol_rel": "3.3983876e-25",
+      "fn_320_flat_v12_v23_v13_J": [
+        "0.07412937916",
+        "0.02124340439",
+        "0.001925990982",
+        "8.338863447e-8"
+      ],
+      "fn_320_hyp_u13_u23": [
+        "1.755597732e-5",
+        "0.001705588484"
+      ],
+      "fn_320_hyp_v12_v23_v13_J": [
+        "0.05294237685",
+        "0.02725971622",
+        "0.001894678884",
+        "2.249893768e-7"
+      ],
+      "fn_320_strict_hierarchical_flat_and_curved": true,
+      "undressed_hyp_inverted": true,
+      "undressed_hyp_v12_v23_v13": [
+        "0.2454842619",
+        "0.2757470284",
+        "0.051399215"
+      ],
+      "uniform_210_hyp_inverted": true,
+      "uniform_210_hyp_v12_v23_v13": [
+        "0.04806349459",
+        "0.2011202863",
+        "0.01420458866"
+      ]
+    },
+    "gate_b": true,
+    "holomorphic_neutrino_rank1_theorem": {
+      "obs18_s23_tension_persists_on_undressed_MR_I3": true,
+      "qR0_6Y_dirac_K5K6_sv": [
+        "1.0678866e-46",
+        "0.023753271",
+        "0.11241169"
+      ],
+      "qR0_6Y_dirac_K5_sv": [
+        "8.4635569e-47",
+        "0.014978919",
+        "0.10076201"
+      ],
+      "qR0_6Y_seesaw_Mnu_sv": [
+        "5.6568409e-48",
+        "7.7948757e-48",
+        "0.0015452463"
+      ],
+      "qR0_6Y_seesaw_dm21_over_dm31": "1.204473e-89",
+      "qR0_rank2_dirac_and_exact_rank1_seesaw": true,
+      "qRm5_SO10X_K5K6_sv": [
+        "0.0028313874",
+        "0.017879913",
+        "0.088127599"
+      ],
+      "qRm5_SO10X_K5_sv0_null": "8.2712126e-47",
+      "qRm5_SO10X_pmns_dm_s12_s23_s13_J": [
+        "0.1133374911",
+        "0.1262222571",
+        "0.04199036019",
+        "0.3949208075",
+        "-0.02356133211"
+      ],
+      "qRp3_3BmL_K5K6_sv": [
+        "0.010870638",
+        "0.022819221",
+        "0.065139714"
+      ],
+      "qRp3_3BmL_pmns_dm_s12_s23_s13_J": [
+        "0.001586251136",
+        "0.3259063445",
+        "0.04787118487",
+        "0.01651700326",
+        "-0.01238821459"
+      ],
+      "qRp3_haar_U3xU3xU3_10trial_err": "2.9777592e-45"
+    }
+  },
+  "OW22_C_o6_gb_orientifold_and_60efold_overshoot": {
+    "ds_window_O6_vs_GB": {
+      "GB_over_O6_width_ratio": "16/7",
+      "GB_window": [
+        "25/21",
+        "5/3"
+      ],
+      "O6_window": [
+        "25/24",
+        "5/4"
+      ]
+    },
+    "einstein_frame_7d_exponents_curv_O6_GB_cas": [
+      5,
+      6,
+      7,
+      10
+    ],
+    "gate_c": true,
+    "kallosh_linde_60efold_inflation_overshoot": {
+      "B3500_overshoot_V0_100": {
+        "R_max": "5.068833753",
+        "decompactified": true
+      },
+      "B3500_safe_V0_50": {
+        "N600_vs_N1200_err": "1.6138625e-12",
+        "R_bar_bg": "1.2295079971286",
+        "R_end_60": "1.018419623155127",
+        "R_max_60": "1.018822538414754",
+        "decompactified": false,
+        "eps_max": "3.385682831e-5",
+        "phi_end_60": "5.137175266783669"
+      },
+      "B3560_overshoot_V0_160": {
+        "R_max": "5.231200961",
+        "decompactified": true
+      },
+      "B3560_safe_V0_100": {
+        "R_end_60": "1.0058264564761",
+        "R_max_60": "1.0090755070052",
+        "decompactified": false,
+        "eps_max": "0.0008223415815",
+        "phi_end_60": "4.2269400133883"
+      },
+      "B_crit_inflection": "3414.977988838423",
+      "R_crit_inflection": "1.092792956428295",
+      "V0_crit_at_B3500": "85.022011161577",
+      "V0_crit_at_B3560": "145.02201116158",
+      "d2v_inflect_err": "3.3409559e-52",
+      "dv_inflect_err": "0.0"
+    },
+    "orientifold_b1_eq_3_parity_theorem": {
+      "orientation_preserving_det_pos1_allowed_dim_H1_plus": [
+        1,
+        3
+      ],
+      "orientation_reversing_cannot_preserve_all_3_cycles": true,
+      "orientation_reversing_det_neg1_allowed_dim_H1_plus": [
+        0,
+        2
+      ]
+    },
+    "seven_d_gauss_bonnet_3d_stabilization": {
+      "A_curv": "3000",
+      "B_gb": "2900",
+      "R_barrier_gb": "0.9416782987114378",
+      "R_min_gb": "0.8572446709346367173123",
+      "V_barrier_gb": "700.7599096893326",
+      "V_min_gb_dS": "682.8425650139501",
+      "all_3_eigenvalues_strictly_positive": true,
+      "damped_newton_iters": 12,
+      "grad_norm": "9.1018057e-35",
+      "hessian_3x3_eigenvalues": [
+        "17884.664052861",
+        "23139.305087278",
+        "391153.68074856"
+      ],
+      "positive_GB_strictly_no_minimum": true,
+      "tau_err": "3.8477006e-35",
+      "tau_min_re_im": [
+        "0.4",
+        "0.2"
+      ],
+      "u_gb_in_25_21_to_5_3": "1.3154282217991"
+    }
+  },
+  "OW22_D_foundational_d4_audit": {
+    "chiral_complex_without_YM_orbits": [
+      4,
+      8
+    ],
+    "gate_d": true,
+    "honest_guardrail1_classification": "OPEN_EXTERNAL_BOUNDARY (uniquely D=4 ONLY conditional on YM scale invariance + 2-form duality + stable orbits; no longer UNCOMPUTED_ON_BRANCH)",
+    "joint_YM_Hodge_Orbits_Chiral": [
+      4
+    ],
+    "scan_D_2_to_11": [
+      {
+        "D": 2,
+        "D_tot_with_M3": 5,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": true,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 3,
+        "D_tot_with_M3": 6,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": false,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 4,
+        "D_tot_with_M3": 7,
+        "Ehrenfest_stable_orbits": true,
+        "Hodge_2form_self_dual": true,
+        "Lorentzian_chiral_Weyl": true,
+        "Lorentzian_complex_chiral_D_mod4_0": true,
+        "YM_scale_invariant": true
+      },
+      {
+        "D": 5,
+        "D_tot_with_M3": 8,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": false,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 6,
+        "D_tot_with_M3": 9,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": true,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 7,
+        "D_tot_with_M3": 10,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": false,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 8,
+        "D_tot_with_M3": 11,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": true,
+        "Lorentzian_complex_chiral_D_mod4_0": true,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 9,
+        "D_tot_with_M3": 12,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": false,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 10,
+        "D_tot_with_M3": 13,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": true,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      },
+      {
+        "D": 11,
+        "D_tot_with_M3": 14,
+        "Ehrenfest_stable_orbits": false,
+        "Hodge_2form_self_dual": false,
+        "Lorentzian_chiral_Weyl": false,
+        "Lorentzian_complex_chiral_D_mod4_0": false,
+        "YM_scale_invariant": false
+      }
+    ],
+    "unique_D_by_Ehrenfest_orbits": [
+      4
+    ],
+    "unique_D_by_Hodge_2form": [
+      4
+    ],
+    "unique_D_by_YM_scale": [
+      4
+    ]
+  },
+  "OW22_E_planted_fault_controls": {
+    "PF_OW22_1_drop_SUSY_scalar_breaks_a1_zero": true,
+    "PF_OW22_2_remove_q5_restores_curved_CKM_inversion": true,
+    "PF_OW22_3_qR0_collapses_seesaw_to_rank1": true,
+    "PF_OW22_4_V0_above_KL_crit_decompactifies": true,
+    "PF_OW22_5_positive_GB_destroys_7d_minimum": true,
+    "PF_OW22_6_drop_YM_orbits_breaks_D4_uniqueness": true,
+    "gate_e": true,
+    "planted_faults_caught": 6,
+    "planted_faults_total": 6
+  },
+  "all_gates_passed": false,
+  "card": "A2-OW22",
+  "firewall": "0 of 19",
+  "hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0,
+    "script_sha256": "b550b067e1ecb6ae42542c8e75681a0698d8b2bab74cc38d04b2cddafcfb2080"
+  },
+  "seat": "agy-002"
+}
