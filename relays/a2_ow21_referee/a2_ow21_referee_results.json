@@ -1,0 +1,260 @@
+{
+  "REF_0_ast_json_and_custody": {
+    "ast_audit": {
+      "referee_a2_ow21_self": {
+        "binary64_casts": 0,
+        "clean": true,
+        "file": "relays/a2_ow21_referee/referee_a2_ow21.py",
+        "float_complex_literals": 0,
+        "forbidden_imports": [],
+        "forbidden_imports_count": 0
+      },
+      "verify_a2_ow16_v7": {
+        "binary64_casts": 0,
+        "clean": true,
+        "file": "relays/a2_ow16_v7/verify_a2_ow16_v7.py",
+        "float_complex_literals": 0,
+        "forbidden_imports": [],
+        "forbidden_imports_count": 0
+      },
+      "verify_a2_ow21_v2": {
+        "binary64_casts": 0,
+        "clean": true,
+        "file": "relays/a2_ow21_v2/verify_a2_ow21_v2.py",
+        "float_complex_literals": 0,
+        "forbidden_imports": [],
+        "forbidden_imports_count": 0
+      }
+    },
+    "branch_manifests": {
+      "entries_total": 179,
+      "entries_verified": 179,
+      "manifest_files_scanned": 177,
+      "mismatches": []
+    },
+    "gate_pass": true,
+    "json_float_tokens": {
+      "a2_ow16_v7_results": 0,
+      "a2_ow21_v2_results": 0
+    },
+    "peer_11fd7c712_manifests": {
+      "entries_total": 13,
+      "entries_verified": 13,
+      "manifest_files_found": 13,
+      "mismatches": []
+    },
+    "reported_script_sha256_matches_disk": {
+      "verify_a2_ow16_v7": true,
+      "verify_a2_ow21_v2": true
+    }
+  },
+  "REF_1_disjoint_jtheta_ow21_a": {
+    "E5_lepton_down_tie_err": "1.3466345e-55",
+    "FL4_F1": {
+      "ckm_v23_exceeds_v12": true,
+      "max_delta_vs_producer": "3.0016026e-9",
+      "rel_shift_J": "-0.4153105029",
+      "rel_shift_Yu_s2_over_s3": "0.632663613",
+      "rel_shift_v12": "-0.3223020999",
+      "rel_shift_v23": "0.6666797917"
+    },
+    "FL4_F2": {
+      "max_delta_vs_producer": "2.414233e-9",
+      "q5_ckm": [
+        "0.06520247306",
+        "0.1575381092",
+        "0.01464130305",
+        "2.623387298e-5"
+      ],
+      "q5_dbar_over_d_rel": "3.5609259e-25",
+      "q5_s1_s3": [
+        "1.713460153e-5",
+        "0.0002706481401",
+        "0.0001939153003"
+      ],
+      "q5_s2_s3": [
+        "0.006920356221",
+        "0.0453508585",
+        "0.02613012863"
+      ],
+      "splitmix64_haar_10trial_err": "7.3282228e-55"
+    },
+    "K5_det_Wu_rank3": "8.5332123584527e-6",
+    "K6_lepton_down_det_split": "0.87681361952805",
+    "dbar_over_d_hol_rel": "3.1907995e-25",
+    "dbar_over_d_norm_cube_raw": "0.6574857569",
+    "delta_K6_split_vs_producer": "5.0900892e-14",
+    "delta_det_Wu_vs_producer": "2.7363664e-18",
+    "e2_heat_eq_self_check_err": "1.1888182e-56",
+    "gate_pass": true,
+    "p6_cocycle_err": "2.2322075e-56",
+    "single_p5_det_null": "7.8714541e-59"
+  },
+  "REF_2_disjoint_gl4_and_e8_ghu_ow21_b": {
+    "PM_S2": 1,
+    "PM_chiS": -1,
+    "cases_1_2_3_E8_tree_bfb": {
+      "case1": true,
+      "case1_max_delta_vs_producer": "0.0082394149",
+      "case2": true,
+      "case3": true,
+      "case3_max_delta_vs_producer": "0.0070738592"
+    },
+    "e8_16_16_10star_triples_count": 0,
+    "e8_root_count": 240,
+    "e8_yukawa_root_closure_zero": true,
+    "gate_pass": false,
+    "gl4_case2_E8_tree": {
+      "deltas_vs_producer_n800": {
+        "g_ir_max": "2.2172564e-8",
+        "l_ir_max": "0.0090970734",
+        "mh0_over_v_conformal": "0.0022506545",
+        "tan_beta_conformal": "0.00033547014",
+        "y_ir_33_max": "8.5797003e-7"
+      },
+      "fixed_point_resid_n200": "9.9731584e-37",
+      "fixed_point_resid_n800": "9.9041219e-37",
+      "g_ir": [
+        "0.4514320435665575",
+        "0.7074998430684405",
+        "1.848873404051575"
+      ],
+      "l_ir": [
+        "0.5270941180316548",
+        "0.5908795450999107",
+        "0.4798104266966475",
+        "-0.6733999787870061"
+      ],
+      "max_delta_vs_producer_n200": "0.0090970782",
+      "max_delta_vs_producer_n800": "0.0090970734",
+      "mh0_over_v_conformal": "0.4267256858674751",
+      "n200_vs_n800_max_diff": "7.9663589e-9",
+      "n_steps_baseline": 200,
+      "n_steps_primary": 800,
+      "tan_beta_conformal": "0.9718456687471042",
+      "y_ir_33": [
+        "1.344671335138832",
+        "1.293383282416374",
+        "0.3773575007348272"
+      ]
+    },
+    "repaired_glr_Mg": 11,
+    "repaired_glr_survives_lt_31": true,
+    "rge_su2h_custodial_literature_check_err": "1.4012985e-45",
+    "soft_S2_breaks_Z3": true,
+    "v_ghu_10_random_complex_doublet_max_err": {
+      "case1_single_10_3": "3.2626522e-55",
+      "case2_split_type2": "3.2626522e-55",
+      "case3_e6_78": "3.2626522e-55"
+    }
+  },
+  "REF_3_disjoint_mellin_3term_ds_ow21_c": {
+    "F3_at_minimum": "9.317827231207687",
+    "R_barrier_max": "1.229507997128608",
+    "R_min_dynamical": "0.98338530895125315483",
+    "SO10_neg_casimir_min_eig": "-139872.17726443",
+    "V_barrier_max": "128.6029751727362",
+    "V_min_metastable_dS": "83.01760260520887",
+    "damped_newton_iters": 10,
+    "deltas_vs_producer": {
+      "F3_at_minimum": "1.1967775e-16",
+      "R_barrier_max": "2.9073775e-16",
+      "R_min_dynamical": "4.367607e-27",
+      "V_barrier_max": "4.2999068e-14",
+      "V_min_metastable_dS": "4.0881113e-15",
+      "hess_eigs_max_rel": "1.0418758e-14",
+      "so10_min_eig_rel": "8.4101337e-15",
+      "u_dimensionless": "4.6443996e-16"
+    },
+    "ds_window_7d_bounds": [
+      "25/24",
+      "5/4"
+    ],
+    "ds_window_symbolic_ok": true,
+    "einstein_frame_7d_exponents": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "gate_pass": true,
+    "grad_V_3d_norm": "6.4491277e-39",
+    "hessian_3x3_eigenvalues": [
+      "4532.0173844006",
+      "11715.718820601",
+      "99119.294378988"
+    ],
+    "max_delta_vs_producer": "4.2999068e-14",
+    "mellin_E3_i_err_vs_exact": "2.4469892e-55",
+    "mellin_E3_nontrivial_S_duality_err": "0.0",
+    "nogo_7d_at_R1": "-25*A - 9*F",
+    "nogo_7d_exact_ok": true,
+    "tau_convergence_err": "2.3537526e-44",
+    "tau_min_dynamical_re_im": [
+      "0.4",
+      "0.2"
+    ],
+    "u_dimensionless": "1.186377970107034"
+  },
+  "REF_4_ow16_v7_and_planted_faults": {
+    "gate_pass": true,
+    "ow16_v7_audit": {
+      "b_Spin10_pure_fermion": "-76/3",
+      "buckets_1_10_9_4_ok": true,
+      "counts_by_bucket": {
+        "CONDITIONAL_OR_QUALITATIVE": 10,
+        "DERIVED_EXACT": 1,
+        "INTERNAL_WALL_OR_TENSION": 9,
+        "OPEN_EXTERNAL_BOUNDARY": 4
+      },
+      "frozen_ow21_v1_included": true,
+      "guardrail5_recounted_baseline_ratios": 15,
+      "guardrail5_reduction_15_11_10_9_ok": true,
+      "historical_false_flag_census_exact_match": true,
+      "historical_false_flag_disclosed_count": 27,
+      "historical_false_flag_discovered_count": 27,
+      "ids_unique_24_ok": true,
+      "locks_14_of_14_ok": true,
+      "s1_bits_err_vs_log2_72": "1.2362907e-14",
+      "sole_derived_exact_ids": [
+        "OBS-07"
+      ]
+    },
+    "planted_fault_controls": {
+      "caught": 6,
+      "controls": {
+        "PF_REF_1_1byte_manifest_tamper_detected": true,
+        "PF_REF_2_flat_I3_kahler_misses_gt_60pct_v23": true,
+        "PF_REF_3_wrong_case2_lam4_fails_v_ghu": true,
+        "PF_REF_4_gl4_lam0_deviates_from_E8_tree_yukawas": true,
+        "PF_REF_5_SO10_neg_casimir_hessian_lt_neg1000": true,
+        "PF_REF_6_excess_B4500_flips_dS_to_AdS": true
+      },
+      "diagnostics": {
+        "PF_REF_2_rel_shift_v23": "0.6666797917",
+        "PF_REF_3_wrong_lam4_v_ghu_max_err": "13.240297",
+        "PF_REF_4_gl4_lam0_yuk_frob_shift": "0.0018444756",
+        "PF_REF_5_SO10_min_eig": "-139872.177264",
+        "PF_REF_6_B4500_R_min": "0.7876306635087",
+        "PF_REF_6_B4500_V_min_AdS": "-2590.8479746876"
+      },
+      "total": 6
+    }
+  },
+  "all_gates_passed": false,
+  "card": "A2-OW21-v2 + A2-OW16-v7 Cold-Room Independent Referee",
+  "discrepancies": [
+    "REF_2_disjoint_gl4_or_e8_ghu_failed"
+  ],
+  "discrepancies_count": 1,
+  "firewall": "0 of 19",
+  "referee_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0,
+    "json_float_tokens": 0,
+    "script_sha256": "0cc1a15745259d987df138e004bd410ef9f5a0b7625b0bb1a7479080b1c0533d"
+  },
+  "seat": "agy-002"
+}
