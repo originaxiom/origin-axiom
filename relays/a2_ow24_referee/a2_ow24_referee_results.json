@@ -1,0 +1,517 @@
+{
+  "REF_0_hygiene_ast_json_manifests": {
+    "ast_referee_self": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "relays/a2_ow24_referee/referee_a2_ow24.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "32553baa48109bfe0f0a93432705e02bb89e255db8762d38657ba8d79918fdbd"
+    },
+    "ast_verify_a2_ow16_v11": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "relays/a2_ow16_v11/verify_a2_ow16_v11.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "7ac29dda13b4d058a7ed4896cd8432d2f71f8fc1d987864181c16b2c8da3b523"
+    },
+    "ast_verify_a2_ow24_v1": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "relays/a2_ow24_v1/verify_a2_ow24_v1.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "f5567e227ed112cfd4214755031d48f7ca02beea3d8eb161e5d97da725d658a0"
+    },
+    "branch_manifests": {
+      "all_verified": true,
+      "manifest_files_checked": 211,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "total_entries": 213,
+      "verified_entries": 213
+    },
+    "gate_ref0": true,
+    "ow16_json_float_tokens": 0,
+    "ow24_json_float_tokens": 0,
+    "producer_script_sha256_matches_disk": true
+  },
+  "REF_1_disjoint_ow24_a_r2_jtheta_gl_snf_rrcf": {
+    "gate_ref1": true,
+    "magnetized_jtheta_and_gauss_legendre": {
+      "L2_3x3_Gram_orthogonality_frob_err": "1.853914514e-48",
+      "L2_norm_G11_computed": "0.5590169943749474",
+      "L2_norm_G11_err_vs_CIM_formula": "1.924230543e-49",
+      "L2_norm_G11_err_vs_sqrt5_over_4": "1.924230543e-49",
+      "L2_norm_G11_rel_err_vs_producer": "4.6079059e-15",
+      "L2_norm_all_3_diag_max_err_vs_sqrt5_4": "8.439466649e-49",
+      "gl_grid": "130_u_x_26_half_v",
+      "gl_weight_sum_max_err": "5.25844791e-58",
+      "jtheta_reduced_vs_raw_max_err": "3.450244885e-64",
+      "max_6D_Dirac_PDE_residual_3pts_8modes": "1.384291444e-35",
+      "max_Z2_reflection_err": "1.28459486e-64",
+      "max_integrand_Z2_evenness_err": "5.945402758e-65",
+      "max_odd_parity_err": "8.486663673e-65",
+      "max_quasi_periodicity_z_plus_1_err": "2.420031182e-64",
+      "max_quasi_periodicity_z_plus_tau0_err": "4.964329678e-64"
+    },
+    "parity_scan_sympy_nullspaces": {
+      "M6_n_odd": 2,
+      "M8_even_odd": [
+        5,
+        3
+      ],
+      "all_20_involutions_ok": true,
+      "even_M_giving_3_odd_modes": [
+        8
+      ],
+      "exact_20row_match_vs_producer": true
+    },
+    "snf_Z8_cover_and_rr_continued_fraction": {
+      "cyclic_Z8_kernel_and_image_exact": true,
+      "geometric_scaling_8_over_2mi_err": "0.0",
+      "rr_cf_R_5tau0_exact_err": "4.196487715e-67",
+      "rr_cf_R_8tau0_abs": "0.1339039398467413",
+      "rr_cf_R_8tau0_abs_rel_err_vs_producer": "9.982775256e-15",
+      "rr_cf_R_8tau0_arg_over_pi": "-0.7200130330584526",
+      "rr_cf_R_8tau0_arg_rel_err_vs_producer": "3.654441796e-15",
+      "smith_normal_form_diag_1_8": true,
+      "snf_U_V_unimodular": true,
+      "sublattice_index_det": 8
+    }
+  },
+  "REF_2_disjoint_ow24_b_r3_dft_eig_240e8_g2": {
+    "bulk_orbifold_240root_audit": {
+      "T2_Z2_count": 2,
+      "T2_Z2_exact_240root": [
+        {
+          "A_SO10_U1_1_2": [
+            "-12",
+            "-6"
+          ],
+          "A_SU2_U1_1_2": [
+            "-2",
+            "-1"
+          ],
+          "GS_diff_U1_1_2": [
+            "-10",
+            "-5"
+          ],
+          "N_C_bulk_total": 85,
+          "N_C_post_DT_HuHd": 59,
+          "N_C_post_DT_minus_NV_50": 9,
+          "N_C_post_DT_minus_NV_true": -23,
+          "N_V_true_from_240_roots": 82,
+          "SU2_Witten_anomaly_mod2": 0,
+          "SU2_hid_doublets": 2,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "0",
+          "flux16_sectors": [
+            [
+              4,
+              3
+            ]
+          ],
+          "gauge_group_enhanced_to_E6": true,
+          "h10_hid_charged": 0,
+          "h10_sing": 3,
+          "has_det_zero_U1": true,
+          "hid15_chiral_dof": 7,
+          "n16_count": 3,
+          "n16bar_count": 0,
+          "orbifold": "T2/Z2",
+          "partition_2_1_1_verified": true,
+          "q": [
+            -2,
+            -2,
+            0,
+            4
+          ],
+          "r": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "unbroken_16_gauge_roots": 32,
+          "zero_flux_chiral_roots_Azbar": 0
+        },
+        {
+          "A_SO10_U1_1_2": [
+            "-12",
+            "-2"
+          ],
+          "A_SU2_U1_1_2": [
+            "-3",
+            "-1/2"
+          ],
+          "GS_diff_U1_1_2": [
+            "-9",
+            "-3/2"
+          ],
+          "N_C_bulk_total": 86,
+          "N_C_post_DT_HuHd": 60,
+          "N_C_post_DT_minus_NV_50": 10,
+          "N_C_post_DT_minus_NV_true": 10,
+          "N_V_true_from_240_roots": 50,
+          "SU2_Witten_anomaly_mod2": 1,
+          "SU2_hid_doublets": 3,
+          "bulk_only_GS_universal": false,
+          "det_mixed_anomaly_matrix": "0",
+          "flux16_sectors": [
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "gauge_group_enhanced_to_E6": false,
+          "h10_hid_charged": 0,
+          "h10_sing": 3,
+          "has_det_zero_U1": true,
+          "hid15_chiral_dof": 8,
+          "n16_count": 3,
+          "n16bar_count": 0,
+          "orbifold": "T2/Z2",
+          "partition_2_1_1_verified": true,
+          "q": [
+            -2,
+            -2,
+            1,
+            3
+          ],
+          "r": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "unbroken_16_gauge_roots": 0,
+          "zero_flux_chiral_roots_Azbar": 0
+        }
+      ],
+      "T2_Z4_M8_exact_240root": {
+        "A_SO10_U1_1_2": [
+          "-10",
+          "-8"
+        ],
+        "A_SU2_U1_1_2": [
+          "-3",
+          "-11/2"
+        ],
+        "GS_diff_U1_1_2": [
+          "-7",
+          "-5/2"
+        ],
+        "N_C_bulk_total": 96,
+        "N_C_post_DT_HuHd": 80,
+        "N_C_post_DT_minus_NV_50": 30,
+        "N_C_post_DT_minus_NV_true": 30,
+        "N_V_true_from_240_roots": 50,
+        "SU2_Witten_anomaly_mod2": 1,
+        "SU2_hid_doublets": 13,
+        "bulk_only_GS_universal": false,
+        "det_mixed_anomaly_matrix": "31",
+        "flux16_sectors": [
+          [
+            8,
+            3
+          ]
+        ],
+        "gauge_group_enhanced_to_E6": false,
+        "h10_hid_charged": 1,
+        "h10_sing": 2,
+        "has_det_zero_U1": false,
+        "hid15_chiral_dof": 8,
+        "n16_count": 3,
+        "n16bar_count": 0,
+        "orbifold": "T2/Z4",
+        "partition_2_1_1_verified": true,
+        "q": [
+          -4,
+          -4,
+          0,
+          8
+        ],
+        "r": [
+          3,
+          3,
+          2,
+          0
+        ],
+        "unbroken_16_gauge_roots": 0,
+        "zero_flux_chiral_roots_Azbar": 0
+      },
+      "T2_Z4_count": 7,
+      "T2_Z4_unique_M8_count": 1,
+      "bulk_only_GS_universal_count_out_of_9": 0,
+      "exact_9model_match_vs_producer": false,
+      "headline_counts_and_0of9_GS_obstruction_confirmed": true,
+      "models_matching_producer_positive_flux_fields": 8,
+      "spectrum_discrepancy_models_count": 1,
+      "unbroken_NV_discrepancy_models_count": 1
+    },
+    "dft_mp_eig_1_to_16": {
+      "M12_mults": {
+        "0": 4,
+        "1": 3,
+        "2": 3,
+        "3": 2
+      },
+      "M16_mults": {
+        "0": 5,
+        "1": 4,
+        "2": 4,
+        "3": 3
+      },
+      "M8_mults": {
+        "0": 3,
+        "1": 2,
+        "2": 2,
+        "3": 1
+      },
+      "max_U4_identity_err": "2.365600402e-49",
+      "max_eigenvalue_snap_err": "3.419597761e-50",
+      "max_unitarity_err": "1.309273968e-49",
+      "ok": true
+    },
+    "e8_240_root_and_smooth_T2_proof": {
+      "e8_240_roots_branching_40_12_128_60_ok": true,
+      "smooth_T2_exact_240root_GS_diff_zero_all_4_fluxes": true,
+      "smooth_T2_producer_03_bug_GS_diff_at_M8": [
+        "0",
+        "12"
+      ],
+      "smooth_T2_producer_03_bug_violates_GS_all_4_fluxes": true
+    },
+    "g2_conical_locus_weight_sum_audit": {
+      "A_10_over_A_5_computed": "1",
+      "A_5_raw_from_T_2_2_2_m3_m3": -30,
+      "A_5bar_over_A_5_computed": "-1",
+      "Mg_DEP": "12",
+      "Mg_DP": "-138",
+      "N_C": 52,
+      "N_V": 48,
+      "SU2_L_Witten_mod2": 0,
+      "SU2_L_doublets": 14,
+      "SU5_3gen_cubic_anomaly": "0",
+      "a1_xi0": "2",
+      "exact_match_vs_producer": true
+    },
+    "gate_ref2": false
+  },
+  "REF_3_disjoint_ow24_c_r4_jtheta_real6_takagi_384atlas": {
+    "discrete_384_atlas_real6_takagi": {
+      "guardrail1_bits_rel_err_vs_producer": "1.346751897e-13",
+      "guardrail1_log2_384_bits": "8.5849625007212",
+      "hit_5pmns_max_rel_err_vs_producer": "7.64644704e-13",
+      "hit_eps1_MSSM": "-2.4529348601739e-5",
+      "hit_eps1_MSSM_rel_err_vs_producer": "1.601254476e-12",
+      "hit_eps1_SM": "-1.2279380546829e-5",
+      "hit_eps1_SM_rel_err_vs_producer": "2.3400303e-12",
+      "hit_geom_CP_odd_MSSM_err": "6.677655664e-60",
+      "hit_geom_CP_odd_SM_err": "4.891082719e-59",
+      "hit_lcg128_haar_10trial_U3_3_err": "4.939907315e-58",
+      "hit_real6_spectral_pair_err": "1.215432671e-62",
+      "hit_real6_takagi_frob_err": "6.299349909e-62",
+      "hit_real6_unitarity_err": "8.689746617e-61",
+      "hit_tag": "CURV_5-6_over_5-6_qR_2_n5b_000",
+      "nonsingular_MR_cases": 264,
+      "simultaneous_hits_count": 1,
+      "total_cases": 384
+    },
+    "engine_self_checks": {
+      "jtheta_heat_and_jacobi_max_err": "6.833115488e-62",
+      "lcg128_householder_haar_unitarity_max_err": "1.285838414e-60"
+    },
+    "gate_ref3": true,
+    "physical_Hu_K5_unblocking": {
+      "lcg128_haar_10trial_U3_3_err": "3.007661071e-58",
+      "n5b_000_5obs_max_rel_err_vs_producer": "1.186457455e-12",
+      "n5b_000_s23sq": "0.45793443158189",
+      "n5b_100_5obs_max_rel_err_vs_producer": "2.480107403e-12",
+      "n5b_100_s23sq": "0.66454667485596"
+    },
+    "pure_lopsided_SU5_n5b_000": {
+      "bits_saved_log2_100": "6.6438561897747",
+      "bits_saved_rel_err_vs_producer": "7.111375692e-13",
+      "curved_8obs_max_rel_err_vs_producer": "2.215297794e-12",
+      "curved_strict_CKM": true,
+      "flat_8obs_max_rel_err_vs_producer": "2.015620181e-12",
+      "flat_strict_CKM": true,
+      "lcg128_haar_10trial_U3_5_err": "1.88002971e-54",
+      "wirtinger_dbar_holomorphy": "3.28332627e-33"
+    },
+    "type1_eq_type2_cancellation": {
+      "K56_max_err": "8.556646007e-61",
+      "K5_max_err": "7.58429987e-61",
+      "K5_over_K5_s23sq": "0.021567928954918",
+      "K5_over_K5_s23sq_rel_err_vs_producer": "8.437914159e-13"
+    }
+  },
+  "REF_4_disjoint_ow24_d_ow16v11_and_6_planted_faults": {
+    "a2_ow16_v11_audit": {
+      "counts_by_bucket": {
+        "CONDITIONAL_OR_QUALITATIVE": 10,
+        "DERIVED_EXACT": 1,
+        "INTERNAL_WALL_OR_TENSION": 9,
+        "OPEN_EXTERNAL_BOUNDARY": 4
+      },
+      "guardrail5_ok": true,
+      "historical_false_flag_33_exact_match": true,
+      "historical_false_flag_jsons_count": 33,
+      "locks_17_of_17_independent_ok": true,
+      "ow16v11_planted_6_of_6_ok": true,
+      "partition_1_10_9_4_and_obs22_ok": true
+    },
+    "gate_ref4": true,
+    "ow24_d_audit": {
+      "alpha_score": 9,
+      "beta_score": 12,
+      "exact_match_vs_producer": true,
+      "j_omega_abs_err_from_0": "1.589744848e-165",
+      "ready_for_conditional_priced_blind_lock": true,
+      "ready_to_unblind_unconditional": false,
+      "remaining_uv_seams": [
+        "U2_R2_M8_flux_dynamically_derived_from_7D_M3_no_cusp_choice",
+        "U3_R3_bulk_orbifold_closes_GS_without_twisted_states",
+        "U4_R4_neutrino_PMNS_zero_atlas_search_bits"
+      ]
+    },
+    "referee_planted_faults": {
+      "caught": 6,
+      "controls": {
+        "PF_REF_1_manifest_1byte_tamper_caught": true,
+        "PF_REF_2_M6_parity_and_flipped_Dirac_sign_caught": true,
+        "PF_REF_3_smooth_T2_03_doublecount_and_corrupt_SU5_cubic_caught": true,
+        "PF_REF_4_Z4_M8_Witten_odd_and_Z2_M4_unbroken_E6_caught": true,
+        "PF_REF_5_K5_over_K5_trap_and_qR0_singular_takagi_caught": true,
+        "PF_REF_6_Guardrail1_zero_bit_atlas_and_naive_CP_caught": true
+      },
+      "ok": true,
+      "total": 6
+    }
+  },
+  "all_gates_passed": false,
+  "discrepancies": [
+    {
+      "diffs": [
+        {
+          "field_diffs": {
+            "A_SO10_U1_1_2": {
+              "producer": [
+                "-10",
+                "-10"
+              ],
+              "referee_240root": [
+                "-10",
+                "-8"
+              ]
+            },
+            "A_SU2_U1_1_2": {
+              "producer": [
+                "-3",
+                "-21/2"
+              ],
+              "referee_240root": [
+                "-3",
+                "-11/2"
+              ]
+            },
+            "GS_diff_U1_1_2": {
+              "producer": [
+                "-7",
+                "1/2"
+              ],
+              "referee_240root": [
+                "-7",
+                "-5/2"
+              ]
+            },
+            "N_C_bulk_total": {
+              "producer": 116,
+              "referee_240root": 96
+            },
+            "N_C_post_DT_HuHd": {
+              "producer": 100,
+              "referee_240root": 80
+            },
+            "SU2_hid_doublets": {
+              "producer": 23,
+              "referee_240root": 13
+            },
+            "det_mixed_anomaly_matrix": {
+              "producer": "75",
+              "referee_240root": "31"
+            },
+            "h10_hid_charged": {
+              "producer": 2,
+              "referee_240root": 1
+            }
+          },
+          "orbifold": "T2/Z4",
+          "q": [
+            -4,
+            -4,
+            0,
+            8
+          ],
+          "r": [
+            3,
+            3,
+            2,
+            0
+          ]
+        }
+      ],
+      "id": "REF2_OW24B_10H_DOUBLET_DOUBLECOUNT",
+      "module": "REF-2",
+      "smooth_T2_bug_GS_diff_at_M8": [
+        "0",
+        "12"
+      ],
+      "summary": "Producer analyze_so10_su2_model (verify_a2_ow24_v1.py:513) loops over BOTH (0,2) and (0,3) in (10,6), double-counting the single complex SU(2)_hid doublet (10,2) (counting 100 roots instead of 60). Proven by explicit 240-root E_8 decomposition AND smooth-T^2 E_8 index-theorem GS universality (exact 240-root gives GS_diff=(0,0) on smooth T^2; producer loop gives GS_diff=(0,+12)). On T^2/Z_4 M=8 q=(-4,-4,0,8), true values are h10_hid_charged=1 (not 2), SU2_hid_doublets=13 (not 23), N_C_bulk_total=96 (not 116), A_SO10=(-10,-8), A_SU2=(-3,-11/2), GS_diff=(-7,-5/2), det=31 (not 75). Headline qualitative verdicts STILL hold: Witten = 13 mod 2 = 1 and bulk-only GS universality = 0/9."
+    },
+    {
+      "diffs": [
+        {
+          "gauge_group_enhanced_to_E6": true,
+          "orbifold": "T2/Z2",
+          "producer_NV": 50,
+          "q": [
+            -2,
+            -2,
+            0,
+            4
+          ],
+          "r": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "referee_true_NV": 82,
+          "unbroken_16_gauge_roots": 32
+        }
+      ],
+      "id": "REF2_OW24B_Z2_M4_UNBROKEN_E6_GAUGE_ENHANCEMENT",
+      "module": "REF-2",
+      "summary": "In T^2/Z_2 q=(-2,-2,0,4), r=(1,1,0,0), slot 2 has (q_2, r_2) = (0, 0), leaving all 32 roots of (16,1)+(16bar,1) as UNBROKEN 4D gauge bosons. The true unbroken gauge group is E_6 x SU(2)_hid x U(1) with N_V = 82 (NOT SO(10) x SU(2) x U(1)^2 with N_V = 50); the 3x(16+10+1) states assemble into 3x(27,1)_{-2} of E_6, and producer's claimed 'exact anomaly-free U(1) = T1 - 2 T2' is literally the unbroken non-abelian Cartan generator U(1)_psi inside E_6, invalidating the claimed SO(10) post-DT N_C - N_V = 59 - 50 = +9 <= 10. (The sole external U(1) = T1 + T2 still fails bulk GS universality: A(E6^2) = -18 != A(SU2^2) = -3, so 0/9 bulk-only GS universality STILL holds.)"
+    }
+  ],
+  "discrepancies_count": 2,
+  "firewall": "0 of 19",
+  "referee_audit_notes": [
+    "REF2_ZERO_FLUX_CHIRAL_DZ_TWIST_NOTE: In 6D N=1 SYM on T^2/Z_N, the 4D chiral multiplet Phi ~ A_zbar carries an internal 1-form orbifold phase exp(+-2*pi*i/N) relative to 4D vector bosons. In T^2/Z_4 q=(-4,-4,4,4) r=(3,3,0,2), the 240-root check finds 40 zero-flux (10,2) roots with tw in {1,3}, yielding one additional zero-flux chiral (10,2) multiplet (+20 chiral dof, +10 SU(2) doublets; Witten remains 1 and GS_diff remains non-zero). Similarly, on T^2/Z_2, including the physical (-1) chiral parity shifts r=(1,1,0,0) -> (0,0,1,1) for q=(-2,-2,0,4), which breaks E_6 -> SO(10) (N_V=50) ONLY at the cost of a massless zero-flux chiral mirror pair 16+16bar from A_zbar.",
+    "REF2_CARD_PROSE_VS_JSON_NOTE: Pre-registration Card A2-OW24 line 32 states that Witten-free T^2/Z_4 models (-3,-3,2,4), (-4,-4,3,5), (-4,-4,1,7) all satisfy post-DT N_C - 50 in {7, 9, 10} <= 10; both producer's own JSON and our exact 240-root audit compute {'[-4, -4, 1, 7]': 12, '[-4, -4, 3, 5]': 11, '[-3, -3, 2, 4]': 7} (only (-3,-3,2,4) satisfies <= 10; (-4,-4,3,5) gives 11 and (-4,-4,1,7) gives 12)."
+  ],
+  "referee_card": "A2-OW24-v1 & A2-OW16-v11 Cold-Room Zero-Trust Referee (v1)",
+  "seat": "agy-002",
+  "working_dps_ref1": 65,
+  "working_dps_ref2": 50,
+  "working_dps_ref3": 60
+}
