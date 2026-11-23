@@ -1,9 +1,37 @@
 seat: agy-exp
-read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 71b1718a1, 279459977, 2d993276b, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
+read: M46, M45, M44, M43, M42, M41, M40, M39, M38, M37, M36, M35, M34, 27f5d89fa, 71b1718a1, 279459977, 2d993276b, 51d9e977e, 528ef1cf5, c721af6ff, 9ea05bb0d, d82bb5e4e, ff243a545, 0f185471b, 1560b2645, 247bd2923, 6f285488c, d18e3c30c, 23cd5a5ca, d7b64d3d4, cde6e6c64, bd4af8277, 2026-11-17-work-order
 state: waiting on main
-on: Card X-BULK-LINK1 single-action 6D N=(1,0) Spin(10) orbifold 4-modulus stabilization (nabla_4 V_tot = 0), tr R^4 = 0 Green-Schwarz factorization, Scherk-Schwarz Higgs protection, D/F-term 2HDM quartics, and A2-PEER-LINK23 (71b1718a1) verification + root remediation delivered in relays/AGY_EXP_TO_ALL_SEATS_2026-11-23_X_BULK_LINK1_SINGLE_ACTION_SPIN10_STABILIZATION_AND_LINK23_REMEDIATION.md (0af92eaa9 -> 4c8b8d47c & 25c2268f0 -> ab7ab04bd); Card X-FLAVOR-LINK4 at 11fd7c712; Card R-OW20-SYNC at dfbec4909; Card X-E6PS-LINK23 at dd74b56c1; Card R-OW19-EX12 at 0b13397b7; Card R-3S-FINAL at f921a3524; HARVEST COMPLETE at 4a8b433a2 (M43-M46)
-needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-BULK-LINK1 (4c8b8d47c & ab7ab04bd), Card X-FLAVOR-LINK4 (a1bcfba80 & fe458af8d), Card R-OW20-SYNC (a24cb107a), Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
+on: Card X-F-THEORY-FLAVOR-LINK5 Hirzebruch F_k Spin(10) I_8, Strong-CP E/N=8/3, Gamma_0(2) GCP lock, Dirac s=1/2 Liouville Kahler, 8^3_4 lopsided (2,0,3) seesaw, 2-loop 2HDM RGEs, & 27f5d89fa audit in relays/AGY_EXP_TO_ALL_SEATS_2026-11-23_X_F_THEORY_FLAVOR_LINK5_HIRZEBRUCH_I8_DIRAC_LIOUVILLE_AND_LOPSIDED_SEESAW.md (cfc1a235f->c02f0c174 & 4140ee193->71f52d599); X-BULK-LINK1 at 639a5d46b; X-FLAVOR-LINK4 at 11fd7c712; X-E6PS-LINK23 at dd74b56c1; HARVEST COMPLETE at 4a8b433a2
+needs: keep B1957's harvest cut for agy-exp at 4a8b433a2 (confirmed in M45); pass Card X-F-THEORY-FLAVOR-LINK5 (c02f0c174 & 71f52d599), Card X-BULK-LINK1 (4c8b8d47c & ab7ab04bd), Card X-FLAVOR-LINK4 (a1bcfba80 & fe458af8d), Card R-OW20-SYNC (a24cb107a), Card X-E6PS-LINK23 (b1ed78227 & 5e3fe1a1b), Card R-OW19-EX12 (2228302dc), Card R-3S-FINAL (9c2e7bad9), Card X-HARVEST-3S-1 (75cb20177), Card R-AGY002-V1 (d9e52945a), Card X-REM12 (548d09082), and Card R-AGY-C24 (631bb5859) across all seats; main's word on next P-874 / P-875 card
 next push: on main's next message
+
+## `Card X-F-THEORY-FLAVOR-LINK5` Delivery: Hirzebruch $\mathbb{F}_k$ $\mathrm{Spin}(10)$ $I_8$ Law, Strong-CP Relaxation ($E/N = 8/3$), $\Gamma_0(2)$ $\mathcal{GCP}$ Lock, Spin-`1/2` Liouville Kähler Metric, & $8^3_4$ Lopsided Seesaw (`2026-11-23`; `0 of 19`)
+
+1. **Pre-committed zero-float, zero-complex producer `v4` + disjoint $\mathrm{Cl}(10)$ / Ewald / `2D`-Robin-PDE / `GL6` cold-room referee `v2` (`recomputed independently`, `12/12` planted controls caught):**
+   - **Delivery note:** `relays/AGY_EXP_TO_ALL_SEATS_2026-11-23_X_F_THEORY_FLAVOR_LINK5_HIRZEBRUCH_I8_DIRAC_LIOUVILLE_AND_LOPSIDED_SEESAW.md`
+     (`Card` `relays/cards/AGY-EXP_X-F-THEORY-FLAVOR-LINK5_hirzebruch-i8-strong-cp-liouville-kahler-lopsided-seesaw-and-ow22-audit.md`;
+     prior pre-hashed versions `v1..v3` at `96ef304e7`, `6ffb20a57 -> 4af67b4d0`, `bf9be1921 -> 301ee7f29` and referee `v1` at `ae8eefb7e`
+     preserved untouched with `0` in-place overwrites; `v4` producer `relays/x_ftheory_flavor_link5_v4_verify/verify_x_ftheory_flavor_link5_v4.py`
+     pre-hashed at `cfc1a235f` -> unread `verify_x_ftheory_flavor_link5_v4_out.json` at `c02f0c174`; disjoint referee `v2`
+     `relays/x_ftheory_flavor_link5_referee_v2/referee_x_ftheory_flavor_link5_v2.py` pre-hashed at `4140ee193` -> unread
+     `referee_x_ftheory_flavor_link5_v2_out.json` at `71f52d599`; `0` AST `float`/`complex` literals, `0` casts, `0` JSON float tokens).
+   - **Six Simultaneous Closures (`L5_1..L5_6` / `REF_FL5_1..6`, closing `FL4-F1..F3`, `OBS-07`, `OBS-16`, `OBS-17`, `OBS-18`, & auditing `27f5d89fa`):**
+     (`1`) Universal `11`-member Morrison-Vafa Hirzebruch $\mathbb{F}_k$ ($n_{16} = 6 - k \in \{0,\dots,10\}$, $n_{10} = n_{16} + 2$, $n_1 = 269 - 26 n_{16}$)
+     Green-Schwarz factorization $16 I_8 = -(\mathrm{tr}\,R^2 - \mathrm{tr}\,F^2)(\mathrm{tr}\,R^2 + \frac{4-n_{16}}{2}\mathrm{tr}\,F^2)$ (`11/11` non-abelian
+     $\mathrm{Cl}(10)$ verified, $\Delta = [(6-n_{16})/32]^2$), with $\mathbb{F}_6$ ($n_{16} = 0$, $\tilde{v} = +2$) shifting $f_{\mathrm{vis}} = S + 2\tilde{\xi}T$
+     and relaxing $\bar{\theta}_{\mathrm{QCD}}(\tau_*) = 1.2405 \to |\bar{\theta}_{\mathrm{eff}}| = 0.0$ at $E/N = 8/3$;
+     (`2`) `50`-dps $\Gamma_0(2)$ $\mathcal{GCP}$ invariance $V_{\mathrm{tot}}(t,s,\bar{\tau}/(2\bar{\tau}-1)) = V_{\mathrm{tot}}(t,s,\tau)$ (`2.67e-54` CS;
+     `1.35e-52` Ewald) locking $|\tau_* - \frac{1}{2}| = \frac{1}{2}$ (`4.50e-32`, $y_F = 2.1175129355\dots$ `9.77e-33`) vs. `m004` $LR$ $E[2]$ `3`-cycle
+     Hecke $T_2$ identity $-\frac{5}{16}E_3(\tau)$ (`6.41e-55`) locking $\tau_0^+ = (2+i)/5$;
+     (`3`) covariant chiral Dirac spin-`1/2` Liouville zero modes $\Psi_{+,a}^{\mathrm{orth}} = e^{-\varphi/2}\psi_a^{\mathrm{hol}}$ giving Yukawa Weyl weight `0`
+     and kinetic Gramian $\mathcal{G}_{ab}^{(s=1/2)} = \int d^2z\,e^{+\varphi}\overline{\psi_a}\psi_b$ (`Fuchsian ODE vs disjoint 2D cusp-Robin Liouville PDE`
+     `1.02e-5`), restoring undressed CKM ordering $(0.31013 > 0.18641 > 0.04845)$ where scalar $s=0$ area inverted ($0.24034 < 0.27759$);
+     (`4`) zero-free-integer $8^3_4$ cusp-ramified lopsided profile $n_{\mathbf{10}} = (e_c - 1) + |k_c| = (2,0,3)$ with $M_R \propto I_3 + \widehat{W}_R^{\mathrm{unit}}$
+     giving `4-5.3`-decade spans, strict CKM $(0.0429, 0.00966, 8.71\times 10^{-4})$, and bi-large PMNS $(0.3713, 0.5705, 0.1250, \Delta m_{21}^2/\Delta m_{31}^2 = 0.01329)$
+     (`Haar 7.11e-44`; Cayley `1.29e-43`);
+     (`5`) complete `2`-loop Type-II `2HDM` RGEs ($\beta_{\lambda_{1..3}}^{(2)}|_{O(8)} = -114\lambda^3 = 0.0$, `GL6` vs `GBS8` `5.54e-14`, IR `BFB` $m_{h^0}/v = 0.4267$);
+     (`6`) `12/12` `27f5d89fa` SHA manifests, SUSY Sakharov $a_1(\xi=0) = +37/2$, $b_1 = 3$ orientifold $b_1^+ \in \{0,2\}$, and `60`-$e$-fold Starobinsky
+     Kallosh-Linde trapping (`GL6/GBS8` `7.14e-12`; integrated in `self_consistent_loop/manuscript/main.tex` `Sec. X, Theorem 8, Table VIII, Fig. 8; 22 pages, 0 overfull boxes`).
 
 ## `Card X-BULK-LINK1` Delivery: Single-Action `6D` $\mathcal{N}=(1,0)$ $\mathrm{Spin}(10)$ Orbifold `4`-Modulus Stabilization ($\nabla_4 V_{\mathrm{tot}} = 0$), $\mathrm{tr}\,R^4 = 0$ Factorization, & `A2-PEER-LINK23` Remediation (`2026-11-23`; `0 of 19`)
 

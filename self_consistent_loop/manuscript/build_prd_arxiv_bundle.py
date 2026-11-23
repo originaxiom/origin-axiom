@@ -29,6 +29,7 @@ FIG_PDFS = (
     "figures/fig9_e6_lr_matter_seesaw_dm.pdf",
     "figures/fig10_holomorphic_punctured_torus_flavor.pdf",
     "figures/fig11_single_action_spin10_stabilization.pdf",
+    "figures/fig12_hirzebruch_i8_liouville_lopsided_seesaw.pdf",
 )
 
 

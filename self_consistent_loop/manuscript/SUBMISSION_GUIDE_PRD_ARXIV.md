@@ -11,15 +11,15 @@ This guide contains everything needed to upload the remediated data-free manuscr
 1. **Author & Affiliation Line (`main.tex` lines 12–13):**
    Replace `\author{originaxiom}` and `\affiliation{Origin Axiom Research Programme}` with
    your legal author name(s), ORCID, and institutional address prior to external submission.
-2. **Build & AutoTeX-Verify the Upload Tarball (`main.tex` + `main.bbl` + `figures/fig5..11.pdf`):**
+2. **Build & AutoTeX-Verify the Upload Tarball (`main.tex` + `main.bbl` + `figures/fig5..12.pdf`):**
    arXiv's AutoTeX server runs `pdflatex` *without* `bibtex`, so `main.bbl` **must** be inside
    the `.tar.gz` archive. Run:
    ```bash
    python3 self_consistent_loop/manuscript/build_prd_arxiv_bundle.py
    ```
    This script compiles `main.bbl`, asserts `0` BibTeX warnings, `0` overfull boxes, and `0`
-   unresolved citations, packs the clean `.tar.gz` archive (`main.tex`, `main.bbl`, and the `7`
-   vector PDF figures `fig5..11`), and simulates arXiv's standalone `pdflatex`-only server.
+   unresolved citations, packs the clean `.tar.gz` archive (`main.tex`, `main.bbl`, and the `8`
+   vector PDF figures `fig5..12`), and simulates arXiv's standalone `pdflatex`-only server.
 
 ---
 
@@ -33,7 +33,7 @@ This guide contains everything needed to upload the remediated data-free manuscr
   ```
 - **Comments Field:**
   ```text
-  REVTeX 4.2, 19 pages, 7 figures, 7 tables (Appendices A-B included)
+  REVTeX 4.2, 22 pages, 8 figures, 8 tables (Appendices A-B included)
   ```
 - **Abstract (`under arXiv's 1,920-character hard limit and PRD's 500-word limit`):**
   ```text
