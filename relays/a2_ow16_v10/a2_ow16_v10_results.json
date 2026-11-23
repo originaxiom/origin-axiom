@@ -1,0 +1,508 @@
+{
+  "all_gates_passed": true,
+  "blind_prediction_ledger_24_v10": {
+    "counts_by_bucket": {
+      "CONDITIONAL_OR_QUALITATIVE": 10,
+      "DERIVED_EXACT": 1,
+      "INTERNAL_WALL_OR_TENSION": 9,
+      "OPEN_EXTERNAL_BOUNDARY": 4
+    },
+    "expected_counts_v10": {
+      "CONDITIONAL_OR_QUALITATIVE": 10,
+      "DERIVED_EXACT": 1,
+      "INTERNAL_WALL_OR_TENSION": 9,
+      "OPEN_EXTERNAL_BOUNDARY": 4
+    },
+    "ids_unique_24": true,
+    "obs22_brane2h_beta_ok": true,
+    "observables": [
+      {
+        "bucket": "DERIVED_EXACT",
+        "id": "OBS-07",
+        "observable": "6D I_8(16_+) rank-4 GS obstruction (det Q = 1/1679616) -> 7D CS axion E/N & Theorem 2 d-invariance",
+        "status_note": "Sole DERIVED_EXACT observable on branch; verified across all three seats",
+        "value": "E/N = 8/3; d-drift = 0.0 (OW19-B2); McKay SL(2,F_5) cyclic orders = [4, 6, 10]"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-02",
+        "observable": "Unique Lorentzian physical signature class {(1,3) ~ (3,1)} modulo g -> -g (conditional on D = 4)",
+        "status_note": "Conditional on D = 4 (OBS-01)",
+        "value": "1 Lorentzian class out of 3 physical 4D classes"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-03",
+        "observable": "Gauge group E_8 -> SU(5)_vis x SU(5)_hid -> G_SM x SU(5)_hid (240-root D-T splitting & 8/8 UV window) vs G_SM x U(1)_X / G_LR",
+        "status_note": "Updated per OW23-A: 240-root Kac Z_5 x Z_2 hypercharge projection achieves exact 20/30 Higgs doublet-triplet splitting (forbidding d=5 proton decay) while proving all 200 bulk coset roots carry SU(5)_hid charge (R3 blocker)",
+        "value": "E_8 240 roots -> 48+200, vis SM=12, DT 20/30 split=True; dim C(P_PS,J_5)=13"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-04",
+        "observable": "Three fermion generations N_gen = 3: b_1(8^3_4)=3 & unique survivor of N=1 SUSY UV window 0 < N_C - N_V <= 10 at N_V=48",
+        "status_note": "Updated per OW23-A: simultaneous a_1(xi=0)>0 & DEP<31 at UV SU(5)_vis x SU(5)_hid uniquely isolates N_gen=3 (killing N_gen=2,4 & 3x27 E_6), conditional on SU(5)_hid-singlet localization (R3)",
+        "value": "UV SU(5)xSU(5) surviving N_gen=[3] (HuHd & 5H5barH); orientifold det=-1 dim H_1^+ in [0, 2]"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-05",
+        "observable": "Two-Higgs Type-II X:HOL inside E_6 27 / 6D E_8 GHU vs B4_UV N=1 SUSY MSSM (8/8 UV gates, 11/12 total vs Alpha 8/12)",
+        "status_note": "Updated per OW23-A/D: evaluating DEP & a_1 at UV SU(5)_vis x SU(5)_hid (N_V=48) lifts B4 from 7/8 to 8/8 (and 11/12 across kill-shots, failing only single-modulus tau_0!=8*tau_0)",
+        "value": "B4_UV 8-gate=8/8, 12-gate Beta=11/12 vs Alpha=8/12; MSSM D-term BFB=True"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-08",
+        "observable": "Gauge unification: non-SUSY PS (r=8/77) & G_LR (r_LR=2/5, 8/25) vs single-scale N=1 SUSY MSSM (B = 5/7 exact)",
+        "status_note": "Updated per OW23-C: N=1 SUSY MSSM hits B = 5/7 single-scale and dynamical gauge coupling wires directly to V_hyp * R_*^3",
+        "value": "MSSM B = 5/7 (no threshold) vs 2HDM B = 5/9; V_hyp*R_*^3 wire = 107.51188132188"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-11",
+        "observable": "Unimodular / Kaloper-Padilla radiative vacuum decoupling (a_0 = -64) & 4D (p=0) AdS anti-decompactification theorem",
+        "status_note": "Updated per OW23-C: 4D Einstein-frame unimodular constant (p=0) uplifts generic 7D AdS minima with zero shift to (R_min, tau_0) and strictly eliminates decompactification runaway (contrasted with 7D p=3 shift)",
+        "value": "dLambda/drho_vac=0; 4D p=0 uplift dR=2.209834205e-62, dHess=1.686751671e-40, V(R100)=3.4068885927587 >> V_min=0.001"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-12",
+        "observable": "Holomorphic quark/lepton hierarchies & curved-Kahler CKM protection via lopsided SU(5) n_10=(3,2,0), n_5bar=(1,0,0)/(1,1,0)",
+        "status_note": "Updated per OW23-B: compresses 9-integer FN(3,2,0) to one lopsided SU(5) (n_10, n_5bar) pair saving 3.322 discrete bits; flat horosphere K_horo==0 gives 0.0 1-2 squark FCNC split vs 28.4% on curved K_{E[2]}^{hyp}",
+        "value": "Lopsided SU(5) (1,0,0) flat/curved CKM ordered=True; holomorphy=3.28332627e-29; Haar=1.940322224e-53"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-13",
+        "observable": "b-tau Yukawa proximity & K_6 order-6 lepton-down splitting (87.7% det split, E[5] exact tie)",
+        "status_note": "K_6 splits charged leptons from down quarks while preserving holomorphy & lopsided SU(5) transpose structure",
+        "value": "K_6 det split = 0.876813619528; lopsided SU(5) b/tau = 0.689998678837"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-14",
+        "observable": "Neutrino normal ordering & exact rank-1/singular collapse at q_R=0 (6Y) vs rank-3 lift at q_R=-5/+3 (incl. M_R = W_sym)",
+        "status_note": "Updated per OW23-B: confirms q_R=0 also collapses parameter-free M_R=W_sym(0,0) to singular rank-2; q_R=+3/-5 give full rank-3 normal ordering with Haar U(3)^3 invariance 5.4e-55",
+        "value": "qR=0 M_R sv0=2.32342661498e-57 (singular); qR=+3 M_R=W_sym dm=0.0561802081449, Takagi err=2.169021976e-57"
+      },
+      {
+        "bucket": "CONDITIONAL_OR_QUALITATIVE",
+        "id": "OBS-15",
+        "observable": "2-Flavor Leptogenesis with parameter-free M_R = W_sym(q_R,q_R) & exact chiral K_5/K_6 geometric CP oddness",
+        "status_note": "Updated per OW23-B: proves exact CP oddness under full elliptic-curve CP (3.8e-54) and reveals K_5, K_6 chirality breaks naive tau -> -conj(tau)",
+        "value": "M_R=W_sym eps1_MSSM(tau8^+)=-1.45896337671e-5, geom CP (tau,a,b)->(-tau*,a,-b) err=3.796177262e-54 (vs naive tau->-tau* chiral asym=1.784068568)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-06",
+        "observable": "Modulus & volume stabilization: 7D R^2 Ghost vs dS No-Go resolved by R_{MN}^2 + 4D unimodular; tau_0 ~ i vs 8*tau_0 cover gap",
+        "status_note": "Updated per OW23-B/C: resolves toy placeholders with real 7D R_{MN}^2 + 4D unimodular AdS uplift, while exposing the open tau_0 (j=1728 octahedral Z[i]) vs 8*tau_0 index-8 covering gap (R2 blocker)",
+        "value": "G_3=0; R^2 ghost u<1/2 vs dS (25/21,5/3); R_MN^2 real-action R_min=2.4480997218906, V_min=0.012861442248355; |j(8*tau_0)-1728|=22935.535811198"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-09",
+        "observable": "Higgs UV quartics & EWSB hierarchy: B4_UV 8/8 at SU(5)xSU(5) & pure-SU(5)_hid gaugino condensation vs bulk hidden-charge wall",
+        "status_note": "Updated per OW23-A: resolves DEP<31 conflict at UV SU(5)_vis x SU(5)_hid and provides dynamical gaugino-condensation hierarchy, but requires deriving 3 localized SU(5)_hid-singlet families (R3 blocker)",
+        "value": "B4_UV 8/8 (M_g^DEP=+12<31, a_1=+2>0); SU(5)_hid b=15 Lam/M_UV(24)=4.3052231580555e-5; all 200 bulk roots hid-charged=True"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-10",
+        "observable": "Sakharov induced G_{ind} UV gravity wall: non-SUSY Proca (-50/3) vs B4_UV N=1 SUSY xi=0 (+2 > 0) & xi=1/6 (-7/2 < 0)",
+        "status_note": "Updated per OW23-A: B4_UV passes both a_1(xi=0)>0 and DEP<31 in 4D M_GUT<mu<M_KK window; full 7D/M-theory UV gravity completion & conformal xi=1/6 sign remain open",
+        "value": "non-SUSY quad_32=-50/3; B4_UV (52 chiral, 48 vec) a_1(xi=0)=2 > 0 & DEP=12 < 31"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-16",
+        "observable": "Strong CP raw bar_theta_Q != 0 & 1-axion vs SU(5)_hid instanton trap cured by b_1(8^3_4) = 3 multi-axion matrix",
+        "status_note": "Updated per OW23-A: proves 1 axion fails when hidden SU(5)_hid confines, while b_1=3 >= 2 linearly independent topological cycles relax both QCD and hidden theta to <1e-50 (explicit cycle-coupling derivation remains)",
+        "value": "1-axion residual=1.2 (FAIL); b_1=3 2-axion QCD/hid residuals=(0.0, 2.039157646e-56)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-17",
+        "observable": "Light-generation e/mu & curved-Kahler CKM protection vs single-modulus tau_0 failure (8*tau_0 cover required)",
+        "status_note": "Updated per OW23-B/C: warped hyperbolic cusp K_horo==0 justifies flat horosphere metric (0% squark FCNC split), but 5-decade u hierarchy explicitly requires the index-8 cover 8*tau_0 (R2 blocker)",
+        "value": "u13(tau_0)=0.0323007552141 (flat!) vs u13(8*tau_0)=2.28562016329e-6; K_horo=0"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-18",
+        "observable": "PMNS s12^2 vs s23^2 trade-off: parameter-free M_R=W_sym + lopsided SU(5) lifts s23^2 3.5x (0.048 -> 0.165) but remains < 0.30",
+        "status_note": "Updated per OW23-B: honest partial progress (3.5x lift over M_R=I_3) without crossing large atmospheric mixing; OBS-18 stays a genuine Layer-1 blocker (R4)",
+        "value": "M_R=W_sym best s23sq=0.165467836275 (qR_3_n5b_110_nnur_000, rescued>=0.30=False)"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-19",
+        "observable": "2H GW Higgs perturbative portal gap & OW8-B 2D Kannike copositivity failure (non-GHU 4D branch)",
+        "status_note": "Unresolved on 4D non-GHU branch; 6D E_8 GHU (OBS-09) & MSSM D-term (OW22-A/OW23-A) restore BFB stability",
+        "value": "floor = 0.03964; OW8-B lam3+lam4 = -0.0591 < 0 at lam1 = 0"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-20",
+        "observable": "DM relic wall: E5 chi_S + soft S^2 Z_3 cure vs confined pure-gauge SU(5)_hid glueballs (b_hid = 15)",
+        "status_note": "Updated per OW23-A: pure-gauge SU(5)_hid adds a natural confined glueball DM candidate alongside P_M=-1 LSP; relic abundance calculation remains open",
+        "value": "E5 s-wave=True; SU(5)_hid dim=24, Lam/M_UV(24)=4.3052231580555e-5"
+      },
+      {
+        "bucket": "INTERNAL_WALL_OR_TENSION",
+        "id": "OBS-21",
+        "observable": "Inflation & CP domain-wall erasure: 60-e-fold Starobinsky below V_0^{crit}, m_tau/H_inf = 6.4..9.4 > 5, & Energy Vise ordered",
+        "status_note": "Updated per OW23-C: proves m_tau >> H_inf erases spontaneous CP domain walls across all 3 benchmarks and verifies V_inf^{1/4} < M_KK < M_Pl; UV origin of R^2 inflation scale remains priced",
+        "value": "V0_crit(B3500)=85.022011161577; m_tau/H_inf=(dS:7.59553302273, 4D-unimod:9.44227453965, OW22:6.37900451527); Vise=True"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-01",
+        "observable": "Macroscopic spacetime dimension D = 4 (OW22-D computed D=2..11 scan; uniquely D=4 ONLY conditional on YM+Hodge+orbits)",
+        "status_note": "Computed branch audit retained honestly in OPEN_EXTERNAL_BOUNDARY (physical postulates, not zero-premise axiom)",
+        "value": "D=4 unique by YM=[4], Hodge=[4], orbits=[4]; chiral+complex alone=[4, 8]"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-22",
+        "observable": "Free UV ratios, discrete bit entropy, & computed pre-unblinding gate (15 -> 8 -> 5 -> 2 levers; ready_to_unblind = False, 3 blockers)",
+        "status_note": "Updated per OW23-D: full Guardrail 1 & 5 continuous+discrete pricing; ready_to_unblind remains False until R2 (tau_0<->8*tau_0), R3 (SU(5)_hid-singlet localization), and R4 (OBS-18 s23^2) close",
+        "value": "b_Spin10=-76/3; 15 baseline -> 8 B4_UV -> 5 lopsided SU(5) (saves 3.321928095 bits; total Beta discrete=16.81378119 bits); blockers=3"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-23",
+        "observable": "X1 QM Hilbert space, superposition & Born measurement",
+        "status_note": "Unchanged Layer-2 external boundary",
+        "value": "EXTERNAL_AXIOM"
+      },
+      {
+        "bucket": "OPEN_EXTERNAL_BOUNDARY",
+        "id": "OBS-24",
+        "observable": "X37 non-abelian 2-form gerbe & unimodular Lambda_eff integration constant",
+        "status_note": "Unchanged Layer-2 external boundary (4D p=0 unimodular uplift now wired to OBS-11/OBS-06)",
+        "value": "OPEN_UV_BOUNDARY"
+      }
+    ],
+    "partition_matches_expected": true,
+    "total_observables": 24
+  },
+  "branch_custody_manifests": {
+    "all_verified": true,
+    "mismatches": [],
+    "total_manifests": 203,
+    "verified_manifests": 203
+  },
+  "card_id": "A2-OW16-v10",
+  "cross_card_locks_v10": {
+    "all_locks_passed": true,
+    "locks": {
+      "LOCK_01_type2_2hdm_2loop_ce_benchmark_and_haar": true,
+      "LOCK_02_two_flavor_leptogenesis_rad_vs_tree_and_mirror": true,
+      "LOCK_03_consistent_non_chimera_frg_type1_vs_type2": true,
+      "LOCK_04_prose_higgs_error_audited_and_e6_nw81_z4": true,
+      "LOCK_05_synergy144_sl2z_covariance_and_broken_antipodal": true,
+      "LOCK_06_computed_so2d_cubic_anomalies_and_spin10_beta_neg76_3": true,
+      "LOCK_07_ow19_2d_hyperbolic_kahler_and_gauss_bonnet": true,
+      "LOCK_08_ow19_e6_hierarchy_axion_thm2_and_majorana_pwave": true,
+      "LOCK_09_ow19_6d_s3_z5_root_lattice_census_3905": true,
+      "LOCK_10_6d_i8_7d_cs_axion_E_over_N_8_3_exact": true,
+      "LOCK_11_proca_antigravity_vs_sen_ir_exact": true,
+      "LOCK_12_brane2h_casimir_and_dim13_proca32": true,
+      "LOCK_13_peer_link23_and_48dps_frobenius_bc_star": true,
+      "LOCK_14_ow21_v3_fl4_complete2loop_ghu_and_3term_ds": true,
+      "LOCK_15_ow22_one_universe_curved_flavor_inflation_d4": true,
+      "LOCK_16_ow23_v3_single_universe_killshots_and_readiness": true
+    },
+    "locks_passed": 16,
+    "total_locks": 16
+  },
+  "empirical_firewall": "0 of 19",
+  "guardrail5_input_ledger_v10": {
+    "all_15_continuous_ratios_priced": true,
+    "conditional_parameter_reduction_branches": {
+      "branch_6d_e8_ghu_count": 11,
+      "branch_6d_e8_ghu_eliminated": [
+        "lambda_1(M_X)",
+        "lambda_2(M_X)",
+        "lambda_3(M_X)",
+        "lambda_4(M_X)"
+      ],
+      "branch_6d_e8_ghu_plus_3term_ds_eliminated_modulus": [
+        "Re(tau)",
+        "Im(tau)"
+      ],
+      "branch_6d_e8_ghu_plus_3term_ds_fixed_BA_count": 9,
+      "branch_6d_e8_ghu_plus_3term_ds_with_priced_BA_count": 10,
+      "branch_B4_UV_discrete_bits_saved_over_9int_FN": "3.321928095",
+      "branch_B4_UV_discrete_bits_total_priced": "16.81378119",
+      "branch_B4_UV_lopsided_SU5_continuous_count": 5,
+      "branch_B4_UV_lopsided_SU5_remaining_ratios": [
+        "g_UV",
+        "tan(beta)",
+        "m_12^2 / M_X^2",
+        "v_{B-L} / M_X",
+        "M_R / M_X"
+      ],
+      "branch_n1_susy_mssm_drops_M_PS_over_M_X_via_B_5_7": true,
+      "honest_caveat": "B4_UV passes 8/8 UV (11/12 total) in 4D M_GUT<mu<M_KK window; 3 Layer-1 blockers (R2 tau cover, R3 hid-singlet localization, R4 OBS-18 s23^2) remain before unblinding."
+    },
+    "dimensionful_anchor_count": 1,
+    "dimensionful_anchors": [
+      "v_EW"
+    ],
+    "discrete_broken_antipodal_weave_bits": "2.0",
+    "discrete_cp_branch_bits": "1.0",
+    "discrete_flavor_perm_bits_log2_18": "4.16992500144",
+    "discrete_synergy_s1_144_to_2_bits": "6.1699250014423",
+    "flavor_bulk_mass_ratios": [
+      "M_u L_c",
+      "M_d L_c",
+      "M_e L_c"
+    ],
+    "guardrail5_anchor_limit_ok": true,
+    "s1_bits_exact_log2_72": true,
+    "total_priced_continuous_ratios_baseline_4d": 15,
+    "unfixed_2hdm_uv_quartics_priced": [
+      "lambda_1(M_X)",
+      "lambda_2(M_X)",
+      "lambda_3(M_X)",
+      "lambda_4(M_X)"
+    ],
+    "unfixed_soft_and_modulus_priced": [
+      "m_12^2 / M_X^2",
+      "Re(tau)",
+      "Im(tau)"
+    ],
+    "uv_continuous_ratios_core": [
+      "g_UV",
+      "tan(beta)",
+      "M_R / M_X"
+    ],
+    "uv_continuous_ratios_threshold": [
+      "M_PS / M_X",
+      "v_{B-L} / M_X"
+    ]
+  },
+  "historical_false_json_disclosure": {
+    "all_required_historical_false_jsons_disclosed": true,
+    "files": [
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow11/verify_a2_ow11_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow12/verify_a2_ow12_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow13/a2_ow13_results.json"
+      },
+      {
+        "false_keys": [
+          "summary.all_gates_passed"
+        ],
+        "file": "relays/a2_ow13_referee/a2_ow13_referee_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow14/a2_ow14_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow14_referee/a2_ow14_referee_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow17/a2_ow17_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow18/a2_ow18_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow18_v2/a2_ow18_v2_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow19/a2_ow19_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow19_v2/a2_ow19_v2_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow21/a2_ow21_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow21_referee/a2_ow21_referee_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow22/a2_ow22_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow22_referee/a2_ow22_referee_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow23_v1/a2_ow23_v1_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow23_v2/a2_ow23_v2_results.json"
+      },
+      {
+        "false_keys": [
+          "overall_pass"
+        ],
+        "file": "relays/a2_ow2_referee/referee_a2_ow2_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow2_v3/verify_a2_ow2_v3_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow2_v4/verify_a2_ow2_v4_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow3/verify_a2_ow3_out.json"
+      },
+      {
+        "false_keys": [
+          "overall_pass"
+        ],
+        "file": "relays/a2_ow3_referee/referee_a2_ow3_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow6/verify_a2_ow6_out.json"
+      },
+      {
+        "false_keys": [
+          "overall_pass"
+        ],
+        "file": "relays/a2_ow6_referee/referee_a2_ow6_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_ow7/verify_a2_ow7_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_referee_v2/referee_a2_p879_v2_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_v2/verify_a2_p879_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_v3/verify_a2_p879_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_p879_v4/verify_a2_p879_out.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_peer_link23_referee/a2_peer_link23_referee_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_peer_synth/a2_peer_synth_results.json"
+      },
+      {
+        "false_keys": [
+          "all_gates_passed"
+        ],
+        "file": "relays/a2_wg96_v2/verify_a2_wg96_out.json"
+      }
+    ],
+    "total_historical_false_flag_jsons": 32
+  },
+  "hygiene": {
+    "binary64_casts": 0,
+    "float_or_complex_count": 0,
+    "forbidden_import_count": 0,
+    "passed": true,
+    "script_sha256": "1792aa6f3aa80f77dd4830ee01ea01b81bfbc730ffb6a8c819b3439b0bc5cbe9"
+  },
+  "planted_faults_v10": {
+    "caught": 6,
+    "controls": {
+      "PF_OW16V10_1_tamper_1byte_manifest": true,
+      "PF_OW16V10_2_keep_v5_3_derived_exact": true,
+      "PF_OW16V10_3_phantom_bulk_10R_beta_obs22": true,
+      "PF_OW16V10_4_two_dimensionful_anchors": true,
+      "PF_OW16V10_5_omit_unfixed_quartics_modulus": true,
+      "PF_OW16V10_6_double_divided_517_s1_bits": true
+    },
+    "gate_pass": true,
+    "total": 6
+  },
+  "remediates": "Card A2-OW23 v3 (8/8 B4_UV hidden-SU(5) window, 240-root E_8 D-T splitting, multi-axion CP, McKay 2I, tau_0 vs 8*tau_0 bridge, lopsided SU(5) + M_R=W_sym seesaw, 7D R^2 ghost no-go vs R_{MN}^2 + 4D unimodular anti-decompactification, CP domain-wall erasure, & 12-gate readiness)",
+  "seat": "agy-002"
+}
