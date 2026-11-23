@@ -66,4 +66,8 @@
 3. **`OW26-C` (True geometric CP mirror `(\tau, a, b) -> (-\bar\tau, a, -b)` & Boltzmann step count):** Reflected BOTH $\tau \mapsto -\bar\tau$ AND the $(K_5, K_6)$ orbit $(a, b) \mapsto (a, -b)$ (recording fixed-orbit `\tau_8^-` separately to show why fixed `K_5` breaks pure $\tau \mapsto -\bar\tau$), and bumped `n_z_steps` `320 -> 500` so step-halving `< 1e-6`.
 4. **`OW26-D` (`PSL(2)` sign, `j(\tau_0)` truncation, & quadratic-source cusp trial):** Divided `la_b[0,1]` by `la_b[0,0] = -1` (exact `\tau_cusp = +2i`), raised `j(\tau_0)` $q$-series order `55 -> 110` (`< 1e-40`), and used exact quadratic-source cusp trial `b(y) = eps^2 y (1 - y/L)^2` (`b'(0) = eps^2` from `[a \wedge a]`, giving exact `4 eps^5` at `L = 1/eps`).
 
+## Pre-`v3` Numerical Precision Tightening Note (`2026-11-23`; Frozen `v1` `0322af735` & `v2` `1bb5725e4` Untouched)
+
+`A2-OW26 v2` (`1bb5725e4`) passed `OW26-A`, `OW26-D`, and `6/6` planted faults `OW26-E`, reproduced `agy-exp`'s spin-`1/2` Dirac Gramian `(1.07020, 0.86840, 1.06140)` to `6` digits, and verified `Y_B(\tau_8^+) + Y_B(\text{CP mirror}) = 0` to `2.06e-40`. Only two numerical step-size tolerances in `B4` (`tr_comm_err = 6.14e-10`, `z2_evenness_err = 1.88e-8` at `8/12`-step `order=16`) and `C` (`Y_B` step-halving `8.73e-6` at `n_z_steps = 500`) exceeded the strict thresholds. `relays/a2_ow26_v3/verify_a2_ow26_v3.py` tightens `B4` to `30`-dps `12/18`-step `order=20` for `c_*` & `z2_evenness` (`< 1e-18`), tightens `C` to `n_z_steps = 1600` (`< 1e-6`), and records whether `CURV_s12_Dirac` stays inside `OW24-C`'s simultaneous PMNS window honestly (zero target change).
+
 `0 of 19.`
