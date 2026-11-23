@@ -1,0 +1,513 @@
+{
+  "REF_0_hygiene_and_custody": {
+    "ast_referee_a2_ow25_self": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "relays/a2_ow25_referee/referee_a2_ow25.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "4191e96d8b5d8dd05f184020745624870afb4a92f173c3a711eaf0abcc4b26a3"
+    },
+    "ast_verify_a2_ow16_v13": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "relays/a2_ow16_v13/verify_a2_ow16_v13.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "a2480bc002e0f7954844b9cce9ad7fb56f9a18c065724a9476699a1977401df7"
+    },
+    "ast_verify_a2_ow25_v5": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "relays/a2_ow25_v5/verify_a2_ow25_v5.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "ad52ef9729f35767815c880f49672f27da728692ba19f5e7d458efdf8b5865ac"
+    },
+    "branch_manifests": {
+      "all_verified": true,
+      "manifest_files_checked": 229,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "total_entries": 231,
+      "verified_entries": 231
+    },
+    "gate_ref0": true,
+    "ow16_v13_json_float_tokens": 0,
+    "ow25_v5_json_float_tokens": 0,
+    "producer_recorded_script_sha256_match_disk": true
+  },
+  "REF_1_disjoint_gl4_mssm_jtheta_haar_ewsb": {
+    "antusch_downward_s12_increases": true,
+    "antusch_downward_s23_increases": true,
+    "casimir_martin_vaughn_exact": true,
+    "central_3runs_detail": {
+      "aUVinv24_CURV_moderate_gUV_over_5": {
+        "ckm_masses_max_rel_err": "1.1658627e-9",
+        "gauge_M_SUSY_max_rel_err": "1.667823e-9",
+        "gl4_max_fp_iters": 12,
+        "gl4_max_fp_res": "7.48392e-23",
+        "pmns_max_rel_err": "1.4133042e-10",
+        "sm_M_EW_band_max_rel_err": "3.4134537e-9",
+        "strict_CKM_ordered": true
+      },
+      "aUVinv24_CURV_unified_gUV": {
+        "ckm_masses_max_rel_err": "1.4601496e-9",
+        "gauge_M_SUSY_max_rel_err": "1.7454187e-9",
+        "gl4_max_fp_iters": 12,
+        "gl4_max_fp_res": "8.43547e-23",
+        "pmns_max_rel_err": "6.318922e-10",
+        "sm_M_EW_band_max_rel_err": "0.0",
+        "strict_CKM_ordered": true
+      },
+      "aUVinv24_FLAT_moderate_gUV_over_5": {
+        "ckm_masses_max_rel_err": "1.1666108e-9",
+        "gauge_M_SUSY_max_rel_err": "1.6678226e-9",
+        "gl4_max_fp_iters": 12,
+        "gl4_max_fp_res": "7.48381e-23",
+        "pmns_max_rel_err": "9.8168786e-11",
+        "sm_M_EW_band_max_rel_err": "3.4134286e-9",
+        "strict_CKM_ordered": true
+      }
+    },
+    "central_3runs_max_rel_err_vs_producer": "3.413453741e-9",
+    "eft_higgs_gl4_audit": {
+      "A0_0_tb5_m0_3v": {
+        "m_h_over_M_Z_gl4": "1.53721304971",
+        "m_h_over_v_EW_gl4": "0.590164931726",
+        "rel_err_m_h_over_M_Z": "6.8676211e-11",
+        "rel_err_m_h_over_v_EW": "5.2965156e-11",
+        "rel_err_y_t_SM_at_M_EW": "1.0790683e-11",
+        "y_t_SM_at_M_EW_gl4": "1.13506057862"
+      },
+      "A0_neg_sqrt3_tb15_m0_10v": {
+        "m_h_over_M_Z_gl4": "1.83502545982",
+        "m_h_over_v_EW_gl4": "0.709371601687",
+        "rel_err_m_h_over_M_Z": "1.1857475e-11",
+        "rel_err_m_h_over_v_EW": "6.5509092e-12",
+        "rel_err_y_t_SM_at_M_EW": "6.2316532e-11",
+        "y_t_SM_at_M_EW_gl4": "1.25515142067"
+      }
+    },
+    "eft_higgs_max_rel_err_vs_producer": "6.867621083e-11",
+    "gate_ref1": false,
+    "gl4_1loop_3gauge_err": "5.418822696e-11",
+    "gl4_1loop_pendleton_ross_g3_err": "2.614055927e-11",
+    "gl4_1loop_pendleton_ross_yt_err": "1.984389783e-11",
+    "gl4_1loop_scalar_max_fp_res": "9.9647748e-25",
+    "gl4_2loop_step_halving_18_vs_36_err": "1.900051186e-8",
+    "gluino_fcnc_dilution": {
+      "dilution_factor": "6.12911217571",
+      "ir_split": "0.0463903522665",
+      "max_rel_err_vs_producer": "9.064770637e-10",
+      "uv_split": "0.284331672912"
+    },
+    "haar_10trial_lcg128_householder_through_2loop_gl4_err": "8.20451968e-25",
+    "haar_50matrices_max_unitarity_err": "1.703179155e-30",
+    "jtheta_uv_identity_max_rel_err_vs_OW24_v2": "1.441213251e-12",
+    "m3_over_m12_1loop_exact_5_over_2_err": "1.722358102e-9",
+    "nsvz_45dps_1loop_err": "6.872699218e-46",
+    "nsvz_45dps_2loop_err": "1.842589675e-45",
+    "soft_susy_all_3_A0_radiative_EWSB_ok": true,
+    "u4_curv_1of384_ir_stability": {
+      "moderate_stays_in_window": true,
+      "unified_stays_in_window": false
+    },
+    "u4_flat_horosphere_max_rel_err_vs_producer": "4.866157374e-8",
+    "u4_flat_horosphere_rg_rescue_hits_out_of_6": 0
+  },
+  "REF_2_disjoint_integer_ring_borromean_clausen_dedekind": {
+    "borromean_6_3_2": {
+      "all_3_longitudes_canonical_and_tau_2i": true,
+      "commensurable_tau0_det2": true,
+      "explicit_Z2_orient_rev_b1p0_Phi0_verified": false,
+      "explicit_Z2_orient_rev_b1p2_Phi2_verified": true,
+      "j_2i_dedekind_err_vs_66_cubed": "1.336382355e-49",
+      "j_tau0_dedekind_err_vs_1728": "6.804220418e-52",
+      "matches_producer_score": false,
+      "pure_int_Zi_holonomy_ok": true,
+      "six_gate_matrix_referee": {
+        "gates": {
+          "G1_b1_ge_2_strong_CP": true,
+          "G2_b1_eq_3_cycles": true,
+          "G3_trace_field_Qi": true,
+          "G4_cusp_commensurable_with_tau0": true,
+          "G5_vol_eq_8G_Catalan_OW23C": true,
+          "G6_orient_rev_Z2_b1plus_in_0_2": false
+        },
+        "score": 5
+      },
+      "snf_b1": 3,
+      "vol_55dps_dilog": "7.3277247534177521204",
+      "vol_dilog_vs_clausen_series_diff": "0.0",
+      "vol_err_vs_8G_Catalan": "0.0"
+    },
+    "figure_eight_m004": {
+      "Gamma_4_mod2_order": 10,
+      "incommensurable_Qi_proved_pure_int": true,
+      "matches_producer_score": false,
+      "producer_claimed_score": 1,
+      "pure_int_Zw_holonomy_ok": true,
+      "six_gate_matrix_referee": {
+        "gates": {
+          "G1_b1_ge_2_strong_CP": false,
+          "G2_b1_eq_3_cycles": false,
+          "G3_trace_field_Qi": false,
+          "G4_cusp_commensurable_with_tau0": false,
+          "G5_vol_eq_8G_Catalan_OW23C": false,
+          "G6_orient_rev_Z2_b1plus_in_0_2": false
+        },
+        "score": 0
+      },
+      "snf_b1": 1,
+      "tau_is_2_plus_4omega_eq_2sqrt3i": true,
+      "valid_t_mod2_all_y_odd": true,
+      "vol_55dps_dilog": "2.02988321281930725",
+      "vol_dilog_vs_clausen_series_diff": "0.0",
+      "vol_err_vs_producer": "4.240510855e-20",
+      "witness_b1p0_symmetry_has_order_4": true,
+      "witness_ord2_involution_has_b1p_eq_1": true
+    },
+    "gate_ref2": false,
+    "referee_first_principles_math_ok": false,
+    "whitehead_5_2_1": {
+      "Gamma_w_mod2_order": 8,
+      "canonical_longitude_taus_m2_2i": true,
+      "commensurable_tau0_det2": true,
+      "matches_producer_score": false,
+      "orient_preserving_cusp_swap_S_ok": true,
+      "producer_claimed_score": 4,
+      "producer_la_w_exponent_sum_ab": [
+        1,
+        0
+      ],
+      "producer_word_taus_m1_2i": true,
+      "pure_int_Zi_holonomy_ok": true,
+      "six_gate_matrix_referee": {
+        "gates": {
+          "G1_b1_ge_2_strong_CP": true,
+          "G2_b1_eq_3_cycles": false,
+          "G3_trace_field_Qi": true,
+          "G4_cusp_commensurable_with_tau0": true,
+          "G5_vol_eq_8G_Catalan_OW23C": false,
+          "G6_orient_rev_Z2_b1plus_in_0_2": false
+        },
+        "score": 3
+      },
+      "snf_b1": 2,
+      "strictly_chiral_no_orient_rev_isometry": true,
+      "vol_55dps_dilog": "3.6638623767088760602",
+      "vol_err_vs_4G_Catalan": "0.0"
+    }
+  },
+  "REF_3_disjoint_u3_240root_diophantine_and_blind_lock": {
+    "blind_lock_all_numbers_max_rel_err_vs_gl4": "3.413428573e-9",
+    "blind_lock_sha256_matches_ow16_v13": true,
+    "blind_lock_sha256_matches_ow25_v5": true,
+    "blind_prediction_lock_sha256_recomputed": "d027938e33d3060e0725a8e5b77832437b6452ae3f155e88b42d4808d51c1254",
+    "e8_240_roots_charge_audit": {
+      "doublet_max_abs_t1": 2,
+      "doublet_max_abs_t1_plus_t2": 3,
+      "doublet_max_abs_t2": 1,
+      "exact_audit_note": "On Model 7 (T^2/Z_2 (-2,-2,0,4), enhanced E_6 x SU(2)_hid x U(1)_{T1+T2}), E_8 doublet roots reach |t1+t2|=3 (not 2), lowering min doublets from k=16 to k=10 (Delta N_C = 20 > headroom 7), so 0/9 survives intact.",
+      "root_count": 240,
+      "triplet_t1_t2_charges_in_E8": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_9model_match_vs_producer": true,
+    "exotic_triplets_min_required_charge_across_9": 4,
+    "g2_conical_locus_8_of_8_verified": true,
+    "gate_ref3": true,
+    "per_model_diophantine_audit": [
+      {
+        "Witten_mod2": 1,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": null,
+        "headroom": -20,
+        "k_exact_E8_bound": 7,
+        "k_q_le_2": 7,
+        "max_GS_diff": "7",
+        "orbifold": "T2/Z4",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": false,
+        "q": [
+          -4,
+          -4,
+          0,
+          8
+        ],
+        "unrestricted_req_q": 14
+      },
+      {
+        "Witten_mod2": 0,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": null,
+        "headroom": -2,
+        "k_exact_E8_bound": 6,
+        "k_q_le_2": 6,
+        "max_GS_diff": "6",
+        "orbifold": "T2/Z4",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": false,
+        "q": [
+          -4,
+          -4,
+          1,
+          7
+        ],
+        "unrestricted_req_q": 6
+      },
+      {
+        "Witten_mod2": 1,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": null,
+        "headroom": 1,
+        "k_exact_E8_bound": 7,
+        "k_q_le_2": 7,
+        "max_GS_diff": "7",
+        "orbifold": "T2/Z4",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": false,
+        "q": [
+          -4,
+          -4,
+          2,
+          6
+        ],
+        "unrestricted_req_q": 14
+      },
+      {
+        "Witten_mod2": 1,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": null,
+        "headroom": 1,
+        "k_exact_E8_bound": 7,
+        "k_q_le_2": 7,
+        "max_GS_diff": "7",
+        "orbifold": "T2/Z4",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": false,
+        "q": [
+          -4,
+          -4,
+          2,
+          6
+        ],
+        "unrestricted_req_q": 14
+      },
+      {
+        "Witten_mod2": 0,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": null,
+        "headroom": -1,
+        "k_exact_E8_bound": 6,
+        "k_q_le_2": 6,
+        "max_GS_diff": "6",
+        "orbifold": "T2/Z4",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": false,
+        "q": [
+          -4,
+          -4,
+          3,
+          5
+        ],
+        "unrestricted_req_q": 6
+      },
+      {
+        "Witten_mod2": 1,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": 14,
+        "headroom": 2,
+        "k_exact_E8_bound": 7,
+        "k_q_le_2": 7,
+        "max_GS_diff": "7",
+        "orbifold": "T2/Z4",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": true,
+        "q": [
+          -4,
+          -4,
+          4,
+          4
+        ],
+        "unrestricted_req_q": 14
+      },
+      {
+        "Witten_mod2": 0,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": 4,
+        "headroom": 3,
+        "k_exact_E8_bound": 8,
+        "k_q_le_2": 8,
+        "max_GS_diff": "8",
+        "orbifold": "T2/Z4",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": false,
+        "q": [
+          -3,
+          -3,
+          2,
+          4
+        ],
+        "unrestricted_req_q": 8
+      },
+      {
+        "Witten_mod2": 0,
+        "exact_E8_q_max": 3,
+        "exotic_triplet_plus_doublet_min_q": 5,
+        "headroom": 7,
+        "k_exact_E8_bound": 10,
+        "k_q_le_2": 16,
+        "max_GS_diff": "15",
+        "orbifold": "T2/Z2",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": true,
+        "q": [
+          -2,
+          -2,
+          0,
+          4
+        ],
+        "unrestricted_req_q": 15
+      },
+      {
+        "Witten_mod2": 1,
+        "exact_E8_q_max": 2,
+        "exotic_triplet_plus_doublet_min_q": null,
+        "headroom": 0,
+        "k_exact_E8_bound": 9,
+        "k_q_le_2": 9,
+        "max_GS_diff": "9",
+        "orbifold": "T2/Z2",
+        "pass_exact_E8_bound": false,
+        "pass_unrestricted": false,
+        "q": [
+          -2,
+          -2,
+          1,
+          3
+        ],
+        "unrestricted_req_q": 18
+      }
+    ],
+    "surviving_exact_E8_doublets": 0,
+    "surviving_exotic_triplets_exact_E8": 0,
+    "surviving_exotic_triplets_q_le_2": 0,
+    "surviving_q_le_2_doublets": 0,
+    "surviving_unrestricted_doublets": 2,
+    "unrestricted_required_charges": [
+      14,
+      15
+    ]
+  },
+  "REF_4_ow16_v13_audit_and_6_planted_faults": {
+    "gate_ref4": false,
+    "guardrail1_and_5_pricing_verified": true,
+    "historical_false_flag_exact_36_set_match": true,
+    "historical_false_flag_json_count": 36,
+    "lock18_m004_score_matches_true_holonomy": false,
+    "lock18_non_m004_predicates_verified": true,
+    "observable_partition_1_10_9_4_verified": true,
+    "ow16_v13_minor_code_notes": [
+      "verify_a2_ow16_v13.py#L140 has harmless path typo 'a2_ow16_v12/a2_ow16_v13_results.json' (did not affect 36-file census).",
+      "verify_a2_ow16_v13.py#L179-184 and #L498-503 duplicate o25a/o25b/o25c dict unpacks (harmless)."
+    ],
+    "planted_faults": {
+      "all_caught": true,
+      "caught": 6,
+      "controls": {
+        "REF_PF_1_1byte_manifest_tamper_caught": true,
+        "REF_PF_2_corrupt_2loop_gammaHu_caught_by_45dps_NSVZ": true,
+        "REF_PF_3_2x_dlnmu2_error_caught_by_GL4_Pendleton_Ross": true,
+        "REF_PF_4_flipped_yt_sign_breaks_GL4_radiative_EWSB": true,
+        "REF_PF_5_perturbed_Borromean_c_breaks_holonomy_and_m004_rejected": true,
+        "REF_PF_6_Guardrail1_zero_bit_atlas_violation_caught": true
+      },
+      "total": 6
+    },
+    "upstream_locks_1_to_17_all_verified": true
+  },
+  "all_gates_passed": false,
+  "audited_targets": {
+    "ow16": "relays/a2_ow16_v13/verify_a2_ow16_v13.py -> a2_ow16_v13_results.json",
+    "ow25": "relays/a2_ow25_v5/verify_a2_ow25_v5.py -> a2_ow25_v5_results.json"
+  },
+  "discrepancies": [
+    {
+      "detail": "Flat U4 rescue mismatch: hits=0, max_rel_err=4.86616e-8",
+      "id": "DISC-REF1-U4-FLAT",
+      "module": "REF-1"
+    },
+    {
+      "id": "DISC-OW25-B1-WHITEHEAD-CHIRALITY-AND-GUARDRAIL2",
+      "module": "REF-2",
+      "producer_claim": {
+        "G6_orient_rev_Z2_b1plus_in_0_2": true,
+        "file": "relays/a2_ow25_v5/verify_a2_ow25_v5.py#L1366",
+        "score": 4
+      },
+      "referee_proof": {
+        "G6_orient_rev_Z2_b1plus_in_0_2": false,
+        "Gamma_w_mod2_order": 8,
+        "explanation": "verify_a2_ow25_v5.py line 1366 hardcodes eval_6gates(b1_wh, True, True, vol_wh, True) (Guardrail 2 violation). Moreover, Whitehead link complement S^3\\5^2_1 is strictly CHIRAL (zero orientation-reversing isometries): producer word la_w has a-exponent +1 (non-canonical); the true canonical null-homologous longitude is l_a^can = a_w^-1 la_w with cusp ratio tau_can = -2+2i; |Gamma_w mod 2|=8 proves m_1=+-1 is the unique shortest cusp vector; S=[[0,1],[-1-i,0]] swaps cusps orientation-preservingly; and any orient-reversing isometry must map tau_can=-2+2i -> +-conj(-2+2i)=+-(-2-2i) != +-(-2+2i), impossible! True score is 3/6, not 4/6.",
+        "orient_preserving_cusp_swap_S_verified": true,
+        "producer_la_w_exponent_sum_ab": [
+          1,
+          0
+        ],
+        "true_canonical_cusp_ratio": "-2 + 2i",
+        "true_score": 3
+      },
+      "severity": "HIGH_MATHEMATICAL_AND_GUARDRAIL2"
+    },
+    {
+      "id": "DISC-OW25-B2-M004-NO-Z2-B1PLUS02-AND-GUARDRAIL2",
+      "module": "REF-2",
+      "producer_claim": {
+        "G6_orient_rev_Z2_b1plus_in_0_2": true,
+        "file": "relays/a2_ow25_v5/verify_a2_ow25_v5.py#L1367",
+        "score": 1
+      },
+      "referee_proof": {
+        "G6_orient_rev_Z2_b1plus_in_0_2": false,
+        "Gamma_4_mod2_order": 10,
+        "explanation": "verify_a2_ow25_v5.py line 1367 hardcodes eval_6gates(b1_m004, False, not m004_incommensurable, vol_m004, True) (Guardrail 2 violation). Exact finite-group proof in PSL(2, F_4): |Gamma_4 mod 2|=10 forces every orient-reversing isometry Phi(z)=eps*conj(z)+t of single-cusp S^3\\4_1 to have t=x+y*omega in Z[omega] with y strictly ODD. For eps=-1 (b_1^+=0), Phi^2(z)=z+y*sqrt(3)*i is NOT in Gamma_4 (canonical longitude is 2*sqrt(3)*i), so every b_1^+=0 orient-reversing symmetry has ORDER 4 (not a Z_2 involution; 4_1 is not strongly (+)-amphichiral). For eps=+1, Phi is a Z_2 involution (strongly (-)-amphichiral) but acts as a->+a giving b_1^+=1 not in {0,2}. Hence m004 fails ALL 6 gates: true score is 0/6, not 1/6 (strengthening Borromean 6/6 vs m004 0/6!).",
+        "true_score": 0,
+        "valid_t_mod2_in_F4": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "severity": "HIGH_MATHEMATICAL_AND_GUARDRAIL2"
+    },
+    {
+      "id": "DISC-OW16-L18-M004-SCORE-PROPAGATION",
+      "module": "REF-4",
+      "producer_claim": {
+        "file": "relays/a2_ow16_v13/verify_a2_ow16_v13.py#L653",
+        "locked_predicate": "o25b[\"figure_eight_m004\"][\"six_gate_matrix\"][\"score\"] == 1",
+        "obs06_status_note_excerpt": "Borromean rings S^3\\6^3_2 replaces m004 (6/6 vs 1/6)"
+      },
+      "referee_proof": {
+        "explanation": "A2-OW16 v13 LOCK_18 and OBS-06 propagate A2-OW25 v5's erroneous hardcoded m004 score 1/6 (true score from exact PSL(2,F_4) mod-2 holonomy is 0/6). Remediation in OW25 v6 + OW16 v14 will update LOCK_18 to score == 0 and Whitehead to score == 3.",
+        "true_m004_score": 0
+      },
+      "severity": "MEDIUM_KNOCKON_FROM_OW25_B2"
+    }
+  ],
+  "discrepancies_count": 4,
+  "empirical_firewall": "0 of 19",
+  "referee_id": "A2-OW25-REFEREE",
+  "seat": "agy-002"
+}
