@@ -61,3 +61,5 @@
    - Expect `6 / 6` SHA-256 manifests of `71b1718a1` (`0` in-place overwrites), disjoint Whittaker–Watson $q$-cosine $\wp$ + `GBS10`
      half-period monodromy reproduction of `OW19-F3`'s `bc_star(tau_8^+)` to `< 10^{-12}`, reproduction of `LINK23-F1..F5`, and
      complete Guardrail-`1`/`5` accounting (`PC_BL1_6` catches `0`-bit coordinate embedding and multi-anchor GeV smuggling).
+
+- *Pre-run custody note:* `v1` (`relays/x_bulk_link1_verify/verify_x_bulk_link1.py` at `2693af10f`) tripped a `KeyError` on `71b1718a1`'s JSON key `L23_C_ow19_f1_f3_remediation` before writing output and is preserved untouched; `v2` (`relays/x_bulk_link1_v2_verify/verify_x_bulk_link1_v2.py`) updates only that JSON lookup key (`and m_max=18 on PC_BL1_2`) with all expectations unchanged.
