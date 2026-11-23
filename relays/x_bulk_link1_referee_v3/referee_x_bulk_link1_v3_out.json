@@ -1,0 +1,78 @@
+{
+  "card": "AGY-EXP_X-BULK-LINK1_COLD_ROOM_REFEREE_V3",
+  "empirical_anchor_touches": "0 of 19",
+  "referee_ast_hygiene": {
+    "float_or_complex_literal_count": 0,
+    "binary64_cast_call_count": 0,
+    "clean": true
+  },
+  "producer_ast_hygiene": {
+    "float_or_complex_literal_count": 0,
+    "binary64_cast_call_count": 0,
+    "clean": true
+  },
+  "REF_BL1_1_bourbaki_fock_and_chern_taylor_i8": {
+    "bourbaki_D5_kac_dims_PS_GG_inter": [
+      21,
+      25,
+      13
+    ],
+    "producer_dims_exact_match": true,
+    "fock_16_killing_6Y_Qchi": "0",
+    "fock_16_all_6_anomalies_zero": true,
+    "chern_root_taylor_i8_max_diff": "0",
+    "bourbaki_E6_ru1_broken_roots": 32,
+    "r_pc_bl1_1_caught": true,
+    "passed": true
+  },
+  "REF_BL1_2_ewald_split_and_pentagonal_cauchy_dkl": {
+    "ewald_S_duality_err": "3.07367941661e-50",
+    "ewald_vs_prod_C_Cas_diff": "3.35287818628e-18",
+    "pentagonal_cauchy_vs_prod_cusps_rel_err": "2.62564314141e-12",
+    "r_pc_bl1_2_caught": true,
+    "passed": true
+  },
+  "REF_BL1_3_independent_ewald_solver_and_sylvester": {
+    "ref_ewald_t_star_35d": "301.60528042578416246071956547738594",
+    "ref_ewald_s_star_35d": "31.163293259891370501432335240522867",
+    "ref_ewald_re_tau_star_35d": "0.81764672844048660676935322828348108",
+    "ref_ewald_im_tau_star_35d": "0.38613541136634406982107652965665976",
+    "ref_grad4_norm_at_ewald_root": "6.88261260647e-41",
+    "ref_vs_prod_ts_max_rel_diff": "9.8619848587e-15",
+    "ref_vs_prod_m24_tau_max_rel_diff": "6.61725263646e-10",
+    "ref_vs_prod_V_tot_rel_err": "2.46076499941e-12",
+    "ref_vs_prod_area_rel_err": "5.35228508312e-15",
+    "sylvester_4_principal_minors": [
+      "7.67815294942e-12",
+      "3.86876075266e-20",
+      "4.86492289188e-27",
+      "5.56237878873e-36"
+    ],
+    "sylvester_positive_definite": true,
+    "r_pc_bl1_3_caught": true,
+    "passed": true
+  },
+  "REF_BL1_4_odd_zeta_em_and_su2_expm_quartics": {
+    "euler_maclaurin_odd_zeta_diff": "8.80356649026e-22",
+    "su2L_x_u1Y_expm_gauge_invariance_err": "0.0",
+    "ref_vs_prod_quartics_err": "3.81191683023e-16",
+    "r_pc_bl1_4_caught": true,
+    "passed": true
+  },
+  "REF_BL1_5_puncture_contour_and_implicit_gl6_rge": {
+    "puncture_contour_vs_prod_det_rel_err": "1.18958057872e-14",
+    "implicit_gl6_55_vs_prod_gbs8_40_err": "5.34154452288e-14",
+    "r_pc_bl1_5_caught": true,
+    "passed": true
+  },
+  "REF_BL1_6_custody_json_scan_and_taylor24_ow19f3": {
+    "producer_sha256_manifests_verified": true,
+    "producer_single_commit_seal_verified": true,
+    "producer_json_float_token_count": 0,
+    "autonomous_taylor24_bc_star_tau8": "0.62640452269979666221281629980870185",
+    "taylor24_vs_prod_gbs10_diff": "2.0652458409e-13",
+    "r_pc_bl1_6_caught": true,
+    "passed": true
+  },
+  "all_6_referee_modules_and_6_planted_controls_passed": true
+}
