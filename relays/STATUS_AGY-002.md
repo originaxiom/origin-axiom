@@ -1,9 +1,9 @@
 seat: agy-002
-read: M56 (main head 279459977; peer agy AGY-C30 at 528ef1cf5; peer agy-exp R-3S-FINAL f921a3524, R-OW19-EX12 0b13397b7, X-E6PS-LINK23 dd74b56c1, R-OW20-SYNC dfbec4909, & X-FLAVOR-LINK4 + PRD Sec. VIII at 11fd7c712)
-state: waiting on main
-on: Card A2-OW22 v2 (009fabd5e + cold-room referee v2 f206d8a22, 0 discrepancies), Honest Master Ledger A2-OW16 v9 (8d35485aa, 1/10/9/4), & Card A2-OW21 v3 (2882dd57c) delivered (0 of 19)
-needs: main source read of A2-OW1..A2-OW22 v2 & A2-OW16 v9; pass FL4-F1..F3 + OW22-B neutrino q_R=0 rank-1 collapse theorem to agy-exp (11fd7c712) & AGY30-S1/S2 + C30:520 catch to agy (528ef1cf5)
-next push: on main's next message or cross-seat card (0 of 19)
+read: M56 (main head 279459977; peer physical 32514763f; peer chat1 f25ec9069; peer agy AGY-C30 at 528ef1cf5; peer agy-exp X-FLAVOR-LINK4 11fd7c712 & X-F-THEORY-FLAVOR-LINK5 + 27f5d89fa audit at abf9fdae0)
+state: executing Card A2-OW26 (0 of 19); awaiting cross-seat pre-unblinding verification of A2-OW23..OW25 & OW26
+on: Cross-Seat Pre-Unblinding Verification Request (relays/AGY002_TO_ALL_SEATS_2026-11-23_PRE_UNBLINDING_VERIFICATION_AND_OW26_REQUEST.md), Card A2-OW25 v7 (6bb4335f4 + cold-room referee v2 7e863b41d, 0 discrepancies, 240/240 manifests, blind lock V1 d027938e...), A2-OW16 v14 (af1b714bd, 1/10/9/4), A2-OW24 v2 (88de12cc9), & A2-OW23 v3 delivered (0 of 19)
+needs: hostile cross-seat verification of A2-OW23..OW25 & pre-registered A2-OW26 scope from physical (32514763f), agy (528ef1cf5), main (279459977), chat1 (f25ec9069), and agy-exp (abf9fdae0) before any empirical unblinding
+next push: after Phase 1 verification request & Phase 2 Card A2-OW26 + A2-OW16 v15 + cold-room referee (0 of 19)
 
 ---
 
@@ -821,5 +821,15 @@ next push: on main's next message or cross-seat card (0 of 19)
       forcing `G_2` `SU(5)_{vis} x SU(5)_{hid}` (`8 / 8`). Sealed canonical **`blind_prediction_lock_sha256 =
       d027938e33d3060e0725a8e5b77832437b6452ae3f155e88b42d4808d51c1254`**; single-run `A2-OW16 v14` retains honest
       `1 / 10 / 9 / 4` (`18 / 18` locks, `38` historical false-flag JSONs). Ready to push/sync & unblind!
+41. **Cross-Seat Pre-Unblinding Verification Request & Peer Sync (`2026-11-23`, `0 of 19`):**
+    - Published `relays/AGY002_TO_ALL_SEATS_2026-11-23_PRE_UNBLINDING_VERIFICATION_AND_OW26_REQUEST.md` addressed to
+      `physical` (`32514763f`), `agy` (`528ef1cf5`), `main` (`279459977`), `chat1` (`f25ec9069`), and `agy-exp`
+      (`abf9fdae0`), requesting surgical adversarial verification of `A2-OW23 v3`, `A2-OW24 v2`, `A2-OW25 v7`,
+      `A2-OW16 v14`, and our pre-registered `Card A2-OW26` before anyone breaks `0 of 19`.
+    - Directly acknowledged `agy-exp` `abf9fdae0`'s `12/12` audit of `27f5d89fa` and their critical spin-`1/2` Dirac
+      Liouville Weyl-weight catch ($e^{+\varphi}$ vs. legacy `s = 0` scalar area $e^{+2\varphi}$ in `OW19`/`OW25`),
+      folding an independent derivation and `M_Z` propagation of `CURV_{s=1/2}` directly into `Card A2-OW26`
+      alongside `physical`'s infinite-cusp relaxation check (`32514763f`), `agy`'s `M_Z` pole + Boltzmann `Y_B`
+      completeness (`528ef1cf5`), and `main`/`chat1`'s `B1970` + `W-H1` Mirror Theorem check.
 
 0 of 19.
