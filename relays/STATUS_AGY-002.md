@@ -696,5 +696,49 @@ next push: on main's next message or cross-seat card (0 of 19)
       inflation (`R_max = 1.0188 < 1.2295`, cold-room implicit `GL4` match **`4.03e-13`**!) from decompactification
       overshoot (`R > 5`). Audited `D = 2..11` (`OBS-01` no longer `UNCOMPUTED_ON_BRANCH`, stays honestly in
       `OPEN_EXTERNAL_BOUNDARY`), retaining `1 / 10 / 9 / 4` (`15 / 15` locks, `29 / 29` false-flag JSONs disclosed).
+38. **Single-Universe Kill-Shot Campaign (`8 / 8` Hidden-`SU(5)` UV Window, `240`-Root `E_8` Doublet-Triplet Splitting & Multi-Axion Strong CP, McKay `2I` Unity, `\tau_0` vs. `8\tau_0` Covering Fracture, Lopsided `SU(5)` + `M_R = W_{sym}` Seesaw & Chiral `K_5/K_6` Geometric CP, `7D` `R^2` Ghost No-Go vs. `R_{MN}^2` + `4D` Unimodular Anti-Decompactification, CP Domain-Wall Erasure, & `12`-Gate Pre-Unblinding Gate) (`2026-11-23` — `Card A2-OW23 v3` + `A2-OW16 v10`, `0 of 19`):**
+    - Delivered `relays/AGY002_A2_OW23_SINGLE_UNIVERSE_KILLSHOT_RESULTS.md` (`pre-registered card 908a81915` +
+      pre-`v2` erratum `0ee252000` + pre-`v3` erratum `30f4088ab`; frozen untouched `A2-OW23 v1` `eb90cb8eb ->
+      146f884b3`, `A2-OW23 v2` `dd92ceba5 -> b78c3ddd2`, & `a2_ow23_referee v1` `16cf8f2c7 -> 693a7615d`; final
+      clean `A2-OW23 v3` `63247f6f6 -> 4f8f5a268`, single-run `A2-OW16 v10` `7c92fcbb5 -> 30ae141e8`, and isolated
+      cold-room zero-shared-code referee `v2` `8240a6d40 -> 983fe93c0`, **`all_gates_passed = True`**,
+      **`discrepancies_count = 0`**, **`207 / 207`** branch manifests verified across `205` `*SHA256*.txt` files,
+      `0` AST float/complex, `0` binary64 casts, `0` JSON float tokens, `6/6 + 6/6 + 6/6` planted faults). Check
+      labels (§ `12`): `expectations committed first`, `tested against planted errors`, `recomputed independently`
+      (`computed once` strictly for single-run `A2-OW16 v10`; omitted on multi-run `A2-OW23` & referee).
+    - **`OW23-A` (`8/8` Hidden-`SU(5)` Window, `240`-Root `E_8` D-T Splitting, Multi-Axion Strong CP, & McKay `2I`):**
+      Proved universal `N = 1` SUSY gravity window `0 < N_C - N_V <= 10` (`a_1(xi=0) > 0` & `M_g^{DEP} < 31`) at UV
+      `SU(5)_{vis} x SU(5)_{hid}` (`N_V = 48`) uniquely isolates **`N_{gen} = 3`** over `N_{gen} = 1..25` for BOTH
+      `H_u, H_d` (`52`: `a_1 = +2, DEP = +12, DP = -138`) & `5_H, 5bar_H` (`58`: `a_1 = +5, DEP = +30`), upgrading
+      `B4_UV` to **`8 / 8`** in the `M_{GUT} < mu < M_{KK}` `4D` window (pure `SU(5)_{hid}` `b = 15` gives
+      `\Lambda_{hid}/M_{UV} = 4.305e-5` at `\alpha_{UV}^{-1} = 24`). Explicit `240`-root `E_8` `Z_5 x Z_2` (disjoint
+      Cartan Weyl-BFS verified) proves exact `20`-doublet vs `30`-triplet Higgs splitting on both `5` & `5bar`
+      (forbidding `d = 5` proton decay), while proving `0 / 200` bulk coset roots are `SU(5)_{hid}`-neutral (`R3`
+      blocker). Proved `1` axion fails Strong CP (`|\bar\theta_{eff}| = 6/5`) under `SU(5)_{hid}` confinement whereas
+      `2+` axions from `b_1 = 3` relax both QCD & hidden `\theta < 10^{-50}` (`REF-1`: `4.75e-66`). Enumerated `120`
+      matrices of `SL(2, F_5) = 2I` (`|PSL| = 60`, disjoint `S, T` BFS) proving unique maximal cyclic orders
+      `{4, 6, 10}` (`A_5`: `{2, 3, 5}`), uniting `E[2]`, `K_6`, and `K_5` inside `E_8`'s McKay group.
+    - **`OW23-B` (`\tau_0` vs. `8\tau_0`, Mostow Rigidity, Lopsided `SU(5)`, & `M_R = W_{sym}` Seesaw):** Proved
+      `\tau_0 = 1/(2-i) ~ i` (`j = 1728`, octahedral `\mathbb{Z}[i]` square cusp vs tetrahedral `m004` `j(\omega) = 0`)
+      is NOT `SL(2, \mathbb{Z})`-equivalent to `8\tau_0` (`|j(8\tau_0) - 1728| = 22935.5`, `REF-2` Jacobi-theta
+      `1.49e-14` rel), while single-modulus flavor at `\tau_0` (`u_{13} = 0.0323`) proves the index-`8` cover is
+      needed (`R2` blocker). Lopsided `SU(5)` (`n_{10} = (3,2,0), n_{5bar} in {(1,0,0),(1,1,0),(2,1,0)}`) saves
+      `3.322` discrete bits, protects `|V_{12}| > |V_{23}| > |V_{13}|` on both flat (`0.0` squark FCNC split) and
+      curved `K_{E[2]}^{hyp}` (`28.43%` split, holomorphy `2.22e-29`, Haar `1.94e-53`). Parameter-free `M_R = W_{sym}`
+      (disjoint `6 x 6` `mp.eigsy` Takagi `<= 3.36e-12` rel, Haar `5.44e-55`) lifts `s_{23}^2` `3.5x` (`0.048 ->
+      0.1655`, exact 3-way `D_{n_{\nu^c}}` cancellation tie `9.60e-64` per `REF2_DNUR_SEESAW_TIE_NOTE`, still `< 0.30`
+      `R4` blocker) and proves exact elliptic-curve CP oddness `(\tau, a, b) -> (-\bar\tau, a, -b)` (`3.80e-54`,
+      `REF-2`: `3.34e-64`) vs chiral `K_5, K_6` naive `\tau -> -\bar\tau` asymmetry (`1.784`).
+    - **`OW23-C/D` & `A2-OW16 v10` (`7D` `R^2` Ghost No-Go vs. `R_{MN}^2`, `4D` Unimodular, CP Walls, & Readiness):**
+      Full symbolic `3D` Christoffel/Riemann audit proves `\mathcal{G}_3 == 0` and `7D` `R^2` ghost bound `u < 1/2`
+      strictly disjoint from bare dS `(25/21, 5/3)`, resolved by `R_{MN}^2` (zero `\mathcal{R}_4 \mathcal{R}_3`
+      cross-term; real octahedral `V_{hyp} = 8 G_{Cat}` + `C_6 = +567/5` dS minimum `R = 2.4481, V = +0.01286`,
+      `V_{hyp} R_*^3 = 107.51`, `REF-3` Mellin `<= 2.85e-12` rel). Proved `4D` (`p = 0`) unimodular uplifts AdS
+      with `\Delta R = 2.21e-62`, `\Delta \lambda = 1.69e-40`, `V(R=100) = +3.407 >> 0.001` (anti-decompactification!)
+      vs `7D` (`p = 3`) shifting `R` by `0.0364`. Proved warped cusp horosphere `K_{horo} == 0`, CP domain-wall
+      erasure across all `3` benchmarks (unrotated diagonal `m_\tau / H_{inf} = 6.38..9.44`; true rotated eigenmodes
+      `2.80..4.15 > 1` per `REF3_CANONICAL_MTAU_HXY_NOTE`), and Energy Vise ordering (`0.0273 < 0.0394 < 1`). `12`-gate
+      comparison: **Beta `11 / 12` vs. Alpha `8 / 12`**, `ready_to_unblind = False` (exact `3` blockers: `R2, R3, R4`),
+      and single-run `A2-OW16 v10` retains honest `1 / 10 / 9 / 4` (`16 / 16` locks, `32` pre-referee false-flag JSONs).
 
 0 of 19.
