@@ -1,0 +1,420 @@
+{
+  "REF_1_2loop_sm_mssm_gl4_and_first_principles_audits": {
+    "fcnc_dilution_comparison": {
+      "CURV_s0_tr_uv_ir_dilution": [
+        "0.284331622681",
+        "0.0463903439876",
+        "6.12911218674"
+      ],
+      "CURV_s12_tr_uv_ir_dilution": [
+        "0.100011146616",
+        "0.016317395337",
+        "6.12911218674"
+      ],
+      "CURV_s12_true_tau8_uv_ir_dilution": [
+        "0.104097967505",
+        "0.0169841837339",
+        "6.12911218674"
+      ],
+      "layer1_tr_vs_producer_max_rel_diff": "2.508481539e-7"
+    },
+    "first_principles_sm_and_dr_ms_audits": {
+      "audit1_mv2_exact_noncommuting_order_verified": true,
+      "audit1_producer_noncommuting_order_matches_exact": false,
+      "audit2_exact_d_g14_trd_coeff": "9/10",
+      "audit2_exact_d_g1sq_g2sq_trd_coeff": "27/5",
+      "audit2_mv3_6x3_solution": {
+        "ca": "-4",
+        "cb": "-20",
+        "cc": "0"
+      },
+      "audit2_producer_d_g1sq_g2sq_trd_coeff": "-27/5",
+      "audit2_producer_matches_exact": false,
+      "audit3_exact_mv9308222_dr_to_ms_coeffs_over_pi": {
+        "d_alpha1": "-13/480",
+        "e_alpha1": "9/160",
+        "lepton_alpha2": "-3/32",
+        "quark_alpha2": "-3/32",
+        "quark_alpha3": "1/3",
+        "u_alpha1": "-1/480"
+      },
+      "audit3_producer_dr_to_ms_coeffs_over_pi": {
+        "lepton_alpha2": "-3/16",
+        "quark_alpha2": "-3/16",
+        "quark_alpha3": "-1/3"
+      },
+      "audit3_producer_matches_exact": false,
+      "b1_sm": [
+        "41/10",
+        "-19/6",
+        "-7"
+      ],
+      "b2_sm_diag": [
+        "199/50",
+        "35/6",
+        "-26"
+      ],
+      "c_af_exact": true,
+      "delta_2hdm_to_sm_g1_4": [
+        "2/15",
+        "7/300",
+        "39/100"
+      ],
+      "gamma_s2_yu4_and_yu2yd2": [
+        "-27/4",
+        "3/2"
+      ],
+      "group_theory_and_o4_exact": true,
+      "o4_scalar_b1_b2": [
+        "12",
+        "-78"
+      ]
+    },
+    "guardrail3_10trial_haar_U3_5_end_to_end_GL4_err": "1.233041193e-8",
+    "haar_generator": "Xorshift64* + complex Householder QR (Mezzadri)",
+    "integrator": "2-stage implicit Gauss-Legendre GL4 (O(h^4), symplectic, A-stable)",
+    "layer1_cim_M16_diffs": {
+      "CURV_s12_CIM_M16_kH1min_m0_10v": "5.726246243e-9",
+      "CURV_s12_CIM_M16_kH1min_m0_3v": "3.911317794e-9",
+      "CURV_s12_CIM_M16_kH2max_m0_10v": "5.663374279e-9",
+      "CURV_s12_CIM_M16_kH2max_m0_3v": "3.862453415e-9"
+    },
+    "layer1_gl4_vs_producer_max_rel_diff": "5.221086418e-5",
+    "layer1_run_diffs": {
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_10v_sgnMu_neg": "1.05314243e-7",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_10v_sgnMu_pos": "1.053132695e-7",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_3v_sgnMu_neg": "1.053143465e-7",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_3v_sgnMu_pos": "1.053145402e-7",
+      "FLAT_yt_gUV_tb15_m0_10v_sgnMu_neg": "2.193085836e-8",
+      "FLAT_yt_gUV_tb15_m0_10v_sgnMu_pos": "2.193085836e-8"
+    },
+    "layer1_sugra_diffs": {
+      "aUVinv23_SUGRA_MKK_m0_10v": "5.221086418e-5",
+      "aUVinv24_SUGRA_MKK_m0_10v": "1.266260377e-6",
+      "aUVinv25_SUGRA_MKK_m0_10v": "2.745672378e-7"
+    },
+    "layer2_corrected_physics_central_predictions": {
+      "CURV_s12_tr_exact_MV2_MV3_MV9308222_m0_10v_pos": {
+        "J_ckm": "-2.12108794004e-7",
+        "alpha3_mz": "0.185885982056",
+        "b_tau_mz": "1.80216032108",
+        "mh_pole_over_mz": "1.9063619455",
+        "mh_pole_over_v": "0.724687079661",
+        "mt_pole_over_v": "0.88614379998",
+        "sin2_thetaW_mz": "0.221794626293",
+        "yt_mz": "1.28421742443"
+      },
+      "CURV_s12_true_tau8_exact_MV2_MV3_MV9308222_m0_10v_pos": {
+        "J_ckm": "-2.06926223736e-7",
+        "alpha3_mz": "0.185885977838",
+        "b_tau_mz": "1.80151658322",
+        "mh_pole_over_mz": "1.90636201089",
+        "mt_pole_over_v": "0.886143839515",
+        "sin2_thetaW_mz": "0.221794624646",
+        "v12": "0.0665786395066",
+        "v13": "0.000847220635845",
+        "v23": "0.00606179247675",
+        "yt_mz": "1.2842174809"
+      },
+      "CURV_s12_true_tau8_exact_MV2_MV3_MV9308222_m0_3v_pos": {
+        "alpha3_mz": "0.147333888623",
+        "b_tau_mz": "1.52896861297",
+        "mh_pole_over_mz": "1.64002188484",
+        "mt_pole_over_v": "0.811426119695",
+        "sin2_thetaW_mz": "0.227758306545"
+      }
+    }
+  },
+  "REF_2_e8_cim_and_dirac_liouville": {
+    "Dirac_s12_Liouville_GL8_GL6": {
+      "G_s12_dirac_unit_mean_t8": [
+        "1.07020250284",
+        "0.868398118367",
+        "1.06139937879"
+      ],
+      "G_s12_dirac_unit_mean_tr": [
+        "1.06139937879",
+        "0.868398118367",
+        "1.07020250284"
+      ],
+      "G_s12_t8_max_diff_vs_producer": "2.461797676e-8",
+      "K_s0_scalar_tr": [
+        "1.36516557776",
+        "0.760711498922",
+        "1.3993041177"
+      ],
+      "K_s0_tr_max_diff_vs_producer": "2.496724591e-7",
+      "bc_star_tau8": "0.6264060987684",
+      "c_star_im": "0.004008433410495779",
+      "c_star_re": "-1.608577465379394",
+      "gauss_bonnet_area_over_2pi": "0.999999860317",
+      "gauss_bonnet_err": "1.396832515e-7",
+      "im_tr_TaTb_independent_check": "5.324317899e-14",
+      "ode_method": "4-stage GL8 (c_*) & 3-stage GL6 (rays) with e_3-based wp(z) and 2-trace Newton",
+      "passed": false,
+      "s12_coarse_vs_fine_err": "7.136039505e-6",
+      "symplectic_det_err": "1.001483643e-32",
+      "tr_comm_err": "4.566662872e-15",
+      "weyl_6D_identity_ok": true,
+      "z2_evenness_err": "3.333593735e-8"
+    },
+    "E8_240root_clebsch": {
+      "VF_plus_VD_eq_VYM_y_root_sq_over_g2": "1",
+      "actual_SU5_vis_highest_dynkin_by_z5_sector": {
+        "q_1_over_5": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "q_2_over_5": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "q_3_over_5": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "q_4_over_5": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "dn_10_5bar_5barH_ordered_triplets": 600,
+      "hid_A4_roots": 20,
+      "note_producer_comment_sector_swap": "Producer lines 1043-1044 mislabel q=1/5 as (10,5bar) and q=2/5 as (5bar,10bar); true Dynkin labels under w_z5=(1,1,1,1,-4,0,0,0)/5 are q=1/5=(5,10), q=2/5=(10,5bar), q=3/5=(10bar,5), q=4/5=(5bar,10bar). Both triplet counts equal 600 by SU(5)_vis <-> SU(5)_hid outer symmetry.",
+      "passed": true,
+      "total_roots": 240,
+      "up_10_10_5H_ordered_triplets": 600,
+      "vis_A4_roots": 20
+    },
+    "M8_CIM_2D_GaussLegendre": {
+      "Z2_odd_3x3_Gram_err": "5.63899344e-8",
+      "all_9_Higgs_SVDs_max_diff_vs_producer": "4.231610944e-13",
+      "odd_odd_even_112_GL2D_vs_analytic_err": "1.87378377e-6",
+      "passed": false,
+      "quadrature_rule": "Composite 2D Gauss-Legendre (4x4 cells x 6x6 Newton-Raphson Legendre nodes)",
+      "raw_112_GL2D_vs_analytic_err": "2.889310795e-6",
+      "yt_over_gUV_max": "0.96321181156",
+      "yt_over_gUV_min_nonzero": "0.634960631884"
+    }
+  },
+  "REF_3_sequential_seesaw_gl4_boltzmann_lsp_proton": {
+    "boltzmann_method": "2-stage implicit Gauss-Legendre GL4 (N=400 vs 800 + O(h^4) Richardson)",
+    "d6_proton_ratios_max_rel_diff": "2.845884492e-12",
+    "guardrail3_10trial_haar_U3_5_x_U3_N_err": "5.511928917e-25",
+    "layer1_boltzmann_gl4_vs_producer": {
+      "CP_odd_YB_plus_plus_YB_minus_err": "8.508698309e-33",
+      "K_tot": "45.7509267599",
+      "Y_B_flav_rel_diff_vs_producer_radau": "1.163448328e-7",
+      "Y_B_flavored_thermal_init_gl4": "1.07838361812e-7",
+      "Y_B_flavored_zero_init_gl4": "9.64009549293e-8",
+      "Y_B_gl4_step_halving_rel_err": "1.137507441e-6",
+      "Y_B_unflav_rel_diff_vs_producer_radau": "3.22543626e-7",
+      "Y_B_unflavored_gl4": "2.36184433232e-8",
+      "eps_tot": "-0.00372037699815",
+      "flav_sum_err": "4.930380658e-32"
+    },
+    "layer1_seq_seesaw_s0_pmns_max_rel_diff": "1.260431788e-7",
+    "layer1_seq_seesaw_s12_pmns_max_rel_diff": "1.048755456e-7",
+    "layer2_exact_lnc_sign_boltzmann_gl4": {
+      "on_G_s12_tr_Y_B_flavored_zero_init": "8.33903249181e-8",
+      "on_G_s12_tr_eps_flav": [
+        "-0.000149702345558",
+        "-0.000244790642385",
+        "-0.00332588401021"
+      ],
+      "on_G_s12_tr_rel_shift_vs_producer": "0.134963604",
+      "on_true_tau8_CP_odd_err": "5.931262376e-33",
+      "on_true_tau8_G_s12_t8_Y_B_flavored_zero_init": "8.45759901667e-8",
+      "on_true_tau8_G_s12_t8_Y_B_unflavored": "2.39127829853e-8",
+      "on_true_tau8_G_s12_t8_eps_flav": [
+        "-0.000154030522357",
+        "-0.000234061794218",
+        "-0.0033919494349"
+      ],
+      "on_true_tau8_pmns_mz_sequential": {
+        "J": "-0.0420939670987",
+        "delta_cp_over_pi": "-0.625343176014",
+        "delta_cp_rad": "-1.96457352774",
+        "dm": "0.0348318256044",
+        "m1_over_m3": "0.284186266414",
+        "m2_over_m3": "0.335828196411",
+        "mee_over_m3": "0.280045561674",
+        "s12sq": "0.6708057163",
+        "s13sq": "0.0441462037609",
+        "s23sq": "0.370683054762",
+        "sum_m_over_m3": "1.62001446283"
+      },
+      "tau8_plus_still_selected_by_YB_gt_0": true
+    },
+    "lsp_gl4_vs_producer_max_rel_diff": "1.765761545e-8",
+    "lsp_neutral_bino_count_out_of_12": 12,
+    "s12_vs_s0_legacy_s12sq_shift": {
+      "s0_scalar_s12sq": "0.408265863947",
+      "s12_dirac_tr_s12sq": "0.67226435402",
+      "s12_dirac_true_tau8_s12sq": "0.6708057163"
+    },
+    "takagi_method": "Real 6x6 symmetric block eigensolver [[Re M, Im M], [Im M, -Re M]]"
+  },
+  "REF_4_borromean_cross_seat_custody_and_ow16_v15": {
+    "a2_ow16_v15_audit": {
+      "obs17_internal_G_s12_vs_uv_split_consistent": false,
+      "obs17_quotes_G_s12_t8": true,
+      "producer_reported_uv_12_split": "0.100011121528",
+      "structural_locks_19_and_partition_1_10_9_4_ok": true,
+      "uv_12_split_from_shifted_taur_G_s12_tr": "0.100011146616",
+      "uv_12_split_from_true_tau8_G_s12_t8": "0.104097967505"
+    },
+    "agyexp_834_side_by_side_GL4": {
+      "max_rel_diff_ckm_vs_producer": "6.668060003e-8",
+      "max_rel_diff_pmns_vs_producer": "2.118279397e-6",
+      "passed": false,
+      "strict_CKM_ordered": true
+    },
+    "blind_prediction_lock_v2_sha256": {
+      "claimed": "dc08bd4be0e42ce4b04f354d7ea517c44dd9494e1fef42ada5525fefc22cb2f9",
+      "exact_match": true,
+      "recomputed": "dc08bd4be0e42ce4b04f354d7ea517c44dd9494e1fef42ada5525fefc22cb2f9"
+    },
+    "borromean_quotient_chain": {
+      "composite_det": 16,
+      "j_tau0_err_via_legendre_lambda": "0.0",
+      "passed": true,
+      "tau_0": "2/5 + I/5",
+      "tau_8": "16/5 + 8*I/5",
+      "tau_cusp": "2*I",
+      "tau_sq": "I"
+    },
+    "branch_custody_manifests": {
+      "all_verified": true,
+      "mismatches": [],
+      "total_manifests": 253,
+      "verified_manifests": 253
+    },
+    "chat1_mirror_theorem": {
+      "mirror_S_tilde_err_45dps": "0.0",
+      "passed": true,
+      "sigma_err_45dps": "0.0"
+    },
+    "git_diff_27f5d89fa_to_HEAD": {
+      "non_relay_edits": [],
+      "non_relay_edits_count": 0,
+      "passed": true,
+      "total_changed_files": 123
+    },
+    "physical_32514763f_vs_B4UV_Dterm": {
+      "B4UV_Dterm_bound_tb15": "0.1394887126",
+      "cusp_energy_scaling": "4*eps**5",
+      "passed": true
+    }
+  },
+  "all_referee_gates_passed": false,
+  "discrepancies": [
+    {
+      "domain": "REF-1 / OW26-A (sm_rhs_2loop lines 526, 536)",
+      "id": "DISC-1",
+      "severity": "REAL_PHYSICS_BUG",
+      "summary": "2-loop SM Yukawa non-commuting matrix order swapped: producer wrote (-H_u H_d - 1/4 H_d H_u) Y_u instead of exact MV II / Hermitian-conjugated Luo-Xiao (-1/4 H_u H_d - H_d H_u) Y_u (and analogously in Y_d)."
+    },
+    {
+      "domain": "REF-1 / OW26-A (sm_rhs_2loop line 581)",
+      "id": "DISC-2",
+      "severity": "REAL_PHYSICS_BUG",
+      "summary": "2-loop SM quartic g_1^2 g_2^2 Tr(H_d) sign error: producer has -27/5; exact overdetermined 6x3 MV III gauge-Yukawa trace gives 27/5."
+    },
+    {
+      "domain": "REF-1 / OW26-A (match_mssm_to_sm_and_run_to_mz lines 888-889)",
+      "id": "DISC-3",
+      "quantified_shifts_percent": {
+        "b_tau_mz_pct": "2.2582",
+        "mh_pole_over_mz_pct": "2.6802",
+        "mt_pole_over_v_pct": "1.47248"
+      },
+      "severity": "HIGH_IMPACT_PHYSICS_BUG",
+      "summary": "DR->MS Yukawa scheme conversion sign & factor-of-2 bug: producer wrote (1 - alpha_3/(3 pi) - 3 alpha_2/(16 pi)); exact Martin-Vaughn hep-ph/9308222 Eq. (2.8) is (1 + alpha_3/(3 pi) - 3 alpha_2/(32 pi) + U(1)_Y). Reversed QCD sign shifts B4_UV_MZ_BLIND_LOCK_V2 central m_t^pole/v, m_h^pole/M_Z, and m_b/m_tau by O(1-3%)."
+    },
+    {
+      "domain": "REF-2 / OW26-A,B4,C,D & A2-OW16 v15 OBS-17",
+      "id": "DISC-4",
+      "producer_tr_uv_12_split": "0.100011146616",
+      "severity": "CONVENTION_INDEX_MISMATCH",
+      "summary": "tau_r (= tau_8^+ - 3, T^{-3} swapping theta_3 <-> theta_4) vs tau_8^+ Kahler index mismatch: producer evaluates eval_w_hol_tau at tau_8^+ and quotes G_s12_t8=[1.07020, 0.86840, 1.06140] in OW16 v15 OBS-17, yet passes G_s12_tr=[1.06140, 0.86840, 1.07020] into build_uv_textures(tau_8^+) and fcnc_dilution, making OBS-17 internally inconsistent (true G_s12_t8 UV 1-2 split is 10.41%, IR 1.70%, vs reported 10.00% / 1.63%).",
+      "true_tau8_ir_12_split": "0.0169841837339",
+      "true_tau8_uv_12_split": "0.104097967505"
+    },
+    {
+      "corrected_lnc_YB_flav_zero_init_on_t8": "8.45759901667e-8",
+      "corrected_lnc_YB_flav_zero_init_on_tr": "8.33903249181e-8",
+      "domain": "REF-3 / OW26-C (compute_mssm_boltzmann_leptogenesis line 1739)",
+      "id": "DISC-5",
+      "producer_YB_flav_zero_init": "9.64009437135e-8",
+      "rel_shift_on_tr": "0.1349636",
+      "severity": "REAL_PHYSICS_BUG",
+      "summary": "Flavored MSSM leptogenesis LNC self-energy term t2 has wrong sign (+2/(x_j-1) instead of exact propagator sign 2/(1-x_j) = -2/(x_j-1)). Unflavored sum check flav_sum_err is blind to t2 because sum_alpha Im(H_{1j} H_{j1}) = 0."
+    },
+    {
+      "domain": "REF-1 Layer-1 Numerical Reproduction",
+      "id": "DISC-NUM-1",
+      "severity": "NUMERICAL_DISCREPANCY",
+      "summary": "GL4 vs producer RK4 exceeded 1e-5: 5.2210864e-5"
+    }
+  ],
+  "discrepancies_count": 6,
+  "empirical_firewall": "0 of 19",
+  "hygiene_and_raw_json_audits": {
+    "ow16_v15_raw_json_floats": {
+      "clean": true,
+      "raw_float_token_count": 0,
+      "sample_tokens": []
+    },
+    "ow16_v15_script_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "verify_a2_ow16_v15.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "d8b901f8f836839f8cec1ad910cf24f91ef8d37cd8dffa0069d46ab9b443fc97"
+    },
+    "ow26_v5_raw_json_floats": {
+      "clean": true,
+      "raw_float_token_count": 0,
+      "sample_tokens": []
+    },
+    "ow26_v5_script_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "verify_a2_ow26_v5.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "d3fe5c80dc58843fdb381651733347cd7e329d0178f6077aa603d6f94a484c55"
+    },
+    "referee_script_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "referee_a2_ow26.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "6df482e4396d132a7ed9fef83a7c9b478712a354c7c43959097b36cf9fba389f"
+    }
+  },
+  "layer1_producer_equations_numerically_reproduced": false,
+  "layer2_first_principles_physics_audit_passed": false,
+  "planted_faults": {
+    "PF_REF_1_wrong_2loop_sm_beta_sign_caught": true,
+    "PF_REF_2_broken_haar_nonunitary_caught": true,
+    "PF_REF_3_wrong_e8_vd_normalization_caught": true,
+    "PF_REF_4_wrong_dirac_liouville_weight_e2phi_caught": true,
+    "PF_REF_5_wrong_cp_mirror_no_k5k6_reflection_caught": true,
+    "PF_REF_6_mutated_blind_lock_v2_and_manifest_caught": true
+  },
+  "planted_faults_caught": 6,
+  "planted_faults_total": 6,
+  "referee_id": "A2-OW26-v5-and-A2-OW16-v15-Cold-Room-Zero-Trust-Referee"
+}
