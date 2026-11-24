@@ -1,0 +1,26 @@
+/usr/local/lib/python3.13/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+A1  Vol(4_1): L-function 2.02988321281930725004240510855, Lobachevsky 2.02988321281930725004240510855, SnapPy 2.02988321281930725004240510855
+    holds: True | |L - Lob| = 4.59e-41 | |L - SnapPy| = 4.59e-41
+A2  (M_11 / M_GUT)^3 * alpha * L(Q) = 8*pi**3 | equals (2 pi)^3: True
+A3  C22's coefficient / FW's = 0.5 (C22: 4 pi^3; FW: 8 pi^3)
+    M_11/M_GUT: C22 (L = 40 Vol, 4 pi^3) 3.9386391; FW with C22's L 4.9623743; C37 (L = 8 Vol, (2 pi)^3) 8.4855407
+    C37 / C22 = 2.1544347
+A4  C37 = FW with L = 8 Vol(m004), alpha^-1 = 40: True
+A5  T_M2 = M_11**3/(4*pi**2) | equals M^3/(2 pi)^2: True
+    C37's G_4 equals FW (4.4): True
+    C37's benchmarks: (M_Pl^ISO / M_Pl^SD)^2 = (M_11/M_GUT)^4 = 5184.63, so M_Pl differs by a factor 72.0044
+A6  S_A = 8 pi^2 Q / g^2 = 30.1592894745 = 9.6 pi
+A6  S_B = 8 pi^2 Q / g^2 = 31.4159265359 = 10.0 pi
+A6  S_nu = 8 pi^2 Q / g^2 = 10.0530964915 = 3.2 pi
+    e^(48 pi / 5) is then read as M_GUT / v_EW (C22's docstring). That reading is a dictionary entry.
+A7  cyclic covers of degree 8: 1; (cusps, b_1) = [(1, 1)]; all b_1 >= 1: True
+A7  cyclic covers of degree 40: 1; (cusps, b_1) = [(1, 1)]; all b_1 >= 1: True
+    all covers of degree 2: 1; least b_1 1; least cusps 1
+    all covers of degree 3: 1; least b_1 1; least cusps 1
+    all covers of degree 4: 2; least b_1 1; least cusps 1
+    all covers of degree 5: 4; least b_1 1; least cusps 1
+    all covers of degree 6: 11; least b_1 1; least cusps 1
+    all covers of degree 7: 9; least b_1 1; least cusps 1
+    all covers of degree 8: 10; least b_1 1; least cusps 1
+done
