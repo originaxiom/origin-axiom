@@ -1,0 +1,534 @@
+{
+  "R_PA2_A_custody_ast_and_FL8_F2b": {
+    "agy_b06c8fc1e_missed_c35_dir": {
+      "head": "b06c8fc1e",
+      "json_files": 2,
+      "json_float_tokens": 0,
+      "manifests_matched": 4,
+      "manifests_total": 4,
+      "mismatches": [],
+      "missing_dirs": [],
+      "py_ast_bad": 0,
+      "py_files": 2
+    },
+    "agy_b06c8fc1e_prod_v2_7dir_subset": {
+      "head": "b06c8fc1e",
+      "json_files": 9,
+      "json_float_tokens": 0,
+      "manifests_matched": 23,
+      "manifests_total": 23,
+      "mismatches": [],
+      "missing_dirs": [
+        "relays/agy_2026-11-23_c35"
+      ],
+      "py_ast_bad": 0,
+      "py_files": 14
+    },
+    "agy_b06c8fc1e_true_complete_8dir_c31_c38": {
+      "head": "b06c8fc1e",
+      "json_files": 11,
+      "json_float_tokens": 0,
+      "manifests_matched": 27,
+      "manifests_total": 27,
+      "mismatches": [],
+      "missing_dirs": [],
+      "py_ast_bad": 0,
+      "py_files": 16
+    },
+    "agy_exp_57ad12a6a_custody": {
+      "head": "57ad12a6a",
+      "json_files": 6,
+      "json_float_tokens": 0,
+      "manifests_matched": 12,
+      "manifests_total": 12,
+      "mismatches": [],
+      "missing_dirs": [],
+      "py_ast_bad": 0,
+      "py_files": 6
+    },
+    "catch_FL8_F2b_independent_ast_audit": {
+      "call_hits": [],
+      "code_identifier_hits": [],
+      "confirmed": true,
+      "docstring_claims_fuchsian_liouville": true,
+      "uv_yb0_ytau0_over_yt0_ast_lines": [
+        510,
+        511
+      ]
+    },
+    "frozen_v1_manifests": {
+      "details": {
+        "OUTPUT_SHA256.txt": true,
+        "SCRIPT_SHA256.txt": true
+      },
+      "matched": 2,
+      "total": 2
+    },
+    "internal_gate_passed": true,
+    "producer_v2_ast_hygiene": {
+      "binary64_casts": 0,
+      "clean": true,
+      "float_complex_literals": 0,
+      "forbidden_imports": 0
+    },
+    "producer_v2_json_float_tokens": 0,
+    "producer_v2_manifests": {
+      "details": {
+        "OUTPUT_SHA256.txt": true,
+        "SCRIPT_SHA256.txt": true
+      },
+      "matched": 2,
+      "total": 2
+    },
+    "rpf1_tamper_caught": true,
+    "unchanged_peer_heads": {
+      "chat1": "f25ec9069",
+      "cld_advisor": "fbc4764bb",
+      "main": "279459977",
+      "physical": "32514763f",
+      "sm": "c9296d14a"
+    }
+  },
+  "R_PA2_B_cl10_32x32_and_bourbaki_e8_bfs": {
+    "bourbaki_e8_weyl_bfs": {
+      "d5_adams_reflection_even_5_10": [
+        3,
+        4
+      ],
+      "highest_root": [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "hu_hd_perp_dims_FL8_F7": [
+        10,
+        10
+      ],
+      "qx_16_and_10": [
+        [
+          -3,
+          1,
+          5
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "root_count": 240,
+      "spin10_x_su4_dims": [
+        15,
+        45,
+        60,
+        64,
+        64
+      ],
+      "su5_gut_x_su5_perp_dims": [
+        24,
+        24,
+        50,
+        50,
+        50,
+        50
+      ],
+      "z2_matter_parity_16_10_dim4_rpv": [
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    "cl10_32x32_identities_and_nondiag_verified": true,
+    "internal_gate_passed": true,
+    "matches_producer_v2": true,
+    "rpf2_bad_n10_and_F6_caught": true,
+    "sadov_kmt_FL8_F1": {
+      "F6_forces_n16": -2,
+      "a_dot_b": "2 - n16",
+      "adjunction_2g_minus_2": -2,
+      "b_dot_b": "n16 - 4",
+      "pure_6d_su4_su5_adX4_coeffs": {
+        "SU(4)_pure_SYM_trF4_coeff": 8,
+        "SU(5)_pure_SYM_trF4_coeff": 10
+      },
+      "pure_6d_su4_su5_nondiag_ok": true,
+      "single_base_n5_nT": [
+        6,
+        7
+      ],
+      "true_k_n16_0_2": [
+        4,
+        2
+      ]
+    }
+  },
+  "R_PA2_C_wirtinger_cl10_centralizers_crt_jtheta": {
+    "8_3_4_wirtinger_rs_H1_cusps": [
+      3,
+      [],
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "D5_aut_inn_out": [
+      20,
+      10,
+      2
+    ],
+    "K5_unique_RL_invariant": [
+      1,
+      2
+    ],
+    "affine_e8_order8_min_det": [
+      20,
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "cl10_16plus_ps_split_and_4_sm_anomalies_zero": [
+      [
+        8,
+        8
+      ],
+      true,
+      [
+        -3,
+        -3,
+        3,
+        3
+      ]
+    ],
+    "cl10_32x32_spinor_centralizers": [
+      21,
+      25,
+      13,
+      12
+    ],
+    "crt_E2xE3_FL8_F3": {
+      "AB_setwise_sym_anchored_33_count": 2,
+      "K6_minus_preserved_MRL_M2": [
+        false,
+        false
+      ],
+      "K6_plus_preserved_MRL_M2": [
+        false,
+        false
+      ],
+      "S_exchanges_K6p_K6m": true,
+      "primitives": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      ],
+      "total_order6_subgroups": 12
+    },
+    "internal_gate_passed": true,
+    "jtheta_deltaZ_2i_tau8": [
+      "-0.000180171234122",
+      "0.00131920921887"
+    ],
+    "jtheta_vs_triple_max_diff": "2.91774e-15",
+    "m000_double_covers_and_monodromy_sq": [
+      1,
+      true
+    ],
+    "m004_wirtinger_surjections_le12": {
+      "A_4": 24,
+      "D_4": 0,
+      "D_5": 20,
+      "D_6": 0,
+      "Dic_3": 0,
+      "Q_8": 0,
+      "S_3": 0
+    },
+    "matches_producer_v2": true,
+    "rpf3_S_swap_and_tr4_S3_caught": true
+  },
+  "R_PA2_D_jtheta_whol_real6_takagi_kutta38": {
+    "FL8_F2_real6_eigsy_takagi_and_SU2L_haar": {
+      "L8_broken_true_SU2L_haar_violation": "0.77320934",
+      "L8_broken_ueH_conj_ut_repro": [
+        "0.13553429",
+        "0.39055521",
+        "0.13739512"
+      ],
+      "L8_broken_vs_peer_json_diff": "4.16046e-7",
+      "L8_relay_takagi_diagnosis_refuted": true,
+      "fixing_only_vh_transpose_shift": "3.8487812e-49",
+      "max_diff_vs_prodv2_true_pmns": "5.30352e-7",
+      "takagi_real6_residual": "1.12059e-51",
+      "takagi_real6_unitarity_err": "5.98699e-49",
+      "true_SU2L_10trial_haar_err": "6.5771394e-47",
+      "true_pmns_s12_s23_s13_dm_from_g_k38": [
+        "0.3712558",
+        "0.57048568",
+        "0.12501126",
+        "0.01328905"
+      ]
+    },
+    "FL8_F4_kutta38_racetrack_and_split_susy": {
+      "cH_crit_and_tanb_diffs_vs_L8": [
+        "9.51188e-10",
+        "3.55076e-9"
+      ],
+      "cH_crit_and_tanb_from_g_k38": [
+        "0.589821387738",
+        "1.69214959385"
+      ],
+      "kutta38_jack_jones_and_fmm_errs": [
+        "4.13061e-20",
+        "1.71057e-49"
+      ],
+      "mh_over_v_table": {
+        "dt_SM_-3": {
+          "abs_diff_diag4x_vs_ProdV2": "5.69406e-10",
+          "abs_diff_true2x_vs_ProdV2": "0.00179645",
+          "mh_over_v_L8_raw_kutta38": "0.341256165",
+          "mh_over_v_diag_4x_matching_ProdV2": "0.3501753845",
+          "mh_over_v_true_2x_SplitSUSY_GR": "0.3519718326",
+          "mh_over_v_true_2x_heavy_higgsinos_decoupled": "0.3399896832",
+          "prod_v2_reported_4x_SplitSUSY_GR": "0.3501753851",
+          "rel_shift_true2x_vs_L8": "0.0314007"
+        },
+        "dt_SM_-4": {
+          "abs_diff_diag4x_vs_ProdV2": "6.5877e-10",
+          "abs_diff_true2x_vs_ProdV2": "0.00160241",
+          "mh_over_v_L8_raw_kutta38": "0.3717123294",
+          "mh_over_v_diag_4x_matching_ProdV2": "0.377365623",
+          "mh_over_v_true_2x_SplitSUSY_GR": "0.3789680343",
+          "mh_over_v_true_2x_heavy_higgsinos_decoupled": "0.3706164512",
+          "prod_v2_reported_4x_SplitSUSY_GR": "0.3773656237",
+          "rel_shift_true2x_vs_L8": "0.0195197"
+        },
+        "dt_SM_-5": {
+          "abs_diff_diag4x_vs_ProdV2": "6.37164e-10",
+          "abs_diff_true2x_vs_ProdV2": "0.00141248",
+          "mh_over_v_L8_raw_kutta38": "0.4057269618",
+          "mh_over_v_diag_4x_matching_ProdV2": "0.4082480551",
+          "mh_over_v_true_2x_SplitSUSY_GR": "0.4096605376",
+          "mh_over_v_true_2x_heavy_higgsinos_decoupled": "0.4048265033",
+          "prod_v2_reported_4x_SplitSUSY_GR": "0.4082480557",
+          "rel_shift_true2x_vs_L8": "0.00969513"
+        }
+      },
+      "pure_SYM_45_s_and_54_s_agut": [
+        "-0.23676266",
+        "0.23676266",
+        "1.1838133"
+      ],
+      "racetrack_diffs_vs_L7": [
+        "1.6111421e-23",
+        "4.615784e-21"
+      ],
+      "racetrack_s_star_agut_M0": [
+        "6.03874016482",
+        "30.1937008241",
+        "-0.00618616711546"
+      ],
+      "stop_threshold_L8_1x_vs_TRUE_2x_vs_ProdV2_4x": [
+        "-0.00039745097",
+        "-0.00079490194",
+        "-0.0015898039"
+      ],
+      "sympy_stop_threshold_and_split_susy_proof": {
+        "cw_exact_equals_3_over_8pi2_ln_mstop_over_mu": true,
+        "matching_scale_invar_resid_L8_1x_nonzero": "3*yt**4/(16*pi**2)",
+        "matching_scale_invar_resid_ProdV2_4x_nonzero": "-3*yt**4/(8*pi**2)",
+        "matching_scale_invar_resid_true_2x_is_zero": true,
+        "split_susy_box_and_gammaH_blocks_exact": true
+      }
+    },
+    "FL8_F5_mirror_cpt_and_YB_sign": {
+      "F7_2_docstring_positive_YB_contradicted": true,
+      "curved_J_over_YB_mirror_diff": "5.4606699e-73",
+      "curved_YB_proxy_tau8_pos": "-5.27174236141e-5",
+      "flat_J_over_YB_mirror_diff": "1.4161804e-74",
+      "flat_YB_proxy_tau8_pos": "-5.08186806602e-5"
+    },
+    "FL8_F6_bp_and_shannon_bits": {
+      "cy4_r8_bp_log10_spacing": "-268.72964",
+      "diffs_vs_prodv2": [
+        "7.37394e-7",
+        "4.24047e-6"
+      ],
+      "shannon_bits_129_decades": "428.52872"
+    },
+    "internal_gate_passed": true,
+    "kutta38_dirac_gramian_n12_n14": [
+      "1.070204082",
+      "0.8683973497",
+      "1.061398569"
+    ],
+    "kutta38_internal_conv_n10n12_vs_n12n14": "8.8825e-6",
+    "kutta38_vs_peer_and_prodv2_gramian_diffs": [
+      "1.46647e-6",
+      "4.99993e-6"
+    ],
+    "rpf4_haar_stopscale_wrongdir_caught": true
+  },
+  "R_PA2_E_lobachevsky_fw_kutta38_cl10_chi": {
+    "6d_I8_grav_anomaly_n16_0_n10_2_n1_269_zero": true,
+    "c37_e3_eps1_cancel_sym_and_frob_err": [
+      true,
+      "4.2383749e-52"
+    ],
+    "c38_b4_sympy_and_max_diff": [
+      true,
+      "3.6609287e-36"
+    ],
+    "cl10_16plus_6_u1chi_anomalies_zero": true,
+    "dirac_11d_quantization_exact": true,
+    "explicit_dflat_STr_M2_Zchi_zero": true,
+    "internal_gate_passed": true,
+    "lambda_qcd_5f_rel_diff_and_kutta38_rg_invar": [
+      "7.2340292e-11",
+      "2.6892687e-18"
+    ],
+    "m11_free_FW_mpl_sd_and_iso_rel_diffs": [
+      "2.9029079e-12",
+      "5.710478e-12"
+    ],
+    "m11_over_mgut_abs_diff_vs_v7": "2.8552509e-30",
+    "matches_producer_v2": true,
+    "ow22_F1_F3": {
+      "Beff_T2_SS": "0.558242669",
+      "Beff_lt_3_over_5": true,
+      "Hom_Z2_Z2_nontriv": 3,
+      "a1_table": {
+        "B4_IR_49_12": "37/2",
+        "B4_UV_52_13": "39/2",
+        "B5_13vec_85_13": "36",
+        "B5_IR_85_12": "73/2",
+        "B5_UV_E6_85_14": "71/2"
+      }
+    },
+    "rpf5_drop_nuc_and_c35_quant_caught": true,
+    "seam_AGY_C37_S1": {
+      "Gamma_tau_over_H_sd_vs_iso": [
+        "13.229536",
+        "952.58482"
+      ],
+      "K1_sd_vs_iso": [
+        "388.82013",
+        "27996.76"
+      ],
+      "Y_B_sd_vs_iso_estimate": [
+        "9.6169692e-10",
+        "6.737546e-12"
+      ],
+      "mpl_iso_over_sd_ratio": "72.00440041",
+      "washout_drop_R_29_25": "142.73697"
+    },
+    "vol_m004_lobachevsky_quad_vs_polylog_diff": "9.62195e-50"
+  },
+  "R_PA2_F_cross_seat_table_and_lock_v3": {
+    "agy002_source_fields_exact_match": true,
+    "agy_exp_dtSM_m4_mh_over_v_ProdV2_4x_vs_Referee_True2x": [
+      "0.3773656237",
+      "0.3789680343"
+    ],
+    "agy_exp_raw_source_fields_exact_match": true,
+    "agy_v7_source_fields_exact_match": true,
+    "internal_gate_passed": true,
+    "lock_v3_canonical_sha256_recomputed": "ce81cddd9d056a54fafa6b30d431073ae1af75399a1d82918f4e074f0bd98a2a",
+    "lock_v3_intact": true,
+    "rpf6_lock_v3_tamper_caught": true
+  },
+  "R_planted_controls": {
+    "all_caught": true,
+    "caught": 6,
+    "controls": {
+      "RPF1_manifest_1byte_tamper_caught": true,
+      "RPF2_cl10_bad_n10_and_F6_caught": true,
+      "RPF3_crt_S_swap_and_tr4_S3_caught": true,
+      "RPF4_haar_stopscale_wrongdir_caught": true,
+      "RPF5_cl10_drop_nuc_and_c35_quant_caught": true,
+      "RPF6_lock_v3_mutation_caught": true
+    },
+    "total": 6
+  },
+  "all_referee_gates_passed": false,
+  "audited_producer": "relays/a2_peer_audit_v2_run2/verify_a2_peer_audit_v2_run2.py",
+  "audited_producer_json": "relays/a2_peer_audit_v2_run2/a2_peer_audit_v2_run2_results.json",
+  "card": "AGY-002_A2-PEER-AUDIT-V2",
+  "discrepancies": [
+    {
+      "block": "PA2-A",
+      "id": "DISC-PA2-1",
+      "location": "relays/a2_peer_audit_v2_run2/verify_a2_peer_audit_v2_run2.py:302",
+      "producer_claim": "Claimed full AGY-C31..C38 custody audit with 23/23 manifests, 14 .py files, 9 .json files.",
+      "referee_finding": "Typo 'relays/agy_2026-11-23_c35' silently returned empty git ls-tree, omitting the entire relays/agy_2026-11-22_c35/ directory (4 manifest entries, 2 .py files, 2 .json files: c35_out.json & blind_predictions_full_toe_v6.json). True AGY-C31..C38 totals on b06c8fc1e are 27/27 manifests, 16 .py files, 11 .json files (all 4/4 C35 manifests pass with 0 floats).",
+      "severity": "REAL_DISCREPANCY"
+    },
+    {
+      "block": "PA2-D (and propagated to PA2-F table)",
+      "id": "DISC-PA2-2",
+      "location": "relays/a2_peer_audit_v2_run2/verify_a2_peer_audit_v2_run2.py:1484 (and Scope Card line 36)",
+      "producer_claim": "Claimed exact 1-loop stop threshold in V = lambda |H|^4 (m_h^2 = 2 lambda v^2) is dlam_exact = 4 * dlam_l8 = 3 y_t^4 / (4 pi^2) ln(m_stop / m_32) = -0.0015898039, yielding mh/v(dt_SM=-4) = 0.3773656237.",
+      "referee_finding": "Factor-of-2 convention mix-up: 3/(4 pi^2) ln(m_stop/mu) belongs to V = (lambda/2) |H|^4 (m_h^2 = lambda v^2). In Producer v2's SM convention V = lambda |H|^4 (m_h^2 = 2 lambda v^2, beta_lam^top = -6 y_t^4 / (16 pi^2)), exact 1-loop Coleman-Weinberg AND 1-loop matching-scale invariance d(lam_IR)/d(ln mu_match) == 0 uniquely require Delta lambda_std = 3 y_t^4 / (8 pi^2) ln(m_stop / m_32) = 2 * dlam_l8 = -0.00079490194 (NOT 4x!). L8_5 (3/(16 pi^2)) was too small by 2x; Producer v2 (3/(4 pi^2)) overcorrected by 2x, shifting mh/v down by ~0.0017964 across dt_SM in {-3,-4,-5} (true 2x mh/v at dt_SM=-3,-4,-5: 0.3519718326, 0.3789680343, 0.4096605376). When given Producer v2's 4x formula, disjoint Kutta-3/8 matches Producer v2's GL4 to 6.5877e-10, proving the discrepancy is purely the 2x analytic formula error.",
+      "severity": "REAL_DISCREPANCY"
+    }
+  ],
+  "discrepancies_count": 2,
+  "firewall": "0 of 19",
+  "non_blocking_diagnostics": [
+    {
+      "block": "Global (Guardrail 2 style)",
+      "id": "NBD-PA2-3",
+      "location": "relays/a2_peer_audit_v2_run2/verify_a2_peer_audit_v2_run2.py:1862",
+      "summary": "Producer v2 assigned literal integer 6 to planted_controls_caught (though gated by all_ok raising AssertionError if any pfX_caught is False); dynamic sum is preferred under Guardrail 2."
+    },
+    {
+      "block": "PA2-D",
+      "id": "NBD-PA2-1",
+      "location": "relays/a2_peer_audit_v2_run2/verify_a2_peer_audit_v2_run2.py:1194",
+      "summary": "Producer v2 imported g_peer from peer L8 JSON into kis for ang_true/yb0/ytau0 (while separately cross-checking g_rk4 vs g_peer to 5.71e-6). Referee ran 100% self-contained Kutta-3/8 Dirac Gramian g_k38 (n_th=12, n_t=14; internal conv 8.8825e-6, diff vs peer 1.4665e-6) through the entire W_hol -> Takagi -> RGE pipeline; max drift on true PMNS is 5.3035e-7 and on L8_5 raw mh/v is 7.5125e-10."
+    },
+    {
+      "block": "PA2-E",
+      "id": "NBD-PA2-2",
+      "location": "relays/a2_peer_audit_v2_run2/verify_a2_peer_audit_v2_run2.py:1598-1754",
+      "summary": "Scope Card PA2-E listed 6D I_8 gravity check (n_16=0, n_10=2, n_1=269), STr M_{Z'_chi}^2 == 0, and Lambda_QCD^(4f); Producer v2 omitted explicit output for these 3 sub-checks (computing Lambda_QCD^(5f) only). Referee independently verified 6D I_8 grav resid == 0 (289 - 45 + 29 == 273) and explicit D-flat STr M_{Z'_chi}^2 == 0 alongside Lambda_QCD^(5f)."
+    }
+  ],
+  "referee_id": "A2-PEER-AUDIT-V2-Disjoint-Cold-Room-Zero-Trust-Referee",
+  "referee_internal_self_gates_passed": true,
+  "script": "referee_a2_peer_audit_v2_run3.py",
+  "script_sha256": "662f215b040366c41813d2e015a74fc71e4e37e9fd95f2e5628c6af8894d3744",
+  "seat": "agy-002",
+  "self_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  }
+}
