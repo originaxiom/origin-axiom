@@ -1,0 +1,1 @@
+983dc1b2f4afba3ad0cb526bb1706565979e5f4feee1007a396ad925ff903940  relays/a2_ow27_referee_v3/referee_a2_ow27_v3.py
