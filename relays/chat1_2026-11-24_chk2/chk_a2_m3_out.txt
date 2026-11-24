@@ -1,0 +1,4 @@
+M3-a  random trials 240000, violations 0, least margin 4.247e-03 at (t, s_L, a, rho, F) = (0.005886, 0.560245, 0.211379, 0.004282, 3.4e-05)
+M3-b  adversarial starts 400, starts ending in a violation 0, least margin 2.210e-15 at (rho, F, t, s_L, a) = (0.0, 0.0, 0.0, 0.328947, 0.199232)
+M3-c  least margin overall 2.210e-15
+done
