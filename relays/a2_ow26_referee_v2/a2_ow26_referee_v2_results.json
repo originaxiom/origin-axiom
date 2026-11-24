@@ -1,0 +1,404 @@
+{
+  "REF_1_2loop_sm_mssm_gl4_and_first_principles_audits": {
+    "audit_v7_2_higgs_pole_1loop_top_rg_invariance": {
+      "cim_kH1min_m0_3v_mh_pole_exact_over_mz": "1.33420467541",
+      "exact_mh_pole_over_v_at_MZ_vs_mt": [
+        "0.6252260258",
+        "0.6481267472"
+      ],
+      "exact_scale_drift_rel": "0.035333708",
+      "m0_10v_mh_pole_exact_over_mz": "1.64471960812",
+      "m0_3v_mh_pole_exact_over_mz": "1.45750404053",
+      "mu_mt_over_MZ_central_10v": "2.331090019",
+      "v7_mh_pole_over_v_at_MZ_vs_mt": [
+        "0.7246871369",
+        "0.6338167336"
+      ],
+      "v7_scale_drift_rel": "0.1253926"
+    },
+    "fcnc_dilution_true_tau8": {
+      "CURV_s0_true_tau8_uv_ir_dilution": [
+        "0.29564259512",
+        "0.0482357943716",
+        "6.12911218674"
+      ],
+      "CURV_s12_true_tau8_uv_ir_dilution": [
+        "0.104097967514",
+        "0.0169841837353",
+        "6.12911218674"
+      ],
+      "layer1_t8_vs_v7_max_rel_diff": "1.681353406e-7"
+    },
+    "first_principles_sm_and_dr_ms_audits": {
+      "audit_v7_2_exact_1loop_top_mh_pole_rg_residual": "0",
+      "audit_v7_2_v7_mh_pole_is_1loop_top_rg_invariant": false,
+      "audit_v7_2_v7_mh_pole_rg_residual": "3*yt**2*(lam - 2*yt**2)/(8*pi**2)",
+      "b1_sm": [
+        "41/10",
+        "-19/6",
+        "-7"
+      ],
+      "b2_sm_diag": [
+        "199/50",
+        "35/6",
+        "-26"
+      ],
+      "c_af_exact": true,
+      "delta_2hdm_to_sm_g1_4": [
+        "2/15",
+        "7/300",
+        "39/100"
+      ],
+      "disc1_mv2_8x8_exact_and_v7_fixed": true,
+      "disc2_exact_d_g14_trd_coeff": "9/10",
+      "disc2_exact_d_g1sq_g2sq_trd_coeff": "27/5",
+      "disc2_mv3_6x3_solution": {
+        "ca": "-4",
+        "cb": "-20",
+        "cc": "0"
+      },
+      "disc2_v7_fixed": true,
+      "disc3_exact_mv9308222_dr_to_ms_coeffs_over_pi": {
+        "d_alpha1": "-13/480",
+        "e_alpha1": "9/160",
+        "lepton_alpha2": "-3/32",
+        "quark_alpha2": "-3/32",
+        "quark_alpha3": "1/3",
+        "u_alpha1": "-1/480"
+      },
+      "disc3_v7_fixed": true,
+      "gamma_s2_yu4_and_yu2yd2": [
+        "-27/4",
+        "3/2"
+      ],
+      "group_theory_and_o4_exact": true,
+      "o4_scalar_b1_b2": [
+        "12",
+        "-78"
+      ]
+    },
+    "guardrail3_10trial_haar_U3_5_end_to_end_GL4_matched_err": "2.475618739e-22",
+    "haar_generator": "Xorshift64* + complex Householder QR (Mezzadri, matched GL4 step count)",
+    "integrator": "2-stage implicit Gauss-Legendre GL4 (O(h^4), symplectic, A-stable)",
+    "layer1_10_standard_run_diffs": {
+      "CURV_s0_ScalarLegacy_yt_gUV_tb15_m0_10v_sgnMu_neg": "1.883570958e-7",
+      "CURV_s0_ScalarLegacy_yt_gUV_tb15_m0_10v_sgnMu_pos": "1.883556414e-7",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_10v_sgnMu_neg": "7.003547557e-8",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_10v_sgnMu_pos": "7.003520682e-8",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_30v_sgnMu_neg": "7.003576651e-8",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_30v_sgnMu_pos": "7.003452434e-8",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_3v_sgnMu_neg": "7.003773269e-8",
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_3v_sgnMu_pos": "7.003595152e-8",
+      "FLAT_yt_gUV_tb15_m0_10v_sgnMu_neg": "2.193085836e-8",
+      "FLAT_yt_gUV_tb15_m0_10v_sgnMu_pos": "2.193085836e-8"
+    },
+    "layer1_3_sugra_diffs": {
+      "aUVinv23_SUGRA_MKK_m0_10v": "4.457464542e-7",
+      "aUVinv24_SUGRA_MKK_m0_10v": "6.564819502e-8",
+      "aUVinv25_SUGRA_MKK_m0_10v": "2.749360908e-8"
+    },
+    "layer1_4_cim_M16_diffs": {
+      "CURV_s12_CIM_M16_kH1min_m0_10v": "5.707730143e-9",
+      "CURV_s12_CIM_M16_kH1min_m0_3v": "3.910582016e-9",
+      "CURV_s12_CIM_M16_kH2max_m0_10v": "5.642699705e-9",
+      "CURV_s12_CIM_M16_kH2max_m0_3v": "3.858238483e-9"
+    },
+    "layer1_gl4_vs_v7_max_rel_diff_all_17_runs": "4.457464542e-7"
+  },
+  "REF_2_e8_cim_and_dirac_liouville": {
+    "Dirac_s12_Liouville_GL8_GL6": {
+      "G_s12_dirac_unit_mean_t8": [
+        "1.07020250284",
+        "0.868398118356",
+        "1.0613993788"
+      ],
+      "G_s12_dirac_unit_mean_tr": [
+        "1.0613993788",
+        "0.868398118356",
+        "1.07020250284"
+      ],
+      "G_s12_t8_max_diff_vs_producer": "2.462850065e-8",
+      "K_s0_scalar_t8": [
+        "1.39930413004",
+        "0.760711502839",
+        "1.36516558959"
+      ],
+      "K_s0_scalar_tr": [
+        "1.36516558959",
+        "0.760711502839",
+        "1.39930413004"
+      ],
+      "K_s0_t8_max_diff_vs_producer": "2.37325024e-7",
+      "K_s0_tr_max_diff_vs_producer": "2.37325024e-7",
+      "bc_star_tau8": "0.62640452273241",
+      "c_star_im": "0.004008433410496073",
+      "c_star_re": "-1.608577465379429",
+      "gauss_bonnet_area_over_2pi": "0.999999867075",
+      "gauss_bonnet_err": "1.329254413e-7",
+      "im_tr_TaTb_independent_check": "7.622842285e-15",
+      "ode_method": "4-stage GL8 (c_* & z2_evenness step_frac=1/12) & 3-stage GL6 (rays) with e_3-based wp(z) and 2-trace Newton",
+      "passed": false,
+      "s12_coarse_vs_fine_err": "7.136141322e-6",
+      "symplectic_det_err": "1.504654564e-36",
+      "tr_comm_err": "9.673211247e-16",
+      "weyl_6D_identity_ok": true,
+      "z2_evenness_err": "2.033658916e-12"
+    },
+    "E8_240root_clebsch": {
+      "VF_plus_VD_eq_VYM_y_root_sq_over_g2": "1",
+      "actual_SU5_vis_highest_dynkin_by_z5_sector": {
+        "q_1_over_5": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "q_2_over_5": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "q_3_over_5": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "q_4_over_5": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "dn_10_5bar_5barH_ordered_triplets": 600,
+      "hid_A4_roots": 20,
+      "passed": true,
+      "total_roots": 240,
+      "up_10_10_5H_ordered_triplets": 600,
+      "vis_A4_roots": 20
+    },
+    "M8_CIM_2D_GaussLegendre": {
+      "Z2_odd_3x3_Gram_err": "4.748144783e-17",
+      "all_9_Higgs_SVDs_max_diff_vs_producer": "4.231610944e-13",
+      "odd_odd_even_112_GL2D_vs_analytic_err": "7.68060913e-16",
+      "passed": true,
+      "quadrature_rule": "Composite 2D Gauss-Legendre (7x7 cells x 9x9 Newton-Raphson Legendre nodes, coprime to M=8,16)",
+      "raw_112_GL2D_vs_analytic_err": "4.078249335e-23",
+      "yt_over_gUV_max": "0.96321181156",
+      "yt_over_gUV_min_nonzero": "0.634960631884"
+    }
+  },
+  "REF_3_sequential_seesaw_gl4_boltzmann_lsp_proton": {
+    "audit_v7_1_consistent_reduced_MPl_boltzmann_gl4": {
+      "CP_odd_err_consistent_red_MPl": "1.633655029e-33",
+      "K_flav_consistent_red_MPl": [
+        "6.77888136235",
+        "22.0404665614",
+        "201.237922343"
+      ],
+      "K_tot_consistent_red_MPl": "230.057270267",
+      "Y_B_flavored_thermal_init_consistent_red_MPl": "1.74611961276e-8",
+      "Y_B_flavored_zero_init_consistent_red_MPl": "1.73943108423e-8",
+      "Y_B_unflavored_consistent_red_MPl": "3.81789775989e-9",
+      "hubble_prefactor_unred_over_red_exact": "2*sqrt(2)*sqrt(pi)",
+      "rel_shift_vs_v7": "0.7943351067",
+      "tau8_plus_still_YB_gt_0_selected": true
+    },
+    "boltzmann_method": "2-stage implicit Gauss-Legendre GL4 (N=400 vs 800 + O(h^4) Richardson)",
+    "d6_proton_ratios_max_rel_diff": "2.845884492e-12",
+    "dirac_vs_superpotential_CP_branch_invariance_err": "9.17603005e-26",
+    "guardrail3_10trial_haar_U3_5_x_U3_N_matched_err": "3.030992924e-25",
+    "layer1_boltzmann_gl4_vs_v7_radau": {
+      "CP_odd_YB_plus_plus_YB_minus_err": "7.923396162e-33",
+      "K_tot": "45.8897860116",
+      "Y_B_flav_rel_diff_vs_v7_radau": "6.597154182e-8",
+      "Y_B_flavored_thermal_init_gl4": "1.26449516044e-7",
+      "Y_B_flavored_zero_init_gl4": "8.45759901666e-8",
+      "Y_B_gl4_step_halving_rel_err": "1.327613269e-6",
+      "Y_B_s0_flav_rel_diff_vs_v7_radau": "9.979129603e-8",
+      "Y_B_s0_flavored_zero_init_gl4": "7.4284580301e-8",
+      "Y_B_unflav_rel_diff_vs_v7_radau": "2.941462192e-7",
+      "Y_B_unflavored_gl4": "2.39127829853e-8",
+      "eps_tot": "-0.00378004175145",
+      "flav_sum_err": "0.0"
+    },
+    "layer1_seq_seesaw_s0_pmns_max_rel_diff": "1.817559178e-7",
+    "layer1_seq_seesaw_s12_pmns_max_rel_diff": "7.310858967e-8",
+    "lsp_gl4_vs_v7_max_rel_diff": "1.765761545e-8",
+    "lsp_neutral_bino_count_out_of_12": 12,
+    "s12_vs_s0_true_tau8_s12sq_shift": {
+      "s0_scalar_t8_s12sq": "0.382403778953",
+      "s12_dirac_t8_s12sq": "0.67080571629"
+    },
+    "takagi_method": "Real 6x6 symmetric block eigensolver [[Re M, Im M], [Im M, -Re M]]",
+    "weisskopf_wigner_independent_LNC_proof": {
+      "eigenvector_residual": "1.2682359e-25",
+      "exact_same_sign_LNV_LNC_rel_err": "5.400000144e-14",
+      "passed": false,
+      "wrong_opposite_LNC_sign_rel_err": "5.5"
+    }
+  },
+  "REF_4_borromean_cross_seat_custody_and_ow16_v17": {
+    "a2_ow16_v17_audit": {
+      "all_structural_and_internal_checks_ok": true,
+      "historical_false_flag_count_independent": 45,
+      "historical_false_flag_exact_set_match_45": true,
+      "ir_12_split_true_tau8_G_s12_t8": "0.0169841837353",
+      "obs17_true_tau8_G_s12_vs_FCNC_consistent": true,
+      "uv_12_split_true_tau8_G_s12_t8": "0.104097967514",
+      "uv_12_split_true_tau8_K_s0_t8": "0.29564259512"
+    },
+    "agyexp_834_faithful_side_by_side_GL4": {
+      "gl4_pmns_s12_s23_s13_dm": [
+        "0.3730992886",
+        "0.5733818286",
+        "0.1255855251",
+        "0.01328561846"
+      ],
+      "max_rel_diff_ckm_vs_producer": "1.04812626e-7",
+      "max_rel_diff_pmns_vs_producer": "2.168105111e-8",
+      "passed": true,
+      "strict_CKM_ordered": true
+    },
+    "blind_prediction_lock_v2_sha256": {
+      "claimed": "8c4c9d2ddf1179f47a4e703514af883add6e7d13b4a996167faa96bae31f7c32",
+      "exact_match": true,
+      "recomputed": "8c4c9d2ddf1179f47a4e703514af883add6e7d13b4a996167faa96bae31f7c32"
+    },
+    "borromean_quotient_chain": {
+      "Phi0_ok": true,
+      "Phi2b_ok": true,
+      "composite_det": 16,
+      "j_tau0_err_via_legendre_lambda": "0.0",
+      "passed": true,
+      "tau_0": "2/5 + I/5",
+      "tau_8": "16/5 + 8*I/5",
+      "tau_cusp": "2*I",
+      "tau_sq": "I"
+    },
+    "branch_custody_manifests": {
+      "all_verified": true,
+      "mismatches": [],
+      "total_manifests": 263,
+      "verified_manifests": 263
+    },
+    "chat1_mirror_theorem": {
+      "mirror_S_tilde_err_45dps": "0.0",
+      "passed": true,
+      "sigma_err_45dps": "0.0"
+    },
+    "git_diff_27f5d89fa_to_HEAD": {
+      "non_relay_edits": [],
+      "non_relay_edits_count": 0,
+      "passed": true,
+      "total_changed_files": 143
+    },
+    "physical_32514763f_vs_B4UV_Dterm": {
+      "B4UV_Dterm_bound_tb15": "0.1394887126",
+      "cusp_energy_scaling": "4*eps**5",
+      "passed": true
+    }
+  },
+  "all_referee_gates_passed": false,
+  "discrepancies": [
+    {
+      "domain": "REF-3 / OW26-C",
+      "id": "REG-DISC-5",
+      "severity": "REAL_PHYSICS_BUG",
+      "summary": "DISC-5 Boltzmann LNC/Radau regression: yb_rel_diff=6.5971542e-8."
+    },
+    {
+      "consistent_reduced_MPl_K_tot": "230.057270267",
+      "consistent_reduced_MPl_Y_B_flavored_zero_init": "1.73943108423e-8",
+      "consistent_reduced_MPl_Y_B_unflavored": "3.81789775989e-9",
+      "domain": "REF-3 / OW26-C (compute_mssm_boltzmann_leptogenesis lines 1898-1900 & 2566)",
+      "exact_hubble_prefactor_ratio_sympy": "2*sqrt(2)*sqrt(pi)",
+      "id": "DISC-V7-1",
+      "relative_shift_in_Y_B": "0.79433511",
+      "severity": "HIGH_IMPACT_PHYSICS_BUG",
+      "summary": "Reduced vs unreduced Planck mass sqrt(8 pi) = 5.01325655x convention mismatch in OW26-C Boltzmann washout K_flav: OW23-C (S = (1/2) R_7, H_inf^2 = V/3) and OW26-B3 (m_{3/2} = Lambda^3 / (sqrt(3) M_{P,red}^2)) define mkk_over_mpl = 0.0393951414955 as M_KK / M_{P,red} (M_{P,red} = (8 pi G_N)^{-1/2}), whereas OW26-C passes that exact same ratio into H(M_1) = sqrt(4 pi^3 g_* / 45) M_1^2 / M_{Pl,unred} (which requires unreduced M_{Pl,unred} = sqrt(8 pi) M_{P,red}). Using consistent reduced-Planck Hubble H(M_1) = sqrt(pi^2 g_* / 90) M_1^2 / M_{P,red} multiplies K_flav and K_tot by exact sqrt(8 pi) (45.89 -> 230.06) and reduces Y_B in B4_UV_MZ_BLIND_LOCK_V2 by ~85% (tau8_plus remains Y_B > 0 selected).",
+      "tau8_plus_still_YB_gt_0_selected": true,
+      "v7_K_tot": "45.8897867074",
+      "v7_Y_B_flavored_zero_init": "8.4575984587e-8"
+    },
+    {
+      "cim_kH1min_m0_3v_rel_shift": "0.076151519",
+      "cim_kH1min_m0_3v_v7_vs_exact_mh_pole_over_mz": [
+        "1.444181273",
+        "1.334204675"
+      ],
+      "domain": "REF-1 / OW26-A (match_mssm_to_sm_and_run_to_mz line 1083)",
+      "exact_1loop_top_rg_residual": "0",
+      "exact_scale_drift_mu_MZ_vs_mt_rel": "0.035333708",
+      "id": "DISC-V7-2",
+      "m0_10v_rel_shift": "0.13724697",
+      "m0_10v_v7_vs_exact_mh_pole_over_mz": [
+        "1.906362011",
+        "1.644719608"
+      ],
+      "m0_3v_rel_shift": "0.11128988",
+      "m0_3v_v7_vs_exact_mh_pole_over_mz": [
+        "1.640021885",
+        "1.457504041"
+      ],
+      "severity": "HIGH_IMPACT_PHYSICS_BUG",
+      "summary": "1-loop Higgs pole-mass shift mh_pole_fac at mu = M_Z omits the dominant -4 m_t^2 / m_h^2 Passarino-Veltman top self-energy term (and factor of 2 on y_t^2 ln(m_t^2/mu^2) from v(mu) -> v_{phys}), violating 1-loop top-Yukawa RG invariance (residual (6 lam y_t^2 - 12 y_t^4)/(16 pi^2) != 0). Because M_Z < m_t, running lambda(mu) below m_t artificially inflates lambda(M_Z) via -12 y_t^4/(16 pi^2); v7's truncated formula shifts mh_pole_over_mz UP instead of DOWN, creating a ~10-13% scale-dependence jump between mu = M_Z and mu = m_t across B4_UV_MZ_BLIND_LOCK_V2.",
+      "v7_1loop_top_rg_residual": "3*yt**2*(lam - 2*yt**2)/(8*pi**2)",
+      "v7_scale_drift_mu_MZ_vs_mt_rel": "0.1253926"
+    }
+  ],
+  "discrepancies_count": 3,
+  "empirical_firewall": "0 of 19",
+  "hygiene_and_raw_json_audits": {
+    "ow16_v17_raw_json_floats": {
+      "clean": true,
+      "raw_float_token_count": 0,
+      "sample_tokens": []
+    },
+    "ow16_v17_script_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "verify_a2_ow16_v17.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "234c1d4530bde302d0dd0a16d6bec30419f382767d55c7951418f1125f028b46"
+    },
+    "ow26_v7_raw_json_floats": {
+      "clean": true,
+      "raw_float_token_count": 0,
+      "sample_tokens": []
+    },
+    "ow26_v7_script_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "verify_a2_ow26_v7.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "7be8fe04e9a96d7649c1d8501be30b1333a414d233c4ac915dfcc8827a7063e9"
+    },
+    "referee_v2_script_ast": {
+      "binary64_casts": 0,
+      "clean": true,
+      "file": "referee_a2_ow26_v2.py",
+      "float_complex_literals": 0,
+      "forbidden_imports": 0,
+      "sha256": "872ea1f5a98bb232c0dd9fbcba3234becf60fdd51ea1e2e166da1189c28823e5"
+    }
+  },
+  "layer1_producer_equations_numerically_reproduced": false,
+  "layer2_first_principles_physics_audit_passed": false,
+  "planted_faults": {
+    "PF_REF2_1_corrupt_2loop_sm_o4_and_mv3_caught": true,
+    "PF_REF2_2_broken_haar_nonunitary_caught": true,
+    "PF_REF2_3_wrong_e8_vd_normalization_caught": true,
+    "PF_REF2_4_wrong_dirac_liouville_weight_e2phi_caught": true,
+    "PF_REF2_5_wrong_cp_mirror_and_wrong_lnc_sign_caught": true,
+    "PF_REF2_6_mutated_blind_lock_v2_and_manifest_tamper_caught": true
+  },
+  "planted_faults_caught": 6,
+  "planted_faults_total": 6,
+  "referee_id": "A2-OW26-v7-and-A2-OW16-v17-Cold-Room-Zero-Trust-Referee-v2",
+  "referee_v1_disc1_to_5_and_num1_all_remediated": false
+}
