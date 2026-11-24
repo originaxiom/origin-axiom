@@ -1,0 +1,353 @@
+{
+  "REF_1_OW27A_gl4_sympy_poles_decoupling_lambda_qcd_haar": {
+    "cim_M16_kH1min_m0_3v_max_rel_err": "3.863566016e-9",
+    "gate_passed": false,
+    "guardrail3_5trial_haar_U3_5_gl4_err": "9.321541237e-25",
+    "haar_generator": "Xorshift64* + complex Householder QR (Mezzadri 2007, 5 trials)",
+    "integrator": "2-stage implicit Gauss-Legendre GL4 (O(h^4), symplectic, A-stable)",
+    "max_rel_err_all_non_aem_nf5_observables": "4.751251889e-8",
+    "max_rel_err_alpha_EM_inv_mz_nf5_exact_vs_producer": "0.003580812355",
+    "max_rel_err_alpha_EM_inv_mz_nf5_if_sign_flipped_diag": "6.246439559e-10",
+    "run_comparisons": {
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_10v_sgnMu_neg": {
+        "alpha_EM_inv_mz_nf5_if_sign_flipped_rel_err": "6.210623709e-10",
+        "alpha_EM_inv_mz_nf5_producer_v7": "126.149627453",
+        "alpha_EM_inv_mz_nf5_referee_exact": "125.697915208",
+        "alpha_EM_inv_mz_nf5_rel_err": "0.003580765586",
+        "alpha_EM_inv_mz_nf6_gl4": "125.92377137",
+        "higgs_5c_2loop_rglog_scale_drift_gl4": "0.0006474203823",
+        "higgs_scale_drift_lt_0p5pct": true,
+        "max_rel_err_all_other_observables": "4.751251889e-8",
+        "nf_active_at_confinement": 4
+      },
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_10v_sgnMu_pos": {
+        "alpha_EM_inv_mz_nf5_if_sign_flipped_rel_err": "6.236182375e-10",
+        "alpha_EM_inv_mz_nf5_producer_v7": "126.14963255",
+        "alpha_EM_inv_mz_nf5_referee_exact": "125.697914387",
+        "alpha_EM_inv_mz_nf5_rel_err": "0.003580812355",
+        "alpha_EM_inv_mz_nf6_gl4": "125.923773508",
+        "higgs_5c_2loop_rglog_scale_drift_gl4": "0.0006355988304",
+        "higgs_scale_drift_lt_0p5pct": true,
+        "max_rel_err_all_other_observables": "4.133050323e-8",
+        "nf_active_at_confinement": 4
+      },
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_3v_sgnMu_neg": {
+        "alpha_EM_inv_mz_nf5_if_sign_flipped_rel_err": "6.218484294e-10",
+        "alpha_EM_inv_mz_nf5_producer_v7": "125.363269263",
+        "alpha_EM_inv_mz_nf5_referee_exact": "124.953891697",
+        "alpha_EM_inv_mz_nf5_rel_err": "0.003265530394",
+        "alpha_EM_inv_mz_nf6_gl4": "125.158580519",
+        "higgs_5c_2loop_rglog_scale_drift_gl4": "0.0008113210499",
+        "higgs_scale_drift_lt_0p5pct": true,
+        "max_rel_err_all_other_observables": "4.151786644e-8",
+        "nf_active_at_confinement": 4
+      },
+      "CURV_s12_Dirac_yt_gUV_tb15_m0_3v_sgnMu_pos": {
+        "alpha_EM_inv_mz_nf5_if_sign_flipped_rel_err": "6.246439559e-10",
+        "alpha_EM_inv_mz_nf5_producer_v7": "125.363272519",
+        "alpha_EM_inv_mz_nf5_referee_exact": "124.953891187",
+        "alpha_EM_inv_mz_nf5_rel_err": "0.003265560346",
+        "alpha_EM_inv_mz_nf6_gl4": "125.158581892",
+        "higgs_5c_2loop_rglog_scale_drift_gl4": "0.0007919882269",
+        "higgs_scale_drift_lt_0p5pct": true,
+        "max_rel_err_all_other_observables": "4.151754711e-8",
+        "nf_active_at_confinement": 4
+      }
+    },
+    "soft_M1_vs_exact_25_over_58_err": "6.576300432e-10",
+    "sympy_proofs": {
+      "c20_color_diff": "0",
+      "c20_nl5": "8.2365617010736",
+      "c2_inv_nl5": "-9.1254505899625",
+      "higgs_4c_rg_residual": "0",
+      "higgs_toponly_rg_nonzero": true,
+      "lambda_qcd_2loop_rg_residual": "0",
+      "nf5_rg_coeffs": [
+        "1",
+        "389/72",
+        "35/24"
+      ],
+      "nf6_rg_coeffs": [
+        "1",
+        "121/24",
+        "11/8"
+      ],
+      "passed": true,
+      "pf1_perturbed_c21_resid": "1/2",
+      "qed_5flav_top_decoupling_shift_a5_minus_a6": "log((M_Z/m_t)**(8/(9*pi)))",
+      "qed_5flav_top_decoupling_sign_negative_for_mt_gt_MZ": true,
+      "veltman_delta_rho_exact": true
+    }
+  },
+  "REF_2_OW27B_dirac_spinors_gl4_soft_riccati_bino_dm": {
+    "G2_10v_max_rel_err_vs_v7": "9.686771835e-7",
+    "central_10v_N800_vs_N1600_rel_err": "7.516617876e-8",
+    "central_10v_Y_Bino_gl4_richardson": "4.38025165571e-10",
+    "gate_passed": false,
+    "gl4_analytic_riccati_benchmark_rel_err": "1.584967035e-14",
+    "m0_scan_comparisons": {
+      "m0_10v": {
+        "bino_purity": "0.9998612656",
+        "lee_weinberg_Y_Bino_gl4": "4.38025200691e-10",
+        "lee_weinberg_max_rel_err_vs_v7": "9.248531611e-7",
+        "self_consistent_Y_Bino_gl4": "4.38025200691e-10",
+        "self_consistent_max_rel_err_vs_v7": "5.101087958e-5"
+      },
+      "m0_1v": {
+        "bino_purity": "0.9832797838",
+        "lee_weinberg_Y_Bino_gl4": "5.74770391307e-11",
+        "lee_weinberg_max_rel_err_vs_v7": "1.207466805e-6",
+        "self_consistent_Y_Bino_gl4": "4.58537724882e-10",
+        "self_consistent_max_rel_err_vs_v7": "0.0001128701902"
+      },
+      "m0_30v": {
+        "bino_purity": "0.9999846125",
+        "lee_weinberg_Y_Bino_gl4": "1.11492073623e-9",
+        "lee_weinberg_max_rel_err_vs_v7": "1.049924379e-6",
+        "self_consistent_Y_Bino_gl4": "4.17627182285e-10",
+        "self_consistent_max_rel_err_vs_v7": "9.697629275e-5"
+      },
+      "m0_3v": {
+        "bino_purity": "0.9984271126",
+        "lee_weinberg_Y_Bino_gl4": "1.33314915133e-10",
+        "lee_weinberg_max_rel_err_vs_v7": "1.00900047e-6",
+        "self_consistent_Y_Bino_gl4": "3.96655199911e-10",
+        "self_consistent_max_rel_err_vs_v7": "2.919210365e-5"
+      }
+    },
+    "max_rel_err_all_dm_points_vs_v7": "0.0001128701902",
+    "min_bino_purity_checked": "0.9832797838",
+    "pf4_unreduced_planck_rel_shift": "3.221871292",
+    "riccati_solver": "2-stage implicit Gauss-Legendre GL4 + 2x2 damped Newton (N=800 vs 1600)",
+    "spinor_proof_dirac_basis": {
+      "basis": "Dirac-Pauli (gamma^0 = diag(I_2, -I_2)) + 6-pt Gauss-Legendre",
+      "charge_conj_err": "0.0",
+      "clifford_err": "0.0",
+      "completeness_err": "2.43143e-30",
+      "massive_ttbar_LplusR_rel_err": "2.643075203e-31",
+      "massive_ttbar_wrong_LminusR_rel_err": "0.3277554413",
+      "massless_pwave_max_rel_err": "1.27604124e-13",
+      "massless_swave_max": "1.6226137e-65",
+      "passed": true,
+      "pf3_flipped_fermi_sign_swave": "0.01768388257",
+      "prefactor_ratio_exact": "1",
+      "pwave_by_r": {
+        "r_10": {
+          "pwave_rel_err": "1.27604124e-13",
+          "swave_zero": "3.06991e-67"
+        },
+        "r_2": {
+          "pwave_rel_err": "8.333333333e-14",
+          "swave_zero": "1.62261e-65"
+        },
+        "r_5": {
+          "pwave_rel_err": "4.615384615e-14",
+          "swave_zero": "4.05653e-66"
+        }
+      },
+      "sum_15species_Ni_Yi_4": "95/18"
+    }
+  },
+  "REF_3_OW27C_jtheta_eigsy_384_192_scans_gl4_seesaw_boltzmann": {
+    "CP_odd_YB_sum_err": "1.179020834e-35",
+    "G_s12_t8_ref26_v3_vs_ow27_v7_max_err": "2.4629e-8",
+    "boltzmann_method": "2-stage implicit GL4 (N=600 vs 1200 + O(h^4) Richardson)",
+    "gate_passed": false,
+    "guardrail3_5trial_haar_U3_5_x_U3_N_gl4_err": "1.811027423e-27",
+    "legacy_Y_B_flavored_gl4": "1.73940862287e-8",
+    "legacy_Y_B_unflavored_gl4": "3.81767314611e-9",
+    "legacy_boltzmann_max_rel_err_vs_v7": "8.004041385e-6",
+    "legacy_boltzmann_step_rel_err": "2.751459917e-5",
+    "legacy_pmns_max_rel_err_vs_v7": "7.311032472e-8",
+    "legacy_thresholds_max_rel_err_vs_v7": "3.146582752e-8",
+    "pmns_trig_unitarity_err": "2.0707599e-30",
+    "scan1_384_counts": {
+      "hits": 0,
+      "nonsingular": 264,
+      "total": 384
+    },
+    "scan2_192_counts": {
+      "all_hits": 0,
+      "sym6_hits": 0,
+      "total": 192
+    },
+    "takagi_method": "Real 2n x 2n symmetric block eigensolver via mp.eigsy",
+    "w_hol_method": "Native mp.jtheta + exact heat-equation derivatives (zero manual q-series)"
+  },
+  "REF_4_OW27D_nsvz_sympy_bisection_link6_gl4": {
+    "delta_hid_bisection_secant_val": "4.6361853782",
+    "delta_hid_rel_err_vs_v7": "3.886724431e-13",
+    "gate_passed": false,
+    "link6_and_hybrid_aem_nf5_if_sign_flipped_max_rel_err": "3.162075075e-10",
+    "link6_and_hybrid_aem_nf5_max_rel_err": "0.003126516879",
+    "link6_and_hybrid_non_aem_max_rel_err": "6.867374353e-8",
+    "link6_and_hybrid_runs": {
+      "HYBRID_B4UV_aGUTinv_24_LINK6_tSUSY_neg24p256": {
+        "alpha_EM_inv_mz_nf5_if_sign_flipped_rel_err": "3.162075075e-10",
+        "alpha_EM_inv_mz_nf5_producer_v7": "114.036432344",
+        "alpha_EM_inv_mz_nf5_referee_exact": "113.679895513",
+        "alpha_EM_inv_mz_nf5_rel_err": "0.003126516879",
+        "max_rel_err_all_other_observables": "1.594239532e-8",
+        "nf_active_at_confinement": 4
+      },
+      "LINK6_exact_aGUTinv_30p1935_tSUSY_neg24p256": {
+        "alpha_EM_inv_mz_nf5_if_sign_flipped_rel_err": "1.392023454e-10",
+        "alpha_EM_inv_mz_nf5_producer_v7": "130.059503197",
+        "alpha_EM_inv_mz_nf5_referee_exact": "129.773893948",
+        "alpha_EM_inv_mz_nf5_rel_err": "0.002195989082",
+        "max_rel_err_all_other_observables": "6.867374353e-8",
+        "nf_active_at_confinement": 3
+      }
+    },
+    "nsvz_exact_2loop_rg_residual": "0",
+    "pf5_omitted_g_neg23_rg_residual": "N*g**2/(N*g**2 - 8*pi**2)",
+    "table_32_rows_max_rel_err": "1.604828925e-10"
+  },
+  "REF_5_OW16v20_LOCK_V3_manifests_and_custody": {
+    "branch_manifests": {
+      "all_verified": true,
+      "mismatches": [],
+      "total_manifests": 283,
+      "verified_manifests": 283
+    },
+    "custody_mechanics_passed": true,
+    "gate_passed": false,
+    "git_diff_c00b3bb73_to_HEAD": {
+      "non_relay_edits": [],
+      "non_relay_edits_count": 0,
+      "total_changed_files": 27
+    },
+    "hygiene": {
+      "ow16_v20_raw_json_floats": {
+        "clean": true,
+        "file": "a2_ow16_v20_results.json",
+        "raw_float_token_count": 0,
+        "sample_tokens": [],
+        "tree_float_count": 0
+      },
+      "ow16_v20_script_ast": {
+        "binary64_casts": 0,
+        "clean": true,
+        "file": "verify_a2_ow16_v20.py",
+        "float_complex_literals": 0,
+        "forbidden_imports": 0,
+        "sha256": "f45ad33787a0fa8e8f6e00dbfa633f4a7e66978ac08ad97fcc44f5cdfa0521f8"
+      },
+      "ow27_v7_raw_json_floats": {
+        "clean": true,
+        "file": "a2_ow27_v7_results.json",
+        "raw_float_token_count": 0,
+        "sample_tokens": [],
+        "tree_float_count": 0
+      },
+      "ow27_v7_script_ast": {
+        "binary64_casts": 0,
+        "clean": true,
+        "file": "verify_a2_ow27_v7.py",
+        "float_complex_literals": 0,
+        "forbidden_imports": 0,
+        "sha256": "f339bc79e5755c0a76d195158c0ce8e97bb60c541d754ac43c2f7604f56df146"
+      },
+      "referee_self_ast": {
+        "binary64_casts": 0,
+        "clean": true,
+        "file": "referee_a2_ow27.py",
+        "float_complex_literals": 0,
+        "forbidden_imports": 0,
+        "sha256": "1c0a2cb74ff04243bd4d3cf292eb1328663e5e733d17379197deab665a32c02d"
+      }
+    },
+    "lock_v3_and_obs08_inherit_DISC_OW27_1": true,
+    "lock_v3_canonical_sha256": {
+      "claimed_ow27_v7": "9f271deee4d895b8a701763b52710cf3a70d6603e76ed5fff2d4b5d40a57f88f",
+      "exact_match": true,
+      "expected": "9f271deee4d895b8a701763b52710cf3a70d6603e76ed5fff2d4b5d40a57f88f",
+      "ow16_v20_matches": true,
+      "recomputed": "9f271deee4d895b8a701763b52710cf3a70d6603e76ed5fff2d4b5d40a57f88f"
+    },
+    "ow16_v20_checks": {
+      "false_flag_exact_set_match": true,
+      "false_flag_json_count_independent": 47,
+      "includes_a2_ow27_v6": true,
+      "locks_20_of_20": true,
+      "partition_1_10_9_4_eq_24": true,
+      "planted_faults_6_of_6": true
+    }
+  },
+  "REF_6_planted_faults": {
+    "caught": 6,
+    "controls": {
+      "PF_REF_1_perturbed_GrayBroadhurst_c21_breaks_2loop_RG": true,
+      "PF_REF_2_dropping_bosonic_Higgs_breaks_4c_RG_and_drift_gt_3pct": true,
+      "PF_REF_3_flipped_Majorana_Fermi_sign_Dirac_basis_swave_gt_1e_4": true,
+      "PF_REF_4_unreduced_Planck_GL4_Riccati_shifts_YBino_gt_100pct": true,
+      "PF_REF_5_omitting_NSVZ_g_neg23_breaks_2loop_RG": true,
+      "PF_REF_6_manifest_1byte_tamper_and_LOCK_V3_mutation_caught": true
+    },
+    "gate_passed": true,
+    "total": 6
+  },
+  "all_referee_gates_passed": false,
+  "discrepancies": [
+    {
+      "central_10v_exact_vs_producer": [
+        "125.697914387",
+        "126.14963255"
+      ],
+      "domain": "OW27-A / OW27-D / B4_UV_MZ_BLIND_LOCK_V3 / A2-OW16 v20 (OBS-08)",
+      "id": "DISC-OW27-1",
+      "location": "relays/a2_ow27_v7/verify_a2_ow27_v7.py:1233",
+      "m0_3v_exact_vs_producer": [
+        "124.953891187",
+        "125.363272519"
+      ],
+      "max_rel_err_ow27a": "0.003580812355",
+      "max_rel_err_ow27d_link6_hybrid": "0.003126516879",
+      "rel_err_if_sign_flipped": "6.246439559e-10",
+      "rel_err_ow27d_if_sign_flipped": "3.162075075e-10",
+      "severity": "BLOCKING_PHYSICS_SIGN_BUG",
+      "summary": "Wrong sign in 1-loop 5-flavor QED top-quark decoupling alpha_EM^-1(5)(M_Z). Because d(alpha_EM^-1)/d(ln mu) = -b_EM/(2 pi) and decoupling the top quark lowers b_EM by Delta b_EM = (4/3)*N_c*Q_t^2 = +16/9, running downward from mu=m_t to mu=M_Z reduces QED screening, so alpha_EM^-1(5)(M_Z) = alpha_EM^-1(6)(M_Z) - (16/9)/(2 pi)*ln(m_t/M_Z) < alpha_EM^-1(6)(M_Z) (matching line 1090 sparticle decoupling minus sign and standard MSbar decoupling +2/(3 pi) N_c Q_t^2 ln(M_Z/m_t)). Producer wrote '+' instead of '-', producing alpha_EM^-1(5) > alpha_EM^-1(6) with rel err up to 3.59e-3 (~0.452 in alpha_EM^-1) across all OW27-A runs, OW27-D LINK6/HYBRID, B4_UV_MZ_BLIND_LOCK_V3, and A2-OW16 v20 OBS-08. Flipping only that sign reduces residual against producer from 3.59e-3 to < 1e-7."
+    },
+    {
+      "counts_match": false,
+      "domain": "OW27-C",
+      "id": "DISC-OW27-C",
+      "lepto_err": "8.004041385e-6",
+      "pmns_err": "7.311032472e-8",
+      "severity": "BLOCKING",
+      "summary": "Disjoint mp.jtheta + real 6x6 eigsy + GL4 seesaw/Boltzmann mismatch vs OW27 v7."
+    },
+    {
+      "domain": "OW27-B",
+      "id": "DISC-OW27-B",
+      "max_rel_err": "0.0001128701902",
+      "severity": "BLOCKING",
+      "summary": "Disjoint GL4 Riccati freeze-out mismatch vs OW27 v7 Radau IIA beyond 1e-5."
+    }
+  ],
+  "discrepancies_count": 3,
+  "empirical_firewall": "0 of 19",
+  "non_blocking_diagnostics": [
+    {
+      "domain": "OW27-A / OW27-B / B4_UV_MZ_BLIND_LOCK_V3",
+      "id": "DIAG-OW27-LAMBDA-QCD-NF4-LABEL",
+      "summary": "At central B4_UV m0=10v and m0=3v, the charm quark is below confinement (m_c/v ~ 3.8e-4 << Lambda_QCD^(4)/v ~ 0.0122), so nf_active_at_confinement = 4 (and 5 at m0=30v). While OW27-A honestly reports nf_active_at_confinement=4 and A2-OW16 v20 OBS-20 correctly writes Lambda_QCD^(4), the JSON key name in OW27-A and B4_UV_MZ_BLIND_LOCK_V3 remains 'Lambda_QCD_3_exact_over_v' without copying nf_active_at_confinement into the lock."
+    },
+    {
+      "domain": "OW27-B central_A0_neg_sqrt3_tb15_m0_scan",
+      "id": "DIAG-OW27-M0-SCAN-FIXED-CENTRAL-LAMBDA-QCD",
+      "m0_3v_fixed_central_vs_selfconsistent_LambdaQCD": [
+        "2.42032572",
+        "6.519117308"
+      ],
+      "summary": "Across the m0 in {1..30}v DM grid, OW27-B holds IR SM couplings and Lambda_QCD^(4)/v fixed at the central m0=10v value (0.0121835), yielding c_lat*Omega_Bino/Omega_B = 2.420 at m0=3v; substituting the m0=3v-specific Lambda_QCD^(4)/v = 0.0045233 shifts the m0=3v ratio by 2.69x to 6.519 (A2-OW16 v20 OBS-20 explicitly discloses that 0.0121835 was used)."
+    },
+    {
+      "domain": "relays/a2_ow16_v20/verify_a2_ow16_v20.py:3",
+      "id": "DIAG-OW16-V20-DOCSTRING-TYPO",
+      "summary": "Minor docstring typo ('supersedes passing v20 0c3573f70' instead of 'v18'); zero numerical impact."
+    }
+  ],
+  "referee_id": "A2-OW27-v7-and-A2-OW16-v20-Cold-Room-Zero-Trust-Referee",
+  "seat": "agy-002"
+}
