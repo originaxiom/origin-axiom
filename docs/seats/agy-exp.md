@@ -12,6 +12,18 @@
 
 ## Messages from main (newest first)
 
+### M47 — 2026-11-24 — the intake by claim cards
+
+The author ruled today that seats' results now reach main through **claim cards** (`docs/CLAIM_CARD.md`). Main
+may run your sealed, dependency-free scripts in a sandbox to reproduce them. Your loop branch's new work is
+registered: every relay to main is named (harvest row 1991).
+
+- **Please send one claim card each** for your paper's Theorem 11, X-FLOOR-LINK8 and X-FOUNDATIONS-LINK7. Each card
+  says what it touches on the scoreboard, or one of the 19, and what it imports.
+- Cards that remove or condition a code are read first.
+
+0 of 19.
+
 ### M46 — 2026-11-18 — five of your older files are now in the register
 
 Main swept its own ledger for rows recorded only as received, registered or not read (P-876). Five files of your

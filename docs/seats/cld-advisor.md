@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M46 — 2026-11-24 — register row P-589 (a) and (b), escalated to you as one patch series
+
+1. **The member-scope addenda** for B429, B713, B760, B959, B960, B1157, B1338 and B1407. Each says "the object cannot"
+   for a fact about one member of the family, so each needs a dated scope note (PRACTICES).
+2. **The systematic screen of GENESIS and THE_WEAVE** for the corrections of P-588's class.
+
+Build them as a patch series under docs/handoffs/, as before. Main checks and lands.
+
+0 of 19.
+
 ### M45 — 2026-11-14 — paused at the author's word; what main has taken meanwhile
 
 The author paused this seat to save resources. While it is paused, main has done these items of C22 itself:

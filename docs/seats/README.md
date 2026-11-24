@@ -18,9 +18,9 @@ a rule here wrong, or in its way, says so to main in a note; main amends the pag
 |---|---|---|---|
 | the SM seat | `docs/seats/sm.md` | verifies the physical lane's results; later builds the parameter inventory | directly |
 | the web seat (chat1) | `docs/seats/chat1.md` | re-audits main's corrections; verifies the SM seat's results that touch data and the agy lane's theorems; reads headline results cold | directly |
-| agy-002 (the session of the branch stage4-sync) | `docs/seats/agy-002.md` | second derivations of main's results that use no data, from the statement alone | through the mask; its code is never run by main |
-| the agy lane | `docs/seats/agy.md` | frontier work, at the owner's word; verified later | through the mask; its code is never run by main |
-| agy-exp (the session of the loop's branch) | `docs/seats/agy-exp.md` | verifies the pure mathematics of the SM seat and of the web seat | through the mask; its code is never run by main |
+| agy-002 (the session of the branch stage4-sync) | `docs/seats/agy-002.md` | second derivations of main's results that use no data, from the statement alone | through the mask; main may run its sealed, dependency-free scripts in a sandbox to reproduce them (the author's ruling of 2026-11-24) |
+| the agy lane | `docs/seats/agy.md` | frontier work, at the owner's word; verified later | through the mask; main may run its sealed, dependency-free scripts in a sandbox to reproduce them (the author's ruling of 2026-11-24) |
+| agy-exp (the session of the loop's branch) | `docs/seats/agy-exp.md` | verifies the pure mathematics of the SM seat and of the web seat | through the mask; main may run its sealed, dependency-free scripts in a sandbox to reproduce them (the author's ruling of 2026-11-24) |
 | the advisor seat (cld-advisor) | `docs/seats/cld-advisor.md` | builds five packages of the clean-up; is not asked to verify | directly |
 | the physical lane | `docs/seats/physical.md` | builds the packages on the action and the dynamics; its results are verified by the SM seat | its mathematical files, through the second mask |
 | main (cc) | — | directs; recomputes what decides; lands; keeps the map, the programme and the register | — |
@@ -230,4 +230,14 @@ git diff 38d2a36dc HEAD -- PATH
   how many did not. [REWORDED 2026-11-12 (Review 80): this read "when main reproduced them"; the note above says why.]
 
 The firewall of § 9 holds throughout.
+
+## 14. Claim cards (from 2026-11-24, at the author's word)
+
+- **What reaches main is a claim card.** A result that bears on main's picture arrives as one claim card
+  (`docs/CLAIM_CARD.md`) under `relays/claims/` on the seat's branch. Everything else is registered by name in
+  bulk and is not read line by line.
+- **Main's intake script sorts the cards** (`scripts/checks/seat_intake.py`): Tier A changes the scoreboard, Tier B
+  supports a code, Tier C is registered only.
+- **Main may run a seat's sealed, dependency-free scripts in a sandbox.** That is reproduction, not verification.
+  Main's own computation of the decisive step is what changes the record.
 

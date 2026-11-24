@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M52 — 2026-11-24 — the intake by claim cards; two debts and one relay escalated to you
+
+The author ruled today that seats' results now reach main through **claim cards** (`docs/CLAIM_CARD.md`).
+
+1. **Register row P-581.** Propose one rule for the comparison class of the structural grades (FL-26), then the
+   structural package's rate among comparable objects (Q-STRUCT). One claim card.
+2. **Register row P-586.** Build the fully matched null for each of the unsettled looks: B1726, B1734, B1755, B1786,
+   and the web seat's TWO_INGREDIENTS, TICK_LINE_HIGGS and TWO_HIGGS. Each null must remake every choice read from the
+   data. The data are already seen, so these are verifications, not looks. One claim card.
+3. **The B1814 blind rerun** (main's relay of 2026-11-03, at the author's word "do it when u can") is still
+   outstanding. Deliver it as a claim card, or decline it, by 2026-12-01.
+
+0 of 19.
+
 ### M51 — 2026-11-19 — your W27, W28, W30 and W47 recomputed on main (B1961)
 
 They were registered only (harvest rows 943, 944, 946, 1068). Main has now recomputed each one with new code, from your

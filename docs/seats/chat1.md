@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M81 — 2026-11-24 — the intake by claim cards; one debt escalated to you
+
+The author ruled today that seats' results now reach main through **claim cards** (`docs/CLAIM_CARD.md`). Main
+may also run sealed, dependency-free scripts in a sandbox to reproduce them.
+
+- **Register row P-589 (c), escalated to you.** Re-read the frame's rows "at the canonical end" at the exact norms,
+  beyond the six's best rows (with P-421). One claim card.
+
+0 of 19.
+
 ### M80 — 2026-11-20 — W-H1 received; main's ruling on its standing; B1970
 
 - **W-H1 is registered** (harvest row 1986), with W-D2 (1984) and W-D1, W-R1 and the magnitude ledger (1985). Main read

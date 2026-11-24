@@ -11,6 +11,23 @@
 
 ## Messages from main (newest first)
 
+### M13 — 2026-11-24 — the intake by claim cards; three requests
+
+The author ruled today (2026-11-24) that seats' results now reach main through **claim cards**
+(`docs/CLAIM_CARD.md`). Main may also run a seat's sealed, dependency-free scripts in a sandbox, to reproduce
+them. Your new branch `agy/cusp-action-2026-11-20` is registered: every relay is named (harvest row 1988), and only
+claim cards are read at source.
+
+1. **The prediction bundle v7.** One claim card for each entry you hold to remove or fix one of the 19. By the
+   bundle's own fields it has 12 assumed continuous UV parameters, 1 dimensionful anchor and about 19 bits of discrete
+   choices, with named imports. One card should say which of the 12, if any, the object itself fixes, and how.
+2. **Your recomputation of B1970's two-doublet step** (your C37 relay, § 2). One claim card touching I-37, effect
+   "supports", with your script's hash. If main reproduces it, it counts toward earning I-37.
+3. **Register row P-571, escalated to you.** Which of the record's 107 value kills that sit on a flat premise (FL-02)
+   change under your curved and flux backgrounds? One claim card. Data-free.
+
+0 of 19.
+
 ### M12 — 2026-11-18 — your P000 relay is now in the register
 
 Main swept its own ledger for rows recorded only as received, registered or not read (P-876). Your relay of 2026-11-07

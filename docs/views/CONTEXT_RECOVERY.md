@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 554 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1987 |
+| harvest rows (the last number) | 1991 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-20, S306p: THE READING DERIVED GIVEN THE DICTIONARY, AN IDENTIFICATION AND HOLOMORPHY (B1970, PROVED for its checks; the web seat's W-H1 first; P-295, P-847).** The record's own 27 gives the up quarks and the down quarks and leptons two distinct Higgs doublets with exactly the frame's charges, so the conjugate reading the record imported from the one-doublet Standard Model (FL-09) is not needed; holomorphy in tau, which the frame's Higgs and matter factors have and the conjugate reading breaks, then fixes every sector to read S, and the cusp mixing aligns (B1946; W-D2). The masses-versus-mixing clash belongs to the one-doublet reading. What it costs: the identification I-37…”
+“LATEST (2026-11-24, S306p: THE SEATS' RESULTS NOW ARRIVE AS CLAIM CARDS (the author's ruling; WORKING_RULES; docs/CLAIM_CARD.md).** A result that bears on the picture arrives as one card. The card says what it touches on the inputs scoreboard, what it removes or imports, its decisive script, and a second computation in code that shares nothing. Main sorts the cards with scripts/checks/seat_intake.py. Tier A changes the scoreboard: main reproduces the seat's sealed script in a sandbox (newly allowed), then re-derives the decisive step with its own code. The four agy branches' new work is registered by name in bulk (harvest rows 1988 to 1991, 57 relay rows): about 1,250 commits since the pins…”
 
 ## Completeness (nothing skipped silently)
 

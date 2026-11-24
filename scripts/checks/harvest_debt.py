@@ -210,6 +210,14 @@ SEATS = [
     # statement by statement in B1957).  Read through the mask; nothing of it is banked.
     dict(key="agy002foundations", label="agy-002 (foundations)", branch="foundations",
          remotes=("origin",), cell=("agy-002",)),
+    # ADDED 2026-11-24 (the intake by claim cards, at the author's word; docs/CLAIM_CARD.md): the agy lane's branch
+    # `agy/cusp-action-2026-11-20` (from 2026-11-20) and agy-002's `agy-002/foundations-v2` (from 2026-11-19), found at a
+    # fetch.  Registered so they are watched, pinned at their heads, every relay named by bulk rows 1988 and 1989; each
+    # seat's load-bearing results are asked for as claim cards, and only those are read at source.
+    dict(key="agycusp", label="the agy lane (cusp-action-2026-11-20)", branch="cusp-action-2026-11-20",
+         remotes=("origin",), cell=("agy lane",)),
+    dict(key="agy002fv2", label="agy-002 (foundations-v2)", branch="foundations-v2",
+         remotes=("origin",), cell=("agy-002",)),
     # NOTED 2026-11-18 (the web seat's W-H1, G3; P-865): the branches `review-82/read` and `review-83/read` are not listed
     # here, by decision and not by oversight.  They are main's own reading copies, cut by main at a review's opening with
     # planted faults and never written to by a seat; a later push to either would be main's own act, recorded in that

@@ -593,6 +593,23 @@ Ruled by the owner on 2026-11-11: his messages are private, and a ruling of his 
 the sessions are named as main proposed (P-797): a seat's name is an address, not an author and not an authority, and
 what is written about a result is how it was checked. The words for that are in `TERMINOLOGY.md`.
 
+## Rule (2026-11-24, the author's ruling to main — adopted): THE SEATS' RESULTS ARRIVE AS CLAIM CARDS; SEALED SCRIPTS MAY BE REPRODUCED
+
+1. **A claim card for each result.** A result that bears on main's picture arrives as one claim card
+   (`docs/CLAIM_CARD.md`). The card says what it touches on the inputs scoreboard, or which of the 19, what it
+   removes or imports, its decisive script with hash, and a second computation in code that shares nothing.
+   Everything else is registered by name in bulk.
+2. **Tiers decide the work.**
+   - Tier A, a card that removes, conditions or refutes a code: main reproduces the decisive script, re-derives the
+     decisive step with its own code, and lands one arc and one scoreboard change, naming every import as a
+     hypothesis.
+   - Tier B, a card that supports a code: taken on the second computation by another seat, with one number
+     reproduced by main.
+   - Tier C: registered only.
+3. **Sealed, dependency-free seat scripts may be run by main in a sandbox, to reproduce.** A reproduction is never
+   called a verification. Main's own code decides.
+4. **One intake a day,** by `scripts/checks/seat_intake.py`, landed as one batch.
+
 ## Rule (2026-11-12, after the owner's question on selection and his point on the record's walls — adopted): BEFORE A SELECTION OR A HAND IS CLAIMED
 
 1. **Name the wall** from the ledger of walls, and read its row: where it was first met, what is proved
