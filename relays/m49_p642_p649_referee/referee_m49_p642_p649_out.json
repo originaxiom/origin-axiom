@@ -1,0 +1,57 @@
+{
+  "R_M49_1_p642_f61_and_eisenstein": {
+    "eisenstein_chord_mod15_nonzero_entries": 6,
+    "f61_all_parity_even_elements_are_involutions": true,
+    "f61_non_parity_quotient_order": 8,
+    "f61_parity_even_kernel": [
+      1,
+      4
+    ],
+    "f61_parity_even_quotient_order": 4,
+    "f61_zeta15": 16,
+    "matches_producer_m49_1": true,
+    "r_pc_1_caught": true
+  },
+  "R_M49_2_m003_eisenstein_and_analytic_bessel": {
+    "analytic_bessel_dirac_err": "1.36846e-48",
+    "eisenstein_relator_and_peripherals_verified": true,
+    "eisenstein_spin_swap_bijection_verified": true,
+    "r_pc_2_caught": true,
+    "r_pc_2_wrong_t_exponent_gap": "1.0"
+  },
+  "R_M49_3_and_4_halton_simpson_spectral": {
+    "max_producer_referee_diff_m003": "3.125e-12",
+    "max_producer_referee_diff_m004": "1.615e-10",
+    "max_referee_spin_swap_err_m003": "4.6469e-12",
+    "max_referee_two_Y_diff_m003": "5.4117e-12",
+    "r_pc_3_caught": true,
+    "r_pc_3_negated_root2_sigma_on_m003_rho1": "0.295496",
+    "r_pc_4_caught": true,
+    "r_pc_4_dirac_sigma_evaluated_at_maass_r3": "0.012247",
+    "ref_gap_lambda_D4_minus_r3": "6.488752e-03",
+    "ref_gap_lambda_D5_minus_sqrt_1_plus_r4_sq": "8.280290e-03",
+    "ref_lam0_sigma12_m004_rho1": [
+      "1.1882e-12",
+      "1.1883e-12"
+    ],
+    "ref_lam0_sigma1_m003_rho1": "0.37892579"
+  },
+  "ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  },
+  "card": "AGY-EXP_M49-P642-P649",
+  "checked_producer_json": "verify_m49_p642_p649_out.json",
+  "checked_producer_json_sha256": "37bc035d1ffe64432b9d8b85ea6d6edb484baa61e6482a2b9a16a259f3342d29",
+  "firewall": "0 of 19 (pure mathematics: F_61 modular Weil algebra, Z[omega] arithmetic, Halton+Simpson Hejhal)",
+  "role": "disjoint_cold_room_referee",
+  "script": "referee_m49_p642_p649.py",
+  "script_sha256": "c351f1bb76c5ca5d733e7f2136ac9e1239a3785692f51902bc3d624a08268359",
+  "summary_checks": {
+    "all_assertions_held": true,
+    "total_referee_modules": 4,
+    "total_referee_planted_controls": 4
+  }
+}
