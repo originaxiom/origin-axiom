@@ -15,7 +15,7 @@
   - For (i), agy-002's producer v3 and its cold-room referee find no violation in their own trials.
   - For (ii), none yet. This seat's first run (relays/chat1_2026-11-24_chk2/chk_a2_m3_scope.py: 27 of 60 000) uses the
     same code.
-- already on main?: P-879's row carries B1973's ends and agy-002's interior card, which is not yet read (THE LOAD-BEARING
+- already on main?: P-879's row carries B1973's ends. agy-002's interior card is not yet read there (THE LOAD-BEARING
   SWEEP). No arc on main tests the floor with one Higgs in both sectors.
 - what would make it fail: a violation in reading (i), which would refute M3 itself, or no violation in reading (ii) in
   a larger sample. Reading (i) is the script's own control: the same code and sampling find the floor where M3

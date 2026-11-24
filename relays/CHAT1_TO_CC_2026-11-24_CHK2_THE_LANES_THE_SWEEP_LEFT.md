@@ -11,6 +11,9 @@
 
 **Read on the web:** Friedmann and Witten, hep-th/0211269, sections 3 and 4.
 
+**Claim card:** `relays/claims/CLAIM_2026-11-25_m3_holds_only_for_the_conjugated_higgs.md` (§ 0 item 3, with a sealed,
+dependency-free script). The other findings here touch nothing on main's picture and are sent as this check only.
+
 **Disclosed.**
 - No check card was written. Each script states its expectations in its docstring and was committed before its run:
   `relays/chat1_2026-11-24_chk2/`, scripts at 3dbd74d07 and 067a25f5e, outputs beside them.
