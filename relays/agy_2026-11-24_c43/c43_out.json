@@ -1,0 +1,110 @@
+{
+  "E1_single_origin_chain_and_v8_seal": {
+    "layer1_bedrock": {
+      "e8_root_count": 240,
+      "i6_longitude_sign": -1,
+      "m004_ord3_surjections": 24,
+      "n10_higgs_doublet_curves": 2,
+      "order_2T": 24,
+      "rank_e8xe8": 16,
+      "selected_D": 4
+    },
+    "layer2_fricke_stationarity_and_duality_err": "1.741534e-40",
+    "layer3_kahler_kinetic_err": "0.0",
+    "layer4_dynamical_horizons_tnu_tsusy_tew": [
+      "-15.385323899909",
+      "-29.031336866884",
+      "-30.265006599257"
+    ],
+    "sealed_certificate_count": 24,
+    "sealed_observable_count": 50
+  },
+  "E2_live_50x3_jacobian_scaling_and_bit_ledger": {
+    "control_1_jacobian_and_tamper_caught": true,
+    "control_2_scaling_homogeneity_caught": true,
+    "control_3_discrete_bit_ledger_caught": true,
+    "core_48_discrete_bits": "29/2",
+    "dimensionful_unit_anchors_R12": 1,
+    "full_50_discrete_bits": "31/2",
+    "homogeneity_13x_max_rel_err": "2.4582665e-45",
+    "planted_2nd_anchor_smuggling_rel_break": "11.98146229",
+    "planted_zero_bit_post_inspection_rejected": true,
+    "redundant_4th_scale_col_rank": 3,
+    "redundant_4th_singular_value": "4.5333932e-42",
+    "uv_continuous_jacobian_singular_values": [
+      "81.45624046",
+      "41.88190462",
+      "0.3187962433"
+    ],
+    "uv_continuous_jacobian_svd_rank_R11": 3
+  },
+  "E3_convergence_scrambling_null_and_v7_vs_v8": {
+    "coarse_N12_euler_max_rel_err": "1.083598846",
+    "control_4_step_halving_vs_euler_caught": true,
+    "control_5_scrambling_and_null_caught": true,
+    "matched_null_2000_hits": 0,
+    "non_takagi_mR_negative_ctrl_rel_break": "20.30451695",
+    "su3_pow6_scrambling_max_rel_err": "1.479211123e-45",
+    "true_step_halving_N120_vs_N240_max_rel_err": "3.496372768e-12",
+    "v7_vs_v8_internal_synthesis_comparison": {
+      "IC5_uv_bose_fermi_deficit_v7_to_v8": [
+        -6,
+        0
+      ],
+      "R11_continuous_uv_parameters_v7_to_v8": [
+        12,
+        3
+      ],
+      "ckm_v23_v7_to_v8": [
+        "0.32810016759",
+        "0.11779968348"
+      ],
+      "continuous_parameter_reduction_count": 9,
+      "core_48_discrete_bits_v7_to_v8": [
+        "39/2",
+        "29/2"
+      ],
+      "full_50_discrete_bits_v7_to_v8": [
+        "41/2",
+        "31/2"
+      ],
+      "higgs_h0_over_vew_v7_to_v8": [
+        "0.38275812587",
+        "0.38595036088"
+      ],
+      "leptogenesis_Y_B_v7_to_v8": [
+        "9.6169692152e-10",
+        "5.9211976298e-11"
+      ],
+      "mc_over_qcd_Lambda_4f_v7_to_v8": [
+        "0.045084914554",
+        "61.727907963"
+      ],
+      "pmns_u12_v7_to_v8": [
+        "0.70256507499",
+        "0.3551395125"
+      ],
+      "v7_found": true,
+      "v7_sha256_payload_digest": "39fdf56c0ff6e1e914e78d93dde678d3de30a96346888a71c2cce6a7f99cfecf",
+      "v8_sha256_payload_digest": "c9c58fea83eb0d7d44c730bc59b7d9a58f716810bc2eb7c3176ca229efe9b6de"
+    }
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "forbidden_imports": 0,
+    "passed": true
+  },
+  "card": "AGY-C43",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "layer": "Layer 5 (Top-Down Single-Origin Synthesis, Live 50x3 Jacobian, & v8.json Seal)",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5,
+  "v8_json_sha256_payload_digest": "c9c58fea83eb0d7d44c730bc59b7d9a58f716810bc2eb7c3176ca229efe9b6de"
+}
