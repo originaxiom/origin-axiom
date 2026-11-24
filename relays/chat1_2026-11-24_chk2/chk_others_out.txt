@@ -1,0 +1,13 @@
+P1 = z**5 + 2*z**4 + 3.0*z**3 + 3.0*z**2 + 2*z + 1 | equals (z+1)(z^2+1)(z^2+z+1): True
+P2 matches the note: True | e2 self-consistent: True
+    |roots of P2| = ['0.445320838398', '0.654183132235', '1.52862394447', '2.24557198715']
+P3  s = omega^2: |roots| = ['1.0', '0.510794408798', '1.95773482007']
+P3  s = omega: |roots| = ['1.0', '0.510794408798', '1.95773482007']
+/usr/local/lib/python3.13/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+G1  m000 orientable: False, volume 1.01494160641; its orientation cover is m004: True
+    pi_1(m004): generators ['a', 'b'], relators ['aaabABBAb']
+G2  surjections pi_1(m004) -> D_5 (as maps on generators): 20
+    irregular 5-fold cover: cusps 3, H_1 = Z + Z + Z, volume 10.1494160641
+    regular 10-fold cover: cusps 5, H_1 = Z + Z + Z + Z + Z, volume 20.2988321282
+done
