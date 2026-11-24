@@ -3,6 +3,14 @@
 **Verdict: PROVED (a reading of B1977's committed rates under the act's monodromy, no new frame computation).** Main,
 2026-11-24. Data-free. Register row P-845. **0 of 19.**
 
+*Dated caveat (2026-11-24, after landing, main's own reading).* The act acts on the modulus and the point together: it
+carries E_τ to E_{Mτ}. This arc moves the point by M and holds τ fixed. So "not invariant under the object's own act" is
+true at a fixed τ only. If the frame is covariant under the joint action, moving the point by M at fixed τ matches moving
+τ by M⁻¹ at a fixed point, which leaves the cusp i∞ for the cusp M⁻¹(∞). The orbits, the counts and the alignment and
+hierarchy at every point stand as computed. The reading "the menu is the act's orbits" needs the joint covariance checked
+first: frame C's SL(2,ℤ) covariance is known for τ → τ + 1 (B1940) and is obstructed at level 5 for flat unitary
+connections (agy-002's M34).
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /orbit of the act|monodromy orbit|M-orbit|orbits of twelve|act's orbit/: 0 of 1719 arcs on main match (none); 0 register rows match (none)`.

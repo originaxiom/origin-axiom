@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1675** |
-| words of findings prose | **1,537,284** |
+| words of findings prose | **1,537,422** |
 | test lock files referenced | **946** |
 | arcs carrying an authored verdict | **1675** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
@@ -65,8 +65,8 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1978`** (466 words, 0 locks)  
-“THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open”  
+**PROVED — `B1978`** (604 words, 0 locks)  
+“THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open [dated caveat 2026-11-24: computed at a fixed tau; the act moves tau and the point together, so the orbit reading needs the frame's joint covariance checked first]”  
 `B1978_the_acts_eight_orbits_of_twelve_at_order_30/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1356 words, 0 locks)  

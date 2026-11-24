@@ -4,7 +4,12 @@
  "instrument": false,
  "creates_law": false,
  "identifications": [],
- "depends_on": ["B1977", "B1976", "B1943", "B1944"],
+ "depends_on": [
+  "B1977",
+  "B1976",
+  "B1943",
+  "B1944"
+ ],
  "rests_on_seat": [],
  "cites_seat": [],
  "supersedes": null,
@@ -16,6 +21,6 @@
   "reach": "class",
   "hypotheses": "B1977's rates as committed; no new frame computation; the orbit as the reading is a suggestion, not derived"
  },
- "claim_one_line": "THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open",
+ "claim_one_line": "THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open [dated caveat 2026-11-24: computed at a fixed tau; the act moves tau and the point together, so the orbit reading needs the frame's joint covariance checked first]",
  "weave_or_thread": "the weave (the act's orbits)"
 }
