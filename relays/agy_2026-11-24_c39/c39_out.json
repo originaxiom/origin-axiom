@@ -1,0 +1,257 @@
+{
+  "E1_hurwitz_division_ladder_and_2T": {
+    "abelianization_2T_over_Q8_order": 3,
+    "cayley_dickson_ladder": {
+      "C": {
+        "basis_roots_of_x2_plus_1": 1,
+        "dim_K": 2,
+        "lorentz_spacetime_D": 4,
+        "nonzero_basis_associator_triples": 0,
+        "nonzero_basis_commutator_pairs": 0,
+        "norm_multiplicative": true,
+        "simultaneously_normed_assoc_comm_and_x2plus1_closed": true
+      },
+      "H": {
+        "basis_roots_of_x2_plus_1": 3,
+        "dim_K": 4,
+        "lorentz_spacetime_D": 6,
+        "nonzero_basis_associator_triples": 0,
+        "nonzero_basis_commutator_pairs": 6,
+        "norm_multiplicative": true,
+        "simultaneously_normed_assoc_comm_and_x2plus1_closed": false
+      },
+      "O": {
+        "basis_roots_of_x2_plus_1": 7,
+        "dim_K": 8,
+        "lorentz_spacetime_D": 10,
+        "nonzero_basis_associator_triples": 168,
+        "nonzero_basis_commutator_pairs": 42,
+        "norm_multiplicative": true,
+        "simultaneously_normed_assoc_comm_and_x2plus1_closed": false
+      },
+      "R": {
+        "basis_roots_of_x2_plus_1": 0,
+        "dim_K": 1,
+        "lorentz_spacetime_D": 3,
+        "nonzero_basis_associator_triples": 0,
+        "nonzero_basis_commutator_pairs": 0,
+        "norm_multiplicative": true,
+        "simultaneously_normed_assoc_comm_and_x2plus1_closed": false
+      }
+    },
+    "center_2T_order": 2,
+    "commutator_subgroup_Q8_order": 8,
+    "control_1_caught": true,
+    "hurwitz_2T_unit_count": 24,
+    "sedenion_16d_zero_divisors_found": true,
+    "unique_selected_spacetime_dimension": 4
+  },
+  "E2_m004_cusp_spin_holonomy_and_B1223_I6_theorem": {
+    "all_24_canonical_map_0framed_longitude_to_minus1": true,
+    "canonical_meridian_ord3_surjections": 24,
+    "control_2_caught": true,
+    "control_3_caught": true,
+    "peripheral_cusp_holonomy_group_order_Z6": 6,
+    "product_m004_x_ALE_z0_stabilizer_order": 24,
+    "riley_SL2_Zomega_L0_is_minus_I2_parabolic": true,
+    "square_element_orders_in_2T": [
+      1,
+      2,
+      3
+    ],
+    "total_surjections_pi1_m004_to_2T": 48,
+    "twisted_H1_Z2_meridian_ord6_surjections": 24,
+    "unbranched_diagonal_quotient_z0_stabilizer_order": 1
+  },
+  "E3_native_rank16_E8xE8_R_parity_and_hidden_subalgebras": {
+    "control_4_caught": true,
+    "control_5_caught": true,
+    "dim4_BL_violating_superpotential_forbidden_count": 4,
+    "e8_root_count": 240,
+    "hidden_E8_borel_de_siebenthal_rank8_table": [
+      {
+        "deleted_bourbaki_node": 1,
+        "dual_coxeter_h_dual": [
+          14
+        ],
+        "factors": [
+          "Spin(16)"
+        ],
+        "pure_sym_1loop_b0": [
+          42
+        ],
+        "ranks": [
+          8
+        ],
+        "total_rank": 8
+      },
+      {
+        "deleted_bourbaki_node": 2,
+        "dual_coxeter_h_dual": [
+          9
+        ],
+        "factors": [
+          "SU(9)"
+        ],
+        "pure_sym_1loop_b0": [
+          27
+        ],
+        "ranks": [
+          8
+        ],
+        "total_rank": 8
+      },
+      {
+        "deleted_bourbaki_node": 3,
+        "dual_coxeter_h_dual": [
+          8,
+          2
+        ],
+        "factors": [
+          "SU(8)",
+          "SU(2)"
+        ],
+        "pure_sym_1loop_b0": [
+          24,
+          6
+        ],
+        "ranks": [
+          7,
+          1
+        ],
+        "total_rank": 8
+      },
+      {
+        "deleted_bourbaki_node": 4,
+        "dual_coxeter_h_dual": [
+          6,
+          3,
+          2
+        ],
+        "factors": [
+          "SU(6)",
+          "SU(3)",
+          "SU(2)"
+        ],
+        "pure_sym_1loop_b0": [
+          18,
+          9,
+          6
+        ],
+        "ranks": [
+          5,
+          2,
+          1
+        ],
+        "total_rank": 8
+      },
+      {
+        "deleted_bourbaki_node": 5,
+        "dual_coxeter_h_dual": [
+          5,
+          5
+        ],
+        "factors": [
+          "SU(5)",
+          "SU(5)"
+        ],
+        "pure_sym_1loop_b0": [
+          15,
+          15
+        ],
+        "ranks": [
+          4,
+          4
+        ],
+        "total_rank": 8
+      },
+      {
+        "deleted_bourbaki_node": 6,
+        "dual_coxeter_h_dual": [
+          8,
+          4
+        ],
+        "factors": [
+          "Spin(10)",
+          "SU(4)"
+        ],
+        "pure_sym_1loop_b0": [
+          24,
+          12
+        ],
+        "ranks": [
+          5,
+          3
+        ],
+        "total_rank": 8
+      },
+      {
+        "deleted_bourbaki_node": 7,
+        "dual_coxeter_h_dual": [
+          12,
+          3
+        ],
+        "factors": [
+          "E6",
+          "SU(3)"
+        ],
+        "pure_sym_1loop_b0": [
+          36,
+          9
+        ],
+        "ranks": [
+          6,
+          2
+        ],
+        "total_rank": 8
+      },
+      {
+        "deleted_bourbaki_node": 8,
+        "dual_coxeter_h_dual": [
+          18,
+          2
+        ],
+        "factors": [
+          "E7",
+          "SU(2)"
+        ],
+        "pure_sym_1loop_b0": [
+          54,
+          6
+        ],
+        "ranks": [
+          7,
+          1
+        ],
+        "total_rank": 8
+      }
+    ],
+    "planted_BL1_E6xSpin18_hidden_rank_overflow": 15,
+    "su5_x_su4_x_u1_wilson_rank_and_b0": [
+      8,
+      [
+        15,
+        12
+      ]
+    ],
+    "visible_plus_hidden_max_rank": 16,
+    "yukawa_mu_seesaw_allowed_count": 6
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "forbidden_imports": 0,
+    "passed": true
+  },
+  "card": "AGY-C39",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "layer": "Phase-7 Top-Down Layer 1 (Bedrock Algebra, I-6 Cusp Spin-Holonomy, & Native E8xE8 Closure)",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}
