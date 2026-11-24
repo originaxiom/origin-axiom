@@ -1,0 +1,149 @@
+{
+  "E1_noscale_sugra_d1_sqrt2_zero_modes_d2_and_errata_d6": {
+    "D1_noscale_sugra_stabilization": {
+      "control_1_sugra_stabilization_caught": true,
+      "cusp_walls_y2_and_i_over_15": [
+        "7.2868991e+13",
+        "7.4127761e+20"
+      ],
+      "dropped_fricke_partner_W5_break": "225.9502201",
+      "dropped_fricke_partner_zero_cusp_runaway": "8.3924876e-9",
+      "gamma0_5_and_fricke_invariance_max_err": "4.0091471e-51",
+      "hessian_eigenvalues_at_tau_star": [
+        "44.29868941",
+        "286.3052302"
+      ],
+      "kahler_covariant_Dtau_W_abs_at_tau_star": "1.9701707e-54",
+      "unbroken_susy_6d_casimir_max_abs": 0
+    },
+    "D2_kahler_3field_quad_err": "2.6000655e-47",
+    "D2_magnetized_T2_Z2_gram_max_err": "2.0526833e-48",
+    "D2_unnormalized_c41_g11": "0.5",
+    "D6_dated_errata_records": {
+      "AGY_C39_card_line22_corrected_dependency": "Rests on AGY-C35..C38",
+      "AGY_C39_card_line5_corrected_path": "relays/agy_2026-11-24_c39/c39_hurwitz_x7_i6_and_native_e8xe8_closure.py",
+      "AGY_C40_card_line5_corrected_path": "relays/agy_2026-11-24_c40/c40_unbroken_susy_e2_3gen_and_native_e8_condensation.py",
+      "C43_relay_line16_corrected_parameter_arithmetic": "v7.json R11 == 12 (4 quartics + 2 Higgs mass ratios + ln M_0 + ln m_12^2 + bar_theta_UV + 3 FN scales) -> v9.json R11 == 4 (Delta_H, c_mu, c_B, bar_theta_UV^bare): 11 of 12 replaced by 3 SUSY Kahler/GM ratios while bar_theta_UV^bare remains explicit (12 - 11 + 3 == 4, net reduction 12 - 4 == 8)",
+      "c39_script_exists_at_corrected_path": true,
+      "c40_script_exists_at_corrected_path": true,
+      "c41_line5_corrected_docstring": "Ray 1 (a, b) = (2, 3) [15(B-L)]: preserves 10 roots (dim G_LR = 15)",
+      "files_inspected_on_disk": true
+    },
+    "control_1_sugra_stabilization_caught": true,
+    "control_2_sqrt2_norm_and_bit_ledger_caught": true,
+    "layer1_bedrock": {
+      "e8_root_count": 240,
+      "i6_longitude_sign": -1,
+      "m004_ord3_surjections": 24,
+      "n10_higgs_doublet_curves": 2,
+      "order_2T": 24,
+      "rank_e8xe8": 16,
+      "selected_D": 4
+    }
+  },
+  "E2_nondegenerate_stop_cw_d5_and_3flavor_leptogenesis_d3": {
+    "control_3_stop_cw_vev_and_scaling_caught": true,
+    "control_4_3flavor_leptogenesis_and_step_halving_caught": true,
+    "dimensionful_unit_anchors_R12": 1,
+    "dynamical_horizons_tnu_tsusy_tew": [
+      "-15.385934693078",
+      "-29.073637152694",
+      "-30.133518107359"
+    ],
+    "gam_e_mu_tau_over_H_at_tnu": [
+      "0.25234703",
+      "1050.1818",
+      "2349.6745"
+    ],
+    "homogeneity_13x_max_rel_err": "1.0572974e-45",
+    "mQ3_sq_over_mU3_sq_at_MS": "0.94608547",
+    "mh0_over_mz": "1.0554438",
+    "mt_over_mb_msbar": "20.54863397",
+    "planted_2nd_anchor_smuggling_rel_break": "11.85854041",
+    "planted_coherent_2fl_yb_drift_rel": "0.43361876",
+    "planted_tree_vev_jump_rel": "0.068519091",
+    "vev_continuity_abs_err": "0.0",
+    "yb_3fl_iso_branch_diagnostic": "1.2315161565e-12"
+  },
+  "E3_live_50x4_jacobian_u3_pow6_scrambling_and_v7_vs_v9": {
+    "coarse_N12_euler_max_rel_err": "1.053230056",
+    "control_5_50x4_jacobian_chiral_scrambling_and_tamper_caught": true,
+    "core_48_discrete_bits": "33/2",
+    "full_50_discrete_bits": "35/2",
+    "matched_null_2000_hits": 0,
+    "non_takagi_mR_negative_ctrl_rel_break": "10.71915035",
+    "omitted_chiral_anomaly_theta_rel_break": "0.7864091544",
+    "redundant_5th_scale_col_rank": 4,
+    "redundant_5th_singular_value": "1.1479437e-41",
+    "true_step_halving_N120_vs_N240_max_rel_err": "9.570374551e-11",
+    "u3_pow6_chiral_scrambling_max_rel_err": "3.499619692e-45",
+    "uv_continuous_jacobian_singular_values": [
+      "67.40100457",
+      "19.98719993",
+      "0.5057567869",
+      "0.101519726"
+    ],
+    "uv_continuous_jacobian_svd_rank_R11": 4,
+    "v7_vs_v9_internal_synthesis_comparison": {
+      "IC5_uv_bose_fermi_deficit_v7_to_v9": [
+        -6,
+        0
+      ],
+      "R11_continuous_uv_parameters_v7_to_v9": [
+        12,
+        4
+      ],
+      "ckm_v23_v7_to_v9": [
+        "0.32810016759",
+        "0.27353015896"
+      ],
+      "continuous_parameter_reduction_count": 8,
+      "core_48_discrete_bits_v7_to_v9": [
+        "39/2",
+        "33/2"
+      ],
+      "full_50_discrete_bits_v7_to_v9": [
+        "41/2",
+        "35/2"
+      ],
+      "higgs_h0_over_vew_v7_to_v9": [
+        "0.38275812587",
+        "0.39904263666"
+      ],
+      "leptogenesis_Y_B_v7_to_v9": [
+        "9.6169692152e-10",
+        "1.1798691083e-10"
+      ],
+      "mc_over_qcd_Lambda_4f_v7_to_v9": [
+        "0.045084914554",
+        "87.334700985"
+      ],
+      "pmns_u12_v7_to_v9": [
+        "0.70256507499",
+        "0.26068595424"
+      ],
+      "v7_found": true,
+      "v7_sha256_payload_digest": "39fdf56c0ff6e1e914e78d93dde678d3de30a96346888a71c2cce6a7f99cfecf",
+      "v8_untouched_sha256_payload_digest": "c9c58fea83eb0d7d44c730bc59b7d9a58f716810bc2eb7c3176ca229efe9b6de",
+      "v9_sha256_payload_digest": "ee0590080447a2c40b56a0eeb765758f3ee3e86d1a8cc986a32a2a6f36ad20be"
+    }
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "forbidden_imports": 0,
+    "passed": true
+  },
+  "card": "AGY-C44",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "layer": "Phase-7 Remediation (Closing D1..D6 & Seam AGY-C37-S1) & blind_predictions_topdown_toe_v9.json Seal",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5,
+  "v9_json_sha256_payload_digest": "ee0590080447a2c40b56a0eeb765758f3ee3e86d1a8cc986a32a2a6f36ad20be"
+}
