@@ -1,0 +1,9 @@
+computed 96 points  [22 s]
+R1 holds: True | points missing in main's json 0, worst rate difference 0.00e+00, worst diagonal difference 0.00e+00
+R2 holds: True | V23 rates 30-40 at the slow points: [0.03322, 0.03322, 0.03322, 0.03322, 0.03322] ; 20-30: [0.03247, 0.03247, 0.03247, 0.03247, 0.03247]
+R3 holds: False | largest column difference 2.39e-03, over 864 rates; above 1e-3: 32
+R4 holds: True | G5 points 30; least diagonal at 40 among them 1.0000
+R5 holds: True | rates 30-40 on the 1/60 grid: 864 of 864
+   read-outs: rates 20-30 on the grid 860 of 864; drift from 20-30 to 30-40: largest 3.15e-03, above 1e-3: 66 of 864
+R6 read-out (B1977's criteria on these numbers): G1 5 of 5, G2 5 of 5, G3 860 of 864, G4 5 of 5, G5 30 points
+done  [22 s]
