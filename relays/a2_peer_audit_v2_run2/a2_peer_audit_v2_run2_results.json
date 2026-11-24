@@ -1,0 +1,455 @@
+{
+  "PA2_A_custody_hygiene_and_referee_audit": {
+    "agy_custody": {
+      "head": "b06c8fc1e",
+      "json_files_audited": 9,
+      "json_float_tokens": 0,
+      "manifests_matched": 23,
+      "manifests_total": 23,
+      "mismatches": [],
+      "py_ast_float_or_cast_files": 0,
+      "py_files_audited": 14
+    },
+    "agy_exp_custody": {
+      "head": "57ad12a6a",
+      "json_files_audited": 6,
+      "json_float_tokens": 0,
+      "manifests_matched": 12,
+      "manifests_total": 12,
+      "mismatches": [],
+      "py_ast_float_or_cast_files": 0,
+      "py_files_audited": 6
+    },
+    "passed": true,
+    "pf1_tampered_manifest_caught": true,
+    "referee_x_floor_link8_guardrail6_audit": {
+      "ast_liouville_yukawa_ckm_pmns_code_identifiers": [],
+      "catch_FL8_F2b_confirmed": true,
+      "defined_functions": [
+        "rat_mp",
+        "pow10_mp",
+        "fr_to_str",
+        "check_json_no_float",
+        "audit_python_ast",
+        "gl6_integrate",
+        "referee_l8_1",
+        "referee_l8_2",
+        "referee_l8_3",
+        "jacobi_triple_t3_t4",
+        "referee_l8_4",
+        "mssm_24_ref_rhs",
+        "am_point_ref",
+        "referee_l8_5_and_6",
+        "main",
+        "kron_list",
+        "dz_triple",
+        "gam12",
+        "f_pot_core",
+        "sm7_rhs",
+        "_f"
+      ],
+      "docstring_claims_fuchsian_liouville": true,
+      "producer_json_uv_yb0_echo_lines": [
+        510,
+        511
+      ]
+    },
+    "unchanged_peer_heads": {
+      "chat1": "f25ec9069",
+      "cld_advisor": "fbc4764bb",
+      "main": "279459977",
+      "physical": "32514763f",
+      "sm": "c9296d14a"
+    }
+  },
+  "PA2_B_agy_exp_block_B1_hirzebruch_and_E8": {
+    "L8_3_verified_the_same": {
+      "d5_reflection_even_5perp_10perp": [
+        3,
+        4
+      ],
+      "e8_spin10_su4_dims": [
+        45,
+        15,
+        60,
+        64,
+        64
+      ],
+      "qx_16_and_10": [
+        [
+          -3,
+          1,
+          5
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "z2_matter_parity_16_10_dim4_rpv": [
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    "catch_FL8_F1_hirzebruch_refutation": {
+      "adjunction_2g_minus_2": -2,
+      "l8_1_claimed_hirzebruch_k_shifted_by_plus2": [
+        6,
+        4
+      ],
+      "pure_6d_su4_su5_irreducible_trF4_anomalies": {
+        "SU(4)_pure_SYM_trF4_coeff": 8,
+        "SU(5)_pure_SYM_trF4_coeff": 10
+      },
+      "sadov_kmt_a_dot_b": "2 - n16",
+      "sadov_kmt_b_dot_b": "n16 - 4",
+      "single_base_v1_plus_v2_24_instanton_rule_n5_and_nT_needed_for_2_and_1": [
+        6,
+        7
+      ],
+      "spin10_n16_required_on_F6_impossible": -2,
+      "true_hirzebruch_k_for_n16_0_and_2": [
+        4,
+        2
+      ]
+    },
+    "catch_FL8_F7_hu_hd_su5_perp_symmetry": {
+      "both_higgs_doublets_are_2sheeted_lambda2": true,
+      "e8_su5_gut_x_su5_perp_dims": [
+        24,
+        24,
+        50,
+        50,
+        50,
+        50
+      ],
+      "hd_in_5bar_GUT_su5_perp_rep_dim": 10,
+      "hu_in_5_GUT_su5_perp_rep_dim": 10
+    },
+    "passed": true,
+    "pf2_bad_n10_and_F6_caught": true
+  },
+  "PA2_C_agy_exp_block_A_genesis_spin10_K6_outD5": {
+    "F7_1_F7_2_L8_4_verified_the_same": {
+      "8_3_4_H1_and_cusps": [
+        3,
+        [],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "D5_aut_inn_out": [
+        20,
+        10,
+        2
+      ],
+      "K5_unique_m004_RL_invariant": [
+        1,
+        2
+      ],
+      "affine_e8_order8_min_det_and_nodes": [
+        20,
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "jacobi_triple_deltaZ_2i_and_tau8": [
+        "-0.000180171234122",
+        "0.00131920921887"
+      ],
+      "m000_double_covers": 1,
+      "m004_nonabelian_surjections_le12": {
+        "A_4": 24,
+        "D_4": 0,
+        "D_5": 20,
+        "D_6": 0,
+        "Dic_3": 0,
+        "Q_8": 0,
+        "S_3": 0
+      },
+      "spin10_16_anomalies_zero_and_kept_6Y": [
+        true,
+        [
+          -3,
+          -3,
+          3,
+          3
+        ]
+      ],
+      "spin10_centralizer_dims": [
+        21,
+        25,
+        13,
+        12
+      ]
+    },
+    "catch_FL8_F3_K6_not_unique": {
+      "K6_plus_preserved_by_M_RL_or_M_2": [
+        false,
+        false
+      ],
+      "M_2_image_of_1_1_mod6": [
+        1,
+        3
+      ],
+      "M_RL_image_of_1_1_mod6": [
+        3,
+        2
+      ],
+      "S_swaps_K6_plus_to_K6_minus": true,
+      "hardcoded_a_eq_b_filter_count": 1,
+      "minimum_K6_selection_bits": "1",
+      "total_order6_subgroups_of_E6": 12,
+      "true_AB_setwise_symmetric_anchored_at_33_count": 2,
+      "true_AB_setwise_symmetric_subgroups_primitives": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            5
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      ]
+    },
+    "passed": true,
+    "pf3_S_swap_and_tr4_S3_caught": true
+  },
+  "PA2_D_agy_exp_block_B2_pmns_racetrack_splitsusy_bp": {
+    "catch_FL8_F2_pmns_and_su2L_haar_bug": {
+      "L8_5_broken_formula_true_SU2L_haar_violation": "0.6765876",
+      "L8_5_broken_ueH_conj_ut_pmns_repro": [
+        "0.13553428",
+        "0.39055563",
+        "0.13739528"
+      ],
+      "L8_5_repro_diff_vs_peer_json": "4.90585e-9",
+      "fixing_only_vh_transpose_shift_on_abs_Upmns_sq": "7.4837412e-49",
+      "relay_takagi_diagnosis_refuted": true,
+      "true_SU2L_10trial_haar_err": "6.0297572e-48",
+      "true_gauge_invariant_pmns_s12_s23_s13_dm": [
+        "0.37125587",
+        "0.57048621",
+        "0.1250114",
+        "0.013289055"
+      ],
+      "true_takagi_residual": "2.5527e-51"
+    },
+    "catch_FL8_F4_racetrack_and_split_susy_rge": {
+      "gl4_richardson_jack_jones_and_fmm_errs": [
+        "5.5059e-18",
+        "1.71057e-49"
+      ],
+      "gl4_vs_L8_cH_tanb_mh4_raw_diffs": [
+        "1.66744e-13",
+        "4.32817e-12",
+        "0.0"
+      ],
+      "mh_over_v_L8_vs_complete_SplitSUSY_GR": {
+        "dt_SM_-3": {
+          "mh_over_v_L8_raw_repro": "0.3412561657",
+          "mh_over_v_complete_SplitSUSY_GR": "0.3501753851",
+          "mh_over_v_heavy_higgsinos_decoupled": "0.3379586166",
+          "rel_shift_complete_GR_vs_L8": "0.0261364"
+        },
+        "dt_SM_-4": {
+          "mh_over_v_L8_raw_repro": "0.3717123301",
+          "mh_over_v_complete_SplitSUSY_GR": "0.3773656237",
+          "mh_over_v_heavy_higgsinos_decoupled": "0.3688274731",
+          "rel_shift_complete_GR_vs_L8": "0.0152088"
+        },
+        "dt_SM_-5": {
+          "mh_over_v_L8_raw_repro": "0.4057269626",
+          "mh_over_v_complete_SplitSUSY_GR": "0.4082480557",
+          "mh_over_v_heavy_higgsinos_decoupled": "0.4032669471",
+          "rel_shift_complete_GR_vs_L8": "0.00621377"
+        }
+      },
+      "polonyi_racetrack_verified_diffs_agut_M0": [
+        "1.6111421e-23",
+        "4.615784e-21"
+      ],
+      "pure_SYM_4_5_W_zero_s_negative_no_pos_vac": "-0.23676266",
+      "pure_SYM_5_4_s_and_alpha_GUT_inv": [
+        "0.23676266",
+        "1.1838133"
+      ],
+      "stop_threshold_L8_vs_exact_4x": [
+        "-0.00039745097",
+        "-0.0015898039"
+      ],
+      "sympy_complete_split_susy_weyl_proof": {
+        "all_4_beta_g_closed_forms_exact": true,
+        "su2_tensor_consistency": true,
+        "susy_beta_lambda_g2_gp_exact_cancel": true,
+        "susy_g2_cancel_in_beta_gup": true,
+        "susy_gp_cancel_in_beta_gu": true
+      }
+    },
+    "catch_FL8_F5_mirror_cpt_and_negative_YB_sign": {
+      "F7_2_docstring_positive_YB_contradicted": true,
+      "curved_J_over_YB_mirror_diff": "1.3651486e-74",
+      "curved_metric_YB_proxy_tau8_pos": "-5.27173243426e-5",
+      "flat_J_over_YB_mirror_diff": "6.3727858e-74",
+      "flat_metric_YB_proxy_tau8_pos": "-5.08186806602e-5"
+    },
+    "catch_FL8_F6_bp_shannon_bit_floor_contradiction": {
+      "shannon_bits_for_10e129_flux_window": "428.52872",
+      "worst_case_r8_bp_log10_spacing_verified": "-268.72964"
+    },
+    "disjoint_rk4_dirac_gramian": [
+      "1.070200634",
+      "0.8684023496",
+      "1.061397017"
+    ],
+    "passed": true,
+    "pf4_haar_break_and_wrong_rge_dir_caught": true,
+    "rk4_vs_peer_gramian_max_diff": "5.70613e-6",
+    "rk4_vs_peer_true_pmns_max_diff": "2.33667e-6"
+  },
+  "PA2_E_agy_C37_C38_v7_and_OW22_closure": {
+    "AGY_C37_C38_verified_the_same": {
+      "C37_E3_seesaw_eps1_cancellation_frob_err": "2.2849976e-51",
+      "C38_B4_2hdm_quartic_max_diff": "3.6609287e-36",
+      "all_6_u1chi_anomalies_zero": true,
+      "dirac_11d_quantization_exact": true,
+      "lambda_qcd_5f_rel_diff_and_gl4_rich_rg_invar": [
+        "7.2340292e-11",
+        "1.1938759e-16"
+      ],
+      "m11_over_mgut_abs_diff": "2.8552509e-30",
+      "mpl_sd_and_iso_rel_diffs": [
+        "2.9029079e-12",
+        "5.710478e-12"
+      ],
+      "sympy_caswell_jones_2loop_rg_invar_exact": true
+    },
+    "OW22_F1_F3_acknowledged_and_resolved": {
+      "OW22_F1_stage_consistent_a1_table": {
+        "B4_IR_49_12": "37/2",
+        "B4_UV_52_13": "39/2",
+        "B5_13vec_85_13": "36",
+        "B5_IR_85_12": "73/2",
+        "B5_UV_E6_85_14": "71/2"
+      },
+      "OW22_F2_T2_SS_Beff_collapse": "0.558242669",
+      "OW22_F2_superseded_in_agy002": "Superseded by 4D dynamical hidden-sector NSVZ gaugino condensation in A2-OW23..OW27 (giving M_SUSY << M_GUT cleanly).",
+      "OW22_F3_acknowledged": "Single E_8 vector multiplet picks 1 homomorphism in Hom(Z^2, Z_2) \\ {0}; 3 generations biject onto E[2] \\ {0}."
+    },
+    "passed": true,
+    "pf5_drop_nuc_and_c35_quant_caught": true,
+    "seam_AGY_C37_S1_leptogenesis_sd_vs_iso_branch": {
+      "Gamma_tau_over_H_sd_vs_iso": [
+        "13.229536",
+        "952.58482"
+      ],
+      "K1_sd_vs_iso": [
+        "388.82013",
+        "27996.76"
+      ],
+      "Y_B_sd_sealed_vs_iso_estimate": [
+        "9.6169692e-10",
+        "6.737546e-12"
+      ],
+      "mpl_iso_over_sd_ratio": "72.00440041",
+      "washout_drop_factor_R_pow_29_25": "142.73697"
+    }
+  },
+  "PA2_F_blind_cross_seat_comparison_and_lock_v3": {
+    "cross_seat_blind_comparison_0_of_19": {
+      "agy_002_B4_UV_LOCK_V3_m0_3v_10v": {
+        "Lambda_QCD_4f_over_vEW": [
+          "0.00452331048342",
+          "0.0121834811632"
+        ],
+        "alpha_3_5f": [
+          "0.14894450509",
+          "0.188668901549"
+        ],
+        "honest_ledger_partition": "1/10/9/4 = 24 (OBS-18/20/24 honestly open)",
+        "mh_pole_over_MZ": [
+          "1.48576177841",
+          "1.70205271324"
+        ],
+        "sin2_thetaW_MSbar": [
+          "0.227833728324",
+          "0.221899003316"
+        ]
+      },
+      "agy_exp_LINK8_dtSM_m4_raw_vs_corrected": {
+        "alpha_3_dt_m4": "0.09892057102",
+        "claimed_vs_audited_floor": "Claimed 2.0 bits + 1 cont; audited >= 430+ bits (BP 428.5 + R1 + R2 + K6>=1 + c1=240/SU4xSU5 + mu_X^4)",
+        "mh_over_v_raw_vs_complete_GR": [
+          "0.3717123301",
+          "0.3773656237"
+        ],
+        "pmns_s12_s23_s13_L8_corrupted_vs_true_Takagi": [
+          [
+            "0.13553428",
+            "0.39055563",
+            "0.13739528"
+          ],
+          [
+            "0.37125587",
+            "0.57048621",
+            "0.1250114"
+          ]
+        ],
+        "sin2_thetaW_dt_m4": "0.2315218611"
+      },
+      "agy_v7_json_nonsusy_2HDM": {
+        "Lambda_QCD_4f_over_vEW": "0.0094739165928",
+        "alpha_3_ir": "0.13675184453",
+        "honest_ledger_partition": "12 continuous UV + 39/2..41/2 discrete bits",
+        "mh0_over_vEW": "0.38275812587",
+        "sin2_thetaW_ir": "0.2106985971"
+      }
+    },
+    "lock_v3_digest_intact": true,
+    "lock_v3_sha256": "ce81cddd9d056a54fafa6b30d431073ae1af75399a1d82918f4e074f0bd98a2a",
+    "passed": true,
+    "pf6_lock_v3_tamper_caught": true
+  },
+  "all_gates_passed": true,
+  "card": "AGY-002_A2-PEER-AUDIT-V2",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "recomputed independently",
+    "tested against planted errors"
+  ],
+  "firewall": "0 of 19",
+  "planted_controls_caught": 6,
+  "planted_controls_total": 6,
+  "script": "verify_a2_peer_audit_v2_run2.py",
+  "script_sha256": "834101eb844ed182bbc68583fb452ad148b393564cf7f4f87ea18c2a7816a162",
+  "seat": "agy-002",
+  "self_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  },
+  "version": "run2 (supersedes frozen v1 at relays/a2_peer_audit_v2/ which caught 4 own-diagnostic bugs)"
+}
