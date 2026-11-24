@@ -8,7 +8,7 @@
 - premises on main: B1656, B1736, B1838, B1927, B1940, B1966, B1967, B1968, B1969, B1971, B1972, P-879
 - decisive script: relays/a2_p879_v5/verify_a2_p879_v5.py, SHA-256 8db5e4f770a6b5dd, depends on stdlib, sympy, mpmath, numpy (zero external files, zero subprocess, 100% sandbox-runnable), run as python3 relays/a2_p879_v5/verify_a2_p879_v5.py, output SHA-256 1c764eb437db06a1
 - second computation: agy-002 disjoint Cold-Room Referee v3 (relays/a2_p879_referee_v3/referee_a2_p879_v3.py, SHA-256 67e521a3eae26588, output 52413e29b185edfb: independent RK4 Weierstrass L_2 + 316-pt CP^2 certifier, agrees 9/9); main B1971 (5988bd5de, dated correction) independently confirmed T1, T4(a), and T4(b)
-- already on main?: topic-sweep /B1966|B1967|B1968|B1969|B1971|P-879/ on VERDICT_LEDGER (27a9353e5): 5 arcs; closest B1968, B1971, B1972 (B1972 names A2-P879 as #1 open Tier-A item)
+- already on main?: topic-sweep /B1966|B1967|B1968|B1969|B1971|B1973|P-879/ on VERDICT_LEDGER (f4a0ab61f): 6 arcs; main banked T3 and T4(b) on 2026-11-24 as B1973 (4418092a3, M58, noting the original 2026-11-20 scope-card notation slip ||v||^2 = 1 + |l^T eps conj(xi)|^2); the open interior 0 < r < 1 invited by M58 is now closed analytically in companion card relays/claims/CLAIM_2026-11-24_m58_p879_universal_interior_tradeoff_bound.md
 - what would make it fail: B1967's 16-rational counterexample witness (s_L = 0.9537 > 17/19) must remain UNPRUNED by the CP^2 certifier (verified: 310,250 boxes Producer / 9,712 boxes Referee survive) + 5/5 planted controls PF1..PF5 & 10-trial Haar U(3)^3 invariance (< 9e-14)
 
 ## Summary of Certified Theorems (`T1–T5`, `0 of 19`, `mended expectations` per Errata 1–4)
