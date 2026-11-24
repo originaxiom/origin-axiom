@@ -1,0 +1,24 @@
+{
+ "id": "B1976",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1698", "B1942", "B1949", "B1943", "B1945", "B1970", "B1971"],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-002's M33 (harvest row 1995): an order-10 lift splits the leptons",
+  "the agy lane's C7 (harvest row 1993): lcm(5, 6) = 30 reached inside a weave model"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C, every sector reading S (B1970), at height 30 and column 0.13",
+  "object": "the ties between sectors at points of order N (the unit test mod 5, 6, 30), and the couplings and mixing at the 96 points of order 30 whose order-5 part lies on the act's line, with the order-6 and order-5 controls",
+  "reach": "class",
+  "hypotheses": "B1945's frame unchanged; one height and column; the card and script hashed before the run (one disclosed mend before any row printed); the slow 2-3 mixing is a post hoc observation at five points; no claim that the object picks level 30"
+ },
+ "claim_one_line": "THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up matrix symmetric, the leptons the down quarks transposed); order 6 makes up and down share their left structure (the mixing the identity at all 24 points; the couplings equal at 12 and equal up to theta phases at 12); order 30 on the act's line breaks the lepton-down tie at 88 of 96 points and the up symmetry at 92, keeping the mixing aligned at all 96; the mixing does not grow in general (26 of 96), but at five points (post hoc) a 2-3 mixing of 0.018 falls with height at a rate near 1/30 only",
+ "weave_or_thread": "the weave (the points of a level)"
+}

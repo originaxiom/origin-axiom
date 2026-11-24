@@ -18062,6 +18062,21 @@
    "status": "dead",
    "domain": "physics"
   },
+  "B1976": {
+   "slug": "the level as a lens frame c at order 30",
+   "motifs": [
+    "coupling",
+    "eisenstein"
+   ],
+   "refs": [
+    "K5",
+    "K6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 21,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [

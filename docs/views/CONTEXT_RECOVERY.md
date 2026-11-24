@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1672 |
-| … PROVED | 1166 |
+| arcs with a verdict file | 1673 |
+| … PROVED | 1167 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1976 | PROVED | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up…” |
 | B1975 | PROVED | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tre…” |
 | B1974 | PROVED | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose…” |
 | B1973 | PROVED | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup∣V33∣ = (1+s_L)/(3-s_L) at a null Higgs holds on main's own c…” |
@@ -42,7 +43,6 @@
 | B1967 | PROVED | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diago…” |
 | B1966 | PROVED | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vec…” |
 | B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
-| B1964 | PROVED | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: REVIEW 86 ENTERED (B1975; P-880, P-881).** Three cold readers read eight arcs of the window (B1962 to B1974) on a copy with seven sealed plants and caught six; the miss was a number inside a later dated note. They found real faults in every arc. Main checked each on the live tree and mended it. Two were recomputed. B1971's census at the true orders gives 120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, which is B1963's 12. B1970's holomorphy check, redone on the coupling itself, holds under S and fails under S~. B1973's account of agy-002's certificate is corrected in the seat's favour, and B1974's title is corrected (the force sits in P1). Th…”
+“LATEST (2026-11-24, S306p: THE LEVEL AS A LENS (B1976, PROVED for its sealed checks, two in part; data-free; P-845, P-860 (d)).** At a point of order N, frame C sees the charges only mod N. Level 5 is minimal SU(5) in disguise: the symmetric up matrix and the lepton-down tie are its relations. Order 6 makes up and down share their left structure. Order 30 on the act's line, the act's 5 times the gauge centre's 6, breaks both ties at most points and keeps the mixing aligned. The mixing does not grow in general, but at five points a 2-3 entry of 0.018 barely falls with height (rate near 1/30, post hoc). One sealed check failed as worded, and its test had a double-precision fault; both are dis…”
 
 ## Completeness (nothing skipped silently)
 
