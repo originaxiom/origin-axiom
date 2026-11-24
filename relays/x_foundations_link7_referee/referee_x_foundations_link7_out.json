@@ -1,0 +1,90 @@
+{
+  "all_checks_passed": true,
+  "audited_producer_output_sha256": "1e295fd21dfa51f5256ebe9f4dfb7a9cf023c0157d4c7df1d51672c9e183adb4",
+  "audited_producer_script_sha256": "0ff292edc4e1f5a8e21a11f0cacc9e9c9ae0e80b58908d88b2ef13e0a0d7d539",
+  "card": "AGY-EXP_X-FOUNDATIONS-LINK7",
+  "empirical_constants_used": "0 of 19",
+  "modules_passed_count": 6,
+  "planted_controls_caught_count": 6,
+  "referee_modules": {
+    "REF_FL7_1": {
+      "alexander_polynomial_m004": "-t**2 + 3*t - 1",
+      "double_cover_M2_torsion_order": 5,
+      "e8_deleted_2_5_component_ranks": [
+        3,
+        4
+      ],
+      "knot_determinant_m004": 5,
+      "passed": true,
+      "r_pc_fl7_1_planted_control_caught": true,
+      "r_pc_fl7_1_trefoil_det": 3,
+      "ref_d5_cusp_degrees": [
+        1,
+        2,
+        2
+      ]
+    },
+    "REF_FL7_2": {
+      "cl10_16plus_Pspin_eigenspace_dims": [
+        8,
+        8
+      ],
+      "cl10_spinor32_centralizer_dims": [
+        21,
+        25,
+        13,
+        12
+      ],
+      "passed": true,
+      "r_pc_fl7_2_p7_centralizer_dim": 24,
+      "r_pc_fl7_2_planted_control_caught": true
+    },
+    "REF_FL7_3": {
+      "cayley_unitary_v12_diff": "3.6215178e-8",
+      "jtp_vs_producer_6perm_pmns_max_diff": "4.4062534e-7",
+      "passed": true,
+      "r_pc_fl7_3_non_equivariant_max_s23sq": "0.25765856",
+      "r_pc_fl7_3_planted_control_caught": true
+    },
+    "REF_FL7_4": {
+      "passed": true,
+      "pentagonal_M0_over_m32_diff": "4.615784e-21",
+      "pentagonal_bisection_s_diff": "4.2431863e-30",
+      "pentagonal_m32_diff": "7.8641335e-34",
+      "r_pc_fl7_4_off_locus_VD": "9.0101171e-6",
+      "r_pc_fl7_4_planted_control_caught": true
+    },
+    "REF_FL7_5": {
+      "gl6_vs_gbs8_mHu2_diff": "9.6961355e-14",
+      "gl6_vs_gbs8_mh_over_v_diff": "3.0532766e-11",
+      "gl6_vs_gbs8_tanb_diff": "3.9588465e-12",
+      "passed": true,
+      "r_pc_fl7_5_planted_control_caught": true,
+      "r_pc_fl7_5_wrong_dlnmu2_mHu2": "-0.25111666"
+    },
+    "REF_FL7_6": {
+      "passed": true,
+      "producer_ast_clean": true,
+      "producer_sha256_custody_verified": true,
+      "r_pc_fl7_6_planted_control_caught": true,
+      "r_pc_fl7_6_underprice_gap_bits": "5.4594316",
+      "shannon_bit_bounds_diff": "1.8637297e-8"
+    }
+  },
+  "referee_planted_controls": {
+    "R_PC_FL7_1": true,
+    "R_PC_FL7_2": true,
+    "R_PC_FL7_3": true,
+    "R_PC_FL7_4": true,
+    "R_PC_FL7_5": true,
+    "R_PC_FL7_6": true
+  },
+  "referee_script_sha256": "7757cba321b9b216285ef5c254e238cb43bfcb139689c36008994729798b3d8e",
+  "role": "disjoint_cold_room_referee",
+  "self_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  }
+}
