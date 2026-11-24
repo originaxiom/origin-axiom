@@ -1,0 +1,250 @@
+{
+  "M49_1_p642_laundering_group": {
+    "b766_chord_mod15_nonzero_entries": 6,
+    "b766_trace_blindness_k123": true,
+    "cyclotomic_degree_phi15": 8,
+    "elementary_abelian_exponent_2_proved_on_parity_even": true,
+    "gauss_sum_identities_zero": true,
+    "generators_V4": {
+      "diagonal_meeting_u": 2,
+      "eisenstein_launder_u": 11,
+      "golden_launder_u": 7
+    },
+    "hecke_commutant_order_N15": 40,
+    "level_N": 15,
+    "matrix_level_quotient_f2_rank": 3,
+    "matrix_level_quotient_order": 8,
+    "orphan_N105_3prime_f2_rank": 3,
+    "orphan_sqrt3_sqrt35_pair_f2_rank": 2,
+    "pc_m49_1_single_end_collapse_and_non_parity_order4_caught": true,
+    "scalar_kernel_squares_mod15": [
+      1,
+      4
+    ],
+    "scalar_quotient_f2_rank": 2,
+    "scalar_quotient_is_klein_V4": true,
+    "scalar_quotient_order": 4,
+    "u2_even_involution_err": "1.7769e-14",
+    "u2_non_parity_order2_gap": "1.90211303",
+    "units_mod15": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      13,
+      14
+    ],
+    "weil_non_parity_kernel": [
+      1
+    ],
+    "weil_parity_even_kernel": [
+      1,
+      4
+    ],
+    "z2_conjecture_single_cyclic_refuted": true
+  },
+  "M49_2_p649_m003_algebra_and_gates": {
+    "gate_g1_fd_dirac_err": "4.52576e-33",
+    "gate_g2_su2_cocycle_err": "4.59177e-41",
+    "gate_g2b_conj_iwasawa_err": "1.32504e-21",
+    "m003_parabolic_sign_or_lattice_errors": 0,
+    "m003_parabolic_words_len_le_8": 28,
+    "m003_peripheral_traces_rho1": [
+      2,
+      -2
+    ],
+    "m003_peripheral_traces_rho2": [
+      -2,
+      -2
+    ],
+    "m003_relator_rho1_rho2_exact": true,
+    "min_dual_mu_m003_rho1": "0.28867513459481",
+    "min_dual_mu_m004_rho1": "0.14433756729741",
+    "min_dual_mu_ratio_m003_over_m004": "2.00000000000000",
+    "p540_sister_isomorphism_words": {
+      "conj_a3": "ba",
+      "conj_b3": "BABaB",
+      "inv_a": "Xyxyx",
+      "inv_b": "YXYx"
+    },
+    "p540_sister_spin_swap_proved": true,
+    "pc_m49_2_caught": true,
+    "pc_m49_2_unconjugated_iwasawa_fail_gap": "0.907271"
+  },
+  "M49_3_p649_m003_dirac_control_and_O4": {
+    "b933_O4_resolved_minus2_minus2_is_non_lie_discrete": true,
+    "lam0_kernel_separation_ratio_m003_over_m004": "4.9187e+11",
+    "lam0_sigma123_m003_rho1_YA": [
+      "0.59547469",
+      "0.61858936",
+      "0.63176032"
+    ],
+    "lam0_sigma123_m003_rho2_YA": [
+      "0.62152670",
+      "0.63043747",
+      "0.63748315"
+    ],
+    "lam0_sigma123_m004_rho1_YA": [
+      "1.2106e-12",
+      "1.2106e-12",
+      "0.60029709"
+    ],
+    "m003_certified_eigenvalues_abs_le_5": [
+      {
+        "rho1_lambda_YA": "2.0691854837984",
+        "rho1_lambda_YB": "2.0691854837984",
+        "rho1_sigma12_YA": [
+          "5.8975e-12",
+          "5.8975e-12"
+        ],
+        "rho1_two_Y_diff": "2.6201e-14",
+        "rho2_lambda_YA": "-2.0691854837984",
+        "rho2_two_Y_diff": "3.5172e-13",
+        "spin_swap_sum_err": "4.3521e-14"
+      },
+      {
+        "rho1_lambda_YA": "-3.9278714324003",
+        "rho1_lambda_YB": "-3.9278714324007",
+        "rho1_sigma12_YA": [
+          "3.7009e-11",
+          "3.7009e-11"
+        ],
+        "rho1_two_Y_diff": "3.9124e-13",
+        "rho2_lambda_YA": "3.9278714324003",
+        "rho2_two_Y_diff": "1.0139e-12",
+        "spin_swap_sum_err": "4.4409e-14"
+      },
+      {
+        "rho1_lambda_YA": "4.4319323215653",
+        "rho1_lambda_YB": "4.4319323215658",
+        "rho1_sigma12_YA": [
+          "8.9831e-11",
+          "8.9831e-11"
+        ],
+        "rho1_two_Y_diff": "4.7962e-13",
+        "rho2_lambda_YA": "-4.4319323215661",
+        "rho2_two_Y_diff": "8.5443e-13",
+        "spin_swap_sum_err": "7.8781e-13"
+      }
+    ],
+    "m003_max_spin_swap_sum_err": "7.8781e-13",
+    "m003_max_two_Y_diff": "4.7962e-13",
+    "m003_rho1_modes_pts_YA": [
+      446,
+      361
+    ],
+    "m003_rho1_modes_pts_YB": [
+      600,
+      484
+    ],
+    "p330_instrument_validated_no_cusp_artifact": true,
+    "pc_m49_3_barren_bracket_sigma": "0.433937",
+    "pc_m49_3_caught": true,
+    "pc_m49_3_neg_lam1_sigma_on_rho1": "0.596075"
+  },
+  "M49_4_p649_m004_dirac_laplace_check": {
+    "dirac_laplace_coincidence_refuted": true,
+    "exclusion_multiple_over_joint_bar": "1.1387e+08",
+    "gap_lambda_D4_minus_r3": "6.488752e-03",
+    "gap_lambda_D5_minus_sqrt_1_plus_r4_sq": "8.280290e-03",
+    "global_closest_pair_over_140_comparisons": {
+      "abs_gap": "6.488752e-03",
+      "dirac_index": "4",
+      "lambda_D": "5.677208785924",
+      "maass_index": "3",
+      "mapped_maass": "5.670720034312",
+      "transform": "r"
+    },
+    "m004_positive_dirac_eigenvalues_le_6p5": [
+      {
+        "k": 1,
+        "lambda_D_YA": "2.9745505801730",
+        "lambda_D_YB": "2.9745505801724",
+        "sigma1_YA": "7.2103e-12",
+        "two_Y_diff": "5.8353e-13"
+      },
+      {
+        "k": 2,
+        "lambda_D_YA": "4.3278224241368",
+        "lambda_D_YB": "4.3278224241368",
+        "sigma1_YA": "1.1452e-11",
+        "two_Y_diff": "3.5527e-15"
+      },
+      {
+        "k": 3,
+        "lambda_D_YA": "4.7290495547912",
+        "lambda_D_YB": "4.7290495547912",
+        "sigma1_YA": "1.2494e-11",
+        "two_Y_diff": "8.8818e-16"
+      },
+      {
+        "k": 4,
+        "lambda_D_YA": "5.6772087859244",
+        "lambda_D_YB": "5.6772087859238",
+        "sigma1_YA": "8.6268e-11",
+        "two_Y_diff": "5.9952e-13"
+      },
+      {
+        "k": 5,
+        "lambda_D_YA": "6.0051626372746",
+        "lambda_D_YB": "6.0051626372739",
+        "sigma1_YA": "5.1796e-11",
+        "two_Y_diff": "7.6916e-13"
+      }
+    ],
+    "m004_scalar_maass_eigenvalues_le_6p3": [
+      {
+        "multiplicity": 2,
+        "n": 1,
+        "r_YA": "3.938916864285",
+        "r_YB": "3.938916864283",
+        "sqrt_1_plus_r2": "4.063873283427",
+        "two_Y_diff": "2.0393e-12"
+      },
+      {
+        "multiplicity": 1,
+        "n": 2,
+        "r_YA": "4.900085373067",
+        "r_YB": "4.900085373065",
+        "sqrt_1_plus_r2": "5.001083548927",
+        "two_Y_diff": "1.9034e-12"
+      },
+      {
+        "multiplicity": 2,
+        "n": 3,
+        "r_YA": "5.670720034312",
+        "r_YB": "5.670720034303",
+        "sqrt_1_plus_r2": "5.758217233445",
+        "two_Y_diff": "9.0790e-12"
+      },
+      {
+        "multiplicity": 1,
+        "n": 4,
+        "r_YA": "5.912917882353",
+        "r_YB": "5.912917882296",
+        "sqrt_1_plus_r2": "5.996882346974",
+        "two_Y_diff": "5.6215e-11"
+      }
+    ],
+    "max_dirac_two_Y_bar": "7.6916e-13",
+    "max_maass_two_Y_bar": "5.6215e-11",
+    "pc_m49_4_coarse_1dp_false_coincidence_caught": true
+  },
+  "ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  },
+  "card": "AGY-EXP_M49-P642-P649",
+  "firewall": "0 of 19 (pure mathematics: finite cyclotomic/Weil algebra and H^3 spectral geometry)",
+  "script": "verify_m49_p642_p649.py",
+  "script_sha256": "ad42405e98a36e79563c19e63802927e450055e3ac747fbc542013991bc3b5f0",
+  "summary_checks": {
+    "all_assertions_held": true,
+    "total_modules": 4,
+    "total_planted_controls": 4
+  }
+}
