@@ -1,0 +1,4 @@
+omega^2: unit root, |z| - 1 = 0.0, arg / 2 pi = 0.03925768996368697313824374
+omega^2: roots of unity of order <= 120 among the roots: []
+omega: unit root, |z| - 1 = 0.0, arg / 2 pi = -0.03925768996368697313824374
+omega: roots of unity of order <= 120 among the roots: []
