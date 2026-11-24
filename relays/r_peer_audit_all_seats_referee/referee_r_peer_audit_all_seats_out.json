@@ -1,0 +1,41 @@
+{
+  "R_PA_1_chronological_custody": {
+    "chronological_ls_tree_prehash_verified": true,
+    "passed": true,
+    "r_pc_pa_1_caught": true
+  },
+  "R_PA_2_hurwitz_lambert_cl10": {
+    "cl10_32x32_tr_Qchi_and_Qchi3": [
+      0,
+      0
+    ],
+    "hurwitz_m11_diff": "2.8552509e-30",
+    "lambert_w_ns_diff": "9.976998e-32",
+    "passed": true,
+    "r_pc_pa_2_caught": true
+  },
+  "R_PA_3_sdirk2_boltzmann_and_legendre_j": {
+    "legendre_lambda_j_1728_err": "2.499955e-93",
+    "passed": true,
+    "r_pc_pa_3_caught": true,
+    "sdirk2_richardson_vs_radau_yb_rel_diff": "5.4831334e-6"
+  },
+  "R_PA_4_quintic_complete_cusp": {
+    "passed": true,
+    "quintic_c2_bump_residual_integral": "10/(7*L)",
+    "quintic_complete_cusp_energy": "10*ep**5/(7*ell)",
+    "r_pc_pa_4_caught": true
+  },
+  "all_referee_checks_and_4_planted_controls_passed": true,
+  "audited_producer_output_sha256": "5270258bbbcdfa5a726a7b74a2b0a558d1aea2b6e319a375f624c93f5e2d7940",
+  "card": "AGY-EXP_R-PEER-AUDIT-ALL-SEATS",
+  "firewall": "0 of 19",
+  "referee_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  },
+  "referee_script": "referee_r_peer_audit_all_seats.py",
+  "referee_script_sha256": "ec310005fb922742e6b22611fb725ddc33cfebed07f32fb79c8acb52bfe5113c"
+}
