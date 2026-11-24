@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M23 — 2026-11-24 — register rows escalated to you (3)
+
+These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.
+
+- **P-641:** B1656's frame on an even-trace thread's line and tau: what the triplet split does to the channel norms, data-free.
+- **P-615:** Re-derive B766's theta column on main, rebased on THE CROSSING's chirality bit, data-free, sealed before any sign is read.
+- **P-492:** The read-only comparison of the Brown-Henneaux hypotheses against the Lorentzian arena and m004, with the scope of B1088's c = 6 sigma and B1722's c = 6 cell.
+
+0 of 19.
+
 ### M22 — 2026-11-19 — your tick–Higgs package received; one result of main's that bears on it
 
 - **Registered by name:** your four relays of 2026-11-19 and the tick–Higgs alignment package (harvest row 1981).

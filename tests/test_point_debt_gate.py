@@ -107,19 +107,21 @@ def test_the_brainstorm_rules_fire_on_planted_copies(tmp_path):
     text = REGISTER.read_text(encoding="utf-8")
     r = _run(text, tmp_path, today="2026-11-05")
     assert r.returncode == 0 and "owner calls open" in r.stdout, r.stdout
-    late = _run(text, tmp_path, today="2026-11-26")
+    # mended 2026-11-24 (the register wall's batch): this read the LIVE register at 2026-11-26, the day the brainstorm rows aged out;
+    # clearing them (declined, escalated, paid) made that date quiet.  A date far ahead keeps the test about the rules, not the day.
+    late = _run(text, tmp_path, today="2027-06-01")
     assert "rule 7, M1" in late.stdout and "rule 9, M6" in late.stdout, late.stdout[:600]
     umb = next(l for l in text.splitlines() if l.startswith("| P-629 |"))
     planted = text.replace(umb, umb.replace("| QUEUED |", "| DONE |", 1))
     r8 = _run(planted, tmp_path, today="2026-11-05")
     assert r8.returncode == 1 and "rule 8" in r8.stdout, r8.stdout[:600]
-    one = next(l for l in text.splitlines() if l.startswith("| P-") and "audit/" in l and "| QUEUED |" in l)
+    one = next(l for l in text.splitlines() if l.startswith("| P-") and "audit/" in l and "| QUEUED |" in l and "DRAFT-DECLINED" not in l)
     pid = one.split(" | ")[0].strip("| ").strip()
     cells = one.split(" | ")
     cells[5] = cells[5] + " DRAFT-DECLINED(2026-11-20: planted)"
     marked = text.replace(one, " | ".join(cells))
     before = [x for x in late.stdout.splitlines() if x.strip().startswith("FAIL " + pid + ":") and "rule 9" in x]
-    after = _run(marked, tmp_path, today="2026-11-26")
+    after = _run(marked, tmp_path, today="2027-06-01")
     assert before, "the planted row did not fail rule 9 to begin with"
     assert not [x for x in after.stdout.splitlines() if x.strip().startswith("FAIL " + pid + ":") and "rule 9" in x], \
         "a DRAFT-DECLINED row still fails rule 9"

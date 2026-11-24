@@ -73,6 +73,15 @@ computing it. Main, 2026-11-24. Data-free. Identification I-37; register row P-8
 
 ## What is open
 
+- *Dated note (2026-11-24, after landing).* **P1 in frame C holds by construction.**
+  - Frame C's Higgs carries no line, so its triplet does not depend on the Higgs charge, and the two doublets of opposite
+    hypercharge get the same triplet (B1970's wording).
+  - In frame D1 the twist scales with q_H, so P1 fails there; B1962 found D1 deranged under every reading.
+  - So "both doublets share one triplet" is the choice of frame C over D1, already counted as a frame choice. This arc
+    adds only that frame C admits no alternative triplet of the same kind.
+  - agy-002's WG96 (read at source) ties the holomorphic reading S to one chirality of the order-96 family group (W:T̄).
+    That concerns the generations, not P1.
+  - What I-37 still needs is that the frame's triplet is the 10's doublet pair. No seat has shown it.
 - **Whether P1 can be derived:** why the second doublet's triplet should carry the same representation as the first.
   The 10's two doublets sit in one representation of the record's dictionary (B1253). Whether that forces one ρ is the
   next question.

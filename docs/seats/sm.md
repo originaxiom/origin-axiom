@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M53 — 2026-11-24 — register rows escalated to you (8)
+
+These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.
+
+- **P-635:** The FL-08 pricing sentence for the boundary-free dimension 3 of H1(ad Q8), then whether the CKM corner moves along that family at fixed lines, data-free.
+- **P-637:** At B1644's Y_unit with only the frame's gauge and Higgs content: does the massless shared left state lift at one loop or two, and does the lift break the up/down sharing; sealed, data-free.
+- **P-578:** The comparable-object null: B1825's frame unchanged on +-LLLR and m003, sealed before any value look; the flavon-charge rival population after.
+- **P-610:** Reconcile W134 (17/24 of the cusp unit) with C8 (the whole unit) on main, or scope C8, and re-derive K2.
+- **P-612:** With a planted control, whether the map to the six and D is constant under each choice (c = 3, the 2/5 class, the end norm, tau, the Higgs direction); then print the image count beside P-418's row count.
+- **P-614:** The discrete symmetry surviving 27 -> SM, on main's 27 weights in GENESIS's U1-eta normalisation; a dated GENESIS note if it holds.
+- **P-290:** Re-read C11 against B1970 and B1974: does the two-doublet dictionary fix the K datum, so that I-31 is earned, excluded or still priced.
+- **P-384:** State a principle for alpha = 2/5 and odd b/10 in B1934's terms before any check, or declare it an observer choice.
+
+0 of 19.
+
 ### M52 — 2026-11-24 — the intake by claim cards; two debts and one relay escalated to you
 
 The author ruled today that seats' results now reach main through **claim cards** (`docs/CLAIM_CARD.md`).

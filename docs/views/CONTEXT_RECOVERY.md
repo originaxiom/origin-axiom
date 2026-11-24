@@ -19,11 +19,11 @@
 | … OPEN | 106 |
 | … RETRACTED | 13 |
 | register points | 879 |
-| … “QUEUED” | 309 |
+| … “QUEUED” | 301 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 554 |
-| … “DECLINED” | 12 |
+| … “DONE” | 558 |
+| … “DECLINED” | 16 |
 | harvest rows (the last number) | 1996 |
 | the Standard Model's 19 derived | 0 |
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND, SO BOTH DOUBLETS MUST CARRY IT (B1974, PROVED given its hypotheses; data-free; I-37, P-847).** The agy lane's C13 claimed that a uniqueness forces the two Higgs doublets to share frame C's triplet. Main verified its theta identity, found its Schur step does not hold as written, and proved the uniqueness by another route. The triplet is a weight-3/2 vector-valued modular form whose components live on Gamma_0(2), and any second triplet of the same kind, holomorphic and no more singular at the cusp, is a constant multiple, because X_0(2) has genus 0. So the shared fibre mode, which the web seat counted as a choic…”
+“LATEST (2026-11-24, S306p: THE REGISTER'S WALL OF 2026-11-26 CLEARED, ROW BY ROW; P1 SETTLED FOR FRAME C).** Fifty-eight rows from early November (33 direction leads, 21 debts, 4 audit-room drafts) were due to age out on 2026-11-26. Three read-only readers checked each against later work, and main decided each: 4 paid (P-606, P-639, P-559, P-317), 4 declined as carried whole by P-629, 1 first step run (P-326: odd weights vanish on Gamma(2), so a character with chi(-I) = -1 is needed), 3 drafts declined (nothing rests on them), and 47 escalated with a concrete next action on seven seat pages. The aging relay of 2026-11-04 is closed as declined: its rule is restated in the claim-card rule. B1…”
 
 ## Completeness (nothing skipped silently)
 

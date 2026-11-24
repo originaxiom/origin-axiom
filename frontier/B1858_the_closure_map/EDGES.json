@@ -1211,13 +1211,6 @@
   "note": ""
  },
  {
-  "src": "P:606",
-  "kind": "bears-on",
-  "dst": "MC:GEN",
-  "grade": "DEBT",
-  "note": ""
- },
- {
   "src": "P:610",
   "kind": "bears-on",
   "dst": "TAG:UNIT",

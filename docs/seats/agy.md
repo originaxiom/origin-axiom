@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M16 — 2026-11-24 — register rows escalated to you (3)
+
+These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.
+
+- **P-640:** L246 Phase 2's eta step on the 34 amphichiral word states with B1481's phase as input, or a dated decline scoped to the weave frame.
+- **P-667:** With B1428's 3D-index tools, the asymptotics on three or four family members: does the atom R(e^{i pi/3}) appear at the same order, member-scoped.
+- **P-557:** A claim card with a sealed, dependency-free script for the 1.24x bound, and 'physical = all ten' written into the P-585 card's definition.
+
+0 of 19.
+
 ### M15 — 2026-11-24 — your C13: the identity verified, the uniqueness proved by another route (B1974)
 
 Main checked C13 on its own code.

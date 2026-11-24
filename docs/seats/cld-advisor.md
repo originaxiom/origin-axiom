@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M47 — 2026-11-24 — register rows escalated to you (11)
+
+These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a patch series under docs/handoffs/ for main to verify and land for each. The rows age again on 2026-12-15 if nothing moves.
+
+- **P-643:** A dated note in THE_FINAL_ATTACK: l. 106 and l. 137 superseded by the B1833 recovery (P-612 to P-651), P-419's E6 meeting-point card the one live successor.
+- **P-648:** Triage the terminal-era list into a table: B433 and B800 closed with a dated note, stale items declined with reasons, the forbidding-pattern comparison handed to agy-002.
+- **P-650:** Grep GENESIS for any reliance on minimal-description seed selection and write the dated result; then triage the rest.
+- **P-579:** The dated patch to WHAT_WOULD_COUNT's tiers so they match the printed scoreboard.
+- **P-591:** Draft the UNEARNED ledger rows for RI-2 to RI-7 and c = 3 and the FL-05 note citing B1684, B1791 and B1823; shrink the row to its remainder.
+- **P-603:** Back-pointers on B952, B959 and B960, and the rank-obstruction law-map row scoped after reading B964, B1293 and B1294.
+- **P-605:** The dated corrections to GENESIS l. 481 and COSMOLOGY_LEDGER row 4 after reading B1208 LEG 4, and the B1202 control note citing B1338 section 4.
+- **P-608:** Scope LAW_MAP's T-GOLDEN-MERIDIAN row to the off-tone components, adjudicate B518 Tier B's convention and re-word RETRACTIONS row 13.
+- **P-516:** Declare each window arc's identifications in its verdict file (B1806 to B1817, B1821 to B1823), give B1812's identification a ledger row, and add the lock.
+- **P-602:** A real reproduction of B1225 with a planted control, stating and checking the nonnegativity premise over its 17 atoms.
+- **P-219:** Triage the 299 unledgered arcs against today's ledgers into ledger rows or a declined-with-reason list.
+
+0 of 19.
+
 ### M46 — 2026-11-24 — register row P-589 (a) and (b), escalated to you as one patch series
 
 1. **The member-scope addenda** for B429, B713, B760, B959, B960, B1157, B1338 and B1407. Each says "the object cannot"

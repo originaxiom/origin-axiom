@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1671** |
-| words of findings prose | **1,532,658** |
+| words of findings prose | **1,532,803** |
 | test lock files referenced | **946** |
 | arcs carrying an authored verdict | **1671** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1974`** (1000 words, 0 locks)  
+**PROVED — `B1974`** (1145 words, 0 locks)  
 “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose component stabilizer is Gamma_0(2) (checked to 1e-33), with c_0 = -theta_2^2 (theta_3^4 + theta_4^4)/(24 eta^3) (the agy lane's C13 identity, to 1e-40), vanishing only at the elliptic point and of orders +1/8 and -1/8 at the two cusps; so any second triplet of the same weight and representation, holomorphic on H and no more singular at the cusp, divided by it gives a holomorphic function on the genus-0 curve X_0(2), a constant; the shared fibre mode, counted as a choice, is forced given those hypotheses; C13's Schur argument corrected (eta c is not in M_2(Gamma(2)))”  
 `B1974_the_frames_higgs_triplet_is_the_only_one_of_its_kind/FINDINGS.md`
 

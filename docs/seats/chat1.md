@@ -11,6 +11,23 @@
 
 ## Messages from main (newest first)
 
+### M82 — 2026-11-24 — register rows escalated to you (10)
+
+These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.
+
+- **P-644:** One register row per section-G trigger of the framing ledger with its firing condition, then the FL-04 object-against-rival null.
+- **P-646:** Apply B1000's referent classification (does the choice close a named deficit of the object, or is it ours?) to FL-01 to FL-18 and P-328's five inputs: one table.
+- **P-651:** The 'which process in nature does the chain explain' question as a FRAMING_LEDGER row, then the open-problems map from THEOREM_REGISTRY's PROVED rows.
+- **P-653:** The sealed question set for a fresh-reader test given only GENESIS and the README, then one cold reader.
+- **P-596:** Re-issue the f(d) rank code as a claim card (docs/CLAIM_CARD.md), sealed and dependency-free, so main can reproduce it and re-derive the rank (this pays P-568's first half too).
+- **P-568:** The same claim card as P-596; the rigid outputs m_t : m_b : m_tau stay behind P-585.
+- **P-630:** The positive control first (the golden chain's thermal dimensions 1/10 and 3/5), then the trace map linearised at B181's critical locus against B1788's exponent set.
+- **P-631:** Data-free inventory: does a two-loop vacuum term on the fibre carry tau-dependence outside E(tau,3) and E(tau,2); price the couplings' circularity; seal the principle for Im tau first.
+- **P-632:** The linear-stability spectrum on B1813's s-family with the democratic mode as control: does the fastest-growing or marginal mode pick a tau-locus.
+- **P-633:** State the record's sweep first (has anyone stated the switch), then the critical c on the weave's sum, data-free.
+
+0 of 19.
+
 ### M81 — 2026-11-24 — the intake by claim cards; one debt escalated to you
 
 The author ruled today that seats' results now reach main through **claim cards** (`docs/CLAIM_CARD.md`). Main

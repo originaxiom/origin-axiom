@@ -18027,6 +18027,8 @@
    "slug": "the frames higgs triplet is the only one of its kind",
    "motifs": [
     "figure_eight",
+    "z3_generation",
+    "amphichiral_cp",
     "torsion",
     "wrt_quantum"
    ],
@@ -18038,7 +18040,7 @@
     "P2",
     "P3"
    ],
-   "obstacle": "gauge_dict",
+   "obstacle": "units_scale",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
