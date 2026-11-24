@@ -1,0 +1,132 @@
+{
+  "E1_bl1_f1_line_citation_erratum_and_v7_custody": {
+    "c37_output_sha256_intact": "2/2",
+    "control_1_line_shift_trap_caught": true,
+    "exact_1based_line_map": {
+      "line_1141_pure_mssm_slope_ratio_expr": "b_mssm = (Fraction(1, 1) - Fraction(-3, 1)) / (Fraction(33, 5) - Fraction(1, 1))",
+      "line_1143_stale_comment": "# 2-loop Type-II 2HDM GBS8 integration from alpha_GUT^{-1} = s_* across benchmark span L = 28:",
+      "line_1144_run_gbs8_rge_20_steps": "st_45 = run_gbs8_rge(g_gut_sq, yu0, yd0, ye0, mp.mpf(20), 20)",
+      "line_1145_run_gbs8_rge_40_steps": "st_90 = run_gbs8_rge(g_gut_sq, yu0, yd0, ye0, mp.mpf(20), 40)",
+      "line_1164_b_mssm_assertion": "and b_mssm == Fraction(5, 7)",
+      "line_1174_b_mssm_json_export": "\"B_MSSM_above_M_SS\": frac_str(b_mssm),",
+      "line_992_type2_2hdm_b1_slopes": "b1_g = (q_mp(21, 5), mp.mpf(-3), mp.mpf(-7))"
+    },
+    "passed": true,
+    "peer_script_indexed": "639a5d46b:relays/x_bulk_link1_v4_verify/verify_x_bulk_link1_v4.py",
+    "precise_code_characterization_of_b_mssm": "Evaluates pure-MSSM (1 - (-3)) / (33/5 - 1) == 5/7 from rational 1-loop slopes without accounting for the <= ln(2) Scherk-Schwarz threshold span (not a hardcoded string literal).",
+    "superseded_c37_cited_lines_1152_1156_actual_role": "Planted Control PC_BL1_5 (det_single_pt on :1155, det_pure_6y_nu on :1156)",
+    "total_lines_in_peer_script": 1427,
+    "v7_json_payload_digest_intact": true
+  },
+  "E2_all_6_anomalies_and_explicit_dflat_str_zchi": {
+    "M_V_chi_sq_over_vEW2": "113177902270024397046508.0",
+    "M_ferm_3x3_sq_eigenvalues_over_M_V_sq": [
+      "-8.92172357351006632e-52",
+      "1.0",
+      "1.0"
+    ],
+    "M_scal_4x4_eigenvalues_over_M_V_sq": [
+      "-1.78434471470201326e-51",
+      "0.0",
+      "0.0",
+      "1.0"
+    ],
+    "STr_M2_heavy_U1chi_over_M_V_sq": "1.42747577176e-50",
+    "all_6_4d_GSM_x_U1chi_anomalies": {
+      "SU2L_sq_U1chi": "0",
+      "SU3C_sq_U1chi": "0",
+      "U1_6Y_U1chi_sq": "0",
+      "U1_6Y_sq_U1chi": "0",
+      "U1chi_cubed": "0",
+      "grav_sq_U1chi": "0"
+    },
+    "all_6_anomalies_identically_zero": true,
+    "control_2_caught": true,
+    "control_2_drop_nuc_anomalies": {
+      "SU2L_sq_U1chi": "0",
+      "SU3C_sq_U1chi": "0",
+      "U1_6Y_U1chi_sq": "0",
+      "U1_6Y_sq_U1chi": "0",
+      "U1chi_cubed": "125",
+      "grav_sq_U1chi": "5"
+    },
+    "control_3_caught": true,
+    "control_3_soft_breaking_STr_shift": "9.33333333333333333",
+    "dynkin_index_cross_match": true,
+    "four_modulus_newton_t_s_re_im_45d": [
+      "301.605280425784162460719565477385952672214657",
+      "31.1632932598913705014323352405228680998203408",
+      "0.817646728440486606769353228283444456242159788",
+      "0.386135411366344069821076529656615608822579628"
+    ],
+    "passed": true,
+    "peer_639a5d46b_STr_M2_string_verified": "0.0",
+    "s_star_vs_639a5d46b_box24_abs_diff": "2.6235272348e-14",
+    "s_star_vs_639a5d46b_ewald_abs_diff": "1.09982034083e-33",
+    "so4_x_u3_scrambling_rel_err": "3.5686894294e-51",
+    "tr16_6Y_Qchi_killing": "0"
+  },
+  "E3_b4_2hdm_quartics_and_b6_verification": {
+    "B4_2hdm_quartics_recomputed": {
+      "control_4_caught": true,
+      "control_4_equal_u1Y_re_break": "0.130578801917",
+      "control_4_indep_su2_fsq_break": "3.35081342506",
+      "control_4_kannike3_at_lambda_S_zero": "0.0",
+      "derived_2hdm_quartics_at_s_star_35d": [
+        "0.16129708127520251698198030984873339",
+        "0.16129708127520251698198030984873339",
+        "0.040324270318800629245495077462183347",
+        "0.15837864840599685377252461268908326"
+      ],
+      "kannike_bfb_margins_35d": [
+        "0.16129708127520251698198030984873339",
+        "0.20162135159400314622747538731091674",
+        "0.36"
+      ],
+      "kannike_vs_639a5d46b_max_abs_diff": "2.0251698198e-13",
+      "mh_tree_sq_over_vEW2_exact": "9/50",
+      "priced_continuous_uv_coupling_lambda_S": "3/5",
+      "quartic_2x2_identity_err": "0.0",
+      "su2L_x_u1Y_scrambling_max_err": "5.34552942018e-51",
+      "tan_beta_tree": "1",
+      "vs_639a5d46b_max_abs_diff": "5.1698198031e-16"
+    },
+    "B6_peer_link23_and_ow19_f3_recomputed": {
+      "control_5_caught": true,
+      "control_5_tampered_manifest_score": "5/6",
+      "non_sealed_relay_status_files_in_range": [
+        "relays/AGY002_A2_OW19_RESULTS.md",
+        "relays/AGY002_PEER_AUDIT_LINK23_DD74B56C1_AND_OW19_RESPONSE.md",
+        "relays/STATUS_AGY-002.md",
+        "relays/cards/AGY-002_A2-PEER-LINK23_audit-x-e6ps-link23-dd74b56c1-and-remediate-ow19-f1-f3.md"
+      ],
+      "ow19_f3_bc_star_taylor26_42d": "0.626404522699796351793995279315009590161521",
+      "ow19_f3_radial_24_vs_36_drift": "2.04652003405e-35",
+      "ow19_f3_vs_639a5d46b_gbs10_abs_diff": "2.06214165269e-13",
+      "ow19_f3_vs_71b1718a1_48dps_abs_diff": "6.89196756548e-37",
+      "peer_commit_verified": "71b1718a1",
+      "peer_sha256_manifests_matched": "6/6",
+      "sealed_link23_files_added_without_overwrite": 12,
+      "sealed_link23_zero_in_place_overwrites": true
+    },
+    "passed": true,
+    "scope_unchecked_peer_modules": [
+      "639a5d46b fig11 PDF visual rendering and AutoTeX layout checks (non-mathematical figure compilation)"
+    ]
+  },
+  "all_gates_passed": true,
+  "ast_hygiene": {
+    "ast_float_or_complex_literals": 0,
+    "file": "c38_remediate_c37_bl1_citations_and_b1_b4_b6_audit.py",
+    "float_or_complex_calls": 0,
+    "passed": true
+  },
+  "branch": "agy/cusp-action-2026-11-20",
+  "card": "AGY-C38",
+  "cumulative_planted_controls": "200/200",
+  "data_free_firewall": "0 of 19",
+  "date": "2026-11-24",
+  "planted_error_controls_passed": "5/5",
+  "preserves_c37_and_v7_json_untouched": true,
+  "seat": "agy"
+}
