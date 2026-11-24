@@ -1,0 +1,86 @@
+{
+  "E1_E2_3gen_fricke_minimum_and_unbroken_susy_desert": {
+    "B_MSSM_unbroken_exact": "5/7",
+    "V_3gen_fricke_at_tau_star": "8.7354630292572064503021073269",
+    "control_1_caught": true,
+    "control_2_caught": true,
+    "grad_norm_3gen_at_tau_star": "1.741534916e-40",
+    "hecke_T2_identity_abs_err": "2.489206111e-60",
+    "hessian_eigenvalues_3gen_at_tau_star": [
+      "57.29199607201676",
+      "1253.027458316564"
+    ],
+    "planted_1twist_broken_grad_norm": "106.453354266",
+    "planted_scherk_schwarz_Beff_collapse": "0.558407513353",
+    "tau_8_pos_rational": [
+      "16/5",
+      "8/5"
+    ],
+    "tau_star_pos_rational": [
+      "2/5",
+      "1/5"
+    ]
+  },
+  "E2_modular_gauge_instanton_duality_and_M_SUSY_rationals": {
+    "Lambda_perp_over_MGUT_30d": "0.0000430522315805547473556113472791",
+    "M0_seesaw_over_MGUT_30d": "0.0000430522315805547473556113472791",
+    "M_SUSY_over_MGUT_30d": "7.97970806496350785425768661476e-14",
+    "M_SUSY_sq_vs_q_tau8_pow6_abs_err": "5.026911708e-88",
+    "b0_hidden_SU5_perp": 15,
+    "control_3_caught": true,
+    "exact_1loop_M_SUSY_couplings": {
+      "alpha_1_inv": "1392/25",
+      "alpha_2_inv": "144/5",
+      "alpha_3_inv": "48/5",
+      "electroweak_mix_ratio": "9/38",
+      "qed_inv": "608/5"
+    },
+    "honest_pure_SYM_c1_eq_c2_Spin10_SU4_root": "0.43256171779",
+    "k_cs_hurwitz_2T_order": 24,
+    "ln_Lambda_perp_over_MGUT_exact": "-16*pi/5",
+    "ln_M_SUSY_over_MGUT_exact": "-48*pi/5",
+    "modular_gauge_duality_abs_err": "0.0",
+    "retracted_k40_toron_ratio_vs_q_tau8": "3.435442396e-18"
+  },
+  "E3_8_of_8_compatibility_and_11d_gravity_k24": {
+    "control_4_caught": true,
+    "control_5_caught": true,
+    "gate_results": {
+      "G1_unification_B_equals_5_over_7_at_r0": true,
+      "G2_uv_supertrace_Str_M0_vanishes": true,
+      "G3_dterm_uv_quartic_bfb_marginal_zero": true,
+      "G4_sakharov_a1_xi0_positive_uv_and_ir": true,
+      "G5_positive_6d_casimir_and_KL_barrier": true,
+      "G6_6d_spin10_trR4_trF4_vanish_above_MKK": true,
+      "G7_strict_fricke_minimum_at_tau_star_pos": true,
+      "G8_conformal_S4_60efold_attractor": true
+    },
+    "gates_passed": 8,
+    "gates_total": 8,
+    "m11_over_mgut_k24_30d": "7.15698218114123625574070831122",
+    "mpl_over_mgut_isotropic_k24_30d": "733.195521424746362216304128719",
+    "mpl_over_mgut_self_dual_k24_30d": "14.3139643622824725114814166224",
+    "planted_nonsusy_B1_a1_xi0": "-46/3",
+    "sakharov_a1_xi0_uv_and_ir": [
+      "39/2",
+      "37/2"
+    ]
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "forbidden_imports": 0,
+    "passed": true
+  },
+  "card": "AGY-C40",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "layer": "Phase-7 Top-Down Layer 2 (Unbroken 4D N=1 SUSY, E[2]\\{0} <-> 3 Generations, & |2T|=24 Scale Transmutation)",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}
