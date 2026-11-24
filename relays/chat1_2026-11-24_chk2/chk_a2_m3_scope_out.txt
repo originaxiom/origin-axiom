@@ -1,0 +1,1 @@
+same Higgs in both sectors: trials 60000, violations 27, least margin -5.207e-02 at (rho, F, t, a) = (0.021562, 0.073636, 0.03122, 0.999632)
