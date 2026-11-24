@@ -17919,7 +17919,9 @@
    "motifs": [
     "coupling"
    ],
-   "refs": [],
+   "refs": [
+    "P3"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 16,
    "status": "banked",
@@ -17968,7 +17970,7 @@
     "H3"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 17,
+   "obstacle_conf": 19,
    "status": "banked",
    "domain": "physics"
   },
@@ -17984,14 +17986,15 @@
     "P879"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 29,
-   "status": "banked",
+   "obstacle_conf": 32,
+   "status": "dead",
    "domain": "physics"
   },
   "B1972": {
    "slug": "agy exps ten banking candidates checked on main",
    "motifs": [
     "figure_eight",
+    "trace_map",
     "golden",
     "quasicrystal",
     "wrt_quantum"
@@ -18020,7 +18023,7 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 7,
-   "status": "dead",
+   "status": "banked",
    "domain": "physics"
   },
   "B1974": {
@@ -18040,10 +18043,24 @@
     "P2",
     "P3"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 1,
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1975": {
+   "slug": "review 86 entered six of seven plants caught and the window mended",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [
+    "P1",
+    "P3"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "physics"
   },
   "B197": {
    "slug": "figure eight volume torsionfree",

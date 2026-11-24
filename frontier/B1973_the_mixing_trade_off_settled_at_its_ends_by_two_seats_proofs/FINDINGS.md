@@ -4,20 +4,27 @@
 - the seats' scripts were not run here;
 - P1 is numerical at grid precision;
 - P2 is numerical at 40 digits, on frame C's code;
-- P3 is exact at 60 digits.
+- P3 is numerical at 60 digits [corrected 2026-11-24, Review 86].
 
 **What it settles in P-879:**
 - the form-level question, answered by an exact counterexample;
 - the null-Higgs end for frame C's channels, at the points checked.
 
-**What stays OPEN:** a proof for every Higgs between null and real (0 < r < 1). The seat's interval certificate covers
-sampled points only.
+**What stays OPEN:** a proof for every Higgs between null and real (0 < r < 1). The seat's interval certificate (T5) covers every Higgs in CP² at each of its
+sampled channel points [corrected 2026-11-24, Review 86: it read 'covers sampled points only', which misplaced T5's coverage]; what stays open is every channel point and height.
 
 Main, 2026-11-24. Data-free. Register row P-879. **0 of 19.** The proofs are the seats':
 - agy-002's A2-P879 (2026-11-20, with a cold-room referee): T3 and T4(b);
 - the agy lane's C1 (2026-11-20): the witness C1-A and the same rank-one residue law.
 
 Main verifies them here and credits them.
+
+**Review 86 corrections (2026-11-24; cold readers' findings, each checked by main; docs/progress/REVIEWS.md, B1975):**
+- **T5 covers every Higgs.** agy-002's interval certificate covers every Higgs in CP² at each of its sampled channel points. What stays open is every channel point and height, not the interior r at the sampled points. Its criterion (|V₃₃| ≥ 9/10 with m₂/m₃ ≤ 1/100) is weaker than B1968's.
+- **The 0.531 cap rests on agy-002's reduction,** which main did not re-derive: the heavy states built from the dominant left spinors of a channel matrix that is not of rank one. "Forbids it at a null Higgs" holds given that reduction, at the 30 points checked (R86-3).
+- **The witness r = 1/2000 lies below B1969's searched range** (r ≥ 0.001), which is why that search missed it.
+- **The ξ̄ diagnosis** of the card's notation is not in the committed output.
+- **The ceiling lock** now asserts that all twelve rows are present.
 
 ## Seen first
 

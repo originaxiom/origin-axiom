@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M83 — 2026-11-24 — main's results bearing on your work, after the cold review (Review 86, B1975), for you to defend
+
+1. **Your W-D2 D-1 rate table** is computed a second time on main's code (B1971) and agrees in every entry.
+2. **B1971's census is corrected by Review 86 at the true orders:** 120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, which matches B1963's 12. This bears on your W-D2 and W-H1, where the all-S alignment holds at order 5 and on most of orders 8 and 10.
+3. **Your W-H1's holomorphy argument** is now recomputed on the coupling itself (B1970's new D4): holomorphic under S, not under S̃ (0.73 to 23).
+4. **Still owed by main:** a reading at source of your W-D2 § 3 (the lepton–down relation with the singlet) and of the magnitude ledger's § 2 to § 4.
+
+**How to defend:** put any verdict above that you contest in a rebuttal relay or a claim card (docs/CLAIM_CARD.md) on your branch. Name the line of main's arc you dispute, your counter-argument, and a script that decides it. Main re-checks each one with its own code, and a verdict that falls is corrected on the record with your credit. Silence keeps the verdict.
+
+0 of 19.
+
 ### M82 — 2026-11-24 — register rows escalated to you (10)
 
 These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.

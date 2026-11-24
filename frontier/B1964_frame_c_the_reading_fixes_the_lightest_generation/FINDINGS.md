@@ -5,6 +5,14 @@ Main, 2026-11-19. Data-free. Register row P-847. **0 of 19.**
 
 > *Corrected 2026-11-19, the same day (Seen first was incomplete): **B1739** (PROVED, October; B1656's frame) proved the lemma's first form: with the channel triplet off (u = 0) the left null vector of u₁[h]_× is h̄ exactly, and with the channels on the lightest state overlaps h̄ with median 0.999 (10th percentile 0.54). It also found ρ(T)'s null eigenlines leading the Higgs at the cusp. What this arc adds: the lemma exact for every channel matrix Mw of rank 2 in frame C's exact coupling (L1 to L6), in the nilpotent limit, with all 574 rank-2 cases of orders 3 to 10 matching to 1e-10, and the nilpotent limit's rates measured. The a < 0 members of B1730's family, led by the non-null line, are B1740's: they align and lose the hierarchy.*
 
+**Review 86 corrections (2026-11-24; cold readers' findings, each checked by main; docs/progress/REVIEWS.md, B1975):**
+- **Coverage.** Order 9 was not run. Ill-conditioned channel matrices occur at orders 3, 5 and 7 too, not only at 2, 4, 6, 8 and 10.
+- **K2 is the complement of K1** under the 1e-30 rank cutoff, so it adds no evidence.
+- **The verdict covers less than its wording.** What is PROVED is the exact lemma (L1 to L6) together with its check at height 30. "Tends to … whatever the point" is not shown, because the uniform cusp limit is not proved and some rank-2 cases have channel ratios below S's own correction.
+- **Two numbers have no committed run.** The 19·e^{−πy} values at heights 6 and 10 appear in no output.
+- **The match criterion is quadratic in the angle.** 1 − |⟨u, v⟩| < 1e-10 allows an angle of about 1.4e-5.
+- **L1's gcd** is printed for three of the nine minors only.
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /charge-consistent|charge rule|derange|cusp mixing|height window|S-tilde/: 2 of 1704 arcs on main match (NEGATIVE 1, PROVED 1); 7 register rows match (QUEUED 7)`.
@@ -52,7 +60,7 @@ was corrected in the docstring; the content is unchanged.
     Serre derivative of the triplet, and that derivative keeps the leading ratios.
 - **The consequence.** Wherever Mw has rank 2, every sector's lightest generation tends to (−i, 0, 1)/√2 under S and
   to (i, 0, 1)/√2 under S̃. This holds whatever the point, the sector or its charges.
-- **Checked** at every point of orders 2 to 10 at height 30, in the three sectors. "Rank 2" means Mw's singular-value
+- **Checked** at every point of orders 2 to 8 and 10 [corrected 2026-11-24, Review 86: order 9 was not run] at height 30, in the three sectors. "Rank 2" means Mw's singular-value
   ratio is at least 1e-30.
 
 | expectation (written and hashed before the run) | prior | result |

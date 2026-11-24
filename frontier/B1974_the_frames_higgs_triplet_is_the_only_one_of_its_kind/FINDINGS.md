@@ -1,4 +1,4 @@
-# B1974 — The frame's Higgs triplet is the only one of its kind: both doublets must carry it (the shared mode is forced, given its weight, its representation, holomorphy and its growth at the cusp)
+# B1974 — The frame's Higgs triplet is the only one of its kind: a second triplet of the same kind is the same one (given its weight, its representation, holomorphy and its growth at the cusp) [title corrected 2026-11-24, Review 86: it read 'both doublets must carry it (the shared mode is forced …)', but the content sits in P1]
 
 **Verdict: PROVED.**
 - **The proof** is the elementary modular-form argument in § 2.
@@ -10,6 +10,12 @@
 The idea and the identity are the agy lane's C13 (2026-11-21; harvest row 1993), credited here. C13's own argument
 (Schur's lemma on M₂(Γ(2))) is corrected: η·c is not in M₂(Γ(2)) (H2), and the script asserted the uniqueness without
 computing it. Main, 2026-11-24. Data-free. Identification I-37; register row P-847. **0 of 19.**
+
+**Review 86 corrections (2026-11-24; cold readers' findings, each checked by main; docs/progress/REVIEWS.md, B1975):**
+- **The force sits in P1.** The theorem says a second triplet of the same kind is the same one. In frame C, P1 holds by construction, which is the frame-C-over-D1 choice, already counted. So "the shared mode is forced" overstated it, and the title is corrected.
+- **The zero count rests on the identity and the valence formula:** c₀ = −θ₂²(θ₃⁴+θ₄⁴)/(24η³), with θ₂ and η zero-free and θ₃⁴+θ₄⁴ of weight 2 with one zero. F4's box does not cover Γ₀(2)'s domain.
+- **"A looser P3 gives a larger space" is not computed.**
+- **H3 is numerical at six points.** An exact proof from H1 and the theta and η transformations is not written.
 
 ## Seen first
 

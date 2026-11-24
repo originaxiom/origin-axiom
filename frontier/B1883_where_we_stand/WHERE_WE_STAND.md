@@ -58,8 +58,8 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |
 | C6 | Dimensional calibration and empirical comparison | 1 | 0 | 0 | 1 |
 
-- **The map:** 272 nodes, of which 135 still need a path to a result.
-- **Debts on the map:** 79, of which 65 are joined to no node yet.
+- **The map:** 273 nodes, of which 135 still need a path to a result.
+- **Debts on the map:** 80, of which 66 are joined to no node yet.
 
 ## 4. What is still put in by hand
 
@@ -88,7 +88,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **879 points registered, 305 open:** 144 lead, 82 process, 79 debt.
+- **881 points registered, 307 open:** 144 lead, 83 process, 80 debt.
 - **Calls that are the owner's to make (0):**
 
 ## 7. What this page does not know

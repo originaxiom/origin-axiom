@@ -1,0 +1,51 @@
+[
+ {
+  "arc": "B1962",
+  "file": "frontier/B1962_frame_d1s_cusp_mixing/FINDINGS.md",
+  "line": 7,
+  "original": "0.12525",
+  "planted": "0.15225"
+ },
+ {
+  "arc": "B1969",
+  "file": "frontier/B1969_the_couplings_form_nearly_allows_an_aligned_full_hierarchy/FINDINGS.md",
+  "line": 32,
+  "original": "det Y = (h·h)(w² + u·u)(u·h) exactly",
+  "planted": "det Y = (h·h)(w² − u·u)(u·h) exactly"
+ },
+ {
+  "arc": "B1970",
+  "file": "frontier/B1970_the_dictionarys_two_doublets_read_s_in_every_sector/FINDINGS.md",
+  "line": 63,
+  "original": "The down quarks and leptons need Y = −1/2",
+  "planted": "The down quarks and leptons need Y = +1/2"
+ },
+ {
+  "arc": "B1971",
+  "file": "frontier/B1971_the_shared_higgss_rotations_cancel_in_the_mixing/FINDINGS.md",
+  "line": 173,
+  "original": "112 points, 104 aligned",
+  "planted": "112 points, 108 aligned"
+ },
+ {
+  "arc": "B1972",
+  "file": "frontier/B1972_agy_exps_ten_banking_candidates_checked_on_main/verification/test_b1972_banking_checked.py",
+  "line": 22,
+  "original": "dets.count(20) == 1",
+  "planted": "dets.count(20) >= 0"
+ },
+ {
+  "arc": "B1973",
+  "file": "frontier/B1973_the_mixing_trade_off_settled_at_its_ends_by_two_seats_proofs/FINDINGS.md",
+  "line": 65,
+  "original": "with frame C's weights restored, s_L ≤ 0.387",
+  "planted": "with frame C's weights restored, s_L ≤ 0.287"
+ },
+ {
+  "arc": "B1974",
+  "file": "frontier/B1974_the_frames_higgs_triplet_is_the_only_one_of_its_kind/FINDINGS.md",
+  "line": 55,
+  "original": "1/8 at ∞, −1/4 at 0",
+  "planted": "1/8 at ∞, +1/4 at 0"
+ }
+]

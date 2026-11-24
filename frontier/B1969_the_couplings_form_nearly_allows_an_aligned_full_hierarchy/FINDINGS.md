@@ -3,6 +3,11 @@
 **Verdict: OPEN.** A search that finds no counterexample but comes within a factor of about 2 of one. Main,
 2026-11-19. Data-free. Register row P-879. **0 of 19.**
 
+**Review 86 corrections (2026-11-24; cold readers' findings, each checked by main; docs/progress/REVIEWS.md, B1975):**
+- **The distance table is not monotone in the reality** (0.912, 0.346, 0.727, 0.654, 1.569). Its best value is a non-exhaustive search's upper bound.
+- **A near miss proves nothing either way.** The claim that the impossibility "cannot be written as a theorem of the form alone" did not follow from it. It is now settled by B1973 P3, the agy lane's exact witness at r = 1/2000, which lies below this arc's searched range.
+- **Missing hypothesis:** the reduction of a general Higgs to h = (cos t, i sin t, 0) is used and not stated.
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /full hierarchy|aligned mixing|tuned region|nearly null|non-null Higgs|dichotomy|trade-off|determinant law/: 33 of 1710 arcs on main match (NEGATIVE 6, OPEN 7, PROVED 20); 10 register rows match (DONE 6, QUEUED 4)`.
@@ -48,7 +53,7 @@ the smallest diagonal |V| ≥ 0.9.
 - **No counterexample.** The expectation G1 (least distance above 0.3 at every r, prior 0.6) holds, but only just:
   0.346 at r = 0.003.
 - **Near a null Higgs the form comes within a factor of about 2 of the bar.** At r = 0.003 the alignment is 0.90 with
-  both heavy pairs at 2.2e-2 or below and both light pairs at 0.1 or below. Away from it the distance grows steadily.
+  both heavy pairs at 2.2e-2 or below and both light pairs at 0.1 or below. Away from it the distance is not monotone [corrected 2026-11-24, Review 86].
 
 ## What it means for the goal
 

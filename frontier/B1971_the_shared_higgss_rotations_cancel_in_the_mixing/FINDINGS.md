@@ -15,6 +15,15 @@ comes out too small:
 
 This arc finds the mechanism. It is not a new frame, and it does not fix the size.
 
+**Review 86 corrections (2026-11-24; cold readers' findings, each checked by main; docs/progress/REVIEWS.md, B1975):**
+- **The census at orders 8 and 10 used a wrong notion of order.** Its filter required the largest denominator to equal N, which drops the points of order 10 with one coordinate of order 2 or 5.
+- **The census at the true orders** (`verification/missing_order10.py`) adds (1/2, k/5), all four not aligned, and (k/5, 1/2), all four aligned. Orders 8 and 10 then have **120 points, 108 aligned, 12 not, every failure on a = 1/2**. That is B1963's 12, at the same height and column. The page's explanation of the difference ("other heights and columns") was wrong.
+- **w = 0 holds only at order 5.** At orders 8 and 10 the up sector carries a '1' channel. I2's and I3's exact identities (the heavy up state u×h) apply at order 5, and the census there is a separate numerical observation.
+- **Six entries fall faster than naive, not five.** The twin's V₂₁ (naive 0.5, computed 0.9) is a sixth.
+- **That the Higgs's rotations cancel is an inference from matching rates.** No counterfactual was run, such as a sector-dependent Higgs. It is owed (R86-1).
+- **"Every mass state lies along one direction of the null frame" fails at 16 of the 136 census points,** and "the mixing is the permutation" fails at the a = 1/2 points where the assignments agree.
+- **"The record has found three times"** counts B1970, which derives the reading and does not find the mixing too small.
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /null frame|nearly null|nullity|shared Higgs|Higgs.s own rotation|cancel.*mixing|mixing.*cancel|a = 1/2|mixing too small|falls with height/: 12 of 1711 arcs on main match (NEGATIVE 3, PROVED 9); 9 register rows match (DONE 5, QUEUED 4)`.
@@ -143,6 +152,7 @@ So in the up sector:
   | the mark, V₁₃ | 0.5 | 1.1 |
   | the mark, V₃₁ | 0.5 | 0.9 |
   | the twin, V₁₂ | 0.5 | 0.9 |
+  | the twin, V₂₁ [added 2026-11-24, Review 86] | 0.5 | 0.9 |
   | the twin, V₁₃ | 0.6 | 1.0 |
   | the twin, V₃₁ | 0.6 | 1.2 |
 

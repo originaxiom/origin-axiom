@@ -6,6 +6,13 @@
 
 > *2026-11-19, later: the second computation is made. The web seat's W-B3 (harvest row 1979), on its own code, reproduces every number of this arc it could see: at height 30 no pair aligned under either sign, at height 6 (S̃, S̃) 0.12525 and 0.12559, and the leptons a transposed copy. So the verdict is final: NEGATIVE as sealed. W-B3 also shows identity E at the norms exactly, under the flat unitary metric of the Higgs's twist; main checked the step by hand. That metric is the twist bundle's own and is periodic in the Higgs's point, so this arc's one assumption is now a theorem, and P-861 is closed.*
 
+**Review 86 corrections (2026-11-24; cold readers' findings, each checked by main; docs/progress/REVIEWS.md, B1975):**
+- **Lines 87 to 90 are stale.** They say identity E at the norms is assumed. It is closed by P-861 through the web seat's W-B3 and main's hand check of the shift law (line 7), not in this arc, and the run still assumes it.
+- **"Deranged for every reading" uses the card's gate:** the least diagonal over the 24 points is below 0.1 at some point. Derangement at every point is not shown.
+- **E4's "matches at height 6 to two digits"** holds for (S̃, S̃) (0.1252 against 0.1256) and not for the other three pairs.
+- **The script's docstring is wrong.** It says "c = −2 gives frame C again". In fact c = −2 gives the charges (−q_R, −q_L), and the run shows it deranges.
+- **E0's reproduction of B1946 was read by eye.** The lock does not hold it.
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /frame D1|shifted charges|cusp mixing|Szego zero|identity E|Higgs.s own twist/: 7 of 1702 arcs on main match (NEGATIVE 2, PROVED 5); 12 register rows match (DONE 1, QUEUED 11)`.
@@ -47,7 +54,7 @@ valid.
   - "one object, one reading", same readings (P-847's note of 2026-11-15).
 
 **The leptons (M2).** At every c, height and reading, the lepton coupling's left vectors match those of the transposed
-down coupling to 1e-37 or better. The normalised spectra agree to 1e-91. So the leptons COPY the down sector, transposed,
+down coupling to 1e-36 or better [corrected 2026-11-24, Review 86: two entries are 9.9e-37 and 1.2e-37]. The normalised spectra agree to 1e-91. So the leptons COPY the down sector, transposed,
 as in frame C (B1934's law, Y_e ∝ Y_dᵀ). The plain comparison is not a 0/1 pattern: 0.18 to 0.44 at height 6.
 
 **The gate fails under both signs of c,** on both of its conditions. The result is NEGATIVE as sealed.

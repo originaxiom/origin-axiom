@@ -1,0 +1,21 @@
+{
+ "id": "B1975",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1960", "B1962", "B1964", "B1969", "B1970", "B1971", "B1972", "B1973", "B1974"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's window 49c7bdf08 to f4a0ab61f",
+  "object": "eight arcs read whole by three cold readers on a reading copy with seven sealed plants; every finding checked by main on the live tree and mended",
+  "reach": "single",
+  "hypotheses": "readers of main's own model family that wrote none of the arcs; the plants sealed by sha256 before reading; the other family's reading owed"
+ },
+ "claim_one_line": "REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tree and mended it -- B1971's census redone at the true orders (120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, matching B1963's 12), B1970's holomorphy redone on the coupling itself (holomorphic under S, not under S~), B1973's statement of agy-002's certificate corrected, B1972's BANK-3 identities and BANK-5 wording, B1974's title, B1964's coverage, B1962's stale section, B1969's interpretation; anchor f4a0ab61f",
+ "weave_or_thread": "neither (a review of the record's own window)"
+}

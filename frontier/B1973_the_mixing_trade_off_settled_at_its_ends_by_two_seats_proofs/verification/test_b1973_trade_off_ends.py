@@ -7,7 +7,9 @@ HERE = pathlib.Path(__file__).resolve().parent
 
 def test_ceiling():
     t = (HERE / "t3_check_run.txt").read_text()
-    for line in [l for l in t.splitlines() if l.startswith("order ") and "[(" in l]:
+    rows = [l for l in t.splitlines() if l.startswith("order ") and "[(" in l]
+    assert len(rows) == 2 and all(len(re.findall(r"np\.float64", l)) == 6 for l in rows)   # Review 86: twelve rows present
+    for line in rows:
         for s, got, want in re.findall(r"\(([\d.]+), np\.float64\(([\d.]+)\), ([\d.]+)\)", line):
             assert abs(float(got) - float(want)) < 1e-4, (s, got, want)
             assert abs(float(want) - (1 + float(s)) / (3 - float(s))) < 1e-5

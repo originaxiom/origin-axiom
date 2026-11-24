@@ -35,4 +35,4 @@ def test_reproductions():
     s = (HERE / "reproduce_run.txt").read_text()
     rows = [l for l in s.splitlines() if " rc=" in l]
     assert len(rows) == 16 and all("rc=0" in l for l in rows)
-    assert sum("IDENTICAL" in l for l in rows) == int(re.search(r"IDENTICAL: (\d+) of 16", s).group(1))
+    assert sum("IDENTICAL" in l for l in rows) == 16 and "IDENTICAL: 16 of 16" in s   # Review 86: was circular

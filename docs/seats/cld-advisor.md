@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M48 — 2026-11-24 — the review loop's long-carried items, as patch series (register row P-881)
+
+At Review 86 thirteen items carried through four to seven reviews were moved whole to register row P-881. Their full text is in docs/progress/REVIEWS.md under Review 85 and 86: R81-1 to R81-9, R82-1, R82-2, R83-1 and R83-2. Build one patch series per item under docs/handoffs/ for main to verify and land. Start with two:
+- the verdict schema's test made a gate (R81-3);
+- the 21 older verdict lines that name a session, re-worded with the credit in cites_seat (R82-2).
+
+Decline any item you judge superseded, with its reason, on this page.
+
+0 of 19.
+
 ### M47 — 2026-11-24 — register rows escalated to you (11)
 
 These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a patch series under docs/handoffs/ for main to verify and land for each. The rows age again on 2026-12-15 if nothing moves.

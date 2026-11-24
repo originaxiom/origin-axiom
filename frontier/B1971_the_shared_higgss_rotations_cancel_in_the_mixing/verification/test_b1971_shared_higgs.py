@@ -35,6 +35,12 @@ def test_cancelled_entries_fall_faster_than_naive():
     rows_m, _ = R["mark"]; rows_t, _ = R["twin"]
     assert rows_m[0][2] > 1.0 and rows_m[2][0] > 0.85          # naive 0.5 at the mark
     assert rows_t[0][1] > 0.85 and rows_t[0][2] > 0.95 and rows_t[2][0] > 1.15   # naive 0.5 to 0.6 at the twin
+    assert rows_t[1][0] > 0.85   # Review 86: the twin's V21, a sixth entry
+
+
+def test_true_order_census():
+    t = (HERE / "missing_order10_run.txt").read_text()
+    assert t.count("NOT aligned") == 4 and all("NOT aligned" in l for l in t.splitlines() if l.startswith("(1/2,"))   # Review 86
 
 
 def test_higgs_nullity_is_b1739s():

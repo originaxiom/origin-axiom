@@ -1,0 +1,8 @@
+(1/2, 1/5) order 10: up n/nb/e down nb/n/e | least diagonal 0.875 | NOT aligned
+(1/2, 2/5) order 10: up n/nb/e down n/nb/e | least diagonal 0.737 | NOT aligned
+(1/2, 3/5) order 10: up n/nb/e down n/nb/e | least diagonal 0.737 | NOT aligned
+(1/2, 4/5) order 10: up n/nb/e down nb/n/e | least diagonal 0.875 | NOT aligned
+(1/5, 1/2) order 10: up n/e/nb down n/e/nb | least diagonal 1.000 | aligned
+(2/5, 1/2) order 10: up n/nb/e down n/nb/e | least diagonal 1.000 | aligned
+(3/5, 1/2) order 10: up n/nb/e down n/nb/e | least diagonal 1.000 | aligned
+(4/5, 1/2) order 10: up n/e/nb down n/e/nb | least diagonal 1.000 | aligned

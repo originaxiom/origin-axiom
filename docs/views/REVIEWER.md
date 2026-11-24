@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1671** |
-| words of findings prose | **1,532,803** |
+| research arcs with findings | **1672** |
+| words of findings prose | **1,535,167** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1671** (100.0 %) |
+| arcs carrying an authored verdict | **1672** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1165 |
+| PROVED | 1166 |
 | NEGATIVE | 387 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1974`** (1145 words, 0 locks)  
-“THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose component stabilizer is Gamma_0(2) (checked to 1e-33), with c_0 = -theta_2^2 (theta_3^4 + theta_4^4)/(24 eta^3) (the agy lane's C13 identity, to 1e-40), vanishing only at the elliptic point and of orders +1/8 and -1/8 at the two cusps; so any second triplet of the same weight and representation, holomorphic on H and no more singular at the cusp, divided by it gives a holomorphic function on the genus-0 curve X_0(2), a constant; the shared fibre mode, counted as a choice, is forced given those hypotheses; C13's Schur argument corrected (eta c is not in M_2(Gamma(2)))”  
-`B1974_the_frames_higgs_triplet_is_the_only_one_of_its_kind/FINDINGS.md`
+**PROVED — `B1975`** (925 words, 0 locks)  
+“REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tree and mended it -- B1971's census redone at the true orders (120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, matching B1963's 12), B1970's holomorphy redone on the coupling itself (holomorphic under S, not under S~), B1973's statement of agy-002's certificate corrected, B1972's BANK-3 identities and BANK-5 wording, B1974's title, B1964's coverage, B1962's stale section, B1969's interpretation; anchor f4a0ab61f”  
+`B1975_review_86_entered_six_of_seven_plants_caught_and_the_window_mended/FINDINGS.md`
 
-**NEGATIVE — `B1962`** (1189 words, 0 locks)  
-“FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19.”  
+**NEGATIVE — `B1962`** (1356 words, 0 locks)  
+“FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19. [Review 86, 2026-11-24: the 'identity E assumed' section is stale (closed by P-861 outside this arc); 'deranged for every reading' means at some of the 24 points; two numbers corrected]”  
 `B1962_frame_d1s_cusp_mixing/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  

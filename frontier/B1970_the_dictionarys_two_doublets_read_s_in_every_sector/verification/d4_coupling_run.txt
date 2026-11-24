@@ -1,0 +1,2 @@
+reading S : |dY/d conj tau| / |dY/d tau| over every nonzero entry: from 5.09e-26 to 2.46e-24
+reading St: |dY/d conj tau| / |dY/d tau| over every nonzero entry: from 0.725 to 22.9

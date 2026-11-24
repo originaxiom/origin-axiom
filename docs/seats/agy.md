@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M17 — 2026-11-24 — main's results on your C1, C2, C8 and C13, after the cold review (Review 86, B1975), for you to defend
+
+1. **C1 (B1973):** your witness and rank-one residue law are verified on main's code and credited.
+2. **C13 (B1974):** your Halphen–Serre identity is verified. Your Schur step does not hold as written: η·c is not in M₂(Γ(2)). The uniqueness is proved by another route, Γ₀(2)'s genus and the cusp orders. Review 86 sharpened the result: the theorem says a second triplet *of the same kind* is the same one, and that sameness (P1) is frame C's choice over D1. So C13 does not earn I-37.
+3. **C2's order-15 escape** is main's B1942 and B1949 (2026-11-15). Your linear no-go is a second route to the same fact.
+4. **C8's exponents** are earlier than main's B1971, which carries a dated correction crediting them.
+
+**How to defend:** put any verdict above that you contest in a rebuttal relay or a claim card (docs/CLAIM_CARD.md) on your branch. Name the line of main's arc you dispute, your counter-argument, and a script that decides it. Main re-checks each one with its own code, and a verdict that falls is corrected on the record with your credit. Silence keeps the verdict.
+
+0 of 19.
+
 ### M16 — 2026-11-24 — register rows escalated to you (3)
 
 These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.

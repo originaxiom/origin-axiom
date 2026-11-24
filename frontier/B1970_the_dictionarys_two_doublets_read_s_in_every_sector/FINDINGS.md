@@ -5,6 +5,12 @@ web seat's W-H1). The conclusion that the
 reading leaves the menu holds **given H1 to H3**, stated below. Main, 2026-11-20. Data-free. Register rows P-295 and
 P-847; identification I-37. **0 of 19.**
 
+**Review 86 corrections (2026-11-24; cold readers' findings, each checked by main; docs/progress/REVIEWS.md, B1975):**
+- **D4 as committed cannot fail.** conj(c_k) is antiholomorphic whenever c_k is holomorphic.
+- **The real check is now in `verification/d4_coupling.py`.** Frame C's unnormalised coupling is holomorphic under S (|∂̄Y|/|∂Y| ≤ 2.5e-24) and is not under the conjugate reading (0.73 to 23), every entry, up and down, three points, two τ. The conclusion stands on it.
+- **D2 and D3 restate hypercharge conservation** on D1's list. The test that has content is D1's.
+- **"The cusp mixing aligns" holds at the points of order 5.** B1963 had already found the all-S mixing unaligned at 12 points of orders 8 and 10 at height 30. B1971, as corrected, finds the same 12, all on a = 1/2.
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /two doublets|two Higgs doublets|H_u|H_d|Type II|holomorph|superpotential|10 of SO\(10\)|reading rule|conjugate Higgs|doublet index/: 47 of 1710 arcs on main match (NEGATIVE 14, OPEN 4, PROVED 29); 55 register rows match (DONE 38, QUEUED 17)`.

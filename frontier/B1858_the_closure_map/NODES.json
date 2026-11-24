@@ -6611,5 +6611,29 @@
    "P-876": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:881",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the review loop's long-carried items (R81 to R83), moved whole from the loop at Review 86; the schema gate and the 21 verdict lines naming a session first.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-881 — "
+   ]
+  ],
+  "rows": [
+   "P-881"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 80,
+  "debt_class": "added on 2026-11-24 (S306p, Review 86)",
+  "rows_live": {
+   "P-881": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

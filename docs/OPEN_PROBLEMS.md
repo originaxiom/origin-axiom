@@ -1066,3 +1066,26 @@ mended (B1960).**
   infinity, closed (B1959).
 - **After the window, Review 86's to read:** B1960 (this review). Owed from this window: B1959's K5 and K6 in its lock
   (R85-3), its work outside the sample (R85-5), and a reading by sessions of the other model family (R85-4).
+
+## ⟳ VIEW REFRESH — 2026-11-24 (Review 86)
+
+Touched at Review 86 (its anchor `f4a0ab61f`). **The window (`49c7bdf08` to `f4a0ab61f`) holds the cusp mixing's arcs B1962 to B1974:**
+- frame D1 deranged (B1962);
+- the one-doublet trade-off searched (B1963 to B1969) and settled at its ends (B1973);
+- the two-doublet reading derived given I-37 and holomorphy (B1970);
+- the shared Higgs's rotations cancelling in the mixing (B1971);
+- ten outside banking candidates checked, none of their record-level claims following (B1972);
+- the frame's Higgs triplet the only one of its kind (B1974).
+
+**Also in the window:**
+- a claim-card intake for outside work (WORKING_RULES, 2026-11-24);
+- fifty outside deliveries read;
+- the register's 58 aging rows decided.
+
+The cold read (B1975) mended faults in all eight arcs it read, among them B1971's census at the true orders (120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2). **What stays open for this view:**
+- a principled relative rotation of the up and down frames (the mixing's size, P-860 (d));
+- which level the object picks (the lepton–down split, P-845);
+- I-37's identification of the frame's triplet with the 10's doublet pair;
+- R86-1 to R86-6.
+
+Nothing is compared with data. 0 of 19.

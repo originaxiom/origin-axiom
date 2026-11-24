@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 79 |
+| DEBT | a result the record uses is owed a check or a correction | 80 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -379,10 +379,11 @@ by a quote that the builder checks.*
 | 77 | P-253 | added on 2026-11-12 with the owner's word of that day (P-825) | eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none. |
 | 78 | P-827 | added on 2026-11-12 with the owner's word of that day (P-825) | the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar. |
 | 79 | P-839 | added on 2026-11-13 (S306p) | the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption. |
+| 80 | P-881 | added on 2026-11-24 (S306p, Review 86) | the review loop's long-carried items (R81 to R83), moved whole from the loop at Review 86; the schema gate and the 21 verdict lines naming a session first. |
 
 ## The nodes that no edge joins
 
-25 of the 193 nodes that are not debts, and 65 of the 79 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 25 is held by name in the map's source, as found on 2026-11-12.
+25 of the 193 nodes that are not debts, and 66 of the 80 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 25 is held by name in the map's source, as found on 2026-11-12.
 
 | id | layer | kind | grade |
 |---|---|---|---|

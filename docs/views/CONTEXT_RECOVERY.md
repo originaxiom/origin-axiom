@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1671 |
-| … PROVED | 1165 |
+| arcs with a verdict file | 1672 |
+| … PROVED | 1166 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
-| register points | 879 |
-| … “QUEUED” | 301 |
+| register points | 881 |
+| … “QUEUED” | 303 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1975 | PROVED | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tre…” |
 | B1974 | PROVED | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose…” |
 | B1973 | PROVED | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup∣V33∣ = (1+s_L)/(3-s_L) at a null Higgs holds on main's own c…” |
 | B1972 | PROVED | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral…” |
@@ -42,7 +43,6 @@
 | B1966 | PROVED | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vec…” |
 | B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
 | B1964 | PROVED | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector…” |
-| B1963 | PROVED | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: THE REGISTER'S WALL OF 2026-11-26 CLEARED, ROW BY ROW; P1 SETTLED FOR FRAME C).** Fifty-eight rows from early November (33 direction leads, 21 debts, 4 audit-room drafts) were due to age out on 2026-11-26. Three read-only readers checked each against later work, and main decided each: 4 paid (P-606, P-639, P-559, P-317), 4 declined as carried whole by P-629, 1 first step run (P-326: odd weights vanish on Gamma(2), so a character with chi(-I) = -1 is needed), 3 drafts declined (nothing rests on them), and 47 escalated with a concrete next action on seven seat pages. The aging relay of 2026-11-04 is closed as declined: its rule is restated in the claim-card rule. B1…”
+“LATEST (2026-11-24, S306p: REVIEW 86 ENTERED (B1975; P-880, P-881).** Three cold readers read eight arcs of the window (B1962 to B1974) on a copy with seven sealed plants and caught six; the miss was a number inside a later dated note. They found real faults in every arc. Main checked each on the live tree and mended it. Two were recomputed. B1971's census at the true orders gives 120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, which is B1963's 12. B1970's holomorphy check, redone on the coupling itself, holds under S and fails under S~. B1973's account of agy-002's certificate is corrected in the seat's favour, and B1974's title is corrected (the force sits in P1). Th…”
 
 ## Completeness (nothing skipped silently)
 
