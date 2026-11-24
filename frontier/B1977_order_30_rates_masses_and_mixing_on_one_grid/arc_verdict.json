@@ -1,0 +1,21 @@
+{
+ "id": "B1977",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1976", "B1971", "B1945", "B1949", "B1970", "B1943"],
+ "rests_on_seat": [],
+ "cites_seat": ["the agy lane's C8 (harvest row 1993): the all-S mixing exponents at order 5 and the additivity e12 + e23 = e13 at some points"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C, every sector reading S (B1970), at the 96 points of order 30 whose order-5 part is on the act's line (B1976's P30), column 0.13",
+  "object": "the rates (in eps = e^(-pi Im tau)) of the mass ratios of up, down and lepton and of the mixing entries, between heights 20 and 30, and their classes",
+  "reach": "class",
+  "hypotheses": "B1945's frame unchanged; one column and one interval of heights; the card and script hashed before the run; level 30 and the class not derived (P-845)"
+ },
+ "claim_one_line": "AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 and 1), the leptons split from the down quarks in the exponent (2/5 against 7/15), and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23 (3/5 + 1/30 = 19/30); 30 points are aligned and hierarchical with a mixing rate below 1/10; every rate lies on a grid of 1/60 (860 of 864), in 17 classes over the 96 points",
+ "weave_or_thread": "the weave (the points of a level)"
+}

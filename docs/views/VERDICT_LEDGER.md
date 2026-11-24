@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1673 of 1673 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1674 of 1674 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1167)
+## PROVED (1168)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1179,6 +1179,7 @@
 | `B1974` | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose component stabilizer is Gamma_0(2) (checked to 1e-33), with c_0 = -theta_2^2 (theta_3^4 + theta_4^4)/(24 eta^3) (the agy lane's C13 identity, to 1e-40), vanishing only at the elliptic point and of orders +1/8 and -1/8 at the two cusps; so any second triplet of the same weight and representation, holomorphic on H and no more singular at the cusp, divided by it gives a holomorphic function on the genus-0 curve X_0(2), a constant; the shared fibre mode, counted as a choice, is forced given those hypotheses; C13's Schur argument corrected (eta c is not in M_2(Gamma(2))) [Review 86, 2026-11-24: the force sits in P1, which in frame C holds by construction (the frame-C-over-D1 choice); title corrected]” |  | 0 |
 | `B1975` | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tree and mended it -- B1971's census redone at the true orders (120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, matching B1963's 12), B1970's holomorphy redone on the coupling itself (holomorphic under S, not under S~), B1973's statement of agy-002's certificate corrected, B1972's BANK-3 identities and BANK-5 wording, B1974's title, B1964's coverage, B1962's stale section, B1969's interpretation; anchor f4a0ab61f” |  | 0 |
 | `B1976` | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up matrix symmetric, the leptons the down quarks transposed); order 6 makes up and down share their left structure (the mixing the identity at all 24 points; the couplings equal at 12 and equal up to theta phases at 12); order 30 on the act's line breaks the lepton-down tie at 88 of 96 points and the up symmetry at 92, keeping the mixing aligned at all 96; the mixing does not grow in general (26 of 96), but at five points (post hoc) a 2-3 mixing of 0.018 falls with height at a rate near 1/30 only” |  | 0 |
+| `B1977` | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 and 1), the leptons split from the down quarks in the exponent (2/5 against 7/15), and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23 (3/5 + 1/30 = 19/30); 30 points are aligned and hierarchical with a mixing rate below 1/10; every rate lies on a grid of 1/60 (860 of 864), in 17 classes over the 96 points” |  | 0 |
 
 ## NEGATIVE (387)
 

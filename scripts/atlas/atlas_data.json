@@ -18077,6 +18077,17 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1977": {
+   "slug": "order 30 rates masses and mixing on one grid",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [

@@ -1,0 +1,235 @@
+E0: the unit test (sector pairs tied by a unit of Z/N, mod N):
+  N =  5: {'up~up': 'k=1', 'down~down': 'k=1', 'down~lep': 'k=1 swapped', 'lep~lep': 'k=1'}
+  N =  6: {'up~up': 'k=1', 'down~up': 'k=1', 'down~down': 'k=1', 'lep~lep': 'k=1'}
+  N = 30: {'up~up': 'k=1', 'down~down': 'k=1', 'lep~lep': 'k=1'}
+P6  (0, 1/6): least diag 1.0000, largest off 8.31e-72 | lep-vs-down max|ln| 1.933e+00 | up '1' channel 3.52e-20 | |Y_up - Y_down|/|Y_down| 1.90e-110
+P6  (0, 5/6): least diag 1.0000, largest off 4.18e-71 | lep-vs-down max|ln| 1.933e+00 | up '1' channel 3.52e-20 | |Y_up - Y_down|/|Y_down| 2.57e-110
+P6  (1/6, 0): least diag 1.0000, largest off 3.01e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.94e-89
+P6  (1/6, 1/6): least diag 1.0000, largest off 3.36e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (1/6, 1/3): least diag 1.0000, largest off 3.20e-86 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (1/6, 1/2): least diag 1.0000, largest off 4.12e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.02e-89
+P6  (1/6, 2/3): least diag 1.0000, largest off 3.16e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (1/6, 5/6): least diag 1.0000, largest off 2.47e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (1/3, 1/6): least diag 1.0000, largest off 1.26e-85 | lep-vs-down max|ln| 9.137e+01 | up '1' channel 1.55e-06 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (1/3, 1/2): least diag 1.0000, largest off 2.53e-86 | lep-vs-down max|ln| 9.137e+01 | up '1' channel 1.55e-06 | |Y_up - Y_down|/|Y_down| 4.35e-89
+P6  (1/3, 5/6): least diag 1.0000, largest off 1.34e-85 | lep-vs-down max|ln| 9.137e+01 | up '1' channel 1.55e-06 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (1/2, 1/6): least diag 1.0000, largest off 6.67e-51 | lep-vs-down max|ln| 2.996e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 6.29e-89
+P6  (1/2, 1/3): least diag 1.0000, largest off 6.47e-51 | lep-vs-down max|ln| 2.996e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 6.25e-89
+P6  (1/2, 2/3): least diag 1.0000, largest off 6.06e-51 | lep-vs-down max|ln| 2.996e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 6.26e-89
+P6  (1/2, 5/6): least diag 1.0000, largest off 6.07e-51 | lep-vs-down max|ln| 2.996e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 6.49e-89
+P6  (2/3, 1/6): least diag 1.0000, largest off 1.13e-85 | lep-vs-down max|ln| 9.137e+01 | up '1' channel 1.55e-06 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (2/3, 1/2): least diag 1.0000, largest off 7.55e-86 | lep-vs-down max|ln| 9.137e+01 | up '1' channel 1.55e-06 | |Y_up - Y_down|/|Y_down| 1.73e-88
+P6  (2/3, 5/6): least diag 1.0000, largest off 1.20e-85 | lep-vs-down max|ln| 9.137e+01 | up '1' channel 1.55e-06 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (5/6, 0): least diag 1.0000, largest off 1.79e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 4.84e-88
+P6  (5/6, 1/6): least diag 1.0000, largest off 6.08e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (5/6, 1/3): least diag 1.0000, largest off 1.96e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (5/6, 1/2): least diag 1.0000, largest off 3.41e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 4.84e-88
+P6  (5/6, 2/3): least diag 1.0000, largest off 5.60e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P6  (5/6, 5/6): least diag 1.0000, largest off 2.62e-85 | lep-vs-down max|ln| 6.138e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.73e+00
+P5  (1/5, 2/5): least diag 1.0000, largest off 6.28e-05 | lep-vs-down max|ln| 5.159e-49 | up '1' channel 0.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P5  (2/5, 4/5): least diag 1.0000, largest off 2.21e-13 | lep-vs-down max|ln| 2.866e-49 | up '1' channel 0.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P5  (3/5, 1/5): least diag 1.0000, largest off 2.21e-13 | lep-vs-down max|ln| 7.963e-49 | up '1' channel 0.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P5  (4/5, 3/5): least diag 1.0000, largest off 6.28e-05 | lep-vs-down max|ln| 1.709e-49 | up '1' channel 0.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (1/30, 1/15): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.788e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 9.24e-01
+P30 (1/30, 7/30): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.789e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 9.72e-01
+P30 (1/30, 2/5): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.790e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.04e+00
+P30 (1/30, 17/30): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.790e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.08e+00
+P30 (1/30, 11/15): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.788e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.07e+00
+P30 (1/30, 9/10): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.787e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.02e+00
+P30 (1/15, 3/10): least diag 1.0000, largest off 2.07e-16 | lep-vs-down max|ln| 4.757e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (1/15, 19/30): least diag 1.0000, largest off 2.07e-16 | lep-vs-down max|ln| 4.757e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (1/15, 29/30): least diag 1.0000, largest off 2.07e-16 | lep-vs-down max|ln| 4.757e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (1/10, 1/30): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (1/10, 11/30): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (1/10, 8/15): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (1/10, 13/15): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (2/15, 1/10): least diag 1.0000, largest off 7.05e-11 | lep-vs-down max|ln| 1.260e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (2/15, 13/30): least diag 1.0000, largest off 7.05e-11 | lep-vs-down max|ln| 1.260e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (2/15, 23/30): least diag 1.0000, largest off 7.05e-11 | lep-vs-down max|ln| 1.260e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (1/5, 7/30): least diag 1.0000, largest off 6.28e-05 | lep-vs-down max|ln| 8.488e-17 | up '1' channel 4.77e-05 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (1/5, 17/30): least diag 1.0000, largest off 6.28e-05 | lep-vs-down max|ln| 3.354e-17 | up '1' channel 4.77e-05 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/30, 2/15): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/30, 3/10): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/30, 7/15): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/30, 19/30): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/30, 4/5): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/30, 29/30): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (4/15, 1/30): least diag 0.9998, largest off 1.81e-02 | lep-vs-down max|ln| 9.917e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (4/15, 11/30): least diag 0.9998, largest off 1.81e-02 | lep-vs-down max|ln| 9.917e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (4/15, 7/10): least diag 0.9998, largest off 1.81e-02 | lep-vs-down max|ln| 9.917e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (3/10, 4/15): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (3/10, 13/30): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (3/10, 23/30): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (3/10, 14/15): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (11/30, 1/15): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (11/30, 7/30): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (11/30, 2/5): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (11/30, 17/30): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (11/30, 11/15): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (11/30, 9/10): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (2/5, 19/30): least diag 1.0000, largest off 2.21e-13 | lep-vs-down max|ln| 1.643e-16 | up '1' channel 6.09e-13 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (2/5, 29/30): least diag 1.0000, largest off 2.21e-13 | lep-vs-down max|ln| 3.260e-17 | up '1' channel 6.09e-13 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (13/30, 1/30): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (13/30, 1/5): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (13/30, 11/30): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (13/30, 8/15): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (13/30, 7/10): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (13/30, 13/15): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/15, 1/10): least diag 1.0000, largest off 1.11e-07 | lep-vs-down max|ln| 3.755e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 9.29e-01
+P30 (7/15, 13/30): least diag 1.0000, largest off 1.11e-07 | lep-vs-down max|ln| 3.755e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.05e+00
+P30 (7/15, 23/30): least diag 1.0000, largest off 1.11e-07 | lep-vs-down max|ln| 3.755e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.06e+00
+P30 (8/15, 7/30): least diag 1.0000, largest off 1.11e-07 | lep-vs-down max|ln| 3.755e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 9.72e-01
+P30 (8/15, 17/30): least diag 1.0000, largest off 1.11e-07 | lep-vs-down max|ln| 3.755e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.08e+00
+P30 (8/15, 9/10): least diag 1.0000, largest off 1.11e-07 | lep-vs-down max|ln| 3.755e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.02e+00
+P30 (17/30, 2/15): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (17/30, 3/10): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (17/30, 7/15): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (17/30, 19/30): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (17/30, 4/5): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (17/30, 29/30): least diag 1.0000, largest off 2.05e-15 | lep-vs-down max|ln| 2.219e+01 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (3/5, 1/30): least diag 1.0000, largest off 2.21e-13 | lep-vs-down max|ln| 3.260e-17 | up '1' channel 6.09e-13 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (3/5, 11/30): least diag 1.0000, largest off 2.21e-13 | lep-vs-down max|ln| 1.643e-16 | up '1' channel 6.09e-13 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (19/30, 1/10): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (19/30, 4/15): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (19/30, 13/30): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (19/30, 3/5): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (19/30, 23/30): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (19/30, 14/15): least diag 1.0000, largest off 1.41e-10 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (7/10, 1/15): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/10, 7/30): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/10, 17/30): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (7/10, 11/15): least diag 1.0000, largest off 1.26e-04 | lep-vs-down max|ln| 3.839e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (11/15, 3/10): least diag 0.9998, largest off 1.81e-02 | lep-vs-down max|ln| 9.917e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (11/15, 19/30): least diag 0.9998, largest off 1.81e-02 | lep-vs-down max|ln| 9.917e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (11/15, 29/30): least diag 0.9998, largest off 1.81e-02 | lep-vs-down max|ln| 9.917e+00 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (23/30, 1/30): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (23/30, 1/5): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (23/30, 11/30): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (23/30, 8/15): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (23/30, 7/10): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (23/30, 13/15): least diag 1.0000, largest off 9.08e-03 | lep-vs-down max|ln| 6.681e+00 | up '1' channel 3.73e-02 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (4/5, 13/30): least diag 1.0000, largest off 6.28e-05 | lep-vs-down max|ln| 3.354e-17 | up '1' channel 4.77e-05 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (4/5, 23/30): least diag 1.0000, largest off 6.28e-05 | lep-vs-down max|ln| 8.488e-17 | up '1' channel 4.77e-05 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (13/15, 7/30): least diag 1.0000, largest off 7.05e-11 | lep-vs-down max|ln| 1.260e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (13/15, 17/30): least diag 1.0000, largest off 7.05e-11 | lep-vs-down max|ln| 1.260e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (13/15, 9/10): least diag 1.0000, largest off 7.05e-11 | lep-vs-down max|ln| 1.260e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.32e+04
+P30 (9/10, 2/15): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (9/10, 7/15): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (9/10, 19/30): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (9/10, 29/30): least diag 1.0000, largest off 1.11e-13 | lep-vs-down max|ln| 3.914e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 2.46e+02
+P30 (14/15, 1/30): least diag 1.0000, largest off 2.07e-16 | lep-vs-down max|ln| 4.757e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (14/15, 11/30): least diag 1.0000, largest off 2.07e-16 | lep-vs-down max|ln| 4.757e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (14/15, 7/10): least diag 1.0000, largest off 2.07e-16 | lep-vs-down max|ln| 4.757e+01 | up '1' channel 1.00e+00 | |Y_up - Y_down|/|Y_down| 1.00e+00
+P30 (29/30, 1/10): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.787e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 9.29e-01
+P30 (29/30, 4/15): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.788e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 9.84e-01
+P30 (29/30, 13/30): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.790e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.05e+00
+P30 (29/30, 3/5): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.790e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.08e+00
+P30 (29/30, 23/30): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.789e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.06e+00
+P30 (29/30, 14/15): least diag 1.0000, largest off 4.60e-19 | lep-vs-down max|ln| 3.788e+01 | up '1' channel 4.76e-10 | |Y_up - Y_down|/|Y_down| 1.01e+00
+SUMMARY E1: P6 points with Y_up = Y_down (rel. diff < 1e-30): 12 of 24; with the mixing the identity (diag > 1 - 1e-20): 0
+SUMMARY E2: P5 points with the up '1' channel zero: 4 of 4; with lep = down (max|ln| < 1e-20): 4 of 4
+SUMMARY E3: P30 points with the leptons split from down (max|ln| > 0.1): 88 of 96
+SUMMARY E4: P30 points with the up '1' channel nonzero (> 1e-10): 92 of 96
+SUMMARY E5: P30 points aligned (least diag >= 0.9): 96 of 96
+SUMMARY E6: P30 points whose largest off-diagonal exceeds that of their act's order-5 point: 26 of 96
+(1/30, 1/15) up 0.667 1.669 | down 0.800 1.802 | lep 0.400 1.400 | V12 0.634 V23 0.433 V13 1.201 | diag 1.0000 off 4.6e-19
+(1/30, 7/30) up 0.667 1.667 | down 0.800 1.799 | lep 0.400 1.400 | V12 0.633 V23 0.433 V13 1.200 | diag 1.0000 off 4.6e-19
+(1/30, 2/5) up 0.667 1.664 | down 0.800 1.796 | lep 0.400 1.400 | V12 0.632 V23 0.433 V13 1.199 | diag 1.0000 off 4.6e-19
+(1/30, 17/30) up 0.667 1.664 | down 0.800 1.798 | lep 0.400 1.400 | V12 0.632 V23 0.433 V13 1.199 | diag 1.0000 off 4.6e-19
+(1/30, 11/15) up 0.667 1.667 | down 0.800 1.801 | lep 0.400 1.400 | V12 0.633 V23 0.433 V13 1.200 | diag 1.0000 off 4.6e-19
+(1/30, 9/10) up 0.667 1.669 | down 0.800 1.803 | lep 0.400 1.400 | V12 0.634 V23 0.433 V13 1.201 | diag 1.0000 off 4.6e-19
+(1/15, 3/10) up 0.399 1.366 | down 0.600 1.600 | lep 0.400 1.100 | V12 0.767 V23 0.368 V13 1.400 | diag 1.0000 off 2.1e-16
+(1/15, 19/30) up 0.399 1.366 | down 0.600 1.600 | lep 0.400 1.100 | V12 0.767 V23 0.368 V13 1.400 | diag 1.0000 off 2.1e-16
+(1/15, 29/30) up 0.399 1.366 | down 0.600 1.600 | lep 0.400 1.100 | V12 0.767 V23 0.368 V13 1.400 | diag 1.0000 off 2.1e-16
+(1/10, 1/30) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(1/10, 11/30) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(1/10, 8/15) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(1/10, 13/15) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(2/15, 1/10) up 0.667 1.233 | down 0.264 1.232 | lep 0.400 1.100 | V12 0.900 V23 0.234 V13 1.134 | diag 1.0000 off 7.0e-11
+(2/15, 13/30) up 0.667 1.233 | down 0.264 1.232 | lep 0.400 1.100 | V12 0.900 V23 0.234 V13 1.134 | diag 1.0000 off 7.0e-11
+(2/15, 23/30) up 0.667 1.233 | down 0.264 1.232 | lep 0.400 1.100 | V12 0.900 V23 0.234 V13 1.134 | diag 1.0000 off 7.0e-11
+(1/5, 7/30) up 0.200 1.200 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.900 V23 0.100 V13 1.000 | diag 1.0000 off 6.3e-05
+(1/5, 17/30) up 0.200 1.200 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.900 V23 0.100 V13 1.000 | diag 1.0000 off 6.3e-05
+(7/30, 2/15) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(7/30, 3/10) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(7/30, 7/15) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(7/30, 19/30) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(7/30, 4/5) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(7/30, 29/30) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(4/15, 1/30) * up 0.399 1.366 | down 0.466 0.999 | lep 0.400 1.100 | V12 0.600 V23 0.032 V13 0.633 | diag 0.9998 off 1.8e-02
+(4/15, 11/30) * up 0.399 1.366 | down 0.466 0.999 | lep 0.400 1.100 | V12 0.600 V23 0.032 V13 0.633 | diag 0.9998 off 1.8e-02
+(4/15, 7/10) * up 0.399 1.366 | down 0.466 0.999 | lep 0.400 1.100 | V12 0.600 V23 0.032 V13 0.633 | diag 0.9998 off 1.8e-02
+(3/10, 4/15) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(3/10, 13/30) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(3/10, 23/30) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(3/10, 14/15) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(11/30, 1/15) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(11/30, 7/30) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(11/30, 2/5) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(11/30, 17/30) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(11/30, 11/15) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(11/30, 9/10) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(2/5, 19/30) up 0.600 1.000 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.600 V23 0.300 V13 1.100 | diag 1.0000 off 2.2e-13
+(2/5, 29/30) up 0.600 1.000 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.600 V23 0.300 V13 1.100 | diag 1.0000 off 2.2e-13
+(13/30, 1/30) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(13/30, 1/5) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(13/30, 11/30) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(13/30, 8/15) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(13/30, 7/10) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(13/30, 13/15) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(7/15, 1/10) up 0.667 1.233 | down 0.800 1.367 | lep 0.400 1.100 | V12 0.200 V23 0.433 V13 0.767 | diag 1.0000 off 1.1e-07
+(7/15, 13/30) up 0.667 1.233 | down 0.800 1.367 | lep 0.400 1.100 | V12 0.200 V23 0.433 V13 0.767 | diag 1.0000 off 1.1e-07
+(7/15, 23/30) up 0.667 1.233 | down 0.800 1.367 | lep 0.400 1.100 | V12 0.200 V23 0.433 V13 0.767 | diag 1.0000 off 1.1e-07
+(8/15, 7/30) up 0.667 1.233 | down 0.800 1.367 | lep 0.400 1.100 | V12 0.200 V23 0.433 V13 0.767 | diag 1.0000 off 1.1e-07
+(8/15, 17/30) up 0.667 1.233 | down 0.800 1.367 | lep 0.400 1.100 | V12 0.200 V23 0.433 V13 0.767 | diag 1.0000 off 1.1e-07
+(8/15, 9/10) up 0.667 1.233 | down 0.800 1.367 | lep 0.400 1.100 | V12 0.200 V23 0.433 V13 0.767 | diag 1.0000 off 1.1e-07
+(17/30, 2/15) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(17/30, 3/10) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(17/30, 7/15) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(17/30, 19/30) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(17/30, 4/5) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(17/30, 29/30) up 0.399 1.000 | down 0.600 1.233 | lep 0.400 1.000 | V12 0.400 V23 0.368 V13 1.033 | diag 1.0000 off 2.0e-15
+(3/5, 1/30) up 0.600 1.000 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.600 V23 0.300 V13 1.100 | diag 1.0000 off 2.2e-13
+(3/5, 11/30) up 0.600 1.000 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.600 V23 0.300 V13 1.100 | diag 1.0000 off 2.2e-13
+(19/30, 1/10) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(19/30, 4/15) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(19/30, 13/30) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(19/30, 3/5) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(19/30, 23/30) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(19/30, 14/15) up 0.667 1.000 | down 0.264 0.999 | lep 0.400 1.400 | V12 0.800 V23 0.234 V13 1.031 | diag 1.0000 off 1.4e-10
+(7/10, 1/15) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(7/10, 7/30) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(7/10, 17/30) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(7/10, 11/15) up 0.200 1.100 | down 0.400 1.000 | lep 0.400 1.400 | V12 0.800 V23 0.100 V13 0.900 | diag 1.0000 off 1.3e-04
+(11/15, 3/10) * up 0.399 1.366 | down 0.466 0.999 | lep 0.400 1.100 | V12 0.600 V23 0.032 V13 0.633 | diag 0.9998 off 1.8e-02
+(11/15, 19/30) * up 0.399 1.366 | down 0.466 0.999 | lep 0.400 1.100 | V12 0.600 V23 0.032 V13 0.633 | diag 0.9998 off 1.8e-02
+(11/15, 29/30) up 0.399 1.366 | down 0.466 0.999 | lep 0.400 1.100 | V12 0.600 V23 0.032 V13 0.633 | diag 0.9998 off 1.8e-02
+(23/30, 1/30) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(23/30, 1/5) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(23/30, 11/30) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(23/30, 8/15) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(23/30, 7/10) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(23/30, 13/15) up 0.400 1.400 | down 0.466 1.033 | lep 0.400 1.000 | V12 0.633 V23 0.033 V13 0.667 | diag 1.0000 off 9.1e-03
+(4/5, 13/30) up 0.200 1.200 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.900 V23 0.100 V13 1.000 | diag 1.0000 off 6.3e-05
+(4/5, 23/30) up 0.200 1.200 | down 0.400 1.100 | lep 0.400 1.100 | V12 0.900 V23 0.100 V13 1.000 | diag 1.0000 off 6.3e-05
+(13/15, 7/30) up 0.667 1.233 | down 0.264 1.232 | lep 0.400 1.100 | V12 0.900 V23 0.234 V13 1.134 | diag 1.0000 off 7.0e-11
+(13/15, 17/30) up 0.667 1.233 | down 0.264 1.232 | lep 0.400 1.100 | V12 0.900 V23 0.234 V13 1.134 | diag 1.0000 off 7.0e-11
+(13/15, 9/10) up 0.667 1.233 | down 0.264 1.232 | lep 0.400 1.100 | V12 0.900 V23 0.234 V13 1.134 | diag 1.0000 off 7.0e-11
+(9/10, 2/15) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(9/10, 7/15) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(9/10, 19/30) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(9/10, 29/30) up 0.600 1.300 | down 0.400 1.400 | lep 0.400 1.000 | V12 0.900 V23 0.300 V13 1.400 | diag 1.0000 off 1.1e-13
+(14/15, 1/30) up 0.399 1.366 | down 0.600 1.600 | lep 0.400 1.100 | V12 0.767 V23 0.368 V13 1.400 | diag 1.0000 off 2.1e-16
+(14/15, 11/30) up 0.399 1.366 | down 0.600 1.600 | lep 0.400 1.100 | V12 0.767 V23 0.368 V13 1.400 | diag 1.0000 off 2.1e-16
+(14/15, 7/10) up 0.399 1.366 | down 0.600 1.600 | lep 0.400 1.100 | V12 0.767 V23 0.368 V13 1.400 | diag 1.0000 off 2.1e-16
+(29/30, 1/10) up 0.667 1.669 | down 0.800 1.803 | lep 0.400 1.400 | V12 0.634 V23 0.433 V13 1.201 | diag 1.0000 off 4.6e-19
+(29/30, 4/15) up 0.667 1.667 | down 0.800 1.801 | lep 0.400 1.400 | V12 0.633 V23 0.433 V13 1.200 | diag 1.0000 off 4.6e-19
+(29/30, 13/30) up 0.667 1.664 | down 0.800 1.798 | lep 0.400 1.400 | V12 0.632 V23 0.433 V13 1.199 | diag 1.0000 off 4.6e-19
+(29/30, 3/5) up 0.667 1.664 | down 0.800 1.796 | lep 0.400 1.400 | V12 0.632 V23 0.433 V13 1.199 | diag 1.0000 off 4.6e-19
+(29/30, 23/30) up 0.667 1.667 | down 0.800 1.799 | lep 0.400 1.400 | V12 0.633 V23 0.433 V13 1.200 | diag 1.0000 off 4.6e-19
+(29/30, 14/15) up 0.667 1.669 | down 0.800 1.802 | lep 0.400 1.400 | V12 0.634 V23 0.433 V13 1.201 | diag 1.0000 off 4.6e-19
+SUMMARY G1: slow points with a hierarchy in both quark sectors: 5 of 5
+SUMMARY G2: slow points with V23's rate within 2e-3 of 1/30: 5 of 5 (rates [0.0325, 0.0325, 0.0325, 0.0325, 0.0325])
+SUMMARY G3: rates within 3e-3 of a multiple of 1/60: 860 of 864 (worst offenders [1.796436127280305, 1.796436127280305, 1.803217196379927, 1.803217196379927])
+SUMMARY G4: slow points with lepton m2/m3 rate differing from down's by more than 1e-2: 5 of 5
+SUMMARY G5: points aligned, hierarchical in both quark sectors, and with a mixing rate below 1/10: 30 ([('1/5', '7/30'), ('1/5', '17/30'), ('7/30', '2/15'), ('7/30', '3/10'), ('7/30', '7/15'), ('7/30', '19/30'), ('7/30', '4/5'), ('7/30', '29/30')])

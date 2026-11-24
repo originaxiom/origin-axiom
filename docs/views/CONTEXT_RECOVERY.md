@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1673 |
-| … PROVED | 1167 |
+| arcs with a verdict file | 1674 |
+| … PROVED | 1168 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1977 | PROVED | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 an…” |
 | B1976 | PROVED | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up…” |
 | B1975 | PROVED | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tre…” |
 | B1974 | PROVED | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose…” |
@@ -42,7 +43,6 @@
 | B1968 | OPEN | “ON A GRID OF 2,016 POINTS FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION (OPEN, a search; data-free; P-879): with any Higgs triplet in C^3 an adversary finds no aligned charge-consistent mixing with a heavy-pair hi…” |
 | B1967 | PROVED | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diago…” |
 | B1966 | PROVED | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vec…” |
-| B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: THE LEVEL AS A LENS (B1976, PROVED for its sealed checks, two in part; data-free; P-845, P-860 (d)).** At a point of order N, frame C sees the charges only mod N. Level 5 is minimal SU(5) in disguise: the symmetric up matrix and the lepton-down tie are its relations. Order 6 makes up and down share their left structure. Order 30 on the act's line, the act's 5 times the gauge centre's 6, breaks both ties at most points and keeps the mixing aligned. The mixing does not grow in general, but at five points a 2-3 entry of 0.018 barely falls with height (rate near 1/30, post hoc). One sealed check failed as worded, and its test had a double-precision fault; both are dis…”
+“LATEST (2026-11-24, S306p: AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (B1977, PROVED for G1 to G5, as sealed; data-free; P-860 (d), P-845).** At five points of order 30 the mixing is aligned, both quark sectors are hierarchical (up m2/m3 falling at 2/5, down at 7/15), the leptons split from the down quarks in the exponent, and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23. Every rate lies on a grid of 1/60, in 17 classes over the 96 points. This is the first configuration on record that passes every structural test at once. What stays free: the height, and the choice of level 30 and of the class. Next: a principle for those, then the sealed card…”
 
 ## Completeness (nothing skipped silently)
 
