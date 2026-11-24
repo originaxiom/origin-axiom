@@ -1,0 +1,123 @@
+{
+  "E1_literature_benchmark_gate": {
+    "control_1_mssm_noncomm_order_caught": true,
+    "control_2_sm_criticality_and_dlnmu2_caught": true,
+    "exact_rational_sm_beta_lam_2": "16142087/800000",
+    "mssm_supergraph_vs_expanded_max_err": "1.274476e-57",
+    "sm_criticality_dlnmu2_factor2_shift": "5.012118241",
+    "sm_criticality_rk4_vs_gl4_abs_err": "1.1712346e-12",
+    "sm_criticality_t_star_rk4": "5.012118241458919",
+    "transposed_huhd_2loop_scaled_err": "0.006830921789"
+  },
+  "E2_three_stage_radiative_ewsb_and_higgs_lift": {
+    "charm_perturbatively_decouples_to_3f": true,
+    "control_3_deltaH0_no_ewsb_caught": true,
+    "control_4_radiative_higgs_lift_caught": true,
+    "dflat_bfb_margin_over_m32_sq": "1.18832069851",
+    "dynamical_horizons_tnu_tsusy_tew": [
+      "-15.3853238999095",
+      "-29.0313368668843",
+      "-30.2650065992572"
+    ],
+    "horizon_fixed_point_max_residual": "2.8506827e-32",
+    "log10_susy_uv_qcd_instanton_shift": "-35.4840744791",
+    "m1_plus_m2_sq_at_DeltaH_0_over_m32_sq": "-5.78525967646",
+    "m1_sq_over_m32_sq": "1.33227843954",
+    "m2_sq_over_m32_sq": "-0.0593285659577",
+    "mh0_over_mz_radiative": "1.02060765631",
+    "mh0_tree_bound_over_mz": "0.997787576297",
+    "min_sfermion_sq_over_m32_sq": "0.719186118305",
+    "ms_stop_over_m32": "3.08932496025",
+    "observables_50_N240": {
+      "cosmology_crv_and_honest_bounds": {
+        "inflation_conformal_S4_ns_N60": "0.967827137926011410871242840954",
+        "inflation_conformal_S4_r_N60": "0.00296389099945222972162343807469",
+        "leptogenesis_Y_B_2flavor_analytic_fit": "5.92119762982e-11",
+        "leptogenesis_eps_1_tau": "2.83878606955e-5",
+        "leptogenesis_tau_equil_over_hubble": "2068.08508786",
+        "leptogenesis_washout_K1_tot": "5377.4557575",
+        "proton_decay_dim6_mgut_over_vew_pow4": "3.76444922112e+52"
+      },
+      "gravity_11d_d4_hurwitz_sector": {
+        "cusp_robin_bc_star_tau8": "0.626404522699796351793995279315",
+        "gn_vew_sq_d4_hurwitz_isotropic": "9.58759480377e-33",
+        "gn_vew_sq_d4_hurwitz_self_dual": "2.51552950236e-29",
+        "m11_over_mgut_zero_knob": "7.15698218114123625574070831122",
+        "mpl_over_vew_d4_hurwitz_isotropic": "1.02128079304e+16",
+        "mpl_over_vew_d4_hurwitz_self_dual": "1.99381698991e+14"
+      },
+      "sm_1loop_pole_and_2hdm_bosons": {
+        "d3_low_over_e3_pole": "3.5844335798",
+        "d3_pole_over_e3_pole": "3.92993944789",
+        "ewsb_vmin_over_vew4": "-0.0186197101334",
+        "higgs_A0_over_vew": "1.25405913211",
+        "higgs_H0_over_vew": "1.25435604161",
+        "higgs_Hpm_over_vew": "1.29867160065",
+        "higgs_h0_over_vew": "0.385950360884",
+        "mc_msbar_over_qcd_Lambda_4f": "61.727907963",
+        "mw_over_vew": "0.330456626457",
+        "mz_over_vew": "0.378157422685",
+        "qcd_Lambda_4f_over_vew": "0.00196741156671",
+        "qcd_Lambda_5f_over_vew": "0.00141901221097",
+        "qed_coupling_ir": "0.00821616562422",
+        "strong_coupling_ir": "0.10984384995",
+        "u3_pole_over_vew": "0.445259353747"
+      },
+      "sm_msbar_at_ew_horizon": {
+        "ckm_jarlskog": "0.000444595239877",
+        "ckm_v12": "0.123113893712",
+        "ckm_v13": "0.0343705959866",
+        "ckm_v23": "0.117799683481",
+        "d3_over_e3": "2.50607741385",
+        "d_m1_over_m3": "0.0195684840578",
+        "d_m2_over_m3": "0.530745442899",
+        "e_m1_over_m3": "0.0118163710772",
+        "e_m2_over_m3": "0.490566203883",
+        "electroweak_mix_ratio": "0.236368787889",
+        "gauge_slope_2loop": "1.37283947702",
+        "nu_dm21_sq_over_dm31_sq": "0.000410798264868",
+        "pmns_jarlskog": "0.009435328327",
+        "pmns_u12": "0.355139512498",
+        "pmns_u13": "0.101831243571",
+        "pmns_u23": "0.293399965241",
+        "quartic_bfb_margin": "0.0744788405334",
+        "strong_cp_bar_theta_qcd_raw_rad": "-1.97723495953",
+        "tan_beta_ewsb": "30.0497250552",
+        "u3_over_d3": "18.888791576",
+        "u_m1_over_m3": "0.00390057520179",
+        "u_m2_over_m3": "0.302896214287"
+      }
+    },
+    "qcd_Lambda_3f_over_vew": "0.00294855644274"
+  },
+  "E3_convergence_homogeneity_and_scrambling": {
+    "control_5_convergence_and_scrambling_caught": true,
+    "homogeneity_13x_max_rel_err": "3.4550778e-46",
+    "non_takagi_mR_negative_ctrl_rel_break": "20.30451695",
+    "su3_pow6_scrambling_max_rel_err": "2.2341151e-45",
+    "true_step_halving_N120_vs_N240_max_rel_err": "3.496372768e-12",
+    "vew_13x_scaling_exponent": "1.0"
+  },
+  "all_expectations_passed": true,
+  "assumed_continuous_uv_parameters_layer4": [
+    "Delta_H = 12 (on 10_{H,2}, with m_{H_u}^2(M_GUT) = +m_0^2 > 0)",
+    "c_mu = 3/2",
+    "c_B = -19/12"
+  ],
+  "ast_zero_float_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "forbidden_imports": 0,
+    "passed": true
+  },
+  "card": "AGY-C42",
+  "check_labels_section_12": [
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "layer": "Layer 4 (Two-Loop MSSM + 3 N_R to 1HDM SM RGE, Radiative EWSB, & Higgs Lift)",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5
+}
