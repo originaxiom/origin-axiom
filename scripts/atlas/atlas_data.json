@@ -17980,12 +17980,31 @@
    ],
    "refs": [
     "H1",
-    "H3"
+    "H3",
+    "P879"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 27,
+   "obstacle_conf": 29,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1972": {
+   "slug": "agy exps ten banking candidates checked on main",
+   "motifs": [
+    "figure_eight",
+    "golden",
+    "quasicrystal",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K5",
+    "K6",
+    "P879"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 15,
+   "status": "banked",
+   "domain": "quantum"
   },
   "B197": {
    "slug": "figure eight volume torsionfree",

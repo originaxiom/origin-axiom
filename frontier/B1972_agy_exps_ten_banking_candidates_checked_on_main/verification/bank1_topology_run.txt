@@ -1,0 +1,49 @@
+m000: orientable False | volume 1.0149416064 | H1 Z | cusps 1
+m004: volume 2.0298832128 | H1 Z
+m000's 2-fold covers: 1 [(True, 'Z', True)]
+pi1(m004): ['a', 'b'] ['aaabABBAb']
+non-abelian images of pi1(m004) in S_3, by order: {}
+non-abelian images of pi1(m004) in S_4, by order: {12: 24}
+non-abelian images of pi1(m004) in S_5, by order: {120: 240, 12: 120, 10: 120}
+m004's 5-fold covers: 4; cusps per cover: [1, 2, 3, 2]
+m004's 10-fold covers: 38; cusps per cover: [3, 3, 1, 4, 3, 2, 3, 2, 2, 2, 3, 2, 3, 4, 2, 2, 3, 5, 2, 2, 2, 4, 3, 4, 3, 3, 4, 3, 3, 3, 3, 4, 5, 4, 5, 3, 1, 1]
+8^3_4: volume 10.149416064 | cusps 3 | H1 Z + Z + Z
+  the 3-cusp 5-fold cover: volume 10.1494160641 | H1 Z + Z + Z | isometric to 8^3_4: True | cover type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 1 | H1 Z/55 + Z/275 + Z | type cyclic
+  a 10-fold cover: cusps 4 | H1 Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/2 + Z/4 + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/8 + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/10 + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/10 + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/2 + Z/4 + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 4 | H1 Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/10 + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/10 + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 5 | H1 Z + Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/8 + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/2 + Z/4 + Z + Z | type irregular
+  a 10-fold cover: cusps 2 | H1 Z/2 + Z/4 + Z + Z | type irregular
+  a 10-fold cover: cusps 4 | H1 Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 4 | H1 Z/2 + Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z/4 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 4 | H1 Z/2 + Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 3 | H1 Z/2 + Z/2 + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 4 | H1 Z/2 + Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 5 | H1 Z + Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 4 | H1 Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 5 | H1 Z + Z + Z + Z + Z | type regular
+  a 10-fold cover: cusps 3 | H1 Z + Z + Z + Z | type irregular
+  a 10-fold cover: cusps 1 | H1 Z/5 + Z/5 + Z | type irregular
+  a 10-fold cover: cusps 1 | H1 Z/5 + Z/5 + Z | type irregular

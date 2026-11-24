@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1668 of 1668 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1669 of 1669 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1162)
+## PROVED (1163)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1174,6 +1174,7 @@
 | `B1967` | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diagonal |V| 0.967, 0.901, 0.915) with heavy-pair ratios 4.6e-3 (up) and 1.7e-3 (down) and three distinct non-zero masses in each sector, recomputed at 50 digits; the least heavy-pair ratio compatible with alignment 0.9 rises from 4.6e-3 at reality 0.003 to about 0.4 above 0.7, and alignment is impossible exactly at 0 (B1966); so the exclusion B1965 found at four points of frame C must come from the channels the frame produces, and P-879 is whether they ever reach the tuned region. 0 of 19.” |  | 0 |
 | `B1970` | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXING ALIGNS (PROVED for the checks; the reading derived given H1 to H3 and found after the look; data-free; P-295, P-847; the holomorphy argument is the web seat's W-H1, this arc grounding its two-doublet step in the record's dictionary): the 10 of the record's 27 carries doublets at Y = +1/2 and -1/2; the dictionary's Q u^c term uses the first and its Q d^c and L e^c terms the second, two distinct states; the frame's sectors need exactly these charges (up +1/2, down and leptons -1/2), so no sector needs the conjugate doublet, which the record had imported from the one-doublet Standard Model (FL-09); the frame's Higgs and matter factors are holomorphic in tau and the conjugate reading makes the Higgs factor antiholomorphic, so with holomorphy required every sector reads S, fixing the global bit too; the all-S mixing is aligned (B1946; W-D2 D-1); the problem moves to the mixing's size and the lepton-down split. 0 of 19.” |  | 0 |
 | `B1971` | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly null Higgs (B1739's h.h = eta^6/4, found to hold in frame C); the heavy up state is u x h (exact, w = 0); the mixing is the permutation between the two sectors' frames, aligned at all 24 points of order 5 and 104 of 112 of orders 8 and 10, every failure on the line a = 1/2; the Higgs's e^(-pi Im tau / 2) rotations are common to both sectors and cancel (five entries at the mark and the twin fall faster than naive), so the mixing is set by the channels -- the structural reason B1742 and W-D2 found it too small; W-D2's D-1 rate table computed a second time on main's code, every entry agreeing” |  | 0 |
+| `B1972` | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral cover is 8^3_4, already on main's record at P-866/B1955; the affine E8 deletion of least determinant 20; so(10) centralizers 21, 25, 13; the 6D anomaly arithmetic; K5 the act's line for the fixed word), with three corrections (m000 is the least-volume cusped manifold, not the least orbifold; the regular D5 cover has 5 cusps; -P5 keeps the triplets, so the sign is the choice), and none of the record-level claims follows: I-37 not earned, SE1-SE3, GM1-GM4 and Postulate D not retired (each replaced or re-expressed), B1970's two gates not closed (a model with at least 9 priced bits at a chosen modulus), the 2.0-bit floor not the record's (it omits priced bits and absorbs the imports)” |  | 0 |
 
 ## NEGATIVE (387)
 

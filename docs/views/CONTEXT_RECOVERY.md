@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1668 |
-| … PROVED | 1162 |
+| arcs with a verdict file | 1669 |
+| … PROVED | 1163 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -24,13 +24,14 @@
 | … “OWNER” | 0 |
 | … “DONE” | 554 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1991 |
+| harvest rows (the last number) | 1996 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1972 | PROVED | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral…” |
 | B1971 | PROVED | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly…” |
 | B1970 | PROVED | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXIN…” |
 | B1969 | OPEN | “THE COUPLING'S FORM NEARLY ALLOWS AN ALIGNED MIXING WITH A FULL HIERARCHY IN BOTH SECTORS (OPEN, a search; data-free; P-879): with every channel free under the charge rule, a feasibility search finds no aligned mixing w…” |
@@ -42,7 +43,6 @@
 | B1963 | PROVED | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs…” |
 | B1962 | NEGATIVE | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free…” |
 | B1961 | PROVED | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every ano…” |
-| B1960 | PROVED | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, unc…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (B1971, PROVED for its checks; data-free; P-860 (d)).** Why the record's two-doublet mixing comes out too small (B1742 in October; the web seat's W-D2): frame C's Higgs is nearly null (B1739's h.h = eta^6/4, holding in frame C), every mass state lies along one direction of its null frame, and the rotations the shared Higgs induces are the same in both sectors and cancel in the mixing; what survives is set by the channels. The mixing is the permutation between the two sectors' frames: aligned at all 24 points of order 5 and 104 of 112 of orders 8 and 10, every failure on the li…”
+“LATEST (2026-11-24, S306p: AGY-EXP'S TEN BANKING CANDIDATES CHECKED ON MAIN (B1972, PROVED for its checks; data-free); B1971 CORRECTED FOR EARLIER SEAT WORK.** At the author's word main checked agy-exp's BANK-1 to BANK-10 cold. Its mathematics mostly holds: main recomputed every core, and the seat's sixteen sealed scripts were reproduced in a sandbox. Three statements are corrected. None of the record-level claims follows: I-37 is not earned; SE1-SE3, GM1-GM4 and Postulate D are not retired, since each is replaced or re-expressed and the count is unchanged; B1970's two gates are not closed, since the construction is a model with at least nine priced bits at a chosen modulus; the 2.0-bit flo…”
 
 ## Completeness (nothing skipped silently)
 

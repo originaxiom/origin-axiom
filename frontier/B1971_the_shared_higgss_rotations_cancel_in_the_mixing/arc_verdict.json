@@ -20,7 +20,9 @@
  ],
  "rests_on_seat": [],
  "cites_seat": [
-  "the web seat's W-D2 D-1 (harvest row 1984, 2026-11-19): the all-S mixing's rates on the act's line; N1 is main's second computation of its table, and every entry agrees"
+  "the web seat's W-D2 D-1 (harvest row 1984, 2026-11-19): the all-S mixing's rates on the act's line; N1 is main's second computation of its table, and every entry agrees",
+  "agy-002's A2-P879 (2026-11-20, harvest row 1995): T1 the null-frame 2x2 reduction, T4(a) w_u = 0 at order 5, T4(b) the shared q_L = 1 left spinor -- earlier than this arc, found after landing (dated correction 2026-11-24)",
+  "the agy lane's C8 and C1 (2026-11-20/21, harvest row 1993): the all-S mixing exponents and the order-5 alignment -- earlier than this arc, found after landing (dated correction 2026-11-24)"
  ],
  "supersedes": null,
  "superseded_by": null,

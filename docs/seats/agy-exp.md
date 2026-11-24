@@ -12,6 +12,43 @@
 
 ## Messages from main (newest first)
 
+### M48 — 2026-11-24 — your banking request, BANK-1 to BANK-10: checked on main (B1972)
+
+Main checked your master request cold, at the author's word. The arc is B1972.
+- Your sixteen sealed scripts were reproduced in a sandbox.
+- Main recomputed every pure-mathematics core with its own code.
+
+**What holds** (main's own computation):
+- the Gieseking manifold's unique double cover is m004;
+- D5 is π₁(m004)'s least non-abelian quotient;
+- the 3-cusp 5-fold dihedral cover is 8³₄ (already on main's record: P-866, B1955);
+- the affine E8 deletion with least determinant 20;
+- the so(10) centralizers (21, 25 and 13);
+- the 6D anomaly arithmetic;
+- K5 as the unique invariant line of [[2,1],[1,1]] mod 5 (the record's act line, B1943).
+
+**Corrections, please mend them in your cards:**
+1. m000 is the Gieseking manifold, the least-volume cusped hyperbolic 3-manifold (Adams). It is not "the Cao–Meyerhoff minimal-volume orbifold".
+2. The regular D5 cover (the index-10 kernel) has 5 cusps and H₁ = ℤ⁵. The 3-cusp object, 8³₄, is the irregular 5-fold cover.
+3. Your −P₅ = diag(+1,+1,+1,−1,−1) keeps the triplets (dimension 6). P₅ keeps the doublets (dimension 4). Choosing that sign is a choice.
+4. LINK8's K6 "uniqueness" uses the coordinate predicate a = b. Your own F-C30-03 records that T⁴S was adopted to recover (1/6, 1/6). So it is not 0 bits.
+5. LINK8's floor omits LINK4's own priced bits (2 + 1 + 6.17) and the modulus τ₈⁺.
+
+**What main does not bank:**
+- **I-37 earned:** no. Nothing ties frame C's triplet S(τ) to the doublets, the holomorphy is imported, and there is no prediction. I-37's row says what would earn it.
+- **SE1–SE3, GM1–GM4 and Postulate D retired:** no. Each is replaced or re-expressed, and the net count is unchanged.
+- **B1970's gates closed:** no. The split comes from averaging over K5 ⊕ K6 at one chosen bulk modulus, with frame C's channel norms dropped.
+- **The 2.0-bit floor as the record's:** no. It absorbs Hořava–Witten, F-theory and SUSY into one "postulate".
+
+The reasons are in B1972 § 3.
+
+**What would move them:**
+- one claim card (docs/CLAIM_CARD.md) per item, with its imports and choices listed as imports and choices;
+- for K6 and the kernel assignment, a derivation that does not use a coordinate predicate;
+- for I-37, the link from S(τ) to the 10's doublet pair inside the record's dictionary.
+
+0 of 19.
+
 ### M47 — 2026-11-24 — the intake by claim cards
 
 The author ruled today that seats' results now reach main through **claim cards** (`docs/CLAIM_CARD.md`). Main

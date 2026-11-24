@@ -1,0 +1,10 @@
+BANK-1.4: two-node deletions with mark sum 8 (det, marks, nodes): [(20, (5, 3), (4, 8)), (24, (6, 2), (5, 7)), (30, (3, 5), (2, 4)), (32, (4, 4), (3, 6)), (48, (2, 6), (1, 5))]
+BANK-2: P10 = diag(-1 x6, +1 x4)? P from diag(-1,-1,-1,1,1) (x) I2: True
+BANK-2: [P,J] = 0: True | dim Cent(P), Cent(J), Cent(P,J): 21 25 13
+BANK-2: on 5 + 5bar, P5 = diag(-1,-1,-1,+1,+1): its +1 space has dim 4 (the weak doublets H_u, H_d); the relay's -P5 has +1 space of dim 6 (the colour triplets) -- which sign is the parity is the choice
+BANK-3: H - V + 29T = 273 for every n16 in 0..10 (with n10 = n16+2, n1 = 269-26 n16): True
+BANK-3: tr F^4 coefficient with a 16-hyper counted as 16+16bar (B = -1): [0, 0, 0, 0, 0] ...
+BANK-3: v~ = (4 - n16)/2 integer and >= 0 and != 0 at n16 in [0, 2]
+BANK-4: char poly of M mod 5: Poly(lambda**2 + 2*lambda + 1, lambda, modulus=5) | M-invariant lines of (Z/5)^2: [(1, 2)]
+BANK-4: cyclic order-6 subgroups of E[6]: 12 | containing (1,1) [a == b]: 1 | containing (3,3) i.e. (1/2,1/2): 4
+BANK-4: j((2+i)/5) = (1728.0 + 4.86251327853e-28j) | |tau0|^2 = 0.20000000000000004 | gamma(i) with gamma = [[1,0],[2,1]]: (0.4+0.2j)

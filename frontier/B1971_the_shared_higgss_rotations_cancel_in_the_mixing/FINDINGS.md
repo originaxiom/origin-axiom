@@ -32,6 +32,24 @@ This arc finds the mechanism. It is not a new frame, and it does not fix the siz
     and 10.
   - **B1962:** frame D1 deranged under every reading.
   - **B1970:** the all-S reading, derived given H1 to H3.
+- *Dated correction (2026-11-24, after landing; B1972's reading of the seats' relays).* Seats had parts of this arc
+  earlier, in relays to main that main had registered by name and had not read before computing:
+  - **agy-002's A2-P879 (2026-11-20; harvest row 1995).**
+    - Its T1 is the null-frame reduction to an exact 2×2 block (B1966's E4 in sympy).
+    - Its T4(a) is the up sector's w = 0 at every point of order 5, which is N2's premise.
+    - Its T4(b): up and down share q_L = 1, so their channel residues are rank one with one left spinor. That is the
+      channel-side reason the sectors align.
+  - **The agy lane's C8 (2026-11-21; harvest row 1993).** It gives the exact all-S mixing exponents, in |q| units:
+    (3/10, 3/20, 11/20) at a = ±2/5 and (9/20, 1/20, 1/2) at a = ±1/5. That is N1's table, so N1 is a third computation
+    after W-D2's and C8's.
+  - **The agy lane's C1 (2026-11-20).** It gives the all-S alignment at the 20 points of order 5 with a ≠ 0.
+
+  **What remains new here:**
+  - every mass state's null-frame assignment;
+  - the cancellation of the Higgs's own rotations (N4);
+  - the census at orders 8 and 10 and its failures on a = 1/2 (N5).
+
+  The cause of the miss and the rule now kept are in B1972's Seen first.
 - **What is new here:**
   - the second computation of W-D2's D-1 rates on main's code;
   - the null frame that every mass state lies along, and the permutation it gives;

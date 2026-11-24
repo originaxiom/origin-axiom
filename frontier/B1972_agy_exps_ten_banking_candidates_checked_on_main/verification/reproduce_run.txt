@@ -1,0 +1,18 @@
+# B1972 section 2: the seat's sixteen sealed scripts, run with python3 -I in a sparse shared clone of origin/agy/self-consistent-loop-2026-11-11 @ 9b34bfc03 (reproduce_one.sh); output SHA-256 (first 16 hex) against the committed output
+r_peer_audit_all_seats_referee rc=0 secs=41 committed=6f2a028e6a48a9dc rerun=6f2a028e6a48a9dc IDENTICAL
+r_peer_audit_all_seats_verify rc=0 secs=47 committed=5270258bbbcdfa5a rerun=5270258bbbcdfa5a IDENTICAL
+x_bulk_link1_referee_v3 rc=0 secs=399 committed=9890a77ccd2a68fe rerun=9890a77ccd2a68fe IDENTICAL
+x_bulk_link1_v4_verify rc=0 secs=123 committed=40be4dfb523c6d77 rerun=40be4dfb523c6d77 IDENTICAL
+x_e6ps_link23_referee rc=0 secs=10 committed=eb8c2efd051d0f0c rerun=eb8c2efd051d0f0c IDENTICAL
+x_e6ps_link23_v2_verify rc=0 secs=11 committed=f40069d3e879b246 rerun=f40069d3e879b246 IDENTICAL
+x_flavor_link4_referee_v2 rc=0 secs=314 committed=aa985e7e7fe72e92 rerun=aa985e7e7fe72e92 IDENTICAL
+x_flavor_link4_v5_verify rc=0 secs=255 committed=305c0e98bf6f891e rerun=305c0e98bf6f891e IDENTICAL
+x_floor_link8_referee rc=0 secs=27 committed=7c63850099b4a57b rerun=7c63850099b4a57b IDENTICAL
+x_floor_link8_verify rc=0 secs=118 committed=33ca5c7022834bf0 rerun=33ca5c7022834bf0 IDENTICAL
+x_foundations_link7_referee rc=0 secs=36 committed=9fbae20509c2a817 rerun=9fbae20509c2a817 IDENTICAL
+x_foundations_link7_verify rc=0 secs=28 committed=1e295fd21dfa51f5 rerun=1e295fd21dfa51f5 IDENTICAL
+x_ftheory_flavor_link5_referee_v2 rc=0 secs=646 committed=4baeb111d0993fd9 rerun=4baeb111d0993fd9 IDENTICAL
+x_ftheory_flavor_link5_v4_verify rc=0 secs=720 committed=51a2fb04e7e9d03e rerun=51a2fb04e7e9d03e IDENTICAL
+x_hierarchy_link6_referee rc=0 secs=260 committed=a79f28836f23a323 rerun=a79f28836f23a323 IDENTICAL
+x_hierarchy_link6_verify rc=0 secs=89 committed=8780abc6c4e388cf rerun=8780abc6c4e388cf IDENTICAL
+IDENTICAL: 16 of 16
