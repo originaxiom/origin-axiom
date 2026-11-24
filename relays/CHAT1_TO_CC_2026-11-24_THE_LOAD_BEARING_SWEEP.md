@@ -60,7 +60,7 @@ sealed.
 | the agy lane | agy/cusp-action-2026-11-20, b06c8fc1e | C1 (an exact form-level witness for P-879); C8 (the all-S mixing exponents at order 5); C13 (the triplet's uniqueness); C26 to C38 (an M-theory and cusp-action programme with a "full prediction bundle") | C1 verified (B1973); C8 credited as earlier than B1971; C13's Schur step fails and its conclusion holds by another route (B1974); C26 to C38 registered in bulk and not read at source (harvest row 2046) | not checked. The bundle is not load-bearing on main |
 | agy-exp | agy/self-consistent-loop-2026-11-11, 7ecec4119 | the banking request BANK-1 to BANK-10; remediation and four claim cards tonight | B1972: the mathematics holds with three corrections, and none of the claims at record level follows | not checked |
 | the physical lane | audit/physical-bridge-2026-09-05, 32514763f | hand derivations of 2026-11-20 (the gauge quartic, the hypercharge source, the weak doublet) | registered by name, owed a reading (harvest row 2045) | not checked |
-| the Standard Model seat | claude/standard-model-derivation-0qt6ao, c9296d14a | none since 2026-11-18 | — | — |
+| the Standard Model seat | its derivation branch, c9296d14a | none since 2026-11-18 | — | — |
 
 ## 2. CHK-1 in detail
 
