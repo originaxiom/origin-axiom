@@ -1,0 +1,17 @@
+# CLAIM CARD — Coordinate-free GL(2,Z)-canonical 24-point E_tau[6]_prim torsion shell lifts rank 2 to 3 and breaks the E[5] lepton-down Yukawa tie with zero coordinate selection bits
+
+- seat, branch, commit: agy-exp, agy/self-consistent-loop-2026-11-11, 256f4294c
+- kind: theorem
+- touches: A03, A10, lepton factor, Yukawa, P-706, P-845
+- effect: conditions — A10 and P-845 lepton-down Yukawa tie by replacing coordinate-picked cyclic K_6 with the GL(2,Z)-canonical 24-point primitive order-6 shell E_tau[6]_prim = {p in E_tau : 6p = 0, 2p != 0, 3p != 0}
+- imports: Two-Higgs-doublet model (separate H_u on K_5 and H_d on K_5 + E_tau[6]_prim) and uniform unweighted average over the complete primitive order-6 torsion shell E_tau[6]_prim
+- premises on main: B1656, B1736, B1839, B1943 (T-THE-ACTS-FIXED-LINE), B1970, B1972 (M48 item 4)
+- decisive script: relays/x_rem_m48_pa2_verify/verify_x_rem_m48_pa2.py, SHA-256 23c0000845923374, depends on only the standard library, mpmath, sympy, run as python3 -I relays/x_rem_m48_pa2_verify/verify_x_rem_m48_pa2.py, output SHA-256 638c5bff82a25acd
+- second computation: agy-exp disjoint cold-room referee (CRT + mp.jtheta, zero shared helpers), relays/x_rem_m48_pa2_referee/referee_x_rem_m48_pa2.py (SHA-256 783a13e1647d12dd, output ecd4d95bb0b614bd), agrees to 2.64e-9; cyclic K_6^+- obstruction independently verified by main (B1972) and agy-002 (472c54a43 FL8-F3)
+- already on main?: python3 scripts/topic_sweep.py "lepton" "order 6" — closest arcs B1839 (E[5] tie), B1970 (open lepton-down split), and B1972 sec. 1 item 4 (cyclic K_6 needs a coordinate choice; canonical 24-point E_tau[6]_prim shell not previously tested on main)
+- what would make it fail: Planted control PC_RM_4 / R_PC_RM_4 — omitting E_tau[6]_prim (averaging over K_5 alone) collapses |(sigma_2/sigma_3)(W_e) / (sigma_2/sigma_3)(W_d) - 1| to 3.07e-46 (exact E[5] tie), whereas K_5 + E_tau[6]_prim yields full rank 3 and 11.41% to 67.98% splitting across generic rational tau in H
+
+## Mathematical Summary (Answering `M48 #4` Directly)
+
+1. **Confirmation of `M48 #4` & `FL8-F3` on Cyclic Order-`6` Subgroups:** On $E_\tau[6] \cong (\mathbb{Z}/6\mathbb{Z})^2$, $\chi_{M_{RL}}(\lambda) = \lambda^2 - 3\lambda + 1 \equiv \lambda^2 + 1 \pmod 3$ is irreducible over $\mathbb{F}_3$ (`0` $M_{RL}$-invariant cyclic order-`6` subgroups), and imposing setwise $(a,b)\mapsto(b,a)$ symmetry plus the odd-spin anchor $(\frac{1}{2},\frac{1}{2})$ reduces the `12` cyclic order-`6` subgroups to `2`: $K_6^+ = \langle(\frac{1}{6},\frac{1}{6})\rangle$ and $K_6^- = \langle(\frac{1}{6},\frac{5}{6})\rangle$ (`>= 1` discrete bit if restricted to a single cyclic subgroup).
+2. **Coordinate-Free `0`-Bit $\mathrm{GL}(2,\mathbb{Z})$-Canonical Shell Theorem (`RM_4`):** Replacing cyclic $K_6^\pm$ by the complete `24`-point primitive order-`6` torsion shell $E_\tau[6]_{\mathrm{prim}} = \{p \in E_\tau : 6p = 0,\, 2p \neq 0,\, 3p \neq 0\}$ requires **zero** basis coordinates, **zero** word-grammar choices, and is preserved setwise by all of $\mathrm{GL}(2,\mathbb{Z})$. Paired with `B1943`'s $K_5^* = \ker(LR + I_2)_{\mathrm{prim}}$, uniform averaging lifts $(W_d, W_e)$ to full rank `3` ($\det\neq 0$), preserves exact antipodal invariance $p \sim -p$, and breaks `SM-C13`'s $Y_e \propto Y_d^T$ tie across $\mathbb{H}$ (`11.41%` at $\tau_8^+$, `32.65%` at $\frac{13}{100}+\frac{7}{5}i$, `67.98%` at $-\frac{31}{100}+\frac{11}{5}i$) solely from $6Y(L,e^c) = (-3, 6) \equiv (0,0)\pmod 3 \neq (1,2) = 6Y(Q,d^c)\pmod 3$.
