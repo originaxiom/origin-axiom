@@ -18023,6 +18023,26 @@
    "status": "dead",
    "domain": "physics"
   },
+  "B1974": {
+   "slug": "the frames higgs triplet is the only one of its kind",
+   "motifs": [
+    "figure_eight",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [

@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1670 |
-| … PROVED | 1164 |
+| arcs with a verdict file | 1671 |
+| … PROVED | 1165 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1974 | PROVED | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose…” |
 | B1973 | PROVED | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup∣V33∣ = (1+s_L)/(3-s_L) at a null Higgs holds on main's own c…” |
 | B1972 | PROVED | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral…” |
 | B1971 | PROVED | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly…” |
@@ -42,7 +43,6 @@
 | B1965 | OPEN | “IN FRAME C UNDER THE CHARGE RULE AN ADVERSARIAL SEARCH OVER EVERY HIGGS TRIPLET FINDS ALIGNMENT ONLY WITH A NEARLY REAL HIGGS AND NO HEAVY-PAIR HIERARCHY (OPEN, a conjecture with its evidence; data-free; P-879): at four…” |
 | B1964 | PROVED | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector…” |
 | B1963 | PROVED | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs…” |
-| B1962 | NEGATIVE | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: THE ONE-DOUBLET MIXING TRADE-OFF (P-879) SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (B1973, PROVED for its checks; data-free).** agy-002's A2-P879 and the agy lane's C1 answered P-879 before main read them. Main checked their decisive steps on its own code. The coupling's form allows an exactly aligned full hierarchy under the charge rule (C1's witness), so any exclusion is the frame's. At a null Higgs the heavy alignment is at most (1+s_L)/(3-s_L) (agy-002's T3). Frame C's up and down residues share one left spinor because both carry the left doublet's charge q_L = 1, and with the channel weights s_L stays at most 0.387, which caps the alignment a…”
+“LATEST (2026-11-24, S306p: THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND, SO BOTH DOUBLETS MUST CARRY IT (B1974, PROVED given its hypotheses; data-free; I-37, P-847).** The agy lane's C13 claimed that a uniqueness forces the two Higgs doublets to share frame C's triplet. Main verified its theta identity, found its Schur step does not hold as written, and proved the uniqueness by another route. The triplet is a weight-3/2 vector-valued modular form whose components live on Gamma_0(2), and any second triplet of the same kind, holomorphic and no more singular at the cusp, is a constant multiple, because X_0(2) has genus 0. So the shared fibre mode, which the web seat counted as a choic…”
 
 ## Completeness (nothing skipped silently)
 

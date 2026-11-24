@@ -1,0 +1,4 @@
+F1: |E((1+i)/2)| = 5.44e-31 | |E(i)| = 2.08981
+F2: |q|-orders of c_0, c_1, c_2 between heights 20 and 30: [0.125, -0.125, -0.125]
+F4: zeros of c_0 inside a circle of radius 0.1 about (1+i)/2: 1.0
+F4: zeros of c_0 in the box -0.49 < Re < 0.49, 0.62 < Im < 2.5: -1.63437e-31

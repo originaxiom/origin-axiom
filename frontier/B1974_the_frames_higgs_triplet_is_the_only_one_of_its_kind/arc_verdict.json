@@ -1,0 +1,36 @@
+{
+ "id": "B1974",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-37",
+   "status": "UNEARNED",
+   "note": "its clause 'both doublets carry one triplet' derived here, given P1 (same weight and representation), P2 (holomorphy) and P3 (cusp growth no worse than S); the rest of its criterion is still owed"
+  }
+ ],
+ "depends_on": [
+  "B1940",
+  "B1945",
+  "B1970",
+  "B1971",
+  "B1253"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane's C13 (2026-11-21, harvest row 1993): the Halphen-Serre identity (verified here, H1) and the idea of a uniqueness for the shared triplet; its Schur argument corrected (H2)",
+  "the web seat's W-D2 D-1 (harvest row 1984): the shared fibre mode typed as a counted choice, which this arc derives given P1 to P3"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C's Higgs triplet c(tau) (B1940's frame) as a vector-valued modular form for SL(2,Z)",
+  "object": "the space of triplets of the same weight and representation, holomorphic on H, no more singular at the cusp than c",
+  "reach": "class",
+  "hypotheses": "P1 the second triplet is a vector-valued modular form of weight 3/2 for the same representation rho; P2 holomorphic on H; P3 no q-exponent below -1/8 at the cusp; the inputs (the identity, rho, the cusp orders, the zeros) checked numerically, the argument exact"
+ },
+ "claim_one_line": "THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose component stabilizer is Gamma_0(2) (checked to 1e-33), with c_0 = -theta_2^2 (theta_3^4 + theta_4^4)/(24 eta^3) (the agy lane's C13 identity, to 1e-40), vanishing only at the elliptic point and of orders +1/8 and -1/8 at the two cusps; so any second triplet of the same weight and representation, holomorphic on H and no more singular at the cusp, divided by it gives a holomorphic function on the genus-0 curve X_0(2), a constant; the shared fibre mode, counted as a choice, is forced given those hypotheses; C13's Schur argument corrected (eta c is not in M_2(Gamma(2)))",
+ "weave_or_thread": "the weave (the modulus)"
+}

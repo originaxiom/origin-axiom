@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1670 of 1670 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1671 of 1671 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1164)
+## PROVED (1165)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1176,6 +1176,7 @@
 | `B1971` | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly null Higgs (B1739's h.h = eta^6/4, found to hold in frame C); the heavy up state is u x h (exact, w = 0); the mixing is the permutation between the two sectors' frames, aligned at all 24 points of order 5 and 104 of 112 of orders 8 and 10, every failure on the line a = 1/2; the Higgs's e^(-pi Im tau / 2) rotations are common to both sectors and cancel (five entries at the mark and the twin fall faster than naive), so the mixing is set by the channels -- the structural reason B1742 and W-D2 found it too small; W-D2's D-1 rate table computed a second time on main's code, every entry agreeing” |  | 0 |
 | `B1972` | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral cover is 8^3_4, already on main's record at P-866/B1955; the affine E8 deletion of least determinant 20; so(10) centralizers 21, 25, 13; the 6D anomaly arithmetic; K5 the act's line for the fixed word), with three corrections (m000 is the least-volume cusped manifold, not the least orbifold; the regular D5 cover has 5 cusps; -P5 keeps the triplets, so the sign is the choice), and none of the record-level claims follows: I-37 not earned, SE1-SE3, GM1-GM4 and Postulate D not retired (each replaced or re-expressed), B1970's two gates not closed (a model with at least 9 priced bits at a chosen modulus), the 2.0-bit floor not the record's (it omits priced bits and absorbs the imports)” |  | 0 |
 | `B1973` | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup|V33| = (1+s_L)/(3-s_L) at a null Higgs holds on main's own code; frame C's up and down residues share one left spinor because they share q_L = 1 (rank one to 1e-39, s_L below 1e-20), the channel weights giving s_L at most 0.387, so the null-Higgs alignment is capped at 0.531 at every point checked; and the agy lane's exact witness shows the coupling's form allows an exactly aligned full hierarchy under the charge rule; the interior 0 < r < 1 stays open” |  | 0 |
+| `B1974` | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose component stabilizer is Gamma_0(2) (checked to 1e-33), with c_0 = -theta_2^2 (theta_3^4 + theta_4^4)/(24 eta^3) (the agy lane's C13 identity, to 1e-40), vanishing only at the elliptic point and of orders +1/8 and -1/8 at the two cusps; so any second triplet of the same weight and representation, holomorphic on H and no more singular at the cusp, divided by it gives a holomorphic function on the genus-0 curve X_0(2), a constant; the shared fibre mode, counted as a choice, is forced given those hypotheses; C13's Schur argument corrected (eta c is not in M_2(Gamma(2)))” |  | 0 |
 
 ## NEGATIVE (387)
 

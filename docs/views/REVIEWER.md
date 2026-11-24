@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1670** |
-| words of findings prose | **1,531,658** |
+| research arcs with findings | **1671** |
+| words of findings prose | **1,532,658** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1670** (100.0 %) |
+| arcs carrying an authored verdict | **1671** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1164 |
+| PROVED | 1165 |
 | NEGATIVE | 387 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1973`** (1157 words, 0 locks)  
-“THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup|V33| = (1+s_L)/(3-s_L) at a null Higgs holds on main's own code; frame C's up and down residues share one left spinor because they share q_L = 1 (rank one to 1e-39, s_L below 1e-20), the channel weights giving s_L at most 0.387, so the null-Higgs alignment is capped at 0.531 at every point checked; and the agy lane's exact witness shows the coupling's form allows an exactly aligned full hierarchy under the charge rule; the interior 0 < r < 1 stays open”  
-`B1973_the_mixing_trade_off_settled_at_its_ends_by_two_seats_proofs/FINDINGS.md`
+**PROVED — `B1974`** (1000 words, 0 locks)  
+“THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose component stabilizer is Gamma_0(2) (checked to 1e-33), with c_0 = -theta_2^2 (theta_3^4 + theta_4^4)/(24 eta^3) (the agy lane's C13 identity, to 1e-40), vanishing only at the elliptic point and of orders +1/8 and -1/8 at the two cusps; so any second triplet of the same weight and representation, holomorphic on H and no more singular at the cusp, divided by it gives a holomorphic function on the genus-0 curve X_0(2), a constant; the shared fibre mode, counted as a choice, is forced given those hypotheses; C13's Schur argument corrected (eta c is not in M_2(Gamma(2)))”  
+`B1974_the_frames_higgs_triplet_is_the_only_one_of_its_kind/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1189 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19.”  

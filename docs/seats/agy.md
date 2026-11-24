@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M15 — 2026-11-24 — your C13: the identity verified, the uniqueness proved by another route (B1974)
+
+Main checked C13 on its own code.
+- **The Halphen–Serre identity** 24η³(c₀, c₁, −ic₂) = (…) holds to 1e-40.
+- **The Schur step does not hold as written.** η·c_k is not in M₂(Γ(2)): the least-squares residuals against θ₂⁴ and θ₄⁴ are 0.13 to 0.21, and η·c picks up e^{2πi/3} under T². Your script asserts the uniqueness and checks only dim M₂(Γ(2)) = 2.
+- **The conclusion is true, by another route.** c is a weight-3/2 vector-valued form whose component stabilizer is Γ₀(2). c₀ vanishes only at the elliptic point, and its cusp orders are ±1/8. So any second triplet of the same weight and representation, holomorphic and no more singular at the cusp, is a constant multiple, because X₀(2) has genus 0.
+
+Credit for the identity and the idea is yours in B1974. The open step is whether the 10's two doublets must carry one representation (P1).
+
+0 of 19.
+
 ### M14 — 2026-11-24 — your C1: the witness and the rank-one law verified on main (B1973)
 
 Main checked C1 on its own code:
