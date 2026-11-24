@@ -1,0 +1,511 @@
+{
+  "R_OPEN_1": {
+    "e8_bourbaki_coordinate_free": {
+      "27_3_spin10_split": [
+        48,
+        30,
+        3
+      ],
+      "all_norms_2": true,
+      "cartan_det": 1,
+      "dims": {
+        "1_8": 8,
+        "27_3": 81,
+        "27bar_3bar": 81,
+        "78_1": 78
+      },
+      "ew_channels_kept": {
+        "L_ec_Hd": 2,
+        "L_nuc_Hu": 2,
+        "Q_dc_Hd": 6,
+        "Q_uc_Hu": 6
+      },
+      "highest_root": [
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "kac_marks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "kawamura_triplets_killed": 24,
+      "num_roots": 240,
+      "passed": true,
+      "same_family_couplings": 0,
+      "sm_10_inventory": {
+        "H_d": {
+          "6Y": -3,
+          "dim": 2
+        },
+        "H_u": {
+          "6Y": 3,
+          "dim": 2
+        },
+        "T": {
+          "6Y": -2,
+          "dim": 3
+        },
+        "Tbar": {
+          "6Y": 2,
+          "dim": 3
+        }
+      },
+      "sm_16_inventory": {
+        "L": {
+          "6Y": -3,
+          "dim": 2
+        },
+        "Q": {
+          "6Y": 1,
+          "dim": 6
+        },
+        "d_c": {
+          "6Y": 2,
+          "dim": 3
+        },
+        "e_c": {
+          "6Y": 6,
+          "dim": 1
+        },
+        "nu_c": {
+          "6Y": 0,
+          "dim": 1
+        },
+        "u_c": {
+          "6Y": -4,
+          "dim": 3
+        }
+      },
+      "so10_10_16_16_ordered": 80,
+      "so10_10_16_16_total": 40,
+      "sum_dims": 248,
+      "triplet_channel_breakdown": {
+        "L_Q_Tbar": 6,
+        "Q_Q_T": 6,
+        "d_c_nu_c_T": 3,
+        "d_c_u_c_Tbar": 6,
+        "e_c_u_c_T": 3
+      },
+      "unique_e6_a2_deleted_nodes": [
+        7
+      ]
+    },
+    "halphen_serre_cauchy_and_s3_modular": {
+      "cauchy_N_pts": 64,
+      "i37_verdict": "UNEARNED_WT3HALF_AND_HOLOMORPHY_ASSUMED",
+      "max_R_dot_c_err": "1.381787e-76",
+      "max_halphen_serre_rel_err": "7.8031977e-76",
+      "max_hh_over_eta6_div4_err": "8.2987023e-76",
+      "max_jacobi_abstruse_err": "1.3819556e-76",
+      "max_jacobi_prod_err": "2.7635739e-76",
+      "mult_2std_by_weight": {
+        "k_1_wt_2": 1,
+        "k_2_wt_4": 1,
+        "k_3_wt_6": 1,
+        "k_4_wt_8": 2
+      },
+      "passed": true,
+      "wt2_doublet_S_err": "2.3687933e-76",
+      "wt2_doublet_T_err": "4.8352792e-77",
+      "wt4_doublet_S_err": "3.2638332e-76",
+      "wt4_doublet_T_err": "7.9245996e-77",
+      "wt4_intertwiner_exact": true,
+      "wt4_non_proportional_gap": "0.28758005"
+    },
+    "passed": true,
+    "pontryagin_6d_trR4": {
+      "b_half_sum_x4": "1/2880",
+      "b_half_trR4": "1/5760",
+      "delta_244_nv12_and_nv14": [
+        175,
+        177
+      ],
+      "gs_factorization_exact": true,
+      "gs_t2sq_coeff_at_cancel": "nT_sym/128 - 9/128",
+      "n_gravitino_3half": 245,
+      "n_selfdual_B2": 28,
+      "passed": true,
+      "tensor_multiplet_29": 29,
+      "total_273": 273
+    }
+  },
+  "R_OPEN_2": {
+    "analytic_window_rates_eps_units": {
+      "mark": {
+        "err_S_vs_0p10": "1.6651501e-12",
+        "err_Stilde_vs_0p30": "3.0807666e-7",
+        "rate_S_Wminus": "0.1",
+        "rate_Stilde_Wplus": "0.2999996919"
+      },
+      "twin": {
+        "err_S_vs_0p10": "1.5121334e-12",
+        "err_Stilde_vs_0p30": "2.0147534e-7",
+        "rate_S_Wminus": "0.1",
+        "rate_Stilde_Wplus": "0.2999997985"
+      }
+    },
+    "lnD2_vanishes_exponentially": true,
+    "mark_collapses_exponentially": true,
+    "mark_twin_dichotomy_scan": {
+      "mark": {
+        "y_10": {
+          "analytic_kappa_star_S_Wminus": "0.0743382369367",
+          "analytic_kappa_star_Stilde_Wplus": "0.000138106574933",
+          "best_aligned_lnD1": {
+            "k_label": "k_-6",
+            "lnD1": "0.0262861068059",
+            "lnD2": "3.51292305059e-5",
+            "min_diag_V": "0.990962165638",
+            "phi_over_pi": "3/4",
+            "r23_dn": "1.86249541949e-6",
+            "r23_lp": "1.86242999261e-6"
+          },
+          "max_lnD2_with_hierarchy": "0.00361696979435",
+          "up_r23_s0": "9.90283161242e-9"
+        },
+        "y_20": {
+          "analytic_kappa_star_S_Wminus": "0.00321249468405",
+          "analytic_kappa_star_Stilde_Wplus": "1.120296015e-8",
+          "best_aligned_lnD1": {
+            "k_label": "k_-12",
+            "lnD1": "0.000607789026916",
+            "lnD2": "1.56341052816e-9",
+            "min_diag_V": "0.999247544468",
+            "phi_over_pi": "3/4",
+            "r23_dn": "6.44563555377e-12",
+            "r23_lp": "6.44563554369e-12"
+          },
+          "max_lnD2_with_hierarchy": "0.00015584003589",
+          "up_r23_s0": "6.44910083156e-17"
+        },
+        "y_30": {
+          "analytic_kappa_star_S_Wminus": "0.000138824482706",
+          "analytic_kappa_star_Stilde_Wplus": "9.04082229591e-13",
+          "best_aligned_lnD1": {
+            "k_label": "k_-17",
+            "lnD1": "4.44762983641e-5",
+            "lnD2": "2.09109218219e-13",
+            "min_diag_V": "0.993862808677",
+            "phi_over_pi": "7/4",
+            "r23_dn": "2.25999532207e-17",
+            "r23_lp": "2.25999532207e-17"
+          },
+          "max_lnD2_with_hierarchy": "6.73442069395e-6",
+          "up_r23_s0": "4.19992025215e-25"
+        }
+      },
+      "twin": {
+        "y_10": {
+          "analytic_kappa_star_S_Wminus": "0.147258206521",
+          "analytic_kappa_star_Stilde_Wplus": "0.000266742537843",
+          "best_aligned_lnD1": {
+            "k_label": "k_analytic",
+            "lnD1": "2.21611008319",
+            "lnD2": "0.0104544798919",
+            "min_diag_V": "0.99100320955",
+            "phi_over_pi": "3/4",
+            "r23_dn": "0.00533533062157",
+            "r23_lp": "0.00539140131253"
+          },
+          "max_lnD2_with_hierarchy": "0.0104544798919",
+          "up_r23_s0": "0.000597908887727"
+        },
+        "y_20": {
+          "analytic_kappa_star_S_Wminus": "0.00636369078686",
+          "analytic_kappa_star_Stilde_Wplus": "2.15993001553e-8",
+          "best_aligned_lnD1": {
+            "k_label": "k_analytic",
+            "lnD1": "2.21087189843",
+            "lnD2": "1.97670869293e-5",
+            "min_diag_V": "0.99998301788",
+            "phi_over_pi": "3/4",
+            "r23_dn": "1.01238350569e-5",
+            "r23_lp": "1.01240351776e-5"
+          },
+          "max_lnD2_with_hierarchy": "0.000308705280668",
+          "up_r23_s0": "1.11728166857e-6"
+        },
+        "y_30": {
+          "analytic_kappa_star_S_Wminus": "0.000275000013532",
+          "analytic_kappa_star_Stilde_Wplus": "1.74306413514e-12",
+          "best_aligned_lnD1": {
+            "k_label": "k_analytic",
+            "lnD1": "2.21086203327",
+            "lnD2": "3.69147658264e-8",
+            "min_diag_V": "0.999999968286",
+            "phi_over_pi": "3/4",
+            "r23_dn": "1.89062507968e-8",
+            "r23_lp": "1.89062514948e-8"
+          },
+          "max_lnD2_with_hierarchy": "1.33403397792e-5",
+          "up_r23_s0": "2.08646203293e-9"
+        }
+      }
+    },
+    "modular_and_numerical_identities": {
+      "Fu_S_invariance_err": "2.9962729e-95",
+      "Fu_T_invariance_err": "0.0",
+      "a0_S_covariance_err": "2.4478185e-96",
+      "frame_c_3factor_det_Y_max_err": "8.3149441e-96",
+      "frame_c_det_ratio_max_err": "5.304579e-95",
+      "frame_c_wd2_transpose_max_err": "4.220954e-106",
+      "guardrail3_basis_scrambling_max_err": "9.4786428e-77",
+      "guardrail3_haar_unitarity_err": "4.6040526e-107"
+    },
+    "passed": false,
+    "rates_0p10_and_0p30_ok": true,
+    "symbolic_direct_2x2_proofs": {
+      "closed_form_exact": true,
+      "cubic_s_coefficients_exact": true,
+      "exact_3factor_det_Y": true,
+      "null_basis_singlet_eigs_exact": true,
+      "wd2_transpose_negation_exact": true
+    },
+    "twin_survives_aligned_O1_split": false
+  },
+  "R_OPEN_3": {
+    "b1971_N1_N4": {
+      "mark": {
+        "hh_over_eta6_div4_err_y30": "1.1559051e-76",
+        "max_rate_err": "8.8344135e-8",
+        "rates_20_to_30": {
+          "J": "1.999999917",
+          "V12": "0.6",
+          "V13": "1.100000088",
+          "V23": "0.3000000645",
+          "V31": "0.9"
+        }
+      },
+      "twin": {
+        "hh_over_eta6_div4_err_y30": "1.1559051e-76",
+        "max_rate_err": "3.7664775e-5",
+        "rates_20_to_30": {
+          "J": "2.199962335",
+          "V12": "0.899999975",
+          "V13": "0.9999999196",
+          "V23": "0.09999989238",
+          "V31": "1.199992429"
+        }
+      }
+    },
+    "b1971_N1_N4_ok": true,
+    "order5_congruence": {
+      "aligned_count": 24,
+      "buckets": {
+        "nb|e|-i|nenb": 10,
+        "nb|nb|none|nenb": 4,
+        "n|e|+i|nnbe": 10
+      },
+      "clean_count": 24,
+      "congruence_matches": 24,
+      "p_up_plus_p_dn_always_odd": true,
+      "passed": true,
+      "total_points": 24
+    },
+    "orders_8_10_reconciliation": {
+      "a_half_rate_match_exact": true,
+      "b1963_120_x0p13_y30": {
+        "aligned_ge_0p9": 108,
+        "clean_99_count": 100,
+        "total": 120,
+        "unaligned_by_a": {
+          "a=1/2_ord10": 8,
+          "a=1/2_ord8": 4
+        },
+        "unaligned_lt_0p9": 12
+      },
+      "b1971_112_x0p13_y30": {
+        "aligned_ge_0p9": 104,
+        "clean_99_count": 96,
+        "total": 112,
+        "unaligned_by_a": {
+          "a=1/2_ord10": 4,
+          "a=1/2_ord8": 4
+        },
+        "unaligned_lt_0p9": 8
+      },
+      "extra_lcm10_points_count": 8,
+      "extra_on_a_half": 4,
+      "extra_on_b_half": 4,
+      "multi_column_y20_b1971": {
+        "x_0": {
+          "aligned_ge_0p9": 104,
+          "clean_99_count": 96,
+          "non_clean_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4,
+            "a=1/4_ord8": 4,
+            "a=3/4_ord8": 4
+          },
+          "total": 112,
+          "unaligned_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4
+          },
+          "unaligned_lt_0p9": 8
+        },
+        "x_0p13": {
+          "aligned_ge_0p9": 104,
+          "clean_99_count": 96,
+          "non_clean_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4,
+            "a=1/4_ord8": 4,
+            "a=3/4_ord8": 4
+          },
+          "total": 112,
+          "unaligned_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4
+          },
+          "unaligned_lt_0p9": 8
+        },
+        "x_0p25": {
+          "aligned_ge_0p9": 104,
+          "clean_99_count": 96,
+          "non_clean_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4,
+            "a=1/4_ord8": 4,
+            "a=3/4_ord8": 4
+          },
+          "total": 112,
+          "unaligned_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4
+          },
+          "unaligned_lt_0p9": 8
+        },
+        "x_0p5": {
+          "aligned_ge_0p9": 104,
+          "clean_99_count": 96,
+          "non_clean_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4,
+            "a=1/4_ord8": 4,
+            "a=3/4_ord8": 4
+          },
+          "total": 112,
+          "unaligned_by_a": {
+            "a=1/2_ord10": 4,
+            "a=1/2_ord8": 4
+          },
+          "unaligned_lt_0p9": 8
+        }
+      },
+      "passed": true
+    },
+    "passed": true
+  },
+  "R_OPEN_4": {
+    "branch_manifest_audit": {
+      "manifest_entries_checked": 321,
+      "manifest_files_checked": 319,
+      "mismatches": [],
+      "mismatches_count": 0,
+      "passed": true
+    },
+    "passed": false,
+    "producer_v3_audit": {
+      "ast_zero_float_clean": true,
+      "disallowed_imports": [
+        "__future__"
+      ],
+      "discrepancies": [
+        "OPEN_2 mark y_10 best.lnD1 diff=0.00133642",
+        "OPEN_2 mark y_10 best.min_diag_V diff=1.24267e-6",
+        "OPEN_2 mark y_10 best.r23_dn diff=3.51246e-5",
+        "OPEN_2 mark y_10 best.r23_lp diff=3.51181e-5",
+        "OPEN_2 mark y_20 best.lnD1 diff=2.5723e-6",
+        "OPEN_2 twin y_10 best.lnD1 diff=0.00471749",
+        "OPEN_2 twin y_10 best.min_diag_V diff=0.00343629",
+        "OPEN_2 twin y_10 best.r23_dn diff=0.0104",
+        "OPEN_2 twin y_10 best.r23_lp diff=0.0104",
+        "OPEN_2 twin y_20 best.lnD1 diff=8.94101e-6",
+        "OPEN_2 twin y_20 best.min_diag_V diff=6.47909e-6",
+        "OPEN_2 twin y_20 best.r23_dn diff=1.97493e-5",
+        "OPEN_2 twin y_20 best.r23_lp diff=1.97725e-5"
+      ],
+      "discrepancies_count": 13,
+      "external_read_calls": [],
+      "json_float_tokens_count": 0,
+      "json_internal_script_sha_match": true,
+      "non_blocking_diagnostics": [
+        "OPEN_1 6D b_half convention note: Producer reports b_half=1/2880 (coeff of S_4 = sum x_i^4 = (1/2) tr R^4), whereas Pontryagin substitution p_2 = (1/8) t2^2 - (1/4) t4 gives coeff(tr R^4) = 1/5760; all physical anomaly ratios (245, 28, 29, 273, Delta_244=[175, 177]) match identically."
+      ],
+      "open2_max_crosscheck_rel_err": "0.010400026",
+      "open3_max_rate_crosscheck_err": "2.4166819e-8",
+      "output_sha256": "80edd2038eb49a0e7fe9481763dd1e805902e5e21df629484ed74019f345c889",
+      "output_sha256_match": true,
+      "passed": false,
+      "sandbox_no_subprocess_or_net": true,
+      "script_sha256": "b2f662a67d9d9039ae774fbf34a311fdf75876faaf4febc751de131aa3ee3176",
+      "script_sha256_match": true
+    },
+    "referee_planted_faults": {
+      "RPF_1_f6_fails_s3_wt2": {
+        "caught": true,
+        "f6_T_equiv_err": "5.7523588",
+        "f6_dot_over_minus48eta6_err": "1.6682554e-75"
+      },
+      "RPF_2_opposite_sign_singlet_collapses_lnD1": {
+        "caught": true,
+        "lnD1_opposite_sign": "4.3199877e-95",
+        "lnD2_opposite_sign": "1.8748649e-104"
+      },
+      "RPF_3_6d_trR4_perturbation": {
+        "caught": true,
+        "corrupted_t4_coeff": "-1/5760"
+      },
+      "RPF_4_wrong_sign_s_breaks_wd2_identity": {
+        "caught": true,
+        "wrong_sign_rel_err": "0.28218427"
+      },
+      "RPF_5_Stilde_up_deranges_CKM": {
+        "caught": true,
+        "min_diag_V_Stilde_S": "9.9819009e-27"
+      },
+      "RPF_6_higgs_perturbation_breaks_N3_N4": {
+        "caught": true,
+        "hh_over_eta6_div4_pert_err": "3.9420706e+24",
+        "v13_lift_factor": "1.3178077e+20",
+        "v13_perturbed": "2.7792402e-9",
+        "v13_unperturbed": "2.1089877e-29"
+      }
+    },
+    "rpf_caught_count": 6,
+    "rpf_total": 6
+  },
+  "all_referee_gates_passed": false,
+  "card_id": "A2-B1972-OPEN",
+  "discrepancies_count": 13,
+  "empirical_firewall": "0 of 19",
+  "non_blocking_diagnostics": [
+    "OPEN_1 6D b_half convention note: Producer reports b_half=1/2880 (coeff of S_4 = sum x_i^4 = (1/2) tr R^4), whereas Pontryagin substitution p_2 = (1/8) t2^2 - (1/4) t4 gives coeff(tr R^4) = 1/5760; all physical anomaly ratios (245, 28, 29, 273, Delta_244=[175, 177]) match identically."
+  ],
+  "role": "disjoint_cold_room_zero_trust_referee",
+  "script": "referee_a2_b1972_open.py",
+  "script_sha256": "f02e0995839da7f6bf2ed22a7a19bee75792036766b404031df6c0e547e5f591",
+  "seat": "agy-002",
+  "self_hygiene": {
+    "ast_zero_float_clean": true,
+    "banned_cast_calls": [],
+    "complex_literal_lines": [],
+    "disallowed_imports": [],
+    "float_literal_lines": [],
+    "sandbox_no_subprocess_or_net": true
+  }
+}
