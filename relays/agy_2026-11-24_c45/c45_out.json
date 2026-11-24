@@ -1,0 +1,165 @@
+{
+  "E1_agy002_p135_fv2_and_ow27_verification": {
+    "control_1_nilpotent_hitchin_and_o3_caught": true,
+    "finding_A2_FV2_N1": "origin/agy-002/foundations-v2 JSON outputs emit raw binary64 floats via numpy and import Fock weights breaking A08: H = I (whereas origin/agy-002/verify 27f5d89fa..29f9d1699 has 0 AST/JSON floats and 119/119 valid manifests)",
+    "finding_A2_OW27_N2": "In A2-OW27 v8 (y_t(M_GUT) = g_UV), m_c / Lambda_QCD^(4) ~ 3/100 < 1 sits below confinement, clamping Lambda_QCD^(3) == Lambda_QCD^(4) with m_h^pole / M_Z in [37/25, 171/100]",
+    "fv2_8_3_4_unique_p5_orbits": [
+      1,
+      2,
+      2
+    ],
+    "fv2_p862_faddeev_leverrier_err": "0.0",
+    "ow27_qed_top_beta_rational": "16/9",
+    "p135_e8_branching_240": [
+      30,
+      6,
+      2,
+      40,
+      90,
+      72
+    ],
+    "p135_kY_gut_normalization": "14/3",
+    "p135_nilpotent_jordan_monodromy_verified": true,
+    "p135_puncture_odd_roots": 112,
+    "p135_simpson_o3_requires_b_zero": true,
+    "p135_su2Q_complete_sm_singlet": true,
+    "p135_unique_hypercharges_count_over_C3": 6
+  },
+  "E2_agyexp_physical_and_m13_i37_c13_c1": {
+    "agy_c38_n1_note": "C38 solved s_* at tolerance 10^-31 (|s*_mel - s*_newt| = 1.38e-31), explaining the 1.69e-32 semicircle residual; in C39..C44 v9.json tau_*^+ = (2+i)/5 is an exact Gaussian rational (0 exact circle residual)",
+    "b1972_10sheet_regular_D5_cusps_and_b1": [
+      5,
+      5
+    ],
+    "b1972_5sheet_8_3_4_cusps_and_b1": [
+      3,
+      3
+    ],
+    "c1_p879_form_witness_min_diag_V_and_m2_m3": [
+      "1.0",
+      "0.00050000003",
+      "0.007999992"
+    ],
+    "control_2_sadov_haar_k6_and_schreier_caught": true,
+    "control_3_physical_cusp_and_c13_schur_caught": true,
+    "fl8_f1_fk_at_n16_0_and_n16_on_F6": [
+      4,
+      -2
+    ],
+    "fl8_f2_su2L_haar_good_vs_bad": [
+      "5.3455294e-51",
+      "0.56063067"
+    ],
+    "fl8_f3_k6_plus_swaps_to_k6_minus": true,
+    "m13_i37_n10_and_c13_2T_schur_hom_dim": [
+      2,
+      1
+    ],
+    "physical_32514763f_K2_poly_and_cusp_energy": [
+      "(z + 1)**2",
+      "6*eps**5/(5*ell)"
+    ]
+  },
+  "E3_p571_107_flat_premise_value_kills_audit": {
+    "all_20_flat_overreach_ids_scoped": [
+      "B185",
+      "B343",
+      "B400",
+      "B443",
+      "B685",
+      "B712",
+      "B130",
+      "B282",
+      "B298",
+      "B330",
+      "B349",
+      "B350",
+      "B414",
+      "B602",
+      "B713",
+      "B729",
+      "B743",
+      "B760",
+      "B1076",
+      "B1137"
+    ],
+    "b1476_premise_breakdown": {
+      "CURVED": 9,
+      "FLAT": 107,
+      "MIXED": 20,
+      "UNCLEAR": 37
+    },
+    "b1476_total_value_kills": 173,
+    "chiral_generations_flat_M0_vs_flux_M4": [
+      0,
+      3
+    ],
+    "control_4_flat_rigidity_vs_curved_transcendence_caught": true,
+    "control_5_flat_zero_chirality_vs_flux_index_caught": true,
+    "curved_robin_L2_shift_tau_star_vs_i": "0.9097280712",
+    "flat_107_total_conditionally_lifted": 20,
+    "flat_107_total_unchanged_theorems": 87,
+    "flat_riley_trace_minpoly_resid": 0,
+    "lifted_12_continuous_ids": [
+      "B161",
+      "B334",
+      "B343",
+      "B712",
+      "B333",
+      "B602",
+      "B606",
+      "B743",
+      "B899",
+      "B1076",
+      "B1137",
+      "B1203"
+    ],
+    "lifted_8_discrete_and_unclear_ids": [
+      "B307",
+      "B443",
+      "B486",
+      "B672",
+      "B685",
+      "W6-B307",
+      "B298",
+      "B713"
+    ],
+    "unchanged_16_discrete_selection_and_2T_ids": [
+      "B184",
+      "B313",
+      "B320",
+      "B483",
+      "B619",
+      "B677",
+      "S017 \u2014 phase-space 3+1D at SL(3)",
+      "Value-kill \u2014 CS-crossover k\u22484 \u2194 n=4",
+      "B130",
+      "B280",
+      "B330",
+      "B349",
+      "B350",
+      "B414",
+      "B760",
+      "B1258"
+    ],
+    "unchanged_71_nonphysical_count": 71
+  },
+  "all_expectations_passed": true,
+  "ast_zero_float_check": {
+    "float_or_complex_calls": 0,
+    "float_or_complex_literals": 0,
+    "forbidden_imports": 0,
+    "passed": true
+  },
+  "card": "AGY-C45",
+  "check_labels_section_12": [
+    "recomputed independently",
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5,
+  "purpose": "Zero-Trust Peer Verification (agy-002 @ 29f9d1699, agy-exp @ 9b34bfc03, physical @ 32514763f), Escalated Debt P-571 (107 Flat Kills), & M13 Claim Backing"
+}
