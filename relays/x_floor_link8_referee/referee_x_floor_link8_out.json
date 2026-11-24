@@ -1,0 +1,103 @@
+{
+  "R_L8_1_cl10_and_hirzebruch_uniqueness": {
+    "cl10_32x32_spinor_trace_identities_ok": true,
+    "independent_hirzebruch_survivor_pair": [
+      [
+        [
+          6,
+          0,
+          2
+        ],
+        [
+          4,
+          2,
+          1
+        ]
+      ]
+    ],
+    "matches_producer_L8_1": true,
+    "passed": true,
+    "r_pc_fl8_1_caught": true,
+    "r_pc_fl8_1_f0_ghost_kinetic_val": -9
+  },
+  "R_L8_2_f5_nullspace_and_crt_K6": {
+    "crt_derived_K6_primitives": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "f5_unique_eigenvector_orbit": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "matches_producer_L8_2": true,
+    "passed": true,
+    "r_pc_fl8_2_caught": true,
+    "r_pc_fl8_2_other_eigs_count": 0
+  },
+  "R_L8_3_adams_character_and_z4_center": {
+    "adams_dim_10perp_reflection_even": 4,
+    "adams_lambda2_mult_1plus_and_1minus": [
+      0,
+      2
+    ],
+    "matches_producer_L8_3": true,
+    "passed": true,
+    "r_pc_fl8_3_caught": true,
+    "z4_center_spin10_squares_to_matter_parity": true
+  },
+  "R_L8_4_jacobi_triple_and_out_d5": {
+    "even_shift_tau8_plus_1_dz": "-0.001319209219",
+    "out_d5_order_presentation": 2,
+    "passed": true,
+    "r_pc_fl8_4_caught": true,
+    "triple_product_vs_producer_dz_diffs": [
+      "3.0086873e-16",
+      "2.9177391e-15"
+    ]
+  },
+  "R_L8_5_6_gl6_rge_and_bedrock_floor": {
+    "gl6_jack_jones_err": "8.7545301e-19",
+    "gl6_vs_gbs8_cH_crit_and_tanb_diffs": [
+      "9.7950118e-14",
+      "4.5751542e-12"
+    ],
+    "gl6_vs_gbs8_mh_over_v_dt_minus4_diff": "4.419124e-11",
+    "gl6_vs_gbs8_rat_half_mHu2_diff": "1.849014e-12",
+    "independent_bp_r8_log10_diff": "7.3739401e-7",
+    "passed": true,
+    "r_pc_fl8_5_caught": true,
+    "r_pc_fl8_6_caught": true
+  },
+  "all_referee_checks_and_6_planted_controls_passed": true,
+  "audited_producer_output_sha256": "33ca5c7022834bf0ff32a88b992d5c5be31eadce0e4e06074347910daa1e78b3",
+  "card": "AGY-EXP_X-FLOOR-LINK8",
+  "firewall": "0 of 19",
+  "referee_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  },
+  "referee_script": "referee_x_floor_link8.py",
+  "referee_script_sha256": "56582514183c382d28b220c31d7da2962f27816c51419c26e167a05758743300"
+}
