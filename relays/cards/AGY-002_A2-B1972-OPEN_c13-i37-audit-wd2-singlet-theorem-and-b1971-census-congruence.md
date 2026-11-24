@@ -44,4 +44,15 @@
 - `PF-5`: Conjugating the up Higgs (`(S_tilde, S, S)`) destroys `(S, S, S)` CKM alignment on the act line (`min |V_{ii}| < 0.2`).
 - `PF-6`: Perturbing `h` away from `h.h = eta^6/4` breaks `B1971` `N3` identity and lifts rate-`1/2` cancellation.
 
+---
+
+## Dated Erratum (`2026-11-24`, Post-`v2` Unread Seal `bada80ce4`, Prior to `v3` — `mended expectations`)
+
+- Frozen Producer `v2` (`05cff5d0c -> bada80ce4`, preserved untouched) passed `OPEN-1`, `OPEN-3`, `6/6` PF, and `OPEN-2 Q2`, while **refuting** our initial `OPEN-2 Q1` expectation that `(S, S, S) + s` preserves CKM alignment in the `m_1`-splitting window at the **mark** `(2/5, 4/5)`:
+  1. `v2` discovered the **exact 3-factor determinant law** $\det Y(h, s; u, w) = (u\cdot u + w^2)(h\cdot h + s^2)(u\cdot h - w s)$, proving $\det Y_{\text{lep}}(h, s)/\det Y_{\text{down}}(h, s) = \lambda^3 (u\cdot h + w s)/(u\cdot h - w s)$ and the exact analytic window $\kappa_* = |u\cdot h|/(|w| c_{\max}) \sim \varepsilon^{1/10}$ (`S`) / $\varepsilon^{3/10}$ (`S_tilde`).
+  2. `v2` uncovered an exact **Mark–Twin Singlet Alignment Dichotomy** explained by the null-basis eigenvalues of the leading singlet operator $u_e(\pm i I_3 + [e]_\times)$:
+     - At the **twin `(1/5, 2/5)`** (`w/u_e = -i`, assignment `(n, e, n_bar)`): $(-i I_3 + [e]_\times) = \operatorname{diag}(0, -2i, -i)$ annihilates the light state `n`, so `(S, S, S) + s` **preserves CKM alignment (`min |V_{ii}| >= 0.994` at `y=10`, `0.99999998` at `y=30`), hierarchy (`r23 <= 0.0054`), and an $O(1)$ 1st-gen split (`|ln D_1| = 2.21`) at all heights `y = 10, 20, 30`**.
+     - At the **mark `(2/5, 4/5)`** (`w/u_e = +i`, assignment `(n, n_bar, e)`): $(+i I_3 + [e]_\times) = \operatorname{diag}(+2i, 0, +i)$ lifts the light state `n` to $\sim 2\kappa_* \sim \varepsilon^{1/10} \gg m_2 \sim \varepsilon^{2/5}$, swapping the 1–2 states and breaking alignment at $\kappa_*$ (`|ln D_1|` while aligned collapses as $\varepsilon^{3/10}$: `0.026 -> 6.1e-4 -> 4.4e-5`).
+- Producer `v3` explicitly proves both the 3-factor $\det Y$ factorization and the null-basis singlet eigenvalue dichotomy symbolically in SymPy and tests the exact mark-collapse vs twin-survival criteria.
+
 0 of 19.
