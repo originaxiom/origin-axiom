@@ -1,0 +1,1 @@
+79e9362d462dea6ebb0db8b5b4ebb521d3eb94d5f4d6abbcc2a24fc13a63fef4  c41_cartan_punctured_torus_and_lopsided_magnetized_yukawas.py
