@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1674** |
-| words of findings prose | **1,536,818** |
+| research arcs with findings | **1675** |
+| words of findings prose | **1,537,284** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1674** (100.0 %) |
+| arcs carrying an authored verdict | **1675** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1168 |
+| PROVED | 1169 |
 | NEGATIVE | 387 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1977`** (772 words, 0 locks)  
-“AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 and 1), the leptons split from the down quarks in the exponent (2/5 against 7/15), and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23 (3/5 + 1/30 = 19/30); 30 points are aligned and hierarchical with a mixing rate below 1/10; every rate lies on a grid of 1/60 (860 of 864), in 17 classes over the 96 points”  
-`B1977_order_30_rates_masses_and_mixing_on_one_grid/FINDINGS.md`
+**PROVED — `B1978`** (466 words, 0 locks)  
+“THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open”  
+`B1978_the_acts_eight_orbits_of_twelve_at_order_30/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1356 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19. [Review 86, 2026-11-24: the 'identity E assumed' section is stale (closed by P-861 outside this arc); 'deranged for every reading' means at some of the 24 points; two numbers corrected]”  

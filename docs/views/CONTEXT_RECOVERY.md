@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1674 |
-| … PROVED | 1168 |
+| arcs with a verdict file | 1675 |
+| … PROVED | 1169 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1978 | PROVED | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at onl…” |
 | B1977 | PROVED | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 an…” |
 | B1976 | PROVED | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up…” |
 | B1975 | PROVED | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tre…” |
@@ -42,7 +43,6 @@
 | B1969 | OPEN | “THE COUPLING'S FORM NEARLY ALLOWS AN ALIGNED MIXING WITH A FULL HIERARCHY IN BOTH SECTORS (OPEN, a search; data-free; P-879): with every channel free under the charge rule, a feasibility search finds no aligned mixing w…” |
 | B1968 | OPEN | “ON A GRID OF 2,016 POINTS FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION (OPEN, a search; data-free; P-879): with any Higgs triplet in C^3 an adversary finds no aligned charge-consistent mixing with a heavy-pair hi…” |
 | B1967 | PROVED | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diago…” |
-| B1966 | PROVED | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vec…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (B1977, PROVED for G1 to G5, as sealed; data-free; P-860 (d), P-845).** At five points of order 30 the mixing is aligned, both quark sectors are hierarchical (up m2/m3 falling at 2/5, down at 7/15), the leptons split from the down quarks in the exponent, and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23. Every rate lies on a grid of 1/60, in 17 classes over the 96 points. This is the first configuration on record that passes every structural test at once. What stays free: the height, and the choice of level 30 and of the class. Next: a principle for those, then the sealed card…”
+“LATEST (2026-11-24, S306p: THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (B1978, PROVED; data-free; P-845).** The act's monodromy carries the 96 order-30 points into themselves in 8 orbits of 12 and changes their rates, so the readings are not act-invariant. Alignment and both quark hierarchies nevertheless hold at every point of every orbit. The slow 2-3 mixing lives on 4 of the 8 orbits. If the reading is the act's orbit, the menu is 8, and how an orbit is read is the next question. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

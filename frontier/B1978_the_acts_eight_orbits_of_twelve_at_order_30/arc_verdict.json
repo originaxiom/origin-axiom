@@ -1,0 +1,21 @@
+{
+ "id": "B1978",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1977", "B1976", "B1943", "B1944"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C, every sector reading S, at B1976's 96 order-30 points (B1977's committed rates, heights 20 to 30, column 0.13)",
+  "object": "the action of the act's monodromy M = [[2,1],[1,1]] on the points, its orbits, and the rates along them",
+  "reach": "class",
+  "hypotheses": "B1977's rates as committed; no new frame computation; the orbit as the reading is a suggestion, not derived"
+ },
+ "claim_one_line": "THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open",
+ "weave_or_thread": "the weave (the act's orbits)"
+}

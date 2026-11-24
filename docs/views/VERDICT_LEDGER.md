@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1674 of 1674 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1675 of 1675 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1168)
+## PROVED (1169)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1180,6 +1180,7 @@
 | `B1975` | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tree and mended it -- B1971's census redone at the true orders (120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, matching B1963's 12), B1970's holomorphy redone on the coupling itself (holomorphic under S, not under S~), B1973's statement of agy-002's certificate corrected, B1972's BANK-3 identities and BANK-5 wording, B1974's title, B1964's coverage, B1962's stale section, B1969's interpretation; anchor f4a0ab61f” |  | 0 |
 | `B1976` | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up matrix symmetric, the leptons the down quarks transposed); order 6 makes up and down share their left structure (the mixing the identity at all 24 points; the couplings equal at 12 and equal up to theta phases at 12); order 30 on the act's line breaks the lepton-down tie at 88 of 96 points and the up symmetry at 92, keeping the mixing aligned at all 96; the mixing does not grow in general (26 of 96), but at five points (post hoc) a 2-3 mixing of 0.018 falls with height at a rate near 1/30 only” |  | 0 |
 | `B1977` | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 and 1), the leptons split from the down quarks in the exponent (2/5 against 7/15), and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23 (3/5 + 1/30 = 19/30); 30 points are aligned and hierarchical with a mixing rate below 1/10; every rate lies on a grid of 1/60 (860 of 864), in 17 classes over the 96 points” |  | 0 |
+| `B1978` | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open” |  | 0 |
 
 ## NEGATIVE (387)
 

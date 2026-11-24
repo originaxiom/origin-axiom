@@ -18088,6 +18088,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1978": {
+   "slug": "the acts eight orbits of twelve at order 30",
+   "motifs": [
+    "trace_map",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [
