@@ -1,0 +1,20 @@
+== mark
+  up   h (n, nb, e) rel:   1.00   0.00   0.50 | u rel:   0.00   0.60   0.30 | w rel:   -   | nullity h   1.00, u(+w)   0.60, overlap u.h  -0.00
+       left vectors (light, middle, heavy) on n :  -0.00   0.80   0.50
+       left vectors (light, middle, heavy) on nb:   1.00  -0.00   0.30
+       left vectors (light, middle, heavy) on e :   0.50   0.30  -0.00
+  down h (n, nb, e) rel:   1.00   0.00   0.50 | u rel:   0.10   0.30   0.00 | w rel:   0.00 | nullity h   1.00, u(+w)   0.40, overlap u.h   0.10
+       left vectors (light, middle, heavy) on n :  -0.00   0.60   0.50
+       left vectors (light, middle, heavy) on nb:   0.60  -0.00   0.30
+       left vectors (light, middle, heavy) on e :   0.50   0.30  -0.00
+  |V| rates: [[' -0.00', '  0.60', '  1.10'], ['  0.60', ' -0.00', '  0.30'], ['  0.90', '  0.30', ' -0.00']]
+== twin
+  up   h (n, nb, e) rel:   1.00   0.00   0.50 | u rel:   0.20   0.00   0.10 | w rel:   -   | nullity h   1.00, u(+w)   0.20, overlap u.h   0.20
+       left vectors (light, middle, heavy) on n :  -0.00   0.50   0.60
+       left vectors (light, middle, heavy) on nb:   1.00   0.10  -0.00
+       left vectors (light, middle, heavy) on e :   0.50  -0.00   0.10
+  down h (n, nb, e) rel:   1.00   0.00   0.50 | u rel:   0.10   0.30   0.00 | w rel:   0.00 | nullity h   1.00, u(+w)   0.40, overlap u.h   0.10
+       left vectors (light, middle, heavy) on n :  -0.00   0.50   0.60
+       left vectors (light, middle, heavy) on nb:   1.00   0.10  -0.00
+       left vectors (light, middle, heavy) on e :   0.50  -0.00   0.10
+  |V| rates: [[' -0.00', '  0.90', '  1.00'], ['  0.90', ' -0.00', '  0.10'], ['  1.20', '  0.10', ' -0.00']]

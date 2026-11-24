@@ -1,0 +1,5 @@
+I1  Y h - (h.h) u = 0: True ; h^T Y - (h.h) u^T = 0: True
+I2  (w = 0) Y u - (u.u) h = 0: True ; Y (u x h) + (u.h)(u x h) = 0: True
+    (w != 0) Y u - (u.u) h = w (h x u): True
+I3  (w = 0) det Y - (u.h)(h.h)(u.u) = 0: True
+I4  P unitary: True ; n.n, nb.nb, n.nb, e.e = [0, 0, 1, 1]

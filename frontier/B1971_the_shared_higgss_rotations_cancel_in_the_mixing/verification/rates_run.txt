@@ -1,0 +1,32 @@
+== mark ('2/5', '4/5') heights 20.0 30.0
+  Higgs triplet |c_k| rates:  0.250 -0.250 -0.250
+  up channels u[s] rates: {'1': None, 'i': 0.09, 'j': -0.21, 'k': -0.21}
+  up singular values (ascending) rates:  0.540  0.140 -0.460
+  up Y row 0:  0.140 -0.160  0.140     |U| row 0: -0.000 -0.000  0.300
+  up Y row 1: -0.160 -0.460 -0.160     |U| row 1:  0.500  0.300 -0.000
+  up Y row 2:  0.140 -0.160  0.140     |U| row 2:  0.000 -0.000  0.300
+  down channels u[s] rates: {'1': -0.15, 'i': -0.15, 'j': -0.05, 'k': -0.05}
+  down singular values (ascending) rates:  0.700 -0.000 -0.400
+  down Y row 0: -0.100 -0.000 -0.100     |U| row 0: -0.000  0.000  0.300
+  down Y row 1: -0.400 -0.300 -0.400     |U| row 1:  0.500  0.300 -0.000
+  down Y row 2: -0.100  0.000 -0.100     |U| row 2:  0.000 -0.000  0.300
+  |V| row 0 rates: -0.000  0.600  1.100    |V| at y2: 1.00e+00 1.90e-23 2.07e-44
+  |V| row 1 rates:  0.600 -0.000  0.300    |V| at y2: 1.90e-23 1.00e+00 2.21e-13
+  |V| row 2 rates:  0.900  0.300 -0.000    |V| at y2: 4.20e-36 2.21e-13 1.00e+00
+  |J| rate:  2.000
+== twin ('1/5', '2/5') heights 20.0 30.0
+  Higgs triplet |c_k| rates:  0.250 -0.250 -0.250
+  up channels u[s] rates: {'1': None, 'i': 0.01, 'j': -0.09, 'k': -0.09}
+  up singular values (ascending) rates:  0.860 -0.140 -0.340
+  up Y row 0: -0.340 -0.240 -0.340     |U| row 0: -0.000  0.100 -0.000
+  up Y row 1: -0.240 -0.140 -0.240     |U| row 1:  0.500 -0.000  0.100
+  up Y row 2: -0.340 -0.240 -0.340     |U| row 2: -0.000  0.100 -0.000
+  down channels u[s] rates: {'1': -0.15, 'i': -0.15, 'j': -0.05, 'k': -0.05}
+  down singular values (ascending) rates:  0.700 -0.000 -0.400
+  down Y row 0: -0.100 -0.400 -0.100     |U| row 0: -0.000  0.100 -0.000
+  down Y row 1:  0.000 -0.300 -0.000     |U| row 1:  0.500 -0.000  0.100
+  down Y row 2: -0.100 -0.400 -0.100     |U| row 2: -0.000  0.100 -0.000
+  |V| row 0 rates: -0.000  0.900  1.000    |V| at y2: 1.00e+00 6.87e-36 4.31e-40
+  |V| row 1 rates:  0.900 -0.000  0.100    |V| at y2: 6.87e-36 1.00e+00 6.28e-05
+  |V| row 2 rates:  1.200  0.100 -0.000    |V| at y2: 4.80e-49 6.28e-05 1.00e+00
+  |J| rate:  2.200

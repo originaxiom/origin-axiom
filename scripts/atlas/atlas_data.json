@@ -17972,6 +17972,21 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1971": {
+   "slug": "the shared higgss rotations cancel in the mixing",
+   "motifs": [
+    "coupling",
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "H3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 27,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [

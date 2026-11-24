@@ -1,0 +1,28 @@
+N=5 (0, 1/5): h~nb | u_up~nb u_dn~nb w/ue (1.459e-82 - 0.7295j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (0, 2/5): h~nb | u_up~nb u_dn~nb w/ue (-6.148e-82 + 3.073j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (0, 3/5): h~nb | u_up~nb u_dn~nb w/ue (-6.148e-82 + 3.073j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (0, 4/5): h~nb | u_up~nb u_dn~nb w/ue (1.459e-82 - 0.7295j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (1/5, 0): h~nb | u_up~nb u_dn~e w/ue (-1.38e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (1/5, 1/5): h~nb | u_up~nb u_dn~e w/ue (-8.386e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (1/5, 2/5): h~nb | u_up~nb u_dn~e w/ue (-3.803e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (1/5, 3/5): h~nb | u_up~nb u_dn~e w/ue (6.035e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (1/5, 4/5): h~nb | u_up~nb u_dn~e w/ue (7.533e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (2/5, 0): h~nb | u_up~n u_dn~e w/ue (1.38e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (2/5, 1/5): h~nb | u_up~n u_dn~e w/ue (-6.035e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (2/5, 2/5): h~nb | u_up~n u_dn~e w/ue (8.386e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (2/5, 3/5): h~nb | u_up~n u_dn~e w/ue (-7.533e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (2/5, 4/5): h~nb | u_up~n u_dn~e w/ue (3.803e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (3/5, 0): h~nb | u_up~n u_dn~e w/ue (1.38e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (3/5, 1/5): h~nb | u_up~n u_dn~e w/ue (3.803e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (3/5, 2/5): h~nb | u_up~n u_dn~e w/ue (-7.533e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (3/5, 3/5): h~nb | u_up~n u_dn~e w/ue (8.386e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (3/5, 4/5): h~nb | u_up~n u_dn~e w/ue (-6.035e-17 + 1.0j) | up n/nb/e down n/nb/e (clean 1.000) | diag 1.000 AGREE
+N=5 (4/5, 0): h~nb | u_up~nb u_dn~e w/ue (-1.38e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (4/5, 1/5): h~nb | u_up~nb u_dn~e w/ue (7.533e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (4/5, 2/5): h~nb | u_up~nb u_dn~e w/ue (6.035e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (4/5, 3/5): h~nb | u_up~nb u_dn~e w/ue (-3.803e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+N=5 (4/5, 4/5): h~nb | u_up~nb u_dn~e w/ue (-8.386e-17 - 1.0j) | up n/e/nb down n/e/nb (clean 1.000) | diag 1.000 AGREE
+SUMMARY: 24 points (0 errors); assignments agree at 24; of those aligned (diag >= 0.9): 24; of the others aligned: 0
+SUMMARY: every state clean (dominant coordinate >= 0.99) at 24 points; of the rest, 0 aligned
+SUMMARY: the points not aligned: []
+SUMMARY: the points not aligned all have a = 1/2: True; the points with a = 1/2: 0
