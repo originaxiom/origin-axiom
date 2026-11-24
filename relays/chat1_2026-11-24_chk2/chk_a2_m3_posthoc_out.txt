@@ -1,0 +1,1 @@
+ratio search: 200 starts, ending below 1: 0; least rho / F = 1.002499 at (rho, F, t, s_L, a) = (0.333248, 0.332418, 0.997939, 0.547422, 0.699248)
