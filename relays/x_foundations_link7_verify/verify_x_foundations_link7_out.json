@@ -1,0 +1,351 @@
+{
+  "all_checks_passed": true,
+  "card": "AGY-EXP_X-FOUNDATIONS-LINK7",
+  "empirical_constants_used": "0 of 19",
+  "modules": {
+    "F7_1": {
+      "affine_e8_kac_marks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "affine_e8_order8_deletions": [
+        {
+          "cartan_det": 24,
+          "marks": [
+            2,
+            6
+          ],
+          "nodes": [
+            1,
+            4
+          ]
+        },
+        {
+          "cartan_det": 20,
+          "marks": [
+            3,
+            5
+          ],
+          "nodes": [
+            2,
+            5
+          ]
+        },
+        {
+          "cartan_det": 32,
+          "marks": [
+            4,
+            4
+          ],
+          "nodes": [
+            3,
+            6
+          ]
+        },
+        {
+          "cartan_det": 48,
+          "marks": [
+            6,
+            2
+          ],
+          "nodes": [
+            4,
+            8
+          ]
+        },
+        {
+          "cartan_det": 30,
+          "marks": [
+            5,
+            3
+          ],
+          "nodes": [
+            5,
+            7
+          ]
+        }
+      ],
+      "d5_cover_8_3_4_H1_free_rank_and_torsion": [
+        3,
+        []
+      ],
+      "d5_cover_8_3_4_cusp_degrees": [
+        1,
+        2,
+        2
+      ],
+      "m000_H1_free_rank_and_torsion": [
+        1,
+        []
+      ],
+      "m000_connected_double_covers_count": 1,
+      "m004_monodromy_det_and_trace": [
+        1,
+        3
+      ],
+      "meridian_commutator_identity_exact": true,
+      "nonabelian_surjections_le_order_12": {
+        "A_4": 24,
+        "D_4": 0,
+        "D_5": 20,
+        "D_6": 0,
+        "Dic_3": 0,
+        "Q_8": 0,
+        "S_3": 0
+      },
+      "passed": true,
+      "pc_fl7_1_planted_control_caught": true,
+      "pc_fl7_1_planted_tr4_S3_surjections": 12
+    },
+    "F7_2": {
+      "YB_proxy_tau8_pos": "-5.0818680660201e-5",
+      "cp_odd_mirror_YB_sum_abs": "4.975544657e-54",
+      "haar_10trial_rel_err": "3.889343118e-39",
+      "passed": true,
+      "pc_fl7_2_p3_cubic_anomaly": "-6",
+      "pc_fl7_2_planted_control_caught": true,
+      "so10_centralizer_dims_PS_U5_joint_SM": [
+        21,
+        25,
+        13,
+        12
+      ],
+      "spinor16_anomalies_Y_Y3_SU3_SU2_all_zero": true,
+      "spinor16_patisalam_split_dims": [
+        8,
+        8
+      ],
+      "surviving_observer_J_over_YB_mirror_diff": "1.106389508e-76",
+      "vector10_kawamura_kept_6Y": [
+        -3,
+        -3,
+        3,
+        3
+      ]
+    },
+    "F7_3": {
+      "gamma0_2_T_and_M2_equivariance_err": [
+        "1.7516231e-46",
+        "1.7516231e-46"
+      ],
+      "k5_only_ed_degeneracy_err": "3.0653404e-46",
+      "k5_plus_k6_det_and_ed_split": [
+        "4.5320373e-5",
+        "0.33473075"
+      ],
+      "passed": true,
+      "pc_fl7_3_planted_control_caught": true,
+      "single_point_null_det": "9.7095526e-49",
+      "six_permutation_audit": [
+        {
+          "gamma0_2_equivariant": false,
+          "n10": [
+            0,
+            2,
+            3
+          ],
+          "pmns_s12_s23_s13": [
+            "0.426835",
+            "0.193725",
+            "0.138254"
+          ],
+          "v_ckm": [
+            "0.056795",
+            "0.00524008",
+            "0.00081013"
+          ]
+        },
+        {
+          "gamma0_2_equivariant": false,
+          "n10": [
+            0,
+            3,
+            2
+          ],
+          "pmns_s12_s23_s13": [
+            "0.603283",
+            "0.257659",
+            "0.0639153"
+          ],
+          "v_ckm": [
+            "0.217654",
+            "0.00374104",
+            "0.00093458"
+          ]
+        },
+        {
+          "gamma0_2_equivariant": true,
+          "n10": [
+            2,
+            0,
+            3
+          ],
+          "pmns_s12_s23_s13": [
+            "0.425184",
+            "0.518794",
+            "0.135882"
+          ],
+          "v_ckm": [
+            "0.0462683",
+            "0.0110103",
+            "0.000954865"
+          ]
+        },
+        {
+          "gamma0_2_equivariant": false,
+          "n10": [
+            2,
+            3,
+            0
+          ],
+          "pmns_s12_s23_s13": [
+            "0.603389",
+            "0.0321662",
+            "0.0655036"
+          ],
+          "v_ckm": [
+            "0.27302",
+            "0.00203317",
+            "0.00040002"
+          ]
+        },
+        {
+          "gamma0_2_equivariant": true,
+          "n10": [
+            3,
+            0,
+            2
+          ],
+          "pmns_s12_s23_s13": [
+            "0.370953",
+            "0.578477",
+            "0.0130083"
+          ],
+          "v_ckm": [
+            "0.0271277",
+            "0.0155834",
+            "0.00160935"
+          ]
+        },
+        {
+          "gamma0_2_equivariant": false,
+          "n10": [
+            3,
+            2,
+            0
+          ],
+          "pmns_s12_s23_s13": [
+            "0.370389",
+            "0.0844468",
+            "0.0121008"
+          ],
+          "v_ckm": [
+            "0.0754133",
+            "0.00534961",
+            "0.000776932"
+          ]
+        }
+      ],
+      "symmetric_n5bar_countermodel_s23sq": "0.0002023009"
+    },
+    "F7_4": {
+      "M0_tree_over_m32_derived": "-0.00618616711545650871",
+      "alpha_GUT_inv_derived": "30.1937008240890489544193",
+      "e8_first_theta_shell_c1": 240,
+      "hessian_4x4_eigenvalues": [
+        "3.232236328e-25",
+        "3.232236328e-25",
+        "9.348341132e-22",
+        "7.783022779e-6"
+      ],
+      "kahler_stabilizer_m2_over_H2_and_shift": [
+        "90000.0",
+        "8.164965809e-5"
+      ],
+      "m32_over_MPl_derived": "3.4815063162701325165e-13",
+      "mu_X4_derived": "1.823134710240075599e-21",
+      "passed": true,
+      "pc_fl7_4_mult_uplift_M0_collapse": "2.469584277e-94",
+      "pc_fl7_4_planted_control_caught": true,
+      "s_star_and_t_star": [
+        "6.03874016481780979088386322228",
+        "12.0774803296356195817677264446"
+      ],
+      "sl2z_invariance_max_err": "1.039540977e-112",
+      "sugra_F2_sum_minus_3_err": "0.0",
+      "z3_r_sym_vchi_over_MPl": "0.00013180105722414"
+    },
+    "F7_5": {
+      "derived_split_susy_tan_beta": "1.69371124785",
+      "gbs8_mssm_step_err": "1.2974504e-20",
+      "giudice_masiero_cH_crit": "0.590240081051",
+      "guardrail4_fmm_focus_point_err": "2.5391265e-50",
+      "guardrail4_jack_jones_max_err": "7.9529983e-23",
+      "mHu2_and_mHd2_over_m32sq_at_PeV": [
+        "0.348489201922",
+        "0.99969626421"
+      ],
+      "mQ32_and_mu32_over_m32sq_at_PeV": [
+        "0.783094565589",
+        "0.56599654161"
+      ],
+      "passed": true,
+      "pc_fl7_5_planted_control_caught": true,
+      "pc_fl7_5_yt0_tanb_minus_1": "2.6407479e-33",
+      "t_SUSY_derived": "-24.255980095576",
+      "three_stage_ir_mh_over_v_sin2tW_alphas": [
+        "0.5433092846",
+        "0.2128123983",
+        "0.1769040331"
+      ]
+    },
+    "F7_6": {
+      "eliminated_foundational_axioms": {
+        "4_of_6_cusp_permutations_on_8_3_4": "eliminated by Gamma_0(2) <-> Isom(8^3_4) singleton-slot equivariance (F7_3)",
+        "GENESIS_GM1_to_GM4_and_SE1_SE2": "eliminated by Cao-Meyerhoff min-volume m000 -> unique connected double cover m004 (F7_1)",
+        "GENESIS_SE3_level_5_and_8_3_4_choice": "eliminated by unique minimal non-abelian quotient D_5 (|G|=10) of pi_1(m004) = 8^3_4 (F7_1)",
+        "Postulate_D_4_bits_and_borrowed_PS_Kawamura": "eliminated by Cent_{so(10)}(P_10, J_10) = 13 -> 12 SM/Z_6 & (-P_5)=+1 Higgs split (F7_2)",
+        "global_orientation_chirality_and_CP_twin_bits": "eliminated by 50-dps surviving-observer (Y_B > 0) Mirror+CPT equivalence (F7_2)",
+        "hidden_SU4_rank_choice_Nc_eq_4": "eliminated by unique det=20 order-8 Kac deletion (3,5) of affine E_8 (F7_1)",
+        "multiplicative_uplift_eps_up_eq_1_8": "eliminated by N=1 SUGRA constant-mu_X^2 nilpotent Polonyi V_min=0^+ uplift (F7_4)"
+      },
+      "guardrail_1_and_5_audit_valid": true,
+      "irreducible_core_ledger": {
+        "continuous_dimensionless_inputs": "1 (Giudice-Masiero Split-SUSY criticality ratio delta c_H fixing v_EW / M_Pl; Lambda_cc neutralized by b_4^+ BP)",
+        "dimensionful_unit_anchor": "1 (M_Pl; 0 dimensionless parameters per Guardrail 5)",
+        "discrete_topological_bits_endpoint_vs_full_Fk": [
+          "3.0",
+          "5.4594316"
+        ],
+        "dynamical_spacetime_bridge_postulate": "1 (11D Horava-Witten boundary action on minimal hyperbolic cobordism, forcing E_8)"
+      },
+      "passed": true,
+      "pc_fl7_6_planted_control_caught": true
+    }
+  },
+  "modules_passed_count": 6,
+  "planted_controls": {
+    "PC_FL7_1": true,
+    "PC_FL7_2": true,
+    "PC_FL7_3": true,
+    "PC_FL7_4": true,
+    "PC_FL7_5": true,
+    "PC_FL7_6": true
+  },
+  "planted_controls_caught_count": 6,
+  "role": "standalone_prehashed_producer",
+  "script_sha256": "0ff292edc4e1f5a8e21a11f0cacc9e9c9ae0e80b58908d88b2ef13e0a0d7d539",
+  "self_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  }
+}
