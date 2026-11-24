@@ -1,0 +1,213 @@
+{
+  "RM_1_gieseking_and_10fold_vs_5fold_covers": {
+    "cyclic_5fold_abelian_control": {
+      "b1_rank": 1,
+      "cusp_degrees": [
+        5
+      ],
+      "sheets": 5,
+      "torsion": [
+        11,
+        11
+      ]
+    },
+    "irregular_5fold_dihedral_8_3_4": {
+      "b1_rank": 3,
+      "cusp_degrees": [
+        1,
+        2,
+        2
+      ],
+      "sheets": 5,
+      "torsion": []
+    },
+    "m000_proper_attribution": "Gieseking manifold (smallest-volume cusped hyperbolic 3-manifold, Adams 1987; non-orientable)",
+    "passed": true,
+    "pc_rm_1_planted_control_caught": true,
+    "regular_10fold_D5_kernel_K10": {
+      "b1_rank": 5,
+      "cusp_degrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sheets": 10,
+      "torsion": []
+    }
+  },
+  "RM_2_kawamura_sign_e8_su5perp_and_c13_i37_bridge": {
+    "b1253_40_yukawa_triples_plusP5_sm16": {
+      "L e^c": 2,
+      "L nu^c": 2,
+      "Q d^c": 6,
+      "Q u^c": 6
+    },
+    "both_5H_and_5barH_perp_dim": [
+      10,
+      10
+    ],
+    "e8_su5_x_su5perp_z5_dims": {
+      "0": 48,
+      "1": 50,
+      "2": 50,
+      "3": 50,
+      "4": 50
+    },
+    "jacobi_quartic_q_series_verified": true,
+    "kawamura_parity_sign_bits": 1,
+    "m2_gamma2_s3_schur_hom_dim": 1,
+    "minus_P5_kept_count_triplets": 6,
+    "passed": true,
+    "pc_rm_2_planted_control_caught": true,
+    "plus_P5_kept_6Y_doublets": [
+      -3,
+      -3,
+      3,
+      3
+    ]
+  },
+  "RM_3_sadov_kmt_hirzebruch_f4_remediation": {
+    "dynkin_indices_10_45_16": [
+      1,
+      8,
+      2
+    ],
+    "exact_hirzebruch_k_for_spin10": "4 - n16",
+    "n16_on_F6_negative_nonhiggsable": -2,
+    "n16_zero_lives_on_F_k": 4,
+    "passed": true,
+    "pc_rm_3_planted_control_caught": true,
+    "pure_6d_su4_su5_irred_trF4_coeffs": [
+      8,
+      10
+    ],
+    "sadov_K_dot_C_and_C_sq": [
+      "2 - n16",
+      "n16 - 4"
+    ],
+    "single_base_heterotic_vtilde_sum": 0
+  },
+  "RM_4_setwise_k6_and_canonical_e6_prim_shell": {
+    "canonical_e6_prim_gl2Z_invariant_zero_bits": true,
+    "canonical_e6_prim_rank3_and_ed_split": {
+      "tau_8_pos": {
+        "abs_det_Wd_We": [
+          "3.4676207e-5",
+          "6.3261136e-5"
+        ],
+        "ed_23_relative_split": "0.11408778"
+      },
+      "tau_A_13_100_p_7_5i": {
+        "abs_det_Wd_We": [
+          "2.1823097e-5",
+          "4.6023369e-5"
+        ],
+        "ed_23_relative_split": "0.32650243"
+      },
+      "tau_B_m31_100_p_11_5i": {
+        "abs_det_Wd_We": [
+          "3.9550849e-5",
+          "7.6853913e-5"
+        ],
+        "ed_23_relative_split": "0.67980649"
+      }
+    },
+    "cyclic_e6_subgroups_total_oddspin_setwise_mrl": [
+      12,
+      4,
+      2,
+      0
+    ],
+    "cyclic_k6_priced_bits_after_swap_and_anchor": 1,
+    "passed": true,
+    "pc_rm_4_k5_only_tie_err": "3.0653404e-46",
+    "pc_rm_4_planted_control_caught": true
+  },
+  "RM_5_su2L_takagi_gr11_2x_stop_and_yb_sign": {
+    "dirac_s12_gramian_tau8": [
+      "1.070203321",
+      "0.8683966435",
+      "1.061400035"
+    ],
+    "gr11_split_susy_2x_stop_ir_mh_over_v": {
+      "dt_SM_-3": {
+        "mh_over_v_decoupled_higgsinos": "0.3399896838",
+        "mh_over_v_gr11_2x_stop": "0.3519718332"
+      },
+      "dt_SM_-4": {
+        "mh_over_v_decoupled_higgsinos": "0.3706164519",
+        "mh_over_v_gr11_2x_stop": "0.3789680349"
+      },
+      "dt_SM_-5": {
+        "mh_over_v_decoupled_higgsinos": "0.404826504",
+        "mh_over_v_gr11_2x_stop": "0.4096605382"
+      }
+    },
+    "passed": true,
+    "pc_rm_5_planted_control_caught": true,
+    "takagi_factorization_max_err": "1.0676906e-53",
+    "true_su2L_10trial_haar_max_err": "1.3363824e-50",
+    "true_su2L_covariant_pmns": {
+      "branch_203": [
+        "0.37125587",
+        "0.57048621",
+        "0.1250114",
+        "0.013289055"
+      ],
+      "branch_302": [
+        "0.34407115",
+        "0.6191736",
+        "0.012647928",
+        "0.013289055"
+      ]
+    },
+    "wrong_conj_ut_su2L_drift_caught": "0.73982171",
+    "yb_positive_baryon_branch": "-conj(tau_8^+) = (-16 + 8i)/5 (with J_CKM / Y_B identical on both)",
+    "yb_proxy_at_plus_tau8_negative": "-5.2717437e-5"
+  },
+  "RM_6_unbundled_transparent_input_ledger": {
+    "external_framework_imports_named": [
+      "Horava-Witten 11D E_8 boundary / heterotic-F-theory 4D N=1 supergravity",
+      "Covariant spin-1/2 Liouville kinetic metric on punctured torus",
+      "Gaugino condensation + nilpotent Polonyi uplift + Split-SUSY / MSSM RGEs"
+    ],
+    "passed": true,
+    "pc_rm_6_planted_control_caught": true,
+    "priced_discrete_bits_with_canonical_E6_prim": {
+      "5bar_m_bundle_chirality_lopsided_vs_sym_R2": 1,
+      "canonical_E6_prim_shell_vs_cyclic_K6": "0 bits on canonical E_tau[6]_prim (or +1..3 bits if restricted to cyclic K_6^+)",
+      "kawamura_doublet_vs_triplet_parity_sign_P5": 1,
+      "out_D5_galois_cusp_framing_R1": 1,
+      "subtotal_topological_discrete_bits_canonical_shell": 3
+    },
+    "priced_model_and_eft_parameters": {
+      "continuous_4d_eft_criticality_parameters": [
+        "Lambda_cc / M_Pl^4",
+        "delta_c_H = c_H - c_H^crit",
+        "IR evaluation scale dt_SM (until v_EW is dynamically fixed)"
+      ],
+      "cy4_bp_discretuum_shannon_bits_if_invoked": "428.5287242",
+      "dimensionful_unit_anchor": "M_Pl (1 unit anchor)",
+      "model_ansatz_constants_disclosed": [
+        "Kac order M = 8",
+        "c_1 / c_2 = 240 / 1 on SU(4) x SU(5)",
+        "down/lepton suppression factor |eps_5|^2",
+        "Majorana seesaw identity coefficient in M_R = I_3 + W_R_hat"
+      ]
+    },
+    "pure_sym_4_5_w0_root_s_negative": "-0.23676266"
+  },
+  "all_6_modules_and_6_planted_controls_passed": true,
+  "card": "AGY-EXP_X-REM-M48-PA2",
+  "firewall": "0 of 19",
+  "script": "verify_x_rem_m48_pa2.py",
+  "script_sha256": "23c00008459233742abba347ae856887b165b0f2e5a4512c6c90d94097cfc560",
+  "self_ast_hygiene": {
+    "binary64_casts": 0,
+    "clean": true,
+    "float_complex_literals": 0,
+    "forbidden_imports": 0
+  }
+}
