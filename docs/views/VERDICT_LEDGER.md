@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1669 of 1669 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1670 of 1670 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1163)
+## PROVED (1164)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1175,6 +1175,7 @@
 | `B1970` | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXING ALIGNS (PROVED for the checks; the reading derived given H1 to H3 and found after the look; data-free; P-295, P-847; the holomorphy argument is the web seat's W-H1, this arc grounding its two-doublet step in the record's dictionary): the 10 of the record's 27 carries doublets at Y = +1/2 and -1/2; the dictionary's Q u^c term uses the first and its Q d^c and L e^c terms the second, two distinct states; the frame's sectors need exactly these charges (up +1/2, down and leptons -1/2), so no sector needs the conjugate doublet, which the record had imported from the one-doublet Standard Model (FL-09); the frame's Higgs and matter factors are holomorphic in tau and the conjugate reading makes the Higgs factor antiholomorphic, so with holomorphy required every sector reads S, fixing the global bit too; the all-S mixing is aligned (B1946; W-D2 D-1); the problem moves to the mixing's size and the lepton-down split. 0 of 19.” |  | 0 |
 | `B1971` | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly null Higgs (B1739's h.h = eta^6/4, found to hold in frame C); the heavy up state is u x h (exact, w = 0); the mixing is the permutation between the two sectors' frames, aligned at all 24 points of order 5 and 104 of 112 of orders 8 and 10, every failure on the line a = 1/2; the Higgs's e^(-pi Im tau / 2) rotations are common to both sectors and cancel (five entries at the mark and the twin fall faster than naive), so the mixing is set by the channels -- the structural reason B1742 and W-D2 found it too small; W-D2's D-1 rate table computed a second time on main's code, every entry agreeing” |  | 0 |
 | `B1972` | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral cover is 8^3_4, already on main's record at P-866/B1955; the affine E8 deletion of least determinant 20; so(10) centralizers 21, 25, 13; the 6D anomaly arithmetic; K5 the act's line for the fixed word), with three corrections (m000 is the least-volume cusped manifold, not the least orbifold; the regular D5 cover has 5 cusps; -P5 keeps the triplets, so the sign is the choice), and none of the record-level claims follows: I-37 not earned, SE1-SE3, GM1-GM4 and Postulate D not retired (each replaced or re-expressed), B1970's two gates not closed (a model with at least 9 priced bits at a chosen modulus), the 2.0-bit floor not the record's (it omits priced bits and absorbs the imports)” |  | 0 |
+| `B1973` | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup|V33| = (1+s_L)/(3-s_L) at a null Higgs holds on main's own code; frame C's up and down residues share one left spinor because they share q_L = 1 (rank one to 1e-39, s_L below 1e-20), the channel weights giving s_L at most 0.387, so the null-Higgs alignment is capped at 0.531 at every point checked; and the agy lane's exact witness shows the coupling's form allows an exactly aligned full hierarchy under the charge rule; the interior 0 < r < 1 stays open” |  | 0 |
 
 ## NEGATIVE (387)
 

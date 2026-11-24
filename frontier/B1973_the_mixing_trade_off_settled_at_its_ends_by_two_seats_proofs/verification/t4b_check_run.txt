@@ -1,0 +1,2 @@
+unweighted residues: 60 cases; max mu2/mu1 = 8.46e-40; max s_L = 1.07142e-20
+weighted M_w (frame C): 60 cases;  max s_L = 0.38733

@@ -1,0 +1,3 @@
+unit h: 1.0 | h.h = (0.0005 + 0.0j)
+(a) charge rule: up conj h, down h | least diagonal |V| 1.0, largest off-diagonal 2.97e-60 | up m2/m3 0.0005, m1/m2 0.05 | down m2/m3 0.008, m1/m2 0.0625
+(b) every sector h | least diagonal |V| 0.0, largest off-diagonal 1.0 | up m2/m3 0.00013125, m1/m2 2.381e-5 | down m2/m3 0.008, m1/m2 0.0625

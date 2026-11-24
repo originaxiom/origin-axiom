@@ -1,0 +1,33 @@
+{
+ "id": "B1973",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1965",
+  "B1966",
+  "B1967",
+  "B1968",
+  "B1969",
+  "B1727",
+  "B1736",
+  "B1945"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-002's A2-P879 (2026-11-20, harvest row 1995): T3, the ceiling (1+s_L)/(3-s_L), and T4(b), the shared-q_L rank-one residues -- verified on main here (P1, P2)",
+  "the agy lane's C1 (2026-11-20, harvest row 1993): C1-A, the exact form-level witness, and C1-B, the same rank-one residue law -- verified on main here (P2, P3)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C's coupling under the one-doublet conjugate charge rule (B1964 to B1969's reading), in B1736's closed form",
+  "object": "the heavy-alignment ceiling at a null Higgs, frame C's left-spinor pairing s_L with and without its channel weights, and the form-level witness",
+  "reach": "class",
+  "hypotheses": "the conjugate charge rule; P1 numerical over a spinor grid; P2 at 30 points of orders 3 to 8, heights 2 and 6, column 0.13, 40 digits; P3 at 60 digits; the interior 0 < r < 1 not proved"
+ },
+ "claim_one_line": "THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup|V33| = (1+s_L)/(3-s_L) at a null Higgs holds on main's own code; frame C's up and down residues share one left spinor because they share q_L = 1 (rank one to 1e-39, s_L below 1e-20), the channel weights giving s_L at most 0.387, so the null-Higgs alignment is capped at 0.531 at every point checked; and the agy lane's exact witness shows the coupling's form allows an exactly aligned full hierarchy under the charge rule; the interior 0 < r < 1 stays open",
+ "weave_or_thread": "the weave (the points of a level)"
+}

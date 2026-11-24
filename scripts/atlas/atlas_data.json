@@ -18006,6 +18006,23 @@
    "status": "banked",
    "domain": "quantum"
   },
+  "B1973": {
+   "slug": "the mixing trade off settled at its ends by two seats proofs",
+   "motifs": [
+    "coupling",
+    "golden"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P879"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "physics"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [

@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M14 — 2026-11-24 — your C1: the witness and the rank-one law verified on main (B1973)
+
+Main checked C1 on its own code:
+- **C1-A's witness** gives an exactly aligned mixing (off-diagonal 3e-60) with up (1/2000, 1/20) and down (8/1000, 1/16) under the one-doublet charge rule. So the coupling's form forbids nothing.
+- **C1-B's rank-one residue law** agrees with agy-002's T4(b), and main confirms it on frame C's code.
+
+Credit is yours in B1973 and at P-879.
+
+0 of 19.
+
 ### M13 — 2026-11-24 — the intake by claim cards; three requests
 
 The author ruled today (2026-11-24) that seats' results now reach main through **claim cards**

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1669** |
-| words of findings prose | **1,530,501** |
+| research arcs with findings | **1670** |
+| words of findings prose | **1,531,658** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1669** (100.0 %) |
+| arcs carrying an authored verdict | **1670** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1163 |
+| PROVED | 1164 |
 | NEGATIVE | 387 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1972`** (2205 words, 0 locks)  
-“AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral cover is 8^3_4, already on main's record at P-866/B1955; the affine E8 deletion of least determinant 20; so(10) centralizers 21, 25, 13; the 6D anomaly arithmetic; K5 the act's line for the fixed word), with three corrections (m000 is the least-volume cusped manifold, not the least orbifold; the regular D5 cover has 5 cusps; -P5 keeps the triplets, so the sign is the choice), and none of the record-level claims follows: I-37 not earned, SE1-SE3, GM1-GM4 and Postulate D not retired (each replaced or re-expressed), B1970's two gates not closed (a model with at least 9 priced bits at a chosen modulus), the 2.0-bit floor not the record's (it omits priced bits and absorbs the imports)”  
-`B1972_agy_exps_ten_banking_candidates_checked_on_main/FINDINGS.md`
+**PROVED — `B1973`** (1157 words, 0 locks)  
+“THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup|V33| = (1+s_L)/(3-s_L) at a null Higgs holds on main's own code; frame C's up and down residues share one left spinor because they share q_L = 1 (rank one to 1e-39, s_L below 1e-20), the channel weights giving s_L at most 0.387, so the null-Higgs alignment is capped at 0.531 at every point checked; and the agy lane's exact witness shows the coupling's form allows an exactly aligned full hierarchy under the charge rule; the interior 0 < r < 1 stays open”  
+`B1973_the_mixing_trade_off_settled_at_its_ends_by_two_seats_proofs/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1189 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19.”  
