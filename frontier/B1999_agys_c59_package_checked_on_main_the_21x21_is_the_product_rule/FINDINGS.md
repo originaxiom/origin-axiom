@@ -107,6 +107,16 @@ chains, to 4 × 10⁻⁸ relative. The difference is the L₂ input: the probe's
   |V_ub|", "|J| > 3/2000"). They were written after the lane's scratch probe had shown the numbers. Main reads none of the
   outputs against data.
 
+## Dated note (2026-11-25, after landing; harvest row 2006)
+
+- **Pushed since the check:** the lane pushed C57 to C59 at `4ffd731cd`, with C59's relay and claim card. "Not yet pushed"
+  above was true when the check ran.
+- **The lane prices its chain choice:** C59's relay prices it at 2 discrete bits, (a₅/5) × {v₀, v₁}, plus a 1-bit CP sign,
+  within its mirror fold (4 spectra from the 8 vertex chains). This is credited here.
+- **What the 96 chains measure:** the spread over 96 starting sheets is the count without the fold. Whether the fold is
+  forced is the lane's reading of E2, and that phase does not imply it.
+- **What the price leaves out:** the chain length K (E3b, unchecked), the thread, the level and the charges.
+
 ## What is open (P-884)
 
 - **E3b,** the claim that unbroken G_SM covariance requires an odd K and selects K = 7, is not checked here. If it holds, K
