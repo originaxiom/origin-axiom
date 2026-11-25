@@ -33,6 +33,7 @@
 - [E] At order 12 the exact norms give m1/m3 converging, as the quadrature is refined, to 8.7e-11 to 1.7e-10 on the
   32 lines whose a has order 4 or 12. It stays at 1e-16 on the 16 lines with 6a in ℤ.
 - [J] The order-12 electron's exact masslessness is partly the small-cut formula's.
-- [E] Rows 295, 312 and 352 are not re-read (dated 2026-11-25). The data-facing rows are declined to a data-cleared seat.
+- [E] Rows 295, 312 and 352 are not re-read (dated 2026-11-25). The data-facing rows are declined to a seat cleared
+  for data.
 
 0 of 19.
