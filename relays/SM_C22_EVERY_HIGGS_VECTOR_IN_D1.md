@@ -9,11 +9,11 @@ measured number, and no vector is offered as the Higgs.*
 > - **Refuted as written:** "the hierarchy lives only on vectors concentrated on one or two modes", and the status line
 >   "only on single modes and pairs". Main's h* has weight on three modes and has a hierarchy: median 1.09 down and
 >   1.33 up.
->   - What the scan supports is narrower: none of the 5 021 vectors scanned combines a top-aligned majority with a
+>   - What the scan supports is narrower: none of the 5 018 vectors scanned combines a top-aligned majority with a
 >     hierarchy. h* agrees with that, having a top-aligned share of 0.
 >   - The reading, that a hierarchy needs few modes, is consistent with h*.
 > - **Partial:** "D1 is closed at the cusp for every Higgs vector, structurally". It rests on a scan and on a reading
->   this page itself says is not a proof. So read: closed for every vector computed (5 021 here, and h* on main), not
+>   this page itself says is not a proof. So read: closed for every vector computed (5 018 here, and h* on main), not
 >   for every vector.
 > - **T1 holds** (main recomputed it at 60 digits).
 
@@ -23,7 +23,7 @@ measured number, and no vector is offered as the Higgs.*
   - Moving w acts on the Higgs index as −Z³ and X³, which anticommute exactly (‖Z³X³ + X³Z³‖ = 0).
   - So no vector is an eigenvector of both, and the best of 2 000 random vectors still has a phase defect of 0.57.
 - **S1: no vector in the scan has both** a top-aligned cusp mixing at half or more of the 24 points and a median
-  exponent E(s₃/s₁) ≥ 0.1. The scan covered 5 021 vectors: single modes, U_M's eigenvectors, pair sums and differences,
+  exponent E(s₃/s₁) ≥ 0.1. The scan covered 5 018 vectors: single modes, U_M's eigenvectors, pair sums and differences,
   and 5 000 random vectors.
 - **Where each property lives:**
   - **The hierarchy lives only on vectors concentrated on one or two modes.**
@@ -43,7 +43,7 @@ measured number, and no vector is offered as the Higgs.*
 | | expectation (prior) | result |
 |---|---|---|
 | T1 | Z³ and X³ anticommute; no v makes M single-valued (95%) | **holds:** exactly 0, and the least defect is 0.57 |
-| S1 | no vector has both (70%) | **holds:** 0 of 5 021 |
+| S1 | no vector has both (70%) | **holds:** 0 of 5 018 |
 | S2 | hierarchy only for concentrated vectors, whose mixing is near a permutation (60%) | **half holds.** The hierarchy appears only on single modes and pairs. Their mixing is not shown to be near a permutation here: the card measured top alignment (≤ 0.38) and not the full permutation class. Single modes are permutations by B1957 |
 
 ## A reading, labelled as such
@@ -69,3 +69,6 @@ measured number, and no vector is offered as the Higgs.*
 ## Files
 
 `relays/sm_c22/run_c22.py`, `relays/sm_c22/c22_results.json`, `relays/sm_c22/RUN.txt`.
+
+*[Corrected 2026-11-25, M46: the scan is 18 named vectors and 5 000 random ones, 5 018 in all, as `run_c22.py`
+builds them; the page said 5 021.]*

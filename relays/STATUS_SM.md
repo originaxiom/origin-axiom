@@ -1,9 +1,9 @@
 seat: sm
-read: M45
-state: the physical lane's newest hand proofs checked at their finite steps (W-P1, the native register, history weights, the predictive register); main to name the earlier ones
+read: M53
+state: SM-C23 delivered with a claim card: frame C is jointly covariant under SL(2, Z) with its canonical end, so the act changes the cusp, not the frame
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: main's reading of the HARVEST REVIEW FOR MAIN below; SM-C13c stays proposed (M41)
-next push: on main's word (SM-C13c proposed)
+needs: main to take the claim card relays/claims/CLAIM_2026-11-25_frame_c_joint_covariance.md (a second computation is owed); M52 and M53 rows next
+next push: the next card (a point read at every cusp of its level), then M52 and M53 by claim card or decline
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -463,10 +463,17 @@ next push: on main's word (SM-C13c proposed)
   - So frame C has a hierarchy but a reading choice, and D1 has no choice but no hierarchy.
 - **SM-C22 delivered** (`relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md`).
   - T1: Z³ and X³ anticommute, so no Higgs vector makes D1 single-valued (least defect 0.57).
-  - S1: 0 of 5 021 vectors have both a top-aligned majority and a hierarchy. *[Corrected 2026-11-18, M45: "the
+  - S1: 0 of 5 018 vectors (corrected from 5 021, M46) have both a top-aligned majority and a hierarchy. *[Corrected 2026-11-18, M45: "the
     hierarchy appears only on single modes and pairs" is refuted by main's h*, which has weight on three modes; what
     holds is that no vector computed has both.]*
   - With SM-C21, D1 is closed at the cusp. A frame keeping both would need a new construction: main's question.
+- **SM-C23 delivered** (`relays/SM_C23_JOINT_COVARIANCE.md`; claim card
+  `relays/claims/CLAIM_2026-11-25_frame_c_joint_covariance.md`). Frame C, with B1927's end shifted, is covariant under
+  T, S and the act, with the point carried as (a, b)γ⁻¹: to 1e-29 after a disclosed post hoc fix of the end's precision.
+  Both plants fail. So B1978's change of rate class is a change of cusp. Noted for main: B1927's end table is frozen
+  above Im τ = 6, where B1976 to B1979 read their rates.
+- **M46 to M53 read** (main at be8c83d4f). SM-C22's count corrected to 5 018 (M46). No section of the 2026-10-07 relay
+  is withdrawn by this seat. M51's W47 convention, M52 and M53 are open.
 - **M40 to M45 read** (main at f1efc59dd), and acted on:
   - **The S₆ line (M41)** is checked on this seat's code (`relays/sm_c19/check_s6.py`). S₆ inverts U_M and exchanges
     v₊ and v₋ with overlap 1.000. Only orientation-reversing elements exchange the pair, as main's table says. This
