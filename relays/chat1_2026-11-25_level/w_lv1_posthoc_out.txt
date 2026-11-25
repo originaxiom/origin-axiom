@@ -1,0 +1,35 @@
+Q1 near misses (largest normalised singular-value difference at the same point):
+  N = 4 (0, 1/4), up~down: tied by k = 1: False; difference 4.0e-14
+  N = 4 (0, 1/4), up~lep: tied by k = 1: False; difference 4.0e-14
+  N = 4 (0, 1/4), down~lep: tied by k = 1: True; difference 6.4e-50
+  N = 8 (0, 1/8), up~down: tied by k = 1: False; difference 8.9e-08
+  N = 8 (0, 1/8), up~lep: tied by k = 1: False; difference 8.9e-08
+  N = 8 (0, 1/8), down~lep: tied by k = 1: False; difference 4.3e-14
+Q2 swapped ties are transposes; direct ties equalities:
+  N =  5 lep(w) against down(1 w)^T at (1/5, 2/5): 1.3e-42; untransposed 1.0e+00
+  N =  5 lep(w) against down(1 w)^T at (2/5, 4/5): 5.6e-42; untransposed 1.0e+00
+  N =  7 lep(w) against up(6 w)^T at (1/7, 2/7): 3.9e-42; untransposed 1.0e+00
+  N =  7 lep(w) against up(6 w)^T at (3/7, 1/7): 2.0e-41; untransposed 4.3e-01
+  N =  9 down(w) against up(2 w)^T at (1/9, 2/9): 1.4e-42; untransposed 2.6e-01
+  N =  9 down(w) against up(2 w)^T at (4/9, 1/3): 7.9e-42; untransposed 1.0e+00
+  N = 15 up(w) against up(11 w)^T at (1/15, 2/15): 3.0e-41; untransposed 9.5e-01
+  N = 15 up(w) against up(11 w)^T at (2/5, 1/3): 2.0e-43; untransposed 1.4e-02
+  N =  6 down(w) against up(w) at (1/6, 1/3): 1.0e-42
+  N =  6 down(w) against up(w) at (1/2, 1/3): 3.8e-42
+  N =  4 lep(w) against down(w) at (1/4, 1/2): 4.2e-42
+  N =  4 lep(w) against down(w) at (3/4, 1/4): 2.8e-41
+Q3 the leptons and the point 3w:
+  order 30 (11/30, 2/5): lep(w) against lep(11 w): 5.0e-42
+  order 30 (8/15, 9/10): lep(w) against lep(11 w): 2.8e-41
+  order 30 (11/30, 2/5): lep(w) against dn(3 w): 5.0e-42; lep(w) against down(w), singular values 8.6e-03
+  order 30 (8/15, 9/10): lep(w) against dn(3 w): 1.2e-41; lep(w) against down(w), singular values 9.3e-04
+  order 10 (7/10, 2/5): lep(w) against dn(3 w): 6.1e-42; lep(w) against down(w), singular values 1.2e-03
+  order 10 (1/5, 9/10): lep(w) against dn(3 w): 6.0e-42; lep(w) against down(w), singular values 1.4e-07
+Q4 the point negated (normalised singular values, every sector):
+  (11/30, 2/5) up: 7.6e-43
+  (11/30, 2/5) down: 2.9e-42
+  (11/30, 2/5) lep: 7.0e-43
+  (8/15, 9/10) up: 2.3e-42
+  (8/15, 9/10) down: 3.4e-42
+  (8/15, 9/10) lep: 1.2e-42
+READING: the largest residual or difference in Q2 to Q4 is 3.0e-41 -> holds
