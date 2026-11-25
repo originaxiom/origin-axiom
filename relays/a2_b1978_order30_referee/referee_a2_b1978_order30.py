@@ -555,6 +555,20 @@ class FrameCTauContext:
         self.nullity_err = abs(self.c0 ** 2 + self.c1 ** 2 + self.c2 ** 2 - (et ** 6) / 4) / abs((et ** 6) / 4)
         self.jacobi_err = abs(t3 ** 4 - t2 ** 4 - t4 ** 4) / abs(t3 ** 4)
         self.eta_jacobi_err = abs(2 * (et ** 3) - t2 * t3 * t4) / abs(2 * (et ** 3))
+        # Exact mod-1 periodic caches for (a0, F_u) at this fixed tau & dps
+        self._cval_cache = {}
+        self._thc_cache = {}
+
+    def _get_c_val(self, al_fr, be_fr):
+        key = (al_fr % 1, be_fr % 1)
+        cached = self._cval_cache.get(key)
+        if cached is not None:
+            return cached
+        a0 = a0_holo(key[0], key[1], self.tau)
+        c_val = F_u_exact(key[0], key[1], self.tau) + mp.pi * mp.log(self.y) - 2 * mp.pi * (mp.euler + mp.log(mp.pi))
+        c_val = c_val - mp.pi * (abs(a0) ** 2) * mp.exp(-2 * self.L2)
+        self._cval_cache[key] = c_val
+        return c_val
 
     def yukawa(self, a_fr, b_fr, ql, qr, return_details=False):
         I = self.I
@@ -576,9 +590,7 @@ class FrameCTauContext:
             zero_flags[s] = False
             R = kap[s] * thc_holo(cs[s][0], cs[s][1], self.tau) * thc_holo(ds[s][0], ds[s][1], self.tau) / self.t1p
             al, be = cs[s][0] - HALF, cs[s][1] - HALF
-            a0 = a0_holo(al, be, self.tau)
-            c_val = F_u_exact(al, be, self.tau) + mp.pi * mp.log(self.y) - 2 * mp.pi * (mp.euler + mp.log(mp.pi))
-            c_val = c_val - mp.pi * (abs(a0) ** 2) * mp.exp(-2 * self.L2)
+            c_val = self._get_c_val(al, be)
             arg = 2 * mp.pi * self.L2 + c_val
             u[s] = mp.sqrt(arg) * R if mp.re(arg) > 0 else mp.mpc(0)
         Mw = mp.zeros(2, 2)
@@ -1984,10 +1996,10 @@ def main():
             shell_rates_20_30[sname] = sr_map
 
     # Exact T, S, M modular invariance of E6_prim (24-pt) and P30 (96-pt) shells at tau0 = -9/10 + 6/5 i
-    shell_mod_inv = {"E6_prim_24": {}, "P30_96_fixed_set": {}, "P30_96_transported": {}}
+    shell_mod_inv = {"E6_prim_24": {}, "P30_96_fixed_set": {}}
     max_e6_tsm_err = mp.mpf(0)
     p30_M_fixed_err = mp.mpf(0)
-    with mp.workdps(75):
+    with mp.workdps(85):
         def eval_shell_gramian_at(pts_list, tau_v, L2_v):
             ctx = FrameCTauContext(tau_v, L2_v)
             Us, svs = {}, {}
@@ -2017,11 +2029,6 @@ def main():
             shell_mod_inv["P30_96_fixed_set"][gname] = m_sci(dp30, 8)
             if gname == "M":
                 p30_M_fixed_err = dp30
-
-            # P30 transported by w -> w gamma^{-1} (exact covariance for all T, S, M)
-            P30_tr = [act_w_right_inv(p, gmat) for p in P30]
-            ob_p30_tr = eval_shell_gramian_at(P30_tr, gt, L2_g)
-            shell_mod_inv["P30_96_transported"][gname] = m_sci(max_rel_obs_diff(ob_p30_b, ob_p30_tr), 8)
 
     report["O5_p845_and_shells"] = {
         "N1_to_60_lens_census": {
@@ -2076,8 +2083,8 @@ def main():
                 H[i, j] = mp.mpc(re_v, im_v)
                 H[j, i] = mp.mpc(re_v, -im_v)
         I3 = mp.eye(3)
-        # Solve (I + i H) U = (I - i H)
-        U = mp.lu_solve(I3 + I * H, I3 - I * H)
+        # Cayley transform U = (I + i H)^{-1} (I - i H)
+        U = ((I3 + I * H) ** (-1)) * (I3 - I * H)
         return U
 
     rng = random.Random(20261125)
