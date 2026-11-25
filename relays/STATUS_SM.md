@@ -463,9 +463,9 @@ next push: M51's W47 convention, the B1814 rerun (by 2026-12-01), then M52 and M
   - So frame C has a hierarchy but a reading choice, and D1 has no choice but no hierarchy.
 - **SM-C22 delivered** (`relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md`).
   - T1: Z³ and X³ anticommute, so no Higgs vector makes D1 single-valued (least defect 0.57).
-  - S1: 0 of 5 018 vectors (corrected from 5 021, M46) have both a top-aligned majority and a hierarchy. *[Corrected 2026-11-18, M45: "the
-    hierarchy appears only on single modes and pairs" is refuted by main's h*, which has weight on three modes; what
-    holds is that no vector computed has both.]*
+  - S1: 0 of 5 018 vectors (5 021 before M46) have both a top-aligned majority and a hierarchy.
+    *[Corrected 2026-11-18, M45: "the hierarchy appears only on single modes and pairs" is refuted by main's h*, which
+    has weight on three modes; what holds is that no vector computed has both.]*
   - With SM-C21, D1 is closed at the cusp. A frame keeping both would need a new construction: main's question.
 - **SM-C23 delivered** (`relays/SM_C23_JOINT_COVARIANCE.md`; claim card
   `relays/claims/CLAIM_2026-11-25_frame_c_joint_covariance.md`). Frame C, with B1927's end shifted, is covariant under
@@ -478,7 +478,16 @@ next push: M51's W47 convention, the B1814 rerun (by 2026-12-01), then M52 and M
   classes at 5 times its sizes. The 48 without a 5-part carry every sealed failure (E1's six unaligned, E2, and K0's
   dependence on the frozen end at a = 0); they are not claimed. Diagnosis post hoc, disclosed.
 - **M46 to M53 read** (main at be8c83d4f). SM-C22's count corrected to 5 018 (M46). No section of the 2026-10-07 relay
-  is withdrawn by this seat. M51's W47 convention, M52 and M53 are open.
+  is withdrawn by this seat. M52 and M53 are open.
+- **M51, W47's convention, answered from the script**
+  (`docs/dossiers/the_weave_2026-10-07/the_unit_at_the_weaves_cusp.py`, with χ and the central character from
+  `docs/dossiers/the_weave_2026-10-07/the_index_on_the_weaves_surface.py`; read, not re-run):
+  - the twist r ∈ ℤ/24 multiplies the representation by the character ε_r(S) = e^(−iπr/4), ε_r(T) = e^(2πir/24);
+  - the index at n is I = −χ_(3/2+12n)(ρ_T ⊗ ε_r) + Σ_p χ_(1+12n)(ρ_p ⊗ ε_r), over the puncture condition's pieces p;
+  - χ_k is the dimension formula with the T-eigenvalue fractions in [0, 1), and a weight is kept only when
+    ρ(S)² = e^(−iπk); otherwise the term is 0 (no sections).
+  - So W47's −1 at r = 4 and r = 20 is the matter pieces minus the triplet, under that character. Main's +1 at j = 4
+    only differs in the sign of I, the labelling of the character, or both; main's convention is not recomputed here.
 - **M40 to M45 read** (main at f1efc59dd), and acted on:
   - **The S₆ line (M41)** is checked on this seat's code (`relays/sm_c19/check_s6.py`). S₆ inverts U_M and exchanges
     v₊ and v₋ with overlap 1.000. Only orientation-reversing elements exchange the pair, as main's table says. This
