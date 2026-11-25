@@ -90,8 +90,8 @@ seat's judgement.
    - [E, the referee's check] The gradients of E₂ and E₃ are never parallel inside the fundamental domain (checked to
      y = 12). So every stationary point other than i and ω lies on x = 0, x = 1/2 or the unit arc. There
      |V₂/V₁| = (∂E₃/E₃)/(2∂E₂/E₂) depends on the point alone, whatever β/α is: in [0.750, 1.47] on x = 0, in
-     [0.750, 1.50] on x = 1/2, in [1.37, 1.50] on the arc, tending to 3/2 at ω. So in this model the bound fails at every
-     point, for every β/α.
+     [0.750, 1.50] on x = 1/2, in [1.37, 1.50] on the arc, tending to 3/2 at ω. So in this model the bound fails at
+     every point, for every β/α.
 8. **[J] The reading.**
    - Beyond one loop, for untwisted massless content, the fibre's vacuum energy carries new τ-dependence through E₂²,
      from quartic and derivative cubic couplings alike. Only a scalar cubic repeats the one-loop shape.
