@@ -1,0 +1,188 @@
+{
+  "E1_cube_group_and_p882": {
+    "A12_fixed_cusps_count": 48,
+    "A12_fixed_points_count": 96,
+    "antiholomorphic_conj_rel_errs": {
+      "F_half_shift": "2.2392080552e-70",
+      "J0": "6.26896697653e-70",
+      "R_sigma": "1.81426862436e-69"
+    },
+    "control_1_noshift_err": "0.09125115758",
+    "control_1_wrong_inverse_sv_err": "0.07398363599",
+    "max_p882_word_homomorphism_rel_err": "4.81784219904e-69",
+    "primitive_order30_count": 576,
+    "so3_z_element_orders": {
+      "1": 1,
+      "2": 9,
+      "3": 8,
+      "4": 6
+    },
+    "so3_z_order": 24,
+    "weave_LR_RL_conjugation_rel_err": "2.94558852073e-70",
+    "x30_cusp_count": 288
+  },
+  "E2_lepton_two_fifths_theorem": {
+    "control_2_a5_zero_min_deviation": "0.5455795398",
+    "converged_m1_over_m3_rate_set_all60": [
+      "1",
+      "11/10",
+      "7/5"
+    ],
+    "converged_m2_over_m3_rate_set_all60": [
+      "2/5"
+    ],
+    "fiber_multiplicity_3w": 8,
+    "max_b1973_nonorm_sv0_over_sv1": "1.80498341632e-96",
+    "max_m2_over_m3_deviation_from_2_over_5": "1.32348898513e-11",
+    "order10_surjective_images": 60,
+    "order30_nonzero_5part_points": 480,
+    "raw_theta_eps_valuations_4reps": [
+      {
+        "1": "1/5",
+        "i": "1/5",
+        "j": "1/10",
+        "k": "1/10"
+      },
+      {
+        "1": "1/10",
+        "i": "1/10",
+        "j": "1/5",
+        "k": "1/5"
+      },
+      {
+        "1": "1/5",
+        "i": "1/5",
+        "j": "1/10",
+        "k": "1/10"
+      },
+      {
+        "1": "1/10",
+        "i": "1/10",
+        "j": "1/5",
+        "k": "1/5"
+      }
+    ]
+  },
+  "E3_legendre_jacobi_and_mirrors": {
+    "chi15_isom_m004_invariant": true,
+    "control_3_bad_q3_flips_of_96": 96,
+    "isom_m004_orbit_component_sizes": [
+      4,
+      4
+    ],
+    "lepton_charge_legendre_mod5": -1,
+    "minus_R_sigma_vertex_mirror_orbits": 4,
+    "orbit_count": 8,
+    "orbit_length": 12,
+    "plus_R_sigma_bond_mirror_orbits": 4,
+    "slow_counts_mod5_nonresidue": [
+      3,
+      3,
+      6,
+      6
+    ],
+    "slow_counts_mod5_residue": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "E4_standalone_lame_and_unit_contraction": {
+    "L2_i_richardson": "2.719261032311511",
+    "L2_omega_richardson": "2.78648607602363",
+    "L2_tau_gold_richardson": "2.663604442987991",
+    "Lambda_geom_SL2Z_invariance_err": "3.560837905e-66",
+    "Lambda_geom_i": "0.937025506135",
+    "Lambda_geom_loop_midpoint_dev_from_1": "0.04041746035",
+    "Lambda_geom_tau_gold": "0.98213957316",
+    "c_tau_gold_abs_imag": "3.776169765e-42",
+    "c_tau_gold_real": "0.1686221593711722",
+    "control_4_no_kahler_weight_drift": "0.3406596999",
+    "control_6_jtheta2_branch_cut_jump_at_Re_11_over_7": "9.474330423",
+    "lame_modular_shift_err": "1.266040385e-5",
+    "max_raw_kahler_sigma_orbit5": "0.7670542321"
+  },
+  "E5_waveguide_propagator_and_haar": {
+    "additive_12turn_jarlskog_abs": "6.346242614e-67",
+    "additive_12turn_min_m2_over_m3": "0.7302549082",
+    "barrier_sign_up_m2_over_m3": "0.7323973976",
+    "control_5_cayley_u3_5_max_err_K6": "1.813765502e-62",
+    "control_5_cayley_u3_5_max_err_stag7": "5.934379792e-51",
+    "control_5_planted_noncovariant_product_drift": "3.423136774",
+    "staggered_7sheet_orbit1": {
+      "ckm_moduli_and_min_diag": [
+        "0.14266559",
+        "0.12479782",
+        "0.050540137",
+        "0.98180538"
+      ],
+      "down_ratios": [
+        "0.024211593",
+        "9.8941909e-10"
+      ],
+      "jarlskog_abs": "0.00086543486",
+      "lep_ratios": [
+        "0.0019651698",
+        "4.1333946e-17"
+      ],
+      "up_ratios": [
+        "0.031375512",
+        "2.2184667e-18"
+      ]
+    },
+    "waveguide_gramian_K3_orbit5": {
+      "ckm_moduli_and_min_diag": [
+        "0.37942275",
+        "0.48158949",
+        "0.05182393",
+        "0.80590595"
+      ],
+      "down_ratios": [
+        "0.30579526",
+        "0.0010428354"
+      ],
+      "jarlskog_abs": "0.0067627297",
+      "lep_ratios": [
+        "0.087115285",
+        "0.00096608361"
+      ],
+      "up_ratios": [
+        "0.43294116",
+        "0.0015131427"
+      ]
+    },
+    "waveguide_gramian_K6_orbit5": {
+      "ckm_moduli_and_min_diag": [
+        "0.39044202",
+        "0.12472105",
+        "0.078682572",
+        "0.91328165"
+      ],
+      "down_ratios": [
+        "0.024792625",
+        "7.7714586e-5"
+      ],
+      "inter_sector_yb_yt_and_ytau_yb": [
+        "2.3312988",
+        "0.81767824"
+      ],
+      "jarlskog_abs": "0.0034796956",
+      "lep_ratios": [
+        "0.025528099",
+        "5.6243233e-5"
+      ],
+      "up_ratios": [
+        "0.1376515",
+        "1.3273945e-5"
+      ]
+    }
+  },
+  "all_controls_passed": true,
+  "ast_firewall": {
+    "ast_float_complex_calls": 0,
+    "ast_float_complex_literals": 0
+  },
+  "card": "AGY-C53",
+  "empirical_inputs": "0 of 19"
+}
