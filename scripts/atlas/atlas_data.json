@@ -18641,6 +18641,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2005": {
+   "slug": "listening 20 at the wholes prime the whole acts through a small group",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [

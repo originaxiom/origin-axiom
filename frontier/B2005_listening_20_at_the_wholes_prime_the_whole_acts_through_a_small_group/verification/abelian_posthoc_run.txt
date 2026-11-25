@@ -1,0 +1,6 @@
+leaf mod 5: 40 points; |G| = 2853804441600; abelianisation order 2; 6 divides it: False  [0 s]
+leaf mod 7: 28 points; |G| = 61931520; abelianisation order 2; 6 divides it: False  [0 s]
+mod 15: 40 points; |G| = 2853804441600; abelianisation order 2; 6 divides it: False  [0 s]
+mod 45: 320 points; |G| = 11415217766400; abelianisation order 2; 6 divides it: False  [2 s]
+mod 25: 1000 points; |G| = 1.6851e+47; abelianisation order 2; 6 divides it: False  [738 s]
+mod 49: 1372 points; |G| = 2.0308e+37; abelianisation order 2; 6 divides it: False  [2544 s]

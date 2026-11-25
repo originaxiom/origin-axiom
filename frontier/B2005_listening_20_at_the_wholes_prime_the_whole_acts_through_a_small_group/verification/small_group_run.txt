@@ -1,0 +1,9 @@
+mod 9 (k = 2): orbit 8 points; |G_k| = 24 (8 * 3^(2k-3) = 24); stabiliser of (3,3,3) has order 3 and is <C>: True; abelianisation order 2  [0 s]
+    walk: 24 elements (equals |G_k|: True); rho factors through G_k (labels consistent): False; first clash: rho exponents (4, 0)  [0 s]
+    S3: G_2's element orders {1: 1, 2: 9, 3: 8, 4: 6}; S4's are {1: 1, 2: 9, 3: 8, 4: 6}: True
+mod 27 (k = 3): orbit 72 points; |G_k| = 216 (8 * 3^(2k-3) = 216); stabiliser of (3,3,3) has order 3 and is <C>: True; abelianisation order 6  [0 s]
+    walk: 216 elements (equals |G_k|: True); rho factors through G_k (labels consistent): True  [0 s]
+mod 81 (k = 4): orbit 648 points; |G_k| = 1944 (8 * 3^(2k-3) = 1944); stabiliser of (3,3,3) has order 3 and is <C>: True; abelianisation order 6  [1 s]
+    walk: 1944 elements (equals |G_k|: True); rho factors through G_k (labels consistent): True  [1 s]
+mod 243 (k = 5): orbit 5832 points; |G_k| = 52488 (8 * 3^(2k-3) = 17496); stabiliser of (3,3,3) has order 9 and is <C>: False; abelianisation order 6  [85 s]
+    walk: 52488 elements (equals |G_k|: True); rho factors through G_k (labels consistent): True  [92 s]

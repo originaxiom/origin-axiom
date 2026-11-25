@@ -1509,3 +1509,31 @@ an authority had confirmed it.
 - **The hash records:** a record kept as a text file of hash lines is read by the artifact-hash gate as a seal list.
   A superseded hash in such a file then reads as a broken seal.
 
+
+## A seat's own code makes a reproduction, an exploration that shapes a card is stated in it, and a symmetry test takes each input's law from the record — MANUAL (adopted 2026-11-25, B1982 to B2005)
+
+**The rule.**
+- **Reproduction against verification.** When main checks a seat's claim by running the seat's own function, even with main's
+  code built on top, the result is REPRODUCED, not VERIFIED. It moves to VERIFIED only when the same facts are recomputed on
+  main's own implementation. The verdict file cites the seat's function in `cites_seat`, not in `rests_on_seat`.
+- **A seat's package is checked by changing what it declares.** Check it against the choices it lists, and every choice it
+  does not list: the length of a chain, its start, the wall, the thread. Its claim of zero parameters is then read in the
+  record's sense. Discrete structure counts.
+- **Explorations are disclosed.** A computation made before a card to design it (a group's order, a hand derivation, a quick
+  look) is stated in the card and in its hash record. The card's predictions are only those the exploration did not
+  compute.
+- **Pairing counts check multiplicities.** A count of modes or factors "paired" between two spectra must check that the
+  multiplicities suffice. Where an exact identity is available, it replaces the count.
+- **A symmetry test takes each input's transformation law from the record** before testing (the end law of B1921 and B1724
+  for frame C). A failure may be the test's own missing law, not the object's.
+
+**Why it exists.**
+- **B1982:** frame C "failed S" only because main's test read the canonical end's table outside its domain without the
+  record's end law. With the law, S holds to 6e-16, and the withdrawal went through every page that had repeated the failure.
+- **B1999:** main first called two of the agy lane's results "true, exactly". They had been checked on the lane's own frame C
+  function, and the seat-positive gate refused the arc until they were graded as reproductions. Changing the package's chain
+  length and starting sheet showed that its hierarchy follows those choices.
+- **B2002:** the first count of paired modes read 24 of 24 while one null mode was unpaired. The exact identity
+  p_neutral(2x) = 2^d (x² − 9) x S(x) settled it.
+- **B2005:** the group orders that shaped its card were computed before the card. The card states this. Of its
+  predictions beyond the exploration's reach, the order at mod 243 failed as worded.
