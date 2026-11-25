@@ -1,8 +1,8 @@
 Traceback (most recent call last):
-  File "/tmp/claude-0/-home-claude/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/p589run/p589c_exact_rows.py", line 231, in <module>
+  File "p589c_exact_rows.py", line 231, in <module>
     main()
     ~~~~^^
-  File "/tmp/claude-0/-home-claude/6cd20217-7806-5dd6-9098-8054245c567d/scratchpad/p589run/p589c_exact_rows.py", line 168, in main
+  File "p589c_exact_rows.py", line 168, in main
     print("P1 tau = %s done (accessory residual %.1e)" % (tau, r), flush=True)
           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
 TypeError: only 0-dimensional arrays can be converted to Python scalars
