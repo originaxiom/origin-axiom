@@ -1,0 +1,178 @@
+{
+  "NH_1_3tower_markoff_and_18torus_honeycomb": {
+    "G_81_exact_order": 1944,
+    "L18_on_333": [
+      3,
+      78,
+      78
+    ],
+    "R18_on_333": [
+      78,
+      3,
+      78
+    ],
+    "abelian_L2_R2_torus_order": 324,
+    "even_spin_q2_lambda": "1.54654145983017368",
+    "honeycomb_bijection_errors": 0,
+    "odd_spin_q1_lambda_star": "1.91529816473407716",
+    "orbit_sizes_mod_3k": {
+      "243": 5832,
+      "27": 72,
+      "81": 648,
+      "9": 8
+    },
+    "spin_orbits_merged_mod_3k": {
+      "243": true,
+      "27": true,
+      "81": true,
+      "9": true
+    }
+  },
+  "NH_2_universal_odd_prime_honeycomb_bloch_law": {
+    "benchmarks": {
+      "p3_mod27_M3": {
+        "M": "3",
+        "bloch_vs_closed_diff": "3.0092655e-36",
+        "decay_per_move": "0.707106781186547524",
+        "lambda_star": "1.41421356237309505",
+        "w_M": "1.5"
+      },
+      "p3_mod81_M9": {
+        "M": "9",
+        "bloch_vs_closed_diff": "9.0277966e-36",
+        "decay_per_move": "0.957649082367038578",
+        "lambda_star": "1.91529816473407716",
+        "w_M": "2.37938524157181677"
+      },
+      "p5_mod125_M5": {
+        "M": "5",
+        "bloch_vs_closed_diff": "4.5138983e-36",
+        "decay_per_move": "0.838930829110230502",
+        "lambda_star": "1.677861658220461",
+        "w_M": "2.11803398874989485"
+      },
+      "p5_mod625_M25": {
+        "M": "25",
+        "bloch_vs_closed_diff": "1.5046328e-36",
+        "decay_per_move": "0.994710391601228578",
+        "lambda_star": "1.98942078320245716",
+        "w_M": "2.48422940262895566"
+      },
+      "p7_mod343_M7": {
+        "M": "7",
+        "bloch_vs_closed_diff": "1.5046328e-36",
+        "decay_per_move": "0.927582649145759845",
+        "lambda_star": "1.85516529829151969",
+        "w_M": "2.30193773580483825"
+      }
+    },
+    "max_bloch_factor_identity_err": "1.5648574e-34",
+    "w5_golden_identity_err": "0.0"
+  },
+  "NH_3_euler_collapse_p3_vs_p5_p7_growth": {
+    "euler_V3_mod3_nonzero_corners": 0,
+    "honeycomb_quotients": {
+      "p3_mod243_collapsed": [
+        5832,
+        648
+      ],
+      "p3_mod27": [
+        72,
+        72
+      ],
+      "p3_mod81": [
+        648,
+        648
+      ],
+      "p5_mod125": [
+        120,
+        120
+      ],
+      "p5_mod625_grown": [
+        3000,
+        600
+      ],
+      "p7_mod343_grown": [
+        1176,
+        1176
+      ],
+      "p7_mod49": [
+        24,
+        24
+      ]
+    },
+    "mod243_new_fiber_ceiling_decay": "0.7609368673886654",
+    "mod243_new_fiber_ceiling_lambda": "1.521873734777331"
+  },
+  "NH_4_outward_markoff_14_to_5_flow": {
+    "asymptotic_limit_ratio": "4",
+    "outward_markoff_flow": {
+      "depth1_3_3_6": {
+        "C_orbit_ratio_decimal": "3.0",
+        "C_orbit_ratio_exact": "3/1",
+        "sum_s": "12"
+      },
+      "depth2_3_6_15": {
+        "C_orbit_ratio_decimal": "3.4",
+        "C_orbit_ratio_exact": "17/5",
+        "sum_s": "24"
+      },
+      "depth3a_3_15_39": {
+        "C_orbit_ratio_decimal": "3.71428571428571",
+        "C_orbit_ratio_exact": "26/7",
+        "sum_s": "57"
+      },
+      "depth3b_6_15_87": {
+        "C_orbit_ratio_decimal": "3.84210526315789",
+        "C_orbit_ratio_exact": "73/19",
+        "sum_s": "108"
+      },
+      "depth4_15_39_582": {
+        "C_orbit_ratio_decimal": "3.97196261682243",
+        "C_orbit_ratio_exact": "425/107",
+        "sum_s": "636"
+      },
+      "omega_root_3_3_3": {
+        "C_orbit_ratio_decimal": "2.8",
+        "C_orbit_ratio_exact": "14/5",
+        "sum_s": "9"
+      },
+      "origin_0_0_0": {
+        "C_orbit_ratio_decimal": "1.0",
+        "C_orbit_ratio_exact": "1/1",
+        "sum_s": "0"
+      }
+    }
+  },
+  "NH_5_real_circulant_nogo_and_PT_chirality": {
+    "H_chiral_at_0_0_0_diag": [
+      "6.0",
+      "7.732050807568877",
+      "4.267949192431123"
+    ],
+    "H_chiral_at_3_3_3_diag": [
+      "66.0",
+      "42.12435565298214",
+      "17.87564434701786"
+    ],
+    "S4_cov_at_3_6_15_imag_q1_minus_q2": "5.196152422706632",
+    "S4_cov_at_3_6_15_modulus_q1_q2": "3.605551275463989",
+    "max_real_circulant_modulus_split_20_trials": "0.0"
+  },
+  "all_modules_and_controls_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-25_ninth_roots_honeycomb_markoff_flow_and_chirality",
+  "firewall": "strictly_0_of_19_zero_SM_scaffolding",
+  "planted_controls": {
+    "PC_NH_1_even_spin_sector_misses_B1997_ninth_root_rate": true,
+    "PC_NH_2_omitting_brickwork_shift_gives_undamped_2": true,
+    "PC_NH_3_unaveraged_ordering_breaks_C_invariance": true,
+    "PC_NH_4_dropping_T_breaking_i_restores_q1_q2_lock": true
+  },
+  "script_sha256": "5e8a2a85ab1876ca17688a018cbf783cd0f41c427bacd1135b227a9c69ca7ff3"
+}
