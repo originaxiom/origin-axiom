@@ -1,0 +1,21 @@
+{
+ "id": "B1993",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1992", "B1985", "B1983", "B1601"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the integer readings of the cusp's leaf x^2 + y^2 + z^2 = xyz with |entries| <= 3000",
+  "object": "their residues mod 3, their orbits under the moves, their sign patterns, and the torus shape they are",
+  "reach": "class",
+  "hypotheses": "exact within the box; the identification of the orbit with the modular (hexagonal) torus is cited standard; integrality is GENESIS GM1 (postulated)"
+ },
+ "claim_one_line": "LISTENING 9, THE CUSP'S INTEGER READINGS (PROVED, exact within |entries| <= 3000; data-free): every integer reading of the cusp's leaf is = 0 mod 3, over the common point; the nonzero ones form exactly two orbits of the moves, the positive Markoff tree from (3,3,3) and one orbit mixing the three two-negative sign patterns (post hoc), so one torus shape, the modular hexagonal torus (tau = omega, cited), in four lifts split 1 + 3; given the records' integrality the whole's own arithmetic selects omega, which the record had retired after a Standard Model-shaped test",
+ "weave_or_thread": "weave (every move, every integer reading, nothing chosen)"
+}

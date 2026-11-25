@@ -18407,6 +18407,24 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1993": {
+   "slug": "listening 9 the cusps integer readings",
+   "motifs": [
+    "measurement",
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B482",
+    "B553"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

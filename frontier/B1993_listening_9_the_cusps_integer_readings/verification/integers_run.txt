@@ -1,0 +1,6 @@
+solutions with |entries| <= 3000: 281 (the origin included: True)
+M1: every solution has all entries = 0 mod 3: True
+M2: positive solutions with max <= 3000: 70; reached from (3, 3, 3) by L, R, L^-1, R^-1 within the box: 70; all: True
+M3: sign patterns of the nonzero solutions: [((-1, -1, 1), 70), ((-1, 1, -1), 70), ((1, -1, -1), 70), ((1, 1, 1), 70)]
+M3: within each sign pattern, reached from its (+-3, +-3, +-3): [((-1, -1, 1), 1), ((-1, 1, -1), 15), ((1, -1, -1), 15), ((1, 1, 1), 70)]; L and R keep the sign pattern: False
+M4 (cited): (3, 3, 3) is the one positive solution fixed by the cyclic exchange of the readings: True

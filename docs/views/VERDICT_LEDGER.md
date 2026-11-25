@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1689 of 1689 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1690 of 1690 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1182)
+## PROVED (1183)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1194,6 +1194,7 @@
 | `B1990` | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it (by (kappa - 2) M), outside the grammar; so each frustration level is a sector of the whole; the law's counting gives every leaf about p^2 readings: 'nothing' exactly p^2 + 1, the cusp exactly p^2 + 3(-1/p)p + 1 (the one level whose correction is three), the others p^2 + {-(4p-1), -(2p-1), 2p+1, 4p+1}; no level is preferred” |  | 0 |
 | `B1991` | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distinct fixed points at every level mod 2^k (k = 2 to 6), with two shadow fixed points that do not persist; their levels coincide mod 4 (-2 = 2) and part only mod 8; so the whole's two primes carry its two finite structures, S3 at 2 and the cube at 3” |  | 0 |
 | `B1992` | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix finitely many algebraic readings on the cusp's leaf; the four one-letter powers fix curves and single out nothing); epsilon = e^(-pi y) is transcendental at every algebraic height y != 0 (Gelfond, Gelfond-Schneider), so it is never one of the whole's selections and needs a forced analytic map; the cusp's leaf carries one canonically (its Fuchsian component, tau), where the record finds no point weighted” |  | 0 |
+| `B1993` | “LISTENING 9, THE CUSP'S INTEGER READINGS (PROVED, exact within |entries| <= 3000; data-free): every integer reading of the cusp's leaf is = 0 mod 3, over the common point; the nonzero ones form exactly two orbits of the moves, the positive Markoff tree from (3,3,3) and one orbit mixing the three two-negative sign patterns (post hoc), so one torus shape, the modular hexagonal torus (tau = omega, cited), in four lifts split 1 + 3; given the records' integrality the whole's own arithmetic selects omega, which the record had retired after a Standard Model-shaped test” |  | 0 |
 
 ## NEGATIVE (388)
 
