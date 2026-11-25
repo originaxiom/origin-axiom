@@ -1,0 +1,4 @@
+mod 27: neutral degree 26, charged-sector degree 23; p_neutral(2x) == 2^26 (x^2 - 9) x S(x): True
+mod 81: neutral degree 218, charged-sector degree 215; p_neutral(2x) == 2^218 (x^2 - 9) x S(x): True
+mod 5: neutral degree 14, charged-sector degree 13; p_neutral(2x) == 2^14 (x^2 - 9) x S(x): False
+mod 7: neutral degree 10, charged-sector degree 9; p_neutral(2x) == 2^10 (x^2 - 9) x S(x): False

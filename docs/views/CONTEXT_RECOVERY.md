@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1698 |
-| … PROVED | 1191 |
+| arcs with a verdict file | 1699 |
+| … PROVED | 1192 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B2002 | PROVED | “LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor…” |
 | B2001 | PROVED | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest dec…” |
 | B2000 | PROVED | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair a…” |
 | B1999 | PROVED | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is e…” |
@@ -42,7 +43,6 @@
 | B1993 | PROVED | “LISTENING 9, THE CUSP'S INTEGER READINGS (PROVED, exact within ∣entries∣ <= 3000; data-free): every integer reading of the cusp's leaf is = 0 mod 3, over the common point; the nonzero ones form exactly two orbits of the…” |
 | B1992 | PROVED | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix f…” |
 | B1991 | PROVED | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distin…” |
-| B1990 | PROVED | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 16 (B2001, PROVED; a weave result; data-free)).** Across the whole cusp leaf, omega's 1 + 2 is a split in persistence: the neutral sector holds what the whole remembers (0.99 per move at its prime), the charged pair is forgotten about twice as fast, and its two members never differ. The covariant whole is exactly the symmetric walk on three move pairs, with no arrow of time; at the whole's prime 3 the charged spectrum is exactly half the neutral one. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 17 (B2002, PROVED; a weave result; data-free)).** At the whole's own prime 3 the charged pair is an exact half-scale copy of the neutral member: p_neutral(2x) = 2^d (x^2 - 9) x S(x), every mode but the constant, the alternation and one null mode reappearing in each charged member at exactly half strength; at the primes 5 and 7 the sectors share no mode. The ninth roots run through this sector too. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

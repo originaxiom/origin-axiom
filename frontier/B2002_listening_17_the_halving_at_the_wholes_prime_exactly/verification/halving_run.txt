@@ -1,0 +1,49 @@
+mod 27, orbit of (3,3,3): 72 points, 26 C-orbits; symmetric: True; charged polynomial a perfect square over Z (all multiplicities even): True  [0 s]
+    neutral factors (degree, multiplicity, largest |root|, carries the top, halved version divides the charged polynomial, its multiplicity there):
+       (1, 1, np.float64(6.0), True, False, 0)
+       (1, 1, np.float64(6.0), True, False, 0)
+       (2, 2, np.float64(5.291503), False, True, 4)
+       (1, 2, np.float64(4.0), False, True, 4)
+       (1, 2, np.float64(4.0), False, True, 4)
+       (2, 2, np.float64(3.464102), False, True, 4)
+       (1, 5, np.float64(2.0), False, True, 10)
+       (1, 5, np.float64(2.0), False, True, 10)
+       (1, 2, np.float64(0.0), False, True, 2)
+    of the neutral non-top degree 24, paired by halving: 24
+    the neutral slowest mode (|root| 5.291502622) lies on the factor (constant first) [-28, 0, 1]; its halved version divides the charged polynomial: True
+mod 81, orbit of (3,3,3): 648 points, 218 C-orbits; symmetric: True; charged polynomial a perfect square over Z (all multiplicities even): True  [10 s]
+    neutral factors (degree, multiplicity, largest |root|, carries the top, halved version divides the charged polynomial, its multiplicity there):
+       (1, 1, np.float64(6.0), True, False, 0)
+       (1, 1, np.float64(6.0), True, False, 0)
+       (6, 2, np.float64(5.919044), False, True, 4)
+       (3, 2, np.float64(5.75877), False, True, 4)
+       (3, 2, np.float64(5.75877), False, True, 4)
+       (6, 2, np.float64(5.679499), False, True, 4)
+       (6, 4, np.float64(5.444805), False, True, 8)
+       (2, 2, np.float64(5.291503), False, True, 4)
+       (3, 2, np.float64(5.064178), False, True, 4)
+       (3, 2, np.float64(5.064178), False, True, 4)
+       (6, 4, np.float64(4.990664), False, True, 8)
+       (6, 4, np.float64(4.417866), False, True, 8)
+    of the neutral non-top degree 216, paired by halving: 216
+    the neutral slowest mode (|root| 5.919044005) lies on the factor (constant first) [-4672, 0, 1008, 0, -60, 0, 1]; its halved version divides the charged polynomial: True
+    H5 (PARI): degree, Q(cos 2pi/9) inside its field, discriminant of its field: ['6', '1', '[2,', '6;', '3,', '8;', '73,', '1]']
+mod 5, leaf: 40 points, 14 C-orbits; symmetric: True; charged polynomial a perfect square over Z (all multiplicities even): True  [10 s]
+    neutral factors (degree, multiplicity, largest |root|, carries the top, halved version divides the charged polynomial, its multiplicity there):
+       (1, 1, np.float64(6.0), True, False, 0)
+       (4, 1, np.float64(5.406635), False, False, 0)
+       (3, 1, np.float64(4.962389), False, False, 0)
+       (1, 2, np.float64(4.0), False, False, 0)
+       (1, 1, np.float64(2.0), False, False, 0)
+       (1, 1, np.float64(2.0), False, False, 0)
+       (1, 2, np.float64(0.0), False, False, 0)
+    of the neutral non-top degree 13, paired by halving: 0
+    the neutral slowest mode (|root| 5.406635197) lies on the factor (constant first) [224, -32, -32, 2, 1]; its halved version divides the charged polynomial: False
+mod 7, leaf: 28 points, 10 C-orbits; symmetric: True; charged polynomial a perfect square over Z (all multiplicities even): True  [10 s]
+    neutral factors (degree, multiplicity, largest |root|, carries the top, halved version divides the charged polynomial, its multiplicity there):
+       (1, 1, np.float64(6.0), True, False, 0)
+       (5, 1, np.float64(5.31571), False, False, 0)
+       (2, 1, np.float64(4.828427), False, False, 0)
+       (2, 1, np.float64(3.236068), False, False, 0)
+    of the neutral non-top degree 9, paired by halving: 0
+    the neutral slowest mode (|root| 5.315710001) lies on the factor (constant first) [-352, 192, 88, -28, -4, 1]; its halved version divides the charged polynomial: False

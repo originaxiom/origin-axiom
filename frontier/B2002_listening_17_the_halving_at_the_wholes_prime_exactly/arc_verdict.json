@@ -1,0 +1,21 @@
+{
+ "id": "B2002",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B2001", "B1997", "B1996"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the symmetric six-move covariant unfolding on the orbit of (3,3,3) mod 27 and 81 and on the cusp's leaf mod 5 and 7",
+  "object": "the exact characteristic polynomials of the neutral part and of the charged pair, their factorisations, the halving relation between them, and the leading mode's field",
+  "reach": "class",
+  "hypotheses": "FLINT exact; PARI nfisincl and nfdisc; the identity found after the run (post hoc) and checked exactly at four levels"
+ },
+ "claim_one_line": "LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor reappears halved in the charged pair, and post hoc, exactly, p_neutral(2x) = 2^d (x - 3)(x + 3) x S(x) with S one charged sector's polynomial: each charged sector is the neutral sector at half scale minus the constant, the alternation and one null mode (one per C-fixed point); at mod 5 and 7 no mode pairs and the identity fails; the leading mode at mod 81 (x^6 - 60x^4 + 1008x^2 - 4672) lives over a sextic field containing Q(cos 2pi/9), discriminant 2^6 3^8 73",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

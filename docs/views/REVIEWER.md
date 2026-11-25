@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1698** |
-| words of findings prose | **1,557,522** |
+| research arcs with findings | **1699** |
+| words of findings prose | **1,558,326** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1698** (100.0 %) |
+| arcs carrying an authored verdict | **1699** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1191 |
+| PROVED | 1192 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2001`** (865 words, 0 locks)  
-“LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest decay (0.88 to 0.99 per move) while the charged pair's strongest mode is 0.44 to 0.49, the two charged members identical; on the 3-tower both settle (0.986507 and 0.493254 at mod 81 and 243); post hoc, exactly: the six conjugated moves are closed under inversion (L^-1 = CRC^-1, R^-1 = C^2LC^-2, the third move CLC^-1 = (y, yz - x, z)), so the covariant whole is the symmetric walk on three move pairs, with no arrow of time; and on the 3-tower the charged spectrum is exactly half the neutral one below the top (ratio 2 to 12 digits; at primes 5 to 13 it is 1.89 to 2.09)”  
-`B2001_listening_16_the_charge_sectors_of_the_whole_unfolding_on_the_cusp_leaf/FINDINGS.md`
+**PROVED — `B2002`** (804 words, 0 locks)  
+“LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor reappears halved in the charged pair, and post hoc, exactly, p_neutral(2x) = 2^d (x - 3)(x + 3) x S(x) with S one charged sector's polynomial: each charged sector is the neutral sector at half scale minus the constant, the alternation and one null mode (one per C-fixed point); at mod 5 and 7 no mode pairs and the identity fails; the leading mode at mod 81 (x^6 - 60x^4 + 1008x^2 - 4672) lives over a sextic field containing Q(cos 2pi/9), discriminant 2^6 3^8 73”  
+`B2002_listening_17_the_halving_at_the_wholes_prime_exactly/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  
