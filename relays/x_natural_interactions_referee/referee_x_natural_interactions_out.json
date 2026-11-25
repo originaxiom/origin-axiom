@@ -1,0 +1,118 @@
+{
+  "R_NI_1_descent_and_cubic_unfolding": {
+    "W_plus_charge_diag": [
+      "4.6666666666667",
+      "1.6666666666667",
+      "1.6666666666667"
+    ],
+    "W_plus_eigs": [
+      "0.29843788128358",
+      "1.0",
+      "6.7015621187164"
+    ],
+    "W_pm_charge_diag": [
+      "9.3333333333333",
+      "3.3333333333333",
+      "3.3333333333333"
+    ],
+    "W_pm_eigs": [
+      "2.0",
+      "6.0",
+      "8.0"
+    ],
+    "descent_steps_to_mixed_root": 14,
+    "high_depth_peak_decimal_digits": 384
+  },
+  "R_NI_2_quintic_bisection": {
+    "g0_neutral": "2.405995542385487",
+    "g2_doublet": "1.564381690954773",
+    "lam2_bif_exact": "1/8",
+    "ratio_g0_over_g2": "1.537984979175422",
+    "t_star_bisection": "0.1520597126166451"
+  },
+  "R_NI_3_quaternion_5cube_fusion": {
+    "branching_fractions": {
+      "+1": "2/5",
+      "+1/phi": "0",
+      "+2": "2/15",
+      "+phi": "2/15",
+      "-1": "0",
+      "-1/phi": "2/15",
+      "-2": "1/15",
+      "-phi": "0",
+      "0": "2/15"
+    },
+    "counts_14400": {
+      "+1": 5760,
+      "+1/phi": 0,
+      "+2": 1920,
+      "+phi": 1920,
+      "-1": 0,
+      "-1/phi": 1920,
+      "-2": 960,
+      "-phi": 0,
+      "0": 1920
+    },
+    "three_body_branching_fractions": {
+      "+1": "17/75",
+      "+1/phi": "4/75",
+      "+2": "2/75",
+      "+phi": "41/225",
+      "-1": "2/75",
+      "-1/phi": "41/225",
+      "-2": "2/25",
+      "-phi": "4/75",
+      "0": "38/225"
+    }
+  },
+  "R_NI_4_voronoi_frob_overlaps": {
+    "L2_omega_voronoi": "2.7864751428831004",
+    "area_voronoi_err": "1.9475722e-16",
+    "even_shell_gram_diag": [
+      "9.04528562245535",
+      "1.76282026429936",
+      "1.76282026429936"
+    ],
+    "odd_shell_gram_diag": [
+      "1.62800319734912",
+      "2.32531328656779",
+      "2.32531328656779"
+    ],
+    "rho2_interior_Z3_fp_voronoi": "3.54156364110625904",
+    "trilinear_overlap": "-0.395144341299033"
+  },
+  "R_NI_5_bessel_quad_neck": {
+    "cusp_quartic_coupling_quad": "0.6700214625171981",
+    "t_peak_golden_section": "1.102657790843584"
+  },
+  "all_counterchecks_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-25_natural_interactions_omega_criticality_and_fusion",
+  "firewall": "strictly_0_of_19_zero_SM_scaffolding",
+  "max_producer_referee_diff": "3.0025e-10",
+  "producer_output_sha256_checked": "51edd4cf44f7f62e876e6191fd19cfd7c7a98decc83a85ee02512d8136e4cafc",
+  "producer_referee_diffs": {
+    "L2_omega_diff": "3.0e-17",
+    "W_plus_eig0_diff": "0.0",
+    "X_omega_even0_diff": "3.0025e-10",
+    "X_omega_odd0_diff": "3.0e-14",
+    "X_omega_trilin_diff": "1.912e-12",
+    "dyson_ratio_diff": "0.0",
+    "dyson_t_star_diff": "0.0",
+    "m004_quartic_diff": "0.0",
+    "m004_t_peak_diff": "0.0",
+    "rho2_fp_diff": "2.4e-16"
+  },
+  "referee_controls": {
+    "RC_NI_1_origin_blind_to_omega_charge_split": true,
+    "RC_NI_2_quintic_catches_coexisting_1plus2_branch": true,
+    "RC_NI_3_quaternion_5cube_forbids_size6_sectors": true,
+    "RC_NI_4_voronoi_catches_P_breaking_split": true
+  },
+  "referee_script_sha256": "2b366c5bcab628f3c87a9421924ee96838625e941095da076f98db8328c3e00f"
+}
