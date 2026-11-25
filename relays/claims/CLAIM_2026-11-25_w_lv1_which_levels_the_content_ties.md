@@ -7,8 +7,8 @@
 - kind: computation (exact arithmetic, with controls on the frame's coupling)
 - touches: P-845; B1976, B1977, B1978, B1979, B1949, B1945, B1946, B1953, B1971; agy-002's M33
 - effect: conditions — P-845: the level is not fixed by the content's tie arithmetic; four candidate principles (one
-  post hoc) give three levels, each a counted choice; and whether frame C is read at one point or over its level
-  decides whether its leptons split from its down quarks at levels not divisible by 3
+  post hoc) give three levels, each a counted choice; under the units' reading of the level, frame C's leptons
+  split from its down quarks only at levels divisible by 3 (the act's own orbits differ: § 8 of the relay)
 - imports: none
 - premises on main: B1945 (the frame's coupling, `determinant_law.parts`), B1976 (the unit rule), B1949 (the leptons
   and the point 3w), B1943 (the act's line), the frame at be8c83d4f
@@ -39,6 +39,12 @@
   quarks only at levels divisible by 3; at one point they differ at 10 as at 30. The record has not fixed which
   reading frame C takes.
 - [J] The computation called for: B1976's checks and B1977's gates at order 10 (12 points) and order 210 (4608 points,
-  or a declared sample), each read at one point and over the level, its rule sealed first.
+  or a declared sample), each read at one point and over the level, its rule sealed first. (Superseded by the relay's
+  § 8.)
+- [J] Correction of 2026-11-25 (afternoon; relay § 8, no referee read yet). The record did not leave "one point or the
+  level" open as a choice. The object's own grouping is the act's orbits (B1978). The factor 3 is the number of
+  colours: the anomaly-fixed hypercharges give (L, e) = N_c·(−1, d) only for N_c = 3. By a hand argument, not yet
+  sealed, the act multiplies its line by −1 mod 5, so 3w is never on the orbit of ±w. On the act's orbits, then, the
+  leptons read another orbit at every level on the act's line, 10 included. A sealed card is owed.
 
 0 of 19.

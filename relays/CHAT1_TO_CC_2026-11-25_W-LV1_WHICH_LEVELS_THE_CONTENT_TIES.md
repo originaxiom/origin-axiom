@@ -59,7 +59,8 @@ agy-exp's master synthesis and its X-BULK-LINK1 relay. **Not opened:** agy's `bl
   w differ, at order 10 as at 30 (B1976's 88 of 96 is a reading at one point). Over the whole level they differ only
   if the level is divisible by 3: otherwise w → 3w permutes the points, and the leptons play the down exponents
   (B1949: the exponents ignore the doublet's sign) in another order. Whether the split is real therefore depends on
-  whether frame C is read at one point (one vacuum) or over its level. The record has not fixed which.
+  whether frame C is read at one point (one vacuum) or over its level. The record has not fixed which. (Corrected in
+  § 8: neither is the object's own grouping. On the act's orbits, 3w is never on the orbit of w.)
 - [J] **A fourth principle, found after the run and after the referee read (post hoc, counted):** the least level on
   the act's line that is divisible by 3, so that the leptons' blindness to the 3-part can split them from the down
   quarks over the whole level, and with no tie in the table, is 30 (15 is excluded only by the up matrix's tie to its
@@ -145,7 +146,8 @@ agy-exp's master synthesis and its X-BULK-LINK1 relay. **Not opened:** agy's `bl
   - If viability holds at 10, 30 and 210 at one point, the level is a knob over at least those three, and route (d)'s
     menu has to carry it.
   - If, over the level, the lepton rates equal the down rates at 10 and differ at 30 and 210, § 2's mechanism is what
-    separates them, and the choice of reading (one point or the level) is the decision the author has to make.
+    separates them over the units' level. (Withdrawn in § 8: an earlier version called the choice of reading a
+    decision for the author. The reading is not a choice, and § 8 replaces this proposal.)
 
 ## 5. Where the record reads through one hole
 
@@ -209,5 +211,33 @@ its own code, checked the citations, and returned PASS WITH CORRECTIONS. Applied
 15. Nits: a definition typed [E]; "at the primes"; the disclosure of § 7 before it was filled.
 The referee's own scripts are not committed. This seat re-ran its key computations (Q1 to Q4) in the post hoc check.
 P4 and the reading of § 2 are this seat's, after the read; the referee did not see them.
+
+## 8. Correction of 2026-11-25 (afternoon): the reading is not anyone's choice
+
+- [J] § 0, § 2 and § 4 set out "one point or the whole level" as two options to choose between. § 4 called the
+  choice a decision for the author. That framing is withdrawn. This seat picked both options. The point is one hole.
+  "The whole level" is the units of Z/N, which is the lens's arithmetic, not the object's own motion. The object's
+  own grouping on record is the act's orbits. B1978: at order 30 the monodromy M = [[2,1],[1,1]] carries the 96
+  points in 8 orbits of 12.
+- [E] **Where the 3 comes from** (hand algebra, standard, checked symbolically, unsealed). Take one generation with
+  N_c colours. Anomaly cancellation fixes the hypercharges in units of the quark doublet's: L = −N_c and e = 2N_c,
+  and the antiquark singlets are −(1 + N_c) and N_c − 1. Then (L, e) = N_c·(−1, d) holds exactly only for N_c = 3.
+  So the factor in Y_lep(w) ∝ Y_dn(3w) is the number of colours. The content fixes the relation; no one chose it.
+- [J] **The act never carries a point to its triple** (a hand argument, not yet sealed). On the act's line mod 5 the
+  act multiplies by −1: M(1, 2) ≡ −(1, 2) mod 5. Since 3 ≢ ±1 mod 5, at every level on the act's line 3w is on
+  neither w's orbit nor −w's. If 3 divides the level, 3w does not even have that order. A scratch check, also
+  unsealed, agrees at orders 10, 30, 70 and 210. At order 10 the 12 points form 2 orbits of 6, and multiplication by
+  3 swaps them.
+- [J] So on the act's own orbits, the leptons on an orbit read the down sector, with its doublet's sign negated, on a
+  different orbit. That holds at every level on the act's line, order 10 included. Whether their notes then differ
+  depends on what the orbits contain, and that is a computation. § 2's condition that 3 divide the level belongs to
+  the units' reading only.
+- [J] Two questions stay open, and the object has to answer both; neither is settled by a choice.
+  - B1978's caveat: the act moves τ together with the point, and the joint covariance has not been checked.
+  - How an orbit is read: B1978 says the aggregation must come from the object.
+  If the object selects no orbit, a result has to hold on every orbit or be reported as not fixed by the object.
+- [J] Owed: a sealed card, its condition written first. It covers the hand argument above and the lepton and down
+  rates per orbit at orders 10 and 30, and it replaces § 4's proposal. This section is foreknowledge for it.
+  Unlike § 0 to § 6, this section has had no referee read.
 
 0 of 19.
