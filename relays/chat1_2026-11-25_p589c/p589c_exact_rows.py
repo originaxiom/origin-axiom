@@ -165,7 +165,7 @@ def main():
                     if which == "exact":
                         s2, s1 = sp[(h, "small", rn)]
                         worst_diff = max(worst_diff, abs(abs(m2 - 1) - abs(s2 - 1)), abs(m1 - s1))
-        print("P1 tau = %s done (accessory residual %.1e)" % (tau, r), flush=True)
+        print("P1 tau = %s done (accessory residual %.1e)" % (tau, float(np.max(np.abs(r)))), flush=True)
     res["P1"] = worst_diff < 1e-8
     out["P1"] = {"lines": [[str(a), str(b), tied(a, b)] for a, b in lines], "max": stat, "worst_diff": worst_diff}
     print("P1 row 315: max |m2/m3 - 1|, max m1/m3: small %s, exact %s; worst difference %.2e"
