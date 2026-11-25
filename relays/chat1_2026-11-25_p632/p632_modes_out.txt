@@ -1,0 +1,19 @@
+M0: |lambda_1(0) - 2| 4.4e-15, max |h_0 - 1| 8.0e-15; F_1(1/x) = 1/x to 2.0e-16
+s = 0.00: lambda_1 2.000000000000 (N 64, 128, 256 spread 2.7e-15), mass on [0, 0.05] 0.0500 (spread 2.4e-16); h positive True, strictly decreasing False; next |lambda| at N = 128: 0.9998, 0.9987, 0.9961
+s = 0.10: lambda_1 1.848487357404 (N 64, 128, 256 spread 4.2e-15), mass on [0, 0.05] 0.0546 (spread 8.3e-17); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9998, 0.9989, 0.9965
+s = 0.20: lambda_1 1.710185576615 (N 64, 128, 256 spread 2.7e-15), mass on [0, 0.05] 0.0601 (spread 2.4e-16); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9990, 0.9968
+s = 0.30: lambda_1 1.584087091402 (N 64, 128, 256 spread 1.8e-15), mass on [0, 0.05] 0.0667 (spread 5.6e-17); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9992, 0.9971
+s = 0.40: lambda_1 1.469310797467 (N 64, 128, 256 spread 3.3e-15), mass on [0, 0.05] 0.0749 (spread 1.4e-16); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9993, 0.9973
+s = 0.50: lambda_1 1.365112276779 (N 64, 128, 256 spread 6.9e-15), mass on [0, 0.05] 0.0855 (spread 5.3e-16); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9993, 0.9974
+s = 0.60: lambda_1 1.270910714432 (N 64, 128, 256 spread 2.6e-14), mass on [0, 0.05] 0.0998 (spread 1.9e-14); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9994, 0.9975
+s = 0.70: lambda_1 1.186353460410 (N 64, 128, 256 spread 6.4e-13), mass on [0, 0.05] 0.1204 (spread 7.5e-13); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9993, 0.9974
+s = 0.80: lambda_1 1.111483508010 (N 64, 128, 256 spread 2.7e-11), mass on [0, 0.05] 0.1539 (spread 5.5e-11); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9993, 0.9974
+s = 0.90: lambda_1 1.047292006638 (N 64, 128, 256 spread 2.9e-09), mass on [0, 0.05] 0.2215 (spread 1.5e-08); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9993, 0.9972
+s = 0.95: lambda_1 1.020342787057 (N 64, 128, 256 spread 6.4e-08), mass on [0, 0.05] 0.2968 (spread 8.1e-07); h positive True, strictly decreasing True; next |lambda| at N = 128: 0.9999, 0.9992, 0.9971
+M2: h_s positive and strictly decreasing for s = 0.1 .. 0.9: True; N = 128 vs 256 worst 2.0e-13
+M3: lambda_1 strictly decreasing True, lambda_1(0.95) = 1.020343; mass fraction strictly increasing True
+M1 s = 0.25: Z_18 / Z_17 = 1.645784, lambda_1 = 1.645669, relative difference 6.99e-05
+M1 s = 0.50: Z_18 / Z_17 = 1.365969, lambda_1 = 1.365112, relative difference 6.28e-04
+second eigenfunction at s = 0.5 (N = 128) changes sign at x = 0.1435, 0.1500, 0.1645, 0.1795, 0.1945, 0.2270, 0.2380, 0.2930, 0.3120, 0.4100, 0.4450, 0.5810, 0.5895, 0.6320, 0.6345, 0.6960, 0.7535, 0.7595, 0.7745
+
+M0 holds, M2 holds, M3 holds, M1 holds
