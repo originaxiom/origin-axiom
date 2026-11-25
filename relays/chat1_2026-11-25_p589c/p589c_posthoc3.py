@@ -84,9 +84,9 @@ def main():
         geo[y] = (G, Lcol)
         spread = max(abs(cs[a] - cs[0.0025]) for a in cs)
         print("tau = %si: c* = %.6f (eps 0.01, 0.005, 0.0025: %s; spread %.1e, largest |Im| %.1e); "
-              "L_max %.4f, L_2 %.4f; column L_max %.4f, L_2 %.4f" % (y, cstar, ", ".join("%.6f" % cs[e].real for e in cs), spread,
-                                                max(abs(v.imag) for v in cs.values()), G["L_max"], G["L_2"],
-                                                Lcol["L_max"], Lcol["L_2"]), flush=True)
+              "L_max %.4f, L_2 %.4f; column L_max %.4f, L_2 %.4f"
+              % (y, cstar, ", ".join("%.6f" % cs[e].real for e in cs), spread,
+                 max(abs(v.imag) for v in cs.values()), G["L_max"], G["L_2"], Lcol["L_max"], Lcol["L_2"]), flush=True)
         out["geometry_%s" % y] = {"c_star": cstar, "c_eps": {str(k): [v.real, v.imag] for k, v in cs.items()},
                                   "L_max": G["L_max"], "L_2": G["L_2"], "col": Lcol}
     # Q0: the stuck geometry reproduces the committed residue
