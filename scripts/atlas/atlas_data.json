@@ -18229,6 +18229,20 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1984": {
+   "slug": "listening 2 the moves on the characters mod every n",
+   "motifs": [
+    "trace_map",
+    "metallic",
+    "z3_generation",
+    "markov_cubic"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [

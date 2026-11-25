@@ -1,0 +1,10 @@
+(1) N = 10 = 2*5: every orbit is a CRT product of prime-power orbits: True
+(1) N = 12 = 4*3: every orbit is a CRT product of prime-power orbits: True
+(1) N = 15 = 3*5: every orbit is a CRT product of prime-power orbits: True
+(1) N = 18 = 2*9: every orbit is a CRT product of prime-power orbits: True
+(1) N = 35 = 5*7: every orbit is a CRT product of prime-power orbits: True
+(1) N = 55 = 5*11: every orbit is a CRT product of prime-power orbits: True
+(2) N = 9: 27 points over the common point; orbits [12, 8, 6, 1]; the linear group <dL, dR> on F_3^3 has order 24, orbits [12, 8, 6, 1]; the orbits correspond one to one: True
+(2) N = 25: 125 points over the common point; orbits [24, 24, 24, 12, 12, 8, 8, 6, 6, 1]; the linear group <dL, dR> on F_5^3 has order 24, orbits [24, 24, 24, 12, 12, 8, 8, 6, 6, 1]; the orbits correspond one to one: True
+(2) N = 49: 343 points over the common point; orbits [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 12, 12, 12, 8, 8, 8, 6, 6, 6, 1]; the linear group <dL, dR> on F_7^3 has order 24, orbits [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 12, 12, 12, 8, 8, 8, 6, 6, 6, 1]; the orbits correspond one to one: True
+(3) mod 9 the cusp's leaf: 27 points; orbits by cube type: [(1, ['centre']), (6, ['face']), (8, ['vertex']), (12, ['edge'])]

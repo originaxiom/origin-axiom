@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1680 |
-| … PROVED | 1173 |
+| arcs with a verdict file | 1681 |
+| … PROVED | 1174 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1984 | PROVED | “LISTENING 2, THE MOVES ON THE CHARACTERS MOD EVERY N <= 64 (PROVED, exact; data-free): the whole action connects the cusp's leaf at every prime and composite moduli are only CRT products (post hoc); the one place it lea…” |
 | B1983 | PROVED | “LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they co…” |
 | B1982 | PROVED | “FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log∣tau∣ (B1667, B1724, B1921), frame C passes S to 6e-16 a…” |
 | B1981 | NEGATIVE | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's me…” |
@@ -42,7 +43,6 @@
 | B1975 | PROVED | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tre…” |
 | B1974 | PROVED | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose…” |
 | B1973 | PROVED | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup∣V33∣ = (1+s_L)/(3-s_L) at a null Higgs holds on main's own c…” |
-| B1972 | PROVED | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 1 (B1983, PROVED; a weave result; data-free)).** The listening line opened at the author's word. With nothing chosen, the grammar's moves acting together on the fibre's characters over every finite field fix only the common point and the trivial character, and connect the cusp's leaf (kappa = -2) at every prime from 5 to 47; post hoc it is the only integer leaf to +-40 so connected. The swap changes no orbit. The whole singles out the cusp and leaves structure on it only at 2 and 3; level 5 is the golden thread's own. Next: the field the whole forces at its levels, then the loop. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 2 (B1984, PROVED; a weave result; data-free)).** Resumed unattended on the listening line. Mod every N <= 64 the moves acting together connect the cusp's leaf at every prime, composites are only products, and the one place the whole leaves structure is the common point: there it acts at every prime as the cube's rotation group S4 (B1687's Aut(Q8)), and mod 9 the cusp's leaf is the cube. A three from behaviour, not asked for; a candidate, as a reading, for FK15. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1680** |
-| words of findings prose | **1,543,129** |
+| research arcs with findings | **1681** |
+| words of findings prose | **1,544,117** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1680** (100.0 %) |
+| arcs carrying an authored verdict | **1681** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1173 |
+| PROVED | 1174 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1983`** (920 words, 0 locks)  
-“LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they connect all nonzero points at every prime 5 <= p <= 47 (at p = 3 the leaf is the common point alone), and post hoc the cusp's leaf is the only integer leaf (to +-40) connected at every prime; the swap P changes no orbit; so the whole singles out the cusp and leaves structure on it only at 2 and 3”  
-`B1983_listening_1_the_moves_on_the_characters_over_every_finite_field/FINDINGS.md`
+**PROVED — `B1984`** (988 words, 0 locks)  
+“LISTENING 2, THE MOVES ON THE CHARACTERS MOD EVERY N <= 64 (PROVED, exact; data-free): the whole action connects the cusp's leaf at every prime and composite moduli are only CRT products (post hoc); the one place it leaves structure is the common point, whose neighbourhood it acts on, at every prime tested, as the linear group of its moves at the origin, the cube's rotation group of order 24 (post hoc, exact at 9, 25, 49); mod 9 the cusp's leaf is the cube (centre, 6 faces, 8 vertices, 12 edges); a three from behaviour, not asked for”  
+`B1984_listening_2_the_moves_on_the_characters_mod_every_n/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

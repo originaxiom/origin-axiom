@@ -1,0 +1,26 @@
+{
+ "id": "B1984",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1983",
+  "B1601",
+  "B1600",
+  "B1687"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the fibre's characters (tr a, tr b, tr ab) mod N for every N from 2 to 64",
+  "object": "the orbits of the grammar's moves L, R acting together on the cusp's leaf kappa = -2 mod N, and the points every move fixes",
+  "reach": "class",
+  "hypotheses": "exact for N <= 64; the CRT reading, the cube-group reading over the common point (N = 9, 25, 49) and the cube mod 9 are post hoc and each checked exactly"
+ },
+ "claim_one_line": "LISTENING 2, THE MOVES ON THE CHARACTERS MOD EVERY N <= 64 (PROVED, exact; data-free): the whole action connects the cusp's leaf at every prime and composite moduli are only CRT products (post hoc); the one place it leaves structure is the common point, whose neighbourhood it acts on, at every prime tested, as the linear group of its moves at the origin, the cube's rotation group of order 24 (post hoc, exact at 9, 25, 49); mod 9 the cusp's leaf is the cube (centre, 6 faces, 8 vertices, 12 edges); a three from behaviour, not asked for",
+ "weave_or_thread": "weave (every move acting together, every modulus, nothing chosen)"
+}
