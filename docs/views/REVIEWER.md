@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1699** |
-| words of findings prose | **1,558,326** |
+| research arcs with findings | **1700** |
+| words of findings prose | **1,559,048** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1699** (100.0 %) |
+| arcs carrying an authored verdict | **1700** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1192 |
+| PROVED | 1193 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2002`** (804 words, 0 locks)  
-“LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor reappears halved in the charged pair, and post hoc, exactly, p_neutral(2x) = 2^d (x - 3)(x + 3) x S(x) with S one charged sector's polynomial: each charged sector is the neutral sector at half scale minus the constant, the alternation and one null mode (one per C-fixed point); at mod 5 and 7 no mode pairs and the identity fails; the leading mode at mod 81 (x^6 - 60x^4 + 1008x^2 - 4672) lives over a sextic field containing Q(cos 2pi/9), discriminant 2^6 3^8 73”  
-`B2002_listening_17_the_halving_at_the_wholes_prime_exactly/FINDINGS.md`
+**PROVED — `B2003`** (722 words, 0 locks)  
+“LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's exchange fixes three points of the orbit of (3,3,3), and fails at mod 9 (two fixed), 25 and 49 (one, nothing paired), 15 (one, nothing paired) and 45 (two, 4 of 106 paired); the charged pair's polynomial is a perfect square at every level; the half-scale copy is the whole's prime 3's own, where the three, omega's exchange and the prime meet”  
+`B2003_listening_18_the_reach_of_the_halving/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1699 |
-| … PROVED | 1192 |
+| arcs with a verdict file | 1700 |
+| … PROVED | 1193 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B2003 | PROVED | “LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's e…” |
 | B2002 | PROVED | “LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor…” |
 | B2001 | PROVED | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest dec…” |
 | B2000 | PROVED | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair a…” |
@@ -42,7 +43,6 @@
 | B1994 | PROVED | “LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; a…” |
 | B1993 | PROVED | “LISTENING 9, THE CUSP'S INTEGER READINGS (PROVED, exact within ∣entries∣ <= 3000; data-free): every integer reading of the cusp's leaf is = 0 mod 3, over the common point; the nonzero ones form exactly two orbits of the…” |
 | B1992 | PROVED | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix f…” |
-| B1991 | PROVED | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distin…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 17 (B2002, PROVED; a weave result; data-free)).** At the whole's own prime 3 the charged pair is an exact half-scale copy of the neutral member: p_neutral(2x) = 2^d (x^2 - 9) x S(x), every mode but the constant, the alternation and one null mode reappearing in each charged member at exactly half strength; at the primes 5 and 7 the sectors share no mode. The ninth roots run through this sector too. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 18 (B2003, PROVED; a weave result; data-free)).** The exact half-scale copy of the neutral sector in the charged pair is the whole's prime 3's own: it holds up the 3-tower from mod 27 to mod 243, exactly where omega's exchange fixes three points, and nowhere else run (mod 9, 25, 49, 15, 45). The three, omega's exchange and the prime meet there. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

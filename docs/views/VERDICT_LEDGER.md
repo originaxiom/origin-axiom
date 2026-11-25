@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1699 of 1699 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1700 of 1700 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1192)
+## PROVED (1193)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1204,6 +1204,7 @@
 | `B2000` | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair at 5, 5 (28, 10, 10 with the inverse moves), against 2, 2, 2 at the common point, so the whole natively gives 3 -> 1 + 2 and keeps the pair locked; agy-exp's NI-1 reproduced ((14/3, 5/3, 5/3), spectrum {1, (7 -+ sqrt 41)/2}; its diagonal is exactly the covariant part); its NI-3 fusion fractions reproduced exactly for Q8 (1/3, 2/3), 2O, 2I (never -phi, -1, 1/phi) and the 2I three-body law {18,12,6,41,38,12,51,41,6}/225” |  | 0 |
 | `B2001` | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest decay (0.88 to 0.99 per move) while the charged pair's strongest mode is 0.44 to 0.49, the two charged members identical; on the 3-tower both settle (0.986507 and 0.493254 at mod 81 and 243); post hoc, exactly: the six conjugated moves are closed under inversion (L^-1 = CRC^-1, R^-1 = C^2LC^-2, the third move CLC^-1 = (y, yz - x, z)), so the covariant whole is the symmetric walk on three move pairs, with no arrow of time; and on the 3-tower the charged spectrum is exactly half the neutral one below the top (ratio 2 to 12 digits; at primes 5 to 13 it is 1.89 to 2.09)” |  | 0 |
 | `B2002` | “LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor reappears halved in the charged pair, and post hoc, exactly, p_neutral(2x) = 2^d (x - 3)(x + 3) x S(x) with S one charged sector's polynomial: each charged sector is the neutral sector at half scale minus the constant, the alternation and one null mode (one per C-fixed point); at mod 5 and 7 no mode pairs and the identity fails; the leading mode at mod 81 (x^6 - 60x^4 + 1008x^2 - 4672) lives over a sextic field containing Q(cos 2pi/9), discriminant 2^6 3^8 73” |  | 0 |
+| `B2003` | “LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's exchange fixes three points of the orbit of (3,3,3), and fails at mod 9 (two fixed), 25 and 49 (one, nothing paired), 15 (one, nothing paired) and 45 (two, 4 of 106 paired); the charged pair's polynomial is a perfect square at every level; the half-scale copy is the whole's prime 3's own, where the three, omega's exchange and the prime meet” |  | 0 |
 
 ## NEGATIVE (388)
 

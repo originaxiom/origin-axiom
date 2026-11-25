@@ -1,0 +1,21 @@
+{
+ "id": "B2003",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B2002", "B2001", "B1985", "B1984"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the symmetric six-move covariant unfolding on the orbit of (3,3,3) mod 9, 27, 81, 243, 25, 49, 15, 45",
+  "object": "the C-fixed points, the multiplicity-aware pairing of neutral modes with charged modes at half value, and the halving identity, at each level",
+  "reach": "class",
+  "hypotheses": "FLINT exact up to 1,372 points; mod 243 by eigvalsh to 1e-8; R1 and R3 failed as worded"
+ },
+ "claim_one_line": "LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's exchange fixes three points of the orbit of (3,3,3), and fails at mod 9 (two fixed), 25 and 49 (one, nothing paired), 15 (one, nothing paired) and 45 (two, 4 of 106 paired); the charged pair's polynomial is a perfect square at every level; the half-scale copy is the whole's prime 3's own, where the three, omega's exchange and the prime meet",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}
