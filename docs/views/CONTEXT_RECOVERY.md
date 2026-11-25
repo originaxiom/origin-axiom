@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1688 |
-| … PROVED | 1181 |
+| arcs with a verdict file | 1689 |
+| … PROVED | 1182 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1992 | PROVED | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix f…” |
 | B1991 | PROVED | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distin…” |
 | B1990 | PROVED | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it…” |
 | B1989 | PROVED | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives…” |
@@ -42,7 +43,6 @@
 | B1983 | PROVED | “LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they co…” |
 | B1982 | PROVED | “FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log∣tau∣ (B1667, B1724, B1921), frame C passes S to 6e-16 a…” |
 | B1981 | NEGATIVE | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's me…” |
-| B1980 | PROVED | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; data-free) [CORRECTED 2026-11-25, B1982: part B's 'frame C fails S, it reads the curve through one cusp' WITHDRAWN - main's end-law error; with the record's law L(-1/tau)…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 8 (B1991, PROVED; a weave result; data-free)).** At 2 the common point's group is S3, the three; at 3 and every odd prime it is the cube. The two forced states stay distinct, while their levels coincide mod 4 and part only mod 8. Next: the structure-not-values question over everything heard. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (B1992, PROVED; data-free)).** Every point or level the whole singles out by its moves is algebraic; epsilon at any algebraic height is transcendental, so it can never be one of the whole's own selections and needs a forced analytic map. The cusp's leaf carries one canonically, its Fuchsian component (tau), where no point is weighted. A type constraint, not a no-go. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

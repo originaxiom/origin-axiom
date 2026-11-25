@@ -1,0 +1,21 @@
+{
+ "id": "B1992",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1983", "B1988", "B1989", "B1990", "B1991", "B1601"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the fibre's character variety over Q-bar; the words of length 1 to 4 on the cusp's leaf",
+  "object": "the type of what the whole's moves can single out, and the transcendence of epsilon at algebraic heights",
+  "reach": "class",
+  "hypotheses": "T1 (zero-dimensional ideals over Q) and T3 (Gelfond, Gelfond-Schneider) are cited standard theorems; T2 checks words to length 4 and the listening line's numbers"
+ },
+ "claim_one_line": "WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix finitely many algebraic readings on the cusp's leaf; the four one-letter powers fix curves and single out nothing); epsilon = e^(-pi y) is transcendental at every algebraic height y != 0 (Gelfond, Gelfond-Schneider), so it is never one of the whole's selections and needs a forced analytic map; the cusp's leaf carries one canonically (its Fuchsian component, tau), where the record finds no point weighted",
+ "weave_or_thread": "weave (every move, nothing chosen)"
+}

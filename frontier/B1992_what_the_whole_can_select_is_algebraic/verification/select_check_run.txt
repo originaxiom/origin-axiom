@@ -1,0 +1,33 @@
+word L     fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word R     fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LL    fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LR    fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RL    fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RR    fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LLL   fixed readings on the cusp's leaf: zero-dimensional False; points not solved; all algebraic False
+word LLR   fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LRL   fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LRR   fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RLL   fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RLR   fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RRL   fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RRR   fixed readings on the cusp's leaf: zero-dimensional False; points not solved; all algebraic False
+word LLLL  fixed readings on the cusp's leaf: zero-dimensional False; points not solved; all algebraic False
+word LLLR  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LLRL  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LLRR  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LRLL  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LRLR  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LRRL  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word LRRR  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RLLL  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RLLR  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RLRL  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RLRR  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RRLL  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RRLR  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RRRL  fixed readings on the cusp's leaf: zero-dimensional True; points not solved; all algebraic True
+word RRRR  fixed readings on the cusp's leaf: zero-dimensional False; points not solved; all algebraic False
+SUMMARY T2a: words of length <= 4 whose fixed set on the cusp's leaf is zero-dimensional with algebraic points: 26 of 30; not zero-dimensional: ['LLL', 'RRR', 'LLLL', 'RRRR']
+SUMMARY T2b: every number the listening line found is algebraic: True
+T3: e^pi algebraic? False (sympy's is_algebraic: None means unknown to sympy; the theorem is Gelfond's)

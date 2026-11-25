@@ -18393,6 +18393,20 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1992": {
+   "slug": "what the whole can select is algebraic",
+   "motifs": [
+    "measurement",
+    "trace_map",
+    "kappa",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

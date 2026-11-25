@@ -576,6 +576,16 @@ re-read of the record that led to it is `docs/THE_REREAD_2026-10-06.md`.
   *[2026-11-19, B1961: W27's representation theory verified on main (18 doublets, every anomaly sum zero); its
   Dobrescu–Poppitz clause selects three only if a parity sector counts one generation, not a full 27. W28's flavour
   clause fails: its middle conditions leave U(1) × U(2) of the flavour U(3), not a phase. Its ±3 holds.]*
+  *[2026-11-25, B1983 to B1992, the listening line, with nothing chosen and no Standard Model criterion:*
+  - *the whole's own structure at its primes is S₃, the three, at 2, and the cube group S₄ around the common point at 3
+    and every odd prime (B1984, B1991);*
+  - *it keeps one undamped alternation, flipping with every move (B1986, B1987);*
+  - *its one self-consistent outcome is the common point (B1988);*
+  - *its bound states sit at κ = 2cos(2πk/n) (B1989);*
+  - *nothing in the grammar changes κ (B1990);*
+  - *what it can select is algebraic, so a transcendental value such as ε needs a forced analytic map (B1992).*
+
+  *No value is delivered.]*
 - **Chirality (S2).** The three's hand is the orientation sheet chosen at SE2 (B1609, B1610); the owner ruled "even
   ticks observed" (GM5c), so the observed weave is ⟨L, R⟩ and which hand is called left is a convention.
 - **CP.** The weave's generalized CP is the record swap; CP violation is allowed, not forced; no phase is fixed by the

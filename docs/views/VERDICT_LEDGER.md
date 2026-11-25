@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1688 of 1688 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1689 of 1689 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1181)
+## PROVED (1182)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1193,6 +1193,7 @@
 | `B1989` | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives the common point (-2) and 'nothing' (2), 2T adds 0, 2O adds +-1, and only the icosahedral bound states carry the golden levels +-phi and +-1/phi, so Q(sqrt 5) enters the whole as the level of its icosahedral bound states with no thread chosen” |  | 0 |
 | `B1990` | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it (by (kappa - 2) M), outside the grammar; so each frustration level is a sector of the whole; the law's counting gives every leaf about p^2 readings: 'nothing' exactly p^2 + 1, the cusp exactly p^2 + 3(-1/p)p + 1 (the one level whose correction is three), the others p^2 + {-(4p-1), -(2p-1), 2p+1, 4p+1}; no level is preferred” |  | 0 |
 | `B1991` | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distinct fixed points at every level mod 2^k (k = 2 to 6), with two shadow fixed points that do not persist; their levels coincide mod 4 (-2 = 2) and part only mod 8; so the whole's two primes carry its two finite structures, S3 at 2 and the cube at 3” |  | 0 |
+| `B1992` | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix finitely many algebraic readings on the cusp's leaf; the four one-letter powers fix curves and single out nothing); epsilon = e^(-pi y) is transcendental at every algebraic height y != 0 (Gelfond, Gelfond-Schneider), so it is never one of the whole's selections and needs a forced analytic map; the cusp's leaf carries one canonically (its Fuchsian component, tau), where the record finds no point weighted” |  | 0 |
 
 ## NEGATIVE (388)
 
