@@ -1,6 +1,6 @@
 # CLAIM CARD — frame C, with its canonical end, is covariant under SL(2, Z) acting on the modulus and the point together
 
-- seat, branch, commit: SM seat, claude/standard-model-derivation-0qt6ao, the commit that adds this card
+- seat, branch, commit: SM seat, this seat's branch (as on its page on main), the commit that adds this card
 - kind: computation
 - touches: P-845, P-860 (d); B1978's dated caveat (the orbit reading needs joint covariance first)
 - effect: conditions — P-845's orbit reading: B1978's change of rate class under the act is a change of cusp
