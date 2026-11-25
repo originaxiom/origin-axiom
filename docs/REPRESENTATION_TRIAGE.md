@@ -16,6 +16,11 @@ disposition. **An untriaged unrepresented arc is the defect.**
 dense). A **claim-length** floor of 500 catches **11 of 11**. A seat writes a long claim line
 when there is a lot to say.
 
+> **Currency (2026-11-25, through B1994):**
+> - The sweep finds 822 substantial arcs, 14 cited on no synthesis surface, and every one of those triaged here (0 untriaged).
+> - The window's arcs, B1976 to B1994, each carry a law-map row written at their landing, so none needs a row below.
+> - The window's two withdrawn claims are registered in docs/RETRACTED_PHRASES.md: "through the one cusp" (B1980, B1982) and "in 17 classes" (B1977, B1979).
+
 ## Dispositions
 
 - **PENDING** — a real object result owed a row on a synthesis surface. **This is a debt.**

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1690** |
-| words of findings prose | **1,550,931** |
+| research arcs with findings | **1691** |
+| words of findings prose | **1,551,621** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1690** (100.0 %) |
+| arcs carrying an authored verdict | **1691** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1183 |
+| PROVED | 1184 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1993`** (735 words, 0 locks)  
-“LISTENING 9, THE CUSP'S INTEGER READINGS (PROVED, exact within |entries| <= 3000; data-free): every integer reading of the cusp's leaf is = 0 mod 3, over the common point; the nonzero ones form exactly two orbits of the moves, the positive Markoff tree from (3,3,3) and one orbit mixing the three two-negative sign patterns (post hoc), so one torus shape, the modular hexagonal torus (tau = omega, cited), in four lifts split 1 + 3; given the records' integrality the whole's own arithmetic selects omega, which the record had retired after a Standard Model-shaped test”  
-`B1993_listening_9_the_cusps_integer_readings/FINDINGS.md`
+**PROVED — `B1994`** (655 words, 0 locks)  
+“LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; at the common point it is a third turn about (1, 1, 1), the diagonal the whole opens along, with eigenvalues 1, e^(2 pi i/3), e^(-2 pi i/3) on the triplet: omega's symmetry tells the three apart, one neutral and two with conjugate charges; it fixes the positive lift and cycles the other three”  
+`B1994_listening_10_omegas_own_symmetry_on_what_the_whole_forces/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

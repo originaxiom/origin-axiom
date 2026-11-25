@@ -1,4 +1,4 @@
-# B1980 — What could fix the height: the act fixes only cusps on the level-30 curve, and those it fixes are B1976's 96 points; frame C has no duality τ ↦ −K/τ and is not S-covariant, even with its end read on the whole curve, so it reads the curve through the one cusp i∞
+# B1980 — What could fix the height: the act fixes only cusps on the level-30 curve, and those it fixes are B1976's 96 points; frame C has no duality τ ↦ −K/τ beyond SL(2, ℤ) [CORRECTED 2026-11-25, B1982: the claim that frame C is not S-covariant and reads the curve through the one cusp i∞ is WITHDRAWN; with its end law it is S-covariant]
 
 **Verdict: PROVED (A, exact) and NEGATIVE (B, no duality of the declared family; frame C fails the S move, also with its end read on the whole curve).** Main,
 2026-11-25. Data-free. Register rows P-629, P-845 and P-882 (new). **0 of 19.**
@@ -117,8 +117,8 @@ and the act)".
 
 - **No duality of the declared family exists, so no self-dual height is derived this way.** Of the card's three shapes,
   the racetrack and the self-consistent loop remain.
-- **Frame C is exactly T-covariant and not S-covariant.**
-  - It reads the level-30 curve through one cusp, i∞, out of 288.
+- **[WITHDRAWN 2026-11-25, B1982: frame C is S-covariant with its end law; this bullet was main's end-law error]** Frame C is exactly T-covariant and not S-covariant.
+  - [withdrawn] It reads the level-30 curve through one cusp, i∞, out of 288.
   - At the author's word (2026-11-25), this is the same mistake the record made with m004: reading the instrument through
     one hole. It recurs at every level: the object, the point, the cusp, the height, the level.
   - B1978's classes changing along the act's orbits are the same structure heard through different cusps.

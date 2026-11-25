@@ -1,0 +1,21 @@
+{
+ "id": "B1994",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1993", "B1987", "B1985", "B1984", "B1601"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the moves' trace maps on the fibre's character variety, exact",
+  "object": "the stabiliser among the moves of the reading (3, 3, 3), its linear part at the common point, and its action on the triplet, the cube's orbits and the four lifts",
+  "reach": "class",
+  "hypotheses": "words searched up to length 6; LR^-1's action computed exactly as a polynomial map"
+ },
+ "claim_one_line": "LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; at the common point it is a third turn about (1, 1, 1), the diagonal the whole opens along, with eigenvalues 1, e^(2 pi i/3), e^(-2 pi i/3) on the triplet: omega's symmetry tells the three apart, one neutral and two with conjugate charges; it fixes the positive lift and cycles the other three",
+ "weave_or_thread": "weave (every move, nothing chosen)"
+}

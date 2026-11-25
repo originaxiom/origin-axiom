@@ -1,4 +1,4 @@
-# B1977 — At order 30 on the act's line frame C has points with an aligned mixing, a mass hierarchy in both quark sectors, the leptons split from the down quarks in the exponent, and a 2–3 mixing falling at a rate of 1/30; every rate lies on a grid of 1/60, in 17 classes
+# B1977 — At order 30 on the act's line frame C has points with an aligned mixing, a mass hierarchy in both quark sectors, the leptons split from the down quarks in the exponent, and a 2–3 mixing falling at a rate of 1/30; every rate lies on a grid of 1/60, in 17 classes [CORRECTED 2026-11-25, B1979: the converged classes are 12]
 
 **Verdict: PROVED** for G1 to G5, as sealed: all five held.
 - The rates are read between heights 20 and 30 at column 0.13.

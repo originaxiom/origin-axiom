@@ -1,0 +1,8 @@
+W1: reduced words up to length 6 whose trace map fixes (3, 3, 3): 64; the shortest: ['Lr', 'Rl', 'LLrL', 'LRlR', 'LrLr', 'RLrL']
+W2: the generator Lr: its trace map acts on the readings as (Y, Z, X)
+W2: its linear part at the common point [[0, 1, 0], [0, 0, 1], [1, 0, 0]]; order 3; eigenvalues on the triplet {1: 1, -1/2 - sqrt(3)*I/2: 1, -1/2 + sqrt(3)*I/2: 1}; fixed axis [[1, 1, 1]]
+W2: acting on (3, 3, 3)'s neighbours: w(3, 3, 6) = (3, 6, 3); order of w on the readings (smallest k with w^k = id on a test point): 3
+W3: on the cube's faces: fixed []
+W3: on the cube's vertices: fixed [(1, 1, 1), (-1, -1, -1)]
+W3: on the cube's edges: fixed []
+W3: on the four lifts (the sign pattern of w applied to each (+-3, +-3, +-3)): {(1, 1, 1): (1, 1, 1), (-1, -1, 1): (-1, 1, -1), (-1, 1, -1): (1, -1, -1), (1, -1, -1): (-1, -1, 1)}
