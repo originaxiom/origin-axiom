@@ -18674,6 +18674,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2007": {
+   "slug": "listening 22 the layers law up the tower",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L1",
+    "L2",
+    "L3"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [

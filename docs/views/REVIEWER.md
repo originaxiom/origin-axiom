@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1703** |
-| words of findings prose | **1,561,476** |
+| research arcs with findings | **1704** |
+| words of findings prose | **1,562,230** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1703** (100.0 %) |
+| arcs carrying an authored verdict | **1704** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1196 |
+| PROVED | 1197 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2006`** (681 words, 0 locks)  
-“LISTENING 21, THE SMALL GROUP IS A 3-ADIC LAYER OVER THE CUBE GROUP (PROVED; data-free): reduction mod 9 maps omega's orbit mod 27, 81, 243 equivariantly onto the cube's 8 points with uniform fibres (9, 81, 729), so G_k maps onto S4 with a 3-group kernel: Z3^2 at mod 27, Z9^2 at mod 81, non-abelian of order 3^7 and exponent 27 at mod 243; the order-6 character's order-2 half is trivial on the kernel (S4's sign pulled back) and its order-3 half, omega's charge, lives on the layer; the halving appears exactly when the layer appears”  
-`B2006_listening_21_the_small_group_is_a_three_adic_layer_over_the_cube_group/FINDINGS.md`
+**PROVED — `B2007`** (754 words, 0 locks)  
+“LISTENING 22, THE LAYER'S LAW UP THE TOWER (PROVED for its checks; data-free): each step of the 3-adic layer over the cube group is elementary abelian (Z3^2 at mod 27, Z3^2 at mod 81, Z3^3 at mod 243, Z3^7 at mod 729; L2's 27 at 729 failed), the whole layer reaching order 3^14 (invariants [27, 81], class 4) and the group 114,791,256 at mod 729, whose abelianisation is still Z6; on the leading modes at mod 729 the halving holds (post hoc, shift-invert: all 59 half-neutral values below the top in the common window matched to 2.3e-7; L3's plain sparse solve failed as worded on its precision)”  
+`B2007_listening_22_the_layers_law_up_the_tower/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

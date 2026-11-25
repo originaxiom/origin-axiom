@@ -1,0 +1,6 @@
+k = 2: mod 9, orbit 8 points
+k = 3: mod 27, orbit 72 points
+k = 4: mod 81, orbit 648 points
+k = 5: mod 243, orbit 5832 points
+k = 6: mod 729, orbit 52488 points
+orbits.json SHA-256 e00dc1a41fe4844f47e65d7772f23ce13c115fbc376096eee3a046d1d047f893

@@ -1,0 +1,4 @@
+sector q = 0: 60 eigenvalues nearest 5.950, from 5.999999994 to 5.605578398  [269 s]
+sector q = 1: 60 eigenvalues nearest 2.975, from 2.959522003 to 2.802789192  [526 s]
+top of the neutral sector: 5.999999993502
+over the common window [2.802789, 2.959522]: half-neutral values 59, charged values 57, matched within 1e-6: 57 (largest matched difference 6.0e-08)
