@@ -1,0 +1,223 @@
+{
+  "all_controls_passed": true,
+  "ast_firewall": {
+    "ast_float_complex_calls": 0,
+    "ast_float_complex_literals": 0
+  },
+  "card": "AGY-C60",
+  "controls": {
+    "ctrl1_mod9_fails_halving_gcd_deg_zero": true,
+    "ctrl2_wrong_sign_gamma_breaks_u_gamma": true,
+    "ctrl3_symmetric_j_without_3a3_commutes_with_c": true,
+    "ctrl4_mod243_literal_conjugacy_fails_and_mod135_unpaired": true,
+    "ctrl5_phi18_at_plus2_is_57_not_dividing_disc": true,
+    "ctrl6_even_k6_fails_chiral_while_odd_k13579_all_pass": true
+  },
+  "controls_passed_count": 6,
+  "e1_all_k_halving_and_mod243": {
+    "ctrl1_mod9_gcd_degree": 0,
+    "ctrl2_wrong_gamma_mismatches": 24,
+    "ctrl3_sym_j_commutes_with_c": true,
+    "exact_z_polynomials": {
+      "243": {
+        "deg_charged_single": 1943,
+        "deg_neutral": 1946,
+        "exact_z_halving_identity_holds": true,
+        "p_charged_single_sha256": "87c972f9372935c27dba5e4257c5e967d4f5129f9f1a333602a9955d9bde8140",
+        "p_charged_single_x2_coeff": "-2913",
+        "p_neutral_sha256": "c58ef8f69646a81a6a04915f4113aa15cb628112944588932f2b554872cf81ad",
+        "p_neutral_x2_coeff": "-11688"
+      },
+      "27": {
+        "deg_charged_single": 23,
+        "deg_neutral": 26,
+        "exact_z_halving_identity_holds": true,
+        "p_charged_single_sha256": "eee3978de5a600c0e7789e412011e485542debdaacc4d0755318111257e32d41",
+        "p_charged_single_x2_coeff": "-33",
+        "p_neutral_sha256": "b83c1b55aa644cdfbe890477dba28e48d6d35fe2e7434351e14b097c628b9888",
+        "p_neutral_x2_coeff": "-168"
+      },
+      "81": {
+        "deg_charged_single": 215,
+        "deg_neutral": 218,
+        "exact_z_halving_identity_holds": true,
+        "p_charged_single_sha256": "a3759092552cea4fac713c1b6c4f68acd15e7e77312514f1edc144a2c4bd2a3a",
+        "p_charged_single_x2_coeff": "-321",
+        "p_neutral_sha256": "b00e3d26c12980f755e41fcf681c68c6777024d2812f54cb26523a4dda02bfc4",
+        "p_neutral_x2_coeff": "-1320"
+      }
+    },
+    "rungs_9_to_729": {
+      "243": {
+        "c_fixed_minus": 0,
+        "c_fixed_plus": 3,
+        "charged_null_vector_verified": true,
+        "heisenberg_jk_verified": true,
+        "orbit_size": 5832,
+        "u_gamma_intertwiner_verified": true
+      },
+      "27": {
+        "c_fixed_minus": 0,
+        "c_fixed_plus": 3,
+        "charged_null_vector_verified": true,
+        "heisenberg_jk_verified": false,
+        "orbit_size": 72,
+        "u_gamma_intertwiner_verified": true
+      },
+      "729": {
+        "c_fixed_minus": 0,
+        "c_fixed_plus": 3,
+        "charged_null_vector_verified": true,
+        "heisenberg_jk_verified": true,
+        "orbit_size": 52488,
+        "u_gamma_intertwiner_verified": true
+      },
+      "81": {
+        "c_fixed_minus": 0,
+        "c_fixed_plus": 3,
+        "charged_null_vector_verified": true,
+        "heisenberg_jk_verified": true,
+        "orbit_size": 648,
+        "u_gamma_intertwiner_verified": true
+      },
+      "9": {
+        "c_fixed_minus": 1,
+        "c_fixed_plus": 1,
+        "charged_null_vector_verified": false,
+        "heisenberg_jk_verified": false,
+        "orbit_size": 8,
+        "u_gamma_intertwiner_verified": false
+      }
+    }
+  },
+  "e2_b2004_b2005_group_and_mixed_levels": {
+    "group_stats": {
+      "243": {
+        "all_outside_have_c_cycle_type_and_rho_2_4": true,
+        "commutator_cube_is_identity": false,
+        "conj_c_plus_minus_size": 3888,
+        "euler_cubic_nonzero_mod243": true,
+        "euler_cubic_vanishes_mod81": true,
+        "image_group_order": 52488,
+        "non_conjugate_outside_with_fixed_points": 7776,
+        "orbit_size": 5832,
+        "rho_factors": true,
+        "stab_333_order": 9,
+        "stab_outside_gamma_prime_count": 6,
+        "total_outside_with_fixed_points": 11664
+      },
+      "27": {
+        "all_outside_have_c_cycle_type_and_rho_2_4": true,
+        "commutator_cube_is_identity": true,
+        "conj_c_plus_minus_size": 48,
+        "euler_cubic_nonzero_mod243": false,
+        "euler_cubic_vanishes_mod81": true,
+        "image_group_order": 216,
+        "non_conjugate_outside_with_fixed_points": 0,
+        "orbit_size": 72,
+        "rho_factors": true,
+        "stab_333_order": 3,
+        "stab_outside_gamma_prime_count": 2,
+        "total_outside_with_fixed_points": 48
+      },
+      "81": {
+        "all_outside_have_c_cycle_type_and_rho_2_4": true,
+        "commutator_cube_is_identity": true,
+        "conj_c_plus_minus_size": 432,
+        "euler_cubic_nonzero_mod243": false,
+        "euler_cubic_vanishes_mod81": true,
+        "image_group_order": 1944,
+        "non_conjugate_outside_with_fixed_points": 0,
+        "orbit_size": 648,
+        "rho_factors": true,
+        "stab_333_order": 3,
+        "stab_outside_gamma_prime_count": 2,
+        "total_outside_with_fixed_points": 432
+      },
+      "9": {
+        "image_group_order": 24,
+        "orbit_size": 8,
+        "rho_factors": false
+      }
+    },
+    "mod135_c_fixed": 3,
+    "mod135_charged_dim": 959,
+    "mod135_keeps_z6_via_mod27_quotient": true,
+    "mod135_orbit_size": 2880,
+    "mod135_paired_modes": 949,
+    "mod135_scscscsC_fixed_points": 0,
+    "mod135_unpaired_charged_modes": 10,
+    "mod135_unpaired_charged_poly": "(x**2 - 2*x - 2)*(x**2 + 2*x - 2)*(x**3 - 3*x - 1)*(x**3 - 3*x + 1)",
+    "mod135_unpaired_neutral_poly": "x*(x - 3)*(x - 2)*(x - 1)*(x + 1)*(x + 2)*(x + 3)*(x**6 - 9*x**4 + 21*x**2 - 10)",
+    "mod45_c_fixed": 2,
+    "mod45_orbit_size": 320,
+    "mod45_paired_gcd": "x**2*(x - 2)*(x + 2)"
+  },
+  "e3_sextic_radicals_and_73": {
+    "ctrl5_phi18_at_plus_2": 57,
+    "disc_q_cos_2pi_9": 81,
+    "field_disc_factored": {
+      "2": 6,
+      "3": 8,
+      "73": 1
+    },
+    "field_disc_q_y": 30652992,
+    "lambda_charged_81_over_6": "0.493253667079448233253051414148",
+    "lambda_neutral_81_over_6": "0.986507334158896466506102828295",
+    "norm_k9_of_5_plus_4cos_pi_9": 73,
+    "normalized_monic_sextic_y_half_x": "y**6 - 15*y**4 + 63*y**2 - 73",
+    "p6_divides_p_neutral_81_over_z": true,
+    "phi18_at_minus_2": 73,
+    "phi6_at_minus_2": 7,
+    "sextic_residual_abs": "5.09789411562e-57"
+  },
+  "e4_peer_agy_exp_nh2_nh4": {
+    "nh2_benchmarks": {
+      "25": "0.9947103916012285776469067",
+      "3": "0.7071067811865475244008444",
+      "5": "0.8389308291102305022922581",
+      "7": "0.927582649145759844996751",
+      "9": "0.9576490823670385777773091"
+    },
+    "nh2_symbolic_bloch_det_holds": true,
+    "nh4_markoff_ratios": {
+      "(0, 0, 0)": "1:1",
+      "(15, 39, 582)": "425:107",
+      "(3, 15, 39)": "26:7",
+      "(3, 3, 3)": "14:5",
+      "(3, 3, 6)": "3:1",
+      "(3, 6, 15)": "17:5",
+      "(6, 15, 87)": "73:19"
+    }
+  },
+  "e5_p884_e3b_scoped_decline": {
+    "chiral_covariance_defects_k1_to_k9": {
+      "1": "0.0",
+      "2": "1.22971173482",
+      "3": "1.81475163446e-56",
+      "4": "1.2238163081",
+      "5": "2.29543226064e-56",
+      "6": "1.11100204692",
+      "7": "2.74969824176e-56",
+      "8": "1.20738395851",
+      "9": "3.03841536663e-56"
+    },
+    "e3b_selects_k7_without_mirror_interval": false,
+    "even_k_failing_list": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "m21_schur_product_rel_err": "9.48848176775e-57",
+    "m21_step_s_sixth_power_scaling_rel_err": "1.81467779478e-56",
+    "odd_k_passing_list": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ]
+  },
+  "empirical_anchor": "0 of 19"
+}
