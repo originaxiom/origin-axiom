@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1691 of 1691 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1692 of 1692 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1184)
+## PROVED (1185)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1196,6 +1196,7 @@
 | `B1992` | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix finitely many algebraic readings on the cusp's leaf; the four one-letter powers fix curves and single out nothing); epsilon = e^(-pi y) is transcendental at every algebraic height y != 0 (Gelfond, Gelfond-Schneider), so it is never one of the whole's selections and needs a forced analytic map; the cusp's leaf carries one canonically (its Fuchsian component, tau), where the record finds no point weighted” |  | 0 |
 | `B1993` | “LISTENING 9, THE CUSP'S INTEGER READINGS (PROVED, exact within |entries| <= 3000; data-free): every integer reading of the cusp's leaf is = 0 mod 3, over the common point; the nonzero ones form exactly two orbits of the moves, the positive Markoff tree from (3,3,3) and one orbit mixing the three two-negative sign patterns (post hoc), so one torus shape, the modular hexagonal torus (tau = omega, cited), in four lifts split 1 + 3; given the records' integrality the whole's own arithmetic selects omega, which the record had retired after a Standard Model-shaped test” |  | 0 |
 | `B1994` | “LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; at the common point it is a third turn about (1, 1, 1), the diagonal the whole opens along, with eigenvalues 1, e^(2 pi i/3), e^(-2 pi i/3) on the triplet: omega's symmetry tells the three apart, one neutral and two with conjugate charges; it fixes the positive lift and cycles the other three” |  | 0 |
+| `B1995` | “LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike in strength: W+ has diagonal 2/3, 2/3, 2/3 in the charge basis, its slowest modes (1 +- i sqrt 7)/2 overlap each member 1/3, W+-'s long-run shares are 2/3 each; only the faster real mode (eigenvalue 1) avoids the neutral member; omega labels the three, the dynamics does not separate them in magnitude” |  | 0 |
 
 ## NEGATIVE (388)
 

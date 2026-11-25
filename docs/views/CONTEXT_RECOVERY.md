@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1691 |
-| … PROVED | 1184 |
+| arcs with a verdict file | 1692 |
+| … PROVED | 1185 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1995 | PROVED | “LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike…” |
 | B1994 | PROVED | “LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; a…” |
 | B1993 | PROVED | “LISTENING 9, THE CUSP'S INTEGER READINGS (PROVED, exact within ∣entries∣ <= 3000; data-free): every integer reading of the cusp's leaf is = 0 mod 3, over the common point; the nonzero ones form exactly two orbits of the…” |
 | B1992 | PROVED | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix f…” |
@@ -42,7 +43,6 @@
 | B1986 | PROVED | “LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation…” |
 | B1985 | PROVED | “LISTENING 3, THE COMMON POINT'S NEIGHBOURHOOD UP THE TOWER (PROVED, exact on the towers run; data-free): the moves repeat the cube (orbits 1, 6, 8, 12) at every scale over the common point and unfold out of it only alon…” |
 | B1984 | PROVED | “LISTENING 2, THE MOVES ON THE CHARACTERS MOD EVERY N <= 64 (PROVED, exact; data-free): the whole action connects the cusp's leaf at every prime and composite moduli are only CRT products (post hoc); the one place it lea…” |
-| B1983 | PROVED | “LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they co…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 10 (B1994, PROVED; a weave result; data-free)).** Omega's own symmetry is one of the whole's moves, LR^-1, the cyclic exchange of the three readings. At the common point it turns the triplet a third of a turn about the diagonal the whole opens along, and tells the three apart: one neutral, two with conjugate charges e^(+-2 pi i/3). The first structure of a field at omega, from behaviour. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 11 (B1995, PROVED; a weave result; data-free)).** The whole's unfolding does not tell omega's three charge members apart in strength: each persists alike, the slowest modes spread equally over all three, and the long-run shares are equal. Omega labels the three; the dynamics around the common point does not separate them in magnitude. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

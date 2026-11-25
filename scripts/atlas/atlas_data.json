@@ -18437,6 +18437,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1995": {
+   "slug": "listening 11 the unfolding on the three charge members at omega",
+   "motifs": [
+    "metallic",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

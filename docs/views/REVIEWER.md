@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1691** |
-| words of findings prose | **1,551,621** |
+| research arcs with findings | **1692** |
+| words of findings prose | **1,552,174** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1691** (100.0 %) |
+| arcs carrying an authored verdict | **1692** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1184 |
+| PROVED | 1185 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1994`** (655 words, 0 locks)  
-“LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; at the common point it is a third turn about (1, 1, 1), the diagonal the whole opens along, with eigenvalues 1, e^(2 pi i/3), e^(-2 pi i/3) on the triplet: omega's symmetry tells the three apart, one neutral and two with conjugate charges; it fixes the positive lift and cycles the other three”  
-`B1994_listening_10_omegas_own_symmetry_on_what_the_whole_forces/FINDINGS.md`
+**PROVED — `B1995`** (553 words, 0 locks)  
+“LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike in strength: W+ has diagonal 2/3, 2/3, 2/3 in the charge basis, its slowest modes (1 +- i sqrt 7)/2 overlap each member 1/3, W+-'s long-run shares are 2/3 each; only the faster real mode (eigenvalue 1) avoids the neutral member; omega labels the three, the dynamics does not separate them in magnitude”  
+`B1995_listening_11_the_unfolding_on_the_three_charge_members_at_omega/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

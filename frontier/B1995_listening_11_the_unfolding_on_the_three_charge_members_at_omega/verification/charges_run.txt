@@ -1,0 +1,11 @@
+U0: omega's symmetry s = d(LR^-1) at the common point: dL dR^-1 = [[0, 0, -1], [1, 0, 0], [0, -1, 0]], dR^-1 dL = [[0, 1, 0], [0, 0, 1], [1, 0, 0]], the cyclic exchange = [[0, 1, 0], [0, 0, 1], [1, 0, 0]]
+U1: W+ commutes with s: False; with s from LR^-1's own linear part: False
+U1: W+- commutes with s: False; with s from LR^-1's own linear part: False
+charge member 0: s-eigenvalue 1
+charge member 1: s-eigenvalue -1/2 + sqrt(3)*I/2
+charge member 2: s-eigenvalue -1/2 - sqrt(3)*I/2
+U2: W+ in the charge basis (rows and columns charge 0, 1, 2): [[2/3, -1/3 - sqrt(3)*I/3, -1/3 + sqrt(3)*I/3], [2/3 - 2*sqrt(3)*I/3, 2/3, 1/6 + sqrt(3)*I/6], [2/3 + 2*sqrt(3)*I/3, 1/6 - sqrt(3)*I/6, 2/3]]
+U2: W+- in the charge basis (rows and columns charge 0, 1, 2): [[4/3, 1/3 + sqrt(3)*I/3, 1/3 - sqrt(3)*I/3], [1/3 - sqrt(3)*I/3, 4/3, 1/3 + sqrt(3)*I/3], [1/3 + sqrt(3)*I/3, 1/3 - sqrt(3)*I/3, 4/3]]
+U3: W+ modes and their overlaps with charge members 0, 1, 2: [(1, [0, 1/2, 1/2]), (1/2 - sqrt(7)*I/2, [1/3, 1/3, 1/3]), (1/2 + sqrt(7)*I/2, [1/3, 1/3, 1/3])]
+U3: W+- modes and their overlaps with charge members 0, 1, 2: [(0, [1/3, 1/3, 1/3]), (2, [1/3, 1/3, 1/3]), (2, [1/3, 1/3, 1/3])]
+U4: W+- top eigenvalue 2; the long-run share of each charge member <c|P_top|c>: [2/3, 2/3, 2/3]
