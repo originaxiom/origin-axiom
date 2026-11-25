@@ -1,0 +1,9 @@
+tau = 1.6i: c* = 0.401417 (eps 0.01, 0.005, 0.0025: 0.401419, 0.401417, 0.401417; spread 5.0e-05, largest |Im| 6.6e-05); L_max 0.6639, L_2 2.5152; column L_max 0.6640, L_2 2.5170
+tau = 3.1i: c* = 0.665051 (eps 0.01, 0.005, 0.0025: 0.665051, 0.665051, 0.665051; spread 4.0e-09, largest |Im| 5.4e-09); L_max 0.6466, L_2 2.3334; column L_max 0.6466, L_2 2.3337
+tau = 3.5i: c* = 0.692854 (eps 0.01, 0.005, 0.0025: 0.692854, 0.692854, 0.692854; spread 3.3e-10, largest |Im| 4.3e-10); L_max 0.6447, L_2 2.3121; column L_max 0.6447, L_2 2.3121
+Q0: with the stuck c, the largest exact order-12 lepton m1/m3 is 8.814e-10 (committed: 8.814e-10)
+Q1 (P1 at 1.6i): max |m2/m3 - 1|, max m1/m3: small ['4.44e-16', '1.66e-16'], exact ['4.44e-16', '1.50e-16']; worst difference 4.44e-16; margins {'L_max': 0.0001, 'L_2': 0.4193}
+Q2 order 12 at 3.1i: 48 lines; lepton m1/m3 small [1.91e-18, 4.49e-15], exact [1.03e-20, 2.52e-16]; margins {'L_max': 0.0001, 'L_2': 0.4033}
+Q2 order 9 at 3.5i: 36 lines; lepton m1/m3 small [1.06e-07, 1.21e-03], exact [1.05e-07, 1.21e-03]; margins {'L_max': 0.0001, 'L_2': 0.4012}
+
+reading: order-12 zero at the exact norms HOLDS (the committed residue was the stuck accessory parameter's; the lift is retracted); order-9 electron lifted on every line yes (above 1e-6 everywhere no); P1's 1.6i half holds
