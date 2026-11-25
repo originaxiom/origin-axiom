@@ -1,0 +1,34 @@
+{
+  "all_referee_checks_passed": true,
+  "ast_firewall_countercheck": {
+    "calls": 0,
+    "literals": 0
+  },
+  "ast_firewall_producer": {
+    "calls": 0,
+    "literals": 0
+  },
+  "card": "AGY-C56-COUNTERCHECK",
+  "discrepancies_count": 0,
+  "disjoint_e1_alt_modulus_max_err": "7.80327282269e-51",
+  "disjoint_e1_unit_modulus_sc_max_dev": "4.76239360275e-51",
+  "disjoint_e2_pure_theta_3_over_5_err": "5.81203250311e-23",
+  "disjoint_e2_sv1sq_1_over_5_err": "3.82064786421e-12",
+  "disjoint_e2_y32_42_max_2_over_5_err": "8.80449937552e-11",
+  "disjoint_e4_rk4_logradial_L2_diffs": {
+    "i": "3.406751588e-6",
+    "omega": "1.09355589e-5",
+    "tau_gold": "1.775067677e-5"
+  },
+  "disjoint_e5_expm_u3_5_max_err": "1.82092798136e-57",
+  "disjoint_e5_vs_producer_indep_L2_max_rel_diff": "1.632125539e-5",
+  "empirical_inputs": "0 of 19",
+  "referee_planted_faults": {
+    "RPF1_bad_rhoT_err": "1.4264613",
+    "RPF2_bad_kap_rank1_ratio": "0.11628697",
+    "RPF3_c0_nonfuchsian_im_tr": "0.21959111",
+    "RPF4_illegal_lr_overlap_drift": "0.72525587",
+    "RPF5_no_UA_transport_ckm_drift": "0.28632099"
+  },
+  "verified_producer_sha256": "9e92cf8e573064f027f47731854a5b5755070cc5caf484d3a7fb1837424dae69"
+}
