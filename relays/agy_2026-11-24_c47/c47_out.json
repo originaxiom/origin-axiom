@@ -1,0 +1,100 @@
+{
+  "E1_m16_p557_p667_p640": {
+    "control_1_all_ten_rejects_ord12_massless_electron": true,
+    "control_2_degree_shift_and_half_atom_dichotomy_caught": true,
+    "control_3_aps_flat_cancellation_vs_flux_jump_caught": true,
+    "p557_bits_ckm_max_shift": "0.3075728",
+    "p557_choices_four_vs_all_ten": [
+      40000,
+      32320,
+      7680
+    ],
+    "p557_exact_p2_ratio_bound": "125/101",
+    "p557_menu_266_and_ord12_count": [
+      266,
+      48
+    ],
+    "p557_ord12_max_D_lep_vs_min_quark": [
+      "3.27332e-48",
+      "0.24779"
+    ],
+    "p557_p585_physical_definition": "physical_all_ten: all 6 mass ratios (c/t, u/t, s/b, d/b, mu/tau, e/tau) and all 4 CKM invariants (|V_us|, |V_cb|, |V_ub|, |J|) strictly > 10^-12",
+    "p640_dated_disposition": "DECLINED 2026-11-24 scoped to the weave frame (B1600/B1606 W19-W22) and magnetized curve frame (M=4): unquantized flat torsion phase cancels in APS index (ind == 0 for |a| < 1/2)",
+    "p667_m004_equals_m003_to_q45": true,
+    "p667_m206_equals_m207_to_q16": true,
+    "p667_m206_series_q0_to_q12": {
+      "0": 1,
+      "10": 750,
+      "11": 924,
+      "12": 502,
+      "2": 2,
+      "3": 8,
+      "4": -3,
+      "5": -32,
+      "6": -66,
+      "7": -56,
+      "8": 84,
+      "9": 364
+    },
+    "p667_omega_pred_vs_emp_m004_and_m206": [
+      "2.8494794",
+      "2.8503358",
+      "4.0297724",
+      "4.0246875"
+    ]
+  },
+  "E2_m14_m15_m17_b1974_calibration": {
+    "c0_at_half_plus_half_i_abs_and_deriv": [
+      "1.219e-52",
+      "1.11245"
+    ],
+    "control_4_eta_c_not_in_M2_Gamma2_caught": true,
+    "eta_c0_T2_multiplier_err_from_omega": "5.70903e-51",
+    "halphen_serre_max_rel_err": "6.02062e-51",
+    "m14_c1_b1973_status": "Accepted & credited in B1973 (witness & rank-1 residue law verified on main)",
+    "m15_m17_c13_b1974_erratum_and_scope": "Conceded & verified: eta*c_0 picks up exp(2 pi i / 3) under T^2 (not in M_2(Gamma(2))); B1974 proves uniqueness via X_0(2) genus 0 given P1..P3, and Review 86 correctly scopes P1 as Frame C's choice over D1 so C13 does NOT earn I-37",
+    "m17_c2_and_c8_status": "Accepted: B1942/B1949 (2026-11-15) holds priority on order-15 escape (C2 is independent linear route); C8 credited in B1971",
+    "x0_2_valence_sum": "3/8"
+  },
+  "E3_peer_sweep_chat1_agy002_agyexp": {
+    "agy002_b1972_open_3factor_det_and_twin_mark_verified": true,
+    "agyexp_e6_prim_24_gl2z_invariant_with_typing_note": "Verified 24-pt GL(2,Z) shell; per chat1 CHK-2 [J], uniform 24-pt weight is an imported P-845 rule and mirror baryon sign imports 1 bit",
+    "chat1_chk2_mtheory_chain_response": "Affirmed: C22/C37 G2 L(Q) chain carries 4 identifications + free V_perp (not 0-parameter); AGY-C44 v9.json retired G2 L(Q) for 10D E_8xE_8 at 33/2 discrete bits + R11 == 4 continuous UV ratios with real 13x homogeneity check",
+    "chat1_m3_scope_conj_violations_0_vs_same_higgs_escape": [
+      0,
+      "0.01",
+      "0.077350269"
+    ],
+    "chat1_p596_fd_rank_2_min_s2_over_s1_vs_frozen_s2": [
+      "0.097835483",
+      "0.0"
+    ],
+    "control_5_chat1_same_higgs_escapes_m3_and_frozen_re_rank1_caught": true
+  },
+  "all_expectations_passed": true,
+  "answers_main_messages": [
+    "M14",
+    "M15",
+    "M16 (P-557, P-667, P-640)",
+    "M17 (Review 86)"
+  ],
+  "ast_zero_float_check": {
+    "ast_float_or_complex_literals": 0,
+    "status": "CLEAN"
+  },
+  "card": "AGY-C47",
+  "check_labels_section_12": [
+    "recomputed independently",
+    "computed once",
+    "expectations committed first",
+    "tested against planted errors"
+  ],
+  "empirical_firewall": "0 of 19",
+  "planted_controls_caught": 5,
+  "planted_controls_total": 5,
+  "sandbox_dependencies": [
+    "python_stdlib",
+    "mpmath",
+    "sympy"
+  ]
+}
