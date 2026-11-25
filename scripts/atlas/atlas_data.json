@@ -18100,6 +18100,15 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1979": {
+   "slug": "the order 30 rates are limits on the grid of one sixtieth",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B197": {
    "slug": "figure eight volume torsionfree",
    "motifs": [

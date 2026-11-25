@@ -1,0 +1,15 @@
+the act keeps the converged class at 8 of 96
+orbit from (1/30, 1/15): classes along it [3, 8, 2, 3, 9, 2, 2, 9, 3, 2, 8, 3]
+orbit from (1/30, 7/30): classes along it [3, 4, 8, 4, 3, 10, 2, 4, 9, 4, 2, 10]
+orbit from (1/30, 2/5): classes along it [3, 9, 2, 2, 9, 3, 2, 8, 3, 3, 8, 2]
+orbit from (1/15, 3/10): classes along it [7, 0, 1, 6, 0, 0, 6, 1, 0, 7, 1, 1]
+orbit from (1/15, 19/30): classes along it [7, 1, 1, 7, 0, 1, 6, 0, 0, 6, 1, 0]
+orbit from (1/15, 29/30): classes along it [7, 5, 1, 11, 0, 5, 6, 5, 0, 11, 1, 5]
+orbit from (2/15, 13/30): classes along it [8, 4, 3, 10, 2, 4, 9, 4, 2, 10, 3, 4]
+orbit from (4/15, 11/30): classes along it [6, 5, 0, 11, 1, 5, 7, 5, 1, 11, 0, 5]
+5-part: 4 values; classes per value [6, 6, 6, 6]
+2-part: 3 values; classes per value [6, 6, 6]
+3-part: 8 values; classes per value [4, 4, 8, 8, 8, 8, 8, 8]
+6-part: 24 values; classes per value [2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+lepton m2/m3 rate over the 96 points: [Fraction(2, 5)]
+V13 = V12 + V23 in 6 of 12 classes

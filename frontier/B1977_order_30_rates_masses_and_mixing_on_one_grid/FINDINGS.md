@@ -6,6 +6,11 @@
 
 Main, 2026-11-24, at the author's word ("dig deeper"). Data-free. Register rows P-860 (d) and P-845. **0 of 19.**
 
+*Dated note (2026-11-25, B1979).* The rates are limits on the grid of 1/60. On 30–40 and 40–50 all 864 are on it, with
+largest residuals of 4.2e-4 and 5.1e-5. The four off-grid rates of G3 are finite-height effects. **The 17 classes were
+partly an artefact of keying 20–30 rates at three decimals: the converged classes are 12.** Every statement below that
+says 17 now reads 12. The web seat's CHK-1 reproduced this arc with two assemblies of its own (credit: the web seat).
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /order 30|1/30|exponent grid|Wolfenstein|slow mixing|level 30/: 1 of 1718 arcs on main match (PROVED 1); 4 register rows match (DONE 1, QUEUED 3)`. The one arc matched is B1976.

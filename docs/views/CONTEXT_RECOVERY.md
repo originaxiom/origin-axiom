@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1675 |
-| … PROVED | 1169 |
+| arcs with a verdict file | 1676 |
+| … PROVED | 1170 |
 | … NEGATIVE | 387 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -24,13 +24,14 @@
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 1996 |
+| harvest rows (the last number) | 2001 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1979 | PROVED | “THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than…” |
 | B1978 | PROVED | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at onl…” |
 | B1977 | PROVED | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 an…” |
 | B1976 | PROVED | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up…” |
@@ -42,7 +43,6 @@
 | B1970 | PROVED | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXIN…” |
 | B1969 | OPEN | “THE COUPLING'S FORM NEARLY ALLOWS AN ALIGNED MIXING WITH A FULL HIERARCHY IN BOTH SECTORS (OPEN, a search; data-free; P-879): with every channel free under the charge rule, a feasibility search finds no aligned mixing w…” |
 | B1968 | OPEN | “ON A GRID OF 2,016 POINTS FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION (OPEN, a search; data-free; P-879): with any Higgs triplet in C^3 an adversary finds no aligned charge-consistent mixing with a heavy-pair hi…” |
-| B1967 | PROVED | “THE TRADE-OFF IS NOT IN THE COUPLING'S FORM (PROVED by an explicit example; data-free; P-879): under the charge rule, with both sectors' channels free, a nearly null Higgs of reality 0.003 gives an aligned mixing (diago…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-24, S306p: THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (B1978, PROVED; data-free; P-845).** The act's monodromy carries the 96 order-30 points into themselves in 8 orbits of 12 and changes their rates, so the readings are not act-invariant. Alignment and both quark hierarchies nevertheless hold at every point of every orbit. The slow 2-3 mixing lives on 4 of the 8 orbits. If the reading is the act's orbit, the menu is 8, and how an orbit is read is the next question. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (B1979, PROVED numerically; data-free; P-845, P-860 (d)).** Read on heights 20-30, 30-40 and 40-50, B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5). The converged classes are 12, not 17. The lepton m2/m3 rate is 2/5 at every point. Route (d)'s menu is 12. The web seat's independent check of B1977 (CHK-1) is credited; the seats' work of 2026-11-24/25 is registered at harvest rows 1997 to 2001. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

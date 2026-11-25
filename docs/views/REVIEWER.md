@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1675** |
-| words of findings prose | **1,537,422** |
+| research arcs with findings | **1676** |
+| words of findings prose | **1,538,428** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1675** (100.0 %) |
+| arcs carrying an authored verdict | **1676** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1169 |
+| PROVED | 1170 |
 | NEGATIVE | 387 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1978`** (604 words, 0 locks)  
-“THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open [dated caveat 2026-11-24: computed at a fixed tau; the act moves tau and the point together, so the orbit reading needs the frame's joint covariance checked first]”  
-`B1978_the_acts_eight_orbits_of_twelve_at_order_30/FINDINGS.md`
+**PROVED — `B1979`** (887 words, 0 locks)  
+“THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than 2.2e-4 on 30-40); B1977's 17 classes were partly a finite-interval artefact, the converged classes are 12 (sizes 12,12,12,12,8,8,6,6,6,6,4,4), stable at 96 of 96; the lepton m2/m3 rate is 2/5 at every point; the menu for route (d) is 12”  
+`B1979_the_order_30_rates_are_limits_on_the_grid_of_one_sixtieth/FINDINGS.md`
 
 **NEGATIVE — `B1962`** (1356 words, 0 locks)  
 “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19. [Review 86, 2026-11-24: the 'identity E assumed' section is stale (closed by P-861 outside this arc); 'deranged for every reading' means at some of the 24 points; two numbers corrected]”  

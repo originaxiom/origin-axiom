@@ -11,6 +11,9 @@ hierarchy at every point stand as computed. The reading "the menu is the act's o
 first: frame C's SL(2,ℤ) covariance is known for τ → τ + 1 (B1940) and is obstructed at level 5 for flat unitary
 connections (agy-002's M34).
 
+*Dated note (2026-11-25, B1979).* B1977's classes converge to 12, not 17. The act keeps the converged class at 8 of 96, as
+here, and its orbits fall into two families of four, each carrying six classes.
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /orbit of the act|monodromy orbit|M-orbit|orbits of twelve|act's orbit/: 0 of 1719 arcs on main match (none); 0 register rows match (none)`.

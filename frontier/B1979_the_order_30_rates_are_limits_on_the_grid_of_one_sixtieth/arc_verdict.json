@@ -1,0 +1,21 @@
+{
+ "id": "B1979",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1977", "B1978", "B1976", "B1945"],
+ "rests_on_seat": [],
+ "cites_seat": ["chat1"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C, every sector reading S, at B1976's 96 order-30 points, heights 20 to 50, columns 0.13 and 0.31",
+  "object": "the rates of the masses and the mixing on three intervals of height, their limits on the grid of 1/60, and the converged rate classes",
+  "reach": "class",
+  "hypotheses": "the limits on the grid are read numerically (residual 5.1e-5 on 40-50), not derived; B1978's fixed-tau caveat applies to the orbit reading"
+ },
+ "claim_one_line": "THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than 2.2e-4 on 30-40); B1977's 17 classes were partly a finite-interval artefact, the converged classes are 12 (sizes 12,12,12,12,8,8,6,6,6,6,4,4), stable at 96 of 96; the lepton m2/m3 rate is 2/5 at every point; the menu for route (d) is 12",
+ "weave_or_thread": "the weave (the order-30 rates)"
+}
