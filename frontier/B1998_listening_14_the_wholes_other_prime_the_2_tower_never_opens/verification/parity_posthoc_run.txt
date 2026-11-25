@@ -1,0 +1,4 @@
+positive integer readings with max <= 400: 34
+all over the common point mod 3 (every entry = 0 mod 3): True
+over the common point mod 2 (every entry even): 0 of 34
+their residue classes mod 2: [(0, 1, 1), (1, 0, 1), (1, 1, 0), (1, 1, 1)]

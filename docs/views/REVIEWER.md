@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1694** |
-| words of findings prose | **1,553,542** |
+| research arcs with findings | **1695** |
+| words of findings prose | **1,554,315** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1694** (100.0 %) |
+| arcs carrying an authored verdict | **1695** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1187 |
+| PROVED | 1188 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1997`** (713 words, 0 locks)  
-“LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4 - 48x^2 + 64; post hoc, in closed form, lambda* = sqrt(w + sqrt(w^2 - 4)) with w = (1 + 4cos(pi/9))/2, over the cyclic cubic field Q(cos 2pi/9) of conductor 9 = 3^2 (the cubic's discriminant 72^2); the settled decay per move is lambda*/2 = 0.957649082367...”  
-`B1997_listening_13_the_exact_identity_of_the_wholes_settled_rate/FINDINGS.md`
+**PROVED — `B1998`** (773 words, 0 locks)  
+“LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the cube's 1/sqrt 2, carried by x^2 +- x + 2 over Q(sqrt -7) (T2, a 2-power cyclotomic field, failed); post hoc, the threads' integer readings are all = 0 mod 3 and never = 0 mod 2, falling mod 2 into four parity classes split 1 + 3; the whole reaches the threads and fixes a rate at 3, and holds the three at 2”  
+`B1998_listening_14_the_wholes_other_prime_the_2_tower_never_opens/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  
