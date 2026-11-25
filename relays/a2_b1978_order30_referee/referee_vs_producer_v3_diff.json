@@ -1,0 +1,2133 @@
+{
+  "card": "AGY-002_A2-B1978-ORDER30",
+  "referee_output_sha256": "de8c44fc27213dcfa298eacd59b7a63dd527970d301db1267a2585390ea52085",
+  "producer_v3_output_sha256": "a9a4fe753a2a3932eb6b7383ce1b40b979f43be652eb90bb759521a569a935d7",
+  "discrepancies_count": 0,
+  "discrepancies": [],
+  "module_comparison_metrics": {
+    "L2_fuchsian": {
+      "profile_14_heights_max_abs_diff": "1.1479168e-7",
+      "profile_14_heights_max_rel_diff": "5.1401127e-8",
+      "profile_worst_y": "8",
+      "tau0_T_S_M_ode_max_abs_diff": "1.6993686e-8",
+      "referee_max_cov_err": "1.126491e-11",
+      "producer_v3_max_cov_err": "1.69361e-8",
+      "referee_T_shift_y2_err": "6.1502437e-14",
+      "referee_T_shift_y6_err": "1.9555414e-10",
+      "producer_v3_T_shift_y2_err": "2.04999e-9",
+      "non_blocking_diagnostic_RG2": "Referee RG2 flagged solely because Referee added an extra T-shift check at y=6 (1.9555e-10 vs 1e-10 bar); at y=2 Referee T-shift error is 6.15e-14 (33000x tighter than Producer v3's 2.05e-9) and all 14 L_2 heights agree to <= 1.15e-7."
+    },
+    "O1_tropical": {
+      "exact_12x10_rational_matches": "120/120",
+      "level_scan_14_exact_matches": "14/14",
+      "max_960_err_abs_diff": "0.0",
+      "counterfactual_V12_abs_diff": "1.1e-9",
+      "counterfactual_V13_abs_diff": "7.0e-10",
+      "clamp6_slow5_rate_abs_diff": "1.9e-11",
+      "clamp6_slow5_prefactor_abs_diff": "3.6676926e-8"
+    },
+    "O2_moderate_height": {
+      "survival_96_integer_checks_matched": 35,
+      "trajectories_14heights_max_rel_diff": "4.5689024e-6",
+      "trajectories_worst_entry": "(7/15, 1/10) y=30 V31",
+      "column_spreads_max_rel_diff_above_1e7": "0.0012797066",
+      "column_spreads_max_abs_diff_all_48": "4.7022336e-7",
+      "non_blocking_diagnostic_x0_L2": "Sealed Referee Newton loop terminated at iter 0 on rectangular axis x=0 (y=2,4,10,20) where Im(tr Aa)=Im(tr Ab)=0 identically for all real c. Post-seal verification via even-symmetry x=1e-7 limit recovers true L_2(0+iy) and brings all 48/48 column spreads into agreement with Producer v3.",
+      "x0_L2_repaired_values": {
+        "2": "2.44041880748070297",
+        "4": "2.2922567399243368",
+        "10": "2.22451170993409308",
+        "20": "2.21169473259086437"
+      }
+    },
+    "O3_joint_covariance": {
+      "both_under_1e_35": true,
+      "referee_max_joint_cov_err": "4.3173545e-71",
+      "producer_v3_T_S_M_errs": [
+        "2.00887e-46",
+        "6.1858e-40",
+        "1.08502e-39"
+      ]
+    },
+    "O4_orbits_and_gramians": {
+      "orbit_gramians_y3_y30_max_rel_diff": "4.1958244e-6",
+      "orbit_gramians_worst_entry": "O2 y=30 V23",
+      "orbit_rates_y20_30_max_abs_diff": "3.306e-6",
+      "orbit_rates_worst_entry": "O1 rate V12",
+      "orbit_coherent_y30_max_rel_diff": "2.5038131e-6",
+      "orbit_coherent_worst_entry": "O8 coh y=30 down_m2m3"
+    },
+    "O5_p845_and_shells": {
+      "shell_gramians_y3_y30_max_rel_diff": "2.8182248e-6",
+      "shell_gramians_worst_entry": "K5_star_4 y=30 V23",
+      "shell_rates_y20_30_max_abs_diff": "4.899e-6",
+      "shell_rates_worst_entry": "P30_96 rate V12",
+      "referee_K5_left_gram_lep_vs_right_gram_down_err": "1.0142507e-52",
+      "referee_E6_TSM_max_err": "8.611536e-46",
+      "referee_P30_M_fixed_err": "1.7617989e-83"
+    },
+    "G6_haar_and_planted": {
+      "referee_planted_caught": 6,
+      "producer_v3_planted_caught": 6,
+      "referee_cayley_haar_pw_drift": "1.7762816e-58",
+      "referee_cayley_haar_orb_drift": "1.028837e-51",
+      "producer_v3_haar_pw_drift": "3.73979e-49",
+      "producer_v3_haar_orb_drift": "2.25531e-46"
+    }
+  },
+  "custody_audit": {
+    "all_relay_sha256_manifests_valid": true,
+    "sha256_manifest_entries_checked": 341,
+    "sha256_entries": [
+      {
+        "manifest": "relays/a2_b1972_open/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1972_open/verify_a2_b1972_open.py",
+        "match": true,
+        "sha256": "c3c13ea998832e34864d8ecfda04984823e45624e0574a90f7d4694a9d54e91a"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_referee/OUTPUT_RUN2_SHA256.txt",
+        "target": "relays/a2_b1972_open_referee/referee_a2_b1972_open_run2_results.json",
+        "match": true,
+        "sha256": "7076eb58a199e8c297057488849a8e4d5eaf5a5309b3520eb8296157063fea98"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_b1972_open_referee/referee_a2_b1972_open_results.json",
+        "match": true,
+        "sha256": "6d8caae29b68705687c479a0d1dfdb3348ef1f6536a1310bcb2bb58929c0df3c"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_referee/SCRIPT_RUN2_SHA256.txt",
+        "target": "relays/a2_b1972_open_referee/referee_a2_b1972_open_run2.py",
+        "match": true,
+        "sha256": "0b79ecd2b17a4c471ae31f6f5b93a8ea232567f65c96cabf51ee5aaaae5a8d7f"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1972_open_referee/referee_a2_b1972_open.py",
+        "match": true,
+        "sha256": "f02e0995839da7f6bf2ed22a7a19bee75792036766b404031df6c0e547e5f591"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_b1972_open_v2/a2_b1972_open_v2_results.json",
+        "match": true,
+        "sha256": "652d7bb1c3e52b027f7e4602e04d16235b6f2e5f250db46802a8919c00520ea1"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1972_open_v2/verify_a2_b1972_open_v2.py",
+        "match": true,
+        "sha256": "989492a12f085ecad31cd1bc5faee85083289791f4cf3892e42aae12eb442c14"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_b1972_open_v3/a2_b1972_open_v3_results.json",
+        "match": true,
+        "sha256": "80edd2038eb49a0e7fe9481763dd1e805902e5e21df629484ed74019f345c889"
+      },
+      {
+        "manifest": "relays/a2_b1972_open_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1972_open_v3/verify_a2_b1972_open_v3.py",
+        "match": true,
+        "sha256": "b2f662a67d9d9039ae774fbf34a311fdf75876faaf4febc751de131aa3ee3176"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30/OUTPUT_SHA256.txt",
+        "target": "relays/a2_b1978_order30/verify_a2_b1978_order30_out.json",
+        "match": true,
+        "sha256": "125b39289b202bcc1571351c9ddc78a09b7ad5e4282e25525860dbb23400a7c5"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1978_order30/verify_a2_b1978_order30.py",
+        "match": true,
+        "sha256": "c98f8dd606a866ea416136900ce7dbc50192d4285694ad46e85344bc94f37aa0"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_b1978_order30_referee/referee_a2_b1978_order30_out.json",
+        "match": true,
+        "sha256": "de8c44fc27213dcfa298eacd59b7a63dd527970d301db1267a2585390ea52085"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1978_order30_referee/referee_a2_b1978_order30.py",
+        "match": true,
+        "sha256": "5a24ad2277aaea51e5ef17f31251ea818402ab98ef4192fef42ad3929877e262"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_b1978_order30_v2/verify_a2_b1978_order30_v2_out.json",
+        "match": true,
+        "sha256": "eea68b2d3749014d2b284e855b04b188f92dc855faee8b111e63af29d25d8b64"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1978_order30_v2/verify_a2_b1978_order30_v2.py",
+        "match": true,
+        "sha256": "ebc3183134f23204579b9a1670de6657854b14dff95f9c8a2a8b73837b0434b7"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_b1978_order30_v3/verify_a2_b1978_order30_v3_out.json",
+        "match": true,
+        "sha256": "a9a4fe753a2a3932eb6b7383ce1b40b979f43be652eb90bb759521a569a935d7"
+      },
+      {
+        "manifest": "relays/a2_b1978_order30_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_b1978_order30_v3/verify_a2_b1978_order30_v3.py",
+        "match": true,
+        "sha256": "6fe3792f82f084a9311b85289e00b736bde52003d782a8d3397e1bbb150566c5"
+      },
+      {
+        "manifest": "relays/a2_m51/OUTPUT_SHA256.txt",
+        "target": "relays/a2_m51/verify_a2_m51_out.json",
+        "match": true,
+        "sha256": "7ac57a5ea5d535d80c931ccb5f1dd0c1a01bc8a75b783bc2f928f64df8fb579c"
+      },
+      {
+        "manifest": "relays/a2_m51/OUTPUT_SHA256.txt",
+        "target": "relays/a2_m51/verify_a2_m51_out.txt",
+        "match": true,
+        "sha256": "dab05e26f51a3371f7fab1f0e793c1e5e9f50d4a04c587dc9425dc21343307d9"
+      },
+      {
+        "manifest": "relays/a2_m51/SCRIPT_SHA256.txt",
+        "target": "relays/a2_m51/verify_a2_m51.py",
+        "match": true,
+        "sha256": "e893406632b6ababdb9148bd05be39cfe13a043609253f7ed6c33091e2ba134c"
+      },
+      {
+        "manifest": "relays/a2_ow1/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow1/verify_a2_ow1_out.json",
+        "match": true,
+        "sha256": "65c14140874301fb58645d83153e8066d77620ba9ac9e498eb31e2658b1b717e"
+      },
+      {
+        "manifest": "relays/a2_ow1/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow1/verify_a2_ow1.py",
+        "match": true,
+        "sha256": "c8d96cc16fcc172a4bd3143ad612a68538bf54a062377df53b83469d73969082"
+      },
+      {
+        "manifest": "relays/a2_ow10/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow10/verify_a2_ow10.py",
+        "match": true,
+        "sha256": "6abb35549baad80e89d109e9660095864911216211efc55351d63d710de4a48f"
+      },
+      {
+        "manifest": "relays/a2_ow10_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow10_referee/referee_a2_ow10_out.json",
+        "match": true,
+        "sha256": "75719d1bd490d286f6d9503be23db37199dc82ff0de399461657f02c6e7ec8ef"
+      },
+      {
+        "manifest": "relays/a2_ow10_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow10_referee/referee_a2_ow10.py",
+        "match": true,
+        "sha256": "eaef2db4bd63aaf449e0fc27f3a7d0facc4f975a005c31e81f45f26956163030"
+      },
+      {
+        "manifest": "relays/a2_ow10_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow10_v2/verify_a2_ow10_v2_out.json",
+        "match": true,
+        "sha256": "de961917c4663114dac80dd2084499597e99cdd1c089b70d3fb1b54f07689ce7"
+      },
+      {
+        "manifest": "relays/a2_ow10_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow10_v2/verify_a2_ow10_v2.py",
+        "match": true,
+        "sha256": "67e50af76bd75b9fcef482873e98e4d40506927556a28bed2a196e7866e9c248"
+      },
+      {
+        "manifest": "relays/a2_ow11/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow11/verify_a2_ow11_out.json",
+        "match": true,
+        "sha256": "e00d81f2b0877ad05d3cb34c8173eb37ee4983d66f241caabbd0b8ca6b8617fa"
+      },
+      {
+        "manifest": "relays/a2_ow11/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow11/verify_a2_ow11.py",
+        "match": true,
+        "sha256": "e7041ee37c716d9bae83b1e9280bb194d32bf93f0f07b318bbd84baa0d8e8d6e"
+      },
+      {
+        "manifest": "relays/a2_ow11_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow11_referee/referee_a2_ow11_out.json",
+        "match": true,
+        "sha256": "8b593cbdff97b0acd966f5b156f1dcb79a06b5c8721a7cc76039bdae52461b4c"
+      },
+      {
+        "manifest": "relays/a2_ow11_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow11_referee/referee_a2_ow11.py",
+        "match": true,
+        "sha256": "a4cdaca10695050211e9d1788f05d3fbf776a26ce125931c1b915591f0ac65da"
+      },
+      {
+        "manifest": "relays/a2_ow11_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow11_v2/verify_a2_ow11_v2_out.json",
+        "match": true,
+        "sha256": "1dfa8d92215ca08d857c208f09d9dd3930f10b9f15664d8b801f4a400c5fb4c2"
+      },
+      {
+        "manifest": "relays/a2_ow11_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow11_v2/verify_a2_ow11_v2.py",
+        "match": true,
+        "sha256": "8bbc1f1ad648cd3b05d3c783318650c63b5317cb85e159bd156109bf19318bde"
+      },
+      {
+        "manifest": "relays/a2_ow11_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow11_v3/verify_a2_ow11_v3_out.json",
+        "match": true,
+        "sha256": "f7c89aacd55cc6505b47476366796ce7603cfb0cf5e6cecb5373465109ed3dc2"
+      },
+      {
+        "manifest": "relays/a2_ow11_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow11_v3/verify_a2_ow11_v3.py",
+        "match": true,
+        "sha256": "91199e876d194bc32797182a4fe33df5520fbf8290be2f9c8274a9cfd5ea66cd"
+      },
+      {
+        "manifest": "relays/a2_ow12/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow12/verify_a2_ow12_out.json",
+        "match": true,
+        "sha256": "659dfdb25e41cd02de30d389649fcff8e4148b6d40fd3c32bd734004023a5f15"
+      },
+      {
+        "manifest": "relays/a2_ow12/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow12/verify_a2_ow12.py",
+        "match": true,
+        "sha256": "ba3d3782195cf2fc4a116a227855937f5ac758911a4294065656c7e34530a9f0"
+      },
+      {
+        "manifest": "relays/a2_ow12_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow12_referee/referee_a2_ow12_out.json",
+        "match": true,
+        "sha256": "80e430e7fee912d8ff79113695c179e839418313092862f97824d12a9bf074bf"
+      },
+      {
+        "manifest": "relays/a2_ow12_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow12_referee/referee_a2_ow12.py",
+        "match": true,
+        "sha256": "46d123207ec0a9df9d9cab0def975639e0d1f0211fa3908a3c75fa29b055c96b"
+      },
+      {
+        "manifest": "relays/a2_ow12_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow12_v2/verify_a2_ow12_v2.py",
+        "match": true,
+        "sha256": "73f37e189f4d69499b961831831a73d749e551b7c9d7a4e6ba772c9b5c3b0f7e"
+      },
+      {
+        "manifest": "relays/a2_ow12_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow12_v3/verify_a2_ow12_v3_out.json",
+        "match": true,
+        "sha256": "8dc74bf64534864b9c77ed165cdb4bf97cd98948b29c980416dd8a2923ed3fd5"
+      },
+      {
+        "manifest": "relays/a2_ow12_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow12_v3/verify_a2_ow12_v3.py",
+        "match": true,
+        "sha256": "4badac99a84e847d059d5e2fbef09f4f362bbede5406e549d72770353b7f8d09"
+      },
+      {
+        "manifest": "relays/a2_ow13/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow13/a2_ow13_results.json",
+        "match": true,
+        "sha256": "123c5f61030a266e42cd3dd4064f3dcfc7aae6cc17120ba33400e5a5aa2ffa2d"
+      },
+      {
+        "manifest": "relays/a2_ow13/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow13/verify_a2_ow13.py",
+        "match": true,
+        "sha256": "34dc1bb4bb8a209c320c78105e4f23aca57eb90dcea5825973bbaf06f5194726"
+      },
+      {
+        "manifest": "relays/a2_ow13_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow13_referee/a2_ow13_referee_results.json",
+        "match": true,
+        "sha256": "36b9e684c445d2753b9502e81c738e8c44ba001ad1fe51e9d88b849c63285e3e"
+      },
+      {
+        "manifest": "relays/a2_ow13_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow13_referee/referee_a2_ow13.py",
+        "match": true,
+        "sha256": "552369ae7873525a67185c9e953735238a0fe22cb254b82c596249314436fb0e"
+      },
+      {
+        "manifest": "relays/a2_ow13_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow13_v2/a2_ow13_v2_results.json",
+        "match": true,
+        "sha256": "7736b22437716992786e53fcf11fd6d7a4f7545a2b8db4f2700c53849e66af7f"
+      },
+      {
+        "manifest": "relays/a2_ow13_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow13_v2/verify_a2_ow13_v2.py",
+        "match": true,
+        "sha256": "b07c6f6561d9501a5b9a8634fdfd7661dfcd882e32b926919dab2666d25b8b9d"
+      },
+      {
+        "manifest": "relays/a2_ow14/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow14/a2_ow14_results.json",
+        "match": true,
+        "sha256": "06d406a278680197fd43b313ed077d2d360d187b770bc235117649ceb8ca9d4d"
+      },
+      {
+        "manifest": "relays/a2_ow14/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow14/verify_a2_ow14.py",
+        "match": true,
+        "sha256": "1e280aa16061d1e12643a708f39138e53f299ade954acc2d6ad23f3287448812"
+      },
+      {
+        "manifest": "relays/a2_ow14_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow14_referee/a2_ow14_referee_results.json",
+        "match": true,
+        "sha256": "c7cf995001f6590f7d70532601ec21756314e535d812086810c9e512bf3c2ea0"
+      },
+      {
+        "manifest": "relays/a2_ow14_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow14_referee/referee_a2_ow14.py",
+        "match": true,
+        "sha256": "2b88727df9a2cc162983f99a4849ae05f9d9b0c9b5fb36671bd5edf480c3f11b"
+      },
+      {
+        "manifest": "relays/a2_ow14_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow14_v2/a2_ow14_v2_results.json",
+        "match": true,
+        "sha256": "8ee32689f299f47f221088770f36415632b3e5df3cc2b5ba6e5d1193cf16cf9c"
+      },
+      {
+        "manifest": "relays/a2_ow14_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow14_v2/verify_a2_ow14_v2.py",
+        "match": true,
+        "sha256": "ebdf1389797bbe312a9b1a13411ee913890727897b9443010790cf603afff8b3"
+      },
+      {
+        "manifest": "relays/a2_ow15/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow15/a2_ow15_results.json",
+        "match": true,
+        "sha256": "e35ac5f00b3c787273a23a4ab7e206e5724f139239b45a049b83518ca4bfd66e"
+      },
+      {
+        "manifest": "relays/a2_ow15/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow15/verify_a2_ow15.py",
+        "match": true,
+        "sha256": "ea4ed0fa5f8b2f31c6462a40f663e825e23ba1d8705466f0e620a5172232d857"
+      },
+      {
+        "manifest": "relays/a2_ow15_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow15_referee/a2_ow15_referee_results.json",
+        "match": true,
+        "sha256": "4d8f05b63a9f9fad7b829f81ac6abd76b00799d2b7c17f09a049e5f3c584b878"
+      },
+      {
+        "manifest": "relays/a2_ow15_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow15_referee/referee_a2_ow15.py",
+        "match": true,
+        "sha256": "64b47c280ab854341c5266dd5ea74bd07e1f2cf36623d058902635d17f8d23ae"
+      },
+      {
+        "manifest": "relays/a2_ow16/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16/verify_a2_ow16.py",
+        "match": true,
+        "sha256": "9115a6633923343e6bf3cb22d08a0c6b6b3a1a2cb508af7ac7fe44beb0670645"
+      },
+      {
+        "manifest": "relays/a2_ow16_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_referee/a2_ow16_referee_results.json",
+        "match": true,
+        "sha256": "04f40b5d5f5f202ab6cdc138835bb9df8c5681850de89f88afdf74e390d8f9a7"
+      },
+      {
+        "manifest": "relays/a2_ow16_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_referee/referee_a2_ow16.py",
+        "match": true,
+        "sha256": "f2fd52f8c452f2ece82128cc5cb1e918edf82bd8e3991517fffbcd4ee42c8623"
+      },
+      {
+        "manifest": "relays/a2_ow16_v10/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v10/a2_ow16_v10_results.json",
+        "match": true,
+        "sha256": "8737d37cc515d06f5c4215b24b56c0072f491f0014b459bcf62bc490882a0e18"
+      },
+      {
+        "manifest": "relays/a2_ow16_v10/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v10/verify_a2_ow16_v10.py",
+        "match": true,
+        "sha256": "1792aa6f3aa80f77dd4830ee01ea01b81bfbc730ffb6a8c819b3439b0bc5cbe9"
+      },
+      {
+        "manifest": "relays/a2_ow16_v11/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v11/a2_ow16_v11_results.json",
+        "match": true,
+        "sha256": "6f0acfa1a4b2acc1ed813622763799b2c37669d01397eb41abe52dd610184b56"
+      },
+      {
+        "manifest": "relays/a2_ow16_v11/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v11/verify_a2_ow16_v11.py",
+        "match": true,
+        "sha256": "7ac29dda13b4d058a7ed4896cd8432d2f71f8fc1d987864181c16b2c8da3b523"
+      },
+      {
+        "manifest": "relays/a2_ow16_v12/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v12/a2_ow16_v12_results.json",
+        "match": true,
+        "sha256": "d402bd1663527f2e0369884f5ffe22d6beb44270cf500bc06519153f7c0def97"
+      },
+      {
+        "manifest": "relays/a2_ow16_v12/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v12/verify_a2_ow16_v12.py",
+        "match": true,
+        "sha256": "f6a51ff8f040cb39d8785c9aeec50229efea9b2687f6ee2eb6059d9695fae8eb"
+      },
+      {
+        "manifest": "relays/a2_ow16_v13/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v13/a2_ow16_v13_results.json",
+        "match": true,
+        "sha256": "b74c1d13628ee6d172dab9fce7afb4ae1ac5d432338b84c17fa807c7f3630f08"
+      },
+      {
+        "manifest": "relays/a2_ow16_v13/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v13/verify_a2_ow16_v13.py",
+        "match": true,
+        "sha256": "a2480bc002e0f7954844b9cce9ad7fb56f9a18c065724a9476699a1977401df7"
+      },
+      {
+        "manifest": "relays/a2_ow16_v14/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v14/a2_ow16_v14_results.json",
+        "match": true,
+        "sha256": "acf3b96ea0060a9a938446ed3dd016a4e463b2deb43e56a772a34b62ba338904"
+      },
+      {
+        "manifest": "relays/a2_ow16_v14/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v14/verify_a2_ow16_v14.py",
+        "match": true,
+        "sha256": "d6b3c06397bedfd12eeabd772c5d785b4dc2c9b44cdd97e3d71978213dfc2ae6"
+      },
+      {
+        "manifest": "relays/a2_ow16_v15/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v15/a2_ow16_v15_results.json",
+        "match": true,
+        "sha256": "cd67c0bb2b85425aea32829bbac51ed7bd5c57a8fcd5b91fc3bd442c024ee07a"
+      },
+      {
+        "manifest": "relays/a2_ow16_v15/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v15/verify_a2_ow16_v15.py",
+        "match": true,
+        "sha256": "d8b901f8f836839f8cec1ad910cf24f91ef8d37cd8dffa0069d46ab9b443fc97"
+      },
+      {
+        "manifest": "relays/a2_ow16_v16/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v16/a2_ow16_v16_results.json",
+        "match": true,
+        "sha256": "747ef1dbb416c6f8d317958b44165ef53644b4a77f7bddb768a08bf08568c943"
+      },
+      {
+        "manifest": "relays/a2_ow16_v16/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v16/verify_a2_ow16_v16.py",
+        "match": true,
+        "sha256": "56fc784f7c2a033a1e011fe128623d87d46581d339d73adaf9277f9140d4a684"
+      },
+      {
+        "manifest": "relays/a2_ow16_v17/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v17/a2_ow16_v17_results.json",
+        "match": true,
+        "sha256": "5b9988fc3b26e910a97b496a980bf1a7b02c1c4863a5ed7489ce853afdedb752"
+      },
+      {
+        "manifest": "relays/a2_ow16_v17/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v17/verify_a2_ow16_v17.py",
+        "match": true,
+        "sha256": "234c1d4530bde302d0dd0a16d6bec30419f382767d55c7951418f1125f028b46"
+      },
+      {
+        "manifest": "relays/a2_ow16_v18/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v18/a2_ow16_v18_results.json",
+        "match": true,
+        "sha256": "1791d22e926973d19923b6d13ad96d08aff42767fec1921d2bbf6fff3b351861"
+      },
+      {
+        "manifest": "relays/a2_ow16_v18/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v18/verify_a2_ow16_v18.py",
+        "match": true,
+        "sha256": "f8fc69db3a3e6ba16c797c38d6450338c77f601a6b1c3d15d36f9d8e6b04f494"
+      },
+      {
+        "manifest": "relays/a2_ow16_v19/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v19/verify_a2_ow16_v19.py",
+        "match": true,
+        "sha256": "66352fd1d20cfeaffbdb4cff3e9e56853c50f34a8f8976160469fcacb4af2a54"
+      },
+      {
+        "manifest": "relays/a2_ow16_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v2/a2_ow16_v2_results.json",
+        "match": true,
+        "sha256": "4d2635b43d0045d3feabe9a77be4a2fa7edca1016fbd82413ace56f183c5259b"
+      },
+      {
+        "manifest": "relays/a2_ow16_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v2/verify_a2_ow16_v2.py",
+        "match": true,
+        "sha256": "2ee2c8a8c59f57d4c33de0d3b76004e58291cd976ce8a89f0289a5c62d07faa2"
+      },
+      {
+        "manifest": "relays/a2_ow16_v20/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v20/a2_ow16_v20_results.json",
+        "match": true,
+        "sha256": "c4a027b6282afa10dd5a04b8073e77af2428f2d248eb313e3699540031410532"
+      },
+      {
+        "manifest": "relays/a2_ow16_v20/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v20/verify_a2_ow16_v20.py",
+        "match": true,
+        "sha256": "f45ad33787a0fa8e8f6e00dbfa633f4a7e66978ac08ad97fcc44f5cdfa0521f8"
+      },
+      {
+        "manifest": "relays/a2_ow16_v21/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v21/a2_ow16_v21_results.json",
+        "match": true,
+        "sha256": "daad6737193b6d7e380bcb8f0ca63ec14e9e74b84b17e91c460cc9ac2c004284"
+      },
+      {
+        "manifest": "relays/a2_ow16_v21/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v21/verify_a2_ow16_v21.py",
+        "match": true,
+        "sha256": "1fcfc5e9b0a74c7e77a9e2ed482c53e6543cb9659ed42a1dd8e13a1ec08bc097"
+      },
+      {
+        "manifest": "relays/a2_ow16_v22/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v22/a2_ow16_v22_results.json",
+        "match": true,
+        "sha256": "20cafeac343a186e97770ef549b20ed5f559bf0d43181e3e0a8ffb3c0938b04b"
+      },
+      {
+        "manifest": "relays/a2_ow16_v22/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v22/verify_a2_ow16_v22.py",
+        "match": true,
+        "sha256": "20b86877eec40c90a885d6f7ab4ab4ff04fe71d18fdfd8736de86b968a1027c9"
+      },
+      {
+        "manifest": "relays/a2_ow16_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v3/verify_a2_ow16_v3.py",
+        "match": true,
+        "sha256": "5d8e4544e95b69f9cc950ec657436b2c838af9c9fdc1fe60bb4c0cbd82855f4d"
+      },
+      {
+        "manifest": "relays/a2_ow16_v4/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v4/a2_ow16_v4_results.json",
+        "match": true,
+        "sha256": "78e2728fe7db1e50712010c1a13f9fae34b150f192fb5534f6d2adaa3e1701ba"
+      },
+      {
+        "manifest": "relays/a2_ow16_v4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v4/verify_a2_ow16_v4.py",
+        "match": true,
+        "sha256": "62c1eae715bd4fb73c55724bdcdc9dcd4a21bdad289e6b2fdaeb62c0ad4f2483"
+      },
+      {
+        "manifest": "relays/a2_ow16_v4_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v4_referee/a2_ow16_v4_referee_results.json",
+        "match": true,
+        "sha256": "0a16c49c8809c537379197864a3239f7aee239068b09115a3cab8cec282b0721"
+      },
+      {
+        "manifest": "relays/a2_ow16_v4_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v4_referee/referee_a2_ow16_v4.py",
+        "match": true,
+        "sha256": "fced512cd02dd6300cae1de63de3e44f11045d8db1ce3ac8d02d767cfeb12429"
+      },
+      {
+        "manifest": "relays/a2_ow16_v5/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v5/a2_ow16_v5_results.json",
+        "match": true,
+        "sha256": "e9379cd5483c233678a6d861e4899aadd9837efbb61223c460442fdc6fc74a96"
+      },
+      {
+        "manifest": "relays/a2_ow16_v5/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v5/verify_a2_ow16_v5.py",
+        "match": true,
+        "sha256": "489306f737c3d3e612fc6df1032b736bb6de88c75537fe459a1aa18eeff2b79c"
+      },
+      {
+        "manifest": "relays/a2_ow16_v6/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v6/a2_ow16_v6_results.json",
+        "match": true,
+        "sha256": "30c7e89bdd24cb89a468c13dbfbda8eeef75a7906ea0d9fda774b83425cb4651"
+      },
+      {
+        "manifest": "relays/a2_ow16_v6/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v6/verify_a2_ow16_v6.py",
+        "match": true,
+        "sha256": "e53806e9ff8f4031700639b56c8b0eb2b211a632d4815d5d9acfba9a503aaf32"
+      },
+      {
+        "manifest": "relays/a2_ow16_v7/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v7/a2_ow16_v7_results.json",
+        "match": true,
+        "sha256": "a68f6f4aefefa0836f2a0b728453236524e16f7e389911da30e775a3a09fc50d"
+      },
+      {
+        "manifest": "relays/a2_ow16_v7/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v7/verify_a2_ow16_v7.py",
+        "match": true,
+        "sha256": "22ce150a41be79838fbff6200c3f70096319e6d515208f11533f6042a0960c08"
+      },
+      {
+        "manifest": "relays/a2_ow16_v8/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v8/a2_ow16_v8_results.json",
+        "match": true,
+        "sha256": "a28b8f2353c61737f2d722e020703ea53bf370838c4203dd0617901a26fa7071"
+      },
+      {
+        "manifest": "relays/a2_ow16_v8/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v8/verify_a2_ow16_v8.py",
+        "match": true,
+        "sha256": "6b734ebba1114e241174d2e43fe1f974e7a87a97c446da490488e7e6141d9b92"
+      },
+      {
+        "manifest": "relays/a2_ow16_v9/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow16_v9/a2_ow16_v9_results.json",
+        "match": true,
+        "sha256": "04ab3cfc31e787529b779390f0e2eb34acb55fb7bc558f00e64ba8cd45345a09"
+      },
+      {
+        "manifest": "relays/a2_ow16_v9/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow16_v9/verify_a2_ow16_v9.py",
+        "match": true,
+        "sha256": "aa1220a5cfd3f000e95a073474ef8e9e111caa9991593f43d51ab2848359aeb7"
+      },
+      {
+        "manifest": "relays/a2_ow17/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow17/a2_ow17_results.json",
+        "match": true,
+        "sha256": "dc8497df2ce7a6459be2d6e24981359de88a4b6289db33cd9a02293e603427c1"
+      },
+      {
+        "manifest": "relays/a2_ow17/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow17/verify_a2_ow17.py",
+        "match": true,
+        "sha256": "bf359ba9634fc034411935d2a039f4dcc10480f2b826502959d45d0ff74d8cd6"
+      },
+      {
+        "manifest": "relays/a2_ow17_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow17_referee/a2_ow17_referee_results.json",
+        "match": true,
+        "sha256": "6a033cdb0fc546f62d9fa04df4214e634012c11a13de67f690410f0fbbb57232"
+      },
+      {
+        "manifest": "relays/a2_ow17_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow17_referee/referee_a2_ow17.py",
+        "match": true,
+        "sha256": "4fddcba6163e34f6b186c8826e20882a7695052471fe944daa315e1eec8bd657"
+      },
+      {
+        "manifest": "relays/a2_ow17_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow17_v2/a2_ow17_v2_results.json",
+        "match": true,
+        "sha256": "e500fe2833f0877a47b4716f99db853b1f3710519658092f05ede8f3099c293d"
+      },
+      {
+        "manifest": "relays/a2_ow17_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow17_v2/verify_a2_ow17_v2.py",
+        "match": true,
+        "sha256": "a0617fb5ac21474d1b2616d9eb3215ea10cf669ec580d54da65366f1ed1f5c1b"
+      },
+      {
+        "manifest": "relays/a2_ow18/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow18/a2_ow18_results.json",
+        "match": true,
+        "sha256": "8e318069105bd42ad686753d4047d9914ff726ded2c07e42c7a79b5b0d162c68"
+      },
+      {
+        "manifest": "relays/a2_ow18/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow18/verify_a2_ow18.py",
+        "match": true,
+        "sha256": "8e453c1750802a0f90c8fc5dfc2747dc4fbc6ee7e295d3bbec8ed1b4bfa7a8cd"
+      },
+      {
+        "manifest": "relays/a2_ow18_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow18_referee/a2_ow18_referee_results.json",
+        "match": true,
+        "sha256": "6a33dee1d979bfa47c60961e706ea4406e7dd6e87864c4674380ca4d00a6f23a"
+      },
+      {
+        "manifest": "relays/a2_ow18_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow18_referee/referee_a2_ow18.py",
+        "match": true,
+        "sha256": "6d0cc92d1d4d02d82d241377ad0b206010b471c84d15c17854560a0c6fd52dd9"
+      },
+      {
+        "manifest": "relays/a2_ow18_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow18_v2/a2_ow18_v2_results.json",
+        "match": true,
+        "sha256": "1488f23e57068f626932de59b68d5d82300a34d9735039bd0a3af927e3fab2d5"
+      },
+      {
+        "manifest": "relays/a2_ow18_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow18_v2/verify_a2_ow18_v2.py",
+        "match": true,
+        "sha256": "6dfa9feee36d309e4a32891795156c7e7170d787458dc22c6edb346a3f35bbae"
+      },
+      {
+        "manifest": "relays/a2_ow18_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow18_v3/a2_ow18_v3_results.json",
+        "match": true,
+        "sha256": "3af7c3c0b9058c85a5ab7067a471ac039c2b2c434c8ec155581ebd7ae2f2bf52"
+      },
+      {
+        "manifest": "relays/a2_ow18_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow18_v3/verify_a2_ow18_v3.py",
+        "match": true,
+        "sha256": "7108b1a3512b40dc93b445fe14ef42bcf38527b8d48d97f37c4eaf3c5e74fa67"
+      },
+      {
+        "manifest": "relays/a2_ow19/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow19/a2_ow19_results.json",
+        "match": true,
+        "sha256": "3ceb23ac3f4c80671ac29504e1ddcfa4b2b7c58ad8274991fae0574c27d5620b"
+      },
+      {
+        "manifest": "relays/a2_ow19/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow19/verify_a2_ow19.py",
+        "match": true,
+        "sha256": "a40930c6c2917fe7a677cad6939e6077a256936350a186443c110761cb60101b"
+      },
+      {
+        "manifest": "relays/a2_ow19_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow19_referee/a2_ow19_referee_results.json",
+        "match": true,
+        "sha256": "a9353f3b5a2171a0d1d8795c8eacdb8569ac04bd5d88aa2d0022571b0d5c0e1b"
+      },
+      {
+        "manifest": "relays/a2_ow19_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow19_referee/referee_a2_ow19.py",
+        "match": true,
+        "sha256": "ad5c241b6409c42db81c704e9cab1bf27a5f4160105824f282dc954d1af0cdbc"
+      },
+      {
+        "manifest": "relays/a2_ow19_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow19_v2/a2_ow19_v2_results.json",
+        "match": true,
+        "sha256": "e8b86c3f75241cc06c155ba2d0ea5cd68cc1fb4a10094f2dfcafd0c6643e84a2"
+      },
+      {
+        "manifest": "relays/a2_ow19_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow19_v2/verify_a2_ow19_v2.py",
+        "match": true,
+        "sha256": "e13e7c67bb71241f4442704d54920577a5fc1b6106a1f5914bee03c1e491fd15"
+      },
+      {
+        "manifest": "relays/a2_ow19_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow19_v3/a2_ow19_v3_results.json",
+        "match": true,
+        "sha256": "e78dfc14616307c5b1906e8cf7d74fae25208905895a68277fcdae99de4fb946"
+      },
+      {
+        "manifest": "relays/a2_ow19_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow19_v3/verify_a2_ow19_v3.py",
+        "match": true,
+        "sha256": "494307e2f1fa58ea4cda2f42d8dc36c11edbf4c180d6ae2a623fbf652c7563ff"
+      },
+      {
+        "manifest": "relays/a2_ow1_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow1_referee/referee_a2_ow1_out.json",
+        "match": true,
+        "sha256": "09600723bf4eb777b3564a46f584bf7ac8888236e27af660a0b7659e75e9b135"
+      },
+      {
+        "manifest": "relays/a2_ow1_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow1_referee/referee_a2_ow1.py",
+        "match": true,
+        "sha256": "7263cd70a11cf8c83859e2af6e563e12756605f89cdcfedb1b749f836470ea68"
+      },
+      {
+        "manifest": "relays/a2_ow1_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow1_v2/verify_a2_ow1_v2_out.json",
+        "match": true,
+        "sha256": "066e07cc0759c5348c03887b70c60ea7063e53a8118ba67779d42e5bb47c3f31"
+      },
+      {
+        "manifest": "relays/a2_ow1_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow1_v2/verify_a2_ow1_v2.py",
+        "match": true,
+        "sha256": "a3b72c9d38450faeb298830f05375e867ad5258698a883f10a9f88e9156c4f51"
+      },
+      {
+        "manifest": "relays/a2_ow1_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow1_v3/verify_a2_ow1_v3_out.json",
+        "match": true,
+        "sha256": "d2b30a5f189424ac0d1a20600deb78de2cbf0e4b391246467c8184d72b9c5778"
+      },
+      {
+        "manifest": "relays/a2_ow1_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow1_v3/verify_a2_ow1_v3.py",
+        "match": true,
+        "sha256": "9c75b82b987d3483334c507e0c2d0fac1f8876819b247c2b654283fccb03fb7f"
+      },
+      {
+        "manifest": "relays/a2_ow2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow2/verify_a2_ow2.py",
+        "match": true,
+        "sha256": "63d84598fdb1e9a333d399935785c861ceb963ed7df6a162213f18bee40b5e47"
+      },
+      {
+        "manifest": "relays/a2_ow20/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow20/a2_ow20_results.json",
+        "match": true,
+        "sha256": "397c825d12211636922c22c7ea5697e96f46da9815080753402e18f9eebb3ec8"
+      },
+      {
+        "manifest": "relays/a2_ow20/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow20/verify_a2_ow20.py",
+        "match": true,
+        "sha256": "efa159951d37f2a0177ed3bf68ce35c608e8ed4943efb4c27ff1d58041866318"
+      },
+      {
+        "manifest": "relays/a2_ow20_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow20_referee/a2_ow20_referee_results.json",
+        "match": true,
+        "sha256": "5e810827028785428a7c30195774e8310245a480f89c73b77e675d204257d5da"
+      },
+      {
+        "manifest": "relays/a2_ow20_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow20_referee/referee_a2_ow20.py",
+        "match": true,
+        "sha256": "ad76a0c47a02246e7ad3d9dfb7022e4a79a116cb98a0176f90a7c226ebd749e0"
+      },
+      {
+        "manifest": "relays/a2_ow21/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow21/a2_ow21_results.json",
+        "match": true,
+        "sha256": "c73ed98ca3d76ee6603cb2cbd399a22a49813082e341ef4abc4eb5e2e9163531"
+      },
+      {
+        "manifest": "relays/a2_ow21/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow21/verify_a2_ow21.py",
+        "match": true,
+        "sha256": "be60a8203320b59455fd98a30ec261f37e69d4e61d5719cd92f657bd52f48c29"
+      },
+      {
+        "manifest": "relays/a2_ow21_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow21_referee/a2_ow21_referee_results.json",
+        "match": true,
+        "sha256": "54945769207ca3f24775512a4c8eaa8ef3bfc78d60f11d724657e1bcb0dd66de"
+      },
+      {
+        "manifest": "relays/a2_ow21_referee/OUTPUT_SHA256_v2.txt",
+        "target": "relays/a2_ow21_referee/a2_ow21_referee_results_v2.json",
+        "match": true,
+        "sha256": "e436eee95da5e2915d6a2caaaaf14f558fa7b44cb38a3a81015579b2e2e28d1c"
+      },
+      {
+        "manifest": "relays/a2_ow21_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow21_referee/referee_a2_ow21.py",
+        "match": true,
+        "sha256": "0cc1a15745259d987df138e004bd410ef9f5a0b7625b0bb1a7479080b1c0533d"
+      },
+      {
+        "manifest": "relays/a2_ow21_referee/SCRIPT_SHA256_v2.txt",
+        "target": "relays/a2_ow21_referee/referee_a2_ow21_v2.py",
+        "match": true,
+        "sha256": "21b9b76502ac1f0ffdc6a2d571f5ff6a0a37f5cc37d9bb63c94ab024edef9a44"
+      },
+      {
+        "manifest": "relays/a2_ow21_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow21_v2/a2_ow21_v2_results.json",
+        "match": true,
+        "sha256": "d9c4db5dfba6a0cffe2f6ab1bcc452c6bb35785c59667f0e9ea7a67f0b488a15"
+      },
+      {
+        "manifest": "relays/a2_ow21_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow21_v2/verify_a2_ow21_v2.py",
+        "match": true,
+        "sha256": "8586313c2296c4c3d778fd8c4bf4cb70a48a555100e7d46e890db4f67a8e2467"
+      },
+      {
+        "manifest": "relays/a2_ow21_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow21_v3/a2_ow21_v3_results.json",
+        "match": true,
+        "sha256": "464af786ade235a85688e255ec38ed0bebf4386aa61b157098c69c3f5220ea52"
+      },
+      {
+        "manifest": "relays/a2_ow21_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow21_v3/verify_a2_ow21_v3.py",
+        "match": true,
+        "sha256": "49c108368cf1d7007bc8eaa045da5c0d6329a5e31def4c7de6b7b8eeec11314d"
+      },
+      {
+        "manifest": "relays/a2_ow22/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow22/a2_ow22_results.json",
+        "match": true,
+        "sha256": "02ecd263193e2a01397dc981a27fafbf347f9ff9cfad4e8f3cd47c9d655fe41e"
+      },
+      {
+        "manifest": "relays/a2_ow22/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow22/verify_a2_ow22.py",
+        "match": true,
+        "sha256": "b550b067e1ecb6ae42542c8e75681a0698d8b2bab74cc38d04b2cddafcfb2080"
+      },
+      {
+        "manifest": "relays/a2_ow22_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow22_referee/a2_ow22_referee_results.json",
+        "match": true,
+        "sha256": "a2ac82099e8a47d00c87baad048e59ee1b19da6199e21100e17161e1a2956ecd"
+      },
+      {
+        "manifest": "relays/a2_ow22_referee/OUTPUT_V2_SHA256.txt",
+        "target": "relays/a2_ow22_referee/a2_ow22_referee_v2_results.json",
+        "match": true,
+        "sha256": "5ec9108700d98289b5c4b6e618e4ed27393514658aa8e9aa6435b201cf35e4fa"
+      },
+      {
+        "manifest": "relays/a2_ow22_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow22_referee/referee_a2_ow22.py",
+        "match": true,
+        "sha256": "b9f626c8c354c966b90c2182d0e90dacecc3a58cced9a0cf765dc2bac30d6e4b"
+      },
+      {
+        "manifest": "relays/a2_ow22_referee/SCRIPT_V2_SHA256.txt",
+        "target": "relays/a2_ow22_referee/referee_a2_ow22_v2.py",
+        "match": true,
+        "sha256": "1425f04c509e553484806c07d2a3de48f0ec203acf5f424a0654479e776ce073"
+      },
+      {
+        "manifest": "relays/a2_ow22_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow22_v2/a2_ow22_v2_results.json",
+        "match": true,
+        "sha256": "b28027122681dbec0a87ba00e07c3447f0a2ea4038d8a2ea2c5163362a8bc410"
+      },
+      {
+        "manifest": "relays/a2_ow22_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow22_v2/verify_a2_ow22_v2.py",
+        "match": true,
+        "sha256": "029d528d71587716301e593e88535292a27af18d9e1568fcf605b0b815632f47"
+      },
+      {
+        "manifest": "relays/a2_ow23_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow23_referee/a2_ow23_referee_results.json",
+        "match": true,
+        "sha256": "4872edbc4714ef7d75be35f21c8cbac9fbb3fd5415c9340cf1dcbf807f49cad2"
+      },
+      {
+        "manifest": "relays/a2_ow23_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow23_referee/referee_a2_ow23.py",
+        "match": true,
+        "sha256": "e8630144951e10ce00cf9e4d221cd510b3c3724887673fed4c3f19c6b6b1af56"
+      },
+      {
+        "manifest": "relays/a2_ow23_referee_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow23_referee_v2/a2_ow23_referee_v2_results.json",
+        "match": true,
+        "sha256": "bb50512ed17fa35d0fae4d2b5b4312afa0cb798bd8d43fb88c6355bc72752d87"
+      },
+      {
+        "manifest": "relays/a2_ow23_referee_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow23_referee_v2/referee_a2_ow23_v2.py",
+        "match": true,
+        "sha256": "842adbd76238d741f06bd40b55e362efbd58c1758285c83230daf9b8b04d5306"
+      },
+      {
+        "manifest": "relays/a2_ow23_v1/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow23_v1/a2_ow23_v1_results.json",
+        "match": true,
+        "sha256": "bfb6e0681555a519c0b806842e440808c3aab63b4365418818c85447bf3a4e33"
+      },
+      {
+        "manifest": "relays/a2_ow23_v1/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow23_v1/verify_a2_ow23_v1.py",
+        "match": true,
+        "sha256": "96981d86ade9f50fa0b362b0b442603aa28236e460b24f4b8bbf5c3d08bf558d"
+      },
+      {
+        "manifest": "relays/a2_ow23_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow23_v2/a2_ow23_v2_results.json",
+        "match": true,
+        "sha256": "218496173bd57659537066f1e891d65a232e91b27b2d4af0df95d05748f2b5db"
+      },
+      {
+        "manifest": "relays/a2_ow23_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow23_v2/verify_a2_ow23_v2.py",
+        "match": true,
+        "sha256": "8e05a185b21336559372a985abc1526a32570430bb539ca3a6329bfcde582fc3"
+      },
+      {
+        "manifest": "relays/a2_ow23_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow23_v3/a2_ow23_v3_results.json",
+        "match": true,
+        "sha256": "304a3a57b5db8f184ee40d6265368e71d34ac8726890ac684c8d6e94f0d19cf1"
+      },
+      {
+        "manifest": "relays/a2_ow23_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow23_v3/verify_a2_ow23_v3.py",
+        "match": true,
+        "sha256": "dd9ebf0cbcf10e8a2ff17e4025f093ffb795862bd8e732e84d213e2b8bea1dc9"
+      },
+      {
+        "manifest": "relays/a2_ow24_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow24_referee/a2_ow24_referee_results.json",
+        "match": true,
+        "sha256": "a506eb5cf6dc02e9604de928b4d5126581f8e2d7e10890d425afb3ac47b2c5bd"
+      },
+      {
+        "manifest": "relays/a2_ow24_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow24_referee/referee_a2_ow24.py",
+        "match": true,
+        "sha256": "32553baa48109bfe0f0a93432705e02bb89e255db8762d38657ba8d79918fdbd"
+      },
+      {
+        "manifest": "relays/a2_ow24_referee_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow24_referee_v2/a2_ow24_referee_v2_results.json",
+        "match": true,
+        "sha256": "f6e51366e95ee2bf4afa2b0d60200a04a19f283ff589fee5e3ae483d332e6d70"
+      },
+      {
+        "manifest": "relays/a2_ow24_referee_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow24_referee_v2/referee_a2_ow24_v2.py",
+        "match": true,
+        "sha256": "6518df3c320c22ab155e20eff8d97ac421136b3d044f51a6838513d9d0d7db87"
+      },
+      {
+        "manifest": "relays/a2_ow24_v1/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow24_v1/a2_ow24_v1_results.json",
+        "match": true,
+        "sha256": "125051272698980dc375a9b697763b48c4b45c23b8f8d7ddb27edda924320191"
+      },
+      {
+        "manifest": "relays/a2_ow24_v1/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow24_v1/verify_a2_ow24_v1.py",
+        "match": true,
+        "sha256": "f5567e227ed112cfd4214755031d48f7ca02beea3d8eb161e5d97da725d658a0"
+      },
+      {
+        "manifest": "relays/a2_ow24_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow24_v2/a2_ow24_v2_results.json",
+        "match": true,
+        "sha256": "b07aae629256638dc7bb797dfbd05d15fd49e8531970555374996ae562703942"
+      },
+      {
+        "manifest": "relays/a2_ow24_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow24_v2/verify_a2_ow24_v2.py",
+        "match": true,
+        "sha256": "864248444808230b21111c81ac2ef58b22895bd6d33fd31cc59464104b1988a7"
+      },
+      {
+        "manifest": "relays/a2_ow25/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25/verify_a2_ow25.py",
+        "match": true,
+        "sha256": "1cdf28fd54a889387d5ae9375aa83d16c85db97fff3e1047062044549f896b3a"
+      },
+      {
+        "manifest": "relays/a2_ow25_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow25_referee/a2_ow25_referee_results.json",
+        "match": true,
+        "sha256": "9b2e83fe76f5028ae2454e9835315189ad4ffc518c3e4e1ac4c43e69ae801c41"
+      },
+      {
+        "manifest": "relays/a2_ow25_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_referee/referee_a2_ow25.py",
+        "match": true,
+        "sha256": "4191e96d8b5d8dd05f184020745624870afb4a92f173c3a711eaf0abcc4b26a3"
+      },
+      {
+        "manifest": "relays/a2_ow25_referee_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow25_referee_v2/a2_ow25_referee_v2_results.json",
+        "match": true,
+        "sha256": "2bfbeec680ee9ab675b3e62af4f7a484d451807bc4bc94e9e12f02a11401b556"
+      },
+      {
+        "manifest": "relays/a2_ow25_referee_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_referee_v2/referee_a2_ow25_v2.py",
+        "match": true,
+        "sha256": "062f6f98e613ea0e6820fe896b64ee7292f7ce06bd99f91ae1601e5c9c23a3fd"
+      },
+      {
+        "manifest": "relays/a2_ow25_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_v2/verify_a2_ow25_v2.py",
+        "match": true,
+        "sha256": "a379c3cf841ae12d8ab3480d0ded85ea10fb5021007eae933560f28dde655bbd"
+      },
+      {
+        "manifest": "relays/a2_ow25_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow25_v3/a2_ow25_v3_results.json",
+        "match": true,
+        "sha256": "94c22646f72f09acddb7a2a02acdf2094a1c792ceabd56214d2b6525cb7436db"
+      },
+      {
+        "manifest": "relays/a2_ow25_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_v3/verify_a2_ow25_v3.py",
+        "match": true,
+        "sha256": "80692c531d0d29cd5577d8fc51f7045fe2d9340a2797173c58aa90c429e485ea"
+      },
+      {
+        "manifest": "relays/a2_ow25_v4/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow25_v4/a2_ow25_v4_results.json",
+        "match": true,
+        "sha256": "19ccd612fc7f33c0aa8a17c00fcbf34285b4188e360a0653635ed1515d60821e"
+      },
+      {
+        "manifest": "relays/a2_ow25_v4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_v4/verify_a2_ow25_v4.py",
+        "match": true,
+        "sha256": "5d0cc99d2f684aaabd1b92333a14762df1191d3b7e4e4a6df46826913058a9b2"
+      },
+      {
+        "manifest": "relays/a2_ow25_v5/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow25_v5/a2_ow25_v5_results.json",
+        "match": true,
+        "sha256": "b71ada25d8f386a7864d3b10fea920c95ec9f481c555a32447b0c2b44bec622e"
+      },
+      {
+        "manifest": "relays/a2_ow25_v5/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_v5/verify_a2_ow25_v5.py",
+        "match": true,
+        "sha256": "ad52ef9729f35767815c880f49672f27da728692ba19f5e7d458efdf8b5865ac"
+      },
+      {
+        "manifest": "relays/a2_ow25_v6/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow25_v6/a2_ow25_v6_results.json",
+        "match": true,
+        "sha256": "53f03bf8b342e7517ff96d6a94008049b60263677f6c4f8c0882bcb23fb7ff3a"
+      },
+      {
+        "manifest": "relays/a2_ow25_v6/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_v6/verify_a2_ow25_v6.py",
+        "match": true,
+        "sha256": "ddb1776fe020566e9f37bdd532d9a9ba07551861a77ff6b5bfc3d7d5baa4ddcd"
+      },
+      {
+        "manifest": "relays/a2_ow25_v7/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow25_v7/a2_ow25_v7_results.json",
+        "match": true,
+        "sha256": "3189346b243438dcd7b27dda04102310364796130ce88b63da683a7b8e558e02"
+      },
+      {
+        "manifest": "relays/a2_ow25_v7/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow25_v7/verify_a2_ow25_v7.py",
+        "match": true,
+        "sha256": "eb4907607e02f76bd5a692fc880d72e1a9738caa670cccdea1d397b8ef3437f8"
+      },
+      {
+        "manifest": "relays/a2_ow26/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26/a2_ow26_results.json",
+        "match": true,
+        "sha256": "eaa67db6bf31a2c143dd412d54f36194f67b1e86f322fcc0e84da4d81c74c52b"
+      },
+      {
+        "manifest": "relays/a2_ow26/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26/verify_a2_ow26.py",
+        "match": true,
+        "sha256": "5b994592d383722322fc02080227bbad9570cc75ab234791ac36f89d8bbe6490"
+      },
+      {
+        "manifest": "relays/a2_ow26_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_referee/a2_ow26_referee_results.json",
+        "match": true,
+        "sha256": "1aef8217354696488dd44c98598520fb7797909a9b66e1f05b02851b6d7275de"
+      },
+      {
+        "manifest": "relays/a2_ow26_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_referee/referee_a2_ow26.py",
+        "match": true,
+        "sha256": "6df482e4396d132a7ed9fef83a7c9b478712a354c7c43959097b36cf9fba389f"
+      },
+      {
+        "manifest": "relays/a2_ow26_referee_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_referee_v2/a2_ow26_referee_v2_results.json",
+        "match": true,
+        "sha256": "ac667ea0f43d763457933660beb155f299269276773eefb5812409b051eb2450"
+      },
+      {
+        "manifest": "relays/a2_ow26_referee_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_referee_v2/referee_a2_ow26_v2.py",
+        "match": true,
+        "sha256": "872ea1f5a98bb232c0dd9fbcba3234becf60fdd51ea1e2e166da1189c28823e5"
+      },
+      {
+        "manifest": "relays/a2_ow26_referee_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_referee_v3/a2_ow26_referee_v3_results.json",
+        "match": true,
+        "sha256": "872be37535331ee0b05bd01fb5460d4a5653631d1bed2d90fc5b1b7cb2311d6d"
+      },
+      {
+        "manifest": "relays/a2_ow26_referee_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_referee_v3/referee_a2_ow26_v3.py",
+        "match": true,
+        "sha256": "3519f189b63afb88935a98d197eea5559f31eee263fe017b59c53a9250d1ba0d"
+      },
+      {
+        "manifest": "relays/a2_ow26_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_v2/a2_ow26_v2_results.json",
+        "match": true,
+        "sha256": "9e10c4a9b9042283ce4ff4d7661faab5add807b1114407c6b7e1a8ac14f27b8b"
+      },
+      {
+        "manifest": "relays/a2_ow26_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_v2/verify_a2_ow26_v2.py",
+        "match": true,
+        "sha256": "8250e96919922d562cae7e15747280d68ee2ac8c10b5fe3b3e17bf78528ce081"
+      },
+      {
+        "manifest": "relays/a2_ow26_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_v3/a2_ow26_v3_results.json",
+        "match": true,
+        "sha256": "857cdd03e998271bcd408da8e27d963b6f1ed938f6b7d05b8612847c594d2c46"
+      },
+      {
+        "manifest": "relays/a2_ow26_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_v3/verify_a2_ow26_v3.py",
+        "match": true,
+        "sha256": "9f86a0d8fae8fb2e347f39d1c09a0cdeb941d5a86c8880495a16700a80243646"
+      },
+      {
+        "manifest": "relays/a2_ow26_v4/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_v4/a2_ow26_v4_results.json",
+        "match": true,
+        "sha256": "e82ce61264b1a92122a3e226d5278f4417af086b55fda75850312eda43d758ae"
+      },
+      {
+        "manifest": "relays/a2_ow26_v4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_v4/verify_a2_ow26_v4.py",
+        "match": true,
+        "sha256": "b580021cb52a2f36fcdb17e80a4fa06ea3cebea3a9b776fa4f38e3590238f083"
+      },
+      {
+        "manifest": "relays/a2_ow26_v5/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_v5/a2_ow26_v5_results.json",
+        "match": true,
+        "sha256": "ccc07c2dc1cea526a203b743a1e49c851c996d62f5d5971e94463c4b227066e2"
+      },
+      {
+        "manifest": "relays/a2_ow26_v5/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_v5/verify_a2_ow26_v5.py",
+        "match": true,
+        "sha256": "d3fe5c80dc58843fdb381651733347cd7e329d0178f6077aa603d6f94a484c55"
+      },
+      {
+        "manifest": "relays/a2_ow26_v6/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_v6/a2_ow26_v6_results.json",
+        "match": true,
+        "sha256": "deb457a8b3351a1c05954387e00eb50fb5eda564c2975500c39605d82ee5468d"
+      },
+      {
+        "manifest": "relays/a2_ow26_v6/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_v6/verify_a2_ow26_v6.py",
+        "match": true,
+        "sha256": "a95533bc61d78518b42be8e85eee7e9fe25424b94348d8af025a12a18a939472"
+      },
+      {
+        "manifest": "relays/a2_ow26_v7/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_v7/a2_ow26_v7_results.json",
+        "match": true,
+        "sha256": "b3c2788649da6680253006a3434f51271fdc4c3410b8a1f835a4055839a95e0a"
+      },
+      {
+        "manifest": "relays/a2_ow26_v7/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_v7/verify_a2_ow26_v7.py",
+        "match": true,
+        "sha256": "7be8fe04e9a96d7649c1d8501be30b1333a414d233c4ac915dfcc8827a7063e9"
+      },
+      {
+        "manifest": "relays/a2_ow26_v8/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow26_v8/a2_ow26_v8_results.json",
+        "match": true,
+        "sha256": "6ad9365cd0663776219ee2e345ccf4cf4d1a0fbeecceafbaeb242aa432044f76"
+      },
+      {
+        "manifest": "relays/a2_ow26_v8/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow26_v8/verify_a2_ow26_v8.py",
+        "match": true,
+        "sha256": "03e8c48faed7e9276578062f474f3e7393c5bbe0437535d695a1e002bca7f1db"
+      },
+      {
+        "manifest": "relays/a2_ow27/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27/verify_a2_ow27.py",
+        "match": true,
+        "sha256": "e81c36f65b8b4e54dcd3b7eaa35264e86df80a5a122dc667f9ce6c3f51127933"
+      },
+      {
+        "manifest": "relays/a2_ow27_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow27_referee/a2_ow27_referee_results.json",
+        "match": true,
+        "sha256": "d2fcc7a02eaa9bf7e854fdb8537c24e1ac100f87bb5f7560571c9ee2db5b0569"
+      },
+      {
+        "manifest": "relays/a2_ow27_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_referee/referee_a2_ow27.py",
+        "match": true,
+        "sha256": "1c0a2cb74ff04243bd4d3cf292eb1328663e5e733d17379197deab665a32c02d"
+      },
+      {
+        "manifest": "relays/a2_ow27_referee_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow27_referee_v2/a2_ow27_referee_v2_results.json",
+        "match": true,
+        "sha256": "d83d64a985d473d61724a73e12eef22fdf8b24f2186fdbdd7e3b72c97a0e9d27"
+      },
+      {
+        "manifest": "relays/a2_ow27_referee_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_referee_v2/referee_a2_ow27_v2.py",
+        "match": true,
+        "sha256": "c969abf9c74ac4defceb201b1530499a20b188a29a010068ac08829ed1eea407"
+      },
+      {
+        "manifest": "relays/a2_ow27_referee_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow27_referee_v3/a2_ow27_referee_v3_results.json",
+        "match": true,
+        "sha256": "5fd17fb1391271f4ed67bcb7e80a2d760a89f57f7bc492e5f6dcaae68e3e51f2"
+      },
+      {
+        "manifest": "relays/a2_ow27_referee_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_referee_v3/referee_a2_ow27_v3.py",
+        "match": true,
+        "sha256": "983dc1b2f4afba3ad0cb526bb1706565979e5f4feee1007a396ad925ff903940"
+      },
+      {
+        "manifest": "relays/a2_ow27_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_v2/verify_a2_ow27_v2.py",
+        "match": true,
+        "sha256": "17b9891e4142fc9a28fd50ad7faf83be99a79041de656e4a1d5bd400b4b0944d"
+      },
+      {
+        "manifest": "relays/a2_ow27_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_v3/verify_a2_ow27_v3.py",
+        "match": true,
+        "sha256": "71c61b4cb0709d217eeff2a747acfdf61c03c3fa45b27569920c7727bf72cce9"
+      },
+      {
+        "manifest": "relays/a2_ow27_v4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_v4/verify_a2_ow27_v4.py",
+        "match": true,
+        "sha256": "c1e3393259e9938b093bbfeee378de190bbb3ab6f7a6f47c93f03eb429926c8c"
+      },
+      {
+        "manifest": "relays/a2_ow27_v5/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_v5/verify_a2_ow27_v5.py",
+        "match": true,
+        "sha256": "e23308d7f476388745108ae117840b30684b6b884796ed147d3fa82f43396801"
+      },
+      {
+        "manifest": "relays/a2_ow27_v6/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow27_v6/a2_ow27_v6_results.json",
+        "match": true,
+        "sha256": "a1514e93368660724be47080c7592ab4be1566aae7935c42d6fff41d3558258b"
+      },
+      {
+        "manifest": "relays/a2_ow27_v6/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_v6/verify_a2_ow27_v6.py",
+        "match": true,
+        "sha256": "b81282323fd6863c51240565830d91a27be575dce0391059fcb36cf5b28e2500"
+      },
+      {
+        "manifest": "relays/a2_ow27_v7/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow27_v7/a2_ow27_v7_results.json",
+        "match": true,
+        "sha256": "1aad4a3f9219e40338dd286ce9964a17c0abc3328f6a42ab01440a3e58af1f9d"
+      },
+      {
+        "manifest": "relays/a2_ow27_v7/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_v7/verify_a2_ow27_v7.py",
+        "match": true,
+        "sha256": "f339bc79e5755c0a76d195158c0ce8e97bb60c541d754ac43c2f7604f56df146"
+      },
+      {
+        "manifest": "relays/a2_ow27_v8/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow27_v8/a2_ow27_v8_results.json",
+        "match": true,
+        "sha256": "6c15a4d854fac5b34c65765789e18c1ca5e660382292428a11f78666b2a254ec"
+      },
+      {
+        "manifest": "relays/a2_ow27_v8/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow27_v8/verify_a2_ow27_v8.py",
+        "match": true,
+        "sha256": "ea792e979ea17610b7e694c640ad11adb51f6a28d399a3f149930f393c3b4c7f"
+      },
+      {
+        "manifest": "relays/a2_ow2_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow2_referee/referee_a2_ow2_out.json",
+        "match": true,
+        "sha256": "88b5d176b2e6f86301bb8cc25bd2877924948d5d4ad474d6cd7289398e9748c9"
+      },
+      {
+        "manifest": "relays/a2_ow2_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow2_referee/referee_a2_ow2.py",
+        "match": true,
+        "sha256": "1c79d5a719e6c5b36624f4b70fb12da48086179ce39d78748cda942c300e954f"
+      },
+      {
+        "manifest": "relays/a2_ow2_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow2_v2/verify_a2_ow2_v2.py",
+        "match": true,
+        "sha256": "11c1546904c03f5041ef038ea6607fab547efc4380db226c93785bdb6bfb937b"
+      },
+      {
+        "manifest": "relays/a2_ow2_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow2_v3/verify_a2_ow2_v3_out.json",
+        "match": true,
+        "sha256": "5c43982235da8629c3428dfae2f858119d75eeb4e9369f785b8a9c0f410bb84e"
+      },
+      {
+        "manifest": "relays/a2_ow2_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow2_v3/verify_a2_ow2_v3.py",
+        "match": true,
+        "sha256": "ed10260d33ca37d3e0c03697a3a4c92ed755afdd9f484de1302dfc8a280d3a4f"
+      },
+      {
+        "manifest": "relays/a2_ow2_v4/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow2_v4/verify_a2_ow2_v4_out.json",
+        "match": true,
+        "sha256": "fc2365e59af2781de71c5c339135cabede862900345571bab9671dd87a4d9631"
+      },
+      {
+        "manifest": "relays/a2_ow2_v4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow2_v4/verify_a2_ow2_v4.py",
+        "match": true,
+        "sha256": "cb4ce4af62a29bbe5bf24775101628cd6a395bf870db7007221fbe791bd5a0a8"
+      },
+      {
+        "manifest": "relays/a2_ow3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow3/verify_a2_ow3_out.json",
+        "match": true,
+        "sha256": "7cd3861d50adc0dab49d9909d5bb548a1930374769b2ead2e9716e4a12903596"
+      },
+      {
+        "manifest": "relays/a2_ow3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow3/verify_a2_ow3.py",
+        "match": true,
+        "sha256": "f448fe8e6cbacc386ce0697702d7ca4dd8b1052b5917efd6fc455ca373be9f8f"
+      },
+      {
+        "manifest": "relays/a2_ow3_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow3_referee/referee_a2_ow3_out.json",
+        "match": true,
+        "sha256": "ae456a7eb9b314b800db01b2cf34973373e6ed18e57c5ae0337b4e17cd55f40b"
+      },
+      {
+        "manifest": "relays/a2_ow3_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow3_referee/referee_a2_ow3.py",
+        "match": true,
+        "sha256": "3441de710340187596969247812236ddc6319371980e6d6709f7d787ee5bc208"
+      },
+      {
+        "manifest": "relays/a2_ow3_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow3_v2/verify_a2_ow3_v2_out.json",
+        "match": true,
+        "sha256": "faa0bace9ae02c54475c6eb3f628e9b512c1f98e83a32d6c0d69e5d568b0b7cb"
+      },
+      {
+        "manifest": "relays/a2_ow3_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow3_v2/verify_a2_ow3_v2.py",
+        "match": true,
+        "sha256": "44b9e3885296c0e3a64f7e283d01795145372eec068834686c0cd64367a5d315"
+      },
+      {
+        "manifest": "relays/a2_ow4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow4/verify_a2_ow4.py",
+        "match": true,
+        "sha256": "ba4d0fe1339ffb928147f7b2798ff28462af3e1ff799edfbd026c14c7bdadc43"
+      },
+      {
+        "manifest": "relays/a2_ow4_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow4_referee/referee_a2_ow4_out.json",
+        "match": true,
+        "sha256": "d6b61d9d657098ed9232118111c7183c632bd7d9485535c5c8b8c5ef28c2a503"
+      },
+      {
+        "manifest": "relays/a2_ow4_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow4_referee/referee_a2_ow4.py",
+        "match": true,
+        "sha256": "7622affa4f1dc04fc91ae13f8e36c3d2ce4b6220a0a3db39936eb149e29057b8"
+      },
+      {
+        "manifest": "relays/a2_ow4_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow4_v2/verify_a2_ow4_v2_out.json",
+        "match": true,
+        "sha256": "aa2fbd686da0ef0a28723aa225c31ff5924197247bbbe109c48b566ecf82624f"
+      },
+      {
+        "manifest": "relays/a2_ow4_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow4_v2/verify_a2_ow4_v2.py",
+        "match": true,
+        "sha256": "c88291acbe27196b2f250b7980c424f187037db9135065cb6c5a9d7c3dcc5f4f"
+      },
+      {
+        "manifest": "relays/a2_ow5/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow5/verify_a2_ow5_out.json",
+        "match": true,
+        "sha256": "66ed8860885a643ca6305e24798447dfce36cae2dc532e811357a73c3b4d388b"
+      },
+      {
+        "manifest": "relays/a2_ow5/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow5/verify_a2_ow5.py",
+        "match": true,
+        "sha256": "8d67629e3fe8c41fa1dccc615cacb3e40464e63062efaa3dcacae15f44a0b903"
+      },
+      {
+        "manifest": "relays/a2_ow5_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow5_referee/referee_a2_ow5_out.json",
+        "match": true,
+        "sha256": "b15675122dd7ad9cd257b060dbc18488534541f49098706379f347b396a04ae0"
+      },
+      {
+        "manifest": "relays/a2_ow5_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow5_referee/referee_a2_ow5.py",
+        "match": true,
+        "sha256": "40225aedea711ffe704bae923d0961d358b199b7bf020452c81a8c29040fa64d"
+      },
+      {
+        "manifest": "relays/a2_ow6/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow6/verify_a2_ow6_out.json",
+        "match": true,
+        "sha256": "939d7e12a89d6a35a5c6fffd6bfacff6a3ddba3e0928541732b8137f3412c13f"
+      },
+      {
+        "manifest": "relays/a2_ow6/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow6/verify_a2_ow6.py",
+        "match": true,
+        "sha256": "00f19133ad747b1ab80d38d3484f3c7115139a971af2584c4f078a897d13e27e"
+      },
+      {
+        "manifest": "relays/a2_ow6_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow6_referee/referee_a2_ow6_out.json",
+        "match": true,
+        "sha256": "1f12ef75e7065a40bb167b7c1727385aaa6b2eaa4be510a56eaa35793d39d9a8"
+      },
+      {
+        "manifest": "relays/a2_ow6_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow6_referee/referee_a2_ow6.py",
+        "match": true,
+        "sha256": "384e7560816a99f4db3834b4363b983e2c4272dc68d50f375af1e54239a4706d"
+      },
+      {
+        "manifest": "relays/a2_ow6_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow6_v2/verify_a2_ow6_v2_out.json",
+        "match": true,
+        "sha256": "9ca180c0881848aea6f536b585c186d06f0c379e781a0978645c9309ff5b2921"
+      },
+      {
+        "manifest": "relays/a2_ow6_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow6_v2/verify_a2_ow6_v2.py",
+        "match": true,
+        "sha256": "1c822be0c7ba0d0bf344caedbe8be313f7ed943d36eb1c9b8b36defa46a622be"
+      },
+      {
+        "manifest": "relays/a2_ow7/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow7/verify_a2_ow7_out.json",
+        "match": true,
+        "sha256": "145d3dd334ac5743e17c598d844a519594308b961dbc973093ab9c06038d1975"
+      },
+      {
+        "manifest": "relays/a2_ow7/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow7/verify_a2_ow7.py",
+        "match": true,
+        "sha256": "3ed579c1a0328247c73fe48e86e61772ff27f42dc204c97072810a856b22e028"
+      },
+      {
+        "manifest": "relays/a2_ow7_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow7_referee/referee_a2_ow7_out.json",
+        "match": true,
+        "sha256": "fa63ddc5ffabd39a722a0902d8ca6f9deb198ebb98560328a9002d2cefb2e166"
+      },
+      {
+        "manifest": "relays/a2_ow7_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow7_referee/referee_a2_ow7.py",
+        "match": true,
+        "sha256": "2d862333cbf029118717225d4fe13903ee1978d27532c7e005d623cf7ce7219d"
+      },
+      {
+        "manifest": "relays/a2_ow7_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow7_v2/verify_a2_ow7_v2_out.json",
+        "match": true,
+        "sha256": "d9811bbc43eeb0c24a1260964c1dab5f079436b7743c33b32311c387e268d9ce"
+      },
+      {
+        "manifest": "relays/a2_ow7_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow7_v2/verify_a2_ow7_v2.py",
+        "match": true,
+        "sha256": "d151960f70dd64ea7c55cb79ebb3b267213d26251b9af03e433fa1a0e89ebfa2"
+      },
+      {
+        "manifest": "relays/a2_ow8/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow8/verify_a2_ow8_out.json",
+        "match": true,
+        "sha256": "2c23a9aeb764c2f685e46e3f474dc3cdf6f6d2d19415ce4c7162fedfa5925d51"
+      },
+      {
+        "manifest": "relays/a2_ow8/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow8/verify_a2_ow8.py",
+        "match": true,
+        "sha256": "9507cf5f029f5ea4bd03cbcbce2f2a387f9fbccfe4fe21dd4b287cd874f49d86"
+      },
+      {
+        "manifest": "relays/a2_ow8_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow8_referee/referee_a2_ow8_out.json",
+        "match": true,
+        "sha256": "5503adff0c4e615dc4d004f3c15b5fbe7539dece118b4b34e49c5df2957a11aa"
+      },
+      {
+        "manifest": "relays/a2_ow8_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow8_referee/referee_a2_ow8.py",
+        "match": true,
+        "sha256": "c139bf05b4ba44fe4d5006d75f2b9acac334383e69cf9acd063680b3bbdf0f84"
+      },
+      {
+        "manifest": "relays/a2_ow9/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow9/verify_a2_ow9_out.json",
+        "match": true,
+        "sha256": "98c3cab20862df748acbc34c291cad54821ad172f5f11f2519efc2e467fbe45f"
+      },
+      {
+        "manifest": "relays/a2_ow9/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow9/verify_a2_ow9.py",
+        "match": true,
+        "sha256": "cd11f6ae699521db213a29f0ca3fa9e81f4d1c3eab93e82fc0b011e9a00cdc05"
+      },
+      {
+        "manifest": "relays/a2_ow9_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_ow9_referee/referee_a2_ow9_out.json",
+        "match": true,
+        "sha256": "b8fb4f81d19912523144f70451ee1da1b45ac3e608daad49d017a08adf41076e"
+      },
+      {
+        "manifest": "relays/a2_ow9_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_ow9_referee/referee_a2_ow9.py",
+        "match": true,
+        "sha256": "434fb699b3e0a0674cb4041c0d49f03c7f81fdf8c4daa9a9a94b37378a7fc908"
+      },
+      {
+        "manifest": "relays/a2_p135/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p135/verify_a2_p135.py",
+        "match": true,
+        "sha256": "acd1bf7c19e0b414d1d61320540a89e57d189d7ee854ddd9601ab9b260374c3e"
+      },
+      {
+        "manifest": "relays/a2_p135_referee/OUTPUT_RUN2_SHA256.txt",
+        "target": "relays/a2_p135_referee/referee_a2_p135_run2_results.json",
+        "match": true,
+        "sha256": "11ca3deeaaaeb19df5058906265cad22637f730bfb92ea7425c1b899d6631d08"
+      },
+      {
+        "manifest": "relays/a2_p135_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p135_referee/referee_a2_p135_results.json",
+        "match": true,
+        "sha256": "829cd06e4ab647311c5fc1c3bfd7036cab8f41e0aa86f9c0eca8cf7a9b80c514"
+      },
+      {
+        "manifest": "relays/a2_p135_referee/SCRIPT_RUN2_SHA256.txt",
+        "target": "relays/a2_p135_referee/referee_a2_p135_run2.py",
+        "match": true,
+        "sha256": "3ec414fc447cda6ff3a062199433e8c13c6129d1c532b6a556354e36dd50287b"
+      },
+      {
+        "manifest": "relays/a2_p135_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p135_referee/referee_a2_p135.py",
+        "match": true,
+        "sha256": "69374b0922b05d8a54ec8612a040daa2c9ca3295470fb98286a569669b0ffa7c"
+      },
+      {
+        "manifest": "relays/a2_p135_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p135_v2/verify_a2_p135_v2.py",
+        "match": true,
+        "sha256": "ba3d34eea720f3c8f4433c6b96cbdb8936ff8860a0e37af1019c76eca314b0a1"
+      },
+      {
+        "manifest": "relays/a2_p135_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p135_v3/a2_p135_v3_results.json",
+        "match": true,
+        "sha256": "90302f857c5d82ac231f774c2cf9175af81a4279d557031a3d2cc209e797f25b"
+      },
+      {
+        "manifest": "relays/a2_p135_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p135_v3/verify_a2_p135_v3.py",
+        "match": true,
+        "sha256": "6c0bb55bd201076f48122820f07c0b3730110d74f32fb28406caf34f54112f97"
+      },
+      {
+        "manifest": "relays/a2_p879/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879/verify_a2_p879.py",
+        "match": true,
+        "sha256": "04e355e8dc282b830f97c46fa5bc9a4825ade8602f335fddab23ad7828a93c58"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_referee/OUTPUT_RUN2_SHA256.txt",
+        "target": "relays/a2_p879_interior_referee/referee_a2_p879_interior_run2_results.json",
+        "match": true,
+        "sha256": "bf0b7f1d66f352b4529cd41bbf7da9520faeaf2ac98cc7786957453ad813dd6e"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_interior_referee/referee_a2_p879_interior_v1_results.json",
+        "match": true,
+        "sha256": "5416a8865116266644a691f979cbd969d70ee2829ce2c6c4f3889ceabd238b39"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_referee/SCRIPT_RUN2_SHA256.txt",
+        "target": "relays/a2_p879_interior_referee/referee_a2_p879_interior_run2.py",
+        "match": true,
+        "sha256": "7f0cb2cea790c4dc7cd7406e2d71cd7a41de3bb7a547161f20e223e14f0d5667"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_interior_referee/referee_a2_p879_interior_v1.py",
+        "match": true,
+        "sha256": "1fa4d3b1b416a7f873b004c48fd5e537a63c5dd97391dcd9fda5ebff2cd720ea"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_v1/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_interior_v1/verify_a2_p879_interior_v1.py",
+        "match": true,
+        "sha256": "27faa0818f7eca36fd4f7a7d7723fbad274cfc83b6a890136b24a2865fc0b14c"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_interior_v2/a2_p879_interior_v2_results.json",
+        "match": true,
+        "sha256": "2bce49c9a3e868119ac11161fc6b34c7d169115ae6f54923985bc4a1f57e209b"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_interior_v2/verify_a2_p879_interior_v2.py",
+        "match": true,
+        "sha256": "0031b23d1b51a8b3fad618e38cd3d1a496fb52aa77d662c7e16455799353a1c3"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_interior_v3/a2_p879_interior_v3_results.json",
+        "match": true,
+        "sha256": "d90dc25746e65e22f26d22d05a895b99bd64e4102e018c2caf7d8d84d0412a1e"
+      },
+      {
+        "manifest": "relays/a2_p879_interior_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_interior_v3/verify_a2_p879_interior_v3.py",
+        "match": true,
+        "sha256": "5e5596ba126adb54c6e27ec454e3f1424d237edc997bf90cc710a2e10f31feb6"
+      },
+      {
+        "manifest": "relays/a2_p879_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_referee/referee_a2_p879_out.json",
+        "match": true,
+        "sha256": "f24ef49642682ea2bea41c4c9b4d9f6cc30044a897b676acf8d7e2eabf2dd401"
+      },
+      {
+        "manifest": "relays/a2_p879_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_referee/referee_a2_p879.py",
+        "match": true,
+        "sha256": "e7740a47234eb87d7073cec247962862f4433a7ed6ed37a986f11f2538297518"
+      },
+      {
+        "manifest": "relays/a2_p879_referee_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_referee_v2/referee_a2_p879_v2_out.json",
+        "match": true,
+        "sha256": "69ce57366acddb87f3a0b38393a2449cec64a7bf4690d8bd979a3cdc4b9e6d02"
+      },
+      {
+        "manifest": "relays/a2_p879_referee_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_referee_v2/referee_a2_p879_v2.py",
+        "match": true,
+        "sha256": "dc81d83aaeec2f0126fccdb8d9120de0e81b798e0c5722151d6ffffc03b419ee"
+      },
+      {
+        "manifest": "relays/a2_p879_referee_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_referee_v3/referee_a2_p879_v3_out.json",
+        "match": true,
+        "sha256": "52413e29b185edfb94ba220fbcc29981ea8dae41120f6685fd88e6c3d8e4629c"
+      },
+      {
+        "manifest": "relays/a2_p879_referee_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_referee_v3/referee_a2_p879_v3.py",
+        "match": true,
+        "sha256": "67e521a3eae26588ece3ffa8b15bad90dfa9343d8a568bbfd9018c817c12c871"
+      },
+      {
+        "manifest": "relays/a2_p879_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_v2/verify_a2_p879_out.json",
+        "match": true,
+        "sha256": "29fb46c72f71351243896800b0e4e9d3ce2d4db272a245ced8dfdd52b43b15c4"
+      },
+      {
+        "manifest": "relays/a2_p879_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_v2/verify_a2_p879_v2.py",
+        "match": true,
+        "sha256": "2b6a7928c6cd19e84bd987a7a7b834e79987577cb3810f87cc342d8bf0de4571"
+      },
+      {
+        "manifest": "relays/a2_p879_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_v3/verify_a2_p879_out.json",
+        "match": true,
+        "sha256": "7be7bdd68d328993c23684b368da284c57d560757a50934ff0278bc7ab5fb4de"
+      },
+      {
+        "manifest": "relays/a2_p879_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_v3/verify_a2_p879_v3.py",
+        "match": true,
+        "sha256": "49c4b76ba1261364b6825cc47263ba964c6e040039b8310f1170deeb2597c2e6"
+      },
+      {
+        "manifest": "relays/a2_p879_v4/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_v4/verify_a2_p879_out.json",
+        "match": true,
+        "sha256": "fdc5bd9a39fb9eedc694d63507e5ad912fd76f296274caaa794f432685c41df0"
+      },
+      {
+        "manifest": "relays/a2_p879_v4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_v4/verify_a2_p879_v4.py",
+        "match": true,
+        "sha256": "0d795cf304fe052e8cc02ea24f9b16e98e397c5751d1c21b2bd5c2d74b39e164"
+      },
+      {
+        "manifest": "relays/a2_p879_v5/OUTPUT_SHA256.txt",
+        "target": "relays/a2_p879_v5/verify_a2_p879_out.json",
+        "match": true,
+        "sha256": "1c764eb437db06a1c7b6561a3aa65e8b5063637a046bf4adaa24e5c4651eea8a"
+      },
+      {
+        "manifest": "relays/a2_p879_v5/SCRIPT_SHA256.txt",
+        "target": "relays/a2_p879_v5/verify_a2_p879_v5.py",
+        "match": true,
+        "sha256": "8db5e4f770a6b5ddf329f388c976efa46360f6a84e0481a98bc2404fa4d3b9ba"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_agy/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_agy/verify_agy_0e4506d59.py",
+        "match": true,
+        "sha256": "80bbe3379dfe7f780cd0f5407ede0aaf3226995a281a4e914d6b2323b4387385"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_agy_exp/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_audit_agy_exp/verify_agy_exp_45fe6e401_out.json",
+        "match": true,
+        "sha256": "36c291f75b6947a9c051c122de05780abc3f7e17ccc200b458d762bced4d814a"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_agy_exp/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_agy_exp/verify_agy_exp_45fe6e401.py",
+        "match": true,
+        "sha256": "ce80ee253d13a53333c7c76df9269d790596eca2f832e26b8760b3e56e8bc24b"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_agy_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_agy_v2/verify_agy_0e4506d59_v2.py",
+        "match": true,
+        "sha256": "989daa93eafdab54e0daa0ac0c7b1737180eab2a271fd8e9ab781317641ad2f6"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_agy_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_agy_v3/verify_agy_0e4506d59_v3.py",
+        "match": true,
+        "sha256": "efc50efd44e392a459fd0026e7287b7350406a274cb9d376b61171a89cef4bd2"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_agy_v4/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_audit_agy_v4/verify_agy_0e4506d59_v4_out.json",
+        "match": true,
+        "sha256": "52edb2d6d757a6e1dee98d3a67e8941d6386a59de133ab254d1d1f5545fab1aa"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_agy_v4/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_agy_v4/verify_agy_0e4506d59_v4.py",
+        "match": true,
+        "sha256": "aadb4c117bab7e800c8ff56af9404f1cdb9a744f0aa01f984bc7fb737a9f5963"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2/a2_peer_audit_v2_results.json",
+        "match": true,
+        "sha256": "6b1159c4038034eb35673d9a6bd0da2cd0add20d5c430762456f109e04340c5e"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2/verify_a2_peer_audit_v2.py",
+        "match": true,
+        "sha256": "5893c9d73c476ebc00f813e236c089f3b99b7b85457baee2eff6e8f545c189f6"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_referee/OUTPUT_RUN3_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_referee/referee_a2_peer_audit_v2_run3_results.json",
+        "match": true,
+        "sha256": "2b23e46c21ebaf93b925d4b92ac3526f7f5a35f9b392de417f2b395c7c0b15f9"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_referee/OUTPUT_RUN4_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_referee/referee_a2_peer_audit_v2_run4_results.json",
+        "match": true,
+        "sha256": "c19fb1e86c401b87c8abe59e74c4195ddd96336d0db53c2ef128bfbad57741cf"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_referee/referee_a2_peer_audit_v2_results.json",
+        "match": true,
+        "sha256": "ba5e16ea034179fda8b49bd1538b77071a3369a1118d9dd942daef177c684280"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_referee/SCRIPT_RUN2_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_referee/referee_a2_peer_audit_v2_run2.py",
+        "match": true,
+        "sha256": "26c58e9e596a62f5e273b64cb35a76a66d63d3d5d6ca2915b2171d126d7b5d46"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_referee/SCRIPT_RUN3_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_referee/referee_a2_peer_audit_v2_run3.py",
+        "match": true,
+        "sha256": "662f215b040366c41813d2e015a74fc71e4e37e9fd95f2e5628c6af8894d3744"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_referee/SCRIPT_RUN4_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_referee/referee_a2_peer_audit_v2_run4.py",
+        "match": true,
+        "sha256": "bc508bd7ea72d6913632c3d028d63f4dfd3c8686eee3ddde9d023d1af55c99c1"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_referee/referee_a2_peer_audit_v2.py",
+        "match": true,
+        "sha256": "526b486ce9f186920ed15b050b7e52a0e01a200cadf94862f587666b80871154"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_run2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_run2/a2_peer_audit_v2_run2_results.json",
+        "match": true,
+        "sha256": "e41370bdd0a1df317d55b71295b71a9e7da258a7fde1742f5e2fa09db723267b"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_run2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_run2/verify_a2_peer_audit_v2_run2.py",
+        "match": true,
+        "sha256": "834101eb844ed182bbc68583fb452ad148b393564cf7f4f87ea18c2a7816a162"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_run3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_run3/a2_peer_audit_v2_run3_results.json",
+        "match": true,
+        "sha256": "6906f0931f9b8a356fd44e16fee32778ec849dce350202debf107d9e09b0e380"
+      },
+      {
+        "manifest": "relays/a2_peer_audit_v2_run3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_audit_v2_run3/verify_a2_peer_audit_v2_run3.py",
+        "match": true,
+        "sha256": "bbbc04f7a431b54359f63737fc86fd5e101d4bb51101cb9c3b7244248b996dd5"
+      },
+      {
+        "manifest": "relays/a2_peer_link23/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_link23/a2_peer_link23_results.json",
+        "match": true,
+        "sha256": "c2a0ca09a5dc233c6655be7fc444062777e7e405afdd55680413918c72e1348d"
+      },
+      {
+        "manifest": "relays/a2_peer_link23/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_link23/verify_a2_peer_link23.py",
+        "match": true,
+        "sha256": "ebe91d5d35ae7162580e0831bd72af0aa84850f5832e824cdec2ef2a7606817a"
+      },
+      {
+        "manifest": "relays/a2_peer_link23_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_link23_referee/a2_peer_link23_referee_results.json",
+        "match": true,
+        "sha256": "2ef89d04b68e4015a326a759fb335ff64ae6828333f6a4e15272d6f19a6b175f"
+      },
+      {
+        "manifest": "relays/a2_peer_link23_referee/OUTPUT_SHA256_v2.txt",
+        "target": "relays/a2_peer_link23_referee/a2_peer_link23_referee_v2_results.json",
+        "match": true,
+        "sha256": "5d7e49162f897d2edce5245870c17fa9daf67f927675e7d879384baf908e1573"
+      },
+      {
+        "manifest": "relays/a2_peer_link23_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_link23_referee/referee_a2_peer_link23.py",
+        "match": true,
+        "sha256": "18d072ec50a84258a033a52999678fccebf38f38192c8ca89ed22c864c5e4ee8"
+      },
+      {
+        "manifest": "relays/a2_peer_link23_referee/SCRIPT_SHA256_v2.txt",
+        "target": "relays/a2_peer_link23_referee/referee_a2_peer_link23_v2.py",
+        "match": true,
+        "sha256": "28731fa65d16fe3b99a1c397a307cfe7c17909a3a50fcd5414dca2f3eaacdcfa"
+      },
+      {
+        "manifest": "relays/a2_peer_synth/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_synth/a2_peer_synth_results.json",
+        "match": true,
+        "sha256": "e56651b3211fb9ecf98397fc9820f28f41c94036b8b83a8cf44662d4c93c0f91"
+      },
+      {
+        "manifest": "relays/a2_peer_synth/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_synth/verify_a2_peer_synth.py",
+        "match": true,
+        "sha256": "84023035d90b149cdc2d112144f7f1588488207849654407d2ab73267db61d8d"
+      },
+      {
+        "manifest": "relays/a2_peer_synth_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_peer_synth_v2/a2_peer_synth_v2_results.json",
+        "match": true,
+        "sha256": "3bdbeeceab4a02a803f30c25607e336b2dc7f8c241df13d6808cea1db350a3af"
+      },
+      {
+        "manifest": "relays/a2_peer_synth_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_peer_synth_v2/verify_a2_peer_synth_v2.py",
+        "match": true,
+        "sha256": "369f13e1e7eb787bb55ecc88397b05e5683ff10f854bbfdc7ddb49e0f399d3fb"
+      },
+      {
+        "manifest": "relays/a2_wg96/SCRIPT_SHA256.txt",
+        "target": "relays/a2_wg96/verify_a2_wg96.py",
+        "match": true,
+        "sha256": "fc268de72095c9d04c0f23e50e7d3bf6f85bfb056e9dd536556d61ce40adb9a6"
+      },
+      {
+        "manifest": "relays/a2_wg96_referee/OUTPUT_SHA256.txt",
+        "target": "relays/a2_wg96_referee/referee_a2_wg96_out.json",
+        "match": true,
+        "sha256": "9b47bcbdcb3a6dafc5415d7663d107a8510816d3e6af31fcaff361e07dcd5a95"
+      },
+      {
+        "manifest": "relays/a2_wg96_referee/SCRIPT_SHA256.txt",
+        "target": "relays/a2_wg96_referee/referee_a2_wg96.py",
+        "match": true,
+        "sha256": "c408e4b6dfebd542166212775147dfea503cd250090c19c37f304de0de99a54e"
+      },
+      {
+        "manifest": "relays/a2_wg96_v2/OUTPUT_SHA256.txt",
+        "target": "relays/a2_wg96_v2/verify_a2_wg96_out.json",
+        "match": true,
+        "sha256": "938ea4e8d2ffc5a978ed7fac8263203244afc20ab27cb4fb1104992a6101f086"
+      },
+      {
+        "manifest": "relays/a2_wg96_v2/SCRIPT_SHA256.txt",
+        "target": "relays/a2_wg96_v2/verify_a2_wg96_v2.py",
+        "match": true,
+        "sha256": "aed38c0204d07c58845202393771deebdb783cd00e1e9d3ba98ebf91f584eab8"
+      },
+      {
+        "manifest": "relays/a2_wg96_v3/OUTPUT_SHA256.txt",
+        "target": "relays/a2_wg96_v3/verify_a2_wg96_out.json",
+        "match": true,
+        "sha256": "e4906a3de9dedcbed2cb9dbc6e28e8ed41f7e3b739c69583de00c3717d4346fa"
+      },
+      {
+        "manifest": "relays/a2_wg96_v3/SCRIPT_SHA256.txt",
+        "target": "relays/a2_wg96_v3/verify_a2_wg96_v3.py",
+        "match": true,
+        "sha256": "1c0fbb88aa8e1b24c49215668d1eb18a50cd09f64b15ccb19ea851f18103b567"
+      },
+      {
+        "manifest": "relays/a2_x1/OUTPUT_SHA256.txt",
+        "target": "relays/a2_x1/verify_a2_x1_out.json",
+        "match": true,
+        "sha256": "998789579e7c5051f680cdd1e1994660945ec39a58ccad036a54fba420e3dca4"
+      },
+      {
+        "manifest": "relays/a2_x1/OUTPUT_SHA256.txt",
+        "target": "relays/a2_x1/verify_a2_x1_out.txt",
+        "match": true,
+        "sha256": "5f1625c9801f437ccc40cd11b186975368a5db2e143050487f7469b87385b336"
+      },
+      {
+        "manifest": "relays/a2_x1/SCRIPT_SHA256.txt",
+        "target": "relays/a2_x1/verify_a2_x1.py",
+        "match": true,
+        "sha256": "32500edc0d0161ca98b3457069a0c50f75783023d5f25f9537393aba29074966"
+      }
+    ],
+    "non_relay_edits_vs_origin_main": 0,
+    "non_relay_files": [],
+    "total_changed_files_vs_origin_main": 954
+  }
+}
