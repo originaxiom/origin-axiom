@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1696** |
-| words of findings prose | **1,555,776** |
+| research arcs with findings | **1697** |
+| words of findings prose | **1,556,657** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1696** (100.0 %) |
+| arcs carrying an authored verdict | **1697** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1189 |
+| PROVED | 1190 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1999`** (1461 words, 0 locks)  
-“THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K”  
-`B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/FINDINGS.md`
+**PROVED — `B2000`** (881 words, 0 locks)  
+“LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair at 5, 5 (28, 10, 10 with the inverse moves), against 2, 2, 2 at the common point, so the whole natively gives 3 -> 1 + 2 and keeps the pair locked; agy-exp's NI-1 reproduced ((14/3, 5/3, 5/3), spectrum {1, (7 -+ sqrt 41)/2}; its diagonal is exactly the covariant part); its NI-3 fusion fractions reproduced exactly for Q8 (1/3, 2/3), 2O, 2I (never -phi, -1, 1/phi) and the 2I three-body law {18,12,6,41,38,12,51,41,6}/225”  
+`B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

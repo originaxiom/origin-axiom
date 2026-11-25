@@ -1,0 +1,21 @@
+{
+ "id": "B2000",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1995", "B1994", "B1993", "B1989"],
+ "rests_on_seat": [],
+ "cites_seat": ["agy-exp's X-NATURAL-INTERACTIONS (origin/agy/self-consistent-loop-2026-11-11 @ b41678f5d, harvest row 2009): NI-1 (the split at (3,3,3)) and NI-3 (the fusion fractions) recomputed on main's own code and verified; NI-2, NI-4, NI-5 registered, not checked"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the grammar's moves on the readings and their Jacobians at (0,0,0) and (3,3,3); the realisations of the common point in Q8, 2O and 2I",
+  "object": "the unfolding's linearisation in the charge basis of omega's cyclic exchange, plain and C-covariant, with and without the inverse moves; the two- and three-body collision branching of kappa",
+  "reach": "class",
+  "hypotheses": "sympy exact; quaternion counts exact as rationals, kappa classified to the nine levels with residual at most 1.2e-14"
+ },
+ "claim_one_line": "LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair at 5, 5 (28, 10, 10 with the inverse moves), against 2, 2, 2 at the common point, so the whole natively gives 3 -> 1 + 2 and keeps the pair locked; agy-exp's NI-1 reproduced ((14/3, 5/3, 5/3), spectrum {1, (7 -+ sqrt 41)/2}; its diagonal is exactly the covariant part); its NI-3 fusion fractions reproduced exactly for Q8 (1/3, 2/3), 2O, 2I (never -phi, -1, 1/phi) and the 2I three-body law {18,12,6,41,38,12,51,41,6}/225",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1696 |
-| … PROVED | 1189 |
+| arcs with a verdict file | 1697 |
+| … PROVED | 1190 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B2000 | PROVED | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair a…” |
 | B1999 | PROVED | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is e…” |
 | B1998 | PROVED | “LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the c…” |
 | B1997 | PROVED | “LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4…” |
@@ -42,7 +43,6 @@
 | B1991 | PROVED | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distin…” |
 | B1990 | PROVED | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it…” |
 | B1989 | PROVED | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives…” |
-| B1988 | PROVED | “THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: THE AGY LANE'S C59 PACKAGE CHECKED (B1999, PROVED for its checks; data-free)).** At the author's question. Two exact results credited, reproduced on the seat's frame C function (the up sector's 12-turn fifth-root phase; the mirror's CP antisymmetry; main's own recompute owed). The 'zero-parameter' 21 x 21 boundary-Dirac matrix is exactly the ordered 7-fold product rule rewritten; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 to 1e-26 as K goes 1 to 11) and its pattern the chain chosen (u > d > e on 36 of 96 chains). E3b and C49-C56 owed (P-884). Nothing compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 15 (B2000, PROVED; a weave result; data-free)).** B1995's open question answered, with agy-exp credited (its NI-1 and NI-3 verified on main): at omega's own point (3,3,3) the whole's unfolding separates the neutral member from the charged pair, 14 : 5, and keeps the pair locked; at the common point all three are equal. 3 -> 1 + 2 is native; the last split needs a reflection-breaking ingredient. The fusion laws of the common point's realisations are exact. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

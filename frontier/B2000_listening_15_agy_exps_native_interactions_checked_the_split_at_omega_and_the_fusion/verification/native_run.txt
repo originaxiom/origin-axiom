@@ -1,0 +1,14 @@
+== at (0, 0, 0): images under L, R: (0, 0, 0), (0, 0, 0)
+S2 = J_L + J_R: charge-basis diagonal (q = 0, 1, 2) [2/3, 2/3, 2/3]; off-diagonal norm 2.16025; commutes with C: False; eigenvalues {1: 1, 1/2 - sqrt(7)*I/2: 1, 1/2 + sqrt(7)*I/2: 1}
+S6 = sum_k C^k S2 C^-k: charge-basis diagonal (q = 0, 1, 2) [2, 2, 2]; off-diagonal norm 2.71333e-166; commutes with C: True; eigenvalues {2: 3}
+S4 = J_L + J_R + J_L^-1 + J_R^-1: charge-basis diagonal (q = 0, 1, 2) [4/3, 4/3, 4/3]; off-diagonal norm 1.63299; commutes with C: False; eigenvalues {2: 2, 0: 1}
+S12 = sum_k C^k S4 C^-k: charge-basis diagonal (q = 0, 1, 2) [4, 4, 4]; off-diagonal norm 5.42666e-166; commutes with C: True; eigenvalues {4: 3}
+== at (3, 3, 3): images under L, R: (3, 3, 6), (3, 3, 6)
+S2 = J_L + J_R: charge-basis diagonal (q = 0, 1, 2) [14/3, 5/3, 5/3]; off-diagonal norm 4.54606; commutes with C: False; eigenvalues {1: 1, 7/2 - sqrt(41)/2: 1, sqrt(41)/2 + 7/2: 1}
+S6 = sum_k C^k S2 C^-k: charge-basis diagonal (q = 0, 1, 2) [14, 5, 5]; off-diagonal norm 8.68265e-165; commutes with C: True; eigenvalues {14: 1, 5: 2}
+S4 = J_L + J_R + J_L^-1 + J_R^-1: charge-basis diagonal (q = 0, 1, 2) [28/3, 10/3, 10/3]; off-diagonal norm 3.55903; commutes with C: False; eigenvalues {8: 1, 2: 1, 6: 1}
+S12 = sum_k C^k S4 C^-k: charge-basis diagonal (q = 0, 1, 2) [28, 10, 10]; off-diagonal norm 1.73653e-164; commutes with C: True; eigenvalues {28: 1, 10: 2}
+F (Q8): group order 8; realisations of the common point 24; two-body collisions 576; fractions {'-2': Fraction(1, 3), '2': Fraction(2, 3)}; max residual 0.0e+00
+F (2O): group order 48; realisations of the common point 96; two-body collisions 9216; fractions {'-2': Fraction(1, 12), '0': Fraction(3, 8), '1': Fraction(1, 4), '2': Fraction(7, 24)}; max residual 1.8e-15
+F (2I): group order 120; realisations of the common point 120; two-body collisions 14400; fractions {'-2': Fraction(1, 15), '-1/phi': Fraction(2, 15), '0': Fraction(2, 15), '1': Fraction(2, 5), 'phi': Fraction(2, 15), '2': Fraction(2, 15)}; max residual 7.5e-15
+F3 (2I three-body, 1728000 collisions): fractions in ascending level order ['2/25', '4/75', '2/75', '41/225', '38/225', '4/75', '17/75', '41/225', '2/75'] = [18, 12, 6, 41, 38, 12, 51, 41, 6]/225; max residual 1.2e-14

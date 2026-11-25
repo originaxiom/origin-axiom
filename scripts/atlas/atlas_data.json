@@ -18561,6 +18561,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2000": {
+   "slug": "listening 15 agy exps native interactions checked the split at omega and the fusion",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [
