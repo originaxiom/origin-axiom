@@ -168,8 +168,8 @@ def main():
     print("M2: h_s positive and strictly decreasing for s = 0.1 .. 0.9: %s; N = 128 vs 256 worst %.1e"
           % (all(pos[s] and mono[s] for s in s_in), max(conv[s] for s in s_in)), flush=True)
     print("M3: lambda_1 strictly decreasing %s, lambda_1(0.95) = %.6f; mass fraction strictly increasing %s" % (
-        all(a > b for a, b in zip(lam_seq, lam_seq[1:])), lam[0.95], all(a < b for a, b in zip(frac_seq, frac_seq[1:]))),
-        flush=True)
+        all(a > b for a, b in zip(lam_seq, lam_seq[1:])), lam[0.95],
+        all(a < b for a, b in zip(frac_seq, frac_seq[1:]))), flush=True)
     # M1
     l17, l18 = word_sums(17), word_sums(18)
     m1 = {}
