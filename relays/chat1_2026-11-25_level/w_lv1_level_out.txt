@@ -1,0 +1,30 @@
+inputs: sector charge pairs {'up': (1, -4), 'down': (1, 2), 'lep': (-3, 6)}; multiplets {'Q': 1, 'u': -4, 'd': 2, 'L': -3, 'e': 6}; the Higgs's 6Y = 3 does not enter frame C's lens
+T1 whole-level ties, N = 2..420 (k, swapped):
+  N =   2: {'up~down': [(1, False)], 'up~lep': [(1, False)], 'down~lep': [(1, False)]}
+  N =   3: {'up~down': [(1, False), (2, True)], 'up~up': [(2, True)], 'down~down': [(2, True)], 'lep~lep': [(1, True), (2, True)]}
+  N =   4: {'down~lep': [(1, False)]}
+  N =   5: {'down~lep': [(1, True)], 'up~up': [(1, True)]}
+  N =   6: {'up~down': [(1, False)]}
+  N =   7: {'up~lep': [(6, True)]}
+  N =   9: {'up~down': [(2, True)], 'lep~lep': [(1, True), (4, True), (7, True)]}
+  N =  15: {'up~up': [(11, True)]}
+T1 pointwise ties (k = 1 or -1), N = 2..420:
+  N =   2: {'up~down': [(1, False)], 'up~lep': [(1, False)], 'down~lep': [(1, False)]}
+  N =   3: {'up~down': [(1, False), (2, True)], 'up~up': [(2, True)], 'down~down': [(2, True)], 'lep~lep': [(1, True), (2, True)]}
+  N =   4: {'down~lep': [(1, False)]}
+  N =   5: {'down~lep': [(1, True)], 'up~up': [(1, True)]}
+  N =   6: {'up~down': [(1, False)]}
+  N =   7: {'up~lep': [(6, True)]}
+  N =   9: {'lep~lep': [(1, True)]}
+T2 levels with a whole-level tie: [2, 3, 4, 5, 6, 7, 9, 15]
+T2 levels with a pointwise tie: [2, 3, 4, 5, 6, 7, 9]
+T2 primes with a tie at some power: [2, 3, 5, 7]; primes of the tie levels: [2, 3, 5, 7]
+T2 multiplet charge differences: [1, 4, 5, 6, 9, 10]; their primes: [2, 3, 5]
+T3 P1 = 210, P2 = 30, P3 = 10; for information, the least tie-free level >= 2 is 8
+C1 controls on frame C's coupling (column 0.13, height 6, reading S):
+  N =  5: Y_lep(w) against Y_down(1 w): the rule finds [(1, True)]; differences ['1.5e-44', '4.7e-43'] -> holds
+  N =  6: Y_down(w) against Y_up(1 w): the rule finds [(1, False)]; differences ['7.8e-43', '1.9e-43'] -> holds
+  N =  7: Y_lep(w) against Y_up(6 w): the rule finds [(6, True)]; differences ['3.6e-42', '3.3e-42'] -> holds
+  N = 15: Y_up(w) against Y_up(11 w): the rule finds [(11, True)]; differences ['2.9e-43', '1.4e-43'] -> holds
+  negative control, (down, lep) at the same point of order 30: differences ['8.6e-03', '9.3e-04'] -> passes
+READING: R2 (P1 = 210, P2 = 30, P3 = 10)

@@ -1,0 +1,389 @@
+{
+ "pin": "be8c83d4f",
+ "charges": {
+  "up": [
+   1,
+   -4
+  ],
+  "down": [
+   1,
+   2
+  ],
+  "lep": [
+   -3,
+   6
+  ]
+ },
+ "multiplets": {
+  "Q": 1,
+  "u": -4,
+  "d": 2,
+  "L": -3,
+  "e": 6
+ },
+ "tie_levels": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+  15
+ ],
+ "pointwise_levels": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9
+ ],
+ "table": {
+  "2": {
+   "up~down": {
+    "whole": [
+     [
+      1,
+      false
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      false
+     ]
+    ]
+   },
+   "up~lep": {
+    "whole": [
+     [
+      1,
+      false
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      false
+     ]
+    ]
+   },
+   "down~lep": {
+    "whole": [
+     [
+      1,
+      false
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      false
+     ]
+    ]
+   }
+  },
+  "3": {
+   "up~down": {
+    "whole": [
+     [
+      1,
+      false
+     ],
+     [
+      2,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      false
+     ],
+     [
+      2,
+      true
+     ]
+    ]
+   },
+   "up~up": {
+    "whole": [
+     [
+      2,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      2,
+      true
+     ]
+    ]
+   },
+   "down~down": {
+    "whole": [
+     [
+      2,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      2,
+      true
+     ]
+    ]
+   },
+   "lep~lep": {
+    "whole": [
+     [
+      1,
+      true
+     ],
+     [
+      2,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      true
+     ],
+     [
+      2,
+      true
+     ]
+    ]
+   }
+  },
+  "4": {
+   "down~lep": {
+    "whole": [
+     [
+      1,
+      false
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      false
+     ]
+    ]
+   }
+  },
+  "5": {
+   "down~lep": {
+    "whole": [
+     [
+      1,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      true
+     ]
+    ]
+   },
+   "up~up": {
+    "whole": [
+     [
+      1,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      true
+     ]
+    ]
+   }
+  },
+  "6": {
+   "up~down": {
+    "whole": [
+     [
+      1,
+      false
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      false
+     ]
+    ]
+   }
+  },
+  "7": {
+   "up~lep": {
+    "whole": [
+     [
+      6,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      6,
+      true
+     ]
+    ]
+   }
+  },
+  "9": {
+   "up~down": {
+    "whole": [
+     [
+      2,
+      true
+     ]
+    ],
+    "pointwise": []
+   },
+   "lep~lep": {
+    "whole": [
+     [
+      1,
+      true
+     ],
+     [
+      4,
+      true
+     ],
+     [
+      7,
+      true
+     ]
+    ],
+    "pointwise": [
+     [
+      1,
+      true
+     ]
+    ]
+   }
+  },
+  "15": {
+   "up~up": {
+    "whole": [
+     [
+      11,
+      true
+     ]
+    ],
+    "pointwise": []
+   }
+  }
+ },
+ "tie_primes": [
+  2,
+  3,
+  5,
+  7
+ ],
+ "level_primes": [
+  2,
+  3,
+  5,
+  7
+ ],
+ "diffs": [
+  1,
+  4,
+  5,
+  6,
+  9,
+  10
+ ],
+ "diff_primes": [
+  2,
+  3,
+  5
+ ],
+ "P1": 210,
+ "P2": 30,
+ "P3": 10,
+ "least_tie_free": 8,
+ "C1": [
+  {
+   "N": 5,
+   "s": "down",
+   "t": "lep",
+   "k": 1,
+   "rule_finds": [
+    [
+     1,
+     true
+    ]
+   ],
+   "diffs": [
+    1.5414283107572988e-44,
+    4.65143509001819e-43
+   ],
+   "holds": true
+  },
+  {
+   "N": 6,
+   "s": "up",
+   "t": "down",
+   "k": 1,
+   "rule_finds": [
+    [
+     1,
+     false
+    ]
+   ],
+   "diffs": [
+    7.847271400218976e-43,
+    1.8541905330663978e-43
+   ],
+   "holds": true
+  },
+  {
+   "N": 7,
+   "s": "up",
+   "t": "lep",
+   "k": 6,
+   "rule_finds": [
+    [
+     6,
+     true
+    ]
+   ],
+   "diffs": [
+    3.596120500828446e-42,
+    3.3390752876009883e-42
+   ],
+   "holds": true
+  },
+  {
+   "N": 15,
+   "s": "up",
+   "t": "up",
+   "k": 11,
+   "rule_finds": [
+    [
+     11,
+     true
+    ]
+   ],
+   "diffs": [
+    2.8597436316478806e-43,
+    1.442105808276151e-43
+   ],
+   "holds": true
+  }
+ ],
+ "negative_control": [
+  0.008602979363998172,
+  0.0009330958123306743
+ ],
+ "verdict": "R2"
+}
