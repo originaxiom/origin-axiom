@@ -18659,6 +18659,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2006": {
+   "slug": "listening 21 the small group is a three adic layer over the cube group",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "S4"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [

@@ -1,0 +1,9 @@
+mod 27: reduction mod 9 into the 8-point orbit: defined on every point and onto: True; C- and sigma-equivariant: True; fibre sizes [9]  [0 s]
+    |G_k| = 216; image in G_2 has 24 elements (G_2 = S4 has 24); kernel order 9 (|G_k|/24 = 9); rho^3 on the kernel takes exponents [0] (trivial: True); rho^2 on the kernel takes [0, 2, 4]  [0 s]
+    kernel: order 9 (sympy, from up to 400 of its elements as generators); abelian: True; element orders {1: 1, 3: 8}; a 3-group: True
+mod 81: reduction mod 9 into the 8-point orbit: defined on every point and onto: True; C- and sigma-equivariant: True; fibre sizes [81]  [0 s]
+    |G_k| = 1944; image in G_2 has 24 elements (G_2 = S4 has 24); kernel order 81 (|G_k|/24 = 81); rho^3 on the kernel takes exponents [0] (trivial: True); rho^2 on the kernel takes [0, 2, 4]  [0 s]
+    kernel: order 81 (sympy, from up to 400 of its elements as generators); abelian: True; element orders {1: 1, 3: 8, 9: 72}; a 3-group: True
+mod 243: reduction mod 9 into the 8-point orbit: defined on every point and onto: True; C- and sigma-equivariant: True; fibre sizes [729]  [1 s]
+    |G_k| = 52488; image in G_2 has 24 elements (G_2 = S4 has 24); kernel order 2187 (|G_k|/24 = 2187); rho^3 on the kernel takes exponents [0] (trivial: True); rho^2 on the kernel takes [0, 2, 4]  [5 s]
+    kernel: order 2187 (sympy, from up to 400 of its elements as generators); abelian: False; element orders {1: 1, 3: 26, 9: 216, 27: 1944}; a 3-group: True
