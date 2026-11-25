@@ -1,4 +1,4 @@
-"""B1980's lock: part A reruns exactly (no interior fixed point, 48 act-fixed cusps equal to the 96 points); part B's
+"""B1980's lock (part B's runs used a wrong end law and are kept as run; B1982 corrects them): part A reruns exactly (no interior fixed point, 48 act-fixed cusps equal to the 96 points); part B's
 committed run holds no duality and the controls. Fails if a K passes, a control fails, or the cusp set moves."""
 import pathlib, re, subprocess, sys
 HERE = pathlib.Path(__file__).resolve().parent

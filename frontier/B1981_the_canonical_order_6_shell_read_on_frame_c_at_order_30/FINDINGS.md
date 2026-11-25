@@ -3,6 +3,9 @@
 **Verdict: NEGATIVE, PROVISIONAL (the shell as P-845's rule, in either declared reading, as sealed; no second computation yet).** Main, 2026-11-25. Data-free.
 Register row P-845. **0 of 19.**
 
+*Dated relabel (2026-11-25, P-883, at the author's word):* by THE_WEAVE's test (all threads, none chosen; defined by the joint
+action; about all threads at once), this is a **thread** result, not a weave result: frame C over blocks cut by m004's act's line. It was first labelled "the weave (the order-30 rates)".
+
 ## Seen first
 
 - **The claim tested:** agy-exp's `CLAIM_2026-11-24_canonical_e6_prim_lepton_down_split.md` (256f4294c, read at source;

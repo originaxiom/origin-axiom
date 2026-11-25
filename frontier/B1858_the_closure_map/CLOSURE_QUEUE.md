@@ -219,7 +219,7 @@
 | P-739 | QUEUED | THE TUBE'S τ BEYOND k = 1, ON MAIN |
 | P-744 | QUEUED | THE READ-OUT BY A STATE ON THE HYPERBOLIC METRIC |
 
-## The register's open debts, by class (80)
+## The register's open debts, by class (81)
 
 | class | debts | the first by load |
 |---|---|---|
@@ -237,3 +237,4 @@
 | added on 2026-11-12 with the owner's word of that day (P-825) | 2 | P-253: eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named ar |
 | added on 2026-11-13 (S306p) | 1 | P-839: the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adop |
 | added on 2026-11-24 (S306p, Review 86) | 1 | P-881: the review loop's long-carried items (R81 to R83), moved whole from the loop at Review 86; the schema gate and the 21 verdict lines naming a session f |
+| added on 2026-11-25 (S306p) | 1 | P-883: the weave label drifted: 35 arcs from B1940 to B1982 labelled 'the weave' while, by THE_WEAVE's own test, most are frame or thread results; B1976 to B |

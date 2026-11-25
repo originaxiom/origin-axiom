@@ -8,6 +8,9 @@
 
 Main, 2026-11-24. Data-free. The card and the script were hashed before the run (`EXPECTATIONS_HASHED.md`, with one disclosed mend). Register rows P-845 and P-860 (d). **0 of 19.**
 
+*Dated relabel (2026-11-25, P-883, at the author's word):* by THE_WEAVE's test (all threads, none chosen; defined by the joint
+action; about all threads at once), this is a **thread** result, not a weave result: frame C at the points of order 30 whose 5-part is on m004's act's line. It was first labelled "the weave (the points of a level)".
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /order 30|level 30|lcm\(5, ?6\)|exponent grid|1/30|level as a lens|units of Z/N/: 0 of 1717 arcs on main match (none); 3 register rows match (DONE 1, QUEUED 2)`.

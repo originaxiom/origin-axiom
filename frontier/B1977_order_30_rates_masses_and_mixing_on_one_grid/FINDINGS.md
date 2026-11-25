@@ -11,6 +11,9 @@ largest residuals of 4.2e-4 and 5.1e-5. The four off-grid rates of G3 are finite
 partly an artefact of keying 20–30 rates at three decimals: the converged classes are 12.** Every statement below that
 says 17 now reads 12. The web seat's CHK-1 reproduced this arc with two assemblies of its own (credit: the web seat).
 
+*Dated relabel (2026-11-25, P-883, at the author's word):* by THE_WEAVE's test (all threads, none chosen; defined by the joint
+action; about all threads at once), this is a **thread** result, not a weave result: frame C at B1976's 96 points, fixed by m004's act. It was first labelled "the weave (the points of a level)".
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /order 30|1/30|exponent grid|Wolfenstein|slow mixing|level 30/: 1 of 1718 arcs on main match (PROVED 1); 4 register rows match (DONE 1, QUEUED 3)`. The one arc matched is B1976.

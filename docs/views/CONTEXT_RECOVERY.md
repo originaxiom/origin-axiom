@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1678 |
-| … PROVED | 1171 |
+| arcs with a verdict file | 1679 |
+| … PROVED | 1172 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
-| register points | 882 |
-| … “QUEUED” | 304 |
+| register points | 883 |
+| … “QUEUED” | 305 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
@@ -31,8 +31,9 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1982 | PROVED | “FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log∣tau∣ (B1667, B1724, B1921), frame C passes S to 6e-16 a…” |
 | B1981 | NEGATIVE | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's me…” |
-| B1980 | PROVED | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; part B NEGATIVE; data-free): the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so the object's symmetry singles out only cusps and cannot…” |
+| B1980 | PROVED | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; data-free) [CORRECTED 2026-11-25, B1982: part B's 'frame C fails S, it reads the curve through one cusp' WITHDRAWN - main's end-law error; with the record's law L(-1/tau)…” |
 | B1979 | PROVED | “THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than…” |
 | B1978 | PROVED | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at onl…” |
 | B1977 | PROVED | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 an…” |
@@ -42,7 +43,6 @@
 | B1973 | PROVED | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup∣V33∣ = (1+s_L)/(3-s_L) at a null Higgs holds on main's own c…” |
 | B1972 | PROVED | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral…” |
 | B1971 | PROVED | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly…” |
-| B1970 | PROVED | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXIN…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: WHAT COULD FIX THE HEIGHT (B1980) AND THE SHELL (B1981); P-882 ENTERED; data-free).** At the author's question for a derived principle fixing epsilon: the act fixes no point of X(30) off the cusps, and the cusps it fixes are exactly B1976's 96 points (up to sign), so the menu of points is the act's own but no depth is fixed. Frame C has no duality tau -> -K/tau and fails S itself, also with its canonical end read on the whole curve (main's first run had read the end outside its table's domain; corrected before landing), while T holds exactly: it reads the level-30 curve through one cusp. At the author's word, that is the one-hole reading the record has repeated at…”
+“LATEST (2026-11-25, S306p: FRAME C IS SL(2, Z)-COVARIANT WITH ITS OWN END LAW (B1982, PROVED); B1980'S 'ONE CUSP' CLAIM WITHDRAWN; THE WEAVE LABEL DRIFTED (P-883); THE ORDER-30 LINE ON HOLD; data-free).** With the canonical end transformed by the record's law (B1667, B1724, B1921), frame C passes S to 6e-16; B1980's S failure was main's end-law error, retracted. The instrument is whole; what reads through one hole is the read-out. At the author's word ("listen to the interactions' natural unfolding, without sculpting the Standard Model"): B1976 to B1982 relabelled thread or frame results; 26 earlier arcs labelled 'the weave' owed a relabel (P-883); the order-30 line and route (d)'s card on…”
 
 ## Completeness (nothing skipped silently)
 

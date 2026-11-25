@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 80 |
+| DEBT | a result the record uses is owed a check or a correction | 81 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -380,10 +380,11 @@ by a quote that the builder checks.*
 | 78 | P-827 | added on 2026-11-12 with the owner's word of that day (P-825) | the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar. |
 | 79 | P-839 | added on 2026-11-13 (S306p) | the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption. |
 | 80 | P-881 | added on 2026-11-24 (S306p, Review 86) | the review loop's long-carried items (R81 to R83), moved whole from the loop at Review 86; the schema gate and the 21 verdict lines naming a session first. |
+| 81 | P-883 | added on 2026-11-25 (S306p) | the weave label drifted: 35 arcs from B1940 to B1982 labelled 'the weave' while, by THE_WEAVE's own test, most are frame or thread results; B1976 to B1982 relabelled, 26 earlier arcs owed a relabel with their reasons (WP-0.11). |
 
 ## The nodes that no edge joins
 
-25 of the 193 nodes that are not debts, and 66 of the 80 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 25 is held by name in the map's source, as found on 2026-11-12.
+25 of the 193 nodes that are not debts, and 67 of the 81 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 25 is held by name in the map's source, as found on 2026-11-12.
 
 | id | layer | kind | grade |
 |---|---|---|---|

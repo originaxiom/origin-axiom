@@ -3,6 +3,9 @@
 **Verdict: PROVED (numerically, on three intervals of height and two columns; the limits on the grid are read, not
 derived).** Main, 2026-11-25. Data-free. Register rows P-845 and P-860 (d). **0 of 19.**
 
+*Dated relabel (2026-11-25, P-883, at the author's word):* by THE_WEAVE's test (all threads, none chosen; defined by the joint
+action; about all threads at once), this is a **thread** result, not a weave result: frame C at B1976's 96 points, fixed by m004's act. It was first labelled "the weave (the order-30 rates)".
+
 ## Seen first
 
 - **The web seat's check of B1977 (CHK-1),** at chat1/web-seat 580bb80a1 and 5e4db6850, with its relays THE LOAD-BEARING

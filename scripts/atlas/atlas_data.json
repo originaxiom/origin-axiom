@@ -18066,6 +18066,7 @@
    "slug": "the level as a lens frame c at order 30",
    "motifs": [
     "coupling",
+    "figure_eight",
     "eisenstein"
    ],
    "refs": [
@@ -18091,6 +18092,7 @@
   "B1978": {
    "slug": "the acts eight orbits of twelve at order 30",
    "motifs": [
+    "figure_eight",
     "trace_map",
     "torsion"
    ],
@@ -18098,16 +18100,18 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 10,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B1979": {
    "slug": "the order 30 rates are limits on the grid of one sixtieth",
-   "motifs": [],
+   "motifs": [
+    "figure_eight"
+   ],
    "refs": [],
    "obstacle": "particle_dict",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B197": {
    "slug": "figure eight volume torsionfree",
@@ -18143,6 +18147,7 @@
    "motifs": [
     "action",
     "figure_eight",
+    "trace_map",
     "eisenstein",
     "z3_generation",
     "wrt_quantum"
@@ -18152,12 +18157,13 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 3,
-   "status": "banked",
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B1981": {
    "slug": "the canonical order 6 shell read on frame c at order 30",
    "motifs": [
+    "figure_eight",
     "torsion"
    ],
    "refs": [
@@ -18172,6 +18178,30 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 6,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B1982": {
+   "slug": "which ingredient of frame c breaks the s move",
+   "motifs": [
+    "kappa",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L1",
+    "L2",
+    "V0",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },

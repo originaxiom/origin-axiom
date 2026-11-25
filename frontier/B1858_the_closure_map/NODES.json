@@ -6635,5 +6635,29 @@
    "P-881": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:883",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the weave label drifted: 35 arcs from B1940 to B1982 labelled 'the weave' while, by THE_WEAVE's own test, most are frame or thread results; B1976 to B1982 relabelled, 26 earlier arcs owed a relabel with their reasons (WP-0.11).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-883 — "
+   ]
+  ],
+  "rows": [
+   "P-883"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 81,
+  "debt_class": "added on 2026-11-25 (S306p)",
+  "rows_live": {
+   "P-883": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

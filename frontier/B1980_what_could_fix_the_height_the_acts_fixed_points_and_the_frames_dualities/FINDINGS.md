@@ -3,6 +3,22 @@
 **Verdict: PROVED (A, exact) and NEGATIVE (B, no duality of the declared family; frame C fails the S move, also with its end read on the whole curve).** Main,
 2026-11-25. Data-free. Register rows P-629, P-845 and P-882 (new). **0 of 19.**
 
+*Dated correction (2026-11-25, B1982; main's own error, the claim retracted):* part B's "frame C fails S, so it reads the curve
+through the one cusp i∞" is **withdrawn**.
+- Both of its S tests used a wrong law for the canonical end: first the table read outside its domain, then L(τ_FD)
+  with no log shift.
+- With the record's own law, L(−1/τ) = L(τ) + log|τ| (B1667, B1724, B1921), frame C is exactly S-covariant: 6e-16 at
+  three height pairs (B1982). With T exact, frame C is SL(2, ℤ)-covariant.
+- The duality family K ≠ 1 was rerun with the end evaluated covariantly at every τ (B1982's `fricke_endlaw.py`):
+  no K ≠ 1 passes (largest distances 0.59 to 0.96).
+- Part A stands.
+- The one hole the author named is the read-out (one thread's act, one point, one level, one height), not the frame.
+
+*Dated relabel (2026-11-25, P-883, at the author's word):* by THE_WEAVE's test (all threads, none chosen; defined by the joint
+action; about all threads at once), part A is a **thread** result (m004's monodromy alone acting on X(30)) and part B is
+a **frame** result (frame C's dualities). Neither is a weave result. It was first labelled "the weave (the level-30 curve
+and the act)".
+
 ## Seen first
 
 - **The question,** at the author's word: a principle, derived rather than chosen, that fixes ε = e^{−π Im τ}.

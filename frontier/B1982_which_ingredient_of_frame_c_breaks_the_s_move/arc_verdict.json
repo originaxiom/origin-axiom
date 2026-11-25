@@ -1,0 +1,28 @@
+{
+ "id": "B1982",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1980",
+  "B1945",
+  "B1927",
+  "B1921",
+  "B1724",
+  "B1974"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C, every sector reading S, on the imaginary axis at heights 0.4 to 2.5, with the canonical end read on the whole curve",
+  "object": "seven declared ablations of frame C (the norm, kappa's phase, the a0 term, the Higgs) tested under the S move by matching B1976's 96 points against all 899 nonzero points of E[30]",
+  "reach": "class",
+  "hypotheses": "the ablated frames are diagnostics; the matching holds sectors and the reading fixed; the end above height 6 is the table's clamped value, as on record"
+ },
+ "claim_one_line": "FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log|tau| (B1667, B1724, B1921), frame C passes S to 6e-16 at three height pairs over 96 x 899 points (T exact, B1980), so nothing in it breaks S; B1980's S failure was main's end-law error (retracted); the norm is needed for the covariance (without it 0.08 to 0.15), the a0 term is not; no duality tau -> -K/tau beyond SL(2, Z) (K in {2,...,900}) holds with the end evaluated covariantly; the sealed single-ablation card (E1 to E6) failed as run under the wrong end law",
+ "weave_or_thread": "frame (frame C's covariance under every move, an instrument property; no thread, point or level is a result here; labelled 2026-11-25, P-883)"
+}

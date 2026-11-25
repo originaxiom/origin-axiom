@@ -303,6 +303,7 @@ DEBT_TO_WP = {
     "P-646": "WP-0.4",   # a banked arc consumes a bridge artifact owed since August
     "P-698": "WP-0.4",   # one of frame B's joints stays unconverted until main runs its own geometry there
     "P-757": "WP-0.7",   # the advisor seat's audit: enforcement first; its other classes are assigned finding by finding
+    "P-883": "WP-0.11",  # 2026-11-25: the weave label drifted on 35 arcs (B1940 to B1982); the weave discipline, mechanised
     "P-881": "WP-0.7",   # Review 86 (2026-11-24): the review loop's long-carried items (R81 to R83), moved to the register for the advisor seat's series
     "P-772": "WP-0.7",   # its second re-audit: what the seals do not yet protect
     "P-773": "WP-0.12",  # its read of this page as a non-author: the debts and the identifications joined to the map

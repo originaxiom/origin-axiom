@@ -14,6 +14,9 @@ connections (agy-002's M34).
 *Dated note (2026-11-25, B1979).* B1977's classes converge to 12, not 17. The act keeps the converged class at 8 of 96, as
 here, and its orbits fall into two families of four, each carrying six classes.
 
+*Dated relabel (2026-11-25, P-883, at the author's word):* by THE_WEAVE's test (all threads, none chosen; defined by the joint
+action; about all threads at once), this is a **thread** result, not a weave result: the orbits of m004's monodromy alone. It was first labelled "the weave (the act's orbits)".
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /orbit of the act|monodromy orbit|M-orbit|orbits of twelve|act's orbit/: 0 of 1719 arcs on main match (none); 0 register rows match (none)`.

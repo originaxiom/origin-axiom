@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1678 of 1678 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1679 of 1679 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1171)
+## PROVED (1172)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1182,7 +1182,8 @@
 | `B1977` | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 and 1), the leptons split from the down quarks in the exponent (2/5 against 7/15), and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23 (3/5 + 1/30 = 19/30); 30 points are aligned and hierarchical with a mixing rate below 1/10; every rate lies on a grid of 1/60 (860 of 864), in 17 classes over the 96 points [dated note 2026-11-25, B1979: the rates are limits on the grid; the converged classes are 12, not 17]” |  | 0 |
 | `B1978` | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open [dated caveat 2026-11-24: computed at a fixed tau; the act moves tau and the point together, so the orbit reading needs the frame's joint covariance checked first]” |  | 0 |
 | `B1979` | “THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than 2.2e-4 on 30-40); B1977's 17 classes were partly a finite-interval artefact, the converged classes are 12 (sizes 12,12,12,12,8,8,6,6,6,6,4,4), stable at 96 of 96; the lepton m2/m3 rate is 2/5 at every point; the menu for route (d) is 12” |  | 0 |
-| `B1980` | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; part B NEGATIVE; data-free): the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so the object's symmetry singles out only cusps and cannot fix a depth; the cusps fixed by M^12 are exactly B1976's 96 points up to sign (post hoc), so the menu of points is the act's own; frame C has no duality tau -> -K/tau for K in {1,2,3,5,6,10,15,30,60,900} and fails S itself (0.12 to 0.32 with its canonical end read on the whole curve, also under any sector permutation and reading; the first run's end was read outside its table's domain, corrected before landing) while T holds exactly: it reads the curve through the one cusp i-infinity, and the end is not what breaks S” |  | 0 |
+| `B1980` | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; data-free) [CORRECTED 2026-11-25, B1982: part B's 'frame C fails S, it reads the curve through one cusp' WITHDRAWN - main's end-law error; with the record's law L(-1/tau) = L(tau) + log|tau| frame C is SL(2,Z)-covariant]: the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so one thread's symmetry singles out only cusps and fixes no depth; the cusps fixed by M^12 are exactly B1976's 96 points up to sign (post hoc); no duality tau -> -K/tau (K in {2,3,5,6,10,15,30,60,900}) holds with the end evaluated covariantly (B1982)” |  | 0 |
+| `B1982` | “FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log|tau| (B1667, B1724, B1921), frame C passes S to 6e-16 at three height pairs over 96 x 899 points (T exact, B1980), so nothing in it breaks S; B1980's S failure was main's end-law error (retracted); the norm is needed for the covariance (without it 0.08 to 0.15), the a0 term is not; no duality tau -> -K/tau beyond SL(2, Z) (K in {2,...,900}) holds with the end evaluated covariantly; the sealed single-ablation card (E1 to E6) failed as run under the wrong end law” |  | 0 |
 
 ## NEGATIVE (388)
 

@@ -290,4 +290,10 @@ cited by arc/PR — the full record stays in the arcs (append-only).*
   fundamental domain. Caught by main between the run and the landing; the landing was stopped before any push, and the
   rerun with a hashed correction card found the same failure. Before a symmetry test, check every tabulated input on
   both sides of the map.
+- **Instance of a symmetry tested without the input's own law on record (main's own, 2026-11-25, B1980; caught at
+  B1982):** the correction of the instance above read the end at τ carried into the fundamental domain with no shift.
+  The record's law is L(−1/τ) = L(τ) + log∣τ∣, tested in B1724 and derived in B1921. So "frame C fails S" was landed
+  (d2dd6951c) and a register row (P-882) was built on it. The seen-first sweep for B1982's page found B1921 and B1724,
+  and the corrected test passed at 6e-16. Before any symmetry test, take each input's transformation law from the
+  record. The sweep is part of the computation, not paperwork after it.
 

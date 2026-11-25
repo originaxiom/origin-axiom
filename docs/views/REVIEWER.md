@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1678** |
-| words of findings prose | **1,540,661** |
+| research arcs with findings | **1679** |
+| words of findings prose | **1,542,209** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1678** (100.0 %) |
+| arcs carrying an authored verdict | **1679** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1171 |
+| PROVED | 1172 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1980`** (1340 words, 0 locks)  
-“WHAT COULD FIX THE HEIGHT (PROVED, part A exact; part B NEGATIVE; data-free): the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so the object's symmetry singles out only cusps and cannot fix a depth; the cusps fixed by M^12 are exactly B1976's 96 points up to sign (post hoc), so the menu of points is the act's own; frame C has no duality tau -> -K/tau for K in {1,2,3,5,6,10,15,30,60,900} and fails S itself (0.12 to 0.32 with its canonical end read on the whole curve, also under any sector permutation and reading; the first run's end was read outside its table's domain, corrected before landing) while T holds exactly: it reads the curve through the one cusp i-infinity, and the end is not what breaks S”  
-`B1980_what_could_fix_the_height_the_acts_fixed_points_and_the_frames_dualities/FINDINGS.md`
+**PROVED — `B1982`** (1072 words, 0 locks)  
+“FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log|tau| (B1667, B1724, B1921), frame C passes S to 6e-16 at three height pairs over 96 x 899 points (T exact, B1980), so nothing in it breaks S; B1980's S failure was main's end-law error (retracted); the norm is needed for the covariance (without it 0.08 to 0.15), the a0 term is not; no duality tau -> -K/tau beyond SL(2, Z) (K in {2,...,900}) holds with the end evaluated covariantly; the sealed single-ablation card (E1 to E6) failed as run under the wrong end law”  
+`B1982_which_ingredient_of_frame_c_breaks_the_s_move/FINDINGS.md`
 
-**NEGATIVE — `B1981`** (893 words, 0 locks)  
+**NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  
 `B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/FINDINGS.md`
 
