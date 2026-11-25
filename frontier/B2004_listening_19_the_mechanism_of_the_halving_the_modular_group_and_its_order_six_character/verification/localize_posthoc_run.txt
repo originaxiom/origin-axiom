@@ -1,0 +1,7 @@
+mod 27 (72 points): C fixes [(3, 3, 3), (12, 12, 12), (21, 21, 21)]; 44 words outside the commutator subgroup fix points; the points they fix: 39, all among C's fixed points: False
+mod 81 (648 points): C fixes [(3, 3, 3), (30, 30, 30), (57, 57, 57)]; 44 words outside the commutator subgroup fix points; the points they fix: 39, all among C's fixed points: False
+mod 243 (5832 points): C fixes [(3, 3, 3), (84, 84, 84), (165, 165, 165)]; 44 words outside the commutator subgroup fix points; the points they fix: 66, all among C's fixed points: False
+mod 9 (8 points): C fixes [(3, 3, 3), (6, 6, 6)]; 50 words outside the commutator subgroup fix points; the points they fix: 8, all among C's fixed points: False
+mod 25 (1000 points): C fixes [(3, 3, 3)]; 54 words outside the commutator subgroup fix points; the points they fix: 234, all among C's fixed points: False
+mod 5 leaf (40 points): C fixes [(3, 3, 3)]; 58 words outside the commutator subgroup fix points; the points they fix: 40, all among C's fixed points: False
+mod 7 leaf (28 points): C fixes [(3, 3, 3)]; 125 words outside the commutator subgroup fix points; the points they fix: 28, all among C's fixed points: False

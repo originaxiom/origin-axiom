@@ -1,0 +1,28 @@
+{
+ "id": "B2004",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B2003",
+  "B2002",
+  "B2001",
+  "B1994",
+  "B1993",
+  "B1985"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the modular group's action through C and sigma on the orbit of (3,3,3) mod 9, 27, 81, 243, 25 and on the leaf mod 5, 7",
+  "object": "the factorisation of the moves through C and the involution sigma, the operator identity W = T - D and its sector forms, and the fixed points, cycle types and order-6 character of every reduced word of length up to 10",
+  "reach": "class",
+  "hypotheses": "sympy and exact integer matrices; the census over reduced words of length <= 10; the refined mechanism found post hoc"
+ },
+ "claim_one_line": "LISTENING 19, THE MECHANISM OF THE HALVING (PROVED for its checks; data-free): sigma = R C^-1 = (y, x, xy - z) is an involution and R = sigma C, L = sigma C^2, X = C sigma C, so the whole acts through the modular group <C> * <sigma>; exactly, W = T - D, with W on the neutral sector 6 Pi0 Psigma Pi0 and on a charged sector -3 Piq Psigma Piq, whose ratio 6 : 3 is the halving's 2; K2 (only free-product conjugates of C fix points outside the commutator subgroup) failed as worded; post hoc, for every word of length <= 10, on the 3-tower (mod 27, 81, 243) every word outside the commutator subgroup with a fixed point acts with exactly C's cycle type and has rho = omega^+-1, while at mod 9, 25, 5, 7 other types fix points; so at the whole's prime the order-6 twist is invisible except through elements acting like omega's exchange, whose three fixed points match the identity's three left-out modes",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

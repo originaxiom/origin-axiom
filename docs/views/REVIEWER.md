@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1700** |
-| words of findings prose | **1,559,048** |
+| research arcs with findings | **1701** |
+| words of findings prose | **1,559,933** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1700** (100.0 %) |
+| arcs carrying an authored verdict | **1701** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1193 |
+| PROVED | 1194 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2003`** (722 words, 0 locks)  
-“LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's exchange fixes three points of the orbit of (3,3,3), and fails at mod 9 (two fixed), 25 and 49 (one, nothing paired), 15 (one, nothing paired) and 45 (two, 4 of 106 paired); the charged pair's polynomial is a perfect square at every level; the half-scale copy is the whole's prime 3's own, where the three, omega's exchange and the prime meet”  
-`B2003_listening_18_the_reach_of_the_halving/FINDINGS.md`
+**PROVED — `B2004`** (885 words, 0 locks)  
+“LISTENING 19, THE MECHANISM OF THE HALVING (PROVED for its checks; data-free): sigma = R C^-1 = (y, x, xy - z) is an involution and R = sigma C, L = sigma C^2, X = C sigma C, so the whole acts through the modular group <C> * <sigma>; exactly, W = T - D, with W on the neutral sector 6 Pi0 Psigma Pi0 and on a charged sector -3 Piq Psigma Piq, whose ratio 6 : 3 is the halving's 2; K2 (only free-product conjugates of C fix points outside the commutator subgroup) failed as worded; post hoc, for every word of length <= 10, on the 3-tower (mod 27, 81, 243) every word outside the commutator subgroup with a fixed point acts with exactly C's cycle type and has rho = omega^+-1, while at mod 9, 25, 5, 7 other types fix points; so at the whole's prime the order-6 twist is invisible except through elements acting like omega's exchange, whose three fixed points match the identity's three left-out modes”  
+`B2004_listening_19_the_mechanism_of_the_halving_the_modular_group_and_its_order_six_character/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

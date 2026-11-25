@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1700 of 1700 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1701 of 1701 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1193)
+## PROVED (1194)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1205,6 +1205,7 @@
 | `B2001` | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest decay (0.88 to 0.99 per move) while the charged pair's strongest mode is 0.44 to 0.49, the two charged members identical; on the 3-tower both settle (0.986507 and 0.493254 at mod 81 and 243); post hoc, exactly: the six conjugated moves are closed under inversion (L^-1 = CRC^-1, R^-1 = C^2LC^-2, the third move CLC^-1 = (y, yz - x, z)), so the covariant whole is the symmetric walk on three move pairs, with no arrow of time; and on the 3-tower the charged spectrum is exactly half the neutral one below the top (ratio 2 to 12 digits; at primes 5 to 13 it is 1.89 to 2.09)” |  | 0 |
 | `B2002` | “LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor reappears halved in the charged pair, and post hoc, exactly, p_neutral(2x) = 2^d (x - 3)(x + 3) x S(x) with S one charged sector's polynomial: each charged sector is the neutral sector at half scale minus the constant, the alternation and one null mode (one per C-fixed point); at mod 5 and 7 no mode pairs and the identity fails; the leading mode at mod 81 (x^6 - 60x^4 + 1008x^2 - 4672) lives over a sextic field containing Q(cos 2pi/9), discriminant 2^6 3^8 73” |  | 0 |
 | `B2003` | “LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's exchange fixes three points of the orbit of (3,3,3), and fails at mod 9 (two fixed), 25 and 49 (one, nothing paired), 15 (one, nothing paired) and 45 (two, 4 of 106 paired); the charged pair's polynomial is a perfect square at every level; the half-scale copy is the whole's prime 3's own, where the three, omega's exchange and the prime meet” |  | 0 |
+| `B2004` | “LISTENING 19, THE MECHANISM OF THE HALVING (PROVED for its checks; data-free): sigma = R C^-1 = (y, x, xy - z) is an involution and R = sigma C, L = sigma C^2, X = C sigma C, so the whole acts through the modular group <C> * <sigma>; exactly, W = T - D, with W on the neutral sector 6 Pi0 Psigma Pi0 and on a charged sector -3 Piq Psigma Piq, whose ratio 6 : 3 is the halving's 2; K2 (only free-product conjugates of C fix points outside the commutator subgroup) failed as worded; post hoc, for every word of length <= 10, on the 3-tower (mod 27, 81, 243) every word outside the commutator subgroup with a fixed point acts with exactly C's cycle type and has rho = omega^+-1, while at mod 9, 25, 5, 7 other types fix points; so at the whole's prime the order-6 twist is invisible except through elements acting like omega's exchange, whose three fixed points match the identity's three left-out modes” |  | 0 |
 
 ## NEGATIVE (388)
 

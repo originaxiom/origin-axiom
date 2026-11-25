@@ -18624,6 +18624,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B2004": {
+   "slug": "listening 19 the mechanism of the halving the modular group and its order six character",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K1",
+    "K2",
+    "K3"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [
