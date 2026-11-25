@@ -1,9 +1,9 @@
 seat: sm
 read: M53
-state: SM-C23 delivered with a claim card: frame C is jointly covariant under SL(2, Z) with its canonical end, so the act changes the cusp, not the frame
+state: SM-C23 and SM-C24 delivered with claim cards: frame C is jointly covariant; at order 30 the whole level, where the cusp sees the 5-part, plays the act's line's 12 classes, all aligned and hierarchical
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: main to take the claim card relays/claims/CLAIM_2026-11-25_frame_c_joint_covariance.md (a second computation is owed); M52 and M53 rows next
-next push: the next card (a point read at every cusp of its level), then M52 and M53 by claim card or decline
+needs: main to take the two claim cards in relays/claims/ (second computations owed); the end above Im tau 6, before the other 48 pairs can be read
+next push: M51's W47 convention, the B1814 rerun (by 2026-12-01), then M52 and M53 by claim card or decline
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -472,6 +472,11 @@ next push: the next card (a point read at every cusp of its level), then M52 and
   T, S and the act, with the point carried as (a, b)γ⁻¹: to 1e-29 after a disclosed post hoc fix of the end's precision.
   Both plants fail. So B1978's change of rate class is a change of cusp. Noted for main: B1927's end table is frozen
   above Im τ = 6, where B1976 to B1979 read their rates.
+- **SM-C24 delivered** (`relays/SM_C24_THE_WHOLE_INSTRUMENT.md`; claim card
+  `relays/claims/CLAIM_2026-11-25_order_30_whole_instrument.md`). All 576 points of order 30, as 288 pairs ±v. The 240
+  pairs whose first coordinate has a 5-part are all aligned and hierarchical, converged, in exactly the act's line's 12
+  classes at 5 times its sizes. The 48 without a 5-part carry every sealed failure (E1's six unaligned, E2, and K0's
+  dependence on the frozen end at a = 0); they are not claimed. Diagnosis post hoc, disclosed.
 - **M46 to M53 read** (main at be8c83d4f). SM-C22's count corrected to 5 018 (M46). No section of the 2026-10-07 relay
   is withdrawn by this seat. M51's W47 convention, M52 and M53 are open.
 - **M40 to M45 read** (main at f1efc59dd), and acted on:

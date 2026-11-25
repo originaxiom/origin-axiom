@@ -1,0 +1,47 @@
+point 0
+point 48
+point 96
+point 144
+point 192
+point 240
+{
+ "E1 aligned (least |V_kk| >= 0.9 at height 50), all 288": 282,
+ "E1 aligned, on the act's line (48)": 48,
+ "E1 hierarchical in both quark sectors, all 288": 288,
+ "E1 aligned and hierarchical, all 288": 282,
+ "E2 largest distance of a 40-50 rate from the grid of 1/60": 0.008200958733888323,
+ "E2 points whose class is the same on 30-40 and 40-50": 242,
+ "E3 classes (40-50, on the grid of 1/60), all 288": 27,
+ "E3 classes on the act's line": 12,
+ "E3 class sizes": [
+  30,
+  30,
+  30,
+  30,
+  24,
+  20,
+  20,
+  15,
+  15,
+  15,
+  15,
+  10,
+  10,
+  4,
+  3,
+  2,
+  2,
+  2,
+  2,
+  2,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "E4 largest rate difference between v and -v (12 pairs)": 1.2020876694052163e-07,
+ "K0 largest rate change with the end moved by 0.05 (12 points)": 0.11709124040230656
+}

@@ -1,0 +1,4 @@
+a has a 5-part: 240 points; aligned and hierarchical 240; largest grid residual 1.2e-04; class kept 30-40 to 40-50 240; classes 12, sizes [30, 30, 30, 30, 20, 20, 15, 15, 15, 15, 10, 10]
+a has no 5-part: 48 points; aligned and hierarchical 42; largest grid residual 8.2e-03; class kept 30-40 to 40-50 2; classes 15, sizes [24, 4, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+the act's line (48 pairs): 12 classes; the same classes as the 240 with a 5-part: True; line sizes [6, 6, 6, 6, 4, 4, 3, 3, 3, 3, 2, 2]
+ratio of each class's size, all 240 to the line's 48: [5.0]
