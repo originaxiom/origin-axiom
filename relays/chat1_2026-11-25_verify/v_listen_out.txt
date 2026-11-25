@@ -1,0 +1,23 @@
+C0 trace identity, max error 3.7e-12 -> True
+C1 common fixed points over Q-bar [(0, 0, 0), (2, 2, 2)]; over F_p (p <= 47) exactly the two: True -> True
+C2 p = 3: the leaf is [(0, 0, 0)]
+C2 p =  5: leaf   41 points (formula   41), nonzero orbits 1
+C2 p =  7: leaf   29 points (formula   29), nonzero orbits 1
+C2 p = 11: leaf   89 points (formula   89), nonzero orbits 1
+C2 p = 13: leaf  209 points (formula  209), nonzero orbits 1
+C2 p = 17: leaf  341 points (formula  341), nonzero orbits 1
+C2 p = 19: leaf  305 points (formula  305), nonzero orbits 1
+C2 p = 23: leaf  461 points (formula  461), nonzero orbits 1
+C2 p = 29: leaf  929 points (formula  929), nonzero orbits 1
+C2 p = 31: leaf  869 points (formula  869), nonzero orbits 1
+C2 p = 37: leaf 1481 points (formula 1481), nonzero orbits 1
+C2 p = 41: leaf 1805 points (formula 1805), nonzero orbits 1
+C2 p = 43: leaf 1721 points (formula 1721), nonzero orbits 1
+C2 p = 47: leaf 2069 points (formula 2069), nonzero orbits 1
+C2 -> True; C3 -> True
+C4 |<dL, dR>| = 24 (signed permutations, det 1: True); mod 9 orbits [1, 6, 8, 12]; mod 2 group order 6; eigenvalues of dL + dR [1/2 - sqrt(7)*I/2, 1/2 + sqrt(7)*I/2, 1] -> True
+C5 280 nonzero integer readings (max |entry| <= 3000); all = 0 mod 3: True; classes 2 with sign patterns [[(-1, -1, 1), (-1, 1, -1), (1, -1, -1)], [(1, 1, 1)]]; positives closed under L, R: True -> True
+C6 R^-1(L(x, y, z)) = (Y, Z, X) -> True
+C7 mod 81: 2673 points over the common point, orbit sizes [648, 648, 648, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 12, 12, 12, 12, 8, 8, 8, 8, 6, 6, 6, 6, 1]; W+ is 648 x 648; factor present and irreducible: True, True; slowest non-undamped eigenvalue -1.915298164734+0.0e+00i (root: True); closed form 1.915298164734 with that minimal polynomial: True -> True
+C8 order of M mod 30: 60; modulo +-1: 60; powers with trace 0, +-1 mod 30: [] -> True
+SUMMARY: 9 of 9 items pass: {'C0': True, 'C1': True, 'C2': True, 'C3': True, 'C4': True, 'C5': True, 'C6': True, 'C7': np.True_, 'C8': True}
