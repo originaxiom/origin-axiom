@@ -18274,6 +18274,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1987": {
+   "slug": "listening 5 the unfolding up the tower",
+   "motifs": [
+    "metallic"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [

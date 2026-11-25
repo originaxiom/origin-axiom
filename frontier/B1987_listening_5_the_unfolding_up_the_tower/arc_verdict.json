@@ -1,0 +1,21 @@
+{
+ "id": "B1987",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1986", "B1985", "B1984"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: functions on every orbit of the moves over the common point on the cusp's leaf mod 27, 81, 125, 343",
+  "object": "the unweighted unfolding W+ = P_L + P_R (and W+-) and its undamped modes and slowest decays",
+  "reach": "class",
+  "hypotheses": "numpy eigenvalues of permutation sums up to 1176 x 1176; levels beyond those run not computed; no rate read as physical"
+ },
+ "claim_one_line": "LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every move; the alternation lives on every orbit that continues outward (body diagonals, free and grown orbits) and on no dead end; no other clock appears; the cube's structures decay at 1/sqrt 2 per move at every level and the grown orbits more slowly (0.84 to 0.96)",
+ "weave_or_thread": "weave (every move acting together, every history unweighted, nothing chosen)"
+}

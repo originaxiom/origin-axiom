@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1683 of 1683 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1684 of 1684 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1176)
+## PROVED (1177)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1188,6 +1188,7 @@
 | `B1984` | “LISTENING 2, THE MOVES ON THE CHARACTERS MOD EVERY N <= 64 (PROVED, exact; data-free): the whole action connects the cusp's leaf at every prime and composite moduli are only CRT products (post hoc); the one place it leaves structure is the common point, whose neighbourhood it acts on, at every prime tested, as the linear group of its moves at the origin, the cube's rotation group of order 24 (post hoc, exact at 9, 25, 49); mod 9 the cusp's leaf is the cube (centre, 6 faces, 8 vertices, 12 edges); a three from behaviour, not asked for” |  | 0 |
 | `B1985` | “LISTENING 3, THE COMMON POINT'S NEIGHBOURHOOD UP THE TOWER (PROVED, exact on the towers run; data-free): the moves repeat the cube (orbits 1, 6, 8, 12) at every scale over the common point and unfold out of it only along its tangent cone x^2 + y^2 + z^2 = 0 (post hoc, exact at p = 3, 5, 7 from p^2 to p^3); at 3 the cone is the cube's four body diagonals, along which lies the Markoff root (3, 3, 3); the big orbits grow by 9 per level at 3” |  | 0 |
 | `B1986` | “LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation that flips with every move and lives on the body-diagonal orbits (post hoc, by characters); it damps the doublet at 1/2 and the triplets at 1/2 and 1/sqrt(2) per move, their complex eigenvalues (+-1 +- i sqrt 7)/2 in Q(sqrt -7), the trace field of the record's arithmetic chiral pair; the leaf's gap below the top mod p is positive and uneven (post hoc)” |  | 0 |
+| `B1987` | “LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every move; the alternation lives on every orbit that continues outward (body diagonals, free and grown orbits) and on no dead end; no other clock appears; the cube's structures decay at 1/sqrt 2 per move at every level and the grown orbits more slowly (0.84 to 0.96)” |  | 0 |
 
 ## NEGATIVE (388)
 

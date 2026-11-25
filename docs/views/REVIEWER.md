@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1683** |
-| words of findings prose | **1,545,949** |
+| research arcs with findings | **1684** |
+| words of findings prose | **1,546,561** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1683** (100.0 %) |
+| arcs carrying an authored verdict | **1684** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1176 |
+| PROVED | 1177 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1986`** (853 words, 0 locks)  
-“LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation that flips with every move and lives on the body-diagonal orbits (post hoc, by characters); it damps the doublet at 1/2 and the triplets at 1/2 and 1/sqrt(2) per move, their complex eigenvalues (+-1 +- i sqrt 7)/2 in Q(sqrt -7), the trace field of the record's arithmetic chiral pair; the leaf's gap below the top mod p is positive and uneven (post hoc)”  
-`B1986_listening_4_the_unweighted_unfolding_on_the_common_points_structure/FINDINGS.md`
+**PROVED — `B1987`** (612 words, 0 locks)  
+“LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every move; the alternation lives on every orbit that continues outward (body diagonals, free and grown orbits) and on no dead end; no other clock appears; the cube's structures decay at 1/sqrt 2 per move at every level and the grown orbits more slowly (0.84 to 0.96)”  
+`B1987_listening_5_the_unfolding_up_the_tower/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

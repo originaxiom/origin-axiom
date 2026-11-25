@@ -1,0 +1,33 @@
+== mod 27 over the common point: 7 orbits
+  orbits of    1 (x1): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 0.0000 (ratio 0.0000); W+- gap below the top 0.0000
+  orbits of    6 (x1): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of    8 (x1): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   12 (x1): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   72 (x3): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 0.3542
+  [0 s]
+== mod 81 over the common point: 42 orbits
+  orbits of    1 (x1): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 0.0000 (ratio 0.0000); W+- gap below the top 0.0000
+  orbits of    6 (x4): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of    8 (x4): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   12 (x4): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   24 (x26): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of  648 (x3): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.9153 (ratio 0.9577); W+- gap below the top 0.0405
+  [1 s]
+== mod 125 over the common point: 35 orbits
+  orbits of    1 (x1): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 0.0000 (ratio 0.0000); W+- gap below the top 0.0000
+  orbits of    6 (x2): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of    8 (x2): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   12 (x2): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   24 (x3): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of  120 (x25): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.6779 (ratio 0.8389); W+- gap below the top 0.1301
+  [1 s]
+== mod 343 over the common point: 35 orbits
+  orbits of    1 (x1): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 0.0000 (ratio 0.0000); W+- gap below the top 0.0000
+  orbits of    6 (x3): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of    8 (x3): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   12 (x3): undamped modes at arguments (turns) [0.0]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of   24 (x11): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.4142 (ratio 0.7071); W+- gap below the top 2.0000
+  orbits of 1176 (x14): undamped modes at arguments (turns) [0.0, 0.5]; slowest decay |eigenvalue| 1.8552 (ratio 0.9276); W+- gap below the top 0.0668
+  [14 s]
+SUMMARY T1: the undamped modes' arguments over every orbit and level run (turns; 0 = the constant, 0.5 = the sign): [0.0, 0.5]
+SUMMARY T2: on the grown orbits the slowest decay ratios: [(27, 72, np.float64(0.7071)), (81, 648, np.float64(0.9576)), (125, 120, np.float64(0.839)), (343, 1176, np.float64(0.9276))]
