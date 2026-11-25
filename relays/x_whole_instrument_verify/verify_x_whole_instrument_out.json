@@ -1,0 +1,335 @@
+{
+  "WI_1_m12_cohomology_p96": {
+    "exact_order_30_count": 576,
+    "kernel_counts_by_divisor": {
+      "1": 0,
+      "10": 0,
+      "12": 96,
+      "15": 0,
+      "2": 0,
+      "20": 0,
+      "3": 0,
+      "30": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "60": 576
+    },
+    "matches_b1976_p96_count": 96,
+    "minimal_nonzero_cover_degree": 12,
+    "n_orbits": 8,
+    "orbit_lengths": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12
+    ],
+    "ord_M_mod_30": 60
+  },
+  "WI_2_matrix_sl2z_cube_covariance": {
+    "L2_at_i": "2.719257628101921",
+    "L2_at_omega": "2.786475142883476",
+    "max_matrix_sl2z_rel_err": "8.0203279e-32",
+    "max_weight0_phase_modulus_err": "5.854827e-32",
+    "order_W_M": 3,
+    "order_W_SL2Z_Oh": 48,
+    "order_chiral_WL_WR_cube": 24,
+    "order_projective_Aut_Q8_S4": 24,
+    "pc_wi_3_unshifted_S_ratio_rel_err": "0.13201288"
+  },
+  "WI_3_3d_geodesic_operators_and_churn": {
+    "geodesic_midpoint_identity_err": "9.8607613e-32",
+    "max_72_haar_scrambling_err": "3.8215689e-29",
+    "max_orbit_shift_err": "3.1061398e-29",
+    "odd_level_deck_commutant_ckm_lock": {
+      "P15": {
+        "down_ratios_cf": [
+          "0.1800291079",
+          "0.3722377925"
+        ],
+        "lep_ratios_cf": [
+          "0.03283354116",
+          "0.04727297732"
+        ],
+        "max_commutator_with_WM": "1.3012384e-31",
+        "max_deviation_from_zero_mixing": "3.9443045e-31",
+        "up_ratios_cf": [
+          "0.2678727698",
+          "0.2818423276"
+        ]
+      },
+      "P5": {
+        "down_ratios_cf": [
+          "0.04641708791",
+          "0.1111806038"
+        ],
+        "lep_ratios_cf": [
+          "0.03283354116",
+          "0.04727297732"
+        ],
+        "max_commutator_with_WM": "2.3757255e-31",
+        "max_deviation_from_zero_mixing": "3.9443045e-31",
+        "up_ratios_cf": [
+          "0.005624894373",
+          "0.03363480196"
+        ]
+      }
+    },
+    "orbit_0_continuum_nsub4_48slices": {
+      "ckm_diag_min": "0.959122392157",
+      "down_ratios": [
+        "0.319082463643",
+        "0.472937214772"
+      ],
+      "up_ratios": [
+        "0.207273893847",
+        "0.325551190923"
+      ]
+    },
+    "orbit_0_cutfree_floquet": {
+      "ckm_diag_min": "0.983442879495",
+      "ckm_v12": "0.10850556397",
+      "ckm_v23": "0.0863555354082",
+      "down_ratios": [
+        "0.281776594324",
+        "0.531552193162"
+      ],
+      "lep_ratios": [
+        "0.0528262042904",
+        "0.173829588171"
+      ],
+      "up_ratios": [
+        "0.202755632013",
+        "0.387878632825"
+      ]
+    },
+    "orbit_0_floquet_moduli_up_ratios": [
+      "0.121565729222",
+      "0.142165686382"
+    ],
+    "orbit_0_kappa2_up_ratio_0": "0.5014673145",
+    "orbit_0_kk_72x72": {
+      "ckm_diag_min": "0.956305036452",
+      "down_ratios": [
+        "0.816656501727",
+        "0.9301707724"
+      ],
+      "lep_ratios": [
+        "0.708421452498",
+        "0.96470679212"
+      ],
+      "up_ratios": [
+        "0.791691309652",
+        "0.915984952659"
+      ]
+    },
+    "pc_wi_1_naive_untransported_haar_err": "0.40785926",
+    "pc_wi_2_single_cut_orbit_shift_err": "0.43093195"
+  },
+  "WI_4_p96_orbit_reduction_and_shell": {
+    "amphicheiral_Q0_orbit_map": {
+      "0": 0,
+      "1": 6,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 7,
+      "6": 1,
+      "7": 5
+    },
+    "amphicheiral_fixed_orbits": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "four_pair_summary": [
+      {
+        "amphicheiral_self_conjugate": true,
+        "ckm_diag_min": "0.9834428795",
+        "ckm_v23": "0.08635553541",
+        "down_ratios": [
+          "0.2817765943",
+          "0.5315521932"
+        ],
+        "lep_ratios": [
+          "0.05282620429",
+          "0.1738295882"
+        ],
+        "pair": [
+          0,
+          2
+        ],
+        "up_ratios": [
+          "0.202755632",
+          "0.3878786328"
+        ]
+      },
+      {
+        "amphicheiral_self_conjugate": false,
+        "ckm_diag_min": "0.8707206192",
+        "ckm_v23": "0.1984901549",
+        "down_ratios": [
+          "0.1168460467",
+          "0.3727737579"
+        ],
+        "lep_ratios": [
+          "0.05282620429",
+          "0.1738295882"
+        ],
+        "pair": [
+          1,
+          6
+        ],
+        "up_ratios": [
+          "0.2819078856",
+          "0.8366222887"
+        ]
+      },
+      {
+        "amphicheiral_self_conjugate": true,
+        "ckm_diag_min": "0.8371362213",
+        "ckm_v23": "0.3303868915",
+        "down_ratios": [
+          "0.1195516009",
+          "0.3575698169"
+        ],
+        "lep_ratios": [
+          "0.04942054707",
+          "0.1830767539"
+        ],
+        "pair": [
+          3,
+          4
+        ],
+        "up_ratios": [
+          "0.1606976636",
+          "0.5018997772"
+        ]
+      },
+      {
+        "amphicheiral_self_conjugate": false,
+        "ckm_diag_min": "0.6130973794",
+        "ckm_v23": "0.5214474159",
+        "down_ratios": [
+          "0.2771998669",
+          "0.6725147321"
+        ],
+        "lep_ratios": [
+          "0.04942054707",
+          "0.1830767539"
+        ],
+        "pair": [
+          5,
+          7
+        ],
+        "up_ratios": [
+          "0.2279310724",
+          "0.3226175854"
+        ]
+      }
+    ],
+    "full_96_point_shell": {
+      "ckm_diag_min": "0.8244351933",
+      "down_ratios": [
+        "0.5184435495",
+        "0.7673156242"
+      ],
+      "lep_ratios": [
+        "0.347248378",
+        "0.8312401402"
+      ],
+      "up_ratios": [
+        "0.5144821633",
+        "0.6823989772"
+      ]
+    },
+    "inversion_orbit_pairing": {
+      "0": 2,
+      "1": 6,
+      "2": 0,
+      "3": 4,
+      "4": 3,
+      "5": 7,
+      "6": 1,
+      "7": 5
+    },
+    "max_inversion_pair_spectral_diff": "1.2424559e-29"
+  },
+  "WI_5_8_3_4_three_cusp_spinor_and_churn": {
+    "canonical_longitude_word": "bABaaBAb",
+    "cusps_8_3_4": [
+      {
+        "cusp_degree": 1,
+        "exponential_l2_spinor_decay": true,
+        "im_tau_F": "3.4641016151378",
+        "sheet_rep": 0,
+        "spin_traces_rho0": [
+          -2,
+          -2
+        ],
+        "spin_traces_rho1": [
+          2,
+          -2
+        ]
+      },
+      {
+        "cusp_degree": 2,
+        "exponential_l2_spinor_decay": true,
+        "im_tau_F": "1.7320508075689",
+        "sheet_rep": 1,
+        "spin_traces_rho0": [
+          2,
+          -2
+        ],
+        "spin_traces_rho1": [
+          2,
+          -2
+        ]
+      },
+      {
+        "cusp_degree": 2,
+        "exponential_l2_spinor_decay": true,
+        "im_tau_F": "1.7320508075689",
+        "sheet_rep": 2,
+        "spin_traces_rho0": [
+          2,
+          -2
+        ],
+        "spin_traces_rho1": [
+          2,
+          -2
+        ]
+      }
+    ],
+    "longitude_perm_on_8_3_4": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "order_interior_holonomy_deg1_WM": 3,
+    "order_interior_holonomy_deg2_WM2": 3
+  },
+  "all_modules_and_controls_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-25_whole_instrument_m12_covariance_and_cube_churn",
+  "firewall": "strictly_0_of_19",
+  "planted_controls": {
+    "PC_WI_1_naive_product_caught_by_haar_gate": true,
+    "PC_WI_2_single_cut_caught_by_orbit_shift_gate": true,
+    "PC_WI_3_unshifted_S_end_law_caught": true,
+    "PC_WI_4_odd_level_p5_p15_zero_ckm_caught": true
+  },
+  "script_sha256": "e0afece4f691b36bca1b8c7bde4fbea00ddad27073601174a78f456201273555"
+}
