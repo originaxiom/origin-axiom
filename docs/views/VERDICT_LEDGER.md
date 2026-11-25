@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1681 of 1681 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1682 of 1682 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1174)
+## PROVED (1175)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1186,6 +1186,7 @@
 | `B1982` | “FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log|tau| (B1667, B1724, B1921), frame C passes S to 6e-16 at three height pairs over 96 x 899 points (T exact, B1980), so nothing in it breaks S; B1980's S failure was main's end-law error (retracted); the norm is needed for the covariance (without it 0.08 to 0.15), the a0 term is not; no duality tau -> -K/tau beyond SL(2, Z) (K in {2,...,900}) holds with the end evaluated covariantly; the sealed single-ablation card (E1 to E6) failed as run under the wrong end law” |  | 0 |
 | `B1983` | “LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they connect all nonzero points at every prime 5 <= p <= 47 (at p = 3 the leaf is the common point alone), and post hoc the cusp's leaf is the only integer leaf (to +-40) connected at every prime; the swap P changes no orbit; so the whole singles out the cusp and leaves structure on it only at 2 and 3” |  | 0 |
 | `B1984` | “LISTENING 2, THE MOVES ON THE CHARACTERS MOD EVERY N <= 64 (PROVED, exact; data-free): the whole action connects the cusp's leaf at every prime and composite moduli are only CRT products (post hoc); the one place it leaves structure is the common point, whose neighbourhood it acts on, at every prime tested, as the linear group of its moves at the origin, the cube's rotation group of order 24 (post hoc, exact at 9, 25, 49); mod 9 the cusp's leaf is the cube (centre, 6 faces, 8 vertices, 12 edges); a three from behaviour, not asked for” |  | 0 |
+| `B1985` | “LISTENING 3, THE COMMON POINT'S NEIGHBOURHOOD UP THE TOWER (PROVED, exact on the towers run; data-free): the moves repeat the cube (orbits 1, 6, 8, 12) at every scale over the common point and unfold out of it only along its tangent cone x^2 + y^2 + z^2 = 0 (post hoc, exact at p = 3, 5, 7 from p^2 to p^3); at 3 the cone is the cube's four body diagonals, along which lies the Markoff root (3, 3, 3); the big orbits grow by 9 per level at 3” |  | 0 |
 
 ## NEGATIVE (388)
 

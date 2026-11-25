@@ -18243,6 +18243,20 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1985": {
+   "slug": "listening 3 the common points neighbourhood up the tower",
+   "motifs": [
+    "metallic",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B603"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [

@@ -1,0 +1,5 @@
+p = 3: directions u (mod p) over the common point with lifts to the leaf mod p^3: 9; isotropic for x^2+y^2+z^2 over F_3: 9; equal sets: True
+   p = 3: the nonzero isotropic directions are exactly the 8 cube vertices (+-1, +-1, +-1): True
+p = 5: directions u (mod p) over the common point with lifts to the leaf mod p^3: 25; isotropic for x^2+y^2+z^2 over F_5: 25; equal sets: True
+p = 7: directions u (mod p) over the common point with lifts to the leaf mod p^3: 49; isotropic for x^2+y^2+z^2 over F_7: 49; equal sets: True
+(3, 3, 3): on the cusp's leaf over the integers (x^2+y^2+z^2 = xyz): True; its direction over the common point mod 9 is (1, 1, 1), a cube vertex: True

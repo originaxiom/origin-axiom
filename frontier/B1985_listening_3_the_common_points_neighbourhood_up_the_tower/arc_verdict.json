@@ -1,0 +1,21 @@
+{
+ "id": "B1985",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1984", "B1983", "B1601", "B1687"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the fibre's characters on the cusp's leaf mod p^k over the common point, p = 3 (k = 2..5), p = 5, 7 (k = 2, 3)",
+  "object": "the orbits of the grammar's moves acting together, their nesting from level to level, and which directions lift",
+  "reach": "class",
+  "hypotheses": "exact on the towers run; the tangent-cone law (k = 2 to 3, p = 3, 5, 7) and the cube vertices at 3 are post hoc and checked exactly; all k and p not proved"
+ },
+ "claim_one_line": "LISTENING 3, THE COMMON POINT'S NEIGHBOURHOOD UP THE TOWER (PROVED, exact on the towers run; data-free): the moves repeat the cube (orbits 1, 6, 8, 12) at every scale over the common point and unfold out of it only along its tangent cone x^2 + y^2 + z^2 = 0 (post hoc, exact at p = 3, 5, 7 from p^2 to p^3); at 3 the cone is the cube's four body diagonals, along which lies the Markoff root (3, 3, 3); the big orbits grow by 9 per level at 3",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}
