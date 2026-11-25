@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1679 of 1679 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1680 of 1680 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1172)
+## PROVED (1173)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1184,6 +1184,7 @@
 | `B1979` | “THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than 2.2e-4 on 30-40); B1977's 17 classes were partly a finite-interval artefact, the converged classes are 12 (sizes 12,12,12,12,8,8,6,6,6,6,4,4), stable at 96 of 96; the lepton m2/m3 rate is 2/5 at every point; the menu for route (d) is 12” |  | 0 |
 | `B1980` | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; data-free) [CORRECTED 2026-11-25, B1982: part B's 'frame C fails S, it reads the curve through one cusp' WITHDRAWN - main's end-law error; with the record's law L(-1/tau) = L(tau) + log|tau| frame C is SL(2,Z)-covariant]: the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so one thread's symmetry singles out only cusps and fixes no depth; the cusps fixed by M^12 are exactly B1976's 96 points up to sign (post hoc); no duality tau -> -K/tau (K in {2,3,5,6,10,15,30,60,900}) holds with the end evaluated covariantly (B1982)” |  | 0 |
 | `B1982` | “FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log|tau| (B1667, B1724, B1921), frame C passes S to 6e-16 at three height pairs over 96 x 899 points (T exact, B1980), so nothing in it breaks S; B1980's S failure was main's end-law error (retracted); the norm is needed for the covariance (without it 0.08 to 0.15), the a0 term is not; no duality tau -> -K/tau beyond SL(2, Z) (K in {2,...,900}) holds with the end evaluated covariantly; the sealed single-ablation card (E1 to E6) failed as run under the wrong end law” |  | 0 |
+| `B1983` | “LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they connect all nonzero points at every prime 5 <= p <= 47 (at p = 3 the leaf is the common point alone), and post hoc the cusp's leaf is the only integer leaf (to +-40) connected at every prime; the swap P changes no orbit; so the whole singles out the cusp and leaves structure on it only at 2 and 3” |  | 0 |
 
 ## NEGATIVE (388)
 

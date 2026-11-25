@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1679 |
-| … PROVED | 1172 |
+| arcs with a verdict file | 1680 |
+| … PROVED | 1173 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1983 | PROVED | “LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they co…” |
 | B1982 | PROVED | “FRAME C IS SL(2, Z)-COVARIANT AT ORDER 30 WITH ITS OWN END LAW (PROVED; data-free): with the canonical end transformed by the record's law L(-1/tau) = L(tau) + log∣tau∣ (B1667, B1724, B1921), frame C passes S to 6e-16 a…” |
 | B1981 | NEGATIVE | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's me…” |
 | B1980 | PROVED | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; data-free) [CORRECTED 2026-11-25, B1982: part B's 'frame C fails S, it reads the curve through one cusp' WITHDRAWN - main's end-law error; with the record's law L(-1/tau)…” |
@@ -42,7 +43,6 @@
 | B1974 | PROVED | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose…” |
 | B1973 | PROVED | “THE ONE-DOUBLET MIXING TRADE-OFF (P-879), SETTLED AT ITS ENDS BY TWO SEATS' PROOFS, VERIFIED ON MAIN (PROVED for its checks; data-free): agy-002's ceiling sup∣V33∣ = (1+s_L)/(3-s_L) at a null Higgs holds on main's own c…” |
 | B1972 | PROVED | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral…” |
-| B1971 | PROVED | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: FRAME C IS SL(2, Z)-COVARIANT WITH ITS OWN END LAW (B1982, PROVED); B1980'S 'ONE CUSP' CLAIM WITHDRAWN; THE WEAVE LABEL DRIFTED (P-883); THE ORDER-30 LINE ON HOLD; data-free).** With the canonical end transformed by the record's law (B1667, B1724, B1921), frame C passes S to 6e-16; B1980's S failure was main's end-law error, retracted. The instrument is whole; what reads through one hole is the read-out. At the author's word ("listen to the interactions' natural unfolding, without sculpting the Standard Model"): B1976 to B1982 relabelled thread or frame results; 26 earlier arcs labelled 'the weave' owed a relabel (P-883); the order-30 line and route (d)'s card on…”
+“LATEST (2026-11-25, S306p: LISTENING 1 (B1983, PROVED; a weave result; data-free)).** The listening line opened at the author's word. With nothing chosen, the grammar's moves acting together on the fibre's characters over every finite field fix only the common point and the trivial character, and connect the cusp's leaf (kappa = -2) at every prime from 5 to 47; post hoc it is the only integer leaf to +-40 so connected. The swap changes no orbit. The whole singles out the cusp and leaves structure on it only at 2 and 3; level 5 is the golden thread's own. Next: the field the whole forces at its levels, then the loop. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

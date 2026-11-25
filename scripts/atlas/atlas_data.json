@@ -18205,6 +18205,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1983": {
+   "slug": "listening 1 the moves on the characters over every finite field",
+   "motifs": [
+    "arrow",
+    "monoid",
+    "measurement",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B177",
+    "B309",
+    "B451",
+    "B497"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [
