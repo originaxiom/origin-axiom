@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1686 |
-| … PROVED | 1179 |
+| arcs with a verdict file | 1687 |
+| … PROVED | 1180 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1990 | PROVED | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it…” |
 | B1989 | PROVED | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives…” |
 | B1988 | PROVED | “THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (…” |
 | B1987 | PROVED | “LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every mo…” |
@@ -42,7 +43,6 @@
 | B1981 | NEGATIVE | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's me…” |
 | B1980 | PROVED | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; data-free) [CORRECTED 2026-11-25, B1982: part B's 'frame C fails S, it reads the curve through one cusp' WITHDRAWN - main's end-law error; with the record's law L(-1/tau)…” |
 | B1979 | PROVED | “THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than…” |
-| B1978 | PROVED | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at onl…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 6 (B1989, PROVED; a weave result; data-free)).** The whole's bound states over C sit at a discrete set of frustration levels, kappa = 2cos(2 pi k/n) with n in {1,2,3,4,5,6,10}; only the icosahedral ones carry the golden levels, so Q(sqrt 5) enters the whole as the level of its icosahedral bound states with no thread chosen. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 7 (B1990, PROVED; a weave result; data-free)).** Nothing in the grammar changes kappa, the records' frustrated remainder, so each frustration level is a sector of the whole; the law's own counting weighs every sector alike to leading order, the cusp the one level whose correction is three. So far the listening line yields structure, sectors and rates, not continuous values. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

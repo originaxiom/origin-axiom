@@ -1,0 +1,19 @@
+K1: the grammar's moves and the open ones conserve kappa: {'L': True, 'R': True, 'L^-1': True, 'R^-1': True, 'P (swap)': True, 'sign (-x,-y,z)': True, 'sign (-x,y,-z)': True, 'sign (x,-y,-z)': True} (inverses checked as inverses: True)
+K2: stratum 2 squaring a->a^2, b->b^2: (kappa' - 2)/(kappa - 2) = X**2*Y**2
+K2: stratum 2' period doubling a->ab, b->aa: (kappa' - 2)/(kappa - 2) = X**2
+K2: stratum 3 Thue-Morse a->ab, b->ba: (kappa' - 2)/(kappa - 2) = X**2 - X*Y*Z + Y**2
+K3: tr(a b a^-1 b^-1) = x^2 + y^2 + z^2 - xyz - 2 on SL(2): True
+K4: p =  3: cusp (kappa=-2)    1 = p^2 -8 [p^2 + 3(-1/p)p + 1 = 1]; nothing (kappa=2)   10 = p^2 +1; the other leaves: p^2 + [7]; most populated kappa [0], least [1]
+K4: p =  5: cusp (kappa=-2)   41 = p^2 +16 [p^2 + 3(-1/p)p + 1 = 41]; nothing (kappa=2)   26 = p^2 +1; the other leaves: p^2 + [-19, -9, 11]; most populated kappa [-2], least [-1]
+K4: p =  7: cusp (kappa=-2)   29 = p^2 -20 [p^2 + 3(-1/p)p + 1 = 29]; nothing (kappa=2)   50 = p^2 +1; the other leaves: p^2 + [-27, -13, 15, 29]; most populated kappa [-1], least [0]
+K4: p = 11: cusp (kappa=-2)   89 = p^2 -32 [p^2 + 3(-1/p)p + 1 = 89]; nothing (kappa=2)  122 = p^2 +1; the other leaves: p^2 + [-43, -21, 23, 45]; most populated kappa [-4, 3], least [-1, 1]
+K4: p = 13: cusp (kappa=-2)  209 = p^2 +40 [p^2 + 3(-1/p)p + 1 = 209]; nothing (kappa=2)  170 = p^2 +1; the other leaves: p^2 + [-51, -25, 27, 53]; most populated kappa [-1, 1], least [-6, -5, -3]
+K4: p = 17: cusp (kappa=-2)  341 = p^2 +52 [p^2 + 3(-1/p)p + 1 = 341]; nothing (kappa=2)  290 = p^2 +1; the other leaves: p^2 + [-67, -33, 35, 69]; most populated kappa [-6, 0, 6], least [-4, -3, -1, 7]
+K4: p = 19: cusp (kappa=-2)  305 = p^2 -56 [p^2 + 3(-1/p)p + 1 = 305]; nothing (kappa=2)  362 = p^2 +1; the other leaves: p^2 + [-75, -37, 39, 77]; most populated kappa [-1, 3, 7, 9], least [-5, -4, 4, 5]
+K4: p = 23: cusp (kappa=-2)  461 = p^2 -68 [p^2 + 3(-1/p)p + 1 = 461]; nothing (kappa=2)  530 = p^2 +1; the other leaves: p^2 + [-91, -45, 47, 93]; most populated kappa [-9, 4, 6, 10, 11], least [-7, -1, 0, 1, 7]
+K4: p = 29: cusp (kappa=-2)  929 = p^2 +88 [p^2 + 3(-1/p)p + 1 = 929]; nothing (kappa=2)  842 = p^2 +1; the other leaves: p^2 + [-115, -57, 59, 117]; most populated kappa [-11, -7, -3, 3, 7, 11], least [-9, -8, -6, -1, 4, 5, 14]
+K4: p = 31: cusp (kappa=-2)  869 = p^2 -92 [p^2 + 3(-1/p)p + 1 = 869]; nothing (kappa=2)  962 = p^2 +1; the other leaves: p^2 + [-123, -61, 63, 125]; most populated kappa [-15, -13, -1, 3, 6, 7, 12], least [-14, -8, -5, 0, 5, 8, 14]
+K4: p = 37: cusp (kappa=-2) 1481 = p^2 +112 [p^2 + 3(-1/p)p + 1 = 1481]; nothing (kappa=2) 1370 = p^2 +1; the other leaves: p^2 + [-147, -73, 75, 149]; most populated kappa [-14, -9, -5, -1, 1, 5, 9, 14], least [-18, -13, -12, -11, -6, -3, 7, 8, 10]
+K4: p = 41: cusp (kappa=-2) 1805 = p^2 +124 [p^2 + 3(-1/p)p + 1 = 1805]; nothing (kappa=2) 1682 = p^2 +1; the other leaves: p^2 + [-163, -81, 83, 165]; most populated kappa [-18, -7, -6, -3, 0, 3, 6, 7, 18], least [-20, -12, -11, -10, -4, -1, 8, 14, 16, 19]
+K4: p = 43: cusp (kappa=-2) 1721 = p^2 -128 [p^2 + 3(-1/p)p + 1 = 1721]; nothing (kappa=2) 1850 = p^2 +1; the other leaves: p^2 + [-171, -85, 87, 173]; most populated kappa [-20, -10, -5, -1, 8, 11, 12, 13, 15, 19], least [-21, -14, -9, -7, -4, 4, 7, 9, 14, 21]
+K4: p = 47: cusp (kappa=-2) 2069 = p^2 -140 [p^2 + 3(-1/p)p + 1 = 2069]; nothing (kappa=2) 2210 = p^2 +1; the other leaves: p^2 + [-187, -93, 95, 189]; most populated kappa [-21, -17, -13, 4, 5, 6, 10, 14, 16, 19, 23], least [-22, -15, -12, -7, -1, 0, 1, 7, 12, 15, 22]

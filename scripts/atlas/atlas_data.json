@@ -18358,6 +18358,29 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B1990": {
+   "slug": "listening 7 what changes kappa and the weight the law gives each level",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "figure_eight",
+    "kappa",
+    "quasicrystal",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B309",
+    "B497",
+    "K1",
+    "K2",
+    "K3",
+    "K4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

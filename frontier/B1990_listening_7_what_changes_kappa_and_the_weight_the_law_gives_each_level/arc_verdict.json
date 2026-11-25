@@ -1,0 +1,21 @@
+{
+ "id": "B1990",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B497", "B1347", "B1342", "B309", "B1988", "B1989"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the fibre's character variety, symbolic, and over F_p for every prime p <= 47",
+  "object": "which moves conserve kappa, the non-invertible strata's kappa-laws, kappa as tr[a, b], and the number of readings on every leaf",
+  "reach": "class",
+  "hypotheses": "the grammar's moves are those of GENESIS section 2 with the swap and the sign carried; the counts are complete for p <= 47 and not proved for all p"
+ },
+ "claim_one_line": "LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it (by (kappa - 2) M), outside the grammar; so each frustration level is a sector of the whole; the law's counting gives every leaf about p^2 readings: 'nothing' exactly p^2 + 1, the cusp exactly p^2 + 3(-1/p)p + 1 (the one level whose correction is three), the others p^2 + {-(4p-1), -(2p-1), 2p+1, 4p+1}; no level is preferred",
+ "weave_or_thread": "weave (every move, every leaf, nothing chosen)"
+}
