@@ -1,0 +1,17 @@
+K1 E_2(1j): Fourier 0.6106437295, lattice 0.6106437293
+K1 E_3(1j): Fourier 0.1502571129, lattice 0.1502571129
+K1 E_2((-0.5+0.8660254037844386j)): Fourier 0.5859768097, lattice 0.5859768096
+K1 E_3((-0.5+0.8660254037844386j)): Fourier 0.1335618781, lattice 0.1335618781
+K1 E_2((0.2+1.7j)): Fourier 0.8589534390, lattice 0.8589534393
+K1 E_3((0.2+1.7j)): Fourier 0.3496836256, lattice 0.3496836256
+K1 worst relative difference 2.89e-10
+K2 C111(1j): cutoffs ['1.333692', '1.341951', '1.346825', '1.349307'], extrapolated 1.352370; E_3 + zeta(3) = 1.352314; difference 5.63e-05
+K2 C111((-0.5+0.8660254037844386j)): cutoffs ['1.319309', '1.326582', '1.330811', '1.332984'], extrapolated 1.335604; E_3 + zeta(3) = 1.335619; difference -1.48e-05
+K2 C111((0.2+1.7j)): cutoffs ['1.521596', '1.534889', '1.542782', '1.546800'], extrapolated 1.551802; E_3 + zeta(3) = 1.551741; difference 6.19e-05
+K3 E_2^2 fitted by {1, E_2, E_3, E_4, E_5} on 40 points: relative rms residual 1.278e-04
+K4 beta/alpha = 0.01: stationary points at y = ['102.7']; |V_2/V_1| there ['0.7525']
+K4 beta/alpha = 0.001: stationary points at y = ['1030']; |V_2/V_1| there ['0.7553']
+K4 beta/alpha = 0.0001: stationary points at y = ['1.02e+04']; |V_2/V_1| there ['0.7479']
+K5 stationary points with Im tau in [1.2, 20] found: 12; any with |V_2| <= |V_1|/3: False
+
+K1 holds, K2 holds, K3 holds, K4 holds, K5 holds
