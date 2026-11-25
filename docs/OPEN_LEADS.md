@@ -1,5 +1,18 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Currency (2026-11-25, later, through B1997; read against every arc from B1987):** the live list of open leads is still the point register's open rows. What the window moved, on the listening line (all data-free, nothing chosen):
+> - the tower keeps exactly two undamped modes (B1987);
+> - PF5's loop is decided by the mathematics, and its one outcome is the common point (B1988);
+> - the bound states sit at κ = 2cos(2πk/n) (B1989);
+> - nothing in the grammar changes κ (B1990);
+> - the group at 2 is S₃ (B1991);
+> - what the whole selects is algebraic (B1992);
+> - the cusp's integer readings are one shape, ω (B1993);
+> - ω's own symmetry tells the three apart by charge (B1994), and the unfolding treats them alike in strength (B1995);
+> - at the whole's prime 3 the slowest decay settles (B1996) at λ*/2 = 0.957649… with λ* = √(w + √(w² − 4)), w = (1 + 4cos(π/9))/2, over ℚ(cos 2π/9) (B1997).
+>
+> **The open leads it leaves:** whether the 2- and 5-towers settle and on which fields; why ninth roots; the analytic field at ω (B1992); and the no-values question.
+
 > **Currency (2026-11-25, through B1986; read against every arc from B1976, at the landing of B1986):** the live list of open leads is still the point register's open rows. What the window moved:
 > - **The order-30 line is on hold.** B1976 to B1981 are thread results, built on the golden thread's act at a level reached after level 5 failed (P-845, P-860; relabelled, P-883). It established:
 >   - frame C is SL(2, ℤ)-covariant with its own end law (B1982; B1980's "one cusp" claim was main's end-law error, retracted);

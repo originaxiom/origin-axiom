@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1693 of 1693 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1694 of 1694 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1186)
+## PROVED (1187)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1198,6 +1198,7 @@
 | `B1994` | “LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; at the common point it is a third turn about (1, 1, 1), the diagonal the whole opens along, with eigenvalues 1, e^(2 pi i/3), e^(-2 pi i/3) on the triplet: omega's symmetry tells the three apart, one neutral and two with conjugate charges; it fixes the positive lift and cycles the other three” |  | 0 |
 | `B1995` | “LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike in strength: W+ has diagonal 2/3, 2/3, 2/3 in the charge basis, its slowest modes (1 +- i sqrt 7)/2 overlap each member 1/3, W+-'s long-run shares are 2/3 each; only the faster real mode (eigenvalue 1) avoids the neutral member; omega labels the three, the dynamics does not separate them in magnitude” |  | 0 |
 | `B1996` | “LISTENING 12, THE SLOW DECAY UP THE TOWER (PROVED numerically; data-free): on the tower of the whole's own prime 3 the unfolding's slowest non-undamped decay settles at lambda*/2 = 0.9576 per move, lambda* = 1.915298 real (with its negative), at mod 81, 243 and 729 (post hoc for 729) while the largest orbit grows ninefold each level; on the 5-tower it keeps rising (0.839, 0.995); lambda* is algebraic (an integer matrix's eigenvalue) and not yet identified: the first number the whole fixes by its own dynamics” |  | 0 |
+| `B1997` | “LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4 - 48x^2 + 64; post hoc, in closed form, lambda* = sqrt(w + sqrt(w^2 - 4)) with w = (1 + 4cos(pi/9))/2, over the cyclic cubic field Q(cos 2pi/9) of conductor 9 = 3^2 (the cubic's discriminant 72^2); the settled decay per move is lambda*/2 = 0.957649082367...” |  | 0 |
 
 ## NEGATIVE (388)
 

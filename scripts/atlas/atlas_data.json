@@ -18463,6 +18463,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1997": {
+   "slug": "listening 13 the exact identity of the wholes settled rate",
+   "motifs": [
+    "metallic",
+    "eisenstein"
+   ],
+   "refs": [
+    "B399",
+    "B771"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

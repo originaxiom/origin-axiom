@@ -1,0 +1,21 @@
+{
+ "id": "B1997",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1996", "B1992", "B1984"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: W+ on the largest orbit over the common point on the cusp's leaf mod 81, as an integer matrix",
+  "object": "the exact characteristic polynomial, its factorisation over Z, the irreducible factor of lambda*, and its closed form",
+  "reach": "class",
+  "hypotheses": "FLINT exact arithmetic; the closed form derived after the run and checked symbolically and at 60 digits"
+ },
+ "claim_one_line": "LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4 - 48x^2 + 64; post hoc, in closed form, lambda* = sqrt(w + sqrt(w^2 - 4)) with w = (1 + 4cos(pi/9))/2, over the cyclic cubic field Q(cos 2pi/9) of conductor 9 = 3^2 (the cubic's discriminant 72^2); the settled decay per move is lambda*/2 = 0.957649082367...",
+ "weave_or_thread": "weave (every move acting together, every history unweighted, nothing chosen)"
+}

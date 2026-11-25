@@ -1,0 +1,7 @@
+the sextic in nu = lambda^2/2, divided by 8: [8, -12, 6, -21, 6, -12, 8]; palindromic: True
+with w = nu + 1/nu: 8w^3 - 12w^2 - 18w + 3 = 8*w**3 - 12*w**2 - 18*w + 3; agrees with the sextic: True
+with w = (1 - 2y)/2: -8*y**3 + 24*y - 8 = -1 * (y^3 - 3y + 1): -8*(y**3 - 3*y + 1)
+discriminant of u^3 - 3u^2 - 9u + 3: 5184 = 72^2: True
+lambda* = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4cos(pi/9))/2: 1.91529816473407715555461825615
+P12(lambda*) at 60 digits: 3.1862e-58
+lambda*/2, the settled decay per move: 0.95764908236703857778

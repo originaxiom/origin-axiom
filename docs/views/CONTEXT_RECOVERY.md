@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1693 |
-| … PROVED | 1186 |
+| arcs with a verdict file | 1694 |
+| … PROVED | 1187 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1997 | PROVED | “LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4…” |
 | B1996 | PROVED | “LISTENING 12, THE SLOW DECAY UP THE TOWER (PROVED numerically; data-free): on the tower of the whole's own prime 3 the unfolding's slowest non-undamped decay settles at lambda*/2 = 0.9576 per move, lambda* = 1.915298 re…” |
 | B1995 | PROVED | “LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike…” |
 | B1994 | PROVED | “LISTENING 10, OMEGA'S OWN SYMMETRY (PROVED, exact; data-free): the reading (3, 3, 3) the whole selects is fixed by the move LR^-1, which acts on every reading as the cyclic exchange (x, y, z) -> (y, z, x), of order 3; a…” |
@@ -42,7 +43,6 @@
 | B1988 | PROVED | “THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (…” |
 | B1987 | PROVED | “LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every mo…” |
 | B1986 | PROVED | “LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation…” |
-| B1985 | PROVED | “LISTENING 3, THE COMMON POINT'S NEIGHBOURHOOD UP THE TOWER (PROVED, exact on the towers run; data-free): the moves repeat the cube (orbits 1, 6, 8, 12) at every scale over the common point and unfold out of it only alon…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 12 (B1996, PROVED numerically; a weave result; data-free)).** On the tower of the whole's own prime 3, its slowest forgetting settles at one number, lambda*/2 = 0.9576 per move (lambda* = 1.915298), the same at mod 81, 243 and 729; on the 5-tower it keeps rising. The first number the whole fixes by its own dynamics; algebraic, not yet identified, not read as physical. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 13 (B1997, PROVED; a weave result; data-free)).** The whole's settled rate at its own prime is exact: lambda*/2 = 0.957649082367... per move, with lambda* = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4cos(pi/9))/2. It lives over the real cubic field of the ninth roots of unity, conductor 9 = 3^2, the whole's prime squared. The first number the whole fixes by its own dynamics, known exactly; not read as physical. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

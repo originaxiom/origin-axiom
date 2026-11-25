@@ -1,0 +1,7 @@
+I1: mod 81, largest orbit 648; characteristic polynomial of degree 648 computed exactly  [7 s]
+I1: its factorisation over Z: 23 distinct irreducible factors; degrees with multiplicities [(12, 4), (12, 4), (12, 4), (12, 4), (12, 2), (12, 2), (6, 4), (6, 4), (6, 2), (6, 2), (6, 2), (6, 2), (4, 2), (4, 2), (2, 17), (2, 17), (2, 2), (2, 2), (2, 2), (1, 107)]
+I2: lambda* is a root of an irreducible factor of degree 12 (multiplicity 2 in the characteristic polynomial)
+I2: its coefficients (constant term first): [64, 0, -48, 0, 12, 0, -21, 0, 3, 0, -3, 0, 1]
+I2: its roots: [(-1.915298165+0j), (1.915298165+0j), (-1.037473769+0.961066167j), (-1.037473769-0.961066167j), (1.037473769+0.961066167j), (1.037473769-0.961066167j), (-0.695669143+1.231277565j), (-0.695669143-1.231277565j), (0.695669143+1.231277565j), (0.695669143-1.231277565j), (-1.044223838+0j), (1.044223838+0j)]
+I2: the factor is a polynomial in lambda^2: True
+J2: lambda*^2 = 3.668367059833 is a root of the degree-6 polynomial (constant first): [64, -48, 12, -21, 3, -3, 1]; irreducible: True
