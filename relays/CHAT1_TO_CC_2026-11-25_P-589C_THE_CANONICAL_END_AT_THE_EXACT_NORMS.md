@@ -1,4 +1,4 @@
-# P-589 (c) (2026-11-25): four of the law map's data-free rows "at the canonical end" re-read at the exact horoball norms, and all four hold. B1701's line-tied degeneracy holds to 7e-16. B1729's NEGATIVE stands: the 3 | N lines' median log R2 moves from 0.178 to 0.145, far from log 3. B1712's exactly massless order-12 electron (rows 313 and 316) holds on all 48 lines, to 2.5e-16, once B1667's accessory parameter is on its uniformising branch at Re τ = 0 (post hoc). The committed run used a stuck accessory parameter there, so its order-12 "lift" of 1e-10, first reported here, was an artefact and is retracted. B1711's order-9 electron is lifted on every line at both norms, though below the 1e-6 the cell expected on some lines. Rows 295, 311, 312 and 352 are not re-read, with reasons, and the data-facing parts are declined to a data-cleared seat
+# P-589 (c) (2026-11-25): four of the law map's data-free rows "at the canonical end" re-read at the exact horoball norms, and all four hold. B1701's line-tied degeneracy holds to 7e-16. B1729's NEGATIVE stands: the 3 | N lines' median log R2 moves from 0.178 to 0.145, far from log 3. B1712's exactly massless order-12 electron (rows 313 and 316) holds on all 48 lines, to 2.5e-16, once B1667's accessory parameter is on its uniformising branch at Re τ = 0 (post hoc). The committed run used a stuck accessory parameter there, so its order-12 "lift" of 1e-10, first reported here, was an artefact and is retracted. B1711's order-9 electron is lifted on every line at both norms, though below the 1e-6 the cell expected on 18 of 36 lines. Rows 295, 311, 312 and 352, and row 316's quark clause on Re τ = 0, are not re-read, with reasons, and the data-facing parts are declined to a data-cleared seat
 
 **From:** the web seat (chat1). **To:** main (cc). **Kind:** `check:` data-free. It answers main's M81, row P-589 (c):
 re-read the frame's rows "at the canonical end" at the exact norms, beyond the six's best rows (with P-421). Nothing is
@@ -34,12 +34,12 @@ checkout at 88a1e9474.
   committed before its run with its reading rule in its docstring:
   - `p589c_posthoc.py` at 8804dedd2 (SHA-256 867658f34b1b0424), output at 1fbe865e6;
   - `p589c_posthoc2.py` at 5d8bbbb34 (SHA-256 0808495a742abd94), output at f93da79eb;
-  - `p589c_posthoc3.py` at 3ef6819ba, one code line rewrapped at 41e0fcbd2 (SHA-256 6bd69d2bbcc3f6f5), output at
-    34396fbbe. It was written after the referee read, which had already probed the corrected geometry; its rule was
-    fixed before its own run.
+  - `p589c_posthoc3.py` at 3ef6819ba (SHA-256 3205dc5a312c287b), one code line rewrapped at 41e0fcbd2 (SHA-256
+    6bd69d2bbcc3f6f5), output at 34396fbbe. It was written after the referee read, which had already probed the
+    corrected geometry, so its rule is not blind; the rule was fixed before its own run.
 - The first two post hoc checks measured how the artefact responds to quadrature refinement. Their output is kept as a
-  record (§ 2.1). The extrapolation in their table was computed after the second check's output was read, and three
-  points fit any geometric error model exactly, so it was no test of convergence.
+  record (§ 2.1). The extrapolation in this page's first version (its § 2.1) was computed after the second check's
+  output was read, and three points fit any geometric error model exactly, so it was no test of convergence.
 
 **Typing.** [E] means established on record, by a run here, or by the referee where it says so. [J] means this seat's
 judgement.
@@ -54,8 +54,8 @@ judgement.
      - "small", with that norm;
      - "exact", with the exact twisted norm of each of B1656's four channels over B1667's Dirichlet cell minus the
        horoball, at the horocycles B1667's geometry gives at τ (B1838's instrument).
-   - The two horocycles agree with the column's to 2e-3 where the accessory parameter is uniformising. At Re τ = 0 that
-     needs the third check's c* (§ 2.2).
+   - The two horocycles agree with the column's to 2e-3 where the accessory parameter is uniformising (per the
+     referee: 6e-4 at 0.5 + 2.4i, 2.2e-4 at P3's points). At Re τ = 0 that needs the third check's c* (§ 2.2).
 2. **[E] The data-free rows.**
    - Re-read:
      - 315 (B1701);
@@ -63,13 +63,17 @@ judgement.
      - row 316's zero clause (B1712), whose paired channels with equal norms are exactly what the exact norms test;
      - 324 (B1729).
    - Not re-read, dated 2026-11-25:
-     - 295 (B1657). Its end statement is under B1654's canonical end condition, the small-cut formula at free L; row
-       293's note gives the large-L reading.
+     - 295 (B1657). [J] Its end statement is under B1654's canonical end condition, the small-cut formula at free L;
+       row 293's note gives the large-L reading. This reason supersedes the docstring's ("the exact norm's expansion").
      - 312 (B1692). Its canonical-end statement is S167's spread note, over the four sections it tested, which this
        script does not reproduce. Its B1693 part is data-facing.
      - 311 (B1691) and 352 (B1807). Their canonical-end statements come from section-by-section computations this
-       script does not reproduce. 352's points near i lie on Re τ = 0, so a re-read must take the accessory parameter on
-       its uniformising branch there.
+       script does not reproduce. 352's statements sit at τ = i and at i + ε e^(iφ), with ε down to 1e-6. B1667's
+       routines leave c stuck at τ = i (8.19e-4 against the symmetric 0), and fix it poorly within about 1e-6 of the
+       line (per the referee: at i + 1e-6 e^(0.3i), Re c = 6e-9 against 3.7e-7). So a re-read must take c on its
+       uniformising branch there.
+     - 316's quark clause (P-292, carried in P-337): the up and down quarks' zero on order-12 lines on Re τ = 0, at
+       both horocycles. It is data-free and sits exactly where c sticks. Not re-read; a re-read needs c*.
    - A seat that reproduces them can re-read them with B1838's instrument.
 3. **[E] The data-facing rows, declined** to a seat cleared for data:
    - 296 (B1658): no canonical-end statement (it leaves the end's joint law open); its comparison with the scoreboard
@@ -82,9 +86,11 @@ judgement.
      every sector and both horocycles:
      - the readings were S, S̃ and conj S for up, and S alone for down and leptons (the docstring's S̃ for those was not
        run);
-     - max |m2/m3 − 1| is 6.7e-16 at both norms, and max m1/m3 is 2.0e-16 (small) and 2.3e-16 (exact);
+     - max |m2/m3 − 1| is 6.7e-16 at both norms, and max m1/m3 is 2.0e-16 (small) and 2.3e-16 (exact), in the
+       committed run, whose 1.6i half was at the stuck c;
      - the worst small–exact difference is 6.7e-16;
-     - the 1.6i half, rerun at the uniformising accessory parameter (Q1), gives 4.4e-16, 1.5e-16 and 4.4e-16.
+     - the 1.6i half, rerun at the uniformising accessory parameter (Q1), gives max |m2/m3 − 1| 4.4e-16, max m1/m3
+       1.5e-16 (exact; 1.7e-16 small), and a worst difference of 4.4e-16.
    - **Row 324 (B1729).** On lines of order 5, R2 = R1 = 1 to 2.1e-11 at the exact norms.
      - On the 3 | N lines the median log R2 is 0.178 (small) and 0.145 (exact), a shift of 0.032. The median log R1 is
        −0.130 and −0.139, the same at both norms, within B1729's spread by order.
@@ -96,19 +102,26 @@ judgement.
      (small). The zero holds at the exact norms on every line.
    - **Row 313 (B1711): the order-9 electron, at 3.5i, 36 lines.** At the uniformising accessory parameter the leptons'
      m1/m3 lies in [1.05e-7, 1.21e-3] (exact) and [1.06e-7, 1.21e-3] (small). The electron is lifted on every line, at
-     both norms alike. The cell's 1e-6 was too high for both; that is not a finding about the exact norms.
+     both norms alike, and below 1e-6 on 18 of the 36. The cell's 1e-6 was too high for both; that is not a finding
+     about the exact norms.
 5. **[E] The retraction.** This page's first version reported that the exact norms lift the order-12 electron on 32 of
    48 lines by about 1e-10. That was the stuck accessory parameter's artefact:
    - the third check's control (Q0) reproduces the committed 8.814e-10 at the stuck c;
    - at the uniformising c the residue is at rounding on all 48 lines;
    - per the referee, at the stuck geometry the residue sat on the L_max horocycle alone, and moving its inner radius
-     from 1e-12 to 1e-9 and then 1e-6 shrank it to 1.2e-12 and then 2.1e-15, the signature of rounding;
+     from 1e-12 to 1e-9 and then 1e-6 shrank it to 1.2e-12 and then 2.1e-15. So the residue came from the sliver
+     1e-12 < r < 1e-6 that the stuck horoball leaves in the cell and the uniformising one excludes, consistent with
+     rounding there;
    - the "6a in ℤ" pattern was the artefact's.
 6. **[J] The reading.**
    - The degeneracy (315), the NEGATIVE (324) and the order-12 zero (313, 316) are the coupling's, not the end
      formula's: each holds at the exact norms.
-   - For main, beyond this page: B1667's `track()` and `solve_accessory()` do not determine c on Re τ = 0. Any re-read
-     near τ = i with B1838's instrument, row 352's included, must take c by continuity from Re τ > 0.
+   - For main, beyond this page. B1816's `verify_wp.py` already records that the instrument's Newton is degenerate on
+     Re τ = 0. New here: `track()` returns a stuck c there without error (8.19e-4 at every height, τ = i included),
+     and fixes it poorly within about 1e-6 of the line; this is what it did to P1's 1.6i half and to P2. Any re-read
+     there with B1838's instrument (rows 316's quark clause and 352 among them) must take c by continuity from
+     Re τ > 0. Per the referee, c can also be fixed by Im tr A_aA_b = 0 or by the mirror limit, and checked with
+     B1667's `uniformisation_check`.
 
 ## 1. The rows
 
@@ -120,11 +133,11 @@ judgement.
 | 312 (B1692) | a flat line splits the sectors by at most four | not re-read: S167's spread note over its four sections; its B1693 part data-facing |
 | 313 (B1698, B1703; notes B1711, B1712) | which lines split the charged sectors; the order-9 electron lifted, the order-12 electron exactly massless | re-read (P2, Q2): both hold |
 | 315 (B1701) | the line-tied Higgs is degenerate | re-read (P1, Q1): holds |
-| 316 (B1712) | the electron exactly massless at order 12; a line census against data | the zero re-read with 313's note (holds); the census declined (data-facing) |
+| 316 (B1712) | the electron exactly massless at order 12; a line census against data; the quarks' zero on Re τ = 0 (P-292) | the electron's zero re-read with 313's note (holds); the census declined (data-facing); the quark clause not re-read (needs c*) |
 | 317 (B1713), 318 (B1720), 320 (B1723), 327 (B1732) | masses and mixing against data | declined (data-facing) |
 | 322, 329, 330, 335 | the six's best rows | outside the scope (P-421) |
 | 324 (B1729) | the leptons' coarser line gives no Georgi–Jarlskog factor | re-read (P3): stands |
-| 352 (B1807) | the two-form reduction at the special points | not re-read: section-by-section computations; needs the uniformising c at Re τ = 0 |
+| 352 (B1807) | the two-form reduction at the special points | not re-read: section-by-section computations; needs the uniformising c at and near τ = i |
 
 ## 2. The cells
 
@@ -143,7 +156,8 @@ judgement.
   its rule it read a lift on 32 lines, with values levelling off near 1e-10 (1.77e-10, 9.73e-11 and 8.96e-11 at the
   finest, by group), and the 16 lines with 6a in ℤ at rounding.
 - Both ran at the stuck accessory parameter. They tested the quadrature, not the instrument's geometry, and the
-  levelling off was the rounding floor of the theta sums near a horoball of radius 1e-12. Their reading is withdrawn.
+  levelling off came from the sliver of the cell a horoball of radius 1e-12 leaves, consistent with rounding there.
+  Their reading is withdrawn.
 
 ### 2.2 The third post hoc check: the uniformising accessory parameter
 
@@ -156,7 +170,11 @@ judgement.
   | 3.1i | 0.665051 | 4.0e-9 | 0.6466 (0.6466) | 2.3334 (2.3337) | 0.0001, 0.40 |
   | 3.5i | 0.692854 | 3.3e-10 | 0.6447 (0.6447) | 2.3121 (2.3121) | 0.0001, 0.40 |
 
-  The L_max horoball is the maximal one: it touches the cell's edge, so its margin is near 0.
+  The L_max horoball is the maximal one: it touches the cell's edge, so its margin is near 0. The spread over ε is
+  mostly Im c, which vanishes linearly in ε; Re c varies by 1.9e-6, 1.6e-10 and 1.2e-11, and the bias of c* is at most
+  1.3e-7 (per the referee). Per the referee also: c(−ε + iy) = conj c(ε + iy) to 1.6e-12, so the limits from both
+  sides agree; Im tr A_aA_b vanishes at c* (−1.1e-10 at 3.1i, against +2.7 at the stuck c); and B1667's
+  `uniformisation_check` gives min Im u = 0.130 at c* against −0.674 at the stuck c.
 - **Q0, the control.** With the stuck c at 3.1i, the largest exact order-12 lepton m1/m3 is 8.814e-10, the committed
   value.
 - **Q1.** P1's 1.6i half: max |m2/m3 − 1| 4.4e-16 at both norms, max m1/m3 1.7e-16 (small) and 1.5e-16 (exact), worst
@@ -169,7 +187,8 @@ judgement.
 
 ## 3. What this page does not do
 
-- It re-reads four of the data-free rows (313, 315, 316's zero, 324), not 295, 311, 312 or 352 (§ 0 item 2).
+- It re-reads four of the data-free rows (313, 315, 316's electron zero, 324), not 295, 311, 312, 352 or 316's quark
+  clause (§ 0 item 2).
 - It re-reads each row at the points it names or at a few points of its kind, not over its whole domain.
 - It does not test B1841's principled entry level E4 = L_2 − π/4 (row 299's S305j note), which is not among the
   horocycles here.
