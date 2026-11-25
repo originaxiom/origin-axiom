@@ -1,0 +1,446 @@
+{
+  "IMTAU_1_perturbative_1loop_2loop": {
+    "nonsusy_zero_cinf_points_out_of_96": 0,
+    "planted_control_pc1_1d_freeze_det_hess": "-2943.8598",
+    "planted_control_pc1_caught": true,
+    "poisson_kernel_max_err": "8.22774e-18",
+    "susy_ss_1d_x0_wells_found": 24,
+    "susy_ss_saddles": [
+      {
+        "V_star": "-17.15108623",
+        "V_xx": "-28.36136878",
+        "V_yy": "7.560320251",
+        "det_hess": "-215.0550132",
+        "eig_min": "-28.37900913",
+        "grad_x": "-2.178657898",
+        "point": [
+          "3/10",
+          "13/30"
+        ],
+        "y_1d_star": "2.2242255577"
+      },
+      {
+        "V_star": "-64.95768016",
+        "V_xx": "-357.7717804",
+        "V_yy": "155.9865588",
+        "det_hess": "-131671.4013",
+        "eig_min": "-477.5233586",
+        "grad_x": "158.3909538",
+        "point": [
+          "3/10",
+          "23/30"
+        ],
+        "y_1d_star": "1.38978045733"
+      },
+      {
+        "V_star": "-12.69984167",
+        "V_xx": "-32.73821075",
+        "V_yy": "12.8120758",
+        "det_hess": "-2943.859804",
+        "eig_min": "-65.12757162",
+        "grad_x": "39.85217934",
+        "point": [
+          "3/10",
+          "14/15"
+        ],
+        "y_1d_star": "1.95552442486"
+      },
+      {
+        "V_star": "-8.259066193",
+        "V_xx": "-9.083617519",
+        "V_yy": "3.641905479",
+        "det_hess": "-38.60061286",
+        "eig_min": "-9.503456579",
+        "grad_x": "0.9356129367",
+        "point": [
+          "11/30",
+          "7/30"
+        ],
+        "y_1d_star": "3.01768094395"
+      },
+      {
+        "V_star": "-94.24769648",
+        "V_xx": "-621.8731455",
+        "V_yy": "302.3386508",
+        "det_hess": "-205189.7227",
+        "eig_min": "-640.0955684",
+        "grad_x": "77.88176223",
+        "point": [
+          "11/30",
+          "17/30"
+        ],
+        "y_1d_star": "1.3303077561"
+      },
+      {
+        "V_star": "-10.21787534",
+        "V_xx": "-17.62409453",
+        "V_yy": "7.39766744",
+        "det_hess": "-431.2070816",
+        "eig_min": "-26.49900402",
+        "grad_x": "10.5202117",
+        "point": [
+          "11/30",
+          "11/15"
+        ],
+        "y_1d_star": "2.44846534806"
+      },
+      {
+        "V_star": "-8.204429199",
+        "V_xx": "-5.534779549",
+        "V_yy": "1.844378338",
+        "det_hess": "-31.66789765",
+        "eig_min": "-7.767418343",
+        "grad_x": "7.043381145",
+        "point": [
+          "11/30",
+          "9/10"
+        ],
+        "y_1d_star": "3.65227120202"
+      },
+      {
+        "V_star": "-36.591712",
+        "V_xx": "-74.36597722",
+        "V_yy": "26.54593848",
+        "det_hess": "-4465.157364",
+        "eig_min": "-94.88076256",
+        "grad_x": "-38.46117212",
+        "point": [
+          "13/30",
+          "1/5"
+        ],
+        "y_1d_star": "2.14270324831"
+      },
+      {
+        "V_star": "-97.36784728",
+        "V_xx": "-675.7045581",
+        "V_yy": "326.3436685",
+        "det_hess": "-240101.7029",
+        "eig_min": "-694.8870967",
+        "grad_x": "-80.47777429",
+        "point": [
+          "13/30",
+          "11/30"
+        ],
+        "y_1d_star": "1.29314214739"
+      },
+      {
+        "V_star": "-30.51582361",
+        "V_xx": "-74.02322627",
+        "V_yy": "29.78246209",
+        "det_hess": "-2279.146112",
+        "eig_min": "-74.73651475",
+        "grad_x": "-21.53095817",
+        "point": [
+          "13/30",
+          "7/10"
+        ],
+        "y_1d_star": "2.03435557378"
+      },
+      {
+        "V_star": "-9.718129821",
+        "V_xx": "-6.766138499",
+        "V_yy": "2.879315607",
+        "det_hess": "-28.22543743",
+        "eig_min": "-7.600467701",
+        "grad_x": "3.451828855",
+        "point": [
+          "13/30",
+          "13/15"
+        ],
+        "y_1d_star": "3.87319709515"
+      },
+      {
+        "V_star": "-49.53104481",
+        "V_xx": "-129.3086554",
+        "V_yy": "42.67134366",
+        "det_hess": "-9601.604318",
+        "eig_min": "-150.4545988",
+        "grad_x": "55.41197844",
+        "point": [
+          "7/15",
+          "23/30"
+        ],
+        "y_1d_star": "1.85208914254"
+      },
+      {
+        "V_star": "-49.53104481",
+        "V_xx": "-129.3086554",
+        "V_yy": "42.67134366",
+        "det_hess": "-9601.604318",
+        "eig_min": "-150.4545988",
+        "grad_x": "55.41197844",
+        "point": [
+          "8/15",
+          "7/30"
+        ],
+        "y_1d_star": "1.85208914254"
+      },
+      {
+        "V_star": "-9.718129821",
+        "V_xx": "-6.766138499",
+        "V_yy": "2.879315607",
+        "det_hess": "-28.22543743",
+        "eig_min": "-7.600467701",
+        "grad_x": "3.451828855",
+        "point": [
+          "17/30",
+          "2/15"
+        ],
+        "y_1d_star": "3.87319709515"
+      },
+      {
+        "V_star": "-30.51582361",
+        "V_xx": "-74.02322627",
+        "V_yy": "29.78246209",
+        "det_hess": "-2279.146112",
+        "eig_min": "-74.73651475",
+        "grad_x": "-21.53095817",
+        "point": [
+          "17/30",
+          "3/10"
+        ],
+        "y_1d_star": "2.03435557378"
+      },
+      {
+        "V_star": "-97.36784728",
+        "V_xx": "-675.704558",
+        "V_yy": "326.3436684",
+        "det_hess": "-240101.7028",
+        "eig_min": "-694.8870966",
+        "grad_x": "-80.4777743",
+        "point": [
+          "17/30",
+          "19/30"
+        ],
+        "y_1d_star": "1.29314214738"
+      },
+      {
+        "V_star": "-36.591712",
+        "V_xx": "-74.36597722",
+        "V_yy": "26.54593848",
+        "det_hess": "-4465.157364",
+        "eig_min": "-94.88076256",
+        "grad_x": "-38.46117212",
+        "point": [
+          "17/30",
+          "4/5"
+        ],
+        "y_1d_star": "2.14270324831"
+      },
+      {
+        "V_star": "-8.204429199",
+        "V_xx": "-5.534779549",
+        "V_yy": "1.844378338",
+        "det_hess": "-31.66789765",
+        "eig_min": "-7.767418343",
+        "grad_x": "7.043381145",
+        "point": [
+          "19/30",
+          "1/10"
+        ],
+        "y_1d_star": "3.65227120202"
+      },
+      {
+        "V_star": "-10.21787534",
+        "V_xx": "-17.62409453",
+        "V_yy": "7.39766744",
+        "det_hess": "-431.2070816",
+        "eig_min": "-26.49900402",
+        "grad_x": "10.5202117",
+        "point": [
+          "19/30",
+          "4/15"
+        ],
+        "y_1d_star": "2.44846534806"
+      },
+      {
+        "V_star": "-94.24769648",
+        "V_xx": "-621.8731455",
+        "V_yy": "302.3386508",
+        "det_hess": "-205189.7226",
+        "eig_min": "-640.0955684",
+        "grad_x": "77.88176223",
+        "point": [
+          "19/30",
+          "13/30"
+        ],
+        "y_1d_star": "1.3303077561"
+      },
+      {
+        "V_star": "-8.259066193",
+        "V_xx": "-9.083617519",
+        "V_yy": "3.641905479",
+        "det_hess": "-38.60061286",
+        "eig_min": "-9.503456579",
+        "grad_x": "0.9356129367",
+        "point": [
+          "19/30",
+          "23/30"
+        ],
+        "y_1d_star": "3.01768094395"
+      },
+      {
+        "V_star": "-12.69984167",
+        "V_xx": "-32.73821075",
+        "V_yy": "12.8120758",
+        "det_hess": "-2943.859804",
+        "eig_min": "-65.12757162",
+        "grad_x": "39.85217934",
+        "point": [
+          "7/10",
+          "1/15"
+        ],
+        "y_1d_star": "1.95552442486"
+      },
+      {
+        "V_star": "-64.95768016",
+        "V_xx": "-357.7717804",
+        "V_yy": "155.9865588",
+        "det_hess": "-131671.4013",
+        "eig_min": "-477.5233586",
+        "grad_x": "158.3909538",
+        "point": [
+          "7/10",
+          "7/30"
+        ],
+        "y_1d_star": "1.38978045734"
+      },
+      {
+        "V_star": "-17.15108623",
+        "V_xx": "-28.36136878",
+        "V_yy": "7.560320251",
+        "det_hess": "-215.0550132",
+        "eig_min": "-28.37900913",
+        "grad_x": "-2.178657898",
+        "point": [
+          "7/10",
+          "17/30"
+        ],
+        "y_1d_star": "2.2242255577"
+      }
+    ],
+    "susy_ss_strict_2d_minima_out_of_96": 0,
+    "twisted_two_loop_v2_over_v1_at_stationary": "3/4"
+  },
+  "IMTAU_2_spectral_quillen_petersson_frame_c": {
+    "b1974_full_pet_strictly_increasing_y_ge_1p2": true,
+    "b1974_gamma02_c0_peak_x_half": {
+      "d2_dx2": "0.036714124",
+      "d2_dy2": "-0.061144625",
+      "y_star": "1.1507958562"
+    },
+    "frame_c_asymptotic_cs_at_1_over_30": "82.7084574201",
+    "frame_c_min_asymptotic_cs_at_half": "-2.83737781885",
+    "planted_control_pc2_retired_by_b1974_m0": true,
+    "planted_control_pc2_unforced_m6_fake_peak_y": "2.834088696",
+    "rs_laplacian_identity_max_err": "9.93627e-21",
+    "rs_modular_s_err": "2.25695e-36",
+    "rs_modular_t_err": "0.0",
+    "rs_untwisted_n0_by_spectrum": {
+      "SUSY_Spin10_rho1": [
+        64
+      ],
+      "Spin10_2H_BF": [
+        40
+      ],
+      "Spin10_2H_rho1": [
+        52
+      ]
+    }
+  },
+  "IMTAU_3_3d_hyperbolic_and_isogenies": {
+    "degree_5_covers_cusps": {
+      "G_order_10": [
+        {
+          "degree": 1,
+          "im_tau_F": "3.46410161514"
+        },
+        {
+          "degree": 2,
+          "im_tau_F": "1.73205080757"
+        },
+        {
+          "degree": 2,
+          "im_tau_F": "1.73205080757"
+        }
+      ],
+      "G_order_120": [
+        {
+          "degree": 3,
+          "im_tau_F": "1.15470053838"
+        },
+        {
+          "degree": 2,
+          "im_tau_F": "1.73205080757"
+        }
+      ],
+      "G_order_5": [
+        {
+          "degree": 5,
+          "im_tau_F": "1.44337567297"
+        }
+      ]
+    },
+    "interior_lr_det_minus_i": -1,
+    "lr_axis_max_im_tau_F": "1.11803398875",
+    "lr_invariant_quotient_isogenies": {
+      "i": [
+        {
+          "N": "5",
+          "gen": "(1,2)",
+          "im_tau_F": "1.0"
+        }
+      ],
+      "omega": [
+        {
+          "N": "5",
+          "gen": "(1,2)",
+          "im_tau_F": "1.44337567297"
+        }
+      ]
+    },
+    "m004_cusp_epsilon": "1.877853332e-5",
+    "m004_cusp_im_tau_F": "3.46410161513775",
+    "m004_longitude_word": "bABaaBAb",
+    "peripheral_commutator_err": "1.50463e-36",
+    "planted_control_pc3_non_lr_subgrp_im_tau": "4.33012701892",
+    "planted_control_pc3_rejected_by_lr_gate": true
+  },
+  "IMTAU_4_nonperturbative_sugra_and_racetracks": {
+    "cm_flux_forms_y_le_4": {
+      "in_band_2_to_4": 25,
+      "selection_bits": "6.0874628",
+      "total_in_F": 68
+    },
+    "coupled_2field_su4_su5": {
+      "V_star": "-0.0193816127492",
+      "canonical_m2_over_absV_eigs": [
+        "-0.7343690769",
+        "-0.2566708213",
+        "717.0116182",
+        "748.2806185"
+      ],
+      "re_S_star": "0.502612124578309",
+      "y_star": "2.81893449683652"
+    },
+    "gamma02_288_scan": {
+      "max_y_posdef_all_nK": "2.110607797",
+      "max_y_posdef_canonical_nK3": "1.400690463",
+      "menu_bits_288": "8.169925",
+      "posdef_minima_found": 92
+    },
+    "planted_control_pc4_inverted_sv_fake_roots": 1,
+    "planted_control_pc4_schur_tachyon_caught": true,
+    "pure_sym_sv_roots_nK1_y_ge_1p1": 0,
+    "sl2z_min_abs_e2hat_y_ge_1p1": "0.10790037"
+  },
+  "all_controls_and_theorems_passed": true,
+  "ast_self_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "card": "CLAIM_2026-11-25_im_tau_epsilon_selection_classification",
+  "firewall": "0 of 19 empirical constants; pure mathematics and QFT/SUGRA operator identities"
+}
