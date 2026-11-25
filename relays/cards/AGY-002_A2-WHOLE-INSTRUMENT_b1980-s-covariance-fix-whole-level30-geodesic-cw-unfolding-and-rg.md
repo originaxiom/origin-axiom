@@ -90,4 +90,14 @@
 - **`G5`:** `6/6` planted controls caught: `PF1` (drop `+\ln y` reproduces `B1980` `(0.12, 0.18, 0.32)`), `PF2` (drop `\sqrt{y}` breaks absolute `s_k` invariance by `|c\tau+d|`), `PF3` (flip `V_{\text{CW}} \to -V_{\text{CW}}` destroys hierarchy), `PF4` (wrong action `w\gamma` breaks `S/M`), `PF5` (drop `Y_u` from 2HDM RG breaks benchmark & EWSB), `PF6` (non-unitary basis rotation breaks Haar invariance).
 - **`G6`:** `0` AST float/complex literals or casts, `0` numpy/scipy/frontier imports, `0` JSON floats, strictly `0 of 19`.
 
+---
+
+## 3. Dated Pre-`v5` Erratum & Addendum (`2026-11-25`, Disclosing Frozen `v1`–`v4`)
+
+Frozen runs `v1` (`38b820bf0`), `v2` (`7a192f8b6`), `v3` (`aceac1cb7`, all pre-output), and `v4` (`a2221c7ec -> a510dc8c6`, `G1, G3, G6 PASS`, `5/6 PF`, `0` JSON floats) are preserved untouched. Four predicate/convention clarifications plus one discovery-driven extension are registered prior to running Authoritative Producer `v5`:
+1. **`PF4` (`W1`):** Since `S^{-1} = -S` and Frame C is antipodally invariant (`Y(-w) \equiv Y(w)`), wrong point action `w\gamma` vs `w\gamma^{-1}` is tested on `T` and `M` (`1.637` and `0.335` in `v4`).
+2. **`W2` (`W-LV1` & Geodesic Basepoint):** `chat1` `W-LV1` states `Y_e(w) \propto Y_d^{\text{neg-}q_Q}(3w)` (with doublet charge `q_Q` negated: `(-1, +2)` at `3w`, verified `< 10^{-40}`), whereas un-negated `Y_d(+1, +2)(3w)` splits by `3.85%` via `F_u(a_+)` vs `F_u(a_-)` — `v5` reports both. On `\gamma_M`, smooth `SL(2,\mathbb{Z})`-invariant trace integrals `\langle \operatorname{Tr}(Y^\dagger Y)\rangle_{\gamma_M}` and `\langle \operatorname{Tr}[(Y^\dagger Y)^2]\rangle_{\gamma_M}` verify basepoint invariance to `< 10^{-8}` (`16` nodes), alongside the `16`-node CKM observable average.
+3. **`W4` (Xing–Zhou Downward Running Sign):** In `dt < 0` downward running, `1HDM` decreases `|V_{cb}|` (`dvcb_1h_down < 0`) while `Type-II 2HDM` increases `|V_{cb}|` (`dvcb_2h_down > 0`; `v4` already produced `-4.60e-5` vs `+1.65e-5` with an inverted boolean test).
+4. **`W3`/`W4` (`V_4` vs `V_{\text{CW}}` Convexity Dichotomy):** `v4` discovered that at `\mu^2 = \frac{1}{3}\sum\operatorname{Tr}(Y^\dagger Y)`, `\ln(\lambda/\mu^2) - 3/2 < 0` flips the 1-loop potential convex (favoring degeneracy `r \approx 0.68`), whereas the Schur-convex quartic core `V_4 = -\sum N_c\operatorname{Tr}[(Y^\dagger Y)^2]` (equivalent to `\mu < e^{-3/4} m_f`) snaps 1-doublet `h^*` onto Frame C's exact modular triplet `S(\tau)` (`|\hat{c}^\dagger h^*| = 0.9855`, `r = 0.025`, `d_m2m3 = 0.0073`). `v5` therefore also runs `two_doublet_allS` (`\lambda_3 \in \{-1, -1/4, 0, +1/4, +1\}`) on `V_4` and propagates its `\lambda_3 = -1/4` dynamic vacuum (`UD_W3_DynamicV4_y2`) through `W4`'s curved `G_{s=1/2}` + 2-loop RG unfolding.
+
 0 of 19.
