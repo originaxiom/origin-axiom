@@ -1,0 +1,21 @@
+{
+ "id": "B1989",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1988", "B1983", "B1687"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the fibre's characters over C, from every pair in the finite subgroups Q8, 2T, 2O, 2I of SU(2), exact",
+  "object": "the moves' finite orbits (bound states) arising from finite-image representations, and their frustration levels kappa",
+  "reach": "class",
+  "hypotheses": "finite-image representations are a certain source of finite orbits; completeness of the list and the binary dihedral families are not claimed"
+ },
+ "claim_one_line": "LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives the common point (-2) and 'nothing' (2), 2T adds 0, 2O adds +-1, and only the icosahedral bound states carry the golden levels +-phi and +-1/phi, so Q(sqrt 5) enters the whole as the level of its icosahedral bound states with no thread chosen",
+ "weave_or_thread": "weave (every move acting together, every pair of every finite group, nothing chosen)"
+}

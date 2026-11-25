@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1685 of 1685 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1686 of 1686 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1178)
+## PROVED (1179)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1190,6 +1190,7 @@
 | `B1986` | “LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation that flips with every move and lives on the body-diagonal orbits (post hoc, by characters); it damps the doublet at 1/2 and the triplets at 1/2 and 1/sqrt(2) per move, their complex eigenvalues (+-1 +- i sqrt 7)/2 in Q(sqrt -7), the trace field of the record's arithmetic chiral pair; the leaf's gap below the top mod p is positive and uneven (post hoc)” |  | 0 |
 | `B1987` | “LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every move; the alternation lives on every orbit that continues outward (body diagonals, free and grown orbits) and on no dead end; no other clock appears; the cube's structures decay at 1/sqrt 2 per move at every level and the grown orbits more slowly (0.84 to 0.96)” |  | 0 |
 | `B1988` | “THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (0, 0, 0) and 'nothing' (2, 2, 2) over Q-bar and every F_p to 47; the swap keeps both, the sign actions only the common point; PF1 excludes kappa = 2, so the one self-consistent outcome is the common point, the symmetric point, which carries no values by itself: values can only live in the flow away from it” |  | 0 |
+| `B1989` | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives the common point (-2) and 'nothing' (2), 2T adds 0, 2O adds +-1, and only the icosahedral bound states carry the golden levels +-phi and +-1/phi, so Q(sqrt 5) enters the whole as the level of its icosahedral bound states with no thread chosen” |  | 0 |
 
 ## NEGATIVE (388)
 

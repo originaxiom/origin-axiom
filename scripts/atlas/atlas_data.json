@@ -18311,6 +18311,23 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1989": {
+   "slug": "listening 6 the wholes bound states over c",
+   "motifs": [
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B1",
+    "B2"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [

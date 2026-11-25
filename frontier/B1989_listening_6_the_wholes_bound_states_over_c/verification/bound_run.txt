@@ -1,0 +1,12 @@
+Q8: order 8; 11 distinct readings of pairs; 4 orbits of the moves; (kappa, size): [(-2, 1), (2, 1), (2, 3), (2, 6)]
+   kappa values carrying a bound state: [-2, 2]
+   the common point (0, 0, 0) among the readings: True
+2T: order 24; 43 distinct readings of pairs; 7 orbits of the moves; (kappa, size): [(-2, 1), (0, 16), (2, 1), (2, 3), (2, 4), (2, 6), (2, 12)]
+   kappa values carrying a bound state: [-2, 0, 2]
+   the common point (0, 0, 0) among the readings: True
+2O: order 48; 115 distinct readings of pairs; 11 orbits of the moves; (kappa, size): [(-2, 1), (-1, 6), (0, 6), (0, 16), (1, 36), (2, 1), (2, 3), (2, 4), (2, 6), (2, 12), (2, 24)]
+   kappa values carrying a bound state: [-2, -1, 0, 1, 2]
+   the common point (0, 0, 0) among the readings: True
+2I: order 120; 261 distinct readings of pairs; 15 orbits of the moves; (kappa, size): [(-2, 1), (-sqrt(5)/2 - 1/2, 6), (-1, 6), (1/2 - sqrt(5)/2, 40), (0, 16), (-1/2 + sqrt(5)/2, 6), (1, 72), (1/2 + sqrt(5)/2, 40), (2, 1), (2, 3), (2, 4), (2, 6), (2, 12), (2, 12), (2, 36)]
+   kappa values carrying a bound state: [-2, -sqrt(5)/2 - 1/2, -1, 1/2 - sqrt(5)/2, 0, -1/2 + sqrt(5)/2, 1, 1/2 + sqrt(5)/2, 2]
+   the common point (0, 0, 0) among the readings: True
