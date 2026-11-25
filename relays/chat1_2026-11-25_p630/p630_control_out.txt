@@ -1,0 +1,19 @@
+G1 N=10: dim 123, sectors' union vs full spectrum 2.1e-14, worst non-Hermiticity 2.9e-15
+G1 N=12: dim 322, sectors' union vs full spectrum 3.0e-14, worst non-Hermiticity 4.8e-15
+N=12 dim0     31 dimpi     29 | E1-E0 0.190939  r6 5.8331  rsig 0.3800 | <1|Vmu|0> -2.125593e+00 <2|Vmu|0> -1.118025e-01 | dGap_sig 1.924664e+00 dGap_eps -1.130707e-01 | V_Y on levels 1..7: 1.6e-14 4.0e-15 1.1e-15 1.9e-01 6.7e-16 1.6e-15 3.4e-02
+N=14 dim0     64 dimpi     59 | E1-E0 0.163490  r6 5.8744  rsig 0.3791 | <1|Vmu|0> -2.404683e+00 <2|Vmu|0> -1.144703e-01 | dGap_sig 2.179887e+00 dGap_eps -1.128919e-01 | V_Y on levels 1..7: 1.3e-15 3.6e-15 4.7e-15 1.5e-01 5.4e-15 8.9e-16 2.9e-02
+N=16 dim0    143 dimpi    142 | E1-E0 0.142957  r6 5.9019  rsig 0.3785 | <1|Vmu|0> -2.675833e+00 <2|Vmu|0> -1.164112e-01 | dGap_sig 2.427930e+00 dGap_eps -1.126583e-01 | V_Y on levels 1..7: 3.2e-15 2.7e-15 2.1e-15 1.2e-01 4.4e-16 2.7e-15 2.4e-02
+N=18 dim0    329 dimpi    319 | E1-E0 0.127014  r6 5.9212  rsig 0.3780 | <1|Vmu|0> -2.940240e+00 <2|Vmu|0> -1.178792e-01 | dGap_sig 2.669858e+00 dGap_eps -1.123953e-01 | V_Y on levels 1..7: 5.2e-15 1.8e-15 4.2e-15 9.8e-02 3.7e-15 7.3e-15 1.9e-02
+N=20 dim0    766 dimpi    763 | E1-E0 0.114276  r6 5.9353  rsig 0.3776 | <1|Vmu|0> -3.198803e+00 <2|Vmu|0> -1.190223e-01 | dGap_sig 2.906475e+00 dGap_eps -1.121172e-01 | V_Y on levels 1..7: 1.8e-14 6.2e-15 8.8e-16 8.1e-02 2.9e-15 1.6e-02 4.8e-15
+N=22 dim0   1811 dimpi   1792 | E1-E0 0.103862  r6 5.9459  rsig 0.3774 | <1|Vmu|0> -3.452224e+00 <2|Vmu|0> -1.199325e-01 | dGap_sig 3.138412e+00 dGap_eps -1.118325e-01 | V_Y on levels 1..7: 1.2e-14 4.4e-16 7.3e-15 6.8e-02 5.1e-15 1.3e-02 5.6e-15
+N=24 dim0   4341 dimpi   4339 | E1-E0 0.095190  r6 5.9540  rsig 0.3771 | <1|Vmu|0> 3.701065e+00 <2|Vmu|0> 1.206701e-01 | dGap_sig 3.366175e+00 dGap_eps -1.115463e-01
+N=26 dim0  10462 dimpi  10421 | E1-E0 0.087856  r6 5.9604  rsig 0.3769 | <1|Vmu|0> -3.945782e+00 <2|Vmu|0> -1.212761e-01 | dGap_sig 3.590176e+00 dGap_eps -1.112619e-01
+N=28 dim0  25415 dimpi  25410 | E1-E0 0.081571  r6 5.9656  rsig 0.3768 | <1|Vmu|0> 4.186754e+00 <2|Vmu|0> -1.217796e-01 | dGap_sig 3.810760e+00 dGap_eps -1.109810e-01
+N=30 dim0  62075 dimpi  61981 | E1-E0 0.076127  r6 5.9698  rsig 0.3766 | <1|Vmu|0> 4.424303e+00 <2|Vmu|0> -1.222015e-01 | dGap_sig 4.028218e+00 dGap_eps -1.107050e-01
+
+A1: h = 0.09993 (target 1/10, tolerance 0.01) -> holds; local h from N = 28, 30: 0.10005
+A2: h = 0.50860 (target 3/5, tolerance 0.03) -> FAILS; local h from N = 28, 30: 0.47493
+B1: h = 0.09957 (target 1/10, tolerance 0.03) -> holds; local h from N = 28, 30: 0.09782
+B2: h = 0.52820 (target 3/5, tolerance 0.06) -> FAILS; local h from N = 28, 30: 0.51805
+G1 True, G2 True (r6 5.9698, rsig 0.3766 at N = 30), A3 True
+the control passes (G1, G2, A1, A2, A3): False; B1 True, B2 False
