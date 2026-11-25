@@ -1,0 +1,7 @@
+S1: tr(ab) + tr(ab^-1) = tr a tr b on SL(2) (the trace identity the moves are made of): True
+S1: tr(a.ab) = x z - y, so L's new reading is a product of the current readings minus one: True
+S2: the readings fixed by L and R together over Q-bar: [(0, 0, 0), (2, 2, 2)]; kappa there: [-2, 2]
+S3: fixed also by the swap P: [(0, 0, 0), (2, 2, 2)]; fixed also by the three central sign actions (which preserve kappa): [(0, 0, 0)]
+S2 over F_p, every prime p <= 47: the fixed points are exactly the common point and (2, 2, 2) mod p: True
+S4: kappa = -2 at the common point (existence: kappa != 2) and kappa = 2 at (2, 2, 2), where cancelling completes (PF1)
+SUMMARY: the one reading every history returns, with existence, is the common point: True

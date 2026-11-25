@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1684** |
-| words of findings prose | **1,546,561** |
+| research arcs with findings | **1685** |
+| words of findings prose | **1,547,333** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1684** (100.0 %) |
+| arcs carrying an authored verdict | **1685** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1177 |
+| PROVED | 1178 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1987`** (612 words, 0 locks)  
-“LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every move; the alternation lives on every orbit that continues outward (body diagonals, free and grown orbits) and on no dead end; no other clock appears; the cube's structures decay at 1/sqrt 2 per move at every level and the grown orbits more slowly (0.84 to 0.96)”  
-`B1987_listening_5_the_unfolding_up_the_tower/FINDINGS.md`
+**PROVED — `B1988`** (772 words, 0 locks)  
+“THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (0, 0, 0) and 'nothing' (2, 2, 2) over Q-bar and every F_p to 47; the swap keeps both, the sign actions only the common point; PF1 excludes kappa = 2, so the one self-consistent outcome is the common point, the symmetric point, which carries no values by itself: values can only live in the flow away from it”  
+`B1988_the_math_decides_the_loop_the_readout_acts_back_and_one_reading_closes/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

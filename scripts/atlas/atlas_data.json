@@ -18285,6 +18285,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1988": {
+   "slug": "the math decides the loop the readout acts back and one reading closes",
+   "motifs": [
+    "closing",
+    "coupling",
+    "trace_map",
+    "kappa",
+    "metallic"
+   ],
+   "refs": [
+    "B148",
+    "B18",
+    "B28",
+    "B309",
+    "B34",
+    "P008",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [

@@ -1,0 +1,21 @@
+{
+ "id": "B1988",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1600", "B1983", "B18", "B148", "B309", "B1881"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the fibre's character variety (tr a, tr b, tr ab) over Q-bar and over F_p for every prime p <= 47",
+  "object": "the moves as the trace identity, and the readings fixed by every move, with the swap and the central sign actions carried both ways",
+  "reach": "class",
+  "hypotheses": "PF5's 'what is read takes part and reading it again returns it' formalised as a reading fixed by every move; PF1 as kappa != 2"
+ },
+ "claim_one_line": "THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (0, 0, 0) and 'nothing' (2, 2, 2) over Q-bar and every F_p to 47; the swap keeps both, the sign actions only the common point; PF1 excludes kappa = 2, so the one self-consistent outcome is the common point, the symmetric point, which carries no values by itself: values can only live in the flow away from it",
+ "weave_or_thread": "weave (every move acting together on the whole character variety, nothing chosen)"
+}
