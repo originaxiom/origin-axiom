@@ -1,0 +1,988 @@
+{
+  "E1_cube_group_and_p882": {
+    "A12_fixed_cusps_count": 48,
+    "A12_fixed_points_count": 96,
+    "antiholomorphic_conj_rel_errs": {
+      "F_half_shift": "2.2392080552e-70",
+      "J0": "6.26896697653e-70",
+      "R_sigma": "1.81426862436e-69"
+    },
+    "control_1_noshift_err": "0.09125115758",
+    "control_1_wrong_inverse_sv_err": "0.07398363599",
+    "cusp_matrices_checked": 48,
+    "generator_matrices_checked": 72,
+    "max_generator_rel_err": "3.84775517413e-69",
+    "max_p882_word_homomorphism_rel_err": "4.81784219904e-69",
+    "max_unit_modulus_sc_deviation": "6.47481054136e-69",
+    "primitive_order30_count": 576,
+    "so3_z_element_orders": {
+      "1": 1,
+      "2": 9,
+      "3": 8,
+      "4": 6
+    },
+    "so3_z_order": 24,
+    "weave_LR_RL_conjugation_rel_err": "2.94558852073e-70",
+    "x30_cusp_count": 288
+  },
+  "E2_lepton_two_fifths_theorem": {
+    "control_2_a5_zero_min_deviation": "0.5455795398",
+    "converged_m1_over_m3_rate_set_all60": [
+      "1",
+      "11/10",
+      "7/5"
+    ],
+    "converged_m2_over_m3_rate_set_all60": [
+      "2/5"
+    ],
+    "fiber_multiplicity_3w": 8,
+    "max_b1973_nonorm_sv0_over_sv1": "1.75003325356e-96",
+    "max_m2_over_m3_deviation_from_2_over_5": "1.32348898513e-11",
+    "max_quadratic_sum_3_over_5_rate_err": "4.70789698458e-24",
+    "max_sv1_sq_1_over_5_rate_err": "1.12053379189e-12",
+    "min_channel_norm_sq_gap": "4.736723961",
+    "order10_surjective_images": 60,
+    "order30_nonzero_5part_points": 480,
+    "raw_theta_eps_valuations_4reps": [
+      {
+        "1": "1/5",
+        "i": "1/5",
+        "j": "1/10",
+        "k": "1/10"
+      },
+      {
+        "1": "1/10",
+        "i": "1/10",
+        "j": "1/5",
+        "k": "1/5"
+      },
+      {
+        "1": "1/5",
+        "i": "1/5",
+        "j": "1/10",
+        "k": "1/10"
+      },
+      {
+        "1": "1/10",
+        "i": "1/10",
+        "j": "1/5",
+        "k": "1/5"
+      }
+    ]
+  },
+  "E3_legendre_jacobi_and_mirrors": {
+    "chi15_isom_m004_invariant": true,
+    "control_3_bad_q3_flips_of_96": 96,
+    "isom_m004_orbit_component_sizes": [
+      4,
+      4
+    ],
+    "lepton_charge_legendre_mod5": -1,
+    "minus_R_sigma_vertex_mirror_chains": 8,
+    "negI_orbit_pair_character_bijection": {
+      "0_2": [
+        1,
+        1
+      ],
+      "1_6": [
+        -1,
+        1
+      ],
+      "3_4": [
+        1,
+        -1
+      ],
+      "5_7": [
+        -1,
+        -1
+      ]
+    },
+    "orbit_count": 8,
+    "orbit_length": 12,
+    "plus_R_sigma_bond_mirror_chains": 8,
+    "slow_counts_mod5_nonresidue": [
+      3,
+      3,
+      6,
+      6
+    ],
+    "slow_counts_mod5_residue": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "E4_standalone_lame_and_unit_contraction": {
+    "L2_i_richardson": "2.719261032311511",
+    "L2_omega_richardson": "2.78648607602363",
+    "L2_tau_gold_richardson": "2.663604442987991",
+    "Lambda_geom_SL2Z_invariance_err": "2.333630729e-61",
+    "Lambda_geom_i": "0.937025506135",
+    "Lambda_geom_tau_gold": "0.98213957316",
+    "c_tau_gold_abs_imag": "3.776169765e-42",
+    "c_tau_gold_real": "0.1686221593711722",
+    "control_4_no_kahler_weight_drift": "0.3406596999",
+    "control_6_jtheta2_branch_cut_jump_at_Re_11_over_7": "9.474330423",
+    "lame_modular_shift_err": "1.266040385e-5",
+    "max_raw_kahler_sigma_all96_p96": "0.8413569023",
+    "max_step_phase_unit_modulus_dev_all96": "8.85223923276e-59"
+  },
+  "E5_waveguide_full_16chain_menu_and_haar": {
+    "additive_12turn_max_jarlskog_abs_all8": "2.319274311e-61",
+    "additive_12turn_min_m2_over_m3_all8": "0.4798878563",
+    "all_16_gramian_chains": [
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.29243796",
+          "0.25205597",
+          "0.14944659",
+          "0.91281217"
+        ],
+        "down_ratios": [
+          "0.031646053",
+          "1.0712537e-6"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.0025936084",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          1
+        ],
+        "lep_ratios": [
+          "0.022708687",
+          "1.329897e-6"
+        ],
+        "orbit": 0,
+        "start_30": [
+          11,
+          22
+        ],
+        "up_ratios": [
+          "0.044261225",
+          "3.4935046e-5"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.54229145",
+          "0.15428847",
+          "0.024819577",
+          "0.82945885"
+        ],
+        "down_ratios": [
+          "0.011185193",
+          "0.00038789689"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.0016597291",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          1
+        ],
+        "lep_ratios": [
+          "0.022708687",
+          "1.329897e-6"
+        ],
+        "orbit": 0,
+        "start_30": [
+          1,
+          2
+        ],
+        "up_ratios": [
+          "0.16072088",
+          "0.00025572335"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.29243796",
+          "0.25205597",
+          "0.14944659",
+          "0.91281217"
+        ],
+        "down_ratios": [
+          "0.031646053",
+          "1.0712537e-6"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.0025936084",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          1
+        ],
+        "lep_ratios": [
+          "0.022708687",
+          "1.329897e-6"
+        ],
+        "orbit": 2,
+        "start_30": [
+          19,
+          8
+        ],
+        "up_ratios": [
+          "0.044261225",
+          "3.4935046e-5"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.54229145",
+          "0.15428847",
+          "0.024819577",
+          "0.82945885"
+        ],
+        "down_ratios": [
+          "0.011185193",
+          "0.00038789689"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.0016597291",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          1
+        ],
+        "lep_ratios": [
+          "0.022708687",
+          "1.329897e-6"
+        ],
+        "orbit": 2,
+        "start_30": [
+          29,
+          28
+        ],
+        "up_ratios": [
+          "0.16072088",
+          "0.00025572335"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.15997012",
+          "0.61327645",
+          "0.041499711",
+          "0.78266463"
+        ],
+        "down_ratios": [
+          "0.022593139",
+          "3.0910362e-6"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.0017659376",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.098796436",
+          "4.5353926e-5"
+        ],
+        "orbit": 3,
+        "start_30": [
+          13,
+          26
+        ],
+        "up_ratios": [
+          "0.054285784",
+          "7.4324523e-6"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.41131266",
+          "0.011389829",
+          "0.0035628428",
+          "0.91143305"
+        ],
+        "down_ratios": [
+          "0.097098367",
+          "6.6708201e-6"
+        ],
+        "half": 1,
+        "jarlskog_abs": "1.5187654e-5",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.098796436",
+          "4.5353926e-5"
+        ],
+        "orbit": 3,
+        "start_30": [
+          23,
+          16
+        ],
+        "up_ratios": [
+          "0.075496696",
+          "1.8137838e-5"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.41131266",
+          "0.011389829",
+          "0.0035628428",
+          "0.91143305"
+        ],
+        "down_ratios": [
+          "0.097098367",
+          "6.6708201e-6"
+        ],
+        "half": 0,
+        "jarlskog_abs": "1.5187654e-5",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.098796436",
+          "4.5353926e-5"
+        ],
+        "orbit": 4,
+        "start_30": [
+          7,
+          14
+        ],
+        "up_ratios": [
+          "0.075496696",
+          "1.8137838e-5"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.15997012",
+          "0.61327645",
+          "0.041499711",
+          "0.78266463"
+        ],
+        "down_ratios": [
+          "0.022593139",
+          "3.0910362e-6"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.0017659376",
+        "kind": "bond6",
+        "leg3_leg5": [
+          1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.098796436",
+          "4.5353926e-5"
+        ],
+        "orbit": 4,
+        "start_30": [
+          17,
+          4
+        ],
+        "up_ratios": [
+          "0.054285784",
+          "7.4324523e-6"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.070866879",
+          "0.35110195",
+          "0.012012601",
+          "0.93375313"
+        ],
+        "down_ratios": [
+          "0.11582692",
+          "1.0223011e-7"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.00018883702",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.029647722",
+          "5.6304435e-13"
+        ],
+        "orbit": 1,
+        "start_30": [
+          26,
+          17
+        ],
+        "up_ratios": [
+          "0.069953511",
+          "1.4476917e-8"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.066004056",
+          "0.35416237",
+          "0.019720112",
+          "0.93277563"
+        ],
+        "down_ratios": [
+          "0.14710006",
+          "5.403762e-6"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.00028831506",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.029647722",
+          "5.6304435e-13"
+        ],
+        "orbit": 1,
+        "start_30": [
+          16,
+          7
+        ],
+        "up_ratios": [
+          "0.17187929",
+          "6.9240394e-9"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.45324334",
+          "0.33241709",
+          "0.070602346",
+          "0.83997266"
+        ],
+        "down_ratios": [
+          "0.0022467566",
+          "1.3493832e-5"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.0089342024",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.094668025",
+          "4.2950727e-5"
+        ],
+        "orbit": 5,
+        "start_30": [
+          2,
+          29
+        ],
+        "up_ratios": [
+          "0.050018683",
+          "7.9567269e-5"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.33002251",
+          "0.38948484",
+          "0.30480782",
+          "0.81284322"
+        ],
+        "down_ratios": [
+          "0.11358459",
+          "3.0960035e-6"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.00082312419",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.094668025",
+          "4.2950727e-5"
+        ],
+        "orbit": 5,
+        "start_30": [
+          22,
+          19
+        ],
+        "up_ratios": [
+          "0.13472351",
+          "8.117587e-5"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.070866879",
+          "0.35110195",
+          "0.012012601",
+          "0.93375313"
+        ],
+        "down_ratios": [
+          "0.11582692",
+          "1.0223011e-7"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.00018883702",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.029647722",
+          "5.6304435e-13"
+        ],
+        "orbit": 6,
+        "start_30": [
+          4,
+          13
+        ],
+        "up_ratios": [
+          "0.069953511",
+          "1.4476917e-8"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.066004056",
+          "0.35416237",
+          "0.019720112",
+          "0.93277563"
+        ],
+        "down_ratios": [
+          "0.14710006",
+          "5.403762e-6"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.00028831506",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.029647722",
+          "5.6304435e-13"
+        ],
+        "orbit": 6,
+        "start_30": [
+          14,
+          23
+        ],
+        "up_ratios": [
+          "0.17187929",
+          "6.9240394e-9"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.33002251",
+          "0.38948484",
+          "0.30480782",
+          "0.81284322"
+        ],
+        "down_ratios": [
+          "0.11358459",
+          "3.0960035e-6"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.00082312419",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.094668025",
+          "4.2950727e-5"
+        ],
+        "orbit": 7,
+        "start_30": [
+          8,
+          11
+        ],
+        "up_ratios": [
+          "0.13472351",
+          "8.117587e-5"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.45324334",
+          "0.33241709",
+          "0.070602346",
+          "0.83997266"
+        ],
+        "down_ratios": [
+          "0.0022467566",
+          "1.3493832e-5"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.0089342024",
+        "kind": "vert7",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.094668025",
+          "4.2950727e-5"
+        ],
+        "orbit": 7,
+        "start_30": [
+          28,
+          1
+        ],
+        "up_ratios": [
+          "0.050018683",
+          "7.9567269e-5"
+        ]
+      }
+    ],
+    "all_8_stag7_vertex_chains": [
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.14266559",
+          "0.12479782",
+          "0.050540137",
+          "0.98180538"
+        ],
+        "down_ratios": [
+          "0.024211593",
+          "9.8941909e-10"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.00086543486",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.0019651698",
+          "4.1333946e-17"
+        ],
+        "orbit": 1,
+        "start_30": [
+          26,
+          17
+        ],
+        "up_ratios": [
+          "0.031375512",
+          "2.2184667e-18"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.061549123",
+          "0.39278262",
+          "0.04805836",
+          "0.91837476"
+        ],
+        "down_ratios": [
+          "0.014938639",
+          "3.2555967e-9"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.00081699376",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.0019651698",
+          "4.1333946e-17"
+        ],
+        "orbit": 1,
+        "start_30": [
+          16,
+          7
+        ],
+        "up_ratios": [
+          "0.11423346",
+          "1.0345593e-17"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.091581194",
+          "0.35783229",
+          "0.069460162",
+          "0.93040924"
+        ],
+        "down_ratios": [
+          "0.50120711",
+          "7.7998657e-10"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.0019470152",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.30543975",
+          "1.3194975e-6"
+        ],
+        "orbit": 5,
+        "start_30": [
+          2,
+          29
+        ],
+        "up_ratios": [
+          "0.13648344",
+          "1.7603884e-10"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.2065919",
+          "0.61602018",
+          "0.3049141",
+          "0.71123023"
+        ],
+        "down_ratios": [
+          "0.052354861",
+          "1.1917281e-9"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.017764285",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.30543975",
+          "1.3194975e-6"
+        ],
+        "orbit": 5,
+        "start_30": [
+          22,
+          19
+        ],
+        "up_ratios": [
+          "0.040862845",
+          "7.0229422e-10"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.14266559",
+          "0.12479782",
+          "0.050540137",
+          "0.98180538"
+        ],
+        "down_ratios": [
+          "0.024211593",
+          "9.8941909e-10"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.00086543486",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.0019651698",
+          "4.1333946e-17"
+        ],
+        "orbit": 6,
+        "start_30": [
+          4,
+          13
+        ],
+        "up_ratios": [
+          "0.031375512",
+          "2.2184667e-18"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.061549123",
+          "0.39278262",
+          "0.04805836",
+          "0.91837476"
+        ],
+        "down_ratios": [
+          "0.014938639",
+          "3.2555967e-9"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.00081699376",
+        "leg3_leg5": [
+          -1,
+          1
+        ],
+        "lep_ratios": [
+          "0.0019651698",
+          "4.1333946e-17"
+        ],
+        "orbit": 6,
+        "start_30": [
+          14,
+          23
+        ],
+        "up_ratios": [
+          "0.11423346",
+          "1.0345593e-17"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.2065919",
+          "0.61602018",
+          "0.3049141",
+          "0.71123023"
+        ],
+        "down_ratios": [
+          "0.052354861",
+          "1.1917281e-9"
+        ],
+        "half": 0,
+        "jarlskog_abs": "0.017764285",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.30543975",
+          "1.3194975e-6"
+        ],
+        "orbit": 7,
+        "start_30": [
+          8,
+          11
+        ],
+        "up_ratios": [
+          "0.040862845",
+          "7.0229422e-10"
+        ]
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.091581194",
+          "0.35783229",
+          "0.069460162",
+          "0.93040924"
+        ],
+        "down_ratios": [
+          "0.50120711",
+          "7.7998657e-10"
+        ],
+        "half": 1,
+        "jarlskog_abs": "0.0019470152",
+        "leg3_leg5": [
+          -1,
+          -1
+        ],
+        "lep_ratios": [
+          "0.30543975",
+          "1.3194975e-6"
+        ],
+        "orbit": 7,
+        "start_30": [
+          28,
+          1
+        ],
+        "up_ratios": [
+          "0.13648344",
+          "1.7603884e-10"
+        ]
+      }
+    ],
+    "barrier_sign_up_m2_over_m3": "0.6994024724",
+    "bond6_orbit0_half0_gramian": {
+      "ckm_moduli_and_min_diag": [
+        "0.29243796",
+        "0.25205597",
+        "0.14944659",
+        "0.91281217"
+      ],
+      "down_ratios": [
+        "0.031646053",
+        "1.0712537e-6"
+      ],
+      "half": 0,
+      "jarlskog_abs": "0.0025936084",
+      "kind": "bond6",
+      "leg3_leg5": [
+        1,
+        1
+      ],
+      "lep_ratios": [
+        "0.022708687",
+        "1.329897e-6"
+      ],
+      "orbit": 0,
+      "start_30": [
+        11,
+        22
+      ],
+      "up_ratios": [
+        "0.044261225",
+        "3.4935046e-5"
+      ]
+    },
+    "control_5_cayley_u3_5_max_err_bond6": "2.214647061e-56",
+    "control_5_cayley_u3_5_max_err_stag7": "8.092787162e-46",
+    "control_5_planted_noncovariant_product_drift": "0.8205927615",
+    "gramian_16chain_pass_counts": {
+      "jarlskog_gt_1e_minus_5": 16,
+      "m1_over_m3_lt_1e_minus_4": 14,
+      "m1_over_m3_lt_4e_minus_4": 16,
+      "m2_over_m3_lt_1_over_5": 16,
+      "min_diag_gt_3_over_4": 16,
+      "min_diag_gt_9_over_10": 8,
+      "standard_ckm_ordering": 8
+    },
+    "negI_16_to_8_pair_isospectral_max_diff": "1.55284883078e-50",
+    "stag7_8chain_pass_counts": {
+      "jarlskog_gt_8e_minus_4": 8,
+      "m1_over_m3_lt_2e_minus_6": 8,
+      "min_diag_gt_9_over_10": 6
+    },
+    "vert7_orbit1_half0_stag7": {
+      "ckm_moduli_and_min_diag": [
+        "0.14266559",
+        "0.12479782",
+        "0.050540137",
+        "0.98180538"
+      ],
+      "down_ratios": [
+        "0.024211593",
+        "9.8941909e-10"
+      ],
+      "half": 0,
+      "jarlskog_abs": "0.00086543486",
+      "leg3_leg5": [
+        -1,
+        1
+      ],
+      "lep_ratios": [
+        "0.0019651698",
+        "4.1333946e-17"
+      ],
+      "orbit": 1,
+      "start_30": [
+        26,
+        17
+      ],
+      "up_ratios": [
+        "0.031375512",
+        "2.2184667e-18"
+      ]
+    }
+  },
+  "all_controls_passed": true,
+  "ast_firewall": {
+    "ast_float_complex_calls": 0,
+    "ast_float_complex_literals": 0
+  },
+  "card": "AGY-C56",
+  "empirical_inputs": "0 of 19"
+}
