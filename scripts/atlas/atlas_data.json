@@ -18577,6 +18577,21 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2001": {
+   "slug": "listening 16 the charge sectors of the whole unfolding on the cusp leaf",
+   "motifs": [
+    "arrow",
+    "measurement",
+    "coupling",
+    "metallic",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [

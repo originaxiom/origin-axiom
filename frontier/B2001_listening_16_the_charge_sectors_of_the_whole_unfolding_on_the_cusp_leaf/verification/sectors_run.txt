@@ -1,0 +1,32 @@
+mod 5, the cusp's leaf minus the common point: orbit 40 points (C-fixed 1, C-cycles 13); [W, C] = 0.0
+    W6: q=0: dim 14, top 1.000000, slowest decay 0.901106; q=1: dim 13, top 0.449077, slowest decay 0.449077; q=2: dim 13, top 0.449077, slowest decay 0.449077; charged pair spectra differ by 8.4e-15
+    W12: q=0: dim 14, top 1.000000, slowest decay 0.901106; q=1: dim 13, top 0.449077, slowest decay 0.449077; q=2: dim 13, top 0.449077, slowest decay 0.449077; charged pair spectra differ by 1.7e-14
+    [0 s]
+mod 7, the cusp's leaf minus the common point: orbit 28 points (C-fixed 1, C-cycles 9); [W, C] = 0.0
+    W6: q=0: dim 10, top 1.000000, slowest decay 0.885952; q=1: dim 9, top 0.469678, slowest decay 0.469678; q=2: dim 9, top 0.469678, slowest decay 0.469678; charged pair spectra differ by 4.0e-15
+    W12: q=0: dim 10, top 1.000000, slowest decay 0.885952; q=1: dim 9, top 0.469678, slowest decay 0.469678; q=2: dim 9, top 0.469678, slowest decay 0.469678; charged pair spectra differ by 8.0e-15
+    [0 s]
+mod 11, the cusp's leaf minus the common point: orbit 88 points (C-fixed 1, C-cycles 29); [W, C] = 0.0
+    W6: q=0: dim 30, top 1.000000, slowest decay 0.957678; q=1: dim 29, top 0.458730, slowest decay 0.458730; q=2: dim 29, top 0.458730, slowest decay 0.458730; charged pair spectra differ by 9.8e-15
+    W12: q=0: dim 30, top 1.000000, slowest decay 0.957678; q=1: dim 29, top 0.458730, slowest decay 0.458730; q=2: dim 29, top 0.458730, slowest decay 0.458730; charged pair spectra differ by 8.9e-15
+    [0 s]
+mod 13, the cusp's leaf minus the common point: orbit 208 points (C-fixed 1, C-cycles 69); [W, C] = 0.0
+    W6: q=0: dim 70, top 1.000000, slowest decay 0.967655; q=1: dim 69, top 0.469856, slowest decay 0.469856; q=2: dim 69, top 0.469856, slowest decay 0.469856; charged pair spectra differ by 2.8e-14
+    W12: q=0: dim 70, top 1.000000, slowest decay 0.967655; q=1: dim 69, top 0.469856, slowest decay 0.469856; q=2: dim 69, top 0.469856, slowest decay 0.469856; charged pair spectra differ by 4.4e-14
+    [0 s]
+mod 27, the orbit of (3,3,3): orbit 72 points (C-fixed 3, C-cycles 23); [W, C] = 0.0
+    W6: q=0: dim 26, top 1.000000, slowest decay 0.881917; q=1: dim 23, top 0.440959, slowest decay 0.440959; q=2: dim 23, top 0.440959, slowest decay 0.440959; charged pair spectra differ by 4.7e-15
+    W12: q=0: dim 26, top 1.000000, slowest decay 0.881917; q=1: dim 23, top 0.440959, slowest decay 0.440959; q=2: dim 23, top 0.440959, slowest decay 0.440959; charged pair spectra differ by 6.2e-15
+    [0 s]
+mod 81, the orbit of (3,3,3): orbit 648 points (C-fixed 3, C-cycles 215); [W, C] = 0.0
+    W6: q=0: dim 218, top 1.000000, slowest decay 0.986507; q=1: dim 215, top 0.493254, slowest decay 0.493254; q=2: dim 215, top 0.493254, slowest decay 0.493254; charged pair spectra differ by 1.4e-07
+    W12: q=0: dim 218, top 1.000000, slowest decay 0.986507; q=1: dim 215, top 0.493254, slowest decay 0.493254; q=2: dim 215, top 0.493254, slowest decay 0.493254; charged pair spectra differ by 1.2e-06
+    [1 s]
+mod 243, the orbit of (3,3,3): orbit 5832 points (C-fixed 3, C-cycles 1943); [W, C] = 0.0
+    W6: q=0: dim 1946, top 1.000000, slowest decay 0.986507; q=1: dim 1943, top 0.493254, slowest decay 0.493254; q=2: dim 1943, top 0.493254, slowest decay 0.493254; charged pair spectra differ by 2.0e-07
+    W12: q=0: dim 1946, top 1.000000, slowest decay 0.986507; q=1: dim 1943, top 0.493254, slowest decay 0.493254; q=2: dim 1943, top 0.493254, slowest decay 0.493254; charged pair spectra differ by 6.7e-07
+    [299 s]
+SUMMARY G3 (W6): the neutral sector's slowest decay differs from the charged pair's at every level run: True
+SUMMARY G4 (W6): per-sector slowest decays at mod 81 and mod 243 (q = 0, 1, 2): [np.float64(0.986507), np.float64(0.493254), np.float64(0.493254), np.float64(0.986507), np.float64(0.493254), np.float64(0.493254)]
+SUMMARY G3 (W12): the neutral sector's slowest decay differs from the charged pair's at every level run: True
+SUMMARY G4 (W12): per-sector slowest decays at mod 81 and mod 243 (q = 0, 1, 2): [np.float64(0.986507), np.float64(0.493254), np.float64(0.493254), np.float64(0.986507), np.float64(0.493254), np.float64(0.493254)]

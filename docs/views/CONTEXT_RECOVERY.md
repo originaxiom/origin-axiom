@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1697 |
-| … PROVED | 1190 |
+| arcs with a verdict file | 1698 |
+| … PROVED | 1191 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B2001 | PROVED | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest dec…” |
 | B2000 | PROVED | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair a…” |
 | B1999 | PROVED | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is e…” |
 | B1998 | PROVED | “LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the c…” |
@@ -42,7 +43,6 @@
 | B1992 | PROVED | “WHAT THE WHOLE CAN SELECT IS ALGEBRAIC (PROVED; data-free): the moves are integer polynomial maps, so every point or level the whole singles out by finitely many conditions is algebraic (26 of 30 words to length 4 fix f…” |
 | B1991 | PROVED | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distin…” |
 | B1990 | PROVED | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it…” |
-| B1989 | PROVED | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 15 (B2000, PROVED; a weave result; data-free)).** B1995's open question answered, with agy-exp credited (its NI-1 and NI-3 verified on main): at omega's own point (3,3,3) the whole's unfolding separates the neutral member from the charged pair, 14 : 5, and keeps the pair locked; at the common point all three are equal. 3 -> 1 + 2 is native; the last split needs a reflection-breaking ingredient. The fusion laws of the common point's realisations are exact. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 16 (B2001, PROVED; a weave result; data-free)).** Across the whole cusp leaf, omega's 1 + 2 is a split in persistence: the neutral sector holds what the whole remembers (0.99 per move at its prime), the charged pair is forgotten about twice as fast, and its two members never differ. The covariant whole is exactly the symmetric walk on three move pairs, with no arrow of time; at the whole's prime 3 the charged spectrum is exactly half the neutral one. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

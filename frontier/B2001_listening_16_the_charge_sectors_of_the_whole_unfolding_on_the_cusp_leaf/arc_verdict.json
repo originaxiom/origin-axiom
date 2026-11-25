@@ -1,0 +1,27 @@
+{
+ "id": "B2001",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B2000",
+  "B1995",
+  "B1994",
+  "B1996",
+  "B1983"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the cusp's leaf minus the common point mod 5, 7, 11, 13, and the orbit of (3,3,3) mod 27, 81, 243",
+  "object": "the C-covariant unfolding the six-move covariant unfolding (and its twelve-move version) on functions on the leaf, decomposed into omega's three charge sectors: dimensions, top moduli, slowest decays",
+  "reach": "class",
+  "hypotheses": "dense eigensolvers on sectors up to 1,946 dimensions; commutation and symmetry exact; the halving to 12 digits post hoc"
+ },
+ "claim_one_line": "LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest decay (0.88 to 0.99 per move) while the charged pair's strongest mode is 0.44 to 0.49, the two charged members identical; on the 3-tower both settle (0.986507 and 0.493254 at mod 81 and 243); post hoc, exactly: the six conjugated moves are closed under inversion (L^-1 = CRC^-1, R^-1 = C^2LC^-2, the third move CLC^-1 = (y, yz - x, z)), so the covariant whole is the symmetric walk on three move pairs, with no arrow of time; and on the 3-tower the charged spectrum is exactly half the neutral one below the top (ratio 2 to 12 digits; at primes 5 to 13 it is 1.89 to 2.09)",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

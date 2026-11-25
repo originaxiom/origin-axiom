@@ -1,0 +1,14 @@
+L = (x, z, x*z - y)
+R = (z, y, -x + y*z)
+CLC^-1 = (y, -x + y*z, z)
+CRC^-1 = (x, x*y - z, y)
+C^2LC^-2 = (x*y - z, y, x)
+C^2RC^-2 = (x*z - y, x, z)
+(a) the inverse of each of the six lies among the six: {'L': 'CRC^-1', 'R': 'C^2LC^-2', 'CLC^-1': 'C^2RC^-2', 'CRC^-1': 'L', 'C^2LC^-2': 'R', 'C^2RC^-2': 'CLC^-1'}
+(a) C L C^-1 = R^-1: False; C^2 L C^-2 equals: ['R^-1']
+(b) mod 27 (72 points): W6 symmetric (max |W6 - W6^T| = 0.0); neutral spectrum top 4 [6.0, 5.291502622, 5.291502622, 4.0]; charged top 4 [2.645751311, 2.645751311, 2.0, 2.0]; neutral slowest/6 = 0.881917103688, charged top/6 = 0.440958551844, ratio 2.000000000000
+(b) mod 81 (648 points): W6 symmetric (max |W6 - W6^T| = 0.0); neutral spectrum top 4 [6.0, 5.919044005, 5.919044005, 5.758770483]; charged top 4 [2.959522002, 2.959522002, 2.879385242, 2.879385242]; neutral slowest/6 = 0.986507334159, charged top/6 = 0.493253667079, ratio 2.000000000000
+(b) mod 5 (40 points): W6 symmetric (max |W6 - W6^T| = 0.0); neutral spectrum top 4 [6.0, 4.962388608, 4.334960429, 2.66197878]; charged top 4 [2.551852687, 1.921353702, 1.646110578, 1.532088886]; neutral slowest/6 = 0.901105866144, charged top/6 = 0.449077475044, ratio 2.006571062277
+(b) mod 7 (28 points): W6 symmetric (max |W6 - W6^T| = 0.0); neutral spectrum top 4 [6.0, 5.315710001, 4.169665664, 1.390142738]; charged top 4 [2.296953681, 1.59870314, 1.561552813, 0.720104355]; neutral slowest/6 = 0.885951666792, charged top/6 = 0.469677567517, ratio 1.886297596614
+(b) mod 11 (88 points): W6 symmetric (max |W6 - W6^T| = 0.0); neutral spectrum top 4 [6.0, 5.746070558, 5.318930931, 4.834725043]; charged top 4 [2.717035652, 2.422299455, 2.40119247, 2.282724227]; neutral slowest/6 = 0.957678426307, charged top/6 = 0.458729833872, ratio 2.087674172449
+(b) mod 13 (208 points): W6 symmetric (max |W6 - W6^T| = 0.0); neutral spectrum top 4 [6.0, 5.80592903, 5.472568972, 5.291916242]; charged top 4 [2.794661717, 2.668839814, 2.571737315, 2.548673873]; neutral slowest/6 = 0.967654838410, charged top/6 = 0.469856208988, ratio 2.059470152567
