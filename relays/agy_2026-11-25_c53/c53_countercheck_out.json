@@ -1,0 +1,32 @@
+{
+  "all_referee_checks_passed": true,
+  "ast_firewall_countercheck": {
+    "calls": 0,
+    "literals": 0
+  },
+  "ast_firewall_producer": {
+    "calls": 0,
+    "literals": 0
+  },
+  "card": "AGY-C53-COUNTERCHECK",
+  "discrepancies_count": 0,
+  "disjoint_e1_alt_modulus_max_err": "7.80327282276e-51",
+  "disjoint_e2_y32_42_max_2_over_5_err": "8.80449937552e-11",
+  "disjoint_e4_rk4_logradial_L2_diffs": {
+    "i": "3.406751588e-6",
+    "omega": "1.09355589e-5",
+    "tau_gold": "1.775067677e-5"
+  },
+  "disjoint_e5_expm_u3_5_max_err": "1.24594587025e-52",
+  "disjoint_e5_vs_producer_indep_L2_max_rel_diff": "1.306873373e-5",
+  "disjoint_e5_vs_producer_same_L2_max_rel_diff": "3.597939693e-8",
+  "empirical_inputs": "0 of 19",
+  "referee_planted_faults": {
+    "RPF1_bad_rhoT_err": "1.4264613",
+    "RPF2_bad_kap_rank1_ratio": "0.11628697",
+    "RPF3_c0_nonfuchsian_im_tr": "0.21959111",
+    "RPF4_illegal_lr_overlap_drift": "0.18586177",
+    "RPF5_no_UA_transport_ckm_drift": "0.15836884"
+  },
+  "verified_producer_sha256": "611be25334af4b9852782cb4e8c7b48cca156e86903ce10a94a4aa32812fdc2b"
+}
