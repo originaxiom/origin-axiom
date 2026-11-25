@@ -18449,6 +18449,20 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1996": {
+   "slug": "listening 12 the slow decay up the tower",
+   "motifs": [
+    "measurement",
+    "metallic"
+   ],
+   "refs": [
+    "B451"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

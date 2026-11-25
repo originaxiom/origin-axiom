@@ -1,0 +1,6 @@
+(a) mod 81, largest orbit 648: eigenvalues of modulus near 1.9153: [(1.915298+0j), (1.915298+0j), (-1.915298+0j), (-1.915298+0j)]; arguments (turns): [0.0, 0.0, 0.5, 0.5]
+(b) modulus 1.915298164734: integer polynomial of degree <= 8 with coefficients <= 200 found by findpoly (double precision input): [-17, 49, -35, 35, -27, -52]
+(b) its square 3.668367059834: [-2, 37, -101, -8, -99, 85]
+(b) modulus 1.915298164734: integer polynomial of degree <= 8 with coefficients <= 200 found by findpoly (double precision input): [-17, 49, -35, 35, -27, -52]
+(b) its square 3.668367059834: [-2, 37, -101, -8, -99, 85]
+(c) mod 729: 229635 points over the common point; largest orbit 52488; W+ largest moduli [np.float64(2.0), np.float64(2.0), np.float64(1.9153), np.float64(1.9153), np.float64(1.9153), np.float64(1.9153)]; slowest decay ratio 0.9576  [9 s]

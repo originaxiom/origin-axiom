@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1692** |
-| words of findings prose | **1,552,174** |
+| research arcs with findings | **1693** |
+| words of findings prose | **1,552,829** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1692** (100.0 %) |
+| arcs carrying an authored verdict | **1693** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1185 |
+| PROVED | 1186 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1995`** (553 words, 0 locks)  
-“LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike in strength: W+ has diagonal 2/3, 2/3, 2/3 in the charge basis, its slowest modes (1 +- i sqrt 7)/2 overlap each member 1/3, W+-'s long-run shares are 2/3 each; only the faster real mode (eigenvalue 1) avoids the neutral member; omega labels the three, the dynamics does not separate them in magnitude”  
-`B1995_listening_11_the_unfolding_on_the_three_charge_members_at_omega/FINDINGS.md`
+**PROVED — `B1996`** (655 words, 0 locks)  
+“LISTENING 12, THE SLOW DECAY UP THE TOWER (PROVED numerically; data-free): on the tower of the whole's own prime 3 the unfolding's slowest non-undamped decay settles at lambda*/2 = 0.9576 per move, lambda* = 1.915298 real (with its negative), at mod 81, 243 and 729 (post hoc for 729) while the largest orbit grows ninefold each level; on the 5-tower it keeps rising (0.839, 0.995); lambda* is algebraic (an integer matrix's eigenvalue) and not yet identified: the first number the whole fixes by its own dynamics”  
+`B1996_listening_12_the_slow_decay_up_the_tower/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  
