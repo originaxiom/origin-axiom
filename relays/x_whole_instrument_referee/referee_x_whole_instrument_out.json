@@ -1,0 +1,152 @@
+{
+  "R_WI_1_crt_cohomology": {
+    "crt_kernel_counts": {
+      "1": 0,
+      "10": 0,
+      "12": 96,
+      "15": 0,
+      "2": 0,
+      "20": 0,
+      "3": 0,
+      "30": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "60": 576
+    },
+    "n_orbits": 8,
+    "p96_count": 96
+  },
+  "R_WI_2_ewald_taylor_covariance": {
+    "L2_at_i_taylor": "2.71925762810144",
+    "L2_at_omega_taylor": "2.7864751428831",
+    "max_ewald_sl2z_rel_err": "1.4288353e-31",
+    "pc_wi_3_ref_unshifted_err": "0.10952317"
+  },
+  "R_WI_3_denman_pade_cayley_operators": {
+    "max_72_cayley_scrambling_err": "4.3609217e-29",
+    "orbit_0_cutfree_floquet": {
+      "ckm_diag_min": "0.983442879495",
+      "ckm_v12": "0.10850556397",
+      "ckm_v23": "0.0863555354081",
+      "down_ratios": [
+        "0.281776594324",
+        "0.531552193162"
+      ],
+      "lep_ratios": [
+        "0.0528262042904",
+        "0.173829588171"
+      ],
+      "up_ratios": [
+        "0.202755632013",
+        "0.387878632825"
+      ]
+    },
+    "orbit_0_floquet_moduli_up_ratios": [
+      "0.121565729222",
+      "0.142165686382"
+    ],
+    "p5_zero_mixing_deviation": "9.8607613e-32",
+    "pc_wi_1_ref_err": "0.34071546",
+    "pc_wi_2_ref_err": "0.43093195"
+  },
+  "R_WI_4_shell_washout": {
+    "full_96_point_shell": {
+      "ckm_diag_min": "0.8244351933",
+      "down_ratios": [
+        "0.5184435495",
+        "0.7673156242"
+      ],
+      "lep_ratios": [
+        "0.347248378",
+        "0.8312401402"
+      ],
+      "up_ratios": [
+        "0.5144821633",
+        "0.6823989772"
+      ]
+    }
+  },
+  "R_WI_5_symbolic_z_omega_8_3_4": {
+    "cusp_spin_traces": [
+      {
+        "degree": 1,
+        "rho0": [
+          -2,
+          -2
+        ],
+        "rho1": [
+          2,
+          -2
+        ]
+      },
+      {
+        "degree": 2,
+        "rho0": [
+          2,
+          -2
+        ],
+        "rho1": [
+          2,
+          -2
+        ]
+      },
+      {
+        "degree": 2,
+        "rho0": [
+          2,
+          -2
+        ],
+        "rho1": [
+          2,
+          -2
+        ]
+      }
+    ],
+    "ell_symbolic_Z_omega": [
+      [
+        -1,
+        0
+      ],
+      [
+        -2,
+        -4
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ]
+  },
+  "all_counterchecks_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-25_whole_instrument_m12_covariance_and_cube_churn",
+  "firewall": "strictly_0_of_19",
+  "max_producer_referee_diff": "4.81e-13",
+  "producer_output_sha256_checked": "8847782147f4d0106789a4d92c884a593d90ba05e685e00bfa825ef8a9878b16",
+  "producer_referee_diffs": {
+    "L2_i_diff": "4.81e-13",
+    "L2_omega_diff": "3.76e-13",
+    "orb0_ckm_diag_diff": "0.0",
+    "orb0_down0_diff": "0.0",
+    "orb0_lep0_diff": "0.0",
+    "orb0_up0_diff": "0.0",
+    "shell_up0_diff": "0.0"
+  },
+  "referee_controls": {
+    "RC_WI_1_cayley_catches_naive_untransported_product": true,
+    "RC_WI_2_pade_catches_single_cut_orbit_shift": true,
+    "RC_WI_3_ewald_catches_unshifted_S_end_law": true,
+    "RC_WI_4_cubic_catches_odd_level_p5_zero_mixing": true
+  },
+  "referee_script_sha256": "37c37a6da39bdb84baf4fb16dd2427b50918549cd21ae68ca537fcdfeeec3315"
+}
