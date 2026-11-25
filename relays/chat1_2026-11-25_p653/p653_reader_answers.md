@@ -1,5 +1,6 @@
 <!-- The cold reader's answers, as written by it to its scratch file, with two redactions by the web seat, marked in
-place: one quotation of the owner's words, and one seat's name. Nothing else is changed. -->
+place: one quotation of the owner's words, and one seat's name, each replaced by the bracket alone. Nothing else
+is changed; the reader's long lines are kept as written. -->
 
 # Answers of the cold reader (P-653)
 
@@ -21,7 +22,7 @@ A state is a signed cyclic word s = (ε, w), where w is a primitive word in L an
 A frame is a dictionary from geometry to particles: it turns flat bundles on a state into particle counts (§5, 272–274). F-MC is of a different kind, going from the root's arithmetic to a gauge algebra (275–276). Five frames are named: F-FC, F-CI, F-MC, F-HE and F-AP (280–284). They are thread instruments, each built on one thread's holonomy (48). **No frame is derived from §1–§4.** The transport of any frame to physics (identification I-26) is UNEARNED, and each frame is "a named hypothesis" (274–275). GAP1 repeats this: no frame is derived, and until one is, a count is mathematics about a flat bundle (349). The v1.60 route for earning a dictionary by prediction leaves that sentence standing (350–351, 377–379). FK11 has the dictionary UNEARNED and unearnable by derivation within F-HE and F-CI on any thread or cover (488). Results are statements about a frame applied to an object, never about the architecture as such, and the frames disagree on the same objects (286–289). §7 lists "that any frame is physics" as not claimed (345).
 
 **6. Which came first, and what GENESIS concludes.**
-The **object came first**. In §4's "Provenance (recorded, not hidden)" (263–268), the figure-eight was first named in a probe on 22 May 2026, and the axioms were committed on 28 May: "the object preceded the axioms". None of another seat's [name redacted by the web seat] genesis anchors is PROVED: one is REFUTED and two are CONDITIONAL. GENESIS concludes that "the genesis is a conditional reconstruction of a chosen sector. It is not a derivation of [the root] from nothing" (268; the manifold's number is masked there). Other passages agree with this. None of the routes derives its axioms from anything weaker (252). The records route's collapse is over-determined, "a consistency demonstration rather than a search" (248–251). The words route and the records route are "one construction in two presentations, not two derivations" (253–255).
+The **object came first**. In §4's "Provenance (recorded, not hidden)" (263–268), the figure-eight was first named in a probe on 22 May 2026, and the axioms were committed on 28 May: "the object preceded the axioms". None of [name redacted by the web seat] seat's genesis anchors is PROVED: one is REFUTED and two are CONDITIONAL. GENESIS concludes that "the genesis is a conditional reconstruction of a chosen sector. It is not a derivation of [the root] from nothing" (268; the manifold's number is masked there). Other passages agree with this. None of the routes derives its axioms from anything weaker (252). The records route's collapse is over-determined, "a consistency demonstration rather than a search" (248–251). The words route and the records route are "one construction in two presentations, not two derivations" (253–255).
 
 **7. The six gaps (§7, 348–451).**
 - **GAP1, the dictionary:** no frame is derived (349).
@@ -94,6 +95,6 @@ GENESIS claims none of the three. The §3 table (205–211) grades the claims ab
 Other passages support this:
 - Word extension needs an evolution law and a clock before depth may be called time (190).
 - The record has no intrinsic time (GAP5, 424).
-- The owner's statement of what takes part [quotation redacted by the web seat: no owner's words are quoted in public text] is wording. As a statement about the world it is a hypothesis to test, not a premise (120–122; FK12 (iv)).
+- The owner's [quotation redacted by the web seat: no owner's words are quoted in public text] is wording. As a statement about the world it is a hypothesis to test, not a premise (120–122; FK12 (iv)).
 
 GENESIS does say a mathematical arrow, the random walk's escape, "is forced" (456, 483). Under §7 that arrow is not claimed to be physical time.
