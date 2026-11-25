@@ -1,0 +1,14 @@
+X1 m004 (LR): trace 3, tr^2 - 4 = 5; mod 5 its eigenlines [(1, 2)] (of -w: [(1, 2)])
+X1 m003 (-LR): trace -3, tr^2 - 4 = 5; mod 5 its eigenlines [(1, 2)] (of -w: [(1, 2)])
+X1 +-LLLR: trace 5, tr^2 - 4 = 21; mod 3 its eigenlines [(0, 1)] (of -w: [(0, 1)])
+X1 +-LLLR: trace 5, tr^2 - 4 = 21; mod 7 its eigenlines [(1, 3)] (of -w: [(1, 3)])
+read-out m004 (LR) at p = 5, line (0.2, 0.4): 40 words, lengths 7.3 to 14.1
+read-out m003 (-LR) at p = 5, line (0.2, 0.4): 40 words, lengths 7.3 to 14.1
+read-out +-LLLR at p = 3, line (0.0, 0.3333333333333333): 40 words, lengths 6.7 to 14.6
+read-out +-LLLR at p = 7, line (0.14285714285714285, 0.42857142857142855): 40 words, lengths 7.7 to 14.5
+X1 m003 against m004: {'compared': 48, 'dropped': 0, 'frac_above_3': 0.0, 'median_z': 0.0, 'max_abs_diff': 0.0, 'exact_equal': True}
+X2 m004, second seed against the first: {'compared': 48, 'dropped': 0, 'frac_above_3': 0.0, 'median_z': 0.36520551867636125, 'max_abs_diff': 0.16951026137336145, 'exact_equal': False}
+X3 +-LLLR at p = 7 against m004: {'compared': 43, 'dropped': 5, 'frac_above_3': 0.18604651162790697, 'median_z': 1.537805984558446, 'max_abs_diff': 0.5666696300407241, 'exact_equal': False}
+X3 +-LLLR at p = 3 against m004: {'compared': 36, 'dropped': 12, 'frac_above_3': 0.5555555555555556, 'median_z': 3.5122234894806903, 'max_abs_diff': 3.0608722633347463, 'exact_equal': False}
+
+X1 holds, X2 holds, X3 FAILS
