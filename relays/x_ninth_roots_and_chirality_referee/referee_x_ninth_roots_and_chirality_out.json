@@ -1,0 +1,59 @@
+{
+  "R_NH_1_constructive_honeycomb": {
+    "B1997_P12_residual": "9.4039548e-38",
+    "chebyshev_lambda_star_M9": "1.91529816473407716",
+    "constructive_648_intertwine_ok": true
+  },
+  "R_NH_2_direct_orbit_power_iter": {
+    "direct_orbit_lambda_p3_mod81": "1.915298164734077",
+    "direct_orbit_lambda_p5_mod125": "1.677861658220461",
+    "direct_orbit_lambda_p5_mod625": "1.989420783202457",
+    "direct_orbit_lambda_p7_mod343": "1.85516529829152"
+  },
+  "R_NH_3_bfs_collapse_and_mod243": {
+    "bfs_quotient_mod243": 648,
+    "bfs_quotient_mod625": 600,
+    "mod243_new_fiber_ceiling_conj": "1.521873734777331"
+  },
+  "R_NH_4_5_trace_walk_and_dk_chirality": {
+    "H_chiral_333_sorted_eigs_dk": [
+      "17.87564434701786",
+      "42.12435565298214",
+      "66.0"
+    ],
+    "S4_cov_3_6_15_modulus_dk": "3.605551275463989",
+    "depth2_ratio_trace_proj": "3.4",
+    "depth8_ratio_approaching_4": "4.0",
+    "depth8_sum_s": "2434613694817720257753"
+  },
+  "all_counterchecks_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-25_ninth_roots_honeycomb_markoff_flow_and_chirality",
+  "firewall": "strictly_0_of_19_zero_SM_scaffolding",
+  "max_producer_referee_diff": "3.1e-16",
+  "producer_output_sha256_checked": "aa0ae5133cf0bf0815cf145cb09b165b5acc97ccf5ae53b4568d8fd9533f04ad",
+  "producer_referee_diffs": {
+    "H_chiral_eig0_diff": "0.0",
+    "H_chiral_eig1_diff": "0.0",
+    "M25_direct_orbit_diff": "1.6e-16",
+    "M5_direct_orbit_diff": "0.0",
+    "M7_direct_orbit_diff": "3.1e-16",
+    "M9_chebyshev_diff": "0.0",
+    "M9_direct_orbit_diff": "1.6e-16",
+    "S4_3615_mod_diff": "0.0",
+    "depth2_ratio_diff": "0.0",
+    "mod243_new_fiber_diff": "0.0"
+  },
+  "referee_controls": {
+    "RC_NH_1_constructive_18torus_and_B1997_P12": true,
+    "RC_NH_2_direct_modular_orbits_match_bloch_hierarchy": true,
+    "RC_NH_3_deep_markoff_converges_to_4": true,
+    "RC_NH_4_durand_kerner_confirms_real_tie_vs_PT_split": true
+  },
+  "referee_script_sha256": "3acb12625273f0a02b42c6e7c7a6bd6ce2c8250b19edcd0e46f9e874418b19e2"
+}
