@@ -1,0 +1,5 @@
+F1 m004 at the mark (2/5, 4/5) against the twin (1/5, 2/5), the same 40 words: {'compared': 48, 'dropped': 0, 'frac_above_3': 0.0, 'median_z': 0.21743371895895774, 'max_abs_diff': 0.13796878379217503, 'exact_equal': False}
+F2 LLLR at p = 7 against m004 at the mark, 120 words: {'compared': 35, 'dropped': 13, 'frac_above_3': 0.2571428571428571, 'median_z': 2.1088362887343863, 'max_abs_diff': 0.33024892937864103, 'exact_equal': False}
+F2 the same, first 40 of the 120 words: {'compared': 37, 'dropped': 11, 'frac_above_3': 0.02702702702702703, 'median_z': 0.8800167692639095, 'max_abs_diff': 0.30528596429372157, 'exact_equal': False}
+F3 m004 at the mark, a second 120 words against the first: {'compared': 31, 'dropped': 17, 'frac_above_3': 0.0, 'median_z': 0.8014634717408382, 'max_abs_diff': 0.1240122483347631, 'exact_equal': False}
+reading: the p = 7 difference is real
