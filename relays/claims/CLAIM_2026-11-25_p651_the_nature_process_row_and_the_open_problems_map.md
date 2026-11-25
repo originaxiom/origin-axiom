@@ -12,7 +12,8 @@
   - the open-problems map's first version, with a first computable step for each problem touched;
   - a registry defect for main: T-ORDER-MATCH's text does not match its bank, B1082.
 - imports: the cited literature, among it:
-  - KKT and Ostlund et al. (1983), Merlin et al. (1985), Tanese et al. (2014), Lindenmayer (1968), Feiguin et al. (2007);
+  - KKT and Ostlund et al. (1983), Merlin et al. (1985), Tanese et al. (2014), Lindenmayer (1968), Feiguin et al.
+    (2007);
   - Reid (1991), Elstrodt, Grunewald and Mennicke, Sarnak (1983), Blomer and Brumley (2011), Booker, Strömbergsson and
     Venkatesh (2006), Seymour-Howell (2022), Grunewald and Huntebrinker (1996);
   - Bettin and Drappeau (Math. Ann.), Goncharov and Rudenko (Annals);
