@@ -1,0 +1,6 @@
+P1 three 648-orbits; characteristic polynomials equal: True
+P2 sign(-,-,+)  sends orbit i to [0, 1, 2] (whole orbit: [True, True, True])
+P2 sign(-,+,-)  sends orbit i to [0, 1, 2] (whole orbit: [True, True, True])
+P2 sign(+,-,-)  sends orbit i to [0, 1, 2] (whole orbit: [True, True, True])
+P2 swap         sends orbit i to [0, 1, 2] (whole orbit: [True, True, True])
+P2 cycle        sends orbit i to [0, 1, 2] (whole orbit: [True, True, True])

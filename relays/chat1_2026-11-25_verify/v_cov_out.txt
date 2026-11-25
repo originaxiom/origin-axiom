@@ -1,0 +1,7 @@
+tau1 = (0.3+1.2j), move S to (-0.19607843137254904+0.7843137254901962j) (end law, L 2.633387 -> 2.846021): worst d 1.5e-15; maps on the point consistent with every match: ['+w g', '-w g', '+w g^-1', '-w g^-1', '+w g^T', '-w g^T', '+w g^-T', '-w g^-T']  [83 s]
+tau1 = (0.3+1.2j), move M to (1.584664536741214+0.3833865814696485j) (end law, L 2.633387 -> 3.203903): worst d 1.9e-15; maps on the point consistent with every match: ['+w g^-1', '-w g^-1', '+w g^-T', '-w g^-T']  [236 s]
+tau1 = (0.3+1.2j), move M to (1.584664536741214+0.3833865814696485j) (end unshifted, L 2.633387 -> 2.633387): worst d 1.6e-01; maps on the point consistent with every match: None  [370 s]
+tau1 = (0.3+1.2j), move half to (0.8+1.2j) (end law, L 2.633387 -> 2.633597): worst d 3.5e-01; maps on the point consistent with every match: None  [435 s]
+tau2 = (-0.2+1.1j), move S to (0.16+0.8799999999999999j) (end law, L 2.672226 -> 2.783797): worst d 3.9e-16; maps on the point consistent with every match: ['+w g', '-w g', '+w g^-1', '-w g^-1', '+w g^T', '-w g^T', '+w g^-T', '-w g^-T']  [513 s]
+tau2 = (-0.2+1.1j), move M to (1.5675675675675675+0.5945945945945945j) (end law, L 2.672226 -> 2.979819): worst d 1.4e-15; maps on the point consistent with every match: ['+w g^-1', '-w g^-1', '+w g^-T', '-w g^-T']  [593 s]
+SUMMARY K1 (S off the axis) True; K2 (M jointly) True; K3 (controls fail as required) True
