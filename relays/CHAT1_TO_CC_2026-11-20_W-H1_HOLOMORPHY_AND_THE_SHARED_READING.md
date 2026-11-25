@@ -131,7 +131,8 @@ judgement.
 - [E] **The global bit is fixed as well, and not by SE2.** The post hoc identity concerns the Higgs matrix alone:
   with S̃ each channel's coupling is holomorphic in neither τ nor −τ̄ (ρ is 1.19 to 25 in τ, so 0.04 to 0.84 in −τ̄,
   per the referee). The identity does not tie the bit to SE2, and P-847 records the fibre mirror's exchange of S and
-  S̃ as tested and refuted. Main's later note (P-847, 2026-11-20, with B1970) records the global bit as fixed by holomorphy.
+  S̃ as tested and refuted. Main's later note (P-847, 2026-11-20, with B1970) records the global bit as fixed by
+  holomorphy.
 - [J] **What it costs.**
   - It removes the Higgs reading as a free input: C04 in W-P1A, the Higgs world.
   - It adds a second doublet. FK15 is OPEN, and the record's Higgs is "forced to exist, not forced which".
