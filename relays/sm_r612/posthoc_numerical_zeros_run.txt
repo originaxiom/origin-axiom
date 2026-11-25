@@ -1,0 +1,27 @@
+0.21+2.97i delta=inf       m1/m3: up 6.1e-17 down 1.2e-16 lep 2.2e-17
+0.21+2.97i delta=inf at T  m1/m3: up 2.6e-17 down 1.0e-16 lep 4.5e-17
+0.21+2.97i E4              m1/m3: up 1.5e-05 down 1.0e-03 lep 1.0e-03
+0.21+2.97i PL5 re-read on ln(m2/m3) only: max dev 1.8e-14 -> CONSTANT
+0.21+2.97i Higgs R    m1/m3: up 4.9e-17 down 4.2e-17 lep 1.8e-17 | lepton/down m2/m3 equal to 1.2e-16
+0.21+2.97i Higgs DR   m1/m3: up 1.5e-05 down 1.0e-03 lep 1.0e-03 | lepton/down m2/m3 equal to 1.2e-16
+0.21+2.97i Higgs D2R  m1/m3: up 7.5e-06 down 6.8e-04 lep 6.8e-04 | lepton/down m2/m3 equal to 9.2e-17
+0.21+2.97i end menu on the three ln(m2/m3): 7 images of 7
+0.21+2.97i tau at delta = inf, ln(m2/m3) only: rank 2, sv 5.4e+00 6.9e-03
+-0.33+3.08i delta=inf       m1/m3: up 7.1e-17 down 2.4e-17 lep 1.2e-17
+-0.33+3.08i delta=inf at T  m1/m3: up 6.0e-17 down 1.5e-16 lep 2.5e-17
+-0.33+3.08i E4              m1/m3: up 9.1e-06 down 7.7e-04 lep 7.7e-04
+-0.33+3.08i PL5 re-read on ln(m2/m3) only: max dev 2.8e-14 -> CONSTANT
+-0.33+3.08i Higgs R    m1/m3: up 3.3e-17 down 9.8e-18 lep 6.8e-18 | lepton/down m2/m3 equal to 3.5e-18
+-0.33+3.08i Higgs DR   m1/m3: up 9.1e-06 down 7.7e-04 lep 7.7e-04 | lepton/down m2/m3 equal to 2.1e-17
+-0.33+3.08i Higgs D2R  m1/m3: up 2.5e-06 down 4.6e-04 lep 4.6e-04 | lepton/down m2/m3 equal to 8.7e-18
+-0.33+3.08i end menu on the three ln(m2/m3): 7 images of 7
+-0.33+3.08i tau at delta = inf, ln(m2/m3) only: rank 2, sv 5.5e+00 2.8e-03
+0.44+3.02i delta=inf       m1/m3: up 2.5e-17 down 1.1e-16 lep 1.4e-17
+0.44+3.02i delta=inf at T  m1/m3: up 4.3e-17 down 7.0e-17 lep 3.0e-17
+0.44+3.02i E4              m1/m3: up 6.5e-06 down 8.8e-04 lep 8.8e-04
+0.44+3.02i PL5 re-read on ln(m2/m3) only: max dev 1.4e-14 -> CONSTANT
+0.44+3.02i Higgs R    m1/m3: up 7.8e-17 down 2.0e-16 lep 7.8e-18 | lepton/down m2/m3 equal to 1.8e-16
+0.44+3.02i Higgs DR   m1/m3: up 6.5e-06 down 8.8e-04 lep 8.8e-04 | lepton/down m2/m3 equal to 1.8e-16
+0.44+3.02i Higgs D2R  m1/m3: up 1.1e-05 down 5.7e-04 lep 5.7e-04 | lepton/down m2/m3 equal to 2.0e-16
+0.44+3.02i end menu on the three ln(m2/m3): 7 images of 7
+0.44+3.02i tau at delta = inf, ln(m2/m3) only: rank 2, sv 5.4e+00 1.4e-03

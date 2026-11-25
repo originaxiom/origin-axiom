@@ -496,7 +496,9 @@ next push: M51's W47 convention, the B1814 rerun (by 2026-12-01), then M52 and M
     identically zero determinant); post hoc it holds absolutely.
   - P-614 (`relays/SM_R614_THE_DISCRETE_REMNANT.md`): nothing beyond the SM survives under SM × U1-η; the sealed script
     failed on a one-line colour bug, fixed post hoc and disclosed; a GENESIS note is drafted on the page.
-  - P-612: sealed and running.
+  - P-612 (`relays/SM_R612_COUNT_THE_IMAGE.md`): the sealed run is VOID by its own plant PL5, the T-law at δ = ∞,
+    because a first generation at rounding level was read as a mass. Post hoc, no named choice descends and the joint
+    image has dimension 5. A re-sealed run with a stated zero floor is under way (SM-R612b).
 - **SM-C24 delivered** (`relays/SM_C24_THE_WHOLE_INSTRUMENT.md`; claim card
   `relays/claims/CLAIM_2026-11-25_order_30_whole_instrument.md`). All 576 points of order 30, as 288 pairs ±v. The 240
   pairs whose first coordinate has a 5-part are all aligned and hierarchical, converged, in exactly the act's line's 12
