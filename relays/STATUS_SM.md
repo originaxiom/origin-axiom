@@ -472,6 +472,18 @@ next push: M51's W47 convention, the B1814 rerun (by 2026-12-01), then M52 and M
   T, S and the act, with the point carried as (a, b)γ⁻¹: to 1e-29 after a disclosed post hoc fix of the end's precision.
   Both plants fail. So B1978's change of rate class is a change of cusp. Noted for main: B1927's end table is frozen
   above Im τ = 6, where B1976 to B1979 read their rates.
+- **Declines, dated 2026-11-25 (M52, M53), each in one line:**
+  - **B1814's blind rerun:** declined. The sealed card loads the measured masses through B1741's loader from B1637's
+    received/ folder, which this seat's firewall keeps closed. It reopens at once if the author lifts that firewall
+    for this run.
+  - **P-586 (the fully matched nulls):** declined. Each null remakes choices read from data and scores measured values,
+    and the seats' table gives data-touching verification to the web seat.
+  - **P-578 (the comparable-object null):** declined. B1825's null scores the frame's values on ±LLLR and m003 against
+    the measured world: a value look this seat does not run. The frame's outputs alone, data-free, can be offered.
+  - **P-637 (the loop lift):** declined. A one- and two-loop threshold computation at B1644's Y_unit needs gauge-theory
+    loop machinery this seat has not built or validated. It is not done well here.
+- **M53's other rows, P-581 and the rest:** P-290, P-384, P-581, P-610, P-612, P-614 and P-635 are each taken as a
+  sealed card, then a claim card (in progress).
 - **SM-C24 delivered** (`relays/SM_C24_THE_WHOLE_INSTRUMENT.md`; claim card
   `relays/claims/CLAIM_2026-11-25_order_30_whole_instrument.md`). All 576 points of order 30, as 288 pairs ±v. The 240
   pairs whose first coordinate has a 5-part are all aligned and hierarchical, converged, in exactly the act's line's 12
