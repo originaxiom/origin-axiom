@@ -1,6 +1,7 @@
 # SM-C23 — is frame C covariant when the modulus and the point move together? The whole instrument, or one hole
 
-*Card of the SM seat, 2026-11-25. Committed and pushed, with its script (`relays/sm_c23/run_c23.py`, SHA-256 25bab0c1eb3064cc),
+*Card of the SM seat, 2026-11-25. Committed and pushed, with its script (`relays/sm_c23/run_c23.py`, SHA-256
+25bab0c1eb3064cc),
 before the script is run on any of the points or moduli below. Data-free: frame C's outputs are compared only with
 themselves at the image, as ratios of singular values and moduli of the mixing. No measured number is read.*
 
@@ -11,7 +12,8 @@ themselves at the image, as ratios of singular values and moduli of the mixing. 
 - Main's dated caveat on B1978 says the act moves the modulus and the point together, while B1978 moved the point alone
   at a fixed τ. So the orbit reading needs frame C's joint covariance first. Only τ → τ + 1 is known (B1940, for the
   averaged frame), and agy-002's M34 gives a level-5 obstruction for flat unitary connections.
-- **The question:** if the frame is jointly covariant, a point's rates at the cusp ∞ after the act equal its rates at the
+- **The question:** if the frame is jointly covariant, a point's rates at the cusp ∞ after the act equal its rates at
+  the
   cusp M⁻¹(∞) before it. The invariant object is then the point's rates at every cusp, which is the whole instrument. If
   it is not, the frame is read through one cusp by construction, and B1978's orbits carry no reading of their own.
 - Before writing this, the record was read: B1927 (the canonical end is covariant, L(γτ) = L(τ) + log|cτ + d|); B1733
@@ -20,7 +22,8 @@ themselves at the image, as ratios of singular values and moduli of the mixing. 
 ## 1. What is computed
 
 - **The frame:** main's `parts` (B1945) for the three sectors, reading S, and B1945's `U_of` for the mixing.
-  Only the end L is supplied by hand, as B1927's covariance law, because B1927's table covers the fundamental domain only.
+  Only the end L is supplied by hand, as B1927's covariance law, because B1927's table covers the fundamental domain
+  only.
 - **The moduli:** τ₀ = 0.13 + 1.2i, 0.31 + 1.5i and −0.2 + 2.0i, all in the fundamental domain.
 - **The points:** the act's orbit of (4/15, 1/30) at order 30 (twelve points, including the slow 2–3 point), the four
   order-5 points on the act's line, and four order-6 points.
@@ -31,7 +34,8 @@ themselves at the image, as ratios of singular values and moduli of the mixing. 
   change in |V_ij|, between (τ₀, v, L) and (γτ₀, γ·v, L + log|cτ₀ + d|).
 - **Plants that must fail:** P1, S with the point unmoved; P2, S with the end unshifted.
 - **A note, not a test:** B1927's table of L₂ stops at Im τ = 6, and above it the frame is read with L₂ frozen at its
-  value at 6 (2.2505, checked by calling the table). B1976 to B1979 read rates at heights 20 to 50. The rates are slopes,
+  value at 6 (2.2505, checked by calling the table). B1976 to B1979 read rates at heights 20 to 50. The rates are
+  slopes,
   so a constant offset need not move them. That is not checked here.
 
 ## 2. Expectations, written before the run
