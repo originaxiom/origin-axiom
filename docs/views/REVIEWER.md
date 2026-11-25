@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1687** |
-| words of findings prose | **1,548,706** |
+| research arcs with findings | **1688** |
+| words of findings prose | **1,549,375** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1687** (100.0 %) |
+| arcs carrying an authored verdict | **1688** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1180 |
+| PROVED | 1181 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1990`** (718 words, 0 locks)  
-“LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it (by (kappa - 2) M), outside the grammar; so each frustration level is a sector of the whole; the law's counting gives every leaf about p^2 readings: 'nothing' exactly p^2 + 1, the cusp exactly p^2 + 3(-1/p)p + 1 (the one level whose correction is three), the others p^2 + {-(4p-1), -(2p-1), 2p+1, 4p+1}; no level is preferred”  
-`B1990_listening_7_what_changes_kappa_and_the_weight_the_law_gives_each_level/FINDINGS.md`
+**PROVED — `B1991`** (669 words, 0 locks)  
+“LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distinct fixed points at every level mod 2^k (k = 2 to 6), with two shadow fixed points that do not persist; their levels coincide mod 4 (-2 = 2) and part only mod 8; so the whole's two primes carry its two finite structures, S3 at 2 and the cube at 3”  
+`B1991_listening_8_the_2_adic_tower_where_nothing_and_the_common_point_meet/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

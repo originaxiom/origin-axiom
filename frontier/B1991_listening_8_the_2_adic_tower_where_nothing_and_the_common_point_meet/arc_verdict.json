@@ -1,0 +1,28 @@
+{
+ "id": "B1991",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1988",
+  "B1985",
+  "B1984",
+  "B1600"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "sm:W1"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: every reading congruent to (0,0,0) mod 2, mod 2^k for k = 2 to 6, every leaf",
+  "object": "the moves' orbits, their nesting, the fixed points, the leaves, and the linear group over F_2",
+  "reach": "class",
+  "hypotheses": "exact for k <= 6; the shadow fixed points read from the congruence x(x - 2) = 0 mod 2^k"
+ },
+ "claim_one_line": "LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distinct fixed points at every level mod 2^k (k = 2 to 6), with two shadow fixed points that do not persist; their levels coincide mod 4 (-2 = 2) and part only mod 8; so the whole's two primes carry its two finite structures, S3 at 2 and the cube at 3",
+ "weave_or_thread": "weave (every move acting together, every reading over the meeting point, nothing chosen)"
+}

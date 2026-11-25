@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1687 of 1687 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1688 of 1688 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1180)
+## PROVED (1181)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1192,6 +1192,7 @@
 | `B1988` | “THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (0, 0, 0) and 'nothing' (2, 2, 2) over Q-bar and every F_p to 47; the swap keeps both, the sign actions only the common point; PF1 excludes kappa = 2, so the one self-consistent outcome is the common point, the symmetric point, which carries no values by itself: values can only live in the flow away from it” |  | 0 |
 | `B1989` | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives the common point (-2) and 'nothing' (2), 2T adds 0, 2O adds +-1, and only the icosahedral bound states carry the golden levels +-phi and +-1/phi, so Q(sqrt 5) enters the whole as the level of its icosahedral bound states with no thread chosen” |  | 0 |
 | `B1990` | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it (by (kappa - 2) M), outside the grammar; so each frustration level is a sector of the whole; the law's counting gives every leaf about p^2 readings: 'nothing' exactly p^2 + 1, the cusp exactly p^2 + 3(-1/p)p + 1 (the one level whose correction is three), the others p^2 + {-(4p-1), -(2p-1), 2p+1, 4p+1}; no level is preferred” |  | 0 |
+| `B1991` | “LISTENING 8, THE 2-ADIC TOWER (PROVED, exact; data-free): over F_2 the moves' linear group at the common point is S3, the three coordinates permuted (W1's three), not the cube; the common point and 'nothing' stay distinct fixed points at every level mod 2^k (k = 2 to 6), with two shadow fixed points that do not persist; their levels coincide mod 4 (-2 = 2) and part only mod 8; so the whole's two primes carry its two finite structures, S3 at 2 and the cube at 3” |  | 0 |
 
 ## NEGATIVE (388)
 

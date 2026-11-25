@@ -18381,6 +18381,18 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1991": {
+   "slug": "listening 8 the 2 adic tower where nothing and the common point meet",
+   "motifs": [
+    "kappa",
+    "metallic"
+   ],
+   "refs": [],
+   "obstacle": "source_free",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

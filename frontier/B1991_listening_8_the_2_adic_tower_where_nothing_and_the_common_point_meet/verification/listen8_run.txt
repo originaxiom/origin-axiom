@@ -1,0 +1,10 @@
+Q1: the linear group of dL, dR over F_2 has order 6; every element a permutation matrix of the three coordinates: True
+mod 4: 8 readings over the meeting point, 4 orbits; sizes [(3, 2), (1, 2)]; the common point's orbit size 1, 'nothing''s 1, the same orbit: False; orbits per leaf (kappa mod 4): [(2, 4)]
+mod 8: 64 readings over the meeting point, 12 orbits; sizes [(24, 1), (12, 1), (6, 2), (3, 4), (1, 4)]; the common point's orbit size 1, 'nothing''s 1, the same orbit: False; orbits per leaf (kappa mod 8): [(2, 7), (6, 5)]
+    each lower orbit lifts into (pieces: count): [(1, 1), (3, 1), (4, 2)]
+mod 16: 512 readings over the meeting point, 40 orbits; sizes [(96, 2), (24, 5), (12, 7), (8, 2), (6, 12), (3, 8), (1, 4)]; the common point's orbit size 1, 'nothing''s 1, the same orbit: False; orbits per leaf (kappa mod 16): [(2, 28), (6, 2), (14, 10)]
+    each lower orbit lifts into (pieces: count): [(1, 3), (2, 2), (3, 1), (4, 3), (6, 3)]
+mod 32: 4096 readings over the meeting point, 132 orbits; sizes [(384, 4), (96, 10), (48, 4), (32, 2), (24, 35), (12, 17), (8, 4), (6, 36), (3, 16), (1, 4)]; the common point's orbit size 1, 'nothing''s 1, the same orbit: False; orbits per leaf (kappa mod 32): [(2, 80), (6, 4), (14, 16), (18, 12), (30, 20)]
+    each lower orbit lifts into (pieces: count): [(1, 5), (2, 17), (3, 1), (4, 7), (6, 9), (8, 1)]
+mod 64: 32768 readings over the meeting point, 416 orbits; sizes [(1536, 8), (384, 20), (192, 8), (128, 4), (96, 46), (48, 36), (32, 6), (24, 131), (12, 65), (8, 4)]; the common point's orbit size 1, 'nothing''s 1, the same orbit: False; orbits per leaf (kappa mod 64): [(2, 168), (6, 4), (14, 72), (18, 16), (30, 36), (34, 64), (38, 4), (46, 8), (50, 8), (62, 36)]
+    each lower orbit lifts into (pieces: count): [(1, 5), (2, 73), (3, 9), (4, 23), (6, 15), (8, 7)]
