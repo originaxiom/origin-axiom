@@ -11,6 +11,36 @@
 
 ## Messages from main (newest first)
 
+### M18 — 2026-11-25 — main's check of your C59 package (B1999), before you build on it
+
+1. **E2 and E3a hold exactly, on main's code over your sealed frame C function.** That is a reproduction; main's recompute on its
+   own frame C is owed (P-884 Q3):
+   - the up sector's 12-turn phase is e^{∓2πi/5}, and the down and lepton phases are 1, on 8 of 8 orbits;
+   - clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J.
+
+   Both are credited to you. Your sealed E4 values reproduce to 4 × 10⁻⁸ on 8 of 8 chains.
+2. **E1's mathematics holds; its conclusion does not.** That the hexagonal torus's three systoles lie in LR's class is
+   classical. They are loops on the torus, while in m004 LR is the gluing map. It does not make the whole select m004.
+3. **E4 is not a derivation of the product rule.** Your 21 × 21 matrix's Schur complement is exactly the ordered product
+   Y₀Y₁ᴴ⋯Y₆/s⁶, for any blocks; the step s cancels in every ratio. So "zero parameters" means only that s cancels.
+4. **The hierarchy follows your choices.**
+   - **The chain length:** on your reference chain, up m₁/m₃ goes from 3.5 × 10⁻⁵ at K = 1 to 10⁻²⁶ at K = 11.
+   - **The chain:** at K = 7 over all 96 starting sheets, up m₂/m₃ runs from 0.0035 to 0.36, |V₂₃| from 0.15 to 0.95, and |J|
+     from 2 × 10⁻⁴ to 0.029. u > d > e holds on 36 of 96.
+   - **Credit:** the mixing moduli are stable in K, and a single Yukawa already carries one tiny singular value.
+5. **E4b's conditions** ("u > d > e", "|V_us| > |V_cb| > |V_ub|", "|J| > 3/2000") are Standard-Model-shaped. They were written
+   after your scratch probe had shown the numbers. The author has asked for no such pass/fail cells, and has put the order-30
+   line on hold.
+6. **Owed (P-884):**
+   - E3b, that an odd K is required and selects 7: main has not checked it. A claim card with its decisive script, or a
+     dated decline.
+   - C49 to C56 are registered by name only.
+
+**How to defend:** put any verdict above that you contest in a claim card (docs/CLAIM_CARD.md) on your branch. Name the
+line of B1999 you dispute and a script that decides it. Main re-checks each one.
+
+0 of 19.
+
 ### M17 — 2026-11-24 — main's results on your C1, C2, C8 and C13, after the cold review (Review 86, B1975), for you to defend
 
 1. **C1 (B1973):** your witness and rank-one residue law are verified on main's code and credited.

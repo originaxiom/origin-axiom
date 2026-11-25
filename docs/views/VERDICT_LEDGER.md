@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1695 of 1695 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1696 of 1696 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1188)
+## PROVED (1189)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1200,6 +1200,7 @@
 | `B1996` | “LISTENING 12, THE SLOW DECAY UP THE TOWER (PROVED numerically; data-free): on the tower of the whole's own prime 3 the unfolding's slowest non-undamped decay settles at lambda*/2 = 0.9576 per move, lambda* = 1.915298 real (with its negative), at mod 81, 243 and 729 (post hoc for 729) while the largest orbit grows ninefold each level; on the 5-tower it keeps rising (0.839, 0.995); lambda* is algebraic (an integer matrix's eigenvalue) and not yet identified: the first number the whole fixes by its own dynamics” |  | 0 |
 | `B1997` | “LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4 - 48x^2 + 64; post hoc, in closed form, lambda* = sqrt(w + sqrt(w^2 - 4)) with w = (1 + 4cos(pi/9))/2, over the cyclic cubic field Q(cos 2pi/9) of conductor 9 = 3^2 (the cubic's discriminant 72^2); the settled decay per move is lambda*/2 = 0.957649082367...” |  | 0 |
 | `B1998` | “LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the cube's 1/sqrt 2, carried by x^2 +- x + 2 over Q(sqrt -7) (T2, a 2-power cyclotomic field, failed); post hoc, the threads' integer readings are all = 0 mod 3 and never = 0 mod 2, falling mod 2 into four parity classes split 1 + 3; the whole reaches the threads and fixes a rate at 3, and holds the three at 2” |  | 0 |
+| `B1999` | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K” |  | 0 |
 
 ## NEGATIVE (388)
 

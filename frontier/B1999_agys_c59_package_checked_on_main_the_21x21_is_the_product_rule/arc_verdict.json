@@ -1,0 +1,30 @@
+{
+ "id": "B1999",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1993",
+  "B1994",
+  "B1971",
+  "B1973",
+  "B1972"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane's card AGY-C59 and its summary relayed by the author (the lane's local commit e4d220b75 on this machine, not yet pushed; harvest row 2002): E1 to E4 checked here; C57 and C58 the same claims, stopped before output",
+  "the agy lane's frame C Yukawa function (its sealed C59 producer, SHA-256 b399b206, run read-only by the ruling of 2026-11-24): items 2 and 3 and item 4's response are REPRODUCED on it by main's code, not recomputed on main's own frame C (owed, P-884 Q3); the identity on item 4 uses main's code only"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C on m004's order-30 thread at the golden point, as the seat built it (its charges (1,-4), (1,2), (-3,6), its transport by LR and the step phases, its chain on the 12-cycles of the 96 points fixed by A^12)",
+  "object": "the seat's four claims: the systole identity, the 12-turn phase, the mirror's CP antisymmetry, and the 21 x 21 boundary-Dirac matrix with its response to the chain length, the starting sheet and the wall",
+  "reach": "class",
+  "hypotheses": "the identity is main's own exact linear algebra; the rest uses the seat's frame C function and L2 = 2.663604442987991 (reproducing its sealed output to 4e-8); nothing compared with data"
+ },
+ "claim_one_line": "THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K",
+ "weave_or_thread": "the thread (m004's order-30 thread at the golden point, as the seat built it)"
+}

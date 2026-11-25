@@ -6659,5 +6659,29 @@
    "P-883": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:884",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the agy lane's C59 package checked (B1999): two exact results reproduced on its frame C function, the 21 x 21 matrix the product rule rewritten; owed: E3b, C49 to C56, and main's own frame C recompute of the two results",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-884 — "
+   ]
+  ],
+  "rows": [
+   "P-884"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 82,
+  "debt_class": "added on 2026-11-25 (S306p)",
+  "rows_live": {
+   "P-884": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

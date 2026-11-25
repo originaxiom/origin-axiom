@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1695** |
-| words of findings prose | **1,554,315** |
+| research arcs with findings | **1696** |
+| words of findings prose | **1,555,644** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1695** (100.0 %) |
+| arcs carrying an authored verdict | **1696** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1188 |
+| PROVED | 1189 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1998`** (773 words, 0 locks)  
-“LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the cube's 1/sqrt 2, carried by x^2 +- x + 2 over Q(sqrt -7) (T2, a 2-power cyclotomic field, failed); post hoc, the threads' integer readings are all = 0 mod 3 and never = 0 mod 2, falling mod 2 into four parity classes split 1 + 3; the whole reaches the threads and fixes a rate at 3, and holds the three at 2”  
-`B1998_listening_14_the_wholes_other_prime_the_2_tower_never_opens/FINDINGS.md`
+**PROVED — `B1999`** (1329 words, 0 locks)  
+“THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K”  
+`B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

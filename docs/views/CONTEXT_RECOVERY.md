@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1695 |
-| … PROVED | 1188 |
+| arcs with a verdict file | 1696 |
+| … PROVED | 1189 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
-| register points | 883 |
-| … “QUEUED” | 305 |
+| register points | 884 |
+| … “QUEUED” | 306 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 2001 |
+| harvest rows (the last number) | 2005 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1999 | PROVED | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is e…” |
 | B1998 | PROVED | “LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the c…” |
 | B1997 | PROVED | “LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4…” |
 | B1996 | PROVED | “LISTENING 12, THE SLOW DECAY UP THE TOWER (PROVED numerically; data-free): on the tower of the whole's own prime 3 the unfolding's slowest non-undamped decay settles at lambda*/2 = 0.9576 per move, lambda* = 1.915298 re…” |
@@ -42,7 +43,6 @@
 | B1990 | PROVED | “LISTENING 7, WHAT CHANGES KAPPA (PROVED, exact; data-free): every move of the grammar, and the open swap and sign, conserves kappa = tr[a, b], the records' frustrated remainder; only the non-invertible strata change it…” |
 | B1989 | PROVED | “LISTENING 6, THE WHOLE'S BOUND STATES OVER C (PROVED, exact; data-free): the moves' finite orbits from the finite subgroups of SU(2) sit at the frustration levels kappa = 2cos(2 pi k/n), n in {1,2,3,4,5,6,10}: Q8 gives…” |
 | B1988 | PROVED | “THE MATH DECIDES PF5'S LOOP (PROVED, exact; data-free): the read-out acts back by the moves' own form (L: (x, y, z) -> (x, z, xz - y), the trace identity); the readings fixed by every move are exactly the common point (…” |
-| B1987 | PROVED | “LISTENING 5, THE UNFOLDING UP THE TOWER (PROVED; data-free): over every orbit at mod 27, 81, 125 and 343 the unweighted unfolding keeps exactly two modes undamped, the constant and the alternation flipping with every mo…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 14 (B1998, PROVED; a weave result; data-free)).** The whole's two primes do different things: at 3 the common point opens outward to the threads and the whole fixes a rate (lambda*/2 over Q(cos 2pi/9)); at 2 it stays closed (orbits of at most 24 to mod 256, the cube's rate 1/sqrt 2 through Q(sqrt -7)), and the threads' integer readings meet the common point only at 3. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: THE AGY LANE'S C59 PACKAGE CHECKED (B1999, PROVED for its checks; data-free)).** At the author's question. Two exact results credited, reproduced on the seat's frame C function (the up sector's 12-turn fifth-root phase; the mirror's CP antisymmetry; main's own recompute owed). The 'zero-parameter' 21 x 21 boundary-Dirac matrix is exactly the ordered 7-fold product rule rewritten; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 to 1e-26 as K goes 1 to 11) and its pattern the chain chosen (u > d > e on 36 of 96 chains). E3b and C49-C56 owed (P-884). Nothing compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

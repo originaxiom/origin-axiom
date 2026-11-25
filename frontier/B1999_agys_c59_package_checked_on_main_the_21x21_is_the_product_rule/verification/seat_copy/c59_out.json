@@ -1,0 +1,457 @@
+{
+  "E1_b1993_systole_bridge_and_omega": {
+    "C_omega_orbit_count_on_576": 96,
+    "C_omega_orbit_length": 6,
+    "L2_omega_richardson": "2.78648607602363",
+    "S_Higgs_omega_abs_equality_err": "8.90209476165e-67",
+    "commutator_trace_U1_U2": -2,
+    "control_1_noncommutator_LR_RL_trace": 6,
+    "control_1_tau_ref_S_rel_split": "0.3353594967",
+    "markoff_root_traces": [
+      3,
+      3,
+      3
+    ],
+    "max_Rsigma_cp_antisym_err_at_omega": "2.0043787857e-66",
+    "max_jarlskog_at_Rsigma_fixed_pts_omega": "2.47644505685e-67",
+    "product_U1_U2_U3": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "systoles_SL2Z": [
+      [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          3
+        ]
+      ]
+    ]
+  },
+  "E2_z5_up_holonomy_obstruction": {
+    "L2_tau_gold_richardson": "2.663604442987991",
+    "control_2_min_periodic_boundary_jump": "1.175570505",
+    "max_down_lep_holonomy_dev_from_1": "2.93880922353e-60",
+    "max_step_phase_unit_modulus_dev": "1.04041036677e-60",
+    "max_up_holonomy_dev_from_zeta5": "1.11485408577e-60",
+    "orbit_up_holonomies": [
+      {
+        "leg5": 1,
+        "orbit": 0,
+        "up_re_im": [
+          "0.3090169944",
+          "-0.9510565163"
+        ]
+      },
+      {
+        "leg5": 1,
+        "orbit": 1,
+        "up_re_im": [
+          "0.3090169944",
+          "-0.9510565163"
+        ]
+      },
+      {
+        "leg5": 1,
+        "orbit": 2,
+        "up_re_im": [
+          "0.3090169944",
+          "-0.9510565163"
+        ]
+      },
+      {
+        "leg5": -1,
+        "orbit": 3,
+        "up_re_im": [
+          "0.3090169944",
+          "0.9510565163"
+        ]
+      },
+      {
+        "leg5": -1,
+        "orbit": 4,
+        "up_re_im": [
+          "0.3090169944",
+          "0.9510565163"
+        ]
+      },
+      {
+        "leg5": -1,
+        "orbit": 5,
+        "up_re_im": [
+          "0.3090169944",
+          "0.9510565163"
+        ]
+      },
+      {
+        "leg5": 1,
+        "orbit": 6,
+        "up_re_im": [
+          "0.3090169944",
+          "-0.9510565163"
+        ]
+      },
+      {
+        "leg5": -1,
+        "orbit": 7,
+        "up_re_im": [
+          "0.3090169944",
+          "0.9510565163"
+        ]
+      }
+    ]
+  },
+  "E3_amphicheiral_cp_and_chiral_selection": {
+    "control_3_even_K6_chiral_covariance_err": "1.488550023",
+    "control_4_flat_bulk_33x33_up_m2_over_m3": "0.5259189182",
+    "max_cw_plus_ccw_signed_jarlskog": "2.35110257385e-62",
+    "max_cw_vs_ccw_cpeven_diff": "7.45971802107e-61",
+    "max_twopath_S1_jarlskog": "5.96309300954e-61"
+  },
+  "E4_linear_21x21_boundary_dirac_eft": {
+    "all_8_vertex_linear_eft_chains": [
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.15825974",
+          "0.15261598",
+          "0.071869112",
+          "0.97541688"
+        ],
+        "down_ratios": [
+          "0.030831202",
+          "1.6758856e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "0.72691024",
+          "4.4557258"
+        ],
+        "jarlskog_abs": "0.0016701456",
+        "leg5": 1,
+        "lep_ratios": [
+          "0.0030614853",
+          "7.2601155e-17"
+        ],
+        "orbit": 1,
+        "signed_jarlskog_cw": "-0.0016701456",
+        "start_30": [
+          26,
+          17
+        ],
+        "up_ratios": [
+          "0.042659438",
+          "3.8528491e-18"
+        ],
+        "wall_half": 0
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.068688398",
+          "0.39027374",
+          "0.061645287",
+          "0.91863282"
+        ],
+        "down_ratios": [
+          "0.018080127",
+          "5.2753974e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "1.373459",
+          "5.3911226"
+        ],
+        "jarlskog_abs": "0.0011040764",
+        "leg5": 1,
+        "lep_ratios": [
+          "0.0030614853",
+          "7.2601155e-17"
+        ],
+        "orbit": 1,
+        "signed_jarlskog_cw": "0.0011040764",
+        "start_30": [
+          16,
+          7
+        ],
+        "up_ratios": [
+          "0.12561454",
+          "1.6007176e-17"
+        ],
+        "wall_half": 1
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.12807799",
+          "0.37534327",
+          "0.090925625",
+          "0.92073933"
+        ],
+        "down_ratios": [
+          "0.55807123",
+          "1.2008272e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "0.90359927",
+          "2.4758782"
+        ],
+        "jarlskog_abs": "0.0034939298",
+        "leg5": -1,
+        "lep_ratios": [
+          "0.3528285",
+          "1.8019808e-6"
+        ],
+        "orbit": 5,
+        "signed_jarlskog_cw": "0.0034939298",
+        "start_30": [
+          2,
+          29
+        ],
+        "up_ratios": [
+          "0.16143879",
+          "2.8864273e-10"
+        ],
+        "wall_half": 0
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.17148792",
+          "0.71522042",
+          "0.40684555",
+          "0.56827498"
+        ],
+        "down_ratios": [
+          "0.066439897",
+          "1.9774861e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "1.6252221",
+          "1.4575072"
+        ],
+        "jarlskog_abs": "0.025579797",
+        "leg5": -1,
+        "lep_ratios": [
+          "0.3528285",
+          "1.8019808e-6"
+        ],
+        "orbit": 5,
+        "signed_jarlskog_cw": "0.025579797",
+        "start_30": [
+          22,
+          19
+        ],
+        "up_ratios": [
+          "0.052532634",
+          "1.1264133e-9"
+        ],
+        "wall_half": 1
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.15825974",
+          "0.15261598",
+          "0.071869112",
+          "0.97541688"
+        ],
+        "down_ratios": [
+          "0.030831202",
+          "1.6758856e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "0.72691024",
+          "4.4557258"
+        ],
+        "jarlskog_abs": "0.0016701456",
+        "leg5": 1,
+        "lep_ratios": [
+          "0.0030614853",
+          "7.2601155e-17"
+        ],
+        "orbit": 6,
+        "signed_jarlskog_cw": "-0.0016701456",
+        "start_30": [
+          4,
+          13
+        ],
+        "up_ratios": [
+          "0.042659438",
+          "3.8528491e-18"
+        ],
+        "wall_half": 0
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.068688398",
+          "0.39027374",
+          "0.061645287",
+          "0.91863282"
+        ],
+        "down_ratios": [
+          "0.018080127",
+          "5.2753974e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "1.373459",
+          "5.3911226"
+        ],
+        "jarlskog_abs": "0.0011040764",
+        "leg5": 1,
+        "lep_ratios": [
+          "0.0030614853",
+          "7.2601155e-17"
+        ],
+        "orbit": 6,
+        "signed_jarlskog_cw": "0.0011040764",
+        "start_30": [
+          14,
+          23
+        ],
+        "up_ratios": [
+          "0.12561454",
+          "1.6007176e-17"
+        ],
+        "wall_half": 1
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.17148792",
+          "0.71522042",
+          "0.40684555",
+          "0.56827498"
+        ],
+        "down_ratios": [
+          "0.066439897",
+          "1.9774861e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "1.6252221",
+          "1.4575072"
+        ],
+        "jarlskog_abs": "0.025579797",
+        "leg5": -1,
+        "lep_ratios": [
+          "0.3528285",
+          "1.8019808e-6"
+        ],
+        "orbit": 7,
+        "signed_jarlskog_cw": "0.025579797",
+        "start_30": [
+          8,
+          11
+        ],
+        "up_ratios": [
+          "0.052532634",
+          "1.1264133e-9"
+        ],
+        "wall_half": 0
+      },
+      {
+        "ckm_moduli_and_min_diag": [
+          "0.12807799",
+          "0.37534327",
+          "0.090925625",
+          "0.92073933"
+        ],
+        "down_ratios": [
+          "0.55807123",
+          "1.2008272e-9"
+        ],
+        "inter_sector_yb_yt_and_ytau_yb": [
+          "0.90359927",
+          "2.4758782"
+        ],
+        "jarlskog_abs": "0.0034939298",
+        "leg5": -1,
+        "lep_ratios": [
+          "0.3528285",
+          "1.8019808e-6"
+        ],
+        "orbit": 7,
+        "signed_jarlskog_cw": "0.0034939298",
+        "start_30": [
+          28,
+          1
+        ],
+        "up_ratios": [
+          "0.16143879",
+          "2.8864273e-10"
+        ],
+        "wall_half": 1
+      }
+    ],
+    "control_5_cayley_u3_5_max_err_all8": "1.46414058185e-60",
+    "control_6_illegal_single_dirac_lr_drift": "0.4520005068",
+    "control_6_omit_dzd_ckm_shift": "0.007991772208",
+    "eight_chain_pass_counts": {
+      "jarlskog_gt_1e_minus_3": 8,
+      "m1_over_m3_lt_2e_minus_6": 8,
+      "min_diag_gt_9_over_10": 6
+    },
+    "negI_8_to_4_pair_isospectral_max_diff": "5.62016067282e-60",
+    "orbit1_wall0_linear_eft": {
+      "ckm_moduli_and_min_diag": [
+        "0.15825974",
+        "0.15261598",
+        "0.071869112",
+        "0.97541688"
+      ],
+      "down_ratios": [
+        "0.030831202",
+        "1.6758856e-9"
+      ],
+      "inter_sector_yb_yt_and_ytau_yb": [
+        "0.72691024",
+        "4.4557258"
+      ],
+      "jarlskog_abs": "0.0016701456",
+      "leg5": 1,
+      "lep_ratios": [
+        "0.0030614853",
+        "7.2601155e-17"
+      ],
+      "orbit": 1,
+      "signed_jarlskog_cw": "-0.0016701456",
+      "start_30": [
+        26,
+        17
+      ],
+      "up_ratios": [
+        "0.042659438",
+        "3.8528491e-18"
+      ],
+      "wall_half": 0
+    }
+  },
+  "all_controls_passed": true,
+  "ast_firewall": {
+    "ast_float_complex_calls": 0,
+    "ast_float_complex_literals": 0
+  },
+  "card": "AGY-C59",
+  "empirical_inputs": "0 of 19"
+}

@@ -18490,6 +18490,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1999": {
+   "slug": "agys c59 package checked on main the 21x21 is the product rule",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B199": {
    "slug": "metallic exponent law",
    "motifs": [

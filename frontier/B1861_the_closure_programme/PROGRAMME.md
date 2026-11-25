@@ -7,7 +7,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **135 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 135 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 81 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 82 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 23, started 19, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
@@ -383,7 +383,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** the verdict schema first: a declared domain (one thread, a named set, all threads of a kind, the weave), how a census was reduced to one row, and a list of what was removed from the carrier, each entry graded forced, computational or chosen. Then the closure map's own refusal (a weave result resting on a thread) carried to the arcs' dependency graph.
 - **Closed when:** the planted violation is refused; every arc upstream of a claimed prediction carries the fields; each weave-domain arc commits the same computation on a second thread; a chosen truncation is counted in the input budget.
 - **Register:** P-755 (DONE), P-757 (QUEUED).
-- **Debts (1):** P-883.
+- **Debts (2):** P-883, P-884.
 - **The audit's findings (6):** X4, W1, W2, W3, W4, W5.
 - **Relayed rulings:** the claim; the weave discipline; the fork inside it; the gap, for every seat.
 
@@ -851,7 +851,7 @@ feeds every row.
 | WP-0.6 The map kept current and complete | 1: P-253 |
 | WP-0.7 Enforcement that enforces | 8: P-757, P-772, P-777, P-806, P-812, P-816, P-820, P-881 |
 | WP-0.8 Errors in the mathematics or its code | 1: P-804 |
-| WP-0.11 The weave discipline, mechanised | 1: P-883 |
+| WP-0.11 The weave discipline, mechanised | 2: P-883, P-884 |
 | WP-0.12 The count as an output, and the map on the desk | 1: P-773 |
 | WP-1.9 The register, the deck and the join between states | 1: P-839 |
 
