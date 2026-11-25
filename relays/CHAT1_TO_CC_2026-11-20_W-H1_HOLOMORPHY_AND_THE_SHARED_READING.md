@@ -120,18 +120,18 @@ judgement.
    W-D2's D-1, aligned on the act's line, with rates identified numerically on a grid of tenths.
    - In frame C the second doublet changes no number: D-1 is, number for number, the one-doublet (S, S) the charge rule
      excludes (W-D2 § 2). It changes the typing.
-   - The record's other same-reading world, (S̃, S̃, S̃), is excluded by holomorphy in τ. W-D2's referee found it aligned
-     at the act's line's two points too, so there the alignment does not tell the two same-reading worlds apart;
-     holomorphy does.
+   - The record's other same-reading world, (S̃, S̃, S̃), is excluded by holomorphy in τ. W-D2's referee found it
+     aligned at the act's line's two points too, so there the alignment does not tell the two same-reading worlds
+     apart; holomorphy does.
 
 ## 3. What it means, and its standing
 
 - [J] **It changes the type of the reading.** The relative reading, (S, S, S) against the mixed worlds, becomes a
   consequence of holomorphy in every sector, given two doublets and the shared triplet.
-- [E] **The global bit is fixed as well, and not by SE2.** The post hoc identity concerns the Higgs matrix alone: with S̃
-  each channel's coupling is holomorphic in neither τ nor −τ̄ (ρ is 1.19 to 25 in τ, so 0.04 to 0.84 in −τ̄, per the
-  referee). The identity does not tie the bit to SE2, and P-847 records the fibre mirror's exchange of S and S̃ as tested
-  and refuted. Main's later note (P-847, 2026-11-20, with B1970) records the global bit as fixed by holomorphy.
+- [E] **The global bit is fixed as well, and not by SE2.** The post hoc identity concerns the Higgs matrix alone:
+  with S̃ each channel's coupling is holomorphic in neither τ nor −τ̄ (ρ is 1.19 to 25 in τ, so 0.04 to 0.84 in −τ̄,
+  per the referee). The identity does not tie the bit to SE2, and P-847 records the fibre mirror's exchange of S and
+  S̃ as tested and refuted. Main's later note (P-847, 2026-11-20, with B1970) records the global bit as fixed by holomorphy.
 - [J] **What it costs.**
   - It removes the Higgs reading as a free input: C04 in W-P1A, the Higgs world.
   - It adds a second doublet. FK15 is OPEN, and the record's Higgs is "forced to exist, not forced which".
