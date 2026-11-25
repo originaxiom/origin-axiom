@@ -1,0 +1,225 @@
+{
+  "NI_1_spin_split_and_omega_unfolding": {
+    "W_plus_charge_diag_at_omega": [
+      "4.6666666666667",
+      "1.6666666666667",
+      "1.6666666666667"
+    ],
+    "W_plus_eigs_at_omega": [
+      "0.29843788128358",
+      "1.0",
+      "6.7015621187164"
+    ],
+    "W_pm_charge_diag_at_omega": [
+      "9.3333333333333",
+      "3.3333333333333",
+      "3.3333333333333"
+    ],
+    "W_pm_eigs_at_omega": [
+      "2.0",
+      "6.0",
+      "8.0"
+    ],
+    "W_pm_mixed_spin_avg_eigs": [
+      "-2.0",
+      "-5.174265394e-73",
+      "2.0"
+    ],
+    "abs_equivariance_errors": 0,
+    "bfs_depth7_mixed_count": 762,
+    "bfs_depth7_pos_count": 382,
+    "box_90_nonzero_solutions_partitioned": 88,
+    "grad_kappa_charge_projections": [
+      "5.19615242271",
+      "0.0",
+      "0.0"
+    ],
+    "max_abs_coord_verified": 16586334025071,
+    "mod3_unique_solution": [
+      0,
+      0,
+      0
+    ]
+  },
+  "NI_2_markov_criticality_and_dyson_schwinger": {
+    "bifurcation_lam_bif_sq": "1/8",
+    "canonical_lam_Mark_sq": "1/8",
+    "coexisting_broken_g0_neutral": "2.405995542385487",
+    "coexisting_broken_g2_doublet": "1.564381690954773",
+    "coexisting_broken_matrix_residual": "6.515251e-37",
+    "coexisting_broken_ratio_g0_over_g2": "1.537984979175422",
+    "coexisting_broken_t_star": "0.1520597126166451",
+    "critical_points_F": [
+      {
+        "hessian_eigs": [
+          2,
+          2,
+          2
+        ],
+        "kappa": -2,
+        "point": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "hessian_eigs": [
+          -2,
+          4,
+          4
+        ],
+        "kappa": 2,
+        "point": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "hessian_eigs": [
+          -2,
+          4,
+          4
+        ],
+        "kappa": 2,
+        "point": [
+          2,
+          -2,
+          -2
+        ]
+      },
+      {
+        "hessian_eigs": [
+          -2,
+          4,
+          4
+        ],
+        "kappa": 2,
+        "point": [
+          -2,
+          2,
+          -2
+        ]
+      },
+      {
+        "hessian_eigs": [
+          -2,
+          4,
+          4
+        ],
+        "kappa": 2,
+        "point": [
+          -2,
+          -2,
+          2
+        ]
+      }
+    ],
+    "isotropic_critical_residual": "0.0",
+    "quintic_polynomial_residual": "1.0532429e-35"
+  },
+  "NI_3_five_cube_sector_fusion": {
+    "2I_branching_fractions": {
+      "+1": "2/5",
+      "+1/phi": "0",
+      "+2": "2/15",
+      "+phi": "2/15",
+      "-1": "0",
+      "-1/phi": "2/15",
+      "-2": "1/15",
+      "-phi": "0",
+      "0": "2/15"
+    },
+    "2I_collision_counts_14400": {
+      "+1": 5760,
+      "+1/phi": 0,
+      "+2": 1920,
+      "+phi": 1920,
+      "-1": 0,
+      "-1/phi": 1920,
+      "-2": 960,
+      "-phi": 0,
+      "0": 1920
+    },
+    "2I_three_body_branching_fractions": {
+      "+1": "17/75",
+      "+1/phi": "4/75",
+      "+2": "2/75",
+      "+phi": "41/225",
+      "-1": "2/75",
+      "-1/phi": "41/225",
+      "-2": "2/25",
+      "-phi": "4/75",
+      "0": "38/225"
+    },
+    "2O_collision_counts_9216": {
+      "+1": 2304,
+      "+2": 2688,
+      "-1": 0,
+      "-2": 768,
+      "0": 3456
+    },
+    "Q8_collision_counts_576": {
+      "+2": 384,
+      "-2": 192
+    },
+    "forbidden_first_collision_sectors": [
+      "-phi",
+      "-1",
+      "+1/phi"
+    ],
+    "n_common_point_pairs": {
+      "2I": 120,
+      "2O": 96,
+      "Q8": 24
+    },
+    "three_body_collision_populates_all_9_sectors": true
+  },
+  "NI_4_frame_free_X_omega_overlaps": {
+    "L2_omega": "2.78647514288310037",
+    "P_reflection_tie_q1_minus_q2_err": "0.0",
+    "even_ratio_neutral_over_charged": "5.13114456756992",
+    "even_shell_gram_diag": [
+      "9.0452856227556",
+      "1.76282026429815",
+      "1.76282026429815"
+    ],
+    "gauss_bonnet_area_err": "3.1505507e-21",
+    "max_Z3_offdiag_err": "1.1831321e-33",
+    "odd_ratio_neutral_over_charged": "0.700122089723363",
+    "odd_shell_gram_diag": [
+      "1.62800319734909",
+      "2.32531328641889",
+      "2.32531328641889"
+    ],
+    "pc_ni_4_P_broken_q1_q2_split": "0.66238032",
+    "rho2_interior_Z3_fixed_point": "3.5415636411062588",
+    "trilinear_overlap_0_plus_minus": "-0.395144341300945"
+  },
+  "NI_5_3d_m004_spinor_neck_and_8_3_4": {
+    "8_3_4_rho0_ford_neck_intensity_ratio": "0.008862315132018476",
+    "8_3_4_rho0_singleton_over_twin_freq_ratio": "3.605551275463989",
+    "cusp_quartic_coupling_N4_over_N2_sq": "0.6700214625171981",
+    "dirac_zero_mode_pde_err": "4.9122746e-29",
+    "m004_min_dual_freq": "0.1443375672974064",
+    "t_ford_waist": "1",
+    "t_peak_neck_height": "1.102657790843584"
+  },
+  "all_modules_and_controls_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-25_natural_interactions_omega_criticality_and_fusion",
+  "firewall": "strictly_0_of_19_zero_SM_scaffolding",
+  "planted_controls": {
+    "PC_NI_1_linear_origin_blind_to_omega_charge_split": true,
+    "PC_NI_2_naive_iteration_misses_coexisting_1plus2_branch": true,
+    "PC_NI_3_single_cube_misses_cross_cube_sector_fusion": true,
+    "PC_NI_4_P_breaking_perturbation_splits_conjugate_charges": true
+  },
+  "script_sha256": "f6586c83aa31be7d53a68047acf7bb524e76e7bc15d77d0efeef6e5d383a6c67"
+}
