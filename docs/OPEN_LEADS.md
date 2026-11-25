@@ -1,5 +1,29 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Currency (2026-11-26, through B2008; read against every arc from B1998):** the live list is still the point register's open rows. What the window moved, on the listening line (all data-free, nothing chosen):
+>
+> **At the whole's primes:**
+> - at 2 the cusp's neighbourhood never opens, and the threads meet the common point only at 3 (B1998);
+> - agy-exp's NI-1 and NI-3 are verified and credited: at (3,3,3) the whole gives 3 -> 1 + 2, 14 : 5, pair locked (B2000).
+>
+> **The split and the halving:**
+> - across the leaf the 1 + 2 is a split in persistence (B2001);
+> - at the whole's prime 3 the charged pair is an exact half-scale copy of the neutral sector, from mod 27 on (B2002, B2003);
+> - the mechanism: the modular group <C> * <sigma> and its order-6 character, which survives exactly where the halving holds (B2004, B2005);
+> - the small group is the cube group S4 with a 3-adic layer that carries omega's charge (B2006), growing by elementary abelian steps to mod 729 (B2007);
+> - the charged pair is locked by the whole's own mirror, the swap of the readings, which is not a move (B2008).
+>
+> **Also:** the agy lane's C59 package checked (B1999).
+>
+> **The open leads it leaves:**
+> - a derivation of the halving for every 3^k;
+> - the layer's step law;
+> - the full spectrum at mod 729;
+> - what could pick an orientation (the chirality bit) against the mirror's lock;
+> - P-884 (E3b, C49 to C56, and main's own frame C for the two reproduced results);
+> - agy-exp's NI-2, NI-4, NI-5;
+> - the analytic field at omega (B1992).
+
 > **Currency (2026-11-25, later, through B1997; read against every arc from B1987):** the live list of open leads is still the point register's open rows. What the window moved, on the listening line (all data-free, nothing chosen):
 > - the tower keeps exactly two undamped modes (B1987);
 > - PF5's loop is decided by the mathematics, and its one outcome is the common point (B1988);

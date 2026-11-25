@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1704** |
-| words of findings prose | **1,562,230** |
+| research arcs with findings | **1705** |
+| words of findings prose | **1,562,931** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1704** (100.0 %) |
+| arcs carrying an authored verdict | **1705** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1197 |
+| PROVED | 1198 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2007`** (754 words, 0 locks)  
-“LISTENING 22, THE LAYER'S LAW UP THE TOWER (PROVED for its checks; data-free): each step of the 3-adic layer over the cube group is elementary abelian (Z3^2 at mod 27, Z3^2 at mod 81, Z3^3 at mod 243, Z3^7 at mod 729; L2's 27 at 729 failed), the whole layer reaching order 3^14 (invariants [27, 81], class 4) and the group 114,791,256 at mod 729, whose abelianisation is still Z6; on the leading modes at mod 729 the halving holds (post hoc, shift-invert: all 59 half-neutral values below the top in the common window matched to 2.3e-7; L3's plain sparse solve failed as worded on its precision)”  
-`B2007_listening_22_the_layers_law_up_the_tower/FINDINGS.md`
+**PROVED — `B2008`** (701 words, 0 locks)  
+“LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1), so it commutes exactly with the unfolding at every level run and carries charge 1 onto charge 2; it is not one of the moves (tau not in G_k at mod 27, 81, 243; <G_k, tau> has order 2|G_k|), and with it the abelianisation is Z2 x Z2, omega's order-3 charge gone; so the pair is locked by the orientation-reversing mirror while the charge lives in the orientation-preserving part, and the 2 -> 1 + 1 split needs a handedness the whole does not supply (the chirality bit, met from the unfolding)”  
+`B2008_listening_23_the_charged_pair_is_locked_by_the_wholes_mirror/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

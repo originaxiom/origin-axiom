@@ -1,0 +1,3 @@
+P3 (mod 27): tau in G_k: False; |G_k| = 216; |<G_k, tau>| = 432 (= 2 |G_k|: True); abelian invariants of <G_k, tau>: [2, 2]
+P3 (mod 81): tau in G_k: False; |G_k| = 1944; |<G_k, tau>| = 3888 (= 2 |G_k|: True); abelian invariants of <G_k, tau>: [2, 2]
+P3 (mod 243): tau in G_k: False; |G_k| = 52488; |<G_k, tau>| = 104976 (= 2 |G_k|: True); abelian invariants of <G_k, tau>: [2, 2]

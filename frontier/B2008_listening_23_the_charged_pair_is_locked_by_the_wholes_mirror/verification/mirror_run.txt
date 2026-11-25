@@ -1,0 +1,6 @@
+P1 (sympy): tau C tau = C^-1: True; tau sigma tau = sigma: True; tau m tau for the six moves: {'L': 'R', 'R': 'L', 'L^-1': 'R^-1', 'R^-1': 'L^-1', 'X': 'X^-1', 'X^-1': 'X'}; all among the six: True
+P2 (mod 27, 72 points): tau preserves the orbit: True; [P_tau, W] = 0.0; |P_tau Pi_1 - Pi_2 P_tau| = 3.3e-16; tau is an involution: True
+P2 (mod 81, 648 points): tau preserves the orbit: True; [P_tau, W] = 0.0; |P_tau Pi_1 - Pi_2 P_tau| = 3.3e-16; tau is an involution: True
+P2 (mod 243, 5832 points): tau preserves the orbit: True; [P_tau, W] = 0.0; |P_tau Pi_1 - Pi_2 P_tau| = 3.3e-16; tau is an involution: True
+P2 (leaf mod 5, 40 points): tau preserves the orbit: True; [P_tau, W] = 0.0; |P_tau Pi_1 - Pi_2 P_tau| = 3.3e-16; tau is an involution: True
+P2 (leaf mod 7, 28 points): tau preserves the orbit: True; [P_tau, W] = 0.0; |P_tau Pi_1 - Pi_2 P_tau| = 3.3e-16; tau is an involution: True

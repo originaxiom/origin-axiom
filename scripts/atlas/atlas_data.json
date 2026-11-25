@@ -18691,6 +18691,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B2008": {
+   "slug": "listening 23 the charged pair is locked by the wholes mirror",
+   "motifs": [
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [
