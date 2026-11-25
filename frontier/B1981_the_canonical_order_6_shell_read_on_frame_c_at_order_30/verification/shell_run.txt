@@ -1,0 +1,33 @@
+frame evaluated at 96 points x 3 heights x 3 sectors  [50 s]
+readings done  [59 s]
+L p5=(1/5,2/5)     40-50: up_m2m3=-0.0000 up_m1m3=1.0000 down_m2m3=0.0889 down_m1m3=1.0889 lep_m2m3=0.4000 lep_m1m3=1.1000 V12=0.9111 V23=0.0000 V13=1.0000 | diag50 0.8556
+L p5=(1/5,2/5)     30-40: up_m2m3=-0.0000 up_m1m3=1.0000 down_m2m3=0.0888 down_m1m3=1.0888 lep_m2m3=0.4000 lep_m1m3=1.1000 V12=0.9112 V23=0.0000 V13=1.0000
+L p5=(2/5,4/5)     40-50: up_m2m3=0.0777 up_m1m3=1.0000 down_m2m3=0.0667 down_m1m3=1.0663 lep_m2m3=0.4000 lep_m1m3=1.0000 V12=0.9333 V23=0.0000 V13=1.0657 | diag50 0.7430
+L p5=(2/5,4/5)     30-40: up_m2m3=0.0775 up_m1m3=1.0000 down_m2m3=0.0667 down_m1m3=1.0657 lep_m2m3=0.4000 lep_m1m3=1.0000 V12=0.9333 V23=0.0000 V13=1.0670
+L p5=(3/5,1/5)     40-50: up_m2m3=0.0779 up_m1m3=1.0000 down_m2m3=0.0667 down_m1m3=1.0663 lep_m2m3=0.4000 lep_m1m3=1.0000 V12=0.9333 V23=-0.0000 V13=1.0657 | diag50 0.7430
+L p5=(3/5,1/5)     30-40: up_m2m3=0.0780 up_m1m3=1.0000 down_m2m3=0.0667 down_m1m3=1.0658 lep_m2m3=0.4000 lep_m1m3=1.0000 V12=0.9333 V23=-0.0000 V13=1.0669
+L p5=(4/5,3/5)     40-50: up_m2m3=0.0000 up_m1m3=1.0000 down_m2m3=0.0889 down_m1m3=1.0889 lep_m2m3=0.4000 lep_m1m3=1.1000 V12=0.9111 V23=-0.0000 V13=1.0000 | diag50 0.8556
+L p5=(4/5,3/5)     30-40: up_m2m3=0.0000 up_m1m3=1.0000 down_m2m3=0.0887 down_m1m3=1.0888 lep_m2m3=0.4000 lep_m1m3=1.1000 V12=0.9113 V23=-0.0000 V13=1.0000
+L all 96           40-50: up_m2m3=-0.0007 up_m1m3=1.0006 down_m2m3=0.0891 down_m1m3=1.0897 lep_m2m3=-0.0000 lep_m1m3=1.0000 V12=0.9107 V23=0.0007 V13=0.9996 | diag50 0.9798
+L all 96           30-40: up_m2m3=-0.0006 up_m1m3=1.0005 down_m2m3=0.0894 down_m1m3=1.0899 lep_m2m3=-0.0000 lep_m1m3=1.0000 V12=0.9099 V23=0.0010 V13=0.9996
+G p5=(1/5,2/5)     40-50: up_m2m3=0.0000 up_m1m3=0.9094 down_m2m3=0.0000 down_m1m3=0.9087 lep_m2m3=0.0000 lep_m1m3=0.8822 V12=1.3444 V23=0.2778 V13=1.4444 | diag50 1.0000
+G p5=(1/5,2/5)     30-40: up_m2m3=0.0000 up_m1m3=1.0000 down_m2m3=0.0000 down_m1m3=1.0000 lep_m2m3=0.0000 lep_m1m3=1.0000 V12=1.3444 V23=0.2777 V13=1.4444
+G p5=(2/5,4/5)     40-50: up_m2m3=0.0000 up_m1m3=0.9189 down_m2m3=-0.0000 down_m1m3=0.9074 lep_m2m3=-0.0000 lep_m1m3=0.9288 V12=1.2111 V23=0.3014 V13=1.5110 | diag50 1.0000
+G p5=(2/5,4/5)     30-40: up_m2m3=0.0000 up_m1m3=1.0000 down_m2m3=-0.0000 down_m1m3=1.0000 lep_m2m3=-0.0000 lep_m1m3=1.0000 V12=1.2111 V23=0.3026 V13=1.5108
+G p5=(3/5,1/5)     40-50: up_m2m3=0.0000 up_m1m3=0.9028 down_m2m3=-0.0000 down_m1m3=0.9445 lep_m2m3=-0.0000 lep_m1m3=0.9464 V12=1.2111 V23=0.3014 V13=1.5110 | diag50 1.0000
+G p5=(3/5,1/5)     30-40: up_m2m3=0.0000 up_m1m3=1.0000 down_m2m3=-0.0000 down_m1m3=1.0000 lep_m2m3=-0.0000 lep_m1m3=1.0000 V12=1.2111 V23=0.3026 V13=1.5108
+G p5=(4/5,3/5)     40-50: up_m2m3=0.0000 up_m1m3=0.9294 down_m2m3=0.0000 down_m1m3=0.8905 lep_m2m3=0.0000 lep_m1m3=0.8809 V12=1.3444 V23=0.2778 V13=1.4444 | diag50 1.0000
+G p5=(4/5,3/5)     30-40: up_m2m3=0.0000 up_m1m3=1.0000 down_m2m3=0.0000 down_m1m3=1.0000 lep_m2m3=0.0000 lep_m1m3=1.0000 V12=1.3444 V23=0.2777 V13=1.4444
+G all 96           40-50: up_m2m3=-0.0001 up_m1m3=0.8928 down_m2m3=0.0000 down_m1m3=0.8857 lep_m2m3=-0.0000 lep_m1m3=0.9091 V12=1.2780 V23=0.2781 V13=1.4438 | diag50 1.0000
+G all 96           30-40: up_m2m3=-0.0001 up_m1m3=1.0000 down_m2m3=0.0000 down_m1m3=1.0000 lep_m2m3=-0.0000 lep_m1m3=1.0000 V12=1.2782 V23=0.2785 V13=1.4437
+SUMMARY H1 L: rates independent of the weight within 1e-3: False (largest difference 1.6e-02)
+SUMMARY H1 G: rates independent of the weight within 1e-3: False (largest difference 3.2e-01)
+SUMMARY H2 L: full rank (every mass rate finite and below 3) in every block: True
+SUMMARY H3 L: each block's rates equal one of B1979's 12 classes: False (class per block [None, None, None, None])
+SUMMARY H4 L: the 4 blocks give the same rates: False
+SUMMARY H3 G: each block's rates equal one of B1979's 12 classes: False (class per block [None, None, None, None])
+SUMMARY H4 G: the 4 blocks give the same rates: False
+SUMMARY H5 L: every block aligned at 50 and hierarchical in both quark sectors: False (aligned [False, False, False, False, True]; hierarchical [False, False, False, False, False])
+SUMMARY H6: the lepton m2/m3 rate is 2/5 in both readings in every block: False
+SUMMARY H7: every rate of every reading and block within 1e-3 of the grid of 1/60: False
+SUMMARY H8: readings L and G give the same rates in every block: False

@@ -1,0 +1,30 @@
+{
+ "id": "B1980",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1976",
+  "B1977",
+  "B1978",
+  "B1945",
+  "B1940",
+  "B1791"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "chat1"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the level-30 curve X(30) and the act M = [[2,1],[1,1]] (part A, exact); frame C, every sector reading S, on the imaginary axis at heights 0.4 to 75 (part B)",
+  "object": "the act's fixed points and orbits on X(30) and its cusps; the matching of frame C's nine log outputs at B1976's 96 points against all 899 nonzero points of E[30] under tau -> -K/tau for ten declared K",
+  "reach": "class",
+  "hypotheses": "part A is exact; part B tests the declared family of maps on the imaginary axis with a bar of 1e-8; the corrected rerun reads the end at tau carried into the fundamental domain (B1927), clamped above height 6 as in every run on record; the wider matching covers sector permutations, either reading and up/down order for S"
+ },
+ "claim_one_line": "WHAT COULD FIX THE HEIGHT (PROVED, part A exact; part B NEGATIVE; data-free): the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so the object's symmetry singles out only cusps and cannot fix a depth; the cusps fixed by M^12 are exactly B1976's 96 points up to sign (post hoc), so the menu of points is the act's own; frame C has no duality tau -> -K/tau for K in {1,2,3,5,6,10,15,30,60,900} and fails S itself (0.12 to 0.32 with its canonical end read on the whole curve, also under any sector permutation and reading; the first run's end was read outside its table's domain, corrected before landing) while T holds exactly: it reads the curve through the one cusp i-infinity, and the end is not what breaks S",
+ "weave_or_thread": "the weave (the level-30 curve and the act)"
+}

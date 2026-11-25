@@ -1,0 +1,4 @@
+control (same height 1.25, all 48 assignments): largest d 0.0e+00
+S move, covariant end, wider matching: height 1.2500 against 0.8000: largest d 1.2e-01, median 3.7e-02
+S move, covariant end, wider matching: height 1.5000 against 0.6667: largest d 1.8e-01, median 7.9e-02
+S move, covariant end, wider matching: height 2.5000 against 0.4000: largest d 3.1e-01, median 1.7e-01

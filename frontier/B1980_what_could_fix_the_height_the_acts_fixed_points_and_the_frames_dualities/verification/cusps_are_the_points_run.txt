@@ -1,0 +1,4 @@
+M^12 mod 30 = (25, 18, 18, 7)
+cusps fixed by M^12: 48; B1976's points up to sign: 48; the same set: True
+is -p among the 96 whenever p is: True; does M^12 fix each of the 96 points (not only up to sign): True
+SUMMARY: the cusps of X(30) fixed by a power of the act are exactly B1976's 96 points up to sign: True

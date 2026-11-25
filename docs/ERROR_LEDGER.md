@@ -272,4 +272,22 @@ cited by arc/PR — the full record stays in the arcs (append-only).*
   at those heights.
 - **Instance (main's own, 2026-11-14):** a script copied from the scratchpad into B1937 carried the machine's path in
   its root and was pushed. The suite's path test caught it at the next fresh clone; no gate runs that test.
+- **Instance of an instrument used where it is not validated (main's own, 2026-11-25, B1981):** reading G sums Y Y†,
+  which squares the dynamic range, but the run kept the frame's working precision of 30 + 2y digits. At heights 40 and
+  50 the Gramian's least eigenvalue fell below it, and m₁/m₃ read about 0.9 instead of 1. Caught post hoc, because 30–40
+  and 40–50 disagreed; redone at 30 + 5y digits and labelled. A derived quantity that squares a range needs its own
+  precision.
+- **Instance of a key finer than its error (main's own, 2026-11-24, B1977):** the order-30 rate classes were keyed at
+  three decimals, below the 20–30 interval's error of up to 3.6e-3. That gave 17 classes where the converged rates give
+  12. Caught by the web seat's CHK-1 (its R3, the column) and settled by B1979. A classification is keyed no finer than
+  its inputs' error.
+- **Instance of a symmetry applied to one of two arguments (main's own, 2026-11-24, B1978):** the act was applied to
+  the point at a fixed τ, but it moves τ and the point together. So "not invariant under the object's own act" held at
+  a fixed τ only. Caught by main after landing; dated caveat 88a1e9474.
+- **Instance of an instrument read outside its table's domain (main's own, 2026-11-25, B1980):** the S-move test put
+  partners at heights 2/3 and 0.4, where frame C's code reads the canonical end's table (heights 0.866 to 6) by nearest
+  value, because it reduces only Re τ. B1927 had made the end a modular function, to be read at τ carried into the
+  fundamental domain. Caught by main between the run and the landing; the landing was stopped before any push, and the
+  rerun with a hashed correction card found the same failure. Before a symmetry test, check every tabulated input on
+  both sides of the map.
 

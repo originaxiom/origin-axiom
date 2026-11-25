@@ -18138,6 +18138,43 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B1980": {
+   "slug": "what could fix the height the acts fixed points and the frames dualities",
+   "motifs": [
+    "action",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K0"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1981": {
+   "slug": "the canonical order 6 shell read on frame c at order 30",
+   "motifs": [
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [

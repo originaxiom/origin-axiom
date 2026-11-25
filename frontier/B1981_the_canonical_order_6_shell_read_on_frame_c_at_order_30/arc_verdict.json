@@ -1,0 +1,30 @@
+{
+ "id": "B1981",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1979",
+  "B1977",
+  "B1976",
+  "B1945",
+  "B1944"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp",
+  "chat1"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C, every sector reading S, column 0.13, heights 30 to 50, at B1976's 96 order-30 points cut into the 4 blocks of the act's line",
+  "object": "the frame read over the canonical 24-point primitive order-6 shell in two declared readings (L: weighted sum of Y; G: weighted sum of Y Y-dagger), uniform and three alternative weights",
+  "reach": "class",
+  "hypotheses": "the two readings as declared on the card; agy-exp's own two-doublet construction is not frame C and is not tested here"
+ },
+ "claim_one_line": "THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set",
+ "weave_or_thread": "the weave (the order-30 rates)"
+}

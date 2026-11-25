@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1676 |
-| … PROVED | 1170 |
-| … NEGATIVE | 387 |
+| arcs with a verdict file | 1678 |
+| … PROVED | 1171 |
+| … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
-| register points | 881 |
-| … “QUEUED” | 303 |
+| register points | 882 |
+| … “QUEUED” | 304 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
@@ -31,6 +31,8 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1981 | NEGATIVE | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's me…” |
+| B1980 | PROVED | “WHAT COULD FIX THE HEIGHT (PROVED, part A exact; part B NEGATIVE; data-free): the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so the object's symmetry singles out only cusps and cannot…” |
 | B1979 | PROVED | “THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than…” |
 | B1978 | PROVED | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at onl…” |
 | B1977 | PROVED | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 an…” |
@@ -41,8 +43,6 @@
 | B1972 | PROVED | “AGY-EXP'S TEN BANKING CANDIDATES, CHECKED ON MAIN (PROVED for its checks; data-free): the pure-mathematics cores hold (Gieseking m000 double-covered by m004; D5 the least non-abelian quotient; the 3-cusp 5-fold dihedral…” |
 | B1971 | PROVED | “UNDER THE TWO-DOUBLET READING THE SHARED HIGGS'S OWN ROTATIONS CANCEL IN THE CUSP MIXING (PROVED for its checks; data-free): every mass state lies along one direction of the null frame n, conj(n), e of frame C's nearly…” |
 | B1970 | PROVED | “THE RECORD'S DICTIONARY GIVES TWO HIGGS DOUBLETS OF OPPOSITE HYPERCHARGE, ONE FOR THE UP QUARKS AND ONE FOR THE DOWN QUARKS AND LEPTONS; WITH THE FRAME'S HOLOMORPHIC COUPLING EVERY SECTOR THEN READS S AND THE CUSP MIXIN…” |
-| B1969 | OPEN | “THE COUPLING'S FORM NEARLY ALLOWS AN ALIGNED MIXING WITH A FULL HIERARCHY IN BOTH SECTORS (OPEN, a search; data-free; P-879): with every channel free under the charge rule, a feasibility search finds no aligned mixing w…” |
-| B1968 | OPEN | “ON A GRID OF 2,016 POINTS FRAME C'S OWN CHANNELS NEVER REACH THE TUNED REGION (OPEN, a search; data-free; P-879): with any Higgs triplet in C^3 an adversary finds no aligned charge-consistent mixing with a heavy-pair hi…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (B1979, PROVED numerically; data-free; P-845, P-860 (d)).** Read on heights 20-30, 30-40 and 40-50, B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5). The converged classes are 12, not 17. The lepton m2/m3 rate is 2/5 at every point. Route (d)'s menu is 12. The web seat's independent check of B1977 (CHK-1) is credited; the seats' work of 2026-11-24/25 is registered at harvest rows 1997 to 2001. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: WHAT COULD FIX THE HEIGHT (B1980) AND THE SHELL (B1981); P-882 ENTERED; data-free).** At the author's question for a derived principle fixing epsilon: the act fixes no point of X(30) off the cusps, and the cusps it fixes are exactly B1976's 96 points (up to sign), so the menu of points is the act's own but no depth is fixed. Frame C has no duality tau -> -K/tau and fails S itself, also with its canonical end read on the whole curve (main's first run had read the end outside its table's domain; corrected before landing), while T holds exactly: it reads the level-30 curve through one cusp. At the author's word, that is the one-hole reading the record has repeated at…”
 
 ## Completeness (nothing skipped silently)
 

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1676** |
-| words of findings prose | **1,538,428** |
+| research arcs with findings | **1678** |
+| words of findings prose | **1,540,661** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1676** (100.0 %) |
+| arcs carrying an authored verdict | **1678** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1170 |
-| NEGATIVE | 387 |
+| PROVED | 1171 |
+| NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1979`** (887 words, 0 locks)  
-“THE ORDER-30 RATES ARE LIMITS ON THE GRID OF 1/60 (PROVED numerically; data-free): B1977's rates converge onto the grid (largest residual 3.6e-3, 4.2e-4, 5.1e-5 on 20-30, 30-40, 40-50; the column moves none by more than 2.2e-4 on 30-40); B1977's 17 classes were partly a finite-interval artefact, the converged classes are 12 (sizes 12,12,12,12,8,8,6,6,6,6,4,4), stable at 96 of 96; the lepton m2/m3 rate is 2/5 at every point; the menu for route (d) is 12”  
-`B1979_the_order_30_rates_are_limits_on_the_grid_of_one_sixtieth/FINDINGS.md`
+**PROVED — `B1980`** (1340 words, 0 locks)  
+“WHAT COULD FIX THE HEIGHT (PROVED, part A exact; part B NEGATIVE; data-free): the act has order 60 on X(30) and no power of it has a fixed point off the cusps, so the object's symmetry singles out only cusps and cannot fix a depth; the cusps fixed by M^12 are exactly B1976's 96 points up to sign (post hoc), so the menu of points is the act's own; frame C has no duality tau -> -K/tau for K in {1,2,3,5,6,10,15,30,60,900} and fails S itself (0.12 to 0.32 with its canonical end read on the whole curve, also under any sector permutation and reading; the first run's end was read outside its table's domain, corrected before landing) while T holds exactly: it reads the curve through the one cusp i-infinity, and the end is not what breaks S”  
+`B1980_what_could_fix_the_height_the_acts_fixed_points_and_the_frames_dualities/FINDINGS.md`
 
-**NEGATIVE — `B1962`** (1356 words, 0 locks)  
-“FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19. [Review 86, 2026-11-24: the 'identity E assumed' section is stale (closed by P-861 outside this arc); 'deranged for every reading' means at some of the 24 points; two numbers corrected]”  
-`B1962_frame_d1s_cusp_mixing/FINDINGS.md`
+**NEGATIVE — `B1981`** (893 words, 0 locks)  
+“THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  
+`B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  
 “[RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT (SM-C7 step 3, run by main): at three points of the golden geodesic the norm is not alpha log|theta[c](0)| + beta a^2 Im tau + gamma(tau) over 30 characteristics (residual 22-25 on a spread of about 100, while a planted exact relation is recovered to 5e-15), nor log|g| of the Siegel function at c, c+1/2, Jc or Jc+1/2; its geodesic average is not affine in the averaged log|g| (residual 29 on 177). Outcome D: B1917 stands; B1737 section 4's reading fails for the frame's norm; P-384 is not paid by this route. Lead: the analytic torsion of the twisted torus is the Kronecker function, so a determinant-defined channel weight would be supplied by the arithmetic. 0 of 19.”  
