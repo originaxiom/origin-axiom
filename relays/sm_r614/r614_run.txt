@@ -1,0 +1,10 @@
+[A0] main's 27: 27 weights; Lie algebra on it: 78 matrices, rank 78, positive roots 36
+[A1] SM embeddings tried: 4; matching B1303's table on all 27 weights: 0
+Traceback (most recent call last):
+  File "relays/sm_r614/run.py", line 627, in <module>
+    res, lines = run(sys.argv[1])
+                 ^^^^^^^^^^^^^^^^
+  File "relays/sm_r614/run.py", line 464, in run
+    assert matches, "no SM embedding on main's weights reproduces B1303's table"
+           ^^^^^^^
+AssertionError: no SM embedding on main's weights reproduces B1303's table

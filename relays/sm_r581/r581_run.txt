@@ -1,0 +1,16 @@
+SM-R581: rule K, N = 1199, presentations 8c825d9c27295df6
+steps after E6 (object-independent): {"Z6": true, "hypercharge": true, "hypercharge_commutant_dim": 1, "sin2_SU5": "3/8", "sin2_is_3_8": true}
+  E6 route (2T classes >= 1)                     384 /  1199 = 0.3203
+  exactly the root's count (2T classes == 2)     304 /  1199 = 0.2535
+  Z6 global form                                 384 /  1199 = 0.3203
+  hypercharge direction                          384 /  1199 = 0.3203
+  sin^2 = 3/8 at SU(5)                           384 /  1199 = 0.3203
+  the package (all four)                         384 /  1199 = 0.3203
+  E7 label (2O classes >= 1)                     362 /  1199 = 0.3019
+  E8 label (2I classes >= 1)                     609 /  1199 = 0.5079
+  any exceptional label                          926 /  1199 = 0.7723
+  plant Z/3 (must be 1)                         1199 /  1199 = 1.0000
+package rate by tetrahedra: 2: 2/2, 3: 1/9, 4: 21/52, 5: 74/223, 6: 286/913
+root m004: {"2I": 0, "2O": 0, "2T": 2, "Z3": 1}
+control B993 per object: 400 of 400 agree
+plants: {"Z2cubed_zero_on_two_generators": true, "Z3_count_equals_3_to_d_minus_1": true, "Z3_rate_1": true, "two_generator_n": 1041}

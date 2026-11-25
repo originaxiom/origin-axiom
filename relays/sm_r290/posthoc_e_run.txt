@@ -1,0 +1,2 @@
+j=3: |Y - Y^T(Q,u)|/|Y| 1.1e-15, |Y + Y^T(Q,u)|/|Y| 2.0e+00, |det M| 2.53e+00, |M| 1.27e+00, worst absolute residual 2.5e-13
+j=15: |Y - Y^T(Q,u)|/|Y| 2.0e+00, |Y + Y^T(Q,u)|/|Y| 9.2e-15, |det M| 1.39e-14, |M| 1.37e+00, worst absolute residual 2.7e-14

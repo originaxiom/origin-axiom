@@ -482,8 +482,21 @@ next push: M51's W47 convention, the B1814 rerun (by 2026-12-01), then M52 and M
     the measured world: a value look this seat does not run. The frame's outputs alone, data-free, can be offered.
   - **P-637 (the loop lift):** declined. A one- and two-loop threshold computation at B1644's Y_unit needs gauge-theory
     loop machinery this seat has not built or validated. It is not done well here.
-- **M53's other rows, P-581 and the rest:** P-290, P-384, P-581, P-610, P-612, P-614 and P-635 are each taken as a
-  sealed card, then a claim card (in progress).
+- **M52 and M53 rows delivered as claim cards** (each sealed and pushed before its run; each re-run here and its output
+  hash reproduced; no second computation yet):
+  - P-581 (`relays/SM_R581_ONE_CLASS.md`): one class, the package's rate 384 of 1 199 = 0.320, one grade. E6 (2I rarer
+    than 2T) failed: 2I is reached by 51%.
+  - P-384 (`relays/SM_R384_A_PRINCIPLE_FOR_THE_TWO_FIFTHS_CLASS.md`): b odd/10 forced; α = 2/5 against 1/5 is one bit,
+    declared CHOSEN; order 10's candidate principle rests on an underived minimality.
+  - P-610 (`relays/SM_R610_W134_AGAINST_C8.md`): C8 scoped, not contradicted; inside E₈'s family slot the least datum is
+    17/24; K2 re-derived from E₈'s roots.
+  - P-635 (`relays/SM_R635_BOUNDARY_FREE_CLASSES.md`): H¹ = 0, 3, 0 re-derived; the three classes move the cusp; the CKM
+    corner along them is undefined in the frame as built, not zero.
+  - P-290 (`relays/SM_R290_C11_TWO_DOUBLETS.md`): I-31 still priced. E1 failed as sealed (a relative residual over an
+    identically zero determinant); post hoc it holds absolutely.
+  - P-614 (`relays/SM_R614_THE_DISCRETE_REMNANT.md`): nothing beyond the SM survives under SM × U1-η; the sealed script
+    failed on a one-line colour bug, fixed post hoc and disclosed; a GENESIS note is drafted on the page.
+  - P-612: sealed and running.
 - **SM-C24 delivered** (`relays/SM_C24_THE_WHOLE_INSTRUMENT.md`; claim card
   `relays/claims/CLAIM_2026-11-25_order_30_whole_instrument.md`). All 576 points of order 30, as 288 pairs ±v. The 240
   pairs whose first coordinate has a 5-part are all aligned and hierarchical, converged, in exactly the act's line's 12
