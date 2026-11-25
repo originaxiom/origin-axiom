@@ -1,0 +1,36 @@
+{
+  "all_referee_checks_passed": true,
+  "ast_firewall_countercheck": {
+    "calls": 0,
+    "literals": 0
+  },
+  "ast_firewall_producer": {
+    "calls": 0,
+    "literals": 0
+  },
+  "card": "AGY-C59-COUNTERCHECK",
+  "discrepancies_count": 0,
+  "disjoint_e1_S_omega_eq_err": "3.03858167864e-64",
+  "disjoint_e1_fresh_pts_Rsigma_antisym_err": "1.24985286347e-63",
+  "disjoint_e1_fresh_pts_fixed_jarlskog": "6.24926431736e-64",
+  "disjoint_e2_down_lep_holonomy_1_max_err": "1.93974745883e-61",
+  "disjoint_e2_unit_modulus_sc_max_dev": "4.13247108295e-62",
+  "disjoint_e2_up_holonomy_zeta5_max_err": "2.45409822309e-61",
+  "disjoint_e3_cw_plus_ccw_jarlskog_max_err": "1.01768747315e-62",
+  "disjoint_e3_cw_vs_ccw_cpeven_max_diff": "9.59887952283e-61",
+  "disjoint_e4_expm_u3_5_max_err_all8": "4.42858086754e-60",
+  "disjoint_e4_vs_producer_indep_L2_max_rel_diff": "4.770016052e-5",
+  "disjoint_rk4_logradial_L2_diffs": {
+    "omega": "1.09355589e-5",
+    "tau_gold": "1.775067677e-5"
+  },
+  "empirical_inputs": "0 of 19",
+  "referee_planted_faults": {
+    "RPF1_noncommutator_LR_RL_trace": 6,
+    "RPF2_periodic_up_holonomy_min_jump": "1.1755705",
+    "RPF3_c0_nonfuchsian_im_tr": "0.21959111",
+    "RPF4_illegal_lr_overlap_drift": "0.20853512",
+    "RPF5_no_UA_transport_ckm_drift": "0.25645168"
+  },
+  "verified_producer_sha256": "00847116b27912eafe54ee083a8694728976080cdedfc9c3b0db3d85d80c6197"
+}
