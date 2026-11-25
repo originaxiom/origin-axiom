@@ -18257,6 +18257,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1986": {
+   "slug": "listening 4 the unweighted unfolding on the common points structure",
+   "motifs": [
+    "metallic",
+    "torsion"
+   ],
+   "refs": [
+    "B147",
+    "B235",
+    "H1",
+    "H2"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B198": {
    "slug": "metallic exponent CAS",
    "motifs": [

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1682** |
-| words of findings prose | **1,545,096** |
+| research arcs with findings | **1683** |
+| words of findings prose | **1,545,949** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1682** (100.0 %) |
+| arcs carrying an authored verdict | **1683** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1175 |
+| PROVED | 1176 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1985`** (979 words, 0 locks)  
-“LISTENING 3, THE COMMON POINT'S NEIGHBOURHOOD UP THE TOWER (PROVED, exact on the towers run; data-free): the moves repeat the cube (orbits 1, 6, 8, 12) at every scale over the common point and unfold out of it only along its tangent cone x^2 + y^2 + z^2 = 0 (post hoc, exact at p = 3, 5, 7 from p^2 to p^3); at 3 the cone is the cube's four body diagonals, along which lies the Markoff root (3, 3, 3); the big orbits grow by 9 per level at 3”  
-`B1985_listening_3_the_common_points_neighbourhood_up_the_tower/FINDINGS.md`
+**PROVED — `B1986`** (853 words, 0 locks)  
+“LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation that flips with every move and lives on the body-diagonal orbits (post hoc, by characters); it damps the doublet at 1/2 and the triplets at 1/2 and 1/sqrt(2) per move, their complex eigenvalues (+-1 +- i sqrt 7)/2 in Q(sqrt -7), the trace field of the record's arithmetic chiral pair; the leaf's gap below the top mod p is positive and uneven (post hoc)”  
+`B1986_listening_4_the_unweighted_unfolding_on_the_common_points_structure/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

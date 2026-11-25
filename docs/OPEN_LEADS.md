@@ -1,5 +1,22 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Currency (2026-11-25, through B1986; read against every arc from B1976, at the landing of B1986):** the live list of open leads is still the point register's open rows. What the window moved:
+> - **The order-30 line is on hold.** B1976 to B1981 are thread results, built on the golden thread's act at a level reached after level 5 failed (P-845, P-860; relabelled, P-883). It established:
+>   - frame C is SL(2, ℤ)-covariant with its own end law (B1982; B1980's "one cusp" claim was main's end-law error, retracted);
+>   - no duality τ ↦ −K/τ exists beyond SL(2, ℤ) (B1980, B1982);
+>   - one thread's act fixes no point of X(30) off the cusps (B1980).
+> - **The listening line opened** at the author's word: listen to the interactions' natural unfolding, choose nothing, no Standard Model criterion (P-882, restated). With the moves acting together on the fibre's characters:
+>   - the whole fixes only the common point and the trivial character, and connects the cusp's leaf at every prime from 5 to 47 and no other integer leaf (B1983);
+>   - it leaves structure only at the common point, where it acts as the cube's rotation group at every prime; mod 9 the cusp's leaf is the cube (B1984);
+>   - it repeats the cube at every scale and opens only along the tangent cone, the body diagonals at 3, towards (3, 3, 3) (B1985);
+>   - its unweighted unfolding keeps the constant and an alternation flipping with every move undamped, and damps the doublet and the triplets at ½ and 1/√2 through ℚ(√−7) (B1986).
+> - **The open leads it leaves:**
+>   - the tower's spectrum above the cube;
+>   - the loop PF5, the whole read back on itself;
+>   - whether the alternation is the record's tick (P-769);
+>   - the field FK15, read from behaviour;
+>   - the 26 earlier arcs labelled "the weave" (P-883).
+
 > **Currency (2026-11-24, through B1971; read against every arc from B1961, at the landing of B1971):** the live list of open leads is still the point register's open rows, not this file. What the window moved is the cusp mixing.
 > - **One doublet:** frame D1 deranges the mixing under every reading (B1962, final). In frame C the charge rule excludes an aligned mixing with a hierarchy on the record's grids (B1963, B1965, B1968), although the coupling's form alone does not (B1967, B1969). That is P-879, now of lesser weight.
 > - **Two doublets:** the record's dictionary gives two doublets and, with holomorphy, the all-S reading (B1970; I-37 UNEARNED). The mixing then aligns at 128 of 136 points of orders 5, 8 and 10. It comes out small because the shared Higgs's own rotations cancel, so the channels set its size (B1971).

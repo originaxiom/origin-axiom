@@ -1,0 +1,48 @@
+== mod 9, the cube's level at 3: 27 points
+  orbit of   1: W+ top 2.0000 | W+- top 4.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   6: W+ top 2.0000, 0.5000+1.3229i, 0.5000-1.3229i, -1.0000, 1.0000 | W+- top 4.0000, 2.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   8: W+ top 2.0000, -2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i | W+- top -4.0000, 4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: -2.0000
+  orbit of  12: W+ top 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i, 0.5000-1.3229i | W+- top 4.0000, 2.0000, -2.0000, 2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+== mod 25, over the common point mod 25: 125 points
+  orbit of   1: W+ top 2.0000 | W+- top 4.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   6: W+ top 2.0000, 0.5000+1.3229i, 0.5000-1.3229i, -1.0000, 1.0000 | W+- top 4.0000, 2.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   6: W+ top 2.0000, 0.5000+1.3229i, 0.5000-1.3229i, -1.0000, 1.0000 | W+- top 4.0000, 2.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   8: W+ top 2.0000, -2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i | W+- top -4.0000, 4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: -2.0000
+  orbit of   8: W+ top 2.0000, -2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i | W+- top -4.0000, 4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: -2.0000
+  orbit of  12: W+ top 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i, 0.5000-1.3229i | W+- top 4.0000, 2.0000, -2.0000, 2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of  12: W+ top 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i, 0.5000-1.3229i | W+- top 4.0000, 2.0000, -2.0000, 2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+== mod 49, over the common point mod 49: 343 points
+  orbit of   1: W+ top 2.0000 | W+- top 4.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   6: W+ top 2.0000, 0.5000+1.3229i, 0.5000-1.3229i, -1.0000, 1.0000 | W+- top 4.0000, 2.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   6: W+ top 2.0000, 0.5000+1.3229i, 0.5000-1.3229i, -1.0000, 1.0000 | W+- top 4.0000, 2.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   6: W+ top 2.0000, 0.5000+1.3229i, 0.5000-1.3229i, -1.0000, 1.0000 | W+- top 4.0000, 2.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of   8: W+ top 2.0000, -2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i | W+- top -4.0000, 4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: -2.0000
+  orbit of   8: W+ top 2.0000, -2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i | W+- top -4.0000, 4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: -2.0000
+  orbit of   8: W+ top 2.0000, -2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i | W+- top -4.0000, 4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: -2.0000
+  orbit of  12: W+ top 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i, 0.5000-1.3229i | W+- top 4.0000, 2.0000, -2.0000, 2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of  12: W+ top 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i, 0.5000-1.3229i | W+- top 4.0000, 2.0000, -2.0000, 2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of  12: W+ top 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, 0.5000+1.3229i, 0.5000-1.3229i | W+- top 4.0000, 2.0000, -2.0000, 2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: none
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+  orbit of  24: W+ top -2.0000, 2.0000, -0.5000+1.3229i, -0.5000-1.3229i, -0.5000+1.3229i | W+- top 4.0000, -4.0000, 2.0000, -2.0000, 2.0000 | non-constant W+ modes with |eigenvalue| = 2: 2.0000
+== the cube group generated by the moves' linear parts: order 24
+  the trivial 1                    W+ eigenvalues 2.0000 | W+- eigenvalues 4.0000
+  the sign                         W+ eigenvalues -2.0000 | W+- eigenvalues -4.0000
+  the rotation triplet 3           W+ eigenvalues 0.5000+1.3229i, 0.5000-1.3229i, 1.0000 | W+- eigenvalues 2.0000, 2.0000, 0.0000
+  the other triplet 3' = 3 x sign  W+ eigenvalues -0.5000+1.3229i, -0.5000-1.3229i, -1.0000 | W+- eigenvalues -2.0000, -2.0000, -0.0000
+  the doublet 2 (via the 3 axes)   W+ eigenvalues -1.0000, 1.0000 | W+- eigenvalues -2.0000, 2.0000
+== mod 5, the cusp's leaf big orbit (40 points): W+ second |eigenvalue| 1.4142 (top 2); W+- second eigenvalue -3.7033 (top 4); gap of W+- 7.7033
+== mod 7, the cusp's leaf big orbit (28 points): W+ second |eigenvalue| 1.4142 (top 2); W+- second eigenvalue 3.6579 (top 4); gap of W+- 0.3421
+== mod 11, the cusp's leaf big orbit (88 points): W+ second |eigenvalue| 1.6887 (top 2); W+- second eigenvalue 3.8730 (top 4); gap of W+- 0.1270
+== mod 13, the cusp's leaf big orbit (208 points): W+ second |eigenvalue| 1.7783 (top 2); W+- second eigenvalue 3.9030 (top 4); gap of W+- 0.0970

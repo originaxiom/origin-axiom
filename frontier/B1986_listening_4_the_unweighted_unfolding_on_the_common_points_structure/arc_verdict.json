@@ -1,0 +1,21 @@
+{
+ "id": "B1986",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1985", "B1984", "B1687", "B1601"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: functions on the cusp's leaf over the common point mod 9, 25, 49, and on the leaf's big orbit mod p for p = 5 to 19",
+  "object": "the unweighted unfolding W+ = P_L + P_R and W+- (with inverses) and its spectrum, by the cube group's irreducibles",
+  "reach": "class",
+  "hypotheses": "eigenvalues by numpy on small permutation sums, the irreducible eigenvalues exact as algebraic numbers; the irreducible content and the gaps are post hoc; no rate is read as a physical quantity"
+ },
+ "claim_one_line": "LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation that flips with every move and lives on the body-diagonal orbits (post hoc, by characters); it damps the doublet at 1/2 and the triplets at 1/2 and 1/sqrt(2) per move, their complex eigenvalues (+-1 +- i sqrt 7)/2 in Q(sqrt -7), the trace field of the record's arithmetic chiral pair; the leaf's gap below the top mod p is positive and uneven (post hoc)",
+ "weave_or_thread": "weave (every move acting together, every history unweighted, nothing chosen)"
+}

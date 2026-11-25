@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1682 |
-| … PROVED | 1175 |
+| arcs with a verdict file | 1683 |
+| … PROVED | 1176 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1986 | PROVED | “LISTENING 4, THE UNWEIGHTED UNFOLDING OVER THE COMMON POINT (PROVED; data-free): by the cube group's irreducibles the unfolding W+ = P_L + P_R keeps two modes undamped, the constant (2) and the sign (-2), an alternation…” |
 | B1985 | PROVED | “LISTENING 3, THE COMMON POINT'S NEIGHBOURHOOD UP THE TOWER (PROVED, exact on the towers run; data-free): the moves repeat the cube (orbits 1, 6, 8, 12) at every scale over the common point and unfold out of it only alon…” |
 | B1984 | PROVED | “LISTENING 2, THE MOVES ON THE CHARACTERS MOD EVERY N <= 64 (PROVED, exact; data-free): the whole action connects the cusp's leaf at every prime and composite moduli are only CRT products (post hoc); the one place it lea…” |
 | B1983 | PROVED | “LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they co…” |
@@ -42,7 +43,6 @@
 | B1977 | PROVED | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 an…” |
 | B1976 | PROVED | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up…” |
 | B1975 | PROVED | “REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tre…” |
-| B1974 | PROVED | “THE FRAME'S HIGGS TRIPLET IS THE ONLY ONE OF ITS KIND: BOTH DOUBLETS MUST CARRY IT (PROVED given P1 to P3; data-free): frame C's triplet is a vector-valued modular form of weight 3/2 for a monomial representation whose…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-25, S306p: LISTENING 3 (B1985, PROVED; a weave result; data-free)).** Up the tower over the common point the whole repeats the cube at every scale and unfolds only along its tangent cone; at 3, the whole's prime, the cone is the cube's four body diagonals, along which lies the Markoff root (3, 3, 3), one move from the grammar's own (3, 3, 6). The whole's one forced structure is self-similar and opens towards the threads' arithmetic. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-25, S306p: LISTENING 4 (B1986, PROVED; a weave result; data-free)).** The unweighted unfolding of all histories over the common point keeps two modes forever: the constant, and an alternation that flips with every move and lives on the body diagonals, the whole's own parity clock. It damps the doublet at 1/2 and the triplets at 1/2 and 1/sqrt 2 per move, through Q(sqrt -7). No rate is read as physical. Next: the tower's spectrum, then the loop (PF5). Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 
