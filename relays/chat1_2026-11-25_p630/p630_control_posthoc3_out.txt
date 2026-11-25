@@ -1,0 +1,6 @@
+V_mu (i)   s = -0.2 fixed: a +0.03330  b +0.11452  c -0.27578   rms 3.5e-06
+V_mu (ii)  s free: s -0.0157 (h 0.5079)  a +0.19703  b -0.05586  c -0.26201   rms 2.3e-06
+V_mu (iii) no constant, s free: s -0.0223 (h 0.5112)   rms 2.2e-06
+V_2  (i)   s = -0.2 fixed: a +0.87342  b -0.15786  c -0.08170   rms 5.6e-06
+V_2  (ii)  s free: s -0.4782 (h 0.7391)  a +1.43362  b +0.04886  c -1.46839   rms 1.8e-07
+V_2  (iii) no constant, s free: s -0.3337 (h 0.6669)   rms 7.9e-08
