@@ -12,6 +12,8 @@
 - decisive script (re-sealed, SM-R612b): relays/sm_r612b/run.py, SHA-256 0d0edb642ce9dcbb, depends on numpy, mpmath
   and main's checkout (argv[1]), run as `python3 -B run.py MAIN_CHECKOUT > r612b_run.txt`, output SHA-256
   4fc024f64d7b32f4 (results json 818985ccd5cf839e); CONFIRMS: all plants within bounds, X1-X12 hold at three moduli
+  (the output carries run times, so a rerun matches it with the lines starting `[` and ending ` s]` removed; this seat's
+  rerun matched so, and its results json matched apart from timing keys)
 - void run, kept on record (SM-R612): relays/sm_r612/run.py, SHA-256 a0ae72658d25a97e, output SHA-256
   94db89885cb0a3bc; PL5 (T-law at delta = inf) failed as sealed (0.87-1.8) from logs of numerical-zero masses; post
   hoc relays/sm_r612/posthoc_numerical_zeros.py, SHA-256 f0c63edc330be995, output SHA-256 1c2d9c9cc48d6a96
