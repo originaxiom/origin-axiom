@@ -20408,3 +20408,13 @@ card up in the record and decides whether it changes anything. Main read both, b
 breaks, all caught) and landed them. Three smaller gaps went back.
 
 0 of 19.
+
+## 2026-11-27 — The runner held back for one gap; the author's settings relayed (S306p)
+
+**What happened.** The building seat sent the runner that will do the intake on GitHub's machines, with its workflow.
+Main found that a seat's script, though cut off from the network, could still write files outside its own folder, and so
+could forge the queue's records or change the runner's own code during a round. Main showed it on a small example and held
+the runner back until that is closed. The settings the author makes on GitHub (no spending, read-only permissions, main and
+the queue's branch protected) were relayed; the workflow goes live only after both.
+
+0 of 19.

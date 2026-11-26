@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p T7 READ AND HELD; T8 READ; THE AUTHOR'S SETTINGS RELAYED (P-885; M62) (2026-11-27)
+
+- **T7 (the intake runner and its workflow) held for T7b** (harvest row 2031): its tests pass 5 of 5 and its one tracked
+  workflow path is accepted, but seat code can write outside its sandbox: the namespace cuts the network, not the
+  filesystem. Shown on a small repository: a card whose script rewrote a file outside its directory came out REPRODUCED.
+  T7b runs seat code as an unprivileged user and tests the guard with a planted writer (M62).
+- **The author's six settings relayed** (from T7's `queue/README.md`): the Actions budget at $0; read-only workflow
+  permissions; a ruleset on `main` keeping the runner's token out; a ruleset on `queue` against force-pushes and deletion;
+  no pull-request trigger; the first run's network guard read. The workflow lands after T7b and settings 1 to 4.
+- **T8 (the peer note) read** (harvest row 2032): verified on top of T7b.
+
 ## S306p T1b AND T6 OF THE THIN PATH LANDED (P-885; M61) (2026-11-26)
 
 - **T1b (main's twelve findings on T1 to T5) and T6 (the record check, "deciding", D6's premise wait, A3's firewall flag)

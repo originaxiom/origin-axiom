@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 2030 |
+| harvest rows (the last number) | 2032 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- “S306p T7 READ AND HELD; T8 READ; THE AUTHOR'S SETTINGS RELAYED (P-885; M62) (2026-11-27)”
 - “S306p T1b AND T6 OF THE THIN PATH LANDED (P-885; M61) (2026-11-26)”
 - “S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)”
 - “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
@@ -60,7 +61,6 @@
 - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
 - “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
 - “S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)”
-- “S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)”
 
 ## The latest campaign line
 

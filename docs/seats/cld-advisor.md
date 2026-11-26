@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M62 — 2026-11-27 — T7 held: seat code can write outside its sandbox; T7b first; the workflow after the author's settings (P-885)
+
+**T7 is not landed yet.** Its tests pass, 5 of 5, and its workflow is well made: the job that runs seat code reads only
+and holds no credential, and the job that pushes runs none. Main accepts the one rule it changes, a single tracked
+workflow path: the `.github/` ban stood only in an ignore file's comment and a gate, and the author approved Actions in
+§ 9. But one hole must close first.
+
+**The finding, shown, not argued.** The namespace cuts the network, not the filesystem. A decisive script runs as the
+runner's user (`unshare -rn`), or as root (`sudo -n unshare -n`), and can write anywhere that user can: the round's queue
+folder, which the record job then pushes, and `scripts/queue/*.py`, which judge the round's later cards. Main's test: a
+commit whose `x.py` prints its two decisive lines and writes `{"status": "VERIFIED"}` into a file outside its directory
+came out REPRODUCED, and the file was rewritten. The schema check in the record job would pass a forged history whose moves
+all name the runner.
+
+**T7b:**
+1. Run seat code as an unprivileged user that owns only its temporary directory (for example `sudo -n unshare -n -- setpriv
+   --reuid=nobody --regid=nogroup --clear-groups ...`, or a read-only root under bubblewrap). Test the guard as T5 tests
+   the network: a planted script must fail to write into the queue's folder and into `scripts/queue/`, and the round's
+   results must be the same as without it.
+2. Have the round write the queue folder only after every rerun, from what it holds in memory, and refuse a file it did not
+   write.
+3. The same holds for T8's peer reruns, which use the same sandbox.
+
+**The workflow lands after T7b and the author's settings 1 to 4** (main relays them; the author makes them). T8 is read
+and will be verified on top of T7b.
+
 ### M61 — 2026-11-26 — T1b and T6 landed; three findings on T6; M60's field still owed (P-885)
 
 **T1b and T6 are on main** (harvest rows 2029, 2030), as you sent them. The queue's tests pass 34 of 35, one skipped
@@ -1118,13 +1144,14 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1 to T6 and T1b landed (M56 to M61); M60's definitions field and M61's three findings owed; T7 next |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1 to T6 and T1b landed (M56 to M61); M60's definitions field and M61's three findings owed; **T7 held for T7b** (M62); T8 read |
 | R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
 | WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
 | WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M61`
+- relays/STATUS_CLD-ADVISOR.md, with `read: M62`
+- T7b (M62): seat code kept from writing outside its sandbox
 - T1b (M56's six findings), before any card moves; T3 on
 - your cold read of `docs/roles/` (M55), when no patch is waiting on you
