@@ -1,0 +1,369 @@
+{
+  "EL_1_pro3_polynomial_jet_filtration": {
+    "abelianization_Z6_all_levels": true,
+    "affine_subspace_dims_m3_to_m9": {
+      "3": 2,
+      "4": 2,
+      "5": 3,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 10
+    },
+    "const_subspace_dims_m3_to_m9": {
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4
+    },
+    "cumulative_k_exponents": [
+      2,
+      4,
+      7,
+      14,
+      21,
+      28,
+      40
+    ],
+    "group_orders_by_modulus": {
+      "19683": "291783971017366291224",
+      "2187": "251048476872",
+      "243": "52488",
+      "27": "216",
+      "6561": "549043018919064",
+      "729": "114791256",
+      "81": "1944",
+      "9": "24"
+    },
+    "newly_decoupled_sl2_modes_at_k9": 3,
+    "pc_el_1_linear_jet_breaks_c3_at_mod81": true,
+    "quadratic_generators_waking_at_k9": 2,
+    "schreier_rho_mod6_values": [
+      0,
+      2,
+      4
+    ],
+    "step_f3_ranks_k3_to_k9": [
+      2,
+      2,
+      3,
+      7,
+      7,
+      7,
+      12
+    ]
+  },
+  "EL_2_all_3k_character_proof_and_c60_audit": {
+    "c60_jk_v2_commutation_verified": {
+      "243": true,
+      "729": true,
+      "81": true
+    },
+    "c60_phi18_at_neg2": 73,
+    "clifford_coset_span_verified_m4_to_m9": {
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true
+    },
+    "ctrl_without_ym_rank_deficit": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "exception_irreps_q0_q1_columns": [
+      "1_x_omega^0",
+      "1_x_omega^1",
+      "sgn_x_omega^0",
+      "sgn_x_omega^1",
+      "2_x_omega^0",
+      "2_x_omega^1"
+    ],
+    "mod729_exact_paired_dimensions": {
+      "d_charged": 17495,
+      "d_neutral": 17498
+    },
+    "neutral_leftout_weighted_count": 3,
+    "null_mode_2xomega1_max_entry": "0.0",
+    "null_mode_u2_scrambled_max_entry": "3.6613943e-36",
+    "paired_irreps_q2_column": [
+      "1_x_omega^2",
+      "sgn_x_omega^2",
+      "2_x_omega^2"
+    ],
+    "phi_homomorphism_order_18_verified": true,
+    "s3_x_z3_irrep_table": [
+      {
+        "c_neutral_dim": 1,
+        "degree": 1,
+        "irrep": "1_x_omega^0",
+        "m_rho": 0,
+        "m_triv": 1,
+        "paired": false
+      },
+      {
+        "c_neutral_dim": 0,
+        "degree": 1,
+        "irrep": "1_x_omega^1",
+        "m_rho": 1,
+        "m_triv": 0,
+        "paired": false
+      },
+      {
+        "c_neutral_dim": 0,
+        "degree": 1,
+        "irrep": "1_x_omega^2",
+        "m_rho": 0,
+        "m_triv": 0,
+        "paired": true
+      },
+      {
+        "c_neutral_dim": 1,
+        "degree": 1,
+        "irrep": "sgn_x_omega^0",
+        "m_rho": 0,
+        "m_triv": 1,
+        "paired": false
+      },
+      {
+        "c_neutral_dim": 0,
+        "degree": 1,
+        "irrep": "sgn_x_omega^1",
+        "m_rho": 1,
+        "m_triv": 0,
+        "paired": false
+      },
+      {
+        "c_neutral_dim": 0,
+        "degree": 1,
+        "irrep": "sgn_x_omega^2",
+        "m_rho": 0,
+        "m_triv": 0,
+        "paired": true
+      },
+      {
+        "c_neutral_dim": 0,
+        "degree": 2,
+        "irrep": "2_x_omega^0",
+        "m_rho": 1,
+        "m_triv": 0,
+        "paired": false
+      },
+      {
+        "c_neutral_dim": 1,
+        "degree": 2,
+        "irrep": "2_x_omega^1",
+        "m_rho": 0,
+        "m_triv": 1,
+        "paired": false
+      },
+      {
+        "c_neutral_dim": 1,
+        "degree": 2,
+        "irrep": "2_x_omega^2",
+        "m_rho": 1,
+        "m_triv": 1,
+        "paired": true
+      }
+    ]
+  },
+  "EL_3_w6_graphene_freeze_and_9_leaves": {
+    "graphene_odd_prime_benchmarks": {
+      "p3_mod27_M3": {
+        "M": "3",
+        "lambda_w6_closed": "5.291502622129181181",
+        "normalized_rate_over_6": "0.8819171036881968635",
+        "orbit_size": "72",
+        "orbit_vs_closed_diff": "2.4074124e-35",
+        "s3_quotient_dim": "19"
+      },
+      "p3_mod81_M9": {
+        "M": "9",
+        "lambda_w6_closed": "5.919044004953378799",
+        "normalized_rate_over_6": "0.98650733415889646651",
+        "orbit_size": "648",
+        "orbit_vs_closed_diff": "7.8240904e-35",
+        "s3_quotient_dim": "127"
+      },
+      "p5_mod125_M5": {
+        "M": "5",
+        "lambda_w6_closed": "5.739710089368552662",
+        "normalized_rate_over_6": "0.95661834822809211033",
+        "orbit_size": "120",
+        "orbit_vs_closed_diff": "1.8055593e-35",
+        "s3_quotient_dim": "20"
+      },
+      "p5_mod625_M25": {
+        "M": "25",
+        "lambda_w6_closed": "5.9894770406965953489",
+        "normalized_rate_over_6": "0.99824617344943255814"
+      },
+      "p7_mod343_M7": {
+        "M": "7",
+        "lambda_w6_closed": "5.8664726954481520044",
+        "normalized_rate_over_6": "0.97774544924135866741",
+        "orbit_size": "2352",
+        "orbit_vs_closed_diff": "3.1296362e-34",
+        "s3_quotient_dim": "392"
+      }
+    },
+    "mod243_w6_new_fiber_ceiling": "5.6720864102915881913",
+    "mod243_w6_new_fiber_normalized": "0.94534773504859803188",
+    "mod81_w6_frozen_ceiling_exceeds_mod243_new": true,
+    "non_cusp_leaves_with_full_halving": 0,
+    "su2_2I_9_frustration_leaves": {
+      "+1": {
+        "d_charged": 24,
+        "d_neutral": 24,
+        "full_halving": false,
+        "orbit_size": 72,
+        "paired_modes": 3
+      },
+      "+1/phi": {
+        "d_charged": 2,
+        "d_neutral": 2,
+        "full_halving": false,
+        "orbit_size": 6,
+        "paired_modes": 0
+      },
+      "+2": {
+        "d_charged": 24,
+        "d_neutral": 26,
+        "full_halving": false,
+        "orbit_size": 74,
+        "paired_modes": 8
+      },
+      "+phi": {
+        "d_charged": 13,
+        "d_neutral": 14,
+        "full_halving": false,
+        "orbit_size": 40,
+        "paired_modes": 0
+      },
+      "-1": {
+        "d_charged": 2,
+        "d_neutral": 2,
+        "full_halving": false,
+        "orbit_size": 6,
+        "paired_modes": 0
+      },
+      "-1/phi": {
+        "d_charged": 13,
+        "d_neutral": 14,
+        "full_halving": false,
+        "orbit_size": 40,
+        "paired_modes": 0
+      },
+      "-2": {
+        "d_charged": 0,
+        "d_neutral": 1,
+        "full_halving": false,
+        "orbit_size": 1,
+        "paired_modes": 0
+      },
+      "-phi": {
+        "d_charged": 2,
+        "d_neutral": 2,
+        "full_halving": false,
+        "orbit_size": 6,
+        "paired_modes": 0
+      },
+      "0": {
+        "d_charged": 5,
+        "d_neutral": 6,
+        "full_halving": false,
+        "orbit_size": 16,
+        "paired_modes": 0
+      }
+    }
+  },
+  "EL_4_sourced_handedness_conformal_vs_quartic": {
+    "X_omega_8pi2_over_sqrt3": "45.585750062112451",
+    "X_omega_N2_Dp_diag": [
+      "45.5857500621124271",
+      "45.5857500621471127",
+      "45.5857500621124271"
+    ],
+    "X_omega_N2_scalar_diag": [
+      "10.6732888201415864",
+      "4.08813355069858653",
+      "4.08813355069858653"
+    ],
+    "X_omega_Q4_Dp_diag": [
+      "921.57673056641173",
+      "839.90385344841997",
+      "921.57673056641173"
+    ],
+    "X_omega_conformal_shielding_err": "3.4661762e-11",
+    "X_omega_g4_minus_antichiral": [
+      "8.08974769971188902",
+      "55.1418523174323629",
+      "50.2550169851077916"
+    ],
+    "X_omega_g4_plus_chiral_1plus1plus1": [
+      "8.08974769971188902",
+      "50.2550169851077916",
+      "55.1418523174323629"
+    ],
+    "X_omega_mirror_swap_err": "4.8148249e-35",
+    "X_omega_u3_basis_scramble_err": "1.0833356e-34",
+    "m003_phi3_spin_bundle_swap_verified": true,
+    "su2_2I_chi12_counts": {
+      "distinct_levels": 21,
+      "negative": 4920,
+      "positive": 4920,
+      "zero_achiral": 4560
+    },
+    "su2_2I_chi12_fractions": {
+      "negative": "41/120",
+      "positive": "41/120",
+      "zero": "19/60"
+    }
+  },
+  "EL_5_master_completeness_and_hierarchy_boundary": {
+    "active_claim_cards_scanned": 10,
+    "max_native_ratio_including_834_collar": "112.8373325822189",
+    "max_single_surface_overlap_ratio": "6.816263542977515",
+    "native_dimensionless_scale_ratios": {
+      "X_omega_chiral_g4_minus1_over_0": "6.816263542977515",
+      "X_omega_chiral_g4_minus1_over_plus1": "1.09724074580997",
+      "X_omega_chiral_g4_plus1_over_0": "6.212185948258632",
+      "X_omega_scalar_neutral_over_charged": "2.610797491759465",
+      "link_8_3_4_singleton_over_twin_neck_inv_ratio": "112.8373325822189",
+      "m003_over_m004_min_dual_freq_ratio": "2.0",
+      "markoff_asymptotic_limit": "4.0",
+      "markoff_omega_14_over_5": "2.8",
+      "three_tower_halving_ratio": "2.0"
+    },
+    "retracted_2hdm_41_over_240_hits": 0,
+    "single_surface_below_10_and_collar_below_150": true
+  },
+  "all_modules_and_controls_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-26_exhaustive_pure_listening_pro3_tower_chirality_and_boundary",
+  "firewall": "strictly_0_of_19_zero_SM_scaffolding",
+  "planted_controls": {
+    "PC_EL_1_linear_jet_truncation_breaks_c3_closure_at_mod81": true,
+    "PC_EL_2_single_matrix_sl2_f3_ansatz_fails_ranks_2_7_12": true,
+    "PC_EL_3_omitting_centralizer_commutator_ym_leaves_codim_1": true,
+    "PC_EL_4_unweighted_W6_sq_breaks_C60_Jk_commutation": true,
+    "PC_EL_5_abelian_torus_kappa_plus2_fails_full_halving": true,
+    "PC_EL_6_conformal_quadratic_kinetic_shields_X_omega_chirality": true,
+    "PC_EL_7_unoriented_quartic_sum_restores_mirror_degeneracy": true,
+    "PC_EL_8_native_ceilings_block_1e5_hierarchy_by_800x": true
+  },
+  "script_sha256": "bc143a417b52eac0b46b3789ca5f89d5ff83eb480e1271b5eb2ffd2929f54a5a"
+}
