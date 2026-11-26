@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1706 |
-| … PROVED | 1199 |
+| arcs with a verdict file | 1707 |
+| … PROVED | 1200 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B2010 | PROVED | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreduci…” |
 | B2009 | PROVED | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and i…” |
 | B2008 | PROVED | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1),…” |
 | B2007 | PROVED | “LISTENING 22, THE LAYER'S LAW UP THE TOWER (PROVED for its checks; data-free): each step of the 3-adic layer over the cube group is elementary abelian (Z3^2 at mod 27, Z3^2 at mod 81, Z3^3 at mod 243, Z3^7 at mod 729; L…” |
@@ -42,7 +43,6 @@
 | B2001 | PROVED | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest dec…” |
 | B2000 | PROVED | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair a…” |
 | B1999 | PROVED | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is e…” |
-| B1998 | PROVED | “LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the c…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-26, S306p: LISTENING 24 (B2009, PROVED; a weave result; data-free)).** The halving is now derived, not only observed: at the whole's prime the order-6 character passes through the small group, twisting by it pairs every representation with another, and the stabiliser sees the two sides equally except in six small representations, the same at every level; the three of them the neutral sector sees are the constant, S4's sign and one 2-dimensional representation, exactly the identity's three left-out modes. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-26, S306p: LISTENING 25 (B2010, PROVED; a weave result; data-free)).** The halving's only exceptions are the representations of one small group that does not grow up the tower: S3 x Z3, the three's permutations times omega's charge. Everything the 3-adic layer adds above mod 27 pairs exactly, at mod 81 and 243. Nothing is compared with data. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1706 of 1706 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1707 of 1707 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1199)
+## PROVED (1200)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1211,6 +1211,7 @@
 | `B2007` | “LISTENING 22, THE LAYER'S LAW UP THE TOWER (PROVED for its checks; data-free): each step of the 3-adic layer over the cube group is elementary abelian (Z3^2 at mod 27, Z3^2 at mod 81, Z3^3 at mod 243, Z3^7 at mod 729; L2's 27 at 729 failed), the whole layer reaching order 3^14 (invariants [27, 81], class 4) and the group 114,791,256 at mod 729, whose abelianisation is still Z6; on the leading modes at mod 729 the halving holds (post hoc, shift-invert: all 59 half-neutral values below the top in the common window matched to 2.3e-7; L3's plain sparse solve failed as worded on its precision)” |  | 0 |
 | `B2008` | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1), so it commutes exactly with the unfolding at every level run and carries charge 1 onto charge 2; it is not one of the moves (tau not in G_k at mod 27, 81, 243; <G_k, tau> has order 2|G_k|), and with it the abelianisation is Z2 x Z2, omega's order-3 charge gone; so the pair is locked by the orientation-reversing mirror while the charge lives in the orientation-preserving part, and the 2 -> 1 + 1 split needs a handedness the whole does not supply (the chirality bit, met from the unfolding)” |  | 0 |
 | `B2009` | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and its C-neutral space to its charge-2 space, so with B2004's sector forms the charged spectrum is half the neutral one wherever <pi|S, 1> = <pi|S, rho|S>; GAP's character tables at mod 27, 81, 243 (19, 85, 399 irreducibles) give the same six exceptions at each level, of degree at most 2, three of them seen by the neutral sector: the trivial character (the constant, 6), S4's sign (the alternation, -6) and one 2-dimensional representation (the null mode), with weighted count 3, exactly the identity's three left-out modes” |  | 0 |
+| `B2010` | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreducible non-trivial on it (66 and 380) has equal multiplicities, so it pairs exactly; the six live on one quotient of order 18 at every level, C3 x S3, the three's permutation group times omega's charge (E3's 72 failed as worded); so the halving's only exceptions are the representations of the three with their charge, a group that does not grow up the tower” |  | 0 |
 
 ## NEGATIVE (388)
 

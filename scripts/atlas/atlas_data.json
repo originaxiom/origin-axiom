@@ -18751,6 +18751,21 @@
    "status": "dead",
    "domain": "physics"
   },
+  "B2010": {
+   "slug": "listening 25 the six exceptions live at the bottom of the tower",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "S3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B201": {
    "slug": "silver sl3 charvar",
    "motifs": [

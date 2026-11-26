@@ -1,0 +1,12 @@
+mod 27: |G| = 216; kernel of the reduction to mod 27: order 1; irreducibles 19, of which non-trivial on it 0  [0 s]
+    E1: the six exceptions are trivial on the kernel: True (6 exceptions)
+    E2: every irreducible non-trivial on the kernel has m = m': True
+    E3: the exceptions' common kernel has order 12; the quotient has order 18, structure C3 x S3
+mod 81: |G| = 1944; kernel of the reduction to mod 27: order 9; irreducibles 85, of which non-trivial on it 66  [1 s]
+    E1: the six exceptions are trivial on the kernel: True (6 exceptions)
+    E2: every irreducible non-trivial on the kernel has m = m': True
+    E3: the exceptions' common kernel has order 108; the quotient has order 18, structure C3 x S3
+mod 243: |G| = 52488; kernel of the reduction to mod 27: order 243; irreducibles 399, of which non-trivial on it 380  [72 s]
+    E1: the six exceptions are trivial on the kernel: True (6 exceptions)
+    E2: every irreducible non-trivial on the kernel has m = m': True
+    E3: the exceptions' common kernel has order 2916; the quotient has order 18, structure C3 x S3

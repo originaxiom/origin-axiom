@@ -1,0 +1,14 @@
+"""B2010: export C, sigma, the index of (3,3,3) and the reduction to mod 27, on the orbit of (3,3,3) mod 27, 81, 243, for the
+GAP run (perms.json, not committed; regenerated here).    python3 -B export_perms.py > export_perms_run.txt"""
+import contextlib, hashlib, io, json, pathlib
+HERE = pathlib.Path(__file__).resolve().parent
+src = (HERE.parent.parent / "B2004_listening_19_the_mechanism_of_the_halving_the_modular_group_and_its_order_six_character" / "verification" / "mechanism.py").read_text().split("WORDS = words(10)")[0]
+ns = {"__file__": str(HERE / "export_perms.py")}
+with contextlib.redirect_stdout(io.StringIO()): exec(compile(src, "b2004_head", "exec"), ns)
+p27, i27, _, _, _ = ns["orbit"](27, (3, 3, 3)); out = {}
+for k in (3, 4, 5):
+    pts, idx, pC, pS, _ = ns["orbit"](3 ** k, (3, 3, 3))
+    out[str(k)] = {"C": [int(i) for i in pC], "S": [int(i) for i in pS], "p0": idx[(3, 3, 3)], "red27": [i27[(v[0] % 27, v[1] % 27, v[2] % 27)] for v in pts]}
+    print("k = %d: %d points" % (k, len(pts)))
+blob = json.dumps(out).encode(); (HERE / "perms.json").write_bytes(blob)
+print("the exported permutations, regenerated here and not committed, have the digest %s" % hashlib.sha256(blob).hexdigest())

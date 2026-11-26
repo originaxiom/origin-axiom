@@ -1,0 +1,21 @@
+{
+ "id": "B2010",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B2009", "B2007", "B2006", "B1994", "B1991"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the groups G_k on omega's orbit mod 27, 81, 243, the kernel of their reduction to mod 27, and their irreducible characters",
+  "object": "whether the halving's six exceptional irreducibles are inflated from mod 27, whether every irreducible that sees the layer above mod 27 pairs exactly, and the quotient carrying the six",
+  "reach": "class",
+  "hypotheses": "GAP character tables and kernels through sage, exact; E3 failed as worded"
+ },
+ "claim_one_line": "LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreducible non-trivial on it (66 and 380) has equal multiplicities, so it pairs exactly; the six live on one quotient of order 18 at every level, C3 x S3, the three's permutation group times omega's charge (E3's 72 failed as worded); so the halving's only exceptions are the representations of the three with their charge, a group that does not grow up the tower",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}
