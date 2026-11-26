@@ -1,5 +1,19 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Currency (2026-11-26, through B2011; read against every arc from B2009):** the live list is still the point register's open rows. What the window moved, on the listening line (all data-free, nothing compared with data):
+>
+> - the halving derived: the twist by the order-6 character, decided by the stabiliser's condition (B2009); its six exceptions live on C3 x S3 (B2010);
+> - the other listeners read and checked first (B2011): agy-exp's one law for the slow decay at the primes 3, 5 and 7 (credited); agy's level mod 135, where Z6 and three fixed points survive and the halving fails (credited);
+> - **corrected:** the line in the block below, "its order-6 character, which survives exactly where the halving holds", is a table of the eleven levels B2005 ran, not a law (B2011); so is B2003's "exactly where omega's exchange fixes three points";
+> - B2008's "the chirality bit, met from the unfolding" is a reading; the fact is that a symmetry which is not a move locks the charged pair.
+>
+> **The open leads it leaves:**
+> - S_k one orbit for every k, and agy's all-k assembly checked line by line (every computed step holds for every k);
+> - whether B2009's stabiliser condition predicts mod 135;
+> - why the honeycomb law holds: its period M at each level, and the 6-element shell agy-exp derives it on;
+> - the blind re-listen, the census over every orbit and prime, and the null control (the guards named on 2026-11-26);
+> - the layer's step law; the full spectrum at mod 729; what could pick an orientation; P-884 Q3; agy-exp's NI-2, NI-5 and NH-3's collapse; the analytic field at omega (B1992).
+
 > **Currency (2026-11-26, through B2008; read against every arc from B1998):** the live list is still the point register's open rows. What the window moved, on the listening line (all data-free, nothing chosen):
 >
 > **At the whole's primes:**

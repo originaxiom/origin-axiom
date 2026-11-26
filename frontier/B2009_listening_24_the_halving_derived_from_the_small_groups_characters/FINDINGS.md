@@ -71,3 +71,9 @@ At all three levels the six exceptions are the same:
 - **A proof that the six exceptions are the same for every 3ᵏ, k ≥ 3.** They have degree at most 2 at every level run, so they
   presumably factor through the smallest quotient that carries ρ and S₄.
 - **The two 2-dimensional exceptions:** identifying them, and showing that their neutral line carries the eigenvalue 0.
+
+## Dated note (2026-11-26, B2011)
+
+- The premise restated above from B2005 (ρ factors exactly where the halving holds) is not a law. At mod 135 ρ factors and
+  the halving fails (B2011). This arc's derivation does not use the converse: its criterion is the stabiliser's, which is
+  what decides.

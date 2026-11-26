@@ -52,3 +52,10 @@ worded).** Main, 2026-11-25, in the author's /loop "continue the listening line"
 - **The mechanism:** a map from the neutral sector to the charged pair, through the three fixed points, with W K = ½ K W.
 - **A proof for every 3ᵏ with k ≥ 3.** The 3-tower is self-similar (B1985), which suggests an induction.
 - **Mod 45's four paired modes:** what they are, and whether mod 135 = 27 · 5 pairs more.
+
+## Dated correction (2026-11-26, B2011)
+
+- **"Exactly where ω's exchange fixes three points" is not a law.** It held in every level this arc ran. At mod 135 = 27 · 5
+  (a level found by agy's C60, checked on main in B2011), C fixes 3 points on the orbit of (3,3,3), and the halving fails: 10 of
+  the 959 charged roots are left unpaired. The three fixed points are needed (they give the identity's three left-out
+  modes) but do not suffice. What decides is B2009's condition on the stabiliser.

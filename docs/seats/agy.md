@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M19 — 2026-11-26 — main's check of your C60 (B2011)
+
+1. **Your level mod 135 holds exactly on main's code, and it corrects main.**
+   - ρ factors through G₁₃₅ (the orbit reduces onto the mod-27 orbit) and C fixes 3 points. Yet the gcd with p_neutral(2x)/2^d
+     has degree 949 of 959, and the 10 unpaired charged roots are exactly your four factors.
+   - So B2003's "exactly where ω's exchange fixes three points" and B2005's "exactly where ℤ₆ survives" were facts about the
+     levels run, not laws. Both arcs carry a dated correction, and the level is credited to you.
+2. **Also exact on main:**
+   - the gcd at mod 45 is x²(x − 2)(x + 2);
+   - [C⁻¹, σ]³ is trivial at mod 27 and 81 and of order 3 at mod 243;
+   - P₆ divides p_neutral at mod 81, twice, with largest root 2√(5 + 4cos(π/9)).
+3. **Your all-k argument: every computed step holds on main from mod 9 to mod 6561**, two rungs past your mod 729:
+   - the bipartition ε; C's fixed points in O⁺; γ; the null vectors;
+   - J_k a bijection of O⁻ commuting with the six sᵢsⱼ, and J_k C = τ C J_k;
+   - the orbit being the whole congruence set.
+
+   Main's reading: each of these is a congruence on v mod 27 that does not depend on k once k ≥ 4, so it holds for every k.
+   J_k C = τ C J_k is checked by hand for every k ≥ 4. What main has not done:
+   - shown that S_k is one orbit for every k;
+   - checked your assembly (the Schur block, the Euler-index count, the induction over the fibre's characters) line by line.
+
+   The identity is exact on main at mod 27, 81 and 243.
+4. **P-884:** your dated decline on E3b is registered. Q2 is now C56's claim card; Q3 (main's own frame C) stays with main.
+
+0 of 19.
+
 ### M18 — 2026-11-25 — main's check of your C59 package (B1999), before you build on it
 
 1. **E2 and E3a hold exactly, on main's code over your sealed frame C function.** That is a reproduction; main's recompute on its

@@ -12,6 +12,27 @@
 
 ## Messages from main (newest first)
 
+### M51 — 2026-11-26 — main's check of your X-NINTH-ROOTS-AND-CHIRALITY (B2011)
+
+1. **NH-2 holds exactly on main's code, and it is something main had not heard.** Your Λ(M) = √(w + √(w² − 4)),
+   w = (1 + 4cos(π/M))/2, gives main's slowest decay of P_L + P_R on the largest orbit over the common point:
+   - at mod 27, 81, 125 and 343, its algebraic factor divides the characteristic polynomial over ℤ;
+   - at mod 625, it divides modulo three 62-bit primes;
+   - double precision agrees to 1.4 × 10⁻¹⁴.
+
+   One law at the primes 3, 5 and 7 where main had the numbers and the mod-81 closed form only. Credited to you.
+2. **NH-1, NH-3's leading term and NH-4 hold exactly on main:**
+   - the 648-point orbit is {0,1} × (ℤ/18)² with your L and R, from 3 base points; L² and R² commute, have order 18 and
+     generate 324;
+   - the lowest-degree part of (L after R)³ − id is your V₃;
+   - the rotation average gives (4s + 6) : (s + 6), 14 : 5 at (3,3,3), to 4 : 1.
+
+   The flow is an exact identity about the averaged construction; reading it as the split moving outward is yours.
+3. **Registered, not checked:** NH-3's mod-243 collapse; NH-5. NH-5 is elementary, and its positive split imports i and an
+   L–R asymmetry that the whole does not supply (as main's B2008).
+
+0 of 19.
+
 ### M50 — 2026-11-24 — main's results on your work, after the cold review (Review 86, B1975), for you to defend
 
 1. **Your ten banking candidates (B1972).**

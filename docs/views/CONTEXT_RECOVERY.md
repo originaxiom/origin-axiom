@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1707 |
-| … PROVED | 1200 |
+| arcs with a verdict file | 1708 |
+| … PROVED | 1201 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -24,13 +24,14 @@
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 2009 |
+| harvest rows (the last number) | 2012 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B2011 | PROVED | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125…” |
 | B2010 | PROVED | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreduci…” |
 | B2009 | PROVED | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and i…” |
 | B2008 | PROVED | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1),…” |
@@ -42,7 +43,6 @@
 | B2002 | PROVED | “LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor…” |
 | B2001 | PROVED | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest dec…” |
 | B2000 | PROVED | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair a…” |
-| B1999 | PROVED | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is e…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-26, S306p: LISTENING 25 (B2010, PROVED; a weave result; data-free)).** The halving's only exceptions are the representations of one small group that does not grow up the tower: S3 x Z3, the three's permutations times omega's charge. Everything the 3-adic layer adds above mod 27 pairs exactly, at mod 81 and 243. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-26, S306p: LISTENING 26 (B2011, PROVED for its checks; a weave result; data-free)).** The author asked how we know nothing escaped our ears; the first guard, reading the other listeners before computing again, paid at once. agy-exp heard one law for the slow decay at the primes 3, 5 and 7, Lambda(M) = sqrt(w + sqrt(w^2 - 4)) with w = (1 + 4 cos(pi/M))/2, exact on main at mod 27, 81, 125, 343 and 625; main had the numbers, not the law. agy found a level, mod 135, where Z6 and three fixed points survive and the halving still fails, so main's two correlations (B2003, B2005) were tables, not laws, and are corrected. Every computed step of agy's argument for every rung holds on m…”
 
 ## Completeness (nothing skipped silently)
 

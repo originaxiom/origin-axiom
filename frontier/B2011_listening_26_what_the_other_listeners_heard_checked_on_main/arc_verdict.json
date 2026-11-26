@@ -1,0 +1,24 @@
+{
+ "id": "B2011",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B2002", "B2003", "B2005", "B2009", "B1996", "B1997", "B1987", "B2000"],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane's C60 (origin/agy/cusp-action-2026-11-20 @ 5bdaced13, harvest row 2010): the level mod 135, the gcd at mod 45, the commutator at mod 243, the sextic at mod 81 and every computed step of the all-k argument recomputed on main's own code and verified; the assembly read, not checked line by line; its section 1 (M18 concessions, the P-884 E3b decline) registered",
+  "agy-exp's X-NINTH-ROOTS-AND-CHIRALITY (origin/agy/self-consistent-loop-2026-11-11 @ 4c1d39aa3, harvest row 2011): NH-1, NH-2, NH-3's leading term and NH-4 recomputed on main's own code and verified; NH-3's mod-243 collapse and NH-5 registered, not checked"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the moves L, R on the readings; the orbit of (3,3,3) mod 9 to 6561, 45 and 135; the largest orbit over the common point mod 27, 81, 125, 343, 625; B2000's linearisation at a general point",
+  "object": "the other listeners' claims on the listening line: the slowest decay's closed law across the primes 3, 5, 7; whether the halving holds where Z6 and three fixed points survive (mod 135); the halving exactly at mod 243; the computed steps of an all-k argument; the honeycomb torus at mod 81; the outward ratio; the cubic term of (LR)^3 - id",
+  "reach": "class",
+  "hypotheses": "exact: FLINT characteristic polynomials over Z (and over GF(p) with CRT past the 7^d bound), factorisations and gcds; sympy; numpy on every point; mod 625 modulo three 62-bit primes; double-precision spectra to 1.4e-14 alongside"
+ },
+ "claim_one_line": "LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125, 343 (its exact factor divides the characteristic polynomial over Z) and 625 (modulo three primes): one law at the primes 3, 5 and 7 that main had not heard; agy's level mod 135 keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws (both corrected); the halving identity holds exactly over Z at mod 243; every computed step of agy's all-k argument holds on main from mod 9 to mod 6561 and, by main's reading, for every k; the orbit is the whole congruence set to mod 6561; the 648-point orbit is the honeycomb torus {0,1} x (Z/18)^2; the outward ratio is (4s + 6) : (s + 6); the assembly for every k is read, not checked line by line",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

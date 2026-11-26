@@ -18766,6 +18766,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2011": {
+   "slug": "listening 26 what the other listeners heard checked on main",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B201": {
    "slug": "silver sl3 charvar",
    "motifs": [

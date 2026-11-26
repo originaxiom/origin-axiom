@@ -1,0 +1,12 @@
+B2: S6 in the charge basis: diagonal (q = 0, 1, 2) [x + y + 2*z + 2, x + y - z + 2, x + y - z + 2]; off-diagonal all zero: True
+    averages over the three rotations: neutral 4*x/3 + 4*y/3 + 4*z/3 + 2, charged x/3 + y/3 + z/3 + 2; ratio 2*(2*x + 2*y + 2*z + 3)/(x + y + z + 6); equals (4s + 6)/(s + 6) with s = x + y + z: True
+    node (0, 0, 0): ratio 1; on the Markov surface x^2 + y^2 + z^2 = xyz: True
+    node (3, 3, 3): ratio 14/5; on the Markov surface x^2 + y^2 + z^2 = xyz: True
+    node (3, 3, 6): ratio 3; on the Markov surface x^2 + y^2 + z^2 = xyz: True
+    node (3, 6, 15): ratio 17/5; on the Markov surface x^2 + y^2 + z^2 = xyz: True
+    node (3, 15, 39): ratio 26/7; on the Markov surface x^2 + y^2 + z^2 = xyz: True
+    node (6, 15, 87): ratio 73/19; on the Markov surface x^2 + y^2 + z^2 = xyz: True
+    node (15, 39, 582): ratio 425/107; on the Markov surface x^2 + y^2 + z^2 = xyz: True
+    limit as s -> infinity: 4
+B4 (L after R)^3 - id: lowest degree 3; that part [-x*y**2 + x*z**2, x**2*y - y*z**2, -x**2*z + y**2*z]; equals (x(z^2 - y^2), y(x^2 - z^2), z(y^2 - x^2)): True; its negative: False
+B4 (R after L)^3 - id: lowest degree 3; that part [x*y**2 - x*z**2, -x**2*y + y*z**2, x**2*z - y**2*z]; equals (x(z^2 - y^2), y(x^2 - z^2), z(y^2 - x^2)): False; its negative: True

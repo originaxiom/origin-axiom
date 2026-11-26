@@ -77,3 +77,10 @@ So, in all eleven levels run, the halving holds exactly where the group keeps �
 - **The full proof:** that ℤ₆ surviving, with the fixed-point structure B2004 found, gives p_neutral(2x) = 2^d (x² − 9) x S(x),
   derived for every k ≥ 3.
 - **The group's structure:** what G_k is, a 3-group extension of S₄'s 2-part. Why its order jumps at mod 243.
+
+## Dated correction (2026-11-26, B2011)
+
+- **"The halving holds exactly where ℤ₆ survives" is not a law.** It held in the eleven levels this arc ran. At mod 135 =
+  27 · 5 (a level found by agy's C60, checked on main in B2011), ρ factors through G₁₃₅, because the orbit reduces onto the
+  mod-27 orbit, and C fixes 3 points. The halving still fails there: 10 of the 959 charged roots are unpaired. ℤ₆ surviving is
+  needed for B2009's twist, but it does not suffice. What decides is B2009's condition on the stabiliser.

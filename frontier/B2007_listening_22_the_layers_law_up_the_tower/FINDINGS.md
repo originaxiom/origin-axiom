@@ -63,3 +63,8 @@ midnight), in the author's /loop "continue the listening line". Data-free. Regis
 - **The halving at mod 729 for every mode,** not only the leading 60. This needs a full dense solve: about 17,500 dimensions
   per sector.
 - **The derivation of the halving from S₄, the layer and ℤ₆,** for every k.
+
+## Dated note (2026-11-26, B2011)
+
+- The premise restated above from B2005 (ℤ₆ survives exactly where the halving holds) is not a law. At mod 135 ℤ₆
+  survives and the halving fails (B2011). Nothing in this arc's results rests on the converse.
