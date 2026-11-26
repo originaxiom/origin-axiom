@@ -6,6 +6,7 @@ that cannot look saying nothing new instead of saying that it could not look."""
 import importlib.util
 import json
 import pathlib
+import re
 import subprocess
 import sys
 
@@ -361,3 +362,21 @@ def test_two_messages_with_one_number_are_both_shown_and_the_look_says_so(tmp_pa
     r = _listen(clone, "--seat", "x")
     assert r.returncode == 0 and "more than one message" not in r.stdout
 
+
+
+def test_every_seat_page_numbers_its_messages_without_a_gap():
+    # ADDED 2026-11-26: two messages to the advisor seat (M51, M52) lost their heading's "### M<n> —" when the next message was
+    # put above them, so the seat's listener read them as part of the message above; no test saw it.  A page's messages, newest
+    # first, must count down by one with no number missing, and no line may look like a heading that lost its marks.
+    root = pathlib.Path(__file__).resolve().parents[1]
+    bad = []
+    for page in sorted((root / "docs" / "seats").glob("*.md")):
+        if page.name == "README.md":
+            continue
+        text = page.read_text()
+        nums = [int(m) for m in re.findall(r"^ {0,3}### M(\d+)\b", text, re.M)]
+        gaps = [(a, b) for a, b in zip(nums, nums[1:]) if a - b != 1]
+        orphans = re.findall(r"^ ?\d{4}-\d{2}-\d{2} — .*$", text, re.M)
+        if gaps or orphans:
+            bad.append((page.name, gaps, orphans[:3]))
+    assert not bad, bad

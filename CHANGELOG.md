@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)
+
+- **M54 to the advisor seat:** it builds the thin path's code (queue schema, discovery, form check, custody, sandboxed rerun
+  with its failing control, record check, workflow with its settings README, peer-note schema, sealed banking verdicts, two
+  ACCEPTs, the known-failures baseline, the landing tool, the plant ledger's format, seat codes); main writes the producer's
+  and banking seat's charters (then the peer's and auditor's), sorts WORKING_RULES.md into door rules, one-role rules and
+  advice, files B2011 to B2017's claim cards, seals the four plants and writes the frozen list. The page's role, cards and
+  waiting sections brought up to date.
+- **M51 and M52 restored:** each had lost its `### M<n> —` heading when the next message was inserted above it, so the seat's
+  listener read them as part of the message above. Restored word for word.
+- **New test** `test_every_seat_page_numbers_its_messages_without_a_gap` (tests/test_seat_listener.py): fails on the damaged
+  page (gap 53 to 50, two headless lines), passes on all eight pages after the repair; 15 of 15 listener tests pass.
+
 ## S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)
 
 - **R82-2, the advisor seat's patch (71 verdict lines re-worded to name no seat but main, and the gate `claim-names-no-session`), read line by line and returned with three corrections** (harvest row 2020; the seat's page, M53): the 71 re-wordings hold, checked by script (only the claim line and one credit entry change; each removed phrase is a seat's name); B1894's "the gates' builder" is a synonym the gate's list lacks; the patch carried a rewrite of B1832's committed output; the gate's list misses the physical lane, the explore seat and the independent audit lane, so 18 mentions in 16 lines from B1814 on remain (main's list of M41 missed them first).

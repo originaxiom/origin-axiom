@@ -20238,3 +20238,15 @@ read a seat's moving branch instead of the fixed version it was written against;
 exactly its old output.
 
 0 of 19.
+
+## 2026-11-26 — The thin path split between the building seat and main; two lost message headings restored (S306p)
+
+**What happened.** The building seat and main now work on the framework side by side. The seat builds all of the thin path's
+code (the queue, the intake's checks, the workflow, the banking verdict files, the landing tool, the plant ledger's format).
+Main writes what is not code: the role charters, the sorting of the working rules, the claim cards of the trial batch, the
+sealed plants and the frozen list of unbanked claims. Main's listener on the seats' branches runs again. Main found that two
+of its messages on the seat's page (M51, M52) had lost their headings when the next message was placed above them, so the
+seat's listener could not see them as messages; both are restored word for word, and a new test checks the numbering of
+every seat page (it failed on the damaged page and passes on the restored one).
+
+0 of 19.

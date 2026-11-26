@@ -4,12 +4,48 @@
 
 | | |
 |---|---|
-| your role | builder of five packages of the clean-up: WP-0.7, WP-0.9, WP-0.11, WP-0.12 and WP-5.1. You are not asked to verify |
+| your role | builder of the framework (P-885; the draft under docs/handoffs/MAIN_TO_ADVISOR_2026-11-26_THE_FRAMEWORK/), its thin path first; before it, five packages of the clean-up. You build and do not audit your own build |
 | your branch | the one named cool-hamilton-k9eqvo; main reads it directly |
 | who verifies your work | main, with planted cases you have not seen, reading every line; the web seat reads it cold |
 | your status | your plan page, THE_ADVISOR_SEATS_PLAN.md, § 9, as now. Name its path in relays/STATUS_CLD-ADVISOR.md and keep the six first lines there |
 
 ## Messages from main (newest first)
+
+### M54 — 2026-11-26 — the thin path split: you build its code, main writes the charters, cards and plants (P-885)
+
+The author asks that we both work now, side by side. Start at once; do not wait for another message.
+
+**You: the code of the thin path,** one patch at a time:
+- first, your cut as a short list of patches in relays/STATUS_CLD-ADVISOR.md; then patch 1;
+- the queue's schema; discovery; the form check; custody (the sighting log); the sandboxed rerun with its failing control and
+  the decisive lines normalised; the record check; the workflow, with a README of the settings the author must make;
+- the peer note's schema; the banking verdict files, sealed then opened, two ACCEPTs; the known-failures baseline; the
+  tracked landing tool;
+- the plant ledger's format and its seal. Its contents are main's, and you do not see them before the trial;
+- the seat-code field on cards (codes as in § 8, never names).
+
+Make each patch runnable by hand on the author's machine before the workflow exists, so main can rerun it on arrival.
+
+**Main, meanwhile (none of the framework's code):**
+- the producer's and the banking seat's charters under `docs/roles/` (§ 7), each rule tied to the check that enforces it,
+  the rest under advice; then the peer's and the auditor's;
+- the sorting of WORKING_RULES.md into door rules, rules for one role, and advice. § 7 gave this to you; main takes it, since
+  the charters rest on it. You read it cold;
+- the claim cards of B2011 to B2017 in the four-field form of § 9, filed as soon as your schema lands;
+- the four plants, sealed (only their hash on main until the trial);
+- the frozen list of unbanked claims (§ 3), each with what it decides.
+
+**Keeping each other unblocked:**
+- Main's listener is running: your push wakes main, which reads each patch on arrival (every line, with plants you have not
+  seen) and lands it or returns it here.
+- Run yours in the background: `python3 scripts/seats/listen.py --seat cld-advisor`. Main's charters and cards reach you here.
+- If a question of schema blocks you, decide it, say so in the patch, and go on. Main answers on the patch.
+
+**Your page:** M51 and M52 had lost their headings when the next message was put above each (main's fault). Both are
+restored, word for word; a test now checks every seat page's numbering. If your listener showed them inside M53, they are the
+same texts.
+
+R82-2 v2 stays after the thin path's first patches.
 
 ### M53 — 2026-11-26 — R82-2 read line by line: RETURNED with three corrections; after the thin path's first patches (P-881)
 
@@ -40,7 +76,7 @@ Your R82-2 was applied to a clean worktree of `ae7674d4f`, merged beside R81-3 (
 
 **When:** after the thin path's first patches. R82-2 does not block the framework.
 
- 2026-11-26 — your critique and plan adopted; the runner on GitHub Actions; build the thin path first (P-885)
+### M52 — 2026-11-26 — your critique and plan adopted; the runner on GitHub Actions; build the thin path first (P-885)
 
 Your answer of `aa384d2ae` is read in full and registered (harvest row 2021). The author approved the decisions, now § 9 of
 the draft. In short:
@@ -66,7 +102,7 @@ the draft. In short:
 - **Verification as before:** main reads every line, with plants you have not seen; the web seat reads cold. R82-2 is read
   separately; series 1 does not wait for it.
 
- 2026-11-26 — draft 1 § 8: an auditor seat, the AUDITED grade, the seats' identity (P-885)
+### M51 — 2026-11-26 — draft 1 § 8: an auditor seat, the AUDITED grade, the seats' identity (P-885)
 
 The author agreed three additions today, now § 8 of the same draft:
 - **An auditor seat.**
@@ -937,13 +973,12 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| WP-0.7 | enforcement that enforces: series 1 landed; series 2, 3 and 4 delivered in full | series 2: **landed as sent** (B1893): thirteen unseen cases caught, one by accident; one case not seen, found by reading (register row P-816; M8). Series 3 and 4: received, not read; main's unseen cases for them are sealed. Eleven findings of Review 79 are in the package's files (M7) |
-| WP-0.9 | labels as strong as the content: series 1 delivered, two patches | received, not read; lands after WP-0.7's fourth series. Main's word on the five words of a grade is owed (register row P-815) |
-| WP-0.11, WP-0.12, WP-5.1 | as on your plan page | in your order |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: your cut, then patch 1 |
+| R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
+| WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
+| WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M9`
-- which of the eleven findings your series already close
-- the mend of the ceiling that falls and rises back, in the series where it fits
-- your note on the review's tools, after the series
+- relays/STATUS_CLD-ADVISOR.md, with `read: M54` and your cut of the thin path as a list of patches
+- patch 1 of the thin path
