@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M59
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T5 LANDED. T1b, T6 AND T7 SENT under docs/handoffs/, on your ed9660a9d in that order (T7: the intake runner, scripts/queue/intake.py, and its workflow, .github/workflows/intake.yml, with the six settings the author makes in queue/README.md). Each applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt. T7 CHANGES A RULE, yours to accept or refuse: exactly .github/workflows/intake.yml may be tracked (.gitignore and the gate tracked-forbidden kept .github/ out whole; section 9 puts the intake on Actions). The workflow has not run: its first run is on main
+on: T1 TO T5 LANDED. T1b, T6, T7 AND T8 SENT under docs/handoffs/, on your ed9660a9d in that order (T8: the peer note on the peer's own branch, checked by the runner, rerun in the sandbox with its own control, graded re-derived or reran; an OFFERED card moves to PEERED when its note holds). Each applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt. T7 changes a rule, yours to accept or refuse (one tracked workflow file); the workflow has not run
 needs: your word on T7's one tracked workflow file; the author's six settings before the first run
-next push: T8, the peer note's schema
+next push: T9, the banking verdict files
 
 # cld-advisor — status
 
