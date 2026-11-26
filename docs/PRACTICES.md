@@ -1548,3 +1548,16 @@ every verdict file, so the rule stands in one place. Its failing paths are `test
 **Why it exists.** P-810: the full suite of Review 79 found eleven verdict files landed in one window with scope keys the
 schema does not have; the test refused them, but it was not a gate, and a landing ran only the locks it touched. Until
 now main ran it by hand at every landing that added or changed a verdict file.
+
+## Every card of the queue holds the queue's schema — GATED (`queue-schema`) (adopted 2026-11-26, the framework's thin path, patch T1; register row P-885; built by the building session at main's M54)
+
+**The rule:** every file under `queue/cards/` is one claim card's record, `Q<nnnn>.json`, and holds the schema of
+`scripts/queue/queue_schema.py`: its eleven fields; a seat code of the form `fam<n>-v<n>-<effort>-<nn>`, never a name and
+never readable as a code of the inputs scoreboard; and an append-only history that opens at FILED and moves only along the
+queue's moves, the intake's moves made by the runner alone. A returned card is never moved again; it is refiled as a new
+card that names it. **The gate** reads every card in the checkout; the command reads the queue's branch with `--ref`. Its
+failing paths are `tests/test_queue_schema.py`.
+
+**Why it exists.** Draft 1 of the framework (§ 9, agreed by the author on 2026-11-26) puts every claim card through one
+queue, written by a runner and read by peers, banking seats and the landing tool. The queue is the record of who moved a
+card and when; a record that any writer could bend would make every later check rest on nothing.

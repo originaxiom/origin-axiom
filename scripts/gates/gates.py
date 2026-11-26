@@ -3577,6 +3577,32 @@ def gate_verdict_schema(_files=None):
     return True, "ok (every verdict file passes %s's checks)" % VERDICT_SCHEMA_TEST
 
 
+QUEUE_SCHEMA = "scripts/queue/queue_schema.py"
+
+
+def _queue_schema():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("queue_schema_for_the_gate", os.path.join(ROOT, QUEUE_SCHEMA))
+    m = importlib.util.module_from_spec(spec)
+    sys.dont_write_bytecode = True
+    spec.loader.exec_module(m)
+    return m
+
+
+def gate_queue_schema(_cards=None):
+    """the framework's thin path, T1 (P-885): every card file of the queue holds the queue's schema: its fields, its seat
+    code (never a name, never a scoreboard code), and a history of allowed moves, the intake's made by the runner alone"""
+    try:
+        qs = _queue_schema()
+        cards = qs.read_dir(os.path.join(ROOT, qs.CARDS)) if _cards is None else _cards
+        bad = qs.queue_problems(cards, _VENDOR_RE)
+    except Exception as exc:                              # FAIL-CLOSED: a schema that cannot be loaded checks nothing
+        return False, "the queue's schema cannot be loaded: %s" % exc
+    if bad:
+        return False, "%d problem(s) in the queue: " % len(bad) + "; ".join(bad[:5])
+    return True, "ok (%d card(s) in the queue hold its schema)" % len([n for n in cards if n != "(strays)"])
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -3633,6 +3659,7 @@ GATES = {
     "seat-positive-verified": gate_seat_positive_verified,
     "negative-second-computation": gate_negative_second_computation,
     "verdict-schema": gate_verdict_schema,
+    "queue-schema": gate_queue_schema,
     "selection-family": gate_selection_family,
     "public-face": gate_public_face,
 }

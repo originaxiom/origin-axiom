@@ -20260,3 +20260,13 @@ freedoms first and asks only the eight door rules, and the banking seat's, whose
 or the planted fault that tests them. The building seat reads them cold.
 
 0 of 19.
+
+## 2026-11-26 — The queue's schema, the first patch of the framework's thin path (S306p)
+
+**What happened.** The building seat sent the first patch of the thin path. Every claim card the intake sees will be one
+file in a queue, holding who found it, from which seat (by a neutral code, never a name), and every move it has made, in
+order. A new gate checks each such file: the fields, the code, and that a card moves only along the allowed steps, with
+the intake's steps made only by the runner. Nothing is in the queue yet; the runner that fills it comes in the next
+patches.
+
+0 of 19.

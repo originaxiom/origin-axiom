@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)
+
+- **`scripts/queue/queue_schema.py`:** a claim card's record in the queue, `queue/cards/Q<nnnn>.json`: id, seat code,
+  branch, commit, card path, title, status, deciding, heavy, refiles and an append-only history; the statuses and the moves
+  between them; the intake's moves made by the runner alone; the seat code's form, never a name or a scoreboard code. Runs
+  by hand on a directory or on a git ref.
+- **The gate `queue-schema`**, fail-closed, and `queue/README.md`.
+- **Decided in the patch:** PARKED is not a status (the frozen list is main's file); "no peer check" is a move from OFFERED
+  to AT_BANKING; a returned card is refiled as a new card.
+- **New test** `tests/test_queue_schema.py` (7 tests): each rule planted once; every code of the form checked clean of the
+  scoreboard's pattern; the command on a directory and on a ref.
 ## S306p THE WORKING RULES SORTED; THE PRODUCER'S AND THE BANKING SEAT'S CHARTERS DRAFTED (P-885) (2026-11-26)
 
 - **`docs/roles/THE_RULES_SORTED.md`:** WORKING_RULES.md sorted (draft 1 § 7): door rules D1 to D8, each with its check
