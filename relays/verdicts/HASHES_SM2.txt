@@ -1,0 +1,2 @@
+24d6068bfc4fdae5d433b14975c7641c654b932f92a245df49baad3b227563f8  relays/verdicts/V_P1.md
+faddab97250ae0f53b0da90cce16f80aed5d3377c33c76572c0faa42e031be50  relays/verdicts/V_P2.md

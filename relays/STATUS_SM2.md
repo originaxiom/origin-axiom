@@ -1,10 +1,18 @@
 seat: sm2
 read: M2
-state: working
-on: P1, P2
+state: waiting on main
+on: nothing (P1, P2 filed)
 needs: nothing
-next push: when V_P1 and V_P2 and their hashes are committed
+next push: when main writes M3 or sends a card
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
 - listener: python3 scripts/seats/listen.py --seat sm2, running in the background
+
+## Practice cards (M2)
+- P1: ACCEPT, `relays/verdicts/V_P1.md`, SHA-256 24d6068bfc4fdae5
+- P2: REFUSE, `relays/verdicts/V_P2.md`, SHA-256 faddab97250ae0f5
+- full hashes: `relays/verdicts/HASHES_SM2.txt`; expectation: `relays/expectations/E_P1_P2.md` (commit 77407f88)
+- not read: the other banking seat's branch, anything main wrote after ed9660a9d, B1993's files (I took P1's moves from
+  the card's control script; B1993's `signs_posthoc.py` was not opened)
+- disclosed in V_P2: main's commit subject c9057968, seen in a `git log` before my expectation, names P2's fault
