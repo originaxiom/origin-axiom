@@ -9,8 +9,8 @@ filed as a new card, FILED by the runner, with the next free id. Nothing is chec
   - a branch that cannot be reached is reported, and the others are read (never a stop);
   - a card whose seat code is not a seat code cannot be filed, because the queue holds codes only; it is reported to be
     told to its seat;
-  - a new version of a card already in the queue, or a card with the same decisive script's hash as one in the queue, is
-    a refile; it is filed, linked to the card it refiles, and the report says whether the card itself said so (a refile
+  - a new version of a card already in the queue, or a card with the same decisive script's hash and decisive lines'
+    hash as one in the queue, is a refile; it is filed, linked to the card it refiles, and the report says whether the card itself said so (a refile
     it did not declare is the form's to return, in the runner, T7).
 
 The form check (T2), custody (T4), the rerun (T5) and the record check (T6) come after, in the runner.
@@ -52,7 +52,7 @@ def git(root, *args):
 
 def branches(root=ROOT, main="origin/main"):
     """[(seat key, ref)]: main, then every seat of the Pins table"""
-    intake = _load("seat_intake_for_discovery", pathlib.Path(root) / "scripts" / "checks" / "seat_intake.py")
+    intake = _load("seat_intake_for_discovery", ROOT / "scripts" / "checks" / "seat_intake.py")   # the code's own copy
     intake.ROOT = pathlib.Path(root)
     return [("main", main)] + [(key, resolve(root, ref)) for key, ref, _pin in intake.pins()]
 
@@ -89,8 +89,11 @@ def cards_on(root, ref):
 
 
 def script_hash(fields):
+    """the key a refile is linked by: the decisive script's hash and the decisive lines' hash together. CHANGED 2026-11-26
+    (T1b, main's M57): it was the script's hash alone, and one script can decide several claims (B2011's prints five)"""
     m = SCRIPT_HASH.search(fields.get("decisive script", ""))
-    return m.group(1) if m else None
+    d = CF.DECISIVE.fullmatch(fields.get("decisive lines", ""))
+    return (m.group(1), d.group(2)) if m and d else None
 
 
 def discover(queue, refs, root=ROOT, at=None, seen_blobs=None):
@@ -140,7 +143,7 @@ def discover(queue, refs, root=ROOT, at=None, seen_blobs=None):
             else:
                 note = "found on its branch" + ("; refiles %s" % ", ".join(earlier) if earlier else "")
             rec = {"id": cid, "seat_code": code, "branch": branch, "commit": commit, "card_path": path,
-                   "title": title[:240], "status": "FILED", "deciding": None, "heavy": False,
+                   "title": title[:240], "status": "FILED", "deciding": None, "heavy": CF.declared_heavy(fields),
                    "refiles": sorted(set(earlier + ([declared] if declared and declared in queue else []))),
                    "history": [{"at": at, "status": "FILED", "by": "runner", "note": note}]}
             new[cid] = rec

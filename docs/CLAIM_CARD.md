@@ -16,13 +16,15 @@ Copy the block below. Keep each field to one or two lines. A field that does not
 - kind: theorem | computation | prediction | identification | negative
 - touches: <codes from docs/TOTAL_INPUTS_SCOREBOARD.md (A01 to A12, F1 to F4, S01 to S03, LAMBDA), identification rows
   (I-n), register rows (P-n), or one of the 19 parameters by name>
-- effect: removes | conditions | adds | supports | refutes — <on which code>
+- effect: removes | conditions | adds | supports | refutes — <on which code>; none when it touches none
+- scope: frame: <the frame>; object: <the object>; reach: single | class | general; hypotheses: <each, or none>
+- identifications: <each "X here is Y there" the claim makes, or the I-n rows; or none>
 - imports: <every structure or assumption from outside the record it rests on, each named: for example "the MSSM's
   two-loop running", "M-theory flux quantisation", "three right-handed neutrinos">
 - premises on main: <arcs and register rows it uses>
 - decisive script: <path>, SHA-256 <first 16 hex>, depends on <only the standard library, mpmath, sympy, numpy, scipy,
   python-flint, sage, GAP>,
-  run as <command>, output SHA-256 <first 16 hex>
+  run as <command>, output SHA-256 <first 16 hex>[, heavy]
 - decisive lines: <n> lines marked "DECISIVE:", SHA-256 <first 16 hex of those lines, as the rerun normalises them>
 - failing control: <a command, not the decisive one, that must exit with a failure if the result is wrong>
 - second computation: <which seat, with code that shares nothing, its path, and whether it agrees>
@@ -33,7 +35,9 @@ Copy the block below. Keep each field to one or two lines. A field that does not
 **The four fields added on 2026-11-26** (the framework's draft 1, § 9, agreed by the author; register row P-885; the thin
 path's patch T2): the card's id, the seat's code, the decisive lines and the failing control. The intake runner checks the
 form with `scripts/queue/card_form.py` before anything else. Only `imports`, `premises on main` and `second computation`
-may say "none". The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
+may say "none". **[CHANGED 2026-11-26 (T1b, main's M56 and M58):** `scope` and `identifications` added (door rule D1);
+`touches` and `identifications` may say "none", and `effect` too when `touches` does; a card may declare its decisive
+script heavy, which only adds work.**]** The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
 the rerun's).
 
 ## How main takes a card

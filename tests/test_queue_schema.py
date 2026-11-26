@@ -151,3 +151,38 @@ def test_the_command_runs_by_hand_on_a_directory_and_on_a_ref(tmp_path):
 def test_the_gate_passes_on_the_record():
     ok, detail = GATES.gate_queue_schema()
     assert ok, detail
+
+
+def _moved(*moves, seat="fam2-v5.5-high-01", deciding=True):
+    """a card filed and reproduced by the runner, then the moves given as (status, by)"""
+    card = copy.deepcopy(TWIN)
+    card["seat_code"], card["deciding"] = seat, deciding
+    card["history"] = card["history"][:2]
+    for i, (status, by) in enumerate(moves):
+        card["history"].append({"at": "2026-11-27T%02d:00:00Z" % i, "status": status, "by": by, "note": ""})
+    card["status"] = card["history"][-1]["status"]
+    return QS.card_problems(card, "Q0007")
+
+
+def test_who_may_move_a_card_t1b():
+    """main's M56: a peer's note sends nothing back; WITHDRAWN is the card's own seat's alone; the banking outcomes are the
+    runner's; a split is main's on a seat's card and the auditor's or the author's on main's own; after FILED the card's
+    own seat makes no other move; deciding is set past FILED, and true for banking"""
+    own, main = "fam2-v5.5-high-01", QS.MAIN_CODE
+    assert _moved(("OFFERED", "main"), ("PEERED", "fam3-v1-max-01"), ("AT_BANKING", "runner"), ("VERIFIED", "runner")) == []
+    assert any("PEERED to RETURNED is not a move" in b for b in
+               _moved(("OFFERED", "main"), ("PEERED", "fam3-v1-max-01"), ("RETURNED", "runner")))
+    assert _moved(("OFFERED", "main"), ("WITHDRAWN", own)) == []
+    assert any("WITHDRAWN is made by the card's own seat alone" in b for b in _moved(("WITHDRAWN", "main")))
+    assert any("WITHDRAWN to OFFERED is not a move" in b for b in _moved(("WITHDRAWN", own), ("OFFERED", "main")))
+    assert any("the card's own seat makes no move but WITHDRAWN" in b for b in _moved(("OFFERED", own)))
+    assert any("the banking outcome VERIFIED is the runner's" in b for b in _moved(("AT_BANKING", "runner"), ("VERIFIED", "main")))
+    assert _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main")) == []
+    assert any("settled by main, not 'author'" in b for b in
+               _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "author")))
+    assert _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("REFUSED", "auditor"), seat=main) == []
+    assert any("a split on main's own card is settled by auditor or author" in b for b in
+               _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main"), seat=main))
+    assert any("deciding is null past FILED" in b for b in _moved(("OFFERED", "main"), deciding=None))
+    assert any("went to banking without deciding" in b for b in _moved(("AT_BANKING", "runner"), deciding=False))
+    assert _moved(("OFFERED", "main"), deciding=False) == []

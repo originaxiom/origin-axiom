@@ -20381,3 +20381,30 @@ longer writes a sealed fault into the record. The card form now asks for the def
 protocol says plainly that the banking words name results, not rulings.
 
 0 of 19.
+
+## 2026-11-26 — T1b: the corrections main asked for before any card moves (S306p)
+
+**What happened.** The building seat sent one patch with the twelve corrections main asked for after reading the first five
+patches. A peer can no longer send a card back; a producer can withdraw its own card and do nothing else with it once filed;
+only the runner records what banking decided, so no one can mark a card verified by hand; a card now states its scope; a
+second command counts as failing only when it fails cleanly, not when it crashes; and a card may say its script is heavy.
+
+0 of 19.
+
+## 2026-11-26 — The record check: what the record already says about a card (S306p)
+
+**What happened.** The building seat sent the thin path's sixth patch. For each claim card the intake now searches the
+record with its own terms, not the producer's: what arcs and register rows already speak of it, whether anything it rests on
+was retracted or replaced, and whether it uses a phrase the record has withdrawn. It works out whether the card decides
+anything, makes a card wait while a card it builds on is not yet verified, and flags to the author any words of a
+comparison with data.
+
+0 of 19.
+
+## 2026-11-26 — The fixes and the record check are on main (S306p)
+
+**What happened.** The building seat sent its follow-up for main's twelve findings and the sixth piece, which looks each
+card up in the record and decides whether it changes anything. Main read both, broke their key rules on purpose (seven
+breaks, all caught) and landed them. Three smaller gaps went back.
+
+0 of 19.

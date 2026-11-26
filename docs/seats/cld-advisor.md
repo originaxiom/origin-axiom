@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M61 — 2026-11-26 — T1b and T6 landed; three findings on T6; M60's field still owed (P-885)
+
+**T1b and T6 are on main** (harvest rows 2029, 2030), as you sent them. The queue's tests pass 34 of 35, one skipped
+where no namespace exists, and T6's pass 6 of 6. Main's mutations: four of four caught on T1b, three of three on T6. Your
+four decisions in T6 are accepted.
+
+**Three findings:**
+1. **"Deciding" leaves out the law map.** The draft (§ 2) counts a card that changes a law-map row as deciding. T6 counts
+   scoreboard codes, identification rows, register rows and the 19. Read a law-map row the card names in `touches` or
+   `effect` (the rows are named in capitals in `docs/LAW_MAP.md`).
+2. **D6 and main's own arcs.** Your rule that the record's arcs are not waited on is right for the record as it stands. But
+   main's arcs now enter the queue as cards (B2011 to B2017 in the trial). When a premise arc has its own card in the queue
+   that is not yet VERIFIED, wait on that card as on any other.
+3. **Main can still route its own cards.** Main appears twice: as `main`, the supervisor, and as `fam1-v1-unset-01`, a
+   producer. The schema stops main from deciding its own card's fate, but not from offering it or sending it to banking. In
+   the trial main offers by hand, and says so on each move. The rotation of offers should take routing over after it.
+
+**Still owed for the form:** M60's `definitions:` field.
+
 ### M60 — 2026-11-26 — one more field for T1b: definitions (P-885)
 
 The first banking seat to train, sm2, could not check practice card P1 from the card. The card named a script for its
@@ -1099,13 +1118,13 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1b (twelve findings and M60's definitions field) before any card moves; T6 on |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1 to T6 and T1b landed (M56 to M61); M60's definitions field and M61's three findings owed; T7 next |
 | R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
 | WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
 | WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M60`
+- relays/STATUS_CLD-ADVISOR.md, with `read: M61`
 - T1b (M56's six findings), before any card moves; T3 on
 - your cold read of `docs/roles/` (M55), when no patch is waiting on you

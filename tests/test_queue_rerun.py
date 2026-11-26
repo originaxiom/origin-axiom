@@ -8,6 +8,8 @@ values printed two ways normalise alike; a module beside the script is read too;
 trusted; the pins file names every allowed package; the command runs by hand."""
 import importlib.util
 import json
+
+import pytest
 import pathlib
 import subprocess
 import sys
@@ -146,11 +148,37 @@ def test_the_command_runs_by_hand(tmp_path):
 def test_a_script_that_reaches_for_the_network_by_a_child_process_finds_it_cut(tmp_path):
     """the static guard does not see `subprocess`; the namespace does: the child's connection fails inside the run"""
     prefix, name = RR.sandbox_prefix()
-    if not prefix:
-        return                                            # no namespace here: the result says "static guard only"
+    if not prefix:                                        # main's M59: say so, not pass in silence
+        pytest.skip("no network namespace on this machine (%s): only the static guard runs here" % name)
     src = ("import subprocess, sys\nr = subprocess.run([sys.executable, '-c', %r])\nprint('DECISIVE: probe =', r.returncode)\n"
            % RR.PROBE)
     c = _commit(tmp_path, {"x.py": src + "if '--plant' in sys.argv:\n    raise SystemExit(1)\n"})
     n, h = RR.decisive("DECISIVE: probe = 7\n")
     res = RR.rerun(tmp_path, c, _card(n=n, h=h), limit=60)
     assert res["status"] == "REPRODUCED", res
+
+
+def test_a_control_fails_only_by_exiting_1_with_no_traceback_t1b(tmp_path):
+    """main's M58 and M59: a control that crashes also exits 1, and was counted as failing; a control that exits 2 is
+    invalid too. Both return the card; a control that exits 1 cleanly still passes"""
+    crash = GOOD.replace('    raise SystemExit(1)', '    raise RuntimeError("planted before anything is tested")')
+    c = _commit(tmp_path / "crash", {"x.py": crash})
+    res = RR.rerun(tmp_path / "crash", c, _card(), limit=60)
+    assert res["status"] == "RETURNED_AT_INTAKE" and any("with a traceback" in r for r in res["reasons"]), res
+    two = GOOD.replace('    raise SystemExit(1)', '    raise SystemExit(2)')
+    c = _commit(tmp_path / "two", {"x.py": two})
+    res = RR.rerun(tmp_path / "two", c, _card(), limit=60)
+    assert res["status"] == "RETURNED_AT_INTAKE" and any("it exited 2" in r for r in res["reasons"]), res
+    c = _commit(tmp_path / "ok", {"x.py": GOOD})
+    assert RR.rerun(tmp_path / "ok", c, _card(), limit=60)["status"] == "REPRODUCED"
+
+
+def test_a_card_declared_heavy_is_heavy_after_its_checks_t1b(tmp_path):
+    """main's M58: a card may declare its script heavy (one that runs sage as a child process is not seen in its
+    imports); the declaration only adds work: a script that fails a check before the run is still returned"""
+    heavy = _card().replace("output SHA-256 0011223344556677", "output SHA-256 0011223344556677, heavy")
+    c = _commit(tmp_path / "h", {"x.py": GOOD})
+    res = RR.rerun(tmp_path / "h", c, heavy, limit=60)
+    assert res["status"] == "HEAVY" and "declares" in res["reasons"][0]
+    c = _commit(tmp_path / "bad", {"x.py": "import pandas\n" + GOOD})
+    assert RR.rerun(tmp_path / "bad", c, heavy, limit=60)["status"] == "RETURNED_AT_INTAKE"

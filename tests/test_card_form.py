@@ -23,6 +23,8 @@ TWIN = """# CLAIM CARD — a count of the classes at level 5, reproduced
 - kind: computation
 - touches: P-885
 - effect: supports — P-885
+- scope: frame: F-HE; object: m004; reach: single; hypotheses: none
+- identifications: none
 - imports: none
 - premises on main: B2011
 - decisive script: frontier/B2011_x/verification/count.py, SHA-256 0123456789abcdef, depends on the standard library
@@ -54,7 +56,15 @@ def test_a_card_whose_form_holds_passes_and_each_rule_planted_fails():
         ("- kind: computation", "- kind: a guess", "kind is not"),
         ("- effect: supports — P-885", "- effect: supports P-885", "effect does not"),
         ("- premises on main: B2011", "- premises on main:", "is empty"),
-        ("- touches: P-885", "- touches: none", "may not be none"),
+        ("- kind: computation", "- kind: none", "may not be none"),
+        ("- touches: P-885", "- touches: none", "so its effect is not none"),
+        ("- effect: supports — P-885", "- effect: none", "'effect' may not be none"),
+        ("- scope: frame: F-HE; object: m004; reach: single; hypotheses: none\n", "", "'scope' is missing"),
+        ("- scope: frame: F-HE; object: m004; reach: single; hypotheses: none", "- scope: none", "may not be none"),
+        ("object: m004; reach", "reach", "scope is not"),
+        ("reach: single", "reach: every", "reach 'every' is not one of"),
+        ("frame: F-HE;", "frame: ;", "scope is not"),
+        ("- identifications: none\n", "", "'identifications' is missing"),
         ("the standard library\n  and python-flint", "the standard library\n  and pandas", "not allowed: pandas"),
         ("output SHA-256 fedcba9876543210", "output fedcba9876543210", "decisive script is not"),
         ("3 lines marked", "0 lines marked", "decisive lines is not"),
@@ -68,6 +78,15 @@ def test_a_card_whose_form_holds_passes_and_each_rule_planted_fails():
     for old, new, words in plants:
         bad = _plant(old, new)
         assert bad and any(words in b for b in bad), (words, bad)
+
+
+def test_a_card_that_touches_nothing_and_a_card_declared_heavy():
+    none = TWIN.replace("- touches: P-885", "- touches: none").replace("- effect: supports — P-885", "- effect: none")
+    assert CF.form_problems(none) == []
+    heavy = TWIN.replace("output SHA-256 fedcba9876543210", "output SHA-256 fedcba9876543210, heavy")
+    assert CF.form_problems(heavy) == [] and CF.declared_heavy(CF.read(heavy)[1])
+    assert not CF.declared_heavy(CF.read(TWIN)[1])
+    assert CF.form_problems(TWIN.replace("fedcba9876543210", "fedcba9876543210, light")), "only ', heavy' may follow"
 
 
 def test_a_field_runs_over_lines_and_a_refile_names_its_card():

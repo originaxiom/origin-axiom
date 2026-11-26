@@ -1,5 +1,43 @@
 # Changelog
 
+## S306p T1b AND T6 OF THE THIN PATH LANDED (P-885; M61) (2026-11-26)
+
+- **T1b (main's twelve findings on T1 to T5) and T6 (the record check, "deciding", D6's premise wait, A3's firewall flag)
+  landed as sent** (harvest rows 2029, 2030; the advisor's pin at `de8ad00d9`): their code applied, their log entries
+  carried by hand; the queue's tests 34 of 35 with one skipped where no network namespace exists, and 6 of 6 for T6; main's
+  mutations caught 4 of 4 on T1b (the banking outcome's mover, the card's own seat, a control with a traceback, the scope's
+  reach) and 3 of 3 on T6 (deciding when the effect is none, a VERIFIED premise, a RETRACTED premise).
+- **Three findings sent (M61):** "deciding" leaves out a law-map row, which the draft counts; D6 should wait on an arc of
+  main whose own card is in the queue and not yet VERIFIED; main can still route its own cards (offer and send them to
+  banking), which the rotation of offers should take over. M60's definitions field is still to come.
+
+## S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)
+
+- **`scripts/queue/record_check.py`:** for one card, on the record in the checkout: the sweep's terms the runner's own (the
+  codes, rows, identifications and arcs the card names, and the title's long words; the card's own sweep line kept as the
+  producer's claim); the topic sweep and the already-banked check on them; every premise arc that is RETRACTED or
+  superseded, and every retracted phrase the card uses; "deciding", computed from what the card touches and its effect;
+  door rule D6, the queue's premise cards that are not VERIFIED, waited on; the author's rule A3, words of a comparison
+  with data or a sealed look, a flag to the author, never a return. Prints the attachment; the runner (T7) decides the move.
+- **New test** `tests/test_queue_record_check.py` (6 tests); each rule's removal makes one fail.
+
+## S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)
+
+- **The queue's moves (M56):** a peer's note no longer sends a card back (PEERED to RETURNED is gone); WITHDRAWN, from any
+  status that is not final, by the card's own seat alone; after FILED the card's own seat makes no other move; the banking
+  outcomes are the runner's; a split is settled by main on a seat's card and by the auditor or the author on main's own
+  (main's code `fam1-v1-unset-01`); `deciding` is set past FILED, and true for any card that went to banking.
+- **The claim card (M56, M58):** `scope` (frame; object; reach, one of single, class or general; hypotheses), which may not
+  be none, and `identifications`, which may; `touches` may be none, and then `effect` is none; a decisive script may be
+  declared heavy, which only adds work.
+- **Discovery (M57):** a refile is linked by the decisive script's hash and the decisive lines' hash together; main's own
+  cards are tested to be found; a card declared heavy is filed heavy; the Pins table is read with the code's own copy of
+  seat_intake.py.
+- **The rerun (M58, M59):** a failing control fails only by exiting 1 with no traceback; any other exit, or a traceback,
+  is an invalid control and returns the card; a declared-heavy card is heavy after every check before the run; the
+  child-process network test is skipped, with its reason, where no namespace exists.
+- **Tests:** 35 of 35 over the queue's five files; each new rule's removal makes one fail.
+
 ## S306p BANKING SEAT V2 STARTED AND TRAINED ON TWO PRACTICE CARDS; A THIRD, P3; README § 12 RECONCILED (P-885) (2026-11-26)
 
 - **sm2, banking seat V2, started by the author** as a fresh seat: its branch `sm2/banking` pinned (harvest row 2028); its

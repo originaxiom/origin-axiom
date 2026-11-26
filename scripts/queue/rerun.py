@@ -3,11 +3,12 @@
 
 The intake reruns a card's decisive script at its sealed commit and requires its failing control to fail. It decides:
   REPRODUCED          the script ran, printed as many lines marked "DECISIVE:" as the card says, their normalised hash is
-                      the card's, and the failing control exited with a failure;
+                      the card's, and the failing control failed: it exited exactly 1 with no traceback (T1b);
   RETURNED_AT_INTAKE  any of these did not hold, or the script imports what is not allowed, or its command is not a plain
                       run of a script of the commit; the reasons are given;
-  HEAVY               the script needs sage (or GAP), or ran past the time limit: it is rerun by the same code on the
-                      author's machine, when the author chooses (§ 9). Heavy is not a failure.
+  HEAVY               the script needs sage (or GAP), the card declares it heavy (T1b), or it ran past the time limit: it
+                      is rerun by the same code on the author's machine, when the author chooses (§ 9). Heavy is not a
+                      failure, and a declaration only adds work: every check before the run still runs.
 
 THE SANDBOX.
   - The commit is checked out on its own, in a temporary directory; nothing of the runner's checkout is reachable from it.
@@ -48,6 +49,7 @@ import time
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 TIME_LIMIT = 1800
+TRACEBACK = "Traceback (most recent call last)"
 
 
 def _load(name, path):
@@ -220,6 +222,9 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None):
         if res["reasons"]:
             res["status"] = "RETURNED_AT_INTAKE"
             return res
+        if CF.declared_heavy(f):                         # main's M58: declared heavy, after every check above has run
+            res.update(status="HEAVY", reasons=["the card declares its decisive script heavy"])
+            return res
         if prefix is None:
             prefix, res["guard"] = sandbox_prefix()
         else:
@@ -237,13 +242,19 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None):
         if (n, h) != (int(d.group(1)), d.group(2)):
             res["reasons"].append("the decisive lines are %d with hash %s; the card says %s with %s"
                                   % (n, h, d.group(1), d.group(2)))
-        crc, _, _, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)))
+        crc, _, cerr, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)))
         res["control_exit"] = crc
         if crc is None:
             res.update(status="HEAVY", reasons=res["reasons"] + ["the failing control ran past the time limit"])
             return res
+        # CHANGED 2026-11-26 (T1b, main's M58 and M59): a control fails only when it exits exactly 1 with no traceback on
+        # its stderr. A crash also exits 1 in Python, and was counted as a failing control; any other exit, or a
+        # traceback, is an invalid control, and the card is returned.
         if crc == 0:
             res["reasons"].append("the failing control exited 0: it did not fail")
+        elif crc != 1 or TRACEBACK in cerr:
+            res["reasons"].append("the failing control is invalid: it exited %d%s; a control fails by exiting 1 with no "
+                                  "traceback" % (crc, " with a traceback" if TRACEBACK in cerr else ""))
         res["status"] = "RETURNED_AT_INTAKE" if res["reasons"] else "REPRODUCED"
         return res
     finally:

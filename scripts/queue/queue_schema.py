@@ -45,24 +45,29 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 CARDS = "queue/cards"
 
 STATUSES = ("FILED", "RETURNED_AT_INTAKE", "REPRODUCED", "OFFERED", "PEERED", "AT_BANKING",
-            "SPLIT", "VERIFIED", "RETURNED", "REFUSED")
+            "SPLIT", "VERIFIED", "RETURNED", "REFUSED", "WITHDRAWN")
+# CHANGED 2026-11-26 (T1b, main's M56): a peer's note no longer sends a card back (PEERED -> RETURNED is gone: the peer
+# stage is timed, not a gate); WITHDRAWN is a move from any status that is not final, made by the card's own seat alone.
 MOVES = {
-    "FILED": ("REPRODUCED", "RETURNED_AT_INTAKE"),
-    "REPRODUCED": ("OFFERED", "AT_BANKING"),          # a card that decides nothing stays REPRODUCED
-    "OFFERED": ("OFFERED", "PEERED", "AT_BANKING"),   # a re-offer; a peer note; no peer within the time
-    "PEERED": ("AT_BANKING", "RETURNED"),             # a fault found by the peer goes back to the producer
-    "AT_BANKING": ("VERIFIED", "RETURNED", "REFUSED", "SPLIT"),
-    "SPLIT": ("VERIFIED", "RETURNED", "REFUSED"),
-    "RETURNED_AT_INTAKE": (), "VERIFIED": (), "RETURNED": (), "REFUSED": (),
+    "FILED": ("REPRODUCED", "RETURNED_AT_INTAKE", "WITHDRAWN"),
+    "REPRODUCED": ("OFFERED", "AT_BANKING", "WITHDRAWN"),    # a card that decides nothing goes to the peers only
+    "OFFERED": ("OFFERED", "PEERED", "AT_BANKING", "WITHDRAWN"),   # a re-offer; a peer note; no peer within the time
+    "PEERED": ("AT_BANKING", "WITHDRAWN"),                # the peer's note is recorded and the card goes on
+    "AT_BANKING": ("VERIFIED", "RETURNED", "REFUSED", "SPLIT", "WITHDRAWN"),
+    "SPLIT": ("VERIFIED", "RETURNED", "REFUSED", "WITHDRAWN"),
+    "RETURNED_AT_INTAKE": (), "VERIFIED": (), "RETURNED": (), "REFUSED": (), "WITHDRAWN": (),
 }
 RUNNER_ONLY = ("FILED", "REPRODUCED", "RETURNED_AT_INTAKE")
+BANKING = ("AT_BANKING", "SPLIT", "VERIFIED", "RETURNED", "REFUSED")
+UNDECIDED_ALLOWED = ("FILED", "RETURNED_AT_INTAKE", "WITHDRAWN")
+MAIN_CODE = "fam1-v1-unset-01"        # main's seat code until the author's identity table exists (main's M57)
 FIELDS = ("id", "seat_code", "branch", "commit", "card_path", "title", "status", "deciding", "heavy", "refiles",
           "history")
 ENTRY_FIELDS = ("at", "status", "by", "note")
 
 ID = re.compile(r"Q\d{4,}")
 SEAT_CODE = re.compile(r"fam\d{1,2}-v\d{1,2}(?:\.\d{1,2})?-(?:low|medium|high|xhigh|max|unset)-\d{2,3}")
-BY_OTHER = ("runner", "main", "author")
+BY_OTHER = ("runner", "main", "author", "auditor")
 AT = re.compile(r"\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ")
 COMMIT = re.compile(r"[0-9a-f]{40}")
 BRANCH = re.compile(r"[A-Za-z0-9._/-]+")
@@ -117,7 +122,12 @@ def card_problems(card, name=None, vendor_re=None):
         bad.append("refiles is not a list of card ids")
     elif card["id"] in refiles:
         bad.append("the card refiles itself")
-    bad += history_problems(card["history"], card["status"])
+    bad += history_problems(card["history"], card["status"], card["seat_code"])
+    seen = [e.get("status") for e in card["history"] if isinstance(e, dict)] if isinstance(card["history"], list) else []
+    if card["deciding"] is None and any(s not in UNDECIDED_ALLOWED for s in seen):
+        bad.append("deciding is null past FILED: the intake computes it")
+    if card["deciding"] is not True and any(s in BANKING for s in seen):
+        bad.append("the card went to banking without deciding anything")
     if vendor_re is not None:
         text = json.dumps(card, ensure_ascii=False)
         if vendor_re.search(text):
@@ -125,9 +135,11 @@ def card_problems(card, name=None, vendor_re=None):
     return bad
 
 
-def history_problems(history, status):
+def history_problems(history, status, seat_code=None):
     """the history: oldest first, opened by the runner at FILED, each move allowed, its time not going back, and its
-    last status the card's"""
+    last status the card's. Who may make a move (T1b, main's M56): the intake's moves and the banking outcomes are the
+    runner's; a split is settled by main on a seat's card and by the auditor or the author on main's own; after FILED the
+    card's own seat makes no move but WITHDRAWN, and WITHDRAWN is its alone"""
     if not isinstance(history, list) or not history:
         return ["history is not a list of one or more moves"]
     bad = []
@@ -155,6 +167,20 @@ def history_problems(history, status):
             bad.append("history entry %d: %s to %s is not a move of the queue" % (i, a["status"], b["status"]))
         if b["at"] < a["at"]:
             bad.append("history entry %d goes back in time (%s after %s)" % (i, b["at"], a["at"]))
+        if b["status"] == "WITHDRAWN":
+            if b["by"] != seat_code:
+                bad.append("history entry %d: WITHDRAWN is made by the card's own seat alone, not %r" % (i, b["by"]))
+            continue
+        if seat_code is not None and b["by"] == seat_code:
+            bad.append("history entry %d: after FILED the card's own seat makes no move but WITHDRAWN" % i)
+        if a["status"] == "AT_BANKING" and b["by"] != "runner":
+            bad.append("history entry %d: the banking outcome %s is the runner's, from the sealed verdicts, made by %r"
+                       % (i, b["status"], b["by"]))
+        if a["status"] == "SPLIT":
+            may = ("auditor", "author") if seat_code == MAIN_CODE else ("main",)
+            if b["by"] not in may:
+                bad.append("history entry %d: a split on %s card is settled by %s, not %r"
+                           % (i, "main's own" if seat_code == MAIN_CODE else "a seat's", " or ".join(may), b["by"]))
     if history[-1]["status"] != status:
         bad.append("status %s is not the history's last (%s)" % (status, history[-1]["status"]))
     return bad

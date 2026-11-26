@@ -23,10 +23,14 @@ sys.dont_write_bytecode = True
 _spec.loader.exec_module(QS)
 
 TITLE = re.compile(r"# CLAIM CARD — (\S.*)")
-FIELDS = ("card id", "seat code", "seat, branch, commit", "kind", "touches", "effect", "imports", "premises on main",
-          "decisive script", "decisive lines", "failing control", "second computation", "already on main?",
-          "what would make it fail")
-MAY_BE_NONE = ("imports", "premises on main", "second computation")
+# CHANGED 2026-11-26 (T1b, main's M56): `scope` and `identifications` added, so door rule D1 is checked; `touches` may be
+# none (such a card decides nothing and goes to the peers only), and then `effect` may be none too.
+FIELDS = ("card id", "seat code", "seat, branch, commit", "kind", "touches", "effect", "scope", "identifications",
+          "imports", "premises on main", "decisive script", "decisive lines", "failing control", "second computation",
+          "already on main?", "what would make it fail")
+MAY_BE_NONE = ("touches", "identifications", "imports", "premises on main", "second computation")
+SCOPE_PARTS = ("frame", "object", "reach", "hypotheses")
+REACH = ("single", "class", "general")
 KINDS = ("theorem", "computation", "prediction", "identification", "negative")
 EFFECTS = ("removes", "conditions", "adds", "supports", "refutes")
 # the packages a decisive script may depend on: the card's list, and python-flint, sage and GAP (main's change, § 9);
@@ -36,8 +40,24 @@ FIELD_LINE = re.compile(r"- ([a-z ,?]+):(.*)$")
 CARD_ID = re.compile(r"new|refiles (Q\d{4,})")
 HEX16 = re.compile(r"SHA-256 ([0-9a-f]{16})\b")
 DECISIVE = re.compile(r"(\d+) lines? marked \"DECISIVE:\", SHA-256 ([0-9a-f]{16})")
+# a card may declare its script heavy (main's M58): ", heavy" after the output's hash. It only adds work: the checks stand
 SCRIPT = re.compile(r"(\S+\.(?:py|sage|g|gap)), SHA-256 [0-9a-f]{16}, depends on (.+?), run as (.+?), output SHA-256 "
-                    r"[0-9a-f]{16}\s*$")
+                    r"[0-9a-f]{16}(, heavy)?\s*$")
+
+
+def declared_heavy(fields):
+    m = SCRIPT.match(fields.get("decisive script", ""))
+    return bool(m and m.group(4))
+
+
+def scope_problems(scope):
+    """the scope: 'frame: ...; object: ...; reach: single | class | general; hypotheses: ...', each part filled"""
+    parts = [p.strip() for p in scope.split(";")]
+    keys = [p.split(":", 1)[0].strip() for p in parts]
+    if tuple(keys) != SCOPE_PARTS or any(":" not in p or not p.split(":", 1)[1].strip() for p in parts):
+        return ["scope is not 'frame: <...>; object: <...>; reach: <single, class or general>; hypotheses: <...>'"]
+    reach = parts[2].split(":", 1)[1].strip()
+    return [] if reach in REACH else ["scope's reach %r is not one of %s" % (reach, ", ".join(REACH))]
 
 
 def read(text):
@@ -75,7 +95,8 @@ def form_problems(text):
             bad.append("the field '%s' is missing" % name)
         elif not f[name]:
             bad.append("the field '%s' is empty" % name)
-        elif f[name].lower() == "none" and name not in MAY_BE_NONE:
+        elif f[name].lower() == "none" and name not in MAY_BE_NONE and not (name == "effect"
+                                                                            and f.get("touches", "").lower() == "none"):
             bad.append("the field '%s' may not be none" % name)
     if bad:
         return bad
@@ -89,8 +110,13 @@ def form_problems(text):
         bad.append("the seat in 'seat, branch, commit' is not the card's seat code")
     if f["kind"] not in KINDS:
         bad.append("kind is not one of %s" % ", ".join(KINDS))
-    if f["effect"].split(" ")[0] not in EFFECTS or " — " not in f["effect"]:
+    if f["effect"].lower() == "none":
+        pass                                             # allowed only when touches is none (the check above)
+    elif f["touches"].lower() == "none":
+        bad.append("the card touches none, so its effect is not none: an effect names a code it touches")
+    elif f["effect"].split(" ")[0] not in EFFECTS or " — " not in f["effect"]:
         bad.append("effect does not open with one of %s and name its code after ' — '" % ", ".join(EFFECTS))
+    bad += scope_problems(f["scope"])
     m = SCRIPT.match(f["decisive script"])
     if not m:
         bad.append("decisive script is not '<path>, SHA-256 <16 hex>, depends on <...>, run as <command>, output "
