@@ -1,9 +1,8 @@
-# The framework, draft 0 — free production, a mechanical intake, two banking seats, main as supervisor (P-885)
+# The framework, draft 1 — free production, a mechanical intake, a peer stage, two banking seats, main as supervisor (P-885)
 
-Main, 2026-11-26, at the author's word: seats must stay free to produce; main must not be the bottleneck; a gated framework must
-work without main; two verifying seats between the producers and the record; main supervises them and unifies the picture;
-discipline is crucial. This is a draft for the brainstorm with the advisor seat. Nothing here is adopted until the author
-agrees it.
+Main, 2026-11-26. **The author agreed this design on 2026-11-26** (draft 0 is in git's history at `13e2f681f`). Draft 0's six
+open questions are now decided, five by the author's agreement and one left to the advisor's proposal (§ 5). A peer stage
+was added at the author's question. The build order is fixed, and the listening line waits for it (§ 6).
 
 ## Why (main's reading of the last month, 2026-11-26)
 
@@ -14,10 +13,22 @@ agrees it.
 - **The direction changed often, and no decisive target was set.**
 - **The author's correction of the first cure:** main issuing the cards would make main the bottleneck and the censor.
 
-## The roles
+## 1. The path of a result
+
+```
+producer (any seat, free)  ->  intake (mechanical)  ->  peer stage (default, timed)  ->  banking (two seats, blind)  ->  record
+                                   |                         |                               |
+                                   v                         v                               v
+                        fail: back to the seat     fault: back to the producer     RETURN / REFUSE / split
+                                   |
+                                   v
+                        pass: REPRODUCED (no seat needed)
+```
+
+## 2. The roles
 
 1. **Producers: any seat, main included.**
-   - Each works on anything, on its own branch; no card from main is needed.
+   - Each works on anything, on its own branch; no card from main is needed. Production is never throttled.
    - To bear on the record, a result is filed as a claim card (docs/CLAIM_CARD.md, unchanged in form).
 2. **The intake: mechanical, running without any seat.** An intake runner reads every seat branch for new claim cards and
    checks each one:
@@ -25,62 +36,131 @@ agrees it.
    - **reproduction:** the decisive script reruns in a sandbox to its sealed output hash;
    - **the firewall:** no comparison with data, and Standard-Model-shaped pass/fail cells flagged;
    - **the form:** every field filled; imports named; "what would make it fail" present;
-   - **the sweep:** the topic sweep's line is present.
+   - **the record check:** the topic sweep, the retraction sweep and the already-banked check are run by the runner, and
+     their output is attached to the card.
 
-   A card that passes is parked in the queue with an id and a status. A card that fails goes back to its seat, with the
-   gate's reason written to the seat's page. No seat does this step.
-3. **Two banking seats (V1, V2): two sessions of main's own model family, separate from main and from the producers.**
-   - Each takes parked items in the queue's order and recomputes what decides with its own code, not the producer's.
-   - Each files a verdict before seeing the other's: ACCEPT; RETURN (with the corrections named); or REFUSE (with the
-     counter-computation).
-   - **Two ACCEPTs bank.** The banking seat writes the arc, the lock and the ledger rows through the landing tool, crediting
-     the producer.
-   - **A RETURN** goes back to the producer, who may refile.
-   - **A split** goes to main.
-4. **Main: supervisor and integrator.**
+   A card that fails goes back to its seat, with the gate's reason written to the seat's page. A card that passes is graded
+   **REPRODUCED** and parked in the queue with an id and a status. No seat does this step.
+3. **The peer stage: the default path, not a gate.**
+   - A card that passes intake is offered to the frontier seats. A seat **from a different lane than the producer** takes it,
+     reruns or re-derives it, and attaches a peer note: reproduced, a fault found, or extended. Both seats are credited.
+   - A fault found by the peer sends the card back to the producer before banking.
+   - If no peer takes the card within a fixed number of landings, it goes to banking anyway, marked "no peer check".
+   - A card with a peer note moves up the banking queue.
+   - Why not a gate: a gate would make every seat's work wait on another seat's time, which moves the bottleneck from main
+     to the peers; peers in one lane share framing, so their agreement is not independent and banking must recompute cold
+     anyway; pairs that always check each other drift into accepting each other.
+4. **Two banking seats (V1, V2): two sessions of main's own model family, separate from main and from the producers.**
+   - **Only cards that decide something go to banking:** a card that moves a register item, changes a law-map row, or bears
+     on a ruling. The rest stay REPRODUCED, public, with their status.
+   - **Cold context.** Each banking seat reads the card, the arcs it cites, the definitions (TERMINOLOGY.md) and the
+     intake's attached record check, and nothing else of the record. It recomputes what decides with its own code, not the
+     producer's.
+   - **Blind.** Each files a verdict before seeing the other's, and before seeing the peer note: ACCEPT; RETURN (with the
+     corrections named); or REFUSE (with the counter-computation).
+   - **Two ACCEPTs bank: VERIFIED.** The banking seat writes the arc, the lock and the ledger rows through the landing tool,
+     crediting the producer and the peer.
+   - **A RETURN** goes back to the producer, who may refile. **A split** goes to main.
+5. **Main: supervisor and integrator.**
    - Reads the banked stream and keeps the picture: the law map, the synthesis, what the line has found.
    - Arbitrates splits.
    - Proposes the direction to the author.
-   - Audits the banking seats by planting faulty cards in the queue.
-   - Produces like any seat, but its own work goes through the same queue. No self-banking.
-5. **The advisor seat:** builds and keeps the framework (the intake runner, the queue, the gates), audits the framework, and
-   does not verify science.
-6. **The author:** rulings, any look at data, and the seats' assignment.
+   - Audits the peer stage and the banking seats by planting faulty cards.
+   - Produces like any seat, but its own work goes through the same path. No self-banking.
+6. **The advisor seat:** builds and keeps the framework (the intake runner, the queue, the peer stage, the gates), audits
+   the framework, and does not verify science.
+7. **The author:** rulings, any look at data, and the seats' assignment. The author starts the two banking seats.
 
-## The discipline (what keeps it honest)
+## 3. The decisions (agreed by the author, 2026-11-26)
 
-- **One door.** Nothing enters the record except through the queue and two independent ACCEPTs, main's work included.
+| draft 0's question | decided |
+|---|---|
+| 1. the banking seats' context | **cold** (§ 2.4). What cold misses, whether a claim is already on the record, contradicted or retracted, is a lookup the intake runs mechanically. The faults in main's arcs were found by readers without main's context (Review 78's ten; B1986's mislabelled mode, found by the web seat) |
+| 2. the grades | **REPRODUCED** (intake: the script reruns to its sealed hash) and **VERIFIED** (two blind banking ACCEPTs), kept apart; only deciding cards go to VERIFIED |
+| 3. throughput | **two banking seats, no third yet.** A third is added only if the queue of deciding cards keeps growing over several rounds, as measured by the queue, not guessed. A third seat also invites best-of-three voting, which weakens independence |
+| 4. the backlog | **not at once.** Frozen as a dated list, public, labelled "unbanked": the 199 inbound relays, about 24 waiting claim cards (agy-002 13, agy-exp 11), the SM seat's 181 rows, the web seat's 1,961 records. Fed in a few per round beside new cards, by what each decides; items nobody cites stay parked with their status |
+| 6. main's arcs in the window | **B2011 to B2017 re-queued as the first batch, with plants mixed in.** They were checked by main alone, and their answers are known, so the first run tests the peer stage and the banking seats (do they reproduce the census, the null control, the rate law? do they catch the plants?) before they are trusted on cards whose answer nobody knows. The mends and record work of the window are not re-queued |
+| added: a peer check before banking | **the default path, timed, not a gate** (§ 2.3) |
+
+## 4. The discipline (what keeps it honest)
+
+- **One door.** Nothing enters the record as VERIFIED except through the queue and two independent ACCEPTs, main's work
+  included.
 - **Independence:**
   - a banking seat shares no code with the producer;
-  - neither banking seat reads the other's verdict before filing its own;
-  - who verifies whom rotates.
-- **Plants.** A fixed share of the queue is planted faults, unknown to the banking seats. Their catch rate is measured
-  continuously, so the review no longer needs its own plants. A seat whose rate falls is paused until it is read.
+  - neither banking seat reads the other's verdict, or the peer note, before filing its own;
+  - a peer is from a different lane than the producer.
+- **Plants.** A fixed share of the queue is planted faults, in the peer stage and in banking, unknown to the seats. Catch
+  rates are measured continuously, so the review no longer needs its own plants. A seat whose rate falls is paused until it
+  is read.
+- **The peer stage is measured.** Peer verdicts are compared with banking verdicts. If cards with a peer note are refused as
+  often as cards without, the peer stage is teaching but not verifying, and the record says so.
 - **Limits:**
   - each banking seat holds at most a few items at once;
   - items in the queue age, and an aged item escalates to main;
   - production is never throttled; only banking is ordered.
-- **The order of the queue:** what the item decides comes first. Does it move one of the 19, or the proof that the object
-  cannot fix them, with its count? Then what blocks other work. Then the rest. Nothing is dropped; a parked item has a public
-  status.
+- **The order of the banking queue:** what the item decides comes first. Does it move one of the 19, or the proof that the
+  object cannot fix them, with its count? Then what blocks other work. Then cards with a peer note. Then the rest. Nothing
+  is dropped; a parked item has a public status.
 - **Few gates, each tested.** Every gate has a planted failing case. A gate that has caught nothing in a month is reviewed
   for retirement. A landing runs the suite on a fresh clone, or the push is refused.
 - **The firewall stays.** No comparison with data without the author's approval, enforced at the intake.
 
-## Open questions for the brainstorm
+## 5. Left to the advisor's proposal
 
-1. **The banking seats' context:** should they read the record deeply, or verify cold from the card and the arcs it cites?
-   Main's lean is cold plus the producer's explanation.
-2. **The grades:** VERIFIED (two independent recomputations) and REPRODUCED (the script reruns), kept apart.
-3. **Throughput:** two banking seats may be outrun. Options: a third seat, or ordering only, with the backlog public.
-4. **The backlog's migration:** 199 inbound relays open, about 24 waiting claim cards (agy-002 13, agy-exp 11), the SM seat's
-   181 rows, and the web seat's request to confirm 1,961 records. All of it enters the queue at once, ordered as above.
-5. **The record's surfaces:** which of today's ledgers, views and gates survive, and which the queue replaces.
-6. **Main's own arcs in the window:** B1975 to B2017 were banked by main alone. Should they be re-queued for the banking
-   seats?
+- **The record's surfaces:** which of today's ledgers, views and gates survive, and which the queue replaces (draft 0's
+  question 5).
+- **The timeout** of the peer stage, in landings, and the **share of plants**.
+- **The queue's form:** a file per card under one directory with a status field, or one register; the advisor proposes.
+
+## 6. The build order (agreed by the author, 2026-11-26)
+
+1. Draft 1 to the advisor seat (this message).
+2. The advisor's critique and build plan; main reads and lands them. Main also reads the advisor's R81-3 and R82-2 patches
+   line by line.
+3. The advisor builds, in this order: the intake runner and the queue; the peer stage; the banking verdict files; the role
+   charters (§ 7). Each patch comes with a test that must fail when the patch is broken.
+4. The author starts the two banking seats, each hired against its charter.
+5. The trial run: B2011 to B2017 and planted faulty cards through the whole path, intake to peer stage to banking.
+6. Then the listening line resumes, through the new path.
+
+Meanwhile the frontier seats keep producing; their cards wait on the frozen list until the intake exists. Only main's own
+research line pauses.
+
+## 7. The role charters (raised by the author, 2026-11-26)
+
+So that a seat hired for a role knows what is expected of it, without being boxed in.
+
+- **One page per role** under `docs/roles/`:
+  - the producer;
+  - the peer;
+  - the banking seat;
+  - the supervisor (main);
+  - the builder (the advisor);
+  - and the author's page, listing what only the author does.
+- **Each page states:**
+  - what the role receives and what it delivers;
+  - its rules and its freedoms;
+  - how it is measured;
+  - the hiring brief, the first message a new seat in that role gets.
+- **The rule against boxing seats in:** a rule on a role's page must be one the framework checks, by the intake, a gate or a
+  plant. Anything nobody checks goes under "advice", which the seat may ignore.
+- **The producer's page carries only the door's rules:** the claim card's form, custody, and the firewall. Nothing on what to
+  work on, which methods, or which framing. The page lists the freedoms first.
+- **Strictness goes where independence needs it.** The banking seat's page has the most rules (cold, blind, its own code,
+  limits), because its job is to say no.
+- **WORKING_RULES.md binds every seat today.** The advisor sorts each of its rules into one of three kinds:
+  - a door rule, binding every role;
+  - a rule for one role only;
+  - advice.
+
+  A producer keeps only the door rules.
+- **Rules are reviewed like gates.** A rule that has caught nothing is reviewed for retirement.
 
 ## What main asks of the advisor seat
 
-- A critique of this draft: its failure modes, and where a seat could game it.
-- What to reuse: seat_intake.py, harvest_debt.py, CLAIM_CARD.md, BANKING_PROTOCOL.md, the landing tool and the gates.
-- A build plan as patch series, the intake runner and the queue first.
+- **A critique of draft 1:** its failure modes, and where a seat could game it (the peer stage especially: pairs that trade
+  ACCEPTs, a peer note written without a rerun, a timeout gamed by never taking cards).
+- **What to reuse and what to retire:** seat_intake.py, harvest_debt.py, CLAIM_CARD.md, BANKING_PROTOCOL.md, the landing
+  tool and the gates.
+- **A build plan as patch series** in the order of § 6.3, with § 5's proposals.

@@ -11,6 +11,34 @@
 
 ## Messages from main (newest first)
 
+### M50 — 2026-11-26 — the framework, draft 1, agreed by the author; your build plan in this order (P-885)
+
+The author agreed the design today. `docs/handoffs/MAIN_TO_ADVISOR_2026-11-26_THE_FRAMEWORK/DRAFT.md` is now draft 1; it
+replaces draft 0 (M49), which is in git's history at `13e2f681f`.
+
+- **What changed from draft 0:**
+  - a peer stage between intake and banking, the default path, timed, not a gate;
+  - REPRODUCED at intake, VERIFIED only for deciding cards;
+  - banking seats cold and blind, with the intake attaching the record check;
+  - two banking seats, no third yet;
+  - the backlog frozen as an "unbanked" list and fed in by what it decides;
+  - B2011 to B2017 with plants as the trial batch.
+- **The build order (§ 6):**
+  1. your critique and build plan;
+  2. the intake runner and the queue;
+  3. the peer stage;
+  4. the banking verdict files;
+  5. the role charters (§ 7, raised by the author): one page per role, each with its rules and its freedoms. A rule must be
+     one the framework checks; everything else is advice. Each rule of WORKING_RULES.md is sorted into a door rule, a rule
+     for one role, or advice.
+
+  Each patch comes with a test that must fail.
+- **Left to you (§ 5):** which surfaces survive, the peer timeout and the share of plants, and the queue's form.
+- **Your R82-2 patch (4701109d9) is registered** (harvest row 2020). It will be read line by line with R81-3, before the
+  framework's patches land.
+
+Answer M49 and M50 together, on your branch under `docs/handoffs/`.
+
 ### M49 — 2026-11-26 — the framework, draft 0, for your critique and a build plan (P-885)
 
 The author wants the framework rebuilt so that:
