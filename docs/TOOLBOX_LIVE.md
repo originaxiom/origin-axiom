@@ -332,3 +332,29 @@ values on a planted pair before it is sealed (E82, B1610's spectrum {1, ω, ω²
 - **A new arc folder made while a landing runs fails that landing** (`atlas-fresh`). Draft under `audit/` until it
   returns.
 
+
+## Instruments of the listening line, 2026-11-25 and 26 (added 2026-11-26, at B2017's landing)
+
+- **The six-move sum's sectors, exactly** (B2011): `sector_data(N, start)` gives the neutral matrix on C-orbit classes and the
+  q = 1 charged entries in Z[ω]; `exact_charpolys(data)` returns both characteristic polynomials over Z by FLINT nmod
+  charpolys and the CRT past the 7^d bound; `halved_monic(f)` is f(2x)/2^d —
+  `frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/verification/sectors_exact.py`.
+  At mod 243 (dimension 1946) it takes about 45 minutes.
+- **The orbits over the common point mod p^k** (B1996): `orbits_over_common_point(p, k)` —
+  `frontier/B1996_listening_12_the_slow_decay_up_the_tower/verification/tower_decay.py`. Import it by reading the source up
+  to its `t0 = time.time()` line, as B2011's `honeycomb.py` does.
+- **A closed form tested exactly against a characteristic polynomial** (B2011, B2015): take the value's minimal polynomial as a
+  resultant with cos(π/M)'s, factor it, and divide (`honeycomb.py`, `rate_law.py`).
+- **The congruence orbit O_{3^k} to mod 6561 by lifting** (B2011, B2014): `level(k, prev)` lifts S_{k−1} by 3^{k−1} m and keeps
+  the congruence mod 3^{k+1}; permutations of words as index arrays (`ingredients.py`, `walks.py`).
+- **A group's every coset space** (B2016): GAP's `ConjugacyClassesSubgroups` and `ActionHomomorphism(G, RightCosets(G, H),
+  OnRight)`, exported from sage to JSON and classified in system Python with FLINT (`cosets_export.py`, `cosets_gap.py`).
+- **The census of every orbit of every leaf** (B2017): `all_orbits(N)` by union-find on all N³ residues (`census.py`).
+- **Explicit irreducible representations** (B2014): GAP's `IrreducibleRepresentations`, with a C-neutral line's value
+  6⟨v, π(σ)v⟩/⟨v, v⟩ (`reps_gap.py`).
+
+**Three traps of these days.**
+- **sage's Python has no python-flint.** Do the GAP part in sage and the FLINT part in system Python (B2016).
+- **GAP's FactorCosetAction refuses the index-1 class;** use ActionHomomorphism on the right cosets (B2016).
+- **Sorting eigenvalues to find "the constant mode" fails where ±2 tie in modulus.** Remove the eigenvalue nearest the
+  Perron root instead (B1986's fix, the web seat's V1).
