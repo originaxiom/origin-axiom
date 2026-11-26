@@ -1,0 +1,583 @@
+{
+  "L1_all_3k_B2009_B2010": {
+    "G_4_exhaustive": {
+      "abelianization_Z6_conflicts": 0,
+      "case_fix_distribution": {
+        "case1_fix_0": 972,
+        "case2_fix_0": 216,
+        "case3_fix_3": 432,
+        "rho1_even_fix_0": 323,
+        "rho1_even_fix_648": 1
+      },
+      "order": 1944
+    },
+    "G_jet": {
+      "abelianization_Z6_conflicts": 0,
+      "case1_all_flip_eps": true,
+      "case1_max_fix": 0,
+      "case2_max_fix": 0,
+      "case3_at_333_all_in_1_4_7": true,
+      "case3_at_333_count": 6,
+      "case3_at_333_eigvals_mod9": [
+        1,
+        1,
+        4,
+        4,
+        7,
+        7
+      ],
+      "case3_at_333_hensel_dets_mod3": [
+        1
+      ],
+      "case3_fix_values": [
+        3
+      ],
+      "case3_per_fiber_counts": {
+        "(3, 3, 3)": 6,
+        "(3, 3, 6)": 6,
+        "(3, 6, 3)": 6,
+        "(3, 6, 6)": 6,
+        "(6, 3, 3)": 6,
+        "(6, 3, 6)": 6,
+        "(6, 6, 3)": 6,
+        "(6, 6, 6)": 6
+      },
+      "case3_single_mod9_fiber_all": true,
+      "case_counts": {
+        "case1_odd_sigma": 108,
+        "case2_s3_id_rho_ne_1": 24,
+        "case3_3cycle_rho_ne_1": 48,
+        "rho3_eq_1_even_sigma": 36
+      },
+      "distinct_O27_perms": 216,
+      "order": 216
+    },
+    "S3_x_Z3_characters": {
+      "Gk_ab_eq_Z6_all_k_ge_3": true,
+      "character_orthonormality_ok": true,
+      "delta_bot_factors_through_S3xZ3": true,
+      "exceptions": {
+        "(1,1)": 1,
+        "(1,omega)": -1,
+        "(sgn,1)": 1,
+        "(sgn,omega)": -1,
+        "(std,1)": -1,
+        "(std,omega)": 1
+      },
+      "exceptions_count": 6,
+      "group_order": 18,
+      "inner_products": {
+        "(1,1)": 1,
+        "(1,omega)": -1,
+        "(1,omega^2)": 0,
+        "(sgn,1)": 1,
+        "(sgn,omega)": -1,
+        "(sgn,omega^2)": 0,
+        "(std,1)": -1,
+        "(std,omega)": 1,
+        "(std,omega^2)": 0
+      },
+      "irrep_count": 9,
+      "non_exceptions": [
+        "(1,omega^2)",
+        "(sgn,omega^2)",
+        "(std,omega^2)"
+      ],
+      "non_exceptions_count": 3,
+      "std_omega_6Q0_sigma_Q0_eq_0": true
+    },
+    "elapsed_ms": 11205,
+    "generator_basis_LR": {
+      "C3_eq_I": true,
+      "C_recovered": "(z, x, y)",
+      "L_formula": "(z, y, -x + y*z)",
+      "Linv_L_eq_I": true,
+      "R_formula": "(x, z, x*z - y)",
+      "Rinv_R_eq_I": true,
+      "S2_eq_I": true,
+      "det_dC": 1,
+      "det_dL": 1,
+      "det_dR": 1,
+      "det_dS": 1,
+      "det_dtau": -1,
+      "markoff_L_exact_zero": true,
+      "markoff_R_exact_zero": true,
+      "sigma_recovered": "(y, x, x*y - z)"
+    },
+    "halving_identity_Z_x": {
+      "mod27_d_ch": 23,
+      "mod27_d_neu": 26,
+      "mod27_direct_matches_krylov": true,
+      "mod27_direct_sympy_residual": 0,
+      "mod27_krylov_crt_residual": 0,
+      "mod27_p_ch_sha256": "eee3978de5a600c0e7789e412011e485542debdaacc4d0755318111257e32d41",
+      "mod27_p_neu_sha256": "b83c1b55aa644cdfbe890477dba28e48d6d35fe2e7434351e14b097c628b9888",
+      "mod27_primes": [
+        2050000021,
+        2050000033,
+        2050000153,
+        2050000171
+      ],
+      "mod81_Z_residual": 0,
+      "mod81_crt_exceeds_cauchy_bound": true,
+      "mod81_crt_modulus_digits": 131,
+      "mod81_d_ch": 215,
+      "mod81_d_neu": 218,
+      "mod81_max_coeff_digits": 56,
+      "mod81_p_ch_y_sha256": "da1a7d408e510e701a9472ca3819fc8fe1473f76c2583aa9ab8a413e7dfb4ec8",
+      "mod81_prime_residuals": 0,
+      "mod81_primes": [
+        2100000127,
+        2100000151,
+        2100000169,
+        2100000277,
+        2100000283,
+        2100000307,
+        2100000319,
+        2100000367,
+        2100000493,
+        2100000523,
+        2100000541,
+        2100000547,
+        2100000619,
+        2100000691
+      ]
+    },
+    "hensel_60_words_mod27_to_6561": {
+      "passed_0_0_3_all_levels": 60,
+      "tested": 60
+    },
+    "orbit_sizes": {
+      "O_27": 72,
+      "O_81": 648,
+      "O_9": 8
+    }
+  },
+  "L2_3adic_step_law_mod19683": {
+    "elapsed_ms": 26530,
+    "falling_factorial_2half_mod19683": {
+      "basis_size": 189,
+      "cube_ranks_E3_to_E8": [
+        2,
+        2,
+        3,
+        7,
+        7,
+        7
+      ],
+      "dims": [
+        2,
+        2,
+        3,
+        7,
+        7,
+        7,
+        12
+      ],
+      "group_order_formula": "24 * 3^40",
+      "k_max": 9,
+      "layer_poly_degrees": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "minus_half_ranks": [
+        2,
+        2,
+        3,
+        4,
+        4,
+        4,
+        7
+      ],
+      "modulus": 19683,
+      "nonzero_goldman_divergences_mod3": 0,
+      "orbit_size_exact": 38263752,
+      "plus_half_ranks": [
+        2,
+        2,
+        3,
+        4,
+        4,
+        4,
+        7
+      ],
+      "random_60_LR_gamma4_words_sifted_to_zero": 60,
+      "sum_dims": 40
+    },
+    "full_orbit_matches_2half_d3_to_d6": true,
+    "full_orbit_mod729": {
+      "V4_rigidity_all_52488_pts": true,
+      "dims_d3_to_d6": [
+        2,
+        2,
+        3,
+        7
+      ],
+      "orbit_size": 52488
+    },
+    "gamma4_schreier_LR_generator_count": 25,
+    "symbolic_V4_and_Goldman": {
+      "V4_commutes_symbolically_with_gamma4_words": true,
+      "V4_normalizes_L_over_Zxyz": true,
+      "V4_normalizes_R_over_Zxyz": true,
+      "goldman_2form_signs": {
+        "C": 1,
+        "L": 1,
+        "R": 1,
+        "sigma": 1,
+        "tau": -1
+      },
+      "short_gamma4_words_checked_symbolically": 2
+    }
+  },
+  "L3_mirror_lock_chiral_flux_C60_mod135": {
+    "C60_Weyl_Heisenberg_intertwiner_Jk": {
+      "formula": "J_k(x,y,z) = (x, (1 + 3^{k-2})*y, (1 - 3^{k-2})*z) mod 3^k",
+      "levels": {
+        "O_243_minus": {
+          "J_k_C_commutator_eq_Zk": 2916,
+          "J_k_commutes_V_Vieta3_sq": 2916,
+          "J_k_order3": 2916,
+          "J_k_preserves_O_minus": 2916,
+          "all_100pct_pass": true,
+          "points": 2916
+        },
+        "O_729_minus": {
+          "J_k_C_commutator_eq_Zk": 26244,
+          "J_k_commutes_V_Vieta3_sq": 26244,
+          "J_k_order3": 26244,
+          "J_k_preserves_O_minus": 26244,
+          "all_100pct_pass": true,
+          "points": 26244
+        },
+        "O_81_minus": {
+          "J_k_C_commutator_eq_Zk": 324,
+          "J_k_commutes_V_Vieta3_sq": 324,
+          "J_k_order3": 324,
+          "J_k_preserves_O_minus": 324,
+          "all_100pct_pass": true,
+          "points": 324
+        }
+      }
+    },
+    "chiral_flux_dps55": {
+      "O_27": {
+        "fluxes": {
+          "herm_pi_2": {
+            "c_q": {
+              "0": "(-2.292524568553061858817857e-56)+(0.0)i",
+              "1": "(-5.196152422706631880582339)+(6.117472938748616743790901e-56)i",
+              "2": "(5.196152422706631880582339)+(-9.176209408122925115686351e-56)i"
+            },
+            "is_hermitian": true,
+            "master_law_max_res": {
+              "0": "2.07908195312898e-112",
+              "1": "6.11747293874862e-56",
+              "2": "1.01957882312477e-55"
+            },
+            "max_abs_eig": {
+              "0": "2.292524568553061858817857e-56",
+              "1": "4.582575694955840006588047",
+              "2": "4.582575694955840006588047"
+            }
+          },
+          "herm_pi_3": {
+            "c_q": {
+              "0": "(3.0)+(0.0)i",
+              "1": "(-6.0)+(8.15172694958733834209738e-56)i",
+              "2": "(3.0)+(-6.117472938748616743790901e-56)i"
+            },
+            "is_hermitian": true,
+            "master_law_max_res": {
+              "0": "0.0",
+              "1": "6.44838267029645e-56",
+              "2": "5.96693208000005e-56"
+            },
+            "max_abs_eig": {
+              "0": "3.0",
+              "1": "5.291502622129181181003232",
+              "2": "2.645751311064590590501616"
+            }
+          },
+          "herm_pi_9": {
+            "c_q": {
+              "0": "(5.638155724715450304324656)+(0.0)i",
+              "1": "(-4.596266658713868211214356)+(6.117472938748616743790901e-56)i",
+              "2": "(-1.0418890660015820931103)+(0.0)i"
+            },
+            "distinct_3_way_split_gaps": {
+              "abs_m0_minus_m1": "1.5846295452838896472",
+              "abs_m0_minus_m2": "4.719295937262934444",
+              "abs_m1_minus_m2": "3.1346663919790447968"
+            },
+            "is_hermitian": true,
+            "master_law_max_res": {
+              "0": "5.09789411562385e-57",
+              "1": "4.55969511385244e-56",
+              "2": "2.35001307187829e-56"
+            },
+            "max_abs_eig": {
+              "0": "5.638155724715450304324656",
+              "1": "4.053526179431560657096941",
+              "2": "0.9188597874525158603103063"
+            },
+            "unlocks_3_to_1_1_1": true
+          },
+          "real_2_1": {
+            "c_q": {
+              "0": "(9.0)+(0.0)i",
+              "1": "(-4.5)+(2.59807621135331594029117)i",
+              "2": "(-4.5)+(-2.59807621135331594029117)i"
+            },
+            "is_hermitian": false,
+            "master_law_max_res": {
+              "0": "0.0",
+              "1": "5.40272222097501e-56",
+              "2": "1.01957882312477e-55"
+            },
+            "max_abs_eig": {
+              "0": "9.0",
+              "1": "4.582575694955840006588047",
+              "2": "4.582575694955840006588047"
+            },
+            "spec1_minus_spec2_mag_diff": "4.89397835099889e-55"
+          },
+          "sym_1_1": {
+            "c_q": {
+              "0": "(6.0)+(0.0)i",
+              "1": "(-3.0)+(3.05873646937430837189545e-56)i",
+              "2": "(-3.0)+(3.05873646937430837189545e-56)i"
+            },
+            "is_hermitian": true,
+            "master_law_max_res": {
+              "0": "0.0",
+              "1": "4.55969511385244e-56",
+              "2": "5.09789411562385e-56"
+            },
+            "max_abs_eig": {
+              "0": "6.0",
+              "1": "2.645751311064590590501616",
+              "2": "2.645751311064590590501616"
+            }
+          }
+        },
+        "max_eig_vs_master_residual": "1.14192828189974e-54",
+        "max_master_law_residual": "1.01957882312477e-55",
+        "max_realsplit_pair_gap": "7.34096752649834e-55"
+      },
+      "O_81": {
+        "Z4_commutes_C": true,
+        "Z4_commutes_S": true,
+        "herm_pi_9_max_abs_eig": {
+          "0": "5.638155724715450304324656",
+          "1": "4.534250768571236529061868",
+          "2": "1.027831204990523281535377"
+        },
+        "master_law_by_flux": {
+          "herm_pi_2": "1.01957882312477e-55",
+          "herm_pi_3": "6.44838267029645e-56",
+          "herm_pi_9": "4.55969511385244e-56",
+          "real_2_1": "1.01957882312477e-55",
+          "sym_1_1": "5.09789411562385e-56"
+        },
+        "max_master_law_residual": "1.01957882312477e-55",
+        "max_realsplit_pair_gap": "1.42741035237468e-55",
+        "q1_vs_q2_Psig_spec_diff": "1.37643141121844e-55",
+        "real_2_1_spec1_minus_spec2_mag_diff": "7.23900964418586e-55"
+      },
+      "dps": 55,
+      "eigensolver": "2d_x_2d_real_split_mp_eigsy",
+      "guardrail3_unitary_scrambling_O27_pi9_q1": {
+        "eigenvalue_invariance_error": "4.89397835099889e-55",
+        "passed_lt_1e_45": true,
+        "unitarity_error": "8.19813322952163e-56"
+      }
+    },
+    "elapsed_ms": 255194,
+    "mirror_lock": {
+      "abelianization_G_tau_Z2xZ2_proved": true,
+      "det_dC": 1,
+      "det_dS": 1,
+      "det_dtau": -1,
+      "order_G3_tau": 432,
+      "order_G3_tau_eq_2_G3": true,
+      "tau_C_tau_eq_Cinv": true,
+      "tau_S_tau_eq_S": true,
+      "tau_not_in_G3": true,
+      "tau_not_in_G4": true
+    },
+    "mod135_counterexample": {
+      "Fix_C_count": 3,
+      "Fix_C_points": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          48,
+          48,
+          48
+        ],
+        [
+          93,
+          93,
+          93
+        ]
+      ],
+      "O_27_x_O_5_size": 2880,
+      "Q10_exact_match": true,
+      "d_ch": 959,
+      "d_neu": 962,
+      "direct_matches_sP10_minus_sQ10_r1_to_6": true,
+      "direct_sparse_trace_mismatch_r1_to_6": [
+        0,
+        0,
+        0,
+        -36,
+        0,
+        -432
+      ],
+      "exact_trace_mismatch_sP10_minus_sQ10_r1_to_12": [
+        0,
+        0,
+        0,
+        -36,
+        0,
+        -432,
+        0,
+        -4068,
+        0,
+        -34830,
+        0,
+        -283716
+      ],
+      "krylov_primes": [
+        2000000011,
+        2000000089
+      ],
+      "note_vs_E7_prereg_minus_sQ10": "Unpaired Pi_1 factor matches Q_10(x) identically (10 roots, 949 paired modes), while Pi_0 carries 10 nonzero unpaired roots P_10(x) = (x^2-4)(x^2-1)(x^6-9x^4+21x^2-10) in addition to x(x^2-9); hence tr_neu((A/2)^r)-(3^r+(-3)^r)-tr_ch(A^r) equals s_r(P_10) - s_r(Q_10) = [0,0,0,-36,0,-432,...] rather than -s_r(Q_10).",
+      "orbit_size": 2880,
+      "paired_modes": 949,
+      "s_r_P10_r1_to_12": [
+        0,
+        28,
+        0,
+        112,
+        0,
+        514,
+        0,
+        2512,
+        0,
+        12748,
+        0,
+        66358
+      ],
+      "s_r_Q10_r1_to_12": [
+        0,
+        28,
+        0,
+        148,
+        0,
+        946,
+        0,
+        6580,
+        0,
+        47578,
+        0,
+        350074
+      ],
+      "unpaired_chiral_count": 10,
+      "unpaired_chiral_poly_Q10": "(x**2 - 2*x - 2)*(x**2 + 2*x - 2)*(x**3 - 3*x - 1)*(x**3 - 3*x + 1)",
+      "unpaired_neutral_extra_nonzero_poly_P10": "(x - 2)*(x - 1)*(x + 1)*(x + 2)*(x**6 - 9*x**4 + 21*x**2 - 10)",
+      "witness_fix_O135": 0,
+      "witness_fix_O27": 3,
+      "witness_fix_O5": 0,
+      "witness_rho3_exp": 2,
+      "witness_word_CS": "CSCSCSCCS",
+      "witness_word_LR": "rLRRLRlR"
+    }
+  },
+  "L4_negative_controls_RPF1_to_RPF6": {
+    "RPF1_mod9": {
+      "non_C_type_fixed_elements_count": 6,
+      "order_G2": 24,
+      "passed": true,
+      "rho3_fails_on_G2": true
+    },
+    "RPF2_mod25": {
+      "Fix_C_count": 1,
+      "breaks_halving_ratio_4": true,
+      "orbit_size": 1000,
+      "passed": true,
+      "ratio_sq_sub36": "1990/499",
+      "ratio_sq_sub72": "1972/499",
+      "relator_rho3_exp_mod3": 1,
+      "rho3_breaking_word": "RLRRLLRRRLL",
+      "tr_ch_A2": 998,
+      "tr_neu_A2": 4016,
+      "word_order_on_O25": 40
+    },
+    "RPF3_mod135": {
+      "Fix_C_count": 3,
+      "Q10_exact_match": true,
+      "passed": true,
+      "unpaired_chiral_count": 10,
+      "witness_fix_O135": 0,
+      "witness_fix_O27": 3,
+      "witness_fix_O5": 0
+    },
+    "RPF4_single_half_mod729": {
+      "d6_full": 7,
+      "d6_single_half": 4,
+      "passed": true,
+      "single_half_plus_dims_d3_to_d6": [
+        2,
+        2,
+        3,
+        4
+      ]
+    },
+    "RPF5_real_2_1_no_mag_split": {
+      "O_27_spec1_minus_spec2_mag_diff": "4.89397835099889e-55",
+      "O_81_spec1_minus_spec2_mag_diff": "7.23900964418586e-55",
+      "passed": true
+    },
+    "RPF6_broken_C_conjugacy": {
+      "O_27_comm_frob_norm": "12.0",
+      "O_27_comm_frob_sq": 144,
+      "O_81_comm_frob_norm": "36.0",
+      "O_81_comm_frob_sq": 1296,
+      "passed": true
+    },
+    "elapsed_ms": 218
+  },
+  "audit": {
+    "ast_complex_literal_count": 0,
+    "ast_float_complex_call_count": 0,
+    "ast_float_literal_count": 0,
+    "forbidden_imports": [],
+    "forbidden_imports_count": 0,
+    "json_float_count": 0
+  },
+  "card_id": "AGY-002_A2-LISTENING-TOWER",
+  "empirical_inputs_used": "0 of 19",
+  "mpmath_version": "1.3.0",
+  "python_version": "3.12.1",
+  "referee_gates": {
+    "RG1": true,
+    "RG2": true,
+    "RG3": true,
+    "RG4": true,
+    "RG5": true,
+    "RG6": true
+  },
+  "role": "100pct_blind_disjoint_cold_room_zero_trust_referee",
+  "sympy_version": "1.14.0",
+  "total_elapsed_ms": 293378
+}
