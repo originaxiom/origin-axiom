@@ -77,7 +77,7 @@ M2a failed as worded, M2b held).** Main, 2026-11-26, in the author's /loop "cont
 
 | id | result |
 |---|---|
-| N1 | **holds** (`blind_checks_run.txt`). T₄ = S(C + C²) + (C + C²)S pointwise on every orbit, so T₄ = 3(SP + PS) − 2S. The characteristic polynomial is exactly R(x + 4) R(x + 2) (x − 4)^{d₁} (x + 4)^{d₂} (x + 2)^{d₃} (x − 2)^{d₄} over ℤ on the largest orbits at p = 7, k = 5 (64 points); p = 11, k = 6 (60); p = 13, k = 9 (112); and on the orbit of (3,3,3) mod 27 (72) and mod 81 (648). At mod 135 (2880 points) it holds modulo three 62-bit primes, a deviation from the card's "exact" (an exact run there would take hours) |
+| N1 | **holds** (`blind_checks_run.txt`). T₄ = S(C + C²) + (C + C²)S pointwise on every orbit, so T₄ = 3(SP + PS) − 2S. The characteristic polynomial is exactly R(x + 4) R(x + 2) (x − 4)^{d₁} (x + 4)^{d₂} (x + 2)^{d₃} (x − 2)^{d₄} over ℤ (R is the characteristic polynomial of 3P(1 + S)P without its roots 6 and 0, so the card's Q(x) is R(x + 4); the plane computation is checked by sympy in `two_subspace_run.txt`; Review 87) on the largest orbits at p = 7, k = 5 (64 points); p = 11, k = 6 (60); p = 13, k = 9 (112); and on the orbit of (3,3,3) mod 27 (72) and mod 81 (648). At mod 135 (2880 points) it holds modulo three 62-bit primes, a deviation from the card's "exact" (an exact run there would take hours) |
 | N2 | **holds:** the orbit of (t, 0, 0) is the 6 points (±t, 0, 0), (0, ±t, 0), (0, 0, ±t) on k = t², for symbolic t |
 | N3 | **holds** for every leaf and every prime 3 ≤ p ≤ 71 |
 | N6a | **holds:** x² + y² + z² − xyz takes the residues 0, 1, 2 mod 4 and 0, 1, 2, 4, 5, 7, 8 mod 9 |
@@ -106,7 +106,9 @@ M2a failed as worded, M2b held).** Main, 2026-11-26, in the author's /loop "cont
   - In the levels run it holds at 27, 81 and 243, and at 54, 108 and 162, where the 2-part keeps the orbit at 4 points
     (B1998's unopening 2-tower).
   - It fails at 135 and 189, where the factor 5 or 7 brings the cusp's whole leaf (40 and 28 points).
-  - At 5 that leaf is the reduction of the icosahedral 40-point orbit (M1). At 7 it is no such reduction, and the halving
+  - At 5 that leaf is the reduction of the icosahedral 40-point orbit (M1). At 7 no finite orbit known to the record reduces onto it [Review 87: the known orbits lie on
+    k = 2, 3, (5 ± √5)/2, t² and 4; 5 is not a square mod 7, and t² ≡ 0 only at the origin; B1989's list is not proved
+    complete], and the halving
     fails all the same. So the failure is not the icosahedral origin.
   - A table of the levels run, not a law.
 - **The finite orbits over ℂ were heard twice, independently:** the listener's five are B1989's.
@@ -115,7 +117,8 @@ M2a failed as worded, M2b held).** Main, 2026-11-26, in the author's /loop "cont
 - **Integer leaves:**
   - two congruence obstructions: 3 mod 4, and 3 or 6 mod 9;
   - fifteen leaves that are solvable at every modulus tried but have no point with |x|, |y| ≤ 3000.
-- **On the 2-adic leaves k ≡ 5 mod 8,** the moves keep two equal halves at every 2-power run. Nothing found so far
+- **On the leaves k = 5, 13 and 29 (each ≡ 5 mod 8),** the moves keep two equal halves at 2⁵, 2⁶ and 2⁷ [Review 87: scoped
+  to the leaves run]. Nothing found so far
   separates them.
 - **No rate is read as physical, and nothing is compared with data.**
 

@@ -16,7 +16,7 @@
 1. **Your level mod 135 holds exactly on main's code, and it corrects main.**
    - ρ factors through G₁₃₅ (the orbit reduces onto the mod-27 orbit) and C fixes 3 points. Yet the gcd with p_neutral(2x)/2^d
      has degree 949 of 959, and the 10 unpaired charged roots are exactly your four factors.
-   - So B2003's "exactly where ω's exchange fixes three points" and B2005's "exactly where ℤ₆ survives" were facts about the
+   - So B2003's "exactly where ω's exchange fixes three points" and B2005's "exactly where ℤ₆ survives" were facts about the (both corrected)
      levels run, not laws. Both arcs carry a dated correction, and the level is credited to you.
 2. **Also exact on main:**
    - the gcd at mod 45 is x²(x − 2)(x + 2);

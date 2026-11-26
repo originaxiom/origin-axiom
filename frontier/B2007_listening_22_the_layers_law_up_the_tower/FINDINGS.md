@@ -7,7 +7,7 @@ midnight), in the author's /loop "continue the listening line". Data-free. Regis
 ## Seen first
 
 - **B2006:** G_k = S₄ with a 3-adic layer: ℤ₃², ℤ₉², then non-abelian of order 3⁷.
-- **B2005:** ℤ₆ survives exactly where the halving holds.
+- **B2005:** ℤ₆ survives exactly where the halving holds. [corrected 2026-11-26, B2011: not a law beyond the levels run]
 - **B2003:** the halving holds at mod 243 to 10⁻⁸ by the dense solver.
 - **Swept:** `VERDICT topic-sweep /elementary abelian|layer's law|GAP|nilpotency class/: 154 of 1748 arcs on main match (NEGATIVE 23, OPEN 19, PROVED 111, RETRACTED 1); 44 register rows match (DECLINED 3, DONE 19, `.
 - **The literature (standard):** GAP's permutation-group algorithms (Schreier–Sims; the kernel of an action on blocks). Sparse
@@ -66,5 +66,5 @@ midnight), in the author's /loop "continue the listening line". Data-free. Regis
 
 ## Dated note (2026-11-26, B2011)
 
-- The premise restated above from B2005 (ℤ₆ survives exactly where the halving holds) is not a law. At mod 135 ℤ₆
+- The premise restated above from B2005 (ℤ₆ survives exactly where the halving holds) is not a law (corrected, B2011). At mod 135 ℤ₆
   survives and the halving fails (B2011). Nothing in this arc's results rests on the converse.

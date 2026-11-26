@@ -38,7 +38,7 @@ open).** Main, 2026-11-25, in the author's /loop "continue the listening line". 
 - **(a) The number's eigenvalues are real:** +1.915298 (twice) and −1.915298 (twice) at mod 81, the same ± alternation
   as the undamped modes.
 - **(b) It is algebraic,** an eigenvalue of a 648 × 648 integer matrix, but not identified. The polynomial search at
-  double precision returned candidates with coefficients near its search limit, which that precision cannot support.
+  double precision returned candidates of degree 5 with coefficients up to 101 against a limit of 200 [Review 87, 2026-11-26: was "near its search limit"]; double precision cannot support such a fit.
   They are not trusted, and the number is reported unidentified.
 
 ## What the whole does, read in its own terms
@@ -47,9 +47,12 @@ open).** Main, 2026-11-25, in the author's /loop "continue the listening line". 
   - Along the 3-tower, beyond the cube's 1/√2, the slowest non-undamped mode decays at λ*/2 per move, with
     λ* = 1.915298…, the same at every level from mod 81 to mod 729.
   - As the orbits unfold outward, no slower mode appears.
+  - [Review 87, 2026-11-26] The largest orbit at each level covers the one below, so the lower level's eigenvalues recur above by
+    pull-back; what the levels add is that no slower mode appears. Mod 729 is by sparse Arnoldi (eight eigenvalues), with no
+    committed convergence check.
 - **At 5, which is not one of the whole's primes, nothing settles** in the levels run.
 - **This is the first number the whole fixes by its own dynamics** rather than by symmetry alone. It is algebraic (at a
-  finite level), as B1992 requires.
+  finite level), as B1992 requires (true of any eigenvalue of an integer matrix, so not a test of B1992; Review 87).
 - **It is not read as anything physical,** and no Standard Model shape was asked for.
 
 ## What is open

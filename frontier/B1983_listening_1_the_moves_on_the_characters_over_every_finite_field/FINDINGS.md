@@ -33,14 +33,14 @@ Standard Model. Register rows P-882, P-845, P-629 and P-694. **0 of 19.**
 |---|---|
 | E1: the cusp's leaf κ = −2 is one orbit of nonzero points for every p ≥ 5 | **holds**, 13 of 13 primes, with or without P (the calibration) |
 | E2: at p = 2 and 3 the cusp's leaf is the origin or nearly | **holds**: at p = 3 the leaf is the common point alone (B1601's fact, from the whole); at p = 2, one orbit of 4 and the origin |
-| E3: some other leaf splits | **holds**: at p ≥ 29 more than half the leaves split |
+| E3: some other leaf splits | **holds** at every p run; at 29 ≤ p ≤ 43 more than half the leaves split, at 47, 23 of 47 [Review 87, 2026-11-26: was "at p ≥ 29 more than half", false at 47] |
 
 - **What every move fixes.** Only the common point (0, 0, 0), on the cusp's leaf, and the trivial character (2, 2, 2),
   on "nothing" (p ≥ 3; at p = 2 they coincide).
 - **The swap P changes no orbit, at any prime or leaf.** GM5c, open in GENESIS, is invisible to the whole action's orbits.
 - **Post hoc, labelled** (`leaves_posthoc.py`, `leaves_posthoc_run.txt`; written after the run was read):
   - **among the integer leaves κ = −40, …, 40, only the cusp's leaf κ = −2 is connected at every prime 5 ≤ p ≤ 47.**
-  - The leaves whose commutator has finite order (κ = −1, 0, 1) are connected at one or two primes at most.
+  - The leaves whose commutator has finite order (κ = −1, 0, 1) are connected at few primes: κ = −1 and 0 at 5 only, κ = 1 at 5, 7 and 43 [Review 87, 2026-11-26: was "one or two primes at most"].
   - The "nothing" leaf, κ = 2, is connected at none.
 
 ## What the whole does, read in its own terms

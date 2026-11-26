@@ -801,3 +801,16 @@ The cold read (B1975) mended faults in all eight arcs it read, among them B1971'
 - R86-1 to R86-6.
 
 Nothing is compared with data. 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-26 (Review 87)
+
+Touched at Review 87 (its anchor `36f9cc5c2`). **The window (`f4a0ab61f` to `36f9cc5c2`) holds the listening line's arcs B1976 to B2012:**
+- the moves over every finite field and the cusp's integer readings (B1983, B1993);
+- the slow decay up the towers and its closed form (B1996, B1997);
+- the charge split at omega and across the leaf (B2000, B2001);
+- the halving at the whole's prime, its mechanism, its small group, its derivation and its exceptions (B2002 to B2010);
+- the mirror's lock (B2008);
+- the other listeners checked (B2011): a rate formula at the primes 3, 5, 7 and the level mod 135 that broke two of the record's correlations;
+- a blind re-listen compared with the record (B2012): a pairing law of the modular group on every orbit.
+- **Review 87 (B2013):** seven of eight plants caught; eight of ten arcs read mended; the review opened late (R87-1).
+- **Owed from this window:** B2009's exceptions given their eigenvalues (R87-2), why 5 or 7 breaks the halving (R87-3), and the window read by the other model family (R86-4).

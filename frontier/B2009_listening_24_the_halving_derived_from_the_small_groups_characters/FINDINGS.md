@@ -7,7 +7,7 @@ and 243).** Main, 2026-11-26, in the author's /loop "continue the listening line
 
 - **B2002 and B2003:** p_neutral(2x) = 2^d (x² − 9) x S(x), up the 3-tower from mod 27.
 - **B2004:** the whole is ⟨C⟩ * ⟨σ⟩. W is 6 Π₀P_σΠ₀ on the neutral sector and −3 Π_qP_σΠ_q on each charged sector.
-- **B2005:** ρ factors through G_k exactly where the halving holds. The stabiliser is ⟨C⟩ at mod 27 and 81, and of order 9 at
+- **B2005:** ρ factors through G_k exactly where the halving holds [in the levels B2005 ran; not a law, see the dated note]. The stabiliser is ⟨C⟩ at mod 27 and 81, and of order 9 at
   mod 243.
 - **B2006:** G_k is S₄ with a 3-adic layer.
 - **Swept:** `VERDICT topic-sweep /character table|Frobenius|induced representation|Ind_S|twist by the order-6/: 8 of 1750 arcs on main match (NEGATIVE 1, PROVED 7); 1 register rows match (QUEUED 1)`.
@@ -51,7 +51,12 @@ At all three levels the six exceptions are the same:
   - S₄'s sign, which is the alternation −6;
   - one 2-dimensional representation, which is the null mode.
 
+  [Review 87, 2026-11-26: these three are matched to the modes 6, −6 and 0 by count. The script computes degrees, m, m′ and the C-neutral
+  dimension only, and labels ρ³ as S₄'s sign without checking it. agy's C61 claims the assignment (registered, not checked).]
+
   Their weighted count is 3, the identity's three left-out modes, and the number of points ω's exchange fixes.
+- [Review 87: the charge-1 sector follows from the charge-2 one by complex conjugation, W being real; and Perm(O) = Ind_S^G 1
+  because the action is transitive; both standard, stated here.]
 - **The identity, now derived,** has been checked exactly at mod 27 and 81 and to 10⁻⁸ at mod 243 (B2002, B2003). It holds for
   the reason above.
 
@@ -63,7 +68,8 @@ At all three levels the six exceptions are the same:
   - twisting by the character pairs every representation with another, and the stabiliser sees the two sides equally.
 - **The only exceptions are six small representations,** the same at every level run. The three of them the neutral sector
   sees are the constant, the alternation, and one 2-dimensional representation, exactly the modes the halving leaves out.
-- **The layer's growth changes none of this:** the exceptions do not move from mod 27 to mod 243.
+- **The layer's growth changes none of this:** the exceptions do not move from mod 27 to mod 243 [Review 87: the rows of degree,
+  m, m′ and dimension agree at the three levels; that the characters are the same is B2010's inflation from mod 27].
 - **No rate is read as physical, and nothing is compared with data.**
 
 ## What is open

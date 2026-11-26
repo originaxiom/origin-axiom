@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1709** |
-| words of findings prose | **1,568,676** |
+| research arcs with findings | **1710** |
+| words of findings prose | **1,571,038** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1709** (100.0 %) |
+| arcs carrying an authored verdict | **1710** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1202 |
+| PROVED | 1203 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2012`** (2258 words, 0 locks)  
-“LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), six sharpen it, eight are new and two split; main checked the new ones that decide: the four-move sum is 3(SP + PS) - 2S on every orbit, so its spectrum pairs lambda with lambda + 2 by the two-subspace theorem (exact on five orbits, modulo three primes at mod 135): a law of the modular group, not of the whole; the 6-point dihedral orbit on every leaf k = t^2 (B1989's owed family); the point-count rule p^2 + p(3 chi(k - 4) + chi(k(k - 4))) + 1; residues 3 mod 4 and 3, 6 mod 9 never attained and 15 locally solvable leaves without a point to 3000; two equal 2-adic halves on k = 5 mod 8; the mod-5 cusp orbit is the icosahedral 40-orbit reduced; and the halving holds at 54, 108, 162 but fails at 189 as at 135, so its failure at mixed levels is not the icosahedral origin”  
-`B2012_listening_27_the_blind_re_listen_compared_with_the_record/FINDINGS.md`
+**PROVED — `B2013`** (1714 words, 0 locks)  
+“REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in eight of the ten arcs read; main checked each on the live tree and mended it -- B1980's withdrawn S-failure struck from its verdict line, body and lock labels, B1983's split and connectivity counts, B1993's and B2008's readings marked as readings and B1993's lock made to rerun, B1995's basis-dependent row and per-move normalisation, B1996's caveats and lock, B2004's scope, B2009's mode assignment marked as by count, B2011's and B2012's patterns scoped to the cases run; the review opened late (40 landings, not 34), main's miss; anchor 36f9cc5c2”  
+`B2013_review_87_entered_seven_of_eight_plants_caught_and_the_window_mended/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

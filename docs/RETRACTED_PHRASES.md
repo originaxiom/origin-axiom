@@ -4,6 +4,8 @@
 retracted the bare use of "VEV" and wrote a rule; one hour later the LAW_MAP audit found that
 exact error still live in a row written the same day. A retraction needs a **sweep**.*
 
+**Currency (verified 2026-11-26, through B2013, at Review 87).** The B1975–B2013 window retracted two correlations, B2003's and B2005's (B2011), registered below, and withdrew B1980's S-failure (B1982, registered as "through the one cusp"); Review 87 (B2013) struck the remaining instances of the last from B1980's verdict line and body. Its other mends were scopings, with no phrase owed a sweep.
+
 **How this works.** Each row is a phrase that must not appear as a **live claim** anywhere in
 the tracked corpus. It **may** appear inside a retraction record, a correction banner, a
 quotation of what was formerly claimed, or a test that enforces its absence — those are
@@ -269,6 +271,10 @@ the sweep reads what follows the quotation and takes the row for a reading.]*
 | "explains W72's rank 3" | B1653's claim line and THE_WEAVE; withdrawn by B1653's S129 correction and B1655 | W72's lift is the two-point mechanism carried in τ, not a fibre profile; where R is a matter mode the τ-integral cannot lift the zero |
 | "through the one cusp" | B1980's title, part B and its verdict line; P-882's first wording (d2dd6951c); withdrawn 2026-11-25 (B1982) | with the canonical end transformed by the record's law L(−1/τ) = L(τ) + log∣τ∣, frame C is S-covariant to 6e-16; the one hole is the read-out, not the frame |
 | "in 17 classes" | B1977's title and verdict line; corrected 2026-11-25 (B1979) | B1977's 17 classes were a finite-interval artefact of a three-decimal key; the converged classes are 12 |
+| "where it fails, the group keeps only ℤ₂" | B2005's title (stated beyond the eleven levels it ran); corrected 2026-11-26 (B2011) | at mod 135 the halving fails and ρ factors through G₁₃₅, so ℤ₆ survives; what decides is B2009's condition on the stabiliser |
+| "survives exactly where the halving holds" | restatements of B2005 (OPEN_LEADS, B2007); corrected 2026-11-26 (B2011) | the same: ℤ₆ surviving is needed for B2009's twist and does not suffice |
+| "exactly where ω's exchange fixes three points" | B2003's title and LISTENING 18's law-map row; corrected 2026-11-26 (B2011) | at mod 135 C fixes three points on the orbit and the halving fails (10 of 959 charged roots unpaired), and at mod 189 too (B2012) |
+| "exactly where omega's exchange fixes three points" | the same, in ASCII (B2003's law-map row and CAMPAIGN_STATUS); corrected 2026-11-26 (B2011) | as above |
 
 **Currency read, 2026-10-21 (S158, at B1690).** The arcs B1656–B1690 were read for withdrawn phrases: none withdraws a
 banked phrase (B1659 and B1664 withdrew readings before their seals, which are not banked phrases; B1685's tags

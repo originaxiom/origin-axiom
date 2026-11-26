@@ -39,7 +39,7 @@ P-882, P-845 and the retired τ = ω (GENESIS v1.35). **0 of 19.**
   - one orbit of 210 that mixes the three patterns with two negative readings.
 
   So the moves fix one sign pattern and permute the other three.
-- **The sign patterns are the four lifts of one representation from PSL(2) to SL(2),** the record's spin structures. The
+- **The sign patterns are the four lifts of one representation from PSL(2) to SL(2),** the record's spin structures (a reading, cited, not computed here; Review 87). The
   central sign actions (GM5b's candidate) would join the two orbits.
 
 ## What the whole does, read in its own terms

@@ -17,6 +17,14 @@ def test_mechanism():
     assert "SUMMARY K3: at mod 9, 25, 5, 7 some other word outside it fixes a point: True" in out
 
 
+def test_localized():
+    # Review 87: the localisation counts were not held
+    t = (HERE / "localize_posthoc_run.txt").read_text()
+    for lvl, n in (("mod 27 (72 points)", 39), ("mod 81 (648 points)", 39), ("mod 243 (5832 points)", 66)):
+        line = [l for l in t.splitlines() if l.startswith(lvl)][0]
+        assert "the points they fix: %d, all among C's fixed points: False" % n in line
+
+
 def test_cycle_types():
     out = (HERE / "cycles_posthoc_run.txt").read_text()
     for lab in ("mod 27", "mod 81", "mod 243"):

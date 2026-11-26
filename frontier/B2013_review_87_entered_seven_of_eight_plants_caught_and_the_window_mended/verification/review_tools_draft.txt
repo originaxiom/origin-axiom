@@ -1,0 +1,41 @@
+window f4a0ab61f..36f9cc5c2: 40 commits (40 on the first-parent line), 38 arcs with a verdict (B1975 … B2012)
+remotes: mirrors ['origin', 'backup']; missing mirrors none; other remotes not read: ['codeberg', 'golden_gate']
+loop: Review 86 block -- open ['R86-1', 'R86-2', 'R86-3', 'R86-4', 'R86-5', 'R86-6']; carried 8 (oldest: [('R84-1', 2), ('R84-2', 2), ('R84-3', 2), ('R84-5', 2)]); open items left in superseded blocks: none
+branches: 26 unmerged leaves; unregistered: none; on one remote only: ['2026-11-05', 'B1668_the_price_of_the_nineteen', 'audit-2026-11-02', 'closure', 'cool-hamilton-k9eqvo', 'cusp-action-2026-11-20', 'endgame', 'fork-2026-09-20', 'foundations', 'foundations-v2', 'frontier-2026-10-26', 'independent-2026-11-03', 'kind-hypatia-uk0vv9', 'landing', 'outside-bench', 'paper-review-verification-kaz3f5', 'physical-bridge-2026-09-05', 'project-thread-hctlox', 'read', 'self-consistent-loop-2026-11-11', 'sep16-branch', 'stage4-sync-2026-11-11', 'standard-model-derivation-0qt6ao', 'verify', 'weave-physics-archive-2026-10-11', 'web-seat']; remotes out of step: none
+   2026-11-05                               +19  tip 2026-11-07  registered
+   B1668_the_price_of_the_nineteen          +10  tip 2026-10-17  registered
+   audit-2026-11-02                         +154  tip 2026-11-19  registered
+   closure                                  +68  tip 2026-11-17  registered
+   cool-hamilton-k9eqvo                     +192  tip 2026-11-14  registered
+   cusp-action-2026-11-20                   +316  tip 2026-11-26  registered
+   endgame                                  +28  tip 2026-11-16  registered
+   fork-2026-09-20                          +311  tip 2026-10-13  registered
+   foundations                              +30  tip 2026-11-18  registered
+   foundations-v2                           +38  tip 2026-11-19  registered
+   frontier-2026-10-26                      +34  tip 2026-10-27  registered
+   independent-2026-11-03                   +4  tip 2026-11-03  registered
+   kind-hypatia-uk0vv9                      +1  tip 2026-10-06  registered
+   landing                                  +1  tip 2026-10-17  registered
+   outside-bench                            +14  tip 2026-09-18  registered
+   paper-review-verification-kaz3f5         +22  tip 2026-10-01  registered
+   physical-bridge-2026-09-05               +1027  tip 2026-11-20  registered
+   project-thread-hctlox                    +3  tip 2026-10-06  registered
+   read                                     +1  tip 2026-11-15  registered
+   self-consistent-loop-2026-11-11          +466  tip 2026-11-25  registered
+   sep16-branch                             +98  tip 2026-09-29  registered
+   stage4-sync-2026-11-11                   +7  tip 2026-11-11  registered
+   standard-model-derivation-0qt6ao         +1361  tip 2026-11-25  registered
+   verify                                   +584  tip 2026-11-26  registered
+   weave-physics-archive-2026-10-11         +3  tip 2026-10-13  registered
+   web-seat                                 +1380  tip 2026-11-25  registered
+seals: 0 in the window; with defects: 0
+provenance: 5440 added lines scanned, 0 hits, 0 in public-facing files
+advancement: LAW_MAP +41 rows, THEOREM_REGISTRY +0 rows
+errors: new classes none; instances none
+new vocabulary (word pairs in >= 3 of the window's claims and in none before) not in TERMINOLOGY.md: exact data-free, tower proved, cusp's leaf, neutral sector, whole's prime, whole's own, omega's orbit, orbit mod, halving holds, cube group, charged pair's, charged pair
+gates: 56 named by a test; not named by any: none
+gate controls: 56 registered failing-path tests; unregistered: none
+fresh-clone: NOT RUN @ 36f9cc5c2 (pass --fresh-clone)
+relays open: outbound 30 {'AUDIT_LANE': 1, 'SM': 3, 'AGY': 8, 'CHAT1': 2, 'PHYSICAL': 4, 'ADVISOR': 11, 'ALL_SEATS': 1}; inbound 199 {'CODEX': 2, 'ADVISOR': 40, 'AGY': 79, 'AGY002': 31, 'PHYSICAL': 28, 'CHAT1': 19}; declined 70; banked 748
+chain gap (the review adjudicates the top; promotions are pinned in docs/CHAIN_COVERAGE.json): 1118 of the record's arcs on a surface and not in the chain; top: B1098 (8), B959 (7), B1100 (7), B952 (7), B1086 (6), B1000 (6), B1484 (6), B1070 (6)
+sample seed: f4a0ab61f; to be read in full (seeded by the anchor): B1980, B1983, B1993, B1995, B1996, B2004

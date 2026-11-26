@@ -4,7 +4,10 @@
  "instrument": false,
  "creates_law": false,
  "identifications": [],
- "depends_on": ["B1994", "B1986"],
+ "depends_on": [
+  "B1994",
+  "B1986"
+ ],
  "rests_on_seat": [],
  "cites_seat": [],
  "supersedes": null,
@@ -16,6 +19,6 @@
   "reach": "class",
   "hypotheses": "exact linear algebra on the moves' linear parts at the common point; the tower above is not included"
  },
- "claim_one_line": "LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike in strength: W+ has diagonal 2/3, 2/3, 2/3 in the charge basis, its slowest modes (1 +- i sqrt 7)/2 overlap each member 1/3, W+-'s long-run shares are 2/3 each; only the faster real mode (eigenvalue 1) avoids the neutral member; omega labels the three, the dynamics does not separate them in magnitude",
+ "claim_one_line": "LISTENING 11, THE UNFOLDING ON OMEGA'S THREE CHARGE MEMBERS (PROVED, exact; data-free; for the moves' linear parts at the common point): the whole's unfolding does not commute with omega's symmetry (X2, that W+- would, failed) and treats the three charge members alike in strength: W+ has diagonal 2/3, 2/3, 2/3 in the charge basis, its slowest modes (1 +- i sqrt 7)/2 overlap each member 1/3, W+-'s long-run shares are 2/3 each; only the faster real mode (eigenvalue 1) avoids the neutral member; omega labels the three, the dynamics does not separate them in magnitude",
  "weave_or_thread": "weave (every move acting together, nothing chosen)"
 }

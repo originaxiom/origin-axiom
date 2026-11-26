@@ -1,6 +1,6 @@
 # B1980 — What could fix the height: the act fixes only cusps on the level-30 curve, and those it fixes are B1976's 96 points; frame C has no duality τ ↦ −K/τ beyond SL(2, ℤ) [CORRECTED 2026-11-25, B1982: the claim that frame C is not S-covariant and reads the curve through the one cusp i∞ is WITHDRAWN; with its end law it is S-covariant]
 
-**Verdict: PROVED (A, exact) and NEGATIVE (B, no duality of the declared family; frame C fails the S move, also with its end read on the whole curve).** Main,
+**Verdict: PROVED (A, exact) and NEGATIVE (B, no duality of the declared family) [Review 87, 2026-11-26: "frame C fails the S move, also with its end read on the whole curve" struck from this line; B1982 withdrew it].** Main,
 2026-11-25. Data-free. Register rows P-629, P-845 and P-882 (new). **0 of 19.**
 
 *Dated correction (2026-11-25, B1982; main's own error, the claim retracted):* part B's "frame C fails S, so it reads the curve
@@ -99,18 +99,18 @@ and the act)".
 |---|---|
 | K0 (the copied frame, given the same end, against `parts`) | holds; difference 0 at 12 points × 3 sectors × 2 heights |
 | the end | L at 0.4i is now 2.3796, the value at 2.5i, where the code had read 2.7193 |
-| S-cov (the S move, plain matching) | **fails**: largest distance 0.12, 0.18 and 0.32 (1.25/0.8, 1.5/(2/3), 2.5/0.4) |
-| S-cov (wider matching, `s_wider_cov.py`: any sector permutation, either reading, up/down order) | **fails**: 0.12, 0.18 and 0.31; its control at one height gives 0 |
+| S-cov (the S move, plain matching) | [WITHDRAWN, B1982: run with a wrong end law] fails: largest distance 0.12, 0.18 and 0.32 (1.25/0.8, 1.5/(2/3), 2.5/0.4) |
+| S-cov (wider matching, `s_wider_cov.py`: any sector permutation, either reading, up/down order) | [WITHDRAWN, B1982: run with a wrong end law] fails: 0.12, 0.18 and 0.31; its control at one height gives 0 |
 | F-cov (the nine K ≠ 1) | none passes; largest distances 0.59 to 0.96, as before |
 
-- **The end is not the breaker.** Read covariantly, it is S-invariant by construction, and the frame still fails S.
+- **[WITHDRAWN, Review 87, 2026-11-26, after B1982: this run's end law was wrong; with the record's law frame C is S-covariant, so nothing below breaks S]** The end is not the breaker. Read covariantly, it is S-invariant by construction, and the frame still fails S.
   What breaks S is among:
   - the channel norm F_u, with its π log y;
   - the a₀ term;
   - the characteristic map (a, 2b), whose factor 2 treats the two cycles differently;
   - the Higgs triplet's normalisation.
 
-  These are P-882's Q1.
+  These are P-882's Q1 (retired by B1982).
 - **Disclosed and not fixed here:** above height 6 the end is still the table's value at 6, in every run on record.
 
 ## What it means
@@ -121,9 +121,9 @@ and the act)".
   - [withdrawn] It reads the level-30 curve through one cusp, i∞, out of 288.
   - At the author's word (2026-11-25), this is the same mistake the record made with m004: reading the instrument through
     one hole. It recurs at every level: the object, the point, the cusp, the height, the level.
-  - B1978's classes changing along the act's orbits are the same structure heard through different cusps.
+  - [withdrawn with the bullet above] B1978's classes changing along the act's orbits are the same structure heard through different cusps.
   - B1981 shows that the whole instrument is not an average.
-- **The next step is to locate the one-hole ingredient.** The end, read covariantly, is not the breaker. What remains is
+- **[WITHDRAWN, Review 87, 2026-11-26, after B1982: there is no S-breaking ingredient; the one hole is the read-out]** The next step is to locate the one-hole ingredient. The end, read covariantly, is not the breaker. What remains is
   F_u with its π log y, the a₀ term, the (a, 2b) characteristic map, and the Higgs's normalisation. Then frame C is
   rebuilt covariant over the whole curve (P-882). Asked of that frame, P-845's class and the height become one question:
   where the object sits on the curve.

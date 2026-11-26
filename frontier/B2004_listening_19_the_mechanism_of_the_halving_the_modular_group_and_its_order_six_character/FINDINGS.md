@@ -49,16 +49,18 @@ Register row P-882. **0 of 19.**
   | mod 5, leaf | 58 | 20 | 38 | all of ℤ₆ \ {1} |
   | mod 7, leaf | 125 | 20 | 105 | all of ℤ₆ \ {1} |
 
-  C's cycle type is three fixed points with the rest in 3-cycles. On the 3-tower, every word outside Γ′ that fixes a point acts
+  On the 3-tower C's cycle type is three fixed points with the rest in 3-cycles (at mod 9, two; Review 87). On the 3-tower, every word outside Γ′ that fixes a point acts
   with exactly C's cycle type, and ρ is ω^{±1}. That is what a conjugate of C^{±1} in the finite group acting on the orbit
-  would show.
+  would show. [Review 87, 2026-11-26: among the 217 words of length 1 to 10 run; equal cycle type is not conjugacy, and agy's C60 reports
+  7,776 elements at mod 243 with C's cycle type that are not conjugate to C^{±1} (registered, not checked)]
 
 ## What the whole does, read in its own terms
 
 - **The whole is the modular group:** the exchange C of ω's three, of order 3, and one involution σ, of order 2.
 - **Its unfolding is 6σ on the neutral sector and −3σ on each charged sector.** The factor 2 between them is 6 : 3.
 - **Why the two sectors' copies of σ are opposite at the whole's prime 3.** Twisting the action by the modular group's order-6
-  character does nothing there, except through elements that act exactly like ω's exchange.
+  character does nothing there, except through elements that act exactly like ω's exchange [Review 87: a reading of the words
+  run, not a theorem; B2009 derives the halving from the characters instead].
   - Those elements have three fixed points, and the identity leaves out exactly three modes.
   - At other levels, elements of every other kind fix points (involutions, order-6 types), and the copy breaks.
 - **So the halving is the arithmetic of the modular group at its prime 3:** the commutator subgroup (ω's torus, B1993) and its

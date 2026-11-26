@@ -1,4 +1,4 @@
-# B2003 — Listening 18: the half-scale copy of the neutral sector is the whole's prime 3's own — it holds exactly up the 3-tower from mod 27 (mod 27, 81, 243), exactly where ω's exchange fixes three points, and nowhere else run (mod 9, 25, 49, 15, 45)
+# B2003 — Listening 18: the half-scale copy of the neutral sector is the whole's prime 3's own — it holds exactly up the 3-tower from mod 27 (mod 27, 81, 243), exactly where ω's exchange fixes three points, and nowhere else run (mod 9, 25, 49, 15, 45) [CORRECTED 2026-11-26, B2011: not a law beyond the levels run; see the dated correction]
 
 **Verdict: PROVED (exact by FLINT up to 1,372 points; mod 243 to 10⁻⁸ by the symmetric eigensolver; R1 and R3 failed as
 worded).** Main, 2026-11-25, in the author's /loop "continue the listening line". Data-free. Register row P-882. **0 of 19.**
@@ -55,7 +55,7 @@ worded).** Main, 2026-11-25, in the author's /loop "continue the listening line"
 
 ## Dated correction (2026-11-26, B2011)
 
-- **"Exactly where ω's exchange fixes three points" is not a law.** It held in every level this arc ran. At mod 135 = 27 · 5
+- **Corrected: "exactly where ω's exchange fixes three points" is not a law.** It held in every level this arc ran. At mod 135 = 27 · 5
   (a level found by agy's C60, checked on main in B2011), C fixes 3 points on the orbit of (3,3,3), and the halving fails: 10 of
   the 959 charged roots are left unpaired. The three fixed points are needed (they give the identity's three left-out
   modes) but do not suffice. What decides is B2009's condition on the stabiliser.

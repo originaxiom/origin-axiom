@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1709 |
-| … PROVED | 1202 |
+| arcs with a verdict file | 1710 |
+| … PROVED | 1203 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -24,13 +24,14 @@
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 2012 |
+| harvest rows (the last number) | 2013 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B2013 | PROVED | “REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in eight of the te…” |
 | B2012 | PROVED | “LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), si…” |
 | B2011 | PROVED | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125…” |
 | B2010 | PROVED | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreduci…” |
@@ -42,7 +43,6 @@
 | B2004 | PROVED | “LISTENING 19, THE MECHANISM OF THE HALVING (PROVED for its checks; data-free): sigma = R C^-1 = (y, x, xy - z) is an involution and R = sigma C, L = sigma C^2, X = C sigma C, so the whole acts through the modular group…” |
 | B2003 | PROVED | “LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's e…” |
 | B2002 | PROVED | “LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor…” |
-| B2001 | PROVED | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest dec…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-26, S306p: LISTENING 27 (B2012, PROVED for its checks; a weave result; data-free)).** The second guard: a listener blind to the record, given only F2 and the two moves, heard twenty things. Four were already on the record, six sharpen it, eight are new. The deciding new one is a pairing law every orbit of the moves carries, lambda with lambda + 2 for the four-move sum, which comes from the modular group's two finite generators alone: a fact of the group, not the whole. It also heard the dihedral family B1989 owed, the rule behind B1990's point counts, integer leaves with no points, and two 2-adic halves nothing yet separates. The halving survives the 2-part (54, 108, 162) an…”
+“LATEST (2026-11-26, S306p: REVIEW 87 ENTERED (B2013, PROVED, a process arc)).** Three cold readers caught seven of eight sealed plants (the miss again a number inside a dated note) and found real faults in eight of the ten arcs read; each was checked on the live tree and mended. The heaviest: B1980 still carried the S-failure B1982 withdrew; B1983's counts were wrong at their edges; B1995 printed a basis-dependent overlap; B2009 matched its exceptions to the left-out modes by count only; several arcs wrote patterns over the cases run as laws. The review opened late, at the 40th landing, main's miss. Anchor 36f9cc5c2. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

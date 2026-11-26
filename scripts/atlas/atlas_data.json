@@ -18694,6 +18694,7 @@
   "B2008": {
    "slug": "listening 23 the charged pair is locked by the wholes mirror",
    "motifs": [
+    "coupling",
     "eisenstein",
     "amphichiral_cp",
     "wrt_quantum"
@@ -18706,7 +18707,7 @@
    "obstacle": "cancellation",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "physics"
   },
   "B2009": {
    "slug": "listening 24 the halving derived from the small groups characters",
@@ -18829,6 +18830,33 @@
    "obstacle": "units_scale",
    "obstacle_conf": 1,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B2013": {
+   "slug": "review 87 entered seven of eight plants caught and the window mended",
+   "motifs": [
+    "choice",
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B10",
+    "B11",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B201": {

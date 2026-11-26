@@ -1,4 +1,4 @@
-# B2005 — Listening 20: at the whole's prime the whole acts on ω's orbit through a small group that keeps the modular group's full abelianisation ℤ₆, from mod 27 on — exactly where the halving holds; where it fails, the group keeps only ℤ₂
+# B2005 — Listening 20: at the whole's prime the whole acts on ω's orbit through a small group that keeps the modular group's full abelianisation ℤ₆, from mod 27 on — exactly where the halving holds; where it fails, the group keeps only ℤ₂ [CORRECTED 2026-11-26, B2011: not a law beyond the levels run; see the dated correction]
 
 **Verdict: PROVED (exact: sympy Schreier–Sims and a walk over every element; S1 failed as worded at mod 243; the criterion
 across the failing levels found post hoc).** Main, 2026-11-25, in the author's /loop "continue the listening line".

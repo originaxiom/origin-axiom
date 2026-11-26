@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Currency (2026-11-26, at Review 87, through B2013):** the live list is still the point register's open rows. Review 87 (B2013) mended eight of the ten arcs it read and added R87-1 to R87-5; the leads it ranks are R87-2 (B2009's exceptions given their eigenvalues, with the agy lane's C61) and R87-3 (why a factor 5 or 7 breaks the halving).
+
 > **Currency (2026-11-26, through B2011; read against every arc from B2009):** the live list is still the point register's open rows. What the window moved, on the listening line (all data-free, nothing compared with data):
 >
 > - the halving derived: the twist by the order-6 character, decided by the stabiliser's condition (B2009); its six exceptions live on C3 x S3 (B2010);
@@ -24,7 +26,7 @@
 > **The split and the halving:**
 > - across the leaf the 1 + 2 is a split in persistence (B2001);
 > - at the whole's prime 3 the charged pair is an exact half-scale copy of the neutral sector, from mod 27 on (B2002, B2003);
-> - the mechanism: the modular group <C> * <sigma> and its order-6 character, which survives exactly where the halving holds (B2004, B2005);
+> - the mechanism: the modular group <C> * <sigma> and its order-6 character, which survives exactly where the halving holds (B2004, B2005); [corrected 2026-11-26, B2011: not a law beyond the levels run]
 > - the small group is the cube group S4 with a 3-adic layer that carries omega's charge (B2006), growing by elementary abelian steps to mod 729 (B2007);
 > - the charged pair is locked by the whole's own mirror, the swap of the readings, which is not a move (B2008).
 >

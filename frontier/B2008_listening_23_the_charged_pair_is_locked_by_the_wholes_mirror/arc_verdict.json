@@ -4,9 +4,16 @@
  "instrument": false,
  "creates_law": false,
  "identifications": [],
- "depends_on": ["B2004", "B2002", "B2001", "B1983"],
+ "depends_on": [
+  "B2004",
+  "B2002",
+  "B2001",
+  "B1983"
+ ],
  "rests_on_seat": [],
- "cites_seat": ["agy-exp's X-NATURAL-INTERACTIONS NI-4 (harvest row 2009): its reflection lock of the charged pair on X_omega, registered, not checked here; this arc gives the whole's own form of the lock"],
+ "cites_seat": [
+  "agy-exp's X-NATURAL-INTERACTIONS NI-4 (harvest row 2009): its reflection lock of the charged pair on X_omega, registered, not checked here; this arc gives the whole's own form of the lock"
+ ],
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
@@ -16,6 +23,6 @@
   "reach": "class",
   "hypotheses": "sympy; exact permutation matrices; GAP through sage for membership and abelianisation; tau's two relations reasoned by hand before the card (disclosed)"
  },
- "claim_one_line": "LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1), so it commutes exactly with the unfolding at every level run and carries charge 1 onto charge 2; it is not one of the moves (tau not in G_k at mod 27, 81, 243; <G_k, tau> has order 2|G_k|), and with it the abelianisation is Z2 x Z2, omega's order-3 charge gone; so the pair is locked by the orientation-reversing mirror while the charge lives in the orientation-preserving part, and the 2 -> 1 + 1 split needs a handedness the whole does not supply (the chirality bit, met from the unfolding)",
+ "claim_one_line": "LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1), so it commutes exactly with the unfolding at every level run and carries charge 1 onto charge 2; it is not one of the moves (tau not in G_k at mod 27, 81, 243; <G_k, tau> has order 2|G_k|), and with it the abelianisation is Z2 x Z2, omega's order-3 charge gone; so the pair is locked by the orientation-reversing mirror while the charge lives in the orientation-preserving part, and the 2 -> 1 + 1 split needs a handedness the whole does not supply (read as the record's chirality bit: a reading, Review 87)",
  "weave_or_thread": "weave (every move acting together, nothing chosen)"
 }

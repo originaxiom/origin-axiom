@@ -14,6 +14,7 @@ def test_part_a_reruns():
 
 
 def test_part_b_no_duality():
+    # Review 87: the S-move part of this run used the table outside its domain (withdrawn, B1982); held as run.
     t = (HERE / "duality_run.txt").read_text()
     assert "SUMMARY C0 passes: True; C1 passes: True" in t and "SUMMARY dualities passing (largest d < 1e-8 at both heights): []" in t
     big = [float(x) for x in re.findall(r"^K = \d+: .*largest d ([\d.e+-]+)", t, re.M)]
@@ -25,6 +26,8 @@ def test_part_b_no_duality():
 
 
 def test_part_b_corrected_end():
+    # Review 87 (2026-11-26): these asserts hold the record of runs made with a wrong end law (B1982 withdrew their S verdict);
+    # they guard the runs' text as run, not a live claim about frame C, whose S-covariance B1982's own lock holds.
     t = (HERE / "duality_cov_run.txt").read_text()
     assert "SUMMARY K0 passes: True" in t and "SUMMARY S-cov (plain matching) passes: False" in t and "SUMMARY F-cov: K passing with the covariant end: []" in t
     s = [float(x) for x in re.findall(r"^S move, covariant end: .*largest d ([\d.e+-]+)", t, re.M)]

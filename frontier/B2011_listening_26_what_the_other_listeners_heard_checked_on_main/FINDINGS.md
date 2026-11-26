@@ -1,4 +1,4 @@
-# B2011 — Listening 26: what the other listeners heard, checked on main — one rate law at the primes 3, 5 and 7, a level that breaks B2005's pattern, and every computed step of a proof for every rung
+# B2011 — Listening 26: what the other listeners heard, checked on main — one rate law at the primes 3, 5 and 7, a level that breaks B2005's pattern, and every computed step of an argument for every rung [Review 87: was "a proof"]
 
 **Verdict: PROVED for its checks (exact: FLINT over the integers and modulo primes, sympy, numpy on every point to mod 6561);
 the all-k assembly read, not checked line by line.** Main, 2026-11-26, in the author's /loop "continue the listening line".
@@ -23,7 +23,7 @@ main's own code (B1996's orbits, B2002's sectors, B2000's linearisation), not by
 
 ## What escaped main's ears, heard by another listener
 
-- **One law for the slow decay at the primes 3, 5 and 7 (agy-exp's NH-2).** Λ(M) = √(w + √(w² − 4)), w = (1 + 4cos(π/M))/2.
+- **One formula for the slow decay at the primes 3, 5 and 7, in the five levels run (agy-exp's NH-2).** Λ(M) = √(w + √(w² − 4)), w = (1 + 4cos(π/M))/2.
   On the largest orbit over the common point, Λ(M)/2 is main's slowest decay of W₊ = P_L + P_R:
 
   | level | orbit | main's slowest decay (double) | Λ(M)/2 | M | the exact factor of Λ(M) divides W₊'s polynomial |
@@ -35,7 +35,8 @@ main's own code (B1996's orbits, B2002's sectors, B2000's linearisation), not by
   | mod 625 | 3000 | 0.994710391601242 | 0.994710391601228578 | 25 | modulo three 62-bit primes |
 
   Main had these numbers (B1987, B1996) and the closed form at mod 81 alone (B1997). It had not heard that they are one law,
-  with M the level's period (3, 9 on the 3-tower; 5, 25 on the 5-tower; 7 at 343). The law is credited to agy-exp.
+  with M the level's period (3, 9 on the 3-tower; 5, 25 on the 5-tower; 7 at 343) [Review 87: M's rule is read off the five levels; a law for every
+  level is not claimed]. The law is credited to agy-exp.
 - **B2005's pattern is not a law (agy's C60).** At mod 135 = 27 · 5 the orbit of (3,3,3) has 2880 points and C fixes 3. ρ
   factors through G₁₃₅, because the orbit reduces onto the mod-27 orbit and ρ factors through G₂₇. Yet the halving fails:
   the gcd of p_neutral(2x)/2^d with the charged polynomial has degree 949 of 959, and the 10 charged roots left over are

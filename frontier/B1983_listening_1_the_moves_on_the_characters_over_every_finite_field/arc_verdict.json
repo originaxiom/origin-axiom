@@ -4,7 +4,13 @@
  "instrument": false,
  "creates_law": false,
  "identifications": [],
- "depends_on": ["B1600", "B1601", "B497", "B1342", "B309"],
+ "depends_on": [
+  "B1600",
+  "B1601",
+  "B497",
+  "B1342",
+  "B309"
+ ],
  "rests_on_seat": [],
  "cites_seat": [],
  "supersedes": null,
@@ -16,6 +22,6 @@
   "reach": "class",
   "hypotheses": "exact on p <= 47; the reading that kappa = -2 is the only integer leaf (to +-40) connected at every prime is post hoc; the literature calibration is cited from memory"
  },
- "claim_one_line": "LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they connect all nonzero points at every prime 5 <= p <= 47 (at p = 3 the leaf is the common point alone), and post hoc the cusp's leaf is the only integer leaf (to +-40) connected at every prime; the swap P changes no orbit; so the whole singles out the cusp and leaves structure on it only at 2 and 3",
+ "claim_one_line": "LISTENING 1, THE MOVES ON THE CHARACTERS OVER EVERY FINITE FIELD (PROVED, exact on p <= 47; data-free): acting together, L and R fix only the common point and the trivial character; on the cusp's leaf kappa = -2 they connect all nonzero points at every prime 5 <= p <= 47 (at p = 3 the leaf is the common point alone), and post hoc the cusp's leaf is the only integer leaf (to +-40) connected at every prime; the swap P changes no orbit; which suggests, as a reading over the primes run (Review 87), that the whole singles out the cusp and leaves structure on it only at 2 and 3",
  "weave_or_thread": "weave (every move acting together, every leaf and prime, nothing chosen)"
 }

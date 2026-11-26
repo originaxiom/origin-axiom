@@ -1,0 +1,9 @@
+Review 87 plants, fixed before any reader starts (2026-11-26)
+PLANT 1 | B1983 | FINDINGS.md | was: **holds**, 13 of 13 primes, with or without P | now: **holds**, 15 of 15 primes, with or without P
+PLANT 2 | B1996 | FINDINGS.md | was: | mod 125 | 3,125 | 120 | 1.6779 | 0.8389 | | now: | mod 125 | 3,125 | 120 | 1.6779 | 0.8398 |
+PLANT 3 | B2004 | FINDINGS.md | was: σ = RC⁻¹ = (x, y, z) ↦ (y, x, xy − z) is an involution | now: σ = RC⁻¹ = (x, y, z) ↦ (y, x, xz − y) is an involution
+PLANT 4 | B2009 | FINDINGS.md | was: At mod 135 ρ factors and | now: At mod 153 ρ factors and
+PLANT 5 | B2011 | FINDINGS.md | was: and the 10 charged roots left over are | now: and the 12 charged roots left over are
+PLANT 6 | B2011 | verification/test_b2011_listeners.py | was: max(diffs) < 1e-12 | now: max(diffs) < 1e12
+PLANT 7 | B1993 | FINDINGS.md | was: one orbit of 210 that mixes | now: one orbit of 240 that mixes
+PLANT 8 | B2008 | arc_verdict.json | was: not one of the moves (tau not in G_k at mod 27 | now: one of the moves (tau in G_k at mod 27

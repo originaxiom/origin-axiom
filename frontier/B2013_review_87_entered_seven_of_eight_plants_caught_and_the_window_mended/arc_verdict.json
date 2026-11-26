@@ -1,0 +1,21 @@
+{
+ "id": "B2013",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1975", "B1980", "B1983", "B1993", "B1995", "B1996", "B2004", "B2008", "B2009", "B2011", "B2012"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's window f4a0ab61f to 36f9cc5c2",
+  "object": "ten arcs read whole by three cold readers on a reading copy with eight sealed plants; every finding checked by main on the live tree and mended or answered",
+  "reach": "single",
+  "hypotheses": "readers of main's own model family that wrote none of the arcs; the plants sealed by sha256 before reading; the review opened late, at the 40th landing (R84-4, R85-1 not met); the other family's reading owed"
+ },
+ "claim_one_line": "REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in eight of the ten arcs read; main checked each on the live tree and mended it -- B1980's withdrawn S-failure struck from its verdict line, body and lock labels, B1983's split and connectivity counts, B1993's and B2008's readings marked as readings and B1993's lock made to rerun, B1995's basis-dependent row and per-move normalisation, B1996's caveats and lock, B2004's scope, B2009's mode assignment marked as by count, B2011's and B2012's patterns scoped to the cases run; the review opened late (40 landings, not 34), main's miss; anchor 36f9cc5c2",
+ "weave_or_thread": "neither (a review of the record's own window)"
+}

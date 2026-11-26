@@ -1,4 +1,4 @@
-# B1995 — Listening 11: the whole's unfolding does not tell ω's three charge members apart in strength: each persists alike (2/3 per move), its slowest modes overlap all three equally, and only a faster real mode avoids the neutral member
+# B1995 — Listening 11: the whole's unfolding does not tell ω's three charge members apart in strength: each persists alike (W₊'s diagonal 2/3, for a sum of two moves) [Review 87, 2026-11-26: was "2/3 per move"], its slowest modes overlap all three equally, and only a faster real mode avoids the neutral member
 
 **Verdict: PROVED (exact; one expectation failed as worded).** Main, 2026-11-25, in the author's /loop "continue the
 listening line". Data-free. Register rows P-882 and FK15 (P-694). **0 of 19.**
@@ -28,7 +28,7 @@ listening line". Data-free. Register rows P-882 and FK15 (P-694). **0 of 19.**
   |---|---|---|
   | W₊'s complex pair, the slowest to fade (1/√2 per move) | (1 ± i√7)/2 | ⅓, ⅓, ⅓ |
   | W₊'s real mode, faster (½ per move) | 1 | 0, ½, ½ |
-  | every mode of W± | 2, 2, 0 | ⅓, ⅓, ⅓ |
+  | W±'s modes (its eigenvalue-2 space is a plane) | 2, 2, 0 | [Review 87, 2026-11-26: the row printed ⅓, ⅓, ⅓ for sympy's basis of that plane, which depends on the basis; only the plane's projector is meaningful, and it gives each member 2/3, the long run below] |
 
 - **The long run under W±:** each charge member keeps a share of 2/3 in its top eigenspace, the same for all three.
 

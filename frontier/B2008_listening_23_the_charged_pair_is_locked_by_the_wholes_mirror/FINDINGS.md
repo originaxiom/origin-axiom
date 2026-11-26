@@ -46,14 +46,14 @@ author's /loop "continue the listening line". Data-free. Register rows P-882 and
   - It reverses ω's charge.
   - It commutes with every move taken together, so with the unfolding.
   - It is not itself a move. The moves realise only the orientation-preserving modular group.
-- **The whole with its mirror cannot carry ω's charge.** Adding the swap leaves only ℤ₂ × ℤ₂: the sign of S₄ and the sign of
-  orientation.
+- **The whole with its mirror cannot carry ω's charge** at the three levels run. Adding the swap leaves only ℤ₂ × ℤ₂: the sign of S₄ and the sign of
+  orientation (the ℤ₂ × ℤ₂ is computed; naming its factors so is a reading, not computed; Review 87).
   - So the charge, and with it the halving's tie (B2005, B2006), lives in the orientation-preserving part.
   - The charged pair is locked by the orientation-reversing part.
 - **Read in the record's own terms:**
   - **The split so far:** 3 → 1 + 2 is native (B2000, B2001).
   - **The last split:** 2 → 1 + 1 needs an ingredient that tells the two orientations apart, a handedness that picks L over R.
-    The whole, taken with all its symmetries, does not supply one. This is the chirality bit, met from the unfolding.
+    The whole, taken with all its symmetries, does not supply one. This is the chirality bit, met from the unfolding [Review 87, 2026-11-26: a reading in the record's vocabulary; the fact is only that a symmetry which is not a move locks the pair].
   - **agy-exp's synthesis:** this is the whole's own form of its statement that the last split needs a P-breaking asymmetry.
 - **No Standard Model shape was asked for, and nothing is compared with data.**
 
