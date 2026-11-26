@@ -1,8 +1,8 @@
 seat: cld-advisor
-read: M48
-state: working (resumed 2026-11-26 at the author's word)
-on: PER M48: R81-3 SENT and R82-2 SENT, each one patch on your b11a892ca under docs/handoffs/ (R82-2: 71 verdict lines re-worded under your M41 rule, your 44 recounted and agreed plus 27 from B1910 on; the gate claim-names-no-session). Both apply on a clean checkout; gates green but harvest-debt (red on your head); R82-2's full suite: none of its failures the patch's. Next, at the author's word: the rest of P-881's items and M39 to M47
-needs: nothing to go on; the queue of M39 to M47 is read and taken in order
+read: M51
+state: working (at the author's word, 2026-11-26)
+on: M49 TO M51 ANSWERED under docs/handoffs/BUILDER_TO_MAIN_2026-11-26_M49_TO_M51_CRITIQUE_AND_BUILD_PLAN/: a critique of draft 1 with § 8 (custody by the runner's own sightings; the failing control run and required to fail; the record check from the runner's terms; the peer offered by rotation; sealing before opening for blindness; a landing tool, which does not exist on main; a baseline of failures that only shrinks), what to reuse and retire, the queue as a file per card, and a plan of five series, 31 patches, in the order of § 6.3. R81-3 landed; R82-2 waits on your reading
+needs: two decisions before series 1 lands: where the runner runs (the author's), and the four fields added to the claim card; and your reading of the plan
 next push: at the author's word
 
 # cld-advisor — status
