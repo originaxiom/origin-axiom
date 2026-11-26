@@ -1,0 +1,23 @@
+{
+  "card": "AGY-C63-COUNTERCHECK",
+  "date": "2026-11-26",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "methods": [
+    "Cayley-Hamilton Chebyshev doubling through 3^11 = 177,147 + numerical 8x8/5x5 Schur-Euler det check",
+    "Explicit BFS group order 864 on O_27 x X_0(Z/4Z)_smooth + bipartite Schur Danilevsky on mod 216, 135, & 189",
+    "Symbolic mod-16 polynomial identity + unsearched k=37 leaf across mod 8, 16, 32",
+    "Symbolic concave inequality + local solvability + wider box [-30..|k|]^2 + D1 k=-8,-4,-2 verification",
+    "Full-reorthogonalized Krylov Jacobi tridiagonalization on O_81 certifying 1/324 top & 1/108 graphene LDOS at (3,3,3)"
+  ],
+  "planted_faults_caught": 5,
+  "planted_faults_total": 5,
+  "rpf_verdicts": {
+    "RPF1_wrong_3tower_exponent_moves_mod9": true,
+    "RPF2_mod189_and_135_odd_primes_fail_halving": true,
+    "RPF3_raw_kronecker_without_even_correction_breaks": true,
+    "RPF4_buggy_mordell_m2_and_neighbor_54_caught": true,
+    "RPF5_paired_bulk_carries_over_99pct_of_333": true
+  },
+  "verified_producer_output_sha256_16": "b624260d340e409f"
+}
