@@ -1,0 +1,342 @@
+{
+  "E1_all_k_single_orbit_and_assembly": {
+    "B_matrix_entries": [
+      [
+        -3,
+        7
+      ],
+      [
+        -7,
+        18
+      ]
+    ],
+    "control_1_passed": true,
+    "control_1_wrong_exp2_mod9_x": 6,
+    "direct_Sk_eq_O3k_mod27_81_243": true,
+    "rungs_verified_mod_3_to_k": [
+      27,
+      81,
+      243,
+      729,
+      2187,
+      6561,
+      19683,
+      59049
+    ],
+    "schur_euler_symbolic_assembly_exact": true
+  },
+  "E2_mixed_towers_2adic_vs_odd_primes": {
+    "G_O2_order": 12,
+    "K_matrix_M3_minus_I_div_4": [
+      [
+        -1,
+        2
+      ],
+      [
+        -2,
+        5
+      ]
+    ],
+    "LR_cubed_trivial_on_O27": true,
+    "control_2_passed": true,
+    "decoupled_mixed_fibers_1296_and_864_exact": true,
+    "det_C_minus_I_on_V0_F2": 1,
+    "mod108_exact_Z_x": {
+      "d_chg": 95,
+      "d_neu": 98,
+      "halving_holds": true,
+      "n": 288
+    },
+    "mod135_unpaired_Z_y": {
+      "d_chg": 959,
+      "d_neu": 962,
+      "n": 2880,
+      "paired_deg": 949,
+      "unpaired_count": 10,
+      "unpaired_poly_in_y_eq_2x": "(y**2 - 4*y - 8)*(y**2 + 4*y - 8)*(y**3 - 12*y - 8)*(y**3 - 12*y + 8)"
+    },
+    "mod189_unpaired_Z_y": {
+      "d_chg": 671,
+      "d_neu": 674,
+      "n": 2016,
+      "paired_deg": 663,
+      "unpaired_count": 8,
+      "unpaired_poly_in_y_eq_2x": "(y**2 - 2*y - 16)*(y**2 - 2*y - 4)*(y**2 + 2*y - 16)*(y**2 + 2*y - 4)"
+    },
+    "mod216_exact_Z_x": {
+      "d_chg": 383,
+      "d_neu": 386,
+      "halving_holds": true,
+      "n": 1152
+    },
+    "mod54_exact_Z_x": {
+      "d_chg": 95,
+      "d_neu": 98,
+      "halving_holds": true,
+      "n": 288
+    },
+    "odd_primes_5_to_293_broken_by_LR3_powers": 60,
+    "odd_primes_5_to_293_tested": 60,
+    "orbit_432_size": 4608,
+    "sample_odd_prime_witnesses": {
+      "11": {
+        "fix_On_C": 2,
+        "m_pow": 1,
+        "orbit_size": 88
+      },
+      "13": {
+        "fix_On_C": 0,
+        "m_pow": 1,
+        "orbit_size": 208
+      },
+      "17": {
+        "fix_On_C": 2,
+        "m_pow": 2,
+        "orbit_size": 340
+      },
+      "193": {
+        "fix_On_C": 4,
+        "m_pow": 2,
+        "orbit_size": 37828
+      },
+      "293": {
+        "fix_On_C": 2,
+        "m_pow": 2,
+        "orbit_size": 86728
+      },
+      "5": {
+        "fix_On_C": 2,
+        "m_pow": 1,
+        "orbit_size": 40
+      },
+      "7": {
+        "fix_On_C": 0,
+        "m_pow": 1,
+        "orbit_size": 28
+      },
+      "83": {
+        "fix_On_C": 2,
+        "m_pow": 3,
+        "orbit_size": 6640
+      }
+    }
+  },
+  "E3_2adic_halves_hensel_bit_and_kronecker": {
+    "control_3_k1_mod8_orbit_sizes": [
+      18,
+      18,
+      6,
+      6
+    ],
+    "control_3_passed": true,
+    "grad_F_identically_even_on_5_mod_8": true,
+    "k5_tower_mod8_to_mod128": [
+      {
+        "beta_values_per_orbit": [
+          0,
+          1
+        ],
+        "eta2_values_per_orbit": [
+          [
+            1
+          ],
+          [
+            -1
+          ]
+        ],
+        "half_size": 72,
+        "k": 5,
+        "mod_2_to_m": 8
+      },
+      {
+        "beta_values_per_orbit": [
+          0,
+          1
+        ],
+        "eta2_values_per_orbit": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "half_size": 288,
+        "k": 5,
+        "mod_2_to_m": 16
+      },
+      {
+        "beta_values_per_orbit": [
+          0,
+          1
+        ],
+        "eta2_values_per_orbit": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "half_size": 1152,
+        "k": 5,
+        "mod_2_to_m": 32
+      },
+      {
+        "beta_values_per_orbit": [
+          0,
+          1
+        ],
+        "eta2_values_per_orbit": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "half_size": 4608,
+        "k": 5,
+        "mod_2_to_m": 64
+      },
+      {
+        "beta_values_per_orbit": [
+          0,
+          1
+        ],
+        "eta2_values_per_orbit": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "half_size": 18432,
+        "k": 5,
+        "mod_2_to_m": 128
+      }
+    ],
+    "kronecker_square_congruence_F_minus_4_mod16_exact": true,
+    "mod16_pts_checked": 1152
+  },
+  "E4_mordell_reduction_15_hasse_leaves": {
+    "control_4_max_scrambled_digits": 3471,
+    "control_4_passed": true,
+    "control_4_solvable_leaves_descended": 6,
+    "fifteen_hasse_leaves_proved_empty": [
+      {
+        "k": -54,
+        "mordell_B_max": 12,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -47,
+        "mordell_B_max": 10,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -44,
+        "mordell_B_max": 10,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -38,
+        "mordell_B_max": 10,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -26,
+        "mordell_B_max": 8,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -19,
+        "mordell_B_max": 8,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -18,
+        "mordell_B_max": 8,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -14,
+        "mordell_B_max": 6,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -8,
+        "mordell_B_max": 2,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": -4,
+        "mordell_B_max": 2,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": 46,
+        "mordell_B_max": 8,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": 56,
+        "mordell_B_max": 9,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": 86,
+        "mordell_B_max": 11,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": 124,
+        "mordell_B_max": 13,
+        "status": "PROVED_EMPTY"
+      },
+      {
+        "k": 126,
+        "mordell_B_max": 13,
+        "status": "PROVED_EMPTY"
+      }
+    ],
+    "max_mordell_bound_across_15": 13
+  },
+  "E5_wavefunction_vortex_vs_neutral_bulk": {
+    "control_5_charged_LDOS_at_336": "2/3",
+    "control_5_passed": true,
+    "max_charged_vortex_leak_at_Fix_C": "0.0",
+    "mod27_graphene_2sqrt7_LDOS_err_vs_1_12": "1.6927119e-36",
+    "null_exception_in_ker_W6_exact": true,
+    "tower_LDOS_at_333": [
+      {
+        "charged_LDOS_at_all_3_Fix_C": "0",
+        "mod_3_to_k": 27,
+        "n_k": 72,
+        "paired_neutral_bulk_LDOS_at_333": "17/18",
+        "unpaired_exception_LDOS_at_333": "1/18"
+      },
+      {
+        "charged_LDOS_at_all_3_Fix_C": "0",
+        "mod_3_to_k": 81,
+        "n_k": 648,
+        "paired_neutral_bulk_LDOS_at_333": "161/162",
+        "unpaired_exception_LDOS_at_333": "1/162"
+      },
+      {
+        "charged_LDOS_at_all_3_Fix_C": "0",
+        "mod_3_to_k": 243,
+        "n_k": 5832,
+        "paired_neutral_bulk_LDOS_at_333": "1457/1458",
+        "unpaired_exception_LDOS_at_333": "1/1458"
+      }
+    ],
+    "unpaired_null_LDOS_mod27": "1/36"
+  },
+  "card": "AGY-C62",
+  "controls_passed": 5,
+  "controls_total": 5,
+  "date": "2026-11-26",
+  "scope": "0_of_19_all_k_orbit_mixed_towers_2adic_halves_mordell_and_vortex"
+}
