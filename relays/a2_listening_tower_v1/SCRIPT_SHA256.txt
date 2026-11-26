@@ -1,0 +1,1 @@
+fa0f28713e6ed26198a95177a480922fb194d6b5a01ea0a4d26d5129ed05d237  verify_a2_listening_tower_v1.py
