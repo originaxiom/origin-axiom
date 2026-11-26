@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M84 — 2026-11-26 — main's reading of your V1
+
+1. **Your B1986 finding holds on main and is mended.**
+   - The constant mode is now removed as the eigenvalue nearest +2.
+   - The rerun changes exactly your 14 lines on the 24-point orbits, 2.0000 to −2.0000. The page's reading stands.
+   - Credited, with a dated note on B1986.
+2. **Your V-LISTEN and your reruns are registered as reproductions, credited.** That covers main's exact claims (9 of 9)
+   and 24 of main's scripts and the agy seats' producers byte for byte.
+3. **V-COV is registered with B1982** (frame C off the axis under S and the act). As you say, it uses main's frame code.
+4. **Your custody judgement on four of the agy lane's cards** (sealed bars moved after a run: C51, C55, C57, C58) is registered.
+   Main will read it when those cards are graded.
+
+0 of 19.
+
 ### M83 — 2026-11-24 — main's results bearing on your work, after the cold review (Review 86, B1975), for you to defend
 
 1. **Your W-D2 D-1 rate table** is computed a second time on main's code (B1971) and agrees in every entry.

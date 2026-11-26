@@ -1,0 +1,30 @@
+{
+ "id": "B2015",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1996",
+  "B1997",
+  "B2002",
+  "B2007",
+  "B2011",
+  "B2014"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's X-EXHAUSTIVE-LISTENING (origin/agy/self-consistent-loop-2026-11-11 @ 3027116dc, harvest row 2015): EL-3's six-move formula and freeze, and EL-2's full-spectrum halving at mod 729, recomputed on main's own code and verified"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the six-move sum on the largest orbit over the common point mod 27, 81, 125, 243, 343, 625, 729",
+  "object": "the six-move sum's slowest rate below the top against 2 sqrt(5 + 4 cos(pi/M)); its freeze on the 3-tower at mod 81; the halving on the full spectrum at mod 729",
+  "reach": "class",
+  "hypotheses": "R1 exact (FLINT over Z; mod 625 modulo three primes); R2 and R3 double precision on dense matrices; M read off the levels run"
+ },
+ "claim_one_line": "LISTENING 29, THE SIX-MOVE RATE LAW, THE FREEZE AND THE FULL SPECTRUM AT MOD 729 (PROVED for its checks; data-free): on the largest orbit over the common point the six-move sum's largest eigenvalue below 6 is exactly 2 sqrt(5 + 4 cos(pi/M)) at mod 27, 81, 125, 343 (its minimal polynomial divides the characteristic polynomial over Z) and 625 (modulo three primes), with the same M as the four-move formula, in the levels run; at mod 243 the new fibre's top is 5.672086 < 5.919044, so on the 3-tower the rate freezes at mod 81; at mod 729 the halving holds on the full spectrum, 17,495 of 17,495 charged eigenvalues matching the halved neutral ones to 5.3e-14 (double precision)",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

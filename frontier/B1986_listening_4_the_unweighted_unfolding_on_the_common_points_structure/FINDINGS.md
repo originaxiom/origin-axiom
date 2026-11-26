@@ -69,3 +69,11 @@ Unattended, on the listening line. Data-free. Register rows P-882 and P-694 (FK1
 - **Higher levels.** The same spectrum on the tower (mod 27, 81; 125; 343), where the orbits grow beyond the cube.
 - **The loop (PF5).** The whole read back on itself: does a self-consistent state exist in which the persistent modes
   feed the unfolding that produced them?
+
+## Dated note (2026-11-26, the web seat's V1, harvest row 2018)
+
+- **The committed output's mode label is corrected.** `listen4.py` took the constant mode as the first of a sort that floating
+  noise reorders where +2 and −2 tie in modulus. It now removes the one eigenvalue nearest +2, the Perron root, which is simple
+  on a connected orbit. The rerun changes exactly 14 lines, the 24-point orbits at mod 25 and 49, from 2.0000 to −2.0000.
+  That is the reading this page already gave (the alternation lives on the free orbits). Found by the web seat's V1 and
+  credited to it.

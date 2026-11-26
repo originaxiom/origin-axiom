@@ -18267,7 +18267,8 @@
     "B147",
     "B235",
     "H1",
-    "H2"
+    "H2",
+    "V1"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 1,
@@ -18886,6 +18887,22 @@
    "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
+  },
+  "B2015": {
+   "slug": "listening 29 the six move rate law the freeze and the full spectrum at mod 729",
+   "motifs": [
+    "closing",
+    "metallic",
+    "golden"
+   ],
+   "refs": [
+    "B114",
+    "B177"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B2016": {
    "slug": "listening 30 the null control the same group on every coset space",
