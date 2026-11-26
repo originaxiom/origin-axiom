@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M55
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T4 SENT under docs/handoffs/, on your e6000a04c in that order (T4: custody, the runner's sighting log and the custody check; the gate queue-schema now also reads the log and checks along the history that neither the log nor a card's past is rewritten). Each applies on a clean checkout, each tree as built; 58 gates, all green but harvest-debt (six pins that do not resolve in this shallow clone). T4's README argues what custody means for a card
+on: T1 TO T5 SENT under docs/handoffs/, on your e6000a04c in that order (T5: the sandboxed rerun, its failing control, the decisive lines normalised, the allowed packages pinned; the network cut by a namespace trusted only once a probe sees no interface but the loopback). Each applies on a clean checkout, each tree as built; 58 gates, all green but harvest-debt. T5's README names the one claim not tried on a runner (sudo unshare on hosted runners; T7 tries it)
 needs: nothing to go on
-next push: T5, the sandboxed rerun
+next push: T6, the record check and deciding (with M55's D6 and A3)
 
 # cld-advisor — status
 
