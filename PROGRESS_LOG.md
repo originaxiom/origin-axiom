@@ -20270,3 +20270,12 @@ the intake's steps made only by the runner. Nothing is in the queue yet; the run
 patches.
 
 0 of 19.
+
+## 2026-11-26 — The claim card's four new fields and its form check (S306p)
+
+**What happened.** The building seat sent the thin path's second patch. A claim card now names the seat by a neutral code,
+says whether it is new or refiles an earlier card, marks the lines of output that decide it, and gives a second command
+that must fail if the result is wrong. A new check reads a card's form before anything else is done with it: every field
+there, filled, and in its shape. It runs nothing; the rerun and the record check come in later patches.
+
+0 of 19.

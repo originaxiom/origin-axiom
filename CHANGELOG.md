@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)
+
+- **`docs/CLAIM_CARD.md`:** the four fields of draft 1's § 9 (the card's id, new or refiling a card; the seat's code, never
+  a name; the decisive lines, marked and hashed; the failing control, a command); python-flint, sage and GAP among the
+  allowed packages; a dated note that the section on how main takes a card stands until the trial.
+- **`scripts/queue/card_form.py`:** the intake's first check, the card's form: every field there and filled, a field that
+  runs over lines read whole, "none" only where the page allows it, the kinds and effects, the decisive script's form and
+  its packages, the decisive lines, and a failing control that is a command other than the decisive one. Runs by hand.
+- **New test** `tests/test_card_form.py` (4 tests): 19 plants, one a rule; the page's template holds exactly the fields the
+  check reads; the command by hand.
+
 ## S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)
 
 - **`scripts/queue/queue_schema.py`:** a claim card's record in the queue, `queue/cards/Q<nnnn>.json`: id, seat code,

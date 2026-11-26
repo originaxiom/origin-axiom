@@ -10,7 +10,9 @@ Copy the block below. Keep each field to one or two lines. A field that does not
 ```
 # CLAIM CARD — <the result in one line>
 
-- seat, branch, commit:
+- card id: new | refiles Q<nnnn>
+- seat code: <the seat's neutral code, fam<n>-v<n>-<effort>-<nn>; never a name>
+- seat, branch, commit: <the seat code>, <the branch>, <the full 40-hex commit>
 - kind: theorem | computation | prediction | identification | negative
 - touches: <codes from docs/TOTAL_INPUTS_SCOREBOARD.md (A01 to A12, F1 to F4, S01 to S03, LAMBDA), identification rows
   (I-n), register rows (P-n), or one of the 19 parameters by name>
@@ -18,14 +20,27 @@ Copy the block below. Keep each field to one or two lines. A field that does not
 - imports: <every structure or assumption from outside the record it rests on, each named: for example "the MSSM's
   two-loop running", "M-theory flux quantisation", "three right-handed neutrinos">
 - premises on main: <arcs and register rows it uses>
-- decisive script: <path>, SHA-256 <first 16 hex>, depends on <only the standard library, mpmath, sympy, numpy, scipy>,
+- decisive script: <path>, SHA-256 <first 16 hex>, depends on <only the standard library, mpmath, sympy, numpy, scipy,
+  python-flint, sage, GAP>,
   run as <command>, output SHA-256 <first 16 hex>
+- decisive lines: <n> lines marked "DECISIVE:", SHA-256 <first 16 hex of those lines, as the rerun normalises them>
+- failing control: <a command, not the decisive one, that must exit with a failure if the result is wrong>
 - second computation: <which seat, with code that shares nothing, its path, and whether it agrees>
 - already on main?: <the topic-sweep line you ran on main, and the closest arc>
 - what would make it fail: <one control that must fail if the result is wrong>
 ```
 
+**The four fields added on 2026-11-26** (the framework's draft 1, § 9, agreed by the author; register row P-885; the thin
+path's patch T2): the card's id, the seat's code, the decisive lines and the failing control. The intake runner checks the
+form with `scripts/queue/card_form.py` before anything else. Only `imports`, `premises on main` and `second computation`
+may say "none". The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
+the rerun's).
+
 ## How main takes a card
+
+**[NOTE 2026-11-26 (P-885):** this section stands until the framework's trial runs; the intake, the peer stage and the two
+banking seats of the draft then take its place, and it is written again.**]**
+
 
 - **Tier A** applies when a card's effect removes, conditions or refutes a scoreboard code or one of the 19.
   - Main reproduces the decisive script in a sandbox: the author's ruling of 2026-11-24 allows a sealed,
