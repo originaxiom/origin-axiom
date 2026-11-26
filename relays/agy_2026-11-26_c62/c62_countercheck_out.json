@@ -1,0 +1,23 @@
+{
+  "card": "AGY-C62-COUNTERCHECK",
+  "date": "2026-11-26",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "methods": [
+    "Cayley-Hamilton Chebyshev doubling through 3^11 = 177,147 + numerical 8x8/5x5 Schur-Euler det check",
+    "Union-find + bipartite Schur Danilevsky over disjoint 1,060-bit (mod 216), 810-bit (mod 135), & 62-bit (mod 189) primes",
+    "Symbolic mod-16 polynomial identity + unsearched k=37 leaf across mod 8, 16, 32",
+    "Symbolic concave inequality + local solvability + wider box [-30..|k|]^2 check on all 15 Hasse leaves",
+    "Full-reorthogonalized Krylov Jacobi tridiagonalization on O_81 certifying 1/324 top & 1/108 graphene LDOS at (3,3,3)"
+  ],
+  "planted_faults_caught": 5,
+  "planted_faults_total": 5,
+  "rpf_verdicts": {
+    "RPF1_wrong_3tower_exponent_moves_mod9": true,
+    "RPF2_mod189_odd_prime_fails_halving": true,
+    "RPF3_raw_kronecker_without_even_correction_breaks": true,
+    "RPF4_neighbor_leaf_54_has_integer_point": true,
+    "RPF5_paired_bulk_carries_over_99pct_of_333": true
+  },
+  "verified_producer_output_sha256_16": "e9c0659983c8036e"
+}
