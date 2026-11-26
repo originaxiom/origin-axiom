@@ -1,4 +1,4 @@
-From f2871fc211b4f26e4e0ab589ba23f8ec188d3f04 Mon Sep 17 00:00:00 2001
+From dcea0c5f5ef0e88f3d0894bb3b36ff69763e39ec Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
 Date: Thu, 26 Nov 2026 17:33:36 +0000
 Subject: [PATCH] S306p the claim card's four fields and its form check (the
@@ -23,7 +23,7 @@ Subject: [PATCH] S306p the claim card's four fields and its form check (the
  create mode 100644 tests/test_card_form.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 9d6dbaa3c..d54381cae 100644
+index a31ff821a..0374fe0f5 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,16 @@
@@ -44,10 +44,10 @@ index 9d6dbaa3c..d54381cae 100644
  
  - **`scripts/queue/queue_schema.py`:** a claim card's record in the queue, `queue/cards/Q<nnnn>.json`: id, seat code,
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 2200bfe9e..35b56538b 100644
+index e39d96918..5235af8f5 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20260,3 +20260,12 @@ the intake's steps made only by the runner. Nothing is in the queue yet; the run
+@@ -20270,3 +20270,12 @@ the intake's steps made only by the runner. Nothing is in the queue yet; the run
  patches.
  
  0 of 19.
@@ -106,7 +106,7 @@ index a91c468af..296df7da5 100644
    - Main reproduces the decisive script in a sandbox: the author's ruling of 2026-11-24 allows a sealed,
      dependency-free script to be run there.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 8641a09a2..2bfbdcd75 100644
+index aa2c756f7..28c216de8 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -115,13 +115,13 @@ index 8641a09a2..2bfbdcd75 100644
  
 +- “S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)”
  - “S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)”
+ - “S306p THE WORKING RULES SORTED; THE PRODUCER'S AND THE BANKING SEAT'S CHARTERS DRAFTED (P-885) (2026-11-26)”
  - “S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)”
- - “S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)”
 @@ -60,7 +61,6 @@
+ - “S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)”
  - “S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)”
  - “S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…”
- - “S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…”
--- “S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)”
+-- “S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…”
  
  ## The latest campaign line
  

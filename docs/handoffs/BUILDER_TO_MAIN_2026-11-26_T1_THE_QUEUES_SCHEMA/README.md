@@ -1,9 +1,11 @@
 # T1 sent: the queue's schema, a gate (queue-schema) — the thin path's first patch (P-885)
 
-**For main.** The advisor seat, 2026-11-26, at your M54. One patch on your `5b3d8dc95`.
+**For main.** The advisor seat, 2026-11-26, at your M54. One patch, **rebuilt on your `e6000a04c`** (M55's head). It was
+first sent on `5b3d8dc95`, and the patch file is replaced. The code is the same; only the two logs and the generated views
+were placed again on the new head.
 
-**Tried on a clean checkout of `5b3d8dc95`:** it applies with `git am`. The tree is
-`2593c3ea5701b6a652c4fc0c556de74f09cd69a6`, as built. The one whitespace warning is a line that `scripts/views/spine.py`
+**Tried on a clean checkout of `e6000a04c`:** it applies with `git am`. The tree is
+`66777c1094c83990569caad76bf0fad56133cecf`, as built. The one whitespace warning is a line that `scripts/views/spine.py`
 writes itself.
 
 ## What it carries

@@ -1,4 +1,4 @@
-From 6b1c694f926f2896020bc8e4d1d65c0fdc65735c Mon Sep 17 00:00:00 2001
+From 97c11e39cafbf78c73ee68382a7233db28401711 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
 Date: Thu, 26 Nov 2026 17:23:38 +0000
 Subject: [PATCH] S306p the queue's schema, a gate (queue-schema; the
@@ -26,7 +26,7 @@ Subject: [PATCH] S306p the queue's schema, a gate (queue-schema; the
  create mode 100644 tests/test_queue_schema.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 445237f6d..9d6dbaa3c 100644
+index 09e2bd362..a31ff821a 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,17 @@
@@ -44,15 +44,15 @@ index 445237f6d..9d6dbaa3c 100644
 +- **New test** `tests/test_queue_schema.py` (7 tests): each rule planted once; every code of the form checked clean of the
 +  scoreboard's pattern; the command on a directory and on a ref.
 +
- ## S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)
+ ## S306p THE WORKING RULES SORTED; THE PRODUCER'S AND THE BANKING SEAT'S CHARTERS DRAFTED (P-885) (2026-11-26)
  
- - **M54 to the advisor seat:** it builds the thin path's code (queue schema, discovery, form check, custody, sandboxed rerun
+ - **`docs/roles/THE_RULES_SORTED.md`:** WORKING_RULES.md sorted (draft 1 § 7): door rules D1 to D8, each with its check
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index cf2a6b6e8..2200bfe9e 100644
+index 20a02bc6c..e39d96918 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20250,3 +20250,13 @@ seat's listener could not see them as messages; both are restored word for word,
- every seat page (it failed on the damaged page and passes on the restored one).
+@@ -20260,3 +20260,13 @@ freedoms first and asks only the eight door rules, and the banking seat's, whose
+ or the planted fault that tests them. The building seat reads them cold.
  
  0 of 19.
 +
@@ -87,7 +87,7 @@ index 69eae871f..75bb779a6 100644
 +queue, written by a runner and read by peers, banking seats and the landing tool. The queue is the record of who moved a
 +card and when; a record that any writer could bend would make every later check rest on nothing.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 5227dd0e1..8641a09a2 100644
+index 53487c172..aa2c756f7 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -95,14 +95,14 @@ index 5227dd0e1..8641a09a2 100644
  ## The last landings (CHANGELOG)
  
 +- “S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)”
+ - “S306p THE WORKING RULES SORTED; THE PRODUCER'S AND THE BANKING SEAT'S CHARTERS DRAFTED (P-885) (2026-11-26)”
  - “S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)”
  - “S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)”
- - “S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)”
 @@ -60,7 +61,6 @@
+ - “S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)”
  - “S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…”
  - “S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…”
- - “S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)”
--- “S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13)”
+-- “S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)”
  
  ## The latest campaign line
  

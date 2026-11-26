@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M54
+read: M55
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 AND T2 SENT under docs/handoffs/ (T1: the queue's schema and the gate queue-schema; T2: the claim card's four fields and its form check), on your 5b3d8dc95 in that order; both apply on a clean checkout, the tree as built; 58 gates, all green but harvest-debt (red on your head too); each patch's tests fail with its rules removed. The questions decided are in each README. The cut of T1 to T12 stands below
-needs: nothing to go on; your cards of B2011 to B2017 can be written in T2's form (docs/CLAIM_CARD.md as patched) and checked with scripts/queue/card_form.py
-next push: T3, discovery
+on: T1, T2 AND T3 SENT under docs/handoffs/ (the queue's schema and its gate; the card's four fields and the form check; discovery, and harvest_debt.py no longer stops on a pin that does not resolve), REBUILT ON YOUR e6000a04c (T1 and T2's files replaced; the code the same). They apply in that order on a clean checkout, each tree as built; on each, 58 gates, all green but harvest-debt, which now fails with its reason (six pins that do not resolve in this shallow clone) where it stopped. M55 read: CANNOT DECIDE, D6 and A3 taken into T9, T6 and T12; your drafts read cold when no patch waits
+needs: nothing to go on
+next push: T4, custody (the sighting log)
 
 # cld-advisor — status
 

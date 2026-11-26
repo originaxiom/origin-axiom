@@ -1,0 +1,455 @@
+From 532ea59378463b523e72af78b217c676c9e47d0e Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 26 Nov 2026 17:40:53 +0000
+Subject: [PATCH] S306p discovery: the intake finds the claim cards (the
+ framework's thin path, T3; P-885): scripts/queue/discover.py reads main and
+ every seat branch of the Pins table and files each card version the queue has
+ not seen (FILED by the runner, the next id, its commit), reports a branch it
+ cannot read and a card with no seat code, and links a refile by place or by
+ the decisive script's hash; harvest_debt.py marks a seat whose pin does not
+ resolve as skipped with its reason instead of stopping at KeyError 'head';
+ tests fail with each rule removed
+
+---
+ CHANGELOG.md                   |  13 +++
+ PROGRESS_LOG.md                |  10 ++
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ scripts/checks/harvest_debt.py |   5 +
+ scripts/queue/discover.py      | 186 +++++++++++++++++++++++++++++++++
+ tests/test_queue_discover.py   | 127 ++++++++++++++++++++++
+ 7 files changed, 344 insertions(+), 2 deletions(-)
+ create mode 100644 scripts/queue/discover.py
+ create mode 100644 tests/test_queue_discover.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 0374fe0f5..9f3819a92 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,18 @@
+ # Changelog
+ 
++## S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)
++
++- **`scripts/queue/discover.py`:** reads main and every seat branch of the Pins table (a masked ref read on its last
++  segment, as harvest_debt.py reads it) and files every version of a claim card the queue has not seen: FILED by the
++  runner, the next free id, the commit that last changed the card. A branch that cannot be read is reported and the others
++  are read; a card with no seat code is not filed and is reported; a new version of a card, or a card with the decisive
++  script of one already filed, is filed as its refile, and the note says whether the card declared it. Prints by default;
++  `--write` writes the new cards' files.
++- **`scripts/checks/harvest_debt.py`:** a seat whose pin is missing or does not resolve is marked skipped with its reason;
++  the report stopped at KeyError 'head' on it (red on main's head of 2026-11-26). The integrity line stands, so the gate
++  still fails on such a pin, now with its reason.
++- **New test** `tests/test_queue_discover.py` (5 tests), on a repository built for it.
++
+ ## S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)
+ 
+ - **`docs/CLAIM_CARD.md`:** the four fields of draft 1's § 9 (the card's id, new or refiling a card; the seat's code, never
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 5235af8f5..1decb68c4 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20279,3 +20279,13 @@ that must fail if the result is wrong. A new check reads a card's form before an
+ there, filled, and in its shape. It runs nothing; the rerun and the record check come in later patches.
+ 
+ 0 of 19.
++
++## 2026-11-26 — Discovery: the intake finds the claim cards on every branch (S306p)
++
++**What happened.** The building seat sent the thin path's third patch. A new script looks at main and at every seat branch
++for claim cards and files each one it has not seen in the queue, with its own number and the commit it came from. A branch
++it cannot read is named and passed over; a card that does not name its seat by a code is not filed, and is named so the
++seat can be told; a card filed again, changed or under another name, is linked to the first. The check that counts the
++seat branches' debts had stopped with an error on a seat whose marker it could not find; it now names that seat and why.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 28c216de8..9fa2515d1 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)”
+ - “S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)”
+ - “S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)”
+ - “S306p THE WORKING RULES SORTED; THE PRODUCER'S AND THE BANKING SEAT'S CHARTERS DRAFTED (P-885) (2026-11-26)”
+@@ -60,7 +61,6 @@
+ - “S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)”
+ - “S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)”
+ - “S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)”
+-- “S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 906bc58e4..c53267dd9 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1561 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1562 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1941,5 +1941,6 @@ Generated by `scripts/views/spine.py` — 1561 locks. Regenerated with the views
+ ## 2026-11-26
+ 
+ - — `test_card_form.py` 
++- — `test_queue_discover.py` 
+ - — `test_queue_schema.py` 
+ - — `test_verdict_schema_gate.py` 
+diff --git a/scripts/checks/harvest_debt.py b/scripts/checks/harvest_debt.py
+index f210d2d1c..0b0307dd2 100644
+--- a/scripts/checks/harvest_debt.py
++++ b/scripts/checks/harvest_debt.py
+@@ -725,12 +725,17 @@ def run(fetch=False, strict=False):
+                 report["integrity"].append(f"{k}: {s['skipped']}")
+             continue
+         pin_short = overrides.get(k, pins.get(k))
++        # CHANGED 2026-11-26 (the framework's thin path, T3; P-885): a seat with no pin, or a pin that does not resolve, was left
++        # in the report with neither a head nor a reason, and print_report stopped at KeyError 'head' (red on main's head of
++        # 2026-11-26); it is now marked as skipped, with its reason, and the integrity line stands as before.
+         if not pin_short:
+             report["integrity"].append(f"{k}: no pin in the `## Pins` table")
++            s["skipped"] = "no pin in the `## Pins` table"
+             continue
+         pin = _rev(pin_short)
+         if not pin:
+             report["integrity"].append(f"{k}: pin {pin_short} does not resolve")
++            s["skipped"] = f"pin {pin_short} does not resolve"
+             continue
+         s["head"], s["pin"] = head[:8], pin[:8]
+         rc, out = _git("rev-list", "--count", f"{pin}..{head}")
+diff --git a/scripts/queue/discover.py b/scripts/queue/discover.py
+new file mode 100644
+index 000000000..da20d2474
+--- /dev/null
++++ b/scripts/queue/discover.py
+@@ -0,0 +1,186 @@
++#!/usr/bin/env python3
++"""Discovery: the intake's search for claim cards (the framework's thin path, patch T3; draft 1 § 9, main's M54; P-885).
++
++Reads every seat branch named in docs/HARVEST_LEDGER.md's Pins table (as scripts/checks/seat_intake.py reads it) and
++main itself, and lists every claim card at each branch's head: a file under relays/claims/ whose first line opens
++'# CLAIM CARD'. A card is one version of one file: (branch, path, the file's blob). A version the queue has not seen is
++filed as a new card, FILED by the runner, with the next free id. Nothing is checked here but what filing needs:
++
++  - a branch that cannot be reached is reported, and the others are read (never a stop);
++  - a card whose seat code is not a seat code cannot be filed, because the queue holds codes only; it is reported to be
++    told to its seat;
++  - a new version of a card already in the queue, or a card with the same decisive script's hash as one in the queue, is
++    a refile; it is filed, linked to the card it refiles, and the report says whether the card itself said so (a refile
++    it did not declare is the form's to return, in the runner, T7).
++
++The form check (T2), custody (T4), the rerun (T5) and the record check (T6) come after, in the runner.
++
++    python3 scripts/queue/discover.py                          # prints what would be filed; writes nothing
++    python3 scripts/queue/discover.py --queue DIR --write      # writes the new cards' files into DIR
++    python3 scripts/queue/discover.py --at 2026-11-26T12:00:00Z  # the time to stamp (else now, in UTC)
++Run `git fetch --all` first; discovery reads the refs it finds."""
++import datetime
++import importlib.util
++import json
++import pathlib
++import re
++import subprocess
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[1]
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++QS = _load("queue_schema_for_discovery", HERE / "queue_schema.py")
++CF = _load("card_form_for_discovery", HERE / "card_form.py")
++CLAIMS = "relays/claims/"
++SCRIPT_HASH = re.compile(r"SHA-256 ([0-9a-f]{16})")
++
++
++def git(root, *args):
++    r = subprocess.run(["git", *args], cwd=root, capture_output=True, text=True)
++    return r.returncode, r.stdout, r.stderr.strip()
++
++
++def branches(root=ROOT, main="origin/main"):
++    """[(seat key, ref)]: main, then every seat of the Pins table"""
++    intake = _load("seat_intake_for_discovery", pathlib.Path(root) / "scripts" / "checks" / "seat_intake.py")
++    intake.ROOT = pathlib.Path(root)
++    return [("main", main)] + [(key, resolve(root, ref)) for key, ref, _pin in intake.pins()]
++
++
++def resolve(root, ref):
++    """the remote-tracking ref a Pins row names. The ledger masks some prefixes (`<v>/`), so a ref that does not resolve
++    as written is matched on its last segment, as harvest_debt.py's _resolve_branch does; it is kept as written when no
++    single ref matches, and is then reported as unreadable"""
++    if git(root, "rev-parse", "--verify", "-q", ref + "^{commit}")[0] == 0:
++        return ref
++    remote, short = ref.split("/", 1)[0], ref.rsplit("/", 1)[-1]
++    rc, out, _ = git(root, "for-each-ref", "--format=%(refname:short)", "refs/remotes/%s" % remote)
++    hits = [r for r in out.split() if r.rsplit("/", 1)[-1] == short]
++    return hits[0] if len(hits) == 1 else ref
++
++
++def cards_on(root, ref):
++    """(the cards at the ref's head as [(path, blob, commit, text)], None) or ([], why the ref cannot be read)"""
++    rc, out, err = git(root, "ls-tree", "-r", ref, "--", CLAIMS)
++    if rc != 0:
++        return [], "cannot be read (%s)" % (err.splitlines()[0] if err else "no such ref")
++    found = []
++    for line in out.splitlines():
++        meta, path = line.split("\t", 1)
++        mode, kind, blob = meta.split()
++        if kind != "blob" or not path.endswith(".md"):
++            continue
++        rc, text, _ = git(root, "cat-file", "blob", blob)
++        if rc != 0 or not text.startswith("# CLAIM CARD"):
++            continue
++        rc, commit, _ = git(root, "log", "-1", "--format=%H", ref, "--", path)
++        found.append((path, blob, commit.strip(), text))
++    return found, None
++
++
++def script_hash(fields):
++    m = SCRIPT_HASH.search(fields.get("decisive script", ""))
++    return m.group(1) if m else None
++
++
++def discover(queue, refs, root=ROOT, at=None, seen_blobs=None):
++    """queue: {id: record}; refs: [(key, ref)]. -> (new records, report lines). `seen_blobs` maps a card's blob to the id
++    it was filed under; the runner keeps it with the sighting log (T4), and a test may pass it"""
++    at = at or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
++    seen_blobs = dict(seen_blobs or {})
++    by_place = {(r["branch"], r["card_path"]): i for i, r in sorted(queue.items())}
++    by_script = {}
++    for cid, rec in sorted(queue.items()):            # the decisive script of each card already filed, read at its commit
++        rc, text, _ = git(root, "show", "%s:%s" % (rec["commit"], rec["card_path"]))
++        h = script_hash(CF.read(text)[1]) if rc == 0 else None
++        if h:
++            by_script.setdefault(h, cid)
++    numbers = [int(i[1:]) for i in queue]
++    report, new = [], {}
++    for key, ref in refs:
++        found, why = cards_on(root, ref)
++        if why:
++            report.append("%s (%s): %s; its cards are not read this round" % (key, ref, why))
++            continue
++        for path, blob, commit, text in found:
++            if blob in seen_blobs:
++                continue
++            title, fields, _layout = CF.read(text)
++            code = fields.get("seat code", "")
++            if title is None or QS.code_problems(code):
++                report.append("%s %s: not filed, its seat code %r is not a seat code; to be told to its seat"
++                              % (ref, path, code))
++                continue
++            branch = ref.split("/", 1)[1] if ref.startswith("origin/") else ref
++            earlier = []
++            if (branch, path) in by_place:
++                earlier.append(by_place[(branch, path)])
++            h = script_hash(fields)
++            if h and h in by_script and by_script[h] not in earlier:
++                earlier.append(by_script[h])
++            n = max(numbers or [0]) + 1
++            numbers.append(n)
++            cid = "Q%04d" % n
++            said = CF.CARD_ID.fullmatch(fields.get("card id", "") or "x")
++            declared = said.group(1) if said and said.group(1) else None
++            if earlier and declared not in earlier:
++                note = "found on its branch; a refile of %s it does not declare" % ", ".join(earlier)
++            elif declared and declared not in earlier:
++                note = "found on its branch; it says it refiles %s, which discovery does not link" % declared
++            else:
++                note = "found on its branch" + ("; refiles %s" % ", ".join(earlier) if earlier else "")
++            rec = {"id": cid, "seat_code": code, "branch": branch, "commit": commit, "card_path": path,
++                   "title": title[:240], "status": "FILED", "deciding": None, "heavy": False,
++                   "refiles": sorted(set(earlier + ([declared] if declared and declared in queue else []))),
++                   "history": [{"at": at, "status": "FILED", "by": "runner", "note": note}]}
++            new[cid] = rec
++            seen_blobs[blob] = cid
++            by_place[(branch, path)] = cid
++            if h:
++                by_script.setdefault(h, cid)
++            report.append("%s: %s %s (%s)" % (cid, ref, path, note))
++    return new, report
++
++
++def read_queue(path):
++    p = pathlib.Path(path)
++    return {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in sorted(p.glob("Q*.json"))} if p.is_dir() else {}
++
++
++def main(argv):
++    qdir = argv[argv.index("--queue") + 1] if "--queue" in argv else str(ROOT / QS.CARDS)
++    at = argv[argv.index("--at") + 1] if "--at" in argv else None
++    queue = read_queue(qdir)
++    seen = {}
++    for cid, r in queue.items():                      # the blobs already filed, read from their own branches
++        rc, out, _ = git(ROOT, "rev-parse", "%s:%s" % (r["commit"], r["card_path"]))
++        if rc == 0:
++            seen[out.strip()] = cid
++    new, report = discover(queue, branches(), at=at, seen_blobs=seen)
++    for line in report:
++        print(line)
++    bad = QS.queue_problems({k: json.dumps(v) for k, v in {**queue, **new}.items()})
++    if bad:
++        print("the queue would not hold its schema: " + "; ".join(bad[:5]))
++        return 1
++    if "--write" in argv:
++        pathlib.Path(qdir).mkdir(parents=True, exist_ok=True)
++        for cid, rec in new.items():
++            (pathlib.Path(qdir) / ("%s.json" % cid)).write_text(json.dumps(rec, indent=1, ensure_ascii=False) + "\n",
++                                                               encoding="utf-8")
++    print("%d new card(s)%s" % (len(new), ", written to %s" % qdir if "--write" in argv and new else ""))
++    return 0
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tests/test_queue_discover.py b/tests/test_queue_discover.py
+new file mode 100644
+index 000000000..825631c33
+--- /dev/null
++++ b/tests/test_queue_discover.py
+@@ -0,0 +1,127 @@
++"""2026-11-26 (the framework's thin path, patch T3; main's M54; register row P-885): discovery, scripts/queue/discover.py,
++and harvest_debt.py's stop on a pin that does not resolve.
++
++On a small repository built here: a card on a seat branch is filed FILED by the runner under the next id and holds the
++queue's schema; a branch that cannot be read is reported and the others are read; a card with no seat code is not filed
++and is reported; a file that is not a card is passed over; a second look files nothing new; a new version of a card, and a
++card with the same decisive script on another branch, are filed as refiles of the first, the note saying whether the card
++said so; a masked ref of the Pins table is read on its last segment. And harvest_debt.py reports a pin that does not
++resolve as a skipped seat with its reason, where it stopped at KeyError 'head'."""
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++D = _load("discover_under_test", "scripts/queue/discover.py")
++QS = D.QS
++
++CARD = """# CLAIM CARD — {title}
++
++- card id: {cid}
++- seat code: {code}
++- seat, branch, commit: {code}, seat/a, 0123456789abcdef0123456789abcdef01234567
++- decisive script: x.py, SHA-256 {h}, depends on the standard library, run as python3 x.py, output SHA-256 0011223344556677
++"""
++AT = "2026-11-26T12:00:00Z"
++
++
++def _repo(tmp_path):
++    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
++                                  capture_output=True, text=True, check=True).stdout
++    g("init", "-q", "-b", "seat/a")
++    claims = tmp_path / "relays" / "claims"
++    claims.mkdir(parents=True)
++
++    def put(name, text, branch="seat/a"):
++        if g("symbolic-ref", "--short", "HEAD").strip() != branch:
++            g("checkout", "-q", branch)
++        (claims / name).write_text(text, encoding="utf-8")
++        g("add", "-A")
++        g("commit", "-q", "-m", name)
++        return g("rev-parse", "HEAD").strip()
++    return g, put
++
++
++def test_a_card_is_filed_and_what_cannot_be_filed_is_reported(tmp_path):
++    g, put = _repo(tmp_path)
++    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa"))
++    put("CLAIM_no_code.md", CARD.format(title="no code", cid="new", code="a seat", h="bbbbbbbbbbbbbbbb"))
++    put("NOTES.md", "# notes, not a card\n")
++    new, report = D.discover({}, [("a", "seat/a"), ("gone", "origin/no-such-branch")], root=tmp_path, at=AT)
++    assert list(new) == ["Q0001"]
++    rec = new["Q0001"]
++    assert rec["status"] == "FILED" and rec["history"][0]["by"] == "runner" and rec["refiles"] == []
++    assert rec["card_path"] == "relays/claims/CLAIM_one.md" and rec["seat_code"] == "fam2-v5-high-01"
++    assert rec["commit"] == g("log", "-1", "--format=%H", "--", "relays/claims/CLAIM_one.md").strip()
++    assert QS.queue_problems({k: json.dumps(v) for k, v in new.items()}) == []
++    assert any("gone (origin/no-such-branch): cannot be read" in r for r in report)
++    assert any("CLAIM_no_code.md: not filed" in r for r in report)
++    assert not any("NOTES.md" in r for r in report)
++
++
++def test_a_second_look_files_nothing_and_a_refile_is_linked(tmp_path):
++    g, put = _repo(tmp_path)
++    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa"))
++    new, _ = D.discover({}, [("a", "seat/a")], root=tmp_path, at=AT)
++    blob = g("rev-parse", "HEAD:relays/claims/CLAIM_one.md").strip()
++    again, _ = D.discover(new, [("a", "seat/a")], root=tmp_path, at=AT, seen_blobs={blob: "Q0001"})
++    assert again == {}
++    # a new version of the card, which does not say it refiles: linked, and the note says so
++    put("CLAIM_one.md", CARD.format(title="a count, mended", cid="new", code="fam2-v5-high-01", h="cccccccccccccccc"))
++    v2, _ = D.discover(new, [("a", "seat/a")], root=tmp_path, at=AT, seen_blobs={blob: "Q0001"})
++    assert v2["Q0002"]["refiles"] == ["Q0001"] and "does not declare" in v2["Q0002"]["history"][0]["note"]
++    # one that says so
++    put("CLAIM_one.md", CARD.format(title="a count, mended", cid="refiles Q0001", code="fam2-v5-high-01",
++                                    h="cccccccccccccccc"))
++    v3, _ = D.discover(new, [("a", "seat/a")], root=tmp_path, at=AT, seen_blobs={blob: "Q0001"})
++    assert v3["Q0002"]["refiles"] == ["Q0001"] and v3["Q0002"]["history"][0]["note"] == "found on its branch; refiles Q0001"
++    assert QS.queue_problems({k: json.dumps(v) for k, v in {**new, **v3}.items()}) == []
++    # the same decisive script, filed again from another branch under another name
++    g("checkout", "-q", "-b", "seat/b")
++    put("CLAIM_two.md", CARD.format(title="the count again", cid="new", code="fam3-v1-max-01", h="aaaaaaaaaaaaaaaa"),
++        branch="seat/b")
++    v4, _ = D.discover(new, [("b", "seat/b")], root=tmp_path, at=AT, seen_blobs={
++        g("rev-parse", "seat/b:relays/claims/CLAIM_one.md").strip(): "Q0001"})
++    two = [r for r in v4.values() if r["card_path"].endswith("CLAIM_two.md")][0]
++    assert two["refiles"] == ["Q0001"] and "does not declare" in two["history"][0]["note"]
++
++
++def test_a_masked_ref_of_the_pins_table_is_read_on_its_last_segment(tmp_path):
++    g, put = _repo(tmp_path)
++    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa"))
++    g("update-ref", "refs/remotes/origin/lane/the-branch-x1", "HEAD")
++    assert D.resolve(tmp_path, "origin/<v>/the-branch-x1") == "origin/lane/the-branch-x1"
++    assert D.resolve(tmp_path, "origin/<v>/no-such") == "origin/<v>/no-such"
++    new, _ = D.discover({}, [("x", D.resolve(tmp_path, "origin/<v>/the-branch-x1"))], root=tmp_path, at=AT)
++    assert new["Q0001"]["branch"] == "lane/the-branch-x1"
++
++
++def test_the_command_runs_by_hand_and_writes_nothing_unless_asked(tmp_path):
++    q = tmp_path / "cards"
++    r = subprocess.run([sys.executable, "-B", str(ROOT / "scripts/queue/discover.py"), "--queue", str(q), "--at", AT],
++                       capture_output=True, text=True, timeout=600)
++    assert r.returncode == 0 and r.stdout.strip().splitlines()[-1].endswith("new card(s)")
++    assert not q.exists()
++
++
++def test_harvest_debt_reports_a_pin_that_does_not_resolve_and_does_not_stop(monkeypatch):
++    hd = _load("harvest_debt_under_test", "scripts/checks/harvest_debt.py")
++    keys = [s["key"] for s in hd.SEATS]
++    monkeypatch.setattr(hd, "read_pins", lambda text: {k: "0000000" for k in keys})
++    rep = hd.run(strict=False)
++    lost = [k for k, s in rep["seats"].items() if s.get("skipped") == "pin 0000000 does not resolve"]
++    assert lost and all("%s: pin 0000000 does not resolve" % k in rep["integrity"] for k in lost)
++    assert all("head" in s or "skipped" in s for s in rep["seats"].values())
++    hd.print_report(rep)                                   # it stopped here at KeyError 'head'
+-- 
+2.43.0
+

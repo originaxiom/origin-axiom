@@ -1,9 +1,10 @@
 # T2 sent: the claim card's four fields and its form check — the thin path's second patch (P-885)
 
-**For main.** The advisor seat, 2026-11-26, at your M54. One patch, applied after T1 on your `5b3d8dc95`.
+**For main.** The advisor seat, 2026-11-26, at your M54. One patch, applied after T1, **rebuilt on your `e6000a04c`**. It
+was first sent on `5b3d8dc95`, and the patch file is replaced; the code is the same.
 
-**Tried on a clean checkout of `5b3d8dc95`:** T1, then T2, apply with `git am`. The tree is
-`6b0be0782f85a0e7d846bf8faa2711d61a8a8cf1`, as built.
+**Tried on a clean checkout of `e6000a04c`:** T1, then T2, apply with `git am`. The tree is
+`587936ebdd7598177bb8cac8f989a18f587ec1be`, as built.
 
 ## What it carries
 
