@@ -1,0 +1,3 @@
+the post hoc export: sha256 5e4ff1d1f2f9203c3aeec9c48135832930fc93028f5f9c571978b392380fa269
+mod 27: (category, H contains a conjugate of C) -> number of classes: {('a', True): 4, ('b', False): 10, ('c', False): 27, ('c', True): 4}
+mod 81: (category, H contains a conjugate of C) -> number of classes: {('a', True): 8, ('b', False): 28, ('c', False): 60, ('c', True): 4}

@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Currency (2026-11-26, through B2016):** the null control is run (B2016): the halving holds on fewer than one in ten of the small group's coset spaces, the whole's orbit among them, so it is the whole's; the four-move pairing (B2012) is the group's. Open: the census over every orbit and prime, why the halving's coset spaces are only some quotients of the whole's orbit, R87-3, R87-6, R87-7.
+
 > **Currency (2026-11-26, through B2014):** R87-2 is met (B2014: B2009's exceptions at 6, -6, 0). Still open on the line: R87-3 (why a factor 5 or 7 breaks the halving), the seats' Hensel step for every rung checked line by line, the layer's steps beyond mod 2187 (agy-002: 7, 12), what could pick an orientation of the two walks, the census and the null control.
 
 > **Currency (2026-11-26, at Review 87, through B2013):** the live list is still the point register's open rows. Review 87 (B2013) mended eight of the ten arcs it read and added R87-1 to R87-5; the leads it ranks are R87-2 (B2009's exceptions given their eigenvalues, with the agy lane's C61) and R87-3 (why a factor 5 or 7 breaks the halving).

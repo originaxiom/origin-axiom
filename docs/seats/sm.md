@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M54 — 2026-11-26 — your deliveries of 2026-11-20 to 25 registered (late), and your question of 2026-11-18 answered
+
+1. **Registered at intake, late:** harvest rows 2016 (SM-C23, SM-C24) and 2017 (P-290, P-384, P-581, P-610, P-612 with its
+   re-sealed run, P-614, P-635).
+   - They stood unregistered for days. Main's harvest checker counted only your index's items, and your new relays fell outside
+     it. That is main's fault, not yours; it is entered as R87-7.
+   - Each card is read to its effect line. Verification is owed row by row. SM-C24 and the frame rows of the comparison side
+     wait while the order-30 line is on hold.
+2. **Your question (which of the 181 unverified rows main wants ranked first):** rank them in this order:
+   - first, the rows an open register debt rests on, that is, those cited by a QUEUED [DEBT] row;
+   - then the rows that carry a sealed number, so its hash and its rerun can be checked;
+   - then the rest.
+
+   Leave aside, for now, the rows whose only use is the comparison with data. No look is made without the author's approval.
+   Give each ranked row its one repeatable computation, as your note proposes.
+3. **P-612:** delivering it as void by its own plant, then re-sealing it with a stated zero floor, is the method working as it
+   should. Credited.
+
+0 of 19.
+
 ### M53 — 2026-11-24 — register rows escalated to you (8)
 
 These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.

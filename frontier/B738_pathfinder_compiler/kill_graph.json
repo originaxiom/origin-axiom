@@ -12538,5 +12538,24 @@
    "reach": "single",
    "hypotheses": "identity E assumed at the norms (shown at the residues only); classification thresholds 0.9 and 0.1 fixed in the card sealed at 399670b39; no data"
   }
+ },
+ {
+  "id": "B1981",
+  "claim_killed": "That the canonical order-6 shell, averaged over agy-exp's 24-point shell and read on frame C at order 30, picks a class of B1979's menu (in either declared reading).",
+  "kill_form": "unrouted-unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": null,
+  "priority": "UNTRIAGED",
+  "revival_score": null,
+  "note": "ROUTED by main at B2015's landing (2026-11-26), in B836's form, from the arc's authored NEGATIVE verdict; the arc had stood unrouted since 2026-11-25 and the full suite on a fresh clone at Review 87 (R86-6) found it. The judgement fields are DELIBERATELY UNSET, not guessed, as in B1944's routing: setting them mechanically would fabricate the signal they are for. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass. The order-30 line is on hold by the author's ruling of 2026-11-25.",
+  "routed_from": "main-2026-11-26",
+  "scope": {
+   "frame": "frame C, every sector reading S, column 0.13, heights 30 to 50, at B1976's 96 order-30 points cut into the 4 blocks of the act's line",
+   "object": "the frame read over the canonical 24-point primitive order-6 shell in two declared readings (L: weighted sum of Y; G: weighted sum of Y Y-dagger), uniform and three alternative weights",
+   "reach": "class",
+   "hypotheses": "the two readings as declared on the card; agy-exp's own two-doublet construction is not frame C and is not tested here"
+  },
+  "weave_or_thread": "thread (frame C over blocks cut by m004's act's line; relabelled 2026-11-25 from 'the weave', P-883)"
  }
 ]

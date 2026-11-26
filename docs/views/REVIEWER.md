@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1711** |
-| words of findings prose | **1,572,245** |
+| research arcs with findings | **1712** |
+| words of findings prose | **1,573,046** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1711** (100.0 %) |
-| recorded closures | **863** (692 classified, 171 routed-only) |
+| arcs carrying an authored verdict | **1712** (100.0 %) |
+| recorded closures | **864** (692 classified, 172 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1204 |
+| PROVED | 1205 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `“other”` | 359 |
-| `“unrouted-unclassified”` | 171 |
+| `“unrouted-unclassified”` | 172 |
 | `“kind-mismatch”` | 51 |
 | `“genericity”` | 38 |
 | `“no-landing-site”` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**533 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**534 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2014`** (1155 words, 0 locks)  
-“LISTENING 28, THE SEATS' CLAIMS FOR EVERY RUNG CHECKED ON MAIN (PROVED for its checks; data-free): the six moves are two walks, W+ = L + X + R^-1 (the orbit of L under omega's exchange) and W- = R + L^-1 + X^-1, which commute exactly, are each other's transpose and are swapped by the mirror; in each charge sector W+ is 3 omega^-q and W- 3 omega^q times sigma's compression, so the whole's unfolding is their mirror-symmetric sum and an orientation is the ingredient the whole does not supply; B2009's three neutral exceptions have values 6, -6 and 0 by GAP's explicit representations, and rho^3 is S4's sign (Review 87's R87-2 met); the mirror is not a move at any rung and with it the abelianisation is Z2 x Z2 for every k (by reduction); mod 27 has three 72-point sister orbits, and on (3,3,15), with no fixed point of C, the halving holds with nothing left out; fixed points are unchanged up the tower on every element tried; |G7| = 24 * 3^21 at mod 2187”  
-`B2014_listening_28_the_seats_claims_for_every_rung_checked_on_main/FINDINGS.md`
+**PROVED — `B2016`** (801 words, 0 locks)  
+“LISTENING 30, THE NULL CONTROL (PROVED for its checks; data-free): the whole's small group with the same six moves, acting on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole's form p_neutral(2x)/2^d = (x^2 - 9) x S(x) on 4 and 8 of them, fewer than one in ten, the whole's own orbit among them; on about two thirds the charged modes do not even pair; every coset space that halves has omega's exchange fixing exactly three points and rho non-trivial on its stabiliser, and (post hoc) is a quotient of the whole's own orbit, though half or more of those quotients do not halve; so the halving is a property of the whole's orbit within its group, not of the group's action”  
+`B2016_listening_30_the_null_control_the_same_group_on_every_coset_space/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

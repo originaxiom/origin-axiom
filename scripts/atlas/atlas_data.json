@@ -18887,6 +18887,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B2016": {
+   "slug": "listening 30 the null control the same group on every coset space",
+   "motifs": [
+    "closing",
+    "eisenstein"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B201": {
    "slug": "silver sl3 charvar",
    "motifs": [

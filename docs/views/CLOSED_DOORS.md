@@ -5,8 +5,8 @@
 
 # The closed-door map (generated)
 
-**863 recorded closures — of which 692 are CLASSIFIED by mechanism and
-171 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
+**864 recorded closures — of which 692 are CLASSIFIED by mechanism and
+172 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
 number. A programme whose firewall works is mostly negatives; this is the shape of them.
@@ -14,7 +14,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | mechanism | doors | facts not computed |
 |---|---|---|
 | `“other”` | 359 | 343 |
-| `“unrouted-unclassified”` | 171 | 171 |
+| `“unrouted-unclassified”` | 172 | 172 |
 | `“kind-mismatch”` | 51 | 4 |
 | `“genericity”` | 38 | 1 |
 | `“no-landing-site”` | 30 | 1 |
@@ -143,7 +143,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `“Sealed (fa25925fc) and run once (64a2a3d4e): least chi2_ten 291.4 against 23.21 (fresh 291.5; an independent scan of every stored node agrees); the six alone reach 1.36 and the four alone 0.35, never together (the CKM clause fails rigorously); K's C_ten -197 (bits_CKM -194). NOT FOUND within the census's reach; nothing excluded beyond it.”` | 1 |  |
 | `“Sealed (c70b356f0) and run once (output committed unread at 1d218f158): P1 holds (least chi2_six 4.61 at delta 0.15, apex 162, (2/5, 4/5)), but 2.43% of 10^6 random hierarchies are as low once apex, line, reading, c and the level are re-made per target (r97.5 2.46% > 1%); D FAILS -- the 23 levels' look-elsewhere costs the screen. NEGATIVE as sealed; the small-cut ansatz end retired.”` | 1 |  |
 
-## Closures whose discriminating fact was not computed (533)
+## Closures whose discriminating fact was not computed (534)
 
 The standing rule is that a negative is only as sound as the in-sandbox computation of
 its discriminating fact. **B799 resolved all of these** — see `frontier/B799_uncomputed_doors/`.
@@ -683,3 +683,4 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B1944` | “That frame C, read on the whole with the exact channel weight in four declared options, carries its seven clai” | `“unrouted-unclassified”` |
 | `B1947` | “That frame D1 can be had by twisting the Higgs by its charge inside frame C's coupling: the twisted triplet is” | `“unrouted-unclassified”` |
 | `B1962` | “That the Higgs's own twist (frame D1, at its Szego zero: frame C at shifted charges) repairs frame C's cusp mi” | `“unrouted-unclassified”` |
+| `B1981` | “That the canonical order-6 shell, averaged over agy-exp's 24-point shell and read on frame C at order 30, pick” | `“unrouted-unclassified”` |

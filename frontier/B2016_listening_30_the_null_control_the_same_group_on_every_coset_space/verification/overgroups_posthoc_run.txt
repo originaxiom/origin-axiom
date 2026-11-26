@@ -1,0 +1,3 @@
+mod 27: |G| = 216; 45 classes of subgroups exported  [5 s]
+mod 81: |G| = 1944; 100 classes of subgroups exported  [445 s]
+the exported actions (regenerated, not committed) have sha256 5e4ff1d1f2f9203c3aeec9c48135832930fc93028f5f9c571978b392380fa269
