@@ -1,0 +1,6 @@
+p=7 k=0 n=28 blocks=7 (sizes [4], consistent=True) Q=Sym(7) primitive=True  |G|/|Q| = 12288 = 2^12 * 3   sign L on orbit=-1, on blocks=-1  [0.3s,0.0s]
+p=7 k=1 n=72 blocks=18 (sizes [4], consistent=True) Q=Sym(18) primitive=True  |G|/|Q| = 206158430208 = 2^36 * 3   sign L on orbit=1, on blocks=-1  [0.0s,0.1s]
+p=7 k=2 n=16 blocks=4 (sizes [4], consistent=True) Q=Alt(4) primitive=True  |G|/|Q| = 1536 = 2^9 * 3   sign L on orbit=1, on blocks=1  [0.0s,0.0s]
+p=7 k=3 n=36 blocks=9 (sizes [4], consistent=True) Q=order 648 primitive=False  |G|/|Q| = 4096 = 2^12 * 1   sign L on orbit=-1, on blocks=1  [0.0s,0.0s]
+p=7 k=5 n=64 blocks=16 (sizes [4], consistent=True) Q=Alt(16) primitive=True  |G|/|Q| = 6442450944 = 2^31 * 3   sign L on orbit=1, on blocks=1  [0.0s,0.0s]
+p=7 k=6 n=64 blocks=16 (sizes [4], consistent=True) Q=Alt(16) primitive=True  |G|/|Q| = 6442450944 = 2^31 * 3   sign L on orbit=1, on blocks=1  [0.0s,0.0s]

@@ -1,0 +1,638 @@
+p=3 k=0 #pts=1  unexplained orbits: []   explained: 1[origin]
+p=3 k=1 #pts=10  unexplained orbits: [3, 1]   explained: 6[6:two-zero(t=1)]
+p=3 k=2 #pts=16  unexplained orbits: []   explained: 16[16@k=2(sqrt2->0)]
+p=3 point-count formula failures (k, actual, predicted): []
+p=5 k=0 #pts=41  unexplained orbits: []   explained: 1[origin], 40[40@k=(5-r5)/2(sqrt5->0)+40@k=(5+r5)/2(sqrt5->0)]
+p=5 k=1 #pts=6  unexplained orbits: []   explained: 6[6:two-zero(t=1)]
+p=5 k=2 #pts=16  unexplained orbits: []   explained: 16[16@k=2(sqrt2->0)]
+p=5 k=3 #pts=36  unexplained orbits: []   explained: 36[72@k=3(sqrt5->0)]
+p=5 point-count formula failures (k, actual, predicted): []
+p=7 k=0 #pts=29  unexplained orbits: [28]   explained: 1[origin]
+p=7 k=1 #pts=78  unexplained orbits: [72]   explained: 6[6:two-zero(t=1)]
+p=7 k=2 #pts=22  unexplained orbits: []   explained: 6[6:two-zero(t=3)], 16[16@k=2(sqrt2->0)]
+p=7 k=3 #pts=36  unexplained orbits: []   explained: 36[36@k=3(sqrt2->3)+36@k=3(sqrt2->4)]
+p=7 k=5 #pts=64  unexplained orbits: [64]   explained: 
+p=7 k=6 #pts=64  unexplained orbits: [64]   explained: 
+p=7 point-count formula failures (k, actual, predicted): []
+p=11 k=0 #pts=89  unexplained orbits: [88]   explained: 1[origin]
+p=11 k=1 #pts=78  unexplained orbits: [72]   explained: 6[6:two-zero(t=1)]
+p=11 k=2 #pts=144  unexplained orbits: [128]   explained: 16[16@k=2(sqrt2->0)]
+p=11 k=3 #pts=78  unexplained orbits: []   explained: 6[6:two-zero(t=5)], 72[72@k=3(sqrt5->4)+72@k=3(sqrt5->7)]
+p=11 k=5 #pts=166  unexplained orbits: [160]   explained: 6[6:two-zero(t=4)]
+p=11 k=6 #pts=100  unexplained orbits: [60]   explained: 40[40@k=(5-r5)/2(sqrt5->4)+40@k=(5+r5)/2(sqrt5->7)]
+p=11 k=7 #pts=144  unexplained orbits: [144]   explained: 
+p=11 k=8 #pts=144  unexplained orbits: [144]   explained: 
+p=11 k=9 #pts=166  unexplained orbits: [160]   explained: 6[6:two-zero(t=3)]
+p=11 k=10 #pts=100  unexplained orbits: [60]   explained: 40[40@k=(5-r5)/2(sqrt5->7)+40@k=(5+r5)/2(sqrt5->4)]
+p=11 point-count formula failures (k, actual, predicted): []
+p=13 k=0 #pts=209  unexplained orbits: [208]   explained: 1[origin]
+p=13 k=1 #pts=222  unexplained orbits: [216]   explained: 6[6:two-zero(t=1)]
+p=13 k=2 #pts=144  unexplained orbits: [128]   explained: 16[16@k=2(sqrt2->0)]
+p=13 k=3 #pts=222  unexplained orbits: [216]   explained: 6[6:two-zero(t=4)]
+p=13 k=5 #pts=196  unexplained orbits: [196]   explained: 
+p=13 k=6 #pts=144  unexplained orbits: [144]   explained: 
+p=13 k=7 #pts=196  unexplained orbits: [196]   explained: 
+p=13 k=8 #pts=196  unexplained orbits: [196]   explained: 
+p=13 k=9 #pts=118  unexplained orbits: [112]   explained: 6[6:two-zero(t=3)]
+p=13 k=10 #pts=118  unexplained orbits: [112]   explained: 6[6:two-zero(t=6)]
+p=13 k=11 #pts=144  unexplained orbits: [144]   explained: 
+p=13 k=12 #pts=118  unexplained orbits: [112]   explained: 6[6:two-zero(t=5)]
+p=13 point-count formula failures (k, actual, predicted): []
+p=17 k=0 #pts=341  unexplained orbits: [340]   explained: 1[origin]
+p=17 k=1 #pts=222  unexplained orbits: [216]   explained: 6[6:two-zero(t=1)]
+p=17 k=2 #pts=358  unexplained orbits: [336]   explained: 6[6:two-zero(t=6)], 16[16@k=2(sqrt2->0)]
+p=17 k=3 #pts=324  unexplained orbits: [288]   explained: 36[36@k=3(sqrt2->11)+36@k=3(sqrt2->6)]
+p=17 k=5 #pts=324  unexplained orbits: [324]   explained: 
+p=17 k=6 #pts=324  unexplained orbits: [324]   explained: 
+p=17 k=7 #pts=256  unexplained orbits: [256]   explained: 
+p=17 k=8 #pts=358  unexplained orbits: [352]   explained: 6[6:two-zero(t=5)]
+p=17 k=9 #pts=222  unexplained orbits: [216]   explained: 6[6:two-zero(t=3)]
+p=17 k=10 #pts=256  unexplained orbits: [256]   explained: 
+p=17 k=11 #pts=256  unexplained orbits: [256]   explained: 
+p=17 k=12 #pts=324  unexplained orbits: [324]   explained: 
+p=17 k=13 #pts=358  unexplained orbits: [352]   explained: 6[6:two-zero(t=8)]
+p=17 k=14 #pts=256  unexplained orbits: [256]   explained: 
+p=17 k=15 #pts=222  unexplained orbits: [216]   explained: 6[6:two-zero(t=7)]
+p=17 k=16 #pts=222  unexplained orbits: [216]   explained: 6[6:two-zero(t=4)]
+p=17 point-count formula failures (k, actual, predicted): []
+p=19 k=0 #pts=305  unexplained orbits: [304]   explained: 1[origin]
+p=19 k=1 #pts=438  unexplained orbits: [432]   explained: 6[6:two-zero(t=1)]
+p=19 k=2 #pts=400  unexplained orbits: [384]   explained: 16[16@k=2(sqrt2->0)]
+p=19 k=3 #pts=324  unexplained orbits: [252]   explained: 72[72@k=3(sqrt5->9)+72@k=3(sqrt5->10)]
+p=19 k=5 #pts=438  unexplained orbits: [432]   explained: 6[6:two-zero(t=9)]
+p=19 k=6 #pts=286  unexplained orbits: [280]   explained: 6[6:two-zero(t=5)]
+p=19 k=7 #pts=286  unexplained orbits: [240]   explained: 6[6:two-zero(t=8)], 40[40@k=(5-r5)/2(sqrt5->10)+40@k=(5+r5)/2(sqrt5->9)]
+p=19 k=8 #pts=400  unexplained orbits: [400]   explained: 
+p=19 k=9 #pts=438  unexplained orbits: [432]   explained: 6[6:two-zero(t=3)]
+p=19 k=10 #pts=400  unexplained orbits: [400]   explained: 
+p=19 k=11 #pts=438  unexplained orbits: [432]   explained: 6[6:two-zero(t=7)]
+p=19 k=12 #pts=324  unexplained orbits: [324]   explained: 
+p=19 k=13 #pts=400  unexplained orbits: [400]   explained: 
+p=19 k=14 #pts=324  unexplained orbits: [324]   explained: 
+p=19 k=15 #pts=400  unexplained orbits: [400]   explained: 
+p=19 k=16 #pts=286  unexplained orbits: [280]   explained: 6[6:two-zero(t=4)]
+p=19 k=17 #pts=286  unexplained orbits: [240]   explained: 6[6:two-zero(t=6)], 40[40@k=(5-r5)/2(sqrt5->9)+40@k=(5+r5)/2(sqrt5->10)]
+p=19 k=18 #pts=324  unexplained orbits: [324]   explained: 
+p=19 point-count formula failures (k, actual, predicted): []
+p=23 k=0 #pts=461  unexplained orbits: [460]   explained: 1[origin]
+p=23 k=1 #pts=438  unexplained orbits: [432]   explained: 6[6:two-zero(t=1)]
+p=23 k=2 #pts=438  unexplained orbits: [416]   explained: 6[6:two-zero(t=5)], 16[16@k=2(sqrt2->0)]
+p=23 k=3 #pts=438  unexplained orbits: [396]   explained: 6[6:two-zero(t=7)], 36[36@k=3(sqrt2->18)+36@k=3(sqrt2->5)]
+p=23 k=5 #pts=576  unexplained orbits: [576]   explained: 
+p=23 k=6 #pts=622  unexplained orbits: [616]   explained: 6[6:two-zero(t=11)]
+p=23 k=7 #pts=576  unexplained orbits: [576]   explained: 
+p=23 k=8 #pts=622  unexplained orbits: [616]   explained: 6[6:two-zero(t=10)]
+p=23 k=9 #pts=438  unexplained orbits: [432]   explained: 6[6:two-zero(t=3)]
+p=23 k=10 #pts=576  unexplained orbits: [576]   explained: 
+p=23 k=11 #pts=484  unexplained orbits: [484]   explained: 
+p=23 k=12 #pts=622  unexplained orbits: [616]   explained: 6[6:two-zero(t=9)]
+p=23 k=13 #pts=622  unexplained orbits: [616]   explained: 6[6:two-zero(t=6)]
+p=23 k=14 #pts=484  unexplained orbits: [484]   explained: 
+p=23 k=15 #pts=484  unexplained orbits: [484]   explained: 
+p=23 k=16 #pts=622  unexplained orbits: [616]   explained: 6[6:two-zero(t=4)]
+p=23 k=17 #pts=576  unexplained orbits: [576]   explained: 
+p=23 k=18 #pts=438  unexplained orbits: [432]   explained: 6[6:two-zero(t=8)]
+p=23 k=19 #pts=484  unexplained orbits: [484]   explained: 
+p=23 k=20 #pts=576  unexplained orbits: [576]   explained: 
+p=23 k=21 #pts=484  unexplained orbits: [484]   explained: 
+p=23 k=22 #pts=576  unexplained orbits: [576]   explained: 
+p=23 point-count formula failures (k, actual, predicted): []
+p=29 k=0 #pts=929  unexplained orbits: [928]   explained: 1[origin]
+p=29 k=1 #pts=726  unexplained orbits: [720]   explained: 6[6:two-zero(t=1)]
+p=29 k=2 #pts=784  unexplained orbits: [768]   explained: 16[16@k=2(sqrt2->0)]
+p=29 k=3 #pts=900  unexplained orbits: [828]   explained: 72[72@k=3(sqrt5->18)+72@k=3(sqrt5->11)]
+p=29 k=5 #pts=958  unexplained orbits: [952]   explained: 6[6:two-zero(t=11)]
+p=29 k=6 #pts=726  unexplained orbits: [720]   explained: 6[6:two-zero(t=8)]
+p=29 k=7 #pts=726  unexplained orbits: [720]   explained: 6[6:two-zero(t=6)]
+p=29 k=8 #pts=900  unexplained orbits: [860]   explained: 40[40@k=(5-r5)/2(sqrt5->18)+40@k=(5+r5)/2(sqrt5->11)]
+p=29 k=9 #pts=958  unexplained orbits: [952]   explained: 6[6:two-zero(t=3)]
+p=29 k=10 #pts=900  unexplained orbits: [900]   explained: 
+p=29 k=11 #pts=900  unexplained orbits: [900]   explained: 
+p=29 k=12 #pts=784  unexplained orbits: [784]   explained: 
+p=29 k=13 #pts=958  unexplained orbits: [952]   explained: 6[6:two-zero(t=10)]
+p=29 k=14 #pts=784  unexplained orbits: [784]   explained: 
+p=29 k=15 #pts=784  unexplained orbits: [784]   explained: 
+p=29 k=16 #pts=726  unexplained orbits: [720]   explained: 6[6:two-zero(t=4)]
+p=29 k=17 #pts=900  unexplained orbits: [900]   explained: 
+p=29 k=18 #pts=784  unexplained orbits: [784]   explained: 
+p=29 k=19 #pts=784  unexplained orbits: [784]   explained: 
+p=29 k=20 #pts=958  unexplained orbits: [952]   explained: 6[6:two-zero(t=7)]
+p=29 k=21 #pts=784  unexplained orbits: [784]   explained: 
+p=29 k=22 #pts=726  unexplained orbits: [720]   explained: 6[6:two-zero(t=14)]
+p=29 k=23 #pts=726  unexplained orbits: [720]   explained: 6[6:two-zero(t=9)]
+p=29 k=24 #pts=958  unexplained orbits: [952]   explained: 6[6:two-zero(t=13)]
+p=29 k=25 #pts=726  unexplained orbits: [720]   explained: 6[6:two-zero(t=5)]
+p=29 k=26 #pts=900  unexplained orbits: [860]   explained: 40[40@k=(5-r5)/2(sqrt5->11)+40@k=(5+r5)/2(sqrt5->18)]
+p=29 k=27 #pts=900  unexplained orbits: [900]   explained: 
+p=29 k=28 #pts=958  unexplained orbits: [952]   explained: 6[6:two-zero(t=12)]
+p=29 point-count formula failures (k, actual, predicted): []
+p=31 k=0 #pts=869  unexplained orbits: [868]   explained: 1[origin]
+p=31 k=1 #pts=1086  unexplained orbits: [1080]   explained: 6[6:two-zero(t=1)]
+p=31 k=2 #pts=838  unexplained orbits: [816]   explained: 6[6:two-zero(t=8)], 16[16@k=2(sqrt2->0)]
+p=31 k=3 #pts=900  unexplained orbits: [792]   explained: 36[36@k=3(sqrt2->8)+36@k=3(sqrt2->23)], 72[72@k=3(sqrt5->25)+72@k=3(sqrt5->6)]
+p=31 k=5 #pts=1086  unexplained orbits: [1080]   explained: 6[6:two-zero(t=6)]
+p=31 k=6 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=7 #pts=838  unexplained orbits: [832]   explained: 6[6:two-zero(t=10)]
+p=31 k=8 #pts=1086  unexplained orbits: [1080]   explained: 6[6:two-zero(t=15)]
+p=31 k=9 #pts=1086  unexplained orbits: [1080]   explained: 6[6:two-zero(t=3)]
+p=31 k=10 #pts=838  unexplained orbits: [832]   explained: 6[6:two-zero(t=14)]
+p=31 k=11 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=12 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=13 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=14 #pts=1086  unexplained orbits: [1080]   explained: 6[6:two-zero(t=13)]
+p=31 k=15 #pts=900  unexplained orbits: [860]   explained: 40[40@k=(5-r5)/2(sqrt5->6)+40@k=(5+r5)/2(sqrt5->25)]
+p=31 k=16 #pts=838  unexplained orbits: [832]   explained: 6[6:two-zero(t=4)]
+p=31 k=17 #pts=900  unexplained orbits: [900]   explained: 
+p=31 k=18 #pts=1086  unexplained orbits: [1080]   explained: 6[6:two-zero(t=7)]
+p=31 k=19 #pts=838  unexplained orbits: [832]   explained: 6[6:two-zero(t=9)]
+p=31 k=20 #pts=1086  unexplained orbits: [1080]   explained: 6[6:two-zero(t=12)]
+p=31 k=21 #pts=900  unexplained orbits: [860]   explained: 40[40@k=(5-r5)/2(sqrt5->25)+40@k=(5+r5)/2(sqrt5->6)]
+p=31 k=22 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=23 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=24 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=25 #pts=838  unexplained orbits: [832]   explained: 6[6:two-zero(t=5)]
+p=31 k=26 #pts=900  unexplained orbits: [900]   explained: 
+p=31 k=27 #pts=900  unexplained orbits: [900]   explained: 
+p=31 k=28 #pts=838  unexplained orbits: [832]   explained: 6[6:two-zero(t=11)]
+p=31 k=29 #pts=1024  unexplained orbits: [1024]   explained: 
+p=31 k=30 #pts=900  unexplained orbits: [900]   explained: 
+p=31 point-count formula failures (k, actual, predicted): []
+p=37 k=0 #pts=1481  unexplained orbits: [1480]   explained: 1[origin]
+p=37 k=1 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=1)]
+p=37 k=2 #pts=1296  unexplained orbits: [1280]   explained: 16[16@k=2(sqrt2->0)]
+p=37 k=3 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=15)]
+p=37 k=5 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=6 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=7 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=9)]
+p=37 k=8 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=9 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=3)]
+p=37 k=10 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=11)]
+p=37 k=11 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=14)]
+p=37 k=12 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=7)]
+p=37 k=13 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=14 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=15 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=16 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=4)]
+p=37 k=17 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=18 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=19 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=20 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=21 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=13)]
+p=37 k=22 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=23 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=24 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=25 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=5)]
+p=37 k=26 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=10)]
+p=37 k=27 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=8)]
+p=37 k=28 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=18)]
+p=37 k=29 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=30 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=17)]
+p=37 k=31 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=32 #pts=1444  unexplained orbits: [1444]   explained: 
+p=37 k=33 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=12)]
+p=37 k=34 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=16)]
+p=37 k=35 #pts=1296  unexplained orbits: [1296]   explained: 
+p=37 k=36 #pts=1222  unexplained orbits: [1216]   explained: 6[6:two-zero(t=6)]
+p=37 point-count formula failures (k, actual, predicted): []
+p=41 k=0 #pts=1805  unexplained orbits: [1804]   explained: 1[origin]
+p=41 k=1 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=1)]
+p=41 k=2 #pts=1846  unexplained orbits: [1824]   explained: 6[6:two-zero(t=17)], 16[16@k=2(sqrt2->0)]
+p=41 k=3 #pts=1764  unexplained orbits: [1656]   explained: 36[36@k=3(sqrt2->24)+36@k=3(sqrt2->17)], 72[72@k=3(sqrt5->28)+72@k=3(sqrt5->13)]
+p=41 k=5 #pts=1846  unexplained orbits: [1840]   explained: 6[6:two-zero(t=13)]
+p=41 k=6 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=7 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=8 #pts=1846  unexplained orbits: [1840]   explained: 6[6:two-zero(t=7)]
+p=41 k=9 #pts=1846  unexplained orbits: [1800]   explained: 6[6:two-zero(t=3)], 40[40@k=(5-r5)/2(sqrt5->28)+40@k=(5+r5)/2(sqrt5->13)]
+p=41 k=10 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=16)]
+p=41 k=11 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=12 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=13 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=14 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=15 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=16 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=4)]
+p=41 k=17 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=18 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=10)]
+p=41 k=19 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=20 #pts=1846  unexplained orbits: [1840]   explained: 6[6:two-zero(t=15)]
+p=41 k=21 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=12)]
+p=41 k=22 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=23 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=8)]
+p=41 k=24 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=25 #pts=1846  unexplained orbits: [1840]   explained: 6[6:two-zero(t=5)]
+p=41 k=26 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=27 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=28 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=29 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=30 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=31 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=20)]
+p=41 k=32 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=14)]
+p=41 k=33 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=19)]
+p=41 k=34 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=35 #pts=1764  unexplained orbits: [1764]   explained: 
+p=41 k=36 #pts=1846  unexplained orbits: [1840]   explained: 6[6:two-zero(t=6)]
+p=41 k=37 #pts=1846  unexplained orbits: [1800]   explained: 6[6:two-zero(t=18)], 40[40@k=(5-r5)/2(sqrt5->13)+40@k=(5+r5)/2(sqrt5->28)]
+p=41 k=38 #pts=1600  unexplained orbits: [1600]   explained: 
+p=41 k=39 #pts=1518  unexplained orbits: [1512]   explained: 6[6:two-zero(t=11)]
+p=41 k=40 #pts=1846  unexplained orbits: [1840]   explained: 6[6:two-zero(t=9)]
+p=41 point-count formula failures (k, actual, predicted): []
+p=43 k=0 #pts=1721  unexplained orbits: [1720]   explained: 1[origin]
+p=43 k=1 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=1)]
+p=43 k=2 #pts=1936  unexplained orbits: [1920]   explained: 16[16@k=2(sqrt2->0)]
+p=43 k=3 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=5 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=6 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=7)]
+p=43 k=7 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=8 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=9 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=3)]
+p=43 k=10 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=15)]
+p=43 k=11 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=21)]
+p=43 k=12 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=13 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=20)]
+p=43 k=14 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=10)]
+p=43 k=15 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=12)]
+p=43 k=16 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=4)]
+p=43 k=17 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=19)]
+p=43 k=18 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=19 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=20 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=21 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=8)]
+p=43 k=22 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=23 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=18)]
+p=43 k=24 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=14)]
+p=43 k=25 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=5)]
+p=43 k=26 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=27 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=28 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=29 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=30 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=31 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=17)]
+p=43 k=32 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=33 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=34 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=35 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=11)]
+p=43 k=36 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=6)]
+p=43 k=37 #pts=1764  unexplained orbits: [1764]   explained: 
+p=43 k=38 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=9)]
+p=43 k=39 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 k=40 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=13)]
+p=43 k=41 #pts=1678  unexplained orbits: [1672]   explained: 6[6:two-zero(t=16)]
+p=43 k=42 #pts=1936  unexplained orbits: [1936]   explained: 
+p=43 point-count formula failures (k, actual, predicted): []
+p=47 k=0 #pts=2069  unexplained orbits: [2068]   explained: 1[origin]
+p=47 k=1 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=1)]
+p=47 k=2 #pts=2022  unexplained orbits: [2000]   explained: 6[6:two-zero(t=7)], 16[16@k=2(sqrt2->0)]
+p=47 k=3 #pts=2022  unexplained orbits: [1980]   explained: 6[6:two-zero(t=12)], 36[36@k=3(sqrt2->40)+36@k=3(sqrt2->7)]
+p=47 k=5 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=6 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=10)]
+p=47 k=7 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=17)]
+p=47 k=8 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=14)]
+p=47 k=9 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=3)]
+p=47 k=10 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=11 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=12 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=23)]
+p=47 k=13 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=14 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=22)]
+p=47 k=15 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=16 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=4)]
+p=47 k=17 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=8)]
+p=47 k=18 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=21)]
+p=47 k=19 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=20 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=21 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=16)]
+p=47 k=22 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=23 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=24 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=20)]
+p=47 k=25 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=5)]
+p=47 k=26 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=27 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=11)]
+p=47 k=28 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=13)]
+p=47 k=29 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=30 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=31 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=32 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=19)]
+p=47 k=33 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=34 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=9)]
+p=47 k=35 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=36 #pts=2398  unexplained orbits: [2392]   explained: 6[6:two-zero(t=6)]
+p=47 k=37 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=15)]
+p=47 k=38 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=39 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=40 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=41 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 k=42 #pts=2022  unexplained orbits: [2016]   explained: 6[6:two-zero(t=18)]
+p=47 k=43 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=44 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=45 #pts=2116  unexplained orbits: [2116]   explained: 
+p=47 k=46 #pts=2304  unexplained orbits: [2304]   explained: 
+p=47 point-count formula failures (k, actual, predicted): []
+p=53 k=0 #pts=2969  unexplained orbits: [2968]   explained: 1[origin]
+p=53 k=1 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=1)]
+p=53 k=2 #pts=2704  unexplained orbits: [2688]   explained: 16[16@k=2(sqrt2->0)]
+p=53 k=3 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=5 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=6 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=18)]
+p=53 k=7 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=22)]
+p=53 k=8 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=9 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=3)]
+p=53 k=10 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=13)]
+p=53 k=11 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=8)]
+p=53 k=12 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=13 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=15)]
+p=53 k=14 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=15 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=11)]
+p=53 k=16 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=4)]
+p=53 k=17 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=21)]
+p=53 k=18 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=19 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=20 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=21 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=22 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=23 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=24 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=17)]
+p=53 k=25 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=5)]
+p=53 k=26 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=27 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=28 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=9)]
+p=53 k=29 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=20)]
+p=53 k=30 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=31 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=32 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=33 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=34 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=35 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=36 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=6)]
+p=53 k=37 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=14)]
+p=53 k=38 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=12)]
+p=53 k=39 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=40 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=26)]
+p=53 k=41 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=42 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=25)]
+p=53 k=43 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=19)]
+p=53 k=44 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=16)]
+p=53 k=45 #pts=2704  unexplained orbits: [2704]   explained: 
+p=53 k=46 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=24)]
+p=53 k=47 #pts=3022  unexplained orbits: [3016]   explained: 6[6:two-zero(t=10)]
+p=53 k=48 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=49 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=7)]
+p=53 k=50 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=51 #pts=2916  unexplained orbits: [2916]   explained: 
+p=53 k=52 #pts=2598  unexplained orbits: [2592]   explained: 6[6:two-zero(t=23)]
+p=53 point-count formula failures (k, actual, predicted): []
+p=59 k=0 #pts=3305  unexplained orbits: [3304]   explained: 1[origin]
+p=59 k=1 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=1)]
+p=59 k=2 #pts=3600  unexplained orbits: [3584]   explained: 16[16@k=2(sqrt2->0)]
+p=59 k=3 #pts=3246  unexplained orbits: [3168]   explained: 6[6:two-zero(t=11)], 72[72@k=3(sqrt5->8)+72@k=3(sqrt5->51)]
+p=59 k=5 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=8)]
+p=59 k=6 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=7 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=19)]
+p=59 k=8 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=9 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=3)]
+p=59 k=10 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=11 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=12 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=22)]
+p=59 k=13 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=14 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=15 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=29)]
+p=59 k=16 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=4)]
+p=59 k=17 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=28)]
+p=59 k=18 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=19 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=14)]
+p=59 k=20 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=16)]
+p=59 k=21 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=27)]
+p=59 k=22 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=9)]
+p=59 k=23 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=24 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=25 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=5)]
+p=59 k=26 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=12)]
+p=59 k=27 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=26)]
+p=59 k=28 #pts=3246  unexplained orbits: [3200]   explained: 6[6:two-zero(t=21)], 40[40@k=(5-r5)/2(sqrt5->8)+40@k=(5+r5)/2(sqrt5->51)]
+p=59 k=29 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=18)]
+p=59 k=30 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=31 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=32 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=33 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=34 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=35 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=25)]
+p=59 k=36 #pts=3246  unexplained orbits: [3200]   explained: 6[6:two-zero(t=6)], 40[40@k=(5-r5)/2(sqrt5->51)+40@k=(5+r5)/2(sqrt5->8)]
+p=59 k=37 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=38 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=39 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=40 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=41 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=10)]
+p=59 k=42 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=43 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=44 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=45 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=24)]
+p=59 k=46 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=20)]
+p=59 k=47 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=48 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=15)]
+p=59 k=49 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=7)]
+p=59 k=50 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=51 #pts=3246  unexplained orbits: [3240]   explained: 6[6:two-zero(t=13)]
+p=59 k=52 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=53 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=17)]
+p=59 k=54 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=55 #pts=3600  unexplained orbits: [3600]   explained: 
+p=59 k=56 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 k=57 #pts=3718  unexplained orbits: [3712]   explained: 6[6:two-zero(t=23)]
+p=59 k=58 #pts=3364  unexplained orbits: [3364]   explained: 
+p=59 point-count formula failures (k, actual, predicted): []
+p=61 k=0 #pts=3905  unexplained orbits: [3904]   explained: 1[origin]
+p=61 k=1 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=1)]
+p=61 k=2 #pts=3600  unexplained orbits: [3584]   explained: 16[16@k=2(sqrt2->0)]
+p=61 k=3 #pts=3966  unexplained orbits: [3888]   explained: 6[6:two-zero(t=8)], 72[72@k=3(sqrt5->26)+72@k=3(sqrt5->35)]
+p=61 k=5 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=26)]
+p=61 k=6 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=7 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=8 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=9 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=3)]
+p=61 k=10 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=11 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=12 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=16)]
+p=61 k=13 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=14)]
+p=61 k=14 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=21)]
+p=61 k=15 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=25)]
+p=61 k=16 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=4)]
+p=61 k=17 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=18 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=19 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=18)]
+p=61 k=20 #pts=3966  unexplained orbits: [3920]   explained: 6[6:two-zero(t=9)], 40[40@k=(5-r5)/2(sqrt5->26)+40@k=(5+r5)/2(sqrt5->35)]
+p=61 k=21 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=22 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=12)]
+p=61 k=23 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=24 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=25 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=5)]
+p=61 k=26 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=27 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=24)]
+p=61 k=28 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=29 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=30 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=31 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=32 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=33 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=34 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=20)]
+p=61 k=35 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=36 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=6)]
+p=61 k=37 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=38 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=39 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=10)]
+p=61 k=40 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=41 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=23)]
+p=61 k=42 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=15)]
+p=61 k=43 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=44 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=45 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=17)]
+p=61 k=46 #pts=3966  unexplained orbits: [3920]   explained: 6[6:two-zero(t=30)], 40[40@k=(5-r5)/2(sqrt5->35)+40@k=(5+r5)/2(sqrt5->26)]
+p=61 k=47 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=13)]
+p=61 k=48 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=29)]
+p=61 k=49 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=7)]
+p=61 k=50 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=51 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=52 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=28)]
+p=61 k=53 #pts=3844  unexplained orbits: [3844]   explained: 
+p=61 k=54 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=55 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=56 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=19)]
+p=61 k=57 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=22)]
+p=61 k=58 #pts=3478  unexplained orbits: [3472]   explained: 6[6:two-zero(t=27)]
+p=61 k=59 #pts=3600  unexplained orbits: [3600]   explained: 
+p=61 k=60 #pts=3966  unexplained orbits: [3960]   explained: 6[6:two-zero(t=11)]
+p=61 point-count formula failures (k, actual, predicted): []
+p=67 k=0 #pts=4289  unexplained orbits: [4288]   explained: 1[origin]
+p=67 k=1 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=1)]
+p=67 k=2 #pts=4624  unexplained orbits: [4608]   explained: 16[16@k=2(sqrt2->0)]
+p=67 k=3 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=5 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=6 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=26)]
+p=67 k=7 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=8 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=9 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=3)]
+p=67 k=10 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=12)]
+p=67 k=11 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=12 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=13 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=14 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=9)]
+p=67 k=15 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=22)]
+p=67 k=16 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=4)]
+p=67 k=17 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=33)]
+p=67 k=18 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=19 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=32)]
+p=67 k=20 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=21 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=17)]
+p=67 k=22 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=25)]
+p=67 k=23 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=31)]
+p=67 k=24 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=15)]
+p=67 k=25 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=5)]
+p=67 k=26 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=19)]
+p=67 k=27 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=28 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=29 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=30)]
+p=67 k=30 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=31 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=32 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=33 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=10)]
+p=67 k=34 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=35 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=13)]
+p=67 k=36 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=6)]
+p=67 k=37 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=29)]
+p=67 k=38 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=39 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=21)]
+p=67 k=40 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=24)]
+p=67 k=41 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=42 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=43 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=44 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=45 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=46 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=47 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=28)]
+p=67 k=48 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=49 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=7)]
+p=67 k=50 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=51 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=52 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=53 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=54 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=11)]
+p=67 k=55 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=16)]
+p=67 k=56 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=18)]
+p=67 k=57 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=58 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=59 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=27)]
+p=67 k=60 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=23)]
+p=67 k=61 #pts=4356  unexplained orbits: [4356]   explained: 
+p=67 k=62 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=14)]
+p=67 k=63 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 k=64 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=8)]
+p=67 k=65 #pts=4222  unexplained orbits: [4216]   explained: 6[6:two-zero(t=20)]
+p=67 k=66 #pts=4624  unexplained orbits: [4624]   explained: 
+p=67 point-count formula failures (k, actual, predicted): []
+p=71 k=0 #pts=4829  unexplained orbits: [4828]   explained: 1[origin]
+p=71 k=1 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=1)]
+p=71 k=2 #pts=4758  unexplained orbits: [4736]   explained: 6[6:two-zero(t=12)], 16[16@k=2(sqrt2->0)]
+p=71 k=3 #pts=4758  unexplained orbits: [4644]   explained: 6[6:two-zero(t=28)], 36[36@k=3(sqrt2->59)+36@k=3(sqrt2->12)], 72[72@k=3(sqrt5->17)+72@k=3(sqrt5->54)]
+p=71 k=5 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=17)]
+p=71 k=6 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=19)]
+p=71 k=7 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=8 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=24)]
+p=71 k=9 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=3)]
+p=71 k=10 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=9)]
+p=71 k=11 #pts=4900  unexplained orbits: [4860]   explained: 40[40@k=(5-r5)/2(sqrt5->54)+40@k=(5+r5)/2(sqrt5->17)]
+p=71 k=12 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=15)]
+p=71 k=13 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=14 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=15 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=21)]
+p=71 k=16 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=4)]
+p=71 k=17 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=18 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=35)]
+p=71 k=19 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=27)]
+p=71 k=20 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=34)]
+p=71 k=21 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=22 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=23 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=24 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=33)]
+p=71 k=25 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=5)]
+p=71 k=26 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=27 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=13)]
+p=71 k=28 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=29 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=10)]
+p=71 k=30 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=32)]
+p=71 k=31 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=32 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=23)]
+p=71 k=33 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=34 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=35 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=36 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=6)]
+p=71 k=37 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=26)]
+p=71 k=38 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=31)]
+p=71 k=39 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=40 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=18)]
+p=71 k=41 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=42 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=43 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=16)]
+p=71 k=44 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=45 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=20)]
+p=71 k=46 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=47 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=48 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=30)]
+p=71 k=49 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=7)]
+p=71 k=50 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=11)]
+p=71 k=51 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=52 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=53 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=54 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=14)]
+p=71 k=55 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=56 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=57 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=25)]
+p=71 k=58 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=22)]
+p=71 k=59 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=60 #pts=4758  unexplained orbits: [4752]   explained: 6[6:two-zero(t=29)]
+p=71 k=61 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=62 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=63 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=64 #pts=5326  unexplained orbits: [5320]   explained: 6[6:two-zero(t=8)]
+p=71 k=65 #pts=4900  unexplained orbits: [4860]   explained: 40[40@k=(5-r5)/2(sqrt5->17)+40@k=(5+r5)/2(sqrt5->54)]
+p=71 k=66 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=67 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=68 #pts=5184  unexplained orbits: [5184]   explained: 
+p=71 k=69 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 k=70 #pts=4900  unexplained orbits: [4900]   explained: 
+p=71 point-count formula failures (k, actual, predicted): []

@@ -1,0 +1,221 @@
+n=2 k=0 #orbits=2 sizes: 4 1
+n=2 k=1 #orbits=1 sizes: 3
+n=2 k=2 #orbits=2 sizes: 4 1
+n=2 k=3 #orbits=1 sizes: 3
+n=2 k=4 #orbits=2 sizes: 4 1
+n=2 k=5 #orbits=1 sizes: 3
+n=2 k=6 #orbits=2 sizes: 4 1
+n=2 k=7 #orbits=1 sizes: 3
+n=2 k=8 #orbits=2 sizes: 4 1
+n=2 k=9 #orbits=1 sizes: 3
+n=2 k=10 #orbits=2 sizes: 4 1
+n=2 k=11 #orbits=1 sizes: 3
+n=2 k=12 #orbits=2 sizes: 4 1
+n=4 k=0 #orbits=6 sizes: 12 4 3x2 1x2
+n=4 k=1 #orbits=2 sizes: 18 6
+n=4 k=2 #orbits=1 sizes: 16
+n=4 k=3 #orbits=0 sizes: 
+n=4 k=4 #orbits=6 sizes: 12 4 3x2 1x2
+n=4 k=5 #orbits=2 sizes: 18 6
+n=4 k=6 #orbits=1 sizes: 16
+n=4 k=7 #orbits=0 sizes: 
+n=4 k=8 #orbits=6 sizes: 12 4 3x2 1x2
+n=4 k=9 #orbits=2 sizes: 18 6
+n=4 k=10 #orbits=1 sizes: 16
+n=4 k=11 #orbits=0 sizes: 
+n=4 k=12 #orbits=6 sizes: 12 4 3x2 1x2
+n=8 k=0 #orbits=7 sizes: 48 24 16 3x2 1x2
+n=8 k=1 #orbits=4 sizes: 18x2 6x2
+n=8 k=2 #orbits=2 sizes: 48 16
+n=8 k=3 #orbits=0 sizes: 
+n=8 k=4 #orbits=12 sizes: 24 12x4 6x2 4 3x2 1x2
+n=8 k=5 #orbits=2 sizes: 72x2
+n=8 k=6 #orbits=2 sizes: 48 16
+n=8 k=7 #orbits=0 sizes: 
+n=8 k=8 #orbits=7 sizes: 48 24 16 3x2 1x2
+n=8 k=9 #orbits=4 sizes: 18x2 6x2
+n=8 k=10 #orbits=2 sizes: 48 16
+n=8 k=11 #orbits=0 sizes: 
+n=8 k=12 #orbits=12 sizes: 24 12x4 6x2 4 3x2 1x2
+n=16 k=0 #orbits=12 sizes: 192 64 12x3 8 6x2 3x2 1x2
+n=16 k=1 #orbits=6 sizes: 72x2 18x2 6x2
+n=16 k=2 #orbits=3 sizes: 192 48 16
+n=16 k=3 #orbits=0 sizes: 
+n=16 k=4 #orbits=36 sizes: 96 48x2 24x6 12x7 8 6x10 4 3x6 1x2
+n=16 k=5 #orbits=2 sizes: 288x2
+n=16 k=6 #orbits=2 sizes: 192 64
+n=16 k=7 #orbits=0 sizes: 
+n=16 k=8 #orbits=4 sizes: 192 96x2 64
+n=16 k=9 #orbits=6 sizes: 72x2 18x2 6x2
+n=16 k=10 #orbits=3 sizes: 192 48 16
+n=16 k=11 #orbits=0 sizes: 
+n=16 k=12 #orbits=5 sizes: 96 48x3 16
+n=32 k=0 #orbits=22 sizes: 768 256 24x6 12x7 8 6x2 3x2 1x2
+n=32 k=1 #orbits=8 sizes: 288x2 72x2 18x2 6x2
+n=32 k=2 #orbits=4 sizes: 768 192 48 16
+n=32 k=3 #orbits=0 sizes: 
+n=32 k=4 #orbits=91 sizes: 384 192x2 96 48x6 24x22 12x11 8 6x30 4 3x14 1x2
+n=32 k=5 #orbits=2 sizes: 1152x2
+n=32 k=6 #orbits=2 sizes: 768 256
+n=32 k=7 #orbits=0 sizes: 
+n=32 k=8 #orbits=6 sizes: 768 384x4 256
+n=32 k=9 #orbits=8 sizes: 288x2 72x2 18x2 6x2
+n=32 k=10 #orbits=3 sizes: 768 192 64
+n=32 k=11 #orbits=0 sizes: 
+n=32 k=12 #orbits=5 sizes: 384 192x3 64
+n=64 k=0 #orbits=38 sizes: 3072 1024 24x14 12x9 8x3 6x6 3x2 1x2
+n=64 k=1 #orbits=10 sizes: 1152x2 288x2 72x2 18x2 6x2
+n=64 k=2 #orbits=5 sizes: 3072 768 192 48 16
+n=64 k=3 #orbits=0 sizes: 
+n=64 k=4 #orbits=182 sizes: 1536 768x2 384 192x6 96x27 48x6 32x2 24x34 12x47 8 6x38 4 3x14 1x2
+n=64 k=5 #orbits=2 sizes: 4608x2
+n=64 k=6 #orbits=2 sizes: 3072 1024
+n=64 k=7 #orbits=0 sizes: 
+n=64 k=8 #orbits=6 sizes: 3072 1536x4 1024
+n=64 k=9 #orbits=10 sizes: 1152x2 288x2 72x2 18x2 6x2
+n=64 k=10 #orbits=3 sizes: 3072 768 256
+n=64 k=11 #orbits=0 sizes: 
+n=64 k=12 #orbits=5 sizes: 1536 768x3 256
+n=128 k=0 #orbits=106 sizes: 12288 4096 24x74 12x17 8x3 6x6 3x2 1x2
+n=128 k=1 #orbits=12 sizes: 4608x2 1152x2 288x2 72x2 18x2 6x2
+n=128 k=2 #orbits=6 sizes: 12288 3072 768 192 48 16
+n=128 k=3 #orbits=0 sizes: 
+n=128 k=4 #orbits=317 sizes: 6144 3072x2 1536 768x6 384x17 192x6 96x51 48x78 32x2 24x50 12x47 8 6x38 4 3x14 1x2
+n=128 k=5 #orbits=2 sizes: 18432x2
+n=128 k=6 #orbits=2 sizes: 12288 4096
+n=128 k=7 #orbits=0 sizes: 
+n=128 k=8 #orbits=6 sizes: 12288 6144x4 4096
+n=128 k=9 #orbits=12 sizes: 4608x2 1152x2 288x2 72x2 18x2 6x2
+n=128 k=10 #orbits=3 sizes: 12288 3072 1024
+n=128 k=11 #orbits=0 sizes: 
+n=128 k=12 #orbits=5 sizes: 6144 3072x3 1024
+n=3 k=0 #orbits=1 sizes: 1
+n=3 k=1 #orbits=3 sizes: 6 3 1
+n=3 k=2 #orbits=1 sizes: 16
+n=3 k=3 #orbits=1 sizes: 1
+n=3 k=4 #orbits=3 sizes: 6 3 1
+n=3 k=5 #orbits=1 sizes: 16
+n=3 k=6 #orbits=1 sizes: 1
+n=3 k=7 #orbits=3 sizes: 6 3 1
+n=3 k=8 #orbits=1 sizes: 16
+n=3 k=9 #orbits=1 sizes: 1
+n=3 k=10 #orbits=3 sizes: 6 3 1
+n=3 k=11 #orbits=1 sizes: 16
+n=3 k=12 #orbits=1 sizes: 1
+n=9 k=0 #orbits=4 sizes: 12 8 6 1
+n=9 k=1 #orbits=2 sizes: 48 6
+n=9 k=2 #orbits=2 sizes: 128 16
+n=9 k=3 #orbits=0 sizes: 
+n=9 k=4 #orbits=12 sizes: 48 36 18 12x3 6x2 4x2 3 1
+n=9 k=5 #orbits=1 sizes: 144
+n=9 k=6 #orbits=0 sizes: 
+n=9 k=7 #orbits=2 sizes: 48 6
+n=9 k=8 #orbits=1 sizes: 144
+n=9 k=9 #orbits=4 sizes: 12 8 6 1
+n=9 k=10 #orbits=2 sizes: 48 6
+n=9 k=11 #orbits=2 sizes: 128 16
+n=9 k=12 #orbits=0 sizes: 
+n=27 k=0 #orbits=7 sizes: 72x3 12 8 6 1
+n=27 k=1 #orbits=3 sizes: 432 48 6
+n=27 k=2 #orbits=3 sizes: 1152 128 16
+n=27 k=3 #orbits=0 sizes: 
+n=27 k=4 #orbits=41 sizes: 432 108x3 48 36x12 18 12x14 6x2 4x5 3 1
+n=27 k=5 #orbits=1 sizes: 1296
+n=27 k=6 #orbits=0 sizes: 
+n=27 k=7 #orbits=3 sizes: 432 48 6
+n=27 k=8 #orbits=1 sizes: 1296
+n=27 k=9 #orbits=9 sizes: 24x6 6x3
+n=27 k=10 #orbits=3 sizes: 432 48 6
+n=27 k=11 #orbits=2 sizes: 1152 144
+n=27 k=12 #orbits=0 sizes: 
+n=81 k=0 #orbits=42 sizes: 648x3 24x26 12x4 8x4 6x4 1
+n=81 k=1 #orbits=4 sizes: 3888 432 48 6
+n=81 k=2 #orbits=4 sizes: 10368 1152 128 16
+n=81 k=3 #orbits=0 sizes: 
+n=81 k=4 #orbits=90 sizes: 3888 972x3 432 324x12 162x3 108x21 54x3 48 36x21 18 12x14 6x2 4x5 3 1
+n=81 k=5 #orbits=1 sizes: 11664
+n=81 k=6 #orbits=0 sizes: 
+n=81 k=7 #orbits=4 sizes: 3888 432 48 6
+n=81 k=8 #orbits=1 sizes: 11664
+n=81 k=9 #orbits=21 sizes: 216x3 72x9 24x6 6x3
+n=81 k=10 #orbits=4 sizes: 3888 432 48 6
+n=81 k=11 #orbits=2 sizes: 10368 1296
+n=81 k=12 #orbits=0 sizes: 
+n=243 k=0 #orbits=75 sizes: 5832x3 216x24 72x9 24x26 12x4 8x4 6x4 1
+n=243 k=1 #orbits=5 sizes: 34992 3888 432 48 6
+n=243 k=2 #orbits=5 sizes: 93312 10368 1152 128 16
+n=243 k=3 #orbits=0 sizes: 
+n=243 k=4 #orbits=151 sizes: 34992 8748x3 3888 2916x9 972x30 432 324x33 162x3 108x21 54x3 48 36x21 18 12x14 6x2 4x5 3 1
+n=243 k=5 #orbits=1 sizes: 104976
+n=243 k=6 #orbits=0 sizes: 
+n=243 k=7 #orbits=5 sizes: 34992 3888 432 48 6
+n=243 k=8 #orbits=1 sizes: 104976
+n=243 k=9 #orbits=33 sizes: 1944x3 648x9 216x3 72x9 24x6 6x3
+n=243 k=10 #orbits=5 sizes: 34992 3888 432 48 6
+n=243 k=11 #orbits=2 sizes: 93312 11664
+n=243 k=12 #orbits=0 sizes: 
+n=5 k=0 #orbits=2 sizes: 40 1
+n=5 k=1 #orbits=1 sizes: 6
+n=5 k=2 #orbits=1 sizes: 16
+n=5 k=3 #orbits=1 sizes: 36
+n=5 k=4 #orbits=5 sizes: 12 6 4 3 1
+n=5 k=5 #orbits=2 sizes: 40 1
+n=5 k=6 #orbits=1 sizes: 6
+n=5 k=7 #orbits=1 sizes: 16
+n=5 k=8 #orbits=1 sizes: 36
+n=5 k=9 #orbits=5 sizes: 12 6 4 3 1
+n=5 k=10 #orbits=2 sizes: 40 1
+n=5 k=11 #orbits=1 sizes: 6
+n=5 k=12 #orbits=1 sizes: 16
+n=25 k=0 #orbits=11 sizes: 1000 24x3 12x2 8x2 6x2 1
+n=25 k=1 #orbits=2 sizes: 144 6
+n=25 k=2 #orbits=2 sizes: 384 16
+n=25 k=3 #orbits=1 sizes: 900
+n=25 k=4 #orbits=20 sizes: 288 144 96 90x2 60x2 36x2 30x2 20x2 12x3 6 4 3 1
+n=25 k=5 #orbits=1 sizes: 1000
+n=25 k=6 #orbits=2 sizes: 144 6
+n=25 k=7 #orbits=1 sizes: 400
+n=25 k=8 #orbits=1 sizes: 900
+n=25 k=9 #orbits=4 sizes: 300 144 100 6
+n=25 k=10 #orbits=1 sizes: 1000
+n=25 k=11 #orbits=2 sizes: 144 6
+n=25 k=12 #orbits=1 sizes: 400
+n=125 k=0 #orbits=36 sizes: 25000 120x25 24x3 12x2 8x2 6x2 1
+n=125 k=1 #orbits=3 sizes: 3600 144 6
+n=125 k=2 #orbits=3 sizes: 9600 384 16
+n=125 k=3 #orbits=1 sizes: 22500
+n=125 k=4 #orbits=43 sizes: 7200 3600 2400 900x10 300x10 288 144 96 90x2 60x2 36x2 30x2 20x2 12x3 6 4 3 1
+n=125 k=5 #orbits=1 sizes: 25000
+n=125 k=6 #orbits=3 sizes: 3600 144 6
+n=125 k=7 #orbits=1 sizes: 10000
+n=125 k=8 #orbits=1 sizes: 22500
+n=125 k=9 #orbits=5 sizes: 7500 3600 2500 144 6
+n=125 k=10 #orbits=1 sizes: 25000
+n=125 k=11 #orbits=3 sizes: 3600 144 6
+n=125 k=12 #orbits=1 sizes: 10000
+n=7 k=0 #orbits=2 sizes: 28 1
+n=7 k=1 #orbits=2 sizes: 72 6
+n=7 k=2 #orbits=2 sizes: 16 6
+n=7 k=3 #orbits=1 sizes: 36
+n=7 k=4 #orbits=6 sizes: 24 12 6 4 3 1
+n=7 k=5 #orbits=1 sizes: 64
+n=7 k=6 #orbits=1 sizes: 64
+n=7 k=7 #orbits=2 sizes: 28 1
+n=7 k=8 #orbits=2 sizes: 72 6
+n=7 k=9 #orbits=2 sizes: 16 6
+n=7 k=10 #orbits=1 sizes: 36
+n=7 k=11 #orbits=6 sizes: 24 12 6 4 3 1
+n=7 k=12 #orbits=1 sizes: 64
+n=49 k=0 #orbits=22 sizes: 1372 24x11 12x3 8x3 6x3 1
+n=49 k=1 #orbits=3 sizes: 3528 288 6
+n=49 k=2 #orbits=4 sizes: 768 288 16 6
+n=49 k=3 #orbits=2 sizes: 1728 36
+n=49 k=4 #orbits=26 sizes: 1152 576 288 192 168x3 126x3 72x2 56x3 42x3 24x3 12 6 4 3 1
+n=49 k=5 #orbits=1 sizes: 3136
+n=49 k=6 #orbits=1 sizes: 3136
+n=49 k=7 #orbits=1 sizes: 1372
+n=49 k=8 #orbits=3 sizes: 3528 288 6
+n=49 k=9 #orbits=3 sizes: 784 288 6
+n=49 k=10 #orbits=1 sizes: 1764
+n=49 k=11 #orbits=5 sizes: 1176 588 288 196 6
+n=49 k=12 #orbits=1 sizes: 3136

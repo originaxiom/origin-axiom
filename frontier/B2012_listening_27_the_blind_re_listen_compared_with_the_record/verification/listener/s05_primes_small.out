@@ -1,0 +1,47 @@
+##### n = 2
+n=2 k=0  #points=5  #orbits=2  sizes: 4 1
+n=2 k=1  #points=3  #orbits=1  sizes: 3
+##### n = 3
+n=3 k=0  #points=1  #orbits=1  sizes: 1
+n=3 k=1  #points=10  #orbits=3  sizes: 6 3 1
+n=3 k=2  #points=16  #orbits=1  sizes: 16
+##### n = 5
+n=5 k=0  #points=41  #orbits=2  sizes: 40 1
+n=5 k=1  #points=6  #orbits=1  sizes: 6
+n=5 k=2  #points=16  #orbits=1  sizes: 16
+n=5 k=3  #points=36  #orbits=1  sizes: 36
+n=5 k=4  #points=26  #orbits=5  sizes: 12 6 4 3 1
+##### n = 7
+n=7 k=0  #points=29  #orbits=2  sizes: 28 1
+n=7 k=1  #points=78  #orbits=2  sizes: 72 6
+n=7 k=2  #points=22  #orbits=2  sizes: 16 6
+n=7 k=3  #points=36  #orbits=1  sizes: 36
+n=7 k=4  #points=50  #orbits=6  sizes: 24 12 6 4 3 1
+n=7 k=5  #points=64  #orbits=1  sizes: 64
+n=7 k=6  #points=64  #orbits=1  sizes: 64
+##### n = 11
+n=11 k=0  #points=89  #orbits=2  sizes: 88 1
+n=11 k=1  #points=78  #orbits=2  sizes: 72 6
+n=11 k=2  #points=144  #orbits=2  sizes: 128 16
+n=11 k=3  #points=78  #orbits=2  sizes: 72 6
+n=11 k=4  #points=122  #orbits=8  sizes: 48 36 12x2 6 4 3 1
+n=11 k=5  #points=166  #orbits=2  sizes: 160 6
+n=11 k=6  #points=100  #orbits=2  sizes: 60 40
+n=11 k=7  #points=144  #orbits=1  sizes: 144
+n=11 k=8  #points=144  #orbits=1  sizes: 144
+n=11 k=9  #points=166  #orbits=2  sizes: 160 6
+n=11 k=10  #points=100  #orbits=2  sizes: 60 40
+##### n = 13
+n=13 k=0  #points=209  #orbits=2  sizes: 208 1
+n=13 k=1  #points=222  #orbits=2  sizes: 216 6
+n=13 k=2  #points=144  #orbits=2  sizes: 128 16
+n=13 k=3  #points=222  #orbits=2  sizes: 216 6
+n=13 k=4  #points=170  #orbits=8  sizes: 72 48 24 12 6 4 3 1
+n=13 k=5  #points=196  #orbits=1  sizes: 196
+n=13 k=6  #points=144  #orbits=1  sizes: 144
+n=13 k=7  #points=196  #orbits=1  sizes: 196
+n=13 k=8  #points=196  #orbits=1  sizes: 196
+n=13 k=9  #points=118  #orbits=2  sizes: 112 6
+n=13 k=10  #points=118  #orbits=2  sizes: 112 6
+n=13 k=11  #points=144  #orbits=1  sizes: 144
+n=13 k=12  #points=118  #orbits=2  sizes: 112 6

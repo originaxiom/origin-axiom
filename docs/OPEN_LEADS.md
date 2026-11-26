@@ -11,7 +11,8 @@
 > - S_k one orbit for every k, and agy's all-k assembly checked line by line (every computed step holds for every k);
 > - whether B2009's stabiliser condition predicts mod 135;
 > - why the honeycomb law holds: its period M at each level, and the 6-element shell agy-exp derives it on;
-> - the blind re-listen, the census over every orbit and prime, and the null control (the guards named on 2026-11-26);
+> - the blind re-listen is done (B2012): a pairing law of the modular group on every orbit (lambda with lambda + 2), the dihedral family, the point-count rule, 15 point-free integer leaves, two 2-adic halves; the halving holds at 54, 108, 162 and fails at 135, 189;
+> - still owed of the guards: the census over every orbit and prime, the null control on a bare modular-group action; and from B2012: why 5 or 7 breaks the halving and 2 does not, what separates the 2-adic halves, a proof for the 15 leaves, the listener's unchecked items;
 > - the layer's step law; the full spectrum at mod 729; what could pick an orientation; P-884 Q3; agy-exp's NI-2, NI-5 and NH-3's collapse; the analytic field at omega (B1992).
 
 > **Currency (2026-11-26, through B2008; read against every arc from B1998):** the live list is still the point register's open rows. What the window moved, on the listening line (all data-free, nothing chosen):

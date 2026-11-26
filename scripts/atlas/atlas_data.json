@@ -18789,6 +18789,48 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2012": {
+   "slug": "listening 27 the blind re listen compared with the record",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B1",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14",
+    "B15",
+    "B16",
+    "B17",
+    "B18",
+    "B19",
+    "B2",
+    "B20",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B201": {
    "slug": "silver sl3 charvar",
    "motifs": [

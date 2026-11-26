@@ -1,0 +1,7 @@
+two-zero 6 rank, suborbit lengths: (3, [4, 1, 1])
+16@k=2 rank, suborbit lengths: (3, [12, 3, 1])
+36@k=3 rank, suborbit lengths: (5, [24, 8, 2, 1, 1])
+72@k=3 rank, suborbit lengths: (5, [64, 3, 3, 1, 1])
+40@k=(5-r5)/2 rank, suborbit lengths: (3, [36, 3, 1])
+Cayley torsion d=12 (size 48) rank, suborbit lengths: (10, [12, 12, 6, 4, 4, 3, 3, 2, 1, 1])
+Cayley torsion d=14 (size 72) rank, suborbit lengths: (12, [14, 14, 14, 7, 7, 7, 2, 2, 2, 1, 1, 1])

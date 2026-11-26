@@ -1,0 +1,5 @@
+k values mod 4 attained: [0, 1, 2]  mod 8: [0, 1, 2, 4, 5, 6]  mod 9: [0, 1, 2, 4, 5, 7, 8]  mod 27 missing: [3, 6, 12, 15, 21, 24]
+mod 16 missing: [3, 7, 11, 15]  mod 32 missing: [3, 7, 11, 15, 19, 23, 27, 31]  mod 81 missing: [3, 6, 12, 15, 21, 24, 30, 33, 39, 42, 48, 51, 57, 60, 66, 69, 75, 78]
+k in [-60,130] with no integer point in the box: 94
+  of these, excluded by some modulus in [4, 8, 16, 32, 64, 9, 27, 81, 243, 5, 25, 125, 7, 49, 11, 13] : 79
+  with points modulo every listed modulus (no congruence obstruction found): [-54, -47, -44, -38, -26, -19, -18, -14, -8, -4, 46, 56, 86, 124, 126]

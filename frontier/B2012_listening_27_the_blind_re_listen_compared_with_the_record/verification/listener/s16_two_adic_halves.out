@@ -1,0 +1,53 @@
+n=8 k=5: two big orbits of sizes 72,72; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 72}  B: {1: 72}
+     xyz mod 8  A: {0: 48, 4: 24}  B: {0: 48, 4: 24}
+     x+y+z mod 4 A: {1: 36, 3: 36}  B: {1: 36, 3: 36}
+n=8 k=1: big orbits []
+n=16 k=5: two big orbits of sizes 288,288; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 288}  B: {1: 288}
+     xyz mod 8  A: {0: 192, 4: 96}  B: {0: 192, 4: 96}
+     x+y+z mod 4 A: {1: 144, 3: 144}  B: {1: 144, 3: 144}
+n=16 k=13: two big orbits of sizes 288,288; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 288}  B: {1: 288}
+     xyz mod 8  A: {0: 192, 4: 96}  B: {0: 192, 4: 96}
+     x+y+z mod 4 A: {1: 144, 3: 144}  B: {1: 144, 3: 144}
+n=16 k=1: two big orbits of sizes 72,72; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 72}  B: {1: 72}
+     xyz mod 8  A: {0: 72}  B: {0: 72}
+     x+y+z mod 4 A: {1: 36, 3: 36}  B: {1: 36, 3: 36}
+n=16 k=9: two big orbits of sizes 72,72; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 72}  B: {1: 72}
+     xyz mod 8  A: {0: 72}  B: {0: 72}
+     x+y+z mod 4 A: {1: 36, 3: 36}  B: {1: 36, 3: 36}
+n=32 k=5: two big orbits of sizes 1152,1152; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 1152}  B: {1: 1152}
+     xyz mod 8  A: {0: 768, 4: 384}  B: {0: 768, 4: 384}
+     x+y+z mod 4 A: {1: 576, 3: 576}  B: {1: 576, 3: 576}
+n=32 k=13: two big orbits of sizes 1152,1152; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 1152}  B: {1: 1152}
+     xyz mod 8  A: {0: 768, 4: 384}  B: {0: 768, 4: 384}
+     x+y+z mod 4 A: {1: 576, 3: 576}  B: {1: 576, 3: 576}
+n=32 k=1: two big orbits of sizes 72,288; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 72}  B: {1: 288}
+     xyz mod 8  A: {0: 72}  B: {0: 288}
+     x+y+z mod 4 A: {1: 36, 3: 36}  B: {1: 144, 3: 144}
+n=32 k=9: two big orbits of sizes 72,288; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 72}  B: {1: 288}
+     xyz mod 8  A: {0: 72}  B: {0: 288}
+     x+y+z mod 4 A: {1: 36, 3: 36}  B: {1: 144, 3: 144}
+n=64 k=5: two big orbits of sizes 4608,4608; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 4608}  B: {1: 4608}
+     xyz mod 8  A: {0: 3072, 4: 1536}  B: {0: 3072, 4: 1536}
+     x+y+z mod 4 A: {1: 2304, 3: 2304}  B: {1: 2304, 3: 2304}
+n=64 k=13: two big orbits of sizes 4608,4608; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 4608}  B: {1: 4608}
+     xyz mod 8  A: {0: 3072, 4: 1536}  B: {0: 3072, 4: 1536}
+     x+y+z mod 4 A: {1: 2304, 3: 2304}  B: {1: 2304, 3: 2304}
+n=64 k=1: two big orbits of sizes 288,72; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 288}  B: {1: 72}
+     xyz mod 8  A: {0: 288}  B: {0: 72}
+     x+y+z mod 4 A: {1: 144, 3: 144}  B: {1: 36, 3: 36}
+n=64 k=9: two big orbits of sizes 288,72; tau maps A to ['A']; s12 maps A to ['A']; s13 maps A to ['A']
+     #even coords A: {1: 288}  B: {1: 72}
+     xyz mod 8  A: {0: 288}  B: {0: 72}
+     x+y+z mod 4 A: {1: 144, 3: 144}  B: {1: 36, 3: 36}

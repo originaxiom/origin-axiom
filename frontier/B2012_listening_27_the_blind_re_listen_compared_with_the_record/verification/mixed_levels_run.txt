@@ -1,0 +1,8 @@
+mod 54 = 27 * 2, orbit of (3,3,3): 288 points (mod 27: 72, mod 2: 4, product 288); C fixes 3; neutral dimension 98, charged 95  [0 s]
+    neutral sector: degree 98, 5 primes of 62 bits (product > 2 * 7^d)  [0 s]
+    charged sector: degree 95, 5 primes of 62 bits (product > 2 * 7^d)  [0 s]
+    halving identity p_neutral(2x)/2^d == (x^2 - 9) x S(x) exactly: True; gcd degree 95 of the charged 95; charged unpaired: degree 0, factors []  [0 s]
+mod 189 = 27 * 7, orbit of (3,3,3): 2016 points (mod 27: 72, mod 7: 28, product 2016); C fixes 3; neutral dimension 674, charged 671  [0 s]
+    neutral sector: degree 674, 32 primes of 62 bits (product > 2 * 7^d)  [12 s]
+    charged sector: degree 671, 31 primes of 62 bits (product > 2 * 7^d)  [27 s]
+    halving identity p_neutral(2x)/2^d == (x^2 - 9) x S(x) exactly: False; gcd degree 663 of the charged 671; charged unpaired: degree 8, factors [([-1, -1, 1], 1), ([-1, 1, 1], 1), ([-4, 1, 1], 1), ([-4, -1, 1], 1)]  [27 s]

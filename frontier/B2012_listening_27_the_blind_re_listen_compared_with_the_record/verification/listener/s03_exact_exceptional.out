@@ -1,0 +1,45 @@
+=== origin (0,0,0) : k = 0, orbit size 1
+    L cycle type {1: 1}  R cycle type {1: 1}
+    group <L,R> on orbit: order 1, structure 1
+    charpoly(T) = (x - 4)^1
+    points on this leaf with coordinates in the orbit's value set: 1 (orbit has 1)
+=== (2,2,2) : k = 4, orbit size 1
+    L cycle type {1: 1}  R cycle type {1: 1}
+    group <L,R> on orbit: order 1, structure 1
+    charpoly(T) = (x - 4)^1
+    points on this leaf with coordinates in the orbit's value set: 1 (orbit has 1)
+=== two-zero (3,0,0) [k=9] : k = 9, orbit size 6
+    L cycle type {1: 2, 4: 1}  R cycle type {1: 2, 4: 1}
+    group <L,R> on orbit: order 24, structure S4
+    charpoly(T) = (x - 4)^1 * (x)^1 * (x + 2)^1 * (x - 2)^3
+    points on this leaf with coordinates in the orbit's value set: 6 (orbit has 6)
+=== two-zero (1,0,0) [k=1] : k = 1, orbit size 6
+    L cycle type {1: 2, 4: 1}  R cycle type {1: 2, 4: 1}
+    group <L,R> on orbit: order 24, structure S4
+    charpoly(T) = (x - 4)^1 * (x)^1 * (x + 2)^1 * (x - 2)^3
+    points on this leaf with coordinates in the orbit's value set: 6 (orbit has 6)
+=== k=2: (1,1,1) : k = 2, orbit size 16
+    L cycle type {3: 2, 4: 1, 6: 1}  R cycle type {3: 2, 4: 1, 6: 1}
+    group <L,R> on orbit: order 18432, structure (((((C2 x ((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2)) : C2) : C3) : C2) : C2) : C3
+    charpoly(T) = (x - 4)^1 * (x - 1)^1 * (x + 1)^1 * (x)^2 * (x - 2)^3 * (x + 2)^4 * (x^2 - x - 4)^1 * (x^2 + 3*x - 2)^1
+    points on this leaf with coordinates in the orbit's value set: 16 (orbit has 16)
+=== k=3: (sqrt2,1,0) : k = 3, orbit size 36
+    L cycle type {3: 2, 4: 2, 6: 1, 8: 2}  R cycle type {3: 2, 4: 2, 6: 1, 8: 2}
+    group <L,R> on orbit: order 2654208, structure (((((C2 x C2 x C2 x C2) : C3) x ((((C2 x C2 x C2 x C2) : C3) x ((C2 x C2 x C2 x C2) : C3)) : C2)) : C2) : C3) : C2
+    charpoly(T) = (x - 4)^1 * (x - 3)^1 * (x)^1 * (x + 3)^1 * (x - 1)^3 * (x + 1)^3 * (x - 2)^6 * (x + 2)^8 * (x^3 - 4*x^2 + x + 4)^1 * (x^3 - 2*x^2 - 3*x + 2)^1 * (x^3 + 2*x^2 - 3*x - 2)^1 * (x^3 + 4*x^2 + x - 4)^1
+    points on this leaf with coordinates in the orbit's value set: 36 (orbit has 36)
+=== k=3: (phi,1/phi,0) : k = 3, orbit size 72
+    L cycle type {3: 4, 4: 2, 5: 4, 6: 2, 10: 2}  R cycle type {3: 4, 4: 2, 5: 4, 6: 2, 10: 2}
+    group <L,R> on orbit: order 73057393704960, structure large
+    charpoly(T) = (x - 4)^1 * (x)^2 * (x - 2)^13 * (x + 2)^14 * (x^2 - 2)^1 * (x^2 + 4*x + 2)^1 * (x^2 - 2*x - 2)^2 * (x^2 + 2*x - 2)^2 * (x^3 - 2*x^2 - 3*x + 3)^1 * (x^3 - 2*x^2 - x + 1)^1 * (x^3 + 4*x^2 + x - 3)^1 * (x^3 + 4*x^2 + 3*x - 1)^1 * (x^4 - 4*x^3 - x^2 + 9*x - 4)^1 * (x^4 + 4*x^3 - x^2 - 11*x - 6)^1 * (x^5 - 8*x^4 + 19*x^3 - 9*x^2 - 10*x + 2)^1 * (x^5 + 2*x^4 - 5*x^3 - 7*x^2 + 6*x + 2)^1
+    points on this leaf with coordinates in the orbit's value set: 72 (orbit has 72)
+=== k=(5-sqrt5)/2: (1,1/phi,0) : k = (5/2-1/2*r5), orbit size 40
+    L cycle type {3: 2, 4: 2, 5: 2, 6: 1, 10: 1}  R cycle type {3: 2, 4: 2, 5: 2, 6: 1, 10: 1}
+    group <L,R> on orbit: order 2853804441600, structure large
+    charpoly(T) = (x - 4)^1 * (x - 1)^2 * (x)^2 * (x + 3)^2 * (x + 1)^4 * (x + 2)^7 * (x - 2)^8 * (x^3 - 5*x^2 + 5*x + 1)^1 * (x^3 + x^2 - 3*x - 1)^1 * (x^4 - 3*x^3 - 5*x^2 + 11*x + 10)^1 * (x^4 + 5*x^3 + x^2 - 13*x + 4)^1
+    points on this leaf with coordinates in the orbit's value set: 40 (orbit has 40)
+=== k=(5+sqrt5)/2: (1,phi,0) : k = (5/21/2*r5), orbit size 40
+    L cycle type {3: 2, 4: 2, 5: 2, 6: 1, 10: 1}  R cycle type {3: 2, 4: 2, 5: 2, 6: 1, 10: 1}
+    group <L,R> on orbit: order 2853804441600, structure large
+    charpoly(T) = (x - 4)^1 * (x - 1)^2 * (x)^2 * (x + 3)^2 * (x + 1)^4 * (x + 2)^7 * (x - 2)^8 * (x^3 - 5*x^2 + 5*x + 1)^1 * (x^3 + x^2 - 3*x - 1)^1 * (x^4 - 3*x^3 - 5*x^2 + 11*x + 10)^1 * (x^4 + 5*x^3 + x^2 - 13*x + 4)^1
+    points on this leaf with coordinates in the orbit's value set: 40 (orbit has 40)

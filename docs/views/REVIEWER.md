@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1708** |
-| words of findings prose | **1,566,418** |
+| research arcs with findings | **1709** |
+| words of findings prose | **1,568,676** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1708** (100.0 %) |
+| arcs carrying an authored verdict | **1709** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1201 |
+| PROVED | 1202 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2011`** (1770 words, 0 locks)  
-“LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125, 343 (its exact factor divides the characteristic polynomial over Z) and 625 (modulo three primes): one law at the primes 3, 5 and 7 that main had not heard; agy's level mod 135 keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws (both corrected); the halving identity holds exactly over Z at mod 243; every computed step of agy's all-k argument holds on main from mod 9 to mod 6561 and, by main's reading, for every k; the orbit is the whole congruence set to mod 6561; the 648-point orbit is the honeycomb torus {0,1} x (Z/18)^2; the outward ratio is (4s + 6) : (s + 6); the assembly for every k is read, not checked line by line”  
-`B2011_listening_26_what_the_other_listeners_heard_checked_on_main/FINDINGS.md`
+**PROVED — `B2012`** (2258 words, 0 locks)  
+“LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), six sharpen it, eight are new and two split; main checked the new ones that decide: the four-move sum is 3(SP + PS) - 2S on every orbit, so its spectrum pairs lambda with lambda + 2 by the two-subspace theorem (exact on five orbits, modulo three primes at mod 135): a law of the modular group, not of the whole; the 6-point dihedral orbit on every leaf k = t^2 (B1989's owed family); the point-count rule p^2 + p(3 chi(k - 4) + chi(k(k - 4))) + 1; residues 3 mod 4 and 3, 6 mod 9 never attained and 15 locally solvable leaves without a point to 3000; two equal 2-adic halves on k = 5 mod 8; the mod-5 cusp orbit is the icosahedral 40-orbit reduced; and the halving holds at 54, 108, 162 but fails at 189 as at 135, so its failure at mixed levels is not the icosahedral origin”  
+`B2012_listening_27_the_blind_re_listen_compared_with_the_record/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

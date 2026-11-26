@@ -1,0 +1,21 @@
+{
+ "id": "B2012",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B2011", "B2009", "B2004", "B1983", "B1989", "B1990", "B1993", "B1998"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the moves L, R on the readings; leaves mod primes to 71, mod 2^5 to 2^7, the orbit of (3,3,3) mod 27, 81, 135, 54, 108, 162, 189; integer leaves in a box; the 40-point orbits over Q(sqrt 5)",
+  "object": "a blind listener's twenty observations against the record, and main's checks of the new ones: the four-move sum's pairing law, the dihedral 6-point family, the point-count rule, congruence obstructions and point-free leaves, the 2-adic halves, the icosahedral origin of the mod-5 cusp orbit, the halving at mixed levels",
+  "reach": "class",
+  "hypotheses": "the listener was blind by instruction and disclosed one channel of priming; FLINT exact over Z (mod 135 modulo three primes); sympy; exhaustive counts; M2a failed as worded"
+ },
+ "claim_one_line": "LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), six sharpen it, eight are new and two split; main checked the new ones that decide: the four-move sum is 3(SP + PS) - 2S on every orbit, so its spectrum pairs lambda with lambda + 2 by the two-subspace theorem (exact on five orbits, modulo three primes at mod 135): a law of the modular group, not of the whole; the 6-point dihedral orbit on every leaf k = t^2 (B1989's owed family); the point-count rule p^2 + p(3 chi(k - 4) + chi(k(k - 4))) + 1; residues 3 mod 4 and 3, 6 mod 9 never attained and 15 locally solvable leaves without a point to 3000; two equal 2-adic halves on k = 5 mod 8; the mod-5 cusp orbit is the icosahedral 40-orbit reduced; and the halving holds at 54, 108, 162 but fails at 189 as at 135, so its failure at mixed levels is not the icosahedral origin",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

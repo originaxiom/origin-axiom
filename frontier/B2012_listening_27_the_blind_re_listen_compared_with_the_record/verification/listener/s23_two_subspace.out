@@ -1,0 +1,4 @@
+p=7 k=5 n=64: T == S(3P)+(3P)S-2S exactly: True; dim range(P)=22; t=1: 1, t=0: 0, generic t: 21 -> 42 predicted eigenvalues matched; leftover eigenvalues (should be only 4,-4,2,-2): [np.float64(-2.0), np.float64(2.0), np.float64(4.0)]
+p=11 k=6 n=60: T == S(3P)+(3P)S-2S exactly: True; dim range(P)=20; t=1: 1, t=0: 0, generic t: 19 -> 38 predicted eigenvalues matched; leftover eigenvalues (should be only 4,-4,2,-2): [np.float64(-2.0), np.float64(2.0), np.float64(4.0)]
+p=13 k=9 n=112: T == S(3P)+(3P)S-2S exactly: True; dim range(P)=38; t=1: 1, t=0: 0, generic t: 37 -> 74 predicted eigenvalues matched; leftover eigenvalues (should be only 4,-4,2,-2): [np.float64(-2.0), np.float64(2.0), np.float64(4.0)]
+p=17 k=3 n=288: T == S(3P)+(3P)S-2S exactly: True; dim range(P)=98; t=1: 1, t=0: 0, generic t: 97 -> 194 predicted eigenvalues matched; leftover eigenvalues (should be only 4,-4,2,-2): [np.float64(-2.0), np.float64(2.0), np.float64(4.0)]

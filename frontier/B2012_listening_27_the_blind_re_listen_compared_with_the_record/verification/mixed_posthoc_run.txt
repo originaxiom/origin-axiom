@@ -1,0 +1,8 @@
+mod 108 = (N/q) * 4, orbit of (3,3,3): 288 points (mod N/q: 72, mod 4: 4, product 288); C fixes 3; neutral dimension 98, charged 95  [0 s]
+    neutral sector: degree 98, 5 primes of 62 bits (product > 2 * 7^d)  [0 s]
+    charged sector: degree 95, 5 primes of 62 bits (product > 2 * 7^d)  [0 s]
+    halving identity p_neutral(2x)/2^d == (x^2 - 9) x S(x) exactly: True; gcd degree 95 of the charged 95; charged unpaired: degree 0, factors []  [0 s]
+mod 162 = (N/q) * 2, orbit of (3,3,3): 2592 points (mod N/q: 648, mod 2: 4, product 2592); C fixes 3; neutral dimension 866, charged 863  [0 s]
+    neutral sector: degree 866, 40 primes of 62 bits (product > 2 * 7^d)  [43 s]
+    charged sector: degree 863, 40 primes of 62 bits (product > 2 * 7^d)  [82 s]
+    halving identity p_neutral(2x)/2^d == (x^2 - 9) x S(x) exactly: True; gcd degree 863 of the charged 863; charged unpaired: degree 0, factors []  [82 s]

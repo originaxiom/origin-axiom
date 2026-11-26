@@ -1,0 +1,26 @@
+k invariant under L,R,Li,Ri: [True, True, True, True]
+L Li = id: True  Li L = id: True
+R Ri = id: True  Ri R = id: True
+Lr -> (x*y - z, x, x**2*y - x*z - y)
+rL -> (y, z, x)
+LrL -> (y, x, x*y - z)
+rLr -> (y, x, x*y - z)
+Lrl -> (x**2*y - x*z - y, x, x**3*y - x**2*z - 2*x*y + z)
+LrLr -> (y, x*y - z, x*y**2 - x - y*z)
+LrLrLr -> (x, y, z)
+LrLLrL -> (x, y, z)
+LRl -> (y, x*y**2 - x - y*z, x*y**3 - 2*x*y - y**2*z + z)
+lR -> (z, x, y)
+braid L r L == r L r : True
+(L r)^3 == id : True
+(L r L)^2 == id : True
+tau L tau == R: True   tau R tau == L: True
+L o s12 = ['s13'] o L
+R o s12 = ['s23'] o R
+L o s13 = ['s12'] o L
+R o s13 = ['s13'] o R
+L o s23 = ['s23'] o L
+R o s23 = ['s12'] o R
+common fixed points over C: [{x: 0, y: 0, z: 0}, {x: 2, y: 2, z: 2}] [0, 4]
+critical points of k: [{x: -2, y: -2, z: 2}, {x: -2, y: 2, z: -2}, {x: 0, y: 0, z: 0}, {x: 2, y: -2, z: -2}, {x: 2, y: 2, z: 2}] k values: [4, 4, 0, 4, 4]
+fixed set of L: [{x: 2, y: z}, {y: 0, z: 0}]

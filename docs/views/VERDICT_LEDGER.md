@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1708 of 1708 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1709 of 1709 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1201)
+## PROVED (1202)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1213,6 +1213,7 @@
 | `B2009` | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and its C-neutral space to its charge-2 space, so with B2004's sector forms the charged spectrum is half the neutral one wherever <pi|S, 1> = <pi|S, rho|S>; GAP's character tables at mod 27, 81, 243 (19, 85, 399 irreducibles) give the same six exceptions at each level, of degree at most 2, three of them seen by the neutral sector: the trivial character (the constant, 6), S4's sign (the alternation, -6) and one 2-dimensional representation (the null mode), with weighted count 3, exactly the identity's three left-out modes” |  | 0 |
 | `B2010` | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreducible non-trivial on it (66 and 380) has equal multiplicities, so it pairs exactly; the six live on one quotient of order 18 at every level, C3 x S3, the three's permutation group times omega's charge (E3's 72 failed as worded); so the halving's only exceptions are the representations of the three with their charge, a group that does not grow up the tower” |  | 0 |
 | `B2011` | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125, 343 (its exact factor divides the characteristic polynomial over Z) and 625 (modulo three primes): one law at the primes 3, 5 and 7 that main had not heard; agy's level mod 135 keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws (both corrected); the halving identity holds exactly over Z at mod 243; every computed step of agy's all-k argument holds on main from mod 9 to mod 6561 and, by main's reading, for every k; the orbit is the whole congruence set to mod 6561; the 648-point orbit is the honeycomb torus {0,1} x (Z/18)^2; the outward ratio is (4s + 6) : (s + 6); the assembly for every k is read, not checked line by line” |  | 0 |
+| `B2012` | “LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), six sharpen it, eight are new and two split; main checked the new ones that decide: the four-move sum is 3(SP + PS) - 2S on every orbit, so its spectrum pairs lambda with lambda + 2 by the two-subspace theorem (exact on five orbits, modulo three primes at mod 135): a law of the modular group, not of the whole; the 6-point dihedral orbit on every leaf k = t^2 (B1989's owed family); the point-count rule p^2 + p(3 chi(k - 4) + chi(k(k - 4))) + 1; residues 3 mod 4 and 3, 6 mod 9 never attained and 15 locally solvable leaves without a point to 3000; two equal 2-adic halves on k = 5 mod 8; the mod-5 cusp orbit is the icosahedral 40-orbit reduced; and the halving holds at 54, 108, 162 but fails at 189 as at 135, so its failure at mixed levels is not the icosahedral origin” |  | 0 |
 
 ## NEGATIVE (388)
 

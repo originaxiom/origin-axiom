@@ -1,0 +1,287 @@
+B = 30  number of values 2cos(pi a/b), b<=B: 279
+candidate triples passing the one-step filter: 19851
+finite orbits found (coords in [-2,2], b<=30): 159
+  k=0.00000000 : 1 orbits:
+       size 1  |coords| in [np.float64(0.0)] two-zero
+  k=0.01172409 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.108278)] two-zero
+  k=0.01352328 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.11629)] two-zero
+  k=0.01577060 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.125581)] two-zero
+  k=0.01862811 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.136485)] two-zero
+  k=0.02233835 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.14946)] two-zero
+  k=0.02727739 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.165159)] two-zero
+  k=0.03405380 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.184537)] two-zero
+  k=0.04370480 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.209057)] two-zero
+  k=0.05014418 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.223929)] two-zero
+  k=0.05811637 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.241073)] two-zero
+  k=0.06814835 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.261052)] two-zero
+  k=0.08101405 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.28463)] two-zero
+  k=0.09788697 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.312869)] two-zero
+  k=0.10469366 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.323564)] two-zero
+  k=0.12061476 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.347296)] two-zero
+  k=0.14044703 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.374763)] two-zero
+  k=0.15224093 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.390181)] two-zero
+  k=0.16557740 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.406912)] two-zero
+  k=0.17290908 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.415823)] two-zero
+  k=0.19806226 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.445042)] two-zero
+  k=0.22908795 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.478631)] two-zero
+  k=0.24105250 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.490971)] two-zero
+  k=0.26794919 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.517638)] two-zero
+  k=0.28628565 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.535057)] two-zero
+  k=0.29956573 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.547326)] two-zero
+  k=0.31749293 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.563465)] two-zero
+  k=0.32902438 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.573606)] two-zero
+  k=0.38196601 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.618034)] two-zero
+  k=0.43633704 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.660558)] two-zero
+  k=0.44857742 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.669759)] two-zero
+  k=0.46791111 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.68404)] two-zero
+  k=0.50297850 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.70921)] two-zero
+  k=0.53389626 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.730682)] two-zero
+  k=0.54800902 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.740276)] two-zero
+  k=0.58578644 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.765367)] two-zero
+  k=0.62751672 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.79216)] two-zero
+  k=0.64543686 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.803391)] two-zero
+  k=0.66173879 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.813473)] two-zero
+  k=0.69027853 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.83083)] two-zero
+  k=0.72515202 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.851559)] two-zero
+  k=0.75302040 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.867767)] two-zero
+  k=0.79473073 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.891477)] two-zero
+  k=0.82442950 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.907981)] two-zero
+  k=0.84663936 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.92013)] two-zero
+  k=0.86387051 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.929446)] two-zero
+  k=0.87762587 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(0.936817)] two-zero
+  k=1.00000000 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.0)] two-zero
+  k=1.13223252 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.064064)] two-zero
+  k=1.14844142 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.071654)] two-zero
+  k=1.16916997 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.081282)] two-zero
+  k=1.19660915 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.093896)] two-zero
+  k=1.23463314 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.11114)] two-zero
+  k=1.25972369 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.122374)] two-zero
+  k=1.29079023 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.136129)] two-zero
+  k=1.33024078 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.153361)] two-zero
+  k=1.38196601 : 2 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.175571)] two-zero
+       size 40  |coords| in [np.float64(0.0), np.float64(0.618034), np.float64(1.0)] 
+  k=1.42639353 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.194317)] two-zero
+  k=1.45267402 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.205269)] two-zero
+  k=1.48236191 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.217523)] two-zero
+  k=1.55495813 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.24698)] two-zero
+  k=1.62523737 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.274848)] two-zero
+  k=1.65270364 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.285575)] two-zero
+  k=1.67643601 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.294773)] two-zero
+  k=1.71537032 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.309721)] two-zero
+  k=1.75892664 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.326245)] two-zero
+  k=1.79094307 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.338261)] two-zero
+  k=1.83484131 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.354563)] two-zero
+  k=1.86351517 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.365106)] two-zero
+  k=1.88371034 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.372483)] two-zero
+  k=2.00000000 : 2 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.414214)] two-zero
+       size 16  |coords| in [np.float64(0.0), np.float64(1.0)] 
+  k=2.10827782 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.451991)] two-zero
+  k=2.12558104 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.457937)] two-zero
+  k=2.14946019 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.466104)] two-zero
+  k=2.18453672 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.478018)] two-zero
+  k=2.20905693 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.48629)] two-zero
+  k=2.24107336 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.497021)] two-zero
+  k=2.28462968 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.511499)] two-zero
+  k=2.34729636 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.532089)] two-zero
+  k=2.40691203 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.551423)] two-zero
+  k=2.44504187 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.563663)] two-zero
+  k=2.49097097 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.578281)] two-zero
+  k=2.51763809 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.586707)] two-zero
+  k=2.53505668 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.592186)] two-zero
+  k=2.61803399 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.618034)] two-zero
+  k=2.70920977 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.645968)] two-zero
+  k=2.73068205 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.652478)] two-zero
+  k=2.76536686 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.662939)] two-zero
+  k=2.79215953 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.670976)] two-zero
+  k=2.83083003 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.682507)] two-zero
+  k=2.86776748 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.693448)] two-zero
+  k=2.89147671 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.700434)] two-zero
+  k=2.92013008 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.708839)] two-zero
+  k=2.93681688 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.713714)] two-zero
+  k=3.00000000 : 3 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.732051)] two-zero
+       size 36  |coords| in [np.float64(0.0), np.float64(1.0), np.float64(1.414214)] 
+       size 72  |coords| in [np.float64(0.0), np.float64(0.618034), np.float64(1.0), np.float64(1.618034)] 
+  k=3.07165359 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.752613)] two-zero
+  k=3.09389632 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.758948)] two-zero
+  k=3.13612949 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.770912)] two-zero
+  k=3.17557050 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.782013)] two-zero
+  k=3.19431718 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.787265)] two-zero
+  k=3.24697960 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.801938)] two-zero
+  k=3.29477257 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.815151)] two-zero
+  k=3.30972147 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.819264)] two-zero
+  k=3.33826121 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.827091)] two-zero
+  k=3.36510629 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.834423)] two-zero
+  k=3.41421356 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.847759)] two-zero
+  k=3.45793725 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.859553)] two-zero
+  k=3.47801783 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.864944)] two-zero
+  k=3.49702150 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.870032)] two-zero
+  k=3.53208889 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.879385)] two-zero
+  k=3.56366296 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.887767)] two-zero
+  k=3.57828102 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.891634)] two-zero
+  k=3.59218613 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.895306)] two-zero
+  k=3.61803399 : 2 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.902113)] two-zero
+       size 40  |coords| in [np.float64(0.0), np.float64(1.0), np.float64(1.618034)] 
+  k=3.65247755 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.911146)] two-zero
+  k=3.68250707 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.918986)] two-zero
+  k=3.70883881 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.925835)] two-zero
+  k=3.73205081 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.931852)] two-zero
+  k=3.75261336 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.937166)] two-zero
+  k=3.77091205 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.941884)] two-zero
+  k=3.78726528 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.94609)] two-zero
+  k=3.80193774 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.949856)] two-zero
+  k=3.81515084 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.953241)] two-zero
+  k=3.82709092 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.956295)] two-zero
+  k=3.84775907 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.961571)] two-zero
+  k=3.86494446 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.965946)] two-zero
+  k=3.87938524 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.969616)] two-zero
+  k=3.89163448 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.972723)] two-zero
+  k=3.90211303 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.975377)] two-zero
+  k=3.91114561 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.977662)] two-zero
+  k=3.91898595 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.979643)] two-zero
+  k=3.92583457 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.981372)] two-zero
+  k=3.93185165 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.98289)] two-zero
+  k=3.93716632 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.984229)] two-zero
+  k=3.94188363 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.985418)] two-zero
+  k=3.94608974 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.986477)] two-zero
+  k=3.94985582 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.987424)] two-zero
+  k=3.95324111 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.988276)] two-zero
+  k=3.95629520 : 1 orbits:
+       size 6  |coords| in [np.float64(0.0), np.float64(1.989044)] two-zero
+  k=4 (Cayley leaf): 15 orbits, sizes histogram: {1: 1, 3: 1, 4: 1, 6: 1, 12: 2, 24: 2, 36: 2, 48: 1, 72: 1, 84: 1, 96: 1, 108: 1}
