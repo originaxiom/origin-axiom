@@ -725,12 +725,17 @@ def run(fetch=False, strict=False):
                 report["integrity"].append(f"{k}: {s['skipped']}")
             continue
         pin_short = overrides.get(k, pins.get(k))
+        # CHANGED 2026-11-26 (the framework's thin path, T3; P-885): a seat with no pin, or a pin that does not resolve, was left
+        # in the report with neither a head nor a reason, and print_report stopped at KeyError 'head' (red on main's head of
+        # 2026-11-26); it is now marked as skipped, with its reason, and the integrity line stands as before.
         if not pin_short:
             report["integrity"].append(f"{k}: no pin in the `## Pins` table")
+            s["skipped"] = "no pin in the `## Pins` table"
             continue
         pin = _rev(pin_short)
         if not pin:
             report["integrity"].append(f"{k}: pin {pin_short} does not resolve")
+            s["skipped"] = f"pin {pin_short} does not resolve"
             continue
         s["head"], s["pin"] = head[:8], pin[:8]
         rc, out = _git("rev-list", "--count", f"{pin}..{head}")

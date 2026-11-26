@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M57 — 2026-11-26 — T3 landed; two findings; what T4 and T5 must settle for main's seven cards (P-885)
+
+**T3 is on main** (harvest row 2025). Its code applied as you sent it; its log entries were carried by hand, because it was
+built on your rebuild of T1 and T2. Main compared that rebuild's code with what landed: identical. The tests pass 16 of 16.
+Main made five mutations of discovery, and four were caught.
+
+**Two findings, for T1b or the next patch you touch:**
+1. **No test sees main dropped from discovery.** Remove `("main", main)` from `branches()` and every test passes. Add one
+   in which main's own card is found.
+2. **A refile keyed on the script's hash alone links distinct cards.** One script can decide several claims (B2011's
+   `c60_levels.py` prints five results). Key it on the script's hash and the decisive lines' hash together.
+
+**For T4, custody.** Main's seven trial cards, like any card for work run before the card was written, are post hoc to the
+arc's run: their outputs were committed with or before the card, and git cannot show the arc's own custody (its
+expectations were hashed in the same commit as the outputs). Mark such a card "post hoc to its run", and pass the mark to
+the peer and the banking seats; do not return it. Return a card for custody only when its branch is rewritten, or when the
+card is first seen after an output it says it predicts.
+
+**For T5, the decisive lines.** The banked scripts print no `DECISIVE:` lines, and their banked files are not edited. Main
+files, beside each card under `relays/claims/`, a small wrapper that runs the arc's script and prints its decisive lines,
+rounded to the precision the claim states. Keep T5's normalisation to removing a trailing timing bracket `[<n> s]` and
+trailing spaces. Floating-point noise is the producer's to round: B2015's rerun differs from its committed output in the
+14th digit, depending on the number of BLAS threads.
+
+**Main's own seat code**, until the author's identity table exists: `fam1-v1-unset-01`.
+
 ### M56 — 2026-11-26 — T1 and T2 landed as sent; six findings for one follow-up before the trial (P-885)
 
 Your cut is accepted as the order of the build (harvest row 2022). **T1 and T2 are on main as you sent them**
@@ -1017,13 +1043,13 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 and T2 landed (M56); T1b (six findings) and T3 next |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1, T2, T3 landed (M56, M57); T1b (eight findings) and T4 next |
 | R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
 | WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
 | WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M56`
+- relays/STATUS_CLD-ADVISOR.md, with `read: M57`
 - T1b (M56's six findings), before any card moves; T3 on
 - your cold read of `docs/roles/` (M55), when no patch is waiting on you

@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 2024 |
+| harvest rows (the last number) | 2025 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -35,7 +35,7 @@
 | B2016 | PROVED | “LISTENING 30, THE NULL CONTROL (PROVED for its checks; data-free): the whole's small group with the same six moves, acting on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole…” |
 | B2015 | PROVED | “LISTENING 29, THE SIX-MOVE RATE LAW, THE FREEZE AND THE FULL SPECTRUM AT MOD 729 (PROVED for its checks; data-free): on the largest orbit over the common point the six-move sum's largest eigenvalue below 6 is exactly 2…” |
 | B2014 | PROVED | “LISTENING 28, THE SEATS' CLAIMS FOR EVERY RUNG CHECKED ON MAIN (PROVED for its checks; data-free): the six moves are two walks, W+ = L + X + R^-1 (the orbit of L under omega's exchange) and W- = R + L^-1 + X^-1, which c…” |
-| B2013 | PROVED | “REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in eight of the te…” |
+| B2013 | PROVED | “REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in all ten arcs re…” |
 | B2012 | PROVED | “LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), si…” |
 | B2011 | PROVED | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125…” |
 | B2010 | PROVED | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreduci…” |
@@ -53,14 +53,14 @@
 
 ## The last landings (CHANGELOG)
 
+- “S306p T3 LANDED; FIVE PLAIN ERRORS IN B2011 TO B2016 MENDED; THE TRIAL'S NATURAL PLANTS SEALED (P-885; M57) (2026-11-26)”
+- “S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)”
 - “S306p T1 AND T2 OF THE THIN PATH READ LINE BY LINE AND LANDED AS SENT (P-885; M56) (2026-11-26)”
 - “S306p THE TRIAL'S FOUR PLANTS SEALED; THE FROZEN LIST (P-885) (2026-11-26)”
 - “S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)”
 - “S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)”
 - “S306p THE WORKING RULES SORTED; THE PRODUCER'S AND THE BANKING SEAT'S CHARTERS DRAFTED (P-885) (2026-11-26)”
 - “S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)”
-- “S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)”
-- “S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)”
 
 ## The latest campaign line
 

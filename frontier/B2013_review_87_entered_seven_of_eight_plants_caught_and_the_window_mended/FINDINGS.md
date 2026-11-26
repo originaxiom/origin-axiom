@@ -1,4 +1,6 @@
-# B2013 — Review 87 entered: three cold readers caught seven of the eight plants and found real faults in eight of the ten arcs read; each is checked by main and mended
+# B2013 — Review 87 entered: three cold readers caught seven of the eight plants and found real faults in all ten arcs read; each is checked by main and mended
+
+[corrected 2026-11-26: the title read 'in eight of the ten arcs read'; the table below marks a real finding in each of the ten, and § What the review shows says every arc read had something; found by a reader of main's, drafting the arc's claim card]
 
 **Verdict: PROVED (a process arc).** Main, 2026-11-26. Register rows P-881 and P-882. **0 of 19.**
 

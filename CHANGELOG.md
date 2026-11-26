@@ -1,5 +1,36 @@
 # Changelog
 
+## S306p T3 LANDED; FIVE PLAIN ERRORS IN B2011 TO B2016 MENDED; THE TRIAL'S NATURAL PLANTS SEALED (P-885; M57) (2026-11-26)
+
+- **T3, discovery, read line by line and landed** (harvest row 2025; the advisor's pin at `1eb159fec`): its code applied as
+  sent, its log entries carried by hand; 16 of 16 tests; main's mutations caught 4 of 5. Two findings and two design points
+  for T4 and T5 sent as M57 (a test that main's cards are found; a refile keyed on the decisive lines' hash too; custody marks
+  a card post hoc to its run instead of returning it; T5's normalisation kept to timing brackets and spaces).
+- **Seven readers of main's drafted the claim cards of B2011 to B2017** (each reproduced its arc's decisive lines on main;
+  every failing control fails; B2015's mod-729 check and B2016's GAP export are heavy) and listed 67 doubts about the arcs.
+  **Five plain errors of statement mended now**, each with a dated note: B2013's claim and title said real faults were found
+  in eight of the ten arcs read, its own table marks all ten; B2016's claim said half or more of the quotients do not halve,
+  its output gives 4 of 8 at mod 27 and 4 of 12 at mod 81; B2015's hashed card names the orbit of (3,3,3) at mod 27, where
+  three orbits tie and the script takes the orbit of (3,3,12) (a disclosure added; the value below 6 is the same on every tied
+  orbit checked); B2012's FINDINGS cited `two_subspace.py` and its run, which were never committed (committed now); B2011's
+  law-map row and P-882's note still said one law at the primes 3, 5, 7 and exact at 625 (brought to the arc's scoped claim).
+- **The other doubts held through the trial as natural plants**, sealed (manifest SHA-256
+  `07bca6c8cfeaa75c173153f47813b8786327250ef7b0500a857aba393ba59ad9` in P-885), to be mended after it: scope larger than the
+  evidence, locks that cannot fail on a recomputation, custody git cannot show, missing disclosures, unchecked assumptions.
+
+## S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)
+
+- **`scripts/queue/discover.py`:** reads main and every seat branch of the Pins table (a masked ref read on its last
+  segment, as harvest_debt.py reads it) and files every version of a claim card the queue has not seen: FILED by the
+  runner, the next free id, the commit that last changed the card. A branch that cannot be read is reported and the others
+  are read; a card with no seat code is not filed and is reported; a new version of a card, or a card with the decisive
+  script of one already filed, is filed as its refile, and the note says whether the card declared it. Prints by default;
+  `--write` writes the new cards' files.
+- **`scripts/checks/harvest_debt.py`:** a seat whose pin is missing or does not resolve is marked skipped with its reason;
+  the report stopped at KeyError 'head' on it (red on main's head of 2026-11-26). The integrity line stands, so the gate
+  still fails on such a pin, now with its reason.
+- **New test** `tests/test_queue_discover.py` (5 tests), on a repository built for it.
+
 ## S306p T1 AND T2 OF THE THIN PATH READ LINE BY LINE AND LANDED AS SENT (P-885; M56) (2026-11-26)
 
 - **The advisor seat's cut** (twelve patches, T1 to T12) accepted as the order of the build (harvest row 2022).

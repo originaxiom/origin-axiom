@@ -1,7 +1,8 @@
 # The frozen list: seat claims not yet banked, at the framework's start (main, 2026-11-26; P-885, draft 1 § 3)
 
 *A record, generated once from `docs/HARVEST_LEDGER.md` at `e6000a04c` and the seats' branches; not updated. A row leaves the list
-when a claim card for it passes the queue; it is never banked from here.*
+when a claim card for it passes the queue; it is never banked from here. The rows' text is copied without its
+backticks, so that a path a row names is not read as a citation of this page.*
 
 **What is on it:** every harvest row whose disposition is not final (not VERIFIED, CLOSED, ALREADY ON MAIN, a confirmation,
 applied, refuted, retracted, withdrawn, declined or superseded): 1442 of 2021 rows. **What each could decide** is read from
@@ -73,9 +74,9 @@ A seat files the card for its own row; for a seat no longer working, main files 
 | 60 | audit seat | R8 BROKEN_VACUUM (EXTENSION_6) | REPRODUCED | — | P-125 |
 | 61 | audit seat | R9 INFRARED_ALIGNMENT (EXTENSION_7) | REPRODUCED | — | P-125 |
 | 62 | audit seat | R10 FINITE_ALIGNMENT (EXTENSION_8) | REPRODUCED | — | P-125 |
-| 92 | the session-relay seat (handoff 2026-09-08, received 2026-09-09) | §2 the word-order mirror: `verify/check_word_order.py` | REPRODUCED | — | P-125 |
-| 94 | the session-relay seat | P-SEAM-02 G1: B497's κ = B293's Goldman Casimir (`check_G1.py`) | REPRODUCED | — | P-125 |
-| 95 | the session-relay seat | P-SEAM-02 G2: the Goldman multiplier = det on Aut(F₂) (`check_G2.py`, `check_G2G3.py`) | REPRODUCED | — | P-125 |
+| 92 | the session-relay seat (handoff 2026-09-08, received 2026-09-09) | §2 the word-order mirror: verify/check_word_order.py | REPRODUCED | — | P-125 |
+| 94 | the session-relay seat | P-SEAM-02 G1: B497's κ = B293's Goldman Casimir (check_G1.py) | REPRODUCED | — | P-125 |
+| 95 | the session-relay seat | P-SEAM-02 G2: the Goldman multiplier = det on Aut(F₂) (check_G2.py, check_G2G3.py) | REPRODUCED | — | P-125 |
 | 200 | physics seat (fc) | R8 | CARRIED by P-606 | — | P-606 |
 | 248 | cc3 (paper seat) | B8071 | CARRIED by P-613 | — | P-613 |
 | 250 | cc3 (paper seat) | B8073 | CARRIED by P-613 | — | P-613 |
@@ -156,11 +157,11 @@ A seat files the card for its own row; for a seat no longer working, main files 
 | 1285 | SM-derivation seat | W115, the leptons at the shared τ: at the τ the quark fits pin, m_μ/m_τ stays above 0.21 a | REGISTERED | — | P-252 |
 | 1287 | SM-derivation seat | W117, a point on the line: on the tick's line the weave's functionals mark only i, where t | REGISTERED | — | P-252 |
 | 1295 | SM-derivation seat | Relays §196–§201: §196 the 2026-10-15 rule scoped to the δ-only coupling (its residues c_s | READ | — | P-254, P-255 |
-| 1297 | web seat (chat1) | The owner's ruling of 2026-10-22, relayed (an addendum to `relays/CHAT1_TO_SM_AND_CC_2026- | READ | — | P-267 |
+| 1297 | web seat (chat1) | The owner's ruling of 2026-10-22, relayed (an addendum to relays/CHAT1_TO_SM_AND_CC_2026- | READ | — | P-267 |
 | 1299 | SM-derivation seat | Relays 203–205 and the rows of main's S179–S184: the gravity line in one page (W120–W122,  | READ | — | P-269 |
-| 1300 | web seat (chat1) | THE INGREDIENTS MAP (`relays/chat1_2026-10-21_ingredients/`, e3645fb4d, with its arc censu | READ and checked | — | P-213, P-219, P-220, P-270, P-282 |
+| 1300 | web seat (chat1) | THE INGREDIENTS MAP (relays/chat1_2026-10-21_ingredients/, e3645fb4d, with its arc censu | READ and checked | — | P-213, P-219, P-220, P-270, P-282 |
 | 1301 | SM-derivation seat | W123, the Higgs route to the cusp's unit (rule bcc3686a3; script 8a2e3ed4b; output 28a2c4b | READ | — | P-288 |
-| 1303 | web seat (chat1) | TWO_INGREDIENTS (`relays/chat1_2026-10-22_selection_map/`; rule and instruments sealed 938 | READ and recalibrated | — | P-094, P-293 |
+| 1303 | web seat (chat1) | TWO_INGREDIENTS (relays/chat1_2026-10-22_selection_map/; rule and instruments sealed 938 | READ and recalibrated | — | P-094, P-293 |
 | 1305 | web seat (chat1) | The selection map's post hoc checks (labelled by the seat): GJ_FINDINGS with a dated errat | READ | — | P-094, P-296 |
 | 1307 | SM-derivation seat | W125–W129 and relays 208–213 (2837df608): W125, the quantum weave of closed universes (at  | READ at headline level | — | P-289, P-295 |
 | 1308 | web seat (chat1) | THREADS_WITH_INGREDIENTS run and compared (census fcdd98c77, unread; comparison e446c8b6d; | READ | — | P-094, P-287, P-293, P-294, P-295, P-297 |
@@ -172,13 +173,13 @@ A seat files the card for its own row; for a seat no longer working, main files 
 | 1315 | web seat (chat1) | route (b), step 1 of the seat's plan (relays/chat1_2026-10-23_route_b/; scan 506579a06 → 7 | READ | — | P-294, P-295 |
 | 1316 | web seat (chat1) | the W133 check (relays/chat1_2026-10-23_w133_check/; w133_check.py f86b337c6 committed bef | READ | — | P-300, P-303 |
 | 1317 | web seat (chat1) | the zero-free census in main's frame (relays/chat1_2026-10-23_zero_free_frame/; zero_free_ | REGISTERED | — | P-294 |
-| 1318 | SM-derivation seat | W136, the coupling forms (rule `W136_RULE.md` e953c04ab and relay 225, committed before th | READ | — | P-302, P-303, P-314 |
+| 1318 | SM-derivation seat | W136, the coupling forms (rule W136_RULE.md e953c04ab and relay 225, committed before th | READ | — | P-302, P-303, P-314 |
 | 1319 | SM-derivation seat | relay 224 and its dated notes (e953c04ab: NOTE's W133 section, THE_EIGHT_TESTS_W112_W119,  | READ | — | P-295, P-300, P-304 |
 | 1320 | web seat (chat1) | relay 223's count, the cube forms (relays/chat1_2026-10-23_w133_check/cube_forms_count.py  | READ | — | P-302 |
 | 1321 | web seat (chat1) | the zero-free frame exploration, completing row 1317 (census output ab05339eb committed un | "its a ≥ 6 lines fit about as well as ∂R | — | P-094 |
 | 1324 | SM-derivation seat | relay 227 and its dated notes (cdf2241b8: THE_EIGHT_TESTS_W112_W119, THE_POSITIVES_AND_THE | READ | — | P-260, P-295, P-303, P-309, P-313, P-316 |
-| 1325 | SM-derivation seat | W137, the joint frame's Yukawas, the step the owner approved after W136 (rule `W137_RULE.m | READ | — | P-094, P-294, P-302, P-314, P-323, P-328 … |
-| 1326 | SM-derivation seat | W138, the third opinion on B1726 (P-304; the owner approved): rule `W138_RULE.md` and rela | REGISTERED | — | P-304, P-317, P-322, P-329 |
+| 1325 | SM-derivation seat | W137, the joint frame's Yukawas, the step the owner approved after W136 (rule W137_RULE.m | READ | — | P-094, P-294, P-302, P-314, P-323, P-328 … |
+| 1326 | SM-derivation seat | W138, the third opinion on B1726 (P-304; the owner approved): rule W138_RULE.md and rela | REGISTERED | — | P-304, P-317, P-322, P-329 |
 | 1330 | web seat (chat1) | PRECISION_BAR (51b05f7c7), a standing commitment committed before the tests it governs: ev | ADOPTED by main for its sealed value tes | — | P-341 |
 | 1331 | web seat (chat1) | line_selection_control.py and precision_check.py (51dffa347, committed before their runs;  | QUEUED | — | P-316 |
 | 1332 | web seat (chat1) | RIGID_TAU_HOLOMORPHIC, sealed (rule 336c71280, committed and pushed before its script; con | QUEUED | — | P-316 |
@@ -203,36 +204,36 @@ A seat files the card for its own row; for a seat no longer working, main files 
 | 1357 | SM-derivation seat | W146 (rule decce7004, corrected 86e545b9e, cell K6 fffdb4a47; script c14519771; output 12f | READ | — | P-357, P-366 |
 | 1358 | SM-derivation seat | W147 (rule 05dc90045; script 5bcf91612; output 83dd36ab8 unread; recorded 1df221bdf; relay | READ | — | P-357 |
 | 1359 | SM-derivation seat | W148 (rule 36e391790; script 1e2e99b2a; output 82ea171e8 unread; recorded 2e12db7c5; relay | READ | — | P-210 |
-| 1360 | SM-derivation seat | THE BREAKING CHAIN (`docs/dossiers/the_weave_2026-10-07/THE_BREAKING_CHAIN_2026-10-24.md`, | READ | — | P-132, P-327, P-367 |
+| 1360 | SM-derivation seat | THE BREAKING CHAIN (docs/dossiers/the_weave_2026-10-07/THE_BREAKING_CHAIN_2026-10-24.md, | READ | — | P-132, P-327, P-367 |
 | 1361 | SM-derivation seat | W149 (rule 56a2d7d04; script 02661af19; output 03c9eb3d6 unread; recorded a1657c031; relay | READ | — | P-357, P-366 |
-| 1362 | web seat (chat1) | THE HOLOMORPHIC READING TEST (the owner agreed, P-361): the rule SEALED (`relays/chat1_202 | READ | — | P-361 |
-| 1363 | web seat (chat1) | THE PLAN AFTER THE READING TEST (`relays/chat1_2026-10-23_attack/THE_PLAN_AFTER_THE_READIN | READ | — | P-295, P-362, P-363, P-365 |
-| 1365 | web seat (chat1) | A1, THE IDENTIFICATION QUESTION (`relays/chat1_2026-10-23_attack/A1_THE_IDENTIFICATION_QUE | READ | — | P-365 |
-| 1366 | web seat (chat1) | AUDIT OF HAND-MADE PARTS (`relays/chat1_2026-10-23_attack/AUDIT_OF_HAND_MADE_PARTS.md`, a3 | READ | — | P-362 |
-| 1367 | web seat (chat1) | the literature dive and the dictionary (`relays/chat1_2026-10-23_attack/LITERATURE_DIVE.md | READ | — | P-363 |
-| 1368 | web seat (chat1) | τ's dynamics and the unification-scale targets (`relays/chat1_2026-10-23_attack/D1_TAU_DYN | READ | — | P-363 |
+| 1362 | web seat (chat1) | THE HOLOMORPHIC READING TEST (the owner agreed, P-361): the rule SEALED (relays/chat1_202 | READ | — | P-361 |
+| 1363 | web seat (chat1) | THE PLAN AFTER THE READING TEST (relays/chat1_2026-10-23_attack/THE_PLAN_AFTER_THE_READIN | READ | — | P-295, P-362, P-363, P-365 |
+| 1365 | web seat (chat1) | A1, THE IDENTIFICATION QUESTION (relays/chat1_2026-10-23_attack/A1_THE_IDENTIFICATION_QUE | READ | — | P-365 |
+| 1366 | web seat (chat1) | AUDIT OF HAND-MADE PARTS (relays/chat1_2026-10-23_attack/AUDIT_OF_HAND_MADE_PARTS.md, a3 | READ | — | P-362 |
+| 1367 | web seat (chat1) | the literature dive and the dictionary (relays/chat1_2026-10-23_attack/LITERATURE_DIVE.md | READ | — | P-363 |
+| 1368 | web seat (chat1) | τ's dynamics and the unification-scale targets (relays/chat1_2026-10-23_attack/D1_TAU_DYN | READ | — | P-363 |
 | 1370 | SM-derivation seat | relay §255 (2e028034a), at the owner's word ("we should ask for opinions the other seats a | READ | — | P-139, P-368 |
 | 1371 | SM-derivation seat | W150 (rule 8b034dc09; script baeea668b; output d60bf5359 unread; recorded f8240aec7; relay | READ | — | P-368, P-371 |
 | 1372 | SM-derivation seat | W151 (rule 88b31f3b1; script a4915adfe; output 8e801fd5c unread; recorded cf2b79a8c; relay | READ | — | P-366, P-370, P-371 |
-| 1373 | web seat (chat1) | its opinion on the proposed WEAVE sentence (`relays/CHAT1_TO_SM_AND_CC_2026-10-24_THE_WEAV | READ | — | P-139, P-368 |
+| 1373 | web seat (chat1) | its opinion on the proposed WEAVE sentence (relays/CHAT1_TO_SM_AND_CC_2026-10-24_THE_WEAV | READ | — | P-139, P-368 |
 | 1374 | web seat (chat1) | THE HOLOMORPHIC READING TEST's scan, parts 1–2 (911bb293d, 93ce50081): stopped twice at th | READ | — | P-361 |
 | 1375 | SM-derivation seat | relay §260 (edb94eec4): the opinions on the proposed WEAVE sentence collected — main's (P- | READ | — | P-368 |
 | 1376 | SM-derivation seat | W152 (rule 3bbf03741; script 250aae0ad; output b365fcc68 unread; recorded a373abb79; relay | READ | — | P-366, P-371 |
 | 1377 | SM-derivation seat | THE WEAVE rule adopted at the owner's ruling (4e2b8e1d8; relay §263): "Spontaneous breakin | READ | — | P-368 |
-| 1378 | SM-derivation seat | THE EFFECTIVE ACTION'S LEDGER (8f6cb423f; relay §264; `docs/dossiers/the_weave_2026-10-07/ | READ | — | P-373 |
+| 1378 | SM-derivation seat | THE EFFECTIVE ACTION'S LEDGER (8f6cb423f; relay §264; docs/dossiers/the_weave_2026-10-07/ | READ | — | P-373 |
 | 1379 | SM-derivation seat | THE OBSERVER'S CLOSINGS UNDER THE WEAVE (6ef387724; relay §265), a reading at the owner's  | READ | — | P-374 |
 | 1380 | SM-derivation seat | W153 (rule 2df0a7b75; script 1c161c9bb; output 020f14d4d unread; recorded 662aa3e1a; relay | READ | — | P-373 |
-| 1381 | web seat (chat1) | THE UNIFICATION-SCALE TEST, the rule SEALED (`relays/chat1_2026-10-23_attack/UNIF_TEST_RUL | READ | — | P-363 |
+| 1381 | web seat (chat1) | THE UNIFICATION-SCALE TEST, the rule SEALED (relays/chat1_2026-10-23_attack/UNIF_TEST_RUL | READ | — | P-363 |
 | 1382 | web seat (chat1) | THE HOLOMORPHIC READING TEST's rows and calibration-grid minima committed before read (5e9 | READ | — | P-361 |
-| 1383 | web seat (chat1) | its replies (`relays/CHAT1_TO_SM_AUDIT_AND_CC_2026-10-24_REPLIES.md`, 67d4f4ec3; refereed  | READ | — | P-139, P-210, P-365 |
-| 1384 | web seat (chat1) | e14 (`relays/chat1_2026-10-23_attack/exploration/e14_audit_symmetric_state_check.py` df39e | READ | — | P-210 |
-| 1385 | web seat (chat1) | THE HOLOMORPHIC READING TEST, the result (`relays/chat1_2026-10-23_attack/HOLO_TEST_RESULT | READ | — | P-378 |
-| 1386 | web seat (chat1) | its opinion on the ladder's rule (`relays/CHAT1_TO_SM_AND_CC_2026-10-24_THE_LADDER_RULE.md | READ | — | P-379 |
+| 1383 | web seat (chat1) | its replies (relays/CHAT1_TO_SM_AUDIT_AND_CC_2026-10-24_REPLIES.md, 67d4f4ec3; refereed  | READ | — | P-139, P-210, P-365 |
+| 1384 | web seat (chat1) | e14 (relays/chat1_2026-10-23_attack/exploration/e14_audit_symmetric_state_check.py df39e | READ | — | P-210 |
+| 1385 | web seat (chat1) | THE HOLOMORPHIC READING TEST, the result (relays/chat1_2026-10-23_attack/HOLO_TEST_RESULT | READ | — | P-378 |
+| 1386 | web seat (chat1) | its opinion on the ladder's rule (relays/CHAT1_TO_SM_AND_CC_2026-10-24_THE_LADDER_RULE.md | READ | — | P-379 |
 | 1388 | SM-derivation seat | W154 (rule f51659605; script 72844e358; first launch failed on a name clash 66a59ab66, kep | READ | — | P-373, P-380 |
 | 1389 | SM-derivation seat | relay §271 (4760bf686): the look ledger's rows checked for main — W88, W90, W94 (sealed, t | READ | — | P-376, P-385 |
 | 1390 | SM-derivation seat | W155 (rule 9f4115201; script 53aa3c3ee; output 1d281eb24 unread; recorded 75dab2c98; relay | READ | — | P-380, P-384 |
 | 1391 | SM-derivation seat | W156's rule (25ad32067; relay §274), at main's ask: the third opinion on B1749 — the pins, | READ | — | P-381 |
-| 1392 | web seat (chat1) | its relay on THE HOLOMORPHIC READING TEST's result (`relays/CHAT1_TO_CC_AND_SM_2026-10-24_ | READ | — | P-378 |
+| 1392 | web seat (chat1) | its relay on THE HOLOMORPHIC READING TEST's result (relays/CHAT1_TO_CC_AND_SM_2026-10-24_ | READ | — | P-378 |
 | 1393 | audit seat | 16 commits 17cdad33a → f96c008c4 (2026-10-20 to 10-24), the P210 execution package: the re | READ | — | P-386 |
 | 1394 | audit seat | the analytical successors on P210, all marked unreviewed, none run: FOUNDATION_SCOPE_AND_P | READ | — | P-210, P-386 |
 | 1395 | audit seat | its replies of a9053eab7: THE_WEAVE_AND_THE_LADDER (the ladder: the full generated diagram | READ | — | P-385 |
@@ -244,7 +245,7 @@ A seat files the card for its own row; for a seat no longer working, main files 
 | 1401 | web seat (chat1) | its relay CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES (5d4e3b11d, refere | READ | — | P-327 |
 | 1404 | web seat (chat1) | e19's output (aaab717cc); the step-back relay corrected after a third read-only pass (0cc7 | READ | — | P-327 |
 | 1405 | audit seat | 6 commits f96c008c4 → 5cc8c07cb: the P210 independent review completed (523821858: REVIEW. | READ | — | P-386 |
-| 1406 | agy lane | 27 commits 2d6681208 → 05e6caabf (2026-10-26 19:58 to 2026-10-27 12:35) on `agy/frontier-2 | AUDITED | — | P-390, P-391, P-409 |
+| 1406 | agy lane | 27 commits 2d6681208 → 05e6caabf (2026-10-26 19:58 to 2026-10-27 12:35) on agy/frontier-2 | AUDITED | — | P-390, P-391, P-409 |
 | 1407 | audit seat | its four-pass audit of the agy lane and the analytical notes of 2026-10-26/27 (relays PHYS | READ | — | P-390 |
 | 1408 | audit seat | 2026-10-24 to 10-26 (267420db7 → f21d1d66d): the radial vacuum flow from the existing acti | READ | — | P-386, P-392 |
 | 1409 | SM-derivation seat | relays §279–§283 (to d4a48084e): W158's rule and result — the named-pair two-object route  | READ | — | P-377, P-385 |

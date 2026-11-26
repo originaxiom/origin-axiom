@@ -44,6 +44,12 @@
 ## Disclosures
 
 - The card was hashed before any run. All three expectations hold as worded.
+- **[ADDED 2026-11-26; found by a reader of main's, drafting the arc's claim card]** The largest orbit over the common point
+  is not unique: three orbits tie at each power of 3 run (72, 648, 5832 and 52,488 points), 25 at mod 125, 14 at mod 343
+  and 25 at mod 625. `rate_law.py` takes the first that `np.argmax` meets. At mod 27 that is the orbit of (3,3,12), not the
+  orbit of (3,3,3) as the hashed card says; at mod 81 and 243 it is the orbit of (3,3,3), as at 729 (R3). The reader's side
+  check (double precision) finds the same largest value below 6 on every tied orbit at mod 27, 81, 125, 243 and 343; not
+  checked at 625 or 729, and not exactly. Main checked the mod-27 point: the script's orbit there holds (3,3,12) and not (3,3,3).
 - R3 is numerical (double precision on dense matrices). An exact check at this size (dimension about 17,500) would need hours
   per prime with the method of B2011's A3; the identity's exact form at mod 27, 81 and 243 is B2002's and B2011's.
 - While R3 ran, the arc's folder was moved aside on the same volume (a rename) for B2016's landing, then moved back; the run

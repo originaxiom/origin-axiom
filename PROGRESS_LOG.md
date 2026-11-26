@@ -20300,3 +20300,25 @@ card; only the runner may record a banking outcome; a card's own seat must not m
 result that touches nothing on the record must still be allowed in.
 
 0 of 19.
+
+## 2026-11-26 — Discovery: the intake finds the claim cards on every branch (S306p)
+
+**What happened.** The building seat sent the thin path's third patch. A new script looks at main and at every seat branch
+for claim cards and files each one it has not seen in the queue, with its own number and the commit it came from. A branch
+it cannot read is named and passed over; a card that does not name its seat by a code is not filed, and is named so the
+seat can be told; a card filed again, changed or under another name, is linked to the first. The check that counts the
+seat branches' debts had stopped with an error on a seat whose marker it could not find; it now names that seat and why.
+
+0 of 19.
+
+## 2026-11-26 — The trial's seven cards drafted; five errors in main's own arcs found and mended (S306p)
+
+**What happened.** Readers of main's drafted the claim cards of the seven arcs that make the trial batch, and each reran its
+arc's deciding computation on main: all seven reproduce, and every control that must fail does. Reading the arcs closely
+for the cards, they listed 67 doubts. Five were plain errors of statement, mended at once: a count of arcs that disagreed with
+the arc's own table, a share given as "half or more" where the output says a third, a sentence naming the wrong one of three
+tied orbits, two files an arc cited that were never committed, and a law-map row that had missed an earlier correction. The
+other doubts, mostly claims worded wider than what was computed and checks that cannot fail, are held unmended through the
+trial as real faults the banking seats are not told of, sealed, and will be mended after it.
+
+0 of 19.
