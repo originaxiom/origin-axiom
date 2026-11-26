@@ -67,9 +67,11 @@ producer (any seat, free)  ->  intake (mechanical)  ->  peer stage (default, tim
    - Proposes the direction to the author.
    - Audits the peer stage and the banking seats by planting faulty cards.
    - Produces like any seat, but its own work goes through the same path. No self-banking.
-6. **The advisor seat:** builds and keeps the framework (the intake runner, the queue, the peer stage, the gates), audits
-   the framework, and does not verify science.
-7. **The author:** rulings, any look at data, and the seats' assignment. The author starts the two banking seats.
+6. **The advisor seat:** builds and keeps the framework (the intake runner, the queue, the peer stage, the gates). It does
+   not verify science, and it does not audit its own build; the auditor does (§ 8).
+7. **The auditor seat:** audits what has passed every other seat, main included (§ 8).
+8. **The author:** rulings, any look at data, and the seats' assignment. The author starts the two banking seats and the
+   auditor, and may ask a new model for audits (§ 8).
 
 ## 3. The decisions (agreed by the author, 2026-11-26)
 
@@ -119,8 +121,9 @@ producer (any seat, free)  ->  intake (mechanical)  ->  peer stage (default, tim
 2. The advisor's critique and build plan; main reads and lands them. Main also reads the advisor's R81-3 and R82-2 patches
    line by line.
 3. The advisor builds, in this order: the intake runner and the queue; the peer stage; the banking verdict files; the role
-   charters (§ 7). Each patch comes with a test that must fail when the patch is broken.
-4. The author starts the two banking seats, each hired against its charter.
+   charters (§ 7); the audit ledger, the grades' badges and the seats' identity fields (§ 8). Each patch comes with a test
+   that must fail when the patch is broken.
+4. The author starts the two banking seats and the auditor, each hired against its charter.
 5. The trial run: B2011 to B2017 and planted faulty cards through the whole path, intake to peer stage to banking.
 6. Then the listening line resumes, through the new path.
 
@@ -164,3 +167,42 @@ So that a seat hired for a role knows what is expected of it, without being boxe
 - **What to reuse and what to retire:** seat_intake.py, harvest_debt.py, CLAIM_CARD.md, BANKING_PROTOCOL.md, the landing
   tool and the gates.
 - **A build plan as patch series** in the order of § 6.3, with § 5's proposals.
+
+## 8. The auditor, the AUDITED grade and the seats' identity (agreed by the author, 2026-11-26)
+
+### The auditor seat
+
+- **What it audits:**
+  - a sample of each round's VERIFIED cards, weighted toward the deciding ones;
+  - whether the process was followed: custody, blindness, the plants, the timeouts;
+  - the framework itself.
+- **It takes over the reviews main runs now** (the review-due gate's reviews).
+- **It works cold,** like the banking seats.
+- **Its findings go to a public audit ledger,** which the author reads directly. Main routes the fixes top-down. Only the
+  auditor closes a finding, after re-checking the fix. Otherwise main would be filtering findings about its own work.
+- **It gets planted faults from main,** and its catch rate is measured.
+
+### The AUDITED grade
+
+- **The grades:** REPRODUCED (intake), then VERIFIED (two blind banking ACCEPTs), then AUDITED.
+- **An audit by a new model, at the author's request, gives a badge that names its scope:**
+  - the model's code and its effort;
+  - the commit audited and the date;
+  - the checks run;
+  - the model's catch rate on the calibration set.
+- **Calibration first.** Before a new model's badges count, it audits a set of cards with known faults.
+- **Badges add up; none replaces another.** A badge lapses when the card changes after it.
+
+### The seats' identity
+
+- **Each seat's page carries:** its role, its model code, its effort, who started it and when, and its branch. Every card,
+  peer note, verdict and finding carries the seat's id.
+- **The author records model and effort at hire.** A seat's own statement is checked against that record, since a seat may
+  not know its own effort setting.
+- **Tracked files carry a neutral code** (family, version, effort). The mapping to real names is kept in a local, untracked
+  file under `audit/`, so the attribution gate stands.
+- **The independence rules become checkable:**
+  - a peer from another lane;
+  - **a card produced by main needs at least one check from another model family before it is VERIFIED,** by the peer
+    stage or the auditor. The banking seats share main's family, so without this rule main's cards would be checked by its
+    family alone.

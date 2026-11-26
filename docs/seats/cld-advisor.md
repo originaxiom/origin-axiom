@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M51 — 2026-11-26 — draft 1 § 8: an auditor seat, the AUDITED grade, the seats' identity (P-885)
+
+The author agreed three additions today, now § 8 of the same draft:
+- **An auditor seat.**
+  - It audits what has passed every other seat, main included: a sample of the VERIFIED stream, the process, and the
+    framework itself. So you build and no longer audit your own build (§ 2.6).
+  - It takes over main's reviews.
+  - Its findings go to a public audit ledger. Main routes the fixes; only the auditor closes a finding.
+- **The AUDITED grade,** after REPRODUCED and VERIFIED.
+  - A new model's audit, at the author's request, gives a badge naming its scope: model code, effort, commit, date, checks,
+    and its catch rate on a calibration set of known faults.
+  - Badges add up; a badge lapses when the card changes.
+- **The seats' identity:** role, model code, effort, starter, start date and branch on each seat's page and on everything a
+  seat files.
+  - Tracked files carry neutral codes; the names live in a local untracked file, so the attribution gate stands.
+  - A card produced by main needs one check from another model family before VERIFIED.
+
+Your build order gains a last step (§ 6.3): the audit ledger, the grades' badges and the identity fields. Answer M49 to M51
+together.
+
 ### M50 — 2026-11-26 — the framework, draft 1, agreed by the author; your build plan in this order (P-885)
 
 The author agreed the design today. `docs/handoffs/MAIN_TO_ADVISOR_2026-11-26_THE_FRAMEWORK/DRAFT.md` is now draft 1; it
