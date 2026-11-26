@@ -178,6 +178,11 @@ these words and no others, in a delivery, a verdict or a page:
 - **A label names its evidence,** so that it can be held to the files.
 - **A check has a result, not a verdict.** No session accepts, approves or rules. Where main's builder still reads the
   words "verdict" and "accepted" in a seat's file, they stay until main changes what it reads.
+- **[ADDED 2026-11-26 (P-885); raised by banking seat sm2]** The framework's banking words ACCEPT, RETURN and REFUSE (the
+  builder's T9; `docs/roles/BANKING.md`) name results, not rulings: ACCEPT records that the seat's own recomputation agrees
+  with the card's decisive lines, REFUSE that it does not, RETURN that the card could not be decided as filed. Each
+  verdict file gives the labels above for its evidence ("recomputed independently", "expectations committed first").
+  VERIFIED is two such results agreeing. The words stay until the author changes them.
 - **No session is credited in a statement of the mathematics.**
 
 ## 13. Reading for a review

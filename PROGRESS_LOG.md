@@ -20370,3 +20370,14 @@ eleven of twelve breaks were caught, the twelfth harmless. Both are on main. Mai
 control that must fail simply crashes is accepted as reproduced. That is mended before any card moves.
 
 0 of 19.
+
+## 2026-11-26 — The second banking seat starts, and shows a leak in main's own record (S306p)
+
+**What happened.** The author started the second banking seat as a fresh session, with no knowledge of the project. It
+opened its branch, wrote down what it expected before running anything, recomputed both practice cards with its own code,
+and filed its verdicts. It also reported that one of main's commit messages had described the fault of a practice card,
+which any seat reading the log could see. Main cut the line, made a third practice card to replace the spoiled one, and no
+longer writes a sealed fault into the record. The card form now asks for the definitions a claim uses, and the seats'
+protocol says plainly that the banking words name results, not rulings.
+
+0 of 19.

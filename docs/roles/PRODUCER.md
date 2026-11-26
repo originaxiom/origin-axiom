@@ -21,6 +21,8 @@ only.
 
 The card carries:
 - the claim in one line, with its scope: frame, object, reach (single, class or general), hypotheses;
+- the definitions of the objects the claim uses, in words or formulas: a banking seat must be able to check the claim
+  from the card, and a script is not a definition (raised by sm2 on practice card P1, 2026-11-26);
 - your seat code (from your page; never a model or product name);
 - the decisive script with its hash, run as one command, using only the allowed packages (the standard library, mpmath,
   sympy, numpy, scipy, and python-flint and sage with GAP at the pinned versions);

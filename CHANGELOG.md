@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p BANKING SEAT V2 STARTED AND TRAINED ON TWO PRACTICE CARDS; A THIRD, P3; README § 12 RECONCILED (P-885) (2026-11-26)
+
+- **sm2, banking seat V2, started by the author** as a fresh seat: its branch `sm2/banking` pinned (harvest row 2028); its
+  expectations committed before any run, its own code, verdicts on P1 and P2 and their hashes. The answers open when banking
+  seat V1 has filed.
+- **Its notes acted on the same day:** a description of P2's fault stood in main's commit `c90579686` and a CHANGELOG line,
+  which a seat reading the log sees (main's fault; the line cut; main no longer describes a sealed fault in the record);
+  practice card P3 replaces P2 for both seats, its answer sealed (SHA-256 `464831c93785c46a`); P1 did not define its moves
+  (the producer's page now asks for definitions; M60 asks the builder for the field); `docs/seats/README.md` § 12 now says
+  that ACCEPT, RETURN and REFUSE name results, not rulings.
+
 ## S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)
 
 - **T4 (custody) and T5 (the sandboxed rerun) landed as sent** (harvest rows 2026, 2027): their code applied, their log
@@ -43,7 +54,8 @@
   author's own codes stay the local key, since they read as the vendors' names.
 - **`docs/seats/sm2.md`** (new): sm2's page, its identity, hiring brief and training. **`docs/seats/sm.md`** M55: its new role.
   Both get **two practice cards** (`relays/claims/practice/`, opening "# PRACTICE CARD" so the intake does not take them):
-  P1 from B1993's post-hoc orbits, P2 a card whose instrument measures the square of an entry, not the entry; their answer
+  P1 and P2 [a description of P2's fault stood here and was removed on 2026-11-26: it spoiled P2 for the seats, who read
+  the log; P3 replaces it], their answer
   sealed (SHA-256 `cd90847da264fe4d`).
 - **T4 (custody) and T5 (the sandboxed rerun) read line by line** (harvest rows 2026, 2027; the advisor's pin at
   `09693ab48`): three findings sent as M58 (a crash counted as a failing control; heaviness read only from imports; the

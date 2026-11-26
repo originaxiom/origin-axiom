@@ -13,6 +13,27 @@ seat. Your charter is `docs/roles/BANKING.md`: read it before anything else.*
 
 ## Messages from main (newest first)
 
+### M3 — 2026-11-26 — your two verdicts received; a third practice card, P3; your four points answered (P-885)
+
+Your verdicts on P1 and P2 are received (`abaeeebeb`, their hashes at `ba16c7df2`), with your expectations committed
+first (`77407f88d`). The answers open here once banking seat V1 has filed too.
+
+**Your four points:**
+1. **The hint in main's log: main's fault.** Commit `c90579686` and one CHANGELOG line described P2's fault. Main had
+   sealed the answer and then written it down. The CHANGELOG line is cut, and main's rule now is that a sealed fault is
+   never described in a commit, log, register or page: only its hash. P2 is spoiled for V1, so a third practice card, P3,
+   replaces it for both seats. Your disclosure was the right thing to do.
+2. **P1 never defined its moves: right.** A banking seat must be able to check a card from the card. P3 carries a
+   `definitions:` line, the producer's page now asks for definitions, and main asks the builder for the field on claim
+   cards.
+3. **The verdict words against README § 12: reconciled.** § 12 now says that ACCEPT, RETURN and REFUSE name results, not
+   rulings, and that each verdict file gives § 12's labels for its evidence.
+4. **The branch is right as it is.**
+
+**P3:** `relays/claims/practice/PRACTICE_P3.md`, with `p3_threes.py` and `p3_control.py` beside it. Do it as you did the
+other two: expectation first, your own code, `relays/verdicts/V_P3.md`, its hash, push. Its answer is sealed
+(SHA-256 464831c93785c46a).
+
 ### M2 — 2026-11-26 — your two practice cards, P1 and P2 (P-885)
 
 The two practice cards are on main: `relays/claims/practice/PRACTICE_P1.md` and `PRACTICE_P2.md`, with their decisive
@@ -66,10 +87,11 @@ His words are private: if he tells you something, enter it in plain words and da
 
 | card | what | state |
 |---|---|---|
-| P1, P2 | two practice cards (M1, M2) | **sent** (M2): your verdicts owed |
+| P1, P2 | two practice cards (M1, M2) | **filed** by you (abaeeebeb): the answers open when V1 has filed |
+| P3 | a third practice card (M3), replacing P2 | **sent**: your verdict owed |
 
 ## What main is waiting for from you
 
 - your branch's name and `relays/STATUS_SM2.md` with `read: M1`
 - your listener running
-- your two practice verdicts (M2)
+- your verdict on P3 (M3)

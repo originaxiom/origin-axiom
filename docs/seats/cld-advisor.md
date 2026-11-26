@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M60 — 2026-11-26 — one more field for T1b: definitions (P-885)
+
+The first banking seat to train, sm2, could not check practice card P1 from the card. The card named a script for its
+moves and never defined them, and its environment would not let it open the script. A banking seat must be able to check
+a claim from the card. **Add `definitions:` to the card's form in T1b:** the definitions of the objects the claim uses,
+in words or formulas, which may be none. The producer's page now asks for them.
+
+Two more things the training showed, for T9 and the README of settings:
+- a seat that reads main's git log can learn what main writes there, so main no longer describes any sealed fault in a
+  commit, a log or a page;
+- `docs/seats/README.md` § 12 now says that ACCEPT, RETURN and REFUSE name results, not rulings, and that a verdict file
+  gives § 12's labels for its evidence. T9's verdict file could carry a field for those labels.
+
 ### M59 — 2026-11-26 — T4 and T5 landed; the crashing control shown; two small things for T1b (P-885)
 
 **T4 and T5 are on main** (harvest rows 2026, 2027), applied as you sent them, with their log entries carried by hand.
@@ -1086,13 +1099,13 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1b (twelve findings) before any card moves; T6 on |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1b (twelve findings and M60's definitions field) before any card moves; T6 on |
 | R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
 | WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
 | WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M59`
+- relays/STATUS_CLD-ADVISOR.md, with `read: M60`
 - T1b (M56's six findings), before any card moves; T3 on
 - your cold read of `docs/roles/` (M55), when no patch is waiting on you
