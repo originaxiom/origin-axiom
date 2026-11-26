@@ -1,0 +1,455 @@
+From 0aa54c573b37d5d9d72991ff7f80255f550f45d8 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 26 Nov 2026 23:13:02 +0000
+Subject: [PATCH] S306p the known failures may only shrink, a gate
+ (known-failures; the framework's thin path, T10; P-885):
+ queue/KNOWN_FAILURES.json lists every failing test and red gate on main with
+ its register row and why, empty as sent for main to fill from its full suite;
+ scripts/queue/baseline.py checks its form and that it only shrinks along the
+ history, compares a run with it (a new failure refuses a landing; an entry
+ that now passes is reported) and drafts it from a run; tests fail with each
+ rule removed
+
+---
+ CHANGELOG.md                   |  10 +++
+ PROGRESS_LOG.md                |   9 ++
+ docs/PRACTICES.md              |  12 +++
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ queue/KNOWN_FAILURES.json      |   5 ++
+ scripts/gates/gates.py         |  24 ++++-
+ scripts/queue/baseline.py      | 156 +++++++++++++++++++++++++++++++++
+ tests/GATE_CONTROLS.json       |   3 +-
+ tests/test_known_failures.py   |  86 ++++++++++++++++++
+ 10 files changed, 306 insertions(+), 4 deletions(-)
+ create mode 100644 queue/KNOWN_FAILURES.json
+ create mode 100644 scripts/queue/baseline.py
+ create mode 100644 tests/test_known_failures.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index c6a144cee..5f2eb17ea 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,15 @@
+ # Changelog
+ 
++## S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-26)
++
++- **`queue/KNOWN_FAILURES.json`:** every failing test and red gate on main, each with its register row and why; it ships
++  empty, its first entries main's, from main's full suite on a fresh clone.
++- **`scripts/queue/baseline.py`:** the list's form (every entry a row of the register); its history (it only shrinks); a
++  run compared with it (a failure or red gate it does not hold is new, and refuses a landing; an entry that now passes is
++  reported for taking off); a draft from a run, the rows left for main.
++- **The gate `known-failures`**, fail-closed, in READS_HISTORY; a GATE_CONTROLS entry and a PRACTICES section.
++- **New test** `tests/test_known_failures.py` (4 tests); each rule's removal makes one fail.
++
+ ## S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-26)
+ 
+ - **`scripts/queue/banking.py`:** each banking seat files on its own branch its expectation, its seal (the SHA-256 of
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index cee26e5dc..98d116597 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20430,3 +20430,12 @@
+ a check from another family of models before it is verified.
+ 
+ 0 of 19.
++
++## 2026-11-26 — The known failures may only shrink (S306p)
++
++**What happened.** The building seat sent the thin path's tenth patch. The tests that fail on main today, and the checks
++that are red, are to be listed in one file, each tied to the register row that holds it. The list may only get shorter: a
++new gate fails if it ever grows. A change that brings a failure the list does not hold will be refused when it lands. The
++list starts empty; main fills it from its own full run.
++
++0 of 19.
+diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
+index 12966f697..fbb04e18f 100644
+--- a/docs/PRACTICES.md
++++ b/docs/PRACTICES.md
+@@ -1566,3 +1566,15 @@
+ **Why it exists.** Draft 1 of the framework (§ 9, agreed by the author on 2026-11-26) puts every claim card through one
+ queue, written by a runner and read by peers, banking seats and the landing tool. The queue is the record of who moved a
+ card and when; a record that any writer could bend would make every later check rest on nothing.
++
++## The known failures may only shrink — GATED (`known-failures`) (adopted 2026-11-26, the framework's thin path, patch T10; draft 1 section 9; register row P-885; built by the building session at main's M54)
++
++**The rule:** `queue/KNOWN_FAILURES.json` lists every test that fails and every gate that is red on main, as of a full suite
++on a fresh clone, each with the register row that holds it and a line of why. Every entry names a row of
++`docs/POINT_REGISTER.md`, and along main's history the list only shrinks. A landing that adds a failure or a red gate the
++list does not hold is refused (`scripts/queue/baseline.py --compare`, which the landing tool calls). **The gate** reads the
++list and its history. Its failing paths are `tests/test_known_failures.py`.
++
++**Why it exists.** The draft (section 4) asks that a landing run the suite on a fresh clone or be refused, and on
++2026-11-26 the suite was red on main: every landing would have been refused, or the rule ignored. A list that may only
++shrink lets the rule bind now, and makes each standing failure a debt with its row.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 1e6780a0f..d56138289 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-26)”
+ - “S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-26)”
+ - “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-26)”
+ - “S306p THE INTAKE RUNNER AND ITS WORKFLOW (the framework's thin path, T7; P-885) (2026-11-26)”
+@@ -60,7 +61,6 @@
+ - “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
+ - “S306p BANKING SEAT V2 STARTED AND TRAINED ON TWO PRACTICE CARDS; A THIRD, P3; README § 12 RECONCILED (P-885) (2026-11-26)”
+ - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
+-- “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 022b5f92a..fcf6b4e67 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1568 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1569 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1941,6 +1941,7 @@
+ ## 2026-11-26
+ 
+ - — `test_card_form.py` 
++- — `test_known_failures.py` 
+ - — `test_queue_banking.py` 
+ - — `test_queue_custody.py` 
+ - — `test_queue_discover.py` 
+diff --git a/queue/KNOWN_FAILURES.json b/queue/KNOWN_FAILURES.json
+new file mode 100644
+index 000000000..2187a9c17
+--- /dev/null
++++ b/queue/KNOWN_FAILURES.json
+@@ -0,0 +1,5 @@
++{
++ "note": "The known-failures baseline (the framework's thin path, T10; register row P-885): every test that fails and every gate that is red on main, as of a full suite on a fresh clone, each with the register row that holds it. It may only shrink. It ships empty: its first entries are main's, from main's own full suite.",
++ "tests": [],
++ "gates": []
++}
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index bd59528ff..7a49a785c 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3623,6 +3623,26 @@
+     return True, "ok (%d card(s) in the queue hold its schema)" % len([n for n in cards if n != "(strays)"])
+ 
+ 
++def gate_known_failures(_d=None, _root=None):
++    """the framework's thin path, T10 (P-885): queue/KNOWN_FAILURES.json holds its form, every entry names a row of the
++    register, and along the history the list only shrinks"""
++    try:
++        import importlib.util
++        spec = importlib.util.spec_from_file_location("baseline_for_the_gate", os.path.join(ROOT, "scripts/queue/baseline.py"))
++        m = importlib.util.module_from_spec(spec)
++        sys.dont_write_bytecode = True
++        spec.loader.exec_module(m)
++        root = _root or ROOT
++        d = m.load(root) if _d is None else _d
++        bad = m.form_problems(d, m.rows(ROOT)) + m.shrink_problems(root)
++    except Exception as exc:                              # FAIL-CLOSED
++        return False, "the known-failures baseline cannot be read: %s" % exc
++    if bad:
++        return False, "%d problem(s): " % len(bad) + "; ".join(bad[:5])
++    return True, "ok (%d test(s) and %d gate(s) on the list, each with its row; the list has only shrunk)" % (
++        len(d["tests"]), len(d["gates"]))
++
++
+ GATES = {
+     "identification-register": gate_identification_register,
+     "framing": gate_framing,
+@@ -3680,6 +3700,7 @@
+     "negative-second-computation": gate_negative_second_computation,
+     "verdict-schema": gate_verdict_schema,
+     "queue-schema": gate_queue_schema,
++    "known-failures": gate_known_failures,
+     "selection-family": gate_selection_family,
+     "public-face": gate_public_face,
+ }
+@@ -3697,7 +3718,8 @@
+     "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+     "gate-controls",                              # the same rule for the register of controls (series 3, PV16)
+     "path-refs",                                  # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
+-    "queue-schema"})                              # 2026-11-26 (T4): the sighting log and the cards, along the checkout's history
++    "queue-schema",                               # 2026-11-26 (T4): the sighting log and the cards, along the checkout's history
++    "known-failures"})                            # 2026-11-26 (T10): the baseline only shrinks, along the history
+ READS_GIT = READS_TRACKED | READS_HISTORY
+ 
+ 
+diff --git a/scripts/queue/baseline.py b/scripts/queue/baseline.py
+new file mode 100644
+index 000000000..1de7cbaff
+--- /dev/null
++++ b/scripts/queue/baseline.py
+@@ -0,0 +1,156 @@
++#!/usr/bin/env python3
++"""The known-failures baseline, which may only shrink (the framework's thin path, patch T10; draft 1 §§ 4 and 9; register
++row P-885).
++
++`queue/KNOWN_FAILURES.json` lists every test that fails and every gate that is red on main, as of a full suite run on a
++fresh clone. Each entry carries a register row that holds the debt, and a line of why:
++
++    {"note": ..., "tests": [{"id": <pytest node id>, "row": "P-<n>", "why": ...}],
++                  "gates": [{"id": <gate name>, "row": "P-<n>", "why": ...}]}
++
++THE RULES (§ 9, the advisor's proposal adopted):
++  - every entry names a register row of docs/POINT_REGISTER.md;
++  - the list may only shrink: along main's history, no version of the file holds an entry that the version before it did
++    not (the gate known-failures reads that history);
++  - a landing that adds a failure or a red gate is refused (the landing tool, T11, calls `compare` below): a failure the
++    list does not hold is a new failure; an entry that now passes is reported, so that the list is shrunk by it.
++
++The list ships EMPTY. Its first entries are main's: they come from main's own full suite on a fresh clone, each with the
++register row main gives it. `--draft` writes the entries a run gives, with their rows left for main to fill.
++
++    python3 scripts/queue/baseline.py --check                       # the list's form and rows; exit 1 when it fails
++    python3 scripts/queue/baseline.py --compare FAILURES [--gates RED]   # a run against the list
++    python3 scripts/queue/baseline.py --draft FAILURES [--gates RED]     # print a draft list for main to fill
++FAILURES is a file of failing test ids, one a line (as `pytest -rf` prints after "FAILED "); RED a file of red gates'
++names, one a line."""
++import json
++import pathlib
++import re
++import subprocess
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[1]
++LIST = "queue/KNOWN_FAILURES.json"
++REGISTER = "docs/POINT_REGISTER.md"
++ROW = re.compile(r"P-\d+")
++KINDS = ("tests", "gates")
++
++
++def rows(root=ROOT):
++    """the register's row ids"""
++    p = pathlib.Path(root, REGISTER)
++    return set(re.findall(r"^\| (P-\d+) \|", p.read_text(encoding="utf-8"), re.M)) if p.is_file() else set()
++
++
++def form_problems(d, known_rows=None):
++    if not isinstance(d, dict):
++        return ["the list is not a table"]
++    bad = []
++    extra = sorted(set(d) - {"note", "tests", "gates"})
++    if extra:
++        bad.append("fields not in the schema: %s" % ", ".join(extra))
++    for kind in KINDS:
++        entries = d.get(kind)
++        if not isinstance(entries, list):
++            bad.append("%s is not a list" % kind)
++            continue
++        seen = set()
++        for i, e in enumerate(entries):
++            if not isinstance(e, dict) or sorted(e) != ["id", "row", "why"]:
++                bad.append("%s entry %d is not {id, row, why}" % (kind, i))
++                continue
++            if not isinstance(e["id"], str) or not e["id"].strip():
++                bad.append("%s entry %d has no id" % (kind, i))
++            elif e["id"] in seen:
++                bad.append("%s entry %s stands twice" % (kind, e["id"]))
++            seen.add(e["id"])
++            if not isinstance(e["row"], str) or not ROW.fullmatch(e["row"]):
++                bad.append("%s entry %s names no register row" % (kind, e["id"]))
++            elif known_rows is not None and e["row"] not in known_rows:
++                bad.append("%s entry %s names %s, which is not a row of the register" % (kind, e["id"], e["row"]))
++            if not isinstance(e["why"], str) or not e["why"].strip():
++                bad.append("%s entry %s says not why" % (kind, e["id"]))
++    return bad
++
++
++def ids(d):
++    return {kind: {e["id"] for e in d.get(kind, []) if isinstance(e, dict) and "id" in e} for kind in KINDS}
++
++
++def shrink_problems(root=ROOT, ref="HEAD", path=LIST):
++    """along ref's first-parent history: no version holds an entry the version before it did not"""
++    r = subprocess.run(["git", "log", "--first-parent", "--reverse", "--format=%H", ref, "--", path], cwd=root,
++                       capture_output=True, text=True)
++    if r.returncode != 0:
++        return ["the history of %s cannot be read" % path]
++    bad, before = [], None
++    for c in r.stdout.split():
++        s = subprocess.run(["git", "show", "%s:%s" % (c, path)], cwd=root, capture_output=True, text=True)
++        if s.returncode != 0:
++            continue
++        try:
++            now = ids(json.loads(s.stdout))
++        except ValueError:
++            bad.append("%s at %s is not JSON" % (path, c[:9]))
++            continue
++        if before is not None:
++            for kind in KINDS:
++                grown = sorted(now[kind] - before[kind])
++                if grown:
++                    bad.append("%s at %s adds %s: the list may only shrink" % (path, c[:9], ", ".join(grown[:5])))
++        before = now
++    return bad
++
++
++def compare(d, failures, red_gates):
++    """(new failures and red gates the list does not hold, entries that now pass): a landing with any new one is refused"""
++    known = ids(d)
++    new = ["test %s" % t for t in sorted(set(failures) - known["tests"])] + \
++          ["gate %s" % g for g in sorted(set(red_gates) - known["gates"])]
++    gone = ["test %s" % t for t in sorted(known["tests"] - set(failures))] + \
++           ["gate %s" % g for g in sorted(known["gates"] - set(red_gates))]
++    return new, gone
++
++
++def _lines(path):
++    out = []
++    for line in pathlib.Path(path).read_text(encoding="utf-8").splitlines():
++        line = line.strip()
++        if line.startswith("FAILED "):
++            line = line[len("FAILED "):].split(" - ")[0].strip()
++        if line:
++            out.append(line)
++    return out
++
++
++def load(root=ROOT):
++    return json.loads(pathlib.Path(root, LIST).read_text(encoding="utf-8"))
++
++
++def main(argv):
++    arg = lambda k: argv[argv.index(k) + 1] if k in argv else None
++    d = load()
++    if "--check" in argv:
++        bad = form_problems(d, rows()) + shrink_problems()
++        for b in bad:
++            print(b)
++        print("%d problem(s); %d test(s) and %d gate(s) on the list" % (len(bad), len(d["tests"]), len(d["gates"])))
++        return 1 if bad else 0
++    failures = _lines(arg("--compare") or arg("--draft"))
++    red = _lines(arg("--gates")) if arg("--gates") else []
++    if "--draft" in argv:
++        print(json.dumps({"note": d.get("note", ""), "tests": [{"id": t, "row": "P-?", "why": "?"} for t in sorted(set(failures))],
++                          "gates": [{"id": g, "row": "P-?", "why": "?"} for g in sorted(set(red))]}, indent=1))
++        return 0
++    new, gone = compare(d, failures, red)
++    for n in new:
++        print("NEW: " + n)
++    for g in gone:
++        print("now passes, to be taken off the list: " + g)
++    print("%d new, %d now passing" % (len(new), len(gone)))
++    return 1 if new else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tests/GATE_CONTROLS.json b/tests/GATE_CONTROLS.json
+index 033eb3a00..c6721b84c 100644
+--- a/tests/GATE_CONTROLS.json
++++ b/tests/GATE_CONTROLS.json
+@@ -56,5 +56,6 @@
+  "selection-family": "tests/test_gate_failing_paths.py::test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family",
+  "public-face": "tests/test_gate_failing_paths.py::test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record",
+  "verdict-schema": "tests/test_verdict_schema_gate.py::test_a_verdict_file_that_breaks_the_schema_fails_the_gate_and_its_twin_passes",
+- "queue-schema": "tests/test_queue_schema.py::test_a_card_that_breaks_the_schema_fails_the_gate_and_its_twin_passes"
++ "queue-schema": "tests/test_queue_schema.py::test_a_card_that_breaks_the_schema_fails_the_gate_and_its_twin_passes",
++ "known-failures": "tests/test_known_failures.py::test_a_list_that_grows_or_names_no_row_fails_the_gate_and_its_twin_passes"
+ }
+diff --git a/tests/test_known_failures.py b/tests/test_known_failures.py
+new file mode 100644
+index 000000000..4d48cf7fb
+--- /dev/null
++++ b/tests/test_known_failures.py
+@@ -0,0 +1,86 @@
++"""2026-11-26 (the framework's thin path, patch T10; register row P-885): the known-failures baseline,
++scripts/queue/baseline.py, and the gate known-failures.
++
++A list whose entry names no register row, or a row the register does not hold, fails the gate, and its twin passes; a
++list that grows along the history fails it, and one that shrinks passes; a run with a failure or a red gate the list does
++not hold is a new failure, and an entry that now passes is reported for taking off; the draft leaves the rows to main; the
++list ships empty and the gate passes on the record."""
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++BL = _load("baseline_under_test", "scripts/queue/baseline.py")
++GATES = _load("gates_for_the_baseline", "scripts/gates/gates.py")
++TWIN = {"note": "x", "tests": [{"id": "tests/test_a.py::test_one", "row": "P-885", "why": "a seat branch not fetched"}],
++        "gates": [{"id": "harvest-debt", "row": "P-881", "why": "a pin that does not resolve in a shallow clone"}]}
++
++
++def test_a_list_that_grows_or_names_no_row_fails_the_gate_and_its_twin_passes(tmp_path):
++    assert GATES.gate_known_failures(TWIN, ROOT)[0] is True
++    bad = json.loads(json.dumps(TWIN))
++    bad["tests"][0]["row"] = "P-99999"
++    ok, detail = GATES.gate_known_failures(bad, ROOT)
++    assert not ok and "not a row of the register" in detail
++    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
++                                  capture_output=True, text=True, check=True)
++    g("init", "-q")
++    (tmp_path / "queue").mkdir()
++    f = tmp_path / "queue" / "KNOWN_FAILURES.json"
++    for version, msg in ((TWIN, "the list"), (dict(TWIN, gates=[]), "it shrinks")):
++        f.write_text(json.dumps(version), encoding="utf-8")
++        g("add", "-A")
++        g("commit", "-q", "-m", msg)
++    assert GATES.gate_known_failures(dict(TWIN, gates=[]), tmp_path)[0] is True
++    f.write_text(json.dumps(TWIN), encoding="utf-8")
++    g("commit", "-q", "-am", "it grows")
++    ok, detail = GATES.gate_known_failures(TWIN, tmp_path)
++    assert not ok and "adds harvest-debt: the list may only shrink" in detail
++
++
++def test_the_lists_form():
++    known = {"P-885", "P-881"}
++    assert BL.form_problems(TWIN, known) == []
++    for change, words in ((lambda d: d.update(score=1), "not in the schema"),
++                          (lambda d: d.update(tests="none"), "tests is not a list"),
++                          (lambda d: d["tests"].append(dict(d["tests"][0])), "stands twice"),
++                          (lambda d: d["tests"][0].update(row="885"), "names no register row"),
++                          (lambda d: d["tests"][0].update(why=""), "says not why"),
++                          (lambda d: d["gates"][0].pop("why"), "is not {id, row, why}")):
++        d = json.loads(json.dumps(TWIN))
++        change(d)
++        bad = BL.form_problems(d, known)
++        assert bad and any(words in b for b in bad), (words, bad)
++
++
++def test_a_run_against_the_list():
++    new, gone = BL.compare(TWIN, ["tests/test_a.py::test_one", "tests/test_b.py::test_two"], ["harvest-debt"])
++    assert new == ["test tests/test_b.py::test_two"] and gone == []
++    new, gone = BL.compare(TWIN, [], ["harvest-debt", "attribution"])
++    assert new == ["gate attribution"] and gone == ["test tests/test_a.py::test_one"]
++
++
++def test_the_commands_by_hand_and_the_list_ships_empty(tmp_path):
++    f = tmp_path / "failed.txt"
++    f.write_text("FAILED tests/test_b.py::test_two - AssertionError: x\n", encoding="utf-8")
++    run = lambda *a: subprocess.run([sys.executable, "-B", str(ROOT / "scripts/queue/baseline.py"), *map(str, a)],
++                                    capture_output=True, text=True)
++    r = run("--compare", f)
++    assert r.returncode == 1 and "NEW: test tests/test_b.py::test_two" in r.stdout
++    draft = json.loads(run("--draft", f).stdout)
++    assert draft["tests"] == [{"id": "tests/test_b.py::test_two", "row": "P-?", "why": "?"}]
++    assert run("--check").returncode == 0
++    shipped = json.loads((ROOT / "queue" / "KNOWN_FAILURES.json").read_text(encoding="utf-8"))
++    assert shipped["tests"] == [] and shipped["gates"] == [] and GATES.gate_known_failures()[0]
+-- 
+2.43.0
+

@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M60
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T5 LANDED. T1b, T6, T7, T8 AND T9 SENT under docs/handoffs/, REBUILT ON YOUR 6f0f8fe45 (M60's head) in that order, the patch files replaced: T1b now carries M60's definitions field, T9 its labels of section 12 (T9: the banking verdict files, sealed then opened; two ACCEPTs bank; any two that differ a SPLIT). Each applies on a clean checkout of 6f0f8fe45, its tree as built; 58 gates on each of the five, all green but harvest-debt (GATES_REBUILT_ON_6F0F8FE45.txt in T9's folder); the related tests 653 passed, the same three failed. T7 changes a rule, yours to accept or refuse (one tracked workflow file); the workflow has not run
-needs: your word on T7's one tracked workflow file; queue/BANKING_SEATS.json filled with V1 and V2 (code and branch); the author's six settings before the first run
-next push: T10, the known-failures baseline
+on: T1 TO T5 LANDED. T1b AND T6 TO T10 SENT under docs/handoffs/, on your 6f0f8fe45 in that order (T10: the known-failures baseline, queue/KNOWN_FAILURES.json, empty as sent for you to fill from your full suite, each entry with its register row; the gate known-failures: it only shrinks). Each applies on a clean checkout, its tree as built; 59 gates with T10's, all green but harvest-debt. T7 changes a rule, yours to accept or refuse (one tracked workflow file); the workflow has not run
+needs: your word on T7's one tracked workflow file; queue/BANKING_SEATS.json filled; queue/KNOWN_FAILURES.json filled from your full suite; the author's six settings before the first run
+next push: T11, the landing tool
 
 # cld-advisor — status
 
