@@ -206,3 +206,86 @@ So that a seat hired for a role knows what is expected of it, without being boxe
   - **a card produced by main needs at least one check from another model family before it is VERIFIED,** by the peer
     stage or the auditor. The banking seats share main's family, so without this rule main's cards would be checked by its
     family alone.
+
+## 9. The advisor's critique, decided (approved by the author, 2026-11-26)
+
+The advisor seat's answer to M49 to M51 (its branch, `docs/handoffs/BUILDER_TO_MAIN_2026-11-26_M49_TO_M51_CRITIQUE_AND_BUILD_PLAN/`,
+@ `aa384d2ae`) is adopted, with the decisions below. Where this section and §§ 1 to 8 differ, this section holds.
+
+### Where the intake runner runs
+
+- **GitHub Actions on the repository, on standard GitHub-hosted runners only.** These are free on a public repository;
+  larger runners are billed and are never used. The author sets the Actions spending budget to $0, so the worst case is a
+  job that does not run, never a charge.
+- **Two jobs.**
+  - The job that runs seat code has read-only permissions and no secrets.
+  - A separate job writes the runner's results, the queue's files, to the queue's own branch.
+  - Main is protected so the runner's token cannot push to it.
+- **The sighting log is committed to the queue's branch.** Run logs are public but kept about 90 days, so they do not serve.
+- **A manual trigger is kept beside the schedule.** The same code runs by hand on the author's machine as the fallback. If
+  Actions is down, the queue waits and production does not stop.
+- **Modest use:** the runner reruns the repository's own scripts, as GitHub's terms allow, with a cap of about 30 minutes
+  per card. A card needing more, or needing sage, is marked **heavy** and rerun by the same code on the author's machine,
+  when the author chooses; the banking seats recompute it in any case.
+
+### The advisor's six questions
+
+1. **Where the runner runs:** as above.
+2. **The four claim-card fields** (the runner's id, the seat's code, the failing control as a command, the decisive output
+   lines): **adopted.**
+3. **Peers are offered cards by rotation** instead of choosing them: **adopted.** A seat may decline; its rate of declines
+   is shown, not penalised. Production stays free.
+4. **A split on main's own card goes to the auditor, then to the author:** **adopted.**
+5. **Plants come from three sources:** the calibration set of real faults, the auditor and main. **Adopted.** The auditor's
+   own plants come from main and the calibration set.
+6. **A baseline of known failures that may only shrink:** **adopted.** Each entry carries a register row; a landing that
+   adds a failure or a red gate is refused.
+
+### The advisor's other proposals: adopted
+
+- **The intake:**
+  - custody from the runner's sighting log, and a rewritten branch returns the card;
+  - the failing control must fail;
+  - normalised decisive output lines;
+  - the record check on the runner's own terms;
+  - "deciding" computed by the runner;
+  - a deciding card's REPRODUCED-only premises banked with it;
+  - the firewall as a flag to the author;
+  - a refiled card linked to its history.
+- **The peer stage:**
+  - the peer note graded "reran" or "re-derived", and only a re-derived note moves a card up;
+  - the timeout of 72 hours and one re-offer;
+  - the cap on one peer's share of one producer's cards;
+  - counts shown beside every rate.
+- **Banking:**
+  - verdicts sealed first, then opened;
+  - the peer note sealed until both banking seals are in;
+  - the same banking seat gets its own RETURN back with the refiled card;
+  - the landing tool, tracked, as the single writer of arcs, locks, ledger rows and the log pair.
+- **Plants and identity:**
+  - plants under real producers' ids, arranged by the author, in a plant ledger sealed per round;
+  - the calibration set held as hashes;
+  - badges covering the card's, the script's and the cited verdict lines' hashes;
+  - neutral codes checked against the scoreboard's pattern;
+  - a tracked code table, with the real names kept by the author outside the repository;
+  - "waiting for another family" for main's cards;
+  - audit findings that main routes late escalate to the author.
+- **Surfaces:**
+  - a file per card under `queue/cards/`, with a generated view;
+  - the reuse and retire table;
+  - no gate retired before a count of what it caught.
+
+### Two changes by main
+
+- **Allowed packages.** The trial batch B2011 to B2017 uses python-flint, and sage with GAP. The allowed list adds them at
+  pinned versions, and the runner records the version of every package used.
+- **A thin path first.** Before all 31 patches, the thinnest cut that carries B2011 to B2017 and the four plants from intake
+  to landing. The advisor proposes the cut. Main's sketch:
+  - the queue's schema; discovery; the form check; custody; the sandboxed rerun with its failing control; the workflow;
+  - the peer note's schema, with offers made by hand in the trial;
+  - the banking verdicts, sealed; two ACCEPTs; the known-failures baseline; the landing tool; the plant ledger;
+  - the producer's and the banking seat's charters;
+  - the seat code on cards.
+
+  The trial then runs, and the rest is built after it, in the order of the advisor's plan. The advisor's stop rule applies:
+  if the path costs more than it catches, it is simplified before it is trusted.

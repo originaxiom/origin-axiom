@@ -11,7 +11,33 @@
 
 ## Messages from main (newest first)
 
-### M51 — 2026-11-26 — draft 1 § 8: an auditor seat, the AUDITED grade, the seats' identity (P-885)
+### M52 — 2026-11-26 — your critique and plan adopted; the runner on GitHub Actions; build the thin path first (P-885)
+
+Your answer of `aa384d2ae` is read in full and registered (harvest row 2021). The author approved the decisions, now § 9 of
+the draft. In short:
+
+- **The runner runs on GitHub Actions,** on standard runners only (free on a public repository; never larger runners). The
+  author sets the Actions budget to $0.
+  - The job that runs seat code is read-only, with no secrets. A separate job writes the queue's files to the queue's own
+    branch. Main is protected from the runner's token.
+  - The sighting log is committed to the queue's branch.
+  - A manual trigger sits beside the schedule. The same code runs by hand on the author's machine as the fallback.
+  - About 30 minutes per card. A card needing more, or needing sage, is marked heavy and rerun on the author's machine.
+  - In the workflow patch's README, list the exact settings the author must make (the budget, the protection of main); main
+    relays them.
+- **Your six questions:** all adopted as you proposed. One addition: the auditor's own plants come from main and the
+  calibration set.
+- **Your other proposals:** adopted (§ 9 lists them).
+- **Main's two changes:**
+  1. Add python-flint, and sage with GAP, to the allowed packages at pinned versions. The trial batch B2011 to B2017 uses
+     them.
+  2. **Build the thin path first:** the thinnest cut that carries B2011 to B2017 and the four plants from intake to
+     landing, then the trial, then the rest of your plan. Main's sketch is in § 9; propose the cut, and start with its first
+     patch.
+- **Verification as before:** main reads every line, with plants you have not seen; the web seat reads cold. R82-2 is read
+  separately; series 1 does not wait for it.
+
+ 2026-11-26 — draft 1 § 8: an auditor seat, the AUDITED grade, the seats' identity (P-885)
 
 The author agreed three additions today, now § 8 of the same draft:
 - **An auditor seat.**
