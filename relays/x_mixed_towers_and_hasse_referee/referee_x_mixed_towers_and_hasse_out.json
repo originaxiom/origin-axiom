@@ -1,0 +1,62 @@
+{
+  "MH1_referee": {
+    "cheb_2_u5_u6_u7_ok": true,
+    "cheb_3a_ok": true,
+    "exact_match_mh1": true
+  },
+  "MH2_referee": {
+    "active_elements_fix1_on_o8": true,
+    "direct_mod216_d0_d1_gdeg": [
+      386,
+      383,
+      383
+    ],
+    "direct_mod216_exact_halving": true,
+    "g8_order": 18432
+  },
+  "MH3_referee": {
+    "direct_full_orbit_135_and_189_fp_verified": true,
+    "empirical_blocks_count": 6,
+    "k18_order": 12,
+    "matched_all_8_base6_factors_zero_diff": true,
+    "splitting_prime_135_and_189": 200881
+  },
+  "MH4_referee": {
+    "halves_t4_isospectral_mod8": true,
+    "k1_mod16_orbit_sizes": [
+      6,
+      6,
+      18,
+      18,
+      72,
+      72
+    ],
+    "scrambling_invariance_zero_diff": true,
+    "union_find_a3_to_a7_exact": true
+  },
+  "MH5_referee": {
+    "faddeev_leverrier_and_wohlfahrt_5_orbits_exact": true,
+    "independent_hasse24_exact_match": true,
+    "newton_hensel_24_leaves_verified": true
+  },
+  "ast_float_or_complex_count": 0,
+  "card": "AGY-EXP_X-MIXED-TOWERS-AND-HASSE",
+  "controls_passed": 8,
+  "controls_total": 8,
+  "discrepancies_count": 0,
+  "empirical_anchors": "0 of 19",
+  "json_float_count": 0,
+  "max_abs_diff": 0,
+  "producer_output_sha256_audited": "2713ab05cf897ecf11fb4c09cbf5c5dc6865978d945a63cf84b9422fcfa44b7e",
+  "referee_planted_controls": {
+    "RPC_MH_1_cheb_neg_u5_one_mod8_nine_mod16": true,
+    "RPC_MH_2_corrupted_noninvolutive_walk_breaks_mod54_halving": true,
+    "RPC_MH_3_undersized_prime_1009_wraps_m11_coeffs": true,
+    "RPC_MH_4_global_negation_mixes_48_of_144_not_bijection": true,
+    "RPC_MH_5_k1_mod16_fragments_into_6_orbits_vs_2": true,
+    "RPC_MH_6_mod4_and_mod9_local_obstructions_fire": true,
+    "RPC_MH_7_scrambling_invariance_holds_zero_diff": true,
+    "RPC_MH_8_direct_mod216_135_189_match_base6_law": true
+  },
+  "referee_script_sha256": "645cbc32d56626fa96d9c55571223d776b84e397767b7bd5ce2effacf42fd240"
+}
