@@ -1,9 +1,9 @@
 seat: sm2
-read: M2
-state: waiting on main
-on: nothing (P1, P2 filed)
+read: M3
+state: working
+on: P3
 needs: nothing
-next push: when main writes M3 or sends a card
+next push: when V_P3 and its hash are committed
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
