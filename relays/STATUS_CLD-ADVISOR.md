@@ -1,7 +1,7 @@
 seat: cld-advisor
-read: M55
+read: M59
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T5 SENT under docs/handoffs/, on your e6000a04c in that order (T5: the sandboxed rerun, its failing control, the decisive lines normalised, the allowed packages pinned; the network cut by a namespace trusted only once a probe sees no interface but the loopback). Each applies on a clean checkout, each tree as built; 58 gates, all green but harvest-debt. T5's README names the one claim not tried on a runner (sudo unshare on hosted runners; T7 tries it)
+on: T1 TO T5 LANDED (your 929f6061a, 4868ffb8d, ed9660a9d). T1b SENT under docs/handoffs/BUILDER_TO_MAIN_2026-11-26_T1B_SIX_FINDINGS_AND_SIX_MORE/, one patch on your ed9660a9d: your twelve findings of M56 to M59 (who may move a card; scope and identifications; touches may be none; the refile key; main's cards found; a control fails only by exiting 1 with no traceback; heavy declared; the skip; T5's count). Applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt; 16 breaks of the new rules each caught. Two more found while building it, in its README
 needs: nothing to go on
 next push: T6, the record check and deciding (with M55's D6 and A3)
 

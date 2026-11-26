@@ -1,0 +1,632 @@
+From 6176477b9da41f922897337aaa39c1af0d7d6d32 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 26 Nov 2026 22:21:17 +0000
+Subject: [PATCH] S306p T1b of the framework's thin path (P-885; main's M56 to
+ M59): who may move a card (no RETURNED from a peer's note; WITHDRAWN by the
+ card's own seat alone, its only move after FILED; the banking outcomes the
+ runner's; a split main's on a seat's card, the auditor's or the author's on
+ main's own; deciding set past FILED and true for banking); the card's scope
+ and identifications, touches and then effect may be none, a script declared
+ heavy; a refile keyed on the script's and the decisive lines' hashes, main's
+ own cards found; a failing control fails only by exiting 1 with no traceback;
+ the child-process test skipped with its reason; tests fail with each new rule
+ removed
+
+---
+ CHANGELOG.md                   | 17 ++++++++++++
+ PROGRESS_LOG.md                |  9 ++++++
+ docs/CLAIM_CARD.md             | 10 +++++--
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ scripts/queue/card_form.py     | 40 ++++++++++++++++++++++-----
+ scripts/queue/discover.py      | 13 +++++----
+ scripts/queue/queue_schema.py  | 50 ++++++++++++++++++++++++++--------
+ scripts/queue/rerun.py         | 19 ++++++++++---
+ tests/test_card_form.py        | 21 +++++++++++++-
+ tests/test_queue_discover.py   | 42 ++++++++++++++++++++++------
+ tests/test_queue_rerun.py      | 32 ++++++++++++++++++++--
+ tests/test_queue_schema.py     | 35 ++++++++++++++++++++++++
+ 12 files changed, 247 insertions(+), 43 deletions(-)
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 30e1f8490..2cf573b7a 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,22 @@
+ # Changelog
+ 
++## S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)
++
++- **The queue's moves (M56):** a peer's note no longer sends a card back (PEERED to RETURNED is gone); WITHDRAWN, from any
++  status that is not final, by the card's own seat alone; after FILED the card's own seat makes no other move; the banking
++  outcomes are the runner's; a split is settled by main on a seat's card and by the auditor or the author on main's own
++  (main's code `fam1-v1-unset-01`); `deciding` is set past FILED, and true for any card that went to banking.
++- **The claim card (M56, M58):** `scope` (frame; object; reach, one of single, class or general; hypotheses), which may not
++  be none, and `identifications`, which may; `touches` may be none, and then `effect` is none; a decisive script may be
++  declared heavy, which only adds work.
++- **Discovery (M57):** a refile is linked by the decisive script's hash and the decisive lines' hash together; main's own
++  cards are tested to be found; a card declared heavy is filed heavy; the Pins table is read with the code's own copy of
++  seat_intake.py.
++- **The rerun (M58, M59):** a failing control fails only by exiting 1 with no traceback; any other exit, or a traceback,
++  is an invalid control and returns the card; a declared-heavy card is heavy after every check before the run; the
++  child-process network test is skipped, with its reason, where no namespace exists.
++- **Tests:** 35 of 35 over the queue's five files; each new rule's removal makes one fail.
++
+ ## S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)
+ 
+ - **T4 (custody) and T5 (the sandboxed rerun) landed as sent** (harvest rows 2026, 2027): their code applied, their log
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 6134b9b01..53715454d 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20370,3 +20370,12 @@ eleven of twelve breaks were caught, the twelfth harmless. Both are on main. Mai
+ control that must fail simply crashes is accepted as reproduced. That is mended before any card moves.
+ 
+ 0 of 19.
++
++## 2026-11-26 — T1b: the corrections main asked for before any card moves (S306p)
++
++**What happened.** The building seat sent one patch with the twelve corrections main asked for after reading the first five
++patches. A peer can no longer send a card back; a producer can withdraw its own card and do nothing else with it once filed;
++only the runner records what banking decided, so no one can mark a card verified by hand; a card now states its scope; a
++second command counts as failing only when it fails cleanly, not when it crashes; and a card may say its script is heavy.
++
++0 of 19.
+diff --git a/docs/CLAIM_CARD.md b/docs/CLAIM_CARD.md
+index 296df7da5..aa531d524 100644
+--- a/docs/CLAIM_CARD.md
++++ b/docs/CLAIM_CARD.md
+@@ -16,13 +16,15 @@ Copy the block below. Keep each field to one or two lines. A field that does not
+ - kind: theorem | computation | prediction | identification | negative
+ - touches: <codes from docs/TOTAL_INPUTS_SCOREBOARD.md (A01 to A12, F1 to F4, S01 to S03, LAMBDA), identification rows
+   (I-n), register rows (P-n), or one of the 19 parameters by name>
+-- effect: removes | conditions | adds | supports | refutes — <on which code>
++- effect: removes | conditions | adds | supports | refutes — <on which code>; none when it touches none
++- scope: frame: <the frame>; object: <the object>; reach: single | class | general; hypotheses: <each, or none>
++- identifications: <each "X here is Y there" the claim makes, or the I-n rows; or none>
+ - imports: <every structure or assumption from outside the record it rests on, each named: for example "the MSSM's
+   two-loop running", "M-theory flux quantisation", "three right-handed neutrinos">
+ - premises on main: <arcs and register rows it uses>
+ - decisive script: <path>, SHA-256 <first 16 hex>, depends on <only the standard library, mpmath, sympy, numpy, scipy,
+   python-flint, sage, GAP>,
+-  run as <command>, output SHA-256 <first 16 hex>
++  run as <command>, output SHA-256 <first 16 hex>[, heavy]
+ - decisive lines: <n> lines marked "DECISIVE:", SHA-256 <first 16 hex of those lines, as the rerun normalises them>
+ - failing control: <a command, not the decisive one, that must exit with a failure if the result is wrong>
+ - second computation: <which seat, with code that shares nothing, its path, and whether it agrees>
+@@ -33,7 +35,9 @@ Copy the block below. Keep each field to one or two lines. A field that does not
+ **The four fields added on 2026-11-26** (the framework's draft 1, § 9, agreed by the author; register row P-885; the thin
+ path's patch T2): the card's id, the seat's code, the decisive lines and the failing control. The intake runner checks the
+ form with `scripts/queue/card_form.py` before anything else. Only `imports`, `premises on main` and `second computation`
+-may say "none". The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
++may say "none". **[CHANGED 2026-11-26 (T1b, main's M56 and M58):** `scope` and `identifications` added (door rule D1);
++`touches` and `identifications` may say "none", and `effect` too when `touches` does; a card may declare its decisive
++script heavy, which only adds work.**]** The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
+ the rerun's).
+ 
+ ## How main takes a card
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 8d22e8789..cb5cc69d4 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
+ - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
+ - “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
+ - “S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)”
+@@ -60,7 +61,6 @@
+ - “S306p THE LANDINGS OF T1 TO T3 REBUILT BEFORE THE PUSH; THE FROZEN LIST'S COPIED PATHS (P-885) (2026-11-26)”
+ - “S306p T3 LANDED; FIVE PLAIN ERRORS IN B2011 TO B2016 MENDED; THE TRIAL'S NATURAL PLANTS SEALED (P-885; M57) (2026-11-26)”
+ - “S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)”
+-- “S306p T1 AND T2 OF THE THIN PATH READ LINE BY LINE AND LANDED AS SENT (P-885; M56) (2026-11-26)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/scripts/queue/card_form.py b/scripts/queue/card_form.py
+index de9f94576..d2f7b36c6 100644
+--- a/scripts/queue/card_form.py
++++ b/scripts/queue/card_form.py
+@@ -23,10 +23,14 @@ sys.dont_write_bytecode = True
+ _spec.loader.exec_module(QS)
+ 
+ TITLE = re.compile(r"# CLAIM CARD — (\S.*)")
+-FIELDS = ("card id", "seat code", "seat, branch, commit", "kind", "touches", "effect", "imports", "premises on main",
+-          "decisive script", "decisive lines", "failing control", "second computation", "already on main?",
+-          "what would make it fail")
+-MAY_BE_NONE = ("imports", "premises on main", "second computation")
++# CHANGED 2026-11-26 (T1b, main's M56): `scope` and `identifications` added, so door rule D1 is checked; `touches` may be
++# none (such a card decides nothing and goes to the peers only), and then `effect` may be none too.
++FIELDS = ("card id", "seat code", "seat, branch, commit", "kind", "touches", "effect", "scope", "identifications",
++          "imports", "premises on main", "decisive script", "decisive lines", "failing control", "second computation",
++          "already on main?", "what would make it fail")
++MAY_BE_NONE = ("touches", "identifications", "imports", "premises on main", "second computation")
++SCOPE_PARTS = ("frame", "object", "reach", "hypotheses")
++REACH = ("single", "class", "general")
+ KINDS = ("theorem", "computation", "prediction", "identification", "negative")
+ EFFECTS = ("removes", "conditions", "adds", "supports", "refutes")
+ # the packages a decisive script may depend on: the card's list, and python-flint, sage and GAP (main's change, § 9);
+@@ -36,8 +40,24 @@ FIELD_LINE = re.compile(r"- ([a-z ,?]+):(.*)$")
+ CARD_ID = re.compile(r"new|refiles (Q\d{4,})")
+ HEX16 = re.compile(r"SHA-256 ([0-9a-f]{16})\b")
+ DECISIVE = re.compile(r"(\d+) lines? marked \"DECISIVE:\", SHA-256 ([0-9a-f]{16})")
++# a card may declare its script heavy (main's M58): ", heavy" after the output's hash. It only adds work: the checks stand
+ SCRIPT = re.compile(r"(\S+\.(?:py|sage|g|gap)), SHA-256 [0-9a-f]{16}, depends on (.+?), run as (.+?), output SHA-256 "
+-                    r"[0-9a-f]{16}\s*$")
++                    r"[0-9a-f]{16}(, heavy)?\s*$")
++
++
++def declared_heavy(fields):
++    m = SCRIPT.match(fields.get("decisive script", ""))
++    return bool(m and m.group(4))
++
++
++def scope_problems(scope):
++    """the scope: 'frame: ...; object: ...; reach: single | class | general; hypotheses: ...', each part filled"""
++    parts = [p.strip() for p in scope.split(";")]
++    keys = [p.split(":", 1)[0].strip() for p in parts]
++    if tuple(keys) != SCOPE_PARTS or any(":" not in p or not p.split(":", 1)[1].strip() for p in parts):
++        return ["scope is not 'frame: <...>; object: <...>; reach: <single, class or general>; hypotheses: <...>'"]
++    reach = parts[2].split(":", 1)[1].strip()
++    return [] if reach in REACH else ["scope's reach %r is not one of %s" % (reach, ", ".join(REACH))]
+ 
+ 
+ def read(text):
+@@ -75,7 +95,8 @@ def form_problems(text):
+             bad.append("the field '%s' is missing" % name)
+         elif not f[name]:
+             bad.append("the field '%s' is empty" % name)
+-        elif f[name].lower() == "none" and name not in MAY_BE_NONE:
++        elif f[name].lower() == "none" and name not in MAY_BE_NONE and not (name == "effect"
++                                                                            and f.get("touches", "").lower() == "none"):
+             bad.append("the field '%s' may not be none" % name)
+     if bad:
+         return bad
+@@ -89,8 +110,13 @@ def form_problems(text):
+         bad.append("the seat in 'seat, branch, commit' is not the card's seat code")
+     if f["kind"] not in KINDS:
+         bad.append("kind is not one of %s" % ", ".join(KINDS))
+-    if f["effect"].split(" ")[0] not in EFFECTS or " — " not in f["effect"]:
++    if f["effect"].lower() == "none":
++        pass                                             # allowed only when touches is none (the check above)
++    elif f["touches"].lower() == "none":
++        bad.append("the card touches none, so its effect is not none: an effect names a code it touches")
++    elif f["effect"].split(" ")[0] not in EFFECTS or " — " not in f["effect"]:
+         bad.append("effect does not open with one of %s and name its code after ' — '" % ", ".join(EFFECTS))
++    bad += scope_problems(f["scope"])
+     m = SCRIPT.match(f["decisive script"])
+     if not m:
+         bad.append("decisive script is not '<path>, SHA-256 <16 hex>, depends on <...>, run as <command>, output "
+diff --git a/scripts/queue/discover.py b/scripts/queue/discover.py
+index da20d2474..e960b7051 100644
+--- a/scripts/queue/discover.py
++++ b/scripts/queue/discover.py
+@@ -9,8 +9,8 @@ filed as a new card, FILED by the runner, with the next free id. Nothing is chec
+   - a branch that cannot be reached is reported, and the others are read (never a stop);
+   - a card whose seat code is not a seat code cannot be filed, because the queue holds codes only; it is reported to be
+     told to its seat;
+-  - a new version of a card already in the queue, or a card with the same decisive script's hash as one in the queue, is
+-    a refile; it is filed, linked to the card it refiles, and the report says whether the card itself said so (a refile
++  - a new version of a card already in the queue, or a card with the same decisive script's hash and decisive lines'
++    hash as one in the queue, is a refile; it is filed, linked to the card it refiles, and the report says whether the card itself said so (a refile
+     it did not declare is the form's to return, in the runner, T7).
+ 
+ The form check (T2), custody (T4), the rerun (T5) and the record check (T6) come after, in the runner.
+@@ -52,7 +52,7 @@ def git(root, *args):
+ 
+ def branches(root=ROOT, main="origin/main"):
+     """[(seat key, ref)]: main, then every seat of the Pins table"""
+-    intake = _load("seat_intake_for_discovery", pathlib.Path(root) / "scripts" / "checks" / "seat_intake.py")
++    intake = _load("seat_intake_for_discovery", ROOT / "scripts" / "checks" / "seat_intake.py")   # the code's own copy
+     intake.ROOT = pathlib.Path(root)
+     return [("main", main)] + [(key, resolve(root, ref)) for key, ref, _pin in intake.pins()]
+ 
+@@ -89,8 +89,11 @@ def cards_on(root, ref):
+ 
+ 
+ def script_hash(fields):
++    """the key a refile is linked by: the decisive script's hash and the decisive lines' hash together. CHANGED 2026-11-26
++    (T1b, main's M57): it was the script's hash alone, and one script can decide several claims (B2011's prints five)"""
+     m = SCRIPT_HASH.search(fields.get("decisive script", ""))
+-    return m.group(1) if m else None
++    d = CF.DECISIVE.fullmatch(fields.get("decisive lines", ""))
++    return (m.group(1), d.group(2)) if m and d else None
+ 
+ 
+ def discover(queue, refs, root=ROOT, at=None, seen_blobs=None):
+@@ -140,7 +143,7 @@ def discover(queue, refs, root=ROOT, at=None, seen_blobs=None):
+             else:
+                 note = "found on its branch" + ("; refiles %s" % ", ".join(earlier) if earlier else "")
+             rec = {"id": cid, "seat_code": code, "branch": branch, "commit": commit, "card_path": path,
+-                   "title": title[:240], "status": "FILED", "deciding": None, "heavy": False,
++                   "title": title[:240], "status": "FILED", "deciding": None, "heavy": CF.declared_heavy(fields),
+                    "refiles": sorted(set(earlier + ([declared] if declared and declared in queue else []))),
+                    "history": [{"at": at, "status": "FILED", "by": "runner", "note": note}]}
+             new[cid] = rec
+diff --git a/scripts/queue/queue_schema.py b/scripts/queue/queue_schema.py
+index e13bc982d..88539522c 100644
+--- a/scripts/queue/queue_schema.py
++++ b/scripts/queue/queue_schema.py
+@@ -45,24 +45,29 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
+ CARDS = "queue/cards"
+ 
+ STATUSES = ("FILED", "RETURNED_AT_INTAKE", "REPRODUCED", "OFFERED", "PEERED", "AT_BANKING",
+-            "SPLIT", "VERIFIED", "RETURNED", "REFUSED")
++            "SPLIT", "VERIFIED", "RETURNED", "REFUSED", "WITHDRAWN")
++# CHANGED 2026-11-26 (T1b, main's M56): a peer's note no longer sends a card back (PEERED -> RETURNED is gone: the peer
++# stage is timed, not a gate); WITHDRAWN is a move from any status that is not final, made by the card's own seat alone.
+ MOVES = {
+-    "FILED": ("REPRODUCED", "RETURNED_AT_INTAKE"),
+-    "REPRODUCED": ("OFFERED", "AT_BANKING"),          # a card that decides nothing stays REPRODUCED
+-    "OFFERED": ("OFFERED", "PEERED", "AT_BANKING"),   # a re-offer; a peer note; no peer within the time
+-    "PEERED": ("AT_BANKING", "RETURNED"),             # a fault found by the peer goes back to the producer
+-    "AT_BANKING": ("VERIFIED", "RETURNED", "REFUSED", "SPLIT"),
+-    "SPLIT": ("VERIFIED", "RETURNED", "REFUSED"),
+-    "RETURNED_AT_INTAKE": (), "VERIFIED": (), "RETURNED": (), "REFUSED": (),
++    "FILED": ("REPRODUCED", "RETURNED_AT_INTAKE", "WITHDRAWN"),
++    "REPRODUCED": ("OFFERED", "AT_BANKING", "WITHDRAWN"),    # a card that decides nothing goes to the peers only
++    "OFFERED": ("OFFERED", "PEERED", "AT_BANKING", "WITHDRAWN"),   # a re-offer; a peer note; no peer within the time
++    "PEERED": ("AT_BANKING", "WITHDRAWN"),                # the peer's note is recorded and the card goes on
++    "AT_BANKING": ("VERIFIED", "RETURNED", "REFUSED", "SPLIT", "WITHDRAWN"),
++    "SPLIT": ("VERIFIED", "RETURNED", "REFUSED", "WITHDRAWN"),
++    "RETURNED_AT_INTAKE": (), "VERIFIED": (), "RETURNED": (), "REFUSED": (), "WITHDRAWN": (),
+ }
+ RUNNER_ONLY = ("FILED", "REPRODUCED", "RETURNED_AT_INTAKE")
++BANKING = ("AT_BANKING", "SPLIT", "VERIFIED", "RETURNED", "REFUSED")
++UNDECIDED_ALLOWED = ("FILED", "RETURNED_AT_INTAKE", "WITHDRAWN")
++MAIN_CODE = "fam1-v1-unset-01"        # main's seat code until the author's identity table exists (main's M57)
+ FIELDS = ("id", "seat_code", "branch", "commit", "card_path", "title", "status", "deciding", "heavy", "refiles",
+           "history")
+ ENTRY_FIELDS = ("at", "status", "by", "note")
+ 
+ ID = re.compile(r"Q\d{4,}")
+ SEAT_CODE = re.compile(r"fam\d{1,2}-v\d{1,2}(?:\.\d{1,2})?-(?:low|medium|high|xhigh|max|unset)-\d{2,3}")
+-BY_OTHER = ("runner", "main", "author")
++BY_OTHER = ("runner", "main", "author", "auditor")
+ AT = re.compile(r"\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ")
+ COMMIT = re.compile(r"[0-9a-f]{40}")
+ BRANCH = re.compile(r"[A-Za-z0-9._/-]+")
+@@ -117,7 +122,12 @@ def card_problems(card, name=None, vendor_re=None):
+         bad.append("refiles is not a list of card ids")
+     elif card["id"] in refiles:
+         bad.append("the card refiles itself")
+-    bad += history_problems(card["history"], card["status"])
++    bad += history_problems(card["history"], card["status"], card["seat_code"])
++    seen = [e.get("status") for e in card["history"] if isinstance(e, dict)] if isinstance(card["history"], list) else []
++    if card["deciding"] is None and any(s not in UNDECIDED_ALLOWED for s in seen):
++        bad.append("deciding is null past FILED: the intake computes it")
++    if card["deciding"] is not True and any(s in BANKING for s in seen):
++        bad.append("the card went to banking without deciding anything")
+     if vendor_re is not None:
+         text = json.dumps(card, ensure_ascii=False)
+         if vendor_re.search(text):
+@@ -125,9 +135,11 @@ def card_problems(card, name=None, vendor_re=None):
+     return bad
+ 
+ 
+-def history_problems(history, status):
++def history_problems(history, status, seat_code=None):
+     """the history: oldest first, opened by the runner at FILED, each move allowed, its time not going back, and its
+-    last status the card's"""
++    last status the card's. Who may make a move (T1b, main's M56): the intake's moves and the banking outcomes are the
++    runner's; a split is settled by main on a seat's card and by the auditor or the author on main's own; after FILED the
++    card's own seat makes no move but WITHDRAWN, and WITHDRAWN is its alone"""
+     if not isinstance(history, list) or not history:
+         return ["history is not a list of one or more moves"]
+     bad = []
+@@ -155,6 +167,20 @@ def history_problems(history, status):
+             bad.append("history entry %d: %s to %s is not a move of the queue" % (i, a["status"], b["status"]))
+         if b["at"] < a["at"]:
+             bad.append("history entry %d goes back in time (%s after %s)" % (i, b["at"], a["at"]))
++        if b["status"] == "WITHDRAWN":
++            if b["by"] != seat_code:
++                bad.append("history entry %d: WITHDRAWN is made by the card's own seat alone, not %r" % (i, b["by"]))
++            continue
++        if seat_code is not None and b["by"] == seat_code:
++            bad.append("history entry %d: after FILED the card's own seat makes no move but WITHDRAWN" % i)
++        if a["status"] == "AT_BANKING" and b["by"] != "runner":
++            bad.append("history entry %d: the banking outcome %s is the runner's, from the sealed verdicts, made by %r"
++                       % (i, b["status"], b["by"]))
++        if a["status"] == "SPLIT":
++            may = ("auditor", "author") if seat_code == MAIN_CODE else ("main",)
++            if b["by"] not in may:
++                bad.append("history entry %d: a split on %s card is settled by %s, not %r"
++                           % (i, "main's own" if seat_code == MAIN_CODE else "a seat's", " or ".join(may), b["by"]))
+     if history[-1]["status"] != status:
+         bad.append("status %s is not the history's last (%s)" % (status, history[-1]["status"]))
+     return bad
+diff --git a/scripts/queue/rerun.py b/scripts/queue/rerun.py
+index 7219aedd4..5f1aac558 100644
+--- a/scripts/queue/rerun.py
++++ b/scripts/queue/rerun.py
+@@ -3,11 +3,12 @@
+ 
+ The intake reruns a card's decisive script at its sealed commit and requires its failing control to fail. It decides:
+   REPRODUCED          the script ran, printed as many lines marked "DECISIVE:" as the card says, their normalised hash is
+-                      the card's, and the failing control exited with a failure;
++                      the card's, and the failing control failed: it exited exactly 1 with no traceback (T1b);
+   RETURNED_AT_INTAKE  any of these did not hold, or the script imports what is not allowed, or its command is not a plain
+                       run of a script of the commit; the reasons are given;
+-  HEAVY               the script needs sage (or GAP), or ran past the time limit: it is rerun by the same code on the
+-                      author's machine, when the author chooses (§ 9). Heavy is not a failure.
++  HEAVY               the script needs sage (or GAP), the card declares it heavy (T1b), or it ran past the time limit: it
++                      is rerun by the same code on the author's machine, when the author chooses (§ 9). Heavy is not a
++                      failure, and a declaration only adds work: every check before the run still runs.
+ 
+ THE SANDBOX.
+   - The commit is checked out on its own, in a temporary directory; nothing of the runner's checkout is reachable from it.
+@@ -48,6 +49,7 @@ import time
+ HERE = pathlib.Path(__file__).resolve().parent
+ ROOT = HERE.parents[1]
+ TIME_LIMIT = 1800
++TRACEBACK = "Traceback (most recent call last)"
+ 
+ 
+ def _load(name, path):
+@@ -220,6 +222,9 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None):
+         if res["reasons"]:
+             res["status"] = "RETURNED_AT_INTAKE"
+             return res
++        if CF.declared_heavy(f):                         # main's M58: declared heavy, after every check above has run
++            res.update(status="HEAVY", reasons=["the card declares its decisive script heavy"])
++            return res
+         if prefix is None:
+             prefix, res["guard"] = sandbox_prefix()
+         else:
+@@ -237,13 +242,19 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None):
+         if (n, h) != (int(d.group(1)), d.group(2)):
+             res["reasons"].append("the decisive lines are %d with hash %s; the card says %s with %s"
+                                   % (n, h, d.group(1), d.group(2)))
+-        crc, _, _, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)))
++        crc, _, cerr, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)))
+         res["control_exit"] = crc
+         if crc is None:
+             res.update(status="HEAVY", reasons=res["reasons"] + ["the failing control ran past the time limit"])
+             return res
++        # CHANGED 2026-11-26 (T1b, main's M58 and M59): a control fails only when it exits exactly 1 with no traceback on
++        # its stderr. A crash also exits 1 in Python, and was counted as a failing control; any other exit, or a
++        # traceback, is an invalid control, and the card is returned.
+         if crc == 0:
+             res["reasons"].append("the failing control exited 0: it did not fail")
++        elif crc != 1 or TRACEBACK in cerr:
++            res["reasons"].append("the failing control is invalid: it exited %d%s; a control fails by exiting 1 with no "
++                                  "traceback" % (crc, " with a traceback" if TRACEBACK in cerr else ""))
+         res["status"] = "RETURNED_AT_INTAKE" if res["reasons"] else "REPRODUCED"
+         return res
+     finally:
+diff --git a/tests/test_card_form.py b/tests/test_card_form.py
+index ec8c06652..4fa533682 100644
+--- a/tests/test_card_form.py
++++ b/tests/test_card_form.py
+@@ -23,6 +23,8 @@ TWIN = """# CLAIM CARD — a count of the classes at level 5, reproduced
+ - kind: computation
+ - touches: P-885
+ - effect: supports — P-885
++- scope: frame: F-HE; object: m004; reach: single; hypotheses: none
++- identifications: none
+ - imports: none
+ - premises on main: B2011
+ - decisive script: frontier/B2011_x/verification/count.py, SHA-256 0123456789abcdef, depends on the standard library
+@@ -54,7 +56,15 @@ def test_a_card_whose_form_holds_passes_and_each_rule_planted_fails():
+         ("- kind: computation", "- kind: a guess", "kind is not"),
+         ("- effect: supports — P-885", "- effect: supports P-885", "effect does not"),
+         ("- premises on main: B2011", "- premises on main:", "is empty"),
+-        ("- touches: P-885", "- touches: none", "may not be none"),
++        ("- kind: computation", "- kind: none", "may not be none"),
++        ("- touches: P-885", "- touches: none", "so its effect is not none"),
++        ("- effect: supports — P-885", "- effect: none", "'effect' may not be none"),
++        ("- scope: frame: F-HE; object: m004; reach: single; hypotheses: none\n", "", "'scope' is missing"),
++        ("- scope: frame: F-HE; object: m004; reach: single; hypotheses: none", "- scope: none", "may not be none"),
++        ("object: m004; reach", "reach", "scope is not"),
++        ("reach: single", "reach: every", "reach 'every' is not one of"),
++        ("frame: F-HE;", "frame: ;", "scope is not"),
++        ("- identifications: none\n", "", "'identifications' is missing"),
+         ("the standard library\n  and python-flint", "the standard library\n  and pandas", "not allowed: pandas"),
+         ("output SHA-256 fedcba9876543210", "output fedcba9876543210", "decisive script is not"),
+         ("3 lines marked", "0 lines marked", "decisive lines is not"),
+@@ -70,6 +80,15 @@ def test_a_card_whose_form_holds_passes_and_each_rule_planted_fails():
+         assert bad and any(words in b for b in bad), (words, bad)
+ 
+ 
++def test_a_card_that_touches_nothing_and_a_card_declared_heavy():
++    none = TWIN.replace("- touches: P-885", "- touches: none").replace("- effect: supports — P-885", "- effect: none")
++    assert CF.form_problems(none) == []
++    heavy = TWIN.replace("output SHA-256 fedcba9876543210", "output SHA-256 fedcba9876543210, heavy")
++    assert CF.form_problems(heavy) == [] and CF.declared_heavy(CF.read(heavy)[1])
++    assert not CF.declared_heavy(CF.read(TWIN)[1])
++    assert CF.form_problems(TWIN.replace("fedcba9876543210", "fedcba9876543210, light")), "only ', heavy' may follow"
++
++
+ def test_a_field_runs_over_lines_and_a_refile_names_its_card():
+     _, f, bad = CF.read(TWIN)
+     assert bad == [] and f["decisive script"].endswith("output SHA-256 fedcba9876543210")
+diff --git a/tests/test_queue_discover.py b/tests/test_queue_discover.py
+index 825631c33..5bf8dce08 100644
+--- a/tests/test_queue_discover.py
++++ b/tests/test_queue_discover.py
+@@ -32,7 +32,8 @@ CARD = """# CLAIM CARD — {title}
+ - card id: {cid}
+ - seat code: {code}
+ - seat, branch, commit: {code}, seat/a, 0123456789abcdef0123456789abcdef01234567
+-- decisive script: x.py, SHA-256 {h}, depends on the standard library, run as python3 x.py, output SHA-256 0011223344556677
++- decisive script: x.py, SHA-256 {h}, depends on the standard library, run as python3 x.py, output SHA-256 0011223344556677{heavy}
++- decisive lines: 1 lines marked "DECISIVE:", SHA-256 {d}
+ """
+ AT = "2026-11-26T12:00:00Z"
+ 
+@@ -56,8 +57,8 @@ def _repo(tmp_path):
+ 
+ def test_a_card_is_filed_and_what_cannot_be_filed_is_reported(tmp_path):
+     g, put = _repo(tmp_path)
+-    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa"))
+-    put("CLAIM_no_code.md", CARD.format(title="no code", cid="new", code="a seat", h="bbbbbbbbbbbbbbbb"))
++    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa", d="dddddddddddddddd", heavy=""))
++    put("CLAIM_no_code.md", CARD.format(title="no code", cid="new", code="a seat", h="bbbbbbbbbbbbbbbb", d="dddddddddddddddd", heavy=""))
+     put("NOTES.md", "# notes, not a card\n")
+     new, report = D.discover({}, [("a", "seat/a"), ("gone", "origin/no-such-branch")], root=tmp_path, at=AT)
+     assert list(new) == ["Q0001"]
+@@ -73,34 +74,59 @@ def test_a_card_is_filed_and_what_cannot_be_filed_is_reported(tmp_path):
+ 
+ def test_a_second_look_files_nothing_and_a_refile_is_linked(tmp_path):
+     g, put = _repo(tmp_path)
+-    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa"))
++    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa", d="dddddddddddddddd", heavy=""))
+     new, _ = D.discover({}, [("a", "seat/a")], root=tmp_path, at=AT)
+     blob = g("rev-parse", "HEAD:relays/claims/CLAIM_one.md").strip()
+     again, _ = D.discover(new, [("a", "seat/a")], root=tmp_path, at=AT, seen_blobs={blob: "Q0001"})
+     assert again == {}
+     # a new version of the card, which does not say it refiles: linked, and the note says so
+-    put("CLAIM_one.md", CARD.format(title="a count, mended", cid="new", code="fam2-v5-high-01", h="cccccccccccccccc"))
++    put("CLAIM_one.md", CARD.format(title="a count, mended", cid="new", code="fam2-v5-high-01", h="cccccccccccccccc", d="dddddddddddddddd", heavy=""))
+     v2, _ = D.discover(new, [("a", "seat/a")], root=tmp_path, at=AT, seen_blobs={blob: "Q0001"})
+     assert v2["Q0002"]["refiles"] == ["Q0001"] and "does not declare" in v2["Q0002"]["history"][0]["note"]
+     # one that says so
+     put("CLAIM_one.md", CARD.format(title="a count, mended", cid="refiles Q0001", code="fam2-v5-high-01",
+-                                    h="cccccccccccccccc"))
++                                    h="cccccccccccccccc", d="dddddddddddddddd", heavy=""))
+     v3, _ = D.discover(new, [("a", "seat/a")], root=tmp_path, at=AT, seen_blobs={blob: "Q0001"})
+     assert v3["Q0002"]["refiles"] == ["Q0001"] and v3["Q0002"]["history"][0]["note"] == "found on its branch; refiles Q0001"
+     assert QS.queue_problems({k: json.dumps(v) for k, v in {**new, **v3}.items()}) == []
+     # the same decisive script, filed again from another branch under another name
+     g("checkout", "-q", "-b", "seat/b")
+-    put("CLAIM_two.md", CARD.format(title="the count again", cid="new", code="fam3-v1-max-01", h="aaaaaaaaaaaaaaaa"),
++    put("CLAIM_two.md", CARD.format(title="the count again", cid="new", code="fam3-v1-max-01", h="aaaaaaaaaaaaaaaa", d="dddddddddddddddd", heavy=""),
+         branch="seat/b")
+     v4, _ = D.discover(new, [("b", "seat/b")], root=tmp_path, at=AT, seen_blobs={
+         g("rev-parse", "seat/b:relays/claims/CLAIM_one.md").strip(): "Q0001"})
+     two = [r for r in v4.values() if r["card_path"].endswith("CLAIM_two.md")][0]
+     assert two["refiles"] == ["Q0001"] and "does not declare" in two["history"][0]["note"]
++    # the same script deciding another claim (other decisive lines) is not a refile (main's M57)
++    put("CLAIM_three.md", CARD.format(title="another claim of the script", cid="new", code="fam3-v1-max-01",
++                                      h="aaaaaaaaaaaaaaaa", d="eeeeeeeeeeeeeeee", heavy=""), branch="seat/b")
++    v5, _ = D.discover(new, [("b", "seat/b")], root=tmp_path, at=AT, seen_blobs={
++        g("rev-parse", "seat/b:relays/claims/CLAIM_one.md").strip(): "Q0001",
++        g("rev-parse", "seat/b:relays/claims/CLAIM_two.md").strip(): "Q0002"})
++    three = [r for r in v5.values() if r["card_path"].endswith("CLAIM_three.md")][0]
++    assert three["refiles"] == [] and three["history"][0]["note"] == "found on its branch"
++
++
++def test_mains_own_cards_are_found_and_a_declared_heavy_card_is_filed_heavy(tmp_path):
++    g, put = _repo(tmp_path)
++    (tmp_path / "docs").mkdir()
++    (tmp_path / "docs" / "HARVEST_LEDGER.md").write_text(
++        "# x\n\n## Pins\n\n| seat | branch | pin | pinned at | by arc |\n|---|---|---|---|---|\n"
++        "| a | `origin/seat/a` | `0000000` | 2026-11-26 | B1 |\n\n## Next\n", encoding="utf-8")
++    put("CLAIM_main.md", CARD.format(title="main's own", cid="new", code="fam1-v1-unset-01", h="aaaaaaaaaaaaaaaa",
++                                     d="dddddddddddddddd", heavy=", heavy"))
++    g("update-ref", "refs/remotes/origin/main", "HEAD")
++    refs = D.branches(root=tmp_path)
++    assert refs[0] == ("main", "origin/main") and ("a", "origin/seat/a") in refs
++    new, _ = D.discover({}, refs[:1], root=tmp_path, at=AT)
++    found = [r for r in new.values() if r["card_path"].endswith("CLAIM_main.md")]
++    assert found and found[0]["seat_code"] == "fam1-v1-unset-01" and found[0]["branch"] == "main"
++    assert found[0]["heavy"] is True
+ 
+ 
+ def test_a_masked_ref_of_the_pins_table_is_read_on_its_last_segment(tmp_path):
+     g, put = _repo(tmp_path)
+-    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa"))
++    put("CLAIM_one.md", CARD.format(title="a count", cid="new", code="fam2-v5-high-01", h="aaaaaaaaaaaaaaaa", d="dddddddddddddddd", heavy=""))
+     g("update-ref", "refs/remotes/origin/lane/the-branch-x1", "HEAD")
+     assert D.resolve(tmp_path, "origin/<v>/the-branch-x1") == "origin/lane/the-branch-x1"
+     assert D.resolve(tmp_path, "origin/<v>/no-such") == "origin/<v>/no-such"
+diff --git a/tests/test_queue_rerun.py b/tests/test_queue_rerun.py
+index e416b5421..745591d05 100644
+--- a/tests/test_queue_rerun.py
++++ b/tests/test_queue_rerun.py
+@@ -8,6 +8,8 @@ values printed two ways normalise alike; a module beside the script is read too;
+ trusted; the pins file names every allowed package; the command runs by hand."""
+ import importlib.util
+ import json
++
++import pytest
+ import pathlib
+ import subprocess
+ import sys
+@@ -146,11 +148,37 @@ def test_the_command_runs_by_hand(tmp_path):
+ def test_a_script_that_reaches_for_the_network_by_a_child_process_finds_it_cut(tmp_path):
+     """the static guard does not see `subprocess`; the namespace does: the child's connection fails inside the run"""
+     prefix, name = RR.sandbox_prefix()
+-    if not prefix:
+-        return                                            # no namespace here: the result says "static guard only"
++    if not prefix:                                        # main's M59: say so, not pass in silence
++        pytest.skip("no network namespace on this machine (%s): only the static guard runs here" % name)
+     src = ("import subprocess, sys\nr = subprocess.run([sys.executable, '-c', %r])\nprint('DECISIVE: probe =', r.returncode)\n"
+            % RR.PROBE)
+     c = _commit(tmp_path, {"x.py": src + "if '--plant' in sys.argv:\n    raise SystemExit(1)\n"})
+     n, h = RR.decisive("DECISIVE: probe = 7\n")
+     res = RR.rerun(tmp_path, c, _card(n=n, h=h), limit=60)
+     assert res["status"] == "REPRODUCED", res
++
++
++def test_a_control_fails_only_by_exiting_1_with_no_traceback_t1b(tmp_path):
++    """main's M58 and M59: a control that crashes also exits 1, and was counted as failing; a control that exits 2 is
++    invalid too. Both return the card; a control that exits 1 cleanly still passes"""
++    crash = GOOD.replace('    raise SystemExit(1)', '    raise RuntimeError("planted before anything is tested")')
++    c = _commit(tmp_path / "crash", {"x.py": crash})
++    res = RR.rerun(tmp_path / "crash", c, _card(), limit=60)
++    assert res["status"] == "RETURNED_AT_INTAKE" and any("with a traceback" in r for r in res["reasons"]), res
++    two = GOOD.replace('    raise SystemExit(1)', '    raise SystemExit(2)')
++    c = _commit(tmp_path / "two", {"x.py": two})
++    res = RR.rerun(tmp_path / "two", c, _card(), limit=60)
++    assert res["status"] == "RETURNED_AT_INTAKE" and any("it exited 2" in r for r in res["reasons"]), res
++    c = _commit(tmp_path / "ok", {"x.py": GOOD})
++    assert RR.rerun(tmp_path / "ok", c, _card(), limit=60)["status"] == "REPRODUCED"
++
++
++def test_a_card_declared_heavy_is_heavy_after_its_checks_t1b(tmp_path):
++    """main's M58: a card may declare its script heavy (one that runs sage as a child process is not seen in its
++    imports); the declaration only adds work: a script that fails a check before the run is still returned"""
++    heavy = _card().replace("output SHA-256 0011223344556677", "output SHA-256 0011223344556677, heavy")
++    c = _commit(tmp_path / "h", {"x.py": GOOD})
++    res = RR.rerun(tmp_path / "h", c, heavy, limit=60)
++    assert res["status"] == "HEAVY" and "declares" in res["reasons"][0]
++    c = _commit(tmp_path / "bad", {"x.py": "import pandas\n" + GOOD})
++    assert RR.rerun(tmp_path / "bad", c, heavy, limit=60)["status"] == "RETURNED_AT_INTAKE"
+diff --git a/tests/test_queue_schema.py b/tests/test_queue_schema.py
+index 8e5d09129..42fe1d357 100644
+--- a/tests/test_queue_schema.py
++++ b/tests/test_queue_schema.py
+@@ -151,3 +151,38 @@ def test_the_command_runs_by_hand_on_a_directory_and_on_a_ref(tmp_path):
+ def test_the_gate_passes_on_the_record():
+     ok, detail = GATES.gate_queue_schema()
+     assert ok, detail
++
++
++def _moved(*moves, seat="fam2-v5.5-high-01", deciding=True):
++    """a card filed and reproduced by the runner, then the moves given as (status, by)"""
++    card = copy.deepcopy(TWIN)
++    card["seat_code"], card["deciding"] = seat, deciding
++    card["history"] = card["history"][:2]
++    for i, (status, by) in enumerate(moves):
++        card["history"].append({"at": "2026-11-27T%02d:00:00Z" % i, "status": status, "by": by, "note": ""})
++    card["status"] = card["history"][-1]["status"]
++    return QS.card_problems(card, "Q0007")
++
++
++def test_who_may_move_a_card_t1b():
++    """main's M56: a peer's note sends nothing back; WITHDRAWN is the card's own seat's alone; the banking outcomes are the
++    runner's; a split is main's on a seat's card and the auditor's or the author's on main's own; after FILED the card's
++    own seat makes no other move; deciding is set past FILED, and true for banking"""
++    own, main = "fam2-v5.5-high-01", QS.MAIN_CODE
++    assert _moved(("OFFERED", "main"), ("PEERED", "fam3-v1-max-01"), ("AT_BANKING", "runner"), ("VERIFIED", "runner")) == []
++    assert any("PEERED to RETURNED is not a move" in b for b in
++               _moved(("OFFERED", "main"), ("PEERED", "fam3-v1-max-01"), ("RETURNED", "runner")))
++    assert _moved(("OFFERED", "main"), ("WITHDRAWN", own)) == []
++    assert any("WITHDRAWN is made by the card's own seat alone" in b for b in _moved(("WITHDRAWN", "main")))
++    assert any("WITHDRAWN to OFFERED is not a move" in b for b in _moved(("WITHDRAWN", own), ("OFFERED", "main")))
++    assert any("the card's own seat makes no move but WITHDRAWN" in b for b in _moved(("OFFERED", own)))
++    assert any("the banking outcome VERIFIED is the runner's" in b for b in _moved(("AT_BANKING", "runner"), ("VERIFIED", "main")))
++    assert _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main")) == []
++    assert any("settled by main, not 'author'" in b for b in
++               _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "author")))
++    assert _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("REFUSED", "auditor"), seat=main) == []
++    assert any("a split on main's own card is settled by auditor or author" in b for b in
++               _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main"), seat=main))
++    assert any("deciding is null past FILED" in b for b in _moved(("OFFERED", "main"), deciding=None))
++    assert any("went to banking without deciding" in b for b in _moved(("AT_BANKING", "runner"), deciding=False))
++    assert _moved(("OFFERED", "main"), deciding=False) == []
+-- 
+2.43.0
+

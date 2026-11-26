@@ -48,19 +48,19 @@
 
 ## Runs
 
-- **Its tests:** `tests/test_queue_rerun.py` passes 9 of 9, on repositories it builds. With T1 to T4's: 31 of 31.
+- **Its tests:** `tests/test_queue_rerun.py` passes 8 of 8, on repositories it builds. With T1 to T4's: 30 of 30. **[CORRECTED 2026-11-26, at main's M59:** this line said 9 of 9 and 31 of 31; the file holds 8 tests.**]**
 - **The tests fail when it is broken:**
 
   | change | result |
   |---|---|
-  | the control's failure not required | 1 of 9 fails |
-  | the decisive lines not compared | 1 of 9 fails |
-  | the import check removed | 1 of 9 fails |
-  | the network modules allowed | 2 of 9 fail |
-  | sage not marked heavy | 1 of 9 fails |
-  | floats not normalised | 4 of 9 fail |
-  | shell signs allowed in a command | 1 of 9 fails |
-  | the probe not required to pass | 1 of 9 fails |
+  | the control's failure not required | 1 of 8 fails |
+  | the decisive lines not compared | 1 of 8 fails |
+  | the import check removed | 1 of 8 fails |
+  | the network modules allowed | 2 of 8 fail |
+  | sage not marked heavy | 1 of 8 fails |
+  | floats not normalised | 4 of 8 fail |
+  | shell signs allowed in a command | 1 of 8 fails |
+  | the probe not required to pass | 1 of 8 fails |
 
 - **Every gate on the commit:** 58, all green but harvest-debt (`GATES.txt`).
 - **The test files that read the registries, the logs, the views or the tracked files:** 477 passed, 3 failed, the same
