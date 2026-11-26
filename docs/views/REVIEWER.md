@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1710** |
-| words of findings prose | **1,571,038** |
+| words of findings prose | **1,571,039** |
 | test lock files referenced | **946** |
 | arcs carrying an authored verdict | **1710** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2013`** (1714 words, 0 locks)  
+**PROVED — `B2013`** (1715 words, 0 locks)  
 “REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in eight of the ten arcs read; main checked each on the live tree and mended it -- B1980's withdrawn S-failure struck from its verdict line, body and lock labels, B1983's split and connectivity counts, B1993's and B2008's readings marked as readings and B1993's lock made to rerun, B1995's basis-dependent row and per-move normalisation, B1996's caveats and lock, B2004's scope, B2009's mode assignment marked as by count, B2011's and B2012's patterns scoped to the cases run; the review opened late (40 landings, not 34), main's miss; anchor 36f9cc5c2”  
 `B2013_review_87_entered_seven_of_eight_plants_caught_and_the_window_mended/FINDINGS.md`
 

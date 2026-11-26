@@ -94,7 +94,7 @@
 
   All three are known classes in `docs/ERROR_LEDGER.md`:
   - (1) is E11, an overextended record, and, for B1995's basis, E1, undeclared choice drift;
-  - (2) is E22, a conclusion from a shallow level check. B2005's "ℤ₆ survives exactly where the halving holds" was also E4,
+  - (2) is E22, a conclusion from a shallow level check. B2005's corrected "ℤ₆ survives exactly where the halving holds" was also E4,
     a necessary fact read as sufficient;
   - (3) is E13, stale artifact text.
 
