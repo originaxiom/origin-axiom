@@ -1,4 +1,4 @@
-From 8e757059b3dddb77b4edecbc387799f841bad2a2 Mon Sep 17 00:00:00 2001
+From a1afaecfcd21d3050d98feecae901fe3bccdb876 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
 Date: Thu, 26 Nov 2026 22:38:39 +0000
 Subject: [PATCH] S306p the intake runner and its workflow (the framework's
@@ -22,8 +22,8 @@ Subject: [PATCH] S306p the intake runner and its workflow (the framework's
  scripts/gates/gates.py         |   5 +-
  scripts/queue/custody.py       |   5 +-
  scripts/queue/intake.py        | 202 +++++++++++++++++++++++++++++++++
- tests/test_queue_intake.py     | 169 +++++++++++++++++++++++++++
- 11 files changed, 549 insertions(+), 6 deletions(-)
+ tests/test_queue_intake.py     | 170 +++++++++++++++++++++++++++
+ 11 files changed, 550 insertions(+), 6 deletions(-)
  create mode 100644 .github/workflows/intake.yml
  create mode 100644 scripts/queue/intake.py
  create mode 100644 tests/test_queue_intake.py
@@ -160,7 +160,7 @@ index 89c1fb3c6..2d969180d 100644
  frontier/B500_child_hunt/b500_stragglers.py
  frontier/B500_child_hunt/b500_stragglers_out.txt
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 836016967..9a4015aba 100644
+index 64371c059..199ba7a93 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,25 @@
@@ -190,10 +190,10 @@ index 836016967..9a4015aba 100644
  
  - **`scripts/queue/record_check.py`:** for one card, on the record in the checkout: the sweep's terms the runner's own (the
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 661105ca8..4d95ed364 100644
+index 4160077db..94a73cccc 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20389,3 +20389,14 @@
+@@ -20400,3 +20400,14 @@
  comparison with data.
  
  0 of 19.
@@ -209,7 +209,7 @@ index 661105ca8..4d95ed364 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index f6554d480..0ee86d168 100644
+index 28003de1f..c251cce8b 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -219,12 +219,12 @@ index f6554d480..0ee86d168 100644
 +- “S306p THE INTAKE RUNNER AND ITS WORKFLOW (the framework's thin path, T7; P-885) (2026-11-26)”
  - “S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)”
  - “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
- - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
+ - “S306p BANKING SEAT V2 STARTED AND TRAINED ON TWO PRACTICE CARDS; A THIRD, P3; README § 12 RECONCILED (P-885) (2026-11-26)”
 @@ -60,7 +61,6 @@
+ - “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
  - “S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)”
  - “S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)”
- - “S306p THE LANDINGS OF T1 TO T3 REBUILT BEFORE THE PUSH; THE FROZEN LIST'S COPIED PATHS (P-885) (2026-11-26)”
--- “S306p T3 LANDED; FIVE PLAIN ERRORS IN B2011 TO B2016 MENDED; THE TRIAL'S NATURAL PLANTS SEALED (P-885; M57) (2026-11-26)”
+-- “S306p THE LANDINGS OF T1 TO T3 REBUILT BEFORE THE PUSH; THE FROZEN LIST'S COPIED PATHS (P-885) (2026-11-26)”
  
  ## The latest campaign line
  
@@ -532,10 +532,10 @@ index 000000000..4c0a421e3
 +    sys.exit(main(sys.argv[1:]))
 diff --git a/tests/test_queue_intake.py b/tests/test_queue_intake.py
 new file mode 100644
-index 000000000..e09899e1a
+index 000000000..d546b10f9
 --- /dev/null
 +++ b/tests/test_queue_intake.py
-@@ -0,0 +1,169 @@
+@@ -0,0 +1,170 @@
 +"""2026-11-26 (the framework's thin path, patch T7; main's M54; register row P-885): the intake runner,
 +scripts/queue/intake.py, and its workflow, .github/workflows/intake.yml.
 +
@@ -590,6 +590,7 @@ index 000000000..e09899e1a
 +- effect: supports — {touches}
 +- scope: frame: F-HE; object: m004; reach: single; hypotheses: none
 +- identifications: none
++- definitions: a class is an orbit of the group on the level's states
 +- imports: none
 +- premises on main: {premises}
 +- decisive script: {script}, SHA-256 {h}, depends on the standard library, run as python3 {script}, output SHA-256 0011223344556677{heavy}

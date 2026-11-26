@@ -1,0 +1,6 @@
+R1 00d92c026 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-26): 295 seat-index ids across 30 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+R2 1409208dd 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-26): 295 seat-index ids across 30 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+R3 a1afaecfc 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-26): 295 seat-index ids across 30 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+R4 1c127131a 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-26): 295 seat-index ids across 30 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+R5 84f5b38d8 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-26): 295 seat-index ids across 30 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+FINISHED

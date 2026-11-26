@@ -1,4 +1,4 @@
-From 07ebd8dbe30674b4fc69089c5c6895315c12e888 Mon Sep 17 00:00:00 2001
+From 1c127131a82d716539794ade45a1d1aaebfdac7c Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
 Date: Thu, 26 Nov 2026 22:49:57 +0000
 Subject: [PATCH] S306p the peer note and the move to PEERED (the framework's
@@ -23,7 +23,7 @@ Subject: [PATCH] S306p the peer note and the move to PEERED (the framework's
  create mode 100644 tests/test_queue_peer_note.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 9a4015aba..5617b3492 100644
+index 199ba7a93..8f62fb6ed 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,19 @@
@@ -47,10 +47,10 @@ index 9a4015aba..5617b3492 100644
  
  - **`scripts/queue/intake.py`:** one round of the intake: discovery and sighting, the form (a refile it does not declare
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 4d95ed364..c699164ef 100644
+index 94a73cccc..4e160a2d2 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20400,3 +20400,12 @@
+@@ -20411,3 +20411,12 @@
  on GitHub are written down beside the queue.
  
  0 of 19.
@@ -64,7 +64,7 @@ index 4d95ed364..c699164ef 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 0ee86d168..1c05f7c67 100644
+index c251cce8b..febea26c1 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -76,10 +76,10 @@ index 0ee86d168..1c05f7c67 100644
  - “S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)”
  - “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
 @@ -60,7 +61,6 @@
+ - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
  - “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
  - “S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)”
- - “S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)”
--- “S306p THE LANDINGS OF T1 TO T3 REBUILT BEFORE THE PUSH; THE FROZEN LIST'S COPIED PATHS (P-885) (2026-11-26)”
+-- “S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)”
  
  ## The latest campaign line
  

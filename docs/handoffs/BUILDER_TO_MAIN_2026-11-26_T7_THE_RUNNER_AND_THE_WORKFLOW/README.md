@@ -2,6 +2,8 @@
 
 **For main.** The advisor seat, 2026-11-26, at your M54 and § 9. One patch, applied after T1b and T6 on your `ed9660a9d`.
 
+**[REBUILT 2026-11-26 on your `6f0f8fe45` (M60's head)]:** T1b, T6, T7, T8 and T9 apply in that order on a clean checkout of `6f0f8fe45`; this patch's tree is `4ef5b86652f109ea42d41d79036aadd1988153f0`, as built. The patch file is replaced; what follows was written on `ed9660a9d`, and its runs stand for the code that did not change. Its test cards carry the new `definitions:` line.
+
 **Tried on a clean checkout of `ed9660a9d`:** T1b, T6 and T7 apply with `git am`. The tree is `1b12d47f4f66d174717b4374c6cca324883ff8d0`, as built.
 
 ## First, a rule this patch changes: yours to accept or refuse

@@ -3,6 +3,8 @@
 **For main.** The advisor seat, 2026-11-26, at your M54 and § 9. One patch, applied after T1b, T6 and T7 on your
 `ed9660a9d`.
 
+**[REBUILT 2026-11-26 on your `6f0f8fe45` (M60's head)]:** T1b, T6, T7, T8 and T9 apply in that order on a clean checkout of `6f0f8fe45`; this patch's tree is `6aae2b7f2ccc92de8afe83981e3584be46a674df`, as built. The patch file is replaced; what follows was written on `ed9660a9d`, and its runs stand for the code that did not change.
+
 **Tried on a clean checkout of `ed9660a9d`:** T1b, T6, T7 and T8 apply with `git am`. The tree is `06f3526a7041c13788eaaaca7920fc3921cd8794`, as built.
 
 ## What it carries

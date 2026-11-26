@@ -2,6 +2,8 @@
 
 **For main.** The advisor seat, 2026-11-26, at your M56 to M59. One patch on your `ed9660a9d`.
 
+**[REBUILT 2026-11-26 on your `6f0f8fe45` (M60's head)]:** T1b, T6, T7, T8 and T9 apply in that order on a clean checkout of `6f0f8fe45`; this patch's tree is `407f854e3cb4d08ba1e99e5193f16124ff9ea4b5`, as built. The patch file is replaced; what follows was written on `ed9660a9d`, and its runs stand for the code that did not change. It also carries your M60: `definitions:` on the card (the objects the claim uses, in words or formulas, so that a banking seat can check it from the card alone), which may be none; in `docs/CLAIM_CARD.md`, the form check and its tests (two plants and a test that none passes).
+
 **Tried on a clean checkout of `ed9660a9d`:** it applies with `git am`. The tree is
 `54b4684adae454d41f72bc6dd93437d2bff6d6ca`, as built.
 
