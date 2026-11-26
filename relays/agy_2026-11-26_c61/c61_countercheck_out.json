@@ -1,0 +1,22 @@
+{
+  "card": "AGY-C61-COUNTERCHECK",
+  "date": "2026-11-26",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "methods": [
+    "72x72 exact Z[omega] integer-pair matrices + mp.eig star-ray & 5*W(alpha) checks",
+    "Union-find algebraic surface enumeration + Danilevsky Frobenius companion over 712-bit prime",
+    "All 19 irreps of G_3 via Burnside class-multiplication matrices + symbolic Z-poly & mod 2187 Hensel check",
+    "Jacobi eta^3 * Euler eta^1 series + Beta(1/6, 1/3)/(4*pi) period identity + split v_mid=3/2 22-pt quadrature"
+  ],
+  "planted_faults_caught": 5,
+  "planted_faults_total": 5,
+  "rpf_verdicts": {
+    "RPF1_non_normal_swapped_cycle": true,
+    "RPF2_fixed_point_sister_3_3_12_fails_zero_exception": true,
+    "RPF3_trivial_psi0_collapses_6_exceptions": true,
+    "RPF4_corrupted_Fred_sign_breaks_mod9_slope": true,
+    "RPF5_wrong_2_power_in_L2_omega": true
+  },
+  "verified_producer_output_sha256_16": "5edf6251f001b0a5"
+}
