@@ -1,5 +1,28 @@
 # Changelog
 
+## S306p T1 AND T2 OF THE THIN PATH READ LINE BY LINE AND LANDED AS SENT (P-885; M56) (2026-11-26)
+
+- **The advisor seat's cut** (twelve patches, T1 to T12) accepted as the order of the build (harvest row 2022).
+- **T1, the queue's schema and the gate `queue-schema`, and T2, the claim card's four fields and its form check:** applied on
+  `e6000a04c` (the logs and one generated view merged, both sides kept), landed as sent (`3648b2254`, `dc14c60ef`; rows 2023,
+  2024). Their tests pass 11 of 11; main's own mutations, eight on the schema and six on the form check, each caught.
+- **Six findings sent for one follow-up before any card moves (M56):** a peer's RETURN makes the peer stage a gate (dropped;
+  WITHDRAWN by the card's own seat added); the banking outcomes are the runner's alone; 'deciding' tied to the status; the
+  card's own seat never moves it after FILED; a scope field and an identifications field (door rule D1); 'touches' may be
+  none.
+- **`docs/roles/`:** D1's check named as the form check with T1b's fields; D7 for cards read as the queue's status plus the
+  wall section at landing.
+
+## S306p THE TRIAL'S FOUR PLANTS SEALED; THE FROZEN LIST (P-885) (2026-11-26)
+
+- **Four plants sealed** for the trial batch (kept untracked until the trial ends; manifest SHA-256
+  `69294066a059cfceec94db5024478efbdecff53e8e6cc526a04ba640728e45e1` in P-885). Each copies a real fault shape of the
+  record and is built on true results; each has a failing control that fails, run by main.
+- **The frozen list** (`docs/handoffs/MAIN_TO_ADVISOR_2026-11-26_THE_FRAMEWORK/FROZEN_LIST.md`), generated once: 1442 harvest
+  rows not final (46 naming a scoreboard code, 405 naming register rows only, 991 by row number per seat) and 36 seat commits
+  unread at the freeze. A record; rows leave it through the queue.
+- **`docs/roles/BANKING.md`:** verdicts ACCEPT, RETURN or REFUSE, as in the builder's T9 (CANNOT DECIDE folded into RETURN).
+
 ## S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)
 
 - **`docs/CLAIM_CARD.md`:** the four fields of draft 1's § 9 (the card's id, new or refiling a card; the seat's code, never

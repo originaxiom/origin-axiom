@@ -20279,3 +20279,24 @@ that must fail if the result is wrong. A new check reads a card's form before an
 there, filled, and in its shape. It runs nothing; the rerun and the record check come in later patches.
 
 0 of 19.
+
+## 2026-11-26 — The trial's four plants sealed, and the backlog frozen as a list (S306p)
+
+**What happened.** Main built the four planted faults of the trial run, each a claim card copying a real fault of the
+record's past, built on true results so that it reads like real work. Only their hash is on main until the trial ends. The
+backlog of seat claims not yet banked was frozen as a list, ordered by what each could decide: 1,442 harvest rows, of which 46
+name a scoreboard code and 405 a register row, and 36 seat commits not yet read. The list is a record; a row leaves it only
+when a claim card for it passes the queue. The banking seat's page now uses the verdict words of the builder's design.
+
+0 of 19.
+
+## 2026-11-26 — The first two pieces of the new intake are on main (S306p)
+
+**What happened.** The building seat sent its plan for the thin path (twelve pieces) and then its first two: the format in
+which the queue records each claim card and the moves a card may make, and the check that a card is filled in properly.
+Main read both line by line, broke each check on purpose to see that its tests notice (fourteen breaks, all caught), and
+landed them as sent. Six gaps went back for one small follow-up before any card moves: a peer must not be able to stop a
+card; only the runner may record a banking outcome; a card's own seat must not move it; a card must state its scope; and a
+result that touches nothing on the record must still be allowed in.
+
+0 of 19.

@@ -16,13 +16,13 @@ this page cold; the charters under `docs/roles/` are built from it.
 
 | id | the rule | where in WORKING_RULES | its check |
 |---|---|---|---|
-| D1 | A result that is to bear on the record arrives as a claim card in the intake's form. The claim states its scope (frame, object, reach, hypotheses), and the card declares every identification it makes | the claim cards rule (2026-11-24) 1; one statement of the foundations 3; the identification rule 2 | the intake's form check; `verdict_schema`; `identification_register` (completeness only) |
+| D1 | A result that is to bear on the record arrives as a claim card in the intake's form. The claim states its scope (frame, object, reach, hypotheses), and the card declares every identification it makes | the claim cards rule (2026-11-24) 1; one statement of the foundations 3; the identification rule 2 | the intake's form check (`scripts/queue/card_form.py`; its scope and identifications fields come with T1b, M56); `verdict_schema` and `identification_register` (completeness only) at landing |
 | D2 | Custody: the card, its expectation and its failing control are committed on the seat's own branch and first seen by the intake before the decisive output. A rewritten branch returns the card | numbered 3 (hash first); sender-branch dual-homing | the intake's sighting log |
 | D3 | The card names a failing control as a command, and that control must fail | numbered 8 (vacuity); § Enforcement (a two-outcome criterion) | the intake reruns it |
 | D4 | The firewall. No Standard Model quantity enters CLAIMS.md. No comparison with data, a seat's sealed bundle included, without the author's explicit approval. Phenomenological vocabulary is bound by Gate 5-Q | numbered 5, 6, 6a | `firewall_oneway`, `claims`, `framing`; the intake's firewall check |
 | D5 | Attribution and privacy: no product, vendor or model names and no sandbox paths in tracked files; seats are named by their codes | numbered 11 | `attribution`; the claim-names gate when R82-2 lands |
 | D6 | Nothing is built on a card that is not VERIFIED. A card whose premise is an unverified card names it, and waits for it | a count says where it came from 3 | `seat_positive_verified`; the queue's premise check (owed in the thin path) |
-| D7 | A NEGATIVE card stays PROVISIONAL until a second computation banks it, and carries "What the wall teaches" | a negative is banked only after a second computation 1, 5 | `negative_second_computation` |
+| D7 | A NEGATIVE card is provisional until two banking seats bank it (the queue's status says so), and its arc carries "What the wall teaches" | a negative is banked only after a second computation 1, 5 | the queue's status; `negative_second_computation` at landing |
 | D8 | No seat verifies or banks its own card | the seats' pages 5 | the queue's assignment by seat code |
 
 ## The author's rules (every role; no check yet, a check owed for each)

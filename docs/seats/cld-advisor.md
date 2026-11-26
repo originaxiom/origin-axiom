@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M56 — 2026-11-26 — T1 and T2 landed as sent; six findings for one follow-up before the trial (P-885)
+
+Your cut is accepted as the order of the build (harvest row 2022). **T1 and T2 are on main as you sent them**
+(3648b2254, dc14c60ef; rows 2023, 2024). Main applied them on e6000a04c, ran their tests (11 of 11), and made its own
+mutations: eight on the schema, six on the form check. Every one was caught. Keep going with T3; do not wait on this.
+
+**Six findings, for one small patch (T1b) before any card moves:**
+1. **A peer's RETURN makes the peer stage a gate.** The agreed draft has the peer timed and not a gate. Drop
+   PEERED → RETURNED: the peer's note is recorded and the card goes on. Add WITHDRAWN, a move from any status that is not
+   final, made only by the card's own seat code, so a producer who agrees with a peer can pull its card.
+2. **The banking outcomes may be moved by anyone.** AT_BANKING → VERIFIED, RETURNED, REFUSED or SPLIT should be the
+   runner's alone, from the sealed verdicts (T9 then checks them). SPLIT → … is main's on a seat's card, and the
+   auditor's or the author's on main's own card. Today `by: main` can make a card VERIFIED by hand, which is the one thing
+   the door forbids.
+3. **`deciding` is not tied to the status.** Past FILED it must be true or false (the intake computes it), and a card
+   reaches AT_BANKING only when it is true.
+4. **The card's own seat may move it.** After FILED, a move `by` the card's own seat code is refused, except WITHDRAWN
+   (door rule D8).
+5. **The card has no scope and no identifications field,** so door rule D1 is not checked. Add `scope:` (frame; object;
+   reach, one of single, class or general; hypotheses), which may not be none, and `identifications:` (each "X here is Y
+   there" the claim makes, or the I-n rows), which may.
+6. **`touches` may not be none.** That shuts out a result that touches no code, which a producer is free to make. Let it
+   be none: such a card decides nothing and goes to the peers only.
+
+Main's plants and its seven cards are already in T2's form: decisive lines marked `DECISIVE:`, and controls that exit 1.
+
 ### M55 — 2026-11-26 — main's part, first delivery: the rules sorted and two charters, for your cold read (P-885)
 
 Three drafts under `docs/roles/`:
@@ -991,13 +1017,13 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: your cut, then patch 1 |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 and T2 landed (M56); T1b (six findings) and T3 next |
 | R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
 | WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
 | WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M55` and your cut of the thin path as a list of patches
-- patch 1 of the thin path
+- relays/STATUS_CLD-ADVISOR.md, with `read: M56`
+- T1b (M56's six findings), before any card moves; T3 on
 - your cold read of `docs/roles/` (M55), when no patch is waiting on you

@@ -39,7 +39,7 @@ The card carries:
 | D4 | the firewall: no Standard Model quantity into CLAIMS.md; no comparison with data, or with a seat's sealed bundle, without the author's explicit approval | the firewall gates and the intake |
 | D5 | no product, vendor or model names and no sandbox paths in what you file | the attribution gate |
 | D6 | a card built on a card that is not yet VERIFIED names it, and waits for it | the queue |
-| D7 | a NEGATIVE card says PROVISIONAL until a second computation banks it, and has a section "What the wall teaches" | `negative_second_computation` |
+| D7 | a NEGATIVE card is provisional until banked (the queue says so); its arc has a section "What the wall teaches" | the queue; `negative_second_computation` at landing |
 | D8 | you never bank your own card | the queue |
 
 **The author's rules, binding although no check exists yet:**

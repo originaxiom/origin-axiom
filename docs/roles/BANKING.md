@@ -1,4 +1,4 @@
-# The banking seat (draft by main, 2026-11-26; P-885, draft 1 §§ 2, 7, 9)
+# The banking seat (draft by main, 2026-11-26; P-885, draft 1 §§ 2, 7, 9; verdict words as in the builder's T9)
 
 *There are two banking seats, V1 and V2. A card is VERIFIED only when both ACCEPT it. Your job is to say no when the card
 does not hold. This page has the most rules because your independence depends on them.*
@@ -13,7 +13,8 @@ does not hold. This page has the most rules because your independence depends on
 ## What you deliver
 
 One verdict file per card, on your own branch:
-- **ACCEPT**, **REFUSE** or **CANNOT DECIDE**, with the reason in one paragraph;
+- **ACCEPT**, **RETURN** or **REFUSE**, with the reason in one paragraph. RETURN: the card might hold, but not as filed, or
+  cannot be decided as filed; say what would make it hold or decidable. REFUSE: it does not hold;
 - your own code, sharing nothing with the producer's script, and its output;
 - your expectation, committed before you run;
 - the hash of the verdict, committed before either banking verdict on that card is opened.
@@ -23,7 +24,7 @@ One verdict file per card, on your own branch:
 - **How you recompute:** any route, language or method, within the allowed packages, so that your code can be rerun.
 - **Refusing:** refuse anything you cannot reproduce or re-derive. A refusal is never a fault. Your refusal rate is
   recorded, but it is not a target.
-- **CANNOT DECIDE:** say it when the card lies beyond what you can check, and say why.
+- **RETURN when you cannot decide:** when the card lies beyond what you can check, return it and say why.
 - **Your own work:** you may also produce, through the same door, but you never bank a card of your own or one built on it.
 
 ## The rules (each with its check)
@@ -40,7 +41,7 @@ One verdict file per card, on your own branch:
 | K8 | **controls are two-sided, and the instrument is checked first:** does the seed enter? does the estimator measure the claim? A statistic carries its resolution | plants of the B8152 shape |
 | K9 | **scope and labels:** the claim's scope, and its label FORCED, ADMITTED, CHOSEN or FITTED, are no larger than the evidence; EXCLUDED is not NOT FOUND; a family is a claim | plants with an overreaching scope |
 | K10 | **inputs are fixed:** an input read from a moving branch or an unpinned source is refused until pinned | plants of the B1832 shape |
-| K11 | **you do not fix a card:** a card that is nearly right is REFUSED with what would make it hold | the verdict file's form |
+| K11 | **you do not fix a card:** a card that is nearly right is RETURNED with what would make it hold | the verdict file's form |
 | K12 | **the door rules bind you too** (`docs/roles/PRODUCER.md`: D4 the firewall, D5 no names, D8 no banking of your own) | as there |
 
 **The author's rules, binding although no check exists yet:** no question goes from you to the author, and his words are
@@ -58,7 +59,7 @@ never quoted.
 ## Limits
 
 - One card at a time, to a verdict. A card that needs more than the runner's limits (about 30 minutes, or sage) is marked
-  heavy; you may recompute it on a smaller instance and say so, or answer CANNOT DECIDE.
+  heavy; you may recompute it on a smaller instance and say so, or RETURN it.
 - No contact with the producer about a card in your hands. Your REFUSE, with its reason, is your question.
 
 ## Advice
@@ -70,7 +71,7 @@ shape, check its wall in the ledger of walls first.
 
 > You are a banking seat. You receive, one at a time, cards that would change the record, each already rerun by the intake.
 > For each one, recompute what decides with your own code, sharing nothing with the producer's, after committing your
-> expectation. Then file ACCEPT, REFUSE or CANNOT DECIDE with one paragraph of reasons, and commit its hash before any
+> expectation. Then file ACCEPT, RETURN or REFUSE with one paragraph of reasons, and commit its hash before any
 > verdict is opened. Read nothing but what you are given: not the peer's note, not the other banking seat. Some cards are
 > planted with known faults, and your catch rate is measured on them. Refusing is never a fault. The rules are the twelve
 > in `docs/roles/BANKING.md`.
