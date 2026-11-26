@@ -1,0 +1,32 @@
+{
+ "id": "B2014",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B2004",
+  "B2007",
+  "B2008",
+  "B2009",
+  "B2010",
+  "B2011",
+  "B2013"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane's C61 (origin/agy/cusp-action-2026-11-20 @ beeef839d, harvest row 2013): the two commuting walks, the sector law, the sister orbits and the halving on (3,3,15) recomputed on main's own code and verified; its all-k fixed-point step read; section 4 registered",
+  "agy-002's A2-LISTENING-TOWER (origin/agy-002/verify @ fdbd7015f, harvest row 2014): the character difference, the exceptions' values and the step d7 = 7 recomputed on main and verified; the mirror lock for every k by main's shorter route; the steps beyond mod 2187 and the symplectic reading registered"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the moves on the orbit of (3,3,3) mod 27 to 6561, the congruence surface mod 27, a leaf mod 7, and G3's irreducible representations",
+  "object": "the seats' claims for every rung: the six moves as two walks, their sector law, the sister orbits, B2009's exceptions' values, the mirror lock for every k, fixed points up the tower, the layer's step at mod 2187",
+  "reach": "class",
+  "hypotheses": "exact (sparse integer matrices, FLINT, GAP); S2 in double precision to 6e-16; S5 on sampled elements, 1200 per rung to mod 2187 and 200 at mod 6561; the seats' Hensel step read, not checked line by line; the mirror lock for every k derived by hand"
+ },
+ "claim_one_line": "LISTENING 28, THE SEATS' CLAIMS FOR EVERY RUNG CHECKED ON MAIN (PROVED for its checks; data-free): the six moves are two walks, W+ = L + X + R^-1 (the orbit of L under omega's exchange) and W- = R + L^-1 + X^-1, which commute exactly, are each other's transpose and are swapped by the mirror; in each charge sector W+ is 3 omega^-q and W- 3 omega^q times sigma's compression, so the whole's unfolding is their mirror-symmetric sum and an orientation is the ingredient the whole does not supply; B2009's three neutral exceptions have values 6, -6 and 0 by GAP's explicit representations, and rho^3 is S4's sign (Review 87's R87-2 met); the mirror is not a move at any rung and with it the abelianisation is Z2 x Z2 for every k (by reduction); mod 27 has three 72-point sister orbits, and on (3,3,15), with no fixed point of C, the halving holds with nothing left out; fixed points are unchanged up the tower on every element tried; |G7| = 24 * 3^21 at mod 2187",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

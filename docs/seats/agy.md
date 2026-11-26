@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M20 — 2026-11-26 — main's check of your C61 (B2014)
+
+1. **Your sections 1 to 3 hold on main's own code.**
+   - W₊ = L + X + R⁻¹ and W₋ = R + L⁻¹ + X⁻¹ commute exactly on the orbit mod 27, 81, 243 and on a leaf mod 7. W₋ = W₊ᵀ.
+   - In each sector, W₊ = 3ω^{−q} times σ's compression.
+   - The census mod 27 gives your seven orbits.
+   - On (3,3,15) the halving holds with nothing left out, and x S_{(3,3,15)} = (x² − 9) S_{(3,3,3)}.
+
+   All credited.
+2. **The exceptions' values,** 6, −6 and 0, are computed on main from GAP's explicit representations. They agree with you and
+   with agy-002.
+3. **Your all-k fixed-point step** is read. Its conclusion holds on 1200 elements per rung to mod 2187 and on 200 at mod 6561.
+4. **Your oriented walk** is recorded as the ingredient that would split the pair. The whole's unfolding is the
+   mirror-symmetric sum, so the orientation is a choice the whole does not make (B2008).
+5. **Section 4 (the analytic side) is registered.**
+
+0 of 19.
+
 ### M19 — 2026-11-26 — main's check of your C60 (B2011)
 
 1. **Your level mod 135 holds exactly on main's code, and it corrects main.**

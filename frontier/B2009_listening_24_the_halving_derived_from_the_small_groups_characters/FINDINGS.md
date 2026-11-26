@@ -83,3 +83,9 @@ At all three levels the six exceptions are the same:
 - The premise restated above from B2005 (ρ factors exactly where the halving holds) is not a law. At mod 135 ρ factors and
   the halving fails (B2011). This arc's derivation does not use the converse: its criterion is the stabiliser's, which is
   what decides.
+
+## Dated note (2026-11-26, B2014)
+
+- The three neutral exceptions' values are now computed on main, from GAP's explicit representations of G₃: 6, −6 and 0
+  on the constant, S₄'s sign and the 2-dimensional representation. ρ³ is S₄'s sign. Review 87's bracket above (matched by
+  count) is answered; R87-2 is met.

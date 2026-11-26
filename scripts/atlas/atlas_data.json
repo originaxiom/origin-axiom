@@ -18859,6 +18859,34 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B2014": {
+   "slug": "listening 28 the seats claims for every rung checked on main",
+   "motifs": [
+    "closing",
+    "action",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "markov_cubic"
+   ],
+   "refs": [
+    "L1",
+    "L3",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B201": {
    "slug": "silver sl3 charvar",
    "motifs": [

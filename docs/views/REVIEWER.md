@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1710** |
-| words of findings prose | **1,571,039** |
+| research arcs with findings | **1711** |
+| words of findings prose | **1,572,245** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1710** (100.0 %) |
+| arcs carrying an authored verdict | **1711** (100.0 %) |
 | recorded closures | **863** (692 classified, 171 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1203 |
+| PROVED | 1204 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2013`** (1715 words, 0 locks)  
-“REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in eight of the ten arcs read; main checked each on the live tree and mended it -- B1980's withdrawn S-failure struck from its verdict line, body and lock labels, B1983's split and connectivity counts, B1993's and B2008's readings marked as readings and B1993's lock made to rerun, B1995's basis-dependent row and per-move normalisation, B1996's caveats and lock, B2004's scope, B2009's mode assignment marked as by count, B2011's and B2012's patterns scoped to the cases run; the review opened late (40 landings, not 34), main's miss; anchor 36f9cc5c2”  
-`B2013_review_87_entered_seven_of_eight_plants_caught_and_the_window_mended/FINDINGS.md`
+**PROVED — `B2014`** (1155 words, 0 locks)  
+“LISTENING 28, THE SEATS' CLAIMS FOR EVERY RUNG CHECKED ON MAIN (PROVED for its checks; data-free): the six moves are two walks, W+ = L + X + R^-1 (the orbit of L under omega's exchange) and W- = R + L^-1 + X^-1, which commute exactly, are each other's transpose and are swapped by the mirror; in each charge sector W+ is 3 omega^-q and W- 3 omega^q times sigma's compression, so the whole's unfolding is their mirror-symmetric sum and an orientation is the ingredient the whole does not supply; B2009's three neutral exceptions have values 6, -6 and 0 by GAP's explicit representations, and rho^3 is S4's sign (Review 87's R87-2 met); the mirror is not a move at any rung and with it the abelianisation is Z2 x Z2 for every k (by reduction); mod 27 has three 72-point sister orbits, and on (3,3,15), with no fixed point of C, the halving holds with nothing left out; fixed points are unchanged up the tower on every element tried; |G7| = 24 * 3^21 at mod 2187”  
+`B2014_listening_28_the_seats_claims_for_every_rung_checked_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

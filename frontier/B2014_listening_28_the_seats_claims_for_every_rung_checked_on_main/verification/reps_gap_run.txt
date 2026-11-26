@@ -1,0 +1,12 @@
+G3: order 216; the stabiliser of (3,3,3): order 3
+irreducible representations: 19
+the irreducibles with m != m' (degree, m, m', C-neutral dimension, neutral value 6<v, pi(sigma) v>/<v, v>):
+    1 1 0 1 6
+    1 1 0 1 -6
+    1 0 1 0 None
+    1 0 1 0 None
+    2 1 0 1 0
+    2 0 1 0 None
+count with m != m': 6; of them with a C-neutral line: 3; their neutral values: ['-6', '0', '6']
+paired irreducibles (m = m') with a C-neutral line, a sample of their values: ['-2', '-4', '0', '2', '4']
+G2 on the 8 points mod 9: order 24, isomorphic to Sym(4): True; sign of C's image 1, of sigma's image -1 (rho^3 is C -> 1, sigma -> -1)
