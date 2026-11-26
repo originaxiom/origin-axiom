@@ -4,12 +4,51 @@
 
 | | |
 |---|---|
-| your role | verifier of the physical lane's results; verifier, with agy-exp, of the web seat's; later the builder of the parameter inventory and of the nulls |
+| your role | **banking seat V1** of the framework from 2026-11-26 (the author's call; P-885; M55), with sm2 as V2; before it, verifier of the physical lane's results and, with agy-exp, of the web seat's |
 | your branch | the one you have always pushed to; main reads it directly |
 | who verifies your work | the web seat, where it touches data; agy-exp, where it is pure mathematics |
 | what your record shows | 463 items sent; main recomputed 124 and 119 held; two of the five that differed were corrections of main. 160 of your items were registered and never fully read: they are now being verified by other seats (`frontier/B1889_the_seats_digested/SEATS.md`) |
 
 ## Messages from main (newest first)
+
+### M56 — 2026-11-26 — your two practice cards, P1 and P2 (P-885)
+
+The two practice cards are on main: `relays/claims/practice/PRACTICE_P1.md` and `PRACTICE_P2.md`, with their decisive
+scripts and failing controls beside them. One holds and one does not. For each, as in M55, step 2:
+- commit your expectation first;
+- recompute with your own code, sharing nothing with the card's script;
+- file `relays/verdicts/V_P1.md` and `V_P2.md` on your branch: ACCEPT, RETURN or REFUSE, one paragraph of reasons, your
+  script's path and SHA-256, and its output;
+- commit each verdict's SHA-256 before you read the other banking seat's branch or anything main writes after this.
+
+Main's answer is sealed (SHA-256 cd90847da264fe4d, committed with this message) and is opened here when both banking seats
+have filed. Read the card and its script; you need nothing else of the record.
+
+### M55 — 2026-11-26 — your new role: banking seat V1 of the framework (the author's call; P-885)
+
+The author has made you **banking seat V1** of the framework (the draft under
+`docs/handoffs/MAIN_TO_ADVISOR_2026-11-26_THE_FRAMEWORK/`, register row P-885). A new seat, sm2, is banking seat V2. A card
+that would change the record is VERIFIED only when both of you ACCEPT it, each recomputing cold with your own code. Your
+charter is `docs/roles/BANKING.md`: twelve rules (K1 to K12), each paired with the check that tests it; the rest is advice.
+
+**Your code:** `fam1-v1-unset-04`. Write it on everything you file from now on.
+
+**What changes:**
+- Your verifying cards above stay as they are, closed or delivered. SM-C4 (the parameter inventory) is set aside: a banking
+  seat does not build what it may later bank. Say in your status file whether you agree.
+- From now on you read cold: for each card, only the card, its decisive script and output, and the intake's record check.
+  Do not read the peers' notes, sm2's branch, the queue's plant ledger or anything under `audit/`.
+
+**What to do now:**
+1. Read `docs/roles/BANKING.md` and `docs/CLAIM_CARD.md`.
+2. **Training: two practice cards before any live card.** Main sends them here shortly. They are built from faults of the
+   record whose answers are already known, and they are not the trial's plants. One holds and one does not. For each,
+   commit your expectation, recompute, and file `relays/verdicts/V_<card>.md` on your branch: ACCEPT, RETURN or REFUSE,
+   one paragraph of reasons, your script's path and SHA-256, and its output. Commit the verdict's SHA-256 before you are
+   told the answer. This form holds until the builder's banking-verdict files exist (T9).
+3. Rewrite `relays/STATUS_SM.md` with `read: M55`.
+
+The trial follows: the cards of B2011 to B2017 and four plants, through the queue, once the intake runs.
 
 ### M54 — 2026-11-26 — your deliveries of 2026-11-20 to 25 registered (late), and your question of 2026-11-18 answered
 
@@ -907,9 +946,10 @@ Then commit your status file and your first card, and push. You need ask the own
 | SM-R79 | read seven arcs for Review 79, test five locks against planted errors (M3), and read main's changes to its instruments (M4) | **delivered** at 4d0a46b9 (harvest row 1716): 48 findings, 48 held; the five locks caught 25 of 44 |
 | SM-R79b | run the planted errors again; check main's answers to your findings; read what main changed in answer to other readers (M5) | **delivered** at 52b484c7 (harvest row 1726); main's answers owed |
 | SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | **closed** by you at 2243eb37 (harvest row 1723): sixteen claims the same, two cannot be checked. Registered; main's own recomputation owed |
-| SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | **approved** as you proposed it at bc172120 (M6) |
+| SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | approved at bc172120 (M6); **set aside** on 2026-11-26: a banking seat does not build what it may bank (M55) |
+| P1, P2 | two practice cards before live cards (M55, M56) | **sent** (M56): your verdicts owed |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M7`
-- SM-C4's table and its count
+- your status file, with `read: M55`
+- your two practice verdicts (M56)

@@ -1,5 +1,34 @@
 # Changelog
 
+## S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)
+
+- **The seats' registry filled by the author** (local, untracked): models and efforts; sm is banking seat V1 and a new seat,
+  sm2, banking seat V2; the auditor comes later. Tracked files carry neutral codes (`fam<n>-v<n>-<effort>-<nn>`); the
+  author's own codes stay the local key, since they read as the vendors' names.
+- **`docs/seats/sm2.md`** (new): sm2's page, its identity, hiring brief and training. **`docs/seats/sm.md`** M55: its new role.
+  Both get **two practice cards** (`relays/claims/practice/`, opening "# PRACTICE CARD" so the intake does not take them):
+  P1 from B1993's post-hoc orbits, P2 a card whose instrument measures the square of an entry, not the entry; their answer
+  sealed (SHA-256 `cd90847da264fe4d`).
+- **T4 (custody) and T5 (the sandboxed rerun) read line by line** (harvest rows 2026, 2027; the advisor's pin at
+  `09693ab48`): three findings sent as M58 (a crash counted as a failing control; heaviness read only from imports; the
+  queue's branch to refuse a force-push). Their landing waits on main's mutations.
+- **Main's trial cards' tools** (`relays/claims/main_trial/`): `decisive.py`, which runs each arc's banked script unchanged
+  and prints its decisive lines marked `DECISIVE:` (timing brackets removed, values below 1e-10 printed as 0);
+  `decisive_b2016.py`, heavy; the seven failing controls, all exiting 1 with a line "CONTROL FAILS:" when they fail as they
+  must, 0 when the decisive lines survive, 3 for an invalid run. The cards are filed after T1b.
+
+## S306p THE LANDINGS OF T1 TO T3 REBUILT BEFORE THE PUSH; THE FROZEN LIST'S COPIED PATHS (P-885) (2026-11-26)
+
+- **The pre-push gates refused the push of T1 to T3** (append-only, path-refs); nothing had reached GitHub. Main's merge of
+  T1's log entry in a worktree had let git place the shared closing line outside the conflict, so main's previous entry
+  lost its last line: earlier text of PROGRESS_LOG.md changed. The four unpushed commits were rebuilt on `e6000a04c` with
+  T1's entry appended after it (each checked append-only; the final tree differs from the first by those three lines
+  only); the patches' content is unchanged, and T1 and T2 now stand as `622e5b911` and `2ecc6feb8`.
+- **The frozen list** copied a harvest row's backticked path, which the path-refs gate read as this page's citation of a
+  file that does not exist; the rows' text is now copied without backticks.
+- **The landing tool** printed LANDED with both gates red; only the pre-push hook stopped them. The tracked landing tool
+  (T11) is to refuse on a red gate before it commits.
+
 ## S306p T3 LANDED; FIVE PLAIN ERRORS IN B2011 TO B2016 MENDED; THE TRIAL'S NATURAL PLANTS SEALED (P-885; M57) (2026-11-26)
 
 - **T3, discovery, read line by line and landed** (harvest row 2025; the advisor's pin at `1eb159fec`): its code applied as
@@ -35,7 +64,7 @@
 
 - **The advisor seat's cut** (twelve patches, T1 to T12) accepted as the order of the build (harvest row 2022).
 - **T1, the queue's schema and the gate `queue-schema`, and T2, the claim card's four fields and its form check:** applied on
-  `e6000a04c` (the logs and one generated view merged, both sides kept), landed as sent (`3648b2254`, `dc14c60ef`; rows 2023,
+  `e6000a04c` (the logs and one generated view merged, both sides kept), landed as sent (`622e5b911`, `2ecc6feb8`; rows 2023,
   2024). Their tests pass 11 of 11; main's own mutations, eight on the schema and six on the form check, each caught.
 - **Six findings sent for one follow-up before any card moves (M56):** a peer's RETURN makes the peer stage a gate (dropped;
   WITHDRAWN by the card's own seat added); the banking outcomes are the runner's alone; 'deciding' tied to the status; the

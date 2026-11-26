@@ -20322,3 +20322,23 @@ other doubts, mostly claims worded wider than what was computed and checks that 
 trial as real faults the banking seats are not told of, sealed, and will be mended after it.
 
 0 of 19.
+
+## 2026-11-26 — A push refused by the gates, and the landings rebuilt before anything left the machine (S306p)
+
+**What happened.** The checks that run before every push refused the landings of the three new pieces. Main's merge of one
+log entry had dropped the last line of the entry before it, and the logs may only grow. A list main generated also carried
+a file path copied from an old row, which read as a citation of a missing file. Nothing had been pushed, so main rebuilt the
+unpushed commits with the entry added properly, checked each, and fixed the list. The landing script had reported both
+checks red and committed anyway; the landing tool being built will refuse in that case.
+
+0 of 19.
+
+## 2026-11-26 — The two banking seats briefed and given practice cards (S306p)
+
+**What happened.** The author filled in the list of seats and named the two seats that will bank results: the seat that
+verified the physical lane, and a new seat started today. Main wrote each its page: its role, the rules it keeps, and two
+practice cards to train on before any real card, one true and one with a planted fault whose answer main has sealed. Main
+also read the building seat's next two pieces (the record of when a card was first seen, and the rerun in a sandbox cut off
+from the network) and sent three gaps back. The tools for main's own seven trial cards are written.
+
+0 of 19.
