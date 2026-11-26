@@ -3524,6 +3524,59 @@ def gate_negative_second_computation(reader=None):
     return True, "ok (every NEGATIVE verdict from B%d on names a second computation or says PROVISIONAL, and its page says what the wall teaches)" % NEGATIVE_SECOND_FROM_ARC
 
 
+# R81-3 (Review 81's item, carried from R80-13 and R79-13; register rows P-810 and P-881; main's M48 to the building
+# session, 2026-11-24): the schema's test of the verdict files, made a gate. P-810 found eleven verdict files pushed that
+# break the schema, because the test was not a gate and a landing ran only the locks it touched. The gate runs the test's
+# own checks (tests/test_arc_verdict_schema.py: test_schema on every verdict file, the census floor, and the kill graph's
+# scope tags), so the rule stands in one place and the gate cannot drift from it.
+VERDICT_SCHEMA_TEST = "tests/test_arc_verdict_schema.py"
+
+
+def _verdict_schema_test():
+    import importlib.util as _ilu
+    spec = _ilu.spec_from_file_location("arc_verdict_schema_for_the_gate", os.path.join(ROOT, VERDICT_SCHEMA_TEST))
+    m = _ilu.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+def verdict_schema_problems(files=None, kill_graph=True):
+    """what the schema's test refuses: a line per verdict file that fails test_schema, the census below its floor, and
+    the kill graph's entries without a scope tag"""
+    m = _verdict_schema_test()
+    files = m.FILES if files is None else files
+    bad = []
+    if files is m.FILES:
+        try:
+            m.test_verdict_files_exist()
+        except AssertionError as exc:
+            bad.append(str(exc) or "the census of verdict files is below its floor")
+    for p in files:
+        try:
+            m.test_schema(p)
+        except AssertionError as exc:
+            bad.append(str(exc).split("\n")[0][:160] or os.path.basename(os.path.dirname(str(p))))
+        except Exception as exc:                          # unreadable JSON is a schema failure too
+            bad.append("%s: unreadable (%s)" % (os.path.basename(os.path.dirname(str(p))), type(exc).__name__))
+    if kill_graph:
+        try:
+            m.test_kill_graph_entries_carry_a_scope_from_b1454()
+        except AssertionError as exc:
+            bad.append(str(exc).split("\n")[0][:160])
+    return bad
+
+
+def gate_verdict_schema(_files=None):
+    """R81-3: every verdict file passes the schema's test, read by the test's own code"""
+    try:
+        bad = verdict_schema_problems(_files, kill_graph=_files is None)
+    except Exception as exc:                              # FAIL-CLOSED: a test that cannot be loaded checks nothing
+        return False, "the schema's test cannot be loaded: %s" % exc
+    if bad:
+        return False, "%d verdict file(s) break the schema: " % len(bad) + "; ".join(bad[:5])
+    return True, "ok (every verdict file passes %s's checks)" % VERDICT_SCHEMA_TEST
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -3579,6 +3632,7 @@ GATES = {
     "member-scope": gate_member_scope,
     "seat-positive-verified": gate_seat_positive_verified,
     "negative-second-computation": gate_negative_second_computation,
+    "verdict-schema": gate_verdict_schema,
     "selection-family": gate_selection_family,
     "public-face": gate_public_face,
 }

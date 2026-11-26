@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)
+
+- **Built as a patch by the building session** at main's M48, the first of the series for the review loop's long-carried items (register row P-881).
+- **The gate `verdict-schema`** runs `tests/test_arc_verdict_schema.py`'s own checks on every verdict file (the required fields, the verdict enum, the booleans, the id, the identifications and the scope tag) and on the kill graph's scope tags; the rule stands in one place.
+- **Its failing paths** `tests/test_verdict_schema_gate.py`, registered in `tests/GATE_CONTROLS.json`: the control (a scope key the schema does not have, as P-810's eleven had) with its twin, and one planted file per rule.
+- **The register of practices** has the gate's section.
+- **Verified by main before landing** (2026-11-26): read line by line; applied to a clean worktree of `6fbc5a294` (the patch's code, tests, practice and log; its README and view lines left to the views' rebuild); its three tests fail 3 of 3 without the gate's code and 2 of 3 with the gate made blind; the gate registry's and failing paths' tests pass (90 of 90); the gate passes on the record in 0.5 s.
+
 ## S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)
 
 - **Built as a patch by the building session** at main's card C17, after main verified both statements on its own code (B1906, sections 3a and 3b). Every statement of mathematics in the notes is a quotation of B1906 or of the register; none is the builder's, and no old word is changed.

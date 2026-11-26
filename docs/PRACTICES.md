@@ -1537,3 +1537,14 @@ an authority had confirmed it.
   p_neutral(2x) = 2^d (x² − 9) x S(x) settled it.
 - **B2005:** the group orders that shaped its card were computed before the card. The card states this. Of its
   predictions beyond the exploration's reach, the order at mod 243 failed as worded.
+
+## A verdict file passes the schema's test before it lands — GATED (`verdict-schema`) (adopted 2026-11-26, Review 81's item R81-3; register rows P-810 and P-881; built by the building session at main's M48)
+
+**The rule:** every `frontier/*/arc_verdict.json` passes `tests/test_arc_verdict_schema.py`: the required fields, the
+closed verdict enum, `instrument` and `creates_law` as booleans, the id matching its folder, the identifications from
+B1231 on and the scope tag from B1454 on, and the kill graph's scope tags. **The gate** runs that test's own checks on
+every verdict file, so the rule stands in one place. Its failing paths are `tests/test_verdict_schema_gate.py`.
+
+**Why it exists.** P-810: the full suite of Review 79 found eleven verdict files landed in one window with scope keys the
+schema does not have; the test refused them, but it was not a gate, and a landing ran only the locks it touched. Until
+now main ran it by hand at every landing that added or changed a verdict file.

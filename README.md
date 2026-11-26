@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1714: 1207 PROVED, 388 NEGATIVE, 106 OPEN, 13 RETRACTED |
 | points in the register | 885: 311 open (queued work, leads, and questions not yet decided), 574 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | 2026-11-13; its entry heads `CHANGELOG.md` (the working record) |
+| the last landing | 2026-11-26; its entry heads `CHANGELOG.md` (the working record) |
 <!-- STATE:END -->
 
 ## Start here

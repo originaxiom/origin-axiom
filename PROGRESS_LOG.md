@@ -20218,3 +20218,12 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None. The work was on how the record is kept and checked.
 
 0 of 19.
+
+## 2026-11-26 — The check of every verdict file's form now runs at every landing (S306p)
+
+**What happened.** Each arc of the record carries a small verdict file in a fixed form. A test checked that form, but
+it ran only when someone ran the whole suite, and in one window eleven files that broke it were landed. The building
+session made that test's checks an automatic gate, so a landing that adds a malformed verdict file is now refused. It
+was long-carried review item R81-3.
+
+0 of 19.
