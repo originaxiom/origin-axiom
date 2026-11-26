@@ -1,5 +1,15 @@
 # Changelog
 
+## S306p THE BACKLOG BEHIND THE FRAMEWORK ESCALATED BY DATE (P-885) (2026-11-27)
+
+- **The pre-push gates refused the push of T1b, T6 and M62** when the date rolled to 2026-11-27: four register rows and six
+  relays of 2026-11-04 and 05 had passed 21 days. Looked ahead, 44 more rows would pass it within the week.
+- **All 48 rows and the six relays escalated by date** with their true state: set aside behind the framework and its trial by
+  the author's order of work of 2026-11-26 (P-885). The next step is named per row: a claim card through the queue after
+  the trial (the physics, the author's own direction questions), or Review 88 and the builder's parked packages (the
+  process items); the six relays close at the trial's end unless a seat answers with a card.
+- **Owed before 2026-12-04:** P-326 and P-589 cite audit-room drafts, to land or decline (rule 9).
+
 ## S306p T7 READ AND HELD; T8 READ; THE AUTHOR'S SETTINGS RELAYED (P-885; M62) (2026-11-27)
 
 - **T7 (the intake runner and its workflow) held for T7b** (harvest row 2031): its tests pass 5 of 5 and its one tracked

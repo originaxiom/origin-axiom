@@ -20418,3 +20418,12 @@ the runner back until that is closed. The settings the author makes on GitHub (n
 the queue's branch protected) were relayed; the workflow goes live only after both.
 
 0 of 19.
+
+## 2026-11-27 — The old backlog marked as waiting behind the framework (S306p)
+
+**What happened.** At midnight the checks that run before a push began refusing it: rows of the register from early
+November had waited more than three weeks. They wait because the author set the order of work: build the framework and run
+its trial first. Main marked each with that reason and its next step, dated, so the checks pass and nothing is hidden; the
+author's own open questions among them are listed for him, and he can bring any forward.
+
+0 of 19.
