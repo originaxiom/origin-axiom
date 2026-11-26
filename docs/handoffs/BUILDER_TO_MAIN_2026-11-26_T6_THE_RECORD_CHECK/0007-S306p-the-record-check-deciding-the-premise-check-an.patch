@@ -1,0 +1,372 @@
+From c31fe3af600beae56dc851adfb369bbb141d7228 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 26 Nov 2026 22:26:53 +0000
+Subject: [PATCH] S306p the record check, deciding, the premise check and the
+ firewall's flag (the framework's thin path, T6; P-885; main's M55's D6 and
+ A3): scripts/queue/record_check.py sweeps the record on the runner's own
+ terms (the topic sweep and the already-banked check), finds premise arcs
+ RETRACTED or superseded and retracted phrases on the card, computes deciding
+ from what the card touches, waits on premise cards that are not VERIFIED, and
+ flags words of a comparison with data to the author; tests fail with each
+ rule removed
+
+---
+ CHANGELOG.md                     |  10 ++
+ PROGRESS_LOG.md                  |  10 ++
+ docs/views/CONTEXT_RECOVERY.md   |   2 +-
+ docs/views/THE_SPINE.md          |   3 +-
+ scripts/queue/record_check.py    | 157 +++++++++++++++++++++++++++++++
+ tests/test_queue_record_check.py |  98 +++++++++++++++++++
+ 6 files changed, 278 insertions(+), 2 deletions(-)
+ create mode 100644 scripts/queue/record_check.py
+ create mode 100644 tests/test_queue_record_check.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 2cf573b7a..836016967 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,15 @@
+ # Changelog
+ 
++## S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)
++
++- **`scripts/queue/record_check.py`:** for one card, on the record in the checkout: the sweep's terms the runner's own (the
++  codes, rows, identifications and arcs the card names, and the title's long words; the card's own sweep line kept as the
++  producer's claim); the topic sweep and the already-banked check on them; every premise arc that is RETRACTED or
++  superseded, and every retracted phrase the card uses; "deciding", computed from what the card touches and its effect;
++  door rule D6, the queue's premise cards that are not VERIFIED, waited on; the author's rule A3, words of a comparison
++  with data or a sealed look, a flag to the author, never a return. Prints the attachment; the runner (T7) decides the move.
++- **New test** `tests/test_queue_record_check.py` (6 tests); each rule's removal makes one fail.
++
+ ## S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)
+ 
+ - **The queue's moves (M56):** a peer's note no longer sends a card back (PEERED to RETURNED is gone); WITHDRAWN, from any
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 53715454d..661105ca8 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20379,3 +20379,13 @@ only the runner records what banking decided, so no one can mark a card verified
+ second command counts as failing only when it fails cleanly, not when it crashes; and a card may say its script is heavy.
+ 
+ 0 of 19.
++
++## 2026-11-26 — The record check: what the record already says about a card (S306p)
++
++**What happened.** The building seat sent the thin path's sixth patch. For each claim card the intake now searches the
++record with its own terms, not the producer's: what arcs and register rows already speak of it, whether anything it rests on
++was retracted or replaced, and whether it uses a phrase the record has withdrawn. It works out whether the card decides
++anything, makes a card wait while a card it builds on is not yet verified, and flags to the author any words of a
++comparison with data.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index cb5cc69d4..f6554d480 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)”
+ - “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
+ - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
+ - “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
+@@ -60,7 +61,6 @@
+ - “S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)”
+ - “S306p THE LANDINGS OF T1 TO T3 REBUILT BEFORE THE PUSH; THE FROZEN LIST'S COPIED PATHS (P-885) (2026-11-26)”
+ - “S306p T3 LANDED; FIVE PLAIN ERRORS IN B2011 TO B2016 MENDED; THE TRIAL'S NATURAL PLANTS SEALED (P-885; M57) (2026-11-26)”
+-- “S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 1d4853e19..a5fadaadd 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1564 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1565 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1943,6 +1943,7 @@ Generated by `scripts/views/spine.py` — 1564 locks. Regenerated with the views
+ - — `test_card_form.py` 
+ - — `test_queue_custody.py` 
+ - — `test_queue_discover.py` 
++- — `test_queue_record_check.py` 
+ - — `test_queue_rerun.py` 
+ - — `test_queue_schema.py` 
+ - — `test_verdict_schema_gate.py` 
+diff --git a/scripts/queue/record_check.py b/scripts/queue/record_check.py
+new file mode 100644
+index 000000000..7192d716b
+--- /dev/null
++++ b/scripts/queue/record_check.py
+@@ -0,0 +1,157 @@
++#!/usr/bin/env python3
++"""The record check, "deciding", the premise check and the firewall's flag (the framework's thin path, patch T6; draft 1
++§ 9; main's M54 and M55; register row P-885).
++
++For one card, on main's record as it stands in this checkout, the runner computes and attaches:
++
++  terms        the sweep's terms, the runner's own: the codes, register rows, identifications and arcs the card's
++               `touches` and `premises on main` name, and the long words of its title. The card's own sweep line
++               (`already on main?`) is kept as the producer's claim and is not used.
++  topic        scripts/checks/topic_sweep.py on those terms: its VERDICT line, and the arcs and rows it names.
++  banked       scripts/checks/already_banked.py on the title's words: whether settled or scheduled material exists.
++  retracted    every premise arc whose verdict is RETRACTED or that a later arc supersedes; and every phrase of
++               docs/RETRACTED_PHRASES.md the card uses.
++  deciding     true when the card touches a code of the inputs scoreboard, an identification row (I-n), a register row
++               (P-n) or one of the 19 by name, and its effect is not none (the draft: what moves a register item, a
++               row of the record, or one of the 19). Computed here, not declared by the card.
++  waits_on     door rule D6: the queue's cards (Q<nnnn>) the card names among its premises that are not VERIFIED. A card
++               that waits stays where it is until each is VERIFIED; none of the record's arcs is waited on here, since an
++               arc on main is the record (its own verdict is read under `retracted`).
++  firewall     the author's rule A3: words of a comparison with data, or of a sealed look, on the card. A FLAG to the
++               author, never a return: the runner cannot tell a comparison from a mention, and the plants measure it.
++
++It returns nothing to the seat by itself: the runner (T7) reads `retracted`, `waits_on` and `firewall` and decides the move.
++
++    python3 scripts/queue/record_check.py CARD.md [--queue queue/cards]      # prints the attachment as JSON
++"""
++import importlib.util
++import json
++import pathlib
++import re
++import subprocess
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[1]
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++CF = _load("card_form_for_the_record_check", HERE / "card_form.py")
++SCOREBOARD = re.compile(r"\b(A0[1-9]|A1[0-2]|F[1-4]|S0[1-3]|LAMBDA)\b")
++IDENT = re.compile(r"\bI-\d+\b")
++ROW = re.compile(r"\bP-\d+\b")
++ARC = re.compile(r"\bB(\d{1,4})\b")
++QCARD = re.compile(r"\bQ\d{4,}\b")
++# the 19, by name, as scripts/checks/seat_intake.py reads them
++NINETEEN = re.compile(r"\b(mass|mixing|CKM|PMNS|theta|coupling|Higgs|weak angle|Yukawa|lepton factor)\b", re.I)
++# words of a comparison with data or of a sealed look (A3); a flag, measured by the plants
++FIREWALL = re.compile(r"\b(PDG|Particle Data|CODATA|measured value|experimental(ly)?|observed value|compared? (it )?with "
++                      r"(the )?data|against (the )?data|fit(ted)? to data|sealed look|unseal(ed|ing)?)\b|±", re.I)
++STOP = {"which", "their", "there", "these", "those", "about", "under", "every", "after", "before", "between", "within",
++        "where", "while", "would", "could", "should", "other", "being", "level", "levels"}
++
++
++def terms(fields, title):
++    """the runner's sweep terms: (codes and rows and arcs, the title's long words)"""
++    named = fields.get("touches", "") + " " + fields.get("premises on main", "")
++    codes = sorted(set(SCOREBOARD.findall(named)) | set(IDENT.findall(named)) | set(ROW.findall(named))
++                   | {"B%s" % n for n in ARC.findall(named)})
++    words = [w for w in re.findall(r"[A-Za-z][A-Za-z-]{4,}", title) if w.lower() not in STOP]
++    return codes, sorted(set(w.lower() for w in words))[:6]
++
++
++def deciding(fields):
++    touches, effect = fields.get("touches", ""), fields.get("effect", "")
++    if touches.strip().lower() == "none" or effect.strip().lower() == "none":
++        return False
++    return bool(SCOREBOARD.search(touches) or IDENT.search(touches) or ROW.search(touches) or NINETEEN.search(touches))
++
++
++def _run(root, *argv):
++    r = subprocess.run([sys.executable, "-B", *argv], cwd=root, capture_output=True, text=True, timeout=600)
++    return r.stdout
++
++
++def topic(root, codes, words):
++    if not codes and not words:
++        return {"verdict": "no terms", "matches": []}
++    rx = "|".join(re.escape(t) for t in codes + words)
++    out = _run(root, "scripts/checks/topic_sweep.py", rx, "--limit", "20")
++    lines = out.strip().splitlines()
++    verdict = next((l for l in reversed(lines) if l.startswith("VERDICT")), lines[-1] if lines else "no output")
++    matches = sorted(set(re.findall(r"\b(B\d{1,4}|P-\d+)\b", out)))
++    return {"regex": rx, "verdict": verdict, "matches": matches}
++
++
++def banked(root, words):
++    if not words:
++        return {"settled_or_scheduled": None, "lines": []}
++    out = _run(root, "scripts/checks/already_banked.py", *words)
++    return {"settled_or_scheduled": "SETTLED OR SCHEDULED MATERIAL EXISTS" in out,
++            "lines": [l.strip()[:200] for l in out.strip().splitlines()[-3:]]}
++
++
++def retracted(root, fields, text):
++    out = {"premises": [], "phrases": []}
++    for n in sorted(set(ARC.findall(fields.get("premises on main", ""))), key=int):
++        for v in sorted(pathlib.Path(root, "frontier").glob("B%s_*/arc_verdict.json" % n)):
++            try:
++                d = json.loads(v.read_text(encoding="utf-8"))
++            except ValueError:
++                continue
++            if d.get("verdict") == "RETRACTED":
++                out["premises"].append("B%s is RETRACTED" % n)
++            if d.get("superseded_by"):
++                out["premises"].append("B%s is superseded by %s" % (n, d["superseded_by"]))
++    rs = _load("retraction_sweep_for_the_record_check", pathlib.Path(root) / "scripts" / "checks" / "retraction_sweep.py")
++    registry = pathlib.Path(root, "docs", "RETRACTED_PHRASES.md")
++    if registry.is_file():
++        low = text.lower()
++        out["phrases"] = [p for p in rs.phrases_in(registry.read_text(encoding="utf-8")) if p and p.lower() in low]
++    return out
++
++
++def waits_on(fields, queue):
++    """D6: the queue's cards among the premises that are not VERIFIED (a card the queue does not hold is waited on too)"""
++    named = sorted(set(QCARD.findall(fields.get("premises on main", ""))))
++    return [q for q in named if (queue.get(q) or {}).get("status") != "VERIFIED"]
++
++
++def firewall(text):
++    return sorted(set(m.group(0).strip() for m in FIREWALL.finditer(text)))
++
++
++def check(root, card_text, queue=None):
++    """the attachment for one card"""
++    title, fields, _ = CF.read(card_text)
++    codes, words = terms(fields, title or "")
++    return {"terms": {"codes": codes, "words": words},
++            "producer_sweep": fields.get("already on main?", ""),
++            "topic": topic(root, codes, words),
++            "banked": banked(root, words),
++            "retracted": retracted(root, fields, card_text),
++            "deciding": deciding(fields),
++            "waits_on": waits_on(fields, queue or {}),
++            "firewall": firewall(card_text)}
++
++
++def main(argv):
++    if not argv:
++        print(__doc__)
++        return 1
++    qdir = pathlib.Path(argv[argv.index("--queue") + 1]) if "--queue" in argv else ROOT / "queue" / "cards"
++    queue = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in sorted(qdir.glob("Q*.json"))} if qdir.is_dir() else {}
++    res = check(ROOT, pathlib.Path(argv[0]).read_text(encoding="utf-8"), queue)
++    print(json.dumps(res, indent=1, ensure_ascii=False))
++    return 0
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tests/test_queue_record_check.py b/tests/test_queue_record_check.py
+new file mode 100644
+index 000000000..2f069f461
+--- /dev/null
++++ b/tests/test_queue_record_check.py
+@@ -0,0 +1,98 @@
++"""2026-11-26 (the framework's thin path, patch T6; main's M54 and M55; register row P-885): the record check,
++scripts/queue/record_check.py.
++
++"deciding" is computed from what the card touches and its effect, planted case by case; a premise card that is not
++VERIFIED is waited on (door rule D6); words of a comparison with data raise the firewall's flag (the author's rule A3);
++a premise arc that is RETRACTED or superseded, and a retracted phrase on the card, are found on the record itself; the
++sweep's terms are the runner's, not the producer's line; the topic sweep and the already-banked check run on the record;
++the command runs by hand."""
++import glob
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++_spec = importlib.util.spec_from_file_location("record_check_under_test", ROOT / "scripts/queue/record_check.py")
++RC = importlib.util.module_from_spec(_spec)
++sys.dont_write_bytecode = True
++_spec.loader.exec_module(RC)
++
++CARD = """# CLAIM CARD — the classes at level five of the figure-eight cover, counted
++
++- card id: new
++- seat code: fam2-v5-high-01
++- touches: {touches}
++- effect: {effect}
++- premises on main: {premises}
++- already on main?: none found
++"""
++
++
++def _card(touches="P-885", effect="supports — P-885", premises="none"):
++    return CARD.format(touches=touches, effect=effect, premises=premises)
++
++
++def _fields(**kw):
++    return RC.CF.read(_card(**kw))[1]
++
++
++def test_deciding_is_computed_from_what_the_card_touches():
++    for touches, want in (("P-885", True), ("I-26", True), ("A03", True), ("the Higgs mass", True),
++                          ("B2011", False), ("none", False), ("a lemma of the record", False)):
++        effect = "none" if touches == "none" else "supports — " + touches
++        assert RC.deciding(_fields(touches=touches, effect=effect)) is want, touches
++    assert RC.deciding(_fields(touches="P-885", effect="none")) is False
++
++
++def test_a_premise_card_that_is_not_verified_is_waited_on_d6():
++    f = _fields(premises="B2011, Q0003, Q0004 and Q0005")
++    queue = {"Q0003": {"status": "VERIFIED"}, "Q0004": {"status": "REPRODUCED"}}
++    assert RC.waits_on(f, queue) == ["Q0004", "Q0005"]
++    assert RC.waits_on(_fields(premises="B2011"), queue) == []
++
++
++def test_words_of_a_comparison_with_data_raise_the_firewall_flag_a3():
++    assert RC.firewall(_card()) == []
++    for words in ("its value against the PDG average", "0.2312 ± 0.0004", "compared with data at the Z pole",
++                  "a sealed look at the angle", "experimentally 125 GeV"):
++        assert RC.firewall(_card() + "- note: " + words + "\n"), words
++
++
++def test_a_retracted_or_superseded_premise_and_a_retracted_phrase_are_found_on_the_record():
++    gone = sup = None
++    for v in sorted(glob.glob(str(ROOT / "frontier" / "B*" / "arc_verdict.json"))):
++        d = json.loads(pathlib.Path(v).read_text(encoding="utf-8"))
++        n = pathlib.Path(v).parent.name.split("_", 1)[0]
++        if gone is None and d.get("verdict") == "RETRACTED":
++            gone = n
++        if sup is None and d.get("superseded_by"):
++            sup = n
++    assert gone and sup
++    text = _card(premises="%s, %s" % (gone, sup))
++    out = RC.retracted(ROOT, RC.CF.read(text)[1], text)
++    assert any(p.startswith(gone + " is RETRACTED") for p in out["premises"])
++    assert any(p.startswith(sup + " is superseded by") for p in out["premises"])
++    rs = RC._load("retraction_sweep_for_the_test", ROOT / "scripts/checks/retraction_sweep.py")
++    phrase = rs.phrases_in((ROOT / "docs" / "RETRACTED_PHRASES.md").read_text(encoding="utf-8"))[0]
++    text = _card() + "- note: " + phrase + "\n"
++    assert RC.retracted(ROOT, RC.CF.read(text)[1], text)["phrases"] == [phrase]
++    assert RC.retracted(ROOT, _fields(premises="B335"), _card(premises="B335")) == {"premises": [], "phrases": []}
++
++
++def test_the_sweeps_terms_are_the_runners_and_the_sweeps_run_on_the_record():
++    res = RC.check(ROOT, _card(touches="P-885", premises="B2011, Q0003"))
++    assert res["terms"]["codes"] == ["B2011", "P-885"] and "figure-eight" in res["terms"]["words"]
++    assert res["producer_sweep"] == "none found"                  # kept as the producer's claim, not used
++    assert res["topic"]["verdict"].startswith("VERDICT topic-sweep") and "B2011" in res["topic"]["matches"]
++    assert res["banked"]["settled_or_scheduled"] in (True, False)
++    assert res["deciding"] is True and res["waits_on"] == ["Q0003"] and res["firewall"] == []
++
++
++def test_the_command_runs_by_hand(tmp_path):
++    f = tmp_path / "CLAIM_a.md"
++    f.write_text(_card(premises="Q0009"), encoding="utf-8")
++    r = subprocess.run([sys.executable, "-B", str(ROOT / "scripts/queue/record_check.py"), str(f), "--queue",
++                        str(tmp_path / "none")], capture_output=True, text=True, timeout=600)
++    assert r.returncode == 0 and json.loads(r.stdout)["waits_on"] == ["Q0009"]
+-- 
+2.43.0
+

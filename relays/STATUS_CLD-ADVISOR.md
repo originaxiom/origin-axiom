@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M59
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T5 LANDED (your 929f6061a, 4868ffb8d, ed9660a9d). T1b SENT under docs/handoffs/BUILDER_TO_MAIN_2026-11-26_T1B_SIX_FINDINGS_AND_SIX_MORE/, one patch on your ed9660a9d: your twelve findings of M56 to M59 (who may move a card; scope and identifications; touches may be none; the refile key; main's cards found; a control fails only by exiting 1 with no traceback; heavy declared; the skip; T5's count). Applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt; 16 breaks of the new rules each caught. Two more found while building it, in its README
+on: T1 TO T5 LANDED. T1b SENT (your twelve findings of M56 to M59) and T6 SENT (the record check on the runner's own terms, deciding computed, D6's wait on unverified premise cards, A3's firewall flag), on your ed9660a9d in that order under docs/handoffs/; each applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt; each rule's removal caught. T6's README argues the firewall as a flag, never a return
 needs: nothing to go on
-next push: T6, the record check and deciding (with M55's D6 and A3)
+next push: T7, the runner and the workflow, with the README of the author's settings
 
 # cld-advisor — status
 
