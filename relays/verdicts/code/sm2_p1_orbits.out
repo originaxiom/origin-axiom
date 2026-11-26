@@ -1,0 +1,7 @@
+moves: LR
+positive solutions in the box: 70
+nonzero solutions in the box: 280
+orbits: 2 sizes: [70, 210]
+  orbit of 70, contains True: sign patterns {(1, 1, 1): 70}
+  orbit of 210, contains False: sign patterns {(-1, -1, 1): 70, (-1, 1, -1): 70, (1, -1, -1): 70}
+RESULT: the card's claim holds

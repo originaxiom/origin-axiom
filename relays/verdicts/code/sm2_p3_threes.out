@@ -1,0 +1,16 @@
+unordered positive solutions with entries <= 3000: 13
+  (3, 3, 3)          entry 3: True
+  (3, 3, 6)          entry 3: True
+  (3, 6, 15)         entry 3: True
+  (3, 15, 39)        entry 3: True
+  (6, 15, 87)        entry 3: False
+  (3, 39, 102)       entry 3: True
+  (3, 102, 267)      entry 3: True
+  (6, 87, 507)       entry 3: False
+  (15, 39, 582)      entry 3: False
+  (3, 267, 699)      entry 3: True
+  (15, 87, 1299)     entry 3: False
+  (3, 699, 1830)     entry 3: True
+  (6, 507, 2955)     entry 3: False
+solutions without an entry equal to 3: 5: [(6, 15, 87), (6, 87, 507), (15, 39, 582), (15, 87, 1299), (6, 507, 2955)]
+RESULT: the card's claim does not hold
