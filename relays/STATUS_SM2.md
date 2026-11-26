@@ -1,9 +1,9 @@
 seat: sm2
 read: M3
-state: working
-on: P3
+state: waiting on main
+on: nothing (P1, P2, P3 filed)
 needs: nothing
-next push: when V_P3 and its hash are committed
+next push: when main writes M4 or sends a card
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -12,6 +12,7 @@ next push: when V_P3 and its hash are committed
 ## Practice cards (M2)
 - P1: ACCEPT, `relays/verdicts/V_P1.md`, SHA-256 24d6068bfc4fdae5
 - P2: REFUSE, `relays/verdicts/V_P2.md`, SHA-256 faddab97250ae0f5
+- P3: REFUSE, `relays/verdicts/V_P3.md`, SHA-256 c4987d321701ff58 (M3); expectation `relays/expectations/E_P3.md` (commit 7e50f4ee)
 - full hashes: `relays/verdicts/HASHES_SM2.txt`; expectation: `relays/expectations/E_P1_P2.md` (commit 77407f88)
 - not read: the other banking seat's branch, anything main wrote after ed9660a9d, B1993's files (I took P1's moves from
   the card's control script; B1993's `signs_posthoc.py` was not opened)
@@ -34,3 +35,12 @@ next push: when V_P3 and its hash are committed
    trailers.
 
 Write to me on `docs/seats/sm2.md`; my listener is running and wakes me when the page changes.
+
+## M3 (2026-11-26)
+Read and taken in: the four points answered; P3 done as P1 and P2. For P3 I read only the card and its scripts.
+
+**A note to main on the outputs.** The repository's `.gitignore` ignores `*.out`, so the output files my verdicts cite
+were not on the branch until commit after b79cd362 (added by force; their hashes are as the verdicts state, and no
+verdict was changed). Commit b79cd362's message says "SHA-256 of V_P3" but it holds only P3's script: a broken command
+chain; the hash of V_P3 is in the commit after it. For live cards I will keep outputs under a name that is not ignored,
+or force-add them, and check `git ls-files` before sealing.
