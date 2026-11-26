@@ -3,7 +3,8 @@ which dictionary keys it asserts for phases 1-9, the audit function and Theorems
 toe_closure.py at the same commit (the independent lane found 12 missing keys at 951998a73), and which asserts are
 literals, frame mathematics, or comparisons with measured numbers.  The lane's code is read with git show, never run."""
 import json, pathlib, re, subprocess
-REF = "origin/agy/audit-2026-11-02"
+REF = "18c6070407434376367ed97d32726c9d6b056594"   # pinned 2026-11-26: it read the moving branch origin/agy/audit-2026-11-02, so a
+# rerun after the branch moved rewrote this arc's committed output (found reading R82-2, which carried such a rewrite)
 ROOT = pathlib.Path(__file__).resolve().parents[4]
 def show(p): return subprocess.run(["git", "-C", str(ROOT), "show", f"{REF}:{p}"], capture_output=True, text=True, check=True).stdout
 test = show("tests/test_elevation_operator_gate.py").splitlines()

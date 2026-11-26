@@ -1,5 +1,11 @@
 # Changelog
 
+## S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)
+
+- **R82-2, the advisor seat's patch (71 verdict lines re-worded to name no seat but main, and the gate `claim-names-no-session`), read line by line and returned with three corrections** (harvest row 2020; the seat's page, M53): the 71 re-wordings hold, checked by script (only the claim line and one credit entry change; each removed phrase is a seat's name); B1894's "the gates' builder" is a synonym the gate's list lacks; the patch carried a rewrite of B1832's committed output; the gate's list misses the physical lane, the explore seat and the independent audit lane, so 18 mentions in 16 lines from B1814 on remain (main's list of M41 missed them first).
+- **B1832's `c4_test_keys_static.py` pinned** to the commit its docstring and output name (`18c607040`): it read the moving branch `origin/agy/audit-2026-11-02`, and a rerun after the branch moved rewrote the committed output. Its rerun now reproduces the `.json` and `_out.txt` byte for byte; a dated note on its page.
+- **A lead entered on R87-6:** 17 banked scripts in seven arcs read a moving branch; B1426 and B1957, two of the carried suite failures, are among them; to be read script by script.
+
 ## S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)
 
 - **Built as a patch by the building session** at main's M48, the first of the series for the review loop's long-carried items (register row P-881).

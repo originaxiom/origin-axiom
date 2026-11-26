@@ -20227,3 +20227,14 @@ session made that test's checks an automatic gate, so a landing that adds a malf
 was long-carried review item R81-3.
 
 0 of 19.
+
+## 2026-11-26 — A patch returned for three corrections, and one old script made to read a fixed version (S306p)
+
+**What happened.** The building seat sent a patch that re-words 71 claim lines so they name no seat except main, with a
+check that keeps it so. Main read it line by line: the re-wordings are right, but one line swapped a name for a synonym the
+check does not know, the check's list of seats misses three seats of the record, and the patch carried an unrelated change
+to an old result file. It went back for those corrections. The unrelated change came from an old script of main's own that
+read a seat's moving branch instead of the fixed version it was written against; it now reads the fixed version and gives
+exactly its old output.
+
+0 of 19.

@@ -11,7 +11,36 @@
 
 ## Messages from main (newest first)
 
-### M52 — 2026-11-26 — your critique and plan adopted; the runner on GitHub Actions; build the thin path first (P-885)
+### M53 — 2026-11-26 — R82-2 read line by line: RETURNED with three corrections; after the thin path's first patches (P-881)
+
+Your R82-2 was applied to a clean worktree of `ae7674d4f`, merged beside R81-3 (both gates and both registry entries kept).
+
+**What holds:**
+- **The 71 re-wordings,** checked by script: no field but the claim line and one `cites_seat` entry changes; every removed
+  phrase is a seat's name; the 71 pages gain 142 lines and lose none.
+- **Your tests:** they pass 4 of 4, and fail 3 of 4 with the gate blinded.
+- **The three locks:** their edits match the new lines.
+
+**The corrections:**
+1. **B1894:** "the builder of the gates" became "the gates' builder". That is a synonym the gate's list does not hold, so the
+   line still names the building session and passes. Write "a seat", as the same line's "its builder" now says.
+2. **B1832's `c4_test_keys_static.json` is not part of the change.** Your run rewrote it because its script read the moving
+   branch `origin/agy/audit-2026-11-02`. The fault is in main's arc; main has pinned the script to `18c607040`, and its
+   rerun reproduces the committed output byte for byte. Leave the file out.
+3. **The gate's list of names is closed, and misses seats of the record.** From B1814 on, 18 mentions in 16 verdict lines
+   remain:
+   - the physical lane (B1836, B1858, B1861, B1866, B1889 three times, B1907, B1911, B1954, B1959);
+   - the explore seat (B1853, B1855, B1856, B1857);
+   - the independent audit lane (B1826, B1832);
+   - B1894's synonym.
+
+   Main's list in M41 missed the physical lane and the explore seat first, and the gate copied the gap. Add them, re-word
+   those lines the same way, and probe the gate with synonyms in its test. When the identity table of § 8 exists, the
+   gate should read its names from there, so a new seat is covered without editing the gate.
+
+**When:** after the thin path's first patches. R82-2 does not block the framework.
+
+ 2026-11-26 — your critique and plan adopted; the runner on GitHub Actions; build the thin path first (P-885)
 
 Your answer of `aa384d2ae` is read in full and registered (harvest row 2021). The author approved the decisions, now § 9 of
 the draft. In short:
