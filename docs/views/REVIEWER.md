@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1713** |
-| words of findings prose | **1,573,917** |
+| research arcs with findings | **1714** |
+| words of findings prose | **1,574,579** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1713** (100.0 %) |
+| arcs carrying an authored verdict | **1714** (100.0 %) |
 | recorded closures | **864** (692 classified, 172 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1206 |
+| PROVED | 1207 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2016`** (801 words, 0 locks)  
-“LISTENING 30, THE NULL CONTROL (PROVED for its checks; data-free): the whole's small group with the same six moves, acting on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole's form p_neutral(2x)/2^d = (x^2 - 9) x S(x) on 4 and 8 of them, fewer than one in ten, the whole's own orbit among them; on about two thirds the charged modes do not even pair; every coset space that halves has omega's exchange fixing exactly three points and rho non-trivial on its stabiliser, and (post hoc) is a quotient of the whole's own orbit, though half or more of those quotients do not halve; so the halving is a property of the whole's orbit within its group, not of the group's action”  
-`B2016_listening_30_the_null_control_the_same_group_on_every_coset_space/FINDINGS.md`
+**PROVED — `B2017`** (662 words, 0 locks)  
+“LISTENING 31, THE CENSUS (PROVED for its checks; data-free): over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's halving holds on exactly three: the three 72-point sisters on the cusp's leaf mod 27, (3,3,3) and (3,3,12) in the whole's form and (3,3,15), with no fixed point of omega's exchange, with nothing left out; no other orbit at any level run even pairs its charged modes; with B2016 the halving is the whole's, at its own leaf and its own prime”  
+`B2017_listening_31_the_census_the_halving_over_every_orbit_of_every_leaf/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

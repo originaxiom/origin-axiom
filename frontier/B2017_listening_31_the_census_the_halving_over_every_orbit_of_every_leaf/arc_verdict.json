@@ -1,0 +1,27 @@
+{
+ "id": "B2017",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B2014",
+  "B2016",
+  "B2011",
+  "B1983",
+  "B2012"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: every orbit of L, R and their inverses on every leaf at mod 27, 25, 5, 7, 11, 13 and 49",
+  "object": "where the six-move sum's halving holds, over all 417 orbits at seven levels",
+  "reach": "class",
+  "hypotheses": "exact for orbits of at most 1200 points; 20 orbits between 1200 and 2400 points in double precision; 21 orbits at mod 49 above 2400 points left out; higher levels not censused"
+ },
+ "claim_one_line": "LISTENING 31, THE CENSUS (PROVED for its checks; data-free): over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's halving holds on exactly three: the three 72-point sisters on the cusp's leaf mod 27, (3,3,3) and (3,3,12) in the whole's form and (3,3,15), with no fixed point of omega's exchange, with nothing left out; no other orbit at any level run even pairs its charged modes; with B2016 the halving is the whole's, at its own leaf and its own prime",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

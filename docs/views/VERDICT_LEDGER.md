@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1713 of 1713 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1714 of 1714 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1206)
+## PROVED (1207)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1218,6 +1218,7 @@
 | `B2014` | “LISTENING 28, THE SEATS' CLAIMS FOR EVERY RUNG CHECKED ON MAIN (PROVED for its checks; data-free): the six moves are two walks, W+ = L + X + R^-1 (the orbit of L under omega's exchange) and W- = R + L^-1 + X^-1, which commute exactly, are each other's transpose and are swapped by the mirror; in each charge sector W+ is 3 omega^-q and W- 3 omega^q times sigma's compression, so the whole's unfolding is their mirror-symmetric sum and an orientation is the ingredient the whole does not supply; B2009's three neutral exceptions have values 6, -6 and 0 by GAP's explicit representations, and rho^3 is S4's sign (Review 87's R87-2 met); the mirror is not a move at any rung and with it the abelianisation is Z2 x Z2 for every k (by reduction); mod 27 has three 72-point sister orbits, and on (3,3,15), with no fixed point of C, the halving holds with nothing left out; fixed points are unchanged up the tower on every element tried; |G7| = 24 * 3^21 at mod 2187” |  | 0 |
 | `B2015` | “LISTENING 29, THE SIX-MOVE RATE LAW, THE FREEZE AND THE FULL SPECTRUM AT MOD 729 (PROVED for its checks; data-free): on the largest orbit over the common point the six-move sum's largest eigenvalue below 6 is exactly 2 sqrt(5 + 4 cos(pi/M)) at mod 27, 81, 125, 343 (its minimal polynomial divides the characteristic polynomial over Z) and 625 (modulo three primes), with the same M as the four-move formula, in the levels run; at mod 243 the new fibre's top is 5.672086 < 5.919044, so on the 3-tower the rate freezes at mod 81; at mod 729 the halving holds on the full spectrum, 17,495 of 17,495 charged eigenvalues matching the halved neutral ones to 5.3e-14 (double precision)” |  | 0 |
 | `B2016` | “LISTENING 30, THE NULL CONTROL (PROVED for its checks; data-free): the whole's small group with the same six moves, acting on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole's form p_neutral(2x)/2^d = (x^2 - 9) x S(x) on 4 and 8 of them, fewer than one in ten, the whole's own orbit among them; on about two thirds the charged modes do not even pair; every coset space that halves has omega's exchange fixing exactly three points and rho non-trivial on its stabiliser, and (post hoc) is a quotient of the whole's own orbit, though half or more of those quotients do not halve; so the halving is a property of the whole's orbit within its group, not of the group's action” |  | 0 |
+| `B2017` | “LISTENING 31, THE CENSUS (PROVED for its checks; data-free): over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's halving holds on exactly three: the three 72-point sisters on the cusp's leaf mod 27, (3,3,3) and (3,3,12) in the whole's form and (3,3,15), with no fixed point of omega's exchange, with nothing left out; no other orbit at any level run even pairs its charged modes; with B2016 the halving is the whole's, at its own leaf and its own prime” |  | 0 |
 
 ## NEGATIVE (388)
 
