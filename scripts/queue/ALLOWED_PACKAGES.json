@@ -1,0 +1,29 @@
+{
+ "note": "The packages a decisive script may import beside the standard library less its network modules (the framework's thin path, T5; register row P-885). The pins are the versions the building seat tested with (python-flint: the latest on the package index, 2026-11-26); main sets them. sage and GAP are not installed on the workflow: a card that needs them is heavy and rerun on the author's machine, at versions main and the author set.",
+ "packages": {
+  "mpmath": {
+   "module": "mpmath",
+   "pin": "1.3.0"
+  },
+  "sympy": {
+   "module": "sympy",
+   "pin": "1.14.0"
+  },
+  "numpy": {
+   "module": "numpy",
+   "pin": "2.5.3"
+  },
+  "scipy": {
+   "module": "scipy",
+   "pin": "1.18.1"
+  },
+  "python-flint": {
+   "module": "flint",
+   "pin": "0.9.0"
+  }
+ },
+ "heavy": {
+  "sage": null,
+  "GAP": null
+ }
+}

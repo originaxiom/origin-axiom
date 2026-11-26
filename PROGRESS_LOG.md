@@ -20342,3 +20342,31 @@ also read the building seat's next two pieces (the record of when a card was fir
 from the network) and sent three gaps back. The tools for main's own seven trial cards are written.
 
 0 of 19.
+
+## 2026-11-26 — Custody: the runner keeps its own clock (S306p)
+
+**What happened.** The building seat sent the thin path's fourth patch. The runner now writes down, in a log that can only
+grow, the first time it sees each claim card and each card's deciding script. The date on a commit is whatever the person
+committing writes; the log's times are the runner's own. Before a card is rerun, the runner checks that the commit it was
+sealed at is still on its branch, that it is the version the runner saw, and that the script at that commit is the one the
+card names by its hash. The gate on the queue also checks that neither the log nor any card's past is ever rewritten.
+
+0 of 19.
+
+## 2026-11-26 — The sandboxed rerun: a card's script run again, cut off from the network (S306p)
+
+**What happened.** The building seat sent the thin path's fifth patch. The intake can now run a claim card's deciding script
+again, at the exact commit the card was sealed at, in a copy of that commit alone and with no network. It compares the
+lines the script marks as deciding, written the same way on any machine, with what the card says, and it runs the card's
+second command, which must fail. A script that needs sage or GAP, or runs longer than about half an hour, is marked heavy:
+not a failure, but rerun later on the author's machine.
+
+0 of 19.
+
+## 2026-11-26 — Custody and the sandboxed rerun are on main (S306p)
+
+**What happened.** Main read the building seat's fourth and fifth pieces line by line and broke their checks on purpose:
+eleven of twelve breaks were caught, the twelfth harmless. Both are on main. Main also showed one gap plainly: a card whose
+control that must fail simply crashes is accepted as reproduced. That is mended before any card moves.
+
+0 of 19.

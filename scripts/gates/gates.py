@@ -3589,13 +3589,30 @@ def _queue_schema():
     return m
 
 
-def gate_queue_schema(_cards=None):
+def _queue_custody():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("queue_custody_for_the_gate", os.path.join(ROOT, "scripts/queue/custody.py"))
+    m = importlib.util.module_from_spec(spec)
+    sys.dont_write_bytecode = True
+    spec.loader.exec_module(m)
+    return m
+
+
+def gate_queue_schema(_cards=None, _log=None, _ref="HEAD"):
     """the framework's thin path, T1 (P-885): every card file of the queue holds the queue's schema: its fields, its seat
-    code (never a name, never a scoreboard code), and a history of allowed moves, the intake's made by the runner alone"""
+    code (never a name, never a scoreboard code), and a history of allowed moves, the intake's made by the runner alone.
+    T4: the sighting log holds its form, and along the checkout's history the log is only appended to and no card's fixed
+    fields or past history change"""
     try:
         qs = _queue_schema()
         cards = qs.read_dir(os.path.join(ROOT, qs.CARDS)) if _cards is None else _cards
         bad = qs.queue_problems(cards, _VENDOR_RE)
+        cu = _queue_custody()
+        log_path = os.path.join(ROOT, cu.LOG)
+        log = _log if _log is not None else (open(log_path, encoding="utf-8").read() if os.path.isfile(log_path) else "")
+        bad += ["%s: %s" % (cu.LOG, b) for b in cu.read_log(log)[1]]
+        if _cards is None:
+            bad += cu.history_problems(ROOT, _ref)
     except Exception as exc:                              # FAIL-CLOSED: a schema that cannot be loaded checks nothing
         return False, "the queue's schema cannot be loaded: %s" % exc
     if bad:
@@ -3676,7 +3693,8 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
     "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
     "gate-controls",                              # the same rule for the register of controls (series 3, PV16)
-    "path-refs"})                                 # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
+    "path-refs",                                  # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
+    "queue-schema"})                              # 2026-11-26 (T4): the sighting log and the cards, along the checkout's history
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 

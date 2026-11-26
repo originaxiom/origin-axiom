@@ -1558,6 +1558,11 @@ queue's moves, the intake's moves made by the runner alone. A returned card is n
 card that names it. **The gate** reads every card in the checkout; the command reads the queue's branch with `--ref`. Its
 failing paths are `tests/test_queue_schema.py`.
 
+**[ADDED 2026-11-26, the thin path's patch T4 (custody):** the same gate reads the runner's sighting log,
+`queue/SIGHTINGS.jsonl`, for its form, and along the checkout's history it checks that the log is only appended to and that
+no card's fixed fields or past history change (`scripts/queue/custody.py`; failing paths in
+`tests/test_queue_custody.py`).**]**
+
 **Why it exists.** Draft 1 of the framework (§ 9, agreed by the author on 2026-11-26) puts every claim card through one
 queue, written by a runner and read by peers, banking seats and the landing tool. The queue is the record of who moved a
 card and when; a record that any writer could bend would make every later check rest on nothing.

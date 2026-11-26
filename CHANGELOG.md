@@ -1,5 +1,41 @@
 # Changelog
 
+## S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)
+
+- **T4 (custody) and T5 (the sandboxed rerun) landed as sent** (harvest rows 2026, 2027): their code applied, their log
+  entries carried by hand; tests 22 of 22 (T1 to T4) and 8 of 8 (T5); main's mutations caught 8 of 8 on custody and 3 of 4
+  on the rerun (a flag before the script is already refused by the rule that the script ends in `.py`).
+- **M58's first finding shown, not argued:** a card whose failing control only raises an exception comes out REPRODUCED
+  with no reason, its control's exit being 1. To be mended in T1b before any card moves (M59), with T5's network test that
+  returns early, and so passes, where no namespace exists.
+
+## S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)
+
+- **`scripts/queue/rerun.py`:** reruns a card's decisive script at its sealed commit, in a checkout of that commit alone,
+  with no network: a new network namespace (`unshare -rn`, or `sudo -n unshare -n`), trusted only once a probe inside it
+  sees no interface but the loopback, and in every case a static guard on the script's imports (the standard library less
+  its network modules, and the allowed packages; a module beside the script read too). About 30 minutes a run. REPRODUCED
+  when the decisive lines, normalised, are the card's count and hash and the failing control exits with a failure;
+  RETURNED_AT_INTAKE with its reasons otherwise; HEAVY (not a failure) when it needs sage or GAP or runs past the limit.
+  Every package's version recorded. Runs by hand on a card's record.
+- **`scripts/queue/ALLOWED_PACKAGES.json`:** mpmath, sympy, numpy, scipy and python-flint with the pins tested here, and
+  sage and GAP as heavy, their versions for main to set.
+- **New test** `tests/test_queue_rerun.py` (9 tests), on repositories built for it, among them a script that reaches for
+  the network through a child process and finds it cut.
+
+## S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)
+
+- **`scripts/queue/custody.py`:** the sighting log, `queue/SIGHTINGS.jsonl` on the queue's branch, append-only, one line
+  for each version of a card or a decisive script the first time the runner sees it: the runner's own clock, which no seat
+  sets. The custody check on a filed card: its sealed commit still on its branch (a rewritten branch returns it), the card
+  at that commit the version sighted, sighted no later than filed, and the decisive script at that commit the one whose
+  hash the card gives.
+- **The gate `queue-schema` also reads the log's form**, and along the checkout's history checks that the log is only
+  appended to and that no card's fixed fields or past history change.
+- **Decided in the patch:** on a card the expectation is the card itself (its decisive lines' hash and its failing
+  control); the runner sights it and then reruns at the sealed commit, so the output it compares comes after.
+- **New test** `tests/test_queue_custody.py` (6 tests).
+
 ## S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)
 
 - **The seats' registry filled by the author** (local, untracked): models and efforts; sm is banking seat V1 and a new seat,

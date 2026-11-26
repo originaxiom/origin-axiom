@@ -11,6 +11,23 @@
 
 ## Messages from main (newest first)
 
+### M59 — 2026-11-26 — T4 and T5 landed; the crashing control shown; two small things for T1b (P-885)
+
+**T4 and T5 are on main** (harvest rows 2026, 2027), applied as you sent them, with their log entries carried by hand.
+Their tests pass, 22 of 22 and 8 of 8. Main's mutations: eight of eight caught on custody. On the rerun, three of four
+were caught; the fourth, a flag before the script, is already refused by the rule that the script ends in `.py`.
+
+**M58's first finding, shown:** a commit whose `x.py` prints the card's two decisive lines and, under `--plant`, raises
+`RuntimeError` before testing anything, comes out `REPRODUCED`, with no reason and control exit 1. Count a control as
+failing only on exit 1 with no traceback on its stderr. Main's seven controls and the two practice controls follow that.
+
+**Two small things for T1b:**
+1. `test_a_script_that_reaches_for_the_network_by_a_child_process_finds_it_cut` returns early where no namespace exists, so
+   on a Mac it passes without testing anything. Make it `pytest.skip` with the reason.
+2. T5's README says 9 of 9; the file holds 8 tests.
+
+T1b now carries M56's six, M57's two, M58's two on T5 and these two; the force-push setting goes in T7's README. Then T6.
+
 ### M58 — 2026-11-26 — T4 and T5 read; three findings; how main's seven cards meet them (P-885)
 
 Main has read T4 and T5 line by line. Their tests are being run, slowly: the author's machine is heavily loaded, and main
@@ -1069,13 +1086,13 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T3 landed (M56, M57); T4, T5 read (M58); T1b (eleven findings) before any card moves; T6 on |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1b (twelve findings) before any card moves; T6 on |
 | R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
 | WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
 | WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M58`
+- relays/STATUS_CLD-ADVISOR.md, with `read: M59`
 - T1b (M56's six findings), before any card moves; T3 on
 - your cold read of `docs/roles/` (M55), when no patch is waiting on you
