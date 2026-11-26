@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE WORKING RULES SORTED; THE PRODUCER'S AND THE BANKING SEAT'S CHARTERS DRAFTED (P-885) (2026-11-26)
+
+- **`docs/roles/THE_RULES_SORTED.md`:** WORKING_RULES.md sorted (draft 1 § 7): door rules D1 to D8, each with its check
+  (intake, gate or plant); the author's rules A1 to A3 (one channel, his words private, no look without his approval),
+  binding with a check owed; rules of the banking seat, the supervisor and the builder; advice; retired (the work card
+  before work, the four named verifying seats, tiers A to C and one intake a day, `git push codeberg`).
+- **`docs/roles/PRODUCER.md`:** freedoms first; the claim card's content; the eight door rules and the author's two; the
+  card's path; how a producer is measured; the hiring brief.
+- **`docs/roles/BANKING.md`:** what a banking seat receives and delivers; its freedoms; rules K1 to K12, each paired with the
+  gate or plant shape that tests it (B1918, B1223, B8152, B1832 shapes); measurement by plants, agreement, false refusals;
+  limits; the hiring brief.
+- **M55 to the advisor seat:** the drafts for its cold read, and what they ask of its build.
+
 ## S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)
 
 - **M54 to the advisor seat:** it builds the thin path's code (queue schema, discovery, form check, custody, sandboxed rerun

@@ -20250,3 +20250,13 @@ seat's listener could not see them as messages; both are restored word for word,
 every seat page (it failed on the damaged page and passes on the restored one).
 
 0 of 19.
+
+## 2026-11-26 — The working rules sorted, and the first two role pages drafted (S306p)
+
+**What happened.** Main read the working rules whole and sorted each into what binds every seat (eight rules, each with the
+check that enforces it), the author's three rules that bind although nothing checks them yet, rules for one role, advice a
+seat may ignore, and rules the new framework replaces. From that sort come two role pages: the producer's, which lists its
+freedoms first and asks only the eight door rules, and the banking seat's, whose twelve rules are each paired with the gate
+or the planted fault that tests them. The building seat reads them cold.
+
+0 of 19.

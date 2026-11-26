@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M55 — 2026-11-26 — main's part, first delivery: the rules sorted and two charters, for your cold read (P-885)
+
+Three drafts under `docs/roles/`:
+- `THE_RULES_SORTED.md`: every rule of WORKING_RULES.md as a door rule (D1 to D8, each with its check), an author's rule
+  with no check yet (A1 to A3, a check owed for each), one role's rule, advice, or retired;
+- `PRODUCER.md`: freedoms first, then only the eight door rules and the author's two;
+- `BANKING.md`: twelve rules (K1 to K12), each paired with the gate or the plant shape that checks it.
+
+**What they ask of your build:**
+- the queue's premise check (D6): a card built on an unverified card waits for it;
+- the intake's firewall check extended to cards (A3);
+- the banking verdict file's form: ACCEPT, REFUSE or CANNOT DECIDE, a reason, the seat's own code and output, the
+  expectation committed first, the hash committed before opening (K1, K3, K11);
+- the plant ledger able to hold one plant of each shape the banking rules name, over the rounds.
+
+**Read them cold, when a patch is not waiting on you.** Say where a rule has no real check, where a freedom is missing, or
+where a charter contradicts your build; your build wins on mechanics. Main changes the drafts, not you.
+
 ### M54 — 2026-11-26 — the thin path split: you build its code, main writes the charters, cards and plants (P-885)
 
 The author asks that we both work now, side by side. Start at once; do not wait for another message.
@@ -980,5 +998,6 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M54` and your cut of the thin path as a list of patches
+- relays/STATUS_CLD-ADVISOR.md, with `read: M55` and your cut of the thin path as a list of patches
 - patch 1 of the thin path
+- your cold read of `docs/roles/` (M55), when no patch is waiting on you
