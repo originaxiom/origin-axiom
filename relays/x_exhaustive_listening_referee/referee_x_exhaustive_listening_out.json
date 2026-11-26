@@ -1,0 +1,100 @@
+{
+  "R_EL_1_mahler_grid_tower": {
+    "direct_perm_orders_27_81": {
+      "27": 216,
+      "81": 1944
+    },
+    "g9_order": "291783971017366291224",
+    "step_f3_ranks_k3_to_k9": [
+      2,
+      2,
+      3,
+      7,
+      7,
+      7,
+      12
+    ]
+  },
+  "R_EL_2_m12_quotient_and_zw_c60": {
+    "c60_ugamma_matrix_identity_27": true,
+    "m12_quotient_size": 6,
+    "mahler_clifford_span_all_ok": true,
+    "null_mode_expm_u2_err": "1.7990957e-36"
+  },
+  "R_EL_3_alg_chebyshev_and_c_orbit_lanczos": {
+    "alg_graphene": {
+      "p3_mod27_M3": "5.291502622129181181",
+      "p3_mod81_M9": "5.919044004953378799",
+      "p5_mod125_M5": "5.739710089368552662",
+      "p5_mod625_M25": "5.9894770406965953489",
+      "p7_mod343_M7": "5.8664726954481520044"
+    },
+    "mod243_new_fiber_ceiling": "5.6720864102915881915",
+    "z_phi_2I_shell_sizes": [
+      1,
+      6,
+      6,
+      6,
+      16,
+      40,
+      40,
+      72,
+      74
+    ]
+  },
+  "R_EL_4_split_quadrature_and_expm_u3": {
+    "chi12_counts": {
+      "neg": 4920,
+      "pos": 4920,
+      "zero": 4560
+    },
+    "g4_plus": [
+      "8.08974769971208906",
+      "50.2550169851051566",
+      "55.1418523174305824"
+    ],
+    "s_modular_transform_err": "4.3318717e-40",
+    "u3_expm_scramble_err": "9.4039548e-38"
+  },
+  "all_checks_and_controls_pass": true,
+  "ast_audit": {
+    "ast_complex_literals": 0,
+    "ast_float_literals": 0,
+    "ast_float_or_complex_casts": 0,
+    "forbidden_imports": 0
+  },
+  "claim_id": "CLAIM_2026-11-26_exhaustive_pure_listening_pro3_tower_chirality_and_boundary",
+  "cross_check_abs_diffs": {
+    "X_omega_N2_Dp_q0": "2.3917822e-14",
+    "X_omega_N2_Dp_q1": "3.4908423e-11",
+    "X_omega_N2_Dp_q2": "2.3917822e-14",
+    "X_omega_N2_scalar_q0": "1.3201026e-13",
+    "X_omega_N2_scalar_q1": "6.5990519e-14",
+    "X_omega_N2_scalar_q2": "6.5990519e-14",
+    "X_omega_g4_plus_q0": "2.0003655e-13",
+    "X_omega_g4_plus_q1": "2.6349563e-12",
+    "X_omega_g4_plus_q2": "1.7804808e-12",
+    "graphene_p3_mod27_M3": "0.0",
+    "graphene_p3_mod81_M9": "0.0",
+    "graphene_p5_mod125_M5": "0.0",
+    "graphene_p5_mod625_M25": "0.0",
+    "graphene_p7_mod343_M7": "0.0",
+    "max_native_ratio_including_834_collar": "2.1332049e-15",
+    "max_single_surface_overlap_ratio": "3.8861982e-13",
+    "mod243_w6_new_fiber_ceiling": "2.0e-19"
+  },
+  "firewall": "strictly_0_of_19_zero_shared_code_cold_room_referee",
+  "max_abs_diff": "3.4908423e-11",
+  "planted_controls": {
+    "R_PC_1_mahler_deg1_breaks_c3_closure_at_mod81": true,
+    "R_PC_2_mahler_ranks_refute_constant_sl2_f3": true,
+    "R_PC_3_mahler_omitting_ym_leaves_codimension_1": true,
+    "R_PC_4_flipped_sign_gamma_breaks_36x36_zw_operator_identity": true,
+    "R_PC_5_mod9_fails_halving_and_kappa_plus2_has_74_orbit": true,
+    "R_PC_6_conformal_8pi2_over_sqrt3_locks_quadratic_Dp": true,
+    "R_PC_7_unoriented_quartic_sum_locks_q1_and_q2": true,
+    "R_PC_8_native_ceilings_below_10_and_150": true
+  },
+  "producer_output_sha256": "19079c76da38d4e1af1c0ea07f497b34cffa130858a4a014bb199bbd17bd2733",
+  "referee_script_sha256": "ca909438eabf032a77dc78f5ea054af8abe74086b248470960fb6417546713fb"
+}
