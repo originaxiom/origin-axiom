@@ -1,0 +1,385 @@
+From f2871fc211b4f26e4e0ab589ba23f8ec188d3f04 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 26 Nov 2026 17:33:36 +0000
+Subject: [PATCH] S306p the claim card's four fields and its form check (the
+ framework's thin path, T2; P-885): docs/CLAIM_CARD.md gains the card's id,
+ the seat's code, the decisive lines and the failing control, and
+ python-flint, sage and GAP among the allowed packages;
+ scripts/queue/card_form.py reads a card's form before anything else (every
+ field filled, none only where allowed, the script's form and packages, a
+ failing control other than the decisive command); runs by hand; its tests
+ fail with each rule removed
+
+---
+ CHANGELOG.md                   |  11 +++
+ PROGRESS_LOG.md                |   9 +++
+ docs/CLAIM_CARD.md             |  19 ++++-
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ scripts/queue/card_form.py     | 127 +++++++++++++++++++++++++++++++++
+ tests/test_card_form.py        |  96 +++++++++++++++++++++++++
+ 7 files changed, 263 insertions(+), 4 deletions(-)
+ create mode 100644 scripts/queue/card_form.py
+ create mode 100644 tests/test_card_form.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 9d6dbaa3c..d54381cae 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,16 @@
+ # Changelog
+ 
++## S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)
++
++- **`docs/CLAIM_CARD.md`:** the four fields of draft 1's § 9 (the card's id, new or refiling a card; the seat's code, never
++  a name; the decisive lines, marked and hashed; the failing control, a command); python-flint, sage and GAP among the
++  allowed packages; a dated note that the section on how main takes a card stands until the trial.
++- **`scripts/queue/card_form.py`:** the intake's first check, the card's form: every field there and filled, a field that
++  runs over lines read whole, "none" only where the page allows it, the kinds and effects, the decisive script's form and
++  its packages, the decisive lines, and a failing control that is a command other than the decisive one. Runs by hand.
++- **New test** `tests/test_card_form.py` (4 tests): 19 plants, one a rule; the page's template holds exactly the fields the
++  check reads; the command by hand.
++
+ ## S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)
+ 
+ - **`scripts/queue/queue_schema.py`:** a claim card's record in the queue, `queue/cards/Q<nnnn>.json`: id, seat code,
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 2200bfe9e..35b56538b 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20260,3 +20260,12 @@ the intake's steps made only by the runner. Nothing is in the queue yet; the run
+ patches.
+ 
+ 0 of 19.
++
++## 2026-11-26 — The claim card's four new fields and its form check (S306p)
++
++**What happened.** The building seat sent the thin path's second patch. A claim card now names the seat by a neutral code,
++says whether it is new or refiles an earlier card, marks the lines of output that decide it, and gives a second command
++that must fail if the result is wrong. A new check reads a card's form before anything else is done with it: every field
++there, filled, and in its shape. It runs nothing; the rerun and the record check come in later patches.
++
++0 of 19.
+diff --git a/docs/CLAIM_CARD.md b/docs/CLAIM_CARD.md
+index a91c468af..296df7da5 100644
+--- a/docs/CLAIM_CARD.md
++++ b/docs/CLAIM_CARD.md
+@@ -10,7 +10,9 @@ Copy the block below. Keep each field to one or two lines. A field that does not
+ ```
+ # CLAIM CARD — <the result in one line>
+ 
+-- seat, branch, commit:
++- card id: new | refiles Q<nnnn>
++- seat code: <the seat's neutral code, fam<n>-v<n>-<effort>-<nn>; never a name>
++- seat, branch, commit: <the seat code>, <the branch>, <the full 40-hex commit>
+ - kind: theorem | computation | prediction | identification | negative
+ - touches: <codes from docs/TOTAL_INPUTS_SCOREBOARD.md (A01 to A12, F1 to F4, S01 to S03, LAMBDA), identification rows
+   (I-n), register rows (P-n), or one of the 19 parameters by name>
+@@ -18,15 +20,28 @@ Copy the block below. Keep each field to one or two lines. A field that does not
+ - imports: <every structure or assumption from outside the record it rests on, each named: for example "the MSSM's
+   two-loop running", "M-theory flux quantisation", "three right-handed neutrinos">
+ - premises on main: <arcs and register rows it uses>
+-- decisive script: <path>, SHA-256 <first 16 hex>, depends on <only the standard library, mpmath, sympy, numpy, scipy>,
++- decisive script: <path>, SHA-256 <first 16 hex>, depends on <only the standard library, mpmath, sympy, numpy, scipy,
++  python-flint, sage, GAP>,
+   run as <command>, output SHA-256 <first 16 hex>
++- decisive lines: <n> lines marked "DECISIVE:", SHA-256 <first 16 hex of those lines, as the rerun normalises them>
++- failing control: <a command, not the decisive one, that must exit with a failure if the result is wrong>
+ - second computation: <which seat, with code that shares nothing, its path, and whether it agrees>
+ - already on main?: <the topic-sweep line you ran on main, and the closest arc>
+ - what would make it fail: <one control that must fail if the result is wrong>
+ ```
+ 
++**The four fields added on 2026-11-26** (the framework's draft 1, § 9, agreed by the author; register row P-885; the thin
++path's patch T2): the card's id, the seat's code, the decisive lines and the failing control. The intake runner checks the
++form with `scripts/queue/card_form.py` before anything else. Only `imports`, `premises on main` and `second computation`
++may say "none". The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
++the rerun's).
++
+ ## How main takes a card
+ 
++**[NOTE 2026-11-26 (P-885):** this section stands until the framework's trial runs; the intake, the peer stage and the two
++banking seats of the draft then take its place, and it is written again.**]**
++
++
+ - **Tier A** applies when a card's effect removes, conditions or refutes a scoreboard code or one of the 19.
+   - Main reproduces the decisive script in a sandbox: the author's ruling of 2026-11-24 allows a sealed,
+     dependency-free script to be run there.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 8641a09a2..2bfbdcd75 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)”
+ - “S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)”
+ - “S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)”
+ - “S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)”
+@@ -60,7 +61,6 @@
+ - “S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)”
+ - “S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…”
+ - “S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…”
+-- “S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 150c24cb5..906bc58e4 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1560 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1561 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1940,5 +1940,6 @@ Generated by `scripts/views/spine.py` — 1560 locks. Regenerated with the views
+ 
+ ## 2026-11-26
+ 
++- — `test_card_form.py` 
+ - — `test_queue_schema.py` 
+ - — `test_verdict_schema_gate.py` 
+diff --git a/scripts/queue/card_form.py b/scripts/queue/card_form.py
+new file mode 100644
+index 000000000..de9f94576
+--- /dev/null
++++ b/scripts/queue/card_form.py
+@@ -0,0 +1,127 @@
++#!/usr/bin/env python3
++"""The claim card's form check (the framework's thin path, patch T2; draft 1 § 9, main's M54; register row P-885).
++
++The intake's first check on a card: the form of docs/CLAIM_CARD.md, read as the card's author wrote it. A field may run
++over several lines; a line that does not open a field continues the one above. Every field is there and filled; a
++field that does not apply says "none", and only the fields in MAY_BE_NONE may. Four fields are new with the framework
++(§ 9): the card's id, the seat's code, the failing control as a command, and the decisive output lines.
++
++What the form check does not do: it runs nothing and reads nothing of the record. Custody (T4), the rerun and the
++failing control (T5) and the record check (T6) are the intake's later steps.
++
++    python3 scripts/queue/card_form.py CARD.md [CARD.md ...]
++Exit 0 when every card's form holds, 1 when one does not."""
++import importlib.util
++import pathlib
++import re
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++_spec = importlib.util.spec_from_file_location("queue_schema_for_the_form", HERE / "queue_schema.py")
++QS = importlib.util.module_from_spec(_spec)
++sys.dont_write_bytecode = True
++_spec.loader.exec_module(QS)
++
++TITLE = re.compile(r"# CLAIM CARD — (\S.*)")
++FIELDS = ("card id", "seat code", "seat, branch, commit", "kind", "touches", "effect", "imports", "premises on main",
++          "decisive script", "decisive lines", "failing control", "second computation", "already on main?",
++          "what would make it fail")
++MAY_BE_NONE = ("imports", "premises on main", "second computation")
++KINDS = ("theorem", "computation", "prediction", "identification", "negative")
++EFFECTS = ("removes", "conditions", "adds", "supports", "refutes")
++# the packages a decisive script may depend on: the card's list, and python-flint, sage and GAP (main's change, § 9);
++# their pinned versions are the rerun's (T5)
++ALLOWED = ("the standard library", "mpmath", "sympy", "numpy", "scipy", "python-flint", "sage", "GAP")
++FIELD_LINE = re.compile(r"- ([a-z ,?]+):(.*)$")
++CARD_ID = re.compile(r"new|refiles (Q\d{4,})")
++HEX16 = re.compile(r"SHA-256 ([0-9a-f]{16})\b")
++DECISIVE = re.compile(r"(\d+) lines? marked \"DECISIVE:\", SHA-256 ([0-9a-f]{16})")
++SCRIPT = re.compile(r"(\S+\.(?:py|sage|g|gap)), SHA-256 [0-9a-f]{16}, depends on (.+?), run as (.+?), output SHA-256 "
++                    r"[0-9a-f]{16}\s*$")
++
++
++def read(text):
++    """(title, {field: value}, [problems of layout]) from a card's text; the card's block may stand in a fenced block"""
++    lines = [l for l in text.splitlines() if l.strip() != "```"]
++    bad = []
++    if not lines or not TITLE.fullmatch(lines[0].strip()):
++        return None, {}, ["the first line is not '# CLAIM CARD — <the result in one line>'"]
++    title = TITLE.fullmatch(lines[0].strip()).group(1).strip()
++    fields, current = {}, None
++    for line in lines[1:]:
++        m = FIELD_LINE.match(line)
++        if m and m.group(1).strip() in FIELDS:
++            current = m.group(1).strip()
++            if current in fields:
++                bad.append("the field '%s' stands twice" % current)
++            fields[current] = m.group(2).strip()
++        elif m:
++            bad.append("'%s' is not a field of the card" % m.group(1).strip())
++            current = None
++        elif line.strip() and current:
++            fields[current] = (fields[current] + " " + line.strip()).strip()
++        elif not line.strip():
++            current = None
++    return title, fields, bad
++
++
++def form_problems(text):
++    """every way a card's form fails; [] when it holds"""
++    title, f, bad = read(text)
++    if title is None:
++        return bad
++    for name in FIELDS:
++        if name not in f:
++            bad.append("the field '%s' is missing" % name)
++        elif not f[name]:
++            bad.append("the field '%s' is empty" % name)
++        elif f[name].lower() == "none" and name not in MAY_BE_NONE:
++            bad.append("the field '%s' may not be none" % name)
++    if bad:
++        return bad
++    if not CARD_ID.fullmatch(f["card id"]):
++        bad.append("card id is not 'new' or 'refiles Q<nnnn>'")
++    bad += ["seat code: %s" % p for p in QS.code_problems(f["seat code"], "the code")]
++    parts = [p.strip() for p in f["seat, branch, commit"].split(",")]
++    if len(parts) != 3 or not QS.COMMIT.fullmatch(parts[2]) or not QS.BRANCH.fullmatch(parts[1]):
++        bad.append("'seat, branch, commit' is not three parts with a branch and a full 40-hex commit")
++    elif parts[0] != f["seat code"]:
++        bad.append("the seat in 'seat, branch, commit' is not the card's seat code")
++    if f["kind"] not in KINDS:
++        bad.append("kind is not one of %s" % ", ".join(KINDS))
++    if f["effect"].split(" ")[0] not in EFFECTS or " — " not in f["effect"]:
++        bad.append("effect does not open with one of %s and name its code after ' — '" % ", ".join(EFFECTS))
++    m = SCRIPT.match(f["decisive script"])
++    if not m:
++        bad.append("decisive script is not '<path>, SHA-256 <16 hex>, depends on <...>, run as <command>, output "
++                   "SHA-256 <16 hex>'")
++    else:
++        deps = [d.strip() for d in re.split(r",| and ", m.group(2)) if d.strip()]
++        outside = [d for d in deps if d not in ALLOWED]
++        if outside:
++            bad.append("decisive script depends on what is not allowed: %s" % ", ".join(outside))
++    d = DECISIVE.fullmatch(f["decisive lines"])
++    if not d or int(d.group(1)) < 1:
++        bad.append("decisive lines is not '<n> lines marked \"DECISIVE:\", SHA-256 <16 hex>' with n of one or more")
++    control = f["failing control"]
++    if m and control == m.group(3).strip():
++        bad.append("the failing control is the decisive command itself")
++    if len(control.split()) < 2:
++        bad.append("the failing control is not a command")
++    return bad
++
++
++def main(argv):
++    if not argv:
++        print(__doc__)
++        return 1
++    n_bad = 0
++    for path in argv:
++        bad = form_problems(pathlib.Path(path).read_text(encoding="utf-8"))
++        n_bad += bool(bad)
++        print("%s: %s" % (path, "the form holds" if not bad else "; ".join(bad)))
++    return 1 if n_bad else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tests/test_card_form.py b/tests/test_card_form.py
+new file mode 100644
+index 000000000..ec8c06652
+--- /dev/null
++++ b/tests/test_card_form.py
+@@ -0,0 +1,96 @@
++"""2026-11-26 (the framework's thin path, patch T2; main's M54; register row P-885): the claim card's form check,
++scripts/queue/card_form.py. A card whose form holds passes and each rule, planted once, fails it; the template in
++docs/CLAIM_CARD.md holds exactly the fields the check reads, so the page and the check cannot drift apart; the command
++runs by hand."""
++import importlib.util
++import pathlib
++import re
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++_spec = importlib.util.spec_from_file_location("card_form_under_test", ROOT / "scripts/queue/card_form.py")
++CF = importlib.util.module_from_spec(_spec)
++sys.dont_write_bytecode = True
++_spec.loader.exec_module(CF)
++
++TWIN = """# CLAIM CARD — a count of the classes at level 5, reproduced
++
++```
++- card id: new
++- seat code: fam2-v5.5-high-01
++- seat, branch, commit: fam2-v5.5-high-01, seat/frontier-2026-11-26, 0123456789abcdef0123456789abcdef01234567
++- kind: computation
++- touches: P-885
++- effect: supports — P-885
++- imports: none
++- premises on main: B2011
++- decisive script: frontier/B2011_x/verification/count.py, SHA-256 0123456789abcdef, depends on the standard library
++  and python-flint, run as python3 frontier/B2011_x/verification/count.py, output SHA-256 fedcba9876543210
++- decisive lines: 3 lines marked "DECISIVE:", SHA-256 00112233445566ff
++- failing control: python3 frontier/B2011_x/verification/count.py --plant
++- second computation: none
++- already on main?: python3 scripts/checks/topic_sweep.py count; the closest arc B2011
++- what would make it fail: the planted level must change the count
++```
++"""
++
++
++def _plant(old, new):
++    assert TWIN.count(old) == 1, old
++    return CF.form_problems(TWIN.replace(old, new))
++
++
++def test_a_card_whose_form_holds_passes_and_each_rule_planted_fails():
++    assert CF.form_problems(TWIN) == []
++    plants = [
++        ("# CLAIM CARD — a count", "# CLAIM — a count", "first line"),
++        ("- card id: new\n", "", "'card id' is missing"),
++        ("- card id: new", "- card id: Q0007", "card id is not"),
++        ("- seat code: fam2-v5.5-high-01", "- seat code: a seat", "seat code:"),
++        ("- seat code: fam2-v5.5-high-01", "- seat code: F1", "seat code:"),
++        ("fam2-v5.5-high-01, seat/", "fam3-v5.5-high-01, seat/", "is not the card's seat code"),
++        ("0123456789abcdef0123456789abcdef01234567", "0123456", "full 40-hex commit"),
++        ("- kind: computation", "- kind: a guess", "kind is not"),
++        ("- effect: supports — P-885", "- effect: supports P-885", "effect does not"),
++        ("- premises on main: B2011", "- premises on main:", "is empty"),
++        ("- touches: P-885", "- touches: none", "may not be none"),
++        ("the standard library\n  and python-flint", "the standard library\n  and pandas", "not allowed: pandas"),
++        ("output SHA-256 fedcba9876543210", "output fedcba9876543210", "decisive script is not"),
++        ("3 lines marked", "0 lines marked", "decisive lines is not"),
++        ("SHA-256 00112233445566ff", "SHA-256 0011", "decisive lines is not"),
++        ("count.py --plant", "count.py", "the decisive command itself"),
++        ("- failing control: python3 frontier/B2011_x/verification/count.py --plant", "- failing control: fails",
++         "not a command"),
++        ("- second computation: none", "- second computation: none\n- score: 3", "not a field of the card"),
++        ("- kind: computation", "- kind: computation\n- kind: theorem", "stands twice"),
++    ]
++    for old, new, words in plants:
++        bad = _plant(old, new)
++        assert bad and any(words in b for b in bad), (words, bad)
++
++
++def test_a_field_runs_over_lines_and_a_refile_names_its_card():
++    _, f, bad = CF.read(TWIN)
++    assert bad == [] and f["decisive script"].endswith("output SHA-256 fedcba9876543210")
++    assert CF.form_problems(TWIN.replace("- card id: new", "- card id: refiles Q0007")) == []
++
++
++def test_the_template_holds_exactly_the_fields_the_check_reads():
++    page = (ROOT / "docs" / "CLAIM_CARD.md").read_text(encoding="utf-8")
++    block = re.search(r"```\n(# CLAIM CARD.*?)```", page, re.S).group(1)
++    names = [m.group(1) for m in re.finditer(r"^- ([a-z ,?]+):", block, re.M)]
++    assert tuple(names) == CF.FIELDS
++    for pkg in CF.ALLOWED[1:]:
++        assert pkg in block, pkg
++
++
++def test_the_command_runs_by_hand(tmp_path):
++    good, bad = tmp_path / "CLAIM_good.md", tmp_path / "CLAIM_bad.md"
++    good.write_text(TWIN, encoding="utf-8")
++    bad.write_text(TWIN.replace("- kind: computation", "- kind: a guess"), encoding="utf-8")
++    run = lambda *a: subprocess.run([sys.executable, "-B", str(ROOT / "scripts/queue/card_form.py"), *map(str, a)],
++                                    capture_output=True, text=True)
++    assert run(good).returncode == 0
++    r = run(good, bad)
++    assert r.returncode == 1 and "kind is not" in r.stdout and "the form holds" in r.stdout
+-- 
+2.43.0
+

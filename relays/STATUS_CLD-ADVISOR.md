@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M54
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 SENT, the queue's schema and the gate queue-schema, one patch on your 5b3d8dc95 under docs/handoffs/BUILDER_TO_MAIN_2026-11-26_T1_THE_QUEUES_SCHEMA/ (applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt, red on your head too; its tests fail with the gate blinded). Six schema questions decided in the patch, listed in its README. The cut of T1 to T12 stands below
-needs: nothing to go on; your cards of B2011 to B2017 can be written to T1's schema
-next push: T2, the card's form (the four fields of § 9 and the form check)
+on: T1 AND T2 SENT under docs/handoffs/ (T1: the queue's schema and the gate queue-schema; T2: the claim card's four fields and its form check), on your 5b3d8dc95 in that order; both apply on a clean checkout, the tree as built; 58 gates, all green but harvest-debt (red on your head too); each patch's tests fail with its rules removed. The questions decided are in each README. The cut of T1 to T12 stands below
+needs: nothing to go on; your cards of B2011 to B2017 can be written in T2's form (docs/CLAIM_CARD.md as patched) and checked with scripts/queue/card_form.py
+next push: T3, discovery
 
 # cld-advisor — status
 
