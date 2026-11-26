@@ -1,0 +1,416 @@
+{
+  "L1_all_3k_b2009_b2010_proof": {
+    "G4_all_1944_exact_fixed_point_lemma": true,
+    "G4_case3_count": 432,
+    "G4_order": 1944,
+    "G_jet_order": 216,
+    "S3_x_Z3_all_9_irreps": {
+      "(1, omega^0)": {
+        "C_neutral_dim": 1,
+        "deg": 1,
+        "m_minus_mp": 1
+      },
+      "(1, omega^1)": {
+        "C_neutral_dim": 0,
+        "deg": 1,
+        "m_minus_mp": -1
+      },
+      "(1, omega^2)": {
+        "C_neutral_dim": 0,
+        "deg": 1,
+        "m_minus_mp": 0
+      },
+      "(sgn, omega^0)": {
+        "C_neutral_dim": 1,
+        "deg": 1,
+        "m_minus_mp": 1
+      },
+      "(sgn, omega^1)": {
+        "C_neutral_dim": 0,
+        "deg": 1,
+        "m_minus_mp": -1
+      },
+      "(sgn, omega^2)": {
+        "C_neutral_dim": 0,
+        "deg": 1,
+        "m_minus_mp": 0
+      },
+      "(std, omega^0)": {
+        "C_neutral_dim": 0,
+        "deg": 2,
+        "m_minus_mp": -1
+      },
+      "(std, omega^1)": {
+        "C_neutral_dim": 1,
+        "deg": 2,
+        "m_minus_mp": 1
+      },
+      "(std, omega^2)": {
+        "C_neutral_dim": 1,
+        "deg": 2,
+        "m_minus_mp": 0
+      }
+    },
+    "abelianization_all_3k_Z6_proof": "PSL(2,Z)^ab = Z_6 ->> G_k^ab ->> G_3^ab = Z_6",
+    "case1_odd_sigma_zero_fix": true,
+    "case2_non3cyc_zero_fix": true,
+    "case3_at_333_J1_mod9": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        4,
+        4
+      ],
+      [
+        7,
+        7,
+        7
+      ]
+    ],
+    "case3_at_333_count": 6,
+    "case3_exact3_fix": true,
+    "case3_single_mod9_fiber": true,
+    "case3_total_in_G3": 48,
+    "exceptions_m_minus_mp_minus1": [
+      "(1, omega^1)",
+      "(sgn, omega^1)",
+      "(std, omega^0)"
+    ],
+    "exceptions_m_minus_mp_plus1": [
+      "(1, omega^0)",
+      "(sgn, omega^0)",
+      "(std, omega^1)"
+    ],
+    "g1_pass": true,
+    "halving_mod27_deg_chg": 23,
+    "halving_mod27_deg_neu": 26,
+    "halving_mod27_exact_Zx": true,
+    "halving_mod81_deg_chg": 215,
+    "halving_mod81_deg_neu": 218,
+    "halving_mod81_exact_mod_6_primes_ok": 6,
+    "hensel_60words_through_mod6561_all_003": true,
+    "hensel_det_identically_1_mod3": true,
+    "hensel_max_level_tested": 6561,
+    "non_exceptions_m_eq_mp": [
+      "(1, omega^2)",
+      "(sgn, omega^2)",
+      "(std, omega^2)"
+    ],
+    "rho_consistent_mod27": true,
+    "std_omega_C_neutral_null_mode_exact_zero": true
+  },
+  "L2_3adic_layer_step_law_mod19683": {
+    "full_orbit_dims_mod729": [
+      2,
+      2,
+      3,
+      7
+    ],
+    "g2_pass": true,
+    "goldman_2form_signs_C_S_tau": [
+      1,
+      1,
+      -1
+    ],
+    "mahler_mod19683": {
+      "all_goldman_div_zero_mod3": true,
+      "all_v4_rigid": true,
+      "cube_map_ranks": [
+        2,
+        2,
+        3,
+        7,
+        7,
+        7
+      ],
+      "dims": [
+        2,
+        2,
+        3,
+        7,
+        7,
+        7,
+        12
+      ],
+      "layer_details": {
+        "r3_mod27": {
+          "dim": 2,
+          "max_poly_deg": 0,
+          "rank_O_minus": 2,
+          "rank_O_plus": 2,
+          "rank_f0": 2
+        },
+        "r4_mod81": {
+          "dim": 2,
+          "max_poly_deg": 0,
+          "rank_O_minus": 2,
+          "rank_O_plus": 2,
+          "rank_f0": 2
+        },
+        "r5_mod243": {
+          "dim": 3,
+          "max_poly_deg": 1,
+          "rank_O_minus": 3,
+          "rank_O_plus": 3,
+          "rank_f0": 3
+        },
+        "r6_mod729": {
+          "dim": 7,
+          "max_poly_deg": 1,
+          "rank_O_minus": 4,
+          "rank_O_plus": 4,
+          "rank_f0": 4
+        },
+        "r7_mod2187": {
+          "dim": 7,
+          "max_poly_deg": 1,
+          "rank_O_minus": 4,
+          "rank_O_plus": 4,
+          "rank_f0": 4
+        },
+        "r8_mod6561": {
+          "dim": 7,
+          "max_poly_deg": 1,
+          "rank_O_minus": 4,
+          "rank_O_plus": 4,
+          "rank_f0": 4
+        },
+        "r9_mod19683": {
+          "dim": 12,
+          "max_poly_deg": 2,
+          "rank_O_minus": 7,
+          "rank_O_plus": 7,
+          "rank_f0": 7
+        }
+      },
+      "max_nz_deg_global": 2,
+      "raw_cs_fails": 0,
+      "raw_cs_trials": 60,
+      "sum_dims": 40
+    },
+    "pf4_single_half_mod729_dims": [
+      2,
+      2,
+      3,
+      4
+    ],
+    "v4_commutes_g1_over_Zxyz": true,
+    "v4_normalizes_C_S_exact": true
+  },
+  "L3_b2008_mirror_chiral_flux_and_c60_crosscheck": {
+    "c60_Jk_all_ok": true,
+    "c60_Jk_cross_check": {
+      "mod_243": {
+        "J_k_commutes_Vieta3_squared": true,
+        "J_k_maps_O_minus_to_O_minus": true,
+        "O_minus_size": 2916,
+        "heis_shifts_mod_3k": [
+          [
+            0,
+            81,
+            81
+          ],
+          [
+            0,
+            81,
+            162
+          ],
+          [
+            0,
+            162,
+            81
+          ],
+          [
+            0,
+            162,
+            162
+          ]
+        ]
+      },
+      "mod_729": {
+        "J_k_commutes_Vieta3_squared": true,
+        "J_k_maps_O_minus_to_O_minus": true,
+        "O_minus_size": 26244,
+        "heis_shifts_mod_3k": [
+          [
+            0,
+            243,
+            243
+          ],
+          [
+            0,
+            243,
+            486
+          ],
+          [
+            0,
+            486,
+            243
+          ],
+          [
+            0,
+            486,
+            486
+          ]
+        ]
+      },
+      "mod_81": {
+        "J_k_commutes_Vieta3_squared": true,
+        "J_k_maps_O_minus_to_O_minus": true,
+        "O_minus_size": 324,
+        "heis_shifts_mod_3k": [
+          [
+            0,
+            27,
+            27
+          ],
+          [
+            0,
+            27,
+            54
+          ],
+          [
+            0,
+            54,
+            27
+          ],
+          [
+            0,
+            54,
+            54
+          ]
+        ]
+      }
+    },
+    "chiral_master_law_max_err": "1.80553e-46",
+    "chiral_reports": {
+      "mod_27": {
+        "flux_cases": {
+          "theta_0_sym": {
+            "c_factors": {
+              "c0": "6.0",
+              "c1": "-3.0",
+              "c2": "-3.0"
+            },
+            "tops": {
+              "q0_second_abs": "5.29150262213",
+              "q0_top_abs": "6.0",
+              "q1_second_abs": "2.64575131106",
+              "q1_top_abs": "2.64575131106",
+              "q2_second_abs": "2.64575131106",
+              "q2_top_abs": "2.64575131106"
+            }
+          },
+          "theta_pi_over_2": {
+            "c_factors": {
+              "c0": "7.01249683762e-47",
+              "c1": "-5.19615242271",
+              "c2": "5.19615242271"
+            },
+            "tops": {
+              "q0_second_abs": "6.18444090066e-47",
+              "q0_top_abs": "7.01249683762e-47",
+              "q1_second_abs": "4.58257569496",
+              "q1_top_abs": "4.58257569496",
+              "q2_second_abs": "4.58257569496",
+              "q2_top_abs": "4.58257569496"
+            }
+          },
+          "theta_pi_over_3": {
+            "c_factors": {
+              "c0": "3.0",
+              "c1": "-6.0",
+              "c2": "3.0"
+            },
+            "tops": {
+              "q0_second_abs": "2.64575131106",
+              "q0_top_abs": "3.0",
+              "q1_second_abs": "5.29150262213",
+              "q1_top_abs": "5.29150262213",
+              "q2_second_abs": "2.64575131106",
+              "q2_top_abs": "2.64575131106"
+            }
+          },
+          "theta_pi_over_9": {
+            "c_factors": {
+              "c0": "5.63815572472",
+              "c1": "-4.59626665871",
+              "c2": "-1.041889066"
+            },
+            "tops": {
+              "q0_second_abs": "4.97238596688",
+              "q0_top_abs": "5.63815572472",
+              "q1_second_abs": "4.05352617943",
+              "q1_top_abs": "4.05352617943",
+              "q2_second_abs": "0.918859787453",
+              "q2_top_abs": "0.918859787453"
+            }
+          }
+        },
+        "master_law_err": "1.80553e-46"
+      },
+      "mod_81": {
+        "master_law_err": "1.80553e-46"
+      }
+    },
+    "det_mod3_C_S_tau": [
+      1,
+      1,
+      -1
+    ],
+    "g3_pass": true,
+    "mirror_lock_all_3k_exact": true,
+    "mod135_Q10_exact_unpaired_match": true,
+    "mod135_fix_C": 3,
+    "mod135_orbit_size": 2880,
+    "mod135_paired_counts_mod_primes": [
+      949,
+      949
+    ],
+    "mod135_witness_fix_27_5_135": [
+      3,
+      0,
+      0
+    ],
+    "mod135_witness_word": "SCSCSCSCC",
+    "pf1_mod9_rho_fails": true,
+    "pf2_mod25_fails_fix3": true,
+    "pf2_mod25_fix_C": 1,
+    "pf5_real_P_only_mag_diff": "5.60519e-45",
+    "pf6_broken_C_comm_norm": "12.0"
+  },
+  "L4_planted_controls": {
+    "PF1_mod9_rho_breaks": true,
+    "PF2_mod25_breaks_fix3": true,
+    "PF3_mod135_breaks_S3xZ3_10_unpaired": true,
+    "PF4_single_half_drops_d6_7_to_4": true,
+    "PF5_real_P_only_locks_magnitudes": true,
+    "PF6_broken_C_conj_breaks_comm": true,
+    "caught_count": 6
+  },
+  "ast_hygiene": {
+    "ast_clean": true,
+    "complex_literals": 0,
+    "float_literals": 0,
+    "float_or_complex_casts": 0,
+    "forbidden_imports": []
+  },
+  "card_id": "AGY-002_A2-LISTENING-TOWER",
+  "firewall": "0 of 19",
+  "gates": {
+    "G1_L1_all_3k_proof_and_Zx_halving": true,
+    "G2_L2_v4_goldman_and_mod19683_steps": true,
+    "G3_L3_mirror_chiral_flux_and_c60": true,
+    "G4_all_6_planted_controls_caught": true,
+    "G5_ast_clean": true,
+    "G6_zero_json_floats": true,
+    "all_gates_passed": true,
+    "json_float_count": 0
+  },
+  "runtime_seconds": "304",
+  "seat": "agy-002"
+}
