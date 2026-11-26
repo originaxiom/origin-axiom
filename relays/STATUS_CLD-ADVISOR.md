@@ -1,14 +1,37 @@
 seat: cld-advisor
-read: M51
-state: working (at the author's word, 2026-11-26)
-on: M49 TO M51 ANSWERED under docs/handoffs/BUILDER_TO_MAIN_2026-11-26_M49_TO_M51_CRITIQUE_AND_BUILD_PLAN/: a critique of draft 1 with § 8 (custody by the runner's own sightings; the failing control run and required to fail; the record check from the runner's terms; the peer offered by rotation; sealing before opening for blindness; a landing tool, which does not exist on main; a baseline of failures that only shrinks), what to reuse and retire, the queue as a file per card, and a plan of five series, 31 patches, in the order of § 6.3. R81-3 landed; R82-2 waits on your reading
-needs: two decisions before series 1 lands: where the runner runs (the author's), and the four fields added to the claim card; and your reading of the plan
-next push: at the author's word
+read: M54
+state: working (the thin path, at the author's word, 2026-11-26)
+on: THE THIN PATH'S CUT posted below (12 patches, T1 to T12); T1, the queue's schema, being built on your 5b3d8dc95
+needs: nothing to go on; a question of schema is decided in the patch and said there
+next push: T1, under docs/handoffs/
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
+
+## The thin path's cut (M54; draft § 9), 2026-11-26
+
+Twelve patches, each one a series of one under `docs/handoffs/BUILDER_TO_MAIN_<date>_T<n>_<name>/`, built on your head of
+the day, each with a test that fails when it is broken and a command that runs it by hand before the workflow exists.
+
+| | patch | what it carries |
+|---|---|---|
+| T1 | the queue's schema | `queue/cards/Q<nnnn>.json`: the card's id, seat code, branch, commit, path, status and append-only history; the statuses and the moves allowed between them; the seat code's form, checked against the scoreboard's pattern; the gate `queue-schema` |
+| T2 | the card's form | the four fields of § 9 added to `docs/CLAIM_CARD.md`; the form check (every field filled; imports named; the failing control a command; the decisive lines named) |
+| T3 | discovery | claim cards on every seat branch (seat_intake.py's reading, reused); a branch that cannot be reached is reported, not a stop; ids given; a refiled card linked to its history by its script's hash |
+| T4 | custody | the sighting log, append-only: the expectations sighted before the output; a sealed commit no longer on its branch returns the card |
+| T5 | the sandboxed rerun | no network; the allowed imports read from the script's syntax tree (python-flint, and sage with GAP, at pinned versions; sage marks a card heavy); about 30 minutes a card; the decisive lines normalised and hashed; the failing control must fail; every package's version recorded |
+| T6 | the record check and "deciding" | topic_sweep, retraction_sweep and already_banked on the runner's own terms, attached to the card; "deciding" computed; a deciding card's REPRODUCED-only premises flagged; the firewall's flag to the author |
+| T7 | the runner and the workflow | `scripts/queue/intake.py`, the steps T2 to T6 in one command; `.github/workflows/intake.yml` with two jobs (seat code read-only, no secrets; the queue's writer to the queue's branch), the schedule and the manual trigger; a README of the settings the author makes (the budget at $0, main protected from the runner's token) |
+| T8 | the peer note | its schema: the peer's own script, its hash, its output hash, "reran" or "re-derived"; offers made by hand in the trial |
+| T9 | the banking verdicts | ACCEPT, RETURN, REFUSE; sealed, then opened; a verdict whose seal came after the other's opening refused; two ACCEPTs bank; a split to main, and on main's own card to the auditor; the peer note sealed until both banking seals are in |
+| T10 | the known-failures baseline | a file that may only shrink, a register row on each entry; the gate refuses a new failure |
+| T11 | the landing tool | the single writer of the arc, the lock, the ledger rows and the log pair; the arc's number taken at landing; gates and the suite on a fresh clone against the baseline; refused otherwise |
+| T12 | the plant ledger | its format and its seal per round; its contents are main's and this seat does not see them |
+
+The seat code rides on T1 (the field) and T2 (the form). Left for after the trial, in the plan's order: the rotation of
+offers, the timeouts and caps, the measures, the identity table, the audit ledger and the badges.
 
 ## Sent with this push: the chain on your 204ee91ed, card C17, C14's second part, C13's first two follow-ups
 
