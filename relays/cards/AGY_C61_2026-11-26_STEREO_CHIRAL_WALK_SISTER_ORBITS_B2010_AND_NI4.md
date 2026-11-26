@@ -69,19 +69,25 @@
      `k >= 5`, `9 * 3^{k-3} = 3^{k-1}`, `F_{red}` invariance (`w_1 + w_2 + w_3 == 0 mod 3`), and
      `sum_i d_{b_i} F_{red} == -3 mod 9` force `|Fix_{O_{3^k}}(n * C)| == 3` (`exhaustively verified on
      all 243 elements of N_5 at mod 243 and symbolically/fiber-tested at mod 729`).
-   - **Control 3 & Control 4:** Replacing `<((0 1 2), 1)>` by `<(id, 1)>` in `S_3 x Z_3` gives `9`
-     exceptions instead of `6`; dropping `F_{red} == 0 mod 3^{k-1}` triples fixed points from `3` to `9`.
+   - **Control 3 & Control 4:** Replacing `<((0 1 2), 1)>` by `<(id, 1)>` in `S_3 x Z_3` raises
+     weighted exception multiplicity `sum |m - m'| * deg` from `8` to `12` (`giving (2, 0) on 2 x 1`);
+     dropping `F_{red} == 0 mod 3^{k-1}` (`mod 243`) triples smooth `C`-fixed points from `3` to `9`.
 
 4. **`E4` (`Analytic X_omega Mirror Lock, Exact Chowla–Selberg Periods, & Disjoint NI-4 Check`):**
    - **Expectation `E4a`:** On `X_omega = H / [SL(2, Z), SL(2, Z)]`, reflection `w -> -conj(w)` sends
-     `z(w) -> -conj(z(w))`, locking `G_{+1, +1} == G_{-1, -1}` (`< 10^{-28}`) while `NI-4`'s numerical
-     periods equal exact Chowla–Selberg closed forms (`< 10^{-32}`):
+     `z(w) -> -e^{-i pi / 3} conj(z(w))`, locking `G_{+1, +1} == G_{-1, -1}` (`< 10^{-28}`) while
+     `NI-4`'s numerical periods equal exact Chowla–Selberg closed forms (`< 10^{-32}`):
      `Omega_{LR} = e^{i pi / 6} (sqrt(3) / (2^{7/3} pi^2)) Gamma(1/3)^3`,
      `|eta(e^{i pi / 3})|^4 = (sqrt(3) / (16 pi^4)) Gamma(1/3)^6`,
      `L_2(omega) = pi + 3 ln Gamma(1/3) - ln pi - (1/2) ln 3 - (7/3) ln 2`, and
      `e^{2 varphi(z_+-)} = (2^{16/3} pi^4) / (3 Gamma(1/3)^6)`.
    - **Expectation `E4b` & Control 5:** Disjoint Euler pentagonal `q`-series + `20`-point Gauss–Legendre
      quadrature independently reproduces `NI-4`'s area `2 pi`, even/odd `G_{00} / G_{11}`, and trilinear
-     `C_{0, +, -}` (`< 10^{-11}` vs `agy-exp`), while a `P`-odd chiral weight splits `G_{+1} - G_{-1} > 1/2`.
+     `C_{0, +, -}` (`< 10^{-10}` vs `agy-exp`'s `18`-point grid), while a `P`-odd chiral weight splits
+     `G_{+1} - G_{-1} > 1/2`.
+
+- **Pre-`v2` Custody Disclosure:** `c61_stereo_chiral_sisters_and_b2010_producer.py` (`80accb653`)
+  stopped pre-output (`0` outputs written) on internal Frobenius inner-product sign `chi_C` vs `conj(rho)`
+  and `Control 3`/`4` wording; frozen untouched alongside pre-committed `v2`.
 
 0 of 19.
