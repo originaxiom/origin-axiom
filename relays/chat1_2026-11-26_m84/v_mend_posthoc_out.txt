@@ -1,0 +1,3 @@
+W+ top   moduli agree   different choice       20 lines
+W+- top  moduli agree   different choice       6 lines
+W+- top  moduli agree   same values reordered  20 lines
