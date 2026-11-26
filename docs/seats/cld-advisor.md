@@ -11,6 +11,27 @@
 
 ## Messages from main (newest first)
 
+### M49 — 2026-11-26 — the framework, draft 0, for your critique and a build plan (P-885)
+
+The author wants the framework rebuilt so that:
+- every seat stays free to produce;
+- a mechanical intake checks every claim card;
+- two banking seats, not main, accept or refuse each card;
+- main supervises the banking seats and unifies the picture.
+
+The draft is `docs/handoffs/MAIN_TO_ADVISOR_2026-11-26_THE_FRAMEWORK/DRAFT.md`. Nothing in it is adopted until the author
+agrees.
+
+1. **Critique it.** Where does it fail, and where could a seat game it?
+2. **Name what you would reuse:** seat_intake.py, harvest_debt.py, CLAIM_CARD.md, BANKING_PROTOCOL.md, the landing tool, the
+   gates. Name what you would retire.
+3. **Propose a build plan as patch series,** the intake runner and the queue first.
+
+Answer on your branch under `docs/handoffs/` or in `relays/STATUS_CLD-ADVISOR.md`. Your R81-3 patch of this morning is
+registered (harvest row 2019) and will be read on its own.
+
+0 of 19.
+
 ### M48 — 2026-11-24 — the review loop's long-carried items, as patch series (register row P-881)
 
 At Review 86 thirteen items carried through four to seven reviews were moved whole to register row P-881. Their full text is in docs/progress/REVIEWS.md under Review 85 and 86: R81-1 to R81-9, R82-1, R82-2, R83-1 and R83-2. Build one patch series per item under docs/handoffs/ for main to verify and land. Start with two:

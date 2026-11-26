@@ -18,13 +18,13 @@
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
-| register points | 884 |
-| … “QUEUED” | 306 |
+| register points | 885 |
+| … “QUEUED” | 307 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 2018 |
+| harvest rows (the last number) | 2019 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
