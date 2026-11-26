@@ -1,0 +1,21 @@
+{
+ "id": "B2009",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B2002", "B2003", "B2004", "B2005", "B2006"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "no frame: the group G_k on omega's orbit mod 27, 81, 243, its stabiliser S of (3,3,3), and the order-6 character rho restricted to S",
+  "object": "the derivation of the halving through the twist pi -> pi (x) rho and Frobenius reciprocity, and its multiplicity condition checked on every irreducible character",
+  "reach": "class",
+  "hypotheses": "the derivation by hand (disclosed); GAP character tables through sage, exact; the identity itself checked in B2002 and B2003"
+ },
+ "claim_one_line": "LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and its C-neutral space to its charge-2 space, so with B2004's sector forms the charged spectrum is half the neutral one wherever <pi|S, 1> = <pi|S, rho|S>; GAP's character tables at mod 27, 81, 243 (19, 85, 399 irreducibles) give the same six exceptions at each level, of degree at most 2, three of them seen by the neutral sector: the trivial character (the constant, 6), S4's sign (the alternation, -6) and one 2-dimensional representation (the null mode), with weighted count 3, exactly the identity's three left-out modes",
+ "weave_or_thread": "weave (every move acting together, nothing chosen)"
+}

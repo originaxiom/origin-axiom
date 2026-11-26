@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1705 of 1705 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1706 of 1706 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1198)
+## PROVED (1199)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1210,6 +1210,7 @@
 | `B2006` | “LISTENING 21, THE SMALL GROUP IS A 3-ADIC LAYER OVER THE CUBE GROUP (PROVED; data-free): reduction mod 9 maps omega's orbit mod 27, 81, 243 equivariantly onto the cube's 8 points with uniform fibres (9, 81, 729), so G_k maps onto S4 with a 3-group kernel: Z3^2 at mod 27, Z9^2 at mod 81, non-abelian of order 3^7 and exponent 27 at mod 243; the order-6 character's order-2 half is trivial on the kernel (S4's sign pulled back) and its order-3 half, omega's charge, lives on the layer; the halving appears exactly when the layer appears” |  | 0 |
 | `B2007` | “LISTENING 22, THE LAYER'S LAW UP THE TOWER (PROVED for its checks; data-free): each step of the 3-adic layer over the cube group is elementary abelian (Z3^2 at mod 27, Z3^2 at mod 81, Z3^3 at mod 243, Z3^7 at mod 729; L2's 27 at 729 failed), the whole layer reaching order 3^14 (invariants [27, 81], class 4) and the group 114,791,256 at mod 729, whose abelianisation is still Z6; on the leading modes at mod 729 the halving holds (post hoc, shift-invert: all 59 half-neutral values below the top in the common window matched to 2.3e-7; L3's plain sparse solve failed as worded on its precision)” |  | 0 |
 | `B2008` | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1), so it commutes exactly with the unfolding at every level run and carries charge 1 onto charge 2; it is not one of the moves (tau not in G_k at mod 27, 81, 243; <G_k, tau> has order 2|G_k|), and with it the abelianisation is Z2 x Z2, omega's order-3 charge gone; so the pair is locked by the orientation-reversing mirror while the charge lives in the orientation-preserving part, and the 2 -> 1 + 1 split needs a handedness the whole does not supply (the chirality bit, met from the unfolding)” |  | 0 |
+| `B2009` | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and its C-neutral space to its charge-2 space, so with B2004's sector forms the charged spectrum is half the neutral one wherever <pi|S, 1> = <pi|S, rho|S>; GAP's character tables at mod 27, 81, 243 (19, 85, 399 irreducibles) give the same six exceptions at each level, of degree at most 2, three of them seen by the neutral sector: the trivial character (the constant, 6), S4's sign (the alternation, -6) and one 2-dimensional representation (the null mode), with weighted count 3, exactly the identity's three left-out modes” |  | 0 |
 
 ## NEGATIVE (388)
 

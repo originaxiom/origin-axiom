@@ -1,0 +1,4 @@
+k = 3: 72 points
+k = 4: 648 points
+k = 5: 5832 points
+the exported permutations, regenerated here and not committed, have the digest 80644e49c5a9b469c1316f5fbf35f9ea45133946889ba4a8d0b126e796b49bb1

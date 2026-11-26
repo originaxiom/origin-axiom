@@ -1,0 +1,24 @@
+mod 27: |G| = 216, |S| = 3, rho found among the linear characters: True; 19 irreducible characters; with m != m': 6  [0 s]
+    degree 1, m = 1, m' = 0, C-neutral dimension 1 (trivial)
+    degree 1, m = 1, m' = 0, C-neutral dimension 1 (rho^3, S4's sign)
+    degree 1, m = 0, m' = 1, C-neutral dimension 0 (rho)
+    degree 1, m = 0, m' = 1, C-neutral dimension 0
+    degree 2, m = 0, m' = 1, C-neutral dimension 0
+    degree 2, m = 1, m' = 0, C-neutral dimension 1
+    exceptions with a non-zero C-neutral subspace: 3; sum over all irreducibles of degree * (m - m') = 0; sum of (m - m') * C-neutral dimension = 3
+mod 81: |G| = 1944, |S| = 3, rho found among the linear characters: True; 85 irreducible characters; with m != m': 6  [2 s]
+    degree 1, m = 1, m' = 0, C-neutral dimension 1 (trivial)
+    degree 1, m = 1, m' = 0, C-neutral dimension 1 (rho^3, S4's sign)
+    degree 1, m = 0, m' = 1, C-neutral dimension 0 (rho)
+    degree 1, m = 0, m' = 1, C-neutral dimension 0
+    degree 2, m = 0, m' = 1, C-neutral dimension 0
+    degree 2, m = 1, m' = 0, C-neutral dimension 1
+    exceptions with a non-zero C-neutral subspace: 3; sum over all irreducibles of degree * (m - m') = 0; sum of (m - m') * C-neutral dimension = 3
+mod 243: |G| = 52488, |S| = 9, rho found among the linear characters: True; 399 irreducible characters; with m != m': 6  [71 s]
+    degree 1, m = 1, m' = 0, C-neutral dimension 1 (trivial)
+    degree 1, m = 1, m' = 0, C-neutral dimension 1 (rho^3, S4's sign)
+    degree 1, m = 0, m' = 1, C-neutral dimension 0 (rho)
+    degree 1, m = 0, m' = 1, C-neutral dimension 0
+    degree 2, m = 0, m' = 1, C-neutral dimension 0
+    degree 2, m = 1, m' = 0, C-neutral dimension 1
+    exceptions with a non-zero C-neutral subspace: 3; sum over all irreducibles of degree * (m - m') = 0; sum of (m - m') * C-neutral dimension = 3

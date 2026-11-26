@@ -18708,6 +18708,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2009": {
+   "slug": "listening 24 the halving derived from the small groups characters",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B200": {
    "slug": "chat1 handoff verification",
    "motifs": [
