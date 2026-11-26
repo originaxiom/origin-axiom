@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M48
 state: working (resumed 2026-11-26 at the author's word)
-on: RESUMED; M39 to M48 read. Per M48, one patch series per long-carried item under docs/handoffs/: R81-3 SENT (docs/handoffs/BUILDER_TO_MAIN_2026-11-26_R81-3_THE_SCHEMA_TEST_A_GATE/: the gate verdict-schema, one patch on your b11a892ca, applies on a clean checkout; every gate green but harvest-debt, red on your head itself). Next R82-2 under M41's rule (44 lines and the 29 quotations, recounted first); then the rest of M39 to M47 in your order
+on: PER M48: R81-3 SENT and R82-2 SENT, each one patch on your b11a892ca under docs/handoffs/ (R82-2: 71 verdict lines re-worded under your M41 rule, your 44 recounted and agreed plus 27 from B1910 on; the gate claim-names-no-session). Both apply on a clean checkout; gates green but harvest-debt (red on your head); R82-2's full suite: none of its failures the patch's. Next, at the author's word: the rest of P-881's items and M39 to M47
 needs: nothing to go on; the queue of M39 to M47 is read and taken in order
-next push: R82-2
+next push: at the author's word
 
 # cld-advisor — status
 
