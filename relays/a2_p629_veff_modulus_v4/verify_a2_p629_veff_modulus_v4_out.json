@@ -1,0 +1,1090 @@
+{
+  "P1_bosonic_and_FILQ_benchmarks": {
+    "FILQ_SUGRA_potentials": {
+      "n_1": {
+        "TS_invariance_rel_err": "4.31392e-48",
+        "V_2i": "4.95309478525",
+        "V_4i": "15404.5655518",
+        "V_i": "-8.87497563473",
+        "V_omega": "-8.32887651452",
+        "V_star": "-8.92881487087",
+        "V_xx": "4.80099474",
+        "V_yy": "6.915167507",
+        "grad_norm_at_star": "1.30003e-33",
+        "hess_evals": [
+          "4.80099474",
+          "6.915167507"
+        ],
+        "strict_2d_min": true,
+        "y_star": "1.234579946698"
+      },
+      "n_2": {
+        "TS_invariance_rel_err": "8.99838e-48",
+        "V_2i": "292.929636031",
+        "V_4i": "18196003.1638",
+        "V_i": "-26.2550641724",
+        "V_omega": "-23.1233946647",
+        "V_star": "-26.4595897532",
+        "V_xx": "34.42971839",
+        "V_yy": "45.26510884",
+        "grad_norm_at_star": "2.32637e-33",
+        "hess_evals": [
+          "34.42971839",
+          "45.26510884"
+        ],
+        "strict_2d_min": true,
+        "y_star": "1.1833896603947"
+      },
+      "n_3": {
+        "TS_invariance_rel_err": "1.31563e-47",
+        "V_2i": "4555.33960973",
+        "V_4i": "15549822235.8",
+        "V_i": "-77.6710182727",
+        "V_omega": "-64.1972995863",
+        "V_star": "-78.3405090283",
+        "V_xx": "168.5391032",
+        "V_yy": "211.8853612",
+        "grad_norm_at_star": "1.04003e-32",
+        "hess_evals": [
+          "168.5391032",
+          "211.8853612"
+        ],
+        "strict_2d_min": true,
+        "y_star": "1.1554390183117"
+      }
+    },
+    "TS_invariance_E2": "1.38742e-47",
+    "TS_invariance_E3": "0.0",
+    "TS_invariance_VRS": "6.09087e-47",
+    "bosonic_critical_points": {
+      "E_2": {
+        "cusp_grows": true,
+        "grad_i": "7.74022e-18",
+        "grad_omega": "2.07988e-18",
+        "hess_i": [
+          "-3.426824",
+          "15.480448"
+        ],
+        "hess_omega": [
+          "7.7111457",
+          "7.7111457"
+        ],
+        "i_is_saddle": true,
+        "omega_is_min": true,
+        "val_2i": "10.5469210695",
+        "val_4i": "35.5784367633",
+        "val_i": "6.02681203969",
+        "val_omega": "5.78335929968"
+      },
+      "E_3": {
+        "cusp_grows": true,
+        "grad_i": "1.76171e-17",
+        "grad_omega": "5.09376e-18",
+        "hess_i": [
+          "-7.2807785",
+          "35.23426"
+        ],
+        "hess_omega": [
+          "16.565026",
+          "16.565026"
+        ],
+        "i_is_saddle": true,
+        "omega_is_min": true,
+        "val_2i": "16.8885618566",
+        "val_4i": "130.372612151",
+        "val_i": "4.6589136156",
+        "val_omega": "4.1412565472"
+      },
+      "V_RS": {
+        "cusp_grows": true,
+        "grad_i": "6.49106e-19",
+        "grad_omega": "1.66617e-19",
+        "hess_i": [
+          "-0.29821132",
+          "1.2982113"
+        ],
+        "hess_omega": [
+          "0.66666667",
+          "0.66666667"
+        ],
+        "i_is_saddle": true,
+        "omega_is_min": true,
+        "val_2i": "1.40126187128",
+        "val_4i": "2.80249584372",
+        "val_i": "1.054688281",
+        "val_omega": "1.03351927596"
+      }
+    },
+    "box_vs_fourier_E3_rel_err": "5.25549e-8",
+    "g1_pass": true,
+    "half_period_exact_ratio": "-15/16",
+    "half_period_lattice_err": "1.4088e-7",
+    "half_period_lattice_ratio": "-0.9375001409",
+    "kronecker_first_limit_max_err": "3.31219e-18",
+    "pf1_drop_nonhol_S_rel_err": "1.73824",
+    "pf3_shift_off_FILQ1_dV": "0.065171328",
+    "pf3_shift_off_FILQ1_grad": "1.1092536"
+  },
+  "P2_boson_fermion_SL2Z_phase_diagram": {
+    "SL2Z_TS_invariance_all288": {
+      "Tr2": "5.7598e-36",
+      "V4": "1.05456e-35",
+      "VCW_1": "1.05889e-35",
+      "VCW_tr": "1.02065e-35"
+    },
+    "fundamental_domain_scans": {
+      "x_0": [
+        {
+          "Tr2": "1088.153797",
+          "V4": "-404.578343",
+          "VCW_1": "1.522087988",
+          "VCW_tr": "6.000655241",
+          "V_FILQ3": "-78.34048867",
+          "V_tot_cF100": "73.86831013",
+          "V_tot_cF70": "28.20567049",
+          "ratio_minus_FILQ3_over_VCW1": "0.0",
+          "y": "231/200"
+        },
+        {
+          "Tr2": "1975.183429",
+          "V4": "-1977.443578",
+          "VCW_1": "4.331184684",
+          "VCW_tr": "28.08730652",
+          "V_FILQ3": "-6.951619336",
+          "V_tot_cF100": "426.1668491",
+          "V_tot_cF70": "296.2313086",
+          "ratio_minus_FILQ3_over_VCW1": "0.0",
+          "y": "3/2"
+        },
+        {
+          "Tr2": "7346.535242",
+          "V4": "-34799.78895",
+          "VCW_1": "-10.60038582",
+          "VCW_tr": "479.837153",
+          "V_FILQ3": "4555.33961",
+          "V_tot_cF100": "3495.301027",
+          "V_tot_cF70": "3813.312602",
+          "ratio_minus_FILQ3_over_VCW1": "429.73338",
+          "y": "2"
+        },
+        {
+          "Tr2": "32272.28498",
+          "V4": "-803346.1431",
+          "VCW_1": "-2428.717588",
+          "VCW_tr": "10775.19121",
+          "V_FILQ3": "179943.5515",
+          "V_tot_cF100": "-62928.20727",
+          "V_tot_cF70": "9933.320356",
+          "ratio_minus_FILQ3_over_VCW1": "74.089945",
+          "y": "5/2"
+        },
+        {
+          "Tr2": "148392.4138",
+          "V4": "-20409011.23",
+          "VCW_1": "-118260.1759",
+          "VCW_tr": "266479.5645",
+          "V_FILQ3": "7227239.847",
+          "V_tot_cF100": "-4598777.742",
+          "V_tot_cF70": "-1050972.465",
+          "ratio_minus_FILQ3_over_VCW1": "61.113048",
+          "y": "3"
+        },
+        {
+          "Tr2": "695285.6368",
+          "V4": "-534447086.2",
+          "VCW_1": "-4568919.956",
+          "VCW_tr": "6812969.728",
+          "V_FILQ3": "319812095.8",
+          "V_tot_cF100": "-137079899.9",
+          "V_tot_cF70": "-12301.16495",
+          "ratio_minus_FILQ3_over_VCW1": "69.997308",
+          "y": "7/2"
+        },
+        {
+          "Tr2": "3296560.648",
+          "V4": "-1.408587301e+10",
+          "VCW_1": "-158744622.7",
+          "VCW_tr": "175941853.0",
+          "V_FILQ3": "1.554982224e+10",
+          "V_tot_cF100": "-324640029.4",
+          "V_tot_cF70": "4437698650.0",
+          "ratio_minus_FILQ3_over_VCW1": "97.954954",
+          "y": "4"
+        }
+      ],
+      "x_half": [
+        {
+          "Tr2": "1028.443339",
+          "V4": "-329.5515173",
+          "VCW_1": "1.329967033",
+          "VCW_tr": "4.948564366",
+          "V_FILQ3": "-66.10442786",
+          "V_tot_cF100": "66.89227542",
+          "V_tot_cF70": "26.99326444",
+          "ratio_minus_FILQ3_over_VCW1": "0.0",
+          "y": "1"
+        },
+        {
+          "Tr2": "2001.653253",
+          "V4": "-2034.129591",
+          "VCW_1": "4.411726016",
+          "VCW_tr": "28.89171775",
+          "V_FILQ3": "-2.54290952",
+          "V_tot_cF100": "438.6296921",
+          "V_tot_cF70": "306.2779116",
+          "ratio_minus_FILQ3_over_VCW1": "0.0",
+          "y": "3/2"
+        },
+        {
+          "Tr2": "7352.489777",
+          "V4": "-34850.36619",
+          "VCW_1": "-10.64958684",
+          "VCW_tr": "480.5454438",
+          "V_FILQ3": "4558.240831",
+          "V_tot_cF100": "3493.282147",
+          "V_tot_cF70": "3812.769752",
+          "ratio_minus_FILQ3_over_VCW1": "428.02044",
+          "y": "2"
+        },
+        {
+          "Tr2": "32273.49291",
+          "V4": "-803396.7444",
+          "VCW_1": "-2428.901247",
+          "VCW_tr": "10775.88685",
+          "V_FILQ3": "179946.4259",
+          "V_tot_cF100": "-62943.69875",
+          "V_tot_cF70": "9923.33865",
+          "ratio_minus_FILQ3_over_VCW1": "74.085526",
+          "y": "5/2"
+        },
+        {
+          "Tr2": "148392.6566",
+          "V4": "-20409064.5",
+          "VCW_1": "-118260.5131",
+          "VCW_tr": "266480.2844",
+          "V_FILQ3": "7227243.606",
+          "V_tot_cF100": "-4598807.702",
+          "V_tot_cF70": "-1050992.309",
+          "ratio_minus_FILQ3_over_VCW1": "61.112906",
+          "y": "3"
+        },
+        {
+          "Tr2": "695285.6859",
+          "V4": "-534447143.1",
+          "VCW_1": "-4568920.468",
+          "VCW_tr": "6812970.487",
+          "V_FILQ3": "319812101.8",
+          "V_tot_cF100": "-137079945.0",
+          "V_tot_cF70": "-12330.99637",
+          "ratio_minus_FILQ3_over_VCW1": "69.997301",
+          "y": "7/2"
+        },
+        {
+          "Tr2": "3296560.658",
+          "V4": "-1.408587307e+10",
+          "VCW_1": "-158744623.3",
+          "VCW_tr": "175941853.8",
+          "V_FILQ3": "1.554982225e+10",
+          "V_tot_cF100": "-324640088.1",
+          "V_tot_cF70": "4437698612.0",
+          "ratio_minus_FILQ3_over_VCW1": "97.954954",
+          "y": "4"
+        }
+      ]
+    },
+    "g2_pass": true,
+    "orbifolds_and_arc": {
+      "arc_exp_i_5pi_12": {
+        "Tr2": "1012.60843341",
+        "V4": "-313.01925997",
+        "VCW_1": "1.28462875149",
+        "VCW_tr": "4.71400641191"
+      },
+      "i": {
+        "Tr2": "999.152724735",
+        "V4": "-300.585371184",
+        "VCW_1": "1.24830100622",
+        "VCW_tr": "4.53508959234"
+      },
+      "omega_plus": {
+        "Tr2": "1007.44929125",
+        "V4": "-305.505716937",
+        "VCW_1": "1.26479662351",
+        "VCW_tr": "4.60938688241"
+      }
+    },
+    "pf2_subcritical_n1_plus_70VCW1_at_4i": "-1.111210823e+10",
+    "theorem_P2A_trace_renormalized_stabilization": {
+      "V4_dips_below_both_orbifolds_on_arc": true,
+      "VCW_tr_i_lt_omega_lt_arc": true,
+      "VCW_tr_monotone_cusp_to_plus_inf": true
+    },
+    "theorem_P2B_polynomial_casimir_nogo_and_transition": {
+      "VCW1_plus_100E3_at_4i": "-158731585.4",
+      "cB_crit_E3": "0.03186591721",
+      "orbifold_order_flips_across_cB_crit": true,
+      "polynomial_nogo_confirmed": true
+    },
+    "theorem_P2C_globally_bounded_coupled_vacuum": {
+      "cF_100_V_at_half_plus_3p5i": "-137079945.0",
+      "cF_100_V_at_half_plus_4i": "-324640088.1",
+      "cF_100_V_at_half_plus_5i": "3.022537521e+13",
+      "cF_100_bounded_deep_well": true,
+      "cF_70_L2_raw_T_reflection_sym_err": "3.82231e-13",
+      "cF_70_L2_raw_ode_res": "3.1032e-18",
+      "cF_70_V_at_zero_same_y": "-7043366.25917",
+      "cF_70_V_half_minus_V_zero": "-27.502813",
+      "cF_70_V_star": "-7043393.76198",
+      "cF_70_Vxx_at_half": "542.0459565",
+      "cF_70_Vxx_at_zero_saddle": "-541.8150515",
+      "cF_70_Vxx_over_cos2pix_pred": "0.99845672",
+      "cF_70_Vyy_at_half": "501742224.3",
+      "cF_70_cos2pix_Vxx_pred": "542.8837756",
+      "cF_70_cusp_wall_at_half_plus_4i": "4437698612.36",
+      "cF_70_gx_at_half": "8.07794e-26",
+      "cF_70_gy_at_half": "7.16513e-20",
+      "cF_70_small_y_FILQ3_well_V": "28.31243063",
+      "cF_70_x_star": "1/2",
+      "cF_70_y_star": "3.380451106",
+      "cF_crit_grid_upper_bound": "61.112906",
+      "true_2d_global_min_on_x_half": true
+    }
+  },
+  "P3_unsculpted_forward_unfolding_pieces2_and_3": {
+    "all_vacua_D_term_stable": true,
+    "all_vacua_radiative_EWSB_triggered": true,
+    "dynamic_V4_convention": "canonical_kinetic_G_s12_applied_first_and_Ynu_coupled_to_hu_star",
+    "g3_pass": true,
+    "g4_pass": true,
+    "guardrail4_benchmarks": {
+      "chowdhury_eberhardt_3sector_max_err": "8.75812e-47",
+      "chowdhury_eberhardt_yb_err": "0.0",
+      "chowdhury_eberhardt_yt_err": "8.75812e-47",
+      "chowdhury_eberhardt_ytau_err": "2.73691e-48",
+      "martin_7eq_soft_mass_max_err": "1.09476e-47",
+      "xing_zhou_dvcb_1hdm_down": "-4.60171e-5",
+      "xing_zhou_dvcb_2hdm_down": "1.64775e-5",
+      "xing_zhou_opposite_sign": true
+    },
+    "haar_10trial_U3_5_x_U3_nuR_max_drift": "3.68104e-40",
+    "max_abs_S_hyp_IR": "3.21424e-40",
+    "max_gauss_bonnet_err": "1.24485e-6",
+    "max_step_halving_80_160_err": "8.62231e-9",
+    "omega_Z3_kahler_isotropy_err": "5.8039e-8",
+    "pf4_degenerate_MR_identity_err": "6.7753e-36",
+    "pf4_degenerate_MR_spectral_spread": "6.74057e-36",
+    "pf5_broken_contraction_haar_rel_err": "432932.0",
+    "pf6_ewsb_killed": true,
+    "pf6_zero_yukawa_mHd2_IR": "1.0",
+    "pf6_zero_yukawa_mHu2_IR": "1.0",
+    "quartic_convention": "Branco_CE_half_l1_l2_with_l1D_eq_g2sq_plus_gYsq_over_4",
+    "uv_dflat_saturation_err": "0.0",
+    "vacua_unfolding": {
+      "V1_omega_plus": {
+        "branches": {
+          "DynamicV4_ferro_CURVED_s12": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "0.00136271",
+              "V12": "0.68910344",
+              "V13": "0.077434696",
+              "V23": "0.15161811",
+              "abs_S_hyp_IR": "3.81153e-43",
+              "d_m2m3": "0.039694946",
+              "e_m2m3": "0.079116468",
+              "g1": "0.41266715",
+              "g2": "0.61011921",
+              "g3": "1.0806485",
+              "l1_IR": "0.5822688",
+              "l2_IR": "0.64832819",
+              "l3_IR": "0.58877662",
+              "l4_IR": "-0.75717713",
+              "mHd2_IR": "-0.382609",
+              "mHu2_IR": "-0.21761509",
+              "mb_over_mtau": "2.0925063",
+              "min_D_term_stab_margin_t_lt_0": "0.0156492",
+              "min_sfermion_m2_IR": "0.19318797",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": true,
+              "step_halving_80_160_err": "6.25102e-9",
+              "t_EWSB_d": "-13.841359",
+              "t_EWSB_u": "-20.535276",
+              "u_m2m3": "0.066453079",
+              "yt_over_g3": "1.0156352"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "0.0128575",
+                "dm21_over_dm31": "0.00025683566",
+                "s12_sq": "0.39896937",
+                "s13_sq": "0.042108174",
+                "s23_sq": "0.023717879"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "0.0230238",
+                "dm21_over_dm31": "0.00012728355",
+                "s12_sq": "0.46751601",
+                "s13_sq": "0.077476049",
+                "s23_sq": "0.045712822"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "0.021026",
+                "dm21_over_dm31": "1.9067591e-5",
+                "s12_sq": "0.47864429",
+                "s13_sq": "0.067393723",
+                "s23_sq": "0.031320902"
+              }
+            },
+            "uv": {
+              "Jcp": "0.000950679",
+              "V12": "0.68977553",
+              "V13": "0.064516339",
+              "V23": "0.12659569",
+              "d_m2m3": "0.027476981",
+              "e_m2m3": "0.068704301",
+              "sd3": "1.0",
+              "se3": "0.86232148",
+              "std_ckm": true,
+              "su3": "0.95404161",
+              "u_m2m3": "0.045611566"
+            }
+          },
+          "Static_CURVED_s12": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "0.00428383",
+              "V12": "0.18658519",
+              "V13": "0.060906502",
+              "V23": "0.70265622",
+              "abs_S_hyp_IR": "2.24208e-42",
+              "d_m2m3": "0.59096747",
+              "e_m2m3": "0.55164143",
+              "g1": "0.4127243",
+              "g2": "0.6102922",
+              "g3": "1.0817832",
+              "l1_IR": "0.48180443",
+              "l2_IR": "0.49824488",
+              "l3_IR": "0.41057859",
+              "l4_IR": "-0.50363344",
+              "mHd2_IR": "-0.72323587",
+              "mHu2_IR": "-0.60750704",
+              "mb_over_mtau": "2.0384094",
+              "min_D_term_stab_margin_t_lt_0": "0.0153518",
+              "min_sfermion_m2_IR": "0.34266189",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": false,
+              "step_halving_80_160_err": "8.62231e-9",
+              "t_EWSB_d": "-9.2310622",
+              "t_EWSB_u": "-13.375088",
+              "u_m2m3": "0.74764523",
+              "yt_over_g3": "0.89423321"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "8.88925e-12",
+                "dm21_over_dm31": "0.010141947",
+                "s12_sq": "0.013589189",
+                "s13_sq": "0.00018006893",
+                "s23_sq": "0.043813971"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "5.08724e-13",
+                "dm21_over_dm31": "0.00021091085",
+                "s12_sq": "3.220608e-5",
+                "s13_sq": "0.00032521165",
+                "s23_sq": "0.25246191"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "4.7036e-11",
+                "dm21_over_dm31": "0.00018072513",
+                "s12_sq": "0.011741065",
+                "s13_sq": "0.0044148062",
+                "s23_sq": "0.28979838"
+              }
+            },
+            "uv": {
+              "Jcp": "0.00334892",
+              "V12": "0.1709949",
+              "V13": "0.054440966",
+              "V23": "0.61307144",
+              "d_m2m3": "0.49137205",
+              "e_m2m3": "0.49531462",
+              "sd3": "1.0",
+              "se3": "0.9468078",
+              "std_ckm": false,
+              "su3": "0.86066394",
+              "u_m2m3": "0.6608508"
+            }
+          },
+          "Static_FLAT": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "0.00428383",
+              "V12": "0.18658519",
+              "V13": "0.0609065",
+              "V23": "0.70265628",
+              "abs_S_hyp_IR": "3.21424e-40",
+              "d_m2m3": "0.59096748",
+              "e_m2m3": "0.55164142",
+              "g1": "0.4127243",
+              "g2": "0.6102922",
+              "g3": "1.0817832",
+              "l1_IR": "0.48180443",
+              "l2_IR": "0.49824488",
+              "l3_IR": "0.41057858",
+              "l4_IR": "-0.50363343",
+              "mHd2_IR": "-0.72323588",
+              "mHu2_IR": "-0.60750704",
+              "mb_over_mtau": "2.0384094",
+              "min_D_term_stab_margin_t_lt_0": "0.0153518",
+              "min_sfermion_m2_IR": "0.34266189",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": false,
+              "step_halving_80_160_err": "8.62231e-9",
+              "t_EWSB_d": "-9.2310621",
+              "t_EWSB_u": "-13.375088",
+              "u_m2m3": "0.74764523",
+              "yt_over_g3": "0.89423322"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "3.15379e-43",
+                "dm21_over_dm31": "0.010141953",
+                "s12_sq": "0.013589198",
+                "s13_sq": "0.00018006866",
+                "s23_sq": "0.043813983"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "5.13585e-43",
+                "dm21_over_dm31": "0.00021091085",
+                "s12_sq": "3.2206062e-5",
+                "s13_sq": "0.00032521174",
+                "s23_sq": "0.25246191"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "2.49417e-41",
+                "dm21_over_dm31": "0.00018072513",
+                "s12_sq": "0.011741066",
+                "s13_sq": "0.0044148065",
+                "s23_sq": "0.28979838"
+              }
+            },
+            "uv": {
+              "Jcp": "0.00334892",
+              "V12": "0.17099491",
+              "V13": "0.054440965",
+              "V23": "0.6130715",
+              "d_m2m3": "0.49137206",
+              "e_m2m3": "0.49531461",
+              "sd3": "1.0",
+              "se3": "0.94680782",
+              "std_ckm": false,
+              "su3": "0.86066394",
+              "u_m2m3": "0.6608508"
+            }
+          }
+        },
+        "curved_dirac_s12": {
+          "G_s12": [
+            "1.000000034",
+            "0.999999942",
+            "1.000000024"
+          ],
+          "gb_err": "5.32944e-7",
+          "grid_diff": "1.9011e-6",
+          "hyp_area_over_2pi": "1.0000005",
+          "kappa": "1.0000001"
+        },
+        "dynamic_V4_ferro_higgs": {
+          "align_hu_hd": "0.85436874",
+          "r_d": "0.046711779",
+          "r_u": "0.049801341"
+        },
+        "tau": "(0.5,0.8660254038)"
+      },
+      "V2_FILQ1_star": {
+        "branches": {
+          "DynamicV4_ferro_CURVED_s12": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "0.00469946",
+              "V12": "0.65413075",
+              "V13": "0.15913951",
+              "V23": "0.22330371",
+              "abs_S_hyp_IR": "2.15239e-42",
+              "d_m2m3": "0.018519895",
+              "e_m2m3": "0.041094996",
+              "g1": "0.41267253",
+              "g2": "0.61012751",
+              "g3": "1.0806836",
+              "l1_IR": "0.58367389",
+              "l2_IR": "0.66016965",
+              "l3_IR": "0.56875362",
+              "l4_IR": "-0.73095288",
+              "mHd2_IR": "-0.39112705",
+              "mHu2_IR": "-0.22447324",
+              "mb_over_mtau": "2.0442933",
+              "min_D_term_stab_margin_t_lt_0": "0.0162795",
+              "min_sfermion_m2_IR": "0.1840214",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": true,
+              "step_halving_80_160_err": "6.20191e-9",
+              "t_EWSB_d": "-13.642125",
+              "t_EWSB_u": "-20.032206",
+              "u_m2m3": "0.016089333",
+              "yt_over_g3": "1.0209997"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "0.0164652",
+                "dm21_over_dm31": "0.00010085697",
+                "s12_sq": "0.51431759",
+                "s13_sq": "0.042799314",
+                "s23_sq": "0.038856386"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "0.0319119",
+                "dm21_over_dm31": "0.00093610095",
+                "s12_sq": "0.59016547",
+                "s13_sq": "0.11437957",
+                "s23_sq": "0.10065349"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "0.0113672",
+                "dm21_over_dm31": "0.00043691637",
+                "s12_sq": "0.69239275",
+                "s13_sq": "0.028862273",
+                "s23_sq": "0.055725304"
+              }
+            },
+            "uv": {
+              "Jcp": "0.00332496",
+              "V12": "0.65743592",
+              "V13": "0.13293874",
+              "V23": "0.1880068",
+              "d_m2m3": "0.012900919",
+              "e_m2m3": "0.035377999",
+              "sd3": "1.0",
+              "se3": "0.89245049",
+              "std_ckm": true,
+              "su3": "0.96814406",
+              "u_m2m3": "0.011043442"
+            }
+          },
+          "Static_CURVED_s12": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "0.000772987",
+              "V12": "0.18290056",
+              "V13": "0.050107654",
+              "V23": "0.63440762",
+              "abs_S_hyp_IR": "6.27782e-43",
+              "d_m2m3": "0.77245003",
+              "e_m2m3": "0.56723568",
+              "g1": "0.41274298",
+              "g2": "0.61031967",
+              "g3": "1.0819141",
+              "l1_IR": "0.42537262",
+              "l2_IR": "0.53919985",
+              "l3_IR": "0.42213218",
+              "l4_IR": "-0.51634565",
+              "mHd2_IR": "-0.76942747",
+              "mHu2_IR": "-0.60659727",
+              "mb_over_mtau": "1.803886",
+              "min_D_term_stab_margin_t_lt_0": "0.0160598",
+              "min_sfermion_m2_IR": "0.30432458",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": false,
+              "step_halving_80_160_err": "8.10099e-9",
+              "t_EWSB_d": "-9.2029067",
+              "t_EWSB_u": "-12.133007",
+              "u_m2m3": "0.68091182",
+              "yt_over_g3": "0.93003007"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "0.000160321",
+                "dm21_over_dm31": "0.014088177",
+                "s12_sq": "0.0046277759",
+                "s13_sq": "0.00090090695",
+                "s23_sq": "0.083452803"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "0.00111548",
+                "dm21_over_dm31": "0.001756757",
+                "s12_sq": "0.037564059",
+                "s13_sq": "0.0055430169",
+                "s23_sq": "0.1666331"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "0.00189888",
+                "dm21_over_dm31": "0.0031620735",
+                "s12_sq": "0.014569362",
+                "s13_sq": "0.0050672495",
+                "s23_sq": "0.053653904"
+              }
+            },
+            "uv": {
+              "Jcp": "0.000576302",
+              "V12": "0.16296824",
+              "V13": "0.052509144",
+              "V23": "0.54208561",
+              "d_m2m3": "0.68933644",
+              "e_m2m3": "0.50464817",
+              "sd3": "0.88801381",
+              "se3": "1.0",
+              "std_ckm": false,
+              "su3": "0.96229082",
+              "u_m2m3": "0.57552479"
+            }
+          },
+          "Static_FLAT": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "0.000539949",
+              "V12": "0.182234",
+              "V13": "0.041470277",
+              "V23": "0.6977153",
+              "abs_S_hyp_IR": "5.73972e-41",
+              "d_m2m3": "0.75971833",
+              "e_m2m3": "0.56386304",
+              "g1": "0.41274354",
+              "g2": "0.61032143",
+              "g3": "1.0819292",
+              "l1_IR": "0.42823389",
+              "l2_IR": "0.54805893",
+              "l3_IR": "0.41532901",
+              "l4_IR": "-0.50834575",
+              "mHd2_IR": "-0.76815254",
+              "mHu2_IR": "-0.6025505",
+              "mb_over_mtau": "1.8135923",
+              "min_D_term_stab_margin_t_lt_0": "0.0164799",
+              "min_sfermion_m2_IR": "0.29296695",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": false,
+              "step_halving_80_160_err": "8.05644e-9",
+              "t_EWSB_d": "-9.2210524",
+              "t_EWSB_u": "-12.049971",
+              "u_m2m3": "0.66068971",
+              "yt_over_g3": "0.93845153"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "0.000567002",
+                "dm21_over_dm31": "0.0093898343",
+                "s12_sq": "0.013945449",
+                "s13_sq": "0.00090510187",
+                "s23_sq": "0.058302151"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "0.00118609",
+                "dm21_over_dm31": "0.0016475547",
+                "s12_sq": "0.038495117",
+                "s13_sq": "0.0053171868",
+                "s23_sq": "0.14169725"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "0.00173991",
+                "dm21_over_dm31": "0.0029573293",
+                "s12_sq": "0.015275357",
+                "s13_sq": "0.0050233463",
+                "s23_sq": "0.042256575"
+              }
+            },
+            "uv": {
+              "Jcp": "0.000418133",
+              "V12": "0.16219544",
+              "V13": "0.04546597",
+              "V23": "0.60687818",
+              "d_m2m3": "0.68021487",
+              "e_m2m3": "0.50131683",
+              "sd3": "0.89135757",
+              "se3": "1.0",
+              "std_ckm": false,
+              "su3": "0.97739224",
+              "u_m2m3": "0.55537595"
+            }
+          }
+        },
+        "curved_dirac_s12": {
+          "G_s12": [
+            "1.017240181",
+            "0.9324489905",
+            "1.050310828"
+          ],
+          "gb_err": "1.24485e-6",
+          "grid_diff": "1.1208e-5",
+          "hyp_area_over_2pi": "0.99999876",
+          "kappa": "1.1264003"
+        },
+        "dynamic_V4_ferro_higgs": {
+          "align_hu_hd": "0.80236955",
+          "r_d": "0.04015294",
+          "r_u": "0.041013697"
+        },
+        "tau": "(0.0,1.234579947)"
+      },
+      "V3_coupled_cF70_star": {
+        "branches": {
+          "DynamicV4_ferro_CURVED_s12": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "9.09517e-5",
+              "V12": "0.13542711",
+              "V13": "0.015904632",
+              "V23": "0.056550652",
+              "abs_S_hyp_IR": "1.09862e-42",
+              "d_m2m3": "0.0019223943",
+              "e_m2m3": "0.0051989963",
+              "g1": "0.4126776",
+              "g2": "0.61012842",
+              "g3": "1.0806405",
+              "l1_IR": "0.57521518",
+              "l2_IR": "0.65464481",
+              "l3_IR": "0.59696612",
+              "l4_IR": "-0.76775637",
+              "mHd2_IR": "-0.38953669",
+              "mHu2_IR": "-0.21508125",
+              "mb_over_mtau": "1.9581216",
+              "min_D_term_stab_margin_t_lt_0": "0.0166255",
+              "min_sfermion_m2_IR": "0.189971",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": true,
+              "step_halving_80_160_err": "6.12987e-9",
+              "t_EWSB_d": "-13.416029",
+              "t_EWSB_u": "-20.319082",
+              "u_m2m3": "0.0047110425",
+              "yt_over_g3": "1.0185798"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "0.000129189",
+                "dm21_over_dm31": "4.9987397e-12",
+                "s12_sq": "0.31656273",
+                "s13_sq": "0.0023224404",
+                "s23_sq": "0.0011085193"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "0.00412701",
+                "dm21_over_dm31": "0.0032370337",
+                "s12_sq": "0.63174013",
+                "s13_sq": "0.014083892",
+                "s23_sq": "0.013858345"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "0.000133424",
+                "dm21_over_dm31": "0.00056169631",
+                "s12_sq": "0.75966137",
+                "s13_sq": "0.0069393853",
+                "s23_sq": "8.1173783e-5"
+              }
+            },
+            "uv": {
+              "Jcp": "6.2892e-5",
+              "V12": "0.13530832",
+              "V13": "0.013221747",
+              "V23": "0.047023576",
+              "d_m2m3": "0.0013279668",
+              "e_m2m3": "0.0044139779",
+              "sd3": "1.0",
+              "se3": "0.94205499",
+              "std_ckm": true,
+              "su3": "0.96634205",
+              "u_m2m3": "0.0032113689"
+            }
+          },
+          "Static_CURVED_s12": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": false,
+              "Jcp": "7.52158e-5",
+              "V12": "0.11040775",
+              "V13": "0.020585993",
+              "V23": "0.1631589",
+              "abs_S_hyp_IR": "4.48416e-43",
+              "d_m2m3": "0.0045771567",
+              "e_m2m3": "0.0091163993",
+              "g1": "0.4126823",
+              "g2": "0.61010067",
+              "g3": "1.0803452",
+              "l1_IR": "0.5476039",
+              "l2_IR": "0.65455254",
+              "l3_IR": "0.56154109",
+              "l4_IR": "-0.71785292",
+              "mHd2_IR": "-0.38671224",
+              "mHu2_IR": "-0.2204151",
+              "mb_over_mtau": "1.7912965",
+              "min_D_term_stab_margin_t_lt_0": "0.014465",
+              "min_sfermion_m2_IR": "0.18647367",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": false,
+              "step_halving_80_160_err": "6.13949e-9",
+              "t_EWSB_d": "-14.359901",
+              "t_EWSB_u": "-20.495001",
+              "u_m2m3": "0.0086497811",
+              "yt_over_g3": "1.0182835"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "4.65615e-9",
+                "dm21_over_dm31": "3.6424834e-6",
+                "s12_sq": "0.082569256",
+                "s13_sq": "0.00024370909",
+                "s23_sq": "0.016579132"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "2.92241e-12",
+                "dm21_over_dm31": "1.452418e-7",
+                "s12_sq": "0.32921886",
+                "s13_sq": "7.924628e-5",
+                "s23_sq": "0.0055081865"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "1.72499e-12",
+                "dm21_over_dm31": "5.3065789e-8",
+                "s12_sq": "0.21198721",
+                "s13_sq": "4.1831474e-5",
+                "s23_sq": "0.0068388251"
+              }
+            },
+            "uv": {
+              "Jcp": "5.32478e-5",
+              "V12": "0.11069717",
+              "V13": "0.01729041",
+              "V23": "0.13729624",
+              "d_m2m3": "0.0032504412",
+              "e_m2m3": "0.0075643865",
+              "sd3": "0.92516522",
+              "se3": "1.0",
+              "std_ckm": false,
+              "su3": "0.94540375",
+              "u_m2m3": "0.0059835321"
+            }
+          },
+          "Static_FLAT": {
+            "piece2_ir_t_minus_35": {
+              "D_term_vacuum_stable_all_steps": true,
+              "Hu_crosses_first": true,
+              "Jcp": "0.000103036",
+              "V12": "0.12112208",
+              "V13": "0.02358149",
+              "V23": "0.16834755",
+              "abs_S_hyp_IR": "1.03315e-40",
+              "d_m2m3": "0.0059040214",
+              "e_m2m3": "0.009369052",
+              "g1": "0.41268321",
+              "g2": "0.61005568",
+              "g3": "1.0800135",
+              "l1_IR": "0.47233069",
+              "l2_IR": "0.68919335",
+              "l3_IR": "0.52144359",
+              "l4_IR": "-0.66359672",
+              "mHd2_IR": "-0.31497192",
+              "mHu2_IR": "-0.25581936",
+              "mb_over_mtau": "1.6315201",
+              "min_D_term_stab_margin_t_lt_0": "0.0121995",
+              "min_sfermion_m2_IR": "0.16284461",
+              "radiative_EWSB_triggered": true,
+              "std_ckm": false,
+              "step_halving_80_160_err": "5.79599e-9",
+              "t_EWSB_d": "-18.986137",
+              "t_EWSB_u": "-18.10313",
+              "u_m2m3": "0.0070334295",
+              "yt_over_g3": "1.0345734"
+            },
+            "piece3_majorana_PMNS": {
+              "MR_I3": {
+                "Jcp": "5.99921e-41",
+                "dm21_over_dm31": "2.5567733e-6",
+                "s12_sq": "0.093559287",
+                "s13_sq": "0.00020142597",
+                "s23_sq": "0.011114109"
+              },
+              "MR_sym_Ynu_1w": {
+                "Jcp": "2.65107e-40",
+                "dm21_over_dm31": "6.9678737e-8",
+                "s12_sq": "0.3774043",
+                "s13_sq": "8.2337966e-5",
+                "s23_sq": "0.0032996675"
+              },
+              "MR_sym_Ynu_2w": {
+                "Jcp": "4.42174e-41",
+                "dm21_over_dm31": "2.3863203e-8",
+                "s12_sq": "0.26813745",
+                "s13_sq": "4.3715037e-5",
+                "s23_sq": "0.0041101516"
+              }
+            },
+            "uv": {
+              "Jcp": "7.43505e-5",
+              "V12": "0.12149157",
+              "V13": "0.020002548",
+              "V23": "0.14303269",
+              "d_m2m3": "0.0043774031",
+              "e_m2m3": "0.0077866078",
+              "sd3": "0.75839725",
+              "se3": "0.93763274",
+              "std_ckm": false,
+              "su3": "1.0",
+              "u_m2m3": "0.004851047"
+            }
+          }
+        },
+        "curved_dirac_s12": {
+          "G_s12": [
+            "1.175393815",
+            "0.6492123494",
+            "1.175393836"
+          ],
+          "gb_err": "1.15903e-6",
+          "grid_diff": "0.00046718",
+          "hyp_area_over_2pi": "0.99999884",
+          "kappa": "1.8104921"
+        },
+        "dynamic_V4_ferro_higgs": {
+          "align_hu_hd": "0.99268384",
+          "r_d": "0.0035552477",
+          "r_u": "0.0029671233"
+        },
+        "tau": "(0.5,3.380451106)"
+      }
+    }
+  },
+  "P4_planted_controls": {
+    "PF1_drop_nonhol_E2_breaks_S_inv": true,
+    "PF2_subcritical_n1_restores_cusp_runaway": true,
+    "PF3_shift_off_FILQ1_raises_V_and_grad": true,
+    "PF4_degenerate_MR_collapses_splitting": true,
+    "PF5_broken_YTM_fails_Haar_U3L": true,
+    "PF6_zero_yukawas_kill_radiative_EWSB": true,
+    "caught_count": 6
+  },
+  "ast_hygiene": {
+    "clean": true,
+    "complex_literals": 0,
+    "float_complex_casts": 0,
+    "float_literals": 0,
+    "forbidden_imports": 0
+  },
+  "card_id": "AGY-002_A2-P629-VEFF-MODULUS",
+  "firewall": "0 of 19",
+  "gates": {
+    "G1_P1_bosonic_and_FILQ_benchmarks": true,
+    "G2_P2_boson_fermion_SL2Z_phase_diagram": true,
+    "G3_P3_guardrail4_benchmarks_and_curved_dirac_gb": true,
+    "G4_P3_piece2_ewsb_stability_and_haar_U3_5_x_U3_nuR": true,
+    "G5_all_6_planted_controls_caught": true,
+    "G6_ast_clean_and_zero_json_floats": true,
+    "all_gates_passed": true,
+    "json_float_count": 0
+  },
+  "runtime_seconds": "779",
+  "seat": "agy-002"
+}
