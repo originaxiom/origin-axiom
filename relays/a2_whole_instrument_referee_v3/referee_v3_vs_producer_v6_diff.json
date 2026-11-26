@@ -1,0 +1,222 @@
+{
+  "W1": {
+    "K_neq_1_max_L2_rel_diff": "2.5270841e-8",
+    "K_neq_1_max_d12_rel_diff": "6.3867038e-7",
+    "PF1_all899_max_rel_diff": "1.1441622e-6",
+    "PF1_partner_max_rel_diff": "1.8751139e-6",
+    "max_L2_axis_rel_diff": "2.3378754e-9",
+    "part_A_exact_match": true,
+    "prod_max_full_norm": "6.60684e-54",
+    "prod_max_s_cov": "3.95911e-44",
+    "ref_max_full_norm": "3.11861249707e-54",
+    "ref_max_s_cov": "2.03609890978e-53"
+  },
+  "W2": {
+    "B1981_shell_max_rel_diff": "1.5769367e-6",
+    "CATCH1_symbolic_tropical_288_exact_match": true,
+    "CATCH3_closed_geodesic_3orbits_max_rel_diff": "4.0781359e-10",
+    "W_LV1_both_under_1e_40": true,
+    "closed_geodesic_orbits": {
+      "mark_8_1": {
+        "avg_obs_max_rel_diff": "1.9350732e-10",
+        "gramian_max_rel_diff": "3.2782965e-10",
+        "orbit_length": 12,
+        "ref_basepoint_shift_16": "9.805185877e-16",
+        "smooth_traces_max_rel_diff": "1.1360922e-10"
+      },
+      "off_1_5": {
+        "avg_obs_max_rel_diff": "2.9533391e-10",
+        "gramian_max_rel_diff": "1.7729466e-10",
+        "orbit_length": 60,
+        "ref_basepoint_shift_16": "9.752338084e-16",
+        "smooth_traces_max_rel_diff": "1.1412781e-10"
+      },
+      "twin_p30_11_12": {
+        "avg_obs_max_rel_diff": "4.0781359e-10",
+        "gramian_max_rel_diff": "5.4252593e-11",
+        "orbit_length": 12,
+        "ref_basepoint_shift_16": "1.065908088e-15",
+        "smooth_traces_max_rel_diff": "1.1885881e-10"
+      }
+    },
+    "finite_height_288_counts_exact_match": true,
+    "finite_height_L2_max_rel_diff": "1.3505009e-8"
+  },
+  "W3": {
+    "both_1doublet_M2M3_compliant": true,
+    "canonical_mu2_VCW_max_rel_diff": "3.1048995e-8",
+    "modular_V4_yscan_max_rel_diff": "3.5896875e-8",
+    "modular_V4_yscan_shared_points": 13,
+    "modular_VCW_all288_note": "Scale convention difference only: Producer uses global mu^2=1 (VCW->-inf), Referee uses local mu_w^2=(1/3)Tr(Y^dag Y); both verify SL(2,Z) invariance < 1.4e-38 and 288/288 negative cusp norm exponent e_norm in [-1/2, -2/5].",
+    "one_doublet_8prob_max_rel_diff": "1.3176883e-6",
+    "prod_SL2Z_all288_V4_err": "8.51681e-42",
+    "ref_SL2Z_all288_err": "1.397326911e-38",
+    "std_ckm_boolean_matches": "40/40",
+    "two_doublet_V4_20prob_max_rel_diff": "3.5301957e-8",
+    "two_doublet_VCW_20prob_Vmin_max_rel_diff": "0.00069225525",
+    "two_doublet_VCW_flat_valley_note": "Referee v3 polished to grad_tan < 9.7e-12 vs Producer v6 2.1e-5 at tau_apex VCW; V_min matches < 6.92e-4 with identical std_ckm booleans (40/40)."
+  },
+  "W4": {
+    "CATCH2_Haar_U3_5_and_broken_YTY_both_verified": true,
+    "CATCH2_PMNS_CURVED_nonzero_max_rel_diff": "0.00036441191",
+    "CATCH2_PMNS_FLAT_max_rel_diff": "1.3718086e-6",
+    "CATCH2_PMNS_apex_CPzero_J_abs_diff": "1.2493508e-9",
+    "CATCH4_Guardrail4_benchmark_both_verified": true,
+    "CATCH4_RG_CURVED_max_rel_diff": "0.0010741268",
+    "CATCH4_RG_FLAT_max_rel_diff": "3.2250929e-6",
+    "all_8_trajectories_std_ckm_IR_match": true,
+    "all_8_trajectories_t_EWSB_none": true,
+    "curved_G_s12_tau_2_max_rel_diff": "3.9316279e-5",
+    "curved_G_s12_tau_apex_max_rel_diff": "2.3877164e-6",
+    "ref_2loop_quartic_sensitivity": {
+      "UA_FrameC_y2": {
+        "max_quartic_rel_diff": "0.010120019",
+        "quartic_rel_diffs_2loop_vs_1loop": {
+          "l1_IR": "0.0060219739",
+          "l2_IR": "0.0080037021",
+          "l3_IR": "0.0013055571",
+          "l4_IR": "0.010120019"
+        },
+        "t_EWSB_l1_2loopQ": "none",
+        "t_EWSB_l2_2loopQ": "none"
+      },
+      "UD_W3_DynamicV4_ferro_y2": {
+        "max_quartic_rel_diff": "0.010209517",
+        "quartic_rel_diffs_2loop_vs_1loop": {
+          "l1_IR": "0.005943721",
+          "l2_IR": "0.0079603037",
+          "l3_IR": "0.001354008",
+          "l4_IR": "0.010209517"
+        },
+        "t_EWSB_l1_2loopQ": "none",
+        "t_EWSB_l2_2loopQ": "none"
+      }
+    },
+    "ref_tau_2_gb_err": "5.214993436e-5",
+    "ref_tau_apex_gb_err": "1.06274213e-5",
+    "trajectories": {
+      "UA_FrameC_y2": {
+        "CURVED": {
+          "all17_IR_max_rel_diff": "4.1102127e-5",
+          "gauge_and_quartics_max_rel_diff": "1.5598007e-5",
+          "pmns_J_abs_diff": "5.3280403e-8",
+          "pmns_nonzero_max_rel_diff": "0.00036441191",
+          "t_EWSB_both_none": true
+        },
+        "FLAT": {
+          "all17_IR_max_rel_diff": "7.0632018e-7",
+          "gauge_and_quartics_max_rel_diff": "7.8517015e-9",
+          "pmns_J_abs_diff": "6.2258e-11",
+          "pmns_nonzero_max_rel_diff": "4.0089877e-7",
+          "t_EWSB_both_none": true
+        }
+      },
+      "UB_W3_DynamicVCW_y2": {
+        "CURVED": {
+          "all17_IR_max_rel_diff": "5.1423185e-5",
+          "gauge_and_quartics_max_rel_diff": "2.3345883e-5",
+          "pmns_J_abs_diff": "1.0380112e-7",
+          "pmns_nonzero_max_rel_diff": "8.2033004e-5",
+          "t_EWSB_both_none": true
+        },
+        "FLAT": {
+          "all17_IR_max_rel_diff": "1.7108192e-6",
+          "gauge_and_quartics_max_rel_diff": "2.0260793e-8",
+          "pmns_J_abs_diff": "2.97131e-9",
+          "pmns_nonzero_max_rel_diff": "1.3718086e-6",
+          "t_EWSB_both_none": true
+        }
+      },
+      "UC_FrameC_GeodesicApex": {
+        "CURVED": {
+          "all17_IR_max_rel_diff": "4.1682238e-6",
+          "gauge_and_quartics_max_rel_diff": "6.525035e-7",
+          "pmns_J_abs_diff": "1.2493508e-9",
+          "pmns_nonzero_max_rel_diff": "0.00027010667",
+          "t_EWSB_both_none": true
+        },
+        "FLAT": {
+          "all17_IR_max_rel_diff": "2.1415944e-6",
+          "gauge_and_quartics_max_rel_diff": "2.0090253e-8",
+          "pmns_J_abs_diff": "4.5296632e-30",
+          "pmns_nonzero_max_rel_diff": "7.0298552e-9",
+          "t_EWSB_both_none": true
+        }
+      },
+      "UD_W3_DynamicV4_ferro_y2": {
+        "CURVED": {
+          "all17_IR_max_rel_diff": "0.0010741268",
+          "gauge_and_quartics_max_rel_diff": "2.617493e-6",
+          "pmns_J_abs_diff": "4.838503e-7",
+          "pmns_nonzero_max_rel_diff": "8.2033004e-5",
+          "t_EWSB_both_none": true
+        },
+        "FLAT": {
+          "all17_IR_max_rel_diff": "3.2250929e-6",
+          "gauge_and_quartics_max_rel_diff": "2.1117608e-8",
+          "pmns_J_abs_diff": "1.40483e-8",
+          "pmns_nonzero_max_rel_diff": "8.0277835e-7",
+          "t_EWSB_both_none": true
+        }
+      }
+    }
+  },
+  "W5_both_6_of_6": true,
+  "card_id": "AGY-002_A2-WHOLE-INSTRUMENT",
+  "compare_script_ast_audit": {
+    "clean": true,
+    "complex_literals": 0,
+    "float_complex_casts": 0,
+    "float_literals": 0,
+    "forbidden_imports": [],
+    "sha256": "e3b143841d785be58bfdd9a2263801a896e57765afb55258dcef01c0db862c39"
+  },
+  "comparison": "COLD_ROOM_DISJOINT_REFEREE_V3_VS_AUTHORITATIVE_PRODUCER_V6",
+  "custody_manifests_audit": {
+    "all_ok": true,
+    "entries_verified": 358,
+    "failures": [],
+    "failures_count": 0,
+    "manifests_scanned": 355
+  },
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "firewall": "0 of 19",
+  "producer_v6_PF_6_of_6": true,
+  "producer_v6_gates": {
+    "G1_W1_b1980_s_cov_weight1_K audit": true,
+    "G2_W2_288pairs_geodesic_wlv1": true,
+    "G3_W3_vcw_higgs_sl2z_modulus": true,
+    "G4_W4_benchmarks_gb_rg_haar": true,
+    "G5_all_6_planted_controls_caught": true,
+    "G6_ast_clean_and_zero_json_floats": true,
+    "all_gates_passed": true,
+    "json_float_count": 0
+  },
+  "producer_v6_output_sha256": "43aec9f6790bb4401863e19d4f446978460f5f15c18a2e5adf662ea5c0daaf02",
+  "referee_v3_RPF_6_of_6": true,
+  "referee_v3_gates": {
+    "RG1": true,
+    "RG2": true,
+    "RG3": true,
+    "RG4": true,
+    "RG5": true,
+    "RG6": true,
+    "all_6_gates_pass": true
+  },
+  "referee_v3_output_sha256": "715a2cc6809637eee74c34766a3d95af0ab9f8a4b7a18bef90370097d8004996",
+  "remediation_verification": {
+    "CATCH_1_W2_symbolic_tropical_288": true,
+    "CATCH_2_W4_covariant_YYT_neutrino_Haar": true,
+    "CATCH_3_W2_three_closed_M_orbits_gamma_M": true,
+    "CATCH_4_W4_exact_MV84_GUT_g1_RGEs": true
+  },
+  "verdict": "CERTIFIED_ZERO_DISCREPANCIES",
+  "zero_non_relay_edits_audit": {
+    "base_ref": "origin/main",
+    "non_relay_edits": [],
+    "non_relay_edits_count": 0,
+    "total_changed_files_vs_base": 991,
+    "zero_non_relay_edits": true
+  }
+}
