@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M55
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1, T2 AND T3 SENT under docs/handoffs/ (the queue's schema and its gate; the card's four fields and the form check; discovery, and harvest_debt.py no longer stops on a pin that does not resolve), REBUILT ON YOUR e6000a04c (T1 and T2's files replaced; the code the same). They apply in that order on a clean checkout, each tree as built; on each, 58 gates, all green but harvest-debt, which now fails with its reason (six pins that do not resolve in this shallow clone) where it stopped. M55 read: CANNOT DECIDE, D6 and A3 taken into T9, T6 and T12; your drafts read cold when no patch waits
+on: T1 TO T4 SENT under docs/handoffs/, on your e6000a04c in that order (T4: custody, the runner's sighting log and the custody check; the gate queue-schema now also reads the log and checks along the history that neither the log nor a card's past is rewritten). Each applies on a clean checkout, each tree as built; 58 gates, all green but harvest-debt (six pins that do not resolve in this shallow clone). T4's README argues what custody means for a card
 needs: nothing to go on
-next push: T4, custody (the sighting log)
+next push: T5, the sandboxed rerun
 
 # cld-advisor — status
 

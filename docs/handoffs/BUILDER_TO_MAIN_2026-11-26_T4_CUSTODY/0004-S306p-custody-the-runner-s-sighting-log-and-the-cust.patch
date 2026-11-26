@@ -1,0 +1,543 @@
+From 933f713d87acd1f98e75790458a9b941849b6693 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 26 Nov 2026 19:52:02 +0000
+Subject: [PATCH] S306p custody: the runner's sighting log and the custody
+ check (the framework's thin path, T4; P-885): scripts/queue/custody.py keeps
+ queue/SIGHTINGS.jsonl, append-only, the runner's own clock for each card and
+ decisive script it sees; a filed card holds custody when its sealed commit is
+ still on its branch, the card there is the version sighted and was sighted no
+ later than filed, and the script there is the one it hashes; the gate
+ queue-schema reads the log and checks along the history that neither the log
+ nor any card's past is rewritten; tests fail with each rule removed
+
+---
+ CHANGELOG.md                   |  13 +++
+ PROGRESS_LOG.md                |  10 ++
+ docs/PRACTICES.md              |   5 +
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ scripts/gates/gates.py         |  24 +++-
+ scripts/queue/custody.py       | 207 +++++++++++++++++++++++++++++++++
+ tests/test_queue_custody.py    | 151 ++++++++++++++++++++++++
+ 8 files changed, 410 insertions(+), 5 deletions(-)
+ create mode 100644 scripts/queue/custody.py
+ create mode 100644 tests/test_queue_custody.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 9f3819a92..4b690801b 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,18 @@
+ # Changelog
+ 
++## S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)
++
++- **`scripts/queue/custody.py`:** the sighting log, `queue/SIGHTINGS.jsonl` on the queue's branch, append-only, one line
++  for each version of a card or a decisive script the first time the runner sees it: the runner's own clock, which no seat
++  sets. The custody check on a filed card: its sealed commit still on its branch (a rewritten branch returns it), the card
++  at that commit the version sighted, sighted no later than filed, and the decisive script at that commit the one whose
++  hash the card gives.
++- **The gate `queue-schema` also reads the log's form**, and along the checkout's history checks that the log is only
++  appended to and that no card's fixed fields or past history change.
++- **Decided in the patch:** on a card the expectation is the card itself (its decisive lines' hash and its failing
++  control); the runner sights it and then reruns at the sealed commit, so the output it compares comes after.
++- **New test** `tests/test_queue_custody.py` (6 tests).
++
+ ## S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)
+ 
+ - **`scripts/queue/discover.py`:** reads main and every seat branch of the Pins table (a masked ref read on its last
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 1decb68c4..1ccb53c47 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20289,3 +20289,13 @@ seat can be told; a card filed again, changed or under another name, is linked t
+ seat branches' debts had stopped with an error on a seat whose marker it could not find; it now names that seat and why.
+ 
+ 0 of 19.
++
++## 2026-11-26 — Custody: the runner keeps its own clock (S306p)
++
++**What happened.** The building seat sent the thin path's fourth patch. The runner now writes down, in a log that can only
++grow, the first time it sees each claim card and each card's deciding script. The date on a commit is whatever the person
++committing writes; the log's times are the runner's own. Before a card is rerun, the runner checks that the commit it was
++sealed at is still on its branch, that it is the version the runner saw, and that the script at that commit is the one the
++card names by its hash. The gate on the queue also checks that neither the log nor any card's past is ever rewritten.
++
++0 of 19.
+diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
+index 75bb779a6..12966f697 100644
+--- a/docs/PRACTICES.md
++++ b/docs/PRACTICES.md
+@@ -1558,6 +1558,11 @@ queue's moves, the intake's moves made by the runner alone. A returned card is n
+ card that names it. **The gate** reads every card in the checkout; the command reads the queue's branch with `--ref`. Its
+ failing paths are `tests/test_queue_schema.py`.
+ 
++**[ADDED 2026-11-26, the thin path's patch T4 (custody):** the same gate reads the runner's sighting log,
++`queue/SIGHTINGS.jsonl`, for its form, and along the checkout's history it checks that the log is only appended to and that
++no card's fixed fields or past history change (`scripts/queue/custody.py`; failing paths in
++`tests/test_queue_custody.py`).**]**
++
+ **Why it exists.** Draft 1 of the framework (§ 9, agreed by the author on 2026-11-26) puts every claim card through one
+ queue, written by a runner and read by peers, banking seats and the landing tool. The queue is the record of who moved a
+ card and when; a record that any writer could bend would make every later check rest on nothing.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 9fa2515d1..36d5f960c 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)”
+ - “S306p DISCOVERY: THE INTAKE FINDS THE CLAIM CARDS; HARVEST-DEBT NO LONGER STOPS ON A PIN (the framework's thin path, T3; P-885) (2026-11-26)”
+ - “S306p THE CLAIM CARD'S FOUR FIELDS AND ITS FORM CHECK (the framework's thin path, T2; P-885) (2026-11-26)”
+ - “S306p THE QUEUE'S SCHEMA, A GATE (queue-schema; the framework's thin path, T1; P-885) (2026-11-26)”
+@@ -60,7 +61,6 @@
+ - “S306p THE THIN PATH SPLIT WITH THE ADVISOR SEAT; TWO LOST HEADINGS RESTORED (P-885) (2026-11-26)”
+ - “S306p R82-2 READ AND RETURNED; B1832'S SCRIPT PINNED TO ITS COMMIT (P-881) (2026-11-26)”
+ - “S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)”
+-- “S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index c53267dd9..36bdfb8f9 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1562 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1563 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1941,6 +1941,7 @@ Generated by `scripts/views/spine.py` — 1562 locks. Regenerated with the views
+ ## 2026-11-26
+ 
+ - — `test_card_form.py` 
++- — `test_queue_custody.py` 
+ - — `test_queue_discover.py` 
+ - — `test_queue_schema.py` 
+ - — `test_verdict_schema_gate.py` 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index bc0b9be57..4bdc94eba 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3589,13 +3589,30 @@ def _queue_schema():
+     return m
+ 
+ 
+-def gate_queue_schema(_cards=None):
++def _queue_custody():
++    import importlib.util
++    spec = importlib.util.spec_from_file_location("queue_custody_for_the_gate", os.path.join(ROOT, "scripts/queue/custody.py"))
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++def gate_queue_schema(_cards=None, _log=None, _ref="HEAD"):
+     """the framework's thin path, T1 (P-885): every card file of the queue holds the queue's schema: its fields, its seat
+-    code (never a name, never a scoreboard code), and a history of allowed moves, the intake's made by the runner alone"""
++    code (never a name, never a scoreboard code), and a history of allowed moves, the intake's made by the runner alone.
++    T4: the sighting log holds its form, and along the checkout's history the log is only appended to and no card's fixed
++    fields or past history change"""
+     try:
+         qs = _queue_schema()
+         cards = qs.read_dir(os.path.join(ROOT, qs.CARDS)) if _cards is None else _cards
+         bad = qs.queue_problems(cards, _VENDOR_RE)
++        cu = _queue_custody()
++        log_path = os.path.join(ROOT, cu.LOG)
++        log = _log if _log is not None else (open(log_path, encoding="utf-8").read() if os.path.isfile(log_path) else "")
++        bad += ["%s: %s" % (cu.LOG, b) for b in cu.read_log(log)[1]]
++        if _cards is None:
++            bad += cu.history_problems(ROOT, _ref)
+     except Exception as exc:                              # FAIL-CLOSED: a schema that cannot be loaded checks nothing
+         return False, "the queue's schema cannot be loaded: %s" % exc
+     if bad:
+@@ -3676,7 +3693,8 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
+     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
+     "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+     "gate-controls",                              # the same rule for the register of controls (series 3, PV16)
+-    "path-refs"})                                 # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
++    "path-refs",                                  # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
++    "queue-schema"})                              # 2026-11-26 (T4): the sighting log and the cards, along the checkout's history
+ READS_GIT = READS_TRACKED | READS_HISTORY
+ 
+ 
+diff --git a/scripts/queue/custody.py b/scripts/queue/custody.py
+new file mode 100644
+index 000000000..ce4f1256a
+--- /dev/null
++++ b/scripts/queue/custody.py
+@@ -0,0 +1,207 @@
++#!/usr/bin/env python3
++"""Custody: the sighting log and the custody check (the framework's thin path, patch T4; draft 1 § 9; M54; P-885).
++
++THE SIGHTING LOG, `queue/SIGHTINGS.jsonl`, on the queue's branch: one line for each file version the runner has seen, the
++first time it sees it: {at, branch, commit, path, blob, what}, `what` being "card" or "script". The log is the runner's own
++clock. A commit's date is written by whoever commits and can be anything; the time at which the runner first saw a blob
++cannot be set by a seat. The log is append-only: every version of it on the queue's branch begins with the version before.
++
++THE CUSTODY CHECK, on a filed card, before its rerun:
++  1. the card's sealed commit is still on its branch (a branch rewritten past it returns the card);
++  2. the card at that commit is the version the runner sighted and filed;
++  3. the decisive script at that commit is there, and its SHA-256 opens with the 16 hex the card gives;
++  4. the runner sighted the card no later than it filed it.
++
++WHAT CUSTODY MEANS HERE, decided in the patch (M54) and said for main. The draft asks that the expectations be committed
++before the output. On a claim card the expectation is the card itself: its decisive lines' hash and its failing control.
++The runner sights the card, then reruns the script at the sealed commit, so the output it compares is produced after the
++expectation was fixed, by the runner, and no seat can fit the one to the other. What no tool can see is how many times a
++seat ran its script privately before it wrote the card; the failing control, the peer and the two banking seats are the
++answer to that, not custody.
++
++THE QUEUE'S HISTORY (an addition to T1's schema, which reads one version of a file): on the queue's branch, every version of
++a card file keeps the fields that never change (its id, seat code, branch, commit, card path, refiles), and its history
++begins with the history of the version before. A card's past cannot be rewritten by a later commit.
++
++    python3 scripts/queue/custody.py --log queue/SIGHTINGS.jsonl            # the log's form
++    python3 scripts/queue/custody.py --history REF                          # the log and the cards along REF's history
++    python3 scripts/queue/custody.py --card queue/cards/Q0001.json --log queue/SIGHTINGS.jsonl   # one card's custody
++Exit 0 when all holds, 1 when something does not."""
++import hashlib
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[1]
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++QS = _load("queue_schema_for_custody", HERE / "queue_schema.py")
++CF = _load("card_form_for_custody", HERE / "card_form.py")
++LOG = "queue/SIGHTINGS.jsonl"
++LINE_FIELDS = ("at", "branch", "commit", "path", "blob", "what")
++WHATS = ("card", "script")
++FIXED = ("id", "seat_code", "branch", "commit", "card_path", "refiles")
++
++
++def git(root, *args):
++    r = subprocess.run(["git", *args], cwd=root, capture_output=True, text=True)
++    return r.returncode, r.stdout, r.stderr.strip()
++
++
++# --- the log -----------------------------------------------------------------------------------------------------------
++def read_log(text):
++    """(entries, problems): each line one sighting of the log's form, the times never going back, no version twice"""
++    entries, bad, seen = [], [], set()
++    for i, line in enumerate(text.splitlines(), 1):
++        try:
++            e = json.loads(line)
++        except ValueError:
++            bad.append("line %d is not JSON" % i)
++            continue
++        if not isinstance(e, dict) or sorted(e) != sorted(LINE_FIELDS):
++            bad.append("line %d does not hold exactly %s" % (i, ", ".join(LINE_FIELDS)))
++            continue
++        if not isinstance(e["at"], str) or not QS.AT.fullmatch(e["at"]):
++            bad.append("line %d: at %r is not YYYY-MM-DDTHH:MM:SSZ" % (i, e["at"]))
++        if not isinstance(e["commit"], str) or not QS.COMMIT.fullmatch(e["commit"]) \
++                or not isinstance(e["blob"], str) or not QS.COMMIT.fullmatch(e["blob"]):
++            bad.append("line %d: commit and blob are not full 40-hex ids" % i)
++        if e["what"] not in WHATS:
++            bad.append("line %d: what %r is not one of %s" % (i, e["what"], ", ".join(WHATS)))
++        if entries and isinstance(e["at"], str) and e["at"] < entries[-1]["at"]:
++            bad.append("line %d goes back in time" % i)
++        key = (e["branch"], e["path"], e["blob"])
++        if key in seen:
++            bad.append("line %d sights again a version already sighted" % i)
++        seen.add(key)
++        entries.append(e)
++    return entries, bad
++
++
++def first_sighting(entries, branch, path, blob):
++    for e in entries:
++        if (e["branch"], e["path"], e["blob"]) == (branch, path, blob):
++            return e
++    return None
++
++
++def sight(root, entries, branch, commit, path, what, at):
++    """the log's new line for this file at this commit, or None when it is not there or was sighted before"""
++    rc, out, _ = git(root, "rev-parse", "%s:%s" % (commit, path))
++    if rc != 0:
++        return None
++    blob = out.strip()
++    if first_sighting(entries, branch, path, blob):
++        return None
++    return {"at": at, "branch": branch, "commit": commit, "path": path, "blob": blob, "what": what}
++
++
++def append(text, new_entries):
++    """the log with the new lines at its end; nothing before them changes"""
++    body = text if not text or text.endswith("\n") else text + "\n"
++    return body + "".join(json.dumps(e, sort_keys=True) + "\n" for e in new_entries)
++
++
++# --- custody of one card -----------------------------------------------------------------------------------------------
++def custody_problems(root, rec, entries, ref=None):
++    """the reasons a filed card fails custody; [] when it holds. `ref` is the ref its branch is read at (origin/<branch>
++    unless given)"""
++    ref = ref or ("origin/" + rec["branch"])
++    bad = []
++    rc, _, _ = git(root, "merge-base", "--is-ancestor", rec["commit"], ref)
++    if rc != 0:
++        bad.append("the sealed commit %s is no longer on %s: the branch was rewritten past it" % (rec["commit"][:9], ref))
++    rc, out, _ = git(root, "rev-parse", "%s:%s" % (rec["commit"], rec["card_path"]))
++    if rc != 0:
++        return bad + ["the card is not at its sealed commit"]
++    blob = out.strip()
++    seen = first_sighting(entries, rec["branch"], rec["card_path"], blob)
++    if seen is None:
++        bad.append("the card at its sealed commit was never sighted by the runner")
++    elif seen["at"] > rec["history"][0]["at"]:
++        bad.append("the card was filed (%s) before the runner sighted it (%s)" % (rec["history"][0]["at"], seen["at"]))
++    rc, text, _ = git(root, "cat-file", "blob", blob)
++    fields = CF.read(text)[1]
++    m = CF.SCRIPT.match(fields.get("decisive script", ""))
++    if not m:
++        return bad + ["the card names no decisive script in its form"]
++    path, want = m.group(1), CF.HEX16.search(fields["decisive script"]).group(1)
++    p = subprocess.run(["git", "cat-file", "blob", "%s:%s" % (rec["commit"], path)], cwd=root, capture_output=True)
++    if p.returncode != 0:
++        bad.append("the decisive script %s is not at the sealed commit" % path)
++    elif hashlib.sha256(p.stdout).hexdigest()[:16] != want:
++        bad.append("the decisive script at the sealed commit is not the one the card hashes (%s, the card says %s)"
++                   % (hashlib.sha256(p.stdout).hexdigest()[:16], want))
++    return bad
++
++
++# --- the queue's history -----------------------------------------------------------------------------------------------
++def versions(root, ref, path):
++    """the texts of a file along the first-parent history of ref, oldest first"""
++    rc, out, _ = git(root, "log", "--first-parent", "--reverse", "--format=%H", ref, "--", path)
++    if rc != 0:
++        return None
++    texts = []
++    for c in out.split():
++        rc, text, _ = git(root, "show", "%s:%s" % (c, path))
++        if rc == 0:
++            texts.append((c, text))
++    return texts
++
++
++def history_problems(root, ref):
++    """the log and every card file along ref's history: each version begins with the one before (the log), or keeps its
++    fixed fields and extends its history (a card)"""
++    bad = []
++    vs = versions(root, ref, LOG)
++    if vs is None:
++        return ["the history of %s cannot be read" % ref]
++    for (c0, a), (c1, b) in zip(vs, vs[1:]):
++        if not b.startswith(a):
++            bad.append("%s at %s does not begin with its version at %s: the log was rewritten" % (LOG, c1[:9], c0[:9]))
++    rc, out, _ = git(root, "log", "--format=", "--name-only", ref, "--", QS.CARDS)
++    for path in sorted(set(p for p in out.split() if p.endswith(".json"))):
++        vs = versions(root, ref, path) or []
++        for (c0, a), (c1, b) in zip(vs, vs[1:]):
++            try:
++                old, new = json.loads(a), json.loads(b)
++                if any(old.get(f) != new.get(f) for f in FIXED):
++                    bad.append("%s at %s changes a field that never changes" % (path, c1[:9]))
++                if new.get("history", [])[:len(old.get("history", []))] != old.get("history", []):
++                    bad.append("%s at %s rewrites the card's past history" % (path, c1[:9]))
++            except (ValueError, AttributeError, TypeError):
++                bad.append("%s at %s or %s cannot be read" % (path, c0[:9], c1[:9]))
++    return bad
++
++
++def main(argv):
++    bad = []
++    log_text = ""
++    if "--log" in argv:
++        p = pathlib.Path(argv[argv.index("--log") + 1])
++        log_text = p.read_text(encoding="utf-8") if p.is_file() else ""
++        bad += read_log(log_text)[1]
++    if "--history" in argv:
++        bad += history_problems(ROOT, argv[argv.index("--history") + 1])
++    if "--card" in argv:
++        rec = json.loads(pathlib.Path(argv[argv.index("--card") + 1]).read_text(encoding="utf-8"))
++        bad += custody_problems(ROOT, rec, read_log(log_text)[0])
++    for b in bad:
++        print(b)
++    print("%d problem(s)" % len(bad))
++    return 1 if bad else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tests/test_queue_custody.py b/tests/test_queue_custody.py
+new file mode 100644
+index 000000000..378dccc11
+--- /dev/null
++++ b/tests/test_queue_custody.py
+@@ -0,0 +1,151 @@
++"""2026-11-26 (the framework's thin path, patch T4; main's M54; register row P-885): custody, scripts/queue/custody.py.
++
++On a small repository built here: a card filed and sighted holds custody, and fails it when its branch is rewritten past
++its commit, when the runner never sighted it, when it was filed before it was sighted, when its decisive script is not at
++the commit or is not the one it hashes. The sighting log's form is planted rule by rule; sighting is only ever appended;
++along a branch's history the log is never rewritten and no card's fixed fields or past history change; the gate reads the
++log; the command runs by hand."""
++import copy
++import hashlib
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++CU = _load("custody_under_test", "scripts/queue/custody.py")
++D = _load("discover_for_custody", "scripts/queue/discover.py")
++GATES = _load("gates_for_custody", "scripts/gates/gates.py")
++SCRIPT = b"print('DECISIVE: 42')\n"
++H16 = hashlib.sha256(SCRIPT).hexdigest()[:16]
++CARD = """# CLAIM CARD — a count
++
++- card id: new
++- seat code: fam2-v5-high-01
++- decisive script: x.py, SHA-256 {h}, depends on the standard library, run as python3 x.py, output SHA-256 0011223344556677
++"""
++
++
++def _repo(tmp_path, h=H16, script=True):
++    tmp_path.mkdir(parents=True, exist_ok=True)
++    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
++                                  capture_output=True, text=True, check=True).stdout
++    g("init", "-q", "-b", "seat/a")
++    (tmp_path / "relays" / "claims").mkdir(parents=True)
++    if script:
++        (tmp_path / "x.py").write_bytes(SCRIPT)
++    (tmp_path / "relays" / "claims" / "CLAIM_a.md").write_text(CARD.format(h=h), encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "a card")
++    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
++    new, _ = D.discover({}, [("a", "origin/seat/a")], root=tmp_path, at="2026-11-26T12:00:00Z")
++    rec = new["Q0001"]
++    log = [CU.sight(tmp_path, [], rec["branch"], rec["commit"], rec["card_path"], "card", "2026-11-26T11:59:00Z")]
++    log.append(CU.sight(tmp_path, log, rec["branch"], rec["commit"], "x.py", "script", "2026-11-26T11:59:00Z"))
++    return g, rec, [e for e in log if e]
++
++
++def test_a_card_in_custody_holds_and_each_break_fails(tmp_path):
++    g, rec, log = _repo(tmp_path / "ok")
++    assert CU.custody_problems(tmp_path / "ok", rec, log) == []
++    assert any("never sighted" in b for b in CU.custody_problems(tmp_path / "ok", rec, []))
++    late = [dict(log[0], at="2026-11-26T12:30:00Z")]
++    assert any("filed (2026-11-26T12:00:00Z) before the runner sighted it" in b
++               for b in CU.custody_problems(tmp_path / "ok", rec, late))
++    # the branch rewritten past the sealed commit
++    g("checkout", "-q", "--orphan", "other")
++    g("commit", "-q", "--allow-empty", "-m", "a new history")
++    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
++    assert any("no longer on origin/seat/a" in b for b in CU.custody_problems(tmp_path / "ok", rec, log))
++    # the script the card hashes is not the one at the commit, or is not there
++    _, rec2, log2 = _repo(tmp_path / "wrong", h="0" * 16)
++    assert any("not the one the card hashes" in b for b in CU.custody_problems(tmp_path / "wrong", rec2, log2))
++    _, rec3, log3 = _repo(tmp_path / "gone", script=False)
++    assert any("is not at the sealed commit" in b for b in CU.custody_problems(tmp_path / "gone", rec3, log3))
++
++
++def test_the_log_is_only_appended_to_and_a_version_is_sighted_once(tmp_path):
++    g, rec, log = _repo(tmp_path)
++    text = CU.append("", log)
++    entries, bad = CU.read_log(text)
++    assert bad == [] and len(entries) == 2 and {e["what"] for e in entries} == {"card", "script"}
++    assert CU.sight(tmp_path, entries, rec["branch"], rec["commit"], rec["card_path"], "card", "2026-11-27T00:00:00Z") is None
++    more = CU.append(text, [dict(log[0], path="relays/claims/CLAIM_b.md", at="2026-11-27T00:00:00Z")])
++    assert more.startswith(text) and CU.read_log(more)[1] == []
++
++
++def test_the_logs_form_is_planted_rule_by_rule(tmp_path):
++    _, _, log = _repo(tmp_path)
++    good = json.dumps(log[0])
++    plants = {
++        "is not JSON": "{",
++        "does not hold exactly": json.dumps({k: v for k, v in log[0].items() if k != "what"}),
++        "is not YYYY": json.dumps(dict(log[0], at="today")),
++        "full 40-hex": json.dumps(dict(log[0], blob="abc")),
++        "what 'output'": json.dumps(dict(log[0], what="output")),
++        "goes back in time": json.dumps(dict(log[0], path="p", at="2026-01-01T00:00:00Z")),
++        "sights again": good,
++    }
++    assert CU.read_log(good + "\n")[1] == []
++    for words, line in plants.items():
++        bad = CU.read_log(good + "\n" + line + "\n")[1]
++        assert any(words in b for b in bad), (words, bad)
++
++
++def test_along_the_history_nothing_of_the_queue_is_rewritten(tmp_path):
++    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
++                                  capture_output=True, text=True, check=True).stdout
++    g("init", "-q", "-b", "queue")
++    cards = tmp_path / "queue" / "cards"
++    cards.mkdir(parents=True)
++    card = json.loads(json.dumps(_load("schema_test_twin", "tests/test_queue_schema.py").TWIN))
++    card["status"], card["history"] = "FILED", card["history"][:1]
++
++    def commit(log, rec, msg):
++        (tmp_path / "queue" / "SIGHTINGS.jsonl").write_text(log, encoding="utf-8")
++        (cards / "Q0007.json").write_text(json.dumps(rec), encoding="utf-8")
++        g("add", "-A")
++        g("commit", "-q", "-m", msg)
++    commit("a\n", card, "one")
++    later = copy.deepcopy(card)
++    later["history"].append({"at": "2026-11-26T10:20:00Z", "status": "REPRODUCED", "by": "runner", "note": "ok"})
++    later["status"] = "REPRODUCED"
++    commit("a\nb\n", later, "two")
++    assert CU.history_problems(tmp_path, "HEAD") == []
++    moved = dict(copy.deepcopy(later), commit="f" * 40)
++    commit("a\nb\n", moved, "three")
++    assert any("changes a field that never changes" in b for b in CU.history_problems(tmp_path, "HEAD"))
++    g("reset", "-q", "--hard", "HEAD~1")
++    commit("a\nb\n", dict(copy.deepcopy(later), history=later["history"][1:]), "three")
++    assert any("rewrites the card's past history" in b for b in CU.history_problems(tmp_path, "HEAD"))
++    g("reset", "-q", "--hard", "HEAD~1")
++    commit("a\nc\n", later, "three")
++    assert any("the log was rewritten" in b for b in CU.history_problems(tmp_path, "HEAD"))
++
++
++def test_the_gate_reads_the_log_and_passes_on_the_record():
++    ok, detail = GATES.gate_queue_schema({}, _log="{\n")
++    assert not ok and "SIGHTINGS.jsonl: line 1 is not JSON" in detail
++    assert GATES.gate_queue_schema({}, _log="")[0]
++    assert GATES.gate_queue_schema()[0]
++
++
++def test_the_command_runs_by_hand(tmp_path):
++    f = tmp_path / "SIGHTINGS.jsonl"
++    f.write_text("{\n", encoding="utf-8")
++    run = lambda *a: subprocess.run([sys.executable, "-B", str(ROOT / "scripts/queue/custody.py"), *map(str, a)],
++                                    capture_output=True, text=True, timeout=300)
++    assert run("--log", f).returncode == 1
++    f.write_text("", encoding="utf-8")
++    assert run("--log", f, "--history", "HEAD").returncode == 0
+-- 
+2.43.0
+

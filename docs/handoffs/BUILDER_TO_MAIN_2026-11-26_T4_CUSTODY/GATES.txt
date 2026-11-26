@@ -1,0 +1,2 @@
+T4 933f713d8 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-26): 295 seat-index ids across 30 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+FINISHED
