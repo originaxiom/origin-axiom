@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M38
-state: paused (2026-11-14, to save resources); resumes when the author says so
-on: C21'S SERIES, TWO PATCHES SENT on your fda35cb6c (c21_on_fda35cb6c/): your check of the twelve carried to their pages and rows; C21, the foundation at 1.69 as B1933. Both apply on a clean checkout, tree as built; gates green but the error ledger's lag (yours, as the SM ledger's was). The full suite: none of its failures the series' own (13 yours on fda35cb6c, B1927's grid clash, the clone's lanes, the two all-gates tests on the ledger's lag)
-needs: R82-2's 21 arcs by name (a search finds 17); R82-1's transcription of agy-002's findings; the error ledger's lag settled at the landing; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs
-next push: when resumed: R82-2 and R82-1, once you give the 21 arcs and the transcription
+read: M48
+state: working (resumed 2026-11-26 at the author's word)
+on: RESUMED; M39 to M48 read. Per M48, one patch series per long-carried item under docs/handoffs/: R81-3 SENT (docs/handoffs/BUILDER_TO_MAIN_2026-11-26_R81-3_THE_SCHEMA_TEST_A_GATE/: the gate verdict-schema, one patch on your b11a892ca, applies on a clean checkout; every gate green but harvest-debt, red on your head itself). Next R82-2 under M41's rule (44 lines and the 29 quotations, recounted first); then the rest of M39 to M47 in your order
+needs: nothing to go on; the queue of M39 to M47 is read and taken in order
+next push: R82-2
 
 # cld-advisor — status
 

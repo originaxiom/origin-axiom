@@ -1,0 +1,292 @@
+From 330a394b3c55dc8c1244256a6c113284538b9d53 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 26 Nov 2026 09:24:47 +0000
+Subject: [PATCH] R81-3 (cld-advisor, at main's word in M48; register rows
+ P-810 and P-881; Review 81's item, carried from R80-13 and R79-13): THE
+ VERDICT FILES' SCHEMA TEST IS A GATE
+
+P-810: the full suite of Review 79 found eleven verdict files landed in one window that break the schema; the schema's
+test refused them, but it was not a gate, and a landing ran only the locks it touched. Main has since run it by hand at
+every landing that adds or changes a verdict file.
+
+THE GATE verdict-schema (scripts/gates/gates.py): it loads tests/test_arc_verdict_schema.py and runs its own checks,
+test_schema on every verdict file, the census floor, and the kill graph's scope tags; so the rule stands in one place and
+the gate cannot drift from the test. A test that cannot be loaded fails the gate (fail-closed); unreadable JSON is a
+failure. On the record: every verdict file passes (1,715 of the test's cases).
+
+ITS FAILING PATHS, tests/test_verdict_schema_gate.py, registered in tests/GATE_CONTROLS.json: a verdict file whose scope
+carries a key the schema does not have, as P-810's eleven did, fails, and its twin passes (the control); one planted
+file per rule (instrument missing, a verdict outside the enum, an id that does not match its folder, no scope, a reach
+outside the three, creates_law missing, unreadable JSON), each refused; the gate is registered and passes on the record.
+
+THE RECORD: the register of practices has the gate's section; the changelog and the progress log their entries. No test
+of main's is changed. BEFORE: on the tree before this patch the new tests fail.
+
+0 of 19.
+---
+ CHANGELOG.md                      |  7 ++++
+ PROGRESS_LOG.md                   |  9 ++++++
+ README.md                         |  2 +-
+ docs/PRACTICES.md                 | 11 +++++++
+ docs/views/CONTEXT_RECOVERY.md    |  2 +-
+ docs/views/THE_SPINE.md           |  6 +++-
+ scripts/gates/gates.py            | 54 +++++++++++++++++++++++++++++++
+ tests/GATE_CONTROLS.json          |  3 +-
+ tests/test_verdict_schema_gate.py | 54 +++++++++++++++++++++++++++++++
+ 9 files changed, 144 insertions(+), 4 deletions(-)
+ create mode 100644 tests/test_verdict_schema_gate.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index cba1e0c10..787a9a4ca 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,12 @@
+ # Changelog
+ 
++## S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)
++
++- **Built as a patch by the building session** at main's M48, the first of the series for the review loop's long-carried items (register row P-881).
++- **The gate `verdict-schema`** runs `tests/test_arc_verdict_schema.py`'s own checks on every verdict file (the required fields, the verdict enum, the booleans, the id, the identifications and the scope tag) and on the kill graph's scope tags; the rule stands in one place.
++- **Its failing paths** `tests/test_verdict_schema_gate.py`, registered in `tests/GATE_CONTROLS.json`: the control (a scope key the schema does not have, as P-810's eleven had) with its twin, and one planted file per rule.
++- **The register of practices** has the gate's section.
++
+ ## S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)
+ 
+ - **Built as a patch by the building session** at main's card C17, after main verified both statements on its own code (B1906, sections 3a and 3b). Every statement of mathematics in the notes is a quotation of B1906 or of the register; none is the builder's, and no old word is changed.
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 527e4ad48..f00dfdd78 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20218,3 +20218,12 @@ seat's check. Six are left.
+ **Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+ 
+ 0 of 19.
++
++## 2026-11-26 — The check of every verdict file's form now runs at every landing (S306p)
++
++**What happened.** Each arc of the record carries a small verdict file in a fixed form. A test checked that form, but
++it ran only when someone ran the whole suite, and in one window eleven files that broke it were landed. The building
++session made that test's checks an automatic gate, so a landing that adds a malformed verdict file is now refused. It
++was long-carried review item R81-3.
++
++0 of 19.
+diff --git a/README.md b/README.md
+index b51063248..a7e005316 100644
+--- a/README.md
++++ b/README.md
+@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
+ | arcs with a verdict | 1712: 1205 PROVED, 388 NEGATIVE, 106 OPEN, 13 RETRACTED |
+ | points in the register | 884: 310 open (queued work, leads, and questions not yet decided), 574 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+-| the last landing | 2026-11-13; its entry heads `CHANGELOG.md` (the working record) |
++| the last landing | 2026-11-26; its entry heads `CHANGELOG.md` (the working record) |
+ <!-- STATE:END -->
+ 
+ ## Start here
+diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
+index 28ee4c140..69eae871f 100644
+--- a/docs/PRACTICES.md
++++ b/docs/PRACTICES.md
+@@ -1537,3 +1537,14 @@ an authority had confirmed it.
+   p_neutral(2x) = 2^d (x² − 9) x S(x) settled it.
+ - **B2005:** the group orders that shaped its card were computed before the card. The card states this. Of its
+   predictions beyond the exploration's reach, the order at mod 243 failed as worded.
++
++## A verdict file passes the schema's test before it lands — GATED (`verdict-schema`) (adopted 2026-11-26, Review 81's item R81-3; register rows P-810 and P-881; built by the building session at main's M48)
++
++**The rule:** every `frontier/*/arc_verdict.json` passes `tests/test_arc_verdict_schema.py`: the required fields, the
++closed verdict enum, `instrument` and `creates_law` as booleans, the id matching its folder, the identifications from
++B1231 on and the scope tag from B1454 on, and the kill graph's scope tags. **The gate** runs that test's own checks on
++every verdict file, so the rule stands in one place. Its failing paths are `tests/test_verdict_schema_gate.py`.
++
++**Why it exists.** P-810: the full suite of Review 79 found eleven verdict files landed in one window with scope keys the
++schema does not have; the test refused them, but it was not a gate, and a landing ran only the locks it touched. Until
++now main ran it by hand at every landing that added or changed a verdict file.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 38aadced6..f98df72f9 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE VERDICT FILES' SCHEMA TEST IS A GATE (R81-3; P-810, P-881) (2026-11-26)”
+ - “S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)”
+ - “S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…”
+ - “S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…”
+@@ -60,7 +61,6 @@
+ - “S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13)”
+ - “S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)”
+ - “S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)”
+-- “S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 41504951c..e566ebeb4 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1558 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1559 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1937,3 +1937,7 @@ Generated by `scripts/views/spine.py` — 1558 locks. Regenerated with the views
+ 
+ - **B1961** `PROVED` `test_b1961_six_debts.py` — “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalar”
+ - **B940** `PROVED` `test_b940_the_pairing_source.py` — “THE SEALED DIRAC RUN on (m004, spin structure rho_1): OUTCOME A against a criterion sealed and pushed (7bb6c963, sha-256 6c513b06...) BEFORE any compu”
++
++## 2026-11-26
++
++- — `test_verdict_schema_gate.py` 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index f2c25a41a..065b0132f 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3524,6 +3524,59 @@ def gate_negative_second_computation(reader=None):
+     return True, "ok (every NEGATIVE verdict from B%d on names a second computation or says PROVISIONAL, and its page says what the wall teaches)" % NEGATIVE_SECOND_FROM_ARC
+ 
+ 
++# R81-3 (Review 81's item, carried from R80-13 and R79-13; register rows P-810 and P-881; main's M48 to the building
++# session, 2026-11-24): the schema's test of the verdict files, made a gate. P-810 found eleven verdict files pushed that
++# break the schema, because the test was not a gate and a landing ran only the locks it touched. The gate runs the test's
++# own checks (tests/test_arc_verdict_schema.py: test_schema on every verdict file, the census floor, and the kill graph's
++# scope tags), so the rule stands in one place and the gate cannot drift from it.
++VERDICT_SCHEMA_TEST = "tests/test_arc_verdict_schema.py"
++
++
++def _verdict_schema_test():
++    import importlib.util as _ilu
++    spec = _ilu.spec_from_file_location("arc_verdict_schema_for_the_gate", os.path.join(ROOT, VERDICT_SCHEMA_TEST))
++    m = _ilu.module_from_spec(spec)
++    spec.loader.exec_module(m)
++    return m
++
++
++def verdict_schema_problems(files=None, kill_graph=True):
++    """what the schema's test refuses: a line per verdict file that fails test_schema, the census below its floor, and
++    the kill graph's entries without a scope tag"""
++    m = _verdict_schema_test()
++    files = m.FILES if files is None else files
++    bad = []
++    if files is m.FILES:
++        try:
++            m.test_verdict_files_exist()
++        except AssertionError as exc:
++            bad.append(str(exc) or "the census of verdict files is below its floor")
++    for p in files:
++        try:
++            m.test_schema(p)
++        except AssertionError as exc:
++            bad.append(str(exc).split("\n")[0][:160] or os.path.basename(os.path.dirname(str(p))))
++        except Exception as exc:                          # unreadable JSON is a schema failure too
++            bad.append("%s: unreadable (%s)" % (os.path.basename(os.path.dirname(str(p))), type(exc).__name__))
++    if kill_graph:
++        try:
++            m.test_kill_graph_entries_carry_a_scope_from_b1454()
++        except AssertionError as exc:
++            bad.append(str(exc).split("\n")[0][:160])
++    return bad
++
++
++def gate_verdict_schema(_files=None):
++    """R81-3: every verdict file passes the schema's test, read by the test's own code"""
++    try:
++        bad = verdict_schema_problems(_files, kill_graph=_files is None)
++    except Exception as exc:                              # FAIL-CLOSED: a test that cannot be loaded checks nothing
++        return False, "the schema's test cannot be loaded: %s" % exc
++    if bad:
++        return False, "%d verdict file(s) break the schema: " % len(bad) + "; ".join(bad[:5])
++    return True, "ok (every verdict file passes %s's checks)" % VERDICT_SCHEMA_TEST
++
++
+ GATES = {
+     "identification-register": gate_identification_register,
+     "framing": gate_framing,
+@@ -3579,6 +3632,7 @@ GATES = {
+     "member-scope": gate_member_scope,
+     "seat-positive-verified": gate_seat_positive_verified,
+     "negative-second-computation": gate_negative_second_computation,
++    "verdict-schema": gate_verdict_schema,
+     "selection-family": gate_selection_family,
+     "public-face": gate_public_face,
+ }
+diff --git a/tests/GATE_CONTROLS.json b/tests/GATE_CONTROLS.json
+index 6d6455773..82eb7f76c 100644
+--- a/tests/GATE_CONTROLS.json
++++ b/tests/GATE_CONTROLS.json
+@@ -54,5 +54,6 @@
+  "arrival-phrases": "tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused",
+  "negative-second-computation": "tests/test_negative_second_computation.py::test_a_negative_with_no_second_computation_and_no_provisional_fails_and_its_twin_passes",
+  "selection-family": "tests/test_gate_failing_paths.py::test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family",
+- "public-face": "tests/test_gate_failing_paths.py::test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record"
++ "public-face": "tests/test_gate_failing_paths.py::test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record",
++ "verdict-schema": "tests/test_verdict_schema_gate.py::test_a_verdict_file_that_breaks_the_schema_fails_the_gate_and_its_twin_passes"
+ }
+diff --git a/tests/test_verdict_schema_gate.py b/tests/test_verdict_schema_gate.py
+new file mode 100644
+index 000000000..16208d334
+--- /dev/null
++++ b/tests/test_verdict_schema_gate.py
+@@ -0,0 +1,54 @@
++"""R81-3 (register rows P-810 and P-881; main's M48, 2026-11-24): the schema's test of the verdict files is a gate.
++
++The gate `verdict-schema` runs the test's own checks on every verdict file. Each planted file below breaks one rule the
++test holds, and stands with a twin that keeps it."""
++import json, os, sys
++from pathlib import Path
++
++ROOT = Path(__file__).resolve().parents[1]
++sys.path.insert(0, str(ROOT / "scripts" / "gates"))
++import gates
++
++GOOD = {"id": "B99990", "verdict": "PROVED", "claim_one_line": "a planted line", "instrument": False, "creates_law": False,
++        "identifications": [], "scope": {"frame": "none", "object": "a planted object", "reach": "single", "hypotheses": "none"}}
++
++
++def _plant(tmp_path, name, d):
++    folder = tmp_path / name
++    folder.mkdir()
++    p = folder / "arc_verdict.json"
++    p.write_text(d if isinstance(d, str) else json.dumps(d), encoding="utf-8")
++    return p
++
++
++def test_a_verdict_file_that_breaks_the_schema_fails_the_gate_and_its_twin_passes(tmp_path):
++    """the control: a verdict file whose scope carries a key the schema does not have, as P-810's eleven did"""
++    good = _plant(tmp_path, "B99990_good", GOOD)
++    assert gates.gate_verdict_schema(_files=[good])[0]
++    bad = _plant(tmp_path, "B99991_bad", dict(GOOD, id="B99991", scope=dict(GOOD["scope"], domain="the eleven's extra key")))
++    ok, msg = gates.gate_verdict_schema(_files=[good, bad])
++    assert not ok and "B99991" in msg and "1 verdict file(s)" in msg
++
++
++def test_each_rule_of_the_schema_reaches_the_gate(tmp_path):
++    cases = {
++        "B99992_noinstr": {k: v for k, v in dict(GOOD, id="B99992").items() if k != "instrument"},
++        "B99993_enum": dict(GOOD, id="B99993", verdict="SETTLED"),
++        "B99994_idmismatch": dict(GOOD, id="B99999"),
++        "B99995_noscope": {k: v for k, v in dict(GOOD, id="B99995").items() if k != "scope"},
++        "B99996_reach": dict(GOOD, id="B99996", scope=dict(GOOD["scope"], reach="the programme")),
++        "B99997_nolaw": {k: v for k, v in dict(GOOD, id="B99997").items() if k != "creates_law"},
++        "B99998_json": "{ not json",
++    }
++    for name, d in cases.items():
++        p = _plant(tmp_path, name, d)
++        ok, msg = gates.gate_verdict_schema(_files=[p])
++        assert not ok, name
++
++
++def test_on_the_record_the_gate_passes_and_reads_every_file():
++    ok, msg = gates.gate_verdict_schema()
++    assert ok, msg
++    assert len(gates._verdict_schema_test().FILES) > 900
++    reg = json.load(open(ROOT / "tests" / "GATE_CONTROLS.json", encoding="utf-8"))
++    assert reg["verdict-schema"].endswith("::test_a_verdict_file_that_breaks_the_schema_fails_the_gate_and_its_twin_passes")
+-- 
+2.43.0
+
