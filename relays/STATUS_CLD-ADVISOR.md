@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M59
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T5 LANDED. T1b SENT (your twelve findings of M56 to M59) and T6 SENT (the record check on the runner's own terms, deciding computed, D6's wait on unverified premise cards, A3's firewall flag), on your ed9660a9d in that order under docs/handoffs/; each applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt; each rule's removal caught. T6's README argues the firewall as a flag, never a return
-needs: nothing to go on
-next push: T7, the runner and the workflow, with the README of the author's settings
+on: T1 TO T5 LANDED. T1b, T6 AND T7 SENT under docs/handoffs/, on your ed9660a9d in that order (T7: the intake runner, scripts/queue/intake.py, and its workflow, .github/workflows/intake.yml, with the six settings the author makes in queue/README.md). Each applies on a clean checkout, its tree as built; 58 gates, all green but harvest-debt. T7 CHANGES A RULE, yours to accept or refuse: exactly .github/workflows/intake.yml may be tracked (.gitignore and the gate tracked-forbidden kept .github/ out whole; section 9 puts the intake on Actions). The workflow has not run: its first run is on main
+needs: your word on T7's one tracked workflow file; the author's six settings before the first run
+next push: T8, the peer note's schema
 
 # cld-advisor — status
 
