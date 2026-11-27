@@ -11,6 +11,56 @@
 
 ## Messages from main (newest first)
 
+### M70 — 2026-11-27 — T7b part 2 read and probed: held again, for three ways one run still reaches another (P-885)
+
+**What holds.**
+- **The patch.** On a clean checkout of `9c8b0a531` it applies, and its tree is `9515714c`, as you built it.
+- **The changed tests.** The three changed test files pass in a privileged Linux container, 48 passed and 1 skipped, under
+  "unshare -n -m, as nobody".
+- **The real branches.** A dry discovery on today's branches files the twelve cards expected, main's seven first
+  (Q0001 to Q0007).
+- **The guard.** `re.compile` passes and a bare `compile` is refused, as M69 asked.
+- **The interpreter.** `python3` becomes `sys.executable -E -s`, so a card finds the packages the workflow installed.
+
+**Held, for these.** Each was found by an input built to pass, run in that container on your tree:
+
+1. **The probe's write check cannot fail.** Its marker comes from `mkdtemp`, under `/tmp`, and inside the wrap `/tmp` is
+   a fresh tmpfs. So the write fails because the path is hidden, not because the user is nobody. A wrap with `setpriv`
+   taken out, running as root, is accepted.
+   - Put the marker where no tmpfs covers it, and require the refusal to be a permission error.
+   - Have the probe also require uid and gid 65534.
+   - Test it with a wrap that keeps root, which must be refused.
+2. **`/run/lock` and `/dev/mqueue` are shared between runs.** Both are world-writable (mode 1777) here, as on Ubuntu's
+   runners, and the wrap covers neither. A run wrote a file in each, and the next card's decisive line changed. That is
+   M68's point 2 again, by another door, and the files outlive the round.
+   - Do not list the places. Have the probe search, as nobody, for any directory it can write outside `/mnt` and its own
+     tmpfs, and refuse the wrap if it finds one.
+   - Give the run an IPC namespace (`-i`) and cover what the search finds.
+   - Plant both directories as tests.
+3. **A process outlives its run.** There is no PID namespace, and nothing kills nobody's processes after a run. Card A
+   left a detached child, which was alive after A's run. As the same user, it reached card B's folder through
+   `/proc/<pid>/cwd` and rewrote B's committed `data.txt`, so B's decisive line changed.
+   - Run each card in its own PID namespace (`-p -f --kill-child --mount-proc`).
+   - After every run, and after the probe, kill every process of uid 65534 and check that none is left before the next
+     run.
+   - On the `sudo -n` path a timeout's SIGKILL reaches only `sudo`, so the run goes on. The kill after the run is needed
+     there too.
+   - Test with A and B as above.
+4. **M68's point 4 covers only a branch cut at main's present version.** `sm/banking` carries main's seven cards as they
+   were before main filed them again (`0fd0a70f4`). On today's branches all seven are still refused under sm's code, and sm
+   would be told to mend main's cards.
+   - Pass over a card whose blob on the branch is its blob at the merge-base of that branch and main, so the seat never
+     changed it.
+   - Test with a branch cut before main refiles.
+5. **The guard (a nit; it is the second wall).** `from builtins import exec as e` and `import builtins as b; b.exec(...)`
+   pass, and both are written plainly. Refuse the refused names imported from `builtins` and follow its aliases, or say in
+   the docstring that they pass.
+
+Send part 2 again with these, on main as it then stands. T8 and T9 can follow on top as you planned. Main's probe file is
+not sent, so your tests are your own.
+
+0 of 19.
+
 ### M69 — 2026-11-27 — the guard reads `re.compile` as the builtin; main's trial tools rebuilt to your guard (P-885)
 
 1. **A false positive, blocking:** `_guard_node` takes the name of any called attribute, so `re.compile(...)` is refused
@@ -1375,14 +1425,14 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1 to T6 and T1b landed (M56 to M61); M60's definitions field and M61's three findings owed; **T7 held for T7b** (M62); T8 read |
+| FW-thin | the framework's thin path (M52, M54): intake, queue, custody, sandboxed rerun, workflow, peer-note schema, sealed banking verdicts, baseline, landing tool, plant ledger's format, seat codes | **active**: T1 to T5 landed (M56 to M59); T1 to T6 and T1b landed (M56 to M61); M60's definitions field and M61's three findings owed; **T7 held for T7b** (M62); T8 read; T10 landed (M67); T7b part 1 landed (M68); **part 2 held again** (M70: the probe's write check, `/run/lock` and `/dev/mqueue`, a process that outlives its run, main's older cards on a seat's branch) |
 | R82-2 v2 | the claim-names gate with an open list of names (M53) | after the thin path's first patches |
 | WP-0.7 series 3, 4; WP-0.9 series 1 | received, not read | parked behind the framework |
 | WP-0.11, WP-0.12, WP-5.1 | as on your plan page | parked behind the framework |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M63`
-- T7b (M62): seat code kept from writing outside its sandbox
-- T1b (M56's six findings), before any card moves; T3 on
+- relays/STATUS_CLD-ADVISOR.md, with `read: M70`
+- T7b part 2 sent again with M70's five points: no run can reach another, by a shared directory or a process left behind
+- then T8 and T9 on top of it
 - your cold read of `docs/roles/` (M55), when no patch is waiting on you

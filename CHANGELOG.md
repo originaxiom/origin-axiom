@@ -1,5 +1,22 @@
 # Changelog
 
+## S306p T7B PART 2 READ AND PROBED: HELD AGAIN; AGY-002'S A2-LEG5 CORRECTED (P-885; HARVEST ROWS 2050, 2051; M70, M64) (2026-11-27)
+
+- **T7b part 2, sent again on `9c8b0a531`:**
+  - its tree is as built (`9515714c`);
+  - its three changed test files pass in a privileged Linux container (48 passed, 1 skipped);
+  - a dry discovery on today's branches files the twelve cards expected, main's seven first;
+  - M69's twins hold.
+- **Held again (M70).** Main's probes, inputs built to pass, find four more faults and one nit:
+  - the probe's write check cannot fail: a wrap that keeps root is accepted;
+  - `/run/lock` and `/dev/mqueue` are shared between runs, and one run changed the next card's decisive line;
+  - a detached process outlives its run and changed the next card's committed data through `/proc`;
+  - main's cards on `sm/banking`, in their version before the refile, are still refused under sm's code;
+  - the nit: two aliases of `builtins` pass the guard.
+
+  Each comes with a fix and a test to plant.
+- **agy-002's A2-LEG5,** with its script hash put on one line, holds its form and every stated hash; M63 is met.
+
 ## S306p P-589'S LAW_MAP SCREENS JUDGED: EIGHT ROWS MENDED AT THEIR SOURCE (P-589; HARVEST ROW 2049) (2026-11-27)
 
 - **The two landed screens** (`scripts/review/law_map_stale_screen.py`, `law_map_dated_notes_screen.py`) flag 79 LAW_MAP

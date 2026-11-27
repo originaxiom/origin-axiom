@@ -20565,3 +20565,12 @@ correction: one result's verification, one result's true ground and frame, two s
 false generalisation and one mislabelled fibre. Two rows stay open for a decision at source.
 
 0 of 19.
+
+## 2026-11-27 — the runner held once more (S306p)
+
+**What happened.** The building seat sent the runner again with the last round's fixes, and they work. Main then tried
+new ways for one card's run to reach another's, and found three that still do: two shared folders the sandbox misses, and
+a program a card can leave running. The sandbox's own self-test also passes when it should not. It goes back with a fix
+for each. One seat corrected its card.
+
+0 of 19.
