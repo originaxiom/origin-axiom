@@ -9425,8 +9425,56 @@ mathematics of this window's later days (B1906 to B1916) landed after the window
 - [>] R87-6: the seven known failures of the fresh clone (B1306's slice D, B1421, B1266, B1462, B1957's three) mended, and the flakes B618 and B1968 settled; until then they are T10's first entries (owner: cc; source: R86-6, a3494f066) [carried at Review 88, 2026-11-27]
 - [>] R87-7: the harvest-debt checker counts a seat's new relay files as debt, with a planted case; the claim-card half is the queue's discovery (owner: cc, then the builder; source: harvest rows 2016, 2017) [carried at Review 88, 2026-11-27]
 - [x] R88-1: the builder's patch of Review 88's code findings (M64), with T7b, built, verified by main with probes of what each rule admits (B2018's and more of the kind), and landed before the intake runner (T7) lands (owner: the builder, then cc; source: B2018) [met 2026-11-27: T7b part 1, every item of M64 among them items 1 to 13, verified by Review 88's live probes and main's own and landed before the runner; the runner, part 2, held for the sandbox's /tmp and its probe (M68)]
-- [ ] R88-2: the window's five arcs, B2013 to B2017, read by the trial's two banking seats; if the trial has not run by Review 89, read by Review 89's readers (owner: cc; source: B2018)
+- [>] R88-2: the window's five arcs, B2013 to B2017, read by the trial's two banking seats; if the trial has not run by Review 89, read by Review 89's readers (owner: cc; source: B2018) [carried at Review 89, 2026-11-27: the trial has not run, only because the runner's sandbox is with the builder; the arcs hold sealed natural plants, so a reading now would spoil the trial; to Review 90]
 - [x] R88-3: main's seven trial cards filed on main before the runner's first round, so that they precede the seats' cards in the queue (owner: cc; source: B2018; discovery run without writing on 2026-11-27 would have made the agy lane's C64 Q0001) [met 2026-11-27: the seven cards at relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md on main, naming ff85df4c7; the six light ones REPRODUCED under the queue's rerun, B2016 HEAVY; filed before any runner round]
 - [x] R88-4: the seats' codes in a tracked table by branch, written by main from the seats' pages, for discovery to tie a card's code to the branch it is on (owner: cc, then the builder; source: B2018, reader A's 15th) [met 2026-11-27: queue/SEAT_CODES.json, landed at ff85df4c7, from the seats' pages; M65 to the builder]
 
 **anchor-commit: `64cc951b3`**
+
+## Review 89 (entered 2026-11-27; B2019)
+
+## In one minute
+- **Why now, and in time:** opened at the 20th landing since Review 88's anchor 64cc951b3, the threshold, before the 34th.
+- **What was read, and why not the trial's arcs:** R88-2 sent B2013 to B2017 here if the trial had not run. It has not, only
+  because the runner's sandbox is still with the builder, and those arcs and main's trial tools hold sealed natural plants,
+  so a reading now would spoil the trial; R88-2 is carried to Review 90. Read instead: B2018 and the window's process work,
+  the queue's code as landed after Review 88, T10's known-failures list and its gate, the two law-map screens and the eight
+  rows mended in the window, B1957's convention check, the role pages and the register's 34 changed rows.
+- **The readers:** three sessions of main's own model family that wrote none of it, on a git-archive copy of 47ece044b cut
+  into three folders, with eight planted faults (sha256 5c5427cd44717178e642c3c97dbacc6081fba468328214490e5e5a813ed33d47,
+  fixed before reading). **Six of eight were caught;** missed were a one-word flip in a dated law-map mend, given with the arc
+  it cites (R87-4's case), and a test helper's "and" made "or".
+- **The findings:** eleven held on the live tree.
+  - Sent to the builder (M74): the rerun's `-E`, which defeats its pinned hash seed; two missing tests (a real
+    non-ancestor, a swap along the list's history); a stale docstring.
+  - Mended here: the stale screen never read its correction markers and skipped arcs without a verdict file; the
+    dated-notes screen hid hits on any date; a law-map mend missing its arc's second clause; two register escalations that
+    misstated their rows; an unclear decline; a miscount in B2018.
+  - Main's own, found while checking: two point-debt tests failing unseen since the day's register work, mended, and now
+    run by the landing (R89-3).
+- **The lesson:** a dated mend is read clause by clause beside the sentence of its arc; being given the arc is not enough
+  (R89-4; class E52, no new class).
+- **The loop:** R87-4 and R89-3 met; R88-2, R87-3, R87-6 and R87-7 carried; R86-1 to R86-4 reached their third carry and
+  moved whole to register row P-881.
+
+**The core, from `scripts/review/review_tools.py`:** the window 64cc951b3 to 47ece044b, 20 merges, 1 arc with a verdict
+(B2018), the seeded sample B2018; 28 unmerged leaves, all registered; 0 seals in the window; provenance 1,607 lines, 0 hits;
+LAW_MAP +8 rows; no new error class; no new unglossed word pair; 59 gates, each named by a test and each with a failing
+control.
+
+### Action items (Review 89)
+- [x] R86-1: the counterfactual for B1971's cancellation: a sector-dependent Higgs (the down sector's triplet rotated by a small angle) shows whether V13's rate falls to the naive 1/2 (owner: cc; source: B1975) [carried at Review 87 and 88] [moved whole to register row P-881 at its third carry, Review 89, 2026-11-27]
+- [x] R86-2: B1964 at order 9, and a uniform cusp limit for its lemma or the verdict re-graded to the lemma plus its height-30 check (owner: cc; source: B1975, reader A) [carried at Review 87 and 88] [moved whole to register row P-881 at its third carry, Review 89, 2026-11-27]
+- [x] R86-3: agy-002's reduction behind B1973's cap re-derived on main (owner: cc; source: B1975, reader C) [carried at Review 87 and 88] [moved whole to register row P-881 at its third carry, Review 89, 2026-11-27]
+- [x] R86-4: this window read by sessions of the other model family, with plants (owner: cc; with R84-2 and R85-4) [carried at Review 87 and 88] [moved whole to register row P-881 at its third carry, Review 89, 2026-11-27]
+- [>] R87-3: why the halving fails when a factor 5 or 7 joins the 3-tower and survives the 2-part (B2012) (owner: cc; source: B2011, B2012) [carried at Review 88, 2026-11-27] [carried at Review 89, 2026-11-27: behind the framework, P-885]
+- [x] R87-4: a plant inside a dated note is given to a reader together with the arc the note cites (owner: cc; source: B2013's plants, R86-5) [carried at Review 88, 2026-11-27] [met at Review 89, 2026-11-27: plant B2 was given with B1658's FINDINGS, and missed; R89-4]
+- [>] R87-6: the seven known failures of the fresh clone (B1306's slice D, B1421, B1266, B1462, B1957's three) mended, and the flakes B618 and B1968 settled; until then they are T10's first entries (owner: cc; source: R86-6, a3494f066) [carried at Review 88, 2026-11-27] [carried at Review 89, 2026-11-27]
+- [>] R87-7: the harvest-debt checker counts a seat's new relay files as debt, with a planted case; the claim-card half is the queue's discovery (owner: cc, then the builder; source: harvest rows 2016, 2017) [carried at Review 88, 2026-11-27] [carried at Review 89, 2026-11-27]
+- [>] R88-2: the window's five arcs, B2013 to B2017, read by the trial's two banking seats; if the trial has not run by Review 89, read by Review 89's readers (owner: cc; source: B2018) [carried at Review 89, 2026-11-27: the trial has not run, only because the runner's sandbox is with the builder; the arcs hold sealed natural plants; to Review 90]
+- [ ] R89-1: the builder's four from Review 89 (M74): the rerun without `-E`, so its hash seed holds, tested on a script that prints a set of strings; a test of discovery's ancestor rule with a real non-ancestor; a test of a swap along the known-failures list's history; `baseline.py`'s docstring (owner: the builder, then cc; source: B2019)
+- [ ] R89-2: the 51 law-map rows the mended screens now name, outside the trial's arcs, judged at source as the day's 69 were (owner: cc; source: B2019, P-589)
+- [x] R89-3: the point-debt gate's tests run at every landing that touches the register, its gate or the test (owner: cc; source: B2019) [met 2026-11-27: the landing tool runs `tests/test_point_debt_gate.py` then, and both tests that had failed unseen are mended]
+- [ ] R89-4: a reader of a dated mend sets each of its clauses beside the arc's sentence, and says so in its report; the next review's brief asks it (owner: cc; source: B2019's plant B2, R87-4)
+
+**anchor-commit: `47ece044b`**

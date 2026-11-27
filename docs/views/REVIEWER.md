@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1715** |
-| words of findings prose | **1,576,925** |
-| test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1715** (100.0 %) |
+| research arcs with findings | **1716** |
+| words of findings prose | **1,578,495** |
+| test lock files referenced | **948** |
+| arcs carrying an authored verdict | **1716** (100.0 %) |
 | recorded closures | **864** (692 classified, 172 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1208 |
+| PROVED | 1209 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2018`** (1950 words, 0 locks)  
-“REVIEW 88 ENTERED (PROVED, a process arc): opened at the 28th landing (R87-1 met); the window's five arcs are the trial's and are left to its two blind banking seats; three cold readers of the window's process work caught all eight plants and found real faults: in the queue's code, a symlinked or attribute-rewritten script runs other text than custody hashed, the control's imports go unguarded, a slow control or a heavy import skips the checks, a card's seat code is not tied to its branch, main's alias moves main's own card, a card can skip the peer offer, an effect need not name a code it touches; on the pages, the failing control, custody, the premise rule, the firewall and the checks named for D6 to D8 differed from the code; main reproduced each code finding with probes on the live tree and sent them to the builder as a patch the runner waits on (R88-1); the pages mended; the class E52, no new class; anchor 64cc951b3”  
-`B2018_review_88_entered_eight_of_eight_plants_caught_and_the_queues_code_and_pages_read/FINDINGS.md`
+**PROVED — `B2019`** (1541 words, 2 locks)  
+“REVIEW 89 ENTERED (PROVED, a process arc): opened at the 20th landing since Review 88's anchor; the trial's arcs left to the trial again (R88-2 carried to Review 90); three cold readers caught six of eight plants, missing a one-word flip in a dated law-map mend (R87-4's case, given with its arc) and a test helper's 'and' made 'or'; eleven real findings held on the live tree: the rerun's -E defeats its pinned hash seed, the stale screen never read its correction markers and skipped arcs without a verdict file, the dated-notes screen hid hits on any date, two missing tests (a real non-ancestor, a swap along the list's history), a stale docstring, a mend missing its arc's second clause, two register escalations misstating their rows, an unclear decline, a miscount in B2018; seven mended here, four to the builder (M74); main found two point-debt tests failing unseen since the day's register work, mended them, and made the landing run them; anchor 47ece044b”  
+`B2019_review_89_entered_six_of_eight_plants_caught_and_the_windows_process_work_read/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

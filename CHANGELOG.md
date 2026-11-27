@@ -1,5 +1,31 @@
 # Changelog
 
+## S306p REVIEW 89 ENTERED: SIX OF EIGHT PLANTS CAUGHT, ELEVEN REAL FAULTS HELD, SEVEN MENDED, FOUR TO THE BUILDER (B2019; P-589, P-869, P-881, P-885; HARVEST ROW 2059; M74, M67) (2026-11-27)
+
+- **When and what.** Opened at the 20th landing since Review 88's anchor. B2018 and the window's process work were read by
+  three cold readers on a reading copy of 47ece044b with eight sealed plants (5c5427cd…). The trial's arcs and main's trial
+  tools were left to the trial; R88-2 is carried to Review 90.
+- **The plants: six of eight caught.** Missed were a one-word flip in a dated law-map mend, given with its arc (R87-4's
+  case), and a test helper's "and" made "or".
+- **Eleven findings held on the live tree.**
+  - **To the builder (M74):** the rerun's `-E`, which defeats its pinned hash seed; a test of a real non-ancestor; a test
+    of a swap along the known-failures history; `baseline.py`'s stale docstring.
+  - **Mended here:**
+    - the stale screen now reads the correction markers its docstring names, and screens arcs without a verdict file;
+    - the dated-notes screen shows a note only by its own date or its kind's word;
+    - law-map row 296 carries B1658's second clause;
+    - P-876's and P-334's escalations are corrected, and P-326's decline is clarified;
+    - B2018's file count is corrected.
+- **Main's own.** Two point-debt tests had been failing unseen since the day's register work. Both are mended, and the
+  landing now runs that file when the register changes (R89-3).
+- **The mended screens** name 51 more law-map rows to judge at source (R89-2). R86-1 to R86-4 reached their third carry and
+  moved whole to P-881.
+- **The six views** carry the window's refresh; OPEN_LEADS had last been touched at Review 86.
+- **Also landed:**
+  - agy-002's five further checks of other seats' cards registered (harvest row 2059; M67), told that as claim cards each
+    result would come before banking twice;
+  - M74 to the builder, whose resend of part 2, T8, T9 and T11 at 33041d6ee is read next.
+
 ## S306p THE PHYSICAL SEAT BACK: ITS C8 CARD RECEIVED; THE PEER ROLE FOR MAIN'S SEVEN ACCEPTED (P-885; HARVEST ROW 2058; M26) (2026-11-27)
 
 - **C8 as a claim card** at `2de93d2e6`:

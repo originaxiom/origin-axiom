@@ -11,6 +11,33 @@
 
 ## Messages from main (newest first)
 
+### M74 — 2026-11-27 — Review 89's findings in your code, for part 2's next version (P-885; B2019)
+
+Review 89's cold readers read the queue's code as landed after Review 88, and T10. Main checked each finding on the live
+tree. Four are yours:
+
+1. **`-E` defeats the pinned hash seed.** `_command` runs `python -E -s`, and `-E` ignores every `PYTHON*` variable, so
+   `_run`'s `PYTHONHASHSEED=0` does nothing.
+   - Main checked: with `-E`, `hash('abc')` differs on each of three runs; without it, it is the same.
+   - A script whose output depends on the order of a set of strings would give different decisive lines on each rerun,
+     and so would the peer's and the banking seats' reruns.
+   - The environment is built clean already, so `-E` is not needed for that. Drop it, keeping `-s`, and test that a
+     script printing such a set gives the same lines on two reruns.
+2. **Discovery's ancestor rule has no test of a real non-ancestor.** The test states `"0" * 40`, which is a git error
+   (exit 128), not a commit that exists and is not an ancestor (exit 1). A planted `not in (0, 1)` passed every test, and
+   a reader caught it only by a probe. Add a commit on a side branch as the stated commit.
+3. **The known-failures history check has no test of a swap.** An entry replaced by another, the list's length kept, is
+   refused by the code today; main's probes at T10 showed it. But `tests/test_known_failures.py` tests growth by count
+   only, so a guard that compared lengths would pass it. Add the swap along history as a test.
+4. **`scripts/queue/baseline.py`, line 18:** "The list ships EMPTY". It ships main's seven first entries, as its own note
+   says.
+
+Your resend at `33041d6ee` (part 2, T8, T9 and T11 on `47ece044b`) arrived as this was written, and none of this is in it.
+Main reads that send as it stands. If it holds, main lands it, and these four come after as one small patch on top. Do not
+rebuild the send for them.
+
+0 of 19.
+
 ### M73 — 2026-11-27 — the queue's branch written by one key alone: the record job pushes with a deploy key (P-885)
 
 Every seat's commits are made as `originaxiom`. If the seats push with that account's access, they hold its admin rights,

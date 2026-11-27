@@ -1,0 +1,50 @@
+[
+ {
+  "key": "A1",
+  "file": "A/scripts/queue/rerun.py",
+  "old": "REFUSED = NETWORK | {\"ctypes\", \"_ctypes\",",
+  "new": "REFUSED = NETWORK | {\"_ctypes\","
+ },
+ {
+  "key": "A2",
+  "file": "A/scripts/queue/discover.py",
+  "old": "if git(root, \"merge-base\", \"--is-ancestor\", stated, found_commit)[0] != 0:",
+  "new": "if git(root, \"merge-base\", \"--is-ancestor\", stated, found_commit)[0] not in (0, 1):"
+ },
+ {
+  "key": "A3",
+  "file": "A/tests/test_queue_rerun.py",
+  "old": "return res[\"status\"] == \"RETURNED_AT_INTAKE\" and any(words in r for r in res[\"reasons\"])",
+  "new": "return res[\"status\"] == \"RETURNED_AT_INTAKE\" or any(words in r for r in res[\"reasons\"])"
+ },
+ {
+  "key": "B1",
+  "file": "B/scripts/queue/baseline.py",
+  "old": "grown = sorted(now[kind] - before[kind])",
+  "new": "grown = sorted(now[kind] - before[kind]) if len(now[kind]) > len(before[kind]) else []"
+ },
+ {
+  "key": "B2",
+  "file": "B/docs/LAW_MAP.md",
+  "old": "if the factor 16 against 4 survives running to M_Z, which is assumed, not computed (B1658 § 3)",
+  "new": "if the factor 16 against 4 survives running to M_Z, which B1658 § 3 computes"
+ },
+ {
+  "key": "B3",
+  "file": "B/scripts/review/law_map_dated_notes_screen.py",
+  "old": "(Sharpened|Scoped|Dated note|Corrected|Correction|Withdrawn|Retracted|Narrowed)",
+  "new": "(Sharpened|Scoped|Dated note|Withdrawn|Retracted|Narrowed)"
+ },
+ {
+  "key": "C1",
+  "file": "C/docs/roles/BANKING.md",
+  "old": "do not read the peer's note or the other verdict before your own is sealed",
+  "new": "do not read the peer's note or the other verdict before your own expectation is committed"
+ },
+ {
+  "key": "C2",
+  "file": "C/docs/POINT_REGISTER.md",
+  "old": "it stays open only for P-428 (rule 8), a PROCESS row that does not age; next: when P-428 decides",
+  "new": "it stays open only for P-482 (rule 8), a PROCESS row that does not age; next: when P-482 decides"
+ }
+]

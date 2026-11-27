@@ -11,6 +11,7 @@ for f in glob.glob(str(ROOT / "frontier/*/arc_verdict.json")):
     try: v = json.loads(pathlib.Path(f).read_text(encoding="utf-8"))
     except Exception: continue
     V[v.get("id")] = (v, pathlib.Path(f).parent)
+DIRS = {pathlib.Path(f).name.split("_")[0]: pathlib.Path(f) for f in glob.glob(str(ROOT / "frontier/B*_*"))}
 retr = (ROOT / "docs/RETRACTIONS.md").read_text(encoding="utf-8") if (ROOT / "docs/RETRACTIONS.md").exists() else ""
 retr_rows = [l for l in retr.splitlines() if l.startswith("| ")]
 MARK = re.compile(r"unearned|withdrawn|\bRETRACTED\b|retract(ed|ion)|not a law|overclaim|overst|\bwrong\b|refuted|superseded|"
@@ -25,8 +26,10 @@ for n, l in enumerate(law, 1):
     title = l.split("|")[1]
     for a in sorted(set(re.findall(r"\bB(\d{3,4})\b", title)), key=int):
         aid = "B" + a
-        if aid not in V: continue
-        v, d = V[aid]; why = []
+        # CHANGED 2026-11-27 (Review 89, a cold reader's finding, checked by main): an arc with no verdict file was skipped,
+        # so screens (2) and (3) never ran for it. The line as it stood: `if aid not in V: continue`
+        if aid not in V and aid not in DIRS: continue
+        v, d = V.get(aid, ({}, DIRS.get(aid))); why = []
         verd = str(v.get("verdict") or v.get("status") or "")
         if re.search(r"RETRACT|SUPERSED|WITHDRAWN", verd, re.I) or v.get("superseded_by"):
             why.append("verdict:%s%s" % (verd[:20], (" sup_by=" + str(v.get("superseded_by"))[:30]) if v.get("superseded_by") else ""))
@@ -34,7 +37,9 @@ for n, l in enumerate(law, 1):
         if rr: why.append("RETR x%d" % len(rr))
         fd = d / "FINDINGS.md"
         if fd.exists():
-            ms = sorted(set(m.group(0).lower() for m in TM.finditer(fd.read_text(encoding="utf-8"))))
+            # CHANGED 2026-11-27 (Review 89, the same reader): screen (3) used TM, narrower than the docstring's "correction
+            # marker", and MARK, defined for it, was never used; it now uses MARK. The line as it stood read TM.finditer
+            ms = sorted(set(m.group(0).lower() for m in MARK.finditer(fd.read_text(encoding="utf-8"))))
             if ms: why.append("F:" + ",".join(ms))
         if why: out.append((n, aid, why, bool(ROWOK.search(l)), title.strip()[:120]))
 print(len(out), "title-arc hits;", sum(not o[3] for o in out), "with no correction shown in the row")

@@ -32,7 +32,8 @@
     - B, the middle: custody and the sighting log, the sandboxed rerun, the record check, their tests and the template;
     - C, the rules: the role pages, the protocol page and the template against clean copies of all the queue's code, and
       the gate change as a diff.
-  - Eight faults were planted in seven files (`verification/plants.txt`, sha256
+  - [CORRECTED 2026-11-27, Review 89 (a cold reader's finding, checked by main): in nine files, not seven; A2 sits in two,
+    `card_form.py` and the template, as the table below says.] Eight faults were planted in seven files (`verification/plants.txt`, sha256
     440211cdfc9192435a6665c482d4e2ecf74bdd872e6150c1b2d94b68f3d9f54c, fixed in the audit room before any reader started).
     The gate change, the protocol page, the queue's README and, in A, the producer's page were left clean as controls.
   - Three readers of main's own model family that wrote none of this read one folder each, could run the folder's tests and

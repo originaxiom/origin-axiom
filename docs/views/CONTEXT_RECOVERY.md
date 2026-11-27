@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1715 |
-| … PROVED | 1208 |
+| arcs with a verdict file | 1716 |
+| … PROVED | 1209 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -24,13 +24,14 @@
 | … “OWNER” | 0 |
 | … “DONE” | 558 |
 | … “DECLINED” | 16 |
-| harvest rows (the last number) | 2058 |
+| harvest rows (the last number) | 2059 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B2019 | PROVED | “REVIEW 89 ENTERED (PROVED, a process arc): opened at the 20th landing since Review 88's anchor; the trial's arcs left to the trial again (R88-2 carried to Review 90); three cold readers caught six of eight plants, missi…” |
 | B2018 | PROVED | “REVIEW 88 ENTERED (PROVED, a process arc): opened at the 28th landing (R87-1 met); the window's five arcs are the trial's and are left to its two blind banking seats; three cold readers of the window's process work caug…” |
 | B2017 | PROVED | “LISTENING 31, THE CENSUS (PROVED for its checks; data-free): over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's…” |
 | B2016 | PROVED | “LISTENING 30, THE NULL CONTROL (PROVED for its checks; data-free): the whole's small group with the same six moves, acting on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole…” |
@@ -42,7 +43,6 @@
 | B2010 | PROVED | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreduci…” |
 | B2009 | PROVED | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and i…” |
 | B2008 | PROVED | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1),…” |
-| B2007 | PROVED | “LISTENING 22, THE LAYER'S LAW UP THE TOWER (PROVED for its checks; data-free): each step of the 3-adic layer over the cube group is elementary abelian (Z3^2 at mod 27, Z3^2 at mod 81, Z3^3 at mod 243, Z3^7 at mod 729; L…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- “S306p REVIEW 89 ENTERED: SIX OF EIGHT PLANTS CAUGHT, ELEVEN REAL FAULTS HELD, SEVEN MENDED, FOUR TO THE BUILDER (B2019; P-589, P-869, P-881, P-885; HARVEST ROW 2059; M74, M67) (2026-11-27)”
 - “S306p THE PHYSICAL SEAT BACK: ITS C8 CARD RECEIVED; THE PEER ROLE FOR MAIN'S SEVEN ACCEPTED (P-885; HARVEST ROW 2058; M26) (2026-11-27)”
 - “S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)”
 - “S306p LAW_MAP ROW 294 DECIDED AT SOURCE; SIXTEEN REGISTER ROWS ESCALATED BEFORE THE GATE WOULD REFUSE THEM (P-589, P-885) (2026-11-27)”
@@ -60,7 +61,6 @@
 - “S306p THE QUEUE'S BRANCH TO BE WRITTEN BY ONE KEY ALONE (P-885; M73) (2026-11-27)”
 - “S306p T11, THE LANDING TOOL, READ (P-885; HARVEST ROW 2055; M72) (2026-11-27)”
 - “S306p THE SM SEAT'S NINE PRODUCER CARDS ON SM/CARDS RECEIVED; THE BRANCH PINNED (P-885; HARVEST ROW 2054; M65) (2026-11-27)”
-- “S306p T8 AND T9 REBUILT ON T7B PART 2: READ (P-885; HARVEST ROWS 2052, 2053; M71) (2026-11-27)”
 
 ## The latest campaign line
 

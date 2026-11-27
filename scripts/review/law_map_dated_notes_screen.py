@@ -17,7 +17,13 @@ for n, l in enumerate(law, 1):
         if not d or not (d / "FINDINGS.md").exists(): continue
         t = (d / "FINDINGS.md").read_text(encoding="utf-8")
         ms = [m for m in NOTE.finditer(t) if "P-436" not in t[m.start(): m.start() + 300]]
-        if ms and not re.search(r"scoped|sharpened|corrected|dated|S2\d\d|20\d\d-\d\d-\d\d|RETRACT", l, re.I):
+        # CHANGED 2026-11-27 (Review 89, a cold reader's finding, checked by main): any date or session tag anywhere in the
+        # row hid the hit; the row now shows a note only by the note's own date or its kind's word. The line as it stood:
+        #   if ms and not re.search(r"scoped|sharpened|corrected|dated|S2\d\d|20\d\d-\d\d-\d\d|RETRACT", l, re.I):
+        dates = {re.search(r"20\d\d-\d\d-\d\d", m.group(0)).group(0) for m in ms}
+        shown = re.search(r"scoped|sharpened|corrected|correction|withdrawn|retract|narrowed|dated note", l, re.I) or \
+            any(dt in l for dt in dates)
+        if ms and not shown:
             hits.append((n, "B" + a, [t[m.start(): m.start() + 160].replace("\n", " ") for m in ms]))
 print(len(hits), "rows")
 for n, a, ms in hits:

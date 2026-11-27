@@ -20636,3 +20636,19 @@ read its messages, accepted the role, and filed one of its own results as a card
 running anything.
 
 0 of 19.
+
+## 2026-11-27 — Review 89 (S306p)
+
+**What happened.** The periodic review read the window's process work with three fresh readers and eight hidden test faults.
+They found six of the eight. They missed a one-word change inside a dated note, and a one-word change in a test's helper.
+They also found eleven real faults:
+- the reruns were not as repeatable as intended;
+- two screens of the law map missed what they claimed to look for;
+- two notes in the register said the wrong next step;
+- a few smaller slips.
+
+Seven are mended. Four go to the building seat. Main also found two tests that had been failing unseen since the morning,
+mended them, and made every landing that touches the register run them. The trial's own results were again left unread,
+so as not to spoil it.
+
+0 of 19.

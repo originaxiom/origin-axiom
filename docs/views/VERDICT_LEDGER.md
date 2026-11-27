@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1715 of 1715 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1716 of 1716 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1208)
+## PROVED (1209)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1220,6 +1220,7 @@
 | `B2016` | “LISTENING 30, THE NULL CONTROL (PROVED for its checks; data-free): the whole's small group with the same six moves, acting on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole's form p_neutral(2x)/2^d = (x^2 - 9) x S(x) on 4 and 8 of them, fewer than one in ten, the whole's own orbit among them; on about two thirds the charged modes do not even pair; every coset space that halves has omega's exchange fixing exactly three points and rho non-trivial on its stabiliser, and (post hoc) is a quotient of the whole's own orbit, though half of those quotients at mod 27 (4 of 8) and a third at mod 81 (4 of 12) do not halve [corrected 2026-11-26: this read 'half or more of those quotients'; overgroups_join_run.txt gives 4 of 8 and 4 of 12, as FINDINGS says; found by a reader of main's, drafting the arc's claim card]; so the halving is a property of the whole's orbit within its group, not of the group's action” |  | 0 |
 | `B2017` | “LISTENING 31, THE CENSUS (PROVED for its checks; data-free): over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's halving holds on exactly three: the three 72-point sisters on the cusp's leaf mod 27, (3,3,3) and (3,3,12) in the whole's form and (3,3,15), with no fixed point of omega's exchange, with nothing left out; no other orbit at any level run even pairs its charged modes; with B2016 the halving is the whole's, at its own leaf and its own prime” |  | 0 |
 | `B2018` | “REVIEW 88 ENTERED (PROVED, a process arc): opened at the 28th landing (R87-1 met); the window's five arcs are the trial's and are left to its two blind banking seats; three cold readers of the window's process work caught all eight plants and found real faults: in the queue's code, a symlinked or attribute-rewritten script runs other text than custody hashed, the control's imports go unguarded, a slow control or a heavy import skips the checks, a card's seat code is not tied to its branch, main's alias moves main's own card, a card can skip the peer offer, an effect need not name a code it touches; on the pages, the failing control, custody, the premise rule, the firewall and the checks named for D6 to D8 differed from the code; main reproduced each code finding with probes on the live tree and sent them to the builder as a patch the runner waits on (R88-1); the pages mended; the class E52, no new class; anchor 64cc951b3” |  | 0 |
+| `B2019` | “REVIEW 89 ENTERED (PROVED, a process arc): opened at the 20th landing since Review 88's anchor; the trial's arcs left to the trial again (R88-2 carried to Review 90); three cold readers caught six of eight plants, missing a one-word flip in a dated law-map mend (R87-4's case, given with its arc) and a test helper's 'and' made 'or'; eleven real findings held on the live tree: the rerun's -E defeats its pinned hash seed, the stale screen never read its correction markers and skipped arcs without a verdict file, the dated-notes screen hid hits on any date, two missing tests (a real non-ancestor, a swap along the list's history), a stale docstring, a mend missing its arc's second clause, two register escalations misstating their rows, an unclear decline, a miscount in B2018; seven mended here, four to the builder (M74); main found two point-debt tests failing unseen since the day's register work, mended them, and made the landing run them; anchor 47ece044b” |  | 2 |
 
 ## NEGATIVE (388)
 

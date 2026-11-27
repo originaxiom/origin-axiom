@@ -69,7 +69,12 @@ def test_planted_defects_each_fire(tmp_path):
 
 def test_a_stale_queued_point_fails_and_escalation_clears_it(tmp_path):
     text = REGISTER.read_text(encoding="utf-8")
-    far = (datetime.date(2026, 10, 13) + datetime.timedelta(days=60)).isoformat()
+    # CHANGED 2026-11-27 (S306p, Review 89): the date was fixed, 2026-10-13 + 60 days, and the test needed some row to be
+    # stale then; once the register's escalations reached past it, no row was, and the test failed for the register being
+    # kept, not for the gate. It is now 60 days after the register's latest date, when some row is always stale.
+    # The line as it stood: far = (datetime.date(2026, 10, 13) + datetime.timedelta(days=60)).isoformat()
+    latest = max(datetime.date.fromisoformat(d) for d in re.findall(r"\b(20\d\d-\d\d-\d\d)\b", text))
+    far = (latest + datetime.timedelta(days=60)).isoformat()
     r = _run(text, tmp_path, today=far)
     assert r.returncode == 1 and "without ESCALATED" in r.stdout
     # CHANGED 2026-11-27 (S306p): the row is one the run above names as stale. It was the first queued debt of the
@@ -116,12 +121,23 @@ def test_the_brainstorm_rules_fire_on_planted_copies(tmp_path):
     # mended 2026-11-24 (the register wall's batch): this read the LIVE register at 2026-11-26, the day the brainstorm rows aged out;
     # clearing them (declined, escalated, paid) made that date quiet.  A date far ahead keeps the test about the rules, not the day.
     late = _run(text, tmp_path, today="2027-06-01")
-    assert "rule 7, M1" in late.stdout and "rule 9, M6" in late.stdout, late.stdout[:600]
+    assert "rule 7, M1" in late.stdout, late.stdout[:600]
     umb = next(l for l in text.splitlines() if l.startswith("| P-629 |"))
     planted = text.replace(umb, umb.replace("| QUEUED |", "| DONE |", 1))
     r8 = _run(planted, tmp_path, today="2026-11-05")
     assert r8.returncode == 1 and "rule 8" in r8.stdout, r8.stdout[:600]
-    one = next(l for l in text.splitlines() if l.startswith("| P-") and "audit/" in l and "| QUEUED |" in l and "DRAFT-DECLINED" not in l)
+    # CHANGED 2026-11-27 (S306p, Review 89): rule 9 was tested on the live register's open rows that cite an audit/ draft
+    # without a DRAFT-DECLINED; once every such row was landed or declined (P-326 and P-589 on 2026-11-27) none was left,
+    # and the test failed for the register being kept. The row is now planted: an open row given an audit/ citation.
+    # The lines as they stood: `one = next(l for l in ... if ... "audit/" in l and "| QUEUED |" in l and "DRAFT-DECLINED"
+    # not in l)`, and "rule 9, M6" asserted in the live register's late run.
+    base = next(l for l in text.splitlines() if l.startswith("| P-") and "| QUEUED |" in l and "audit/" not in l)
+    bc = base.split(" | ")
+    bc[5] = bc[5] + " (audit/drafts/planted_by_the_test/)"
+    one = " | ".join(bc)
+    text = text.replace(base, one)
+    late = _run(text, tmp_path, today="2027-06-01")
+    assert "rule 9, M6" in late.stdout, late.stdout[:600]
     pid = one.split(" | ")[0].strip("| ").strip()
     cells = one.split(" | ")
     cells[5] = cells[5] + " DRAFT-DECLINED(2026-11-20: planted)"

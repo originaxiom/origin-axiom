@@ -824,3 +824,13 @@ Touched at Review 88 (its anchor `64cc951b3`). **The window (`36f9cc5c2` to `64c
 - **Owed from this window:** the runner's fixes (R88-1), the trial's own claims filed first (R88-3), the identity codes by branch (R88-4).
 
 Nothing is compared with data. 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-27 (Review 89)
+
+Touched at Review 89 (its anchor `47ece044b`). **The window (`64cc951b3` to `47ece044b`) holds the framework's build and the record's mends:**
+- the intake's first half landed (each claim rerun as an unprivileged user with the network cut, its files written from their blobs, symbolic links refused), the list of known failures that may only shrink, and the trial's own claims rebuilt to the intake's guard and filed first;
+- eight rows of the law map mended at their sources, and thirty register rows given their true state and next step;
+- **Review 89 (B2019):** three cold readers of that work caught six of eight planted faults; eleven real faults held, seven mended at once and four sent to the builder; the trial's arcs are left to the trial (R88-2, carried).
+- **Owed from this window:** the builder's four (R89-1); 51 more law-map rows to judge at their sources (R89-2); a dated mend read clause by clause beside its source (R89-4).
+
+Nothing is compared with data. 0 of 19.
