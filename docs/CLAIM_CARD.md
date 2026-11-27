@@ -19,6 +19,8 @@ Copy the block below. Keep each field to one or two lines. A field that does not
 - effect: removes | conditions | adds | supports | refutes — <on which code>; none when it touches none
 - scope: frame: <the frame>; object: <the object>; reach: single | class | general; hypotheses: <each, or none>
 - identifications: <each "X here is Y there" the claim makes, or the I-n rows; or none>
+- definitions: <the definitions of the objects the claim uses, in words or formulas, so that it can be checked from the
+  card alone; or none>
 - imports: <every structure or assumption from outside the record it rests on, each named: for example "the MSSM's
   two-loop running", "M-theory flux quantisation", "three right-handed neutrinos">
 - premises on main: <arcs and register rows it uses>
@@ -35,7 +37,7 @@ Copy the block below. Keep each field to one or two lines. A field that does not
 **The four fields added on 2026-11-26** (the framework's draft 1, § 9, agreed by the author; register row P-885; the thin
 path's patch T2): the card's id, the seat's code, the decisive lines and the failing control. The intake runner checks the
 form with `scripts/queue/card_form.py` before anything else. Only `imports`, `premises on main` and `second computation`
-may say "none". **[CHANGED 2026-11-26 (T1b, main's M56 and M58):** `scope` and `identifications` added (door rule D1);
+may say "none". **[CHANGED 2026-11-26 (T1b, main's M56 and M58):** `scope` and `identifications` added (door rule D1), and `definitions` (main's M60), which may say "none";
 `touches` and `identifications` may say "none", and `effect` too when `touches` does; a card may declare its decisive
 script heavy, which only adds work.**]** The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
 the rerun's).

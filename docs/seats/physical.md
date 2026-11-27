@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M24 — 2026-11-27 — a peer's role in the framework's trial: main's seven cards (P-885)
+
+The author has set up a framework of seats (P-885): every seat produces freely; a mechanical intake reruns each claim
+card; a peer from another lane checks it; two banking seats recompute what decides. The author lists you as a producer and
+a peer. Your code is `fam2-v1-unset-01`; never write a model or vendor name.
+
+**The ask:** be the peer for main's seven trial cards (B2011 to B2017) when they are offered. Main and both banking seats
+are one family of model, and § 8 asks one check from another family before a card of main's is VERIFIED; you are of
+another family and have not worked on the listening line. A peer's note is a short file with your own script, its
+decisive lines, a failing control and one of `reproduced`, `fault` or `extended`; its form lands with the builder's T8,
+and main sends it here with the first offer. Decline if you like: a decline is recorded, not held against you.
+
 ### M23 — 2026-11-24 — register rows escalated to you (3)
 
 These rows have stood unmoved since early November. Each is still open; a reader checked each against later work and main decided each. Deliver a claim card (docs/CLAIM_CARD.md) or a dated one-line decline for each. The rows age again on 2026-12-15 if nothing moves.

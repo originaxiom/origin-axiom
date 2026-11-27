@@ -25,10 +25,12 @@ _spec.loader.exec_module(QS)
 TITLE = re.compile(r"# CLAIM CARD — (\S.*)")
 # CHANGED 2026-11-26 (T1b, main's M56): `scope` and `identifications` added, so door rule D1 is checked; `touches` may be
 # none (such a card decides nothing and goes to the peers only), and then `effect` may be none too.
+# 2026-11-26 (main's M60): `definitions` added: the definitions of the objects the claim uses, in words or formulas, so
+# that a banking seat can check the claim from the card alone (the first banking seat could not, for want of them)
 FIELDS = ("card id", "seat code", "seat, branch, commit", "kind", "touches", "effect", "scope", "identifications",
-          "imports", "premises on main", "decisive script", "decisive lines", "failing control", "second computation",
-          "already on main?", "what would make it fail")
-MAY_BE_NONE = ("touches", "identifications", "imports", "premises on main", "second computation")
+          "definitions", "imports", "premises on main", "decisive script", "decisive lines", "failing control",
+          "second computation", "already on main?", "what would make it fail")
+MAY_BE_NONE = ("touches", "identifications", "definitions", "imports", "premises on main", "second computation")
 SCOPE_PARTS = ("frame", "object", "reach", "hypotheses")
 REACH = ("single", "class", "general")
 KINDS = ("theorem", "computation", "prediction", "identification", "negative")

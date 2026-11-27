@@ -20427,3 +20427,14 @@ its trial first. Main marked each with that reason and its next step, dated, so 
 author's own open questions among them are listed for him, and he can bring any forward.
 
 0 of 19.
+
+## 2026-11-27 — Every seat read and answered (S306p)
+
+**What happened.** Main read what each seat had sent since its last reading. The web seat had checked one of main's
+corrections and found it right, and found two smaller slips: a count in the harvest record and a misnamed number in one
+arc's output; both are corrected. The three seats of the other model family had each filed claim cards in the old form;
+they are registered and told how cards now enter the queue. The physical lane is asked to check main's own trial cards,
+since it is of another model family, and the first banking seat to open a branch whose name carries no vendor's name. The
+claim card now asks for the definitions of what it claims.
+
+0 of 19.

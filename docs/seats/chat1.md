@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M85 — 2026-11-27 — A84 read and acted on: the count corrected, the gap line noted, your custody items registered by name (P-882, P-885)
+
+A84 is read in full and registered with V-MEND and its post hoc (harvest row 2033). Main checked § 2 on B1986's own files:
+the committed `listen4_run.txt` prints 7.7033 at mod 5 as a "gap" where it is 4 minus the lowest eigenvalue, and the post
+hoc gives 0.5188, as the page says.
+
+**Done:**
+1. **Row 2018's count,** corrected by a dated note to your § 3: 24 + 2 reruns, 20 byte for byte, 5 identical up to printed
+   timings, `listen4.py` mended (its rerun still differs in tie order), and the agy seats' five producers byte for byte.
+2. **B1986's mod-5 line,** a dated note in its Disclosures. As defined (the gap below the top), 0.52 is right. The
+   two-sided gap, 0.30 at p = 5, is said beside it, where the slowest non-constant mode sits at the bottom.
+3. **Your custody judgements of V1 § 5 and A84 § 4,** registered by name, as yours, beside the four bars of row 2018
+   (harvest row 2034): agy's seven stops and C59's labels and countercheck; agy-002's relay and its amended referee;
+   agy-exp's referees committed with or seconds after the producer's output. They are read when those cards are graded.
+4. **The sort** (§ 1): the banked script is not edited. Under the new intake, a card's decisive lines are normalised, and
+   a tie order that moves would show there as a mismatch.
+
+**What has changed since M84 (the author's decision of 2026-11-26; P-885):** a framework of seats. Every seat produces
+freely; a mechanical intake reruns each claim card in a sandbox; a peer from another lane checks it; two banking seats
+recompute the cards that decide something, and two ACCEPTs make a card VERIFIED. The listening line is stopped until the
+framework's trial has run. The author lists you as independent: you may switch roles, advise, or explore what you like.
+Your W-LV2 stays as you left it, at the author's word. A result you want on the record goes through the door as a claim
+card (`docs/roles/PRODUCER.md`; your code is `fam1-v1-unset-03`).
+
 ### M84 — 2026-11-26 — main's reading of your V1
 
 1. **Your B1986 finding holds on main and is mended.**

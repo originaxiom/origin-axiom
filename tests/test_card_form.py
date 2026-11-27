@@ -25,6 +25,7 @@ TWIN = """# CLAIM CARD — a count of the classes at level 5, reproduced
 - effect: supports — P-885
 - scope: frame: F-HE; object: m004; reach: single; hypotheses: none
 - identifications: none
+- definitions: a class is an orbit of the group on the level's states
 - imports: none
 - premises on main: B2011
 - decisive script: frontier/B2011_x/verification/count.py, SHA-256 0123456789abcdef, depends on the standard library
@@ -65,6 +66,8 @@ def test_a_card_whose_form_holds_passes_and_each_rule_planted_fails():
         ("reach: single", "reach: every", "reach 'every' is not one of"),
         ("frame: F-HE;", "frame: ;", "scope is not"),
         ("- identifications: none\n", "", "'identifications' is missing"),
+        ("- definitions: a class is an orbit of the group on the level's states\n", "", "'definitions' is missing"),
+        ("- definitions: a class is an orbit of the group on the level's states", "- definitions:", "is empty"),
         ("the standard library\n  and python-flint", "the standard library\n  and pandas", "not allowed: pandas"),
         ("output SHA-256 fedcba9876543210", "output fedcba9876543210", "decisive script is not"),
         ("3 lines marked", "0 lines marked", "decisive lines is not"),
@@ -78,6 +81,11 @@ def test_a_card_whose_form_holds_passes_and_each_rule_planted_fails():
     for old, new, words in plants:
         bad = _plant(old, new)
         assert bad and any(words in b for b in bad), (words, bad)
+
+
+def test_definitions_may_be_none_m60():
+    assert CF.form_problems(TWIN.replace("- definitions: a class is an orbit of the group on the level's states",
+                                         "- definitions: none")) == []
 
 
 def test_a_card_that_touches_nothing_and_a_card_declared_heavy():

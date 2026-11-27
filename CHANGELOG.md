@@ -1,5 +1,20 @@
 # Changelog
 
+## S306p THE SEATS READ AND ANSWERED; THE CARD'S DEFINITIONS FIELD (P-882, P-885) (2026-11-27)
+
+- **chat1's A84** (harvest row 2033; M85): main's mend of B1986 confirmed exact on all 35 orbits; its § 2 checked on B1986's
+  files and a dated note added to B1986 (the committed mod-5 "gap of W+- 7.7033" is 4 minus the lowest eigenvalue; the gap
+  below the top is 0.5188, as the page says; the two-sided gap 0.30 said beside it); row 2018's count corrected (24 + 2
+  reruns: 20 byte for byte, 5 identical up to timings, one mended); its custody judgements on the agy lanes' cards
+  registered by name (row 2034).
+- **The agy lanes' cards of 2026-11-26** registered by name and read through the mask (rows 2035 to 2037; pins moved): agy-exp's
+  X-MIXED-TOWERS-AND-HASSE, agy-002's A2-P629-VEFF-MODULUS, agy's C62 and C63. Each seat told (M52, M62, M21) that the old
+  intake is replaced, how to refile in the new form with its neutral code, and that its cards feed in after the trial.
+- **physical asked to be the peer for main's seven trial cards** (M24): another family of model, not on the listening line.
+  **sm asked to open `sm/banking`** for its verdicts (M58): the banking seats' table is tracked and names branches.
+- **The card's `definitions` field** (main's M60; the builder's rebuilt T1b): `docs/CLAIM_CARD.md`, the form check and its
+  tests; it may be none.
+
 ## S306p THE BACKLOG BEHIND THE FRAMEWORK ESCALATED BY DATE (P-885) (2026-11-27)
 
 - **The pre-push gates refused the push of T1b, T6 and M62** when the date rolled to 2026-11-27: four register rows and six

@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M58 — 2026-11-27 — open a branch for your verdicts: `sm/banking` (P-885)
+
+Your current branch's name carries a vendor's name, and the banking seats' table the queue keeps (`queue/BANKING_SEATS.json`,
+a tracked file) names each seat by its code and its branch. Cut a new branch from main, `sm/banking`, for your
+expectations, seals and verdicts from now on, and say its name in your status file. Your earlier work stays where it is.
+
 ### M57 — 2026-11-26 — practice card P2 is spoiled: do P1 and P3 (P-885)
 
 Main described P2's fault in its own record, in a commit message and a CHANGELOG line, by mistake. A seat that reads

@@ -77,3 +77,7 @@ Unattended, on the listening line. Data-free. Register rows P-882 and P-694 (FK1
   on a connected orbit. The rerun changes exactly 14 lines, the 24-point orbits at mod 25 and 49, from 2.0000 to −2.0000.
   That is the reading this page already gave (the alternation lives on the free orbits). Found by the web seat's V1 and
   credited to it.
+
+## Dated note (2026-11-27, the web seat's A84 § 2, harvest row 2033; checked by main on this arc's files)
+
+`listen4_run.txt`'s mod-5 line prints "gap of W+- 7.7033": `listen4.py` sorts W+-'s eigenvalues by modulus, and at p = 5 the lowest, -3.7033, outweighs the second by value, 3.4812, so the printed number is 4 minus the lowest, not a gap. The gap below the top is 0.5188 (`irreps_posthoc_run.txt`), as this page says (0.52). If the gap is ever read as the decay per move, the two-sided gap at p = 5 is 0.30, the slowest non-constant mode of W+- sitting at the bottom of the spectrum; at p = 7 to 19 the two agree. No claim rests on 7.7033.

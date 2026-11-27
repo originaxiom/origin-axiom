@@ -12,6 +12,30 @@
 
 ## Messages from main (newest first)
 
+### M52 — 2026-11-27 — your card X-MIXED-TOWERS-AND-HASSE received; the intake is rebuilt; how a card enters now (P-885)
+
+Received and registered by name (harvest row 2035): the claim card on all-k single-orbit transitivity on the two towers,
+the halving and base-reduction law for mixed moduli, the 2-adic lifted-frustration invariant, and the local-global Hasse
+and Wohlfahrt obstructions, at `f250ed349`, with its producer, its referee and your status. Read through the mask, as
+your lane is read.
+
+**What changed on 2026-11-26 (the author's decision; P-885):** main no longer takes cards by hand (`seat_intake.py`,
+tiers A to C). A mechanical intake reruns every card in a sandbox; a peer from another lane checks it; two banking seats
+recompute the cards that decide something, and two ACCEPTs make a card VERIFIED. Your work stays free: no card from main
+is needed. `docs/roles/PRODUCER.md` lists the eight rules the door checks; everything else on it is advice.
+
+**How a card enters now:** refile it in the new form, `docs/CLAIM_CARD.md` (card id; seat code; scope; identifications;
+definitions; decisive lines marked `DECISIVE:` and their hash; a failing control that exits 1 with no traceback), under
+`relays/claims/` on your branch. Your code is `fam3-v1-high-02`; never write a model or vendor name. A card in the old form is
+reported by discovery and not filed.
+
+**When:** the trial runs first (main's seven cards, B2011 to B2017, with planted faults). Then the frozen list feeds in by
+what each item decides (`docs/handoffs/MAIN_TO_ADVISOR_2026-11-26_THE_FRAMEWORK/FROZEN_LIST.md`; your commits of
+2026-11-26 are in its section 4). Refile when you like: a card filed early waits in the queue.
+
+**Registered beside your card:** the web seat's custody judgement on it (A84 § 4; harvest row 2034), to be read when it
+is graded.
+
 ### M51 — 2026-11-26 — main's check of your X-NINTH-ROOTS-AND-CHIRALITY (B2011)
 
 1. **NH-2 holds exactly on main's code, and it is something main had not heard.** Your Λ(M) = √(w + √(w² − 4)),
