@@ -51,41 +51,116 @@ def git(root, *args):
 
 
 def branches(root=ROOT, main="origin/main"):
-    """[(seat key, ref)]: main, then every seat of the Pins table"""
-    intake = _load("seat_intake_for_discovery", ROOT / "scripts" / "checks" / "seat_intake.py")   # the code's own copy
-    intake.ROOT = pathlib.Path(root)
-    return [("main", main)] + [(key, resolve(root, ref)) for key, ref, _pin in intake.pins()]
+    """[(seat key, ref)]: main, then every seat of HARVEST_LEDGER's Pins table. A row whose branch is masked
+    (`origin/<v>/...`) is resolved on its mask; a row whose branch cell names no `origin/` ref is kept as written, so that
+    discovery reports it as unreadable and never passes over it (main's M66: the SM seat's row, written `<remote>/...`,
+    was dropped in silence and its cards went unseen)"""
+    led = pathlib.Path(root, "docs", "HARVEST_LEDGER.md")
+    text = led.read_text(encoding="utf-8") if led.is_file() else ""
+    sec = re.search(r"^## Pins.*?(?=^## |\Z)", text, re.M | re.S)
+    out = [("main", main)]
+    for line in (sec.group(0).splitlines() if sec else []):
+        c = [x.strip() for x in line.strip().strip("|").split("|")]
+        if len(c) < 3 or not re.fullmatch(r"[a-z0-9]+", c[0]) or not re.fullmatch(r"`?[0-9a-f]{7,40}`?", c[2]):
+            continue
+        b = re.search(r"origin/[^`\s)]+", c[1])
+        out.append((c[0], resolve(root, b.group(0)) if b else "(the Pins row's branch %r names no origin/ ref)" % c[1]))
+    return out
 
 
 def resolve(root, ref):
-    """the remote-tracking ref a Pins row names. The ledger masks some prefixes (`<v>/`), so a ref that does not resolve
-    as written is matched on its last segment, as harvest_debt.py's _resolve_branch does; it is kept as written when no
-    single ref matches, and is then reported as unreadable"""
-    if git(root, "rev-parse", "--verify", "-q", ref + "^{commit}")[0] == 0:
+    """the remote-tracking ref a Pins row names. The ledger masks some prefixes (`<v>/`): such a ref is matched with the
+    masked segment as any one segment and every other segment as written. A ref with no mask is read as written only
+    (Review 88's C21: matching on the last segment alone took `origin/sm/banking` for `origin/sm2/banking`). It is kept as
+    written when nothing single matches, and is then reported as unreadable"""
+    if git(root, "rev-parse", "--verify", "-q", ref + "^{commit}")[0] == 0 or "<v>" not in ref:
         return ref
-    remote, short = ref.split("/", 1)[0], ref.rsplit("/", 1)[-1]
+    remote = ref.split("/", 1)[0]
+    pattern = re.compile("^" + "/".join("[^/]+" if part == "<v>" else re.escape(part) for part in ref.split("/")) + "$")
     rc, out, _ = git(root, "for-each-ref", "--format=%(refname:short)", "refs/remotes/%s" % remote)
-    hits = [r for r in out.split() if r.rsplit("/", 1)[-1] == short]
+    hits = [r for r in out.split() if pattern.match(r)]
     return hits[0] if len(hits) == 1 else ref
 
 
+def code_for(branch, codes, known):
+    """(the seat code of a branch, or None, and why not): an exact key first; else a masked key (`<v>/<rest>`, main's M66)
+    matches a branch of one segment more and the same rest, and is refused when two known branches match it"""
+    if branch in codes:
+        return codes[branch], None
+    hits = [k for k in codes if k.startswith("<v>/") and branch.split("/", 1)[-1] == k[4:] and "/" in branch]
+    if len(hits) != 1:
+        return None, "its branch %s is not in queue/SEAT_CODES.json" % branch
+    key = hits[0]
+    same = sorted(b for b in set(known) if "/" in b and b.split("/", 1)[1] == key[4:])
+    if len(same) > 1:
+        return None, "two branches (%s) match the masked key %s in queue/SEAT_CODES.json" % (", ".join(same), key)
+    return codes[key], None
+
+
+def seat_codes(path=None):
+    """{branch: seat code}: main's table, queue/SEAT_CODES.json (M64 item 8, M65)"""
+    p = pathlib.Path(path) if path else ROOT / "queue" / "SEAT_CODES.json"
+    try:
+        return dict(json.loads(p.read_text(encoding="utf-8")).get("codes", {}))
+    except (OSError, ValueError):
+        return {}
+
+
 def cards_on(root, ref):
-    """(the cards at the ref's head as [(path, blob, commit, text)], None) or ([], why the ref cannot be read)"""
-    rc, out, err = git(root, "ls-tree", "-r", ref, "--", CLAIMS)
-    if rc != 0:
-        return [], "cannot be read (%s)" % (err.splitlines()[0] if err else "no such ref")
-    found = []
-    for line in out.splitlines():
-        meta, path = line.split("\t", 1)
-        mode, kind, blob = meta.split()
+    """(the cards at the ref's head as [(path, blob, commit, text)], what is not read as a card [(path, why)], None) or
+    ([], [], why the ref cannot be read). Read with `ls-tree -z`, so a name with any character is kept whole (A19)"""
+    r = subprocess.run(["git", "ls-tree", "-r", "-z", ref, "--", CLAIMS], cwd=root, capture_output=True)
+    if r.returncode != 0:
+        err = r.stderr.decode("utf-8", "replace").strip()
+        return [], [], "cannot be read (%s)" % (err.splitlines()[0] if err else "no such ref")
+    found, passed = [], []
+    for entry in r.stdout.split(b"\0"):
+        if not entry:
+            continue
+        meta, raw = entry.split(b"\t", 1)
+        mode, kind, blob = meta.decode().split()
+        path = raw.decode("utf-8", "surrogateescape")
         if kind != "blob" or not path.endswith(".md"):
             continue
         rc, text, _ = git(root, "cat-file", "blob", blob)
-        if rc != 0 or not text.startswith("# CLAIM CARD"):
+        if rc != 0:
+            continue
+        if not text.startswith("# CLAIM CARD"):
+            if "# CLAIM CARD" in text:                # A19: a fenced or indented title is said, not passed over
+                passed.append((path, "it holds a card's title, but its first line is not the title"))
             continue
         rc, commit, _ = git(root, "log", "-1", "--format=%H", ref, "--", path)
         found.append((path, blob, commit.strip(), text))
-    return found, None
+    return found, passed, None
+
+
+def _blob(root, commit, path):
+    rc, out, _ = git(root, "rev-parse", "--verify", "-q", "%s:%s" % (commit, path))
+    return out.strip() if rc == 0 else None
+
+
+def stated_problems(root, fields, branch, found_commit):
+    """M65 point 3: a card cannot name the commit that adds it; its stated commit is an ancestor of the one it was found
+    at, on the same branch, and its decisive script and its control's script have the same blobs at both"""
+    parts = [p.strip() for p in fields.get("seat, branch, commit", "").split(",")]
+    if len(parts) != 3:
+        return ["its 'seat, branch, commit' is not three parts"]
+    _seat, stated_branch, stated = parts
+    bad = []
+    if stated_branch != branch:
+        bad.append("it says it is on %s, and was found on %s" % (stated_branch, branch))
+    if git(root, "merge-base", "--is-ancestor", stated, found_commit)[0] != 0:
+        return bad + ["its stated commit %s is not an ancestor of %s, where it was found" % (stated[:9], found_commit[:9])]
+    m = CF.SCRIPT.match(fields.get("decisive script", ""))
+    scripts = [m.group(1)] if m else []
+    control = CF._argv(fields.get("failing control", "")) or []
+    if len(control) > 1:
+        scripts.append(control[1])
+    for s in scripts:                                 # absent at both is custody's and the rerun's to say, not this
+        a, b = (_blob(root, c, s) for c in (stated, found_commit))
+        if a != b:
+            bad.append("%s is not the same at its stated commit and where it was found" % s)
+    return bad
 
 
 def script_hash(fields):
@@ -96,11 +171,13 @@ def script_hash(fields):
     return (m.group(1), d.group(2)) if m and d else None
 
 
-def discover(queue, refs, root=ROOT, at=None, seen_blobs=None):
-    """queue: {id: record}; refs: [(key, ref)]. -> (new records, report lines). `seen_blobs` maps a card's blob to the id
-    it was filed under; the runner keeps it with the sighting log (T4), and a test may pass it"""
+def discover(queue, refs, root=ROOT, at=None, seen_blobs=None, codes=None):
+    """queue: {id: record}; refs: [(key, ref)]. -> (new records, report lines). `seen_blobs` holds the card versions
+    already filed, keyed on (branch, path, blob) (Review 88's C25: the blob alone took one card's text on two branches for
+    one card); `codes` is main's table of seat codes by branch (queue/SEAT_CODES.json unless given)"""
     at = at or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     seen_blobs = dict(seen_blobs or {})
+    codes = seat_codes() if codes is None else codes
     by_place = {(r["branch"], r["card_path"]): i for i, r in sorted(queue.items())}
     by_script = {}
     for cid, rec in sorted(queue.items()):            # the decisive script of each card already filed, read at its commit
@@ -110,49 +187,89 @@ def discover(queue, refs, root=ROOT, at=None, seen_blobs=None):
             by_script.setdefault(h, cid)
     numbers = [int(i[1:]) for i in queue]
     report, new = [], {}
+    tell = lambda ref, path, why: report.append("%s %s: not filed, %s; to be told to its seat" % (ref, path, why))
+    known = [r.split("/", 1)[1] if r.startswith("origin/") else r for _k, r in refs]
     for key, ref in refs:
-        found, why = cards_on(root, ref)
+        found, passed, why = cards_on(root, ref)
         if why:
             report.append("%s (%s): %s; its cards are not read this round" % (key, ref, why))
             continue
+        for path, why in passed:
+            tell(ref, path, why)
+        branch = ref.split("/", 1)[1] if ref.startswith("origin/") else ref
         for path, blob, commit, text in found:
-            if blob in seen_blobs:
+            if (branch, path, blob) in seen_blobs:
                 continue
             title, fields, _layout = CF.read(text)
             code = fields.get("seat code", "")
-            if title is None or QS.code_problems(code):
-                report.append("%s %s: not filed, its seat code %r is not a seat code; to be told to its seat"
-                              % (ref, path, code))
+            if title is None:                                         # A18: the reason that holds
+                tell(ref, path, "its first line is not '# CLAIM CARD — <the result in one line>'")
                 continue
-            branch = ref.split("/", 1)[1] if ref.startswith("origin/") else ref
+            if QS.code_problems(code):
+                tell(ref, path, "its seat code %r is not a seat code" % code)
+                continue
+            expected, why = code_for(branch, codes, known)          # M64 item 8, M65, M66: the code is the branch's
+            if expected is None:
+                tell(ref, path, why)
+                continue
+            if expected != code:
+                tell(ref, path, "its seat code %s is not %s, the code of its branch %s" % (code, expected, branch))
+                continue
+            if not QS.CARD_PATH.fullmatch(path):                      # A4, C16: one card's path stops no other seat
+                tell(ref, path, "its path is not relays/claims/CLAIM_<name>.md")
+                continue
+            stated = stated_problems(root, fields, branch, commit)
+            if stated:
+                tell(ref, path, "; ".join(stated))
+                continue
             earlier = []
             if (branch, path) in by_place:
                 earlier.append(by_place[(branch, path)])
             h = script_hash(fields)
             if h and h in by_script and by_script[h] not in earlier:
                 earlier.append(by_script[h])
+            said = CF.CARD_ID.fullmatch(fields.get("card id", "") or "x")
+            declared = said.group(1) if said and said.group(1) else None
+            if declared and declared in queue and declared not in earlier:
+                earlier.append(declared)                              # A8: what the card says it refiles, linked
             n = max(numbers or [0]) + 1
             numbers.append(n)
             cid = "Q%04d" % n
-            said = CF.CARD_ID.fullmatch(fields.get("card id", "") or "x")
-            declared = said.group(1) if said and said.group(1) else None
             if earlier and declared not in earlier:
                 note = "found on its branch; a refile of %s it does not declare" % ", ".join(earlier)
-            elif declared and declared not in earlier:
-                note = "found on its branch; it says it refiles %s, which discovery does not link" % declared
+            elif declared and declared not in queue:
+                note = "found on its branch; it says it refiles %s, which is not in the queue" % declared
             else:
                 note = "found on its branch" + ("; refiles %s" % ", ".join(earlier) if earlier else "")
             rec = {"id": cid, "seat_code": code, "branch": branch, "commit": commit, "card_path": path,
                    "title": title[:240], "status": "FILED", "deciding": None, "heavy": CF.declared_heavy(fields),
-                   "refiles": sorted(set(earlier + ([declared] if declared and declared in queue else []))),
-                   "history": [{"at": at, "status": "FILED", "by": "runner", "note": note}]}
+                   "refiles": sorted(set(earlier)), "history": [{"at": at, "status": "FILED", "by": "runner", "note": note}]}
+            problems = QS.card_problems(rec, cid, VENDOR_RE)
+            if problems:                                              # A4, C16: reported, the others still filed
+                numbers.pop()
+                tell(ref, path, "its record would not hold the queue's schema: " + "; ".join(problems[:3]))
+                continue
             new[cid] = rec
-            seen_blobs[blob] = cid
+            seen_blobs[(branch, path, blob)] = cid
             by_place[(branch, path)] = cid
             if h:
                 by_script.setdefault(h, cid)
             report.append("%s: %s %s (%s)" % (cid, ref, path, note))
+            for old in earlier:                                       # A24: the old version is not taken further
+                report.append("%s is refiled by %s, and is not taken further" % (old, cid))
     return new, report
+
+
+def _vendor_re():
+    """the attribution gate's vendor pattern (Review 88's A9: discovery's own check left it out)"""
+    spec = importlib.util.spec_from_file_location("gates_for_discovery", ROOT / "scripts" / "gates" / "gates.py")
+    m = importlib.util.module_from_spec(spec)
+    sys.dont_write_bytecode = True
+    spec.loader.exec_module(m)
+    return m._VENDOR_RE
+
+
+VENDOR_RE = _vendor_re()
 
 
 def read_queue(path):
@@ -165,14 +282,14 @@ def main(argv):
     at = argv[argv.index("--at") + 1] if "--at" in argv else None
     queue = read_queue(qdir)
     seen = {}
-    for cid, r in queue.items():                      # the blobs already filed, read from their own branches
+    for cid, r in queue.items():                      # the versions already filed, read from their own branches
         rc, out, _ = git(ROOT, "rev-parse", "%s:%s" % (r["commit"], r["card_path"]))
         if rc == 0:
-            seen[out.strip()] = cid
+            seen[(r["branch"], r["card_path"], out.strip())] = cid
     new, report = discover(queue, branches(), at=at, seen_blobs=seen)
     for line in report:
         print(line)
-    bad = QS.queue_problems({k: json.dumps(v) for k, v in {**queue, **new}.items()})
+    bad = QS.queue_problems({k: json.dumps(v) for k, v in {**queue, **new}.items()}, VENDOR_RE)
     if bad:
         print("the queue would not hold its schema: " + "; ".join(bad[:5]))
         return 1

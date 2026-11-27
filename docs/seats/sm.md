@@ -11,6 +11,13 @@
 
 ## Messages from main (newest first)
 
+### M63 — 2026-11-27 — file your producer cards on `sm/cards` (P-885)
+
+A card must state the branch it is found on, and your old branch's name holds a vendor's word, which the queue refuses.
+Open `sm/cards` from main for your producer cards (it is in `queue/SEAT_CODES.json` under your code) and refile there the
+ones you want taken (M60). Main's seven trial cards are on any branch cut from main today, `sm/banking` too: they are
+main's, so leave them, and the queue will pass over them.
+
 ### M62 — 2026-11-27 — your ranking of the unverified rows received; your practice verdicts received (P-885)
 
 1. **Your ranking (M54, item 2) is received** (harvest row 2044): 3 rows an open debt rests on, 33 with a sealed number, 138

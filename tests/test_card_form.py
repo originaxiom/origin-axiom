@@ -3,6 +3,7 @@ scripts/queue/card_form.py. A card whose form holds passes and each rule, plante
 docs/CLAIM_CARD.md holds exactly the fields the check reads, so the page and the check cannot drift apart; the command
 runs by hand."""
 import importlib.util
+import json
 import pathlib
 import re
 import subprocess
@@ -121,3 +122,37 @@ def test_the_command_runs_by_hand(tmp_path):
     assert run(good).returncode == 0
     r = run(good, bad)
     assert r.returncode == 1 and "kind is not" in r.stdout and "the form holds" in r.stdout
+
+
+def test_review_88s_rules_on_the_form_t7b():
+    """main's M64, items 14, 18, 26 and 28 (Review 88's A3, A12, A14, A21, B10), each planted once"""
+    plants = [
+        # 14: the effect's codes are codes the card touches
+        ("- effect: supports — P-885", "- effect: removes — A03", "the effect names what the card does not touch: A03"),
+        ("- effect: supports — P-885", "- effect: supports — the Higgs mass", "the 19: mass"),
+        # 18: the script's path stays in the commit; "run as" runs the declared script; the control compared as a command
+        ("frontier/B2011_x/verification/count.py, SHA-256", "/etc/count.py, SHA-256", "leaves the commit"),
+        ("frontier/B2011_x/verification/count.py, SHA-256", "../count.py, SHA-256", "leaves the commit"),
+        ("run as python3 frontier/B2011_x/verification/count.py,", "run as python3 other.py,",
+         "'run as' does not run the declared script"),
+        ("- failing control: python3 frontier/B2011_x/verification/count.py --plant",
+         "- failing control: python3  frontier/B2011_x/verification/count.py",
+         "the failing control is the decisive command itself"),
+        # 28: a line outside any field is said
+        ("- second computation: none\n", "- second computation: none\n\nan orphan line\n", "outside any field"),
+    ]
+    for old, new, words in plants:
+        bad = _plant(old, new)
+        assert bad and any(words in b for b in bad), (words, bad)
+    # 28: the hypotheses may hold ";"; a code the card touches may stand in the effect, in any case
+    assert CF.form_problems(TWIN.replace("hypotheses: none", "hypotheses: the frame's cusp; its field")) == []
+    assert CF.form_problems(TWIN.replace("- touches: P-885", "- touches: P-885, a03").replace(
+        "- effect: supports — P-885", "- effect: supports — A03")) == []
+    # 26: the allowed list is the rerun's own, from ALLOWED_PACKAGES.json
+    pins = json.loads((ROOT / "scripts/queue/ALLOWED_PACKAGES.json").read_text(encoding="utf-8"))
+    assert set(CF.ALLOWED) == {"the standard library"} | set(pins["packages"]) | set(pins["heavy"])
+
+
+def test_mains_own_trial_cards_hold_the_form():
+    for card in sorted((ROOT / "relays" / "claims").glob("CLAIM_*_main_trial.md")):
+        assert CF.form_problems(card.read_text(encoding="utf-8")) == [], card.name

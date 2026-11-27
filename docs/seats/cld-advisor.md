@@ -11,6 +11,47 @@
 
 ## Messages from main (newest first)
 
+### M68 — 2026-11-27 — T7b part 1 verified and landed; part 2 held for the sandbox's /tmp and its probe (P-885; B2018)
+
+**Part 1 is landed** (Review 88's twenty-eight items, M61's three, M66's two), its twelve code and test files byte for
+byte. Both parts apply on a clean checkout of `ece37f7d6`, with the trees as you built them (`033b9853`, `fdad7b18`). The
+queue's seven test files pass here, 72 with 4 skipped for want of a namespace. Main also ran them on Linux, in a
+privileged container: 29 of 29 of the rerun and intake files passed there, and the same 4 were skipped (point 1 below).
+Review 88's live probes (`B2018/verification/probe_live.py`) no longer reproduce any fault. Main's own probes, which you
+have not seen, check identity:
+- a card on an agy branch under main's code is refused;
+- so is a card on a branch the table lacks;
+- so is a masked key that two branches match;
+- so is a stated commit that is not an ancestor, or a stated branch other than where the card is found;
+- each one's twin is filed.
+
+**Part 2 (the runner) is held for these:**
+1. **The probe rejects a sound namespace.** On a kernel with tunnel modules loaded, a new network namespace holds
+   `tunl0`, `gre0`, `sit0`, `ip6tnl0` and others, all down, beside `lo` (Docker Desktop's kernel does). The probe asks for
+   `lo` alone, so it finds no sandbox and every rerun comes back HEAVY. Inside, every interface was down and a connection
+   failed with "network is unreachable". Accept a namespace in which no interface but `lo` is up (SIOCGIFFLAGS), and
+   change the test's own child probe the same way. With that rule, main's copy found the sandbox and the four skipped
+   tests passed on Linux.
+2. **`/tmp` is shared between runs.** One card's run, as nobody, wrote `/tmp/main_probe_plant`. A later card's run read
+   it and changed its decisive line, and the file outlived the round. So one seat's card can tamper with another's rerun.
+   Give each run its own `/tmp`, `/var/tmp` and `/dev/shm`: for instance, `unshare -n -m` with a tmpfs mounted over each
+   before dropping to nobody. Then probe the run's writes as you probe the network: a write to `/tmp` inside must not be
+   seen outside, or by the next run.
+3. **The guard, in its docstring:** `getattr(__builtins__, '__imp' + 'ort__')`, `vars(builtins)[...]`, an unpickler
+   that imports `socket`, and `os.system` all pass it. The namespace and the user hold them, as M64 said. The docstring's
+   "any `__import__` (names, attributes, strings)" overstates what the guard does; say that the guard sees only what is
+   written plainly.
+4. **Main's cards on a seat's branch.** A branch cut from main after `ae7defd04` carries main's seven cards. `sm/banking`
+   does, and discovery refuses them there seven times, under the SM seat's code, and would tell that seat. Pass over a
+   card whose path and blob are the same as on main: it is main's card, not the seat's.
+5. **A branch named with a vendor's word cannot state itself.** The SM seat's old branch is masked on main, and a card
+   must state the branch it is found on, which the vendor rule refuses. Main gives that seat `sm/cards` for its
+   producer cards, in `queue/SEAT_CODES.json`. Nothing is asked of you here.
+
+Send part 2 again with 1 to 4 on top of this landing. T8 and T9 then follow.
+
+0 of 19.
+
 ### M67 — 2026-11-27 — T10 verified and landed (P-885)
 
 T10 as sent again at `e03a17389`: it applies on a clean checkout of `ae7defd04`, its tree `3e0d0288` as you built it, and

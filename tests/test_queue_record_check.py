@@ -96,3 +96,27 @@ def test_the_command_runs_by_hand(tmp_path):
     r = subprocess.run([sys.executable, "-B", str(ROOT / "scripts/queue/record_check.py"), str(f), "--queue",
                         str(tmp_path / "none")], capture_output=True, text=True, timeout=600)
     assert r.returncode == 0 and json.loads(r.stdout)["waits_on"] == ["Q0009"]
+
+
+def test_review_88s_rules_on_the_record_check_t7b():
+    """main's M61 (the law map; D6 on a premise arc with its own card) and M64 items 15 to 17, each planted"""
+    # 15: the 19 by plural and common names, the scoreboard in any case, the law map's rows
+    for touches in ("the quark Yukawas", "the Weinberg angle", "a03", "LISTENING 26", "the neutrino masses"):
+        effect = "conditions — " + touches
+        assert RC.deciding(_fields(touches=touches, effect=effect)) is True, touches
+    # 16: the firewall's words
+    for words in ("the measured values", "compared to data", "a comparison with data", "0.23 +/- 0.01",
+                  "it agrees with experiment", "fitted to the data"):
+        assert RC.firewall(_card() + "- note: " + words + "\n"), words
+    # 17: the title's words beyond six are said, not dropped in silence
+    long_title = "# CLAIM CARD — alpha bravo charlie delta echoes foxtrot golfing hotel indigo"
+    codes, used, left = RC.terms({}, long_title.split("— ", 1)[1])
+    assert len(used) == 6 and left and set(used) | set(left) == {"alpha", "bravo", "charlie", "delta", "echoes", "foxtrot",
+                                                                 "golfing", "hotel", "indigo"}
+    # M61.2: a premise arc that has its own card in the queue is waited on until that card is VERIFIED
+    queue = {"Q0003": {"status": "REPRODUCED", "seat_code": RC.CF.QS.MAIN_CODE, "title": "B2011 A1: a count",
+                       "card_path": "relays/claims/CLAIM_2026-11-27_B2011_main_trial.md"},
+             "Q0004": {"status": "VERIFIED", "seat_code": RC.CF.QS.MAIN_CODE, "title": "B2012 a count",
+                       "card_path": "relays/claims/CLAIM_2026-11-27_B2012_main_trial.md"}}
+    assert RC.waits_on(_fields(premises="B2011, B2012"), queue) == ["Q0003"]
+    assert RC.waits_on(_fields(premises="B335"), queue) == []

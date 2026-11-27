@@ -24,7 +24,7 @@ a card file keeps the fields that never change (its id, seat code, branch, commi
 begins with the history of the version before. A card's past cannot be rewritten by a later commit.
 
     python3 scripts/queue/custody.py --log queue/SIGHTINGS.jsonl            # the log's form
-    python3 scripts/queue/custody.py --history REF                          # the log and the cards along REF's history
+    python3 scripts/queue/custody.py --history REF [--root DIR]             # the log and the cards along REF's history
     python3 scripts/queue/custody.py --card queue/cards/Q0001.json --log queue/SIGHTINGS.jsonl   # one card's custody
 Exit 0 when all holds, 1 when something does not."""
 import hashlib
@@ -61,7 +61,8 @@ def git(root, *args):
 
 # --- the log -----------------------------------------------------------------------------------------------------------
 def read_log(text):
-    """(entries, problems): each line one sighting of the log's form, the times never going back, no version twice"""
+    """(entries, problems): each line one sighting of the log's form, the times never going back, no version twice. A
+    line that does not hold its form is said and left out, and never stops the reading (Review 88's B22)"""
     entries, bad, seen = [], [], set()
     for i, line in enumerate(text.splitlines(), 1):
         try:
@@ -72,14 +73,21 @@ def read_log(text):
         if not isinstance(e, dict) or sorted(e) != sorted(LINE_FIELDS):
             bad.append("line %d does not hold exactly %s" % (i, ", ".join(LINE_FIELDS)))
             continue
-        if not isinstance(e["at"], str) or not QS.AT.fullmatch(e["at"]):
+        before = len(bad)
+        if not QS.at_ok(e["at"]):
             bad.append("line %d: at %r is not YYYY-MM-DDTHH:MM:SSZ" % (i, e["at"]))
         if not isinstance(e["commit"], str) or not QS.COMMIT.fullmatch(e["commit"]) \
                 or not isinstance(e["blob"], str) or not QS.COMMIT.fullmatch(e["blob"]):
             bad.append("line %d: commit and blob are not full 40-hex ids" % i)
+        if not QS.branch_ok(e["branch"]):
+            bad.append("line %d: branch %r is not a branch's name" % (i, e["branch"]))
+        if not isinstance(e["path"], str) or not e["path"] or e["path"].startswith("/") or ".." in e["path"].split("/"):
+            bad.append("line %d: path %r is not a path of the repository" % (i, e["path"]))
         if e["what"] not in WHATS:
             bad.append("line %d: what %r is not one of %s" % (i, e["what"], ", ".join(WHATS)))
-        if entries and isinstance(e["at"], str) and e["at"] < entries[-1]["at"]:
+        if len(bad) > before:
+            continue
+        if entries and e["at"] < entries[-1]["at"]:
             bad.append("line %d goes back in time" % i)
         key = (e["branch"], e["path"], e["blob"])
         if key in seen:
@@ -148,32 +156,39 @@ def custody_problems(root, rec, entries, ref=None):
 
 # --- the queue's history -----------------------------------------------------------------------------------------------
 def versions(root, ref, path):
-    """the texts of a file along the first-parent history of ref, oldest first"""
+    """the texts of a file along the first-parent history of ref, oldest first; a commit that deletes it gives None (Review
+    88's B12: a deletion was passed over)"""
     rc, out, _ = git(root, "log", "--first-parent", "--reverse", "--format=%H", ref, "--", path)
     if rc != 0:
         return None
     texts = []
     for c in out.split():
         rc, text, _ = git(root, "show", "%s:%s" % (c, path))
-        if rc == 0:
-            texts.append((c, text))
+        texts.append((c, text if rc == 0 else None))
     return texts
 
 
 def history_problems(root, ref):
     """the log and every card file along ref's history: each version begins with the one before (the log), or keeps its
-    fixed fields and extends its history (a card)"""
+    fixed fields and extends its history (a card); neither is ever deleted"""
     bad = []
     vs = versions(root, ref, LOG)
     if vs is None:
         return ["the history of %s cannot be read" % ref]
     for (c0, a), (c1, b) in zip(vs, vs[1:]):
-        if not b.startswith(a):
+        if a is not None and b is None:
+            bad.append("%s is deleted at %s" % (LOG, c1[:9]))
+        elif a is not None and not b.startswith(a):
             bad.append("%s at %s does not begin with its version at %s: the log was rewritten" % (LOG, c1[:9], c0[:9]))
     rc, out, _ = git(root, "log", "--format=", "--name-only", ref, "--", QS.CARDS)
     for path in sorted(set(p for p in out.split() if p.endswith(".json"))):
         vs = versions(root, ref, path) or []
         for (c0, a), (c1, b) in zip(vs, vs[1:]):
+            if a is not None and b is None:
+                bad.append("%s is deleted at %s" % (path, c1[:9]))
+                continue
+            if a is None:
+                continue
             try:
                 old, new = json.loads(a), json.loads(b)
                 if any(old.get(f) != new.get(f) for f in FIXED):
@@ -192,11 +207,12 @@ def main(argv):
         p = pathlib.Path(argv[argv.index("--log") + 1])
         log_text = p.read_text(encoding="utf-8") if p.is_file() else ""
         bad += read_log(log_text)[1]
+    root = pathlib.Path(argv[argv.index("--root") + 1]) if "--root" in argv else ROOT     # T7b: the queue's own checkout
     if "--history" in argv:
-        bad += history_problems(ROOT, argv[argv.index("--history") + 1])
+        bad += history_problems(root, argv[argv.index("--history") + 1])
     if "--card" in argv:
         rec = json.loads(pathlib.Path(argv[argv.index("--card") + 1]).read_text(encoding="utf-8"))
-        bad += custody_problems(ROOT, rec, read_log(log_text)[0])
+        bad += custody_problems(root, rec, read_log(log_text)[0])
     for b in bad:
         print(b)
     print("%d problem(s)" % len(bad))

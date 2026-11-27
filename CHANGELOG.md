@@ -1,5 +1,29 @@
 # Changelog
 
+## S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE LANDED (T7B PART 1); THE RUNNER HELD; TWO AUDIT DRAFTS LANDED OR DECLINED (P-326, P-589, P-885; HARVEST ROW 2046; R88-1 MET; M68, M63) (2026-11-27)
+
+- **T7b part 1, the builder's** (Review 88's twenty-eight items, M61's three, M66's two), landed byte for byte:
+  - **the rerun:** seat code runs as nobody in a network namespace, or not at all; the commit is written from its blobs;
+    symlinks are refused; the control is guarded; every check comes before HEAVY;
+  - **the form:** an effect names only codes the card touches; one table of deciding codes; paths and commands are tied to
+    the commit;
+  - **the queue:** no card skips the peer offer; NOT_BANKED; main's alias closed; strict fields;
+  - **discovery:** a card's code is its branch's, from `queue/SEAT_CODES.json`; its stated commit is an ancestor of where it
+    was found; masked rows are read; one bad card no longer stops the rest;
+  - **custody:** deletions are reported;
+  - **the record check:** the law map's rows decide; the firewall's words are widened; a premise arc's own card is waited on.
+- **Verified** by Review 88's live probes (no fault reproduced) and by main's identity probes (each wrong card refused, each
+  twin filed). The queue's tests pass here and, in a privileged Linux container, 29 of 29 of the rerun and intake files.
+- **The runner (part 2) held (M68):**
+  - its namespace probe rejects a sound namespace on kernels with tunnel modules;
+  - `/tmp` is shared between runs, and one card's run changed another's decisive line;
+  - main's cards on a branch cut from main are refused under the seat's code.
+- **The SM seat's producer cards** go on `sm/cards` (in SEAT_CODES), since its old branch's name cannot be stated (M63).
+- **Rule 9, two drafts:**
+  - P-589's two LAW_MAP screens are landed at `scripts/review/`. Run today, they name 76 and 48 candidate rows, to be
+    judged at source;
+  - P-326's draft is declined: its one scratch check's script is gone.
+
 ## S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)
 
 - **`queue/KNOWN_FAILURES.json`:** every failing test and red gate on main, each with its register row and why; its first

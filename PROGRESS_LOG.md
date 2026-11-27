@@ -20520,3 +20520,13 @@ was opened. It also sent the ranking main had asked for of its older results tha
 gave: those that open questions rest on first.
 
 0 of 19.
+
+## 2026-11-27 — the review's fixes to the intake landed; its runner held for one more (S306p)
+
+**What happened.** The building seat sent the fixes for everything Review 88 found in the intake's code, with the runner
+itself in a second part. Main checked them the way the review taught: by trying inputs made to slip past each rule, on a
+real Linux sandbox as well as here. The fixes held and are landed. The runner is held, because one card's run could leave
+a file that changed another card's result, and because its test for a cut-off network rejected a sound one on some
+machines. Two old drafts that the register cited were either landed as tools or declined with their reason.
+
+0 of 19.
