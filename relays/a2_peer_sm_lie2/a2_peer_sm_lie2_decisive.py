@@ -864,6 +864,18 @@ def run_all():
             return sum(_cnt_jf(v) for v in o)
         return 0
 
+    def _to_py(o):
+        if isinstance(o, (bool, np.bool_)):
+            return bool(o)
+        if isinstance(o, (int, np.integer)):
+            return int(o)
+        if isinstance(o, dict):
+            return {str(k): _to_py(v) for k, v in o.items()}
+        if isinstance(o, (list, tuple)):
+            return [_to_py(v) for v in o]
+        return o
+
+    out = _to_py(out)
     jf = _cnt_jf(out)
     out["json_floats"] = jf
     if jf != 0:
