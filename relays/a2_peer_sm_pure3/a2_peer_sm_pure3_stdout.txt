@@ -1,0 +1,4 @@
+DECISIVE: V1_SM_R384 ok=True lines=266 K=5 cusp=True uclos=10 level=10 Pi_K=True Pi_inv=10 ui_hit=0
+DECISIVE: V2_SM_R614 ok=True t27=True eta_sing=-5 resV5=(1,1,1) eta5_SM=True mpV5=0 stabN=(45,5) stabBoth=(24,4) E5=(16,0)
+DECISIVE: V3_SM_R635 ok=True H0=0 H1_cl=0 H1_F2=3 H1_par=0 rk_bd=3 rk_ln=0 k0=-2 H_eigs=[8, 8, 8] ker_phi=1 all4P=True
+DECISIVE: SUMMARY all_ok=True PF=5/5 floats=0/0

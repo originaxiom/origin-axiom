@@ -1,0 +1,311 @@
+{
+  "V1_SM_R384_two_fifths_class": {
+    "K_single_cusp": true,
+    "K_size": 5,
+    "K_unit_closed": false,
+    "K_unit_closure_size": 10,
+    "Kp_single_cusp": true,
+    "Pi_equals_K": true,
+    "Pi_inv_equals_K_union_Kp": true,
+    "Pi_inv_size": 10,
+    "least_level": 10,
+    "lines_ord_10": 36,
+    "min_size_ui_containing_carriers": 10,
+    "ok": true,
+    "total_lines_ord_le_12": 266,
+    "unit3_swaps_K_to_Kp": true,
+    "unit_invariant_rules_all_closed": true,
+    "unit_invariant_rules_matching_K": [],
+    "unit_invariant_rules_tested": 14,
+    "verdict": "SAME"
+  },
+  "V2_SM_R614_discrete_remnant_27": {
+    "E5_mod2_commuting_SM": 2,
+    "E5_mod2_matter_parity_hits": 0,
+    "E5_mod2_total": 16,
+    "E6_stab_N": {
+      "dim": 45,
+      "rank": 5,
+      "roots": 40
+    },
+    "E6_stab_nuc": {
+      "dim": 45,
+      "rank": 5,
+      "roots": 40
+    },
+    "E6_stab_nuc_cap_N": {
+      "dim": 24,
+      "rank": 4,
+      "roots": 20
+    },
+    "V5_residual_N": {
+      "nontrivial": [],
+      "order": 1,
+      "snf": [
+        1
+      ]
+    },
+    "V5_residual_both": {
+      "nontrivial": [],
+      "order": 1,
+      "snf": [
+        1
+      ]
+    },
+    "V5_residual_nuc": {
+      "nontrivial": [],
+      "order": 1,
+      "snf": [
+        1
+      ]
+    },
+    "V6_residual_N": {
+      "nontrivial": [],
+      "order": 1,
+      "snf": [
+        1
+      ]
+    },
+    "V6_residual_both": {
+      "nontrivial": [],
+      "order": 1,
+      "snf": [
+        1,
+        1
+      ]
+    },
+    "V6_residual_nuc": {
+      "nontrivial": [],
+      "order": 1,
+      "snf": [
+        1
+      ]
+    },
+    "common_root_targets_N_nuc": 10,
+    "diff_N_nuc_is_root": true,
+    "eta_val_singlets": -5,
+    "exp_2pi_i_eta_over_5_in_SM": true,
+    "matter_parity_R6_N_only_count": 20,
+    "matter_parity_R6_both_count": 0,
+    "matter_parity_R6_nuc_only_count": 0,
+    "matter_parity_V5_count": 0,
+    "nuc_eq_N_under_eta": true,
+    "ok": true,
+    "table_27_ok": true,
+    "verdict": "SAME"
+  },
+  "V3_SM_R635_boundary_free_classes": {
+    "SO3_P_solutions_count": 4,
+    "all_4_SO3_P_give_dim_ker_1": true,
+    "all_4_SO3_records": [
+      {
+        "P_diag_perm": [
+          1,
+          1,
+          1
+        ],
+        "Phi_H1": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "charpoly_coeffs": [
+          1,
+          0,
+          0,
+          -1
+        ],
+        "dim_ker_phi_minus_I": 1,
+        "exact_SU2_lift": true
+      },
+      {
+        "P_diag_perm": [
+          1,
+          -1,
+          -1
+        ],
+        "Phi_H1": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "charpoly_coeffs": [
+          1,
+          0,
+          0,
+          -1
+        ],
+        "dim_ker_phi_minus_I": 1,
+        "exact_SU2_lift": false
+      },
+      {
+        "P_diag_perm": [
+          -1,
+          1,
+          -1
+        ],
+        "Phi_H1": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "charpoly_coeffs": [
+          1,
+          0,
+          0,
+          -1
+        ],
+        "dim_ker_phi_minus_I": 1,
+        "exact_SU2_lift": false
+      },
+      {
+        "P_diag_perm": [
+          -1,
+          -1,
+          1
+        ],
+        "Phi_H1": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "charpoly_coeffs": [
+          1,
+          0,
+          0,
+          -1
+        ],
+        "dim_ker_phi_minus_I": 1,
+        "exact_SU2_lift": false
+      }
+    ],
+    "boundary_restriction_rank_adQ8": 3,
+    "boundary_restriction_rank_lines": 0,
+    "dim_H0": 0,
+    "dim_H1_closed_Z2": 0,
+    "dim_H1_par": 0,
+    "dim_H1_punctured_F2": 3,
+    "exact_SU2_Phi_H1": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "exact_SU2_charpoly": [
+      1,
+      0,
+      0,
+      -1
+    ],
+    "exact_SU2_dim_ker_phi_minus_I": 1,
+    "grad_kappa_at_0": [
+      0,
+      0,
+      0
+    ],
+    "hess_kappa_at_0": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "hess_kappa_eigenvalues": [
+      8,
+      8,
+      8
+    ],
+    "hess_pos_def": true,
+    "kappa_at_0": -2,
+    "kappa_formula": "-cos(2*s2) - cos(2*s1 - 2*s3)/2 - cos(2*s1 + 2*s3)/2 - cos(-2*s1 + 2*s2 + 2*s3)/4 - cos(2*s1 - 2*s2 + 2*s3)/4 - cos(2*s1 + 2*s2 - 2*s3)/4 - cos(2*s1 + 2*s2 + 2*s3)/4 + 1",
+    "ok": true,
+    "rho_c_is_minus_I": true,
+    "verdict": "SAME"
+  },
+  "all_gates_passed": true,
+  "ast_floats": 0,
+  "blind": "0 of 19",
+  "card": "A2-PEER-SM-PURE3",
+  "json_floats": 0,
+  "planted_controls": {
+    "PF1_ord5_misses_K": true,
+    "PF2_unit3_escapes_K": true,
+    "PF3_wrong_eta_sign_splits_singlets": true,
+    "PF4_trivial_rep_bd_rank_0": true,
+    "PF5_identity_monodromy_ker_3": true,
+    "caught": 5,
+    "total": 5
+  },
+  "seat_code": "fam3-v1-high-03",
+  "verifying_branch": "sm/cards",
+  "verifying_seat_code": "fam1-v1-unset-04"
+}
