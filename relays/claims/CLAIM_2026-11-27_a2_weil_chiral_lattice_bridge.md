@@ -19,16 +19,16 @@
   R_5^wp(i) = 7/23 (23/30 : 7/30) and universal non-commutative chiral freezing of O_{27}^{(3,3,3)} x Weil_N onto
   Q_6 x Weil_N across G_3 (216 elements, 0 character defects) and m = 0..4 for N in {3, 5, 7, 15} with exact
   Q_6 x Weil_N moments m = 0..6 (including -108 sqrt(21) and -720 sqrt(21) at N = 7); constructs SL(2, Z)-equivariant
-  even (weight 1) and odd-harmonic cusp (weight 2) lattice Weil-theta forms on L_N = [[2, 1], [1, (N+1)/2]] for
+  even (weight 1) and odd-harmonic cusp (weight 2) lattice Weil-modular forms on L_N = [[2, 1], [1, (N+1)/2]] for
   N in {3, 7, 11, 15, 19} and non-principal genus partner L'_15 = [[4, 1], [1, 4]] (h(-15) = 2), proving exact
   equianharmonic chiral-sector locking at omega_+ (even -> q = 2, odd -> q = 1) and zero-parameter boundary-to-interior
-  stabilization of V_odd(tau) = y^2 ||Theta^odd(tau)||^2 (boundary max at omega_+ for L_7 and L'_15 vs strict 2D
+  stabilization of V_odd(tau) = y^2 ||Th^odd(tau)||^2 (boundary max at omega_+ for L_7 and L'_15 vs strict 2D
   interior global max on Re(tau) = 0 with saddle on Re(tau) = 1/2 for L_11 at y* = 1.510994739, minimal chiral L_15
   at y* = 2.267789662 with V* = 0.1043626076, and L_19 at y* = 2.910076101); and proves exact discriminant-15 Genus
   Rank-2 Duality on CRT 3 x 5 SL(2, Z)- and Haar-invariant matrices (L_15: M_even rank 3, M_odd exact rank 2 via exact
-  Q[[q^{1/15}]] A_2 x S_1(2I) identities A D + B C = 0, B theta_{A2,0} = D theta_{A2,1}, A theta_{A2,0} = -C theta_{A2,1}
+  Q[[q^{1/15}]] A_2 x S_1(2I) identities A D + B C = 0, B T_{A2,0} = D T_{A2,1}, A T_{A2,0} = -C T_{A2,1}
   through q^4; L'_15: M_odd rank 3, M_even exact rank 2 via swap isometry j -> -4j = P_flip^{(3)}) together with the
-  exact P_flip^{(3)} block-diagonal (J = 0) mixing obstruction on both classes)
+  exact P_flip^{(3)} block-diagonal (J = 0) left-singular overlap obstruction on both classes)
 - scope: frame: no frame (finite non-commutative Weil representations rho_{N,r} on C^N, signed-line representation
   Leg(5), Markoff trace orbit O_{27}^{(3,3,3)} and its 6-point quotient Q_6, and SL(2, Z)-equivariant rank-2 even
   lattice Weil-theta forms on H); object: all odd N in {3..49} for Gauss-sum chiral-index and flip-trace laws, all
@@ -56,14 +56,14 @@
   diagonal bundle operators g_L = P_L (x) L, g_R = P_R (x) R, g_C = P_C (x) C_{3,omega}, W_6 = sum_{j=0}^2 g_C^j
   (g_L + g_R) g_C^{-j} on B x Weil_N (r = 1). For N == 3 mod 4, L_N has Gram matrix [[2, 1], [1, (N+1)/2]],
   Q(u, v) = u^2 + u v + c v^2 (c = (N+1)/4), dual cosets j e* = (2 c j/N, -j/N) mod Z^2, r_eff = (N+1)/2, even
-  weight-1 theta Theta_{L_N, j}^even(tau) = sum_{(u,v) in L_N + j e*} q^{Q(u,v)} (q = exp(2 pi i tau)), odd weight-2
-  cusp form Theta_{L_N, j}^odd(tau) = sum_{(u,v) in L_N + j e*} (u + v alpha) q^{Q(u,v)} (alpha = (1 + i sqrt(N))/2),
-  and V_odd(tau) = (Im tau)^2 ||Theta^odd(tau)||^2; non-principal L'_15 has Gram [[4, 1], [1, 4]], Q'(u, v) =
+  weight-1 form Th_{L_N, j}^even(tau) = sum_{(u,v) in L_N + j e*} q^{Q(u,v)} (q = exp(2 pi i tau)), odd weight-2
+  cusp form Th_{L_N, j}^odd(tau) = sum_{(u,v) in L_N + j e*} (u + v alpha) q^{Q(u,v)} (alpha = (1 + i sqrt(N))/2),
+  and V_odd(tau) = (Im tau)^2 ||Th^odd(tau)||^2; non-principal L'_15 has Gram [[4, 1], [1, 4]], Q'(u, v) =
   2 u^2 + u v + 2 v^2, cosets j e'* = (4 j/15, -j/15) mod Z^2, r_eff = 4, and P^odd(u, v) = u + v beta (beta =
   (1 + i sqrt(15))/4). CRT reshaping maps v in C^{15} to M in C^{3 x 5} via M[j mod 3, j mod 5] = v_j, with descending
-  singular values and left-singular mixing V_{3x3} = U_even^H U_odd, Jarlskog J = Im(V_00 V_11 conj(V_01 V_10)), and
-  L_15 odd q-series ser[j] = Theta_{L_15, j}^odd / (i sqrt(15)/2) with A = ser[6], B = ser[3], C = ser[1] - ser[4],
-  D = ser[7] + ser[2], and A_2 theta series theta_{A2, 0}, theta_{A2, 1}.
+  singular values and left-singular overlap V_{3x3} = U_even^H U_odd, Jarlskog J = Im(V_00 V_11 conj(V_01 V_10)), and
+  L_15 odd q-series ser[j] = Th_{L_15, j}^odd / (i sqrt(15)/2) with A = ser[6], B = ser[3], C = ser[1] - ser[4],
+  D = ser[7] + ser[2], and A_2 lattice series T_{A2, 0}, T_{A2, 1}.
 - imports: none
 - premises on main: B371, B377, B381, B1262, B1934, B1992, B1993, B2008, P-629, P-630, P-845, P-882
 - decisive script: relays/a2_weil_chiral_lattice_bridge/a2_weil_chiral_lattice_bridge_decisive.py, SHA-256 8f04ea23e2b0a7e5,
