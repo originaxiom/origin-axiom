@@ -19,6 +19,8 @@ files here are now part 2 alone, its tree `9515714c9922077e01752a1ab22d0dd0ca63e
 | M68.4 main's cards on a seat's branch | discovery passes over a card whose path and blob are the same as on main. Test: main's card on a branch cut from main is not filed there; the seat's own card on that branch is |
 | M69 `re.compile` | `exec`, `eval`, `compile` and `__import__` are refused only as bare names or as attributes of `builtins`; `import_module` only as `importlib.import_module`. Twins: `re.compile` and a method named `eval` pass, while `compile(...)` and `builtins.compile(...)` do not |
 
+**T8 and T9 are rebuilt on part 2** (2026-11-27): in their own folders, `0003-...` and `0004-...`, applied after this one.
+
 Runs: the queue's eight test files 82 passed, 1 skipped (the dummy interface, for want of `ip`). New breaks, each caught: the
 tmpfs mounts removed, the probe's `/tmp` check removed, the guard's attribute rule widened back, and main's card on a seat's
 branch filed. Every gate on the commit: 59, all green but harvest-debt (`GATES.txt`). The related test files: 680 passed, 4 failed, each failing on your `9c8b0a531` too: B1306's slice D (the list's first entry), harvest-debt's live run, the day test (it passes alone), and `test_point_debt_gate.py`'s brainstorm-rules test.

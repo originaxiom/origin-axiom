@@ -1,13 +1,14 @@
-From 1c127131a82d716539794ade45a1d1aaebfdac7c Mon Sep 17 00:00:00 2001
+From ec0d0d8b2f0fa3537a8b03271ceb5b8b1fef9ff3 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Thu, 26 Nov 2026 22:49:57 +0000
-Subject: [PATCH] S306p the peer note and the move to PEERED (the framework's
- thin path, T8; P-885): scripts/queue/peer_note.py checks a peer's note on its
- own branch (its form, a peer that is not the card's seat, sighted after the
- offer, its own script rerun in the sandbox with its failing control,
- reproduced only with the card's decisive lines) and grades it re-derived or
- reran by whether its files are the producer's; the runner moves an OFFERED
- card to PEERED when its note holds; tests fail with each rule removed
+Date: Fri, 27 Nov 2026 16:06:41 +0000
+Subject: [PATCH 1/2] S306p the peer note and the move to PEERED (the
+ framework's thin path, T8; P-885): scripts/queue/peer_note.py checks a peer's
+ note on its own branch (its form, a peer that is not the card's seat, sighted
+ after the offer, its own script rerun in the sandbox with its failing
+ control, reproduced only with the card's decisive lines) and grades it
+ re-derived or reran by whether its files are the producer's; the runner moves
+ an OFFERED card to PEERED when its note holds; tests fail with each rule
+ removed
 
 ---
  CHANGELOG.md                   |  14 +++
@@ -15,26 +16,26 @@ Subject: [PATCH] S306p the peer note and the move to PEERED (the framework's
  docs/views/CONTEXT_RECOVERY.md |   2 +-
  docs/views/THE_SPINE.md        |   3 +-
  scripts/queue/custody.py       |   2 +-
- scripts/queue/intake.py        |  42 ++++++++
- scripts/queue/peer_note.py     | 184 +++++++++++++++++++++++++++++++++
- tests/test_queue_peer_note.py  | 159 ++++++++++++++++++++++++++++
- 8 files changed, 412 insertions(+), 3 deletions(-)
+ scripts/queue/intake.py        |  53 +++++++++-
+ scripts/queue/peer_note.py     | 183 +++++++++++++++++++++++++++++++++
+ tests/test_queue_peer_note.py  | 166 ++++++++++++++++++++++++++++++
+ 8 files changed, 426 insertions(+), 6 deletions(-)
  create mode 100644 scripts/queue/peer_note.py
  create mode 100644 tests/test_queue_peer_note.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 199ba7a93..8f62fb6ed 100644
+index 43821a89e..f68ad8021 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,19 @@
  # Changelog
  
-+## S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-26)
++## S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)
 +
 +- **`scripts/queue/peer_note.py`:** a peer's note, `relays/claims/peer/PEER_<card id>.json` on the peer's own branch: the
 +  card and the commit it read, the peer's code (not the card's own seat), its finding (reproduced, fault, extended), its own
 +  script with its failing control, its decisive lines, a short note. The runner's check: the form; the note first sighted
-+  after the card was offered; the peer's script the one it hashes, rerun in T5's sandbox with its control; "reproduced"
++  after the card was offered; the peer's script the one it hashes, rerun in T7b's sandbox (its own namespaces, as nobody) with its control; "reproduced"
 +  only with the card's own decisive lines. Graded "re-derived" when the peer's script and the modules it imports share no
 +  file with the producer's, "reran" otherwise; whether the check is from another family is recorded.
 +- **`scripts/queue/intake.py`:** a card OFFERED moves to PEERED, by the runner, when its note holds; a note that does not
@@ -43,19 +44,19 @@ index 199ba7a93..8f62fb6ed 100644
 +  by plants, not something the check enforces.
 +- **New test** `tests/test_queue_peer_note.py` (5 tests); each rule's removal makes one fail.
 +
- ## S306p THE INTAKE RUNNER AND ITS WORKFLOW (the framework's thin path, T7; P-885) (2026-11-26)
+ ## S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)
  
- - **`scripts/queue/intake.py`:** one round of the intake: discovery and sighting, the form (a refile it does not declare
+ - **`scripts/queue/intake.py`:** one round of the intake: discovery and sighting (seat codes by branch), the form (a refile
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 94a73cccc..4e160a2d2 100644
+index 850936911..b22d5ad6c 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20411,3 +20411,12 @@
- on GitHub are written down beside the queue.
+@@ -20566,3 +20566,12 @@
+ refuses any file the round did not write. The settings the author makes on GitHub are written beside the queue.
  
  0 of 19.
 +
-+## 2026-11-26 — The peer note: a second seat's check of a card (S306p)
++## 2026-11-27 — The peer note: a second seat's check of a card (S306p)
 +
 +**What happened.** The building seat sent the thin path's eighth patch. A seat offered a card can now file a note on its own
 +branch saying whether it reproduced the result, found a fault, or extended it, with its own script. The runner checks the
@@ -64,48 +65,45 @@ index 94a73cccc..4e160a2d2 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index c251cce8b..febea26c1 100644
+index af45ac493..2a6d855b9 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
  
  ## The last landings (CHANGELOG)
  
-+- “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-26)”
- - “S306p THE INTAKE RUNNER AND ITS WORKFLOW (the framework's thin path, T7; P-885) (2026-11-26)”
- - “S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)”
- - “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
++- “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)”
+ - “S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)”
+ - “S306p THE BANKING SEATS' PRACTICE VERDICTS AGREE WITH THE KEY; THE KEY STAYS SEALED (P-885; M64, M6) (2026-11-27)”
+ - “S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)”
 @@ -60,7 +61,6 @@
- - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
- - “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
- - “S306p CUSTODY: THE RUNNER'S SIGHTING LOG AND THE CUSTODY CHECK (the framework's thin path, T4; P-885) (2026-11-26)”
--- “S306p THE BANKING SEATS BRIEFED WITH TWO PRACTICE CARDS; T4 AND T5 READ; THE TRIAL CARDS' WRAPPERS (P-885; M58) (2026-11-26)”
+ - “S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE LANDED (T7B PART 1); THE RUNNER HELD; TWO AUDIT DRAFTS LANDED OR DECLINED (P-326, P-589, P-885; HARVEST ROW 2046; R88-1 MET; M68, M63) (2026-11-27)”
+ - “S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)”
+ - “S306p THE SEATS ANSWERED: CHAT1'S LINE 65 VERIFIED; THE SM SEAT'S BRANCH READ BY DISCOVERY; WHAT THE QUEUE READS (P-876, P-885; HARVEST ROW 2042; M86, M60, M25, M66) (2026-11-27)”
+-- “S306p MAIN'S SEVEN TRIAL CARDS FILED, BEFORE THE RUNNER'S FIRST ROUND; T10 READ AND HELD (P-885; R88-3 MET; M65) (2026-11-27)”
  
  ## The latest campaign line
  
 diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
-index 16cfefba3..a1cb87f06 100644
+index fa3b45b70..44780ae45 100644
 --- a/docs/views/THE_SPINE.md
 +++ b/docs/views/THE_SPINE.md
 @@ -2,7 +2,7 @@
  
  *One line per living test lock, in git birth order. The claim head comes from the
  arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
--Generated by `scripts/views/spine.py` — 1566 locks. Regenerated with the views.*
-+Generated by `scripts/views/spine.py` — 1567 locks. Regenerated with the views.*
+-Generated by `scripts/views/spine.py` — 1567 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1568 locks. Regenerated with the views.*
  
  
  ## 2026-05-22
-@@ -1944,6 +1944,7 @@
- - — `test_queue_custody.py` 
- - — `test_queue_discover.py` 
+@@ -1952,3 +1952,4 @@
+ 
+ - — `test_known_failures.py` 
  - — `test_queue_intake.py` 
 +- — `test_queue_peer_note.py` 
- - — `test_queue_record_check.py` 
- - — `test_queue_rerun.py` 
- - — `test_queue_schema.py` 
 diff --git a/scripts/queue/custody.py b/scripts/queue/custody.py
-index 97e226135..a0e9fb7cd 100644
+index aad0e4102..886ec59e9 100644
 --- a/scripts/queue/custody.py
 +++ b/scripts/queue/custody.py
 @@ -50,7 +50,7 @@
@@ -118,19 +116,29 @@ index 97e226135..a0e9fb7cd 100644
  
  
 diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
-index 4c0a421e3..dd1e5a245 100644
+index c501f1afd..cbb1c3c9c 100644
 --- a/scripts/queue/intake.py
 +++ b/scripts/queue/intake.py
-@@ -16,6 +16,8 @@
-      when the card is marked heavy and stays FILED for the author's machine.
+@@ -16,9 +16,15 @@
+   5. the rerun (T5, rebuilt by T7b): REPRODUCED, with `deciding` set from the record check; RETURNED_AT_INTAKE with its
+      reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine.
  
- A card that decides nothing stays REPRODUCED and goes to the peers only; offers are made by hand in the trial (T8).
+-THE SANDBOX (T7b; main's M62). Seat code runs as the unprivileged user nobody in a network namespace (scripts/queue/rerun.py).
+-Where no such wrap can be made the round goes on, and no seat code runs: every rerun is HEAVY. `--allow-static-guard` runs
+-seat code without the wrap, on the author's machine and by the author's choice; the workflow never passes it.
 +  6. the peer note (T8): a card OFFERED to a peer moves to PEERED once the peer's note, on its own branch, holds the
-+     runner's check (scripts/queue/peer_note.py); a note that does not is reported and the card stays OFFERED.
++     runner's check (scripts/queue/peer_note.py), the peer's script rerun in the same sandbox; a note that does not is
++     reported and the card stays OFFERED. Offers are made by hand in the trial. A card that decides nothing ends at
++     NOT_BANKED after its peer stage (T9).
++
++THE SANDBOX (T7b; main's M62 and M68). Seat code runs as the unprivileged user nobody in a network and a mount namespace,
++with its own temporary directories (scripts/queue/rerun.py). Where no such wrap can be made the round goes on, and no seat
++code runs: every rerun is HEAVY. `--allow-static-guard` runs seat code without the wrap, on the author's machine and by the
++author's choice; the workflow never passes it.
  
- The queue as the round leaves it must hold its schema (T1, T1b) and the log its form (T4), or nothing is written. On the
- workflow the network must be cut by a namespace: a round that finds only the static guard stops, unless
-@@ -51,6 +53,7 @@
+ THE QUEUE'S FOLDER (T7b; main's M62). The round reads the folder once, at the start, and holds what it decides in memory.
+ It writes only after every rerun, and writes nothing if the folder changed while it ran. It closes what it wrote with a
+@@ -58,6 +64,7 @@
  CU = _load("custody_for_intake", HERE / "custody.py")
  RC = _load("record_check_for_intake", HERE / "record_check.py")
  RR = _load("rerun_for_intake", HERE / "rerun.py")
@@ -138,7 +146,7 @@ index 4c0a421e3..dd1e5a245 100644
  MAX_CARDS = 3                      # cards rerun in one round, so that a round stays inside the job's time
  
  
-@@ -156,6 +159,45 @@
+@@ -178,6 +185,46 @@
          else:
              _move(rec, "RETURNED_AT_INTAKE", "the rerun: " + "; ".join(res["reasons"]), at)
              report.append("%s RETURNED_AT_INTAKE (rerun)" % cid)
@@ -172,7 +180,8 @@ index 4c0a421e3..dd1e5a245 100644
 +                if e:
 +                    new_lines.append(e)
 +                    entries = entries + [e]
-+            res = PN.check(root, note, commit, branch, rec, text or "", entries, limit=limit, prefix=prefix)
++            res = PN.check(root, note, commit, branch, rec, text or "", entries, limit=limit, prefix=prefix,
++                           allow_static=allow_static)
 +            attached.setdefault(cid, {})["peer"] = dict(res, branch=branch, commit=commit)
 +            if res["ok"]:
 +                _move(rec, "PEERED", "the peer note on %s at %s: %s, graded %s%s" % (
@@ -186,10 +195,10 @@ index 4c0a421e3..dd1e5a245 100644
      if problems:
 diff --git a/scripts/queue/peer_note.py b/scripts/queue/peer_note.py
 new file mode 100644
-index 000000000..c5f83454c
+index 000000000..92bf21650
 --- /dev/null
 +++ b/scripts/queue/peer_note.py
-@@ -0,0 +1,184 @@
+@@ -0,0 +1,183 @@
 +#!/usr/bin/env python3
 +"""The peer note: its schema, the runner's check of it, and its grade (the framework's thin path, patch T8; draft 1
 +§§ 2.3 and 9; main's M54; register row P-885).
@@ -210,7 +219,7 @@ index 000000000..c5f83454c
 +  - Its form, and a peer that is not the card's own seat. The peer's lane is not checked yet: the lanes come with § 8's
 +    identity table, after the trial.
 +  - The note's commit was first sighted after the card was offered: a note written before the offer is refused.
-+  - The peer's script is rerun at the note's commit, in T5's sandbox, with its own failing control.
++  - The peer's script is rerun at the note's commit, in T7b's sandbox (its own namespaces, as nobody), with its own failing control.
 +  - "reproduced" holds only if the peer's decisive lines are the card's, count and hash.
 +
 +THE GRADE. "re-derived" when the peer's script shares no file with the producer's: the script and every module beside
@@ -296,18 +305,16 @@ index 000000000..c5f83454c
 +
 +
 +def _files(root, commit, path):
-+    """the content hashes of the script and of every module beside it that it imports, at a commit"""
++    """the content hashes of the script and of every module beside it that it imports, at a commit, written from their
++    blobs as the rerun writes them (T7b: not `git archive`, which a commit's .gitattributes can bend)"""
 +    tmp = pathlib.Path(tempfile.mkdtemp(prefix="peer_"))
 +    try:
-+        p = subprocess.run(["git", "archive", "--format=tar", commit], cwd=root, capture_output=True)
-+        if p.returncode != 0:
-+            return set()
-+        subprocess.run(["tar", "-x", "-C", str(tmp)], input=p.stdout, check=True)
-+        if not (tmp / path).is_file():
++        modes = RR.materialise(root, commit, tmp)
++        if modes is None or not (tmp / path).is_file():
 +            return set()
 +        seen = set()
 +        if path.endswith(".py"):
-+            RR.imports_of(tmp / path, tmp, seen)
++            RR.imports_of(tmp / path, tmp, seen, modes)
 +        else:
 +            seen = {tmp / path}
 +        return {hashlib.sha256(f.read_bytes()).hexdigest() for f in seen if f.is_file()}
@@ -324,7 +331,8 @@ index 000000000..c5f83454c
 +            % (s["path"], s["sha256"], s["run_as"], "0" * 16, d["lines"], d["sha256"], s["control"]))
 +
 +
-+def check(root, note, note_commit, peer_branch, rec, card_text, entries, limit=RR.TIME_LIMIT, prefix=None):
++def check(root, note, note_commit, peer_branch, rec, card_text, entries, limit=RR.TIME_LIMIT, prefix=None,
++          allow_static=False):
 +    """{ok, grade, reasons, rerun, other_family}: the runner's check of one note"""
 +    out = {"ok": False, "grade": None, "reasons": form_problems(note, rec), "rerun": None, "other_family": None}
 +    if out["reasons"]:
@@ -346,7 +354,7 @@ index 000000000..c5f83454c
 +        out["reasons"].append("the peer's script at the note's commit is not the one the note hashes")
 +    if out["reasons"]:
 +        return out
-+    res = RR.rerun(root, note_commit, _as_card(note), limit=limit, prefix=prefix)
++    res = RR.rerun(root, note_commit, _as_card(note), limit=limit, prefix=prefix, allow_static=allow_static)
 +    out["rerun"] = res
 +    if res["status"] != "REPRODUCED":
 +        out["reasons"].append("the peer's run: %s" % ("; ".join(res["reasons"]) or res["status"]))
@@ -376,10 +384,10 @@ index 000000000..c5f83454c
 +    sys.exit(main(sys.argv[1:]))
 diff --git a/tests/test_queue_peer_note.py b/tests/test_queue_peer_note.py
 new file mode 100644
-index 000000000..a738f6840
+index 000000000..936ab2bbb
 --- /dev/null
 +++ b/tests/test_queue_peer_note.py
-@@ -0,0 +1,159 @@
+@@ -0,0 +1,166 @@
 +"""2026-11-26 (the framework's thin path, patch T8; main's M54; register row P-885): the peer note,
 +scripts/queue/peer_note.py, and the runner's move from OFFERED to PEERED.
 +
@@ -420,23 +428,30 @@ index 000000000..a738f6840
 +                                     capture_output=True, text=True, check=True).stdout
 +
 +
++CODES = {"seat/a": "fam2-v5-high-01", "seat/p": PEER}
++
++
 +def _setup(tmp_path):
 +    """a producer's card, reproduced, then offered by hand; returns (repo, queue dir, the card's id, git)"""
 +    repo, q = tmp_path / "repo", tmp_path / "queue"
 +    repo.mkdir()
 +    g = _g(repo)
 +    g("init", "-q", "-b", "seat/a")
-+    (repo / "relays" / "claims").mkdir(parents=True)
 +    (repo / "s_good.py").write_text(T._script("good"), encoding="utf-8")
-+    (repo / "relays" / "claims" / "CLAIM_good.md").write_text(T._card("a count that holds", "good"), encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "the script")
++    stated = g("rev-parse", "HEAD").strip()           # a card names a commit before the one that adds it (M65)
++    (repo / "relays" / "claims").mkdir(parents=True)
++    (repo / "relays" / "claims" / "CLAIM_good.md").write_text(T._card("a count that holds", "good", stated=stated),
++                                                              encoding="utf-8")
 +    g("add", "-A")
 +    g("commit", "-q", "-m", "a card")
 +    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
-+    cards, log, att, rep, st = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], at="2026-11-26T12:00:00Z",
-+                                         limit=60, allow_static=True)
++    cards, log, att, rep, st = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], codes=CODES,
++                                         at="2026-11-26T12:00:00Z", limit=60, allow_static=True)
 +    assert st == 0
 +    (cid, rec), = cards.items()
-+    assert rec["status"] == "REPRODUCED"
++    assert rec["status"] == "REPRODUCED", rep
 +    rec["history"].append({"at": "2026-11-26T13:00:00Z", "status": "OFFERED", "by": "main", "note": "offered by hand"})
 +    rec["status"] = "OFFERED"
 +    IN.write(q, cards, log, att)
@@ -463,8 +478,8 @@ index 000000000..a738f6840
 +
 +
 +def _round(repo, q):
-+    return IN.round_(q, root=repo, refs=[("a", "origin/seat/a"), ("p", "origin/seat/p")], at="2026-11-26T14:00:00Z",
-+                     limit=60, allow_static=True)
++    return IN.round_(q, root=repo, refs=[("a", "origin/seat/a"), ("p", "origin/seat/p")], codes=CODES,
++                     at="2026-11-26T14:00:00Z", limit=60, allow_static=True)
 +
 +
 +def test_a_peer_note_with_its_own_code_moves_the_card_to_peered_re_derived(tmp_path):
@@ -513,7 +528,7 @@ index 000000000..a738f6840
 +    _file_note(repo, g, note)
 +    commit = g("rev-parse", "HEAD").strip()
 +    early = IN.CU.sight(repo, [], "seat/p", commit, PN.note_path(cid), "peer", "2026-11-26T12:30:00Z")
-+    res = PN.check(repo, note, commit, "seat/p", rec, "", [early], limit=60, prefix=[])
++    res = PN.check(repo, note, commit, "seat/p", rec, "", [early], limit=60, prefix=[], allow_static=True)
 +    assert not res["ok"] and any("before the card was offered" in r for r in res["reasons"])
 +
 +

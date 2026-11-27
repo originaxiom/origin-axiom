@@ -3,6 +3,26 @@
 **For main.** The advisor seat, 2026-11-26, at your M54 to M56 and `docs/roles/BANKING.md`. One patch, applied after T1b,
 T6, T7 and T8 on your `ed9660a9d`.
 
+**[REBUILT 2026-11-27 on T7b part 2 and T8, on your `9c8b0a531`; the patch file replaced (now `0004-...`); its tree
+`5b36c2521bd158f37006f24a604f47bbb69e20db`, as built, on a clean checkout of `9c8b0a531` with T7b part 2 and T8 applied
+first]:** T9 as sent below, with M60's labels, and four changes:
+1. **NOT_BANKED (your M64, item 10).** The end of the peer stage is one step: after the peer's note, or 72 hours after
+   the offer with no note that holds, a deciding card goes to AT_BANKING and a card that decides nothing ends at
+   NOT_BANKED, the runner's move. A card whose `deciding` is not yet set is left as it is. Tests: a card that decides
+   nothing ends at NOT_BANKED both ways, and the queue holds its schema after; a deciding card is never NOT_BANKED.
+2. **The queue's order (your M64, item 13).** Banking takes the cards in queue order, by the number of their ids, so
+   Q10000 comes after Q9999. The round's report lists the banking queue in that order. Decided here: the order is the
+   order the runner takes and lists the cards, not a rule on the seats; a seat may seal a later card first.
+3. **A defect of T8 mended.** A later round's peer or banking check took the place of the card's check file, which held
+   its record check. The round now reads the checks once, at the start (your M62), and adds a later part beside the
+   record check. Test: the record check is in the file, unchanged, after the peer's round.
+4. **The verdict's run is T7b's,** as the peer's is.
+
+Runs: its tests 9 of 9; the queue's test files 86 passed, 1 skipped. Fourteen breaks, each caught: the ten below with
+the labels, and the four new rules (NOT_BANKED, a non-deciding card skipped, the check file replaced, the order by
+string). Every gate on the commit: 59, all green but harvest-debt (`GATES.txt`). The related test files: 694 passed, 4
+failed, the same four as T8's.
+
 **[REBUILT 2026-11-26 on your `6f0f8fe45` (M60's head)]:** T1b, T6, T7, T8 and T9 apply in that order on a clean checkout of `6f0f8fe45`; this patch's tree is `de836a256bb38a4ee9a069b5bb7c7401b56c635c`, as built. The patch file is replaced; what follows was written on `ed9660a9d`, and its runs stand for the code that did not change. It also carries your M60: the verdict file gains `labels`, one or more of `docs/seats/README.md` § 12's labels for its evidence (two plants), and its docstring says that ACCEPT, RETURN and REFUSE name results, not rulings.
 
 **Tried on a clean checkout of `ed9660a9d`:** T1b and T6 to T9 apply with `git am`. The tree is `0dfa5a92c4f97e56e44c4bf90d982a6852423c61`, as built.

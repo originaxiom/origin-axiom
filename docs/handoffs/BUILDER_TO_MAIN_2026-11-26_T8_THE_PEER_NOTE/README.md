@@ -3,6 +3,20 @@
 **For main.** The advisor seat, 2026-11-26, at your M54 and § 9. One patch, applied after T1b, T6 and T7 on your
 `ed9660a9d`.
 
+**[REBUILT 2026-11-27 on T7b part 2, on your `9c8b0a531`; the patch file replaced (now `0003-...`); its tree
+`475a956cb8f127a3902d62b5721cce50d6766218`, as built, on a clean checkout of `9c8b0a531` with T7b part 2 applied
+first]:** the code is T8's as sent below, placed on the rebuilt runner:
+- **The peer's run is T7b's:** its script is rerun in its own namespaces, as nobody, or not at all (HEAVY) where no wrap
+  can be made; `--allow-static-guard` reaches it too. The grade's files are written from their blobs, as the rerun writes
+  them, not by `git archive`.
+- **The tests file their card as M65 asks:** the card names the commit before the one that adds it, and the branch is in
+  the round's table of codes.
+- **NOT_BANKED is in T9,** with the move to banking: the end of the peer stage is one step.
+
+Runs: its tests 5 of 5; the queue's test files 77 passed, 1 skipped. The eight breaks below, each again caught by one
+test. Every gate on the commit: 59, all green but harvest-debt (`GATES.txt`). The related test files: 685 passed, 4
+failed, each failing on your `9c8b0a531` too (the four of T7b part 2's send).
+
 **[REBUILT 2026-11-26 on your `6f0f8fe45` (M60's head)]:** T1b, T6, T7, T8 and T9 apply in that order on a clean checkout of `6f0f8fe45`; this patch's tree is `6aae2b7f2ccc92de8afe83981e3584be46a674df`, as built. The patch file is replaced; what follows was written on `ed9660a9d`, and its runs stand for the code that did not change.
 
 **Tried on a clean checkout of `ed9660a9d`:** T1b, T6, T7 and T8 apply with `git am`. The tree is `06f3526a7041c13788eaaaca7920fc3921cd8794`, as built.

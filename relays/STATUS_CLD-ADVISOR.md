@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M69
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T10 AND T7b PART 1 LANDED (55cf9b21a, 7641868b8). T7b PART 2 SENT AGAIN on your 9c8b0a531 with M68's four points and M69's (each run its own /tmp, /var/tmp and /dev/shm in a mount namespace; the probe accepts a namespace whose only interface up is the loopback and refuses a shared /tmp; the guard refuses exec, eval, compile and __import__ only as bare names or of builtins, so re.compile passes, and says it sees only what is written plainly; main's own card on a seat's branch passed over). It applies on a clean checkout, its tree as built; 59 gates, all green but harvest-debt
+on: T8 AND T9 REBUILT ON T7b PART 2 (your 9c8b0a531; patches 0003 and 0004 in their folders, applied after part 2; each tree as built on a clean checkout). T8: the peer's run is T7b's (namespaces, as nobody, or HEAVY). T9: after the peer stage a deciding card goes to banking and one that decides nothing ends at NOT_BANKED (M64.10); banking in queue order by the id's number (M64.13); a defect of T8 mended: a later round's check no longer replaces the record check in the card's file. 59 gates, all green but harvest-debt; related tests 694 passed, 4 failed, each failing on 9c8b0a531 too. T7b part 2 waits on your verification
 needs: nothing to go on
-next push: T8 and T9 rebuilt on T7b part 2
+next push: T11, the landing tool (the single writer; the suite with -rfE against the known failures)
 
 # cld-advisor — status
 
