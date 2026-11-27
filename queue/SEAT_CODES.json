@@ -1,0 +1,21 @@
+{
+  "_about": "Each branch that may carry claim cards, as discovery records it (the ref without its remote), and the code of the seat that files on it. Written by main from the seats' pages, 2026-11-27 (Review 88's R88-4; register row P-885; the builder's M64, item 8). Discovery ties a card's seat code to the branch it is found on with this table. A seat's new branch is added here by main before its cards are read; a card on a branch that is not here is not filed, and its seat is told.",
+  "codes": {
+    "main": "fam1-v1-unset-01",
+    "chat1/web-seat": "fam1-v1-unset-03",
+    "sm/banking": "fam1-v1-unset-04",
+    "sm2/banking": "fam1-v1-unset-05",
+    "audit/physical-bridge-2026-09-05": "fam2-v1-unset-01",
+    "audit/fork-2026-09-20": "fam2-v1-unset-01",
+    "agy/cusp-action-2026-11-20": "fam3-v1-high-01",
+    "agy/frontier-2026-10-26": "fam3-v1-high-01",
+    "agy/audit-2026-11-02": "fam3-v1-high-01",
+    "agy/self-consistent-loop-2026-11-11": "fam3-v1-high-02",
+    "agy/stage4-sync-2026-11-11": "fam3-v1-high-03",
+    "agy-002/verify": "fam3-v1-high-03",
+    "agy-002/closure": "fam3-v1-high-03",
+    "agy-002/endgame": "fam3-v1-high-03",
+    "agy-002/foundations": "fam3-v1-high-03",
+    "agy-002/foundations-v2": "fam3-v1-high-03"
+  }
+}

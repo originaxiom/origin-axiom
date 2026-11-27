@@ -1,5 +1,20 @@
 # Changelog
 
+## S306p THE TRIAL CARDS' TOOLS MENDED; THE SEATS' CODES BY BRANCH; A TEST'S CHOICE OF ROW (P-885; R88-3, R88-4) (2026-11-27)
+
+- **Main's seven trial cards, run before filing** from a clean checkout of `0df8d79a6`, each wrapper and control as the
+  runner will run them. Six came out byte for byte as on 2026-11-26. B2016's did not:
+  - **its wrapper** ran the arc's two scripts under one interpreter, but `cosets_gap.py` needs python-flint and sage's
+    Python has none, so the whole run under sage stopped there (the saved lines of 2026-11-26 came from `--from`). It now
+    runs that script under the first interpreter on the PATH that imports flint (`decisive_b2016.py`, dated);
+  - **its control** imports `n0_light.py`, which was never committed, so it crashed (exit 3) on a clean checkout. The
+    helper is committed beside it, unchanged from its draft; the control now fails as it must (exit 1, no traceback).
+- **`queue/SEAT_CODES.json`** (R88-4): each branch that may carry cards, mapped to its seat's code, from the seats' pages;
+  discovery is to tie a card's code to the branch it is found on (the builder's M64, item 8).
+- **`tests/test_point_debt_gate.py`:** its stale-row test failed on main since 2026-11-27, for its choice of row: the first
+  queued debt, P-057, which main escalated that day. It now picks a row the run names as stale; an escalation planted
+  with an old date still makes it fail. Found by the builder's T10 run (`22244e4bf`).
+
 ## S306p THE AGY CUSP SEAT'S C66 RECEIVED; C65 SUPERSEDED BY IT (P-885; HARVEST ROW 2041; M23) (2026-11-27)
 
 - **C66, its second card in the new form,** at `76d9799df`, read through the mask: `card_form.py` holds; its four stated

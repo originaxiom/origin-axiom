@@ -20479,3 +20479,14 @@ for the runner, like the seat's first card, and comes to the checking seats afte
 builds on some of them.
 
 0 of 19.
+
+## 2026-11-27 — the trial's own cards, run as the runner will run them (S306p)
+
+**What happened.** Before main files its seven cards for the framework's trial, it ran each card's script and its check on
+purpose-made wrong input from a clean copy of the record, the way the intake will. Six were exactly as before. One card's
+script could not run whole, because its two steps need two different Python installations, and its check needed a file
+that had never been committed. Both were mended. A table of which seat files on which branch was written, so that a card
+cannot claim another seat's identity. One of the record's own tests had begun to fail because it picked its example from
+the live register, and the register had changed under it; it now picks an example that fits.
+
+0 of 19.

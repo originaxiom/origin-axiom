@@ -6,6 +6,7 @@ import datetime
 import importlib.util
 import os
 import pathlib
+import re
 import subprocess
 import sys
 
@@ -71,7 +72,12 @@ def test_a_stale_queued_point_fails_and_escalation_clears_it(tmp_path):
     far = (datetime.date(2026, 10, 13) + datetime.timedelta(days=60)).isoformat()
     r = _run(text, tmp_path, today=far)
     assert r.returncode == 1 and "without ESCALATED" in r.stdout
-    q = next(l for l in text.splitlines() if l.startswith("| P-") and "| QUEUED |" in l and "[DEBT]" in l)
+    # CHANGED 2026-11-27 (S306p): the row is one the run above names as stale. It was the first queued debt of the
+    # register, which fails at `far` only while it has no fresh escalation: P-057 was escalated on 2026-11-27, and the
+    # test failed on main for its choice of row, not for the gate
+    stale = set(re.findall(r"(P-\d+): QUEUED DEBT unmoved \S+ days \(> \d+\) without ESCALATED", r.stdout))
+    q = next(l for l in text.splitlines() if l.startswith("| P-") and "| QUEUED |" in l and "[DEBT]" in l
+             and l.split("|")[1].strip() in stale)
     pid = q.split("|")[1].strip()
     escalated = text.replace(q, q.replace("| QUEUED | ", f"| QUEUED | ESCALATED({far}: next action named) "))
     r2 = _run(escalated, tmp_path, today=far)
