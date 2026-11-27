@@ -1,5 +1,14 @@
 # Changelog
 
+## S306p AGY-002'S THIRD NEW-FORM CARD RECEIVED (P-885; HARVEST ROW 2056; M65) (2026-11-27)
+
+- **A2-WEIL-CHIRAL-LATTICE-BRIDGE** at `aa90abcc1`, read through the mask:
+  - its form holds, and every stated hash matches at its commit and at the head;
+  - there is no symlink and no `.gitattributes`;
+  - the record check is clean and deciding;
+  - both scripts pass the intake's guard, and it names no trial arc.
+- **It waits for the runner.**
+
 ## S306p THE QUEUE'S BRANCH TO BE WRITTEN BY ONE KEY ALONE (P-885; M73) (2026-11-27)
 
 - **The problem.** Every seat's commits are made as `originaxiom`. If the seats push with that account's access, a

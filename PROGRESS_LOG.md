@@ -20606,3 +20606,10 @@ the repository cannot tell a seat from the automatic runner, and a seat could wr
 should. The runner is to write the queue with a key of its own, and the queue's branch will refuse everyone else.
 
 0 of 19.
+
+## 2026-11-27 — another card received (S306p)
+
+**What happened.** One seat filed a third card in the new form. It passes every check the intake makes before
+running anything, and waits for the runner.
+
+0 of 19.
