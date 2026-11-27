@@ -1,0 +1,2951 @@
+{
+  "all_manifests_ok": true,
+  "blindness": "0_of_19",
+  "card_id": "A2-WEIL-CHIRAL-LATTICE-BRIDGE",
+  "checks": [
+    {
+      "check": "card_id",
+      "kind": "exact",
+      "matched": true,
+      "module": "GLOBAL",
+      "producer": "A2-WEIL-CHIRAL-LATTICE-BRIDGE",
+      "referee": "A2-WEIL-CHIRAL-LATTICE-BRIDGE"
+    },
+    {
+      "check": "seat_code",
+      "kind": "exact",
+      "matched": true,
+      "module": "GLOBAL",
+      "producer": "fam3-v1-high-03",
+      "referee": "fam3-v1-high-03"
+    },
+    {
+      "check": "all_gates_passed",
+      "kind": "exact",
+      "matched": true,
+      "module": "GLOBAL",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "ast_floats_zero",
+      "kind": "exact",
+      "matched": true,
+      "module": "GLOBAL",
+      "producer": 0,
+      "referee": 0
+    },
+    {
+      "check": "json_floats_zero",
+      "kind": "exact",
+      "matched": true,
+      "module": "GLOBAL",
+      "producer": 0,
+      "referee": 0
+    },
+    {
+      "check": "controls_detected_count",
+      "kind": "exact",
+      "matched": true,
+      "module": "GLOBAL",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "controls_total_count",
+      "kind": "exact",
+      "matched": true,
+      "module": "GLOBAL",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "module_passed",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "pairs_checked_3_49",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 220,
+      "referee": 220
+    },
+    {
+      "check": "qr_and_sympy_ok",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "parity_split_all_ok",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "iso_N_3_to_35",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": [
+        5,
+        13,
+        17,
+        25,
+        29
+      ],
+      "referee": [
+        5,
+        13,
+        17,
+        25,
+        29
+      ]
+    },
+    {
+      "check": "split_N_3_to_35",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": [
+        3,
+        7,
+        9,
+        11,
+        15,
+        19,
+        21,
+        23,
+        27,
+        31,
+        33,
+        35
+      ],
+      "referee": [
+        3,
+        7,
+        9,
+        11,
+        15,
+        19,
+        21,
+        23,
+        27,
+        31,
+        33,
+        35
+      ]
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "max_err_tr_C3",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W1",
+      "producer_abs": "3.706500271e-45",
+      "referee_abs": "3.370213831e-49"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "max_err_flip_trace",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W1",
+      "producer_abs": "3.605231246e-45",
+      "referee_abs": "1.69788496e-49"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "max_err_spinor_sign",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W1",
+      "producer_abs": "8.974946297e-32",
+      "referee_abs": "8.780219643e-50"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "mirror_c3_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W1",
+      "producer_abs": "2.084993848e-31",
+      "referee_abs": "6.895081626e-50"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "crt_max_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W1",
+      "producer_abs": "9.078057059e-46",
+      "referee_abs": "2.135077325e-50"
+    },
+    {
+      "check": "N3_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N3_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N3_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N3_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 0,
+      "referee": 0
+    },
+    {
+      "check": "N3_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N3_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 0,
+      "referee": 0
+    },
+    {
+      "check": "N3_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N3_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 0,
+      "referee": 0
+    },
+    {
+      "check": "N5_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N5_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N5_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N5_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N5_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N5_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N5_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N5_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N7_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N7_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N7_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N7_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N7_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N7_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N7_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N7_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N9_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N9_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N9_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N9_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N9_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N9_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N9_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N9_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "check": "N11_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N11_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N11_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N11_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N11_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N11_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N11_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N11_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N13_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N13_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N13_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N13_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N13_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N13_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N13_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N13_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N15_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N15_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N15_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N15_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N15_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N15_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N15_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N15_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "check": "N17_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N17_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N17_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N17_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N17_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N17_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N17_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N17_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N19_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N19_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N19_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N19_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N19_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N19_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N19_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N19_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N21_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N21_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N21_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 8,
+      "referee": 8
+    },
+    {
+      "check": "N21_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N21_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N21_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N21_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N21_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 3,
+      "referee": 3
+    },
+    {
+      "check": "N23_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N23_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N23_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 8,
+      "referee": 8
+    },
+    {
+      "check": "N23_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 8,
+      "referee": 8
+    },
+    {
+      "check": "N23_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N23_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N23_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N23_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N25_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N25_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N25_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 8,
+      "referee": 8
+    },
+    {
+      "check": "N25_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 8,
+      "referee": 8
+    },
+    {
+      "check": "N25_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N25_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N25_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N25_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N27_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N27_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N27_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 10,
+      "referee": 10
+    },
+    {
+      "check": "N27_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 8,
+      "referee": 8
+    },
+    {
+      "check": "N27_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N27_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N27_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N27_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 4,
+      "referee": 4
+    },
+    {
+      "check": "N29_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N29_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "N29_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 10,
+      "referee": 10
+    },
+    {
+      "check": "N29_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 10,
+      "referee": 10
+    },
+    {
+      "check": "N29_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N29_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N29_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N29_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N31_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N31_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N31_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 10,
+      "referee": 10
+    },
+    {
+      "check": "N31_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 10,
+      "referee": 10
+    },
+    {
+      "check": "N31_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N31_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N31_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N31_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N33_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N33_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N33_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 12,
+      "referee": 12
+    },
+    {
+      "check": "N33_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 10,
+      "referee": 10
+    },
+    {
+      "check": "N33_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N33_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N33_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N33_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 5,
+      "referee": 5
+    },
+    {
+      "check": "N35_all_1mod4",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N35_isospectral_obs",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": false,
+      "referee": false
+    },
+    {
+      "check": "N35_dim_H1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 12,
+      "referee": 12
+    },
+    {
+      "check": "N35_dim_H2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 12,
+      "referee": 12
+    },
+    {
+      "check": "N35_dim_H1_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N35_dim_H2_even",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N35_dim_H1_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "N35_dim_H2_odd",
+      "kind": "exact",
+      "matched": true,
+      "module": "W1",
+      "producer": 6,
+      "referee": 6
+    },
+    {
+      "check": "module_passed",
+      "kind": "exact",
+      "matched": true,
+      "module": "W2",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "psl2_f5_order",
+      "kind": "exact",
+      "matched": true,
+      "module": "W2",
+      "producer": 60,
+      "referee": 60
+    },
+    {
+      "check": "class_L_size",
+      "kind": "exact",
+      "matched": true,
+      "module": "W2",
+      "producer": 12,
+      "referee": 12
+    },
+    {
+      "check": "G3_order",
+      "kind": "exact",
+      "matched": true,
+      "module": "W2",
+      "producer": 216,
+      "referee": 216
+    },
+    {
+      "check": "G3_char_defect_mismatches",
+      "kind": "exact",
+      "matched": true,
+      "module": "W2",
+      "producer": 0,
+      "referee": 0
+    },
+    {
+      "check": "rho_hom_ok",
+      "kind": "exact",
+      "matched": true,
+      "module": "W2",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "intertwine_max_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "3.817008963e-45",
+      "referee_abs": "1.65079353e-49"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "proj_max_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "8.698214415e-47",
+      "referee_abs": "3.273454871e-51"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "spec_max_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "1.75162308e-45",
+      "referee_abs": "5.34552942e-50"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "wp_rational_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "8.758115402e-47",
+      "referee_abs": "3.340955888e-51"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "R5_sl2z_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "1.532670195e-46",
+      "referee_abs": "2.67276471e-51"
+    },
+    {
+      "bound": "1.0e-25",
+      "check": "freeze_O27_vs_Q6_max_diff",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "1.149261019e-26",
+      "referee_abs": "7.458082647e-47"
+    },
+    {
+      "bound": "1.0e-24",
+      "check": "q6_exact_formula_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "1.033975766e-25",
+      "referee_abs": "6.130680781e-46"
+    },
+    {
+      "check": "R5_wp_omega_plus",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.25",
+      "referee": "0.25",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "R5_wp_tau_i",
+      "diff": "2.173913043e-17",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.3043478260869565",
+      "referee": "0.30434782608695652173913043478260869565",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "R5_siegel_omega_plus",
+      "diff": "4.031558398e-19",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.003423299616735491",
+      "referee": "0.0034232996167354905968441602265948026389",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "fb_siegel_omega_plus",
+      "diff": "9.922345981e-20",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.003411620617184237",
+      "referee": "0.0034116206171842369007765401897880774699",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "R5_siegel_tau_i",
+      "diff": "1.893288633e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.01428482187475456",
+      "referee": "0.014284821874754561893288633081737780384",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "q6_weil_N3_moment_m0",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "6.0",
+      "referee": "6.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N3_moment_m1",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N3_moment_m2",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "36.0",
+      "referee": "36.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N3_moment_m3",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N3_moment_m4",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "324.0",
+      "referee": "324.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N3_moment_m5",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N3_moment_m6",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "2916.0",
+      "referee": "2916.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N5_moment_m0",
+      "diff": "1.479114197e-30",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "-1.479114197e-30",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N5_moment_m1",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N5_moment_m2",
+      "diff": "1.893266173e-29",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "-1.893266173e-29",
+      "referee": "1.176016472440566084301836045546652e-49",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N5_moment_m3",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N5_moment_m4",
+      "diff": "2.372893603e-27",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "-2.372893603e-27",
+      "referee": "6.735367069432333028274151897221734e-48",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N5_moment_m5",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N5_moment_m6",
+      "diff": "5.85650336e-26",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "-5.85650336e-26",
+      "referee": "1.464247418776908462781631498164268e-46",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N7_moment_m0",
+      "diff": "1.72563323e-31",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "1.725633230171e-31",
+      "referee": "2.27185000357836629921945599707876e-50",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N7_moment_m1",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N7_moment_m2",
+      "diff": "1.321342016e-29",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "1.3213420162452e-29",
+      "referee": "-5.259996887898978130247714297517587e-49",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N7_moment_m3",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N7_moment_m4",
+      "diff": "7.207115091e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "-494.91817505523",
+      "referee": "-494.9181750552307207115090969226249",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N7_moment_m5",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N7_moment_m6",
+      "diff": "4.804743394e-12",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "-3299.4545003682",
+      "referee": "-3299.454500368204804743393979484166",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N9_moment_m0",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "6.0",
+      "referee": "6.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N9_moment_m1",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N9_moment_m2",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "36.0",
+      "referee": "36.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N9_moment_m3",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N9_moment_m4",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "1152.0",
+      "referee": "1152.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "check": "q6_weil_N9_moment_m5",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "0.0",
+      "referee": "0.0",
+      "tol": "1.0e-24"
+    },
+    {
+      "check": "q6_weil_N9_moment_m6",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W2",
+      "producer": "24084.0",
+      "referee": "24084.0",
+      "tol": "1.0e-10"
+    },
+    {
+      "bound": "1.0e-25",
+      "check": "o27_minus_q6_N3_max_0_4",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "2.1722977e-27",
+      "referee_abs": "1.300032755e-47"
+    },
+    {
+      "bound": "1.0e-25",
+      "check": "o27_minus_q6_N5_max_0_4",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "1.149261e-26",
+      "referee_abs": "3.392647143e-47"
+    },
+    {
+      "bound": "1.0e-25",
+      "check": "o27_minus_q6_N7_max_0_4",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "7.0101534e-28",
+      "referee_abs": "7.458082647e-47"
+    },
+    {
+      "bound": "1.0e-25",
+      "check": "o27_minus_q6_N15_max_0_4",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W2",
+      "producer_abs": "7.1118752e-27",
+      "referee_abs": "3.831675488e-47"
+    },
+    {
+      "check": "module_passed",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L7_boundary_peak_ok",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "Lp15_boundary_peak_ok",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "equiv_max_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "5.332008166e-46",
+      "referee_abs": "1.774710846e-50"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "omega_plus_lock_max_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "9.479536047e-92",
+      "referee_abs": "1.281741303e-100"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L3_odd_zero_norm",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "2.533514203e-47",
+      "referee_abs": "6.625097936e-52"
+    },
+    {
+      "check": "L7_V_omega_plus",
+      "diff": "4.994802204e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.05670879599437482",
+      "referee": "0.0567087959943748150051977962275285426",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L7_V_tau_i",
+      "diff": "3.70403275e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.05493370453946502",
+      "referee": "0.0549337045394650237040327503077652342",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "Lp15_V_omega_plus",
+      "diff": "4.016545406e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.07291284219267733",
+      "referee": "0.0729128421926773340165454056568590849",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "Lp15_V_tau_i",
+      "diff": "2.820409456e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.07076156207814066",
+      "referee": "0.0707615620781406571795905443081045116",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L3_even_locked_q2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L3_even_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "3.059745186e-92",
+      "referee_abs": "3.28580302e-102"
+    },
+    {
+      "check": "L3_odd_identically_zero",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L7_even_locked_q2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L7_even_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "9.479536047e-92",
+      "referee_abs": "1.945024632e-101"
+    },
+    {
+      "check": "L7_odd_locked_q1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L7_odd_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "5.145685475e-92",
+      "referee_abs": "2.192767459e-101"
+    },
+    {
+      "check": "L11_even_locked_q2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L11_even_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "4.548596408e-92",
+      "referee_abs": "1.343534489e-101"
+    },
+    {
+      "check": "L11_odd_locked_q1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L11_odd_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "2.852023674e-92",
+      "referee_abs": "1.130654207e-101"
+    },
+    {
+      "check": "L15_even_locked_q2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L15_even_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "1.606900239e-92",
+      "referee_abs": "4.64687632e-101"
+    },
+    {
+      "check": "L15_odd_locked_q1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L15_odd_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "3.984612258e-92",
+      "referee_abs": "4.505362685e-101"
+    },
+    {
+      "check": "L19_even_locked_q2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L19_even_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "4.315869272e-92",
+      "referee_abs": "2.268703503e-101"
+    },
+    {
+      "check": "L19_odd_locked_q1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "L19_odd_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "5.242618229e-92",
+      "referee_abs": "2.461819819e-101"
+    },
+    {
+      "check": "Lp15_even_locked_q2",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 2,
+      "referee": 2
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "Lp15_even_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "6.729878961e-92",
+      "referee_abs": "9.793252642e-101"
+    },
+    {
+      "check": "Lp15_odd_locked_q1",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": 1,
+      "referee": 1
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "Lp15_odd_omega_leak",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W3",
+      "producer_abs": "1.041775495e-92",
+      "referee_abs": "1.281741303e-100"
+    },
+    {
+      "check": "L11_V_omega_plus",
+      "diff": "3.053197931e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.07627898013946053",
+      "referee": "0.0762789801394605269468020687905299297",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L11_V_tau_i",
+      "diff": "2.234028086e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.07724671972211688",
+      "referee": "0.0772467197221168777659719143071803269",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L11_x0_y_star",
+      "diff": "3.24226757e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "1.510994738720264",
+      "referee": "1.51099473872058822675698640321990864",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L11_x0_V_star",
+      "diff": "3.058749005e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.07857041305195849",
+      "referee": "0.0785704130519584930587490051366067057",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L11_x0_V_yy",
+      "diff": "1.742572141e-12",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "-0.0248515222756",
+      "referee": "-0.024851522275643305570371787884",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L11_x0_V_xx",
+      "diff": "3.275791571e-8",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "note": "Producer 3-pt FD h=1e-4 vs Referee 5-pt Richardson O(h^6): exact relative O(h^2) truncation (2*pi*1e-4)^2/12 = 3.29e-8",
+      "producer": "-0.000857240797363",
+      "referee": "-0.00085724082544442270543863412548",
+      "tol": "1.0e-6"
+    },
+    {
+      "check": "L11_x0_Vxx_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L11_x0_Vyy_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L11_xhalf_y_star",
+      "diff": "2.347778019e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "1.520841089129001",
+      "referee": "1.52084108912923577780186389141741963",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L11_xhalf_V_star",
+      "diff": "3.520773132e-19",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.07852821425290108",
+      "referee": "0.0785282142529010803520773132209027403",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L11_xhalf_V_yy",
+      "diff": "2.660636979e-12",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "-0.0267538689856",
+      "referee": "-0.0267538689856711823331667899374",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L11_xhalf_V_xx",
+      "diff": "3.302747255e-8",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "note": "Producer 3-pt FD h=1e-4 vs Referee 5-pt Richardson O(h^6): exact relative O(h^2) truncation (2*pi*1e-4)^2/12 = 3.29e-8",
+      "producer": "0.000810112121616",
+      "referee": "0.00081011214837195673915659153338",
+      "tol": "1.0e-6"
+    },
+    {
+      "check": "L11_xhalf_Vxx_pos",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L11_xhalf_Vyy_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L15_V_omega_plus",
+      "diff": "2.624243695e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.08933743257477853",
+      "referee": "0.089337432574778527375756305356962306",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L15_V_tau_i",
+      "diff": "3.776386099e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.09090150800683379",
+      "referee": "0.0909015080068337862236139006168329353",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L15_x0_y_star",
+      "diff": "2.813346546e-14",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "2.267789661735708",
+      "referee": "2.2677896617356798665345360821009683",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_x0_V_star",
+      "diff": "2.61102458e-21",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.1043626075917207",
+      "referee": "0.104362607591720699997388975420248903",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L15_x0_V_yy",
+      "diff": "8.845249128e-13",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "-0.0287046151569",
+      "referee": "-0.0287046151568746100527806896747",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_x0_V_xx",
+      "diff": "3.290134955e-8",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "note": "Producer 3-pt FD h=1e-4 vs Referee 5-pt Richardson O(h^6): exact relative O(h^2) truncation (2*pi*1e-4)^2/12 = 3.29e-8",
+      "producer": "-1.0641533298e-5",
+      "referee": "-0.0000106415336481208182842503722748",
+      "tol": "1.0e-6"
+    },
+    {
+      "check": "L15_x0_Vxx_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L15_x0_Vyy_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L15_xhalf_y_star",
+      "diff": "2.944809569e-14",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "2.267907376376526",
+      "referee": "2.26790737637649655190431345416064528",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_xhalf_V_star",
+      "diff": "3.177906462e-17",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.1043620686842985",
+      "referee": "0.104362068684298468220935377124878555",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L15_xhalf_V_yy",
+      "diff": "1.869002249e-13",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "-0.028725071027",
+      "referee": "-0.0287250710270053687222361340273",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_xhalf_V_xx",
+      "diff": "3.289595489e-8",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "note": "Producer 3-pt FD h=1e-4 vs Referee 5-pt Richardson O(h^6): exact relative O(h^2) truncation (2*pi*1e-4)^2/12 = 3.29e-8",
+      "producer": "1.06336811153e-5",
+      "referee": "0.0000106336814651051057927406178215",
+      "tol": "1.0e-6"
+    },
+    {
+      "check": "L15_xhalf_Vxx_pos",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L15_xhalf_Vyy_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L19_V_omega_plus",
+      "diff": "2.573279577e-17",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.1005568649843064",
+      "referee": "0.100556864984306425732795772496614061",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L19_V_tau_i",
+      "diff": "2.472696039e-17",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.1023534718980445",
+      "referee": "0.102353471898044475273039606883515785",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L19_x0_y_star",
+      "diff": "5.159301336e-14",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "2.910076101173568",
+      "referee": "2.9100761011735164069866372161036291",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L19_x0_V_star",
+      "diff": "3.090753154e-17",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.1317649960047372",
+      "referee": "0.131764996004737169092468455637379469",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L19_x0_V_yy",
+      "diff": "1.736121857e-12",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "-0.0242439715837",
+      "referee": "-0.0242439715837420904889704499933",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L19_x0_V_xx",
+      "diff": "3.290034261e-8",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "note": "Producer 3-pt FD h=1e-4 vs Referee 5-pt Richardson O(h^6): exact relative O(h^2) truncation (2*pi*1e-4)^2/12 = 3.29e-8",
+      "producer": "-2.38292274655e-7",
+      "referee": "-0.000000238292282494897735851091636695",
+      "tol": "1.0e-6"
+    },
+    {
+      "check": "L19_x0_Vxx_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L19_x0_Vyy_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L19_xhalf_y_star",
+      "diff": "5.141395419e-14",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "2.910079229006145",
+      "referee": "2.91007922900609358604581179424355073",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L19_xhalf_V_star",
+      "diff": "7.339828227e-18",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "0.1317649839328277",
+      "referee": "0.131764983932827707339828227026043772",
+      "tol": "1.0e-15"
+    },
+    {
+      "check": "L19_xhalf_V_yy",
+      "diff": "1.805716376e-12",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "producer": "-0.0242444223379",
+      "referee": "-0.0242444223378562214495464500364",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L19_xhalf_V_xx",
+      "diff": "3.289802714e-8",
+      "kind": "rel_num",
+      "matched": true,
+      "module": "W3",
+      "note": "Producer 3-pt FD h=1e-4 vs Referee 5-pt Richardson O(h^6): exact relative O(h^2) truncation (2*pi*1e-4)^2/12 = 3.29e-8",
+      "producer": "2.38287592724e-7",
+      "referee": "0.000000238287600563191951447588385854",
+      "tol": "1.0e-6"
+    },
+    {
+      "check": "L19_xhalf_Vxx_pos",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "L19_xhalf_Vyy_neg",
+      "kind": "exact",
+      "matched": true,
+      "module": "W3",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "module_passed",
+      "kind": "exact",
+      "matched": true,
+      "module": "W4",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "qseries_KMAX_over_15",
+      "kind": "exact",
+      "matched": true,
+      "module": "W4",
+      "producer": 60,
+      "referee": 60
+    },
+    {
+      "check": "qseries_AD_plus_BC_zero",
+      "kind": "exact",
+      "matched": true,
+      "module": "W4",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "qseries_B_A20_minus_D_A21_zero",
+      "kind": "exact",
+      "matched": true,
+      "module": "W4",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "qseries_A_A20_plus_C_A21_zero",
+      "kind": "exact",
+      "matched": true,
+      "module": "W4",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "swap_coset_P_flip3_ok",
+      "kind": "exact",
+      "matched": true,
+      "module": "W4",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "check": "rank_duality_ok",
+      "kind": "exact",
+      "matched": true,
+      "module": "W4",
+      "producer": true,
+      "referee": true
+    },
+    {
+      "bound": "1.0e-28",
+      "check": "J_max_abs",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "7.545359161e-93",
+      "referee_abs": "2.533258262e-101"
+    },
+    {
+      "bound": "1.0e-28",
+      "check": "sl2z_V_max_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "1.388279892e-45",
+      "referee_abs": "3.562224871e-50"
+    },
+    {
+      "bound": "1.0e-28",
+      "check": "haar_10trial_max_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "1.271383907e-45",
+      "referee_abs": "1.520396793e-49"
+    },
+    {
+      "check": "L15_tau0_sv_even_r2",
+      "diff": "3.457015903e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.631207320485",
+      "referee": "0.6312073204853457015902840704103256",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_tau0_sv_even_r3",
+      "diff": "3.975049863e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.568471808423",
+      "referee": "0.5684718084233975049863392480141772",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_tau0_sv_odd_r2",
+      "diff": "3.571405616e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.920319714148",
+      "referee": "0.9203197141476428594384224632056879",
+      "tol": "1.0e-11"
+    },
+    {
+      "bound": "1.0e-22",
+      "check": "L15_tau0_sv_odd_r3_zero",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "0.0",
+      "referee_abs": "1.175517316e-51"
+    },
+    {
+      "check": "L15_tau0_absV_00",
+      "diff": "3.601532788e-47",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "3.602101663e-47",
+      "referee": "5.68874627345343349755243145194e-51",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_01",
+      "diff": "1.98808024e-11",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.1464254181",
+      "referee": "0.146425418080119197599838075703",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_02",
+      "diff": "3.181337404e-11",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.9892217127",
+      "referee": "0.989221712731813374038270363914",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_10",
+      "diff": "2.366567452e-45",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "2.366617709e-45",
+      "referee": "5.02574482627419640885413673414e-50",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_11",
+      "diff": "3.181337404e-11",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.9892217127",
+      "referee": "0.989221712731813374038270363914",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_12",
+      "diff": "1.98808024e-11",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.1464254181",
+      "referee": "0.146425418080119197599838075703",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_20",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "1.0",
+      "referee": "1.0",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_21",
+      "diff": "1.842287263e-45",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "1.842338442e-45",
+      "referee": "5.11787770402395450765599649141e-50",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_tau0_absV_22",
+      "diff": "1.315253985e-46",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "1.315273764e-46",
+      "referee": "1.97791421585580670183584717965e-51",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "L15_taustar_sv_even_r2",
+      "diff": "4.341418182e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.392507888658",
+      "referee": "0.3925078886584341418181999956857584",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_taustar_sv_even_r3",
+      "diff": "8.107125849e-15",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.387393475097",
+      "referee": "0.3873934750970081071258485677606093",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "L15_taustar_sv_odd_r2",
+      "diff": "3.938873478e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.987584458247",
+      "referee": "0.9875844582473938873477822302627086",
+      "tol": "1.0e-11"
+    },
+    {
+      "bound": "1.0e-22",
+      "check": "L15_taustar_sv_odd_r3_zero",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "9.108919052e-24",
+      "referee_abs": "9.975167977e-54"
+    },
+    {
+      "check": "L15_taustar_absV_2x2_offdiag",
+      "diff": "4.214718496e-14",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.0320963459443",
+      "referee": "0.0320963459443421471849637828228",
+      "tol": "1.0e-11"
+    },
+    {
+      "bound": "1.0e-28",
+      "check": "L15_taustar_J",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "2.329293619e-94",
+      "referee_abs": "0.0"
+    },
+    {
+      "check": "Lp15_tau0_sv_even_r2",
+      "diff": "4.086096981e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.608502064927",
+      "referee": "0.6085020649274086096980792706657998",
+      "tol": "1.0e-11"
+    },
+    {
+      "bound": "1.0e-22",
+      "check": "Lp15_tau0_sv_even_r3_zero",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "6.950682771e-24",
+      "referee_abs": "3.349510222e-51"
+    },
+    {
+      "check": "Lp15_tau0_sv_odd_r2",
+      "diff": "2.602254429e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.751666381321",
+      "referee": "0.7516663813207397745570817155780099",
+      "tol": "1.0e-11"
+    },
+    {
+      "check": "Lp15_tau0_sv_odd_r3",
+      "diff": "2.227616789e-13",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.597102007131",
+      "referee": "0.5971020071312227616788731792610831",
+      "tol": "1.0e-11"
+    },
+    {
+      "bound": "1.0e-30",
+      "check": "Lp15_swap_vec_err",
+      "kind": "both_below",
+      "matched": true,
+      "module": "W4",
+      "producer_abs": "8.758115402e-47",
+      "referee_abs": "6.952580577e-51"
+    },
+    {
+      "check": "Lp15_tau0_absV_00",
+      "diff": "1.86322361e-47",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "1.863638692e-47",
+      "referee": "4.15081575097138393500288913252e-51",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_01",
+      "diff": "4.772402625e-12",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.06554471053",
+      "referee": "0.0655447105347724026245931347903",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_02",
+      "diff": "2.224708943e-11",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.9978496334",
+      "referee": "0.997849633422247089428784447468",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_10",
+      "diff": "6.257273806e-46",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "6.257569637e-46",
+      "referee": "2.95830890098219516313871790742e-50",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_11",
+      "diff": "2.224708943e-11",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.9978496334",
+      "referee": "0.997849633422247089428784447468",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_12",
+      "diff": "4.772402625e-12",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "0.06554471053",
+      "referee": "0.0655447105347724026245931347903",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_20",
+      "diff": "0.0",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "1.0",
+      "referee": "1.0",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_21",
+      "diff": "8.131450483e-46",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "8.131748423e-46",
+      "referee": "2.97940019525881769122002255512e-50",
+      "tol": "1.0e-9"
+    },
+    {
+      "check": "Lp15_tau0_absV_22",
+      "diff": "3.377677486e-47",
+      "kind": "abs_num",
+      "matched": true,
+      "module": "W4",
+      "producer": "3.377898964e-47",
+      "referee": "2.21478320764928017736461618239e-51",
+      "tol": "1.0e-9"
+    }
+  ],
+  "compare_script_ast_floats": 0,
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "json_float_literal_count": 0,
+  "manifests": [
+    {
+      "all_ok": true,
+      "entries": [
+        {
+          "actual_prefix16": "8f04ea23e2b0a7e5",
+          "expected_prefix16": "8f04ea23e2b0a7e5",
+          "file": "a2_weil_chiral_lattice_bridge_decisive.py",
+          "match": true
+        },
+        {
+          "actual_prefix16": "2696317dc554f1b6",
+          "expected_prefix16": "2696317dc554f1b6",
+          "file": "a2_weil_chiral_lattice_bridge_control.py",
+          "match": true
+        }
+      ],
+      "manifest": "a2_weil_chiral_lattice_bridge/SCRIPT_SHA256.txt"
+    },
+    {
+      "all_ok": true,
+      "entries": [
+        {
+          "actual_prefix16": "e1624cf0ea4a1049",
+          "expected_prefix16": "e1624cf0ea4a1049",
+          "file": "a2_weil_chiral_lattice_bridge_out.json",
+          "match": true
+        },
+        {
+          "actual_prefix16": "d3a8ef4748420938",
+          "expected_prefix16": "d3a8ef4748420938",
+          "file": "a2_weil_chiral_lattice_bridge_stdout.txt",
+          "match": true
+        }
+      ],
+      "manifest": "a2_weil_chiral_lattice_bridge/OUTPUT_SHA256.txt"
+    },
+    {
+      "all_ok": true,
+      "entries": [
+        {
+          "actual_prefix16": "720de274d74b9099",
+          "expected_prefix16": "720de274d74b9099",
+          "file": "referee_a2_weil_chiral_lattice_bridge.py",
+          "match": true
+        }
+      ],
+      "manifest": "a2_weil_chiral_lattice_bridge_referee/SCRIPT_SHA256.txt"
+    },
+    {
+      "all_ok": true,
+      "entries": [
+        {
+          "actual_prefix16": "4547948835979f46",
+          "expected_prefix16": "4547948835979f46",
+          "file": "referee_a2_weil_chiral_lattice_bridge_out.json",
+          "match": true
+        },
+        {
+          "actual_prefix16": "cf1a8609f3edee5d",
+          "expected_prefix16": "cf1a8609f3edee5d",
+          "file": "referee_a2_weil_chiral_lattice_bridge_stdout.txt",
+          "match": true
+        }
+      ],
+      "manifest": "a2_weil_chiral_lattice_bridge_referee/OUTPUT_SHA256.txt"
+    }
+  ],
+  "matched_checks": 322,
+  "seat_code": "fam3-v1-high-03",
+  "total_checks": 322,
+  "verdict": "PASS",
+  "w3_vxx_fd_truncation_diagnostic": {
+    "L11": {
+      "expected_3pt_h1e_4_truncation": "3.289868134e-8",
+      "producer_Vxx_3pt": "-0.000857240797363",
+      "referee_Vxx_5pt_rich": "-0.00085724082544442270543863412548",
+      "relative_diff": "3.275791571e-8"
+    },
+    "L15": {
+      "expected_3pt_h1e_4_truncation": "3.289868134e-8",
+      "producer_Vxx_3pt": "-1.0641533298e-5",
+      "referee_Vxx_5pt_rich": "-0.0000106415336481208182842503722748",
+      "relative_diff": "3.290134955e-8"
+    },
+    "L19": {
+      "expected_3pt_h1e_4_truncation": "3.289868134e-8",
+      "producer_Vxx_3pt": "-2.38292274655e-7",
+      "referee_Vxx_5pt_rich": "-0.000000238292282494897735851091636695",
+      "relative_diff": "3.290034261e-8"
+    }
+  }
+}
