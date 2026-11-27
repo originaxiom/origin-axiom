@@ -25,28 +25,33 @@ The card carries:
   from the card, and a script is not a definition (raised by sm2 on practice card P1, 2026-11-26);
 - your seat code (from your page; never a model or product name);
 - the decisive script with its hash, run as one command, using only the allowed packages (the standard library, mpmath,
-  sympy, numpy, scipy, and python-flint and sage with GAP at the pinned versions);
+  sympy, numpy, scipy and python-flint at their pinned versions, and sage and GAP, which are not pinned and make a card
+  heavy);
 - the decisive output lines;
-- a failing control: a command that must fail if the result is wrong;
+- a failing control: a command, not the decisive one, that fails on the sealed commit, exiting 1 with no traceback: your
+  check run on an input made wrong on purpose;
 - every identification it makes ("X here is Y there"), and every import from outside the record, named;
-- the cards it builds on, if any.
+- the cards it builds on, if any, by their queue ids (Q<nnnn>) under "premises on main"; the card then waits for them.
 
 ## The door's rules (each is checked; nothing else is asked)
 
 | | the rule | what checks it |
 |---|---|---|
 | D1 | the card is in the form, with its scope and its identifications declared | the intake's form check |
-| D2 | the card, its expectation and its failing control are committed before the decisive output; do not rewrite a branch a card is on | the intake's sighting log; a rewritten branch returns the card |
-| D3 | the failing control fails | the intake reruns it |
+| D2 | the card is its own expectation: it is committed on your branch with its failing control, and the runner sights it before the runner's own rerun, whose output is the one that counts; do not rewrite a branch a card is on [Review 88: this read "committed before the decisive output", which a card that carries its output's hash cannot be] | the intake's sighting log (`scripts/queue/custody.py`); a rewritten branch returns the card |
+| D3 | the failing control fails: on the sealed commit it exits 1 with no traceback | the intake reruns it |
 | D4 | the firewall: no Standard Model quantity into CLAIMS.md; no comparison with data, or with a seat's sealed bundle, without the author's explicit approval | the firewall gates and the intake |
 | D5 | no product, vendor or model names and no sandbox paths in what you file | the attribution gate |
-| D6 | a card built on a card that is not yet VERIFIED names it, and waits for it | the queue |
-| D7 | a NEGATIVE card is provisional until banked (the queue says so); its arc has a section "What the wall teaches" | the queue; `negative_second_computation` at landing |
-| D8 | you never bank your own card | the queue |
+| D6 | a card built on a card that is not yet VERIFIED names it, and waits for it | the record check's `waits_on` (T6); the runner's hold on it is owed (T7) |
+| D7 | a NEGATIVE card is provisional until banked (the queue says so); its arc has a section "What the wall teaches" | the queue (owed: its record does not yet carry the card's kind, Review 88); `negative_second_computation` at landing, which asks for one second computation |
+| D8 | you never bank your own card | the queue's own-seat rule (`queue_schema.py`); the assignment of banking seats (T9, owed) |
 
-**The author's rules, binding although no check exists yet:**
+**The author's rules, binding although no full check exists yet:**
 - No question goes to the author from a seat. A question for him goes to main, marked so.
 - The author's words are private. A ruling he gives you is entered in plain words and dated, never quoted, anywhere.
+- No sealed look, and no comparison with data, without his explicit approval, given for that look. The intake's firewall
+  flag (`scripts/queue/record_check.py`) raises the words of one to the author; it never returns a card. [Added
+  2026-11-27, Review 88: the third of the author's rules was missing here.]
 
 ## What happens to your card
 
@@ -55,8 +60,9 @@ The card carries:
 2. **Peer:** offered by rotation to a seat of another lane. Its note is graded "reran" or "re-derived". If no peer takes it in
    time, the card goes on marked "no peer check".
 3. **Banking**, only if the card decides something (it moves a register row, a law-map row or a scoreboard code): two banking
-   seats recompute cold and blind. Two ACCEPTs: VERIFIED.
-4. **Audit**, on a sample: AUDITED, with a badge.
+   seats recompute cold and blind. Two ACCEPTs: VERIFIED. [2026-11-27, Review 88: the record check reads what a card decides from
+   its `touches` (register rows, identification rows, scoreboard codes, the 19 by name); law-map rows are owed in its code.]
+4. **Audit**, on a sample: AUDITED, with a badge (the auditor's stage; not yet a status of the queue).
 
 ## How you are measured
 
@@ -72,7 +78,10 @@ quantifier first; type before you identify; read a source on the bench before be
 
 > You are a producer in this repository. Work on anything, by any method, on your own branch. When a result should bear on the
 > record, file a claim card in the intake's form: the claim with its scope, your seat code, the decisive script and its
-> output lines, a control that must fail, and what it rests on. Commit the card before you run the decisive script. The
-> intake reruns it; peers and banking seats check it. The rules you must keep are the eight in the table of
-> `docs/roles/PRODUCER.md` and the author's two below it. Everything else there is advice. Your page is
+> output lines, a control that must fail, and what it rests on. Commit the card on your branch and do not edit it: the
+> runner's first sighting fixes it, and a change is a refile. The intake reruns it; peers and banking seats check it. The
+> rules you must keep are the eight in the table of `docs/roles/PRODUCER.md` and the author's three below it. Everything else there is advice. Your page is
 > `docs/seats/<name>.md`; run `python3 scripts/seats/listen.py --seat <name>` in the background to hear main.
+
+*[CHANGED 2026-11-27, Review 88: the brief read "Commit the card before you run the decisive script", which a card that carries its
+output's hash cannot do, and "the author's two"; there are three.]*

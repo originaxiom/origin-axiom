@@ -20458,3 +20458,15 @@ other seats' work on a card's arcs before its verdict is sealed. The builder's l
 seat's third practice verdict were registered.
 
 0 of 19.
+
+## 2026-11-27 — Review 88: the framework's own code read cold (S306p)
+
+**What happened.** The regular review of the record came due. The arcs of its window are the ones the framework's trial will
+give to two blind checking seats, so reading them now would have spoiled the trial; the review read instead the code and the
+rules the framework is built from. Three readers who had written none of it were given copies with eight faults planted on
+purpose, and found all eight. They also found real faults that the builder and main had both missed, the most serious being
+ways a card's script could run something other than what was checked, and a way a card could claim another seat's
+identity. Main checked each one on the real code. The rule pages were corrected the same day; the code faults go back to the
+builder, and the framework's runner will not start until they are fixed.
+
+0 of 19.

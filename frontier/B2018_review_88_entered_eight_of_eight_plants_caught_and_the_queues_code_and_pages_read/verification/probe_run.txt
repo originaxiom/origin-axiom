@@ -1,0 +1,17 @@
+B8 the control's imports are not guarded     HOLDS  REPRODUCED
+B4 a slow control masks a failed rerun       HOLDS  HEAVY ['the decisive lines are 1 with hash 6bd6c84e6011b094; the card says 1 with 89a007a57042117e']
+B5 a symlinked script runs outside the commit HOLDS  REPRODUCED
+B6 export-subst: the run is not the blob     HOLDS  checkout prints 'DECISIVE: v = 1', rerun REPRODUCED
+B7 the static guard admits _socket           HOLDS  REPRODUCED
+B7 the static guard admits exec              HOLDS  REPRODUCED
+B15 HEAVY before the command and control checks HOLDS  HEAVY ['the decisive script imports sage']
+B10 effect names a code it does not touch    HOLDS  form [], deciding False
+B11 'the quark Yukawas' is not deciding      HOLDS  False
+B3 the firewall misses 'the measured values' HOLDS  []
+B3 the firewall misses 'compared to data'    HOLDS  []
+B3 the firewall misses '1.2 +/- 0.1'         HOLDS  []
+A15 seat code not tied to the branch         HOLDS  read in discover.discover: seat_code = the card's own field
+A6 main peers its own card as 'main'         HOLDS  []
+A7 REPRODUCED -> AT_BANKING is a move        HOLDS  ('OFFERED', 'AT_BANKING', 'WITHDRAWN')
+A11 deciding = 0 is accepted                 HOLDS  []
+B12 a deleted card is not reported           HOLDS  []

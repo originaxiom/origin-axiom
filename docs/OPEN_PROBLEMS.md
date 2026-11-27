@@ -1102,3 +1102,13 @@ Touched at Review 87 (its anchor `36f9cc5c2`). **The window (`f4a0ab61f` to `36f
 - a blind re-listen compared with the record (B2012): a pairing law of the modular group on every orbit.
 - **Review 87 (B2013):** seven of eight plants caught; eight of ten arcs read mended; the review opened late (R87-1).
 - **Owed from this window:** B2009's exceptions given their eigenvalues (R87-2), why 5 or 7 breaks the halving (R87-3), and the window read by the other model family (R86-4).
+
+## ⟳ VIEW REFRESH — 2026-11-27 (Review 88)
+
+Touched at Review 88 (its anchor `64cc951b3`). **The window (`36f9cc5c2` to `64cc951b3`) holds the framework's build and the trial's arcs:**
+- the listening line's last arcs, B2014 to B2017 (the seats' claims for every rung, the six-move rate law, the null control, the census), with Review 87's entry B2013; all five are among main's seven trial cards and are left to the trial's two blind banking seats (R88-2);
+- the framework's thin path T1 to T6 and T1b landed (`scripts/queue/`), T7 held for T7b, the role pages (`docs/roles/`), the backlog escalated behind it, and the second banking seat trained on three practice cards;
+- **Review 88 (B2018):** three cold readers of the window's process work caught eight of eight plants and found real faults in the queue's code (sent to the builder; the runner waits on them, R88-1) and on the role pages (mended).
+- **Owed from this window:** the builder's patch with T7b (R88-1); main's seven trial cards filed before the runner's first round (R88-3); the seats' codes by branch (R88-4).
+
+Nothing is compared with data. 0 of 19.

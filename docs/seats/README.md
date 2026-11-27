@@ -40,7 +40,9 @@ below lists them.
 2. **You hear.** Your listener sees that the page changed and shows you the messages you have not read.
 3. **You act,** on your own branch, in your own way.
 4. **You push.** Your status file says where you are. Your work is in your branch.
-5. **Main hears,** reads what you pushed, recomputes what decides, lands it or sends it back, and writes to you.
+5. **Main hears,** reads what you pushed, recomputes what decides, lands it or sends it back, and writes to you. [2026-11-27,
+   Review 88: for a claim card the framework's intake, peer and banking seats now do the recomputing (`docs/roles/`); main
+   still hears and writes to you.]
 
 ## 4. The listener
 
@@ -67,7 +69,8 @@ Start it once, when the owner asks you to fetch. After that he asks you nothing.
 
 One file at the root of your branch's relays folder, named for you: relays/STATUS_SM.md, relays/STATUS_CHAT1.md,
 relays/STATUS_AGY-002.md, relays/STATUS_AGY-EXP.md, relays/STATUS_AGY.md, relays/STATUS_CLD-ADVISOR.md, relays/STATUS_PHYSICAL.md. Rewrite it at
-every push. Its first lines, exactly these six:
+every push. Its first lines, exactly these six [2026-11-27, Review 88: under the framework a status file is advice
+(`docs/roles/THE_RULES_SORTED.md`); it is kept because main and the peers read it]:
 
 ```
 seat: chat1
@@ -86,6 +89,9 @@ next push: when C2's outputs are committed
 Below those lines write what you like. A seat that already keeps a status page keeps it and names its path there.
 
 ## 6. The card: one page before a piece of work
+
+*[RETIRED 2026-11-27 (Review 88; P-885): work cards are retired; production is free, and the claim card at the door is the
+only card (`docs/roles/THE_RULES_SORTED.md`, Retired). The section stands as a record.]*
 
 Before you start a piece of work, commit one page on your branch, relays/cards/NAME_Cn_a-few-words.md, with six
 things:
@@ -110,7 +116,8 @@ things:
   sealed first: its rule and what you expect are committed before the run.
 - **Say what was not done.** A delivery names what it leaves out.
 - **Write one note** in your relays folder saying which card it closes and where each thing is.
-- **Main recomputes what decides** by its own route, and lands the result with a grade that says how far it was
+- **Main recomputes what decides** [2026-11-27, Review 88: for a claim card, two banking seats do; main's own cards pass the
+  same door] by its own route, and lands the result with a grade that says how far it was
   checked. Where main cannot reproduce it, the note comes back with the reason.
 
 ## 8. Verifying another seat's work
@@ -130,6 +137,8 @@ things:
    card of main's under the owner's hold. If a check can be made only by such a comparison, the result
    is: cannot check, with the comparison named. *[Reworded 2026-11-12 (Review 80, the web seat's note): this read "a
    sealed card that main has approved", beside § 12's "No session accepts, approves or rules". The rule is unchanged.]*
+   *[2026-11-27, Review 88: in the framework's words, no sealed look and no comparison with data without the author's explicit
+   approval, given for that look (door rule D4, the author's A3). The same rule.]*
 2. **No verdict on your own build.**
 3. **Nothing changes on main before main has recomputed it.** You write to your own branch only.
 4. **No question of fact is put to the owner.** A question for him goes to main.
@@ -180,9 +189,9 @@ these words and no others, in a delivery, a verdict or a page:
   words "verdict" and "accepted" in a seat's file, they stay until main changes what it reads.
 - **[ADDED 2026-11-26 (P-885); raised by banking seat sm2]** The framework's banking words ACCEPT, RETURN and REFUSE (the
   builder's T9; `docs/roles/BANKING.md`) name results, not rulings: ACCEPT records that the seat's own recomputation agrees
-  with the card's decisive lines, REFUSE that it does not, RETURN that the card could not be decided as filed. Each
+  with the card's decisive lines, REFUSE that it does not, RETURN that the card might hold but not as filed, or could not be decided as filed. Each
   verdict file gives the labels above for its evidence ("recomputed independently", "expectations committed first").
-  VERIFIED is two such results agreeing. The words stay until the author changes them.
+  VERIFIED is both banking seats' ACCEPT. The words stay until the author changes them.
 - **No session is credited in a statement of the mathematics.**
 
 ## 13. Reading for a review
@@ -242,7 +251,8 @@ The firewall of § 9 holds throughout.
   (`docs/CLAIM_CARD.md`) under `relays/claims/` on the seat's branch. Everything else is registered by name in
   bulk and is not read line by line.
 - **Main's intake script sorts the cards** (`scripts/checks/seat_intake.py`): Tier A changes the scoreboard, Tier B
-  supports a code, Tier C is registered only.
+  supports a code, Tier C is registered only. [2026-11-27, Review 88: the tiers and main's sandbox run below stand only until
+  the framework's trial runs; the intake runner (`scripts/queue/`) then takes their place.]
 - **Main may run a seat's sealed, dependency-free scripts in a sandbox.** That is reproduction, not verification.
   Main's own computation of the decisive step is what changes the record.
 

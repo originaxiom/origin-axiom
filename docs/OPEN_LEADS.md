@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Currency (2026-11-27, at Review 88, through B2018):** the listening line is stopped behind the framework (P-885). Review 88 (B2018) read the framework's process work, not the window's arcs, which are the trial's; the leads it ranks are R88-1 (the builder's patch of its code findings, with T7b, before the runner lands), R88-3 (main's seven trial cards filed first) and R88-4 (the seats' codes by branch). The mathematical leads stand as the entries below them say.
+
 > **Currency (2026-11-26, through B2017):** the four guards are run: the seats read (B2011, B2014, B2015), a blind re-listen (B2012), the null control (B2016) and the census (B2017). The halving is the whole's, on the cusp's leaf at the prime 3; the four-move pairing is the group's. Open on the line: why a factor 5 or 7 breaks the halving (R87-3); the census at higher levels and mod 49's large orbits; the seats' Hensel steps line by line; what could pick an orientation of the two walks.
 
 > **Currency (2026-11-26, through B2016):** the null control is run (B2016): the halving holds on fewer than one in ten of the small group's coset spaces, the whole's orbit among them, so it is the whole's; the four-move pairing (B2012) is the group's. Open: the census over every orbit and prime, why the halving's coset spaces are only some quotients of the whole's orbit, R87-3, R87-6, R87-7.

@@ -1,0 +1,21 @@
+{
+ "id": "B2018",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B2013"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's window 36f9cc5c2 to 64cc951b3",
+  "object": "the window's process work (the queue's code T1 to T6 and T1b as landed, its tests, the card's template, the role pages, the seats' protocol page, the day's gate change) read by three cold readers on a reading copy with eight sealed plants; every finding checked by main on the live tree; the pages mended, the code sent to the builder",
+  "reach": "single",
+  "hypotheses": "readers of main's own model family that wrote none of it; the plants sealed by sha256 before reading; the window's five arcs B2013 to B2017 not read, being among the trial's cards with sealed natural plants (R88-2); the other family's reading owed"
+ },
+ "claim_one_line": "REVIEW 88 ENTERED (PROVED, a process arc): opened at the 28th landing (R87-1 met); the window's five arcs are the trial's and are left to its two blind banking seats; three cold readers of the window's process work caught all eight plants and found real faults: in the queue's code, a symlinked or attribute-rewritten script runs other text than custody hashed, the control's imports go unguarded, a slow control or a heavy import skips the checks, a card's seat code is not tied to its branch, main's alias moves main's own card, a card can skip the peer offer, an effect need not name a code it touches; on the pages, the failing control, custody, the premise rule, the firewall and the checks named for D6 to D8 differed from the code; main reproduced each code finding with probes on the live tree and sent them to the builder as a patch the runner waits on (R88-1); the pages mended; the class E52, no new class; anchor 64cc951b3",
+ "weave_or_thread": "neither (a review of the record's own window)"
+}

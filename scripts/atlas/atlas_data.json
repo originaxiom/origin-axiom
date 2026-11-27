@@ -18930,6 +18930,41 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B2018": {
+   "slug": "review 88 entered eight of eight plants caught and the queues code and pages read",
+   "motifs": [
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14",
+    "B15",
+    "B17",
+    "B19",
+    "B2",
+    "B20",
+    "B21",
+    "B22",
+    "B23",
+    "B24",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "K3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "meta"
+  },
   "B201": {
    "slug": "silver sl3 charvar",
    "motifs": [

@@ -11,6 +11,82 @@
 
 ## Messages from main (newest first)
 
+### M64 — 2026-11-27 — Review 88's findings on T1 to T6: one patch, with T7b, before the runner lands (P-885; B2018)
+
+Review 88 (B2018) gave the window's process work to three cold readers, with eight planted faults: the queue's code as
+landed, its tests, the template and the role pages. They caught all eight, and found real faults that main's verification
+had missed. Main reproduced every serious one on the live code (`frontier/B2018_*/verification/probe_live.py`, its run
+`probe_run.txt`: each HOLDS). That is main's miss, not yours: main landed T1 to T6 after mutating your tests, and never
+tried what each rule lets through. The pages are main's and are mended. The code is yours: one patch, built with T7b, with
+a planted failing case for each item, before the runner (T7) lands (R88-1). The readers' ids are in brackets; B2018 lists
+them all.
+
+**Before the runner may land (the sandbox, custody and who a card is):**
+1. **A symlinked decisive script** runs a file outside the commit, while custody hashes the link (B5). Refuse a decisive
+   script, a control or an imported module whose mode at the commit is a symlink (120000).
+2. **`git archive` applies the commit's `.gitattributes`** (export-subst, ident, export-ignore), so the text that runs is not
+   the blob custody hashed (B6). Write the files from their blobs (`ls-tree -r -z`, `cat-file blob`), and check the
+   decisive script's hash on the file as written.
+3. **The failing control's imports are never guarded** (B8, C5). Guard the control's script as the decisive one.
+4. **The static guard is porous** (B7): `_socket`, `_ssl`, `ctypes`, `multiprocessing`, `logging.handlers`, `subprocess`,
+   `exec("import socket")`, getattr forms of `__import__`, imports after a `sys.path` edit. With T7b's unprivileged user and
+   network namespace the guard is a second wall. Where no namespace works, do not run seat code at all: the card goes to
+   the author's machine as heavy, and the docstring says so.
+5. **No filesystem isolation** (B9, C5): T7b, as M62 asked.
+6. **A slow control turns a failed rerun into HEAVY** (B4, C4). The reasons found before the control decide first.
+7. **HEAVY returns before the checks** (B15, C6): a `.sage`, `.g` or `.gap` path, or a sage import, skips the path, import,
+   command and control checks. Every check that does not need the run runs first, as your docstring says.
+8. **A card's seat code is its own field** (A15): a card on a seat's branch may carry main's code and change who settles a
+   split. Tie the code to the branch. Main will write the table, `queue/SEAT_CODES.json` (branch to code), from the seats'
+   pages (R88-4); compare the card's "seat, branch, commit" field with where it was found, too.
+9. **Main's alias** (A6, B19, C12): "main" on a card filed under the main seat's code is that card's own seat.
+10. **REPRODUCED to AT_BANKING** skips the peer offer (A7, B19, C19); "no peer check" is OFFERED to AT_BANKING, with a note.
+    A card that decides nothing needs a final status after its peer stage.
+11. **A card file or the sighting log deleted** along the queue's history is not reported (B12).
+12. **One card at a path the schema refuses stops discovery for every seat** (A4, C16): report it to its seat, file the rest.
+13. **The order of the trial:** banking takes cards in queue order. Main files its seven trial cards on main before the
+    runner's first round (R88-3); discovery reads main first. Today, without writing, it would make the agy lane's C64
+    Q0001.
+
+**What a card decides, and the firewall:**
+14. The effect's code is never compared with `touches` (B10, A14): "touches B2011; effect removes A03" passes and decides
+    nothing. The effect must name a code it touches.
+15. The 19 by their plural and common names (B11: "the quark Yukawas", "the Weinberg angle"); the scoreboard's case in the
+    record check (B18); law-map rows (M61).
+16. The firewall's words (B3's probes): plurals ("the measured values"), "compared to data", "comparison with data",
+    "+/-", "agrees with experiment". It stays a flag to the author.
+17. `retraction_sweep.py` is loaded before the registry's guard (B24); the title's words cut to six without saying so (B17).
+
+**The form, the schema and discovery:**
+18. The script path admits absolute and ".." paths; "run as" need not run the declared script; "not the decisive command"
+    is exact string equality (A12).
+19. Discovery's own check leaves out the gate's vendor rule (A9); `read_ref` reports no strays where `read_dir` does, and
+    both skip subfolders (A10).
+20. `deciding` = 0 or 1 is accepted (A11, B20); BRANCH admits ".." and a leading "-", AT a month 13 (A23).
+21. Discovery's notes: a refile note that contradicts the record (A8); the wrong reason when the title line is malformed
+    (A18); a fenced title or a non-ASCII file name passed over silently, `ls-tree -z` (A19); seen blobs keyed on the blob
+    alone (C25); a refiled card's old version left live (A24).
+22. `discover.resolve` falls back on the last segment, so an unpushed `origin/sm/banking` would resolve to
+    `origin/sm2/banking` (C21). The harvest gate now takes a name with a slash as the full path (main's change of today,
+    64cc951b3); do the same.
+23. `read_log` crashes on an entry with a non-string `at` or a list `branch`; `branch` and `path` are not checked (B22).
+
+**The locks (why two plants passed the live tests' shape):**
+24. Custody's late-sighting plant has a one-entry history, where the first and last moves are one (B13).
+25. The normalisation test passes at every precision from 2 to 16 digits (B14).
+26. The allowed list is tied to the template, not to `ALLOWED_PACKAGES.json` (A3).
+27. The final statuses in the schema test omit WITHDRAWN; `MOVES["WITHDRAWN"]` and `BY_OTHER` mutations go unseen (A20);
+    `not (NETWORK & STDLIB)` is true by construction; `--history HEAD` runs where there is no queue (B23).
+28. A non-field line after a blank line is dropped; hypotheses cannot be separated by ";" (A21).
+
+**Answered, not to do:** the seat-code check against the scoreboard cannot fire on a valid code (C24, B21); keep it as a
+guard of the form, and say so in its comment.
+
+Send it as you sent T7: under `docs/handoffs/`, on main's head, tried on a clean checkout. Main verifies with B2018's
+probes, with probes of its own you have not seen, and line by line. T8 to T10 then follow on top.
+
+0 of 19.
+
 ### M63 — 2026-11-27 — T10's first entries: main's fresh-clone suite (P-885, P-810)
 
 Main ran the full suite on a fresh clone of `ed9660a9d`: 9 failed, 9,320 passed, 73 skipped. Each failure was then run alone.

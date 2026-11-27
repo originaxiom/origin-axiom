@@ -16,14 +16,14 @@ this page cold; the charters under `docs/roles/` are built from it.
 
 | id | the rule | where in WORKING_RULES | its check |
 |---|---|---|---|
-| D1 | A result that is to bear on the record arrives as a claim card in the intake's form. The claim states its scope (frame, object, reach, hypotheses), and the card declares every identification it makes | the claim cards rule (2026-11-24) 1; one statement of the foundations 3; the identification rule 2 | the intake's form check (`scripts/queue/card_form.py`; its scope and identifications fields come with T1b, M56); `verdict_schema` and `identification_register` (completeness only) at landing |
-| D2 | Custody: the card, its expectation and its failing control are committed on the seat's own branch and first seen by the intake before the decisive output. A rewritten branch returns the card | numbered 3 (hash first); sender-branch dual-homing | the intake's sighting log |
-| D3 | The card names a failing control as a command, and that control must fail | numbered 8 (vacuity); § Enforcement (a two-outcome criterion) | the intake reruns it |
-| D4 | The firewall. No Standard Model quantity enters CLAIMS.md. No comparison with data, a seat's sealed bundle included, without the author's explicit approval. Phenomenological vocabulary is bound by Gate 5-Q | numbered 5, 6, 6a | `firewall_oneway`, `claims`, `framing`; the intake's firewall check |
-| D5 | Attribution and privacy: no product, vendor or model names and no sandbox paths in tracked files; seats are named by their codes | numbered 11 | `attribution`; the claim-names gate when R82-2 lands |
-| D6 | Nothing is built on a card that is not VERIFIED. A card whose premise is an unverified card names it, and waits for it | a count says where it came from 3 | `seat_positive_verified`; the queue's premise check (owed in the thin path) |
-| D7 | A NEGATIVE card is provisional until two banking seats bank it (the queue's status says so), and its arc carries "What the wall teaches" | a negative is banked only after a second computation 1, 5 | the queue's status; `negative_second_computation` at landing |
-| D8 | No seat verifies or banks its own card | the seats' pages 5 | the queue's assignment by seat code |
+| D1 | A result that is to bear on the record arrives as a claim card in the intake's form. The claim states its scope (frame, object, reach, hypotheses), and the card declares every identification it makes | the claim cards rule (2026-11-24) 1; one statement of the foundations 3; the identification rule 2 | the intake's form check (`scripts/queue/card_form.py`; its scope, identifications and definitions fields since T1b, M56 and M60); `verdict_schema` and `identification_register` (completeness only) at landing |
+| D2 | Custody: the card, its expectation and its failing control are committed on the seat's own branch and first seen by the intake before the intake's own rerun of the decisive script, whose output is the one that counts; the card is its own expectation, and a seat's private runs before it are answered by the control, the peer and the banking seats, not by custody. A rewritten branch returns the card [Review 88: this read "before the decisive output"] | numbered 3 (hash first); sender-branch dual-homing | the intake's sighting log (`scripts/queue/custody.py`, T4) |
+| D3 | The card names a failing control as a command, and that control must fail on the sealed commit, exiting 1 with no traceback | numbered 8 (vacuity); § Enforcement (a two-outcome criterion) | the intake reruns it |
+| D4 | The firewall. No Standard Model quantity enters CLAIMS.md. No comparison with data, a seat's sealed bundle included, without the author's explicit approval. Phenomenological vocabulary is bound by Gate 5-Q | numbered 5, 6, 6a | `firewall_oneway`, `claims`, `framing`; the intake's firewall flag (`scripts/queue/record_check.py`, T6), a flag to the author, never a return |
+| D5 | Attribution and privacy: no product, vendor or model names and no sandbox paths in tracked files; on cards and in the queue a seat is named by its code, and its page's name (`docs/seats/<name>.md`) is an address | numbered 11 | `attribution`; the claim-names gate when R82-2 lands |
+| D6 | Nothing is built on a card that is not VERIFIED. A card whose premise is an unverified card names it, and waits for it | a count says where it came from 3 | `seat_positive_verified` at landing (it reads the harvest's "VERIFIED (re-run or re-derived on main)", older than the framework's word); the record check's `waits_on` (T6, landed), with the runner's hold owed (T7) |
+| D7 | A NEGATIVE card is provisional until two banking seats bank it (the queue's status says so), and its arc carries "What the wall teaches" | a negative is banked only after a second computation 1, 5 | the queue's status (owed: the queue's record does not yet carry the card's kind, Review 88); `negative_second_computation` at landing, which asks for one second computation only |
+| D8 | No seat verifies or banks its own card | the seats' pages 5 | the queue's own-seat rule (`scripts/queue/queue_schema.py`; owed, Review 88: main's alias on main's own card, and the tie of a card's code to its branch); the assignment of banking seats (T9, owed) |
 
 ## The author's rules (every role; no check yet, a check owed for each)
 
@@ -31,17 +31,17 @@ this page cold; the charters under `docs/roles/` are built from it.
 |---|---|---|---|
 | A1 | One channel: no seat puts a question to the author. A seat's question for him goes to main, marked so | one channel to the owner 4, 5 | a plant in the calibration set; a gate on status files for questions addressed to the author |
 | A2 | The author's words are private: a ruling he gives a seat is entered in plain words, dated, and never quoted, in no page, status file or commit message | one channel to the owner 6, as amended (P-796) | a gate for quotation of the author in tracked files (none exists) |
-| A3 | No sealed look, and no comparison with data, without his explicit approval, given for that look | D4 covers CLAIMS.md only; the rest is the author's ruling of 2026-11-25 | the intake's firewall check extended to cards (thin path) |
+| A3 | No sealed look, and no comparison with data, without his explicit approval, given for that look | the author's ruling of 2026-11-25; its comparison half is also door rule D4 | the intake's firewall flag on cards exists (T6; its words to be widened, Review 88); what it flags goes to the author |
 
 ## One role's rules
 
 | role | rules | where | check |
 |---|---|---|---|
-| banking seat | own code sharing nothing with the producer's; expectations committed before the run | numbered 2; the claim cards rule 3 | custody; plants |
+| banking seat | own code sharing nothing with the producer's; expectations committed before the run | numbered 2; the claim cards rule 3 | the banking verdict files' form and custody (T9, owed); plants |
 | banking seat | a citation alone supports nothing a verdict rests on: what decides is recomputed or named as a hypothesis | verify load-bearing mathematics 1, 2 | plants (a card resting on a wrong published lemma) |
 | banking seat | a failure to fit a family of forms is "not within these forms", never "not Y"; Y is computed from its own definition | a negative … second computation 2 | plants (the B1918 shape) |
 | banking seat | an identification needs its map, and the map must act faithfully | the identification rule | plants (the B1223 shape: direct, not semidirect) |
-| banking seat | a selection needs a criterion that can fail; the computation is rerun with each declaration changed | before a selection or a hand 2, 3; a count says where it came from 2 | `selection_family`; plants |
+| banking seat | a selection needs a criterion that can fail; the computation is rerun with each declaration changed | before a selection or a hand 2, 3; a count says where it came from 2 | plants (`selection_family` checks only that a selection's page names neither family; the rerun with each declaration changed has no gate) |
 | banking seat | controls are two-sided; the instrument is checked before its verdict; a statistic carries its resolution | verify the verifier (E52) | plants (the B8152 shape: a one-sided control) |
 | banking seat | labels with their scope and evidence (FORCED, ADMITTED, CHOSEN, FITTED; EXCLUDED is not NOT FOUND); a family is a claim | frame cards 4; a family is a claim | plants (an overreaching scope) |
 | supervisor (main) | zero file moves; bank completely (logs, law-map rows, terminology); registration over preservation; the certification envelope; the slow lane quiescent; gates before every landing; the harvest pin | numbered 9, 10; § Enforcement; § CE; the currency notes | `append_only`, `log_changelog_paired`, `law_map_provenance`, `harvest_debt`, `relay_debt`, `views_fresh`; the landing tool |
@@ -79,7 +79,8 @@ this page cold; the charters under `docs/roles/` are built from it.
 
 ## What this sort asks of the build
 
-- Each banking rule names the plant that tests it, so the plant ledger should hold at least one plant of each shape over the
+- Each banking rule names the plant that tests it [2026-11-27, Review 88: but K1, K3, K11 and K12, which the verdict files' form
+  and custody check (T9)], so the plant ledger should hold at least one plant of each shape over the
   rounds. The four plants of the trial are drawn from these shapes; which four is sealed.
 - A1 to A3 each need a check. Until one exists, each stays a rule only because the author ruled it, and the auditor's first
   sample should include it.

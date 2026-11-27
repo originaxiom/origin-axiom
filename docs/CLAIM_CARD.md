@@ -3,7 +3,9 @@
 Every result a seat wants to bear on main's picture arrives as one claim card: a short file at
 `relays/claims/CLAIM_<date>_<short_name>.md` on the seat's own branch. Everything else a seat pushes is registered by
 name in bulk and is not read line by line. Main's intake script (`scripts/checks/seat_intake.py`) finds the cards,
-sorts them, and flags what main already holds.
+sorts them, and flags what main already holds. **[CHANGED 2026-11-27 (Review 88, readers A and C):** under the framework the
+intake runner finds the cards (`scripts/queue/discover.py`), checks their form, custody and record, and reruns them
+(`scripts/queue/`); `seat_intake.py`'s tiers stand only until the trial runs, as § How main takes a card says.**]**
 
 Copy the block below. Keep each field to one or two lines. A field that does not apply says "none".
 
@@ -11,7 +13,8 @@ Copy the block below. Keep each field to one or two lines. A field that does not
 # CLAIM CARD — <the result in one line>
 
 - card id: new | refiles Q<nnnn>
-- seat code: <the seat's neutral code, fam<n>-v<n>-<effort>-<nn>; never a name>
+- seat code: <the seat's neutral code, fam<n>-v<n>[.<n>]-<effort>-<nn>, the effort low, medium, high, xhigh, max or
+  unset; never a name>
 - seat, branch, commit: <the seat code>, <the branch>, <the full 40-hex commit>
 - kind: theorem | computation | prediction | identification | negative
 - touches: <codes from docs/TOTAL_INPUTS_SCOREBOARD.md (A01 to A12, F1 to F4, S01 to S03, LAMBDA), identification rows
@@ -23,24 +26,27 @@ Copy the block below. Keep each field to one or two lines. A field that does not
   card alone; or none>
 - imports: <every structure or assumption from outside the record it rests on, each named: for example "the MSSM's
   two-loop running", "M-theory flux quantisation", "three right-handed neutrinos">
-- premises on main: <arcs and register rows it uses>
+- premises on main: <arcs and register rows it uses, and any queue card (Q<nnnn>) it builds on, which it then waits
+  for (door rule D6)>
 - decisive script: <path>, SHA-256 <first 16 hex>, depends on <only the standard library, mpmath, sympy, numpy, scipy,
   python-flint, sage, GAP>,
   run as <command>, output SHA-256 <first 16 hex>[, heavy]
 - decisive lines: <n> lines marked "DECISIVE:", SHA-256 <first 16 hex of those lines, as the rerun normalises them>
-- failing control: <a command, not the decisive one, that must exit with a failure if the result is wrong>
+- failing control: <a command, not the decisive one, that runs a script of the commit and fails on the sealed commit,
+  exiting 1 with no traceback: your check run on an input made wrong on purpose, which shows the check can fail>
 - second computation: <which seat, with code that shares nothing, its path, and whether it agrees>
 - already on main?: <the topic-sweep line you ran on main, and the closest arc>
-- what would make it fail: <one control that must fail if the result is wrong>
+- what would make it fail: <in words, the result of the decisive script that would refute the claim>
 ```
 
 **The four fields added on 2026-11-26** (the framework's draft 1, § 9, agreed by the author; register row P-885; the thin
 path's patch T2): the card's id, the seat's code, the decisive lines and the failing control. The intake runner checks the
 form with `scripts/queue/card_form.py` before anything else. Only `imports`, `premises on main` and `second computation`
-may say "none". **[CHANGED 2026-11-26 (T1b, main's M56 and M58):** `scope` and `identifications` added (door rule D1), and `definitions` (main's M60), which may say "none";
+may say "none" [superseded by the bracket that follows; Review 88]. **[CHANGED 2026-11-26 (T1b, main's M56 and M58):** `scope` and `identifications` added (door rule D1), and `definitions` (main's M60), which may say "none";
 `touches` and `identifications` may say "none", and `effect` too when `touches` does; a card may declare its decisive
 script heavy, which only adds work.**]** The allowed packages gain python-flint, sage and GAP (main's change of § 9; their pinned versions are
-the rerun's).
+the rerun's). [2026-11-27, Review 88: sage and GAP are not pinned (`scripts/queue/ALLOWED_PACKAGES.json` holds them as
+null); a card that needs them is heavy and is rerun on the author's machine.]
 
 ## How main takes a card
 

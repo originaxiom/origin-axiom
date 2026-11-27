@@ -1,5 +1,21 @@
 # Changelog
 
+## S306p REVIEW 88 ENTERED: EIGHT OF EIGHT PLANTS CAUGHT IN THE FRAMEWORK'S PROCESS WORK; THE QUEUE'S CODE AND PAGES READ (B2018; P-881, P-885; M64) (2026-11-27)
+
+- **Opened in time,** at the 28th landing (R87-1 met). The window's five arcs, B2013 to B2017, are among the trial's cards
+  and are left to its two blind banking seats (R88-2). Read instead: the queue's code T1 to T6 and T1b, its tests, the
+  template, the role pages, the protocol page and the day's gate change, by three cold readers with eight sealed plants
+  (sha256 440211cd...). **Eight of eight caught.**
+- **The code's real faults,** each reproduced by main on the live tree (`B2018/verification/probe_live.py`): a symlinked or
+  attribute-rewritten script runs other text than custody hashed; the control's imports unguarded; a slow control or a
+  heavy import skips the checks; a card's seat code not tied to its branch; main's alias; the peer offer skippable; an
+  effect need not name a code it touches; the firewall and the 19 miss common forms; a deleted card unreported. Sent to the
+  builder as one patch with T7b, before the runner lands (M64; R88-1).
+- **The pages mended:** the failing control, custody, the premise rule, the author's third rule, the checks named for D6 to
+  D8 and K3, the banking seat's reading, refusing against returning, the retired work card and tiers, the template's seat
+  code and unpinned sage and GAP. R87-5 met (six listening words glossed). An E52 instance entered; no new error class.
+- **The loop:** R87-3, R87-4, R87-6, R87-7 and R86-1 to R86-4 carried; R85-2 to R85-5 moved whole to P-881. Anchor 64cc951b3.
+
 ## S306p THE AGY CUSP SEAT'S FIRST CARD IN THE NEW FORM RECEIVED; T9, T10 AND SM2'S P3 REGISTERED; K1 IN WORDS (P-885) (2026-11-27)
 
 - **agy's C64** (harvest row 2038; M22): its form holds under `scripts/queue/card_form.py`; its stated hashes match the

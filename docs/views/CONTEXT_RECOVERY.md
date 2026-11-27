@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1714 |
-| … PROVED | 1207 |
+| arcs with a verdict file | 1715 |
+| … PROVED | 1208 |
 | … NEGATIVE | 388 |
 | … OPEN | 106 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B2018 | PROVED | “REVIEW 88 ENTERED (PROVED, a process arc): opened at the 28th landing (R87-1 met); the window's five arcs are the trial's and are left to its two blind banking seats; three cold readers of the window's process work caug…” |
 | B2017 | PROVED | “LISTENING 31, THE CENSUS (PROVED for its checks; data-free): over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's…” |
 | B2016 | PROVED | “LISTENING 30, THE NULL CONTROL (PROVED for its checks; data-free): the whole's small group with the same six moves, acting on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole…” |
 | B2015 | PROVED | “LISTENING 29, THE SIX-MOVE RATE LAW, THE FREEZE AND THE FULL SPECTRUM AT MOD 729 (PROVED for its checks; data-free): on the largest orbit over the common point the six-move sum's largest eigenvalue below 6 is exactly 2…” |
@@ -42,7 +43,6 @@
 | B2009 | PROVED | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and i…” |
 | B2008 | PROVED | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1),…” |
 | B2007 | PROVED | “LISTENING 22, THE LAYER'S LAW UP THE TOWER (PROVED for its checks; data-free): each step of the 3-adic layer over the cube group is elementary abelian (Z3^2 at mod 27, Z3^2 at mod 81, Z3^3 at mod 243, Z3^7 at mod 729; L…” |
-| B2006 | PROVED | “LISTENING 21, THE SMALL GROUP IS A 3-ADIC LAYER OVER THE CUBE GROUP (PROVED; data-free): reduction mod 9 maps omega's orbit mod 27, 81, 243 equivariantly onto the cube's 8 points with uniform fibres (9, 81, 729), so G_k…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- “S306p REVIEW 88 ENTERED: EIGHT OF EIGHT PLANTS CAUGHT IN THE FRAMEWORK'S PROCESS WORK; THE QUEUE'S CODE AND PAGES READ (B2018; P-881, P-885; M64) (2026-11-27)”
 - “S306p THE AGY CUSP SEAT'S FIRST CARD IN THE NEW FORM RECEIVED; T9, T10 AND SM2'S P3 REGISTERED; K1 IN WORDS (P-885) (2026-11-27)”
 - “S306p THE FULL SUITE ON A FRESH CLONE OF ed9660a9d: 9 FAILED, 7 OF THEM FOR T10's BASELINE (P-810, P-881; M63) (2026-11-27)”
 - “S306p THE SEATS READ AND ANSWERED; THE CARD'S DEFINITIONS FIELD (P-882, P-885) (2026-11-27)”
@@ -60,11 +61,10 @@
 - “S306p T7 READ AND HELD; T8 READ; THE AUTHOR'S SETTINGS RELAYED (P-885; M62) (2026-11-27)”
 - “S306p T1b AND T6 OF THE THIN PATH LANDED (P-885; M61) (2026-11-26)”
 - “S306p THE RECORD CHECK, "DECIDING", THE PREMISE CHECK AND THE FIREWALL'S FLAG (the framework's thin path, T6; P-885) (2026-11-26)”
-- “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
 
 ## The latest campaign line
 
-“LATEST (2026-11-26, S306p: LISTENING 31 (B2017, PROVED for its checks; a weave result; data-free)).** The last of the four guards named when the author asked how we know nothing escaped our ears: a census of every orbit of the moves on every leaf, at seven levels. Of 417 orbits, the halving holds on exactly three, the sisters on the cusp's leaf at mod 27; no other orbit even pairs. With the null control (B2016), the halving is the whole's own, at its leaf and its prime. The four guards (the seats read, a blind re-listen, the null control, the census) are now run. Nothing is compared with data. 0 of 19.”
+“LATEST (2026-11-27, S306p: REVIEW 88 ENTERED (B2018, PROVED, a process arc)).** The window's five arcs are the trial's and are left to its two blind banking seats; three cold readers read the framework's process work instead and caught eight of eight sealed plants. They found real faults in the queue's code, each reproduced by main on the live tree and sent to the builder as a patch the runner waits on (R88-1), and on the role pages, mended. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

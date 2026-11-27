@@ -1,0 +1,13 @@
+Review 88's plants (main, 2026-11-27), in the reading copy of the window's process work at 64cc951b3 (window 36f9cc5c2..64cc951b3).
+Folder A, the door: the queue's schema, the card's form, discovery.
+A1 scripts/queue/queue_schema.py: CARD_PATH widened from relays/claims/CLAIM_[A-Za-z0-9._-]+\.md to relays/claims/CLAIM_.+\.md, which admits a slash and "..", so a card path can leave relays/claims/.
+A2 scripts/queue/card_form.py ALLOWED and docs/CLAIM_CARD.md's template: "requests" added to the allowed packages (a network library; not in ALLOWED_PACKAGES.json; the comment above ALLOWED still names only python-flint, sage and GAP beside the card's list).
+A3 tests/test_card_form.py: the planted-rule loop's assertion changed from "assert bad and any(...)" to "assert not bad or any(...)", so a plant the check does not catch passes: a lock that cannot fail.
+Folder B, custody, the rerun, the record check.
+B1 scripts/queue/rerun.py normalise: "%.12g" changed to "%.8g" while the docstring still says 12 significant digits; a coarser comparison that accepts real differences.
+B2 scripts/queue/custody.py custody_problems: the sighting is compared with history[-1] (the card's latest move) instead of history[0] (its filing), so a card sighted after it was filed passes once a later move exists; the message still says "filed".
+B3 scripts/queue/record_check.py FIREWALL: "sealed look" removed from the pattern; the docstring still says the flag covers words of a sealed look (a test catches it).
+Folder C, the rules on the pages against the code (the code in C is clean).
+C1 docs/roles/BANKING.md, first lines: "A card is VERIFIED only when both ACCEPT it." changed to "A card is VERIFIED when one ACCEPTs it and the other does not REFUSE it."
+C2 docs/roles/THE_RULES_SORTED.md, D2: "first seen by the intake before the decisive output" changed to "first seen by the intake within a day of the decisive output"; custody has no such window.
+Clean, as the control: in C, the_gate_change_of_2026-11-27.diff (the harvest gate's full-path branches), docs/seats/README.md and queue/README.md; in A, docs/roles/PRODUCER.md and queue/README.md.

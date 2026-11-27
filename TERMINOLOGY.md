@@ -1115,3 +1115,23 @@ a result's one-line summary — no session is named, and a result carries the la
 check has a result and not a verdict. The pages under `docs/seats/` keep the sessions' working names, because a piece
 of work needs an address. What was written before this date stays as it was written.
 
+
+## Added at Review 88 (2026-11-27; R87-5) — the listening line's load-bearing words
+
+*Review 87's tool named six words that the listening arcs (B1983 onward) lean on and this page did not gloss. Each gloss
+points at its source; none adds content.*
+
+- **the cusp's leaf** (B1983): on the characters (x, y, z) of the fibre's two generators, mod N, the level set κ = −2 of
+  the commutator trace κ = tr[a, b] = x² + y² + z² − xyz − 2, which every move preserves. It holds the common point
+  (3, 3, 3). A **leaf** is any one level set of κ.
+- **the neutral sector, the charged pair** (B2001): C, the cyclic exchange (x, y, z) → (y, z, x), commutes with the
+  unfolding on an orbit, so the functions on the orbit split by C's eigenvalue: 1 is the neutral sector (q = 0); ω and
+  ω² are the two charged sectors (q = 1, 2). The two have the same spectrum and are named together the charged pair.
+- **the whole's prime** (B2001 to B2003): the prime 3, at which the cusp's leaf mod 3 is the common point alone (B1983),
+  and on whose tower (mod 27, 81, 243) the halving holds.
+- **the cube group** (B1984, B2006): S₄, the rotation group of the cube, as which the moves act at the common point at
+  every prime; mod 9 the cusp's leaf is the cube. The whole's group at mod 3^k maps onto it by reduction mod 9.
+- **the halving** (B2002, B2004): on the orbit of the common point at mod 27, 81 and 243, the identity
+  p_neutral(2x) = 2^d (x² − 9) x S(x), where S is the polynomial of one charged sector: the charged pair is a half-scale
+  copy of the neutral sector, with only the constant, the alternation and one null mode left out. Its mechanism: the
+  unfolding acts as 6σ on the neutral sector and −3σ on each charged one (B2004).

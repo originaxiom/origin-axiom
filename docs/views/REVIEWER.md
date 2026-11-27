@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1714** |
-| words of findings prose | **1,574,975** |
+| research arcs with findings | **1715** |
+| words of findings prose | **1,576,925** |
 | test lock files referenced | **946** |
-| arcs carrying an authored verdict | **1714** (100.0 %) |
+| arcs carrying an authored verdict | **1715** (100.0 %) |
 | recorded closures | **864** (692 classified, 172 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1207 |
+| PROVED | 1208 |
 | NEGATIVE | 388 |
 | OPEN | 106 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B2017`** (662 words, 0 locks)  
-“LISTENING 31, THE CENSUS (PROVED for its checks; data-free): over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's halving holds on exactly three: the three 72-point sisters on the cusp's leaf mod 27, (3,3,3) and (3,3,12) in the whole's form and (3,3,15), with no fixed point of omega's exchange, with nothing left out; no other orbit at any level run even pairs its charged modes; with B2016 the halving is the whole's, at its own leaf and its own prime”  
-`B2017_listening_31_the_census_the_halving_over_every_orbit_of_every_leaf/FINDINGS.md`
+**PROVED — `B2018`** (1950 words, 0 locks)  
+“REVIEW 88 ENTERED (PROVED, a process arc): opened at the 28th landing (R87-1 met); the window's five arcs are the trial's and are left to its two blind banking seats; three cold readers of the window's process work caught all eight plants and found real faults: in the queue's code, a symlinked or attribute-rewritten script runs other text than custody hashed, the control's imports go unguarded, a slow control or a heavy import skips the checks, a card's seat code is not tied to its branch, main's alias moves main's own card, a card can skip the peer offer, an effect need not name a code it touches; on the pages, the failing control, custody, the premise rule, the firewall and the checks named for D6 to D8 differed from the code; main reproduced each code finding with probes on the live tree and sent them to the builder as a patch the runner waits on (R88-1); the pages mended; the class E52, no new class; anchor 64cc951b3”  
+`B2018_review_88_entered_eight_of_eight_plants_caught_and_the_queues_code_and_pages_read/FINDINGS.md`
 
 **NEGATIVE — `B1981`** (945 words, 0 locks)  
 “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  

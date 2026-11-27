@@ -60,7 +60,7 @@ def main():
             "merge_base": mb[:8], "shares_main_root": root == main_root,
             # CHANGED 2026-11-27 (S306p): the gate may name a branch by its full path (sm2/banking beside sm/banking)
             "watched_by_the_gate": base in watched_branches or short in watched_branches,
-            "has_a_harvest_pin": base in ledger,
+            "has_a_harvest_pin": base in ledger or short in ledger,   # 2026-11-27 (Review 88, reader C): the full path too
         })
 
     # dependabot branches are GitHub Actions version bumps, not work; and `golden_gate` is a DIFFERENT

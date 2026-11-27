@@ -297,3 +297,11 @@ cited by arc/PR — the full record stays in the arcs (append-only).*
   and the corrected test passed at 6e-16. Before any symmetry test, take each input's transformation law from the
   record. The sweep is part of the computation, not paperwork after it.
 
+- **Instance of E52, a verifier verified only against its own tests (main's own, 2026-11-26; caught at Review 88, B2018):**
+  main read the builder's thin path T1 to T6 line by line and landed it after mutations of its own ("4 of 4", "3 of 3",
+  harvest rows 2022 to 2030). The mutations broke what each patch's tests already looked at. Three cold readers then
+  found what the rules let through: a decisive script committed as a symlink runs a file outside the commit; the archive
+  applies the commit's attributes, so the text run is not the blob hashed; the failing control's imports are unguarded; a
+  slow control or a heavy import skips the checks; a card's seat code is not tied to its branch; main's alias moves main's
+  own card. Main reproduced each on the live tree; none had run on a seat's card, since the runner had not landed. A gate
+  or a runner is verified by probing what it admits, with inputs made to pass it wrongly, as well as by mutating its tests.
