@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)
+
+- **A2-PEER-SM-PURE3** at `31f24c2c1`, read through the mask:
+  - it is a blind computation from another family of SM-R384, SM-R614 and SM-R635 on `sm/cards`;
+  - its form holds, and every stated hash matches;
+  - there is no symlink and no `.gitattributes`;
+  - the record check is clean and deciding;
+  - both scripts pass the guard, and it names no trial arc.
+- **Received as a claim card,** since the three cards are not yet offered to a peer. When they are, the same work may come
+  as a peer note in T8's form.
+
 ## S306p LAW_MAP ROW 294 DECIDED AT SOURCE; SIXTEEN REGISTER ROWS ESCALATED BEFORE THE GATE WOULD REFUSE THEM (P-589, P-885) (2026-11-27)
 
 - **Row 294 (B1656) is current.**

@@ -20621,3 +20621,10 @@ input it might have, so it stands as written. Sixteen owed items in the register
 7 December. Each now says where it stands and what comes next, most of them waiting behind the framework's trial.
 
 0 of 19.
+
+## 2026-11-27 — one seat checks another's (S306p)
+
+**What happened.** A seat of another model family recomputed three of the SM seat's newly filed results and filed
+its check as a card of its own. It passes every check the intake makes before running anything.
+
+0 of 19.
