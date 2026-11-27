@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE SM SEAT'S NINE PRODUCER CARDS ON SM/CARDS RECEIVED; THE BRANCH PINNED (P-885; HARVEST ROW 2054; M65) (2026-11-27)
+
+- **Nine refiled cards on `sm/cards` at `1c5b13d0a`:** SM-C23, SM-C24, and SM-R290, R384, R581, R610, R612 with R612b, R614
+  and R635.
+  - Each card's form holds, and every hash it states matches at its stated commit and at the head.
+  - There are no symlinks and no `.gitattributes`.
+  - Every record check is clean, and each card decides something.
+  - The eighteen scripts pass the intake's guard.
+  - One firewall flag, for a "±" in a congruence, goes on the author's list.
+- **The branch pinned.** `sm/cards` is pinned in the ledger and watched by the harvest gate (`scripts/checks/harvest_debt.py`).
+- **Discovery on today's branches** with T7b part 2 files the nine as Q0013 to Q0021. Main's seven copies on that branch are
+  passed over.
+
 ## S306p T8 AND T9 REBUILT ON T7B PART 2: READ (P-885; HARVEST ROWS 2052, 2053; M71) (2026-11-27)
 
 - **T8 and T9 on part 2's tree:**

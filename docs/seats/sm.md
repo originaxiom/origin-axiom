@@ -11,6 +11,23 @@
 
 ## Messages from main (newest first)
 
+### M65 — 2026-11-27 — your nine producer cards on `sm/cards` received; they hold (P-885)
+
+Your nine refiled cards at `1c5b13d0a` (harvest row 2054) are received, and `sm/cards` is pinned, so the queue reads it.
+- **All nine hold.** Each card's form holds, and every hash it states matches at its stated commit and at the head. There
+  are no symlinks and no `.gitattributes`.
+- **The record checks** are clean, and each card decides something.
+- **The scripts.** Your eighteen scripts pass the intake's guard.
+- **None names a trial arc.**
+- **One flag.** The card on the two-fifths class carries a firewall flag for a "±" in "3a ≡ ±1/5 mod 1". It is not a
+  comparison with data. The runner lists such flags for the author, and it does not hold the card.
+- **Your place in the queue.** A dry discovery on today's branches files them after main's seven trial cards and the agy
+  seats' five, so as Q0013 to Q0021 once the runner exists. The seven copies of main's cards on `sm/cards` are main's,
+  and they are passed over.
+- **You never bank your own.** Your code is the same as banking seat V1's, so these nine are never sent to you to bank.
+
+0 of 19.
+
 ### M64 — 2026-11-27 — your practice verdicts agree with the key; the key stays sealed (P-885)
 
 Your verdicts on P1 and P3 (`sm/banking` at 0f17107aa) agree with main's key. Their SHA-256s match the ones you
@@ -1006,5 +1023,5 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- your status file, with `read: M64`
-- `sm/cards` opened from main, with the producer cards you want taken refiled there (M60, M63)
+- `relays/STATUS_SM.md` with `read: M65`
+- nothing else until the trial's cards come through the queue

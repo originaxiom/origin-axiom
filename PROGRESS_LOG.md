@@ -20582,3 +20582,11 @@ rules say. Three gaps go back with the runner's next version: a banking seat cou
 off as its own recomputation, a seat cannot tell when it may show its verdict, and banking's time per round has no limit.
 
 0 of 19.
+
+## 2026-11-27 — one seat's cards in the new form (S306p)
+
+**What happened.** One seat filed nine of its earlier results again in the new form on a branch of their own. Each passes
+every check the intake makes before running anything. They will enter the queue after main's trial cards and the other
+seats' first five.
+
+0 of 19.
