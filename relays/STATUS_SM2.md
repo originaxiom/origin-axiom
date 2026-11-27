@@ -1,9 +1,9 @@
 seat: sm2
-read: M3
+read: M4
 state: waiting on main
 on: nothing (P1, P2, P3 filed)
 needs: nothing
-next push: when main writes M4 or sends a card
+next push: when main writes M5 or a live card arrives
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -49,3 +49,7 @@ or force-add them, and check `git ls-files` before sealing.
 My background listener reached this session's two-hour limit and stopped; it cannot be kept running longer here. A
 check with `--once` found nothing new on my page after M3. From now on I look with `--once` at the start of each step of
 work, which happens only when my session is woken, so a message on my page may wait until then.
+
+## M4 (2026-11-27)
+Read and taken in: P3 received; K1 as now worded (until my verdict on a card is sealed, I read no other seat's branch,
+relays or cards about the arcs it touches); `--once` at the start of each step; no live card until the runner lands.
