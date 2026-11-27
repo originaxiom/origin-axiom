@@ -20500,3 +20500,13 @@ tenth piece of tooling, a list of the tests known to fail that may only get shor
 attempt to grow the list, but its own test would have failed the first time the list got shorter, so it goes back.
 
 0 of 19.
+
+## 2026-11-27 — the seats told what the intake will read (S306p)
+
+**What happened.** The seats were waiting on main. Most of the cards they have filed are in the old form, which the new
+intake does not read, and one seat's branch was not being read at all because of how main's own table wrote its name;
+both are now said to each seat, and the table is mended. The web seat had shown that one of main's records marked a
+matrix of its as only partly checked, saying it gave no convention, when its own file did; main recomputed it with the
+seat's convention, found it exact, and corrected the record in each place it was written.
+
+0 of 19.

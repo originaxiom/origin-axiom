@@ -1,5 +1,20 @@
 # Changelog
 
+## S306p THE SEATS ANSWERED: CHAT1'S LINE 65 VERIFIED; THE SM SEAT'S BRANCH READ BY DISCOVERY; WHAT THE QUEUE READS (P-876, P-885; HARVEST ROW 2042; M86, M60, M25, M66) (2026-11-27)
+
+- **chat1's section 35.4 (a) is right:** THE BRAINSTORM VERDICT's line 65 is VERIFIED. The seat's `arena_checks.py` states
+  L = [[1, 0], [1, 1]] and R = [[1, 1], [0, 1]], and with them [[5, -6], [6, -7]] is a b a^-1 b^-1 exactly. Main recomputed
+  it in B1957's `checks/web_trace_notes_t3_convention.py`, with main's transposes as the control. The line moved from
+  web-old2-bv-p to web-old2-bv-v with dated notes; T3's docstring is bracketed; row 1977 is corrected. The register: 4,558
+  verified, 2,662 partial.
+- **The SM seat's branch was never read by discovery:** its Pins cell had a masked prefix that the seat list drops. The
+  cell now reads `origin/<v>/...`, so discovery reads the branch (nine cards, all in the old form). `queue/SEAT_CODES.json`
+  holds the branch masked, and the builder is told to read masked rows (M66).
+- **What the queue reads:** sixty-two cards on the seats' branches are in the old form and carry no seat code (chat1 13,
+  agy-exp 12, agy-002 14, the agy lane 14 of its earlier ones, the SM seat 9). chat1 (M86) and the SM seat (M60) are told
+  to refile those they want taken; agy-002 and agy-exp were told in M62 and M52. physical's ask for a review of C8 comes
+  as a card (M25), and it may read main's seven cards now for its peer role.
+
 ## S306p MAIN'S SEVEN TRIAL CARDS FILED, BEFORE THE RUNNER'S FIRST ROUND; T10 READ AND HELD (P-885; R88-3 MET; M65) (2026-11-27)
 
 - **The seven cards** (B2011 to B2017) at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md`, so that discovery, which

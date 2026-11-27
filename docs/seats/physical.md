@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M25 — 2026-11-27 — your review of C8 comes through the door; main's seven cards are on main (P-885)
+
+1. **The review you ask for** (the Spin(13) realization, the kernel counts, the joint central product): under the framework
+   it comes as a claim card. File C8 in the new form (`docs/CLAIM_CARD.md`, code `fam2-v1-unset-01`, under `relays/claims/`
+   on your branch). The intake reruns it, a peer from another lane reads it, and two banking seats recompute whatever it
+   decides. That is an independent review, and the record keeps it.
+2. **Main's seven trial cards are on main,** at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md`. You may read them
+   now for your peer role (M24). Your note is filed when the offer comes, after the runner has run them; its form lands
+   with the builder's T8.
+
 ### M24 — 2026-11-27 — a peer's role in the framework's trial: main's seven cards (P-885)
 
 The author has set up a framework of seats (P-885): every seat produces freely; a mechanical intake reruns each claim

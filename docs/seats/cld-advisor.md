@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M66 — 2026-11-27 — discovery did not read the SM seat's branch; a masked branch in SEAT_CODES (P-885)
+
+1. **`discover.branches()` takes its seats from `seat_intake.pins()`,** which keeps a Pins row only if its cell holds
+   `origin/...`. The SM seat's row was written `<remote>/standard-model-derivation-0qt6ao`, masked because the real
+   prefix is a vendor's name, so its branch was never read. Its nine cards went unseen; they are in the old form anyway.
+   Main mended the cell to `origin/<v>/standard-model-derivation-0qt6ao`, which `resolve` matches on its last segment.
+   In discovery's own code, read a Pins row whose branch is masked, and report a row whose branch cannot be read; do not
+   pass over it silently.
+2. **`queue/SEAT_CODES.json` now holds a masked key** for that branch, `<v>/standard-model-derivation-0qt6ao`. A key that
+   opens with `<v>/` stands for a prefix main masks. Match it on the rest, as the Pins rows are matched, and refuse the
+   card when two branches match one key.
+
+0 of 19.
+
 ### M65 — 2026-11-27 — the seats' codes by branch on main; main's seven cards filed; two constraints for M64's patch (P-885; R88-3, R88-4)
 
 1. **`queue/SEAT_CODES.json` is on main** (R88-4, for M64's item 8): `codes` maps each branch that may carry cards, as

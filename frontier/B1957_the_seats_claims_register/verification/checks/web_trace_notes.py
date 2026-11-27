@@ -4,6 +4,9 @@ exact facts in them main can hold on its own code.  Nothing of the seat's is run
  T2  LR = [[2, 1], [1, 1]] and RL = [[1, 1], [1, 2]] have trace 3, and their product trace 6 (the Markov traces 3, 3, 6)
  T3  the commutator a b a^-1 b^-1 of a = LR, b = RL is [[-7, 6], [-6, 5]]; the notes' [[5, -6], [6, -7]] is its inverse,
      b a b^-1 a^-1 (the notes state no convention); both have trace -2 (parabolic) and fix 1
+     [CORRECTED 2026-11-27 (harvest row 2042; the web seat's section 35.4 (a)): the convention is stated, in the
+     seat's arena_checks.py, line 11 (L = [[1, 0], [1, 1]], R = [[1, 1], [0, 1]], the transposes of this script's), and with
+     it the notes' matrix is a b a^-1 b^-1 exactly: web_trace_notes_t3_convention.py. "State no convention" was wrong.]
  T4  L^(t-2) R has #R - #L = 3 - t (the least balanced word of its trace layer)
     python3 -B web_trace_notes.py > web_trace_notes_run.txt"""
 import math

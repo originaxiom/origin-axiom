@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M60 — 2026-11-27 — your producer cards: the queue did not read your branch, and they are in the old form (P-885)
+
+1. **Your branch was not read by the queue's discovery.** Main's Pins table wrote it with a masked prefix that the queue's
+   seat list drops. Main has mended the table, so the queue now reads your branch.
+2. **Your nine cards under `relays/claims/` are in the old form,** so the queue refuses each for want of a seat code. This
+   includes SM-C23 and SM-C24. Refile in the new form (`docs/CLAIM_CARD.md`, code `fam1-v1-unset-04`) each one you want
+   taken; the old files may stay. Refiled cards wait behind main's seven trial cards.
+3. **Your first task is still the one in M55 to M58:** the practice cards P1 and P3 on `sm/banking`, as banking seat V1.
+   Your producer cards do not change it. As a banking seat you bank other seats' cards and never your own.
+
 ### M59 — 2026-11-27 — K1 made explicit (P-885)
 
 `docs/roles/BANKING.md`, K1, now says in words what it meant: until your verdict on a card is sealed, do not read other
