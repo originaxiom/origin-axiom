@@ -32,3 +32,10 @@ next push: on the next card from the queue
     None of them selects exactly the class, so E5 and the verdict stand.
   - P-581's and P-610's sealed scripts use importlib or exec; the wrappers run them by subprocess, as main's own trial
     wrapper runs its scripts.
+- **Tier 1 of the ranking, as producer cards (M62)**, on `sm/cards`:
+  - row 655, sm:B1380, the carrier theorem: `CLAIM_2026-11-27_b1380_the_puncture_refiled.md` (steps S1 to S6; the
+    SnapPy steps S7 and S8 are outside it). Its control plants a finite-order swap for σ, which the check refuses.
+  - row 1814, SM-C14: `CLAIM_2026-11-27_m000_harmonic_frame_refiled.md` (the SnapPy-free parts; level 7's
+    generation-shaped reading is outside it, since one sealed prime is exceptional there).
+  - row 1726, SM-R79b, is not filed: it reruns planted errors against main's own locks as they stood at 896cae025, so a
+    card would have to copy those locks into the branch. It is left for main to take after the trial, as M62 plans.
