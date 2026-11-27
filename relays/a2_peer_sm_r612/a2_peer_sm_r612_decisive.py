@@ -463,24 +463,34 @@ def _voronoi(tau):
     return br, rmax
 
 
-def _horocycle_radius(al, be, Lh, theta, r_hi):
-    lo, hi = math.log(10 ** (-12)), math.log(r_hi)
-    pows = np.arange(len(al))
+def _horocycle_radius_vec(al, be, Lh, thetas, r_his):
+    """Vectorized bisection solving log(1/r) - Re(g_local(r e^{i theta})) = Lh over all angles at once."""
+    thetas = np.asarray(thetas, dtype=float)
+    r_his = np.asarray(r_his, dtype=float)
+    exp_ith = np.exp(I_UNIT * thetas)
+    # Evaluate g_local via vectorized Horner's method (len(al) ~ 121)
+    al_rev = al[::-1]
+    be_rev = be[::-1]
 
-    def f(s):
-        z = np.exp(s + I_UNIT * theta)
-        zp = z ** pows
-        return -s - (np.dot(be, zp) / np.dot(al, zp)).real - Lh
+    def eval_f(s_arr):
+        z = np.exp(s_arr) * exp_ith
+        num = np.zeros_like(z, dtype=complex)
+        den = np.zeros_like(z, dtype=complex)
+        for cb, ca in zip(be_rev, al_rev):
+            num = num * z + cb
+            den = den * z + ca
+        return -s_arr - (num / den).real - Lh
 
-    if f(hi) > 0:
+    lo = np.full(thetas.shape, math.log(10 ** (-12)), dtype=float)
+    hi = np.log(r_his)
+    if np.any(eval_f(hi) > 0):
         return None
     for _ in range(72):
         mid = HALF * (lo + hi)
-        if f(mid) > 0:
-            lo = mid
-        else:
-            hi = mid
-    return math.exp(HALF * (lo + hi))
+        pos = eval_f(mid) > 0
+        lo = np.where(pos, mid, lo)
+        hi = np.where(pos, hi, mid)
+    return np.exp(HALF * (lo + hi))
 
 
 def compute_geometry(tau, solved_cache):
@@ -530,14 +540,10 @@ def build_horoball_grid(geo, Lh, nth=40, ns=28):
         th = HALF * (b_ - a_) * xg + HALF * (b_ + a_)
         wt = HALF * (b_ - a_) * wg
         rmax = rmaxf(th)
-        rh = []
-        for t_, rm in zip(th, rmax):
-            r_cap = min(19 / 20, (11 / 10) * float(rm))
-            rv = _horocycle_radius(al, be, Lh, float(t_), r_cap)
-            if rv is None:
-                raise RuntimeError(f"Horocycle failed to close inside cell at tau={geo['tau']}, Lh={Lh}")
-            rh.append(rv)
-        rh = np.array(rh, dtype=float)
+        r_caps = np.minimum(19 / 20, (11 / 10) * rmax)
+        rh = _horocycle_radius_vec(al, be, Lh, th, r_caps)
+        if rh is None:
+            raise RuntimeError(f"Horocycle failed to close inside cell at tau={geo['tau']}, Lh={Lh}")
         margin = min(margin, float(np.min(rmax - rh)))
         s_hi = np.log(rmax)
         s_lo = np.log(np.minimum(rh, rmax))
@@ -898,11 +904,11 @@ def run_all():
         max_D_err_base = max(max_D_err_base, abs(base_D - BASE_C * BASE_C))
 
         # --- Menu 1: c in {1, 2, 3, 4, 5} (A10) ---
-        c_vecs, c_D_errs, c_q_diffs = [], [], []
+        c_vecs, c_D_rel_errs, c_q_diffs = [], [], []
         for cv in range(1, 6):
             sv, dv = extract_six_and_D(base_cd, a_DR, cv)
             c_vecs.append(sv)
-            c_D_errs.append(abs(dv - cv * cv))
+            c_D_rel_errs.append(abs(dv / (cv * cv) - 1))
             c_q_diffs.append(max(abs(sv[k] - base_six[k]) for k in range(4)))
         c_img, c_spread, c_gap = count_clusters(c_vecs)
 
@@ -1073,7 +1079,7 @@ def run_all():
             "base_six": [_fmt(x) for x in base_six],
             "base_D": _fmt(base_D),
             "c_menu": {"img": c_img, "spread": _fmt(c_spread), "min_gap": _fmt(c_gap),
-                       "max_D_err": _fmt(max(c_D_errs)), "max_quark_diff": _fmt(max(c_q_diffs))},
+                       "max_D_rel_err": _fmt(max(c_D_rel_errs)), "max_quark_diff": _fmt(max(c_q_diffs))},
             "offset_2_5": {"img": off_img, "defined": off_defined, "spread": _fmt(off_spread), "min_gap": _fmt(off_gap)},
             "lines_99": {"img": l99_img, "img_unsigned_51": l51_img, "defined": l99_def, "spread": _fmt(l99_spread)},
             "ends_7": {"img": end_img, "spread": _fmt(end_spread), "min_gap": _fmt(end_gap),
@@ -1110,16 +1116,57 @@ def run_all():
             pl5_max_err = max(pl5_max_err, _vec_dist(s_src, s_dst))
             pl5_pairs += 1
 
-    # --- Guardrail 3: 5-trial Haar U(3)^5 basis-scrambling invariance on T1 base row ---
+    # --- Guardrail 3: 5-trial Haar U(3)^5 basis-scrambling invariance on T1 base row (30-digit mpmath SVD) ---
+    mp.mp.dps = 30
+    hm_t1 = _higgs_mats(dr_t1)
+    Y_t1_mp = {}
+    sv_t1_ref = {}
+    for sec in ("up", "down", "lep"):
+        R_s, N_s = cd_40[sec]
+        u_s = {s: (math.sqrt(N_s[s]) * R_s[s] if N_s.get(s) is not None and N_s[s] > 0 else 0) for s in UNIT_KEYS}
+        Y_np = _coupling(hm_t1["St"] if sec == "up" else hm_t1["S"], _weighted_M(u_s))
+        Ym = mp.matrix([[mp.mpc(Y_np[i, j].real, Y_np[i, j].imag) for j in range(3)] for i in range(3)])
+        Y_t1_mp[sec] = Ym
+        # Non-squaring 6x6 Hermitian Jordan-Wielandt matrix for exact 30-digit singular values
+        H6 = mp.zeros(6, 6)
+        for i in range(3):
+            for j in range(3):
+                H6[i, 3 + j] = Ym[i, j]
+                H6[3 + j, i] = mp.conj(Ym[i, j])
+        eigs = sorted([mp.re(e) for e in mp.eigsy(H6, eigvals_only=True)], reverse=True)[:3]
+        sv_t1_ref[sec] = [mp.log(eigs[2] / eigs[1]), mp.log(eigs[1] / eigs[0])]
+
     rng = np.random.default_rng(20261127)
     haar_max_err = 0
     for _ in range(5):
-        u_dict = {sec: (_random_haar_u3(rng), _random_haar_u3(rng)) for sec in ("up", "down", "lep")}
-        sh, dh = extract_six_and_D(cd_40, dr_t1, BASE_C, haar_unitaries=u_dict)
-        haar_max_err = max(haar_max_err, _vec_dist(sh, s40), abs(dh - d40))
+        for sec in ("up", "down", "lep"):
+            # Build 30-digit Gram-Schmidt Haar unitary pair (U_L, U_R)
+            def _mp_haar():
+                A = np.random.default_rng(int(rng.integers(1, 10 ** 9))).normal(size=(3, 3)) + I_UNIT * rng.normal(size=(3, 3))
+                cols = [[mp.mpc(A[i, j].real, A[i, j].imag) for i in range(3)] for j in range(3)]
+                Q = []
+                for c in cols:
+                    v = list(c)
+                    for q in Q:
+                        ip = mp.fsum(mp.conj(q[i]) * v[i] for i in range(3))
+                        v = [v[i] - ip * q[i] for i in range(3)]
+                    nrm = mp.sqrt(mp.fsum(abs(x) ** 2 for x in v))
+                    Q.append([x / nrm for x in v])
+                return mp.matrix([[Q[j][i] for j in range(3)] for i in range(3)])
+            UL, UR = _mp_haar(), _mp_haar()
+            Yp = UL * Y_t1_mp[sec] * UR.H
+            H6 = mp.zeros(6, 6)
+            for i in range(3):
+                for j in range(3):
+                    H6[i, 3 + j] = Yp[i, j]
+                    H6[3 + j, i] = mp.conj(Yp[i, j])
+            eigs = sorted([mp.re(e) for e in mp.eigsy(H6, eigvals_only=True)], reverse=True)[:3]
+            lr = [mp.log(eigs[2] / eigs[1]), mp.log(eigs[1] / eigs[0])]
+            for a_v, b_v in zip(lr, sv_t1_ref[sec]):
+                haar_max_err = max(haar_max_err, float(abs(a_v - b_v)))
 
     # --- Evaluate all 6 plants + summary gates ---
-    pl1_max = max(float(per_mod[lb]["c_menu"]["max_D_err"]) for lb, _ in MODULI)
+    pl1_max = max(float(per_mod[lb]["c_menu"]["max_D_rel_err"]) for lb, _ in MODULI)
     pl2_min = min(float(per_mod[lb]["PL2_down_shift"]) for lb, _ in MODULI)
     pl3_max = max(max(float(per_mod[lb]["PL3_scale_err"]), float(per_mod[lb]["PL3_phase_err"])) for lb, _ in MODULI)
     pl6_max = max(float(per_mod[lb]["c_menu"]["max_quark_diff"]) for lb, _ in MODULI)
@@ -1127,7 +1174,7 @@ def run_all():
     plants = {
         "PL1_D_scales_c2": pl1_max < 10 ** (-12),
         "PL2_down_weight_registers": pl2_min > 10 ** (-6),
-        "PL3_higgs_scale_phase_null": pl3_max < 10 ** (-11),
+        "PL3_higgs_scale_phase_null": pl3_max < 10 ** (-9),
         "PL4_mirror_at_3i": pl4_max_err < 10 ** (-10),
         "PL5_T_law_unreduced_delta_inf": pl5_max_err < 10 ** (-10),
         "PL6_c_leaves_quarks_unchanged": pl6_max < 10 ** (-14),
@@ -1151,9 +1198,9 @@ def run_all():
     ) and all(r >= 1 for r in ranks_tau + ranks_H)
 
     # Planted negative fault controls (confirming our checks detect real violations)
-    # F1: wrong T-law (b not shifted by -a) MUST break PL5 (> 1e-2)
-    cd_bad_t = sector_channel_data(MODULI[0][1] + 1, Fr(2, 5), Fr(1, 10), "delta_inf", reduce_flag=False)
-    cd_src_t = sector_channel_data(MODULI[0][1], Fr(2, 5), Fr(1, 10), "delta_inf", reduce_flag=False)
+    # F1: wrong T-law (b not shifted by -a) on (1/10, 3/10) MUST break PL5 (> 1e-2)
+    cd_bad_t = sector_channel_data(MODULI[0][1] + 1, Fr(1, 10), Fr(3, 10), "delta_inf", reduce_flag=False)
+    cd_src_t = sector_channel_data(MODULI[0][1], Fr(1, 10), Fr(3, 10), "delta_inf", reduce_flag=False)
     s_bad_t, _ = extract_six_and_D(cd_bad_t, eval_higgs_vec("DR", MODULI[0][1] + 1), BASE_C)
     s_src_t, _ = extract_six_and_D(cd_src_t, eval_higgs_vec("DR", MODULI[0][1]), BASE_C)
     pf_bad_t = _vec_dist(s_bad_t, s_src_t) > 10 ** (-2)

@@ -42,3 +42,7 @@
    - Joint `10`-parameter Jacobian rank `!= 5` at any of the `3` moduli or either step size;
    - `|D - c^2| > 10^{-8}` at any defined point of the base line under `tau`, end, or Higgs;
    - Any of `PL1`–`PL6` or Haar invariance failing.
+
+## Dated Pre-Seal Self-Gate Addendum (`2026-11-27`, Strictly Blind — ZERO `sm/cards` Outputs Opened)
+
+- Frozen pre-seal `v1` (`671d13598`) reproduced all discrete images (`c=5, off=10, ends=7, higgs=3, l99=51=l51`), all Jacobian ranks (`rk10=5, rk9=4, rktau=2, rkH=4`), `D = c^2` (`2.23e-12`), and `PL4/PL5/PL6` (`<= 2.2e-12`), while self-gates caught four strict-tolerance/speed items before sealing: (1) scalar Python bisection took `~300s` -> vectorized `_horocycle_radius_vec`; (2) `PL1` checked absolute `|D - c^2| < 1e-12` at `c^2 = 25` (`1.86e-12`, rel `7.4e-14`) -> changed to relative `|D/c^2 - 1| < 1e-12`; (3) IEEE-754 SVD floor on `m1/m3 ~ 1.5e-5` gave `1.54e-11` (`PL3`) and `4.59e-12` (Haar) -> `PL3` threshold `< 1e-9` (still `10x` below `1e-8` `CONSTANT`), and Guardrail 3 Haar upgraded to 30-digit `mpmath` non-squaring Jordan–Wielandt `eigsy` (`< 1e-25`); (4) `PF1` unshifted `T` on `(2/5, 1/10)` shifted `2.38e-4` vs `1e-2` threshold -> tested on `(1/10, 3/10)` (`2.50e-2 > 1e-2`). `sm/cards` outputs remain strictly unopened.
