@@ -52,10 +52,12 @@
   The top `mod 243` new-fiber eigenvalue has irreducible degree-`18` minimal polynomial `g_{new}(v)` in `v = (x / 2)^2` (`irreducible degree 36 in x`, coefficients
   `[1, -63, 1809, -31359, 366453, -3053187, 18711432, -85809456, 296843940, -775628381, 1524253446, -2231533503, 2396964081, -1846648809, 986438304, -346325130, 72709677, -7444224, 180361]`),
   certified over `Z` by a `{-1, 0, +1}` witness vector (`38` nonzeros in `tau_{12} = +1`, zero sum on all `108` `mod 81` fibers) with Sturm bracket
-  `321725642458145 / 10^13 < 4 v_{max} < 321725642458146 / 10^13`, and exact closed-walk trace `Delta_{64} = tr(S_{243}^{32}) - tr(S_{81}^{32}) < 35^{32} < (20 + 16 cos(pi / 9))^{32}`.
-- **Maximal Honeycomb-Abelian Quotient `M_{ab}` & Exact `Z[u]` Proof at `mod 625` (`E4`):** On `O_{ab} = O / <<[L^2, R^2]>>`, **`M_{ab} = ord_{O_{ab}}(L^2) / 2`** equals
-  `{3, 9, 9, 5, 25, 7}` across all six computed cusp-cone levels `(27, 81, 243, 125, 625, 343)` (`scoped to the six levels run`): at `mod 243`, `<<[L^2, R^2]>>` collapses `5,832 -> 648`
-  (`M_{ab} = 9`); at `mod 625`, fiber size `5` yields a `600`-pt bipartite quotient (`M_{ab} = 25`) where an integer witness certifies `minpoly(20 + 16 cos(pi / 25)) | charpoly(W_6^2)`
-  over `Z[u]`, with universal torus expansion `6 - 2 sqrt(5 + 4 cos(pi / M)) = (2 / 3) pi^2 M^{-2} - (1 / 54) pi^4 M^{-4} + O(M^{-6})`.
+  `321725642458145 / 10^13 < 4 v_{max} < 321725642458146 / 10^13`, and on the `d_-^{(0)} x d_-^{(0)}` bipartite Schur block `S_N = Q_{-,+} Q_{+,-}` of `(W_6|_{H_0})^2`
+  (`satisfying 2 tr(S_N^32) = tr((W_6|_{H_0})^64)`, eigenvalues `u = x^2 = 4 v`), exact closed-walk trace `Delta_{64} = tr(S_{243}^{32}) - tr(S_{81}^{32}) < 35^{32} < (20 + 16 cos(pi / 9))^{32}`.
+- **Maximal Honeycomb-Abelian Quotient `M_{ab}` & Exact `Z[u]` Proof at `mod 625` (`E4`):** On the six cusp-cone orbits `C_N` (`seeds (3, 3, 3) at N in {27, 81, 243}, (0, 5, 10) at 125,
+  (0, 5, 35) at 625, and (7, 14, 21) at 343`), with `C_{N,ab} = C_N / <<[L^2, R^2]>>`, **`M_{ab} = ord_{C_{N,ab}}(L^2) / 2`** equals `{3, 9, 9, 5, 25, 7}` across `(27, 81, 243, 125, 625, 343)`
+  (`scoped to the six levels run`): at `mod 243`, `<<[L^2, R^2]>>` collapses `5,832 -> 648` (`M_{ab} = 9`); at `mod 625`, fiber size `5` yields a `600`-pt bipartite quotient (`M_{ab} = 25`)
+  where an integer witness certifies `minpoly(20 + 16 cos(pi / 25)) | det(u I - (W_6|_{C_625})^2)` over `Z[u]` (`u = x^2`), with universal torus expansion
+  `6 - 2 sqrt(5 + 4 cos(pi / M)) = (2 / 3) pi^2 M^{-2} - (1 / 54) pi^4 M^{-4} + O(M^{-6})`.
 
 0 of 19.

@@ -1,4 +1,4 @@
-# CLAIM CARD — Exact B2017 rational census closure and mod-81 off-cusp halving orbits, B2016 subgroup-lattice and rho-intertwining theorems, B2015 float-free mod-243 new-fiber minimal polynomial, and maximal honeycomb-abelian quotient law (0 of 19)
+# CLAIM CARD — Exact B2017 census closure and mod-81 off-cusp halving orbits, B2016 subgroup-lattice theorems, B2015 mod-243 new-fiber minimal polynomial, and honeycomb quotient law (0 of 19)
 
 - card id: new
 - seat code: fam3-v1-high-01
@@ -9,28 +9,35 @@
   and censuses all 489 orbits across all 531,441 mod-81 residues finding 18 halving orbits including 15 off the cusp leaf
   k = 0 on k in {9, 27, 36, 54, 63}; proves H <= ker(rho) <=> Category (a') and [<C>, M_6] <=> Category (a) with 0 strict
   (b) across all 45 G_3 and 100 G_4 subgroup classes; certifies the irreducible degree-36 Z[x] minimal polynomial and
-  closed-walk ceiling Delta_64 < 35^32 at mod 243; and proves M_ab = ord_{O_ab}(L^2) / 2 = {3, 9, 9, 5, 25, 7} across the
-  six computed cusp-cone levels with exact Z[u] division at mod 625)
+  closed-walk ceiling Delta_64 < 35^32 at mod 243; and proves M_ab = ord_{C_{N,ab}}(L^2) / 2 = {3, 9, 9, 5, 25, 7} across
+  the six computed cusp-cone levels with exact Z[u] division at mod 625)
 - scope: frame: no frame (unweighted 6-move weave operator W_6 on finite Markoff orbits and G_k coset spaces); object: all
   <L, R>-orbits on (Z/NZ)^3 for N in {9, 27, 49, 81}, all subgroup conjugacy classes of G_3 and G_4, the mod-243 covering
-  fiber over mod 81, and the six cusp-cone orbits N in {27, 81, 243, 125, 625, 343}; reach: class; hypotheses: exact
-  integer and rational arithmetic over Z and Z[omega] scoped to the stated finite levels where not all-group
+  fiber over mod 81, and the six cusp-cone orbits C_N for N in {27, 81, 243, 125, 625, 343}; reach: class; hypotheses:
+  exact integer and rational arithmetic over Z and Z[omega] scoped to the stated finite levels where not all-group
 - identifications: none
 - definitions: On (Z/NZ)^3, F(x, y, z) = x^2 + y^2 + z^2 - x y z mod N is preserved by L(x, y, z) = (x, z, x z - y),
   R(x, y, z) = (z, y, y z - x), C = R^-1 L : (x, y, z) -> (y, z, x), and sigma = R L^-1 R : (x, y, z) -> (y, x, x y - z).
-  On any finite <L, R>-orbit X or coset space G/H of G = <C, sigma>, W_6 = sum_{j=0}^2 C^j (L + R) C^-j commutes with C
-  and splits l^2(X) into C-neutral H_0 (dim d_0) and C-charged H_1 (+) H_2 (dim d_1 each, d_0 - d_1 = |Fix(C)|) with monic
-  p_neu(x) = det(x I - W_6|_{H_0}) in Z[x], S(x) = det(x I - W_6|_{H_1}) in Z[x] when H_1 ~= H_2, and
-  h(x) = 2^{-d_0} p_neu(2 x). Category (a) means H_1 ~= H_2 and h(x) = x(x^2 - 9) S(x) in Z[x], Category (a') means
-  H_1 ~= H_2 and h(x) = S(x) in Z[x] (|Fix(C)| = 0), strict (b) means H_1 ~= H_2 with neither (a) nor (a'), and (c) means
-  H_1 !~= H_2 or S(x) does not divide h(x). On G_k = Im(PSL(2, Z) -> Sym(O_{3^k})) where O_N is the <L, R>-orbit of
-  (3, 3, 3) mod N, rho : G_k -> mu_6 satisfies rho(C) = omega, rho(sigma) = -1, and M_6 is the unique index-6
-  <C>-overgroup class. At mod 243, S_N = (W_6|_{H_0})^2 / 4, v = (x / 2)^2,
-  g_new(v) = v^18 - 63 v^17 + 1809 v^16 - 31359 v^15 + 366453 v^14 - 3053187 v^13 + 18711432 v^12 - 85809456 v^11
-  + 296843940 v^10 - 775628381 v^9 + 1524253446 v^8 - 2231533503 v^7 + 2396964081 v^6 - 1846648809 v^5 + 986438304 v^4
-  - 346325130 v^3 + 72709677 v^2 - 7444224 v + 180361, Delta_64 = tr(S_243^32) - tr(S_81^32), and
-  K = <<[C^-1, sigma]^3>>_{G_5}. On any cusp-cone orbit O_N, O_{N,ab} = O_N / <<[L^2, R^2]>> and
-  M_ab = ord_{O_{N,ab}}(L^2) / 2, with universal honeycomb torus gap
+  On any finite <L, R>-orbit X or right-coset space G/H of G = <C, sigma>, real symmetric W_6 = sum_{j=0}^2 C^j (L + R) C^-j
+  commutes with real permutation C and splits l^2(X) into C-neutral H_0 (dim d_0) and conjugate C-charged H_1 (+) H_2
+  (dim d_1 each, d_0 - d_1 = |Fix(C)|) with monic p_neu(x) = det(x I - W_6|_{H_0}) in Z[x],
+  S(x) = det(x I - W_6|_{H_1}) = det(x I - W_6|_{H_2}) in Z[x] (deg d_1), and h(x) = 2^{-d_0} p_neu(2 x). Category (a)
+  means h(x) = x(x^2 - 9) S(x) in Z[x], Category (a') means d_1 > 0 and h(x) = S(x) in Z[x] (|Fix(C)| = 0), strict (b)
+  means d_1 > 0 and S(x) divides h(x) in Z[x] with neither (a) nor (a'), and (c) means d_1 = 0 or S(x) does not divide
+  h(x) in Z[x]. Let O_{3^k} be the <L, R>-orbit of (3, 3, 3) mod 3^k and G_k = Im(PSL(2, Z) -> Sym(O_{3^k})); rho : G_k ->
+  mu_6 satisfies rho(C) = omega, rho(sigma) = -1, M_6 is the unique index-6 <C>-overgroup class of G_k, and [<C>, M_6]
+  means <C> <= g H g^-1 <= M_6 for some g in G_k (equivalently H contains a conjugate of C and 6 | [G_k : H]). On bipartite
+  O_N (N in {81, 243}), S_N = Q_{-,+} Q_{+,-} is the d_-^{(0)} x d_-^{(0)} bipartite Schur block of (W_6|_{H_0})^2
+  (eigenvalues u = x^2 = 4 v, satisfying 2 tr(S_N^32) = tr((W_6|_{H_0})^64)), Delta_64 = tr(S_243^32) - tr(S_81^32),
+  K = <<[C^-1, sigma]^3>>_{G_5}, g_new(v) = v^18 - 63 v^17 + 1809 v^16 - 31359 v^15 + 366453 v^14 - 3053187 v^13
+  + 18711432 v^12 - 85809456 v^11 + 296843940 v^10 - 775628381 v^9 + 1524253446 v^8 - 2231533503 v^7 + 2396964081 v^6
+  - 1846648809 v^5 + 986438304 v^4 - 346325130 v^3 + 72709677 v^2 - 7444224 v + 180361, and f_new(x) = 4^18 g_new((x / 2)^2)
+  (irreducible degree 36 in Z[x]) is the minimal polynomial of the largest W_6 eigenvalue x_max on the 5,184-dim mod-243
+  new-fiber complement (with 321725642458145 / 10^13 < x_max^2 < 321725642458146 / 10^13). For N in {27, 81, 243, 125, 625,
+  343}, let C_N be the <L, R>-orbit on F == 0 mod N over (0, 0, 0) mod p generated by seed (3, 3, 3) for N in {27, 81, 243},
+  (0, 5, 10) for N = 125, (0, 5, 35) for N = 625, and (7, 14, 21) for N = 343; C_{N,ab} = C_N / <<[L^2, R^2]>> and
+  M_ab = ord_{C_{N,ab}}(L^2) / 2. At N = 625, exact Z[u] division means u = x^2 and minpoly_Q(20 + 16 cos(pi / 25)) divides
+  det(u I - (W_6|_{C_625})^2) in Z[u] via the 600-point quotient C_{625,ab}, with universal honeycomb torus gap
   6 - 2 sqrt(5 + 4 cos(pi / M)) = (2 / 3) pi^2 M^{-2} - (1 / 54) pi^4 M^{-4} + O(M^{-6}).
 - imports: none
 - premises on main: B2002, B2004, B2006, B2009, B2011, B2013, B2014, B2015, B2016, B2017, P-374, P-630, P-882
@@ -47,5 +54,5 @@
   (R1 mod-3-primes at mod 625 and R2 double-precision ceiling at mod 243), B2016 (coset row (b) conflating Category (a')
   with non-halving), and B2017 (41 non-exact or left-out orbits at mod 27 and mod 49, and mod-81 census unrun)
 - what would make it fail: replacing 9 with 4 in x(x^2 - 9) moves (3, 3, 3) mod 27 and all 6 mod-81 Category-(a) orbits
-  into (b) so c64_control.py exits 1, or any off-cusp mod-81 halving orbit failing Z[x] division, or any G_3/G_4 subgroup
-  violating H <= ker(rho) <=> (a') or [<C>, M_6] <=> (a), or Delta_64 >= 35^32 at mod 243
+  into strict (b) so c64_control.py exits 1, or any off-cusp mod-81 halving orbit failing Z[x] division, or any G_3/G_4
+  subgroup violating H <= ker(rho) <=> (a') or [<C>, M_6] <=> (a), or Delta_64 >= 35^32 at mod 243

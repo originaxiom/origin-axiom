@@ -31,9 +31,10 @@ next push: AGY-C65 (two-counts remainder & prime-5 parabolic systole bridge acro
   31 (c)`) and `100` `G_4` (`8 (a), 28 (a'), 0 strict (b), 64 (c)`) subgroup classes: **zero coset spaces pair without halving**, with `G_k / H in (a') <=> H <= ker(rho)` (`0` mismatches)
   and `G_k / H in (a) <=> g H g^-1 in [<C>, M_6]` (`0` mismatches).
 - **Float-Free `mod 243` Minimal Polynomial & Honeycomb Quotient `M_{ab}` (`E3`–`E4`):** Certifies over `Z` the irreducible degree-`18` polynomial `g_{new}(v)` in `v = (x / 2)^2`
-  (`degree 36 in x`) via a `{-1, 0, +1}` witness vector on `K = <<[C^-1, sigma]^3>>_{G_5}` (`order 9, abelian, free`) and `Delta_{64} < 35^{32} < (20 + 16 cos(pi / 9))^{32}`, plus
-  `M_{ab} = ord_{O_{ab}}(L^2) / 2 = {3, 9, 9, 5, 25, 7}` across `(27, 81, 243, 125, 625, 343)` (`exact Z[u] division at mod 625` on the `600`-pt quotient) and
-  `6 - 2 sqrt(5 + 4 cos(pi / M)) = (2 / 3) pi^2 M^{-2} - (1 / 54) pi^4 M^{-4} + O(M^{-6})`.
+  (`f_{new}(x) = 4^18 g_{new}((x / 2)^2)` of degree `36` in `x`) via a `{-1, 0, +1}` witness vector on `K = <<[C^-1, sigma]^3>>_{G_5}` (`order 9, abelian, free`) and, on the bipartite
+  Schur block `S_N = Q_{-,+} Q_{+,-}` of `(W_6|_{H_0})^2` (`eigenvalues u = x^2 = 4 v`), `Delta_{64} = tr(S_{243}^{32}) - tr(S_{81}^{32}) < 35^{32} < (20 + 16 cos(pi / 9))^{32}`, plus
+  `M_{ab} = ord_{C_{N,ab}}(L^2) / 2 = {3, 9, 9, 5, 25, 7}` across the six cusp-cone orbits `(27, 81, 243, 125, 625, 343)` (`exact Z[u] division of det(u I - (W_6|_{C_625})^2) at mod 625`
+  on the `600`-pt quotient) and `6 - 2 sqrt(5 + 4 cos(pi / M)) = (2 / 3) pi^2 M^{-2} - (1 / 54) pi^4 M^{-4} + O(M^{-6})`.
 
 ## `AGY-C60`..`C63` Baseline (`B2011`, `B2014`, & Row `2037`, `0 of 19`)
 
