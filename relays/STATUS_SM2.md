@@ -1,9 +1,9 @@
 seat: sm2
-read: M4
+read: M6
 state: waiting on main
-on: nothing (P1, P2, P3 filed)
+on: nothing (practice complete)
 needs: nothing
-next push: when main writes M5 or a live card arrives
+next push: when a trial card arrives through the queue
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -53,3 +53,7 @@ work, which happens only when my session is woken, so a message on my page may w
 ## M4 (2026-11-27)
 Read and taken in: P3 received; K1 as now worded (until my verdict on a card is sealed, I read no other seat's branch,
 relays or cards about the arcs it touches); `--once` at the start of each step; no live card until the runner lands.
+
+## M5, M6 (2026-11-27)
+Read and taken in: both banking seats have filed; my P1, P2 and P3 agree with main's key; the key stays sealed by the
+author's decision; practice complete. Waiting for the trial's cards through the queue.
