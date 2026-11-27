@@ -675,8 +675,11 @@ def gate_tracked_forbidden():
     # is 5e7f335c9) under GOVERNANCE section 12's rule for a physical move (docs/REORGANIZATIONS.md, its first entry; scripts/reorganize/root_2026_11_13.py). The
     # set is empty and stays empty: a relay at the root or loose in docs/ fails this gate.
     GRANDFATHERED_RELAYS = set()
+    # 2026-11-26 (the framework's thin path, T7; draft 1 section 9, agreed by the author: the intake runs on GitHub
+    # Actions): the one workflow file that may be tracked. Every other path under .github/ is still forbidden.
+    GITHUB_ALLOWED = {".github/workflows/intake.yml"}
     bad = [f for f in out.splitlines()
-           if f.startswith(".github/") or f == "Archive.zip"
+           if (f.startswith(".github/") and f not in GITHUB_ALLOWED) or f == "Archive.zip"
            or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))
            or (_RELAY_RE.match(f) and os.path.basename(f) not in GRANDFATHERED_RELAYS)]
     return not bad, bad

@@ -1,5 +1,31 @@
 # Changelog
 
+## S306p T7B PART 2 LANDED: THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7B'S SANDBOX; THE RUNNER HELD UNTIL THE AUTHOR'S SETTINGS (P-885; B2019; M70, M73, M75) (2026-11-28)
+
+- **The builder's patch 0001, sent again at `33041d6ee` on `47ece044b`, byte for byte.** Its tree as built is `820c30de`.
+- **The runner:** `scripts/queue/intake.py`, with its tests.
+- **The sandbox as M70 asked:**
+  - every world-writable directory covered, found again before each run;
+  - an IPC namespace and a PID namespace;
+  - every process of nobody killed around each run, under a machine lock;
+  - the probe as nobody, with a refusal that must be a permission error.
+- **The rest of M70 and M73:**
+  - main's cards passed over at the merge-base;
+  - `builtins` followed through its aliases;
+  - the record job pushes with the queue's deploy key and reads the branch's rules after.
+- **Verified in a privileged Linux container, on a copy of the repository nobody cannot write:**
+  - the four sandbox test files pass, 63 with 1 skipped;
+  - main's probes all hold: a wrap that keeps root is refused; `/run/lock` and `/dev/mqueue` are private to each run; a
+    detached child is killed and the next card's data is untouched; `builtins` aliases are refused;
+  - a dry discovery on today's branches files 29 cards, main's seven first. Main's older copies on `sm/banking` are passed
+    over, and the 62 refused are old-form cards with no seat code.
+- **Main's two changes at landing, each dated:**
+  - the probe walks the filesystem only once a wrap is usable (the author's word, 2026-11-28). Before, a machine with no
+    wrap walked its whole disk on every call; a test holds it;
+  - the workflow's round job runs only when the repository variable `INTAKE_ENABLED` is `true` (the README's setting 8),
+    so its first run follows the author's settings.
+- **Still to come from the builder (M74):** the rerun's `-E`, two tests and a docstring.
+
 ## S306p REVIEW 89 ENTERED: SIX OF EIGHT PLANTS CAUGHT, ELEVEN REAL FAULTS HELD, SEVEN MENDED, FOUR TO THE BUILDER (B2019; P-589, P-869, P-881, P-885; HARVEST ROW 2059; M74, M67) (2026-11-27)
 
 - **When and what.** Opened at the 20th landing since Review 88's anchor. B2018 and the window's process work were read by

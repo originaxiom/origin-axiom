@@ -20652,3 +20652,12 @@ mended them, and made every landing that touches the register run them. The tria
 so as not to spoil it.
 
 0 of 19.
+
+## 2026-11-28 — the runner landed, switched off (S306p)
+
+**What happened.** The program that will take in every claim card and rerun it in a sealed box landed on main. It passed
+every test of its box, including the ways the last review found to break it. It stays switched off until the author has
+made the repository's settings; then one switch turns it on. Main also made it stop searching the whole disk on machines
+where no box can be made.
+
+0 of 19.

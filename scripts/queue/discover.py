@@ -139,6 +139,15 @@ def _blob(root, commit, path):
     return out.strip() if rc == 0 else None
 
 
+def is_mains(root, main_ref, ref, path, blob):
+    """main's card carried by a seat's branch, which the seat never changed (M68 point 4, M70 point 4): the same path and
+    blob as on main now, or as at the merge-base of the branch and main, when main has filed the card again since"""
+    if _blob(root, main_ref, path) == blob:
+        return True
+    rc, base, _ = git(root, "merge-base", main_ref, ref)
+    return rc == 0 and bool(base.strip()) and _blob(root, base.strip(), path) == blob
+
+
 def stated_problems(root, fields, branch, found_commit):
     """M65 point 3: a card cannot name the commit that adds it; its stated commit is an ancestor of the one it was found
     at, on the same branch, and its decisive script and its control's script have the same blobs at both"""
@@ -189,6 +198,7 @@ def discover(queue, refs, root=ROOT, at=None, seen_blobs=None, codes=None):
     report, new = [], {}
     tell = lambda ref, path, why: report.append("%s %s: not filed, %s; to be told to its seat" % (ref, path, why))
     known = [r.split("/", 1)[1] if r.startswith("origin/") else r for _k, r in refs]
+    main_ref = next((r for k, r in refs if k == "main"), "origin/main")
     for key, ref in refs:
         found, passed, why = cards_on(root, ref)
         if why:
@@ -200,6 +210,8 @@ def discover(queue, refs, root=ROOT, at=None, seen_blobs=None, codes=None):
         for path, blob, commit, text in found:
             if (branch, path, blob) in seen_blobs:
                 continue
+            if branch != "main" and is_mains(root, main_ref, ref, path, blob):
+                continue                              # main's own card, carried by a branch cut from main (M68, M70)
             title, fields, _layout = CF.read(text)
             code = fields.get("seat code", "")
             if title is None:                                         # A18: the reason that holds

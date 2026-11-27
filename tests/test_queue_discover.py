@@ -208,6 +208,40 @@ def test_a_masked_key_of_the_seat_codes_matches_on_the_rest_and_two_matches_refu
     assert D.code_for("a/b/the-derivation-x1", codes, [])[0] is None
 
 
+def test_mains_card_carried_by_a_seats_branch_is_passed_over_m68(tmp_path):
+    """main's M68 point 4: a branch cut from main carries main's cards; the same path and blob as on main is main's card"""
+    g, put, card, base = _repo(tmp_path, branch="main")
+    put("CLAIM_main.md", card("main's own", code=QS.MAIN_CODE, br="main"))
+    g("update-ref", "refs/remotes/origin/main", "HEAD")
+    g("checkout", "-q", "-b", "seat/a")
+    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
+    new, report = _discover({}, [("main", "origin/main"), ("a", "origin/seat/a")], tmp_path)
+    assert [r["branch"] for r in new.values()] == ["main"] and not any("seat/a" in r for r in report), report
+    # the seat's own card on that branch is still read
+    put("CLAIM_seat.md", card("the seat's own", br="seat/a"), on="seat/a")
+    new, report = _discover({}, [("main", "origin/main"), ("a", "origin/seat/a")], tmp_path)
+    assert sorted(r["branch"] for r in new.values()) == ["main", "seat/a"], report
+
+
+def test_mains_card_on_a_branch_cut_before_main_filed_it_again_is_passed_over_m70(tmp_path):
+    """main's M70 point 4: sm/banking carries main's cards as they were before main filed them again. A card whose blob on
+    the branch is its blob at the merge-base of the branch and main was never changed by the seat"""
+    g, put, card, base = _repo(tmp_path, branch="main")
+    put("CLAIM_main.md", card("main's own", code=QS.MAIN_CODE, br="main"))
+    g("checkout", "-q", "-b", "seat/a")                       # the seat's branch, cut here
+    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
+    g("checkout", "-q", "main")
+    put("CLAIM_main.md", card("main's own, filed again", code=QS.MAIN_CODE, br="main"))
+    g("update-ref", "refs/remotes/origin/main", "HEAD")
+    new, report = _discover({}, [("main", "origin/main"), ("a", "origin/seat/a")], tmp_path)
+    assert [r["branch"] for r in new.values()] == ["main"] and not any("seat/a" in r for r in report), report
+    # a card the seat changed on its branch is the seat's: it is read, and refused under main's code
+    g("checkout", "-q", "seat/a")
+    put("CLAIM_main.md", card("main's own, changed by the seat", code=QS.MAIN_CODE, br="seat/a"), on="seat/a")
+    new, report = _discover({}, [("main", "origin/main"), ("a", "origin/seat/a")], tmp_path)
+    assert [r["branch"] for r in new.values()] == ["main"] and any("seat/a" in r for r in report), report
+
+
 def test_the_table_on_main_names_main_and_the_command_runs_by_hand(tmp_path):
     codes = D.seat_codes()
     assert codes.get("main") == QS.MAIN_CODE and all(not QS.code_problems(c) for c in codes.values())
