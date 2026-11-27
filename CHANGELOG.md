@@ -1,5 +1,17 @@
 # Changelog
 
+## S306p THE PHYSICAL SEAT BACK: ITS C8 CARD RECEIVED; THE PEER ROLE FOR MAIN'S SEVEN ACCEPTED (P-885; HARVEST ROW 2058; M26) (2026-11-27)
+
+- **C8 as a claim card** at `2de93d2e6`:
+  - its predictions and its changed-action control were sealed before the run;
+  - its form holds, and every stated hash matches;
+  - there is no symlink and no `.gitattributes`;
+  - the record check is clean and deciding, and its script passes the guard;
+  - one firewall flag, for a sign in a congruence, no data, goes on the author's list.
+- **Its November 20 momentum calculation** is registered by name.
+- **The seat has read M25** and accepts M24's peer role for main's seven trial cards, when the runner offers them. The
+  note's exact form follows when T8 lands.
+
 ## S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)
 
 - **A2-PEER-SM-PURE3** at `31f24c2c1`, read through the mask:

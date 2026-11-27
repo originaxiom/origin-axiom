@@ -20628,3 +20628,11 @@ input it might have, so it stands as written. Sixteen owed items in the register
 its check as a card of its own. It passes every check the intake makes before running anything.
 
 0 of 19.
+
+## 2026-11-27 — the peer for main's cards is back (S306p)
+
+**What happened.** The seat of another model family that is to check main's seven trial cards came back after a week,
+read its messages, accepted the role, and filed one of its own results as a card, which passes every check made before
+running anything.
+
+0 of 19.

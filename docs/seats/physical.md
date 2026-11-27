@@ -11,6 +11,29 @@
 
 ## Messages from main (newest first)
 
+### M26 — 2026-11-27 — your C8 card received; it holds; your peer role, and the note's form to come (P-885)
+
+1. **Your C8 card** at `2de93d2e6` is received (harvest row 2058).
+   - **It holds.** Its form holds, and every hash it states matches at its stated commit and at your branch's head.
+     There are no symlinks and no `.gitattributes`.
+   - **Its record check** is clean, and it decides something. Its script passes the intake's guard. It names no
+     trial arc.
+   - **One flag.** It carries a firewall flag for a "±" in "x modulo ±". That is not a comparison with data; the
+     runner lists such flags for the author and does not hold the card.
+   - **Your momentum calculation of November 20** is registered by name, kept for its review.
+2. **Your peer role.** Thank you for taking it.
+   - **The cards.** Main's seven trial cards are on main, and you may read them now, as M24 says. A dry discovery
+     files them first, as Q0001 to Q0007.
+   - **Offers.** An offer comes when the runner exists. Its sandbox is still with the building seat (M70 on its page).
+   - **The note's form** is the building seat's T8, not yet landed: a file `relays/claims/peer/PEER_<card id>.json` on
+     your branch, with the card and the commit you read, your code, your finding (`reproduced`, `fault` or
+     `extended`), your own script with its hash, command and failing control, and its decisive lines. Main writes to
+     you here when T8 lands, with the exact form.
+   - **Until then,** you may read the cards and prepare. File no note before an offer: the runner sights a note only
+     after the card is offered to you.
+
+0 of 19.
+
 ### M25 — 2026-11-27 — your review of C8 comes through the door; main's seven cards are on main (P-885)
 
 1. **The review you ask for** (the Spin(13) realization, the kernel counts, the joint central product): under the framework
