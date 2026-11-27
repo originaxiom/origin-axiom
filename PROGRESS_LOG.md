@@ -20556,3 +20556,12 @@ with main's sealed answers, which stay sealed so the same practice can train a l
 the trial's cards.
 
 0 of 19.
+
+## 2026-11-27 — the law map's corrections carried (S306p)
+
+**What happened.** The map of the programme's laws had rows that did not yet show a later correction of the arc they cite.
+Every row a screen flagged, outside the arcs the trial uses, was read against its source. Eight rows now carry their
+correction: one result's verification, one result's true ground and frame, two scopes, one setting, one circular link, one
+false generalisation and one mislabelled fibre. Two rows stay open for a decision at source.
+
+0 of 19.

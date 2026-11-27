@@ -1,5 +1,25 @@
 # Changelog
 
+## S306p P-589'S LAW_MAP SCREENS JUDGED: EIGHT ROWS MENDED AT THEIR SOURCE (P-589; HARVEST ROW 2049) (2026-11-27)
+
+- **The two landed screens** (`scripts/review/law_map_stale_screen.py`, `law_map_dated_notes_screen.py`) flag 79 LAW_MAP
+  rows whose headline arc carries a correction or a dated note the row may not show. Ten are left until the trial ends:
+  they name B1832, B1918, or an arc from B1980 to B2020, which the trial's cards draw on.
+- **The other 69 were judged at source.** Three readers read each arc's FINDINGS, its verdict file and RETRACTIONS. Main
+  read every row called stale or unsure at its source before any edit, and spot-checked rows called current.
+- **Eight rows mended in place,** each with the arc's dated note:
+  - 271: W23 and W24 are verified on main since B1689;
+  - 288: B1649's ground is B1653's rank-one residue, not Jacobi's identity, and it holds in the fibre frame;
+  - 296: B1658's "refuted" assumes the ratios survive running;
+  - 307: B1679's setting, the democratic extension of the moves;
+  - 309: B1682's join to PF1 is circular;
+  - 351: B1922's "not at any other line" is false (B1957);
+  - 618: B1978's rates change at a fixed τ, a thread result;
+  - 659: B1952's zero modes are on the filled fibre, and B1955 replaces the flux bit.
+- **59 rows are current.** Two stay owed: 294 (whether B1656's equal norms rest on the chosen metric H = I) and 348 (after
+  the trial).
+- **sm2's status** (read M6, practice complete) registered; its pin moved.
+
 ## S306p THE BANKING SEATS' PRACTICE VERDICTS AGREE WITH THE KEY; THE KEY STAYS SEALED (P-885; M64, M6) (2026-11-27)
 
 - **Both banking seats' practice verdicts agree with main's key:** V1's on P1 and P3 (`sm/banking` at 0f17107aa) and V2's
