@@ -1,0 +1,16 @@
+positive solutions with entries <= 3000, without regard to order: 13
+  (3, 3, 3)
+  (3, 3, 6)
+  (3, 6, 15)
+  (3, 15, 39)
+  (6, 15, 87)   <- no entry equal to 3
+  (3, 39, 102)
+  (3, 102, 267)
+  (6, 87, 507)   <- no entry equal to 3
+  (15, 39, 582)   <- no entry equal to 3
+  (3, 267, 699)
+  (15, 87, 1299)   <- no entry equal to 3
+  (3, 699, 1830)
+  (6, 507, 2955)   <- no entry equal to 3
+with an entry equal to 3: 8 of 13; without: 5
+control, with an entry equal to 6: 5 of 13
