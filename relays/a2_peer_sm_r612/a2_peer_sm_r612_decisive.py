@@ -558,7 +558,7 @@ NK = 24
 _N_ARR = np.arange(-NK, NK + 1, dtype=float)
 _K_ARR = np.arange(-NK, NK + 1, dtype=float)
 _H_ARR = _K_ARR + HALF
-_SGN_ARR = (-1) ** np.arange(-NK, NK + 1)
+_SGN_ARR = np.where((np.arange(-NK, NK + 1) % 2) == 0, 1, -1)
 
 
 def _thc(a, b, u, T):
@@ -663,7 +663,7 @@ def _higgs_mats(a_vec):
 
 
 def _reduce_tau_line(tau, a_fr, b_fr):
-    """T^{\pm 1} reduction to |Re tau| <= 1/2 (B1842)."""
+    """T^(+-1) reduction to |Re tau| <= 1/2 (B1842)."""
     t = complex(tau)
     a, b = Fr(a_fr), Fr(b_fr)
     while t.real > HALF:
