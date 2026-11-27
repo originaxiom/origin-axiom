@@ -45,7 +45,7 @@
   P_{2,chg}(y) / gcd_{Z[y]}(P_neu(y), P_{2,chg}(y)), Category (a) is d_0 - d_1 = 3 with P_neu(y) = y(y^2 - 36) P_{2,chg}(y),
   and Category (a') is d_0 = d_1 > 0 with P_neu(y) = P_{2,chg}(y). On E_{phi^2} = ker(W_{6,omega}|_{Leg(5)} - phi^2 I_6)
   (phi^2 = (3 + sqrt(5)) / 2) with real orthonormal T_leg-eigenbasis (e_+, e_-) (T_leg e_+ = +e_+, e_{+,6} > 0, T_leg e_- =
-  -e_-, e_{-,4} > e_{-,5}), every Bloch state is psi(theta, alpha) = cos(theta) e_+ + exp(i alpha) sin(theta) e_- ((theta,
+  -e_-, e_{-,4} = e_{-,5} > 0), every Bloch state is psi(theta, alpha) = cos(theta) e_+ + exp(i alpha) sin(theta) e_- ((theta,
   alpha) in R^2, real equator sin(alpha) = 0, chiral poles alpha = +-pi/2 and theta = pi/4), p_i(theta, alpha) =
   |<e_i | psi(theta, alpha)>|^2, W_cusp = p_1 + p_2 + p_3, W_sys = p_4 + p_5 + p_6, I_4 = sum_{i=1}^6 p_i^2 (with SOS
   deficit 3/10 - I_4 = (1/10) sin^2(alpha) sin^2(2 theta)), and I_6 = sum_{i=1}^6 p_i^3 (with SOS deficit 11/90 - I_6 =
