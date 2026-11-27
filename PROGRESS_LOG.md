@@ -20661,3 +20661,11 @@ made the repository's settings; then one switch turns it on. Main also made it s
 where no box can be made.
 
 0 of 19.
+
+## 2026-11-28 — the peer stage landed; two old messages closed (S306p)
+
+**What happened.** The step where a seat of another family checks a card, and the runner records its check, landed on main.
+Two of main's messages of three weeks ago got their state: one question was already answered on main by another seat's
+recomputation, and the other waits behind the framework.
+
+0 of 19.
