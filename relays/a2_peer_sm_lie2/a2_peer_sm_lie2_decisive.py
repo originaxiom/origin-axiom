@@ -165,9 +165,12 @@ def verify_sm_c11():
     # t2(t+1)=z8 t2, t3(t+1)=t4, t4(t+1)=t3, eta^3(t+1)=z8^3 eta^3 => R_T = z8^{-1} * diag(1, ...) ? Let's solve & check!
     z8 = mp.exp(mp.j * mp.pi / 4)
     # Solve R_T and R_S linearly at 5 generic points in H (exact zero-float rational coords)
-    pts = [mp.mpc(Fr(13, 100), Fr(11, 10)), mp.mpc(Fr(-31, 100), Fr(9, 10)),
-           mp.mpc(Fr(2, 5), Fr(17, 10)), mp.mpc(Fr(1, 20), Fr(23, 10)),
-           mp.mpc(Fr(-9, 20), Fr(13, 10))]
+    def _f2m(q):
+        return mp.mpf(q.numerator) / mp.mpf(q.denominator)
+
+    pts = [mp.mpc(_f2m(Fr(13, 100)), _f2m(Fr(11, 10))), mp.mpc(_f2m(Fr(-31, 100)), _f2m(Fr(9, 10))),
+           mp.mpc(_f2m(Fr(2, 5)), _f2m(Fr(17, 10))), mp.mpc(_f2m(Fr(1, 20)), _f2m(Fr(23, 10))),
+           mp.mpc(_f2m(Fr(-9, 20)), _f2m(Fr(13, 10)))]
 
     def _solve_R(g_fn, fac_fn):
         rows = [(_c_triplet(g_fn(t)), [fac_fn(t) * z for z in _c_triplet(t)]) for t in pts]
