@@ -1,0 +1,349 @@
+{
+  "E1_E2_weil_noncommutative_unfolding": {
+    "all_3k_constant_chiral_index_plus2_verified": true,
+    "chiral_split_primes": [
+      3,
+      7,
+      11,
+      19,
+      23
+    ],
+    "conjugation_and_mod4_intertwiners_verified": true,
+    "exact_algebraic_spectra_N_3_5_7_9_15_27_verified": true,
+    "exact_spectra": {
+      "15": {
+        "q0": {
+          "dim": 5,
+          "poly_factored": "x**5 + 4*x**4 - 2*sqrt(5)*x**3 - 2*x**3",
+          "verified_to_1e_minus_30": true
+        },
+        "q1": {
+          "dim": 6,
+          "poly_factored": "x**6 - 2*x**5 - 43*x**4/2 + 5*sqrt(5)*x**4/2 + 24*x**3 - 45*sqrt(5)*x**2/2 + 273*x**2/2 - 27*sqrt(5)*x - 9*x - 108 - 27*sqrt(5)",
+          "verified_to_1e_minus_30": true
+        },
+        "q2": {
+          "dim": 4,
+          "poly_factored": "x**4 - 2*x**3 - 19*x**2/2 - sqrt(5)*x**2/2 - 6*sqrt(5)*x + 12*x - 15/2 + 9*sqrt(5)/2",
+          "verified_to_1e_minus_30": true
+        }
+      },
+      "27": {
+        "q0": {
+          "dim": 9,
+          "poly_factored": "x**5*(x + 2)*(x**3 - 2*x**2 - 20*x + 24)",
+          "verified_to_1e_minus_30": true
+        },
+        "q1": {
+          "dim": 10,
+          "poly_factored": "x**2*(x - 3)*(x + 2)*(x + 3)*(x**2 + x - 5)*(x**3 - 3*x**2 - 9*x + 18)",
+          "verified_to_1e_minus_30": true
+        },
+        "q2": {
+          "dim": 8,
+          "poly_factored": "(x - 1)**2*(x + 3)*(x**2 - x - 3)*(x**3 - 18*x + 9)",
+          "verified_to_1e_minus_30": true
+        }
+      },
+      "3": {
+        "q0": {
+          "dim": 1,
+          "poly_factored": "x",
+          "verified_to_1e_minus_30": true
+        },
+        "q1": {
+          "dim": 2,
+          "poly_factored": "(x - 3)*(x + 3)",
+          "verified_to_1e_minus_30": true
+        },
+        "q2": {
+          "dim": 0,
+          "poly_factored": "1",
+          "verified_to_1e_minus_30": true
+        }
+      },
+      "5": {
+        "q0": {
+          "dim": 1,
+          "poly_factored": "x + 2*sqrt(5)",
+          "verified_to_1e_minus_30": true
+        },
+        "q1": {
+          "dim": 2,
+          "poly_factored": "x**2 + 2*sqrt(5)*x - 3*sqrt(5)/2 + 3/2",
+          "verified_to_1e_minus_30": true
+        },
+        "q2": {
+          "dim": 2,
+          "poly_factored": "x**2 + 2*sqrt(5)*x - 3*sqrt(5)/2 + 3/2",
+          "verified_to_1e_minus_30": true
+        }
+      },
+      "7": {
+        "q0": {
+          "dim": 3,
+          "poly_factored": "x**2*(x + 4)",
+          "verified_to_1e_minus_30": true
+        },
+        "q1": {
+          "dim": 2,
+          "poly_factored": "x**2 - 2*x - 9/2 + sqrt(21)/2",
+          "verified_to_1e_minus_30": true
+        },
+        "q2": {
+          "dim": 2,
+          "poly_factored": "x**2 - 2*x - 9/2 - sqrt(21)/2",
+          "verified_to_1e_minus_30": true
+        }
+      },
+      "9": {
+        "q0": {
+          "dim": 3,
+          "poly_factored": "x*(x - 6)*(x - 4)",
+          "verified_to_1e_minus_30": true
+        },
+        "q1": {
+          "dim": 4,
+          "poly_factored": "(x**2 - 3*x - 9)*(x**2 - x - 3)",
+          "verified_to_1e_minus_30": true
+        },
+        "q2": {
+          "dim": 2,
+          "poly_factored": "(x - 3)*(x - 1)",
+          "verified_to_1e_minus_30": true
+        }
+      }
+    },
+    "mirror_paired_primes": [
+      5,
+      13,
+      17
+    ],
+    "odd_primes_scanned": [
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23
+    ],
+    "prime_rows": [
+      {
+        "chiral_index_d1_minus_d2": 2,
+        "dims_q0_q1_q2": [
+          1,
+          2,
+          0
+        ],
+        "p": 3,
+        "p_mod_4": 3,
+        "w6_q1_equals_q2": false,
+        "wch_q1_equals_minus_q2": false
+      },
+      {
+        "chiral_index_d1_minus_d2": 0,
+        "dims_q0_q1_q2": [
+          1,
+          2,
+          2
+        ],
+        "p": 5,
+        "p_mod_4": 1,
+        "w6_q1_equals_q2": true,
+        "wch_q1_equals_minus_q2": true
+      },
+      {
+        "chiral_index_d1_minus_d2": 0,
+        "dims_q0_q1_q2": [
+          3,
+          2,
+          2
+        ],
+        "p": 7,
+        "p_mod_4": 3,
+        "w6_q1_equals_q2": false,
+        "wch_q1_equals_minus_q2": false
+      },
+      {
+        "chiral_index_d1_minus_d2": 0,
+        "dims_q0_q1_q2": [
+          3,
+          4,
+          4
+        ],
+        "p": 11,
+        "p_mod_4": 3,
+        "w6_q1_equals_q2": false,
+        "wch_q1_equals_minus_q2": false
+      },
+      {
+        "chiral_index_d1_minus_d2": 0,
+        "dims_q0_q1_q2": [
+          5,
+          4,
+          4
+        ],
+        "p": 13,
+        "p_mod_4": 1,
+        "w6_q1_equals_q2": true,
+        "wch_q1_equals_minus_q2": true
+      },
+      {
+        "chiral_index_d1_minus_d2": 0,
+        "dims_q0_q1_q2": [
+          5,
+          6,
+          6
+        ],
+        "p": 17,
+        "p_mod_4": 1,
+        "w6_q1_equals_q2": true,
+        "wch_q1_equals_minus_q2": true
+      },
+      {
+        "chiral_index_d1_minus_d2": 0,
+        "dims_q0_q1_q2": [
+          7,
+          6,
+          6
+        ],
+        "p": 19,
+        "p_mod_4": 3,
+        "w6_q1_equals_q2": false,
+        "wch_q1_equals_minus_q2": false
+      },
+      {
+        "chiral_index_d1_minus_d2": 0,
+        "dims_q0_q1_q2": [
+          7,
+          8,
+          8
+        ],
+        "p": 23,
+        "p_mod_4": 3,
+        "w6_q1_equals_q2": false,
+        "wch_q1_equals_minus_q2": false
+      }
+    ],
+    "sl2z_homomorphism_and_stereo_commutation_verified": true,
+    "tower_3k_rows": [
+      {
+        "N": 3,
+        "d1_minus_d2": 2,
+        "dims_q0_q1_q2": [
+          1,
+          2,
+          0
+        ],
+        "k": 1
+      },
+      {
+        "N": 9,
+        "d1_minus_d2": 2,
+        "dims_q0_q1_q2": [
+          3,
+          4,
+          2
+        ],
+        "k": 2
+      },
+      {
+        "N": 27,
+        "d1_minus_d2": 2,
+        "dims_q0_q1_q2": [
+          9,
+          10,
+          8
+        ],
+        "k": 3
+      },
+      {
+        "N": 81,
+        "d1_minus_d2": 2,
+        "dims_q0_q1_q2": [
+          27,
+          28,
+          26
+        ],
+        "k": 4
+      },
+      {
+        "N": 243,
+        "d1_minus_d2": 2,
+        "dims_q0_q1_q2": [
+          81,
+          82,
+          80
+        ],
+        "k": 5
+      }
+    ]
+  },
+  "E3_markoff_tree_outward_jacobian": {
+    "all_nonroot_triples_strictly_simple_gt2": true,
+    "am_gm_peak_identity_verified": true,
+    "cp_336_factored": "(t - 8)*(t**2 - 22*t + 76)",
+    "cp_3615_factored": "(t - 32)*(t**2 - 22*t + 76)",
+    "degenerate_triples_on_tree": [
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "first_step_336_and_3615_share_golden_factor_t2_m22t_p76": true,
+    "outward_ray_asymptotic_l1_over_l2_to_1_and_l3_to_6xp4_over_xp2_verified": true,
+    "sorted_markoff_triples_checked_to_depth7": 65,
+    "symmetrized_sos_positive_definite_verified": true,
+    "universal_cubic_identity_verified": true
+  },
+  "E4_p775_rational_ptolemy_metallic_settling": {
+    "birational_uv_blowup_and_ptolemy_verified": true,
+    "bronze_m3_irreducible_quartic_verified": true,
+    "bronze_settling_to_quartic_eigenvalue_verified": true,
+    "bronze_tr_2d_minpoly": "u**4 - 114*u**3 + 4264*u**2 - 58910*u + 192359",
+    "bronze_tr_2d_minpoly_coeffs": [
+      1,
+      -114,
+      4264,
+      -58910,
+      192359
+    ],
+    "golden_3_departures_settled_to_1e_minus_7": true,
+    "golden_departures": {
+      "2_2_2": {
+        "k12_excess_volume_20digits": "2.3592482907832741784",
+        "k12_ratio_within_1e_minus_7_of_5_plus_sqrt21_over_2": true
+      },
+      "3_4_3": {
+        "k12_excess_volume_20digits": "4.2998743033860048239",
+        "k12_ratio_within_1e_minus_7_of_5_plus_sqrt21_over_2": true
+      },
+      "run_of_6": {
+        "k12_excess_volume_20digits": "1.571446264380206116",
+        "k12_ratio_within_1e_minus_7_of_5_plus_sqrt21_over_2": true
+      }
+    },
+    "golden_m1_charpoly_t2_m5t_p1_verified": true,
+    "silver_m2_charpoly_t2_m18t_p1_verified": true,
+    "silver_period_volume_equals_4_catalan_verified": true,
+    "silver_settling_to_9_plus_4sqrt5_verified": true
+  },
+  "card": "AGY-C67",
+  "date": "2026-11-27",
+  "planted_fault_controls": {
+    "PF1_commuting_r0_kills_chiral_split_caught": true,
+    "PF2_opposite_symplectic_sign_inverts_chiral_index_caught": true,
+    "PF3_off_root_markoff_flip_breaks_1_plus_2_degeneracy_caught": true,
+    "PF4_flat_phi4_vs_hyperbolic_rate_separation_caught": true,
+    "PF5_metallic_tangent_polynomial_hierarchy_caught": true,
+    "controls_caught_count": 5
+  },
+  "score": "0 of 19",
+  "self_audit": {
+    "ast_float_or_complex_literals": 0,
+    "json_float_values": 0
+  }
+}
