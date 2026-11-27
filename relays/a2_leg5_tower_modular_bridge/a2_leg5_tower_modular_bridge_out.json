@@ -1,0 +1,193 @@
+{
+  "B1_all_k_tensor_halving_and_level30": {
+    "G3_O27_vs_Q6_mismatches": 0,
+    "G3_level30_nonzero": 0,
+    "G3_order": 216,
+    "G3_sister15_nonzero": 0,
+    "G4_O81_vs_Q6_mismatches": 0,
+    "G4_order": 1944,
+    "Q6_fixC": 3,
+    "Q6_x_Leg5_P_2chg_y": "(y**2 - 8)**2*(y**2 - 6*y + 4)**2*(y**2 + 6*y + 4)**2",
+    "Q6_x_Leg5_P_neu_y": "(y**2 - 20)**2*(y**2 - 8)**4",
+    "Q6_x_Leg5_exact_match": true,
+    "Q6_x_Leg5_leftover_neu": "(y**2 - 20)**2*(y**2 - 8)**2",
+    "Q6_x_Leg5_unpaired_chg": "(y**2 - 6*y + 4)**2*(y**2 + 6*y + 4)**2",
+    "all_bundles_Wp_Wm_commute": true,
+    "b1_pass": true,
+    "bundles": {
+      "Level30_P1F2_x_O27_x_Leg5": {
+        "commutator_Wp_Wm_exact_zero": true,
+        "dim": 1296,
+        "int_halving_trace_defects": {
+          "2m_2": "0",
+          "2m_4": "0",
+          "2m_6": "0",
+          "2m_8": "0"
+        },
+        "transitive": true
+      },
+      "O27_3312_x_Leg5": {
+        "commutator_Wp_Wm_exact_zero": true,
+        "dim": 432,
+        "int_halving_trace_defects": {
+          "2m_2": "0",
+          "2m_4": "-1152",
+          "2m_6": "-48384",
+          "2m_8": "-1603584"
+        },
+        "transitive": true
+      },
+      "O27_3315_x_Leg5": {
+        "commutator_Wp_Wm_exact_zero": true,
+        "dim": 432,
+        "int_halving_trace_defects": {
+          "2m_2": "0",
+          "2m_4": "0",
+          "2m_6": "0",
+          "2m_8": "0"
+        },
+        "transitive": true
+      },
+      "O27_333_x_Leg5": {
+        "commutator_Wp_Wm_exact_zero": true,
+        "dim": 432,
+        "int_halving_trace_defects": {
+          "2m_2": "0",
+          "2m_4": "-1152",
+          "2m_6": "-48384",
+          "2m_8": "-1603584"
+        },
+        "transitive": true
+      },
+      "O81_333_x_Leg5": {
+        "commutator_Wp_Wm_exact_zero": true,
+        "dim": 3888,
+        "int_halving_trace_defects": {
+          "2m_2": "0",
+          "2m_4": "-1152",
+          "2m_6": "-48384"
+        },
+        "transitive": true
+      },
+      "Q6_x_Leg5": {
+        "commutator_Wp_Wm_exact_zero": true,
+        "dim": 36,
+        "int_halving_trace_defects": {
+          "2m_2": "0",
+          "2m_4": "-1152",
+          "2m_6": "-48384",
+          "2m_8": "-1603584"
+        },
+        "transitive": true
+      }
+    },
+    "frozen_defect_O27_O12_O81_eq_Q6": true,
+    "level30_and_sister15_exact_zero_defect": true,
+    "pf1_Q8_mod9_mismatches": 54
+  },
+  "B2_chiral_walk_algebra_leg5": {
+    "WL_eq_minus_phi2_C3sq_on_E_phi2": true,
+    "WR_eq_WL_T": true,
+    "b2_pass": true,
+    "charpoly_W6": "(x**2 - 20)*(x**2 - 3*x + 1)**2",
+    "charpoly_WL": "(x**2 - 5)*(x**4 - 3*x**3 + 8*x**2 - 3*x + 1)",
+    "charpoly_i_WL_minus_WR": "x**2*(x**4 - 21*x**2 + 9)",
+    "chiral_poles_I4_1_over_5_I6_2_over_45": true,
+    "comm_WL_C3_zero": true,
+    "comm_WL_WR_zero": true,
+    "pauli_sigma_y_on_E_phi2": true,
+    "pauli_sigma_y_on_E_phim2": true,
+    "pf2_swapped_walk_breaks_commutator": true,
+    "pf5_trivial_P1F5_golden_kernel_dim": 0,
+    "tau_WL_tau_eq_WR": true
+  },
+  "B3_mirror_lock_siegel_and_zero_param_stabilization": {
+    "b3_pass": true,
+    "cusp_lead_and_const_lock_minus60deg": true,
+    "i_I6_gold": "0.1222222222",
+    "i_norm2": "0.3850301401",
+    "mirror_lock_arc_eq_tau": true,
+    "mirror_lock_half_eq_C3_tau_C3inv": true,
+    "mirror_lock_third_eq_C3sq_tau_C3m2": true,
+    "omega_gold_frac": "3.29881e-91",
+    "omega_norm2": "0.3632875795",
+    "pf3_R0_breaks_W6_and_I4_zero_is_saddle": true,
+    "siegel_S_err": "1.0693e-45",
+    "siegel_T_err": "3.14501e-46",
+    "siegel_inv_err": "1.1215e-45",
+    "tot70_I6_gold": "0.1222222222",
+    "tot70_th_deg": "-60.0",
+    "y_odd_I6_gold": "0.1",
+    "y_odd_star": "1.2945608104044",
+    "zero_param_I4_min_on_x_half": {
+      "I4_cusp_15i": "0.19871343",
+      "I4_star": "0.17194812441368",
+      "I4_xx_half": "1.3923641e-5",
+      "I4_xx_zero_saddle": "-1.3915984e-5",
+      "I4_yy_half": "0.041324481",
+      "ok": true,
+      "y_star": "2.2726755928594"
+    },
+    "zero_param_I6_min_on_x_zero": {
+      "I6_cusp_15i": "0.039611529",
+      "I6_star": "0.030411899391564",
+      "I6_xx_half_saddle": "-1.1955586e-5",
+      "I6_xx_zero": "1.1985682e-5",
+      "I6_yy_zero": "0.016412497",
+      "ok": true,
+      "y_star": "2.3052230810201"
+    }
+  },
+  "B4_holomorphic_wp_5div_chiral_pole_and_flow": {
+    "arc_alpha_deg": "-90.0",
+    "b4_pass": true,
+    "cusp5_I4_gold": "0.2999076842",
+    "i_I4_full": "0.2222222222",
+    "i_I6_full": "0.05902777778",
+    "i_V_wp": "507.33534588",
+    "i_lemniscate_prob_err": "1.31372e-46",
+    "omega_I4_full": "0.2",
+    "omega_I6_full": "0.04444444444",
+    "omega_V_wp": "505.937996878",
+    "omega_V_wp_closed_form_err": "8.86305e-47",
+    "omega_gold_frac": "0.8",
+    "pf4_drop_wt2_S_err": "1.52499",
+    "sym_5div_factor_ok": true,
+    "sym_cubic_cusp_and_sys_ok": true,
+    "sym_lemniscate_i_2_9_and_17_288_ok": true,
+    "sym_omega_45_15_and_chiral_pole_ok": true,
+    "tot70_I4_gold": "0.2954700573",
+    "tot70_I6_gold": "0.1184558858",
+    "tot70_alpha_deg": "-165.8815194",
+    "vwp_inv_err": "1.70617e-46",
+    "wp_S_err": "3.18125e-46",
+    "wp_T_err": "5.07993e-46"
+  },
+  "B5_planted_controls": {
+    "PF1_Q8_breaks_character_defect": true,
+    "PF2_swapped_walk_breaks_commutator": true,
+    "PF3_R0_breaks_W6_and_I4_saddle": true,
+    "PF4_drop_wt2_breaks_S_equiv": true,
+    "PF5_trivial_P1F5_kills_golden_kernel": true,
+    "caught_count": 5
+  },
+  "ast_hygiene": {
+    "clean": true,
+    "complex_literals": 0,
+    "float_complex_casts": 0,
+    "float_literals": 0,
+    "forbidden_imports": 0
+  },
+  "card_id": "A2-LEG5-TOWER-MODULAR-BRIDGE",
+  "firewall": "0 of 19",
+  "gates": {
+    "G1_B1": true,
+    "G2_B2": true,
+    "G3_B3": true,
+    "G4_B4": true,
+    "G5_PF": true,
+    "G6_hygiene": true,
+    "all_gates_passed": true
+  },
+  "seat_code": "fam3-v1-high-03"
+}

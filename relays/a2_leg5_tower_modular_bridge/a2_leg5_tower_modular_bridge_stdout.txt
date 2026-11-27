@@ -1,0 +1,4 @@
+DECISIVE: B1 Q6_exact=True G3_mis=0/216 G4_mis=0/1944 sis15_nz=0 lvl30_nz=0 frozen_O27_O12_O81=True lvl30_sis15_zero=True comm_all=True
+DECISIVE: B2 comm_WL_WR=True pauli_phi2=True pauli_phim2=True WL_C3=True chiral_poles_SOS=True
+DECISIVE: B3 locks=(True,True,True) cusp_60=True siegel_eq_lt_1e40=True y_odd=1.29456081 I4_y=2.272675593 I4_val=0.1719481244 I4_half_ok=True I6_y=2.305223081 I6_val=0.03041189939 I6_zero_ok=True
+DECISIVE: B4 sym_5div=True sym_cubic=True sym_45_15=True sym_i=True om_Vwp=505.937997 om_closed_lt_1e40=True tot70_I4g=0.29547 tot70_I6g=0.118456 pf=5/5 ast_clean=True json_floats=0 all_gates=True
