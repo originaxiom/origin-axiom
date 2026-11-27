@@ -6,6 +6,11 @@ T9 on your `6f0f8fe45`.
 **Tried on a clean checkout of `6f0f8fe45`:** T1b, T6 to T9, then T10, apply with `git am`. The tree is `a4f266cf6d392aecc9588862c8d28282e637ae95`, as
 built.
 
+**[REBUILT 2026-11-27 on your `ece37f7d6` (M66's head); the patch file replaced; its tree `f39b2a86ba8545e7d567d7a4cd9598057684a4d7`, as built, on a clean
+checkout]:** the code and the list are unchanged from the send below; only the two logs and the views were placed again on
+the new head. Every gate on the commit: 59, all green but harvest-debt (`GATES.txt`). It still stands alone: T7b does not
+need it, nor it T7b.
+
 **[SENT AGAIN 2026-11-27 on your `ae7defd04`, at your M65; the patch file replaced; its tree
 `3e0d0288b44de2c25be06b821d57ce7629be2d5e`, as built, on a clean checkout]:** your five points, each with a planted case:
 1. **The shipped list's lock** checks the list's form, its rows and that no flake is on it, not its count. Taking an entry

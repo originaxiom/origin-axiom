@@ -1,0 +1,840 @@
+From 735d33a74264eb68e45a717dbf1e458b07dbbadb Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 27 Nov 2026 08:48:09 +0000
+Subject: [PATCH 2/2] S306p the intake runner and its workflow, with T7b's
+ sandbox (the framework's thin path, T7 and T7b part 2; P-885; main's M62,
+ M64, M65): scripts/queue/intake.py runs one round, seat code as nobody in a
+ network namespace or not at all, reads the queue's folder once and writes it
+ only after every rerun, closed by a manifest the record job checks; a card a
+ later card refiles is not taken further; .github/workflows/intake.yml, the
+ one tracked workflow path main accepted; queue/README.md names the author's
+ seven settings; tests fail with each rule removed, among them main's probe of
+ a script that writes the queue
+
+---
+ .github/workflows/intake.yml   | 109 ++++++++++++++
+ .gitignore                     |   8 +-
+ CHANGELOG.md                   |  19 +++
+ PROGRESS_LOG.md                |  10 ++
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   6 +-
+ queue/README.md                |  27 ++++
+ scripts/gates/gates.py         |   5 +-
+ scripts/queue/intake.py        | 263 +++++++++++++++++++++++++++++++++
+ tests/test_queue_intake.py     | 259 ++++++++++++++++++++++++++++++++
+ 10 files changed, 704 insertions(+), 4 deletions(-)
+ create mode 100644 .github/workflows/intake.yml
+ create mode 100644 scripts/queue/intake.py
+ create mode 100644 tests/test_queue_intake.py
+
+diff --git a/.github/workflows/intake.yml b/.github/workflows/intake.yml
+new file mode 100644
+index 000000000..a0bf84fe7
+--- /dev/null
++++ b/.github/workflows/intake.yml
+@@ -0,0 +1,109 @@
++# The intake runner (the framework's thin path, patch T7; draft 1 § 9; register row P-885).
++#
++# Two jobs. `round` runs seat code, as the unprivileged user nobody in a network namespace (T7b): it has read permission
++# only, no secrets, and nothing it writes leaves the job but one artifact, the queue's folder, closed by a manifest of what
++# the round wrote. `record` runs no seat code: it refuses any file the round did not write, checks the artifact against the
++# queue's schema and the sighting log's form, and is the only job that may push, to the queue's own branch alone. Standard
++# GitHub-hosted runners only (`ubuntu-latest`); never a larger runner. The settings the author makes are in queue/README.md.
++name: intake
++
++on:
++  schedule:
++    - cron: "17 */3 * * *"          # every three hours, at minute 17
++  workflow_dispatch: {}              # the manual trigger beside the schedule
++
++permissions:
++  contents: read                     # every job reads only, unless it says otherwise
++
++concurrency:
++  group: intake
++  cancel-in-progress: false          # a round in progress finishes; the next waits
++
++env:
++  QUEUE_BRANCH: queue
++
++jobs:
++  round:
++    runs-on: ubuntu-latest
++    timeout-minutes: 120
++    steps:
++      - name: Check out main, with every branch's history
++        uses: actions/checkout@v4
++        with:
++          fetch-depth: 0
++          persist-credentials: false
++      - name: Fetch every seat branch
++        run: git fetch --no-tags origin '+refs/heads/*:refs/remotes/origin/*'
++      - name: Read the queue's branch, or start from an empty queue
++        run: |
++          mkdir -p queue-state
++          if git cat-file -e "origin/${QUEUE_BRANCH}:queue" 2>/dev/null; then
++            git archive "origin/${QUEUE_BRANCH}" queue | tar -x -C queue-state
++          fi
++          mkdir -p queue-state/queue
++      - uses: actions/setup-python@v5
++        with:
++          python-version: "3.12"
++      - name: Install the allowed packages at their pins
++        run: |
++          python3 -c "import json; d = json.load(open('scripts/queue/ALLOWED_PACKAGES.json')); print(' '.join(k + '==' + v['pin'] for k, v in d['packages'].items()))" > pins.txt
++          python3 -m pip install --quiet $(cat pins.txt)
++      - name: One round of the intake (seat code runs here, with the network cut)
++        run: python3 scripts/queue/intake.py --queue-dir queue-state/queue --write
++      - uses: actions/upload-artifact@v4
++        with:
++          name: queue
++          path: queue-state/queue
++          if-no-files-found: error
++          retention-days: 7
++
++  record:
++    needs: round
++    runs-on: ubuntu-latest
++    timeout-minutes: 15
++    permissions:
++      contents: write                # this job alone may push, and the rulesets let it push to the queue's branch only
++    steps:
++      - name: Check out main's queue code (no seat code is run here)
++        uses: actions/checkout@v4
++        with:
++          path: main
++          persist-credentials: false
++      - name: Check out the repository for the queue's branch (the checkout's token is the one that pushes)
++        uses: actions/checkout@v4
++        with:
++          path: q
++          fetch-depth: 0
++      - name: Move to the queue's branch, or start it
++        run: |
++          cd q
++          if git ls-remote --exit-code --heads origin "${QUEUE_BRANCH}" >/dev/null; then
++            git fetch -q origin "${QUEUE_BRANCH}"
++            git checkout -q -B "${QUEUE_BRANCH}" FETCH_HEAD
++          else
++            git checkout -q --orphan "${QUEUE_BRANCH}"
++            git rm -rqf .
++          fi
++      - uses: actions/download-artifact@v4
++        with:
++          name: queue
++          path: incoming
++      - name: Check the round's queue before it is recorded
++        run: |
++          python3 -B main/scripts/queue/intake.py --check-manifest incoming
++          rm incoming/.round_manifest.json
++          python3 -B main/scripts/queue/queue_schema.py --dir incoming/cards
++          python3 -B main/scripts/queue/custody.py --log incoming/SIGHTINGS.jsonl
++          if [ -f q/queue/SIGHTINGS.jsonl ]; then cmp -s q/queue/SIGHTINGS.jsonl <(head -c "$(wc -c < q/queue/SIGHTINGS.jsonl)" incoming/SIGHTINGS.jsonl) || { echo "the round would rewrite the sighting log"; exit 1; }; fi
++      - name: Record the round on the queue's branch
++        run: |
++          rm -rf q/queue && mkdir -p q/queue && cp -r incoming/. q/queue/
++          cp main/queue/README.md q/queue/README.md
++          cd q
++          git config user.name "intake runner"
++          git config user.email "intake-runner@users.noreply.github.com"
++          git add -A queue
++          if git diff --cached --quiet; then echo "nothing new this round"; exit 0; fi
++          git commit -q -m "intake: round of $(date -u +%Y-%m-%dT%H:%MZ) (run ${{ github.run_id }})"
++          python3 -B ../main/scripts/queue/custody.py --history HEAD --root .
++          git push origin "HEAD:${QUEUE_BRANCH}"
+diff --git a/.gitignore b/.gitignore
+index 89c1fb3c6..2d969180d 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -82,7 +82,13 @@
+ #                                   arc, not committed loose.
+ #   B729 b729_err.txt               a tkinter import warning, 228 bytes of noise.
+ Archive.zip
+-.github/
++# CHANGED 2026-11-26 (the framework's thin path, T7; draft 1 section 9, the intake on GitHub Actions, agreed by the author):
++# one workflow file may be tracked, .github/workflows/intake.yml; every other path under .github/ stays ignored and
++# forbidden by the gate tracked-forbidden. The line as it stood: .github/
++.github/*
++!.github/workflows/
++.github/workflows/*
++!.github/workflows/intake.yml
+ papers/flagship/*dritero-m.pdf
+ frontier/B500_child_hunt/b500_stragglers.py
+ frontier/B500_child_hunt/b500_stragglers_out.txt
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 6733da96b..febbb22f1 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,24 @@
+ # Changelog
+ 
++## S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)
++
++- **`scripts/queue/intake.py`:** one round of the intake: discovery and sighting (seat codes by branch), the form (a refile
++  it does not declare returned; a card a later card refiles not taken further), custody, the record check (a retracted or
++  superseded premise returns the card, an unverified premise card or premise arc's card keeps it FILED, the firewall's
++  words flagged), and the rerun, as nobody in a network namespace (REPRODUCED with `deciding` set, returned, or heavy).
++  Where no sandbox can be made the round goes on and no seat code runs. The round reads the queue's folder once, decides in
++  memory, writes only after every rerun and not at all if the folder changed meanwhile, and closes what it wrote with a
++  manifest; `--check-manifest` refuses a file the round did not write (main's M62).
++- **`.github/workflows/intake.yml`:** every three hours and by hand; standard runners only; the job that runs seat code
++  reads only and holds no secret; the record job runs no seat code, checks the manifest, the schema and the log, and pushes
++  to the queue's branch alone. Exactly this one workflow path may be tracked (`.gitignore`, the gate tracked-forbidden),
++  as main accepted in M62.
++- **`queue/README.md`:** the runner, and the seven settings the author makes (the $0 budget, workflow permissions
++  read-only, main protected from the runner's token, the queue's branch refusing a force-push, no pull-request trigger, the
++  sandbox read in the first run's log, a heavy rerun's PATH with python-flint).
++- **New test** `tests/test_queue_intake.py` (8 tests), among them main's own probe: a script that writes a VERIFIED card into
++  the queue's folder leaves it untouched.
++
+ ## S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE, AND M61'S (the framework's thin path, T7b part 1; P-885; B2018) (2026-11-27)
+ 
+ - **The rerun (`scripts/queue/rerun.py`), rebuilt (M62, M64 items 1 to 7, M65):** seat code runs as the unprivileged user
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 7fbea0d04..771b84022 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20521,3 +20521,13 @@
+ ends the peer stage without going to banking.
+ 
+ 0 of 19.
++
++## 2026-11-27 — The intake runner, with a sandbox a seat's code cannot leave (S306p)
++
++**What happened.** The building seat sent the second part of T7b: the intake runner and its GitHub workflow, now with the
++sandbox main asked for. A seat's script runs as a user that owns only its own folder, with the network cut, so it cannot
++touch the queue or the code that judges it; where that cannot be arranged no seat code runs at all. The round decides
++everything in memory and writes the queue only at the end, listing what it wrote, and the step that records the round
++refuses any file the round did not write. The settings the author makes on GitHub are written beside the queue.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 23236927a..df500f949 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)”
+ - “S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE, AND M61'S (the framework's thin path, T7b part 1; P-885; B2018) (2026-11-27)”
+ - “S306p THE SEATS ANSWERED: CHAT1'S LINE 65 VERIFIED; THE SM SEAT'S BRANCH READ BY DISCOVERY; WHAT THE QUEUE READS (P-876, P-885; HARVEST ROW 2042; M86, M60, M25, M66) (2026-11-27)”
+ - “S306p MAIN'S SEVEN TRIAL CARDS FILED, BEFORE THE RUNNER'S FIRST ROUND; T10 READ AND HELD (P-885; R88-3 MET; M65) (2026-11-27)”
+@@ -60,7 +61,6 @@
+ - “S306p THE AGY CUSP SEAT'S C66 RECEIVED; C65 SUPERSEDED BY IT (P-885; HARVEST ROW 2041; M23) (2026-11-27)”
+ - “S306p REVIEW 88 ENTERED: EIGHT OF EIGHT PLANTS CAUGHT IN THE FRAMEWORK'S PROCESS WORK; THE QUEUE'S CODE AND PAGES READ (B2018; P-881, P-885; M64) (2026-11-27)”
+ - “S306p THE AGY CUSP SEAT'S FIRST CARD IN THE NEW FORM RECEIVED; T9, T10 AND SM2'S P3 REGISTERED; K1 IN WORDS (P-885) (2026-11-27)”
+-- “S306p THE FULL SUITE ON A FRESH CLONE OF ed9660a9d: 9 FAILED, 7 OF THEM FOR T10's BASELINE (P-810, P-881; M63) (2026-11-27)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index a5fadaadd..0c5b16fea 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1565 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1566 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1947,3 +1947,7 @@
+ - — `test_queue_rerun.py` 
+ - — `test_queue_schema.py` 
+ - — `test_verdict_schema_gate.py` 
++
++## 2026-11-27
++
++- — `test_queue_intake.py` 
+diff --git a/queue/README.md b/queue/README.md
+index 1b553dd29..1d11b1c15 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -9,3 +9,30 @@
+ - The gate: `queue-schema`, on every card in this checkout's `queue/cards/`.
+ 
+ A card's history is append-only. A returned card is refiled as a new card that names the old one.
++
++## The runner (the thin path's patch T7)
++
++- **One round, by hand:** `python3 scripts/queue/intake.py --queue-dir <the queue/ folder of the queue's branch> [--write]`.
++  On a machine where the network cannot be cut by a namespace, add `--allow-static-guard`, by the author's choice only.
++- **On the workflow:** `.github/workflows/intake.yml`, every three hours and by hand (Actions, "intake", "Run workflow").
++  The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
++  queue's branch, `queue`.
++
++## The settings the author makes (once, in the repository's settings on GitHub)
++
++1. **Spending:** set the account's budget for Actions to $0, so a run that would cost money does not run. Standard runners
++   on a public repository are free; the workflow names only `ubuntu-latest`.
++2. **Workflow permissions** (Settings, Actions, General): "Read repository contents and packages permissions". The record
++   job asks for write itself; nothing else gets it.
++3. **Main is protected from the runner's token** (Settings, Rules, Rulesets, a branch ruleset on `main`): restrict updates
++   and deletions, and block force pushes, with the repository's admin role as the only bypass. The workflow's token acts as
++   the Actions bot, which is not an admin, so it cannot push to main.
++4. **The queue's branch refuses a force-push and a deletion** (a second ruleset, on `queue`): block force pushes, restrict
++   deletions. Updates stay open, so the record job can push. The history check reads the branch as it stands, and a
++   rewritten branch would carry no trace (main's M58).
++5. **Fork pull requests:** the workflow has no pull-request trigger, so no fork's code runs in it. Keep it that way.
++6. **After the first round,** check that the run's log reads "the network guard: sudo unshare -n, as nobody". A round
++   that cannot make that sandbox runs no seat code (every rerun is HEAVY); it is never to be given `--allow-static-guard`
++   on the workflow.
++7. **A heavy rerun on the author's machine** runs sage, and for main's B2016 wrapper also a `python3` on the PATH that has
++   python-flint (main's M65): set the PATH so first. There the author may run with `--allow-static-guard`, by choice.
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 4bdc94eba..bd59528ff 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -675,8 +675,11 @@
+     # is 5e7f335c9) under GOVERNANCE section 12's rule for a physical move (docs/REORGANIZATIONS.md, its first entry; scripts/reorganize/root_2026_11_13.py). The
+     # set is empty and stays empty: a relay at the root or loose in docs/ fails this gate.
+     GRANDFATHERED_RELAYS = set()
++    # 2026-11-26 (the framework's thin path, T7; draft 1 section 9, agreed by the author: the intake runs on GitHub
++    # Actions): the one workflow file that may be tracked. Every other path under .github/ is still forbidden.
++    GITHUB_ALLOWED = {".github/workflows/intake.yml"}
+     bad = [f for f in out.splitlines()
+-           if f.startswith(".github/") or f == "Archive.zip"
++           if (f.startswith(".github/") and f not in GITHUB_ALLOWED) or f == "Archive.zip"
+            or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))
+            or (_RELAY_RE.match(f) and os.path.basename(f) not in GRANDFATHERED_RELAYS)]
+     return not bad, bad
+diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
+new file mode 100644
+index 000000000..c501f1afd
+--- /dev/null
++++ b/scripts/queue/intake.py
+@@ -0,0 +1,263 @@
++#!/usr/bin/env python3
++"""The intake runner: one round of the intake (the framework's thin path, patch T7, with T7b; draft 1 § 9; main's M54,
++M62, M64 and M65; P-885).
++
++One round, in this order, for every claim card the queue's branch has not finished with:
++
++  1. discovery (T3, T7b): every card version not yet in the queue is filed FILED by the runner, its seat code tied to its
++     branch by queue/SEAT_CODES.json; the runner sights the card and its decisive script (T4) at the same moment;
++  2. the form (T2): a card whose form fails is RETURNED_AT_INTAKE, with the form's reasons; so is a refile the card does
++     not declare. A card that a later card refiles is not taken further;
++  3. custody (T4): a card whose branch was rewritten past its commit, or whose script is not the one it hashes, is
++     RETURNED_AT_INTAKE;
++  4. the record check (T6), attached under queue/checks/: a premise arc RETRACTED or superseded returns the card; a
++     premise card not VERIFIED, or a premise arc whose own card is not (D6), keeps it FILED, waiting; the firewall's words
++     (A3) are a flag to the author, listed in the round's report;
++  5. the rerun (T5, rebuilt by T7b): REPRODUCED, with `deciding` set from the record check; RETURNED_AT_INTAKE with its
++     reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine.
++
++THE SANDBOX (T7b; main's M62). Seat code runs as the unprivileged user nobody in a network namespace (scripts/queue/rerun.py).
++Where no such wrap can be made the round goes on, and no seat code runs: every rerun is HEAVY. `--allow-static-guard` runs
++seat code without the wrap, on the author's machine and by the author's choice; the workflow never passes it.
++
++THE QUEUE'S FOLDER (T7b; main's M62). The round reads the folder once, at the start, and holds what it decides in memory.
++It writes only after every rerun, and writes nothing if the folder changed while it ran. It closes what it wrote with a
++manifest, `.round_manifest.json`, and the record job refuses a file the round did not write (`--check-manifest`).
++
++The queue as the round leaves it must hold its schema (T1, T1b, T7b) and the log its form (T4), or nothing is written.
++
++    python3 scripts/queue/intake.py --queue-dir DIR                   # a round, printed; writes nothing
++    python3 scripts/queue/intake.py --queue-dir DIR --write           # and writes the queue's files under DIR
++      [--max-cards N] [--limit SECONDS] [--at TIME] [--allow-static-guard]
++    python3 scripts/queue/intake.py --check-manifest DIR              # the record job's check of a round's queue
++DIR holds `cards/`, `checks/` and `SIGHTINGS.jsonl`: the `queue/` folder of the queue's branch. Run `git fetch --all`
++first. Exit 0 when the round ran, 1 when it refused to write or a manifest does not hold."""
++import datetime
++import hashlib
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[1]
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++QS = _load("queue_schema_for_intake", HERE / "queue_schema.py")
++CF = _load("card_form_for_intake", HERE / "card_form.py")
++D = _load("discover_for_intake", HERE / "discover.py")
++CU = _load("custody_for_intake", HERE / "custody.py")
++RC = _load("record_check_for_intake", HERE / "record_check.py")
++RR = _load("rerun_for_intake", HERE / "rerun.py")
++MAX_CARDS = 3                      # cards rerun in one round, so that a round stays inside the job's time
++
++
++def _now():
++    return datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
++
++
++def _move(rec, status, note, at):
++    rec["history"].append({"at": at, "status": status, "by": "runner", "note": note[:2000]})
++    rec["status"] = status
++
++
++def _card_text(root, rec):
++    r = subprocess.run(["git", "show", "%s:%s" % (rec["commit"], rec["card_path"])], cwd=root, capture_output=True,
++                       text=True)
++    return r.stdout if r.returncode == 0 else None
++
++
++def read_queue_dir(qdir):
++    qdir = pathlib.Path(qdir)
++    cards = D.read_queue(qdir / "cards")
++    log = (qdir / "SIGHTINGS.jsonl").read_text(encoding="utf-8") if (qdir / "SIGHTINGS.jsonl").is_file() else ""
++    return cards, log
++
++
++def snapshot(qdir):
++    """{relative path: sha256} of every file under the queue's folder"""
++    qdir = pathlib.Path(qdir)
++    if not qdir.is_dir():
++        return {}
++    return {str(f.relative_to(qdir)): hashlib.sha256(f.read_bytes()).hexdigest()
++            for f in sorted(qdir.rglob("*")) if f.is_file()}
++
++
++def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_LIMIT, max_cards=MAX_CARDS,
++           prefix=None, allow_static=False, codes=None):
++    """one round: (the cards after it, the log after it, {id: attachment}, report lines, exit status). The queue's folder
++    is read once, at the start; what the round decides is held in memory and written only after every rerun (main's M62)"""
++    at = at or _now()
++    cards, log_text = read_queue_dir(qdir)
++    cards = json.loads(json.dumps(cards))
++    entries, bad = CU.read_log(log_text)
++    if bad:
++        return cards, log_text, {}, ["the sighting log does not hold its form: " + "; ".join(bad[:3])], 1
++    if prefix is None:
++        prefix, guard = RR.sandbox_prefix()
++    else:
++        guard = " ".join(prefix) or "no sandbox"
++    # T7b (M64 item 4): where no sandbox can be made, the round goes on and no seat code runs: each rerun is HEAVY
++    report, attached, new_lines = ["the network guard: %s" % (guard if prefix else
++                                                               guard + "; no seat code runs this round")], {}, []
++    seen = {}
++    for cid, r in cards.items():                      # the versions already filed, keyed on branch, path and blob (C25)
++        rc = subprocess.run(["git", "rev-parse", "%s:%s" % (r["commit"], r["card_path"])], cwd=root, capture_output=True,
++                            text=True)
++        if rc.returncode == 0:
++            seen[(r["branch"], r["card_path"], rc.stdout.strip())] = cid
++    new, found = D.discover(cards, refs if refs is not None else D.branches(), root=root, at=at, seen_blobs=seen,
++                            codes=codes)
++    report += found
++    for cid, rec in new.items():
++        for path, what in [(rec["card_path"], "card")] + [(p, "script") for p in _script_path(root, rec)]:
++            e = CU.sight(root, entries + new_lines, rec["branch"], rec["commit"], path, what, at)
++            if e:
++                new_lines.append(e)
++    cards.update(new)
++    entries = entries + new_lines
++    done = 0
++    refiled = {old for r in cards.values() for old in r["refiles"]}
++    for cid in sorted(cards):
++        rec = cards[cid]
++        if rec["status"] != "FILED" or rec["heavy"]:
++            continue
++        if cid in refiled:                            # Review 88's A24: a refiled card's old version is not taken further
++            report.append("%s is refiled by a later card, and is not taken further" % cid)
++            continue
++        text = _card_text(root, rec)
++        if text is None:
++            _move(rec, "RETURNED_AT_INTAKE", "the card is not at its sealed commit", at)
++            continue
++        problems = CF.form_problems(text)
++        if "a refile of" in rec["history"][0]["note"] and "does not declare" in rec["history"][0]["note"]:
++            problems.append("it refiles a card it does not declare: write 'card id: refiles Q<nnnn>'")
++        if problems:
++            _move(rec, "RETURNED_AT_INTAKE", "the form: " + "; ".join(problems), at)
++            report.append("%s RETURNED_AT_INTAKE (form)" % cid)
++            continue
++        problems = CU.custody_problems(root, rec, entries)
++        if problems:
++            _move(rec, "RETURNED_AT_INTAKE", "custody: " + "; ".join(problems), at)
++            report.append("%s RETURNED_AT_INTAKE (custody)" % cid)
++            continue
++        check = RC.check(record_root, text, cards)
++        attached[cid] = check
++        if check["firewall"]:
++            report.append("%s FLAG for the author (A3): %s" % (cid, ", ".join(check["firewall"])))
++        if check["retracted"]["premises"]:
++            _move(rec, "RETURNED_AT_INTAKE", "the record: " + "; ".join(check["retracted"]["premises"]), at)
++            report.append("%s RETURNED_AT_INTAKE (a premise retracted or superseded)" % cid)
++            continue
++        if check["waits_on"]:
++            report.append("%s waits on %s (D6)" % (cid, ", ".join(check["waits_on"])))
++            continue
++        if done >= max_cards:
++            report.append("%s left for the next round (%d cards rerun in this one)" % (cid, max_cards))
++            continue
++        done += 1
++        res = RR.rerun(root, rec["commit"], text, limit=limit, prefix=prefix, allow_static=allow_static)
++        check["rerun"] = res
++        if res["status"] == "REPRODUCED":
++            rec["deciding"] = bool(check["deciding"])
++            _move(rec, "REPRODUCED", "the rerun at the sealed commit: %d decisive lines, hash %s; the control exited 1; "
++                  "guard: %s" % (res["decisive"]["lines"], res["decisive"]["sha256"], res["guard"]), at)
++            report.append("%s REPRODUCED (deciding: %s)" % (cid, rec["deciding"]))
++        elif res["status"] == "HEAVY":
++            rec["heavy"] = True
++            report.append("%s HEAVY, for the author's machine: %s" % (cid, "; ".join(res["reasons"])))
++        else:
++            _move(rec, "RETURNED_AT_INTAKE", "the rerun: " + "; ".join(res["reasons"]), at)
++            report.append("%s RETURNED_AT_INTAKE (rerun)" % cid)
++    log_after = CU.append(log_text, new_lines)
++    problems = QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) + CU.read_log(log_after)[1]
++    if problems:
++        return cards, log_after, attached, report + ["the queue would not hold its schema: " + "; ".join(problems[:5])], 1
++    return cards, log_after, attached, report, 0
++
++
++def _script_path(root, rec):
++    text = _card_text(root, rec) or ""
++    m = CF.SCRIPT.match(CF.read(text)[1].get("decisive script", ""))
++    return [m.group(1)] if m else []
++
++
++MANIFEST = ".round_manifest.json"
++
++
++def write(qdir, cards, log_text, attached, before=None):
++    """write the round's queue: refused when the folder changed while the round ran (`before`, its snapshot at the start),
++    and closed by a manifest of what the round wrote, which the record job checks (main's M62). -> problems, [] when done"""
++    qdir = pathlib.Path(qdir)
++    if before is not None:
++        now = snapshot(qdir)
++        changed = sorted(set(before) ^ set(now) | {k for k in before if k in now and before[k] != now[k]})
++        if changed:
++            return ["the queue's folder changed while the round ran, so the round writes nothing: %s" % ", ".join(changed[:5])]
++    (qdir / "cards").mkdir(parents=True, exist_ok=True)
++    (qdir / "checks").mkdir(parents=True, exist_ok=True)
++    for cid, rec in cards.items():
++        (qdir / "cards" / ("%s.json" % cid)).write_text(json.dumps(rec, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
++    for cid, check in attached.items():
++        (qdir / "checks" / ("%s.json" % cid)).write_text(json.dumps(check, indent=1, ensure_ascii=False) + "\n",
++                                                        encoding="utf-8")
++    (qdir / "SIGHTINGS.jsonl").write_text(log_text, encoding="utf-8")
++    written = {k: v for k, v in snapshot(qdir).items() if k != MANIFEST}
++    (qdir / MANIFEST).write_text(json.dumps(written, indent=1, sort_keys=True) + "\n", encoding="utf-8")
++    return []
++
++
++def manifest_problems(qdir):
++    """the record job's check: every file of the round's queue is one the round wrote, with the content it wrote"""
++    qdir = pathlib.Path(qdir)
++    try:
++        written = json.loads((qdir / MANIFEST).read_text(encoding="utf-8"))
++    except (OSError, ValueError):
++        return ["the round's queue has no manifest of what it wrote"]
++    now = {k: v for k, v in snapshot(qdir).items() if k != MANIFEST}
++    extra, lost = sorted(set(now) - set(written)), sorted(set(written) - set(now))
++    changed = sorted(k for k in set(now) & set(written) if now[k] != written[k])
++    return (["a file the round did not write: %s" % ", ".join(extra[:5])] if extra else []) + \
++           (["a file the round wrote is missing: %s" % ", ".join(lost[:5])] if lost else []) + \
++           (["a file is not as the round wrote it: %s" % ", ".join(changed[:5])] if changed else [])
++
++
++def main(argv):
++    arg = lambda k, d=None: argv[argv.index(k) + 1] if k in argv else d
++    if "--check-manifest" in argv:
++        bad = manifest_problems(arg("--check-manifest"))
++        for b in bad:
++            print(b)
++        print("%d problem(s) in the round's manifest" % len(bad))
++        return 1 if bad else 0
++    qdir = arg("--queue-dir")
++    if not qdir:
++        print(__doc__)
++        return 1
++    before = snapshot(qdir)
++    cards, log_text, attached, report, status = round_(
++        qdir, at=arg("--at"), limit=int(arg("--limit", RR.TIME_LIMIT)), max_cards=int(arg("--max-cards", MAX_CARDS)),
++        allow_static="--allow-static-guard" in argv)
++    for line in report:
++        print(line)
++    if status == 0 and "--write" in argv:
++        bad = write(qdir, cards, log_text, attached, before)
++        for b in bad:
++            print(b)
++        if bad:
++            return 1
++        print("written to %s" % qdir)
++    return status
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tests/test_queue_intake.py b/tests/test_queue_intake.py
+new file mode 100644
+index 000000000..439bb3823
+--- /dev/null
++++ b/tests/test_queue_intake.py
+@@ -0,0 +1,259 @@
++"""2026-11-26 (the framework's thin path, patch T7; main's M54; register row P-885): the intake runner,
++scripts/queue/intake.py, and its workflow, .github/workflows/intake.yml.
++
++On a repository built here, one round files every card, sights it, and moves each as its checks decide: a card that holds
++is REPRODUCED with `deciding` set; a card whose form fails, whose script is not the one it hashes, or whose rerun fails is
++RETURNED_AT_INTAKE; a card that waits on an unverified card stays FILED; a card declared heavy stays FILED, marked heavy;
++words of a comparison with data are flagged in the report. A second round changes nothing. The written queue holds its
++schema. A round that cannot cut the network stops unless told otherwise. The workflow reads only, except the one job that
++records, which runs no seat code; it has no pull-request trigger and names only standard runners."""
++import hashlib
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++IN = _load("intake_under_test", "scripts/queue/intake.py")
++SCRIPT = ("import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\nprint('DECISIVE: {name} = 12')\n")
++
++
++def _script(name):
++    return SCRIPT.format(name=name)
++
++
++AT = "2026-11-26T12:00:00Z"
++
++
++def _card(title, name, h=None, touches="P-885", premises="B335", note="", heavy="", kind="computation", printed=None,
++          stated="0" * 40):
++    """a full card for the script s_<name>.py, which prints one decisive line; `printed` is the line the card says it
++    prints (the script's own unless given), so a card can be made to say what its script does not print"""
++    script = "s_%s.py" % name
++    h = h or hashlib.sha256(_script(name).encode()).hexdigest()[:16]
++    n, d = IN.RR.decisive((printed or "DECISIVE: %s = 12" % name) + "\n")
++    return """# CLAIM CARD — {title}
++
++- card id: new
++- seat code: fam2-v5-high-01
++- seat, branch, commit: fam2-v5-high-01, seat/a, {stated}
++- kind: {kind}
++- touches: {touches}
++- effect: supports — {touches}
++- scope: frame: F-HE; object: m004; reach: single; hypotheses: none
++- identifications: none
++- definitions: a class is an orbit of the group on the level's states
++- imports: none
++- premises on main: {premises}
++- decisive script: {script}, SHA-256 {h}, depends on the standard library, run as python3 {script}, output SHA-256 0011223344556677{heavy}
++- decisive lines: {n} lines marked "DECISIVE:", SHA-256 {d}
++- failing control: python3 {script} --plant
++- second computation: none
++- already on main?: none found
++- what would make it fail: the planted level{note}
++""".format(title=title, script=script, h=h, touches=touches, premises=premises, note=note, heavy=heavy, kind=kind,
++           n=n, d=d, stated=stated)
++
++
++CODES = {"seat/a": "fam2-v5-high-01"}
++
++
++def _repo(tmp_path):
++    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
++                                  capture_output=True, text=True, check=True).stdout
++    g("init", "-q", "-b", "seat/a")
++    names = ("good", "form", "hash", "rerun", "waits", "heavy", "flag")
++    for name in names:
++        (tmp_path / ("s_%s.py" % name)).write_text(_script(name), encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "the scripts")
++    stated = g("rev-parse", "HEAD").strip()           # a card names a commit before the one that adds it (M65)
++    (tmp_path / "relays" / "claims").mkdir(parents=True)
++    cards = {
++        "CLAIM_good.md": _card("a count that holds", "good", stated=stated),
++        "CLAIM_form.md": _card("a card of the wrong kind", "form", kind="a guess", stated=stated),
++        "CLAIM_hash.md": _card("a card whose script is not the one it hashes", "hash", h="0" * 16, stated=stated),
++        "CLAIM_rerun.md": _card("a card whose lines differ", "rerun", printed="DECISIVE: rerun = 13", stated=stated),
++        "CLAIM_waits.md": _card("a card built on an unverified card", "waits", premises="Q0099", stated=stated),
++        "CLAIM_heavy.md": _card("a card declared heavy", "heavy", heavy=", heavy", stated=stated),
++        "CLAIM_flag.md": _card("a card that compares", "flag", note="; compared with data at the pole", stated=stated),
++    }
++    for name, text in cards.items():
++        (tmp_path / "relays" / "claims" / name).write_text(text, encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "seven cards")
++    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
++    return g
++
++
++def _by_path(cards):
++    return {pathlib.Path(r["card_path"]).name: r for r in cards.values()}
++
++
++def test_one_round_moves_each_card_as_its_checks_decide(tmp_path):
++    repo, q = tmp_path / "repo", tmp_path / "queue"
++    repo.mkdir()
++    _repo(repo)
++    cards, log, attached, report, status = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at=AT, limit=60,
++                                                      allow_static=True)
++    assert status == 0, report
++    by = _by_path(cards)
++    assert len(by) == 7 and all(r["history"][0]["by"] == "runner" for r in by.values())
++    assert by["CLAIM_good.md"]["status"] == "REPRODUCED" and by["CLAIM_good.md"]["deciding"] is True
++    assert by["CLAIM_form.md"]["status"] == "RETURNED_AT_INTAKE" and "kind is not" in by["CLAIM_form.md"]["history"][-1]["note"]
++    assert by["CLAIM_hash.md"]["status"] == "RETURNED_AT_INTAKE" and "custody" in by["CLAIM_hash.md"]["history"][-1]["note"]
++    assert by["CLAIM_rerun.md"]["status"] == "RETURNED_AT_INTAKE" and "decisive lines" in by["CLAIM_rerun.md"]["history"][-1]["note"]
++    assert by["CLAIM_waits.md"]["status"] == "FILED" and any("waits on Q0099" in r for r in report)
++    assert by["CLAIM_heavy.md"]["status"] == "FILED" and by["CLAIM_heavy.md"]["heavy"] is True
++    assert any("FLAG for the author (A3)" in r for r in report)
++    entries, bad = IN.CU.read_log(log)
++    assert bad == [] and {e["what"] for e in entries} == {"card", "script"} and len(entries) == 14
++    IN.write(q, cards, log, attached)
++    assert IN.QS.queue_problems(IN.QS.read_dir(q / "cards")) == []
++    good = by["CLAIM_good.md"]["id"]
++    assert json.loads((q / "checks" / ("%s.json" % good)).read_text())["rerun"]["status"] == "REPRODUCED"
++    # a second round changes nothing that was decided, and sights nothing again
++    cards2, log2, _, report2, status2 = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at="2026-11-26T15:00:00Z",
++                                                  limit=60, allow_static=True)
++    assert status2 == 0 and log2 == log
++    assert {k: v["status"] for k, v in cards2.items()} == {k: v["status"] for k, v in cards.items()}
++
++
++def test_where_no_sandbox_can_be_made_no_seat_code_runs_and_the_round_goes_on(tmp_path):
++    """T7b (main's M64 item 4): every rerun is HEAVY; the form, custody and the record check still run"""
++    repo = tmp_path / "repo"
++    repo.mkdir()
++    _repo(repo)
++    cards, _, _, report, status = IN.round_(tmp_path / "q", root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at=AT,
++                                            prefix=[])
++    by = _by_path(cards)
++    assert status == 0 and "no seat code runs this round" in report[0]
++    assert by["CLAIM_good.md"]["status"] == "FILED" and by["CLAIM_good.md"]["heavy"] is True
++    assert by["CLAIM_form.md"]["status"] == "RETURNED_AT_INTAKE" and by["CLAIM_hash.md"]["status"] == "RETURNED_AT_INTAKE"
++
++
++def test_the_round_writes_only_what_it_holds_and_the_record_job_refuses_what_it_did_not_write(tmp_path):
++    """T7b (main's M62): a folder changed while the round ran is not written over; a file the round did not write, or one
++    changed after it, fails the manifest"""
++    repo, q = tmp_path / "repo", tmp_path / "queue"
++    repo.mkdir()
++    _repo(repo)
++    before = IN.snapshot(q)
++    cards, log, att, _, _ = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at=AT, limit=60,
++                                      allow_static=True)
++    q.mkdir(parents=True)
++    (q / "cards").mkdir()
++    (q / "cards" / "Q0001.json").write_text('{"status": "VERIFIED"}', encoding="utf-8")
++    assert IN.write(q, cards, log, att, before) != []
++    (q / "cards" / "Q0001.json").unlink()
++    assert IN.write(q, cards, log, att, IN.snapshot(q)) == [] and IN.manifest_problems(q) == []
++    (q / "cards" / "Q0099.json").write_text("{}", encoding="utf-8")
++    assert any("a file the round did not write" in b for b in IN.manifest_problems(q))
++    (q / "cards" / "Q0099.json").unlink()
++    (q / "SIGHTINGS.jsonl").write_text("", encoding="utf-8")
++    assert any("not as the round wrote it" in b for b in IN.manifest_problems(q))
++
++
++def test_a_seat_script_cannot_write_the_queues_folder(tmp_path):
++    """T7b (main's M62, its own probe): a commit whose script prints its decisive lines and writes a VERIFIED card into the
++    queue's folder comes out REPRODUCED with the folder untouched, the round's result the same as without the write"""
++    prefix, name = IN.RR.sandbox_prefix()
++    if not prefix:
++        import pytest
++        pytest.skip("no unprivileged user in a network namespace on this machine (%s)" % name)
++    repo, q = tmp_path / "repo", tmp_path / "queue"
++    (q / "cards").mkdir(parents=True)
++    q.chmod(0o755)
++    (q / "cards").chmod(0o755)
++    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=repo, capture_output=True,
++                                  text=True, check=True).stdout
++    repo.mkdir()
++    g("init", "-q", "-b", "seat/a")
++    evil = (_script("evil").replace("print(", "try:\n    open(%r, 'w').write('{\"status\": \"VERIFIED\"}')\nexcept OSError:\n"
++                                    "    pass\nprint(" % str(q / "cards" / "Q0002.json"), 1))
++    (repo / "s_evil.py").write_text(evil, encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "a script")
++    stated = g("rev-parse", "HEAD").strip()
++    (repo / "relays" / "claims").mkdir(parents=True)
++    text = _card("a card whose script writes the queue", "evil", stated=stated,
++                 h=hashlib.sha256(evil.encode()).hexdigest()[:16])
++    (repo / "relays" / "claims" / "CLAIM_evil.md").write_text(text, encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "the card")
++    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
++    before = IN.snapshot(q)
++    cards, log, att, report, status = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at=AT, limit=60,
++                                                prefix=prefix)
++    assert [r["status"] for r in cards.values()] == ["REPRODUCED"], report
++    assert not (q / "cards" / "Q0002.json").exists() and IN.snapshot(q) == before
++
++
++def test_the_workflow_reads_only_but_where_it_records_and_runs_no_seat_code_there():
++    """read as text (the repository has no YAML reader among its dependencies): the triggers, the permissions, the two
++    jobs and what each runs"""
++    text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
++    head, jobs = text.split("\njobs:\n", 1)
++    round_job, record = jobs.split("\n  record:\n", 1)
++    on = head.split("\non:\n", 1)[1].split("\n\n", 1)[0]
++    triggers = [l.strip().split(":")[0] for l in on.splitlines() if l.startswith("  ") and not l.startswith("    ")]
++    assert triggers == ["schedule", "workflow_dispatch"]                 # no pull-request trigger: no fork's code runs
++    assert "\npermissions:\n  contents: read" in head
++    assert "permissions:" not in round_job and "    permissions:\n      contents: write" in record
++    assert "    needs: round" in record
++    assert round_job.count("runs-on: ubuntu-latest") == 1 and record.count("runs-on: ubuntu-latest") == 1
++    assert "runs-on" not in text.replace("runs-on: ubuntu-latest", "")   # no other runner, larger or self-hosted
++    assert "secrets." not in round_job and "persist-credentials: false" in round_job
++    assert "intake.py --queue-dir" in round_job and "--allow-static-guard" not in text
++    assert "intake.py --queue-dir" not in record and "rerun.py" not in record      # the recording job runs no round
++    assert "intake.py --check-manifest incoming" in record                          # T7b: only what the round wrote
++    assert "queue_schema.py --dir incoming/cards" in record and "custody.py --history HEAD --root ." in record
++
++
++def test_the_settings_the_author_makes_are_written_down():
++    page = (ROOT / "queue" / "README.md").read_text(encoding="utf-8")
++    for words in ("$0", "Main is protected from the runner's token", "refuses a force-push", "no pull-request trigger",
++                  "the network guard"):
++        assert words in page, words
++
++
++def test_the_one_workflow_file_is_the_only_path_under_github_that_may_be_tracked(monkeypatch):
++    """the gate tracked-forbidden kept .github/ out of the record whole; draft 1's section 9 puts the intake on GitHub
++    Actions, so exactly one workflow file is allowed, and every other path there is still refused"""
++    gates = _load("gates_for_the_workflow_test", "scripts/gates/gates.py")
++    for files, ok in (([".github/workflows/intake.yml", "README.md"], True),
++                      ([".github/workflows/intake.yml", ".github/workflows/other.yml"], False),
++                      ([".github/dependabot.yml"], False)):
++        monkeypatch.setattr(gates, "_git", lambda *a, files=files: (0, "\n".join(files)))
++        got, bad = gates.gate_tracked_forbidden()
++        assert got is ok, (files, bad)
++        assert ".github/workflows/intake.yml" not in bad
++
++
++def test_a_card_refiled_by_a_later_card_is_not_taken_further(tmp_path):
++    """Review 88's A24: once a new version refiles a card, the old version stays where it is and is not rerun"""
++    repo, q = tmp_path / "repo", tmp_path / "queue"
++    repo.mkdir()
++    g = _repo(repo)
++    cards, log, att, report, _ = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at=AT, prefix=[])
++    by = _by_path(cards)
++    heavy = by["CLAIM_heavy.md"]                      # FILED and heavy: left for the author's machine
++    good = by["CLAIM_waits.md"]                       # FILED, waiting on Q0099
++    later = dict(good, id="Q0100", refiles=[good["id"]], history=[dict(good["history"][0])])
++    cards[later["id"]] = later
++    IN.write(q, cards, log, att)
++    _, _, _, report, _ = IN.round_(q, root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at="2026-11-27T18:00:00Z",
++                                   prefix=[])
++    assert any("%s is refiled by a later card, and is not taken further" % good["id"] in r for r in report)
++    assert not any(("%s waits on" % good["id"]) in r for r in report) and heavy["id"]
+-- 
+2.43.0
+

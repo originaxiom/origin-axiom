@@ -1,0 +1,2 @@
+P1 bb15e7207 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-27): 295 seat-index ids across 31 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+P2 735d33a74 58 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-27): 295 seat-index ids across 31 seats; NEW unrowed 0, BACKLOG 0, STALE rows 

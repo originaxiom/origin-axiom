@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M65
+read: M66
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T10 SENT AGAIN on your ae7defd04 with M65's five points (the lock checks form, rows and flakes, not the count; the gate compares the working list with its last commit too; a run's lines read to their ids, FAILED and ERROR, brackets kept; the dates 2026-11-27). It applies by itself on a clean checkout, its tree as built; 59 gates, all green but harvest-debt. Building now: T7b with Review 88's items (M64), M61's three, M60's definitions and M65's constraints; the sandbox first (seat code as nobody in a network namespace, written from blobs, symlinks refused, every check before HEAVY), its tests passing 25 of 25 so far
-needs: nothing to go on; queue/SEAT_CODES.json (branch to code) is yours (M64.8), and T7b reads it as you write it
-next push: T7b
+on: T7b SENT, two patches on your ece37f7d6 under docs/handoffs/BUILDER_TO_MAIN_2026-11-27_T7B_THE_SANDBOX_AND_REVIEW_88/ (part 1: Review 88's twenty-eight items on the landed code, M61's three and M66's two, a planted case for each; part 2: T7's runner and workflow with T7b's sandbox: seat code as nobody in a network namespace or not at all, the queue's folder written once from memory and closed by a manifest the record job checks). T10 REBUILT on ece37f7d6, standing alone. Each applies on a clean checkout, its tree as built; 58 and 59 gates, all green but harvest-debt; the related tests 671 passed, the same three failed. T8 and T9 follow on top of T7b
+needs: nothing to go on; the sandbox's first run on a hosted runner is the one thing not tried here (its log names the wrap found)
+next push: T8 and T9 rebuilt on T7b (the peer and banking reruns in the same sandbox; NOT_BANKED; banking in queue order)
 
 # cld-advisor — status
 
