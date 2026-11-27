@@ -1,0 +1,809 @@
+{
+  "E1_all_prime_systole_parabolicity": {
+    "dual_triplet_primes": [
+      5
+    ],
+    "exact_complement_match_primes": [
+      5
+    ],
+    "parabolic_cusp_shears_verified": false,
+    "parabolic_systole_primes": [
+      5
+    ],
+    "prime_rows": [
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 2,
+        "remaining_C_omega_orbit_sizes": [],
+        "remaining_lines_count": 0,
+        "systole_fixed_line_counts": [
+          0,
+          0,
+          0
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 3
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 3,
+        "remaining_C_omega_orbit_sizes": [
+          1
+        ],
+        "remaining_lines_count": 1,
+        "systole_fixed_line_counts": [
+          0,
+          0,
+          0
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 4
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": true,
+        "p": 5,
+        "remaining_C_omega_orbit_sizes": [
+          3
+        ],
+        "remaining_lines_count": 3,
+        "systole_fixed_line_counts": [
+          1,
+          1,
+          1
+        ],
+        "systoles_all_parabolic_mod_p": true,
+        "total_lines": 6
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 7,
+        "remaining_C_omega_orbit_sizes": [
+          3,
+          1,
+          1
+        ],
+        "remaining_lines_count": 5,
+        "systole_fixed_line_counts": [
+          0,
+          0,
+          0
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 8
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 11,
+        "remaining_C_omega_orbit_sizes": [
+          3,
+          3,
+          3
+        ],
+        "remaining_lines_count": 9,
+        "systole_fixed_line_counts": [
+          2,
+          2,
+          2
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 12
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 13,
+        "remaining_C_omega_orbit_sizes": [
+          3,
+          3,
+          1,
+          3,
+          1
+        ],
+        "remaining_lines_count": 11,
+        "systole_fixed_line_counts": [
+          0,
+          0,
+          0
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 14
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 17,
+        "remaining_C_omega_orbit_sizes": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "remaining_lines_count": 15,
+        "systole_fixed_line_counts": [
+          0,
+          0,
+          0
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 18
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 19,
+        "remaining_C_omega_orbit_sizes": [
+          3,
+          3,
+          3,
+          3,
+          1,
+          3,
+          1
+        ],
+        "remaining_lines_count": 17,
+        "systole_fixed_line_counts": [
+          2,
+          2,
+          2
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 20
+      },
+      {
+        "cusp_triplet_size": 3,
+        "matches_dual_3_plus_3_systole_triplet": false,
+        "p": 23,
+        "remaining_C_omega_orbit_sizes": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "remaining_lines_count": 21,
+        "systole_fixed_line_counts": [
+          0,
+          0,
+          0
+        ],
+        "systoles_all_parabolic_mod_p": false,
+        "total_lines": 24
+      }
+    ],
+    "primes_scanned": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23
+    ],
+    "systole_dets": [
+      1,
+      1,
+      1
+    ],
+    "systole_discriminants": [
+      5,
+      5,
+      5
+    ],
+    "systole_matrices": [
+      [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          3
+        ]
+      ]
+    ],
+    "systole_traces": [
+      3,
+      3,
+      3
+    ],
+    "w6_jacobian_eigenvalues_at_333": [
+      14,
+      5,
+      5
+    ],
+    "w6_jacobian_neutral_to_charged_ratio_at_333": "14/5"
+  },
+  "E2_two_counts_6move_spectrum": {
+    "all_p2_to_7_exact_Z_paired": true,
+    "exact_poly_table_p2_to_7": {
+      "2": {
+        "line": {
+          "P_chg_coeffs": [
+            1,
+            0
+          ],
+          "P_chg_factored": "x",
+          "P_neu_coeffs": [
+            1,
+            -6
+          ],
+          "P_neu_factored": "x - 6",
+          "d0": 1,
+          "d1": 1,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 3
+        },
+        "ray": {
+          "P_chg_coeffs": [
+            1,
+            0
+          ],
+          "P_chg_factored": "x",
+          "P_neu_coeffs": [
+            1,
+            -6
+          ],
+          "P_neu_factored": "x - 6",
+          "d0": 1,
+          "d1": 1,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 3
+        },
+        "vec": {
+          "P_chg_coeffs": [
+            1,
+            0
+          ],
+          "P_chg_factored": "x",
+          "P_neu_coeffs": [
+            1,
+            -6
+          ],
+          "P_neu_factored": "x - 6",
+          "d0": 1,
+          "d1": 1,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 3
+        }
+      },
+      "3": {
+        "line": {
+          "P_chg_coeffs": [
+            1,
+            -1
+          ],
+          "P_chg_factored": "x - 1",
+          "P_neu_coeffs": [
+            1,
+            -4,
+            -12
+          ],
+          "P_neu_factored": "(x - 6)*(x + 2)",
+          "d0": 2,
+          "d1": 1,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 1,
+          "n": 4
+        },
+        "ray": {
+          "P_chg_coeffs": [
+            1,
+            -1
+          ],
+          "P_chg_factored": "x - 1",
+          "P_neu_coeffs": [
+            1,
+            -4,
+            -12
+          ],
+          "P_neu_factored": "(x - 6)*(x + 2)",
+          "d0": 2,
+          "d1": 1,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 1,
+          "n": 4
+        },
+        "vec": {
+          "P_chg_coeffs": [
+            1,
+            -4,
+            3
+          ],
+          "P_chg_factored": "(x - 3)*(x - 1)",
+          "P_neu_coeffs": [
+            1,
+            -4,
+            -12,
+            0,
+            0
+          ],
+          "P_neu_factored": "x**2*(x - 6)*(x + 2)",
+          "d0": 4,
+          "d1": 2,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 2,
+          "n": 8
+        }
+      },
+      "5": {
+        "line": {
+          "P_chg_coeffs": [
+            1,
+            1,
+            -3
+          ],
+          "P_chg_factored": "x**2 + x - 3",
+          "P_neu_coeffs": [
+            1,
+            -8,
+            12
+          ],
+          "P_neu_factored": "(x - 6)*(x - 2)",
+          "d0": 2,
+          "d1": 2,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 6
+        },
+        "ray": {
+          "P_chg_coeffs": [
+            1,
+            -2,
+            -5,
+            10,
+            -3
+          ],
+          "P_chg_factored": "(x**2 - 3*x + 1)*(x**2 + x - 3)",
+          "P_neu_coeffs": [
+            1,
+            -8,
+            -8,
+            160,
+            -240
+          ],
+          "P_neu_factored": "(x - 6)*(x - 2)*(x**2 - 20)",
+          "d0": 4,
+          "d1": 4,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 12
+        },
+        "vec": {
+          "P_chg_coeffs": [
+            1,
+            -8,
+            10,
+            52,
+            -105,
+            -60,
+            126,
+            36,
+            -27
+          ],
+          "P_chg_factored": "(x**2 - 3*x - 3)**2*(x**2 - 3*x + 1)*(x**2 + x - 3)",
+          "P_neu_coeffs": [
+            1,
+            -8,
+            -8,
+            160,
+            -240,
+            0,
+            0,
+            0,
+            0
+          ],
+          "P_neu_factored": "x**4*(x - 6)*(x - 2)*(x**2 - 20)",
+          "d0": 8,
+          "d1": 8,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 24
+        }
+      },
+      "7": {
+        "line": {
+          "P_chg_coeffs": [
+            1,
+            -1,
+            -1
+          ],
+          "P_chg_factored": "x**2 - x - 1",
+          "P_neu_coeffs": [
+            1,
+            -4,
+            -28,
+            96,
+            0
+          ],
+          "P_neu_factored": "x*(x - 6)*(x**2 + 2*x - 16)",
+          "d0": 4,
+          "d1": 2,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 2,
+          "n": 8
+        },
+        "ray": {
+          "P_chg_coeffs": [
+            1,
+            -3,
+            -6,
+            23,
+            3,
+            -48,
+            23,
+            15,
+            -9
+          ],
+          "P_chg_factored": "(x**2 - x - 1)*(x**3 - x**2 - 4*x + 3)**2",
+          "P_neu_coeffs": [
+            1,
+            -12,
+            12,
+            320,
+            -1104,
+            -192,
+            2624,
+            1536,
+            0
+          ],
+          "P_neu_factored": "x*(x - 6)*(x**2 - 4*x - 4)**2*(x**2 + 2*x - 16)",
+          "d0": 8,
+          "d1": 8,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 24
+        },
+        "vec": {
+          "P_chg_coeffs": [
+            1,
+            -12,
+            21,
+            266,
+            -1122,
+            -1128,
+            12551,
+            -10290,
+            -50445,
+            89100,
+            57132,
+            -211248,
+            56403,
+            149040,
+            -78489,
+            -30618,
+            19683
+          ],
+          "P_chg_factored": "(x**2 - 3*x - 3)*(x**2 - x - 1)*(x**3 - 3*x**2 - 12*x + 27)**2*(x**3 - x**2 - 4*x + 3)**2",
+          "P_neu_coeffs": [
+            1,
+            -12,
+            12,
+            320,
+            -1104,
+            -192,
+            2624,
+            1536,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "P_neu_factored": "x**9*(x - 6)*(x**2 - 4*x - 4)**2*(x**2 + 2*x - 16)",
+          "d0": 16,
+          "d1": 16,
+          "exact_q1_eq_q2_and_prod_eq_tot": true,
+          "fixed_C": 0,
+          "n": 48
+        }
+      }
+    },
+    "golden_kernel_rows": [
+      {
+        "line_kernel_dim": 0,
+        "p": 2,
+        "ray_kernel_dim": 0,
+        "vec_kernel_dim": 0
+      },
+      {
+        "line_kernel_dim": 0,
+        "p": 3,
+        "ray_kernel_dim": 0,
+        "vec_kernel_dim": 0
+      },
+      {
+        "line_kernel_dim": 0,
+        "p": 5,
+        "ray_kernel_dim": 4,
+        "vec_kernel_dim": 4
+      },
+      {
+        "line_kernel_dim": 0,
+        "p": 7,
+        "ray_kernel_dim": 0,
+        "vec_kernel_dim": 0
+      },
+      {
+        "line_kernel_dim": 0,
+        "p": 11,
+        "ray_kernel_dim": 0,
+        "vec_kernel_dim": 0
+      },
+      {
+        "line_kernel_dim": 0,
+        "p": 13,
+        "ray_kernel_dim": 0,
+        "vec_kernel_dim": 0
+      },
+      {
+        "line_kernel_dim": 0,
+        "p": 17,
+        "ray_kernel_dim": 0,
+        "vec_kernel_dim": 0
+      },
+      {
+        "line_kernel_dim": 0,
+        "p": 19,
+        "ray_kernel_dim": 0,
+        "vec_kernel_dim": 0
+      },
+      {
+        "line_kernel_dim": 4,
+        "p": 23,
+        "ray_kernel_dim": 4,
+        "vec_kernel_dim": 4
+      }
+    ],
+    "p5_legendre_6x6_charpoly_equals_x2m20_times_golden_sq": true,
+    "p5_legendre_6x6_matrix": [
+      [
+        2,
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2,
+        -2
+      ],
+      [
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0,
+        -2,
+        2,
+        0
+      ]
+    ],
+    "p5_line_plus2_mode_is_sys_minus_cusp": true,
+    "primes_with_golden_kernel_in_2_to_23": [
+      5,
+      23
+    ],
+    "primes_with_pure_cover_golden_kernel_in_2_to_23": [
+      5
+    ],
+    "universal_mirror_identities_verified": true
+  },
+  "E3_diagonal_base_times_counts_bundle": {
+    "O27_x_Leg_F5": {
+      "category": "partial_halving",
+      "d0": 144,
+      "d1": 144,
+      "fixed_C": 0,
+      "halved_chg_deg": 136,
+      "n_dim": 432,
+      "orbit_count": null,
+      "paired_q1_eq_q2": true,
+      "tau_invariant": null,
+      "unpaired_chg_deg": 8,
+      "unpaired_poly_y_coeffs": [
+        1,
+        0,
+        -56,
+        0,
+        816,
+        0,
+        -896,
+        0,
+        256
+      ],
+      "unpaired_poly_y_eq_2x_factored": "(y**2 - 6*y + 4)**2*(y**2 + 6*y + 4)**2"
+    },
+    "O27_x_P1_F2": {
+      "category": "a'",
+      "d0": 72,
+      "d1": 72,
+      "fixed_C": 0,
+      "halved_chg_deg": 72,
+      "n_dim": 216,
+      "orbit_count": 1,
+      "paired_q1_eq_q2": true,
+      "tau_invariant": true,
+      "unpaired_chg_deg": 0,
+      "unpaired_poly_y_coeffs": [
+        1
+      ],
+      "unpaired_poly_y_eq_2x_factored": "1"
+    },
+    "O27_x_P1_F3": {
+      "category": "a",
+      "d0": 98,
+      "d1": 95,
+      "fixed_C": 3,
+      "halved_chg_deg": 95,
+      "n_dim": 288,
+      "orbit_count": 1,
+      "paired_q1_eq_q2": true,
+      "tau_invariant": true,
+      "unpaired_chg_deg": 0,
+      "unpaired_poly_y_coeffs": [
+        1
+      ],
+      "unpaired_poly_y_eq_2x_factored": "1"
+    },
+    "O27_x_P1_F5": {
+      "category": "partial_halving",
+      "d0": 144,
+      "d1": 144,
+      "fixed_C": 0,
+      "halved_chg_deg": 136,
+      "n_dim": 432,
+      "orbit_count": 1,
+      "paired_q1_eq_q2": true,
+      "tau_invariant": true,
+      "unpaired_chg_deg": 8,
+      "unpaired_poly_y_coeffs": [
+        1,
+        0,
+        -56,
+        0,
+        1072,
+        0,
+        -8064,
+        0,
+        20736
+      ],
+      "unpaired_poly_y_eq_2x_factored": "(y**2 - 2*y - 12)**2*(y**2 + 2*y - 12)**2"
+    },
+    "O27_x_P1_F7": {
+      "category": "partial_halving",
+      "d0": 196,
+      "d1": 190,
+      "fixed_C": 6,
+      "halved_chg_deg": 182,
+      "n_dim": 576,
+      "orbit_count": 1,
+      "paired_q1_eq_q2": true,
+      "tau_invariant": true,
+      "unpaired_chg_deg": 8,
+      "unpaired_poly_y_coeffs": [
+        1,
+        0,
+        -36,
+        0,
+        320,
+        0,
+        -576,
+        0,
+        256
+      ],
+      "unpaired_poly_y_eq_2x_factored": "(y**2 - 4*y - 4)*(y**2 - 2*y - 4)*(y**2 + 2*y - 4)*(y**2 + 4*y - 4)"
+    },
+    "O27_x_Rays_F5_summary": {
+      "d0": 288,
+      "d1": 288,
+      "halved_chg_deg": 272,
+      "n_dim": 864,
+      "paired_q1_eq_q2": true,
+      "unpaired_chg_deg": 16
+    },
+    "O27_x_Vecs_F5_odd_spinor": {
+      "full_1728_single_orbit": true,
+      "odd_spinor_d0": 288,
+      "odd_spinor_d1": 288,
+      "odd_spinor_halved_deg": 0,
+      "odd_spinor_paired_q1_eq_q2": true,
+      "odd_spinor_unpaired_deg": 288
+    },
+    "g_C3_eq_S2_Ri_L_order3_verified": true,
+    "sl2z_conjugacy_L_C0_Li_eq_C_omega": true,
+    "sl2z_conjugacy_L_W6C0_Li_eq_W6omega": true
+  },
+  "E4_pf5_golden_eigenspace_hierarchy": {
+    "I4_chiral_pole": "1/5",
+    "I4_equator_derivative_identically_zero": true,
+    "I4_equator_is_identically_3_over_10": true,
+    "I4_real_equator_constant": "3/10",
+    "I6_chiral_pole": "2/45",
+    "I6_equator_matches_1_over_9_plus_cos6th_over_90": true,
+    "I6_equator_min_mirror_odd_orbit": "1/10",
+    "I6_global_max_mirror_even_orbit": "11/90",
+    "I6_maxima_select_all_3_individual_systole_lines": true,
+    "chiral_pole_uniform_triplets": true,
+    "s3_commutation_on_leg5_verified": true,
+    "systole_to_cusp_weight_ratio_equals_phi_sq": true
+  },
+  "card": "AGY-C65",
+  "date": "2026-11-27",
+  "planted_fault_controls": {
+    "PF1_trace4_word_fails_p5_parabolicity_caught": true,
+    "PF2_chiral_half_walk_breaks_pairing_caught": true,
+    "PF3_non5_primes_have_zero_golden_kernel_caught": true,
+    "PF4_misaligned_C_omega_breaks_diagonal_commutation_caught": true,
+    "PF5_quartic_2body_equator_degeneracy_caught": true,
+    "controls_caught_count": 5
+  },
+  "score": "0 of 19",
+  "self_audit": {
+    "ast_float_or_complex_literals": 0,
+    "json_float_values": 0
+  }
+}
