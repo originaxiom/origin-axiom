@@ -1,0 +1,20 @@
+{
+  "card": "AGY-C64-COUNTERCHECK",
+  "date": "2026-11-26",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "referee_planted_fault_controls": {
+    "RPF1_wrong_whole_constant_caught": true,
+    "RPF2_off_cusp_15_orbits_detected": true,
+    "RPF3_corrupted_rho_breaks_intertwining_caught": true,
+    "RPF4_perturbed_minpoly_has_zero_nullity_caught": true,
+    "RPF5_wrong_continuum_cusp_coeff_caught": true,
+    "rpf_caught_count": 5
+  },
+  "score": "0 of 19",
+  "self_audit": {
+    "ast_float_or_complex_literals": 0,
+    "json_float_values": 0,
+    "shared_imports_from_producer": 0
+  }
+}
