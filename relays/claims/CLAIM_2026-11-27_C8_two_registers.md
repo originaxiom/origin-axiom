@@ -1,0 +1,19 @@
+# CLAIM CARD — A geometric register and its dihedral sheet lift in the same E8 connection take the peripheral adjoint spin kernel from eight to zero
+
+- card id: new
+- seat code: fam2-v1-unset-01
+- seat, branch, commit: fam2-v1-unset-01, audit/physical-bridge-2026-09-05, 22e94b0c1213b7d5b9a190360de86466b9ee682e
+- kind: computation
+- touches: P-876 (source review owed on harvest row 1987)
+- effect: supports — P-876, providing an exact kernel comparison and a hand proof of the embedding and joint image for review on that row. No change to any physical input count.
+- scope: frame: one flat compact E8 adjoint on the marked figure-eight knot exterior; object: geometric holonomy alone and the same holonomy multiplied by its commuting sheet lift; reach: single; hypotheses: the marked surjective geometric and sheet maps below, the indicated real Weil representation, the indicated spin-block embedding, a flat peripheral torus, bounding longitude and the specified meridian spin
+- identifications: The lifted sheet acts as part of gauge transport only in the second construction. The minus scalar of each spin block has the same image in E8. A spin coefficient counts a complex internal weight in one adjoint.
+- definitions: Put k=F5[d]/(d²−2), G=SL(2,k), Z=−I, U(v) upper unitriangular. The geometric meridian and longitude are U(1), ZU(−2d). The thirteen is the even Weil module indexed by x modulo ±, with U(v) weights Tr(v·2x²). In Spin(16) use 13+3, then the semispin subgroup in E8. Its adjoint is the exterior square of the sixteen plus the tensor product of spinors of dimensions 64 and 2. In the sheet lift r has order 5, jrj⁻¹=r⁻¹, j²=−1. Lift a sheet value r^a s^e to r^a j^n using the oriented meridional exponent n, with e=n mod 2. In a sheet frame the meridian adds j and longitude adds identity. The torus spin kernel requires longitude eigenvalue −1 and meridian eigenvalue +1 for periodic spin or −1 for antiperiodic spin.
+- imports: The marked maps and exponent convention (physical branch 4d379d485 and 5b3dfa3a4), finite Weil generator formulas, simplicity of PSL(2,25) and its Schur multiplier of order two, compact spin branching and the semispin inclusion, connectedness of a single-element centralizer in simply connected compact E8, and the flat-torus spin domain. Cohen–Griess supplies a separate existence check. The hand proofs at a0b1aba92 and in THE_TWO_REGISTERS_IN_ONE_E8_CONNECTION.md on the sealed branch supply the group argument. The script enumerates weights and central signs and does not construct 248-dimensional generator matrices.
+- premises on main: P-876 records the outstanding reading; harvest row 1987 names this delivery. No numeric result from main enters the calculation.
+- decisive script: relays/claims/c8_register/check.py, SHA-256 8f984264d2458c20, depends on the standard library, run as python3 relays/claims/c8_register/check.py, output SHA-256 492c13a824e75833
+- decisive lines: 8 lines marked "DECISIVE:", SHA-256 492c13a824e75833
+- failing control: python3 relays/claims/c8_register/check.py --omit-sheet-action
+- second computation: none
+- already on main?: git grep -in -E 'physical-c8|GEOMETRIC_REGISTER_INSIDE|TWO_REGISTERS_IN_ONE|GEOMETRIC_E8_HOLONOMY' origin/main -- docs relays found the November 20 relay in harvest row 1987 and the relay ledger under P-876. B1957 concerns the earlier tick calculation.
+- what would make it fail: A different spin-lift square, multiplicity, central multiplication kernel or peripheral count for these precise maps. The meridian-square character forbids all joined odd-row torus spin coefficients. Omitting the sheet action should restore eight with periodic meridian. A defect in the real structure, lift or centralizer argument would remove the E8 interpretation even if the weight counts stood.

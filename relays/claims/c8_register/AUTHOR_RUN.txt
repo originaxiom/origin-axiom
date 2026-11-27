@@ -1,0 +1,18 @@
+Source 22e94b0c1213b7d5b9a190360de86466b9ee682e. Producer run, November 27, 2026.
+Default arguments, exit 0.
+DECISIVE: weil distinct labels and nonzero Fourier links (13, 13)
+DECISIVE: negative eigenlines and spin square (6, -1)
+DECISIVE: spin multiplicities zero square nonsquare (4, [3], [2])
+DECISIVE: adjoint sizes (248, 248)
+DECISIVE: geometric longitude gauge torus gauge longitude spin torus spin both meridian signs (36, 12, 32, 8, 0)
+DECISIVE: joint longitude gauge torus gauge longitude spin torus spin both meridian signs (36, 8, 32, 0, 0)
+DECISIVE: sheet center and central multiplication kernel ([(0, 0), (0, 2)], [(0, 0), (1, 2)])
+DECISIVE: central product order 156000
+
+Changed input --omit-sheet-action, exit 1.
+DECISIVE: weil distinct labels and nonzero Fourier links (13, 13)
+DECISIVE: negative eigenlines and spin square (6, -1)
+DECISIVE: spin multiplicities zero square nonsquare (4, [3], [2])
+DECISIVE: adjoint sizes (248, 248)
+DECISIVE: geometric longitude gauge torus gauge longitude spin torus spin both meridian signs (36, 12, 32, 8, 0)
+FAIL joint longitude gauge torus gauge longitude spin torus spin both meridian signs: observed (36, 12, 32, 8, 0) expected (36, 8, 32, 0, 0)

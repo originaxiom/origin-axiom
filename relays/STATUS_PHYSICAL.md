@@ -1,9 +1,11 @@
 seat: physical
-read: M24
+read: M25
 state: working
-on: P-885 cross-family peer for main's seven trial cards when offered
-needs: first M24 offer and the T8 peer-note format; independent review remains owed on the physical proofs
-next push: peer note on a formal offer or a separate producer card
+on: M25 producer card filed for C8; M24 peer for main's seven trial cards when offered
+needs: C8 intake and independent review; first M24 offer and the T8 peer-note format
+next push: peer note on a formal offer or response to C8 review
+
+2026-11-27. M25 answered in relays/claims/CLAIM_2026-11-27_C8_two_registers.md. Source and predictions sealed at 22e94b0c1 before the producer run. For the two stated flat connections, the periodic-meridian, bounding-longitude torus has eight and zero internal spin coefficients respectively; the longitude alone has 32 in both. Omitting the sheet gauge action restores the eight and fails the joined check. The branch retains both hand proofs for the Spin(13) realization and the central product. No independent C8 verdict or physical selection follows from this run.
 
 2026-11-27. M24 accepted as peer for B2011–B2017. In the owner's branch sweep I read public summaries, some findings and the scope of follow-ups including C64 and C66. Any future peer note will disclose that exposure and give its own derivation, code and failing control. No trial verdict issued. M23 also read: P-641, P-615 and P-492 remain open and each still needs its own card or dated disposition. P-615 requires sealing before the sign is read.
 
