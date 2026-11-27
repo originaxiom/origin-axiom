@@ -1,0 +1,654 @@
+From 7099e5d0b8fee06cdb856c6fb0acc470085d3e56 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 27 Nov 2026 16:40:41 +0000
+Subject: [PATCH] S306p the landing tool, the single writer of a banked card's
+ arc (the framework's thin path, T11; P-885; draft 1 sections 4 and 9;
+ BANKING_PROTOCOL Part I): scripts/queue/land.py lands a card the queue holds
+ VERIFIED by the runner's move on two ACCEPTs, one landing at a time under a
+ lock, on a fresh clone of main; it takes the arc's number and the harvest
+ row's at landing, writes the arc's folder, its lock, the log pair and the
+ harvest row and nothing else, commits, regenerates the views, and refuses on
+ a failure or red gate that queue/KNOWN_FAILURES.json does not hold, or on a
+ card not VERIFIED, verified by hand or landed before; it never pushes; tests
+ fail with each rule removed
+
+---
+ CHANGELOG.md                   |  12 ++
+ PROGRESS_LOG.md                |  10 +
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ queue/README.md                |  13 ++
+ scripts/queue/land.py          | 327 +++++++++++++++++++++++++++++++++
+ tests/test_queue_land.py       | 186 +++++++++++++++++++
+ 7 files changed, 551 insertions(+), 2 deletions(-)
+ create mode 100644 scripts/queue/land.py
+ create mode 100644 tests/test_queue_land.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 3125c0f9e..f2c4f9fc9 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,17 @@
+ # Changelog
+ 
++## S306p THE LANDING TOOL: THE SINGLE WRITER OF A BANKED CARD'S ARC (the framework's thin path, T11; P-885) (2026-11-27)
++
++- **`scripts/queue/land.py`:** a card the queue holds VERIFIED, by the runner's move on two ACCEPTs, is landed by this
++  tool alone. It holds a lock (one landing at a time) and works on a fresh clone of main. It takes the arc's number and the
++  harvest row's at landing, one more than the highest on the clone. It writes the arc's folder (FINDINGS.md and
++  arc_verdict.json required), its lock, the CHANGELOG and PROGRESS_LOG entries and the harvest row, and no other file;
++  commits; regenerates the views; and runs every gate and the full suite with `-rfE` against queue/KNOWN_FAILURES.json.
++  A new failure or red gate refuses it, and so do a card not VERIFIED, a VERIFIED made by hand, and a card landed before.
++  It never pushes.
++- **`queue/README.md`:** the landing, by hand.
++- **New test** `tests/test_queue_land.py` (6 tests); each rule's removal makes one fail.
++
+ ## S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-27)
+ 
+ - **`scripts/queue/banking.py`:** each banking seat files on its own branch its expectation, its seal (the SHA-256 of
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 2d29d204a..c174f5917 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20586,3 +20586,13 @@
+ after its peer stage, marked not banked.
+ 
+ 0 of 19.
++
++## 2026-11-27 — The landing tool: one writer of what a banked card adds to the record (S306p)
++
++**What happened.** The building seat sent the thin path's eleventh patch. A card that both banking seats accepted is now
++written into the record by one tool, not by hand. The tool works on a fresh copy of main and numbers the arc and its
++ledger row at that moment, so that two writers cannot take the same number. Then it reruns every gate and the whole test
++suite, and refuses the landing if anything fails that was not already on the list of known failures. It prepares the
++landing and leaves the push to main.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 285479d7a..ecc9828d1 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE LANDING TOOL: THE SINGLE WRITER OF A BANKED CARD'S ARC (the framework's thin path, T11; P-885) (2026-11-27)”
+ - “S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-27)”
+ - “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)”
+ - “S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)”
+@@ -60,7 +61,6 @@
+ - “S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)”
+ - “S306p MAIN'S TRIAL TOOLS REBUILT TO THE INTAKE'S GUARD; THE SEATS' NEW CARDS RECEIVED; FOURTEEN DEBTS ESCALATED (P-885; HARVEST ROWS 2047, 2048; M69, M24, M63) (2026-11-27)”
+ - “S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE LANDED (T7B PART 1); THE RUNNER HELD; TWO AUDIT DRAFTS LANDED OR DECLINED (P-326, P-589, P-885; HARVEST ROW 2046; R88-1 MET; M68, M63) (2026-11-27)”
+-- “S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 2654803e7..6f3893b32 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1569 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1570 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1953,4 +1953,5 @@
+ - — `test_known_failures.py` 
+ - — `test_queue_banking.py` 
+ - — `test_queue_intake.py` 
++- — `test_queue_land.py` 
+ - — `test_queue_peer_note.py` 
+diff --git a/queue/README.md b/queue/README.md
+index be3f23d32..3e51a6764 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -36,3 +36,16 @@
+    on the workflow.
+ 7. **A heavy rerun on the author's machine** runs sage, and for main's B2016 wrapper also a `python3` on the PATH that has
+    python-flint (main's M65): set the PATH so first. There the author may run with `--allow-static-guard`, by choice.
++
++## The landing (the thin path's patch T11)
++
++A card the queue holds VERIFIED is landed on main by `scripts/queue/land.py` alone, the single writer of its arc, its lock,
++its harvest row and the log pair. It holds a lock, so that one landing runs at a time, and makes a fresh clone of main. It
++takes the arc's number and the harvest row's at landing, writes them, commits, regenerates the views, and runs every gate
++and the full suite with `-rfE` against `queue/KNOWN_FAILURES.json`. It never pushes: a landing that holds ends with the
++command that pushes it.
++
++    python3 scripts/queue/land.py --landing DIR        # DIR: LANDING.json, arc/, lock.py, changelog.md, progress.md
++
++docs/CAMPAIGN_STATUS.md's LATEST line and the surfaces a reader forms a picture from (BANKING_PROTOCOL Part I C) stay
++main's.
+diff --git a/scripts/queue/land.py b/scripts/queue/land.py
+new file mode 100644
+index 000000000..0a35267f8
+--- /dev/null
++++ b/scripts/queue/land.py
+@@ -0,0 +1,327 @@
++#!/usr/bin/env python3
++"""The landing tool: the single writer of a banked card's arc, its lock, its ledger row and the log pair (the framework's
++thin path, patch T11; draft 1 §§ 4 and 9; docs/BANKING_PROTOCOL.md Part I, A, B and D; register row P-885).
++
++A card that the queue holds VERIFIED (two banking ACCEPTs, the runner's move, T9) is landed on main by this tool alone, so
++that two banking seats and main are not three writers of arc numbers, ledger rows and log entries. In this order:
++
++  1. THE LOCK: one landing at a time on this machine (a lock file, created exclusively; THE_SWEEP_OF_2026-11-14 Q3);
++  2. A FRESH CLONE of main, made for this landing (draft § 4: "a landing runs the suite on a fresh clone");
++  3. THE CARD: its record on the queue's branch (or a queue folder given) must be VERIFIED, moved there by the runner, and
++     not landed before (the CHANGELOG names every card it landed);
++  4. THE NUMBERS, taken at landing on the clone: the arc's (one more than the highest B<n> under frontier/ and in the arcs'
++     verdict files) and the harvest row's (one more than the highest row of docs/HARVEST_LEDGER.md);
++  5. THE WRITES, and no others: the arc's folder frontier/B<n>_<slug>/ (its FINDINGS.md and arc_verdict.json required,
++     Part I A1 and A2), its lock tests/test_b<n>_<slug>.py (A4), the CHANGELOG's entry at the top and the PROGRESS_LOG's
++     at the end (B6, B7), and the harvest row, which the tool writes itself from the queue's record;
++  6. THE COMMIT, then the views regenerated (D16) and the commit amended with them;
++  7. THE CHECKS on that commit: every gate (D17) and the full suite with `-rfE` (D18), compared with
++     queue/KNOWN_FAILURES.json (T10). A failure or a red gate the list does not hold refuses the landing.
++
++The tool never pushes. A landing that holds ends with the clone's path and the command that pushes it; one that is refused
++leaves its clone to be read, its commit unpushed. docs/CAMPAIGN_STATUS.md's LATEST line (B8) and the surfaces of Part I C
++stay main's: they are judgements, not a writer's.
++
++THE PREPARED LANDING (a folder, written by main or a banking seat; placeholders {ARC}, {ROW} and {CARD} are replaced):
++    LANDING.json   {"card": "Q0001", "slug": "lower_snake_case", "title": "the CHANGELOG heading",
++                    "progress_title": "the PROGRESS_LOG heading", "message": "the commit's subject"}
++    arc/           the arc's files: FINDINGS.md, arc_verdict.json (its "id" "{ARC}"), and any others
++    lock.py        the arc's lock
++    changelog.md   the CHANGELOG entry's body
++    progress.md    the PROGRESS_LOG entry's body
++
++    python3 scripts/queue/land.py --landing DIR [--queue-dir QDIR] [--source REPO] [--work DIR] [--at DATE]
++Exit 0 when the landing holds and is ready to push; 1 when it is refused; 2 when another landing holds the lock."""
++import datetime
++import importlib.util
++import json
++import os
++import pathlib
++import re
++import shlex
++import subprocess
++import sys
++import tempfile
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[1]
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++BL = _load("baseline_for_landing", HERE / "baseline.py")      # T10's list and its comparison
++
++SUITE = "python3 -B -m pytest -q -rfE -p no:cacheprovider"
++REGENERATE = (                                           # Part I D16, as main runs them; each only where its script stands
++    "scripts/atlas/atlas.py",
++    "frontier/B1883_where_we_stand/verification/build_where_we_stand.py --write",
++    "scripts/views/generate.py",
++    "scripts/views/spine.py",
++    "frontier/B1861_the_closure_programme/verification/build_programme.py --write",
++)
++LANDING_KEYS = ("card", "slug", "title", "progress_title", "message")
++SLUG = re.compile(r"[a-z0-9]+(_[a-z0-9]+)*")
++CARD = re.compile(r"Q\d{4,}")
++ARC_DIR = re.compile(r"B(\d+)_")
++ROW_LINE = re.compile(r"\| (\d+) \|")
++PLACEHOLDER = re.compile(r"\{(ARC|ROW|CARD)\}")
++
++
++class Refused(Exception):
++    pass
++
++
++def _git(cwd, *args, check=True):
++    r = subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True)
++    if check and r.returncode != 0:
++        raise Refused("git %s: %s" % (" ".join(args[:2]), r.stderr.strip()[:300]))
++    return r.stdout
++
++
++def default_lock(root=ROOT):
++    common = _git(root, "rev-parse", "--git-common-dir").strip()
++    return pathlib.Path(root, common, "queue-landing.lock")
++
++
++def take_lock(path):
++    """the lock, created exclusively; None when another landing holds it"""
++    try:
++        fd = os.open(str(path), os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o644)
++    except FileExistsError:
++        return None
++    os.write(fd, ("%d\n" % os.getpid()).encode())
++    os.close(fd)
++    return path
++
++
++def read_landing(d):
++    """the prepared landing's LANDING.json and the problems of its form"""
++    d = pathlib.Path(d)
++    bad = []
++    try:
++        meta = json.loads((d / "LANDING.json").read_text(encoding="utf-8"))
++    except (OSError, ValueError) as e:
++        return None, ["LANDING.json cannot be read: %s" % e]
++    if not isinstance(meta, dict) or sorted(meta) != sorted(LANDING_KEYS):
++        return None, ["LANDING.json holds exactly %s" % ", ".join(LANDING_KEYS)]
++    if any(not isinstance(meta[k], str) or not meta[k].strip() or "\n" in meta[k] for k in LANDING_KEYS):
++        bad.append("each field of LANDING.json is one line of text")
++    if not CARD.fullmatch(meta["card"]):
++        bad.append("the card is a queue id, Q followed by its number")
++    if not SLUG.fullmatch(meta["slug"]):
++        bad.append("the slug is lower_snake_case")
++    for name in ("lock.py", "changelog.md", "progress.md", "arc/FINDINGS.md", "arc/arc_verdict.json"):
++        if not (d / name).is_file():
++            bad.append("the landing has no %s (BANKING_PROTOCOL Part I A)" % name)
++    for f in sorted(p for p in d.rglob("*") if p.is_symlink()):
++        bad.append("%s is a symbolic link" % f.relative_to(d))
++    return meta, bad
++
++
++def card_record(clone, cid, queue_dir=None):
++    """the card's record, from a queue folder given or from the queue's branch as the clone fetched it"""
++    if queue_dir:
++        f = pathlib.Path(queue_dir, "cards", "%s.json" % cid)
++        return json.loads(f.read_text(encoding="utf-8")) if f.is_file() else None
++    r = subprocess.run(["git", "show", "origin/queue:queue/cards/%s.json" % cid], cwd=clone, capture_output=True, text=True)
++    return json.loads(r.stdout) if r.returncode == 0 else None
++
++
++def card_problems(rec, cid, changelog):
++    if rec is None:
++        return ["the queue holds no card %s" % cid]
++    bad = []
++    if rec.get("status") != "VERIFIED":
++        bad.append("the card is %s, not VERIFIED: only two banking ACCEPTs bank a card" % rec.get("status"))
++    else:
++        last = rec["history"][-1]
++        if last.get("status") != "VERIFIED" or last.get("by") != "runner" or "ACCEPT and ACCEPT" not in last.get("note", ""):
++            bad.append("the card's VERIFIED is not the runner's move on two ACCEPTs")
++    if "queue card %s)" % cid in changelog:
++        bad.append("the card %s is landed already (the CHANGELOG names it)" % cid)
++    return bad
++
++
++def numbers(clone):
++    """(the arc's number, the harvest row's number), taken at landing: one more than the highest of each on the clone"""
++    clone = pathlib.Path(clone)
++    arcs = [int(m.group(1)) for p in (clone / "frontier").iterdir() if p.is_dir() for m in [ARC_DIR.match(p.name)] if m] \
++        if (clone / "frontier").is_dir() else []
++    for v in clone.glob("frontier/*/arc_verdict.json"):
++        try:
++            m = re.fullmatch(r"B(\d+)", str(json.loads(v.read_text(encoding="utf-8")).get("id", "")))
++        except (ValueError, AttributeError):
++            m = None
++        if m:
++            arcs.append(int(m.group(1)))
++    ledger = clone / "docs" / "HARVEST_LEDGER.md"
++    rows = [int(m.group(1)) for l in ledger.read_text(encoding="utf-8").splitlines() for m in [ROW_LINE.match(l)] if m] \
++        if ledger.is_file() else []
++    return max(arcs, default=0) + 1, max(rows, default=0) + 1
++
++
++def _fill(text, subs):
++    return PLACEHOLDER.sub(lambda m: subs[m.group(1)], text)
++
++
++def write_landing(clone, d, meta, rec, arc, row, at):
++    """the writes of step 5; returns the paths written, relative to the clone"""
++    clone, d = pathlib.Path(clone), pathlib.Path(d)
++    tag = "B%d" % arc
++    subs = {"ARC": tag, "ROW": str(row), "CARD": meta["card"]}
++    arc_dir = "frontier/%s_%s" % (tag, meta["slug"])
++    if (clone / arc_dir).exists():
++        raise Refused("%s exists on the clone" % arc_dir)
++    written = []
++    for f in sorted(p for p in (d / "arc").rglob("*") if p.is_file()):
++        rel = "%s/%s" % (arc_dir, f.relative_to(d / "arc").as_posix())
++        (clone / rel).parent.mkdir(parents=True, exist_ok=True)
++        (clone / rel).write_text(_fill(f.read_text(encoding="utf-8"), subs), encoding="utf-8")
++        written.append(rel)
++    try:
++        verdict = json.loads((clone / arc_dir / "arc_verdict.json").read_text(encoding="utf-8"))
++    except ValueError:
++        raise Refused("the arc's arc_verdict.json is not JSON")
++    if not isinstance(verdict, dict) or verdict.get("id") != tag:
++        raise Refused("the arc's arc_verdict.json does not name its id as {ARC}, which the tool fills (%s)" % tag)
++    lock = "tests/test_b%d_%s.py" % (arc, meta["slug"])
++    if (clone / lock).exists():
++        raise Refused("%s exists on the clone" % lock)
++    (clone / lock).parent.mkdir(parents=True, exist_ok=True)
++    (clone / lock).write_text(_fill((d / "lock.py").read_text(encoding="utf-8"), subs), encoding="utf-8")
++    written.append(lock)
++    cl = clone / "CHANGELOG.md"
++    text = cl.read_text(encoding="utf-8")
++    head = "# Changelog\n\n"
++    if not text.startswith(head):
++        raise Refused("CHANGELOG.md does not open with its title")
++    entry = "## %s (%s; queue card %s) (%s)\n\n%s\n\n" % (_fill(meta["title"], subs), tag, meta["card"], at,
++                                                          _fill((d / "changelog.md").read_text(encoding="utf-8"), subs).strip())
++    cl.write_text(head + entry + text[len(head):], encoding="utf-8")
++    pl = clone / "PROGRESS_LOG.md"
++    body = _fill((d / "progress.md").read_text(encoding="utf-8"), subs).strip()
++    pl.write_text(pl.read_text(encoding="utf-8").rstrip("\n") + "\n\n## %s — %s (%s)\n\n%s\n" % (
++        at, _fill(meta["progress_title"], subs), tag, body), encoding="utf-8")
++    hl = clone / "docs" / "HARVEST_LEDGER.md"
++    lines = hl.read_text(encoding="utf-8").split("\n")
++    last = max((i for i, l in enumerate(lines) if ROW_LINE.match(l)), default=None)
++    if last is None:
++        raise Refused("docs/HARVEST_LEDGER.md holds no row to follow")
++    title = _fill(meta["title"], subs).replace("|", "/")
++    lines.insert(last + 1, "| %d | %s | %s | the card's title | `%s` @ %s | **VERIFIED** (%s; two banking ACCEPTs in the "
++                           "queue, card %s; banked under %s by the landing tool) |" % (
++                               row, rec["seat_code"], title, rec["card_path"], rec["commit"][:9], at, meta["card"], tag))
++    hl.write_text("\n".join(lines), encoding="utf-8")
++    written += ["CHANGELOG.md", "PROGRESS_LOG.md", "docs/HARVEST_LEDGER.md"]
++    return written
++
++
++def regenerate(clone):
++    for cmd in REGENERATE:
++        parts = shlex.split(cmd)
++        if (pathlib.Path(clone) / parts[0]).is_file():
++            subprocess.run([sys.executable, "-B", *parts], cwd=clone, capture_output=True, text=True)
++
++
++GATES_RUN = ("import importlib.util, json, sys\n"
++             "spec = importlib.util.spec_from_file_location('gates_at_landing', 'scripts/gates/gates.py')\n"
++             "g = importlib.util.module_from_spec(spec); sys.dont_write_bytecode = True; spec.loader.exec_module(g)\n"
++             "red = []\n"
++             "for name, fn in g.GATES.items():\n"
++             "    try:\n"
++             "        ok = bool(fn()[0])\n"
++             "    except Exception:\n"
++             "        ok = False\n"
++             "    if not ok:\n"
++             "        red.append(name)\n"
++             "print(json.dumps(red))\n")
++
++
++def red_gates(clone):
++    r = subprocess.run([sys.executable, "-B", "-c", GATES_RUN], cwd=clone, capture_output=True, text=True)
++    if r.returncode != 0:
++        raise Refused("the gates did not run: %s" % (r.stderr.strip().splitlines() or ["?"])[-1][:300])
++    return json.loads(r.stdout.strip().splitlines()[-1])
++
++
++def suite_failures(clone, suite=SUITE):
++    """the failing ids of the full suite, as `-rfE` prints them; refused when the suite did not run to its end"""
++    r = subprocess.run(shlex.split(suite), cwd=clone, capture_output=True, text=True)
++    lines = r.stdout.splitlines()
++    if r.returncode not in (0, 1) or not any(re.search(r"\d+ (passed|failed)", l) for l in lines[-3:]):
++        raise Refused("the suite did not run to its end (exit %d): %s" % (r.returncode, (lines or ["no output"])[-1][:300]))
++    return sorted({BL.test_id(l) for l in lines if l.startswith(("FAILED ", "ERROR "))})
++
++
++def land(landing, source=None, work=None, queue_dir=None, at=None, suite=SUITE, lock=None):
++    """one landing: (exit status, report lines, the clone's path or None)"""
++    at = at or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
++    lock = pathlib.Path(lock) if lock else default_lock()
++    if take_lock(lock) is None:
++        return 2, ["another landing holds the lock %s; nothing was done" % lock], None
++    report, clone = [], None
++    try:
++        meta, bad = read_landing(landing)
++        if bad:
++            raise Refused("; ".join(bad))
++        source = source or _git(ROOT, "remote", "get-url", "origin").strip()
++        work = pathlib.Path(work or tempfile.mkdtemp(prefix="landing_"))
++        clone = work / "clone"
++        _git(work, "clone", "-q", "--no-hardlinks", "--branch", "main", str(source), str(clone))
++        _git(clone, "fetch", "-q", "origin", "queue:refs/remotes/origin/queue", check=False)
++        rec = card_record(clone, meta["card"], queue_dir)
++        bad = card_problems(rec, meta["card"], (clone / "CHANGELOG.md").read_text(encoding="utf-8"))
++        if bad:
++            raise Refused("; ".join(bad))
++        arc, row = numbers(clone)
++        report.append("the numbers taken at landing: arc B%d, harvest row %d" % (arc, row))
++        written = write_landing(clone, landing, meta, rec, arc, row, at)
++        _git(clone, "add", "--", *written)
++        _git(clone, "commit", "-q", "-m", "%s\n\nLanded by scripts/queue/land.py: arc B%d, harvest row %d, queue card %s."
++             % (_fill(meta["message"], {"ARC": "B%d" % arc, "ROW": str(row), "CARD": meta["card"]}), arc, row, meta["card"]))
++        regenerate(clone)
++        if _git(clone, "status", "--porcelain").strip():
++            _git(clone, "add", "-A")
++            _git(clone, "commit", "-q", "--amend", "--no-edit")
++        report.append("the commit %s on the fresh clone, with the views regenerated" % _git(clone, "rev-parse", "HEAD").strip()[:9])
++        red = red_gates(clone)
++        failures = suite_failures(clone, suite)
++        new, gone = BL.compare(BL.load(clone), failures, red)
++        report.append("the gates: %d red (%s); the suite: %d failing" % (len(red), ", ".join(red) or "none", len(failures)))
++        for g in gone:
++            report.append("on the known-failures list and passing now, to take off: %s" % g)
++        if new:
++            raise Refused("new against queue/KNOWN_FAILURES.json: %s" % "; ".join(new))
++        report.append("ready: nothing is pushed. To land it: git -C %s push origin HEAD:main" % clone)
++        return 0, report, clone
++    except Refused as e:
++        report.append("REFUSED: %s" % e)
++        if clone and clone.exists():
++            report.append("the clone is left to be read, nothing pushed: %s" % clone)
++        return 1, report, clone
++    finally:
++        try:
++            lock.unlink()
++        except FileNotFoundError:
++            pass
++
++
++def main(argv):
++    arg = lambda k: argv[argv.index(k) + 1] if k in argv else None
++    if not arg("--landing"):
++        print(__doc__)
++        return 1
++    status, report, _ = land(arg("--landing"), source=arg("--source"), work=arg("--work"), queue_dir=arg("--queue-dir"),
++                             at=arg("--at"), suite=arg("--suite") or SUITE, lock=arg("--lock"))
++    print("\n".join(report))
++    return status
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tests/test_queue_land.py b/tests/test_queue_land.py
+new file mode 100644
+index 000000000..aa96f6509
+--- /dev/null
++++ b/tests/test_queue_land.py
+@@ -0,0 +1,186 @@
++"""2026-11-27 (the framework's thin path, patch T11; draft 1 §§ 4 and 9; BANKING_PROTOCOL Part I; register row P-885): the
++landing tool, scripts/queue/land.py.
++
++On a repository built here, standing for main, with a queue's branch: a card the queue holds VERIFIED lands on a fresh
++clone, its arc's number and its harvest row's taken at landing, the arc, its lock, the log pair and the row written, and
++nothing pushed. Refused, each with its twin passing: a card not VERIFIED, a VERIFIED made by hand, a card landed before, a
++new failing test, a new red gate, a suite that did not run, and a landing whose form fails. Two landings at once: the second
++waits on the lock."""
++import importlib.util
++import json
++import os
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++spec = importlib.util.spec_from_file_location("land_under_test", ROOT / "scripts" / "queue" / "land.py")
++L = importlib.util.module_from_spec(spec)
++sys.dont_write_bytecode = True
++spec.loader.exec_module(L)
++
++SUITE = L.SUITE + " tests"
++ENV = {"GIT_AUTHOR_NAME": "a", "GIT_AUTHOR_EMAIL": "a@example.org", "GIT_COMMITTER_NAME": "a",
++       "GIT_COMMITTER_EMAIL": "a@example.org"}
++GATES = ("import pathlib\nROOT = pathlib.Path(__file__).resolve().parents[2]\n"
++         "GATES = {'no-bad-file': lambda: (not list(ROOT.glob('frontier/*/BAD')), 'a file named BAD')}\n")
++
++
++def _g(cwd, *args):
++    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, check=True).stdout
++
++
++def _record(cid, status, by="runner", note="the banking verdicts: ACCEPT and ACCEPT"):
++    return {"id": cid, "seat_code": "fam2-v5-high-01", "branch": "seat/a", "commit": "a" * 40,
++            "card_path": "relays/claims/CLAIM_good.md", "status": status, "deciding": True,
++            "history": [{"at": "2026-11-26T12:00:00Z", "status": "FILED", "by": "runner", "note": "filed"},
++                        {"at": "2026-11-27T12:00:00Z", "status": status, "by": by, "note": note}]}
++
++
++def _origin(tmp_path, monkeypatch):
++    for k, v in ENV.items():
++        monkeypatch.setenv(k, v)
++    o = tmp_path / "origin"
++    files = {
++        "CHANGELOG.md": "# Changelog\n\n## AN OLD ENTRY (2026-11-01)\n\nold.\n",
++        "PROGRESS_LOG.md": "# Progress\n\n## 2026-11-01 — old\n\nold.\n",
++        "docs/HARVEST_LEDGER.md": "# Harvest\n\n| # | seat | headline | quote | path | disposition |\n|---|---|---|---|---|---|\n"
++                                  "| 6 | s | a | b | c | d |\n| 7 | s | a | b | c | d |\n\n## Pins\n\n| seat | pin |\n",
++        "docs/POINT_REGISTER.md": "| P-1 | 2026-11-01 | a debt |\n",
++        "queue/KNOWN_FAILURES.json": json.dumps({"note": "n", "gates": [], "tests": [
++            {"id": "tests/test_known.py::test_known", "row": "P-1", "why": "a standing debt"}]}),
++        "tests/test_known.py": "def test_known():\n    assert False\n",
++        "tests/test_fine.py": "def test_fine():\n    assert True\n",
++        "scripts/gates/gates.py": GATES,
++        "frontier/B0003_a/FINDINGS.md": "a\n",
++        "frontier/an_arc_renamed/arc_verdict.json": json.dumps({"id": "B12"}),     # its number in its verdict alone
++    }
++    for rel, text in files.items():
++        (o / rel).parent.mkdir(parents=True, exist_ok=True)
++        (o / rel).write_text(text, encoding="utf-8")
++    _g(tmp_path, "init", "-q", "-b", "main", str(o))
++    _g(o, "add", "-A")
++    _g(o, "commit", "-q", "-m", "main")
++    _g(o, "checkout", "-q", "--orphan", "queue")
++    _g(o, "rm", "-rq", "--cached", ".")
++    for cid, rec in {"Q0001": _record("Q0001", "VERIFIED"), "Q0002": _record("Q0002", "AT_BANKING", note="no peer check"),
++                     "Q0003": _record("Q0003", "VERIFIED", by="main")}.items():
++        (o / "queue" / "cards").mkdir(parents=True, exist_ok=True)
++        (o / "queue" / "cards" / ("%s.json" % cid)).write_text(json.dumps(rec), encoding="utf-8")
++    _g(o, "add", "queue/cards")
++    _g(o, "commit", "-q", "-m", "the queue")
++    _g(o, "checkout", "-q", "-f", "main")
++    _g(o, "clean", "-qfd")
++    return o
++
++
++def _landing(tmp_path, name="landing", card="Q0001", lock="def test_{ARC}_holds():\n    assert 12 == 12\n", extra=None,
++             verdict_id="{ARC}", slug="the_count"):
++    d = tmp_path / name
++    (d / "arc").mkdir(parents=True)
++    (d / "LANDING.json").write_text(json.dumps({"card": card, "slug": slug, "title": "THE COUNT HOLDS ({CARD})",
++                                                "progress_title": "the count holds", "message": "{ARC} the count holds"}))
++    (d / "arc" / "FINDINGS.md").write_text("# {ARC}: the count holds\n\nThe card {CARD}, row {ROW}.\n")
++    (d / "arc" / "arc_verdict.json").write_text(json.dumps({"id": verdict_id, "verdict": "PROVED"}))
++    (d / "lock.py").write_text(lock)
++    (d / "changelog.md").write_text("- the count, banked as {ARC}.\n")
++    (d / "progress.md").write_text("**What happened.** The count holds.\n")
++    for rel, text in (extra or {}).items():
++        (d / rel).write_text(text)
++    return d
++
++
++def _land(tmp_path, o, d, name="w", **kw):
++    (tmp_path / name).mkdir()
++    return L.land(d, source=o, work=tmp_path / name, at="2026-11-27", suite=kw.pop("suite", SUITE),
++                  lock=tmp_path / "landing.lock", **kw)
++
++
++def test_a_verified_card_lands_on_a_fresh_clone_with_its_numbers_taken_at_landing_and_nothing_pushed(tmp_path, monkeypatch):
++    o = _origin(tmp_path, monkeypatch)
++    head = _g(o, "rev-parse", "main")
++    status, report, clone = _land(tmp_path, o, _landing(tmp_path))
++    assert status == 0, report
++    assert "the numbers taken at landing: arc B13, harvest row 8" in report
++    assert any(r.startswith("ready: nothing is pushed") for r in report)
++    assert _g(o, "rev-parse", "main") == head                              # the tool never pushes
++    arc = clone / "frontier" / "B13_the_count"
++    assert json.loads((arc / "arc_verdict.json").read_text())["id"] == "B13"
++    assert (arc / "FINDINGS.md").read_text() == "# B13: the count holds\n\nThe card Q0001, row 8.\n"
++    assert (clone / "tests" / "test_b13_the_count.py").read_text().startswith("def test_B13_holds")
++    cl = (clone / "CHANGELOG.md").read_text()
++    assert cl.startswith("# Changelog\n\n## THE COUNT HOLDS (Q0001) (B13; queue card Q0001) (2026-11-27)\n\n- the count, banked")
++    assert (clone / "PROGRESS_LOG.md").read_text().endswith("## 2026-11-27 — the count holds (B13)\n\n"
++                                                             "**What happened.** The count holds.\n")
++    rows = [l for l in (clone / "docs" / "HARVEST_LEDGER.md").read_text().splitlines() if l.startswith("| ")]
++    assert rows[3].startswith("| 8 | fam2-v5-high-01 | THE COUNT HOLDS (Q0001) |") and "banked under B13" in rows[3]
++    assert rows[4] == "| seat | pin |"                                     # the row joins the table, not the Pins
++    assert _g(clone, "rev-list", "--count", "origin/main..HEAD").strip() == "1"
++    assert _g(clone, "log", "-1", "--format=%s").strip() == "B13 the count holds"
++    # landed and pushed, the card cannot land again, and the next landing would take the next numbers
++    _g(o, "fetch", "-q", str(clone), "HEAD")                               # as main's push would
++    _g(o, "reset", "-q", "--hard", "FETCH_HEAD")
++    assert L.numbers(o) == (14, 9)
++    status, report, _ = _land(tmp_path, o, _landing(tmp_path, "again"), "w2")
++    assert status == 1 and any("is landed already" in r for r in report), report
++
++
++def test_a_card_not_verified_or_verified_by_hand_or_missing_is_refused(tmp_path, monkeypatch):
++    o = _origin(tmp_path, monkeypatch)
++    for i, (card, why) in enumerate((("Q0002", "is AT_BANKING, not VERIFIED"), ("Q0003", "not the runner's move"),
++                                     ("Q0009", "holds no card Q0009"))):
++        status, report, _ = _land(tmp_path, o, _landing(tmp_path, "l%d" % i, card=card), "w%d" % i)
++        assert status == 1 and any(why in r for r in report), report
++
++
++def test_a_new_failure_or_a_new_red_gate_refuses_the_landing_and_the_known_one_does_not(tmp_path, monkeypatch):
++    o = _origin(tmp_path, monkeypatch)
++    status, report, clone = _land(tmp_path, o, _landing(tmp_path, "f", lock="def test_{ARC}_holds():\n    assert 1 == 2\n"), "wf")
++    assert status == 1 and any("new against queue/KNOWN_FAILURES.json: test tests/test_b13_the_count.py::test_B13_holds"
++                               in r for r in report), report
++    assert any("the clone is left to be read" in r for r in report)
++    status, report, _ = _land(tmp_path, o, _landing(tmp_path, "g", extra={"arc/BAD": "x"}), "wg")
++    assert status == 1 and any("gate no-bad-file" in r for r in report), report
++    status, report, _ = _land(tmp_path, o, _landing(tmp_path, "s"), "ws", suite="python3 -c pass")
++    assert status == 1 and any("the suite did not run to its end" in r for r in report), report
++
++
++def test_the_landings_form_is_checked(tmp_path, monkeypatch):
++    o = _origin(tmp_path, monkeypatch)
++    d = _landing(tmp_path, "nofind")
++    (d / "arc" / "FINDINGS.md").unlink()
++    assert any("no arc/FINDINGS.md" in b for b in L.read_landing(d)[1])
++    assert any("lower_snake_case" in b for b in L.read_landing(_landing(tmp_path, "slug", slug="The-Count"))[1])
++    d = _landing(tmp_path, "link")
++    os.symlink("/etc/hostname", d / "arc" / "host")
++    assert any("symbolic link" in b for b in L.read_landing(d)[1])
++    d = _landing(tmp_path, "keys")
++    (d / "LANDING.json").write_text(json.dumps({"card": "Q0001"}))
++    assert any("holds exactly" in b for b in L.read_landing(d)[1])
++    assert L.read_landing(_landing(tmp_path, "good"))[1] == []
++    status, report, _ = _land(tmp_path, o, _landing(tmp_path, "vid", verdict_id="B999"), "wv")
++    assert status == 1 and any("does not name its id as {ARC}" in r for r in report), report
++
++
++def test_a_second_landing_waits_on_the_lock(tmp_path, monkeypatch):
++    o = _origin(tmp_path, monkeypatch)
++    (tmp_path / "landing.lock").write_text("1\n")
++    status, report, clone = _land(tmp_path, o, _landing(tmp_path))
++    assert status == 2 and clone is None and "another landing holds the lock" in report[0]
++    assert (tmp_path / "landing.lock").exists()                           # the other landing's lock is not taken away
++    (tmp_path / "landing.lock").unlink()
++    status, report, _ = _land(tmp_path, o, _landing(tmp_path, "l2"), "w2")
++    assert status == 0, report
++    assert not (tmp_path / "landing.lock").exists()                       # and a landing releases its own
++
++
++def test_by_hand(tmp_path, monkeypatch):
++    o = _origin(tmp_path, monkeypatch)
++    cmd = [sys.executable, "-B", str(ROOT / "scripts" / "queue" / "land.py")]
++    r = subprocess.run(cmd, capture_output=True, text=True)
++    assert r.returncode == 1 and "THE PREPARED LANDING" in r.stdout
++    (tmp_path / "w").mkdir()
++    r = subprocess.run(cmd + ["--landing", str(_landing(tmp_path)), "--source", str(o), "--work", str(tmp_path / "w"),
++                              "--at", "2026-11-27", "--suite", SUITE, "--lock", str(tmp_path / "landing.lock")],
++                       capture_output=True, text=True)
++    assert r.returncode == 0 and "arc B13, harvest row 8" in r.stdout and "ready: nothing is pushed" in r.stdout, r.stdout
+-- 
+2.43.0
+

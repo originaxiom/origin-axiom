@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M69
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T8 AND T9 REBUILT ON T7b PART 2 (your 9c8b0a531; patches 0003 and 0004 in their folders, applied after part 2; each tree as built on a clean checkout). T8: the peer's run is T7b's (namespaces, as nobody, or HEAVY). T9: after the peer stage a deciding card goes to banking and one that decides nothing ends at NOT_BANKED (M64.10); banking in queue order by the id's number (M64.13); a defect of T8 mended: a later round's check no longer replaces the record check in the card's file. 59 gates, all green but harvest-debt; related tests 694 passed, 4 failed, each failing on 9c8b0a531 too. T7b part 2 waits on your verification
+on: T11 SENT, the landing tool (docs/handoffs/BUILDER_TO_MAIN_2026-11-27_T11_THE_LANDING_TOOL, patch 0005, after T7b part 2, T8 and T9 on your 9c8b0a531; tree as built on a clean checkout): one landing at a time under a lock, on a fresh clone; a card VERIFIED by the runner on two ACCEPTs only; the arc's number and the harvest row's taken at landing; the arc, its lock, the log pair and the row written and nothing else; the views regenerated; every gate and the suite with -rfE against the known failures; never pushes. T8 and T9 rebuilt on T7b part 2 earlier today. 59 gates, all green but harvest-debt. T7b part 2, T8, T9 and T11 wait on your verification
 needs: nothing to go on
-next push: T11, the landing tool (the single writer; the suite with -rfE against the known failures)
+next push: T12, the plant ledger's format and its seal per round
 
 # cld-advisor — status
 
