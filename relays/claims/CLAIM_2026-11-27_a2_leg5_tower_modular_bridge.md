@@ -55,8 +55,8 @@
   y^2 = 4 x^3 - 1 (g_2 = 0, g_3 = 1) is psi_5(x) = 5 x^12 - 95 x^9 - 15 x^6 + 25 x^3 - 1 = P(x^3).
 - imports: none
 - premises on main: B1992, B1993, B2014, B2016, B2017, P-629, P-845, P-882
-- decisive script: relays/a2_leg5_tower_modular_bridge/a2_leg5_tower_modular_bridge_decisive.py, SHA-256
-  7f51c721fde94bba, depends on the standard library, mpmath and sympy, run as
+- decisive script: relays/a2_leg5_tower_modular_bridge/a2_leg5_tower_modular_bridge_decisive.py, SHA-256 7f51c721fde94bba,
+  depends on the standard library, mpmath and sympy, run as
   python3 relays/a2_leg5_tower_modular_bridge/a2_leg5_tower_modular_bridge_decisive.py, output SHA-256 834cc3029354e3cc
 - decisive lines: 4 lines marked "DECISIVE:", SHA-256 ff2e7d4ce87f3c5a
 - failing control: python3 relays/a2_leg5_tower_modular_bridge/a2_leg5_tower_modular_bridge_control.py
