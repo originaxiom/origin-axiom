@@ -20470,3 +20470,12 @@ identity. Main checked each one on the real code. The rule pages were corrected 
 builder, and the framework's runner will not start until they are fixed.
 
 0 of 19.
+
+## 2026-11-27 — a seat's second card in the new form (S306p)
+
+**What happened.** The seat that works on the cusp sent two cards and withdrew the first in favour of the second, saying why.
+The second was checked for its form and for whether the files it names are the files on its branch; both hold. It now waits
+for the runner, like the seat's first card, and comes to the checking seats after main's own seven trial cards, since it
+builds on some of them.
+
+0 of 19.

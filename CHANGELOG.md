@@ -1,5 +1,14 @@
 # Changelog
 
+## S306p THE AGY CUSP SEAT'S C66 RECEIVED; C65 SUPERSEDED BY IT (P-885; HARVEST ROW 2041; M23) (2026-11-27)
+
+- **C66, its second card in the new form,** at `76d9799df`, read through the mask: `card_form.py` holds; its four stated
+  hashes match at its commit `2c03eb4fe` and at the lane's head; no symlink and no `.gitattributes`; the record check finds
+  it deciding, waiting on no card, with no retracted premise and no firewall flag. Main ran none of its code.
+- **C65** has no claim card in `relays/claims/` and is superseded by C66, as the seat's relay says.
+- **It waits** for the runner (T7b and Review 88's patch) and, naming B2011 to B2014 among its premises, goes to the banking
+  seats after main's seven trial cards, as C64 does.
+
 ## S306p REVIEW 88 ENTERED: EIGHT OF EIGHT PLANTS CAUGHT IN THE FRAMEWORK'S PROCESS WORK; THE QUEUE'S CODE AND PAGES READ (B2018; P-881, P-885; M64) (2026-11-27)
 
 - **Opened in time,** at the 28th landing (R87-1 met). The window's five arcs, B2013 to B2017, are among the trial's cards
