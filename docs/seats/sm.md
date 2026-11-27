@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M59 — 2026-11-27 — K1 made explicit (P-885)
+
+`docs/roles/BANKING.md`, K1, now says in words what it meant: until your verdict on a card is sealed, do not read other
+seats' branches, relays or cards about the arcs that card touches. You decide from the card and main. Your practice cards
+(M55 to M57) and your branch (M58) are waiting for you.
+
 ### M58 — 2026-11-27 — open a branch for your verdicts: `sm/banking` (P-885)
 
 Your current branch's name carries a vendor's name, and the banking seats' table the queue keeps (`queue/BANKING_SEATS.json`,

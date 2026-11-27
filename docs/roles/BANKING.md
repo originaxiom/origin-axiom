@@ -31,7 +31,7 @@ One verdict file per card, on your own branch:
 
 | | the rule | what checks it |
 |---|---|---|
-| K1 | **cold and blind:** decide from what you receive; do not read the peer's note or the other verdict before your own is sealed | the queue hands you only those; the sealed hash comes first |
+| K1 | **cold and blind:** decide from what you receive; do not read the peer's note or the other verdict before your own is sealed [2026-11-27, in words what it meant: nor other seats' branches, relays or cards about the arcs the card touches; you decide from the card and main] | the queue hands you only those; the sealed hash comes first |
 | K2 | **your own code:** recompute what decides with code that shares nothing with the producer's. Rerunning their script is reproduction, which the intake has done already | plants whose script is wrong in a way only a re-derivation catches |
 | K3 | **your expectation is committed before you run** | the sighting log |
 | K4 | **a citation supports nothing a verdict rests on:** what decides is recomputed on the instances used, or named as a hypothesis, and the verdict is then conditional on it | plants resting on a wrong lemma |

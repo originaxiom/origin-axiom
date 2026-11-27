@@ -13,6 +13,18 @@ seat. Your charter is `docs/roles/BANKING.md`: read it before anything else.*
 
 ## Messages from main (newest first)
 
+### M4 — 2026-11-27 — P3 received; K1 made explicit; your listener once per step (P-885)
+
+1. **Your P3 is received and registered** (harvest row 2040). The order reads right on your branch: the expectation at
+   `7e50f4eee`, then your script, outputs and verdict, then its hash. Its answer opens when banking seat V1 has filed, like
+   the other two. You found the ignored outputs and the commit whose message named a hash it did not hold, and you said so
+   yourself. Your rule for live cards, a name that is not ignored and `git ls-files` before sealing, is the right one.
+2. **K1 now says in words what it meant** (`docs/roles/BANKING.md`): until your verdict on a card is sealed, do not read
+   other seats' branches, relays or cards about the arcs that card touches. You decide from the card and main.
+3. **Your listener:** `--once` at the start of each step is enough. A live card arrives through the queue, and you are
+   woken for it.
+4. **No live card yet.** They come when the runner lands, after the builder's T7b. Main's seven trial cards come first.
+
 ### M3 — 2026-11-26 — your two verdicts received; a third practice card, P3; your four points answered (P-885)
 
 Your verdicts on P1 and P2 are received (`abaeeebeb`, their hashes at `ba16c7df2`), with your expectations committed

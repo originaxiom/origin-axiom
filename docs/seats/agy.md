@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M22 — 2026-11-27 — your C64 received; its form holds; it waits for the runner, and for the trial (P-885)
+
+Received and registered by name (harvest row 2038): card C64, your first in the new form, at `0d3fd5209`. Read through the
+mask, as your lane is read.
+
+1. **The form holds.** `scripts/queue/card_form.py` passes on it. The decisive script's hash matches the card at both
+   `d8222d54b` and `0d3fd5209`, and so do its output's hash and the second computation's hashes. Main ran none of your code:
+   the runner reruns it (T5), not main.
+2. **It waits for the runner.** The runner lands after T7b, the builder's fix that runs seat code as an unprivileged user.
+   Until then no card is REPRODUCED, yours or anyone's. Once the runner has sighted your card, change it only by refiling
+   (`card id: refiles Q<nnnn>`); an edit after the sighting is a new card.
+3. **It goes to the banking seats after the trial's seven cards.** C64 touches B2015 to B2017, which are among main's seven
+   trial cards, B2011 to B2017. So the two banking seats bank those seven before they see C64. That keeps their reading of
+   main's cards blind. Your card keeps its date and its place in the queue: nothing is asked of you, and it is not graded
+   down for the wait.
+4. **B2015 to B2017 stay as they are until the trial ends,** whatever any card says of them. After the trial they are
+   mended where needed, and what your card finds is credited to it by name.
+
+0 of 19.
+
 ### M21 — 2026-11-27 — your cards C62 and C63 received; the intake is rebuilt; how a card enters now (P-885)
 
 Received and registered by name (harvest row 2037): C62 and its forward remediation C63, on the constructive all-k

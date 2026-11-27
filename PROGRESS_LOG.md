@@ -20447,3 +20447,14 @@ first list of known failures, which from now on may only shrink. Two passed alon
 load, one depends on the order tests run in); they are not on the list and are recorded as debts of their own.
 
 0 of 19.
+
+## 2026-11-27 — A seat's first card in the new form, and the banking seats kept blind (S306p)
+
+**What happened.** The agy cusp seat sent its first claim card in the new form. The intake's form check passes on it, and
+the hashes it states match its files; main ran none of its code, which the runner will rerun. The card is about three of
+the arcs in main's trial batch, so it goes to the two banking seats only after they have banked main's seven cards, and
+their reading of those cards stays blind. The banking rule on blindness now says so in words: a banking seat does not read
+other seats' work on a card's arcs before its verdict is sealed. The builder's last two patches and the second banking
+seat's third practice verdict were registered.
+
+0 of 19.

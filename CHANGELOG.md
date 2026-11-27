@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p THE AGY CUSP SEAT'S FIRST CARD IN THE NEW FORM RECEIVED; T9, T10 AND SM2'S P3 REGISTERED; K1 IN WORDS (P-885) (2026-11-27)
+
+- **agy's C64** (harvest row 2038; M22): its form holds under `scripts/queue/card_form.py`; its stated hashes match the
+  decisive script, its output and the second computation (none of its code run by main); it waits for the runner (T7b)
+  and goes to the banking seats after main's seven trial cards, because it touches arcs among them.
+- **The builder's T9 and T10** registered (row 2039), to be verified on top of T7b.
+- **sm2's practice card P3** registered (row 2040; M4); its answer opens when V1 has filed. **K1** (`docs/roles/BANKING.md`)
+  says in words what it meant: no reading of other seats' lanes about a card's arcs before the verdict is sealed (M4, M59).
+- **sm2's branch put under the harvest gate** (the lane survey had found it outside): named by its full path, since sm's
+  will share its last segment; the resolver and the survey take a full path. Five relays given their relay-ledger rows.
+
 ## S306p THE FULL SUITE ON A FRESH CLONE OF ed9660a9d: 9 FAILED, 7 OF THEM FOR T10's BASELINE (P-810, P-881; M63) (2026-11-27)
 
 - **9 failed, 9,320 passed, 73 skipped** (6 workers, 3 h 27 min). Run alone, **seven fail**: B1306's slice D (in a clone

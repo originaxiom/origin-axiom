@@ -58,7 +58,8 @@ def main():
             "ref": _safe(r), "branch": _safe(base),
             "commits_total": int(total or 0), "commits_unique_vs_main": int(uniq or 0),
             "merge_base": mb[:8], "shares_main_root": root == main_root,
-            "watched_by_the_gate": base in watched_branches,
+            # CHANGED 2026-11-27 (S306p): the gate may name a branch by its full path (sm2/banking beside sm/banking)
+            "watched_by_the_gate": base in watched_branches or short in watched_branches,
             "has_a_harvest_pin": base in ledger,
         })
 

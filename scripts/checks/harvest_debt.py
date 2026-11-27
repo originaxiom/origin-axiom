@@ -218,6 +218,11 @@ SEATS = [
          remotes=("origin",), cell=("agy lane",)),
     dict(key="agy002fv2", label="agy-002 (foundations-v2)", branch="foundations-v2",
          remotes=("origin",), cell=("agy-002",)),
+    # ADDED 2026-11-27 (S306p; P-885): banking seat V2's branch `sm2/banking`, pinned in the ledger since 2026-11-26 (row 2028)
+    # but left out here, so the lane survey found it outside the gate. Named by its full path, since banking seat V1's will
+    # be `sm/banking`, with the same last segment.
+    dict(key="sm2", label="banking seat V2 (sm2)", branch="sm2/banking",
+         remotes=("origin",), cell=("sm2",)),
     # NOTED 2026-11-18 (the web seat's W-H1, G3; P-865): the branches `review-82/read` and `review-83/read` are not listed
     # here, by decision and not by oversight.  They are main's own reading copies, cut by main at a review's opening with
     # planted faults and never written to by a seat; a later push to either would be main's own act, recorded in that
@@ -256,6 +261,10 @@ def _resolve_branch(remote, short, _cache={}):
     if remote not in _cache:
         rc, out = _git("for-each-ref", "--format=%(refname:short)", f"refs/remotes/{remote}")
         _cache[remote] = [l.strip() for l in out.splitlines() if l.strip()] if rc == 0 else []
+    # CHANGED 2026-11-27 (S306p): a name with a slash is the branch's full path under the remote, matched exactly; the banking
+    # seats' branches `sm2/banking` and `sm/banking` share their last segment
+    if "/" in short:
+        return f"{remote}/{short}" if f"{remote}/{short}" in _cache[remote] else None
     hits = [r for r in _cache[remote] if r.rsplit("/", 1)[-1] == short]
     return sorted(hits, key=len)[0] if hits else None
 
