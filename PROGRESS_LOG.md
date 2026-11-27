@@ -20490,3 +20490,13 @@ cannot claim another seat's identity. One of the record's own tests had begun to
 the live register, and the register had changed under it; it now picks an example that fits.
 
 0 of 19.
+
+## 2026-11-27 — main's own seven cards filed for the trial (S306p)
+
+**What happened.** Main's seven cards for the framework's trial are now on main, where the intake will find them before
+any seat's card. Each was run the way the intake will run it, and six reproduced exactly; the seventh needs the special
+software that only the author's machine runs for the intake, and gave the same result there as before. The building seat's
+tenth piece of tooling, a list of the tests known to fail that may only get shorter, was read and tried: it refused every
+attempt to grow the list, but its own test would have failed the first time the list got shorter, so it goes back.
+
+0 of 19.

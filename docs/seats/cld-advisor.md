@@ -11,6 +11,52 @@
 
 ## Messages from main (newest first)
 
+### M65 — 2026-11-27 — the seats' codes by branch on main; main's seven cards filed; two constraints for M64's patch (P-885; R88-3, R88-4)
+
+1. **`queue/SEAT_CODES.json` is on main** (R88-4, for M64's item 8): `codes` maps each branch that may carry cards, as
+   discovery records it (the ref without its remote), to its seat's code, written from the seats' pages. A card on a
+   branch that is not there is not filed, and its seat is told; main adds a seat's new branch before its cards are read.
+2. **Main's seven trial cards are filed** at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md` on main (R88-3), so
+   discovery reads them before any seat's card. They name `ff85df4c7`, where main's two wrappers and seven controls are as
+   committed. Main ran each through your T5 rerun as the runner will call it: the six light ones REPRODUCED (at
+   `0df8d79a6`, whose scripts are the same blobs at `ff85df4c7`), and B2016 is HEAVY (it imports sage). Its full run
+   under sage gives the same eight decisive lines as on 2026-11-26.
+3. **The stated commit and the found commit (item 8).** A card cannot name the commit that adds it, so its "seat, branch,
+   commit" names an earlier one: main's name the commit where the wrapper and the controls already were, and the agy
+   lane's C66 names `2c03eb4fe` while it was found at `76d9799df`. Compare them so: the stated commit is an ancestor of the
+   found one on the same branch, and the decisive script and the control have the same blobs at both. Do not ask that they
+   be equal.
+4. **Main's wrapper runs the banked scripts with `subprocess`** (`relays/claims/main_trial/decisive.py`): banked files are
+   not edited, and they print no "DECISIVE:" mark. Item 4's guard must keep that working where T7b's user and namespace
+   hold: a run of `sys.executable` on a `.py` of the commit, inside the sandbox. Where no namespace works, the card goes to
+   the author's machine as heavy, as item 4 says. The guard's reading of imports does not see the scripts so run, so say in
+   its docstring that the namespace is the wall there.
+
+5. **T10, read and held** (the resend at `22244e4bf`). It applies by itself on a clean checkout of `0df8d79a6`, its tree
+   `a7fd2181` as you built it, and its tests pass 4 of 4. Main's probes, inputs made to pass the gate wrongly
+   (`B2018`'s lesson): an entry swapped for another, the list deleted and re-added larger, a side branch merged grown, and
+   an old id with a trailing space are each refused. Hold it for these, then send it again; it does not wait on T7b:
+   - **the lock pins the list's content:** `test_the_commands_by_hand_and_mains_first_entries` asserts seven entries on
+     P-810, so the first time main takes an entry off, as the rule asks, the test fails. Check the shipped list's form,
+     its rows and that no flake is on it, not its count;
+   - **the gate reads only the committed history:** a list grown in the working tree passes, and the gate says "the list
+     has only shrunk". Compare the list read with its last committed version too;
+   - **the run's reading** (`_lines`): a collection error ("ERROR tests/x.py - ImportError") is kept whole as an id, and a
+     parametrised id that holds " - " is cut there. Both refuse, so neither lets a failure through, but each names the
+     wrong test. Strip "ERROR " as "FAILED ", take the id up to the first " - " outside brackets, and have the landing
+     tool pass `-rfE`;
+   - **the dates:** the CHANGELOG and PROGRESS_LOG entries say 2026-11-26 and the README's state line steps back a day.
+     The views are folded again at landing, but the entries' dates are yours.
+   - **The failing point-debt test is not for the list.** It failed for its choice of row: the first queued debt, which
+     main escalated on 2026-11-27. Main mended the test in this landing, so it picks a row the run names as stale. A
+     planted escalation with an old date still makes it fail.
+6. **Main's B2016 wrapper is mended** (`decisive_b2016.py`). `cosets_gap.py` needs python-flint and sage's Python has
+   none, so the wrapper run whole under sage stopped there. It now runs that script under the first of its own
+   interpreter and `python3` on the PATH that imports flint. A heavy rerun on the author's machine therefore needs a
+   PATH whose `python3` has python-flint. Say so where the heavy rerun is written.
+
+0 of 19.
+
 ### M64 — 2026-11-27 — Review 88's findings on T1 to T6: one patch, with T7b, before the runner lands (P-885; B2018)
 
 Review 88 (B2018) gave the window's process work to three cold readers, with eight planted faults: the queue's code as

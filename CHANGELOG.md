@@ -1,5 +1,24 @@
 # Changelog
 
+## S306p MAIN'S SEVEN TRIAL CARDS FILED, BEFORE THE RUNNER'S FIRST ROUND; T10 READ AND HELD (P-885; R88-3 MET; M65) (2026-11-27)
+
+- **The seven cards** (B2011 to B2017) at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md`, so that discovery, which
+  reads main first, queues them before any seat's card. They name `ff85df4c7`. Each in the template's order, with a
+  definitions field taken from the arcs' own scripts, a scope of four parts, plain commands, and the decisive lines' hash
+  as the rerun normalises them; B2013, a process arc, touches nothing and its effect is none. The titles, claims, premises
+  and fail conditions are the drafts of 2026-11-26.
+- **Run as the runner will run them** (`scripts/queue/rerun.py` called on each card): B2011, B2012, B2013, B2014, B2015 and
+  B2017 REPRODUCED, each control exiting 1 with no traceback; B2016 HEAVY (it imports sage), its full run under sage giving
+  the same eight lines as on 2026-11-26. The form check holds on all seven; the record check finds six deciding, no wait,
+  no retracted premise and no firewall flag.
+- **T10 read and held (M65):** it applies alone on `0df8d79a6`, its tree as built, 4 of 4. Main's probes: a swapped entry,
+  a deleted and re-added list, a side branch merged grown and an id with a trailing space are each refused; held for a lock
+  that pins the list's count (it would fail the first time the list shrinks), a gate that reads only the committed history,
+  and the run's reading of error lines and parametrised ids.
+- **M65 to the builder** also: `queue/SEAT_CODES.json` is on main; a card's stated commit is an ancestor of the one it is
+  found at, not equal to it; main's wrapper runs the banked scripts with subprocess, which the guard's fix must keep
+  working inside the sandbox; a heavy rerun needs a `python3` with python-flint on its PATH.
+
 ## S306p THE TRIAL CARDS' TOOLS MENDED; THE SEATS' CODES BY BRANCH; A TEST'S CHOICE OF ROW (P-885; R88-3, R88-4) (2026-11-27)
 
 - **Main's seven trial cards, run before filing** from a clean checkout of `0df8d79a6`, each wrapper and control as the
