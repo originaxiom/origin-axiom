@@ -1,57 +1,59 @@
-From 0aa54c573b37d5d9d72991ff7f80255f550f45d8 Mon Sep 17 00:00:00 2001
+From 5b7d3eef90f52c914a29602d97fcf13cd35270fd Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Thu, 26 Nov 2026 23:13:02 +0000
+Date: Fri, 27 Nov 2026 05:36:21 +0000
 Subject: [PATCH] S306p the known failures may only shrink, a gate
- (known-failures; the framework's thin path, T10; P-885):
+ (known-failures; the framework's thin path, T10; P-885; main's M63):
  queue/KNOWN_FAILURES.json lists every failing test and red gate on main with
- its register row and why, empty as sent for main to fill from its full suite;
- scripts/queue/baseline.py checks its form and that it only shrinks along the
- history, compares a run with it (a new failure refuses a landing; an entry
- that now passes is reported) and drafts it from a run; tests fail with each
- rule removed
+ its register row and why, its first entries main's seven from its full suite
+ on a fresh clone, each on P-810; scripts/queue/baseline.py checks its form
+ and that it only shrinks along the history, compares a run with it (a new
+ failure refuses a landing; an entry that now passes is reported) and drafts
+ it from a run; tests fail with each rule removed
 
 ---
- CHANGELOG.md                   |  10 +++
+ CHANGELOG.md                   |  11 +++
  PROGRESS_LOG.md                |   9 ++
+ README.md                      |   2 +-
  docs/PRACTICES.md              |  12 +++
  docs/views/CONTEXT_RECOVERY.md |   2 +-
- docs/views/THE_SPINE.md        |   3 +-
- queue/KNOWN_FAILURES.json      |   5 ++
+ docs/views/THE_SPINE.md        |   6 +-
+ queue/KNOWN_FAILURES.json      |  41 +++++++++
  scripts/gates/gates.py         |  24 ++++-
  scripts/queue/baseline.py      | 156 +++++++++++++++++++++++++++++++++
  tests/GATE_CONTROLS.json       |   3 +-
- tests/test_known_failures.py   |  86 ++++++++++++++++++
- 10 files changed, 306 insertions(+), 4 deletions(-)
+ tests/test_known_failures.py   |  89 +++++++++++++++++++
+ 11 files changed, 350 insertions(+), 5 deletions(-)
  create mode 100644 queue/KNOWN_FAILURES.json
  create mode 100644 scripts/queue/baseline.py
  create mode 100644 tests/test_known_failures.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index c6a144cee..5f2eb17ea 100644
+index 2d60c6abd..74d82b269 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
-@@ -1,5 +1,15 @@
+@@ -1,5 +1,16 @@
  # Changelog
  
 +## S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-26)
 +
-+- **`queue/KNOWN_FAILURES.json`:** every failing test and red gate on main, each with its register row and why; it ships
-+  empty, its first entries main's, from main's full suite on a fresh clone.
++- **`queue/KNOWN_FAILURES.json`:** every failing test and red gate on main, each with its register row and why; its first
++  entries are main's (M63): the seven tests that failed alone in main's full suite on a fresh clone of ed9660a9d, each on
++  P-810 (the two that passed alone are flakes, debts of their own, not entries).
 +- **`scripts/queue/baseline.py`:** the list's form (every entry a row of the register); its history (it only shrinks); a
 +  run compared with it (a failure or red gate it does not hold is new, and refuses a landing; an entry that now passes is
 +  reported for taking off); a draft from a run, the rows left for main.
 +- **The gate `known-failures`**, fail-closed, in READS_HISTORY; a GATE_CONTROLS entry and a PRACTICES section.
 +- **New test** `tests/test_known_failures.py` (4 tests); each rule's removal makes one fail.
 +
- ## S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-26)
+ ## S306p THE AGY CUSP SEAT'S C66 RECEIVED; C65 SUPERSEDED BY IT (P-885; HARVEST ROW 2041; M23) (2026-11-27)
  
- - **`scripts/queue/banking.py`:** each banking seat files on its own branch its expectation, its seal (the SHA-256 of
+ - **C66, its second card in the new form,** at `76d9799df`, read through the mask: `card_form.py` holds; its four stated
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index cee26e5dc..98d116597 100644
+index 12fdae4e1..7d6467593 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20430,3 +20430,12 @@
- a check from another family of models before it is verified.
+@@ -20479,3 +20479,12 @@
+ builds on some of them.
  
  0 of 19.
 +
@@ -59,10 +61,23 @@ index cee26e5dc..98d116597 100644
 +
 +**What happened.** The building seat sent the thin path's tenth patch. The tests that fail on main today, and the checks
 +that are red, are to be listed in one file, each tied to the register row that holds it. The list may only get shorter: a
-+new gate fails if it ever grows. A change that brings a failure the list does not hold will be refused when it lands. The
-+list starts empty; main fills it from its own full run.
++new gate fails if it ever grows. A change that brings a failure the list does not hold will be refused when it lands. Its
++first seven entries are the tests that failed alone in main's own full run on a fresh clone.
 +
 +0 of 19.
+diff --git a/README.md b/README.md
+index 515b7951c..f7f1ed1b9 100644
+--- a/README.md
++++ b/README.md
+@@ -24,7 +24,7 @@
+ | arcs with a verdict | 1715: 1208 PROVED, 388 NEGATIVE, 106 OPEN, 13 RETRACTED |
+ | points in the register | 885: 311 open (queued work, leads, and questions not yet decided), 574 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+-| the last landing | 2026-11-27; its entry heads `CHANGELOG.md` (the working record) |
++| the last landing | 2026-11-26; its entry heads `CHANGELOG.md` (the working record) |
+ <!-- STATE:END -->
+ 
+ ## Start here
 diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
 index 12966f697..fbb04e18f 100644
 --- a/docs/PRACTICES.md
@@ -84,7 +99,7 @@ index 12966f697..fbb04e18f 100644
 +2026-11-26 the suite was red on main: every landing would have been refused, or the rule ignored. A list that may only
 +shrink lets the rule bind now, and makes each standing failure a debt with its row.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 1e6780a0f..d56138289 100644
+index e3e7fd316..228e923dd 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -92,54 +107,90 @@ index 1e6780a0f..d56138289 100644
  ## The last landings (CHANGELOG)
  
 +- “S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-26)”
- - “S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-26)”
- - “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-26)”
- - “S306p THE INTAKE RUNNER AND ITS WORKFLOW (the framework's thin path, T7; P-885) (2026-11-26)”
+ - “S306p THE AGY CUSP SEAT'S C66 RECEIVED; C65 SUPERSEDED BY IT (P-885; HARVEST ROW 2041; M23) (2026-11-27)”
+ - “S306p REVIEW 88 ENTERED: EIGHT OF EIGHT PLANTS CAUGHT IN THE FRAMEWORK'S PROCESS WORK; THE QUEUE'S CODE AND PAGES READ (B2018; P-881, P-885; M64) (2026-11-27)”
+ - “S306p THE AGY CUSP SEAT'S FIRST CARD IN THE NEW FORM RECEIVED; T9, T10 AND SM2'S P3 REGISTERED; K1 IN WORDS (P-885) (2026-11-27)”
 @@ -60,7 +61,6 @@
- - “S306p T1b: WHO MAY MOVE A CARD, THE SCOPE ON THE CARD, A CONTROL FAILS CLEANLY (the framework's thin path; P-885) (2026-11-26)”
- - “S306p BANKING SEAT V2 STARTED AND TRAINED ON TWO PRACTICE CARDS; A THIRD, P3; README § 12 RECONCILED (P-885) (2026-11-26)”
- - “S306p T4 AND T5 OF THE THIN PATH LANDED (P-885; M59) (2026-11-26)”
--- “S306p THE SANDBOXED RERUN, WITH ITS FAILING CONTROL (the framework's thin path, T5; P-885) (2026-11-26)”
+ - “S306p THE SEATS READ AND ANSWERED; THE CARD'S DEFINITIONS FIELD (P-882, P-885) (2026-11-27)”
+ - “S306p THE BACKLOG BEHIND THE FRAMEWORK ESCALATED BY DATE (P-885) (2026-11-27)”
+ - “S306p T7 READ AND HELD; T8 READ; THE AUTHOR'S SETTINGS RELAYED (P-885; M62) (2026-11-27)”
+-- “S306p T1b AND T6 OF THE THIN PATH LANDED (P-885; M61) (2026-11-26)”
  
  ## The latest campaign line
  
 diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
-index 022b5f92a..fcf6b4e67 100644
+index a5fadaadd..c91d1f498 100644
 --- a/docs/views/THE_SPINE.md
 +++ b/docs/views/THE_SPINE.md
 @@ -2,7 +2,7 @@
  
  *One line per living test lock, in git birth order. The claim head comes from the
  arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
--Generated by `scripts/views/spine.py` — 1568 locks. Regenerated with the views.*
-+Generated by `scripts/views/spine.py` — 1569 locks. Regenerated with the views.*
+-Generated by `scripts/views/spine.py` — 1565 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1566 locks. Regenerated with the views.*
  
  
  ## 2026-05-22
-@@ -1941,6 +1941,7 @@
- ## 2026-11-26
- 
- - — `test_card_form.py` 
+@@ -1947,3 +1947,7 @@
+ - — `test_queue_rerun.py` 
+ - — `test_queue_schema.py` 
+ - — `test_verdict_schema_gate.py` 
++
++## 2026-11-27
++
 +- — `test_known_failures.py` 
- - — `test_queue_banking.py` 
- - — `test_queue_custody.py` 
- - — `test_queue_discover.py` 
 diff --git a/queue/KNOWN_FAILURES.json b/queue/KNOWN_FAILURES.json
 new file mode 100644
-index 000000000..2187a9c17
+index 000000000..8441a4163
 --- /dev/null
 +++ b/queue/KNOWN_FAILURES.json
-@@ -0,0 +1,5 @@
+@@ -0,0 +1,41 @@
 +{
-+ "note": "The known-failures baseline (the framework's thin path, T10; register row P-885): every test that fails and every gate that is red on main, as of a full suite on a fresh clone, each with the register row that holds it. It may only shrink. It ships empty: its first entries are main's, from main's own full suite.",
-+ "tests": [],
++ "note": "The known-failures baseline (the framework's thin path, T10; register row P-885): every test that fails and every gate that is red on main, as of a full suite on a fresh clone, each with the register row that holds it. It may only shrink. Its first entries are main's (M63): the seven tests that failed alone in main's full suite on a fresh clone of ed9660a9d (9 failed, 9,320 passed, 73 skipped; two of the nine passed alone and are flakes, not entries).",
++ "tests": [
++  {
++   "id": "tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted",
++   "row": "P-810",
++   "why": "in a clone without the seats' branches, not every seat comes back skipped, and no scheduled row is counted (main's full suite on a fresh clone of ed9660a9d, run alone; M63)"
++  },
++  {
++   "id": "tests/test_b1421_completeness_sweep.py::test_the_method_reproduces_b1266s_partition",
++   "row": "P-810",
++   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
++  },
++  {
++   "id": "tests/test_b1266_sources.py::test_selftest_passes",
++   "row": "P-810",
++   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
++  },
++  {
++   "id": "tests/test_b1462_seats_harvested.py::test_genesis_v1_7_and_the_corrections",
++   "row": "P-810",
++   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
++  },
++  {
++   "id": "frontier/B1957_the_seats_claims_register/verification/test_b1957_checks.py::test_the_seats_older_rows_and_the_physical_answer",
++   "row": "P-810",
++   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
++  },
++  {
++   "id": "frontier/B1957_the_seats_claims_register/verification/test_b1957_checks.py::test_the_sm_seats_relay_read_by_main_line_by_line",
++   "row": "P-810",
++   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
++  },
++  {
++   "id": "frontier/B1957_the_seats_claims_register/verification/test_b1957_checks.py::test_the_web_seats_section_27_and_its_mends",
++   "row": "P-810",
++   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
++  }
++ ],
 + "gates": []
 +}
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index bd59528ff..7a49a785c 100644
+index 4bdc94eba..c08304f09 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
-@@ -3623,6 +3623,26 @@
+@@ -3620,6 +3620,26 @@
      return True, "ok (%d card(s) in the queue hold its schema)" % len([n for n in cards if n != "(strays)"])
  
  
@@ -166,7 +217,7 @@ index bd59528ff..7a49a785c 100644
  GATES = {
      "identification-register": gate_identification_register,
      "framing": gate_framing,
-@@ -3680,6 +3700,7 @@
+@@ -3677,6 +3697,7 @@
      "negative-second-computation": gate_negative_second_computation,
      "verdict-schema": gate_verdict_schema,
      "queue-schema": gate_queue_schema,
@@ -174,7 +225,7 @@ index bd59528ff..7a49a785c 100644
      "selection-family": gate_selection_family,
      "public-face": gate_public_face,
  }
-@@ -3697,7 +3718,8 @@
+@@ -3694,7 +3715,8 @@
      "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
      "gate-controls",                              # the same rule for the register of controls (series 3, PV16)
      "path-refs",                                  # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
@@ -360,17 +411,17 @@ index 033eb3a00..c6721b84c 100644
  }
 diff --git a/tests/test_known_failures.py b/tests/test_known_failures.py
 new file mode 100644
-index 000000000..4d48cf7fb
+index 000000000..647ce2fcc
 --- /dev/null
 +++ b/tests/test_known_failures.py
-@@ -0,0 +1,86 @@
+@@ -0,0 +1,89 @@
 +"""2026-11-26 (the framework's thin path, patch T10; register row P-885): the known-failures baseline,
 +scripts/queue/baseline.py, and the gate known-failures.
 +
 +A list whose entry names no register row, or a row the register does not hold, fails the gate, and its twin passes; a
 +list that grows along the history fails it, and one that shrinks passes; a run with a failure or a red gate the list does
 +not hold is a new failure, and an entry that now passes is reported for taking off; the draft leaves the rows to main; the
-+list ships empty and the gate passes on the record."""
++list holds main's seven first entries (M63) and the gate passes on the record."""
 +import importlib.util
 +import json
 +import pathlib
@@ -438,7 +489,7 @@ index 000000000..4d48cf7fb
 +    assert new == ["gate attribution"] and gone == ["test tests/test_a.py::test_one"]
 +
 +
-+def test_the_commands_by_hand_and_the_list_ships_empty(tmp_path):
++def test_the_commands_by_hand_and_mains_first_entries(tmp_path):
 +    f = tmp_path / "failed.txt"
 +    f.write_text("FAILED tests/test_b.py::test_two - AssertionError: x\n", encoding="utf-8")
 +    run = lambda *a: subprocess.run([sys.executable, "-B", str(ROOT / "scripts/queue/baseline.py"), *map(str, a)],
@@ -449,7 +500,10 @@ index 000000000..4d48cf7fb
 +    assert draft["tests"] == [{"id": "tests/test_b.py::test_two", "row": "P-?", "why": "?"}]
 +    assert run("--check").returncode == 0
 +    shipped = json.loads((ROOT / "queue" / "KNOWN_FAILURES.json").read_text(encoding="utf-8"))
-+    assert shipped["tests"] == [] and shipped["gates"] == [] and GATES.gate_known_failures()[0]
++    assert GATES.gate_known_failures()[0]
++    # main's first entries (M63): the seven that failed alone on a fresh clone, each on P-810; no flake among them
++    assert len(shipped["tests"]) == 7 and {e["row"] for e in shipped["tests"]} == {"P-810"} and shipped["gates"] == []
++    assert not any("b618" in e["id"] or "b1968" in e["id"] for e in shipped["tests"])
 -- 
 2.43.0
 

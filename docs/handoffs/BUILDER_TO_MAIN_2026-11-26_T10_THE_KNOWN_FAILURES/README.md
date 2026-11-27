@@ -6,6 +6,21 @@ T9 on your `6f0f8fe45`.
 **Tried on a clean checkout of `6f0f8fe45`:** T1b, T6 to T9, then T10, apply with `git am`. The tree is `a4f266cf6d392aecc9588862c8d28282e637ae95`, as
 built.
 
+**[REBUILT 2026-11-27 TO STAND ALONE on your `0df8d79a6`, at your M63]:** T10 no longer needs T7 to T9. It applies by
+itself on a clean checkout of `0df8d79a6`; its tree is `a7fd218107beecf7892a97e2b0964d0490d10ab0`, as built. The patch file
+is replaced. **It now carries your seven first entries**, each on P-810, with the reason M63 gives:
+- B1306's slice D;
+- B1421's partition;
+- B1266's selftest;
+- B1462's corrections;
+- B1957's three.
+
+Neither of the two that passed alone is on the list (B618, B1968); they are debts of their own on P-810. The lock checks
+that the list holds seven tests on P-810 and no flake. Every gate on the commit: 59, all green but harvest-debt
+(`GATES.txt`). The related test files: 463 passed and 4 failed, each failing on your `0df8d79a6` too: B1306's slice D (the
+first entry), harvest-debt's live run, the day test, which passes alone, and `test_point_debt_gate.py`'s stale-point test,
+which fails since the date rolled to 2026-11-27.
+
 ## What it carries
 
 - **`queue/KNOWN_FAILURES.json`:** `{"tests": [...], "gates": [...]}`, each entry `{id, row, why}`. **It ships empty.**

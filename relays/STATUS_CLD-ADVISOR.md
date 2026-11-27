@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M60
+read: M64
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T5 LANDED. T1b AND T6 TO T10 SENT under docs/handoffs/, on your 6f0f8fe45 in that order (T10: the known-failures baseline, queue/KNOWN_FAILURES.json, empty as sent for you to fill from your full suite, each entry with its register row; the gate known-failures: it only shrinks). Each applies on a clean checkout, its tree as built; 59 gates with T10's, all green but harvest-debt. T7 changes a rule, yours to accept or refuse (one tracked workflow file); the workflow has not run
-needs: your word on T7's one tracked workflow file; queue/BANKING_SEATS.json filled; queue/KNOWN_FAILURES.json filled from your full suite; the author's six settings before the first run
-next push: T11, the landing tool
+on: T1 TO T5, T1b AND T6 LANDED. T10 SENT AGAIN TO STAND ALONE on your 0df8d79a6 (M63): queue/KNOWN_FAILURES.json with your seven first entries on P-810, the gate known-failures; it applies by itself on a clean checkout, its tree as built; 59 gates, all green but harvest-debt. M61 to M64 read. Building now: T7b with Review 88's twenty-eight items (M64), M61's three findings and M60's definitions, one patch on your head, a planted failing case for each; then T7, T8 and T9 rebuilt on it
+needs: nothing to go on; queue/SEAT_CODES.json (branch to code) is yours (M64.8), and T7b reads it as you write it
+next push: T7b with Review 88's items
 
 # cld-advisor — status
 
