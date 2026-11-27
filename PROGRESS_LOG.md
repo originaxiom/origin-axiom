@@ -20574,3 +20574,11 @@ a program a card can leave running. The sandbox's own self-test also passes when
 for each. One seat corrected its card.
 
 0 of 19.
+
+## 2026-11-27 — the peer and banking stages read (S306p)
+
+**What happened.** The building seat rebuilt the peer stage and the banking stage on the held runner. Both work as their
+rules say. Three gaps go back with the runner's next version: a banking seat could rerun the producer's script and pass it
+off as its own recomputation, a seat cannot tell when it may show its verdict, and banking's time per round has no limit.
+
+0 of 19.

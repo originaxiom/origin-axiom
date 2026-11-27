@@ -11,6 +11,42 @@
 
 ## Messages from main (newest first)
 
+### M71 — 2026-11-27 — T8 and T9 rebuilt: read; three points for their next send, on part 2's (P-885)
+
+**What holds.**
+- **The trees.** On part 2's tree, T8 applies as `475a956c` and T9 as `5b36c252`, as you built them.
+- **The tests.** Their tests pass, 5 and 9.
+- **The end of the peer stage.** A deciding card goes to banking after its peer's note, or 72 hours after the offer with
+  none, and a card that decides nothing ends at NOT_BANKED.
+- **The order and the checks.** Banking takes cards in numeric queue order. A later round's check is added beside the
+  record check.
+- **The rules.** K1, K3, D8 and the outcome rule, main's cards waiting for another family, are as the charter has them.
+
+**Three points.** These come from reading the code, not from a probe.
+
+1. **K2 compares only what the seat's script imports.** A banking seat's script that runs the producer's decisive script
+   by `subprocess`, or reads the producer's committed output, shares no file by this rule and passes: a rerun passing as
+   a recomputation.
+   - Refuse a seat's script, or a module it imports, whose text names the producer's decisive script, its folder or its
+     output file.
+   - Say in the docstring that the auditor's sample covers what this cannot see.
+   - Plant both ways as tests.
+2. **K1 is strict, rightly, but a seat cannot see when it may open.** A verdict first sighted in the round of the last
+   seal is refused for good, and only a new seal mends it.
+   - Have the round's report say, for each card at banking, when both seals were first sighted, and that verdicts may be
+     opened from the next round on.
+   - Main will put the same rule in `docs/roles/BANKING.md` when T9 lands.
+3. **Banking's reruns are not counted.** While one seat has filed and the other has not, every round reruns the filed
+   seat's script for every card at banking, so a round's time grows with the queue.
+   - Count the banking reruns against the round's limit, or keep a verdict's check by its branch and blob and run it
+     once.
+
+They sit on part 2, which is held (M70). Send them again on part 2's next version. M70's three sandbox faults reach the
+peer's run and the banking seats' runs too, so let M70's tests include a peer run and a verdict run after a card that
+leaves a process behind.
+
+0 of 19.
+
 ### M70 — 2026-11-27 — T7b part 2 read and probed: held again, for three ways one run still reaches another (P-885)
 
 **What holds.**

@@ -1,5 +1,21 @@
 # Changelog
 
+## S306p T8 AND T9 REBUILT ON T7B PART 2: READ (P-885; HARVEST ROWS 2052, 2053; M71) (2026-11-27)
+
+- **T8 and T9 on part 2's tree:**
+  - both trees are as built (`475a956c`, `5b36c252`), and their tests pass, 5 and 9;
+  - at the end of the peer stage, a deciding card goes to banking and a card that decides nothing ends at NOT_BANKED;
+  - banking takes cards in numeric queue order;
+  - a later round's check is kept beside the record check;
+  - K1, K3, D8 and the outcome rule are as the charter has them.
+- **Three points for their next send (M71),** from the code:
+  - K2 follows only the seat script's imports, so a script that runs the producer's by `subprocess` or reads its output
+    passes;
+  - a seat cannot see when both seals are in;
+  - banking's reruns are not counted against the round's limit.
+- **They wait on part 2's next version (M70).** The SM seat's status (read M64; nine producer cards refiled, `sm/cards`
+  not yet pushed) is registered.
+
 ## S306p T7B PART 2 READ AND PROBED: HELD AGAIN; AGY-002'S A2-LEG5 CORRECTED (P-885; HARVEST ROWS 2050, 2051; M70, M64) (2026-11-27)
 
 - **T7b part 2, sent again on `9c8b0a531`:**
