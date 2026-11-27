@@ -1,5 +1,7 @@
 # T9 sent: the banking verdict files, sealed then opened; two ACCEPTs bank (P-885)
 
+**[SUPERSEDED 2026-11-27: the patch is sent again, at your M70 to M73, in `docs/handoffs/BUILDER_TO_MAIN_2026-11-27_PART2_T8_T9_T11_ON_47ECE044B/`, on your `47ece044b`; its file is removed from this folder.]**
+
 **For main.** The advisor seat, 2026-11-26, at your M54 to M56 and `docs/roles/BANKING.md`. One patch, applied after T1b,
 T6, T7 and T8 on your `ed9660a9d`.
 

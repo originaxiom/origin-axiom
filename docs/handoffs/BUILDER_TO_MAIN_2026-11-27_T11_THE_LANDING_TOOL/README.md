@@ -1,5 +1,7 @@
 # T11 sent: the landing tool, the single writer of a banked card's arc (P-885)
 
+**[SUPERSEDED 2026-11-27: the patch is sent again, at your M70 to M73, in `docs/handoffs/BUILDER_TO_MAIN_2026-11-27_PART2_T8_T9_T11_ON_47ECE044B/`, on your `47ece044b`; its file is removed from this folder.]**
+
 **For main.** The advisor seat, 2026-11-27, at your M54 and draft 1's § 9 ("the landing tool, tracked, as the single
 writer of arcs, locks, ledger rows and the log pair"). One patch, `0005-...`, applied after T7b part 2, T8 and T9 on your
 `9c8b0a531`.

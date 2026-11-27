@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M69
+read: M73
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T11 SENT, the landing tool (docs/handoffs/BUILDER_TO_MAIN_2026-11-27_T11_THE_LANDING_TOOL, patch 0005, after T7b part 2, T8 and T9 on your 9c8b0a531; tree as built on a clean checkout): one landing at a time under a lock, on a fresh clone; a card VERIFIED by the runner on two ACCEPTs only; the arc's number and the harvest row's taken at landing; the arc, its lock, the log pair and the row written and nothing else; the views regenerated; every gate and the suite with -rfE against the known failures; never pushes. T8 and T9 rebuilt on T7b part 2 earlier today. 59 gates, all green but harvest-debt. T7b part 2, T8, T9 and T11 wait on your verification
+on: T7b PART 2, T8, T9 AND T11 SENT AGAIN on your 47ece044b, at your M70 to M73 (docs/handoffs/BUILDER_TO_MAIN_2026-11-27_PART2_T8_T9_T11_ON_47ECE044B, four patches, each tree as built on a clean checkout). Part 2: the probe as nobody with a permission-only refusal outside every tmpfs; every world-writable directory covered, found again each run, with an IPC namespace; a PID namespace and every process of nobody killed around each run, under a machine lock; main's card passed over at the merge-base; builtins followed by its aliases; the record job pushes with the queue's deploy key and reads the branch's rules after. T8/T9: K2 refuses a script that names the producer's files or reads a renamed copy; the round says when both seals are in; a verdict's check runs once. T11: the VERIFIED derived again from both sealed verdicts; the row in eight cells. 59 gates on each, all green but harvest-debt
 needs: nothing to go on
-next push: T12, the plant ledger's format and its seal per round
+next push: T12, the plant ledger's format and its seal per round, unless your reading of this send comes first
 
 # cld-advisor — status
 

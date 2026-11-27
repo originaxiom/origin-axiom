@@ -1,7 +1,7 @@
-From ec0d0d8b2f0fa3537a8b03271ceb5b8b1fef9ff3 Mon Sep 17 00:00:00 2001
+From 7368c2bee73c584be677a67dea827631ab5eb0dd Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Fri, 27 Nov 2026 16:06:41 +0000
-Subject: [PATCH 1/2] S306p the peer note and the move to PEERED (the
+Date: Fri, 27 Nov 2026 20:29:54 +0000
+Subject: [PATCH 2/4] S306p the peer note and the move to PEERED (the
  framework's thin path, T8; P-885): scripts/queue/peer_note.py checks a peer's
  note on its own branch (its form, a peer that is not the card's seat, sighted
  after the offer, its own script rerun in the sandbox with its failing
@@ -11,23 +11,23 @@ Subject: [PATCH 1/2] S306p the peer note and the move to PEERED (the
  removed
 
 ---
- CHANGELOG.md                   |  14 +++
+ CHANGELOG.md                   |  18 +++
  PROGRESS_LOG.md                |   9 ++
  docs/views/CONTEXT_RECOVERY.md |   2 +-
  docs/views/THE_SPINE.md        |   3 +-
  scripts/queue/custody.py       |   2 +-
- scripts/queue/intake.py        |  53 +++++++++-
- scripts/queue/peer_note.py     | 183 +++++++++++++++++++++++++++++++++
- tests/test_queue_peer_note.py  | 166 ++++++++++++++++++++++++++++++
- 8 files changed, 426 insertions(+), 6 deletions(-)
+ scripts/queue/intake.py        |  53 +++++++-
+ scripts/queue/peer_note.py     | 231 ++++++++++++++++++++++++++++++++
+ tests/test_queue_peer_note.py  | 235 +++++++++++++++++++++++++++++++++
+ 8 files changed, 547 insertions(+), 6 deletions(-)
  create mode 100644 scripts/queue/peer_note.py
  create mode 100644 tests/test_queue_peer_note.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 43821a89e..f68ad8021 100644
+index 55ab49f78..ca42f03bc 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
-@@ -1,5 +1,19 @@
+@@ -1,5 +1,23 @@
  # Changelog
  
 +## S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)
@@ -42,16 +42,20 @@ index 43821a89e..f68ad8021 100644
 +  is reported and the card stays OFFERED. The sighting log holds peer notes too.
 +- **Said plainly:** the note is on a public branch, so the banking seats' blindness to it is the charter's rule, measured
 +  by plants, not something the check enforces.
-+- **New test** `tests/test_queue_peer_note.py` (5 tests); each rule's removal makes one fail.
++- **Main's M71 point 1:** "re-derived" also needs that the peer's script, and the modules beside it that it imports,
++  name neither the producer's decisive script nor its folder nor a file in it, and that no file beside the peer's script
++  is a renamed copy of one of the producer's (`producer_reach`); a peer that runs the producer's script by `subprocess`,
++  or reads a copy of its files, is graded "reran". A peer's run after a card that leaves a process behind is its own.
++- **New test** `tests/test_queue_peer_note.py` (8 tests); each rule's removal makes one fail.
 +
  ## S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)
  
  - **`scripts/queue/intake.py`:** one round of the intake: discovery and sighting (seat codes by branch), the form (a refile
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 850936911..b22d5ad6c 100644
+index 051e47cfc..c90c5fce1 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20566,3 +20566,12 @@
+@@ -20648,3 +20648,12 @@
  refuses any file the round did not write. The settings the author makes on GitHub are written beside the queue.
  
  0 of 19.
@@ -65,7 +69,7 @@ index 850936911..b22d5ad6c 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index af45ac493..2a6d855b9 100644
+index 9fba62974..785d666ce 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -74,13 +78,13 @@ index af45ac493..2a6d855b9 100644
  
 +- “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)”
  - “S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)”
- - “S306p THE BANKING SEATS' PRACTICE VERDICTS AGREE WITH THE KEY; THE KEY STAYS SEALED (P-885; M64, M6) (2026-11-27)”
- - “S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)”
+ - “S306p THE PHYSICAL SEAT BACK: ITS C8 CARD RECEIVED; THE PEER ROLE FOR MAIN'S SEVEN ACCEPTED (P-885; HARVEST ROW 2058; M26) (2026-11-27)”
+ - “S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)”
 @@ -60,7 +61,6 @@
- - “S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE LANDED (T7B PART 1); THE RUNNER HELD; TWO AUDIT DRAFTS LANDED OR DECLINED (P-326, P-589, P-885; HARVEST ROW 2046; R88-1 MET; M68, M63) (2026-11-27)”
- - “S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)”
- - “S306p THE SEATS ANSWERED: CHAT1'S LINE 65 VERIFIED; THE SM SEAT'S BRANCH READ BY DISCOVERY; WHAT THE QUEUE READS (P-876, P-885; HARVEST ROW 2042; M86, M60, M25, M66) (2026-11-27)”
--- “S306p MAIN'S SEVEN TRIAL CARDS FILED, BEFORE THE RUNNER'S FIRST ROUND; T10 READ AND HELD (P-885; R88-3 MET; M65) (2026-11-27)”
+ - “S306p AGY-002'S THIRD NEW-FORM CARD RECEIVED (P-885; HARVEST ROW 2056; M65) (2026-11-27)”
+ - “S306p THE QUEUE'S BRANCH TO BE WRITTEN BY ONE KEY ALONE (P-885; M73) (2026-11-27)”
+ - “S306p T11, THE LANDING TOOL, READ (P-885; HARVEST ROW 2055; M72) (2026-11-27)”
+-- “S306p THE SM SEAT'S NINE PRODUCER CARDS ON SM/CARDS RECEIVED; THE BRANCH PINNED (P-885; HARVEST ROW 2054; M65) (2026-11-27)”
  
  ## The latest campaign line
  
@@ -195,10 +199,10 @@ index c501f1afd..cbb1c3c9c 100644
      if problems:
 diff --git a/scripts/queue/peer_note.py b/scripts/queue/peer_note.py
 new file mode 100644
-index 000000000..92bf21650
+index 000000000..2439e9143
 --- /dev/null
 +++ b/scripts/queue/peer_note.py
-@@ -0,0 +1,183 @@
+@@ -0,0 +1,231 @@
 +#!/usr/bin/env python3
 +"""The peer note: its schema, the runner's check of it, and its grade (the framework's thin path, patch T8; draft 1
 +§§ 2.3 and 9; main's M54; register row P-885).
@@ -223,7 +227,9 @@ index 000000000..92bf21650
 +  - "reproduced" holds only if the peer's decisive lines are the card's, count and hash.
 +
 +THE GRADE. "re-derived" when the peer's script shares no file with the producer's: the script and every module beside
-+it that it imports, compared by their content. Otherwise "reran". Only a re-derived note moves a card up the banking
++it that it imports, compared by their content; and when it does not reach for the producer's computation another way:
++none of those files names the producer's decisive script, its folder or a file in it, and no file beside the peer's
++script is a renamed copy of one of the producer's (`producer_reach`, main's M71 point 1). Otherwise "reran". Only a re-derived note moves a card up the banking
 +queue (§ 9).
 +
 +WHAT THE RUNNER CANNOT DO, said plainly. The note sits on a public branch, so the banking seats could read it before they
@@ -322,6 +328,51 @@ index 000000000..92bf21650
 +        shutil.rmtree(tmp, ignore_errors=True)
 +
 +
++def producer_reach(root, producer_commit, producer_script, commit, script):
++    """M71 point 1: how a script at `commit` could rerun the producer's computation rather than recompute it, though it
++    imports none of the producer's files: the reasons, [] when none is seen.
++      - its text, or the text of a module beside it that it imports, names the producer's decisive script (its path or its
++        name), the producer's folder, or the path of a file in that folder (the producer's committed output);
++      - a file in its own folder has the content of a file in the producer's folder (a copy of the output, renamed).
++    It sees only what is written plainly: a path built at run time, or fetched, passes. The auditor's sample covers what
++    this cannot see."""
++    a = pathlib.Path(tempfile.mkdtemp(prefix="reach_p_"))
++    b = pathlib.Path(tempfile.mkdtemp(prefix="reach_s_"))
++    try:
++        pm, sm = RR.materialise(root, producer_commit, a), RR.materialise(root, commit, b)
++        if pm is None or sm is None or not (b / script).is_file():
++            return ["the scripts cannot be read at their commits"]
++        folder = pathlib.PurePosixPath(producer_script).parent.as_posix()
++        folder = "" if folder == "." else folder
++        theirs = [p for p in pm if (pathlib.PurePosixPath(p).parent.as_posix() if "/" in p else "") == folder]
++        names = {producer_script, pathlib.PurePosixPath(producer_script).name} | set(theirs) | ({folder} if folder else set())
++        seen = set()
++        if script.endswith(".py"):
++            RR.imports_of(b / script, b, seen, sm)
++        seen.add(b / script)
++        bad = []
++        for f in sorted(seen):
++            try:
++                text = f.read_text(encoding="utf-8")
++            except (OSError, UnicodeDecodeError):
++                continue
++            hit = sorted(n for n in names if n and re.search(r"(?<![\w./-])%s(?![\w-])" % re.escape(n), text))
++            if hit:
++                bad.append("%s names the producer's %s" % (f.relative_to(b), ", ".join(hit)))
++        mine = pathlib.PurePosixPath(script).parent.as_posix()
++        mine = "" if mine == "." else mine
++        hashes = {hashlib.sha256((a / p).read_bytes()).hexdigest(): p for p in theirs if (a / p).is_file()}
++        for p in sorted(sm):
++            if (pathlib.PurePosixPath(p).parent.as_posix() if "/" in p else "") == mine and (b / p).is_file():
++                h = hashlib.sha256((b / p).read_bytes()).hexdigest()
++                if h in hashes and hashes[h] != p:     # the same file at the same path is shared, not copied, and
++                    bad.append("%s is the producer's %s, copied" % (p, hashes[h]))      # reading it names its path
++        return bad
++    finally:
++        shutil.rmtree(a, ignore_errors=True)
++        shutil.rmtree(b, ignore_errors=True)
++
++
 +def _as_card(note):
 +    """the note's run, written as a card the rerun reads"""
 +    s, d = note["script"], note["decisive"]
@@ -367,7 +418,8 @@ index 000000000..92bf21650
 +        return out
 +    producer = _files(root, rec["commit"], m.group(1)) if m else set()
 +    peer = _files(root, note_commit, s["path"])
-+    out["grade"] = "re-derived" if peer and not (peer & producer) else "reran"
++    out["reach"] = producer_reach(root, rec["commit"], m.group(1), note_commit, s["path"]) if m else []
++    out["grade"] = "re-derived" if peer and not (peer & producer) and not out["reach"] else "reran"
 +    out["other_family"] = note["peer_code"].split("-")[0] != rec["seat_code"].split("-")[0]
 +    out["ok"] = True
 +    return out
@@ -384,10 +436,10 @@ index 000000000..92bf21650
 +    sys.exit(main(sys.argv[1:]))
 diff --git a/tests/test_queue_peer_note.py b/tests/test_queue_peer_note.py
 new file mode 100644
-index 000000000..936ab2bbb
+index 000000000..1ec46bc56
 --- /dev/null
 +++ b/tests/test_queue_peer_note.py
-@@ -0,0 +1,166 @@
+@@ -0,0 +1,235 @@
 +"""2026-11-26 (the framework's thin path, patch T8; main's M54; register row P-885): the peer note,
 +scripts/queue/peer_note.py, and the runner's move from OFFERED to PEERED.
 +
@@ -403,6 +455,8 @@ index 000000000..936ab2bbb
 +import pathlib
 +import subprocess
 +import sys
++
++import pytest
 +
 +ROOT = pathlib.Path(__file__).resolve().parents[1]
 +
@@ -458,18 +512,18 @@ index 000000000..936ab2bbb
 +    return repo, q, cid, g
 +
 +
-+def _note(cid, commit, script_text=PEER_SCRIPT, finding="reproduced", peer=PEER, lines=None):
++def _note(cid, commit, script_text=PEER_SCRIPT, finding="reproduced", peer=PEER, lines=None, path="peer/p.py"):
 +    n, h = IN.RR.decisive(lines or "DECISIVE: good = 12\n")
 +    return {"card": cid, "card_commit": commit, "peer_code": peer, "finding": finding,
-+            "script": {"path": "peer/p.py", "sha256": hashlib.sha256(script_text.encode()).hexdigest()[:16],
-+                       "run_as": "python3 peer/p.py", "control": "python3 peer/p.py --plant"},
++            "script": {"path": path, "sha256": hashlib.sha256(script_text.encode()).hexdigest()[:16],
++                       "run_as": "python3 %s" % path, "control": "python3 %s --plant" % path},
 +            "decisive": {"lines": n, "sha256": h}, "note": "reproduced the count with code of my own"}
 +
 +
 +def _file_note(repo, g, note, script_text=PEER_SCRIPT, branch="seat/p"):
 +    g("checkout", "-q", "-B", branch, "seat/a")
-+    (repo / "peer").mkdir(exist_ok=True)
-+    (repo / "peer" / "p.py").write_text(script_text, encoding="utf-8")
++    (repo / note["script"]["path"]).parent.mkdir(parents=True, exist_ok=True)
++    (repo / note["script"]["path"]).write_text(script_text, encoding="utf-8")
 +    (repo / "relays" / "claims" / "peer").mkdir(parents=True, exist_ok=True)
 +    (repo / PN.note_path(note["card"])).write_text(json.dumps(note), encoding="utf-8")
 +    g("add", "-A")
@@ -501,6 +555,42 @@ index 000000000..936ab2bbb
 +    _file_note(repo, g, _note(cid, rec["commit"], script_text=same), script_text=same)
 +    cards, _, att, report, _ = _round(repo, q)
 +    assert cards[cid]["status"] == "PEERED" and att[cid]["peer"]["grade"] == "reran", report
++
++
++RUNS_THE_PRODUCERS = ("import subprocess, sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
++                      "out = subprocess.run([sys.executable, 's_good.py'], capture_output=True, text=True).stdout\n"
++                      "print(out, end='')\n")
++READS_A_COPY = ("import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
++                "n = len(open('peer/kept.txt').read()) * 0 + 12\nprint('DECISIVE: good =', n)\n")
++
++
++def test_a_peer_that_runs_the_producers_script_or_reads_a_copy_of_its_files_is_graded_reran_m71(tmp_path):
++    """main's M71 point 1: a script that runs the producer's decisive script by subprocess, or reads its committed files
++    under another name, shares no file by the import rule; it reran, it did not re-derive"""
++    for i, (script, extra, reason) in enumerate(((RUNS_THE_PRODUCERS, {}, "names the producer's s_good.py"),
++                                                (READS_A_COPY, {"kept.txt": T._script("good")}, "copied"))):
++        (tmp_path / str(i)).mkdir()
++        repo, q, cid, g = _setup(tmp_path / str(i))
++        rec = IN.read_queue_dir(q)[0][cid]
++        for name, text in extra.items():
++            (repo / "peer").mkdir(exist_ok=True)
++            (repo / "peer" / name).write_text(text, encoding="utf-8")
++        _file_note(repo, g, _note(cid, rec["commit"], script_text=script), script_text=script)
++        cards, _, att, report, _ = _round(repo, q)
++        peer = att[cid]["peer"]
++        assert peer["ok"] and peer["grade"] == "reran" and any(reason in r for r in peer["reach"]), (peer, report)
++
++
++def test_a_peer_that_imports_the_producers_module_where_it_stands_is_graded_reran(tmp_path):
++    """the import rule's own case: the producer's module at the same path on the peer's branch, imported by name, is
++    neither named by its file nor a copy beside the peer's script under another name"""
++    repo, q, cid, g = _setup(tmp_path)
++    rec = IN.read_queue_dir(q)[0][cid]
++    script = "import s_good\n"
++    _file_note(repo, g, _note(cid, rec["commit"], script_text=script, path="p_root.py"), script_text=script)
++    cards, _, att, report, _ = _round(repo, q)
++    peer = att[cid]["peer"]
++    assert peer["ok"] and peer["grade"] == "reran" and peer["reach"] == [], (peer, report)
 +
 +
 +def test_a_note_that_does_not_hold_is_refused_and_the_card_stays_offered(tmp_path):
@@ -554,6 +644,37 @@ index 000000000..936ab2bbb
 +        change(n)
 +        bad = PN.form_problems(n, rec)
 +        assert bad and any(words in b for b in bad), (words, bad)
++
++
++def _leave_a_process(tmp_path):
++    """main's M70 point 3, before a peer's or a banking seat's run (M71): a card whose run leaves a detached child that
++    rewrites every data file it can reach through /proc/<pid>/cwd"""
++    RT = _load("rerun_tests_for_the_peer", "tests/test_queue_rerun.py")
++    if not RT.SANDBOX[0]:
++        return None
++    RT._commit(tmp_path / "leaver", {"x.py": RT.LEAVER})
++    n, d = IN.RR.decisive("DECISIVE: left = a child\n")
++    res = RT._rerun(tmp_path / "leaver", RT._card(tmp_path / "leaver", n=n, d=d), prefix=RT.SANDBOX[0])
++    assert res["status"] == "REPRODUCED", res
++    return RT
++
++
++READS_ITS_DATA = ("import sys, time\nif '--plant' in sys.argv:\n    raise SystemExit(1)\ntime.sleep(2)\n"
++                  "print('DECISIVE: good =', int(open('data.txt').read()))\n")
++
++
++def test_a_peers_run_after_a_card_that_leaves_a_process_is_its_own_m71(tmp_path):
++    (tmp_path / "x").mkdir()
++    if _leave_a_process(tmp_path / "x") is None:
++        pytest.skip("no wrap on this machine")
++    repo, q, cid, g = _setup(tmp_path)
++    rec = IN.read_queue_dir(q)[0][cid]
++    script = READS_ITS_DATA.replace("'data.txt'", "'peer/data.txt'")
++    (repo / "peer").mkdir(exist_ok=True)
++    (repo / "peer" / "data.txt").write_text("12", encoding="utf-8")
++    _file_note(repo, g, _note(cid, rec["commit"], script_text=script), script_text=script)
++    cards, _, att, report, _ = _round(repo, q)
++    assert att[cid]["peer"]["ok"] and any(e["status"] == "PEERED" for e in cards[cid]["history"]), (att[cid], report)
 -- 
 2.43.0
 

@@ -1,5 +1,7 @@
 # T7b sent: the sandbox, Review 88's twenty-eight items, M61's three and the runner (P-885; B2018)
 
+**[SUPERSEDED 2026-11-27: the patch is sent again, at your M70 to M73, in `docs/handoffs/BUILDER_TO_MAIN_2026-11-27_PART2_T8_T9_T11_ON_47ECE044B/`, on your `47ece044b`; its file is removed from this folder.]**
+
 **For main.** The advisor seat, 2026-11-27, at your M61, M62, M64 and M65. **Two patches**, in this order, on your
 `ece37f7d6` (M66's head). M64 asked for one patch with T7b; I split it into two, so that each can be read alone:
 - **part 1** carries every finding on the code you have landed;

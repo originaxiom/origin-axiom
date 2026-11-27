@@ -1,34 +1,37 @@
-From 7099e5d0b8fee06cdb856c6fb0acc470085d3e56 Mon Sep 17 00:00:00 2001
+From 97a970d056a78d26fb2a1d00db3ce7b1b90f05b7 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Fri, 27 Nov 2026 16:40:41 +0000
-Subject: [PATCH] S306p the landing tool, the single writer of a banked card's
- arc (the framework's thin path, T11; P-885; draft 1 sections 4 and 9;
+Date: Fri, 27 Nov 2026 20:30:06 +0000
+Subject: [PATCH 4/4] S306p the landing tool, the single writer of a banked
+ card's arc (the framework's thin path, T11; P-885; draft 1 sections 4 and 9;
  BANKING_PROTOCOL Part I): scripts/queue/land.py lands a card the queue holds
  VERIFIED by the runner's move on two ACCEPTs, one landing at a time under a
  lock, on a fresh clone of main; it takes the arc's number and the harvest
  row's at landing, writes the arc's folder, its lock, the log pair and the
  harvest row and nothing else, commits, regenerates the views, and refuses on
  a failure or red gate that queue/KNOWN_FAILURES.json does not hold, or on a
- card not VERIFIED, verified by hand or landed before; it never pushes; tests
- fail with each rule removed
+ card not VERIFIED, verified by hand or landed before; the VERIFIED derived
+ again from both sealed verdicts and the queue's log (main's M72), the harvest
+ row in the ledger's eight cells; it never pushes; tests fail with each rule
+ removed
 
 ---
- CHANGELOG.md                   |  12 ++
+ CHANGELOG.md                   |  17 ++
  PROGRESS_LOG.md                |  10 +
  docs/views/CONTEXT_RECOVERY.md |   2 +-
  docs/views/THE_SPINE.md        |   3 +-
  queue/README.md                |  13 ++
- scripts/queue/land.py          | 327 +++++++++++++++++++++++++++++++++
- tests/test_queue_land.py       | 186 +++++++++++++++++++
- 7 files changed, 551 insertions(+), 2 deletions(-)
+ scripts/queue/banking.py       |   4 +-
+ scripts/queue/land.py          | 397 +++++++++++++++++++++++++++++++++
+ tests/test_queue_land.py       | 223 ++++++++++++++++++
+ 8 files changed, 666 insertions(+), 3 deletions(-)
  create mode 100644 scripts/queue/land.py
  create mode 100644 tests/test_queue_land.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 3125c0f9e..f2c4f9fc9 100644
+index 5a9862233..8dbaa212b 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
-@@ -1,5 +1,17 @@
+@@ -1,5 +1,22 @@
  # Changelog
  
 +## S306p THE LANDING TOOL: THE SINGLE WRITER OF A BANKED CARD'S ARC (the framework's thin path, T11; P-885) (2026-11-27)
@@ -40,6 +43,11 @@ index 3125c0f9e..f2c4f9fc9 100644
 +  commits; regenerates the views; and runs every gate and the full suite with `-rfE` against queue/KNOWN_FAILURES.json.
 +  A new failure or red gate refuses it, and so do a card not VERIFIED, a VERIFIED made by hand, and a card landed before.
 +  It never pushes.
++- **Main's M72:** the VERIFIED is derived again on the clone, not read from the record a hand could append to: both
++  banking seats' sealed verdicts are checked as T9 checks them (the seal, K3, K1 by the queue's sighting log, D8, the
++  form, K2's checks that need no run), and the outcome rule must give VERIFIED; the reruns stay the runner's
++  (`banking.check_verdict(run=False)`). The harvest row has the ledger's eight cells: the seat as the Pins table names
++  it, with its code; the item; the card's first line; path @ commit; VERIFIED; the arc; the date.
 +- **`queue/README.md`:** the landing, by hand.
 +- **New test** `tests/test_queue_land.py` (6 tests); each rule's removal makes one fail.
 +
@@ -47,10 +55,10 @@ index 3125c0f9e..f2c4f9fc9 100644
  
  - **`scripts/queue/banking.py`:** each banking seat files on its own branch its expectation, its seal (the SHA-256 of
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 2d29d204a..c174f5917 100644
+index 4fee2a400..35267254a 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20586,3 +20586,13 @@
+@@ -20668,3 +20668,13 @@
  after its peer stage, marked not banked.
  
  0 of 19.
@@ -65,7 +73,7 @@ index 2d29d204a..c174f5917 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 285479d7a..ecc9828d1 100644
+index e4a05412d..e3cd4810c 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -77,10 +85,10 @@ index 285479d7a..ecc9828d1 100644
  - “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)”
  - “S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)”
 @@ -60,7 +61,6 @@
- - “S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)”
- - “S306p MAIN'S TRIAL TOOLS REBUILT TO THE INTAKE'S GUARD; THE SEATS' NEW CARDS RECEIVED; FOURTEEN DEBTS ESCALATED (P-885; HARVEST ROWS 2047, 2048; M69, M24, M63) (2026-11-27)”
- - “S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE LANDED (T7B PART 1); THE RUNNER HELD; TWO AUDIT DRAFTS LANDED OR DECLINED (P-326, P-589, P-885; HARVEST ROW 2046; R88-1 MET; M68, M63) (2026-11-27)”
--- “S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)”
+ - “S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)”
+ - “S306p LAW_MAP ROW 294 DECIDED AT SOURCE; SIXTEEN REGISTER ROWS ESCALATED BEFORE THE GATE WOULD REFUSE THEM (P-589, P-885) (2026-11-27)”
+ - “S306p AGY-002'S THIRD NEW-FORM CARD RECEIVED (P-885; HARVEST ROW 2056; M65) (2026-11-27)”
+-- “S306p THE QUEUE'S BRANCH TO BE WRITTEN BY ONE KEY ALONE (P-885; M73) (2026-11-27)”
  
  ## The latest campaign line
  
@@ -104,10 +112,10 @@ index 2654803e7..6f3893b32 100644
 +- — `test_queue_land.py` 
  - — `test_queue_peer_note.py` 
 diff --git a/queue/README.md b/queue/README.md
-index be3f23d32..3e51a6764 100644
+index 59420c7ef..849912b44 100644
 --- a/queue/README.md
 +++ b/queue/README.md
-@@ -36,3 +36,16 @@
+@@ -50,3 +50,16 @@
     on the workflow.
  7. **A heavy rerun on the author's machine** runs sage, and for main's B2016 wrapper also a `python3` on the PATH that has
     python-flint (main's M65): set the PATH so first. There the author may run with `--allow-static-guard`, by choice.
@@ -124,12 +132,34 @@ index be3f23d32..3e51a6764 100644
 +
 +docs/CAMPAIGN_STATUS.md's LATEST line and the surfaces a reader forms a picture from (BANKING_PROTOCOL Part I C) stay
 +main's.
+diff --git a/scripts/queue/banking.py b/scripts/queue/banking.py
+index 29616ff66..aa8070cdf 100644
+--- a/scripts/queue/banking.py
++++ b/scripts/queue/banking.py
+@@ -156,7 +156,7 @@
+ 
+ 
+ def check_verdict(root, cid, rec, card_text, s, entries, other_seal_at, limit=RR.TIME_LIMIT, prefix=None,
+-                  allow_static=False, cached=None):
++                  allow_static=False, cached=None, run=True):
+     """{ok, verdict, reasons, rerun, key}: one banking seat's verdict on one card. `cached` is the check a past round made;
+     it is kept, and nothing is rerun, while the verdict, the seal, the expectation and the other seal's sighting are the
+     same (main's M71 point 3: a filed seat's script runs once, not every round)"""
+@@ -204,6 +204,8 @@
+     reach = PN.producer_reach(root, rec["commit"], m.group(1), found["verdict"][0], v["script"]["path"]) if m else []
+     if reach:                                     # main's M71 point 1: a rerun passing as a recomputation
+         return dict(out, reasons=["the seat's script reaches for the producer's computation (K2): %s" % "; ".join(reach)])
++    if not run:                                   # the landing's check (T11, main's M72): the reruns are the runner's
++        return dict(out, ok=True, rerun="left to the runner")
+     note_like = {"script": v["script"], "decisive": v["decisive"]}
+     res = RR.rerun(root, found["verdict"][0], PN._as_card(note_like), limit=limit, prefix=prefix,
+                    allow_static=allow_static)
 diff --git a/scripts/queue/land.py b/scripts/queue/land.py
 new file mode 100644
-index 000000000..0a35267f8
+index 000000000..678460f8e
 --- /dev/null
 +++ b/scripts/queue/land.py
-@@ -0,0 +1,327 @@
+@@ -0,0 +1,397 @@
 +#!/usr/bin/env python3
 +"""The landing tool: the single writer of a banked card's arc, its lock, its ledger row and the log pair (the framework's
 +thin path, patch T11; draft 1 §§ 4 and 9; docs/BANKING_PROTOCOL.md Part I, A, B and D; register row P-885).
@@ -140,7 +170,12 @@ index 000000000..0a35267f8
 +  1. THE LOCK: one landing at a time on this machine (a lock file, created exclusively; THE_SWEEP_OF_2026-11-14 Q3);
 +  2. A FRESH CLONE of main, made for this landing (draft § 4: "a landing runs the suite on a fresh clone");
 +  3. THE CARD: its record on the queue's branch (or a queue folder given) must be VERIFIED, moved there by the runner, and
-+     not landed before (the CHANGELOG names every card it landed);
++     not landed before (the CHANGELOG names every card it landed). And the VERIFIED is derived again on the clone, from
++     the evidence, not read from the record, which a hand could append to (main's M72 point 1): both banking seats'
++     verdicts, on their own branches, are checked as T9 checks them (each hashes to its seal; the expectation sighted no
++     later than the seal, K3; both verdicts sighted after both seals, K1, by the queue's sighting log; D8; the verdict's
++     form, K11; K2's checks that need no run), and the outcome rule must give VERIFIED. The seats' scripts are not rerun
++     here: their reruns are the runner's, and their results stand in the queue's check file;
 +  4. THE NUMBERS, taken at landing on the clone: the arc's (one more than the highest B<n> under frontier/ and in the arcs'
 +     verdict files) and the harvest row's (one more than the highest row of docs/HARVEST_LEDGER.md);
 +  5. THE WRITES, and no others: the arc's folder frontier/B<n>_<slug>/ (its FINDINGS.md and arc_verdict.json required,
@@ -188,6 +223,8 @@ index 000000000..0a35267f8
 +
 +
 +BL = _load("baseline_for_landing", HERE / "baseline.py")      # T10's list and its comparison
++BK = _load("banking_for_landing", HERE / "banking.py")        # T9's check of a sealed verdict
++D = _load("discover_for_landing", HERE / "discover.py")       # the Pins table's seat names
 +
 +SUITE = "python3 -B -m pytest -q -rfE -p no:cacheprovider"
 +REGENERATE = (                                           # Part I D16, as main runs them; each only where its script stands
@@ -280,6 +317,58 @@ index 000000000..0a35267f8
 +    return bad
 +
 +
++def _show(cwd, spec):
++    r = subprocess.run(["git", "show", spec], cwd=cwd, capture_output=True, text=True)
++    return r.stdout if r.returncode == 0 else None
++
++
++def derived_problems(clone, rec, cid, queue_dir=None):
++    """M72 point 1: the problems of a VERIFIED derived on the clone from the sealed verdicts; [] when it holds"""
++    seats = BK.seats(pathlib.Path(clone, "queue", "BANKING_SEATS.json"))
++    if not seats:
++        return ["queue/BANKING_SEATS.json on main names no two banking seats"]
++    if queue_dir:
++        f = pathlib.Path(queue_dir, "SIGHTINGS.jsonl")
++        log = f.read_text(encoding="utf-8") if f.is_file() else None
++        c = pathlib.Path(queue_dir, "checks", "%s.json" % cid)
++        check = c.read_text(encoding="utf-8") if c.is_file() else None
++    else:
++        log = _show(clone, "origin/queue:queue/SIGHTINGS.jsonl")
++        check = _show(clone, "origin/queue:queue/checks/%s.json" % cid)
++    if log is None:
++        return ["the queue's sighting log cannot be read"]
++    entries, bad = BK.CU.read_log(log)
++    if bad:
++        return ["the queue's sighting log does not hold its form"]
++    text = _show(clone, "%s:%s" % (rec["commit"], rec["card_path"]))
++    if text is None:
++        return ["the card cannot be read at its commit on the clone"]
++    seal_at = {}
++    for v, s in seats.items():
++        _c, b = BK._at(clone, "origin/" + s["branch"], BK.paths(cid)["seal"])
++        e = BK.CU.first_sighting(entries, s["branch"], BK.paths(cid)["seal"], b) if b else None
++        seal_at[v] = e["at"] if e else None
++    got = {v: BK.check_verdict(clone, cid, rec, text, s, entries, seal_at["V2" if v == "V1" else "V1"], run=False)
++           for v, s in sorted(seats.items())}
++    bad = ["%s's verdict, derived again: %s" % (v, "; ".join(g["reasons"])) for v, g in sorted(got.items()) if not g["ok"]]
++    if bad:
++        return bad
++    try:
++        peer = (json.loads(check) if check else {}).get("peer") or {}
++    except ValueError:
++        peer = {}
++    status, note = BK.outcome(rec, got["V1"]["verdict"], got["V2"]["verdict"], peer.get("other_family"), seats)
++    return [] if status == "VERIFIED" else ["the verdicts, derived again, give %s, not VERIFIED: %s" % (status, note)]
++
++
++def seat_name(clone, branch):
++    """the seat as the harvest ledger's Pins table names it (main's M72 point 2), or its branch when no row names it"""
++    for key, ref in D.branches(root=clone):
++        if key != "main" and ref == "origin/" + branch:
++            return key
++    return branch
++
++
 +def numbers(clone):
 +    """(the arc's number, the harvest row's number), taken at landing: one more than the highest of each on the clone"""
 +    clone = pathlib.Path(clone)
@@ -345,10 +434,17 @@ index 000000000..0a35267f8
 +    last = max((i for i, l in enumerate(lines) if ROW_LINE.match(l)), default=None)
 +    if last is None:
 +        raise Refused("docs/HARVEST_LEDGER.md holds no row to follow")
-+    title = _fill(meta["title"], subs).replace("|", "/")
-+    lines.insert(last + 1, "| %d | %s | %s | the card's title | `%s` @ %s | **VERIFIED** (%s; two banking ACCEPTs in the "
-+                           "queue, card %s; banked under %s by the landing tool) |" % (
-+                               row, rec["seat_code"], title, rec["card_path"], rec["commit"][:9], at, meta["card"], tag))
++    cell = lambda s: s.replace("|", "/").strip()
++    title = cell(_fill(meta["title"], subs))
++    head = (_show(clone, "%s:%s" % (rec["commit"], rec["card_path"])) or "").split("\n", 1)[0]
++    head = head[len("# CLAIM CARD — "):] if head.startswith("# CLAIM CARD — ") else ""
++    words = head.split()
++    quote = '"%s"' % cell(" ".join(words[:25]) + (" ..." if len(words) > 25 else "")) if words else "—"
++    # main's M72 point 2: the ledger's eight cells, | # | seat | item | headline | path @ commit | disposition | arc | date |
++    lines.insert(last + 1, "| %d | %s (%s) | %s | %s | %s @ %s | **VERIFIED** (two banking ACCEPTs in the queue, card %s; "
++                           "landed by the landing tool) | %s | %s |" % (
++                               row, seat_name(clone, rec["branch"]), rec["seat_code"], title, quote, rec["card_path"],
++                               rec["commit"][:9], meta["card"], tag, at))
 +    hl.write_text("\n".join(lines), encoding="utf-8")
 +    written += ["CHANGELOG.md", "PROGRESS_LOG.md", "docs/HARVEST_LEDGER.md"]
 +    return written
@@ -411,6 +507,10 @@ index 000000000..0a35267f8
 +        bad = card_problems(rec, meta["card"], (clone / "CHANGELOG.md").read_text(encoding="utf-8"))
 +        if bad:
 +            raise Refused("; ".join(bad))
++        bad = derived_problems(clone, rec, meta["card"], queue_dir)
++        if bad:
++            raise Refused("the VERIFIED in the queue's record is not borne out by the sealed verdicts: " + "; ".join(bad))
++        report.append("the VERIFIED derived again from both sealed verdicts (their reruns are the runner's)")
 +        arc, row = numbers(clone)
 +        report.append("the numbers taken at landing: arc B%d, harvest row %d" % (arc, row))
 +        written = write_landing(clone, landing, meta, rec, arc, row, at)
@@ -459,10 +559,10 @@ index 000000000..0a35267f8
 +    sys.exit(main(sys.argv[1:]))
 diff --git a/tests/test_queue_land.py b/tests/test_queue_land.py
 new file mode 100644
-index 000000000..aa96f6509
+index 000000000..254fdf94e
 --- /dev/null
 +++ b/tests/test_queue_land.py
-@@ -0,0 +1,186 @@
+@@ -0,0 +1,223 @@
 +"""2026-11-27 (the framework's thin path, patch T11; draft 1 §§ 4 and 9; BANKING_PROTOCOL Part I; register row P-885): the
 +landing tool, scripts/queue/land.py.
 +
@@ -495,47 +595,74 @@ index 000000000..aa96f6509
 +    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, check=True).stdout
 +
 +
-+def _record(cid, status, by="runner", note="the banking verdicts: ACCEPT and ACCEPT"):
-+    return {"id": cid, "seat_code": "fam2-v5-high-01", "branch": "seat/a", "commit": "a" * 40,
-+            "card_path": "relays/claims/CLAIM_good.md", "status": status, "deciding": True,
-+            "history": [{"at": "2026-11-26T12:00:00Z", "status": "FILED", "by": "runner", "note": "filed"},
-+                        {"at": "2026-11-27T12:00:00Z", "status": status, "by": by, "note": note}]}
++BT = None
++
++
++def _banking_tests():
++    global BT
++    if BT is None:
++        s = importlib.util.spec_from_file_location("banking_tests_for_landing", ROOT / "tests" / "test_queue_banking.py")
++        BT = importlib.util.module_from_spec(s)
++        s.loader.exec_module(BT)
++    return BT
 +
 +
 +def _origin(tmp_path, monkeypatch):
++    """a repository standing for main: a producer's card banked by two sealed ACCEPTs through the runner (T9's own test
++    path), its branches kept; `main` with the record's files and the banking seats; `queue` with the runner's folder, and
++    three records more: Q0002 at banking, Q0003 with a VERIFIED appended by hand in the runner's words and no verdicts
++    behind it (main's M72), Q0004 with a VERIFIED by main"""
++    bt = _banking_tests()
++    (tmp_path / "b").mkdir()
++    rec, att, report = bt._bank(tmp_path / "b", {"V1": "ACCEPT", "V2": "ACCEPT"})
++    assert rec["status"] == "VERIFIED" and rec["id"] == "Q0001", report
 +    for k, v in ENV.items():
 +        monkeypatch.setenv(k, v)
-+    o = tmp_path / "origin"
++    o, q = tmp_path / "b" / "repo", tmp_path / "b" / "queue"
 +    files = {
 +        "CHANGELOG.md": "# Changelog\n\n## AN OLD ENTRY (2026-11-01)\n\nold.\n",
 +        "PROGRESS_LOG.md": "# Progress\n\n## 2026-11-01 — old\n\nold.\n",
-+        "docs/HARVEST_LEDGER.md": "# Harvest\n\n| # | seat | headline | quote | path | disposition |\n|---|---|---|---|---|---|\n"
-+                                  "| 6 | s | a | b | c | d |\n| 7 | s | a | b | c | d |\n\n## Pins\n\n| seat | pin |\n",
++        "docs/HARVEST_LEDGER.md": "# Harvest\n\n| # | seat | item | the seat's own headline (verbatim) | path @ pin | disposition "
++                                  "| main arc | date |\n|---|---|---|---|---|---|---|---|\n"
++                                  "| 6 | s | a | b | c | d | B3 | 2026-11-01 |\n| 7 | s | a | b | c | d | B3 | 2026-11-01 |\n\n"
++                                  "## Pins\n\n| seat | branch | pin | pinned at | by arc |\n|---|---|---|---|---|\n"
++                                  "| sa | `origin/seat/a` | `abcdef1` | 2026-11-27 | B3 |\n",
 +        "docs/POINT_REGISTER.md": "| P-1 | 2026-11-01 | a debt |\n",
 +        "queue/KNOWN_FAILURES.json": json.dumps({"note": "n", "gates": [], "tests": [
 +            {"id": "tests/test_known.py::test_known", "row": "P-1", "why": "a standing debt"}]}),
++        "queue/BANKING_SEATS.json": json.dumps(bt.SEATS),
 +        "tests/test_known.py": "def test_known():\n    assert False\n",
 +        "tests/test_fine.py": "def test_fine():\n    assert True\n",
 +        "scripts/gates/gates.py": GATES,
 +        "frontier/B0003_a/FINDINGS.md": "a\n",
 +        "frontier/an_arc_renamed/arc_verdict.json": json.dumps({"id": "B12"}),     # its number in its verdict alone
 +    }
++    _g(o, "checkout", "-q", "--orphan", "main")
++    _g(o, "rm", "-rqf", "--cached", ".")
++    _g(o, "clean", "-qfdx")
 +    for rel, text in files.items():
 +        (o / rel).parent.mkdir(parents=True, exist_ok=True)
 +        (o / rel).write_text(text, encoding="utf-8")
-+    _g(tmp_path, "init", "-q", "-b", "main", str(o))
 +    _g(o, "add", "-A")
 +    _g(o, "commit", "-q", "-m", "main")
 +    _g(o, "checkout", "-q", "--orphan", "queue")
-+    _g(o, "rm", "-rq", "--cached", ".")
-+    for cid, rec in {"Q0001": _record("Q0001", "VERIFIED"), "Q0002": _record("Q0002", "AT_BANKING", note="no peer check"),
-+                     "Q0003": _record("Q0003", "VERIFIED", by="main")}.items():
-+        (o / "queue" / "cards").mkdir(parents=True, exist_ok=True)
-+        (o / "queue" / "cards" / ("%s.json" % cid)).write_text(json.dumps(rec), encoding="utf-8")
-+    _g(o, "add", "queue/cards")
++    _g(o, "rm", "-rqf", "--cached", ".")
++    _g(o, "clean", "-qfdx")
++    import shutil
++    shutil.copytree(q, o / "queue")
++    good = json.loads((o / "queue" / "cards" / "Q0001.json").read_text())
++    for cid, status, by in (("Q0002", "AT_BANKING", "runner"), ("Q0003", "VERIFIED", "runner"), ("Q0004", "VERIFIED", "main")):
++        r = json.loads(json.dumps(good), object_hook=None)
++        r["id"], r["history"] = cid, [e for e in good["history"] if e["status"] != "VERIFIED"]
++        if status == "VERIFIED":
++            r["history"].append({"at": "2026-11-27T12:00:00Z", "status": "VERIFIED", "by": by,
++                                 "note": "the banking verdicts: ACCEPT and ACCEPT"})
++        r["status"] = status
++        (o / "queue" / "cards" / ("%s.json" % cid)).write_text(json.dumps(r), encoding="utf-8")
++    _g(o, "add", "queue")
 +    _g(o, "commit", "-q", "-m", "the queue")
 +    _g(o, "checkout", "-q", "-f", "main")
-+    _g(o, "clean", "-qfd")
++    _g(o, "clean", "-qfdx")
 +    return o
 +
 +
@@ -578,8 +705,12 @@ index 000000000..aa96f6509
 +    assert (clone / "PROGRESS_LOG.md").read_text().endswith("## 2026-11-27 — the count holds (B13)\n\n"
 +                                                             "**What happened.** The count holds.\n")
 +    rows = [l for l in (clone / "docs" / "HARVEST_LEDGER.md").read_text().splitlines() if l.startswith("| ")]
-+    assert rows[3].startswith("| 8 | fam2-v5-high-01 | THE COUNT HOLDS (Q0001) |") and "banked under B13" in rows[3]
-+    assert rows[4] == "| seat | pin |"                                     # the row joins the table, not the Pins
++    cells = [c.strip() for c in rows[3].strip("|").split("|")]             # main's M72 point 2: the ledger's eight cells
++    assert len(cells) == 8 and cells[:4] == ["8", "sa (fam2-v5-high-01)", "THE COUNT HOLDS (Q0001)", '"a count that holds"']
++    assert cells[4].startswith("relays/claims/CLAIM_good.md @ ") and cells[5].startswith("**VERIFIED**")
++    assert cells[6:] == ["B13", "2026-11-27"]
++    assert rows[4].startswith("| seat | branch |")                         # the row joins the table, not the Pins
++    assert "the VERIFIED derived again from both sealed verdicts (their reruns are the runner's)" in report
 +    assert _g(clone, "rev-list", "--count", "origin/main..HEAD").strip() == "1"
 +    assert _g(clone, "log", "-1", "--format=%s").strip() == "B13 the count holds"
 +    # landed and pushed, the card cannot land again, and the next landing would take the next numbers
@@ -590,12 +721,18 @@ index 000000000..aa96f6509
 +    assert status == 1 and any("is landed already" in r for r in report), report
 +
 +
-+def test_a_card_not_verified_or_verified_by_hand_or_missing_is_refused(tmp_path, monkeypatch):
++def test_a_card_not_verified_or_verified_by_hand_or_missing_is_refused_m72(tmp_path, monkeypatch):
++    """main's M72 point 1: Q0003's VERIFIED is appended by hand in the runner's words; no sealed verdict bears it out"""
 +    o = _origin(tmp_path, monkeypatch)
-+    for i, (card, why) in enumerate((("Q0002", "is AT_BANKING, not VERIFIED"), ("Q0003", "not the runner's move"),
-+                                     ("Q0009", "holds no card Q0009"))):
++    for i, (card, why) in enumerate((("Q0002", "is AT_BANKING, not VERIFIED"), ("Q0004", "not the runner's move"),
++                                     ("Q0009", "holds no card Q0009"),
++                                     ("Q0003", "not borne out by the sealed verdicts: V1's verdict, derived again: no verdict"))):
 +        status, report, _ = _land(tmp_path, o, _landing(tmp_path, "l%d" % i, card=card), "w%d" % i)
 +        assert status == 1 and any(why in r for r in report), report
++    # both verdicts hold, but the outcome rule does not give VERIFIED (here, as if the seats had split)
++    monkeypatch.setattr(L.BK, "outcome", lambda *a, **k: ("SPLIT", "the banking verdicts: ACCEPT and REFUSE"))
++    status, report, _ = _land(tmp_path, o, _landing(tmp_path, "split"), "wsplit")
++    assert status == 1 and any("derived again, give SPLIT, not VERIFIED" in r for r in report), report
 +
 +
 +def test_a_new_failure_or_a_new_red_gate_refuses_the_landing_and_the_known_one_does_not(tmp_path, monkeypatch):
