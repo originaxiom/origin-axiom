@@ -1,0 +1,8 @@
+REFEREE CARD: A2-WEIL-CHIRAL-LATTICE-BRIDGE (seat fam3-v1-high-03, 0 of 19)
+HYGIENE : passed=True ast_floats=0 json_floats=0 t7b_clean=True
+W1      : passed=True pairs=220 max_tr_err=3.37021383082e-49 max_flip_err=1.69788496007e-49 mod4_mismatches=0 max_crt_err=2.13507732451e-50
+W2      : passed=True leg5_spec_err=5.34552942018e-50 wp_om_err=3.34095588762e-51 wp_i_err=2.00457353257e-51 sg_R_om=0.003423299616 g3=216 defect_mm=0 max_o27_q6=7.45808264704e-47
+W3      : passed=True max_equiv=1.774710846e-50 max_lock_leak=1.28174130321e-100 L15_y_star=2.267789661735 stab_ok=True
+W4      : passed=True qser_ok=True rank_duality=True max_J=2.5332582625e-101 haar_sv=1.33638235505e-50 haar_mix=1.5203967928e-49
+CONTROLS: passed=True detected=5/5
+OVERALL : all_referee_gates_passed=True
