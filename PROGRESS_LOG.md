@@ -20438,3 +20438,12 @@ since it is of another model family, and the first banking seat to open a branch
 claim card now asks for the definitions of what it claims.
 
 0 of 19.
+
+## 2026-11-27 — The full test suite on a fresh copy, and the first list of known failures (S306p)
+
+**What happened.** The whole test suite ran on a fresh copy of the repository: nine of about 9,400 tests failed. Run one at
+a time, seven still fail; these are checks that read pages which have grown since they were written, and they become the
+first list of known failures, which from now on may only shrink. Two passed alone (one was only slow under the night's
+load, one depends on the order tests run in); they are not on the list and are recorded as debts of their own.
+
+0 of 19.

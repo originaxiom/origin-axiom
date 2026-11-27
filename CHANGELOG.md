@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p THE FULL SUITE ON A FRESH CLONE OF ed9660a9d: 9 FAILED, 7 OF THEM FOR T10's BASELINE (P-810, P-881; M63) (2026-11-27)
+
+- **9 failed, 9,320 passed, 73 skipped** (6 workers, 3 h 27 min). Run alone, **seven fail**: B1306's slice D (in a clone
+  without the seats' branches), B1421, B1266, B1462 (the identification ledger's grown rows) and B1957's three (its
+  harvest-row counts). **Two pass alone** and are flakes, not entries: B618 (17 minutes alone; timed out under load) and
+  B1968 (an order dependence). Recorded on P-810; R81-3's owed run closed on P-881; the seven sent to the builder as T10's
+  first entries (M63).
+
 ## S306p THE SEATS READ AND ANSWERED; THE CARD'S DEFINITIONS FIELD (P-882, P-885) (2026-11-27)
 
 - **chat1's A84** (harvest row 2033; M85): main's mend of B1986 confirmed exact on all 35 orbits; its § 2 checked on B1986's
