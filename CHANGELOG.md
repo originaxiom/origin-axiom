@@ -1,5 +1,17 @@
 # Changelog
 
+## S306p T8 LANDED: THE PEER NOTE AND THE MOVE TO PEERED (P-885; M71) (2026-11-28)
+
+- **The builder's patch 0002, sent again at `33041d6ee`, byte for byte.** Its tree as built is `413f58f7`.
+- **What it adds:**
+  - `scripts/queue/peer_note.py`: the peer's note on its own branch, checked by the runner. Its form; a peer that is not
+    the card's seat; the note sighted after the offer; the peer's script, which is the one it hashes, rerun in the
+    sandbox with its own failing control; "reproduced" only when the decisive lines are the card's;
+  - the grade, "re-derived" or "reran", with M71's K2: a script that names the producer's files, or reads a renamed copy,
+    is graded "reran";
+  - the runner moves a card to PEERED.
+- **Its tests pass here,** with custody's. The sandbox runs were verified in the Linux container with part 2.
+
 ## S306p TWO OF MAIN'S RELAYS OF 2026-11-06 GIVEN THEIR STATE AS THE DATE ROLLED (P-717, P-720) (2026-11-28)
 
 - **P-720's question to the agy lane is answered on main.** P-720 is DONE: its route likely fails, and agy-002's A2-NEG

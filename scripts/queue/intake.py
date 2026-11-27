@@ -16,9 +16,15 @@ One round, in this order, for every claim card the queue's branch has not finish
   5. the rerun (T5, rebuilt by T7b): REPRODUCED, with `deciding` set from the record check; RETURNED_AT_INTAKE with its
      reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine.
 
-THE SANDBOX (T7b; main's M62). Seat code runs as the unprivileged user nobody in a network namespace (scripts/queue/rerun.py).
-Where no such wrap can be made the round goes on, and no seat code runs: every rerun is HEAVY. `--allow-static-guard` runs
-seat code without the wrap, on the author's machine and by the author's choice; the workflow never passes it.
+  6. the peer note (T8): a card OFFERED to a peer moves to PEERED once the peer's note, on its own branch, holds the
+     runner's check (scripts/queue/peer_note.py), the peer's script rerun in the same sandbox; a note that does not is
+     reported and the card stays OFFERED. Offers are made by hand in the trial. A card that decides nothing ends at
+     NOT_BANKED after its peer stage (T9).
+
+THE SANDBOX (T7b; main's M62 and M68). Seat code runs as the unprivileged user nobody in a network and a mount namespace,
+with its own temporary directories (scripts/queue/rerun.py). Where no such wrap can be made the round goes on, and no seat
+code runs: every rerun is HEAVY. `--allow-static-guard` runs seat code without the wrap, on the author's machine and by the
+author's choice; the workflow never passes it.
 
 THE QUEUE'S FOLDER (T7b; main's M62). The round reads the folder once, at the start, and holds what it decides in memory.
 It writes only after every rerun, and writes nothing if the folder changed while it ran. It closes what it wrote with a
@@ -58,6 +64,7 @@ D = _load("discover_for_intake", HERE / "discover.py")
 CU = _load("custody_for_intake", HERE / "custody.py")
 RC = _load("record_check_for_intake", HERE / "record_check.py")
 RR = _load("rerun_for_intake", HERE / "rerun.py")
+PN = _load("peer_note_for_intake", HERE / "peer_note.py")
 MAX_CARDS = 3                      # cards rerun in one round, so that a round stays inside the job's time
 
 
@@ -178,6 +185,46 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
         else:
             _move(rec, "RETURNED_AT_INTAKE", "the rerun: " + "; ".join(res["reasons"]), at)
             report.append("%s RETURNED_AT_INTAKE (rerun)" % cid)
+    # T8: a card OFFERED to a peer moves to PEERED when the peer's note, on the peer's own branch, holds the runner's check
+    for cid in sorted(cards):
+        rec = cards[cid]
+        if rec["status"] != "OFFERED":
+            continue
+        text = _card_text(root, rec)
+        for key, ref in (refs if refs is not None else D.branches()):
+            branch = ref.split("/", 1)[1] if ref.startswith("origin/") else ref
+            rc = subprocess.run(["git", "log", "-1", "--format=%H", ref, "--", PN.note_path(cid)], cwd=root,
+                                capture_output=True, text=True)
+            commit = rc.stdout.strip()
+            if rc.returncode != 0 or not commit:
+                continue
+            raw = subprocess.run(["git", "show", "%s:%s" % (commit, PN.note_path(cid))], cwd=root, capture_output=True,
+                                 text=True)
+            if raw.returncode != 0:
+                continue                                  # the note was removed at the branch's head
+            try:
+                note = json.loads(raw.stdout)
+            except ValueError:
+                report.append("%s: the peer note on %s is not JSON" % (cid, ref))
+                continue
+            paths = [(PN.note_path(cid), "peer")]
+            if isinstance(note, dict) and isinstance(note.get("script"), dict) and note["script"].get("path"):
+                paths.append((note["script"]["path"], "script"))
+            for path, what in paths:
+                e = CU.sight(root, entries, branch, commit, path, what, at)
+                if e:
+                    new_lines.append(e)
+                    entries = entries + [e]
+            res = PN.check(root, note, commit, branch, rec, text or "", entries, limit=limit, prefix=prefix,
+                           allow_static=allow_static)
+            attached.setdefault(cid, {})["peer"] = dict(res, branch=branch, commit=commit)
+            if res["ok"]:
+                _move(rec, "PEERED", "the peer note on %s at %s: %s, graded %s%s" % (
+                    branch, commit[:9], note["finding"], res["grade"],
+                    "; a check from another family" if res["other_family"] else ""), at)
+                report.append("%s PEERED (%s, %s)" % (cid, note["finding"], res["grade"]))
+                break
+            report.append("%s: the peer note on %s is refused: %s" % (cid, ref, "; ".join(res["reasons"])))
     log_after = CU.append(log_text, new_lines)
     problems = QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) + CU.read_log(log_after)[1]
     if problems:

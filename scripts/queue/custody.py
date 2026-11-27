@@ -50,7 +50,7 @@ QS = _load("queue_schema_for_custody", HERE / "queue_schema.py")
 CF = _load("card_form_for_custody", HERE / "card_form.py")
 LOG = "queue/SIGHTINGS.jsonl"
 LINE_FIELDS = ("at", "branch", "commit", "path", "blob", "what")
-WHATS = ("card", "script")
+WHATS = ("card", "script", "peer")          # T8: a peer note is sighted too
 FIXED = ("id", "seat_code", "branch", "commit", "card_path", "refiles")
 
 
