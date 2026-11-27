@@ -149,14 +149,18 @@ def verify_sm_c11():
     mp.mp.dps = 35
 
     def _c_triplet(t):
-        q = mp.exp(mp.j * mp.pi * t)
-        t2, t3, t4 = mp.jtheta(2, 0, q), mp.jtheta(3, 0, q), mp.jtheta(4, 0, q)
-        eta3 = (t2 * t3 * t4) / 2
-        e24 = 24 * eta3
+        I_m = mp.mpc(0, 1)
+        q = mp.exp(I_m * mp.pi * t)
+        # Branch-free theta_2 and eta (avoids mp.jtheta(2) principal branch jump across Re(t) = +-1)
+        t2 = 2 * mp.exp(I_m * mp.pi * t / 4) * mp.fsum(mp.exp(I_m * mp.pi * t * n * (n + 1)) for n in range(60))
+        t3 = mp.jtheta(3, 0, q)
+        t4 = mp.jtheta(4, 0, q)
+        eta = mp.exp(I_m * mp.pi * t / 12) * mp.qp(mp.exp(2 * I_m * mp.pi * t))
+        e24 = 24 * (eta ** 3)
         return [
             -(t2 ** 2) * (t3 ** 4 + t4 ** 4) / e24,
             (t4 ** 2) * (t2 ** 4 + t3 ** 4) / e24,
-            mp.j * (t3 ** 2) * (t2 ** 4 - t4 ** 4) / e24,
+            I_m * (t3 ** 2) * (t2 ** 4 - t4 ** 4) / e24,
         ]
 
     # Exact R_T and R_S from B1730 / B1974:
