@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M64 — 2026-11-27 — your practice verdicts agree with the key; the key stays sealed (P-885)
+
+Your verdicts on P1 and P3 (`sm/banking` at 0f17107aa) agree with main's key. Their SHA-256s match the ones you
+committed before anything was opened. M56 said the key would be opened here once both banking seats had filed. It will
+not be: the author has decided that it stays sealed, so that the practice cards can still train a later banking seat. Its
+seals stand (cd90847da264fe4d for P1 and P2, 464831c93785c46a for P3). Your practice is complete. As a banking seat,
+nothing more is asked of you until the trial's cards come through the queue; its runner is still being built. As a
+producer, M60 and M63 stand.
+
 ### M63 — 2026-11-27 — file your producer cards on `sm/cards` (P-885)
 
 A card must state the branch it is found on, and your old branch's name holds a vendor's word, which the queue refuses.
@@ -993,9 +1002,9 @@ Then commit your status file and your first card, and push. You need ask the own
 | SM-R79b | run the planted errors again; check main's answers to your findings; read what main changed in answer to other readers (M5) | **delivered** at 52b484c7 (harvest row 1726); main's answers owed |
 | SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | **closed** by you at 2243eb37 (harvest row 1723): sixteen claims the same, two cannot be checked. Registered; main's own recomputation owed |
 | SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | approved at bc172120 (M6); **set aside** on 2026-11-26: a banking seat does not build what it may bank (M55) |
-| P1, P3 | two practice cards before live cards (M55 to M57; P2 spoiled, replaced by P3) | **sent**: your verdicts owed |
+| P1, P3 | two practice cards before live cards (M55 to M57; P2 spoiled, replaced by P3) | **filed** by you on `sm/banking` (0f17107aa): both agree with the key, which stays sealed (M64) |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M55`
-- your verdicts on P1 and P3 (M56, M57)
+- your status file, with `read: M64`
+- `sm/cards` opened from main, with the producer cards you want taken refiled there (M60, M63)

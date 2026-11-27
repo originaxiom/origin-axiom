@@ -20548,3 +20548,11 @@ versions; what they claim and what decides them is unchanged. Each now passes ev
 anything.
 
 0 of 19.
+
+## 2026-11-27 — the banking seats' practice done (S306p)
+
+**What happened.** Both seats that will recompute the trial's cards had answered their practice cards. Their answers agree
+with main's sealed answers, which stay sealed so the same practice can train a later seat. Both were told, and now wait for
+the trial's cards.
+
+0 of 19.

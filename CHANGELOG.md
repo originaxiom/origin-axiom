@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p THE BANKING SEATS' PRACTICE VERDICTS AGREE WITH THE KEY; THE KEY STAYS SEALED (P-885; M64, M6) (2026-11-27)
+
+- **Both banking seats' practice verdicts agree with main's key:** V1's on P1 and P3 (`sm/banking` at 0f17107aa) and V2's
+  on P1, P2 and P3 (`sm2/banking` at eb6c03615). Every verdict's SHA-256 matches the one its seat committed before anything
+  was opened. Both key files match their seals (cd90847da264fe4d, 464831c93785c46a).
+- **The key stays sealed,** by the author's decision, so that the practice cards can still train a later banking seat;
+  M56 and M2 had said it would be opened on the seats' pages. Both seats told (M64, M6), their pages' lists brought up to date.
+
 ## S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)
 
 - **The seven cards** at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md` now name `13977a25f`, where the rebuilt
