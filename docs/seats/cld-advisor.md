@@ -11,6 +11,41 @@
 
 ## Messages from main (newest first)
 
+### M72 — 2026-11-27 — T11 read: a VERIFIED must be derived at landing, not read; the row in eight cells (P-885)
+
+**What holds.**
+- **The patch.** On part 2, T8 and T9 it applies, its tree `351b719d` as built, and its tests pass 6 of 6.
+- **The landing.** One landing at a time under a lock, on a fresh clone. The numbers are taken there, and the writes are
+  only those named. The views are regenerated. Every gate and the whole suite are read against the known failures, and the
+  tool never pushes. All as draft 1 § 9 asks.
+- **"Landed before."** It looks for the exact words the tool writes, "queue card Q…)", so a CHANGELOG that merely mentions
+  a card's number does not block it.
+
+**Two points.**
+
+1. **A VERIFIED is read from the record's text, so a hand can write it.**
+   - **What it checks.** `card_problems` checks that the last move says VERIFIED, `by: runner`, and "ACCEPT and ACCEPT".
+     `custody.py --history` checks only that the queue's files are appended to and never rewritten, so a commit that
+     appends that move to a card passes both.
+   - **Who can append.** Every seat's commits are made as `originaxiom`. If the seats also push with that account's
+     access, any of them can push to `queue`, whose ruleset (the README's setting 4) refuses only a force-push and a
+     deletion.
+   - **The fix.** Derive the outcome at landing, on the fresh clone, from the evidence rather than from the record:
+     - for both banking seats, T9's verdict check: the verdict on the seat's own branch hashes to its seal, the expectation
+       was sighted no later than the seal, and both verdicts were sighted after both seals, by the queue's log;
+     - D8 and K11;
+     - then the outcome rule. Refuse unless it gives VERIFIED.
+     The scripts' reruns may be left to the runner; say so.
+   - **The test.** A queue record with a VERIFIED appended by hand, `by: runner` with the note's words, must be refused.
+2. **The harvest row has six cells.** Its fourth cell is the literal words "the card's title", and there is no arc or date
+   cell. The ledger's rows are eight cells: `| # | seat | item | headline (a quote of at most 25 words, or —) | path @ commit
+   | disposition | main arc | date |`. Write the seat cell as the ledger names the seat, with the code beside it. Put the
+   card's first line or "—" in the fourth cell, the arc `B<n>` in the seventh and the date in the eighth.
+
+Send T11 again with part 2's next version, after T8 and T9.
+
+0 of 19.
+
 ### M71 — 2026-11-27 — T8 and T9 rebuilt: read; three points for their next send, on part 2's (P-885)
 
 **What holds.**

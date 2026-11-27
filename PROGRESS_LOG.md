@@ -20590,3 +20590,11 @@ every check the intake makes before running anything. They will enter the queue 
 seats' first five.
 
 0 of 19.
+
+## 2026-11-27 — the landing tool read (S306p)
+
+**What happened.** The building seat sent the tool that will write a verified card into the record. It does what it
+should, with one gap. It trusts a line in the queue saying the card was verified, a line someone other than the
+runner could add. It goes back to check the two banking seats' sealed verdicts itself before it lands anything.
+
+0 of 19.

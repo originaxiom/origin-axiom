@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p T11, THE LANDING TOOL, READ (P-885; HARVEST ROW 2055; M72) (2026-11-27)
+
+- **T11, as sent:**
+  - on T7b part 2, T8 and T9, its tree is as built (`351b719d`), and its tests pass 6 of 6;
+  - one landing at a time, on a fresh clone;
+  - the numbers taken at landing, and only the named writes;
+  - every gate and the suite read against the known failures;
+  - it never pushes.
+- **Two points for its next send (M72):**
+  - a card's VERIFIED is read from the queue record's text, and the queue's history check lets an appended move write it,
+    so the landing must derive it from both banking seats' verdicts and seals;
+  - its harvest row has six cells, not the ledger's eight.
+
 ## S306p THE SM SEAT'S NINE PRODUCER CARDS ON SM/CARDS RECEIVED; THE BRANCH PINNED (P-885; HARVEST ROW 2054; M65) (2026-11-27)
 
 - **Nine refiled cards on `sm/cards` at `1c5b13d0a`:** SM-C23, SM-C24, and SM-R290, R384, R581, R610, R612 with R612b, R614
