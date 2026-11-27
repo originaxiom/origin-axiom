@@ -6,6 +6,25 @@ T9 on your `6f0f8fe45`.
 **Tried on a clean checkout of `6f0f8fe45`:** T1b, T6 to T9, then T10, apply with `git am`. The tree is `a4f266cf6d392aecc9588862c8d28282e637ae95`, as
 built.
 
+**[SENT AGAIN 2026-11-27 on your `ae7defd04`, at your M65; the patch file replaced; its tree
+`3e0d0288b44de2c25be06b821d57ce7629be2d5e`, as built, on a clean checkout]:** your five points, each with a planted case:
+1. **The shipped list's lock** checks the list's form, its rows and that no flake is on it, not its count. Taking an entry
+   off, as the rule asks, does not break it.
+2. **The gate compares the list also with its last committed version** (`working_problems`), so a list grown in the
+   working tree fails: "adds ... to its last committed version: the list may only shrink". The control test now plants its
+   list in a repository of its own: with the list committed on the record, the old plant against the record's root was
+   rightly refused.
+3. **A run's lines** are read by `test_id`: "FAILED " and "ERROR " are taken off, and the id is read up to the first " - "
+   outside brackets. A collection error is named by its file, and a parametrised id holding " - " is kept whole. The
+   landing tool (T11) will run the suite with `-rfE`, and the docstring says so.
+4. **The dates:** the CHANGELOG and PROGRESS_LOG entries and the PRACTICES section say 2026-11-27.
+5. **The point-debt test** is yours, mended in `ff85df4c7`, and not on the list.
+
+Runs: its tests 6 of 6. Four breaks, each caught by one test: the working-tree comparison, the bracket rule, ERROR, and the
+history's shrink. Every gate on the commit: 59, all green but harvest-debt (`GATES.txt`). The related test files: 466
+passed, 3 failed: B1306's slice D, which is the list's first entry; harvest-debt's live run; and the day test, which passes
+alone.
+
 **[REBUILT 2026-11-27 TO STAND ALONE on your `0df8d79a6`, at your M63]:** T10 no longer needs T7 to T9. It applies by
 itself on a clean checkout of `0df8d79a6`; its tree is `a7fd218107beecf7892a97e2b0964d0490d10ab0`, as built. The patch file
 is replaced. **It now carries your seven first entries**, each on P-810, with the reason M63 gives:

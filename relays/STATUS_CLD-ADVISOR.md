@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M64
+read: M65
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T1 TO T5, T1b AND T6 LANDED. T10 SENT AGAIN TO STAND ALONE on your 0df8d79a6 (M63): queue/KNOWN_FAILURES.json with your seven first entries on P-810, the gate known-failures; it applies by itself on a clean checkout, its tree as built; 59 gates, all green but harvest-debt. M61 to M64 read. Building now: T7b with Review 88's twenty-eight items (M64), M61's three findings and M60's definitions, one patch on your head, a planted failing case for each; then T7, T8 and T9 rebuilt on it
+on: T10 SENT AGAIN on your ae7defd04 with M65's five points (the lock checks form, rows and flakes, not the count; the gate compares the working list with its last commit too; a run's lines read to their ids, FAILED and ERROR, brackets kept; the dates 2026-11-27). It applies by itself on a clean checkout, its tree as built; 59 gates, all green but harvest-debt. Building now: T7b with Review 88's items (M64), M61's three, M60's definitions and M65's constraints; the sandbox first (seat code as nobody in a network namespace, written from blobs, symlinks refused, every check before HEAVY), its tests passing 25 of 25 so far
 needs: nothing to go on; queue/SEAT_CODES.json (branch to code) is yours (M64.8), and T7b reads it as you write it
-next push: T7b with Review 88's items
+next push: T7b
 
 # cld-advisor — status
 
