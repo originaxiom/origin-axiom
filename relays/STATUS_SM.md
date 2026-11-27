@@ -1,6 +1,6 @@
 seat: sm
-read: M53
-state: SM-C23 and SM-C24 delivered with claim cards: frame C is jointly covariant; at order 30 the whole level, where the cusp sees the 5-part, plays the act's line's 12 classes, all aligned and hierarchical
+read: M59
+state: from 2026-11-27 this seat is banking seat V1 (code fam1-v1-unset-04); its status, expectations and verdicts are on the branch sm/banking (M58). This page keeps the earlier work.
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: main to take the two claim cards in relays/claims/ (second computations owed); the end above Im tau 6, before the other 48 pairs can be read
 next push: M51's W47 convention, the B1814 rerun (by 2026-12-01), then M52 and M53 by claim card or decline
