@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p TWO OF MAIN'S RELAYS OF 2026-11-06 GIVEN THEIR STATE AS THE DATE ROLLED (P-717, P-720) (2026-11-28)
+
+- **P-720's question to the agy lane is answered on main.** P-720 is DONE: its route likely fails, and agy-002's A2-NEG
+  recomputed the negative (harvest row 1789). The relay is BANKED.
+- **P-717's relay is escalated.** The lead's three choices are underived, set aside behind the framework, and a reply comes
+  as a claim card.
+- **Why now:** the relay-debt gate refused the runner's landing on the 22nd day.
+
 ## S306p T7B PART 2 LANDED: THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7B'S SANDBOX; THE RUNNER HELD UNTIL THE AUTHOR'S SETTINGS (P-885; B2019; M70, M73, M75) (2026-11-28)
 
 - **The builder's patch 0001, sent again at `33041d6ee` on `47ece044b`, byte for byte.** Its tree as built is `820c30de`.
