@@ -1,5 +1,14 @@
 # Changelog
 
+## S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)
+
+- **The seven cards** at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md` now name `13977a25f`, where the rebuilt
+  wrappers and controls are. The decisive scripts' hashes are new and the decisive lines' hashes unchanged. No runner has
+  sighted them, so they are corrected in place.
+- **Under the landed rerun (T7b part 1)** all seven pass every check before the run: form, hashes, guard and commands.
+  Here, with no sandbox, each is HEAVY by design (B2016 also by its own declaration). B2013, run through to the end with
+  the static guard, is REPRODUCED, its control exiting 1.
+
 ## S306p MAIN'S TRIAL TOOLS REBUILT TO THE INTAKE'S GUARD; THE SEATS' NEW CARDS RECEIVED; FOURTEEN DEBTS ESCALATED (P-885; HARVEST ROWS 2047, 2048; M69, M24, M63) (2026-11-27)
 
 - **Main's trial tools rebuilt.** The guard of T7b part 1 refused all seven of main's trial cards at intake: their wrappers

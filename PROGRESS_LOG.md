@@ -20540,3 +20540,11 @@ as before. The guard also turned out to refuse an ordinary, harmless way of writ
 goes back to the building seat. Two seats' new cards were checked, one of them with a wrong fingerprint for its script.
 
 0 of 19.
+
+## 2026-11-27 — main's seven cards filed again (S306p)
+
+**What happened.** With main's checking tools rebuilt, the seven trial cards were written again to point at the rebuilt
+versions; what they claim and what decides them is unchanged. Each now passes every check the intake makes before it runs
+anything.
+
+0 of 19.

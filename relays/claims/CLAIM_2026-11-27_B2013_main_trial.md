@@ -2,7 +2,7 @@
 
 - card id: new
 - seat code: fam1-v1-unset-01
-- seat, branch, commit: fam1-v1-unset-01, main, ff85df4c78d7f9b28d512a501fa9cf21eafbb8c1
+- seat, branch, commit: fam1-v1-unset-01, main, 13977a25feb6d94d74c9ea9b72c6a9492b85eec1
 - kind: computation
 - touches: none
 - effect: none
@@ -11,7 +11,7 @@
 - definitions: a plant is a fault placed on purpose in a reader's copy of the record, its list sealed by hash before any reader starts; a mend is a change to an arc's text after a reader's finding, marked with a dated bracket; the lock is the arc's test, which reads the committed plant list and the mended text
 - imports: none
 - premises on main: B1980, B1983, B1993, B1995, B1996, B2009, B2012 (the mends its lock reads)
-- decisive script: relays/claims/main_trial/decisive.py, SHA-256 d0b72df109d77a25, depends on the standard library, run as python3 relays/claims/main_trial/decisive.py B2013, output SHA-256 7271817474bcc98c
+- decisive script: relays/claims/main_trial/decisive.py, SHA-256 0f8f89e012cf7dfb, depends on the standard library, run as python3 relays/claims/main_trial/decisive.py B2013, output SHA-256 7271817474bcc98c
 - decisive lines: 2 lines marked "DECISIVE:", SHA-256 7271817474bcc98c
 - failing control: python3 relays/claims/main_trial/B2013_control.py
 - second computation: none
