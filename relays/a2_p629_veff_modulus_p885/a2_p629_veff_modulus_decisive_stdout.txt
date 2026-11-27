@@ -1,0 +1,6 @@
+DECISIVE: P1 half_period=-15/16 FILQ1_y=1.234579947 FILQ1_V=-8.92881487 FILQ2_y=1.18338966 FILQ3_y=1.155439018 FILQ3_V=-78.340509 g1=True
+DECISIVE: P2A_P2B VCW_tr_i=4.53508959 VCW_tr_om=4.60938688 VCW_tr_arc=4.71400641 order_ok=True cusp_ok=True v4_dip=True cB_crit=0.0318659172 poly_nogo=True flip=True
+DECISIVE: P2C x_star=1/2 y_star=3.38045111 V_star=-7043393.76 V_zero=-7043366.26 Vxx_half_pos=True Vxx_zero_neg=True Vyy_pos=True V_small_well=28.312431 V_wall_4i=4.4376986e+9 cF100_bounded=True g2=True
+DECISIVE: P3_BENCH_CURVED ce_lt_1e38=True martin_lt_1e38=True xz_opp=True uv_dflat_lt_1e38=True G_om_iso=True G_filq1=[1.01724,0.932449,1.05031] G_tot70=[1.17539,0.649212,1.17539] g3=True
+DECISIVE: P3_EWSB_DYN all_stab=True all_ewsb=True V3_SF_Hu1st=True V3_SF_tu=-18.1031 V3_SF_td=-18.9861 V3_DYN_align=0.992684 yt_g3=1.01858 mb_mtau=1.95812 V12=0.135427 V23=0.0565507 V13=0.0159046 std_ckm=True
+DECISIVE: P3_PMNS_HAAR_P4 dm_I3=4.9987e-12 dm_1w=0.003237 dm_2w=0.0005617 haar_lt_1e25=True g4=True pf=6/6 ast_clean=True json_floats=0 all_gates=True
