@@ -1,0 +1,48 @@
+{
+ "dim g2": 14,
+ "dim su(2) fixing the plane": 3,
+ "dim stabiliser of the plane": 6,
+ "Z_k": [
+  {
+   "k": 2,
+   "preserves phi": true,
+   "order k": true,
+   "fixed dimension": 3,
+   "phi(e1, e2, e3)": 1.0
+  },
+  {
+   "k": 3,
+   "preserves phi": true,
+   "order k": true,
+   "fixed dimension": 3,
+   "phi(e1, e2, e3)": 1.0
+  },
+  {
+   "k": 4,
+   "preserves phi": true,
+   "order k": true,
+   "fixed dimension": 3,
+   "phi(e1, e2, e3)": 1.0
+  },
+  {
+   "k": 5,
+   "preserves phi": true,
+   "order k": true,
+   "fixed dimension": 3,
+   "phi(e1, e2, e3)": 1.0
+  },
+  {
+   "k": 6,
+   "preserves phi": true,
+   "order k": true,
+   "fixed dimension": 3,
+   "phi(e1, e2, e3)": 1.0
+  }
+ ],
+ "det on the plane over 200 stabiliser elements": [
+  0.9999999999999964,
+  1.0000000000000007
+ ],
+ "e123 coefficient after a plane reflection": -1.0,
+ "AP-1 holds": true
+}
