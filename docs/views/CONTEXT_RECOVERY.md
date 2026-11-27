@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-27, S306p: REVIEW 88 ENTERED (B2018, PROVED, a process arc)).** The window's five arcs are the trial's and are left to its two blind banking seats; three cold readers read the framework's process work instead and caught eight of eight sealed plants. They found real faults in the queue's code, each reproduced by main on the live tree and sent to the builder as a patch the runner waits on (R88-1), and on the role pages, mended. 0 of 19.”
+“LATEST (2026-11-27, S306p: REVIEW 89 ENTERED (B2019, PROVED, a process arc)).** The trial's arcs and main's trial tools were again left to the trial (R88-2, carried to Review 90). Three cold readers read the window's process work instead (the queue's code after Review 88, the known-failures list and its gate, the law map's screens and eight mended rows, the role pages, the register's changed rows) and caught six of eight sealed plants. They missed a one-word flip in a dated mend, given with its arc, and a test helper's 'and' made 'or'. Eleven real findings held: seven mended at once, four sent to the builder (M74). Main found two point-debt tests failing unseen since the day's register work…”
 
 ## Completeness (nothing skipped silently)
 
