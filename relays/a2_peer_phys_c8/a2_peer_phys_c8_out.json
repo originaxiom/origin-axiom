@@ -1,0 +1,118 @@
+{
+  "SL2_F25_peripheral": {
+    "commute": true,
+    "ord_U1": 5,
+    "ord_ZU_minus2d": 10
+  },
+  "all_gates_passed": true,
+  "ast_floats": 0,
+  "blind": "0 of 19",
+  "card": "A2-PEER-PHYS-C8",
+  "center_and_BD5_lift": {
+    "BD5_j2_central": true,
+    "BD5_order": 20,
+    "BD5_rels_ok": true,
+    "m004_bounding_longitude_trivial_in_BD5": true,
+    "m004_snappy_surj_lifts_to_BD5": 40,
+    "m004_surj_lifts_to_BD5": 20,
+    "z13_eq_z3_in_E8": true
+  },
+  "geometric_only": {
+    "antiperiodic_120": 0,
+    "antiperiodic_128": 0,
+    "m2_128_allows_plus1": true,
+    "m2_128_phases_mod20": [
+      0,
+      4,
+      8,
+      12,
+      16
+    ],
+    "periodic_120": 0,
+    "periodic_128": 8,
+    "planes6": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "total_antiperiodic": 0,
+    "total_periodic": 8,
+    "w64_zero_count": 4
+  },
+  "joined_with_sheet_lift": {
+    "antiperiodic_120": 0,
+    "antiperiodic_128": 0,
+    "m2_128_allows_plus1": false,
+    "m2_128_phases_mod20": [
+      2,
+      6,
+      10,
+      14,
+      18
+    ],
+    "periodic_120": 0,
+    "periodic_128": 0,
+    "planes6": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "total_antiperiodic": 0,
+    "total_periodic": 0,
+    "w64_zero_count": 4
+  },
+  "json_floats": 0,
+  "pf_caught": 5,
+  "planted_fault_controls": {
+    "PF1_omit_sheet_restores_8": true,
+    "PF2_antiperiodic_geo_is_0": true,
+    "PF3_joined_m2_forbids_plus1": true,
+    "PF4_120_has_zero_l_minus1": true,
+    "PF5_w64_zero_mult_4_nonvacuous": true
+  },
+  "seat_code": "fam3-v1-high-03",
+  "verifying_card": "CLAIM_2026-11-27_C8_two_registers.md (P-876)",
+  "verifying_seat_code": "fam2-v1-unset-01"
+}

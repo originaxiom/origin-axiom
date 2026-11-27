@@ -1,0 +1,4 @@
+DECISIVE: SL2_F25 ok=True comm=True ordM=5 ordL=10 w64_0=4
+DECISIVE: KERNEL ok=True geo_per=8 geo_anti=0 join_per=0 join_anti=0 m2_plus1=False
+DECISIVE: LIFT ok=True z_same=True BD5=20 m004_BD5=20 long_id=True
+DECISIVE: SUMMARY all_ok=True PF=5/5 floats=0/0
