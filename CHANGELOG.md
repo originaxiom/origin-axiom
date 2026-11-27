@@ -1,5 +1,30 @@
 # Changelog
 
+## S306p MAIN'S TRIAL TOOLS REBUILT TO THE INTAKE'S GUARD; THE SEATS' NEW CARDS RECEIVED; FOURTEEN DEBTS ESCALATED (P-885; HARVEST ROWS 2047, 2048; M69, M24, M63) (2026-11-27)
+
+- **Main's trial tools rebuilt.** The guard of T7b part 1 refused all seven of main's trial cards at intake: their wrappers
+  and controls used exec, compile, importlib and `sys.path`. Now no exec runs in a control's own process:
+  - each control writes the changed text beside the arc's script and runs it as a separate process
+    (`relays/claims/main_trial/control_run.py`);
+  - B2013's runs its lock through a driver in its copy;
+  - `n0_light` assembles the arc's code into one script and runs it;
+  - the wrappers import their siblings plainly, and `decisive.py` uses its patterns as strings.
+
+  The banked scripts are untouched. Every wrapper and control passes the guard; every wrapper gives the same decisive lines
+  byte for byte; every control fails as it must (exit 1, no traceback). The cards are filed again, naming this commit, in
+  the next landing.
+- **The guard's false positive (M69):** any call of an attribute named `compile`, `re.compile` among them, is read as the
+  builtin. It is blocking: it would also return the agy lane's C64.
+- **The seats' new cards:**
+  - the agy lane's C68 (C67 superseded): form and hashes hold, the record check is clean, it names no trial arc (row
+    2047; M24);
+  - agy-002's two cards in the new form (row 2048; M63): A2-P629 holds; A2-LEG5's stated script hash is not the script's,
+    to be corrected before the runner sights it.
+- **Fourteen register rows escalated** before the point-debt gate would refuse them on 2026-12-06, each with its true state
+  and next step. P-239's two locks pass since the builder's C15 held them to the panel's era; the attachment itself is
+  what is owed.
+- **The LaCie mirror is not mounted;** the backup stands at `55cf9b21a` until it is.
+
 ## S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE LANDED (T7B PART 1); THE RUNNER HELD; TWO AUDIT DRAFTS LANDED OR DECLINED (P-326, P-589, P-885; HARVEST ROW 2046; R88-1 MET; M68, M63) (2026-11-27)
 
 - **T7b part 1, the builder's** (Review 88's twenty-eight items, M61's three, M66's two), landed byte for byte:

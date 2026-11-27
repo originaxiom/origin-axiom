@@ -54,16 +54,15 @@ for old, new in edits:
         sys.exit(3)
     src = src.replace(old, new)
 
-buf = io.StringIO()
-ns = {"__file__": str(SCRIPT), "__name__": "__main__"}
-try:
-    with contextlib.redirect_stdout(buf):
-        exec(compile(src, "c60_levels.py [control: A1 level 135 -> 81]", "exec"), ns)
-except BaseException as e:   # a crash is not a failing control
-    print(buf.getvalue(), end="")
-    print("CONTROL INVALID: the perturbed run crashed: %s: %s" % (type(e).__name__, e))
+# CHANGED 2026-11-27 (P-885): run as a separate process beside the script (control_run.py), not exec'd here: the
+# intake's guard refuses exec
+from control_run import run_changed
+rc, stdout, stderr = run_changed(SCRIPT, src)
+if rc != 0:   # a crash is not a failing control
+    print(stdout, end="")
+    print("CONTROL INVALID: the perturbed run crashed (exit %d): %s" % (rc, (stderr.strip().splitlines() or [""])[-1]))
     sys.exit(3)
-out = re.sub(r"  \[\d+ s\]$", "", buf.getvalue(), flags=re.M)
+out = re.sub(r"  \[\d+ s\]$", "", stdout, flags=re.M)
 print(out, end="")
 
 # the decisive claim's substantive lines (from the committed c60_levels_run.txt, timing brackets removed)

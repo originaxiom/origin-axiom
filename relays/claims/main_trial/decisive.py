@@ -22,13 +22,15 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 PY = sys.executable                      # the arcs' scripts run under the interpreter this wrapper runs under
-TIMING = re.compile(r"\s+\[\d+ s\]\s*$")
-TINY = re.compile(r"(?<![\w.])-?\d\.\d+e-(\d+)\b")
+# CHANGED 2026-11-27 (P-885): the patterns as strings, used through re.sub, not compiled here (the intake's guard
+# reads any call named compile as the builtin)
+TIMING = r"\s+\[\d+ s\]\s*$"
+TINY = r"(?<![\w.])-?\d\.\d+e-(\d+)\b"
 
 
 def normalise(line):
-    line = TIMING.sub("", line.rstrip())
-    return TINY.sub(lambda m: "0" if int(m.group(1)) > 10 else m.group(0), line)
+    line = re.sub(TIMING, "", line.rstrip())
+    return re.sub(TINY, lambda m: "0" if int(m.group(1)) > 10 else m.group(0), line)
 
 
 def block(lines, opener, keep):

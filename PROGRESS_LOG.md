@@ -20530,3 +20530,13 @@ a file that changed another card's result, and because its test for a cut-off ne
 machines. Two old drafts that the register cited were either landed as tools or declined with their reason.
 
 0 of 19.
+
+## 2026-11-27 — main's own trial tools rebuilt for the intake's stricter guard (S306p)
+
+**What happened.** The intake's new guard, which refuses scripts that run code it cannot read, refused all seven of
+main's own trial cards, because main's checks ran the arcs' code inside themselves. Main rebuilt them to run that code as
+separate programs instead, which the guard can see, and showed that every result and every deliberate failure is exactly
+as before. The guard also turned out to refuse an ordinary, harmless way of writing patterns that most scripts use; that
+goes back to the building seat. Two seats' new cards were checked, one of them with a wrong fingerprint for its script.
+
+0 of 19.

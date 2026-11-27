@@ -55,13 +55,15 @@ def main():
         print("CONTROL NOT APPLIED (exit 3): expected the text %r twice in %s, found %d" % (OLD, path.name, n_old)); return 3
     changed = src.replace(OLD, NEW)
     print("control: %s with %r -> %r (%d occurrences); all else unchanged" % (path.name, OLD, NEW, n_old), flush=True)
-    buf = io.StringIO()
-    try:
-        with contextlib.redirect_stdout(Tee(sys.stdout, buf)):
-            exec(compile(changed, str(path) + " [control]", "exec"), {"__name__": "__main__"})
-    except Exception as e:
-        print("CRASH (exit 3): %s: %s -- not a failing control" % (type(e).__name__, e)); return 3
-    out = buf.getvalue().splitlines()
+    # CHANGED 2026-11-27 (P-885): run as a separate process beside the script (control_run.py), not exec'd here: the
+    # intake's guard refuses exec
+    from control_run import run_changed
+    rc, stdout, stderr = run_changed(path, changed)
+    print(stdout, end="", flush=True)
+    if rc != 0:
+        print("CRASH (exit 3): the changed run exited %d: %s -- not a failing control"
+              % (rc, (stderr.strip().splitlines() or [""])[-1])); return 3
+    out = stdout.splitlines()
     n1 = [l for l in out if l.startswith("N1 ")]
     pointwise = sum("pointwise: True" in l for l in n1)
     exact_true = sum("over Z: True" in l for l in n1)

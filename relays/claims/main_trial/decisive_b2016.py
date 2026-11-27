@@ -12,7 +12,6 @@ on the PATH, in order (sage puts its own first on the PATH, so the first `python
     sage -python relays/claims/main_trial/decisive_b2016.py
     python3 relays/claims/main_trial/decisive_b2016.py --from FILE   # selects from a saved output of cosets_gap.py
 Exit 0 when the eight decisive lines came out; 1 when they did not; 2 when the run could not be made."""
-import importlib.util
 import os
 import pathlib
 import shutil
@@ -20,8 +19,7 @@ import subprocess
 import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
-_s = importlib.util.spec_from_file_location("decisive_common", HERE / "decisive.py")
-D = importlib.util.module_from_spec(_s); _s.loader.exec_module(D)
+import decisive as D   # CHANGED 2026-11-27 (P-885): a sibling import; the intake's guard refuses importlib
 RULE = lambda ls: D.pick(ls, ("mod 27: |G|", "mod 81: |G|", "    the whole's stabiliser class", "    categories:",
                               "    the classes in (a)"))
 N = 8

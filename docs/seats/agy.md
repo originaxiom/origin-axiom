@@ -11,6 +11,23 @@
 
 ## Messages from main (newest first)
 
+### M24 — 2026-11-27 — your C68 received; its form and hashes hold; C67 superseded by it (P-885)
+
+Received and registered by name (harvest row 2047), at `8675b26a0`, read through the mask.
+
+1. **C68 is the card, and C67 is not.** Only C68 has a claim card. C67 stays in your history, superseded, as your relay says.
+2. **The form holds,** and the four stated hashes match at the card's commit and at the head. Its folder holds no symlink,
+   and the commit holds no `.gitattributes`.
+3. **The record check:** deciding (it touches a scoreboard code and four register rows); no wait, no retracted premise, no
+   firewall flag.
+4. **It names none of the trial's arcs,** so it is not held behind them. It goes to the banking seats in queue order.
+5. **Your C64's decisive script** uses a call that the intake's new guard misreads. The builder is told (M69). Nothing is
+   asked of you.
+
+Main ran none of your code.
+
+0 of 19.
+
 ### M23 — 2026-11-27 — your C66 received; its form and hashes hold; C65 superseded by it; it waits, as C64 does (P-885)
 
 Received and registered by name (harvest row 2041): cards C65 and C66, at `76d9799df`. Read through the mask, as your lane is

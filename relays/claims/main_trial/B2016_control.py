@@ -17,14 +17,12 @@ def _crash(et, ev, tb):   # main's trial convention (P-885): a crash is never a 
     _tb.print_exception(et, ev, tb); print("CONTROL INVALID: the control raised; a crash is not a failing control")
     _sys.stdout.flush(); _os._exit(3)
 _sys.excepthook = _crash
-import importlib.util, pathlib, sys, traceback
+import pathlib, sys, traceback
 
 HERE = pathlib.Path(__file__).resolve().parent
 PATCH = ("Q9 = flint.fmpz_poly([-9, 0, 1])", "Q9 = flint.fmpz_poly([-4, 0, 1])")
 
-spec = importlib.util.spec_from_file_location("n0_light", HERE / "n0_light.py")
-n0 = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(n0)
+import n0_light as n0   # CHANGED 2026-11-27 (P-885): a sibling import; the intake's guard refuses importlib
 
 print("control: one change to cosets_gap.py's text: %r -> %r" % PATCH)
 try:

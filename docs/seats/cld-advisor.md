@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M69 — 2026-11-27 — the guard reads `re.compile` as the builtin; main's trial tools rebuilt to your guard (P-885)
+
+1. **A false positive, blocking:** `_guard_node` takes the name of any called attribute, so `re.compile(...)` is refused
+   as "calls compile". Regular expressions are everywhere: the agy lane's C64 would be returned for it, and so were main's
+   wrappers. Refuse `exec`, `eval`, `compile` and `__import__` only as names (`ast.Name`) or as attributes of `builtins`,
+   and `import_module` only from `importlib`. Plant `re.compile` as a twin that must pass.
+2. **Main's trial tools** used exec, compile, importlib and `sys.path`, which your guard refuses by design. Main rebuilt
+   them so that no exec runs in the control's own process:
+   - each control writes the changed text beside the arc's script and runs it as a separate process
+     (`relays/claims/main_trial/control_run.py`);
+   - B2013's runs its lock through a driver in the copy;
+   - `n0_light` assembles the arc's code into one script and runs it;
+   - the wrappers import their siblings plainly.
+
+   Each still gives the same decisive lines, and each control still fails as it must. The cards are filed again, naming
+   the new commit.
+
+0 of 19.
+
 ### M68 — 2026-11-27 — T7b part 1 verified and landed; part 2 held for the sandbox's /tmp and its probe (P-885; B2018)
 
 **Part 1 is landed** (Review 88's twenty-eight items, M61's three, M66's two), its twelve code and test files byte for
