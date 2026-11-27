@@ -1,0 +1,56 @@
+R0  PASS  trivial: chi_0, 2, 4, 6, 12 = 1, 0, 1, 1, 2
+R0  PASS  eta: chi_1/2 = 1, allowed
+R0  PASS  eta^2: chi_1 = 1 (B1641's calibration)
+R0  PASS  main's float chi agrees on every allowed (k, twist), k = -1/2 .. 51/2
+R1  PASS  S^2 central scalar
+R1  PASS  S^2 = (S T)^3
+R1  PASS  S^8 = 1
+R1  PASS  T-exponents (1/8, 3/8, 7/8)
+R1  PASS  weight 3/2 allowed
+R1  PASS  main's theta multiplier equals rho (B1730 part A, < 1e-12)
+R1  PASS  main's lift rho_T is equivalent to rho (one intertwiner, invertible)
+R2  PASS  chi_{3/2+12n}(rho) = 3n, n = 0..4
+R2  PASS  W134's I(r=0, cond 0, m = 24n) = -3n
+R2  PASS  B1730's space(0, n) has dim 3n, n = 1, 2
+R2  PASS  the dressed q-series route gives 3n, stable
+R3  PASS  the det character is a power of chi_eta on S and T alike
+R3  PASS  c(r + m) = 9 + 3(r + m) mod 24
+R3  PASS  the twists allowing weight 3/2 are r = 0 mod 4
+R3  PASS  every dressed datum is allowed at its weight
+R3  PASS  admissible iff m = 5 - r mod 8
+R3  PASS  m = 0 and m = +-24 never admissible
+R3  PASS  no twist r in 0..23 makes rho (x) chi_eta^r det-1 at a whole unit
+R4  PASS  condition 0, exact: |I| = 3 at (4,17), (12,17), (12,-23), (0,21), (8,21), (8,-19) only
+R4  PASS  condition 0: the least |m| with three is 17
+R4  PASS  the pieces' lanes agree across identifications and are integers
+R4  PASS  condition 0 on main's lift rho_T (float) equals the exact route
+R4  PASS  all conditions: |I| = 3 at exactly W134's twelve
+R4  PASS  all conditions: the least |m| with three is 17
+R4  PASS  |I| <= 1 at the least admissible datum
+R4  PASS  |I| <= 2 for admissible |m| <= 16
+R4  PASS  the q-series dimension equals |I| at the positive-m threes of condition 0
+R5  PASS  the unit's multiplier chi_eta^24 is trivial on S and T
+R5  PASS  W134's m = 24n is C8's O(n delta): I(r, 0, 24n) = -(chi_{3/2}(rho_r) + 3n), every allowed r
+R5  PASS  at whole units the det exponent is 9 + 3r, never 0
+R5  PASS  the dressing moves chi by the floors alone (W134's closed form), every r and |m| <= 24
+R5  PASS  C8's three is W134's |I(0, 0, 24)|, the same count
+R6  PASS  every three-generation datum has k = r + m in {5, 13, 21} (B1736's rho')
+R6  PASS  the 17/24 data have k = 21 (r = 4) and k = 5 (r = 12)
+R7  PASS  240 roots of norm 2
+R7  PASS  E6: 72 roots orthogonal to A2; the class (1, 0) has 27
+R7  PASS  the 27's Dynkin index is 6 against every E6 root
+R7  PASS  D5 = 40 roots orthogonal to a 27-weight; the 27 splits 1 + 10 + 16
+R7  PASS  the 16's index is 4 and the 10's is 2 against every D5 root
+R7  PASS  n_SU3 = n_SU2 = 18(3 + r + m), n_grav = 81(3 + r + m) mod 24 (W135's K2 formula)
+R7  PASS  the full 27 is anomaly-free iff its family part is det-1
+R7  PASS  ... iff m = 5 - r mod 8 (W134's condition)
+R7  PASS  the 16 alone needs only m odd
+P1 {"dims at the plant's n units": {"0": 0, "1": 1, "2": 3, "3": 4, "4": 6}, "the plant's unit admissible at": [], "the least three in the plant's units": "17/12", "reproduces C8 (3n)": false, "reproduces W134 (17/24)": false, "fails both": true}
+P2 {"reproduces C8 (3n at whole units)": true, "admissible data": 0, "reproduces W134 (17/24)": false}
+CT {"the conjugate hand allows weight 3/2 at no allowed twist and no whole unit": true}
+cells: {"R0": true, "R1": true, "R2": true, "R3": true, "R4": true, "R5": true, "R6": true, "R7": true, "P1 fails both": true, "P2 reproduces C8 and fails W134": true, "CT": true}
+output sha256: 93d98d5b25ec1b9a6eb3479ae0b0758857ced08033ac2d7f08be16819350c832
+
+real	0m25.301s
+user	0m29.299s
+sys	0m0.849s

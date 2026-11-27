@@ -1,0 +1,552 @@
+{
+ "row": "P-610",
+ "script sha256": "d60e1f635336fb6a74f707ae1b64202963417a32ee02958b783f5cd99df57a0c",
+ "R0": {
+  "checks": {
+   "trivial: chi_0, 2, 4, 6, 12 = 1, 0, 1, 1, 2": true,
+   "eta: chi_1/2 = 1, allowed": true,
+   "eta^2: chi_1 = 1 (B1641's calibration)": true,
+   "main's float chi agrees on every allowed (k, twist), k = -1/2 .. 51/2": true
+  },
+  "comparisons": 318,
+  "max |exact - float|": 1.7763568394002505e-15
+ },
+ "R1": {
+  "checks": {
+   "S^2 central scalar": true,
+   "S^2 = (S T)^3": true,
+   "S^8 = 1": true,
+   "T-exponents (1/8, 3/8, 7/8)": true,
+   "weight 3/2 allowed": true,
+   "main's theta multiplier equals rho (B1730 part A, < 1e-12)": true,
+   "main's lift rho_T is equivalent to rho (one intertwiner, invertible)": true
+  },
+  "B1730 part A": {
+   "rho_T_from_R_vs_W64": 3.6159140171569174e-30,
+   "rho_S_from_R_vs_W64": 9.209127541933675e-30
+  },
+  "intertwiner space dim": 1,
+  "intertwiner least singular value": 0.5773502691896256
+ },
+ "R2": {
+  "checks": {
+   "chi_{3/2+12n}(rho) = 3n, n = 0..4": true,
+   "W134's I(r=0, cond 0, m = 24n) = -3n": true,
+   "B1730's space(0, n) has dim 3n, n = 1, 2": true,
+   "the dressed q-series route gives 3n, stable": true
+  },
+  "chi route": {
+   "0": {
+    "chi_{3/2+12n}(rho)": 0,
+    "I(0, '0', 24n)": 0
+   },
+   "1": {
+    "chi_{3/2+12n}(rho)": 3,
+    "I(0, '0', 24n)": -3
+   },
+   "2": {
+    "chi_{3/2+12n}(rho)": 6,
+    "I(0, '0', 24n)": -6
+   },
+   "3": {
+    "chi_{3/2+12n}(rho)": 9,
+    "I(0, '0', 24n)": -9
+   },
+   "4": {
+    "chi_{3/2+12n}(rho)": 12,
+    "I(0, '0', 24n)": -12
+   }
+  },
+  "q-series": {
+   "B1730 space(0, 1)": 3,
+   "dressed route (0, 24)": {
+    "dim": 3,
+    "dim at M + 2": 3,
+    "stable": true,
+    "generators": [
+     10,
+     16
+    ]
+   },
+   "B1730 space(0, 2)": 6,
+   "dressed route (0, 48)": {
+    "dim": 6,
+    "dim at M + 2": 6,
+    "stable": true,
+    "generators": [
+     16,
+     22
+    ]
+   }
+  }
+ },
+ "R3": {
+  "checks": {
+   "the det character is a power of chi_eta on S and T alike": true,
+   "c(r + m) = 9 + 3(r + m) mod 24": true,
+   "the twists allowing weight 3/2 are r = 0 mod 4": true,
+   "every dressed datum is allowed at its weight": true,
+   "admissible iff m = 5 - r mod 8": true,
+   "m = 0 and m = +-24 never admissible": true,
+   "no twist r in 0..23 makes rho (x) chi_eta^r det-1 at a whole unit": true
+  },
+  "admissible m by r": {
+   "0": [
+    -19,
+    -11,
+    -3,
+    5,
+    13,
+    21
+   ],
+   "4": [
+    -23,
+    -15,
+    -7,
+    1,
+    9,
+    17
+   ],
+   "8": [
+    -19,
+    -11,
+    -3,
+    5,
+    13,
+    21
+   ],
+   "12": [
+    -23,
+    -15,
+    -7,
+    1,
+    9,
+    17
+   ],
+   "16": [
+    -19,
+    -11,
+    -3,
+    5,
+    13,
+    21
+   ],
+   "20": [
+    -23,
+    -15,
+    -7,
+    1,
+    9,
+    17
+   ]
+  },
+  "det exponent c(a), a = 0..23": [
+   9,
+   12,
+   15,
+   18,
+   21,
+   0,
+   3,
+   6,
+   9,
+   12,
+   15,
+   18,
+   21,
+   0,
+   3,
+   6,
+   9,
+   12,
+   15,
+   18,
+   21,
+   0,
+   3,
+   6
+  ]
+ },
+ "R4": {
+  "checks": {
+   "condition 0, exact: |I| = 3 at (4,17), (12,17), (12,-23), (0,21), (8,21), (8,-19) only": true,
+   "condition 0: the least |m| with three is 17": true,
+   "the pieces' lanes agree across identifications and are integers": true,
+   "condition 0 on main's lift rho_T (float) equals the exact route": true,
+   "all conditions: |I| = 3 at exactly W134's twelve": true,
+   "all conditions: the least |m| with three is 17": true,
+   "|I| <= 1 at the least admissible datum": true,
+   "|I| <= 2 for admissible |m| <= 16": true,
+   "the q-series dimension equals |I| at the positive-m threes of condition 0": true
+  },
+  "threes": [
+   [
+    0,
+    21,
+    "0"
+   ],
+   [
+    0,
+    21,
+    "L6"
+   ],
+   [
+    4,
+    -23,
+    "L6"
+   ],
+   [
+    4,
+    17,
+    "0"
+   ],
+   [
+    8,
+    -19,
+    "0"
+   ],
+   [
+    8,
+    21,
+    "0"
+   ],
+   [
+    8,
+    21,
+    "L6"
+   ],
+   [
+    12,
+    -23,
+    "0"
+   ],
+   [
+    12,
+    -23,
+    "L6"
+   ],
+   [
+    12,
+    17,
+    "0"
+   ],
+   [
+    16,
+    21,
+    "L6"
+   ],
+   [
+    20,
+    -23,
+    "L6"
+   ]
+  ],
+  "least admissible m by r": {
+   "0": -3,
+   "4": 1,
+   "8": -3,
+   "12": 1,
+   "16": -3,
+   "20": 1
+  },
+  "q-series at condition 0": {
+   "0,21": {
+    "dim": 3,
+    "dim at M + 2": 3,
+    "stable": true,
+    "generators": [
+     10,
+     16
+    ]
+   },
+   "4,17": {
+    "dim": 3,
+    "dim at M + 2": 3,
+    "stable": true,
+    "generators": [
+     10,
+     16
+    ]
+   },
+   "8,21": {
+    "dim": 3,
+    "dim at M + 2": 3,
+    "stable": true,
+    "generators": [
+     9,
+     15
+    ]
+   },
+   "12,17": {
+    "dim": 3,
+    "dim at M + 2": 3,
+    "stable": true,
+    "generators": [
+     9,
+     15
+    ]
+   }
+  },
+  "the index at the admissible data": {
+   "0": {
+    "0,-19": 2,
+    "0,-11": 2,
+    "0,-3": 0,
+    "0,5": -1,
+    "0,13": -1,
+    "0,21": -3,
+    "4,-23": 2,
+    "4,-15": 2,
+    "4,-7": 0,
+    "4,1": -1,
+    "4,9": -1,
+    "4,17": -3,
+    "8,-19": 3,
+    "8,-11": 1,
+    "8,-3": 0,
+    "8,5": 0,
+    "8,13": -2,
+    "8,21": -3,
+    "12,-23": 3,
+    "12,-15": 1,
+    "12,-7": 0,
+    "12,1": 0,
+    "12,9": -2,
+    "12,17": -3,
+    "16,-19": 2,
+    "16,-11": 1,
+    "16,-3": 1,
+    "16,5": -1,
+    "16,13": -2,
+    "16,21": -2,
+    "20,-23": 2,
+    "20,-15": 1,
+    "20,-7": 1,
+    "20,1": -1,
+    "20,9": -2,
+    "20,17": -2
+   },
+   "V2": {
+    "0,-19": 1.0,
+    "0,-11": 1.0,
+    "0,-3": 0.0,
+    "0,5": 0.0,
+    "0,13": 0.0,
+    "0,21": -1.0,
+    "4,-23": 1.0,
+    "4,-15": 1.0,
+    "4,-7": -0.0,
+    "4,1": 0.0,
+    "4,9": -0.0,
+    "4,17": -1.0,
+    "8,-19": 1.0,
+    "8,-11": 0.0,
+    "8,-3": -0.0,
+    "8,5": 0.0,
+    "8,13": -1.0,
+    "8,21": -1.0,
+    "12,-23": 1.0,
+    "12,-15": 0.0,
+    "12,-7": -0.0,
+    "12,1": 0.0,
+    "12,9": -1.0,
+    "12,17": -1.0,
+    "16,-19": 1.0,
+    "16,-11": 1.0,
+    "16,-3": 1.0,
+    "16,5": 0.0,
+    "16,13": -0.0,
+    "16,21": 0.0,
+    "20,-23": 0.0,
+    "20,-15": -0.0,
+    "20,-7": -0.0,
+    "20,1": -1.0,
+    "20,9": -1.0,
+    "20,17": -1.0
+   },
+   "V4": {
+    "0,-19": -1.0,
+    "0,-11": 0.0,
+    "0,-3": 0.0,
+    "0,5": 0.0,
+    "0,13": 1.0,
+    "0,21": 1.0,
+    "4,-23": -2.0,
+    "4,-15": -1.0,
+    "4,-7": -1.0,
+    "4,1": -1.0,
+    "4,9": 0.0,
+    "4,17": -0.0,
+    "8,-19": -0.0,
+    "8,-11": -0.0,
+    "8,-3": 0.0,
+    "8,5": 1.0,
+    "8,13": 1.0,
+    "8,21": 1.0,
+    "12,-23": -1.0,
+    "12,-15": -1.0,
+    "12,-7": -1.0,
+    "12,1": 0.0,
+    "12,9": 0.0,
+    "12,17": -0.0,
+    "16,-19": -1.0,
+    "16,-11": -1.0,
+    "16,-3": 0.0,
+    "16,5": 0.0,
+    "16,13": -0.0,
+    "16,21": 1.0,
+    "20,-23": -1.0,
+    "20,-15": -1.0,
+    "20,-7": -0.0,
+    "20,1": 0.0,
+    "20,9": 0.0,
+    "20,17": 1.0
+   },
+   "L6": {
+    "0,-19": -2.0,
+    "0,-11": -1.0,
+    "0,-3": 0.0,
+    "0,5": 1.0,
+    "0,13": 2.0,
+    "0,21": 3.0,
+    "4,-23": -3.0,
+    "4,-15": -2.0,
+    "4,-7": -1.0,
+    "4,1": 0.0,
+    "4,9": 1.0,
+    "4,17": 2.0,
+    "8,-19": -2.0,
+    "8,-11": -1.0,
+    "8,-3": 0.0,
+    "8,5": 1.0,
+    "8,13": 2.0,
+    "8,21": 3.0,
+    "12,-23": -3.0,
+    "12,-15": -2.0,
+    "12,-7": -1.0,
+    "12,1": 0.0,
+    "12,9": 1.0,
+    "12,17": 2.0,
+    "16,-19": -2.0,
+    "16,-11": -1.0,
+    "16,-3": 0.0,
+    "16,5": 1.0,
+    "16,13": 2.0,
+    "16,21": 3.0,
+    "20,-23": -3.0,
+    "20,-15": -2.0,
+    "20,-7": -1.0,
+    "20,1": -0.0,
+    "20,9": 1.0,
+    "20,17": 2.0
+   }
+  }
+ },
+ "R5": {
+  "checks": {
+   "the unit's multiplier chi_eta^24 is trivial on S and T": true,
+   "W134's m = 24n is C8's O(n delta): I(r, 0, 24n) = -(chi_{3/2}(rho_r) + 3n), every allowed r": true,
+   "at whole units the det exponent is 9 + 3r, never 0": true,
+   "the dressing moves chi by the floors alone (W134's closed form), every r and |m| <= 24": true,
+   "C8's three is W134's |I(0, 0, 24)|, the same count": true
+  },
+  "det exponent at whole units": {
+   "r=0": [
+    9
+   ],
+   "r=4": [
+    21
+   ],
+   "r=8": [
+    9
+   ],
+   "r=12": [
+    21
+   ],
+   "r=16": [
+    9
+   ],
+   "r=20": [
+    21
+   ]
+  }
+ },
+ "R6": {
+  "checks": {
+   "every three-generation datum has k = r + m in {5, 13, 21} (B1736's rho')": true,
+   "the 17/24 data have k = 21 (r = 4) and k = 5 (r = 12)": true
+  },
+  "k by datum": {
+   "0,21,0": 21,
+   "0,21,L6": 21,
+   "4,-23,L6": 5,
+   "4,17,0": 21,
+   "8,-19,0": 13,
+   "8,21,0": 5,
+   "8,21,L6": 5,
+   "12,-23,0": 13,
+   "12,-23,L6": 13,
+   "12,17,0": 5,
+   "16,21,L6": 13,
+   "20,-23,L6": 21
+  }
+ },
+ "R7": {
+  "checks": {
+   "240 roots of norm 2": true,
+   "E6: 72 roots orthogonal to A2; the class (1, 0) has 27": true,
+   "the 27's Dynkin index is 6 against every E6 root": true,
+   "D5 = 40 roots orthogonal to a 27-weight; the 27 splits 1 + 10 + 16": true,
+   "the 16's index is 4 and the 10's is 2 against every D5 root": true,
+   "n_SU3 = n_SU2 = 18(3 + r + m), n_grav = 81(3 + r + m) mod 24 (W135's K2 formula)": true,
+   "the full 27 is anomaly-free iff its family part is det-1": true,
+   "... iff m = 5 - r mod 8 (W134's condition)": true,
+   "the 16 alone needs only m odd": true
+  },
+  "weights (index, dim)": {
+   "27": [
+    "6",
+    27
+   ],
+   "16": [
+    "4",
+    16
+   ]
+  }
+ },
+ "P1": {
+  "dims at the plant's n units": {
+   "0": 0,
+   "1": 1,
+   "2": 3,
+   "3": 4,
+   "4": 6
+  },
+  "the plant's unit admissible at": [],
+  "the least three in the plant's units": "17/12",
+  "reproduces C8 (3n)": false,
+  "reproduces W134 (17/24)": false,
+  "fails both": true
+ },
+ "P2": {
+  "reproduces C8 (3n at whole units)": true,
+  "admissible data": 0,
+  "reproduces W134 (17/24)": false
+ },
+ "CT": {
+  "the conjugate hand allows weight 3/2 at no allowed twist and no whole unit": true
+ },
+ "cells": {
+  "R0": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R5": true,
+  "R6": true,
+  "R7": true,
+  "P1 fails both": true,
+  "P2 reproduces C8 and fails W134": true,
+  "CT": true
+ }
+}

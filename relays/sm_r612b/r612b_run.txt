@@ -1,0 +1,77 @@
+C-ID (instrument identity): 0.0e+00
+PL4 mirror at Re tau = 0: 1.2e-11
+[   69 s] 0.21+2.97i plants done
+[   72 s] 0.21+2.97i c done
+[   75 s] 0.21+2.97i end done
+[   97 s] 0.21+2.97i higgs done
+[  167 s] 0.21+2.97i class done
+[  179 s] 0.21+2.97i tau done
+[  207 s] 0.21+2.97i joint done
+[  219 s] -0.33+3.08i plants done
+[  223 s] -0.33+3.08i c done
+[  227 s] -0.33+3.08i end done
+[  249 s] -0.33+3.08i higgs done
+[  320 s] -0.33+3.08i class done
+[  331 s] -0.33+3.08i tau done
+[  356 s] -0.33+3.08i joint done
+[  364 s] 0.44+3.02i plants done
+[  367 s] 0.44+3.02i c done
+[  371 s] 0.44+3.02i end done
+[  392 s] 0.44+3.02i higgs done
+[  459 s] 0.44+3.02i class done
+[  469 s] 0.44+3.02i tau done
+[  495 s] 0.44+3.02i joint done
+
+== plants and controls ==
+C-ID 0.0e+00 | PL4 mirror 1.2e-11
+0.21+2.97i PL5 undefined outputs (excluded): ['ln u12', 'ln d12', 'ln e12', 'ln D']
+-0.33+3.08i PL5 undefined outputs (excluded): ['ln u12', 'ln d12', 'ln e12', 'ln D']
+0.44+3.02i PL5 undefined outputs (excluded): ['ln u12', 'ln d12', 'ln e12', 'ln D']
+0.21+2.97i PL1 D~c^2 dev 4.4e-16 | PL2 channel plant 2.9e-03 (NON-CONSTANT) | PL3 Higgs scale/phase 1.2e-11 | PL5 T-law 1.8e-14 | PL6 c on quark four 0.0e+00
+-0.33+3.08i PL1 D~c^2 dev 4.4e-16 | PL2 channel plant 2.7e-03 (NON-CONSTANT) | PL3 Higgs scale/phase 1.5e-11 | PL5 T-law 2.8e-14 | PL6 c on quark four 0.0e+00
+0.44+3.02i PL1 D~c^2 dev 4.4e-16 | PL2 channel plant 3.1e-03 (NON-CONSTANT) | PL3 Higgs scale/phase 1.3e-11 | PL5 T-law 1.4e-14 | PL6 c on quark four 0.0e+00
+
+== discrete images (verdict, images) per block: six | quark four | lepton two | D ==
+0.21+2.97i c in {1..5}         six NON-CONSTANT 5 | quark four CONSTANT 1 | lepton two NON-CONSTANT 5 | D NON-CONSTANT 5
+0.21+2.97i 2/5 offsets (10)    six NON-CONSTANT 10 | quark four NON-CONSTANT 10 | lepton two NON-CONSTANT 10 | D NON-CONSTANT 6
+0.21+2.97i all 1/10 lines (99) six NON-CONSTANT 51 | quark four NON-CONSTANT 51 | lepton two NON-CONSTANT 51 | D NON-CONSTANT 37
+0.21+2.97i ends (7)            six NON-CONSTANT 7 | quark four NON-CONSTANT 7 | lepton two NON-CONSTANT 7 | D NON-CONSTANT 2
+0.21+2.97i Higgs R, DR, D2R    six NON-CONSTANT 3 | quark four NON-CONSTANT 3 | lepton two NON-CONSTANT 3 | D NON-CONSTANT 2
+0.21+2.97i sign pairs max dev 5.7e-11 | lines with D = c^2: 27 | D undefined (a zero mass): 0 | per-slope six images {'0/10': 5, '1/10': 10, '2/10': 10, '3/10': 10, '4/10': 10, '5/10': 6, '6/10': 10, '7/10': 10, '8/10': 10, '9/10': 10}
+-0.33+3.08i c in {1..5}         six NON-CONSTANT 5 | quark four CONSTANT 1 | lepton two NON-CONSTANT 5 | D NON-CONSTANT 5
+-0.33+3.08i 2/5 offsets (10)    six NON-CONSTANT 10 | quark four NON-CONSTANT 10 | lepton two NON-CONSTANT 10 | D NON-CONSTANT 6
+-0.33+3.08i all 1/10 lines (99) six NON-CONSTANT 51 | quark four NON-CONSTANT 51 | lepton two NON-CONSTANT 51 | D NON-CONSTANT 37
+-0.33+3.08i ends (7)            six NON-CONSTANT 7 | quark four NON-CONSTANT 7 | lepton two NON-CONSTANT 7 | D NON-CONSTANT 2
+-0.33+3.08i Higgs R, DR, D2R    six NON-CONSTANT 3 | quark four NON-CONSTANT 3 | lepton two NON-CONSTANT 3 | D NON-CONSTANT 2
+-0.33+3.08i sign pairs max dev 4.5e-11 | lines with D = c^2: 27 | D undefined (a zero mass): 0 | per-slope six images {'0/10': 5, '1/10': 10, '2/10': 10, '3/10': 10, '4/10': 10, '5/10': 6, '6/10': 10, '7/10': 10, '8/10': 10, '9/10': 10}
+0.44+3.02i c in {1..5}         six NON-CONSTANT 5 | quark four CONSTANT 1 | lepton two NON-CONSTANT 5 | D NON-CONSTANT 5
+0.44+3.02i 2/5 offsets (10)    six NON-CONSTANT 10 | quark four NON-CONSTANT 10 | lepton two NON-CONSTANT 10 | D NON-CONSTANT 6
+0.44+3.02i all 1/10 lines (99) six NON-CONSTANT 51 | quark four NON-CONSTANT 51 | lepton two NON-CONSTANT 51 | D NON-CONSTANT 37
+0.44+3.02i ends (7)            six NON-CONSTANT 7 | quark four NON-CONSTANT 7 | lepton two NON-CONSTANT 7 | D NON-CONSTANT 2
+0.44+3.02i Higgs R, DR, D2R    six NON-CONSTANT 3 | quark four NON-CONSTANT 3 | lepton two NON-CONSTANT 3 | D NON-CONSTANT 2
+0.44+3.02i sign pairs max dev 2.7e-11 | lines with D = c^2: 27 | D undefined (a zero mass): 0 | per-slope six images {'0/10': 5, '1/10': 10, '2/10': 10, '3/10': 10, '4/10': 10, '5/10': 6, '6/10': 10, '7/10': 10, '8/10': 10, '9/10': 10}
+
+== continuous images: Jacobian rank (h, h/2), max |d ln D| ==
+0.21+2.97i tau at E4            rank 2 (2, 2); max|dlnD| 4.7e-11; sv 6.3e+00 3.0e+00
+0.21+2.97i tau at inf           rank 2 (2, 2); max|dlnD| nan; sv 5.4e+00 6.9e-03
+0.21+2.97i tau at inf           undefined rows, dropped: ln u12, ln d12, ln e12, ln D
+0.21+2.97i Higgs CP2 (6 real)   rank 4 (4, 4); max|dlnD| 9.5e-11; sv 5.9e+02 2.3e+02 1.1e+01 3.6e-02 3.3e-11 1.1e-12
+0.21+2.97i joint (10)           rank 5 (5, 5); max|dlnD| 2.0e+00; sv 5.9e+02 2.3e+02 1.1e+01 2.8e+00 1.9e+00 2.4e-11 2.1e-12
+-0.33+3.08i tau at E4            rank 2 (2, 2); max|dlnD| 1.3e-10; sv 5.6e+00 2.5e+00
+-0.33+3.08i tau at inf           rank 2 (2, 2); max|dlnD| nan; sv 5.5e+00 2.8e-03
+-0.33+3.08i tau at inf           undefined rows, dropped: ln u12, ln d12, ln e12, ln D
+-0.33+3.08i Higgs CP2 (6 real)   rank 4 (4, 4); max|dlnD| 7.5e-11; sv 7.9e+02 4.1e+02 1.0e+01 5.8e-03 3.6e-11 8.3e-13
+-0.33+3.08i joint (10)           rank 5 (5, 5); max|dlnD| 2.0e+00; sv 7.9e+02 4.1e+02 1.1e+01 2.7e+00 1.6e+00 5.5e-11 1.5e-12
+0.44+3.02i tau at E4            rank 2 (2, 2); max|dlnD| 2.2e-10; sv 5.4e+00 1.2e+00
+0.44+3.02i tau at inf           rank 2 (2, 2); max|dlnD| nan; sv 5.4e+00 1.4e-03
+0.44+3.02i tau at inf           undefined rows, dropped: ln u12, ln d12, ln e12, ln D
+0.44+3.02i Higgs CP2 (6 real)   rank 4 (4, 4); max|dlnD| 1.5e-10; sv 5.9e+02 6.5e+01 1.1e+01 7.2e-03 2.6e-10 1.4e-12
+0.44+3.02i joint (10)           rank 5 (5, 5); max|dlnD| 2.0e+00; sv 5.9e+02 6.5e+01 1.1e+01 2.8e+00 2.0e+00 1.1e-10 4.4e-13
+
+== beside P-418: rows counted against the image ==
+tau                    A01       P-418 rows 1 | image in (six, D) at 0.21+2.97i: dim 2
+the 2/5 class          A02, A03  P-418 rows 2 | image in (six, D) at 0.21+2.97i: 10 offsets -> 10; 99 lines -> 51
+the Higgs direction    A04       P-418 rows 1 | image in (six, D) at 0.21+2.97i: menu 3 -> 3; CP2 dim 4
+the end norm           A07, A09  P-418 rows 2 | image in (six, D) at 0.21+2.97i: menu 7 -> 7
+the lepton factor c    A10       P-418 rows 1 | image in (six, D) at 0.21+2.97i: menu 5 -> 5
+joint continuous image dim (all keys): [5, 5, 5]

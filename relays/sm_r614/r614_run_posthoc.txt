@@ -1,0 +1,35 @@
+[A0] main's 27: 27 weights; Lie algebra on it: 78 matrices, rank 78, positive roots 36
+[A1] SM embeddings tried: 4; matching B1303's table on all 27 weights: 4
+[B] eta (U1-eta, integer form) on the 11 multiplets: {'Q': '-2', 'u^c': '-2', 'e^c': '-2', 'd^c': '1', 'L': '1', 'nu^c': '-5', 'H_u': '4', 'D': '4', 'H_d': '1', 'Dbar': '1', 'N': '-5'}
+    gamma_matches_B1303: True
+    constant_on_multiplets: True
+    equal_on_the_two_singlets: True
+    orthogonal_to_SM_roots: True
+    killing_orthogonal_to_Y: True
+    beta_is_root: True
+    beta_dot_eta: 0
+    trace: 0
+    cubic_trace: 0
+    eta_in_coroot_lattice: True
+    eta_coords: ['-5', '-10', '-12', '-8', '-4', '-6']
+    V_SM + R eta = ker(beta)?  dim 5, all annihilated by beta: True
+[E1 N only] stabiliser dim 45, rank 5, SM inside True; torus: identity dim 5, components trivial; matter parity True (nu^c odd too: True)
+[E2 nu^c only] stabiliser dim 45, rank 5, SM inside True; torus: identity dim 5, components trivial; matter parity False
+[E3 nu^c + N in one 27] stabiliser dim 45, rank 5, SM inside True; torus: identity dim 4, components trivial; matter parity False
+[E3b nu^c + 2N in one 27] stabiliser dim 45, rank 5, SM inside True; torus: identity dim 4, components trivial; matter parity False
+[E4 nu^c, N in two 27s] stabiliser dim 24, rank 4, SM inside True; torus: identity dim 4, components trivial; matter parity False
+[E5] memo-72 census redone: 15 nontrivial gradings even on both doors; odd on all 15: 0; odd-on-15 counts [8]; SM-central: 1; in the SM torus: 15; kernel of the doors = V_SM: True
+[G1 nu^c] identity dim 4; residual mod SM trivial; matter parity False; nu^c nu^c allowed by the residual: True
+[G2 N] identity dim 4; residual mod SM trivial; matter parity False; nu^c nu^c allowed by the residual: True
+[G3 nu^c and N] identity dim 4; residual mod SM trivial; matter parity False; nu^c nu^c allowed by the residual: True
+[G4] exp(2 pi i eta/5) (the naive Z/5) lies in the SM group: True
+[M] zero-sum triples in 27^3: 45; with two SM singlets: 0; -2 x singlet a weight: False; all eta-neutral: True
+[P] P1_wrong_vev_Hu_SM_inside: False
+[P] P1_wrong_vev_Hu_torus_contains_V_SM: False
+[P] P2_psi_equal_on_singlets: False
+[P] P2_chi_equal_on_singlets: False
+[P] P3_naive_Zq: {'eta': '5', '2eta': '10', 'gamma': '5/3'}
+[P] P3_lattice: {'eta': [], '2eta': [], 'gamma': []}
+[P] P4_impossible_parity_found: False
+[P] C1_positive_E1_parity_found: True
+[P] C2_positive_twice_nu_vev: {'component_group': [2], 'matter_parity': False, 'phases': [{'Q': '1/5', 'u^c': '1/5', 'e^c': '1/5', 'd^c': '9/10', 'L': '9/10', 'nu^c': '1/2', 'H_u': '3/5', 'D': '3/5', 'H_d': '9/10', 'Dbar': '9/10', 'N': '1/2'}]}

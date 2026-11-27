@@ -1,0 +1,2 @@
+post hoc, L in mpmath: S   C1 worst |ln ratio| 3.88e-29  worst |dV| 4.74e-31
+post hoc, L in mpmath: ACT C1 worst |ln ratio| 7.10e-27  worst |dV| 2.46e-27

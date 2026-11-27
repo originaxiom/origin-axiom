@@ -1,0 +1,14714 @@
+{
+"meta": {
+"census_package_version": "3.3.2",
+"mode": "population",
+"n": 1199,
+"rule": "orientable, one cusp, ideal tetrahedra <= 6, census order"
+},
+"rows": [
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m003",
+"rels": [
+"abAAbabbb"
+],
+"tets": 2
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m004",
+"rels": [
+"aaabABBAb"
+],
+"tets": 2
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m006",
+"rels": [
+"ababbAAbb"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m007",
+"rels": [
+"aBabbAAbb"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m009",
+"rels": [
+"aabABaaBAb"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m010",
+"rels": [
+"aabaBaaBab"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m011",
+"rels": [
+"aaabAbbbAb"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m015",
+"rels": [
+"abbAAbbaBBB"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m016",
+"rels": [
+"aabaabbAbb"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m017",
+"rels": [
+"aabbbaabbaaabb"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m019",
+"rels": [
+"aabaabAbbAb"
+],
+"tets": 3
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m022",
+"rels": [
+"abbbbbabAAb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m023",
+"rels": [
+"aBAbbABabbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m026",
+"rels": [
+"aaabbAbAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m027",
+"rels": [
+"abbbbaBaaaB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m029",
+"rels": [
+"aBabbbAAbbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m030",
+"rels": [
+"ababbbAAbbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m032",
+"rels": [
+"aaBBAbbbbbABB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m033",
+"rels": [
+"aabbAbbbbbAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m034",
+"rels": [
+"aaabbABAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m035",
+"rels": [
+"aBBabbbAAbbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m036",
+"rels": [
+"aabbAbbaaB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m037",
+"rels": [
+"aabaaaBBaaab"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m038",
+"rels": [
+"aaaBAbbbAB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m043",
+"rels": [
+"aaabaaabbAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m044",
+"rels": [
+"aaabaaabAbbAb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m045",
+"rels": [
+"aaabbaaaBAAAAB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m046",
+"rels": [
+"aabbbAbbbbAbbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m052",
+"rels": [
+"aaBBBaabbabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m053",
+"rels": [
+"abABabbbaBAbaBAbaabAB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m054",
+"rels": [
+"abbbbbabbbAAbbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m055",
+"rels": [
+"aBBaBBabbbaabbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m060",
+"rels": [
+"aabbbabbbaaBB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m064",
+"rels": [
+"abbbaBBaaBBabbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m069",
+"rels": [
+"aaabbAbbbAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m070",
+"rels": [
+"abbaaaabbabbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m081",
+"rels": [
+"abbbaBaaaaB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m082",
+"rels": [
+"aabbaabbbAbbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m100",
+"rels": [
+"aabbbAbbbaab"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m116",
+"rels": [
+"aabbaabAbAbaabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m117",
+"rels": [
+"aabbaabbABAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m118",
+"rels": [
+"aaaaabbaabbbaabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m119",
+"rels": [
+"aaBBBaabbaaabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m130",
+"rels": [
+"aabbbaaabbaaabbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m135",
+"rels": [
+"bccABA",
+"aacbcB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m136",
+"rels": [
+"aBAbcc",
+"aaCbcB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m137",
+"rels": [
+"aaabbABBBAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m141",
+"rels": [
+"abbabbbaaaabbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m142",
+"rels": [
+"abbaBabbaBaaaaB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m145",
+"rels": [
+"aaabbbabbbaaabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m146",
+"rels": [
+"aabbaaabbaaBAB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m147",
+"rels": [
+"abbaaBaBaabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m148",
+"rels": [
+"abbaBAbaaaabAB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m149",
+"rels": [
+"aabbbaabbaBabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m154",
+"rels": [
+"aabbaabbAbAbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m159",
+"rels": [
+"aaabbbabbbaaab"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m160",
+"rels": [
+"abAbaabbaabAb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m170",
+"rels": [
+"aabAbbAbbAbaab"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m178",
+"rels": [
+"aaabbaabbbaabbaaabbaabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m180",
+"rels": [
+"aaabbaabbaaabbbbb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m185",
+"rels": [
+"abbbabbaaabbaaabb"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m206",
+"rels": [
+"aaCbAcb",
+"aBBcbaC"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m207",
+"rels": [
+"aBaacbC",
+"acbAccB"
+],
+"tets": 4
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m039",
+"rels": [
+"aabABaaaaBAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m040",
+"rels": [
+"abbbbbbabAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m047",
+"rels": [
+"aaaabbAbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m049",
+"rels": [
+"aaaaabAbbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m058",
+"rels": [
+"aabaabaaBaaaaaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m059",
+"rels": [
+"aBBAbbbbbABBabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m061",
+"rels": [
+"aabbbbAbAbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m062",
+"rels": [
+"aabbbbABAbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m066",
+"rels": [
+"abbbbAAbbbbabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m067",
+"rels": [
+"aaaaBBaaaabAAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m071",
+"rels": [
+"aaaabaaaabbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m072",
+"rels": [
+"aaaabaaaabAbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m073",
+"rels": [
+"aaabaaaaaaabaaaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m074",
+"rels": [
+"abbbbaBBBAbbbABBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m076",
+"rels": [
+"aabbbbAbbbbbAbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m077",
+"rels": [
+"aabbbaabABBAbaabbbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m078",
+"rels": [
+"aaBABaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m079",
+"rels": [
+"aaaBaaaaaaBaaabaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m080",
+"rels": [
+"aaBBBAbbbbbbbbABBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m083",
+"rels": [
+"aaaaabbAAbAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m084",
+"rels": [
+"aaaaaBaaBaaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m085",
+"rels": [
+"aaaaabbaaaaaBAAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m087",
+"rels": [
+"aaaaaaabAAbbbAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m089",
+"rels": [
+"aaaaabaaabaaaaaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m090",
+"rels": [
+"aabbbbbABBBAbbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m093",
+"rels": [
+"aabbbbAbbbbbbbAbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m094",
+"rels": [
+"aBBBBabbbbABBBAbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m095",
+"rels": [
+"aabbbabbbaaBBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m096",
+"rels": [
+"aBBBaBBBabbbbaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m098",
+"rels": [
+"aabbbbabbbbaaBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m099",
+"rels": [
+"aBBBBBBBabbbbaaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m102",
+"rels": [
+"aaabaaabbAAAAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m103",
+"rels": [
+"aabbbbbabbbbbaaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m104",
+"rels": [
+"aabbbbbAbbbbbbbAbbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m105",
+"rels": [
+"aaaaaBBaaaaabAAAAAAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m106",
+"rels": [
+"aaaaabbaaaaabAAAbAAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m108",
+"rels": [
+"aaaaabaaaaabAAbbAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m110",
+"rels": [
+"aaaaabbaaaaaBaaaaaaaaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m111",
+"rels": [
+"abbbbbABBBAbbbbbaBBBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m112",
+"rels": [
+"aaaaabaaaaabbAAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m113",
+"rels": [
+"aaaaabaaaaabAAAbbAAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m115",
+"rels": [
+"aabbAbbaaBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m120",
+"rels": [
+"aaaBAbbbbAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m121",
+"rels": [
+"aaBaabbbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m122",
+"rels": [
+"aabbbbbaabaaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m123",
+"rels": [
+"aaaabbAbbbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m139",
+"rels": [
+"abbbbabaaaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m140",
+"rels": [
+"abbabbaBAAAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m143",
+"rels": [
+"aabbbAbbbaaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m144",
+"rels": [
+"aaaaBaaaabbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m150",
+"rels": [
+"abbaaaaBaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m151",
+"rels": [
+"aaabbbAbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m155",
+"rels": [
+"abbbaBaaaaaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m157",
+"rels": [
+"aaaBaaBaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m161",
+"rels": [
+"aaaabAbbbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m162",
+"rels": [
+"aaaBABaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m163",
+"rels": [
+"aabbbaaabbbaabbbbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m164",
+"rels": [
+"aabbbbbbbaabbbbaaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m165",
+"rels": [
+"aaaaaaabbaabbbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m166",
+"rels": [
+"aaaaabbAAbbbAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m167",
+"rels": [
+"aabbbaabbbbbAbbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m168",
+"rels": [
+"aabbbaabAbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m169",
+"rels": [
+"aabbbbbAbbbbbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m171",
+"rels": [
+"aaabbAbbbbbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m172",
+"rels": [
+"aabbbbbbbbaabbbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m173",
+"rels": [
+"aabbbaaabbbaaBBBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m175",
+"rels": [
+"aaaBAABaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m179",
+"rels": [
+"abbbaaaabbbabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m181",
+"rels": [
+"aabbaabbaabbaabAbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m182",
+"rels": [
+"aaaBaaaaBaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m183",
+"rels": [
+"aabbaabbaabbABAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m184",
+"rels": [
+"ababbbaaaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m186",
+"rels": [
+"aabaaaaabaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m188",
+"rels": [
+"aabaabAbbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m189",
+"rels": [
+"aaBaabbAbbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m190",
+"rels": [
+"aaabaabaaabbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m191",
+"rels": [
+"aaaabaaabaaaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m192",
+"rels": [
+"aaaaaBAAbbbAAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m193",
+"rels": [
+"aaabbaaaabbaaabbaaabbbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m194",
+"rels": [
+"aaabbaaabbbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m195",
+"rels": [
+"aabbbaaBABaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m196",
+"rels": [
+"aaaabAbbbAbbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m197",
+"rels": [
+"aaabaaabaaabbAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m198",
+"rels": [
+"aaabaaabbbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m199",
+"rels": [
+"aaBAAABaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m200",
+"rels": [
+"aabAbaabAbaabAbbbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m201",
+"rels": [
+"aacBCbAb",
+"aacAcBCb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m208",
+"rels": [
+"abbbabbbabbAAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m209",
+"rels": [
+"aaaaabAAbbbbAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m210",
+"rels": [
+"aabAAAbaabbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m211",
+"rels": [
+"aabbbaabbABAbbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m212",
+"rels": [
+"aaabbbbabbbbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m213",
+"rels": [
+"aabaabbbAAAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m214",
+"rels": [
+"aabbaabbbAAAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m215",
+"rels": [
+"abbaaBaBaBaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m216",
+"rels": [
+"aaaBaaabbaabbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m217",
+"rels": [
+"aaaaabaabaaaaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m218",
+"rels": [
+"aaaabbbabbbaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m219",
+"rels": [
+"aaabbAbAbbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m220",
+"rels": [
+"aabbAAAbbaaBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m221",
+"rels": [
+"aaBAbabbbabAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m222",
+"rels": [
+"aBBAbABBabbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m223",
+"rels": [
+"aaabbbaaabbaabbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m224",
+"rels": [
+"aaaBAbbABaaaBAbbABAbbAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m225",
+"rels": [
+"aaaaabaaabaaaaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m227",
+"rels": [
+"aaaaabbbbaaaaabAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m228",
+"rels": [
+"aaabbbbaaabAAAAAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m229",
+"rels": [
+"aabAbaabAbbAbaabAbaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m230",
+"rels": [
+"aaaabaaaabbbabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m231",
+"rels": [
+"aabbbaaaBBaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m232",
+"rels": [
+"aBBabbbaaaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m233",
+"rels": [
+"aaabbbabbbaaaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m234",
+"rels": [
+"aaaCBcB",
+"aCabbc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m235",
+"rels": [
+"abbbCAc",
+"aBAbcc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m236",
+"rels": [
+"aaabbcc",
+"aacbcBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m238",
+"rels": [
+"aabaabaabbbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m239",
+"rels": [
+"aabbaabbabbaabbaaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m240",
+"rels": [
+"abbaaBaBaabbabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m241",
+"rels": [
+"aaabbaaaabbaaabbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m242",
+"rels": [
+"aabbaabAbaabbaabAbaabbaabAbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m243",
+"rels": [
+"aabbaabbAbAbbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m244",
+"rels": [
+"aabbbAAAbbbaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m246",
+"rels": [
+"aaabbaaabAAbAAbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m247",
+"rels": [
+"ababbaBaaBabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m248",
+"rels": [
+"aaaaabbbaaabbbaaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m249",
+"rels": [
+"abaacBC",
+"aabcbCbc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m250",
+"rels": [
+"aaabbaaabbbaaaaaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m251",
+"rels": [
+"aabbbaabbbaabbAAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m252",
+"rels": [
+"aaabbaabbbaabbaaabbaabbaaabbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m253",
+"rels": [
+"aaaabAbbAbbbAbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m255",
+"rels": [
+"aaaaabbbaabbbaaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m256",
+"rels": [
+"aabbaabbbaaaaaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m257",
+"rels": [
+"aabbaabbaabbbaabbaabbaabbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m258",
+"rels": [
+"aaaaabaaaaabbbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m259",
+"rels": [
+"aabbaaaaabbaabbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m260",
+"rels": [
+"aaabABabAAbaBAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m261",
+"rels": [
+"acbbbaCBB",
+"aacbbCBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m262",
+"rels": [
+"abAbabbabAbabAbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m263",
+"rels": [
+"aaabbbbaaabbbAAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m266",
+"rels": [
+"aaaaabbbaabbbaaaaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m267",
+"rels": [
+"aBBBabbaabbaabbaBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m269",
+"rels": [
+"abbabbbaaabbbaaabbbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m270",
+"rels": [
+"aabbaabaabbAAAbbaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m271",
+"rels": [
+"aaabbAAbAAbbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m272",
+"rels": [
+"aaabbaaabbaaaaabbaaabbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m273",
+"rels": [
+"aaabbaaabbbaaaaaaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m275",
+"rels": [
+"aabaabbbaabAbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m276",
+"rels": [
+"aaaaabbbaabbbbbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m277",
+"rels": [
+"aaabaaabbAAbbAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m278",
+"rels": [
+"aaabbbabbbbbabbbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m279",
+"rels": [
+"aaaabbaaabbbaaabbaaaabbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m280",
+"rels": [
+"aabbbaabbbaabaaabaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m281",
+"rels": [
+"aabbaabbaaaaabbaabbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m282",
+"rels": [
+"aabbbaabbbaabbaaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m284",
+"rels": [
+"aabbCC",
+"aaaccbcb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m285",
+"rels": [
+"aabbaBabbaabAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m286",
+"rels": [
+"abbbaBAbaaabAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m287",
+"rels": [
+"aaabbbaaaaabbbaaabbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m288",
+"rels": [
+"aabbbbaabbbaBabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m289",
+"rels": [
+"abbaabbbaabbaBAABBAAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m290",
+"rels": [
+"abbbaaBaBaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m291",
+"rels": [
+"aabbaabbAbbbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m293",
+"rels": [
+"aBBBabaaaabaaaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m294",
+"rels": [
+"abbbaabbbaBabbaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m296",
+"rels": [
+"aabbaabAAAAAbaabbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m297",
+"rels": [
+"abbbaaaabbbaaaabbbaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m299",
+"rels": [
+"aaaaabbaaabbaaaaabbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m300",
+"rels": [
+"aaBaaBaabbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m302",
+"rels": [
+"abbbAAbbbaBBabaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m303",
+"rels": [
+"aaBaabbAbbbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m304",
+"rels": [
+"abbbaBBAABBabbbaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m305",
+"rels": [
+"aacbCB",
+"abAcbcc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m306",
+"rels": [
+"aBAccb",
+"aaacabCb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m307",
+"rels": [
+"bccbAA",
+"aaaCabcB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m310",
+"rels": [
+"aaBAbabABaaBAbbbbAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m312",
+"rels": [
+"aabbbaabbbAbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m316",
+"rels": [
+"aaabbbaaabbaaaaabbaaabbaaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m318",
+"rels": [
+"aaabbaaabbbaaabbaaabbAAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m319",
+"rels": [
+"aabABabABabbbbaBAbaBAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m320",
+"rels": [
+"aabbaabbaBabbaabbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m322",
+"rels": [
+"aBabbaaabbaBab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m326",
+"rels": [
+"aaabbbaaabbaaaabbaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m335",
+"rels": [
+"aaabbbaabbbaabbbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m336",
+"rels": [
+"aaabbbaabbbaabbbaaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m337",
+"rels": [
+"aabbbABAbbbaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m338",
+"rels": [
+"aabbaabbbAbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m339",
+"rels": [
+"aabbbAbbAbbbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m340",
+"rels": [
+"aabbaaabbaaBAAABBAAAB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m342",
+"rels": [
+"aaaabbaaaabbaBBBabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m343",
+"rels": [
+"aabbbabbbaaBBaBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m345",
+"rels": [
+"aaabbbaaabABBAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m346",
+"rels": [
+"aabbbaabbaabbbaabbAbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m349",
+"rels": [
+"aBBabbbaBBabbbaaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m350",
+"rels": [
+"aabaabbbAbbAbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m351",
+"rels": [
+"abbbabbaaaabbaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m352",
+"rels": [
+"aaabbbabbbaaabbbbbaaabbbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m356",
+"rels": [
+"abaBabbaabbaabbaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m358",
+"rels": [
+"aabbbaaabbbaabbbaaabbbaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m360",
+"rels": [
+"aaabbbabbbabbbaaab"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m361",
+"rels": [
+"aaabbaabbaabbbaabbaabbaaabbaabbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m363",
+"rels": [
+"aaaabbbabbabbbaaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m364",
+"rels": [
+"aaBaaBabbabbabbaB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m368",
+"rels": [
+"aBBBabbaBBBabbaaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m369",
+"rels": [
+"aaaCbcB",
+"aCAbbbbc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m370",
+"rels": [
+"aaaabcbC",
+"aCacbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m371",
+"rels": [
+"bbABAcc",
+"aacBcbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m372",
+"rels": [
+"acAcabb",
+"acabcbcb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m373",
+"rels": [
+"abbCbAc",
+"aCaBabc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m374",
+"rels": [
+"aaabbbabbbabbbaaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m376",
+"rels": [
+"aabbbaaabbbaabAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m378",
+"rels": [
+"aabbbaabbaBabbaBabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m385",
+"rels": [
+"aaabbbabbbaaabbbaaabbbbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m389",
+"rels": [
+"aaabbbaBBAABBabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m390",
+"rels": [
+"aBacBcb",
+"abaCAbc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m392",
+"rels": [
+"aabbbaabbbAbbbaabbbaabbbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m393",
+"rels": [
+"aaabbaabbbbbaabbbbbaabb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m395",
+"rels": [
+"aaabbbbbaaabbbaabbbaaabbbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m397",
+"rels": [
+"abbbaaabaaabbbabbbaaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m400",
+"rels": [
+"aabCbbCbcc",
+"abCbAbcc"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m401",
+"rels": [
+"aaabAbbAbaaabAbbAbbbAbbAb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "m402",
+"rels": [
+"aaabbbaabbbbbaabbbaaabbbaabbb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m403",
+"rels": [
+"accbcccbAb",
+"accaBBB"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "m410",
+"rels": [
+"aBCbcAbc",
+"aBcAcb"
+],
+"tets": 5
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s000",
+"rels": [
+"aaaaaaaBAbbAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s001",
+"rels": [
+"abbaBaaaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s002",
+"rels": [
+"aaBaBaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s003",
+"rels": [
+"abbbbbbaBaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s004",
+"rels": [
+"aaBaaaaBaabaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s005",
+"rels": [
+"abbbbaBBAbbbbbABB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s006",
+"rels": [
+"ababbbbbAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s007",
+"rels": [
+"aaaaabbaaaaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s008",
+"rels": [
+"aaaaabaaaabaaaaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s009",
+"rels": [
+"aaaaabbaaaaaBAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s010",
+"rels": [
+"aabbAbbaabbbaabbbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s011",
+"rels": [
+"abbaBaaaBabbaBabbaBabbaBabbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s012",
+"rels": [
+"abbbbbbbaBBBAbbbABBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s013",
+"rels": [
+"abbbbbbabbbbbAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s014",
+"rels": [
+"aaaaaBAAAAAABaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s015",
+"rels": [
+"aaaabaaaBaaaaaaBaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s016",
+"rels": [
+"abbbbaBBBBAbbbbbABBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s017",
+"rels": [
+"aabbbbAbbbbbbbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s018",
+"rels": [
+"aaaaaBAAAbaaaaaabAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s019",
+"rels": [
+"abbbbbabbbAbbbbbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s020",
+"rels": [
+"aaaaaaabbAAbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s021",
+"rels": [
+"aaaBBabbbbbbbbbaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s022",
+"rels": [
+"aabbaabbaabbaabbbaabbaabbaabbaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s023",
+"rels": [
+"abbaBabbaBAABabbaBAABabbaBAABabbaBAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s024",
+"rels": [
+"aaaaBaaaaaaaaaaaBaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s025",
+"rels": [
+"aaaaBAAAAbaaaaaaabAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s026",
+"rels": [
+"aaBBBBBaabbbbabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s027",
+"rels": [
+"abbbbbbbbbaBBBBaaaBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s028",
+"rels": [
+"aaaaaaaBaaBaaaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s029",
+"rels": [
+"aaaaaaabbaaaaaaaBAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s030",
+"rels": [
+"aaaaaaaBaaaBaaaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s031",
+"rels": [
+"aaaaaaabbaaaaaaaBAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s032",
+"rels": [
+"aabbbbbabbbbbaaBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s033",
+"rels": [
+"abbbbbbbAAbbbbbbbabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s034",
+"rels": [
+"aabbbbbbbABBBBAbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s035",
+"rels": [
+"aaaaabAAAAAAAAAbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s036",
+"rels": [
+"aabbbbbbbaaBBBaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s037",
+"rels": [
+"aaaBBBabbbbbbbbbbaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s038",
+"rels": [
+"aaaaabaaaaaaaBBaaaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s039",
+"rels": [
+"aaaaaaabbaaaaaaaBAAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s040",
+"rels": [
+"abbbbbbbbbbbbabbbbbAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s041",
+"rels": [
+"abbbbbaBBBBBAbbbbbbbABBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s042",
+"rels": [
+"aaaaaaabaaaaaaabbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s043",
+"rels": [
+"aaBBBaBBBaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s044",
+"rels": [
+"aaaaaaabbbaaaaaaabAAAAAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s045",
+"rels": [
+"abbbbbbbbbbbaBBBaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s046",
+"rels": [
+"aabbbbbbbbAbbbAbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s047",
+"rels": [
+"aaabbbccb",
+"aaaaaBCCBc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s048",
+"rels": [
+"aaaaaaaaBAAAAAbaaaaabAAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s049",
+"rels": [
+"aaaBaaaaabaaaaaaaaaabaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s050",
+"rels": [
+"aaaabaaaabbAAAAAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s051",
+"rels": [
+"aaaaaCCBB",
+"aacaabbbcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s052",
+"rels": [
+"aBBBBBBBBBabbbbbbbAAbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s053",
+"rels": [
+"aaaaaaaaaaabAAAAbbbAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s054",
+"rels": [
+"abbbbbabbbbbbbbAAbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s055",
+"rels": [
+"aaaaaaaabbaaaaaaaaBAAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s056",
+"rels": [
+"aaabbabbaaabbbaaabbabbaaabbbaaabbbaaabbabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s057",
+"rels": [
+"aaabAAACbcc",
+"aaaaCbcB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s058",
+"rels": [
+"aaaaaaabaaaaaaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s059",
+"rels": [
+"aabAbbbAbaabAbaabAbaabAbbbAbaabAbaabAbbbAbaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s060",
+"rels": [
+"aaaaaaaBaaaaaaaaaaaBaaaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s061",
+"rels": [
+"aaaaaaabAAAAAAAbaaaaaaaBAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s062",
+"rels": [
+"aabbbbbabbbbbaaBBBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s063",
+"rels": [
+"aaaaaaabaaaaaaabbAAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s064",
+"rels": [
+"aaaaaaaBaaaaaaaaaaaaBaaaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s065",
+"rels": [
+"aBBBBBabbbbbbbABBBBBBBAbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s066",
+"rels": [
+"abbbbbbbbbbbbaBBBBBaaaBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s067",
+"rels": [
+"aabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAbaabAbaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s068",
+"rels": [
+"abbbbbbbbaaBBBaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s069",
+"rels": [
+"aabAbaabAbbbAbaabAbaabAbaabAbbbAbaabAbaabAbaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s070",
+"rels": [
+"aabbbbbbbbAbbbbbbbbbbbAbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s071",
+"rels": [
+"aaacAAABcbb",
+"aaaaaBcbC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s072",
+"rels": [
+"aabbbbbbbabbbbbbbaaBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s073",
+"rels": [
+"abbbbbaaBBBBBBBBaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s074",
+"rels": [
+"abbbbbbbaaabbbbbbbaBBBBBBBBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s075",
+"rels": [
+"aaabAbbbAbaaabAbbbAbaabAbbbAbaaabAbbbAbaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s076",
+"rels": [
+"abbbbbbbbbbbbbabbbbbbbbAAbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s077",
+"rels": [
+"aBBBBBabbbbbbbbABBBBBBBBAbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s078",
+"rels": [
+"aabbbaabbAbbaabbAbbaabbbaabbAbbaabbAbbaabbbaabbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s079",
+"rels": [
+"aabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s080",
+"rels": [
+"aabbbbbaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s081",
+"rels": [
+"aaaaabbAABAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s082",
+"rels": [
+"aaBaaaBaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s083",
+"rels": [
+"aabbbbbbaabaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s084",
+"rels": [
+"aaaabbAbbaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s085",
+"rels": [
+"aaaBaaabbAAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s086",
+"rels": [
+"aaaabbaaaaaBaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s087",
+"rels": [
+"aabbbAbbbaaBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s088",
+"rels": [
+"abbaaaaaBaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s089",
+"rels": [
+"aaaabbAAAbbaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s090",
+"rels": [
+"aaaaaBAbbbAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s091",
+"rels": [
+"aabbbbbaaabbbbbaabbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s092",
+"rels": [
+"aabbbbaaabbbbaabbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s093",
+"rels": [
+"aaaaaBaaaaabbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s094",
+"rels": [
+"aaaaaaabbAAbbbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s095",
+"rels": [
+"aabbbaabbaaaaaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s096",
+"rels": [
+"abbbbbabaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s097",
+"rels": [
+"aabbbbbAbbbbbaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s098",
+"rels": [
+"aabbbbbaabbbbbbbAbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s099",
+"rels": [
+"aaaabbaaaaaaaBaaaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s100",
+"rels": [
+"aaabbaaaaaaaaaabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s101",
+"rels": [
+"aaaaaaabbAAAbbbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s102",
+"rels": [
+"aaaaaaabbaaabbaaaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s103",
+"rels": [
+"aaaaaaaBaaaaaaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s104",
+"rels": [
+"aaaabbaaaaaaaaaaabbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s105",
+"rels": [
+"aaaabbbaaaabbAAAAAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s106",
+"rels": [
+"aaabbbaabbbbbbbbbbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s107",
+"rels": [
+"aaBBBaaaBBBaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s108",
+"rels": [
+"aaabAbbbbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s109",
+"rels": [
+"aaaaaaaabbaaaaabbaaaaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s110",
+"rels": [
+"aaaaaaaabbaaabbaaaaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s111",
+"rels": [
+"aabbbbbbbaaabbbbbbbaabbbbbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s112",
+"rels": [
+"abbAAbbcc",
+"aabcccccBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s113",
+"rels": [
+"aabbAbbaabbAbbbAbbaabbAbbbAbbaabbAbbaabbAbbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s114",
+"rels": [
+"aabbbbbbbbbbbbbaabbbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s115",
+"rels": [
+"aaaaabAbbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s116",
+"rels": [
+"aaabbbbAbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s117",
+"rels": [
+"aaaabbbAbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s118",
+"rels": [
+"aaaaBAbbbbAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s119",
+"rels": [
+"aabbbaaBABAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s120",
+"rels": [
+"aaaabbbaaaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s121",
+"rels": [
+"aaaBaaaabbbaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s122",
+"rels": [
+"aaaabbbAbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s123",
+"rels": [
+"aBabbaabbaabbaabbaabbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s124",
+"rels": [
+"aaabbAbbbbbbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s125",
+"rels": [
+"aabbaabbaabbaabbABAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s126",
+"rels": [
+"abbbbaaaabbbbabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s127",
+"rels": [
+"aaabbbbABBBAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s128",
+"rels": [
+"aaabbbbAbbbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s129",
+"rels": [
+"aaaabbbABAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s130",
+"rels": [
+"ababbbaaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s131",
+"rels": [
+"aaaabAbbbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s132",
+"rels": [
+"aabAbaabAbaabbaabAbaabAbaabAbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s133",
+"rels": [
+"abbbbabbbbbaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s134",
+"rels": [
+"aaaBBAbbbbbbbABB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s135",
+"rels": [
+"aaaabbabbbbbbbabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s136",
+"rels": [
+"aaabbbbbAbbAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s137",
+"rels": [
+"aabaaabbbbbbaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s138",
+"rels": [
+"aaaBaaaaabbbaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s139",
+"rels": [
+"abbbbbbbabbbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s140",
+"rels": [
+"aaBaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s141",
+"rels": [
+"aaaabbbbaaaabAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s142",
+"rels": [
+"aaaabbAbbbbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s143",
+"rels": [
+"aaabbbaaaBaaaaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s144",
+"rels": [
+"aaabbbbbABBAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s145",
+"rels": [
+"aaaabbbaaaaBAAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s146",
+"rels": [
+"aaabbbbAbbbbbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s147",
+"rels": [
+"aabbABAbbaabbbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s148",
+"rels": [
+"aaaBaaabbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s149",
+"rels": [
+"abbbbbaBaaaBaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s150",
+"rels": [
+"aaaaaaabAAbbbbAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s151",
+"rels": [
+"aaaaaaaBAAAbbbAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s152",
+"rels": [
+"abbbbbbbabbbbaaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s153",
+"rels": [
+"aaaaabbbaaaaaBAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s154",
+"rels": [
+"aaabaaaabaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s155",
+"rels": [
+"aabAbaabAbaabbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s156",
+"rels": [
+"aaaBaaaaBaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s157",
+"rels": [
+"aaaabbaaaabbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s158",
+"rels": [
+"abbbaaaabbbabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s159",
+"rels": [
+"aaaaaaabAAAbbbbAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s160",
+"rels": [
+"abbbbbaaabbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s161",
+"rels": [
+"aabbbbaabbbbaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s162",
+"rels": [
+"abbbbbbbabbbbbaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s163",
+"rels": [
+"abbbbbbbaaaabbbbbbbabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s164",
+"rels": [
+"aaaaabbbaaaaaBaaaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s165",
+"rels": [
+"abbbbbabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s166",
+"rels": [
+"aaaBBBAbbbbbbbbABBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s167",
+"rels": [
+"abaaaaababbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s168",
+"rels": [
+"abbbabbbbbbbaaaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s169",
+"rels": [
+"aaabbbbabbbbaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s170",
+"rels": [
+"aaaaBAAAAAAABaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s171",
+"rels": [
+"abbbbabbbbbbbaaaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s172",
+"rels": [
+"aabbbaabbaaabbaabbbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s173",
+"rels": [
+"aaBaaBAbbbbAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s174",
+"rels": [
+"aabbABAbbaabbaabbaabbABAbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s175",
+"rels": [
+"aaaaabbABBBAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s176",
+"rels": [
+"aaaaaBaaaaaaaaBaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s177",
+"rels": [
+"abbbbaaaabbbbaBBBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s178",
+"rels": [
+"aaabAbaaabAbaaabAbaaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s179",
+"rels": [
+"abbbbbbbbabbbbbaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s180",
+"rels": [
+"aaaaabaaaaabaaaaabAAbbAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s181",
+"rels": [
+"aBBBaaaaBBBabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s182",
+"rels": [
+"aBBBabbbbbbbaaaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s183",
+"rels": [
+"aaBBaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s184",
+"rels": [
+"aabbbbbbaabAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s185",
+"rels": [
+"aaabbaaabbaaabAbAbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s186",
+"rels": [
+"abbbabbbbbbbbaaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s187",
+"rels": [
+"aabbABAbbaabbbaabbABAbbaabbABAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s188",
+"rels": [
+"aaabbbbbABBBBBBBAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s189",
+"rels": [
+"aBBBBBBBabbbbbaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s190",
+"rels": [
+"abbbaaaaabaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s191",
+"rels": [
+"abacccbAAb",
+"aaBcccccB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s192",
+"rels": [
+"aaaaabbbAAbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s193",
+"rels": [
+"bCbAAcc",
+"aaaaaccBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s194",
+"rels": [
+"aaabbbbbABBBBBBBBAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s195",
+"rels": [
+"aabbABAbbaabbABAbbaabbaabbABAbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s196",
+"rels": [
+"aaaaabbbbaaaaabAAAAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s197",
+"rels": [
+"aaaaabbbAAbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s198",
+"rels": [
+"abaababbAbAbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s199",
+"rels": [
+"aaaBaaabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s200",
+"rels": [
+"aaabbbaaabbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s201",
+"rels": [
+"aaaBBBBaaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s202",
+"rels": [
+"aaacbcBB",
+"aaaaabbcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s203",
+"rels": [
+"aaabaaabbbAAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s204",
+"rels": [
+"aaaabbAbbbAbbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s205",
+"rels": [
+"aaaabbbAbbbbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s206",
+"rels": [
+"aabbbaabbbaabbbaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s207",
+"rels": [
+"aaabaaaabbbbbaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s208",
+"rels": [
+"abbbaaaaabbbabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s209",
+"rels": [
+"aabbaabAbaabbaabAbaabbaabAbaabbaabAbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s210",
+"rels": [
+"aabbbAbbbaabbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s211",
+"rels": [
+"aaabbbbaabbbbaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s212",
+"rels": [
+"aaabaaabbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s213",
+"rels": [
+"aaabbaaabbAABAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s214",
+"rels": [
+"aaaBBBaaabbbbabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s215",
+"rels": [
+"aaabbabbaaabbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s216",
+"rels": [
+"aaaaBaaaabbaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s217",
+"rels": [
+"aaabbaabbbaabbaaabbaabbaaabbaabbaaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s218",
+"rels": [
+"aaabbbbaabbbbaaabbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s219",
+"rels": [
+"aabbbaabaabbAbbaabaabbbaabaabbbaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s220",
+"rels": [
+"aaabaaabbbAAAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s221",
+"rels": [
+"aabaabbbbAAAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s222",
+"rels": [
+"aabbbaaaBBBBBaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s223",
+"rels": [
+"aabbaaabbbbbbbbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s224",
+"rels": [
+"aabbbAbbbaaBaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s225",
+"rels": [
+"aaaaBBBaaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s226",
+"rels": [
+"aaabbbbbaabbbbbaaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s227",
+"rels": [
+"aaaabbABAbbABAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s228",
+"rels": [
+"abbbbbbbaBBaaaBBaaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s229",
+"rels": [
+"aBBBBBBBabbbaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s230",
+"rels": [
+"aabbbbaabbbbaBBBaBBBabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s231",
+"rels": [
+"aBaabbabbabbabbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s232",
+"rels": [
+"aaaaaBAAbbbbAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s233",
+"rels": [
+"aaaaabaaaaabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s234",
+"rels": [
+"aaabAbaaabAbbbAbaaabAbbbAbaaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s235",
+"rels": [
+"aBabbbaaabbbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s236",
+"rels": [
+"aaaaaaabbbaaaaabbbaaaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s237",
+"rels": [
+"aabbaabbAbAbbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s238",
+"rels": [
+"abAAAAbabbbabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s239",
+"rels": [
+"aaaaabbAABBBAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s240",
+"rels": [
+"aaaaaaabaaaaaaabbbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s241",
+"rels": [
+"aaabbbaabbbaaabbbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s242",
+"rels": [
+"abbbbbaaabbbbbaaabbbbbaBBBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s243",
+"rels": [
+"aaaaabbaaaaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s244",
+"rels": [
+"aabbbbaabAbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s245",
+"rels": [
+"aaaaaaabbbaaabbbaaaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s246",
+"rels": [
+"aaabbabbbbbbbabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s247",
+"rels": [
+"aaabbbbbabbbbbaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s248",
+"rels": [
+"aabbaBaBabbaabbaBaBabbaabbaBaBabbaabbaBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s249",
+"rels": [
+"aabbbbbbbaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s250",
+"rels": [
+"aabAbaabAbaabAbbbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s251",
+"rels": [
+"aaabbbbbbbabbbbbbbaaabbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s252",
+"rels": [
+"aaaBAAAABaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s253",
+"rels": [
+"aaaBBaaabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s254",
+"rels": [
+"abbbabbbaBAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s255",
+"rels": [
+"aaaabbaaaaabbaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s256",
+"rels": [
+"aabaabAbbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s257",
+"rels": [
+"aaabbbabbbaaabbbbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s258",
+"rels": [
+"aaaaaaabaaaaaaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s259",
+"rels": [
+"aaaaabAbbAbbbAbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s260",
+"rels": [
+"aaaaabAAbbbbbAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s261",
+"rels": [
+"aBBBBBBBBabbbaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s262",
+"rels": [
+"aaabbbbaabbbbaaabbbbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s263",
+"rels": [
+"aaaabbaaaabbAAAbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s264",
+"rels": [
+"aaabaaabbaaabaaabbAAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s265",
+"rels": [
+"aabbbaaabbbbbbbbbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s266",
+"rels": [
+"abbbbbaaabbbbbaaabbbbbaBBBBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s267",
+"rels": [
+"aaaabbaaaaabbaaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s268",
+"rels": [
+"aaaaaaaabbbaaaaabbbaaaaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s269",
+"rels": [
+"aaaaabaaaaabAAbbAAbbAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s270",
+"rels": [
+"aaabbaabbaaabbaabbbaabbaaabbaabbbaabbaaabbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s271",
+"rels": [
+"aaaabAbaaaabAbaaaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s272",
+"rels": [
+"aaabbaaaabbaaabbaaaabbbaaaabbaaabbaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s273",
+"rels": [
+"aaaabaaaabbaaaabaaaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s274",
+"rels": [
+"aBabbbaBaaBabbbaBabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s275",
+"rels": [
+"aaBBBBaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s276",
+"rels": [
+"aaaaaaaabbbaaabbbaaaaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s277",
+"rels": [
+"aaabbbbbaabbbbbaaabbbbbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s278",
+"rels": [
+"aaBBaaBBaabbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s279",
+"rels": [
+"aaaaabbAAbbbbbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s280",
+"rels": [
+"aaaaabaaaaabbAAbbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s281",
+"rels": [
+"aaBBBaabAbaabAbaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s282",
+"rels": [
+"abbbaaBBBBBaabbbabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s283",
+"rels": [
+"abbabbbbbaaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s284",
+"rels": [
+"aaaaabbAAAbAAAbbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s285",
+"rels": [
+"aaBBBabbbbbabbbbbaBBBaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s286",
+"rels": [
+"abbbbbbbabbbbbaaabbbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s287",
+"rels": [
+"abbbabbbaBaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s288",
+"rels": [
+"aaabbbaaaabbbaaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s289",
+"rels": [
+"aBabbaBabbaBaaBabbaBabbaBabbabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s290",
+"rels": [
+"aabbbAbbbaabaabaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s291",
+"rels": [
+"aaaaBBaaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s292",
+"rels": [
+"aaabbbbbbbaaabbaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s293",
+"rels": [
+"aaaabbaaaabbbaaaabbaaaabAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s294",
+"rels": [
+"aaabbaaabaaabbaaabbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s295",
+"rels": [
+"aaabbbbbaabbbbbaaabbbbbbbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s296",
+"rels": [
+"abbbbabABaaBAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s297",
+"rels": [
+"abbbabbaaBaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s298",
+"rels": [
+"accccBAb",
+"aaCbcB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s299",
+"rels": [
+"bAccccBA",
+"aacbcB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s300",
+"rels": [
+"aaaaabbbAAbbbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s301",
+"rels": [
+"aaabbbaaabbbbbAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s302",
+"rels": [
+"aaabbbaaaabbbaaaBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s303",
+"rels": [
+"abbbabbbbbaaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s304",
+"rels": [
+"aaabaaabbbbAAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s305",
+"rels": [
+"aabbbaabbaaabbaabbaaabbaabbbaabbaaabbaabbbaabbaaabbaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s306",
+"rels": [
+"aaabbbaaabbbaaBBBBaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s307",
+"rels": [
+"aaaaabbAAAbbaaaaabaaaaabbaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s308",
+"rels": [
+"aaabbaaabbbbbAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s309",
+"rels": [
+"abbbbaaaabaaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s310",
+"rels": [
+"aabbbaabbbaabbbaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s311",
+"rels": [
+"aaBaBaBaabbabbabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s312",
+"rels": [
+"aaabbbbaaaBAAAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s313",
+"rels": [
+"abbAAbbabaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s314",
+"rels": [
+"aaabbbbaaaabbbbaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s315",
+"rels": [
+"aBBBBBabbbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s316",
+"rels": [
+"aabbbaabbbaabbbaaBaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s317",
+"rels": [
+"aabbbbbbbaabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s318",
+"rels": [
+"aabbbaaaaaaabbbaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s319",
+"rels": [
+"aaabbAAAAAbbaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s320",
+"rels": [
+"aabbbaabbAAAAAbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s321",
+"rels": [
+"aabbaabaabbaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s322",
+"rels": [
+"aabbaabbbbbAAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s323",
+"rels": [
+"aaabbbbaaabbbbaabbbaabbbbaaabbbbaabbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s324",
+"rels": [
+"aabbbbbAAAbbbbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s325",
+"rels": [
+"aaaaabbaaaaabbbaaaaabbaaaaabbaaaaabAAbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s326",
+"rels": [
+"aaabbbbbaaabbbbAAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s327",
+"rels": [
+"aaaaabbbbbaaaaabAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s328",
+"rels": [
+"aabbbbbbbbaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s329",
+"rels": [
+"aaabbaaabbaaabbaaaaabbaaabbaaabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s330",
+"rels": [
+"aabbbaaaaabbbaaBBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s331",
+"rels": [
+"aaaaabbbAAbbbaaaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s332",
+"rels": [
+"aaaaaaaabbbaaabbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s333",
+"rels": [
+"aaaaabbaaaabbaaaaabbaaaabbbaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s334",
+"rels": [
+"aaabbbbaaabbbAAAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s335",
+"rels": [
+"aabbaabbaabbbbbAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s336",
+"rels": [
+"aabaabbaabbaabbAbbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s337",
+"rels": [
+"aaaaabbbbaabbbbbbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s338",
+"rels": [
+"aabbbbaaabbbbaabbbbaaBaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s339",
+"rels": [
+"aaabbbcc",
+"aaCCbcb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s340",
+"rels": [
+"aaabbAAAAAbbaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s341",
+"rels": [
+"aaabbaaabaaabbaaabbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s342",
+"rels": [
+"aabbbaaabbbaaabbbaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s343",
+"rels": [
+"aaccBBB",
+"bbbbAcAcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s344",
+"rels": [
+"aaabbaaabbaabbbbbbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s345",
+"rels": [
+"aBabaBabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s346",
+"rels": [
+"aaaaabbbbaaaaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s347",
+"rels": [
+"aaCCbb",
+"acabbbbbcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s348",
+"rels": [
+"abababbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s349",
+"rels": [
+"aaBaaBaaabbbaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s350",
+"rels": [
+"abbaBAbaaaaaabAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s351",
+"rels": [
+"aaabbaaaaaaaabbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s352",
+"rels": [
+"aaaaaaabbaaaaaaabAAAAAbaaaaaaabbaaaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s353",
+"rels": [
+"aabbbaabbbaBBaBBabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s354",
+"rels": [
+"aabbbbbbbaabbbbbAAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s355",
+"rels": [
+"aaabAbAbaaabbaaabAbaaabbaaabAbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s356",
+"rels": [
+"aaabbbbaabbbbaabbbbbbbaabbbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s357",
+"rels": [
+"aaaaabbaaaaabbbaaaaabbaaaaabbaaaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s358",
+"rels": [
+"aabbbaabbbaabbbaabAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s359",
+"rels": [
+"aabbAAAbbaaBaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s360",
+"rels": [
+"aabbaabbbaabbaabAAAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s361",
+"rels": [
+"aaabbaaabbbaaabbaaabAAAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s362",
+"rels": [
+"aabbbbbbbbaabbbbbAAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s363",
+"rels": [
+"aaabbbbbbbaaabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s364",
+"rels": [
+"aaabbbbaabbbbaBBBBBBBabbbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s365",
+"rels": [
+"aBBBBBabbbaaabbbaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s366",
+"rels": [
+"aabbbaaabbbaaabbbaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s367",
+"rels": [
+"aabbaabbaaaaabbaabbaabbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s368",
+"rels": [
+"aabbbCC",
+"acaccbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s369",
+"rels": [
+"aaaaaaabbbaaabbbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s370",
+"rels": [
+"aaabbaaabbaaabAAAAbaaabbaaabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s371",
+"rels": [
+"aaaaaaabbbbaabbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s372",
+"rels": [
+"aaaaabbaaaaaaaabbaaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s373",
+"rels": [
+"aaabbbAAbbbaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s374",
+"rels": [
+"aaabbbbbAAbbbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s375",
+"rels": [
+"aaabbaaabbaaaaaaabbaaabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s376",
+"rels": [
+"aaaaabbaaaaabbbaaaaabbaaaaabAAAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s377",
+"rels": [
+"aabAbAbAbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s378",
+"rels": [
+"aaabbaaabbbbbAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s379",
+"rels": [
+"aaaabbbbbabbbbbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s380",
+"rels": [
+"aaabaaabbAbbAbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s381",
+"rels": [
+"aaaBabbabbabbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s382",
+"rels": [
+"aaabbbbbbbaaabbbbaaaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s383",
+"rels": [
+"aabbbbaaaaabaaaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s384",
+"rels": [
+"aaabbbaabbaabbaabbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s385",
+"rels": [
+"aabbaabbaabbaaBAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s386",
+"rels": [
+"aaBccAAb",
+"aaacBCb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s387",
+"rels": [
+"abaccbcc",
+"aCCCabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s388",
+"rels": [
+"aaabbAbbaaabbaaabbaaabbbaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s389",
+"rels": [
+"aaabbaaabbbaaabbaaabAAAAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s390",
+"rels": [
+"aaaaabbaaaaabbbaaaaabbaaaaabAAAAAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s391",
+"rels": [
+"abbbaaabbbaBBaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s392",
+"rels": [
+"aaaaaaabbaabbaabbbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s393",
+"rels": [
+"aabbbbbaabbbbbaaabbbbbaabbbbbaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s394",
+"rels": [
+"aabbaabbABBBBBAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s395",
+"rels": [
+"aBBBaBBBabbaabbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s396",
+"rels": [
+"aaaBBabbbabbbaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s397",
+"rels": [
+"aaabbbbbaaaaabbbbbaaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s398",
+"rels": [
+"aaabbbbbbbaaabbbbbAAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s399",
+"rels": [
+"aaabbbaaaaaaaabbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s400",
+"rels": [
+"aabbbaabbbABBBBAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s401",
+"rels": [
+"aaaaabbaabbbaabbbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s402",
+"rels": [
+"aabbbaaabbbaaabbbaaabbbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s403",
+"rels": [
+"ababbABBaaBBAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s404",
+"rels": [
+"aaaabbbaaabbbaaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s405",
+"rels": [
+"aabaaaaabaabbbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s406",
+"rels": [
+"aabbbaaBBaBBaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s407",
+"rels": [
+"aaabbaaaaaaaabbaaabbaaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s408",
+"rels": [
+"aaaabaaaabbAbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s409",
+"rels": [
+"aaabbbbbAAbbbbbaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s410",
+"rels": [
+"aabbbaabbbaaabbbaabbbaaBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s411",
+"rels": [
+"aaabbbbbaaaaabbbbbaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s412",
+"rels": [
+"aBAbaBAbaaaabABabABabABBAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s413",
+"rels": [
+"abAbabAbabAAbabAbabAbabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s414",
+"rels": [
+"aaaabbaaaabbbaaaabbaaaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s415",
+"rels": [
+"aabbaabbAAAAAbbaabbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s416",
+"rels": [
+"aabbbbbaaBBaabbbbbaabbbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s417",
+"rels": [
+"aaaabbbaaaabbaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s418",
+"rels": [
+"aaabaaabbAAbbAAbbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s419",
+"rels": [
+"aaabbbaaabbbaaabbbaaabaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s420",
+"rels": [
+"aabbbAbbbAbbbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s421",
+"rels": [
+"aabbbaaBBBBBaabbbaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s422",
+"rels": [
+"aaaaabbaaaaabbbaaaaabbaaaaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s423",
+"rels": [
+"aaabbbAbbbbAbbbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s424",
+"rels": [
+"aabbbbbaabbbbaBabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s425",
+"rels": [
+"aaaaaaabbbbbaabbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s426",
+"rels": [
+"acccbcaB",
+"acACbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s427",
+"rels": [
+"aaCbcb",
+"acacacBBcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s428",
+"rels": [
+"aabbbbaabbbbABAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s429",
+"rels": [
+"aaabbaaabAAbaaabbaaabAAbaaabbaaabAAbAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s430",
+"rels": [
+"aabbbbbaaaaaaabbbbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s431",
+"rels": [
+"aaaaabbbaaaaabbbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s432",
+"rels": [
+"aaabAbaaaabbaaaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s433",
+"rels": [
+"aaabbaaabbaaabAAAAAbaaabbaaabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s434",
+"rels": [
+"aaabbbbbaaaaabbaaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s435",
+"rels": [
+"aaBBBCbbbc",
+"acACbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s436",
+"rels": [
+"aaabccaaaB",
+"bcBAAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s437",
+"rels": [
+"aabbbaaBaaaaaBaaaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s438",
+"rels": [
+"aaaBAAAAABaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s439",
+"rels": [
+"aabbbbbaaaaabbaaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s440",
+"rels": [
+"aBaaBabbbabbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s442",
+"rels": [
+"abbbbbabAAAbabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s444",
+"rels": [
+"aabbaabbAbbbbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s445",
+"rels": [
+"abbaaaabbabAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s446",
+"rels": [
+"aaaaBaBaaaabbaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s447",
+"rels": [
+"aabbbbaabbbbABBBAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s448",
+"rels": [
+"aaabbbaaBABaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s449",
+"rels": [
+"aaaaabbaaabbbaaabbaaaaabbaaabbaaaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s450",
+"rels": [
+"aabbbaabbbaabAbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s451",
+"rels": [
+"aabbbaabbbaaBAAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s452",
+"rels": [
+"aaBBaabbbaabbbaabbbaaabbbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s453",
+"rels": [
+"abbaabbaabbaabbbaabbaabbaabbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s454",
+"rels": [
+"abABabABabbaBAbaBAbaBAbaaaabAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s455",
+"rels": [
+"abbbaabbbbbaabbbaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s456",
+"rels": [
+"abaBabaBabbaBabaBabaBabbaBabaBabaBaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s457",
+"rels": [
+"aaabbbAbbbaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s458",
+"rels": [
+"abAAbaaabbaaabAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s459",
+"rels": [
+"aaaBaBaaabaabbaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s460",
+"rels": [
+"aabAbbbAbaaBBaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s461",
+"rels": [
+"aaaaabbbaabbbaaaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s462",
+"rels": [
+"aaabbbbbaaaaaaaabbbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s463",
+"rels": [
+"aaacBcb",
+"bABAccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s464",
+"rels": [
+"aaacBCb",
+"aBAcccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s465",
+"rels": [
+"bbbcccAA",
+"abbaaccbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s466",
+"rels": [
+"aaaccBB",
+"aabbcccaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s467",
+"rels": [
+"aaaabAbbbbAbbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s468",
+"rels": [
+"aBaBaabbbabbbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s469",
+"rels": [
+"aaBAAbaaaabAABaabAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s470",
+"rels": [
+"aabbbaaabbbaaabbbaaabbbbaaabbbaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s471",
+"rels": [
+"aaabbaBBABABBabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s472",
+"rels": [
+"abbaBabaBaaaBabaBabbaBabaBabbaBabaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s473",
+"rels": [
+"aabbbbaabbbbAbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s474",
+"rels": [
+"aaBaabbaaaaabbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s475",
+"rels": [
+"aaccBB",
+"aaabbcccbccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s476",
+"rels": [
+"aaaaabbbaaaaabbbbbaaaaaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s477",
+"rels": [
+"abbbAAAbbbabbbbbabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s478",
+"rels": [
+"abbabbaBAbaaabAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s479",
+"rels": [
+"abbaabbabAABBAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s480",
+"rels": [
+"abbaabAbaabbaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s481",
+"rels": [
+"aBabbaBaaaBabbaBabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s482",
+"rels": [
+"aabbbaabbbaabbbABAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s483",
+"rels": [
+"abbbbbaaBBaBBaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s484",
+"rels": [
+"aabbaabbaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s485",
+"rels": [
+"aaaBaaaaaBaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s486",
+"rels": [
+"aaacAbbcBB",
+"aCAcbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s487",
+"rels": [
+"bbccAAA",
+"aabaabbcBc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s488",
+"rels": [
+"abaBabaaaaabaBabaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s489",
+"rels": [
+"abABabbbaBAbaBAbbAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s490",
+"rels": [
+"aabbbaabbaabbbaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s491",
+"rels": [
+"aaaaaBaaacbC",
+"bbcAAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s492",
+"rels": [
+"aBAccb",
+"aacccccbCCCb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s493",
+"rels": [
+"aBAbbbABabaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s494",
+"rels": [
+"aBBabbbbbAAbbbbbaBBabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s495",
+"rels": [
+"aabbabbaabbAbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s496",
+"rels": [
+"aabbbbaaabbbbaabbbbbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s497",
+"rels": [
+"abbbababbbaBBaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s498",
+"rels": [
+"aaabbbabbbabbbaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s499",
+"rels": [
+"abbaabbbbbaabbaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s500",
+"rels": [
+"aaabbbaaabbbaaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s501",
+"rels": [
+"aabbbbbABBBAbbbbbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s502",
+"rels": [
+"aBaBabbaBaBabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s504",
+"rels": [
+"aaabbbbaaabbbaabbbaaabbbbaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s505",
+"rels": [
+"aaabbbbaaabbbbaaabbbbaaabAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s507",
+"rels": [
+"aaaaabbbaabbaabbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s508",
+"rels": [
+"abaBabbaBabbaBabbaBabaBaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s509",
+"rels": [
+"aabaabaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s510",
+"rels": [
+"aaaaabaaaaabbAAAbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s511",
+"rels": [
+"aBabaBabbaBabaBabaBaaaBabaBabaBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s512",
+"rels": [
+"abbbAAbbbaBBabaBBabaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s513",
+"rels": [
+"abbbabbbaaBaBaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s514",
+"rels": [
+"aaabAAbaaabAAbaaabAABBAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s515",
+"rels": [
+"aabbbaaabbbaabbbaaabbbaabbbaaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s516",
+"rels": [
+"aaaaaBaaBaaaaabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s517",
+"rels": [
+"aabbbaaabaaabbbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s518",
+"rels": [
+"aaabbbaaaBaBaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s519",
+"rels": [
+"aBAbaabABabbaBAbABabbaBAbABabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s520",
+"rels": [
+"aaBBBaabbAbbbbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s521",
+"rels": [
+"aaaaabAAbaaaaabAABBAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s522",
+"rels": [
+"aabbbaabbbaaaBBaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s523",
+"rels": [
+"aBBBAbbbaabbbABBBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s524",
+"rels": [
+"aabbbbbaabbbbbAbbbAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s525",
+"rels": [
+"aaabaaabAbaaabaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s526",
+"rels": [
+"abbbABBBabbbaBBBAbbbaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s527",
+"rels": [
+"aabbaabbAbbaabbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s528",
+"rels": [
+"abABaaaBAbaBAbbbAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s529",
+"rels": [
+"aaabbbaabbbaaabbaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s530",
+"rels": [
+"aaCbbC",
+"acacacabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s531",
+"rels": [
+"aaabbbbaaababaaabbbbaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s532",
+"rels": [
+"aabbaabbaabbaabAbAbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s533",
+"rels": [
+"aaBaaBaaBaababbab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s534",
+"rels": [
+"aabaabAAAbaabaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s535",
+"rels": [
+"aabbbaabbbAbbbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s536",
+"rels": [
+"aabbbbbaaabbbbbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s537",
+"rels": [
+"aBBBAbbbaabbbABBBab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s538",
+"rels": [
+"aaabbaaabbbaaaaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s539",
+"rels": [
+"aBaBaabbbaabbbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s540",
+"rels": [
+"aabbbaabbbaabbbAbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s541",
+"rels": [
+"aaabbbaaabbaaababaaabbaaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s542",
+"rels": [
+"aabaabbbbAbbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s543",
+"rels": [
+"aabbbbbaabbbbbaabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s544",
+"rels": [
+"aabbbAAAbbbaabbbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s545",
+"rels": [
+"aabbAbbaabbaabbbaabbaabbbaabbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s546",
+"rels": [
+"aabbbbaabbbbaabbbbaabAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s547",
+"rels": [
+"aBabbbaBabbbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s550",
+"rels": [
+"aabaabbbbAbbbAbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s551",
+"rels": [
+"abbbaaaabbbaBBabbbaBBabbbaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s552",
+"rels": [
+"aabbaabbaabAbAbAbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s553",
+"rels": [
+"aaaBaaabbaaaaabbaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s554",
+"rels": [
+"aaabccb",
+"abaCbC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s555",
+"rels": [
+"aaabbbaaaabbbaaaabbbaaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s556",
+"rels": [
+"bbccbABBA",
+"aaabbcccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s557",
+"rels": [
+"aaaaBabbbaBabbbaBabbbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s558",
+"rels": [
+"aaaBBaabAAAbbAAAbbAAAbaaBBaaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s559",
+"rels": [
+"aaabbbaBBabbbaaabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s560",
+"rels": [
+"aaabbaaaabbaaaabbaaaBAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s561",
+"rels": [
+"aabbaabbbAbAbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s562",
+"rels": [
+"aaabaaabbbAAbbbaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s563",
+"rels": [
+"aaabAAccb",
+"aabbccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s564",
+"rels": [
+"aaBBaabbbAbbbbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s565",
+"rels": [
+"aaabbbabbbaaabbbabbbaaabbbbbaaabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s566",
+"rels": [
+"abAbaabbbbaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s567",
+"rels": [
+"aaabbbaaabbbAbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s570",
+"rels": [
+"aaacbAbbcB",
+"aabbccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s571",
+"rels": [
+"aabbaabbAbAbAbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s572",
+"rels": [
+"aaBaababbAbbab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s573",
+"rels": [
+"aaabCCAAb",
+"aacccbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s574",
+"rels": [
+"aabAbaabAbAbaabAbaabbaabAbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s575",
+"rels": [
+"aabbbaaBBaaaBBaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s580",
+"rels": [
+"aabAAAbaabAAAbaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s581",
+"rels": [
+"acaaBcb",
+"aCAbbbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s582",
+"rels": [
+"aabbbAbAbbbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s583",
+"rels": [
+"aabbaabbaabbAbbaabbaabbaabbbaabbaabbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s584",
+"rels": [
+"aaabaaabAAbaaabaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s585",
+"rels": [
+"abAbaabAbaabAbabAbbbAbabAbaabAbabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s586",
+"rels": [
+"aabAAAAAbaabbbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s587",
+"rels": [
+"aabaabaabaabbAbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s588",
+"rels": [
+"aaabbbbaaabbbbaaabbbaabbbaaabbbbaaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s589",
+"rels": [
+"aabbcccbb",
+"aaaaabccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s590",
+"rels": [
+"aabbaBBBabbaabbaabbaaabbaabbaabbaaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s591",
+"rels": [
+"abbbaaBBaBBaBBaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s592",
+"rels": [
+"aaaabaaaabaaaabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s593",
+"rels": [
+"aabaabbbaabbbAbbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s594",
+"rels": [
+"bAbcAc",
+"accabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s595",
+"rels": [
+"aaBcbC",
+"acbbbABc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s597",
+"rels": [
+"aaBaaBaabbAbbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s598",
+"rels": [
+"aaaaabbbbaaaaabAAbaaaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s599",
+"rels": [
+"aabaabAbbbAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s600",
+"rels": [
+"aabbaabbbaabbaabbbaabbaabbbaabbaabAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s603",
+"rels": [
+"aaBaabbAbbabbAbbabbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s604",
+"rels": [
+"aaabbbaaabbaaabbaaaabbaaabbaaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s605",
+"rels": [
+"aaabaaabbaaabaaabAbAbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s606",
+"rels": [
+"aabbaabbbbbAbbbAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s607",
+"rels": [
+"aCCBBaccc",
+"aabbbbbcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s608",
+"rels": [
+"aaaabbabbbbbabbaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s609",
+"rels": [
+"aaabbbabbbaaaBaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s610",
+"rels": [
+"aabbbbbaabbbbbaabbbABBAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s611",
+"rels": [
+"aaabbaaaaabbaaaaabbaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s612",
+"rels": [
+"aaBBaBBaabbbabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s613",
+"rels": [
+"aabbaBabaBabbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s614",
+"rels": [
+"aaabaaabaaabbbbabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s615",
+"rels": [
+"aBaaaBabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s616",
+"rels": [
+"aabbbaabbbbaabbbaabbbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s617",
+"rels": [
+"aaabbbbbaaabbbbbaaabbbabbbaaabbbbbaaabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s618",
+"rels": [
+"aabaabbbAbbAbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s619",
+"rels": [
+"aaBcccB",
+"ababaccccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s620",
+"rels": [
+"aaabbbaaabbbbbaabbbbbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s623",
+"rels": [
+"aabbbbbbbaabbbbbbbaabbbbaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s624",
+"rels": [
+"abbbaaaabbbaBBBBabbbaBBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s625",
+"rels": [
+"aBBBBBabbbaaaabbbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s626",
+"rels": [
+"abccAB",
+"aaabCbccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s627",
+"rels": [
+"aabbbAAAbbbaabbbAAAbbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s628",
+"rels": [
+"aabbbaabbbbbAbbbbbAbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s629",
+"rels": [
+"aaabbbaabbbaaabbbaabbbaaabbbaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s630",
+"rels": [
+"aaBaaBaabbbabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s631",
+"rels": [
+"aaBCCCbcbb",
+"aaabcccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s632",
+"rels": [
+"abbaaBBBBBaabbabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s633",
+"rels": [
+"aabaabAbAbbAbAbaabaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s634",
+"rels": [
+"aaacbbc",
+"aaCaaCaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s635",
+"rels": [
+"aabbaabbbaabbaabbAbbaabbaabbAbbaabbaabbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s636",
+"rels": [
+"abbaBaaBaaBabbabbabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s639",
+"rels": [
+"acAbbbbbC",
+"aBcccAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s640",
+"rels": [
+"acAbbbbbc",
+"acccbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s641",
+"rels": [
+"aabbbAbbbAbbbAbbbaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s642",
+"rels": [
+"aabbbbaabbbbaabaaabaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s643",
+"rels": [
+"aaabbbaaabaaabbbaaabbbabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s644",
+"rels": [
+"aacBBcAbb",
+"acAbbbbbC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s645",
+"rels": [
+"aabAbababAbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s646",
+"rels": [
+"aaBaaBaabbAbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s648",
+"rels": [
+"aBBAbbaabbABBabbABBBAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s649",
+"rels": [
+"aabbbaabbaabaabbaabbbaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s650",
+"rels": [
+"abbAbbaaBBBaabbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s651",
+"rels": [
+"abbbbbabbbaaaabbbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s652",
+"rels": [
+"aaaBBaaabAAbbbAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s653",
+"rels": [
+"aaaaabbbaabbbbaabbbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s654",
+"rels": [
+"bbbAAcc",
+"aaaCBBCbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s655",
+"rels": [
+"aaabbaaabbbaaabbaaabbbaaabbaaabAAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s656",
+"rels": [
+"aaabbbaaabbbaaaBBaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s657",
+"rels": [
+"ababbbaaabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s658",
+"rels": [
+"aabAbAbaabbaabbaabAbaabbaabbaabAbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s659",
+"rels": [
+"aabbbaabbaBabbaBabbaBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s662",
+"rels": [
+"aabbaabbaaabbaabbaabbbaabbaabbaaabbaabbaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s663",
+"rels": [
+"abbaabbaBaBABaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s664",
+"rels": [
+"aabbbbbbbaabbbbbbbaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s665",
+"rels": [
+"bbbcAAccc",
+"aaaccBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s666",
+"rels": [
+"aaabbaaaabbaaabbaaaabbaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s667",
+"rels": [
+"abbbaabaabbbaBAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s668",
+"rels": [
+"aaabAAbaaaBBBaaabAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s669",
+"rels": [
+"abbbbbaaabbbaaabbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s670",
+"rels": [
+"aaaabbbbbabbbabbbbbaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s671",
+"rels": [
+"aabaabaabAbbAbbAbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s672",
+"rels": [
+"aabbbaBBaBBaBBabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s673",
+"rels": [
+"abaaaCBc",
+"bbbccAA"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s674",
+"rels": [
+"cBBcccAA",
+"aaabbbcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s675",
+"rels": [
+"aaacccBcB",
+"bbAAccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s676",
+"rels": [
+"aabAAAbaabAAAbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s677",
+"rels": [
+"bbcACAc",
+"aaacbCbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s678",
+"rels": [
+"aBaBabbabbaabbabbaBaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s679",
+"rels": [
+"aabaabaabbbAbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s680",
+"rels": [
+"abbbaaBBBBBaabbbabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s681",
+"rels": [
+"aaBBBaaBBBaabbabbabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s682",
+"rels": [
+"aBabbaabbbaabbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s683",
+"rels": [
+"aaaaabAAbaaaaabAAbbbbAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s684",
+"rels": [
+"aabbaaabbaabbaaabbaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s685",
+"rels": [
+"aaaabbbaaabbbbbaaabbbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s686",
+"rels": [
+"aBBababaBBabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s687",
+"rels": [
+"aabbaabbbbbaabbaabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s688",
+"rels": [
+"abABabAAbaBAbaBAbaaabAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s689",
+"rels": [
+"aaabbabbaaabbAABAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s690",
+"rels": [
+"aababaabAbbAbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s691",
+"rels": [
+"aBabbbaabAbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s692",
+"rels": [
+"aabbbbAbbbbaabaabbbbaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s693",
+"rels": [
+"aaBBBaabbbbbabbbbbaaabbbbbabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s694",
+"rels": [
+"aaabaaabbbAAbbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s695",
+"rels": [
+"aaabbbbaaabbbaaaabbbaaabbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s696",
+"rels": [
+"aaBCCCbccbb",
+"aaabcccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s697",
+"rels": [
+"aaabcbcbbb",
+"aaBBcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s698",
+"rels": [
+"aaabbbaaabbbbaaabbbaaabAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s699",
+"rels": [
+"aaabbbaaabbaaBaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s700",
+"rels": [
+"aaabbaaabbaaabbbbbabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s701",
+"rels": [
+"aabAbaabaabAbaabAbaabaabAbaabAbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s702",
+"rels": [
+"bCbcAA",
+"aCbbacac"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s703",
+"rels": [
+"aabAABaBAAbaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s704",
+"rels": [
+"aBCAAbbc",
+"aaccbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s705",
+"rels": [
+"abbAbAbbaBBaaaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s706",
+"rels": [
+"aaBBabbbabbbabbbaBBaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s707",
+"rels": [
+"abbacc",
+"abAbaCBC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s708",
+"rels": [
+"aabacBCCC",
+"abccAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s709",
+"rels": [
+"aBabbabbaBabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s710",
+"rels": [
+"aabbbaabbbaabbbAbbbaabbbaabbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s711",
+"rels": [
+"aabbbbbaaabbbaaabbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s712",
+"rels": [
+"aBBBabbbbbaBBBaaaaBBBabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s713",
+"rels": [
+"aaBBaabbbaaabbbaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s714",
+"rels": [
+"aabbbaaaaabaaaaabaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s715",
+"rels": [
+"aabbbabbbabbbaaBBaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s716",
+"rels": [
+"aaabbbbbabbbbbabbbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s717",
+"rels": [
+"aaabbaaabbbaaabbaaabbaaaabbaaabbaaabbaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s718",
+"rels": [
+"aBBaaBBabbbAAbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s719",
+"rels": [
+"aaaaBBaaaaBAbbAAAAbbAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s720",
+"rels": [
+"aabbaaabbaabbaaabbaaBaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s721",
+"rels": [
+"aabAbaabbaabbaBabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s722",
+"rels": [
+"aBAbaBAbaaabABabABabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s723",
+"rels": [
+"aabaabAbaabaabAbbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s724",
+"rels": [
+"aabbaabAAAbaabbaabbbaabbaabAAAbaabbaabAAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s725",
+"rels": [
+"aaBaabaaBBaabaaBaabaaaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s726",
+"rels": [
+"aBBAbbaBBAbbbABBabbABBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s727",
+"rels": [
+"abbbbbabbaaaabbabbaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s728",
+"rels": [
+"aaabbbaaabbbAAbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s729",
+"rels": [
+"aabbbCAC",
+"acBAbbcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s730",
+"rels": [
+"aaabbABBabaBBAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s731",
+"rels": [
+"aabbaabbabbaabbaabbabbaabbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s732",
+"rels": [
+"accbbABc",
+"acbbACbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s733",
+"rels": [
+"aacbACb",
+"aBBCbacBCbac"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s734",
+"rels": [
+"aCbcccaaB",
+"aaCbbAAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s735",
+"rels": [
+"aabbbbaabbbbAbbbbaabbbbaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s736",
+"rels": [
+"aaaaaaabbaaabbbaaabbaaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s737",
+"rels": [
+"aaabbaaabbaaaaabbaaabbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s738",
+"rels": [
+"aaaBBBaaabbabbaaabbabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s739",
+"rels": [
+"aaabbbbbaaabbbbbaaabbbaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s740",
+"rels": [
+"aaabbaaaabbaaabbbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s741",
+"rels": [
+"abbaaabbbaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s742",
+"rels": [
+"aaabbbabbbaaabbbabbbaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s743",
+"rels": [
+"aabbbAbbbaabaabbbaabaabbbaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s744",
+"rels": [
+"aaBBaabbbAbbbaaBBaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s745",
+"rels": [
+"aaabbaBBAbbbABBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s746",
+"rels": [
+"abAccBac",
+"acbbAC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s747",
+"rels": [
+"abbbaaabbbabbbaaabaaabbbabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s748",
+"rels": [
+"aaabcaaabcaaab",
+"abcBBcAAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s749",
+"rels": [
+"aaaaabbaaaaabbaabbaaaaabbaaaaabbaabbaaaaabbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s750",
+"rels": [
+"aaaabbaaabbaaabAbaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s751",
+"rels": [
+"aaaBBaBBaaabAbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s752",
+"rels": [
+"aabbaaabbaabbaaabbaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s753",
+"rels": [
+"aaBaaaBaabbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s754",
+"rels": [
+"aabbaaabbcc",
+"aaBBBccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s755",
+"rels": [
+"aBababaBabbAAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s756",
+"rels": [
+"aaabbbaaabbaaabbbAbbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s757",
+"rels": [
+"aBabaBabbaabbaBabbaabbaBabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s758",
+"rels": [
+"aaabbbaaabbbaaabbaaabAbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s759",
+"rels": [
+"abbbbaaabaaabbbbaaabaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s760",
+"rels": [
+"aaabAbbAbaaabAbbAbaaabAbbAbbbAbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s761",
+"rels": [
+"abbbaaabbbaBBBAbABBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s762",
+"rels": [
+"aabbbbbaabbbbbaabbbbbaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s763",
+"rels": [
+"aabaabbAbAbbAbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s764",
+"rels": [
+"abaBabbAAbbAAbbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s765",
+"rels": [
+"bbcAAAcc",
+"aaaacbCb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s766",
+"rels": [
+"aaabbaaabbbaaabbaaabbbaaabbaaabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s767",
+"rels": [
+"aaabaaabbbaaabaaabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s768",
+"rels": [
+"aabAbaabaabAbaabAbbAbaabAbbAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s769",
+"rels": [
+"aabbaaaaabbaaaaabbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s770",
+"rels": [
+"aaabbbaabbbaBBBBBabbbaabbbaaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s771",
+"rels": [
+"aabbaaabbbbbaaabbaabbaaabbaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s772",
+"rels": [
+"aaabbaaabbaabbbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s773",
+"rels": [
+"bbcbcABA",
+"aabbCC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s775",
+"rels": [
+"aCbbacc",
+"aabCCbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s777",
+"rels": [
+"aabbaabAbaaBAABaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s778",
+"rels": [
+"aBBabaBBabaaabaBabaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s779",
+"rels": [
+"abaBBcc",
+"aacBcbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s781",
+"rels": [
+"aaacbabc",
+"aCAACabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s783",
+"rels": [
+"abbaBAbABabbaBAbaaabAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s784",
+"rels": [
+"aBcAbcc",
+"acbbACb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s786",
+"rels": [
+"aaaaCbcB",
+"abccccAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s787",
+"rels": [
+"aaaabcBc",
+"aBabcccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s788",
+"rels": [
+"abccbAcbAcb",
+"aabcBaC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s789",
+"rels": [
+"aacBCbAc",
+"aaacbAcB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s790",
+"rels": [
+"abbbbbaaabbaaabbbbbabbbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s791",
+"rels": [
+"abbcbbbbbcAc",
+"aabbCC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s792",
+"rels": [
+"aabbbaaabbbaabbbaaabbbaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s793",
+"rels": [
+"abbaabbaaabbaabbaBaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s794",
+"rels": [
+"aBBccaBBcccbb",
+"aabbbCCbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s795",
+"rels": [
+"aabbaabbbaabbaabbbaabbaabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s796",
+"rels": [
+"aabbbaaaaabbbaabbbbbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s797",
+"rels": [
+"aabbbCCb",
+"aabaaacccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s798",
+"rels": [
+"aabbbaabbbaabbAbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s799",
+"rels": [
+"aaabbaaabbbbbbbaaabbaaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s800",
+"rels": [
+"aaabbaabbaaabbaabbaaaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s801",
+"rels": [
+"aabbABBabbABAbbaBBAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s802",
+"rels": [
+"abbAbbabbAAbbabbAbbab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s803",
+"rels": [
+"aaaabbaaabbaaaabbbbbaaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s804",
+"rels": [
+"aabbaaabbaabbaaabbbbbbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s805",
+"rels": [
+"aaCACbcacab",
+"abccAABc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s806",
+"rels": [
+"acbcbcabCCb",
+"abacbAbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s807",
+"rels": [
+"aaabbbbbaaabbbbbaaabbbaabbbaaabbbbbaaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s808",
+"rels": [
+"aabbaabbbaabbaabbAAAbbaabbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s809",
+"rels": [
+"aabbbaabbbbaabbbaabbbAAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s810",
+"rels": [
+"aabbbCC",
+"aBabbcccccB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s811",
+"rels": [
+"aabbbaaaaabbbaabbbbaabbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s812",
+"rels": [
+"aabbbbbaabbbaaaaabbbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s813",
+"rels": [
+"abbaaBaBaabbabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s814",
+"rels": [
+"aaaabbbaaabbbaaaabbbaaabbbaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s815",
+"rels": [
+"aabbbaabbbaaaaabbbaabbbaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s816",
+"rels": [
+"aaabbbaaabbaaabbbaaaaabbbaaabbaaabbbaaaaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s817",
+"rels": [
+"aaabbcc",
+"aabCabbCB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s818",
+"rels": [
+"aBAbccc",
+"abbbccAbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s819",
+"rels": [
+"aBcAAbbbC",
+"aaaBcBC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s820",
+"rels": [
+"abAbabAbaabbbaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s821",
+"rels": [
+"aaaBaaabbAAbbbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s822",
+"rels": [
+"aaabbbaaaaabbbaaaaabbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s823",
+"rels": [
+"aaabAAAAbbAAAAbaaaBBaaaaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s824",
+"rels": [
+"bAAccbCbcbC",
+"aaaccbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s825",
+"rels": [
+"aabbbaaabbbaaabbbbbbbbaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s826",
+"rels": [
+"aaabbAbbaaaBaaabaaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s827",
+"rels": [
+"aBabbbaabbbbaabbbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s828",
+"rels": [
+"aaabbbbaaabbbaaabbbbaaabbbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s829",
+"rels": [
+"aaabbaaabbbaaabbaaabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s830",
+"rels": [
+"aaabbbAAbbbaaabbbaaabbbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s832",
+"rels": [
+"aabbABAbbaabbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s833",
+"rels": [
+"aabbbaaabbbbbbbbaaabbbaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s834",
+"rels": [
+"aaBBBacc",
+"abbbbbcAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s835",
+"rels": [
+"aaaBaaaBaabbaabbaaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s836",
+"rels": [
+"aBBBAbbABBBabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s837",
+"rels": [
+"acABAbbC",
+"aacABCbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s838",
+"rels": [
+"aabbbcbbaC",
+"aCAcbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s839",
+"rels": [
+"aaabbaaabbbAbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s840",
+"rels": [
+"aaBaabbAbbAbbaabbAbbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s841",
+"rels": [
+"aBBBAABBBabbbbaaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s842",
+"rels": [
+"aaabbaaabbabbaaabbaaabbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s844",
+"rels": [
+"abbaabbaaabbaaabbaabbaBBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s845",
+"rels": [
+"aaaBaaabaaaBaaabbAAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s846",
+"rels": [
+"aabbbaabbbAbAbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s847",
+"rels": [
+"aCbacaB",
+"aBcbacAbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s848",
+"rels": [
+"aabbbaabbbaaBBaabbbaabbbaaBBaBB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s849",
+"rels": [
+"aaabbaaabAAbaaabbaaabbbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s850",
+"rels": [
+"aBabbaabAbaabbaBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s851",
+"rels": [
+"aaabbbbbaaabbaabbaaabbbbbaaabbaabbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s852",
+"rels": [
+"aBBBaBBBabbaabbaabbaBBBabbaabbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s853",
+"rels": [
+"aaabbaaabbbaaabbaaabbaaaaabbaaabbaaabbaaaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s854",
+"rels": [
+"aBcbaBccAb",
+"aCAbbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s855",
+"rels": [
+"aabAbaabAbAbaabAbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s856",
+"rels": [
+"aabbbbbaabbbbbaaaaabbbbbaabbbbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s857",
+"rels": [
+"aaabbbbbaaabbbbbabbbbbaaabbbbbaaabbbbbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s858",
+"rels": [
+"aaabaaabbbAbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s860",
+"rels": [
+"aBBAABBabbbbbaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s861",
+"rels": [
+"aaabbaaabbaBabaBabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s862",
+"rels": [
+"aaabAAbaaabAABaaBAAABaaBAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s863",
+"rels": [
+"aaaBBcBBcb",
+"aaccbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s865",
+"rels": [
+"abbbaaabbbbaaabbbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s866",
+"rels": [
+"aaabbbbbaaabbbaaabbbbbaaabbbbbaaaaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s867",
+"rels": [
+"aaabbbaaaBBaaabbbaaabbbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s868",
+"rels": [
+"aaabbbbbaaabbbbbaaaaabbbbbaaabbbbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s869",
+"rels": [
+"abCACaBcb",
+"acBCbABccc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s870",
+"rels": [
+"abbaabbaBAABBAABabbaabbaBAABBAABabbaabbaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s871",
+"rels": [
+"aabAbabAbbbbAbabAbaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s872",
+"rels": [
+"aabbbaabbbAbbAbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s873",
+"rels": [
+"aabbbaaabbbaaabbbaabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s874",
+"rels": [
+"aBBABBabbaaabbaBabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s875",
+"rels": [
+"aaabbbbbaBBBAABBBabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s877",
+"rels": [
+"aaCbaccacAAbC",
+"accBcAAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s878",
+"rels": [
+"aabcbAccb",
+"abcaCaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s879",
+"rels": [
+"abaaccBC",
+"aCabABc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s881",
+"rels": [
+"aabbbaabbbaabaaabaabbbaabbbaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s882",
+"rels": [
+"acAbACb",
+"acBabcBc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s884",
+"rels": [
+"aabbbaBabbbaabbbaBabbbaabbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s885",
+"rels": [
+"aacacbcBB",
+"bcAbbAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s886",
+"rels": [
+"aabAbabAbbbbAbabAbaabAbabAb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s888",
+"rels": [
+"aaBBccc",
+"accaCbbab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s889",
+"rels": [
+"aabbaabbAbbaabbaabaabbaabbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s890",
+"rels": [
+"aBAbcacc",
+"aabccbC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s891",
+"rels": [
+"aBBcaabC",
+"aababaabCbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s892",
+"rels": [
+"aabCAbbc",
+"aababaabCBc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s893",
+"rels": [
+"aabbAAAbbaabbbaabbbbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s894",
+"rels": [
+"aabaabaabbbAbbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s896",
+"rels": [
+"accabcb",
+"aBBacAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s897",
+"rels": [
+"acAAbCb",
+"acccBaCbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s899",
+"rels": [
+"aabcccAAB",
+"aaaCCbccB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s900",
+"rels": [
+"acbACbC",
+"acBcBcbAbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s901",
+"rels": [
+"acAbbbAc",
+"aCacbbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s902",
+"rels": [
+"aaaBBaBBaaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s903",
+"rels": [
+"abCCAAbcb",
+"abcbaccBCB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s904",
+"rels": [
+"aabbaabbaabbbAbbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s905",
+"rels": [
+"aBAcbaccc",
+"abbaacc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s907",
+"rels": [
+"aCbbAbC",
+"acBaacAcb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s908",
+"rels": [
+"abccAAbCb",
+"aacAAbabcB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s909",
+"rels": [
+"aaCbbCC",
+"accaccbcaccbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s911",
+"rels": [
+"aaabbaaabbbaabbbaabbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s912",
+"rels": [
+"abbbaabABBBAbaabbbaBAAB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s915",
+"rels": [
+"aCbcabcBCb",
+"abccACb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s916",
+"rels": [
+"aabAcBc",
+"abbcacaCC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s917",
+"rels": [
+"aBcBabccb",
+"aabCbAccb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s918",
+"rels": [
+"aCCbbAcc",
+"aaBAcbcc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s919",
+"rels": [
+"aaabbbaaabbaaabbaBabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s921",
+"rels": [
+"acbaaCBc",
+"abcbABc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s922",
+"rels": [
+"aabbbaabbbAbbbaabbbaabbbbbaabbbaabbbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s923",
+"rels": [
+"aaabaacbAc",
+"aacAcBCb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s924",
+"rels": [
+"aBaCbCAcbc",
+"acBAcb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s925",
+"rels": [
+"aabbbaabbbAbbbaabbbaabbbAbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s926",
+"rels": [
+"aaabbbAbbbaaabbaaabbbbbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s927",
+"rels": [
+"abbbAbbbacc",
+"abbbbbacABBBAc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s928",
+"rels": [
+"acAbcABC",
+"aacbbcB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s929",
+"rels": [
+"abbbabbbaaabbaaabbaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s931",
+"rels": [
+"aabbaBabbaabbaabbbaabbaabbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s932",
+"rels": [
+"abbaabbaabbaBabaBabaB"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s933",
+"rels": [
+"aaabaaabbbabbbabbbaaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s934",
+"rels": [
+"aabbbAAAbbbaabbaabbbbbaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s935",
+"rels": [
+"aabbbAbbbAbbbaabbbAbbbAbbbaab"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s936",
+"rels": [
+"aabbaabbbAbbbAbbbaabbbAbbbAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s938",
+"rels": [
+"abCCaccbb",
+"acBAbaC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s939",
+"rels": [
+"aCbABac",
+"accACCbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s942",
+"rels": [
+"aBCbacAc",
+"abcAbC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s943",
+"rels": [
+"aaacAAAbbC",
+"aacAcBCb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s944",
+"rels": [
+"aabAccb",
+"acaBcBCb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s946",
+"rels": [
+"aaabbbaaabbaaabbbaaabbbaaabbaaabbbaaabbbaaaaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s947",
+"rels": [
+"aabaabbbaabbbaaaaabbbaabbbaabaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s949",
+"rels": [
+"aCbacaB",
+"abcbcbACb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s950",
+"rels": [
+"aaabbaaabbbbbaaabbaaabbbAAbbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s951",
+"rels": [
+"aabbbAbbbcc",
+"aabbCAbbbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s952",
+"rels": [
+"abbbabbbcACb",
+"aacbbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s953",
+"rels": [
+"abbaaabbaaabbbbbaaabbaaabbbbbaaabbaaabb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s954",
+"rels": [
+"aaacaabcBcaabcBc",
+"aabbCC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b"
+],
+"name": "s955",
+"rels": [
+"aaaaabbbaabbbaabbaabbbaabbbaaaaabbbaabbb"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s956",
+"rels": [
+"aaccabbbabbb",
+"aCAbbC"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s957",
+"rels": [
+"abccAABcAc",
+"abaaCCaaCbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s958",
+"rels": [
+"abcaaBBC",
+"aacBacbbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s960",
+"rels": [
+"aacabbabCB",
+"abbCAAbAbc"
+],
+"tets": 6
+},
+{
+"cusps": 1,
+"gens": [
+"a",
+"b",
+"c"
+],
+"name": "s961",
+"rels": [
+"abbabCbAAc",
+"abbCaaBaBc"
+],
+"tets": 6
+}
+]
+}

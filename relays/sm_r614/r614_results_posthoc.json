@@ -1,0 +1,511 @@
+{
+ "A0": {
+  "weights": 27,
+  "algebra_dim": 78,
+  "positive_roots": 36
+ },
+ "A1": {
+  "tried": 4,
+  "matched": 4
+ },
+ "B": {
+  "eta_per_multiplet": {
+   "Q": "-2",
+   "u^c": "-2",
+   "e^c": "-2",
+   "d^c": "1",
+   "L": "1",
+   "nu^c": "-5",
+   "H_u": "4",
+   "D": "4",
+   "H_d": "1",
+   "Dbar": "1",
+   "N": "-5"
+  },
+  "gamma_matches_B1303": true,
+  "constant_on_multiplets": true,
+  "equal_on_the_two_singlets": true,
+  "orthogonal_to_SM_roots": true,
+  "killing_orthogonal_to_Y": true,
+  "beta_is_root": true,
+  "beta_dot_eta": "0",
+  "trace": "0",
+  "cubic_trace": "0",
+  "eta_in_coroot_lattice": true,
+  "eta_coords": [
+   "-5",
+   "-10",
+   "-12",
+   "-8",
+   "-4",
+   "-6"
+  ],
+  "V5_is_ker_beta": true,
+  "minus_one_of_SU2_beta_in_T5": true
+ },
+ "E": {
+  "E1 N only": {
+   "stab_dim": 45,
+   "stab_rank": 5,
+   "SM_inside": true,
+   "torus_identity_dim": 5,
+   "torus_component_group": [],
+   "matter_parity": {
+    "found": true,
+    "gf2_image_dim": 6,
+    "witness_phases": {
+     "Q": "1/2",
+     "u^c": "1/2",
+     "e^c": "1/2",
+     "d^c": "1/2",
+     "L": "1/2",
+     "nu^c": "1/2",
+     "H_u": "0",
+     "D": "0",
+     "H_d": "0",
+     "Dbar": "0",
+     "N": "0"
+    }
+   },
+   "matter_parity_nu_odd": {
+    "found": true,
+    "gf2_image_dim": 6,
+    "witness_phases": {
+     "Q": "1/2",
+     "u^c": "1/2",
+     "e^c": "1/2",
+     "d^c": "1/2",
+     "L": "1/2",
+     "nu^c": "1/2",
+     "H_u": "0",
+     "D": "0",
+     "H_d": "0",
+     "Dbar": "0",
+     "N": "0"
+    }
+   }
+  },
+  "E2 nu^c only": {
+   "stab_dim": 45,
+   "stab_rank": 5,
+   "SM_inside": true,
+   "torus_identity_dim": 5,
+   "torus_component_group": [],
+   "matter_parity": {
+    "found": false,
+    "gf2_image_dim": 6,
+    "witness_phases": null
+   },
+   "matter_parity_nu_odd": null
+  },
+  "E3 nu^c + N in one 27": {
+   "stab_dim": 45,
+   "stab_rank": 5,
+   "SM_inside": true,
+   "torus_identity_dim": 4,
+   "torus_component_group": [],
+   "matter_parity": {
+    "found": false,
+    "gf2_image_dim": 6,
+    "witness_phases": null
+   },
+   "matter_parity_nu_odd": null
+  },
+  "E3b nu^c + 2N in one 27": {
+   "stab_dim": 45,
+   "stab_rank": 5,
+   "SM_inside": true,
+   "torus_identity_dim": 4,
+   "torus_component_group": [],
+   "matter_parity": {
+    "found": false,
+    "gf2_image_dim": 6,
+    "witness_phases": null
+   },
+   "matter_parity_nu_odd": null
+  },
+  "E4 nu^c, N in two 27s": {
+   "stab_dim": 24,
+   "stab_rank": 4,
+   "SM_inside": true,
+   "torus_identity_dim": 4,
+   "torus_component_group": [],
+   "matter_parity": {
+    "found": false,
+    "gf2_image_dim": 6,
+    "witness_phases": null
+   },
+   "matter_parity_nu_odd": null
+  }
+ },
+ "E5_census": [
+  {
+   "h": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 4,
+   "odd_on_exotics": 0,
+   "sm_central": true,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 0,
+   "odd_on_exotics": 4,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 4,
+   "odd_on_exotics": 4,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 0,
+   "odd_on_exotics": 4,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 4,
+   "odd_on_exotics": 4,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 0,
+   "odd_on_exotics": 4,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 4,
+   "odd_on_exotics": 4,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 2,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 2,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 6,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 6,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 2,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 2,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 2,
+   "sm_central": false,
+   "in_SM_torus": true
+  },
+  {
+   "h": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "odd_on_15": 8,
+   "odd_on_higgs": 2,
+   "odd_on_exotics": 2,
+   "sm_central": false,
+   "in_SM_torus": true
+  }
+ ],
+ "G": {
+  "G1 nu^c": {
+   "identity_dim": 4,
+   "identity_is_SM": true,
+   "component_group_mod_SM": [],
+   "generator_phases": [],
+   "matter_parity": {
+    "found": false,
+    "gf2_image_dim": 5,
+    "witness_phases": null
+   },
+   "matter_parity_nu_odd": null,
+   "nu_nu_allowed_by_every_generator": true
+  },
+  "G2 N": {
+   "identity_dim": 4,
+   "identity_is_SM": true,
+   "component_group_mod_SM": [],
+   "generator_phases": [],
+   "matter_parity": {
+    "found": false,
+    "gf2_image_dim": 5,
+    "witness_phases": null
+   },
+   "matter_parity_nu_odd": {
+    "found": false,
+    "gf2_image_dim": 5,
+    "witness_phases": null
+   },
+   "nu_nu_allowed_by_every_generator": true
+  },
+  "G3 nu^c and N": {
+   "identity_dim": 4,
+   "identity_is_SM": true,
+   "component_group_mod_SM": [],
+   "generator_phases": [],
+   "matter_parity": {
+    "found": false,
+    "gf2_image_dim": 5,
+    "witness_phases": null
+   },
+   "matter_parity_nu_odd": null,
+   "nu_nu_allowed_by_every_generator": true
+  },
+  "eta_over_5_is_SM_element": true
+ },
+ "M": {
+  "zero_sum_triples": 45,
+  "triples_with_two_singlets": 0,
+  "minus_twice_a_singlet_is_a_weight": false,
+  "all_triples_eta_neutral": true,
+  "singlet_triples": [
+   [
+    "N",
+    "D",
+    "Dbar"
+   ],
+   [
+    "N",
+    "D",
+    "Dbar"
+   ],
+   [
+    "N",
+    "D",
+    "Dbar"
+   ],
+   [
+    "N",
+    "H_u",
+    "H_d"
+   ],
+   [
+    "N",
+    "H_u",
+    "H_d"
+   ],
+   [
+    "L",
+    "H_u",
+    "nu^c"
+   ],
+   [
+    "L",
+    "H_u",
+    "nu^c"
+   ],
+   [
+    "d^c",
+    "D",
+    "nu^c"
+   ],
+   [
+    "d^c",
+    "D",
+    "nu^c"
+   ],
+   [
+    "d^c",
+    "D",
+    "nu^c"
+   ]
+  ]
+ },
+ "P": {
+  "P1_wrong_vev_Hu_SM_inside": false,
+  "P1_wrong_vev_Hu_torus_contains_V_SM": false,
+  "P2_psi_equal_on_singlets": false,
+  "P2_chi_equal_on_singlets": false,
+  "P3_naive_Zq": {
+   "eta": "5",
+   "2eta": "10",
+   "gamma": "5/3"
+  },
+  "P3_lattice": {
+   "eta": [],
+   "2eta": [],
+   "gamma": []
+  },
+  "P4_impossible_parity_found": false,
+  "C1_positive_E1_parity_found": true,
+  "C2_positive_twice_nu_vev": {
+   "component_group": [
+    2
+   ],
+   "matter_parity": false,
+   "phases": [
+    {
+     "Q": "1/5",
+     "u^c": "1/5",
+     "e^c": "1/5",
+     "d^c": "9/10",
+     "L": "9/10",
+     "nu^c": "1/2",
+     "H_u": "3/5",
+     "D": "3/5",
+     "H_d": "9/10",
+     "Dbar": "9/10",
+     "N": "1/2"
+    }
+   ]
+  }
+ }
+}
