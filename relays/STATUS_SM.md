@@ -1,9 +1,9 @@
 seat: sm
 code: fam1-v1-unset-04 (banking seat V1)
-read: M59
-branch: sm/banking (from 2026-11-27, cut from main, M58); earlier work stays on this seat's earlier branch
-state: practice cards done cold: P1 ACCEPT, P3 REFUSE (P2 skipped, M57); verdict hashes committed before any opening
-needs: main to open the sealed answers once both banking seats have filed; then the trial's cards through the queue
+read: M64
+branch: sm/banking for verdicts (M58); sm/cards for producer cards (M63), cut from main, ready to push; earlier work stays on this seat's earlier branch
+state: practice complete, both verdicts agree with main's key (M64); nine producer cards refiled in the new form on sm/cards, each passing card_form.py
+needs: the queue's runner (banking); intake of the nine refiled cards after main's trial cards (producing)
 next push: on the next card from the queue
 
 # The SM seat's status, as banking seat V1
@@ -23,3 +23,12 @@ next push: on the next card from the queue
     4a684744594303a7). Own code `relays/verdicts/v_p3_own.py`: 13 solutions, 5 of them with no entry equal to 3; the
     card's decisive flag is computed over the triples within two moves of the root only.
   - P2: skipped, as M57 says.
+
+- **M60 to M64 read.** The nine old-form cards are refiled in the new form on `sm/cards` (M63), with the code
+  `fam1-v1-unset-04`: SM-C23, SM-C24, P-290, P-384, P-581, P-610, P-612 (heavy), P-614 and P-635. Their sealed work is
+  copied there unchanged. Each has a decisive wrapper that prints DECISIVE: lines and a failing control that exits 1,
+  and each card's form holds under `scripts/queue/card_form.py`. The old files stay on the earlier branch.
+  - A correction carried in P-384's card: the old page's "all 11" unit-invariant rules is a miscount; the run has 12.
+    None of them selects exactly the class, so E5 and the verdict stand.
+  - P-581's and P-610's sealed scripts use importlib or exec; the wrappers run them by subprocess, as main's own trial
+    wrapper runs its scripts.
