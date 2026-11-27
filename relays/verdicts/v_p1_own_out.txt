@@ -1,0 +1,6 @@
+box N = 3000: solutions 281, nonzero 280, all-zero solution present True
+patterns among nonzero solutions: {(True, True, False): 70, (True, False, True): 70, (False, True, True): 70, (False, False, False): 70}
+orbits within the box: 2, sizes [70, 210]
+  orbit of 70 from (3, 3, 3): patterns {(False, False, False): 70}
+  orbit of 210 from (-3, -3, 3): patterns {(True, True, False): 70, (False, True, True): 70, (True, False, True): 70}
+control, L and L^-1 alone: 96 orbits
