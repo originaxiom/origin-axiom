@@ -1,0 +1,4 @@
+DECISIVE: DISCRETE ok=True c=[5, 5, 5] off=[10, 10, 10] ends=[7, 7, 7] higgs=[3, 3, 3] l99=[51, 51, 51] l51=[51, 51, 51]
+DECISIVE: JACOBIAN ok=True rk10=[5, 5, 5, 5, 5, 5] rk9=[4, 4, 4, 4, 4, 4] rktau=[2, 2, 2, 2, 2, 2] rkH=[4, 4, 4, 4, 4, 4] D_eq_c2=True id_exact=True
+DECISIVE: PLANTS ok=True PL1=True PL2=True PL3=True PL4=True PL5=True PL6=True haar=True
+DECISIVE: SUMMARY all_ok=True PF=5/5 floats=0/0
