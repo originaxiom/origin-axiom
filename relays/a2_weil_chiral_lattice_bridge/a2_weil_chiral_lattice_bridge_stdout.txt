@@ -1,0 +1,4 @@
+DECISIVE: W1 ok=True pairs=220 qr=True parity_split=True iso=[5, 13, 17, 25, 29] split=[3, 7, 9, 11, 15, 19, 21, 23, 27, 31, 33, 35]
+DECISIVE: W2 ok=True psl5=60 R5_wp_om=0.25 R5_wp_i=0.3043478261 G3=216 def=0 q6_N3=[6, 0, 36, 0, 324, 0, 2916] q6_N7_m4=-494.9181751
+DECISIVE: W3 ok=True L7_bnd=True L15p_bnd=True L11_y=1.510994739 L15_y=2.267789662 L15_V=0.1043626076 L19_y=2.910076101
+DECISIVE: W4 ok=True qser_det=True qser_BD=True qser_AC=True swap=True dual=True PF=5/5 floats=0/0
