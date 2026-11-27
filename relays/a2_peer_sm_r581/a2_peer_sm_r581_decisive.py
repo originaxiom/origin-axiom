@@ -611,8 +611,11 @@ def run_all():
     # 5 independent planted fault controls
     # PF1: Abelian group Z (1 gen, 0 rels) has 0 surjections onto non-abelian 2T
     pf1 = (_count_surjections(["a", "b"], ["aB"], n2T, id2T, mul2T, inv2T, aut2T, orb2T, ok2T) == 0)
-    # PF2: Wrong hypercharge diag(1,1,1,-1,-2) is NOT traceless (sum != 0)
-    pf2 = (sum((1, 1, 1, -1, -2)) != 0)
+    # PF2: Traceless diag(1,1,1,-1,-2) fails to commute with su(2) generator E_{3,4}
+    Y_bad_comm = sp.diag(1, 1, 1, -1, -2)
+    E34 = sp.zeros(5, 5)
+    E34[3, 4] = 1
+    pf2 = (Y_bad_comm * E34 - E34 * Y_bad_comm) != sp.zeros(5, 5)
     # PF3: Wrong weak normalization Y_bad = diag(1,1,1,-3/2,-3/2) changes Tr(T3^2)/Tr(Q^2) away from 3/8
     tr_q_bad = sum((t + y) ** 2 for t, y in zip([Fr(0), Fr(0), Fr(0), Fr(1, 2), Fr(-1, 2)],
                                                 [Fr(1), Fr(1), Fr(1), Fr(-3, 2), Fr(-3, 2)]))
@@ -626,7 +629,7 @@ def run_all():
 
     pf = {
         "PF1_cyclic_group_no_2T_surjection": pf1,
-        "PF2_wrong_Y_not_traceless": pf2,
+        "PF2_wrong_Y_fails_su2_commutant": pf2,
         "PF3_wrong_Y_shifts_sin2_thetaW": pf3,
         "PF4_free_3gen_admits_Z2_cubed": pf4,
         "PF5_nonprimitive_Y_gives_Z12": pf5,
