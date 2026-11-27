@@ -2533,6 +2533,8 @@ def run_planted_fault_controls(l15_y_half: mp.mpf, qser_polys: Tuple[Any, ...]) 
     idx_s = {s: i for i, s in enumerate(sts)}
     pL = tuple(idx_s[L_tr(s)] for s in sts)
     pR = tuple(idx_s[R_tr(s)] for s in sts)
+    pC = tuple(idx_s[C_tr(s)] for s in sts)
+    pSig = tuple(idx_s[Sig_tr(s)] for s in sts)
     def comp(a, b): return tuple(a[b[i]] for i in range(len(a)))
     id_p = tuple(range(len(sts)))
     bad_map = {id_p: 0}
@@ -2541,7 +2543,7 @@ def run_planted_fault_controls(l15_y_half: mp.mpf, qser_polys: Tuple[Any, ...]) 
     while gq:
         g = gq.popleft()
         rg = bad_map[g]
-        for h, rh in ((pL, 3), (pR, 3)):
+        for h, rh in ((pL, 3), (pR, 3), (pC, 2), (pSig, 3)):
             gh = comp(h, g)
             rgh = (rg + rh) % 6
             if gh not in bad_map:
