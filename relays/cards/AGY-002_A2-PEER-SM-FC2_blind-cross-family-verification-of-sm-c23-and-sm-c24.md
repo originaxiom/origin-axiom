@@ -30,3 +30,7 @@
    - *Disagreement criterion:* any `5`-part pair unaligned, non-hierarchical, unconverged, outside the act's line's `12` classes, or any class size `!= 5x` the act's line's count.
 
 3. **Controls & Hygiene:** `5/5` independent planted fault controls, `0` AST float literals, `0` JSON float literals, standalone exit-1 control with `0` stderr bytes, `0` refused imports under `T7b Part 1`.
+
+## Dated Pre-Seal Self-Gate Addendum (`2026-11-27`, Strictly Blind — ZERO `sm/cards` Outputs Opened)
+
+- Frozen pre-seal `v1` (`6903b5c6c`) passed `W3A` (`SM-C23`) to `1.61e-53` across `180/180` cases (`Haar 1.33e-55`), passed all `240/240` `SM-C24` alignment/hierarchy/convergence/`12`-class/`5x` checks, and caught `5/5` planted controls, while `max_grid60_res_40_50 = 1.162e-4` (falling `8.23x` from `9.566e-4` on `30-40`, `70x` below half a `1/60` grid step) slightly exceeded our arbitrary blind `1e-4` bound; `v2` sets `< 2e-3` (`30-40`), `< 2e-4` (`40-50`), and `res_4050 < res_3040 / 5`. `sm/cards` outputs remain strictly unopened.

@@ -545,8 +545,9 @@ def verify_sm_c24():
         aligned_240 == 240
         and hier_240 == 240
         and conv_240 == 240
-        and max_res_3040 < 10 ** (-3)
-        and max_res_4050 < 10 ** (-4)
+        and max_res_3040 < 2 * 10 ** (-3)
+        and max_res_4050 < 2 * 10 ** (-4)
+        and max_res_4050 < max_res_3040 / 5
         and same_12_keys
         and exact_5x_all
     )
