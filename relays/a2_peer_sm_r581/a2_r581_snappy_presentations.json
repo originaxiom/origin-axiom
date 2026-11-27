@@ -1,0 +1,13507 @@
+[
+ {
+  "name": "m003",
+  "tets": 2,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAAbabbb"
+  ]
+ },
+ {
+  "name": "m004",
+  "tets": 2,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabABBAb"
+  ]
+ },
+ {
+  "name": "m006",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbAAbb"
+  ]
+ },
+ {
+  "name": "m007",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbAAbb"
+  ]
+ },
+ {
+  "name": "m009",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabABaaBAb"
+  ]
+ },
+ {
+  "name": "m010",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaBaaBab"
+  ]
+ },
+ {
+  "name": "m011",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbbbAb"
+  ]
+ },
+ {
+  "name": "m015",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbAAbbaBBB"
+  ]
+ },
+ {
+  "name": "m016",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbAbb"
+  ]
+ },
+ {
+  "name": "m017",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaaabb"
+  ]
+ },
+ {
+  "name": "m019",
+  "tets": 3,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabAbbAb"
+  ]
+ },
+ {
+  "name": "m022",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabAAb"
+  ]
+ },
+ {
+  "name": "m023",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBAbbABabbb"
+  ]
+ },
+ {
+  "name": "m026",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAbAbb"
+  ]
+ },
+ {
+  "name": "m027",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaBaaaB"
+  ]
+ },
+ {
+  "name": "m029",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbbAAbbb"
+  ]
+ },
+ {
+  "name": "m030",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbbAAbbb"
+  ]
+ },
+ {
+  "name": "m032",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBAbbbbbABB"
+  ]
+ },
+ {
+  "name": "m033",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAbbbbbAbb"
+  ]
+ },
+ {
+  "name": "m034",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbABAbb"
+  ]
+ },
+ {
+  "name": "m035",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBabbbAAbbb"
+  ]
+ },
+ {
+  "name": "m036",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAbbaaB"
+  ]
+ },
+ {
+  "name": "m037",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaaaBBaaab"
+  ]
+ },
+ {
+  "name": "m038",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBAbbbAB"
+  ]
+ },
+ {
+  "name": "m043",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbAbb"
+  ]
+ },
+ {
+  "name": "m044",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabAbbAb"
+  ]
+ },
+ {
+  "name": "m045",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaBAAAAB"
+  ]
+ },
+ {
+  "name": "m046",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbbAbbb"
+  ]
+ },
+ {
+  "name": "m052",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaabbabb"
+  ]
+ },
+ {
+  "name": "m053",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abABabbbaBAbaBAbaabAB"
+  ]
+ },
+ {
+  "name": "m054",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabbbAAbbb"
+  ]
+ },
+ {
+  "name": "m055",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBaBBabbbaabbb"
+  ]
+ },
+ {
+  "name": "m060",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbabbbaaBB"
+  ]
+ },
+ {
+  "name": "m064",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaBBaaBBabbb"
+  ]
+ },
+ {
+  "name": "m069",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAbbbAbb"
+  ]
+ },
+ {
+  "name": "m070",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaaabbabbb"
+  ]
+ },
+ {
+  "name": "m081",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaBaaaaB"
+  ]
+ },
+ {
+  "name": "m082",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbAbbb"
+  ]
+ },
+ {
+  "name": "m100",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbaab"
+  ]
+ },
+ {
+  "name": "m116",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabAbAbaabb"
+  ]
+ },
+ {
+  "name": "m117",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbABAbb"
+  ]
+ },
+ {
+  "name": "m118",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaabbbaabb"
+  ]
+ },
+ {
+  "name": "m119",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaabbaaabb"
+  ]
+ },
+ {
+  "name": "m130",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "m135",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bccABA",
+   "aacbcB"
+  ]
+ },
+ {
+  "name": "m136",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBAbcc",
+   "aaCbcB"
+  ]
+ },
+ {
+  "name": "m137",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbABBBAbb"
+  ]
+ },
+ {
+  "name": "m141",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "m142",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBabbaBaaaaB"
+  ]
+ },
+ {
+  "name": "m145",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaabb"
+  ]
+ },
+ {
+  "name": "m146",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbaaBAB"
+  ]
+ },
+ {
+  "name": "m147",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaBaBaabb"
+  ]
+ },
+ {
+  "name": "m148",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBAbaaaabAB"
+  ]
+ },
+ {
+  "name": "m149",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaBabb"
+  ]
+ },
+ {
+  "name": "m154",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbAbb"
+  ]
+ },
+ {
+  "name": "m159",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaab"
+  ]
+ },
+ {
+  "name": "m160",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAbaabbaabAb"
+  ]
+ },
+ {
+  "name": "m170",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbbAbbAbaab"
+  ]
+ },
+ {
+  "name": "m178",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbbaabbaaabbaabb"
+  ]
+ },
+ {
+  "name": "m180",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbaaabbbbb"
+  ]
+ },
+ {
+  "name": "m185",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "m206",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCbAcb",
+   "aBBcbaC"
+  ]
+ },
+ {
+  "name": "m207",
+  "tets": 4,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBaacbC",
+   "acbAccB"
+  ]
+ },
+ {
+  "name": "m039",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabABaaaaBAb"
+  ]
+ },
+ {
+  "name": "m040",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbabAAb"
+  ]
+ },
+ {
+  "name": "m047",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbAbAbb"
+  ]
+ },
+ {
+  "name": "m049",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAbbbAb"
+  ]
+ },
+ {
+  "name": "m058",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabaaBaaaaaB"
+  ]
+ },
+ {
+  "name": "m059",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBAbbbbbABBabb"
+  ]
+ },
+ {
+  "name": "m061",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbAbAbbbb"
+  ]
+ },
+ {
+  "name": "m062",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbABAbbbb"
+  ]
+ },
+ {
+  "name": "m066",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbAAbbbbabbb"
+  ]
+ },
+ {
+  "name": "m067",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBBaaaabAAAb"
+  ]
+ },
+ {
+  "name": "m071",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaabbAbb"
+  ]
+ },
+ {
+  "name": "m072",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaabAbbAb"
+  ]
+ },
+ {
+  "name": "m073",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaaaaaabaaaBB"
+  ]
+ },
+ {
+  "name": "m074",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaBBBAbbbABBB"
+  ]
+ },
+ {
+  "name": "m076",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbAbbbbbAbbbb"
+  ]
+ },
+ {
+  "name": "m077",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabABBAbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "m078",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBABaabbbb"
+  ]
+ },
+ {
+  "name": "m079",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaaaaBaaabaab"
+  ]
+ },
+ {
+  "name": "m080",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBAbbbbbbbbABBB"
+  ]
+ },
+ {
+  "name": "m083",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbAAbAAbb"
+  ]
+ },
+ {
+  "name": "m084",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBaaBaaaaabb"
+  ]
+ },
+ {
+  "name": "m085",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaaBAAB"
+  ]
+ },
+ {
+  "name": "m087",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabAAbbbAAb"
+  ]
+ },
+ {
+  "name": "m089",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaabaaaaaBB"
+  ]
+ },
+ {
+  "name": "m090",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbABBBAbbbbb"
+  ]
+ },
+ {
+  "name": "m093",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbAbbbbbbbAbbbb"
+  ]
+ },
+ {
+  "name": "m094",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBabbbbABBBAbbbb"
+  ]
+ },
+ {
+  "name": "m095",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbabbbaaBBBB"
+  ]
+ },
+ {
+  "name": "m096",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBaBBBabbbbaabbbb"
+  ]
+ },
+ {
+  "name": "m098",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbabbbbaaBBB"
+  ]
+ },
+ {
+  "name": "m099",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBBBabbbbaaabbbb"
+  ]
+ },
+ {
+  "name": "m102",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbAAAAAbb"
+  ]
+ },
+ {
+  "name": "m103",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbabbbbbaaBB"
+  ]
+ },
+ {
+  "name": "m104",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbAbbbbbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "m105",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBBaaaaabAAAAAAAb"
+  ]
+ },
+ {
+  "name": "m106",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabAAAbAAAb"
+  ]
+ },
+ {
+  "name": "m108",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabAAbbAAb"
+  ]
+ },
+ {
+  "name": "m110",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaaBaaaaaaaaB"
+  ]
+ },
+ {
+  "name": "m111",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbABBBAbbbbbaBBBBB"
+  ]
+ },
+ {
+  "name": "m112",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabbAAAbb"
+  ]
+ },
+ {
+  "name": "m113",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabAAAbbAAAb"
+  ]
+ },
+ {
+  "name": "m115",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAbbaaBBB"
+  ]
+ },
+ {
+  "name": "m120",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBAbbbbAB"
+  ]
+ },
+ {
+  "name": "m121",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabbbAbbb"
+  ]
+ },
+ {
+  "name": "m122",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabaaab"
+  ]
+ },
+ {
+  "name": "m123",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbAbbbAbb"
+  ]
+ },
+ {
+  "name": "m139",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbabaaaab"
+  ]
+ },
+ {
+  "name": "m140",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbabbaBAAAB"
+  ]
+ },
+ {
+  "name": "m143",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbaaBB"
+  ]
+ },
+ {
+  "name": "m144",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBaaaabbaaabb"
+  ]
+ },
+ {
+  "name": "m150",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaaaBaaaabb"
+  ]
+ },
+ {
+  "name": "m151",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbAbAbbb"
+  ]
+ },
+ {
+  "name": "m155",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaBaaaaaB"
+  ]
+ },
+ {
+  "name": "m157",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaBaaabbb"
+  ]
+ },
+ {
+  "name": "m161",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabAbbbbAb"
+  ]
+ },
+ {
+  "name": "m162",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBABaaabbb"
+  ]
+ },
+ {
+  "name": "m163",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaabbbbbbb"
+  ]
+ },
+ {
+  "name": "m164",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaabbbbaaabbbb"
+  ]
+ },
+ {
+  "name": "m165",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaabbbaabb"
+  ]
+ },
+ {
+  "name": "m166",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbAAbbbAAbb"
+  ]
+ },
+ {
+  "name": "m167",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "m168",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabAbAb"
+  ]
+ },
+ {
+  "name": "m169",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbAbbbbbaabb"
+  ]
+ },
+ {
+  "name": "m171",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAbbbbbAbb"
+  ]
+ },
+ {
+  "name": "m172",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbbaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "m173",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaaBBBBB"
+  ]
+ },
+ {
+  "name": "m175",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBAABaaabbb"
+  ]
+ },
+ {
+  "name": "m179",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaaabbbabbbb"
+  ]
+ },
+ {
+  "name": "m181",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbaabAbAb"
+  ]
+ },
+ {
+  "name": "m182",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaaBaaabbb"
+  ]
+ },
+ {
+  "name": "m183",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbABAbb"
+  ]
+ },
+ {
+  "name": "m184",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "m186",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaaaaabaabbbb"
+  ]
+ },
+ {
+  "name": "m188",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabAbbbAb"
+  ]
+ },
+ {
+  "name": "m189",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabbAbbAbb"
+  ]
+ },
+ {
+  "name": "m190",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaabaaabbbbb"
+  ]
+ },
+ {
+  "name": "m191",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaabaaaabbbb"
+  ]
+ },
+ {
+  "name": "m192",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBAAbbbAAB"
+  ]
+ },
+ {
+  "name": "m193",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaabbaaabbaaabbbaaabb"
+  ]
+ },
+ {
+  "name": "m194",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbAbbb"
+  ]
+ },
+ {
+  "name": "m195",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaBABaabbb"
+  ]
+ },
+ {
+  "name": "m196",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabAbbbAbbbAb"
+  ]
+ },
+ {
+  "name": "m197",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabaaabbAAbb"
+  ]
+ },
+ {
+  "name": "m198",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbAbbb"
+  ]
+ },
+ {
+  "name": "m199",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBAAABaabbbb"
+  ]
+ },
+ {
+  "name": "m200",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbaabAbbbbAb"
+  ]
+ },
+ {
+  "name": "m201",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacBCbAb",
+   "aacAcBCb"
+  ]
+ },
+ {
+  "name": "m208",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbabbAAAbb"
+  ]
+ },
+ {
+  "name": "m209",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAAbbbbAAb"
+  ]
+ },
+ {
+  "name": "m210",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAAAbaabbbbb"
+  ]
+ },
+ {
+  "name": "m211",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbABAbbaabbb"
+  ]
+ },
+ {
+  "name": "m212",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbabbbbaaabbb"
+  ]
+ },
+ {
+  "name": "m213",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "m214",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "m215",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaBaBaBaabb"
+  ]
+ },
+ {
+  "name": "m216",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaabbaabbaabb"
+  ]
+ },
+ {
+  "name": "m217",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaabaaaaabbbb"
+  ]
+ },
+ {
+  "name": "m218",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbabbbaaaabb"
+  ]
+ },
+ {
+  "name": "m219",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAbAbbaaabb"
+  ]
+ },
+ {
+  "name": "m220",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAAAbbaaBBB"
+  ]
+ },
+ {
+  "name": "m221",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBAbabbbabAB"
+  ]
+ },
+ {
+  "name": "m222",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBAbABBabbaabb"
+  ]
+ },
+ {
+  "name": "m223",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaabbaabb"
+  ]
+ },
+ {
+  "name": "m224",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBAbbABaaaBAbbABAbbAB"
+  ]
+ },
+ {
+  "name": "m225",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaabaaaaabbbb"
+  ]
+ },
+ {
+  "name": "m227",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbbaaaaabAAb"
+  ]
+ },
+ {
+  "name": "m228",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabAAAAAb"
+  ]
+ },
+ {
+  "name": "m229",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbbAbaabAbaab"
+  ]
+ },
+ {
+  "name": "m230",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaabbbabbb"
+  ]
+ },
+ {
+  "name": "m231",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaaBBaaabbb"
+  ]
+ },
+ {
+  "name": "m232",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "m233",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaaBB"
+  ]
+ },
+ {
+  "name": "m234",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaCBcB",
+   "aCabbc"
+  ]
+ },
+ {
+  "name": "m235",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbbCAc",
+   "aBAbcc"
+  ]
+ },
+ {
+  "name": "m236",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabbcc",
+   "aacbcBB"
+  ]
+ },
+ {
+  "name": "m238",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabaabbbAbbb"
+  ]
+ },
+ {
+  "name": "m239",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbabbaabbaaB"
+  ]
+ },
+ {
+  "name": "m240",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaBaBaabbabb"
+  ]
+ },
+ {
+  "name": "m241",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaabbaaabbbbb"
+  ]
+ },
+ {
+  "name": "m242",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabAbaabbaabAbaabbaabAbAb"
+  ]
+ },
+ {
+  "name": "m243",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbAbbaabb"
+  ]
+ },
+ {
+  "name": "m244",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAAAbbbaabbbb"
+  ]
+ },
+ {
+  "name": "m246",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabAAbAAbaaabb"
+  ]
+ },
+ {
+  "name": "m247",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbaBaaBabb"
+  ]
+ },
+ {
+  "name": "m248",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaaabbbaaaaabb"
+  ]
+ },
+ {
+  "name": "m249",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abaacBC",
+   "aabcbCbc"
+  ]
+ },
+ {
+  "name": "m250",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaaaaaabbb"
+  ]
+ },
+ {
+  "name": "m251",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbAAAbb"
+  ]
+ },
+ {
+  "name": "m252",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbbaabbaaabbaabbaaabbaabb"
+  ]
+ },
+ {
+  "name": "m253",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabAbbAbbbAbbAb"
+  ]
+ },
+ {
+  "name": "m255",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbbaaaaabb"
+  ]
+ },
+ {
+  "name": "m256",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbaaaaaaabbb"
+  ]
+ },
+ {
+  "name": "m257",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbbaabbaabbaabbAbb"
+  ]
+ },
+ {
+  "name": "m258",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "m259",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaaaabbaabbbbb"
+  ]
+ },
+ {
+  "name": "m260",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabABabAAbaBAb"
+  ]
+ },
+ {
+  "name": "m261",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbbbaCBB",
+   "aacbbCBB"
+  ]
+ },
+ {
+  "name": "m262",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAbabbabAbabAbbAb"
+  ]
+ },
+ {
+  "name": "m263",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbAAbbb"
+  ]
+ },
+ {
+  "name": "m266",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbbaaaaab"
+  ]
+ },
+ {
+  "name": "m267",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBabbaabbaabbaBBB"
+  ]
+ },
+ {
+  "name": "m269",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbabbbaaabbbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "m270",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabaabbAAAbbaab"
+  ]
+ },
+ {
+  "name": "m271",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAAbAAbbaaabb"
+  ]
+ },
+ {
+  "name": "m272",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaaaabbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "m273",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaaaaaaabbb"
+  ]
+ },
+ {
+  "name": "m275",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbaabAbaabbb"
+  ]
+ },
+ {
+  "name": "m276",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbbbbaabbb"
+  ]
+ },
+ {
+  "name": "m277",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbAAbbAAbb"
+  ]
+ },
+ {
+  "name": "m278",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbbbabbbaaabbb"
+  ]
+ },
+ {
+  "name": "m279",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaabbbaaabbaaaabbaaabb"
+  ]
+ },
+ {
+  "name": "m280",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabaaabaabbb"
+  ]
+ },
+ {
+  "name": "m281",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaaaaabbaabbaabbb"
+  ]
+ },
+ {
+  "name": "m282",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "m284",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbCC",
+   "aaaccbcb"
+  ]
+ },
+ {
+  "name": "m285",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaBabbaabAb"
+  ]
+ },
+ {
+  "name": "m286",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaBAbaaabAB"
+  ]
+ },
+ {
+  "name": "m287",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaaabbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "m288",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbaBabbb"
+  ]
+ },
+ {
+  "name": "m289",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbbaabbaBAABBAAB"
+  ]
+ },
+ {
+  "name": "m290",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaBaBaabbb"
+  ]
+ },
+ {
+  "name": "m291",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbbbAbb"
+  ]
+ },
+ {
+  "name": "m293",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBabaaaabaaaab"
+  ]
+ },
+ {
+  "name": "m294",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaabbbaBabbaB"
+  ]
+ },
+ {
+  "name": "m296",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabAAAAAbaabbaabbb"
+  ]
+ },
+ {
+  "name": "m297",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaaabbbaaaabbbaB"
+  ]
+ },
+ {
+  "name": "m299",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaabbaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "m300",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBaabbaaabb"
+  ]
+ },
+ {
+  "name": "m302",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbAAbbbaBBabaBB"
+  ]
+ },
+ {
+  "name": "m303",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabbAbbbAbb"
+  ]
+ },
+ {
+  "name": "m304",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaBBAABBabbbaBB"
+  ]
+ },
+ {
+  "name": "m305",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacbCB",
+   "abAcbcc"
+  ]
+ },
+ {
+  "name": "m306",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBAccb",
+   "aaacabCb"
+  ]
+ },
+ {
+  "name": "m307",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bccbAA",
+   "aaaCabcB"
+  ]
+ },
+ {
+  "name": "m310",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBAbabABaaBAbbbbAB"
+  ]
+ },
+ {
+  "name": "m312",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbAbAbbb"
+  ]
+ },
+ {
+  "name": "m316",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaaaabbaaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "m318",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabbAAbb"
+  ]
+ },
+ {
+  "name": "m319",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabABabABabbbbaBAbaBAb"
+  ]
+ },
+ {
+  "name": "m320",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaBabbaabbaabbb"
+  ]
+ },
+ {
+  "name": "m322",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbaaabbaBab"
+  ]
+ },
+ {
+  "name": "m326",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaaabbaaaabb"
+  ]
+ },
+ {
+  "name": "m335",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbaabbbaaabb"
+  ]
+ },
+ {
+  "name": "m336",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbaabbbaaab"
+  ]
+ },
+ {
+  "name": "m337",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbABAbbbaabbbb"
+  ]
+ },
+ {
+  "name": "m338",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbAbAbbb"
+  ]
+ },
+ {
+  "name": "m339",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbAbbbaabbb"
+  ]
+ },
+ {
+  "name": "m340",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbaaBAAABBAAAB"
+  ]
+ },
+ {
+  "name": "m342",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaabbaBBBabb"
+  ]
+ },
+ {
+  "name": "m343",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbabbbaaBBaBB"
+  ]
+ },
+ {
+  "name": "m345",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabABBAb"
+  ]
+ },
+ {
+  "name": "m346",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaabbbaabbAbb"
+  ]
+ },
+ {
+  "name": "m349",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBabbbaBBabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "m350",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbAbbAbbb"
+  ]
+ },
+ {
+  "name": "m351",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbaaaabbaaaabb"
+  ]
+ },
+ {
+  "name": "m352",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "m356",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abaBabbaabbaabbaB"
+  ]
+ },
+ {
+  "name": "m358",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaabbbaaabbbaabbbb"
+  ]
+ },
+ {
+  "name": "m360",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbabbbaaab"
+  ]
+ },
+ {
+  "name": "m361",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbaabbbaabbaabbaaabbaabbaabb"
+  ]
+ },
+ {
+  "name": "m363",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbabbabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "m364",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBabbabbabbaB"
+  ]
+ },
+ {
+  "name": "m368",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBabbaBBBabbaaaabb"
+  ]
+ },
+ {
+  "name": "m369",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaCbcB",
+   "aCAbbbbc"
+  ]
+ },
+ {
+  "name": "m370",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaabcbC",
+   "aCacbbb"
+  ]
+ },
+ {
+  "name": "m371",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbABAcc",
+   "aacBcbb"
+  ]
+ },
+ {
+  "name": "m372",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acAcabb",
+   "acabcbcb"
+  ]
+ },
+ {
+  "name": "m373",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbCbAc",
+   "aCaBabc"
+  ]
+ },
+ {
+  "name": "m374",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbabbbaaabb"
+  ]
+ },
+ {
+  "name": "m376",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaabAb"
+  ]
+ },
+ {
+  "name": "m378",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaBabbaBabb"
+  ]
+ },
+ {
+  "name": "m385",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaabbbaaabbbbaaabbb"
+  ]
+ },
+ {
+  "name": "m389",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaBBAABBabbb"
+  ]
+ },
+ {
+  "name": "m390",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBacBcb",
+   "abaCAbc"
+  ]
+ },
+ {
+  "name": "m392",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbAbbbaabbbaabbbb"
+  ]
+ },
+ {
+  "name": "m393",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbbbbaabbbbbaabb"
+  ]
+ },
+ {
+  "name": "m395",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbaabbbaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "m397",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaabaaabbbabbbaaabbb"
+  ]
+ },
+ {
+  "name": "m400",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabCbbCbcc",
+   "abCbAbcc"
+  ]
+ },
+ {
+  "name": "m401",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbbAbaaabAbbAbbbAbbAb"
+  ]
+ },
+ {
+  "name": "m402",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbbbaabbbaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "m403",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "accbcccbAb",
+   "accaBBB"
+  ]
+ },
+ {
+  "name": "m410",
+  "tets": 5,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBCbcAbc",
+   "aBcAcb"
+  ]
+ },
+ {
+  "name": "s000",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaBAbbAB"
+  ]
+ },
+ {
+  "name": "s001",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBaaaaaaaB"
+  ]
+ },
+ {
+  "name": "s002",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaBaabbbbb"
+  ]
+ },
+ {
+  "name": "s003",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbaBaaaB"
+  ]
+ },
+ {
+  "name": "s004",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaaaBaabaaaaab"
+  ]
+ },
+ {
+  "name": "s005",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaBBAbbbbbABB"
+  ]
+ },
+ {
+  "name": "s006",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbbbbAAbbbbb"
+  ]
+ },
+ {
+  "name": "s007",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaaBAB"
+  ]
+ },
+ {
+  "name": "s008",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaabaaaaaBB"
+  ]
+ },
+ {
+  "name": "s009",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaaBAAAAB"
+  ]
+ },
+ {
+  "name": "s010",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAbbaabbbaabbbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s011",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBaaaBabbaBabbaBabbaBabbaB"
+  ]
+ },
+ {
+  "name": "s012",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbaBBBAbbbABBB"
+  ]
+ },
+ {
+  "name": "s013",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbabbbbbAAbbbbb"
+  ]
+ },
+ {
+  "name": "s014",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBAAAAAABaaaaabb"
+  ]
+ },
+ {
+  "name": "s015",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaBaaaaaaBaaab"
+  ]
+ },
+ {
+  "name": "s016",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaBBBBAbbbbbABBBB"
+  ]
+ },
+ {
+  "name": "s017",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbAbbbbbbbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s018",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBAAAbaaaaaabAAAB"
+  ]
+ },
+ {
+  "name": "s019",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabbbAbbbbbbAbbb"
+  ]
+ },
+ {
+  "name": "s020",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbAAbAAbb"
+  ]
+ },
+ {
+  "name": "s021",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBabbbbbbbbbaBB"
+  ]
+ },
+ {
+  "name": "s022",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbaabbbaabbaabbaabbaabbaaabb"
+  ]
+ },
+ {
+  "name": "s023",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBabbaBAABabbaBAABabbaBAABabbaBAAB"
+  ]
+ },
+ {
+  "name": "s024",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBaaaaaaaaaaaBaaaabb"
+  ]
+ },
+ {
+  "name": "s025",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBAAAAbaaaaaaabAAAAB"
+  ]
+ },
+ {
+  "name": "s026",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBBBaabbbbabbbb"
+  ]
+ },
+ {
+  "name": "s027",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbbbaBBBBaaaBBBB"
+  ]
+ },
+ {
+  "name": "s028",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaBaaBaaaaaaabb"
+  ]
+ },
+ {
+  "name": "s029",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaaaaaaaBAAB"
+  ]
+ },
+ {
+  "name": "s030",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaBaaaBaaaaaaabb"
+  ]
+ },
+ {
+  "name": "s031",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaaaaaaaBAAAB"
+  ]
+ },
+ {
+  "name": "s032",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbabbbbbaaBBBB"
+  ]
+ },
+ {
+  "name": "s033",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbAAbbbbbbbabbbb"
+  ]
+ },
+ {
+  "name": "s034",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbABBBBAbbbbbbb"
+  ]
+ },
+ {
+  "name": "s035",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAAAAAAAAAbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s036",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaaBBBaBBB"
+  ]
+ },
+ {
+  "name": "s037",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBBabbbbbbbbbbaBBB"
+  ]
+ },
+ {
+  "name": "s038",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaaaaBBaaaaaaab"
+  ]
+ },
+ {
+  "name": "s039",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaaaaaaaBAAAAAB"
+  ]
+ },
+ {
+  "name": "s040",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbbbbbbabbbbbAAbbbbb"
+  ]
+ },
+ {
+  "name": "s041",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaBBBBBAbbbbbbbABBBBB"
+  ]
+ },
+ {
+  "name": "s042",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabaaaaaaabbAAbb"
+  ]
+ },
+ {
+  "name": "s043",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaBBBaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s044",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbbaaaaaaabAAAAAAAAAb"
+  ]
+ },
+ {
+  "name": "s045",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbbbbbaBBBaaaBBB"
+  ]
+ },
+ {
+  "name": "s046",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbbAbbbAbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s047",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabbbccb",
+   "aaaaaBCCBc"
+  ]
+ },
+ {
+  "name": "s048",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaaBAAAAAbaaaaabAAAAAB"
+  ]
+ },
+ {
+  "name": "s049",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaaabaaaaaaaaaabaaaaaB"
+  ]
+ },
+ {
+  "name": "s050",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaabbAAAAAAAbb"
+  ]
+ },
+ {
+  "name": "s051",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaaaCCBB",
+   "aacaabbbcc"
+  ]
+ },
+ {
+  "name": "s052",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBBBBBabbbbbbbAAbbbbbbb"
+  ]
+ },
+ {
+  "name": "s053",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaaaaabAAAAbbbAAAAb"
+  ]
+ },
+ {
+  "name": "s054",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabbbbbbbbAAbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s055",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaabbaaaaaaaaBAAAAAB"
+  ]
+ },
+ {
+  "name": "s056",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbabbaaabbbaaabbabbaaabbbaaabbbaaabbabbaaabbb"
+  ]
+ },
+ {
+  "name": "s057",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabAAACbcc",
+   "aaaaCbcB"
+  ]
+ },
+ {
+  "name": "s058",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabaaaaaaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s059",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbbbAbaabAbaabAbaabAbbbAbaabAbaabAbbbAbaabAb"
+  ]
+ },
+ {
+  "name": "s060",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaBaaaaaaaaaaaBaaaaaaabb"
+  ]
+ },
+ {
+  "name": "s061",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabAAAAAAAbaaaaaaaBAAAAB"
+  ]
+ },
+ {
+  "name": "s062",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbabbbbbaaBBBBBBB"
+  ]
+ },
+ {
+  "name": "s063",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabaaaaaaabbAAAAbb"
+  ]
+ },
+ {
+  "name": "s064",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaBaaaaaaaaaaaaBaaaaaaabb"
+  ]
+ },
+ {
+  "name": "s065",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBabbbbbbbABBBBBBBAbbbbbbb"
+  ]
+ },
+ {
+  "name": "s066",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbbbbbbaBBBBBaaaBBBBB"
+  ]
+ },
+ {
+  "name": "s067",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAbaabAbaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s068",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbbaaBBBaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s069",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbbbAbaabAbaabAbaabAbbbAbaabAbaabAbaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s070",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbbAbbbbbbbbbbbAbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s071",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacAAABcbb",
+   "aaaaaBcbC"
+  ]
+ },
+ {
+  "name": "s072",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbabbbbbbbaaBBBBB"
+  ]
+ },
+ {
+  "name": "s073",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaaBBBBBBBBaabbbbb"
+  ]
+ },
+ {
+  "name": "s074",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbaaabbbbbbbaBBBBBBBBBBBB"
+  ]
+ },
+ {
+  "name": "s075",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbbbAbaaabAbbbAbaabAbbbAbaaabAbbbAbaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s076",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbbbbbbbabbbbbbbbAAbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s077",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBabbbbbbbbABBBBBBBBAbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s078",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbAbbaabbAbbaabbbaabbAbbaabbAbbaabbbaabbAbb"
+  ]
+ },
+ {
+  "name": "s079",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s080",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaaBAB"
+  ]
+ },
+ {
+  "name": "s081",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbAABAAbb"
+  ]
+ },
+ {
+  "name": "s082",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaaBaabbbbb"
+  ]
+ },
+ {
+  "name": "s083",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbaabaaab"
+  ]
+ },
+ {
+  "name": "s084",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbAbbaaaaB"
+  ]
+ },
+ {
+  "name": "s085",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaabbAAAAbb"
+  ]
+ },
+ {
+  "name": "s086",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaaaBaaaaabb"
+  ]
+ },
+ {
+  "name": "s087",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbaaBBBBB"
+  ]
+ },
+ {
+  "name": "s088",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaaaaBaaaaabb"
+  ]
+ },
+ {
+  "name": "s089",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbAAAbbaaaaB"
+  ]
+ },
+ {
+  "name": "s090",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBAbbbAB"
+  ]
+ },
+ {
+  "name": "s091",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaaabbbbbaabbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s092",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaaabbbbaabbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s093",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBaaaaabbAAbb"
+  ]
+ },
+ {
+  "name": "s094",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbAAbbbAAbb"
+  ]
+ },
+ {
+  "name": "s095",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaaaaaaaaabb"
+  ]
+ },
+ {
+  "name": "s096",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabaaaab"
+  ]
+ },
+ {
+  "name": "s097",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbAbbbbbaaBBB"
+  ]
+ },
+ {
+  "name": "s098",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbbbbAbbbbbbb"
+  ]
+ },
+ {
+  "name": "s099",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaaaaaBaaaaaaabb"
+  ]
+ },
+ {
+  "name": "s100",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaaaaaaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "s101",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbAAAbbbAAAbb"
+  ]
+ },
+ {
+  "name": "s102",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaaabbaaaaaaaB"
+  ]
+ },
+ {
+  "name": "s103",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaBaaaaaaabbaabb"
+  ]
+ },
+ {
+  "name": "s104",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaaaaaaaaabbaaaabbb"
+  ]
+ },
+ {
+  "name": "s105",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbaaaabbAAAAAAAbb"
+  ]
+ },
+ {
+  "name": "s106",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbbbbbbbbbaabbb"
+  ]
+ },
+ {
+  "name": "s107",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaaaBBBaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s108",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbbbbbbAb"
+  ]
+ },
+ {
+  "name": "s109",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaabbaaaaabbaaaaaaaaB"
+  ]
+ },
+ {
+  "name": "s110",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaabbaaabbaaaaaaaaB"
+  ]
+ },
+ {
+  "name": "s111",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaaabbbbbbbaabbbbbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s112",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbAAbbcc",
+   "aabcccccBB"
+  ]
+ },
+ {
+  "name": "s113",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAbbaabbAbbbAbbaabbAbbbAbbaabbAbbaabbAbbbAbb"
+  ]
+ },
+ {
+  "name": "s114",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbbbbbbbaabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s115",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAbbbbAb"
+  ]
+ },
+ {
+  "name": "s116",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbAbAbbbb"
+  ]
+ },
+ {
+  "name": "s117",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbAbAbbb"
+  ]
+ },
+ {
+  "name": "s118",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBAbbbbAB"
+  ]
+ },
+ {
+  "name": "s119",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaBABAB"
+  ]
+ },
+ {
+  "name": "s120",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbaaaaBAB"
+  ]
+ },
+ {
+  "name": "s121",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaabbbaaaaB"
+  ]
+ },
+ {
+  "name": "s122",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbAbbAbbb"
+  ]
+ },
+ {
+  "name": "s123",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbaabbaabbaabbaabbaB"
+  ]
+ },
+ {
+  "name": "s124",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAbbbbbbbAbb"
+  ]
+ },
+ {
+  "name": "s125",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbaabbABAbb"
+  ]
+ },
+ {
+  "name": "s126",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaaaabbbbabbbbb"
+  ]
+ },
+ {
+  "name": "s127",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbABBBAbbbb"
+  ]
+ },
+ {
+  "name": "s128",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbAbbbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s129",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbABAbbb"
+  ]
+ },
+ {
+  "name": "s130",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbbaaaaaabbb"
+  ]
+ },
+ {
+  "name": "s131",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabAbbbbbAb"
+  ]
+ },
+ {
+  "name": "s132",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbaabbaabAbaabAbaabAbAb"
+  ]
+ },
+ {
+  "name": "s133",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbabbbbbaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s134",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBAbbbbbbbABB"
+  ]
+ },
+ {
+  "name": "s135",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbabbbbbbbabb"
+  ]
+ },
+ {
+  "name": "s136",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbAbbAbbbbb"
+  ]
+ },
+ {
+  "name": "s137",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaaabbbbbbaaab"
+  ]
+ },
+ {
+  "name": "s138",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaaabbbaaaaaB"
+  ]
+ },
+ {
+  "name": "s139",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "s140",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s141",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbbaaaabAAAAAb"
+  ]
+ },
+ {
+  "name": "s142",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbAbbbbbAbb"
+  ]
+ },
+ {
+  "name": "s143",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaBaaaaaaaaB"
+  ]
+ },
+ {
+  "name": "s144",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbABBAbbbbb"
+  ]
+ },
+ {
+  "name": "s145",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbaaaaBAAAAAB"
+  ]
+ },
+ {
+  "name": "s146",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbAbbbbbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s147",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbABAbbaabbbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s148",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaabbbAbbb"
+  ]
+ },
+ {
+  "name": "s149",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaBaaaBaaaB"
+  ]
+ },
+ {
+  "name": "s150",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabAAbbbbAAb"
+  ]
+ },
+ {
+  "name": "s151",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaBAAAbbbAAAB"
+  ]
+ },
+ {
+  "name": "s152",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbabbbbaaaabbbb"
+  ]
+ },
+ {
+  "name": "s153",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaaaaaBAAAB"
+  ]
+ },
+ {
+  "name": "s154",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaaabaaabbbbb"
+  ]
+ },
+ {
+  "name": "s155",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbaabbbbbb"
+  ]
+ },
+ {
+  "name": "s156",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaaBaaabbbb"
+  ]
+ },
+ {
+  "name": "s157",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaabbbAbbb"
+  ]
+ },
+ {
+  "name": "s158",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaaabbbabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s159",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabAAAbbbbAAAb"
+  ]
+ },
+ {
+  "name": "s160",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaaabbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s161",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbaaBAB"
+  ]
+ },
+ {
+  "name": "s162",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbabbbbbaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s163",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbaaaabbbbbbbabb"
+  ]
+ },
+ {
+  "name": "s164",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaaaaaBaaaaaaaB"
+  ]
+ },
+ {
+  "name": "s165",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s166",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBBAbbbbbbbbABBB"
+  ]
+ },
+ {
+  "name": "s167",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abaaaaababbbabbb"
+  ]
+ },
+ {
+  "name": "s168",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbbbbbaaaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s169",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbabbbbaaaB"
+  ]
+ },
+ {
+  "name": "s170",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBAAAAAAABaaaabbb"
+  ]
+ },
+ {
+  "name": "s171",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbabbbbbbbaaaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s172",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaaabbaabbbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s173",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBAbbbbAB"
+  ]
+ },
+ {
+  "name": "s174",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbABAbbaabbaabbaabbABAbbaabb"
+  ]
+ },
+ {
+  "name": "s175",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbABBBAbb"
+  ]
+ },
+ {
+  "name": "s176",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBaaaaaaaaBaaaaabbb"
+  ]
+ },
+ {
+  "name": "s177",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaaaabbbbaBBBBBBB"
+  ]
+ },
+ {
+  "name": "s178",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbaaabAbaaabAbaaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s179",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbbabbbbbaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s180",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabaaaaabAAbbAAb"
+  ]
+ },
+ {
+  "name": "s181",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBaaaaBBBabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s182",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBabbbbbbbaaaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s183",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s184",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbaabAAAb"
+  ]
+ },
+ {
+  "name": "s185",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaabAbAbaaabb"
+  ]
+ },
+ {
+  "name": "s186",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbbbbbbaaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s187",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbABAbbaabbbaabbABAbbaabbABAbb"
+  ]
+ },
+ {
+  "name": "s188",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbABBBBBBBAbbbbb"
+  ]
+ },
+ {
+  "name": "s189",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBBBabbbbbaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s190",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaaaabaaaaabbb"
+  ]
+ },
+ {
+  "name": "s191",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abacccbAAb",
+   "aaBcccccB"
+  ]
+ },
+ {
+  "name": "s192",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbAAbAAbbb"
+  ]
+ },
+ {
+  "name": "s193",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bCbAAcc",
+   "aaaaaccBB"
+  ]
+ },
+ {
+  "name": "s194",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbABBBBBBBBAbbbbb"
+  ]
+ },
+ {
+  "name": "s195",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbABAbbaabbABAbbaabbaabbABAbbaabb"
+  ]
+ },
+ {
+  "name": "s196",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbbaaaaabAAAAAAAAb"
+  ]
+ },
+ {
+  "name": "s197",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbAAbbAAbbb"
+  ]
+ },
+ {
+  "name": "s198",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abaababbAbAbAbb"
+  ]
+ },
+ {
+  "name": "s199",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s200",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s201",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBBBaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s202",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacbcBB",
+   "aaaaabbcc"
+  ]
+ },
+ {
+  "name": "s203",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbAAAAbbb"
+  ]
+ },
+ {
+  "name": "s204",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbAbbbAbbbAbb"
+  ]
+ },
+ {
+  "name": "s205",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbAbbbbbAbbb"
+  ]
+ },
+ {
+  "name": "s206",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbbaaBAB"
+  ]
+ },
+ {
+  "name": "s207",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaaabbbbbaaaab"
+  ]
+ },
+ {
+  "name": "s208",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaaaabbbabbbbb"
+  ]
+ },
+ {
+  "name": "s209",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabAbaabbaabAbaabbaabAbaabbaabAbAb"
+  ]
+ },
+ {
+  "name": "s210",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbaabbaabbaabb"
+  ]
+ },
+ {
+  "name": "s211",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaabbbbaaaBBB"
+  ]
+ },
+ {
+  "name": "s212",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s213",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbAABAAbb"
+  ]
+ },
+ {
+  "name": "s214",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBBaaabbbbabbbb"
+  ]
+ },
+ {
+  "name": "s215",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbabbaaabbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s216",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBaaaabbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s217",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbbaabbaaabbaabbaaabbaabbaaabbaabb"
+  ]
+ },
+ {
+  "name": "s218",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaabbbbaaabbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s219",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabaabbAbbaabaabbbaabaabbbaab"
+  ]
+ },
+ {
+  "name": "s220",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbAAAAAbbb"
+  ]
+ },
+ {
+  "name": "s221",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbbAAAbbbb"
+  ]
+ },
+ {
+  "name": "s222",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaaBBBBBaaabbb"
+  ]
+ },
+ {
+  "name": "s223",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbbbbbbbbaaabb"
+  ]
+ },
+ {
+  "name": "s224",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbaaBaaB"
+  ]
+ },
+ {
+  "name": "s225",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBBBaaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s226",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaabbbbbaaaBB"
+  ]
+ },
+ {
+  "name": "s227",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbABAbbABAbb"
+  ]
+ },
+ {
+  "name": "s228",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbaBBaaaBBaaaBB"
+  ]
+ },
+ {
+  "name": "s229",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBBBabbbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s230",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbaBBBaBBBabbbb"
+  ]
+ },
+ {
+  "name": "s231",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBaabbabbabbabbaaB"
+  ]
+ },
+ {
+  "name": "s232",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBAAbbbbAAB"
+  ]
+ },
+ {
+  "name": "s233",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s234",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbaaabAbbbAbaaabAbbbAbaaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s235",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbbaaabbbaB"
+  ]
+ },
+ {
+  "name": "s236",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbbaaaaabbbaaaaaaab"
+  ]
+ },
+ {
+  "name": "s237",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbAbbaabbaabb"
+  ]
+ },
+ {
+  "name": "s238",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAAAAbabbbabbbabbb"
+  ]
+ },
+ {
+  "name": "s239",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbAABBBAAbb"
+  ]
+ },
+ {
+  "name": "s240",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabaaaaaaabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "s241",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbaaabbbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s242",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaaabbbbbaaabbbbbaBBBBBBB"
+  ]
+ },
+ {
+  "name": "s243",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s244",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabAbAb"
+  ]
+ },
+ {
+  "name": "s245",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbbaaabbbaaaaaaab"
+  ]
+ },
+ {
+  "name": "s246",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbabbbbbbbabbaaabb"
+  ]
+ },
+ {
+  "name": "s247",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbabbbbbaaaBBB"
+  ]
+ },
+ {
+  "name": "s248",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaBaBabbaabbaBaBabbaabbaBaBabbaabbaBabb"
+  ]
+ },
+ {
+  "name": "s249",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s250",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbaabAbbbbbAb"
+  ]
+ },
+ {
+  "name": "s251",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbbbabbbbbbbaaabbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s252",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBAAAABaaabbbb"
+  ]
+ },
+ {
+  "name": "s253",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBaaabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s254",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbaBAAAB"
+  ]
+ },
+ {
+  "name": "s255",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaaabbaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s256",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabAbbbbAb"
+  ]
+ },
+ {
+  "name": "s257",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaabbbbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s258",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabaaaaaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s259",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAbbAbbbAbbAb"
+  ]
+ },
+ {
+  "name": "s260",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAAbbbbbAAb"
+  ]
+ },
+ {
+  "name": "s261",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBBBBabbbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s262",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaabbbbaaabbbbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s263",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaabbAAAbAAAbb"
+  ]
+ },
+ {
+  "name": "s264",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbaaabaaabbAAAAbb"
+  ]
+ },
+ {
+  "name": "s265",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbbbbbbbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s266",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaaabbbbbaaabbbbbaBBBBBBBB"
+  ]
+ },
+ {
+  "name": "s267",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaaabbaaaaBBB"
+  ]
+ },
+ {
+  "name": "s268",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaabbbaaaaabbbaaaaaaaab"
+  ]
+ },
+ {
+  "name": "s269",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabAAbbAAbbAAb"
+  ]
+ },
+ {
+  "name": "s270",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbaaabbaabbbaabbaaabbaabbbaabbaaabbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s271",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabAbaaaabAbaaaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s272",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaabbaaabbaaaabbbaaaabbaaabbaaaabb"
+  ]
+ },
+ {
+  "name": "s273",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaabbaaaabaaaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s274",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbbaBaaBabbbaBabbbabbb"
+  ]
+ },
+ {
+  "name": "s275",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBBaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s276",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaabbbaaabbbaaaaaaaab"
+  ]
+ },
+ {
+  "name": "s277",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaabbbbbaaabbbbbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s278",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBaaBBaabbbAbbb"
+  ]
+ },
+ {
+  "name": "s279",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbAAbbbbbAAbb"
+  ]
+ },
+ {
+  "name": "s280",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabbAAbbAAbb"
+  ]
+ },
+ {
+  "name": "s281",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaabAbaabAbaabAb"
+  ]
+ },
+ {
+  "name": "s282",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaBBBBBaabbbabbbaabbb"
+  ]
+ },
+ {
+  "name": "s283",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbabbbbbaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s284",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbAAAbAAAbbaaaaabb"
+  ]
+ },
+ {
+  "name": "s285",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBabbbbbabbbbbaBBBaaBBB"
+  ]
+ },
+ {
+  "name": "s286",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbbbabbbbbaaabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s287",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbaBaaaB"
+  ]
+ },
+ {
+  "name": "s288",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaabbbaaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s289",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbaBabbaBaaBabbaBabbaBabbabb"
+  ]
+ },
+ {
+  "name": "s290",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbaabaabaab"
+  ]
+ },
+ {
+  "name": "s291",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBBaaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s292",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbbbaaabbaaaabb"
+  ]
+ },
+ {
+  "name": "s293",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaabbbaaaabbaaaabAAAAAb"
+  ]
+ },
+ {
+  "name": "s294",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabaaabbaaabbAbb"
+  ]
+ },
+ {
+  "name": "s295",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaabbbbbaaabbbbbbbbbbbbb"
+  ]
+ },
+ {
+  "name": "s296",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbabABaaBAb"
+  ]
+ },
+ {
+  "name": "s297",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbaaBaabb"
+  ]
+ },
+ {
+  "name": "s298",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "accccBAb",
+   "aaCbcB"
+  ]
+ },
+ {
+  "name": "s299",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bAccccBA",
+   "aacbcB"
+  ]
+ },
+ {
+  "name": "s300",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbAAbbbbAAbbb"
+  ]
+ },
+ {
+  "name": "s301",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "s302",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaabbbaaaBBBB"
+  ]
+ },
+ {
+  "name": "s303",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbbbaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s304",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbbAAbbbb"
+  ]
+ },
+ {
+  "name": "s305",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaaabbaabbaaabbaabbbaabbaaabbaabbbaabbaaabbaabbaaabb"
+  ]
+ },
+ {
+  "name": "s306",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbaaBBBBaabbb"
+  ]
+ },
+ {
+  "name": "s307",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbAAAbbaaaaabaaaaabbaaaaab"
+  ]
+ },
+ {
+  "name": "s308",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "s309",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaaaabaaaabbbb"
+  ]
+ },
+ {
+  "name": "s310",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbbaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s311",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaBaBaabbabbabb"
+  ]
+ },
+ {
+  "name": "s312",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaaBAAAAAB"
+  ]
+ },
+ {
+  "name": "s313",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbAAbbabaaab"
+  ]
+ },
+ {
+  "name": "s314",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaaabbbbaaaBBB"
+  ]
+ },
+ {
+  "name": "s315",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s316",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbbaaBaB"
+  ]
+ },
+ {
+  "name": "s317",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s318",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaaaaaabbbaaBB"
+  ]
+ },
+ {
+  "name": "s319",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAAAAAbbaaaBBB"
+  ]
+ },
+ {
+  "name": "s320",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbAAAAAbbaabbb"
+  ]
+ },
+ {
+  "name": "s321",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabaabbaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s322",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbbbAAAbbbbb"
+  ]
+ },
+ {
+  "name": "s323",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbbaabbbaabbbbaaabbbbaabbbaabbbb"
+  ]
+ },
+ {
+  "name": "s324",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbAAAbbbbbaabbb"
+  ]
+ },
+ {
+  "name": "s325",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabbbaaaaabbaaaaabbaaaaabAAbaaaaabb"
+  ]
+ },
+ {
+  "name": "s326",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbbAAbbbb"
+  ]
+ },
+ {
+  "name": "s327",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbbbaaaaabAAb"
+  ]
+ },
+ {
+  "name": "s328",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbbaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s329",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaabbaaaaabbaaabbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "s330",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaaaabbbaaBBBBB"
+  ]
+ },
+ {
+  "name": "s331",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbAAbbbaaaaabbbb"
+  ]
+ },
+ {
+  "name": "s332",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaaabbbaaabbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s333",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaabbaaaaabbaaaabbbaaaabb"
+  ]
+ },
+ {
+  "name": "s334",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbAAAAAbbb"
+  ]
+ },
+ {
+  "name": "s335",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "s336",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbaabbaabbAbbaabbaabb"
+  ]
+ },
+ {
+  "name": "s337",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbbaabbbbbbbaabbbb"
+  ]
+ },
+ {
+  "name": "s338",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaaabbbbaabbbbaaBaabbbb"
+  ]
+ },
+ {
+  "name": "s339",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabbbcc",
+   "aaCCbcb"
+  ]
+ },
+ {
+  "name": "s340",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAAAAAbbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s341",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabaaabbaaabbAAbb"
+  ]
+ },
+ {
+  "name": "s342",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaaabbbaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s343",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaccBBB",
+   "bbbbAcAcc"
+  ]
+ },
+ {
+  "name": "s344",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaabbbbbbbaabb"
+  ]
+ },
+ {
+  "name": "s345",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabaBabbAAAbb"
+  ]
+ },
+ {
+  "name": "s346",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbbaaaaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s347",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCCbb",
+   "acabbbbbcc"
+  ]
+ },
+ {
+  "name": "s348",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abababbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s349",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBaaabbbaaaB"
+  ]
+ },
+ {
+  "name": "s350",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBAbaaaaaabAB"
+  ]
+ },
+ {
+  "name": "s351",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaaaaaabbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s352",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaaaaaaabAAAAAbaaaaaaabbaaaaaaabbb"
+  ]
+ },
+ {
+  "name": "s353",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaBBaBBabbbaabbb"
+  ]
+ },
+ {
+  "name": "s354",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaabbbbbAAAbbbbb"
+  ]
+ },
+ {
+  "name": "s355",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbAbaaabbaaabAbaaabbaaabAbaaabb"
+  ]
+ },
+ {
+  "name": "s356",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaabbbbaabbbbbbbaabbbbaabbbb"
+  ]
+ },
+ {
+  "name": "s357",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabbbaaaaabbaaaaabbaaaaaaabb"
+  ]
+ },
+ {
+  "name": "s358",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbbaabAAAAAb"
+  ]
+ },
+ {
+  "name": "s359",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAAAbbaaBaaB"
+  ]
+ },
+ {
+  "name": "s360",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbaabbaabAAAAAAAb"
+  ]
+ },
+ {
+  "name": "s361",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabAAAAAAAb"
+  ]
+ },
+ {
+  "name": "s362",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbbaabbbbbAAAbbbbb"
+  ]
+ },
+ {
+  "name": "s363",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbbbaaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s364",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaabbbbaBBBBBBBabbbbaabbbb"
+  ]
+ },
+ {
+  "name": "s365",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBabbbaaabbbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s366",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaaabbbaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s367",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaaaaabbaabbaabbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s368",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbbCC",
+   "acaccbbbbb"
+  ]
+ },
+ {
+  "name": "s369",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbbaaabbbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s370",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaabAAAAbaaabbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "s371",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbbbaabbbaabbbb"
+  ]
+ },
+ {
+  "name": "s372",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaaaaabbaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s373",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbAAbbbaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s374",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbAAbbbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s375",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaaaaaabbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "s376",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabbbaaaaabbaaaaabAAAAAAAb"
+  ]
+ },
+ {
+  "name": "s377",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbAbAbaabbb"
+  ]
+ },
+ {
+  "name": "s378",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbbbAAbbbbb"
+  ]
+ },
+ {
+  "name": "s379",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbbbabbbbbaaaabbb"
+  ]
+ },
+ {
+  "name": "s380",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbAbbAbbAbb"
+  ]
+ },
+ {
+  "name": "s381",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBabbabbabbaB"
+  ]
+ },
+ {
+  "name": "s382",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbbbaaabbbbaaaaabbbb"
+  ]
+ },
+ {
+  "name": "s383",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaaaaabaaaaabbbb"
+  ]
+ },
+ {
+  "name": "s384",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbaabbaabbaabbb"
+  ]
+ },
+ {
+  "name": "s385",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbaaBAAAB"
+  ]
+ },
+ {
+  "name": "s386",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBccAAb",
+   "aaacBCb"
+  ]
+ },
+ {
+  "name": "s387",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abaccbcc",
+   "aCCCabb"
+  ]
+ },
+ {
+  "name": "s388",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAbbaaabbaaabbaaabbbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s389",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabAAAAAAAAb"
+  ]
+ },
+ {
+  "name": "s390",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabbbaaaaabbaaaaabAAAAAAAAb"
+  ]
+ },
+ {
+  "name": "s391",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaabbbaBBaBB"
+  ]
+ },
+ {
+  "name": "s392",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaabbaabbbaabbaabb"
+  ]
+ },
+ {
+  "name": "s393",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbbaaabbbbbaabbbbbaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s394",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbABBBBBAbb"
+  ]
+ },
+ {
+  "name": "s395",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBaBBBabbaabbaabbaabb"
+  ]
+ },
+ {
+  "name": "s396",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBabbbabbbaBB"
+  ]
+ },
+ {
+  "name": "s397",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaaaabbbbbaaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s398",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbbbaaabbbbbAAbbbbb"
+  ]
+ },
+ {
+  "name": "s399",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaaaaaabbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s400",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbABBBBAbbb"
+  ]
+ },
+ {
+  "name": "s401",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaabbbaabbbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s402",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaaabbbaaabbbaabbbbb"
+  ]
+ },
+ {
+  "name": "s403",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbABBaaBBAbb"
+  ]
+ },
+ {
+  "name": "s404",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbaaabbbaaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s405",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaaaaabaabbbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s406",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaBBaBBaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s407",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaaaaaabbaaabbaaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s408",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaabbAbAbb"
+  ]
+ },
+ {
+  "name": "s409",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbAAbbbbbaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s410",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaaabbbaabbbaaBBBB"
+  ]
+ },
+ {
+  "name": "s411",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaaaabbbbbaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s412",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBAbaBAbaaaabABabABabABBAb"
+  ]
+ },
+ {
+  "name": "s413",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAbabAbabAAbabAbabAbabbbb"
+  ]
+ },
+ {
+  "name": "s414",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaaabbbaaaabbaaaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s415",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAAAAAbbaabbaabbb"
+  ]
+ },
+ {
+  "name": "s416",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaaBBaabbbbbaabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s417",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbaaaabbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s418",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbAAbbAAbbAAbb"
+  ]
+ },
+ {
+  "name": "s419",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbaaabbbaaabaaaaab"
+  ]
+ },
+ {
+  "name": "s420",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbAbbbaaB"
+  ]
+ },
+ {
+  "name": "s421",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaBBBBBaabbbaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s422",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabbbaaaaabbaaaaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s423",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbAbbbbAbbbbAbbb"
+  ]
+ },
+ {
+  "name": "s424",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbaBabbbb"
+  ]
+ },
+ {
+  "name": "s425",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbbbbaabbaabbbbb"
+  ]
+ },
+ {
+  "name": "s426",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acccbcaB",
+   "acACbbb"
+  ]
+ },
+ {
+  "name": "s427",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCbcb",
+   "acacacBBcc"
+  ]
+ },
+ {
+  "name": "s428",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbABAbbbb"
+  ]
+ },
+ {
+  "name": "s429",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabAAbaaabbaaabAAbaaabbaaabAAbAAb"
+  ]
+ },
+ {
+  "name": "s430",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaaaaaaabbbbbaabbb"
+  ]
+ },
+ {
+  "name": "s431",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaaaaabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s432",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbaaaabbaaaabAb"
+  ]
+ },
+ {
+  "name": "s433",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaabAAAAAbaaabbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "s434",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaaaabbaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s435",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBBBCbbbc",
+   "acACbb"
+  ]
+ },
+ {
+  "name": "s436",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabccaaaB",
+   "bcBAAc"
+  ]
+ },
+ {
+  "name": "s437",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaBaaaaaBaaaaaB"
+  ]
+ },
+ {
+  "name": "s438",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBAAAAABaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s439",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaaaaabbaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s440",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBaaBabbbabbabbb"
+  ]
+ },
+ {
+  "name": "s442",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabAAAbabbbbb"
+  ]
+ },
+ {
+  "name": "s444",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbbbbbAbb"
+  ]
+ },
+ {
+  "name": "s445",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaaabbabAAAb"
+  ]
+ },
+ {
+  "name": "s446",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBaBaaaabbaaaabb"
+  ]
+ },
+ {
+  "name": "s447",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbABBBAbbbb"
+  ]
+ },
+ {
+  "name": "s448",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaBABaabbb"
+  ]
+ },
+ {
+  "name": "s449",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaabbbaaabbaaaaabbaaabbaaaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s450",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabAbAb"
+  ]
+ },
+ {
+  "name": "s451",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaaBAAAB"
+  ]
+ },
+ {
+  "name": "s452",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBaabbbaabbbaabbbaaabbbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s453",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbaabbaabbbaabbaabbaabbaB"
+  ]
+ },
+ {
+  "name": "s454",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abABabABabbaBAbaBAbaBAbaaaabAB"
+  ]
+ },
+ {
+  "name": "s455",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaabbbbbaabbbaBB"
+  ]
+ },
+ {
+  "name": "s456",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abaBabaBabbaBabaBabaBabbaBabaBabaBaaaB"
+  ]
+ },
+ {
+  "name": "s457",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbAbbbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s458",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAAbaaabbaaabAAb"
+  ]
+ },
+ {
+  "name": "s459",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaBaaabaabbaab"
+  ]
+ },
+ {
+  "name": "s460",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbbbAbaaBBaaBB"
+  ]
+ },
+ {
+  "name": "s461",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbbaaaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s462",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaaaaaaabbbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s463",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacBcb",
+   "bABAccc"
+  ]
+ },
+ {
+  "name": "s464",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacBCb",
+   "aBAcccb"
+  ]
+ },
+ {
+  "name": "s465",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbbcccAA",
+   "abbaaccbb"
+  ]
+ },
+ {
+  "name": "s466",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaccBB",
+   "aabbcccaab"
+  ]
+ },
+ {
+  "name": "s467",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabAbbbbAbbbbAb"
+  ]
+ },
+ {
+  "name": "s468",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBaBaabbbabbbaaB"
+  ]
+ },
+ {
+  "name": "s469",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBAAbaaaabAABaabAAAb"
+  ]
+ },
+ {
+  "name": "s470",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaaabbbaaabbbbaaabbbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s471",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaBBABABBabbaaabb"
+  ]
+ },
+ {
+  "name": "s472",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBabaBaaaBabaBabbaBabaBabbaBabaB"
+  ]
+ },
+ {
+  "name": "s473",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbAbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s474",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabbaaaaabbaaB"
+  ]
+ },
+ {
+  "name": "s475",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaccBB",
+   "aaabbcccbccc"
+  ]
+ },
+ {
+  "name": "s476",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaaaaabbbbbaaaaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s477",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbAAAbbbabbbbbabbbbb"
+  ]
+ },
+ {
+  "name": "s478",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbabbaBAbaaabAB"
+  ]
+ },
+ {
+  "name": "s479",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbabAABBAAb"
+  ]
+ },
+ {
+  "name": "s480",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabAbaabbaBAB"
+  ]
+ },
+ {
+  "name": "s481",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbaBaaaBabbaBabbb"
+  ]
+ },
+ {
+  "name": "s482",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbbABAbbb"
+  ]
+ },
+ {
+  "name": "s483",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaaBBaBBaabbbbb"
+  ]
+ },
+ {
+  "name": "s484",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s485",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaaaBaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s486",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacAbbcBB",
+   "aCAcbbb"
+  ]
+ },
+ {
+  "name": "s487",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbccAAA",
+   "aabaabbcBc"
+  ]
+ },
+ {
+  "name": "s488",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abaBabaaaaabaBabaBB"
+  ]
+ },
+ {
+  "name": "s489",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abABabbbaBAbaBAbbAB"
+  ]
+ },
+ {
+  "name": "s490",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaabbbaaBAB"
+  ]
+ },
+ {
+  "name": "s491",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaaaBaaacbC",
+   "bbcAAc"
+  ]
+ },
+ {
+  "name": "s492",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBAccb",
+   "aacccccbCCCb"
+  ]
+ },
+ {
+  "name": "s493",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBAbbbABabaaab"
+  ]
+ },
+ {
+  "name": "s494",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBabbbbbAAbbbbbaBBabbb"
+  ]
+ },
+ {
+  "name": "s495",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbabbaabbAbAbb"
+  ]
+ },
+ {
+  "name": "s496",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaaabbbbaabbbbbaabbbbb"
+  ]
+ },
+ {
+  "name": "s497",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbababbbaBBaaBB"
+  ]
+ },
+ {
+  "name": "s498",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbabbbaaaB"
+  ]
+ },
+ {
+  "name": "s499",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbbbbaabbaBBB"
+  ]
+ },
+ {
+  "name": "s500",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbaaaBAB"
+  ]
+ },
+ {
+  "name": "s501",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbABBBAbbbbbaabbbbb"
+  ]
+ },
+ {
+  "name": "s502",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBaBabbaBaBabbaaabb"
+  ]
+ },
+ {
+  "name": "s504",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbaabbbaaabbbbaaabbbb"
+  ]
+ },
+ {
+  "name": "s505",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbbaaabbbbaaabAAb"
+  ]
+ },
+ {
+  "name": "s507",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbaabbaabbb"
+  ]
+ },
+ {
+  "name": "s508",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abaBabbaBabbaBabbaBabaBaaaB"
+  ]
+ },
+ {
+  "name": "s509",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s510",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabaaaaabbAAAbAAAbb"
+  ]
+ },
+ {
+  "name": "s511",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabaBabbaBabaBabaBaaaBabaBabaBabb"
+  ]
+ },
+ {
+  "name": "s512",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbAAbbbaBBabaBBabaBB"
+  ]
+ },
+ {
+  "name": "s513",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbaaBaBaabbb"
+  ]
+ },
+ {
+  "name": "s514",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAAbaaabAAbaaabAABBAAb"
+  ]
+ },
+ {
+  "name": "s515",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaabbbaaabbbaabbbaaabbbaabb"
+  ]
+ },
+ {
+  "name": "s516",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaBaaBaaaaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s517",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabaaabbbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s518",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaBaBaaabbb"
+  ]
+ },
+ {
+  "name": "s519",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBAbaabABabbaBAbABabbaBAbABabb"
+  ]
+ },
+ {
+  "name": "s520",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaabbAbbbbbAbb"
+  ]
+ },
+ {
+  "name": "s521",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAAbaaaaabAABBAAb"
+  ]
+ },
+ {
+  "name": "s522",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaaaBBaaabbb"
+  ]
+ },
+ {
+  "name": "s523",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBAbbbaabbbABBBabb"
+  ]
+ },
+ {
+  "name": "s524",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbbAbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "s525",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabAbaaabaaabbbb"
+  ]
+ },
+ {
+  "name": "s526",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbABBBabbbaBBBAbbbaBB"
+  ]
+ },
+ {
+  "name": "s527",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbbaabbaaB"
+  ]
+ },
+ {
+  "name": "s528",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abABaaaBAbaBAbbbAB"
+  ]
+ },
+ {
+  "name": "s529",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbaaabbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s530",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCbbC",
+   "acacacabbb"
+  ]
+ },
+ {
+  "name": "s531",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaababaaabbbbaaabbbb"
+  ]
+ },
+ {
+  "name": "s532",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbaabAbAbAb"
+  ]
+ },
+ {
+  "name": "s533",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBaaBaababbab"
+  ]
+ },
+ {
+  "name": "s534",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabAAAbaabaabbbb"
+  ]
+ },
+ {
+  "name": "s535",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbAbbbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s536",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaaabbbbbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s537",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBAbbbaabbbABBBab"
+  ]
+ },
+ {
+  "name": "s538",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaaaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s539",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBaBaabbbaabbbaaB"
+  ]
+ },
+ {
+  "name": "s540",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbbAbAbbb"
+  ]
+ },
+ {
+  "name": "s541",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaababaaabbaaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s542",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbbAbbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s543",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbbaabbAAAbb"
+  ]
+ },
+ {
+  "name": "s544",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAAAbbbaabbbbaabbbb"
+  ]
+ },
+ {
+  "name": "s545",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAbbaabbaabbbaabbaabbbaabbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s546",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbaabbbbaabAAAb"
+  ]
+ },
+ {
+  "name": "s547",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbbaBabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s550",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbbAbbbAbbbb"
+  ]
+ },
+ {
+  "name": "s551",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaaabbbaBBabbbaBBabbbaBB"
+  ]
+ },
+ {
+  "name": "s552",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabAbAbAbAb"
+  ]
+ },
+ {
+  "name": "s553",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaabbaaaaabbaaaB"
+  ]
+ },
+ {
+  "name": "s554",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabccb",
+   "abaCbC"
+  ]
+ },
+ {
+  "name": "s555",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaabbbaaaabbbaaaBB"
+  ]
+ },
+ {
+  "name": "s556",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbccbABBA",
+   "aaabbcccb"
+  ]
+ },
+ {
+  "name": "s557",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBabbbaBabbbaBabbbaB"
+  ]
+ },
+ {
+  "name": "s558",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBaabAAAbbAAAbbAAAbaaBBaaaBB"
+  ]
+ },
+ {
+  "name": "s559",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaBBabbbaaabbbabbb"
+  ]
+ },
+ {
+  "name": "s560",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaabbaaaabbaaaBAB"
+  ]
+ },
+ {
+  "name": "s561",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbAbAbAbbb"
+  ]
+ },
+ {
+  "name": "s562",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbAAbbbaaab"
+  ]
+ },
+ {
+  "name": "s563",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabAAccb",
+   "aabbccc"
+  ]
+ },
+ {
+  "name": "s564",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBaabbbAbbbbbAbbb"
+  ]
+ },
+ {
+  "name": "s565",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaabbbabbbaaabbbbbaaabbbabbb"
+  ]
+ },
+ {
+  "name": "s566",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAbaabbbbaabAb"
+  ]
+ },
+ {
+  "name": "s567",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbAbbAbbb"
+  ]
+ },
+ {
+  "name": "s570",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacbAbbcB",
+   "aabbccb"
+  ]
+ },
+ {
+  "name": "s571",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbAbAbbaabb"
+  ]
+ },
+ {
+  "name": "s572",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaababbAbbab"
+  ]
+ },
+ {
+  "name": "s573",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabCCAAb",
+   "aacccbbb"
+  ]
+ },
+ {
+  "name": "s574",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbAbaabAbaabbaabAbaabb"
+  ]
+ },
+ {
+  "name": "s575",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaBBaaaBBaabbb"
+  ]
+ },
+ {
+  "name": "s580",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAAAbaabAAAbaaBBB"
+  ]
+ },
+ {
+  "name": "s581",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acaaBcb",
+   "aCAbbbc"
+  ]
+ },
+ {
+  "name": "s582",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbAbbbaabbaabb"
+  ]
+ },
+ {
+  "name": "s583",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbAbbaabbaabbaabbbaabbaabbaabbb"
+  ]
+ },
+ {
+  "name": "s584",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabAAbaaabaaabbbb"
+  ]
+ },
+ {
+  "name": "s585",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAbaabAbaabAbabAbbbAbabAbaabAbabAbbbAb"
+  ]
+ },
+ {
+  "name": "s586",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAAAAAbaabbbbaabbbb"
+  ]
+ },
+ {
+  "name": "s587",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabaabaabbAbbAbb"
+  ]
+ },
+ {
+  "name": "s588",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbbaaabbbaabbbaaabbbbaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s589",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbcccbb",
+   "aaaaabccb"
+  ]
+ },
+ {
+  "name": "s590",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaBBBabbaabbaabbaaabbaabbaabbaaabbaabb"
+  ]
+ },
+ {
+  "name": "s591",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaBBaBBaBBaabbb"
+  ]
+ },
+ {
+  "name": "s592",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabaaaabaaaabbbabbb"
+  ]
+ },
+ {
+  "name": "s593",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbaabbbAbbbaabbb"
+  ]
+ },
+ {
+  "name": "s594",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bAbcAc",
+   "accabb"
+  ]
+ },
+ {
+  "name": "s595",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBcbC",
+   "acbbbABc"
+  ]
+ },
+ {
+  "name": "s597",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBaabbAbbbAbb"
+  ]
+ },
+ {
+  "name": "s598",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbbaaaaabAAbaaaaabbbb"
+  ]
+ },
+ {
+  "name": "s599",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabAbbbAbbbAb"
+  ]
+ },
+ {
+  "name": "s600",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbaabbaabbbaabbaabbbaabbaabAAAb"
+  ]
+ },
+ {
+  "name": "s603",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabbAbbabbAbbabbAbb"
+  ]
+ },
+ {
+  "name": "s604",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaabbaaaabbaaabbaaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s605",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbaaabaaabAbAbAb"
+  ]
+ },
+ {
+  "name": "s606",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbbbAbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "s607",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCCBBaccc",
+   "aabbbbbcc"
+  ]
+ },
+ {
+  "name": "s608",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbabbbbbabbaaaabb"
+  ]
+ },
+ {
+  "name": "s609",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaaBaaaB"
+  ]
+ },
+ {
+  "name": "s610",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbbaabbbABBAbbb"
+  ]
+ },
+ {
+  "name": "s611",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaaabbaaaaabbaaaBBB"
+  ]
+ },
+ {
+  "name": "s612",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBaBBaabbbabbbabbb"
+  ]
+ },
+ {
+  "name": "s613",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaBabaBabbaabbaabb"
+  ]
+ },
+ {
+  "name": "s614",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabaaabbbbabbbb"
+  ]
+ },
+ {
+  "name": "s615",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBaaaBabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s616",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbbaabbbaabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s617",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbbbaaabbbabbbaaabbbbbaaabbbabbb"
+  ]
+ },
+ {
+  "name": "s618",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbAbbAbbAbbb"
+  ]
+ },
+ {
+  "name": "s619",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBcccB",
+   "ababaccccc"
+  ]
+ },
+ {
+  "name": "s620",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbbbaabbbbbaabbbbb"
+  ]
+ },
+ {
+  "name": "s623",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaabbbbbbbaabbbbaaabbbb"
+  ]
+ },
+ {
+  "name": "s624",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaaabbbaBBBBabbbaBBBB"
+  ]
+ },
+ {
+  "name": "s625",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBBBabbbaaaabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "s626",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abccAB",
+   "aaabCbccc"
+  ]
+ },
+ {
+  "name": "s627",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAAAbbbaabbbAAAbbbaabb"
+  ]
+ },
+ {
+  "name": "s628",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbbbAbbbbbAbbbbb"
+  ]
+ },
+ {
+  "name": "s629",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbaaabbbaabbbaaabbbaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s630",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBaabbbabbbabbb"
+  ]
+ },
+ {
+  "name": "s631",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBCCCbcbb",
+   "aaabcccb"
+  ]
+ },
+ {
+  "name": "s632",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaBBBBBaabbabbaaabb"
+  ]
+ },
+ {
+  "name": "s633",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabAbAbbAbAbaabaab"
+  ]
+ },
+ {
+  "name": "s634",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacbbc",
+   "aaCaaCaabbb"
+  ]
+ },
+ {
+  "name": "s635",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbaabbaabbAbbaabbaabbAbbaabbaabbAbb"
+  ]
+ },
+ {
+  "name": "s636",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBaaBaaBabbabbabb"
+  ]
+ },
+ {
+  "name": "s639",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acAbbbbbC",
+   "aBcccAb"
+  ]
+ },
+ {
+  "name": "s640",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acAbbbbbc",
+   "acccbAb"
+  ]
+ },
+ {
+  "name": "s641",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbAbbbAbbbaab"
+  ]
+ },
+ {
+  "name": "s642",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbaabaaabaabbbb"
+  ]
+ },
+ {
+  "name": "s643",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabaaabbbaaabbbabbb"
+  ]
+ },
+ {
+  "name": "s644",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacBBcAbb",
+   "acAbbbbbC"
+  ]
+ },
+ {
+  "name": "s645",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbababAbaabbb"
+  ]
+ },
+ {
+  "name": "s646",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaBaabbAbbAbb"
+  ]
+ },
+ {
+  "name": "s648",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBAbbaabbABBabbABBBAbb"
+  ]
+ },
+ {
+  "name": "s649",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaabaabbaabbbaabbaaabb"
+  ]
+ },
+ {
+  "name": "s650",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbAbbaaBBBaabbAbb"
+  ]
+ },
+ {
+  "name": "s651",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabbbaaaabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "s652",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBaaabAAbbbAAb"
+  ]
+ },
+ {
+  "name": "s653",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbbbaabbbbaabbb"
+  ]
+ },
+ {
+  "name": "s654",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbbAAcc",
+   "aaaCBBCbbb"
+  ]
+ },
+ {
+  "name": "s655",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabbbaaabbaaabAAAAb"
+  ]
+ },
+ {
+  "name": "s656",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbaaaBBaBB"
+  ]
+ },
+ {
+  "name": "s657",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "ababbbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "s658",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbAbaabbaabbaabAbaabbaabbaabAbaabbaabb"
+  ]
+ },
+ {
+  "name": "s659",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbaBabbaBabbaBabb"
+  ]
+ },
+ {
+  "name": "s662",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaaabbaabbaabbbaabbaabbaaabbaabbaabbaaabb"
+  ]
+ },
+ {
+  "name": "s663",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbaBaBABaB"
+  ]
+ },
+ {
+  "name": "s664",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbbbaabbbbbbbaabbaaabb"
+  ]
+ },
+ {
+  "name": "s665",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbbcAAccc",
+   "aaaccBB"
+  ]
+ },
+ {
+  "name": "s666",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaabbaaabbaaaabbaaaB"
+  ]
+ },
+ {
+  "name": "s667",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaabaabbbaBAAB"
+  ]
+ },
+ {
+  "name": "s668",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAAbaaaBBBaaabAAb"
+  ]
+ },
+ {
+  "name": "s669",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaaabbbaaabbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s670",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbbbabbbabbbbbaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s671",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabaabAbbAbbAbbAb"
+  ]
+ },
+ {
+  "name": "s672",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaBBaBBaBBabbbaabbb"
+  ]
+ },
+ {
+  "name": "s673",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abaaaCBc",
+   "bbbccAA"
+  ]
+ },
+ {
+  "name": "s674",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "cBBcccAA",
+   "aaabbbcc"
+  ]
+ },
+ {
+  "name": "s675",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacccBcB",
+   "bbAAccc"
+  ]
+ },
+ {
+  "name": "s676",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAAAbaabAAAbaabbbbb"
+  ]
+ },
+ {
+  "name": "s677",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbcACAc",
+   "aaacbCbc"
+  ]
+ },
+ {
+  "name": "s678",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBaBabbabbaabbabbaBaB"
+  ]
+ },
+ {
+  "name": "s679",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabaabbbAbbAbbb"
+  ]
+ },
+ {
+  "name": "s680",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaBBBBBaabbbabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s681",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaaBBBaabbabbabb"
+  ]
+ },
+ {
+  "name": "s682",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbaabbbaabbaB"
+  ]
+ },
+ {
+  "name": "s683",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabAAbaaaaabAAbbbbAAb"
+  ]
+ },
+ {
+  "name": "s684",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbaabbaaabbaaBBB"
+  ]
+ },
+ {
+  "name": "s685",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbaaabbbbbaaabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "s686",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBababaBBabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s687",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbbbaabbaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s688",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abABabAAbaBAbaBAbaaabAB"
+  ]
+ },
+ {
+  "name": "s689",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbabbaaabbAABAAbb"
+  ]
+ },
+ {
+  "name": "s690",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aababaabAbbAbbAb"
+  ]
+ },
+ {
+  "name": "s691",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbbaabAbaabbb"
+  ]
+ },
+ {
+  "name": "s692",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbAbbbbaabaabbbbaab"
+  ]
+ },
+ {
+  "name": "s693",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBBaabbbbbabbbbbaaabbbbbabbbbb"
+  ]
+ },
+ {
+  "name": "s694",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbAAbbbAAbbb"
+  ]
+ },
+ {
+  "name": "s695",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbaaaabbbaaabbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s696",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBCCCbccbb",
+   "aaabcccb"
+  ]
+ },
+ {
+  "name": "s697",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabcbcbbb",
+   "aaBBcc"
+  ]
+ },
+ {
+  "name": "s698",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbbaaabbbaaabAAb"
+  ]
+ },
+ {
+  "name": "s699",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaBaabb"
+  ]
+ },
+ {
+  "name": "s700",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaabbbbbabbbbb"
+  ]
+ },
+ {
+  "name": "s701",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabaabAbaabAbaabaabAbaabAbbAb"
+  ]
+ },
+ {
+  "name": "s702",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bCbcAA",
+   "aCbbacac"
+  ]
+ },
+ {
+  "name": "s703",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAABaBAAbaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s704",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBCAAbbc",
+   "aaccbAb"
+  ]
+ },
+ {
+  "name": "s705",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbAbAbbaBBaaaaBB"
+  ]
+ },
+ {
+  "name": "s706",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBabbbabbbabbbaBBaaBB"
+  ]
+ },
+ {
+  "name": "s707",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbacc",
+   "abAbaCBC"
+  ]
+ },
+ {
+  "name": "s708",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabacBCCC",
+   "abccAB"
+  ]
+ },
+ {
+  "name": "s709",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbabbaBabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s710",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbbAbbbaabbbaabbbaabbbb"
+  ]
+ },
+ {
+  "name": "s711",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaaabbbaaabbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s712",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBabbbbbaBBBaaaaBBBabbbbb"
+  ]
+ },
+ {
+  "name": "s713",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBaabbbaaabbbaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s714",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaaaabaaaaabaaaaabbb"
+  ]
+ },
+ {
+  "name": "s715",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbabbbabbbaaBBaaBB"
+  ]
+ },
+ {
+  "name": "s716",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbabbbbbabbbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s717",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabbaaaabbaaabbaaabbaaaabb"
+  ]
+ },
+ {
+  "name": "s718",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBaaBBabbbAAbbAAbbb"
+  ]
+ },
+ {
+  "name": "s719",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaBBaaaaBAbbAAAAbbAB"
+  ]
+ },
+ {
+  "name": "s720",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbaabbaaabbaaBaabbaaabb"
+  ]
+ },
+ {
+  "name": "s721",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabbaabbaBabbaabb"
+  ]
+ },
+ {
+  "name": "s722",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBAbaBAbaaabABabABabbb"
+  ]
+ },
+ {
+  "name": "s723",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabAbaabaabAbbbAb"
+  ]
+ },
+ {
+  "name": "s724",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabAAAbaabbaabbbaabbaabAAAbaabbaabAAAb"
+  ]
+ },
+ {
+  "name": "s725",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabaaBBaabaaBaabaaaaab"
+  ]
+ },
+ {
+  "name": "s726",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBAbbaBBAbbbABBabbABBabb"
+  ]
+ },
+ {
+  "name": "s727",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbabbaaaabbabbaaaabb"
+  ]
+ },
+ {
+  "name": "s728",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbAAbbAAbbb"
+  ]
+ },
+ {
+  "name": "s729",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbbCAC",
+   "acBAbbcc"
+  ]
+ },
+ {
+  "name": "s730",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbABBabaBBAbb"
+  ]
+ },
+ {
+  "name": "s731",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbabbaabbaabbabbaabbaaB"
+  ]
+ },
+ {
+  "name": "s732",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "accbbABc",
+   "acbbACbbb"
+  ]
+ },
+ {
+  "name": "s733",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacbACb",
+   "aBBCbacBCbac"
+  ]
+ },
+ {
+  "name": "s734",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbcccaaB",
+   "aaCbbAAc"
+  ]
+ },
+ {
+  "name": "s735",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbaabbbbAbbbbaabbbbaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s736",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaaaabbaaabbbaaabbaaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s737",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaaaaabbaaabbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s738",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBBaaabbabbaaabbabb"
+  ]
+ },
+ {
+  "name": "s739",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbbbaaabbbaaaabbb"
+  ]
+ },
+ {
+  "name": "s740",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaaabbaaabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s741",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaabbbaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s742",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbabbbaaabbbabbbaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s743",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbaabaabbbaabaabbbaab"
+  ]
+ },
+ {
+  "name": "s744",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBBaabbbAbbbaaBBaab"
+  ]
+ },
+ {
+  "name": "s745",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaBBAbbbABBabb"
+  ]
+ },
+ {
+  "name": "s746",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abAccBac",
+   "acbbAC"
+  ]
+ },
+ {
+  "name": "s747",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaabbbabbbaaabaaabbbabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s748",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabcaaabcaaab",
+   "abcBBcAAc"
+  ]
+ },
+ {
+  "name": "s749",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbaaaaabbaabbaaaaabbaaaaabbaabbaaaaabbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s750",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaabbaaabAbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s751",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBaBBaaabAbbAb"
+  ]
+ },
+ {
+  "name": "s752",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbaabbaaabbaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s753",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaaaBaabbbAbbb"
+  ]
+ },
+ {
+  "name": "s754",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbaaabbcc",
+   "aaBBBccc"
+  ]
+ },
+ {
+  "name": "s755",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBababaBabbAAAbb"
+  ]
+ },
+ {
+  "name": "s756",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaabbbAbbbaaabb"
+  ]
+ },
+ {
+  "name": "s757",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabaBabbaabbaBabbaabbaBabbaabb"
+  ]
+ },
+ {
+  "name": "s758",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbbaaabbaaabAbaaabb"
+  ]
+ },
+ {
+  "name": "s759",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbaaabaaabbbbaaabaaabbbb"
+  ]
+ },
+ {
+  "name": "s760",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAbbAbaaabAbbAbaaabAbbAbbbAbbAb"
+  ]
+ },
+ {
+  "name": "s761",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaabbbaBBBAbABBB"
+  ]
+ },
+ {
+  "name": "s762",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbbaabbbbbaabbaaabb"
+  ]
+ },
+ {
+  "name": "s763",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbAbAbbAbAbb"
+  ]
+ },
+ {
+  "name": "s764",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abaBabbAAbbAAbbaB"
+  ]
+ },
+ {
+  "name": "s765",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbcAAAcc",
+   "aaaacbCb"
+  ]
+ },
+ {
+  "name": "s766",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabbbaaabbaaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s767",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbaaabaaabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s768",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabaabAbaabAbbAbaabAbbAb"
+  ]
+ },
+ {
+  "name": "s769",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaaaabbaaaaabbaabbbbb"
+  ]
+ },
+ {
+  "name": "s770",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaabbbaBBBBBabbbaabbbaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s771",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbbbbaaabbaabbaaabbaabbaaabb"
+  ]
+ },
+ {
+  "name": "s772",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaabbbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s773",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bbcbcABA",
+   "aabbCC"
+  ]
+ },
+ {
+  "name": "s775",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbbacc",
+   "aabCCbc"
+  ]
+ },
+ {
+  "name": "s777",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabAbaaBAABaabAb"
+  ]
+ },
+ {
+  "name": "s778",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBabaBBabaaabaBabaaab"
+  ]
+ },
+ {
+  "name": "s779",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abaBBcc",
+   "aacBcbb"
+  ]
+ },
+ {
+  "name": "s781",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacbabc",
+   "aCAACabb"
+  ]
+ },
+ {
+  "name": "s783",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaBAbABabbaBAbaaabAB"
+  ]
+ },
+ {
+  "name": "s784",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBcAbcc",
+   "acbbACb"
+  ]
+ },
+ {
+  "name": "s786",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaaCbcB",
+   "abccccAB"
+  ]
+ },
+ {
+  "name": "s787",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaabcBc",
+   "aBabcccc"
+  ]
+ },
+ {
+  "name": "s788",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abccbAcbAcb",
+   "aabcBaC"
+  ]
+ },
+ {
+  "name": "s789",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacBCbAc",
+   "aaacbAcB"
+  ]
+ },
+ {
+  "name": "s790",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbbbaaabbaaabbbbbabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s791",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbcbbbbbcAc",
+   "aabbCC"
+  ]
+ },
+ {
+  "name": "s792",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaabbbaaabbbaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s793",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbaaabbaabbaBaB"
+  ]
+ },
+ {
+  "name": "s794",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBBccaBBcccbb",
+   "aabbbCCbb"
+  ]
+ },
+ {
+  "name": "s795",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbaabbaabbbaabbaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s796",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaaaabbbaabbbbbaabbbbb"
+  ]
+ },
+ {
+  "name": "s797",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbbCCb",
+   "aabaaacccb"
+  ]
+ },
+ {
+  "name": "s798",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabbAbbAbb"
+  ]
+ },
+ {
+  "name": "s799",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbbbbbaaabbaaabbaabb"
+  ]
+ },
+ {
+  "name": "s800",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaabbaaabbaabbaaaBBB"
+  ]
+ },
+ {
+  "name": "s801",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbABBabbABAbbaBBAbb"
+  ]
+ },
+ {
+  "name": "s802",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbAbbabbAAbbabbAbbab"
+  ]
+ },
+ {
+  "name": "s803",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbaaabbaaaabbbbbaaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s804",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaaabbaabbaaabbbbbbbaaabb"
+  ]
+ },
+ {
+  "name": "s805",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCACbcacab",
+   "abccAABc"
+  ]
+ },
+ {
+  "name": "s806",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbcbcabCCb",
+   "abacbAbc"
+  ]
+ },
+ {
+  "name": "s807",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbbbaaabbbaabbbaaabbbbbaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s808",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbaabbaabbAAAbbaabbaabbb"
+  ]
+ },
+ {
+  "name": "s809",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbbaabbbaabbbAAAbbb"
+  ]
+ },
+ {
+  "name": "s810",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbbCC",
+   "aBabbcccccB"
+  ]
+ },
+ {
+  "name": "s811",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaaaabbbaabbbbaabbbaabbbb"
+  ]
+ },
+ {
+  "name": "s812",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbaaaaabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s813",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaBaBaabbabbaabb"
+  ]
+ },
+ {
+  "name": "s814",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaabbbaaabbbaaaabbbaaabbbaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s815",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaaaaabbbaabbbaaBB"
+  ]
+ },
+ {
+  "name": "s816",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaabbbaaaaabbbaaabbaaabbbaaaaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s817",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabbcc",
+   "aabCabbCB"
+  ]
+ },
+ {
+  "name": "s818",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBAbccc",
+   "abbbccAbc"
+  ]
+ },
+ {
+  "name": "s819",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBcAAbbbC",
+   "aaaBcBC"
+  ]
+ },
+ {
+  "name": "s820",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abAbabAbaabbbaabAb"
+  ]
+ },
+ {
+  "name": "s821",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaabbAAbbbAAbb"
+  ]
+ },
+ {
+  "name": "s822",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaaabbbaaaaabbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s823",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAAAAbbAAAAbaaaBBaaaaBB"
+  ]
+ },
+ {
+  "name": "s824",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "bAAccbCbcbC",
+   "aaaccbb"
+  ]
+ },
+ {
+  "name": "s825",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaaabbbbbbbbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s826",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbAbbaaaBaaabaaaB"
+  ]
+ },
+ {
+  "name": "s827",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbbaabbbbaabbbbaabbb"
+  ]
+ },
+ {
+  "name": "s828",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbaaabbbaaabbbbaaabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s829",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s830",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbAAbbbaaabbbaaabbbbaaabbb"
+  ]
+ },
+ {
+  "name": "s832",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbABAbbaabbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s833",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbbbbbbaaabbbaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s834",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBBBacc",
+   "abbbbbcAc"
+  ]
+ },
+ {
+  "name": "s835",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaaBaabbaabbaaB"
+  ]
+ },
+ {
+  "name": "s836",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBAbbABBBabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s837",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acABAbbC",
+   "aacABCbbb"
+  ]
+ },
+ {
+  "name": "s838",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbbcbbaC",
+   "aCAcbbbbb"
+  ]
+ },
+ {
+  "name": "s839",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbAbAbbb"
+  ]
+ },
+ {
+  "name": "s840",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaBaabbAbbAbbaabbAbbAbb"
+  ]
+ },
+ {
+  "name": "s841",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBAABBBabbbbaaabbbb"
+  ]
+ },
+ {
+  "name": "s842",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbabbaaabbaaabbbbbbb"
+  ]
+ },
+ {
+  "name": "s844",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbaaabbaaabbaabbaBBB"
+  ]
+ },
+ {
+  "name": "s845",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBaaabaaaBaaabbAAbb"
+  ]
+ },
+ {
+  "name": "s846",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbAbAbAbbb"
+  ]
+ },
+ {
+  "name": "s847",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbacaB",
+   "aBcbacAbc"
+  ]
+ },
+ {
+  "name": "s848",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaaBBaabbbaabbbaaBBaBB"
+  ]
+ },
+ {
+  "name": "s849",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabAAbaaabbaaabbbaaabbb"
+  ]
+ },
+ {
+  "name": "s850",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBabbaabAbaabbaBabb"
+  ]
+ },
+ {
+  "name": "s851",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbaabbaaabbbbbaaabbaabbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s852",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBBaBBBabbaabbaabbaBBBabbaabbaabb"
+  ]
+ },
+ {
+  "name": "s853",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaaabbaaabbaaaaabbaaabbaaabbaaaaabb"
+  ]
+ },
+ {
+  "name": "s854",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBcbaBccAb",
+   "aCAbbc"
+  ]
+ },
+ {
+  "name": "s855",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbaabAbAbaabAbaabbb"
+  ]
+ },
+ {
+  "name": "s856",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbbbaabbbbbaaaaabbbbbaabbbbbaabb"
+  ]
+ },
+ {
+  "name": "s857",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbbbabbbbbaaabbbbbaaabbbbbbbb"
+  ]
+ },
+ {
+  "name": "s858",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbAbbAbbb"
+  ]
+ },
+ {
+  "name": "s860",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBAABBabbbbbaaabbbbb"
+  ]
+ },
+ {
+  "name": "s861",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbaBabaBabb"
+  ]
+ },
+ {
+  "name": "s862",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabAAbaaabAABaaBAAABaaBAAb"
+  ]
+ },
+ {
+  "name": "s863",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaaBBcBBcb",
+   "aaccbbb"
+  ]
+ },
+ {
+  "name": "s865",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaaabbbbaaabbbaB"
+  ]
+ },
+ {
+  "name": "s866",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbaaabbbbbaaabbbbbaaaaabbbbb"
+  ]
+ },
+ {
+  "name": "s867",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaaBBaaabbbaaabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s868",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaaabbbbbaaaaabbbbbaaabbbbbaaabb"
+  ]
+ },
+ {
+  "name": "s869",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abCACaBcb",
+   "acBCbABccc"
+  ]
+ },
+ {
+  "name": "s870",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbaBAABBAABabbaabbaBAABBAABabbaabbaB"
+  ]
+ },
+ {
+  "name": "s871",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbabAbbbbAbabAbaabAb"
+  ]
+ },
+ {
+  "name": "s872",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbAbbAbbAbbb"
+  ]
+ },
+ {
+  "name": "s873",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaaabbbaaabbbaabAb"
+  ]
+ },
+ {
+  "name": "s874",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aBBABBabbaaabbaBabbaaabb"
+  ]
+ },
+ {
+  "name": "s875",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbbbaBBBAABBBabbbbb"
+  ]
+ },
+ {
+  "name": "s877",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCbaccacAAbC",
+   "accBcAAb"
+  ]
+ },
+ {
+  "name": "s878",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabcbAccb",
+   "abcaCaB"
+  ]
+ },
+ {
+  "name": "s879",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abaaccBC",
+   "aCabABc"
+  ]
+ },
+ {
+  "name": "s881",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbaabaaabaabbbaabbbaab"
+  ]
+ },
+ {
+  "name": "s882",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acAbACb",
+   "acBabcBc"
+  ]
+ },
+ {
+  "name": "s884",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaBabbbaabbbaBabbbaabbbb"
+  ]
+ },
+ {
+  "name": "s885",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacacbcBB",
+   "bcAbbAc"
+  ]
+ },
+ {
+  "name": "s886",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabAbabAbbbbAbabAbaabAbabAb"
+  ]
+ },
+ {
+  "name": "s888",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaBBccc",
+   "accaCbbab"
+  ]
+ },
+ {
+  "name": "s889",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbAbbaabbaabaabbaabbAbb"
+  ]
+ },
+ {
+  "name": "s890",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBAbcacc",
+   "aabccbC"
+  ]
+ },
+ {
+  "name": "s891",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBBcaabC",
+   "aababaabCbc"
+  ]
+ },
+ {
+  "name": "s892",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabCAbbc",
+   "aababaabCBc"
+  ]
+ },
+ {
+  "name": "s893",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbAAAbbaabbbaabbbbbaabbb"
+  ]
+ },
+ {
+  "name": "s894",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabaabbbAbbbAbbb"
+  ]
+ },
+ {
+  "name": "s896",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "accabcb",
+   "aBBacAc"
+  ]
+ },
+ {
+  "name": "s897",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acAAbCb",
+   "acccBaCbb"
+  ]
+ },
+ {
+  "name": "s899",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabcccAAB",
+   "aaaCCbccB"
+  ]
+ },
+ {
+  "name": "s900",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbACbC",
+   "acBcBcbAbb"
+  ]
+ },
+ {
+  "name": "s901",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acAbbbAc",
+   "aCacbbc"
+  ]
+ },
+ {
+  "name": "s902",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaBBaBBaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s903",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abCCAAbcb",
+   "abcbaccBCB"
+  ]
+ },
+ {
+  "name": "s904",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbaabbbAbbbAbbb"
+  ]
+ },
+ {
+  "name": "s905",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBAcbaccc",
+   "abbaacc"
+  ]
+ },
+ {
+  "name": "s907",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbbAbC",
+   "acBaacAcb"
+  ]
+ },
+ {
+  "name": "s908",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abccAAbCb",
+   "aacAAbabcB"
+  ]
+ },
+ {
+  "name": "s909",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCbbCC",
+   "accaccbcaccbc"
+  ]
+ },
+ {
+  "name": "s911",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbaabbbaabbbaaabb"
+  ]
+ },
+ {
+  "name": "s912",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbaabABBBAbaabbbaBAAB"
+  ]
+ },
+ {
+  "name": "s915",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbcabcBCb",
+   "abccACb"
+  ]
+ },
+ {
+  "name": "s916",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabAcBc",
+   "abbcacaCC"
+  ]
+ },
+ {
+  "name": "s917",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBcBabccb",
+   "aabCbAccb"
+  ]
+ },
+ {
+  "name": "s918",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCCbbAcc",
+   "aaBAcbcc"
+  ]
+ },
+ {
+  "name": "s919",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaabbaBabbaaabb"
+  ]
+ },
+ {
+  "name": "s921",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acbaaCBc",
+   "abcbABc"
+  ]
+ },
+ {
+  "name": "s922",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbAbbbaabbbaabbbbbaabbbaabbbbb"
+  ]
+ },
+ {
+  "name": "s923",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaabaacbAc",
+   "aacAcBCb"
+  ]
+ },
+ {
+  "name": "s924",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBaCbCAcbc",
+   "acBAcb"
+  ]
+ },
+ {
+  "name": "s925",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbaabbbAbbbaabbbaabbbAbAbbb"
+  ]
+ },
+ {
+  "name": "s926",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbAbbbaaabbaaabbbbbaaabb"
+  ]
+ },
+ {
+  "name": "s927",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbbAbbbacc",
+   "abbbbbacABBBAc"
+  ]
+ },
+ {
+  "name": "s928",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "acAbcABC",
+   "aacbbcB"
+  ]
+ },
+ {
+  "name": "s929",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbbabbbaaabbaaabbaaabbb"
+  ]
+ },
+ {
+  "name": "s931",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaBabbaabbaabbbaabbaabbbaabb"
+  ]
+ },
+ {
+  "name": "s932",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaabbaabbaBabaBabaB"
+  ]
+ },
+ {
+  "name": "s933",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabaaabbbabbbabbbaaab"
+  ]
+ },
+ {
+  "name": "s934",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAAAbbbaabbaabbbbbaabb"
+  ]
+ },
+ {
+  "name": "s935",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbbAbbbAbbbaabbbAbbbAbbbaab"
+  ]
+ },
+ {
+  "name": "s936",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabbaabbbAbbbAbbbaabbbAbbbAbbb"
+  ]
+ },
+ {
+  "name": "s938",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abCCaccbb",
+   "acBAbaC"
+  ]
+ },
+ {
+  "name": "s939",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbABac",
+   "accACCbbb"
+  ]
+ },
+ {
+  "name": "s942",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aBCbacAc",
+   "abcAbC"
+  ]
+ },
+ {
+  "name": "s943",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacAAAbbC",
+   "aacAcBCb"
+  ]
+ },
+ {
+  "name": "s944",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabAccb",
+   "acaBcBCb"
+  ]
+ },
+ {
+  "name": "s946",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbbaaabbaaabbbaaabbbaaabbaaabbbaaabbbaaaaabbb"
+  ]
+ },
+ {
+  "name": "s947",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aabaabbbaabbbaaaaabbbaabbbaabaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s949",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCbacaB",
+   "abcbcbACb"
+  ]
+ },
+ {
+  "name": "s950",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaabbaaabbbbbaaabbaaabbbAAbbb"
+  ]
+ },
+ {
+  "name": "s951",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aabbbAbbbcc",
+   "aabbCAbbbc"
+  ]
+ },
+ {
+  "name": "s952",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbbabbbcACb",
+   "aacbbc"
+  ]
+ },
+ {
+  "name": "s953",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "abbaaabbaaabbbbbaaabbaaabbbbbaaabbaaabb"
+  ]
+ },
+ {
+  "name": "s954",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaacaabcBcaabcBc",
+   "aabbCC"
+  ]
+ },
+ {
+  "name": "s955",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b"
+  ],
+  "rels": [
+   "aaaaabbbaabbbaabbaabbbaabbbaaaaabbbaabbb"
+  ]
+ },
+ {
+  "name": "s956",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaccabbbabbb",
+   "aCAbbC"
+  ]
+ },
+ {
+  "name": "s957",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abccAABcAc",
+   "abaaCCaaCbc"
+  ]
+ },
+ {
+  "name": "s958",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abcaaBBC",
+   "aacBacbbc"
+  ]
+ },
+ {
+  "name": "s960",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aacabbabCB",
+   "abbCAAbAbc"
+  ]
+ },
+ {
+  "name": "s961",
+  "tets": 6,
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abbabCbAAc",
+   "abbCaaBaBc"
+  ]
+ }
+]
