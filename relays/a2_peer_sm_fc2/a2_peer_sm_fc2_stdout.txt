@@ -1,0 +1,3 @@
+DECISIVE: W3A_SM_C23 ok=True cases=180 orb=12 lt1e40=True pl_unmov=True pl_unshL=True haar=True
+DECISIVE: W3B_SM_C24 ok=True pts=576 p5=240 aln=240 hier=240 conv=240 cls=12 same12=True x5=True no5_conv=0
+DECISIVE: SUMMARY all_ok=True PF=5/5 floats=0/0

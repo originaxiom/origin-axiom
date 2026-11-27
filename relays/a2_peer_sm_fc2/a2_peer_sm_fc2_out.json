@@ -1,0 +1,247 @@
+{
+  "W3A_SM_C23": {
+    "cases_checked": 180,
+    "haar_u3_4_err": "1.32545e-55",
+    "max_err_M": "1.61462e-53",
+    "max_err_S": "4.54987e-54",
+    "max_err_T": "1.07642e-53",
+    "max_err_all": "1.61462e-53",
+    "ok": true,
+    "orbit_12_len": 12,
+    "plant_unmoved_diff": "0.386721",
+    "plant_unshifted_L_diff": "0.00988111",
+    "plant_wrong_action_diff": "0.139251"
+  },
+  "W3B_SM_C24": {
+    "aligned_240": 240,
+    "class_table": [
+      {
+        "act_line_count": 4,
+        "all_240_count": 20,
+        "rates_in_60ths": [
+          12,
+          66,
+          24,
+          60,
+          24,
+          84,
+          48,
+          6,
+          54
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 2,
+        "all_240_count": 10,
+        "rates_in_60ths": [
+          12,
+          72,
+          24,
+          66,
+          24,
+          66,
+          54,
+          6,
+          60
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 6,
+        "all_240_count": 30,
+        "rates_in_60ths": [
+          24,
+          60,
+          36,
+          74,
+          24,
+          60,
+          24,
+          22,
+          62
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 3,
+        "all_240_count": 15,
+        "rates_in_60ths": [
+          24,
+          82,
+          28,
+          60,
+          24,
+          66,
+          36,
+          2,
+          38
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 3,
+        "all_240_count": 15,
+        "rates_in_60ths": [
+          24,
+          82,
+          36,
+          96,
+          24,
+          66,
+          46,
+          22,
+          84
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 6,
+        "all_240_count": 30,
+        "rates_in_60ths": [
+          24,
+          84,
+          28,
+          62,
+          24,
+          60,
+          38,
+          2,
+          40
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 2,
+        "all_240_count": 10,
+        "rates_in_60ths": [
+          36,
+          60,
+          24,
+          66,
+          24,
+          66,
+          36,
+          18,
+          66
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 4,
+        "all_240_count": 20,
+        "rates_in_60ths": [
+          36,
+          78,
+          24,
+          84,
+          24,
+          60,
+          54,
+          18,
+          84
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 6,
+        "all_240_count": 30,
+        "rates_in_60ths": [
+          40,
+          60,
+          16,
+          60,
+          24,
+          84,
+          48,
+          14,
+          62
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 3,
+        "all_240_count": 15,
+        "rates_in_60ths": [
+          40,
+          74,
+          16,
+          74,
+          24,
+          66,
+          54,
+          14,
+          68
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 3,
+        "all_240_count": 15,
+        "rates_in_60ths": [
+          40,
+          74,
+          48,
+          82,
+          24,
+          66,
+          12,
+          26,
+          46
+        ],
+        "ratio_exact_5": true
+      },
+      {
+        "act_line_count": 6,
+        "all_240_count": 30,
+        "rates_in_60ths": [
+          40,
+          100,
+          48,
+          108,
+          24,
+          84,
+          38,
+          26,
+          72
+        ],
+        "ratio_exact_5": true
+      }
+    ],
+    "converged_240": 240,
+    "exact_5x_every_class": true,
+    "hierarchical_240": 240,
+    "max_grid60_res_30_40": "9.5660e-04",
+    "max_grid60_res_40_50": "1.1620e-04",
+    "n_classes_240": 12,
+    "n_classes_act48": 12,
+    "no5_converged_count": 0,
+    "no5_in_act12_count": 0,
+    "ok": true,
+    "pairs_act_line": 48,
+    "pairs_with_5part": 240,
+    "pairs_without_5part": 48,
+    "same_12_classes": true,
+    "total_order30_points": 576,
+    "total_pairs": 288
+  },
+  "all_gates_passed": true,
+  "ast_floats": 0,
+  "blind": "0 of 19",
+  "card": "A2-PEER-SM-FC2",
+  "json_floats": 0,
+  "pf_caught": 5,
+  "planted_fault_controls": {
+    "PF1_C23_point_unmoved_breaks": true,
+    "PF2_C23_end_unshifted_breaks": true,
+    "PF3_C23_wrong_action_vg_breaks": true,
+    "PF4_C24_no5_pairs_fail_conv": true,
+    "PF5_C24_P1F5_split_5_vs_1": true
+  },
+  "seat_code": "fam3-v1-high-03",
+  "verifying_cards": [
+    "SM-C23 (P-845, P-860)",
+    "SM-C24 (P-845, P-860)"
+  ],
+  "verifying_seat_code": "fam1-v1-unset-04"
+}
