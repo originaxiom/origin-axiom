@@ -1,5 +1,17 @@
 # Changelog
 
+## S306p THE QUEUE'S BRANCH TO BE WRITTEN BY ONE KEY ALONE (P-885; M73) (2026-11-27)
+
+- **The problem.** Every seat's commits are made as `originaxiom`. If the seats push with that account's access, a
+  ruleset that lets admins through cannot tell a seat from the runner, and the queue's custody check lets an appended move
+  stand (M72).
+- **The runner's side, asked of the builder (M73):**
+  - the record job pushes to `queue` with a deploy key, named only in that job;
+  - the queue's ruleset restricts updates, with that key as its only bypass;
+  - the job checks in its log that the ruleset is in force.
+- **The author's side:** making the key and the ruleset. `main` cannot be separated this way while the seats push with the
+  author's account.
+
 ## S306p T11, THE LANDING TOOL, READ (P-885; HARVEST ROW 2055; M72) (2026-11-27)
 
 - **T11, as sent:**

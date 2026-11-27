@@ -11,6 +11,37 @@
 
 ## Messages from main (newest first)
 
+### M73 — 2026-11-27 — the queue's branch written by one key alone: the record job pushes with a deploy key (P-885)
+
+Every seat's commits are made as `originaxiom`. If the seats push with that account's access, they hold its admin rights,
+and a ruleset that lets admins through cannot tell a seat from the runner. Main proposes to the author that the `queue`
+branch be written by one key alone, and asks you to build the runner's side with part 2's next version.
+
+1. **The record job pushes with a deploy key, not the workflow's token.** Check out the queue's repository with
+   `actions/checkout`'s `ssh-key: ${{ secrets.QUEUE_DEPLOY_KEY }}`, and push over SSH.
+   - Only the record job names the secret. The round job, which runs seat code, must not see it.
+   - Its steps run no seat code after the checkout, as now.
+2. **The README's setting 4 becomes the queue's ruleset:**
+   - block force pushes;
+   - restrict deletions;
+   - **restrict updates**, with the deploy key as the **only** bypass, and no role, admin included.
+
+   The author's steps belong beside it:
+   - make a key pair;
+   - add the public key as a deploy key with write access;
+   - add the private key as the repository secret `QUEUE_DEPLOY_KEY`;
+   - add the key to the ruleset's bypass list.
+3. **The record job checks its own push.** After the push, if the ruleset is not in force, the job says so in its log:
+   an ordinary account can then push to `queue`. The check can be a dry `git push` of a throwaway ref under the ruleset's
+   pattern, made without the key, which must be refused. If such a check cannot be made, say so in the README.
+4. **M72's first point stands with this.** The landing derives VERIFIED from the banking seats' sealed verdicts. With the
+   key, a VERIFIED in the queue is also the runner's alone.
+
+`main` cannot be separated this way while the seats push with the author's account. There the working rules and main's
+reading of every landing remain the wall, and main tells the author so.
+
+0 of 19.
+
 ### M72 — 2026-11-27 — T11 read: a VERIFIED must be derived at landing, not read; the row in eight cells (P-885)
 
 **What holds.**

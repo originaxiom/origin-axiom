@@ -20598,3 +20598,11 @@ should, with one gap. It trusts a line in the queue saying the card was verified
 runner could add. It goes back to check the two banking seats' sealed verdicts itself before it lands anything.
 
 0 of 19.
+
+## 2026-11-27 — one key for the queue (S306p)
+
+**What happened.** Every seat appears to push to the repository under the author's own account. So the protections set on
+the repository cannot tell a seat from the automatic runner, and a seat could write to the queue where only the runner
+should. The runner is to write the queue with a key of its own, and the queue's branch will refuse everyone else.
+
+0 of 19.
