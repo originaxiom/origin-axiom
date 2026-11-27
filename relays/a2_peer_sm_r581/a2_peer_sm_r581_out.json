@@ -1,0 +1,124 @@
+{
+  "B993_control_first400_in_order": {
+    "2T_any": 135,
+    "2T_exact2": 120,
+    "2gen_count": 372
+  },
+  "all_gates_passed": true,
+  "ast_floats": 0,
+  "blind": "0 of 19",
+  "card": "A2-PEER-SM-R581",
+  "census_size": 1199,
+  "counts_in_1199": {
+    "2I_any": 609,
+    "2O_any": 362,
+    "2T_any": 384,
+    "2T_exact2": 304,
+    "2T_rate_4dp": "0.3203",
+    "2T_rate_frac": "384/1199",
+    "dist_2I": {
+      "0": 590,
+      "10": 8,
+      "12": 4,
+      "14": 5,
+      "16": 2,
+      "18": 3,
+      "2": 341,
+      "4": 190,
+      "6": 35,
+      "8": 21
+    },
+    "dist_2O": {
+      "0": 837,
+      "1": 169,
+      "12": 1,
+      "2": 99,
+      "3": 51,
+      "4": 25,
+      "6": 7,
+      "7": 5,
+      "8": 5
+    },
+    "dist_2T": {
+      "0": 815,
+      "10": 6,
+      "12": 2,
+      "14": 2,
+      "16": 1,
+      "2": 304,
+      "4": 46,
+      "6": 18,
+      "8": 5
+    },
+    "package_given_2T": 384
+  },
+  "first400_2gen_manifolds": {
+    "2T_any": 149,
+    "2T_exact2": 131
+  },
+  "group_orders_and_aut": {
+    "2I": [
+      120,
+      120
+    ],
+    "2O": [
+      48,
+      48
+    ],
+    "2T": [
+      24,
+      24
+    ]
+  },
+  "json_floats": 0,
+  "m004_counts": {
+    "2I": 0,
+    "2O": 0,
+    "2T": 2
+  },
+  "n_2gen": 1041,
+  "n_3gen": 158,
+  "pf_caught": 5,
+  "planted_fault_controls": {
+    "PF1_cyclic_group_no_2T_surjection": true,
+    "PF2_wrong_Y_fails_su2_commutant": true,
+    "PF3_wrong_Y_shifts_sin2_thetaW": true,
+    "PF4_free_3gen_admits_Z2_cubed": true,
+    "PF5_nonprimitive_Y_gives_Z12": true
+  },
+  "plants": {
+    "Z2_cubed_2gen_checked": 1041,
+    "Z2_cubed_3gen_hits": 19,
+    "Z2_cubed_fails_all_2gen": true,
+    "Z3_all_1199_equal_3d_minus_1": true,
+    "Z3_all_1199_hold": true
+  },
+  "post_E6_structural_package": {
+    "Y_diag_normalized": [
+      2,
+      2,
+      2,
+      -3,
+      -3
+    ],
+    "Y_exact_match": true,
+    "Y_is_diagonal": true,
+    "all_ok": true,
+    "commutant_dim": 1,
+    "kernel_is_Z6": true,
+    "kernel_orders": [
+      1,
+      2,
+      3,
+      3,
+      6,
+      6
+    ],
+    "kernel_size": 6,
+    "sin2_thetaW": "3/8",
+    "sin2_thetaW_is_3_8": true
+  },
+  "seat_code": "fam3-v1-high-03",
+  "verifying_card": "SM-R581 (CLAIM_2026-11-27_one_class_structural_package_refiled.md)",
+  "verifying_seat_code": "fam1-v1-unset-04"
+}
