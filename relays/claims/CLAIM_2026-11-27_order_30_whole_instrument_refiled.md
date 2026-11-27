@@ -20,7 +20,8 @@
 - imports: none
 - premises on main: B1945 (parts, U_of), B1977 (the read-out), B1979 (the grid of 1/60 and its 12 classes); the seat's
   SM-C23 (joint covariance, which makes the 576 points one point's reading over every cusp), its own card
-- decisive script: relays/claims/sm_refile/c24_decisive.py, SHA-256 d6ade76d0c073a0f, depends on the standard library and
+- decisive script: relays/claims/sm_refile/c24_decisive.py, SHA-256 d6ade76d0c073a0f, depends on the standard library
+  and
   mpmath, run as python3 relays/claims/sm_refile/c24_decisive.py, output SHA-256 45e648b04ae9eeec
 - decisive lines: 6 lines marked "DECISIVE:", SHA-256 b5ae2acb217890bc
 - failing control: python3 relays/claims/sm_refile/c24_control.py

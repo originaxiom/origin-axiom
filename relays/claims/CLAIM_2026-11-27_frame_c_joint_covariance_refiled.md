@@ -19,7 +19,8 @@
   (4/15, 1/30) at order 30, the four order-5 points on the act's line, four order-6 points
 - imports: none
 - premises on main: B1945 (parts, U_of), B1927 (the end's covariance law), B1733 (the row convention), B1978
-- decisive script: relays/claims/sm_refile/c23_decisive.py, SHA-256 ea14f6642ea196e5, depends on the standard library and
+- decisive script: relays/claims/sm_refile/c23_decisive.py, SHA-256 ea14f6642ea196e5, depends on the standard library
+  and
   mpmath, run as python3 relays/claims/sm_refile/c23_decisive.py, output SHA-256 7ebba5dc7622171a
 - decisive lines: 5 lines marked "DECISIVE:", SHA-256 28553234bb2ef430
 - failing control: python3 relays/claims/sm_refile/c23_control.py

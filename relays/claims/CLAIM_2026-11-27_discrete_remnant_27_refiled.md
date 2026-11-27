@@ -24,7 +24,8 @@
   B1418 cell 4, B1805, B1831 (Review 74's reader on the cloud memos 61, 72, 76, 77, 85), B1652 (E6 frame: root only);
   the decisive wrapper runs the seat's disclosed relays/sm_r614/posthoc_run.py unchanged, because the sealed
   relays/sm_r614/run.py failed on a one-line colour bug (its colour flip also flipped the singlets)
-- decisive script: relays/claims/sm_refile/r614_decisive.py, SHA-256 f2917147ad628e55, depends on the standard library and
+- decisive script: relays/claims/sm_refile/r614_decisive.py, SHA-256 f2917147ad628e55, depends on the standard library
+  and
   sympy, run as python3 relays/claims/sm_refile/r614_decisive.py, output SHA-256 1277c472aa46f61e
 - decisive lines: 14 lines marked "DECISIVE:", SHA-256 1277c472aa46f61e
 - failing control: python3 relays/claims/sm_refile/r614_control.py
