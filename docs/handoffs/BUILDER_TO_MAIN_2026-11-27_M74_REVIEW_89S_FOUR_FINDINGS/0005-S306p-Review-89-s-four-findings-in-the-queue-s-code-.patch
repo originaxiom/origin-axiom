@@ -1,0 +1,218 @@
+From 8c48d5ff13ae7f7ac344b1b0b2f47301e3d555b9 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 27 Nov 2026 23:37:52 +0000
+Subject: [PATCH] S306p Review 89's four findings in the queue's code (the
+ framework's thin path; P-885; B2019; main's M74): scripts/queue/rerun.py runs
+ a card's Python with -s, not -E, so the PYTHONHASHSEED of the clean
+ environment holds and a script printing a set of strings gives the same
+ decisive lines on every rerun; discovery's ancestor rule tried with a real
+ commit on a side branch; the known-failures history tried with an entry
+ swapped for another; baseline.py's docstring says the list ships main's seven
+ first entries; tests fail with each rule removed
+
+---
+ CHANGELOG.md                   | 11 +++++++++++
+ PROGRESS_LOG.md                |  9 +++++++++
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ scripts/queue/baseline.py      |  5 +++--
+ scripts/queue/rerun.py         |  8 +++++---
+ tests/test_known_failures.py   | 22 ++++++++++++++++++++++
+ tests/test_queue_discover.py   | 18 ++++++++++++++++++
+ tests/test_queue_rerun.py      | 16 ++++++++++++++++
+ 8 files changed, 85 insertions(+), 6 deletions(-)
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index a325e1c5b..2694303de 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,16 @@
+ # Changelog
+ 
++## S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE (the framework's thin path; P-885; B2019; main's M74) (2026-11-27)
++
++- **`scripts/queue/rerun.py`:** a card's Python runs as `python -s`, no longer `-E`, which ignored the PYTHONHASHSEED the
++  clean environment sets: a script printing a set of strings now gives the same decisive lines on every rerun, the peer's
++  and the banking seats' included. Test: four reruns of such a script give one hash.
++- **`tests/test_queue_discover.py`:** the ancestor rule is tried with a real commit on a side branch (git's exit 1), beside
++  the git error the old test planted (exit 128); a guard that refused only errors fails it.
++- **`tests/test_known_failures.py`:** an entry swapped for another along the list's history, its length kept, fails the
++  gate; a guard that compared lengths fails the test.
++- **`scripts/queue/baseline.py`:** its docstring said the list shipped empty; it ships main's seven first entries.
++
+ ## S306p THE LANDING TOOL: THE SINGLE WRITER OF A BANKED CARD'S ARC (the framework's thin path, T11; P-885) (2026-11-27)
+ 
+ - **`scripts/queue/land.py`:** a card the queue holds VERIFIED, by the runner's move on two ACCEPTs, is landed by this
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 2d5f32437..4da018195 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20691,3 +20691,12 @@
+ landing and leaves the push to main.
+ 
+ 0 of 19.
++
++## 2026-11-27 — Four findings of Review 89 in the queue's code, mended (S306p)
++
++**What happened.** The building seat mended what Review 89's cold readers found in the queue's code. The rerun now keeps
++the fixed seed for Python's hashing, so a script whose output depends on the order of a set gives the same lines each time
++it is rerun. Two rules that held already but had no test that could catch them breaking now have one each, and a line of
++documentation that said the known-failures list shipped empty now says what it holds.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 703236997..1013a42b1 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE (the framework's thin path; P-885; B2019; main's M74) (2026-11-27)”
+ - “S306p THE LANDING TOOL: THE SINGLE WRITER OF A BANKED CARD'S ARC (the framework's thin path, T11; P-885) (2026-11-27)”
+ - “S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-27)”
+ - “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)”
+@@ -60,7 +61,6 @@
+ - “S306p T7B PART 2 LANDED: THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7B'S SANDBOX; THE RUNNER HELD UNTIL THE AUTHOR'S SETTINGS (P-885; B2019; M70, M73, M75) (2026-11-28)”
+ - “S306p REVIEW 89 ENTERED: SIX OF EIGHT PLANTS CAUGHT, ELEVEN REAL FAULTS HELD, SEVEN MENDED, FOUR TO THE BUILDER (B2019; P-589, P-869, P-881, P-885; HARVEST ROW 2059; M74, M67) (2026-11-27)”
+ - “S306p THE PHYSICAL SEAT BACK: ITS C8 CARD RECEIVED; THE PEER ROLE FOR MAIN'S SEVEN ACCEPTED (P-885; HARVEST ROW 2058; M26) (2026-11-27)”
+-- “S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/scripts/queue/baseline.py b/scripts/queue/baseline.py
+index d0ee05e50..4cb912f07 100644
+--- a/scripts/queue/baseline.py
++++ b/scripts/queue/baseline.py
+@@ -15,8 +15,9 @@
+   - a landing that adds a failure or a red gate is refused (the landing tool, T11, calls `compare` below): a failure the
+     list does not hold is a new failure; an entry that now passes is reported, so that the list is shrunk by it.
+ 
+-The list ships EMPTY. Its first entries are main's: they come from main's own full suite on a fresh clone, each with the
+-register row main gives it. `--draft` writes the entries a run gives, with their rows left for main to fill.
++The list's entries are main's: it ships main's seven first entries (main's M63), from main's own full suite on a fresh
++clone, each with the register row main gives it (Review 89, main's M74 point 4: this line said the list shipped empty).
++`--draft` writes the entries a run gives, with their rows left for main to fill.
+ 
+     python3 scripts/queue/baseline.py --check                       # the list's form and rows; exit 1 when it fails
+     python3 scripts/queue/baseline.py --compare FAILURES [--gates RED]   # a run against the list
+diff --git a/scripts/queue/rerun.py b/scripts/queue/rerun.py
+index c74421dfd..f50e56777 100644
+--- a/scripts/queue/rerun.py
++++ b/scripts/queue/rerun.py
+@@ -302,7 +302,9 @@
+     if path.startswith(("/", "-")) or ".." in pathlib.PurePosixPath(path).parts:
+         return None
+     if run in ("python3", "python") and path.endswith(".py"):
+-        return [sys.executable, "-E", "-s"] + argv[1:]
++        # `-s`, not `-E` (Review 89, main's M74 point 1): the environment is built clean already, and `-E` would ignore the
++        # PYTHONHASHSEED it sets, so a script printing a set of strings would give other decisive lines on each rerun
++        return [sys.executable, "-s"] + argv[1:]
+     if run == "sage" and path.endswith(".sage") or run == "gap" and path.endswith((".g", ".gap")):
+         return argv
+     return None
+@@ -532,14 +534,14 @@
+         bad.append("the decisive script as written is not the one the card hashes (%s, the card says %s)" % (got, want_hash))
+     is_heavy_script = script.endswith(HEAVY_SUFFIXES)
+     argv = _command(cmd)
+-    if argv is None or (argv[3] if argv[0] == sys.executable else argv[1]) != script:
++    if argv is None or (argv[2] if argv[0] == sys.executable else argv[1]) != script:
+         bad.append("the decisive command is not a plain run of the decisive script: %r" % cmd)
+     cargv = _command(control)
+     if cargv is None:
+         bad.append("the failing control is not a plain run of a script of the commit: %r" % control)
+     elif argv is not None and cargv == argv:
+         bad.append("the failing control is the decisive command itself")
+-    scripts = [script] + ([cargv[3] if cargv[0] == sys.executable else cargv[1]] if cargv else [])
++    scripts = [script] + ([cargv[2] if cargv[0] == sys.executable else cargv[1]] if cargv else [])
+     mods = set()
+     for s in dict.fromkeys(scripts):
+         if modes.get(s) == "120000":
+diff --git a/tests/test_known_failures.py b/tests/test_known_failures.py
+index b53604b2c..70c2f17a4 100644
+--- a/tests/test_known_failures.py
++++ b/tests/test_known_failures.py
+@@ -51,6 +51,28 @@
+     assert not ok and "adds harvest-debt: the list may only shrink" in detail
+ 
+ 
++def test_an_entry_swapped_for_another_along_the_history_fails_though_the_length_is_kept_m74(tmp_path):
++    """Review 89, main's M74 point 3: a guard that compared the list's length along its history would pass an entry swapped
++    for another; the code compares the entries, and this plants the swap"""
++    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
++                                  capture_output=True, text=True, check=True)
++    g("init", "-q")
++    (tmp_path / "queue").mkdir()
++    f = tmp_path / "queue" / "KNOWN_FAILURES.json"
++    f.write_text(json.dumps(TWIN), encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "the list")
++    swapped = json.loads(json.dumps(TWIN))
++    swapped["tests"][0]["id"] = "tests/test_b.py::test_another"             # one entry out, another in: the same length
++    f.write_text(json.dumps(swapped), encoding="utf-8")
++    g("commit", "-q", "-am", "a swap")
++    bad = BL.shrink_problems(tmp_path)
++    assert len(bad) == 1 and "adds tests/test_b.py::test_another: the list may only shrink" in bad[0], bad
++    ok, detail = GATES.gate_known_failures(swapped, tmp_path)
++    assert not ok and "test_another" in detail
++    assert BL.shrink_problems(tmp_path, ref="HEAD~1") == []               # the list before the swap holds
++
++
+ def test_the_lists_form():
+     known = {"P-885", "P-881"}
+     assert BL.form_problems(TWIN, known) == []
+diff --git a/tests/test_queue_discover.py b/tests/test_queue_discover.py
+index 88b63a151..d0348d5ae 100644
+--- a/tests/test_queue_discover.py
++++ b/tests/test_queue_discover.py
+@@ -242,6 +242,24 @@
+     assert [r["branch"] for r in new.values()] == ["main"] and any("seat/a" in r for r in report), report
+ 
+ 
++def test_a_stated_commit_that_exists_and_is_not_an_ancestor_is_refused_m74(tmp_path):
++    """Review 89, main's M74 point 2: the stated commit "0" * 40 is a git error (exit 128), not a commit that is not an
++    ancestor (exit 1). A real commit on a side branch is planted, and its twin, the branch's own earlier commit, holds"""
++    g, put, card, base = _repo(tmp_path)
++    g("checkout", "-q", "-b", "side", base)
++    (tmp_path / "side.txt").write_text("a commit beside the seat's branch\n", encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "side")
++    side = g("rev-parse", "HEAD").strip()
++    assert subprocess.run(["git", "merge-base", "--is-ancestor", side, "seat/a"], cwd=tmp_path).returncode == 1
++    g("checkout", "-q", "seat/a")
++    put("CLAIM_side.md", card("a stated commit on a side branch", stated=side))
++    put("CLAIM_own.md", card("a stated commit on its own branch", stated=base))
++    new, report = _discover({}, [("a", "origin/seat/a")], tmp_path)
++    assert sorted(r["card_path"] for r in new.values()) == ["relays/claims/CLAIM_own.md"], report
++    assert any("CLAIM_side.md" in r and "is not an ancestor of" in r for r in report), report
++
++
+ def test_the_table_on_main_names_main_and_the_command_runs_by_hand(tmp_path):
+     codes = D.seat_codes()
+     assert codes.get("main") == QS.MAIN_CODE and all(not QS.code_problems(c) for c in codes.values())
+diff --git a/tests/test_queue_rerun.py b/tests/test_queue_rerun.py
+index 8a9efe0fa..cd83f3b8d 100644
+--- a/tests/test_queue_rerun.py
++++ b/tests/test_queue_rerun.py
+@@ -555,3 +555,19 @@
+     monkeypatch.setattr(RR, "STRATEGIES", [(lambda: False, ["unshare", "--", "true"], "never usable"),
+                                            (lambda: True, ["no-such-tool-anywhere", "--", "true"], "no tool")])
+     assert RR.sandbox_prefix() == ([], "no sandbox")
++
++
++SET_OF_STRINGS = ("import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
++                  "print('DECISIVE: order =', ' '.join(set('alpha beta gamma delta epsilon zeta eta theta iota kappa'.split())))\n")
++
++
++def test_a_script_printing_a_set_of_strings_gives_the_same_lines_on_two_reruns_m74(tmp_path):
++    """Review 89, main's M74 point 1: `-E` made the interpreter ignore PYTHONHASHSEED, so the order of a set of strings,
++    and the decisive lines that print it, changed from one rerun to the next"""
++    _commit(tmp_path / "s", {"x.py": SET_OF_STRINGS})
++    first = _rerun(tmp_path / "s", _card(tmp_path / "s"))
++    lines = {first["decisive"]["sha256"]}
++    for _ in range(3):
++        lines.add(_rerun(tmp_path / "s", _card(tmp_path / "s"))["decisive"]["sha256"])
++    assert len(lines) == 1, lines
++    assert RR._command("python3 x.py") == [sys.executable, "-s", "x.py"]
+-- 
+2.43.0
+

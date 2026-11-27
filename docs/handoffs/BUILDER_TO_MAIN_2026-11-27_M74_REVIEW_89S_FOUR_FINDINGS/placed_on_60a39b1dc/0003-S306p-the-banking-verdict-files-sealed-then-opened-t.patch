@@ -1,0 +1,910 @@
+From 9e6f80d964e06029335d3aaf3dc84c0afd0c8151 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 27 Nov 2026 23:34:50 +0000
+Subject: [PATCH 3/4] S306p the banking verdict files, sealed then opened; two
+ ACCEPTs bank (the framework's thin path, T9; P-885; main's M60, M64, M71):
+ scripts/queue/banking.py checks each banking seat's expectation, seal and
+ verdict on its own branch (the verdict hashes to its seal, the expectation
+ before the seal, the verdict opened only after both seals were in, the seat's
+ own script rerun in the sandbox and sharing nothing with the producer's, no
+ seat banking its own card, the labels of its evidence) and decides VERIFIED,
+ RETURNED, REFUSED or SPLIT, a card of main's own waiting for another family;
+ after its peer stage a deciding card goes to banking and a card that decides
+ nothing ends at NOT_BANKED; banking takes cards in queue order; a later
+ round's check is added beside the record check; K2 refuses a script that
+ names the producer's files or reads a renamed copy of them; the round says
+ when both seals are in; a verdict's check runs once; queue/BANKING_SEATS.json
+ names the seats; tests fail with each rule removed
+
+---
+ CHANGELOG.md                   |  23 +++
+ PROGRESS_LOG.md                |  11 ++
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ queue/BANKING_SEATS.json       |   5 +
+ scripts/queue/banking.py       | 239 ++++++++++++++++++++++++++
+ scripts/queue/custody.py       |   2 +-
+ scripts/queue/intake.py        | 114 ++++++++++++-
+ tests/test_queue_banking.py    | 298 +++++++++++++++++++++++++++++++++
+ tests/test_queue_peer_note.py  |   7 +-
+ 10 files changed, 691 insertions(+), 13 deletions(-)
+ create mode 100644 queue/BANKING_SEATS.json
+ create mode 100644 scripts/queue/banking.py
+ create mode 100644 tests/test_queue_banking.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 5d2026e8b..69d8a2a30 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,28 @@
+ # Changelog
+ 
++## S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-27)
++
++- **`scripts/queue/banking.py`:** each banking seat files on its own branch its expectation, its seal (the SHA-256 of
++  its verdict) and, once the queue shows both seals, its verdict: ACCEPT, RETURN or REFUSE (results, not rulings), one
++  paragraph of reasons, its own script and decisive lines, and the labels of section 12 for its evidence (M60). The
++  runner's check: the verdict hashes to its seal and is the seat's; the expectation sighted no later than the seal (K3);
++  the verdict first sighted in a round after both seals were in (K1, enforced at the resolution of the runner's rounds);
++  the seat's script rerun in T7b's sandbox with its control, sharing no file with the producer's (K2); a seat never banks
++  its own card (D8). Two ACCEPTs: VERIFIED, unless a card of main's own lacks a check from another family; two RETURNs:
++  RETURNED; two REFUSEs: REFUSED; any two that differ: SPLIT.
++- **`scripts/queue/intake.py`:** the end of the peer stage, after the peer's note or 72 hours after the offer with no
++  note that held ("no peer check"): a deciding card goes to AT_BANKING, and a card that decides nothing ends at
++  NOT_BANKED (T7b, M64 item 10). Banking takes the cards in queue order, by the number of their ids (M64 item 13). A later
++  round's peer or banking check is added to the card's check file beside its record check, never in its place.
++  `queue/BANKING_SEATS.json` names the two seats by code and branch; while it names none, nothing is banked.
++- **Main's M71:** K2 also refuses a seat's script that reaches for the producer's computation another way: it, or a
++  module beside it that it imports, names the producer's decisive script, its folder or a file in it, or a file beside it
++  is a renamed copy of one of the producer's (`peer_note.producer_reach`); these checks come before the rerun. The round's
++  report says, for each card at banking, when both seals were first sighted and that verdicts may be opened from the next
++  round on (K1). A verdict's check is kept by its verdict, seal, expectation and the other seal's sighting, so a filed
++  seat's script runs once, not every round. A verdict's run after a card that leaves a process behind is its own.
++- **New test** `tests/test_queue_banking.py` (13 tests); each rule's removal makes one fail.
++
+ ## S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)
+ 
+ - **`scripts/queue/peer_note.py`:** a peer's note, `relays/claims/peer/PEER_<card id>.json` on the peer's own branch: the
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index c1a561c0a..f31865767 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20670,3 +20670,14 @@
+ the peer's code shares nothing with the producer's, or "reran" when it reused it. A card whose note holds moves on.
+ 
+ 0 of 19.
++
++## 2026-11-27 — The banking verdicts: two seats, each sealed before either is opened (S306p)
++
++**What happened.** The building seat sent the thin path's ninth patch. Each of the two banking seats now writes down what it
++expects, commits a fingerprint of its verdict, and only shows the verdict itself once the queue records both fingerprints,
++so neither can copy the other. The runner checks the fingerprints, reruns each seat's own code with the network cut, and
++refuses a verdict that reuses the producer's code. Two acceptances verify a card; any disagreement goes to main, and a
++card of main's own needs a check from another family of models before it is verified. A card that decides nothing ends
++after its peer stage, marked not banked.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 49e9b4709..3a3abd180 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE BANKING VERDICT FILES: SEALED, THEN OPENED; TWO ACCEPTS BANK (the framework's thin path, T9; P-885) (2026-11-27)”
+ - “S306p THE PEER NOTE AND THE MOVE TO PEERED (the framework's thin path, T8; P-885) (2026-11-27)”
+ - “S306p TWO OF MAIN'S RELAYS OF 2026-11-06 GIVEN THEIR STATE AS THE DATE ROLLED (P-717, P-720) (2026-11-28)”
+ - “S306p T7B PART 2 LANDED: THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7B'S SANDBOX; THE RUNNER HELD UNTIL THE AUTHOR'S SETTINGS (P-885; B2019; M70, M73, M75) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p THE PHYSICAL SEAT BACK: ITS C8 CARD RECEIVED; THE PEER ROLE FOR MAIN'S SEVEN ACCEPTED (P-885; HARVEST ROW 2058; M26) (2026-11-27)”
+ - “S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)”
+ - “S306p LAW_MAP ROW 294 DECIDED AT SOURCE; SIXTEEN REGISTER ROWS ESCALATED BEFORE THE GATE WOULD REFUSE THEM (P-589, P-885) (2026-11-27)”
+-- “S306p AGY-002'S THIRD NEW-FORM CARD RECEIVED (P-885; HARVEST ROW 2056; M65) (2026-11-27)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index d84bd7894..5240be75e 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1568 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1569 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1951,6 +1951,7 @@
+ ## 2026-11-27
+ 
+ - — `test_known_failures.py` 
++- — `test_queue_banking.py` 
+ - — `test_queue_peer_note.py` 
+ 
+ ## 2026-11-28
+diff --git a/queue/BANKING_SEATS.json b/queue/BANKING_SEATS.json
+new file mode 100644
+index 000000000..17ffa9d6e
+--- /dev/null
++++ b/queue/BANKING_SEATS.json
+@@ -0,0 +1,5 @@
++{
++ "note": "The two banking seats (the framework's thin path, T9; register row P-885): each by its seat code and its branch, never a name. Main and the author fill this; while it names no two seats, the runner banks nothing.",
++ "V1": {"code": null, "branch": null},
++ "V2": {"code": null, "branch": null}
++}
+diff --git a/scripts/queue/banking.py b/scripts/queue/banking.py
+new file mode 100644
+index 000000000..29616ff66
+--- /dev/null
++++ b/scripts/queue/banking.py
+@@ -0,0 +1,239 @@
++#!/usr/bin/env python3
++"""The banking verdict files: sealed, then opened; two ACCEPTs bank (the framework's thin path, patch T9; draft 1 §§ 2.4,
++4 and 9; docs/roles/BANKING.md; main's M54 to M56; register row P-885).
++
++THE SEATS. `queue/BANKING_SEATS.json` names the two banking seats, V1 and V2, each by its seat code and its branch. Main
++and the author fill it; while it names no seat, the runner banks nothing.
++
++THE FILES, on each banking seat's own branch, under `relays/claims/banking/`:
++  EXPECT_<card>.md     the seat's expectation, committed before it runs (K3);
++  SEAL_<card>.txt      one line: the SHA-256 of the verdict file's exact bytes, committed before either verdict is opened;
++  VERDICT_<card>.json  {card, card_commit, seat, verdict, reason, script, decisive, labels}: ACCEPT, RETURN or REFUSE, one
++                       paragraph of reasons, the seat's own script {path, sha256, run_as, control}, its decisive lines,
++                       and the labels of docs/seats/README.md section 12 for its evidence (main's M60). The three words
++                       name results, not rulings: ACCEPT, that the seat's own recomputation agrees with the card's
++                       decisive lines; REFUSE, that it does not; RETURN, that the card could not be decided as filed.
++
++THE RUNNER'S CHECK of one verdict:
++  - the verdict hashes to its seal, and is the seat's (its code and the card's id and commit);
++  - the expectation was sighted no later than the seal (K3);
++  - BLIND (K1): the verdict was first sighted in a round after the one in which both seals were in. The sighting log is
++    the runner's clock, and this is enforced at the resolution of its rounds: a seat opens its verdict only when the queue
++    shows both seals, and a verdict pushed before that is seen in the same round as the last seal and refused;
++  - the seat's own script is rerun at the verdict's commit, in T7b's sandbox (its own namespaces, as nobody), with its failing control, and must print the
++    decisive lines it gives; it shares no file with the producer's (K2: rerunning the producer's script is reproduction,
++    which the intake has done). Nor does it reach for the producer's computation another way (main's M71 point 1): its
++    text, and that of the modules beside it that it imports, names neither the producer's decisive script nor its folder
++    nor a file in it, and no file beside it is a renamed copy of one of the producer's. That sees only what is written
++    plainly; the auditor's sample covers what it cannot see. These checks come before the rerun;
++  - a verdict's check is kept, and its script not rerun, while its verdict, seal, expectation and the other seal's
++    sighting stay the same (main's M71 point 3).
++
++THE OUTCOME, once both verdicts hold (the runner's move alone, T1b):
++  - two ACCEPTs: VERIFIED; but a card of main's own waits for a check from another family (§ 8), which neither banking
++    seat gives when both share main's family and the peer's check did not;
++  - two RETURNs: RETURNED; two REFUSEs: REFUSED;
++  - any two that differ: SPLIT, settled by main on a seat's card, and by the auditor or the author on main's own (T1b).
++  Decided here and said for main: RETURN beside REFUSE is a SPLIT, not a RETURN. Both seats said no, but for different
++  reasons, and which one stands is a judgement.
++
++A verdict that does not hold is reported, and the card stays AT_BANKING. A sealed verdict cannot be changed, so such a
++card waits for main.
++
++THE PEER NOTE is not sealed here: the runner must read it to grade it, and it sits on a public branch (T8). The banking
++seats' blindness to it is the charter's rule K1, measured by the plants.
++
++    python3 scripts/queue/banking.py VERDICT.json      # the verdict file's form; exit 0 when it holds
++"""
++import hashlib
++import importlib.util
++import json
++import pathlib
++import re
++import subprocess
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[1]
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++QS = _load("queue_schema_for_banking", HERE / "queue_schema.py")
++CF = _load("card_form_for_banking", HERE / "card_form.py")
++CU = _load("custody_for_banking", HERE / "custody.py")
++RR = _load("rerun_for_banking", HERE / "rerun.py")
++PN = _load("peer_note_for_banking", HERE / "peer_note.py")
++DIR = "relays/claims/banking/"
++SEATS_FILE = ROOT / "queue" / "BANKING_SEATS.json"
++VERDICTS = ("ACCEPT", "RETURN", "REFUSE")
++FIELDS = ("card", "card_commit", "seat", "verdict", "reason", "script", "decisive", "labels")
++# docs/seats/README.md section 12 (main's M60): a verdict names a result, not a ruling, and gives the labels of its evidence
++LABELS = ("computed once", "reproduced", "recomputed independently", "recomputed on another family of model",
++          "expectations committed first", "tested against planted errors", "checked by a person",
++          "checked outside the project", "not independently checked")
++HEX64 = re.compile(r"[0-9a-f]{64}")
++OUTCOME = {("ACCEPT", "ACCEPT"): "VERIFIED", ("RETURN", "RETURN"): "RETURNED", ("REFUSE", "REFUSE"): "REFUSED"}
++
++
++def paths(cid):
++    return {"expect": "%sEXPECT_%s.md" % (DIR, cid), "seal": "%sSEAL_%s.txt" % (DIR, cid),
++            "verdict": "%sVERDICT_%s.json" % (DIR, cid)}
++
++
++def seats(path=SEATS_FILE):
++    """{"V1": {"code", "branch"}, "V2": {...}} when both are named; {} while they are not"""
++    try:
++        d = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
++    except (OSError, ValueError):
++        return {}
++    out = {}
++    for v in ("V1", "V2"):
++        s = d.get(v) or {}
++        if isinstance(s, dict) and isinstance(s.get("code"), str) and not QS.code_problems(s["code"]) \
++                and isinstance(s.get("branch"), str) and s["branch"]:
++            out[v] = {"code": s["code"], "branch": s["branch"]}
++    if len(out) == 2 and out["V1"]["code"] == out["V2"]["code"]:
++        return {}
++    return out if len(out) == 2 else {}
++
++
++def form_problems(v, rec=None, code=None):
++    if not isinstance(v, dict):
++        return ["the verdict is not a table"]
++    missing = [f for f in FIELDS if f not in v]
++    extra = sorted(set(v) - set(FIELDS))
++    bad = (["fields missing: %s" % ", ".join(missing)] if missing else []) + \
++          (["fields not in the schema: %s" % ", ".join(extra)] if extra else [])
++    if missing:
++        return bad
++    if v["verdict"] not in VERDICTS:
++        bad.append("verdict %r is not one of %s" % (v["verdict"], ", ".join(VERDICTS)))
++    if not isinstance(v["labels"], list) or not v["labels"] or any(l not in LABELS for l in v["labels"]):
++        bad.append("labels is not a list of one or more of section 12's labels")
++    if not isinstance(v["reason"], str) or not v["reason"].strip() or "\n\n" in v["reason"].strip() or len(v["reason"]) > 3000:
++        bad.append("reason is not one paragraph of 1 to 3000 characters")
++    note_like = {"card": v["card"], "card_commit": v["card_commit"], "peer_code": v["seat"], "finding": "reproduced",
++                 "script": v["script"], "decisive": v["decisive"], "note": "x"}
++    bad += [b.replace("peer_code", "seat") for b in PN.form_problems(note_like) if "finding" not in b]
++    if rec is not None and not bad:
++        if v["card"] != rec["id"] or v["card_commit"] != rec["commit"]:
++            bad.append("the verdict is not for this card at its sealed commit")
++        if code is not None and v["seat"] != code:
++            bad.append("the verdict's seat %s is not the banking seat %s" % (v["seat"], code))
++        if v["seat"] == rec["seat_code"]:
++            bad.append("a banking seat does not bank a card of its own (D8)")
++    return bad
++
++
++def _at(root, ref, path):
++    """(the commit that last changed path on ref, the blob) or (None, None)"""
++    r = subprocess.run(["git", "log", "-1", "--format=%H", ref, "--", path], cwd=root, capture_output=True, text=True)
++    c = r.stdout.strip()
++    if r.returncode != 0 or not c:
++        return None, None
++    b = subprocess.run(["git", "rev-parse", "%s:%s" % (c, path)], cwd=root, capture_output=True, text=True)
++    return (c, b.stdout.strip()) if b.returncode == 0 else (None, None)
++
++
++def sightings(root, entries, cid, the_seats, at):
++    """the log's new lines for the banking files of one card on both seats' branches"""
++    new = []
++    for v, s in sorted(the_seats.items()):
++        for kind, path in sorted(paths(cid).items()):
++            commit, _ = _at(root, "origin/" + s["branch"], path)
++            if commit:
++                e = CU.sight(root, entries + new, s["branch"], commit, path, kind, at)
++                if e:
++                    new.append(e)
++    return new
++
++
++def check_verdict(root, cid, rec, card_text, s, entries, other_seal_at, limit=RR.TIME_LIMIT, prefix=None,
++                  allow_static=False, cached=None):
++    """{ok, verdict, reasons, rerun, key}: one banking seat's verdict on one card. `cached` is the check a past round made;
++    it is kept, and nothing is rerun, while the verdict, the seal, the expectation and the other seal's sighting are the
++    same (main's M71 point 3: a filed seat's script runs once, not every round)"""
++    out = {"ok": False, "verdict": None, "reasons": [], "rerun": None}
++    ref, p = "origin/" + s["branch"], paths(cid)
++    found = {k: _at(root, ref, path) for k, path in p.items()}
++    if not found["verdict"][0]:
++        return dict(out, reasons=["no verdict opened yet"])
++    key = [found["verdict"][1], found["seal"][1], found["expect"][1], other_seal_at]
++    if isinstance(cached, dict) and cached.get("key") == key:
++        return cached
++    out["key"] = key
++    seen = {k: CU.first_sighting(entries, s["branch"], p[k], blob) for k, (_, blob) in found.items() if blob}
++    if "seal" not in seen or seen.get("seal") is None:
++        return dict(out, reasons=["the verdict has no seal sighted before it"])
++    seal_text = subprocess.run(["git", "show", "%s:%s" % (found["seal"][0], p["seal"])], cwd=root, capture_output=True,
++                               text=True).stdout.strip()
++    raw = subprocess.run(["git", "cat-file", "blob", found["verdict"][1]], cwd=root, capture_output=True).stdout
++    if not HEX64.fullmatch(seal_text) or hashlib.sha256(raw).hexdigest() != seal_text:
++        out["reasons"].append("the verdict does not hash to its seal")
++    if seen.get("expect") is None:
++        out["reasons"].append("no expectation was sighted (K3)")
++    elif seen["expect"]["at"] > seen["seal"]["at"]:
++        out["reasons"].append("the expectation was sighted after the seal (K3)")
++    last_seal = max(seen["seal"]["at"], other_seal_at or "9999")
++    if seen.get("verdict") is None or other_seal_at is None or seen["verdict"]["at"] <= last_seal:
++        out["reasons"].append("the verdict was opened before both seals were in (K1): it was first sighted in the round "
++                              "of the last seal, or before")
++    try:
++        v = json.loads(raw.decode("utf-8"))
++    except ValueError:
++        return dict(out, reasons=out["reasons"] + ["the verdict is not JSON"])
++    out["verdict"] = v.get("verdict") if isinstance(v, dict) else None
++    out["reasons"] += form_problems(v, rec, s["code"])
++    if out["reasons"]:
++        return out
++    blob = subprocess.run(["git", "cat-file", "blob", "%s:%s" % (found["verdict"][0], v["script"]["path"])], cwd=root,
++                          capture_output=True)
++    if blob.returncode != 0 or hashlib.sha256(blob.stdout).hexdigest()[:16] != v["script"]["sha256"]:
++        return dict(out, reasons=["the seat's script at the verdict's commit is not the one the verdict hashes"])
++    m = CF.SCRIPT.match(CF.read(card_text)[1].get("decisive script", ""))
++    producer = PN._files(root, rec["commit"], m.group(1)) if m else set()
++    if PN._files(root, found["verdict"][0], v["script"]["path"]) & producer:
++        return dict(out, reasons=["the seat's script shares a file with the producer's (K2)"])
++    reach = PN.producer_reach(root, rec["commit"], m.group(1), found["verdict"][0], v["script"]["path"]) if m else []
++    if reach:                                     # main's M71 point 1: a rerun passing as a recomputation
++        return dict(out, reasons=["the seat's script reaches for the producer's computation (K2): %s" % "; ".join(reach)])
++    note_like = {"script": v["script"], "decisive": v["decisive"]}
++    res = RR.rerun(root, found["verdict"][0], PN._as_card(note_like), limit=limit, prefix=prefix,
++                   allow_static=allow_static)
++    out["rerun"] = res
++    if res["status"] != "REPRODUCED":
++        return dict(out, reasons=["the seat's own run: %s" % ("; ".join(res["reasons"]) or res["status"])])
++    out["ok"] = True
++    return out
++
++
++def outcome(rec, v1, v2, peer_other_family=None, the_seats=None):
++    """the move the two verdicts decide, and its note: (status or None, note)"""
++    pair = tuple(sorted((v1, v2)))
++    status = OUTCOME.get((v1, v2)) if v1 == v2 else "SPLIT"
++    if status == "VERIFIED" and rec["seat_code"] == QS.MAIN_CODE:
++        fam = QS.MAIN_CODE.split("-")[0]
++        banks_other = any(s["code"].split("-")[0] != fam for s in (the_seats or {}).values())
++        if not banks_other and not peer_other_family:
++            return None, "two ACCEPTs; a card of main's own waits for a check from another family (section 8)"
++    return status, "the banking verdicts: %s and %s" % pair
++
++
++def main(argv):
++    v = json.loads(pathlib.Path(argv[0]).read_text(encoding="utf-8"))
++    bad = form_problems(v)
++    for b in bad:
++        print(b)
++    print("%d problem(s)" % len(bad))
++    return 1 if bad else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/scripts/queue/custody.py b/scripts/queue/custody.py
+index 886ec59e9..94fce4f78 100644
+--- a/scripts/queue/custody.py
++++ b/scripts/queue/custody.py
+@@ -50,7 +50,7 @@
+ CF = _load("card_form_for_custody", HERE / "card_form.py")
+ LOG = "queue/SIGHTINGS.jsonl"
+ LINE_FIELDS = ("at", "branch", "commit", "path", "blob", "what")
+-WHATS = ("card", "script", "peer")          # T8: a peer note is sighted too
++WHATS = ("card", "script", "peer", "expect", "seal", "verdict")   # T8: a peer note; T9: the banking files
+ FIXED = ("id", "seat_code", "branch", "commit", "card_path", "refiles")
+ 
+ 
+diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
+index cbb1c3c9c..59e919238 100644
+--- a/scripts/queue/intake.py
++++ b/scripts/queue/intake.py
+@@ -14,12 +14,16 @@
+      premise card not VERIFIED, or a premise arc whose own card is not (D6), keeps it FILED, waiting; the firewall's words
+      (A3) are a flag to the author, listed in the round's report;
+   5. the rerun (T5, rebuilt by T7b): REPRODUCED, with `deciding` set from the record check; RETURNED_AT_INTAKE with its
+-     reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine.
+-
++     reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine;
+   6. the peer note (T8): a card OFFERED to a peer moves to PEERED once the peer's note, on its own branch, holds the
+      runner's check (scripts/queue/peer_note.py), the peer's script rerun in the same sandbox; a note that does not is
+-     reported and the card stays OFFERED. Offers are made by hand in the trial. A card that decides nothing ends at
+-     NOT_BANKED after its peer stage (T9).
++     reported and the card stays OFFERED. Offers are made by hand in the trial;
++  7. the end of the peer stage (T9): after the peer's note, or 72 hours after the offer with no note that holds, a card
++     that decides something goes to AT_BANKING, and a card that decides nothing ends at NOT_BANKED;
++  8. banking (T9): the cards AT_BANKING, in queue order (M64 item 13), are checked against the two banking seats'
++     sealed verdicts (scripts/queue/banking.py); two verdicts that hold decide the card, as banking.outcome has it.
++
++A later round's peer or banking check is added to the card's check file under queue/checks/, beside its record check.
+ 
+ THE SANDBOX (T7b; main's M62 and M68). Seat code runs as the unprivileged user nobody in a network and a mount namespace,
+ with its own temporary directories (scripts/queue/rerun.py). Where no such wrap can be made the round goes on, and no seat
+@@ -65,6 +69,8 @@
+ RC = _load("record_check_for_intake", HERE / "record_check.py")
+ RR = _load("rerun_for_intake", HERE / "rerun.py")
+ PN = _load("peer_note_for_intake", HERE / "peer_note.py")
++BK = _load("banking_for_intake", HERE / "banking.py")
++PEER_HOURS = 72                    # § 9: an offer with no note that holds goes to banking after 72 hours, marked so
+ MAX_CARDS = 3                      # cards rerun in one round, so that a round stays inside the job's time
+ 
+ 
+@@ -90,6 +96,17 @@
+     return cards, log
+ 
+ 
++def read_checks(qdir):
++    """{id: the check attached to the card} as the queue's folder holds them, read once at the start of a round"""
++    out = {}
++    for f in sorted(pathlib.Path(qdir, "checks").glob("Q*.json")):
++        try:
++            out[f.stem] = json.loads(f.read_text(encoding="utf-8"))
++        except ValueError:
++            pass
++    return out
++
++
+ def snapshot(qdir):
+     """{relative path: sha256} of every file under the queue's folder"""
+     qdir = pathlib.Path(qdir)
+@@ -99,13 +116,24 @@
+             for f in sorted(qdir.rglob("*")) if f.is_file()}
+ 
+ 
++def _hours(a, b):
++    f = "%Y-%m-%dT%H:%M:%SZ"
++    return (datetime.datetime.strptime(b, f) - datetime.datetime.strptime(a, f)).total_seconds() / 3600
++
++
++def queue_order(cards):
++    """the cards' ids in queue order: by the number of the id, Q0001 first (M64 item 13: banking takes cards so)"""
++    return sorted(cards, key=lambda c: (int(c[1:]) if c[1:].isdigit() else float("inf"), c))
++
++
+ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_LIMIT, max_cards=MAX_CARDS,
+-           prefix=None, allow_static=False, codes=None):
++           prefix=None, allow_static=False, codes=None, seats_file=None):
+     """one round: (the cards after it, the log after it, {id: attachment}, report lines, exit status). The queue's folder
+     is read once, at the start; what the round decides is held in memory and written only after every rerun (main's M62)"""
+     at = at or _now()
+     cards, log_text = read_queue_dir(qdir)
+     cards = json.loads(json.dumps(cards))
++    old_checks = read_checks(qdir)
+     entries, bad = CU.read_log(log_text)
+     if bad:
+         return cards, log_text, {}, ["the sighting log does not hold its form: " + "; ".join(bad[:3])], 1
+@@ -116,6 +144,13 @@
+     # T7b (M64 item 4): where no sandbox can be made, the round goes on and no seat code runs: each rerun is HEAVY
+     report, attached, new_lines = ["the network guard: %s" % (guard if prefix else
+                                                                guard + "; no seat code runs this round")], {}, []
++
++    def attach(cid):
++        """the card's check, as filed with what this round adds: a later round's peer or banking part is added to it,
++        and never takes the place of the record check filed before"""
++        if cid not in attached:
++            attached[cid] = json.loads(json.dumps(old_checks.get(cid, {})))
++        return attached[cid]
+     seen = {}
+     for cid, r in cards.items():                      # the versions already filed, keyed on branch, path and blob (C25)
+         rc = subprocess.run(["git", "rev-parse", "%s:%s" % (r["commit"], r["card_path"])], cwd=root, capture_output=True,
+@@ -157,8 +192,8 @@
+             _move(rec, "RETURNED_AT_INTAKE", "custody: " + "; ".join(problems), at)
+             report.append("%s RETURNED_AT_INTAKE (custody)" % cid)
+             continue
+-        check = RC.check(record_root, text, cards)
+-        attached[cid] = check
++        check = attach(cid)
++        check.update(RC.check(record_root, text, cards))
+         if check["firewall"]:
+             report.append("%s FLAG for the author (A3): %s" % (cid, ", ".join(check["firewall"])))
+         if check["retracted"]["premises"]:
+@@ -217,7 +252,7 @@
+                     entries = entries + [e]
+             res = PN.check(root, note, commit, branch, rec, text or "", entries, limit=limit, prefix=prefix,
+                            allow_static=allow_static)
+-            attached.setdefault(cid, {})["peer"] = dict(res, branch=branch, commit=commit)
++            attach(cid)["peer"] = dict(res, branch=branch, commit=commit)
+             if res["ok"]:
+                 _move(rec, "PEERED", "the peer note on %s at %s: %s, graded %s%s" % (
+                     branch, commit[:9], note["finding"], res["grade"],
+@@ -225,6 +260,69 @@
+                 report.append("%s PEERED (%s, %s)" % (cid, note["finding"], res["grade"]))
+                 break
+             report.append("%s: the peer note on %s is refused: %s" % (cid, ref, "; ".join(res["reasons"])))
++    # T9: the end of the peer stage. A deciding card goes to banking once its peer's note holds, or when no note has held
++    # 72 hours after the offer; a card that decides nothing ends there at NOT_BANKED (T7b, M64 item 10)
++    order = queue_order(cards)
++    for cid in order:
++        rec = cards[cid]
++        if rec["deciding"] not in (True, False):
++            continue
++        if rec["status"] == "PEERED":
++            why = "after the peer's note"
++        elif rec["status"] == "OFFERED" and _hours(
++                [e["at"] for e in rec["history"] if e["status"] == "OFFERED"][-1], at) >= PEER_HOURS:
++            why = "no peer check: no note held within %d hours of the offer" % PEER_HOURS
++        else:
++            continue
++        if rec["deciding"]:
++            _move(rec, "AT_BANKING", "to banking " + why if why.startswith("after") else why, at)
++            report.append("%s AT_BANKING (%s)" % (cid, why))
++        else:
++            _move(rec, "NOT_BANKED", "it decides nothing; its peer stage is over (%s)" % why, at)
++            report.append("%s NOT_BANKED (it decides nothing; %s)" % (cid, why))
++    the_seats = BK.seats(seats_file) if seats_file else BK.seats()
++    waiting = [cid for cid in order if cards[cid]["status"] == "AT_BANKING"]
++    if waiting:
++        report.append("the banking queue, in queue order (M64 item 13): " + ", ".join(waiting))
++    for cid in waiting:
++        rec = cards[cid]
++        if rec["status"] != "AT_BANKING":
++            continue
++        if not the_seats:
++            report.append("%s waits at banking: queue/BANKING_SEATS.json names no two seats yet" % cid)
++            continue
++        for e in BK.sightings(root, entries, cid, the_seats, at):
++            new_lines.append(e)
++            entries = entries + [e]
++        text = _card_text(root, rec) or ""
++        seal_at = {}
++        for v, s in the_seats.items():
++            c, b = BK._at(root, "origin/" + s["branch"], BK.paths(cid)["seal"])
++            e = CU.first_sighting(entries, s["branch"], BK.paths(cid)["seal"], b) if b else None
++            seal_at[v] = e["at"] if e else None
++        if all(seal_at.values()):                     # main's M71 point 2: when a seat may open its verdict
++            report.append("%s at banking: both seals first sighted by %s; verdicts may be opened from the next round on, "
++                          "and one first sighted by then is refused (K1)" % (cid, max(seal_at.values())))
++        else:
++            report.append("%s at banking: seals sighted: %s; no verdict may be opened yet (K1)" % (cid, ", ".join(
++                "%s at %s" % (v, a) if a else "%s not yet" % v for v, a in sorted(seal_at.items()))))
++        got, before = {}, attach(cid).get("banking") or {}
++        for v, s in sorted(the_seats.items()):
++            other = seal_at["V2" if v == "V1" else "V1"]
++            got[v] = BK.check_verdict(root, cid, rec, text, s, entries, other, limit=limit, prefix=prefix,
++                                      allow_static=allow_static, cached=before.get(v))
++        attach(cid)["banking"] = got
++        if all(g["ok"] for g in got.values()):
++            peer = attach(cid).get("peer") or {}
++            status, note = BK.outcome(rec, got["V1"]["verdict"], got["V2"]["verdict"], peer.get("other_family"), the_seats)
++            if status:
++                _move(rec, status, note, at)
++                report.append("%s %s (%s)" % (cid, status, note))
++            else:
++                report.append("%s waits at banking: %s" % (cid, note))
++        else:
++            report.append("%s at banking: %s" % (cid, "; ".join("%s: %s" % (v, "; ".join(g["reasons"]))
++                                                             for v, g in sorted(got.items()) if not g["ok"])))
+     log_after = CU.append(log_text, new_lines)
+     problems = QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) + CU.read_log(log_after)[1]
+     if problems:
+diff --git a/tests/test_queue_banking.py b/tests/test_queue_banking.py
+new file mode 100644
+index 000000000..96f2de1c0
+--- /dev/null
++++ b/tests/test_queue_banking.py
+@@ -0,0 +1,298 @@
++"""2026-11-26 (the framework's thin path, patch T9; main's M54 to M56; register row P-885): the banking verdict files,
++scripts/queue/banking.py, and the runner's banking moves.
++
++On a repository built here, a card at banking, and two banking seats on their own branches, each filing its expectation
++and its seal in one round and its verdict in a later one: two ACCEPTs make the card VERIFIED; an ACCEPT and a REFUSE make
++it SPLIT. A verdict opened in the same round as the seals, a verdict that does not hash to its seal, and a seat whose
++script is the producer's are refused, and the card stays at banking. A card of main's own with two ACCEPTs from main's
++family waits for another family. The outcomes and the verdict's form are planted; no seats named, no banking."""
++import copy
++import hashlib
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++IN = _load("intake_for_banking_test", "scripts/queue/intake.py")
++BK = IN.BK
++PT = _load("peer_test_helpers", "tests/test_queue_peer_note.py")
++T = PT.T
++SEATS = {"V1": {"code": "fam4-v1-high-01", "branch": "seat/v1"}, "V2": {"code": "fam5-v1-high-01", "branch": "seat/v2"}}
++OWN = ("import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
++       "n = len([k for k in range(12)])\nprint('DECISIVE: good =', n)\n")
++
++
++def _at_banking(tmp_path, seat_code=None):
++    tmp_path.mkdir(parents=True, exist_ok=True)
++    repo, q, cid, g = PT._setup(tmp_path)
++    cards, log = IN.read_queue_dir(q)
++    rec = cards[cid]
++    if seat_code:                                   # main's own card: the queue's record names main's code
++        rec["seat_code"] = seat_code
++    rec["history"].append({"at": "2026-11-26T13:30:00Z", "status": "AT_BANKING", "by": "runner", "note": "no peer check"})
++    rec["status"] = "AT_BANKING"
++    IN.write(q, cards, log, {})
++    seats = tmp_path / "BANKING_SEATS.json"
++    seats.write_text(json.dumps(SEATS), encoding="utf-8")
++    return repo, q, cid, g, seats
++
++
++def _verdict(cid, commit, code, verdict="ACCEPT", script=OWN, path="bank/own.py"):
++    n, h = IN.RR.decisive("DECISIVE: good = 12\n")
++    v = {"card": cid, "card_commit": commit, "seat": code, "verdict": verdict,
++         "reason": "recomputed the count with code of my own; it holds as filed.",
++         "script": {"path": path, "sha256": hashlib.sha256(script.encode()).hexdigest()[:16],
++                    "run_as": "python3 %s" % path, "control": "python3 %s --plant" % path},
++         "decisive": {"lines": n, "sha256": h},
++         "labels": ["recomputed independently", "expectations committed first"]}
++    return json.dumps(v, indent=1).encode("utf-8")
++
++
++def _put(repo, g, branch, files, base="seat/a"):
++    exists = subprocess.run(["git", "rev-parse", "--verify", "-q", branch], cwd=repo, capture_output=True).returncode == 0
++    g("checkout", "-q", branch) if exists else g("checkout", "-q", "-b", branch, base)
++    for rel, data in files.items():
++        (repo / rel).parent.mkdir(parents=True, exist_ok=True)
++        (repo / rel).write_bytes(data if isinstance(data, bytes) else data.encode("utf-8"))
++    g("add", "-A")
++    g("commit", "-q", "-m", "banking files")
++    g("update-ref", "refs/remotes/origin/%s" % branch, "HEAD")
++
++
++def _round(repo, q, seats, at):
++    refs = [("a", "origin/seat/a")] + [(v, "origin/" + s["branch"]) for v, s in SEATS.items()]
++    out = IN.round_(q, root=repo, refs=refs, codes=PT.CODES, at=at, limit=60, allow_static=True, seats_file=seats)
++    IN.write(q, out[0], out[1], out[2])
++    return out
++
++
++def _bank(tmp_path, verdicts, same_round=False, scripts=None, seal_of=None, seat_code=None, expect_late=(), extra=None):
++    """seals and expectations in one round, the verdicts in the next (or in the same, when same_round)"""
++    repo, q, cid, g, seats = _at_banking(tmp_path, seat_code)
++    commit = IN.read_queue_dir(q)[0][cid]["commit"]
++    files = {}
++    for v, s in SEATS.items():
++        script = (scripts or {}).get(v, OWN)
++        data = _verdict(cid, commit, s["code"], verdicts[v], script=script)
++        files[v] = data
++        p = BK.paths(cid)
++        seal = hashlib.sha256((seal_of or {}).get(v, data)).hexdigest()
++        first = {p["seal"]: seal + "\n", "bank/own.py": script, **(extra or {}).get(v, {})}
++        if v not in expect_late:
++            first[p["expect"]] = "I expect twelve classes.\n"
++        _put(repo, g, s["branch"], first)
++    if not same_round:
++        _round(repo, q, seats, "2026-11-26T15:00:00Z")
++    for v, s in SEATS.items():
++        later = {BK.paths(cid)["verdict"]: files[v]}
++        if v in expect_late:
++            later[BK.paths(cid)["expect"]] = "I expect twelve classes, written after the seal.\n"
++        _put(repo, g, s["branch"], later)
++    cards, _, att, report, status = _round(repo, q, seats, "2026-11-26T18:00:00Z")
++    assert status == 0, report
++    return cards[cid], att.get(cid, {}), report
++
++
++def test_two_accepts_bank_and_an_accept_beside_a_refuse_is_a_split(tmp_path):
++    rec, att, report = _bank(tmp_path / "a", {"V1": "ACCEPT", "V2": "ACCEPT"})
++    assert rec["status"] == "VERIFIED" and rec["history"][-1]["by"] == "runner", report
++    assert all(g["ok"] for g in att["banking"].values())
++    rec, _, report = _bank(tmp_path / "b", {"V1": "ACCEPT", "V2": "REFUSE"})
++    assert rec["status"] == "SPLIT", report
++
++
++def test_a_verdict_that_does_not_hold_is_refused_and_the_card_stays_at_banking(tmp_path):
++    rec, _, report = _bank(tmp_path / "blind", {"V1": "ACCEPT", "V2": "ACCEPT"}, same_round=True)
++    assert rec["status"] == "AT_BANKING" and any("before both seals were in (K1)" in r for r in report), report
++    rec, _, report = _bank(tmp_path / "seal", {"V1": "ACCEPT", "V2": "ACCEPT"}, seal_of={"V2": b"another verdict"})
++    assert rec["status"] == "AT_BANKING" and any("does not hash to its seal" in r for r in report), report
++    rec, _, report = _bank(tmp_path / "k3", {"V1": "ACCEPT", "V2": "ACCEPT"}, expect_late=("V1",))
++    assert rec["status"] == "AT_BANKING" and any("sighted after the seal (K3)" in r for r in report), report
++    rec, _, report = _bank(tmp_path / "k2", {"V1": "ACCEPT", "V2": "ACCEPT"}, scripts={"V1": T._script("good")})
++    assert rec["status"] == "AT_BANKING" and any("shares a file with the producer's (K2)" in r for r in report), report
++
++
++def test_a_card_of_mains_own_waits_for_another_family(tmp_path):
++    main_family = {"V1": {"code": "fam1-v2-high-01", "branch": "seat/v1"}, "V2": {"code": "fam1-v2-high-02",
++                                                                                 "branch": "seat/v2"}}
++    rec = {"seat_code": IN.QS.MAIN_CODE}
++    assert BK.outcome(rec, "ACCEPT", "ACCEPT", False, main_family)[0] is None
++    assert BK.outcome(rec, "ACCEPT", "ACCEPT", True, main_family)[0] == "VERIFIED"
++    assert BK.outcome(rec, "ACCEPT", "ACCEPT", False, SEATS)[0] == "VERIFIED"
++    assert BK.outcome({"seat_code": "fam2-v5-high-01"}, "ACCEPT", "ACCEPT", False, main_family)[0] == "VERIFIED"
++
++
++def test_the_outcomes():
++    rec = {"seat_code": "fam2-v5-high-01"}
++    for pair, want in ((("ACCEPT", "ACCEPT"), "VERIFIED"), (("RETURN", "RETURN"), "RETURNED"),
++                       (("REFUSE", "REFUSE"), "REFUSED"), (("RETURN", "REFUSE"), "SPLIT"), (("ACCEPT", "RETURN"), "SPLIT")):
++        assert BK.outcome(rec, *pair)[0] == want, pair
++
++
++def test_the_verdicts_form_and_the_seats_file(tmp_path):
++    rec = {"id": "Q0001", "commit": "a" * 40, "seat_code": "fam2-v5-high-01"}
++    good = json.loads(_verdict("Q0001", "a" * 40, "fam4-v1-high-01"))
++    assert BK.form_problems(good, rec, "fam4-v1-high-01") == []
++    for change, words in ((lambda v: v.update(verdict="CANNOT DECIDE"), "is not one of ACCEPT, RETURN, REFUSE"),
++                          (lambda v: v.update(reason="one.\n\ntwo."), "one paragraph"),
++                          (lambda v: v.pop("decisive"), "fields missing"),
++                          (lambda v: v.update(seat="fam9-v1-high-01"), "is not the banking seat"),
++                          (lambda v: v.update(card_commit="b" * 40), "at its sealed commit"),
++                          (lambda v: v.update(labels=[]), "section 12's labels"),
++                          (lambda v: v.update(labels=["approved"]), "section 12's labels")):
++        v = copy.deepcopy(good)
++        change(v)
++        bad = BK.form_problems(v, rec, "fam4-v1-high-01")
++        assert bad and any(words in b for b in bad), (words, bad)
++    own = dict(good, seat=rec["seat_code"])
++    assert any("does not bank a card of its own" in b for b in BK.form_problems(own, rec, rec["seat_code"]))
++    (tmp_path / "s.json").write_text(json.dumps({"V1": {"code": None, "branch": None}}), encoding="utf-8")
++    assert BK.seats(tmp_path / "s.json") == {} and BK.seats(ROOT / "queue" / "BANKING_SEATS.json") == {}
++    (tmp_path / "s.json").write_text(json.dumps(SEATS), encoding="utf-8")
++    assert BK.seats(tmp_path / "s.json") == SEATS
++
++
++def test_an_offer_with_no_note_goes_to_banking_after_72_hours(tmp_path):
++    repo, q, cid, g = PT._setup(tmp_path)                      # offered at 2026-11-26T13:00:00Z
++    refs = [("a", "origin/seat/a")]
++    cards, *_ = IN.round_(q, root=repo, refs=refs, codes=PT.CODES, at="2026-11-29T12:00:00Z", limit=60,
++                          allow_static=True)
++    assert cards[cid]["status"] == "OFFERED"                   # 71 hours
++    cards, *_ = IN.round_(q, root=repo, refs=refs, codes=PT.CODES, at="2026-11-29T13:00:00Z", limit=60,
++                          allow_static=True)
++    assert cards[cid]["status"] == "AT_BANKING" and "no peer check" in cards[cid]["history"][-1]["note"]
++
++
++def _deciding_nothing(q, cid):
++    cards, log = IN.read_queue_dir(q)
++    cards[cid]["deciding"] = False                  # as the record check sets it for a card that decides no row
++    IN.write(q, cards, log, {})
++
++
++def test_a_card_that_decides_nothing_ends_at_not_banked_after_its_peer_stage_m64(tmp_path):
++    # after its peer's note
++    (tmp_path / "noted").mkdir()
++    repo, q, cid, g = PT._setup(tmp_path / "noted")
++    _deciding_nothing(q, cid)
++    PT._file_note(repo, g, PT._note(cid, IN.read_queue_dir(q)[0][cid]["commit"]))
++    cards, log, att, report, status = PT._round(repo, q)
++    assert status == 0, report
++    assert [e["status"] for e in cards[cid]["history"]][-2:] == ["PEERED", "NOT_BANKED"], report
++    assert cards[cid]["history"][-1]["by"] == "runner"
++    assert IN.QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) == []
++    # 72 hours after the offer, with no note
++    (tmp_path / "timed").mkdir()
++    repo, q, cid, g = PT._setup(tmp_path / "timed")
++    _deciding_nothing(q, cid)
++    refs = [("a", "origin/seat/a")]
++    cards, *_ = IN.round_(q, root=repo, refs=refs, codes=PT.CODES, at="2026-11-29T12:00:00Z", limit=60,
++                          allow_static=True)
++    assert cards[cid]["status"] == "OFFERED"
++    cards, _, _, report, _ = IN.round_(q, root=repo, refs=refs, codes=PT.CODES, at="2026-11-29T13:00:00Z", limit=60,
++                                       allow_static=True)
++    assert cards[cid]["status"] == "NOT_BANKED" and "no peer check" in cards[cid]["history"][-1]["note"], report
++    # a deciding card is never NOT_BANKED by the runner
++    (tmp_path / "deciding").mkdir()
++    repo, q, cid, g = PT._setup(tmp_path / "deciding")
++    cards, *_ = IN.round_(q, root=repo, refs=refs, codes=PT.CODES, at="2026-11-29T13:00:00Z", limit=60,
++                          allow_static=True)
++    assert cards[cid]["status"] == "AT_BANKING"
++
++
++def test_a_later_rounds_check_is_added_beside_the_record_check_and_does_not_replace_it(tmp_path):
++    repo, q, cid, g = PT._setup(tmp_path)
++    before = json.loads((q / "checks" / ("%s.json" % cid)).read_text(encoding="utf-8"))
++    assert before and "peer" not in before
++    PT._file_note(repo, g, PT._note(cid, IN.read_queue_dir(q)[0][cid]["commit"]))
++    cards, log, att, report, status = PT._round(repo, q)
++    assert IN.write(q, cards, log, att) == []
++    after = json.loads((q / "checks" / ("%s.json" % cid)).read_text(encoding="utf-8"))
++    assert {k: after[k] for k in before} == before and after["peer"]["ok"] is True
++
++
++def test_banking_takes_cards_in_queue_order_m64():
++    assert IN.queue_order({"Q0010": {}, "Q0002": {}, "Q10000": {}, "Q9999": {}}) == ["Q0002", "Q0010", "Q9999", "Q10000"]
++
++
++RUNS_THE_PRODUCERS = ("import subprocess, sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
++                      "print(subprocess.run([sys.executable, 's_good.py'], capture_output=True, text=True).stdout, end='')\n")
++READS_A_COPY = ("import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
++                "n = len(open('bank/kept.txt').read()) * 0 + 12\nprint('DECISIVE: good =', n)\n")
++
++
++def test_a_seat_that_reruns_the_producers_computation_by_another_door_is_refused_m71(tmp_path):
++    """main's M71 point 1: a banking seat's script that runs the producer's decisive script by subprocess, or reads its
++    committed files under another name, shares no file by the import rule; K2 refuses it, and its twin, the seat's own
++    computation, holds"""
++    rec, att, report = _bank(tmp_path / "sub", {"V1": "ACCEPT", "V2": "ACCEPT"}, scripts={"V2": RUNS_THE_PRODUCERS})
++    assert rec["status"] == "AT_BANKING" and "names the producer's s_good.py" in att["banking"]["V2"]["reasons"][0], report
++    assert att["banking"]["V2"]["rerun"] is None                        # refused before anything ran
++    rec, att, report = _bank(tmp_path / "copy", {"V1": "ACCEPT", "V2": "ACCEPT"}, scripts={"V2": READS_A_COPY},
++                             extra={"V2": {"bank/kept.txt": T._script("good")}})
++    assert rec["status"] == "AT_BANKING" and "copied" in att["banking"]["V2"]["reasons"][0], report
++    rec, att, report = _bank(tmp_path / "own", {"V1": "ACCEPT", "V2": "ACCEPT"}, scripts={"V2": READS_A_COPY},
++                             extra={"V2": {"bank/kept.txt": "the seat's own data\n"}})
++    assert rec["status"] == "VERIFIED", report
++
++
++def test_the_round_says_when_both_seals_are_in_and_verdicts_may_be_opened_m71(tmp_path):
++    """main's M71 point 2: K1 refuses a verdict first sighted in the round of the last seal; the report says when that is"""
++    repo, q, cid, g, seats = _at_banking(tmp_path)
++    commit = IN.read_queue_dir(q)[0][cid]["commit"]
++    p = BK.paths(cid)
++    data = _verdict(cid, commit, SEATS["V1"]["code"])
++    _put(repo, g, "seat/v1", {p["seal"]: hashlib.sha256(data).hexdigest() + "\n", p["expect"]: "twelve\n",
++                              "bank/own.py": OWN})
++    *_, report, _ = _round(repo, q, seats, "2026-11-26T15:00:00Z")
++    assert any("%s at banking: seals sighted: V1 at 2026-11-26T15:00:00Z, V2 not yet; no verdict may be opened yet" % cid
++               in r for r in report), report
++    data2 = _verdict(cid, commit, SEATS["V2"]["code"])
++    _put(repo, g, "seat/v2", {p["seal"]: hashlib.sha256(data2).hexdigest() + "\n", p["expect"]: "twelve\n",
++                              "bank/own.py": OWN})
++    *_, report, _ = _round(repo, q, seats, "2026-11-26T18:00:00Z")
++    assert any("both seals first sighted by 2026-11-26T18:00:00Z; verdicts may be opened from the next round on" in r
++               for r in report), report
++
++
++def test_a_filed_verdict_is_checked_once_not_every_round_m71(tmp_path, monkeypatch):
++    """main's M71 point 3: while one seat has filed and the other has not, every round reran the filed seat's script. Its
++    check is kept by its verdict, seal and expectation and the other seal's sighting, and run again only when one changes"""
++    repo, q, cid, g, seats = _at_banking(tmp_path)
++    commit = IN.read_queue_dir(q)[0][cid]["commit"]
++    p = BK.paths(cid)
++    for v, s in SEATS.items():
++        data = _verdict(cid, commit, s["code"])
++        _put(repo, g, s["branch"], {p["seal"]: hashlib.sha256(data).hexdigest() + "\n", p["expect"]: "twelve\n",
++                                    "bank/own.py": OWN})
++    _round(repo, q, seats, "2026-11-26T15:00:00Z")
++    _put(repo, g, "seat/v1", {p["verdict"]: _verdict(cid, commit, SEATS["V1"]["code"])})
++    runs = []
++    real = BK.RR.rerun
++    monkeypatch.setattr(BK.RR, "rerun", lambda *a, **k: runs.append(1) or real(*a, **k))
++    for at in ("2026-11-26T18:00:00Z", "2026-11-26T21:00:00Z", "2026-11-27T00:00:00Z"):
++        cards, _, att, report, _ = _round(repo, q, seats, at)
++        assert att[cid]["banking"]["V1"]["ok"] and cards[cid]["status"] == "AT_BANKING", report
++    assert len(runs) == 1, runs
++
++
++def test_a_verdicts_run_after_a_card_that_leaves_a_process_is_its_own_m71(tmp_path):
++    (tmp_path / "x").mkdir()
++    if PT._leave_a_process(tmp_path / "x") is None:
++        import pytest
++        pytest.skip("no wrap on this machine")
++    script = PT.READS_ITS_DATA.replace("'data.txt'", "'bank/data.txt'")
++    rec, att, report = _bank(tmp_path / "b", {"V1": "ACCEPT", "V2": "ACCEPT"}, scripts={"V1": script},
++                             extra={"V1": {"bank/data.txt": "12"}})
++    assert rec["status"] == "VERIFIED", (att, report)
+diff --git a/tests/test_queue_peer_note.py b/tests/test_queue_peer_note.py
+index 1ec46bc56..339e2a6d7 100644
+--- a/tests/test_queue_peer_note.py
++++ b/tests/test_queue_peer_note.py
+@@ -100,7 +100,10 @@
+     _file_note(repo, g, _note(cid, rec["commit"]))
+     cards, log, att, report, status = _round(repo, q)
+     assert status == 0, report
+-    assert cards[cid]["status"] == "PEERED" and "graded re-derived" in cards[cid]["history"][-1]["note"]
++    peered = [e for e in cards[cid]["history"] if e["status"] == "PEERED"]
++    assert peered and "graded re-derived" in peered[0]["note"]
++    # T9: a deciding card goes on to banking in the same round, once its peer's note holds
++    assert cards[cid]["status"] == "AT_BANKING" and cards[cid]["history"][-1]["note"] == "to banking after the peer's note"
+     assert att[cid]["peer"]["other_family"] is True and att[cid]["peer"]["grade"] == "re-derived"
+     assert "peer" in {e["what"] for e in IN.CU.read_log(log)[0]}
+     assert IN.QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) == []
+@@ -112,7 +115,7 @@
+     same = T._script("good")
+     _file_note(repo, g, _note(cid, rec["commit"], script_text=same), script_text=same)
+     cards, _, att, report, _ = _round(repo, q)
+-    assert cards[cid]["status"] == "PEERED" and att[cid]["peer"]["grade"] == "reran", report
++    assert "PEERED" in [e["status"] for e in cards[cid]["history"]] and att[cid]["peer"]["grade"] == "reran", report
+ 
+ 
+ RUNS_THE_PRODUCERS = ("import subprocess, sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
+-- 
+2.43.0
+

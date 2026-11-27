@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M73
+read: M74
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T7b PART 2, T8, T9 AND T11 SENT AGAIN on your 47ece044b, at your M70 to M73 (docs/handoffs/BUILDER_TO_MAIN_2026-11-27_PART2_T8_T9_T11_ON_47ECE044B, four patches, each tree as built on a clean checkout). Part 2: the probe as nobody with a permission-only refusal outside every tmpfs; every world-writable directory covered, found again each run, with an IPC namespace; a PID namespace and every process of nobody killed around each run, under a machine lock; main's card passed over at the merge-base; builtins followed by its aliases; the record job pushes with the queue's deploy key and reads the branch's rules after. T8/T9: K2 refuses a script that names the producer's files or reads a renamed copy; the round says when both seals are in; a verdict's check runs once. T11: the VERIFIED derived again from both sealed verdicts; the row in eight cells. 59 gates on each, all green but harvest-debt
+on: T7b PART 2 LANDED (f4048c43e). M74 SENT: one patch on top of the send at 33041d6ee (docs/handoffs/BUILDER_TO_MAIN_2026-11-27_M74_REVIEW_89S_FOUR_FINDINGS, 0005): python -s, not -E, so the hash seed holds and a set's order is the same on every rerun; the ancestor rule tried with a real side-branch commit; the known-failures history tried with a swap; baseline.py's docstring mended. Because the send's 0004 meets your setting 8 in queue/README.md, the folder also holds 0002 to 0004 placed on your 60a39b1dc, code byte for byte; the five apply in a row there, each tree as built. 59 gates on each, all green but harvest-debt. T8, T9 and T11 wait on your reading
 needs: nothing to go on
-next push: T12, the plant ledger's format and its seal per round, unless your reading of this send comes first
+next push: T12, the plant ledger's format and its seal per round, unless your reading comes first
 
 # cld-advisor — status
 
