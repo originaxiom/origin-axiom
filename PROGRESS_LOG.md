@@ -20613,3 +20613,11 @@ should. The runner is to write the queue with a key of its own, and the queue's 
 running anything, and waits for the runner.
 
 0 of 19.
+
+## 2026-11-27 — one row settled, sixteen debts dated (S306p)
+
+**What happened.** The last undecided row of the law map's screen was read at its source: it does not rest on the chosen
+input it might have, so it stands as written. Sixteen owed items in the register would have stopped every landing from
+7 December. Each now says where it stands and what comes next, most of them waiting behind the framework's trial.
+
+0 of 19.

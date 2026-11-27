@@ -1,5 +1,22 @@
 # Changelog
 
+## S306p LAW_MAP ROW 294 DECIDED AT SOURCE; SIXTEEN REGISTER ROWS ESCALATED BEFORE THE GATE WOULD REFUSE THEM (P-589, P-885) (2026-11-27)
+
+- **Row 294 (B1656) is current.**
+  - B1656's equal norms are the regularised norms `c_s` of its four channel kernels (`cA` in its script), and its D is
+    `sum c_s R_s^2` (`D_of`).
+  - The script uses no metric of the generations.
+  - B1654's scope of 2026-10-30 puts the chosen H = I on the matter's metric, and says the argument holds for the Higgs
+    channels.
+  - Recorded in P-589. Row 348 stays owed until after the trial.
+- **Sixteen rows escalated** with their true state and next action, their moved dates kept:
+  - P-091, P-092, P-117, P-138, P-156, P-320, P-446, P-448;
+  - P-517, P-542, P-862, P-865, P-869, P-872, P-875, P-876.
+
+  Most are set aside behind the framework by the author's order of work. P-092 waits only on P-428. The looks wait on
+  the author's word. P-869's Q2 is answered by the landing tool T11, to land with T7b part 2. The point-debt gate's
+  look-ahead is clean through 2026-12-11.
+
 ## S306p AGY-002'S THIRD NEW-FORM CARD RECEIVED (P-885; HARVEST ROW 2056; M65) (2026-11-27)
 
 - **A2-WEIL-CHIRAL-LATTICE-BRIDGE** at `aa90abcc1`, read through the mask:
