@@ -3620,6 +3620,26 @@ def gate_queue_schema(_cards=None, _log=None, _ref="HEAD"):
     return True, "ok (%d card(s) in the queue hold its schema)" % len([n for n in cards if n != "(strays)"])
 
 
+def gate_known_failures(_d=None, _root=None):
+    """the framework's thin path, T10 (P-885): queue/KNOWN_FAILURES.json holds its form, every entry names a row of the
+    register, and along the history, and against its last committed version, the list only shrinks"""
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("baseline_for_the_gate", os.path.join(ROOT, "scripts/queue/baseline.py"))
+        m = importlib.util.module_from_spec(spec)
+        sys.dont_write_bytecode = True
+        spec.loader.exec_module(m)
+        root = _root or ROOT
+        d = m.load(root) if _d is None else _d
+        bad = m.form_problems(d, m.rows(ROOT)) + m.shrink_problems(root) + m.working_problems(d, root)
+    except Exception as exc:                              # FAIL-CLOSED
+        return False, "the known-failures baseline cannot be read: %s" % exc
+    if bad:
+        return False, "%d problem(s): " % len(bad) + "; ".join(bad[:5])
+    return True, "ok (%d test(s) and %d gate(s) on the list, each with its row; the list has only shrunk, in its history and in the working tree)" % (
+        len(d["tests"]), len(d["gates"]))
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -3677,6 +3697,7 @@ GATES = {
     "negative-second-computation": gate_negative_second_computation,
     "verdict-schema": gate_verdict_schema,
     "queue-schema": gate_queue_schema,
+    "known-failures": gate_known_failures,
     "selection-family": gate_selection_family,
     "public-face": gate_public_face,
 }
@@ -3694,7 +3715,8 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
     "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
     "gate-controls",                              # the same rule for the register of controls (series 3, PV16)
     "path-refs",                                  # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
-    "queue-schema"})                              # 2026-11-26 (T4): the sighting log and the cards, along the checkout's history
+    "queue-schema",                               # 2026-11-26 (T4): the sighting log and the cards, along the checkout's history
+    "known-failures"})                            # 2026-11-26 (T10): the baseline only shrinks, along the history
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 

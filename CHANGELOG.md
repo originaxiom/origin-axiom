@@ -1,5 +1,24 @@
 # Changelog
 
+## S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)
+
+- **`queue/KNOWN_FAILURES.json`:** every failing test and red gate on main, each with its register row and why; its first
+  entries are main's (M63): the seven tests that failed alone in main's full suite on a fresh clone of ed9660a9d, each on
+  P-810 (the two that passed alone are flakes, debts of their own, not entries).
+- **`scripts/queue/baseline.py`:** the list's form (every entry a row of the register); its history (it only shrinks); a
+  run compared with it (a failure or red gate it does not hold is new, and refuses a landing; an entry that now passes is
+  reported for taking off); a draft from a run, the rows left for main.
+- **The gate `known-failures`**, fail-closed, in READS_HISTORY; it compares the list also with its last committed
+  version, so a list grown in the working tree fails (M65); a GATE_CONTROLS entry and a PRACTICES section.
+- **A run's lines read to their test ids (M65):** "ERROR " taken off as "FAILED " is (the landing tool runs `-rfE`), and an
+  id read up to the first " - " outside brackets.
+- **New test** `tests/test_known_failures.py` (6 tests); each rule's removal makes one fail. The shipped list's lock checks
+  its form, its rows and that no flake is on it, not its count, so that taking an entry off does not break it (M65).
+- **Main's landing (harvest rows 2043 to 2045; M67, M62, M5):** T10 verified by probes of what it admits and landed byte for
+  byte. The SM seat's ranking of its unverified rows received (tier 1: rows 655, 1726, 1814, to enter as cards after the
+  trial). Banking seat V1 opened `sm/banking` with its practice verdicts, their seals checked; the branch pinned and put
+  under the harvest gate. Both banking seats have filed; the key's opening waits on the author's word.
+
 ## S306p THE SEATS ANSWERED: CHAT1'S LINE 65 VERIFIED; THE SM SEAT'S BRANCH READ BY DISCOVERY; WHAT THE QUEUE READS (P-876, P-885; HARVEST ROW 2042; M86, M60, M25, M66) (2026-11-27)
 
 - **chat1's section 35.4 (a) is right:** THE BRAINSTORM VERDICT's line 65 is VERIFIED. The seat's `arena_checks.py` states

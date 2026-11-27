@@ -20510,3 +20510,13 @@ matrix of its as only partly checked, saying it gave no convention, when its own
 seat's convention, found it exact, and corrected the record in each place it was written.
 
 0 of 19.
+
+## 2026-11-27 — the known failures may only shrink; the first banking seat at work (S306p)
+
+**What happened.** The building seat sent its tool for the tests known to fail again, with main's five points mended; main
+tried every way it had found to grow the list, and each was refused, while shrinking it kept everything green, so it is
+now on main. The first banking seat opened its own branch and filed its two practice verdicts, each sealed before anything
+was opened. It also sent the ranking main had asked for of its older results that were never checked, in the order main
+gave: those that open questions rest on first.
+
+0 of 19.

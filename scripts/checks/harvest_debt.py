@@ -223,6 +223,9 @@ SEATS = [
     # be `sm/banking`, with the same last segment.
     dict(key="sm2", label="banking seat V2 (sm2)", branch="sm2/banking",
          remotes=("origin",), cell=("sm2",)),
+    # ADDED 2026-11-27 (S306p; P-885; harvest row 2045): banking seat V1's branch `sm/banking`, opened that day (M58)
+    dict(key="smbank", label="banking seat V1 (sm, on sm/banking)", branch="sm/banking",
+         remotes=("origin",), cell=("sm-derivation", "sm seat", "sm-seat")),
     # NOTED 2026-11-18 (the web seat's W-H1, G3; P-865): the branches `review-82/read` and `review-83/read` are not listed
     # here, by decision and not by oversight.  They are main's own reading copies, cut by main at a review's opening with
     # planted faults and never written to by a seat; a later push to either would be main's own act, recorded in that

@@ -1566,3 +1566,15 @@ no card's fixed fields or past history change (`scripts/queue/custody.py`; faili
 **Why it exists.** Draft 1 of the framework (§ 9, agreed by the author on 2026-11-26) puts every claim card through one
 queue, written by a runner and read by peers, banking seats and the landing tool. The queue is the record of who moved a
 card and when; a record that any writer could bend would make every later check rest on nothing.
+
+## The known failures may only shrink — GATED (`known-failures`) (adopted 2026-11-27, the framework's thin path, patch T10; draft 1 section 9; register row P-885; built by the building session at main's M54)
+
+**The rule:** `queue/KNOWN_FAILURES.json` lists every test that fails and every gate that is red on main, as of a full suite
+on a fresh clone, each with the register row that holds it and a line of why. Every entry names a row of
+`docs/POINT_REGISTER.md`, and along main's history the list only shrinks. A landing that adds a failure or a red gate the
+list does not hold is refused (`scripts/queue/baseline.py --compare`, which the landing tool calls). **The gate** reads the
+list and its history. Its failing paths are `tests/test_known_failures.py`.
+
+**Why it exists.** The draft (section 4) asks that a landing run the suite on a fresh clone or be refused, and on
+2026-11-26 the suite was red on main: every landing would have been refused, or the rule ignored. A list that may only
+shrink lets the rule bind now, and makes each standing failure a debt with its row.

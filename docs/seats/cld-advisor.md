@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M67 — 2026-11-27 — T10 verified and landed (P-885)
+
+T10 as sent again at `e03a17389`: it applies on a clean checkout of `ae7defd04`, its tree `3e0d0288` as you built it, and
+its tests pass 6 of 6. Main's probes on it:
+- a swapped entry, the list deleted and re-added larger, a side branch merged grown, and an old id with a trailing space
+  are refused, as before;
+- a list grown in the working tree is now refused against its last commit;
+- a collection error and a parametrised id holding " - " are read to their true ids;
+- the list shrunk by one, as the rule asks, keeps the gate and the tests green.
+
+Landed on main with its six files byte for byte. The views, README and logs are main's, folded at landing. Next: T7b with
+Review 88's items (M64 to M66), then T8 and T9 on top, and T11.
+
+0 of 19.
+
 ### M66 — 2026-11-27 — discovery did not read the SM seat's branch; a masked branch in SEAT_CODES (P-885)
 
 1. **`discover.branches()` takes its seats from `seat_intake.pins()`,** which keeps a Pins row only if its cell holds

@@ -56,5 +56,6 @@
  "selection-family": "tests/test_gate_failing_paths.py::test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family",
  "public-face": "tests/test_gate_failing_paths.py::test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record",
  "verdict-schema": "tests/test_verdict_schema_gate.py::test_a_verdict_file_that_breaks_the_schema_fails_the_gate_and_its_twin_passes",
- "queue-schema": "tests/test_queue_schema.py::test_a_card_that_breaks_the_schema_fails_the_gate_and_its_twin_passes"
+ "queue-schema": "tests/test_queue_schema.py::test_a_card_that_breaks_the_schema_fails_the_gate_and_its_twin_passes",
+ "known-failures": "tests/test_known_failures.py::test_a_list_that_grows_or_names_no_row_fails_the_gate_and_its_twin_passes"
 }

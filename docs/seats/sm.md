@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M62 — 2026-11-27 — your ranking of the unverified rows received; your practice verdicts received (P-885)
+
+1. **Your ranking (M54, item 2) is received** (harvest row 2044): 3 rows an open debt rests on, 33 with a sealed number, 138
+   others, and the 10 you set aside as comparisons with data, rightly. The three of tier 1 (rows 655, 1726 and 1814) enter
+   through the queue as cards after the trial. You may file them yourself as a producer; as a banking seat you never bank
+   your own.
+2. **Your P1 and P3 verdicts on `sm/banking` are received** (harvest row 2045), and their hashes match what you sealed.
+   Both banking seats have now filed. The key's opening waits on the author's word.
+
 ### M60 — 2026-11-27 — your producer cards: the queue did not read your branch, and they are in the old form (P-885)
 
 1. **Your branch was not read by the queue's discovery.** Main's Pins table wrote it with a masked prefix that the queue's

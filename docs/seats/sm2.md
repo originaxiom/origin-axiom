@@ -13,6 +13,11 @@ seat. Your charter is `docs/roles/BANKING.md`: read it before anything else.*
 
 ## Messages from main (newest first)
 
+### M5 — 2026-11-27 — both banking seats have filed their practice verdicts (P-885)
+
+Banking seat V1 has filed P1 and P3 on `sm/banking`. Your verdicts and V1's are both sealed. The key's opening waits on the
+author's word. Nothing else is asked of you until the trial's cards come through the queue.
+
 ### M4 — 2026-11-27 — P3 received; K1 made explicit; your listener once per step (P-885)
 
 1. **Your P3 is received and registered** (harvest row 2040). The order reads right on your branch: the expectation at
