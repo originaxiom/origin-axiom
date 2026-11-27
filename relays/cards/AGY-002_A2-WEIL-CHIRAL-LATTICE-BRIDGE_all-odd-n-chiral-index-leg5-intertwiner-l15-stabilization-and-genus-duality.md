@@ -39,3 +39,9 @@
    - *Falsification:* any nonzero `q`-series residual, any `SL(2, Z)` or Haar error `> 1e-28`, or any rank-3 violation on the complementary sectors.
 
 5. **Controls & Code Hygiene:** `5/5` planted fault controls detected (`PF1..PF5`), `0` AST float literals, `0` JSON float literals, standalone `a2_weil_chiral_lattice_bridge_control.py` exits `1` with `0` stderr bytes, `0` refused imports under `T7b Part 1`.
+
+## Dated Pre-Seal Erratum (`2026-11-27`, Producer `v1 -> v2`, pre-commit `e179a6049`)
+
+- In pre-seal run `v1` (`e179a6049`, outputs not committed), `W3`, `W4`, `PF1..PF5`, and `ast_floats=0` passed on first shot, while two self-gate typos in `W1`/`W2` tripped and were corrected before sealing `v2`:
+  1. `W1`: Anti-unitary mirror `M_a = U_a K` satisfies `U_a C_3^* U_a^T = C_3` (commuting with `C_3`, hence anti-linearly swapping `H_1 <-> H_2` via `C_3(M_a psi) = M_a(omega psi) = omega^2 M_a psi`), whereas `v1` checked `C_3^H`.
+  2. `W2`: In `G_3^{ab} ~= Z/6Z`, the true character with `rho(C) = omega` (`2 mod 6`) and `rho(Sig) = -1` (`3 mod 6`) assigns `(L, R, C, Sig) -> (1, 5, 2, 3) mod 6` (and order-3 `rho_3 = rho^4 -> (4, 2, 2, 0)`), giving `216/216` elements and `0` character-defect mismatches, whereas `v1` mistakenly wrote `(3, 3, 2, 3)`. Also extended the direct `O_27 - Q_6` chiral-moment check to `m = 0..4` and pruned redundant `O(N^3)` multiplies to cut runtime from `94s` to `< 25s`.

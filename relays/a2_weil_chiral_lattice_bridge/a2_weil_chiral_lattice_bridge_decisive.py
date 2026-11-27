@@ -244,25 +244,23 @@ def run_module_w1():
             Ua = mp.zeros(N, N)
             for j in range(N):
                 Ua[(a_sol * j) % N, j] = mp.mpf(1)
-            # Ua * conj(L) * Ua^T == L, Ua * conj(Sinv) * Ua^T == Sinv (up to sign? check!)
+            # Anti-unitary M_a = U_a K commutes with L, Sinv, W6, and C3, hence anti-linearly swaps H_1 <-> H_2!
             eL = mp.norm(Ua * L.conjugate() * Ua.T - L)
             eS = mp.norm(Ua * Sinv.conjugate() * Ua.T - Sinv)
             eW6 = mp.norm(Ua * W6.conjugate() * Ua.T - W6)
-            eC3 = mp.norm(Ua * C3.conjugate() * Ua.T - C3.H)
+            eC3 = mp.norm(Ua * C3.conjugate() * Ua.T - C3)
             mirror_unitary_max_err = max(mirror_unitary_max_err, eL, eS, eW6, eC3)
-        # Compute tr((Pi_1 - Pi_2) W6^m) for m = 0, 1, 2, 3 using fast O(N^2) trace for m=2,3!
+        # Compute tr((Pi_1 - Pi_2) W6^m) for m = 0, 1, 2 (and m = 3 when N <= 19 or m0..2 vanish)
         D = coef32 * (C3 - C3.H)
-        # m = 0
         t0 = mat_trace(D)
-        # m = 1: tr(D W6)
         t1 = mp.fsum(D[i, j] * W6[j, i] for i in range(N) for j in range(N))
-        # m = 2: tr(D W6^2) = sum (D W6)_{ij} W6_{ji}
         DW6 = D * W6
         t2 = mp.fsum(DW6[i, j] * W6[j, i] for i in range(N) for j in range(N))
-        # m = 3: tr(D W6^3) = sum (D W6^2)_{ij} W6_{ji} (only if needed or always for N<=25)
-        DW6_2 = DW6 * W6
-        t3 = mp.fsum(DW6_2[i, j] * W6[j, i] for i in range(N) for j in range(N))
-        max_m = max(abs(t0), abs(t1), abs(t2), abs(t3))
+        max_m = max(abs(t0), abs(t1), abs(t2))
+        if N <= 19 or max_m < f_mp(1, 10**10):
+            DW6_2 = DW6 * W6
+            t3 = mp.fsum(DW6_2[i, j] * W6[j, i] for i in range(N) for j in range(N))
+            max_m = max(max_m, abs(t3))
         if all_1mod4:
             iso_N_list.append(N)
             max_iso_chiral_asym = max(max_iso_chiral_asym, max_m)
@@ -674,12 +672,11 @@ def run_module_w2():
 
     id72 = tuple(range(72))
     id6 = tuple(range(6))
-    # Represent rho in Z/6Z: omega -> +2, -1 -> +3 (mod 6); so L, R -> 3, C -> 2, Sig -> 3!
-    # Check if L -> 3, R -> 3, C -> 2, Sig -> 3 is a well-defined homomorphism on G_3!
+    # Represent rho in Z/6Z: (L, R, C, Sig) -> (1, 5, 2, 3) mod 6 (rho(C) = omega, rho(Sig) = -1)
     g3_map = {id72: (id6, 0)}
     dq = deque([id72])
     rho_hom_ok = True
-    gens = [(pL27, qL, 3), (pR27, qR, 3), (pC27, qC, 2), (pSig27, qSig, 3)]
+    gens = [(pL27, qL, 1), (pR27, qR, 5), (pC27, qC, 2), (pSig27, qSig, 3)]
     while dq:
         g72 = dq.popleft()
         g6, r_val = g3_map[g72]
@@ -693,18 +690,20 @@ def run_module_w2():
             else:
                 if g3_map[ng72] != (ng6, nr):
                     rho_hom_ok = False
-    # Check character-defect vanishing: for EVERY g in G_3 with rho(g) != 1 (i.e. r_val != 0),
+    # Check character-defect vanishing: for EVERY g in G_3 with rho(g) != 1 (r_val != 0),
     # chi_{V_new^(3)}(g) = Fix_{O_27}(g) - Fix_{Q_6}(g) MUST BE 0!!
     char_defect_mismatches = 0
+    chi_vnew = {}
     for g72, (g6, r_val) in g3_map.items():
-        if r_val != 0:
-            fix72 = sum(1 for i in range(72) if g72[i] == i)
-            fix6 = sum(1 for i in range(6) if g6[i] == i)
-            if fix72 != fix6:
-                char_defect_mismatches += 1
+        fix72 = sum(1 for i in range(72) if g72[i] == i)
+        fix6 = sum(1 for i in range(6) if g6[i] == i)
+        chi_vnew[g72] = fix72 - fix6
+        if r_val != 0 and fix72 != fix6:
+            char_defect_mismatches += 1
 
-    # Direct O_27 x Weil_N vs Q_6 x Weil_N chiral-moment check (m = 0..3) for N in {3, 5, 7, 15}
-    # Plus exact Q_6 x Weil_N moments (m = 0..6) for N in {3, 5, 7, 9, 15}!
+    # Direct O_27 x Weil_N minus Q_6 x Weil_N chiral-moment check (m = 0..4) for N in {3, 5, 7, 15}
+    # Computed via the exact sparse support of chi_{V_new^(3)} (only 12/216 group elements nonzero!),
+    # plus exact Q_6 x Weil_N moments (m = 0..6) for N in {3, 5, 7, 9}!
     old_dps = mp.mp.dps
     mp.mp.dps = 30
     om30 = mp.exp(2j * mp.pi / 3)
@@ -716,49 +715,87 @@ def run_module_w2():
             out[v] = i
         return tuple(out)
 
-    def dfs_chiral_moments_m0_3(pL, pR, pC, WL, WR, WC3):
-        nb = len(pL)
-        N = WL.rows
-        pCi = inv_perm(pC)
-        pC2 = comp(pC, pC)
-        mb = [
-            pL, comp(pC, comp(pL, pCi)), comp(pC2, comp(pL, pC)),
-            pR, comp(pC, comp(pR, pCi)), comp(pC2, comp(pR, pC)),
-        ]
-        WCi = WC3.H
-        WC2 = WC3 * WC3
-        mw = [WL, WC3 * WL * WCi, WC2 * WL * WC3, WR, WC3 * WR * WCi, WC2 * WR * WC3]
-        out = []
-        for m in range(4):
-            acc = mp.mpc(0)
+    pCi27 = inv_perm(pC27)
+    pC2_27 = comp(pC27, pC27)
+    mb27 = [
+        pL27, comp(pC27, comp(pL27, pCi27)), comp(pC2_27, comp(pL27, pC27)),
+        pR27, comp(pC27, comp(pR27, pCi27)), comp(pC2_27, comp(pR27, pC27)),
+    ]
+    # Pre-enumerate all words of length m in 0..4 where chi_{V_new}(w * C) != 0 or chi_{V_new}(w * C^2) != 0!
+    vnew_words_by_m = {}
+    for m_len in range(5):
+        w_c1 = []
+        w_c2 = []
 
-            def dfs(d, pb, Mw):
-                nonlocal acc
-                if d == m:
-                    tb1 = sum(1 for i in range(nb) if pb[pC[i]] == i)
-                    tb2 = sum(1 for i in range(nb) if pb[pC2[i]] == i)
-                    if tb1 != 0:
-                        acc += tb1 * mp.fsum(Mw[i, j] * WC3[j, i] for i in range(N) for j in range(N))
-                    if tb2 != 0:
-                        acc -= tb2 * mp.fsum(Mw[i, j] * WC2[j, i] for i in range(N) for j in range(N))
-                    return
-                for k in range(6):
-                    dfs(d + 1, comp(pb, mb[k]), Mw * mw[k])
+        def enum_w(depth, g72, w_tup):
+            if depth == m_len:
+                c1 = chi_vnew[comp(g72, pC27)]
+                c2 = chi_vnew[comp(g72, pC2_27)]
+                if c1 != 0:
+                    w_c1.append((w_tup, c1))
+                if c2 != 0:
+                    w_c2.append((w_tup, c2))
+                return
+            for k in range(6):
+                enum_w(depth + 1, comp(g72, mb27[k]), w_tup + (k,))
 
-            dfs(0, tuple(range(nb)), mp.eye(N))
-            out.append(coef30 * acc)
-        return out
+        enum_w(0, id72, ())
+        vnew_words_by_m[m_len] = (w_c1, w_c2)
 
     freeze_max_diff = mp.mpf(0)
     freeze_summary = {}
     for N in (3, 5, 7, 15):
         WL, _, WR, _, WC3, _, _, _, _, _, _ = weil_build(N, r=1)
-        mq6 = dfs_chiral_moments_m0_3(qL, qR, qC, WL, WR, WC3)
-        mo27 = dfs_chiral_moments_m0_3(pL27, pR27, pC27, WL, WR, WC3)
-        md = max(abs(a - b) for a, b in zip(mq6, mo27))
+        WCi = WC3.H
+        WC2 = WC3 * WC3
+        mw = [WL, WC3 * WL * WCi, WC2 * WL * WC3, WR, WC3 * WR * WCi, WC2 * WR * WC3]
+        # Cache pair products mw[a]*mw[b] for fast O(N^2) trace evaluation of length <= 4 words!
+        pair_mw = {(a, b): mw[a] * mw[b] for a in range(6) for b in range(6)}
+        diffs_n = []
+        for m_len in range(5):
+            w_c1, w_c2 = vnew_words_by_m[m_len]
+            acc = mp.mpc(0)
+            for w_tup, wt in w_c1:
+                if m_len == 0:
+                    tr_val = mat_trace(WC3)
+                elif m_len == 1:
+                    M1 = mw[w_tup[0]]
+                    tr_val = mp.fsum(M1[i, j] * WC3[j, i] for i in range(N) for j in range(N))
+                elif m_len == 2:
+                    M2 = pair_mw[(w_tup[0], w_tup[1])]
+                    tr_val = mp.fsum(M2[i, j] * WC3[j, i] for i in range(N) for j in range(N))
+                elif m_len == 3:
+                    M2 = pair_mw[(w_tup[0], w_tup[1])]
+                    M3 = mw[w_tup[2]] * WC3
+                    tr_val = mp.fsum(M2[i, j] * M3[j, i] for i in range(N) for j in range(N))
+                else:
+                    Ma = pair_mw[(w_tup[0], w_tup[1])]
+                    Mb = pair_mw[(w_tup[2], w_tup[3])] * WC3
+                    tr_val = mp.fsum(Ma[i, j] * Mb[j, i] for i in range(N) for j in range(N))
+                acc += wt * tr_val
+            for w_tup, wt in w_c2:
+                if m_len == 0:
+                    tr_val = mat_trace(WC2)
+                elif m_len == 1:
+                    M1 = mw[w_tup[0]]
+                    tr_val = mp.fsum(M1[i, j] * WC2[j, i] for i in range(N) for j in range(N))
+                elif m_len == 2:
+                    M2 = pair_mw[(w_tup[0], w_tup[1])]
+                    tr_val = mp.fsum(M2[i, j] * WC2[j, i] for i in range(N) for j in range(N))
+                elif m_len == 3:
+                    M2 = pair_mw[(w_tup[0], w_tup[1])]
+                    M3 = mw[w_tup[2]] * WC2
+                    tr_val = mp.fsum(M2[i, j] * M3[j, i] for i in range(N) for j in range(N))
+                else:
+                    Ma = pair_mw[(w_tup[0], w_tup[1])]
+                    Mb = pair_mw[(w_tup[2], w_tup[3])] * WC2
+                    tr_val = mp.fsum(Ma[i, j] * Mb[j, i] for i in range(N) for j in range(N))
+                acc -= wt * tr_val
+            diffs_n.append(abs(coef30 * acc))
+        md = max(diffs_n)
         freeze_max_diff = max(freeze_max_diff, md)
         freeze_summary[str(N)] = {
-            "q6_m0_3": [nstr(mp.re(x), 12) for x in mq6],
+            "vnew_chiral_m0_4": [nstr(x, 8) for x in diffs_n],
             "max_abs_O27_minus_Q6": nstr(md, 8),
         }
 
