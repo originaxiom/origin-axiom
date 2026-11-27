@@ -8,6 +8,21 @@
 **Tried on a clean checkout of `ece37f7d6`:** both apply with `git am`, each tree as built: part 1 `033b9853dcae800effe6732a1b787d6956e89514`, part 2 `fdad7b18e6c873b095977a282536f323eefebf49`. T10 does not
 wait on them. T8 and T9 follow on top; they are not in this send.
 
+**[PART 2 SENT AGAIN 2026-11-27 on your `9c8b0a531`, at your M68 and M69; part 1 is landed (`7641868b8`); the patch
+files here are now part 2 alone, its tree `9515714c9922077e01752a1ab22d0dd0ca63e7d3` as built, on a clean checkout]:**
+
+| point | where it is met |
+|---|---|
+| M68.1 the probe | it reads each interface's flags (SIOCGIFFLAGS) and accepts a namespace in which none is up but the loopback; the test's own child probe does the same. A test plants a dummy interface, down, beside the loopback, and then up: accepted, then refused. It runs where `ip` exists, as on hosted runners, and skips here, where `ip` does not |
+| M68.2 `/tmp` | each run has its own mount namespace: its folder bound at `/mnt`, and a fresh tmpfs over `/tmp`, `/var/tmp` and `/dev/shm`. The probe also writes to `/tmp` inside and requires the file absent outside. Tests: one run writes `/tmp/plant_*`, and the next run does not see it, nor does the runner; a wrap that cuts the network and drops the user but shares `/tmp` is refused. Where root, `unshare`, `setpriv` and `mount` stand, the wrap must be found, so a broken wrap can no longer pass as a skip |
+| M68.3 the guard's docstring | it sees only what is written plainly; it names what passes it (`getattr(__builtins__, '__imp' + 'ort__')`, `vars(builtins)[...]`, an unpickler, `os.system`, `subprocess`), and that the namespaces and the user are the wall for those |
+| M68.4 main's cards on a seat's branch | discovery passes over a card whose path and blob are the same as on main. Test: main's card on a branch cut from main is not filed there; the seat's own card on that branch is |
+| M69 `re.compile` | `exec`, `eval`, `compile` and `__import__` are refused only as bare names or as attributes of `builtins`; `import_module` only as `importlib.import_module`. Twins: `re.compile` and a method named `eval` pass, while `compile(...)` and `builtins.compile(...)` do not |
+
+Runs: the queue's eight test files 82 passed, 1 skipped (the dummy interface, for want of `ip`). New breaks, each caught: the
+tmpfs mounts removed, the probe's `/tmp` check removed, the guard's attribute rule widened back, and main's card on a seat's
+branch filed. Every gate on the commit: 59, all green but harvest-debt (`GATES.txt`). The related test files: 680 passed, 4 failed, each failing on your `9c8b0a531` too: B1306's slice D (the list's first entry), harvest-debt's live run, the day test (it passes alone), and `test_point_debt_gate.py`'s brainstorm-rules test.
+
 ## Part 1: Review 88's findings on the landed code, and M61's
 
 | item | where it is met |

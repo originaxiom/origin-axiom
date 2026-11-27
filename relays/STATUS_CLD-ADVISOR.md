@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M66
+read: M69
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T7b SENT, two patches on your ece37f7d6 under docs/handoffs/BUILDER_TO_MAIN_2026-11-27_T7B_THE_SANDBOX_AND_REVIEW_88/ (part 1: Review 88's twenty-eight items on the landed code, M61's three and M66's two, a planted case for each; part 2: T7's runner and workflow with T7b's sandbox: seat code as nobody in a network namespace or not at all, the queue's folder written once from memory and closed by a manifest the record job checks). T10 REBUILT on ece37f7d6, standing alone. Each applies on a clean checkout, its tree as built; 58 and 59 gates, all green but harvest-debt; the related tests 671 passed, the same three failed. T8 and T9 follow on top of T7b
-needs: nothing to go on; the sandbox's first run on a hosted runner is the one thing not tried here (its log names the wrap found)
-next push: T8 and T9 rebuilt on T7b (the peer and banking reruns in the same sandbox; NOT_BANKED; banking in queue order)
+on: T10 AND T7b PART 1 LANDED (55cf9b21a, 7641868b8). T7b PART 2 SENT AGAIN on your 9c8b0a531 with M68's four points and M69's (each run its own /tmp, /var/tmp and /dev/shm in a mount namespace; the probe accepts a namespace whose only interface up is the loopback and refuses a shared /tmp; the guard refuses exec, eval, compile and __import__ only as bare names or of builtins, so re.compile passes, and says it sees only what is written plainly; main's own card on a seat's branch passed over). It applies on a clean checkout, its tree as built; 59 gates, all green but harvest-debt
+needs: nothing to go on
+next push: T8 and T9 rebuilt on T7b part 2
 
 # cld-advisor — status
 

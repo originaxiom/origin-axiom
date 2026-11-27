@@ -1,28 +1,35 @@
-From 735d33a74264eb68e45a717dbf1e458b07dbbadb Mon Sep 17 00:00:00 2001
+From 38449bb5c1cdced6c68e23796fa1de70c64e6ef9 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Fri, 27 Nov 2026 08:48:09 +0000
-Subject: [PATCH 2/2] S306p the intake runner and its workflow, with T7b's
- sandbox (the framework's thin path, T7 and T7b part 2; P-885; main's M62,
- M64, M65): scripts/queue/intake.py runs one round, seat code as nobody in a
- network namespace or not at all, reads the queue's folder once and writes it
- only after every rerun, closed by a manifest the record job checks; a card a
- later card refiles is not taken further; .github/workflows/intake.yml, the
- one tracked workflow path main accepted; queue/README.md names the author's
- seven settings; tests fail with each rule removed, among them main's probe of
- a script that writes the queue
+Date: Fri, 27 Nov 2026 15:58:27 +0000
+Subject: [PATCH] S306p the intake runner and its workflow, with T7b's sandbox,
+ sent again (the framework's thin path, T7 and T7b part 2; P-885; main's M62,
+ M64, M65, M68, M69): scripts/queue/intake.py runs one round, seat code as
+ nobody in a network and mount namespace with its own /tmp, /var/tmp and
+ /dev/shm, or not at all; it reads the queue's folder once and writes it only
+ after every rerun, closed by a manifest the record job checks; the probe
+ accepts a namespace whose only interface up is the loopback and refuses a
+ shared /tmp; the guard refuses exec, eval, compile and __import__ only as
+ bare names or of builtins, so re.compile passes; discovery passes over main's
+ own card on a seat's branch; .github/workflows/intake.yml, the one tracked
+ workflow path; queue/README.md names the author's seven settings; tests fail
+ with each rule removed
 
 ---
  .github/workflows/intake.yml   | 109 ++++++++++++++
  .gitignore                     |   8 +-
- CHANGELOG.md                   |  19 +++
+ CHANGELOG.md                   |  25 ++++
  PROGRESS_LOG.md                |  10 ++
  docs/views/CONTEXT_RECOVERY.md |   2 +-
- docs/views/THE_SPINE.md        |   6 +-
+ docs/views/THE_SPINE.md        |   3 +-
  queue/README.md                |  27 ++++
  scripts/gates/gates.py         |   5 +-
+ scripts/queue/discover.py      |   3 +
  scripts/queue/intake.py        | 263 +++++++++++++++++++++++++++++++++
+ scripts/queue/rerun.py         |  96 +++++++-----
+ tests/test_queue_discover.py   |  15 ++
  tests/test_queue_intake.py     | 259 ++++++++++++++++++++++++++++++++
- 10 files changed, 704 insertions(+), 4 deletions(-)
+ tests/test_queue_rerun.py      |  66 ++++++++-
+ 14 files changed, 853 insertions(+), 38 deletions(-)
  create mode 100644 .github/workflows/intake.yml
  create mode 100644 scripts/queue/intake.py
  create mode 100644 tests/test_queue_intake.py
@@ -162,10 +169,10 @@ index 89c1fb3c6..2d969180d 100644
  frontier/B500_child_hunt/b500_stragglers.py
  frontier/B500_child_hunt/b500_stragglers_out.txt
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 6733da96b..febbb22f1 100644
+index b53ccb5df..43821a89e 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
-@@ -1,5 +1,24 @@
+@@ -1,5 +1,30 @@
  # Changelog
  
 +## S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)
@@ -186,16 +193,22 @@ index 6733da96b..febbb22f1 100644
 +  sandbox read in the first run's log, a heavy rerun's PATH with python-flint).
 +- **New test** `tests/test_queue_intake.py` (8 tests), among them main's own probe: a script that writes a VERIFIED card into
 +  the queue's folder leaves it untouched.
++- **Main's M68 and M69, on top of T7b part 1 as landed:** each run has its own `/tmp`, `/var/tmp` and `/dev/shm` (a mount
++  namespace, the run's folder bound at `/mnt`, a fresh tmpfs over each), so no run leaves a file for another; the probe
++  accepts a namespace in which no interface but the loopback is up (a kernel with tunnel modules shows them down), and
++  refuses a wrap whose `/tmp` is shared; the guard refuses `exec`, `eval`, `compile` and `__import__` only as bare names or
++  as attributes of `builtins`, so `re.compile` passes, and its docstring says it sees only what is written plainly;
++  discovery passes over main's own card carried by a seat's branch (the same path and blob as on main).
 +
- ## S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE, AND M61'S (the framework's thin path, T7b part 1; P-885; B2018) (2026-11-27)
+ ## S306p THE BANKING SEATS' PRACTICE VERDICTS AGREE WITH THE KEY; THE KEY STAYS SEALED (P-885; M64, M6) (2026-11-27)
  
- - **The rerun (`scripts/queue/rerun.py`), rebuilt (M62, M64 items 1 to 7, M65):** seat code runs as the unprivileged user
+ - **Both banking seats' practice verdicts agree with main's key:** V1's on P1 and P3 (`sm/banking` at 0f17107aa) and V2's
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 7fbea0d04..771b84022 100644
+index 1673d3eb9..850936911 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20521,3 +20521,13 @@
- ends the peer stage without going to banking.
+@@ -20556,3 +20556,13 @@
+ the trial's cards.
  
  0 of 19.
 +
@@ -209,7 +222,7 @@ index 7fbea0d04..771b84022 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 23236927a..df500f949 100644
+index 678837b39..af45ac493 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -217,40 +230,37 @@ index 23236927a..df500f949 100644
  ## The last landings (CHANGELOG)
  
 +- “S306p THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7b'S SANDBOX (the framework's thin path, T7 and T7b part 2; P-885) (2026-11-27)”
- - “S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE, AND M61'S (the framework's thin path, T7b part 1; P-885; B2018) (2026-11-27)”
+ - “S306p THE BANKING SEATS' PRACTICE VERDICTS AGREE WITH THE KEY; THE KEY STAYS SEALED (P-885; M64, M6) (2026-11-27)”
+ - “S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)”
+ - “S306p MAIN'S TRIAL TOOLS REBUILT TO THE INTAKE'S GUARD; THE SEATS' NEW CARDS RECEIVED; FOURTEEN DEBTS ESCALATED (P-885; HARVEST ROWS 2047, 2048; M69, M24, M63) (2026-11-27)”
+@@ -60,7 +61,6 @@
+ - “S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)”
  - “S306p THE SEATS ANSWERED: CHAT1'S LINE 65 VERIFIED; THE SM SEAT'S BRANCH READ BY DISCOVERY; WHAT THE QUEUE READS (P-876, P-885; HARVEST ROW 2042; M86, M60, M25, M66) (2026-11-27)”
  - “S306p MAIN'S SEVEN TRIAL CARDS FILED, BEFORE THE RUNNER'S FIRST ROUND; T10 READ AND HELD (P-885; R88-3 MET; M65) (2026-11-27)”
-@@ -60,7 +61,6 @@
- - “S306p THE AGY CUSP SEAT'S C66 RECEIVED; C65 SUPERSEDED BY IT (P-885; HARVEST ROW 2041; M23) (2026-11-27)”
- - “S306p REVIEW 88 ENTERED: EIGHT OF EIGHT PLANTS CAUGHT IN THE FRAMEWORK'S PROCESS WORK; THE QUEUE'S CODE AND PAGES READ (B2018; P-881, P-885; M64) (2026-11-27)”
- - “S306p THE AGY CUSP SEAT'S FIRST CARD IN THE NEW FORM RECEIVED; T9, T10 AND SM2'S P3 REGISTERED; K1 IN WORDS (P-885) (2026-11-27)”
--- “S306p THE FULL SUITE ON A FRESH CLONE OF ed9660a9d: 9 FAILED, 7 OF THEM FOR T10's BASELINE (P-810, P-881; M63) (2026-11-27)”
+-- “S306p THE TRIAL CARDS' TOOLS MENDED; THE SEATS' CODES BY BRANCH; A TEST'S CHOICE OF ROW (P-885; R88-3, R88-4) (2026-11-27)”
  
  ## The latest campaign line
  
 diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
-index a5fadaadd..0c5b16fea 100644
+index c91d1f498..fa3b45b70 100644
 --- a/docs/views/THE_SPINE.md
 +++ b/docs/views/THE_SPINE.md
 @@ -2,7 +2,7 @@
  
  *One line per living test lock, in git birth order. The claim head comes from the
  arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
--Generated by `scripts/views/spine.py` — 1565 locks. Regenerated with the views.*
-+Generated by `scripts/views/spine.py` — 1566 locks. Regenerated with the views.*
+-Generated by `scripts/views/spine.py` — 1566 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1567 locks. Regenerated with the views.*
  
  
  ## 2026-05-22
-@@ -1947,3 +1947,7 @@
- - — `test_queue_rerun.py` 
- - — `test_queue_schema.py` 
- - — `test_verdict_schema_gate.py` 
-+
-+## 2026-11-27
-+
+@@ -1951,3 +1951,4 @@
+ ## 2026-11-27
+ 
+ - — `test_known_failures.py` 
 +- — `test_queue_intake.py` 
 diff --git a/queue/README.md b/queue/README.md
-index 1b553dd29..1d11b1c15 100644
+index 1b553dd29..be3f23d32 100644
 --- a/queue/README.md
 +++ b/queue/README.md
 @@ -9,3 +9,30 @@
@@ -279,13 +289,13 @@ index 1b553dd29..1d11b1c15 100644
 +   deletions. Updates stay open, so the record job can push. The history check reads the branch as it stands, and a
 +   rewritten branch would carry no trace (main's M58).
 +5. **Fork pull requests:** the workflow has no pull-request trigger, so no fork's code runs in it. Keep it that way.
-+6. **After the first round,** check that the run's log reads "the network guard: sudo unshare -n, as nobody". A round
++6. **After the first round,** check that the run's log reads "the network guard: sudo unshare -n -m, as nobody". A round
 +   that cannot make that sandbox runs no seat code (every rerun is HEAVY); it is never to be given `--allow-static-guard`
 +   on the workflow.
 +7. **A heavy rerun on the author's machine** runs sage, and for main's B2016 wrapper also a `python3` on the PATH that has
 +   python-flint (main's M65): set the PATH so first. There the author may run with `--allow-static-guard`, by choice.
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index 4bdc94eba..bd59528ff 100644
+index 5304a546e..1d8c79e89 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
 @@ -675,8 +675,11 @@
@@ -301,6 +311,27 @@ index 4bdc94eba..bd59528ff 100644
             or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))
             or (_RELAY_RE.match(f) and os.path.basename(f) not in GRANDFATHERED_RELAYS)]
      return not bad, bad
+diff --git a/scripts/queue/discover.py b/scripts/queue/discover.py
+index 1da9e26ea..6ea393221 100644
+--- a/scripts/queue/discover.py
++++ b/scripts/queue/discover.py
+@@ -189,6 +189,7 @@
+     report, new = [], {}
+     tell = lambda ref, path, why: report.append("%s %s: not filed, %s; to be told to its seat" % (ref, path, why))
+     known = [r.split("/", 1)[1] if r.startswith("origin/") else r for _k, r in refs]
++    main_ref = next((r for k, r in refs if k == "main"), "origin/main")
+     for key, ref in refs:
+         found, passed, why = cards_on(root, ref)
+         if why:
+@@ -200,6 +201,8 @@
+         for path, blob, commit, text in found:
+             if (branch, path, blob) in seen_blobs:
+                 continue
++            if branch != "main" and _blob(root, main_ref, path) == blob:
++                continue                              # main's M68 point 4: main's own card, carried by a branch cut from it
+             title, fields, _layout = CF.read(text)
+             code = fields.get("seat code", "")
+             if title is None:                                         # A18: the reason that holds
 diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
 new file mode 100644
 index 000000000..c501f1afd
@@ -570,6 +601,189 @@ index 000000000..c501f1afd
 +
 +if __name__ == "__main__":
 +    sys.exit(main(sys.argv[1:]))
+diff --git a/scripts/queue/rerun.py b/scripts/queue/rerun.py
+index fb6837529..eb8250ae7 100644
+--- a/scripts/queue/rerun.py
++++ b/scripts/queue/rerun.py
+@@ -20,17 +20,23 @@
+ script's hash is checked on the file as written. Symlinks are not written, and a decisive script, a control's script or an
+ imported module that is a symlink at the commit returns the card.
+ 
+-THE SANDBOX (M62, M64 item 5). Seat code runs as the unprivileged user `nobody`, which owns only the temporary directory
+-the commit is written to, inside a new network namespace: `unshare -n -- setpriv --reuid=nobody ...` as root, or the same
+-under `sudo -n` (hosted runners). The wrap is trusted only once a probe inside it sees no interface but the loopback AND
+-fails to write into a directory the runner owns. It cannot write the queue's folder or `scripts/queue/`, which judge the
+-round. Where no such wrap works, no seat code runs: the card is HEAVY, for the author's machine, where the author may run
+-it without a sandbox by choice (`allow_static`).
+-
+-THE STATIC GUARD (M64 item 4) is a second wall, never the first. It refuses the network modules (with `_socket` and `_ssl`),
+-`ctypes`, `multiprocessing`, `logging.handlers`, `importlib`, `exec`, `eval` and `compile`, any use of `__import__`, and any
+-change to `sys.path`. It does not refuse `subprocess`: main's trial wrapper runs banked scripts that way (M65), and a
+-script run so is not read by the guard. For such a script the namespace and the unprivileged user are the wall.
++THE SANDBOX (M62, M64 item 5, M68). Seat code runs as the unprivileged user `nobody`, which owns only the temporary
++directory the commit is written to, inside a new network namespace and a new mount namespace: that directory is bound at
++`/mnt`, and `/tmp`, `/var/tmp` and `/dev/shm` are each a fresh tmpfs, so no run can leave a file for another run, and none
++survives the run (M68 point 2: a run had written `/tmp` and changed a later card's line). The wrap is `unshare -n -m` with
++`setpriv`, as root, or the same under `sudo -n` (hosted runners). It is trusted only once a probe inside it finds no
++interface up but the loopback (SIOCGIFFLAGS: a kernel with tunnel modules shows `tunl0`, `gre0`, `sit0` and others, all
++down; M68 point 1), fails to write into a directory the runner owns, and writes a file to its `/tmp` that is not there
++afterwards. It cannot write the queue's folder or `scripts/queue/`. Where no such wrap works, no seat code runs: the card is
++HEAVY, for the author's machine, where the author may run it without a sandbox by choice (`allow_static`).
++
++THE STATIC GUARD (M64 item 4, M68 point 3, M69) is a second wall, never the first, and it sees only what is written
++plainly. It refuses the network modules (with `_socket` and `_ssl`), `ctypes`, `multiprocessing`, `logging.handlers`,
++`importlib`, a call of `exec`, `eval`, `compile` or `__import__` by its bare name or as an attribute of `builtins` (so
++`re.compile` passes: M69), any use of the name `__import__` or the string "__import__", and any change to `sys.path`. It
++does not see `getattr(__builtins__, '__imp' + 'ort__')`, `vars(builtins)[...]`, an unpickler that imports a module, or
++`os.system`; nor a script run by `subprocess`, which main's trial wrapper uses (M65). For all of these the namespaces and
++the unprivileged user are the wall.
+ 
+ THE DECISIVE LINES, NORMALISED: each line the script prints that opens "DECISIVE:", with its spaces collapsed and every
+ number with a point or an exponent written to 12 significant digits. Floating-point noise below that is the producer's to
+@@ -82,14 +88,24 @@
+            "xmlrpc", "socketserver", "asyncio", "selectors", "webbrowser", "nntplib"}
+ REFUSED = NETWORK | {"ctypes", "_ctypes", "multiprocessing", "_multiprocessing", "importlib"}
+ REFUSED_DOTTED = {"logging.handlers"}
+-REFUSED_CALLS = {"exec", "eval", "compile", "__import__", "import_module"}
++REFUSED_CALLS = {"exec", "eval", "compile", "__import__"}         # by bare name, or as an attribute of builtins (M69)
++BUILTINS_NAMES = {"builtins", "__builtins__"}
+ STDLIB = set(sys.stdlib_module_names) - REFUSED
+ NUMBER = re.compile(r"[-+]?(?:\d+\.\d*|\.\d+|\d+)(?:[eE][-+]?\d+)?")
+-# inside the wrap: the only interface is the loopback, and a file cannot be written into a directory the runner owns.
+-# The probe exits 7 then, and 0 anywhere else
+-PROBE = ("import socket, sys\nnet = [n for _, n in socket.if_nameindex()] == ['lo']\n"
++# inside the wrap: no interface is up but the loopback (M68 point 1), a file cannot be written into a directory the runner
++# owns, and a file can be written to /tmp (which the caller then finds absent outside). The probe exits 7 then, else 0
++PROBE = ("import fcntl, socket, struct, sys\nup = []\nfor _, n in socket.if_nameindex():\n"
++         "    s = socket.socket()\n    try:\n"
++         "        flags = struct.unpack('16sH', fcntl.ioctl(s.fileno(), 0x8913, struct.pack('16sH', n.encode(), 0)))[1]\n"
++         "    finally:\n        s.close()\n    if flags & 1 and n != 'lo':\n        up.append(n)\n"
+          "try:\n    open(sys.argv[1], 'w').write('x')\n    wrote = True\nexcept OSError:\n    wrote = False\n"
+-         "raise SystemExit(7 if net and not wrote else 0)\n")
++         "open(sys.argv[2], 'w').write('x')\n"
++         "raise SystemExit(7 if not up and not wrote else 0)\n")
++# the run's own namespace: its directory bound at /mnt, a fresh tmpfs over each shared temporary directory, then nobody
++WRAP = ('set -e; mount --bind "$1" /mnt; for d in /tmp /var/tmp /dev/shm; do if [ -d "$d" ]; then '
++        'mount -t tmpfs -o mode=1777,size=512m tmpfs "$d"; fi; done; cd /mnt; shift; '
++        'exec setpriv --reuid=%d --regid=%d --clear-groups -- "$@"' % (65534, 65534))
++RUN = "{RUN}"
+ 
+ 
+ def normalise(line):
+@@ -122,9 +138,13 @@
+         bad.append("%s names __import__" % rel)
+     if isinstance(node, ast.Call):
+         f = node.func
+-        name = f.id if isinstance(f, ast.Name) else (f.attr if isinstance(f, ast.Attribute) else "")
+-        if name in REFUSED_CALLS:
+-            bad.append("%s calls %s, which the guard cannot read" % (rel, name))
++        if isinstance(f, ast.Name) and f.id in REFUSED_CALLS:
++            bad.append("%s calls %s, which the guard cannot read" % (rel, f.id))
++        elif isinstance(f, ast.Attribute) and isinstance(f.value, ast.Name):
++            if f.value.id in BUILTINS_NAMES and f.attr in REFUSED_CALLS:
++                bad.append("%s calls %s.%s, which the guard cannot read" % (rel, f.value.id, f.attr))
++            elif f.value.id == "importlib" and f.attr == "import_module":
++                bad.append("%s calls importlib.import_module, which the guard cannot read" % rel)
+         if isinstance(f, ast.Attribute) and isinstance(f.value, ast.Attribute) and f.value.attr == "path" \
+                 and isinstance(f.value.value, ast.Name) and f.value.value.id == "sys":
+             bad.append("%s changes sys.path" % rel)
+@@ -234,15 +254,17 @@
+ 
+ 
+ STRATEGIES = [
+-    (lambda: os.geteuid() == 0,
+-     ["unshare", "-n", "--", "setpriv", "--reuid=%d" % NOBODY, "--regid=%d" % NOBODY, "--clear-groups", "--"],
+-     "unshare -n, as nobody"),
+-    (lambda: True,
+-     ["sudo", "-n", "unshare", "-n", "--", "setpriv", "--reuid=%d" % NOBODY, "--regid=%d" % NOBODY, "--clear-groups",
+-      "--"], "sudo unshare -n, as nobody"),
++    (lambda: os.geteuid() == 0, ["unshare", "-n", "-m", "--", "sh", "-c", WRAP, "sh", RUN], "unshare -n -m, as nobody"),
++    (lambda: True, ["sudo", "-n", "unshare", "-n", "-m", "--", "sh", "-c", WRAP, "sh", RUN],
++     "sudo unshare -n -m, as nobody"),
+ ]
+ 
+ 
++def wrapped(prefix, run_dir, argv):
++    """the command that runs argv in run_dir under the prefix: the run's directory stands for RUN in it"""
++    return [str(run_dir) if a == RUN else a for a in prefix] + list(argv)
++
++
+ def _hand_over(path, prefix):
+     """give the run's directory to nobody, who must own it alone"""
+     if prefix[:1] == ["sudo"]:
+@@ -265,30 +287,38 @@
+ 
+ 
+ def sandbox_prefix():
+-    """(the prefix that runs a command as nobody with the network cut, its name), tested both ways; ([], "no sandbox")
+-    when none works"""
++    """(the prefix that runs a command as nobody with the network cut and its own temporary directories, its name), tested
++    three ways; ([], "no sandbox") when none works"""
+     for usable, prefix, name in STRATEGIES:
+-        if not usable() or not all(shutil.which(c) for c in (prefix[0], "setpriv", "unshare")):
++        if not usable() or not all(shutil.which(c) for c in (prefix[0], "setpriv", "unshare", "mount")):
+             continue
+         marker = pathlib.Path(tempfile.mkdtemp(prefix="probe_"))
++        run_dir = pathlib.Path(tempfile.mkdtemp(prefix="probe_run_"))
++        inside = "/tmp/probe_%s" % os.urandom(6).hex()
+         try:
+             marker.chmod(0o755)                       # readable by nobody, writable only by the runner
+-            r = subprocess.run(prefix + [sys.executable, "-I", "-c", PROBE, str(marker / "x")], capture_output=True,
+-                               timeout=30, cwd="/")
+-            if r.returncode == 7 and not (marker / "x").exists():
++            if not _hand_over(run_dir, prefix):
++                continue
++            r = subprocess.run(wrapped(prefix, run_dir, [sys.executable, "-I", "-c", PROBE, str(marker / "x"), inside]),
++                               capture_output=True, timeout=30, cwd="/")
++            if r.returncode == 7 and not (marker / "x").exists() and not os.path.exists(inside):
+                 return prefix, name
+         except (OSError, subprocess.TimeoutExpired):
+             pass
+         finally:
+             shutil.rmtree(marker, ignore_errors=True)
++            _take_back(run_dir, prefix)
+     return [], "no sandbox"
+ 
+ 
+ def _run(prefix, argv, cwd, limit):
+-    env = {"PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": str(cwd), "LANG": "C.UTF-8", "PYTHONHASHSEED": "0"}
++    inside = bool(prefix)
++    env = {"PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": "/mnt" if inside else str(cwd), "LANG": "C.UTF-8",
++           "PYTHONHASHSEED": "0"}
+     t0 = time.time()
+     try:
+-        r = subprocess.run(prefix + argv, cwd=cwd, capture_output=True, text=True, timeout=limit, env=env)
++        r = subprocess.run(wrapped(prefix, cwd, argv) if inside else argv, cwd="/" if inside else cwd,
++                           capture_output=True, text=True, timeout=limit, env=env)
+         return r.returncode, r.stdout, r.stderr, time.time() - t0
+     except subprocess.TimeoutExpired:
+         return None, "", "", time.time() - t0
+diff --git a/tests/test_queue_discover.py b/tests/test_queue_discover.py
+index 46e3d27f5..a5b0dc8ef 100644
+--- a/tests/test_queue_discover.py
++++ b/tests/test_queue_discover.py
+@@ -208,6 +208,21 @@
+     assert D.code_for("a/b/the-derivation-x1", codes, [])[0] is None
+ 
+ 
++def test_mains_card_carried_by_a_seats_branch_is_passed_over_m68(tmp_path):
++    """main's M68 point 4: a branch cut from main carries main's cards; the same path and blob as on main is main's card"""
++    g, put, card, base = _repo(tmp_path, branch="main")
++    put("CLAIM_main.md", card("main's own", code=QS.MAIN_CODE, br="main"))
++    g("update-ref", "refs/remotes/origin/main", "HEAD")
++    g("checkout", "-q", "-b", "seat/a")
++    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
++    new, report = _discover({}, [("main", "origin/main"), ("a", "origin/seat/a")], tmp_path)
++    assert [r["branch"] for r in new.values()] == ["main"] and not any("seat/a" in r for r in report), report
++    # the seat's own card on that branch is still read
++    put("CLAIM_seat.md", card("the seat's own", br="seat/a"), on="seat/a")
++    new, report = _discover({}, [("main", "origin/main"), ("a", "origin/seat/a")], tmp_path)
++    assert sorted(r["branch"] for r in new.values()) == ["main", "seat/a"], report
++
++
+ def test_the_table_on_main_names_main_and_the_command_runs_by_hand(tmp_path):
+     codes = D.seat_codes()
+     assert codes.get("main") == QS.MAIN_CODE and all(not QS.code_problems(c) for c in codes.values())
 diff --git a/tests/test_queue_intake.py b/tests/test_queue_intake.py
 new file mode 100644
 index 000000000..439bb3823
@@ -835,6 +1049,87 @@ index 000000000..439bb3823
 +                                   prefix=[])
 +    assert any("%s is refiled by a later card, and is not taken further" % good["id"] in r for r in report)
 +    assert not any(("%s waits on" % good["id"]) in r for r in report) and heavy["id"]
+diff --git a/tests/test_queue_rerun.py b/tests/test_queue_rerun.py
+index 6a1d521f4..3b314a215 100644
+--- a/tests/test_queue_rerun.py
++++ b/tests/test_queue_rerun.py
+@@ -240,7 +240,9 @@
+     prefix, name = SANDBOX
+     if not prefix:
+         pytest.skip("no unprivileged user in a network namespace on this machine (%s)" % name)
+-    probe = "import socket\nraise SystemExit(7 if [n for _, n in socket.if_nameindex()] == ['lo'] else 0)\n"
++    probe = ("import fcntl, socket, struct\nup = []\nfor _, n in socket.if_nameindex():\n    s = socket.socket()\n"
++             "    f = struct.unpack('16sH', fcntl.ioctl(s.fileno(), 0x8913, struct.pack('16sH', n.encode(), 0)))[1]\n"
++             "    if f & 1 and n != 'lo':\n        up.append(n)\nraise SystemExit(7 if not up else 0)\n")   # M68: up, not present
+     src = ("import subprocess, sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
+            "r = subprocess.run([sys.executable, '-c', %r])\nprint('DECISIVE: probe =', r.returncode)\n" % probe)
+     _commit(tmp_path, {"x.py": src})
+@@ -272,3 +274,65 @@
+                         "--root", str(tmp_path), "--limit", "60", "--allow-static-guard"],
+                        capture_output=True, text=True, timeout=300)
+     assert r.returncode == 0 and json.loads(r.stdout)["status"] == "REPRODUCED", r.stdout + r.stderr
++
++
++
++def test_a_runs_temporary_directories_are_its_own_m68(tmp_path):
++    """main's M68 point 2: one card's run wrote /tmp and changed a later card's line. Each run has its own /tmp, /var/tmp
++    and /dev/shm: a file written there is not seen outside, nor by the next run"""
++    prefix, name = SANDBOX
++    if not prefix:
++        pytest.skip("no unprivileged user in a network namespace on this machine (%s)" % name)
++    plant = "/tmp/plant_%s" % os.urandom(4).hex()
++    writer = ("import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\nopen(%r, 'w').write('x')\n"
++              "print('DECISIVE: wrote = yes')\n" % plant)
++    reader = ("import os, sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
++              "print('DECISIVE: seen =', 'yes' if os.path.exists(%r) else 'no')\n" % plant)
++    _commit(tmp_path / "w", {"x.py": writer})
++    _commit(tmp_path / "r", {"x.py": reader})
++    n, d = RR.decisive("DECISIVE: wrote = yes\n")
++    assert _rerun(tmp_path / "w", _card(tmp_path / "w", n=n, d=d), allow_static=False)["status"] == "REPRODUCED"
++    assert not os.path.exists(plant)
++    n, d = RR.decisive("DECISIVE: seen = no\n")
++    assert _rerun(tmp_path / "r", _card(tmp_path / "r", n=n, d=d), allow_static=False)["status"] == "REPRODUCED"
++
++
++def test_a_namespace_with_interfaces_down_beside_the_loopback_is_accepted_m68():
++    """main's M68 point 1: a kernel with tunnel modules shows tunl0, gre0, sit0 and others, all down, in a new namespace.
++    The probe asks that none is up, not that none is there: a dummy interface, down, is planted beside the loopback"""
++    import shutil
++    if os.geteuid() != 0 or not shutil.which("ip"):
++        pytest.skip("planting an interface needs root and ip")
++    marker = pathlib.Path(__import__("tempfile").mkdtemp())
++    marker.chmod(0o755)
++    inside = "/tmp/probe_%s" % os.urandom(4).hex()
++    cmd = ["unshare", "-n", "-m", "--", "sh", "-c", "ip link add d0 type dummy && mount -t tmpfs tmpfs /tmp && "
++           "exec setpriv --reuid=65534 --regid=65534 --clear-groups -- \"$@\"", "sh",
++           sys.executable, "-I", "-c", RR.PROBE, str(marker / "x"), inside]
++    assert subprocess.run(cmd, capture_output=True).returncode == 7
++    up = ["unshare", "-n", "-m", "--", "sh", "-c", "ip link add d0 type dummy && ip link set d0 up && "
++          "mount -t tmpfs tmpfs /tmp && exec setpriv --reuid=65534 --regid=65534 --clear-groups -- \"$@\"", "sh",
++          sys.executable, "-I", "-c", RR.PROBE, str(marker / "x"), inside]
++    assert subprocess.run(up, capture_output=True).returncode == 0          # an interface up: the wrap is not trusted
++
++
++def test_re_compile_passes_the_guard_and_the_builtin_does_not_m69(tmp_path):
++    for src, ok in (("import re\nre.compile('x')\n", True), ("compile('1', 'x', 'eval')\n", False),
++                    ("import builtins\nbuiltins.compile('1', 'x', 'eval')\n", False), ("class C:\n    def eval(self):\n        return 1\nC().eval()\n", True)):
++        repo = tmp_path / str(abs(hash(src)))
++        _commit(repo, {"x.py": src + GOOD})
++        res = _rerun(repo, _card(repo))
++        assert (res["status"] == "REPRODUCED") is ok, (src, res)
++
++
++def test_where_its_tools_are_the_wrap_is_found_and_a_wrap_that_shares_tmp_is_not_m68(monkeypatch):
++    """the sandbox's tests skip where no wrap can be made; so where the tools stand (root, unshare, setpriv, mount) the
++    wrap must be found, or a broken wrap would pass as a skip. A wrap that cuts the network and drops the user but shares
++    /tmp is refused by the probe"""
++    import shutil
++    if os.geteuid() != 0 or not all(shutil.which(c) for c in ("unshare", "setpriv", "mount")):
++        pytest.skip("not root, or unshare, setpriv or mount missing")
++    assert RR.sandbox_prefix()[0], "root with unshare, setpriv and mount, and no wrap found"
++    shared = ["unshare", "-n", "--", "setpriv", "--reuid=65534", "--regid=65534", "--clear-groups", "--"]
++    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: True, shared, "the network and the user, /tmp shared")])
++    assert RR.sandbox_prefix() == ([], "no sandbox")
 -- 
 2.43.0
 
