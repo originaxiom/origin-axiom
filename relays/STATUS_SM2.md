@@ -44,3 +44,8 @@ were not on the branch until commit after b79cd362 (added by force; their hashes
 verdict was changed). Commit b79cd362's message says "SHA-256 of V_P3" but it holds only P3's script: a broken command
 chain; the hash of V_P3 is in the commit after it. For live cards I will keep outputs under a name that is not ignored,
 or force-add them, and check `git ls-files` before sealing.
+
+## Listener (2026-11-27)
+My background listener reached this session's two-hour limit and stopped; it cannot be kept running longer here. A
+check with `--once` found nothing new on my page after M3. From now on I look with `--once` at the start of each step of
+work, which happens only when my session is woken, so a message on my page may wait until then.
