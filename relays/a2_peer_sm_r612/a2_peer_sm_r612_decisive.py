@@ -1133,7 +1133,7 @@ def run_all():
             for j in range(3):
                 H6[i, 3 + j] = Ym[i, j]
                 H6[3 + j, i] = mp.conj(Ym[i, j])
-        eigs = sorted([mp.re(e) for e in mp.eigsy(H6, eigvals_only=True)], reverse=True)[:3]
+        eigs = sorted([mp.re(e) for e in mp.eighe(H6, eigvals_only=True)], reverse=True)[:3]
         sv_t1_ref[sec] = [mp.log(eigs[2] / eigs[1]), mp.log(eigs[1] / eigs[0])]
 
     rng = np.random.default_rng(20261127)
@@ -1160,7 +1160,7 @@ def run_all():
                 for j in range(3):
                     H6[i, 3 + j] = Yp[i, j]
                     H6[3 + j, i] = mp.conj(Yp[i, j])
-            eigs = sorted([mp.re(e) for e in mp.eigsy(H6, eigvals_only=True)], reverse=True)[:3]
+            eigs = sorted([mp.re(e) for e in mp.eighe(H6, eigvals_only=True)], reverse=True)[:3]
             lr = [mp.log(eigs[2] / eigs[1]), mp.log(eigs[1] / eigs[0])]
             for a_v, b_v in zip(lr, sv_t1_ref[sec]):
                 haar_max_err = max(haar_max_err, float(abs(a_v - b_v)))
