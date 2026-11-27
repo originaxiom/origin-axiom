@@ -214,23 +214,27 @@ def verify_central_signs_and_bd5_lift():
     # Verify j^2 is central in BD_5
     j2_central = all(bd_mul(j2, g) == bd_mul(g, j2) for g in bd_elems)
 
-    # Verify pi_1(m004) = <x, y | x Y x y X Y x y X Y> (Wirtinger meridians x, y BOTH have abelianization n = +1!)
-    # Under the lift r^a s^e -> r^a j^n (with n = +1 for each Wirtinger meridian x, y),
+    # Verify pi_1(m004) in BOTH exact presentations:
+    # (A) Standard Wirtinger presentation: <x, y | w x W Y> with w = x Y X y (so relator = x Y X y x Y x y X Y)
+    #     and exact canonical bounding longitude l = (y X Y x)(x Y X y) = y X Y x x Y X y (exponent sum 0, commutes with x).
+    # (B) SnapPy presentation: <a, b | a a a b A B B A b> with meridian m = a b and canonical longitude l = a B A b A B a b.
+    # Under the dihedral sheet lift r^a s^e -> r^a j^n (with abelianization n = +1 on each Wirtinger meridian x, y),
     # x -> (a1, 1) and y -> (a2, 1) (both carry j^1!).
-    # Check relator w = x Y x y X Y x y X Y (total exponent sum in x, y is 0 -> j^0 = +1!):
-    # Count exact surjective lifts pi_1(m004) ->> BD_5 with x -> (a1, 1), y -> (a2, 1)!
-    rel_m004 = [("x", False), ("y", True), ("x", False), ("y", False), ("x", True),
-                ("y", True), ("x", False), ("y", False), ("x", True), ("y", True)]
+    def eval_word_bd5(word, mp):
+        cur = bd_id
+        for ch in word:
+            g = mp[ch.lower()]
+            cur = bd_mul(cur, bd_inv(g) if ch.isupper() else g)
+        return cur
+
+    rel_wirt = "xYXyxYxyXY"
+    long_wirt = "yXYxxYXy"
     surj_bd5 = 0
+    long_always_id = True
     for a1 in range(5):
         for a2 in range(5):
             gx, gy = (a1, 1), (a2, 1)
-            cur = bd_id
-            for sym, is_inv in rel_m004:
-                g = gx if sym == "x" else gy
-                cur = bd_mul(cur, bd_inv(g) if is_inv else g)
-            if cur == bd_id:
-                # Check if <gx, gy> generates all 20 elements of BD_5
+            if eval_word_bd5(rel_wirt, {"x": gx, "y": gy}) == bd_id:
                 seen = {bd_id}
                 q = deque([bd_id])
                 while q:
@@ -242,27 +246,36 @@ def verify_central_signs_and_bd5_lift():
                             q.append(nxt)
                 if len(seen) == 20:
                     surj_bd5 += 1
+                    if eval_word_bd5(long_wirt, {"x": gx, "y": gy}) != bd_id:
+                        long_always_id = False
 
-    # Also verify canonical bounding longitude of figure-eight knot in Wirtinger presentation:
-    # l = x Y X y X Y x y (commutator length 0, exponent sum 0 => maps to (0, 0) in BD_5!)
-    # Check l commutes with meridian x in pi_1(m004) (equivalently in BD_5 for every valid lift)!
-    long_word = [("x", False), ("y", True), ("x", True), ("y", False),
-                 ("x", True), ("y", True), ("x", False), ("y", False)]
-    long_always_id = True
-    for a1 in range(5):
-        for a2 in range(5):
-            gx, gy = (a1, 1), (a2, 1)
-            cur_r = bd_id
-            for sym, is_inv in rel_m004:
-                g = gx if sym == "x" else gy
-                cur_r = bd_mul(cur_r, bd_inv(g) if is_inv else g)
-            if cur_r == bd_id and a1 != a2:
-                cur_l = bd_id
-                for sym, is_inv in long_word:
-                    g = gx if sym == "x" else gy
-                    cur_l = bd_mul(cur_l, bd_inv(g) if is_inv else g)
-                if cur_l != bd_id:
-                    long_always_id = False
+    # Cross-check in SnapPy presentation <a, b | aaabABBAb>, m = ab, l = aBAbABab (all 40 lifts across j^{+-1})
+    rel_snappy = "aaabABBAb"
+    mer_snappy = "ab"
+    long_snappy = "aBAbABab"
+    snappy_surj_bd5 = 0
+    snappy_long_always_id = True
+    snappy_mer_sq_minus1 = True
+    for ga in bd_elems:
+        for gb in bd_elems:
+            if eval_word_bd5(rel_snappy, {"a": ga, "b": gb}) == bd_id:
+                seen = {bd_id}
+                q = deque([bd_id])
+                while q:
+                    u = q.popleft()
+                    for g in (ga, gb, bd_inv(ga), bd_inv(gb)):
+                        nxt = bd_mul(u, g)
+                        if nxt not in seen:
+                            seen.add(nxt)
+                            q.append(nxt)
+                if len(seen) == 20:
+                    snappy_surj_bd5 += 1
+                    m_im = eval_word_bd5(mer_snappy, {"a": ga, "b": gb})
+                    l_im = eval_word_bd5(long_snappy, {"a": ga, "b": gb})
+                    if l_im != bd_id:
+                        snappy_long_always_id = False
+                    if bd_mul(m_im, m_im) != (0, 2):
+                        snappy_mer_sq_minus1 = False
 
     return {
         "z13_eq_z3_in_E8": z13_eq_z3_in_E8,
@@ -270,7 +283,8 @@ def verify_central_signs_and_bd5_lift():
         "BD5_rels_ok": bd_rels_ok,
         "BD5_j2_central": j2_central,
         "m004_surj_lifts_to_BD5": surj_bd5,
-        "m004_bounding_longitude_trivial_in_BD5": long_always_id,
+        "m004_snappy_surj_lifts_to_BD5": snappy_surj_bd5,
+        "m004_bounding_longitude_trivial_in_BD5": long_always_id and snappy_long_always_id and snappy_mer_sq_minus1,
     }
 
 
