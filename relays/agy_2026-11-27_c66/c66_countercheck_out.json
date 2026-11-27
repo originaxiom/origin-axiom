@@ -1,0 +1,20 @@
+{
+  "card": "AGY-C66-COUNTERCHECK",
+  "date": "2026-11-27",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "referee_planted_fault_controls": {
+    "RPF1_trace5_word_nonparabolic_at_p5_caught": true,
+    "RPF2_perturbed_quadratic_nonsingular_on_rays5_caught": true,
+    "RPF3_trivial_vs_legendre_unpaired_polynomial_distinct_caught": true,
+    "RPF4_conjugate_eigenspace_inverts_golden_ratio_caught": true,
+    "RPF5_I6_lifts_I4_equator_tie_caught": true,
+    "rpf_caught_count": 5
+  },
+  "score": "0 of 19",
+  "self_audit": {
+    "ast_float_or_complex_literals": 0,
+    "json_float_values": 0,
+    "shared_imports_from_producer": 0
+  }
+}
