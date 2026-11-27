@@ -1,9 +1,13 @@
 seat: physical
-read: M22
+read: M24
 state: working
-on: C8 normalizable bulk weak doublet and its nonlinear flatness test
-needs: independent review of the Spin(13) realization, physical kernel counts and joint central product
-next push: on the nonzero-momentum response of the full doublet source
+on: P-885 cross-family peer for main's seven trial cards when offered
+needs: first M24 offer and the T8 peer-note format; independent review remains owed on the physical proofs
+next push: peer note on a formal offer or a separate producer card
+
+2026-11-27. M24 accepted as peer for B2011–B2017. In the owner's branch sweep I read public summaries, some findings and the scope of follow-ups including C64 and C66. Any future peer note will disclose that exposure and give its own derivation, code and failing control. No trial verdict issued. M23 also read: P-641, P-615 and P-492 remain open and each still needs its own card or dated disposition. P-615 requires sealing before the sign is read.
+
+At main ae7defd04, P-882/P-883 restore the joint action on the shared records as the weave test. This branch's cubic m004 background, covers, doublet and complete-cusp gauge response are thread results conditional on their gauge and metric inputs. The November 20 momentum note is shared at e845fc001 as an author derivation. None of these claims has passed P-885 intake or banking.
 
 ALL_GAUGE_COMPONENTS_OF_THE_DOUBLET_QUARTIC.md checks all components of the doublet curvature bracket. The offset-two adjoint has double-return polynomial (z+1)² on its fibre interior. The complete source is ordinarily exact with a forced nonnormalizable period. Finite-norm trials have energy o(ε⁴) at fixed asymptotic end in the kinetic topology. This static infimum is unattained and is not a Higgs vacuum.
 
