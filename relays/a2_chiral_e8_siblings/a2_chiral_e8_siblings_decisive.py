@@ -24,7 +24,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 DATA_JSON = HERE / "a2_chiral_e8_siblings_input.json"
 OUT_JSON = HERE / "a2_chiral_e8_siblings_out.json"
 
-mp.mp.dps = 360
+mp.mp.dps = 420
 X = sp.Symbol("X")
 
 
@@ -492,14 +492,14 @@ def analyze_field_and_arithmeticity(m):
     best_alpha = None
     best_zpolys = None
     for alp in cand_alphas:
-        P = lll_minpoly_complex(alp, max_deg=36, scale_exp=300, tol_exp=140, max_c_exp=18)
+        P = lll_minpoly_complex(alp, max_deg=40, scale_exp=360, tol_exp=140, max_c_exp=20)
         if P is None:
             continue
         d = P.degree()
         zps = []
         ok_all = True
         for z in shapes_mpc:
-            zp = lll_express_in_basis(z, alp, d, scale_exp=300, tol_exp=120, max_c_exp=28)
+            zp = lll_express_in_basis(z, alp, d, scale_exp=360, tol_exp=120, max_c_exp=40)
             if zp is None:
                 ok_all = False
                 break
