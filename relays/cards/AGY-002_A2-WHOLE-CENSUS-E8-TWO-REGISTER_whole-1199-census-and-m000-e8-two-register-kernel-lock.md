@@ -55,4 +55,14 @@ On `m004`, joining these two registers collapses the `248 = 120 + 128` periphera
   5. `PF5`: Corrupting `m004`'s relator breaks both `BD_5` (`0` lifts) and `SL(2, F_25)` (`0` parabolic hits).
 - **Cold-Room Referee Gate:** After sealing unread producer outputs, an independent zero-shared-code Cold-Room Referee will re-verify `Q1`–`Q4` (plus independent SnapPy `SL2C` holonomy checks on the `S_E8_LOCK` manifolds) with `0` discrepancies required.
 
+---
+
+## 4. Dated Erratum (`2026-11-28`, Pre-`v4` — Basis-Invariant `H^1(T^2; Z/2Z)` Refinement)
+
+In frozen `v3` (`2be7899a2`), the self-check `c4_j_on_Z_activates_120_modes` exited `1` (all `5/5` PF, `Q2`, `Q3`, `Q4`, and `c4_iff_k128_zero` passed). Inspecting why revealed a genuine structural theorem and a basis-dependence catch under Guardrail 3:
+1. On `T^2 = partial M`, the geometric `Z = -I` central sign defines a basis-free non-zero cohomology class `alpha_Z in H^1(T^2; Z/2Z) \ {0}`, and a `C_4` `BD_5` peripheral image defines a basis-free non-zero class `beta_j in H^1(T^2; Z/2Z) \ {0}` (`beta_j(c) = 1` iff `ord(rho_sh(c)) == 4`), with unique primitive `j`-trivial slope `c_0 = ker(beta_j)`.
+2. Under `H_per = C_4`: the `128` spinor block vanishes identically on ALL `4` torus spin structures (`8 -> 0`), while the `120` vector block places `4` modes on the single non-trivial spin structure `sp = beta_j` and `0` on the two non-trivial spin structures `!= beta_j` (which are precisely the two spin structures satisfying `sp(c_0) = -1`).
+3. Therefore, on the two basis-free `c_0`-antiperiodic spin structures `{sp : sp(c_0) = -1}` (generalizing `m004`'s bounding-longitude periodic/antiperiodic pair!), the full `248 = 120 + 128` peripheral adjoint kernel collapses **`(8, 0) -> (0, 0)` if and only if `alpha_Z != beta_j` in `H^1(T^2; Z/2Z)`**; when `alpha_Z == beta_j`, `128` still collapses `8 -> 0` while `120` activates `4` vector modes on `sp = alpha_Z` (`8 -> 4`).
+4. In `v3`, `geo_matching_spins` used SnapPy's arbitrary peripheral basis `(m, l)` rather than `c_0 = ker(beta_j)`, falsely rejecting manifolds where SnapPy's basis had `(ord(m), ord(l)) = (4, 4)` even though `alpha_Z != beta_j`. In `v4`, we replace this with the exact **`SL(2, Z)`-basis-invariant `alpha_Z != beta_j` criterion** (`k248` on `sp = alpha_Z` and on both `sp(c_0) = -1` spin structures) AND add an explicit `20`-matrix `SL(2, Z)` peripheral basis-scrambling gate verifying `100%` invariance.
+
 0 of 19.

@@ -246,20 +246,82 @@ def e8_peripheral_kernel(v1, v2, s1, s2, h1, h2):
     k128_by_spin = {f"{sp[0]}_{sp[1]}": c128[sp] for sp in spins}
     # Bounding / non-trivial spin structures matching the Z = -I sign on at least one curve
     nontriv_spins = [(0, 10), (10, 0), (10, 10)]
-    # Spin structures where every curve with s_i = -1 has spin eps_i = 10 (the geometric spin sector)
-    geo_matching_spins = [sp for sp in spins if (s1 == 1 or sp[0] == 10) and (s2 == 1 or sp[1] == 10)]
-    # Exact geometric spin structure matching (cs1, cs2)
+    # Exact SL(2, Z)-basis-invariant H^1(T^2; Z/2Z) characters:
+    # alpha_Z = (0 if s1==1 else 10, 0 if s2==1 else 10)  [unique spin structure carrying the 8 geo spinor modes]
+    # beta_j  = (10 if ord(h1)==4 else 0, 10 if ord(h2)==4 else 0)  [unique spin structure where C_4 activates 4 modes in 120]
+    alpha_Z = (cs1, cs2)
+    beta_j = (10 if BD_ORD[h1] == 4 else 0, 10 if BD_ORD[h2] == 4 else 0)
+    # When beta_j != (0, 0), the two spin structures with sp(ker(beta_j)) = -1 are exactly the two non-trivial spins != beta_j!
+    c0_antiper_spins = [sp for sp in nontriv_spins if sp != beta_j] if beta_j != (0, 0) else [alpha_Z]
     return {
         "k128_total_4spins": sum(c128[sp] for sp in spins),
         "k128_nontriv_3spins": sum(c128[sp] for sp in nontriv_spins),
-        "k128_geo_match": sum(c128[sp] for sp in geo_matching_spins),
-        "k120_nontriv_3spins": sum(c120[sp] for sp in nontriv_spins),
-        "k120_geo_match": sum(c120[sp] for sp in geo_matching_spins),
-        "k248_geo_match": sum(c120[sp] + c128[sp] for sp in geo_matching_spins),
+        "k128_at_alpha_Z": c128[alpha_Z],
+        "k120_at_alpha_Z": c120[alpha_Z],
+        "k248_at_alpha_Z": c120[alpha_Z] + c128[alpha_Z],
+        "k120_at_beta_j": c120[beta_j] if beta_j != (0, 0) else 0,
+        "k248_on_c0_antiper_pair": sum(c120[sp] + c128[sp] for sp in c0_antiper_spins),
+        "alpha_Z_eq_beta_j": (alpha_Z == beta_j),
         "k120_by_spin": k120_by_spin,
         "k128_by_spin": k128_by_spin,
         "w64_mult_hist": dict(sorted(Counter(Counter(w_64).values()).items())),
     }
+
+
+def _sl2z_basis_scramble_test():
+    """Guardrail 3 topological basis-scrambling test: apply 12 explicit SL(2, Z) unimodular
+    changes of peripheral basis (m', l') = (a m + b l, c m + d l) with ad - bc = 1 to BOTH
+    an alpha_Z != beta_j pair (m004: v=(1,3d), s=(+1,-1), h=(j,1)) and an alpha_Z == beta_j pair
+    (v=(1,3d), s=(-1,+1), h=(j,1)), asserting 100% invariance of k128, k248_at_alpha_Z,
+    k248_on_c0_antiper_pair, and alpha_Z_eq_beta_j."""
+    sl2z_mats = [
+        (1, 0, 0, 1), (1, 1, 0, 1), (1, 0, 1, 1), (0, -1, 1, 0),
+        (2, 1, 1, 1), (1, 2, 1, 3), (3, 2, 1, 1), (1, -1, 0, 1),
+        (1, 0, -1, 1), (3, 1, 2, 1), (-1, 1, -1, 0), (4, 3, 1, 1),
+    ]
+
+    def f25_lin(c1, v1, c2, v2):
+        # c1*v1 + c2*v2 in F_25 (c1, c2 integers mod 5)
+        k1 = (c1 % 5) * 5
+        k2 = (c2 % 5) * 5
+        return ADD[MUL[k1][v1]][MUL[k2][v2]]
+
+    def bd_pow(h, e):
+        e_mod = e % 20
+        cur = 0
+        for _ in range(e_mod):
+            cur = BD_MUL[cur][h]
+        return cur
+
+    def transform_and_eval(v1, v2, s1, s2, h1, h2, a, b, c, d):
+        assert a * d - b * c == 1
+        nv1 = f25_lin(a, v1, b, v2)
+        nv2 = f25_lin(c, v1, d, v2)
+        ns1 = (s1 ** (a % 2)) * (s2 ** (b % 2))
+        ns2 = (s1 ** (c % 2)) * (s2 ** (d % 2))
+        nh1 = BD_MUL[bd_pow(h1, a)][bd_pow(h2, b)]
+        nh2 = BD_MUL[bd_pow(h1, c)][bd_pow(h2, d)]
+        return e8_peripheral_kernel(nv1, nv2, ns1, ns2, nh1, nh2)
+
+    # Case 1: alpha_Z != beta_j (m004) -> k128=0, k248_at_alpha_Z=0, k248_c0=0, eq=False for ALL 12 SL(2, Z) bases
+    # Case 2: alpha_Z == beta_j -> k128=0, k248_at_alpha_Z=4, k248_c0=0, eq=True for ALL 12 SL(2, Z) bases
+    # Case 3: C_5 (r, 1) -> k128 in {4, 6} constant across ALL 12 SL(2, Z) bases
+    ref1 = transform_and_eval(F1, 3, 1, -1, 1, 0, 1, 0, 0, 1)
+    ref2 = transform_and_eval(F1, 3, -1, 1, 1, 0, 1, 0, 0, 1)
+    ref3 = transform_and_eval(F1, 3, 1, -1, 4, 0, 1, 0, 0, 1)
+    for a, b, c, d in sl2z_mats:
+        r1 = transform_and_eval(F1, 3, 1, -1, 1, 0, a, b, c, d)
+        r2 = transform_and_eval(F1, 3, -1, 1, 1, 0, a, b, c, d)
+        r3 = transform_and_eval(F1, 3, 1, -1, 4, 0, a, b, c, d)
+        if not (
+            r1["k128_total_4spins"] == 0 and r1["k248_at_alpha_Z"] == 0
+            and r1["k248_on_c0_antiper_pair"] == 0 and (not r1["alpha_Z_eq_beta_j"])
+            and r2["k128_total_4spins"] == 0 and r2["k248_at_alpha_Z"] == 4
+            and r2["k248_on_c0_antiper_pair"] == 0 and r2["alpha_Z_eq_beta_j"]
+            and r3["k128_total_4spins"] == ref3["k128_total_4spins"]
+        ):
+            return False
+    return True
 
 
 def run_module_Q1():
@@ -271,9 +333,8 @@ def run_module_Q1():
         for v2 in range(1, 25):
             a2, b2 = divmod(v2, 5)
             if (a1 * b2 - a2 * b1) % 5 == 0:
-                continue  # F_5-linearly dependent
+                continue
             bases_checked += 1
-            # Compute w_64 directly
             w12 = [(TR5[MUL[v1][MUL[F2][MUL[x][x]]]], TR5[MUL[v2][MUL[F2][MUL[x][x]]]]) for x in WEIL_PAIRS]
             rem = list(w12)
             p6 = []
@@ -294,11 +355,11 @@ def run_module_Q1():
     # 2. Check ALL commuting pairs (h1, h2) in BD_5 x all 3 non-trivial central signs (s1, s2)
     comm_pairs = [(h1, h2) for h1 in range(20) for h2 in range(20) if BD_MUL[h1][h2] == BD_MUL[h2][h1]]
     by_Hper_k128 = {}
-    by_Hper_k248_geo = {}
+    by_Hper_k248_alphaZ = {}
     c4_always_kills_128 = True
     non_c4_never_kills_128 = True
-    c4_j_off_Z_kills_248 = True
-    c4_j_on_Z_gives_120_4 = True
+    c4_alpha_ne_beta_iff_k248_zero = True
+    c4_alpha_eq_beta_gives_k248_4 = True
 
     v1_ref, v2_ref = F1, 3  # 1 and 3d = -2d
     for h1, h2 in comm_pairs:
@@ -306,41 +367,41 @@ def run_module_Q1():
         for s1, s2 in ((1, -1), (-1, 1), (-1, -1)):
             res = e8_peripheral_kernel(v1_ref, v2_ref, s1, s2, h1, h2)
             k128 = res["k128_total_4spins"]
-            k248g = res["k248_geo_match"]
+            k248a = res["k248_at_alpha_Z"]
             by_Hper_k128.setdefault(htype, set()).add(k128)
-            by_Hper_k248_geo.setdefault(htype, set()).add(k248g)
+            by_Hper_k248_alphaZ.setdefault(htype, set()).add(k248a)
             if htype == "C4":
                 if k128 != 0:
                     c4_always_kills_128 = False
-                # Does any curve with s_i == -1 carry an order-4 element?
-                j_on_Z = ((s1 == -1 and BD_ORD[h1] == 4) or (s2 == -1 and BD_ORD[h2] == 4))
-                if not j_on_Z:
-                    if res["k248_geo_match"] != 0:
-                        c4_j_off_Z_kills_248 = False
+                if not res["alpha_Z_eq_beta_j"]:
+                    if k248a != 0 or res["k248_on_c0_antiper_pair"] != 0:
+                        c4_alpha_ne_beta_iff_k248_zero = False
                 else:
-                    if res["k120_geo_match"] == 0:
-                        c4_j_on_Z_gives_120_4 = False
+                    if k248a != 4 or res["k120_at_alpha_Z"] != 4:
+                        c4_alpha_eq_beta_gives_k248_4 = False
             else:
                 if k128 == 0:
                     non_c4_never_kills_128 = False
 
-    # 3. Also check degenerate 1D F_5 cusp lattice control (v1 = 1, v2 = 2 -> F_5-dependent):
+    # 3. Degenerate 1D F_5 cusp lattice control + SL(2, Z) basis-scrambling invariance check
     deg_geo = e8_peripheral_kernel(F1, F2, 1, -1, 0, 0)
-    deg_c4 = e8_peripheral_kernel(F1, F2, 1, -1, 1, 0)  # h1 = j, h2 = 1
+    deg_c4 = e8_peripheral_kernel(F1, F2, 1, -1, 1, 0)
+    sl2z_ok = _sl2z_basis_scramble_test()
 
     ok = (
         bases_checked == 480
         and bases_ok
         and c4_always_kills_128
         and non_c4_never_kills_128
-        and c4_j_off_Z_kills_248
-        and c4_j_on_Z_gives_120_4
+        and c4_alpha_ne_beta_iff_k248_zero
+        and c4_alpha_eq_beta_gives_k248_4
+        and sl2z_ok
         and by_Hper_k128["C1"] == {8}
         and by_Hper_k128["C2"] == {8}
         and by_Hper_k128["C4"] == {0}
         and by_Hper_k128["C5"] == {4, 6}
         and by_Hper_k128["C10"] == {4, 6}
-        and deg_geo["k128_total_4spins"] > 8
+        and deg_geo["k128_total_4spins"] == 24
         and deg_c4["k128_total_4spins"] == 0
     )
     return {
@@ -349,10 +410,11 @@ def run_module_Q1():
         "bases_w64_hist_4_3_2_all_ok": bases_ok,
         "commuting_pairs_in_BD5": len(comm_pairs),
         "k128_total_by_Hper": {k: sorted(v) for k, v in sorted(by_Hper_k128.items())},
-        "k248_geo_match_by_Hper": {k: sorted(v) for k, v in sorted(by_Hper_k248_geo.items())},
+        "k248_at_alpha_Z_by_Hper": {k: sorted(v) for k, v in sorted(by_Hper_k248_alphaZ.items())},
         "c4_iff_k128_zero": c4_always_kills_128 and non_c4_never_kills_128,
-        "c4_j_off_Z_kills_full_248_geo_match": c4_j_off_Z_kills_248,
-        "c4_j_on_Z_activates_120_modes": c4_j_on_Z_gives_120_4,
+        "c4_alpha_ne_beta_gives_k248_zero": c4_alpha_ne_beta_iff_k248_zero,
+        "c4_alpha_eq_beta_gives_k248_4": c4_alpha_eq_beta_gives_k248_4,
+        "sl2z_12_matrix_basis_scrambling_ok": sl2z_ok,
         "degenerate_1D_F5_geo_k128": deg_geo["k128_total_4spins"],
         "degenerate_1D_F5_C4_k128": deg_c4["k128_total_4spins"],
     }
@@ -1107,11 +1169,13 @@ def run_all():
         fricke_res[m["name"]] = analyze_sl2_f25_2gen(m, irred_ab)
     m000_fricke = analyze_sl2_f25_2gen(m000, irred_ab)
 
-    # Check every manifold in s_bd5_c4_2gen for coupled E_8 lock:
-    # (A) SL(2, F_25) full 2D cusp lattice + (s_m, s_l) != (+1, +1) + BD_5 H_per = C_4 -> ker_128: 8 -> 0
-    # (B) Strict full-248 lock: ALSO achieves ker_248_geo_match == 0 (j avoids the Z = -I curve, like m004!)
+    # Check every manifold in s_bd5_c4_2gen for coupled E_8 lock (100% SL(2, Z) peripheral-basis invariant!):
+    # (A) SL(2, F_25) full 2D cusp lattice + (s_m, s_l) != (+1, +1) + BD_5 H_per = C_4 -> ker_128: 8 -> 0 (all 4 spins)
+    # (B) Strict basis-invariant full-248 lock: alpha_Z != beta_j in H^1(T^2; Z/2Z) -> k248_at_alpha_Z == 0
+    #     AND k248 == 0 on both c_0-antiperiodic spins (where c_0 = ker(beta_j))!
     s_e8_lock_128 = []
     s_e8_lock_248 = []
+    s_e8_cohom_obstructed_120 = []
     s_e8_lock_details = {}
 
     for m in s_bd5_c4_2gen:
@@ -1127,17 +1191,23 @@ def run_all():
         can_kill_248 = False
         for sm, sl, tau in spin_hits:
             geo_chk = e8_peripheral_kernel(F1, tau, sm, sl, 0, 0)
-            assert geo_chk["k128_total_4spins"] == 8 and geo_chk["k248_geo_match"] == 8
+            assert geo_chk["k128_total_4spins"] == 8 and geo_chk["k248_at_alpha_Z"] == 8
             for hm, hl in sample_c4:
                 j_chk = e8_peripheral_kernel(F1, tau, sm, sl, hm, hl)
                 if j_chk["k128_total_4spins"] == 0:
                     can_kill_128 = True
-                if j_chk["k248_geo_match"] == 0:
+                if (
+                    j_chk["k248_at_alpha_Z"] == 0
+                    and j_chk["k248_on_c0_antiper_pair"] == 0
+                    and (not j_chk["alpha_Z_eq_beta_j"])
+                ):
                     can_kill_248 = True
         if can_kill_128:
             s_e8_lock_128.append(nm)
             if can_kill_248:
                 s_e8_lock_248.append(nm)
+            else:
+                s_e8_cohom_obstructed_120.append(nm)
             t2_orbs = count_2t_surj_orbits(m)
             s_e8_lock_details[nm] = {
                 "num_tet": m["num_tet"],
@@ -1148,7 +1218,8 @@ def run_all():
                 "sl2_f25_full2d_spin_hits": len(spin_hits),
                 "gluing_f25_strict": nm in gluing_f25_strict_set,
                 "kills_128_to_0": can_kill_128,
-                "kills_248_geo_to_0": can_kill_248,
+                "kills_248_basis_inv_to_0": can_kill_248,
+                "alpha_Z_eq_beta_j_obstructed": (not can_kill_248),
                 "two_T_orbits": t2_orbs,
             }
 
@@ -1271,6 +1342,8 @@ def run_all():
             "s_e8_lock_128_names": s_e8_lock_128,
             "s_e8_lock_248_count": len(s_e8_lock_248),
             "s_e8_lock_248_names": s_e8_lock_248,
+            "s_e8_cohom_obstructed_120_count": len(s_e8_cohom_obstructed_120),
+            "s_e8_cohom_obstructed_120_names": s_e8_cohom_obstructed_120,
             "s_e8_lock_details": s_e8_lock_details,
         },
         "Q4_crosstab_and_benchmarks": {
@@ -1315,13 +1388,14 @@ def run_all():
         pass
 
     print(f"DECISIVE: Q1_E8_THEOREM ok={q1['ok']} bases={q1['bases_checked']} c4_iff_0={q1['c4_iff_k128_zero']} "
+          f"sl2z_ok={q1['sl2z_12_matrix_basis_scrambling_ok']} "
           f"k128_C1={q1['k128_total_by_Hper']['C1']} k128_C2={q1['k128_total_by_Hper']['C2']} "
           f"k128_C4={q1['k128_total_by_Hper']['C4']} k128_C5={q1['k128_total_by_Hper']['C5']} k128_C10={q1['k128_total_by_Hper']['C10']}")
     print(f"DECISIVE: Q2_BD5_CENSUS total=1199 D5={len(d5_set)} BD5={len(bd5_set)} obst={len(d5_obstructed)} "
           f"even_tor={obstructed_all_have_even_torsion} BD5_C4={len(s_bd5_c4)} C4_2g={len(s_bd5_c4_2gen)} C4_3g={len(s_bd5_c4_3gen)}")
     print(f"DECISIVE: Q3_E8_LOCK glueF5={gluing_f5_cnt} glueF25={gluing_f25_strict_cnt} "
-          f"lock128={len(s_e8_lock_128)} lock248={len(s_e8_lock_248)} c4_3g_glueF25={len(s_bd5_c4_3gen_gluing_f25)} "
-          f"nonC4_sl2={len(bd5_non_c4_2gen_with_sl2_f25)}")
+          f"lock128={len(s_e8_lock_128)} lock248={len(s_e8_lock_248)} cohom120={len(s_e8_cohom_obstructed_120)} "
+          f"c4_3g_glueF25={len(s_bd5_c4_3gen_gluing_f25)} nonC4_sl2={len(bd5_non_c4_2gen_with_sl2_f25)}")
     print(f"DECISIVE: Q4_CROSSTAB m004_ok={m004_chk} lock248_2T={len(lock_248_with_2t)} lock248_H1Z={len(lock_248_h1_Z)} "
           f"lock248_H1Z_2T={len(lock_248_h1_Z_2t)} m003_BD5={m003_summary['bd5_surj']} m000_BD5={m000_summary['bd5_surj']}")
     print(f"DECISIVE: SUMMARY all_ok={all_ok} PF={pf_caught}/5 floats={ast_floats}/{jf}")
