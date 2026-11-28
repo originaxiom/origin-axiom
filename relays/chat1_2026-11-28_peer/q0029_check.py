@@ -62,6 +62,10 @@ changed, and nothing that judges:
   - C8's fixed points over the roots of fac_8 are now found in the trace coordinates, with z held at the root and
     Newton in (x, y) from starts on the surface; each is then carried to the chart, (u, v) = (x/z, y/z), and must be a
     chart fixed point off the blown-up origin there, with the chart trace equal to tr(DT) - 1, as C8 asks.
+  The second run, at commit d0accf81f (output q0029_out_run2.txt), passed C1 to C6, C8 and C9 and failed C7 on a
+  fault of this script's: it counted two geometric shape sequences for LLRR where there is one, found at the sign pair
+  (u, v) and (-u, -v), because the key it compared printed the zero real part of the shape i as -5.3e-82 in one and
+  3.6e-161 in the other. The key now rounds numbers below 1e-40 to zero; nothing else changed.
 
 NOT CHECKED HERE: exactness in the cyclotomic fields as such, the invariance of Omega, the outward ray limit, the
 factored polynomials cp_336 and cp_3615, the card's b_0 offsets and selection inequalities (printed, not judged), and
@@ -401,7 +405,7 @@ def geometric(word, pts):
     for u, v in pts:
         _, _, ws, J = run(word, u, v)
         if all(mp.im(w) > 0 for w in ws):
-            key = tuple(mp.nstr(w, 30) for w in ws)
+            key = tuple(mp.nstr(mp.chop(w, tol=mp.mpf("1e-40")), 30) for w in ws)
             if key not in [k for k, _ in seqs]:
                 seqs.append((key, (u, v, ws, J[0][0] + J[1][1])))
     return seqs
