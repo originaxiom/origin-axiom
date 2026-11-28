@@ -5,7 +5,7 @@
  "commit": "2de93d2e65125601804e66dbc1f8631e9d9ec55c",
  "card_path": "relays/claims/CLAIM_2026-11-27_C8_two_registers.md",
  "title": "A geometric register and its dihedral sheet lift in the same E8 connection take the peripheral adjoint spin kernel from eight to zero",
- "status": "OFFERED",
+ "status": "AT_BANKING",
  "deciding": true,
  "heavy": false,
  "refiles": [],
@@ -27,6 +27,18 @@
    "status": "OFFERED",
    "by": "runner",
    "note": "offered to fam3-v1-high-03 on agy-002/verify (queue/OFFERS.json)"
+  },
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "PEERED",
+   "by": "runner",
+   "note": "the peer note on agy-002/verify at 52c6af180: reproduced, graded re-derived; a check from another family"
+  },
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "AT_BANKING",
+   "by": "runner",
+   "note": "to banking after the peer's note"
   }
  ]
 }

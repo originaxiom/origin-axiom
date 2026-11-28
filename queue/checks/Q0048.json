@@ -1,0 +1,112 @@
+{
+ "terms": {
+  "codes": [
+   "B1983",
+   "B2008",
+   "B704",
+   "P-374",
+   "P-876",
+   "P-882"
+  ],
+  "words": [
+   "breaking",
+   "chiral-flux",
+   "complete",
+   "coupled",
+   "discriminant-",
+   "galois"
+  ],
+  "words_left_out": [
+   "group",
+   "heisenberg",
+   "markoff",
+   "point",
+   "prime-",
+   "protection",
+   "unlocking",
+   "variety",
+   "weil-lattice"
+  ]
+ },
+ "producer_sweep": "git grep across origin/main (be47862d1) finds B704 (multiquadratic Galois seam), B1983 (F_p Markoff orbits for prime p <= 47 only, not F_25), B2008 (open sourced-handedness question on the 3^k tower), and P-876; no arc on main couples Heisenberg Z_3 chiral flux to L_15/L'_15, computes the 15,625-point F_25 Markoff variety and [600, 60, 40, 1] cusp-leaf subgroup partition, or proves the Q_3/BD_5/2T/SL(2, F_25) coupling and Lagrange obstruction",
+ "topic": {
+  "regex": "B1983|B2008|B704|P\\-374|P\\-876|P\\-882|breaking|chiral\\-flux|complete|coupled|discriminant\\-|galois",
+  "verdict": "VERDICT topic-sweep /B1983|B2008|B704|P\\-374|P\\-876|P\\-882|breaking|chiral\\-flux|complete|coupled|discriminant\\-|galois/: 251 of 1760 arcs on main match (NEGATIVE 35, OPEN 25, PROVED 188, RETRACTED 3); 84 register rows match (DECLINED 1, DONE 42, QUEUED 41)",
+  "matches": [
+   "B1858",
+   "B1868",
+   "B1922",
+   "B1923",
+   "B1945",
+   "B1959",
+   "B1982",
+   "B1983",
+   "B2008",
+   "B700",
+   "B704",
+   "B869",
+   "B884",
+   "B9",
+   "B942",
+   "B951",
+   "B952",
+   "B955",
+   "B956",
+   "B957",
+   "B959",
+   "B96",
+   "B960",
+   "B962",
+   "B964",
+   "B967",
+   "B968",
+   "B969",
+   "B971",
+   "B978",
+   "B984",
+   "B985",
+   "B987",
+   "B988",
+   "B990",
+   "B994",
+   "B997",
+   "P-720",
+   "P-746",
+   "P-748",
+   "P-749",
+   "P-753",
+   "P-776",
+   "P-781",
+   "P-796",
+   "P-803",
+   "P-810",
+   "P-814",
+   "P-817",
+   "P-825",
+   "P-843",
+   "P-845",
+   "P-846",
+   "P-860",
+   "P-865",
+   "P-868",
+   "P-870",
+   "P-873",
+   "P-882"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": false,
+  "lines": [
+   "THE TWO RIDDLES ANSWERED, AND THEY ARE ONE ANSWER: THE OBJECT IS A BOUNDARY, AND WHAT FEELS MISSING IS WHAT IT IS THE BOUNDARY OF. 26/26 exact checks. RIDDLE 1, THE MIRROR'S OTHER HALF IS THE OTHER EN",
+   "",
+   "no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched)."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": []
+}

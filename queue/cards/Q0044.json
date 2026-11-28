@@ -1,0 +1,20 @@
+{
+ "id": "Q0044",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "957ed2cb78dd8481a75610ffaeeb770200cddf45",
+ "card_path": "relays/claims/CLAIM_2026-11-28_b1977_second_computation_in_the_queue_form.md",
+ "title": "B1977's order-30 rates at 16 of its points (its five slow points and every eighth), heights 20 and 30, are reproduced exactly in double precision by a second assembly that shares with main's frame only F_u, the canonical end's table, the tr",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

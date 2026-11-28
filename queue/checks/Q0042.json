@@ -109,7 +109,5 @@
  },
  "deciding": true,
  "waits_on": [],
- "firewall": [
-  "±"
- ]
+ "firewall": []
 }

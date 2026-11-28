@@ -14,7 +14,7 @@ A card's history is append-only. A returned card is refiled as a new card that n
 
 - **One round, by hand:** `python3 scripts/queue/intake.py --queue-dir <the queue/ folder of the queue's branch> [--write]`.
   On a machine where the network cannot be cut by a namespace, add `--allow-static-guard`, by the author's choice only.
-- **On the workflow:** `.github/workflows/intake.yml`, every three hours and by hand (Actions, "intake", "Run workflow").
+- **On the workflow:** `.github/workflows/intake.yml`, every hour (every three hours until 2026-11-28) and by hand (Actions, "intake", "Run workflow").
   The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
   queue's branch, `queue`.
 
@@ -26,6 +26,14 @@ branch. Each round the runner moves a REPRODUCED card whose offer holds to OFFER
 the card's own seat or its own family (the code's first part), or to a branch that is not the code's in
 `queue/SEAT_CODES.json`, is refused and reported. A card with no offer stays REPRODUCED, and the report says so. Only the
 offered peer's note is taken; another seat's note is refused.
+
+**The draft, by one rule** (main's M80, M81): `python3 scripts/queue/offers.py [--all]` prints every REPRODUCED card on the
+queue's branch with no offer yet (with `--all`, every FILED card too, offered ahead of its rerun), and a whole draft of
+`queue/OFFERS.json`. The peers are the codes under `"peers"` in that file, in their order, each on its live branch: of
+the Pins table's branches for its code, the one that moved last; a seat whose live branch has not moved in 14 days is
+left out, and said. Each card takes the next peer of another family in a rotation carried from card to card in queue
+order, a card offered already moving it where it stands; main's own cards go to the first peer of another family. Main reads the draft and commits the
+file itself.
 
 ## The settings the author makes (once, in the repository's settings on GitHub)
 
@@ -79,7 +87,7 @@ main's.
 ## The plant ledger (the thin path's patch T12)
 
 Main's alone, and not read by any seat before it is opened. **Its round is a batch of cards, not one run of the runner**
-(the runs above, every three hours, are a different round): a ledger is opened only when every card it names has ended,
+(the runs above, every hour, are a different round): a ledger is opened only when every card it names has ended,
 its status final, and round n's ledger is opened before round n + 1 is sealed (main's M76). Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
 it untracked, commits its seal (`python3 scripts/queue/plants.py --seal queue/plants/ROUND_<n>.json`, a line appended to
 `queue/PLANT_SEALS.jsonl`), lets the round run, and then commits the ledger, which opens it. A fresh nonce for each ledger:

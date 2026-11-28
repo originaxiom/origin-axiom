@@ -1,0 +1,20 @@
+{
+ "id": "Q0048",
+ "seat_code": "fam3-v1-high-03",
+ "branch": "agy-002/verify",
+ "commit": "52c6af180abe510762c21a647ae2401562ddb139",
+ "card_path": "relays/claims/CLAIM_2026-11-28_a2_weave_e8_weil_seam.md",
+ "title": "Discriminant-15 Weil-lattice P_flip^(3) protection vs Heisenberg Z_3 chiral-flux J != 0 unlocking (breaking SL(2, Z) to T^3), coupled E_8 group (156,000, ab Z/2) and complete 15,625-point F_25 Markoff variety, and prime-2/3/5 B704 Galois se",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

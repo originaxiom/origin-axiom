@@ -1,0 +1,22 @@
+{
+ "id": "Q0045",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "9aa044b5a5636222febe5b10016dc32ad1adb215",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p596_fd_rank_in_the_queue_form.md",
+ "title": "f(d) = 2 on FR-FIB's 8 sampled lines: on all 3 328 rows sampled (8 lines, 2 values of τ, 208 rows each) two gradients in τ of the ten outputs are not parallel, so the ten obey 8 relations per branch (P-596, P-568's first half; the seat's ca",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [
+  "Q0011"
+ ],
+ "history": [
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch; refiles Q0011"
+  }
+ ]
+}

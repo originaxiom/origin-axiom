@@ -5,8 +5,8 @@
  "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
  "card_path": "relays/claims/CLAIM_2026-11-28_p632_instability_spectrum_in_the_queue_form.md",
  "title": "P-632: on B1813's s-family the Farey operator's fastest-growing mode picks no interior locus: it is constant at s = 0 (λ₁ = 2) and, at s = 0.1, 0.2, …, 0.9, positive and strictly decreasing on [0, 1], so largest at the parabolic point; λ₁ f",
- "status": "FILED",
- "deciding": null,
+ "status": "OFFERED",
+ "deciding": true,
  "heavy": false,
  "refiles": [],
  "history": [
@@ -15,6 +15,18 @@
    "status": "FILED",
    "by": "runner",
    "note": "found on its branch"
+  },
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "REPRODUCED",
+   "by": "runner",
+   "note": "the rerun at the sealed commit: 15 decisive lines, hash 081f0339be415c96; the control exited 1; guard: sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]"
+  },
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "OFFERED",
+   "by": "runner",
+   "note": "offered to fam2-v1-unset-01 on audit/physical-bridge-2026-09-05 (queue/OFFERS.json)"
   }
  ]
 }

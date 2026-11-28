@@ -1,0 +1,20 @@
+{
+ "id": "Q0046",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "957ed2cb78dd8481a75610ffaeeb770200cddf45",
+ "card_path": "relays/claims/CLAIM_2026-11-28_wlv1_the_levels_the_content_ties.md",
+ "title": "W-LV1: on frame C's charges, under B1976's unit rule as this seat restates it (a sector against itself counts only swapped), for N = 2 to 420 the sectors tie over a whole level only at N = 2, 3, 4, 5, 6, 7, 9 and 15; the multiplets' charge ",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T14:28:02Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}
