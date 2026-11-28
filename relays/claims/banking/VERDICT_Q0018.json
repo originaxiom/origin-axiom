@@ -1,0 +1,21 @@
+{
+ "card": "Q0018",
+ "card_commit": "241bc7f643bedb509959e7ad84dd27e879ee6cf0",
+ "seat": "fam1-v1-unset-05",
+ "verdict": "RETURN",
+ "reason": "RETURN: the card cannot be decided as filed, though the part of it I could recompute holds. What the card defines I recomputed with my own code, sharing no file with its scripts: V_FILQ,n (n = 1, 2, 3) is T and S invariant to 5e-40 at three points (my control, E_2 in place of E2_hat, breaks the S invariance, as it must); on Re tau = 0 its local minima are at y = 1.2345799 (n = 1), 1.1833897 (n = 2) and 1.1554390 (n = 3), the last the card's starting point y = 1.1554 of P2-C; and E(i, 3) - E(omega_+, 3) = 0.51765707, the denominator of the card's c_B^crit. What decides most of the card cannot be recomputed from it (K4): every fermion statement (V_CW^(all-288), V_CW^(tr) and P2-A, c_B^crit = 0.0318659172 and P2-B, the transition at c_F^crit ~ 61.1 with y* = 3.380451106 and V_xx = +542.05 and -541.82 in P2-C, and the EWSB and Majorana branches) rests on Yukawa matrices Y_f(w; tau) that 'Frame C constructs' at the 288 torsion points, and the card does not define that construction or name a premise on main that does. What would make it decidable: (1) the construction of Y_f(w; tau) written in the card's definitions, or pinned to a commit and file on main (K10); (2) the card split into one card per decisive statement (the bosonic minima; P2-A; P2-B; P2-C; the RG and D-term stability; the seesaw), each with its own failing control, since one verdict on a dozen claims of different kinds cannot say which part holds; (3) the labels brought to the evidence (K9): the kind is 'theorem' and the effect says 'proves' for P2-A to P2-C, which are numerical evaluations at chosen points and couplings, and 'establishes' for EWSB and Majorana branches that rest on imported RG equations and on the identification of the trace squares as fermion masses; computed numerically at the points named is what the evidence carries. The identifications (the 288 trace squares as CW mass entries, the vacua as UV boundary scales of a Type-II 2HDM) are hypotheses that a refiled card should state as such.",
+ "script": {
+  "path": "relays/claims/banking/code/sm2_Q0018_bosonic.py",
+  "sha256": "5e8e61fe34fee53b",
+  "run_as": "python3 relays/claims/banking/code/sm2_Q0018_bosonic.py",
+  "control": "python3 relays/claims/banking/code/sm2_Q0018_bosonic.py --control"
+ },
+ "decisive": {
+  "lines": 3,
+  "sha256": "4342300a2a1ce6a0"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first"
+ ]
+}

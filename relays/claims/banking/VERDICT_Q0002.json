@@ -1,0 +1,21 @@
+{
+ "card": "Q0002",
+ "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "seat": "fam1-v1-unset-05",
+ "verdict": "ACCEPT",
+ "reason": "My own recomputation, from the card's definitions and sharing no file with the card's script, agrees with the card: on every orbit I tested the four-move sum T4 equals 3(SP + PS) - 2S and its characteristic polynomial is R(x+4) R(x+2) (x-4)^d1 (x+4)^d2 (x+2)^d3 (x-2)^d4. I tested 68 orbits: every orbit of every leaf (all k, the zero reading left out) mod 7, 11 and 13, which contains the card's three leaf orbits whichever leaf it meant (the card does not say), and the orbit of (3,3,3) mod 27, 81 and 135 (n = 72, 648, 2880). On each, C and sigma preserve the orbit, the identity holds exactly as the multiset of images at every reading, A = 3P(1 + S)P is an integer matrix on the C-orbit sums, and the characteristic polynomial agrees, exactly over Z up to 648 readings and modulo five 62-bit primes at 2880. I did not lean on the cited two-subspace theorem (K4): I derived the law by hand and committed it with my expectation. The identity follows from L = sigma C^2, R = sigma C and sigma^2 = 1 by composing push-forwards; with Q = (1 + S)/2, T4 = 6(QP + PQ) - 6P - 4Q + 2, and on each two-dimensional block of the two projections at angle cos^2 = c it has eigenvalues 6c - 2 and 6c - 4 while A has 6c, which is the factor R(x+2) R(x+4); the one-dimensional pieces give 4, -4, -2 and 2 with the card's d1 to d4. So the law holds on any orbit closed under C and sigma, which supports the card's reach (a class) and its reading as a law of the moves' algebra (the modular group's action), not a property of the levels run. Control (K8): the same comparison with the wrong pairing R(x+4) R(x+1) fails on 62 of the 68 orbits (the other six have deg R = 0, where no pairing can show), so the comparison can fail.",
+ "script": {
+  "path": "relays/claims/banking/code/sm2_Q0002_pairing.py",
+  "sha256": "dfd19c552c41058f",
+  "run_as": "python3 relays/claims/banking/code/sm2_Q0002_pairing.py",
+  "control": "python3 relays/claims/banking/code/sm2_Q0002_pairing.py --wrong-pairing"
+ },
+ "decisive": {
+  "lines": 2,
+  "sha256": "a9956f0d28532eba"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first"
+ ]
+}

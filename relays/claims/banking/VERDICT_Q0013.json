@@ -1,0 +1,21 @@
+{
+ "card": "Q0013",
+ "card_commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "seat": "fam1-v1-unset-05",
+ "verdict": "ACCEPT",
+ "reason": "My own recomputation, from the card's definitions and sharing no file with the card's script or its sealed module, agrees with each of the card's statements, and the negative holds as NOT FOUND on the lines, range and ratios searched (K9), which is how the card's effect words it. E_s I computed by its Fourier (Bessel) expansion, checked against a direct lattice sum to 2.8e-6 at four points. C_111 by a direct lattice sum over boxes 24 to 96, extrapolated with the deficit a log M / M^2 + b / M^2 (which I derived from the sum's tail and checked on the box sums), agrees with E_3 + zeta(3) to 1.4e-5 at three points (the card's tolerance 2e-3). E_2^2 is outside span(1, E_2..E_5): relative rms residual 6.7e-4 on 40 points of mine (not the card's points, so not its 1.28e-4), far from its failure line 1e-8; and analytically E_2^2 has a y^1 term in its constant term that no E_s or constant has, so it is outside the span exactly. The search: with r = beta/alpha on 800 values (400 of each sign, log-spaced over [1e-4, 10], denser than the card's 60, which are not listed; K7), on Re tau = 0 and 1/2 with Im tau in [1.2, 20], and on the axis out to 3/r for r = 1e-2, 1e-3, 1e-4, I find 171 stationary points of -E_3 + r E_2^2 and none inside |V2| <= |V1|/3; the smallest |V2/V1| is 0.7500. This matches what I derived before running: at large Im tau the stationary point of -alpha a_3 y^3 + beta a_2^2 y^4 has |V2/V1| = 3/4 exactly, and for r < 0 there is none. Control (K8): with the bound widened to 1 and the axis to 300 at r = 1e-2, my code finds the point inside and fails, as the card's control does; I find it at Im tau = 102.31, which is the asymptote 3 a_3 / (4 r a_2^2) = 102.32, where the card's control text says 102.7, a small discrepancy in the control's description, not in the claim. Conditional on hypotheses I did not check: V1 proportional to -E_3 (B1686), E_2^2 as the quartic figure-eight's term, and the identity C_111 = E_3 + zeta(3) beyond its numerical check here. The search is finite: it does not exclude stationary points off the two lines, below Im tau = 1.2, or at ratios outside those tried.",
+ "script": {
+  "path": "relays/claims/banking/code/sm2_Q0013_twoloop.py",
+  "sha256": "a8b9c8d25878ae74",
+  "run_as": "python3 relays/claims/banking/code/sm2_Q0013_twoloop.py",
+  "control": "python3 relays/claims/banking/code/sm2_Q0013_twoloop.py --control"
+ },
+ "decisive": {
+  "lines": 4,
+  "sha256": "3eed901d5f53d81b"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first"
+ ]
+}

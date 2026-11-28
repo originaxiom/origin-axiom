@@ -1,0 +1,21 @@
+{
+ "card": "Q0006",
+ "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "seat": "fam1-v1-unset-05",
+ "verdict": "ACCEPT",
+ "reason": "My own recomputation, from the card's definitions, sharing no file with the card's script and using no GAP or sage (the card imports GAP's subgroup classes and coset actions; I rebuilt both, K4), agrees with the card. G_k I built as the permutation group that C and sigma generate on the orbit of (3,3,3): |G3| = 216 on 72 readings at mod 27, |G4| = 1944 on 648 at mod 81, with L, R, X and their inverses checked to be elements of it and L = C^2 sigma, R = C sigma as right actions. Every subgroup I found as a join of cyclic subgroups until closed (every subgroup is the join of its cyclic subgroups): 270 subgroups at mod 27 and 1810 at mod 81, in 45 and 100 classes under conjugation by C and sigma, the card's numbers. On the right cosets of each class representative, with W, the neutral and the charged q = 1 sectors taken as on an orbit and their characteristic polynomials exact (the charged by the CRT past 2 * 7^n), the categories are, at mod 27: (a) 4, (a') 10, (b) 2, (c) 29; at mod 81: (a) 8, (a') 28, (b) 2, (c) 62. So the halving in the whole's form holds on 4 of 45 and 8 of 100 coset spaces, and the whole's stabiliser (order 3, whose cosets are the orbit itself) is in category (a) at both levels. Control (K8): the same code with the whole's form tested without its (x^2 - 9) x factor finds 0 classes in it at both levels, so the category test can fail. Scope (K9): the effect, the halving as a property of the whole's orbit within its group and not of the group's action, rests on these two levels and on the card's categories; the 4 and 8 classes in (a) are, at both levels, one class each of orders |G|/6, /18, /24, /72 and, at mod 81, also /54, /162, /216 and /648, a pattern I report but do not claim beyond these levels. Not checked: the card's 'rho trivial on H' definition, which its title does not use. My script runs in about 9.5 minutes, inside the runner's limit, so it need not be heavy.",
+ "script": {
+  "path": "relays/claims/banking/code/sm2_Q0006_cosets.py",
+  "sha256": "a0521789745e6a17",
+  "run_as": "python3 relays/claims/banking/code/sm2_Q0006_cosets.py",
+  "control": "python3 relays/claims/banking/code/sm2_Q0006_cosets.py --control"
+ },
+ "decisive": {
+  "lines": 2,
+  "sha256": "92f9ec4fb3fd6411"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "card": "Q0014",
+ "card_commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "seat": "fam1-v1-unset-05",
+ "verdict": "ACCEPT",
+ "reason": "My own recomputation, from the card's definitions and sharing no file with the card's script or its sealed module, agrees with the card on every value of s it names. I discretised F_s by Nystrom collocation at Gauss-Legendre nodes with barycentric interpolation (not Chebyshev collocation), at N = 64, 128 and 256, checked the leading eigenvalue by power iteration, and read h_s at 2001 points. At s = 0, lambda_1 = 2 exactly and h_s is constant. At s = 0.1, ..., 0.9 and 0.95, h_s is positive and strictly decreasing on [0, 1] (every one of the 2000 steps negative; the smallest in size 9.7e-6, at s = 0.95), so it has no interior extremum and is largest at the cusp x = 0. lambda_1 falls strictly over the eleven values of s, from 2 to 1.0203 at s = 0.95 (1.0203427870; N = 128 and 256 agree to 2e-11 there and to about 1e-14 for s <= 0.9). An internal check: min h = lambda_1 - 1 at every s, as the eigen-equation at x = 0 forces (h(0) + h(1) = lambda_1 h(0)). What I derived before running agrees: F_0 1 = 2, and lambda_1 falls because the weight (1 + x)^(-2s) falls strictly in s on (0, 1]. My own word sums Z_18/Z_17 differ from my lambda_1 by 1.1e-4 at s = 0.25 and 8.6e-4 at s = 0.5, where the card's text reports 7e-5 and 6.3e-4; that is a small discrepancy in the card's description of its second computation, not in the decisive claim, and the word sums converge slowly. Control (K8): the same check on the second eigenfunction at s = 0.5 finds a sign change and fails, so the check can fail. Scope (K9): the negative is NOT FOUND on the eleven values of s tried and holds for the symmetric part F_s of B1813's operator, a reading the card names as an identification and I do not check; it does not cover other s in [0, 1) or the full operator. I did not check the next eigenvalues, which the card says it does not claim as a gap.",
+ "script": {
+  "path": "relays/claims/banking/code/sm2_Q0014_farey.py",
+  "sha256": "6694074be4e5ae15",
+  "run_as": "python3 relays/claims/banking/code/sm2_Q0014_farey.py",
+  "control": "python3 relays/claims/banking/code/sm2_Q0014_farey.py --control"
+ },
+ "decisive": {
+  "lines": 3,
+  "sha256": "5fbc49962db6384c"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first"
+ ]
+}
