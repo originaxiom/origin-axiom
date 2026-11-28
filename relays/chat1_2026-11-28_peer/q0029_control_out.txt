@@ -1,0 +1,26 @@
+  N = 3: dims [1, 2, 0], max residual 1.23e-50
+  N = 5: dims [1, 2, 2], max residual 1.74e-50
+  N = 7: dims [3, 2, 2], max residual 1.67e-50
+  N = 9: dims [3, 4, 2], max residual 3.15e-50
+  N = 11: dims [3, 4, 4], max residual 2.98e-50
+  N = 13: dims [5, 4, 4], max residual 2.51e-50
+  N = 15: dims [5, 6, 4], max residual 2.46e-50
+  N = 17: dims [5, 6, 6], max residual 1.78e-50
+  N = 19: dims [7, 6, 6], max residual 4.16e-50
+  N = 23: dims [7, 8, 8], max residual 1.34e-50
+  N = 27: dims [9, 10, 8], max residual 1.0e-50
+DECISIVE: C1 Weil relations and commutators hold for N in [3, 5, 7, 9, 11, 13, 15, 17, 19, 23, 27] with max residual <= 1e-30: True
+DECISIVE: C2 primes with paired sectors q = 1, 2: [5, 13, 17]; split: [3, 7, 11, 19, 23]; as the card says: True
+DECISIVE: C4 the 18 closed-form sector polynomials match in degree and coefficients within 1e-30: False (failing (N, q): [(7, 1)])
+DECISIVE: C5 det(t - J) is the card's cubic: True; D^-1 (J - 2) D is the three-square matrix: True (its symmetric part: True); critical value (4/27)(s^3 - 27xyz): True
+DECISIVE: C6 tree to depth 7: 65 sorted triples, all on the surface: True; degenerate: [[3, 3, 3]]; as the card says: False
+  LR geometric: V = 2.02988321281930725 (SnapPy 2.02988321281930725004), chart trace (5.0 + 1.6867516709168837159e-80j)
+  LLRR geometric: V = 3.6638623767088760602 (SnapPy 3.66386237670887606021), chart trace (18.0 + 2.3825367351700982487e-79j)
+  LLLRRR geometric: V = 4.8138191861038866925 (SnapPy 4.81381918610388669245), chart trace (54.081180892620443952 + 3.7951912595629883608e-79j)
+V(LR) and the chart trace at its geometric fixed point: 2.02988321281931, 5.0
+chart trace at LLRR's geometric fixed point: 18.0
+DECISIVE: C7 LLRR has 1 geometric shape sequence(s); it is (1+i, (1+i)/2, i, (1+i)/2) and V = 4 Catalan: True
+  LLLRRR: chart traces at the fixed points over fac_8's roots: ['(4.635973419 + 4.437142333e-70j)', '(4.635973419 - 1.850055934e-54j)', '(27.64142284 - 1.78366056j)', '(27.64142284 + 1.78366056j)', '(54.08118089 + 7.101224535e-78j)', '(54.08118089 - 7.101224535e-78j)', '(27.64142284 + 1.78366056j)', '(27.64142284 - 1.78366056j)']
+DECISIVE: C8 quartic irreducible: True; one real root in (54, 55): True; fac_8 roots reached as fixed points: 8 of 8; their traces are quartic roots: False; roots attained: 0 of 4; geometric trace is u_max: False; C8 holds: False
+u_max = 54.081152092783040235
+CONTROL: the checks caught the targets made wrong on purpose
