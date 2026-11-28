@@ -1,0 +1,17 @@
+{
+ "card": "Q0021",
+ "card_commit": "080441e86287d7edf5b961d73f9a6ce656380b3a",
+ "peer_code": "fam1-v1-unset-03",
+ "finding": "extended",
+ "script": {
+  "path": "relays/chat1_2026-11-28_peer/q0021_check.py",
+  "sha256": "084f39904300644f",
+  "run_as": "python3 relays/chat1_2026-11-28_peer/q0021_check.py",
+  "control": "python3 relays/chat1_2026-11-28_peer/q0021_check.py --control"
+ },
+ "decisive": {
+  "lines": 5,
+  "sha256": "94d74e1d377e60de"
+ },
+ "note": "Recomputed in other code, in exact arithmetic (integers; halves for the weights; standard library), on four parts the card defines, with the readings stated; all four hold. F1: G_T, closed as monomial matrices with 24th-root exponents, has order 96, its scalars are exactly mu_4, and det rho_T = chi_eta^9 at t and s. F2: of the 64 dictionaries, 16 are SU3-free; none is SU2-free (values exactly 6, 12, 18); of the 16, 4 are gravity-free and none once nu^c's term is dropped; for I-31, n_SU3 = 12 and K_W = 2 mod 4; I-31 is anomaly-free on Z = mu_4 in F_c, and 8 of the 64 are; I-31's cubic is 16, and 4 of the 64 are cubic-free. The F_c Z-phase is read as zeta_4^(3 sum w_G s_f) = 1 for SU3, SU2 and gravity together. F3: c = 0 mod 24 if and only if m = 5 - r mod 8, at every r and m mod 24, and no whole unit 24n is admissible at the six allowed twists, for every n since c mod 24 does not depend on n (the twist list taken from the card). F4: w(27) = (6, 6, 27) and w(16) = (4, 4, 16), from the weights of SO(10)'s 16 and 10 with the branching 27 = 16 + 10 + 1 assumed, not from E_8's 240 roots; over c in multiples of 3 mod 24, K2 vanishes on the 27 only at 0 and on the 16 at 0, 6, 12, 18. Not checked: the twist list and C8's 3n (computable from rho_T through the card's stated equivalence; not computed here); W134 with puncture pieces and the 17/24 datum (they need the B1641 pieces, which the card does not define); rho_H; the equivalence of rho(S), rho(T) to rho_T; the split K_W = k_u + k_d; the uniform-scalar realizations; the E_8-root route; the card's cross-check against the cards it verifies, its custody claims, controls and float count. Nothing is compared with data. The condition was committed before the one run; nothing changed after it."
+}

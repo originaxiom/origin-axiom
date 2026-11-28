@@ -1,0 +1,17 @@
+{
+ "card": "Q0023",
+ "card_commit": "080441e86287d7edf5b961d73f9a6ce656380b3a",
+ "peer_code": "fam1-v1-unset-03",
+ "finding": "extended",
+ "script": {
+  "path": "relays/chat1_2026-11-28_peer/q0023_check.py",
+  "sha256": "02275000bf5270a1",
+  "run_as": "python3 relays/chat1_2026-11-28_peer/q0023_check.py",
+  "control": "python3 relays/chat1_2026-11-28_peer/q0023_check.py --control"
+ },
+ "decisive": {
+  "lines": 6,
+  "sha256": "8a985dcedce53d3d"
+ },
+ "note": "Recomputed in other code (standard library, exact group tables) from census presentations this seat extracted itself, with the same program and version as the card (SnapPy 3.3.2; its own script, run once, output committed beside the check); all five items hold. G1: 1 199 orientable one-cusped manifolds with at most six tetrahedra, 1 041 with two generators and 158 with three. G2: 2T = SL(2, F_3), 2I = SL(2, F_5) and 2O as an order-48 subgroup of SL(2, F_7) (not quaternions) have one involution each, the binary polyhedral element orders, and |Aut| = 24, 48, 120 by brute force. G3: surjections counted with the first generator over Aut-orbit representatives and the total divided by |Aut|: 384 manifolds map onto 2T, 304 of them with exactly 2 classes; 362 onto 2O; 609 onto 2I; m004 has (2, 0, 0); every count is whole; the card's rates follow from these counts. G4, a sanity check that could not fail on deficiency-one presentations: the Z/3 count is 3^d - 1 with d >= 1 on all 1 199, and dim H_1(F_2) >= 3 on none of the 1 041 two-generator ones. G5: the kernel on the centres is cyclic of order 6 with orders [1, 2, 3, 3, 6, 6]; the traceless commutant is spanned by diag(2, 2, 2, -3, -3); Tr(T_3^2)/Tr(Q^2) = 3/8. Not checked: the card's agreement with SM-R581 (its SAME, 0 discrepancies verdict) and its blindness and sealing order; the 400 B993 controls and their per-object match (B993's results not read); the presentations as the card froze them (this seat's are its own extraction, with the same 1 041 / 158 split); the reading of the three structural grades as the 2T route; the card's planted controls and float count. The condition was committed before the one run; nothing changed after it."
+}
