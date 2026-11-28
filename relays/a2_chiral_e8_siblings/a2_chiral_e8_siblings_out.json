@@ -1,0 +1,1492 @@
+{
+  "C1_fields_and_arithmeticity": {
+    "all_10_gluing_certified": true,
+    "arithmetic_in_10_lock248_2T": [
+      "m004"
+    ],
+    "arithmetic_in_6_H1Z_2T": [
+      "m004"
+    ],
+    "per_manifold": {
+      "m003": {
+        "all_sq_traces_integral": true,
+        "disc_mod5": 2,
+        "field_degree": 2,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": true,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -1,
+          1
+        ],
+        "mod5_factor_degs": [
+          2
+        ],
+        "name": "m003",
+        "r1_real_places": 0,
+        "r2_complex_places": 1,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "sq_trace_monic": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "m004": {
+        "all_sq_traces_integral": true,
+        "disc_mod5": 2,
+        "field_degree": 2,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": true,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -1,
+          1
+        ],
+        "mod5_factor_degs": [
+          2
+        ],
+        "name": "m004",
+        "r1_real_places": 0,
+        "r2_complex_places": 1,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          2,
+          2,
+          1,
+          2
+        ],
+        "sq_trace_monic": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "m247": {
+        "all_sq_traces_integral": true,
+        "disc_mod5": 3,
+        "field_degree": 5,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -3,
+          1,
+          6,
+          -8,
+          4
+        ],
+        "mod5_factor_degs": [
+          2,
+          3
+        ],
+        "name": "m247",
+        "r1_real_places": 1,
+        "r2_complex_places": 2,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "sq_trace_monic": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "m266": {
+        "all_sq_traces_integral": false,
+        "disc_mod5": 3,
+        "field_degree": 15,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "lc_mod5": 3,
+        "minpoly_desc": [
+          3,
+          -15,
+          28,
+          -21,
+          -13,
+          54,
+          -63,
+          37,
+          -2,
+          -19,
+          17,
+          -8,
+          -2,
+          3,
+          -2,
+          -1
+        ],
+        "mod5_factor_degs": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "name": "m266",
+        "r1_real_places": 7,
+        "r2_complex_places": 4,
+        "shape_poly_monic": false,
+        "sq_trace_degs": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "sq_trace_monic": [
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "s070": {
+        "all_sq_traces_integral": false,
+        "disc_mod5": 4,
+        "field_degree": 15,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -5,
+          24,
+          -75,
+          203,
+          -441,
+          820,
+          -1284,
+          1710,
+          -1918,
+          1792,
+          -1365,
+          819,
+          -365,
+          108,
+          -16
+        ],
+        "mod5_factor_degs": [
+          2,
+          4,
+          9
+        ],
+        "name": "s070",
+        "r1_real_places": 1,
+        "r2_complex_places": 7,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "sq_trace_monic": [
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      "s099": {
+        "all_sq_traces_integral": false,
+        "disc_mod5": 0,
+        "field_degree": 14,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "lc_mod5": 4,
+        "minpoly_desc": [
+          64,
+          473,
+          728,
+          -1796,
+          -4747,
+          3891,
+          12373,
+          -14069,
+          -2003,
+          8880,
+          -6501,
+          4613,
+          -2281,
+          312,
+          64
+        ],
+        "mod5_factor_degs": [
+          1,
+          1,
+          3,
+          9
+        ],
+        "name": "s099",
+        "r1_real_places": 8,
+        "r2_complex_places": 3,
+        "shape_poly_monic": false,
+        "sq_trace_degs": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "sq_trace_monic": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "s136": {
+        "all_sq_traces_integral": true,
+        "disc_mod5": 4,
+        "field_degree": 13,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -25,
+          276,
+          -1771,
+          7313,
+          -20322,
+          38625,
+          -50115,
+          43759,
+          -25204,
+          9389,
+          -2173,
+          284,
+          -16
+        ],
+        "mod5_factor_degs": [
+          2,
+          4,
+          7
+        ],
+        "name": "s136",
+        "r1_real_places": 5,
+        "r2_complex_places": 4,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "sq_trace_monic": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "s447": {
+        "all_sq_traces_integral": false,
+        "disc_mod5": 3,
+        "field_degree": 14,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -23,
+          235,
+          -1406,
+          5449,
+          -14230,
+          25090,
+          -28741,
+          18949,
+          -4211,
+          -2133,
+          689,
+          330,
+          32,
+          1
+        ],
+        "mod5_factor_degs": [
+          2,
+          3,
+          9
+        ],
+        "name": "s447",
+        "r1_real_places": 2,
+        "r2_complex_places": 6,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "sq_trace_monic": [
+          false,
+          true,
+          false,
+          false
+        ]
+      },
+      "s560": {
+        "all_sq_traces_integral": false,
+        "disc_mod5": 0,
+        "field_degree": 14,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -23,
+          235,
+          -1433,
+          5926,
+          -17861,
+          40909,
+          -72795,
+          101440,
+          -110272,
+          92011,
+          -57004,
+          24606,
+          -6480,
+          729
+        ],
+        "mod5_factor_degs": [
+          1,
+          1,
+          12
+        ],
+        "name": "s560",
+        "r1_real_places": 6,
+        "r2_complex_places": 4,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "sq_trace_monic": [
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "s820": {
+        "all_sq_traces_integral": true,
+        "disc_mod5": 0,
+        "field_degree": 8,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          -7,
+          17,
+          -50,
+          134,
+          -192,
+          161,
+          -72,
+          16
+        ],
+        "mod5_factor_degs": [
+          1,
+          1,
+          6
+        ],
+        "name": "s820",
+        "r1_real_places": 2,
+        "r2_complex_places": 3,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "sq_trace_monic": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "s850": {
+        "all_sq_traces_integral": true,
+        "disc_mod5": 0,
+        "field_degree": 10,
+        "gluing_symbolically_certified": true,
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "lc_mod5": 1,
+        "minpoly_desc": [
+          1,
+          4,
+          -2,
+          -20,
+          4,
+          43,
+          -24,
+          -38,
+          40,
+          -17,
+          5
+        ],
+        "mod5_factor_degs": [
+          1,
+          1,
+          1,
+          7
+        ],
+        "name": "s850",
+        "r1_real_places": 2,
+        "r2_complex_places": 4,
+        "shape_poly_monic": true,
+        "sq_trace_degs": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "sq_trace_monic": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  },
+  "C2_ad2T_fox_cohomology": {
+    "parabolic_rigid_in_6_H1Z_2T": [
+      "m004",
+      "m266",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "per_manifold": {
+      "m000": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          0
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 0,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 0,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      },
+      "m003": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      },
+      "m004": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      },
+      "m247": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 6,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      },
+      "m266": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      },
+      "s070": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          }
+        ]
+      },
+      "s099": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          }
+        ]
+      },
+      "s136": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      },
+      "s447": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 3
+          }
+        ]
+      },
+      "s560": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      },
+      "s820": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 6,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 3
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 4
+          }
+        ]
+      },
+      "s850": {
+        "all_orbits_parabolic_rigid": true,
+        "h1_par_set": [
+          0
+        ],
+        "h1_set": [
+          1
+        ],
+        "num_2T_orbits": 2,
+        "per_orbit": [
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 3
+          },
+          {
+            "h0": 0,
+            "h1": 1,
+            "h1_par": 0,
+            "periph_2T_order": 6
+          }
+        ]
+      }
+    },
+    "sl3z_10_matrix_basis_scrambling_ok": true
+  },
+  "C3_chirality_and_mod5_cusp": {
+    "chiral_in_6": [
+      "m266",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "cs_breaks_mirror_in_6": [
+      "m266",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "cusp_lattice_chiral_in_6": [
+      "m266",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "per_manifold": {
+      "m004": {
+        "chern_simons_str": "8.9991289 E-17",
+        "cs_breaks_mirror": false,
+        "cusp_im_str": "3.464101615137754587",
+        "cusp_lattice_chiral": false,
+        "cusp_re_str": "4.271376030867115427",
+        "is_amphicheiral": true,
+        "mod5_frob_invariant": true,
+        "mod5_neg_invariant": true,
+        "mod5_refl_minus_frob_invariant": true,
+        "mod5_tau_set": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "name": "m004",
+        "symmetry_group": "D4"
+      },
+      "m266": {
+        "chern_simons_str": "0.18362559",
+        "cs_breaks_mirror": true,
+        "cusp_im_str": "1.241807837189837522",
+        "cusp_lattice_chiral": true,
+        "cusp_re_str": "-0.11026112873695731",
+        "is_amphicheiral": false,
+        "mod5_frob_invariant": true,
+        "mod5_neg_invariant": true,
+        "mod5_refl_minus_frob_invariant": true,
+        "mod5_tau_set": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "name": "m266",
+        "symmetry_group": "Z/2"
+      },
+      "s136": {
+        "chern_simons_str": "0.13528265",
+        "cs_breaks_mirror": true,
+        "cusp_im_str": "1.578923516561053209",
+        "cusp_lattice_chiral": true,
+        "cusp_re_str": "0.381749731268295742",
+        "is_amphicheiral": false,
+        "mod5_frob_invariant": true,
+        "mod5_neg_invariant": false,
+        "mod5_refl_minus_frob_invariant": false,
+        "mod5_tau_set": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "name": "s136",
+        "symmetry_group": "Z/2"
+      },
+      "s447": {
+        "chern_simons_str": "0.05701703",
+        "cs_breaks_mirror": true,
+        "cusp_im_str": "1.585359103713885176",
+        "cusp_lattice_chiral": true,
+        "cusp_re_str": "0.057939637446287695",
+        "is_amphicheiral": false,
+        "mod5_frob_invariant": true,
+        "mod5_neg_invariant": false,
+        "mod5_refl_minus_frob_invariant": false,
+        "mod5_tau_set": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "name": "s447",
+        "symmetry_group": "Z/2"
+      },
+      "s560": {
+        "chern_simons_str": "-0.14958882",
+        "cs_breaks_mirror": true,
+        "cusp_im_str": "1.365119153111425593",
+        "cusp_lattice_chiral": true,
+        "cusp_re_str": "0.479797183960109593",
+        "is_amphicheiral": false,
+        "mod5_frob_invariant": true,
+        "mod5_neg_invariant": false,
+        "mod5_refl_minus_frob_invariant": false,
+        "mod5_tau_set": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "name": "s560",
+        "symmetry_group": "Z/2"
+      },
+      "s850": {
+        "chern_simons_str": "-0.04815462",
+        "cs_breaks_mirror": true,
+        "cusp_im_str": "1.198533080805652650",
+        "cusp_lattice_chiral": true,
+        "cusp_re_str": "0.188324114289893731",
+        "is_amphicheiral": false,
+        "mod5_frob_invariant": true,
+        "mod5_neg_invariant": false,
+        "mod5_refl_minus_frob_invariant": false,
+        "mod5_tau_set": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "name": "s850",
+        "symmetry_group": "Z/2"
+      }
+    }
+  },
+  "C4_18_3gen_BD5_C4_closure": {
+    "geom_lock248": [
+      "s882"
+    ],
+    "geom_lock248_2T": [
+      "s882"
+    ],
+    "geom_lock248_H1Z_2T": [],
+    "per_manifold": {
+      "m201": {
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "f5_gluing_sols": 1,
+        "field_degree": 5,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": true,
+        "h1_torsion": [],
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "num_tet": 5,
+        "strict_f25_gluing_sols": 4,
+        "two_T_orbits": 0
+      },
+      "m207": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 2,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false,
+          "note": "ext_express_failed"
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          3,
+          3
+        ],
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": true,
+        "num_tet": 4,
+        "strict_f25_gluing_sols": 6,
+        "two_T_orbits": 10
+      },
+      "m235": {
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "f5_gluing_sols": 1,
+        "field_degree": 4,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          6
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 5,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 0
+      },
+      "m261": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 1,
+        "field_degree": 4,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          2
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 5,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 0
+      },
+      "s051": {
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 13,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          23
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 2
+      },
+      "s426": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 7,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          6
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 0
+      },
+      "s556": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 14,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          3
+        ],
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 2,
+        "two_T_orbits": 2
+      },
+      "s573": {
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 11,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": true,
+        "h1_torsion": [],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 2
+      },
+      "s640": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 8,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          11
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 2
+      },
+      "s733": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 8,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          7
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 0
+      },
+      "s754": {
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 27,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": true,
+        "h1_torsion": [],
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 2,
+        "two_T_orbits": 2
+      },
+      "s788": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 2,
+        "field_degree": 2,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false,
+          "note": "ext_express_failed"
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          12
+        ],
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 4,
+        "two_T_orbits": 4
+      },
+      "s837": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 8,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          3
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 8
+      },
+      "s854": {
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "f5_gluing_sols": 3,
+        "field_degree": 6,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          2
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 18,
+        "two_T_orbits": 0
+      },
+      "s882": {
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "f5_gluing_sols": 4,
+        "field_degree": 4,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 4,
+          "kills_128": true,
+          "kills_248": true
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          3
+        ],
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 16,
+        "two_T_orbits": 12
+      },
+      "s890": {
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 6,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": true,
+        "h1_torsion": [],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 2,
+        "two_T_orbits": 10
+      },
+      "s942": {
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "f5_gluing_sols": 0,
+        "field_degree": 5,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          2
+        ],
+        "has_f25_mod5_factor": false,
+        "is_arithmetic": false,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 0,
+        "two_T_orbits": 0
+      },
+      "s961": {
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "f5_gluing_sols": 3,
+        "field_degree": 2,
+        "geom_f25_reduction": {
+          "geom_f25_hits": 0,
+          "kills_128": false,
+          "kills_248": false,
+          "note": "ext_express_failed"
+        },
+        "h1_is_Z": false,
+        "h1_torsion": [
+          4,
+          4
+        ],
+        "has_f25_mod5_factor": true,
+        "is_arithmetic": true,
+        "num_tet": 6,
+        "strict_f25_gluing_sols": 28,
+        "two_T_orbits": 0
+      }
+    },
+    "total_3gen_BD5_C4": 18,
+    "with_2T": [
+      "m207",
+      "s051",
+      "s556",
+      "s573",
+      "s640",
+      "s754",
+      "s788",
+      "s837",
+      "s882",
+      "s890"
+    ],
+    "with_H1_Z": [
+      "m201",
+      "s573",
+      "s754",
+      "s890"
+    ],
+    "with_H1_Z_and_2T": [
+      "s573",
+      "s754",
+      "s890"
+    ]
+  },
+  "all_gates_passed": false,
+  "ast_floats": 0,
+  "blind": "0 of 19",
+  "card": "A2-CHIRAL-E8-SIBLINGS",
+  "json_floats": 0,
+  "pf_caught": 4,
+  "planted_fault_controls": {
+    "PF1_perturbed_minpoly_fails_gluing": true,
+    "PF2_trivial_ad_breaks_H0_zero": true,
+    "PF3_nonmonic_deg2_fails_integrality": true,
+    "PF4_m004_amphi_vs_m266_chiral": true,
+    "PF5_corrupted_relator_breaks_2T": false
+  },
+  "seat_code": "fam3-v1-high-03"
+}
