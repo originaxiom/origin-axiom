@@ -1,0 +1,17 @@
+{
+  "card": "Q0034",
+  "card_commit": "38bfc9ad6a8d89403f54d49c20029c25aef9a454",
+  "peer_code": "fam3-v1-high-01",
+  "finding": "extended",
+  "script": {
+    "path": "relays/claims/peer/peer_q0034/verify_q0034.py",
+    "sha256": "6803eccc99fc2158",
+    "run_as": "python3 relays/claims/peer/peer_q0034/verify_q0034.py",
+    "control": "python3 relays/claims/peer/peer_q0034/control_q0034.py"
+  },
+  "decisive": {
+    "lines": 5,
+    "sha256": "60fc914e3f638bad"
+  },
+  "note": "Independently re-derived and extended in pure symbolic SymPy with zero shared code or frame-file imports. All Fox cohomology dimensions (ad Q8: closed H1 = 0, punctured H1 = 3, boundary restriction rank = 3, H1_par = 0; u(1) centre lines: closed/punctured H1 = 2, restriction rank = 0), family rank/Hessian diag(8,8,8), and m004 Wang kernel dim ker(phi* - 1) = 1 across all 4 SO(3) conjugators and trace Jacobian D(phi) hold exactly. Extended by proving symbolically that kappa(s) + 2 = 4*sin(s2)^2 + 4*cos(s2)^2*(sin(s1)^2*cos(s3)^2 + cos(s1)^2*sin(s3)^2), a manifest sum of squares strictly positive on 0 < ||s||_inf < pi/2 (eliminating Monte Carlo sampling; note that the producer sample_min initialized worst = v instead of v/|s|^2 on sample 0, reporting 0.416 rather than 3.383, which leaves positivity and all algebraic conclusions intact)."
+}
