@@ -1,0 +1,449 @@
+From 5a678ba9672e446f97ea3ede28ed35b6ad9c9a37 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 17:43:49 +0000
+Subject: [PATCH 2/3] S306p a seat's listener wakes on the queue (the
+ framework's thin path; P-885; main's M86 point 2): scripts/seats/listen.py
+ --seat fetches the queue's branch too and wakes, with the card ids and what
+ is asked, when a card is offered to the seat's code, when a card it banks is
+ at banking and again when both seals are sighted, and when one of its own
+ cards moves or is returned with reasons; it remembers what it showed;
+ queue/SEAT_CODES.json gains the table seats (each page's code); tests of each
+ ask, each rule taken out failing one
+
+---
+ CHANGELOG.md                      |  16 +++
+ PROGRESS_LOG.md                   |   8 ++
+ docs/seats/README.md              |   5 +
+ docs/views/CONTEXT_RECOVERY.md    |   2 +-
+ docs/views/THE_SPINE.md           |   3 +-
+ queue/SEAT_CODES.json             |  10 ++
+ scripts/seats/listen.py           | 118 +++++++++++++++++++++-
+ tests/test_seat_listener_queue.py | 157 ++++++++++++++++++++++++++++++
+ 8 files changed, 316 insertions(+), 3 deletions(-)
+ create mode 100644 tests/test_seat_listener_queue.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 60547fa1c..868d9e7bf 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,21 @@
+ # Changelog
+ 
++## S306p A SEAT'S LISTENER WAKES ON THE QUEUE (the framework's thin path; P-885; main's M86 point 2) (2026-11-28)
++
++- **`scripts/seats/listen.py --seat <name>`** also fetches the queue's branch and wakes, printing the card ids and what
++  is asked, when, for the seat's code:
++  - a card is OFFERED to it (its last note names the code): its peer note is asked;
++  - a card reaches AT_BANKING and the seat is V1 or V2: its expectation and seal are asked; and, once the sighting log
++    holds both banking seats' seals, its verdict may now be pushed (K1);
++  - one of its own cards changes status, or is RETURNED with its reasons.
++
++  It remembers what it showed, as it does for the page. A remote with no queue's branch, or a seat the table does not
++  name, hears its page alone, as before.
++- **`queue/SEAT_CODES.json`** gains the table `seats`: each seat's code by the name of its page, as the page states it.
++- **Tests** in `tests/test_seat_listener_queue.py`: each ask once, another seat's offer not shown, a seat that banks
++  nothing not asked, the page and the queue heard together, `--peek` remembering nothing, the table matching the pages;
++  each rule, taken out, fails a test. `docs/seats/README.md`, § 4, says so.
++
+ ## S306p A PUSH TO MAIN STARTS A ROUND (the framework's thin path; P-885; main's M86 point 1) (2026-11-28)
+ 
+ - **`.github/workflows/intake.yml`:** the trigger `push: branches: [main]`, beside the hourly cron and the manual trigger.
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 201dec83b..2d0663ba3 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20894,3 +20894,11 @@
+ to its own line starts one, so the code a round runs stays main's own.
+ 
+ 0 of 19.
++
++## 2026-11-28 — Each seat hears what the queue asks of it (S306p)
++
++**What happened.** After each round of the intake, main used to write on each seat's page, by hand, which cards were
++waiting for that seat's check or its banking. Now each seat's own listener reads the queue directly and wakes the seat
++with the cards and what is asked of it, once each, so main is free for the frontier.
++
++0 of 19.
+diff --git a/docs/seats/README.md b/docs/seats/README.md
+index c4032be4e..e33c96929 100644
+--- a/docs/seats/README.md
++++ b/docs/seats/README.md
+@@ -62,6 +62,11 @@
+ - **If your session cannot keep a command running in the background,** run it with `--once` at the start of each step
+   of work and at least every ten minutes: status 0 means there is something new, 3 that there is not.
+ - **If it says it could not look,** say so in your status file. Do not treat it as nothing new.
++- **[ADDED 2026-11-28 (main's M86):** **It also wakes on the queue.** It fetches the queue's branch and wakes when, for
++  your code (`queue/SEAT_CODES.json`, table `seats`): a card is offered to you (your peer note is asked); a card you
++  bank reaches AT_BANKING (your expectation and seal are asked), and again when both banking seats' seals are sighted
++  (your verdict may now be pushed); or one of your own cards moves, or is returned with its reasons. It prints the
++  card ids and what is asked, once each. Main no longer posts these on your page.**]**
+ 
+ Start it once, when the owner asks you to fetch. After that he asks you nothing.
+ 
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index f39f308d5..d8cb96924 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p A SEAT'S LISTENER WAKES ON THE QUEUE (the framework's thin path; P-885; main's M86 point 2) (2026-11-28)”
+ - “S306p A PUSH TO MAIN STARTS A ROUND (the framework's thin path; P-885; main's M86 point 1) (2026-11-28)”
+ - “S306p THE AUTHOR'S ORDER: MAIN TO THE FRONTIER; THREE AUTOMATIONS ASKED OF THE BUILDER (P-885; M86) (2026-11-28)”
+ - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS; R82-2 V2 RETURNED; FOUR PEER NOTES AND TWO HEAVY CARDS RECEIVED (P-885; P-881; HARVEST ROWS 2086 TO 2089; M85) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p MAIN'S B2016 CARD RERUN ON THE AUTHOR'S MACHINE: REPRODUCED; BOTH BANKING SEATS' FIRST SEALS; AGY'S C72 (P-885; HARVEST ROWS 2083 TO 2085) (2026-11-28)”
+ - “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
+-- “S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 14ff785d9..0ec5d6a31 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1574 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1575 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1962,3 +1962,4 @@
+ - — `test_queue_offers_tool.py` 
+ - — `test_queue_peer_note.py` 
+ - — `test_queue_plants.py` 
++- — `test_seat_listener_queue.py` 
+diff --git a/queue/SEAT_CODES.json b/queue/SEAT_CODES.json
+index 32724ef4c..1bf6a5034 100644
+--- a/queue/SEAT_CODES.json
++++ b/queue/SEAT_CODES.json
+@@ -19,5 +19,15 @@
+     "agy-002/foundations-v2": "fam3-v1-high-03",
+     "<v>/standard-model-derivation-0qt6ao": "fam1-v1-unset-04",
+     "sm/cards": "fam1-v1-unset-04"
++  },
++  "_about_seats": "ADDED 2026-11-28 (the builder, at main's M86 point 2): each seat's code by the name of its page under docs/seats/, as the page states it, for the seat's listener (scripts/seats/listen.py), which wakes on what the queue asks of that code. Main adds a seat here with its page.",
++  "seats": {
++    "agy": "fam3-v1-high-01",
++    "agy-002": "fam3-v1-high-03",
++    "agy-exp": "fam3-v1-high-02",
++    "chat1": "fam1-v1-unset-03",
++    "physical": "fam2-v1-unset-01",
++    "sm": "fam1-v1-unset-04",
++    "sm2": "fam1-v1-unset-05"
+   }
+ }
+diff --git a/scripts/seats/listen.py b/scripts/seats/listen.py
+index 4605e11a7..e7d28073d 100644
+--- a/scripts/seats/listen.py
++++ b/scripts/seats/listen.py
+@@ -10,6 +10,16 @@
+ seat has not read, remembers that it showed them, and exits with status 0: the seat's session is woken, reads, acts, and
+ starts the listener again.
+ 
++[ADDED 2026-11-28 (main's M86 point 2, the author's order that no chore waits on main): THE QUEUE.  The seat's listener also
++fetches the queue's branch (`queue`) and wakes, printing the card ids and what is asked, when, for the seat's code (the
++table "seats" of queue/SEAT_CODES.json on main, which names each seat's code by the name of its page):
++  - a card is OFFERED to it (the card's last note names the code): its peer note is asked;
++  - a card reaches AT_BANKING and the seat is V1 or V2 in queue/BANKING_SEATS.json: its expectation and seal are asked;
++    and when the sighting log holds both banking seats' seals of the card: its verdict may now be pushed (K1);
++  - one of its own cards (its seat code the seat's) changes status, or is RETURNED with reasons.
++It remembers what it showed, as it does for the page (oa_seat_listener/<seat>.queue.json).  A clone whose remote has no
++queue's branch, or a seat that the table does not name, hears its page alone, as before.]
++
+ MAIN runs:
+ 
+     python3 scripts/seats/listen.py --main
+@@ -215,6 +225,111 @@
+     return 0, "\n".join(out), (None if peek else (lambda: state_file.write_text(remembered, encoding="utf-8")))
+ 
+ 
++QUEUE_BRANCH = "queue"
++RETURNED = ("RETURNED_AT_INTAKE", "RETURNED")
++
++
++def queue_asks(cards, log_entries, code, banking):
++    """{key: line}: what the queue asks of the seat whose code is `code` (main's M86 point 2). `cards` is {id: record} of the
++    queue's branch, `log_entries` its sighting log, `banking` queue/BANKING_SEATS.json. A key names one event, so that each
++    is shown once: an offer, a card at banking, both seals in, a status of one of the seat's own cards"""
++    asks = {}
++    roles = sorted(v for v, s in (banking or {}).items() if isinstance(s, dict) and s.get("code") == code)
++    for cid in sorted(cards):
++        rec = cards[cid]
++        hist = rec.get("history") or [{}]
++        last, status, n = hist[-1], rec.get("status"), len(hist)
++        note = str(last.get("note") or "")
++        if status == "OFFERED" and code in note:
++            asks["offered:%s:%d" % (cid, n)] = "%s OFFERED to you (%s): your peer note is asked; the card is %s on %s" % (
++                cid, note, rec.get("card_path"), rec.get("branch"))
++        if status == "AT_BANKING" and roles:
++            asks["banking:%s" % cid] = "%s AT_BANKING, you are %s: your expectation and seal are asked, before you read the card's " \
++                                       "decisive lines (K1)" % (cid, " and ".join(roles))
++            seal = "SEAL_%s.txt" % cid
++            branches = {s["branch"] for s in banking.values() if isinstance(s, dict) and s.get("branch")}
++            sealed = {e.get("branch") for e in log_entries if e.get("what") == "seal" and str(e.get("path", "")).endswith("/" + seal)}
++            if len(branches) == 2 and branches <= sealed:
++                asks["seals:%s" % cid] = "%s at banking: both banking seats' seals are sighted: your verdict may now be pushed " \
++                                         "(it is refused if it was sighted before both seals were in, K1)" % cid
++        if rec.get("seat_code") == code and n > 1:
++            word = "RETURNED, with its reasons" if status in RETURNED else "now %s" % status
++            asks["own:%s:%d" % (cid, n)] = "%s (your card %s) is %s: %s" % (cid, rec.get("card_path"), word, note)
++    return asks
++
++
++def look_queue(seat, cwd, remote, peek):
++    """(status, text, remember) for the queue's part: 0 and what is newly asked, 3 and nothing, 2 and why it could not look"""
++    rc, codes_text, _ = git("show", "%s/main:queue/SEAT_CODES.json" % remote, cwd=cwd)
++    try:
++        code = (json.loads(codes_text).get("seats") or {}).get(seat) if rc == 0 else None
++    except ValueError:
++        return 2, "main's queue/SEAT_CODES.json cannot be read", None
++    if not code:
++        return 3, "", None                              # a seat the table does not name hears its page alone
++    rc, _, err = git("fetch", "--quiet", remote, "+refs/heads/%s:refs/remotes/%s/%s" % (QUEUE_BRANCH, remote, QUEUE_BRANCH), cwd=cwd)
++    if rc != 0:
++        if "couldn't find remote ref" in err:
++            return 3, "", None                          # no queue's branch on this remote
++        return 2, "the fetch of the queue's branch failed" + (": " + err.splitlines()[-1] if err else ""), None
++    ref = "%s/%s" % (remote, QUEUE_BRANCH)
++    rc, names, err = git("ls-tree", "--name-only", "%s:queue/cards" % ref, cwd=cwd)
++    cards = {}
++    for name in (names.split() if rc == 0 else []):
++        if name.endswith(".json"):
++            rc2, text, _ = git("show", "%s:queue/cards/%s" % (ref, name), cwd=cwd)
++            try:
++                cards[name[:-5]] = json.loads(text) if rc2 == 0 else None
++            except ValueError:
++                cards[name[:-5]] = None
++            if cards[name[:-5]] is None:
++                return 2, "the queue's card %s cannot be read" % name, None
++    rc, log, _ = git("show", "%s:queue/SIGHTINGS.jsonl" % ref, cwd=cwd)
++    entries = []
++    for line in (log.splitlines() if rc == 0 else []):
++        try:
++            entries.append(json.loads(line))
++        except ValueError:
++            pass
++    rc, bk, _ = git("show", "%s/main:queue/BANKING_SEATS.json" % remote, cwd=cwd)
++    try:
++        banking = json.loads(bk) if rc == 0 else {}
++    except ValueError:
++        banking = {}
++    asks = queue_asks(cards, entries, code, banking)
++    mem = memory(cwd)
++    state_file = mem / ("%s.queue.json" % seat)
++    state, why = recall(state_file, {"shown": []})
++    if state is None:
++        return 2, why, None
++    shown = state.get("shown")
++    if not isinstance(shown, list):
++        return 2, "the listener's memory cannot be read (%s): what it holds as shown is not a list" % state_file, None
++    new = [k for k in sorted(asks) if k not in shown]
++    if not new:
++        return 3, "", None
++    rc, head, _ = git("rev-parse", "--short=9", ref, cwd=cwd)
++    text = "THE QUEUE ASKS SOMETHING OF YOU (%s, your code %s, the queue's branch at %s):\n" % (seat, code, head) + \
++        "\n".join("  " + asks[k] for k in new)
++    remembered = json.dumps({"shown": sorted(set(shown) | set(asks))})
++    return 0, text, (None if peek else (lambda: state_file.write_text(remembered, encoding="utf-8")))
++
++
++def look_seat_and_queue(seat, cwd, remote, peek):
++    """the page and the queue together: 0 when either has something new, with both texts and both memories"""
++    s1, t1, r1 = look_seat(seat, cwd, remote, peek)
++    if s1 == 2:
++        return s1, t1, r1
++    s2, t2, r2 = look_queue(seat, cwd, remote, peek)
++    if s2 == 2:
++        return s2, t2, None
++    if s1 == 3 and s2 == 3:
++        return 3, "", None
++    text = "\n\n".join(x for x in (t1 if s1 == 0 else "", t2 if s2 == 0 else "") if x)
++    both = [r for r in (r1 if s1 == 0 else None, r2 if s2 == 0 else None) if r]
++    return 0, text, ((lambda: [r() for r in both]) if both else None)
++
++
+ def look_main(cwd, remote, peek):
+     mem = memory(cwd)
+     if mem is None:
+@@ -268,7 +383,8 @@
+         return 2
+     failures = 0
+     while True:
+-        status, text, remember = look_main(a.repo, a.remote, a.peek) if a.main else look_seat(a.seat, a.repo, a.remote, a.peek)
++        # CHANGED 2026-11-28 (main's M86 point 2): a seat hears the queue too. The call as it stood: look_seat(a.seat, ...)
++        status, text, remember = look_main(a.repo, a.remote, a.peek) if a.main else look_seat_and_queue(a.seat, a.repo, a.remote, a.peek)
+         if status == 0:
+             print(text, flush=True)
+             if remember:
+diff --git a/tests/test_seat_listener_queue.py b/tests/test_seat_listener_queue.py
+new file mode 100644
+index 000000000..435105500
+--- /dev/null
++++ b/tests/test_seat_listener_queue.py
+@@ -0,0 +1,157 @@
++"""2026-11-28 (main's M86 point 2, the author's order that no chore waits on main): a seat's listener wakes on the queue.
++
++What could fail: a seat not told that a card is offered to it, that a card it banks is at banking, that both seals are in
++(its verdict may be pushed), or that one of its own cards moved or was returned; a seat told twice of the same thing, or
++of another seat's offer; a listener that forgets the page while it reads the queue; a --peek that remembers."""
++import importlib.util
++import json
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++LISTEN = ROOT / "scripts" / "seats" / "listen.py"
++spec = importlib.util.spec_from_file_location("listen_for_the_queue_tests", LISTEN)
++L = importlib.util.module_from_spec(spec)
++sys.dont_write_bytecode = True
++spec.loader.exec_module(L)
++
++ME, OTHER, V2 = "fam2-v1-unset-01", "fam3-v1-high-03", "fam1-v1-unset-05"
++BANKING = {"note": "", "V1": {"code": ME, "branch": "x/banking"}, "V2": {"code": V2, "branch": "y/banking"}}
++
++
++def _git(repo, *a):
++    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a],
++                       capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr
++    return r.stdout.strip()
++
++
++def _card(cid, status, code, notes):
++    hist = [{"at": "2026-11-28T12:00:00Z", "status": s, "by": "runner", "note": n} for s, n in notes]
++    return {"id": cid, "status": status, "seat_code": code, "branch": "s/a", "card_path": "relays/claims/CLAIM_%s.md" % cid,
++            "history": hist}
++
++
++def _write_queue(origin, cards, log=()):
++    _git(origin, "checkout", "-q", "queue")
++    (origin / "queue" / "cards").mkdir(parents=True, exist_ok=True)
++    for f in (origin / "queue" / "cards").glob("*.json"):
++        f.unlink()
++    for cid, rec in cards.items():
++        (origin / "queue" / "cards" / ("%s.json" % cid)).write_text(json.dumps(rec), encoding="utf-8")
++    (origin / "queue" / "SIGHTINGS.jsonl").write_text("".join(json.dumps(e) + "\n" for e in log), encoding="utf-8")
++    _git(origin, "add", "-A")
++    _git(origin, "commit", "-q", "--allow-empty", "-m", "a round")
++    _git(origin, "checkout", "-q", "main")
++
++
++def _setup(tmp_path, seats=None):
++    origin = tmp_path / "origin"
++    (origin / "docs" / "seats").mkdir(parents=True)
++    (origin / "queue").mkdir()
++    (origin / "docs" / "seats" / "x.md").write_text("# x\n\n## Messages from main\n\n### M1 — a day — hello\n\nthe text\n",
++                                                   encoding="utf-8")
++    (origin / "queue" / "SEAT_CODES.json").write_text(json.dumps(
++        {"_about": "", "codes": {"s/a": ME}, "seats": {"x": ME} if seats is None else seats}), encoding="utf-8")
++    (origin / "queue" / "BANKING_SEATS.json").write_text(json.dumps(BANKING), encoding="utf-8")
++    _git(origin, "init", "-q", "-b", "main")
++    _git(origin, "add", "-A")
++    _git(origin, "commit", "-q", "-m", "main")
++    _git(origin, "checkout", "-q", "--orphan", "queue")
++    _git(origin, "rm", "-q", "-r", "--cached", ".")
++    for p in ("docs", "queue"):
++        subprocess.run(["rm", "-r", str(origin / p)], check=True)
++    _git(origin, "commit", "-q", "--allow-empty", "-m", "the queue's branch")
++    _git(origin, "checkout", "-q", "-f", "main")
++    clone = tmp_path / "clone"
++    subprocess.run(["git", "clone", "-q", "file://" + str(origin), str(clone)], check=True, capture_output=True)
++    return origin, clone
++
++
++def _listen(clone, *args):
++    return subprocess.run([sys.executable, str(LISTEN), "--once", "--repo", str(clone), "--seat", "x", *args],
++                          capture_output=True, text=True, timeout=120)
++
++
++def test_an_offer_wakes_the_seat_once_and_another_seats_offer_does_not(tmp_path):
++    origin, clone = _setup(tmp_path)
++    assert _listen(clone).returncode == 0 and _listen(clone).returncode == 3          # the page, read once
++    _write_queue(origin, {"Q0001": _card("Q0001", "OFFERED", OTHER, [("FILED", ""), ("REPRODUCED", ""),
++                                         ("OFFERED", "offered to `%s` on audit/x (queue/OFFERS.json)" % ME)]),
++                          "Q0002": _card("Q0002", "OFFERED", OTHER, [("FILED", ""), ("REPRODUCED", ""),
++                                         ("OFFERED", "offered to `%s` on agy/x (queue/OFFERS.json)" % V2)])})
++    r = _listen(clone, "--peek")
++    assert r.returncode == 0 and "Q0001 OFFERED to you" in r.stdout and "your peer note is asked" in r.stdout
++    assert "Q0002" not in r.stdout and "YOUR PAGE" not in r.stdout                    # the page has not changed
++    assert _listen(clone).returncode == 0                                              # --peek remembered nothing
++    assert _listen(clone).returncode == 3 and _listen(clone).stdout == ""             # shown once
++
++
++def test_banking_asks_the_seal_then_the_verdict_once_both_seals_are_in(tmp_path):
++    origin, clone = _setup(tmp_path)
++    _listen(clone)
++    card = _card("Q0003", "AT_BANKING", OTHER, [("FILED", ""), ("PEERED", ""), ("AT_BANKING", "to banking after the peer's note")])
++    _write_queue(origin, {"Q0003": card})
++    r = _listen(clone)
++    assert r.returncode == 0 and "Q0003 AT_BANKING, you are V1: your expectation and seal are asked" in r.stdout
++    assert "verdict may now be pushed" not in r.stdout
++    seal = lambda b: {"at": "2026-11-28T13:00:00Z", "branch": b, "path": "relays/claims/banking/SEAL_Q0003.txt", "what": "seal"}
++    _write_queue(origin, {"Q0003": card}, [seal("x/banking")])                        # one seal: nothing new
++    assert _listen(clone).returncode == 3
++    _write_queue(origin, {"Q0003": card}, [seal("x/banking"), seal("y/banking")])
++    r = _listen(clone)
++    assert r.returncode == 0 and "Q0003 at banking: both banking seats' seals are sighted: your verdict may now be pushed" in r.stdout
++    assert "your expectation and seal are asked" not in r.stdout                       # not said twice
++    assert _listen(clone).returncode == 3
++
++
++def test_the_seats_own_card_moving_or_returned_wakes_it_with_the_reasons(tmp_path):
++    origin, clone = _setup(tmp_path)
++    _listen(clone)
++    _write_queue(origin, {"Q0004": _card("Q0004", "FILED", ME, [("FILED", "found on its branch")])})
++    assert _listen(clone).returncode == 3                                              # filed is no move
++    _write_queue(origin, {"Q0004": _card("Q0004", "REPRODUCED", ME, [("FILED", ""), ("REPRODUCED", "the rerun: 8 lines")])})
++    r = _listen(clone)
++    assert r.returncode == 0 and "Q0004 (your card relays/claims/CLAIM_Q0004.md) is now REPRODUCED: the rerun: 8 lines" in r.stdout
++    _write_queue(origin, {"Q0004": _card("Q0004", "RETURNED_AT_INTAKE", ME, [("FILED", ""), ("REPRODUCED", ""),
++                                         ("RETURNED_AT_INTAKE", "the decisive lines differ")])})
++    r = _listen(clone)
++    assert r.returncode == 0 and "is RETURNED, with its reasons: the decisive lines differ" in r.stdout
++    assert _listen(clone).returncode == 3
++
++
++def test_the_page_and_the_queue_are_heard_together_and_a_seat_not_in_the_table_hears_its_page_alone(tmp_path):
++    origin, clone = _setup(tmp_path)
++    _listen(clone)
++    _write_queue(origin, {"Q0001": _card("Q0001", "OFFERED", OTHER, [("FILED", ""), ("OFFERED", "offered to `%s`" % ME)])})
++    page = origin / "docs" / "seats" / "x.md"
++    page.write_text(page.read_text(encoding="utf-8").replace("## Messages from main\n\n",
++                                                             "## Messages from main\n\n### M2 — a day — again\n\nmore\n\n"))
++    _git(origin, "commit", "-q", "-a", "-m", "M2")
++    r = _listen(clone)
++    assert r.returncode == 0 and "M2" in r.stdout and "Q0001 OFFERED to you" in r.stdout
++    assert _listen(clone).returncode == 3
++    origin2, clone2 = _setup(tmp_path / "b", seats={})
++    _write_queue(origin2, {"Q0001": _card("Q0001", "OFFERED", OTHER, [("FILED", ""), ("OFFERED", "offered to `%s`" % ME)])})
++    r = _listen(clone2)
++    assert r.returncode == 0 and "M1" in r.stdout and "QUEUE" not in r.stdout
++
++
++def test_main_s_table_names_each_seat_s_code_as_its_page_says():
++    """the table "seats" of queue/SEAT_CODES.json: each code is one discovery knows, and each seat's page names it"""
++    d = json.loads((ROOT / "queue" / "SEAT_CODES.json").read_text(encoding="utf-8"))
++    seats, codes = d["seats"], set(d["codes"].values())
++    assert seats and set(seats.values()) <= codes
++    for name, code in seats.items():
++        assert code in (ROOT / "docs" / "seats" / ("%s.md" % name)).read_text(encoding="utf-8"), name
++    banking = json.loads((ROOT / "queue" / "BANKING_SEATS.json").read_text(encoding="utf-8"))
++    assert {banking["V1"]["code"], banking["V2"]["code"]} <= set(seats.values())
++
++
++def test_a_seat_that_banks_nothing_is_not_asked_for_a_seal():
++    card = _card("Q0005", "AT_BANKING", OTHER, [("FILED", ""), ("AT_BANKING", "to banking")])
++    seals = [{"branch": b, "path": "relays/claims/banking/SEAL_Q0005.txt", "what": "seal"} for b in ("x/banking", "y/banking")]
++    assert set(L.queue_asks({"Q0005": card}, seals, ME, BANKING)) == {"banking:Q0005", "seals:Q0005"}
++    assert L.queue_asks({"Q0005": card}, seals, "fam3-v1-high-01", BANKING) == {}
++    assert set(L.queue_asks({"Q0005": card}, seals, V2, BANKING)) == {"banking:Q0005", "seals:Q0005"}
+-- 
+2.43.0
+

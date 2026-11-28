@@ -1,0 +1,124 @@
+From 349408b559784e5e72725376e52f52c6cd7dae7f Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 17:33:33 +0000
+Subject: [PATCH 1/3] S306p a push to main starts a round (the framework's thin
+ path; P-885; main's M86 point 1): the workflow's trigger push limited to
+ main, beside the hourly cron and the manual trigger; only main pushes there,
+ so a push runs main's own code; no pull-request trigger; the test of the
+ triggers holds push to main alone and refuses pull_request and
+ pull_request_target; the queue's README, setting 5
+
+---
+ .github/workflows/intake.yml   | 6 ++++++
+ CHANGELOG.md                   | 8 ++++++++
+ PROGRESS_LOG.md                | 8 ++++++++
+ docs/views/CONTEXT_RECOVERY.md | 2 +-
+ queue/README.md                | 2 ++
+ tests/test_queue_intake.py     | 7 ++++++-
+ 6 files changed, 31 insertions(+), 2 deletions(-)
+
+diff --git a/.github/workflows/intake.yml b/.github/workflows/intake.yml
+index 4b8cade0b..aa02b290b 100644
+--- a/.github/workflows/intake.yml
++++ b/.github/workflows/intake.yml
+@@ -17,6 +17,12 @@
+     # CHANGED 2026-11-28 (main, after round 1 ran in the sandbox: three cards a round, 43 cards waiting): every hour,
+     # not every three; the concurrency group below keeps one round at a time. The line as it stood: "17 */3 * * *"
+     - cron: "17 * * * *"            # every hour, at minute 17
++  push:
++    # ADDED 2026-11-28 (main's M86 point 1, the author's order that no chore waits on main): a push to main starts a
++    # round, so what main lands (an offer, a heavy result, a card's code) is read at once. Only main pushes to main
++    # (setting 3), so the code a push runs is main's own; a seat's push to its own branch starts nothing. No pull-request
++    # trigger (setting 5). The concurrency group below keeps one round at a time.
++    branches: [main]
+   workflow_dispatch: {}              # the manual trigger beside the schedule
+ 
+ permissions:
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 801138f99..60547fa1c 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,13 @@
+ # Changelog
+ 
++## S306p A PUSH TO MAIN STARTS A ROUND (the framework's thin path; P-885; main's M86 point 1) (2026-11-28)
++
++- **`.github/workflows/intake.yml`:** the trigger `push: branches: [main]`, beside the hourly cron and the manual trigger.
++  Only main pushes to main (setting 3), so the code a push runs is main's own; a seat's push to its own branch starts
++  nothing. No pull-request trigger. The concurrency group keeps one round at a time.
++- **The test of the triggers** (`tests/test_queue_intake.py`) holds `push` limited to `main` and refuses `pull_request`
++  and `pull_request_target`; the queue's README, setting 5, says so.
++
+ ## S306p THE AUTHOR'S ORDER: MAIN TO THE FRONTIER; THREE AUTOMATIONS ASKED OF THE BUILDER (P-885; M86) (2026-11-28)
+ 
+ - **The author's order (2026-11-28):** main returns to frontier work, the listening line, while supervising every seat; the
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 9d4989577..201dec83b 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20886,3 +20886,11 @@
+ automations that take the remaining clerical work off main.
+ 
+ 0 of 19.
++
++## 2026-11-28 — What main lands is read at once (S306p)
++
++**What happened.** Until now a new card, offer or result that main put on the main line waited for the hourly timer, or
++for someone to start the intake by hand. Now every push to the main line starts a round. Nothing another seat pushes
++to its own line starts one, so the code a round runs stays main's own.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index b20b2f408..f39f308d5 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p A PUSH TO MAIN STARTS A ROUND (the framework's thin path; P-885; main's M86 point 1) (2026-11-28)”
+ - “S306p THE AUTHOR'S ORDER: MAIN TO THE FRONTIER; THREE AUTOMATIONS ASKED OF THE BUILDER (P-885; M86) (2026-11-28)”
+ - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS; R82-2 V2 RETURNED; FOUR PEER NOTES AND TWO HEAVY CARDS RECEIVED (P-885; P-881; HARVEST ROWS 2086 TO 2089; M85) (2026-11-28)”
+ - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)”
+-- “S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/queue/README.md b/queue/README.md
+index d52e08185..9ebf04cab 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -85,6 +85,8 @@
+      role is not seen: check the list by hand once. A dry `git push` cannot test the rule: a dry run never reaches the
+      server's rules.
+ 5. **Fork pull requests:** the workflow has no pull-request trigger, so no fork's code runs in it. Keep it that way.
++   **[ADDED 2026-11-28 (main's M86):** a push to `main` starts a round (`push: branches: [main]`). Only main pushes to
++   `main` (setting 3), so the code a push runs is main's own; a push to any other branch starts nothing.**]**
+ 6. **After the first round,** check that the run's log reads "the network guard: sudo unshare -n -m -i -p, as nobody". A round
+    that cannot make that sandbox runs no seat code (every rerun is HEAVY); it is never to be given `--allow-static-guard`
+    on the workflow.
+diff --git a/tests/test_queue_intake.py b/tests/test_queue_intake.py
+index 80926c21b..ff095b1fd 100644
+--- a/tests/test_queue_intake.py
++++ b/tests/test_queue_intake.py
+@@ -209,7 +209,12 @@
+     record = record.split("\n  next:\n", 1)[0]          # main's M83: the third job is read on its own
+     on = head.split("\non:\n", 1)[1].split("\n\n", 1)[0]
+     triggers = [l.strip().split(":")[0] for l in on.splitlines() if l.startswith("  ") and not l.startswith("    ")]
+-    assert triggers == ["schedule", "workflow_dispatch"]                 # no pull-request trigger: no fork's code runs
++    # CHANGED 2026-11-28 (main's M86 point 1): a push to main starts a round. The line as it stood:
++    # assert triggers == ["schedule", "workflow_dispatch"]
++    assert triggers == ["schedule", "push", "workflow_dispatch"]         # no pull-request trigger: no fork's code runs
++    assert "pull_request" not in on                                      # neither pull_request nor pull_request_target
++    push = on.split("\n  push:\n", 1)[1].split("\n  workflow_dispatch:", 1)[0]
++    assert [l.strip() for l in push.splitlines() if l.strip() and not l.strip().startswith("#")] == ["branches: [main]"]
+     assert "\npermissions:\n  contents: read" in head
+     assert "permissions:" not in round_job and "permissions:" not in record                # read, as the top says
+     assert "secrets." not in round_job and record.count("secrets.") == 1               # M73: the record job alone
+-- 
+2.43.0
+

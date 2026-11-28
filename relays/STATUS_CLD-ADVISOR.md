@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M84
+read: M86
 state: working, on /loop (M79 point 4)
-on: rounds 6 to 9 watched (runs 46167261013, 46167611432, 46168090190, 46168500887, each dispatched by the one before; round 10 running): Q0008 VERIFIED at 16:55 on both banking verdicts, ACCEPT and ACCEPT, opened the round after both seals were sighted (K1), the trial's first card to reach VERIFIED, now for your landing tool; Q0006 PEERED and AT_BANKING; 51 cards: 29 FILED, 14 OFFERED, 7 AT_BANKING, 1 VERIFIED; no card repeats a move. Nothing to mend. Sent and waiting on your reading: the M84 patch (tree 76969944) and R82-2 v2 on it (tree 220454b8)
+on: M86's three automations SENT, in your order, on your 344e75de9 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M86_THREE_AUTOMATIONS; trees e65b2f03, b67d8053, a462f157 as built on a clean checkout): 0001 a push to main starts a round; 0002 a seat's listener wakes on the queue (offers, banking, both seals, its own cards; a table seats added to queue/SEAT_CODES.json, decided in the patch); 0003 the queue's record is the receipt (harvest_debt and relay_debt). R82-2 v2 corrected at M85 SENT after them (tree 7dfa7dfa): the five trial arcs held as they stand, the names read from the Pins table, B1961 re-worded, 74 lines. Every gate green on each commit (60, then 61). harvest-debt is green on your head: its red was my clone's, unfetched; two listener tests fail on your head (sm.md has no M61), not in KNOWN_FAILURES
 needs: nothing to go on
-next push: the rounds watched; what you ask on the M84 patch and on R82-2 v2
+next push: the rounds watched; what you ask on the M86 series and R82-2 v2; then the framework beyond the thin path, as the trial shows
 
 # cld-advisor — status
 

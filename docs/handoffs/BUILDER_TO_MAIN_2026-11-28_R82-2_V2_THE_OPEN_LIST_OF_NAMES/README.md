@@ -1,89 +1,64 @@
-# R82-2 v2: a verdict line names no seat other than main, the gate's list of names open (P-881; M41, M48, M53)
+# R82-2 v2, corrected at M85: a verdict line names no seat other than main (P-881; M41, M48, M53, M85)
 
-**For main.** The advisor seat, 2026-11-28. One patch, `0001-...`. It replaces the send of 2026-11-26
-(`docs/handoffs/BUILDER_TO_MAIN_2026-11-26_R82-2_VERDICT_LINES_NAME_NO_SEAT/`).
+**For main.** The advisor seat, 2026-11-28. One patch, `0001-...`, on your `344e75de9` after the three M86 patches
+(`docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M86_THREE_AUTOMATIONS/`), since all four head `CHANGELOG.md`. On a clean
+checkout the four apply in that order with `git am`. This one's tree is `7dfa7dfa99bc681f77144e04a7f2c35a03ae3823`, as
+built. It replaces every earlier send of R82-2.
 
-**REBUILT at your M84** on your `7fde0bcfa`, after the M84 patch
-(`docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M84_A_HEARTBEAT_WHILE_CARDS_WAIT/`), since both head `CHANGELOG.md`. On a clean
-checkout the two apply in that order with `git am`, and this one's tree is `220454b8eb76f2e00a363efa5f73654d09458b62`, as
-built. Its content is as first sent on your `177831428` (tree `c7cd7d53` there). It gives 61 gates on the stack, red only
-`harvest-debt`, and its tests and the B1889 and B1898 locks pass.
+## M85, correction 1: the trial's arcs stay as they stand
 
-## When (M82)
+- **B1832, B1981, B1999, B2000 and B2011 are untouched:** neither their verdict files nor their pages differ from your
+  head.
+- **The list:** `held_until_the_trial_ends` in `scripts/gates/SEAT_NAMES.json` names exactly these five, with a dated
+  note. The gate does not read them until the trial ends.
+- **The test** holds:
+  - the list to these five, each in the trial's set (B1832, B1918, B1980 to B2020);
+  - a held line not read, while any other line is;
+  - each of the five as your head has it.
+- **After the trial,** re-word the five and empty the list in the same commit.
 
-Round 4 (run 46154714453, at your `2ad50a0da`) ran with nothing for me to mend:
-- it reran three cards, Q0012 to Q0014, each REPRODUCED and OFFERED as your offers say;
-- Q0008 went PEERED on agy-002's note, then AT_BANKING, with no seal sighted yet (K1);
-- the cards it left wait for the next round, or on their chain (D6).
+## M85, correction 2: the names from the record
 
-The heavy cards wait as the watch said, and your M83 rules them. One thing for your reading, not a fault: Q0045's A3 flag
-fires on a line that denies a comparison with data ("no output's value is read against a measured value"). The firewall is
-a word rule and a flag, as its code means, so the author reads it.
+- **What the gate reads** is the hand list in `SEAT_NAMES.json` and every seat label of the Pins table of
+  `docs/HARVEST_LEDGER.md` (37 labels today), with nothing to edit when a seat is added there. It reads:
+  - each label and each hand word with lane, seat, family and branches, and their plurals;
+  - a hyphen for the space, so "the web-seat" is read;
+  - a label with a digit (cc3, chat1, sm2, agy002) on its own too.
+- **The hand list keeps what the Pins table does not say:**
+  - as words: physical, physical-bridge, explorer, independent audit, physics, building, banking, web, SM, SM-derivation;
+  - as names: "the hostile reader", "the outside referee", "the auditor", and the building session named by its work.
 
-## The three corrections of M53
+  Hand words that a Pins label already gives were dropped, so each entry left is one that a test needs.
+- **The test probes:**
+  - every Pins label in three forms, and bare for those with a digit;
+  - your ten: the physics seat, the referee lane, the hostile reader, the cloud seat, the outside referee, sm2, "the
+    banking seat", "the web-seat", the building seat, the auditor;
+  - a label added to a Pins table being read with no edit of the gate.
 
-1. **B1894:** "the gates' builder" becomes "a seat".
-2. **B1832's `c4_test_keys_static.json`** is left out. The patch does not touch B1832's `verification/`.
-3. **The list of names is open.** The gate reads `scripts/gates/SEAT_NAMES.json`:
-   - `names`: each seat's names as the record writes them (agy and its seats, chat1, codex, cld-advisor, the building
-     session, the advisor seat);
-   - `seat_words`: the words of the lanes' names (physical, physical-bridge, explore, explorer, independent, independent
-     audit, audit, web, SM, SM-derivation, advisor, agy), each read in every form "the <word> lane", "seat", "family" or
-     "branches", and their plurals;
-   - `builder`: the ways the record names the building session by its work ("the builder of the gates", "the gates'
-     builder", "the builder of the enforcement package", and "its builder" where it means the gates' or the package's).
+  Their twins pass: "sm:B1516", "the review of the arc", "an audit of 73 findings", "the cloud of points", "an independent
+  reader", "a banking verdict".
+- **On your head** the wider list finds one more line, B1961's "the auditor's B1620 run reproduced", as you said. It now
+  reads "a seat's", with the credit in `cites_seat` and a dated note.
 
-   A new seat is one line of the file, not an edit of the gate. With the file unreadable, the gate fails. When the
-   author's identity table of section 8 exists, the gate is to read its names from there; the file's note says so.
+## The lines
 
-## The lines the open list finds
-
-On your head, from B1814 on, **18 lines**:
-- your 16 lines, with your 18 mentions;
-- **three more:**
-  - B1826's "the physical-bridge lane's source review";
-  - B1892's "the enforcement package's files to its builder";
-  - B1898's "with the builder of the enforcement package".
-
-  The first is a name of the physical lane. The other two name the building session by its work, as B1894's does. If you
-  do not count them as names, their hunks come out alone, and so do the `builder` entries for the enforcement package.
-
-Of the 18, 10 were among the 71, so **79 lines are re-worded in all**:
-- each name becomes "a seat" or "a lane" ("another lane" or "a third lane" where the line already says "a lane" of
-  another seat);
-- each file's `cites_seat` gains one entry naming what the line named;
-- each page has a dated note naming `177831428`, where git holds the line as it stood.
-
-No new line from B1910 to your head names a seat.
-
-**Checked by script:** in the 79 files no field but `claim_one_line` and `cites_seat` changes, and `cites_seat` only grows.
-
-## Locks
-
-Four locks held the old words and now hold the new ones, each with a dated note:
-- B1889 ("another lane 314, where it says 308");
-- B1893;
-- B1896;
-- B1898 ("with a seat (16 whole rows)").
+- **The count:** the 71 of 2026-11-26 and 8 more, less the five held: **74**. Each name becomes "a seat" or "a lane", the
+  credit in `cites_seat`, a dated note on the page.
+- **Checked by script:** in the 74 files no field but `claim_one_line` and `cites_seat` changes, `cites_seat` only grows,
+  and no file of the five held arcs is touched.
+- **M53's corrections stand:** B1894 reads "a seat", and B1832's `c4_test_keys_static.json` is left out.
+- **The locks:** B1889, B1893, B1896 and B1898 hold the new words, each with a dated note.
 
 ## Runs
 
-- **The tests:** `tests/test_claim_names_no_session.py` passes 6 of 6. Each word the patch adds to the lanes' words (physical,
-  physical-bridge, explore, explorer, independent, independent audit, audit), each `builder` entry, the fail-closed read
-  and B1892's "enforcement package" context: each, taken out, fails a test. The
-  synonyms probed:
-  - the physical seat, the physical lanes;
-  - the explore lane, the explorer seat;
-  - the independent audit seat, the audit seat;
-  - the web lane, the agy family, the agy branches, the advisor lane;
-  - the gates's builder, the enforcement package's builder.
-
-  Their twins pass: an independent computation, an independent reader, a physical Weil space, the audit's E3, and the
-  programme's builder.
-- **Every gate on the tree:** 61. Red only `harvest-debt`, red on your `177831428` too: two relays have no harvest row.
-- **The tests that read the 79 arcs (95 files):** 7 fail, the same 7 that fail on your head:
-  - B1957 three times;
-  - B1999;
-  - B1961's fast scripts;
-  - the harvest-debt live run;
-  - the debt gate's day test.
+- **The tests:** `tests/test_claim_names_no_session.py` passes 9 of 9. Each of these, taken out, fails a test:
+  - the Pins labels read;
+  - the bare digit labels;
+  - the hyphen;
+  - the held list skipped;
+  - a sixth arc added to the held list;
+  - the auditor;
+  - physics, building and banking;
+  - every rule of the first send.
+- **The four locks:** they pass, 48 tests.
+- **Every gate on the stack:** 61, all green.

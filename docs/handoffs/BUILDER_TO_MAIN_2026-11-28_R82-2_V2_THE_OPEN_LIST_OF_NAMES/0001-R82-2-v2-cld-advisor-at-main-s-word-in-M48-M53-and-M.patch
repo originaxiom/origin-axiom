@@ -1,34 +1,33 @@
-From f436d10478f0dbbcc461580ae0ce9bd86b36c137 Mon Sep 17 00:00:00 2001
+From 517703388590a5f9625318010e1d4ccce01e5a41 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
 Date: Sat, 28 Nov 2026 15:14:35 +0000
-Subject: [PATCH] R82-2 v2 (cld-advisor, at main's word in M48 and M53, under
- main's rule of M41; register row P-881): A VERDICT LINE NAMES NO SEAT OTHER
- THAN MAIN: 79 LINES RE-WORDED, THE CREDIT IN cites_seat, AND A GATE WITH AN
- OPEN LIST OF NAMES
+Subject: [PATCH] R82-2 v2 (cld-advisor, at main's word in M48, M53 and M85,
+ under main's rule of M41; register row P-881): A VERDICT LINE NAMES NO SEAT
+ OTHER THAN MAIN: 74 LINES RE-WORDED, THE CREDIT IN cites_seat, AND A GATE
+ WITH AN OPEN LIST OF NAMES READ FROM THE RECORD
 
-The 71 lines of 2026-11-26, with M53's corrections 1 and 2 (B1894's synonym now "a seat";
-B1832's c4_test_keys_static.json left out). Correction 3: the gate reads its names from
-scripts/gates/SEAT_NAMES.json, an open list; each word of a lane's name is read with lane, seat,
-family and branches, so synonyms are read. The 18 lines that name a seat the closed list missed
-(the physical lane, the explore seat, the independent audit lane, B1826's physical-bridge lane,
-the building session named by its work), 8 of them not among the 71, re-worded the same way: 79
-lines in all, each with a dated note and its credit in cites_seat. Four locks (B1889, B1893,
-B1896, B1898) hold the new words. Tests probe synonyms, a name added to the list alone, and the
-list gone (fail-closed).
+The 71 lines of 2026-11-26 and 8 more, with M53's corrections (B1894's synonym now "a seat";
+B1832's c4_test_keys_static.json left out), less the five arcs the trial holds (M85, correction
+1: B1832, B1981, B1999, B2000, B2011 untouched, named in held_until_the_trial_ends, which the gate
+does not read until the trial ends): 74 lines, each with a dated note and its credit in
+cites_seat; B1961's "the auditor's" among them. The gate reads its names from
+scripts/gates/SEAT_NAMES.json and from every seat label of the Pins table of
+docs/HARVEST_LEDGER.md (M85, correction 2); each word is read with lane, seat, family and
+branches, a hyphen for the space, a label with a digit on its own too. Tests probe every Pins
+label and M85's ten names, the held list, and the list gone (fail-closed). Four locks (B1889,
+B1893, B1896, B1898) hold the new words.
 ---
  CHANGELOG.md                                  |   7 +
- PROGRESS_LOG.md                               |  10 ++
- docs/PRACTICES.md                             |  21 +++
- docs/views/CONTEXT_RECOVERY.md                |   4 +-
- docs/views/REVIEWER.md                        |   6 +-
+ PROGRESS_LOG.md                               |  11 ++
+ docs/PRACTICES.md                             |  26 +++
+ docs/views/CONTEXT_RECOVERY.md                |   2 +-
+ docs/views/REVIEWER.md                        |   2 +-
  docs/views/THE_SPINE.md                       |   5 +-
- docs/views/VERDICT_LEDGER.md                  | 158 +++++++++---------
+ docs/views/VERDICT_LEDGER.md                  | 148 +++++++++---------
  .../FINDINGS.md                               |   2 +
  .../arc_verdict.json                          |   5 +-
  .../FINDINGS.md                               |   4 +
  .../arc_verdict.json                          |   6 +-
- .../B1832_the_agy_lanes_digested/FINDINGS.md  |   4 +
- .../arc_verdict.json                          |   7 +-
  .../FINDINGS.md                               |   2 +
  .../arc_verdict.json                          |   6 +-
  .../FINDINGS.md                               |   4 +
@@ -161,8 +160,8 @@ list gone (fail-closed).
  .../arc_verdict.json                          |   6 +-
  .../FINDINGS.md                               |   2 +
  .../arc_verdict.json                          |   5 +-
- .../FINDINGS.md                               |   2 +
- .../arc_verdict.json                          |   5 +-
+ .../FINDINGS.md                               |   4 +
+ .../arc_verdict.json                          |   6 +-
  .../B1962_frame_d1s_cusp_mixing/FINDINGS.md   |   2 +
  .../arc_verdict.json                          |   5 +-
  .../FINDINGS.md                               |   2 +
@@ -176,63 +175,56 @@ list gone (fail-closed).
  .../FINDINGS.md                               |   2 +
  .../arc_verdict.json                          |   5 +-
  .../FINDINGS.md                               |   2 +
- .../arc_verdict.json                          |  18 +-
- .../FINDINGS.md                               |   2 +
- .../arc_verdict.json                          |   5 +-
- .../FINDINGS.md                               |   2 +
- .../arc_verdict.json                          |   5 +-
- .../FINDINGS.md                               |   2 +
- .../arc_verdict.json                          |  14 +-
- .../FINDINGS.md                               |   2 +
- .../arc_verdict.json                          |   5 +-
- scripts/gates/SEAT_NAMES.json                 |  31 ++++
- scripts/gates/gates.py                        |  65 +++++++
+ .../arc_verdict.json                          |  18 ++-
+ scripts/gates/SEAT_NAMES.json                 |  45 ++++++
+ scripts/gates/gates.py                        | 100 ++++++++++++
  tests/GATE_CONTROLS.json                      |   3 +-
- tests/test_claim_names_no_session.py          |  89 ++++++++++
- 173 files changed, 781 insertions(+), 258 deletions(-)
+ tests/test_claim_names_no_session.py          | 135 ++++++++++++++++
+ 163 files changed, 840 insertions(+), 239 deletions(-)
  create mode 100644 scripts/gates/SEAT_NAMES.json
  create mode 100644 tests/test_claim_names_no_session.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 9e9a029e3..bd92e6243 100644
+index 4ead09b32..aa4361c1a 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,12 @@
  # Changelog
  
-+## S306p A VERDICT LINE NAMES NO SEAT OTHER THAN MAIN: 79 LINES RE-WORDED AND A GATE WITH AN OPEN LIST OF NAMES (R82-2 v2; P-881; M41, M48, M53) (2026-11-28)
++## S306p A VERDICT LINE NAMES NO SEAT OTHER THAN MAIN: 74 LINES RE-WORDED AND A GATE WITH AN OPEN LIST OF NAMES (R82-2 v2; P-881; M41, M48, M53, M85) (2026-11-28)
 +
-+- **Built as a patch series by the building session** at main's M48 and M53, under main's rule of M41 (a claim line names no seat other than main, as a source, an authority or a subject).
-+- **71 verdict lines re-worded** as sent on 2026-11-26 (44 from B1814 to B1908, 27 from B1910 on), with B1894's synonym now "a seat" (M53, correction 1) and B1832's `c4_test_keys_static.json` left out (correction 2).
-+- **18 lines name a seat the closed list missed** (M53, correction 3), 10 of them among the 71 and 8 more (B1853, B1855, B1857, B1858, B1892, B1907, B1911, B1959), 79 lines in all: the physical lane (B1836, B1858, B1861, B1866, B1889 three times, B1907, B1911, B1954, B1959), the explore seat (B1853, B1855, B1856, B1857), the independent audit lane (B1826, B1832), B1826's physical-bridge lane, and the building session named by its work (B1892, B1894, B1898). Each name becomes "a seat" or "a lane", the credit in `cites_seat`, a dated note on each page. No number, verdict or result changed.
-+- **The gate `claim-names-no-session`** reads its names from `scripts/gates/SEAT_NAMES.json`, an open list: a new seat is one line of it. Each word of a lane's name is read with lane, seat, family and branches, so synonyms are read too. Its failing paths `tests/test_claim_names_no_session.py` (registered), the practice's section, and four locks (B1889, B1893, B1896, B1898) holding the new words, each with a dated note.
++- **Built as a patch series by the building session** at main's M48, M53 and M85, under main's rule of M41 (a claim line names no seat other than main, as a source, an authority or a subject).
++- **The lines re-worded:** the 71 of 2026-11-26 and 8 more, less the five the trial holds: 74 in all. Each name becomes "a seat" or "a lane", the credit in `cites_seat`, a dated note on each page. No number, verdict or result changed. B1894's synonym now reads "a seat" (M53, correction 1), B1832's `c4_test_keys_static.json` is left out (correction 2), and B1961's "the auditor's" is re-worded (M85).
++- **The trial's arcs stay as they stand (M85, correction 1):** B1832, B1981, B1999, B2000 and B2011, whose cards the trial draws on, are untouched; `held_until_the_trial_ends` in `scripts/gates/SEAT_NAMES.json` names exactly these five, and the gate does not read them until the trial ends. Main re-words them then, emptying the list in the same commit.
++- **The gate `claim-names-no-session`** reads an open list: `scripts/gates/SEAT_NAMES.json` (names, the words of the lanes' names, the building session named by its work) and every seat label of the Pins table of `docs/HARVEST_LEDGER.md` (M85, correction 2). Each word is read with lane, seat, family and branches, a hyphen standing for the space, and a label with a digit on its own too. Its failing paths `tests/test_claim_names_no_session.py` (registered), probing every Pins label and the ten names of M85; the practice's section; four locks (B1889, B1893, B1896, B1898) holding the new words.
 +
- ## S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)
+ ## S306p THE QUEUE'S RECORD IS THE RECEIPT (the framework's thin path; P-885; main's M86 point 3) (2026-11-28)
  
- - **`scripts/queue/intake.py`:** the round's last line also counts the cards that wait on a seat (OFFERED, for a peer's
+ - **`scripts/checks/relay_debt.py`:** a relay that delivers claim cards (it names `relays/claims/CLAIM_*.md`) is answered,
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index f74b07ade..5117df24a 100644
+index a75e15b00..0e6fe2999 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20861,3 +20861,13 @@
- and starts the next, so what a seat sends is seen without anyone starting a round by hand.
+@@ -20911,3 +20911,14 @@
+ see: a seat's status, a question, a review.
  
  0 of 19.
 +
 +## 2026-11-28 — The one-line verdicts credit no helper session by name (S306p)
 +
-+**What happened.** Each arc ends in a one-line verdict. Seventy-nine of them, written since early November, named the
++**What happened.** Each arc ends in a one-line verdict. Seventy-four of them, written since early November, named the
 +helper sessions (the other seats) inside the claim itself. Main ruled that a verdict line names only main, with any other
-+credit kept in a separate field of the same file. The building session re-worded the 79 lines that way, kept the credit
++credit kept in a separate field of the same file. The building session re-worded the 74 lines that way, kept the credit
 +in that field, left a dated note on each arc's page pointing to the old wording in the history, and added an automatic
-+check, which reads the seats' names from a list that a new seat is added to. No result changed.
++check, which reads the seats' names from the record's own list of seats. Five lines that the running trial draws on are
++left as they stand until it ends. No result changed.
 +
 +0 of 19.
 diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
-index a875dce3a..022e66185 100644
+index a875dce3a..66c2c48e4 100644
 --- a/docs/PRACTICES.md
 +++ b/docs/PRACTICES.md
-@@ -1594,3 +1594,24 @@
+@@ -1594,3 +1594,29 @@
  longer needs its own plants. A catch rate is only worth what the ledger is: a ledger written after the verdicts could be
  fitted to them. Sealed first and opened after, it cannot, and a round with no plant is sealed all the same, so the seals
  do not say which rounds had plants.
@@ -257,37 +249,33 @@ index a875dce3a..022e66185 100644
 +and a synonym; the 18 lines they named from B1814 on (8 of them not among the 71) were re-worded the same way, each with
 +a dated note. When the
 +author's identity table of draft 1, section 8, exists, the gate reads its names from there.**]**
++
++**[CHANGED 2026-11-28 (main's M85):** the gate also reads every seat label of the Pins table of `docs/HARVEST_LEDGER.md`, so
++the words come from the record and not from memory; a hyphen stands for the space ("the web-seat"), and a label with a
++digit is read on its own. The trial's own arcs (B1832, B1981, B1999, B2000, B2011) stay as they stand until the trial
++ends, named in `held_until_the_trial_ends`; the gate does not read them meanwhile.**]**
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 9d252a362..6c9548f75 100644
+index 17b571477..987f17d53 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
-@@ -39,7 +39,7 @@
- | B2014 | PROVED | “LISTENING 28, THE SEATS' CLAIMS FOR EVERY RUNG CHECKED ON MAIN (PROVED for its checks; data-free): the six moves are two walks, W+ = L + X + R^-1 (the orbit of L under omega's exchange) and W- = R + L^-1 + X^-1, which c…” |
- | B2013 | PROVED | “REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in all ten arcs re…” |
- | B2012 | PROVED | “LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), si…” |
--| B2011 | PROVED | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125…” |
-+| B2011 | PROVED | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): a seat's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125,…” |
- | B2010 | PROVED | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreduci…” |
- | B2009 | PROVED | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and i…” |
- | B2008 | PROVED | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1),…” |
 @@ -53,6 +53,7 @@
  
  ## The last landings (CHANGELOG)
  
-+- “S306p A VERDICT LINE NAMES NO SEAT OTHER THAN MAIN: 79 LINES RE-WORDED AND A GATE WITH AN OPEN LIST OF NAMES (R82-2 v2; P-881; M41, M48, M53) (2026-11-28)”
- - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)”
- - “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
- - “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
++- “S306p A VERDICT LINE NAMES NO SEAT OTHER THAN MAIN: 74 LINES RE-WORDED AND A GATE WITH AN OPEN LIST OF NAMES (R82-2 v2; P-881; M41, M48, M53, M85) (2026-11-28)”
+ - “S306p THE QUEUE'S RECORD IS THE RECEIPT (the framework's thin path; P-885; main's M86 point 3) (2026-11-28)”
+ - “S306p A SEAT'S LISTENER WAKES ON THE QUEUE (the framework's thin path; P-885; main's M86 point 2) (2026-11-28)”
+ - “S306p A PUSH TO MAIN STARTS A ROUND (the framework's thin path; P-885; main's M86 point 1) (2026-11-28)”
 @@ -60,7 +61,6 @@
- - “S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)”
- - “S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)”
- - “S306p CHAT1'S A88 AND AGY-002'S A2-CHIRAL-E8-SIBLINGS RECEIVED; THE NEW CARD OFFERED (P-885; HARVEST ROWS 2076, 2077; M89, M71) (2026-11-28)”
--- “S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)”
+ - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS; R82-2 V2 RETURNED; FOUR PEER NOTES AND TWO HEAVY CARDS RECEIVED (P-885; P-881; HARVEST ROWS 2086 TO 2089; M85) (2026-11-28)”
+ - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)”
+ - “S306p MAIN'S B2016 CARD RERUN ON THE AUTHOR'S MACHINE: REPRODUCED; BOTH BANKING SEATS' FIRST SEALS; AGY'S C72 (P-885; HARVEST ROWS 2083 TO 2085) (2026-11-28)”
+-- “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
  
  ## The latest campaign line
  
 diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
-index c0cfa795d..eb0292d39 100644
+index c0cfa795d..e011971be 100644
 --- a/docs/views/REVIEWER.md
 +++ b/docs/views/REVIEWER.md
 @@ -20,7 +20,7 @@
@@ -295,31 +283,20 @@ index c0cfa795d..eb0292d39 100644
  |---|---|
  | research arcs with findings | **1716** |
 -| words of findings prose | **1,578,495** |
-+| words of findings prose | **1,583,986** |
++| words of findings prose | **1,583,677** |
  | test lock files referenced | **948** |
  | arcs carrying an authored verdict | **1716** (100.0 %) |
  | recorded closures | **864** (692 classified, 172 routed-only) |
-@@ -69,8 +69,8 @@
- “REVIEW 89 ENTERED (PROVED, a process arc): opened at the 20th landing since Review 88's anchor; the trial's arcs left to the trial again (R88-2 carried to Review 90); three cold readers caught six of eight plants, missing a one-word flip in a dated law-map mend (R87-4's case, given with its arc) and a test helper's 'and' made 'or'; eleven real findings held on the live tree: the rerun's -E defeats its pinned hash seed, the stale screen never read its correction markers and skipped arcs without a verdict file, the dated-notes screen hid hits on any date, two missing tests (a real non-ancestor, a swap along the list's history), a stale docstring, a mend missing its arc's second clause, two register escalations misstating their rows, an unclear decline, a miscount in B2018; seven mended here, four to the builder (M74); main found two point-debt tests failing unseen since the day's register work, mended them, and made the landing run them; anchor 47ece044b”  
- `B2019_review_89_entered_six_of_eight_plants_caught_and_the_windows_process_work_read/FINDINGS.md`
- 
--**NEGATIVE — `B1981`** (945 words, 0 locks)  
--“THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  
-+**NEGATIVE — `B1981`** (1005 words, 0 locks)  
-+“THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over a seat's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set”  
- `B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/FINDINGS.md`
- 
- **RETRACTED — `B1918`** (1030 words, 0 locks)  
 diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
-index 14ff785d9..7760c0fd8 100644
+index cd718b531..0db5f7923 100644
 --- a/docs/views/THE_SPINE.md
 +++ b/docs/views/THE_SPINE.md
 @@ -2,7 +2,7 @@
  
  *One line per living test lock, in git birth order. The claim head comes from the
  arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
--Generated by `scripts/views/spine.py` — 1574 locks. Regenerated with the views.*
-+Generated by `scripts/views/spine.py` — 1575 locks. Regenerated with the views.*
+-Generated by `scripts/views/spine.py` — 1576 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1577 locks. Regenerated with the views.*
  
  
  ## 2026-05-22
@@ -341,7 +318,7 @@ index 14ff785d9..7760c0fd8 100644
  - — `test_queue_heavy.py` 
  - — `test_queue_intake.py` 
 diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
-index 67536932e..a4e11ce42 100644
+index 67536932e..3de3709df 100644
 --- a/docs/views/VERDICT_LEDGER.md
 +++ b/docs/views/VERDICT_LEDGER.md
 @@ -1054,16 +1054,16 @@
@@ -354,8 +331,7 @@ index 67536932e..a4e11ce42 100644
  | `B1829` | “GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every within-arc choice priced, no joint factor) that makes a CANDIDATE -- frozen, never cited as support, not a result -- and level 2, a confirmation by held-out prediction under GAP1's v1.60 rule, makes a result (PREDICTED); the ledger stays as the count of screens. Re-graded from the record: B1749 and B1753 are candidates (r 0.1-0.25% under B1798's null re-choosing c and the class); B1726, B1734, B1755, B1786 and three web-seat looks UNSETTLED (no fully matched null); all one family, THE SIX ON THE STRIP, about 0.5 false candidates expected by chance over 53 looks; the family already fails the mixing; its level 2 (P-585): y_b/y_t, theta-bar; y_tau/y_b not clean (scale-set). Nothing computed or compared. 0 of 19. [S297: the candidate is FR-FIB's with the small-cut end; at the exact norms the six fail (THE EXACT END, 25.87 against 16.75; P-421)]” |  | 0 |
  | `B1830` | “THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Five readers typed the 250 open rows; main verified every proposed closure: DONE P-386, P-495, P-502, P-503, P-510, P-520, P-521, P-522; P-292 merged into P-337; P-485, P-487, P-218 kept open. 59 debts, 141 leads, 41 process; 15 aged debts escalated; the debts ranked -- first those bearing on the strip candidate (P-355's D first), the live prediction P10 and B1825's machinery, then foundation statements, then checks, then premises. 0 of 19. [S297, rechecked at the owner's word: P-154 and P-421 retyped DEBT; 20 stale LAW_MAP rows corrected (P-588, P-589); new debts P-589, P-590]” |  | 1 |
  | `B1831` | “REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276 SCHEDULED rows (none derives a parameter or hides a positive; about 146 handled elsewhere), 142 register leads and 77 open leads (39 stale; the tops ranked for the owner); the carry rule could not fire (E84, fixed); the seats harvested past S298 and theta-bar ruled off P-585's held-out list, the candidate's confirmation one target short (P-597); the sample's and main's own S298 errors corrected with instruments; P-592 declined, P-535 adjudicated, P-563/P-565 adopted; E95 new. 0 of 19.” |  | 0 |
--| `B1832` | “THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (about sixty checks re-run by main, identical). Banked: T-KERNEL-SUM-TWIST (every channel kernel is a Kronecker kernel of the summed twist -- P-524's lemma with a written derivation; RI-1 a theorem: a0 odd between up and down/lepton in every channel), T-HALF-LIFT-LEPTON-DOWN (Y_e(S) = lambda D Y_d(Sigma S)^T D on the order-10 half-lifts, lambda D Y_d(Sigma S) D on the order-8, for any Higgs -- S297's coincidence proved; a0 != 0 splits order 8), T-FA-NORM (F_10's v.v = -80 eta^12 E4), T-THETA-Y-BSTEP (264 pi a; 66a^2 + 1/4 not an integer); exact identities: the residues as theta products (the i-residue zeros 5w or 3w = 1/2), the LL pair = the charged sectors at the doubled line, the mirror as P conj(Y) P. Corrected on main: B1784's i-residue wording and its 'saddle' (tau* not a critical point), B1826 1.3's population (719 of 1127 hierarchical rows have the measured corner order). Refuted: a dozen agy claims incl. fabricated seen-first names. The scorecard: 0 of 19. y_b/y_t and y_tau/y_b parts unread by main.” |  | 0 |
-+| `B1832` | “THE SEATS' LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both seat branches and a third lane typed and dispositioned, every data-free one checked on main's code (about sixty checks re-run by main, identical). Banked: T-KERNEL-SUM-TWIST (every channel kernel is a Kronecker kernel of the summed twist -- P-524's lemma with a written derivation; RI-1 a theorem: a0 odd between up and down/lepton in every channel), T-HALF-LIFT-LEPTON-DOWN (Y_e(S) = lambda D Y_d(Sigma S)^T D on the order-10 half-lifts, lambda D Y_d(Sigma S) D on the order-8, for any Higgs -- S297's coincidence proved; a0 != 0 splits order 8), T-FA-NORM (F_10's v.v = -80 eta^12 E4), T-THETA-Y-BSTEP (264 pi a; 66a^2 + 1/4 not an integer); exact identities: the residues as theta products (the i-residue zeros 5w or 3w = 1/2), the LL pair = the charged sectors at the doubled line, the mirror as P conj(Y) P. Corrected on main: B1784's i-residue wording and its 'saddle' (tau* not a critical point), B1826 1.3's population (719 of 1127 hierarchical rows have the measured corner order). Refuted: a dozen seat claims incl. fabricated seen-first names. The scorecard: 0 of 19. y_b/y_t and y_tau/y_b parts unread by main.” |  | 0 |
+ | `B1832` | “THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (about sixty checks re-run by main, identical). Banked: T-KERNEL-SUM-TWIST (every channel kernel is a Kronecker kernel of the summed twist -- P-524's lemma with a written derivation; RI-1 a theorem: a0 odd between up and down/lepton in every channel), T-HALF-LIFT-LEPTON-DOWN (Y_e(S) = lambda D Y_d(Sigma S)^T D on the order-10 half-lifts, lambda D Y_d(Sigma S) D on the order-8, for any Higgs -- S297's coincidence proved; a0 != 0 splits order 8), T-FA-NORM (F_10's v.v = -80 eta^12 E4), T-THETA-Y-BSTEP (264 pi a; 66a^2 + 1/4 not an integer); exact identities: the residues as theta products (the i-residue zeros 5w or 3w = 1/2), the LL pair = the charged sectors at the doubled line, the mirror as P conj(Y) P. Corrected on main: B1784's i-residue wording and its 'saddle' (tau* not a critical point), B1826 1.3's population (719 of 1127 hierarchical rows have the measured corner order). Refuted: a dozen agy claims incl. fabricated seen-first names. The scorecard: 0 of 19. y_b/y_t and y_tau/y_b parts unread by main.” |  | 0 |
  | `B1833` | “THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed and stalled, and 65 had no carrier -- each confirmed by main against the whole tracked record and now rowed (P-629-P-657); the losses come after the writing-down, by twelve mechanisms (leads never come due; reviews rank leads and carry none; merged items die with their host; places the register never reads; renamed ideas never joined); the central direction -- what holds tau and selects the point -- named in six vocabularies across eleven rows with no owner, now one row with four never-computed handles; U_e and the PMNS recovered as a candidate second held-out quantity (P-597) and a loop lift of the rank-2 Yukawa as a sector-dependent route at D's failure; L241 (b) and the PF4 'attempted' corrected; the mechanism (P-659) and the direction (P-660) put to the owner. 0 of 19.” |  | 0 |
 -| `B1834` | “THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 chosen, 2 ansatz, 1 fitted); the agy lane's complete picture claims 23 rows on 45 (18 chosen, 14 ansatz, 6 measured inputs, 3 refuted, 2 unknown, 1 fitted, 1 forced only by its word) -- about three borrowed joints per extra row, none earned; ten joints shared, so earning the core (tau, the slope and offset, the Higgs direction, the reading, H = I, the radius) earns it in both; printed by the gates beside 0 of 19 (inputs-scoreboard); a firewall path found and ten more ranges sealed (52). 0 of 19. [REVIEW 75 NOTE: the counts are as of S300c; the live scoreboard (frame A 6 rows and 13 joints, frame B 44, F7 FORCED-BY-MAIN) is in docs/TOTAL_INPUTS_SCOREBOARD.md.]” | yes | 1 |
 -| `B1836` | “THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S300 'T^2, not T' corrected); a criterion reading no held-out quantity picks the slope 2/5 (main's P-625 reason corrected; the slope stays borrowed); the F_a evaluator wrong by -i for Re tau >= 1 (P-670); P-634's first step: no cuspidal cohomology for m004's group at weights 0-3; B47 MATCH, B08 MISMATCH; P-639's mirror half NEGATIVE; the agy lane's Theorems 29-64 earn no borrowed joint, their looks at the held-out and PMNS targets counted, 23 ranges sealed; the web seat's singlet screen, steepness map and doublet index verified; the physical lane's E8 algebra verified with B = (kc_j)^-1. 0 of 19. [REVIEW 75 NOTE: § 2 (the doublet index) filled from harvest row 1557; the re-run's output and four other checks rest on harvest rows, not on files in this arc.]” |  | 0 |
@@ -515,7 +491,7 @@ index 67536932e..a4e11ce42 100644
 +| `B1959` | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of a lane's six ranked requests, its equation (3), by an argument independent of the lane's): for a Laplace-type operator P = D*D + M that is homogeneous on a finite-area hyperbolic cusp, nonnegative, with bounded kernel spanned by one parallel section Q, and for a weight 0 < delta < min beta_c, P is a bijection with bounded inverse from {a chi Q + decaying, orthogonal to Q} onto {decaying sources orthogonal to Q} in weighted Hoelder spaces; the constant a is fixed by the source. The proof: the essential spectrum starts at 1/(4 ell^2), so zero is isolated; on the cusp each zero-frequency channel is an ordinary equation with exponents -beta and 1 + beta, the growing one excluded by the area measure, and a maximum principle on exp(delta t) u gives the decay exactly when delta < beta; the channel of Q gives the constant; the nonzero frequencies obey one convexity inequality for their norm over the circle; uniform interior estimates on balls of the universal cover give the Hoelder bounds. The lane's condition delta < 1 is not needed. What it gives the lane: its equation (3) holds for its operator if H1 to H3 hold for its fields; H2's algebra is on main already, H1 and H3 are its model's facts and are not checked. Nothing of its model is banked; inputs removed: zero; nothing is compared with data” |  | 0 |
  | `B1960` | “REVIEW 85 ENTERED: THREE COLD READERS CAUGHT SIX OF THE SEVEN PLANTS AND FOUND THIRTEEN FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 84, uncounted a fourth time): all 19 quotations are in the files their findings cite; the missed plant was a wording plant. Each of the thirteen findings is right on main's own check and is mended. B1959 cited a cylindrical-ends frame for a cusp that is not one; its form bound needed sections supported in the cusp; its zero-frequency step had a gap at infinity, now closed by a barrier; its monotonicity reason was the bound's; and its page and lock claimed controls for every step where K2, K5 and K6 have none. B933's design still called the J argument proven, and its new note said 'as a theorem' over main's derivation. B1958 said four items closed where one was, and named three of four statements; Review 84's counts were taken at different moments unsaid; B1957 left out row 1968's 31 noted. Carried: K5 and K6 into B1959's lock, the other family's reading, the window outside the sample. 0 of 19.” |  | 0 |
 -| `B1961` | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; the auditor's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.” |  | 1 |
-+| `B1961` | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): a seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; the auditor's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.” |  | 1 |
++| `B1961` | “SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): a seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; a seat's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.” |  | 1 |
  | `B1963` | “IN FRAME C A CHARGE-CONSISTENT HIGGS READING ALIGNS THE CUSP MIXING ONLY IN THE BULK, WHERE THE HIERARCHY IS AT MOST ABOUT TWO ORDERS (PROVED on its grid; data-free; P-847): high in the cusp the charge-consistent pairs derange the mixing at every non-degenerate point of every order from 2 to 10 (271 points at height 30, 238 at 60), the conjugation tending to a 3-cycle of the generations; across height, at four columns and the points of orders 5 and 7, the mixing is aligned only at height 1.0 (hierarchy h >= 3.9e-3), at no point from height 1.2, and deranged at every point from height 3; no case has an aligned charge-consistent mixing with three orders of hierarchy; so the aligned option needs (S, S), the reading the charge rule excludes. 0 of 19.” |  | 0 |
  | `B1964` | “IN FRAME C THE HIGGS READING ALONE FIXES THE LIGHTEST GENERATION HIGH IN THE CUSP, AND THE TWO READINGS FIX ORTHOGONAL ONES (PROVED; data-free; P-847): exactly, if the Higgs matrix is E12 the coupling's left null vector is (-i, 0, 1) for every channel matrix Mw, of rank 2 exactly when det Mw != 0, and for E21 it is (i, 0, 1), orthogonal; the conjugate reading only conjugates the Higgs's coefficients, and frame C's Higgs tends to a multiple of E12 (lower-left entry about 20 e^{-pi y} of the upper-right, diagonal about 4 e^{-pi y/2}); so wherever Mw has rank 2 every sector's lightest generation tends to (-i, 0, 1)/sqrt 2 under S and (i, 0, 1)/sqrt 2 under S~, checked at all 574 such cases of orders 3 to 10 at height 30, and a charge-consistent pairing makes the light-light mixing entry vanish: the analytic core of B1946's and B1963's derangement, whatever the point and the charges. 0 of 19. [Review 86, 2026-11-24: order 9 not run; PROVED covers the exact lemma and its check at height 30, not a uniform cusp limit]” |  | 0 |
  | `B1966` | “THE TRADE-OFF'S TWO ENDS ARE EXACT FOR EVERY CHANNEL (PROVED; data-free; P-879): from B1736's closed form, Y h = (h.h) u and h^T Y = (h.h) u^T for every Higgs and channel, so a null Higgs gives m1 = 0 with left null vector conj(h), and the conjugate reading's light state h is exactly orthogonal to it whatever the channels (B1739's lemma without 'channels off'); a real Higgs is flavour-blind up to the reflection 1 - 2 h h^T (Y times it is c 1 + [a]_x), so B1727's sharp floor m2/m3 >= 1/3 holds for every channel, making B1740's non-null loss a theorem at reality 1; a null Higgs's heavy pair has m2 m3 = |h|^2 |u1^2 + u.u|, the channels' near-nullity; under the charge rule neither end gives an aligned mixing with a hierarchy, and the interior stays open. 0 of 19.” |  | 0 |
@@ -534,27 +510,7 @@ index 67536932e..a4e11ce42 100644
  | `B1976` | “THE LEVEL AS A LENS (PROVED for its sealed checks, two in part; data-free): at a point of order N frame C sees the charges 6Y mod N, so sectors tied by a unit of Z/N tie; level 5 gives minimal SU(5)'s relations (the up matrix symmetric, the leptons the down quarks transposed); order 6 makes up and down share their left structure (the mixing the identity at all 24 points; the couplings equal at 12 and equal up to theta phases at 12); order 30 on the act's line breaks the lepton-down tie at 88 of 96 points and the up symmetry at 92, keeping the mixing aligned at all 96; the mixing does not grow in general (26 of 96), but at five points (post hoc) a 2-3 mixing of 0.018 falls with height at a rate near 1/30 only” |  | 0 |
  | `B1977` | “AT ORDER 30 ON THE ACT'S LINE FRAME C IS STRUCTURALLY VIABLE AT ONCE (PROVED for G1 to G5, as sealed; data-free): at five points the mixing is aligned, both quark sectors are hierarchical (up 2/5 and 41/30, down 7/15 and 1), the leptons split from the down quarks in the exponent (2/5 against 7/15), and the 2-3 mixing falls at a rate of 1/30 only, with V13 = V12 + V23 (3/5 + 1/30 = 19/30); 30 points are aligned and hierarchical with a mixing rate below 1/10; every rate lies on a grid of 1/60 (860 of 864), in 17 classes over the 96 points [dated note 2026-11-25, CORRECTED by B1979: the rates are limits on the grid; the converged classes are 12, not 17]” |  | 0 |
  | `B1978` | “THE ACT'S EIGHT ORBITS OF TWELVE AT ORDER 30 (PROVED, a reading of B1977's rates; data-free): the monodromy M = [[2,1],[1,1]] carries the 96 points into themselves in 8 orbits of 12 and keeps a point's rate class at only 8 of 96, so the readings are not act-invariant; alignment and both quark hierarchies hold at every point of every orbit (96 of 96); the slow 2-3 mixing (rate 1/30) lives on 4 of the 8 orbits; if the reading is the act's orbit the menu is 8, the orbit's principled reading open [dated caveat 2026-11-24: computed at a fixed tau; the act moves tau and the point together, so the orbit reading needs the frame's joint covariance checked first]” |  | 0 |
-@@ -1200,8 +1200,8 @@
- | `B1996` | “LISTENING 12, THE SLOW DECAY UP THE TOWER (PROVED numerically; data-free): on the tower of the whole's own prime 3 the unfolding's slowest non-undamped decay settles at lambda*/2 = 0.9576 per move, lambda* = 1.915298 real (with its negative), at mod 81, 243 and 729 (post hoc for 729) while the largest orbit grows ninefold each level; on the 5-tower it keeps rising (0.839, 0.995); lambda* is algebraic (an integer matrix's eigenvalue) and not yet identified: the first number the whole fixes by its own dynamics” |  | 0 |
- | `B1997` | “LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3x^8 - 21x^6 + 12x^4 - 48x^2 + 64; post hoc, in closed form, lambda* = sqrt(w + sqrt(w^2 - 4)) with w = (1 + 4cos(pi/9))/2, over the cyclic cubic field Q(cos 2pi/9) of conductor 9 = 3^2 (the cubic's discriminant 72^2); the settled decay per move is lambda*/2 = 0.957649082367...” |  | 0 |
- | `B1998` | “LISTENING 14, THE WHOLE'S OTHER PRIME (PROVED; data-free): on the 2-tower the common point's neighbourhood on the cusp never opens (largest orbit 24 at every level from mod 8 to mod 256) and the slowest rate stays the cube's 1/sqrt 2, carried by x^2 +- x + 2 over Q(sqrt -7) (T2, a 2-power cyclotomic field, failed); post hoc, the threads' integer readings are all = 0 mod 3 and never = 0 mod 2, falling mod 2 into four parity classes split 1 + 3; the whole reaches the threads and fixes a rate at 3, and holds the three at 2” |  | 0 |
--| `B1999` | “THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K” |  | 0 |
--| `B2000` | “LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair at 5, 5 (28, 10, 10 with the inverse moves), against 2, 2, 2 at the common point, so the whole natively gives 3 -> 1 + 2 and keeps the pair locked; agy-exp's NI-1 reproduced ((14/3, 5/3, 5/3), spectrum {1, (7 -+ sqrt 41)/2}; its diagonal is exactly the covariant part); its NI-3 fusion fractions reproduced exactly for Q8 (1/3, 2/3), 2O, 2I (never -phi, -1, 1/phi) and the 2I three-body law {18,12,6,41,38,12,51,41,6}/225” |  | 0 |
-+| `B1999` | “A LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K” |  | 0 |
-+| `B2000` | “LISTENING 15, A SEAT'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair at 5, 5 (28, 10, 10 with the inverse moves), against 2, 2, 2 at the common point, so the whole natively gives 3 -> 1 + 2 and keeps the pair locked; a seat's NI-1 reproduced ((14/3, 5/3, 5/3), spectrum {1, (7 -+ sqrt 41)/2}; its diagonal is exactly the covariant part); its NI-3 fusion fractions reproduced exactly for Q8 (1/3, 2/3), 2O, 2I (never -phi, -1, 1/phi) and the 2I three-body law {18,12,6,41,38,12,51,41,6}/225” |  | 0 |
- | `B2001` | “LISTENING 16, THE CHARGE SECTORS OF THE WHOLE ON THE LEAF (PROVED; data-free): the C-covariant unfolding commutes with omega's cyclic exchange on every leaf run; the neutral sector holds the constant and the slowest decay (0.88 to 0.99 per move) while the charged pair's strongest mode is 0.44 to 0.49, the two charged members identical; on the 3-tower both settle (0.986507 and 0.493254 at mod 81 and 243); post hoc, exactly: the six conjugated moves are closed under inversion (L^-1 = CRC^-1, R^-1 = C^2LC^-2, the third move CLC^-1 = (y, yz - x, z)), so the covariant whole is the symmetric walk on three move pairs, with no arrow of time; and on the 3-tower the charged spectrum is exactly half the neutral one below the top (ratio 2 to 12 digits; at primes 5 to 13 it is 1.89 to 2.09)” |  | 0 |
- | `B2002` | “LISTENING 17, THE HALVING AT THE WHOLE'S PRIME, EXACTLY (PROVED; data-free): the charged pair's characteristic polynomial is a perfect square at every level run; on the 3-tower (mod 27, 81) every non-top neutral factor reappears halved in the charged pair, and post hoc, exactly, p_neutral(2x) = 2^d (x - 3)(x + 3) x S(x) with S one charged sector's polynomial: each charged sector is the neutral sector at half scale minus the constant, the alternation and one null mode (one per C-fixed point); at mod 5 and 7 no mode pairs and the identity fails; the leading mode at mod 81 (x^6 - 60x^4 + 1008x^2 - 4672) lives over a sextic field containing Q(cos 2pi/9), discriminant 2^6 3^8 73” |  | 0 |
- | `B2003` | “LISTENING 18, THE REACH OF THE HALVING (PROVED; data-free): B2002's identity p_n(2x) = 2^d (x^2 - 9) x S(x) holds up the 3-tower from mod 27 (exact at 27 and 81, every eigenvalue to 1e-8 at 243), exactly where omega's exchange fixes three points of the orbit of (3,3,3), and fails at mod 9 (two fixed), 25 and 49 (one, nothing paired), 15 (one, nothing paired) and 45 (two, 4 of 106 paired); the charged pair's polynomial is a perfect square at every level; the half-scale copy is the whole's prime 3's own, where the three, omega's exchange and the prime meet” |  | 0 |
-@@ -1212,7 +1212,7 @@
- | `B2008` | “LISTENING 23, THE CHARGED PAIR IS LOCKED BY THE WHOLE'S MIRROR (PROVED; data-free): the swap tau = (y, x, z) satisfies tau C tau = C^-1 and tau sigma tau = sigma and exchanges L with R (and L^-1 with R^-1, X with X^-1), so it commutes exactly with the unfolding at every level run and carries charge 1 onto charge 2; it is not one of the moves (tau not in G_k at mod 27, 81, 243; <G_k, tau> has order 2|G_k|), and with it the abelianisation is Z2 x Z2, omega's order-3 charge gone; so the pair is locked by the orientation-reversing mirror while the charge lives in the orientation-preserving part, and the 2 -> 1 + 1 split needs a handedness the whole does not supply (read as the record's chirality bit: a reading, Review 87)” |  | 0 |
- | `B2009` | “LISTENING 24, THE HALVING DERIVED (PROVED; data-free): with the whole acting on omega's orbit as G_k on G_k/S and rho factoring through G_k, the twist pi -> pi (x) rho maps each irreducible's sigma to minus itself and its C-neutral space to its charge-2 space, so with B2004's sector forms the charged spectrum is half the neutral one wherever <pi|S, 1> = <pi|S, rho|S>; GAP's character tables at mod 27, 81, 243 (19, 85, 399 irreducibles) give the same six exceptions at each level, of degree at most 2, three of them seen by the neutral sector: the trivial character (the constant, 6), S4's sign (the alternation, -6) and one 2-dimensional representation (the null mode), with weighted count 3, the identity's three left-out modes (matched by count; the eigenvalue assignment not computed, Review 87)” |  | 0 |
- | `B2010` | “LISTENING 25, THE SIX EXCEPTIONS LIVE AT THE BOTTOM OF THE TOWER (PROVED; data-free): at mod 81 and 243 the halving's six exceptional irreducibles are trivial on the kernel of the reduction to mod 27, and every irreducible non-trivial on it (66 and 380) has equal multiplicities, so it pairs exactly; the six live on one quotient of order 18 at every level, C3 x S3, the three's permutation group times omega's charge (E3's 72 failed as worded); so the halving's only exceptions are the representations of the three with their charge, a group that does not grow up the tower” |  | 0 |
--| `B2011` | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125, 343 (its exact factor divides the characteristic polynomial over Z) and 625 (modulo three primes): one formula at the primes 3, 5 and 7, in the five levels run, that main had not heard; agy's level mod 135 keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws (both corrected); the halving identity holds exactly over Z at mod 243; every computed step of agy's all-k argument holds on main from mod 9 to mod 6561 and, by main's reading, for every k; the orbit is the whole congruence set to mod 6561; the 648-point orbit is the honeycomb torus {0,1} x (Z/18)^2; the outward ratio is (4s + 6) : (s + 6); the assembly for every k is read, not checked line by line” |  | 0 |
-+| `B2011` | “LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): a seat's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125, 343 (its exact factor divides the characteristic polynomial over Z) and 625 (modulo three primes): one formula at the primes 3, 5 and 7, in the five levels run, that main had not heard; a seat's level mod 135 keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws (both corrected); the halving identity holds exactly over Z at mod 243; every computed step of a seat's all-k argument holds on main from mod 9 to mod 6561 and, by main's reading, for every k; the orbit is the whole congruence set to mod 6561; the 648-point orbit is the honeycomb torus {0,1} x (Z/18)^2; the outward ratio is (4s + 6) : (s + 6); the assembly for every k is read, not checked line by line” |  | 0 |
- | `B2012` | “LISTENING 27, THE BLIND RE-LISTEN COMPARED WITH THE RECORD (PROVED for its checks; data-free): of a blind listener's twenty observations four were on the record (B1989's five finite orbits found again independently), six sharpen it, eight are new and two split; main checked the new ones that decide: the four-move sum is 3(SP + PS) - 2S on every orbit, so its spectrum pairs lambda with lambda + 2 by the two-subspace theorem (exact on five orbits, modulo three primes at mod 135): a law of the modular group, not of the whole; the 6-point dihedral orbit on every leaf k = t^2 (B1989's owed family); the point-count rule p^2 + p(3 chi(k - 4) + chi(k(k - 4))) + 1; residues 3 mod 4 and 3, 6 mod 9 never attained and 15 locally solvable leaves without a point to 3000; two equal 2-adic halves on k = 5, 13, 29 at 2^5 to 2^7; the mod-5 cusp orbit is the icosahedral 40-orbit reduced; and the halving holds at 54, 108, 162 but fails at 189 as at 135, so its failure at mixed levels is not the icosahedral origin” |  | 0 |
- | `B2013` | “REVIEW 87 ENTERED (PROVED, a process arc): three cold readers caught seven of the eight plants (the miss again a number inside a dated note, uncheckable from the reader's folder) and found real faults in all ten arcs read [corrected 2026-11-26: this read 'eight of the ten'; the arc's own table marks a real finding in each of the ten; found by a reader of main's, drafting the arc's claim card]; main checked each on the live tree and mended it -- B1980's withdrawn S-failure struck from its verdict line, body and lock labels, B1983's split and connectivity counts, B1993's and B2008's readings marked as readings and B1993's lock made to rerun, B1995's basis-dependent row and per-move normalisation, B1996's caveats and lock, B2004's scope, B2009's mode assignment marked as by count, B2011's and B2012's patterns scoped to the cases run; the review opened late (40 landings, not 34), main's miss; anchor 36f9cc5c2” |  | 0 |
- | `B2014` | “LISTENING 28, THE SEATS' CLAIMS FOR EVERY RUNG CHECKED ON MAIN (PROVED for its checks; data-free): the six moves are two walks, W+ = L + X + R^-1 (the orbit of L under omega's exchange) and W- = R + L^-1 + X^-1, which commute exactly, are each other's transpose and are swapped by the mirror; in each charge sector W+ is 3 omega^-q and W- 3 omega^q times sigma's compression, so the whole's unfolding is their mirror-symmetric sum and an orientation is the ingredient the whole does not supply; B2009's three neutral exceptions have values 6, -6 and 0 by GAP's explicit representations, and rho^3 is S4's sign (Review 87's R87-2 met); the mirror is not a move at any rung and with it the abelianisation is Z2 x Z2 for every k (by reduction); mod 27 has three 72-point sister orbits, and on (3,3,15), with no fixed point of C, the halving holds with nothing left out; fixed points are unchanged up the tower on every element tried; |G7| = 24 * 3^21 at mod 2187” |  | 0 |
-@@ -1604,16 +1604,16 @@
+@@ -1604,15 +1604,15 @@
  | `B1808` | “THREE GENERATIONS CUT A CURVE, NOT A POINT (P-419, selection by inversion, in B1804's holomorphic flux frame; data-free; NEGATIVE for 'three selects the moduli'): one LR-invariant flux with index -3 is (1,1) exactly on a curve of Hirzebruch-Zagier form; a point needs a second flux with free integers and such points are infinitely many (LR: 48 in a small box, 14 NS determinants); three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A); chi(L) < 0 for every invariant (1,1) flux on every holomorphic component, the index in a fixed orientation -3 on HxH and +3 on HxH^-: the hand CHOSEN. A short corollary of B1804 with U in Lambda_A. None of the 19.” |  | 0 |
  | `B1811` | “THE SYMMETRY-SELECTION VALUES AGAINST THE SIX (P-432's second half; sealed 316457df6; NEGATIVE as sealed): at the four configurations the object's symmetry fixes, no parameter-free output of B1656's frame reaches the measured mass ratios -- the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu (the sealed n = 1 menu); the chi2-best row (F_6 at (i, 0), L_2, (S~, S~, S~), c = 3) overshoots every one of the six, by 7.5x to 1739x, as do all 22 non-degenerate cells (all at tau = i); the other 164 of the 208 seat-reading cells carry a massless state or rank one (corrected 2026-10-30 at Review 73: 156 before, a mis-sum). The end enters through B1740's small-cut norm (0.6% from exact at L_2). Controls hold. None of the 19.” |  | 1 |
  | `B1812` | “THE TOWERS IN F-THEORY'S 7-BRANE FRAME (P-415, the owner's towers question; data-free; NEGATIVE for the towers-meeting-at-loci reading): the genesis word LR (trace 3) lies in the single SL(2,Z) class DeWolfe-Hauer-Iqbal-Zwiebach assign to E_10 = E_8^H (a conjugator computed), whose nested subconfigurations A^(N-1)BCC carry su(3)+su(2), su(5), so(10), E6, E7, E8, affine E8; but only so(10)-E8 can collapse to singularities -- su(3)+su(2) (trace -4) and su(5) (trace -3) are hyperbolic and non-collapsible, their algebras organising massive BPS states, not gauge symmetries at a point; the object fixes the total class, not where any tower sits. m003's sign class is E_4's. Among the metallic words only the golden one is an E-series monodromy (content). Complements B1343. None of the 19. [Scope corrected 2026-10-30 at Review 73: 'cannot collapse' holds for the nested E_3 and E_4 realisations only; inside the same configuration A^5 < A^5BC < A^5BCC collapse (I_5 < I_1* < IV*), so SU(5) < SO(10) < E6 can meet at a point and the SM's algebra can sit at points as A-brane stacks -- allowed by the object's class, not selected by it.]” |  | 0 |
@@ -569,13 +525,11 @@ index 67536932e..a4e11ce42 100644
  | `B1944` | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of the average is too large, about 10 times (s/b) to thousands of times (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near (0.89 to 1.47) in every option, which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing is adjusted after the look. 0 of 19.” |  | 0 |
 -| `B1947` | “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.” |  | 0 |
 -| `B1962` | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is the web seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19. [Review 86, 2026-11-24: the 'identity E assumed' section is stale (closed by P-861 outside this arc); 'deranged for every reading' means at some of the 24 points; two numbers corrected]” |  | 0 |
--| `B1981` | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set” |  | 0 |
 +| `B1947` | “[FINAL 2026-11-15: its second computation a seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.” |  | 0 |
 +| `B1962` | “FRAME D1'S CUSP MIXING IS DERANGED FOR EVERY HIGGS READING AND BOTH SIGNS OF c, AND ITS LEPTONS COPY THE DOWN SECTOR TRANSPOSED (NEGATIVE as sealed, final: its second computation is a seat's W-B3; P-861; data-free): run on frame C's own code at identity E's shifted charges, with a frame-C control that reproduces B1946 exactly, no reading pair is aligned at height 30 under c = +2 or c = -2 (smallest diagonal |V| 3e-5 or less; at height 6 three pairs deranged and one partial), so frame D1 loses the alignment frame C had with (S, S), whichever reading rule is used; the leptons' coupling matches the transposed down coupling to 1e-37 with equal spectra; the Higgs's own twist does not repair the mixing; identity E at the norms holds exactly under the twist's flat unitary metric (W-B3, checked by hand on main). 0 of 19. [Review 86, 2026-11-24: the 'identity E assumed' section is stale (closed by P-861 outside this arc); 'deranged for every reading' means at some of the 24 points; two numbers corrected]” |  | 0 |
-+| `B1981` | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over a seat's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set” |  | 0 |
+ | `B1981` | “THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set” |  | 0 |
  
  ## OPEN (106)
- 
 @@ -1714,15 +1714,15 @@
  | `B1665` | “THE LAYERS, RE-SEALED (sealed 043c90b6a, sha256 9955d1b6; OPEN: the gate failed again -- the repaired start, the period's lowest point, sits at the corners omega where D also vanishes, and 22 threads gave a one-point phase ratio up to 3.7e6; post-seal the least-squares phase over a whole period equals i^(#L-#R) on all 30 674 threads to 1.4e-8; main's second E74 instance of the day, the seal unreviewed as disclosed). Read-outs identical to B1664's: layer averages of f 0.3144 (traces 451-600) against 0.3692 (t <= 20), the gap falling as t^-0.51; phase-1 coherence slope -0.269 +- 0.083; the cusp family L^(4m+1) R to 0.9923. B1666 seals the robust estimator. 0 of 19.” |  | 0 |
  | `B1827` | “THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G: a blind sixth reader verified citation by citation, and main's control R1). Computed data-free (two coarse facts disclosed): the CKM's corner inversion is a construction choice -- the mirror rule cannot lift it, a same-sign singlet Higgs does nothing, an opposite-sign singlet (exactly the ADJUGATE reading adj(S) = eps S^T eps^T) balances the corners at all ten non-null phases (33-47% against 2%; median |V_ub|/|V_td| about 0.9, not nature's 0.43); on all 24 order-5 lines the frame is minimal SU(5) (Y_u symmetric, Y_e = lam Y_d^T with lam^5 = 1) and the leptons read the down sector through the adjugate, Y_e(S) = -lam Y_d(adj S)^T; c = 3 is the Georgi-Jarlskog factor by hand; the 45-like singlet does NOT give Georgi-Jarlskog's pattern (S290's claim retracted: mislabelled). Recognition: a theory exact at 2e16 GeV scores chi2_ten 11.8 at M_Z and pays 8.5 bits on K (one loop; B1825's address leaves 3.6); the headline counts a tier the record retired, and no outcome of any current test can move it. Six of the 19 have no frame; three are unexamined outputs. Claims no parameter. 0 of 19.” |  | 0 |
@@ -662,42 +616,6 @@ index 65e1deaea..9063d6663 100644
 - "claim_one_line": "THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept, each recomputed by main's code -- (1) the twisted channel norms c_s are identical in the up, down and lepton sectors (spread 1.3e-12; the closed form is sm:W177); (2) B1788's hypothesis (b) fails identically on the slopes 1/12, 1/4 and 5/12 (c_j + c_k - c_1 - c_i within 5e-12 on every line and tau tested, finite tau, all sectors); (3) B1825's miss is a CKM corner inversion (at its address |V_ub|/(|V_us||V_cb|) 1.06, |V_td|/(|V_us||V_cb|) 0.094, |V_ub|/|V_td| 11.3, sin delta 0.08), a strong tendency of the frame, not a no-go. DECLINED: FR-COV's 'pass' of B1825's gates and every 'parameter-free', 'zero-bit' or 'ToE' claim (tau fitted then named, checked on main from the lane's history; characters selected 3rd of 2048; m_H from a factor-2 RGE error; the rest coincidences at chance), conceded by the lane itself (0 of 19). The four 'Step B defects' change nothing in B1825 (4B, a gap in 'physical', P-557). 0 of 19. [Review 74: the vanishing on these slopes holds where 12p2 is an integer, not on (1/4, odd/8); the LL pair's norms are not the charged sectors' (verification/review74/)]",
 + "claim_one_line": "A LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with a lane's source review and another lane's recomputation): three results kept, each recomputed by main's code -- (1) the twisted channel norms c_s are identical in the up, down and lepton sectors (spread 1.3e-12; the closed form is sm:W177); (2) B1788's hypothesis (b) fails identically on the slopes 1/12, 1/4 and 5/12 (c_j + c_k - c_1 - c_i within 5e-12 on every line and tau tested, finite tau, all sectors); (3) B1825's miss is a CKM corner inversion (at its address |V_ub|/(|V_us||V_cb|) 1.06, |V_td|/(|V_us||V_cb|) 0.094, |V_ub|/|V_td| 11.3, sin delta 0.08), a strong tendency of the frame, not a no-go. DECLINED: FR-COV's 'pass' of B1825's gates and every 'parameter-free', 'zero-bit' or 'ToE' claim (tau fitted then named, checked on main from the lane's history; characters selected 3rd of 2048; m_H from a factor-2 RGE error; the rest coincidences at chance), conceded by the lane itself (0 of 19). The four 'Step B defects' change nothing in B1825 (4B, a gap in 'physical', P-557). 0 of 19. [Review 74: the vanishing on these slopes holds where 12p2 is an integer, not on (1/4, odd/8); the LL pair's norms are not the charged sectors' (verification/review74/)]",
   "weave_or_thread": "thread"
- }
-diff --git a/frontier/B1832_the_agy_lanes_digested/FINDINGS.md b/frontier/B1832_the_agy_lanes_digested/FINDINGS.md
-index a8505409f..8015f8abc 100644
---- a/frontier/B1832_the_agy_lanes_digested/FINDINGS.md
-+++ b/frontier/B1832_the_agy_lanes_digested/FINDINGS.md
-@@ -237,3 +237,7 @@
- > asserts became 112, 150 keys became 134); R82-2 carried such a rewrite, which was not taken. The script now reads the
- > commit `18c6070407434376367ed97d32726c9d6b056594`, and its rerun reproduces the committed `.json` and `_out.txt` byte for
- > byte. Nothing this page states changes.
-+
-+**[RE-WORDED 2026-11-26 (Review 82's item R82-2; main's rule of M41: a claim line names no seat other than main): the verdict line named THE AGY LANES, agy as its source or subject; the credit stands in `cites_seat`, the line names "a seat" in its place, and the line as it stood is in git's history at b11a892ca. Nothing else of the line changed.]**
-+
-+**[RE-WORDED 2026-11-28 (R82-2 v2; main's rule of M41, its list opened at M53): the verdict line named the independent audit lane, as its source or subject; the credit stands in `cites_seat`, the line names "a seat" or "a lane" in its place, and the line as it stood is in git's history at 177831428. Nothing else of the line changed.]**
-diff --git a/frontier/B1832_the_agy_lanes_digested/arc_verdict.json b/frontier/B1832_the_agy_lanes_digested/arc_verdict.json
-index 3031bf262..7fde82c09 100644
---- a/frontier/B1832_the_agy_lanes_digested/arc_verdict.json
-+++ b/frontier/B1832_the_agy_lanes_digested/arc_verdict.json
-@@ -17,7 +17,10 @@
-   "B1830"
-  ],
-  "rests_on_seat": [],
-- "cites_seat": [],
-+ "cites_seat": [
-+  "named in the claim line until 2026-11-26 and credited here (R82-2, main's rule of M41): THE AGY LANES; agy",
-+  "named in the claim line until 2026-11-28 and credited here (R82-2 v2, main's rule of M41 and M53): the independent audit lane"
-+ ],
-  "supersedes": null,
-  "superseded_by": null,
-  "authored_by": "cc",
-@@ -27,6 +30,6 @@
-   "reach": "general",
-   "hypotheses": "every line and tau for 1.1 and 1.2; the 40 beta-half-lifts for 1.3; the census's F_a for 1.5; derivations of 1.1 and 1.3 written by main's verifier and re-run by main; 1.2, 1.4, 1.6 exact to machine precision, not proved; H = I (B1822)"
-  },
-- "claim_one_line": "THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (about sixty checks re-run by main, identical). Banked: T-KERNEL-SUM-TWIST (every channel kernel is a Kronecker kernel of the summed twist -- P-524's lemma with a written derivation; RI-1 a theorem: a0 odd between up and down/lepton in every channel), T-HALF-LIFT-LEPTON-DOWN (Y_e(S) = lambda D Y_d(Sigma S)^T D on the order-10 half-lifts, lambda D Y_d(Sigma S) D on the order-8, for any Higgs -- S297's coincidence proved; a0 != 0 splits order 8), T-FA-NORM (F_10's v.v = -80 eta^12 E4), T-THETA-Y-BSTEP (264 pi a; 66a^2 + 1/4 not an integer); exact identities: the residues as theta products (the i-residue zeros 5w or 3w = 1/2), the LL pair = the charged sectors at the doubled line, the mirror as P conj(Y) P. Corrected on main: B1784's i-residue wording and its 'saddle' (tau* not a critical point), B1826 1.3's population (719 of 1127 hierarchical rows have the measured corner order). Refuted: a dozen agy claims incl. fabricated seen-first names. The scorecard: 0 of 19. y_b/y_t and y_tau/y_b parts unread by main.",
-+ "claim_one_line": "THE SEATS' LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both seat branches and a third lane typed and dispositioned, every data-free one checked on main's code (about sixty checks re-run by main, identical). Banked: T-KERNEL-SUM-TWIST (every channel kernel is a Kronecker kernel of the summed twist -- P-524's lemma with a written derivation; RI-1 a theorem: a0 odd between up and down/lepton in every channel), T-HALF-LIFT-LEPTON-DOWN (Y_e(S) = lambda D Y_d(Sigma S)^T D on the order-10 half-lifts, lambda D Y_d(Sigma S) D on the order-8, for any Higgs -- S297's coincidence proved; a0 != 0 splits order 8), T-FA-NORM (F_10's v.v = -80 eta^12 E4), T-THETA-Y-BSTEP (264 pi a; 66a^2 + 1/4 not an integer); exact identities: the residues as theta products (the i-residue zeros 5w or 3w = 1/2), the LL pair = the charged sectors at the doubled line, the mirror as P conj(Y) P. Corrected on main: B1784's i-residue wording and its 'saddle' (tau* not a critical point), B1826 1.3's population (719 of 1127 hierarchical rows have the measured corner order). Refuted: a dozen seat claims incl. fabricated seen-first names. The scorecard: 0 of 19. y_b/y_t and y_tau/y_b parts unread by main.",
-  "weave_or_thread": "weave (the frame's coupling)"
  }
 diff --git a/frontier/B1834_the_total_inputs_scoreboard/FINDINGS.md b/frontier/B1834_the_total_inputs_scoreboard/FINDINGS.md
 index 8e56fc98d..adc9936b2 100644
@@ -2881,35 +2799,38 @@ index 240c2268c..0952d4d49 100644
   "weave_or_thread": "neither (a theorem of analysis used by one seat's supplied model)"
  }
 diff --git a/frontier/B1961_six_verification_debts_recomputed_on_main/FINDINGS.md b/frontier/B1961_six_verification_debts_recomputed_on_main/FINDINGS.md
-index e15955809..89b8ff038 100644
+index e15955809..c1f57dec9 100644
 --- a/frontier/B1961_six_verification_debts_recomputed_on_main/FINDINGS.md
 +++ b/frontier/B1961_six_verification_debts_recomputed_on_main/FINDINGS.md
-@@ -152,3 +152,5 @@
+@@ -152,3 +152,7 @@
  `<name>_run.txt` (main's run from this folder). The lock is `tests/test_b1961_six_debts.py`.
  
  0 of 19.
 +
 +**[RE-WORDED 2026-11-26 (Review 82's item R82-2; main's rule of M41: a claim line names no seat other than main): the verdict line named the SM seat as its source or subject; the credit stands in `cites_seat`, the line names "a seat" in its place, and the line as it stood is in git's history at b11a892ca. Nothing else of the line changed.]**
++
++**[RE-WORDED 2026-11-28 (R82-2 v2; main's rule of M41, its list opened at M53 and M85): the verdict line named the auditor, as its source or subject; the credit stands in `cites_seat`, the line names "a seat" in its place, and the line as it stood is in git's history at 344e75de9. Nothing else of the line changed.]**
 diff --git a/frontier/B1961_six_verification_debts_recomputed_on_main/arc_verdict.json b/frontier/B1961_six_verification_debts_recomputed_on_main/arc_verdict.json
-index ddbbdf62f..b89e8fe98 100644
+index ddbbdf62f..c14484bab 100644
 --- a/frontier/B1961_six_verification_debts_recomputed_on_main/arc_verdict.json
 +++ b/frontier/B1961_six_verification_debts_recomputed_on_main/arc_verdict.json
-@@ -21,7 +21,8 @@
+@@ -21,7 +21,9 @@
    "sm:W27",
    "sm:W28",
    "sm:W30",
 -  "sm:W47"
 +  "sm:W47",
-+  "named in the claim line until 2026-11-26 and credited here (R82-2, main's rule of M41): the SM seat"
++  "named in the claim line until 2026-11-26 and credited here (R82-2, main's rule of M41): the SM seat",
++  "named in the claim line until 2026-11-28 and credited here (R82-2 v2, main's rule of M41, M53 and M85): the auditor"
   ],
   "supersedes": null,
   "superseded_by": null,
-@@ -32,6 +33,6 @@
+@@ -32,6 +34,6 @@
    "reach": "single",
    "hypotheses": "the seats' readings (W27's 'given Lambda', W28's physics identifications, W47's headline) are not checked; P-156's dim Lambda_+ - 3 and M_{1,2} identification are not computed anywhere on main; no data compared"
   },
 - "claim_one_line": "SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): the SM seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; the auditor's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.",
-+ "claim_one_line": "SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): a seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; the auditor's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.",
++ "claim_one_line": "SIX VERIFICATION DEBTS RECOMPUTED ON MAIN (PROVED, a verification arc; data-free): a seat's W30 holds (Q2 in SU(3); 216 is an order modulo scalars); W27's representation theory holds exactly (18 doublets, every anomaly sum zero) and its Dobrescu-Poppitz clause selects three only if a sector is one generation, not a full 27; W28 holds (2O, 2 + 4, the index sets, the Clifford group, PSL(2, Z/4) = S4) except that its middle conditions break flavour U(3) to U(1) x U(2), not to a phase; W47's 24 characters, six twists and odd cusp exponents hold and its index table is not reproduced (main gets +1 at j = 4 only, as B1634); B1602's forced kernel cannot be identified from the record, so its counts are restated over candidate kernels (17 of 42 on some, 16 on reliable ones); B1606's index premise holds with a dependence on block scalars, its dim Lambda_+ - 3 and M_{1,2} identification uncomputed; a seat's B1620 run reproduced (TM2 two-parameter families with a Majorana Sym^2 T neutrino; TM1 only with a T-bar x T neutrino). 0 of 19.",
   "weave_or_thread": "weave"
  }
 diff --git a/frontier/B1962_frame_d1s_cusp_mixing/FINDINGS.md b/frontier/B1962_frame_d1s_cusp_mixing/FINDINGS.md
@@ -3150,152 +3071,14 @@ index 157f46deb..241a8cf2e 100644
 + "claim_one_line": "REVIEW 86 ENTERED (PROVED, a process arc): three cold readers caught six of the seven plants (the miss: a number inside a later dated note) and found real faults in all eight arcs read; main checked each on the live tree and mended it -- B1971's census redone at the true orders (120 points of orders 8 and 10, 108 aligned, every failure on a = 1/2, matching B1963's 12), B1970's holomorphy redone on the coupling itself (holomorphic under S, not under S~), B1973's statement of a seat's certificate corrected, B1972's BANK-3 identities and BANK-5 wording, B1974's title, B1964's coverage, B1962's stale section, B1969's interpretation; anchor f4a0ab61f",
   "weave_or_thread": "neither (a review of the record's own window)"
  }
-diff --git a/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/FINDINGS.md b/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/FINDINGS.md
-index ca24fa910..5af3107e2 100644
---- a/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/FINDINGS.md
-+++ b/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/FINDINGS.md
-@@ -78,3 +78,5 @@
- 
- - **P-845 stays open.** B1980 records that B1976's 96 points are the act's own cusps on X(30), so the menu is the act's,
-   but the class within it is not fixed.
-+
-+**[RE-WORDED 2026-11-26 (Review 82's item R82-2; main's rule of M41: a claim line names no seat other than main): the verdict line named agy-exp as its source or subject; the credit stands in `cites_seat`, the line names "a seat" in its place, and the line as it stood is in git's history at b11a892ca. Nothing else of the line changed.]**
-diff --git a/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/arc_verdict.json b/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/arc_verdict.json
-index 5821a2e7f..5222ae721 100644
---- a/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/arc_verdict.json
-+++ b/frontier/B1981_the_canonical_order_6_shell_read_on_frame_c_at_order_30/arc_verdict.json
-@@ -14,7 +14,8 @@
-  "rests_on_seat": [],
-  "cites_seat": [
-   "agy-exp",
--  "chat1"
-+  "chat1",
-+  "named in the claim line until 2026-11-26 and credited here (R82-2, main's rule of M41): agy-exp"
-  ],
-  "supersedes": null,
-  "superseded_by": null,
-@@ -25,6 +26,6 @@
-   "reach": "class",
-   "hypotheses": "the two readings as declared on the card; agy-exp's own two-doublet construction is not frame C and is not tested here"
-  },
-- "claim_one_line": "THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over agy-exp's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set",
-+ "claim_one_line": "THE CANONICAL ORDER-6 SHELL READ ON FRAME C AT ORDER 30 PICKS NO CLASS (NEGATIVE as sealed, PROVISIONAL: no second computation yet; data-free): averaged over a seat's 24-point shell, frame C's rates fall off B1979's menu in both declared readings; the Gramian reading gives m2/m3 rate 0 and m1/m3 rate 1 in every sector (post hoc at higher precision), the linear reading loses the alignment (least diagonal 0.74-0.86), makes the 2-3 mixing order one and depends on the weight (1.6e-2); B1944's washing-out on a finite canonical set",
-  "weave_or_thread": "thread (frame C over blocks cut by m004's act's line; relabelled 2026-11-25 from 'the weave', P-883)"
- }
-diff --git a/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/FINDINGS.md b/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/FINDINGS.md
-index f72f77744..c9f46bdb9 100644
---- a/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/FINDINGS.md
-+++ b/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/FINDINGS.md
-@@ -124,3 +124,5 @@
- - **C49 to C56** are registered by name (harvest row 2002), not read in full.
- - **Items 2 and 3 on main's own frame C implementation,** not the seat's function, so that they move from REPRODUCED to
-   VERIFIED.
-+
-+**[RE-WORDED 2026-11-26 (Review 82's item R82-2; main's rule of M41: a claim line names no seat other than main): the verdict line named THE AGY LANE as its source or subject; the credit stands in `cites_seat`, the line names "a seat" in its place, and the line as it stood is in git's history at b11a892ca. Nothing else of the line changed.]**
-diff --git a/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/arc_verdict.json b/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/arc_verdict.json
-index edc37994c..f560ebc76 100644
---- a/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/arc_verdict.json
-+++ b/frontier/B1999_agys_c59_package_checked_on_main_the_21x21_is_the_product_rule/arc_verdict.json
-@@ -14,7 +14,8 @@
-  "rests_on_seat": [],
-  "cites_seat": [
-   "the agy lane's card AGY-C59 and its summary relayed by the author (the lane's local commit e4d220b75 on this machine, not yet pushed; harvest row 2002): E1 to E4 checked here; C57 and C58 the same claims, stopped before output",
--  "the agy lane's frame C Yukawa function (its sealed C59 producer, SHA-256 b399b206, run read-only by the ruling of 2026-11-24): items 2 and 3 and item 4's response are REPRODUCED on it by main's code, not recomputed on main's own frame C (owed, P-884 Q3); the identity on item 4 uses main's code only"
-+  "the agy lane's frame C Yukawa function (its sealed C59 producer, SHA-256 b399b206, run read-only by the ruling of 2026-11-24): items 2 and 3 and item 4's response are REPRODUCED on it by main's code, not recomputed on main's own frame C (owed, P-884 Q3); the identity on item 4 uses main's code only",
-+  "named in the claim line until 2026-11-26 and credited here (R82-2, main's rule of M41): THE AGY LANE"
-  ],
-  "supersedes": null,
-  "superseded_by": null,
-@@ -25,6 +26,6 @@
-   "reach": "class",
-   "hypotheses": "the identity is main's own exact linear algebra; the rest uses the seat's frame C function and L2 = 2.663604442987991 (reproducing its sealed output to 4e-8); nothing compared with data"
-  },
-- "claim_one_line": "THE AGY LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K",
-+ "claim_one_line": "A LANE'S C59 PACKAGE CHECKED ON MAIN (PROVED for its checks; data-free): on the seat's own frame C function (reproduced by main's code; main's own frame C recompute owed, P-884), the up sector's 12-turn phase is exactly e^{-+2 pi i/5} and the down and lepton phases 1 on all 8 orbits, and clockwise and counterclockwise chains from every mirror wall give identical CP-even outputs and opposite J (both to 1e-38); the systole identity holds but does not make the whole select m004; the 'zero-parameter' 21 x 21 boundary-Dirac matrix's Schur complement is exactly the ordered 7-fold product Y0 Y1^H ... Y6 / s^6 (4e-41; the step cancels in every ratio), so it re-expresses the product rule; the hierarchy's depth follows the chain length (up m1/m3 from 3.5e-5 at K = 1 to 1e-26 at K = 11) and its pattern the chain chosen (at K = 7 over 96 chains up m2/m3 0.0035 to 0.36, |J| 2e-4 to 0.029, u > d > e on 36 of 96); credit: one tiny singular value in a single Yukawa and mixing moduli stable in K",
-  "weave_or_thread": "the thread (m004's order-30 thread at the golden point, as the seat built it)"
- }
-diff --git a/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/FINDINGS.md b/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/FINDINGS.md
-index 0f4848bcc..d3daa8f9a 100644
---- a/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/FINDINGS.md
-+++ b/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/FINDINGS.md
-@@ -68,3 +68,5 @@
- 
- - **NI-2, NI-4 and NI-5** are registered, not checked. NI-2's one-loop reading is a field-theory premise to be located.
- - **Whether 14 : 5 at (3,3,3) persists along ω's orbit** (the Markoff tree), or changes, as the unfolding moves outward.
-+
-+**[RE-WORDED 2026-11-26 (Review 82's item R82-2; main's rule of M41: a claim line names no seat other than main): the verdict line named AGY-EXP as its source or subject; the credit stands in `cites_seat`, the line names "a seat" in its place, and the line as it stood is in git's history at b11a892ca. Nothing else of the line changed.]**
-diff --git a/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/arc_verdict.json b/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/arc_verdict.json
-index d1c9e0614..6f56b7aab 100644
---- a/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/arc_verdict.json
-+++ b/frontier/B2000_listening_15_agy_exps_native_interactions_checked_the_split_at_omega_and_the_fusion/arc_verdict.json
-@@ -4,9 +4,17 @@
-  "instrument": false,
-  "creates_law": false,
-  "identifications": [],
-- "depends_on": ["B1995", "B1994", "B1993", "B1989"],
-+ "depends_on": [
-+  "B1995",
-+  "B1994",
-+  "B1993",
-+  "B1989"
-+ ],
-  "rests_on_seat": [],
-- "cites_seat": ["agy-exp's X-NATURAL-INTERACTIONS (origin/agy/self-consistent-loop-2026-11-11 @ b41678f5d, harvest row 2009): NI-1 (the split at (3,3,3)) and NI-3 (the fusion fractions) recomputed on main's own code and verified; NI-2, NI-4, NI-5 registered, not checked"],
-+ "cites_seat": [
-+  "agy-exp's X-NATURAL-INTERACTIONS (origin/agy/self-consistent-loop-2026-11-11 @ b41678f5d, harvest row 2009): NI-1 (the split at (3,3,3)) and NI-3 (the fusion fractions) recomputed on main's own code and verified; NI-2, NI-4, NI-5 registered, not checked",
-+  "named in the claim line until 2026-11-26 and credited here (R82-2, main's rule of M41): AGY-EXP"
-+ ],
-  "supersedes": null,
-  "superseded_by": null,
-  "authored_by": "cc",
-@@ -16,6 +24,6 @@
-   "reach": "class",
-   "hypotheses": "sympy exact; quaternion counts exact as rationals, kappa classified to the nine levels with residual at most 1.2e-14"
-  },
-- "claim_one_line": "LISTENING 15, AGY-EXP'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair at 5, 5 (28, 10, 10 with the inverse moves), against 2, 2, 2 at the common point, so the whole natively gives 3 -> 1 + 2 and keeps the pair locked; agy-exp's NI-1 reproduced ((14/3, 5/3, 5/3), spectrum {1, (7 -+ sqrt 41)/2}; its diagonal is exactly the covariant part); its NI-3 fusion fractions reproduced exactly for Q8 (1/3, 2/3), 2O, 2I (never -phi, -1, 1/phi) and the 2I three-body law {18,12,6,41,38,12,51,41,6}/225",
-+ "claim_one_line": "LISTENING 15, A SEAT'S NATIVE INTERACTIONS CHECKED (PROVED, exact; data-free): at omega's own point (3,3,3) the C-covariant unfolding is diagonal in the charge basis with the neutral member at 14 and the charged pair at 5, 5 (28, 10, 10 with the inverse moves), against 2, 2, 2 at the common point, so the whole natively gives 3 -> 1 + 2 and keeps the pair locked; a seat's NI-1 reproduced ((14/3, 5/3, 5/3), spectrum {1, (7 -+ sqrt 41)/2}; its diagonal is exactly the covariant part); its NI-3 fusion fractions reproduced exactly for Q8 (1/3, 2/3), 2O, 2I (never -phi, -1, 1/phi) and the 2I three-body law {18,12,6,41,38,12,51,41,6}/225",
-  "weave_or_thread": "weave (every move acting together, nothing chosen)"
- }
-diff --git a/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/FINDINGS.md b/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/FINDINGS.md
-index d421260fa..0fc018f30 100644
---- a/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/FINDINGS.md
-+++ b/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/FINDINGS.md
-@@ -107,3 +107,5 @@
-   (NH-3) and the outward ratio (NH-4).
- - **agy:** the level mod 135 that breaks B2005's pattern, the mod-45 gcd, the commutator's waking at mod 243, the sextic at
-   mod 81, and the all-k argument whose every computed step holds on main for every k.
-+
-+**[RE-WORDED 2026-11-26 (Review 82's item R82-2; main's rule of M41: a claim line names no seat other than main): the verdict line named agy-exp, agy as its source or subject; the credit stands in `cites_seat`, the line names "a seat" in its place, and the line as it stood is in git's history at b11a892ca. Nothing else of the line changed.]**
-diff --git a/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/arc_verdict.json b/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/arc_verdict.json
-index 290e8e7ca..beab4343d 100644
---- a/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/arc_verdict.json
-+++ b/frontier/B2011_listening_26_what_the_other_listeners_heard_checked_on_main/arc_verdict.json
-@@ -17,7 +17,8 @@
-  "rests_on_seat": [],
-  "cites_seat": [
-   "the agy lane's C60 (origin/agy/cusp-action-2026-11-20 @ 5bdaced13, harvest row 2010): the level mod 135, the gcd at mod 45, the commutator at mod 243, the sextic at mod 81 and every computed step of the all-k argument recomputed on main's own code and verified; the assembly read, not checked line by line; its section 1 (M18 concessions, the P-884 E3b decline) registered",
--  "agy-exp's X-NINTH-ROOTS-AND-CHIRALITY (origin/agy/self-consistent-loop-2026-11-11 @ 4c1d39aa3, harvest row 2011): NH-1, NH-2, NH-3's leading term and NH-4 recomputed on main's own code and verified; NH-3's mod-243 collapse and NH-5 registered, not checked"
-+  "agy-exp's X-NINTH-ROOTS-AND-CHIRALITY (origin/agy/self-consistent-loop-2026-11-11 @ 4c1d39aa3, harvest row 2011): NH-1, NH-2, NH-3's leading term and NH-4 recomputed on main's own code and verified; NH-3's mod-243 collapse and NH-5 registered, not checked",
-+  "named in the claim line until 2026-11-26 and credited here (R82-2, main's rule of M41): agy-exp; agy"
-  ],
-  "supersedes": null,
-  "superseded_by": null,
-@@ -28,6 +29,6 @@
-   "reach": "class",
-   "hypotheses": "exact: FLINT characteristic polynomials over Z (and over GF(p) with CRT past the 7^d bound), factorisations and gcds; sympy; numpy on every point; mod 625 modulo three 62-bit primes; double-precision spectra to 1.4e-14 alongside"
-  },
-- "claim_one_line": "LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): agy-exp's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125, 343 (its exact factor divides the characteristic polynomial over Z) and 625 (modulo three primes): one formula at the primes 3, 5 and 7, in the five levels run, that main had not heard; agy's level mod 135 keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws (both corrected); the halving identity holds exactly over Z at mod 243; every computed step of agy's all-k argument holds on main from mod 9 to mod 6561 and, by main's reading, for every k; the orbit is the whole congruence set to mod 6561; the 648-point orbit is the honeycomb torus {0,1} x (Z/18)^2; the outward ratio is (4s + 6) : (s + 6); the assembly for every k is read, not checked line by line",
-+ "claim_one_line": "LISTENING 26, WHAT THE OTHER LISTENERS HEARD, CHECKED ON MAIN (PROVED for its checks; data-free): a seat's law Lambda(M) = sqrt(w + sqrt(w^2 - 4)), w = (1 + 4 cos(pi/M))/2, gives main's slowest decay at mod 27, 81, 125, 343 (its exact factor divides the characteristic polynomial over Z) and 625 (modulo three primes): one formula at the primes 3, 5 and 7, in the five levels run, that main had not heard; a seat's level mod 135 keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws (both corrected); the halving identity holds exactly over Z at mod 243; every computed step of a seat's all-k argument holds on main from mod 9 to mod 6561 and, by main's reading, for every k; the orbit is the whole congruence set to mod 6561; the 648-point orbit is the honeycomb torus {0,1} x (Z/18)^2; the outward ratio is (4s + 6) : (s + 6); the assembly for every k is read, not checked line by line",
-  "weave_or_thread": "weave (every move acting together, nothing chosen)"
- }
 diff --git a/scripts/gates/SEAT_NAMES.json b/scripts/gates/SEAT_NAMES.json
 new file mode 100644
-index 000000000..245b786eb
+index 000000000..2b7b5ec32
 --- /dev/null
 +++ b/scripts/gates/SEAT_NAMES.json
-@@ -0,0 +1,31 @@
+@@ -0,0 +1,45 @@
 +{
-+ "note": "The names of the seats other than main that a verdict line may not name (R82-2; main's rule of M41; main's M53: the list is open). The gate `claim-names-no-session` reads this file, so a new seat is covered by a line here, not an edit of the gate. Each entry of `names` is a regular expression for one name as the record writes it. Each word of `seat_words` is read in every form `the <word> lane`, `the <word> seat`, `the <word> family` and `the <word> branches` (and their plurals), so a synonym of a lane's name is read too. Each entry of `builder` is a way the record names the building session by its work. When the author's identity table of draft 1, section 8, exists, the gate reads its names from there instead.",
++ "note": "The names of the seats other than main that a verdict line may not name (R82-2; main's rule of M41; main's M53: the list is open). The gate `claim-names-no-session` reads this file, so a new seat is covered by a line here, not an edit of the gate. Each entry of `names` is a regular expression for one name as the record writes it. Each word of `seat_words` is read in every form `the <word> lane`, `the <word> seat`, `the <word> family` and `the <word> branches` (and their plurals), so a synonym of a lane's name is read too. Each entry of `builder` is a way the record names the building session by its work. CHANGED 2026-11-28 (main's M85): the words of the lanes' names are also every seat label of the Pins table of docs/HARVEST_LEDGER.md, which the gate reads, with the hand list beside it; a label with a digit is read on its own too, and a hyphen stands for the space. When the author's identity table of draft 1, section 8, exists, the gate reads its names from there instead.",
 + "names": [
 +  "agy-(?:exp|002|\\d+)",
 +  "agy(?=\\b)",
@@ -3303,7 +3086,10 @@ index 000000000..245b786eb
 +  "codex",
 +  "cld-advisor",
 +  "the building session",
-+  "the advisor seat"
++  "the advisor seat",
++  "the hostile reader",
++  "the outside referee",
++  "the auditor"
 + ],
 + "seat_words": [
 +  "agy",
@@ -3317,19 +3103,30 @@ index 000000000..245b786eb
 +  "physical",
 +  "physical-bridge",
 +  "explore",
-+  "explorer"
++  "explorer",
++  "physics",
++  "building",
++  "banking"
 + ],
 + "builder": [
 +  "the builder of the (?:gates|enforcement package)",
 +  "the (?:gates'|gates's|gate's|enforcement package's) builder",
 +  "its builder"
++ ],
++ "_about_held": "ADDED 2026-11-28 (main's M85, correction 1): the trial's own arcs, which stay as they stand until the trial ends (since Review 89 nothing of theirs is edited while the trial runs); the gate does not read their lines. Main re-words the five after the trial, with this list emptied in the same commit.",
++ "held_until_the_trial_ends": [
++  "B1832",
++  "B1981",
++  "B1999",
++  "B2000",
++  "B2011"
 + ]
 +}
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index a1d01c92e..b79987726 100644
+index a1d01c92e..457542994 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
-@@ -3664,6 +3664,70 @@
+@@ -3664,6 +3664,105 @@
          return False, "%d problem(s): " % len(bad) + "; ".join(bad[:5])
      return True, "ok (%d round(s) sealed, %d ledger(s) opened, each hashing to its seal and opened after it)" % (
          len(seals), opened)
@@ -3344,15 +3141,50 @@ index a1d01c92e..b79987726 100644
 +SEAT_NAMES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "SEAT_NAMES.json")
 +
 +
-+def claim_name_pattern(names=None):
-+    """the pattern of every name of a seat other than main, from SEAT_NAMES.json (or the given dict)"""
++# CHANGED 2026-11-28 (main's M85, correction 2): the words of the lanes' names are taken from the record too: every seat
++# label of the Pins table of docs/HARVEST_LEDGER.md, beside the hand list; a label with a digit (cc3, sm2) is read on its
++# own as well; a hyphen stands for the space ("the web-seat"). And the trial's own arcs, `held_until_the_trial_ends` in
++# SEAT_NAMES.json, are not read until the trial ends (correction 1).
++PINS_LEDGER = os.path.join(ROOT, "docs", "HARVEST_LEDGER.md")
++
++
++def pins_labels(text=None):
++    """the seat labels of the Pins table of the harvest ledger: the first cell of each of its rows"""
++    if text is None:
++        with open(PINS_LEDGER, encoding="utf-8") as fh:
++            text = fh.read()
++    start = text.find("\n## Pins")
++    if start < 0:
++        return []
++    end = text.find("\n## ", start + 4)
++    out = []
++    for line in text[start:end if end > 0 else len(text)].splitlines():
++        cells = [c.strip() for c in line.strip().strip("|").split("|")] if line.startswith("|") else []
++        if cells and cells[0] and cells[0] != "seat" and not set(cells[0]) <= set("-: "):
++            out.append(cells[0])
++    return out
++
++
++def claim_name_pattern(names=None, labels=None):
++    """the pattern of every name of a seat other than main, from SEAT_NAMES.json (or the given dict) and the Pins table's
++    labels (or the given list)"""
 +    if names is None:
 +        with open(SEAT_NAMES, encoding="utf-8") as fh:
 +            names = json.load(fh)
-+    words = sorted(names.get("seat_words", []), key=len, reverse=True)
-+    lanes = r"the (?:%s) (?:lanes?|seats?|famil(?:y|ies)|branch(?:es)?)" % "|".join(re.escape(w) for w in words)
-+    alts = list(names.get("names", [])) + ([lanes] if words else []) + list(names.get("builder", []))
++    labels = pins_labels() if labels is None else labels
++    words = sorted(set(names.get("seat_words", [])) | set(labels), key=len, reverse=True)
++    lanes = r"the (?:%s)[ -](?:lanes?|seats?|famil(?:y|ies)|branch(?:es)?)" % "|".join(re.escape(w) for w in words)
++    bare = [re.escape(l) for l in labels if re.search(r"\d", l)]
++    alts = list(names.get("names", [])) + bare + ([lanes] if words else []) + list(names.get("builder", []))
 +    return re.compile(r"(?<![\w:/-])(" + "|".join(alts) + r")('s)?(?![\w/-])", re.I)
++
++
++def claim_names_held(names=None):
++    """the arcs the gate does not read until the trial ends (main's M85)"""
++    if names is None:
++        with open(SEAT_NAMES, encoding="utf-8") as fh:
++            names = json.load(fh)
++    return set(names.get("held_until_the_trial_ends", []))
 +
 +
 +_CN_SCRIPT = re.compile(r"(map|programme|plan|lock|table|page|gate|script)'s builder|by its builder|its builder (refuses|writes|reports)", re.I)
@@ -3378,7 +3210,7 @@ index a1d01c92e..b79987726 100644
 +    """R82-2: from B1814 on, a verdict line names no seat other than main; the credit stands in cites_seat"""
 +    reader = reader or (lambda rel: _read(rel))
 +    try:
-+        pattern = claim_name_pattern()
++        pattern, held = claim_name_pattern(), claim_names_held()
 +    except Exception as exc:                              # FAIL-CLOSED: no list of names, no pass
 +        return False, "the list of names %s cannot be read: %s" % (os.path.relpath(SEAT_NAMES, ROOT), exc)
 +    bad = []
@@ -3388,7 +3220,7 @@ index a1d01c92e..b79987726 100644
 +        except Exception:
 +            continue
 +        n = int(re.sub(r"\D", "", str(d.get("id") or "")) or 0)
-+        if n < CLAIM_NAMES_NO_SESSION_FROM:
++        if n < CLAIM_NAMES_NO_SESSION_FROM or str(d.get("id")) in held:
 +            continue
 +        found = claim_session_names(str(d.get("claim_one_line") or ""), pattern)
 +        if found:
@@ -3400,7 +3232,7 @@ index a1d01c92e..b79987726 100644
  
  
  GATES = {
-@@ -3725,6 +3789,7 @@
+@@ -3725,6 +3824,7 @@
      "queue-schema": gate_queue_schema,
      "known-failures": gate_known_failures,
      "plant-ledger": gate_plant_ledger,
@@ -3422,10 +3254,10 @@ index 4bd9829dd..a1ebb66d3 100644
  }
 diff --git a/tests/test_claim_names_no_session.py b/tests/test_claim_names_no_session.py
 new file mode 100644
-index 000000000..18b41c5c4
+index 000000000..70494ddd9
 --- /dev/null
 +++ b/tests/test_claim_names_no_session.py
-@@ -0,0 +1,89 @@
+@@ -0,0 +1,135 @@
 +"""R82-2 (Review 82's item; register row P-881; main's rule of M41 and M48): from B1814 on, a verdict line names no seat
 +other than main. The gate `claim-names-no-session`; each planted line stands with its twin. CHANGED 2026-11-28 (main's M53):
 +the list of names is open, in scripts/gates/SEAT_NAMES.json; the gate is probed with synonyms, with a name added to the list
@@ -3515,6 +3347,52 @@ index 000000000..18b41c5c4
 +    assert ok, msg
 +    reg = json.load(open(ROOT / "tests" / "GATE_CONTROLS.json", encoding="utf-8"))
 +    assert reg["claim-names-no-session"].endswith("::test_a_line_that_names_a_seat_fails_and_its_twin_passes")
++
++
++TRIAL_SET = {"B1832", "B1918"} | {"B%d" % n for n in range(1980, 2021)}
++
++
++def test_every_seat_label_of_the_pins_table_and_main_s_ten_are_read_m85(monkeypatch):
++    """main's M85, correction 2: the seat words are taken from the record (every Pins row's label), with the hand list
++    beside them; the ten names a probe of main's found the gate missing"""
++    labels = gates.pins_labels()
++    assert len(labels) >= 30 and {"referee", "cloud", "hostile", "sm2", "explore", "independent"} <= set(labels)
++    for label in labels:
++        for line in ("the %s seat's card" % label, "the %s lane's work" % label, "THE %s SEAT'S RESULT" % label.upper()):
++            assert not _run(monkeypatch, {99980: line})[0], line
++        if any(ch.isdigit() for ch in label):
++            assert not _run(monkeypatch, {99981: "%s's card, verified on main" % label})[0], label
++    for line in ("the physics seat's relay", "the referee lane's landing", "the hostile reader's memo", "the cloud seat's memos",
++                 "the outside referee's round", "sm2's verdict", "the banking seat's verdict", "the web-seat's card",
++                 "the building seat's patch", "the auditor's B1620 run reproduced"):
++        assert not _run(monkeypatch, {99982: line})[0], line
++    for line in ("a seat's B1620 run reproduced", "sm:B1516 cited", "the review of the arc", "an audit of 73 findings",
++                 "the cloud of points", "read in full by an independent reader", "a banking verdict"):
++        assert _run(monkeypatch, {99983: line})[0], line
++
++
++def test_a_label_added_to_the_pins_table_is_read_without_an_edit_of_the_gate_m85(monkeypatch):
++    text = "x\n\n## Pins\n\n| seat | branch | pin |\n|---|---|---|\n| lighthouse7 | `origin/l` | `abc` |\n\n## The rows\n"
++    assert gates.pins_labels(text) == ["lighthouse7"]
++    real = gates.pins_labels
++    monkeypatch.setattr(gates, "pins_labels", lambda text=None: real() + ["lighthouse7"])
++    assert not _run(monkeypatch, {99984: "the lighthouse7 lane's card"})[0]
++    assert not _run(monkeypatch, {99985: "lighthouse7's card"})[0]
++
++
++def test_the_trial_s_arcs_are_held_as_they_stand_and_only_they_m85(monkeypatch):
++    """main's M85, correction 1: B1832, B1981, B1999, B2000 and B2011 are the trial's and stay as they stand until it ends;
++    the list names exactly these five, every one of the trial's set; a held arc's line is not read, any other is"""
++    names = json.load(open(gates.SEAT_NAMES, encoding="utf-8"))
++    held = names["held_until_the_trial_ends"]
++    assert held == ["B1832", "B1981", "B1999", "B2000", "B2011"] and set(held) <= TRIAL_SET
++    assert gates.claim_names_held() == set(held)
++    assert _run(monkeypatch, {1981: "the web seat's result"})[0]                    # held: not read until the trial ends
++    assert not _run(monkeypatch, {1982: "the web seat's result"})[0]                # not held: read
++    for b in held:                                                                   # left exactly as main's head has them
++        (d,) = list(ROOT.glob("frontier/%s_*/arc_verdict.json" % b))
++        v = json.loads(d.read_text(encoding="utf-8"))
++        assert not any("R82-2" in str(c) for c in v.get("cites_seat") or []), b
 -- 
 2.43.0
 

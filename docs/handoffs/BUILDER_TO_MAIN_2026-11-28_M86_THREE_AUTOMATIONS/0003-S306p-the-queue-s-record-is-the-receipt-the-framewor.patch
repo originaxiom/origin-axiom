@@ -1,0 +1,384 @@
+From e21e4dfd2bc815fd992bad18aa088cc29cab1803 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 17:49:46 +0000
+Subject: [PATCH 3/3] S306p the queue's record is the receipt (the framework's
+ thin path; P-885; main's M86 point 3): relay_debt.py counts a card-delivery
+ relay answered when the queue's branch holds a record for every card it
+ delivers; harvest_debt.py counts a seat's card registered when the queue
+ holds a record for its branch and path, and a relay on the seat's branch
+ answered the same way; main's hand rows stay for what the queue does not see;
+ agy-002's four card-delivery relays answered on today's record; tests of each
+ case, each rule taken out failing one
+
+---
+ CHANGELOG.md                   | 13 +++++++
+ PROGRESS_LOG.md                |  9 +++++
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ docs/views/THE_SPINE.md        |  3 +-
+ scripts/checks/harvest_debt.py | 50 ++++++++++++++++++++++++--
+ scripts/checks/relay_debt.py   | 66 ++++++++++++++++++++++++++++++++--
+ tests/test_queue_receipt.py    | 62 ++++++++++++++++++++++++++++++++
+ 7 files changed, 199 insertions(+), 6 deletions(-)
+ create mode 100644 tests/test_queue_receipt.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 868d9e7bf..4ead09b32 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,18 @@
+ # Changelog
+ 
++## S306p THE QUEUE'S RECORD IS THE RECEIPT (the framework's thin path; P-885; main's M86 point 3) (2026-11-28)
++
++- **`scripts/checks/relay_debt.py`:** a relay that delivers claim cards (it names `relays/claims/CLAIM_*.md`) is answered,
++  with no row, when the queue's branch holds a record for every card it delivers. A relay that delivers no card (a
++  status, a question to main, a review) still needs its row.
++- **`scripts/checks/harvest_debt.py`:**
++  - a seat's claim card changed past the pin is an item of its own, registered when the queue holds a record for its
++    branch and path, or a row of the seat names it; otherwise it is NEW unrowed and aged like any item;
++  - a relay on the seat's branch whose delivered cards the queue holds, on that branch, needs no RELAY_LEDGER row.
++- **On today's record:** agy-002's four card-delivery relays, unrowed, are answered by the queue.
++- **Tests** in `tests/test_queue_receipt.py`: every card held, one missing, another branch, a relay with no card, a card
++  not on the branch, a row's registration, and the live run calling both readings; each rule, taken out, fails a test.
++
+ ## S306p A SEAT'S LISTENER WAKES ON THE QUEUE (the framework's thin path; P-885; main's M86 point 2) (2026-11-28)
+ 
+ - **`scripts/seats/listen.py --seat <name>`** also fetches the queue's branch and wakes, printing the card ids and what
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 2d0663ba3..a75e15b00 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20902,3 +20902,12 @@
+ with the cards and what is asked of it, once each, so main is free for the frontier.
+ 
+ 0 of 19.
++
++## 2026-11-28 — The queue's record stands as the receipt (S306p)
++
++**What happened.** For every card a seat filed, main used to write two lines by hand, one in the record of what each seat
++has sent and one in the record of messages answered. The intake's own record already says that each card was found and
++filed. The automatic checks now accept that record as the receipt, so main writes by hand only what the intake cannot
++see: a seat's status, a question, a review.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index d8cb96924..17b571477 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE QUEUE'S RECORD IS THE RECEIPT (the framework's thin path; P-885; main's M86 point 3) (2026-11-28)”
+ - “S306p A SEAT'S LISTENER WAKES ON THE QUEUE (the framework's thin path; P-885; main's M86 point 2) (2026-11-28)”
+ - “S306p A PUSH TO MAIN STARTS A ROUND (the framework's thin path; P-885; main's M86 point 1) (2026-11-28)”
+ - “S306p THE AUTHOR'S ORDER: MAIN TO THE FRONTIER; THREE AUTOMATIONS ASKED OF THE BUILDER (P-885; M86) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)”
+ - “S306p MAIN'S B2016 CARD RERUN ON THE AUTHOR'S MACHINE: REPRODUCED; BOTH BANKING SEATS' FIRST SEALS; AGY'S C72 (P-885; HARVEST ROWS 2083 TO 2085) (2026-11-28)”
+ - “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
+-- “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 0ec5d6a31..cd718b531 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1575 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1576 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1962,4 +1962,5 @@
+ - — `test_queue_offers_tool.py` 
+ - — `test_queue_peer_note.py` 
+ - — `test_queue_plants.py` 
++- — `test_queue_receipt.py` 
+ - — `test_seat_listener_queue.py` 
+diff --git a/scripts/checks/harvest_debt.py b/scripts/checks/harvest_debt.py
+index c6e73c81c..853189f28 100644
+--- a/scripts/checks/harvest_debt.py
++++ b/scripts/checks/harvest_debt.py
+@@ -27,6 +27,10 @@
+ the number and cannot close with unread seat results. Exit 1 = instrument integrity (pins
+ missing/malformed, ledger unparseable) or a --selftest control failing.
+ 
++[ADDED 2026-11-28 (main's M86 point 3): a seat's claim card (`relays/claims/CLAIM_*.md`) changed past the pin is an item
++of its own, REGISTERED when the queue's branch holds a record for its branch and path (or a row of the seat names it), and
++a relay on the seat's branch that delivers cards the queue holds is answered with no RELAY_LEDGER row (relay_debt.py).]
++
+ The check grades nothing. It counts. Reading and grading is the harvest arcs' work.
+ """
+ from __future__ import annotations
+@@ -295,6 +299,7 @@
+ 
+ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+ import commit_day  # noqa: E402  (the day is the commit's: see that module)
++import relay_debt  # noqa: E402  (main's M86 point 3: the queue's record as the receipt, read the same way in both checks)
+ 
+ 
+ def _today():
+@@ -676,6 +681,20 @@
+     return found
+ 
+ 
++# ---------------------------------------------------------------- the queue's record as the receipt (main's M86 point 3)
++def card_receipts(cards_new, branch, places, srows):
++    """(by the queue, by a row, unregistered): the seat's claim cards changed past its pin, split by what registers each:
++    the queue's record for (branch, path), else a ledger row of the seat that names the card's file"""
++    by_queue = sorted(p for p in cards_new if (branch, p) in places)
++    by_row = sorted(p for p in cards_new if p not in by_queue and any(pathlib.Path(p).name in r["text"] for r in srows))
++    return by_queue, by_row, sorted(p for p in cards_new if p not in by_queue and p not in by_row)
++
++
++def relays_answered(paths, show, on_head, places, branch):
++    """the relays of `paths` (unrowed, on the seat's branch) that deliver cards the queue holds, every one, on that branch"""
++    return [p for p in paths if relay_debt.answered_by_queue(show(p), places, branch, exists=lambda c: c in on_head)]
++
++
+ # ---------------------------------------------------------------- the live run
+ def run(fetch=False, strict=False):
+     t0 = time.time()
+@@ -714,6 +733,7 @@
+     main_relays = {pathlib.Path(p).name for p in _ls(main_ref, "", recursive=True) if RELAY_FILE_RE.fullmatch(pathlib.Path(p).name)}
+     today = _today()
+     totals = dict(new_unrowed=0, backlog=0, stale_rows=0, relays_unrowed=0, aged=0, index=0, mirror_lag=0, skipped=0)
++    places = None                               # main's M86 point 3: the queue's records, read once when first needed
+ 
+     for seat in SEATS:
+         k = seat["key"]
+@@ -773,16 +793,30 @@
+                 ct = int(lines[0])
+                 for p in lines[1:]:
+                     age_by_path[p] = max(age_by_path.get(p, 0), ct)
+-        new_age, unmapped = {}, []
++        new_age, unmapped, cards_new = {}, [], {}
+         for p, ct in age_by_path.items():
+             ids = path_ids(seat, p, idx)
+             age = (today - datetime.date.fromtimestamp(ct)).days
+             if ids:
+                 for i in ids:
+                     new_age[i] = min(new_age.get(i, 10 ** 6), age)
++            elif relay_debt.CARD_PATH_RE.fullmatch(p):
++                cards_new[p] = age                      # main's M86 point 3: a claim card is an item of its own
+             elif not RELAY_FILE_RE.fullmatch(pathlib.Path(p).name):
+                 unmapped.append(p)
+         rec = reconcile(set(idx), rows_ids, new_age)
++        # ADDED 2026-11-28 (main's M86 point 3): a seat's claim card changed past the pin is registered when the queue's
++        # branch holds a record for its branch and path, or a ledger row of the seat names it; else it is NEW unrowed, and
++        # aged like any item. Main's hand row is no longer needed for a card the queue has filed.
++        branch = ref.split("/", 1)[1] if ref and "/" in ref else seat["branch"]
++        if cards_new and places is None:
++            places = relay_debt.queue_places()
++        by_queue, by_row, unreg = card_receipts(cards_new, branch, places or set(), srows)
++        rec["new_rowed"] += ["card:" + p for p in by_queue + by_row]
++        rec["new_unrowed"] += ["card:" + p for p in unreg]
++        rec["aged"] += ["card:" + p for p in unreg if cards_new[p] > STALE_DAYS]
++        new_age.update({"card:" + p: cards_new[p] for p in unreg})
++        s["cards_registered_by_queue"] = len(by_queue)
+         # P-541: the pin is at or past every commit the seat's rows cite on its line
+         rc, after = _git("rev-list", f"{pin}..{head}")
+         lag = pin_lag([c for r in srows for c in CITED_RE.findall(r["path"])], set(after.split()) if rc == 0 else set())
+@@ -799,7 +833,16 @@
+         relays = [p for p in _ls(head, "", recursive=True) if RELAY_FILE_RE.fullmatch(pathlib.Path(p).name)
+                   and pathlib.Path(p).name not in main_relays]
+         s["relays_on_branch"] = len(relays)
+-        s["relays_unrowed"] = sorted(pathlib.Path(p).name for p in relays if pathlib.Path(p).name not in rnames)
++        # CHANGED 2026-11-28 (main's M86 point 3): a card-delivery relay whose cards the queue holds, on this branch, is
++        # answered by the queue's record and needs no RELAY_LEDGER row. The line as it stood:
++        # s["relays_unrowed"] = sorted(pathlib.Path(p).name for p in relays if pathlib.Path(p).name not in rnames)
++        unrowed_paths = [p for p in relays if pathlib.Path(p).name not in rnames]
++        if unrowed_paths and places is None:
++            places = relay_debt.queue_places()
++        on_head = set(_ls(head, "relays/claims/")) if unrowed_paths else set()
++        answered = relays_answered(unrowed_paths, lambda p: _show(head, p), on_head, places or set(), branch)
++        s["relays_answered_by_queue"] = sorted(pathlib.Path(p).name for p in answered)
++        s["relays_unrowed"] = sorted(pathlib.Path(p).name for p in unrowed_paths if p not in answered)
+         s["relays_unrowed_named_on_main"] = sorted(n for n in s["relays_unrowed"] if n in named_on_main(s["relays_unrowed"]))
+         # mirror lag
+         if len(seat["remotes"]) > 1 and seat["remotes"][1] in remotes:
+@@ -845,6 +888,9 @@
+                 print(f"             STALE rows (ids in the ledger, not in the seat's index): " + ", ".join(s["stale_rows"][:20]))
+             if s["relays_unrowed"]:
+                 print(f"             relays without a RELAY_LEDGER row: " + ", ".join(s["relays_unrowed"][:6]) + (" …" if len(s["relays_unrowed"]) > 6 else ""))
++            if s.get("relays_answered_by_queue") or s.get("cards_registered_by_queue"):
++                print(f"             answered by the queue's record (M86): {len(s.get('relays_answered_by_queue', []))} relay(s) "
++                      f"delivering cards, {s.get('cards_registered_by_queue', 0)} card(s) past the pin")
+             if s["aged"]:
+                 print(f"             AGED (unrowed > {STALE_DAYS}d): " + ", ".join(s["aged"]))
+     for line in rep.get("integrity", []):
+diff --git a/scripts/checks/relay_debt.py b/scripts/checks/relay_debt.py
+index d6ecf36cd..048954f8b 100644
+--- a/scripts/checks/relay_debt.py
++++ b/scripts/checks/relay_debt.py
+@@ -23,6 +23,9 @@
+     OPEN     — a debt, carrying an age
+ 
+ **A relay with no row is the failure state: invisible work.** That fails the gate.
++[ADDED 2026-11-28 (main's M86 point 3): a relay that delivers claim cards is ANSWERED BY THE QUEUE, with no row, when the
++queue's branch holds a record for every card it names (`queue_places`, `answered_by_queue` below). A relay that delivers
++no card (a status, a question to main, a review) still needs its row.]
+ **A debt is not an exemption** (B982): debts are listed with their age and **escalation
+ is ENFORCED** (B1172): an OPEN row older than STALE_DAYS **fails the gate** unless its
+ note carries an explicit `ESCALATED(YYYY-MM-DD` marker — escalation-by-name means
+@@ -119,6 +122,48 @@
+     return out
+ 
+ 
++# ADDED 2026-11-28 (main's M86 point 3, the author's order that no chore waits on main): THE QUEUE'S RECORD IS THE
++# RECEIPT. A relay that delivers claim cards (it names one or more `relays/claims/CLAIM_*.md`) is answered when the queue's
++# branch holds a record for every card it delivers: the runner found and filed each, and its record says so. Main's hand
++# row stays for what the queue does not see (a seat's status, a question to main, a review). harvest_debt.py uses the same
++# reading for the relays on the seats' branches, and counts a card registered when the queue holds its record.
++QUEUE_REF = "origin/queue"
++CARD_PATH_RE = re.compile(r"relays/claims/CLAIM_[A-Za-z0-9_.\-]+\.md")
++
++
++def queue_places(ref: str = QUEUE_REF, root: pathlib.Path = ROOT) -> set:
++    """{(branch, card_path)}: every card the queue's branch holds a record of; empty when there is no queue's branch"""
++    import json
++    import subprocess
++    run = lambda *a: subprocess.run(["git", "-C", str(root), *a], capture_output=True, text=True, timeout=120)
++    r = run("ls-tree", "--name-only", "%s:queue/cards" % ref)
++    out = set()
++    for name in (r.stdout.split() if r.returncode == 0 else []):
++        s = run("show", "%s:queue/cards/%s" % (ref, name))
++        try:
++            rec = json.loads(s.stdout) if s.returncode == 0 else None
++        except ValueError:
++            rec = None
++        if isinstance(rec, dict) and rec.get("branch") and rec.get("card_path"):
++            out.add((rec["branch"], rec["card_path"]))
++    return out
++
++
++def delivered_cards(text: str, exists=None) -> set:
++    """the claim cards a relay delivers: the `relays/claims/CLAIM_*.md` paths it names (those that `exists` accepts, when
++    given: the cards on the relay's own branch)"""
++    named = set(CARD_PATH_RE.findall(text or ""))
++    return {p for p in named if exists is None or exists(p)}
++
++
++def answered_by_queue(text: str, places: set, branch: str = None, exists=None) -> bool:
++    """a card-delivery relay is answered when the queue holds a record for every card it delivers (on `branch`, when
++    given; on any branch otherwise); a relay that delivers no card is not answered by the queue"""
++    cards = delivered_cards(text, exists)
++    held = {p for b, p in places if branch is None or b == branch}
++    return bool(cards) and cards <= held
++
++
+ def check() -> tuple[list[str], list[str], dict]:
+     if not LEDGER.is_file():
+         return ([f"{LEDGER.relative_to(ROOT)} is MISSING — the register is constitutive"], [], {})
+@@ -148,16 +193,33 @@
+                     stale.append(f"{name}: OPEN for {age} days (> {STALE_DAYS}), no ESCALATED marker")
+ 
+     # invisible work: a relay file present in the tree with no ledger row
+-    for name in sorted(tracked_relays() - set(rows)):
++    # CHANGED 2026-11-28 (main's M86 point 3): a card-delivery relay whose cards the queue holds is answered by the queue's
++    # record, with no row. The loop as it stood: every relay with no row failed.
++    unrowed = sorted(tracked_relays() - set(rows))
++    places = queue_places() if unrowed else set()
++    counts["QUEUE"] = 0
++    for name in unrowed:
++        if places and answered_by_queue(_read_tracked(name), places):
++            counts["QUEUE"] += 1
++            continue
+         fails.append(f"{name}: INVISIBLE WORK — relay present with no ledger row")
+     return fails, stale, counts
+ 
+ 
++def _read_tracked(name: str) -> str:
++    """the text of the tracked relay file of that name (the first one git lists)"""
++    import subprocess
++    r = subprocess.run(["git", "-C", str(ROOT), "ls-files", "--", "*/" + name, name], capture_output=True, text=True, timeout=60)
++    for rel in r.stdout.split():
++        return _read(ROOT / rel)
++    return ""
++
++
+ def main() -> int:
+     fails, stale, counts = check()
+     if counts:
+         print(f"  relay-debt: {counts['BANKED']} banked, {counts['DECLINED']} declined, "
+-              f"{counts['OPEN']} open")
++              f"{counts['OPEN']} open" + (f", {counts['QUEUE']} answered by the queue's record" if counts.get("QUEUE") else ""))
+     if stale:
+         print(f"  relay-debt: {len(stale)} UNESCALATED STALE DEBT(S) — escalate by name or close --")
+         for s in stale:
+diff --git a/tests/test_queue_receipt.py b/tests/test_queue_receipt.py
+new file mode 100644
+index 000000000..807df7a73
+--- /dev/null
++++ b/tests/test_queue_receipt.py
+@@ -0,0 +1,62 @@
++"""2026-11-28 (main's M86 point 3, the author's order that no chore waits on main): the queue's record is the receipt.
++
++What could fail: a card the queue holds still asking main for a harvest row; a card-delivery relay whose cards the queue
++holds still asking for a relay row; or the other way, a card or a relay counted as answered when the queue does not hold
++every card, holds it on another branch, or the relay delivers no card at all (a seat's status, a question, a review)."""
++import pathlib
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++sys.path.insert(0, str(ROOT / "scripts" / "checks"))
++import harvest_debt as HD  # noqa: E402
++import relay_debt as RD  # noqa: E402
++
++A = "relays/claims/CLAIM_2026-11-28_a.md"
++B = "relays/claims/CLAIM_2026-11-28_b.md"
++RELAY = "Two cards: `%s` and %s, and the form in CLAIM_CARD.md." % (A, B)
++
++
++def test_a_relay_is_answered_only_when_the_queue_holds_every_card_it_delivers_on_its_branch():
++    both = {("s/x", A), ("s/x", B)}
++    assert RD.delivered_cards(RELAY) == {A, B}
++    assert RD.answered_by_queue(RELAY, both, "s/x")
++    assert not RD.answered_by_queue(RELAY, {("s/x", A)}, "s/x")                     # one card missing
++    assert not RD.answered_by_queue(RELAY, {("s/y", A), ("s/y", B)}, "s/x")         # held, but on another branch
++    assert RD.answered_by_queue(RELAY, {("s/y", A), ("s/y", B)})                    # main's tracked relays: any branch
++    assert not RD.answered_by_queue("my status: nothing to file. A question to main.", both, "s/x")   # no card: a row
++    assert RD.answered_by_queue(RELAY, {("s/x", A)}, "s/x", exists=lambda c: c == A)  # a card not on the branch is not one
++
++
++def test_relay_debt_lets_the_queue_answer_a_card_delivery_and_nothing_else(monkeypatch):
++    name = "SEAT_TO_MAIN_2026-11-28_two_cards.md"
++    monkeypatch.setattr(RD, "tracked_relays", lambda: {name})
++    monkeypatch.setattr(RD, "_read_tracked", lambda n: RELAY)
++    monkeypatch.setattr(RD, "queue_places", lambda: {("s/x", A)})
++    fails, _, counts = RD.check()
++    assert any(name in f and "INVISIBLE WORK" in f for f in fails) and counts["QUEUE"] == 0
++    monkeypatch.setattr(RD, "queue_places", lambda: {("s/x", A), ("s/x", B)})
++    fails, _, counts = RD.check()
++    assert not any(name in f for f in fails) and counts["QUEUE"] == 1
++    monkeypatch.setattr(RD, "_read_tracked", lambda n: "a status, no card")
++    assert any(name in f for f in RD.check()[0])
++
++
++def test_harvest_debt_counts_a_card_registered_by_the_queue_or_a_row_and_ages_the_rest():
++    cards = {A: 3, B: 30, "relays/claims/CLAIM_2026-11-28_c.md": 1}
++    rows = [{"text": "agy-002 | CLAIM_2026-11-28_c.md | a card read by main"}]
++    q, r, u = HD.card_receipts(cards, "s/x", {("s/x", A), ("s/y", B)}, rows)
++    assert q == [A] and r == ["relays/claims/CLAIM_2026-11-28_c.md"] and u == [B]
++    on_head = {A, B}
++    shown = {"r1.md": RELAY, "r2.md": "a status, no card", "r3.md": "one card: `%s`" % A}
++    got = HD.relays_answered(sorted(shown), shown.get, on_head, {("s/x", A)}, "s/x")
++    assert got == ["r3.md"]
++    assert HD.relays_answered(sorted(shown), shown.get, on_head, {("s/x", A), ("s/x", B)}, "s/x") == ["r1.md", "r3.md"]
++    assert HD.relay_debt.CARD_PATH_RE.fullmatch(A) and not HD.relay_debt.CARD_PATH_RE.fullmatch("relays/claims/peer/PEER_Q1.json")
++
++
++def test_the_live_run_reads_cards_and_relays_through_the_queue():
++    """the live run's code calls both readings (a change that drops either is caught here)"""
++    src = (ROOT / "scripts" / "checks" / "harvest_debt.py").read_text(encoding="utf-8")
++    run = src[src.index("def run("):src.index("def print_report(")]
++    assert "card_receipts(cards_new, branch, places or set(), srows)" in run
++    assert "relays_answered(unrowed_paths" in run and 'rec["aged"] += ["card:" + p for p in unreg if cards_new[p] > STALE_DAYS]' in run
+-- 
+2.43.0
+
