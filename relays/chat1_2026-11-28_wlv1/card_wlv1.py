@@ -71,7 +71,10 @@ def decisive():
     print("DECISIVE: C1 the negative control at order 30: %s" % (neg[0].rsplit("-> ", 1)[-1] if neg else "absent"))
     reading = pick("READING:")
     print("DECISIVE: %s" % (reading[0] if reading else "READING: absent"))
-    ties = [int(x) for x in re.findall(r"\d+", (pick("T2 levels with a whole-level tie:") or [""])[0])]
+    # CORRECTED 2026-11-28, after the first run (its output kept at bc60158ca): the digits were read from the whole
+    # line, so the label "T2" gave a level 2 too and the verdict read FAILS on a correct output. Only the list after the
+    # colon is read now. Nothing else in this script changed.
+    ties = [int(x) for x in re.findall(r"\d+", (pick("T2 levels with a whole-level tie:") or [": "])[0].split(":", 1)[1])]
     ok = (same and ties == CLAIM_TIES and reading == ["READING: R2 (P1 = 210, P2 = 30, P3 = 10)"]
           and all(l.endswith("-> holds") for l in pick("N = ")[-4:]) and bool(neg) and neg[0].endswith("-> passes"))
     print("DECISIVE: verdict: %s" % ("the claim holds" if ok else "the claim FAILS"))
