@@ -1,0 +1,17 @@
+{
+ "card": "Q0019",
+ "card_commit": "080441e86287d7edf5b961d73f9a6ce656380b3a",
+ "peer_code": "fam1-v1-unset-03",
+ "finding": "extended",
+ "script": {
+  "path": "relays/chat1_2026-11-28_peer/q0019_check.py",
+  "sha256": "9ef94900dbb308b1",
+  "run_as": "python3 relays/chat1_2026-11-28_peer/q0019_check.py",
+  "control": "python3 relays/chat1_2026-11-28_peer/q0019_check.py --control"
+ },
+ "decisive": {
+  "lines": 7,
+  "sha256": "9fcfdb18a9e3fc46"
+ },
+ "note": "Recomputed in other code (standard library, exact F_25 and Z/20 arithmetic) within the card's own frame (Z as -1 on the Spin(3) factor, Spin(13) x Spin(3) into E_8, 248 = 120 + 128); the card's holonomy is re-derived (E2) and the counts are taken at it. All six items hold. E1: U(1) has order 5, Z U(-2d) order 10, and they commute. E2: the figure-eight group as the 2-bridge group b(5, 3) has exactly two parabolic representations a -> U(1), b -> [[1, 0], [t, 1]] over F_25, t = 3 + 2d and 3 + 3d, and at each the longitude w w* is Z U(c) with c = 2d or -2d: the card's l is the second, and the geometric count is (8, 0) at the first too. E3: the 12 pair-states of the 13 fall into 6 opposite planes; the order-5 spinor lift, found by its own route, has 64 weights with (0, 0) four times and agrees with the card's rule h = 4(3w mod 5). E4: geometric (periodic, antiperiodic) = (8, 0), all 8 in the 128, none in the 120; joined (0, 0); joined meridian-square phases on the 128 are {2, 6, 10, 14, 18}. E5: only (1, 1) and (-1, -1) act trivially on the 248 (by the standard rule, so it cannot fail here). E6: BD_5 has its order and relations; onto homomorphisms with a, b in the class of j number 20, and 40 with the class of j^-1 added; each sends the longitude to 1 and a^2 to -1. Not checked: the Wirtinger and SnapPy presentations as such (E6 is in the 2-bridge one); the geometric meridian-square set {0, 4, 8, 12, 16}; the card's planted controls, float count and sealing order; what the C8 card it verifies says. Disclosed: the first run took the longitude as w* w, which does not commute with a (this script's fault; E2 failed there); fixed to w w*, the standard 2-bridge longitude; the condition unchanged; the second and third runs agree (the third after a docstring line was rewrapped)."
+}
