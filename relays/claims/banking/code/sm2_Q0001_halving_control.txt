@@ -1,0 +1,10 @@
+level 27: orbit 72 readings, C's fixed points [(3, 3, 3), (12, 12, 12), (21, 21, 21)], size-3 C-orbits 23
+neutral sector: degree 26, characteristic polynomial in 0.0 s
+charged sector: degree 23, 2 primes of 62 bits, both sectors in 0.0 s; q = 1 and q = 2 the same (S real): True
+unpaired part: degree 0, factors over Q (degree, multiplicity): []
+DECISIVE: level 27: charged roots 23, paired 23, unpaired 0
+DECISIVE: level 27: p_neutral(2x)/2^d = (x - 3)(x + 3) x S(x): True
+DECISIVE: rho well defined on G_27: |G_27| = 216, with Z/6 attached 216: True
+rho's check can fail: with the wrong character L, R -> zeta_6 the order is 648 (larger)
+CONTROL: at 27 the halving holds (unpaired 0, form True), so the card's claim at 135 is not shown here
+RESULT: the card's claim does not come out

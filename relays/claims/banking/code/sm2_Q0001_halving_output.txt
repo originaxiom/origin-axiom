@@ -1,0 +1,14 @@
+level 135: orbit 2880 readings, C's fixed points [(3, 3, 3), (48, 48, 48), (93, 93, 93)], size-3 C-orbits 959
+neutral sector: degree 962, characteristic polynomial in 24.5 s
+charged sector: degree 959, 44 primes of 62 bits, both sectors in 72.2 s; q = 1 and q = 2 the same (S real): True
+unpaired part: degree 10, factors over Q (degree, multiplicity): [(2, 1), (2, 1), (3, 1), (3, 1)]
+   x^2 + (-2)*x + (-2)   (multiplicity 1)
+   x^2 + 2*x + (-2)   (multiplicity 1)
+   x^3 + (-3)*x + (-1)   (multiplicity 1)
+   x^3 + (-3)*x + 1   (multiplicity 1)
+DECISIVE: level 135: charged roots 959, paired 949, unpaired 10
+DECISIVE: level 135: p_neutral(2x)/2^d = (x - 3)(x + 3) x S(x): False
+DECISIVE: level 135 reduces onto the level-27 orbit: True; C's fixed points at 135: 3
+DECISIVE: rho well defined on G_27: |G_27| = 216, with Z/6 attached 216: True
+rho's check can fail: with the wrong character L, R -> zeta_6 the order is 648 (larger)
+RESULT: the card's claim holds
