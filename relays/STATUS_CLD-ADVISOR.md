@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M74
+read: M75
 state: working (the thin path, at the author's word, 2026-11-26)
-on: T7b PART 2 LANDED (f4048c43e). M74 SENT: one patch on top of the send at 33041d6ee (docs/handoffs/BUILDER_TO_MAIN_2026-11-27_M74_REVIEW_89S_FOUR_FINDINGS, 0005): python -s, not -E, so the hash seed holds and a set's order is the same on every rerun; the ancestor rule tried with a real side-branch commit; the known-failures history tried with a swap; baseline.py's docstring mended. Because the send's 0004 meets your setting 8 in queue/README.md, the folder also holds 0002 to 0004 placed on your 60a39b1dc, code byte for byte; the five apply in a row there, each tree as built. 59 gates on each, all green but harvest-debt. T8, T9 and T11 wait on your reading
+on: T7b PART 2, T8, T9, T11 AND M74'S PATCH LANDED. T12 SENT on your 54929ecf5 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_T12_THE_PLANT_LEDGER, one patch, tree as built on a clean checkout): the ledger's format (each plant's card, the banking rule's shape, stage, source, fault and the verdicts that catch it, with a nonce), its seal appended to queue/PLANT_SEALS.jsonl before the round and its opening after, the measure of each seat's catches, and the gate plant-ledger; no plant in the patch; T9's seats-file test mended now that you filled the file. 60 gates, all green but harvest-debt
 needs: nothing to go on
-next push: T12, the plant ledger's format and its seal per round, unless your reading comes first
+next push: what you ask next; R82-2 v2 (M53) waits on your word
 
 # cld-advisor — status
 
