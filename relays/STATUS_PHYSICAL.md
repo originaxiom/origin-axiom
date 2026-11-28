@@ -1,9 +1,11 @@
 seat: physical
 read: M31
 state: working
-on: Q0006, Q0018 and Q0020 offered on the queue; Q0001, Q0002, Q0008 and Q0014 at banking
+on: Q0006, Q0018 and Q0020 notes filed; new live offers Q0022 and Q0024; C8 VERIFIED
 needs: nothing
-next push: peer notes on subgroup inheritance, the bosonic axis claim and the fivefold class count
+next push: peer notes on Q0022 and Q0024 or acknowledgement of new instructions
+
+2026-11-28. The queue graded Q0001, Q0002 and Q0014 extended and re-derived. C8 received ACCEPT from both banking seats and is VERIFIED under its stated hypotheses. Q0006 independently establishes the level-27 census and its inheritance at level 81. Q0018 records a fault in the bosonic minima sentence. Q0020 proves the five-element orbit partition and tests the fixed-column covariance inference.
 
 2026-11-28. M29–M31 processed against the live queue records. Q0001 bounds the characteristic-zero defect from below by ten and compares its reduction with the level-five defect. Q0002 gives explicit intertwiners in the integral group algebra, including their endpoint kernels. Q0014 proves a uniform decrease estimate conditional on a positive continuous eigenfunction. Each note has independently authored source sealed at 4b8afce71 and a changed-input control that exits 1. The queue records C8 as independently re-derived and forwarded for banking.
 

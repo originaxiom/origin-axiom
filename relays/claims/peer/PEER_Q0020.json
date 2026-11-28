@@ -1,0 +1,17 @@
+{
+  "card": "Q0020",
+  "card_commit": "080441e86287d7edf5b961d73f9a6ce656380b3a",
+  "peer_code": "fam2-v1-unset-01",
+  "finding": "extended",
+  "script": {
+    "path": "relays/claims/peer/work_q0020/shear.py",
+    "sha256": "deba9a66d794992d",
+    "run_as": "python3 relays/claims/peer/work_q0020/shear.py",
+    "control": "python3 relays/claims/peer/work_q0020/shear.py --hold-column"
+  },
+  "decisive": {
+    "lines": 3,
+    "sha256": "1faaf7e969289617"
+  },
+  "note": "Exact extension of the multiplicity argument. T^6 leaves both coordinates fixed mod 6 and cycles all five nonvertical slopes mod 5. On sign pairs it partitions the 240 marks into 48 five-element orbits, each meeting the act line once. Consequently orbit-constant labels have exactly the fivefold histogram. Constancy of a physical label at a fixed x requires more than joint T transport: an explicit positive T-covariant observable has unequal rates on each of the 240 fixed-column comparisons at x=13/100 yet equal rates on all transported columns. The changed-column control exits 1. This distinguishes a structural counting result from the separate finite tests of the actual Yukawas. I did not rerun the 180 matrix cases or the high-precision rate census; the model observable is used only to test the logical implication."
+}

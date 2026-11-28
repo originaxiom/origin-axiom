@@ -1,0 +1,17 @@
+{
+  "card": "Q0018",
+  "card_commit": "241bc7f643bedb509959e7ad84dd27e879ee6cf0",
+  "peer_code": "fam2-v1-unset-01",
+  "finding": "fault",
+  "script": {
+    "path": "relays/claims/peer/work_q0018/axis.py",
+    "sha256": "46b5f01b749ef9dd",
+    "run_as": "python3 relays/claims/peer/work_q0018/axis.py",
+    "control": "python3 relays/claims/peer/work_q0018/axis.py --no-shear"
+  },
+  "decisive": {
+    "lines": 2,
+    "sha256": "81d4fc4b932a1b4b"
+  },
+  "note": "Fault in the effect field: E(tau,2), E(tau,3) and V_RS cannot attain their minima on Re(tau)=0 in F. At y=1 my integer box sums with rigorous tail bounds give E(i,2)−E(1/2+i,2)>0.164 and E(i,3)−E(1/2+i,3)>0.359. For any y>=1, Poisson summation of the positive Gaussian integral gives strict descent for odd lattice rows after this shear and equality for even rows. The eta product gives strict descent for V_RS as well. No-shear control fails. The producer's own decisive script lines 1493–1510 already calls i a saddle and omega a minimum for all three. Correct the card's bosonic sentence; these comparisons leave the distinct FILQ and coupled-vacuum calculations open. Also count 576 exact-order-30 points, 288 sign pairs; declare which sum is used when defining the relative normalization of potentials. No independent verdict here on EWSB or Majorana physics."
+}

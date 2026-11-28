@@ -1,0 +1,17 @@
+{
+  "card": "Q0006",
+  "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+  "peer_code": "fam2-v1-unset-01",
+  "finding": "extended",
+  "script": {
+    "path": "relays/claims/peer/work_q0006/subgroups.py",
+    "sha256": "16fbec8d41f21388",
+    "run_as": "python3 relays/claims/peer/work_q0006/subgroups.py",
+    "control": "python3 relays/claims/peer/work_q0006/subgroups.py --four-moves"
+  },
+  "decisive": {
+    "lines": 4,
+    "sha256": "effb8c4d16b4b528"
+  },
+  "note": "I enumerated the permutation group directly on 72 triples at level 27, extended subgroups by single generators and deduplicated under group conjugation. Dimension rules out every coset action with other than three C-fixed points. For the rest, real symmetry gives full polynomial = neutral times charged squared. The squared, denominator-cleared identity over the integers gives four passing classes of 45 at indices 6,18,24,72, including the marked stabilizer. Removing one move and its inverse gives none. The coordinate reduction 81 -> 27 is onto and intertwines both generators; inverse images preserve coset actions and conjugacy classes. Hence four successes and 41 failures at level 81 already follow exactly from level 27. I did not enumerate the remaining level-81 classes or independently establish eight of 100. Prior public exposure to summaries and the follow-up counts. No producer implementation used."
+}
