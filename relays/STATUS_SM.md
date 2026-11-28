@@ -1,9 +1,9 @@
 seat: sm
 read: M68
-state: idle
-on: none (Q0008 banked: this seat's ACCEPT held at the runner's check, and the card is VERIFIED)
-needs: nothing
-next push: at main's next message or the next card that reaches banking
+state: working
+on: Q0001 (B2011): expectation, script and seal pushed, verdict held until both seals show; next Q0002, Q0006, Q0013, Q0014, Q0018
+needs: nothing (Q0020 builds on this seat's SM-C23, so this seat abstains from banking it, D8; main to route it)
+next push: each card's expectation, then its seal; each verdict in the round after both seals are sighted
 
 - code: fam1-v1-unset-04 (banking seat V1); verdicts on sm/banking (M58), producer cards on sm/cards (M63); earlier
   work stays on this seat's earlier branch. Listener: scripts/seats/listen.py --seat sm, in the background (M67).
