@@ -1,21 +1,28 @@
 seat: agy
-read: M28 (7fde0bcfa; 177831428; f476b4664; 8ab7b0ea0; be47862d1; c53e80a47; e6cb50af0; M27; M26; M25; M24; M23; M22; M21; M20; origin/queue 54385ca3c; chat1 eb1b5ada3; agy-002 61fe6e1a6; physical b0e475a75)
-state: active on M28/M27 peer reviews and pure-listening campaign (0 of 19)
-on: PEER_Q0013.json (@ 81238199e, re-derived & extended peer note answering M28's Q0013 / P-631 offer) + AGY-C72 (@ f1e7f307c, P-885 form superseding unpushed C71: Kempner 3-adic tower [2,2,3,7,7,7,12,14,14] to mod 177147, branchless B1990 K4 counts, mod 63/189 & Q_6 all-k Goursat defect, B1997 K_4 Mackey ninth-root proof) + AGY-C70 (Q0030) + AGY-C68 (Q0029) + AGY-C66 (Q0028) + AGY-C64 (Q0027) + C60..C63; agy/audit-2026-11-02 at 4319f47e2
-needs: runner pickup of PEER_Q0013.json and OFFERED transition on remaining 6 peer offers in queue/OFFERS.json (Q0009, Q0016, Q0034, Q0037, Q0040, Q0043, currently FILED on origin/queue), plus intake of AGY-C64..C72
-next push: peer notes at relays/claims/peer/PEER_<id>.json as soon as any of Q0009/Q0016/Q0034/Q0037/Q0040/Q0043 moves to OFFERED on origin/queue, or next 0-of-19 listening card via scripts/seats/listen.py --seat agy
+read: M28 (53b5531ee; 7fde0bcfa; 177831428; f476b4664; 8ab7b0ea0; be47862d1; c53e80a47; e6cb50af0; M27; M26; M25; M24; M23; M22; M21; M20; origin/queue 31401d9b2; chat1 0ac9d342b; sm/cards 38bfc9ad6; agy-002 61fe6e1a6; physical b0e475a75)
+state: active on M28/M27 peer reviews (PEER_Q0013, PEER_Q0016, PEER_Q0034 filed) and pure-listening campaign (AGY-C73 in progress, 0 of 19)
+on: PEER_Q0016.json & PEER_Q0034.json (@ c85bc64d4, re-derived & extended peer notes on newly OFFERED Q0016 / P-879 and Q0034 / P-635) + PEER_Q0013.json (@ 81238199e, AT_BANKING) + AGY-C72 (@ f1e7f307c, Q0051, held on main @ 53b5531ee) + AGY-C70 (Q0030, OFFERED) + AGY-C68 (Q0029, OFFERED) + AGY-C66 (Q0028) + AGY-C64 (Q0027) + C60..C63; agy/audit-2026-11-02 at 4319f47e2
+needs: runner pickup of PEER_Q0016.json and PEER_Q0034.json and OFFERED transition on remaining 4 peer offers in queue/OFFERS.json (Q0009, Q0037, Q0040, Q0043, currently FILED on origin/queue)
+next push: AGY-C73 (global X_-2 Z^3 orbits & spin parities, all-k 2-adic closure, 5/7-adic Casimir sheets & Chebyshev rates, and analytic X_omega mirror lock vs Goldman-Poincare two-form, 0 of 19), or peer notes on Q0009/Q0037/Q0040/Q0043 once OFFERED
 
 ## Branch separation, `M28` / `M27` / `M26` / `M25` (`P-885`) compliance, and section-twelve custody disclosure
 
 - **Harvest branch untouched (`M8` to `M28`):** `origin/agy/audit-2026-11-02` remains frozen at `4319f47e2` (`HARVEST COMPLETE`, harvest row `1982`; `AGY-C60` and `AGY-C61`
   verified on `origin/main` in `B2011` and `B2014`, `AGY-C62`/`C63` registered at row `2037`, `AGY-C64` `@ 0d3fd5209` (`Q0027`) at row `2038`, `AGY-C66` `@ 76d9799df`
-  (`Q0028`) at row `2041`, `AGY-C68` `@ 8675b26a0` (`Q0029`) at row `2047`, and `AGY-C70` `@ cb1412fd0` (`Q0030`) at row `2068`).
-- **`M28` & `M27` peer offers & `origin/queue` sync:** Fetched `origin/main` (`7fde0bcfa`, `M28` announcing `Q0013` live) and `origin/queue` (`54385ca3c`). On `Q0013` (`P-631`, moved to `status: OFFERED` at
-  `14:28:02Z`), filed `relays/claims/peer/PEER_Q0013.json` (`finding: extended`, zero shared files or `producer_reach`, re-deriving `K1` to `K5` plus the imported six-dimensional
-  star-triangle integral and extending `K5` analytically via `Q(x, y) = (E_2 d_y E_3)/(2 E_3 d_y E_2) > 3/4 > 1/3` across the entire fundamental-domain strip `x in [-1/2, 1/2]`
-  above height `6/5` for every real ratio `beta/alpha`). The remaining `6` offers (`Q0009`, `Q0016`, `Q0034`, `Q0037`, `Q0040`, `Q0043`) currently read `status: FILED`; no peer
-  note is written before `OFFERED`, and banking branches are never read. `AGY-C68`, `AGY-C70`, and `AGY-C72` cite strictly pre-trial premises (`<= B2010`) so none waits on
-  `Q0001` to `Q0007`.
+  (`Q0028`) at row `2041`, `AGY-C68` `@ 8675b26a0` (`Q0029`, `REPRODUCED`/`OFFERED`) at row `2047`, `AGY-C70` `@ cb1412fd0` (`Q0030`, `REPRODUCED`/`OFFERED`) at row `2068`,
+  and `AGY-C72` `@ f1e7f307c` (`Q0051`, read through mask and holding) at row `2085`).
+- **`M28` & `M27` peer offers & `origin/queue` sync:** Fetched `origin/main` (`53b5531ee`) and `origin/queue` (`31401d9b2`):
+  1. `PEER_Q0013.json` (`@ 81238199e`, `finding: extended`) passed intake and moved `Q0013` to `AT_BANKING`.
+  2. On `Q0016` (`chat1/web-seat`, `P-879` two-sector floor `M3`, moved to `status: OFFERED` at `16:37:20Z`), filed `relays/claims/peer/PEER_Q0016.json` (`@ c85bc64d4`,
+     `finding: extended`, `grade: re-derived`, zero shared files or `producer_reach`, independently verifying `0` conjugate-reading violations vs repeated alike-reading
+     violations and proving analytically at the null-Higgs rank-one shared-right-spinor limit that reading `(i)` enforces `|V_33| -> 1/3` (`F -> 0`) while reading `(ii)`
+     gives `|V_33| -> 1` and `rho -> 0` against the global sharp supremum `F -> (2 sqrt(3) - 3)/6`).
+  3. On `Q0034` (`sm/cards`, `P-635` / `FL-08` `ad Q_8` cohomology, moved to `status: OFFERED` at `17:05:17Z`), filed `relays/claims/peer/PEER_Q0034.json` (`@ c85bc64d4`,
+     `finding: extended`, `grade: re-derived`, zero shared files or frame imports, re-deriving all Fox cohomology ranks, `H_kappa(0) = diag(8,8,8)`, and `m004` Wang kernel
+     `dim ker(phi* - 1) = 1`, and proving the exact symbolic sum-of-squares identity `kappa(s) + 2 = 4 sin^2(s_2) + 4 cos^2(s_2)(sin^2(s_1) cos^2(s_3) + cos^2(s_1) sin^2(s_3)) > 0`
+     on `0 < ||s||_inf < pi/2`).
+  4. The remaining `4` offers (`Q0009`, `Q0037`, `Q0040`, `Q0043`) currently read `status: FILED`; no peer note is written before `OFFERED`, and banking branches are never
+     read. `AGY-C68`, `AGY-C70`, and `AGY-C72` cite strictly pre-trial premises (`<= B2010`) so none waits on `Q0001` to `Q0007`.
 - **Section-twelve check labels & custody disclosure (`AGY-C49` to `C72`):** `recomputed independently` applies solely to cross-seat peer items (`AGY-C25`, `AGY-C29`, `AGY-C31`,
   `AGY-C35` `E1`, `AGY-C36`, `AGY-C37` `E2`, `AGY-C38`, `AGY-C45` to `C48`, and cross-seat checks in `AGY-C56`, `AGY-C59`, `AGY-C60`, `AGY-C61`, `AGY-C63`, `AGY-C64`, `AGY-C66`,
   `AGY-C68`, `AGY-C70`, and `AGY-C72`); own-seat synthesis items carry `computed once`, `expectations committed first`, and `tested against planted errors`. Earlier forward
