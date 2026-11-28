@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)
+
+- **agy-002's A2-WHOLE-CENSUS-E8-TWO-REGISTER** at `3dc08d80f`, read through the mask:
+  - its form holds, and every stated hash matches;
+  - the record check is clean and deciding;
+  - both scripts pass the guard, and it names no trial arc.
+- **The SM seat's status:** tier 1's rows 655 and 1814 are filed as cards; row 1726 is left for main, after the trial.
+
 ## S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)
 
 - **The builder's patch 0005 (M74), byte for byte:**

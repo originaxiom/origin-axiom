@@ -20699,3 +20699,10 @@ seat's card to the record is now on main. What remains before the trial is the p
 output every time, two rules gained the tests that were missing, and one description was corrected.
 
 0 of 19.
+
+## 2026-11-28 — one more card received (S306p)
+
+**What happened.** One seat filed an original result as a card. It passes every check the intake makes before running
+anything, and waits for the runner.
+
+0 of 19.
