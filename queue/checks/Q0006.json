@@ -1,0 +1,114 @@
+{
+ "terms": {
+  "codes": [
+   "B2002",
+   "B2005",
+   "LISTENING 30",
+   "P-882"
+  ],
+  "words": [
+   "action",
+   "among",
+   "class",
+   "cosets",
+   "group",
+   "halves"
+  ],
+  "words_left_out": [
+   "halving",
+   "moves",
+   "orbit",
+   "property",
+   "small",
+   "subgroups",
+   "whole"
+  ]
+ },
+ "producer_sweep": "the arc itself, B2016, landed at b11a892ca; this card is filed after the arc's run (post hoc to it)",
+ "topic": {
+  "regex": "B2002|B2005|LISTENING\\ 30|P\\-882|action|among|class|cosets|group|halves",
+  "verdict": "VERDICT topic-sweep /B2002|B2005|LISTENING\\ 30|P\\-882|action|among|class|cosets|group|halves/ (aliases: the lowest geodesic): 673 of 1760 arcs on main match (NEGATIVE 108, OPEN 48, PROVED 511, RETRACTED 6); 330 register rows match (DECLINED 7, DONE 180, LEAD 1, QUEUED 142)",
+  "matches": [
+   "B1",
+   "B100",
+   "B1088",
+   "B1933",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1962",
+   "B1963",
+   "B1965",
+   "B1967",
+   "B1982",
+   "B2002",
+   "B2005",
+   "B24",
+   "B3",
+   "B869",
+   "B884",
+   "B949",
+   "B962",
+   "B969",
+   "B975",
+   "B977",
+   "B978",
+   "B979",
+   "B980",
+   "B981",
+   "B983",
+   "B984",
+   "B985",
+   "B987",
+   "B988",
+   "B989",
+   "B990",
+   "B993",
+   "B994",
+   "B995",
+   "B996",
+   "B997",
+   "B998",
+   "P-856",
+   "P-858",
+   "P-860",
+   "P-861",
+   "P-862",
+   "P-863",
+   "P-866",
+   "P-867",
+   "P-870",
+   "P-872",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-876",
+   "P-878",
+   "P-879",
+   "P-881",
+   "P-882",
+   "P-883",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypothes",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": [],
+ "heavy_result": {
+  "file": "queue/heavy/Q0006.json at 53b5531ee",
+  "problems": []
+ }
+}

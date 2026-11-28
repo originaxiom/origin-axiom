@@ -5,7 +5,7 @@
  "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
  "card_path": "relays/claims/CLAIM_2026-11-28_p631_two_loops_in_the_queue_form.md",
  "title": "P-631: on the fibre, the sunset of three massless propagators joined by cubic vertices repeats the one-loop shape (C₁,₁,₁ = E₃ + ζ(3), checked numerically) while the quartic figure-eight brings E₂², numerically outside the span of 1, E₂ to ",
- "status": "OFFERED",
+ "status": "AT_BANKING",
  "deciding": true,
  "heavy": false,
  "refiles": [],
@@ -27,6 +27,18 @@
    "status": "OFFERED",
    "by": "runner",
    "note": "offered to fam3-v1-high-01 on agy/cusp-action-2026-11-20 (queue/OFFERS.json)"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "PEERED",
+   "by": "runner",
+   "note": "the peer note on agy/cusp-action-2026-11-20 at 81238199e: extended, graded re-derived; a check from another family"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "AT_BANKING",
+   "by": "runner",
+   "note": "to banking after the peer's note"
   }
  ]
 }

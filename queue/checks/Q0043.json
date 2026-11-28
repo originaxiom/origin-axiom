@@ -23,7 +23,7 @@
  "producer_sweep": "grep -il -E \"W134|17/24 of the cusp\" frontier/*/FINDINGS.md on main at 9c8b0a531: B1736 only, whose FINDINGS say K2 was not re-derived; B1796, B1797 and GENESIS v1.59 never cite W134; the closest arc is B1796",
  "topic": {
   "regex": "B1632|B1641|B1730|B1736|B1796|B1797|P\\-288|P\\-302|P\\-610|count|determinant|object|scoped|share",
-  "verdict": "VERDICT topic-sweep /B1632|B1641|B1730|B1736|B1796|B1797|P\\-288|P\\-302|P\\-610|count|determinant|object|scoped|share/ (aliases: a history): 751 of 1760 arcs on main match (NEGATIVE 150, OPEN 56, PROVED 541, RETRACTED 4); 399 register rows match (DECLINED 8, DONE 223, LEAD 1, QUEUED 167)",
+  "verdict": "VERDICT topic-sweep /B1632|B1641|B1730|B1736|B1796|B1797|P\\-288|P\\-302|P\\-610|count|determinant|object|scoped|share/ (aliases: a history): 751 of 1760 arcs on main match (NEGATIVE 150, OPEN 56, PROVED 541, RETRACTED 4); 400 register rows match (DECLINED 8, DONE 223, LEAD 1, QUEUED 168)",
   "matches": [
    "B1",
    "B100",
@@ -75,7 +75,6 @@
    "P-517",
    "P-540",
    "P-542",
-   "P-860",
    "P-861",
    "P-862",
    "P-863",
@@ -94,7 +93,8 @@
    "P-878",
    "P-879",
    "P-881",
-   "P-882"
+   "P-882",
+   "P-885"
   ]
  },
  "banked": {

@@ -5,7 +5,7 @@
  "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
  "card_path": "relays/claims/CLAIM_2026-11-28_p632_instability_spectrum_in_the_queue_form.md",
  "title": "P-632: on B1813's s-family the Farey operator's fastest-growing mode picks no interior locus: it is constant at s = 0 (λ₁ = 2) and, at s = 0.1, 0.2, …, 0.9, positive and strictly decreasing on [0, 1], so largest at the parabolic point; λ₁ f",
- "status": "OFFERED",
+ "status": "AT_BANKING",
  "deciding": true,
  "heavy": false,
  "refiles": [],
@@ -27,6 +27,18 @@
    "status": "OFFERED",
    "by": "runner",
    "note": "offered to fam2-v1-unset-01 on audit/physical-bridge-2026-09-05 (queue/OFFERS.json)"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "PEERED",
+   "by": "runner",
+   "note": "the peer note on audit/physical-bridge-2026-09-05 at 54f8f00ab: extended, graded re-derived; a check from another family"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "AT_BANKING",
+   "by": "runner",
+   "note": "to banking after the peer's note"
   }
  ]
 }

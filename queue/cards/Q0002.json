@@ -5,7 +5,7 @@
  "commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
  "card_path": "relays/claims/CLAIM_2026-11-27_B2012_main_trial.md",
  "title": "B2012 N1: the four-move sum is 3(SP + PS) - 2S on every orbit, so its spectrum pairs lambda with lambda + 2 by the two-subspace theorem (exact on five orbits, modulo three primes at mod 135): a law of the modular group, not of the whole",
- "status": "OFFERED",
+ "status": "AT_BANKING",
  "deciding": true,
  "heavy": false,
  "refiles": [],
@@ -27,6 +27,18 @@
    "status": "OFFERED",
    "by": "runner",
    "note": "offered to fam2-v1-unset-01 on audit/physical-bridge-2026-09-05 (queue/OFFERS.json)"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "PEERED",
+   "by": "runner",
+   "note": "the peer note on audit/physical-bridge-2026-09-05 at 54f8f00ab: extended, graded re-derived; a check from another family"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "AT_BANKING",
+   "by": "runner",
+   "note": "to banking after the peer's note"
   }
  ]
 }

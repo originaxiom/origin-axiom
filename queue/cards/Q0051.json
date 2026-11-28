@@ -1,0 +1,20 @@
+{
+ "id": "Q0051",
+ "seat_code": "fam3-v1-high-01",
+ "branch": "agy/cusp-action-2026-11-20",
+ "commit": "f1e7f307c40c38ba430ee29ce1cccb2b73c8964e",
+ "card_path": "relays/claims/CLAIM_2026-11-28_agy_c72_kempner_3adic_tower_mod177147_branchless_k4_counts_q6_goursat_defect_and_ninth_root_mackey_proof.md",
+ "title": "Kempner 3-adic tower law to mod 177147 (B2007), all-prime branchless K4 leaf counts (B1990), Q_6 Goursat halving defect (B2003/B2010), and K_4 Mackey proof of ninth roots (B1997) (0 of 19)",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

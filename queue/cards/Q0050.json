@@ -1,0 +1,20 @@
+{
+ "id": "Q0050",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "4b23daf57dfe684d6221c91b3b1dcb4f7de4121b",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p644_the_rival_object_in_the_queue_form.md",
+ "title": "P-644's object-against-rival null (FL-04) on frame C, in this seat's log-ratio variant of B1924's instrument and its own rule for reading a rival: the read-out takes the object only through its level and, at finite length, its mark, so m003",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": true,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

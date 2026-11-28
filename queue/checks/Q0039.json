@@ -27,7 +27,7 @@
  "producer_sweep": "harvest row 1814 (RECEIVED, PROVISIONAL); P-320 cites it; closest arc B1515",
  "topic": {
   "regex": "B1509|B1511|B1515|B1926|P\\-320|character|count|cyclic|deformation|exists|first\\-order",
-  "verdict": "VERDICT topic-sweep /B1509|B1511|B1515|B1926|P\\-320|character|count|cyclic|deformation|exists|first\\-order/ (aliases: a history): 582 of 1760 arcs on main match (NEGATIVE 82, OPEN 33, PROVED 463, RETRACTED 4); 328 register rows match (DECLINED 9, DONE 173, LEAD 1, QUEUED 145)",
+  "verdict": "VERDICT topic-sweep /B1509|B1511|B1515|B1926|P\\-320|character|count|cyclic|deformation|exists|first\\-order/ (aliases: a history): 582 of 1760 arcs on main match (NEGATIVE 82, OPEN 33, PROVED 463, RETRACTED 4); 329 register rows match (DECLINED 9, DONE 173, LEAD 1, QUEUED 146)",
   "matches": [
    "B1",
    "B100",
@@ -76,7 +76,6 @@
    "P-517",
    "P-540",
    "P-542",
-   "P-853",
    "P-856",
    "P-859",
    "P-861",
@@ -95,7 +94,8 @@
    "P-877",
    "P-879",
    "P-881",
-   "P-882"
+   "P-882",
+   "P-885"
   ]
  },
  "banked": {

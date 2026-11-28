@@ -1,0 +1,20 @@
+{
+ "id": "Q0049",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "4b23daf57dfe684d6221c91b3b1dcb4f7de4121b",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p589c_the_exact_norms_in_the_queue_form.md",
+ "title": "P-589 (c): at B1838's exact horoball norms, B1701's degenerate spectrum (law-map row 315) holds on the nine lines read and B1729's coarser-line negative (row 324) stands on its sample; with the accessory parameter on its uniformising branch",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": true,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

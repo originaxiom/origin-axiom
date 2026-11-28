@@ -5,8 +5,8 @@
  "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
  "card_path": "relays/claims/CLAIM_2026-11-28_p633_weaves_switch_in_the_queue_form.md",
  "title": "P-633: Mayer's transfer operator has spectral radius 1 at s = 1 (to 1e-27) with one sign change of λ₁ − 1 on the grid s = 0.80, 0.85, …, 1.20, and the Gauss–Kuzmin–Wirsing constant and the Lyapunov exponent as controls; so, read as a weight",
- "status": "FILED",
- "deciding": null,
+ "status": "OFFERED",
+ "deciding": true,
  "heavy": false,
  "refiles": [],
  "history": [
@@ -15,6 +15,18 @@
    "status": "FILED",
    "by": "runner",
    "note": "found on its branch"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "REPRODUCED",
+   "by": "runner",
+   "note": "the rerun at the sealed commit: 6 decisive lines, hash 06e91718cbc0018d; the control exited 1; guard: sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/usr/local/share/vcpkg\", \"/usr/local/lib/node_modules\", \"/usr/local/lib/android/sdk\", \"/usr/local/.ghcup\", \"/usr/local/bin\", \"/usr/share\", \"/usr/lib/jvm\", \"/var/crash\", \"/var/tmp\", \"/snap/core22/3129/run/lock\", \"/snap/core22/3129/tmp\", \"/snap/core22/3129/var/tmp\", \"/tmp\", \"/opt\", \"/run/cloud-init/tmp\", \"/run/screen\", \"/run/lock\", \"/dev/mqueue\", \"/dev/shm\"]"
+  },
+  {
+   "at": "2026-11-28T16:37:20Z",
+   "status": "OFFERED",
+   "by": "runner",
+   "note": "offered to fam3-v1-high-03 on agy-002/verify (queue/OFFERS.json)"
   }
  ]
 }
