@@ -20751,3 +20751,138 @@ peer, and the building seat has it next. Every seat was told what to do and to k
 waits in silence.
 
 0 of 19.
+
+## 2026-11-28 — why the guard could not be built (S306p)
+
+**What happened.** GitHub's machines make the folder that holds their installed tools writable by everyone. The guard
+rightly hides every such folder from the code it runs, and so it hid the very Python it needed. The runner now removes
+that write permission before it starts, so the guard can be built.
+
+0 of 19.
+
+## 2026-11-28 — Offering a card to a peer, through main's own file (S306p)
+
+**What happened.** The building seat mended a fault that would have stopped the trial: nothing could move a reproduced
+card on to a peer, because only the runner may write the queue. Main now lists its offers in a file of its own, and each
+round the runner moves the offered cards on, refusing an offer to the card's own seat or family and taking only the named
+peer's note.
+
+0 of 19.
+
+## 2026-11-28 — The plant ledger's opening made tight (S306p)
+
+**What happened.** The building seat closed four ways around the plant ledger that main found. A published list of plants
+can no longer be deleted afterwards; a round's list must be published before the next round is sealed; a verdict seen
+only after a list was published no longer counts as a catch; and a seat's written expectation counts as its content, like
+its verdict. A test now checks that the repository's ignore rules let main commit the fingerprints and the lists.
+
+0 of 19.
+
+## 2026-11-28 — The runner's sandbox given a Python it can reach (S306p)
+
+**What happened.** The building seat proposed the likely fix for the runner's missing sandbox on GitHub: run the intake
+with the machine's own Python, which the sandbox does not hide and which starts without extra settings, and refuse,
+saying why, an interpreter the sandbox would hide. Each reason the runner gives for having no sandbox now has a test.
+
+0 of 19.
+
+## 2026-11-28 — every card has its checker (S306p)
+
+**What happened.** Each of the 43 cards waiting at the door now names the seat of another family that will check it,
+chosen by one fixed rule so that no choice singles a card out. The four checking seats were told how to do it. The web
+seat came back and refiled six of its cards in the new form, and its two questions were answered.
+
+0 of 19.
+
+## 2026-11-28 — the door opened (S306p)
+
+**What happened.** The runner's first full round worked on GitHub. It ran three cards' code with the network cut and as an
+unprivileged user, reproduced all three, handed each to a checking seat of another family, and wrote the result to the
+queue's own branch, which only the runner can write. It now runs every hour, so the 43 waiting cards move through in about
+a day and a half, as their premises allow.
+
+0 of 19.
+
+## 2026-11-28 — two seats' new work received (S306p)
+
+**What happened.** The web seat refiled one card as main asked, and another seat filed a new original card, which holds
+every check made before running anything. The new card was given a checking seat of another family.
+
+0 of 19.
+
+## 2026-11-28 — Offers drafted to each peer's working branch; a sign in mathematics no longer flagged (S306p)
+
+**What happened.** The building seat mended the tool that drafts main's offers to peers: each peer is now offered on the
+branch it is working on, a peer idle for two weeks is left out, and the tool's rule, run on today's queue, gives exactly
+the offers main made by hand. The check that flags a comparison with measured data no longer flags the plus-or-minus
+sign where it is mathematics, a sign class or a congruence, rather than a measured value with its error.
+
+0 of 19.
+
+## 2026-11-28 — two ways the trial could stall, closed (S306p)
+
+**What happened.** The building seat, watching the rounds, found that a card needing heavy tools could never move, since
+only the runner may write the queue and the runner cannot run those tools. Main ruled that such a card is run on the
+author's machine and its result filed on main for the runner to check. And since GitHub's clock has not started a round
+since the morning, each round is to start the next while cards are waiting.
+
+0 of 19.
+
+## 2026-11-28 — the first check by another seat (S306p)
+
+**What happened.** For the first time, a seat of one family checked another family's card through the door: it rebuilt
+the computation with its own code and got the same decisive lines. Three more cards arrived and hold the door's first
+checks. The seat that is to check main's own trial cards was told its first two are waiting.
+
+0 of 19.
+
+## 2026-11-28 — A card that needs sage or GAP can now pass through the queue (S306p)
+
+**What happened.** The building seat opened the one path that was closed: a card whose computation needs sage or GAP,
+which GitHub's runner does not have, could never leave its first state, and the trial's chain waited behind it. Now the
+author reruns such a card on their own machine with one command, which writes its result; main lands the file; and the
+runner checks it against the card and moves the card itself, so the queue stays written by the runner alone. Another
+seat's heavy card is rerun there only with the author's word.
+
+0 of 19.
+
+## 2026-11-28 — The intake keeps itself going while cards wait (S306p)
+
+**What happened.** GitHub's timer had not started a round of the intake for hours. The building seat made each round start
+the next one itself whenever it moved a card or left one waiting, through a step that may do nothing but start the
+workflow; when a round finds nothing to do, the chain stops and the hourly timer remains as the fallback.
+
+0 of 19.
+
+## 2026-11-28 — the heavy trial card reproduced (S306p)
+
+**What happened.** One of main's own trial cards needs mathematical software the GitHub machine does not have. It was run
+on the author's machine with the new command and gave exactly the lines it claims; its result is filed for the runner to
+check. Both banking seats sealed their first verdicts, and one producer filed a new card.
+
+0 of 19.
+
+## 2026-11-28 — The intake keeps checking while other seats have work to send (S306p)
+
+**What happened.** The intake stopped itself when a round found nothing to move, even while cards were waiting for another
+seat's check or for the banking seats' files. Now, while any card waits on a seat, each quiet round waits twenty minutes
+and starts the next, so what a seat sends is seen without anyone starting a round by hand.
+
+0 of 19.
+
+## 2026-11-28 — the checkers at work (S306p)
+
+**What happened.** Every checking seat has now filed checks of the cards offered to it, main's own trial cards among them.
+The runner was given a pulse, so that while cards wait on the seats it looks again every twenty minutes without anyone
+clicking. A record-wide clean-up of how verdict lines name the seats was sent back: it would have touched arcs the trial
+is still testing, and its list of names missed some seats.
+
+0 of 19.
+
+## 2026-11-28 — main back on the frontier (S306p)
+
+**What happened.** The author sent main back to the mathematics: the seats now check each other's work through the
+framework's door, so main's day is to listen to the object, supervise, and explore. The building seat was asked for three
+automations that take the remaining clerical work off main.
+
+0 of 19.

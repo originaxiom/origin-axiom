@@ -5,13 +5,18 @@
 # the round wrote. `record` runs no seat code: it refuses any file the round did not write, checks the artifact against the
 # queue's schema and the sighting log's form, and pushes to the queue's own branch alone, with a deploy key that only it
 # names (main's M73): the queue's ruleset lets that key alone update the branch, so a record on `queue` is the runner's.
-# After its push it reads the branch's rules and fails if they are not in force. Standard GitHub-hosted runners only
-# (`ubuntu-latest`); never a larger runner. The settings the author makes are in queue/README.md.
+# After its push it reads the branch's rules and fails if they are not in force. A third job, `next` (main's M83), holds
+# only the right to dispatch a workflow, no secret and no seat code: after `record`, it starts the next round when this one
+# moved a card or left one for later, since GitHub's scheduler had fired no round for hours; the hourly cron stays as the
+# fallback. Standard GitHub-hosted runners only (`ubuntu-latest`); never a larger runner. The settings the author makes
+# are in queue/README.md.
 name: intake
 
 on:
   schedule:
-    - cron: "17 */3 * * *"          # every three hours, at minute 17
+    # CHANGED 2026-11-28 (main, after round 1 ran in the sandbox: three cards a round, 43 cards waiting): every hour,
+    # not every three; the concurrency group below keeps one round at a time. The line as it stood: "17 */3 * * *"
+    - cron: "17 * * * *"            # every hour, at minute 17
   workflow_dispatch: {}              # the manual trigger beside the schedule
 
 permissions:
@@ -32,6 +37,9 @@ jobs:
     if: ${{ vars.INTAKE_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    outputs:
+      again: ${{ steps.intake.outputs.again }}       # main's M83: the round's last line, read by the job `next`
+      wait: ${{ steps.intake.outputs.wait }}         # main's M84: cards wait on a seat and nothing moved
     steps:
       - name: Check out main, with every branch's history
         uses: actions/checkout@v4
@@ -47,14 +55,18 @@ jobs:
             git archive "origin/${QUEUE_BRANCH}" queue | tar -x -C queue-state
           fi
           mkdir -p queue-state/queue
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install the allowed packages at their pins
+      # CHANGED 2026-11-28 (the builder, at M78 point 2): the image's own python3, not actions/setup-python's. That
+      # interpreter sits under /opt/hostedtoolcache, which the wrap covers with an empty tmpfs when the image leaves it
+      # writable by all, and it needs LD_LIBRARY_PATH, which sudo drops; /usr/bin/python3 is root's and needs neither.
+      # The lines as they stood: uses: actions/setup-python@v5, with python-version "3.12", and pip install for it
+      - name: Install the allowed packages at their pins, for the image's own python3
         run: |
           python3 -c "import json; d = json.load(open('scripts/queue/ALLOWED_PACKAGES.json')); print(' '.join(k + '==' + v['pin'] for k, v in d['packages'].items()))" > pins.txt
-          python3 -m pip install --quiet $(cat pins.txt)
+          python3 -m pip --version >/dev/null 2>&1 || sudo apt-get install -y -q python3-pip
+          sudo python3 -m pip install --quiet --break-system-packages $(cat pins.txt)
+          python3 -c "import sys; print('the interpreter:', sys.executable, sys.version.split()[0])"
       - name: One round of the intake (seat code runs here, with the network cut)
+        id: intake
         # CHANGED 2026-11-28 (main, at the author's word, after the first round on the workflow, M78 point 4): a round that
         # cannot make the sandbox is not recorded. It had gone on and marked each card it reran HEAVY, for a fault of the
         # runner, not of the card. It now fails here, after printing why, so neither the upload nor the record job runs.
@@ -66,6 +78,8 @@ jobs:
             echo "::error::no sandbox on this runner (its reasons are above): the round is not recorded"
             exit 1
           fi
+          if grep -q "^the next round: needed" round_report.txt; then echo "again=true" >> "$GITHUB_OUTPUT"; else echo "again=false" >> "$GITHUB_OUTPUT"; fi
+          if grep -q "^the next round: after a wait" round_report.txt; then echo "wait=true" >> "$GITHUB_OUTPUT"; else echo "wait=false" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/upload-artifact@v4
         with:
           name: queue
@@ -140,3 +154,27 @@ jobs:
             exit 1
           fi
           echo "the queue's ruleset is in force on ${QUEUE_BRANCH}: ${rules}"
+
+  next:
+    # ADDED 2026-11-28 (the builder, at main's M83 point 2): GitHub's scheduler fired no round from 07:42 on, so the rounds
+    # dispatch the next one themselves while cards wait. This job holds only the right to dispatch a workflow: no secret,
+    # no checkout, no seat code. It runs after the round was recorded, and only when the round's last line says the next
+    # round is needed; a round with nothing to do ends the chain, and the hourly cron stays as the fallback. The
+    # concurrency group above keeps one round at a time: the dispatched round waits until this one ends.
+    # CHANGED 2026-11-28 (main's M84 point 2): it also runs when the round moved nothing but cards wait on a seat (OFFERED,
+    # AT_BANKING), and then waits 20 minutes before it dispatches, so a seat's push is seen without the author's click.
+    # The lines as they stood: if: ${{ needs.round.outputs.again == 'true' }} and timeout-minutes: 5.
+    needs: [round, record]
+    if: ${{ needs.round.outputs.again == 'true' || needs.round.outputs.wait == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      actions: write                 # to dispatch the next round, with the job's own token; nothing else
+    steps:
+      - name: Wait for the seats
+        if: ${{ needs.round.outputs.again != 'true' && needs.round.outputs.wait == 'true' }}
+        run: sleep 1200
+      - name: Dispatch the next round
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run intake.yml --ref main --repo "${{ github.repository }}"

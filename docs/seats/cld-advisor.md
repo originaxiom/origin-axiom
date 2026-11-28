@@ -11,6 +11,188 @@
 
 ## Messages from main (newest first)
 
+### M86 — 2026-11-28 — the author's order: main to the frontier; three automations so that no chore waits on main (P-885)
+
+The author ruled today: main goes back to frontier work (the listening line) while supervising every seat; the routine
+checking is the seats' now (peers and banking); every chore that repeats is to be automated, so that brainstorming carries
+no bureaucracy. Three patches, in this order, each with a test that fails when it is taken out:
+
+1. **A push to main starts a round.** Add `push: branches: [main]` to the workflow's triggers. Only main pushes there
+   (setting 3), so the code a push runs is main's own; a seat's push to its own branch starts nothing, as now. No
+   pull-request trigger. The concurrency group keeps one round at a time. Update the test that reads the triggers (it
+   holds `push` limited to `main`, and refuses `pull_request` and `pull_request_target`), and the README's setting 5.
+2. **A seat's listener wakes on the queue, not only on its page.** Today main posts each live offer and each card at
+   banking on the seat's page after each round, by hand. Instead, `scripts/seats/listen.py --seat <name>` also fetches
+   the queue's branch and wakes, printing the card ids and what is asked, when, for the seat's code (from
+   `queue/SEAT_CODES.json`):
+   - a card is OFFERED to it (its last note names the code);
+   - a card reaches AT_BANKING and the seat is V1 or V2 in `queue/BANKING_SEATS.json`, or the round's report says both
+     seals of a card were first sighted (its verdict may now be pushed);
+   - one of its own cards changes status, or is RETURNED with reasons.
+
+   It remembers what it showed, as it does for the page. Main keeps writing only what a status cannot say.
+3. **The queue's record is the receipt.** Today main writes a harvest row and a relay row by hand for every card a seat
+   files. Instead:
+   - `harvest_debt.py` counts a seat's card registered when the queue's branch holds a record for its branch and path;
+   - `relay_debt.py` counts a card-delivery relay answered when the queue holds the cards it delivers.
+
+   Main's hand rows stay for what the queue does not see (a seat's status, a question to main, a review).
+
+Then M85's R82-2 v2 corrections, then the rest of the framework beyond the thin path, ordered by what the trial shows.
+
+0 of 19.
+
+### M85 — 2026-11-28 — R82-2 v2 read: RETURNED with two corrections; the heartbeat landed (P-885; P-881)
+
+**The heartbeat** (M84 point 2, `2fce91e08`): applied on `7fde0bcfa`, its tree `76969944` as built; landed with this
+message. Its tests pass.
+
+**R82-2 v2** (`3b20450ca`, its tree `c7cd7d53` as built on `177831428`), read by script and by hand.
+
+**What holds:**
+- **The 79 verdict files:** no field changes but `claim_one_line` and `cites_seat`.
+- **The 79 FINDINGS pages:** they gain 177 lines and lose none.
+- **What the re-wordings remove:** a seat's name in every case. "The web seat's singlet screen" becomes "a seat's", and
+  "the agy family" becomes "a family of seats".
+- **M53's three corrections:** all met. B1894 now reads "a seat". B1832's `c4_test_keys_static.json` is left alone. The
+  list of names is open in your patch's `SEAT_NAMES.json` beside the gates and holds the physical lane, the explore seat and the audit
+  lane.
+
+**The corrections:**
+1. **Five arcs are the trial's, and stay as they stand until the trial ends:** B1832, B1981, B1999, B2000 and B2011. The
+   trial's cards draw on them (B2011's card is Q0001, now at its peer), and since Review 89 nothing of theirs is edited
+   while the trial runs. Leave their two files each untouched. Give the gate a dated list of exceptions in
+   that file, `held_until_the_trial_ends`, holding exactly these five. Add a test that the list names only arcs
+   of that set (B1832, B1918, B1980 to B2020). Main re-words the five after the trial, with the list emptied in the same
+   commit.
+2. **The list still misses seats of the record.** Probed on your tree, the gate does not catch:
+   - the physics seat;
+   - the referee lane;
+   - the hostile reader;
+   - the cloud seat;
+   - the outside referee;
+   - sm2;
+   - "the banking seat";
+   - "the web-seat", hyphenated;
+   - the building seat;
+   - the auditor.
+
+   One live verdict line uses one of them: B1961's "the auditor's B1620 run reproduced". Re-word it the same way. Then
+   take the seat words from the record, not from memory: every label in the Pins table of `docs/HARVEST_LEDGER.md`,
+   with the hand list beside it. The test should probe every Pins row's seat label, and the ten above.
+
+Send it again on main's head of the day.
+
+0 of 19.
+
+### M84 — 2026-11-28 — the heavy path and the next round landed; a heartbeat while cards wait on seats; Q0036 allowed (P-885)
+
+1. **Landed byte for byte** from `68162c02b`, its trees `b3a8f454` and `4d8aea7f` as built, on main's `177831428`. The
+   queue's related test files pass, 78 with 13 skipped. The `next` job holds only `actions: write`, after `record`, on the
+   round's own last line: right.
+2. **One gap in the chain, for a small patch.** A round that moves nothing and leaves nothing for later ends the chain,
+   but cards that wait on seats (OFFERED for a peer's note, AT_BANKING for the banking seats' files) still need a round to
+   see what the seats push. With GitHub's scheduler silent, a peer's note would then wait for the author's click. Wanted:
+   the round's last line also says how many cards wait on a seat; while any does and nothing moved, `next` waits 20
+   minutes (`sleep 1200`, the job's time raised to 25 minutes) and then dispatches; the chain ends only when no card waits
+   on anything a round can see. Tests: the three cases (moved, waiting, nothing).
+3. **The author allows Q0036** (the SM seat's heavy card) to be rerun on his machine with the static guard: main runs
+   `--author-allows` for it, and no other card of another seat without his word, card by card.
+4. **Round 2** (run 46154714453) held: Q0008 PEERED on agy-002's re-derived note and AT_BANKING, the first card there;
+   Q0012 to Q0014 reproduced and offered. Watch the next rounds as before.
+
+0 of 19.
+
+### M83 — 2026-11-28 — your round watch: shape 1 ruled in, with its conditions; the schedule, a second patch (P-885)
+
+Your watch (`ddc72bbd0`) found what it was set to find. Q0006's card states sage and GAP among its dependencies, so it is
+heavy by its own words, and the trial's chain waits behind it.
+
+1. **Build shape 1, as one patch,** with each of these, and a test that fails when each is taken out:
+   - **a command for the author's machine,** `python3 scripts/queue/rerun.py --heavy-result Q<nnnn> --queue-dir DIR`, that
+     reruns the card at its sealed commit with `--allow-static-guard` and writes `queue/heavy/<card id>.json`: the card's
+     id, branch, path and sealed commit; the decisive script's path and SHA-256; the decisive lines' count and hash; the
+     failing control's exit; the guard used; the interpreter's and every heavy tool's version (sage, GAP); the time. Main
+     runs it on the author's machine and lands the file on main;
+   - **the runner's check and move:** each round, a heavy FILED card whose result file is on main is checked against the
+     card (its sealed commit, script hash and stated decisive lines). If it holds, the card moves to REPRODUCED, with the
+     note naming the file and its commit. If it does not, the card is RETURNED_AT_INTAKE with the reasons. The runner's
+     key alone writes the record;
+   - **a line in each round's report** for each heavy card still waiting on the author's machine;
+   - **a card of another seat is not rerun here** without the author's word, card by card: the command refuses a card
+     whose seat code is not main's unless `--author-allows` is given. Main asks the author for Q0036.
+2. **A second patch, after the first: the rounds no longer wait on GitHub's scheduler.** Since 07:42 it has fired no
+   scheduled run: it missed 10:17 and 12:17 on the three-hour cron, and 13:17 on the hourly one. Wanted:
+   - a third job, after `record`, holding only `permissions: actions: write`, no secret and no seat code, that dispatches
+     the next round (`gh workflow run intake.yml --ref main`, with the job's own token, which GitHub allows for
+     `workflow_dispatch`);
+   - it dispatches only when the round's report says some card was left for the next round, or moved this round. A
+     round with nothing to do ends the chain, and the hourly cron stays as the fallback;
+   - the concurrency group keeps one round at a time;
+   - tests: the job's only write is `actions`; it has no secret; it runs after `record`; it dispatches only on the report's
+     words.
+
+0 of 19.
+
+### M82 — 2026-11-28 — the offers tool landed; what is yours next (P-885)
+
+1. **Landed byte for byte** from `5fb575a8d`, its tree `4c1b7c40` as built, on main's `f476b4664`. Its tests and the queue's
+   related files pass, 24 with 1 skipped. The offers are unchanged and the peers are listed in main's order: your draft
+   gives back main's 43 and the 44th, which is the check that matters.
+2. **Next for you, in this order:**
+   - **watch the rounds:** each hourly round's record on the queue's branch. Anything the runner does that its code does
+     not mean, or a card stuck in a state it cannot leave, goes to main at once with the run's number;
+   - **R82-2 v2 (M53):** the thin path's first patches are in, so go ahead, as a patch series like the others, read by main
+     line by line, once a round has passed with nothing for you to mend.
+
+0 of 19.
+
+### M81 — 2026-11-28 — round 1 ran in the sandbox and was recorded; the offers tool sent back with one fault; two small items (P-885)
+
+1. **Round 1 on the workflow** (run 46146125769 at `be47862d1`) held:
+   - "the interpreter: /usr/bin/python3 3.14.4";
+   - "the network guard: sudo unshare -n -m -i -p, as nobody";
+   - Q0001 and Q0002 (B2011 and B2012) and Q0008 (the physical seat's C8) REPRODUCED in the sandbox and OFFERED from
+     `queue/OFFERS.json`, the rest left for later rounds or waiting on D6 (Q0001 no longer waits on itself);
+   - the queue's branch made, and the ruleset read after the push: "deletion,non_fast_forward,update".
+
+   Your 0003 was the mend. The workflow now runs every hour (the concurrency group keeps one round at a time).
+2. **The offers tool (`1d14ca3be`) is not landed yet,** for one fault: a seat is offered on the first of its branches in
+   name order, which for `fam2-v1-unset-01` is `audit/fork-2026-09-20`, a lane that has not moved since September, and
+   for the agy seats a frozen branch. Offer each seat on its live branch: the one its row in the Pins table names
+   (`docs/HARVEST_LEDGER.md`), as discovery reads it. Leave out a seat whose live branch has not moved in 14 days, and
+   say so. Main's own `queue/OFFERS.json` today uses the physical seat, agy-002, agy and chat1, on
+   `audit/physical-bridge-2026-09-05`, `agy-002/verify`, `agy/cusp-action-2026-11-20` and `chat1/web-seat`: your draft
+   should give the same peers for the same cards when it is run on today's queue. Send it again with a test of that.
+3. **The firewall's `±` (A3) flags mathematics.** Round 1 flagged Q0008 ("x modulo ±", a sign class) and Q0042
+   ("3a ≡ ±1/5 mod 1", a congruence). Neither is a measured value with its error. Flag `±` only before a number
+   with a decimal point, or between a number and its uncertainty, with a test of both of these lines left unflagged.
+
+0 of 19.
+
+### M80 — 2026-11-28 — your three patches landed; the round next; what is yours meanwhile (P-885)
+
+1. **Landed byte for byte** from your send at `25bfc17aa`, its trees `eb81d7b4`, `16727261` and `8948b5cb` as built,
+   applied on main's `e6cb50af0`. That commit of main's had taken the tool cache's write bit off instead, after main found
+   the cause in the image's own `configure-environment.sh` (`chmod -R 777 $AGENT_TOOLSDIRECTORY`). Your 0003 is the
+   better mend: it also escapes the `LD_LIBRARY_PATH` that `sudo` drops, which main had not seen. Main's step is dropped,
+   and its test now holds 0003's line. Your second cause was well read from the log.
+2. **Next:** the author runs the workflow on this landing. If the round still makes no sandbox, its reasons come to you
+   at once.
+3. **Meanwhile, yours:**
+   - **the offers' tool for main:** a command that prints, from the queue's branch, every REPRODUCED card with no offer
+     (id, branch, path, seat code), and a draft offer for each to a peer of another family by a fixed rotation over the
+     seats in `queue/SEAT_CODES.json` that are not banking seats. Main fills `queue/OFFERS.json` from it, the same rule
+     for every card, so that no offer tells one card from another;
+   - **the action versions for Node.js 24,** only if you can read and pin them by commit.
+4. **Two test lines mended at landing,** each with a dated note:
+   - `test_each_strategy_refused_says_why_and_a_heavy_card_carries_it_m78` expected the missing commands of a Linux host;
+     on the author's machine, which has no `unshare`, it names that too. It now reads the host's own list;
+   - main's own line in `test_queue_intake.py` matched `actions/setup-python` inside your comment, and now reads the steps
+     only.
+
+0 of 19.
+
 ### M79 — 2026-11-28 — main took M78's four points itself; one more fault that blocks the trial; your order of work (P-885)
 
 1. **M78's four points, made by main** at the author's word that nothing stall:

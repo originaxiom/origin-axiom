@@ -206,6 +206,7 @@ def test_the_workflow_reads_only_but_where_it_records_and_runs_no_seat_code_ther
     text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
     head, jobs = text.split("\njobs:\n", 1)
     round_job, record = jobs.split("\n  record:\n", 1)
+    record = record.split("\n  next:\n", 1)[0]          # main's M83: the third job is read on its own
     on = head.split("\non:\n", 1)[1].split("\n\n", 1)[0]
     triggers = [l.strip().split(":")[0] for l in on.splitlines() if l.startswith("  ") and not l.startswith("    ")]
     assert triggers == ["schedule", "workflow_dispatch"]                 # no pull-request trigger: no fork's code runs
@@ -228,6 +229,11 @@ def test_the_workflow_reads_only_but_where_it_records_and_runs_no_seat_code_ther
     assert IN.MANIFEST.startswith(".") and "include-hidden-files: true" in upload
     step = round_job.split("intake.py --queue-dir", 1)[1].split("actions/upload-artifact@", 1)[0]
     assert "set -o pipefail" in round_job and 'grep -q "^the network guard: no sandbox"' in step and "exit 1" in step
+    # CHANGED 2026-11-28 (main, at the builder's M79 patch 0003): the round runs the image's own python3, not
+    # actions/setup-python's under the tool cache, so main's step taking the tool cache's write bit off (e6cb50af0) is
+    # dropped; the assertion as it stood: the chmod step between the packages and the round
+    steps = "\n".join(l for l in round_job.splitlines() if not l.strip().startswith("#"))      # its comments name the old step
+    assert "actions/setup-python" not in steps and "sudo python3 -m pip install" in steps
 
 
 def test_the_settings_the_author_makes_are_written_down():
@@ -266,3 +272,74 @@ def test_a_card_refiled_by_a_later_card_is_not_taken_further(tmp_path):
                                    prefix=[])
     assert any("%s is refiled by a later card, and is not taken further" % good["id"] in r for r in report)
     assert not any(("%s waits on" % good["id"]) in r for r in report) and heavy["id"]
+
+
+def test_the_rounds_dispatch_the_next_only_when_one_is_needed_m83(tmp_path):
+    """main's M83 point 2: GitHub's scheduler fired no round from 07:42. A third job dispatches the next round: it holds
+    only the right to dispatch, no secret and no seat code; it runs after record; and only when the round's last line,
+    which the round computes, says the next round is needed"""
+    text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
+    jobs = text.split("\njobs:\n", 1)[1]
+    round_job, rest = jobs.split("\n  record:\n", 1)
+    record, nxt = rest.split("\n  next:\n", 1)
+    perms = nxt.split("    permissions:\n", 1)[1].split("\n    steps:", 1)[0]
+    assert [l.split(":")[0].strip() for l in perms.splitlines() if l.strip()] == ["actions"]
+    assert "actions: write" in perms and "secrets." not in nxt and "uses: actions/checkout" not in nxt
+    assert "needs: [round, record]" in nxt and "needs.round.outputs.again == 'true'" in nxt
+    assert "gh workflow run intake.yml --ref main" in nxt and "GH_TOKEN: ${{ github.token }}" in nxt
+    assert "again: ${{ steps.intake.outputs.again }}" in round_job and "id: intake" in round_job
+    assert 'grep -q "^%sneeded" round_report.txt' % IN.NEXT_ROUND in round_job
+    # the round's last line: needed when it moved a card or left one; not needed when it did neither
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    _repo(repo)
+    cards, log, att, report, status = IN.round_(tmp_path / "q", root=repo, refs=[("a", "origin/seat/a")], codes=CODES,
+                                                at=AT, limit=60, allow_static=True, max_cards=1)
+    assert status == 0 and report[-1].startswith(IN.NEXT_ROUND + "needed (this round moved"), report[-1]
+    assert "left " in report[-1] and " 0 for the next" not in report[-1]
+    was = {k: v["status"] for k, v in cards.items()}
+    assert IN.next_round(was, cards, ["Q0001 waits on Q0002 (D6)"]) == IN.NEXT_ROUND + \
+        "not needed (this round moved 0 card(s) and left 0 for the next; 0 wait on a seat)"
+    assert IN.next_round(was, cards, ["Q0001 left for the next round (3 cards rerun in this one)"]).startswith(
+        IN.NEXT_ROUND + "needed")
+    filed = sorted(k for k, s in was.items() if s == "FILED")[0]
+    moved = {k: dict(v, status="RETURNED_AT_INTAKE") if k == filed else v for k, v in cards.items()}
+    assert IN.next_round(was, moved, []).startswith(IN.NEXT_ROUND + "needed (this round moved 1 card(s)")
+
+
+def test_the_chain_goes_on_after_a_wait_while_a_card_waits_on_a_seat_m84(tmp_path):
+    """main's M84 point 2: a round that moves nothing and leaves nothing, while a card waits on a seat (OFFERED, for a
+    peer's note; AT_BANKING, for the banking seats' files), says "after a wait"; the job `next` then waits 20 minutes and
+    dispatches. The three cases: moved, waiting, nothing"""
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    _repo(repo)
+    cards, *_ = IN.round_(tmp_path / "q", root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at=AT, limit=60,
+                          allow_static=True)
+    some = sorted(cards)[0]
+    for status in IN.WAITS_ON_A_SEAT:
+        waiting = {k: dict(v, status=status) if k == some else dict(v, status="NOT_BANKED") for k, v in cards.items()}
+        was = {k: v["status"] for k, v in waiting.items()}
+        assert IN.next_round(was, waiting, []) == IN.NEXT_ROUND + \
+            "after a wait (this round moved 0 card(s) and left 0 for the next; 1 wait on a seat)", status
+        moved = dict(was, **{some: "PEERED"})                         # moved: needed at once, the waiting counted too
+        assert IN.next_round(moved, waiting, []).startswith(IN.NEXT_ROUND + "needed (this round moved 1 card(s)")
+        assert IN.next_round(was, waiting, ["Q0001 left for the next round (3 cards rerun in this one)"]).startswith(
+            IN.NEXT_ROUND + "needed")
+    for status in ("FILED", "REPRODUCED", "PEERED", "NOT_BANKED", "VERIFIED", "RETURNED_AT_INTAKE"):
+        none = {k: dict(v, status=status) for k, v in cards.items()}  # nothing: no card waits on a seat
+        was = {k: v["status"] for k, v in none.items()}
+        assert IN.next_round(was, none, []).startswith(IN.NEXT_ROUND + "not needed"), status
+    assert IN.WAITS_ON_A_SEAT == ("OFFERED", "AT_BANKING")
+    text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
+    jobs = text.split("\njobs:\n", 1)[1]
+    round_job, rest = jobs.split("\n  record:\n", 1)
+    nxt = rest.split("\n  next:\n", 1)[1]
+    assert "wait: ${{ steps.intake.outputs.wait }}" in round_job
+    assert 'grep -q "^%safter a wait" round_report.txt; then echo "wait=true"' % IN.NEXT_ROUND in round_job
+    assert "if: ${{ needs.round.outputs.again == 'true' || needs.round.outputs.wait == 'true' }}" in nxt
+    assert "timeout-minutes: 25" in nxt
+    steps = nxt.split("    steps:\n", 1)[1]
+    wait, dispatch = steps.split("      - name: Dispatch the next round\n", 1)
+    assert "if: ${{ needs.round.outputs.again != 'true' && needs.round.outputs.wait == 'true' }}" in wait
+    assert "run: sleep 1200" in wait and "gh workflow run intake.yml --ref main" in dispatch

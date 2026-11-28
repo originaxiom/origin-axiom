@@ -14,9 +14,49 @@ A card's history is append-only. A returned card is refiled as a new card that n
 
 - **One round, by hand:** `python3 scripts/queue/intake.py --queue-dir <the queue/ folder of the queue's branch> [--write]`.
   On a machine where the network cannot be cut by a namespace, add `--allow-static-guard`, by the author's choice only.
-- **On the workflow:** `.github/workflows/intake.yml`, every three hours and by hand (Actions, "intake", "Run workflow").
+- **On the workflow:** `.github/workflows/intake.yml`, every hour (every three hours until 2026-11-28) and by hand (Actions, "intake", "Run workflow").
   The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
   queue's branch, `queue`.
+
+## A heavy card (main's M83)
+
+A card that needs sage or GAP, or declares itself heavy, is not rerun on the workflow: each round says it waits for the
+author's machine. There, main runs, from main's checkout with the queue's folder at hand:
+
+    python3 scripts/queue/rerun.py --heavy-result Q0006 --queue-dir <the queue/ folder of the queue's branch>
+
+It reruns the card at its sealed commit with no wrap, by the author's choice, with the caller's PATH (set it so that
+`sage`, `gap` and a `python3` with python-flint are found), and writes `queue/heavy/Q0006.json`. Main commits that file
+on main. The next round checks it against the card (its id, branch, path and sealed commit, the decisive script and its
+hash, the decisive lines as the card states them, a control that exited 1) and moves the card to REPRODUCED, or to
+RETURNED_AT_INTAKE with the reasons. A card of another seat is rerun there only with `--author-allows`, the author's word
+for that card.
+
+## The offers to peers (main's M79)
+
+The queue's branch is the runner's alone, so main offers a card to a peer in its own file on main, `queue/OFFERS.json`:
+each offer names the card by its branch and its path (its queue id is given at intake) and the peer by its seat code and
+branch. Each round the runner moves a REPRODUCED card whose offer holds to OFFERED, its note naming the peer. An offer to
+the card's own seat or its own family (the code's first part), or to a branch that is not the code's in
+`queue/SEAT_CODES.json`, is refused and reported. A card with no offer stays REPRODUCED, and the report says so. Only the
+offered peer's note is taken; another seat's note is refused.
+
+**The draft, by one rule** (main's M80, M81): `python3 scripts/queue/offers.py [--all]` prints every REPRODUCED card on the
+queue's branch with no offer yet (with `--all`, every FILED card too, offered ahead of its rerun), and a whole draft of
+`queue/OFFERS.json`. The peers are the codes under `"peers"` in that file, in their order, each on its live branch: of
+the Pins table's branches for its code, the one that moved last; a seat whose live branch has not moved in 14 days is
+left out, and said. Each card takes the next peer of another family in a rotation carried from card to card in queue
+order, a card offered already moving it where it stands; main's own cards go to the first peer of another family. Main reads the draft and commits the
+file itself.
+
+**The rounds dispatch the next** (main's M83): a round that moved a card or left one for later dispatches the next
+round itself, by a job that holds only the right to dispatch; a round with nothing to do ends the chain, and the hourly
+cron stays as the fallback.
+**[ADDED 2026-11-28 (main's M84):** a round that moved nothing and left nothing, while a card waits on a seat (OFFERED,
+for a peer's note; AT_BANKING, for the banking seats' files), says "the next round: after a wait"; the job waits 20
+minutes, then dispatches. The chain ends only when no card waits on anything a round can see. A heavy card waiting on
+the author's machine is not counted: its result lands on main by main's own push, after which main dispatches a round,
+or the hourly cron runs it.**]**
 
 ## The settings the author makes (once, in the repository's settings on GitHub)
 
@@ -50,6 +90,11 @@ A card's history is append-only. A returned card is refiled as a new card that n
    on the workflow.
 7. **A heavy rerun on the author's machine** runs sage, and for main's B2016 wrapper also a `python3` on the PATH that has
    python-flint (main's M65): set the PATH so first. There the author may run with `--allow-static-guard`, by choice.
+   [ADDED 2026-11-28 by main, at B2016's first heavy rerun: the card's failing control runs under the same interpreter
+   as the rerun, sage's own Python, so that Python needs python-flint at its pin too
+   (`sage -python -m pip install python-flint==0.9.0`); without it the control exits 3 with a traceback, and the result
+   is RETURNED. The command: `sage -python scripts/queue/rerun.py --heavy-result Q<nnnn> --queue-dir <the queue/ folder
+   of the queue's branch>`.]
 8. **Switching the runner on** (ADDED 2026-11-27 by main, at landing): the workflow's `round` job runs only when the
    repository variable `INTAKE_ENABLED` is `true` (Settings, Secrets and variables, Actions, Variables). Set it once
    settings 1 to 4 are made; until then a scheduled run skips both jobs and costs nothing.
@@ -69,7 +114,9 @@ main's.
 
 ## The plant ledger (the thin path's patch T12)
 
-Main's alone, and not read by any seat before it is opened. Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
+Main's alone, and not read by any seat before it is opened. **Its round is a batch of cards, not one run of the runner**
+(the runs above, every hour, are a different round): a ledger is opened only when every card it names has ended,
+its status final, and round n's ledger is opened before round n + 1 is sealed (main's M76). Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
 it untracked, commits its seal (`python3 scripts/queue/plants.py --seal queue/plants/ROUND_<n>.json`, a line appended to
 `queue/PLANT_SEALS.jsonl`), lets the round run, and then commits the ledger, which opens it. A fresh nonce for each ledger:
 `plants.py --nonce`. The catch rates: `plants.py --measure <the queue/ folder of the queue's branch>`. The gate

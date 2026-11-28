@@ -1,0 +1,363 @@
+{
+ "note": "Main's offers to peers (the framework's thin path; register row P-885; main's M79): each card by its branch and its path, since its queue id is given at intake, and its peer by seat code and branch, never a name. Each round the runner moves a REPRODUCED card whose offer holds to OFFERED, naming the peer; an offer to the card's own seat or own family is refused. Main fills this. \"peers\" (the builder, at main's M81): the seats main has told their role as peers, in the order of the rotation scripts/queue/offers.py drafts by; each is offered on its live branch.",
+ "peers": [
+  "fam2-v1-unset-01",
+  "fam3-v1-high-03",
+  "fam3-v1-high-01",
+  "fam1-v1-unset-03"
+ ],
+ "offers": [
+  {
+   "branch": "main",
+   "path": "relays/claims/CLAIM_2026-11-27_B2011_main_trial.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "main",
+   "path": "relays/claims/CLAIM_2026-11-27_B2012_main_trial.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "main",
+   "path": "relays/claims/CLAIM_2026-11-27_B2013_main_trial.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "main",
+   "path": "relays/claims/CLAIM_2026-11-27_B2014_main_trial.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "main",
+   "path": "relays/claims/CLAIM_2026-11-27_B2015_main_trial.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "main",
+   "path": "relays/claims/CLAIM_2026-11-27_B2016_main_trial.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "main",
+   "path": "relays/claims/CLAIM_2026-11-27_B2017_main_trial.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "audit/physical-bridge-2026-09-05",
+   "path": "relays/claims/CLAIM_2026-11-27_C8_two_registers.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "audit/physical-bridge-2026-09-05",
+   "path": "relays/claims/CLAIM_2026-11-28_every_orbit_meets_the_plane_x_equals_y.md",
+   "peer": {
+    "code": "fam3-v1-high-01",
+    "branch": "agy/cusp-action-2026-11-20"
+   }
+  },
+  {
+   "branch": "audit/physical-bridge-2026-09-05",
+   "path": "relays/claims/CLAIM_2026-11-28_the_rate_at_mod_125_is_2_sqrt_6_plus_sqrt_5.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_p596_fd_rank_in_the_queue_form.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_p630_deviation_spectrum_in_the_queue_form.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_p631_two_loops_in_the_queue_form.md",
+   "peer": {
+    "code": "fam3-v1-high-01",
+    "branch": "agy/cusp-action-2026-11-20"
+   }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_p632_instability_spectrum_in_the_queue_form.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_p633_weaves_switch_in_the_queue_form.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_p879_m3_in_the_queue_form.md",
+   "peer": {
+    "code": "fam3-v1-high-01",
+    "branch": "agy/cusp-action-2026-11-20"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_leg5_tower_modular_bridge.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_p629_veff_modulus_boson_fermion_stabilization_and_ewsb_majorana.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_peer_phys_c8_two_registers_verification.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_fc2_c23_and_c24_verification.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_lie2_c11_and_r610_verification.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_pure3_r384_r614_r635_verification.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_r581_structural_package_verification.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_r612_count_the_image_verification.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-27_a2_weil_chiral_lattice_bridge.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-28_a2_whole_census_e8_two_register_lock.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy/cusp-action-2026-11-20",
+   "path": "relays/claims/CLAIM_2026-11-26_agy_c64_exact_b2017_mod81_census_b2016_subgroups_mod243_ceiling_and_cusp_quotient.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy/cusp-action-2026-11-20",
+   "path": "relays/claims/CLAIM_2026-11-27_agy_c66_two_counts_prime5_parabolic_systoles_leg5_golden_walk_and_bloch_sos.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy/cusp-action-2026-11-20",
+   "path": "relays/claims/CLAIM_2026-11-27_agy_c68_exact_cyclotomic_weil_unfolding_markoff_jacobian_cubic_and_p775_resultant_ptolemy_proof.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy/cusp-action-2026-11-20",
+   "path": "relays/claims/CLAIM_2026-11-28_agy_c70_3adic_legendre_gap_mod2187_plateau_diagonal_weil_bundles_and_curved_moser_secular_cancellation.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy/cusp-action-2026-11-20",
+   "path": "relays/claims/CLAIM_2026-11-28_agy_six_move_rate_depends_on_the_prime_only.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  },
+  {
+   "branch": "agy/cusp-action-2026-11-20",
+   "path": "relays/claims/CLAIM_2026-11-28_agy_six_move_rate_not_a_function_of_cos_alone.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_b1380_the_puncture_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_boundary_free_classes_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-01",
+    "branch": "agy/cusp-action-2026-11-20"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_c11_two_doublets_refiled.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_count_the_image_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_discrete_remnant_27_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-01",
+    "branch": "agy/cusp-action-2026-11-20"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_frame_c_joint_covariance_refiled.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_m000_harmonic_frame_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_one_class_structural_package_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-01",
+    "branch": "agy/cusp-action-2026-11-20"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_order_30_whole_instrument_refiled.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_two_fifths_class_one_bit_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "sm/cards",
+   "path": "relays/claims/CLAIM_2026-11-27_w134_against_c8_refiled.md",
+   "peer": {
+    "code": "fam3-v1-high-01",
+    "branch": "agy/cusp-action-2026-11-20"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-28_a2_chiral_e8_siblings_and_3gen_completion.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
+  }
+ ]
+}

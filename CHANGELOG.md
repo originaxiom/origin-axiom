@@ -1,5 +1,198 @@
 # Changelog
 
+## S306p THE AUTHOR'S ORDER: MAIN TO THE FRONTIER; THREE AUTOMATIONS ASKED OF THE BUILDER (P-885; M86) (2026-11-28)
+
+- **The author's order (2026-11-28):** main returns to frontier work, the listening line, while supervising every seat; the
+  routine checking is the seats' (peers and the two banking seats); chores that repeat are automated, so that
+  brainstorming carries no bureaucracy; the framework's door, not main's caution, guards the record.
+- **To the builder (M86):** a push to main starts a round; a seat's listener wakes on the queue (its offers, its cards at
+  banking, its own cards' moves), so main no longer posts each round's notices; the queue's record counts as the receipt
+  for a seat's cards in the harvest and relay checks, so main no longer writes a row for each.
+
+## S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS; R82-2 V2 RETURNED; FOUR PEER NOTES AND TWO HEAVY CARDS RECEIVED (P-885; P-881; HARVEST ROWS 2086 TO 2089; M85) (2026-11-28)
+
+- **The heartbeat** (the builder's patch at main's M84, its tree `76969944` as built): when a round moves nothing but
+  cards wait on a seat, the job `next` waits 20 minutes and dispatches the next round, so a seat's push is seen without
+  the author's click. Its tests pass.
+- **R82-2 v2 returned (M85):** its 79 re-wordings remove only seats' names and M53's three corrections are met, but five of
+  its arcs are the trial's (B1832, B1981, B1999, B2000, B2011), which stay as they stand until the trial ends, and the
+  open list misses ten seats of the record. B1961's "the auditor" is one live line.
+- **Peer notes received:** the physical seat's three (Q0001, Q0002, Q0014) and agy's first (Q0013). The next round
+  checks them.
+- **chat1's P-589 (c) and P-644 cards,** filed heavy: each is rerun on the author's machine only at his word.
+
+## S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)
+
+- **`scripts/queue/intake.py`:** the round's last line also counts the cards that wait on a seat (OFFERED, for a peer's
+  note; AT_BANKING, for the banking seats' files). A round that moved nothing and left nothing while one waits says "the
+  next round: after a wait"; "needed" and "not needed" stand as before.
+- **`.github/workflows/intake.yml`:** the round's output `wait`; the job `next` also runs on it, waits 20 minutes
+  (`sleep 1200`, the job's time raised to 25 minutes) and then dispatches. Its permissions stay `actions: write` alone.
+- **Tests** in `tests/test_queue_intake.py`: the three cases (moved, waiting, nothing) and the workflow's wait; each rule,
+  taken out, fails a test.
+
+## S306p MAIN'S B2016 CARD RERUN ON THE AUTHOR'S MACHINE: REPRODUCED; BOTH BANKING SEATS' FIRST SEALS; AGY'S C72 (P-885; HARVEST ROWS 2083 TO 2085) (2026-11-28)
+
+- **`queue/heavy/Q0006.json`:** main's B2016 trial card rerun on the author's machine by
+  `sage -python scripts/queue/rerun.py --heavy-result Q0006` at its sealed commit, with the static guard by the author's
+  choice: REPRODUCED, its 8 decisive lines matching the card's hash `1a7019700739d47f`, its control exiting 1 (sage 10.7,
+  GAP 4.14.0, python-flint 0.9.0). The next round checks it against the card and moves it.
+- **The first try was RETURNED:** the control ran under sage's own Python, which had no python-flint, and exited 3 with a
+  traceback. python-flint at its pin was installed there and the card was not changed. The queue's README, setting 7,
+  now says so.
+- **Both banking seats' first live files** for Q0008 (rows 2083, 2084): expectation first, own script, the seal, the
+  verdict held for K1.
+- **agy's C71 and C72** (row 2085), read through the mask; C72 holds. The relay ledger's rows for C69 to C72 added.
+
+
+## S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)
+
+- **`scripts/queue/intake.py`:** the round's last line says whether the next round is needed: "the next round: needed" when
+  it moved a card (a status changed, or a card was filed) or left one for the next round, and "not needed" otherwise,
+  with the counts.
+- **`.github/workflows/intake.yml`:** a third job, `next`, after `record`, holding only `permissions: actions: write`, with
+  no secret, no checkout and no seat code. It dispatches the next round (`gh workflow run intake.yml --ref main`, with
+  the job's own token) only when the round's last line says it is needed. A round with nothing to do ends the chain;
+  the hourly cron stays as the fallback, and the concurrency group keeps one round at a time. GitHub's scheduler had
+  fired no round from 07:42 on.
+- **Tests** in `tests/test_queue_intake.py`: the job's only write is `actions`, it has no secret, it runs after `record`,
+  and it dispatches only on the round's last line, which is said both ways; each rule, taken out, fails a test.
+
+## S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)
+
+- **`scripts/queue/rerun.py --heavy-result Q<nnnn> --queue-dir DIR`,** on the author's machine: reruns a heavy card at its
+  sealed commit with no wrap and the caller's PATH, so that sage and GAP are found, and writes `queue/heavy/<id>.json`:
+  the card's id, branch, path and sealed commit, its decisive script and hash, its decisive lines' count and hash, the
+  control's exit, the guard, the interpreter's, the packages' and sage's and GAP's versions, the time, its status and
+  reasons. A card whose seat is not main's is refused without `--author-allows`.
+- **`scripts/queue/intake.py`:** a heavy FILED card goes through the form, custody and the record check as every card
+  does. At the rerun it is not rerun: its result file on main is checked against the card (its id, branch, path and
+  commit, its decisive script and hash, its decisive lines as the card states them, a run that reproduced with its
+  control exiting 1). If the file holds, the card moves to REPRODUCED, its note naming the file and the commit that
+  landed it. If not, it moves to RETURNED_AT_INTAKE with the reasons. Without a file, each round says the card waits
+  for the author's machine. The runner's key alone writes the record. Q0006 and Q0036 could not leave FILED, and every
+  round passed over them in silence.
+- **`queue/README.md`:** a heavy card, by hand.
+- **New test** `tests/test_queue_heavy.py` (5 tests); each rule's removal makes one fail.
+
+## S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)
+
+- **agy-002's `PEER_Q0008.json`** (row 2080): the trial's first live peer note, re-derived on the physical seat's C8; the
+  next round checks it. Its new card A2-WEAVE-E8-WEIL-SEAM holds every check made before running anything.
+- **chat1's W-LV1 and B1977 cards** (row 2081), with main's frame copied in: each holds.
+- **The physical seat (M30):** its first two offers, Q0001 and Q0002, are live since round 1; main now posts each live
+  offer on the peer's page after each round, since a seat's listener wakes on its page and not on the queue's branch.
+
+
+## S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)
+
+- **The builder's round watch** (row 2079): Q0006 (main's B2016, which needs sage and GAP) and Q0036 are heavy and could
+  never leave FILED, since no result from the author's machine can reach the queue's branch; Q0007's chain waits on Q0006.
+- **Ruled (M83):** the heavy rerun is run on the author's machine by one command, which writes a result file landed on
+  main; the runner checks it against the card and makes the move, so the record stays the runner's alone. A card of
+  another seat is rerun there only at the author's word, card by card.
+- **The rounds to dispatch the next:** GitHub's scheduler has fired no scheduled round since 07:42. A third job, holding
+  only the right to dispatch, starts the next round while cards wait; the hourly cron stays as the fallback.
+
+## S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)
+
+- **`scripts/queue/offers.py`:** every REPRODUCED card with no offer in `queue/OFFERS.json` (with `--all`, every FILED card
+  too), and a whole draft of the file. The peers are the codes the file lists under `"peers"`, main's choice, in their
+  order; each is offered on its live branch, the one of its Pins table branches that moved last, and a seat whose live
+  branch has not moved in 14 days is left out and said (main's M81: the first draft took a lane frozen since September).
+  Each card takes the next peer of another family in a rotation carried from card to card in queue order, a card offered
+  already moving it where it stands; main's own cards go to the first peer of another family, as main's M24 gave the trial. Run on today's queue with
+  main's four peers, its branches and their dates, it gives main's own 43 offers, each the same. Nothing is written.
+- **`queue/OFFERS.json`:** `"peers"`, main's four of 2026-11-28 in main's order: the physical seat, agy-002, agy, chat1.
+- **`scripts/queue/record_check.py`:** the firewall flags `±` and `+/-` only before a number with a decimal point, or
+  between a number and its uncertainty (main's M81: round 1 flagged "x modulo ±", a sign class, and "3a ≡ ±1/5 mod 1",
+  a congruence).
+- **`queue/README.md`:** the draft, by hand.
+- **Tests** `tests/test_queue_offers_tool.py` (4) and the firewall's lines in `tests/test_queue_record_check.py`; each
+  rule's removal makes one fail.
+
+## S306p CHAT1'S A88 AND AGY-002'S A2-CHIRAL-E8-SIBLINGS RECEIVED; THE NEW CARD OFFERED (P-885; HARVEST ROWS 2076, 2077; M89, M71) (2026-11-28)
+
+- **chat1's A88** (row 2076): P-596's card refiled as M88 asked; the four frame-dependent cards begun.
+- **agy-002's A2-CHIRAL-E8-SIBLINGS** (row 2077), read through the mask: form, hashes, record check and guard hold;
+  preregistered, with its own referee's failure and remedy on the branch in order.
+- **`queue/OFFERS.json`:** the new card is offered to the least-offered seat of another family, the rule for every new
+  card from now on.
+
+## S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)
+
+- **Round 1 on the workflow** (run 46146125769 at `be47862d1`):
+  - the interpreter is the image's own `/usr/bin/python3` 3.14.4;
+  - "the network guard: sudo unshare -n -m -i -p, as nobody", as the queue's README asks of the first round;
+  - Q0001 and Q0002 (B2011, B2012) and Q0008 (the physical seat's C8) REPRODUCED in the sandbox and OFFERED from
+    `queue/OFFERS.json`; the rest are left for later rounds (three a round) or wait on their premises (D6);
+  - the queue's branch `queue` was made by the record job, and the ruleset read after the push holds deletion,
+    non_fast_forward and update.
+- **Every hour:** `.github/workflows/intake.yml`'s schedule is now hourly; the concurrency group keeps one round at a time.
+- **The builder (M81):** its offers tool is returned, since it offered a seat on an unmoved branch; the firewall's `±`
+  flag is to leave mathematics alone (Q0008 and Q0042 were flagged for a sign class and a congruence).
+
+## S306p EVERY CARD OFFERED TO A PEER BY ONE RULE; CHAT1'S SIX CARDS RECEIVED AND ITS TWO QUESTIONS ANSWERED (P-885; HARVEST ROWS 2072 TO 2074; M29, M27, M70, M88) (2026-11-28)
+
+- **`queue/OFFERS.json`:** 43 offers, one for each card discovery finds today. Main's seven trial cards go to the
+  physical seat, as M24 said. Every other card goes to the next seat of another family in a fixed rotation over the
+  physical seat, agy-002, agy and chat1. Each offer holds under the runner's own rules, and none is refused.
+- **The four peers told how a peer works** (M29, M27, M70, M88): their offers, when an offer takes effect, a note only
+  after it, 72 hours per offer, and never the banking seats' branches.
+- **chat1's THE CARDS REFILED** registered (row 2073): six cards in the queue's form, each holding. Its four
+  frame-dependent cards are to be filed as cards with main's code copied in, and P-596's `touches:` is to name the 19.
+- **The physical seat's status** (row 2072) and **the builder's rebuild**, superseded (row 2074), registered.
+
+## S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)
+
+- **`.github/workflows/intake.yml`:** the round runs the image's own `python3`, the allowed packages installed for it,
+  not `actions/setup-python`'s: that interpreter sits under `/opt/hostedtoolcache`, which the wrap covers with an empty
+  tmpfs where the image leaves it writable by all, and it needs `LD_LIBRARY_PATH`, which `sudo` drops. The log names the
+  interpreter.
+- **`scripts/queue/rerun.py`:** an interpreter under a directory the wrap covers is refused before anything runs, and
+  `WHY_NOT` says so.
+- **Tests of main's M78 work, read as the builder reads its own:** each of `WHY_NOT`'s reasons (not usable, a command
+  missing, the interpreter hidden, the probe's exit, its report) is planted, and a HEAVY card carries them; taken out,
+  each fails a test. Main's own tests read only the workflow's text.
+
+## S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)
+
+- **`scripts/queue/plants.py`:** a ledger once opened along main's first-parent history stays: one taken out fails the
+  gate. Round n's ledger is opened by the commit that seals round n + 1, or before it, so a round is not left sealed and
+  never opened. The measure leaves out, as "opened early", a plant whose seat's content was first sighted after the
+  commit that opened its ledger, which is public from then on; and it reads an expectation as a seat's content, beside
+  verdicts and notes, for "sealed late" and "opened early" alike.
+- **The word "round":** the ledger's round is a batch of cards, opened when every card it names has ended, not one run of
+  the runner; said in `plants.py`'s docstring and the queue's README.
+- **Main's `.gitignore`:** a test that it ignores neither `queue/PLANT_SEALS.jsonl` nor `queue/plants/ROUND_<n>.json`
+  (main's M77: `*.jsonl` had ignored the seals, and round 1's seal could not be committed).
+- **Tests** `tests/test_queue_plants.py` (8 tests); each hole, put back, makes one fail.
+
+## S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)
+
+- **`queue/OFFERS.json`,** main's file, shipped with no offer: each offer names the card by its branch and path and the
+  peer by its seat code and branch.
+- **`scripts/queue/intake.py`:** each round, a REPRODUCED card whose offer holds moves to OFFERED, the runner's move, its
+  note naming the peer ("offered to <code> on <branch> (queue/OFFERS.json)"). An offer to the card's own seat, its own
+  family, or a branch that is not the code's in `queue/SEAT_CODES.json` is refused and reported; a card with no offer
+  stays REPRODUCED, and the report says so. The peer stage takes only the offered peer's note: a note on another seat's
+  branch, or in another code, is refused. Nothing moved a card past REPRODUCED, since the queue's branch is the runner's
+  alone.
+- **`queue/README.md`:** the offers.
+- **New test** `tests/test_queue_offers.py` (4 tests); each rule's removal makes one fail.
+
+## S306p THE SANDBOX ON GITHUB'S RUNNER: THE TOOL CACHE IS WRITABLE BY ALL, AND ITS COVER HID THE INTERPRETER (P-885; M78; HARVEST ROWS 2069, 2070) (2026-11-28)
+
+- **The cause, found in GitHub's own image:** `actions/runner-images`, `images/ubuntu/scripts/build/configure-environment.sh`,
+  runs `chmod -R 777 $AGENT_TOOLSDIRECTORY` on `/opt/hostedtoolcache`. The wrap covers every directory writable by all
+  with an empty tmpfs, as it must, and so it hid the interpreter it runs, `actions/setup-python`'s, with the allowed
+  packages. The first round could make no sandbox.
+- **The mend:** `.github/workflows/intake.yml` takes others' write bit off the tool cache after the packages are installed
+  and before the round. The interpreter stays readable and runnable by nobody, and nobody can change it. A test in
+  `tests/test_queue_intake.py` holds the step's place.
+- **Both banking seats' status** registered (rows 2069, 2070): V1 read M67, V2 read M8, each waiting on a card at banking.
+
+
 ## S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVEST ROW 2068; M79, M26, M28, M67, M8) (2026-11-28)
 
 - **Made by main, at the author's word that nothing stall (M78's four points):**

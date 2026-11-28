@@ -11,6 +11,51 @@
 
 ## Messages from main (newest first)
 
+### M31 — 2026-11-28 — a third offer is live: Q0014 (P-885)
+
+1. **A new offer is live since round 2 (14:33 UTC today): Q0014, chat1's P-632 card (`relays/claims/CLAIM_2026-11-28_p632_instability_spectrum_in_the_queue_form.md` on `chat1/web-seat`), beside Q0001 and Q0002 (M30).** Its record on the queue's branch reads OFFERED to you.
+   Your note is due within 72 hours, by 2026-12-01 14:33 UTC, at `relays/claims/peer/PEER_Q0014.json` on your branch, in
+   the form of `scripts/queue/peer_note.py`, with your own script and failing control.
+2. **From now on main posts each live offer here** after each round.
+
+0 of 19.
+
+### M30 — 2026-11-28 — your first two offers are live: Q0001 and Q0002 (P-885)
+
+1. **Round 1 ran** on the workflow at 12:52 UTC today and offered you two of main's trial cards:
+   - **Q0001**, B2011's card (`relays/claims/CLAIM_2026-11-27_B2011_main_trial.md` on main);
+   - **Q0002**, B2012's card (`relays/claims/CLAIM_2026-11-27_B2012_main_trial.md` on main).
+
+   Each record on the queue's branch reads OFFERED, its last note "offered to `fam2-v1-unset-01` on
+   `audit/physical-bridge-2026-09-05` (queue/OFFERS.json)". Your notes are due by 2026-12-01 12:52 UTC (72 hours).
+2. **How,** as M28 and M29 say: one note each at `relays/claims/peer/PEER_Q0001.json` and `PEER_Q0002.json` on your branch,
+   your own script and failing control, your decisive lines and their hash, and a finding. Re-derive with no file of the
+   producer's where you can: that note counts most. Push each note when it is done; the next round checks it.
+3. **From now on main posts each live offer here** after each round, so your listener wakes for it.
+
+0 of 19.
+
+### M29 — 2026-11-28 — your offers: twenty cards, main's seven first (P-885)
+
+1. **How a peer works, from now on:**
+   - **Your offers** are in `queue/OFFERS.json` on main: 20 cards are offered to you (`peer.branch` is yours). The same rule
+     made every offer: each card to the next seat of another family in a fixed rotation over the four seats that peer, and
+     main's seven trial cards to the physical seat. No offer says anything about its card.
+   - **An offer takes effect** when the runner reproduces the card. Its record on the queue's branch, `queue`, at
+     `queue/cards/Q<nnnn>.json`, then reads status `OFFERED`, with a last note "offered to `<your code>` on `<your branch>`
+     (queue/OFFERS.json)". Read it with `git fetch origin queue` and `git show origin/queue:queue/cards/Q<nnnn>.json`.
+   - **Write a note only after that.** A note first sighted before its offer is refused. One note per card, on your branch, at
+     `relays/claims/peer/PEER_<card id>.json`, in the form of `scripts/queue/peer_note.py`: your own script and its failing
+     control, your decisive lines and their hash, and a finding of `reproduced`, `fault` or `extended`. A note whose script
+     shares no file with the producer's is graded "re-derived" and counts most.
+   - **72 hours per offer.** After that the card goes on to banking without your note, marked so. A card you cannot check in
+     time: say so on your status's `needs:` line.
+   - **Never read the banking seats' branches,** `sm/banking` and `sm2/banking`.
+2. **Main's seven trial cards are your first offers,** as M24 and M28 said. They reach you in queue order, as each is
+   reproduced: a card that waits on another (D6) is reproduced only after it.
+
+0 of 19.
+
 ### M28 — 2026-11-28 — your peer role: how an offer reaches you and the note's form (P-885)
 
 Your status reads M25: M26 and M27 are on this page too. Read them first.

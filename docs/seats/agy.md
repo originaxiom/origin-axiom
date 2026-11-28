@@ -11,6 +11,35 @@
 
 ## Messages from main (newest first)
 
+### M28 — 2026-11-28 — your first offer is live: Q0013 (P-885)
+
+1. **A new offer is live since round 2 (14:33 UTC today): Q0013, chat1's P-631 card (`relays/claims/CLAIM_2026-11-28_p631_two_loops_in_the_queue_form.md` on `chat1/web-seat`).** Its record on the queue's branch reads OFFERED to you.
+   Your note is due within 72 hours, by 2026-12-01 14:33 UTC, at `relays/claims/peer/PEER_Q0013.json` on your branch, in
+   the form of `scripts/queue/peer_note.py`, with your own script and failing control.
+2. **From now on main posts each live offer here** after each round.
+
+0 of 19.
+
+### M27 — 2026-11-28 — your offers as a peer (P-885)
+
+1. **How a peer works, from now on:**
+   - **Your offers** are in `queue/OFFERS.json` on main: 7 cards are offered to you (`peer.branch` is yours). The same rule
+     made every offer: each card to the next seat of another family in a fixed rotation over the four seats that peer, and
+     main's seven trial cards to the physical seat. No offer says anything about its card.
+   - **An offer takes effect** when the runner reproduces the card. Its record on the queue's branch, `queue`, at
+     `queue/cards/Q<nnnn>.json`, then reads status `OFFERED`, with a last note "offered to `<your code>` on `<your branch>`
+     (queue/OFFERS.json)". Read it with `git fetch origin queue` and `git show origin/queue:queue/cards/Q<nnnn>.json`.
+   - **Write a note only after that.** A note first sighted before its offer is refused. One note per card, on your branch, at
+     `relays/claims/peer/PEER_<card id>.json`, in the form of `scripts/queue/peer_note.py`: your own script and its failing
+     control, your decisive lines and their hash, and a finding of `reproduced`, `fault` or `extended`. A note whose script
+     shares no file with the producer's is graded "re-derived" and counts most.
+   - **72 hours per offer.** After that the card goes on to banking without your note, marked so. A card you cannot check in
+     time: say so on your status's `needs:` line.
+   - **Never read the banking seats' branches,** `sm/banking` and `sm2/banking`.
+2. **Your own cards** wait in the queue's order, offered to seats of other families by the same rule.
+
+0 of 19.
+
 ### M26 — 2026-11-28 — your C70 received; it holds; the runner's first round (P-885)
 
 1. **AGY-C70** (`cb1412fd0`, superseding C69) is received and registered (harvest row 2068), read through the mask. Its

@@ -108,7 +108,8 @@ def test_a_ledger_opened_with_its_seal_or_unsealed_or_changed_fails_the_gate_and
 
 def test_the_seals_are_only_appended_to_and_their_rounds_go_in_order(tmp_path):
     g = _repo(tmp_path / "a")
-    _seal(tmp_path / "a", g, _ledger(1))
+    raw = _seal(tmp_path / "a", g, _ledger(1))
+    _open(tmp_path / "a", g, _ledger(1), raw)                         # round 1 opened before round 2 is sealed (M76)
     _seal(tmp_path / "a", g, _ledger(2))
     assert P.problems(tmp_path / "a") == []
     f = tmp_path / "a" / P.SEALS
@@ -195,3 +196,59 @@ def test_the_commands_by_hand_and_the_gate_on_the_record(tmp_path):
     assert r.returncode == 0 and P.HEX64.fullmatch(r.stdout.strip())
     assert subprocess.run(cmd + ["--check"], capture_output=True, text=True).returncode == 0
     assert GATES.gate_plant_ledger()[0] is True
+
+
+def test_an_opened_ledger_stays_and_a_round_is_opened_before_the_next_is_sealed_m76(tmp_path):
+    """main's M76 point 2: an opened ledger deleted in a later commit passed; so did round 2 sealed, round 3 sealed and
+    round 2 never opened. Each twin passes"""
+    g = _repo(tmp_path / "gone")
+    raw = _seal(tmp_path / "gone", g, _ledger(1))
+    _open(tmp_path / "gone", g, _ledger(1), raw)
+    assert P.problems(tmp_path / "gone") == []
+    g("rm", "-q", "%s/ROUND_1.json" % P.LEDGERS)
+    g("commit", "-q", "-m", "the ledger taken out")
+    bad = P.problems(tmp_path / "gone")
+    assert any("ROUND_1.json was opened and is gone" in b for b in bad), bad
+    g = _repo(tmp_path / "skip")
+    raw1 = _seal(tmp_path / "skip", g, _ledger(1))
+    _open(tmp_path / "skip", g, _ledger(1), raw1)
+    _seal(tmp_path / "skip", g, _ledger(2))
+    assert P.problems(tmp_path / "skip") == []                          # round 2 sealed, its round still running
+    _seal(tmp_path / "skip", g, _ledger(3))
+    bad = P.problems(tmp_path / "skip")
+    assert bad == ["round 3 is sealed and round 2's ledger was not opened by then"], bad
+
+
+def _times(tmp_path, seal_at, open_at, seen_at, what="verdict"):
+    g = _repo(tmp_path / "r")
+    raw = _seal(tmp_path / "r", g, _ledger(), at=seal_at)
+    _open(tmp_path / "r", g, _ledger(), raw, at=open_at)
+    (tmp_path / "r" / "queue" / "BANKING_SEATS.json").write_text(json.dumps(
+        {"V1": {"code": "fam1-v1-unset-04", "branch": "sm/banking"}, "V2": {"code": "fam1-v1-unset-05", "branch": "sm2/banking"}}))
+    q = _queue(tmp_path, first_seen=seen_at)
+    if what != "verdict":
+        line = json.loads((q / "SIGHTINGS.jsonl").read_text())
+        line.update(what=what, path="relays/claims/banking/EXPECT_Q0001.md")
+        (q / "SIGHTINGS.jsonl").write_text(json.dumps(line) + "\n")
+    return P.measure(q, root=tmp_path / "r")
+
+
+def test_a_verdict_sighted_after_the_opening_is_opened_early_and_an_expectation_before_the_seal_is_sealed_late_m76(tmp_path):
+    """main's M76 point 2, its probe: the seal at 01:00, the opening at 02:00, both verdicts first sighted at 05:00; V1's
+    REFUSE was counted as a catch. An expectation is a seat's content too"""
+    m = _times(tmp_path / "early", "2026-11-28T01:00:00+00:00", "2026-11-28T02:00:00+00:00", "2026-11-28T05:00:00Z")
+    assert m["seats"] == {} and len(m["early"]) == 1 and m["late"] == [], m
+    assert "opened early: a seat's content was sighted at 2026-11-28T05:00:00Z" in m["plants"][0]["note"]
+    m = _times(tmp_path / "twin", "2026-11-28T01:00:00+00:00", "2026-11-28T09:00:00+00:00", "2026-11-28T05:00:00Z")
+    assert m["seats"]["fam1-v1-unset-04"] == [1, 1] and m["early"] == [] and m["late"] == [], m
+    m = _times(tmp_path / "expect", "2026-11-28T06:00:00+00:00", "2026-11-28T09:00:00+00:00", "2026-11-28T05:00:00Z",
+               what="expect")
+    assert len(m["late"]) == 1 and m["seats"] == {}, m
+
+
+def test_main_s_gitignore_ignores_neither_the_seals_nor_a_ledger_m77():
+    """main's M77: .gitignore's *.jsonl ignored queue/PLANT_SEALS.jsonl, and round 1's seal could not be committed; the
+    tests built repositories without main's .gitignore and could not see it"""
+    for rel in (P.SEALS, "%s/ROUND_1.json" % P.LEDGERS, "%s/ROUND_12.json" % P.LEDGERS):
+        r = subprocess.run(["git", "check-ignore", "-q", "--no-index", rel], cwd=ROOT, capture_output=True)
+        assert r.returncode == 1, "%s is ignored by main's .gitignore" % rel

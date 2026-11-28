@@ -54,7 +54,12 @@ QCARD = re.compile(r"\bQ\d{4,}\b")
 FIREWALL = re.compile(r"\b(PDG|Particle Data|CODATA|measured values?|experimental(ly)?|experiments?|observed values?|"
                       r"compar(e|ed|es|ing|ison)s? (it |them )?(with|to|against) (the )?(data|experiments?|measurements?)|"
                       r"against (the )?data|fit(ted|s)? to (the )?data|agree(s|d|ment)? with (the )?"
-                      r"(data|experiments?|measurements?)|sealed look|unseal(ed|ing)?)\b|±|\+/-", re.I)
+                      r"(data|experiments?|measurements?)|sealed look|unseal(ed|ing)?)\b"
+                      # CHANGED 2026-11-28 (main's M81 point 3): "±" and "+/-" flagged mathematics ("x modulo ±", a sign
+                      # class; "3a ≡ ±1/5 mod 1", a congruence). A measured value with its error has the sign before a
+                      # number with a decimal point, or between a number and its uncertainty. The pattern as it stood
+                      # ended: |±|\+/-
+                      r"|\d*\.?\d+\s*(?:±|\+/-)\s*\d*\.?\d+|(?:±|\+/-)\s*\d*\.\d+", re.I)
 STOP = {"which", "their", "there", "these", "those", "about", "under", "every", "after", "before", "between", "within",
         "where", "while", "would", "could", "should", "other", "being", "level", "levels"}
 

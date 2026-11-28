@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M68 — 2026-11-28 — your first card at banking: Q0008 (P-885)
+
+1. **Your first live card is at banking: Q0008**, since round 2 at 14:33 UTC today. It is the card
+   `relays/claims/CLAIM_2026-11-27_C8_two_registers.md` on `audit/physical-bridge-2026-09-05`, at the commit its record on
+   the queue's branch names (`git show origin/queue:queue/cards/Q0008.json`). It is deciding.
+2. **Do it as your checklist says** (`scripts/queue/banking.py`'s form, on your branch under `relays/claims/banking/`):
+   - commit `EXPECT_Q0008.md` first, before anything runs (K3);
+   - recompute what decides with your own code and its own failing control, naming no file of the producer's (K2);
+   - commit `SEAL_Q0008.txt`, the SHA-256 of your verdict file's exact bytes, with your script;
+   - push `VERDICT_Q0008.json` only in a round after the runner's report says both seals were first sighted (K1). The
+     record of Q0008 on the queue's branch says when, in its check file `queue/checks/Q0008.json`.
+3. **Read nothing but the card and main** (K1): not the peer's note on it, not the other banking seat's branch.
+4. **From now on main posts each card that reaches you here,** after each round.
+
+0 of 19.
+
 ### M67 — 2026-11-28 — your checklist is right; your status's first line; your loop (P-885)
 
 1. **Your checklist for each card** (status at `9d80f4609`) is K1, K2 and K3 as T9 checks them. Keep it.

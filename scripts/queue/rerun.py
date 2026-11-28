@@ -62,6 +62,10 @@ A HEAVY RERUN on the author's machine runs sage, and for main's B2016 wrapper al
 python-flint (M65): set the PATH so before such a rerun.
 
     python3 scripts/queue/rerun.py --record queue/cards/Q0001.json [--root REPO] [--limit SECONDS] [--allow-static-guard]
+    python3 scripts/queue/rerun.py --heavy-result Q0006 --queue-dir DIR [--root REPO] [--author-allows]
+On the author's machine only (main's M83): reruns a heavy card at its sealed commit with no wrap and the caller's PATH,
+and writes queue/heavy/<card id>.json for main to land; a card of another seat only with --author-allows, the author's
+word for that card.
 Prints the result as JSON. Exit 0 when REPRODUCED or HEAVY, 1 when returned."""
 import ast
 import contextlib
@@ -464,6 +468,16 @@ def _sandbox_prefix_held():
             continue
         if cover is None:
             cover = world_writable()
+        # ADDED 2026-11-28 (the builder, at M78 point 2 and main's guess there): the wrap covers each world-writable
+        # directory with an empty tmpfs, so an interpreter under one (actions/setup-python's, under /opt/hostedtoolcache,
+        # where the image leaves it writable by all) is gone inside the wrap. Said before anything is run
+        exe = os.path.realpath(sys.executable)
+        hidden = [c for c in cover if exe.startswith(os.path.realpath(c).rstrip("/") + "/")]
+        if hidden:
+            WHY_NOT.append("%s: the interpreter %s is under %s, which anyone may write and the wrap covers with an empty "
+                           "tmpfs; run the intake with an interpreter outside every world-writable directory" % (
+                               name, exe, hidden[0]))
+            continue
         if prefix[-1:] == [RUN]:                     # the wrap's second argument: what it covers
             prefix = prefix + [json.dumps(cover)]
         base = _marker_base(cover)
@@ -503,17 +517,18 @@ def _sandbox_prefix_held():
     return [], "no sandbox"
 
 
-def _run(prefix, argv, cwd, limit):
-    """(exit, out, err, seconds); exit None past the time limit, or when a process of nobody outlives the run (M70)"""
+def _run(prefix, argv, cwd, limit, path=None):
+    """(exit, out, err, seconds); exit None past the time limit, or when a process of nobody outlives the run (M70).
+    `path`, given only for a heavy rerun on the author's machine, is the caller's PATH, where sage and GAP are found"""
     inside = bool(prefix)
     with one_at_a_time() if inside else contextlib.nullcontext():
-        return _run_held(prefix, argv, cwd, limit, inside)
+        return _run_held(prefix, argv, cwd, limit, inside, path)
 
 
-def _run_held(prefix, argv, cwd, limit, inside):
+def _run_held(prefix, argv, cwd, limit, inside, path=None):
     if inside and not reap(prefix):
         return None, "", "a process of the unprivileged user is left from before", 0.0
-    env = {"PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": "/mnt" if inside else str(cwd), "LANG": "C.UTF-8",
+    env = {"PATH": path or "/usr/local/bin:/usr/bin:/bin", "HOME": "/mnt" if inside else str(cwd), "LANG": "C.UTF-8",
            "PYTHONHASHSEED": "0"}
     t0 = time.time()
     try:
@@ -584,8 +599,12 @@ def _checks(tmp, modes, script, want_hash, cmd, control):
     return bad, heavy, argv, cargv
 
 
-def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=False):
-    """the result of rerunning one card at one commit: {status, reasons, ...}"""
+def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=False, heavy=False):
+    """the result of rerunning one card at one commit: {status, reasons, ...}. `heavy` (main's M83) is the author's
+    machine running a heavy card, by the author's choice: no wrap, the caller's PATH, and sage or GAP allowed to run"""
+    heavy_mode = heavy
+    if heavy:
+        prefix, allow_static = [], True
     _title, f, _ = CF.read(card_text)
     res = {"status": None, "reasons": [], "commit": commit, "guard": None, "versions": versions(), "pins_differ": []}
     res["pins_differ"] = sorted(d for d, v in res["versions"].items()
@@ -607,13 +626,14 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=F
         if modes is None:
             res.update(status="RETURNED_AT_INTAKE", reasons=["the sealed commit cannot be read"])
             return res
+        heavy_run = bool(prefix == [] and allow_static and heavy_mode)
         bad, heavy, argv, cargv = _checks(tmp, modes, script, want, cmd, control)
         if bad:
             res.update(status="RETURNED_AT_INTAKE", reasons=bad)
             return res
         if CF.declared_heavy(f):
             heavy.append("the card declares its decisive script heavy")
-        if heavy:
+        if heavy and not heavy_run:
             res.update(status="HEAVY", reasons=heavy)
             return res
         if not prefix and not allow_static:
@@ -626,7 +646,8 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=F
         if prefix and not _hand_over(tmp, prefix):
             res.update(status="HEAVY", reasons=["the run's directory could not be given to the unprivileged user"])
             return res
-        rc, out, err, secs = _run(prefix, argv, tmp, limit)
+        path = os.environ.get("PATH") if heavy_run else None
+        rc, out, err, secs = _run(prefix, argv, tmp, limit, path)
         res["seconds"] = round(secs, 1)
         if rc is None:
             res.update(status="HEAVY", reasons=[err or "the decisive script ran past %d seconds" % limit])
@@ -642,7 +663,7 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=F
         if res["reasons"]:                            # M64 item 6: what the run found decides before the control runs
             res["status"] = "RETURNED_AT_INTAKE"
             return res
-        crc, _, cerr, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)))
+        crc, _, cerr, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)), path)
         res["control_exit"] = crc
         if crc is None:
             res.update(status="HEAVY", reasons=[cerr or "the failing control ran past the time limit"])
@@ -658,7 +679,63 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=F
         _take_back(tmp, prefix)
 
 
+HEAVY_DIR = "queue/heavy"                       # main's M83: the author's heavy results, landed on main
+
+
+def tool_versions():
+    """the heavy tools' versions on this machine: sage's and GAP's first line, or None"""
+    out = {}
+    for name, cmd, stdin in (("sage", ["sage", "--version"], None),
+                             ("gap", ["gap", "-q"], 'Print(GAPInfo.Version, "\\n");\nQUIT;\n')):
+        try:
+            r = subprocess.run(cmd, input=stdin, capture_output=True, text=True, timeout=120)
+            out[name] = (r.stdout.strip().splitlines() or [None])[0] if r.returncode == 0 else None
+        except (OSError, subprocess.TimeoutExpired):
+            out[name] = None
+    return out
+
+
+def heavy_result(root, rec, limit=TIME_LIMIT, author_allows=False, at=None):
+    """main's M83: (the result file's content, or None, and why not). The author's machine reruns a heavy card at its
+    sealed commit, with no wrap, by the author's choice; a card of another seat only with the author's word"""
+    if rec.get("seat_code") != CF.QS.MAIN_CODE and not author_allows:
+        return None, ("%s is %s's card, not main's: it is rerun here only at the author's word (--author-allows)"
+                      % (rec.get("id"), rec.get("seat_code")))
+    card = subprocess.run(["git", "show", "%s:%s" % (rec["commit"], rec["card_path"])], cwd=root, capture_output=True,
+                          text=True)
+    if card.returncode != 0:
+        return None, "the card is not at its sealed commit"
+    _t, f, _ = CF.read(card.stdout)
+    m = CF.SCRIPT.match(f.get("decisive script", ""))
+    res = rerun(root, rec["commit"], card.stdout, limit, heavy=True)
+    return {"card": rec["id"], "branch": rec["branch"], "path": rec["card_path"], "commit": rec["commit"],
+            "script": {"path": m.group(1) if m else None,
+                       "sha256": CF.HEX16.search(f["decisive script"]).group(1) if m else None},
+            "decisive": res.get("decisive"), "control_exit": res.get("control_exit"), "guard": res.get("guard"),
+            "versions": dict(res.get("versions") or {}, **tool_versions()),
+            "at": at or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "status": res["status"], "reasons": res["reasons"]}, None
+
+
 def main(argv):
+    if "--heavy-result" in argv:                 # main's M83: on the author's machine
+        cid = argv[argv.index("--heavy-result") + 1]
+        qdir = pathlib.Path(argv[argv.index("--queue-dir") + 1]) if "--queue-dir" in argv else None
+        root = pathlib.Path(argv[argv.index("--root") + 1]) if "--root" in argv else ROOT
+        f = qdir / "cards" / ("%s.json" % cid) if qdir else None
+        if f is None or not f.is_file():
+            print("no record of %s under --queue-dir DIR/cards" % cid)
+            return 1
+        rec = json.loads(f.read_text(encoding="utf-8"))
+        out, why = heavy_result(root, rec, author_allows="--author-allows" in argv)
+        if out is None:
+            print("refused: %s" % why)
+            return 1
+        dest = pathlib.Path(root, HEAVY_DIR, "%s.json" % cid)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(json.dumps(out, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+        print("%s: %s; written to %s, for main to land" % (cid, out["status"], dest))
+        return 0 if out["status"] == "REPRODUCED" else 1
     rec = json.loads(pathlib.Path(argv[argv.index("--record") + 1]).read_text(encoding="utf-8"))
     root = pathlib.Path(argv[argv.index("--root") + 1]) if "--root" in argv else ROOT
     limit = int(argv[argv.index("--limit") + 1]) if "--limit" in argv else TIME_LIMIT
