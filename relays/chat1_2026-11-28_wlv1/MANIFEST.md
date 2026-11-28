@@ -42,3 +42,10 @@ ends with the marker "# [copy: loader replaced, see MANIFEST.md]". SHA-256 is of
 - data `grid.json` from `be8c83d4f:frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/grid.json`, SHA-256 11d822f4357d1cb5
 - data `main_tree/frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json` from `be8c83d4f:frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json`, SHA-256 688152749777970f
 - `w_lv1_level.py` from the seat's `3b44d1337:relays/chat1_2026-11-25_level/w_lv1_level.py`, SHA-256 7bd76733bf818225: its load() keeps only the plain import of determinant_law (main's commit check and sys.path insert removed), and its import line drops subprocess
+
+ADDED 2026-11-28, after the referee read (the card's stated commit holds the manifest above, unchanged otherwise):
+- covariance.py line 130 is not a loader. It imported multiprocessing inside covariance.main(), which the card never
+  calls, and the rerun's guard refuses that import wherever it stands, so the line is made an exit.
+- w_lv1_level.py, as line entries: line 46 drops subprocess from the import line; lines 56 to 61 of the seat's
+  file (the commit check, the root and the sys.path insert, and the import) become one line, 56, the plain import of
+  determinant_law, so the later lines move up by 5.

@@ -48,3 +48,10 @@ ends with the marker "# [copy: loader replaced, see MANIFEST.md]". SHA-256 is of
   - line 13, the seat's text: `import multiprocessing as mpc`
   - line 22, the seat's text: `sys.path.insert(0, os.path.join(HERE, "..", "chat1_2026-11-19_wd2"))`
   - line 23, the seat's text: `import wd2_run as W  # noqa: E402  (reads sys.argv[1] as the checkout of main)`
+
+ADDED 2026-11-28, after the referee read (the card's stated commit holds the manifest above, unchanged otherwise):
+- Three replaced lines are not loaders, and none is on the run's path: covariance.py line 130 and chk1_run.py line 13
+  imported multiprocessing, which the rerun's guard refuses wherever it stands; chk1_run.py line 23 imported W-D2's
+  module, which chk1b_independent.py does not use (it takes only points(), SLOW and KEYS from chk1_run.py).
+- build_b1977.py was derived from build_wlv1.py: its docstring's "be8c83d4f" should read 88a1e9474, its usage line
+  names build_wlv1.py, and its constant A is unused. None of this is on the run's path.
