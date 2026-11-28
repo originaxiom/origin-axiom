@@ -5,8 +5,8 @@
  "commit": "f1e7f307c40c38ba430ee29ce1cccb2b73c8964e",
  "card_path": "relays/claims/CLAIM_2026-11-28_agy_c72_kempner_3adic_tower_mod177147_branchless_k4_counts_q6_goursat_defect_and_ninth_root_mackey_proof.md",
  "title": "Kempner 3-adic tower law to mod 177147 (B2007), all-prime branchless K4 leaf counts (B1990), Q_6 Goursat halving defect (B2003/B2010), and K_4 Mackey proof of ninth roots (B1997) (0 of 19)",
- "status": "FILED",
- "deciding": null,
+ "status": "REPRODUCED",
+ "deciding": true,
  "heavy": false,
  "refiles": [],
  "history": [
@@ -15,6 +15,12 @@
    "status": "FILED",
    "by": "runner",
    "note": "found on its branch"
+  },
+  {
+   "at": "2026-11-28T17:35:14Z",
+   "status": "REPRODUCED",
+   "by": "runner",
+   "note": "the rerun at the sealed commit: 4 decisive lines, hash 2a0f0e5a1d942c6a; the control exited 1; guard: sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]"
   }
  ]
 }
