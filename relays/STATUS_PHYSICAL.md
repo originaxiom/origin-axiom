@@ -1,9 +1,9 @@
 seat: physical
 read: M31
-state: waiting on main
-on: Q0001, Q0002 and Q0014 peer notes filed; C8 (Q0008) at banking
-needs: runner disposition of the three extended findings or next live offer
-next push: next offered peer calculation, requested repair or new-message acknowledgement
+state: working
+on: Q0006, Q0018 and Q0020 offered on the queue; Q0001, Q0002, Q0008 and Q0014 at banking
+needs: nothing
+next push: peer notes on subgroup inheritance, the bosonic axis claim and the fivefold class count
 
 2026-11-28. M29–M31 processed against the live queue records. Q0001 bounds the characteristic-zero defect from below by ten and compares its reduction with the level-five defect. Q0002 gives explicit intertwiners in the integral group algebra, including their endpoint kernels. Q0014 proves a uniform decrease estimate conditional on a positive continuous eigenfunction. Each note has independently authored source sealed at 4b8afce71 and a changed-input control that exits 1. The queue records C8 as independently re-derived and forwarded for banking.
 
