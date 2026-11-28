@@ -1,7 +1,7 @@
 seat: sm2
 read: M9
 state: waiting on main
-on: Q0001, Q0002, Q0013, Q0014 sealed; verdicts held until both seals of each are sighted
+on: Q0002, Q0006, Q0013, Q0014, Q0018, Q0020 sealed; verdicts held until both seals of each are sighted
 needs: nothing
 next push: each VERDICT in a round after both its seals are sighted
 
@@ -88,3 +88,4 @@ Q0014: EXPECT 82ce4b16; script and outputs; SEAL; verdict (ACCEPT) held off the 
 VERDICT_Q0001.json (ACCEPT) opened after the round of 2026-11-28T17:35Z, in which both seals were in.
 Q0018: EXPECT 4fe43676; script and outputs; SEAL; verdict (RETURN) held off the branch until both seals are sighted.
 Q0020: EXPECT a7b5bb69; script and outputs; SEAL; verdict (RETURN) held off the branch until both seals are sighted.
+Q0006: EXPECT 5a8c3c4f; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
