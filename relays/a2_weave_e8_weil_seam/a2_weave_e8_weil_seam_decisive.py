@@ -15,6 +15,7 @@ Strictly blind (0 of 19), zero trial arcs, stdlib + mpmath + sympy only, ZERO AS
 import ast
 import itertools
 import json
+import math
 import pathlib
 import random
 import sys
@@ -972,7 +973,7 @@ def run_module_s3():
     # Verify exact B704 F_2-linear independence of all 7 nonzero vectors of (Z/2)^3:
     # {-3, 5, -7, -15, 21, -35, 105} — none is a rational square!
     b704_7_discs = [-3, 5, -7, -15, 21, -35, 105]
-    all_7_nonsquare = all(not sp.Integer(d).is_square for d in b704_7_discs)
+    all_7_nonsquare = all((d < 0) or (math.isqrt(d) ** 2 != d) for d in b704_7_discs)
     # Audibility partition (p* > 0 real vs p* < 0 imaginary): {5, 21, 105} vs {-3, -7, -15, -35}
     real_subfields = [d for d in b704_7_discs if d > 0]
     imag_subfields = [d for d in b704_7_discs if d < 0]
