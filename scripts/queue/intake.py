@@ -229,15 +229,23 @@ def heavy_problems(rec, got, card_text):
 
 
 NEXT_ROUND = "the next round: "
+# ADDED 2026-11-28 (main's M84 point 2): a card that waits on a seat (OFFERED, for a peer's note; AT_BANKING, for the
+# banking seats' files) needs a round to see what the seat pushes, though no round moves it. A round that moved nothing
+# and left nothing while such a card waits says "after a wait": the workflow's job `next` then waits 20 minutes and
+# dispatches the next round. The chain ends only when no card waits on anything a round can see.
+WAITS_ON_A_SEAT = ("OFFERED", "AT_BANKING")
 
 
 def next_round(was, cards, report):
-    """main's M83 point 2: the round's last line, which the workflow reads to dispatch the next round. The next round is
-    needed when this one moved a card (a status changed, or a card was filed) or left a card for the next round"""
+    """main's M83 point 2 and M84 point 2: the round's last line, which the workflow reads to dispatch the next round.
+    The next round is needed when this one moved a card (a status changed, or a card was filed) or left a card for the
+    next round; it comes after a wait when this one did neither but a card waits on a seat; else it is not needed"""
     moved = sum(1 for cid, rec in cards.items() if was.get(cid) != rec["status"])
     left = sum(1 for r in report if "left for the next round" in r)
-    return "%s%s (this round moved %d card(s) and left %d for the next)" % (
-        NEXT_ROUND, "needed" if moved or left else "not needed", moved, left)
+    waiting = sum(1 for rec in cards.values() if rec.get("status") in WAITS_ON_A_SEAT)
+    word = "needed" if moved or left else ("after a wait" if waiting else "not needed")
+    return "%s%s (this round moved %d card(s) and left %d for the next; %d wait on a seat)" % (
+        NEXT_ROUND, word, moved, left, waiting)
 
 
 def queue_order(cards):

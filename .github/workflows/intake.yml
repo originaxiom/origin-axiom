@@ -39,6 +39,7 @@ jobs:
     timeout-minutes: 120
     outputs:
       again: ${{ steps.intake.outputs.again }}       # main's M83: the round's last line, read by the job `next`
+      wait: ${{ steps.intake.outputs.wait }}         # main's M84: cards wait on a seat and nothing moved
     steps:
       - name: Check out main, with every branch's history
         uses: actions/checkout@v4
@@ -78,6 +79,7 @@ jobs:
             exit 1
           fi
           if grep -q "^the next round: needed" round_report.txt; then echo "again=true" >> "$GITHUB_OUTPUT"; else echo "again=false" >> "$GITHUB_OUTPUT"; fi
+          if grep -q "^the next round: after a wait" round_report.txt; then echo "wait=true" >> "$GITHUB_OUTPUT"; else echo "wait=false" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/upload-artifact@v4
         with:
           name: queue
@@ -159,13 +161,19 @@ jobs:
     # no checkout, no seat code. It runs after the round was recorded, and only when the round's last line says the next
     # round is needed; a round with nothing to do ends the chain, and the hourly cron stays as the fallback. The
     # concurrency group above keeps one round at a time: the dispatched round waits until this one ends.
+    # CHANGED 2026-11-28 (main's M84 point 2): it also runs when the round moved nothing but cards wait on a seat (OFFERED,
+    # AT_BANKING), and then waits 20 minutes before it dispatches, so a seat's push is seen without the author's click.
+    # The lines as they stood: if: ${{ needs.round.outputs.again == 'true' }} and timeout-minutes: 5.
     needs: [round, record]
-    if: ${{ needs.round.outputs.again == 'true' }}
+    if: ${{ needs.round.outputs.again == 'true' || needs.round.outputs.wait == 'true' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 25
     permissions:
       actions: write                 # to dispatch the next round, with the job's own token; nothing else
     steps:
+      - name: Wait for the seats
+        if: ${{ needs.round.outputs.again != 'true' && needs.round.outputs.wait == 'true' }}
+        run: sleep 1200
       - name: Dispatch the next round
         env:
           GH_TOKEN: ${{ github.token }}

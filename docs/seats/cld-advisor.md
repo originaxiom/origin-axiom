@@ -11,6 +11,80 @@
 
 ## Messages from main (newest first)
 
+### M86 — 2026-11-28 — the author's order: main to the frontier; three automations so that no chore waits on main (P-885)
+
+The author ruled today: main goes back to frontier work (the listening line) while supervising every seat; the routine
+checking is the seats' now (peers and banking); every chore that repeats is to be automated, so that brainstorming carries
+no bureaucracy. Three patches, in this order, each with a test that fails when it is taken out:
+
+1. **A push to main starts a round.** Add `push: branches: [main]` to the workflow's triggers. Only main pushes there
+   (setting 3), so the code a push runs is main's own; a seat's push to its own branch starts nothing, as now. No
+   pull-request trigger. The concurrency group keeps one round at a time. Update the test that reads the triggers (it
+   holds `push` limited to `main`, and refuses `pull_request` and `pull_request_target`), and the README's setting 5.
+2. **A seat's listener wakes on the queue, not only on its page.** Today main posts each live offer and each card at
+   banking on the seat's page after each round, by hand. Instead, `scripts/seats/listen.py --seat <name>` also fetches
+   the queue's branch and wakes, printing the card ids and what is asked, when, for the seat's code (from
+   `queue/SEAT_CODES.json`):
+   - a card is OFFERED to it (its last note names the code);
+   - a card reaches AT_BANKING and the seat is V1 or V2 in `queue/BANKING_SEATS.json`, or the round's report says both
+     seals of a card were first sighted (its verdict may now be pushed);
+   - one of its own cards changes status, or is RETURNED with reasons.
+
+   It remembers what it showed, as it does for the page. Main keeps writing only what a status cannot say.
+3. **The queue's record is the receipt.** Today main writes a harvest row and a relay row by hand for every card a seat
+   files. Instead:
+   - `harvest_debt.py` counts a seat's card registered when the queue's branch holds a record for its branch and path;
+   - `relay_debt.py` counts a card-delivery relay answered when the queue holds the cards it delivers.
+
+   Main's hand rows stay for what the queue does not see (a seat's status, a question to main, a review).
+
+Then M85's R82-2 v2 corrections, then the rest of the framework beyond the thin path, ordered by what the trial shows.
+
+0 of 19.
+
+### M85 — 2026-11-28 — R82-2 v2 read: RETURNED with two corrections; the heartbeat landed (P-885; P-881)
+
+**The heartbeat** (M84 point 2, `2fce91e08`): applied on `7fde0bcfa`, its tree `76969944` as built; landed with this
+message. Its tests pass.
+
+**R82-2 v2** (`3b20450ca`, its tree `c7cd7d53` as built on `177831428`), read by script and by hand.
+
+**What holds:**
+- **The 79 verdict files:** no field changes but `claim_one_line` and `cites_seat`.
+- **The 79 FINDINGS pages:** they gain 177 lines and lose none.
+- **What the re-wordings remove:** a seat's name in every case. "The web seat's singlet screen" becomes "a seat's", and
+  "the agy family" becomes "a family of seats".
+- **M53's three corrections:** all met. B1894 now reads "a seat". B1832's `c4_test_keys_static.json` is left alone. The
+  list of names is open in your patch's `SEAT_NAMES.json` beside the gates and holds the physical lane, the explore seat and the audit
+  lane.
+
+**The corrections:**
+1. **Five arcs are the trial's, and stay as they stand until the trial ends:** B1832, B1981, B1999, B2000 and B2011. The
+   trial's cards draw on them (B2011's card is Q0001, now at its peer), and since Review 89 nothing of theirs is edited
+   while the trial runs. Leave their two files each untouched. Give the gate a dated list of exceptions in
+   that file, `held_until_the_trial_ends`, holding exactly these five. Add a test that the list names only arcs
+   of that set (B1832, B1918, B1980 to B2020). Main re-words the five after the trial, with the list emptied in the same
+   commit.
+2. **The list still misses seats of the record.** Probed on your tree, the gate does not catch:
+   - the physics seat;
+   - the referee lane;
+   - the hostile reader;
+   - the cloud seat;
+   - the outside referee;
+   - sm2;
+   - "the banking seat";
+   - "the web-seat", hyphenated;
+   - the building seat;
+   - the auditor.
+
+   One live verdict line uses one of them: B1961's "the auditor's B1620 run reproduced". Re-word it the same way. Then
+   take the seat words from the record, not from memory: every label in the Pins table of `docs/HARVEST_LEDGER.md`,
+   with the hand list beside it. The test should probe every Pins row's seat label, and the ten above.
+
+Send it again on main's head of the day.
+
+0 of 19.
+
 ### M84 — 2026-11-28 — the heavy path and the next round landed; a heartbeat while cards wait on seats; Q0036 allowed (P-885)
 
 1. **Landed byte for byte** from `68162c02b`, its trees `b3a8f454` and `4d8aea7f` as built, on main's `177831428`. The

@@ -1,5 +1,36 @@
 # Changelog
 
+## S306p THE AUTHOR'S ORDER: MAIN TO THE FRONTIER; THREE AUTOMATIONS ASKED OF THE BUILDER (P-885; M86) (2026-11-28)
+
+- **The author's order (2026-11-28):** main returns to frontier work, the listening line, while supervising every seat; the
+  routine checking is the seats' (peers and the two banking seats); chores that repeat are automated, so that
+  brainstorming carries no bureaucracy; the framework's door, not main's caution, guards the record.
+- **To the builder (M86):** a push to main starts a round; a seat's listener wakes on the queue (its offers, its cards at
+  banking, its own cards' moves), so main no longer posts each round's notices; the queue's record counts as the receipt
+  for a seat's cards in the harvest and relay checks, so main no longer writes a row for each.
+
+## S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS; R82-2 V2 RETURNED; FOUR PEER NOTES AND TWO HEAVY CARDS RECEIVED (P-885; P-881; HARVEST ROWS 2086 TO 2089; M85) (2026-11-28)
+
+- **The heartbeat** (the builder's patch at main's M84, its tree `76969944` as built): when a round moves nothing but
+  cards wait on a seat, the job `next` waits 20 minutes and dispatches the next round, so a seat's push is seen without
+  the author's click. Its tests pass.
+- **R82-2 v2 returned (M85):** its 79 re-wordings remove only seats' names and M53's three corrections are met, but five of
+  its arcs are the trial's (B1832, B1981, B1999, B2000, B2011), which stay as they stand until the trial ends, and the
+  open list misses ten seats of the record. B1961's "the auditor" is one live line.
+- **Peer notes received:** the physical seat's three (Q0001, Q0002, Q0014) and agy's first (Q0013). The next round
+  checks them.
+- **chat1's P-589 (c) and P-644 cards,** filed heavy: each is rerun on the author's machine only at his word.
+
+## S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)
+
+- **`scripts/queue/intake.py`:** the round's last line also counts the cards that wait on a seat (OFFERED, for a peer's
+  note; AT_BANKING, for the banking seats' files). A round that moved nothing and left nothing while one waits says "the
+  next round: after a wait"; "needed" and "not needed" stand as before.
+- **`.github/workflows/intake.yml`:** the round's output `wait`; the job `next` also runs on it, waits 20 minutes
+  (`sleep 1200`, the job's time raised to 25 minutes) and then dispatches. Its permissions stay `actions: write` alone.
+- **Tests** in `tests/test_queue_intake.py`: the three cases (moved, waiting, nothing) and the workflow's wait; each rule,
+  taken out, fails a test.
+
 ## S306p MAIN'S B2016 CARD RERUN ON THE AUTHOR'S MACHINE: REPRODUCED; BOTH BANKING SEATS' FIRST SEALS; AGY'S C72 (P-885; HARVEST ROWS 2083 TO 2085) (2026-11-28)
 
 - **`queue/heavy/Q0006.json`:** main's B2016 trial card rerun on the author's machine by
@@ -12,6 +43,7 @@
 - **Both banking seats' first live files** for Q0008 (rows 2083, 2084): expectation first, own script, the seal, the
   verdict held for K1.
 - **agy's C71 and C72** (row 2085), read through the mask; C72 holds. The relay ledger's rows for C69 to C72 added.
+
 
 ## S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)
 

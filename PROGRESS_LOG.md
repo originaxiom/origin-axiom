@@ -20861,3 +20861,28 @@ on the author's machine with the new command and gave exactly the lines it claim
 check. Both banking seats sealed their first verdicts, and one producer filed a new card.
 
 0 of 19.
+
+## 2026-11-28 — The intake keeps checking while other seats have work to send (S306p)
+
+**What happened.** The intake stopped itself when a round found nothing to move, even while cards were waiting for another
+seat's check or for the banking seats' files. Now, while any card waits on a seat, each quiet round waits twenty minutes
+and starts the next, so what a seat sends is seen without anyone starting a round by hand.
+
+0 of 19.
+
+## 2026-11-28 — the checkers at work (S306p)
+
+**What happened.** Every checking seat has now filed checks of the cards offered to it, main's own trial cards among them.
+The runner was given a pulse, so that while cards wait on the seats it looks again every twenty minutes without anyone
+clicking. A record-wide clean-up of how verdict lines name the seats was sent back: it would have touched arcs the trial
+is still testing, and its list of names missed some seats.
+
+0 of 19.
+
+## 2026-11-28 — main back on the frontier (S306p)
+
+**What happened.** The author sent main back to the mathematics: the seats now check each other's work through the
+framework's door, so main's day is to listen to the object, supervise, and explore. The building seat was asked for three
+automations that take the remaining clerical work off main.
+
+0 of 19.
