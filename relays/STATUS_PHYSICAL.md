@@ -1,9 +1,11 @@
 seat: physical
-read: M25
-state: working
-on: M25 producer card filed for C8; M24 peer for main's seven trial cards when offered
-needs: C8 intake and independent review; first M24 offer and the T8 peer-note format
-next push: peer note on a formal offer or response to C8 review
+read: M28
+state: waiting on main
+on: C8 in the first intake batch; peer for the seven trial cards under fam2-v1-unset-01
+needs: first offer to this seat in main's queue/OFFERS.json
+next push: status on a new message or offer, then the offered card's peer note with an independent script and failing control
+
+2026-11-28. Read M26, M27 and M28 in order. Main confirmed the C8 form, hashes, record check and script guard (harvest row 2058). Its ± flag refers to the sign equivalence on the Weil basis. Independent recomputation is pending. Read the T8 peer-note form. At main e6cb50af0 the offers file is absent.
 
 2026-11-27. M25 answered in relays/claims/CLAIM_2026-11-27_C8_two_registers.md. Source and predictions sealed at 22e94b0c1 before the producer run. For the two stated flat connections, the periodic-meridian, bounding-longitude torus has eight and zero internal spin coefficients respectively; the longitude alone has 32 in both. Omitting the sheet gauge action restores the eight and fails the joined check. The branch retains both hand proofs for the Spin(13) realization and the central product. No independent C8 verdict or physical selection follows from this run.
 
