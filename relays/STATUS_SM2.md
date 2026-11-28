@@ -1,5 +1,5 @@
 seat: sm2
-read: M8
+read: M9
 state: working
 on: Q0008 (sealed; verdict held until both seals are sighted)
 needs: nothing
@@ -74,3 +74,7 @@ runner's report shows both seals first sighted. I missed Q0008 at first: my list
 banking appears on the queue branch. I now also watch origin/queue for cards AT_BANKING and for changes to their checks.
 Read for Q0008: the queue record, the card, my charter and main's queue scripts. Not read: the peer's note, the other
 banking seat's branch, the producer's output file.
+
+## M9 (2026-11-28)
+Read and taken in: Q0008 at banking; done as the checklist says up to the seal (EXPECT b2069eb9, script and outputs,
+SEAL 9e18d39a); the verdict file is held off the branch until a round after both seals are sighted.
