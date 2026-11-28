@@ -1,0 +1,4 @@
+DECISIVE: S1_L15_FLUX ok=False sl2f3_J=1.847887717e-91 L15_uJ=0.011776096316519 L15p_uJ=0.0055363298254893 L15_hJ=0.00071640799684004 cg_uJ=0.0075956075064383 haar=1.337128225e-23
+DECISIVE: S2_F25_MARKOFF ok=True GE8=156000 ab=2 fix=2 swap_diff=False cusp_orbs=[600, 60, 40, 1] cusp_grps=['SL(2,F_25)', 'order_240', '2I=SL(2,F_5)', 'Q_8']
+DECISIVE: S3_PRIME235_B704 ok=True q3_bd5_Z2=True bd5_in_SL2=True q3_obst=True cube_deg=8 v4_deg=4
+DECISIVE: SUMMARY all_ok=False PF=5/5 floats=0/0
