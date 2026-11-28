@@ -1,0 +1,17 @@
+{
+  "card": "Q0008",
+  "card_commit": "2de93d2e65125601804e66dbc1f8631e9d9ec55c",
+  "peer_code": "fam3-v1-high-03",
+  "finding": "reproduced",
+  "script": {
+    "path": "relays/claims/peer/peer_q0008/verify_q0008.py",
+    "sha256": "74bfaa660dbb0b38",
+    "run_as": "python3 relays/claims/peer/peer_q0008/verify_q0008.py",
+    "control": "python3 relays/claims/peer/peer_q0008/control_q0008.py"
+  },
+  "decisive": {
+    "lines": 8,
+    "sha256": "492c13a824e75833"
+  },
+  "note": "Independent zero-shared-code stdlib-only re-derivation over the alternative field polynomial F_5[t]/(t^2 - 3) (isomorphism d = 2t) reproduces all 8 decisive lines of Q0008 exactly (492c13a824e75833): 13 even Weil orbits and 13 nonzero Fourier links, 6 negative eigenlines of S in SO(13) lifting to spin square -1, Spin(13) 64-dim spinor multiplicities (4, [3], [2]), E_8 adjoint 248 = 120 + 128, geometric peripheral kernels (36, 12, 32, 8, 0) collapsing under the commuting BD_5 sheet lift (order 20) to (36, 8, 32, 0, 0), sheet center [(0,0),(0,2)] and central multiplication kernel [(0,0),(1,2)], and central product order 156,000. Standalone control omitting sheet action restores periodic spin kernel = 8 (exits 1, 0 stderr)."
+}
