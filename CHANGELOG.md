@@ -1,5 +1,23 @@
 # Changelog
 
+## S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)
+
+- **The 51 rows** the two screens name since Review 89 mended them, outside the trial's arcs, judged at source by three
+  readers (each arc's FINDINGS, its verdict file, its addenda, RETRACTIONS). Main read every row called stale at its source
+  before any edit, and spot-checked rows called current; one of those was a plain error.
+- **Nine rows mended in place,** each with the arc's dated note:
+  - 75: B120's tower heights were computed for n = 2 to 8; the lock's 2 to 13 checks only the clauses' sum;
+  - 128: B535's census has a sixth coupling type, first at length 5, which the statement does not cover;
+  - 152: B1242 refuted "E₆(ℂ) CS = 3d gravity" as an identity; it is a containment, 3 of 78;
+  - 161: B722's resurgence is 2+1 sectors, and its hearing identification holds at the level of the field only;
+  - 260: under GM5b B1479's − states are generated, not carried as an extension (B1662);
+  - 327: the rarities hold for B1882's window in the height of the modulus, whose ends are a choice;
+  - 467: B1079's counting measure is the prior on the ℤ/5 family the closing supplies, under a named W × Galois hypothesis;
+  - 610: B1969's near-miss inference was withdrawn at Review 86; B1973 settles the form's admission;
+  - 660: B1955: the Weil class is fixed only by the labels, and the up sector's failure is scoped to the phase table.
+- **42 rows are current:** the correction concerns a claim the row does not make, or the row already shows it. None is
+  unsure. The six rows inside the trial's arcs and row 348 are left until the trial ends.
+
 ## S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)
 
 - **agy-002's A2-WHOLE-CENSUS-E8-TWO-REGISTER** at `3dc08d80f`, read through the mask:

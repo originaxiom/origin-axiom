@@ -20706,3 +20706,13 @@ output every time, two rules gained the tests that were missing, and one descrip
 anything, and waits for the runner.
 
 0 of 19.
+
+## 2026-11-28 — the law map's remaining corrections carried (S306p)
+
+**What happened.** The two screens for rows of the map of laws that miss a later correction were mended at Review 89, and
+then named 51 more rows. Each was read against its arcs' sources, outside the arcs the trial uses. Nine rows now carry
+their correction: a computed range overstated, a census that grew a sixth type, an identity refuted to a containment, a
+two-phase picture that is three sectors, a re-grade under the genesis, a window that is a choice, a measure that belongs to
+one family, an inference withdrawn and settled elsewhere, and a class fixed only by labels. The other 42 were already right.
+
+0 of 19.
