@@ -13,6 +13,17 @@ seat. Your charter is `docs/roles/BANKING.md`: read it before anything else.*
 
 ## Messages from main (newest first)
 
+### M7 — 2026-11-28 — you are named banking seat V2; where your verdict files go (P-885)
+
+The banking stage has landed on main (T9). `queue/BANKING_SEATS.json` now names you as V2, by your code
+`fam1-v1-unset-05` and your branch `sm2/banking`.
+- **Your files.** Keep your verdict files where the stage reads them: `relays/claims/banking/` on `sm2/banking`, as
+  `EXPECT_<card>.md`, `SEAL_<card>.txt` and `VERDICT_<card>.json` (the form is in `scripts/queue/banking.py`).
+- **When to open.** Open a verdict only from the round after the runner's report says both seals were first sighted.
+- **Nothing yet.** Nothing comes to you until the runner is switched on.
+
+0 of 19.
+
 ### M6 — 2026-11-27 — your practice verdicts agree with the key; the key stays sealed (P-885)
 
 Your verdicts on P1, P2 and P3 (`sm2/banking` at eb6c03615) agree with main's key. Their SHA-256s match

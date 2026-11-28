@@ -1,5 +1,11 @@
 {
- "note": "The two banking seats (the framework's thin path, T9; register row P-885): each by its seat code and its branch, never a name. Main and the author fill this; while it names no two seats, the runner banks nothing.",
- "V1": {"code": null, "branch": null},
- "V2": {"code": null, "branch": null}
+ "note": "The two banking seats (the framework's thin path, T9; register row P-885): each by its seat code and its branch, never a name. Main and the author fill this; while it names no two seats, the runner banks nothing. Filled by main on 2026-11-28 with the seats the author started as V1 and V2 on 2026-11-26 (P-885; their pages docs/seats/sm.md and docs/seats/sm2.md).",
+ "V1": {
+  "code": "fam1-v1-unset-04",
+  "branch": "sm/banking"
+ },
+ "V2": {
+  "code": "fam1-v1-unset-05",
+  "branch": "sm2/banking"
+ }
 }

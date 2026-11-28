@@ -1,5 +1,17 @@
 # Changelog
 
+## S306p THE TWO BANKING SEATS NAMED; THE SM SEAT'S TWO TIER-1 CARDS RECEIVED; THE BUILDER'S RESEND REGISTERED (P-885; HARVEST ROWS 2060, 2061; M75, M66, M7) (2026-11-28)
+
+- **`queue/BANKING_SEATS.json`** names V1 (`fam1-v1-unset-04`, on `sm/banking`) and V2 (`fam1-v1-unset-05`, on
+  `sm2/banking`): the seats the author started on 2026-11-26. Both seats are told where their verdict files go and when they
+  may open them.
+- **The SM seat's B1380 and SM-C14 on `sm/cards`,** tier 1 of its ranking:
+  - both forms hold, and every stated hash matches;
+  - the record checks are clean and deciding, and the four scripts pass the guard;
+  - neither names a trial arc.
+- **The builder's resend at `33041d6ee` registered** (harvest row 2061). Part 2, T8 and T9 are landed. M75 tells it what
+  was verified, the two changes main made in part 2, and that T11 is next.
+
 ## S306p T9 LANDED: THE BANKING VERDICTS, SEALED THEN OPENED; THE END OF THE PEER STAGE; BANKING IN QUEUE ORDER (P-885; M71) (2026-11-28)
 
 - **The builder's patch 0003, sent again at `33041d6ee`, byte for byte.** Its tree as built is `5a87e928`.

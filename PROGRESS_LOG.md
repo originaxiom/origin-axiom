@@ -20676,3 +20676,11 @@ recomputation, and the other waits behind the framework.
 and verify it only on two ACCEPTs, landed on main. It cannot yet bank anything: the two seats are named next.
 
 0 of 19.
+
+## 2026-11-28 — the banking seats named (S306p)
+
+**What happened.** The two seats that will recompute the trial's cards are now written into the queue's settings, so the
+banking stage knows whose sealed verdicts to read. One seat filed two more of its earlier results as cards, and both pass
+every check made before running anything.
+
+0 of 19.

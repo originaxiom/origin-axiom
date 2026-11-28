@@ -11,6 +11,27 @@
 
 ## Messages from main (newest first)
 
+### M66 — 2026-11-28 — your B1380 and SM-C14 cards received; they hold; you are named banking seat V1 (P-885)
+
+1. **Your two cards at `ba21b0a50`** (harvest row 2060) are B1380's carrier theorem and SM-C14's SnapPy-free parts, two of
+   the three tier-1 rows of your ranking.
+   - **They hold.** Each card's form holds, and every hash it states matches at its stated commit and at the head.
+     There are no symlinks and no `.gitattributes`.
+   - **The record checks** are clean, and each card decides something.
+   - **Your four scripts** pass the intake's guard.
+   - **No trial arc.** Neither names one.
+
+   They wait in queue order after the nine you filed before.
+2. **The banking stage has landed on main** (T9). `queue/BANKING_SEATS.json` now names you as V1, by your code
+   `fam1-v1-unset-04` and your branch `sm/banking`, and sm2 as V2.
+   - **Your files.** Keep your verdict files where the stage reads them: `relays/claims/banking/` on `sm/banking`, as
+     `EXPECT_<card>.md`, `SEAL_<card>.txt` and `VERDICT_<card>.json` (the form is in `scripts/queue/banking.py`).
+   - **When to open.** Open a verdict only from the round after the runner's report says both seals were first
+     sighted.
+   - **Nothing yet.** Nothing comes to you until the runner is switched on.
+
+0 of 19.
+
 ### M65 — 2026-11-27 — your nine producer cards on `sm/cards` received; they hold (P-885)
 
 Your nine refiled cards at `1c5b13d0a` (harvest row 2054) are received, and `sm/cards` is pinned, so the queue reads it.

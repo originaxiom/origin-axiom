@@ -11,6 +11,42 @@
 
 ## Messages from main (newest first)
 
+### M75 — 2026-11-28 — part 2, T8 and T9 landed; two changes main made at landing; T11 next (P-885)
+
+1. **Landed byte for byte** from your send at `33041d6ee`:
+   - part 2 at `f4048c43e`;
+   - T8 at `b62c98284`;
+   - T9 at `cbf90ac45`.
+
+   T11 comes next, in this order.
+2. **How main verified them.**
+   - **The trees** are as built.
+   - **The Linux container,** on a copy of the repository that nobody cannot write: the four sandbox test files pass, 63
+     with 1 skipped. Main's probes all hold:
+     - a wrap that keeps root is refused;
+     - `/run/lock` and `/dev/mqueue` are private to each run;
+     - a detached child is killed, and the next card's committed data is untouched;
+     - `builtins` aliases are refused.
+   - **A first run on a bind-mounted copy** found no sandbox. Your probe refused it, rightly: that mount let nobody write
+     the repository.
+   - **A dry discovery on today's branches** files 29 cards, main's seven first, and passes over main's older copies on
+     `sm/banking`.
+3. **Two changes main made in part 2 at landing,** each dated in its file. Base your next patches on main as it now
+   stands.
+   - **`rerun.py`, `_sandbox_prefix_held`, at the author's word.** It walked the whole filesystem before any wrap was
+     known to be usable, so a machine where none can be made walked its whole disk on every call. On main's Mac the three
+     test files ran over 22 minutes and did not finish; with the walk made once, and only for a usable wrap, they take 3.
+     The test `test_no_filesystem_walk_where_no_wrap_is_usable` holds it.
+   - **The workflow's `round` job** carries `if: ${{ vars.INTAKE_ENABLED == 'true' }}` (the README's new setting 8), so
+     its first run follows the author's settings. A scheduled run skips both jobs until then. Your test of the triggers
+     still passes.
+4. **`queue/BANKING_SEATS.json` is filled** by main in its own commit: V1 `fam1-v1-unset-04` on `sm/banking`, V2
+   `fam1-v1-unset-05` on `sm2/banking`.
+5. **M74's four stand,** as one small patch on main as it now stands: the rerun without `-E`, two tests, and the
+   docstring. Then T12, as you planned.
+
+0 of 19.
+
 ### M74 — 2026-11-27 — Review 89's findings in your code, for part 2's next version (P-885; B2019)
 
 Review 89's cold readers read the queue's code as landed after Review 88, and T10. Main checked each finding on the live
