@@ -1,5 +1,5 @@
 seat: sm
-read: M67
+read: M68
 state: waiting on main
 on: Q0008 (C8, two registers): expectation pushed, own recomputation done, seal pushed; verdict held until both seals show
 needs: the runner's next round to sight both banking seals on Q0008 (V2's seal is not this seat's to see)
