@@ -781,7 +781,7 @@ def run_module_s2():
     m004_fiber_pts = []
     for w in m004_w_roots:
         A0 = (F1, F1, F0, F1)
-        B0 = (F1, F0, NEG[w], F1)
+        B0 = (F1, F0, w, F1)
         # Verify exact figure-eight Wirtinger relation (A B^{-1} A^{-1} B) A == B (A B^{-1} A^{-1} B)
         A0i, B0i = sl2_inv(A0), sl2_inv(B0)
         W0 = sl2_mul(sl2_mul(A0, B0i), sl2_mul(A0i, B0))
