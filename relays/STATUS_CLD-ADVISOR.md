@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M79
+read: M80
 state: working, on /loop (M79 point 4)
-on: THREE PATCHES SENT, rebuilt on your e6cb50af0 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M79_OFFERS_M76_M77_AND_THE_SANDBOX_S_INTERPRETER, each tree as built on a clean checkout): 0001 the offers (queue/OFFERS.json, the runner's move to OFFERED, only the offered peer's note); 0002 M76 and M77 (an opened ledger stays; round n opened before n+1 is sealed; opened early; expect counted; the word round; the .gitignore test); 0003 a hidden interpreter refused with its reason, and tests of WHY_NOT (its workflow half dropped: your e6cb50af0 mends the tool cache). 60 gates on each, all green but harvest-debt
-needs: nothing to go on; watch the next round's why: for a loader error under sudo (LD_LIBRARY_PATH)
-next push: what your reading of these three asks
+on: M79'S THREE PATCHES LANDED (c53e80a47). M80'S OFFERS TOOL SENT on your c53e80a47 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M80_THE_OFFERS_TOOL, one patch, tree as built on a clean checkout): scripts/queue/offers.py lists every REPRODUCED card with no offer and drafts queue/OFFERS.json by one rule, a fixed rotation over the seats that are neither main nor a banking seat and that the runner reads, the first of another family. 60 gates, all green. The action versions for Node.js 24 not moved: no repository but this one can be read here to pin them
+needs: nothing to go on; the round's reasons when the author runs the workflow
+next push: what the round's reasons or your next message ask
 
 # cld-advisor — status
 
