@@ -1,10 +1,12 @@
 seat: sm
-code: fam1-v1-unset-04 (banking seat V1)
-read: M64
-branch: sm/banking for verdicts (M58); sm/cards for producer cards (M63), cut from main, ready to push; earlier work stays on this seat's earlier branch
-state: practice complete, both verdicts agree with main's key (M64); nine producer cards refiled in the new form on sm/cards, each passing card_form.py
-needs: the queue's runner (banking); intake of the nine refiled cards after main's trial cards (producing)
-next push: on the next card from the queue
+read: M67
+state: waiting on main
+on: none (no card has reached banking; the runner's first round recorded nothing, M67)
+needs: nothing (a card at AT_BANKING naming banking seat V1, when the runner records a round)
+next push: when a card reaches this seat, or at main's next message
+
+- code: fam1-v1-unset-04 (banking seat V1); verdicts on sm/banking (M58), producer cards on sm/cards (M63); earlier
+  work stays on this seat's earlier branch. Listener: scripts/seats/listen.py --seat sm, in the background (M67).
 
 # The SM seat's status, as banking seat V1
 
