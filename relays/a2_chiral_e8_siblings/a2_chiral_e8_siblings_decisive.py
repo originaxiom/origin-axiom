@@ -477,6 +477,152 @@ def sl2c_eval(word, gmap):
     return cur
 
 
+def _f5_trim(p):
+    p = [c % 5 for c in p]
+    while len(p) > 1 and p[0] == 0:
+        p.pop(0)
+    return p
+
+
+def _f5_divmod(a, b):
+    a = _f5_trim(a)
+    b = _f5_trim(b)
+    if b == [0]:
+        raise ZeroDivisionError
+    inv_lb = pow(b[0], -1, 5)
+    da, db = len(a) - 1, len(b) - 1
+    if da < db:
+        return [0], a
+    q = [0] * (da - db + 1)
+    r = list(a)
+    for i in range(da - db + 1):
+        coef = (r[i] * inv_lb) % 5
+        q[i] = coef
+        if coef:
+            for j in range(db + 1):
+                r[i + j] = (r[i + j] - coef * b[j]) % 5
+    return _f5_trim(q), _f5_trim(r)
+
+
+def _f5_mul_mod(a, b, modp):
+    res = [0] * (len(a) + len(b) - 1)
+    for i, ca in enumerate(a):
+        if ca:
+            for j, cb in enumerate(b):
+                res[i + j] = (res[i + j] + ca * cb) % 5
+    _, rem = _f5_divmod(res, modp)
+    return rem
+
+
+def _f5_pow_mod(base, exp, modp):
+    res = [1]
+    b = _f5_divmod(base, modp)[1]
+    while exp > 0:
+        if exp & 1:
+            res = _f5_mul_mod(res, b, modp)
+        b = _f5_mul_mod(b, b, modp)
+        exp >>= 1
+    return res
+
+
+def _f5_gcd(a, b):
+    a, b = _f5_trim(a), _f5_trim(b)
+    while b != [0]:
+        _, r = _f5_divmod(a, b)
+        a, b = b, r
+    inv_la = pow(a[0], -1, 5)
+    return [(c * inv_la) % 5 for c in a]
+
+
+def _f5_sub(a, b):
+    n = max(len(a), len(b))
+    aa = [0] * (n - len(a)) + a
+    bb = [0] * (n - len(b)) + b
+    return _f5_trim([(x - y) % 5 for x, y in zip(aa, bb)])
+
+
+def _f5_deriv(p):
+    d = len(p) - 1
+    if d <= 0:
+        return [0]
+    return _f5_trim([(p[i] * (d - i)) % 5 for i in range(d)])
+
+
+def _f5_ddf_squarefree(g):
+    """Exact distinct-degree factorization of a monic square-free polynomial g in F_5[X]."""
+    degs = []
+    cur = _f5_trim(g)
+    x_poly = [1, 0]
+    x_pow = [1, 0]
+    k = 1
+    while len(cur) - 1 >= 2 * k:
+        x_pow = _f5_pow_mod(x_pow, 5, cur)
+        diff = _f5_sub(x_pow, x_poly)
+        h = _f5_gcd(cur, diff)
+        dh = len(h) - 1
+        if dh > 0:
+            assert dh % k == 0
+            degs.extend([k] * (dh // k))
+            cur, rem = _f5_divmod(cur, h)
+            assert rem == [0]
+            x_pow = _f5_divmod(x_pow, cur)[1]
+        k += 1
+    if len(cur) - 1 > 0:
+        degs.append(len(cur) - 1)
+    return degs
+
+
+def f5_factor_degrees(coeffs_desc):
+    """Exact multiset of irreducible factor degrees of P(X) mod 5 over F_5 via pure-Python
+    square-free decomposition + Cantor-Zassenhaus DDF (immune to flint nmod sort bug)."""
+    f = _f5_trim(coeffs_desc)
+    if len(f) <= 1:
+        return []
+    inv_lf = pow(f[0], -1, 5)
+    f = [(c * inv_lf) % 5 for c in f]
+    degs = []
+    # Recursive square-free factorization in characteristic 5
+    def _sqf_degs(poly, mult):
+        d = len(poly) - 1
+        if d <= 0:
+            return
+        fp = _f5_deriv(poly)
+        if fp == [0]:
+            # poly = h(X^5) => extract 5th root!
+            assert d % 5 == 0
+            root = [poly[i] for i in range(0, len(poly), 5)]
+            _sqf_degs(root, mult * 5)
+            return
+        g = _f5_gcd(poly, fp)
+        w, rem = _f5_divmod(poly, g)
+        assert rem == [0]
+        # w is square-free product of all irreducibles whose multiplicity is not 0 mod 5;
+        # extract each multiplicity cleanly via standard char-p Yun loop:
+        i = 1
+        cur_w = w
+        cur_g = g
+        while len(cur_w) - 1 > 0:
+            y = _f5_gcd(cur_w, cur_g)
+            z, r1 = _f5_divmod(cur_w, y)
+            assert r1 == [0]
+            if len(z) - 1 > 0:
+                for dk in _f5_ddf_squarefree(z):
+                    degs.extend([dk] * (mult * i))
+            cur_g, r2 = _f5_divmod(cur_g, y)
+            assert r2 == [0]
+            cur_w = y
+            i += 1
+        if len(cur_g) - 1 > 0:
+            # Remaining cur_g is a 5th power!
+            assert (len(cur_g) - 1) % 5 == 0
+            root = [cur_g[j] for j in range(0, len(cur_g), 5)]
+            _sqf_degs(root, mult * 5)
+
+    _sqf_degs(f, 1)
+    assert sum(degs) == len(f) - 1
+    return sorted(degs)
+
+
 def analyze_field_and_arithmeticity(m):
     """Module C1: Exact shape field minimal polynomial (via 360-digit gluing Newton refinement
     + LLL), 100% exact symbolic gluing certification over QQ[X]/(P(X)), pi_1^(2) trace
@@ -555,19 +701,9 @@ def analyze_field_and_arithmeticity(m):
     # invariant trace field (= shape field) is imaginary quadratic (deg == 2, r1 == 0) AND all pi_1^(2) traces integral
     is_arithmetic = (deg == 2 and r1 == 0 and all_sq_traces_integral is True)
 
-    # Exact factorization of P_M(X) mod 5 over F_5 (after verifying lc % 5 != 0 or recording prime-5 ramification)
+    # Exact factorization of P_M(X) mod 5 over F_5 via pure-Python square-free DDF
     lc_mod5 = coeffs_desc[0] % 5
-    if lc_mod5 != 0:
-        _, f5_facs = sp.factor_list(best_poly.as_expr(), X, modulus=5)
-        mod5_factor_degs = sorted([int(sp.Poly(f, X, modulus=5).degree()) for f, mult in f5_facs for _ in range(mult)])
-    else:
-        # Reduce numerator after dropping leading 5-divisible term -> record degree drop!
-        red_poly = sp.Poly([c % 5 for c in coeffs_desc], X, modulus=5)
-        if red_poly.degree() >= 1:
-            _, f5_facs = sp.factor_list(red_poly.as_expr(), X, modulus=5)
-            mod5_factor_degs = sorted([int(sp.Poly(f, X, modulus=5).degree()) for f, mult in f5_facs for _ in range(mult)])
-        else:
-            mod5_factor_degs = []
+    mod5_factor_degs = f5_factor_degrees(coeffs_desc)
     has_f25_mod5_factor = (2 in mod5_factor_degs)
 
     # Exact discriminant of P_M(X)
