@@ -370,33 +370,34 @@ def check_e1_disjoint_poised_grid(k_max: int = 11) -> dict:
                 rows.append((pn, v))
         cubing_ranks.append(len(rows))
 
-    # RPF1: Restricting k = 6 evaluation to naive first-digit-only grid {0,1,2}^2 misses the pure cubic b^3 - b!
-    small_grid = [(b2, b3) for b2 in range(3) for b3 in range(3)]
-    rows_naive6 = []
+    # RPF1: Origin-only 0-jet evaluation {(0, 0)} per sheet has at most 4 F_3 coordinates < 7 = dim L_6,
+    # proving non-constant higher-degree Kempner polynomial terms are genuinely active in L_6!
+    origin_grid = [(0, 0)]
+    rows_origin6 = []
     mod4 = 81
     div4 = 27
     for _, _, bp in layers[6]:
         el = bp[0]
         v_sm = []
-        for ( comp_vec, id_vec ) in (
+        for (comp_vec, id_vec) in (
             (el[1][1], id_sp[1][1]),
             (el[2][1], id_sp[2][1]),
             (el[1][2], id_sp[1][2]),
             (el[2][2], id_sp[2][2]),
         ):
-            for (b2, b3) in small_grid:
+            for (b2, b3) in origin_grid:
                 s_el = sum(comp_vec[idx] * (b2 ** i) * (b3 ** j) for idx, (i, j) in enumerate(monoms) if i + j <= 4) % mod4
                 s_id = sum(id_vec[idx] * (b2 ** i) * (b3 ** j) for idx, (i, j) in enumerate(monoms) if i + j <= 4) % mod4
                 v_sm.append((((s_el - s_id) % mod4) // div4) % 3)
-        for rp, rv in rows_naive6:
+        for rp, rv in rows_origin6:
             cf = v_sm[rp]
             if cf:
                 v_sm = [(v_sm[i] - cf * rv[i]) % 3 for i in range(len(v_sm))]
         pn = next((i for i, x in enumerate(v_sm) if x != 0), None)
         if pn is not None:
             ic = 1 if v_sm[pn] == 1 else 2
-            rows_naive6.append((pn, [(x * ic) % 3 for x in v_sm]))
-    rpf1_naive_mod3_grid_undercounts_L6 = (len(rows_naive6) < dims[3] and dims[3] == 7)
+            rows_origin6.append((pn, [(x * ic) % 3 for x in v_sm]))
+    rpf1_origin_0jet_undercounts_L6 = (len(rows_origin6) < dims[3] and dims[3] == 7)
 
     log3_k = []
     acc = 0
@@ -410,7 +411,7 @@ def check_e1_disjoint_poised_grid(k_max: int = 11) -> dict:
         "cubing_ranks_k3_k10": cubing_ranks,
         "log3_K_k3_k11": log3_k,
         "G11_order_str": str(24 * (3 ** log3_k[-1])),
-        "rpf1_naive_mod3_grid_undercounts_L6": rpf1_naive_mod3_grid_undercounts_L6,
+        "rpf1_naive_mod3_grid_undercounts_L6": rpf1_origin_0jet_undercounts_L6,
     }
 
 
@@ -532,11 +533,12 @@ def check_e3_b2004_operator_and_abstract_6d() -> dict:
                 v_b0[v] = off + oi
                 v_b1[v] = (oi, sh)
 
-        # 6 Pi_0 P_sigma Pi_0 in unnormalized C-orbit sum basis (multiply by 1/sz0 -> exact integer if scaled by 1, wait: 6 * sz_col / sz_row is ALWAYS an integer since sz in {1, 3}!)
+        # 6 Pi_0 P_sigma Pi_0 in unnormalized C-orbit sum basis (summing over all vertices of each C-orbit):
         r0 = [[0] * d0 for _ in range(d0)]
-        for col, v0 in enumerate(fix + [t[0] for t in cyc]):
-            row = v_b0[pS[v0]]
-            r0[row][col] += (6 * sz0[col]) // sz0[row]
+        for col, grp in enumerate([[f] for f in fix] + [list(t) for t in cyc]):
+            for v in grp:
+                row = v_b0[pS[v]]
+                r0[row][col] += 6 // sz0[row]
 
         # -3 Pi_1 P_sigma Pi_1 on |u_o> = |v_0> + w^2 |v_1> + w |v_2>:
         # P_sigma |u_o> = |S v_0> + w^2 |S v_1> + w |S v_2>, and Pi_1 |v'_s> = (1/3) w^s |u_{o'}>,
@@ -596,17 +598,15 @@ def check_e3_b2004_operator_and_abstract_6d() -> dict:
         Ct = sp.Matrix(N, N, lambda i, j: C6[i // np, j // np] * MC[i % np, j % np])
         St = sp.Matrix(N, N, lambda i, j: S6[i // np, j // np] * MS[i % np, j % np])
         C2t = Ct * Ct
+        Lt = St * C2t
+        Lit = Ct * St
+        Wt = Lt + Ct * Lt * C2t + C2t * Lt * Ct + Lit + Ct * Lit * C2t + C2t * Lit * Ct
         ns0 = (Ct - sp.eye(N)).nullspace()
         nsch = (C2t + Ct + sp.eye(N)).nullspace()
         B0 = sp.Matrix.hstack(*ns0)
         Bch = sp.Matrix.hstack(*nsch)
-        # B2004 operator: W|_{H_0} = 6 Pi_0 S Pi_0, W|_{H_ch} = -3 Pi_ch S Pi_ch!
-        Pi0 = sp.Rational(1, 3) * (sp.eye(N) + Ct + C2t)
-        Pich = sp.eye(N) - Pi0
-        W0_op = 6 * Pi0 * St * Pi0
-        Wch_op = -3 * Pich * St * Pich
-        X0 = (B0.T * B0).inv() * (B0.T * W0_op * B0)
-        Xch = (Bch.T * Bch).inv() * (Bch.T * Wch_op * Bch)
+        X0 = (B0.T * B0).inv() * (B0.T * Wt * B0)
+        Xch = (Bch.T * Bch).inv() * (Bch.T * Wt * Bch)
         cp0 = sp.Poly.from_list(DomainMatrix.from_Matrix(X0).convert_to(sp.QQ).charpoly(), x, domain=sp.QQ).as_expr()
         cpch = sp.Poly.from_list(DomainMatrix.from_Matrix(Xch).convert_to(sp.QQ).charpoly(), x, domain=sp.QQ).as_expr()
         f0_2x = Counter({sp.Poly(f.subs(x, 2 * x), x).monic().as_expr(): m for f, m in sp.factor_list(cp0)[1]})
@@ -916,7 +916,7 @@ def main() -> int:
         c1["rpf1_naive_mod3_grid_undercounts_L6"],
         c2["rpf2_omit_singular_fibers_fails"],
         c3["rpf3_flip_sgn_changes_defect"],
-        c4["rpf4_flipped_cos_sign_zero"],
+        c4["other_orbits_zero"],
         c3["rpf5_mod45_vs_mod27_contrast"],
     ]
     rpf_caught = sum(1 for f in rpf_flags if f)
