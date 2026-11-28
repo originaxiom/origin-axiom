@@ -1,0 +1,19 @@
+level 27: orbit 72 readings, |G| = 216, subgroups 270, classes 45 (1 s)
+   categories: {'a': 4, "a'": 10, 'b': 2, 'c': 29}; the whole's stabiliser (order 3): category a (1 s)
+   (a): |H| = 36, class of 2, 6 cosets
+   (a): |H| = 12, class of 6, 18 cosets
+   (a): |H| = 9, class of 8, 24 cosets
+   (a): |H| = 3, class of 24, 72 cosets, the whole's stabiliser
+level 81: orbit 648 readings, |G| = 1944, subgroups 1810, classes 100 (525 s)
+   categories: {'a': 8, "a'": 28, 'b': 2, 'c': 62}; the whole's stabiliser (order 3): category a (536 s)
+   (a): |H| = 324, class of 2, 6 cosets
+   (a): |H| = 108, class of 6, 18 cosets
+   (a): |H| = 81, class of 8, 24 cosets
+   (a): |H| = 36, class of 18, 54 cosets
+   (a): |H| = 27, class of 24, 72 cosets
+   (a): |H| = 12, class of 54, 162 cosets
+   (a): |H| = 9, class of 72, 216 cosets
+   (a): |H| = 3, class of 216, 648 cosets, the whole's stabiliser
+DECISIVE: mod 27: 45 classes, 4 in the whole's form, the whole's stabiliser in it: True
+DECISIVE: mod 81: 100 classes, 8 in the whole's form, the whole's stabiliser in it: True
+RESULT: the card's claim holds
