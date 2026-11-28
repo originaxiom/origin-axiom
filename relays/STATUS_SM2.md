@@ -1,7 +1,7 @@
 seat: sm2
 read: M9
 state: waiting on main
-on: Q0008 (verdict opened: ACCEPT)
+on: nothing (Q0008 closed: VERIFIED)
 needs: nothing
 next push: when main writes M10 or another card reaches banking
 
@@ -80,3 +80,4 @@ Read and taken in: Q0008 at banking; done as the checklist says up to the seal (
 SEAL 9e18d39a); the verdict file is held off the branch until a round after both seals are sighted.
 
 VERDICT_Q0008.json (ACCEPT) pushed after the round of 2026-11-28T16:37Z, in which both seals were first sighted.
+Q0008: my verdict first sighted 2026-11-28T16:55Z after both seals; the runner's check held, my script REPRODUCED (2 decisive lines, 28cafe1deb8f89ed); both verdicts ACCEPT; the card is VERIFIED.
