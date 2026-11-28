@@ -477,6 +477,164 @@ def sl2c_eval(word, gmap):
     return cur
 
 
+def _dual_mul(A, B):
+    """Multiply two 2x2 matrices whose entries are dual numbers (val, deriv)."""
+    def dm(x, y):
+        return (x[0] * y[0], x[0] * y[1] + x[1] * y[0])
+    def da(x, y):
+        return (x[0] + y[0], x[1] + y[1])
+    return [
+        da(dm(A[0], B[0]), dm(A[1], B[2])),
+        da(dm(A[0], B[1]), dm(A[1], B[3])),
+        da(dm(A[2], B[0]), dm(A[3], B[2])),
+        da(dm(A[2], B[1]), dm(A[3], B[3])),
+    ]
+
+
+def _dual_inv(A):
+    return [A[3], (-A[1][0], -A[1][1]), (-A[2][0], -A[2][1]), A[0]]
+
+
+def _dual_eval(word, gmap_d):
+    z0 = (mp.mpc(0), mp.mpc(0))
+    o1 = (mp.mpc(1), mp.mpc(0))
+    cur = [o1, z0, z0, o1]
+    for ch in word:
+        g = gmap_d[ch.lower()]
+        cur = _dual_mul(cur, _dual_inv(g) if ch.isupper() else g)
+    return cur
+
+
+def refine_sl2c_canonical_parabolic(m, steps=5):
+    """Conjugate SnapPy ~60-digit sl2c_gens_hp into canonical parabolic gauge
+    (M = sm * [[1, 1], [0, 1]], L = sl * [[1, tau], [0, 1]], pivot generator g_piv[0] == 0)
+    and Newton-refine directly from the exact group relators + parabolicity at mp.dps=420
+    using exact complex dual-number Jacobians to < 1e-340 residual."""
+    gens = m["gens"]
+    ng = len(gens)
+    gmap0 = {g: sl2c_mat_from_hp(m["sl2c_gens_hp"][g]) for g in gens}
+    m_word, l_word = m["periph"][0], m["periph"][1]
+    M0 = sl2c_eval(m_word, gmap0)
+    L0 = sl2c_eval(l_word, gmap0)
+    sm = 1 if mp.re(M0[0] + M0[3]) >= 0 else -1
+    sl = 1 if mp.re(L0[0] + L0[3]) >= 0 else -1
+    rel_sgns = [1 if mp.re(sl2c_eval(r, gmap0)[0] + sl2c_eval(r, gmap0)[3]) >= 0 else -1 for r in m["rels"]]
+
+    # Build conjugator P so P^{-1} M0 P = sm * [[1, 1], [0, 1]]
+    N = [sm * M0[0] - 1, sm * M0[1], sm * M0[2], sm * M0[3] - 1]
+    # Pick non-zero column of N as v1 = N * w; w is standard basis vector giving largest ||N * w||
+    c0_nrm = abs(N[0]) ** 2 + abs(N[2]) ** 2
+    c1_nrm = abs(N[1]) ** 2 + abs(N[3]) ** 2
+    if c0_nrm >= c1_nrm:
+        v1 = (N[0], N[2])
+        v2 = (mp.mpc(1), mp.mpc(0))
+    else:
+        v1 = (N[1], N[3])
+        v2 = (mp.mpc(0), mp.mpc(1))
+    detP = v1[0] * v2[1] - v1[1] * v2[0]
+    P = [v1[0], v2[0], v1[1], v2[1]]
+    Pinv = [v2[1] / detP, -v2[0] / detP, -v1[1] / detP, v1[0] / detP]
+    gmap = {g: sl2c_mul(sl2c_mul(Pinv, gmap0[g]), P) for g in gens}
+
+    # Fix remaining unipotent shift C_v = [[1, v], [0, 1]] so first generator with |c| > 1e-10 has a == 0
+    piv_idx = next(i for i, g in enumerate(gens) if abs(gmap[g][2]) > mp.mpf("1e-10"))
+    gp = gmap[gens[piv_idx]]
+    v_shift = -gp[0] / gp[2]
+    Cv = [mp.mpc(1), v_shift, mp.mpc(0), mp.mpc(1)]
+    Cvi = [mp.mpc(1), -v_shift, mp.mpc(0), mp.mpc(1)]
+    gmap = {g: sl2c_mul(sl2c_mul(Cv, gmap[g]), Cvi) for g in gens}
+
+    # Parameterize SL(2, C) generators (piv_idx has a=0, b=-1/c -> 2 params (c, d);
+    # others have 3 params: (a, b, c) with d=(1+bc)/a if |a| >= |c|, else (a, c, d) with b=(ad-1)/c)
+    modes = []
+    params = []
+    for i, g in enumerate(gens):
+        a, b, c, d = gmap[g]
+        if i == piv_idx:
+            modes.append("piv")
+            params.extend([c, d])
+        elif abs(a) >= abs(c):
+            modes.append("abc")
+            params.extend([a, b, c])
+        else:
+            modes.append("acd")
+            params.extend([a, c, d])
+    n_p = len(params)
+
+    def unpack_dual(p_vec, diff_k):
+        gd = {}
+        pos = 0
+        for i, g in enumerate(gens):
+            md = modes[i]
+            if md == "piv":
+                c = (p_vec[pos], mp.mpc(1 if diff_k == pos else 0))
+                d = (p_vec[pos + 1], mp.mpc(1 if diff_k == pos + 1 else 0))
+                pos += 2
+                # b = -1/c => b' = c' / c^2
+                b = (-1 / c[0], c[1] / (c[0] * c[0]))
+                gd[g] = [(mp.mpc(0), mp.mpc(0)), b, c, d]
+            elif md == "abc":
+                a = (p_vec[pos], mp.mpc(1 if diff_k == pos else 0))
+                b = (p_vec[pos + 1], mp.mpc(1 if diff_k == pos + 1 else 0))
+                c = (p_vec[pos + 2], mp.mpc(1 if diff_k == pos + 2 else 0))
+                pos += 3
+                num_v = 1 + b[0] * c[0]
+                num_d = b[0] * c[1] + b[1] * c[0]
+                d = (num_v / a[0], (num_d * a[0] - num_v * a[1]) / (a[0] * a[0]))
+                gd[g] = [a, b, c, d]
+            else:
+                a = (p_vec[pos], mp.mpc(1 if diff_k == pos else 0))
+                c = (p_vec[pos + 1], mp.mpc(1 if diff_k == pos + 1 else 0))
+                d = (p_vec[pos + 2], mp.mpc(1 if diff_k == pos + 2 else 0))
+                pos += 3
+                num_v = a[0] * d[0] - 1
+                num_d = a[0] * d[1] + a[1] * d[0]
+                b = (num_v / c[0], (num_d * c[0] - num_v * c[1]) / (c[0] * c[0]))
+                gd[g] = [a, b, c, d]
+        return gd
+
+    def eval_residuals(p_vec, diff_k):
+        gd = unpack_dual(p_vec, diff_k)
+        res = []
+        for r_w, rs in zip(m["rels"], rel_sgns):
+            R = _dual_eval(r_w, gd)
+            res.append((R[0][0] - rs, R[0][1]))
+            res.append(R[1])
+            res.append(R[2])
+            res.append((R[3][0] - rs, R[3][1]))
+        Md = _dual_eval(m_word, gd)
+        Ld = _dual_eval(l_word, gd)
+        res.append((Md[0][0] - sm, Md[0][1]))
+        res.append((Md[1][0] - sm, Md[1][1]))
+        res.append(Md[2])
+        res.append((Md[3][0] - sm, Md[3][1]))
+        res.append((Ld[0][0] - sl, Ld[0][1]))
+        res.append(Ld[2])
+        res.append((Ld[3][0] - sl, Ld[3][1]))
+        return res
+
+    for _ in range(steps):
+        r0 = eval_residuals(params, -1)
+        m_eq = len(r0)
+        F = mp.matrix(m_eq, 1)
+        for i in range(m_eq):
+            F[i, 0] = r0[i][0]
+        J = mp.matrix(m_eq, n_p)
+        for k in range(n_p):
+            rk = eval_residuals(params, k)
+            for i in range(m_eq):
+                J[i, k] = rk[i][1]
+        JH = J.T.conjugate()
+        dp = mp.lu_solve(JH * J, -JH * F)
+        params = [params[k] + dp[k, 0] for k in range(n_p)]
+
+    final_gd = unpack_dual(params, -1)
+    gmap_420 = {g: [final_gd[g][k][0] for k in range(4)] for g in gens}
+    max_res = max(abs(x[0]) for x in eval_residuals(params, -1))
+    assert max_res < mp.mpf("1e-300"), f"SL(2,C) Newton residual too large for {m['name']}: {max_res}"
+    return gmap_420, sm, sl, rel_sgns, piv_idx
+
+
 def _f5_trim(p):
     p = [c % 5 for c in p]
     while len(p) > 1 and p[0] == 0:
@@ -667,8 +825,8 @@ def analyze_field_and_arithmeticity(m):
     shape_monic = (coeffs_desc[0] == 1)
 
     # Check exact integrality of pi_1(M)^{(2)} traces: tr(a^2), tr(b^2), tr((ab)^2), tr([a, b])
-    # All pi_1(M)^{(2)} traces lie in k(M) = Q(best_alpha) by Maclachlan-Reid Thm 3.3.4!
-    gmap = {g: sl2c_mat_from_hp(arr) for g, arr in m["sl2c_gens_hp"].items()}
+    # using 420-digit Newton-refined canonical-parabolic SL(2, C) holonomy!
+    gmap_420, _sm, _sl, _rs, _piv = refine_sl2c_canonical_parabolic(m, steps=5)
     gens = m["gens"]
     sq_words = [g + g for g in gens]
     if len(gens) >= 2:
@@ -676,19 +834,17 @@ def analyze_field_and_arithmeticity(m):
     sq_trace_monic = []
     sq_trace_degs = []
     for w in sq_words:
-        Mw = sl2c_eval(w, gmap)
+        Mw = sl2c_eval(w, gmap_420)
         tr_w = Mw[0] + Mw[3]
-        # First express tr_w in Q(best_alpha) at ~60-digit precision of sl2c_gens_hp, then exact charpoly!
-        Pw = None
-        for se in (48, 40, 32):
-            Tw = lll_express_in_basis(tr_w, best_alpha, deg, scale_exp=se, tol_exp=20, max_c_exp=8)
+        # Direct 420-digit LLL minimal polynomial of tr_w (immune to huge non-maximal index [O_K : Z[z_0]]!)
+        # cross-checked with exact_minpoly_in_field when Q(alpha) coordinates are small!
+        Pw = lll_minpoly_complex(tr_w, max_deg=max(deg, 2), scale_exp=360, tol_exp=140, max_c_exp=25)
+        if Pw is None:
+            Tw = lll_express_in_basis(tr_w, best_alpha, deg, scale_exp=360, tol_exp=120, max_c_exp=45)
             if Tw is not None:
                 Pw = exact_minpoly_in_field(Tw, best_poly)
-                break
-        if Pw is None:
-            Pw = lll_minpoly_complex(tr_w, max_deg=min(deg, 16), scale_exp=48, tol_exp=20, max_c_exp=7)
-        if deg == 2:
-            assert Pw is not None, f"Failed trace minpoly for deg-2 manifold {m['name']} word {w}"
+        if deg <= 20:
+            assert Pw is not None, f"Failed 420-digit trace minpoly for {m['name']} word {w}"
         if Pw is not None:
             sq_trace_monic.append(int(Pw.all_coeffs()[0]) == 1)
             sq_trace_degs.append(int(Pw.degree()))
@@ -1107,19 +1263,21 @@ def count_f25_gluing_solutions(m):
 
 
 def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
-    """Map the exact algebraic geometric SL(2, C) holonomy of a 3-gen manifold directly
-    into SL(2, F_25) along every F_25 root of P_M(X) mod 5, verifying exact R_i == I_2,
-    full 2D cusp lattice, |H| > 240, and basis-invariant alpha_Z != beta_j!"""
+    """Map the 420-digit Newton-refined canonical-parabolic SL(2, C) holonomy of a 3-gen
+    manifold directly into SL(2, F_25) along every F_25 root of P_M(X) mod 5 AND every valid
+    Hom(pi_1(M), {+-1}) sign lift satisfying R_i == +I_2, verifying exact R_i == I_2,
+    full 2D cusp lattice, |H| > 240, and basis-invariant alpha_Z != beta_j."""
     if not field_info["has_f25_mod5_factor"]:
         return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False}
 
-    # Reconstruct primitive alpha from 360-digit refined shapes and express ALL 12 SL(2, C) generator matrix entries
     shapes_mpc = refine_shapes_gluing(m, steps=6)
+    gmap_420, _sm, _sl, _rs, piv_idx = refine_sl2c_canonical_parabolic(m, steps=5)
+    gens = m["gens"]
+    ng = len(gens)
     P_desc = field_info["minpoly_desc"]
-    P_poly = sp.Poly(P_desc, X, domain=sp.ZZ)
     deg = field_info["field_degree"]
 
-    # Identify exact alpha matching P_poly
+    # Identify exact alpha matching P_desc
     cands = list(shapes_mpc)
     if len(shapes_mpc) >= 2:
         cands.append(shapes_mpc[0] + 2 * shapes_mpc[1])
@@ -1129,75 +1287,68 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
         ev = mp.mpc(0)
         for coef in P_desc:
             ev = ev * c + coef
-        if abs(ev) < mp.mpf("1e-60"):
+        if abs(ev) < mp.mpf("1e-100"):
             alpha = c
             break
-    if alpha is None:
-        return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "alpha_not_found"}
+    assert alpha is not None, f"alpha_not_found for {m['name']}"
 
-    # Note: SL(2, C) matrix entries (~60-digit) may live in a quadratic extension of the shape field!
-    gens = m["gens"]
-    entry_polys = {}
-    all_in_k = True
-    for g in gens:
-        ep = []
-        for r_s, i_s in m["sl2c_gens_hp"][g]:
-            val = _mpc(r_s, i_s)
-            qp = None
-            for se in (48, 40, 32):
-                qp = lll_express_in_basis(val, alpha, deg, scale_exp=se, tol_exp=20, max_c_exp=8)
-                if qp is not None:
-                    break
-            if qp is None:
-                all_in_k = False
-                break
-            ep.append(qp)
-        if not all_in_k:
-            break
-        entry_polys[g] = ep
+    # Try two canonical gauges: (A) M = sm [[1, 1], [0, 1]] with g_piv[0] = 0;
+    # (B) rescale by diag(1/sqrt(c), sqrt(c)) so g_piv = [[0, -1], [1, d]] (avoids sqrt(c) extension!)
+    # Check both gauges in Q(alpha) at 420 digits!
+    c_piv = gmap_420[gens[piv_idx]][2]
+    sq_c = mp.sqrt(c_piv)
+    D_sc = [1 / sq_c, mp.mpc(0), mp.mpc(0), sq_c]
+    Di_sc = [sq_c, mp.mpc(0), mp.mpc(0), 1 / sq_c]
+    gmap_alt = {g: sl2c_mul(sl2c_mul(D_sc, gmap_420[g]), Di_sc) for g in gens}
 
-    # Find all roots of P_poly in F_25 \ F_5
-    f25_roots = [z for z in range(25) if (z % 5 != 0) and poly_eval_f25(P_desc, z) == F0]
-    if not all_in_k:
-        tr_vals = [_mpc(m["sl2c_gens_hp"][g][0][0], m["sl2c_gens_hp"][g][0][1]) for g in gens]
-        ext_alpha = alpha + 3 * tr_vals[0] + 5 * tr_vals[1]
-        P_ext = lll_minpoly_complex(ext_alpha, max_deg=16, scale_exp=48, tol_exp=20, max_c_exp=7)
-        if P_ext is None:
-            return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "ext_field_high_deg"}
-        P_desc_use = [int(c) for c in P_ext.all_coeffs()]
-        deg_use = int(P_ext.degree())
-        entry_polys = {}
-        ok_ext = True
+    def try_express_gmap(gm, alp_use, deg_use):
+        ep_map = {}
         for g in gens:
             ep = []
-            for r_s, i_s in m["sl2c_gens_hp"][g]:
-                qp = None
-                for se in (48, 40, 32):
-                    qp = lll_express_in_basis(_mpc(r_s, i_s), ext_alpha, deg_use, scale_exp=se, tol_exp=18, max_c_exp=8)
-                    if qp is not None:
-                        break
+            for val in gm[g]:
+                if abs(val) < mp.mpf("1e-250"):
+                    ep.append(sp.Poly(0, X, domain=sp.QQ))
+                    continue
+                qp = lll_express_in_basis(val, alp_use, deg_use, scale_exp=360, tol_exp=120, max_c_exp=50)
                 if qp is None:
-                    ok_ext = False
-                    break
+                    return None
                 ep.append(qp)
-            if not ok_ext:
-                break
-            entry_polys[g] = ep
-        if not ok_ext:
-            return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "ext_express_failed"}
-        f25_roots = [z for z in range(25) if (z % 5 != 0) and poly_eval_f25(P_desc_use, z) == F0]
+            ep_map[g] = ep
+        return ep_map
 
+    entry_polys = try_express_gmap(gmap_420, alpha, deg)
+    P_desc_use = P_desc
+    if entry_polys is None:
+        entry_polys = try_express_gmap(gmap_alt, alpha, deg)
+    if entry_polys is None:
+        # Trace field may be a quadratic extension of shape field k(M): adjoin gmap_alt entries at 420 digits!
+        ext_alpha = alpha + 3 * gmap_alt[gens[0]][3] + 5 * gmap_alt[gens[1]][0] + 7 * gmap_alt[gens[2]][1]
+        P_ext = lll_minpoly_complex(ext_alpha, max_deg=min(36, 2 * deg + 2), scale_exp=360, tol_exp=120, max_c_exp=25)
+        if P_ext is not None:
+            P_desc_use = [int(c) for c in P_ext.all_coeffs()]
+            entry_polys = try_express_gmap(gmap_alt, ext_alpha, int(P_ext.degree()))
+    if entry_polys is None:
+        # Try gmap_420 with quadratic extension
+        ext_alpha2 = alpha + 3 * c_piv + 5 * gmap_420[gens[0]][3]
+        P_ext2 = lll_minpoly_complex(ext_alpha2, max_deg=min(36, 2 * deg + 2), scale_exp=360, tol_exp=120, max_c_exp=25)
+        if P_ext2 is not None:
+            P_desc_use = [int(c) for c in P_ext2.all_coeffs()]
+            entry_polys = try_express_gmap(gmap_420, ext_alpha2, int(P_ext2.degree()))
+    assert entry_polys is not None, f"Failed 420-digit SL(2,C) entry expression for {m['name']}"
+
+    f25_roots = [z for z in range(25) if (z % 5 != 0) and poly_eval_f25(P_desc_use, z) == F0]
     rels_c = [compile_word(r, gens) for r in m["rels"]]
     m_c = compile_word(m["periph"][0], gens)
     l_c = compile_word(m["periph"][1], gens)
     I2 = (F1, F0, F0, F1)
     MI2 = (NEG[F1], F0, F0, NEG[F1])
 
+    seen_reps = set()
     hits = 0
     kills_128 = False
     kills_248 = False
     for r_f25 in f25_roots:
-        mats = []
+        base_mats = []
         bad_den = False
         for g in gens:
             mv = []
@@ -1213,36 +1364,65 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
             if det != F1:
                 bad_den = True
                 break
-            mats.append(tuple(mv))
+            base_mats.append(tuple(mv))
         if bad_den:
             continue
-        if not all(sl2_f25_eval_gen(rc, mats) == I2 for rc in rels_c):
-            continue
-        M = sl2_f25_eval_gen(m_c, mats)
-        L = sl2_f25_eval_gen(l_c, mats)
-        trM, trL = ADD[M[0]][M[3]], ADD[L[0]][L[3]]
-        if trM not in (F2, FM2) or trL not in (F2, FM2):
-            continue
-        if M in (I2, MI2) or L in (I2, MI2):
-            continue
-        sm = 1 if trM == F2 else -1
-        sl = 1 if trL == F2 else -1
-        if (sm, sl) == (1, 1):
-            continue
-        nm = [SUB[M[0] if sm == 1 else NEG[M[0]]][F1], M[1] if sm == 1 else NEG[M[1]],
-              M[2] if sm == 1 else NEG[M[2]], SUB[M[3] if sm == 1 else NEG[M[3]]][F1]]
-        nl = [SUB[L[0] if sl == 1 else NEG[L[0]]][F1], L[1] if sl == 1 else NEG[L[1]],
-              L[2] if sl == 1 else NEG[L[2]], SUB[L[3] if sl == 1 else NEG[L[3]]][F1]]
-        k0 = next(k for k in range(4) if nm[k] != F0)
-        tau = MUL[nl[k0]][INV[nm[k0]]]
-        if (tau % 5) != 0 and all(nl[k] == MUL[tau][nm[k]] for k in range(4)) and sl2_f25_exceeds_240(mats):
-            hits += 1
-            kills_128 = True
-            alpha_Z = (0 if sm == 1 else 1, 0 if sl == 1 else 1)
-            for om, ol in c4_ord_pairs:
-                beta_j = (1 if om == 4 else 0, 1 if ol == 4 else 0)
-                if alpha_Z != beta_j:
-                    kills_248 = True
+        # Test ALL 2^ng SL(2) sign lifts (Hom(pi_1(M), {+-1})) satisfying exact R_i == +I_2!
+        for signs in itertools.product((1, -1), repeat=ng):
+            mats = tuple(
+                bm if sg == 1 else (NEG[bm[0]], NEG[bm[1]], NEG[bm[2]], NEG[bm[3]])
+                for bm, sg in zip(base_mats, signs)
+            )
+            if mats in seen_reps:
+                continue
+            if not all(sl2_f25_eval_gen(rc, mats) == I2 for rc in rels_c):
+                continue
+            M = sl2_f25_eval_gen(m_c, mats)
+            L = sl2_f25_eval_gen(l_c, mats)
+            trM, trL = ADD[M[0]][M[3]], ADD[L[0]][L[3]]
+            if trM not in (F2, FM2) or trL not in (F2, FM2):
+                continue
+            if M in (I2, MI2) or L in (I2, MI2):
+                continue
+            sm_f = 1 if trM == F2 else -1
+            sl_f = 1 if trL == F2 else -1
+            nm = [SUB[M[0] if sm_f == 1 else NEG[M[0]]][F1], M[1] if sm_f == 1 else NEG[M[1]],
+                  M[2] if sm_f == 1 else NEG[M[2]], SUB[M[3] if sm_f == 1 else NEG[M[3]]][F1]]
+            nl = [SUB[L[0] if sl_f == 1 else NEG[L[0]]][F1], L[1] if sl_f == 1 else NEG[L[1]],
+                  L[2] if sl_f == 1 else NEG[L[2]], SUB[L[3] if sl_f == 1 else NEG[L[3]]][F1]]
+            k0 = next(k for k in range(4) if nm[k] != F0)
+            tau = MUL[nl[k0]][INV[nm[k0]]]
+            if (tau % 5) != 0 and all(nl[k] == MUL[tau][nm[k]] for k in range(4)) and sl2_f25_exceeds_240(mats):
+                # Canonicalize modulo PGL(2, F_25) to unique (M = sm [[1, 1], [0, 1]], g_piv[0] = 0) gauge!
+                # First conjugate M to upper triangular sm [[1, 1], [0, 1]] via P_mat in GL(2, F_25)
+                if nm[0] != F0 or nm[2] != F0:
+                    v1 = (nm[0], nm[2])
+                    v2 = (F1, F0)
+                else:
+                    v1 = (nm[1], nm[3])
+                    v2 = (F0, F1)
+                detP = SUB[MUL[v1[0]][v2[1]]][MUL[v1[1]][v2[0]]]
+                inv_dP = INV[detP]
+                P_f = (v1[0], v2[0], v1[1], v2[1])
+                Pi_f = (MUL[v2[1]][inv_dP], MUL[NEG[v2[0]]][inv_dP], MUL[NEG[v1[1]]][inv_dP], MUL[v1[0]][inv_dP])
+                c_mats = [sl2_f25_mul(sl2_f25_mul(Pi_f, g), P_f) for g in mats]
+                # Shift by [[1, v], [0, 1]] so first non-upper-triangular generator has [0] == 0
+                p0 = next(idx for idx, g in enumerate(c_mats) if g[2] != F0)
+                v_sh = MUL[NEG[c_mats[p0][0]]][INV[c_mats[p0][2]]]
+                Cv_f = (F1, v_sh, F0, F1)
+                Cvi_f = (F1, NEG[v_sh], F0, F1)
+                canon = tuple(sl2_f25_mul(sl2_f25_mul(Cv_f, g), Cvi_f) for g in c_mats)
+                if canon in seen_reps:
+                    continue
+                seen_reps.add(canon)
+                hits += 1
+                if (sm_f, sl_f) != (1, 1):
+                    kills_128 = True
+                    alpha_Z = (0 if sm_f == 1 else 1, 0 if sl_f == 1 else 1)
+                    for om, ol in c4_ord_pairs:
+                        beta_j = (1 if om == 4 else 0, 1 if ol == 4 else 0)
+                        if alpha_Z != beta_j:
+                            kills_248 = True
 
     return {"geom_f25_hits": hits, "kills_128": kills_128, "kills_248": kills_248}
 
