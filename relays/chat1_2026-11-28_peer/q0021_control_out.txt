@@ -1,0 +1,5 @@
+DECISIVE: F1 |G_T| = 96; scalar exponents (of zeta_24) [0, 6, 12, 18]; det = chi_eta^9 at t, s: (True, True); as the card says: True
+DECISIVE: F2 SU3-free 16/64; SU2-free 0 (values [6, 12, 18]); gravity-free 0/16, 0 without nu^c; I-31: n_SU3 = 12, K_W mod 4 in [2], free on Z: False; Z-free 0/64; I-31 cubic A = 17; cubic-free 0/64; as the card says: False
+DECISIVE: F3 c = 0 mod 24 iff m = 5 - r mod 8: True; admissible whole units at the allowed twists: []; as the card says: True
+DECISIVE: F4 w(27) = (6, 6, 27), w(16) = (4, 4, 16); K2 vanishes on the 27 at c = [0] and on the 16 at c = [0, 6, 12, 18]; as the card says: True
+CONTROL: the checks caught the error made on purpose
