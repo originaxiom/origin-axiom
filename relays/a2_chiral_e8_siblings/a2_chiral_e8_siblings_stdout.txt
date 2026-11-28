@@ -1,5 +1,5 @@
 DECISIVE: C1_ARITH ok=True arith6=1 arith10=1 degs6=[2, 15, 13, 14, 14, 10] m004_arith=True
 DECISIVE: C2_FOX_2T sl3z_ok=True rigid6=6 m004_h1=[1] m004_h1par=[0]
 DECISIVE: C3_CHIRAL chiral6=5 cs_chiral6=5 cusp_chiral6=5
-DECISIVE: C4_3GEN total18=18 with2T=10 H1Z=4 H1Z_2T=3 geom248=1 exh248_H1Z_2T=1
+DECISIVE: C4_3GEN total18=18 with2T=10 H1Z=4 H1Z_2T=3 geom248=6 exh248_H1Z_2T=1
 DECISIVE: SUMMARY all_ok=True PF=5/5 floats=0/0

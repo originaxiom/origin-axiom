@@ -112,7 +112,7 @@
         ]
       },
       "m266": {
-        "all_sq_traces_integral": false,
+        "all_sq_traces_integral": true,
         "disc_mod5": 3,
         "field_degree": 15,
         "gluing_symbolically_certified": true,
@@ -157,11 +157,11 @@
           true,
           true,
           true,
-          false
+          true
         ]
       },
       "s070": {
-        "all_sq_traces_integral": false,
+        "all_sq_traces_integral": true,
         "disc_mod5": 4,
         "field_degree": 15,
         "gluing_symbolically_certified": true,
@@ -203,13 +203,13 @@
         ],
         "sq_trace_monic": [
           true,
-          false,
+          true,
           true,
           true
         ]
       },
       "s099": {
-        "all_sq_traces_integral": false,
+        "all_sq_traces_integral": true,
         "disc_mod5": 0,
         "field_degree": 14,
         "gluing_symbolically_certified": true,
@@ -250,10 +250,10 @@
           14
         ],
         "sq_trace_monic": [
-          false,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true
         ]
       },
       "s136": {
@@ -303,7 +303,7 @@
         ]
       },
       "s447": {
-        "all_sq_traces_integral": false,
+        "all_sq_traces_integral": true,
         "disc_mod5": 3,
         "field_degree": 14,
         "gluing_symbolically_certified": true,
@@ -343,14 +343,14 @@
           14
         ],
         "sq_trace_monic": [
-          false,
           true,
-          false,
-          false
+          true,
+          true,
+          true
         ]
       },
       "s560": {
-        "all_sq_traces_integral": false,
+        "all_sq_traces_integral": true,
         "disc_mod5": 0,
         "field_degree": 14,
         "gluing_symbolically_certified": true,
@@ -391,9 +391,9 @@
         ],
         "sq_trace_monic": [
           true,
-          false,
-          false,
-          false
+          true,
+          true,
+          true
         ]
       },
       "s820": {
@@ -1057,12 +1057,22 @@
       "s754"
     ],
     "geom_lock248": [
-      "s882"
+      "m201",
+      "m207",
+      "s556",
+      "s754",
+      "s882",
+      "s961"
     ],
     "geom_lock248_2T": [
+      "m207",
+      "s556",
+      "s754",
       "s882"
     ],
-    "geom_lock248_H1Z_2T": [],
+    "geom_lock248_H1Z_2T": [
+      "s754"
+    ],
     "per_manifold": {
       "m201": {
         "c4_ord_pairs": [
@@ -1074,9 +1084,9 @@
         "f5_gluing_sols": 1,
         "field_degree": 5,
         "geom_f25_reduction": {
-          "geom_f25_hits": 0,
-          "kills_128": false,
-          "kills_248": false
+          "geom_f25_hits": 4,
+          "kills_128": true,
+          "kills_248": true
         },
         "h1_is_Z": true,
         "h1_torsion": [],
@@ -1096,10 +1106,9 @@
         "f5_gluing_sols": 0,
         "field_degree": 2,
         "geom_f25_reduction": {
-          "geom_f25_hits": 0,
-          "kills_128": false,
-          "kills_248": false,
-          "note": "ext_express_failed"
+          "geom_f25_hits": 4,
+          "kills_128": true,
+          "kills_248": true
         },
         "h1_is_Z": false,
         "h1_torsion": [
@@ -1218,9 +1227,9 @@
         "f5_gluing_sols": 0,
         "field_degree": 14,
         "geom_f25_reduction": {
-          "geom_f25_hits": 0,
-          "kills_128": false,
-          "kills_248": false
+          "geom_f25_hits": 4,
+          "kills_128": true,
+          "kills_248": true
         },
         "h1_is_Z": false,
         "h1_torsion": [
@@ -1312,9 +1321,9 @@
         "f5_gluing_sols": 0,
         "field_degree": 27,
         "geom_f25_reduction": {
-          "geom_f25_hits": 0,
-          "kills_128": false,
-          "kills_248": false
+          "geom_f25_hits": 4,
+          "kills_128": true,
+          "kills_248": true
         },
         "h1_is_Z": true,
         "h1_torsion": [],
@@ -1336,8 +1345,7 @@
         "geom_f25_reduction": {
           "geom_f25_hits": 0,
           "kills_128": false,
-          "kills_248": false,
-          "note": "ext_express_failed"
+          "kills_248": false
         },
         "h1_is_Z": false,
         "h1_torsion": [
@@ -1407,7 +1415,7 @@
         "f5_gluing_sols": 4,
         "field_degree": 4,
         "geom_f25_reduction": {
-          "geom_f25_hits": 4,
+          "geom_f25_hits": 8,
           "kills_128": true,
           "kills_248": true
         },
@@ -1477,10 +1485,9 @@
         "f5_gluing_sols": 3,
         "field_degree": 2,
         "geom_f25_reduction": {
-          "geom_f25_hits": 0,
-          "kills_128": false,
-          "kills_248": false,
-          "note": "ext_express_failed"
+          "geom_f25_hits": 16,
+          "kills_128": true,
+          "kills_248": true
         },
         "h1_is_Z": false,
         "h1_torsion": [
