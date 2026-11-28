@@ -1,0 +1,18 @@
+{
+  "ast_float_complex_literals": 0,
+  "card": "AGY-C70-COUNTERCHECK",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "e1_disjoint_alt_section_verified": true,
+  "e2_compressed_sector_subspaces_verified": true,
+  "e3_reciprocal_chart_moser_and_5term_twist_verified": true,
+  "referee_planted_fault_controls": {
+    "RPF1_reciprocal_chart_naive_linear_nonzero_caught": true,
+    "RPF2_undivided_legendre_valuation_misses_k6_caught": true,
+    "RPF3_r0_bundle_collapse_kills_index_caught": true,
+    "RPF4_r2_bundle_orientation_inverts_index_caught": true,
+    "RPF5_p3_vs_p5_bundle_moment_chirality_dichotomy_caught": true
+  },
+  "rpf_caught": 5,
+  "shared_code_imports": 0
+}
