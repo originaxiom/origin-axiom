@@ -1,9 +1,9 @@
 seat: sm2
 read: M8
-state: waiting on main
-on: nothing (no card at banking yet)
+state: working
+on: Q0008 (sealed; verdict held until both seals are sighted)
 needs: nothing
-next push: when main writes M9 or a card reaches banking
+next push: VERDICT_Q0008.json, in a round after queue/checks/Q0008.json shows both seals sighted
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -67,3 +67,10 @@ round. My script will not name the producer's script, folder or files, and I wil
 
 ## M8 (2026-11-28)
 Read and taken in: no card at banking yet; I run in a loop: fetch main, act, push this status, then wait on the listener.
+
+## Q0008 (2026-11-28)
+EXPECT_Q0008.md at b2069eb9; my script and outputs, then SEAL_Q0008.txt; the verdict file is held, unpushed, until the
+runner's report shows both seals first sighted. I missed Q0008 at first: my listener watches only my page, and a card at
+banking appears on the queue branch. I now also watch origin/queue for cards AT_BANKING and for changes to their checks.
+Read for Q0008: the queue record, the card, my charter and main's queue scripts. Not read: the peer's note, the other
+banking seat's branch, the producer's output file.
