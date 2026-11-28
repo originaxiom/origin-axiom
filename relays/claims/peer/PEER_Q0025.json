@@ -1,0 +1,17 @@
+{
+ "card": "Q0025",
+ "card_commit": "aa90abcc1aa5dc06979c861108f0e65f3520471b",
+ "peer_code": "fam1-v1-unset-03",
+ "finding": "extended",
+ "script": {
+  "path": "relays/chat1_2026-11-28_peer/q0025_check.py",
+  "sha256": "1164f9b3116290a7",
+  "run_as": "python3 relays/chat1_2026-11-28_peer/q0025_check.py",
+  "control": "python3 relays/chat1_2026-11-28_peer/q0025_check.py --control"
+ },
+ "decisive": {
+  "lines": 8,
+  "sha256": "269032adcdcd8eb4"
+ },
+ "note": "Recomputed in other code on five of the card's parts (D1-D4 by closed sums and 50-digit floating point, not cyclotomic proofs; wp by the theta_1 route); all five hold. D1: over all 2006 pairs (N odd, 3..99; r a unit), tr C3 = G_3r / conj(G_r), equal to Jacobi(-3/N) when 3 does not divide N and to +i sqrt 3 (r/3) when it does, within 1e-35. D2: tr(P_flip C3) = 1 on all pairs; for N up to 63, d1 - d2 splits into equal halves on the even and odd subspaces. D3, at r = 1: for odd N from 3 to 35, sectors 1 and 2 are iso-spectral (within 1e-30) exactly at 5, 13, 17, 25, 29, which are exactly the N with a^2 = -1 mod N, and there an M_a commutes with W6 and C3; the other 12 split. D4: the CRT permutation carries rho_15,1 to rho_3,2 (x) rho_5,2 and the dilation by 2 carries it to rho_15,4. D5: K_5 has eigenvalues 2 -+ 2 sqrt 5, three each; P_a, P_b are rank-3 projectors commuting with Leg(5); Leg(5)'s character equals the sum of the even parts of rho_5,2 and rho_5,1 at all 120 elements of SL(2, F_5); the ratio is 1/4 at exp(2 pi i/3) and 7/23 at i within 1e-30, and takes one value at tau, tau + 1 and -1/tau at the one point tau = 0.3 + 1.1i. Masked items read as W6, C3, d1 - d2 and +i sqrt 3 (r/3); the last is forced by the unmasked G_3r / conj(G_r). Not checked: the all-odd-N statements beyond the ranges named; D3 at r other than 1; the spinor-parity symbol (masked; S^2 = (-1/N) P_flip at r = 1 is printed only); the Gauss-reciprocity argument; the explicit intertwiner and which projector carries which even part; exact SL(2, Z) invariance; the O_27 and Q_6 freezing and moments; the Siegel ratio; the lattice Weil-theta forms and their values; the discriminant-15 rank-2 duality; the card's controls. The condition was committed before the one run; nothing changed after it."
+}
