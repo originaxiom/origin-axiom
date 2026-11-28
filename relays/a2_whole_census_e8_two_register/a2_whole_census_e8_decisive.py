@@ -486,134 +486,251 @@ def analyze_d5_bd5_manifold(m):
     }
 
 
+# Exact discrete log in F_25^* ~= Z/24Z (find primitive root g of order 24)
+_PRIM_G = -1
+for _cand in range(1, 25):
+    _cur = _cand
+    _ord = 1
+    while _cur != F1:
+        _cur = MUL[_cur][_cand]
+        _ord += 1
+    if _ord == 24:
+        _PRIM_G = _cand
+        break
+assert _PRIM_G != -1
+DLOG = [-1] * 25
+_cur = F1
+for _e in range(24):
+    DLOG[_cur] = _e
+    _cur = MUL[_cur][_PRIM_G]
+assert DLOG[F1] == 0 and DLOG[NEG[F1]] == 12
+
 # ============================================================================
 # 5. Module Q3: Exact Thurston Gluing over F_25\{0,1} + Exact Fricke SL(2, F_25)
 # ============================================================================
 def solve_gluing_f25(gluing_rect, num_tet):
-    r"""Exact Meet-in-the-Middle solver over F_25\{0,1} for Thurston rectangular gluing
-    equations prod_j z_j^{a_j} (1 - z_j)^{b_j} = sign (sign in {1, -1}).
-    Splits t <= 6 variables into L (<= 3) and R (<= 3), guaranteeing O(23^3) worst-case.
+    r"""Exact Meet-in-the-Middle solver over F_25\{0,1} in discrete-log Z/24Z coordinates
+    for Thurston rectangular gluing equations sum_j (a_j dlog(z_j) + b_j dlog(1-z_j)) == rhs (mod 24).
+    Chooses the C(t, t//2) L/R split maximizing L-only + R-only equations for early pruning.
     Returns (has_F5_sol, has_F25_strict_sol)."""
     if not gluing_rect or num_tet == 0:
         return (False, False)
 
-    _MUL = MUL
-    _INV = INV
-    _POW = POW24
-    _OMZ = OMZ
     dom = [z for z in range(1, 25) if z != F1]  # 23 values in F_25 \ {0, 1}
-    is_f5 = [(z % 5 == 0) for z in range(25)]
+    is_nf5 = [0 if (z % 5 == 0) else 1 for z in dom]
+    dz = [DLOG[z] for z in dom]
+    doz = [DLOG[OMZ[z]] for z in dom]
 
     eqs = []
     for a_row, b_row, sgn in gluing_rect:
         row_a = [a_row[j] % 24 for j in range(num_tet)]
         row_b = [b_row[j] % 24 for j in range(num_tet)]
         if any(row_a) or any(row_b):
-            rhs = F1 if sgn == 1 else NEG[F1]
+            rhs = 0 if sgn == 1 else 12
             eqs.append((row_a, row_b, rhs))
 
     m_eq = len(eqs)
     if m_eq == 0:
         return (True, True)
 
-    mid = num_tet // 2
-    nL = mid
-    nR = num_tet - mid
+    # Pick optimal split L_vars (size t//2), R_vars (rest) maximizing L_only + R_only equations
+    nL = num_tet // 2
+    best_split = None
+    best_score = -1
+    all_vars = tuple(range(num_tet))
+    for L_vars in itertools.combinations(all_vars, nL):
+        L_set = set(L_vars)
+        R_vars = tuple(v for v in all_vars if v not in L_set)
+        l_only = [i for i in range(m_eq) if all(eqs[i][0][j] == 0 and eqs[i][1][j] == 0 for j in R_vars)]
+        r_only = [i for i in range(m_eq) if all(eqs[i][0][j] == 0 and eqs[i][1][j] == 0 for j in L_vars)]
+        sc = len(l_only) + len(r_only)
+        if sc > best_score:
+            best_score = sc
+            best_split = (L_vars, R_vars, l_only, r_only)
 
-    # Precompute packed multiplication factors per variable j and value z in dom:
-    # For variable j in 0..num_tet-1, val_j[z] = tuple of length m_eq giving z^a_ij (1-z)^b_ij
-    val_L = []
-    for j in range(nL):
-        tab = []
-        for z in dom:
-            row = []
-            oz = _OMZ[z]
-            for i in range(m_eq):
-                ra, rb, _ = eqs[i]
-                v = F1
-                if ra[j]:
-                    v = _MUL[v][_POW[z][ra[j]]]
-                if rb[j]:
-                    v = _MUL[v][_POW[oz][rb[j]]]
-                row.append(v)
-            tab.append((tuple(row), 0 if is_f5[z] else 1))
-        val_L.append(tab)
-
-    val_R = []
-    for j in range(nL, num_tet):
-        tab = []
-        for z in dom:
-            row = []
-            oz = _OMZ[z]
-            for i in range(m_eq):
-                ra, rb, _ = eqs[i]
-                v = F1
-                if ra[j]:
-                    v = _MUL[v][_POW[z][ra[j]]]
-                if rb[j]:
-                    v = _MUL[v][_POW[oz][rb[j]]]
-                # Store inverse for R-side lookup rhs * inv(Q(R))
-                row.append(_INV[v])
-            tab.append((tuple(row), 0 if is_f5[z] else 1))
-        val_R.append(tab)
-
-    rhs_vec = tuple(eqs[i][2] for i in range(m_eq))
-    ones_vec = (F1,) * m_eq
-
-    # Identify equations that depend ONLY on L or ONLY on R for early pruning
-    L_only = [i for i in range(m_eq) if all(eqs[i][0][j] == 0 and eqs[i][1][j] == 0 for j in range(nL, num_tet))]
-    R_only = [i for i in range(m_eq) if all(eqs[i][0][j] == 0 and eqs[i][1][j] == 0 for j in range(nL))]
+    L_vars, R_vars, L_only, R_only = best_split
     shared = [i for i in range(m_eq) if i not in L_only and i not in R_only]
+    nS = len(shared)
+    nLo = len(L_only)
+    nRo = len(R_only)
+    nR = len(R_vars)
 
-    # Enumerate L-half (<= 23^3 = 12,167 states) into dict: key_int -> bitmask (1=allF5, 2=hasNonF5)
+    # Precompute integer dlog contributions mod 24:
+    # For each variable j in L_vars: lo_L[idx][z_i] (len nLo) and sh_L[idx][z_i] (len nS)
+    def make_side(vlist, only_eqs, negate_sh):
+        o_tabs = []
+        s_tabs = []
+        for j in vlist:
+            ot = []
+            st = []
+            for zi in range(23):
+                d1, d2 = dz[zi], doz[zi]
+                ot.append(tuple((eqs[i][0][j] * d1 + eqs[i][1][j] * d2) % 24 for i in only_eqs))
+                if negate_sh:
+                    st.append(tuple((-(eqs[i][0][j] * d1 + eqs[i][1][j] * d2)) % 24 for i in shared))
+                else:
+                    st.append(tuple((eqs[i][0][j] * d1 + eqs[i][1][j] * d2) % 24 for i in shared))
+            o_tabs.append(ot)
+            s_tabs.append(st)
+        return o_tabs, s_tabs
+
+    lo_L, sh_L = make_side(L_vars, L_only, False)
+    ro_R, sh_R = make_side(R_vars, R_only, True)
+    rhs_Lo = tuple(eqs[i][2] for i in L_only)
+    rhs_Ro = tuple(eqs[i][2] for i in R_only)
+    rhs_S = tuple(eqs[i][2] for i in shared)
+
+    # Build left_map: pack shared tuple (mod 24 each, 5 bits per coord) into one int key!
     left_map = {}
 
-    def enum_L(idx, vec, has_nf5):
-        if idx == nL:
-            for i in L_only:
-                if vec[i] != rhs_vec[i]:
-                    return
-            key = 0
-            for i in shared:
-                key = key * 25 + vec[i]
-            bit = 2 if has_nf5 else 1
-            left_map[key] = left_map.get(key, 0) | bit
-            return
-        for row, nf5 in val_L[idx]:
-            nv = tuple(_MUL[vec[i]][row[i]] for i in range(m_eq))
-            enum_L(idx + 1, nv, has_nf5 or nf5)
+    def enum_side_L():
+        if nL == 1:
+            o0, s0 = lo_L[0], sh_L[0]
+            for z0 in range(23):
+                if nLo and o0[z0] != rhs_Lo:
+                    continue
+                k = 0
+                for v in s0[z0]:
+                    k = (k << 5) | v
+                bit = 2 if is_nf5[z0] else 1
+                left_map[k] = left_map.get(k, 0) | bit
+        elif nL == 2:
+            o0, o1 = lo_L[0], lo_L[1]
+            s0, s1 = sh_L[0], sh_L[1]
+            for z0 in range(23):
+                oz0, sz0, nf0 = o0[z0], s0[z0], is_nf5[z0]
+                for z1 in range(23):
+                    if nLo:
+                        oz1 = o1[z1]
+                        bad = False
+                        for c in range(nLo):
+                            if (oz0[c] + oz1[c]) % 24 != rhs_Lo[c]:
+                                bad = True
+                                break
+                        if bad:
+                            continue
+                    sz1 = s1[z1]
+                    k = 0
+                    for c in range(nS):
+                        k = (k << 5) | ((sz0[c] + sz1[c]) % 24)
+                    bit = 2 if (nf0 or is_nf5[z1]) else 1
+                    left_map[k] = left_map.get(k, 0) | bit
+        else:
+            assert nL == 3
+            o0, o1, o2 = lo_L[0], lo_L[1], lo_L[2]
+            s0, s1, s2 = sh_L[0], sh_L[1], sh_L[2]
+            for z0 in range(23):
+                oz0, sz0, nf0 = o0[z0], s0[z0], is_nf5[z0]
+                for z1 in range(23):
+                    oz01 = [(oz0[c] + o1[z1][c]) % 24 for c in range(nLo)] if nLo else None
+                    sz01 = [(sz0[c] + s1[z1][c]) % 24 for c in range(nS)]
+                    nf01 = nf0 or is_nf5[z1]
+                    for z2 in range(23):
+                        if nLo:
+                            oz2 = o2[z2]
+                            bad = False
+                            for c in range(nLo):
+                                if (oz01[c] + oz2[c]) % 24 != rhs_Lo[c]:
+                                    bad = True
+                                    break
+                            if bad:
+                                continue
+                        sz2 = s2[z2]
+                        k = 0
+                        for c in range(nS):
+                            k = (k << 5) | ((sz01[c] + sz2[c]) % 24)
+                        bit = 2 if (nf01 or is_nf5[z2]) else 1
+                        left_map[k] = left_map.get(k, 0) | bit
 
-    enum_L(0, ones_vec, 0)
+    enum_side_L()
     if not left_map:
         return (False, False)
 
-    # Enumerate R-half (<= 23^3 = 12,167 states) and probe left_map in O(1)
-    res = [False, False]  # [has_F5, has_F25_strict]
+    has_f5 = False
+    has_f25 = False
 
-    def enum_R(idx, vec, has_nf5):
-        if res[0] and res[1]:
-            return
-        if idx == nR:
-            for i in R_only:
-                # vec[i] = rhs_i * inv(Q_i(R)); eq holds iff vec[i] == F1!
-                if vec[i] != F1:
-                    return
-            key = 0
-            for i in shared:
-                key = key * 25 + vec[i]
-            mask = left_map.get(key, 0)
+    if nR == 1:
+        o0, s0 = ro_R[0], sh_R[0]
+        for z0 in range(23):
+            if nRo and o0[z0] != rhs_Ro:
+                continue
+            k = 0
+            for c in range(nS):
+                k = (k << 5) | ((rhs_S[c] + s0[z0][c]) % 24)
+            mask = left_map.get(k, 0)
             if mask:
-                if not has_nf5 and (mask & 1):
-                    res[0] = True
-                if has_nf5 or (mask & 2):
-                    res[1] = True
-            return
-        for row, nf5 in val_R[idx]:
-            nv = tuple(_MUL[vec[i]][row[i]] for i in range(m_eq))
-            enum_R(idx + 1, nv, has_nf5 or nf5)
+                nf = is_nf5[z0]
+                if not nf and (mask & 1):
+                    has_f5 = True
+                if nf or (mask & 2):
+                    has_f25 = True
+                if has_f5 and has_f25:
+                    return (True, True)
+    elif nR == 2:
+        o0, o1 = ro_R[0], ro_R[1]
+        s0, s1 = sh_R[0], sh_R[1]
+        for z0 in range(23):
+            oz0, nf0 = o0[z0], is_nf5[z0]
+            sz0 = [(rhs_S[c] + s0[z0][c]) % 24 for c in range(nS)]
+            for z1 in range(23):
+                if nRo:
+                    oz1 = o1[z1]
+                    bad = False
+                    for c in range(nRo):
+                        if (oz0[c] + oz1[c]) % 24 != rhs_Ro[c]:
+                            bad = True
+                            break
+                    if bad:
+                        continue
+                sz1 = s1[z1]
+                k = 0
+                for c in range(nS):
+                    k = (k << 5) | ((sz0[c] + sz1[c]) % 24)
+                mask = left_map.get(k, 0)
+                if mask:
+                    nf = nf0 or is_nf5[z1]
+                    if not nf and (mask & 1):
+                        has_f5 = True
+                    if nf or (mask & 2):
+                        has_f25 = True
+                    if has_f5 and has_f25:
+                        return (True, True)
+    else:
+        assert nR == 3
+        o0, o1, o2 = ro_R[0], ro_R[1], ro_R[2]
+        s0, s1, s2 = sh_R[0], sh_R[1], sh_R[2]
+        for z0 in range(23):
+            oz0, nf0 = o0[z0], is_nf5[z0]
+            sz0 = [(rhs_S[c] + s0[z0][c]) % 24 for c in range(nS)]
+            for z1 in range(23):
+                oz01 = [(oz0[c] + o1[z1][c]) % 24 for c in range(nRo)] if nRo else None
+                sz01 = [(sz0[c] + s1[z1][c]) % 24 for c in range(nS)]
+                nf01 = nf0 or is_nf5[z1]
+                for z2 in range(23):
+                    if nRo:
+                        oz2 = o2[z2]
+                        bad = False
+                        for c in range(nRo):
+                            if (oz01[c] + oz2[c]) % 24 != rhs_Ro[c]:
+                                bad = True
+                                break
+                        if bad:
+                            continue
+                    sz2 = s2[z2]
+                    k = 0
+                    for c in range(nS):
+                        k = (k << 5) | ((sz01[c] + sz2[c]) % 24)
+                    mask = left_map.get(k, 0)
+                    if mask:
+                        nf = nf01 or is_nf5[z2]
+                        if not nf and (mask & 1):
+                            has_f5 = True
+                        if nf or (mask & 2):
+                            has_f25 = True
+                        if has_f5 and has_f25:
+                            return (True, True)
 
-    enum_R(0, rhs_vec, 0)
-    return (res[0], res[1])
+    return (has_f5, has_f25)
 
 
 def build_all_irred_sl2_f25():
