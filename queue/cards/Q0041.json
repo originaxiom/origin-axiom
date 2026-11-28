@@ -5,8 +5,8 @@
  "commit": "1c5b13d0ae6b63239276b9720844d7cc9a5d8d6c",
  "card_path": "relays/claims/CLAIM_2026-11-27_order_30_whole_instrument_refiled.md",
  "title": "at order 30 the 240 pairs of points whose first coordinate has a 5-part are all aligned and hierarchical, converged, in exactly the act's line's 12 classes at 5 times its sizes",
- "status": "FILED",
- "deciding": null,
+ "status": "OFFERED",
+ "deciding": true,
  "heavy": false,
  "refiles": [],
  "history": [
@@ -15,6 +15,18 @@
    "status": "FILED",
    "by": "runner",
    "note": "found on its branch"
+  },
+  {
+   "at": "2026-11-28T17:19:23Z",
+   "status": "REPRODUCED",
+   "by": "runner",
+   "note": "the rerun at the sealed commit: 6 decisive lines, hash b5ae2acb217890bc; the control exited 1; guard: sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]"
+  },
+  {
+   "at": "2026-11-28T17:19:23Z",
+   "status": "OFFERED",
+   "by": "runner",
+   "note": "offered to fam2-v1-unset-01 on audit/physical-bridge-2026-09-05 (queue/OFFERS.json)"
   }
  ]
 }

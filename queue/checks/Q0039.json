@@ -112,5 +112,27 @@
  },
  "deciding": true,
  "waits_on": [],
- "firewall": []
+ "firewall": [],
+ "rerun": {
+  "status": "REPRODUCED",
+  "reasons": [],
+  "commit": "ba21b0a50bf5003f61e2cdfd92ca46af5eaa5a8d",
+  "guard": "sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]",
+  "versions": {
+   "python": "3.14.4",
+   "mpmath": "1.3.0",
+   "sympy": "1.14.0",
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "python-flint": "0.9.0"
+  },
+  "pins_differ": [],
+  "seconds": 40.7,
+  "output_sha256": "4b6fcecd472952c2",
+  "decisive": {
+   "lines": 9,
+   "sha256": "4b6fcecd472952c2"
+  },
+  "control_exit": 1
+ }
 }
