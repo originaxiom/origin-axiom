@@ -1,9 +1,9 @@
 seat: sm2
 read: M9
-state: working
-on: Q0001, Q0002, Q0013 sealed (verdicts held until both seals are sighted); next Q0014
+state: waiting on main
+on: Q0001, Q0002, Q0013, Q0014 sealed; verdicts held until both seals of each are sighted
 needs: nothing
-next push: VERDICT_Q0001 after both seals are sighted; EXPECT_Q0002 now
+next push: each VERDICT in a round after both its seals are sighted
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -84,3 +84,4 @@ Q0008: my verdict first sighted 2026-11-28T16:55Z after both seals; the runner's
 Q0001: EXPECT 6763007b; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
 Q0002: EXPECT 37759dc6; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
 Q0013: EXPECT 89cc75df; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
+Q0014: EXPECT 82ce4b16; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
