@@ -1,0 +1,13 @@
+(not decisive) p589c_exact_rows's capture equals its sealed output byte for byte: True
+(not decisive) p589c_posthoc3's capture equals its sealed output byte for byte: True
+DECISIVE: P0 the instrument reproduces B1667's json at 0.25 + 3.0i within 1e-6: True
+DECISIVE: row 315: max |m2/m3 - 1| below 1e-12 at both norms and the small-exact difference below 1e-8: True
+DECISIVE: row 324: order-5 worst |R - 1| below 1e-8: True; median log R2 on the 3|N lines, small 0.178, exact 0.145, log 3 = 1.099
+DECISIVE: the sealed run's cells: P0 holds, P1 holds, P2 FAILS, P3 holds
+DECISIVE: the uniformising accessory parameter at 1.6i: c* = 0.4014
+DECISIVE: the uniformising accessory parameter at 3.1i: c* = 0.6651
+DECISIVE: the uniformising accessory parameter at 3.5i: c* = 0.6929
+DECISIVE: Q0 the stuck c reproduces the committed order-12 residue 8.814e-10: True
+DECISIVE: Q1 P1's 1.6i half at c*: the small-exact difference below 1e-8: True
+DECISIVE: Q2 at c*: every exact order-12 lepton m1/m3 at most 1e-12 on the 48 lines: True; every exact order-9 lepton m1/m3 above 1e-12 on the 36 lines: True
+DECISIVE: verdict: the claim holds

@@ -1,0 +1,1 @@
+control: the accessory parameter left stuck on purpose at 3.1i: the largest exact order-12 lepton m1/m3 is 8.814e-10; the order-12 check: fails, as it must
