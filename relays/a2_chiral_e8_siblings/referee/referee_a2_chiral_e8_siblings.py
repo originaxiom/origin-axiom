@@ -2902,20 +2902,21 @@ def main():
             "(disc mod 5 == 2) and factors mod 5 with degrees [2, 3, 9], i.e., O_{k(s099)} DOES possess "
             "a genuine degree-2 prime p | 5 with residue field F_25."
         ),
-        (
-            "Headline theorem impact: Two distinct classes of genuine mathematical errors were found in "
-            "producer's sealed output: (A) C1 trace-integrality false negatives on 5 manifolds (m266, s070, "
-            "s099, s447, s560) where 63-digit unrefined sl2c_gens_hp LLL underflowed at deg 14-15, whereas "
-            "420-digit SL(2,C) refinement + exact symbolic QQ[theta]/(P) charpoly proves all 11 C1 manifolds "
-            "have 100% integral squared traces (does NOT change is_arithmetic: m004 remains uniquely arithmetic "
-            "among all 10 lock_248_2T because those 5 have degrees 14-15 and r1 > 0); (B) C4 geom_f25_reduction "
-            "false negatives on m201, m207, s556, s754, s961 (and 4 vs 8 hit count on s882), caused by omitting "
-            "parabolic-gauge conjugation (m207/s961) and Hom(pi_1, {+-1}) SL(2) sign lifts (m201/s556/s754/s882). "
-            "Note that C2 (all 12 manifolds + SL(3,Z)), C3 (all 6 H_1=Z manifolds + mod-5 reflection breaking), "
-            "C4 H_1/2T/BD5_C4/F25_gluing/field_degree/is_arithmetic/exhaustive_H1Z_2T_sl2_f25 (s573=0, s890=0, "
-            "s754=4 kills_248), and all SHA-256/zero-float/control hygiene checks agree 100%."
-        ),
     ]
+    if len(discrepancies) == 0 and all_rpf_passed and all_seals_ok:
+        diagnostic_notes.append(
+            "Full Cold-Room PASS: All C1 (11 manifolds, exact 420-digit symbolic gluing + trace integrality + "
+            "Berlekamp mod-5 + Sturm), C2 (12 manifolds via Hurwitz 2T + q*v*q^{-1} Ad(2T) + 15 new SL(3,Z)), "
+            "C3 (6 H_1=Z manifolds in F_5[t]/(t^2-3) with verified isomorphism to F_5[d]/(d^2-2)), "
+            "C4 (all 18 3-gen manifolds including geom_f25_reduction with all Hom(pi_1,{+-1}) sign lifts and "
+            "exhaustive SL(2,F_25) on s573/s754/s890), SHA-256 seals, zero-float hygiene, producer control, "
+            "and 5/5 independent RPF1..RPF5 controls agree 100% with 0 discrepancies."
+        )
+    else:
+        diagnostic_notes.append(
+            f"Cold-Room FAIL: {len(discrepancies)} discrepancies detected between independent referee "
+            f"recomputations and sealed producer output (see discrepancies list)."
+        )
 
     out_obj = {
         "card": "A2-CHIRAL-E8-SIBLINGS",
