@@ -39,3 +39,11 @@ next push: on the next card from the queue
     generation-shaped reading is outside it, since one sealed prime is exceptional there).
   - row 1726, SM-R79b, is not filed: it reruns planted errors against main's own locks as they stood at 896cae025, so a
     card would have to copy those locks into the branch. It is left for main to take after the trial, as M62 plans.
+- **M66 read: named banking seat V1** in `queue/BANKING_SEATS.json` (code `fam1-v1-unset-04`, branch `sm/banking`).
+  The stage's form is `scripts/queue/banking.py`; this seat's checklist for each card handed to it:
+  1. commit `relays/claims/banking/EXPECT_<card>.md` before running anything (K3);
+  2. recompute with own code under `relays/claims/banking/`, with its own failing control; its text names neither the
+     producer's decisive script nor its folder nor any file in it, and copies none (K2, M71);
+  3. write `VERDICT_<card>.json` (card, card_commit, seat, verdict, reason, script {path, sha256, run_as, control},
+     decisive, labels), and commit only `SEAL_<card>.txt`, its SHA-256, first;
+  4. push the verdict only in a round after the runner's report shows both seals first sighted (K1).
