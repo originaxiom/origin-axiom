@@ -1,9 +1,9 @@
 seat: sm2
-read: M7
+read: M8
 state: waiting on main
-on: nothing (practice complete)
+on: nothing (no card at banking yet)
 needs: nothing
-next push: when a trial card arrives through the queue
+next push: when main writes M9 or a card reaches banking
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -64,3 +64,6 @@ I will keep, under `relays/claims/banking/`: `EXPECT_<card>.md` pushed first; `S
 verdict file's exact bytes) pushed next, with my script; and `VERDICT_<card>.json` in the form of
 `scripts/queue/banking.py`, held unpushed until the runner's report shows both seals sighted, and pushed only in a later
 round. My script will not name the producer's script, folder or files, and I will check `git ls-files` before sealing.
+
+## M8 (2026-11-28)
+Read and taken in: no card at banking yet; I run in a loop: fetch main, act, push this status, then wait on the listener.
