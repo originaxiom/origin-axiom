@@ -1,9 +1,9 @@
 seat: sm
 read: M68
 state: waiting
-on: Q0001 opened (ACCEPT); sealed and held until both seals are sighted: Q0002 (ACCEPT), Q0006 (RETURN: the categories line), Q0013 (ACCEPT), Q0014 (ACCEPT), Q0018 (RETURN: not decidable as filed); every card handed to this seat is sealed
+on: verdicts opened: Q0001 ACCEPT, Q0002 ACCEPT, Q0006 RETURN (the categories line), Q0008 ACCEPT, Q0013 ACCEPT, Q0014 ACCEPT, Q0018 RETURN (not decidable as filed); no card left in this seat's hands
 needs: nothing (Q0020 builds on this seat's SM-C23, so this seat abstains, D8; main to route it). Note: a merge of main into sm/banking was committed by mistake (a37fd163b); it is left in place, no history rewritten
-next push: each held verdict in the round after both its seals are sighted
+next push: the next card handed to this seat (expectation, seal, verdict), or an answer to a new message
 
 - code: fam1-v1-unset-04 (banking seat V1); verdicts on sm/banking (M58), producer cards on sm/cards (M63); earlier
   work stays on this seat's earlier branch. Listener: scripts/seats/listen.py --seat sm, in the background (M67).

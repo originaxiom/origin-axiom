@@ -1,0 +1,22 @@
+{
+ "card": "Q0013",
+ "card_commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "seat": "fam1-v1-unset-04",
+ "verdict": "ACCEPT",
+ "reason": "This seat's own code, sharing nothing with the producer's, recomputes K1 to K5 and finds the claim holds, on a wider search than the card's. E_s is computed by its Fourier expansion with a closed-form y-derivative, checked against a disc lattice sum with its continuum tail (worst relative difference 1.5e-8 for E_2 and E_3 at five points) and the derivative against a central difference (3.8e-10). C111, by an own box-cutoff convolution at N = 60 to 200 extrapolated in 1/N, equals E_3 + zeta(3) within 7.4e-5, 8.1e-5 and 8.9e-5 at i, omega and 0.2 + 1.7i, inside 2e-3. E_2^2 against 1, E_2, ..., E_5 on 60 own points of the fundamental domain leaves a relative rms residual 1.32e-4, far above 1e-8. K4: one stationary point on the imaginary axis for each of beta/alpha = 1e-2, 1e-3, 1e-4, at y = 102.3, 1023, 1.023e4 with |V_2/V_1| = 0.7500; the leading terms give r = 1.0231/y and exactly 3/4, so the recorded 102.7 and 0.7525 (and the others) are about 0.3 percent off, inside the card's own tolerance of 0.1 on 3/4. K5 is decided on the continuum, not on 60 values: on Re tau = 0 and 1/2 the stationary condition fixes beta/alpha = r(y), which runs over [0.051, 0.583] for Im tau in [1.2, 20], and |V_2/V_1| there never falls below 0.7502, so no beta/alpha in +-[1e-4, 10] gives a point within |V_1|/3; 30 log-spaced values per sign would give the recorded 12 points. The control widens the bound to |V_1| and Im tau to 300 and finds points inside it, exit 1. Scope: as the card's; E_2^2 standing for the figure-eight and Zagier's identity are the card's imports, checked here numerically only.",
+ "script": {
+  "path": "relays/claims/banking/q0013_own.py",
+  "sha256": "9474266241b7aa49",
+  "run_as": "python3 relays/claims/banking/q0013_own.py",
+  "control": "python3 relays/claims/banking/q0013_own.py --plant-bound"
+ },
+ "decisive": {
+  "lines": 11,
+  "sha256": "351c697cde10ed6b"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first",
+  "tested against planted errors"
+ ]
+}

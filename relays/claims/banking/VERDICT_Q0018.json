@@ -1,0 +1,22 @@
+{
+ "card": "Q0018",
+ "card_commit": "241bc7f643bedb509959e7ad84dd27e879ee6cf0",
+ "seat": "fam1-v1-unset-04",
+ "verdict": "RETURN",
+ "reason": "The card cannot be decided as filed. It bundles six claims in six decisive lines, and only the first is fixed by the card's own definitions. That part, P1, this seat recomputes with its own mpmath code (eta by its product, E_2 by its divisor sum, E2_hat = E_2 - 3/(pi y)): on Re tau = 0 the minima of V_FILQ,n lie at y = 1.2345799467, 1.1833896604 and 1.1554390183 for n = 1, 2, 3, with V_1 = -8.9288148709 and V_3 = -78.340509028, positive curvature, as recorded; the control flips the sign of 3/(pi y) and moves all three off. Everything from P2 on rests on frame C's weight-0 Yukawa matrices Y_f(w; tau) at the 288 order-30 points and on the accessory parameter L_2(tau), which the card names ('Frame C constructs') but does not define, and the premises it names do not define them in a form that can be rebuilt cold: B1957 is the seats' claims register, B1980's statement that frame C fails S was withdrawn by B1982, which the card does not name, and main has put the order-30 line on hold. The card's identifications, Yukawa trace squares as Coleman-Weinberg mass entries and the three vacua as UV boundary scales of a Type-II 2HDM, carry no map (K6), and the RG, D-term and soft-mass results rest on imported beta functions, so as filed they are conditional on those imports (K4); a label 'theorem' with 'proves' is larger than such evidence (K9). What would make it decidable: one card per claim; frame C's Y_f(w; tau) and L_2 defined on the card or by a pinned premise that defines them, with the S-covariant end law of B1982; each identification given as a map; imports named as hypotheses. P1 would then be acceptable as it stands, on this recomputation. Not read: the decisive script's body, the referee's script, the peer note.",
+ "script": {
+  "path": "relays/claims/banking/q0018_own.py",
+  "sha256": "1aaf71883b539087",
+  "run_as": "python3 relays/claims/banking/q0018_own.py",
+  "control": "python3 relays/claims/banking/q0018_own.py --plant-sign"
+ },
+ "decisive": {
+  "lines": 3,
+  "sha256": "7f2f0ecb1ccd2ca3"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first",
+  "tested against planted errors"
+ ]
+}

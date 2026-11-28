@@ -1,0 +1,22 @@
+{
+ "card": "Q0002",
+ "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "seat": "fam1-v1-unset-04",
+ "verdict": "ACCEPT",
+ "reason": "This seat's own code, sharing nothing with the producer's, recomputes every decisive value of the card on all six orbits and agrees with each. The orbits are found by breadth-first search: the largest on the leaves k = 5 mod 7, k = 6 mod 11 and k = 9 mod 13 (64, 60 and 112 points) and the orbit of (3, 3, 3) mod 27, 81 and 135 (72, 648 and 2 880 points), with 22, 20, 38, 26, 218 and 962 C-orbits and sigma fixing 0, 2, 0, 0, 0 and 0 points. On every point of every orbit the four moves' images equal those of S(C + C^2) + (C + C^2)S. A = 3 P(1 + S)P built on the C-orbit sums gives R and d1 to d4 exactly as recorded, and T4's characteristic polynomial equals R(x + 4) R(x + 2) (x - 4)^d1 (x + 4)^d2 (x + 2)^d3 (x - 2)^d4 exactly over Z (python-flint) on the five smaller orbits, and modulo three primes near 2^61 on the mod-135 orbit. The control replaces R(x + 4) by R(x + 3) and the factorisation fails on the first orbit, so the comparison sees the shift. Scope: on the mod-135 orbit this is a check modulo three primes, as the card's own decisive line is; the two-subspace theorem that explains the pairing is the card's import and is not re-derived here, only its consequence on these six orbits is computed.",
+ "script": {
+  "path": "relays/claims/banking/q0002_own.py",
+  "sha256": "10061658bb4bca67",
+  "run_as": "python3 relays/claims/banking/q0002_own.py",
+  "control": "python3 relays/claims/banking/q0002_own.py --plant-shift-one"
+ },
+ "decisive": {
+  "lines": 6,
+  "sha256": "cf96208d3919a697"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first",
+  "tested against planted errors"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "card": "Q0006",
+ "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "seat": "fam1-v1-unset-04",
+ "verdict": "RETURN",
+ "reason": "This seat's own code, without GAP and sharing nothing with the producer's, recomputes the card at both levels. G3 and G4 are built as permutations of the orbit of (3, 3, 3) mod 27 and mod 81 (72 and 648 points), orders 216 and 1 944; the subgroup classes are found by joining class representatives with every cyclic subgroup, conjugacy decided on generators: 45 and 100 classes, as recorded. On the left cosets, with L = sigma C^2, R = sigma C, X = C sigma C and inverses, the neutral and charged sectors are built and p_neutral and S taken modulo three primes p = 1 mod 3 near 2^61 (a multi-prime check). The core holds: 4 of 45 and 8 of 100 classes are in the whole's form (a); the whole's stabiliser (order 3, index 72 and 648) is among them; the (a) classes at mod 27 are exactly the recorded four, and at mod 81 they are (3, 648), (9, 216), (12, 162), (27, 72), (36, 54), (81, 24), (108, 18), (324, 6), agreeing with the recorded part, each with three C-fixed cosets and rho trivial on none. The control drops X and X^-1 from W and no class is left in (a). The card is returned for one decisive line: the categories. By the card's own definitions, (a') (p_neutral(2x)/2^d = S) is a category and (b) is S dividing otherwise; counted so, mod 27 gives a 4, a' 10, b 2, c 29 and mod 81 a 8, a' 28, b 2, c 62, against the recorded {a 4, b 10, c 31} and {a 8, b 28, c 64}. The recorded counts are reproduced exactly when (a') is folded into (b) and the two classes whose charged sector is empty (index 1 and 2, S = 1, which divides everything) are counted as (c). The fix is the producer's: either the definitions on the card are restated as its code applies them, or the categories line is recounted by the stated definitions; the headline needs no change. Scope: a multi-prime check, not exact over Z; the coset action taken as g.xH = gxH, which on the stabiliser is the orbit itself.",
+ "script": {
+  "path": "relays/claims/banking/q0006_own.py",
+  "sha256": "b994cfad1cee30f7",
+  "run_as": "python3 relays/claims/banking/q0006_own.py",
+  "control": "python3 relays/claims/banking/q0006_own.py --plant-no-x"
+ },
+ "decisive": {
+  "lines": 12,
+  "sha256": "f85c60d1414db5ac"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first",
+  "tested against planted errors"
+ ]
+}

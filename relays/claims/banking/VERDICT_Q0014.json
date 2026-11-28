@@ -1,0 +1,22 @@
+{
+ "card": "Q0014",
+ "card_commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "seat": "fam1-v1-unset-04",
+ "verdict": "ACCEPT",
+ "reason": "This seat's own code, sharing nothing with the producer's, recomputes the card by another discretisation and agrees with every decisive value. F_s is discretised by a Nystrom-style matrix on Gauss-Legendre nodes of [0, 1] with barycentric interpolation, not Chebyshev collocation, at M = 100, 200 and 300 nodes, which agree on lambda_1 to 1e-14 for s up to 0.8 and to 3e-10 at s = 0.95. lambda_1 at s = 0, 0.1, ..., 0.9, 0.95 equals the recorded 2.000000, 1.848487, 1.710186, 1.584087, 1.469311, 1.365112, 1.270911, 1.186353, 1.111484, 1.047292, 1.020343 to within 1e-6, and the masses on [0, 0.05] equal the recorded 0.0500 to 0.2968 to four decimals; lambda_1 falls and the mass rises strictly. h_0 is constant to 2e-14; at s = 0.1 to 0.95 h_s, read on 2001 points, is positive and strictly decreasing, so it has no interior extremum. F_1(1/x) = 1/x holds to 2e-15. Independently of any discretisation, this seat's own enumeration of the 131 070 and 262 142 words holding both letters gives Z_18/Z_17 within 6.99e-5 and 6.28e-4 of lambda_1 at s = 0.25 and 0.5, the card's figures. The control applies the monotonicity check to the second eigenvector at s = 0.5 and it fails, exit 1. The next three moduli at M = 300 are 0.9992 to 1.0000, rounding to 1.0000 at four decimals for s from 0.1: as the card says, they belong to the discretisation's approach to the continuous spectrum [0, 1] and are no gap; this verdict does not bank the card's 'next three moduli below 1', which at this seat's larger M is not distinguishable from 1. Scope: as the card's.",
+ "script": {
+  "path": "relays/claims/banking/q0014_own.py",
+  "sha256": "f3d4c72f8a218126",
+  "run_as": "python3 relays/claims/banking/q0014_own.py",
+  "control": "python3 relays/claims/banking/q0014_own.py --plant-second"
+ },
+ "decisive": {
+  "lines": 15,
+  "sha256": "c5e6ba1b9550ae21"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first",
+  "tested against planted errors"
+ ]
+}
