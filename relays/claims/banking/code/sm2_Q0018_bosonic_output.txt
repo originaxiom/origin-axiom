@@ -1,0 +1,8 @@
+DECISIVE: V_FILQ,n (n = 1, 2, 3) T and S invariance, worst relative difference at three points: 5.41e-40
+   V_FILQ,1 on Re tau = 0: local minimum at y = 1.234579947, V = -8.9288149, V'' = 6.9152
+   V_FILQ,2 on Re tau = 0: local minimum at y = 1.18338966, V = -26.45959, V'' = 45.265
+   V_FILQ,3 on Re tau = 0: local minimum at y = 1.155439018, V = -78.340509, V'' = 211.89
+DECISIVE: E(i, 3) = 4.6589136156, E(omega_+, 3) = 4.1412565472, E(i, 3) - E(omega_+, 3) = 0.5176570684
+DECISIVE: V_FILQ,3 local minima on Re tau = 0 in [1, 4]: ['1.155439']
+NOT COMPUTED: V_CW^(all-288), V_CW^(tr), c_B^crit, c_F^crit, y* = 3.380451106, V_xx, EWSB, Majorana: the Yukawa matrices Y_f(w; tau) of Frame C are not defined on the card
+RESULT: the bosonic part holds; the card is not decidable as filed

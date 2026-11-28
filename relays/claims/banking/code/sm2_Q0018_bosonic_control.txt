@@ -1,0 +1,3 @@
+DECISIVE: V_FILQ,n (n = 1, 2, 3) T and S invariance, worst relative difference at three points: 1.61
+CONTROL: with E2 for E2_hat the S-invariance fails, as it must
+RESULT: the control fails
