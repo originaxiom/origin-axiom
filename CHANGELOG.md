@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)
+
+- **Round 1 on the workflow** (run 46146125769 at `be47862d1`):
+  - the interpreter is the image's own `/usr/bin/python3` 3.14.4;
+  - "the network guard: sudo unshare -n -m -i -p, as nobody", as the queue's README asks of the first round;
+  - Q0001 and Q0002 (B2011, B2012) and Q0008 (the physical seat's C8) REPRODUCED in the sandbox and OFFERED from
+    `queue/OFFERS.json`; the rest are left for later rounds (three a round) or wait on their premises (D6);
+  - the queue's branch `queue` was made by the record job, and the ruleset read after the push holds deletion,
+    non_fast_forward and update.
+- **Every hour:** `.github/workflows/intake.yml`'s schedule is now hourly; the concurrency group keeps one round at a time.
+- **The builder (M81):** its offers tool is returned, since it offered a seat on an unmoved branch; the firewall's `±`
+  flag is to leave mathematics alone (Q0008 and Q0042 were flagged for a sign class and a congruence).
+
 ## S306p EVERY CARD OFFERED TO A PEER BY ONE RULE; CHAT1'S SIX CARDS RECEIVED AND ITS TWO QUESTIONS ANSWERED (P-885; HARVEST ROWS 2072 TO 2074; M29, M27, M70, M88) (2026-11-28)
 
 - **`queue/OFFERS.json`:** 43 offers, one for each card discovery finds today. Main's seven trial cards go to the

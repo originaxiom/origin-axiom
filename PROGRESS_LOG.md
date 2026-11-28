@@ -20793,3 +20793,12 @@ chosen by one fixed rule so that no choice singles a card out. The four checking
 seat came back and refiled six of its cards in the new form, and its two questions were answered.
 
 0 of 19.
+
+## 2026-11-28 — the door opened (S306p)
+
+**What happened.** The runner's first full round worked on GitHub. It ran three cards' code with the network cut and as an
+unprivileged user, reproduced all three, handed each to a checking seat of another family, and wrote the result to the
+queue's own branch, which only the runner can write. It now runs every hour, so the 43 waiting cards move through in about
+a day and a half, as their premises allow.
+
+0 of 19.

@@ -14,7 +14,7 @@ A card's history is append-only. A returned card is refiled as a new card that n
 
 - **One round, by hand:** `python3 scripts/queue/intake.py --queue-dir <the queue/ folder of the queue's branch> [--write]`.
   On a machine where the network cannot be cut by a namespace, add `--allow-static-guard`, by the author's choice only.
-- **On the workflow:** `.github/workflows/intake.yml`, every three hours and by hand (Actions, "intake", "Run workflow").
+- **On the workflow:** `.github/workflows/intake.yml`, every hour (every three hours until 2026-11-28) and by hand (Actions, "intake", "Run workflow").
   The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
   queue's branch, `queue`.
 
@@ -79,7 +79,7 @@ main's.
 ## The plant ledger (the thin path's patch T12)
 
 Main's alone, and not read by any seat before it is opened. **Its round is a batch of cards, not one run of the runner**
-(the runs above, every three hours, are a different round): a ledger is opened only when every card it names has ended,
+(the runs above, every hour, are a different round): a ledger is opened only when every card it names has ended,
 its status final, and round n's ledger is opened before round n + 1 is sealed (main's M76). Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
 it untracked, commits its seal (`python3 scripts/queue/plants.py --seal queue/plants/ROUND_<n>.json`, a line appended to
 `queue/PLANT_SEALS.jsonl`), lets the round run, and then commits the ledger, which opens it. A fresh nonce for each ledger:

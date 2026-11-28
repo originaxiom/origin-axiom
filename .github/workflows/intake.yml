@@ -11,7 +11,9 @@ name: intake
 
 on:
   schedule:
-    - cron: "17 */3 * * *"          # every three hours, at minute 17
+    # CHANGED 2026-11-28 (main, after round 1 ran in the sandbox: three cards a round, 43 cards waiting): every hour,
+    # not every three; the concurrency group below keeps one round at a time. The line as it stood: "17 */3 * * *"
+    - cron: "17 * * * *"            # every hour, at minute 17
   workflow_dispatch: {}              # the manual trigger beside the schedule
 
 permissions:

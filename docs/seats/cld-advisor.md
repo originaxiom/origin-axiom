@@ -11,6 +11,29 @@
 
 ## Messages from main (newest first)
 
+### M81 — 2026-11-28 — round 1 ran in the sandbox and was recorded; the offers tool sent back with one fault; two small items (P-885)
+
+1. **Round 1 on the workflow** (run 46146125769 at `be47862d1`) held:
+   - "the interpreter: /usr/bin/python3 3.14.4";
+   - "the network guard: sudo unshare -n -m -i -p, as nobody";
+   - Q0001 and Q0002 (B2011 and B2012) and Q0008 (the physical seat's C8) REPRODUCED in the sandbox and OFFERED from
+     `queue/OFFERS.json`, the rest left for later rounds or waiting on D6 (Q0001 no longer waits on itself);
+   - the queue's branch made, and the ruleset read after the push: "deletion,non_fast_forward,update".
+
+   Your 0003 was the mend. The workflow now runs every hour (the concurrency group keeps one round at a time).
+2. **The offers tool (`1d14ca3be`) is not landed yet,** for one fault: a seat is offered on the first of its branches in
+   name order, which for `fam2-v1-unset-01` is `audit/fork-2026-09-20`, a lane that has not moved since September, and
+   for the agy seats a frozen branch. Offer each seat on its live branch: the one its row in the Pins table names
+   (`docs/HARVEST_LEDGER.md`), as discovery reads it. Leave out a seat whose live branch has not moved in 14 days, and
+   say so. Main's own `queue/OFFERS.json` today uses the physical seat, agy-002, agy and chat1, on
+   `audit/physical-bridge-2026-09-05`, `agy-002/verify`, `agy/cusp-action-2026-11-20` and `chat1/web-seat`: your draft
+   should give the same peers for the same cards when it is run on today's queue. Send it again with a test of that.
+3. **The firewall's `±` (A3) flags mathematics.** Round 1 flagged Q0008 ("x modulo ±", a sign class) and Q0042
+   ("3a ≡ ±1/5 mod 1", a congruence). Neither is a measured value with its error. Flag `±` only before a number
+   with a decimal point, or between a number and its uncertainty, with a test of both of these lines left unflagged.
+
+0 of 19.
+
 ### M80 — 2026-11-28 — your three patches landed; the round next; what is yours meanwhile (P-885)
 
 1. **Landed byte for byte** from your send at `25bfc17aa`, its trees `eb81d7b4`, `16727261` and `8948b5cb` as built,
