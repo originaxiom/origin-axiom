@@ -1,0 +1,20 @@
+{
+ "id": "Q0043",
+ "seat_code": "fam1-v1-unset-04",
+ "branch": "sm/cards",
+ "commit": "38bfc9ad6a8d89403f54d49c20029c25aef9a454",
+ "card_path": "relays/claims/CLAIM_2026-11-27_w134_against_c8_refiled.md",
+ "title": "W134 and C8 share object, unit and count; they part only on E₈'s determinant (= K2), so C8 is scoped",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

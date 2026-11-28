@@ -1,0 +1,112 @@
+{
+ "terms": {
+  "codes": [
+   "P-876"
+  ],
+  "words": [
+   "adjoint",
+   "blind",
+   "collapse",
+   "commuting",
+   "computation",
+   "cross-family"
+  ],
+  "words_left_out": [
+   "dihedral",
+   "kernel",
+   "peripheral",
+   "physical",
+   "second",
+   "sheet",
+   "subset",
+   "theorem",
+   "two-register",
+   "verifying"
+  ]
+ },
+ "producer_sweep": "origin/main (47ece044b) registers physical's C8 card at harvest row 2058 (P-876, harvest row 1987 source review owed) with second computation: none; no independent cross-family second computation existed on record prior to 61da50a6d",
+ "topic": {
+  "regex": "P\\-876|adjoint|blind|collapse|commuting|computation|cross\\-family",
+  "verdict": "VERDICT topic-sweep /P\\-876|adjoint|blind|collapse|commuting|computation|cross\\-family/: 315 of 1760 arcs on main match (NEGATIVE 47, OPEN 28, PROVED 238, RETRACTED 2); 134 register rows match (DECLINED 3, DONE 69, QUEUED 62)",
+  "matches": [
+   "B1",
+   "B100",
+   "B1788",
+   "B1822",
+   "B1823",
+   "B1825",
+   "B1927",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1962",
+   "B1965",
+   "B1967",
+   "B1982",
+   "B3",
+   "B862",
+   "B884",
+   "B9",
+   "B909",
+   "B949",
+   "B958",
+   "B959",
+   "B960",
+   "B961",
+   "B962",
+   "B964",
+   "B965",
+   "B968",
+   "B969",
+   "B970",
+   "B975",
+   "B976",
+   "B978",
+   "B979",
+   "B98",
+   "B983",
+   "B985",
+   "B987",
+   "B990",
+   "B997",
+   "B998",
+   "P-316",
+   "P-850",
+   "P-852",
+   "P-853",
+   "P-855",
+   "P-858",
+   "P-859",
+   "P-860",
+   "P-861",
+   "P-863",
+   "P-864",
+   "P-865",
+   "P-866",
+   "P-871",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-879",
+   "P-881",
+   "P-882",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "THE TWO CAMPAIGNS RECONCILED: the owner's grand-computation directive ran through both seats blind and the independent runs CONVERGE where it matters (lambda = THE residue per both seats -- the day's ",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": []
+}

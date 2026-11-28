@@ -1,0 +1,20 @@
+{
+ "id": "Q0010",
+ "seat_code": "fam2-v1-unset-01",
+ "branch": "audit/physical-bridge-2026-09-05",
+ "commit": "ba8eaf8b88b810c0858ab6431bb2736b906e7efa",
+ "card_path": "relays/claims/CLAIM_2026-11-28_the_rate_at_mod_125_is_2_sqrt_6_plus_sqrt_5.md",
+ "title": "the six-move slow rate at mod 125 is 2 sqrt(6 + sqrt 5), a root of x^4 - 48 x^2 + 496, irreducible over Q",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "Q0036",
+ "seat_code": "fam1-v1-unset-04",
+ "branch": "sm/cards",
+ "commit": "38bfc9ad6a8d89403f54d49c20029c25aef9a454",
+ "card_path": "relays/claims/CLAIM_2026-11-27_count_the_image_refiled.md",
+ "title": "frame A's map to the six descends through none of its five named choices; joint image dimension 5",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": true,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

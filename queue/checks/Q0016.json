@@ -1,0 +1,113 @@
+{
+ "terms": {
+  "codes": [
+   "B1727",
+   "B1736",
+   "B1970",
+   "B1973",
+   "B1977",
+   "P-879"
+  ],
+  "words": [
+   "against",
+   "alike",
+   "fails",
+   "floor",
+   "higgs",
+   "high-"
+  ],
+  "words_left_out": [
+   "holds",
+   "one-doublet",
+   "queue",
+   "sampled",
+   "sectors",
+   "states",
+   "trials",
+   "two-sector"
+  ]
+ },
+ "producer_sweep": "topic_sweep.py \"two-sector floor|P879-INTERIOR\" at 68b04c69d: no arc and no register row match; P-879's row carries B1973's ends, and no arc tests the floor with one Higgs in both sectors",
+ "topic": {
+  "regex": "B1727|B1736|B1970|B1973|B1977|P\\-879|against|alike|fails|floor|higgs|high\\-",
+  "verdict": "VERDICT topic-sweep /B1727|B1736|B1970|B1973|B1977|P\\-879|against|alike|fails|floor|higgs|high\\-/: 490 of 1760 arcs on main match (NEGATIVE 92, OPEN 37, PROVED 359, RETRACTED 2); 395 register rows match (DECLINED 6, DONE 240, QUEUED 149)",
+  "matches": [
+   "B1727",
+   "B1736",
+   "B1927",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1959",
+   "B1962",
+   "B1965",
+   "B1967",
+   "B1970",
+   "B1973",
+   "B1977",
+   "B1982",
+   "B3",
+   "B862",
+   "B869",
+   "B884",
+   "B947",
+   "B962",
+   "B964",
+   "B966",
+   "B967",
+   "B968",
+   "B969",
+   "B972",
+   "B973",
+   "B975",
+   "B976",
+   "B977",
+   "B978",
+   "B980",
+   "B984",
+   "B985",
+   "B987",
+   "B990",
+   "B993",
+   "B994",
+   "B995",
+   "B997",
+   "P-860",
+   "P-861",
+   "P-862",
+   "P-863",
+   "P-864",
+   "P-865",
+   "P-866",
+   "P-867",
+   "P-868",
+   "P-869",
+   "P-870",
+   "P-871",
+   "P-872",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-879",
+   "P-881",
+   "P-882",
+   "P-883"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "THE ORDER-5 LINES (P-248; sealed 9c2a50039, sha256 6cb3ac13; NEGATIVE as sealed -- H1 holds, H2 fails narrowly, H3 fails; output committed unread at 9e5e535bc): on the lines the tick fixes up to sign ",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": []
+}

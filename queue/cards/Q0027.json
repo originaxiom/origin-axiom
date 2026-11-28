@@ -1,0 +1,20 @@
+{
+ "id": "Q0027",
+ "seat_code": "fam3-v1-high-01",
+ "branch": "agy/cusp-action-2026-11-20",
+ "commit": "0d3fd520965d0779d5a1db417b62f2d5d8c42ac3",
+ "card_path": "relays/claims/CLAIM_2026-11-26_agy_c64_exact_b2017_mod81_census_b2016_subgroups_mod243_ceiling_and_cusp_quotient.md",
+ "title": "Exact B2017 census closure and mod-81 off-cusp halving orbits, B2016 subgroup-lattice theorems, B2015 mod-243 new-fiber minimal polynomial, and honeycomb quotient law (0 of 19)",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

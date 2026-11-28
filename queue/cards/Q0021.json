@@ -1,0 +1,20 @@
+{
+ "id": "Q0021",
+ "seat_code": "fam3-v1-high-03",
+ "branch": "agy-002/verify",
+ "commit": "080441e86287d7edf5b961d73f9a6ce656380b3a",
+ "card_path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_lie2_c11_and_r610_verification.md",
+ "title": "Blind cross-family second computation verifying SM-C11 (64 dictionaries, Z = mu_4, F_all/F_c/F_S anomaly pricing of I-31) and SM-R610 (W134 vs C8, E_8 det-1 exclusion of whole units, least three-27 datum 17/24, and K2 from E_8 roots) (0 of ",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

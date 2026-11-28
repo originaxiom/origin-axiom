@@ -1,0 +1,20 @@
+{
+ "id": "Q0037",
+ "seat_code": "fam1-v1-unset-04",
+ "branch": "sm/cards",
+ "commit": "1c5b13d0ae6b63239276b9720844d7cc9a5d8d6c",
+ "card_path": "relays/claims/CLAIM_2026-11-27_discrete_remnant_27_refiled.md",
+ "title": "on the root, breaking U1-η by a 27 singlet vev leaves no discrete symmetry beyond the SM",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

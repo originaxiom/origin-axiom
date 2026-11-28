@@ -1,0 +1,106 @@
+{
+ "terms": {
+  "codes": [
+   "B2015",
+   "LISTENING 29",
+   "P-882"
+  ],
+  "words": [
+   "alone",
+   "degree",
+   "function",
+   "polynomial",
+   "six-move"
+  ],
+  "words_left_out": []
+ },
+ "producer_sweep": "B2015 gives the rate's value at each level it ran; no arc on main tests the rate's form in cos(pi/M)",
+ "topic": {
+  "regex": "B2015|LISTENING\\ 29|P\\-882|alone|degree|function|polynomial|six\\-move",
+  "verdict": "VERDICT topic-sweep /B2015|LISTENING\\ 29|P\\-882|alone|degree|function|polynomial|six\\-move/: 336 of 1760 arcs on main match (NEGATIVE 63, OPEN 26, PROVED 244, RETRACTED 3); 127 register rows match (DECLINED 2, DONE 71, QUEUED 54)",
+  "matches": [
+   "B1724",
+   "B1868",
+   "B1881",
+   "B1897",
+   "B1922",
+   "B1923",
+   "B1927",
+   "B1928",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1959",
+   "B1962",
+   "B1982",
+   "B2015",
+   "B3",
+   "B500",
+   "B869",
+   "B9",
+   "B947",
+   "B949",
+   "B95",
+   "B953",
+   "B954",
+   "B959",
+   "B962",
+   "B964",
+   "B969",
+   "B970",
+   "B971",
+   "B972",
+   "B973",
+   "B974",
+   "B975",
+   "B978",
+   "B979",
+   "B982",
+   "B986",
+   "B988",
+   "B990",
+   "B994",
+   "B995",
+   "P-720",
+   "P-776",
+   "P-829",
+   "P-831",
+   "P-836",
+   "P-845",
+   "P-846",
+   "P-847",
+   "P-850",
+   "P-854",
+   "P-860",
+   "P-861",
+   "P-863",
+   "P-864",
+   "P-866",
+   "P-868",
+   "P-870",
+   "P-871",
+   "P-873",
+   "P-875",
+   "P-882",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "# B530 — The natural history of the full object. Movement I: its own grammar  || VERDICT: The four-letter object's own grammar is golden at three nested levels, its growth is a mirror plus a symplecti",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [
+  "Q0005"
+ ],
+ "firewall": []
+}

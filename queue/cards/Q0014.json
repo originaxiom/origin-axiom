@@ -1,0 +1,20 @@
+{
+ "id": "Q0014",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p632_instability_spectrum_in_the_queue_form.md",
+ "title": "P-632: on B1813's s-family the Farey operator's fastest-growing mode picks no interior locus: it is constant at s = 0 (λ₁ = 2) and, at s = 0.1, 0.2, …, 0.9, positive and strictly decreasing on [0, 1], so largest at the parabolic point; λ₁ f",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

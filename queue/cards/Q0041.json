@@ -1,0 +1,20 @@
+{
+ "id": "Q0041",
+ "seat_code": "fam1-v1-unset-04",
+ "branch": "sm/cards",
+ "commit": "1c5b13d0ae6b63239276b9720844d7cc9a5d8d6c",
+ "card_path": "relays/claims/CLAIM_2026-11-27_order_30_whole_instrument_refiled.md",
+ "title": "at order 30 the 240 pairs of points whose first coordinate has a 5-part are all aligned and hierarchical, converged, in exactly the act's line's 12 classes at 5 times its sizes",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

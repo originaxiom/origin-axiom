@@ -1,0 +1,20 @@
+{
+ "id": "Q0007",
+ "seat_code": "fam1-v1-unset-01",
+ "branch": "main",
+ "commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "card_path": "relays/claims/CLAIM_2026-11-27_B2017_main_trial.md",
+ "title": "B2017: over every orbit of the moves on every leaf at mod 27, 25, 49 and the primes 5 to 13 (417 orbits; 21 at mod 49 above 2400 points left out), the six-move sum's halving holds on exactly three, the 72-point sisters on the cusp's leaf mo",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

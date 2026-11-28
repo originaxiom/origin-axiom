@@ -1,0 +1,109 @@
+{
+ "terms": {
+  "codes": [
+   "B1945",
+   "B1977",
+   "B1979",
+   "P-845",
+   "P-860"
+  ],
+  "words": [
+   "aligned",
+   "classes",
+   "converged",
+   "coordinate",
+   "exactly",
+   "first"
+  ],
+  "words_left_out": [
+   "hierarchical",
+   "order",
+   "pairs",
+   "points",
+   "sizes",
+   "times",
+   "whose"
+  ]
+ },
+ "producer_sweep": "B1976 to B1979 read the 96 points on the act's line; none reads the other 480",
+ "topic": {
+  "regex": "B1945|B1977|B1979|P\\-845|P\\-860|aligned|classes|converged|coordinate|exactly|first",
+  "verdict": "VERDICT topic-sweep /B1945|B1977|B1979|P\\-845|P\\-860|aligned|classes|converged|coordinate|exactly|first/: 819 of 1760 arcs on main match (NEGATIVE 121, OPEN 51, PROVED 645, RETRACTED 2); 403 register rows match (DECLINED 9, DONE 233, LEAD 1, QUEUED 160)",
+  "matches": [
+   "B1",
+   "B100",
+   "B1927",
+   "B1945",
+   "B1946",
+   "B1952",
+   "B1959",
+   "B1962",
+   "B1965",
+   "B1967",
+   "B1977",
+   "B1979",
+   "B1982",
+   "B3",
+   "B500",
+   "B869",
+   "B884",
+   "B949",
+   "B978",
+   "B979",
+   "B980",
+   "B981",
+   "B982",
+   "B983",
+   "B984",
+   "B985",
+   "B986",
+   "B987",
+   "B988",
+   "B989",
+   "B990",
+   "B991",
+   "B992",
+   "B993",
+   "B994",
+   "B995",
+   "B996",
+   "B997",
+   "B998",
+   "P-861",
+   "P-862",
+   "P-864",
+   "P-865",
+   "P-866",
+   "P-867",
+   "P-868",
+   "P-869",
+   "P-870",
+   "P-871",
+   "P-872",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-876",
+   "P-879",
+   "P-881",
+   "P-882",
+   "P-883",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "V-2 COMPACT COLOR (value-campaign cell, answering C-AR1): does any sign-lift give COMPACT su(3) color? NO over the LINEAR torsor, and the negative names its own successor. Exhaustive over 48 verified ",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": []
+}

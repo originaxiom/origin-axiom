@@ -1,0 +1,109 @@
+{
+ "terms": {
+  "codes": [
+   "B1733",
+   "B1927",
+   "B1945",
+   "B1978",
+   "P-845",
+   "P-860"
+  ],
+  "words": [
+   "acting",
+   "canonical",
+   "carried",
+   "change",
+   "class",
+   "covariant"
+  ],
+  "words_left_out": [
+   "frame",
+   "modulus",
+   "point",
+   "together"
+  ]
+ },
+ "producer_sweep": "grep -il \"joint covarian\" frontier/*/FINDINGS.md: B1978 and B1979, both name it as owed; closest arc B1978",
+ "topic": {
+  "regex": "B1733|B1927|B1945|B1978|P\\-845|P\\-860|acting|canonical|carried|change|class|covariant",
+  "verdict": "VERDICT topic-sweep /B1733|B1927|B1945|B1978|P\\-845|P\\-860|acting|canonical|carried|change|class|covariant/ (aliases: the lowest geodesic): 690 of 1760 arcs on main match (NEGATIVE 105, OPEN 45, PROVED 537, RETRACTED 3); 352 register rows match (DECLINED 3, DONE 203, QUEUED 146)",
+  "matches": [
+   "B1",
+   "B100",
+   "B14",
+   "B1733",
+   "B1788",
+   "B1927",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1962",
+   "B1974",
+   "B1975",
+   "B1978",
+   "B1982",
+   "B3",
+   "B869",
+   "B884",
+   "B949",
+   "B962",
+   "B964",
+   "B965",
+   "B966",
+   "B967",
+   "B968",
+   "B969",
+   "B975",
+   "B978",
+   "B979",
+   "B980",
+   "B981",
+   "B983",
+   "B985",
+   "B987",
+   "B989",
+   "B990",
+   "B993",
+   "B994",
+   "B995",
+   "B997",
+   "B998",
+   "P-854",
+   "P-855",
+   "P-857",
+   "P-859",
+   "P-860",
+   "P-861",
+   "P-862",
+   "P-863",
+   "P-864",
+   "P-865",
+   "P-866",
+   "P-867",
+   "P-870",
+   "P-871",
+   "P-873",
+   "P-874",
+   "P-880",
+   "P-881",
+   "P-882",
+   "P-883"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "THE SIX ON THE FIVE-ALITY LINES (P-340; sealed 33b197340, sha256 4737fdca; PROVED as sealed for its question -- P2, the decisive cell at 0.1%, holds; P1, C1, C2 hold; outputs committed unread at 26c71",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": []
+}

@@ -1,0 +1,20 @@
+{
+ "id": "Q0029",
+ "seat_code": "fam3-v1-high-01",
+ "branch": "agy/cusp-action-2026-11-20",
+ "commit": "8675b26a0608001a342ed077582b47b6d47a45cb",
+ "card_path": "relays/claims/CLAIM_2026-11-27_agy_c68_exact_cyclotomic_weil_unfolding_markoff_jacobian_cubic_and_p775_resultant_ptolemy_proof.md",
+ "title": "Exact cyclotomic non-commutative two-counts Weil unfolding (mod-4 mirror dichotomy and all-3^k chiral index +2), universal Markoff tree Jacobian cubic, and resultant/Ptolemy proof of P-775 across metallic grounds (0 of 19)",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

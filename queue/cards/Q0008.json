@@ -1,0 +1,32 @@
+{
+ "id": "Q0008",
+ "seat_code": "fam2-v1-unset-01",
+ "branch": "audit/physical-bridge-2026-09-05",
+ "commit": "2de93d2e65125601804e66dbc1f8631e9d9ec55c",
+ "card_path": "relays/claims/CLAIM_2026-11-27_C8_two_registers.md",
+ "title": "A geometric register and its dihedral sheet lift in the same E8 connection take the peripheral adjoint spin kernel from eight to zero",
+ "status": "OFFERED",
+ "deciding": true,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  },
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "REPRODUCED",
+   "by": "runner",
+   "note": "the rerun at the sealed commit: 8 decisive lines, hash 492c13a824e75833; the control exited 1; guard: sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]"
+  },
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "OFFERED",
+   "by": "runner",
+   "note": "offered to fam3-v1-high-03 on agy-002/verify (queue/OFFERS.json)"
+  }
+ ]
+}

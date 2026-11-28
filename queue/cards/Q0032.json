@@ -1,0 +1,20 @@
+{
+ "id": "Q0032",
+ "seat_code": "fam3-v1-high-01",
+ "branch": "agy/cusp-action-2026-11-20",
+ "commit": "32708a3c34522853649024a21cf6e3cae8485832",
+ "card_path": "relays/claims/CLAIM_2026-11-28_agy_six_move_rate_not_a_function_of_cos_alone.md",
+ "title": "the six-move slow rate is not a function of cos(pi/M) alone: at the five levels of B2015 it fits no polynomial in cos(pi/M) of degree 1 to 3",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "Q0013",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p631_two_loops_in_the_queue_form.md",
+ "title": "P-631: on the fibre, the sunset of three massless propagators joined by cubic vertices repeats the one-loop shape (C₁,₁,₁ = E₃ + ζ(3), checked numerically) while the quartic figure-eight brings E₂², numerically outside the span of 1, E₂ to ",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

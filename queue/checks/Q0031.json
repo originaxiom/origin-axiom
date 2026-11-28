@@ -1,0 +1,108 @@
+{
+ "terms": {
+  "codes": [
+   "B1996",
+   "B2015",
+   "LISTENING 29",
+   "P-882"
+  ],
+  "words": [
+   "checked",
+   "depends",
+   "p-tower",
+   "prime",
+   "six-move"
+  ],
+  "words_left_out": []
+ },
+ "producer_sweep": "B2015 states the rate's value at each level it ran; the law in the prime alone is not on main",
+ "topic": {
+  "regex": "B1996|B2015|LISTENING\\ 29|P\\-882|checked|depends|p\\-tower|prime|six\\-move",
+  "verdict": "VERDICT topic-sweep /B1996|B2015|LISTENING\\ 29|P\\-882|checked|depends|p\\-tower|prime|six\\-move/: 281 of 1760 arcs on main match (NEGATIVE 26, OPEN 20, PROVED 233, RETRACTED 2); 166 register rows match (DECLINED 1, DONE 87, QUEUED 78)",
+  "matches": [
+   "B1724",
+   "B1917",
+   "B1927",
+   "B1928",
+   "B1929",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1959",
+   "B1962",
+   "B1965",
+   "B1967",
+   "B1974",
+   "B1975",
+   "B1982",
+   "B1996",
+   "B2015",
+   "B3",
+   "B500",
+   "B700",
+   "B862",
+   "B909",
+   "B942",
+   "B949",
+   "B953",
+   "B957",
+   "B958",
+   "B961",
+   "B964",
+   "B965",
+   "B966",
+   "B975",
+   "B976",
+   "B978",
+   "B979",
+   "B982",
+   "B983",
+   "B984",
+   "B985",
+   "B986",
+   "B988",
+   "B989",
+   "B990",
+   "B996",
+   "B997",
+   "P-846",
+   "P-847",
+   "P-848",
+   "P-853",
+   "P-857",
+   "P-860",
+   "P-861",
+   "P-863",
+   "P-865",
+   "P-866",
+   "P-868",
+   "P-870",
+   "P-871",
+   "P-873",
+   "P-875",
+   "P-876",
+   "P-879",
+   "P-880",
+   "P-882",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "LISTENING 13, THE EXACT IDENTITY OF THE WHOLE'S SETTLED RATE (PROVED, exact; data-free): lambda* (B1996's settled slowest rate at the whole's own prime 3) is a root of the irreducible x^12 - 3x^10 + 3",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [
+  "Q0005"
+ ],
+ "firewall": []
+}

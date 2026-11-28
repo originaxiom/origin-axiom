@@ -1,0 +1,20 @@
+{
+ "id": "Q0031",
+ "seat_code": "fam3-v1-high-01",
+ "branch": "agy/cusp-action-2026-11-20",
+ "commit": "32708a3c34522853649024a21cf6e3cae8485832",
+ "card_path": "relays/claims/CLAIM_2026-11-28_agy_six_move_rate_depends_on_the_prime_only.md",
+ "title": "on every p-tower the six-move slow rate depends on the prime only: from p^3 on it is 2 sqrt(5 + 4 cos(pi/p)), checked at mod 27, 125 and 343",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

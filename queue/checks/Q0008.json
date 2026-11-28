@@ -1,0 +1,125 @@
+{
+ "terms": {
+  "codes": [
+   "P-876"
+  ],
+  "words": [
+   "adjoint",
+   "connection",
+   "dihedral",
+   "eight",
+   "geometric",
+   "kernel"
+  ],
+  "words_left_out": [
+   "peripheral",
+   "register",
+   "sheet"
+  ]
+ },
+ "producer_sweep": "git grep -in -E 'physical-c8|GEOMETRIC_REGISTER_INSIDE|TWO_REGISTERS_IN_ONE|GEOMETRIC_E8_HOLONOMY' origin/main -- docs relays found the November 20 relay in harvest row 1987 and the relay ledger under P-876. B1957 concerns the earlier tick calculation.",
+ "topic": {
+  "regex": "P\\-876|adjoint|connection|dihedral|eight|geometric|kernel",
+  "verdict": "VERDICT topic-sweep /P\\-876|adjoint|connection|dihedral|eight|geometric|kernel/ (aliases: democratic): 529 of 1760 arcs on main match (NEGATIVE 97, OPEN 33, PROVED 395, RETRACTED 4); 245 register rows match (DECLINED 4, DONE 146, LEAD 1, QUEUED 94)",
+  "matches": [
+   "B1788",
+   "B1927",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1959",
+   "B1962",
+   "B1965",
+   "B1967",
+   "B1974",
+   "B1975",
+   "B1982",
+   "B3",
+   "B884",
+   "B9",
+   "B909",
+   "B95",
+   "B953",
+   "B954",
+   "B955",
+   "B956",
+   "B958",
+   "B959",
+   "B960",
+   "B961",
+   "B962",
+   "B963",
+   "B964",
+   "B965",
+   "B968",
+   "B969",
+   "B975",
+   "B978",
+   "B98",
+   "B984",
+   "B987",
+   "B99",
+   "B995",
+   "P-859",
+   "P-860",
+   "P-861",
+   "P-862",
+   "P-863",
+   "P-864",
+   "P-865",
+   "P-866",
+   "P-867",
+   "P-868",
+   "P-870",
+   "P-871",
+   "P-872",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-879",
+   "P-880",
+   "P-882",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "THE SPENDING ORDER (SPENDING_ORDER.md harvest; synthesis of banked facts + B1114's two verified computations): the free-bit spendings carry a FORCED definitional-dependency DAG -- D0 rule (B1083) -> D",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": [
+  "±"
+ ],
+ "rerun": {
+  "status": "REPRODUCED",
+  "reasons": [],
+  "commit": "2de93d2e65125601804e66dbc1f8631e9d9ec55c",
+  "guard": "sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]",
+  "versions": {
+   "python": "3.14.4",
+   "mpmath": "1.3.0",
+   "sympy": "1.14.0",
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "python-flint": "0.9.0"
+  },
+  "pins_differ": [],
+  "seconds": 0.7,
+  "output_sha256": "492c13a824e75833",
+  "decisive": {
+   "lines": 8,
+   "sha256": "492c13a824e75833"
+  },
+  "control_exit": 1
+ }
+}

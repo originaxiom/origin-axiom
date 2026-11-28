@@ -1,0 +1,20 @@
+{
+ "id": "Q0022",
+ "seat_code": "fam3-v1-high-03",
+ "branch": "agy-002/verify",
+ "commit": "31f24c2c1dc54d541c5a0ded99ad0cf648af55d2",
+ "card_path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_pure3_r384_r614_r635_verification.md",
+ "title": "Blind cross-family second computation verifying SM-R384 (2/5 cusp and universal Galois bit), SM-R614 (E_6 27 singlet discrete remnant and Spin(10)/SU(5) stabilizers), and SM-R635 (boundary-free ad Q_8 cohomology, kappa Hessian diag(8,8,8), ",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

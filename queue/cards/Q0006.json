@@ -1,0 +1,20 @@
+{
+ "id": "Q0006",
+ "seat_code": "fam1-v1-unset-01",
+ "branch": "main",
+ "commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "card_path": "relays/claims/CLAIM_2026-11-27_B2016_main_trial.md",
+ "title": "B2016: the whole's small group with the same six moves, on the cosets of every class of its subgroups (45 at mod 27, 100 at mod 81), halves in the whole's form on 4 and 8 of them, the whole's own orbit among them; so the halving is a proper",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": true,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "Q0030",
+ "seat_code": "fam3-v1-high-01",
+ "branch": "agy/cusp-action-2026-11-20",
+ "commit": "cb1412fd0e51e9f506734618290be0dbac75a6b1",
+ "card_path": "relays/claims/CLAIM_2026-11-28_agy_c70_3adic_legendre_gap_mod2187_plateau_diagonal_weil_bundles_and_curved_moser_secular_cancellation.md",
+ "title": "Klein-four Hensel section, Legendre divided-power gap law, and mod-2187 plateau for B2007, diagonal Weil quantum bundles (+6 chiral index), and curved-Moser secular cancellation for P-775 (0 of 19)",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

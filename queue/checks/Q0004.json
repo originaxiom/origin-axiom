@@ -1,0 +1,118 @@
+{
+ "terms": {
+  "codes": [
+   "B2004",
+   "B2011",
+   "LISTENING 28",
+   "P-882"
+  ],
+  "words": [
+   "commute",
+   "element",
+   "exactly",
+   "fixed",
+   "halving",
+   "holds"
+  ],
+  "words_left_out": [
+   "moves",
+   "nothing",
+   "orbits",
+   "point",
+   "points",
+   "sister",
+   "three",
+   "tower",
+   "tried",
+   "unchanged",
+   "walks"
+  ]
+ },
+ "producer_sweep": "the arc itself, B2014, landed at 18c1b8ac2; this card is filed after the arc's run (post hoc to it)",
+ "topic": {
+  "regex": "B2004|B2011|LISTENING\\ 28|P\\-882|commute|element|exactly|fixed|halving|holds",
+  "verdict": "VERDICT topic-sweep /B2004|B2011|LISTENING\\ 28|P\\-882|commute|element|exactly|fixed|halving|holds/: 845 of 1760 arcs on main match (NEGATIVE 130, OPEN 50, PROVED 661, RETRACTED 4); 318 register rows match (DECLINED 9, DONE 196, QUEUED 113)",
+  "matches": [
+   "B1",
+   "B100",
+   "B1088",
+   "B1788",
+   "B1927",
+   "B1933",
+   "B1945",
+   "B1946",
+   "B1952",
+   "B1959",
+   "B1962",
+   "B1963",
+   "B1965",
+   "B1967",
+   "B1982",
+   "B1999",
+   "B2004",
+   "B2011",
+   "B3",
+   "B500",
+   "B869",
+   "B884",
+   "B949",
+   "B978",
+   "B979",
+   "B980",
+   "B981",
+   "B983",
+   "B985",
+   "B986",
+   "B987",
+   "B988",
+   "B989",
+   "B99",
+   "B990",
+   "B991",
+   "B992",
+   "B993",
+   "B994",
+   "B995",
+   "B996",
+   "B997",
+   "B998",
+   "P-853",
+   "P-855",
+   "P-859",
+   "P-860",
+   "P-861",
+   "P-862",
+   "P-864",
+   "P-865",
+   "P-866",
+   "P-868",
+   "P-870",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-876",
+   "P-878",
+   "P-879",
+   "P-882",
+   "P-884",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "# B2000 — Listening 15: agy-exp's native interactions checked on main — at ω's own point (3,3,3) the whole separates the neutral member from the charged pair, 14 : 5, and the pair  || VERDICT: LISTENI",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [
+  "Q0001"
+ ],
+ "firewall": []
+}

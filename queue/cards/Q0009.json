@@ -1,0 +1,20 @@
+{
+ "id": "Q0009",
+ "seat_code": "fam2-v1-unset-01",
+ "branch": "audit/physical-bridge-2026-09-05",
+ "commit": "ba8eaf8b88b810c0858ab6431bb2736b906e7efa",
+ "card_path": "relays/claims/CLAIM_2026-11-28_every_orbit_meets_the_plane_x_equals_y.md",
+ "title": "every orbit of L, R and their inverses on (Z/N)^3 meets the plane x = y, at N = 5, 7, 11, 13 and 25, so the census of orbits can be taken on the plane",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

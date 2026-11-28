@@ -1,0 +1,20 @@
+{
+ "id": "Q0028",
+ "seat_code": "fam3-v1-high-01",
+ "branch": "agy/cusp-action-2026-11-20",
+ "commit": "76d9799dfd48474c7ac6eaf2ef53edd13f383e46",
+ "card_path": "relays/claims/CLAIM_2026-11-27_agy_c66_two_counts_prime5_parabolic_systoles_leg5_golden_walk_and_bloch_sos.md",
+ "title": "Two-counts all-prime P^1(F_p) classification, unique p = 5 parabolic (3, 3, 3) systole split and Leg(5) golden walk, diagonal O_27 x Fiber_p bundles, and full-Bloch-sphere PF5 SOS systole selection (0 of 19)",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "terms": {
+  "codes": [
+   "B2002",
+   "B2005",
+   "B2011",
+   "LISTENING 26",
+   "P-882"
+  ],
+  "words": [
+   "charged",
+   "correlations",
+   "fixed",
+   "keeps",
+   "orbit",
+   "points"
+  ],
+  "words_left_out": [
+   "roots",
+   "tables",
+   "three",
+   "through",
+   "unpaired"
+  ]
+ },
+ "producer_sweep": "the arc itself, B2011, landed at bfa70cba3; this card is filed after the arc's run (post hoc to it)",
+ "topic": {
+  "regex": "B2002|B2005|B2011|LISTENING\\ 26|P\\-882|charged|correlations|fixed|keeps|orbit|points",
+  "verdict": "VERDICT topic-sweep /B2002|B2005|B2011|LISTENING\\ 26|P\\-882|charged|correlations|fixed|keeps|orbit|points/: 519 of 1760 arcs on main match (NEGATIVE 76, OPEN 36, PROVED 406, RETRACTED 1); 277 register rows match (DECLINED 2, DONE 159, QUEUED 116)",
+  "matches": [
+   "B1088",
+   "B1788",
+   "B1927",
+   "B1933",
+   "B1945",
+   "B1946",
+   "B1951",
+   "B1952",
+   "B1959",
+   "B1962",
+   "B1963",
+   "B1965",
+   "B1967",
+   "B1982",
+   "B1999",
+   "B2002",
+   "B2005",
+   "B2011",
+   "B3",
+   "B949",
+   "B958",
+   "B959",
+   "B962",
+   "B964",
+   "B965",
+   "B966",
+   "B967",
+   "B968",
+   "B969",
+   "B975",
+   "B977",
+   "B978",
+   "B979",
+   "B985",
+   "B99",
+   "B990",
+   "B991",
+   "B993",
+   "B995",
+   "B996",
+   "B997",
+   "P-856",
+   "P-859",
+   "P-860",
+   "P-861",
+   "P-863",
+   "P-864",
+   "P-866",
+   "P-868",
+   "P-870",
+   "P-871",
+   "P-872",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-878",
+   "P-879",
+   "P-882",
+   "P-883",
+   "P-884",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "THE MIRROR SECTOR POSED: THE RESIDUAL FREEDOM IS 48, AND R11'S ARITHMETIC SAYS DO NOT SPEND THE LAST ROW. Of KIND_TABLE's four coupling rows, tones, probability and phases are all CONSUMED with decisi",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [],
+ "firewall": [],
+ "rerun": {
+  "status": "REPRODUCED",
+  "reasons": [],
+  "commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+  "guard": "sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]",
+  "versions": {
+   "python": "3.14.4",
+   "mpmath": "1.3.0",
+   "sympy": "1.14.0",
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "python-flint": "0.9.0"
+  },
+  "pins_differ": [],
+  "seconds": 49.9,
+  "output_sha256": "afd9ae49eee43c48",
+  "decisive": {
+   "lines": 5,
+   "sha256": "c08b4b302f96caf5"
+  },
+  "control_exit": 1
+ }
+}

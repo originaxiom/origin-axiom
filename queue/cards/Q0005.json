@@ -1,0 +1,20 @@
+{
+ "id": "Q0005",
+ "seat_code": "fam1-v1-unset-01",
+ "branch": "main",
+ "commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "card_path": "relays/claims/CLAIM_2026-11-27_B2015_main_trial.md",
+ "title": "B2015: on the largest orbit over the common point the six-move sum's largest eigenvalue below 6 is exactly 2 sqrt(5 + 4 cos(pi/M)) at mod 27, 81, 125, 343 (its minimal polynomial divides the characteristic polynomial over Z) and 625 (modulo",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

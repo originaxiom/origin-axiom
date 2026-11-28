@@ -1,0 +1,20 @@
+{
+ "id": "Q0023",
+ "seat_code": "fam3-v1-high-03",
+ "branch": "agy-002/verify",
+ "commit": "080441e86287d7edf5b961d73f9a6ce656380b3a",
+ "card_path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_r581_structural_package_verification.md",
+ "title": "Blind cross-family second computation verifying SM-R581 (1,199 <=6-tet census manifolds independently extracted from SnapPy, 384/1199 = 0.3203 E_6/2T route rate, 400/400 B993 match, and manifold-independent Z_6, Y, 3/8 structural package) (",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

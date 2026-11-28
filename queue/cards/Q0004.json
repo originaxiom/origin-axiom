@@ -1,0 +1,20 @@
+{
+ "id": "Q0004",
+ "seat_code": "fam1-v1-unset-01",
+ "branch": "main",
+ "commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "card_path": "relays/claims/CLAIM_2026-11-27_B2014_main_trial.md",
+ "title": "B2014: the six moves are two walks, W+ = L + X + R^-1 and W- = R + L^-1 + X^-1, which commute exactly; mod 27 has three 72-point sister orbits, and on (3,3,15), with no fixed point of C, the halving holds with nothing left out; fixed points",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

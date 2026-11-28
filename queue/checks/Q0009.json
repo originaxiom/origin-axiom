@@ -1,0 +1,103 @@
+{
+ "terms": {
+  "codes": [
+   "B2004",
+   "B2017",
+   "LISTENING 31",
+   "P-882"
+  ],
+  "words": [
+   "census",
+   "inverses",
+   "meets",
+   "orbit",
+   "orbits",
+   "plane"
+  ],
+  "words_left_out": [
+   "taken"
+  ]
+ },
+ "producer_sweep": "B2017's census counts the orbits at the levels it ran; the reduction to the plane is not on main",
+ "topic": {
+  "regex": "B2004|B2017|LISTENING\\ 31|P\\-882|census|inverses|meets|orbit|orbits|plane",
+  "verdict": "VERDICT topic-sweep /B2004|B2017|LISTENING\\ 31|P\\-882|census|inverses|meets|orbit|orbits|plane/: 324 of 1760 arcs on main match (NEGATIVE 41, OPEN 25, PROVED 258); 160 register rows match (DECLINED 3, DONE 102, QUEUED 55)",
+  "matches": [
+   "B1724",
+   "B1788",
+   "B1839",
+   "B1868",
+   "B1915",
+   "B1922",
+   "B1923",
+   "B1927",
+   "B1928",
+   "B1945",
+   "B1946",
+   "B1962",
+   "B1982",
+   "B2004",
+   "B2017",
+   "B3",
+   "B909",
+   "B916",
+   "B928",
+   "B939",
+   "B941",
+   "B942",
+   "B944",
+   "B945",
+   "B946",
+   "B958",
+   "B962",
+   "B966",
+   "B968",
+   "B969",
+   "B985",
+   "B990",
+   "B993",
+   "B995",
+   "B996",
+   "B997",
+   "P-720",
+   "P-758",
+   "P-767",
+   "P-769",
+   "P-774",
+   "P-776",
+   "P-804",
+   "P-809",
+   "P-812",
+   "P-831",
+   "P-844",
+   "P-845",
+   "P-847",
+   "P-855",
+   "P-859",
+   "P-860",
+   "P-861",
+   "P-872",
+   "P-873",
+   "P-874",
+   "P-882",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "L187 THE DEPTH-CLOSURE SITTING -- the seven under-proved kills dispositioned, each on its named stabilization, with the verifiers themselves re-verified. THE REGISTRATION CORRECTION: L187's 'none exec",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [
+  "Q0007"
+ ],
+ "firewall": []
+}

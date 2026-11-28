@@ -1,0 +1,20 @@
+{
+ "id": "Q0016",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p879_m3_in_the_queue_form.md",
+ "title": "seat fam3-v1-high-03's two-sector floor M3 holds on 120 000 sampled trials under the one-doublet rule it states, H_u = conj(h)·σ, and fails on 58 when one Higgs is read alike in both sectors, down to ρ = 0.022 against F = 0.074 at |V₃₃| = 0",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

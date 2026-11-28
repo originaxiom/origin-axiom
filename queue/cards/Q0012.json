@@ -1,0 +1,20 @@
+{
+ "id": "Q0012",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p630_deviation_spectrum_in_the_queue_form.md",
+ "title": "P-630 at V = 0: every metallic trace map T_m (m = 1 to 8) has the spectrum y = 0, −2, +2 at its cone point, and with one unit for every line B1788's exponents over B1785's 41 lines do not lie in the cone points' spectrum; the golden chain's",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

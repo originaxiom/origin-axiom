@@ -1,0 +1,20 @@
+{
+ "id": "Q0033",
+ "seat_code": "fam1-v1-unset-04",
+ "branch": "sm/cards",
+ "commit": "522837e8c9e076753ce7e45a348a2780a1415d13",
+ "card_path": "relays/claims/CLAIM_2026-11-27_b1380_the_puncture_refiled.md",
+ "title": "the golden substitution is realized by a homeomorphism only on the once-punctured torus, among the surfaces whose fundamental group is F2, so the chain's puncture follows from its carrier axiom",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

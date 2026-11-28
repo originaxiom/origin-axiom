@@ -1,0 +1,20 @@
+{
+ "id": "Q0025",
+ "seat_code": "fam3-v1-high-03",
+ "branch": "agy-002/verify",
+ "commit": "aa90abcc1aa5dc06979c861108f0e65f3520471b",
+ "card_path": "relays/claims/CLAIM_2026-11-27_a2_weil_chiral_lattice_bridge.md",
+ "title": "All-odd-N quadratic-reciprocity Weil chiral index and parity-split theorem, explicit Leg(5) Weil-triplet intertwiner and O_27 x Weil_N chiral freezing, analytic lattice Weil-theta interior stabilization at L_15, and discriminant-15 genus ra",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

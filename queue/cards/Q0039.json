@@ -1,0 +1,20 @@
+{
+ "id": "Q0039",
+ "seat_code": "fam1-v1-unset-04",
+ "branch": "sm/cards",
+ "commit": "ba21b0a50bf5003f61e2cdfd92ca46af5eaa5a8d",
+ "card_path": "relays/claims/CLAIM_2026-11-27_m000_harmonic_frame_refiled.md",
+ "title": "on m000 and its odd cyclic levels the first-order projective deformation exists only twisted by the orientation, and frame F-HE's count at q = 1 is zero on every character of levels 1, 3, 5 and 7, with no generation-shaped member at levels ",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

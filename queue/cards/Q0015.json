@@ -1,0 +1,20 @@
+{
+ "id": "Q0015",
+ "seat_code": "fam1-v1-unset-03",
+ "branch": "chat1/web-seat",
+ "commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+ "card_path": "relays/claims/CLAIM_2026-11-28_p633_weaves_switch_in_the_queue_form.md",
+ "title": "P-633: Mayer's transfer operator has spectral radius 1 at s = 1 (to 1e-27) with one sign change of λ₁ − 1 on the grid s = 0.80, 0.85, …, 1.20, and the Gauss–Kuzmin–Wirsing constant and the Lyapunov exponent as controls; so, read as a weight",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

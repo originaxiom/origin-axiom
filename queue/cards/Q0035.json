@@ -1,0 +1,20 @@
+{
+ "id": "Q0035",
+ "seat_code": "fam1-v1-unset-04",
+ "branch": "sm/cards",
+ "commit": "38bfc9ad6a8d89403f54d49c20029c25aef9a454",
+ "card_path": "relays/claims/CLAIM_2026-11-27_c11_two_doublets_refiled.md",
+ "title": "the two-doublet dictionary fixes neither C11's K nor B1674's k_u + k_d; I-31 stays priced, per frame",
+ "status": "FILED",
+ "deciding": null,
+ "heavy": false,
+ "refiles": [],
+ "history": [
+  {
+   "at": "2026-11-28T12:45:04Z",
+   "status": "FILED",
+   "by": "runner",
+   "note": "found on its branch"
+  }
+ ]
+}

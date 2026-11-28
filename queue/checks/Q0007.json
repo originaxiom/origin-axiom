@@ -1,0 +1,119 @@
+{
+ "terms": {
+  "codes": [
+   "B2011",
+   "B2014",
+   "B2016",
+   "LISTENING 31",
+   "P-882"
+  ],
+  "words": [
+   "above",
+   "exactly",
+   "halving",
+   "holds",
+   "moves",
+   "orbit"
+  ],
+  "words_left_out": [
+   "orbits",
+   "point",
+   "points",
+   "prime",
+   "primes",
+   "sisters",
+   "six-move",
+   "three",
+   "whole"
+  ]
+ },
+ "producer_sweep": "the arc itself, B2017, landed at 38dfb2f78; this card is filed after the arc's run (post hoc to it)",
+ "topic": {
+  "regex": "B2011|B2014|B2016|LISTENING\\ 31|P\\-882|above|exactly|halving|holds|moves|orbit",
+  "verdict": "VERDICT topic-sweep /B2011|B2014|B2016|LISTENING\\ 31|P\\-882|above|exactly|halving|holds|moves|orbit/: 810 of 1760 arcs on main match (NEGATIVE 121, OPEN 49, PROVED 636, RETRACTED 4); 322 register rows match (DECLINED 9, DONE 193, QUEUED 120)",
+  "matches": [
+   "B1",
+   "B100",
+   "B1088",
+   "B1788",
+   "B1927",
+   "B1933",
+   "B1945",
+   "B1946",
+   "B1952",
+   "B1962",
+   "B1963",
+   "B1965",
+   "B1967",
+   "B1982",
+   "B1999",
+   "B2011",
+   "B2014",
+   "B2016",
+   "B3",
+   "B500",
+   "B869",
+   "B884",
+   "B949",
+   "B977",
+   "B978",
+   "B979",
+   "B980",
+   "B981",
+   "B983",
+   "B985",
+   "B986",
+   "B987",
+   "B988",
+   "B989",
+   "B990",
+   "B991",
+   "B992",
+   "B993",
+   "B994",
+   "B995",
+   "B996",
+   "B997",
+   "B998",
+   "P-857",
+   "P-859",
+   "P-860",
+   "P-861",
+   "P-862",
+   "P-864",
+   "P-865",
+   "P-866",
+   "P-870",
+   "P-871",
+   "P-872",
+   "P-873",
+   "P-874",
+   "P-875",
+   "P-876",
+   "P-878",
+   "P-879",
+   "P-882",
+   "P-884",
+   "P-885"
+  ]
+ },
+ "banked": {
+  "settled_or_scheduled": true,
+  "lines": [
+   "# B1601 — THE COMMON POINT IS THE GEOMETRY MOD 3: on every odd-trace thread to length eight the fibre's holonomy reduces to the weave's common point at exactly one prime of its tra || VERDICT: THE COM",
+   "",
+   "*** SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN."
+  ]
+ },
+ "retracted": {
+  "premises": [],
+  "phrases": []
+ },
+ "deciding": true,
+ "waits_on": [
+  "Q0001",
+  "Q0004",
+  "Q0006"
+ ],
+ "firewall": []
+}
