@@ -239,14 +239,17 @@ def subgroup_size(vals, inv_tab, mul_tab):
 # ============================================================================
 # 2. Module C1: Exact LLL Minimal Polynomial + Exact Symbolic Gluing Certifier
 # ============================================================================
-def lll_minpoly_complex(val_mpc, max_deg=14, scale_exp=48, tol_exp=32):
+def lll_minpoly_complex(val_mpc, max_deg=22, scale_exp=52, tol_exp=22):
     """Find exact irreducible integer minimal polynomial P(X) in Z[X] of a high-precision
-    complex algebraic number via sympy DomainMatrix.lll on 2D (Re, Im) lattice."""
+    complex algebraic number via sympy DomainMatrix.lll on 2D (Re, Im) lattice.
+    Normalizes by 1/val when |val| > 1.5 so powers never overflow LLL precision."""
+    inverted = (abs(val_mpc) > mp.mpf(3) / 2)
+    z = (mp.mpc(1) / val_mpc) if inverted else val_mpc
     scale = 10 ** scale_exp
     tol = mp.mpf(10) ** (-tol_exp)
     pows = [mp.mpc(1)]
     for _ in range(max_deg):
-        pows.append(pows[-1] * val_mpc)
+        pows.append(pows[-1] * z)
 
     for d in range(1, max_deg + 1):
         rows = []
@@ -262,8 +265,9 @@ def lll_minpoly_complex(val_mpc, max_deg=14, scale_exp=48, tol_exp=32):
             coeffs = [int(mat[r, k]) for k in range(d + 1)]
             if all(c == 0 for c in coeffs):
                 continue
+            max_c = max(abs(c) for c in coeffs)
             val_eval = sum(c * p for c, p in zip(coeffs, pows[:d + 1]))
-            if abs(val_eval) < tol:
+            if abs(val_eval) < tol * max(1, max_c):
                 poly_raw = sp.Poly(list(reversed(coeffs)), X, domain=sp.ZZ)
                 if poly_raw.degree() < 1:
                     continue
@@ -271,21 +275,35 @@ def lll_minpoly_complex(val_mpc, max_deg=14, scale_exp=48, tol_exp=32):
                 for fac, _mult in factors:
                     f_coeffs = [int(c) for c in reversed(fac.all_coeffs())]
                     fev = sum(c * p for c, p in zip(f_coeffs, pows[:len(f_coeffs)]))
-                    if abs(fev) < tol:
+                    if abs(fev) < tol * max(1, max(abs(c) for c in f_coeffs)):
+                        # If we inverted z = 1/val_mpc, reverse polynomial coefficients to get minpoly of val_mpc!
+                        if inverted:
+                            f_coeffs = list(reversed(f_coeffs))
+                        while len(f_coeffs) > 1 and f_coeffs[-1] == 0:
+                            f_coeffs.pop()
                         if f_coeffs[-1] < 0:
                             f_coeffs = [-c for c in f_coeffs]
                         return sp.Poly(list(reversed(f_coeffs)), X, domain=sp.ZZ)
     return None
 
 
-def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=48, tol_exp=30):
+def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=52, tol_exp=20):
     """Express target_mpc = (sum_{k=0}^{deg-1} a_k alpha^k) / q with exact integers a_k, q > 0."""
+    # Scale alpha powers internally if |alpha| > 1.5 using a power-of-2 integer scale S_pow = 2^s
+    s_int = 1
+    while abs(alpha_mpc) > s_int * mp.mpf(3) / 2:
+        s_int *= 2
+    a_scaled = alpha_mpc / s_int
+    t_scale = 1
+    while abs(target_mpc) > t_scale * mp.mpf(3) / 2:
+        t_scale *= 2
+    t_scaled = target_mpc / t_scale
+
     scale = 10 ** scale_exp
     tol = mp.mpf(10) ** (-tol_exp)
     pows = [mp.mpc(1)]
     for _ in range(deg - 1):
-        pows.append(pows[-1] * alpha_mpc)
-    # Lattice rows: 0..deg-1 are alpha^k, row deg is -target_mpc
+        pows.append(pows[-1] * a_scaled)
     rows = []
     for k in range(deg):
         row = [0] * (deg + 3)
@@ -295,8 +313,8 @@ def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=48, tol_exp=30):
         rows.append(row)
     row_t = [0] * (deg + 3)
     row_t[deg] = 1
-    row_t[deg + 1] = int(mp.nint((-target_mpc.real) * scale))
-    row_t[deg + 2] = int(mp.nint((-target_mpc.imag) * scale))
+    row_t[deg + 1] = int(mp.nint((-t_scaled.real) * scale))
+    row_t[deg + 2] = int(mp.nint((-t_scaled.imag) * scale))
     rows.append(row_t)
 
     dm = DomainMatrix.from_Matrix(sp.Matrix(rows)).lll()
@@ -311,9 +329,9 @@ def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=48, tol_exp=30):
         else:
             a_vec = [int(mat[r, k]) for k in range(deg)]
         approx = sum(a * p for a, p in zip(a_vec, pows)) / q
-        if abs(approx - target_mpc) < tol:
-            # Return exact sympy Poly over QQ
-            return sp.Poly([sp.Rational(c, q) for c in reversed(a_vec)], X, domain=sp.QQ)
+        if abs(approx - t_scaled) < tol:
+            # Recover target = t_scale * sum (a_k / (q * s_int^k)) * alpha^k
+            return sp.Poly([sp.Rational(a_vec[k] * t_scale, q * (s_int ** k)) for k in range(deg - 1, -1, -1)], X, domain=sp.QQ)
     return None
 
 
@@ -399,7 +417,7 @@ def analyze_field_and_arithmeticity(m):
     best_alpha = None
     best_zpolys = None
     for alp in cand_alphas:
-        P = lll_minpoly_complex(alp, max_deg=14)
+        P = lll_minpoly_complex(alp, max_deg=22)
         if P is None:
             continue
         d = P.degree()
@@ -438,7 +456,7 @@ def analyze_field_and_arithmeticity(m):
     for w in sq_words:
         Mw = sl2c_eval(w, gmap)
         tr_w = Mw[0] + Mw[3]
-        Pw = lll_minpoly_complex(tr_w, max_deg=max(deg, 12))
+        Pw = lll_minpoly_complex(tr_w, max_deg=max(deg, 22))
         assert Pw is not None, f"Failed trace minpoly for {m['name']} word {w}"
         sq_trace_monic.append(int(Pw.all_coeffs()[0]) == 1)
         sq_trace_degs.append(int(Pw.degree()))
