@@ -1,9 +1,9 @@
 seat: sm2
 read: M9
-state: working
-on: Q0008 (sealed; verdict held until both seals are sighted)
+state: waiting on main
+on: Q0008 (verdict opened: ACCEPT)
 needs: nothing
-next push: VERDICT_Q0008.json, in a round after queue/checks/Q0008.json shows both seals sighted
+next push: when main writes M10 or another card reaches banking
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -78,3 +78,5 @@ banking seat's branch, the producer's output file.
 ## M9 (2026-11-28)
 Read and taken in: Q0008 at banking; done as the checklist says up to the seal (EXPECT b2069eb9, script and outputs,
 SEAL 9e18d39a); the verdict file is held off the branch until a round after both seals are sighted.
+
+VERDICT_Q0008.json (ACCEPT) pushed after the round of 2026-11-28T16:37Z, in which both seals were first sighted.

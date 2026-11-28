@@ -1,0 +1,21 @@
+{
+ "card": "Q0008",
+ "card_commit": "2de93d2e65125601804e66dbc1f8631e9d9ec55c",
+ "seat": "fam1-v1-unset-05",
+ "verdict": "ACCEPT",
+ "reason": "My own recomputation, from the card's definitions and sharing no file with the producer's script, agrees with the card's claim that the peripheral adjoint spin kernel goes from 8 (periodic meridian; 0 antiperiodic) to 0 (both spin structures) when the geometric holonomy is multiplied by its sheet lift. I checked from scratch three things the card imports or cites (K4): (1) the geometric map: the figure-eight group as the 2-bridge knot 5/3, <x,y | wx = yw>, w = x y^-1 x^-1 y, has exactly two parabolic representations into SL(2,F25) with x -> U(1), the roots of Riley's polynomial t^2 - t + 1, and for one of them the longitude wbar w is Z U(-2d), the card's longitude; (2) the sheet: x -> j, y -> r^a j is a homomorphism to the binary dihedral group of order 20 for every a (surjective for a nonzero), and sends the longitude to the identity, as the card says; (3) the spin sign: the involution of PSL(2,25) on the even 13, from the finite Fourier operator scaled to square 1 and determinant 1, has trace 1, so its -1 eigenspace is 6-dimensional and 6/2 is odd: the Spin(13) cover is nonsplit and Z goes to -1 on the spinors. Then, on 248 = L2(13) + 13x3 + L2(3) + 64x2, the longitude has only fifth-root eigenvalues on the vector parts, so only the spinor part can contribute; 4 of the 64 spin weights sit at joint weight (0,0), giving 4 x 2 = 8 periodic and 0 antiperiodic; with the sheet, j puts +-i on the 2 and no meridian eigenvalue there is +-1, giving 0 and 0. Controls (K8): with the sheet dropped my script gives 8 again and fails; with the spin sign forced split the geometric count is 0, so the 8 rests on the sign, which I computed rather than assumed. Choices (K7): the longitude's orientation U(+-2d), the Galois-conjugate module and another marking of the meridian leave 8 -> 0 unchanged. The verdict is conditional on hypotheses I used and did not rebuild: the finite Weil formulas (that the Fourier operator and U(v) with weight Tr(2vx^2) represent SL(2,25) on the even 13, and that this module is real), the HSpin(16) in E8 branching 248 = 120 + 128 with 128 = 64x2 under Spin(13) x Spin(3), and my reading that the sheet lift lies in the Spin(3) factor beside the 3. I did not check the card's E8 interpretation beyond the count: the centralizer connectedness, the Cohen-Griess existence check and the hand proofs of the embedding and joint image are citations here and are not banked. Scope (K9): one connection, one knot, these marked maps. I did not see the producer's decisive lines (my tooling refused to open its output file); I compare with the counts the card states.",
+ "script": {
+  "path": "relays/claims/banking/code/sm2_Q0008_kernel.py",
+  "sha256": "f9b51e1d3847c5b2",
+  "run_as": "python3 relays/claims/banking/code/sm2_Q0008_kernel.py",
+  "control": "python3 relays/claims/banking/code/sm2_Q0008_kernel.py --no-sheet"
+ },
+ "decisive": {
+  "lines": 2,
+  "sha256": "28cafe1deb8f89ed"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first"
+ ]
+}
