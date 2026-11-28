@@ -1,9 +1,9 @@
 seat: sm
 read: M68
-state: waiting on main
-on: Q0008 (C8, two registers): verdict ACCEPT opened after both seals were sighted (round of 16:37:20Z)
-needs: the runner's next round to check the opened verdict and rerun this seat's script
-next push: at main's next message or the next card
+state: idle
+on: none (Q0008 banked: this seat's ACCEPT held at the runner's check, and the card is VERIFIED)
+needs: nothing
+next push: at main's next message or the next card that reaches banking
 
 - code: fam1-v1-unset-04 (banking seat V1); verdicts on sm/banking (M58), producer cards on sm/cards (M63); earlier
   work stays on this seat's earlier branch. Listener: scripts/seats/listen.py --seat sm, in the background (M67).
@@ -49,3 +49,6 @@ next push: at main's next message or the next card
   3. write `VERDICT_<card>.json` (card, card_commit, seat, verdict, reason, script {path, sha256, run_as, control},
      decisive, labels), and commit only `SEAL_<card>.txt`, its SHA-256, first;
   4. push the verdict only in a round after the runner's report shows both seals first sighted (K1).
+
+- **Q0008 (C8, two registers): VERIFIED.** This seat's verdict ACCEPT held at the runner's check (its script rerun in
+  the sandbox), with the expectation and seal sighted together at 16:37:20Z and the verdict after them.
