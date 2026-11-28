@@ -1,0 +1,9 @@
+DECISIVE: E1 U(1) of order 5, Z U(-2d) of order 10, commuting: True
+DECISIVE: E2 parabolic representations over F_25 at t = ['3+2d', '3+3d']; lambda = Z U(c) there with c = ['0+2d', '0+3d']; c in {2d, -2d}: True
+  -1 is a square in F_25: True (so Z acts as +1 on the even Weil module)
+DECISIVE: E3 six opposite planes: True; 64 spinor weights with (0, 0) 4 times; the card's half-weight rule agrees: True
+DECISIVE: E4 geometric (periodic, antiperiodic) = (8, 0), periodic in 120 and 128: (0, 8); joined = (0, 0); joined meridian-square phases on the 128: [2, 6, 10, 14, 18]; as the card says: True
+  with c = +2d instead: geometric (8, 0)
+DECISIVE: E5 central elements acting trivially on the 248: [(1, 1), (-1, -1)]: True
+DECISIVE: E6 BD_5 of order 20 with its relations: True; onto homomorphisms with a, b in class(j): 20, with class(j^-1) too: 40; all send lambda to 1 and a^2 to -1: True; as the card says: True
+DECISIVE: VERDICT: the card holds where this seat checks it (E1-E6): True

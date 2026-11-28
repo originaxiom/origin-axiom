@@ -18,8 +18,8 @@ lift"); this script finds it its own way: half-weights h with 2h = 4w mod 20 cho
 summed over the six planes with all signs, and each element's lift negated (its weights + 10) if 5 s = 0 mod 20 fails.
 A count is the number of states of the 248 with (m, l) phases (0, 10) (periodic) or (10, 10) (antiperiodic) mod 20.
 The figure-eight group as a 2-bridge knot group b(5, 3): <a, b | a w = w b>, w = b a^-1 b^-1 a; its longitude
-lambda = w w* (w* = w read backwards; the exponent sum of w is 0). (The first run had w* w here; see below.) BD_5 = {j^e r^k}, r^5 = 1, j^4 = 1,
-r^k j = j r^-k.
+lambda = w w* (w* = w read backwards; the exponent sum of w is 0). (The first run had w* w here; see below.)
+BD_5 = {j^e r^k}, r^5 = 1, j^4 = 1, r^k j = j r^-k.
 
 THE CONDITION, written before any of this was run. The card holds where this seat checks it if and only if all of:
   E1. In SL(2, F_25), U(1) has order 5, Z U(-2d) order 10, and they commute.
