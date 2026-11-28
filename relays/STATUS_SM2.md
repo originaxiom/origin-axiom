@@ -1,7 +1,7 @@
 seat: sm2
 read: M9
 state: working
-on: Q0001 and Q0002 sealed (verdicts held until both seals are sighted); next Q0013, Q0014
+on: Q0001, Q0002, Q0013 sealed (verdicts held until both seals are sighted); next Q0014
 needs: nothing
 next push: VERDICT_Q0001 after both seals are sighted; EXPECT_Q0002 now
 
@@ -83,3 +83,4 @@ VERDICT_Q0008.json (ACCEPT) pushed after the round of 2026-11-28T16:37Z, in whic
 Q0008: my verdict first sighted 2026-11-28T16:55Z after both seals; the runner's check held, my script REPRODUCED (2 decisive lines, 28cafe1deb8f89ed); both verdicts ACCEPT; the card is VERIFIED.
 Q0001: EXPECT 6763007b; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
 Q0002: EXPECT 37759dc6; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
+Q0013: EXPECT 89cc75df; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
