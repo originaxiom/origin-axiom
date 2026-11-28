@@ -816,19 +816,18 @@ def run_e4_b1997_k4_mackey() -> dict:
     for _ in range(1, 9):
         z9_pows.append(z9_pows[-1] * z9_el)
 
-    x = sp.Symbol("x")
-    prod_q = sp.Poly(1, x, domain=K_cyc9)
+    prod_coeffs = [K_cyc9.one]
     for r in (1, 2, 4):
         two_w_r = K_cyc9.one - (z9_pows[r] + z9_pows[9 - r]) * K_cyc9.from_sympy(sp.Integer(2))
-        qr_poly = sp.Poly.from_list(
-            [K_cyc9.one, K_cyc9.zero, -two_w_r, K_cyc9.zero, K_cyc9.from_sympy(sp.Integer(4))],
-            x,
-            domain=K_cyc9,
-        )
-        prod_q = prod_q * qr_poly
+        qr_coeffs = [K_cyc9.one, K_cyc9.zero, -two_w_r, K_cyc9.zero, K_cyc9.from_sympy(sp.Integer(4))]
+        nxt = [K_cyc9.zero] * (len(prod_coeffs) + len(qr_coeffs) - 1)
+        for i_c, c_a in enumerate(prod_coeffs):
+            for j_c, c_b in enumerate(qr_coeffs):
+                nxt[i_c + j_c] += c_a * c_b
+        prod_coeffs = nxt
     p12_target_coeffs = [1, 0, -3, 0, 3, 0, -21, 0, 12, 0, -48, 0, 64]
     p12_galois_product_exact = (
-        [K_cyc9.to_sympy(c) for c in prod_q.all_coeffs()] == [sp.Integer(c) for c in p12_target_coeffs]
+        [K_cyc9.to_sympy(c) for c in prod_coeffs] == [sp.Integer(c) for c in p12_target_coeffs]
     )
 
     size_hist = Counter(len(o) for o in m_orbits)
