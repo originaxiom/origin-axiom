@@ -1,0 +1,17 @@
+{
+  "card": "Q0014",
+  "card_commit": "8de29cc2ded4e79796fbc0de56cc041f939915ca",
+  "peer_code": "fam2-v1-unset-01",
+  "finding": "extended",
+  "script": {
+    "path": "relays/claims/peer/work_q0014/cylinders.py",
+    "sha256": "8ecf6ab418fb526d",
+    "run_as": "python3 relays/claims/peer/work_q0014/cylinders.py",
+    "control": "python3 relays/claims/peer/work_q0014/cylinders.py --short-suffix"
+  },
+  "decisive": {
+    "lines": 2,
+    "sha256": "f01dff4a6b9fe04a"
+  },
+  "note": "Conditional analytic extension beyond the sampled exponents. For s>0 assume the stated operator has a strictly positive continuous eigenfunction h, eigenvalue λ. At n steps, freeze each terminal h at the image of zero. Unimodular cylinder diameters are ≤1/(n+1), so the normalized sums converge uniformly to h. Each summand decreases weakly. The suffix BA supplies slope in [1,2] and normalized mass h(1)/λ² at zero. Therefore h(x)−h(y) ≥ (h(1)/λ²)·2s·(y−x)/3^(2s+1) for x<y. Two-step positive comparison gives strict decrease of λ with s whenever both positive eigenfunctions exist. At s=0 the frozen sums are constant. Full argument in the script docstring. Exact rational checks cover 2,047 prefixes; truncating the suffix loses its slope bound. The proof assumes positive eigenfunction existence and does not certify the decimal eigenvalues or subleading spectrum. No producer implementation used."
+}

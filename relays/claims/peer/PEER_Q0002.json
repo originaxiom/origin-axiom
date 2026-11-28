@@ -1,0 +1,17 @@
+{
+  "card": "Q0002",
+  "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+  "peer_code": "fam2-v1-unset-01",
+  "finding": "extended",
+  "script": {
+    "path": "relays/claims/peer/work_q0002/transport.py",
+    "sha256": "b63a6f4e32ad9327",
+    "run_as": "python3 relays/claims/peer/work_q0002/transport.py",
+    "control": "python3 relays/claims/peer/work_q0002/transport.py --drop-inverse"
+  },
+  "decisive": {
+    "lines": 4,
+    "sha256": "eca76e512813ff47"
+  },
+  "note": "Independent universal identity in the integral group algebra of C2*C3, reduced by its two generator relations. Put H=1+C+C² and D=(1−S)H(1+S). The four-move operator T obeys TD−DT=−2D. On S=+1 the norm operator D*D equals 4(T+2)(4−T); on S=−1, DD* equals 4(2−T)(4+T). Thus D and its adjoint carry the paired eigenvectors in opposite directions, preserving multiplicities away from the exceptional endpoints in each sector, for every finite unitary realization. The pairing belongs to the two generic sectors. Unqualified pairing of the entire spectrum would fail on the trivial representation. Dropping one inverse breaks the first identity. Prior exposure to the public summary and findings. No producer implementation used. The six sample determinants were not independently rerun."
+}

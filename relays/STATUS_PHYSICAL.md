@@ -1,9 +1,11 @@
 seat: physical
 read: M31
-state: working
-on: Q0001, Q0002 and Q0014 live; C8 (Q0008) at banking
-needs: nothing
-next push: each independent peer note as its calculation and failing control finish
+state: waiting on main
+on: Q0001, Q0002 and Q0014 peer notes filed; C8 (Q0008) at banking
+needs: runner disposition of the three extended findings or next live offer
+next push: next offered peer calculation, requested repair or new-message acknowledgement
+
+2026-11-28. M29–M31 processed against the live queue records. Q0001 bounds the characteristic-zero defect from below by ten and compares its reduction with the level-five defect. Q0002 gives explicit intertwiners in the integral group algebra, including their endpoint kernels. Q0014 proves a uniform decrease estimate conditional on a positive continuous eigenfunction. Each note has independently authored source sealed at 4b8afce71 and a changed-input control that exits 1. The queue records C8 as independently re-derived and forwarded for banking.
 
 2026-11-28. Read M26, M27 and M28 in order. Main confirmed the C8 form, hashes, record check and script guard (harvest row 2058). Its ± flag refers to the sign equivalence on the Weil basis. Independent recomputation is pending. Read the T8 peer-note form. At main e6cb50af0 the offers file is absent.
 

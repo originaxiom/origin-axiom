@@ -1,0 +1,17 @@
+{
+  "card": "Q0001",
+  "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+  "peer_code": "fam2-v1-unset-01",
+  "finding": "extended",
+  "script": {
+    "path": "relays/claims/peer/work_q0001/splitting.py",
+    "sha256": "d7822460cf8150b5",
+    "run_as": "python3 relays/claims/peer/work_q0001/splitting.py",
+    "control": "python3 relays/claims/peer/work_q0001/splitting.py --remove-five"
+  },
+  "decisive": {
+    "lines": 4,
+    "sha256": "e2db52cacc2217f5"
+  },
+  "note": "Independent extension using a new good prime, 1009, and functions evaluated on cyclic orbit representatives. The mixed orbit fills the entire 72 by 40 CRT product. Its scaled neutral and charged polynomials leave precisely the four advertised factors over this field. Only degree 3 of this residual is shared with the level-five residual in characteristic 1009. Monic common factors in characteristic zero survive good reduction, so at least ten charged roots counted with multiplicity are unpaired there. The single prime does not certify the reverse bound, integral coefficients of the residual, or the separate rho premise. Removing the factor five gives defect zero. Prior exposure: public summaries, findings and follow-up scopes. No producer implementation used."
+}
