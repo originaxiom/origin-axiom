@@ -1,0 +1,13511 @@
+{
+"note": "SnapPy 3.3.2, OrientableCuspedCensus(num_cusps=1), tetrahedra <= 6, fundamental_group() as simplified",
+"count": 1199,
+"manifolds": [
+{
+"name": "m003",
+"tets": 2,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAAbabbb"
+]
+},
+{
+"name": "m004",
+"tets": 2,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabABBAb"
+]
+},
+{
+"name": "m006",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbAAbb"
+]
+},
+{
+"name": "m007",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbAAbb"
+]
+},
+{
+"name": "m009",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabABaaBAb"
+]
+},
+{
+"name": "m010",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaBaaBab"
+]
+},
+{
+"name": "m011",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbbbAb"
+]
+},
+{
+"name": "m015",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbAAbbaBBB"
+]
+},
+{
+"name": "m016",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbAbb"
+]
+},
+{
+"name": "m017",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaaabb"
+]
+},
+{
+"name": "m019",
+"tets": 3,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabAbbAb"
+]
+},
+{
+"name": "m022",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabAAb"
+]
+},
+{
+"name": "m023",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBAbbABabbb"
+]
+},
+{
+"name": "m026",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAbAbb"
+]
+},
+{
+"name": "m027",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaBaaaB"
+]
+},
+{
+"name": "m029",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbbAAbbb"
+]
+},
+{
+"name": "m030",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbbAAbbb"
+]
+},
+{
+"name": "m032",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBAbbbbbABB"
+]
+},
+{
+"name": "m033",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAbbbbbAbb"
+]
+},
+{
+"name": "m034",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbABAbb"
+]
+},
+{
+"name": "m035",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBabbbAAbbb"
+]
+},
+{
+"name": "m036",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAbbaaB"
+]
+},
+{
+"name": "m037",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaaaBBaaab"
+]
+},
+{
+"name": "m038",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBAbbbAB"
+]
+},
+{
+"name": "m039",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabABaaaaBAb"
+]
+},
+{
+"name": "m040",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbabAAb"
+]
+},
+{
+"name": "m043",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbAbb"
+]
+},
+{
+"name": "m044",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabAbbAb"
+]
+},
+{
+"name": "m045",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaBAAAAB"
+]
+},
+{
+"name": "m046",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbbAbbb"
+]
+},
+{
+"name": "m047",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbAbAbb"
+]
+},
+{
+"name": "m049",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAbbbAb"
+]
+},
+{
+"name": "m052",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaabbabb"
+]
+},
+{
+"name": "m053",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abABabbbaBAbaBAbaabAB"
+]
+},
+{
+"name": "m054",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabbbAAbbb"
+]
+},
+{
+"name": "m055",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBaBBabbbaabbb"
+]
+},
+{
+"name": "m058",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabaaBaaaaaB"
+]
+},
+{
+"name": "m059",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBAbbbbbABBabb"
+]
+},
+{
+"name": "m060",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbabbbaaBB"
+]
+},
+{
+"name": "m061",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbAbAbbbb"
+]
+},
+{
+"name": "m062",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbABAbbbb"
+]
+},
+{
+"name": "m064",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaBBaaBBabbb"
+]
+},
+{
+"name": "m066",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbAAbbbbabbb"
+]
+},
+{
+"name": "m067",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBBaaaabAAAb"
+]
+},
+{
+"name": "m069",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAbbbAbb"
+]
+},
+{
+"name": "m070",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaaabbabbb"
+]
+},
+{
+"name": "m071",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaabbAbb"
+]
+},
+{
+"name": "m072",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaabAbbAb"
+]
+},
+{
+"name": "m073",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaaaaaabaaaBB"
+]
+},
+{
+"name": "m074",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaBBBAbbbABBB"
+]
+},
+{
+"name": "m076",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbAbbbbbAbbbb"
+]
+},
+{
+"name": "m077",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabABBAbaabbbaabbb"
+]
+},
+{
+"name": "m078",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBABaabbbb"
+]
+},
+{
+"name": "m079",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaaaaBaaabaab"
+]
+},
+{
+"name": "m080",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBAbbbbbbbbABBB"
+]
+},
+{
+"name": "m081",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaBaaaaB"
+]
+},
+{
+"name": "m082",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbAbbb"
+]
+},
+{
+"name": "m083",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbAAbAAbb"
+]
+},
+{
+"name": "m084",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBaaBaaaaabb"
+]
+},
+{
+"name": "m085",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaaBAAB"
+]
+},
+{
+"name": "m087",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabAAbbbAAb"
+]
+},
+{
+"name": "m089",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaabaaaaaBB"
+]
+},
+{
+"name": "m090",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbABBBAbbbbb"
+]
+},
+{
+"name": "m093",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbAbbbbbbbAbbbb"
+]
+},
+{
+"name": "m094",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBabbbbABBBAbbbb"
+]
+},
+{
+"name": "m095",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbabbbaaBBBB"
+]
+},
+{
+"name": "m096",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBaBBBabbbbaabbbb"
+]
+},
+{
+"name": "m098",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbabbbbaaBBB"
+]
+},
+{
+"name": "m099",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBBBabbbbaaabbbb"
+]
+},
+{
+"name": "m100",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbaab"
+]
+},
+{
+"name": "m102",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbAAAAAbb"
+]
+},
+{
+"name": "m103",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbabbbbbaaBB"
+]
+},
+{
+"name": "m104",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbAbbbbbbbAbbbbb"
+]
+},
+{
+"name": "m105",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBBaaaaabAAAAAAAb"
+]
+},
+{
+"name": "m106",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabAAAbAAAb"
+]
+},
+{
+"name": "m108",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabAAbbAAb"
+]
+},
+{
+"name": "m110",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaaBaaaaaaaaB"
+]
+},
+{
+"name": "m111",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbABBBAbbbbbaBBBBB"
+]
+},
+{
+"name": "m112",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabbAAAbb"
+]
+},
+{
+"name": "m113",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabAAAbbAAAb"
+]
+},
+{
+"name": "m115",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAbbaaBBB"
+]
+},
+{
+"name": "m116",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabAbAbaabb"
+]
+},
+{
+"name": "m117",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbABAbb"
+]
+},
+{
+"name": "m118",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaabbbaabb"
+]
+},
+{
+"name": "m119",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaabbaaabb"
+]
+},
+{
+"name": "m120",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBAbbbbAB"
+]
+},
+{
+"name": "m121",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabbbAbbb"
+]
+},
+{
+"name": "m122",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabaaab"
+]
+},
+{
+"name": "m123",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbAbbbAbb"
+]
+},
+{
+"name": "m130",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbaaabbb"
+]
+},
+{
+"name": "m135",
+"tets": 4,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bccABA",
+"aacbcB"
+]
+},
+{
+"name": "m136",
+"tets": 4,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBAbcc",
+"aaCbcB"
+]
+},
+{
+"name": "m137",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbABBBAbb"
+]
+},
+{
+"name": "m139",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbabaaaab"
+]
+},
+{
+"name": "m140",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbabbaBAAAB"
+]
+},
+{
+"name": "m141",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbabbbaaaabbb"
+]
+},
+{
+"name": "m142",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBabbaBaaaaB"
+]
+},
+{
+"name": "m143",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbaaBB"
+]
+},
+{
+"name": "m144",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBaaaabbaaabb"
+]
+},
+{
+"name": "m145",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaabb"
+]
+},
+{
+"name": "m146",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbaaBAB"
+]
+},
+{
+"name": "m147",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaBaBaabb"
+]
+},
+{
+"name": "m148",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBAbaaaabAB"
+]
+},
+{
+"name": "m149",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaBabb"
+]
+},
+{
+"name": "m150",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaaaBaaaabb"
+]
+},
+{
+"name": "m151",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbAbAbbb"
+]
+},
+{
+"name": "m154",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbAbb"
+]
+},
+{
+"name": "m155",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaBaaaaaB"
+]
+},
+{
+"name": "m157",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaBaaabbb"
+]
+},
+{
+"name": "m159",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaab"
+]
+},
+{
+"name": "m160",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAbaabbaabAb"
+]
+},
+{
+"name": "m161",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabAbbbbAb"
+]
+},
+{
+"name": "m162",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBABaaabbb"
+]
+},
+{
+"name": "m163",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaabbbbbbb"
+]
+},
+{
+"name": "m164",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaabbbbaaabbbb"
+]
+},
+{
+"name": "m165",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaabbbaabb"
+]
+},
+{
+"name": "m166",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbAAbbbAAbb"
+]
+},
+{
+"name": "m167",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbbbAbbbbb"
+]
+},
+{
+"name": "m168",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabAbAb"
+]
+},
+{
+"name": "m169",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbAbbbbbaabb"
+]
+},
+{
+"name": "m170",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbbAbbAbaab"
+]
+},
+{
+"name": "m171",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAbbbbbAbb"
+]
+},
+{
+"name": "m172",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbbaabbbaaabbb"
+]
+},
+{
+"name": "m173",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaaBBBBB"
+]
+},
+{
+"name": "m175",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBAABaaabbb"
+]
+},
+{
+"name": "m178",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbbaabbaaabbaabb"
+]
+},
+{
+"name": "m179",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaaabbbabbbb"
+]
+},
+{
+"name": "m180",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbaaabbbbb"
+]
+},
+{
+"name": "m181",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbaabAbAb"
+]
+},
+{
+"name": "m182",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaaBaaabbb"
+]
+},
+{
+"name": "m183",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbABAbb"
+]
+},
+{
+"name": "m184",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbbaaaaabbb"
+]
+},
+{
+"name": "m185",
+"tets": 4,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbaaabbaaabb"
+]
+},
+{
+"name": "m186",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaaaaabaabbbb"
+]
+},
+{
+"name": "m188",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabAbbbAb"
+]
+},
+{
+"name": "m189",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabbAbbAbb"
+]
+},
+{
+"name": "m190",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaabaaabbbbb"
+]
+},
+{
+"name": "m191",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaabaaaabbbb"
+]
+},
+{
+"name": "m192",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBAAbbbAAB"
+]
+},
+{
+"name": "m193",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaabbaaabbaaabbbaaabb"
+]
+},
+{
+"name": "m194",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbAbbb"
+]
+},
+{
+"name": "m195",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaBABaabbb"
+]
+},
+{
+"name": "m196",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabAbbbAbbbAb"
+]
+},
+{
+"name": "m197",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabaaabbAAbb"
+]
+},
+{
+"name": "m198",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbAbbb"
+]
+},
+{
+"name": "m199",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBAAABaabbbb"
+]
+},
+{
+"name": "m200",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbaabAbbbbAb"
+]
+},
+{
+"name": "m201",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aacBCbAb",
+"aacAcBCb"
+]
+},
+{
+"name": "m206",
+"tets": 4,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaCbAcb",
+"aBBcbaC"
+]
+},
+{
+"name": "m207",
+"tets": 4,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBaacbC",
+"acbAccB"
+]
+},
+{
+"name": "m208",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbabbAAAbb"
+]
+},
+{
+"name": "m209",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAAbbbbAAb"
+]
+},
+{
+"name": "m210",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAAAbaabbbbb"
+]
+},
+{
+"name": "m211",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbABAbbaabbb"
+]
+},
+{
+"name": "m212",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbabbbbaaabbb"
+]
+},
+{
+"name": "m213",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbAAAbbb"
+]
+},
+{
+"name": "m214",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbAAAbbb"
+]
+},
+{
+"name": "m215",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaBaBaBaabb"
+]
+},
+{
+"name": "m216",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaabbaabbaabb"
+]
+},
+{
+"name": "m217",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaabaaaaabbbb"
+]
+},
+{
+"name": "m218",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbabbbaaaabb"
+]
+},
+{
+"name": "m219",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAbAbbaaabb"
+]
+},
+{
+"name": "m220",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAAAbbaaBBB"
+]
+},
+{
+"name": "m221",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBAbabbbabAB"
+]
+},
+{
+"name": "m222",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBAbABBabbaabb"
+]
+},
+{
+"name": "m223",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaabbaabb"
+]
+},
+{
+"name": "m224",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBAbbABaaaBAbbABAbbAB"
+]
+},
+{
+"name": "m225",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaabaaaaabbbb"
+]
+},
+{
+"name": "m227",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbbaaaaabAAb"
+]
+},
+{
+"name": "m228",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabAAAAAb"
+]
+},
+{
+"name": "m229",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbbAbaabAbaab"
+]
+},
+{
+"name": "m230",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaabbbabbb"
+]
+},
+{
+"name": "m231",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaaBBaaabbb"
+]
+},
+{
+"name": "m232",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBabbbaaaaabbb"
+]
+},
+{
+"name": "m233",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaaBB"
+]
+},
+{
+"name": "m234",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaCBcB",
+"aCabbc"
+]
+},
+{
+"name": "m235",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbbCAc",
+"aBAbcc"
+]
+},
+{
+"name": "m236",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabbcc",
+"aacbcBB"
+]
+},
+{
+"name": "m238",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabaabbbAbbb"
+]
+},
+{
+"name": "m239",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbabbaabbaaB"
+]
+},
+{
+"name": "m240",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaBaBaabbabb"
+]
+},
+{
+"name": "m241",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaabbaaabbbbb"
+]
+},
+{
+"name": "m242",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabAbaabbaabAbaabbaabAbAb"
+]
+},
+{
+"name": "m243",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbAbbaabb"
+]
+},
+{
+"name": "m244",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAAAbbbaabbbb"
+]
+},
+{
+"name": "m246",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabAAbAAbaaabb"
+]
+},
+{
+"name": "m247",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbaBaaBabb"
+]
+},
+{
+"name": "m248",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaaabbbaaaaabb"
+]
+},
+{
+"name": "m249",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abaacBC",
+"aabcbCbc"
+]
+},
+{
+"name": "m250",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaaaaaabbb"
+]
+},
+{
+"name": "m251",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbAAAbb"
+]
+},
+{
+"name": "m252",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbbaabbaaabbaabbaaabbaabb"
+]
+},
+{
+"name": "m253",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabAbbAbbbAbbAb"
+]
+},
+{
+"name": "m255",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaabbbaaaaabb"
+]
+},
+{
+"name": "m256",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbaaaaaaabbb"
+]
+},
+{
+"name": "m257",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbbaabbaabbaabbAbb"
+]
+},
+{
+"name": "m258",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabbbaaabbb"
+]
+},
+{
+"name": "m259",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaaaabbaabbbbb"
+]
+},
+{
+"name": "m260",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabABabAAbaBAb"
+]
+},
+{
+"name": "m261",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acbbbaCBB",
+"aacbbCBB"
+]
+},
+{
+"name": "m262",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAbabbabAbabAbbAb"
+]
+},
+{
+"name": "m263",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbAAbbb"
+]
+},
+{
+"name": "m266",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaabbbaaaaab"
+]
+},
+{
+"name": "m267",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBabbaabbaabbaBBB"
+]
+},
+{
+"name": "m269",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbabbbaaabbbaaabbbaaabbb"
+]
+},
+{
+"name": "m270",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabaabbAAAbbaab"
+]
+},
+{
+"name": "m271",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAAbAAbbaaabb"
+]
+},
+{
+"name": "m272",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaaaabbaaabbaaabbb"
+]
+},
+{
+"name": "m273",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaaaaaaabbb"
+]
+},
+{
+"name": "m275",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbaabAbaabbb"
+]
+},
+{
+"name": "m276",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaabbbbbaabbb"
+]
+},
+{
+"name": "m277",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbAAbbAAbb"
+]
+},
+{
+"name": "m278",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbbbabbbaaabbb"
+]
+},
+{
+"name": "m279",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaabbbaaabbaaaabbaaabb"
+]
+},
+{
+"name": "m280",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabaaabaabbb"
+]
+},
+{
+"name": "m281",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaaaaabbaabbaabbb"
+]
+},
+{
+"name": "m282",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbaaaaabb"
+]
+},
+{
+"name": "m284",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbCC",
+"aaaccbcb"
+]
+},
+{
+"name": "m285",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaBabbaabAb"
+]
+},
+{
+"name": "m286",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaBAbaaabAB"
+]
+},
+{
+"name": "m287",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaaabbbaaabbbbb"
+]
+},
+{
+"name": "m288",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbaBabbb"
+]
+},
+{
+"name": "m289",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbbaabbaBAABBAAB"
+]
+},
+{
+"name": "m290",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaBaBaabbb"
+]
+},
+{
+"name": "m291",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbbbAbb"
+]
+},
+{
+"name": "m293",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBabaaaabaaaab"
+]
+},
+{
+"name": "m294",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaabbbaBabbaB"
+]
+},
+{
+"name": "m296",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabAAAAAbaabbaabbb"
+]
+},
+{
+"name": "m297",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaaabbbaaaabbbaB"
+]
+},
+{
+"name": "m299",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaabbaaaaabbbbb"
+]
+},
+{
+"name": "m300",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBaabbaaabb"
+]
+},
+{
+"name": "m302",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbAAbbbaBBabaBB"
+]
+},
+{
+"name": "m303",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabbAbbbAbb"
+]
+},
+{
+"name": "m304",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaBBAABBabbbaBB"
+]
+},
+{
+"name": "m305",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aacbCB",
+"abAcbcc"
+]
+},
+{
+"name": "m306",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBAccb",
+"aaacabCb"
+]
+},
+{
+"name": "m307",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bccbAA",
+"aaaCabcB"
+]
+},
+{
+"name": "m310",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBAbabABaaBAbbbbAB"
+]
+},
+{
+"name": "m312",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbAbAbbb"
+]
+},
+{
+"name": "m316",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaaaabbaaabbaaaaabb"
+]
+},
+{
+"name": "m318",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabbAAbb"
+]
+},
+{
+"name": "m319",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabABabABabbbbaBAbaBAb"
+]
+},
+{
+"name": "m320",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaBabbaabbaabbb"
+]
+},
+{
+"name": "m322",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbaaabbaBab"
+]
+},
+{
+"name": "m326",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaaabbaaaabb"
+]
+},
+{
+"name": "m335",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbaabbbaaabb"
+]
+},
+{
+"name": "m336",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbaabbbaaab"
+]
+},
+{
+"name": "m337",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbABAbbbaabbbb"
+]
+},
+{
+"name": "m338",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbAbAbbb"
+]
+},
+{
+"name": "m339",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbAbbbaabbb"
+]
+},
+{
+"name": "m340",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbaaBAAABBAAAB"
+]
+},
+{
+"name": "m342",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaabbaBBBabb"
+]
+},
+{
+"name": "m343",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbabbbaaBBaBB"
+]
+},
+{
+"name": "m345",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabABBAb"
+]
+},
+{
+"name": "m346",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaabbbaabbAbb"
+]
+},
+{
+"name": "m349",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBabbbaBBabbbaaaabbb"
+]
+},
+{
+"name": "m350",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbAbbAbbb"
+]
+},
+{
+"name": "m351",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbaaaabbaaaabb"
+]
+},
+{
+"name": "m352",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaabbbbbaaabbbbb"
+]
+},
+{
+"name": "m356",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abaBabbaabbaabbaB"
+]
+},
+{
+"name": "m358",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaabbbaaabbbaabbbb"
+]
+},
+{
+"name": "m360",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbabbbaaab"
+]
+},
+{
+"name": "m361",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbaabbbaabbaabbaaabbaabbaabb"
+]
+},
+{
+"name": "m363",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbabbabbbaaaabbb"
+]
+},
+{
+"name": "m364",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBabbabbabbaB"
+]
+},
+{
+"name": "m368",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBabbaBBBabbaaaabb"
+]
+},
+{
+"name": "m369",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaCbcB",
+"aCAbbbbc"
+]
+},
+{
+"name": "m370",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaabcbC",
+"aCacbbb"
+]
+},
+{
+"name": "m371",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbABAcc",
+"aacBcbb"
+]
+},
+{
+"name": "m372",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acAcabb",
+"acabcbcb"
+]
+},
+{
+"name": "m373",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbCbAc",
+"aCaBabc"
+]
+},
+{
+"name": "m374",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbabbbaaabb"
+]
+},
+{
+"name": "m376",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaabAb"
+]
+},
+{
+"name": "m378",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaBabbaBabb"
+]
+},
+{
+"name": "m385",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaabbbaaabbbbaaabbb"
+]
+},
+{
+"name": "m389",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaBBAABBabbb"
+]
+},
+{
+"name": "m390",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBacBcb",
+"abaCAbc"
+]
+},
+{
+"name": "m392",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbAbbbaabbbaabbbb"
+]
+},
+{
+"name": "m393",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbbbbaabbbbbaabb"
+]
+},
+{
+"name": "m395",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbaabbbaaabbbaabbb"
+]
+},
+{
+"name": "m397",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaabaaabbbabbbaaabbb"
+]
+},
+{
+"name": "m400",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabCbbCbcc",
+"abCbAbcc"
+]
+},
+{
+"name": "m401",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbbAbaaabAbbAbbbAbbAb"
+]
+},
+{
+"name": "m402",
+"tets": 5,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbbbaabbbaaabbbaabbb"
+]
+},
+{
+"name": "m403",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"accbcccbAb",
+"accaBBB"
+]
+},
+{
+"name": "m410",
+"tets": 5,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBCbcAbc",
+"aBcAcb"
+]
+},
+{
+"name": "s000",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaBAbbAB"
+]
+},
+{
+"name": "s001",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBaaaaaaaB"
+]
+},
+{
+"name": "s002",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaBaabbbbb"
+]
+},
+{
+"name": "s003",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbaBaaaB"
+]
+},
+{
+"name": "s004",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaaaBaabaaaaab"
+]
+},
+{
+"name": "s005",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaBBAbbbbbABB"
+]
+},
+{
+"name": "s006",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbbbbAAbbbbb"
+]
+},
+{
+"name": "s007",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaaBAB"
+]
+},
+{
+"name": "s008",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaabaaaaaBB"
+]
+},
+{
+"name": "s009",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaaBAAAAB"
+]
+},
+{
+"name": "s010",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAbbaabbbaabbbaabbbaabbb"
+]
+},
+{
+"name": "s011",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBaaaBabbaBabbaBabbaBabbaB"
+]
+},
+{
+"name": "s012",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbaBBBAbbbABBB"
+]
+},
+{
+"name": "s013",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbabbbbbAAbbbbb"
+]
+},
+{
+"name": "s014",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBAAAAAABaaaaabb"
+]
+},
+{
+"name": "s015",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaBaaaaaaBaaab"
+]
+},
+{
+"name": "s016",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaBBBBAbbbbbABBBB"
+]
+},
+{
+"name": "s017",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbAbbbbbbbbbAbbbb"
+]
+},
+{
+"name": "s018",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBAAAbaaaaaabAAAB"
+]
+},
+{
+"name": "s019",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabbbAbbbbbbAbbb"
+]
+},
+{
+"name": "s020",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbAAbAAbb"
+]
+},
+{
+"name": "s021",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBabbbbbbbbbaBB"
+]
+},
+{
+"name": "s022",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbaabbbaabbaabbaabbaabbaaabb"
+]
+},
+{
+"name": "s023",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBabbaBAABabbaBAABabbaBAABabbaBAAB"
+]
+},
+{
+"name": "s024",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBaaaaaaaaaaaBaaaabb"
+]
+},
+{
+"name": "s025",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBAAAAbaaaaaaabAAAAB"
+]
+},
+{
+"name": "s026",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBBBaabbbbabbbb"
+]
+},
+{
+"name": "s027",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbbbaBBBBaaaBBBB"
+]
+},
+{
+"name": "s028",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaBaaBaaaaaaabb"
+]
+},
+{
+"name": "s029",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaaaaaaaBAAB"
+]
+},
+{
+"name": "s030",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaBaaaBaaaaaaabb"
+]
+},
+{
+"name": "s031",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaaaaaaaBAAAB"
+]
+},
+{
+"name": "s032",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbabbbbbaaBBBB"
+]
+},
+{
+"name": "s033",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbAAbbbbbbbabbbb"
+]
+},
+{
+"name": "s034",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbABBBBAbbbbbbb"
+]
+},
+{
+"name": "s035",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAAAAAAAAAbaaaaabbb"
+]
+},
+{
+"name": "s036",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaaBBBaBBB"
+]
+},
+{
+"name": "s037",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBBabbbbbbbbbbaBBB"
+]
+},
+{
+"name": "s038",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaaaaBBaaaaaaab"
+]
+},
+{
+"name": "s039",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaaaaaaaBAAAAAB"
+]
+},
+{
+"name": "s040",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbbbbbbabbbbbAAbbbbb"
+]
+},
+{
+"name": "s041",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaBBBBBAbbbbbbbABBBBB"
+]
+},
+{
+"name": "s042",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabaaaaaaabbAAbb"
+]
+},
+{
+"name": "s043",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaBBBaabbbbbbbb"
+]
+},
+{
+"name": "s044",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbbaaaaaaabAAAAAAAAAb"
+]
+},
+{
+"name": "s045",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbbbbbaBBBaaaBBB"
+]
+},
+{
+"name": "s046",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbbAbbbAbbbbbbbb"
+]
+},
+{
+"name": "s047",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabbbccb",
+"aaaaaBCCBc"
+]
+},
+{
+"name": "s048",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaaBAAAAAbaaaaabAAAAAB"
+]
+},
+{
+"name": "s049",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaaabaaaaaaaaaabaaaaaB"
+]
+},
+{
+"name": "s050",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaabbAAAAAAAbb"
+]
+},
+{
+"name": "s051",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaaaCCBB",
+"aacaabbbcc"
+]
+},
+{
+"name": "s052",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBBBBBabbbbbbbAAbbbbbbb"
+]
+},
+{
+"name": "s053",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaaaaabAAAAbbbAAAAb"
+]
+},
+{
+"name": "s054",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabbbbbbbbAAbbbbbbbb"
+]
+},
+{
+"name": "s055",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaabbaaaaaaaaBAAAAAB"
+]
+},
+{
+"name": "s056",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbabbaaabbbaaabbabbaaabbbaaabbbaaabbabbaaabbb"
+]
+},
+{
+"name": "s057",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabAAACbcc",
+"aaaaCbcB"
+]
+},
+{
+"name": "s058",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabaaaaaaabbAAAbb"
+]
+},
+{
+"name": "s059",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbbbAbaabAbaabAbaabAbbbAbaabAbaabAbbbAbaabAb"
+]
+},
+{
+"name": "s060",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaBaaaaaaaaaaaBaaaaaaabb"
+]
+},
+{
+"name": "s061",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabAAAAAAAbaaaaaaaBAAAAB"
+]
+},
+{
+"name": "s062",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbabbbbbaaBBBBBBB"
+]
+},
+{
+"name": "s063",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabaaaaaaabbAAAAbb"
+]
+},
+{
+"name": "s064",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaBaaaaaaaaaaaaBaaaaaaabb"
+]
+},
+{
+"name": "s065",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBabbbbbbbABBBBBBBAbbbbbbb"
+]
+},
+{
+"name": "s066",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbbbbbbaBBBBBaaaBBBBB"
+]
+},
+{
+"name": "s067",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAbaabAbaabAbbbAb"
+]
+},
+{
+"name": "s068",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbbaaBBBaabbbbbbbb"
+]
+},
+{
+"name": "s069",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbbbAbaabAbaabAbaabAbbbAbaabAbaabAbaabAbbbAb"
+]
+},
+{
+"name": "s070",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbbAbbbbbbbbbbbAbbbbbbbb"
+]
+},
+{
+"name": "s071",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacAAABcbb",
+"aaaaaBcbC"
+]
+},
+{
+"name": "s072",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbabbbbbbbaaBBBBB"
+]
+},
+{
+"name": "s073",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaaBBBBBBBBaabbbbb"
+]
+},
+{
+"name": "s074",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbaaabbbbbbbaBBBBBBBBBBBB"
+]
+},
+{
+"name": "s075",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbbbAbaaabAbbbAbaabAbbbAbaaabAbbbAbaabAbbbAb"
+]
+},
+{
+"name": "s076",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbbbbbbbabbbbbbbbAAbbbbbbbb"
+]
+},
+{
+"name": "s077",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBabbbbbbbbABBBBBBBBAbbbbbbbb"
+]
+},
+{
+"name": "s078",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbAbbaabbAbbaabbbaabbAbbaabbAbbaabbbaabbAbb"
+]
+},
+{
+"name": "s079",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAbaabAbbbAbaabAbaabAbbbAb"
+]
+},
+{
+"name": "s080",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaaBAB"
+]
+},
+{
+"name": "s081",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbAABAAbb"
+]
+},
+{
+"name": "s082",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaaBaabbbbb"
+]
+},
+{
+"name": "s083",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbaabaaab"
+]
+},
+{
+"name": "s084",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbAbbaaaaB"
+]
+},
+{
+"name": "s085",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaabbAAAAbb"
+]
+},
+{
+"name": "s086",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaaaBaaaaabb"
+]
+},
+{
+"name": "s087",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbaaBBBBB"
+]
+},
+{
+"name": "s088",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaaaaBaaaaabb"
+]
+},
+{
+"name": "s089",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbAAAbbaaaaB"
+]
+},
+{
+"name": "s090",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBAbbbAB"
+]
+},
+{
+"name": "s091",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaaabbbbbaabbbbbbbbb"
+]
+},
+{
+"name": "s092",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaaabbbbaabbbbbbbbb"
+]
+},
+{
+"name": "s093",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBaaaaabbAAbb"
+]
+},
+{
+"name": "s094",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbAAbbbAAbb"
+]
+},
+{
+"name": "s095",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaaaaaaaaabb"
+]
+},
+{
+"name": "s096",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabaaaab"
+]
+},
+{
+"name": "s097",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbAbbbbbaaBBB"
+]
+},
+{
+"name": "s098",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbbbbAbbbbbbb"
+]
+},
+{
+"name": "s099",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaaaaaBaaaaaaabb"
+]
+},
+{
+"name": "s100",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaaaaaaaabbaaabbb"
+]
+},
+{
+"name": "s101",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbAAAbbbAAAbb"
+]
+},
+{
+"name": "s102",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaaabbaaaaaaaB"
+]
+},
+{
+"name": "s103",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaBaaaaaaabbaabb"
+]
+},
+{
+"name": "s104",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaaaaaaaaabbaaaabbb"
+]
+},
+{
+"name": "s105",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbaaaabbAAAAAAAbb"
+]
+},
+{
+"name": "s106",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbbbbbbbbbaabbb"
+]
+},
+{
+"name": "s107",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaaaBBBaabbbbbbbb"
+]
+},
+{
+"name": "s108",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbbbbbbAb"
+]
+},
+{
+"name": "s109",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaabbaaaaabbaaaaaaaaB"
+]
+},
+{
+"name": "s110",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaabbaaabbaaaaaaaaB"
+]
+},
+{
+"name": "s111",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaaabbbbbbbaabbbbbbbbbbbb"
+]
+},
+{
+"name": "s112",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbAAbbcc",
+"aabcccccBB"
+]
+},
+{
+"name": "s113",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAbbaabbAbbbAbbaabbAbbbAbbaabbAbbaabbAbbbAbb"
+]
+},
+{
+"name": "s114",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbbbbbbbaabbbbbaaabbbbb"
+]
+},
+{
+"name": "s115",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAbbbbAb"
+]
+},
+{
+"name": "s116",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbAbAbbbb"
+]
+},
+{
+"name": "s117",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbAbAbbb"
+]
+},
+{
+"name": "s118",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBAbbbbAB"
+]
+},
+{
+"name": "s119",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaBABAB"
+]
+},
+{
+"name": "s120",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbaaaaBAB"
+]
+},
+{
+"name": "s121",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaabbbaaaaB"
+]
+},
+{
+"name": "s122",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbAbbAbbb"
+]
+},
+{
+"name": "s123",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbaabbaabbaabbaabbaB"
+]
+},
+{
+"name": "s124",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAbbbbbbbAbb"
+]
+},
+{
+"name": "s125",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbaabbABAbb"
+]
+},
+{
+"name": "s126",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaaaabbbbabbbbb"
+]
+},
+{
+"name": "s127",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbABBBAbbbb"
+]
+},
+{
+"name": "s128",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbAbbbbbAbbbb"
+]
+},
+{
+"name": "s129",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbABAbbb"
+]
+},
+{
+"name": "s130",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbbaaaaaabbb"
+]
+},
+{
+"name": "s131",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabAbbbbbAb"
+]
+},
+{
+"name": "s132",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbaabbaabAbaabAbaabAbAb"
+]
+},
+{
+"name": "s133",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbabbbbbaaaabbbbb"
+]
+},
+{
+"name": "s134",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBAbbbbbbbABB"
+]
+},
+{
+"name": "s135",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbabbbbbbbabb"
+]
+},
+{
+"name": "s136",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbAbbAbbbbb"
+]
+},
+{
+"name": "s137",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaaabbbbbbaaab"
+]
+},
+{
+"name": "s138",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaaabbbaaaaaB"
+]
+},
+{
+"name": "s139",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbabbbaaaabbb"
+]
+},
+{
+"name": "s140",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabbbAAAbbb"
+]
+},
+{
+"name": "s141",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbbaaaabAAAAAb"
+]
+},
+{
+"name": "s142",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbAbbbbbAbb"
+]
+},
+{
+"name": "s143",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaBaaaaaaaaB"
+]
+},
+{
+"name": "s144",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbABBAbbbbb"
+]
+},
+{
+"name": "s145",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbaaaaBAAAAAB"
+]
+},
+{
+"name": "s146",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbAbbbbbbbAbbbb"
+]
+},
+{
+"name": "s147",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbABAbbaabbbaabbbaabbb"
+]
+},
+{
+"name": "s148",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaabbbAbbb"
+]
+},
+{
+"name": "s149",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaBaaaBaaaB"
+]
+},
+{
+"name": "s150",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabAAbbbbAAb"
+]
+},
+{
+"name": "s151",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaBAAAbbbAAAB"
+]
+},
+{
+"name": "s152",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbabbbbaaaabbbb"
+]
+},
+{
+"name": "s153",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaaaaaBAAAB"
+]
+},
+{
+"name": "s154",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaaabaaabbbbb"
+]
+},
+{
+"name": "s155",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbaabbbbbb"
+]
+},
+{
+"name": "s156",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaaBaaabbbb"
+]
+},
+{
+"name": "s157",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaabbbAbbb"
+]
+},
+{
+"name": "s158",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaaabbbabbbbbbbb"
+]
+},
+{
+"name": "s159",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabAAAbbbbAAAb"
+]
+},
+{
+"name": "s160",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaaabbbbaaabbbbb"
+]
+},
+{
+"name": "s161",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbaaBAB"
+]
+},
+{
+"name": "s162",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbabbbbbaaaabbbbb"
+]
+},
+{
+"name": "s163",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbaaaabbbbbbbabb"
+]
+},
+{
+"name": "s164",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaaaaaBaaaaaaaB"
+]
+},
+{
+"name": "s165",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabbaaaaabb"
+]
+},
+{
+"name": "s166",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBBAbbbbbbbbABBB"
+]
+},
+{
+"name": "s167",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abaaaaababbbabbb"
+]
+},
+{
+"name": "s168",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbbbbbaaaabbbbbbb"
+]
+},
+{
+"name": "s169",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbabbbbaaaB"
+]
+},
+{
+"name": "s170",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBAAAAAAABaaaabbb"
+]
+},
+{
+"name": "s171",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbabbbbbbbaaaabbbbbbb"
+]
+},
+{
+"name": "s172",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaaabbaabbbaabbbaabbb"
+]
+},
+{
+"name": "s173",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBAbbbbAB"
+]
+},
+{
+"name": "s174",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbABAbbaabbaabbaabbABAbbaabb"
+]
+},
+{
+"name": "s175",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbABBBAbb"
+]
+},
+{
+"name": "s176",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBaaaaaaaaBaaaaabbb"
+]
+},
+{
+"name": "s177",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaaaabbbbaBBBBBBB"
+]
+},
+{
+"name": "s178",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbaaabAbaaabAbaaabAbbbAb"
+]
+},
+{
+"name": "s179",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbbabbbbbaaaabbbbb"
+]
+},
+{
+"name": "s180",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabaaaaabAAbbAAb"
+]
+},
+{
+"name": "s181",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBaaaaBBBabbbbbbbb"
+]
+},
+{
+"name": "s182",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBabbbbbbbaaaabbbbbbb"
+]
+},
+{
+"name": "s183",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBaabbbAAAbbb"
+]
+},
+{
+"name": "s184",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbaabAAAb"
+]
+},
+{
+"name": "s185",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaabAbAbaaabb"
+]
+},
+{
+"name": "s186",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbbbbbbaaaabbbbbbbb"
+]
+},
+{
+"name": "s187",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbABAbbaabbbaabbABAbbaabbABAbb"
+]
+},
+{
+"name": "s188",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbABBBBBBBAbbbbb"
+]
+},
+{
+"name": "s189",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBBBabbbbbaaaabbbbb"
+]
+},
+{
+"name": "s190",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaaaabaaaaabbb"
+]
+},
+{
+"name": "s191",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abacccbAAb",
+"aaBcccccB"
+]
+},
+{
+"name": "s192",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbAAbAAbbb"
+]
+},
+{
+"name": "s193",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bCbAAcc",
+"aaaaaccBB"
+]
+},
+{
+"name": "s194",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbABBBBBBBBAbbbbb"
+]
+},
+{
+"name": "s195",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbABAbbaabbABAbbaabbaabbABAbbaabb"
+]
+},
+{
+"name": "s196",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbbaaaaabAAAAAAAAb"
+]
+},
+{
+"name": "s197",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbAAbbAAbbb"
+]
+},
+{
+"name": "s198",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abaababbAbAbAbb"
+]
+},
+{
+"name": "s199",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaabbbAAbbb"
+]
+},
+{
+"name": "s200",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbbAbbbb"
+]
+},
+{
+"name": "s201",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBBBaaabbbaabbb"
+]
+},
+{
+"name": "s202",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacbcBB",
+"aaaaabbcc"
+]
+},
+{
+"name": "s203",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbAAAAbbb"
+]
+},
+{
+"name": "s204",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbAbbbAbbbAbb"
+]
+},
+{
+"name": "s205",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbAbbbbbAbbb"
+]
+},
+{
+"name": "s206",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbbaaBAB"
+]
+},
+{
+"name": "s207",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaaabbbbbaaaab"
+]
+},
+{
+"name": "s208",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaaaabbbabbbbb"
+]
+},
+{
+"name": "s209",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabAbaabbaabAbaabbaabAbaabbaabAbAb"
+]
+},
+{
+"name": "s210",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbaabbaabbaabb"
+]
+},
+{
+"name": "s211",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaabbbbaaaBBB"
+]
+},
+{
+"name": "s212",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbbAbbbb"
+]
+},
+{
+"name": "s213",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbAABAAbb"
+]
+},
+{
+"name": "s214",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBBaaabbbbabbbb"
+]
+},
+{
+"name": "s215",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbabbaaabbbbbbbbb"
+]
+},
+{
+"name": "s216",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBaaaabbaaabbaaabb"
+]
+},
+{
+"name": "s217",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbbaabbaaabbaabbaaabbaabbaaabbaabb"
+]
+},
+{
+"name": "s218",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaabbbbaaabbbbbbbbb"
+]
+},
+{
+"name": "s219",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabaabbAbbaabaabbbaabaabbbaab"
+]
+},
+{
+"name": "s220",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbAAAAAbbb"
+]
+},
+{
+"name": "s221",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbbAAAbbbb"
+]
+},
+{
+"name": "s222",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaaBBBBBaaabbb"
+]
+},
+{
+"name": "s223",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbbbbbbbbaaabb"
+]
+},
+{
+"name": "s224",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbaaBaaB"
+]
+},
+{
+"name": "s225",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBBBaaaabbaaabb"
+]
+},
+{
+"name": "s226",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaabbbbbaaaBB"
+]
+},
+{
+"name": "s227",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbABAbbABAbb"
+]
+},
+{
+"name": "s228",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbaBBaaaBBaaaBB"
+]
+},
+{
+"name": "s229",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBBBabbbaaabbbaaabbb"
+]
+},
+{
+"name": "s230",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbaBBBaBBBabbbb"
+]
+},
+{
+"name": "s231",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBaabbabbabbabbaaB"
+]
+},
+{
+"name": "s232",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBAAbbbbAAB"
+]
+},
+{
+"name": "s233",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabbbAAbbb"
+]
+},
+{
+"name": "s234",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbaaabAbbbAbaaabAbbbAbaaabAbbbAb"
+]
+},
+{
+"name": "s235",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbbaaabbbaB"
+]
+},
+{
+"name": "s236",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbbaaaaabbbaaaaaaab"
+]
+},
+{
+"name": "s237",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbAbbaabbaabb"
+]
+},
+{
+"name": "s238",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAAAAbabbbabbbabbb"
+]
+},
+{
+"name": "s239",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbAABBBAAbb"
+]
+},
+{
+"name": "s240",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabaaaaaaabbbaaaabbb"
+]
+},
+{
+"name": "s241",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbaaabbbbbbbbbb"
+]
+},
+{
+"name": "s242",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaaabbbbbaaabbbbbaBBBBBBB"
+]
+},
+{
+"name": "s243",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabbbAAAbbb"
+]
+},
+{
+"name": "s244",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabAbAb"
+]
+},
+{
+"name": "s245",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbbaaabbbaaaaaaab"
+]
+},
+{
+"name": "s246",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbabbbbbbbabbaaabb"
+]
+},
+{
+"name": "s247",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbabbbbbaaaBBB"
+]
+},
+{
+"name": "s248",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaBaBabbaabbaBaBabbaabbaBaBabbaabbaBabb"
+]
+},
+{
+"name": "s249",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaabbAAAbb"
+]
+},
+{
+"name": "s250",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbaabAbbbbbAb"
+]
+},
+{
+"name": "s251",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbbbabbbbbbbaaabbbbbbbbb"
+]
+},
+{
+"name": "s252",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBAAAABaaabbbb"
+]
+},
+{
+"name": "s253",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBaaabbbAAbbb"
+]
+},
+{
+"name": "s254",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbaBAAAB"
+]
+},
+{
+"name": "s255",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaaabbaaaabbbbb"
+]
+},
+{
+"name": "s256",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabAbbbbAb"
+]
+},
+{
+"name": "s257",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaabbbbbbbbbbb"
+]
+},
+{
+"name": "s258",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabaaaaaaabbbaabbb"
+]
+},
+{
+"name": "s259",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAbbAbbbAbbAb"
+]
+},
+{
+"name": "s260",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAAbbbbbAAb"
+]
+},
+{
+"name": "s261",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBBBBabbbaaabbbaaabbb"
+]
+},
+{
+"name": "s262",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaabbbbaaabbbbbbbbbbb"
+]
+},
+{
+"name": "s263",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaabbAAAbAAAbb"
+]
+},
+{
+"name": "s264",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbaaabaaabbAAAAbb"
+]
+},
+{
+"name": "s265",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbbbbbbbbbaaabbb"
+]
+},
+{
+"name": "s266",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaaabbbbbaaabbbbbaBBBBBBBB"
+]
+},
+{
+"name": "s267",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaaabbaaaaBBB"
+]
+},
+{
+"name": "s268",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaabbbaaaaabbbaaaaaaaab"
+]
+},
+{
+"name": "s269",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabAAbbAAbbAAb"
+]
+},
+{
+"name": "s270",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbaaabbaabbbaabbaaabbaabbbaabbaaabbaabbbaabb"
+]
+},
+{
+"name": "s271",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabAbaaaabAbaaaabAbbbAb"
+]
+},
+{
+"name": "s272",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaabbaaabbaaaabbbaaaabbaaabbaaaabb"
+]
+},
+{
+"name": "s273",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaabbaaaabaaaabbAAAbb"
+]
+},
+{
+"name": "s274",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbbaBaaBabbbaBabbbabbb"
+]
+},
+{
+"name": "s275",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBBaabbbAAAbbb"
+]
+},
+{
+"name": "s276",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaabbbaaabbbaaaaaaaab"
+]
+},
+{
+"name": "s277",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaabbbbbaaabbbbbbbbbbbb"
+]
+},
+{
+"name": "s278",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBaaBBaabbbAbbb"
+]
+},
+{
+"name": "s279",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbAAbbbbbAAbb"
+]
+},
+{
+"name": "s280",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabbAAbbAAbb"
+]
+},
+{
+"name": "s281",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaabAbaabAbaabAb"
+]
+},
+{
+"name": "s282",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaBBBBBaabbbabbbaabbb"
+]
+},
+{
+"name": "s283",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbabbbbbaaaaabbbbb"
+]
+},
+{
+"name": "s284",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbAAAbAAAbbaaaaabb"
+]
+},
+{
+"name": "s285",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBabbbbbabbbbbaBBBaaBBB"
+]
+},
+{
+"name": "s286",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbbbabbbbbaaabbbbbaaabbbbb"
+]
+},
+{
+"name": "s287",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbaBaaaB"
+]
+},
+{
+"name": "s288",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaabbbaaabbbbbbb"
+]
+},
+{
+"name": "s289",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbaBabbaBaaBabbaBabbaBabbabb"
+]
+},
+{
+"name": "s290",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbaabaabaab"
+]
+},
+{
+"name": "s291",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBBaaaabbbaaabbb"
+]
+},
+{
+"name": "s292",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbbbaaabbaaaabb"
+]
+},
+{
+"name": "s293",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaabbbaaaabbaaaabAAAAAb"
+]
+},
+{
+"name": "s294",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabaaabbaaabbAbb"
+]
+},
+{
+"name": "s295",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaabbbbbaaabbbbbbbbbbbbb"
+]
+},
+{
+"name": "s296",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbabABaaBAb"
+]
+},
+{
+"name": "s297",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbaaBaabb"
+]
+},
+{
+"name": "s298",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"accccBAb",
+"aaCbcB"
+]
+},
+{
+"name": "s299",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bAccccBA",
+"aacbcB"
+]
+},
+{
+"name": "s300",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbAAbbbbAAbbb"
+]
+},
+{
+"name": "s301",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbbbAbbbbb"
+]
+},
+{
+"name": "s302",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaabbbaaaBBBB"
+]
+},
+{
+"name": "s303",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbbbaaaaabbbbb"
+]
+},
+{
+"name": "s304",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbbAAbbbb"
+]
+},
+{
+"name": "s305",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaaabbaabbaaabbaabbbaabbaaabbaabbbaabbaaabbaabbaaabb"
+]
+},
+{
+"name": "s306",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbaaBBBBaabbb"
+]
+},
+{
+"name": "s307",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbAAAbbaaaaabaaaaabbaaaaab"
+]
+},
+{
+"name": "s308",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbbbAbbbbb"
+]
+},
+{
+"name": "s309",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaaaabaaaabbbb"
+]
+},
+{
+"name": "s310",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbbaabbAAAbb"
+]
+},
+{
+"name": "s311",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaBaBaabbabbabb"
+]
+},
+{
+"name": "s312",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaaBAAAAAB"
+]
+},
+{
+"name": "s313",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbAAbbabaaab"
+]
+},
+{
+"name": "s314",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaaabbbbaaaBBB"
+]
+},
+{
+"name": "s315",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBabbbaaaaabbb"
+]
+},
+{
+"name": "s316",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbbaaBaB"
+]
+},
+{
+"name": "s317",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaabbaaaaabb"
+]
+},
+{
+"name": "s318",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaaaaaabbbaaBB"
+]
+},
+{
+"name": "s319",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAAAAAbbaaaBBB"
+]
+},
+{
+"name": "s320",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbAAAAAbbaabbb"
+]
+},
+{
+"name": "s321",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabaabbaabbAAAbb"
+]
+},
+{
+"name": "s322",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbbbAAAbbbbb"
+]
+},
+{
+"name": "s323",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbbaabbbaabbbbaaabbbbaabbbaabbbb"
+]
+},
+{
+"name": "s324",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbAAAbbbbbaabbb"
+]
+},
+{
+"name": "s325",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabbbaaaaabbaaaaabbaaaaabAAbaaaaabb"
+]
+},
+{
+"name": "s326",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbbAAbbbb"
+]
+},
+{
+"name": "s327",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbbbaaaaabAAb"
+]
+},
+{
+"name": "s328",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbbaabbbAAAbbb"
+]
+},
+{
+"name": "s329",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaabbaaaaabbaaabbaaabbaaabbb"
+]
+},
+{
+"name": "s330",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaaaabbbaaBBBBB"
+]
+},
+{
+"name": "s331",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbAAbbbaaaaabbbb"
+]
+},
+{
+"name": "s332",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaaabbbaaabbbbaaabbb"
+]
+},
+{
+"name": "s333",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaabbaaaaabbaaaabbbaaaabb"
+]
+},
+{
+"name": "s334",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbAAAAAbbb"
+]
+},
+{
+"name": "s335",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbbbbAbbbbb"
+]
+},
+{
+"name": "s336",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbaabbaabbAbbaabbaabb"
+]
+},
+{
+"name": "s337",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbbaabbbbbbbaabbbb"
+]
+},
+{
+"name": "s338",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaaabbbbaabbbbaaBaabbbb"
+]
+},
+{
+"name": "s339",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabbbcc",
+"aaCCbcb"
+]
+},
+{
+"name": "s340",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAAAAAbbaaabbbaaabbb"
+]
+},
+{
+"name": "s341",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabaaabbaaabbAAbb"
+]
+},
+{
+"name": "s342",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaaabbbaabbbbbbb"
+]
+},
+{
+"name": "s343",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaccBBB",
+"bbbbAcAcc"
+]
+},
+{
+"name": "s344",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaabbbbbbbaabb"
+]
+},
+{
+"name": "s345",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabaBabbAAAbb"
+]
+},
+{
+"name": "s346",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbbaaaaabbbAAAbbb"
+]
+},
+{
+"name": "s347",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaCCbb",
+"acabbbbbcc"
+]
+},
+{
+"name": "s348",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abababbbAAAbbb"
+]
+},
+{
+"name": "s349",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBaaabbbaaaB"
+]
+},
+{
+"name": "s350",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBAbaaaaaabAB"
+]
+},
+{
+"name": "s351",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaaaaaabbaaabbbbb"
+]
+},
+{
+"name": "s352",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaaaaaaabAAAAAbaaaaaaabbaaaaaaabbb"
+]
+},
+{
+"name": "s353",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaBBaBBabbbaabbb"
+]
+},
+{
+"name": "s354",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaabbbbbAAAbbbbb"
+]
+},
+{
+"name": "s355",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbAbaaabbaaabAbaaabbaaabAbaaabb"
+]
+},
+{
+"name": "s356",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaabbbbaabbbbbbbaabbbbaabbbb"
+]
+},
+{
+"name": "s357",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabbbaaaaabbaaaaabbaaaaaaabb"
+]
+},
+{
+"name": "s358",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbbaabAAAAAb"
+]
+},
+{
+"name": "s359",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAAAbbaaBaaB"
+]
+},
+{
+"name": "s360",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbaabbaabAAAAAAAb"
+]
+},
+{
+"name": "s361",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabAAAAAAAb"
+]
+},
+{
+"name": "s362",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbbaabbbbbAAAbbbbb"
+]
+},
+{
+"name": "s363",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbbbaaabbaaaaabb"
+]
+},
+{
+"name": "s364",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaabbbbaBBBBBBBabbbbaabbbb"
+]
+},
+{
+"name": "s365",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBabbbaaabbbaaabbbaaabbb"
+]
+},
+{
+"name": "s366",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaaabbbaabbbbbbbb"
+]
+},
+{
+"name": "s367",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaaaaabbaabbaabbaabbbaabb"
+]
+},
+{
+"name": "s368",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbbCC",
+"acaccbbbbb"
+]
+},
+{
+"name": "s369",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbbaaabbbbbaaabbb"
+]
+},
+{
+"name": "s370",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaabAAAAbaaabbaaabbaaabbb"
+]
+},
+{
+"name": "s371",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbbbaabbbaabbbb"
+]
+},
+{
+"name": "s372",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaaaaabbaaaaabbbbb"
+]
+},
+{
+"name": "s373",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbAAbbbaaabbbbbbbb"
+]
+},
+{
+"name": "s374",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbAAbbbbbaaabbb"
+]
+},
+{
+"name": "s375",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaaaaaabbaaabbaaabbb"
+]
+},
+{
+"name": "s376",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabbbaaaaabbaaaaabAAAAAAAb"
+]
+},
+{
+"name": "s377",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbAbAbaabbb"
+]
+},
+{
+"name": "s378",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbbbAAbbbbb"
+]
+},
+{
+"name": "s379",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbbbabbbbbaaaabbb"
+]
+},
+{
+"name": "s380",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbAbbAbbAbb"
+]
+},
+{
+"name": "s381",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBabbabbabbaB"
+]
+},
+{
+"name": "s382",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbbbaaabbbbaaaaabbbb"
+]
+},
+{
+"name": "s383",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaaaaabaaaaabbbb"
+]
+},
+{
+"name": "s384",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbaabbaabbaabbb"
+]
+},
+{
+"name": "s385",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbaaBAAAB"
+]
+},
+{
+"name": "s386",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBccAAb",
+"aaacBCb"
+]
+},
+{
+"name": "s387",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abaccbcc",
+"aCCCabb"
+]
+},
+{
+"name": "s388",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAbbaaabbaaabbaaabbbaaabbaaabb"
+]
+},
+{
+"name": "s389",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabAAAAAAAAb"
+]
+},
+{
+"name": "s390",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabbbaaaaabbaaaaabAAAAAAAAb"
+]
+},
+{
+"name": "s391",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaabbbaBBaBB"
+]
+},
+{
+"name": "s392",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaabbaabbbaabbaabb"
+]
+},
+{
+"name": "s393",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbbaaabbbbbaabbbbbaabbbbbbbb"
+]
+},
+{
+"name": "s394",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbABBBBBAbb"
+]
+},
+{
+"name": "s395",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBaBBBabbaabbaabbaabb"
+]
+},
+{
+"name": "s396",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBabbbabbbaBB"
+]
+},
+{
+"name": "s397",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaaaabbbbbaaabbbbbbb"
+]
+},
+{
+"name": "s398",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbbbaaabbbbbAAbbbbb"
+]
+},
+{
+"name": "s399",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaaaaaabbbaaabbbbb"
+]
+},
+{
+"name": "s400",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbABBBBAbbb"
+]
+},
+{
+"name": "s401",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaabbbaabbbaabbbaabb"
+]
+},
+{
+"name": "s402",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaaabbbaaabbbaabbbbb"
+]
+},
+{
+"name": "s403",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbABBaaBBAbb"
+]
+},
+{
+"name": "s404",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbaaabbbaaaabbbbbbbb"
+]
+},
+{
+"name": "s405",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaaaaabaabbbaabbbaabbb"
+]
+},
+{
+"name": "s406",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaBBaBBaabbbaabbb"
+]
+},
+{
+"name": "s407",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaaaaaabbaaabbaaabbbaaabb"
+]
+},
+{
+"name": "s408",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaabbAbAbb"
+]
+},
+{
+"name": "s409",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbAAbbbbbaaabbbbbbbb"
+]
+},
+{
+"name": "s410",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaaabbbaabbbaaBBBB"
+]
+},
+{
+"name": "s411",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaaaabbbbbaaabbbbbbbb"
+]
+},
+{
+"name": "s412",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBAbaBAbaaaabABabABabABBAb"
+]
+},
+{
+"name": "s413",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAbabAbabAAbabAbabAbabbbb"
+]
+},
+{
+"name": "s414",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaaabbbaaaabbaaaabbAAAbb"
+]
+},
+{
+"name": "s415",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAAAAAbbaabbaabbb"
+]
+},
+{
+"name": "s416",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaaBBaabbbbbaabbbbbaaabbbbb"
+]
+},
+{
+"name": "s417",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbaaaabbaaabbaaabb"
+]
+},
+{
+"name": "s418",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbAAbbAAbbAAbb"
+]
+},
+{
+"name": "s419",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbaaabbbaaabaaaaab"
+]
+},
+{
+"name": "s420",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbAbbbaaB"
+]
+},
+{
+"name": "s421",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaBBBBBaabbbaabbbaaabbb"
+]
+},
+{
+"name": "s422",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabbbaaaaabbaaaaabbAAAbb"
+]
+},
+{
+"name": "s423",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbAbbbbAbbbbAbbb"
+]
+},
+{
+"name": "s424",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbaBabbbb"
+]
+},
+{
+"name": "s425",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbbbbaabbaabbbbb"
+]
+},
+{
+"name": "s426",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acccbcaB",
+"acACbbb"
+]
+},
+{
+"name": "s427",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaCbcb",
+"acacacBBcc"
+]
+},
+{
+"name": "s428",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbABAbbbb"
+]
+},
+{
+"name": "s429",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabAAbaaabbaaabAAbaaabbaaabAAbAAb"
+]
+},
+{
+"name": "s430",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaaaaaaabbbbbaabbb"
+]
+},
+{
+"name": "s431",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaaaaabbbbbaaabbbbb"
+]
+},
+{
+"name": "s432",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbaaaabbaaaabAb"
+]
+},
+{
+"name": "s433",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaabAAAAAbaaabbaaabbaaabbb"
+]
+},
+{
+"name": "s434",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaaaabbaaaaabbbbb"
+]
+},
+{
+"name": "s435",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBBBCbbbc",
+"acACbb"
+]
+},
+{
+"name": "s436",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabccaaaB",
+"bcBAAc"
+]
+},
+{
+"name": "s437",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaBaaaaaBaaaaaB"
+]
+},
+{
+"name": "s438",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBAAAAABaaabbaaabb"
+]
+},
+{
+"name": "s439",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaaaaabbaaaaabbbbb"
+]
+},
+{
+"name": "s440",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBaaBabbbabbabbb"
+]
+},
+{
+"name": "s442",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabAAAbabbbbb"
+]
+},
+{
+"name": "s444",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbbbbbAbb"
+]
+},
+{
+"name": "s445",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaaabbabAAAb"
+]
+},
+{
+"name": "s446",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBaBaaaabbaaaabb"
+]
+},
+{
+"name": "s447",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbABBBAbbbb"
+]
+},
+{
+"name": "s448",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaBABaabbb"
+]
+},
+{
+"name": "s449",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaabbbaaabbaaaaabbaaabbaaaaabbaaabb"
+]
+},
+{
+"name": "s450",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabAbAb"
+]
+},
+{
+"name": "s451",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaaBAAAB"
+]
+},
+{
+"name": "s452",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBaabbbaabbbaabbbaaabbbaabbbaabbb"
+]
+},
+{
+"name": "s453",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbaabbaabbbaabbaabbaabbaB"
+]
+},
+{
+"name": "s454",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abABabABabbaBAbaBAbaBAbaaaabAB"
+]
+},
+{
+"name": "s455",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaabbbbbaabbbaBB"
+]
+},
+{
+"name": "s456",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abaBabaBabbaBabaBabaBabbaBabaBabaBaaaB"
+]
+},
+{
+"name": "s457",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbAbbbaaabbaaabb"
+]
+},
+{
+"name": "s458",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAAbaaabbaaabAAb"
+]
+},
+{
+"name": "s459",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaBaaabaabbaab"
+]
+},
+{
+"name": "s460",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbbbAbaaBBaaBB"
+]
+},
+{
+"name": "s461",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaabbbaaaaabbbbbbbb"
+]
+},
+{
+"name": "s462",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaaaaaaabbbbbaaabbb"
+]
+},
+{
+"name": "s463",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacBcb",
+"bABAccc"
+]
+},
+{
+"name": "s464",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacBCb",
+"aBAcccb"
+]
+},
+{
+"name": "s465",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbbcccAA",
+"abbaaccbb"
+]
+},
+{
+"name": "s466",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaccBB",
+"aabbcccaab"
+]
+},
+{
+"name": "s467",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabAbbbbAbbbbAb"
+]
+},
+{
+"name": "s468",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBaBaabbbabbbaaB"
+]
+},
+{
+"name": "s469",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBAAbaaaabAABaabAAAb"
+]
+},
+{
+"name": "s470",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaaabbbaaabbbbaaabbbaaabbbaaabbb"
+]
+},
+{
+"name": "s471",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaBBABABBabbaaabb"
+]
+},
+{
+"name": "s472",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBabaBaaaBabaBabbaBabaBabbaBabaB"
+]
+},
+{
+"name": "s473",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbAbbbAbbbb"
+]
+},
+{
+"name": "s474",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabbaaaaabbaaB"
+]
+},
+{
+"name": "s475",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaccBB",
+"aaabbcccbccc"
+]
+},
+{
+"name": "s476",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaaaaabbbbbaaaaaaaabbbbb"
+]
+},
+{
+"name": "s477",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbAAAbbbabbbbbabbbbb"
+]
+},
+{
+"name": "s478",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbabbaBAbaaabAB"
+]
+},
+{
+"name": "s479",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbabAABBAAb"
+]
+},
+{
+"name": "s480",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabAbaabbaBAB"
+]
+},
+{
+"name": "s481",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbaBaaaBabbaBabbb"
+]
+},
+{
+"name": "s482",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbbABAbbb"
+]
+},
+{
+"name": "s483",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaaBBaBBaabbbbb"
+]
+},
+{
+"name": "s484",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbbAAAbbb"
+]
+},
+{
+"name": "s485",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaaaBaaabbaaabb"
+]
+},
+{
+"name": "s486",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacAbbcBB",
+"aCAcbbb"
+]
+},
+{
+"name": "s487",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbccAAA",
+"aabaabbcBc"
+]
+},
+{
+"name": "s488",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abaBabaaaaabaBabaBB"
+]
+},
+{
+"name": "s489",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abABabbbaBAbaBAbbAB"
+]
+},
+{
+"name": "s490",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaabbbaaBAB"
+]
+},
+{
+"name": "s491",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaaaBaaacbC",
+"bbcAAc"
+]
+},
+{
+"name": "s492",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBAccb",
+"aacccccbCCCb"
+]
+},
+{
+"name": "s493",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBAbbbABabaaab"
+]
+},
+{
+"name": "s494",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBabbbbbAAbbbbbaBBabbb"
+]
+},
+{
+"name": "s495",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbabbaabbAbAbb"
+]
+},
+{
+"name": "s496",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaaabbbbaabbbbbaabbbbb"
+]
+},
+{
+"name": "s497",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbababbbaBBaaBB"
+]
+},
+{
+"name": "s498",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbabbbaaaB"
+]
+},
+{
+"name": "s499",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbbbbaabbaBBB"
+]
+},
+{
+"name": "s500",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbaaaBAB"
+]
+},
+{
+"name": "s501",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbABBBAbbbbbaabbbbb"
+]
+},
+{
+"name": "s502",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBaBabbaBaBabbaaabb"
+]
+},
+{
+"name": "s504",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbaabbbaaabbbbaaabbbb"
+]
+},
+{
+"name": "s505",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbbaaabbbbaaabAAb"
+]
+},
+{
+"name": "s507",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaabbaabbaabbb"
+]
+},
+{
+"name": "s508",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abaBabbaBabbaBabbaBabaBaaaB"
+]
+},
+{
+"name": "s509",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabaabbbAAAbbb"
+]
+},
+{
+"name": "s510",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabaaaaabbAAAbAAAbb"
+]
+},
+{
+"name": "s511",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabaBabbaBabaBabaBaaaBabaBabaBabb"
+]
+},
+{
+"name": "s512",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbAAbbbaBBabaBBabaBB"
+]
+},
+{
+"name": "s513",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbaaBaBaabbb"
+]
+},
+{
+"name": "s514",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAAbaaabAAbaaabAABBAAb"
+]
+},
+{
+"name": "s515",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaabbbaaabbbaabbbaaabbbaabb"
+]
+},
+{
+"name": "s516",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaBaaBaaaaabbaaaaabb"
+]
+},
+{
+"name": "s517",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabaaabbbaabbbaabbb"
+]
+},
+{
+"name": "s518",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaBaBaaabbb"
+]
+},
+{
+"name": "s519",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBAbaabABabbaBAbABabbaBAbABabb"
+]
+},
+{
+"name": "s520",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaabbAbbbbbAbb"
+]
+},
+{
+"name": "s521",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAAbaaaaabAABBAAb"
+]
+},
+{
+"name": "s522",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaaaBBaaabbb"
+]
+},
+{
+"name": "s523",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBAbbbaabbbABBBabb"
+]
+},
+{
+"name": "s524",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbbAbbbAbbbbb"
+]
+},
+{
+"name": "s525",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabAbaaabaaabbbb"
+]
+},
+{
+"name": "s526",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbABBBabbbaBBBAbbbaBB"
+]
+},
+{
+"name": "s527",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbbaabbaaB"
+]
+},
+{
+"name": "s528",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abABaaaBAbaBAbbbAB"
+]
+},
+{
+"name": "s529",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbaaabbaaabbaaabb"
+]
+},
+{
+"name": "s530",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaCbbC",
+"acacacabbb"
+]
+},
+{
+"name": "s531",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaababaaabbbbaaabbbb"
+]
+},
+{
+"name": "s532",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbaabAbAbAb"
+]
+},
+{
+"name": "s533",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBaaBaababbab"
+]
+},
+{
+"name": "s534",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabAAAbaabaabbbb"
+]
+},
+{
+"name": "s535",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbAbbbaabbbaabb"
+]
+},
+{
+"name": "s536",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaaabbbbbaabbbaabbb"
+]
+},
+{
+"name": "s537",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBAbbbaabbbABBBab"
+]
+},
+{
+"name": "s538",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaaaabbbaaabb"
+]
+},
+{
+"name": "s539",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBaBaabbbaabbbaaB"
+]
+},
+{
+"name": "s540",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbbAbAbbb"
+]
+},
+{
+"name": "s541",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaababaaabbaaabbbaaabb"
+]
+},
+{
+"name": "s542",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbbAbbbbAbbbb"
+]
+},
+{
+"name": "s543",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbbaabbAAAbb"
+]
+},
+{
+"name": "s544",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAAAbbbaabbbbaabbbb"
+]
+},
+{
+"name": "s545",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAbbaabbaabbbaabbaabbbaabbaabbbaabb"
+]
+},
+{
+"name": "s546",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbaabbbbaabAAAb"
+]
+},
+{
+"name": "s547",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbbaBabbbaaaaabbb"
+]
+},
+{
+"name": "s550",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbbAbbbAbbbb"
+]
+},
+{
+"name": "s551",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaaabbbaBBabbbaBBabbbaBB"
+]
+},
+{
+"name": "s552",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabAbAbAbAb"
+]
+},
+{
+"name": "s553",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaabbaaaaabbaaaB"
+]
+},
+{
+"name": "s554",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabccb",
+"abaCbC"
+]
+},
+{
+"name": "s555",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaabbbaaaabbbaaaBB"
+]
+},
+{
+"name": "s556",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbccbABBA",
+"aaabbcccb"
+]
+},
+{
+"name": "s557",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBabbbaBabbbaBabbbaB"
+]
+},
+{
+"name": "s558",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBaabAAAbbAAAbbAAAbaaBBaaaBB"
+]
+},
+{
+"name": "s559",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaBBabbbaaabbbabbb"
+]
+},
+{
+"name": "s560",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaabbaaaabbaaaBAB"
+]
+},
+{
+"name": "s561",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbAbAbAbbb"
+]
+},
+{
+"name": "s562",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbAAbbbaaab"
+]
+},
+{
+"name": "s563",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabAAccb",
+"aabbccc"
+]
+},
+{
+"name": "s564",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBaabbbAbbbbbAbbb"
+]
+},
+{
+"name": "s565",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaabbbabbbaaabbbbbaaabbbabbb"
+]
+},
+{
+"name": "s566",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAbaabbbbaabAb"
+]
+},
+{
+"name": "s567",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbAbbAbbb"
+]
+},
+{
+"name": "s570",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacbAbbcB",
+"aabbccb"
+]
+},
+{
+"name": "s571",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbAbAbbaabb"
+]
+},
+{
+"name": "s572",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaababbAbbab"
+]
+},
+{
+"name": "s573",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabCCAAb",
+"aacccbbb"
+]
+},
+{
+"name": "s574",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbAbaabAbaabbaabAbaabb"
+]
+},
+{
+"name": "s575",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaBBaaaBBaabbb"
+]
+},
+{
+"name": "s580",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAAAbaabAAAbaaBBB"
+]
+},
+{
+"name": "s581",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acaaBcb",
+"aCAbbbc"
+]
+},
+{
+"name": "s582",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbAbbbaabbaabb"
+]
+},
+{
+"name": "s583",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbAbbaabbaabbaabbbaabbaabbaabbb"
+]
+},
+{
+"name": "s584",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabAAbaaabaaabbbb"
+]
+},
+{
+"name": "s585",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAbaabAbaabAbabAbbbAbabAbaabAbabAbbbAb"
+]
+},
+{
+"name": "s586",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAAAAAbaabbbbaabbbb"
+]
+},
+{
+"name": "s587",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabaabaabbAbbAbb"
+]
+},
+{
+"name": "s588",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbbaaabbbaabbbaaabbbbaaabbbaabbb"
+]
+},
+{
+"name": "s589",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbcccbb",
+"aaaaabccb"
+]
+},
+{
+"name": "s590",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaBBBabbaabbaabbaaabbaabbaabbaaabbaabb"
+]
+},
+{
+"name": "s591",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaBBaBBaBBaabbb"
+]
+},
+{
+"name": "s592",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabaaaabaaaabbbabbb"
+]
+},
+{
+"name": "s593",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbaabbbAbbbaabbb"
+]
+},
+{
+"name": "s594",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bAbcAc",
+"accabb"
+]
+},
+{
+"name": "s595",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBcbC",
+"acbbbABc"
+]
+},
+{
+"name": "s597",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBaabbAbbbAbb"
+]
+},
+{
+"name": "s598",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbbaaaaabAAbaaaaabbbb"
+]
+},
+{
+"name": "s599",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabAbbbAbbbAb"
+]
+},
+{
+"name": "s600",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbaabbaabbbaabbaabbbaabbaabAAAb"
+]
+},
+{
+"name": "s603",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabbAbbabbAbbabbAbb"
+]
+},
+{
+"name": "s604",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaabbaaaabbaaabbaaabbbaaabb"
+]
+},
+{
+"name": "s605",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbaaabaaabAbAbAb"
+]
+},
+{
+"name": "s606",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbbbAbbbAbbbbb"
+]
+},
+{
+"name": "s607",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCCBBaccc",
+"aabbbbbcc"
+]
+},
+{
+"name": "s608",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbabbbbbabbaaaabb"
+]
+},
+{
+"name": "s609",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaaBaaaB"
+]
+},
+{
+"name": "s610",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbbaabbbABBAbbb"
+]
+},
+{
+"name": "s611",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaaabbaaaaabbaaaBBB"
+]
+},
+{
+"name": "s612",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBaBBaabbbabbbabbb"
+]
+},
+{
+"name": "s613",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaBabaBabbaabbaabb"
+]
+},
+{
+"name": "s614",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabaaabbbbabbbb"
+]
+},
+{
+"name": "s615",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBaaaBabbbAAbbb"
+]
+},
+{
+"name": "s616",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbbaabbbaabbbaaaaabbb"
+]
+},
+{
+"name": "s617",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbbbaaabbbabbbaaabbbbbaaabbbabbb"
+]
+},
+{
+"name": "s618",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbAbbAbbAbbb"
+]
+},
+{
+"name": "s619",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBcccB",
+"ababaccccc"
+]
+},
+{
+"name": "s620",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbbbaabbbbbaabbbbb"
+]
+},
+{
+"name": "s623",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaabbbbbbbaabbbbaaabbbb"
+]
+},
+{
+"name": "s624",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaaabbbaBBBBabbbaBBBB"
+]
+},
+{
+"name": "s625",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBBBabbbaaaabbbaaaabbb"
+]
+},
+{
+"name": "s626",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abccAB",
+"aaabCbccc"
+]
+},
+{
+"name": "s627",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAAAbbbaabbbAAAbbbaabb"
+]
+},
+{
+"name": "s628",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbbbAbbbbbAbbbbb"
+]
+},
+{
+"name": "s629",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbaaabbbaabbbaaabbbaabbbaaabb"
+]
+},
+{
+"name": "s630",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBaabbbabbbabbb"
+]
+},
+{
+"name": "s631",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBCCCbcbb",
+"aaabcccb"
+]
+},
+{
+"name": "s632",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaBBBBBaabbabbaaabb"
+]
+},
+{
+"name": "s633",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabAbAbbAbAbaabaab"
+]
+},
+{
+"name": "s634",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacbbc",
+"aaCaaCaabbb"
+]
+},
+{
+"name": "s635",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbaabbaabbAbbaabbaabbAbbaabbaabbAbb"
+]
+},
+{
+"name": "s636",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBaaBaaBabbabbabb"
+]
+},
+{
+"name": "s639",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acAbbbbbC",
+"aBcccAb"
+]
+},
+{
+"name": "s640",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acAbbbbbc",
+"acccbAb"
+]
+},
+{
+"name": "s641",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbAbbbAbbbaab"
+]
+},
+{
+"name": "s642",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbaabaaabaabbbb"
+]
+},
+{
+"name": "s643",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabaaabbbaaabbbabbb"
+]
+},
+{
+"name": "s644",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aacBBcAbb",
+"acAbbbbbC"
+]
+},
+{
+"name": "s645",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbababAbaabbb"
+]
+},
+{
+"name": "s646",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaBaabbAbbAbb"
+]
+},
+{
+"name": "s648",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBAbbaabbABBabbABBBAbb"
+]
+},
+{
+"name": "s649",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaabaabbaabbbaabbaaabb"
+]
+},
+{
+"name": "s650",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbAbbaaBBBaabbAbb"
+]
+},
+{
+"name": "s651",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabbbaaaabbbaaaabbb"
+]
+},
+{
+"name": "s652",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBaaabAAbbbAAb"
+]
+},
+{
+"name": "s653",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaabbbbaabbbbaabbb"
+]
+},
+{
+"name": "s654",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbbAAcc",
+"aaaCBBCbbb"
+]
+},
+{
+"name": "s655",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabbbaaabbaaabAAAAb"
+]
+},
+{
+"name": "s656",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbaaaBBaBB"
+]
+},
+{
+"name": "s657",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"ababbbaaabbaaabbb"
+]
+},
+{
+"name": "s658",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbAbaabbaabbaabAbaabbaabbaabAbaabbaabb"
+]
+},
+{
+"name": "s659",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbaBabbaBabbaBabb"
+]
+},
+{
+"name": "s662",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaaabbaabbaabbbaabbaabbaaabbaabbaabbaaabb"
+]
+},
+{
+"name": "s663",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbaBaBABaB"
+]
+},
+{
+"name": "s664",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbbbaabbbbbbbaabbaaabb"
+]
+},
+{
+"name": "s665",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbbcAAccc",
+"aaaccBB"
+]
+},
+{
+"name": "s666",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaabbaaabbaaaabbaaaB"
+]
+},
+{
+"name": "s667",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaabaabbbaBAAB"
+]
+},
+{
+"name": "s668",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAAbaaaBBBaaabAAb"
+]
+},
+{
+"name": "s669",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaaabbbaaabbbaaabbbbb"
+]
+},
+{
+"name": "s670",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbbbabbbabbbbbaaaabbbbb"
+]
+},
+{
+"name": "s671",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabaabAbbAbbAbbAb"
+]
+},
+{
+"name": "s672",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaBBaBBaBBabbbaabbb"
+]
+},
+{
+"name": "s673",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abaaaCBc",
+"bbbccAA"
+]
+},
+{
+"name": "s674",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"cBBcccAA",
+"aaabbbcc"
+]
+},
+{
+"name": "s675",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacccBcB",
+"bbAAccc"
+]
+},
+{
+"name": "s676",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAAAbaabAAAbaabbbbb"
+]
+},
+{
+"name": "s677",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbcACAc",
+"aaacbCbc"
+]
+},
+{
+"name": "s678",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBaBabbabbaabbabbaBaB"
+]
+},
+{
+"name": "s679",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabaabbbAbbAbbb"
+]
+},
+{
+"name": "s680",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaBBBBBaabbbabbbaaabbb"
+]
+},
+{
+"name": "s681",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaaBBBaabbabbabb"
+]
+},
+{
+"name": "s682",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbaabbbaabbaB"
+]
+},
+{
+"name": "s683",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabAAbaaaaabAAbbbbAAb"
+]
+},
+{
+"name": "s684",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbaabbaaabbaaBBB"
+]
+},
+{
+"name": "s685",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbaaabbbbbaaabbbaaaabbb"
+]
+},
+{
+"name": "s686",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBababaBBabbbAAbbb"
+]
+},
+{
+"name": "s687",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbbbaabbaabbaaaaabb"
+]
+},
+{
+"name": "s688",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abABabAAbaBAbaBAbaaabAB"
+]
+},
+{
+"name": "s689",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbabbaaabbAABAAbb"
+]
+},
+{
+"name": "s690",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aababaabAbbAbbAb"
+]
+},
+{
+"name": "s691",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbbaabAbaabbb"
+]
+},
+{
+"name": "s692",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbAbbbbaabaabbbbaab"
+]
+},
+{
+"name": "s693",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBBaabbbbbabbbbbaaabbbbbabbbbb"
+]
+},
+{
+"name": "s694",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbAAbbbAAbbb"
+]
+},
+{
+"name": "s695",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbaaaabbbaaabbbbaaabbb"
+]
+},
+{
+"name": "s696",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBCCCbccbb",
+"aaabcccb"
+]
+},
+{
+"name": "s697",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabcbcbbb",
+"aaBBcc"
+]
+},
+{
+"name": "s698",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbbaaabbbaaabAAb"
+]
+},
+{
+"name": "s699",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaBaabb"
+]
+},
+{
+"name": "s700",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaabbbbbabbbbb"
+]
+},
+{
+"name": "s701",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabaabAbaabAbaabaabAbaabAbbAb"
+]
+},
+{
+"name": "s702",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bCbcAA",
+"aCbbacac"
+]
+},
+{
+"name": "s703",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAABaBAAbaabbbaabbb"
+]
+},
+{
+"name": "s704",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBCAAbbc",
+"aaccbAb"
+]
+},
+{
+"name": "s705",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbAbAbbaBBaaaaBB"
+]
+},
+{
+"name": "s706",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBabbbabbbabbbaBBaaBB"
+]
+},
+{
+"name": "s707",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbacc",
+"abAbaCBC"
+]
+},
+{
+"name": "s708",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabacBCCC",
+"abccAB"
+]
+},
+{
+"name": "s709",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbabbaBabbbAAbbb"
+]
+},
+{
+"name": "s710",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbbAbbbaabbbaabbbaabbbb"
+]
+},
+{
+"name": "s711",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaaabbbaaabbbaaabbbbb"
+]
+},
+{
+"name": "s712",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBabbbbbaBBBaaaaBBBabbbbb"
+]
+},
+{
+"name": "s713",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBaabbbaaabbbaabbbaaabbb"
+]
+},
+{
+"name": "s714",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaaaabaaaaabaaaaabbb"
+]
+},
+{
+"name": "s715",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbabbbabbbaaBBaaBB"
+]
+},
+{
+"name": "s716",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbabbbbbabbbbbaaabbb"
+]
+},
+{
+"name": "s717",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabbaaaabbaaabbaaabbaaaabb"
+]
+},
+{
+"name": "s718",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBaaBBabbbAAbbAAbbb"
+]
+},
+{
+"name": "s719",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaBBaaaaBAbbAAAAbbAB"
+]
+},
+{
+"name": "s720",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbaabbaaabbaaBaabbaaabb"
+]
+},
+{
+"name": "s721",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabbaabbaBabbaabb"
+]
+},
+{
+"name": "s722",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBAbaBAbaaabABabABabbb"
+]
+},
+{
+"name": "s723",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabAbaabaabAbbbAb"
+]
+},
+{
+"name": "s724",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabAAAbaabbaabbbaabbaabAAAbaabbaabAAAb"
+]
+},
+{
+"name": "s725",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabaaBBaabaaBaabaaaaab"
+]
+},
+{
+"name": "s726",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBAbbaBBAbbbABBabbABBabb"
+]
+},
+{
+"name": "s727",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbabbaaaabbabbaaaabb"
+]
+},
+{
+"name": "s728",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbAAbbAAbbb"
+]
+},
+{
+"name": "s729",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbbCAC",
+"acBAbbcc"
+]
+},
+{
+"name": "s730",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbABBabaBBAbb"
+]
+},
+{
+"name": "s731",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbabbaabbaabbabbaabbaaB"
+]
+},
+{
+"name": "s732",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"accbbABc",
+"acbbACbbb"
+]
+},
+{
+"name": "s733",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aacbACb",
+"aBBCbacBCbac"
+]
+},
+{
+"name": "s734",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCbcccaaB",
+"aaCbbAAc"
+]
+},
+{
+"name": "s735",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbaabbbbAbbbbaabbbbaabbbbbbb"
+]
+},
+{
+"name": "s736",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaaaabbaaabbbaaabbaaabbbaaabb"
+]
+},
+{
+"name": "s737",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaaaaabbaaabbaaabbbbb"
+]
+},
+{
+"name": "s738",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBBaaabbabbaaabbabb"
+]
+},
+{
+"name": "s739",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbbbaaabbbaaaabbb"
+]
+},
+{
+"name": "s740",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaaabbaaabbbbbaaabbbbb"
+]
+},
+{
+"name": "s741",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaabbbaabbbaaabb"
+]
+},
+{
+"name": "s742",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbabbbaaabbbabbbaaabbbbbbbb"
+]
+},
+{
+"name": "s743",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbaabaabbbaabaabbbaab"
+]
+},
+{
+"name": "s744",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBBaabbbAbbbaaBBaab"
+]
+},
+{
+"name": "s745",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaBBAbbbABBabb"
+]
+},
+{
+"name": "s746",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abAccBac",
+"acbbAC"
+]
+},
+{
+"name": "s747",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaabbbabbbaaabaaabbbabbbaaabbb"
+]
+},
+{
+"name": "s748",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabcaaabcaaab",
+"abcBBcAAc"
+]
+},
+{
+"name": "s749",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbaaaaabbaabbaaaaabbaaaaabbaabbaaaaabbaaaaabbb"
+]
+},
+{
+"name": "s750",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaabbaaabAbaaabbaaabb"
+]
+},
+{
+"name": "s751",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBaBBaaabAbbAb"
+]
+},
+{
+"name": "s752",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbaabbaaabbaabbbbbbb"
+]
+},
+{
+"name": "s753",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaaaBaabbbAbbb"
+]
+},
+{
+"name": "s754",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbaaabbcc",
+"aaBBBccc"
+]
+},
+{
+"name": "s755",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBababaBabbAAAbb"
+]
+},
+{
+"name": "s756",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaabbbAbbbaaabb"
+]
+},
+{
+"name": "s757",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabaBabbaabbaBabbaabbaBabbaabb"
+]
+},
+{
+"name": "s758",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbbaaabbaaabAbaaabb"
+]
+},
+{
+"name": "s759",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbaaabaaabbbbaaabaaabbbb"
+]
+},
+{
+"name": "s760",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAbbAbaaabAbbAbaaabAbbAbbbAbbAb"
+]
+},
+{
+"name": "s761",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaabbbaBBBAbABBB"
+]
+},
+{
+"name": "s762",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbbaabbbbbaabbaaabb"
+]
+},
+{
+"name": "s763",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbAbAbbAbAbb"
+]
+},
+{
+"name": "s764",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abaBabbAAbbAAbbaB"
+]
+},
+{
+"name": "s765",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbcAAAcc",
+"aaaacbCb"
+]
+},
+{
+"name": "s766",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabbbaaabbaaabbaaaaabb"
+]
+},
+{
+"name": "s767",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbaaabaaabbbAAbbb"
+]
+},
+{
+"name": "s768",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabaabAbaabAbbAbaabAbbAb"
+]
+},
+{
+"name": "s769",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaaaabbaaaaabbaabbbbb"
+]
+},
+{
+"name": "s770",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaabbbaBBBBBabbbaabbbaaabbbaabbb"
+]
+},
+{
+"name": "s771",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbbbbaaabbaabbaaabbaabbaaabb"
+]
+},
+{
+"name": "s772",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaabbbaabbbaabb"
+]
+},
+{
+"name": "s773",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bbcbcABA",
+"aabbCC"
+]
+},
+{
+"name": "s775",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCbbacc",
+"aabCCbc"
+]
+},
+{
+"name": "s777",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabAbaaBAABaabAb"
+]
+},
+{
+"name": "s778",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBabaBBabaaabaBabaaab"
+]
+},
+{
+"name": "s779",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abaBBcc",
+"aacBcbb"
+]
+},
+{
+"name": "s781",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacbabc",
+"aCAACabb"
+]
+},
+{
+"name": "s783",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaBAbABabbaBAbaaabAB"
+]
+},
+{
+"name": "s784",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBcAbcc",
+"acbbACb"
+]
+},
+{
+"name": "s786",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaaCbcB",
+"abccccAB"
+]
+},
+{
+"name": "s787",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaabcBc",
+"aBabcccc"
+]
+},
+{
+"name": "s788",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abccbAcbAcb",
+"aabcBaC"
+]
+},
+{
+"name": "s789",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aacBCbAc",
+"aaacbAcB"
+]
+},
+{
+"name": "s790",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbbbaaabbaaabbbbbabbbbbaaabbbbb"
+]
+},
+{
+"name": "s791",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbcbbbbbcAc",
+"aabbCC"
+]
+},
+{
+"name": "s792",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaabbbaaabbbaabbbbbbbb"
+]
+},
+{
+"name": "s793",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbaaabbaabbaBaB"
+]
+},
+{
+"name": "s794",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBBccaBBcccbb",
+"aabbbCCbb"
+]
+},
+{
+"name": "s795",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbaabbaabbbaabbaabbaaaaabb"
+]
+},
+{
+"name": "s796",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaaaabbbaabbbbbaabbbbb"
+]
+},
+{
+"name": "s797",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbbCCb",
+"aabaaacccb"
+]
+},
+{
+"name": "s798",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabbAbbAbb"
+]
+},
+{
+"name": "s799",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbbbbbaaabbaaabbaabb"
+]
+},
+{
+"name": "s800",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaabbaaabbaabbaaaBBB"
+]
+},
+{
+"name": "s801",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbABBabbABAbbaBBAbb"
+]
+},
+{
+"name": "s802",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbAbbabbAAbbabbAbbab"
+]
+},
+{
+"name": "s803",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbaaabbaaaabbbbbaaaabbaaabb"
+]
+},
+{
+"name": "s804",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaaabbaabbaaabbbbbbbaaabb"
+]
+},
+{
+"name": "s805",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaCACbcacab",
+"abccAABc"
+]
+},
+{
+"name": "s806",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acbcbcabCCb",
+"abacbAbc"
+]
+},
+{
+"name": "s807",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbbbaaabbbaabbbaaabbbbbaaabbbaabbb"
+]
+},
+{
+"name": "s808",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbaabbaabbAAAbbaabbaabbb"
+]
+},
+{
+"name": "s809",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbbaabbbaabbbAAAbbb"
+]
+},
+{
+"name": "s810",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbbCC",
+"aBabbcccccB"
+]
+},
+{
+"name": "s811",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaaaabbbaabbbbaabbbaabbbb"
+]
+},
+{
+"name": "s812",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbaaaaabbbaaaaabbb"
+]
+},
+{
+"name": "s813",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaBaBaabbabbaabb"
+]
+},
+{
+"name": "s814",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaabbbaaabbbaaaabbbaaabbbaaaabbbbb"
+]
+},
+{
+"name": "s815",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaaaaabbbaabbbaaBB"
+]
+},
+{
+"name": "s816",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaabbbaaaaabbbaaabbaaabbbaaaaabbbaaabb"
+]
+},
+{
+"name": "s817",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabbcc",
+"aabCabbCB"
+]
+},
+{
+"name": "s818",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBAbccc",
+"abbbccAbc"
+]
+},
+{
+"name": "s819",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBcAAbbbC",
+"aaaBcBC"
+]
+},
+{
+"name": "s820",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abAbabAbaabbbaabAb"
+]
+},
+{
+"name": "s821",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaabbAAbbbAAbb"
+]
+},
+{
+"name": "s822",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaaabbbaaaaabbbaaabbbbb"
+]
+},
+{
+"name": "s823",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAAAAbbAAAAbaaaBBaaaaBB"
+]
+},
+{
+"name": "s824",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"bAAccbCbcbC",
+"aaaccbb"
+]
+},
+{
+"name": "s825",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaaabbbbbbbbaaabbbaaabbb"
+]
+},
+{
+"name": "s826",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbAbbaaaBaaabaaaB"
+]
+},
+{
+"name": "s827",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbbaabbbbaabbbbaabbb"
+]
+},
+{
+"name": "s828",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbaaabbbaaabbbbaaabbbaaaaabbb"
+]
+},
+{
+"name": "s829",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabbbAAbbb"
+]
+},
+{
+"name": "s830",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbAAbbbaaabbbaaabbbbaaabbb"
+]
+},
+{
+"name": "s832",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbABAbbaabbaabbbaabb"
+]
+},
+{
+"name": "s833",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbbbbbbaaabbbaabbbaaabbb"
+]
+},
+{
+"name": "s834",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBBBacc",
+"abbbbbcAc"
+]
+},
+{
+"name": "s835",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaaBaabbaabbaaB"
+]
+},
+{
+"name": "s836",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBAbbABBBabbbaaabbb"
+]
+},
+{
+"name": "s837",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acABAbbC",
+"aacABCbbb"
+]
+},
+{
+"name": "s838",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbbcbbaC",
+"aCAcbbbbb"
+]
+},
+{
+"name": "s839",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbAbAbbb"
+]
+},
+{
+"name": "s840",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaBaabbAbbAbbaabbAbbAbb"
+]
+},
+{
+"name": "s841",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBAABBBabbbbaaabbbb"
+]
+},
+{
+"name": "s842",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbabbaaabbaaabbbbbbb"
+]
+},
+{
+"name": "s844",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbaaabbaaabbaabbaBBB"
+]
+},
+{
+"name": "s845",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBaaabaaaBaaabbAAbb"
+]
+},
+{
+"name": "s846",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbAbAbAbbb"
+]
+},
+{
+"name": "s847",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCbacaB",
+"aBcbacAbc"
+]
+},
+{
+"name": "s848",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaaBBaabbbaabbbaaBBaBB"
+]
+},
+{
+"name": "s849",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabAAbaaabbaaabbbaaabbb"
+]
+},
+{
+"name": "s850",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBabbaabAbaabbaBabb"
+]
+},
+{
+"name": "s851",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbaabbaaabbbbbaaabbaabbaaabbbbb"
+]
+},
+{
+"name": "s852",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBBaBBBabbaabbaabbaBBBabbaabbaabb"
+]
+},
+{
+"name": "s853",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaaabbaaabbaaaaabbaaabbaaabbaaaaabb"
+]
+},
+{
+"name": "s854",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBcbaBccAb",
+"aCAbbc"
+]
+},
+{
+"name": "s855",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbaabAbAbaabAbaabbb"
+]
+},
+{
+"name": "s856",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbbbaabbbbbaaaaabbbbbaabbbbbaabb"
+]
+},
+{
+"name": "s857",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbbbabbbbbaaabbbbbaaabbbbbbbb"
+]
+},
+{
+"name": "s858",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbAbbAbbb"
+]
+},
+{
+"name": "s860",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBAABBabbbbbaaabbbbb"
+]
+},
+{
+"name": "s861",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbaBabaBabb"
+]
+},
+{
+"name": "s862",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabAAbaaabAABaaBAAABaaBAAb"
+]
+},
+{
+"name": "s863",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaaBBcBBcb",
+"aaccbbb"
+]
+},
+{
+"name": "s865",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaaabbbbaaabbbaB"
+]
+},
+{
+"name": "s866",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbaaabbbbbaaabbbbbaaaaabbbbb"
+]
+},
+{
+"name": "s867",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaaBBaaabbbaaabbbaaaaabbb"
+]
+},
+{
+"name": "s868",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaaabbbbbaaaaabbbbbaaabbbbbaaabb"
+]
+},
+{
+"name": "s869",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abCACaBcb",
+"acBCbABccc"
+]
+},
+{
+"name": "s870",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbaBAABBAABabbaabbaBAABBAABabbaabbaB"
+]
+},
+{
+"name": "s871",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbabAbbbbAbabAbaabAb"
+]
+},
+{
+"name": "s872",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbAbbAbbAbbb"
+]
+},
+{
+"name": "s873",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaaabbbaaabbbaabAb"
+]
+},
+{
+"name": "s874",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aBBABBabbaaabbaBabbaaabb"
+]
+},
+{
+"name": "s875",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbbbaBBBAABBBabbbbb"
+]
+},
+{
+"name": "s877",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaCbaccacAAbC",
+"accBcAAb"
+]
+},
+{
+"name": "s878",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabcbAccb",
+"abcaCaB"
+]
+},
+{
+"name": "s879",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abaaccBC",
+"aCabABc"
+]
+},
+{
+"name": "s881",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbaabaaabaabbbaabbbaab"
+]
+},
+{
+"name": "s882",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acAbACb",
+"acBabcBc"
+]
+},
+{
+"name": "s884",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaBabbbaabbbaBabbbaabbbb"
+]
+},
+{
+"name": "s885",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aacacbcBB",
+"bcAbbAc"
+]
+},
+{
+"name": "s886",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabAbabAbbbbAbabAbaabAbabAb"
+]
+},
+{
+"name": "s888",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaBBccc",
+"accaCbbab"
+]
+},
+{
+"name": "s889",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbAbbaabbaabaabbaabbAbb"
+]
+},
+{
+"name": "s890",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBAbcacc",
+"aabccbC"
+]
+},
+{
+"name": "s891",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBBcaabC",
+"aababaabCbc"
+]
+},
+{
+"name": "s892",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabCAbbc",
+"aababaabCBc"
+]
+},
+{
+"name": "s893",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbAAAbbaabbbaabbbbbaabbb"
+]
+},
+{
+"name": "s894",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabaabbbAbbbAbbb"
+]
+},
+{
+"name": "s896",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"accabcb",
+"aBBacAc"
+]
+},
+{
+"name": "s897",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acAAbCb",
+"acccBaCbb"
+]
+},
+{
+"name": "s899",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabcccAAB",
+"aaaCCbccB"
+]
+},
+{
+"name": "s900",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acbACbC",
+"acBcBcbAbb"
+]
+},
+{
+"name": "s901",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acAbbbAc",
+"aCacbbc"
+]
+},
+{
+"name": "s902",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaBBaBBaaabbbaabbb"
+]
+},
+{
+"name": "s903",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abCCAAbcb",
+"abcbaccBCB"
+]
+},
+{
+"name": "s904",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbaabbbAbbbAbbb"
+]
+},
+{
+"name": "s905",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBAcbaccc",
+"abbaacc"
+]
+},
+{
+"name": "s907",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCbbAbC",
+"acBaacAcb"
+]
+},
+{
+"name": "s908",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abccAAbCb",
+"aacAAbabcB"
+]
+},
+{
+"name": "s909",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaCbbCC",
+"accaccbcaccbc"
+]
+},
+{
+"name": "s911",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbaabbbaabbbaaabb"
+]
+},
+{
+"name": "s912",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbaabABBBAbaabbbaBAAB"
+]
+},
+{
+"name": "s915",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCbcabcBCb",
+"abccACb"
+]
+},
+{
+"name": "s916",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabAcBc",
+"abbcacaCC"
+]
+},
+{
+"name": "s917",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBcBabccb",
+"aabCbAccb"
+]
+},
+{
+"name": "s918",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCCbbAcc",
+"aaBAcbcc"
+]
+},
+{
+"name": "s919",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaabbaBabbaaabb"
+]
+},
+{
+"name": "s921",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acbaaCBc",
+"abcbABc"
+]
+},
+{
+"name": "s922",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbAbbbaabbbaabbbbbaabbbaabbbbb"
+]
+},
+{
+"name": "s923",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaabaacbAc",
+"aacAcBCb"
+]
+},
+{
+"name": "s924",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBaCbCAcbc",
+"acBAcb"
+]
+},
+{
+"name": "s925",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbaabbbAbbbaabbbaabbbAbAbbb"
+]
+},
+{
+"name": "s926",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbAbbbaaabbaaabbbbbaaabb"
+]
+},
+{
+"name": "s927",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbbAbbbacc",
+"abbbbbacABBBAc"
+]
+},
+{
+"name": "s928",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"acAbcABC",
+"aacbbcB"
+]
+},
+{
+"name": "s929",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbbabbbaaabbaaabbaaabbb"
+]
+},
+{
+"name": "s931",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaBabbaabbaabbbaabbaabbbaabb"
+]
+},
+{
+"name": "s932",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaabbaabbaBabaBabaB"
+]
+},
+{
+"name": "s933",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabaaabbbabbbabbbaaab"
+]
+},
+{
+"name": "s934",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAAAbbbaabbaabbbbbaabb"
+]
+},
+{
+"name": "s935",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbbAbbbAbbbaabbbAbbbAbbbaab"
+]
+},
+{
+"name": "s936",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabbaabbbAbbbAbbbaabbbAbbbAbbb"
+]
+},
+{
+"name": "s938",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abCCaccbb",
+"acBAbaC"
+]
+},
+{
+"name": "s939",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCbABac",
+"accACCbbb"
+]
+},
+{
+"name": "s942",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aBCbacAc",
+"abcAbC"
+]
+},
+{
+"name": "s943",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacAAAbbC",
+"aacAcBCb"
+]
+},
+{
+"name": "s944",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabAccb",
+"acaBcBCb"
+]
+},
+{
+"name": "s946",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbbaaabbaaabbbaaabbbaaabbaaabbbaaabbbaaaaabbb"
+]
+},
+{
+"name": "s947",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aabaabbbaabbbaaaaabbbaabbbaabaabbbaabbb"
+]
+},
+{
+"name": "s949",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aCbacaB",
+"abcbcbACb"
+]
+},
+{
+"name": "s950",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaabbaaabbbbbaaabbaaabbbAAbbb"
+]
+},
+{
+"name": "s951",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aabbbAbbbcc",
+"aabbCAbbbc"
+]
+},
+{
+"name": "s952",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbbabbbcACb",
+"aacbbc"
+]
+},
+{
+"name": "s953",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"abbaaabbaaabbbbbaaabbaaabbbbbaaabbaaabb"
+]
+},
+{
+"name": "s954",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaacaabcBcaabcBc",
+"aabbCC"
+]
+},
+{
+"name": "s955",
+"tets": 6,
+"generators": [
+"a",
+"b"
+],
+"relators": [
+"aaaaabbbaabbbaabbaabbbaabbbaaaaabbbaabbb"
+]
+},
+{
+"name": "s956",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aaccabbbabbb",
+"aCAbbC"
+]
+},
+{
+"name": "s957",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abccAABcAc",
+"abaaCCaaCbc"
+]
+},
+{
+"name": "s958",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abcaaBBC",
+"aacBacbbc"
+]
+},
+{
+"name": "s960",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"aacabbabCB",
+"abbCAAbAbc"
+]
+},
+{
+"name": "s961",
+"tets": 6,
+"generators": [
+"a",
+"b",
+"c"
+],
+"relators": [
+"abbabCbAAc",
+"abbCaaBaBc"
+]
+}
+]
+}
