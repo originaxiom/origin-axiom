@@ -49,6 +49,20 @@ THE CONDITION, written before any of this was run. The card holds where this sea
       ((u_max + sqrt(u_max^2 - 4))/2).
   Any one failing is a fault in the card as this seat reads it, or in this seat's reading; the note says which.
 
+THE FIRST RUN, AND WHAT CHANGED AFTER IT (post hoc in method; the condition above is unchanged). The first run, at
+commit b4aff7623 (its output is q0029_out_run1.txt), passed C1 to C6 and stopped at C7: its random Newton search
+found no geometric fixed point of LLLRRR. That is the search, not the card: nearly every start falls to the chart's
+origin, a super-attracting fixed point, and the geometric orbits of C9's long words are harder still. Two searches were
+changed, and nothing that judges:
+  - geometric orbits (C7, C9) are now also started from chart points made from two shapes of SnapPy's solution of the
+    same bundle (q0029_seeds.py, run once, its output q0029_seeds.json beside this script), then solved by this
+    script's own Newton at 80 digits and kept only if every shape has positive imaginary part. C9 now takes the orbit of
+    H P^k at k = K - 2, K - 1, K directly, with no continuation in k. SnapPy's volumes are printed beside this seat's,
+    not judged.
+  - C8's fixed points over the roots of fac_8 are now found in the trace coordinates, with z held at the root and
+    Newton in (x, y) from starts on the surface; each is then carried to the chart, (u, v) = (x/z, y/z), and must be a
+    chart fixed point off the blown-up origin there, with the chart trace equal to tr(DT) - 1, as C8 asks.
+
 NOT CHECKED HERE: exactness in the cyclotomic fields as such, the invariance of Omega, the outward ray limit, the
 factored polynomials cp_336 and cp_3615, the card's b_0 offsets and selection inequalities (printed, not judged), and
 its control and float counts.
@@ -56,6 +70,8 @@ its control and float counts.
     python3 relays/chat1_2026-11-28_peer/q0029_check.py            # the check; exits 0, prints the verdict
     python3 relays/chat1_2026-11-28_peer/q0029_check.py --control  # targets made wrong on purpose; exits 1
 """
+import json
+import pathlib
 import random
 import sys
 
@@ -391,19 +407,112 @@ def geometric(word, pts):
     return seqs
 
 
+SEEDS = None
+
+
+def seeds():
+    """the starting points q0029_seeds.py wrote beside this script (SnapPy's shapes); see that script"""
+    global SEEDS
+    if SEEDS is None:
+        SEEDS = json.loads(pathlib.Path(__file__).with_name("q0029_seeds.json").read_text(encoding="utf-8"))["words"]
+    return SEEDS
+
+
+def rots(s):
+    return [s, 1 / (1 - s), 1 - 1 / s]
+
+
+def seeded(word):
+    """the geometric orbit of a word by this seat's Newton, started at chart points made from two seed shapes"""
+    S = [mp.mpc(*x.split()) for x in seeds()[word]["shapes"]]
+    n = len(S)
+    c0, c1 = word[-1], word[-2]
+    pairs = [(1 % n, 2 % n)] + [(a, (a + 1) % n) for a in range(n)]
+    for a, b in pairs:
+        for w0 in rots(S[a]):
+            for w1 in rots(S[b]):
+                for s0 in (1, -1):
+                    for s1 in (1, -1):
+                        if c0 == "R":
+                            u0 = s0 * mp.sqrt((1 - w0) / w0)
+                            v0 = s1 * (mp.sqrt((1 - w1) / w1) / (u0 * w0) if c1 == "R" else mp.sqrt(w1 / (1 - w1)) / w0)
+                        else:
+                            v0 = s0 * mp.sqrt(w0 / (1 - w0))
+                            u0 = s1 * (mp.sqrt((1 - w1) / w1) / (1 - w0) if c1 == "R"
+                                       else mp.sqrt(w1 / (1 - w1)) / (v0 * (1 - w0)))
+                        r = newton(word, u0, v0, its=60)
+                        if r is not None:
+                            g = geometric(word, [r])
+                            if g:
+                                return g
+    return []
+
+
+def merge(a, b):
+    keys = [k for k, _ in a]
+    return a + [(k, x) for k, x in b if k not in keys]
+
+
+def T3(p, fixed_z=True):
+    """T_1^3 o T_2^3 on C^3 and its Jacobian (T_2 applied first)"""
+    x, y, z = p
+    J = mp.eye(3)
+    for _ in range(3):
+        J = mp.matrix([[1, 0, 0], [0, 0, 1], [z, -1, x]]) * J
+        x, y, z = x, z, x * z - y
+    for _ in range(3):
+        J = mp.matrix([[0, 0, 1], [0, 1, 0], [-1, z, y]]) * J
+        x, y, z = z, y, y * z - x
+    return (x, y, z), J
+
+
+def xyz_fixed(zi, starts, rng):
+    """fixed points of T_1^3 T_2^3 on x^2 + y^2 + z^2 = xyz with z = zi: Newton in (x, y) on the first two components,
+    from starts put on the surface; kept when the third component and the surface hold too"""
+    found = []
+    for _ in range(starts):
+        x = mp.exp(mp.mpc(rng.uniform(-2, 2), rng.uniform(0, 6.283185307179586)))
+        y = (x * zi + rng.choice((1, -1)) * mp.sqrt((x * zi) ** 2 - 4 * (x * x + zi * zi))) / 2
+        for _ in range(80):
+            (X, Y, Z), J = T3((x, y, zi))
+            g1, g2 = X - x, Y - y
+            if abs(g1) + abs(g2) < mp.mpf(10) ** (-(mp.mp.dps - 25)) * (1 + abs(x) + abs(y)):
+                break
+            a, b, c, d = J[0, 0] - 1, J[0, 1], J[1, 0], J[1, 1] - 1
+            det = a * d - b * c
+            if det == 0:
+                break
+            dx, dy = (-g1 * d + g2 * b) / det, (g1 * c - g2 * a) / det
+            size = abs(dx) + abs(dy)
+            cap = (1 + abs(x) + abs(y)) / 2
+            if size > cap:
+                dx, dy = dx * cap / size, dy * cap / size
+            x, y = x + dx, y + dy
+            if abs(x) > 1e5 or abs(y) > 1e5:
+                break
+        (X, Y, Z), J = T3((x, y, zi))
+        tol = mp.mpf("1e-40")
+        if abs(X - x) + abs(Y - y) + abs(Z - zi) < tol and abs(x * x + y * y + zi * zi - x * y * zi) < tol:
+            if all(abs(x - a) + abs(y - b) > mp.mpf("1e-20") for a, b, _ in found):
+                found.append((x, y, J[0, 0] + J[1, 1] + J[2, 2] - 1))
+        if found:
+            break
+    return found
+
+
 def volume_checks():
     mp.mp.dps = 80
     G = mp.catalan
     out = {}
     for P, seed in (("LR", 1), ("LLRR", 2), ("LLLRRR", 3)):
-        g = geometric(P, fixed_points(P, 400, 20261128 + seed))
+        g = merge(geometric(P, fixed_points(P, 400, 20261128 + seed)), seeded(P))
         out[P] = g
         if not g:
             say(True, "C7 no geometric fixed point found for %s" % P)
             return False, False, None, out
         for key, (u, v, ws, tr) in g:
-            print("  %s geometric: V = %s, chart trace %s"
-                  % (P, mp.nstr(mp.fsum(D(w) for w in ws), 20), mp.nstr(tr, 20)))
+            print("  %s geometric: V = %s (SnapPy %s), chart trace %s"
+                  % (P, mp.nstr(mp.fsum(D(w) for w in ws), 20), seeds()[P]["volume"][:22], mp.nstr(tr, 20)))
     say(False, "V(LR) and the chart trace at its geometric fixed point: %s, %s" % (
         mp.nstr(mp.fsum(D(w) for w in out["LR"][0][1][2]), 15), mp.nstr(mp.re(out["LR"][0][1][3]), 15)))
     say(False, "chart trace at LLRR's geometric fixed point: %s" % mp.nstr(mp.re(out["LLRR"][0][1][3]), 15))
@@ -424,26 +533,24 @@ def volume_checks():
     umax = [r for r in qroots if abs(mp.im(r)) < 1e-40 and 54 < mp.re(r) < 55]
     fac8 = [1, -1, 6, -5, 21, 15, 7, -3, 3]
     zr = mp.polyroots(fac8, maxsteps=200, extraprec=200)
-    allpts = fixed_points("LLLRRR", 4000, 20261131)
+    rng = random.Random(20261131)
     rows = []
-    for (a, b) in allpts:
-        if abs(a * a + b * b + 1) < mp.mpf("1e-20"):
-            continue
-        zz = (a * a + b * b + 1) / (a * b)
-        _, _, ws, J = run("LLLRRR", a, b)
-        rows.append((zz, J[0][0] + J[1][1], all(mp.im(w) > 0 for w in ws)))
+    for zi in zr:
+        for x, y, tr3 in xyz_fixed(zi, 600, rng):
+            a, b = x / zi, y / zi           # the chart point
+            fa, fb, ws, J = run("LLLRRR", a, b)
+            chart_ok = abs(fa - a) + abs(fb - b) < mp.mpf("1e-35") and abs(a * a + b * b + 1) > mp.mpf("1e-20")
+            tr = J[0][0] + J[1][1]
+            rows.append((zi, tr, chart_ok and abs(tr - tr3) < mp.mpf("1e-30")))
     scale = lambda x: mp.fsum(abs(c) * abs(x) ** (4 - i) for i, c in enumerate(quart))
-    zhit = [any(abs(zz - r) < mp.mpf("1e-25") for zz, _, _ in rows) for r in zr]
-    on8 = [(zz, tr, geo) for zz, tr, geo in rows if any(abs(zz - r) < mp.mpf("1e-25") for r in zr)]
-    trroot = all(abs(mp.polyval([mp.mpf(c) for c in quart], tr)) / scale(tr) < TOL for _, tr, _ in on8)
-    hit = [any(abs(tr - r) < mp.mpf("1e-25") for _, tr, _ in on8) for r in qroots]
-    geo = [tr for _, tr, g in on8 if g]
-    geo_ok = len(umax) == 1 and len(geo) >= 1 and all(abs(t - umax[0]) < mp.mpf("1e-25") for t in geo)
-    others = [(mp.nstr(zz, 8), mp.nstr(tr, 8)) for zz, tr, _ in rows
-              if not any(abs(zz - r) < mp.mpf("1e-25") for r in zr)]
+    zhit = [any(abs(zz - r) < mp.mpf("1e-30") and ok for zz, _, ok in rows) for r in zr]
+    trroot = all(abs(mp.polyval([mp.mpf(c) for c in quart], tr)) / scale(tr) < TOL for _, tr, _ in rows)
+    hit = [any(abs(tr - r) < mp.mpf("1e-25") for _, tr, _ in rows) for r in qroots]
+    geo = [x[1][3] for x in out["LLLRRR"]]
+    geo_ok = len(umax) == 1 and len(geo) == 1 and abs(geo[0] - umax[0]) < mp.mpf("1e-25")
     c8 = bool(irr) and nreal == 1 and all(zhit) and trroot and all(hit) and geo_ok
-    print("  LLLRRR: %d fixed points in the chart off the blown-up origin; %d on fac_8's roots; others %s"
-          % (len(rows), len(on8), others))
+    print("  LLLRRR: chart traces at the fixed points over fac_8's roots: %s"
+          % [mp.nstr(tr, 10) for _, tr, _ in rows])
     say(True, "C8 quartic irreducible: %s; one real root in (54, 55): %s; fac_8 roots reached as fixed points: "
               "%d of 8; their traces are quartic roots: %s; roots attained: %d of 4; geometric trace is u_max: %s; "
               "C8 holds: %s"
@@ -453,26 +560,6 @@ def volume_checks():
     return c7, c8, (mp.re(umax[0]) if umax else None), out
 
 
-def chain(H, P, K, seed):
-    """the geometric orbit of H P^k for k = 1..K, by search at k = 1 and continuation after; V(H P^k) by k"""
-    vols, start = {}, None
-    for k in range(1, K + 1):
-        word = H + P * k
-        g = []
-        if start is not None:
-            r = newton(word, start[0], start[1])
-            if r is not None:
-                g = geometric(word, [r])
-        if not g:
-            g = geometric(word, fixed_points(word, 400, seed + k))
-        if len(g) != 1:
-            return None, "k = %d: %d geometric shape sequences" % (k, len(g))
-        u, v, ws, _ = g[0][1]
-        vols[k] = mp.fsum(D(w) for w in ws)
-        start = (u, v)
-    return vols, ""
-
-
 def ratio_checks(umax, geo):
     mp.mp.dps = 80
     VP = {P: mp.fsum(D(w) for w in geo[P][0][1][2]) for P in geo}
@@ -480,11 +567,18 @@ def ratio_checks(umax, geo):
              ("LLLRRRRLLLR", "LR", 12, (5 + mp.sqrt(21)) / 2), ("LLLR", "LLRR", 9, 9 + 4 * mp.sqrt(5)),
              ("LLLLRR", "LLLRRR", 8, (umax + mp.sqrt(umax ** 2 - 4)) / 2)]
     ok = True
-    for i, (H, P, K, lam) in enumerate(cases):
-        vols, why = chain(H, P, K, 777 + 100 * i)
-        if vols is None:
+    for H, P, K, lam in cases:
+        vols = {}
+        for k in (K - 2, K - 1, K):
+            g = seeded(H + P * k)
+            if len(g) != 1:
+                break
+            vols[k] = mp.fsum(D(w) for w in g[0][1][2])
+            print("  V(%s (%s)^%d) = %s (SnapPy %s)" % (H, P, k, mp.nstr(vols[k], 25),
+                                                     seeds()[H + P * k]["volume"][:27]))
+        if len(vols) != 3:
             ok = False
-            say(True, "C9 %s on %s: no single geometric orbit (%s)" % (H, P, why))
+            say(True, "C9 %s on %s: no geometric orbit found at some k" % (H, P))
             continue
         b0 = {"LLLLLLR": 1, "LLRRLLR": 2, "LLLRRRRLLLR": 2, "LLLR": 0, "LLLLRR": 0}[H]
         say(False, "  %s on %s at k = %d: V(W_k) > (k + b_0) V(P) - 1/2: %s; |V(W_k) - (k + b_0) V(P)| > 1e-6: %s"
