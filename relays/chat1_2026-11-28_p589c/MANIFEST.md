@@ -33,3 +33,10 @@ ends with a marker "# [copy: ...]". SHA-256 is of main's file.
 - data `main_tree/frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json` from `88a1e9474:frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json`, SHA-256 688152749777970f
 - `p589c_exact_rows.py` from the seat's `e52f68352:relays/chat1_2026-11-25_p589c/p589c_exact_rows.py`, SHA-256 6645375691df3efb: its load() keeps only the import of exact_end_web_seat under the same stdout redirect, and returns main_tree as main's root
 - `p589c_posthoc3.py` from the seat's `41e0fcbd2:relays/chat1_2026-11-25_p589c/p589c_posthoc3.py`, SHA-256 6bd69d2bbcc3f6f5: its import of p589c_exact_rows by importlib becomes a plain import, and its `import importlib.util` line becomes pass
+
+ADDED 2026-11-28, before the card was filed (the card's stated commit holds the manifest above, unchanged otherwise):
+- Two replaced lines are not loaders, and neither is on the run's path (census.py's still carries the "loader
+  replaced" marker; the_canonical_cusp.py's carries its own): census.py line 113 (inside census.main()) and
+  the_canonical_cusp.py line 335 (module level, used only by that module's own run) imported multiprocessing, which
+  the rerun's guard refuses wherever it stands; the first becomes an exit and the second "Pool = None".
+- b1654.py is not a file of main's but the text main's B1667 line 236 executed, made as its lines 233 to 235 make it.

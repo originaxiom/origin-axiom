@@ -24,3 +24,9 @@ ends with the marker "# [copy: loader replaced, see MANIFEST.md]". SHA-256 is of
 - data `main_tree/frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json` from `88a1e9474:frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json`, SHA-256 688152749777970f
 - `p644_rival.py` from the seat's `348e7874f:relays/chat1_2026-11-25_p644/p644_rival.py`, SHA-256 5528fa7f8298a07c: its load() keeps the plain imports of thread_average, fast_norm and covariance and the patch of cA (main's commit check, root and sys.path insert removed)
 - `p644_rival_posthoc.py` from the seat's `5b3ca3e7b:relays/chat1_2026-11-25_p644/p644_rival_posthoc.py`, SHA-256 ea4c70a44bd1621f: its import of p644_rival by importlib becomes a plain import, and its `import importlib.util` line becomes pass
+
+ADDED 2026-11-28, before the card was filed (the card's stated commit holds the manifest above, unchanged otherwise):
+- covariance.py line 130 is not a loader: it imported multiprocessing inside covariance.main(), which the card never
+  calls, and the rerun's guard refuses that import wherever it stands, so the line is made an exit.
+- build_p644.py was derived from build_wlv1.py: its docstring's "be8c83d4f" should read 88a1e9474, its usage line
+  names build_wlv1.py, and its constants for files it does not copy are unused. None of this is on the run's path.
