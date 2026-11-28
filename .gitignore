@@ -103,6 +103,10 @@ conversations.json
 data-*-batch-*/
 *.jsonl
 !frontier/*/stageA/journals/*.jsonl
+# ADDED 2026-11-28 (main, at round 1's seal; P-885, T12): the plant ledger's seals are committed on main and only appended
+# to (scripts/queue/plants.py); the rule above made the file impossible to add, and T12's tests, in scratch
+# repositories without this file, could not see it.
+!queue/PLANT_SEALS.jsonl
 # Added 2026-09-17 (B1424), found by an outside referee running the shipped package on a clean
 # checkout: `tests/test_b1419_arithmetic_fillings.py` reads this census row-by-row, so the blanket
 # rule above made all four of its locks fail on any fresh clone -- and they are the locks for the one

@@ -20725,3 +20725,11 @@ fingerprint of its list of plants; the list itself is published after the round,
 match its fingerprint or was published too early. The tool then counts, for each seat, how many of its plants it caught.
 
 0 of 19.
+
+## 2026-11-28 — the seals file made committable (S306p)
+
+**What happened.** The file that holds each round's fingerprint of its planted cards was caught by an old rule that keeps
+raw conversation logs out of the repository, so the first fingerprint could not be committed. One exception now lets that
+file in, and the rule holds for everything else.
+
+0 of 19.

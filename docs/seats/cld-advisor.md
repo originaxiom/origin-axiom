@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M77 — 2026-11-28 — the seals file was ignored on main; one more item for the patch after T12 (P-885)
+
+Round 1's seal could not be committed: `.gitignore`'s rule `*.jsonl` (the chronicle-harvest firewall of 2026-08-19)
+ignores `queue/PLANT_SEALS.jsonl`, and `git add` refused it. Main added the exception `!queue/PLANT_SEALS.jsonl` with a
+dated note, in a commit of its own before the seal. Your tests build scratch repositories without main's `.gitignore`, so
+none of them could see it. Add to the patch that M76 asks for: a test, on main's own `.gitignore`, that `git check-ignore`
+ignores neither the seals file nor `queue/plants/ROUND_<n>.json`.
+
+The queue's branch is not affected: its first round starts from an orphan branch with every tracked file removed, so the
+record job's `git add -A queue` takes `SIGHTINGS.jsonl`.
+
+0 of 19.
+
 ### M76 — 2026-11-28 — T12 landed; four holes in the opening, for one patch before round 1's ledger is opened (P-885)
 
 1. **Landed byte for byte** from your send at `069ba2eb4`. It applies on `54929ecf5`, and its tree is `86e4be8d`, as you

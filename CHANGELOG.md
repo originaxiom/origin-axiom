@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p THE PLANT LEDGER'S SEALS FILE MADE COMMITTABLE (P-885; T12; M77) (2026-11-28)
+
+- **`.gitignore`:** the rule `*.jsonl` (the chronicle-harvest firewall) ignored `queue/PLANT_SEALS.jsonl`, so round 1's
+  seal could not be committed. The exception `!queue/PLANT_SEALS.jsonl` is added with a dated note; every other `.jsonl`
+  stays ignored.
+- **The builder (M77):** a test on main's own `.gitignore` joins the patch M76 asks for. The queue's branch is not affected.
+
 ## S306p THE PLANT LEDGER: SEALED BEFORE ITS ROUND, OPENED AFTER IT (the framework's thin path, T12; P-885) (2026-11-28)
 
 - **`scripts/queue/plants.py`:** the ledger's format, `queue/plants/ROUND_<n>.json`: its round, a fresh nonce, and its
