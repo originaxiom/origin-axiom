@@ -20716,3 +20716,12 @@ two-phase picture that is three sectors, a re-grade under the genesis, a window 
 one family, an inference withdrawn and settled elsewhere, and a class fixed only by labels. The other 42 were already right.
 
 0 of 19.
+
+## 2026-11-28 — The plant ledger: the faults main plants are fixed before the round (S306p)
+
+**What happened.** The building seat sent the thin path's twelfth patch. Main can now plant cards with a known fault among
+the real ones, to measure how often the peers and the banking seats catch them. Before each round main commits only a
+fingerprint of its list of plants; the list itself is published after the round, and a check refuses a list that does not
+match its fingerprint or was published too early. The tool then counts, for each seat, how many of its plants it caught.
+
+0 of 19.

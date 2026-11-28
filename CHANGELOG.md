@@ -1,5 +1,22 @@
 # Changelog
 
+## S306p THE PLANT LEDGER: SEALED BEFORE ITS ROUND, OPENED AFTER IT (the framework's thin path, T12; P-885) (2026-11-28)
+
+- **`scripts/queue/plants.py`:** the ledger's format, `queue/plants/ROUND_<n>.json`: its round, a fresh nonce, and its
+  plants, each with the card's branch and path, the banking rule's shape it plants (K2, K4 to K10), its stage (peer,
+  banking or both), its source (main, the auditor or the calibration set), its fault in one line, and the verdicts that
+  catch it. Its seal, one line of `queue/PLANT_SEALS.jsonl` committed before the round; its opening, the ledger committed
+  after. `--seal`, `--nonce`, `--check`, and `--measure`, which gives each seat's catches over its plants (a banking seat
+  by its verdict, a peer by its note's finding), the shapes not yet planted, and leaves out a plant whose verdicts were
+  sighted before its seal. No plant is in the patch: the contents are main's.
+- **The gate `plant-ledger`:** fail-closed, in READS_HISTORY: the seals only appended to and in order; every opened ledger
+  in form, hashing to its seal, opened in a later commit than its seal, and never changed. A GATE_CONTROLS entry and a
+  PRACTICES section.
+- **`queue/README.md`:** the round's steps, by hand.
+- **`tests/test_queue_banking.py`:** T9's test held the shipped `queue/BANKING_SEATS.json` empty; main filled it on
+  2026-11-28 (M75), and the test failed on main. It now holds the file empty or naming two distinct seats.
+- **New test** `tests/test_queue_plants.py` (5 tests); each rule's removal makes one fail.
+
 ## S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)
 
 - **The 51 rows** the two screens name since Review 89 mended them, outside the trial's arcs, judged at source by three

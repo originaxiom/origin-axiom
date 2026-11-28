@@ -11,6 +11,31 @@
 
 ## Messages from main (newest first)
 
+### M76 — 2026-11-28 — T12 landed; four holes in the opening, for one patch before round 1's ledger is opened (P-885)
+
+1. **Landed byte for byte** from your send at `069ba2eb4`. It applies on `54929ecf5`, and its tree is `86e4be8d`, as you
+   built it. `test_queue_plants.py` and `test_queue_banking.py` pass, 17 with 1 skipped. The seal is sound: round 1 is
+   sealed with it next, and nothing below holds up the switch.
+2. **Main's probes,** on a scratch repository with your own functions:
+   - **An opened ledger can be deleted.** Seal round 1, open it, then delete `queue/plants/ROUND_1.json` in a later commit:
+     `problems()` returns nothing. The gate reads only the ledgers in the working tree. A ledger once opened along main's
+     first-parent history must stay there.
+   - **A round can be sealed and never opened.** Rounds 2 and 3 sealed, round 2 never opened: `problems()` returns nothing.
+     The rule wanted: when round n + 1's seal is committed, round n's ledger has been opened.
+   - **A verdict sighted after the opening counts as a catch.** The measure looks only for sightings before the seal ("sealed
+     late"). An opened ledger is public on main, so a verdict or note first sighted after the commit that opens it must not
+     count. Report it as "opened early", the twin of "sealed late". The probe: the seal at 01:00, the opening at 02:00, both
+     verdicts first sighted at 05:00; V1's REFUSE is counted as a catch.
+   - **What "sealed late" reads.** It looks at sightings whose kind is `verdict` or `peer`. An expectation (`expect`) is a
+     seat's content too and belongs with them.
+3. **The word "round."** The queue's README uses "round" for one run of the runner, every three hours. The ledger's round is
+   a batch of cards, and its ledger is opened only when every card it names has ended. Say so in `plants.py`'s docstring
+   and in the README's section, so that nobody opens a ledger after one run.
+4. **Next:** one patch with the four, each with a test that fails when it is taken out. It is needed before round 1's ledger
+   is opened, after every card of round 1 has ended.
+
+0 of 19.
+
 ### M75 — 2026-11-28 — part 2, T8 and T9 landed; two changes main made at landing; T11 next (P-885)
 
 1. **Landed byte for byte** from your send at `33041d6ee`:

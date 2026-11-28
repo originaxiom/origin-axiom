@@ -1578,3 +1578,19 @@ list and its history. Its failing paths are `tests/test_known_failures.py`.
 **Why it exists.** The draft (section 4) asks that a landing run the suite on a fresh clone or be refused, and on
 2026-11-26 the suite was red on main: every landing would have been refused, or the rule ignored. A list that may only
 shrink lets the rule bind now, and makes each standing failure a debt with its row.
+
+## The plant ledger is sealed before its round and opened after it — GATED (`plant-ledger`) (adopted 2026-11-28, the framework's thin path, patch T12; draft 1 sections 4 and 9; register row P-885; built by the building session at main's M54)
+
+**The rule:** each round's plants are written by main in `queue/plants/ROUND_<n>.json`, kept untracked, and sealed first:
+the ledger's SHA-256 is appended to `queue/PLANT_SEALS.jsonl` in a commit of its own. After the round the ledger itself is
+committed, which opens it. The seals are only appended to, their rounds go 1, 2, 3, ..., and every opened ledger holds its
+form, hashes to its round's seal, was opened in a later commit than its seal, and never changes. Each plant names a
+banking rule's shape (K2 and K4 to K10, `docs/roles/BANKING.md`), its stage, its source, its fault in one line, and the
+verdicts that catch it. **The gate** reads the seals and the ledgers along main's history. Its failing paths are
+`tests/test_queue_plants.py`. `scripts/queue/plants.py --measure` gives each seat's catches over its plants and the shapes
+not yet planted.
+
+**Why it exists.** Draft 1 (section 4) measures the peer stage and the banking seats by planted faults, so the review no
+longer needs its own plants. A catch rate is only worth what the ledger is: a ledger written after the verdicts could be
+fitted to them. Sealed first and opened after, it cannot, and a round with no plant is sealed all the same, so the seals
+do not say which rounds had plants.
