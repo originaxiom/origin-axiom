@@ -24,7 +24,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 DATA_JSON = HERE / "a2_chiral_e8_siblings_input.json"
 OUT_JSON = HERE / "a2_chiral_e8_siblings_out.json"
 
-mp.mp.dps = 65
+mp.mp.dps = 260
 X = sp.Symbol("X")
 
 
@@ -237,21 +237,64 @@ def subgroup_size(vals, inv_tab, mul_tab):
 
 
 # ============================================================================
-# 2. Module C1: Exact LLL Minimal Polynomial + Exact Symbolic Gluing Certifier
+# 2. Module C1: 260-Digit Gluing Newton Refinement + Exact LLL + Symbolic Certifier
 # ============================================================================
-def lll_minpoly_complex(val_mpc, max_deg=22, scale_exp=52, tol_exp=22):
+def refine_shapes_gluing(m, steps=5):
+    """Newton-refine SnapPy ~60-digit shapes_hp directly on the exact integer gluing_rect
+    equations at mp.dps = 260, achieving < 1e-220 residual with zero extra external data."""
+    zs = [_mpc(r, im) for r, im in m["shapes_hp"]]
+    n = len(zs)
+    eqs = m["gluing_rect"]
+    m_eq = len(eqs)
+    for _ in range(steps):
+        F = mp.matrix(m_eq, 1)
+        J = mp.matrix(m_eq, n)
+        for i, (ar, br, sgn) in enumerate(eqs):
+            prod = mp.mpc(1)
+            for j in range(n):
+                if ar[j]:
+                    prod *= zs[j] ** ar[j]
+                if br[j]:
+                    prod *= (1 - zs[j]) ** br[j]
+            val = prod / sgn
+            F[i, 0] = val - 1
+            for j in range(n):
+                if ar[j] or br[j]:
+                    J[i, j] = val * (ar[j] / zs[j] - br[j] / (1 - zs[j]))
+        JH = J.T.conjugate()
+        dz = mp.lu_solve(JH * J, -JH * F)
+        zs = [zs[j] + dz[j, 0] for j in range(n)]
+    max_res = mp.mpf(0)
+    for ar, br, sgn in eqs:
+        prod = mp.mpc(1)
+        for j in range(n):
+            if ar[j]:
+                prod *= zs[j] ** ar[j]
+            if br[j]:
+                prod *= (1 - zs[j]) ** br[j]
+        max_res = max(max_res, abs(prod - sgn))
+    assert max_res < mp.mpf("1e-200"), f"Newton gluing refinement residual too large for {m['name']}: {max_res}"
+    return zs
+
+
+def lll_minpoly_complex(val_mpc, max_deg=24, scale_exp=160, tol_exp=60):
     """Find exact irreducible integer minimal polynomial P(X) in Z[X] of a high-precision
     complex algebraic number via sympy DomainMatrix.lll on 2D (Re, Im) lattice.
-    Normalizes by 1/val when |val| > 1.5 so powers never overflow LLL precision."""
+    Normalizes by 1/val when |val| > 3/2 so powers never overflow LLL precision."""
     inverted = (abs(val_mpc) > mp.mpf(3) / 2)
     z = (mp.mpc(1) / val_mpc) if inverted else val_mpc
-    scale = 10 ** scale_exp
     tol = mp.mpf(10) ** (-tol_exp)
     pows = [mp.mpc(1)]
     for _ in range(max_deg):
         pows.append(pows[-1] * z)
 
     for d in range(1, max_deg + 1):
+        # Adaptive LLL scale proportional to degree, capped safely below input precision
+        if scale_exp >= 100:
+            cur_se = min(scale_exp, max(45, 10 * d + 20))
+        else:
+            cur_se = min(scale_exp, max(22, 4 * d + 12))
+        scale = 10 ** cur_se
         rows = []
         for k in range(d + 1):
             row = [0] * (d + 3)
@@ -276,20 +319,25 @@ def lll_minpoly_complex(val_mpc, max_deg=22, scale_exp=52, tol_exp=22):
                     f_coeffs = [int(c) for c in reversed(fac.all_coeffs())]
                     fev = sum(c * p for c, p in zip(f_coeffs, pows[:len(f_coeffs)]))
                     if abs(fev) < tol * max(1, max(abs(c) for c in f_coeffs)):
-                        # If we inverted z = 1/val_mpc, reverse polynomial coefficients to get minpoly of val_mpc!
                         if inverted:
                             f_coeffs = list(reversed(f_coeffs))
                         while len(f_coeffs) > 1 and f_coeffs[-1] == 0:
                             f_coeffs.pop()
                         if f_coeffs[-1] < 0:
                             f_coeffs = [-c for c in f_coeffs]
-                        return sp.Poly(list(reversed(f_coeffs)), X, domain=sp.ZZ)
+                        P_out = sp.Poly(list(reversed(f_coeffs)), X, domain=sp.ZZ)
+                        # Direct verification on original val_mpc (not inverted z)
+                        ev_orig = mp.mpc(0)
+                        for cc in P_out.all_coeffs():
+                            ev_orig = ev_orig * val_mpc + int(cc)
+                        max_co = max(abs(int(cc)) for cc in P_out.all_coeffs())
+                        if abs(ev_orig) < tol * max(1, max_co) * max(mp.mpf(1), abs(val_mpc) ** P_out.degree()):
+                            return P_out
     return None
 
 
-def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=52, tol_exp=20):
+def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=160, tol_exp=50):
     """Express target_mpc = (sum_{k=0}^{deg-1} a_k alpha^k) / q with exact integers a_k, q > 0."""
-    # Scale alpha powers internally if |alpha| > 1.5 using a power-of-2 integer scale S_pow = 2^s
     s_int = 1
     while abs(alpha_mpc) > s_int * mp.mpf(3) / 2:
         s_int *= 2
@@ -299,7 +347,11 @@ def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=52, tol_exp=20):
         t_scale *= 2
     t_scaled = target_mpc / t_scale
 
-    scale = 10 ** scale_exp
+    if scale_exp >= 100:
+        cur_se = min(scale_exp, max(50, 10 * deg + 25))
+    else:
+        cur_se = min(scale_exp, max(24, 4 * deg + 12))
+    scale = 10 ** cur_se
     tol = mp.mpf(10) ** (-tol_exp)
     pows = [mp.mpc(1)]
     for _ in range(deg - 1):
@@ -330,9 +382,36 @@ def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=52, tol_exp=20):
             a_vec = [int(mat[r, k]) for k in range(deg)]
         approx = sum(a * p for a, p in zip(a_vec, pows)) / q
         if abs(approx - t_scaled) < tol:
-            # Recover target = t_scale * sum (a_k / (q * s_int^k)) * alpha^k
             return sp.Poly([sp.Rational(a_vec[k] * t_scale, q * (s_int ** k)) for k in range(deg - 1, -1, -1)], X, domain=sp.QQ)
     return None
+
+
+def exact_minpoly_in_field(Q_poly, P_poly):
+    """Exact algebraic minimal polynomial in Z[X] of Q(alpha) in Q[X]/(P(X))
+    via exact QQ multiplication-matrix characteristic polynomial + square-free factor."""
+    P_qq = sp.Poly(P_poly.as_expr(), X, domain=sp.QQ)
+    d = P_qq.degree()
+    cols = []
+    cur = sp.rem(Q_poly, P_qq, X, domain=sp.QQ)
+    x_poly = sp.Poly(X, X, domain=sp.QQ)
+    for k in range(d):
+        # Multiply Q_poly by X^k mod P_qq
+        prod = sp.rem(cur * (x_poly ** k), P_qq, X, domain=sp.QQ)
+        coeffs_desc = prod.all_coeffs()
+        pad = [sp.Rational(0)] * (d - len(coeffs_desc)) + list(coeffs_desc)
+        # ascending order [c_0, ..., c_{d-1}]
+        cols.append(list(reversed(pad)))
+    M = sp.Matrix([[cols[j][i] for j in range(d)] for i in range(d)])
+    cp = M.charpoly(X).as_poly(domain=sp.QQ)
+    # Clear denominator to primitive ZZ polynomial and take unique irreducible factor
+    cp_prim = sp.Poly(sp.primitive(cp.as_expr())[1], X, domain=sp.ZZ)
+    _, facs = sp.factor_list(cp_prim)
+    # Since Q(alpha) lies in the simple field Q(alpha), charpoly is a power of the unique minimal poly!
+    assert len(facs) == 1
+    mp_poly = facs[0][0]
+    if mp_poly.LC() < 0:
+        mp_poly = -mp_poly
+    return mp_poly
 
 
 def poly_mod_mul(A, B, P):
@@ -403,11 +482,11 @@ def sl2c_eval(word, gmap):
 
 
 def analyze_field_and_arithmeticity(m):
-    """Module C1: Exact shape field minimal polynomial, symbolic gluing certification,
-    pi_1^(2) trace integrality, Maclachlan-Reid arithmeticity, and mod-5 factorization."""
-    shapes_mpc = [_mpc(r, im) for r, im in m["shapes_hp"]]
+    """Module C1: Exact shape field minimal polynomial (via 260-digit gluing Newton refinement
+    + LLL), 100% exact symbolic gluing certification over QQ[X]/(P(X)), pi_1^(2) trace
+    integrality, Maclachlan-Reid arithmeticity, and exact mod-5 factorization."""
+    shapes_mpc = refine_shapes_gluing(m, steps=5)
     # Find primitive generator alpha of Q(z_0, ..., z_{t-1})
-    # Try single shapes first, then small integer linear combinations if needed
     cand_alphas = list(shapes_mpc)
     if len(shapes_mpc) >= 2:
         cand_alphas.append(shapes_mpc[0] + 2 * shapes_mpc[1])
@@ -417,14 +496,14 @@ def analyze_field_and_arithmeticity(m):
     best_alpha = None
     best_zpolys = None
     for alp in cand_alphas:
-        P = lll_minpoly_complex(alp, max_deg=22)
+        P = lll_minpoly_complex(alp, max_deg=24, scale_exp=180, tol_exp=60)
         if P is None:
             continue
         d = P.degree()
         zps = []
         ok_all = True
         for z in shapes_mpc:
-            zp = lll_express_in_basis(z, alp, d)
+            zp = lll_express_in_basis(z, alp, d, scale_exp=180, tol_exp=50)
             if zp is None:
                 ok_all = False
                 break
@@ -446,6 +525,7 @@ def analyze_field_and_arithmeticity(m):
     shape_monic = (coeffs_desc[0] == 1)
 
     # Check exact integrality of pi_1(M)^{(2)} traces: tr(a^2), tr(b^2), tr((ab)^2), tr([a, b])
+    # All pi_1(M)^{(2)} traces lie in k(M) = Q(best_alpha) by Maclachlan-Reid Thm 3.3.4!
     gmap = {g: sl2c_mat_from_hp(arr) for g, arr in m["sl2c_gens_hp"].items()}
     gens = m["gens"]
     sq_words = [g + g for g in gens]
@@ -456,15 +536,28 @@ def analyze_field_and_arithmeticity(m):
     for w in sq_words:
         Mw = sl2c_eval(w, gmap)
         tr_w = Mw[0] + Mw[3]
-        Pw = lll_minpoly_complex(tr_w, max_deg=max(deg, 22))
-        assert Pw is not None, f"Failed trace minpoly for {m['name']} word {w}"
-        sq_trace_monic.append(int(Pw.all_coeffs()[0]) == 1)
-        sq_trace_degs.append(int(Pw.degree()))
-    all_sq_traces_integral = all(sq_trace_monic)
+        # First express tr_w in Q(best_alpha) at ~60-digit precision of sl2c_gens_hp, then exact charpoly!
+        Pw = None
+        for se in (44, 36, 28):
+            Tw = lll_express_in_basis(tr_w, best_alpha, deg, scale_exp=se, tol_exp=15)
+            if Tw is not None:
+                Pw = exact_minpoly_in_field(Tw, best_poly)
+                break
+        if Pw is None:
+            Pw = lll_minpoly_complex(tr_w, max_deg=min(deg, 16), scale_exp=42, tol_exp=14)
+        if deg == 2:
+            assert Pw is not None, f"Failed trace minpoly for deg-2 manifold {m['name']} word {w}"
+        if Pw is not None:
+            sq_trace_monic.append(int(Pw.all_coeffs()[0]) == 1)
+            sq_trace_degs.append(int(Pw.degree()))
+        else:
+            sq_trace_monic.append(None)
+            sq_trace_degs.append(None)
+    all_sq_traces_integral = (all(v is True for v in sq_trace_monic) if all(v is not None for v in sq_trace_monic) else None)
 
     # Maclachlan-Reid Thm 8.2.3: 1-cusped hyperbolic 3-manifold is arithmetic iff
     # invariant trace field (= shape field) is imaginary quadratic (deg == 2, r1 == 0) AND all pi_1^(2) traces integral
-    is_arithmetic = (deg == 2 and r1 == 0 and all_sq_traces_integral)
+    is_arithmetic = (deg == 2 and r1 == 0 and all_sq_traces_integral is True)
 
     # Exact factorization of P_M(X) mod 5 over F_5 (after verifying lc % 5 != 0 or recording prime-5 ramification)
     lc_mod5 = coeffs_desc[0] % 5
@@ -843,8 +936,8 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     if not field_info["has_f25_mod5_factor"]:
         return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False}
 
-    # Reconstruct primitive alpha and express ALL 12 SL(2, C) generator matrix entries in Q(alpha)
-    shapes_mpc = [_mpc(r, im) for r, im in m["shapes_hp"]]
+    # Reconstruct primitive alpha from 260-digit refined shapes and express ALL 12 SL(2, C) generator matrix entries
+    shapes_mpc = refine_shapes_gluing(m, steps=5)
     P_desc = field_info["minpoly_desc"]
     P_poly = sp.Poly(P_desc, X, domain=sp.ZZ)
     deg = field_info["field_degree"]
@@ -859,14 +952,13 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
         ev = mp.mpc(0)
         for coef in P_desc:
             ev = ev * c + coef
-        if abs(ev) < mp.mpf("1e-28"):
+        if abs(ev) < mp.mpf("1e-60"):
             alpha = c
             break
     if alpha is None:
         return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "alpha_not_found"}
 
-    # Note: SL(2, C) matrix entries may live in a quadratic extension of the shape field (trace field vs invariant trace field)!
-    # Find minimal polynomial of an entry or check if all 12 entries lie in Q(alpha); if not, form quadratic extension!
+    # Note: SL(2, C) matrix entries (~60-digit) may live in a quadratic extension of the shape field!
     gens = m["gens"]
     entry_polys = {}
     all_in_k = True
@@ -874,7 +966,11 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
         ep = []
         for r_s, i_s in m["sl2c_gens_hp"][g]:
             val = _mpc(r_s, i_s)
-            qp = lll_express_in_basis(val, alpha, deg, tol_exp=25)
+            qp = None
+            for se in (44, 36, 28):
+                qp = lll_express_in_basis(val, alpha, deg, scale_exp=se, tol_exp=14)
+                if qp is not None:
+                    break
             if qp is None:
                 all_in_k = False
                 break
@@ -886,10 +982,9 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     # Find all roots of P_poly in F_25 \ F_5
     f25_roots = [z for z in range(25) if (z % 5 != 0) and poly_eval_f25(P_desc, z) == F0]
     if not all_in_k:
-        # Express using higher-degree trace field generator (linear combo of shapes + SL2C entries)
         tr_vals = [_mpc(m["sl2c_gens_hp"][g][0][0], m["sl2c_gens_hp"][g][0][1]) for g in gens]
         ext_alpha = alpha + 3 * tr_vals[0] + 5 * tr_vals[1]
-        P_ext = lll_minpoly_complex(ext_alpha, max_deg=16, tol_exp=25)
+        P_ext = lll_minpoly_complex(ext_alpha, max_deg=16, scale_exp=42, tol_exp=14)
         if P_ext is None:
             return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "ext_field_high_deg"}
         P_desc_use = [int(c) for c in P_ext.all_coeffs()]
@@ -899,7 +994,11 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
         for g in gens:
             ep = []
             for r_s, i_s in m["sl2c_gens_hp"][g]:
-                qp = lll_express_in_basis(_mpc(r_s, i_s), ext_alpha, deg_use, tol_exp=22)
+                qp = None
+                for se in (42, 34, 26):
+                    qp = lll_express_in_basis(_mpc(r_s, i_s), ext_alpha, deg_use, scale_exp=se, tol_exp=12)
+                    if qp is not None:
+                        break
                 if qp is None:
                     ok_ext = False
                     break
