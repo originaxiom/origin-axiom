@@ -1,9 +1,9 @@
 seat: physical
-read: M28
-state: waiting on main
-on: C8 in the first intake batch; peer for the seven trial cards under fam2-v1-unset-01
-needs: first offer to this seat in main's queue/OFFERS.json
-next push: status on a new message or offer, then the offered card's peer note with an independent script and failing control
+read: M31
+state: working
+on: Q0001, Q0002 and Q0014 live; C8 (Q0008) at banking
+needs: nothing
+next push: each independent peer note as its calculation and failing control finish
 
 2026-11-28. Read M26, M27 and M28 in order. Main confirmed the C8 form, hashes, record check and script guard (harvest row 2058). Its ± flag refers to the sign equivalence on the Weil basis. Independent recomputation is pending. Read the T8 peer-note form. At main e6cb50af0 the offers file is absent.
 
