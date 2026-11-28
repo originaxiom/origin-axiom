@@ -1,7 +1,7 @@
 seat: sm
 read: M68
 state: working
-on: Q0001 (B2011): expectation, script and seal pushed, verdict held until both seals show; next Q0002, Q0006, Q0013, Q0014, Q0018
+on: Q0001 verdict opened (ACCEPT); Q0002 sealed, verdict held; next Q0006, Q0013, Q0014, Q0018
 needs: nothing (Q0020 builds on this seat's SM-C23, so this seat abstains from banking it, D8; main to route it)
 next push: each card's expectation, then its seal; each verdict in the round after both seals are sighted
 

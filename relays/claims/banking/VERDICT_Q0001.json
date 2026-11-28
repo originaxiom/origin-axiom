@@ -1,0 +1,22 @@
+{
+ "card": "Q0001",
+ "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "seat": "fam1-v1-unset-04",
+ "verdict": "ACCEPT",
+ "reason": "This seat's own code, sharing nothing with the producer's, recomputes every decisive value of the card and agrees with each. The orbit of (3, 3, 3) mod 135 under L, R and their inverses, found by breadth-first search, has 2 880 points and is closed under the six moves; C fixes 3 of them, so the neutral sector (W on the C-orbit sums) has dimension 962 and the charged sector q = 1 (W on the w-twisted sums over the 959 orbits of size 3) has dimension 959. Both sectors' matrices are built from the six moves' action, and their characteristic polynomials, gcd(p_neutral(2x)/2^d, S) and the quotient are computed modulo four primes p = 1 mod 3 near 2^61, w a cube root of unity in F_p: at every prime the gcd has degree 949, so 10 charged roots are unpaired, and the quotient equals (x^2 - 2x - 2)(x^2 + 2x - 2)(x^3 - 3x - 1)(x^3 - 3x + 1). The mod-135 orbit reduces onto the mod-27 orbit (72 points). The control sets w = 1, passing the neutral sector off as the charged one, and the gcd drops to degree 34 and the quotient no longer matches, so the check sees the twist. Scope of this verdict: the agreement on the gcd's degree and the quotient is a multi-prime check, not the card's exact computation over Z through the CRT; four primes of 61 bits agreeing makes a coincidence very unlikely but is not a proof. ρ's factoring through G_27 is read here only as the orbit's reduction, which is what the card's decisive line states.",
+ "script": {
+  "path": "relays/claims/banking/q0001_own.py",
+  "sha256": "d8beab2a8e39485d",
+  "run_as": "python3 relays/claims/banking/q0001_own.py",
+  "control": "python3 relays/claims/banking/q0001_own.py --plant-w-one"
+ },
+ "decisive": {
+  "lines": 4,
+  "sha256": "1422b5ab2833f334"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first",
+  "tested against planted errors"
+ ]
+}
