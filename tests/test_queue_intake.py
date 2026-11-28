@@ -228,6 +228,9 @@ def test_the_workflow_reads_only_but_where_it_records_and_runs_no_seat_code_ther
     assert IN.MANIFEST.startswith(".") and "include-hidden-files: true" in upload
     step = round_job.split("intake.py --queue-dir", 1)[1].split("actions/upload-artifact@", 1)[0]
     assert "set -o pipefail" in round_job and 'grep -q "^the network guard: no sandbox"' in step and "exit 1" in step
+    # ADDED 2026-11-28 (M78 point 2): the tool cache loses others' write bit after the packages and before the round
+    install, rest = round_job.split("python3 -m pip install", 1)
+    assert 'sudo chmod -R o-w "${RUNNER_TOOL_CACHE:-/opt/hostedtoolcache}"' in rest.split("intake.py --queue-dir", 1)[0]
 
 
 def test_the_settings_the_author_makes_are_written_down():

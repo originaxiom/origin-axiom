@@ -20751,3 +20751,11 @@ peer, and the building seat has it next. Every seat was told what to do and to k
 waits in silence.
 
 0 of 19.
+
+## 2026-11-28 — why the guard could not be built (S306p)
+
+**What happened.** GitHub's machines make the folder that holds their installed tools writable by everyone. The guard
+rightly hides every such folder from the code it runs, and so it hid the very Python it needed. The runner now removes
+that write permission before it starts, so the guard can be built.
+
+0 of 19.

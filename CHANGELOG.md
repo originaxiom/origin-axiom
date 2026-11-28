@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p THE SANDBOX ON GITHUB'S RUNNER: THE TOOL CACHE IS WRITABLE BY ALL, AND ITS COVER HID THE INTERPRETER (P-885; M78; HARVEST ROWS 2069, 2070) (2026-11-28)
+
+- **The cause, found in GitHub's own image:** `actions/runner-images`, `images/ubuntu/scripts/build/configure-environment.sh`,
+  runs `chmod -R 777 $AGENT_TOOLSDIRECTORY` on `/opt/hostedtoolcache`. The wrap covers every directory writable by all
+  with an empty tmpfs, as it must, and so it hid the interpreter it runs, `actions/setup-python`'s, with the allowed
+  packages. The first round could make no sandbox.
+- **The mend:** `.github/workflows/intake.yml` takes others' write bit off the tool cache after the packages are installed
+  and before the round. The interpreter stays readable and runnable by nobody, and nobody can change it. A test in
+  `tests/test_queue_intake.py` holds the step's place.
+- **Both banking seats' status** registered (rows 2069, 2070): V1 read M67, V2 read M8, each waiting on a card at banking.
+
 ## S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVEST ROW 2068; M79, M26, M28, M67, M8) (2026-11-28)
 
 - **Made by main, at the author's word that nothing stall (M78's four points):**
