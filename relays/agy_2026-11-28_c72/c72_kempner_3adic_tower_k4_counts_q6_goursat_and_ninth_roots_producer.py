@@ -615,15 +615,27 @@ def halving_from_perm_graph(n: int, pL: tuple, pLi: tuple, pC: tuple) -> dict:
     }
 
 
+def _charpoly_qq_via_zz(X_mat: sp.Matrix, x: sp.Symbol) -> sp.Expr:
+    n_m = X_mat.shape[0]
+    den_lcm = 1
+    for val in X_mat:
+        den_lcm = int(sp.ilcm(den_lcm, sp.Rational(val).q))
+    M_zz = [[int(sp.Rational(X_mat[r, c]) * den_lcm) for c in range(n_m)] for r in range(n_m)]
+    cp_zz = sp.Poly.from_list(DomainMatrix.from_list(M_zz, sp.ZZ).charpoly(), x, domain=sp.ZZ).as_expr()
+    return sp.Poly(cp_zz.subs(x, den_lcm * x), x, domain=sp.QQ).monic().as_expr()
+
+
 def halving_o189_via_g3_central_blocks(
     G3_set: set,
     pC27: tuple,
     pSig27: tuple,
+    pTau27: tuple,
     n7: int,
     pC7: tuple,
     pSig7: tuple,
+    pTau7: tuple,
 ) -> dict:
-    """Exact rational block-diagonalization of O_189 ~= O_27 x O_7 via central Z[G_3] isotypic blocks."""
+    """Exact rational block-diagonalization of O_189 ~= O_27 x O_7 via tau-symmetrized central Z[G_3] blocks."""
     comp27 = lambda a, b: tuple(a[b[i]] for i in range(72))
     inv27 = lambda a: tuple(next(i for i in range(72) if a[i] == j) for j in range(72))
     G3_list = sorted(G3_set)
@@ -635,89 +647,74 @@ def halving_o189_via_g3_central_blocks(
             cl = {comp27(comp27(h, g), hi) for h, hi in zip(G3_list, G3_invs)}
             vis_cl.update(cl)
             classes.append(sorted(cl))
+    # Symmetrize central element Z under mirror tau(x, y, z) = (y, x, z) (B2008: [W_tot, tau] == 0, tau C tau = C^2):
     Z = sp.zeros(72, 72)
     for k_i, cl in enumerate(classes):
         w = k_i + 1
         for g in cl:
+            gt = tuple(pTau27[g[pTau27[i]]] for i in range(72))
             for col in range(72):
                 Z[g[col], col] += w
+                Z[gt[col], col] += w
     x = sp.Symbol("x")
     cpZ = sp.Poly.from_list(DomainMatrix.from_Matrix(Z).charpoly(), x, domain=sp.ZZ).as_expr()
     facsZ = sp.factor_list(cpZ)[1]
 
     MC27 = sp.zeros(72, 72)
     MS27 = sp.zeros(72, 72)
+    MT27 = sp.zeros(72, 72)
     for i in range(72):
         MC27[pC27[i], i] = 1
         MS27[pSig27[i], i] = 1
+        MT27[pTau27[i], i] = 1
     MC7 = sp.zeros(n7, n7)
     MS7 = sp.zeros(n7, n7)
+    MT7 = sp.zeros(n7, n7)
     for i in range(n7):
         MC7[pC7[i], i] = 1
         MS7[pSig7[i], i] = 1
+        MT7[pTau7[i], i] = 1
 
     f0_2x_tot = Counter()
     f1_tot = Counter()
     d0_tot, d1_tot = 0, 0
 
-    def split_irreducible_blocks(B_in: sp.Matrix) -> list:
-        if B_in.shape[1] <= 12:
-            return [B_in]
-        # Cyclic <MC27, MS27> span of first column splits multiplicity-2 24-dim block into 12 + 12:
-        basis_vecs = [B_in[:, 0]]
-        cur_mat = B_in[:, 0]
-        q_v = deque([B_in[:, 0]])
-        while q_v:
-            v_c = q_v.popleft()
-            for op in (MC27, MS27):
-                w_c = op * v_c
-                aug = cur_mat.row_join(w_c)
-                if aug.rank() > cur_mat.shape[1]:
-                    cur_mat = aug
-                    basis_vecs.append(w_c)
-                    q_v.append(w_c)
-        B_sub1 = cur_mat
-        # Orthogonal complement inside colspace(B_in): solve B_sub1^T * B_in * u == 0
-        ns_comp = (B_sub1.T * B_in).nullspace()
-        B_sub2 = B_in * sp.Matrix.hstack(*ns_comp)
-        return split_irreducible_blocks(B_sub1) + split_irreducible_blocks(B_sub2)
-
-    sub_blocks = []
     for f_expr, _ in facsZ:
         coeffs = sp.Poly(f_expr, x, domain=sp.ZZ).all_coeffs()
         Mf = sp.zeros(72, 72)
         for c in coeffs:
             Mf = Mf * Z + int(c) * sp.eye(72)
-        sub_blocks.extend(split_irreducible_blocks(sp.Matrix.hstack(*Mf.nullspace())))
-
-    for B_u in sub_blocks:
+        B_u = sp.Matrix.hstack(*Mf.nullspace())
         du = B_u.shape[1]
         G_inv = (B_u.T * B_u).inv()
         Cu = G_inv * (B_u.T * MC27 * B_u)
         Su = G_inv * (B_u.T * MS27 * B_u)
+        Tu = G_inv * (B_u.T * MT27 * B_u)
         Nb = du * n7
         Ct = sp.Matrix(Nb, Nb, lambda i, j: Cu[i // n7, j // n7] * MC7[i % n7, j % n7])
         St = sp.Matrix(Nb, Nb, lambda i, j: Su[i // n7, j // n7] * MS7[i % n7, j % n7])
+        Tt = sp.Matrix(Nb, Nb, lambda i, j: Tu[i // n7, j // n7] * MT7[i % n7, j % n7])
         C2t = Ct * Ct
         Lt = St * C2t
         Lit = Ct * St
         Wt = Lt + Ct * Lt * C2t + C2t * Lt * Ct + Lit + Ct * Lit * C2t + C2t * Lit * Ct
         ns0 = (Ct - sp.eye(Nb)).nullspace()
-        nsch = (C2t + Ct + sp.eye(Nb)).nullspace()
+        # On ker(1 + C + C^2) = H_1 (+) H_2, tau swaps H_1 <-> H_2 and commutes with Wt, so ker(1+C+C^2) cap ker(tau - I) ~= H_1:
+        ns1_tau = (C2t + Ct + sp.eye(Nb)).col_join(Tt - sp.eye(Nb)).nullspace()
         d0_tot += len(ns0)
-        d1_tot += len(nsch) // 2
+        d1_tot += len(ns1_tau)
         if ns0:
             B0 = sp.Matrix.hstack(*ns0)
             X0 = (B0.T * B0).inv() * (B0.T * Wt * B0)
-            cp0_u = sp.Poly.from_list(DomainMatrix.from_Matrix(X0).convert_to(sp.QQ).charpoly(), x, domain=sp.QQ).as_expr()
+            cp0_u = _charpoly_qq_via_zz(X0, x)
             for fac, mult in sp.factor_list(cp0_u)[1]:
                 f0_2x_tot[sp.Poly(fac.subs(x, 2 * x), x).monic().as_expr()] += mult
-        if nsch:
-            Bch = sp.Matrix.hstack(*nsch)
-            Xch = (Bch.T * Bch).inv() * (Bch.T * Wt * Bch)
-            cpch_u = sp.Poly.from_list(DomainMatrix.from_Matrix(Xch).convert_to(sp.QQ).charpoly(), x, domain=sp.QQ).as_expr()
-            for fac, mult in sp.factor_list(cpch_u)[1]:
-                f1_tot[sp.Poly(fac, x).monic().as_expr()] += mult // 2
+        if ns1_tau:
+            B1 = sp.Matrix.hstack(*ns1_tau)
+            X1 = (B1.T * B1).inv() * (B1.T * Wt * B1)
+            cp1_u = _charpoly_qq_via_zz(X1, x)
+            for fac, mult in sp.factor_list(cp1_u)[1]:
+                f1_tot[sp.Poly(fac, x).monic().as_expr()] += mult
 
     paired, unpaired = [], []
     p_deg, u_deg = 0, 0
@@ -740,7 +737,8 @@ def run_e3_crt_and_q6_goursat() -> dict:
         orb, _, (pL, _, pLi, _, pC, _) = build_orbit_fast(M)
         res[str(M)] = halving_from_perm_graph(len(orb), pL, pLi, pC)
 
-    orb7, _, (_, _, _, _, pC7, pSig7) = build_orbit_fast(7)
+    orb7, idx7, (_, _, _, _, pC7, pSig7) = build_orbit_fast(7)
+    pTau7 = tuple(idx7[(v[1], v[0], v[2])] for v in orb7)
     orb189, _, _ = build_orbit_fast(189)
 
     # Goursat proof for all k >= 3 at p in {5, 7}: |O_{9p}| = 8|O_p| and |G_p / G_p'| = 2 (coprime to 3)!
@@ -753,6 +751,7 @@ def run_e3_crt_and_q6_goursat() -> dict:
 
     # Construct N_3 = (V_4 K_3) cap [G_3, G_3] (order 12) on O_27 -> 6-point quotient Q_6!
     orb27, idx27, (pL27, pR27, pLi27, pRi27, pC27, pSig27) = build_orbit_fast(27)
+    pTau27 = tuple(idx27[(v[1], v[0], v[2])] for v in orb27)
     id27 = tuple(range(72))
     G3 = {id27}
     gq = deque([id27])
@@ -764,7 +763,7 @@ def run_e3_crt_and_q6_goursat() -> dict:
                 G3.add(ng)
                 gq.append(ng)
 
-    res189 = halving_o189_via_g3_central_blocks(G3, pC27, pSig27, len(orb7), pC7, pSig7)
+    res189 = halving_o189_via_g3_central_blocks(G3, pC27, pSig27, pTau27, len(orb7), pC7, pSig7, pTau7)
 
     crt_goursat_p5_p7_proved = (
         res["15"]["n"] == 1 * res["5"]["n"]
