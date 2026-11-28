@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p MAIN'S B2016 CARD RERUN ON THE AUTHOR'S MACHINE: REPRODUCED; BOTH BANKING SEATS' FIRST SEALS; AGY'S C72 (P-885; HARVEST ROWS 2083 TO 2085) (2026-11-28)
+
+- **`queue/heavy/Q0006.json`:** main's B2016 trial card rerun on the author's machine by
+  `sage -python scripts/queue/rerun.py --heavy-result Q0006` at its sealed commit, with the static guard by the author's
+  choice: REPRODUCED, its 8 decisive lines matching the card's hash `1a7019700739d47f`, its control exiting 1 (sage 10.7,
+  GAP 4.14.0, python-flint 0.9.0). The next round checks it against the card and moves it.
+- **The first try was RETURNED:** the control ran under sage's own Python, which had no python-flint, and exited 3 with a
+  traceback. python-flint at its pin was installed there and the card was not changed. The queue's README, setting 7,
+  now says so.
+- **Both banking seats' first live files** for Q0008 (rows 2083, 2084): expectation first, own script, the seal, the
+  verdict held for K1.
+- **agy's C71 and C72** (row 2085), read through the mask; C72 holds. The relay ledger's rows for C69 to C72 added.
+
 ## S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)
 
 - **`scripts/queue/intake.py`:** the round's last line says whether the next round is needed: "the next round: needed" when

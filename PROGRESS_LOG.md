@@ -20853,3 +20853,11 @@ the next one itself whenever it moved a card or left one waiting, through a step
 workflow; when a round finds nothing to do, the chain stops and the hourly timer remains as the fallback.
 
 0 of 19.
+
+## 2026-11-28 — the heavy trial card reproduced (S306p)
+
+**What happened.** One of main's own trial cards needs mathematical software the GitHub machine does not have. It was run
+on the author's machine with the new command and gave exactly the lines it claims; its result is filed for the runner to
+check. Both banking seats sealed their first verdicts, and one producer filed a new card.
+
+0 of 19.
