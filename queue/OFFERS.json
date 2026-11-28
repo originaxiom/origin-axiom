@@ -358,6 +358,38 @@
     "code": "fam1-v1-unset-03",
     "branch": "chat1/web-seat"
    }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_b1977_second_computation_in_the_queue_form.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "chat1/web-seat",
+   "path": "relays/claims/CLAIM_2026-11-28_wlv1_the_levels_the_content_ties.md",
+   "peer": {
+    "code": "fam3-v1-high-03",
+    "branch": "agy-002/verify"
+   }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-28_a2_weave_e8_weil_seam.md",
+   "peer": {
+    "code": "fam2-v1-unset-01",
+    "branch": "audit/physical-bridge-2026-09-05"
+   }
+  },
+  {
+   "branch": "agy/cusp-action-2026-11-20",
+   "path": "relays/claims/CLAIM_2026-11-28_agy_c72_kempner_3adic_tower_mod177147_branchless_k4_counts_q6_goursat_defect_and_ninth_root_mackey_proof.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
   }
  ]
 }

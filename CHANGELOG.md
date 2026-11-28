@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p MAIN'S FIRST FRONTIER SCRIPT ON THE LISTENING LINE; FOUR NEW CARDS OFFERED; THE SM PAGE'S SKIPPED NUMBER MARKED (P-882; P-885) (2026-11-28)
+
+- **`relays/claims/main_frontier/chiral_blindness.py`** and its two runs: the decisive script of main's first card under
+  the author's order of the day (main on the frontier, filing its own claims through the queue). On the three native
+  bundles over omega's orbit mod 27 and 81 (sections carrying charge j at omega's fixed point), the six-move sum's charge
+  sectors are one doubled and two alike, outside one exceptional triple of modes, {-3, 0, +3}, which sits in the sector
+  q = j, the same at both levels; the ninth-root cosines appear at mod 81 alike in both charged sectors. Its control (an
+  outside phase 2 pi / 9 between the two walks) splits the charged sectors in bulk and fails. The card follows in the
+  next commit, naming this one.
+- **`queue/OFFERS.json`:** the four reproduced cards with no offer, drafted by the offers tool's rule.
+- **`docs/seats/sm.md`:** M61 marked as a number main skipped (main wrote M62 after M60 on 2026-11-27); two listener tests
+  failed on it, found by the builder (M86's note).
+
 ## S306p THE AUTHOR'S ORDER: MAIN TO THE FRONTIER; THREE AUTOMATIONS ASKED OF THE BUILDER (P-885; M86) (2026-11-28)
 
 - **The author's order (2026-11-28):** main returns to frontier work, the listening line, while supervising every seat; the

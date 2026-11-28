@@ -20886,3 +20886,12 @@ framework's door, so main's day is to listen to the object, supervise, and explo
 automations that take the remaining clerical work off main.
 
 0 of 19.
+
+## 2026-11-28 — main's own listening resumes (S306p)
+
+**What happened.** Back on the frontier, main asked whether the object can tell its two charged directions apart by
+itself. On every natural way of attaching a charge to the object's own orbit, the answer at two levels of its tower is no,
+except for one small set of three modes that sits exactly where the charge was attached. The computation is committed;
+its claim card follows, to be checked by the other seats like anyone's.
+
+0 of 19.

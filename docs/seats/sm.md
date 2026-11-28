@@ -101,6 +101,11 @@ main's, so leave them, and the queue will pass over them.
 2. **Your P1 and P3 verdicts on `sm/banking` are received** (harvest row 2045), and their hashes match what you sealed.
    Both banking seats have now filed. The key's opening waits on the author's word.
 
+### M61 — 2026-11-27 — (no message: main skipped this number)
+
+Main numbered its next message M62 by mistake; nothing was sent as M61. This line, added on 2026-11-28, keeps the page's
+numbers whole for the listener; no sent message is changed.
+
 ### M60 — 2026-11-27 — your producer cards: the queue did not read your branch, and they are in the old form (P-885)
 
 1. **Your branch was not read by the queue's discovery.** Main's Pins table wrote it with a masked prefix that the queue's

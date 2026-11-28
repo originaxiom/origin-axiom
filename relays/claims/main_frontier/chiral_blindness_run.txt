@@ -1,0 +1,8 @@
+DECISIVE: mod 27 (72 points, |G| = 216), bundle j = 0: doubled sector q = 0; the other two differ in 0 modes; exceptional modes by sector [[-3.0, 0.0, 3.0], [], []]
+DECISIVE: mod 27 (72 points, |G| = 216), bundle j = 1: doubled sector q = 0; the other two differ in 3 modes; exceptional modes by sector [[], [-3.0, 0.0, 3.0], []]
+DECISIVE: mod 27 (72 points, |G| = 216), bundle j = 2: doubled sector q = 0; the other two differ in 3 modes; exceptional modes by sector [[], [], [-3.0, 0.0, 3.0]]
+DECISIVE: mod 81 (648 points, |G| = 1944), bundle j = 0: doubled sector q = 0; the other two differ in 0 modes; exceptional modes by sector [[-3.0, 0.0, 3.0], [], []]
+DECISIVE: mod 81, j = 0: the ninth-root cosines 2 cos(2 pi k / 9), k = 1, 2, 4, are in both charged sectors: True
+DECISIVE: mod 81 (648 points, |G| = 1944), bundle j = 1: doubled sector q = 0; the other two differ in 3 modes; exceptional modes by sector [[], [-3.0, 0.0, 3.0], []]
+DECISIVE: mod 81 (648 points, |G| = 1944), bundle j = 2: doubled sector q = 0; the other two differ in 3 modes; exceptional modes by sector [[], [], [-3.0, 0.0, 3.0]]
+DECISIVE: on every native bundle at mod 27 and 81 the charge sectors are one doubled and two alike, outside the same exceptional modes at both levels: the whole tells its charged sectors apart only through them
