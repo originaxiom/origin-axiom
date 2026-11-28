@@ -1,5 +1,11 @@
 {
- "note": "Main's offers to peers (the framework's thin path; register row P-885; main's M79): each card by its branch and its path, since its queue id is given at intake, and its peer by seat code and branch, never a name. Each round the runner moves a REPRODUCED card whose offer holds to OFFERED, naming the peer; an offer to the card's own seat or own family is refused. Main fills this.",
+ "note": "Main's offers to peers (the framework's thin path; register row P-885; main's M79): each card by its branch and its path, since its queue id is given at intake, and its peer by seat code and branch, never a name. Each round the runner moves a REPRODUCED card whose offer holds to OFFERED, naming the peer; an offer to the card's own seat or own family is refused. Main fills this. \"peers\" (the builder, at main's M81): the seats main has told their role as peers, in the order of the rotation scripts/queue/offers.py drafts by; each is offered on its live branch.",
+ "peers": [
+  "fam2-v1-unset-01",
+  "fam3-v1-high-03",
+  "fam3-v1-high-01",
+  "fam1-v1-unset-03"
+ ],
  "offers": [
   {
    "branch": "main",

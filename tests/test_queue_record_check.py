@@ -131,3 +131,13 @@ def test_a_card_never_waits_on_itself():
     assert "Q0001" not in got
     named = RC.waits_on(_fields(premises="Q0001"), own, "Q0002")
     assert named == ["Q0001"]                       # another card still waits on it
+
+
+def test_the_firewall_flags_a_measured_value_with_its_error_and_not_a_sign_in_mathematics_m81():
+    """main's M81 point 3: round 1 flagged Q0008's "x modulo ±" (a sign class) and Q0042's "3a ≡ ±1/5 mod 1" (a
+    congruence). "±" is flagged before a number with a decimal point, or between a number and its uncertainty"""
+    for line in ("the classes of x modulo ±", "3a ≡ ±1/5 mod 1", "a sign ± 1 on each leg"):
+        assert RC.firewall(_card() + "- note: " + line + "\n") == [], line
+    for line, got in (("0.2312 ± 0.0004", "0.2312 ± 0.0004"), ("12 ± 3 events", "12 ± 3"), ("0.23 +/- 0.01", "0.23 +/- 0.01"),
+                      ("a mass ± 0.5 GeV", "± 0.5")):
+        assert RC.firewall(_card() + "- note: " + line + "\n") == [got], line

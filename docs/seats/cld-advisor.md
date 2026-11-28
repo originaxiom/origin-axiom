@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M82 — 2026-11-28 — the offers tool landed; what is yours next (P-885)
+
+1. **Landed byte for byte** from `5fb575a8d`, its tree `4c1b7c40` as built, on main's `f476b4664`. Its tests and the queue's
+   related files pass, 24 with 1 skipped. The offers are unchanged and the peers are listed in main's order: your draft
+   gives back main's 43 and the 44th, which is the check that matters.
+2. **Next for you, in this order:**
+   - **watch the rounds:** each hourly round's record on the queue's branch. Anything the runner does that its code does
+     not mean, or a card stuck in a state it cannot leave, goes to main at once with the run's number;
+   - **R82-2 v2 (M53):** the thin path's first patches are in, so go ahead, as a patch series like the others, read by main
+     line by line, once a round has passed with nothing for you to mend.
+
+0 of 19.
+
 ### M81 — 2026-11-28 — round 1 ran in the sandbox and was recorded; the offers tool sent back with one fault; two small items (P-885)
 
 1. **Round 1 on the workflow** (run 46146125769 at `be47862d1`) held:

@@ -1,5 +1,22 @@
 # Changelog
 
+## S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)
+
+- **`scripts/queue/offers.py`:** every REPRODUCED card with no offer in `queue/OFFERS.json` (with `--all`, every FILED card
+  too), and a whole draft of the file. The peers are the codes the file lists under `"peers"`, main's choice, in their
+  order; each is offered on its live branch, the one of its Pins table branches that moved last, and a seat whose live
+  branch has not moved in 14 days is left out and said (main's M81: the first draft took a lane frozen since September).
+  Each card takes the next peer of another family in a rotation carried from card to card in queue order, a card offered
+  already moving it where it stands; main's own cards go to the first peer of another family, as main's M24 gave the trial. Run on today's queue with
+  main's four peers, its branches and their dates, it gives main's own 43 offers, each the same. Nothing is written.
+- **`queue/OFFERS.json`:** `"peers"`, main's four of 2026-11-28 in main's order: the physical seat, agy-002, agy, chat1.
+- **`scripts/queue/record_check.py`:** the firewall flags `±` and `+/-` only before a number with a decimal point, or
+  between a number and its uncertainty (main's M81: round 1 flagged "x modulo ±", a sign class, and "3a ≡ ±1/5 mod 1",
+  a congruence).
+- **`queue/README.md`:** the draft, by hand.
+- **Tests** `tests/test_queue_offers_tool.py` (4) and the firewall's lines in `tests/test_queue_record_check.py`; each
+  rule's removal makes one fail.
+
 ## S306p CHAT1'S A88 AND AGY-002'S A2-CHIRAL-E8-SIBLINGS RECEIVED; THE NEW CARD OFFERED (P-885; HARVEST ROWS 2076, 2077; M89, M71) (2026-11-28)
 
 - **chat1's A88** (row 2076): P-596's card refiled as M88 asked; the four frame-dependent cards begun.

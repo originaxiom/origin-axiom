@@ -27,6 +27,14 @@ the card's own seat or its own family (the code's first part), or to a branch th
 `queue/SEAT_CODES.json`, is refused and reported. A card with no offer stays REPRODUCED, and the report says so. Only the
 offered peer's note is taken; another seat's note is refused.
 
+**The draft, by one rule** (main's M80, M81): `python3 scripts/queue/offers.py [--all]` prints every REPRODUCED card on the
+queue's branch with no offer yet (with `--all`, every FILED card too, offered ahead of its rerun), and a whole draft of
+`queue/OFFERS.json`. The peers are the codes under `"peers"` in that file, in their order, each on its live branch: of
+the Pins table's branches for its code, the one that moved last; a seat whose live branch has not moved in 14 days is
+left out, and said. Each card takes the next peer of another family in a rotation carried from card to card in queue
+order, a card offered already moving it where it stands; main's own cards go to the first peer of another family. Main reads the draft and commits the
+file itself.
+
 ## The settings the author makes (once, in the repository's settings on GitHub)
 
 1. **Spending:** set the account's budget for Actions to $0, so a run that would cost money does not run. Standard runners

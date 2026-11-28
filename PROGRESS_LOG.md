@@ -20809,3 +20809,12 @@ a day and a half, as their premises allow.
 every check made before running anything. The new card was given a checking seat of another family.
 
 0 of 19.
+
+## 2026-11-28 — Offers drafted to each peer's working branch; a sign in mathematics no longer flagged (S306p)
+
+**What happened.** The building seat mended the tool that drafts main's offers to peers: each peer is now offered on the
+branch it is working on, a peer idle for two weeks is left out, and the tool's rule, run on today's queue, gives exactly
+the offers main made by hand. The check that flags a comparison with measured data no longer flags the plus-or-minus
+sign where it is mathematics, a sign class or a congruence, rather than a measured value with its error.
+
+0 of 19.
