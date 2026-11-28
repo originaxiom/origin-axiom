@@ -1,0 +1,27 @@
+DECISIVE: D1 over 2006 pairs (N odd 3..99, r a unit): tr C3 = G_3r / conj(G_r) = the card's law, max error 2.0: False
+DECISIVE: D2 tr(P_flip C3) = 1 on all pairs, and d1 - d2 splits half and half on even and odd for N <= 63: True
+  S^2 = c P_flip at r = 1: c equals (-1/N) for every odd N <= 63: True
+  N = 3: dims [1, 2, 0]
+  N = 5: dims [1, 2, 2]
+  N = 7: dims [3, 2, 2]
+  N = 9: dims [3, 4, 2]
+  N = 11: dims [3, 4, 4]
+  N = 13: dims [5, 4, 4]
+  N = 15: dims [5, 6, 4]
+  N = 17: dims [5, 6, 6]
+  N = 19: dims [7, 6, 6]
+  N = 21: dims [7, 8, 6]
+  N = 23: dims [7, 8, 8]
+  N = 25: dims [9, 8, 8]
+  N = 27: dims [9, 10, 8]
+  N = 29: dims [9, 10, 10]
+  N = 31: dims [11, 10, 10]
+  N = 33: dims [11, 12, 10]
+  N = 35: dims [11, 12, 12]
+DECISIVE: D3 iso-spectral N: [5, 13, 17, 25, 29]; N with a^2 = -1: [5, 13, 17, 25, 29]; split: [3, 7, 9, 11, 15, 19, 21, 23, 27, 31, 33, 35]; M_a commutes where it exists: True; as the card says: False
+DECISIVE: D4 rho_15,1 = rho_3,2 (x) rho_5,2 under CRT and U_2 rho_15,1 U_2^T = rho_15,4, within 1e-35: True
+  R(exp(2 pi i/3)) = 0.25, R(i) = 0.30434782608695652174, R at 0.3 + 1.1i, +1, -1/tau: 0.296145400324633 0.296145400324633 0.296145400324633
+DECISIVE: D5 K_5 class of 12 with eigenvalues 2 -+ 2 sqrt 5 three each: True; P_a, P_b projectors commuting with Leg(5): True
+DECISIVE: D5 homomorphic assignments ['T, S^-1', 'T^-1, S', 'R, S', 'R^-1, S^-1']; Leg(5) character = even rho_5,2 + even rho_5,1 at all 120 elements: True
+DECISIVE: D5 R(omega_+) = 1/4 and R(i) = 7/23 within 1e-30: False; R invariant under tau + 1 and -1/tau: True
+CONTROL: the checks caught the targets made wrong on purpose
