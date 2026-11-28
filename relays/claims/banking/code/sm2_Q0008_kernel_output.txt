@@ -1,0 +1,21 @@
+A. geometric maps x -> U(1), y -> [[1,0],[t,1]]: t in [(3, 2), (3, 3)]
+   the roots of t^2 - t + 1 (Riley's polynomial of the figure-eight): [(3, 2), (3, 3)]; the same: True
+   t = (3, 2): longitude = [[(4, 0), (0, 3)], [(0, 0), (4, 0)]]; equals Z U(-2d): False; equals Z U(v) with v = (0, 3)
+   t = (3, 3): longitude = [[(4, 0), (0, 2)], [(0, 0), (4, 0)]]; equals Z U(-2d): True; equals Z U(v) with v = (0, 2)
+B. sheet lifts x -> j, y -> r^a j that are homomorphisms: a in [0, 1, 2, 3, 4]
+   a = 0: longitude image is the identity: True
+   a = 1: longitude image is the identity: True
+   a = 2: longitude image is the identity: True
+   a = 3: longitude image is the identity: True
+   a = 4: longitude image is the identity: True
+C. Fourier involution on the even 13, scaled to square 1 and det 1: (trace, m) = [(1, 6)]
+   -1 eigenspace m = 6, m/2 odd: the cover is nonsplit, Z -> -1 on the spinors
+D. spin weights of the 64 at joint weight (0,0): 4
+DECISIVE: geometric alone: periodic 8, antiperiodic 0
+DECISIVE: geometric times sheet lift: periodic 0, antiperiodic 0
+K7. each declared choice changed:
+   longitude U(+2d)                 geometric (8, 0), with sheet (0, 0)
+   conjugate module d -> -d         geometric (8, 0), with sheet (0, 0)
+   meridian U(2) (another marking)  geometric (8, 0), with sheet (0, 0)
+   spin sign split (eps = +1):     geometric (0, 0), with sheet (0, 0)
+RESULT: the card's 8 -> 0 holds
