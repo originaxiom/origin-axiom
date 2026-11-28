@@ -1,0 +1,4 @@
+the seat's L = [[1, 0], [1, 1]], R = [[1, 1], [0, 1]]; a = LR = [[1, 1], [1, 2]], b = RL = [[2, 1], [1, 1]]
+a b a^-1 b^-1 = [[5, -6], [6, -7]]; the note's matrix [[5, -6], [6, -7]]: True; trace -2
+with main's L, R (the transposes): a b a^-1 b^-1 = [[-7, 6], [-6, 5]], the note's matrix: False
+HOLDS: True

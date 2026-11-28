@@ -1,5 +1,387 @@
 # Changelog
 
+## S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)
+
+- **agy-002's A2-WHOLE-CENSUS-E8-TWO-REGISTER** at `3dc08d80f`, read through the mask:
+  - its form holds, and every stated hash matches;
+  - the record check is clean and deciding;
+  - both scripts pass the guard, and it names no trial arc.
+- **The SM seat's status:** tier 1's rows 655 and 1814 are filed as cards; row 1726 is left for main, after the trial.
+
+## S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)
+
+- **The builder's patch 0005 (M74), byte for byte:**
+  - the rerun runs `python -s`, not `-E`, so the `PYTHONHASHSEED` it sets holds. A script printing a set of strings gives
+    one line on four reruns (main's check);
+  - discovery's ancestor rule is tested with a real side-branch commit;
+  - the known-failures history is tested with a swap;
+  - `baseline.py`'s docstring no longer says the list ships empty.
+- **Its three test files pass,** 48 with 10 skipped.
+- **R89-1 is met.**
+
+## S306p T11 LANDED: THE LANDING TOOL, THE SINGLE WRITER OF A BANKED CARD'S ARC (P-885; M72) (2026-11-28)
+
+- **The builder's patch 0004, sent again at `33041d6ee`, byte for byte.** Its tree as built is `54114b90`.
+- **`scripts/queue/land.py`:**
+  - one landing at a time under a lock, on a fresh clone of main;
+  - the card's VERIFIED derived again there from both banking seats' sealed verdicts, by T9's checks (M72): a VERIFIED
+    written by hand, or two verdicts giving SPLIT, is refused;
+  - the arc's number and the harvest row's taken at landing, and only the named writes made;
+  - the harvest row in the ledger's eight cells;
+  - every gate, and the whole suite with `-rfE`, read against `queue/KNOWN_FAILURES.json`;
+  - it never pushes.
+- **The README.** The queue's README gains its landing section, placed after main's setting 8 (the only difference from the
+  builder's tree).
+- **Its tests pass here.**
+
+The thin path's T1 to T11 are on main. The runner is held until the author's settings are made, and T12, the plant
+ledger's format, comes next.
+
+## S306p THE TWO BANKING SEATS NAMED; THE SM SEAT'S TWO TIER-1 CARDS RECEIVED; THE BUILDER'S RESEND REGISTERED (P-885; HARVEST ROWS 2060, 2061; M75, M66, M7) (2026-11-28)
+
+- **`queue/BANKING_SEATS.json`** names V1 (`fam1-v1-unset-04`, on `sm/banking`) and V2 (`fam1-v1-unset-05`, on
+  `sm2/banking`): the seats the author started on 2026-11-26. Both seats are told where their verdict files go and when they
+  may open them.
+- **The SM seat's B1380 and SM-C14 on `sm/cards`,** tier 1 of its ranking:
+  - both forms hold, and every stated hash matches;
+  - the record checks are clean and deciding, and the four scripts pass the guard;
+  - neither names a trial arc.
+- **The builder's resend at `33041d6ee` registered** (harvest row 2061). Part 2, T8 and T9 are landed. M75 tells it what
+  was verified, the two changes main made in part 2, and that T11 is next.
+
+## S306p T9 LANDED: THE BANKING VERDICTS, SEALED THEN OPENED; THE END OF THE PEER STAGE; BANKING IN QUEUE ORDER (P-885; M71) (2026-11-28)
+
+- **The builder's patch 0003, sent again at `33041d6ee`, byte for byte.** Its tree as built is `5a87e928`.
+- **`scripts/queue/banking.py`:** each banking seat's expectation, seal and verdict on its own branch. The runner checks
+  each verdict:
+  - the seal is the verdict's hash;
+  - K3: the expectation was sighted no later than the seal;
+  - K1: the verdict was first sighted in a round after both seals were in;
+  - K2: the seat's own script is rerun in the sandbox and shares no file with the producer's, and M71's static reach
+    check refuses a script that names the producer's files or reads a renamed copy;
+  - D8: a seat never banks its own card;
+  - K11: the verdict file holds no edit of the card.
+- **The outcome rule:** two ACCEPTs make a card VERIFIED, and a card of main's own waits for a check from another family.
+- **The round now:**
+  - after the peer stage, a deciding card goes to banking, and a card that decides nothing ends at NOT_BANKED;
+  - banking takes cards in numeric queue order;
+  - the round's report says when both seals were first sighted, so a seat knows when it may open its verdict;
+  - a verdict's check is run once while its blobs are unchanged.
+- **`queue/BANKING_SEATS.json`** names no seat yet, so the runner banks nothing; main names the two in the next commit.
+- **Its tests pass here.** The sandbox runs were verified in the Linux container with part 2.
+
+## S306p T8 LANDED: THE PEER NOTE AND THE MOVE TO PEERED (P-885; M71) (2026-11-28)
+
+- **The builder's patch 0002, sent again at `33041d6ee`, byte for byte.** Its tree as built is `413f58f7`.
+- **What it adds:**
+  - `scripts/queue/peer_note.py`: the peer's note on its own branch, checked by the runner. Its form; a peer that is not
+    the card's seat; the note sighted after the offer; the peer's script, which is the one it hashes, rerun in the
+    sandbox with its own failing control; "reproduced" only when the decisive lines are the card's;
+  - the grade, "re-derived" or "reran", with M71's K2: a script that names the producer's files, or reads a renamed copy,
+    is graded "reran";
+  - the runner moves a card to PEERED.
+- **Its tests pass here,** with custody's. The sandbox runs were verified in the Linux container with part 2.
+
+## S306p TWO OF MAIN'S RELAYS OF 2026-11-06 GIVEN THEIR STATE AS THE DATE ROLLED (P-717, P-720) (2026-11-28)
+
+- **P-720's question to the agy lane is answered on main.** P-720 is DONE: its route likely fails, and agy-002's A2-NEG
+  recomputed the negative (harvest row 1789). The relay is BANKED.
+- **P-717's relay is escalated.** The lead's three choices are underived, set aside behind the framework, and a reply comes
+  as a claim card.
+- **Why now:** the relay-debt gate refused the runner's landing on the 22nd day.
+
+## S306p T7B PART 2 LANDED: THE INTAKE RUNNER AND ITS WORKFLOW, WITH T7B'S SANDBOX; THE RUNNER HELD UNTIL THE AUTHOR'S SETTINGS (P-885; B2019; M70, M73, M75) (2026-11-28)
+
+- **The builder's patch 0001, sent again at `33041d6ee` on `47ece044b`, byte for byte.** Its tree as built is `820c30de`.
+- **The runner:** `scripts/queue/intake.py`, with its tests.
+- **The sandbox as M70 asked:**
+  - every world-writable directory covered, found again before each run;
+  - an IPC namespace and a PID namespace;
+  - every process of nobody killed around each run, under a machine lock;
+  - the probe as nobody, with a refusal that must be a permission error.
+- **The rest of M70 and M73:**
+  - main's cards passed over at the merge-base;
+  - `builtins` followed through its aliases;
+  - the record job pushes with the queue's deploy key and reads the branch's rules after.
+- **Verified in a privileged Linux container, on a copy of the repository nobody cannot write:**
+  - the four sandbox test files pass, 63 with 1 skipped;
+  - main's probes all hold: a wrap that keeps root is refused; `/run/lock` and `/dev/mqueue` are private to each run; a
+    detached child is killed and the next card's data is untouched; `builtins` aliases are refused;
+  - a dry discovery on today's branches files 29 cards, main's seven first. Main's older copies on `sm/banking` are passed
+    over, and the 62 refused are old-form cards with no seat code.
+- **Main's two changes at landing, each dated:**
+  - the probe walks the filesystem only once a wrap is usable (the author's word, 2026-11-28). Before, a machine with no
+    wrap walked its whole disk on every call; a test holds it;
+  - the workflow's round job runs only when the repository variable `INTAKE_ENABLED` is `true` (the README's setting 8),
+    so its first run follows the author's settings.
+- **Still to come from the builder (M74):** the rerun's `-E`, two tests and a docstring.
+
+## S306p REVIEW 89 ENTERED: SIX OF EIGHT PLANTS CAUGHT, ELEVEN REAL FAULTS HELD, SEVEN MENDED, FOUR TO THE BUILDER (B2019; P-589, P-869, P-881, P-885; HARVEST ROW 2059; M74, M67) (2026-11-27)
+
+- **When and what.** Opened at the 20th landing since Review 88's anchor. B2018 and the window's process work were read by
+  three cold readers on a reading copy of 47ece044b with eight sealed plants (5c5427cd…). The trial's arcs and main's trial
+  tools were left to the trial; R88-2 is carried to Review 90.
+- **The plants: six of eight caught.** Missed were a one-word flip in a dated law-map mend, given with its arc (R87-4's
+  case), and a test helper's "and" made "or".
+- **Eleven findings held on the live tree.**
+  - **To the builder (M74):** the rerun's `-E`, which defeats its pinned hash seed; a test of a real non-ancestor; a test
+    of a swap along the known-failures history; `baseline.py`'s stale docstring.
+  - **Mended here:**
+    - the stale screen now reads the correction markers its docstring names, and screens arcs without a verdict file;
+    - the dated-notes screen shows a note only by its own date or its kind's word;
+    - law-map row 296 carries B1658's second clause;
+    - P-876's and P-334's escalations are corrected, and P-326's decline is clarified;
+    - B2018's file count is corrected.
+- **Main's own.** Two point-debt tests had been failing unseen since the day's register work. Both are mended, and the
+  landing now runs that file when the register changes (R89-3).
+- **The mended screens** name 51 more law-map rows to judge at source (R89-2). R86-1 to R86-4 reached their third carry and
+  moved whole to P-881.
+- **The six views** carry the window's refresh; OPEN_LEADS had last been touched at Review 86.
+- **Also landed:**
+  - agy-002's five further checks of other seats' cards registered (harvest row 2059; M67), told that as claim cards each
+    result would come before banking twice;
+  - M74 to the builder, whose resend of part 2, T8, T9 and T11 at 33041d6ee is read next.
+
+## S306p THE PHYSICAL SEAT BACK: ITS C8 CARD RECEIVED; THE PEER ROLE FOR MAIN'S SEVEN ACCEPTED (P-885; HARVEST ROW 2058; M26) (2026-11-27)
+
+- **C8 as a claim card** at `2de93d2e6`:
+  - its predictions and its changed-action control were sealed before the run;
+  - its form holds, and every stated hash matches;
+  - there is no symlink and no `.gitattributes`;
+  - the record check is clean and deciding, and its script passes the guard;
+  - one firewall flag, for a sign in a congruence, no data, goes on the author's list.
+- **Its November 20 momentum calculation** is registered by name.
+- **The seat has read M25** and accepts M24's peer role for main's seven trial cards, when the runner offers them. The
+  note's exact form follows when T8 lands.
+
+## S306p AGY-002'S FOURTH CARD RECEIVED: A SECOND COMPUTATION OF THREE OF THE SM SEAT'S CARDS (P-885; HARVEST ROW 2057; M66) (2026-11-27)
+
+- **A2-PEER-SM-PURE3** at `31f24c2c1`, read through the mask:
+  - it is a blind computation from another family of SM-R384, SM-R614 and SM-R635 on `sm/cards`;
+  - its form holds, and every stated hash matches;
+  - there is no symlink and no `.gitattributes`;
+  - the record check is clean and deciding;
+  - both scripts pass the guard, and it names no trial arc.
+- **Received as a claim card,** since the three cards are not yet offered to a peer. When they are, the same work may come
+  as a peer note in T8's form.
+
+## S306p LAW_MAP ROW 294 DECIDED AT SOURCE; SIXTEEN REGISTER ROWS ESCALATED BEFORE THE GATE WOULD REFUSE THEM (P-589, P-885) (2026-11-27)
+
+- **Row 294 (B1656) is current.**
+  - B1656's equal norms are the regularised norms `c_s` of its four channel kernels (`cA` in its script), and its D is
+    `sum c_s R_s^2` (`D_of`).
+  - The script uses no metric of the generations.
+  - B1654's scope of 2026-10-30 puts the chosen H = I on the matter's metric, and says the argument holds for the Higgs
+    channels.
+  - Recorded in P-589. Row 348 stays owed until after the trial.
+- **Sixteen rows escalated** with their true state and next action, their moved dates kept:
+  - P-091, P-092, P-117, P-138, P-156, P-320, P-446, P-448;
+  - P-517, P-542, P-862, P-865, P-869, P-872, P-875, P-876.
+
+  Most are set aside behind the framework by the author's order of work. P-092 waits only on P-428. The looks wait on
+  the author's word. P-869's Q2 is answered by the landing tool T11, to land with T7b part 2. The point-debt gate's
+  look-ahead is clean through 2026-12-11.
+
+## S306p AGY-002'S THIRD NEW-FORM CARD RECEIVED (P-885; HARVEST ROW 2056; M65) (2026-11-27)
+
+- **A2-WEIL-CHIRAL-LATTICE-BRIDGE** at `aa90abcc1`, read through the mask:
+  - its form holds, and every stated hash matches at its commit and at the head;
+  - there is no symlink and no `.gitattributes`;
+  - the record check is clean and deciding;
+  - both scripts pass the intake's guard, and it names no trial arc.
+- **It waits for the runner.**
+
+## S306p THE QUEUE'S BRANCH TO BE WRITTEN BY ONE KEY ALONE (P-885; M73) (2026-11-27)
+
+- **The problem.** Every seat's commits are made as `originaxiom`. If the seats push with that account's access, a
+  ruleset that lets admins through cannot tell a seat from the runner, and the queue's custody check lets an appended move
+  stand (M72).
+- **The runner's side, asked of the builder (M73):**
+  - the record job pushes to `queue` with a deploy key, named only in that job;
+  - the queue's ruleset restricts updates, with that key as its only bypass;
+  - the job checks in its log that the ruleset is in force.
+- **The author's side:** making the key and the ruleset. `main` cannot be separated this way while the seats push with the
+  author's account.
+
+## S306p T11, THE LANDING TOOL, READ (P-885; HARVEST ROW 2055; M72) (2026-11-27)
+
+- **T11, as sent:**
+  - on T7b part 2, T8 and T9, its tree is as built (`351b719d`), and its tests pass 6 of 6;
+  - one landing at a time, on a fresh clone;
+  - the numbers taken at landing, and only the named writes;
+  - every gate and the suite read against the known failures;
+  - it never pushes.
+- **Two points for its next send (M72):**
+  - a card's VERIFIED is read from the queue record's text, and the queue's history check lets an appended move write it,
+    so the landing must derive it from both banking seats' verdicts and seals;
+  - its harvest row has six cells, not the ledger's eight.
+
+## S306p THE SM SEAT'S NINE PRODUCER CARDS ON SM/CARDS RECEIVED; THE BRANCH PINNED (P-885; HARVEST ROW 2054; M65) (2026-11-27)
+
+- **Nine refiled cards on `sm/cards` at `1c5b13d0a`:** SM-C23, SM-C24, and SM-R290, R384, R581, R610, R612 with R612b, R614
+  and R635.
+  - Each card's form holds, and every hash it states matches at its stated commit and at the head.
+  - There are no symlinks and no `.gitattributes`.
+  - Every record check is clean, and each card decides something.
+  - The eighteen scripts pass the intake's guard.
+  - One firewall flag, for a "±" in a congruence, goes on the author's list.
+- **The branch pinned.** `sm/cards` is pinned in the ledger and watched by the harvest gate (`scripts/checks/harvest_debt.py`).
+- **Discovery on today's branches** with T7b part 2 files the nine as Q0013 to Q0021. Main's seven copies on that branch are
+  passed over.
+
+## S306p T8 AND T9 REBUILT ON T7B PART 2: READ (P-885; HARVEST ROWS 2052, 2053; M71) (2026-11-27)
+
+- **T8 and T9 on part 2's tree:**
+  - both trees are as built (`475a956c`, `5b36c252`), and their tests pass, 5 and 9;
+  - at the end of the peer stage, a deciding card goes to banking and a card that decides nothing ends at NOT_BANKED;
+  - banking takes cards in numeric queue order;
+  - a later round's check is kept beside the record check;
+  - K1, K3, D8 and the outcome rule are as the charter has them.
+- **Three points for their next send (M71),** from the code:
+  - K2 follows only the seat script's imports, so a script that runs the producer's by `subprocess` or reads its output
+    passes;
+  - a seat cannot see when both seals are in;
+  - banking's reruns are not counted against the round's limit.
+- **They wait on part 2's next version (M70).** The SM seat's status (read M64; nine producer cards refiled, `sm/cards`
+  not yet pushed) is registered.
+
+## S306p T7B PART 2 READ AND PROBED: HELD AGAIN; AGY-002'S A2-LEG5 CORRECTED (P-885; HARVEST ROWS 2050, 2051; M70, M64) (2026-11-27)
+
+- **T7b part 2, sent again on `9c8b0a531`:**
+  - its tree is as built (`9515714c`);
+  - its three changed test files pass in a privileged Linux container (48 passed, 1 skipped);
+  - a dry discovery on today's branches files the twelve cards expected, main's seven first;
+  - M69's twins hold.
+- **Held again (M70).** Main's probes, inputs built to pass, find four more faults and one nit:
+  - the probe's write check cannot fail: a wrap that keeps root is accepted;
+  - `/run/lock` and `/dev/mqueue` are shared between runs, and one run changed the next card's decisive line;
+  - a detached process outlives its run and changed the next card's committed data through `/proc`;
+  - main's cards on `sm/banking`, in their version before the refile, are still refused under sm's code;
+  - the nit: two aliases of `builtins` pass the guard.
+
+  Each comes with a fix and a test to plant.
+- **agy-002's A2-LEG5,** with its script hash put on one line, holds its form and every stated hash; M63 is met.
+
+## S306p P-589'S LAW_MAP SCREENS JUDGED: EIGHT ROWS MENDED AT THEIR SOURCE (P-589; HARVEST ROW 2049) (2026-11-27)
+
+- **The two landed screens** (`scripts/review/law_map_stale_screen.py`, `law_map_dated_notes_screen.py`) flag 79 LAW_MAP
+  rows whose headline arc carries a correction or a dated note the row may not show. Ten are left until the trial ends:
+  they name B1832, B1918, or an arc from B1980 to B2020, which the trial's cards draw on.
+- **The other 69 were judged at source.** Three readers read each arc's FINDINGS, its verdict file and RETRACTIONS. Main
+  read every row called stale or unsure at its source before any edit, and spot-checked rows called current.
+- **Eight rows mended in place,** each with the arc's dated note:
+  - 271: W23 and W24 are verified on main since B1689;
+  - 288: B1649's ground is B1653's rank-one residue, not Jacobi's identity, and it holds in the fibre frame;
+  - 296: B1658's "refuted" assumes the ratios survive running;
+  - 307: B1679's setting, the democratic extension of the moves;
+  - 309: B1682's join to PF1 is circular;
+  - 351: B1922's "not at any other line" is false (B1957);
+  - 618: B1978's rates change at a fixed τ, a thread result;
+  - 659: B1952's zero modes are on the filled fibre, and B1955 replaces the flux bit.
+- **59 rows are current.** Two stay owed: 294 (whether B1656's equal norms rest on the chosen metric H = I) and 348 (after
+  the trial).
+- **sm2's status** (read M6, practice complete) registered; its pin moved.
+
+## S306p THE BANKING SEATS' PRACTICE VERDICTS AGREE WITH THE KEY; THE KEY STAYS SEALED (P-885; M64, M6) (2026-11-27)
+
+- **Both banking seats' practice verdicts agree with main's key:** V1's on P1 and P3 (`sm/banking` at 0f17107aa) and V2's
+  on P1, P2 and P3 (`sm2/banking` at eb6c03615). Every verdict's SHA-256 matches the one its seat committed before anything
+  was opened. Both key files match their seals (cd90847da264fe4d, 464831c93785c46a).
+- **The key stays sealed,** by the author's decision, so that the practice cards can still train a later banking seat;
+  M56 and M2 had said it would be opened on the seats' pages. Both seats told (M64, M6), their pages' lists brought up to date.
+
+## S306p MAIN'S SEVEN TRIAL CARDS FILED AGAIN, NAMING THE REBUILT TOOLS (P-885) (2026-11-27)
+
+- **The seven cards** at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md` now name `13977a25f`, where the rebuilt
+  wrappers and controls are. The decisive scripts' hashes are new and the decisive lines' hashes unchanged. No runner has
+  sighted them, so they are corrected in place.
+- **Under the landed rerun (T7b part 1)** all seven pass every check before the run: form, hashes, guard and commands.
+  Here, with no sandbox, each is HEAVY by design (B2016 also by its own declaration). B2013, run through to the end with
+  the static guard, is REPRODUCED, its control exiting 1.
+
+## S306p MAIN'S TRIAL TOOLS REBUILT TO THE INTAKE'S GUARD; THE SEATS' NEW CARDS RECEIVED; FOURTEEN DEBTS ESCALATED (P-885; HARVEST ROWS 2047, 2048; M69, M24, M63) (2026-11-27)
+
+- **Main's trial tools rebuilt.** The guard of T7b part 1 refused all seven of main's trial cards at intake: their wrappers
+  and controls used exec, compile, importlib and `sys.path`. Now no exec runs in a control's own process:
+  - each control writes the changed text beside the arc's script and runs it as a separate process
+    (`relays/claims/main_trial/control_run.py`);
+  - B2013's runs its lock through a driver in its copy;
+  - `n0_light` assembles the arc's code into one script and runs it;
+  - the wrappers import their siblings plainly, and `decisive.py` uses its patterns as strings.
+
+  The banked scripts are untouched. Every wrapper and control passes the guard; every wrapper gives the same decisive lines
+  byte for byte; every control fails as it must (exit 1, no traceback). The cards are filed again, naming this commit, in
+  the next landing.
+- **The guard's false positive (M69):** any call of an attribute named `compile`, `re.compile` among them, is read as the
+  builtin. It is blocking: it would also return the agy lane's C64.
+- **The seats' new cards:**
+  - the agy lane's C68 (C67 superseded): form and hashes hold, the record check is clean, it names no trial arc (row
+    2047; M24);
+  - agy-002's two cards in the new form (row 2048; M63): A2-P629 holds; A2-LEG5's stated script hash is not the script's,
+    to be corrected before the runner sights it.
+- **Fourteen register rows escalated** before the point-debt gate would refuse them on 2026-12-06, each with its true state
+  and next step. P-239's two locks pass since the builder's C15 held them to the panel's era; the attachment itself is
+  what is owed.
+- **The LaCie mirror is not mounted;** the backup stands at `55cf9b21a` until it is.
+
+## S306p REVIEW 88'S FINDINGS ON THE QUEUE'S CODE LANDED (T7B PART 1); THE RUNNER HELD; TWO AUDIT DRAFTS LANDED OR DECLINED (P-326, P-589, P-885; HARVEST ROW 2046; R88-1 MET; M68, M63) (2026-11-27)
+
+- **T7b part 1, the builder's** (Review 88's twenty-eight items, M61's three, M66's two), landed byte for byte:
+  - **the rerun:** seat code runs as nobody in a network namespace, or not at all; the commit is written from its blobs;
+    symlinks are refused; the control is guarded; every check comes before HEAVY;
+  - **the form:** an effect names only codes the card touches; one table of deciding codes; paths and commands are tied to
+    the commit;
+  - **the queue:** no card skips the peer offer; NOT_BANKED; main's alias closed; strict fields;
+  - **discovery:** a card's code is its branch's, from `queue/SEAT_CODES.json`; its stated commit is an ancestor of where it
+    was found; masked rows are read; one bad card no longer stops the rest;
+  - **custody:** deletions are reported;
+  - **the record check:** the law map's rows decide; the firewall's words are widened; a premise arc's own card is waited on.
+- **Verified** by Review 88's live probes (no fault reproduced) and by main's identity probes (each wrong card refused, each
+  twin filed). The queue's tests pass here and, in a privileged Linux container, 29 of 29 of the rerun and intake files.
+- **The runner (part 2) held (M68):**
+  - its namespace probe rejects a sound namespace on kernels with tunnel modules;
+  - `/tmp` is shared between runs, and one card's run changed another's decisive line;
+  - main's cards on a branch cut from main are refused under the seat's code.
+- **The SM seat's producer cards** go on `sm/cards` (in SEAT_CODES), since its old branch's name cannot be stated (M63).
+- **Rule 9, two drafts:**
+  - P-589's two LAW_MAP screens are landed at `scripts/review/`. Run today, they name 76 and 48 candidate rows, to be
+    judged at source;
+  - P-326's draft is declined: its one scratch check's script is gone.
+
+## S306p THE KNOWN FAILURES MAY ONLY SHRINK, A GATE (known-failures; the framework's thin path, T10; P-885) (2026-11-27)
+
+- **`queue/KNOWN_FAILURES.json`:** every failing test and red gate on main, each with its register row and why; its first
+  entries are main's (M63): the seven tests that failed alone in main's full suite on a fresh clone of ed9660a9d, each on
+  P-810 (the two that passed alone are flakes, debts of their own, not entries).
+- **`scripts/queue/baseline.py`:** the list's form (every entry a row of the register); its history (it only shrinks); a
+  run compared with it (a failure or red gate it does not hold is new, and refuses a landing; an entry that now passes is
+  reported for taking off); a draft from a run, the rows left for main.
+- **The gate `known-failures`**, fail-closed, in READS_HISTORY; it compares the list also with its last committed
+  version, so a list grown in the working tree fails (M65); a GATE_CONTROLS entry and a PRACTICES section.
+- **A run's lines read to their test ids (M65):** "ERROR " taken off as "FAILED " is (the landing tool runs `-rfE`), and an
+  id read up to the first " - " outside brackets.
+- **New test** `tests/test_known_failures.py` (6 tests); each rule's removal makes one fail. The shipped list's lock checks
+  its form, its rows and that no flake is on it, not its count, so that taking an entry off does not break it (M65).
+- **Main's landing (harvest rows 2043 to 2045; M67, M62, M5):** T10 verified by probes of what it admits and landed byte for
+  byte. The SM seat's ranking of its unverified rows received (tier 1: rows 655, 1726, 1814, to enter as cards after the
+  trial). Banking seat V1 opened `sm/banking` with its practice verdicts, their seals checked; the branch pinned and put
+  under the harvest gate. Both banking seats have filed; the key's opening waits on the author's word.
+
+## S306p THE SEATS ANSWERED: CHAT1'S LINE 65 VERIFIED; THE SM SEAT'S BRANCH READ BY DISCOVERY; WHAT THE QUEUE READS (P-876, P-885; HARVEST ROW 2042; M86, M60, M25, M66) (2026-11-27)
+
+- **chat1's section 35.4 (a) is right:** THE BRAINSTORM VERDICT's line 65 is VERIFIED. The seat's `arena_checks.py` states
+  L = [[1, 0], [1, 1]] and R = [[1, 1], [0, 1]], and with them [[5, -6], [6, -7]] is a b a^-1 b^-1 exactly. Main recomputed
+  it in B1957's `checks/web_trace_notes_t3_convention.py`, with main's transposes as the control. The line moved from
+  web-old2-bv-p to web-old2-bv-v with dated notes; T3's docstring is bracketed; row 1977 is corrected. The register: 4,558
+  verified, 2,662 partial.
+- **The SM seat's branch was never read by discovery:** its Pins cell had a masked prefix that the seat list drops. The
+  cell now reads `origin/<v>/...`, so discovery reads the branch (nine cards, all in the old form). `queue/SEAT_CODES.json`
+  holds the branch masked, and the builder is told to read masked rows (M66).
+- **What the queue reads:** sixty-two cards on the seats' branches are in the old form and carry no seat code (chat1 13,
+  agy-exp 12, agy-002 14, the agy lane 14 of its earlier ones, the SM seat 9). chat1 (M86) and the SM seat (M60) are told
+  to refile those they want taken; agy-002 and agy-exp were told in M62 and M52. physical's ask for a review of C8 comes
+  as a card (M25), and it may read main's seven cards now for its peer role.
+
 ## S306p MAIN'S SEVEN TRIAL CARDS FILED, BEFORE THE RUNNER'S FIRST ROUND; T10 READ AND HELD (P-885; R88-3 MET; M65) (2026-11-27)
 
 - **The seven cards** (B2011 to B2017) at `relays/claims/CLAIM_2026-11-27_B20nn_main_trial.md`, so that discovery, which

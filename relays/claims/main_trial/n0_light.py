@@ -43,8 +43,39 @@ class _PermListOnly:
         return [x - 1 for x in lst]
 
 
-def load(patch=None):
-    """the arc's code in one namespace; patch = (old, new) is applied to cosets_gap.py's text (exactly once) first"""
+STANDIN = """
+class _PermListOnly:
+    @staticmethod
+    def PermList(lst):
+        return [x - 1 for x in lst]
+
+
+libgap = _PermListOnly
+"""
+
+DRIVER = """
+import json as _json
+for N in (27, 81):
+    pts, idx, Cp, Sp = gens(N)
+    x0 = idx[(3, 3, 3)]
+    rho, ok = closure(Cp, Sp)
+    H = [g for g in rho if g[x0] == x0]
+    pn, S, d0, d1, fx = sector_polys(Cp, Sp)
+    h = halved(pn)
+    cat = CAT_EXPR
+    print(_json.dumps({"N": N, "G": len(rho), "pts": len(pts), "ok": ok, "cat": str(cat), "H": len(H), "fx": fx,
+                       "rho_trivial": all(rho[g] == 0 for g in H), "d0": d0, "d1": d1, "Q9": Q9.str(var="x"),
+                       "form": h == Q9 * X * S}))
+"""
+
+
+def build(patch=None):
+    """the arc's code as one script's text: everything of cosets_gap.py before its read of coset_actions.json (with the
+    patch applied, exactly once, when one is given), a stand-in for libgap, cosets_export.py's orbit() and gens(), this
+    file's closure(), and a driver that prints one JSON line a level, its category line read from cosets_gap.py's text.
+    CHANGED 2026-11-27 (P-885): the text is run as a separate process (control_run.py), not exec'd here, since the
+    intake's guard refuses exec and eval; the arc's text is used as before, unchanged but for the patch"""
+    import inspect
     V = find_verification()
     gap_src = (V / "cosets_gap.py").read_text()
     if patch is not None:
@@ -52,14 +83,10 @@ def load(patch=None):
         assert gap_src.count(old) == 1, "the patch's old text must occur exactly once in cosets_gap.py"
         gap_src = gap_src.replace(old, new)
     head = gap_src.split(GAP_SPLIT)[0]
-    ns = {"__file__": str(V / "cosets_gap.py"), "__name__": "b2016_cosets_gap"}
-    exec(head, ns)
     exp_src = (V / "cosets_export.py").read_text()
     funcs = "def orbit(" + exp_src.split("def orbit(")[1].split("\nout = {}")[0]
-    ns["libgap"] = _PermListOnly
-    exec(funcs, ns)
-    ns["CAT_EXPR"] = re.search(r"^\s*cat = (.*)$", gap_src, re.M).group(1)
-    return V, ns
+    cat_expr = re.search(r"^\s*cat = (.*)$", gap_src, re.M).group(1)
+    return V, "\n".join([head, STANDIN, funcs, inspect.getsource(closure), DRIVER.replace("CAT_EXPR", cat_expr)])
 
 
 def closure(Cp, Sp):
@@ -80,25 +107,26 @@ def closure(Cp, Sp):
 
 
 def run(patch=None, out=print):
+    import json
+    from control_run import run_changed
     t0 = time.time()
-    V, ns = load(patch)
+    V, text = build(patch)
     out("B2016 N0, light (no GAP): the arc's code from %s" % V.name)
+    rc, stdout, stderr = run_changed(V / "cosets_gap.py", text)
+    if rc != 0:
+        raise RuntimeError("the arc's code exited %d: %s" % (rc, (stderr.strip().splitlines() or [""])[-1]))
     lines = {}
-    for N in (27, 81):
-        pts, idx, Cp, Sp = ns["gens"](N)
-        x0 = idx[(3, 3, 3)]
-        rho, ok = closure(Cp, Sp)
-        H = [g for g in rho if g[x0] == x0]
-        pn, S, d0, d1, fx = ns["sector_polys"](Cp, Sp)
-        h = ns["halved"](pn)
-        cat = eval(ns["CAT_EXPR"], ns, {"h": h, "S": S, "d1": d1})
-        out("mod %d: |G| = %d; the orbit of (3,3,3) has %d points; rho well defined on G: %s" % (N, len(rho), len(pts), ok))
+    for l in stdout.splitlines():
+        if not l.startswith("{"):
+            continue
+        r = json.loads(l); N = r["N"]
+        out("mod %d: |G| = %d; the orbit of (3,3,3) has %d points; rho well defined on G: %s" % (N, r["G"], r["pts"], r["ok"]))
         line = ("    the whole's stabiliser class: category %s, |H| = %d, index %d, C fixes %d, rho trivial on H: %s"
-                % (cat, len(H), len(pts), fx, all(rho[g] == 0 for g in H)))
+                % (r["cat"], r["H"], r["pts"], r["fx"], r["rho_trivial"]))
         out(line)
         out("    neutral dimension %d, charged dimension %d; p_neutral(2x)/2^d == Q9 x S(x) with Q9 = %s: %s"
-            % (d0, d1, ns["Q9"].str(var="x"), h == ns["Q9"] * ns["X"] * S))
-        lines[N] = (len(rho), ok, line)
+            % (r["d0"], r["d1"], r["Q9"], r["form"]))
+        lines[N] = (r["G"], r["ok"], line)
     out("[%.0f s]" % (time.time() - t0))
     return lines
 

@@ -1,0 +1,129 @@
+# The intake runner (the framework's thin path, patch T7; draft 1 § 9; register row P-885).
+#
+# Two jobs. `round` runs seat code, as the unprivileged user nobody in a network namespace (T7b): it has read permission
+# only, no secrets, and nothing it writes leaves the job but one artifact, the queue's folder, closed by a manifest of what
+# the round wrote. `record` runs no seat code: it refuses any file the round did not write, checks the artifact against the
+# queue's schema and the sighting log's form, and pushes to the queue's own branch alone, with a deploy key that only it
+# names (main's M73): the queue's ruleset lets that key alone update the branch, so a record on `queue` is the runner's.
+# After its push it reads the branch's rules and fails if they are not in force. Standard GitHub-hosted runners only
+# (`ubuntu-latest`); never a larger runner. The settings the author makes are in queue/README.md.
+name: intake
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"          # every three hours, at minute 17
+  workflow_dispatch: {}              # the manual trigger beside the schedule
+
+permissions:
+  contents: read                     # every job reads only, unless it says otherwise
+
+concurrency:
+  group: intake
+  cancel-in-progress: false          # a round in progress finishes; the next waits
+
+env:
+  QUEUE_BRANCH: queue
+
+jobs:
+  round:
+    # ADDED 2026-11-27 (main, at landing): the runner is held until the author has made the settings in queue/README.md;
+    # its first run is to follow them. A scheduled run skips both jobs (record needs round) until the repository variable
+    # INTAKE_ENABLED is set to true (setting 8 there). Remove this line, by a dated change, once it is set.
+    if: ${{ vars.INTAKE_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out main, with every branch's history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Fetch every seat branch
+        run: git fetch --no-tags origin '+refs/heads/*:refs/remotes/origin/*'
+      - name: Read the queue's branch, or start from an empty queue
+        run: |
+          mkdir -p queue-state
+          if git cat-file -e "origin/${QUEUE_BRANCH}:queue" 2>/dev/null; then
+            git archive "origin/${QUEUE_BRANCH}" queue | tar -x -C queue-state
+          fi
+          mkdir -p queue-state/queue
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the allowed packages at their pins
+        run: |
+          python3 -c "import json; d = json.load(open('scripts/queue/ALLOWED_PACKAGES.json')); print(' '.join(k + '==' + v['pin'] for k, v in d['packages'].items()))" > pins.txt
+          python3 -m pip install --quiet $(cat pins.txt)
+      - name: One round of the intake (seat code runs here, with the network cut)
+        run: python3 scripts/queue/intake.py --queue-dir queue-state/queue --write
+      - uses: actions/upload-artifact@v4
+        with:
+          name: queue
+          path: queue-state/queue
+          if-no-files-found: error
+          retention-days: 7
+
+  record:
+    needs: round
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out main's queue code (no seat code is run here)
+        uses: actions/checkout@v4
+        with:
+          path: main
+          persist-credentials: false
+      - name: Check out the repository for the queue's branch, over SSH with the queue's deploy key (M73)
+        uses: actions/checkout@v4
+        with:
+          path: q
+          fetch-depth: 0
+          ssh-key: ${{ secrets.QUEUE_DEPLOY_KEY }}    # this job alone names it; the push below goes with it
+      - name: Move to the queue's branch, or start it
+        run: |
+          cd q
+          if git ls-remote --exit-code --heads origin "${QUEUE_BRANCH}" >/dev/null; then
+            git fetch -q origin "${QUEUE_BRANCH}"
+            git checkout -q -B "${QUEUE_BRANCH}" FETCH_HEAD
+          else
+            git checkout -q --orphan "${QUEUE_BRANCH}"
+            git rm -rqf .
+          fi
+      - uses: actions/download-artifact@v4
+        with:
+          name: queue
+          path: incoming
+      - name: Check the round's queue before it is recorded
+        run: |
+          python3 -B main/scripts/queue/intake.py --check-manifest incoming
+          rm incoming/.round_manifest.json
+          python3 -B main/scripts/queue/queue_schema.py --dir incoming/cards
+          python3 -B main/scripts/queue/custody.py --log incoming/SIGHTINGS.jsonl
+          if [ -f q/queue/SIGHTINGS.jsonl ]; then cmp -s q/queue/SIGHTINGS.jsonl <(head -c "$(wc -c < q/queue/SIGHTINGS.jsonl)" incoming/SIGHTINGS.jsonl) || { echo "the round would rewrite the sighting log"; exit 1; }; fi
+      - name: Record the round on the queue's branch
+        run: |
+          rm -rf q/queue && mkdir -p q/queue && cp -r incoming/. q/queue/
+          cp main/queue/README.md q/queue/README.md
+          cd q
+          git config user.name "intake runner"
+          git config user.email "intake-runner@users.noreply.github.com"
+          git add -A queue
+          if git diff --cached --quiet; then echo "nothing new this round"; exit 0; fi
+          git commit -q -m "intake: round of $(date -u +%Y-%m-%dT%H:%MZ) (run ${{ github.run_id }})"
+          python3 -B ../main/scripts/queue/custody.py --history HEAD --root .
+          git push origin "HEAD:${QUEUE_BRANCH}"
+      - name: Check that the queue's ruleset is in force (M73), or say that any account may push to the queue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          rules=$(gh api "repos/${{ github.repository }}/rules/branches/${QUEUE_BRANCH}" --jq '[.[].type] | join(",")') || rules=""
+          missing=""
+          for r in update deletion non_fast_forward; do
+            case ",${rules}," in *",${r},"*) ;; *) missing="${missing} ${r}" ;; esac
+          done
+          if [ -n "${missing}" ]; then
+            echo "::error::the queue's ruleset is not in force on ${QUEUE_BRANCH} (no rule:${missing}): an ordinary account can push to it, and a record there is not the runner's alone"
+            exit 1
+          fi
+          echo "the queue's ruleset is in force on ${QUEUE_BRANCH}: ${rules}"

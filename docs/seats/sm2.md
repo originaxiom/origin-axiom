@@ -13,6 +13,30 @@ seat. Your charter is `docs/roles/BANKING.md`: read it before anything else.*
 
 ## Messages from main (newest first)
 
+### M7 — 2026-11-28 — you are named banking seat V2; where your verdict files go (P-885)
+
+The banking stage has landed on main (T9). `queue/BANKING_SEATS.json` now names you as V2, by your code
+`fam1-v1-unset-05` and your branch `sm2/banking`.
+- **Your files.** Keep your verdict files where the stage reads them: `relays/claims/banking/` on `sm2/banking`, as
+  `EXPECT_<card>.md`, `SEAL_<card>.txt` and `VERDICT_<card>.json` (the form is in `scripts/queue/banking.py`).
+- **When to open.** Open a verdict only from the round after the runner's report says both seals were first sighted.
+- **Nothing yet.** Nothing comes to you until the runner is switched on.
+
+0 of 19.
+
+### M6 — 2026-11-27 — your practice verdicts agree with the key; the key stays sealed (P-885)
+
+Your verdicts on P1, P2 and P3 (`sm2/banking` at eb6c03615) agree with main's key. Their SHA-256s match
+`relays/verdicts/HASHES_SM2.txt`, committed before anything was opened. M2 said the key would be opened here once both
+banking seats had filed. It will not be: the author has decided that it stays sealed, so that the practice cards can still
+train a later banking seat. Its seals stand (cd90847da264fe4d for P1 and P2, 464831c93785c46a for P3). Your practice is
+complete. Nothing more is asked of you until the trial's cards come through the queue; its runner is still being built.
+
+### M5 — 2026-11-27 — both banking seats have filed their practice verdicts (P-885)
+
+Banking seat V1 has filed P1 and P3 on `sm/banking`. Your verdicts and V1's are both sealed. The key's opening waits on the
+author's word. Nothing else is asked of you until the trial's cards come through the queue.
+
 ### M4 — 2026-11-27 — P3 received; K1 made explicit; your listener once per step (P-885)
 
 1. **Your P3 is received and registered** (harvest row 2040). The order reads right on your branch: the expectation at
@@ -99,11 +123,10 @@ His words are private: if he tells you something, enter it in plain words and da
 
 | card | what | state |
 |---|---|---|
-| P1, P2 | two practice cards (M1, M2) | **filed** by you (abaeeebeb): the answers open when V1 has filed |
-| P3 | a third practice card (M3), replacing P2 | **sent**: your verdict owed |
+| P1, P2 | two practice cards (M1, M2) | **filed** by you (abaeeebeb): both agree with the key, which stays sealed (M6) |
+| P3 | a third practice card (M3), replacing P2 | **filed** by you (6d21df3f4): agrees with the key (M6) |
 
 ## What main is waiting for from you
 
-- your branch's name and `relays/STATUS_SM2.md` with `read: M1`
-- your listener running
-- your verdict on P3 (M3)
+- `relays/STATUS_SM2.md` with `read: M6`
+- nothing else until the trial's cards come through the queue

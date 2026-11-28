@@ -1112,3 +1112,13 @@ Touched at Review 88 (its anchor `64cc951b3`). **The window (`36f9cc5c2` to `64c
 - **Owed from this window:** the builder's patch with T7b (R88-1); main's seven trial cards filed before the runner's first round (R88-3); the seats' codes by branch (R88-4).
 
 Nothing is compared with data. 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-27 (Review 89)
+
+Touched at Review 89 (its anchor `47ece044b`). **The window (`64cc951b3` to `47ece044b`) holds the framework's build and the record's mends:**
+- T7b part 1 and T10 landed (the sandboxed rerun as nobody in a network namespace, blobs written as committed, symlinks refused; the known-failures list that may only shrink), main's seven trial cards rebuilt to the guard and filed first, the seats' codes by branch, and the banking seats' practice complete;
+- eight LAW_MAP rows mended at their sources (P-589), and thirty register rows escalated with their true state and next action;
+- **Review 89 (B2019):** three cold readers of the window's process work caught six of eight plants; eleven real faults held, seven mended at once and four sent to the builder (M74); the trial's arcs and main's trial tools left to the trial (R88-2, carried to Review 90).
+- **Owed from this window:** the builder's four (R89-1); the 51 law-map rows the mended screens now name (R89-2); dated mends read clause by clause beside their arcs (R89-4).
+
+Nothing is compared with data. 0 of 19.

@@ -1,0 +1,41 @@
+{
+ "note": "The known-failures baseline (the framework's thin path, T10; register row P-885): every test that fails and every gate that is red on main, as of a full suite on a fresh clone, each with the register row that holds it. It may only shrink. Its first entries are main's (M63): the seven tests that failed alone in main's full suite on a fresh clone of ed9660a9d (9 failed, 9,320 passed, 73 skipped; two of the nine passed alone and are flakes, not entries).",
+ "tests": [
+  {
+   "id": "tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted",
+   "row": "P-810",
+   "why": "in a clone without the seats' branches, not every seat comes back skipped, and no scheduled row is counted (main's full suite on a fresh clone of ed9660a9d, run alone; M63)"
+  },
+  {
+   "id": "tests/test_b1421_completeness_sweep.py::test_the_method_reproduces_b1266s_partition",
+   "row": "P-810",
+   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
+  },
+  {
+   "id": "tests/test_b1266_sources.py::test_selftest_passes",
+   "row": "P-810",
+   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
+  },
+  {
+   "id": "tests/test_b1462_seats_harvested.py::test_genesis_v1_7_and_the_corrections",
+   "row": "P-810",
+   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
+  },
+  {
+   "id": "frontier/B1957_the_seats_claims_register/verification/test_b1957_checks.py::test_the_seats_older_rows_and_the_physical_answer",
+   "row": "P-810",
+   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
+  },
+  {
+   "id": "frontier/B1957_the_seats_claims_register/verification/test_b1957_checks.py::test_the_sm_seats_relay_read_by_main_line_by_line",
+   "row": "P-810",
+   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
+  },
+  {
+   "id": "frontier/B1957_the_seats_claims_register/verification/test_b1957_checks.py::test_the_web_seats_section_27_and_its_mends",
+   "row": "P-810",
+   "why": "fails alone on a fresh clone (main's full suite of ed9660a9d; M63)"
+  }
+ ],
+ "gates": []
+}

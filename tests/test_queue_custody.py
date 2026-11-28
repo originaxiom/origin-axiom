@@ -33,6 +33,7 @@ CARD = """# CLAIM CARD — a count
 
 - card id: new
 - seat code: fam2-v5-high-01
+- seat, branch, commit: fam2-v5-high-01, seat/a, {stated}
 - decisive script: x.py, SHA-256 {h}, depends on the standard library, run as python3 x.py, output SHA-256 0011223344556677
 """
 
@@ -43,13 +44,18 @@ def _repo(tmp_path, h=H16, script=True):
                                   capture_output=True, text=True, check=True).stdout
     g("init", "-q", "-b", "seat/a")
     (tmp_path / "relays" / "claims").mkdir(parents=True)
+    (tmp_path / "README").write_text("a seat's branch\n", encoding="utf-8")
     if script:
         (tmp_path / "x.py").write_bytes(SCRIPT)
-    (tmp_path / "relays" / "claims" / "CLAIM_a.md").write_text(CARD.format(h=h), encoding="utf-8")
+    g("add", "-A")
+    g("commit", "-q", "-m", "the script")
+    stated = g("rev-parse", "HEAD").strip()           # a card names a commit before the one that adds it (M65)
+    (tmp_path / "relays" / "claims" / "CLAIM_a.md").write_text(CARD.format(h=h, stated=stated), encoding="utf-8")
     g("add", "-A")
     g("commit", "-q", "-m", "a card")
     g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
-    new, _ = D.discover({}, [("a", "origin/seat/a")], root=tmp_path, at="2026-11-26T12:00:00Z")
+    new, _ = D.discover({}, [("a", "origin/seat/a")], root=tmp_path, at="2026-11-26T12:00:00Z",
+                        codes={"seat/a": "fam2-v5-high-01"})
     rec = new["Q0001"]
     log = [CU.sight(tmp_path, [], rec["branch"], rec["commit"], rec["card_path"], "card", "2026-11-26T11:59:00Z")]
     log.append(CU.sight(tmp_path, log, rec["branch"], rec["commit"], "x.py", "script", "2026-11-26T11:59:00Z"))
@@ -63,6 +69,10 @@ def test_a_card_in_custody_holds_and_each_break_fails(tmp_path):
     late = [dict(log[0], at="2026-11-26T12:30:00Z")]
     assert any("filed (2026-11-26T12:00:00Z) before the runner sighted it" in b
                for b in CU.custody_problems(tmp_path / "ok", rec, late))
+    # Review 88's B13: with a history of more than one move, the sighting is held to the first move, not the last
+    moved = dict(rec, history=rec["history"] + [{"at": "2026-11-26T13:00:00Z", "status": "REPRODUCED", "by": "runner",
+                                                 "note": "a later move"}])
+    assert any("before the runner sighted it" in b for b in CU.custody_problems(tmp_path / "ok", moved, late))
     # the branch rewritten past the sealed commit
     g("checkout", "-q", "--orphan", "other")
     g("commit", "-q", "--allow-empty", "-m", "a new history")
@@ -148,4 +158,40 @@ def test_the_command_runs_by_hand(tmp_path):
                                     capture_output=True, text=True, timeout=300)
     assert run("--log", f).returncode == 1
     f.write_text("", encoding="utf-8")
-    assert run("--log", f, "--history", "HEAD").returncode == 0
+    assert run("--log", f).returncode == 0
+    # Review 88's B23: --history read on a queue's own history, where it can fail, not on a tree with no queue
+    q = tmp_path / "q"
+    q.mkdir()
+    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=q, capture_output=True,
+                                  text=True, check=True)
+    g("init", "-q")
+    (q / "queue").mkdir()
+    for text, msg in (("a\n", "one"), ("b\n", "the log rewritten")):
+        (q / "queue" / "SIGHTINGS.jsonl").write_text(text, encoding="utf-8")
+        g("add", "-A")
+        g("commit", "-q", "-m", msg)
+    r = run("--history", "HEAD", "--root", q)
+    assert r.returncode == 1 and "the log was rewritten" in r.stdout
+
+
+
+def test_a_deleted_card_or_log_and_a_log_line_of_the_wrong_kind_are_said_t7b(tmp_path):
+    """Review 88's B12: a card file or the sighting log deleted along the queue's history is reported; B22: a line with a
+    time that is not text, or a branch that is a list, is said and does not stop the reading"""
+    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
+                                  capture_output=True, text=True, check=True).stdout
+    g("init", "-q", "-b", "queue")
+    (tmp_path / "queue" / "cards").mkdir(parents=True)
+    (tmp_path / "queue" / "SIGHTINGS.jsonl").write_text("a\n", encoding="utf-8")
+    (tmp_path / "queue" / "cards" / "Q0007.json").write_text('{"id": "Q0007", "history": []}', encoding="utf-8")
+    g("add", "-A")
+    g("commit", "-q", "-m", "one")
+    g("rm", "-q", "queue/cards/Q0007.json", "queue/SIGHTINGS.jsonl")
+    g("commit", "-q", "-m", "both deleted")
+    bad = CU.history_problems(tmp_path, "HEAD")
+    assert any("Q0007.json is deleted at" in b for b in bad) and any("SIGHTINGS.jsonl is deleted at" in b for b in bad)
+    ok = {"at": "2026-11-26T12:00:00Z", "branch": "seat/a", "commit": "a" * 40, "path": "x.py", "blob": "b" * 40,
+          "what": "script"}
+    text = "\n".join(json.dumps(e) for e in (dict(ok, at=5), dict(ok, branch=["x"]), dict(ok, path="../x"), ok)) + "\n"
+    entries, bad = CU.read_log(text)
+    assert len(entries) == 1 and len(bad) == 3, bad

@@ -3,9 +3,10 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "THE BRAINSTORM VERDICT (2026-10-16), read by main line by line (harvest row 1977): line 55 (main's S_THE_PUSH_BACK is the step against its pull-back, its title) and line 57 ('the end cutoff still supplies the smallness', in that note)",
- "note": "",
+ "note": "ADDED 2026-11-27 (harvest row 2042; the seat's section 35.4 (a)): line 65, the commutator [[5, -6], [6, -7]] of a = LR and b = RL, trace -2, fixing 1: with the seat's L = [[1, 0], [1, 1]] and R = [[1, 1], [0, 1]] (arena_checks.py, 04286891a, line 11) it is a b a^-1 b^-1 exactly, recomputed on main (checks/web_trace_notes_t3_convention.py; with main's transposes it is the inverse, the check's control).",
  "units": [
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:55",
-  "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:57"
+  "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:57",
+  "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:65"
  ]
 }

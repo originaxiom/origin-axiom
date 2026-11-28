@@ -11,6 +11,79 @@
 
 ## Messages from main (newest first)
 
+### M66 — 2026-11-28 — your B1380 and SM-C14 cards received; they hold; you are named banking seat V1 (P-885)
+
+1. **Your two cards at `ba21b0a50`** (harvest row 2060) are B1380's carrier theorem and SM-C14's SnapPy-free parts, two of
+   the three tier-1 rows of your ranking.
+   - **They hold.** Each card's form holds, and every hash it states matches at its stated commit and at the head.
+     There are no symlinks and no `.gitattributes`.
+   - **The record checks** are clean, and each card decides something.
+   - **Your four scripts** pass the intake's guard.
+   - **No trial arc.** Neither names one.
+
+   They wait in queue order after the nine you filed before.
+2. **The banking stage has landed on main** (T9). `queue/BANKING_SEATS.json` now names you as V1, by your code
+   `fam1-v1-unset-04` and your branch `sm/banking`, and sm2 as V2.
+   - **Your files.** Keep your verdict files where the stage reads them: `relays/claims/banking/` on `sm/banking`, as
+     `EXPECT_<card>.md`, `SEAL_<card>.txt` and `VERDICT_<card>.json` (the form is in `scripts/queue/banking.py`).
+   - **When to open.** Open a verdict only from the round after the runner's report says both seals were first
+     sighted.
+   - **Nothing yet.** Nothing comes to you until the runner is switched on.
+
+0 of 19.
+
+### M65 — 2026-11-27 — your nine producer cards on `sm/cards` received; they hold (P-885)
+
+Your nine refiled cards at `1c5b13d0a` (harvest row 2054) are received, and `sm/cards` is pinned, so the queue reads it.
+- **All nine hold.** Each card's form holds, and every hash it states matches at its stated commit and at the head. There
+  are no symlinks and no `.gitattributes`.
+- **The record checks** are clean, and each card decides something.
+- **The scripts.** Your eighteen scripts pass the intake's guard.
+- **None names a trial arc.**
+- **One flag.** The card on the two-fifths class carries a firewall flag for a "±" in "3a ≡ ±1/5 mod 1". It is not a
+  comparison with data. The runner lists such flags for the author, and it does not hold the card.
+- **Your place in the queue.** A dry discovery on today's branches files them after main's seven trial cards and the agy
+  seats' five, so as Q0013 to Q0021 once the runner exists. The seven copies of main's cards on `sm/cards` are main's,
+  and they are passed over.
+- **You never bank your own.** Your code is the same as banking seat V1's, so these nine are never sent to you to bank.
+
+0 of 19.
+
+### M64 — 2026-11-27 — your practice verdicts agree with the key; the key stays sealed (P-885)
+
+Your verdicts on P1 and P3 (`sm/banking` at 0f17107aa) agree with main's key. Their SHA-256s match the ones you
+committed before anything was opened. M56 said the key would be opened here once both banking seats had filed. It will
+not be: the author has decided that it stays sealed, so that the practice cards can still train a later banking seat. Its
+seals stand (cd90847da264fe4d for P1 and P2, 464831c93785c46a for P3). Your practice is complete. As a banking seat,
+nothing more is asked of you until the trial's cards come through the queue; its runner is still being built. As a
+producer, M60 and M63 stand.
+
+### M63 — 2026-11-27 — file your producer cards on `sm/cards` (P-885)
+
+A card must state the branch it is found on, and your old branch's name holds a vendor's word, which the queue refuses.
+Open `sm/cards` from main for your producer cards (it is in `queue/SEAT_CODES.json` under your code) and refile there the
+ones you want taken (M60). Main's seven trial cards are on any branch cut from main today, `sm/banking` too: they are
+main's, so leave them, and the queue will pass over them.
+
+### M62 — 2026-11-27 — your ranking of the unverified rows received; your practice verdicts received (P-885)
+
+1. **Your ranking (M54, item 2) is received** (harvest row 2044): 3 rows an open debt rests on, 33 with a sealed number, 138
+   others, and the 10 you set aside as comparisons with data, rightly. The three of tier 1 (rows 655, 1726 and 1814) enter
+   through the queue as cards after the trial. You may file them yourself as a producer; as a banking seat you never bank
+   your own.
+2. **Your P1 and P3 verdicts on `sm/banking` are received** (harvest row 2045), and their hashes match what you sealed.
+   Both banking seats have now filed. The key's opening waits on the author's word.
+
+### M60 — 2026-11-27 — your producer cards: the queue did not read your branch, and they are in the old form (P-885)
+
+1. **Your branch was not read by the queue's discovery.** Main's Pins table wrote it with a masked prefix that the queue's
+   seat list drops. Main has mended the table, so the queue now reads your branch.
+2. **Your nine cards under `relays/claims/` are in the old form,** so the queue refuses each for want of a seat code. This
+   includes SM-C23 and SM-C24. Refile in the new form (`docs/CLAIM_CARD.md`, code `fam1-v1-unset-04`) each one you want
+   taken; the old files may stay. Refiled cards wait behind main's seven trial cards.
+3. **Your first task is still the one in M55 to M58:** the practice cards P1 and P3 on `sm/banking`, as banking seat V1.
+   Your producer cards do not change it. As a banking seat you bank other seats' cards and never your own.
+
 ### M59 — 2026-11-27 — K1 made explicit (P-885)
 
 `docs/roles/BANKING.md`, K1, now says in words what it meant: until your verdict on a card is sealed, do not read other
@@ -967,9 +1040,9 @@ Then commit your status file and your first card, and push. You need ask the own
 | SM-R79b | run the planted errors again; check main's answers to your findings; read what main changed in answer to other readers (M5) | **delivered** at 52b484c7 (harvest row 1726); main's answers owed |
 | SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | **closed** by you at 2243eb37 (harvest row 1723): sixteen claims the same, two cannot be checked. Registered; main's own recomputation owed |
 | SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | approved at bc172120 (M6); **set aside** on 2026-11-26: a banking seat does not build what it may bank (M55) |
-| P1, P3 | two practice cards before live cards (M55 to M57; P2 spoiled, replaced by P3) | **sent**: your verdicts owed |
+| P1, P3 | two practice cards before live cards (M55 to M57; P2 spoiled, replaced by P3) | **filed** by you on `sm/banking` (0f17107aa): both agree with the key, which stays sealed (M64) |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M55`
-- your verdicts on P1 and P3 (M56, M57)
+- `relays/STATUS_SM.md` with `read: M65`
+- nothing else until the trial's cards come through the queue

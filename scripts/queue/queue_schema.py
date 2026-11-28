@@ -45,19 +45,22 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 CARDS = "queue/cards"
 
 STATUSES = ("FILED", "RETURNED_AT_INTAKE", "REPRODUCED", "OFFERED", "PEERED", "AT_BANKING",
-            "SPLIT", "VERIFIED", "RETURNED", "REFUSED", "WITHDRAWN")
+            "SPLIT", "VERIFIED", "RETURNED", "REFUSED", "WITHDRAWN", "NOT_BANKED")
 # CHANGED 2026-11-26 (T1b, main's M56): a peer's note no longer sends a card back (PEERED -> RETURNED is gone: the peer
 # stage is timed, not a gate); WITHDRAWN is a move from any status that is not final, made by the card's own seat alone.
+# CHANGED 2026-11-27 (T7b, main's M64 item 10; Review 88's A7, B19, C19): REPRODUCED -> AT_BANKING is gone, so no card
+# skips the peer offer; "no peer check" is OFFERED -> AT_BANKING, with a note. A card that decides nothing ends at
+# NOT_BANKED after its peer stage (PEERED, or OFFERED past the time), the runner's move.
 MOVES = {
     "FILED": ("REPRODUCED", "RETURNED_AT_INTAKE", "WITHDRAWN"),
-    "REPRODUCED": ("OFFERED", "AT_BANKING", "WITHDRAWN"),    # a card that decides nothing goes to the peers only
-    "OFFERED": ("OFFERED", "PEERED", "AT_BANKING", "WITHDRAWN"),   # a re-offer; a peer note; no peer within the time
-    "PEERED": ("AT_BANKING", "WITHDRAWN"),                # the peer's note is recorded and the card goes on
+    "REPRODUCED": ("OFFERED", "WITHDRAWN"),
+    "OFFERED": ("OFFERED", "PEERED", "AT_BANKING", "NOT_BANKED", "WITHDRAWN"),   # a re-offer; a note; the time out
+    "PEERED": ("AT_BANKING", "NOT_BANKED", "WITHDRAWN"),   # the peer's note is recorded and the card goes on
     "AT_BANKING": ("VERIFIED", "RETURNED", "REFUSED", "SPLIT", "WITHDRAWN"),
     "SPLIT": ("VERIFIED", "RETURNED", "REFUSED", "WITHDRAWN"),
-    "RETURNED_AT_INTAKE": (), "VERIFIED": (), "RETURNED": (), "REFUSED": (), "WITHDRAWN": (),
+    "RETURNED_AT_INTAKE": (), "VERIFIED": (), "RETURNED": (), "REFUSED": (), "WITHDRAWN": (), "NOT_BANKED": (),
 }
-RUNNER_ONLY = ("FILED", "REPRODUCED", "RETURNED_AT_INTAKE")
+RUNNER_ONLY = ("FILED", "REPRODUCED", "RETURNED_AT_INTAKE", "NOT_BANKED")
 BANKING = ("AT_BANKING", "SPLIT", "VERIFIED", "RETURNED", "REFUSED")
 UNDECIDED_ALLOWED = ("FILED", "RETURNED_AT_INTAKE", "WITHDRAWN")
 MAIN_CODE = "fam1-v1-unset-01"        # main's seat code until the author's identity table exists (main's M57)
@@ -69,6 +72,23 @@ ID = re.compile(r"Q\d{4,}")
 SEAT_CODE = re.compile(r"fam\d{1,2}-v\d{1,2}(?:\.\d{1,2})?-(?:low|medium|high|xhigh|max|unset)-\d{2,3}")
 BY_OTHER = ("runner", "main", "author", "auditor")
 AT = re.compile(r"\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ")
+
+
+def at_ok(value):
+    """a time of the queue: the form, and a real date and time (Review 88's A23: the form alone let a month 13 through)"""
+    if not isinstance(value, str) or not AT.fullmatch(value):
+        return False
+    try:
+        __import__("datetime").datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ")
+        return True
+    except ValueError:
+        return False
+
+
+def branch_ok(value):
+    """a branch's name as discovery records it: no '..' part, no leading '-' or '/', no empty part (A23)"""
+    return isinstance(value, str) and bool(BRANCH.fullmatch(value)) and not value.startswith(("-", "/")) \
+        and all(part not in ("", ".", "..") for part in value.split("/"))
 COMMIT = re.compile(r"[0-9a-f]{40}")
 BRANCH = re.compile(r"[A-Za-z0-9._/-]+")
 CARD_PATH = re.compile(r"relays/claims/CLAIM_[A-Za-z0-9._-]+\.md")
@@ -80,6 +100,8 @@ def code_problems(code, what="seat_code"):
     """what is wrong with a seat code: its form, or a part that reads as a scoreboard code"""
     if not isinstance(code, str) or not SEAT_CODE.fullmatch(code):
         return ["%s %r is not of the form fam<n>-v<n>-<effort>-<nn>" % (what, code)]
+    # Review 88's C24 and B21, answered (main's M64): on a code of the form above this check cannot fire. It stays as a
+    # guard of the form, so that a wider form one day does not let a scoreboard code through unseen.
     if SCOREBOARD.search(code):
         return ["%s %r reads as a code of the inputs scoreboard" % (what, code)]
     return []
@@ -103,7 +125,7 @@ def card_problems(card, name=None, vendor_re=None):
     elif name is not None and name != card["id"]:
         bad.append("id %s stands in the file %s.json" % (card["id"], name))
     bad += code_problems(card["seat_code"])
-    if not isinstance(card["branch"], str) or not BRANCH.fullmatch(card["branch"]):
+    if not branch_ok(card["branch"]):
         bad.append("branch %r is not a branch's name" % (card["branch"],))
     if not isinstance(card["commit"], str) or not COMMIT.fullmatch(card["commit"]):
         bad.append("commit %r is not a full 40-hex commit" % (card["commit"],))
@@ -113,7 +135,7 @@ def card_problems(card, name=None, vendor_re=None):
         bad.append("title is not one line of 1 to 240 characters")
     if card["status"] not in STATUSES:
         bad.append("status %r is not one of the queue's statuses" % (card["status"],))
-    if card["deciding"] not in (True, False, None):
+    if not (card["deciding"] is True or card["deciding"] is False or card["deciding"] is None):      # A11: not 0 or 1
         bad.append("deciding is not true, false or null")
     if not isinstance(card["heavy"], bool):
         bad.append("heavy is not true or false")
@@ -128,11 +150,19 @@ def card_problems(card, name=None, vendor_re=None):
         bad.append("deciding is null past FILED: the intake computes it")
     if card["deciding"] is not True and any(s in BANKING for s in seen):
         bad.append("the card went to banking without deciding anything")
+    if card["deciding"] is not False and "NOT_BANKED" in seen:
+        bad.append("NOT_BANKED is the end of a card that decides nothing")
     if vendor_re is not None:
         text = json.dumps(card, ensure_ascii=False)
         if vendor_re.search(text):
             bad.append("the record names a vendor or a model; a seat is named by its code")
     return bad
+
+
+def own_alias(by, seat_code):
+    """main's M64 item 9 (Review 88's A6, B19, C12): "main" on a card filed under the main seat's code is that card's own
+    seat"""
+    return by == "main" and seat_code == MAIN_CODE
 
 
 def history_problems(history, status, seat_code=None):
@@ -147,7 +177,7 @@ def history_problems(history, status, seat_code=None):
         if not isinstance(e, dict) or sorted(e) != sorted(ENTRY_FIELDS):
             bad.append("history entry %d does not hold exactly %s" % (i, ", ".join(ENTRY_FIELDS)))
             return bad
-        if not isinstance(e["at"], str) or not AT.fullmatch(e["at"]):
+        if not at_ok(e["at"]):
             bad.append("history entry %d: at %r is not YYYY-MM-DDTHH:MM:SSZ" % (i, e["at"]))
         if e["status"] not in STATUSES:
             bad.append("history entry %d: status %r is not one of the queue's statuses" % (i, e["status"]))
@@ -168,10 +198,10 @@ def history_problems(history, status, seat_code=None):
         if b["at"] < a["at"]:
             bad.append("history entry %d goes back in time (%s after %s)" % (i, b["at"], a["at"]))
         if b["status"] == "WITHDRAWN":
-            if b["by"] != seat_code:
+            if b["by"] != seat_code and not own_alias(b["by"], seat_code):
                 bad.append("history entry %d: WITHDRAWN is made by the card's own seat alone, not %r" % (i, b["by"]))
             continue
-        if seat_code is not None and b["by"] == seat_code:
+        if seat_code is not None and (b["by"] == seat_code or own_alias(b["by"], seat_code)):
             bad.append("history entry %d: after FILED the card's own seat makes no move but WITHDRAWN" % i)
         if a["status"] == "AT_BANKING" and b["by"] != "runner":
             bad.append("history entry %d: the banking outcome %s is the runner's, from the sealed verdicts, made by %r"
@@ -215,28 +245,37 @@ def queue_problems(cards, vendor_re=None):
 
 
 def read_dir(path):
-    """the card files of a directory, {name: text}; a directory that is not there holds no cards"""
+    """the card files of a directory, {name: text}; a directory that is not there holds no cards. A file that is not a
+    card's .json, or a folder inside, is a stray (Review 88's A10)"""
     p = pathlib.Path(path)
     if not p.is_dir():
         return {}
-    out = {f.stem: f.read_text(encoding="utf-8") for f in sorted(p.glob("*.json"))}
-    strays = [f.name for f in sorted(p.iterdir()) if f.is_file() and f.suffix != ".json" and f.name != "README.md"]
+    out = {f.stem: f.read_text(encoding="utf-8") for f in sorted(p.glob("*.json")) if f.is_file()}
+    strays = [f.name + ("/" if f.is_dir() else "") for f in sorted(p.iterdir())
+              if f.is_dir() or (f.suffix != ".json" and f.name != "README.md")]
     if strays:
         out["(strays)"] = json.dumps({"strays": strays})
     return out
 
 
 def read_ref(ref, root=ROOT):
-    """the card files on a git ref, {name: text}, read without a checkout"""
-    r = subprocess.run(["git", "ls-tree", "--name-only", "%s:%s" % (ref, CARDS)], cwd=root, capture_output=True,
-                       text=True)
+    """the card files on a git ref, {name: text}, read without a checkout; strays as read_dir reports them (A10)"""
+    r = subprocess.run(["git", "ls-tree", "-z", "%s:%s" % (ref, CARDS)], cwd=root, capture_output=True)
     if r.returncode != 0:
-        raise RuntimeError("the ref %s holds no %s (%s)" % (ref, CARDS, r.stderr.strip()))
-    out = {}
-    for n in r.stdout.split():
-        if n.endswith(".json"):
-            s = subprocess.run(["git", "show", "%s:%s/%s" % (ref, CARDS, n)], cwd=root, capture_output=True, text=True)
-            out[n[:-5]] = s.stdout
+        raise RuntimeError("the ref %s holds no %s (%s)" % (ref, CARDS, r.stderr.decode("utf-8", "replace").strip()))
+    out, strays = {}, []
+    for entry in r.stdout.split(b"\0"):
+        if not entry:
+            continue
+        meta, raw = entry.split(b"\t", 1)
+        kind, name = meta.decode().split()[1], raw.decode("utf-8", "surrogateescape")
+        if kind == "blob" and name.endswith(".json"):
+            s = subprocess.run(["git", "show", "%s:%s/%s" % (ref, CARDS, name)], cwd=root, capture_output=True, text=True)
+            out[name[:-5]] = s.stdout
+        elif name != "README.md":
+            strays.append(name + ("/" if kind == "tree" else ""))
+    if strays:
+        out["(strays)"] = json.dumps({"strays": strays})
     return out
 
 

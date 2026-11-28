@@ -42,11 +42,13 @@ def find_root():
 
 
 def run(src, walks):
-    ns = {"__name__": "__b2014_control__", "__file__": str(walks)}
-    buf = io.StringIO()
-    with contextlib.redirect_stdout(buf):
-        exec(compile(src, str(walks) + " [control]", "exec"), ns)
-    return buf.getvalue()
+    """CHANGED 2026-11-27 (P-885): the text runs as a separate process beside walks.py (control_run.py), not exec'd
+    here, since the intake's guard refuses exec; a run that does not exit 0 raises, and the harness reports a crash"""
+    from control_run import run_changed
+    rc, stdout, stderr = run_changed(walks, src)
+    if rc != 0:
+        raise RuntimeError("the run exited %d: %s" % (rc, (stderr.strip().splitlines() or [""])[-1]))
+    return stdout
 
 
 def decisive(out):
@@ -76,7 +78,6 @@ def main():
     if src.count(GOOD) != 2:
         print("harness error: the walks' definition occurs %d times, expected 2 (walks.py changed?)" % src.count(GOOD))
         return 3
-    sys.path.insert(0, str(walks.parent))
     print("control on %s (up to its S5 block)" % walks.relative_to(walks.parents[3]))
     base_bad, _, _ = decisive(run(src, walks))
     print("(a) unchanged:  the decisive check %s" % ("PASSES" if not base_bad else "FAILS: " + "; ".join(base_bad)))

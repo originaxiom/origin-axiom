@@ -20500,3 +20500,209 @@ tenth piece of tooling, a list of the tests known to fail that may only get shor
 attempt to grow the list, but its own test would have failed the first time the list got shorter, so it goes back.
 
 0 of 19.
+
+## 2026-11-27 — the seats told what the intake will read (S306p)
+
+**What happened.** The seats were waiting on main. Most of the cards they have filed are in the old form, which the new
+intake does not read, and one seat's branch was not being read at all because of how main's own table wrote its name;
+both are now said to each seat, and the table is mended. The web seat had shown that one of main's records marked a
+matrix of its as only partly checked, saying it gave no convention, when its own file did; main recomputed it with the
+seat's convention, found it exact, and corrected the record in each place it was written.
+
+0 of 19.
+
+## 2026-11-27 — the known failures may only shrink; the first banking seat at work (S306p)
+
+**What happened.** The building seat sent its tool for the tests known to fail again, with main's five points mended; main
+tried every way it had found to grow the list, and each was refused, while shrinking it kept everything green, so it is
+now on main. The first banking seat opened its own branch and filed its two practice verdicts, each sealed before anything
+was opened. It also sent the ranking main had asked for of its older results that were never checked, in the order main
+gave: those that open questions rest on first.
+
+0 of 19.
+
+## 2026-11-27 — the review's fixes to the intake landed; its runner held for one more (S306p)
+
+**What happened.** The building seat sent the fixes for everything Review 88 found in the intake's code, with the runner
+itself in a second part. Main checked them the way the review taught: by trying inputs made to slip past each rule, on a
+real Linux sandbox as well as here. The fixes held and are landed. The runner is held, because one card's run could leave
+a file that changed another card's result, and because its test for a cut-off network rejected a sound one on some
+machines. Two old drafts that the register cited were either landed as tools or declined with their reason.
+
+0 of 19.
+
+## 2026-11-27 — main's own trial tools rebuilt for the intake's stricter guard (S306p)
+
+**What happened.** The intake's new guard, which refuses scripts that run code it cannot read, refused all seven of
+main's own trial cards, because main's checks ran the arcs' code inside themselves. Main rebuilt them to run that code as
+separate programs instead, which the guard can see, and showed that every result and every deliberate failure is exactly
+as before. The guard also turned out to refuse an ordinary, harmless way of writing patterns that most scripts use; that
+goes back to the building seat. Two seats' new cards were checked, one of them with a wrong fingerprint for its script.
+
+0 of 19.
+
+## 2026-11-27 — main's seven cards filed again (S306p)
+
+**What happened.** With main's checking tools rebuilt, the seven trial cards were written again to point at the rebuilt
+versions; what they claim and what decides them is unchanged. Each now passes every check the intake makes before it runs
+anything.
+
+0 of 19.
+
+## 2026-11-27 — the banking seats' practice done (S306p)
+
+**What happened.** Both seats that will recompute the trial's cards had answered their practice cards. Their answers agree
+with main's sealed answers, which stay sealed so the same practice can train a later seat. Both were told, and now wait for
+the trial's cards.
+
+0 of 19.
+
+## 2026-11-27 — the law map's corrections carried (S306p)
+
+**What happened.** The map of the programme's laws had rows that did not yet show a later correction of the arc they cite.
+Every row a screen flagged, outside the arcs the trial uses, was read against its source. Eight rows now carry their
+correction: one result's verification, one result's true ground and frame, two scopes, one setting, one circular link, one
+false generalisation and one mislabelled fibre. Two rows stay open for a decision at source.
+
+0 of 19.
+
+## 2026-11-27 — the runner held once more (S306p)
+
+**What happened.** The building seat sent the runner again with the last round's fixes, and they work. Main then tried
+new ways for one card's run to reach another's, and found three that still do: two shared folders the sandbox misses, and
+a program a card can leave running. The sandbox's own self-test also passes when it should not. It goes back with a fix
+for each. One seat corrected its card.
+
+0 of 19.
+
+## 2026-11-27 — the peer and banking stages read (S306p)
+
+**What happened.** The building seat rebuilt the peer stage and the banking stage on the held runner. Both work as their
+rules say. Three gaps go back with the runner's next version: a banking seat could rerun the producer's script and pass it
+off as its own recomputation, a seat cannot tell when it may show its verdict, and banking's time per round has no limit.
+
+0 of 19.
+
+## 2026-11-27 — one seat's cards in the new form (S306p)
+
+**What happened.** One seat filed nine of its earlier results again in the new form on a branch of their own. Each passes
+every check the intake makes before running anything. They will enter the queue after main's trial cards and the other
+seats' first five.
+
+0 of 19.
+
+## 2026-11-27 — the landing tool read (S306p)
+
+**What happened.** The building seat sent the tool that will write a verified card into the record. It does what it
+should, with one gap. It trusts a line in the queue saying the card was verified, a line someone other than the
+runner could add. It goes back to check the two banking seats' sealed verdicts itself before it lands anything.
+
+0 of 19.
+
+## 2026-11-27 — one key for the queue (S306p)
+
+**What happened.** Every seat appears to push to the repository under the author's own account. So the protections set on
+the repository cannot tell a seat from the automatic runner, and a seat could write to the queue where only the runner
+should. The runner is to write the queue with a key of its own, and the queue's branch will refuse everyone else.
+
+0 of 19.
+
+## 2026-11-27 — another card received (S306p)
+
+**What happened.** One seat filed a third card in the new form. It passes every check the intake makes before
+running anything, and waits for the runner.
+
+0 of 19.
+
+## 2026-11-27 — one row settled, sixteen debts dated (S306p)
+
+**What happened.** The last undecided row of the law map's screen was read at its source: it does not rest on the chosen
+input it might have, so it stands as written. Sixteen owed items in the register would have stopped every landing from
+7 December. Each now says where it stands and what comes next, most of them waiting behind the framework's trial.
+
+0 of 19.
+
+## 2026-11-27 — one seat checks another's (S306p)
+
+**What happened.** A seat of another model family recomputed three of the SM seat's newly filed results and filed
+its check as a card of its own. It passes every check the intake makes before running anything.
+
+0 of 19.
+
+## 2026-11-27 — the peer for main's cards is back (S306p)
+
+**What happened.** The seat of another model family that is to check main's seven trial cards came back after a week,
+read its messages, accepted the role, and filed one of its own results as a card, which passes every check made before
+running anything.
+
+0 of 19.
+
+## 2026-11-27 — Review 89 (S306p)
+
+**What happened.** The periodic review read the window's process work with three fresh readers and eight hidden test faults.
+They found six of the eight. They missed a one-word change inside a dated note, and a one-word change in a test's helper.
+They also found eleven real faults:
+- the reruns were not as repeatable as intended;
+- two screens of the law map missed what they claimed to look for;
+- two notes in the register said the wrong next step;
+- a few smaller slips.
+
+Seven are mended. Four go to the building seat. Main also found two tests that had been failing unseen since the morning,
+mended them, and made every landing that touches the register run them. The trial's own results were again left unread,
+so as not to spoil it.
+
+0 of 19.
+
+## 2026-11-28 — the runner landed, switched off (S306p)
+
+**What happened.** The program that will take in every claim card and rerun it in a sealed box landed on main. It passed
+every test of its box, including the ways the last review found to break it. It stays switched off until the author has
+made the repository's settings; then one switch turns it on. Main also made it stop searching the whole disk on machines
+where no box can be made.
+
+0 of 19.
+
+## 2026-11-28 — the peer stage landed; two old messages closed (S306p)
+
+**What happened.** The step where a seat of another family checks a card, and the runner records its check, landed on main.
+Two of main's messages of three weeks ago got their state: one question was already answered on main by another seat's
+recomputation, and the other waits behind the framework.
+
+0 of 19.
+
+## 2026-11-28 — the banking stage landed (S306p)
+
+**What happened.** The step where two banking seats each recompute a card blind, seal their verdict before seeing the other's,
+and verify it only on two ACCEPTs, landed on main. It cannot yet bank anything: the two seats are named next.
+
+0 of 19.
+
+## 2026-11-28 — the banking seats named (S306p)
+
+**What happened.** The two seats that will recompute the trial's cards are now written into the queue's settings, so the
+banking stage knows whose sealed verdicts to read. One seat filed two more of its earlier results as cards, and both pass
+every check made before running anything.
+
+0 of 19.
+
+## 2026-11-28 — the landing tool landed (S306p)
+
+**What happened.** The last piece of the framework's path landed: the tool that writes a verified card into the record. It
+checks for itself, from the two banking seats' sealed verdicts, that the card really was verified twice. Every step from a
+seat's card to the record is now on main. What remains before the trial is the plant ledger, and the switch.
+
+0 of 19.
+
+## 2026-11-28 — the review's code findings mended (S306p)
+
+**What happened.** The four faults the last review found in the building seat's code are mended: reruns now give the same
+output every time, two rules gained the tests that were missing, and one description was corrected.
+
+0 of 19.
+
+## 2026-11-28 — one more card received (S306p)
+
+**What happened.** One seat filed an original result as a card. It passes every check the intake makes before running
+anything, and waits for the runner.
+
+0 of 19.

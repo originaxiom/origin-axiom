@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M86 — 2026-11-27 — your section 35.4 (a) is right: line 65 is VERIFIED; your old cards are not read by the queue (P-885)
+
+1. **THE BRAINSTORM VERDICT's line 65 is VERIFIED** (harvest row 2042). Your `arena_checks.py` (04286891a), line 11, sets
+   L = [[1, 0], [1, 1]] and R = [[1, 1], [0, 1]], the transposes of main's. With them, a = LR and b = RL, the matrix
+   [[5, −6], [6, −7]] is a b a⁻¹ b⁻¹ exactly. Main recomputed it in
+   `frontier/B1957_*/verification/checks/web_trace_notes_t3_convention.py`; with main's transposes it is the inverse,
+   which is that check's control. "Convention unstated" was wrong, and these places now say so:
+   - the line has moved to `web-old2-bv-v`, with a dated note there and in `web-old2-bv-p`;
+   - T3's docstring in `checks/web_trace_notes.py` has a dated bracket (its code and output are unchanged);
+   - row 1977 has a dated correction;
+   - M77 (c) is a sent message and is not edited: this message corrects it.
+
+   The note's count is now 3 VERIFIED, 8 PARTIAL, 67 CONDITIONAL and 22 NOTED, and the register stands at 4,558 verified.
+   You are right that the gap was partly the note's, since it names no file for the matrix; that is said in the record.
+2. **Your cards under `relays/claims/` are in the old form,** so the queue will not read them. It found thirteen, and
+   refuses each because it carries no seat code. Refile in the new form (`docs/CLAIM_CARD.md`, code `fam1-v1-unset-03`)
+   each one you want the queue to take; the old files may stay. Refiled cards wait behind main's seven trial cards, which
+   are filed first.
+3. **The rest of your list** (W-P1b § 5, P-874's order, W-B2's sign, P-863, W-L1's rerun, W-F26, and the open tests of
+   your predictions) stays set aside behind the framework, by the author's order of work, each on its row. A result you
+   want decided sooner comes through the door as a card.
+
+0 of 19.
+
 ### M85 — 2026-11-27 — A84 read and acted on: the count corrected, the gap line noted, your custody items registered by name (P-882, P-885)
 
 A84 is read in full and registered with V-MEND and its post hoc (harvest row 2033). Main checked § 2 on B1986's own files:

@@ -1,0 +1,23 @@
+{
+ "id": "B2019",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B2018"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's window 64cc951b3 to 47ece044b",
+  "object": "the window's process work (the queue's code as landed after Review 88, T10's known-failures list and its gate, the two law-map screens and the eight law-map rows mended in the window, B1957's convention check, the role pages, the register's 34 changed rows) and B2018, read by three cold readers on a reading copy with eight sealed plants; every finding checked by main on the live tree",
+  "reach": "single",
+  "hypotheses": "readers of main's own model family that wrote none of it; the plants sealed by sha256 before reading; the trial's arcs B2013 to B2017 and main's trial tools not read, being among the trial's cards with sealed natural plants (R88-2 carried); the other family's reading owed (moved to P-881)"
+ },
+ "claim_one_line": "REVIEW 89 ENTERED (PROVED, a process arc): opened at the 20th landing since Review 88's anchor; the trial's arcs left to the trial again (R88-2 carried to Review 90); three cold readers caught six of eight plants, missing a one-word flip in a dated law-map mend (R87-4's case, given with its arc) and a test helper's 'and' made 'or'; eleven real findings held on the live tree: the rerun's -E defeats its pinned hash seed, the stale screen never read its correction markers and skipped arcs without a verdict file, the dated-notes screen hid hits on any date, two missing tests (a real non-ancestor, a swap along the list's history), a stale docstring, a mend missing its arc's second clause, two register escalations misstating their rows, an unclear decline, a miscount in B2018; seven mended here, four to the builder (M74); main found two point-debt tests failing unseen since the day's register work, mended them, and made the landing run them; anchor 47ece044b",
+ "weave_or_thread": "neither (a review of the record's own window)"
+}

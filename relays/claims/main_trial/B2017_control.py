@@ -52,24 +52,15 @@ def main():
             return 3
         src = src.replace(old, new)
     print("control: census.py with the whole's form's constant 9 -> 4 (x^2 - 9 -> x^2 - 4; roots +-3 -> +-2)", flush=True)
-    buf = io.StringIO()
-
-    class Tee(io.TextIOBase):
-        def write(self, s):
-            buf.write(s); sys.__stdout__.write(s); return len(s)
-
-        def flush(self):
-            sys.__stdout__.flush()
-
-    g = {"__name__": "__main__", "__file__": str(script)}
-    try:
-        with contextlib.redirect_stdout(Tee()):
-            exec(compile(src, str(script), "exec"), g)
-    except Exception:
-        traceback.print_exc()
-        print("CONTROL INVALID: the perturbed census raised; a crash is not a failing control")
+    # CHANGED 2026-11-27 (P-885): run as a separate process beside the script (control_run.py), not exec'd here: the
+    # intake's guard refuses exec
+    from control_run import run_changed
+    rc, out, stderr = run_changed(script, src)
+    print(out, end="", flush=True)
+    if rc != 0:
+        print("CONTROL INVALID: the perturbed census exited %d (%s); a crash is not a failing control"
+              % (rc, (stderr.strip().splitlines() or [""])[-1]))
         return 3
-    out = buf.getvalue()
     if "over all levels: the orbits in (a) or (a'), by level:" not in out:
         print("CONTROL INVALID: the perturbed census did not reach its last line")
         return 3

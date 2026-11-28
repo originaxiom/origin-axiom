@@ -77,25 +77,39 @@ def build_copy(repo, dest):
     return dest
 
 
+DRIVER = """import json, os, sys, traceback
+import test_b2013_review_87 as L
+lock = os.path.abspath(L.__file__)
+src = open(lock, encoding="utf-8").read().splitlines()
+out = {}
+for name in ("test_plants_sealed", "test_mends_present"):
+    try:
+        getattr(L, name)()
+        out[name] = ["PASS", ""]
+    except AssertionError:
+        tb = [f for f in traceback.extract_tb(sys.exc_info()[2]) if os.path.abspath(f.filename) == lock]
+        ln = tb[-1].lineno if tb else 0
+        out[name] = ["FAIL", ("AssertionError at lock line %d: %s" % (ln, src[ln - 1].strip()[:110])) if ln else "AssertionError"]
+    except Exception as e:
+        out[name] = ["CRASH", "%s: %s" % (type(e).__name__, e)]
+print(json.dumps(out))
+"""
+
+
 def run_lock(text, copy_root):
-    """exec the lock's text with __file__ inside the copy; return {test: ("PASS"|"FAIL"|"CRASH", detail)}."""
+    """the lock's tests run on the copy; return {test: ("PASS"|"FAIL"|"CRASH", detail)}. CHANGED 2026-11-27 (P-885): the
+    lock is imported by a small driver written into the copy and run as a separate process, not exec'd here, since the
+    intake's guard refuses exec and compile; `text` is the lock's hashed text, written into the copy first"""
+    import json, subprocess
     lock_path = arc_dir(copy_root, ARC) / LOCK_REL
-    ns = {"__file__": str(lock_path), "__name__": "b2013_lock_copy"}
-    code = compile(text, str(lock_path), "exec")
-    exec(code, ns)
-    src_lines = text.splitlines()
-    out = {}
-    for name in ("test_plants_sealed", "test_mends_present"):
-        try:
-            ns[name]()
-            out[name] = ("PASS", "")
-        except AssertionError:
-            tb = [f for f in traceback.extract_tb(sys.exc_info()[2]) if f.filename == str(lock_path)]
-            ln = tb[-1].lineno if tb else 0
-            out[name] = ("FAIL", f"AssertionError at lock line {ln}: {src_lines[ln - 1].strip()[:110]}" if ln else "AssertionError")
-        except Exception as e:  # anything else is a crash, never a failing control
-            out[name] = ("CRASH", f"{type(e).__name__}: {e}")
-    return out
+    lock_path.write_text(text, encoding="utf-8")
+    driver = lock_path.with_name("_control_driver.py")
+    driver.write_text(DRIVER, encoding="utf-8")
+    r = subprocess.run([sys.executable, "-B", str(driver)], cwd=str(lock_path.parent), capture_output=True, text=True)
+    if r.returncode != 0 or not r.stdout.strip():
+        return {n: ("CRASH", "the driver exited %d: %s" % (r.returncode, (r.stderr.strip().splitlines() or [""])[-1]))
+                for n in ("test_plants_sealed", "test_mends_present")}
+    return {k: tuple(v) for k, v in json.loads(r.stdout.strip().splitlines()[-1]).items()}
 
 
 def edit(path, old, new):

@@ -44,34 +44,39 @@ def _load(name, path):
 
 
 CF = _load("card_form_for_the_record_check", HERE / "card_form.py")
-SCOREBOARD = re.compile(r"\b(A0[1-9]|A1[0-2]|F[1-4]|S0[1-3]|LAMBDA)\b")
-IDENT = re.compile(r"\bI-\d+\b")
-ROW = re.compile(r"\bP-\d+\b")
 ARC = re.compile(r"\bB(\d{1,4})\b")
 QCARD = re.compile(r"\bQ\d{4,}\b")
-# the 19, by name, as scripts/checks/seat_intake.py reads them
-NINETEEN = re.compile(r"\b(mass|mixing|CKM|PMNS|theta|coupling|Higgs|weak angle|Yukawa|lepton factor)\b", re.I)
-# words of a comparison with data or of a sealed look (A3); a flag, measured by the plants
-FIREWALL = re.compile(r"\b(PDG|Particle Data|CODATA|measured value|experimental(ly)?|observed value|compared? (it )?with "
-                      r"(the )?data|against (the )?data|fit(ted)? to data|sealed look|unseal(ed|ing)?)\b|±", re.I)
+# CHANGED 2026-11-27 (T7b; main's M61 and M64 item 15; Review 88's B11, B18): what a card touches is read by the form's own
+# codes (scripts/queue/card_form.py `codes`): the scoreboard's codes in any case, identification and register rows, the
+# law map's rows, and the 19 by plural and common names too
+# words of a comparison with data or of a sealed look (A3); a flag, measured by the plants. CHANGED 2026-11-27 (M64 item
+# 16; B3's probes): plurals, "compared to data", "comparison with data", "+/-", "agrees with experiment"
+FIREWALL = re.compile(r"\b(PDG|Particle Data|CODATA|measured values?|experimental(ly)?|experiments?|observed values?|"
+                      r"compar(e|ed|es|ing|ison)s? (it |them )?(with|to|against) (the )?(data|experiments?|measurements?)|"
+                      r"against (the )?data|fit(ted|s)? to (the )?data|agree(s|d|ment)? with (the )?"
+                      r"(data|experiments?|measurements?)|sealed look|unseal(ed|ing)?)\b|±|\+/-", re.I)
 STOP = {"which", "their", "there", "these", "those", "about", "under", "every", "after", "before", "between", "within",
         "where", "while", "would", "could", "should", "other", "being", "level", "levels"}
 
 
+WORDS = 6                                         # the title's long words a sweep uses; the rest are said, not used
+
+
 def terms(fields, title):
-    """the runner's sweep terms: (codes and rows and arcs, the title's long words)"""
+    """the runner's sweep terms: (codes and rows and arcs, the title's long words used, the long words left out)"""
     named = fields.get("touches", "") + " " + fields.get("premises on main", "")
-    codes = sorted(set(SCOREBOARD.findall(named)) | set(IDENT.findall(named)) | set(ROW.findall(named))
-                   | {"B%s" % n for n in ARC.findall(named)})
-    words = [w for w in re.findall(r"[A-Za-z][A-Za-z-]{4,}", title) if w.lower() not in STOP]
-    return codes, sorted(set(w.lower() for w in words))[:6]
+    codes = sorted({c for c in CF.codes(named) if not c.startswith("the 19: ")} | {"B%s" % n for n in ARC.findall(named)})
+    words = sorted(set(w.lower() for w in re.findall(r"[A-Za-z][A-Za-z-]{4,}", title) if w.lower() not in STOP))
+    return codes, words[:WORDS], words[WORDS:]
 
 
 def deciding(fields):
+    """true when the card touches a scoreboard code, an identification row, a register row, a law-map row or one of the
+    19, and its effect is not none"""
     touches, effect = fields.get("touches", ""), fields.get("effect", "")
     if touches.strip().lower() == "none" or effect.strip().lower() == "none":
         return False
-    return bool(SCOREBOARD.search(touches) or IDENT.search(touches) or ROW.search(touches) or NINETEEN.search(touches))
+    return bool(CF.codes(touches))
 
 
 def _run(root, *argv):
@@ -110,18 +115,33 @@ def retracted(root, fields, text):
                 out["premises"].append("B%s is RETRACTED" % n)
             if d.get("superseded_by"):
                 out["premises"].append("B%s is superseded by %s" % (n, d["superseded_by"]))
-    rs = _load("retraction_sweep_for_the_record_check", pathlib.Path(root) / "scripts" / "checks" / "retraction_sweep.py")
     registry = pathlib.Path(root, "docs", "RETRACTED_PHRASES.md")
-    if registry.is_file():
+    if registry.is_file():                            # B24: the sweep is loaded only where its registry stands
+        rs = _load("retraction_sweep_for_the_record_check", pathlib.Path(root) / "scripts" / "checks" / "retraction_sweep.py")
         low = text.lower()
         out["phrases"] = [p for p in rs.phrases_in(registry.read_text(encoding="utf-8")) if p and p.lower() in low]
     return out
 
 
+def arc_cards(queue, n):
+    """the queue's cards that are the record's arc B<n> entering as a card (main's arcs in the trial): a card of main's own
+    seat whose title opens with the arc's id, or whose card's name holds it (main's M61)"""
+    out = []
+    for cid, r in sorted(queue.items()):
+        title, path = r.get("title", ""), r.get("card_path", "")
+        if r.get("seat_code") == CF.QS.MAIN_CODE and (re.match(r"B%d\b" % n, title) or "_B%d_" % n in path):
+            out.append(cid)
+    return out
+
+
 def waits_on(fields, queue):
-    """D6: the queue's cards among the premises that are not VERIFIED (a card the queue does not hold is waited on too)"""
-    named = sorted(set(QCARD.findall(fields.get("premises on main", ""))))
-    return [q for q in named if (queue.get(q) or {}).get("status") != "VERIFIED"]
+    """D6: the queue's cards among the premises that are not VERIFIED (a card the queue does not hold is waited on too),
+    and, for a premise arc that has its own card in the queue, that card until it is VERIFIED (main's M61)"""
+    premises = fields.get("premises on main", "")
+    named = set(QCARD.findall(premises))
+    for n in set(ARC.findall(premises)):
+        named |= set(arc_cards(queue, int(n)))
+    return [q for q in sorted(named) if (queue.get(q) or {}).get("status") != "VERIFIED"]
 
 
 def firewall(text):
@@ -131,8 +151,8 @@ def firewall(text):
 def check(root, card_text, queue=None):
     """the attachment for one card"""
     title, fields, _ = CF.read(card_text)
-    codes, words = terms(fields, title or "")
-    return {"terms": {"codes": codes, "words": words},
+    codes, words, left = terms(fields, title or "")
+    return {"terms": {"codes": codes, "words": words, "words_left_out": left},
             "producer_sweep": fields.get("already on main?", ""),
             "topic": topic(root, codes, words),
             "banked": banked(root, words),

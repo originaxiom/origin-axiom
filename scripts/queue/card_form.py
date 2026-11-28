@@ -14,6 +14,7 @@ Exit 0 when every card's form holds, 1 when one does not."""
 import importlib.util
 import pathlib
 import re
+import shlex
 import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -37,7 +38,37 @@ KINDS = ("theorem", "computation", "prediction", "identification", "negative")
 EFFECTS = ("removes", "conditions", "adds", "supports", "refutes")
 # the packages a decisive script may depend on: the card's list, and python-flint, sage and GAP (main's change, § 9);
 # their pinned versions are the rerun's (T5)
-ALLOWED = ("the standard library", "mpmath", "sympy", "numpy", "scipy", "python-flint", "sage", "GAP")
+# T7b (Review 88's A3): read from ALLOWED_PACKAGES.json, the rerun's own list, so that the two cannot drift apart
+_PINS = __import__("json").loads((HERE / "ALLOWED_PACKAGES.json").read_text(encoding="utf-8"))
+ALLOWED = ("the standard library",) + tuple(_PINS["packages"]) + tuple(_PINS["heavy"])
+# what a card can touch, read the same way by the form and by the record check (T7b; Review 88's B10, B11, B18, A14 and
+# main's M61): the scoreboard's codes in any case, identification rows, register rows, the law map's rows (named in
+# capitals with their number, "LISTENING 26"), and the 19 by name, plural and common names among them
+SCOREBOARD = re.compile(r"\b(A0[1-9]|A1[0-2]|F[1-4]|S0[1-3]|LAMBDA)\b", re.I)
+IDENT = re.compile(r"\bI-\d+\b")
+ROW = re.compile(r"\bP-\d+\b")
+LAW_ROW = re.compile(r"\b[A-Z][A-Z-]{3,} \d{1,4}\b")
+NINETEEN = re.compile(r"\b(masse?s?|mixings?|CKM|PMNS|thetas?|couplings?|Higgs|(weak|Weinberg|mixing|Cabibbo) angles?|"
+                      r"Yukawas?|lepton factors?|CP phases?|fine[- ]structure|strong coupling)\b", re.I)
+
+
+def codes(text):
+    """the codes a text names, as one set of normalised names"""
+    out = {c.upper() for c in SCOREBOARD.findall(text)} | set(IDENT.findall(text)) | set(ROW.findall(text)) \
+        | set(LAW_ROW.findall(text))
+    out |= {"the 19: " + _singular(m.group(0)) for m in NINETEEN.finditer(text)}
+    return out
+
+
+def _singular(name):
+    w = " ".join(name.lower().split())
+    if w.endswith("masses"):
+        return w[:-2]
+    if w.endswith("s") and not w.endswith(("higgs", "mass")):
+        return w[:-1]
+    return w
+
+
 FIELD_LINE = re.compile(r"- ([a-z ,?]+):(.*)$")
 CARD_ID = re.compile(r"new|refiles (Q\d{4,})")
 HEX16 = re.compile(r"SHA-256 ([0-9a-f]{16})\b")
@@ -47,6 +78,13 @@ SCRIPT = re.compile(r"(\S+\.(?:py|sage|g|gap)), SHA-256 [0-9a-f]{16}, depends on
                     r"[0-9a-f]{16}(, heavy)?\s*$")
 
 
+def _argv(cmd):
+    try:
+        return shlex.split(cmd)
+    except ValueError:
+        return None
+
+
 def declared_heavy(fields):
     m = SCRIPT.match(fields.get("decisive script", ""))
     return bool(m and m.group(4))
@@ -54,7 +92,7 @@ def declared_heavy(fields):
 
 def scope_problems(scope):
     """the scope: 'frame: ...; object: ...; reach: single | class | general; hypotheses: ...', each part filled"""
-    parts = [p.strip() for p in scope.split(";")]
+    parts = [p.strip() for p in scope.split(";", 3)]            # the hypotheses may themselves hold ";" (A21)
     keys = [p.split(":", 1)[0].strip() for p in parts]
     if tuple(keys) != SCOPE_PARTS or any(":" not in p or not p.split(":", 1)[1].strip() for p in parts):
         return ["scope is not 'frame: <...>; object: <...>; reach: <single, class or general>; hypotheses: <...>'"]
@@ -82,7 +120,9 @@ def read(text):
             current = None
         elif line.strip() and current:
             fields[current] = (fields[current] + " " + line.strip()).strip()
-        elif not line.strip():
+        elif line.strip():                                # A21: a line outside any field is said, not dropped
+            bad.append("a line stands outside any field: %r" % line.strip()[:80])
+        else:
             current = None
     return title, fields, bad
 
@@ -118,12 +158,22 @@ def form_problems(text):
         bad.append("the card touches none, so its effect is not none: an effect names a code it touches")
     elif f["effect"].split(" ")[0] not in EFFECTS or " — " not in f["effect"]:
         bad.append("effect does not open with one of %s and name its code after ' — '" % ", ".join(EFFECTS))
+    else:                                                 # A14, B10: the effect's codes are codes the card touches
+        outside = sorted(codes(f["effect"].split(" — ", 1)[1]) - codes(f["touches"]))
+        if outside:
+            bad.append("the effect names what the card does not touch: %s" % ", ".join(outside))
     bad += scope_problems(f["scope"])
     m = SCRIPT.match(f["decisive script"])
     if not m:
         bad.append("decisive script is not '<path>, SHA-256 <16 hex>, depends on <...>, run as <command>, output "
                    "SHA-256 <16 hex>'")
     else:
+        path = m.group(1)
+        if path.startswith("/") or ".." in path.split("/"):
+            bad.append("the decisive script's path %r leaves the commit" % path)
+        run = _argv(m.group(3))
+        if not run or len(run) < 2 or run[1] != path:
+            bad.append("'run as' does not run the declared script %s" % path)
         deps = [d.strip() for d in re.split(r",| and ", m.group(2)) if d.strip()]
         outside = [d for d in deps if d not in ALLOWED]
         if outside:
@@ -132,7 +182,7 @@ def form_problems(text):
     if not d or int(d.group(1)) < 1:
         bad.append("decisive lines is not '<n> lines marked \"DECISIVE:\", SHA-256 <16 hex>' with n of one or more")
     control = f["failing control"]
-    if m and control == m.group(3).strip():
+    if m and _argv(control) and _argv(control) == _argv(m.group(3)):       # A12: compared as commands, not as strings
         bad.append("the failing control is the decisive command itself")
     if len(control.split()) < 2:
         bad.append("the failing control is not a command")

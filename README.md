@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.69) of 2026-11-14 |
-| arcs with a verdict | 1715: 1208 PROVED, 388 NEGATIVE, 106 OPEN, 13 RETRACTED |
+| arcs with a verdict | 1716: 1209 PROVED, 388 NEGATIVE, 106 OPEN, 13 RETRACTED |
 | points in the register | 885: 311 open (queued work, leads, and questions not yet decided), 574 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | 2026-11-27; its entry heads `CHANGELOG.md` (the working record) |
+| the last landing | 2026-11-28; its entry heads `CHANGELOG.md` (the working record) |
 <!-- STATE:END -->
 
 ## Start here

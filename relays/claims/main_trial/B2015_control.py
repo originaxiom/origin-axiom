@@ -93,18 +93,16 @@ def main():
         src = src.replace(old, new)
     print("CONTROL: rate_law.py (SHA-256 %s) run with M -> M + 1 in the law (val and the minimal polynomial of cos(pi/M)); "
           "the labels 'M = ...' and 'cos(pi/M)' below still print the unshifted M" % SHA16, flush=True)
-    buf = Tee()
-    old_out = sys.stdout; sys.stdout = buf
-    try:
-        exec(compile(src, str(script), "exec"), {"__file__": str(script), "__name__": "__b2015_control__"})
-    except Exception:
-        sys.stdout = old_out
-        traceback.print_exc()
-        print("CRASH: the changed script raised; this is not a failing control"); return 3
-    finally:
-        sys.stdout = old_out
+    # CHANGED 2026-11-27 (P-885): run as a separate process beside the script (control_run.py), not exec'd here: the
+    # intake's guard refuses exec
+    from control_run import run_changed
+    rc, stdout, stderr = run_changed(script, src)
+    print(stdout, end="", flush=True)
+    if rc != 0:
+        print("CRASH: the changed script exited %d (%s); this is not a failing control"
+              % (rc, (stderr.strip().splitlines() or [""])[-1])); return 3
     print("criteria on the changed run:")
-    ok = report(buf.getvalue())
+    ok = report(stdout)
     if ok:
         print("CONTROL DOES NOT FAIL: the decisive claim comes out under M -> M + 1 (the check cannot tell the law from its shift)")
         return 0

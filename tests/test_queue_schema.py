@@ -124,8 +124,8 @@ def test_a_seat_code_never_reads_as_a_scoreboard_code():
 def test_every_status_has_its_moves_and_a_returned_card_never_moves():
     assert set(QS.MOVES) == set(QS.STATUSES)
     assert all(set(v) <= set(QS.STATUSES) for v in QS.MOVES.values())
-    for end in ("RETURNED_AT_INTAKE", "RETURNED", "REFUSED", "VERIFIED"):
-        assert QS.MOVES[end] == ()
+    for end in ("RETURNED_AT_INTAKE", "RETURNED", "REFUSED", "VERIFIED", "WITHDRAWN", "NOT_BANKED"):
+        assert QS.MOVES[end] == ()                    # Review 88's A20: WITHDRAWN and NOT_BANKED final too
 
 
 def test_the_command_runs_by_hand_on_a_directory_and_on_a_ref(tmp_path):
@@ -176,13 +176,63 @@ def test_who_may_move_a_card_t1b():
     assert any("WITHDRAWN is made by the card's own seat alone" in b for b in _moved(("WITHDRAWN", "main")))
     assert any("WITHDRAWN to OFFERED is not a move" in b for b in _moved(("WITHDRAWN", own), ("OFFERED", "main")))
     assert any("the card's own seat makes no move but WITHDRAWN" in b for b in _moved(("OFFERED", own)))
-    assert any("the banking outcome VERIFIED is the runner's" in b for b in _moved(("AT_BANKING", "runner"), ("VERIFIED", "main")))
-    assert _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main")) == []
+    assert any("the banking outcome VERIFIED is the runner's" in b for b in _moved(("OFFERED", "author"), ("AT_BANKING", "runner"), ("VERIFIED", "main")))
+    assert _moved(("OFFERED", "author"), ("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main")) == []
     assert any("settled by main, not 'author'" in b for b in
-               _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "author")))
-    assert _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("REFUSED", "auditor"), seat=main) == []
+               _moved(("OFFERED", "author"), ("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "author")))
+    assert _moved(("OFFERED", "author"), ("AT_BANKING", "runner"), ("SPLIT", "runner"), ("REFUSED", "auditor"), seat=main) == []
     assert any("a split on main's own card is settled by auditor or author" in b for b in
-               _moved(("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main"), seat=main))
+               _moved(("OFFERED", "author"), ("AT_BANKING", "runner"), ("SPLIT", "runner"), ("VERIFIED", "main"), seat=main))
     assert any("deciding is null past FILED" in b for b in _moved(("OFFERED", "main"), deciding=None))
-    assert any("went to banking without deciding" in b for b in _moved(("AT_BANKING", "runner"), deciding=False))
+    assert any("went to banking without deciding" in b for b in _moved(("OFFERED", "author"), ("AT_BANKING", "runner"), deciding=False))
     assert _moved(("OFFERED", "main"), deciding=False) == []
+
+
+
+def test_review_88s_rules_on_the_queue_t7b():
+    """main's M64, items 9, 10, 20 and 27, each planted"""
+    own, main = "fam2-v5.5-high-01", QS.MAIN_CODE
+    # 10: no card skips the peer offer; a card that decides nothing ends at NOT_BANKED, by the runner
+    assert any("REPRODUCED to AT_BANKING is not a move" in b for b in _moved(("AT_BANKING", "runner")))
+    assert _moved(("OFFERED", "author"), ("NOT_BANKED", "runner"), deciding=False) == []
+    assert _moved(("OFFERED", "author"), ("PEERED", "fam3-v1-max-01"), ("NOT_BANKED", "runner"), deciding=False) == []
+    assert any("NOT_BANKED is the end of a card that decides nothing" in b
+               for b in _moved(("OFFERED", "author"), ("NOT_BANKED", "runner"), deciding=True))
+    assert any("NOT_BANKED is the runner's move" in b for b in _moved(("OFFERED", "author"), ("NOT_BANKED", "main"),
+                                                                      deciding=False))
+    # 9: "main" on main's own card is that card's own seat
+    assert any("makes no move but WITHDRAWN" in b for b in _moved(("OFFERED", "main"), seat=main))
+    assert _moved(("OFFERED", "author"), ("WITHDRAWN", "main"), seat=main) == []
+    assert _moved(("OFFERED", "main"), seat=own) == []
+    # 20: deciding is true, false or null, never 0 or 1; a branch has no '..' and no leading '-'; a time is a real one
+    for value in (0, 1):
+        card = copy.deepcopy(TWIN)
+        card["deciding"] = value
+        assert any("deciding is not" in b for b in QS.card_problems(card, "Q0007")), value
+    for branch in ("../main", "-x", "a//b", "seat/../main", "/abs"):
+        assert any("not a branch's name" in b for b in QS.card_problems(dict(copy.deepcopy(TWIN), branch=branch), "Q0007"))
+    card = copy.deepcopy(TWIN)
+    card["history"][0]["at"] = "2026-13-01T00:00:00Z"
+    assert any("is not YYYY-MM-DD" in b for b in QS.card_problems(card, "Q0007"))
+    # 27: the moves of the final statuses, and who may make a move, are read
+    assert set(QS.BY_OTHER) == {"runner", "main", "author", "auditor"}
+
+
+
+def test_strays_and_folders_are_reported_on_a_directory_and_on_a_ref_t7b(tmp_path):
+    """Review 88's A10: read_ref reported no strays where read_dir did, and both passed over a folder inside"""
+    d = tmp_path / "queue" / "cards"
+    (d / "inner").mkdir(parents=True)
+    (d / "Q0007.json").write_text(json.dumps(TWIN), encoding="utf-8")
+    (d / "notes.txt").write_text("x", encoding="utf-8")
+    (d / "inner" / "Q0008.json").write_text(json.dumps(TWIN), encoding="utf-8")
+    on_disk = QS.read_dir(d)
+    assert json.loads(on_disk["(strays)"])["strays"] == ["inner/", "notes.txt"]
+    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
+                                  capture_output=True, text=True, check=True)
+    g("init", "-q")
+    g("add", "-A")
+    g("commit", "-q", "-m", "a queue")
+    on_ref = QS.read_ref("HEAD", root=tmp_path)
+    assert json.loads(on_ref["(strays)"])["strays"] == ["inner/", "notes.txt"]
+    assert any("not cards: inner/, notes.txt" in b for b in QS.queue_problems(on_ref))

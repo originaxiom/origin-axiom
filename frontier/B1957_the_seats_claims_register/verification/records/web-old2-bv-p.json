@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "PARTIAL",
  "how": "lines in part on main's record or main's check: 48 (P-177 and the note named), 53 (the phrase is in main's archived note, in a passage it records), 56 ('never at rest' is the note's; 'elliptic fixed points' is not), 64 (traces 3, 3, 6: T2), 65 (trace -2, fixing 1: T3; its matrix is the inverse of a b a^-1 b^-1, convention unstated), 75 (#R - #L = 3 - t: T4), 82 (the zeros at omega, B1657), 100 (2 pi 7/4: T1), 109 (B1654's L a cutoff)",
- "note": "",
+ "note": "CORRECTED 2026-11-27 (harvest row 2042; the seat's section 35.4 (a)): line 65 left this record for web-old2-bv-v. The reason this record's 'how' gives for it, 'its matrix is the inverse of a b a^-1 b^-1, convention unstated', was wrong: the seat's arena_checks.py (04286891a, line 11) states L = [[1, 0], [1, 1]] and R = [[1, 1], [0, 1]], and with them the matrix is a b a^-1 b^-1 exactly (checks/web_trace_notes_t3_convention.py). The note itself names no file for the matrix, as the seat says.",
  "units": [
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:100",
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:109",
@@ -11,7 +11,6 @@
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:53",
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:56",
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:64",
-  "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:65",
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:75",
   "web:chat1_2026-10-16_verdict/THE_BRAINSTORM_VERDICT:82"
  ]
