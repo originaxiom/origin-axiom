@@ -5,7 +5,7 @@
  "commit": "241bc7f643bedb509959e7ad84dd27e879ee6cf0",
  "card_path": "relays/claims/CLAIM_2026-11-27_a2_p629_veff_modulus_boson_fermion_stabilization_and_ewsb_majorana.md",
  "title": "Full boson plus fermion SL(2, Z) effective potential V_eff(tau) phase diagram over F and zero-sculpting non-conformal radiative EWSB and Majorana unfolding across canonical vacua (0 of 19)",
- "status": "OFFERED",
+ "status": "AT_BANKING",
  "deciding": true,
  "heavy": false,
  "refiles": [],
@@ -27,6 +27,18 @@
    "status": "OFFERED",
    "by": "runner",
    "note": "offered to fam2-v1-unset-01 on audit/physical-bridge-2026-09-05 (queue/OFFERS.json)"
+  },
+  {
+   "at": "2026-11-28T17:05:17Z",
+   "status": "PEERED",
+   "by": "runner",
+   "note": "the peer note on audit/physical-bridge-2026-09-05 at 508603341: fault, graded re-derived; a check from another family"
+  },
+  {
+   "at": "2026-11-28T17:05:17Z",
+   "status": "AT_BANKING",
+   "by": "runner",
+   "note": "to banking after the peer's note"
   }
  ]
 }
