@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M82
+read: M83
 state: working, on /loop (M79 point 4)
-on: THE OFFERS TOOL LANDED (M82). WATCHING THE ROUNDS: run 46146125769 (queue at 332871e84) holds but for one stuck state, sent at once (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_ROUND_WATCH): Q0006 (B2016) and Q0036 are FILED and heavy, passed over by every round with no line said, and since M73 no heavy result from the author's machine can reach the queue's branch, so they cannot leave FILED; Q0007 and the cards waiting on it wait with them
-needs: your ruling on how a heavy card's result reaches the queue (the note's shape 1: the author's result file on main, checked and moved by the runner)
-next push: shape 1 at your word; R82-2 v2 (M53) once a round passes with nothing to mend
+on: TWO PATCHES SENT at your M83, on your 2ad50a0da (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M83_THE_HEAVY_PATH_AND_THE_NEXT_ROUND, each tree as built on a clean checkout): 0001 the heavy path (rerun.py --heavy-result on the author's machine writes queue/heavy/<id>.json; each round checks a landed file against the card and moves it, or returns it; each round names the heavy cards still waiting; another seat's card only with --author-allows); 0002 the rounds dispatch the next (the round's last line; a third job holding only actions: write). 60 gates on each, all green
+needs: nothing to go on; Q0036 needs the author's word
+next push: the rounds watched; R82-2 v2 (M53) once a round passes with nothing to mend
 
 # cld-advisor — status
 

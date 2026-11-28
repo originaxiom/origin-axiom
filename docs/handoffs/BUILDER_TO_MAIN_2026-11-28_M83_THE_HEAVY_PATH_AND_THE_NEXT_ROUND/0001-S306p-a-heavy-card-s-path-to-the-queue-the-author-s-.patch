@@ -1,0 +1,557 @@
+From 6c634c0ef050be62e5c51f441f2a8265bc4793cb Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 14:17:33 +0000
+Subject: [PATCH 1/2] S306p a heavy card's path to the queue: the author's
+ result file, checked and moved by the runner (the framework's thin path;
+ P-885; main's M83): rerun.py --heavy-result reruns a heavy card on the
+ author's machine at its sealed commit with the caller's PATH and writes
+ queue/heavy/<id>.json, another seat's card only with --author-allows; each
+ round checks a landed result against the card and moves it to REPRODUCED or
+ RETURNED_AT_INTAKE, and says which heavy cards still wait; tests fail with
+ each rule removed
+
+---
+ CHANGELOG.md                   |  17 ++++
+ PROGRESS_LOG.md                |  10 +++
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ queue/README.md                |  14 +++
+ scripts/queue/intake.py        |  72 +++++++++++++++-
+ scripts/queue/rerun.py         |  87 ++++++++++++++++---
+ tests/test_queue_heavy.py      | 150 +++++++++++++++++++++++++++++++++
+ 8 files changed, 340 insertions(+), 15 deletions(-)
+ create mode 100644 tests/test_queue_heavy.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 42d663338..5d053e212 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,22 @@
+ # Changelog
+ 
++## S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)
++
++- **`scripts/queue/rerun.py --heavy-result Q<nnnn> --queue-dir DIR`,** on the author's machine: reruns a heavy card at its
++  sealed commit with no wrap and the caller's PATH, so that sage and GAP are found, and writes `queue/heavy/<id>.json`:
++  the card's id, branch, path and sealed commit, its decisive script and hash, its decisive lines' count and hash, the
++  control's exit, the guard, the interpreter's, the packages' and sage's and GAP's versions, the time, its status and
++  reasons. A card whose seat is not main's is refused without `--author-allows`.
++- **`scripts/queue/intake.py`:** a heavy FILED card goes through the form, custody and the record check as every card
++  does. At the rerun it is not rerun: its result file on main is checked against the card (its id, branch, path and
++  commit, its decisive script and hash, its decisive lines as the card states them, a run that reproduced with its
++  control exiting 1). If the file holds, the card moves to REPRODUCED, its note naming the file and the commit that
++  landed it. If not, it moves to RETURNED_AT_INTAKE with the reasons. Without a file, each round says the card waits
++  for the author's machine. The runner's key alone writes the record. Q0006 and Q0036 could not leave FILED, and every
++  round passed over them in silence.
++- **`queue/README.md`:** a heavy card, by hand.
++- **New test** `tests/test_queue_heavy.py` (5 tests); each rule's removal makes one fail.
++
+ ## S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)
+ 
+ - **The builder's round watch** (row 2079): Q0006 (main's B2016, which needs sage and GAP) and Q0036 are heavy and could
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index a11fc6faf..50baaa598 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20827,3 +20827,13 @@
+ since the morning, each round is to start the next while cards are waiting.
+ 
+ 0 of 19.
++
++## 2026-11-28 — A card that needs sage or GAP can now pass through the queue (S306p)
++
++**What happened.** The building seat opened the one path that was closed: a card whose computation needs sage or GAP,
++which GitHub's runner does not have, could never leave its first state, and the trial's chain waited behind it. Now the
++author reruns such a card on their own machine with one command, which writes its result; main lands the file; and the
++runner checks it against the card and moves the card itself, so the queue stays written by the runner alone. Another
++seat's heavy card is rerun there only with the author's word.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 828c0564e..abeafc019 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)”
+ - “S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)”
+ - “S306p CHAT1'S A88 AND AGY-002'S A2-CHIRAL-E8-SIBLINGS RECEIVED; THE NEW CARD OFFERED (P-885; HARVEST ROWS 2076, 2077; M89, M71) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p EVERY CARD OFFERED TO A PEER BY ONE RULE; CHAT1'S SIX CARDS RECEIVED AND ITS TWO QUESTIONS ANSWERED (P-885; HARVEST ROWS 2072 TO 2074; M29, M27, M70, M88) (2026-11-28)”
+ - “S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)”
+ - “S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)”
+-- “S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 141dd79be..14ff785d9 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1573 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1574 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1955,6 +1955,7 @@
+ ## 2026-11-28
+ 
+ - — `test_queue_banking.py` 
++- — `test_queue_heavy.py` 
+ - — `test_queue_intake.py` 
+ - — `test_queue_land.py` 
+ - — `test_queue_offers.py` 
+diff --git a/queue/README.md b/queue/README.md
+index 70d4105a3..17b57a6ea 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -18,6 +18,20 @@
+   The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
+   queue's branch, `queue`.
+ 
++## A heavy card (main's M83)
++
++A card that needs sage or GAP, or declares itself heavy, is not rerun on the workflow: each round says it waits for the
++author's machine. There, main runs, from main's checkout with the queue's folder at hand:
++
++    python3 scripts/queue/rerun.py --heavy-result Q0006 --queue-dir <the queue/ folder of the queue's branch>
++
++It reruns the card at its sealed commit with no wrap, by the author's choice, with the caller's PATH (set it so that
++`sage`, `gap` and a `python3` with python-flint are found), and writes `queue/heavy/Q0006.json`. Main commits that file
++on main. The next round checks it against the card (its id, branch, path and sealed commit, the decisive script and its
++hash, the decisive lines as the card states them, a control that exited 1) and moves the card to REPRODUCED, or to
++RETURNED_AT_INTAKE with the reasons. A card of another seat is rerun there only with `--author-allows`, the author's word
++for that card.
++
+ ## The offers to peers (main's M79)
+ 
+ The queue's branch is the runner's alone, so main offers a card to a peer in its own file on main, `queue/OFFERS.json`:
+diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
+index 73aefee94..d01663c16 100644
+--- a/scripts/queue/intake.py
++++ b/scripts/queue/intake.py
+@@ -14,7 +14,11 @@
+      premise card not VERIFIED, or a premise arc whose own card is not (D6), keeps it FILED, waiting; the firewall's words
+      (A3) are a flag to the author, listed in the round's report;
+   5. the rerun (T5, rebuilt by T7b): REPRODUCED, with `deciding` set from the record check; RETURNED_AT_INTAKE with its
+-     reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine;
++     reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine. A heavy card's rerun is the
++     author's (main's M83): `rerun.py --heavy-result Q<nnnn>` writes queue/heavy/<card id>.json on the author's machine,
++     main lands it, and the round checks it against the card (its sealed commit, script hash and stated decisive lines)
++     and moves the card to REPRODUCED, or RETURNED_AT_INTAKE with the reasons; each round says which heavy cards still
++     wait for the author's machine;
+   6. the peer note (T8): a card OFFERED to a peer moves to PEERED once the peer's note, on its own branch, holds the
+      runner's check (scripts/queue/peer_note.py), the peer's script rerun in the same sandbox; a note that does not is
+      reported and the card stays OFFERED. The offer is main's, in queue/OFFERS.json on main (main's M79): a REPRODUCED
+@@ -178,13 +182,59 @@
+     return (m.group(1), m.group(2)) if m else None
+ 
+ 
++HEAVY_KEYS = ("at", "branch", "card", "commit", "control_exit", "decisive", "guard", "path", "reasons", "script", "status",
++              "versions")
++
++
++def heavy_file(record_root, cid):
++    """(the author's heavy result for a card as landed on main, or None; its path and the commit that landed it)"""
++    rel = "%s/%s.json" % (RR.HEAVY_DIR, cid)
++    f = pathlib.Path(record_root, rel)
++    if not f.is_file():
++        return None, rel
++    r = subprocess.run(["git", "log", "-1", "--format=%h", "--", rel], cwd=record_root, capture_output=True, text=True)
++    where = "%s at %s" % (rel, r.stdout.strip()) if r.returncode == 0 and r.stdout.strip() else rel
++    try:
++        return json.loads(f.read_text(encoding="utf-8")), where
++    except ValueError:
++        return {}, where
++
++
++def heavy_problems(rec, got, card_text):
++    """main's M83: the author's heavy result checked against the card, [] when it holds: the card's id, branch, path and
++    sealed commit; the decisive script's path and hash as the card states them; the decisive lines' count and hash as
++    the card states them; a run that reproduced, its control exiting 1"""
++    if not isinstance(got, dict) or sorted(got) != sorted(HEAVY_KEYS):
++        return ["the result file holds exactly %s" % ", ".join(HEAVY_KEYS)]
++    bad = []
++    for key, want in (("card", rec["id"]), ("branch", rec["branch"]), ("path", rec["card_path"]), ("commit", rec["commit"])):
++        if got[key] != want:
++            bad.append("its %s is %r, the card's is %r" % (key, got[key], want))
++    _t, f, _ = CF.read(card_text or "")
++    m = CF.SCRIPT.match(f.get("decisive script", ""))
++    d = CF.DECISIVE.fullmatch(f.get("decisive lines", ""))
++    if not m or not d:
++        return bad + ["the card's decisive script or lines are not in form"]
++    want_script = {"path": m.group(1), "sha256": CF.HEX16.search(f["decisive script"]).group(1)}
++    if got["script"] != want_script:
++        bad.append("its script %s is not the card's %s" % (got["script"], want_script))
++    if not isinstance(got["decisive"], dict) or (got["decisive"].get("lines"), got["decisive"].get("sha256")) != \
++            (int(d.group(1)), d.group(2)):
++        bad.append("its decisive lines %s are not the card's %s lines with hash %s" % (got["decisive"], d.group(1), d.group(2)))
++    if got["status"] != "REPRODUCED" or got["reasons"]:
++        bad.append("the author's rerun did not reproduce it: %s" % ("; ".join(got["reasons"]) or got["status"]))
++    if got["control_exit"] != 1:
++        bad.append("its failing control exited %r, not 1" % got["control_exit"])
++    return bad
++
++
+ def queue_order(cards):
+     """the cards' ids in queue order: by the number of the id, Q0001 first (M64 item 13: banking takes cards so)"""
+     return sorted(cards, key=lambda c: (int(c[1:]) if c[1:].isdigit() else float("inf"), c))
+ 
+ 
+ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_LIMIT, max_cards=MAX_CARDS,
+-           prefix=None, allow_static=False, codes=None, seats_file=None, offers_file=None):
++           prefix=None, allow_static=False, codes=None, seats_file=None, offers_file=None, heavy_root=None):
+     """one round: (the cards after it, the log after it, {id: attachment}, report lines, exit status). The queue's folder
+     is read once, at the start; what the round decides is held in memory and written only after every rerun (main's M62)"""
+     at = at or _now()
+@@ -231,7 +281,7 @@
+     refiled = {old for r in cards.values() for old in r["refiles"]}
+     for cid in sorted(cards):
+         rec = cards[cid]
+-        if rec["status"] != "FILED" or rec["heavy"]:
++        if rec["status"] != "FILED":
+             continue
+         if cid in refiled:                            # Review 88's A24: a refiled card's old version is not taken further
+             report.append("%s is refiled by a later card, and is not taken further" % cid)
+@@ -263,6 +313,22 @@
+         if check["waits_on"]:
+             report.append("%s waits on %s (D6)" % (cid, ", ".join(check["waits_on"])))
+             continue
++        if rec["heavy"]:                             # main's M83: its rerun is the author's, its result file on main
++            got, where = heavy_file(heavy_root or record_root, cid)
++            if got is None:
++                report.append("%s HEAVY, waits for the author's machine: no %s on main yet" % (cid, where))
++                continue
++            why = heavy_problems(rec, got, text)
++            check["heavy_result"] = {"file": where, "problems": why}
++            if why:
++                _move(rec, "RETURNED_AT_INTAKE", "the author's heavy rerun (%s): %s" % (where, "; ".join(why)), at)
++                report.append("%s RETURNED_AT_INTAKE (the author's heavy rerun)" % cid)
++                continue
++            rec["deciding"] = bool(check["deciding"])
++            _move(rec, "REPRODUCED", "the author's heavy rerun, %s: %d decisive lines, hash %s; the control exited 1; "
++                  "guard: %s" % (where, got["decisive"]["lines"], got["decisive"]["sha256"], got["guard"]), at)
++            report.append("%s REPRODUCED from the author's heavy rerun (deciding: %s)" % (cid, rec["deciding"]))
++            continue
+         if done >= max_cards:
+             report.append("%s left for the next round (%d cards rerun in this one)" % (cid, max_cards))
+             continue
+diff --git a/scripts/queue/rerun.py b/scripts/queue/rerun.py
+index bf157c4db..d86e2183a 100644
+--- a/scripts/queue/rerun.py
++++ b/scripts/queue/rerun.py
+@@ -62,6 +62,10 @@
+ python-flint (M65): set the PATH so before such a rerun.
+ 
+     python3 scripts/queue/rerun.py --record queue/cards/Q0001.json [--root REPO] [--limit SECONDS] [--allow-static-guard]
++    python3 scripts/queue/rerun.py --heavy-result Q0006 --queue-dir DIR [--root REPO] [--author-allows]
++On the author's machine only (main's M83): reruns a heavy card at its sealed commit with no wrap and the caller's PATH,
++and writes queue/heavy/<card id>.json for main to land; a card of another seat only with --author-allows, the author's
++word for that card.
+ Prints the result as JSON. Exit 0 when REPRODUCED or HEAVY, 1 when returned."""
+ import ast
+ import contextlib
+@@ -513,17 +517,18 @@
+     return [], "no sandbox"
+ 
+ 
+-def _run(prefix, argv, cwd, limit):
+-    """(exit, out, err, seconds); exit None past the time limit, or when a process of nobody outlives the run (M70)"""
++def _run(prefix, argv, cwd, limit, path=None):
++    """(exit, out, err, seconds); exit None past the time limit, or when a process of nobody outlives the run (M70).
++    `path`, given only for a heavy rerun on the author's machine, is the caller's PATH, where sage and GAP are found"""
+     inside = bool(prefix)
+     with one_at_a_time() if inside else contextlib.nullcontext():
+-        return _run_held(prefix, argv, cwd, limit, inside)
++        return _run_held(prefix, argv, cwd, limit, inside, path)
+ 
+ 
+-def _run_held(prefix, argv, cwd, limit, inside):
++def _run_held(prefix, argv, cwd, limit, inside, path=None):
+     if inside and not reap(prefix):
+         return None, "", "a process of the unprivileged user is left from before", 0.0
+-    env = {"PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": "/mnt" if inside else str(cwd), "LANG": "C.UTF-8",
++    env = {"PATH": path or "/usr/local/bin:/usr/bin:/bin", "HOME": "/mnt" if inside else str(cwd), "LANG": "C.UTF-8",
+            "PYTHONHASHSEED": "0"}
+     t0 = time.time()
+     try:
+@@ -594,8 +599,12 @@
+     return bad, heavy, argv, cargv
+ 
+ 
+-def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=False):
+-    """the result of rerunning one card at one commit: {status, reasons, ...}"""
++def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=False, heavy=False):
++    """the result of rerunning one card at one commit: {status, reasons, ...}. `heavy` (main's M83) is the author's
++    machine running a heavy card, by the author's choice: no wrap, the caller's PATH, and sage or GAP allowed to run"""
++    heavy_mode = heavy
++    if heavy:
++        prefix, allow_static = [], True
+     _title, f, _ = CF.read(card_text)
+     res = {"status": None, "reasons": [], "commit": commit, "guard": None, "versions": versions(), "pins_differ": []}
+     res["pins_differ"] = sorted(d for d, v in res["versions"].items()
+@@ -617,13 +626,14 @@
+         if modes is None:
+             res.update(status="RETURNED_AT_INTAKE", reasons=["the sealed commit cannot be read"])
+             return res
++        heavy_run = bool(prefix == [] and allow_static and heavy_mode)
+         bad, heavy, argv, cargv = _checks(tmp, modes, script, want, cmd, control)
+         if bad:
+             res.update(status="RETURNED_AT_INTAKE", reasons=bad)
+             return res
+         if CF.declared_heavy(f):
+             heavy.append("the card declares its decisive script heavy")
+-        if heavy:
++        if heavy and not heavy_run:
+             res.update(status="HEAVY", reasons=heavy)
+             return res
+         if not prefix and not allow_static:
+@@ -636,7 +646,8 @@
+         if prefix and not _hand_over(tmp, prefix):
+             res.update(status="HEAVY", reasons=["the run's directory could not be given to the unprivileged user"])
+             return res
+-        rc, out, err, secs = _run(prefix, argv, tmp, limit)
++        path = os.environ.get("PATH") if heavy_run else None
++        rc, out, err, secs = _run(prefix, argv, tmp, limit, path)
+         res["seconds"] = round(secs, 1)
+         if rc is None:
+             res.update(status="HEAVY", reasons=[err or "the decisive script ran past %d seconds" % limit])
+@@ -652,7 +663,7 @@
+         if res["reasons"]:                            # M64 item 6: what the run found decides before the control runs
+             res["status"] = "RETURNED_AT_INTAKE"
+             return res
+-        crc, _, cerr, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)))
++        crc, _, cerr, csecs = _run(prefix, cargv, tmp, max(1, limit - int(secs)), path)
+         res["control_exit"] = crc
+         if crc is None:
+             res.update(status="HEAVY", reasons=[cerr or "the failing control ran past the time limit"])
+@@ -668,7 +679,63 @@
+         _take_back(tmp, prefix)
+ 
+ 
++HEAVY_DIR = "queue/heavy"                       # main's M83: the author's heavy results, landed on main
++
++
++def tool_versions():
++    """the heavy tools' versions on this machine: sage's and GAP's first line, or None"""
++    out = {}
++    for name, cmd, stdin in (("sage", ["sage", "--version"], None),
++                             ("gap", ["gap", "-q"], 'Print(GAPInfo.Version, "\\n");\nQUIT;\n')):
++        try:
++            r = subprocess.run(cmd, input=stdin, capture_output=True, text=True, timeout=120)
++            out[name] = (r.stdout.strip().splitlines() or [None])[0] if r.returncode == 0 else None
++        except (OSError, subprocess.TimeoutExpired):
++            out[name] = None
++    return out
++
++
++def heavy_result(root, rec, limit=TIME_LIMIT, author_allows=False, at=None):
++    """main's M83: (the result file's content, or None, and why not). The author's machine reruns a heavy card at its
++    sealed commit, with no wrap, by the author's choice; a card of another seat only with the author's word"""
++    if rec.get("seat_code") != CF.QS.MAIN_CODE and not author_allows:
++        return None, ("%s is %s's card, not main's: it is rerun here only at the author's word (--author-allows)"
++                      % (rec.get("id"), rec.get("seat_code")))
++    card = subprocess.run(["git", "show", "%s:%s" % (rec["commit"], rec["card_path"])], cwd=root, capture_output=True,
++                          text=True)
++    if card.returncode != 0:
++        return None, "the card is not at its sealed commit"
++    _t, f, _ = CF.read(card.stdout)
++    m = CF.SCRIPT.match(f.get("decisive script", ""))
++    res = rerun(root, rec["commit"], card.stdout, limit, heavy=True)
++    return {"card": rec["id"], "branch": rec["branch"], "path": rec["card_path"], "commit": rec["commit"],
++            "script": {"path": m.group(1) if m else None,
++                       "sha256": CF.HEX16.search(f["decisive script"]).group(1) if m else None},
++            "decisive": res.get("decisive"), "control_exit": res.get("control_exit"), "guard": res.get("guard"),
++            "versions": dict(res.get("versions") or {}, **tool_versions()),
++            "at": at or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
++            "status": res["status"], "reasons": res["reasons"]}, None
++
++
+ def main(argv):
++    if "--heavy-result" in argv:                 # main's M83: on the author's machine
++        cid = argv[argv.index("--heavy-result") + 1]
++        qdir = pathlib.Path(argv[argv.index("--queue-dir") + 1]) if "--queue-dir" in argv else None
++        root = pathlib.Path(argv[argv.index("--root") + 1]) if "--root" in argv else ROOT
++        f = qdir / "cards" / ("%s.json" % cid) if qdir else None
++        if f is None or not f.is_file():
++            print("no record of %s under --queue-dir DIR/cards" % cid)
++            return 1
++        rec = json.loads(f.read_text(encoding="utf-8"))
++        out, why = heavy_result(root, rec, author_allows="--author-allows" in argv)
++        if out is None:
++            print("refused: %s" % why)
++            return 1
++        dest = pathlib.Path(root, HEAVY_DIR, "%s.json" % cid)
++        dest.parent.mkdir(parents=True, exist_ok=True)
++        dest.write_text(json.dumps(out, indent=1, sort_keys=True) + "\n", encoding="utf-8")
++        print("%s: %s; written to %s, for main to land" % (cid, out["status"], dest))
++        return 0 if out["status"] == "REPRODUCED" else 1
+     rec = json.loads(pathlib.Path(argv[argv.index("--record") + 1]).read_text(encoding="utf-8"))
+     root = pathlib.Path(argv[argv.index("--root") + 1]) if "--root" in argv else ROOT
+     limit = int(argv[argv.index("--limit") + 1]) if "--limit" in argv else TIME_LIMIT
+diff --git a/tests/test_queue_heavy.py b/tests/test_queue_heavy.py
+new file mode 100644
+index 000000000..db626c348
+--- /dev/null
++++ b/tests/test_queue_heavy.py
+@@ -0,0 +1,150 @@
++"""2026-11-28 (the framework's thin path; register row P-885; main's M83): a heavy card's path to the queue.
++
++A heavy card (sage or GAP, or declared heavy) is not rerun on the workflow. On the author's machine,
++`rerun.py --heavy-result Q<nnnn>` reruns it at its sealed commit with the caller's PATH and writes queue/heavy/<id>.json;
++main lands it; each round checks it against the card and moves the card, the runner's key alone writing the record. On
++a repository built here: a heavy card waits, and says so each round; its author's result moves it to REPRODUCED, its note
++naming the file and its commit; a result that does not match the card returns it; another seat's card is rerun only with
++the author's word; a sage card runs with the caller's PATH."""
++import importlib.util
++import json
++import os
++import pathlib
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++T = _load("intake_tests_for_heavy", "tests/test_queue_intake.py")
++RT = _load("rerun_tests_for_heavy", "tests/test_queue_rerun.py")
++IN = T.IN
++RR = IN.RR
++
++
++def _g(cwd, *a):
++    return subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=cwd, capture_output=True,
++                          text=True, check=True).stdout
++
++
++def _setup(tmp_path):
++    repo = tmp_path / "repo"
++    repo.mkdir(parents=True)
++    T._repo(repo)
++    main = tmp_path / "main"                          # main's checkout, where the author's result files land
++    main.mkdir()
++    _g(main, "init", "-q", "-b", "main")
++    _g(main, "commit", "-q", "--allow-empty", "-m", "main")
++    return repo, main
++
++
++def _round(tmp_path, repo, main, at=T.AT):
++    out = IN.round_(tmp_path / "q", root=repo, refs=[("a", "origin/seat/a")], codes=T.CODES, at=at, limit=60,
++                    allow_static=True, heavy_root=main)
++    IN.write(tmp_path / "q", out[0], out[1], out[2])
++    return out
++
++
++def _heavy(cards):
++    (cid, rec), = [(k, v) for k, v in cards.items() if v["card_path"].endswith("CLAIM_heavy.md")]
++    return cid, rec
++
++
++def _land(main, cid, result):
++    (main / "queue" / "heavy").mkdir(parents=True, exist_ok=True)
++    (main / "queue" / "heavy" / ("%s.json" % cid)).write_text(json.dumps(result), encoding="utf-8")
++    _g(main, "add", "-A")
++    _g(main, "commit", "-q", "-m", "the author's heavy result for %s" % cid)
++    return _g(main, "rev-parse", "--short", "HEAD").strip()
++
++
++def test_a_heavy_card_waits_saying_so_and_moves_on_its_authors_result_m83(tmp_path):
++    repo, main = _setup(tmp_path)
++    cards, _, _, report, status = _round(tmp_path, repo, main)
++    cid, rec = _heavy(cards)
++    assert status == 0 and rec["status"] == "FILED" and rec["heavy"] is True
++    line = "%s HEAVY, waits for the author's machine: no queue/heavy/%s.json on main yet" % (cid, cid)
++    assert line in report, report
++    cards, _, _, report, _ = _round(tmp_path, repo, main, at="2026-11-26T13:00:00Z")
++    assert line in report                              # every round says it, until the result lands
++    result, why = RR.heavy_result(repo, rec, limit=60, author_allows=True)
++    assert why is None and result["status"] == "REPRODUCED" and result["control_exit"] == 1
++    assert result["card"] == cid and result["commit"] == rec["commit"] and "sage" in result["versions"]
++    commit = _land(main, cid, result)
++    cards, _, att, report, _ = _round(tmp_path, repo, main, at="2026-11-26T14:00:00Z")
++    rec = cards[cid]
++    assert rec["status"] == "REPRODUCED" and rec["history"][-1]["by"] == "runner", report
++    assert rec["history"][-1]["note"].startswith("the author's heavy rerun, queue/heavy/%s.json at %s:" % (cid, commit))
++    assert rec["deciding"] is True and att[cid]["heavy_result"]["problems"] == []
++    assert "%s REPRODUCED from the author's heavy rerun (deciding: True)" % cid in report
++    assert IN.QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) == []
++
++
++def test_a_result_that_does_not_match_its_card_returns_it_m83(tmp_path):
++    repo, main = _setup(tmp_path / "base")
++    cards, *_ = _round(tmp_path / "base", repo, main)
++    cid, rec = _heavy(cards)
++    good, _ = RR.heavy_result(repo, rec, limit=60, author_allows=True)
++    text = IN._card_text(repo, rec)
++    assert IN.heavy_problems(rec, good, text) == []
++    for change, words in ((dict(commit="0" * 40), "its commit is"), (dict(card="Q9999"), "its card is"),
++                          (dict(script={"path": "s_heavy.py", "sha256": "0" * 16}), "is not the card's"),
++                          (dict(decisive={"lines": 1, "sha256": "0" * 16}), "its decisive lines"),
++                          (dict(status="RETURNED_AT_INTAKE", reasons=["the decisive lines differ"]), "did not reproduce it"),
++                          (dict(control_exit=0), "its failing control exited 0"), (dict(extra=1), "holds exactly")):
++        assert any(words in b for b in IN.heavy_problems(rec, dict(good, **change), text)), (change, words)
++    # through a round: the card is returned, with the reasons
++    _land(main, cid, dict(good, decisive={"lines": 1, "sha256": "0" * 16}))
++    cards, _, att, report, _ = _round(tmp_path / "base", repo, main, at="2026-11-26T14:00:00Z")
++    assert cards[cid]["status"] == "RETURNED_AT_INTAKE" and "the author's heavy rerun" in cards[cid]["history"][-1]["note"]
++
++
++def test_another_seats_card_is_rerun_on_the_authors_machine_only_at_the_authors_word_m83(tmp_path):
++    repo, main = _setup(tmp_path)
++    cards, *_ = _round(tmp_path, repo, main)
++    cid, rec = _heavy(cards)
++    out, why = RR.heavy_result(repo, rec, limit=60)
++    assert out is None and "only at the author's word (--author-allows)" in why
++    cmd = [sys.executable, "-B", str(ROOT / "scripts" / "queue" / "rerun.py"), "--heavy-result", cid,
++           "--queue-dir", str(tmp_path / "q"), "--root", str(repo)]
++    r = subprocess.run(cmd, capture_output=True, text=True)
++    assert r.returncode == 1 and "refused" in r.stdout and not (repo / "queue" / "heavy").exists()
++    r = subprocess.run(cmd + ["--author-allows"], capture_output=True, text=True, timeout=300)
++    written = repo / "queue" / "heavy" / ("%s.json" % cid)
++    assert r.returncode == 0 and written.is_file(), r.stdout + r.stderr
++    assert json.loads(written.read_text())["status"] == "REPRODUCED"
++    main_card = dict(rec, seat_code=IN.QS.MAIN_CODE)
++    assert RR.heavy_result(repo, main_card, limit=60)[1] is None     # main's own card needs no word
++
++
++def test_a_sage_card_runs_with_the_callers_path_on_the_authors_machine_m83(tmp_path, monkeypatch):
++    """a stand-in for sage on the caller's PATH: the workflow's own runs never see it, the author's heavy rerun does"""
++    bin_dir = tmp_path / "bin"
++    bin_dir.mkdir()
++    (bin_dir / "sage").write_text('#!/bin/sh\nif [ "$1" = "--version" ]; then echo "SageMath version 10.0, a stand-in"; '
++                                  'exit 0; fi\nexec %s "$@"\n' % sys.executable)
++    os.chmod(bin_dir / "sage", 0o755)
++    repo = tmp_path / "s"
++    script = "import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\nprint('DECISIVE: good = 12')\n"
++    RT._commit(repo, {"x.sage": script})
++    n, d = RR.decisive("DECISIVE: good = 12\n")
++    card = RT._card(repo, script="x.sage", cmd="sage x.sage", control="sage x.sage --plant", n=n, d=d)
++    commit = _g(repo, "rev-parse", "HEAD").strip()
++    assert RR.rerun(repo, commit, card, limit=60, allow_static=True)["status"] == "HEAVY"
++    monkeypatch.setenv("PATH", "%s:%s" % (bin_dir, os.environ["PATH"]))
++    res = RR.rerun(repo, commit, card, limit=60, heavy=True)
++    assert res["status"] == "REPRODUCED" and res["guard"].startswith("none: the author's machine"), res
++    assert RR.tool_versions()["sage"] == "SageMath version 10.0, a stand-in"
++
++
++def test_main_s_gitignore_lets_a_heavy_result_be_committed():
++    r = subprocess.run(["git", "check-ignore", "-q", "--no-index", "queue/heavy/Q0006.json"], cwd=ROOT, capture_output=True)
++    assert r.returncode == 1
+-- 
+2.43.0
+

@@ -1,0 +1,251 @@
+From ea73e3cb124bdcc412c6909aa6fc83b1ff4e19bf Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 14:26:52 +0000
+Subject: [PATCH 2/2] S306p the rounds dispatch the next, while cards wait (the
+ framework's thin path; P-885; main's M83): the round's last line says whether
+ the next round is needed, by what it moved and left; a third job after
+ record, holding only actions: write, no secret and no seat code, dispatches
+ the next round on that line alone; the hourly cron stays as the fallback;
+ tests fail with each rule removed
+
+---
+ .github/workflows/intake.yml   | 29 +++++++++++++++++++++++++++--
+ CHANGELOG.md                   | 13 +++++++++++++
+ PROGRESS_LOG.md                |  8 ++++++++
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ queue/README.md                |  4 ++++
+ scripts/queue/intake.py        | 15 ++++++++++++++-
+ tests/test_queue_intake.py     | 34 ++++++++++++++++++++++++++++++++++
+ 7 files changed, 101 insertions(+), 4 deletions(-)
+
+diff --git a/.github/workflows/intake.yml b/.github/workflows/intake.yml
+index 167c7a8a6..6c17694c7 100644
+--- a/.github/workflows/intake.yml
++++ b/.github/workflows/intake.yml
+@@ -5,8 +5,11 @@
+ # the round wrote. `record` runs no seat code: it refuses any file the round did not write, checks the artifact against the
+ # queue's schema and the sighting log's form, and pushes to the queue's own branch alone, with a deploy key that only it
+ # names (main's M73): the queue's ruleset lets that key alone update the branch, so a record on `queue` is the runner's.
+-# After its push it reads the branch's rules and fails if they are not in force. Standard GitHub-hosted runners only
+-# (`ubuntu-latest`); never a larger runner. The settings the author makes are in queue/README.md.
++# After its push it reads the branch's rules and fails if they are not in force. A third job, `next` (main's M83), holds
++# only the right to dispatch a workflow, no secret and no seat code: after `record`, it starts the next round when this one
++# moved a card or left one for later, since GitHub's scheduler had fired no round for hours; the hourly cron stays as the
++# fallback. Standard GitHub-hosted runners only (`ubuntu-latest`); never a larger runner. The settings the author makes
++# are in queue/README.md.
+ name: intake
+ 
+ on:
+@@ -34,6 +37,8 @@
+     if: ${{ vars.INTAKE_ENABLED == 'true' }}
+     runs-on: ubuntu-latest
+     timeout-minutes: 120
++    outputs:
++      again: ${{ steps.intake.outputs.again }}       # main's M83: the round's last line, read by the job `next`
+     steps:
+       - name: Check out main, with every branch's history
+         uses: actions/checkout@v4
+@@ -60,6 +65,7 @@
+           sudo python3 -m pip install --quiet --break-system-packages $(cat pins.txt)
+           python3 -c "import sys; print('the interpreter:', sys.executable, sys.version.split()[0])"
+       - name: One round of the intake (seat code runs here, with the network cut)
++        id: intake
+         # CHANGED 2026-11-28 (main, at the author's word, after the first round on the workflow, M78 point 4): a round that
+         # cannot make the sandbox is not recorded. It had gone on and marked each card it reran HEAVY, for a fault of the
+         # runner, not of the card. It now fails here, after printing why, so neither the upload nor the record job runs.
+@@ -71,6 +77,7 @@
+             echo "::error::no sandbox on this runner (its reasons are above): the round is not recorded"
+             exit 1
+           fi
++          if grep -q "^the next round: needed" round_report.txt; then echo "again=true" >> "$GITHUB_OUTPUT"; else echo "again=false" >> "$GITHUB_OUTPUT"; fi
+       - uses: actions/upload-artifact@v4
+         with:
+           name: queue
+@@ -145,3 +152,21 @@
+             exit 1
+           fi
+           echo "the queue's ruleset is in force on ${QUEUE_BRANCH}: ${rules}"
++
++  next:
++    # ADDED 2026-11-28 (the builder, at main's M83 point 2): GitHub's scheduler fired no round from 07:42 on, so the rounds
++    # dispatch the next one themselves while cards wait. This job holds only the right to dispatch a workflow: no secret,
++    # no checkout, no seat code. It runs after the round was recorded, and only when the round's last line says the next
++    # round is needed; a round with nothing to do ends the chain, and the hourly cron stays as the fallback. The
++    # concurrency group above keeps one round at a time: the dispatched round waits until this one ends.
++    needs: [round, record]
++    if: ${{ needs.round.outputs.again == 'true' }}
++    runs-on: ubuntu-latest
++    timeout-minutes: 5
++    permissions:
++      actions: write                 # to dispatch the next round, with the job's own token; nothing else
++    steps:
++      - name: Dispatch the next round
++        env:
++          GH_TOKEN: ${{ github.token }}
++        run: gh workflow run intake.yml --ref main --repo "${{ github.repository }}"
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 5d053e212..5e105a5ce 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,18 @@
+ # Changelog
+ 
++## S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)
++
++- **`scripts/queue/intake.py`:** the round's last line says whether the next round is needed: "the next round: needed" when
++  it moved a card (a status changed, or a card was filed) or left one for the next round, and "not needed" otherwise,
++  with the counts.
++- **`.github/workflows/intake.yml`:** a third job, `next`, after `record`, holding only `permissions: actions: write`, with
++  no secret, no checkout and no seat code. It dispatches the next round (`gh workflow run intake.yml --ref main`, with
++  the job's own token) only when the round's last line says it is needed. A round with nothing to do ends the chain;
++  the hourly cron stays as the fallback, and the concurrency group keeps one round at a time. GitHub's scheduler had
++  fired no round from 07:42 on.
++- **Tests** in `tests/test_queue_intake.py`: the job's only write is `actions`, it has no secret, it runs after `record`,
++  and it dispatches only on the round's last line, which is said both ways; each rule, taken out, fails a test.
++
+ ## S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)
+ 
+ - **`scripts/queue/rerun.py --heavy-result Q<nnnn> --queue-dir DIR`,** on the author's machine: reruns a heavy card at its
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 50baaa598..23b9bee64 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20837,3 +20837,11 @@
+ seat's heavy card is rerun there only with the author's word.
+ 
+ 0 of 19.
++
++## 2026-11-28 — The intake keeps itself going while cards wait (S306p)
++
++**What happened.** GitHub's timer had not started a round of the intake for hours. The building seat made each round start
++the next one itself whenever it moved a card or left one waiting, through a step that may do nothing but start the
++workflow; when a round finds nothing to do, the chain stops and the hourly timer remains as the fallback.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index abeafc019..0c242d04b 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)”
+ - “S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)”
+ - “S306p EVERY CARD OFFERED TO A PEER BY ONE RULE; CHAT1'S SIX CARDS RECEIVED AND ITS TWO QUESTIONS ANSWERED (P-885; HARVEST ROWS 2072 TO 2074; M29, M27, M70, M88) (2026-11-28)”
+ - “S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)”
+-- “S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/queue/README.md b/queue/README.md
+index 17b57a6ea..dcc5e314e 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -49,6 +49,10 @@
+ order, a card offered already moving it where it stands; main's own cards go to the first peer of another family. Main reads the draft and commits the
+ file itself.
+ 
++**The rounds dispatch the next** (main's M83): a round that moved a card or left one for later dispatches the next
++round itself, by a job that holds only the right to dispatch; a round with nothing to do ends the chain, and the hourly
++cron stays as the fallback.
++
+ ## The settings the author makes (once, in the repository's settings on GitHub)
+ 
+ 1. **Spending:** set the account's budget for Actions to $0, so a run that would cost money does not run. Standard runners
+diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
+index d01663c16..7ae5b3199 100644
+--- a/scripts/queue/intake.py
++++ b/scripts/queue/intake.py
+@@ -228,6 +228,18 @@
+     return bad
+ 
+ 
++NEXT_ROUND = "the next round: "
++
++
++def next_round(was, cards, report):
++    """main's M83 point 2: the round's last line, which the workflow reads to dispatch the next round. The next round is
++    needed when this one moved a card (a status changed, or a card was filed) or left a card for the next round"""
++    moved = sum(1 for cid, rec in cards.items() if was.get(cid) != rec["status"])
++    left = sum(1 for r in report if "left for the next round" in r)
++    return "%s%s (this round moved %d card(s) and left %d for the next)" % (
++        NEXT_ROUND, "needed" if moved or left else "not needed", moved, left)
++
++
+ def queue_order(cards):
+     """the cards' ids in queue order: by the number of the id, Q0001 first (M64 item 13: banking takes cards so)"""
+     return sorted(cards, key=lambda c: (int(c[1:]) if c[1:].isdigit() else float("inf"), c))
+@@ -240,6 +252,7 @@
+     at = at or _now()
+     cards, log_text = read_queue_dir(qdir)
+     cards = json.loads(json.dumps(cards))
++    was = {cid: rec["status"] for cid, rec in cards.items()}       # main's M83: what this round moves
+     old_checks = read_checks(qdir)
+     entries, bad = CU.read_log(log_text)
+     if bad:
+@@ -479,7 +492,7 @@
+     problems = QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) + CU.read_log(log_after)[1]
+     if problems:
+         return cards, log_after, attached, report + ["the queue would not hold its schema: " + "; ".join(problems[:5])], 1
+-    return cards, log_after, attached, report, 0
++    return cards, log_after, attached, report + [next_round(was, cards, report)], 0
+ 
+ 
+ def _script_path(root, rec):
+diff --git a/tests/test_queue_intake.py b/tests/test_queue_intake.py
+index 3cd23cbab..f3e9fb77e 100644
+--- a/tests/test_queue_intake.py
++++ b/tests/test_queue_intake.py
+@@ -206,6 +206,7 @@
+     text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
+     head, jobs = text.split("\njobs:\n", 1)
+     round_job, record = jobs.split("\n  record:\n", 1)
++    record = record.split("\n  next:\n", 1)[0]          # main's M83: the third job is read on its own
+     on = head.split("\non:\n", 1)[1].split("\n\n", 1)[0]
+     triggers = [l.strip().split(":")[0] for l in on.splitlines() if l.startswith("  ") and not l.startswith("    ")]
+     assert triggers == ["schedule", "workflow_dispatch"]                 # no pull-request trigger: no fork's code runs
+@@ -271,3 +272,36 @@
+                                    prefix=[])
+     assert any("%s is refiled by a later card, and is not taken further" % good["id"] in r for r in report)
+     assert not any(("%s waits on" % good["id"]) in r for r in report) and heavy["id"]
++
++
++def test_the_rounds_dispatch_the_next_only_when_one_is_needed_m83(tmp_path):
++    """main's M83 point 2: GitHub's scheduler fired no round from 07:42. A third job dispatches the next round: it holds
++    only the right to dispatch, no secret and no seat code; it runs after record; and only when the round's last line,
++    which the round computes, says the next round is needed"""
++    text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
++    jobs = text.split("\njobs:\n", 1)[1]
++    round_job, rest = jobs.split("\n  record:\n", 1)
++    record, nxt = rest.split("\n  next:\n", 1)
++    perms = nxt.split("    permissions:\n", 1)[1].split("\n    steps:", 1)[0]
++    assert [l.split(":")[0].strip() for l in perms.splitlines() if l.strip()] == ["actions"]
++    assert "actions: write" in perms and "secrets." not in nxt and "uses: actions/checkout" not in nxt
++    assert "needs: [round, record]" in nxt and "if: ${{ needs.round.outputs.again == 'true' }}" in nxt
++    assert "gh workflow run intake.yml --ref main" in nxt and "GH_TOKEN: ${{ github.token }}" in nxt
++    assert "again: ${{ steps.intake.outputs.again }}" in round_job and "id: intake" in round_job
++    assert 'grep -q "^%sneeded" round_report.txt' % IN.NEXT_ROUND in round_job
++    # the round's last line: needed when it moved a card or left one; not needed when it did neither
++    repo = tmp_path / "repo"
++    repo.mkdir()
++    _repo(repo)
++    cards, log, att, report, status = IN.round_(tmp_path / "q", root=repo, refs=[("a", "origin/seat/a")], codes=CODES,
++                                                at=AT, limit=60, allow_static=True, max_cards=1)
++    assert status == 0 and report[-1].startswith(IN.NEXT_ROUND + "needed (this round moved"), report[-1]
++    assert "left " in report[-1] and " 0 for the next" not in report[-1]
++    was = {k: v["status"] for k, v in cards.items()}
++    assert IN.next_round(was, cards, ["Q0001 waits on Q0002 (D6)"]) == IN.NEXT_ROUND + \
++        "not needed (this round moved 0 card(s) and left 0 for the next)"
++    assert IN.next_round(was, cards, ["Q0001 left for the next round (3 cards rerun in this one)"]).startswith(
++        IN.NEXT_ROUND + "needed")
++    filed = sorted(k for k, s in was.items() if s == "FILED")[0]
++    moved = {k: dict(v, status="RETURNED_AT_INTAKE") if k == filed else v for k, v in cards.items()}
++    assert IN.next_round(was, moved, []).startswith(IN.NEXT_ROUND + "needed (this round moved 1 card(s)")
+-- 
+2.43.0
+
