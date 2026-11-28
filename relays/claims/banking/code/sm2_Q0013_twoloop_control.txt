@@ -1,0 +1,4 @@
+   axis, r = 0.01: stationary point at Im tau = 102.31, |V2/V1| = 0.7500
+DECISIVE: stationary points found: 1, over 1 values of beta/alpha; smallest |V2/V1| 0.7500; bound 1.0000
+DECISIVE: stationary points inside the bound: 1 [(0.0, 0.01, np.float64(102.31380865277194), 0.750001832341062)]
+RESULT: the card's claim does not come out

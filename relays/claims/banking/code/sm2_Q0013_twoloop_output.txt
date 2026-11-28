@@ -1,0 +1,12 @@
+E_s by Fourier against the lattice sum (box 400), s = 2..5, four points: worst relative difference 2.84e-06
+   C_111 at 0.0 + 1.2i: box sums ['1.36052', '1.36492', '1.36839', '1.36973', '1.37076'], extrapolated 1.371727; E_3 + zeta(3) = 1.371716
+   C_111 at 0.5 + 1.5i: box sums ['1.44544', '1.45050', '1.45450', '1.45604', '1.45723'], extrapolated 1.458345; E_3 + zeta(3) = 1.458333
+   C_111 at 0.0 + 2.0i: box sums ['1.73206', '1.73783', '1.74238', '1.74413', '1.74548'], extrapolated 1.746753; E_3 + zeta(3) = 1.746739
+DECISIVE: C_111 - (E_3 + zeta(3)), worst over three points after extrapolation: 1.4e-05 (card's tolerance 2e-3)
+DECISIVE: E_2^2 on span(1, E_2..E_5), 40 points on the two lines: relative rms residual 6.71e-04
+   axis, r = 0.01: stationary point at Im tau = 102.31, |V2/V1| = 0.7500
+   axis, r = 0.001: stationary point at Im tau = 1023.14, |V2/V1| = 0.7500
+   axis, r = 0.0001: stationary point at Im tau = 10231.39, |V2/V1| = 0.7500
+DECISIVE: stationary points found: 171, over 800 values of beta/alpha; smallest |V2/V1| 0.7500; bound 0.3333
+DECISIVE: stationary points inside the bound: 0 []
+RESULT: the card's claim holds
