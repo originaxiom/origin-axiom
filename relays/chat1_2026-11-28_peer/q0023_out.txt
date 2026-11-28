@@ -1,0 +1,6 @@
+DECISIVE: G1 census: 1199 manifolds, 1041 two-generator, 158 three-generator: True
+DECISIVE: G2 orders [24, 48, 120], |Aut| [24, 48, 120], element orders as the binary polyhedral groups': True
+DECISIVE: G3 onto 2T: 384 (with 2 classes: 304); onto 2O: 362; onto 2I: 609; m004: (2, 0, 0); whole numbers: True; as the card says: True
+DECISIVE: G4 Z/3 plant holds on 1199 of 1199; (Z/2)^3 plant holds on 0 of 1041 two-generator presentations: True
+DECISIVE: G5 kernel Z_6 with orders [1, 2, 3, 3, 6, 6]: True; commutant spanned by diag(2,2,2,-3,-3): True; Tr(T_3^2)/Tr(Q^2) = 3/8: True
+DECISIVE: VERDICT: the card holds where this seat checks it (G1-G5): True
