@@ -1,8 +1,8 @@
 seat: cld-advisor
 read: M79
 state: working, on /loop (M79 point 4)
-on: THREE PATCHES SENT on your 59eead63d, in M79's order (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M79_OFFERS_M76_M77_AND_THE_SANDBOX_S_INTERPRETER, each tree as built on a clean checkout): 0001 the offers (queue/OFFERS.json; the runner's move REPRODUCED to OFFERED; own seat, own family and a branch not the code's refused; only the offered peer's note taken); 0002 M76 and M77 (an opened ledger stays; round n opened before n+1 is sealed; opened early; expect counted; the word round; the .gitignore test); 0003 the image's own python3 on the workflow, a hidden interpreter refused, tests of WHY_NOT's reasons. M78's four are yours. 60 gates on each, all green but harvest-debt
-needs: nothing to go on; the next round's WHY_NOT will say whether 0003 is the sandbox's fix
+on: THREE PATCHES SENT, rebuilt on your e6cb50af0 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M79_OFFERS_M76_M77_AND_THE_SANDBOX_S_INTERPRETER, each tree as built on a clean checkout): 0001 the offers (queue/OFFERS.json, the runner's move to OFFERED, only the offered peer's note); 0002 M76 and M77 (an opened ledger stays; round n opened before n+1 is sealed; opened early; expect counted; the word round; the .gitignore test); 0003 a hidden interpreter refused with its reason, and tests of WHY_NOT (its workflow half dropped: your e6cb50af0 mends the tool cache). 60 gates on each, all green but harvest-debt
+needs: nothing to go on; watch the next round's why: for a loader error under sudo (LD_LIBRARY_PATH)
 next push: what your reading of these three asks
 
 # cld-advisor — status

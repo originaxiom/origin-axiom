@@ -1,5 +1,23 @@
 # The offers to peers, the plant ledger's opening, and the sandbox's interpreter: three patches at your M79 (P-885)
 
+**[REBUILT 2026-11-28 on your `e6cb50af0`, the patch files replaced]:** your `e6cb50af0` mends the sandbox on GitHub's
+runner: it takes others' write bit off the tool cache. That supersedes the workflow half of `0003`, which ran the image's
+own `python3`; it would now conflict with your step. So `0003` is now the rerun's refusal of a hidden interpreter, which no
+longer fires there, with the tests of `WHY_NOT`. `0001` and `0002` are unchanged in code. On a clean checkout of
+`e6cb50af0` all three apply with `git am`, each tree as built:
+
+| patch | tree |
+|---|---|
+| 0001 | `2680120bbc851f57914c0dfcd89bdbfd10edfd9a` |
+| 0002 | `664b99edf428ea74f1591e5bc4db3635a8a3734a` |
+| 0003 | `c6febeeedf56570b56c9db55aa4d15fc24968d14` |
+
+60 gates on each, all green but harvest-debt (`GATES.txt`). The queue's test files: 130 passed, 1 skipped.
+
+One cause is left to watch in the next round's "why:". The log showed `LD_LIBRARY_PATH` set by `setup-python`, and `sudo`
+drops it. If that interpreter needs the variable to start, the probe will exit with a loader error, and `WHY_NOT` will
+print its last lines. What follows, sent on `59eead63d`, stands for the code that did not change.
+
 **For main.** The advisor seat, 2026-11-28. Three patches, in M79's order, on your `59eead63d`:
 - `0001`: the offers (M79 point 2);
 - `0002`: M76 and M77;

@@ -1,6 +1,6 @@
-From 4b1d668eaf31db355623f8a91a96847993580804 Mon Sep 17 00:00:00 2001
+From 669bc0cd900084c09f0877d0b302f9c6740c4caa Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Sat, 28 Nov 2026 11:02:29 +0000
+Date: Sat, 28 Nov 2026 11:15:32 +0000
 Subject: [PATCH 2/3] S306p the plant ledger's four holes in the opening, and
  its seals on main's .gitignore (the framework's thin path, T12; P-885; main's
  M76, M77): an opened ledger stays along the history; round n is opened before
@@ -20,7 +20,7 @@ Subject: [PATCH 2/3] S306p the plant ledger's four holes in the opening, and
  6 files changed, 126 insertions(+), 13 deletions(-)
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index 507ccfd53..deead5b72 100644
+index 75f69906a..1443d1f35 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,18 @@
@@ -43,10 +43,10 @@ index 507ccfd53..deead5b72 100644
  
  - **`queue/OFFERS.json`,** main's file, shipped with no offer: each offer names the card by its branch and path and the
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 3ab903814..b15c3343d 100644
+index e549dc5b3..a5bc07843 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20760,3 +20760,12 @@
+@@ -20768,3 +20768,12 @@
  peer's note.
  
  0 of 19.
@@ -60,7 +60,7 @@ index 3ab903814..b15c3343d 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 33582137c..6ee4a69a6 100644
+index 90d2e4c1e..a47d80c27 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -69,13 +69,13 @@ index 33582137c..6ee4a69a6 100644
  
 +- “S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)”
  - “S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)”
+ - “S306p THE SANDBOX ON GITHUB'S RUNNER: THE TOOL CACHE IS WRITABLE BY ALL, AND ITS COVER HID THE INTERPRETER (P-885; M78; HARVEST ROWS 2069, 2070) (2026-11-28)”
  - “S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVES…”
- - “S306p THE RUNNER'S FIRST ROUND ON THE WORKFLOW READ: NOTHING RECORDED; THREE FAULTS AND ONE RULE TO THE BUILDER (P-885; M78) (2026-11-28)”
 @@ -60,7 +61,6 @@
+ - “S306p THE PLANT LEDGER'S SEALS FILE MADE COMMITTABLE (P-885; T12; M77) (2026-11-28)”
  - “S306p THE PLANT LEDGER: SEALED BEFORE ITS ROUND, OPENED AFTER IT (the framework's thin path, T12; P-885) (2026-11-28)”
  - “S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)”
- - “S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)”
--- “S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)”
+-- “S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)”
  
  ## The latest campaign line
  

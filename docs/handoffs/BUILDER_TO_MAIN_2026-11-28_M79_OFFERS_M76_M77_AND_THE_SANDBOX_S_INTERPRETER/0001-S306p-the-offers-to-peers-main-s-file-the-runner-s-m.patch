@@ -1,6 +1,6 @@
-From 27db0e5eb11ad802de6a41e9cf89a25b2421fa5c Mon Sep 17 00:00:00 2001
+From 1f3caef192cf4f1a301735dbfd86081748ac3ff9 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Sat, 28 Nov 2026 11:02:11 +0000
+Date: Sat, 28 Nov 2026 11:15:26 +0000
 Subject: [PATCH 1/3] S306p the offers to peers: main's file, the runner's move
  to OFFERED (the framework's thin path; P-885; main's M79): queue/OFFERS.json
  on main names each card by its branch and path and its peer by seat code and
@@ -24,7 +24,7 @@ Subject: [PATCH 1/3] S306p the offers to peers: main's file, the runner's move
  create mode 100644 tests/test_queue_offers.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index dcc695035..507ccfd53 100644
+index 5024ce885..75f69906a 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,18 @@
@@ -43,15 +43,15 @@ index dcc695035..507ccfd53 100644
 +- **`queue/README.md`:** the offers.
 +- **New test** `tests/test_queue_offers.py` (4 tests); each rule's removal makes one fail.
 +
- ## S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVEST ROW 2068; M79, M26, M28, M67, M8) (2026-11-28)
+ ## S306p THE SANDBOX ON GITHUB'S RUNNER: THE TOOL CACHE IS WRITABLE BY ALL, AND ITS COVER HID THE INTERPRETER (P-885; M78; HARVEST ROWS 2069, 2070) (2026-11-28)
  
- - **Made by main, at the author's word that nothing stall (M78's four points):**
+ - **The cause, found in GitHub's own image:** `actions/runner-images`, `images/ubuntu/scripts/build/configure-environment.sh`,
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 0b4a66e07..3ab903814 100644
+index 0a0b205eb..e549dc5b3 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20751,3 +20751,12 @@
- waits in silence.
+@@ -20759,3 +20759,12 @@
+ that write permission before it starts, so the guard can be built.
  
  0 of 19.
 +
@@ -64,7 +64,7 @@ index 0b4a66e07..3ab903814 100644
 +
 +0 of 19.
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 66678dcf5..33582137c 100644
+index e35152ad0..90d2e4c1e 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -53,6 +53,7 @@
@@ -72,14 +72,14 @@ index 66678dcf5..33582137c 100644
  ## The last landings (CHANGELOG)
  
 +- “S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)”
+ - “S306p THE SANDBOX ON GITHUB'S RUNNER: THE TOOL CACHE IS WRITABLE BY ALL, AND ITS COVER HID THE INTERPRETER (P-885; M78; HARVEST ROWS 2069, 2070) (2026-11-28)”
  - “S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVES…”
  - “S306p THE RUNNER'S FIRST ROUND ON THE WORKFLOW READ: NOTHING RECORDED; THREE FAULTS AND ONE RULE TO THE BUILDER (P-885; M78) (2026-11-28)”
- - “S306p THE PLANT LEDGER'S SEALS FILE MADE COMMITTABLE (P-885; T12; M77) (2026-11-28)”
 @@ -60,7 +61,6 @@
+ - “S306p THE PLANT LEDGER: SEALED BEFORE ITS ROUND, OPENED AFTER IT (the framework's thin path, T12; P-885) (2026-11-28)”
  - “S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)”
  - “S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)”
- - “S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)”
--- “S306p T11 LANDED: THE LANDING TOOL, THE SINGLE WRITER OF A BANKED CARD'S ARC (P-885; M72) (2026-11-28)”
+-- “S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)”
  
  ## The latest campaign line
  
