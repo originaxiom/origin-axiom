@@ -1,0 +1,430 @@
+From 27db0e5eb11ad802de6a41e9cf89a25b2421fa5c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 11:02:11 +0000
+Subject: [PATCH 1/3] S306p the offers to peers: main's file, the runner's move
+ to OFFERED (the framework's thin path; P-885; main's M79): queue/OFFERS.json
+ on main names each card by its branch and path and its peer by seat code and
+ branch; each round a REPRODUCED card whose offer holds moves to OFFERED by
+ the runner, its note naming the peer; an offer to the card's own seat, its
+ own family or a branch not the code's is refused and reported; a card with no
+ offer stays REPRODUCED and is reported; only the offered peer's note is
+ taken; tests fail with each rule removed
+
+---
+ CHANGELOG.md                   |  13 ++++
+ PROGRESS_LOG.md                |   9 +++
+ docs/views/CONTEXT_RECOVERY.md |   2 +-
+ docs/views/THE_SPINE.md        |   3 +-
+ queue/OFFERS.json              |   4 +
+ queue/README.md                |   9 +++
+ scripts/queue/intake.py        |  87 ++++++++++++++++++++-
+ tests/test_queue_offers.py     | 134 +++++++++++++++++++++++++++++++++
+ 8 files changed, 257 insertions(+), 4 deletions(-)
+ create mode 100644 queue/OFFERS.json
+ create mode 100644 tests/test_queue_offers.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index dcc695035..507ccfd53 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,18 @@
+ # Changelog
+ 
++## S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)
++
++- **`queue/OFFERS.json`,** main's file, shipped with no offer: each offer names the card by its branch and path and the
++  peer by its seat code and branch.
++- **`scripts/queue/intake.py`:** each round, a REPRODUCED card whose offer holds moves to OFFERED, the runner's move, its
++  note naming the peer ("offered to <code> on <branch> (queue/OFFERS.json)"). An offer to the card's own seat, its own
++  family, or a branch that is not the code's in `queue/SEAT_CODES.json` is refused and reported; a card with no offer
++  stays REPRODUCED, and the report says so. The peer stage takes only the offered peer's note: a note on another seat's
++  branch, or in another code, is refused. Nothing moved a card past REPRODUCED, since the queue's branch is the runner's
++  alone.
++- **`queue/README.md`:** the offers.
++- **New test** `tests/test_queue_offers.py` (4 tests); each rule's removal makes one fail.
++
+ ## S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVEST ROW 2068; M79, M26, M28, M67, M8) (2026-11-28)
+ 
+ - **Made by main, at the author's word that nothing stall (M78's four points):**
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 0b4a66e07..3ab903814 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20751,3 +20751,12 @@
+ waits in silence.
+ 
+ 0 of 19.
++
++## 2026-11-28 — Offering a card to a peer, through main's own file (S306p)
++
++**What happened.** The building seat mended a fault that would have stopped the trial: nothing could move a reproduced
++card on to a peer, because only the runner may write the queue. Main now lists its offers in a file of its own, and each
++round the runner moves the offered cards on, refusing an offer to the card's own seat or family and taking only the named
++peer's note.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 66678dcf5..33582137c 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)”
+ - “S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVES…”
+ - “S306p THE RUNNER'S FIRST ROUND ON THE WORKFLOW READ: NOTHING RECORDED; THREE FAULTS AND ONE RULE TO THE BUILDER (P-885; M78) (2026-11-28)”
+ - “S306p THE PLANT LEDGER'S SEALS FILE MADE COMMITTABLE (P-885; T12; M77) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)”
+ - “S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)”
+ - “S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)”
+-- “S306p T11 LANDED: THE LANDING TOOL, THE SINGLE WRITER OF A BANKED CARD'S ARC (P-885; M72) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 5c72b2a96..003fe5d36 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1571 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1572 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1957,5 +1957,6 @@
+ - — `test_queue_banking.py` 
+ - — `test_queue_intake.py` 
+ - — `test_queue_land.py` 
++- — `test_queue_offers.py` 
+ - — `test_queue_peer_note.py` 
+ - — `test_queue_plants.py` 
+diff --git a/queue/OFFERS.json b/queue/OFFERS.json
+new file mode 100644
+index 000000000..6e46b0728
+--- /dev/null
++++ b/queue/OFFERS.json
+@@ -0,0 +1,4 @@
++{
++ "note": "Main's offers to peers (the framework's thin path; register row P-885; main's M79): each card by its branch and its path, since its queue id is given at intake, and its peer by seat code and branch, never a name. Each round the runner moves a REPRODUCED card whose offer holds to OFFERED, naming the peer; an offer to the card's own seat or own family is refused. Main fills this.",
++ "offers": []
++}
+diff --git a/queue/README.md b/queue/README.md
+index c53f64363..21735fc39 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -18,6 +18,15 @@
+   The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
+   queue's branch, `queue`.
+ 
++## The offers to peers (main's M79)
++
++The queue's branch is the runner's alone, so main offers a card to a peer in its own file on main, `queue/OFFERS.json`:
++each offer names the card by its branch and its path (its queue id is given at intake) and the peer by its seat code and
++branch. Each round the runner moves a REPRODUCED card whose offer holds to OFFERED, its note naming the peer. An offer to
++the card's own seat or its own family (the code's first part), or to a branch that is not the code's in
++`queue/SEAT_CODES.json`, is refused and reported. A card with no offer stays REPRODUCED, and the report says so. Only the
++offered peer's note is taken; another seat's note is refused.
++
+ ## The settings the author makes (once, in the repository's settings on GitHub)
+ 
+ 1. **Spending:** set the account's budget for Actions to $0, so a run that would cost money does not run. Standard runners
+diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
+index f2d0139f3..73aefee94 100644
+--- a/scripts/queue/intake.py
++++ b/scripts/queue/intake.py
+@@ -17,7 +17,10 @@
+      reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine;
+   6. the peer note (T8): a card OFFERED to a peer moves to PEERED once the peer's note, on its own branch, holds the
+      runner's check (scripts/queue/peer_note.py), the peer's script rerun in the same sandbox; a note that does not is
+-     reported and the card stays OFFERED. Offers are made by hand in the trial;
++     reported and the card stays OFFERED. The offer is main's, in queue/OFFERS.json on main (main's M79): a REPRODUCED
++     card whose offer holds moves to OFFERED, by the runner, its note naming the peer's code and branch; an offer to the
++     card's own seat or its own family is refused and reported; a card with no offer stays REPRODUCED, and the report
++     says so. Only the offered peer's note is taken; another seat's is refused;
+   7. the end of the peer stage (T9): after the peer's note, or 72 hours after the offer with no note that holds, a card
+      that decides something goes to AT_BANKING, and a card that decides nothing ends at NOT_BANKED;
+   8. banking (T9): the cards AT_BANKING, in queue order (M64 item 13), are checked against the two banking seats'
+@@ -46,6 +49,7 @@
+ import hashlib
+ import importlib.util
+ import json
++import re
+ import pathlib
+ import subprocess
+ import sys
+@@ -71,6 +75,8 @@
+ PN = _load("peer_note_for_intake", HERE / "peer_note.py")
+ BK = _load("banking_for_intake", HERE / "banking.py")
+ PEER_HOURS = 72                    # § 9: an offer with no note that holds goes to banking after 72 hours, marked so
++OFFERS = ROOT / "queue" / "OFFERS.json"       # main's offers to peers (main's M79)
++OFFERED_TO = re.compile(r"offered to (\S+) on (\S+) \(queue/OFFERS\.json\)")
+ MAX_CARDS = 3                      # cards rerun in one round, so that a round stays inside the job's time
+ 
+ 
+@@ -121,13 +127,64 @@
+     return (datetime.datetime.strptime(b, f) - datetime.datetime.strptime(a, f)).total_seconds() / 3600
+ 
+ 
++def read_offers(path=OFFERS):
++    """({(the card's branch, its path): {"code", "branch"} of the peer}, problems): main's queue/OFFERS.json. Its form:
++    {"note": ..., "offers": [{"branch": <the card's branch>, "path": <the card's path>,
++                              "peer": {"code": <the peer's seat code>, "branch": <the peer's branch>}}]}"""
++    try:
++        d = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
++    except OSError:
++        return {}, []
++    except ValueError:
++        return {}, ["queue/OFFERS.json is not JSON"]
++    offers, bad = {}, []
++    for i, o in enumerate(d.get("offers", []) if isinstance(d, dict) else [], 1):
++        peer = o.get("peer") if isinstance(o, dict) else None
++        if not isinstance(o, dict) or sorted(o) != ["branch", "path", "peer"] or not isinstance(peer, dict) \
++                or sorted(peer) != ["branch", "code"]:
++            bad.append("offer %d holds exactly branch, path and peer {code, branch}" % i)
++            continue
++        problems = QS.code_problems(peer["code"], "the peer's code") + \
++            ([] if QS.branch_ok(o["branch"]) else ["the card's branch is not a branch's name"]) + \
++            ([] if QS.branch_ok(peer["branch"]) else ["the peer's branch is not a branch's name"])
++        if not isinstance(o["path"], str) or not o["path"].startswith("relays/claims/"):
++            problems.append("the card's path is not under relays/claims/")
++        if (o["branch"], o["path"]) in offers:
++            problems.append("the card is offered twice")
++        if problems:
++            bad.append("offer %d: %s" % (i, "; ".join(problems)))
++            continue
++        offers[(o["branch"], o["path"])] = dict(peer)
++    return offers, bad
++
++
++def offer_problems(rec, peer, codes):
++    """why an offer cannot be made: the card's own seat, its own family, or a peer branch that is not the code's"""
++    if peer["code"] == rec["seat_code"]:
++        return ["it is offered to the card's own seat %s" % peer["code"]]
++    if peer["code"].split("-")[0] == rec["seat_code"].split("-")[0]:
++        return ["it is offered to the card's own family (%s)" % peer["code"].split("-")[0]]
++    code, why = D.code_for(peer["branch"], codes, list(codes))
++    if code != peer["code"]:
++        return ["the peer's branch %s is %s in queue/SEAT_CODES.json, not %s" % (
++            peer["branch"], code, peer["code"])] if code else [why]
++    return []
++
++
++def offered_to(rec):
++    """(the peer's code, its branch) of the card's last offer made from queue/OFFERS.json, or None (an offer by hand)"""
++    offers = [e for e in rec["history"] if e["status"] == "OFFERED"]
++    m = OFFERED_TO.match(offers[-1]["note"]) if offers else None
++    return (m.group(1), m.group(2)) if m else None
++
++
+ def queue_order(cards):
+     """the cards' ids in queue order: by the number of the id, Q0001 first (M64 item 13: banking takes cards so)"""
+     return sorted(cards, key=lambda c: (int(c[1:]) if c[1:].isdigit() else float("inf"), c))
+ 
+ 
+ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_LIMIT, max_cards=MAX_CARDS,
+-           prefix=None, allow_static=False, codes=None, seats_file=None):
++           prefix=None, allow_static=False, codes=None, seats_file=None, offers_file=None):
+     """one round: (the cards after it, the log after it, {id: attachment}, report lines, exit status). The queue's folder
+     is read once, at the start; what the round decides is held in memory and written only after every rerun (main's M62)"""
+     at = at or _now()
+@@ -223,12 +280,31 @@
+         else:
+             _move(rec, "RETURNED_AT_INTAKE", "the rerun: " + "; ".join(res["reasons"]), at)
+             report.append("%s RETURNED_AT_INTAKE (rerun)" % cid)
++    # main's M79: the offers are main's, in queue/OFFERS.json; the runner moves a REPRODUCED card whose offer holds
++    offers, bad = read_offers(offers_file or OFFERS)
++    report += ["queue/OFFERS.json: %s" % b for b in bad]
++    the_codes = codes if codes is not None else D.seat_codes()
++    for cid in queue_order(cards):
++        rec = cards[cid]
++        if rec["status"] != "REPRODUCED":
++            continue
++        peer = offers.get((rec["branch"], rec["card_path"]))
++        if peer is None:
++            report.append("%s REPRODUCED, and queue/OFFERS.json offers it to no peer yet" % cid)
++            continue
++        why = offer_problems(rec, peer, the_codes)
++        if why:
++            report.append("%s: its offer in queue/OFFERS.json is refused: %s" % (cid, "; ".join(why)))
++            continue
++        _move(rec, "OFFERED", "offered to %s on %s (queue/OFFERS.json)" % (peer["code"], peer["branch"]), at)
++        report.append("%s OFFERED to %s on %s" % (cid, peer["code"], peer["branch"]))
+     # T8: a card OFFERED to a peer moves to PEERED when the peer's note, on the peer's own branch, holds the runner's check
+     for cid in sorted(cards):
+         rec = cards[cid]
+         if rec["status"] != "OFFERED":
+             continue
+         text = _card_text(root, rec)
++        named = offered_to(rec)                       # main's M79: only the offered peer's note is taken
+         for key, ref in (refs if refs is not None else D.branches()):
+             branch = ref.split("/", 1)[1] if ref.startswith("origin/") else ref
+             rc = subprocess.run(["git", "log", "-1", "--format=%H", ref, "--", PN.note_path(cid)], cwd=root,
+@@ -236,6 +312,10 @@
+             commit = rc.stdout.strip()
+             if rc.returncode != 0 or not commit:
+                 continue
++            if named and branch != named[1]:
++                report.append("%s: the peer note on %s is refused: the card is offered to %s on %s, not to this seat"
++                              % (cid, ref, named[0], named[1]))
++                continue
+             raw = subprocess.run(["git", "show", "%s:%s" % (commit, PN.note_path(cid))], cwd=root, capture_output=True,
+                                  text=True)
+             if raw.returncode != 0:
+@@ -255,6 +335,9 @@
+                     entries = entries + [e]
+             res = PN.check(root, note, commit, branch, rec, text or "", entries, limit=limit, prefix=prefix,
+                            allow_static=allow_static)
++            if named and res["ok"] and note.get("peer_code") != named[0]:
++                res = dict(res, ok=False, reasons=["the note's peer %s is not the offered peer %s" % (
++                    note.get("peer_code"), named[0])])
+             attach(cid)["peer"] = dict(res, branch=branch, commit=commit)
+             if res["ok"]:
+                 _move(rec, "PEERED", "the peer note on %s at %s: %s, graded %s%s" % (
+diff --git a/tests/test_queue_offers.py b/tests/test_queue_offers.py
+new file mode 100644
+index 000000000..ec4fd6272
+--- /dev/null
++++ b/tests/test_queue_offers.py
+@@ -0,0 +1,134 @@
++"""2026-11-28 (the framework's thin path; register row P-885; main's M79): the offers to peers, main's
++queue/OFFERS.json, and the runner's move from REPRODUCED to OFFERED.
++
++The queue's branch is written by the runner's key alone, so main cannot offer a card by hand there. On a repository built
++here: a REPRODUCED card whose offer holds is OFFERED by the runner, its note naming the peer; a card with no offer stays
++REPRODUCED and the report says so; an offer to the card's own seat, its own family, or a branch that is not the code's is
++refused; the offered peer's note is taken, and another seat's note, or a note in another code, is refused. The file's
++form is planted rule by rule."""
++import importlib.util
++import json
++import pathlib
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec)
++    sys.dont_write_bytecode = True
++    spec.loader.exec_module(m)
++    return m
++
++
++PT = _load("peer_tests_for_the_offers", "tests/test_queue_peer_note.py")
++IN, T = PT.IN, PT.T
++OTHER = "fam4-v1-high-01"
++CODES = {"seat/a": "fam2-v5-high-01", "seat/p": PT.PEER, "seat/x": OTHER, "seat/kin": "fam2-v6-high-02"}
++REFS = [("a", "origin/seat/a"), ("p", "origin/seat/p"), ("x", "origin/seat/x")]
++
++
++def _reproduced(tmp_path):
++    repo, q = tmp_path / "repo", tmp_path / "queue"
++    repo.mkdir(parents=True)
++    g = PT._g(repo)
++    g("init", "-q", "-b", "seat/a")
++    (repo / "s_good.py").write_text(T._script("good"), encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "the script")
++    stated = g("rev-parse", "HEAD").strip()
++    (repo / "relays" / "claims").mkdir(parents=True)
++    (repo / "relays" / "claims" / "CLAIM_good.md").write_text(T._card("a count that holds", "good", stated=stated),
++                                                              encoding="utf-8")
++    g("add", "-A")
++    g("commit", "-q", "-m", "a card")
++    g("update-ref", "refs/remotes/origin/seat/a", "HEAD")
++    return repo, q, g
++
++
++def _offers(tmp_path, *offers):
++    f = tmp_path / "OFFERS.json"
++    f.write_text(json.dumps({"note": "n", "offers": [
++        {"branch": b, "path": "relays/claims/CLAIM_good.md", "peer": {"code": c, "branch": pb}} for b, c, pb in offers]}))
++    return f
++
++
++def _round(repo, q, offers, at="2026-11-26T12:00:00Z"):
++    out = IN.round_(q, root=repo, refs=REFS, codes=CODES, at=at, limit=60, allow_static=True, offers_file=offers)
++    IN.write(q, out[0], out[1], out[2])
++    return out
++
++
++def test_a_reproduced_card_with_an_offer_is_offered_by_the_runner_and_one_with_none_stays_m79(tmp_path):
++    repo, q, g = _reproduced(tmp_path / "none")
++    cards, _, _, report, status = _round(repo, q, _offers(tmp_path / "none"))
++    (cid, rec), = cards.items()
++    assert status == 0 and rec["status"] == "REPRODUCED", report
++    assert "%s REPRODUCED, and queue/OFFERS.json offers it to no peer yet" % cid in report
++    repo, q, g = _reproduced(tmp_path / "one")
++    cards, _, _, report, status = _round(repo, q, _offers(tmp_path / "one", ("seat/a", PT.PEER, "seat/p")))
++    (cid, rec), = cards.items()
++    assert rec["status"] == "OFFERED" and rec["history"][-1]["by"] == "runner", report
++    assert rec["history"][-1]["note"] == "offered to %s on seat/p (queue/OFFERS.json)" % PT.PEER
++    assert IN.offered_to(rec) == (PT.PEER, "seat/p")
++    assert IN.QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) == []
++
++
++def test_an_offer_to_the_cards_own_seat_its_own_family_or_a_branch_not_the_codes_is_refused_m79(tmp_path):
++    for i, (code, branch, words) in enumerate((("fam2-v5-high-01", "seat/a", "the card's own seat"),
++                                               ("fam2-v6-high-02", "seat/kin", "the card's own family (fam2)"),
++                                               (OTHER, "seat/p", "seat/p is %s in queue/SEAT_CODES.json, not %s" % (PT.PEER, OTHER)),
++                                               (OTHER, "seat/nowhere", "is not in queue/SEAT_CODES.json"))):
++        repo, q, g = _reproduced(tmp_path / str(i))
++        cards, _, _, report, _ = _round(repo, q, _offers(tmp_path / str(i), ("seat/a", code, branch)))
++        (cid, rec), = cards.items()
++        assert rec["status"] == "REPRODUCED" and any("its offer in queue/OFFERS.json is refused" in r and words in r
++                                                     for r in report), (words, report)
++
++
++def test_only_the_offered_peers_note_is_taken_m79(tmp_path):
++    # the offered peer's note is taken
++    repo, q, g = _reproduced(tmp_path / "ok")
++    offers = _offers(tmp_path / "ok", ("seat/a", PT.PEER, "seat/p"))
++    cards, *_ = _round(repo, q, offers)
++    (cid, rec), = cards.items()
++    PT._file_note(repo, g, PT._note(cid, rec["commit"]))
++    cards, _, att, report, _ = _round(repo, q, offers, at="2026-11-26T14:00:00Z")
++    assert "PEERED" in [e["status"] for e in cards[cid]["history"]], report
++    # another seat's note, on its own branch, is refused, and the card stays OFFERED
++    repo, q, g = _reproduced(tmp_path / "other")
++    offers = _offers(tmp_path / "other", ("seat/a", PT.PEER, "seat/p"))
++    cards, *_ = _round(repo, q, offers)
++    (cid, rec), = cards.items()
++    PT._file_note(repo, g, PT._note(cid, rec["commit"], peer=OTHER), branch="seat/x")
++    cards, _, att, report, _ = _round(repo, q, offers, at="2026-11-26T14:00:00Z")
++    assert cards[cid]["status"] == "OFFERED", report
++    assert any("on origin/seat/x is refused: the card is offered to %s on seat/p" % PT.PEER in r for r in report), report
++    # a note on the offered branch in another seat's code is refused too
++    repo, q, g = _reproduced(tmp_path / "code")
++    offers = _offers(tmp_path / "code", ("seat/a", PT.PEER, "seat/p"))
++    cards, *_ = _round(repo, q, offers)
++    (cid, rec), = cards.items()
++    PT._file_note(repo, g, PT._note(cid, rec["commit"], peer=OTHER))
++    cards, _, att, report, _ = _round(repo, q, offers, at="2026-11-26T14:00:00Z")
++    assert cards[cid]["status"] == "OFFERED" and "is not the offered peer" in att[cid]["peer"]["reasons"][0], report
++
++
++def test_the_offers_file_form_and_the_one_shipped(tmp_path):
++    f = tmp_path / "o.json"
++    good = {"branch": "seat/a", "path": "relays/claims/CLAIM_good.md", "peer": {"code": PT.PEER, "branch": "seat/p"}}
++    for offers, words in (([dict(good, name="x")], "holds exactly branch, path and peer"),
++                          ([dict(good, peer={"code": PT.PEER})], "holds exactly branch, path and peer"),
++                          ([dict(good, peer={"code": "a name", "branch": "seat/p"})], "the peer's code"),
++                          ([dict(good, path="docs/x.md")], "not under relays/claims/"),
++                          ([dict(good, branch="../x")], "the card's branch is not a branch's name"),
++                          ([good, dict(good)], "the card is offered twice")):
++        f.write_text(json.dumps({"note": "n", "offers": offers}))
++        offers_read, bad = IN.read_offers(f)
++        assert any(words in b for b in bad), (words, bad)
++    f.write_text("not json")
++    assert IN.read_offers(f) == ({}, ["queue/OFFERS.json is not JSON"])
++    assert IN.read_offers(tmp_path / "absent.json") == ({}, [])
++    shipped, bad = IN.read_offers(ROOT / "queue" / "OFFERS.json")
++    assert bad == [], bad
+-- 
+2.43.0
+

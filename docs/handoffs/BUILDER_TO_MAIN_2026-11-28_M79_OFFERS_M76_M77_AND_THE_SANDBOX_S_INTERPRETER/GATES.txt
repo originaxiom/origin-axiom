@@ -1,0 +1,4 @@
+OFFERS 27db0e5eb 60 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-28): 295 seat-index ids across 33 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+M76 4b1d668ea 60 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-28): 295 seat-index ids across 33 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+SANDBOX ad4a5cbd0 60 gates; red: harvest-debt | harvest-debt: harvest-debt (2026-11-28): 295 seat-index ids across 33 seats; NEW unrowed 0, BACKLOG 0, STALE rows 
+FINISHED

@@ -1,0 +1,283 @@
+From 4b1d668eaf31db355623f8a91a96847993580804 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 11:02:29 +0000
+Subject: [PATCH 2/3] S306p the plant ledger's four holes in the opening, and
+ its seals on main's .gitignore (the framework's thin path, T12; P-885; main's
+ M76, M77): an opened ledger stays along the history; round n is opened before
+ round n + 1 is sealed; a seat's content sighted after the opening is reported
+ as opened early and not counted; an expectation is a seat's content, for
+ sealed late and opened early; the ledger's round said to be a batch of cards;
+ a test that main's .gitignore ignores neither the seals nor a ledger; tests
+ fail with each hole put back
+
+---
+ CHANGELOG.md                   | 13 ++++++++
+ PROGRESS_LOG.md                |  9 ++++++
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ queue/README.md                |  4 ++-
+ scripts/queue/plants.py        | 52 ++++++++++++++++++++++++------
+ tests/test_queue_plants.py     | 59 +++++++++++++++++++++++++++++++++-
+ 6 files changed, 126 insertions(+), 13 deletions(-)
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 507ccfd53..deead5b72 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,18 @@
+ # Changelog
+ 
++## S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)
++
++- **`scripts/queue/plants.py`:** a ledger once opened along main's first-parent history stays: one taken out fails the
++  gate. Round n's ledger is opened by the commit that seals round n + 1, or before it, so a round is not left sealed and
++  never opened. The measure leaves out, as "opened early", a plant whose seat's content was first sighted after the
++  commit that opened its ledger, which is public from then on; and it reads an expectation as a seat's content, beside
++  verdicts and notes, for "sealed late" and "opened early" alike.
++- **The word "round":** the ledger's round is a batch of cards, opened when every card it names has ended, not one run of
++  the runner; said in `plants.py`'s docstring and the queue's README.
++- **Main's `.gitignore`:** a test that it ignores neither `queue/PLANT_SEALS.jsonl` nor `queue/plants/ROUND_<n>.json`
++  (main's M77: `*.jsonl` had ignored the seals, and round 1's seal could not be committed).
++- **Tests** `tests/test_queue_plants.py` (8 tests); each hole, put back, makes one fail.
++
+ ## S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)
+ 
+ - **`queue/OFFERS.json`,** main's file, shipped with no offer: each offer names the card by its branch and path and the
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 3ab903814..b15c3343d 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20760,3 +20760,12 @@
+ peer's note.
+ 
+ 0 of 19.
++
++## 2026-11-28 — The plant ledger's opening made tight (S306p)
++
++**What happened.** The building seat closed four ways around the plant ledger that main found. A published list of plants
++can no longer be deleted afterwards; a round's list must be published before the next round is sealed; a verdict seen
++only after a list was published no longer counts as a catch; and a seat's written expectation counts as its content, like
++its verdict. A test now checks that the repository's ignore rules let main commit the fingerprints and the lists.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 33582137c..6ee4a69a6 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)”
+ - “S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)”
+ - “S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVES…”
+ - “S306p THE RUNNER'S FIRST ROUND ON THE WORKFLOW READ: NOTHING RECORDED; THREE FAULTS AND ONE RULE TO THE BUILDER (P-885; M78) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p THE PLANT LEDGER: SEALED BEFORE ITS ROUND, OPENED AFTER IT (the framework's thin path, T12; P-885) (2026-11-28)”
+ - “S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)”
+ - “S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)”
+-- “S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/queue/README.md b/queue/README.md
+index 21735fc39..0e3866ae1 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -78,7 +78,9 @@
+ 
+ ## The plant ledger (the thin path's patch T12)
+ 
+-Main's alone, and not read by any seat before it is opened. Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
++Main's alone, and not read by any seat before it is opened. **Its round is a batch of cards, not one run of the runner**
++(the runs above, every three hours, are a different round): a ledger is opened only when every card it names has ended,
++its status final, and round n's ledger is opened before round n + 1 is sealed (main's M76). Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
+ it untracked, commits its seal (`python3 scripts/queue/plants.py --seal queue/plants/ROUND_<n>.json`, a line appended to
+ `queue/PLANT_SEALS.jsonl`), lets the round run, and then commits the ledger, which opens it. A fresh nonce for each ledger:
+ `plants.py --nonce`. The catch rates: `plants.py --measure <the queue/ folder of the queue's branch>`. The gate
+diff --git a/scripts/queue/plants.py b/scripts/queue/plants.py
+index 1964f58fd..2af06ed4f 100644
+--- a/scripts/queue/plants.py
++++ b/scripts/queue/plants.py
+@@ -6,6 +6,10 @@
+ into the peer stage and banking, unknown to the seats. Which cards are planted, and how, is main's alone. This file holds
+ the format and the checks, never a plant: the builder does not see the ledger's contents (main's M54).
+ 
++THE WORD "ROUND" (main's M76 point 3). The ledger's round is a batch of cards, not one run of the runner, which the queue's
++README also calls a round and which comes every three hours. A ledger's round ends when every card it names has ended (its
++status final: VERIFIED, RETURNED, REFUSED, WITHDRAWN, NOT_BANKED, RETURNED_AT_INTAKE); only then is its ledger opened.
++
+ EACH ROUND, in this order, all on main:
+   1. main writes the round's ledger, `queue/plants/ROUND_<n>.json`, and keeps it untracked;
+   2. main commits its seal, one line appended to `queue/PLANT_SEALS.jsonl`: {"round": n, "sha256": <the ledger's SHA-256>}
+@@ -29,13 +33,18 @@
+   - it is only appended to, along main's first-parent history: no line is ever changed or taken out;
+   - every opened ledger holds its form, has its round's seal, and hashes, byte for byte, to it;
+   - a ledger is opened in a commit after the one that added its seal, never in the same one;
+-  - an opened ledger never changes afterwards.
++  - an opened ledger never changes afterwards, and is never taken out (main's M76);
++  - round n's ledger is opened by the commit that seals round n + 1, or before it (main's M76): a round is not left
++    sealed and never opened.
+ 
+ THE MEASURE (`--measure QDIR`): for each plant of every opened ledger, the queue's card filed from its branch and path, and
+ what each seat said of it. A banking seat catches a plant when its verdict is one of the plant's `caught_by`; a peer, when
+ its note's finding is "fault". The report gives each seat's catches over its plants, and the shapes not yet planted in
+-any round (THE_RULES_SORTED: one plant of each shape over the rounds). A plant whose card's first verdict or note was
+-sighted by the runner before its round's seal was committed is reported as sealed late: the measure does not count it.
++any round (THE_RULES_SORTED: one plant of each shape over the rounds). Two kinds of plant are reported and not counted:
++  - sealed late: a seat's content for the card (a verdict, a note or an expectation) was first sighted by the runner
++    before its round's seal was committed;
++  - opened early (main's M76): a seat's content for the card was first sighted after the commit that opened the ledger,
++    which is public on main from then on.
+ 
+     python3 scripts/queue/plants.py --check                 # the gate's rules on this checkout; exit 1 when one fails
+     python3 scripts/queue/plants.py --seal LEDGER           # the seal line for LEDGER, after its form is checked
+@@ -60,6 +69,7 @@
+ SOURCES = ("main", "auditor", "calibration")
+ CATCHES = ("REFUSE", "RETURN")
+ HEX64 = re.compile(r"[0-9a-f]{64}")
++SEAT_CONTENT = ("verdict", "peer", "expect")          # what a seat files about a card, as the sighting log names it (M76)
+ PLANT_KEYS = ("branch", "path", "shape", "stage", "source", "fault", "caught_by")
+ 
+ 
+@@ -162,6 +172,17 @@
+         before = now
+     if not text.startswith(before):
+         bad.append("%s in the working tree changes a committed line: it is only appended to" % SEALS)
++    # a ledger once opened stays (main's M76): every ROUND_<n>.json ever added along main's first-parent history is here
++    rc, added = _git(root, "log", "--first-parent", "--diff-filter=A", "--name-only", "--format=", "HEAD", "--", LEDGERS)
++    for rel in sorted(set(l.strip() for l in added.splitlines() if l.strip())):
++        if not (root / rel).is_file():
++            bad.append("%s was opened and is gone: an opened ledger stays" % rel)
++    # every round sealed after the first: the round before it opened by then (main's M76)
++    for n in sorted(sealed_in):
++        if n - 1 >= 1 and n - 1 in sealed_in:
++            opened_prev = _first_parent(root, "%s/ROUND_%d.json" % (LEDGERS, n - 1)) or []
++            if not opened_prev or _git(root, "merge-base", "--is-ancestor", opened_prev[0], sealed_in[n])[0] != 0:
++                bad.append("round %d is sealed and round %d's ledger was not opened by then" % (n, n - 1))
+     # every opened ledger: its form, its seal, its hash, opened after its seal and never changed
+     d = root / LEDGERS
+     for led in sorted(d.iterdir()) if d.is_dir() else []:
+@@ -235,7 +256,13 @@
+             sealed_at.setdefault(s["round"], _commit_time(root, c))
+     banking = _json(root / "queue" / "BANKING_SEATS.json")
+     codes = (_json(root / "queue" / "SEAT_CODES.json") or {}).get("codes", {})
+-    seats, out, late, shapes = {}, [], [], set()
++    opened_at = {}
++    for led in sorted((root / LEDGERS).glob("ROUND_*.json")) if (root / LEDGERS).is_dir() else []:
++        first = (_first_parent(root, "%s/%s" % (LEDGERS, led.name)) or [None])[0]
++        m = LEDGER_NAME.fullmatch(led.name)
++        if first and m:
++            opened_at[int(m.group(1))] = _commit_time(root, first)
++    seats, out, late, early, shapes = {}, [], [], [], set()
+     for led in sorted((root / LEDGERS).glob("ROUND_*.json")) if (root / LEDGERS).is_dir() else []:
+         d = json.loads(led.read_text(encoding="utf-8"))
+         for p in d["plants"]:
+@@ -249,12 +276,17 @@
+                 continue
+             cf = qdir / "checks" / ("%s.json" % rec["id"])
+             check = json.loads(cf.read_text(encoding="utf-8")) if cf.is_file() else {}
+-            first_seen = min((e["at"] for e in entries if e.get("what") in ("verdict", "peer")
+-                              and rec["id"] in e.get("path", "")), default=None)
+-            if first_seen and sealed_at.get(d["round"]) and first_seen < sealed_at[d["round"]]:
++            seen = sorted(e["at"] for e in entries if e.get("what") in SEAT_CONTENT and rec["id"] in e.get("path", ""))
++            if seen and sealed_at.get(d["round"]) and seen[0] < sealed_at[d["round"]]:
+                 late.append(row)
+-                row["note"] = "sealed late: a verdict or note was sighted at %s, before the seal at %s" % (
+-                    first_seen, sealed_at[d["round"]])
++                row["note"] = "sealed late: a seat's content was sighted at %s, before the seal at %s" % (
++                    seen[0], sealed_at[d["round"]])
++                out.append(row)
++                continue
++            if seen and opened_at.get(d["round"]) and seen[-1] > opened_at[d["round"]]:
++                early.append(row)
++                row["note"] = "opened early: a seat's content was sighted at %s, after the ledger was opened at %s" % (
++                    seen[-1], opened_at[d["round"]])
+                 out.append(row)
+                 continue
+             for v, g in sorted((check.get("banking") or {}).items()):
+@@ -274,7 +306,7 @@
+                 seats[code][0] += int(peered[0].group(2) == "fault")
+                 seats[code][1] += 1
+             out.append(row)
+-    return {"seats": seats, "plants": out, "late": late, "unplanted": [s for s in SHAPES if s not in shapes],
++    return {"seats": seats, "plants": out, "late": late, "early": early, "unplanted": [s for s in SHAPES if s not in shapes],
+             "rounds_sealed": len(seals)}
+ 
+ 
+diff --git a/tests/test_queue_plants.py b/tests/test_queue_plants.py
+index e01785b9b..f2869ef27 100644
+--- a/tests/test_queue_plants.py
++++ b/tests/test_queue_plants.py
+@@ -108,7 +108,8 @@
+ 
+ def test_the_seals_are_only_appended_to_and_their_rounds_go_in_order(tmp_path):
+     g = _repo(tmp_path / "a")
+-    _seal(tmp_path / "a", g, _ledger(1))
++    raw = _seal(tmp_path / "a", g, _ledger(1))
++    _open(tmp_path / "a", g, _ledger(1), raw)                         # round 1 opened before round 2 is sealed (M76)
+     _seal(tmp_path / "a", g, _ledger(2))
+     assert P.problems(tmp_path / "a") == []
+     f = tmp_path / "a" / P.SEALS
+@@ -195,3 +196,59 @@
+     assert r.returncode == 0 and P.HEX64.fullmatch(r.stdout.strip())
+     assert subprocess.run(cmd + ["--check"], capture_output=True, text=True).returncode == 0
+     assert GATES.gate_plant_ledger()[0] is True
++
++
++def test_an_opened_ledger_stays_and_a_round_is_opened_before_the_next_is_sealed_m76(tmp_path):
++    """main's M76 point 2: an opened ledger deleted in a later commit passed; so did round 2 sealed, round 3 sealed and
++    round 2 never opened. Each twin passes"""
++    g = _repo(tmp_path / "gone")
++    raw = _seal(tmp_path / "gone", g, _ledger(1))
++    _open(tmp_path / "gone", g, _ledger(1), raw)
++    assert P.problems(tmp_path / "gone") == []
++    g("rm", "-q", "%s/ROUND_1.json" % P.LEDGERS)
++    g("commit", "-q", "-m", "the ledger taken out")
++    bad = P.problems(tmp_path / "gone")
++    assert any("ROUND_1.json was opened and is gone" in b for b in bad), bad
++    g = _repo(tmp_path / "skip")
++    raw1 = _seal(tmp_path / "skip", g, _ledger(1))
++    _open(tmp_path / "skip", g, _ledger(1), raw1)
++    _seal(tmp_path / "skip", g, _ledger(2))
++    assert P.problems(tmp_path / "skip") == []                          # round 2 sealed, its round still running
++    _seal(tmp_path / "skip", g, _ledger(3))
++    bad = P.problems(tmp_path / "skip")
++    assert bad == ["round 3 is sealed and round 2's ledger was not opened by then"], bad
++
++
++def _times(tmp_path, seal_at, open_at, seen_at, what="verdict"):
++    g = _repo(tmp_path / "r")
++    raw = _seal(tmp_path / "r", g, _ledger(), at=seal_at)
++    _open(tmp_path / "r", g, _ledger(), raw, at=open_at)
++    (tmp_path / "r" / "queue" / "BANKING_SEATS.json").write_text(json.dumps(
++        {"V1": {"code": "fam1-v1-unset-04", "branch": "sm/banking"}, "V2": {"code": "fam1-v1-unset-05", "branch": "sm2/banking"}}))
++    q = _queue(tmp_path, first_seen=seen_at)
++    if what != "verdict":
++        line = json.loads((q / "SIGHTINGS.jsonl").read_text())
++        line.update(what=what, path="relays/claims/banking/EXPECT_Q0001.md")
++        (q / "SIGHTINGS.jsonl").write_text(json.dumps(line) + "\n")
++    return P.measure(q, root=tmp_path / "r")
++
++
++def test_a_verdict_sighted_after_the_opening_is_opened_early_and_an_expectation_before_the_seal_is_sealed_late_m76(tmp_path):
++    """main's M76 point 2, its probe: the seal at 01:00, the opening at 02:00, both verdicts first sighted at 05:00; V1's
++    REFUSE was counted as a catch. An expectation is a seat's content too"""
++    m = _times(tmp_path / "early", "2026-11-28T01:00:00+00:00", "2026-11-28T02:00:00+00:00", "2026-11-28T05:00:00Z")
++    assert m["seats"] == {} and len(m["early"]) == 1 and m["late"] == [], m
++    assert "opened early: a seat's content was sighted at 2026-11-28T05:00:00Z" in m["plants"][0]["note"]
++    m = _times(tmp_path / "twin", "2026-11-28T01:00:00+00:00", "2026-11-28T09:00:00+00:00", "2026-11-28T05:00:00Z")
++    assert m["seats"]["fam1-v1-unset-04"] == [1, 1] and m["early"] == [] and m["late"] == [], m
++    m = _times(tmp_path / "expect", "2026-11-28T06:00:00+00:00", "2026-11-28T09:00:00+00:00", "2026-11-28T05:00:00Z",
++               what="expect")
++    assert len(m["late"]) == 1 and m["seats"] == {}, m
++
++
++def test_main_s_gitignore_ignores_neither_the_seals_nor_a_ledger_m77():
++    """main's M77: .gitignore's *.jsonl ignored queue/PLANT_SEALS.jsonl, and round 1's seal could not be committed; the
++    tests built repositories without main's .gitignore and could not see it"""
++    for rel in (P.SEALS, "%s/ROUND_1.json" % P.LEDGERS, "%s/ROUND_12.json" % P.LEDGERS):
++        r = subprocess.run(["git", "check-ignore", "-q", "--no-index", rel], cwd=ROOT, capture_output=True)
++        assert r.returncode == 1, "%s is ignored by main's .gitignore" % rel
+-- 
+2.43.0
+

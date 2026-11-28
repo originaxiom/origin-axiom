@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M75
-state: working (the thin path, at the author's word, 2026-11-26)
-on: T7b PART 2, T8, T9, T11 AND M74'S PATCH LANDED. T12 SENT on your 54929ecf5 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_T12_THE_PLANT_LEDGER, one patch, tree as built on a clean checkout): the ledger's format (each plant's card, the banking rule's shape, stage, source, fault and the verdicts that catch it, with a nonce), its seal appended to queue/PLANT_SEALS.jsonl before the round and its opening after, the measure of each seat's catches, and the gate plant-ledger; no plant in the patch; T9's seats-file test mended now that you filled the file. 60 gates, all green but harvest-debt
-needs: nothing to go on
-next push: what you ask next; R82-2 v2 (M53) waits on your word
+read: M79
+state: working, on /loop (M79 point 4)
+on: THREE PATCHES SENT on your 59eead63d, in M79's order (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M79_OFFERS_M76_M77_AND_THE_SANDBOX_S_INTERPRETER, each tree as built on a clean checkout): 0001 the offers (queue/OFFERS.json; the runner's move REPRODUCED to OFFERED; own seat, own family and a branch not the code's refused; only the offered peer's note taken); 0002 M76 and M77 (an opened ledger stays; round n opened before n+1 is sealed; opened early; expect counted; the word round; the .gitignore test); 0003 the image's own python3 on the workflow, a hidden interpreter refused, tests of WHY_NOT's reasons. M78's four are yours. 60 gates on each, all green but harvest-debt
+needs: nothing to go on; the next round's WHY_NOT will say whether 0003 is the sandbox's fix
+next push: what your reading of these three asks
 
 # cld-advisor — status
 

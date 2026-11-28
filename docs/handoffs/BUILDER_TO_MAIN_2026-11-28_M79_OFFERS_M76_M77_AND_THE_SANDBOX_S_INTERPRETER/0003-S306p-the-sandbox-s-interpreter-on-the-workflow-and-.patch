@@ -1,0 +1,170 @@
+From ad4a5cbd0c0a62f2949aa742490e84fe4bf1d595 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 11:07:31 +0000
+Subject: [PATCH 3/3] S306p the sandbox's interpreter on the workflow, and
+ tests of main's M78 reasons (the framework's thin path; P-885; main's M78,
+ M79): the round runs the image's own python3, outside every world-writable
+ directory and needing no LD_LIBRARY_PATH, not actions/setup-python's; an
+ interpreter under a directory the wrap covers is refused, and WHY_NOT says
+ so; each of WHY_NOT's reasons and a HEAVY card carrying them planted as tests
+
+---
+ .github/workflows/intake.yml   | 13 ++++++++-----
+ CHANGELOG.md                   | 12 ++++++++++++
+ PROGRESS_LOG.md                |  8 ++++++++
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ scripts/queue/rerun.py         | 10 ++++++++++
+ tests/test_queue_rerun.py      | 35 ++++++++++++++++++++++++++++++++++
+ 6 files changed, 74 insertions(+), 6 deletions(-)
+
+diff --git a/.github/workflows/intake.yml b/.github/workflows/intake.yml
+index 09f5f7241..38e3a29f5 100644
+--- a/.github/workflows/intake.yml
++++ b/.github/workflows/intake.yml
+@@ -47,13 +47,16 @@
+             git archive "origin/${QUEUE_BRANCH}" queue | tar -x -C queue-state
+           fi
+           mkdir -p queue-state/queue
+-      - uses: actions/setup-python@v5
+-        with:
+-          python-version: "3.12"
+-      - name: Install the allowed packages at their pins
++      # CHANGED 2026-11-28 (the builder, at M78 point 2): the image's own python3, not actions/setup-python's. That
++      # interpreter sits under /opt/hostedtoolcache, which the wrap covers with an empty tmpfs when the image leaves it
++      # writable by all, and it needs LD_LIBRARY_PATH, which sudo drops; /usr/bin/python3 is root's and needs neither.
++      # The lines as they stood: uses: actions/setup-python@v5, with python-version "3.12", and pip install for it
++      - name: Install the allowed packages at their pins, for the image's own python3
+         run: |
+           python3 -c "import json; d = json.load(open('scripts/queue/ALLOWED_PACKAGES.json')); print(' '.join(k + '==' + v['pin'] for k, v in d['packages'].items()))" > pins.txt
+-          python3 -m pip install --quiet $(cat pins.txt)
++          python3 -m pip --version >/dev/null 2>&1 || sudo apt-get install -y -q python3-pip
++          sudo python3 -m pip install --quiet --break-system-packages $(cat pins.txt)
++          python3 -c "import sys; print('the interpreter:', sys.executable, sys.version.split()[0])"
+       - name: One round of the intake (seat code runs here, with the network cut)
+         # CHANGED 2026-11-28 (main, at the author's word, after the first round on the workflow, M78 point 4): a round that
+         # cannot make the sandbox is not recorded. It had gone on and marked each card it reran HEAVY, for a fault of the
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index deead5b72..10657ad59 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,17 @@
+ # Changelog
+ 
++## S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)
++
++- **`.github/workflows/intake.yml`:** the round runs the image's own `python3`, the allowed packages installed for it,
++  not `actions/setup-python`'s: that interpreter sits under `/opt/hostedtoolcache`, which the wrap covers with an empty
++  tmpfs where the image leaves it writable by all, and it needs `LD_LIBRARY_PATH`, which `sudo` drops. The log names the
++  interpreter.
++- **`scripts/queue/rerun.py`:** an interpreter under a directory the wrap covers is refused before anything runs, and
++  `WHY_NOT` says so.
++- **Tests of main's M78 work, read as the builder reads its own:** each of `WHY_NOT`'s reasons (not usable, a command
++  missing, the interpreter hidden, the probe's exit, its report) is planted, and a HEAVY card carries them; taken out,
++  each fails a test. Main's own tests read only the workflow's text.
++
+ ## S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)
+ 
+ - **`scripts/queue/plants.py`:** a ledger once opened along main's first-parent history stays: one taken out fails the
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index b15c3343d..9a1353d1e 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20769,3 +20769,11 @@
+ its verdict. A test now checks that the repository's ignore rules let main commit the fingerprints and the lists.
+ 
+ 0 of 19.
++
++## 2026-11-28 — The runner's sandbox given a Python it can reach (S306p)
++
++**What happened.** The building seat proposed the likely fix for the runner's missing sandbox on GitHub: run the intake
++with the machine's own Python, which the sandbox does not hide and which starts without extra settings, and refuse,
++saying why, an interpreter the sandbox would hide. Each reason the runner gives for having no sandbox now has a test.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 6ee4a69a6..c4d7d6f8b 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)”
+ - “S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)”
+ - “S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)”
+ - “S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVES…”
+@@ -60,7 +61,6 @@
+ - “S306p THE PLANT LEDGER'S SEALS FILE MADE COMMITTABLE (P-885; T12; M77) (2026-11-28)”
+ - “S306p THE PLANT LEDGER: SEALED BEFORE ITS ROUND, OPENED AFTER IT (the framework's thin path, T12; P-885) (2026-11-28)”
+ - “S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)”
+-- “S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/scripts/queue/rerun.py b/scripts/queue/rerun.py
+index 3b85d455c..bf157c4db 100644
+--- a/scripts/queue/rerun.py
++++ b/scripts/queue/rerun.py
+@@ -464,6 +464,16 @@
+             continue
+         if cover is None:
+             cover = world_writable()
++        # ADDED 2026-11-28 (the builder, at M78 point 2 and main's guess there): the wrap covers each world-writable
++        # directory with an empty tmpfs, so an interpreter under one (actions/setup-python's, under /opt/hostedtoolcache,
++        # where the image leaves it writable by all) is gone inside the wrap. Said before anything is run
++        exe = os.path.realpath(sys.executable)
++        hidden = [c for c in cover if exe.startswith(os.path.realpath(c).rstrip("/") + "/")]
++        if hidden:
++            WHY_NOT.append("%s: the interpreter %s is under %s, which anyone may write and the wrap covers with an empty "
++                           "tmpfs; run the intake with an interpreter outside every world-writable directory" % (
++                               name, exe, hidden[0]))
++            continue
+         if prefix[-1:] == [RUN]:                     # the wrap's second argument: what it covers
+             prefix = prefix + [json.dumps(cover)]
+         base = _marker_base(cover)
+diff --git a/tests/test_queue_rerun.py b/tests/test_queue_rerun.py
+index cd83f3b8d..25cefe7ef 100644
+--- a/tests/test_queue_rerun.py
++++ b/tests/test_queue_rerun.py
+@@ -571,3 +571,38 @@
+         lines.add(_rerun(tmp_path / "s", _card(tmp_path / "s"))["decisive"]["sha256"])
+     assert len(lines) == 1, lines
+     assert RR._command("python3 x.py") == [sys.executable, "-s", "x.py"]
++
++
++def test_each_strategy_refused_says_why_and_a_heavy_card_carries_it_m78(monkeypatch, tmp_path):
++    """main's M78 point 2, as main built it (rerun.WHY_NOT), read as the builder reads its own: each refusal gives its
++    reason (not usable, a command missing, the interpreter under a covered directory, the probe's exit, its report), and
++    a HEAVY card carries them; each, taken out, fails here"""
++    import shutil
++    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: False, ["unshare", RR.RUN], "root's"),
++                                           (lambda: True, ["no-such-tool-anywhere", RR.RUN], "missing")])
++    assert RR.sandbox_prefix() == ([], "no sandbox")
++    assert RR.WHY_NOT == ["root's: not usable here", "missing: missing no-such-tool-anywhere"], RR.WHY_NOT
++    _commit(tmp_path / "c", {"x.py": GOOD})
++    res = _rerun(tmp_path / "c", _card(tmp_path / "c"), allow_static=False)
++    assert res["status"] == "HEAVY" and "missing: missing no-such-tool-anywhere" in res["reasons"][0], res
++    if os.geteuid() != 0 or not all(shutil.which(c) for c in ("unshare", "mount", "pkill", "pgrep", "false", "env")):
++        return
++    exe = os.path.dirname(os.path.realpath(sys.executable))       # the interpreter under a covered directory
++    monkeypatch.setattr(RR, "world_writable", lambda top="/": ["/tmp", exe])
++    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: True, ["unshare", "-n", "--", RR.RUN], "hidden")])
++    RR.sandbox_prefix()
++    assert RR.WHY_NOT and RR.WHY_NOT[0].startswith("hidden: the interpreter %s is under %s" % (
++        os.path.realpath(sys.executable), exe)), RR.WHY_NOT
++    monkeypatch.setattr(RR, "world_writable", lambda top="/": ["/tmp"])
++    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: True, ["false", RR.RUN], "exits 1")])
++    RR.sandbox_prefix()
++    assert RR.WHY_NOT and RR.WHY_NOT[0].startswith("exits 1: the probe exited 1"), RR.WHY_NOT
++    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: True, ["env", "--"], "no wrap at all")])
++    RR.sandbox_prefix()
++    assert RR.WHY_NOT and RR.WHY_NOT[0].startswith("no wrap at all: ") and "directories covered" in RR.WHY_NOT[0], RR.WHY_NOT
++
++
++def test_the_round_runs_the_images_own_interpreter_m78():
++    text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
++    round_job = text.split("\n  record:\n", 1)[0]
++    assert "- uses: actions/setup-python" not in round_job and "--break-system-packages" in round_job
+-- 
+2.43.0
+
