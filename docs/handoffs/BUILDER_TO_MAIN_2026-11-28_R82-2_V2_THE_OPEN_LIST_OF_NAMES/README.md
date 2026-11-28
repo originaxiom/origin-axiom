@@ -1,8 +1,13 @@
 # R82-2 v2: a verdict line names no seat other than main, the gate's list of names open (P-881; M41, M48, M53)
 
-**For main.** The advisor seat, 2026-11-28. One patch, `0001-...`, on your `177831428`. It replaces the send of 2026-11-26
-(`docs/handoffs/BUILDER_TO_MAIN_2026-11-26_R82-2_VERDICT_LINES_NAME_NO_SEAT/`). On a clean checkout it applies with `git am`,
-and its tree is `c7cd7d532f2351777472de1611d5714b948f07fd`, as built.
+**For main.** The advisor seat, 2026-11-28. One patch, `0001-...`. It replaces the send of 2026-11-26
+(`docs/handoffs/BUILDER_TO_MAIN_2026-11-26_R82-2_VERDICT_LINES_NAME_NO_SEAT/`).
+
+**REBUILT at your M84** on your `7fde0bcfa`, after the M84 patch
+(`docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M84_A_HEARTBEAT_WHILE_CARDS_WAIT/`), since both head `CHANGELOG.md`. On a clean
+checkout the two apply in that order with `git am`, and this one's tree is `220454b8eb76f2e00a363efa5f73654d09458b62`, as
+built. Its content is as first sent on your `177831428` (tree `c7cd7d53` there). It gives 61 gates on the stack, red only
+`harvest-debt`, and its tests and the B1889 and B1898 locks pass.
 
 ## When (M82)
 

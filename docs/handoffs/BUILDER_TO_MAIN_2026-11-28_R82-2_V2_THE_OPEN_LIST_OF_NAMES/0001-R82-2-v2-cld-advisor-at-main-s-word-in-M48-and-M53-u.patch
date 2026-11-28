@@ -1,4 +1,4 @@
-From 3b18c097122cf73e3757b867a91fe712013ed94a Mon Sep 17 00:00:00 2001
+From f436d10478f0dbbcc461580ae0ce9bd86b36c137 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
 Date: Sat, 28 Nov 2026 15:14:35 +0000
 Subject: [PATCH] R82-2 v2 (cld-advisor, at main's word in M48 and M53, under
@@ -21,7 +21,7 @@ list gone (fail-closed).
  docs/PRACTICES.md                             |  21 +++
  docs/views/CONTEXT_RECOVERY.md                |   4 +-
  docs/views/REVIEWER.md                        |   6 +-
- docs/views/THE_SPINE.md                       |   2 +-
+ docs/views/THE_SPINE.md                       |   5 +-
  docs/views/VERDICT_LEDGER.md                  | 158 +++++++++---------
  .../FINDINGS.md                               |   2 +
  .../arc_verdict.json                          |   5 +-
@@ -189,12 +189,12 @@ list gone (fail-closed).
  scripts/gates/gates.py                        |  65 +++++++
  tests/GATE_CONTROLS.json                      |   3 +-
  tests/test_claim_names_no_session.py          |  89 ++++++++++
- 173 files changed, 779 insertions(+), 257 deletions(-)
+ 173 files changed, 781 insertions(+), 258 deletions(-)
  create mode 100644 scripts/gates/SEAT_NAMES.json
  create mode 100644 tests/test_claim_names_no_session.py
 
 diff --git a/CHANGELOG.md b/CHANGELOG.md
-index d63396d19..2c1960044 100644
+index 9e9a029e3..bd92e6243 100644
 --- a/CHANGELOG.md
 +++ b/CHANGELOG.md
 @@ -1,5 +1,12 @@
@@ -207,15 +207,15 @@ index d63396d19..2c1960044 100644
 +- **18 lines name a seat the closed list missed** (M53, correction 3), 10 of them among the 71 and 8 more (B1853, B1855, B1857, B1858, B1892, B1907, B1911, B1959), 79 lines in all: the physical lane (B1836, B1858, B1861, B1866, B1889 three times, B1907, B1911, B1954, B1959), the explore seat (B1853, B1855, B1856, B1857), the independent audit lane (B1826, B1832), B1826's physical-bridge lane, and the building session named by its work (B1892, B1894, B1898). Each name becomes "a seat" or "a lane", the credit in `cites_seat`, a dated note on each page. No number, verdict or result changed.
 +- **The gate `claim-names-no-session`** reads its names from `scripts/gates/SEAT_NAMES.json`, an open list: a new seat is one line of it. Each word of a lane's name is read with lane, seat, family and branches, so synonyms are read too. Its failing paths `tests/test_claim_names_no_session.py` (registered), the practice's section, and four locks (B1889, B1893, B1896, B1898) holding the new words, each with a dated note.
 +
- ## S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)
+ ## S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)
  
- - **agy-002's `PEER_Q0008.json`** (row 2080): the trial's first live peer note, re-derived on the physical seat's C8; the
+ - **`scripts/queue/intake.py`:** the round's last line also counts the cards that wait on a seat (OFFERED, for a peer's
 diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
-index 32b71d9b9..b7c0b5bc3 100644
+index f74b07ade..5117df24a 100644
 --- a/PROGRESS_LOG.md
 +++ b/PROGRESS_LOG.md
-@@ -20835,3 +20835,13 @@
- checks. The seat that is to check main's own trial cards was told its first two are waiting.
+@@ -20861,3 +20861,13 @@
+ and starts the next, so what a seat sends is seen without anyone starting a round by hand.
  
  0 of 19.
 +
@@ -258,7 +258,7 @@ index a875dce3a..022e66185 100644
 +a dated note. When the
 +author's identity table of draft 1, section 8, exists, the gate reads its names from there.**]**
 diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
-index 293f1df99..9ec49962d 100644
+index 9d252a362..6c9548f75 100644
 --- a/docs/views/CONTEXT_RECOVERY.md
 +++ b/docs/views/CONTEXT_RECOVERY.md
 @@ -39,7 +39,7 @@
@@ -275,14 +275,14 @@ index 293f1df99..9ec49962d 100644
  ## The last landings (CHANGELOG)
  
 +- “S306p A VERDICT LINE NAMES NO SEAT OTHER THAN MAIN: 79 LINES RE-WORDED AND A GATE WITH AN OPEN LIST OF NAMES (R82-2 v2; P-881; M41, M48, M53) (2026-11-28)”
- - “S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)”
+ - “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)”
+ - “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
+@@ -60,7 +61,6 @@
  - “S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)”
  - “S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)”
-@@ -60,7 +61,6 @@
- - “S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)”
- - “S306p EVERY CARD OFFERED TO A PEER BY ONE RULE; CHAT1'S SIX CARDS RECEIVED AND ITS TWO QUESTIONS ANSWERED (P-885; HARVEST ROWS 2072 TO 2074; M29, M27, M70, M88) (2026-11-28)”
- - “S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)”
--- “S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)”
+ - “S306p CHAT1'S A88 AND AGY-002'S A2-CHIRAL-E8-SIBLINGS RECEIVED; THE NEW CARD OFFERED (P-885; HARVEST ROWS 2076, 2077; M89, M71) (2026-11-28)”
+-- “S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)”
  
  ## The latest campaign line
  
@@ -311,9 +311,18 @@ index c0cfa795d..eb0292d39 100644
  
  **RETRACTED — `B1918`** (1030 words, 0 locks)  
 diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
-index 141dd79be..1403554ac 100644
+index 14ff785d9..7760c0fd8 100644
 --- a/docs/views/THE_SPINE.md
 +++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1574 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1575 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
 @@ -1935,7 +1935,7 @@
  
  ## 2026-11-19
@@ -323,6 +332,14 @@ index 141dd79be..1403554ac 100644
  - **B940** `PROVED` `test_b940_the_pairing_source.py` — “THE SEALED DIRAC RUN on (m004, spin structure rho_1): OUTCOME A against a criterion sealed and pushed (7bb6c963, sha-256 6c513b06...) BEFORE any compu”
  
  ## 2026-11-26
+@@ -1954,6 +1954,7 @@
+ 
+ ## 2026-11-28
+ 
++- — `test_claim_names_no_session.py` 
+ - — `test_queue_banking.py` 
+ - — `test_queue_heavy.py` 
+ - — `test_queue_intake.py` 
 diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
 index 67536932e..a4e11ce42 100644
 --- a/docs/views/VERDICT_LEDGER.md

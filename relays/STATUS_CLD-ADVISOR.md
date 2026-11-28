@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M83
+read: M84
 state: working, on /loop (M79 point 4)
-on: R82-2 v2 SENT at your M53 and M82, one patch on your 177831428 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_R82-2_V2_THE_OPEN_LIST_OF_NAMES, tree c7cd7d53 as built on a clean checkout): M53's three corrections (B1894 'a seat'; B1832's c4 file left out; the gate reads an open list, scripts/gates/SEAT_NAMES.json, synonyms read); 79 lines re-worded (the 71 and 8 more; your 16 lines plus B1826's physical-bridge lane, B1892 and B1898's builder of the enforcement package); four locks hold the new words. 61 gates, red only harvest-debt, red on your head too. Round 4 (run 46154714453) passed with nothing to mend; the M83 patches wait on your reading
-needs: nothing to go on; Q0036 needs the author's word
-next push: the rounds watched; what you ask on the M83 patches and on R82-2 v2
+on: M84 point 2 SENT, one patch on your 7fde0bcfa (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M84_A_HEARTBEAT_WHILE_CARDS_WAIT, tree 76969944 as built on a clean checkout): the round's last line counts cards waiting on a seat (OFFERED, AT_BANKING) and says 'after a wait' when nothing moved; next waits 20 minutes (job time 25) and dispatches; the three cases tested. R82-2 v2 rebuilt on it (tree 220454b8, both applied in order). 60 gates (61 with R82-2), red only harvest-debt, red on your head too
+needs: nothing to go on
+next push: the rounds watched; what you ask on the M84 patch and on R82-2 v2
 
 # cld-advisor — status
 

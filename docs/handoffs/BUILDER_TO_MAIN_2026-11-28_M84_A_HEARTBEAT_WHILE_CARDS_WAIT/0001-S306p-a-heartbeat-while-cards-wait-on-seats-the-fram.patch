@@ -1,0 +1,232 @@
+From e6a36f1167f6ba563103097928b615eae04f079d Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 28 Nov 2026 15:34:01 +0000
+Subject: [PATCH] S306p a heartbeat while cards wait on seats (the framework's
+ thin path; P-885; main's M84): the round's last line counts the cards that
+ wait on a seat (OFFERED, AT_BANKING); a round that moved nothing and left
+ nothing while one waits says the next round comes after a wait, and the job
+ next waits 20 minutes and dispatches; the chain ends only when no card waits
+ on anything a round can see; tests of the three cases, each rule taken out
+ failing one
+
+---
+ .github/workflows/intake.yml   | 12 ++++++++--
+ CHANGELOG.md                   | 10 ++++++++
+ PROGRESS_LOG.md                |  8 +++++++
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ queue/README.md                |  5 ++++
+ scripts/queue/intake.py        | 16 +++++++++----
+ tests/test_queue_intake.py     | 42 ++++++++++++++++++++++++++++++++--
+ 7 files changed, 86 insertions(+), 9 deletions(-)
+
+diff --git a/.github/workflows/intake.yml b/.github/workflows/intake.yml
+index 6c17694c7..4b8cade0b 100644
+--- a/.github/workflows/intake.yml
++++ b/.github/workflows/intake.yml
+@@ -39,6 +39,7 @@
+     timeout-minutes: 120
+     outputs:
+       again: ${{ steps.intake.outputs.again }}       # main's M83: the round's last line, read by the job `next`
++      wait: ${{ steps.intake.outputs.wait }}         # main's M84: cards wait on a seat and nothing moved
+     steps:
+       - name: Check out main, with every branch's history
+         uses: actions/checkout@v4
+@@ -78,6 +79,7 @@
+             exit 1
+           fi
+           if grep -q "^the next round: needed" round_report.txt; then echo "again=true" >> "$GITHUB_OUTPUT"; else echo "again=false" >> "$GITHUB_OUTPUT"; fi
++          if grep -q "^the next round: after a wait" round_report.txt; then echo "wait=true" >> "$GITHUB_OUTPUT"; else echo "wait=false" >> "$GITHUB_OUTPUT"; fi
+       - uses: actions/upload-artifact@v4
+         with:
+           name: queue
+@@ -159,13 +161,19 @@
+     # no checkout, no seat code. It runs after the round was recorded, and only when the round's last line says the next
+     # round is needed; a round with nothing to do ends the chain, and the hourly cron stays as the fallback. The
+     # concurrency group above keeps one round at a time: the dispatched round waits until this one ends.
++    # CHANGED 2026-11-28 (main's M84 point 2): it also runs when the round moved nothing but cards wait on a seat (OFFERED,
++    # AT_BANKING), and then waits 20 minutes before it dispatches, so a seat's push is seen without the author's click.
++    # The lines as they stood: if: ${{ needs.round.outputs.again == 'true' }} and timeout-minutes: 5.
+     needs: [round, record]
+-    if: ${{ needs.round.outputs.again == 'true' }}
++    if: ${{ needs.round.outputs.again == 'true' || needs.round.outputs.wait == 'true' }}
+     runs-on: ubuntu-latest
+-    timeout-minutes: 5
++    timeout-minutes: 25
+     permissions:
+       actions: write                 # to dispatch the next round, with the job's own token; nothing else
+     steps:
++      - name: Wait for the seats
++        if: ${{ needs.round.outputs.again != 'true' && needs.round.outputs.wait == 'true' }}
++        run: sleep 1200
+       - name: Dispatch the next round
+         env:
+           GH_TOKEN: ${{ github.token }}
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 40b884037..9e9a029e3 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,15 @@
+ # Changelog
+ 
++## S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)
++
++- **`scripts/queue/intake.py`:** the round's last line also counts the cards that wait on a seat (OFFERED, for a peer's
++  note; AT_BANKING, for the banking seats' files). A round that moved nothing and left nothing while one waits says "the
++  next round: after a wait"; "needed" and "not needed" stand as before.
++- **`.github/workflows/intake.yml`:** the round's output `wait`; the job `next` also runs on it, waits 20 minutes
++  (`sleep 1200`, the job's time raised to 25 minutes) and then dispatches. Its permissions stay `actions: write` alone.
++- **Tests** in `tests/test_queue_intake.py`: the three cases (moved, waiting, nothing) and the workflow's wait; each rule,
++  taken out, fails a test.
++
+ ## S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)
+ 
+ - **`scripts/queue/intake.py`:** the round's last line says whether the next round is needed: "the next round: needed" when
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index c738ed9e5..f74b07ade 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20853,3 +20853,11 @@
+ workflow; when a round finds nothing to do, the chain stops and the hourly timer remains as the fallback.
+ 
+ 0 of 19.
++
++## 2026-11-28 — The intake keeps checking while other seats have work to send (S306p)
++
++**What happened.** The intake stopped itself when a round found nothing to move, even while cards were waiting for another
++seat's check or for the banking seats' files. Now, while any card waits on a seat, each quiet round waits twenty minutes
++and starts the next, so what a seat sends is seen without anyone starting a round by hand.
++
++0 of 19.
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 018b98064..9d252a362 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- “S306p A HEARTBEAT WHILE CARDS WAIT ON SEATS (the framework's thin path; P-885; main's M84) (2026-11-28)”
+ - “S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)”
+ - “S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)”
+@@ -60,7 +61,6 @@
+ - “S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)”
+ - “S306p CHAT1'S A88 AND AGY-002'S A2-CHIRAL-E8-SIBLINGS RECEIVED; THE NEW CARD OFFERED (P-885; HARVEST ROWS 2076, 2077; M89, M71) (2026-11-28)”
+ - “S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)”
+-- “S306p EVERY CARD OFFERED TO A PEER BY ONE RULE; CHAT1'S SIX CARDS RECEIVED AND ITS TWO QUESTIONS ANSWERED (P-885; HARVEST ROWS 2072 TO 2074; M29, M27, M70, M88) (2026-11-28)”
+ 
+ ## The latest campaign line
+ 
+diff --git a/queue/README.md b/queue/README.md
+index dcc5e314e..2a99da494 100644
+--- a/queue/README.md
++++ b/queue/README.md
+@@ -52,6 +52,11 @@
+ **The rounds dispatch the next** (main's M83): a round that moved a card or left one for later dispatches the next
+ round itself, by a job that holds only the right to dispatch; a round with nothing to do ends the chain, and the hourly
+ cron stays as the fallback.
++**[ADDED 2026-11-28 (main's M84):** a round that moved nothing and left nothing, while a card waits on a seat (OFFERED,
++for a peer's note; AT_BANKING, for the banking seats' files), says "the next round: after a wait"; the job waits 20
++minutes, then dispatches. The chain ends only when no card waits on anything a round can see. A heavy card waiting on
++the author's machine is not counted: its result lands on main by main's own push, after which main dispatches a round,
++or the hourly cron runs it.**]**
+ 
+ ## The settings the author makes (once, in the repository's settings on GitHub)
+ 
+diff --git a/scripts/queue/intake.py b/scripts/queue/intake.py
+index 7ae5b3199..1ef3b8d45 100644
+--- a/scripts/queue/intake.py
++++ b/scripts/queue/intake.py
+@@ -229,15 +229,23 @@
+ 
+ 
+ NEXT_ROUND = "the next round: "
++# ADDED 2026-11-28 (main's M84 point 2): a card that waits on a seat (OFFERED, for a peer's note; AT_BANKING, for the
++# banking seats' files) needs a round to see what the seat pushes, though no round moves it. A round that moved nothing
++# and left nothing while such a card waits says "after a wait": the workflow's job `next` then waits 20 minutes and
++# dispatches the next round. The chain ends only when no card waits on anything a round can see.
++WAITS_ON_A_SEAT = ("OFFERED", "AT_BANKING")
+ 
+ 
+ def next_round(was, cards, report):
+-    """main's M83 point 2: the round's last line, which the workflow reads to dispatch the next round. The next round is
+-    needed when this one moved a card (a status changed, or a card was filed) or left a card for the next round"""
++    """main's M83 point 2 and M84 point 2: the round's last line, which the workflow reads to dispatch the next round.
++    The next round is needed when this one moved a card (a status changed, or a card was filed) or left a card for the
++    next round; it comes after a wait when this one did neither but a card waits on a seat; else it is not needed"""
+     moved = sum(1 for cid, rec in cards.items() if was.get(cid) != rec["status"])
+     left = sum(1 for r in report if "left for the next round" in r)
+-    return "%s%s (this round moved %d card(s) and left %d for the next)" % (
+-        NEXT_ROUND, "needed" if moved or left else "not needed", moved, left)
++    waiting = sum(1 for rec in cards.values() if rec.get("status") in WAITS_ON_A_SEAT)
++    word = "needed" if moved or left else ("after a wait" if waiting else "not needed")
++    return "%s%s (this round moved %d card(s) and left %d for the next; %d wait on a seat)" % (
++        NEXT_ROUND, word, moved, left, waiting)
+ 
+ 
+ def queue_order(cards):
+diff --git a/tests/test_queue_intake.py b/tests/test_queue_intake.py
+index f3e9fb77e..80926c21b 100644
+--- a/tests/test_queue_intake.py
++++ b/tests/test_queue_intake.py
+@@ -285,7 +285,7 @@
+     perms = nxt.split("    permissions:\n", 1)[1].split("\n    steps:", 1)[0]
+     assert [l.split(":")[0].strip() for l in perms.splitlines() if l.strip()] == ["actions"]
+     assert "actions: write" in perms and "secrets." not in nxt and "uses: actions/checkout" not in nxt
+-    assert "needs: [round, record]" in nxt and "if: ${{ needs.round.outputs.again == 'true' }}" in nxt
++    assert "needs: [round, record]" in nxt and "needs.round.outputs.again == 'true'" in nxt
+     assert "gh workflow run intake.yml --ref main" in nxt and "GH_TOKEN: ${{ github.token }}" in nxt
+     assert "again: ${{ steps.intake.outputs.again }}" in round_job and "id: intake" in round_job
+     assert 'grep -q "^%sneeded" round_report.txt' % IN.NEXT_ROUND in round_job
+@@ -299,9 +299,47 @@
+     assert "left " in report[-1] and " 0 for the next" not in report[-1]
+     was = {k: v["status"] for k, v in cards.items()}
+     assert IN.next_round(was, cards, ["Q0001 waits on Q0002 (D6)"]) == IN.NEXT_ROUND + \
+-        "not needed (this round moved 0 card(s) and left 0 for the next)"
++        "not needed (this round moved 0 card(s) and left 0 for the next; 0 wait on a seat)"
+     assert IN.next_round(was, cards, ["Q0001 left for the next round (3 cards rerun in this one)"]).startswith(
+         IN.NEXT_ROUND + "needed")
+     filed = sorted(k for k, s in was.items() if s == "FILED")[0]
+     moved = {k: dict(v, status="RETURNED_AT_INTAKE") if k == filed else v for k, v in cards.items()}
+     assert IN.next_round(was, moved, []).startswith(IN.NEXT_ROUND + "needed (this round moved 1 card(s)")
++
++
++def test_the_chain_goes_on_after_a_wait_while_a_card_waits_on_a_seat_m84(tmp_path):
++    """main's M84 point 2: a round that moves nothing and leaves nothing, while a card waits on a seat (OFFERED, for a
++    peer's note; AT_BANKING, for the banking seats' files), says "after a wait"; the job `next` then waits 20 minutes and
++    dispatches. The three cases: moved, waiting, nothing"""
++    repo = tmp_path / "repo"
++    repo.mkdir()
++    _repo(repo)
++    cards, *_ = IN.round_(tmp_path / "q", root=repo, refs=[("a", "origin/seat/a")], codes=CODES, at=AT, limit=60,
++                          allow_static=True)
++    some = sorted(cards)[0]
++    for status in IN.WAITS_ON_A_SEAT:
++        waiting = {k: dict(v, status=status) if k == some else dict(v, status="NOT_BANKED") for k, v in cards.items()}
++        was = {k: v["status"] for k, v in waiting.items()}
++        assert IN.next_round(was, waiting, []) == IN.NEXT_ROUND + \
++            "after a wait (this round moved 0 card(s) and left 0 for the next; 1 wait on a seat)", status
++        moved = dict(was, **{some: "PEERED"})                         # moved: needed at once, the waiting counted too
++        assert IN.next_round(moved, waiting, []).startswith(IN.NEXT_ROUND + "needed (this round moved 1 card(s)")
++        assert IN.next_round(was, waiting, ["Q0001 left for the next round (3 cards rerun in this one)"]).startswith(
++            IN.NEXT_ROUND + "needed")
++    for status in ("FILED", "REPRODUCED", "PEERED", "NOT_BANKED", "VERIFIED", "RETURNED_AT_INTAKE"):
++        none = {k: dict(v, status=status) for k, v in cards.items()}  # nothing: no card waits on a seat
++        was = {k: v["status"] for k, v in none.items()}
++        assert IN.next_round(was, none, []).startswith(IN.NEXT_ROUND + "not needed"), status
++    assert IN.WAITS_ON_A_SEAT == ("OFFERED", "AT_BANKING")
++    text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
++    jobs = text.split("\njobs:\n", 1)[1]
++    round_job, rest = jobs.split("\n  record:\n", 1)
++    nxt = rest.split("\n  next:\n", 1)[1]
++    assert "wait: ${{ steps.intake.outputs.wait }}" in round_job
++    assert 'grep -q "^%safter a wait" round_report.txt; then echo "wait=true"' % IN.NEXT_ROUND in round_job
++    assert "if: ${{ needs.round.outputs.again == 'true' || needs.round.outputs.wait == 'true' }}" in nxt
++    assert "timeout-minutes: 25" in nxt
++    steps = nxt.split("    steps:\n", 1)[1]
++    wait, dispatch = steps.split("      - name: Dispatch the next round\n", 1)
++    assert "if: ${{ needs.round.outputs.again != 'true' && needs.round.outputs.wait == 'true' }}" in wait
++    assert "run: sleep 1200" in wait and "gh workflow run intake.yml --ref main" in dispatch
+-- 
+2.43.0
+
