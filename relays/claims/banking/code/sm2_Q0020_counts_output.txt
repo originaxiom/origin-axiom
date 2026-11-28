@@ -1,0 +1,5 @@
+points of exact order 30: 576; pairs +-v: 288
+DECISIVE: pairs with a 5-part: 240; on the act line: 48; ratio 5
+DECISIVE: the act line's pairs under T^0..T^4 (v -> v T^-1): disjoint True, their union is the 5-part pairs True; slopes of the five tiles [[2], [1], [0], [4], [3]]
+NOT COMPUTED: the 15 invariants and their covariance residuals, alignment, hierarchy, the 1/60-grid rates and the 12 classes: Frame C's construction is given on the card by reference only
+RESULT: the counting holds
