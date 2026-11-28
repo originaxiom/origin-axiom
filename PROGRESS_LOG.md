@@ -20818,3 +20818,12 @@ the offers main made by hand. The check that flags a comparison with measured da
 sign where it is mathematics, a sign class or a congruence, rather than a measured value with its error.
 
 0 of 19.
+
+## 2026-11-28 — two ways the trial could stall, closed (S306p)
+
+**What happened.** The building seat, watching the rounds, found that a card needing heavy tools could never move, since
+only the runner may write the queue and the runner cannot run those tools. Main ruled that such a card is run on the
+author's machine and its result filed on main for the runner to check. And since GitHub's clock has not started a round
+since the morning, each round is to start the next while cards are waiting.
+
+0 of 19.

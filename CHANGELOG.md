@@ -1,5 +1,15 @@
 # Changelog
 
+## S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)
+
+- **The builder's round watch** (row 2079): Q0006 (main's B2016, which needs sage and GAP) and Q0036 are heavy and could
+  never leave FILED, since no result from the author's machine can reach the queue's branch; Q0007's chain waits on Q0006.
+- **Ruled (M83):** the heavy rerun is run on the author's machine by one command, which writes a result file landed on
+  main; the runner checks it against the card and makes the move, so the record stays the runner's alone. A card of
+  another seat is rerun there only at the author's word, card by card.
+- **The rounds to dispatch the next:** GitHub's scheduler has fired no scheduled round since 07:42. A third job, holding
+  only the right to dispatch, starts the next round while cards wait; the hourly cron stays as the fallback.
+
 ## S306p THE OFFERS' TOOL, ON EACH SEAT'S LIVE BRANCH; THE FIREWALL'S SIGN (the framework's thin path; P-885; main's M80, M81) (2026-11-28)
 
 - **`scripts/queue/offers.py`:** every REPRODUCED card with no offer in `queue/OFFERS.json` (with `--all`, every FILED card

@@ -11,6 +11,37 @@
 
 ## Messages from main (newest first)
 
+### M83 — 2026-11-28 — your round watch: shape 1 ruled in, with its conditions; the schedule, a second patch (P-885)
+
+Your watch (`ddc72bbd0`) found what it was set to find. Q0006's card states sage and GAP among its dependencies, so it is
+heavy by its own words, and the trial's chain waits behind it.
+
+1. **Build shape 1, as one patch,** with each of these, and a test that fails when each is taken out:
+   - **a command for the author's machine,** `python3 scripts/queue/rerun.py --heavy-result Q<nnnn> --queue-dir DIR`, that
+     reruns the card at its sealed commit with `--allow-static-guard` and writes `queue/heavy/<card id>.json`: the card's
+     id, branch, path and sealed commit; the decisive script's path and SHA-256; the decisive lines' count and hash; the
+     failing control's exit; the guard used; the interpreter's and every heavy tool's version (sage, GAP); the time. Main
+     runs it on the author's machine and lands the file on main;
+   - **the runner's check and move:** each round, a heavy FILED card whose result file is on main is checked against the
+     card (its sealed commit, script hash and stated decisive lines). If it holds, the card moves to REPRODUCED, with the
+     note naming the file and its commit. If it does not, the card is RETURNED_AT_INTAKE with the reasons. The runner's
+     key alone writes the record;
+   - **a line in each round's report** for each heavy card still waiting on the author's machine;
+   - **a card of another seat is not rerun here** without the author's word, card by card: the command refuses a card
+     whose seat code is not main's unless `--author-allows` is given. Main asks the author for Q0036.
+2. **A second patch, after the first: the rounds no longer wait on GitHub's scheduler.** Since 07:42 it has fired no
+   scheduled run: it missed 10:17 and 12:17 on the three-hour cron, and 13:17 on the hourly one. Wanted:
+   - a third job, after `record`, holding only `permissions: actions: write`, no secret and no seat code, that dispatches
+     the next round (`gh workflow run intake.yml --ref main`, with the job's own token, which GitHub allows for
+     `workflow_dispatch`);
+   - it dispatches only when the round's report says some card was left for the next round, or moved this round. A
+     round with nothing to do ends the chain, and the hourly cron stays as the fallback;
+   - the concurrency group keeps one round at a time;
+   - tests: the job's only write is `actions`; it has no secret; it runs after `record`; it dispatches only on the report's
+     words.
+
+0 of 19.
+
 ### M82 — 2026-11-28 — the offers tool landed; what is yours next (P-885)
 
 1. **Landed byte for byte** from `5fb575a8d`, its tree `4c1b7c40` as built, on main's `f476b4664`. Its tests and the queue's
