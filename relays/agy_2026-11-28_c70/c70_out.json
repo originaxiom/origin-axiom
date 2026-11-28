@@ -1,0 +1,200 @@
+{
+  "all_claims_verified": true,
+  "ast_float_complex_literals": 0,
+  "card": "AGY-C70",
+  "e1_b2007_hensel_legendre_and_mod2187_plateau": {
+    "exact_order_G7_str": "251048476872",
+    "full_G3_order": 216,
+    "hensel_jet_valuation_verified": true,
+    "hensel_series_mod_81": {
+      "1": "-27*b1**3*b2 + 18*b1**3 - 27*b1**2*b2**2 - 18*b1**2*b2 + 15*b1**2 - 27*b1*b2**3 - 18*b1*b2**2 + 15*b1*b2 - b1 + 18*b2**3 + 15*b2**2 - b2",
+      "2": "27*b1**3*b2 - 18*b1**3 + 27*b1**2*b2**2 + 18*b1**2*b2 - 15*b1**2 + 27*b1*b2**3 + 18*b1*b2**2 - 6*b1*b2 + 4*b1 - 18*b2**3 - 15*b2**2 + 4*b2"
+    },
+    "layer_dims_k3_to_k7": [
+      2,
+      2,
+      3,
+      7,
+      7
+    ],
+    "lazard_gap_cubing_bijections_verified": true,
+    "legendre_gap_levels_le_9": [
+      4,
+      7,
+      9
+    ],
+    "legendre_wake_levels_d1_to_d6": [
+      3,
+      5,
+      6,
+      8,
+      10,
+      11
+    ],
+    "log3_K_k3_to_k7": [
+      2,
+      4,
+      7,
+      14,
+      21
+    ],
+    "quotient_G3_order": 54,
+    "rank_L3_cubed_in_L4": 2,
+    "rank_L6_cubed_in_L7": 7,
+    "section_sizes_k3_to_k7": {
+      "3": 18,
+      "4": 162,
+      "5": 1458,
+      "6": 13122,
+      "7": 118098
+    }
+  },
+  "e2_diagonal_weil_quantum_bundles": {
+    "bundle_O27_x_Weil3_r1": {
+      "chiral_index_d1_minus_d2": 6,
+      "comm_W6H_G_zero": true,
+      "comm_hermitian_LLinv_zero": true,
+      "comm_monoid_LR_zero": true,
+      "dims_q0_q1_q2": [
+        72,
+        75,
+        69
+      ],
+      "g3_order3_verified": true,
+      "moments_m1_to_m4_by_q": {
+        "0": [
+          0,
+          264,
+          0,
+          4896
+        ],
+        "1": [
+          0,
+          534,
+          0,
+          7218
+        ],
+        "2": [
+          0,
+          462,
+          0,
+          6246
+        ]
+      }
+    },
+    "bundle_O27_x_Weil5_r1": {
+      "chiral_index_d1_minus_d2": 0,
+      "comm_W6H_G_zero": true,
+      "comm_hermitian_LLinv_zero": true,
+      "comm_monoid_LR_zero": true,
+      "dims_q0_q1_q2": [
+        118,
+        121,
+        121
+      ],
+      "g3_order3_verified": true,
+      "moments_m1_to_m4_by_q": {
+        "0": [
+          0,
+          864,
+          0,
+          16896
+        ],
+        "1": [
+          0,
+          666,
+          0,
+          7950
+        ],
+        "2": [
+          0,
+          666,
+          0,
+          7950
+        ]
+      }
+    },
+    "c_tr_equals_Rinv_L_verified": true,
+    "universal_3k_3m_index_plus6_grid_verified": true
+  },
+  "e3_curved_moser_secular_cancellation_and_twist": {
+    "asymptotic_fits": {
+      "bronze": {
+        "D1_abs_lt_1e_minus_15": true,
+        "D2_15digits": "0.000557577467843363",
+        "D2_abs_gt_1e_minus_5": true,
+        "out_of_sample_res_lt_1e_minus_22": true,
+        "twist_improves_over_no_twist_by_gt_1e3": true
+      },
+      "golden": {
+        "D1_abs_lt_1e_minus_15": true,
+        "D2_15digits": "0.000390147065796277",
+        "D2_abs_gt_1e_minus_5": true,
+        "out_of_sample_res_lt_1e_minus_22": true,
+        "twist_improves_over_no_twist_by_gt_1e3": true
+      },
+      "silver": {
+        "D1_abs_lt_1e_minus_15": true,
+        "D2_15digits": "0.00384033169388113",
+        "D2_abs_gt_1e_minus_5": true,
+        "out_of_sample_res_lt_1e_minus_22": true,
+        "twist_improves_over_no_twist_by_gt_1e3": true
+      }
+    },
+    "bronze_curved_moser_cancellation_verified": true,
+    "five_term_secular_D1_zero_and_D2_nonzero_verified": true,
+    "symbolic_golden_moser_zero_verified": true,
+    "symbolic_silver_moser_zero_verified": true,
+    "symbolic_silver_naive_linear_mixed_hessian": "LN2*(276 - 52*I)"
+  },
+  "e4_counterfactual_controls": {
+    "O27_x_Weil3_r0_dims": [
+      78,
+      69,
+      69
+    ],
+    "O27_x_Weil3_r2_dims": [
+      72,
+      69,
+      75
+    ],
+    "O27_x_Weil3_r2_moments_m1_to_m4": {
+      "0": [
+        0,
+        264,
+        0,
+        4896
+      ],
+      "1": [
+        0,
+        462,
+        0,
+        6246
+      ],
+      "2": [
+        0,
+        534,
+        0,
+        7218
+      ]
+    },
+    "naive_wake_d1_to_d6": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13
+    ]
+  },
+  "parameter_count_added": 0,
+  "planted_fault_controls": {
+    "PF1_omitting_moser_curvature_phi11_leaves_276_minus_52I_ln2_caught": true,
+    "PF2_undivided_valuation_missing_k6_jump_caught": true,
+    "PF3_r0_commuting_bundle_collapse_kills_plus6_index_caught": true,
+    "PF4_r_minus1_orientation_flip_inverts_bundle_index_to_minus6_caught": true,
+    "PF5_omitting_birkhoff_twist_D2_degrades_fit_by_gt_1e3_caught": true
+  },
+  "planted_faults_caught": 5,
+  "seat_code": "fam3-v1-high-01"
+}
