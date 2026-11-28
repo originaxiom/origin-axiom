@@ -100,7 +100,10 @@ def test_a_peer_note_with_its_own_code_moves_the_card_to_peered_re_derived(tmp_p
     _file_note(repo, g, _note(cid, rec["commit"]))
     cards, log, att, report, status = _round(repo, q)
     assert status == 0, report
-    assert cards[cid]["status"] == "PEERED" and "graded re-derived" in cards[cid]["history"][-1]["note"]
+    peered = [e for e in cards[cid]["history"] if e["status"] == "PEERED"]
+    assert peered and "graded re-derived" in peered[0]["note"]
+    # T9: a deciding card goes on to banking in the same round, once its peer's note holds
+    assert cards[cid]["status"] == "AT_BANKING" and cards[cid]["history"][-1]["note"] == "to banking after the peer's note"
     assert att[cid]["peer"]["other_family"] is True and att[cid]["peer"]["grade"] == "re-derived"
     assert "peer" in {e["what"] for e in IN.CU.read_log(log)[0]}
     assert IN.QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) == []
@@ -112,7 +115,7 @@ def test_a_peer_that_reruns_the_producers_script_is_graded_reran(tmp_path):
     same = T._script("good")
     _file_note(repo, g, _note(cid, rec["commit"], script_text=same), script_text=same)
     cards, _, att, report, _ = _round(repo, q)
-    assert cards[cid]["status"] == "PEERED" and att[cid]["peer"]["grade"] == "reran", report
+    assert "PEERED" in [e["status"] for e in cards[cid]["history"]] and att[cid]["peer"]["grade"] == "reran", report
 
 
 RUNS_THE_PRODUCERS = ("import subprocess, sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"

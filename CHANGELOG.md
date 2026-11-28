@@ -1,5 +1,26 @@
 # Changelog
 
+## S306p T9 LANDED: THE BANKING VERDICTS, SEALED THEN OPENED; THE END OF THE PEER STAGE; BANKING IN QUEUE ORDER (P-885; M71) (2026-11-28)
+
+- **The builder's patch 0003, sent again at `33041d6ee`, byte for byte.** Its tree as built is `5a87e928`.
+- **`scripts/queue/banking.py`:** each banking seat's expectation, seal and verdict on its own branch. The runner checks
+  each verdict:
+  - the seal is the verdict's hash;
+  - K3: the expectation was sighted no later than the seal;
+  - K1: the verdict was first sighted in a round after both seals were in;
+  - K2: the seat's own script is rerun in the sandbox and shares no file with the producer's, and M71's static reach
+    check refuses a script that names the producer's files or reads a renamed copy;
+  - D8: a seat never banks its own card;
+  - K11: the verdict file holds no edit of the card.
+- **The outcome rule:** two ACCEPTs make a card VERIFIED, and a card of main's own waits for a check from another family.
+- **The round now:**
+  - after the peer stage, a deciding card goes to banking, and a card that decides nothing ends at NOT_BANKED;
+  - banking takes cards in numeric queue order;
+  - the round's report says when both seals were first sighted, so a seat knows when it may open its verdict;
+  - a verdict's check is run once while its blobs are unchanged.
+- **`queue/BANKING_SEATS.json`** names no seat yet, so the runner banks nothing; main names the two in the next commit.
+- **Its tests pass here.** The sandbox runs were verified in the Linux container with part 2.
+
 ## S306p T8 LANDED: THE PEER NOTE AND THE MOVE TO PEERED (P-885; M71) (2026-11-28)
 
 - **The builder's patch 0002, sent again at `33041d6ee`, byte for byte.** Its tree as built is `413f58f7`.

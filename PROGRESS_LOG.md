@@ -20669,3 +20669,10 @@ Two of main's messages of three weeks ago got their state: one question was alre
 recomputation, and the other waits behind the framework.
 
 0 of 19.
+
+## 2026-11-28 — the banking stage landed (S306p)
+
+**What happened.** The step where two banking seats each recompute a card blind, seal their verdict before seeing the other's,
+and verify it only on two ACCEPTs, landed on main. It cannot yet bank anything: the two seats are named next.
+
+0 of 19.

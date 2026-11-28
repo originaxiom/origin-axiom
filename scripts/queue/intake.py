@@ -14,12 +14,16 @@ One round, in this order, for every claim card the queue's branch has not finish
      premise card not VERIFIED, or a premise arc whose own card is not (D6), keeps it FILED, waiting; the firewall's words
      (A3) are a flag to the author, listed in the round's report;
   5. the rerun (T5, rebuilt by T7b): REPRODUCED, with `deciding` set from the record check; RETURNED_AT_INTAKE with its
-     reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine.
-
+     reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine;
   6. the peer note (T8): a card OFFERED to a peer moves to PEERED once the peer's note, on its own branch, holds the
      runner's check (scripts/queue/peer_note.py), the peer's script rerun in the same sandbox; a note that does not is
-     reported and the card stays OFFERED. Offers are made by hand in the trial. A card that decides nothing ends at
-     NOT_BANKED after its peer stage (T9).
+     reported and the card stays OFFERED. Offers are made by hand in the trial;
+  7. the end of the peer stage (T9): after the peer's note, or 72 hours after the offer with no note that holds, a card
+     that decides something goes to AT_BANKING, and a card that decides nothing ends at NOT_BANKED;
+  8. banking (T9): the cards AT_BANKING, in queue order (M64 item 13), are checked against the two banking seats'
+     sealed verdicts (scripts/queue/banking.py); two verdicts that hold decide the card, as banking.outcome has it.
+
+A later round's peer or banking check is added to the card's check file under queue/checks/, beside its record check.
 
 THE SANDBOX (T7b; main's M62 and M68). Seat code runs as the unprivileged user nobody in a network and a mount namespace,
 with its own temporary directories (scripts/queue/rerun.py). Where no such wrap can be made the round goes on, and no seat
@@ -65,6 +69,8 @@ CU = _load("custody_for_intake", HERE / "custody.py")
 RC = _load("record_check_for_intake", HERE / "record_check.py")
 RR = _load("rerun_for_intake", HERE / "rerun.py")
 PN = _load("peer_note_for_intake", HERE / "peer_note.py")
+BK = _load("banking_for_intake", HERE / "banking.py")
+PEER_HOURS = 72                    # § 9: an offer with no note that holds goes to banking after 72 hours, marked so
 MAX_CARDS = 3                      # cards rerun in one round, so that a round stays inside the job's time
 
 
@@ -90,6 +96,17 @@ def read_queue_dir(qdir):
     return cards, log
 
 
+def read_checks(qdir):
+    """{id: the check attached to the card} as the queue's folder holds them, read once at the start of a round"""
+    out = {}
+    for f in sorted(pathlib.Path(qdir, "checks").glob("Q*.json")):
+        try:
+            out[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+        except ValueError:
+            pass
+    return out
+
+
 def snapshot(qdir):
     """{relative path: sha256} of every file under the queue's folder"""
     qdir = pathlib.Path(qdir)
@@ -99,13 +116,24 @@ def snapshot(qdir):
             for f in sorted(qdir.rglob("*")) if f.is_file()}
 
 
+def _hours(a, b):
+    f = "%Y-%m-%dT%H:%M:%SZ"
+    return (datetime.datetime.strptime(b, f) - datetime.datetime.strptime(a, f)).total_seconds() / 3600
+
+
+def queue_order(cards):
+    """the cards' ids in queue order: by the number of the id, Q0001 first (M64 item 13: banking takes cards so)"""
+    return sorted(cards, key=lambda c: (int(c[1:]) if c[1:].isdigit() else float("inf"), c))
+
+
 def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_LIMIT, max_cards=MAX_CARDS,
-           prefix=None, allow_static=False, codes=None):
+           prefix=None, allow_static=False, codes=None, seats_file=None):
     """one round: (the cards after it, the log after it, {id: attachment}, report lines, exit status). The queue's folder
     is read once, at the start; what the round decides is held in memory and written only after every rerun (main's M62)"""
     at = at or _now()
     cards, log_text = read_queue_dir(qdir)
     cards = json.loads(json.dumps(cards))
+    old_checks = read_checks(qdir)
     entries, bad = CU.read_log(log_text)
     if bad:
         return cards, log_text, {}, ["the sighting log does not hold its form: " + "; ".join(bad[:3])], 1
@@ -116,6 +144,13 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
     # T7b (M64 item 4): where no sandbox can be made, the round goes on and no seat code runs: each rerun is HEAVY
     report, attached, new_lines = ["the network guard: %s" % (guard if prefix else
                                                                guard + "; no seat code runs this round")], {}, []
+
+    def attach(cid):
+        """the card's check, as filed with what this round adds: a later round's peer or banking part is added to it,
+        and never takes the place of the record check filed before"""
+        if cid not in attached:
+            attached[cid] = json.loads(json.dumps(old_checks.get(cid, {})))
+        return attached[cid]
     seen = {}
     for cid, r in cards.items():                      # the versions already filed, keyed on branch, path and blob (C25)
         rc = subprocess.run(["git", "rev-parse", "%s:%s" % (r["commit"], r["card_path"])], cwd=root, capture_output=True,
@@ -157,8 +192,8 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
             _move(rec, "RETURNED_AT_INTAKE", "custody: " + "; ".join(problems), at)
             report.append("%s RETURNED_AT_INTAKE (custody)" % cid)
             continue
-        check = RC.check(record_root, text, cards)
-        attached[cid] = check
+        check = attach(cid)
+        check.update(RC.check(record_root, text, cards))
         if check["firewall"]:
             report.append("%s FLAG for the author (A3): %s" % (cid, ", ".join(check["firewall"])))
         if check["retracted"]["premises"]:
@@ -217,7 +252,7 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
                     entries = entries + [e]
             res = PN.check(root, note, commit, branch, rec, text or "", entries, limit=limit, prefix=prefix,
                            allow_static=allow_static)
-            attached.setdefault(cid, {})["peer"] = dict(res, branch=branch, commit=commit)
+            attach(cid)["peer"] = dict(res, branch=branch, commit=commit)
             if res["ok"]:
                 _move(rec, "PEERED", "the peer note on %s at %s: %s, graded %s%s" % (
                     branch, commit[:9], note["finding"], res["grade"],
@@ -225,6 +260,69 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
                 report.append("%s PEERED (%s, %s)" % (cid, note["finding"], res["grade"]))
                 break
             report.append("%s: the peer note on %s is refused: %s" % (cid, ref, "; ".join(res["reasons"])))
+    # T9: the end of the peer stage. A deciding card goes to banking once its peer's note holds, or when no note has held
+    # 72 hours after the offer; a card that decides nothing ends there at NOT_BANKED (T7b, M64 item 10)
+    order = queue_order(cards)
+    for cid in order:
+        rec = cards[cid]
+        if rec["deciding"] not in (True, False):
+            continue
+        if rec["status"] == "PEERED":
+            why = "after the peer's note"
+        elif rec["status"] == "OFFERED" and _hours(
+                [e["at"] for e in rec["history"] if e["status"] == "OFFERED"][-1], at) >= PEER_HOURS:
+            why = "no peer check: no note held within %d hours of the offer" % PEER_HOURS
+        else:
+            continue
+        if rec["deciding"]:
+            _move(rec, "AT_BANKING", "to banking " + why if why.startswith("after") else why, at)
+            report.append("%s AT_BANKING (%s)" % (cid, why))
+        else:
+            _move(rec, "NOT_BANKED", "it decides nothing; its peer stage is over (%s)" % why, at)
+            report.append("%s NOT_BANKED (it decides nothing; %s)" % (cid, why))
+    the_seats = BK.seats(seats_file) if seats_file else BK.seats()
+    waiting = [cid for cid in order if cards[cid]["status"] == "AT_BANKING"]
+    if waiting:
+        report.append("the banking queue, in queue order (M64 item 13): " + ", ".join(waiting))
+    for cid in waiting:
+        rec = cards[cid]
+        if rec["status"] != "AT_BANKING":
+            continue
+        if not the_seats:
+            report.append("%s waits at banking: queue/BANKING_SEATS.json names no two seats yet" % cid)
+            continue
+        for e in BK.sightings(root, entries, cid, the_seats, at):
+            new_lines.append(e)
+            entries = entries + [e]
+        text = _card_text(root, rec) or ""
+        seal_at = {}
+        for v, s in the_seats.items():
+            c, b = BK._at(root, "origin/" + s["branch"], BK.paths(cid)["seal"])
+            e = CU.first_sighting(entries, s["branch"], BK.paths(cid)["seal"], b) if b else None
+            seal_at[v] = e["at"] if e else None
+        if all(seal_at.values()):                     # main's M71 point 2: when a seat may open its verdict
+            report.append("%s at banking: both seals first sighted by %s; verdicts may be opened from the next round on, "
+                          "and one first sighted by then is refused (K1)" % (cid, max(seal_at.values())))
+        else:
+            report.append("%s at banking: seals sighted: %s; no verdict may be opened yet (K1)" % (cid, ", ".join(
+                "%s at %s" % (v, a) if a else "%s not yet" % v for v, a in sorted(seal_at.items()))))
+        got, before = {}, attach(cid).get("banking") or {}
+        for v, s in sorted(the_seats.items()):
+            other = seal_at["V2" if v == "V1" else "V1"]
+            got[v] = BK.check_verdict(root, cid, rec, text, s, entries, other, limit=limit, prefix=prefix,
+                                      allow_static=allow_static, cached=before.get(v))
+        attach(cid)["banking"] = got
+        if all(g["ok"] for g in got.values()):
+            peer = attach(cid).get("peer") or {}
+            status, note = BK.outcome(rec, got["V1"]["verdict"], got["V2"]["verdict"], peer.get("other_family"), the_seats)
+            if status:
+                _move(rec, status, note, at)
+                report.append("%s %s (%s)" % (cid, status, note))
+            else:
+                report.append("%s waits at banking: %s" % (cid, note))
+        else:
+            report.append("%s at banking: %s" % (cid, "; ".join("%s: %s" % (v, "; ".join(g["reasons"]))
+                                                             for v, g in sorted(got.items()) if not g["ok"])))
     log_after = CU.append(log_text, new_lines)
     problems = QS.queue_problems({k: json.dumps(v) for k, v in cards.items()}) + CU.read_log(log_after)[1]
     if problems:
