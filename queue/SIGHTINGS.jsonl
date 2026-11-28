@@ -116,3 +116,4 @@
 {"at": "2026-11-28T17:05:17Z", "blob": "b88db9c1aa174ba98a9bccb6da6ba4160f4d3a35", "branch": "audit/physical-bridge-2026-09-05", "commit": "50860334120882e6bcdf36c69d8f511b88530d7b", "path": "relays/claims/peer/work_q0018/axis.py", "what": "script"}
 {"at": "2026-11-28T17:05:17Z", "blob": "a1eb3f6b3262325481a695807164741b59bd23ac", "branch": "audit/physical-bridge-2026-09-05", "commit": "50860334120882e6bcdf36c69d8f511b88530d7b", "path": "relays/claims/peer/PEER_Q0020.json", "what": "peer"}
 {"at": "2026-11-28T17:05:17Z", "blob": "f221bceb15cfaa5daa316495c404f90809c89df6", "branch": "audit/physical-bridge-2026-09-05", "commit": "50860334120882e6bcdf36c69d8f511b88530d7b", "path": "relays/claims/peer/work_q0020/shear.py", "what": "script"}
+{"at": "2026-11-28T17:11:07Z", "blob": "135055b25fff96eb2d9f461f731633f938b639f6", "branch": "sm2/banking", "commit": "6763007b2db96463bd41bb3ef6836fb9a442c5af", "path": "relays/claims/banking/EXPECT_Q0001.md", "what": "expect"}
