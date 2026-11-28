@@ -464,6 +464,16 @@ def _sandbox_prefix_held():
             continue
         if cover is None:
             cover = world_writable()
+        # ADDED 2026-11-28 (the builder, at M78 point 2 and main's guess there): the wrap covers each world-writable
+        # directory with an empty tmpfs, so an interpreter under one (actions/setup-python's, under /opt/hostedtoolcache,
+        # where the image leaves it writable by all) is gone inside the wrap. Said before anything is run
+        exe = os.path.realpath(sys.executable)
+        hidden = [c for c in cover if exe.startswith(os.path.realpath(c).rstrip("/") + "/")]
+        if hidden:
+            WHY_NOT.append("%s: the interpreter %s is under %s, which anyone may write and the wrap covers with an empty "
+                           "tmpfs; run the intake with an interpreter outside every world-writable directory" % (
+                               name, exe, hidden[0]))
+            continue
         if prefix[-1:] == [RUN]:                     # the wrap's second argument: what it covers
             prefix = prefix + [json.dumps(cover)]
         base = _marker_base(cover)

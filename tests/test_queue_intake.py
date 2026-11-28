@@ -228,9 +228,11 @@ def test_the_workflow_reads_only_but_where_it_records_and_runs_no_seat_code_ther
     assert IN.MANIFEST.startswith(".") and "include-hidden-files: true" in upload
     step = round_job.split("intake.py --queue-dir", 1)[1].split("actions/upload-artifact@", 1)[0]
     assert "set -o pipefail" in round_job and 'grep -q "^the network guard: no sandbox"' in step and "exit 1" in step
-    # ADDED 2026-11-28 (M78 point 2): the tool cache loses others' write bit after the packages and before the round
-    install, rest = round_job.split("python3 -m pip install", 1)
-    assert 'sudo chmod -R o-w "${RUNNER_TOOL_CACHE:-/opt/hostedtoolcache}"' in rest.split("intake.py --queue-dir", 1)[0]
+    # CHANGED 2026-11-28 (main, at the builder's M79 patch 0003): the round runs the image's own python3, not
+    # actions/setup-python's under the tool cache, so main's step taking the tool cache's write bit off (e6cb50af0) is
+    # dropped; the assertion as it stood: the chmod step between the packages and the round
+    steps = "\n".join(l for l in round_job.splitlines() if not l.strip().startswith("#"))      # its comments name the old step
+    assert "actions/setup-python" not in steps and "sudo python3 -m pip install" in steps
 
 
 def test_the_settings_the_author_makes_are_written_down():

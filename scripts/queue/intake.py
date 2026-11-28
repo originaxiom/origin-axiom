@@ -17,7 +17,10 @@ One round, in this order, for every claim card the queue's branch has not finish
      reasons; or HEAVY, when the card stays FILED, marked heavy, for the author's machine;
   6. the peer note (T8): a card OFFERED to a peer moves to PEERED once the peer's note, on its own branch, holds the
      runner's check (scripts/queue/peer_note.py), the peer's script rerun in the same sandbox; a note that does not is
-     reported and the card stays OFFERED. Offers are made by hand in the trial;
+     reported and the card stays OFFERED. The offer is main's, in queue/OFFERS.json on main (main's M79): a REPRODUCED
+     card whose offer holds moves to OFFERED, by the runner, its note naming the peer's code and branch; an offer to the
+     card's own seat or its own family is refused and reported; a card with no offer stays REPRODUCED, and the report
+     says so. Only the offered peer's note is taken; another seat's is refused;
   7. the end of the peer stage (T9): after the peer's note, or 72 hours after the offer with no note that holds, a card
      that decides something goes to AT_BANKING, and a card that decides nothing ends at NOT_BANKED;
   8. banking (T9): the cards AT_BANKING, in queue order (M64 item 13), are checked against the two banking seats'
@@ -46,6 +49,7 @@ import datetime
 import hashlib
 import importlib.util
 import json
+import re
 import pathlib
 import subprocess
 import sys
@@ -71,6 +75,8 @@ RR = _load("rerun_for_intake", HERE / "rerun.py")
 PN = _load("peer_note_for_intake", HERE / "peer_note.py")
 BK = _load("banking_for_intake", HERE / "banking.py")
 PEER_HOURS = 72                    # § 9: an offer with no note that holds goes to banking after 72 hours, marked so
+OFFERS = ROOT / "queue" / "OFFERS.json"       # main's offers to peers (main's M79)
+OFFERED_TO = re.compile(r"offered to (\S+) on (\S+) \(queue/OFFERS\.json\)")
 MAX_CARDS = 3                      # cards rerun in one round, so that a round stays inside the job's time
 
 
@@ -121,13 +127,64 @@ def _hours(a, b):
     return (datetime.datetime.strptime(b, f) - datetime.datetime.strptime(a, f)).total_seconds() / 3600
 
 
+def read_offers(path=OFFERS):
+    """({(the card's branch, its path): {"code", "branch"} of the peer}, problems): main's queue/OFFERS.json. Its form:
+    {"note": ..., "offers": [{"branch": <the card's branch>, "path": <the card's path>,
+                              "peer": {"code": <the peer's seat code>, "branch": <the peer's branch>}}]}"""
+    try:
+        d = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+    except OSError:
+        return {}, []
+    except ValueError:
+        return {}, ["queue/OFFERS.json is not JSON"]
+    offers, bad = {}, []
+    for i, o in enumerate(d.get("offers", []) if isinstance(d, dict) else [], 1):
+        peer = o.get("peer") if isinstance(o, dict) else None
+        if not isinstance(o, dict) or sorted(o) != ["branch", "path", "peer"] or not isinstance(peer, dict) \
+                or sorted(peer) != ["branch", "code"]:
+            bad.append("offer %d holds exactly branch, path and peer {code, branch}" % i)
+            continue
+        problems = QS.code_problems(peer["code"], "the peer's code") + \
+            ([] if QS.branch_ok(o["branch"]) else ["the card's branch is not a branch's name"]) + \
+            ([] if QS.branch_ok(peer["branch"]) else ["the peer's branch is not a branch's name"])
+        if not isinstance(o["path"], str) or not o["path"].startswith("relays/claims/"):
+            problems.append("the card's path is not under relays/claims/")
+        if (o["branch"], o["path"]) in offers:
+            problems.append("the card is offered twice")
+        if problems:
+            bad.append("offer %d: %s" % (i, "; ".join(problems)))
+            continue
+        offers[(o["branch"], o["path"])] = dict(peer)
+    return offers, bad
+
+
+def offer_problems(rec, peer, codes):
+    """why an offer cannot be made: the card's own seat, its own family, or a peer branch that is not the code's"""
+    if peer["code"] == rec["seat_code"]:
+        return ["it is offered to the card's own seat %s" % peer["code"]]
+    if peer["code"].split("-")[0] == rec["seat_code"].split("-")[0]:
+        return ["it is offered to the card's own family (%s)" % peer["code"].split("-")[0]]
+    code, why = D.code_for(peer["branch"], codes, list(codes))
+    if code != peer["code"]:
+        return ["the peer's branch %s is %s in queue/SEAT_CODES.json, not %s" % (
+            peer["branch"], code, peer["code"])] if code else [why]
+    return []
+
+
+def offered_to(rec):
+    """(the peer's code, its branch) of the card's last offer made from queue/OFFERS.json, or None (an offer by hand)"""
+    offers = [e for e in rec["history"] if e["status"] == "OFFERED"]
+    m = OFFERED_TO.match(offers[-1]["note"]) if offers else None
+    return (m.group(1), m.group(2)) if m else None
+
+
 def queue_order(cards):
     """the cards' ids in queue order: by the number of the id, Q0001 first (M64 item 13: banking takes cards so)"""
     return sorted(cards, key=lambda c: (int(c[1:]) if c[1:].isdigit() else float("inf"), c))
 
 
 def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_LIMIT, max_cards=MAX_CARDS,
-           prefix=None, allow_static=False, codes=None, seats_file=None):
+           prefix=None, allow_static=False, codes=None, seats_file=None, offers_file=None):
     """one round: (the cards after it, the log after it, {id: attachment}, report lines, exit status). The queue's folder
     is read once, at the start; what the round decides is held in memory and written only after every rerun (main's M62)"""
     at = at or _now()
@@ -223,18 +280,41 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
         else:
             _move(rec, "RETURNED_AT_INTAKE", "the rerun: " + "; ".join(res["reasons"]), at)
             report.append("%s RETURNED_AT_INTAKE (rerun)" % cid)
+    # main's M79: the offers are main's, in queue/OFFERS.json; the runner moves a REPRODUCED card whose offer holds
+    offers, bad = read_offers(offers_file or OFFERS)
+    report += ["queue/OFFERS.json: %s" % b for b in bad]
+    the_codes = codes if codes is not None else D.seat_codes()
+    for cid in queue_order(cards):
+        rec = cards[cid]
+        if rec["status"] != "REPRODUCED":
+            continue
+        peer = offers.get((rec["branch"], rec["card_path"]))
+        if peer is None:
+            report.append("%s REPRODUCED, and queue/OFFERS.json offers it to no peer yet" % cid)
+            continue
+        why = offer_problems(rec, peer, the_codes)
+        if why:
+            report.append("%s: its offer in queue/OFFERS.json is refused: %s" % (cid, "; ".join(why)))
+            continue
+        _move(rec, "OFFERED", "offered to %s on %s (queue/OFFERS.json)" % (peer["code"], peer["branch"]), at)
+        report.append("%s OFFERED to %s on %s" % (cid, peer["code"], peer["branch"]))
     # T8: a card OFFERED to a peer moves to PEERED when the peer's note, on the peer's own branch, holds the runner's check
     for cid in sorted(cards):
         rec = cards[cid]
         if rec["status"] != "OFFERED":
             continue
         text = _card_text(root, rec)
+        named = offered_to(rec)                       # main's M79: only the offered peer's note is taken
         for key, ref in (refs if refs is not None else D.branches()):
             branch = ref.split("/", 1)[1] if ref.startswith("origin/") else ref
             rc = subprocess.run(["git", "log", "-1", "--format=%H", ref, "--", PN.note_path(cid)], cwd=root,
                                 capture_output=True, text=True)
             commit = rc.stdout.strip()
             if rc.returncode != 0 or not commit:
+                continue
+            if named and branch != named[1]:
+                report.append("%s: the peer note on %s is refused: the card is offered to %s on %s, not to this seat"
+                              % (cid, ref, named[0], named[1]))
                 continue
             raw = subprocess.run(["git", "show", "%s:%s" % (commit, PN.note_path(cid))], cwd=root, capture_output=True,
                                  text=True)
@@ -255,6 +335,9 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
                     entries = entries + [e]
             res = PN.check(root, note, commit, branch, rec, text or "", entries, limit=limit, prefix=prefix,
                            allow_static=allow_static)
+            if named and res["ok"] and note.get("peer_code") != named[0]:
+                res = dict(res, ok=False, reasons=["the note's peer %s is not the offered peer %s" % (
+                    note.get("peer_code"), named[0])])
             attach(cid)["peer"] = dict(res, branch=branch, commit=commit)
             if res["ok"]:
                 _move(rec, "PEERED", "the peer note on %s at %s: %s, graded %s%s" % (

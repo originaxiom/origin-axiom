@@ -6,6 +6,10 @@ A fixed share of the queue is planted: cards with a known fault, under real prod
 into the peer stage and banking, unknown to the seats. Which cards are planted, and how, is main's alone. This file holds
 the format and the checks, never a plant: the builder does not see the ledger's contents (main's M54).
 
+THE WORD "ROUND" (main's M76 point 3). The ledger's round is a batch of cards, not one run of the runner, which the queue's
+README also calls a round and which comes every three hours. A ledger's round ends when every card it names has ended (its
+status final: VERIFIED, RETURNED, REFUSED, WITHDRAWN, NOT_BANKED, RETURNED_AT_INTAKE); only then is its ledger opened.
+
 EACH ROUND, in this order, all on main:
   1. main writes the round's ledger, `queue/plants/ROUND_<n>.json`, and keeps it untracked;
   2. main commits its seal, one line appended to `queue/PLANT_SEALS.jsonl`: {"round": n, "sha256": <the ledger's SHA-256>}
@@ -29,13 +33,18 @@ THE RULES (the gate `plant-ledger`, fail-closed):
   - it is only appended to, along main's first-parent history: no line is ever changed or taken out;
   - every opened ledger holds its form, has its round's seal, and hashes, byte for byte, to it;
   - a ledger is opened in a commit after the one that added its seal, never in the same one;
-  - an opened ledger never changes afterwards.
+  - an opened ledger never changes afterwards, and is never taken out (main's M76);
+  - round n's ledger is opened by the commit that seals round n + 1, or before it (main's M76): a round is not left
+    sealed and never opened.
 
 THE MEASURE (`--measure QDIR`): for each plant of every opened ledger, the queue's card filed from its branch and path, and
 what each seat said of it. A banking seat catches a plant when its verdict is one of the plant's `caught_by`; a peer, when
 its note's finding is "fault". The report gives each seat's catches over its plants, and the shapes not yet planted in
-any round (THE_RULES_SORTED: one plant of each shape over the rounds). A plant whose card's first verdict or note was
-sighted by the runner before its round's seal was committed is reported as sealed late: the measure does not count it.
+any round (THE_RULES_SORTED: one plant of each shape over the rounds). Two kinds of plant are reported and not counted:
+  - sealed late: a seat's content for the card (a verdict, a note or an expectation) was first sighted by the runner
+    before its round's seal was committed;
+  - opened early (main's M76): a seat's content for the card was first sighted after the commit that opened the ledger,
+    which is public on main from then on.
 
     python3 scripts/queue/plants.py --check                 # the gate's rules on this checkout; exit 1 when one fails
     python3 scripts/queue/plants.py --seal LEDGER           # the seal line for LEDGER, after its form is checked
@@ -60,6 +69,7 @@ STAGES = ("peer", "banking", "both")
 SOURCES = ("main", "auditor", "calibration")
 CATCHES = ("REFUSE", "RETURN")
 HEX64 = re.compile(r"[0-9a-f]{64}")
+SEAT_CONTENT = ("verdict", "peer", "expect")          # what a seat files about a card, as the sighting log names it (M76)
 PLANT_KEYS = ("branch", "path", "shape", "stage", "source", "fault", "caught_by")
 
 
@@ -162,6 +172,17 @@ def problems(root=ROOT):
         before = now
     if not text.startswith(before):
         bad.append("%s in the working tree changes a committed line: it is only appended to" % SEALS)
+    # a ledger once opened stays (main's M76): every ROUND_<n>.json ever added along main's first-parent history is here
+    rc, added = _git(root, "log", "--first-parent", "--diff-filter=A", "--name-only", "--format=", "HEAD", "--", LEDGERS)
+    for rel in sorted(set(l.strip() for l in added.splitlines() if l.strip())):
+        if not (root / rel).is_file():
+            bad.append("%s was opened and is gone: an opened ledger stays" % rel)
+    # every round sealed after the first: the round before it opened by then (main's M76)
+    for n in sorted(sealed_in):
+        if n - 1 >= 1 and n - 1 in sealed_in:
+            opened_prev = _first_parent(root, "%s/ROUND_%d.json" % (LEDGERS, n - 1)) or []
+            if not opened_prev or _git(root, "merge-base", "--is-ancestor", opened_prev[0], sealed_in[n])[0] != 0:
+                bad.append("round %d is sealed and round %d's ledger was not opened by then" % (n, n - 1))
     # every opened ledger: its form, its seal, its hash, opened after its seal and never changed
     d = root / LEDGERS
     for led in sorted(d.iterdir()) if d.is_dir() else []:
@@ -235,7 +256,13 @@ def measure(qdir, root=ROOT):
             sealed_at.setdefault(s["round"], _commit_time(root, c))
     banking = _json(root / "queue" / "BANKING_SEATS.json")
     codes = (_json(root / "queue" / "SEAT_CODES.json") or {}).get("codes", {})
-    seats, out, late, shapes = {}, [], [], set()
+    opened_at = {}
+    for led in sorted((root / LEDGERS).glob("ROUND_*.json")) if (root / LEDGERS).is_dir() else []:
+        first = (_first_parent(root, "%s/%s" % (LEDGERS, led.name)) or [None])[0]
+        m = LEDGER_NAME.fullmatch(led.name)
+        if first and m:
+            opened_at[int(m.group(1))] = _commit_time(root, first)
+    seats, out, late, early, shapes = {}, [], [], [], set()
     for led in sorted((root / LEDGERS).glob("ROUND_*.json")) if (root / LEDGERS).is_dir() else []:
         d = json.loads(led.read_text(encoding="utf-8"))
         for p in d["plants"]:
@@ -249,12 +276,17 @@ def measure(qdir, root=ROOT):
                 continue
             cf = qdir / "checks" / ("%s.json" % rec["id"])
             check = json.loads(cf.read_text(encoding="utf-8")) if cf.is_file() else {}
-            first_seen = min((e["at"] for e in entries if e.get("what") in ("verdict", "peer")
-                              and rec["id"] in e.get("path", "")), default=None)
-            if first_seen and sealed_at.get(d["round"]) and first_seen < sealed_at[d["round"]]:
+            seen = sorted(e["at"] for e in entries if e.get("what") in SEAT_CONTENT and rec["id"] in e.get("path", ""))
+            if seen and sealed_at.get(d["round"]) and seen[0] < sealed_at[d["round"]]:
                 late.append(row)
-                row["note"] = "sealed late: a verdict or note was sighted at %s, before the seal at %s" % (
-                    first_seen, sealed_at[d["round"]])
+                row["note"] = "sealed late: a seat's content was sighted at %s, before the seal at %s" % (
+                    seen[0], sealed_at[d["round"]])
+                out.append(row)
+                continue
+            if seen and opened_at.get(d["round"]) and seen[-1] > opened_at[d["round"]]:
+                early.append(row)
+                row["note"] = "opened early: a seat's content was sighted at %s, after the ledger was opened at %s" % (
+                    seen[-1], opened_at[d["round"]])
                 out.append(row)
                 continue
             for v, g in sorted((check.get("banking") or {}).items()):
@@ -274,7 +306,7 @@ def measure(qdir, root=ROOT):
                 seats[code][0] += int(peered[0].group(2) == "fault")
                 seats[code][1] += 1
             out.append(row)
-    return {"seats": seats, "plants": out, "late": late, "unplanted": [s for s in SHAPES if s not in shapes],
+    return {"seats": seats, "plants": out, "late": late, "early": early, "unplanted": [s for s in SHAPES if s not in shapes],
             "rounds_sealed": len(seals)}
 
 

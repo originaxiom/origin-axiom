@@ -1,5 +1,43 @@
 # Changelog
 
+## S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)
+
+- **`.github/workflows/intake.yml`:** the round runs the image's own `python3`, the allowed packages installed for it,
+  not `actions/setup-python`'s: that interpreter sits under `/opt/hostedtoolcache`, which the wrap covers with an empty
+  tmpfs where the image leaves it writable by all, and it needs `LD_LIBRARY_PATH`, which `sudo` drops. The log names the
+  interpreter.
+- **`scripts/queue/rerun.py`:** an interpreter under a directory the wrap covers is refused before anything runs, and
+  `WHY_NOT` says so.
+- **Tests of main's M78 work, read as the builder reads its own:** each of `WHY_NOT`'s reasons (not usable, a command
+  missing, the interpreter hidden, the probe's exit, its report) is planted, and a HEAVY card carries them; taken out,
+  each fails a test. Main's own tests read only the workflow's text.
+
+## S306p THE PLANT LEDGER'S FOUR HOLES IN THE OPENING, AND ITS SEALS ON MAIN'S .GITIGNORE (the framework's thin path, T12; P-885; main's M76, M77) (2026-11-28)
+
+- **`scripts/queue/plants.py`:** a ledger once opened along main's first-parent history stays: one taken out fails the
+  gate. Round n's ledger is opened by the commit that seals round n + 1, or before it, so a round is not left sealed and
+  never opened. The measure leaves out, as "opened early", a plant whose seat's content was first sighted after the
+  commit that opened its ledger, which is public from then on; and it reads an expectation as a seat's content, beside
+  verdicts and notes, for "sealed late" and "opened early" alike.
+- **The word "round":** the ledger's round is a batch of cards, opened when every card it names has ended, not one run of
+  the runner; said in `plants.py`'s docstring and the queue's README.
+- **Main's `.gitignore`:** a test that it ignores neither `queue/PLANT_SEALS.jsonl` nor `queue/plants/ROUND_<n>.json`
+  (main's M77: `*.jsonl` had ignored the seals, and round 1's seal could not be committed).
+- **Tests** `tests/test_queue_plants.py` (8 tests); each hole, put back, makes one fail.
+
+## S306p THE OFFERS TO PEERS: MAIN'S FILE, THE RUNNER'S MOVE TO OFFERED (the framework's thin path; P-885; main's M79) (2026-11-28)
+
+- **`queue/OFFERS.json`,** main's file, shipped with no offer: each offer names the card by its branch and path and the
+  peer by its seat code and branch.
+- **`scripts/queue/intake.py`:** each round, a REPRODUCED card whose offer holds moves to OFFERED, the runner's move, its
+  note naming the peer ("offered to <code> on <branch> (queue/OFFERS.json)"). An offer to the card's own seat, its own
+  family, or a branch that is not the code's in `queue/SEAT_CODES.json` is refused and reported; a card with no offer
+  stays REPRODUCED, and the report says so. The peer stage takes only the offered peer's note: a note on another seat's
+  branch, or in another code, is refused. Nothing moved a card past REPRODUCED, since the queue's branch is the runner's
+  alone.
+- **`queue/README.md`:** the offers.
+- **New test** `tests/test_queue_offers.py` (4 tests); each rule's removal makes one fail.
+
 ## S306p THE SANDBOX ON GITHUB'S RUNNER: THE TOOL CACHE IS WRITABLE BY ALL, AND ITS COVER HID THE INTERPRETER (P-885; M78; HARVEST ROWS 2069, 2070) (2026-11-28)
 
 - **The cause, found in GitHub's own image:** `actions/runner-images`, `images/ubuntu/scripts/build/configure-environment.sh`,
@@ -10,6 +48,7 @@
   and before the round. The interpreter stays readable and runnable by nobody, and nobody can change it. A test in
   `tests/test_queue_intake.py` holds the step's place.
 - **Both banking seats' status** registered (rows 2069, 2070): V1 read M67, V2 read M8, each waiting on a card at banking.
+
 
 ## S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVEST ROW 2068; M79, M26, M28, M67, M8) (2026-11-28)
 

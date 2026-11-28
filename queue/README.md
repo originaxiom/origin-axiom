@@ -18,6 +18,15 @@ A card's history is append-only. A returned card is refiled as a new card that n
   The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
   queue's branch, `queue`.
 
+## The offers to peers (main's M79)
+
+The queue's branch is the runner's alone, so main offers a card to a peer in its own file on main, `queue/OFFERS.json`:
+each offer names the card by its branch and its path (its queue id is given at intake) and the peer by its seat code and
+branch. Each round the runner moves a REPRODUCED card whose offer holds to OFFERED, its note naming the peer. An offer to
+the card's own seat or its own family (the code's first part), or to a branch that is not the code's in
+`queue/SEAT_CODES.json`, is refused and reported. A card with no offer stays REPRODUCED, and the report says so. Only the
+offered peer's note is taken; another seat's note is refused.
+
 ## The settings the author makes (once, in the repository's settings on GitHub)
 
 1. **Spending:** set the account's budget for Actions to $0, so a run that would cost money does not run. Standard runners
@@ -69,7 +78,9 @@ main's.
 
 ## The plant ledger (the thin path's patch T12)
 
-Main's alone, and not read by any seat before it is opened. Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
+Main's alone, and not read by any seat before it is opened. **Its round is a batch of cards, not one run of the runner**
+(the runs above, every three hours, are a different round): a ledger is opened only when every card it names has ended,
+its status final, and round n's ledger is opened before round n + 1 is sealed (main's M76). Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
 it untracked, commits its seal (`python3 scripts/queue/plants.py --seal queue/plants/ROUND_<n>.json`, a line appended to
 `queue/PLANT_SEALS.jsonl`), lets the round run, and then commits the ledger, which opens it. A fresh nonce for each ledger:
 `plants.py --nonce`. The catch rates: `plants.py --measure <the queue/ folder of the queue's branch>`. The gate

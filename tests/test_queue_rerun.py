@@ -571,3 +571,41 @@ def test_a_script_printing_a_set_of_strings_gives_the_same_lines_on_two_reruns_m
         lines.add(_rerun(tmp_path / "s", _card(tmp_path / "s"))["decisive"]["sha256"])
     assert len(lines) == 1, lines
     assert RR._command("python3 x.py") == [sys.executable, "-s", "x.py"]
+
+
+def test_each_strategy_refused_says_why_and_a_heavy_card_carries_it_m78(monkeypatch, tmp_path):
+    """main's M78 point 2, as main built it (rerun.WHY_NOT), read as the builder reads its own: each refusal gives its
+    reason (not usable, a command missing, the interpreter under a covered directory, the probe's exit, its report), and
+    a HEAVY card carries them; each, taken out, fails here"""
+    import shutil
+    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: False, ["unshare", RR.RUN], "root's"),
+                                           (lambda: True, ["no-such-tool-anywhere", RR.RUN], "missing")])
+    assert RR.sandbox_prefix() == ([], "no sandbox")
+    # CHANGED 2026-11-28 (main, at landing): the list of missing commands is the host's, so a host without unshare (the
+    # author's) names it too. The line as it stood expected exactly "missing: missing no-such-tool-anywhere"
+    gone = [c for c in ("no-such-tool-anywhere", "unshare", "mount", "pkill", "pgrep") if not shutil.which(c)]
+    assert RR.WHY_NOT == ["root's: not usable here", "missing: missing " + ", ".join(gone)], RR.WHY_NOT
+    _commit(tmp_path / "c", {"x.py": GOOD})
+    res = _rerun(tmp_path / "c", _card(tmp_path / "c"), allow_static=False)
+    assert res["status"] == "HEAVY" and "missing: missing no-such-tool-anywhere" in res["reasons"][0], res
+    if os.geteuid() != 0 or not all(shutil.which(c) for c in ("unshare", "mount", "pkill", "pgrep", "false", "env")):
+        return
+    exe = os.path.dirname(os.path.realpath(sys.executable))       # the interpreter under a covered directory
+    monkeypatch.setattr(RR, "world_writable", lambda top="/": ["/tmp", exe])
+    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: True, ["unshare", "-n", "--", RR.RUN], "hidden")])
+    RR.sandbox_prefix()
+    assert RR.WHY_NOT and RR.WHY_NOT[0].startswith("hidden: the interpreter %s is under %s" % (
+        os.path.realpath(sys.executable), exe)), RR.WHY_NOT
+    monkeypatch.setattr(RR, "world_writable", lambda top="/": ["/tmp"])
+    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: True, ["false", RR.RUN], "exits 1")])
+    RR.sandbox_prefix()
+    assert RR.WHY_NOT and RR.WHY_NOT[0].startswith("exits 1: the probe exited 1"), RR.WHY_NOT
+    monkeypatch.setattr(RR, "STRATEGIES", [(lambda: True, ["env", "--"], "no wrap at all")])
+    RR.sandbox_prefix()
+    assert RR.WHY_NOT and RR.WHY_NOT[0].startswith("no wrap at all: ") and "directories covered" in RR.WHY_NOT[0], RR.WHY_NOT
+
+
+def test_the_round_runs_the_images_own_interpreter_m78():
+    text = (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8")
+    round_job = text.split("\n  record:\n", 1)[0]
+    assert "- uses: actions/setup-python" not in round_job and "--break-system-packages" in round_job

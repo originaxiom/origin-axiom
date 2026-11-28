@@ -20759,3 +20759,29 @@ rightly hides every such folder from the code it runs, and so it hid the very Py
 that write permission before it starts, so the guard can be built.
 
 0 of 19.
+
+## 2026-11-28 — Offering a card to a peer, through main's own file (S306p)
+
+**What happened.** The building seat mended a fault that would have stopped the trial: nothing could move a reproduced
+card on to a peer, because only the runner may write the queue. Main now lists its offers in a file of its own, and each
+round the runner moves the offered cards on, refusing an offer to the card's own seat or family and taking only the named
+peer's note.
+
+0 of 19.
+
+## 2026-11-28 — The plant ledger's opening made tight (S306p)
+
+**What happened.** The building seat closed four ways around the plant ledger that main found. A published list of plants
+can no longer be deleted afterwards; a round's list must be published before the next round is sealed; a verdict seen
+only after a list was published no longer counts as a catch; and a seat's written expectation counts as its content, like
+its verdict. A test now checks that the repository's ignore rules let main commit the fingerprints and the lists.
+
+0 of 19.
+
+## 2026-11-28 — The runner's sandbox given a Python it can reach (S306p)
+
+**What happened.** The building seat proposed the likely fix for the runner's missing sandbox on GitHub: run the intake
+with the machine's own Python, which the sandbox does not hide and which starts without extra settings, and refuse,
+saying why, an interpreter the sandbox would hide. Each reason the runner gives for having no sandbox now has a test.
+
+0 of 19.

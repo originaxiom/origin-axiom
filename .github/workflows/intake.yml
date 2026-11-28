@@ -47,20 +47,16 @@ jobs:
             git archive "origin/${QUEUE_BRANCH}" queue | tar -x -C queue-state
           fi
           mkdir -p queue-state/queue
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install the allowed packages at their pins
+      # CHANGED 2026-11-28 (the builder, at M78 point 2): the image's own python3, not actions/setup-python's. That
+      # interpreter sits under /opt/hostedtoolcache, which the wrap covers with an empty tmpfs when the image leaves it
+      # writable by all, and it needs LD_LIBRARY_PATH, which sudo drops; /usr/bin/python3 is root's and needs neither.
+      # The lines as they stood: uses: actions/setup-python@v5, with python-version "3.12", and pip install for it
+      - name: Install the allowed packages at their pins, for the image's own python3
         run: |
           python3 -c "import json; d = json.load(open('scripts/queue/ALLOWED_PACKAGES.json')); print(' '.join(k + '==' + v['pin'] for k, v in d['packages'].items()))" > pins.txt
-          python3 -m pip install --quiet $(cat pins.txt)
-      # ADDED 2026-11-28 (main, at the author's word; M78 point 2): GitHub's runner image makes its tool cache writable by
-      # all (actions/runner-images, images/ubuntu/scripts/build/configure-environment.sh: chmod -R 777
-      # $AGENT_TOOLSDIRECTORY). The wrap rightly covers every world-writable directory with an empty tmpfs, and so hid the
-      # interpreter it runs, actions/setup-python's, with the allowed packages: the first round on the workflow could make
-      # no sandbox. Taking others' write bit off leaves the interpreter readable and runnable by nobody, and unchangeable.
-      - name: Take others' write off the tool cache, so the sandbox's covers do not hide the interpreter
-        run: sudo chmod -R o-w "${RUNNER_TOOL_CACHE:-/opt/hostedtoolcache}"
+          python3 -m pip --version >/dev/null 2>&1 || sudo apt-get install -y -q python3-pip
+          sudo python3 -m pip install --quiet --break-system-packages $(cat pins.txt)
+          python3 -c "import sys; print('the interpreter:', sys.executable, sys.version.split()[0])"
       - name: One round of the intake (seat code runs here, with the network cut)
         # CHANGED 2026-11-28 (main, at the author's word, after the first round on the workflow, M78 point 4): a round that
         # cannot make the sandbox is not recorded. It had gone on and marked each card it reran HEAVY, for a fault of the
