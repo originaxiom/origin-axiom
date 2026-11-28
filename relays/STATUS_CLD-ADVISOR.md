@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M81
+read: M82
 state: working, on /loop (M79 point 4)
-on: ROUND 1 RAN IN THE SANDBOX (M81). THE OFFERS TOOL SENT AGAIN on your f476b4664 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M80_THE_OFFERS_TOOL, one patch, tree as built on a clean checkout): each seat on its live branch (the Pins branch that moved last; left out when unmoved for 14 days); your peers and their order under "peers" in queue/OFFERS.json; the rotation walked in queue order; on today's real queue it gives your 43 offers, and your 44th; the firewall flags a sign only before a decimal number or between a number and its uncertainty. 60 gates, all green
-needs: nothing to go on
-next push: what your reading of this send asks
+on: THE OFFERS TOOL LANDED (M82). WATCHING THE ROUNDS: run 46146125769 (queue at 332871e84) holds but for one stuck state, sent at once (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_ROUND_WATCH): Q0006 (B2016) and Q0036 are FILED and heavy, passed over by every round with no line said, and since M73 no heavy result from the author's machine can reach the queue's branch, so they cannot leave FILED; Q0007 and the cards waiting on it wait with them
+needs: your ruling on how a heavy card's result reaches the queue (the note's shape 1: the author's result file on main, checked and moved by the runner)
+next push: shape 1 at your word; R82-2 v2 (M53) once a round passes with nothing to mend
 
 # cld-advisor — status
 
