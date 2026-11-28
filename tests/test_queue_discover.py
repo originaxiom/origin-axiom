@@ -242,6 +242,24 @@ def test_mains_card_on_a_branch_cut_before_main_filed_it_again_is_passed_over_m7
     assert [r["branch"] for r in new.values()] == ["main"] and any("seat/a" in r for r in report), report
 
 
+def test_a_stated_commit_that_exists_and_is_not_an_ancestor_is_refused_m74(tmp_path):
+    """Review 89, main's M74 point 2: the stated commit "0" * 40 is a git error (exit 128), not a commit that is not an
+    ancestor (exit 1). A real commit on a side branch is planted, and its twin, the branch's own earlier commit, holds"""
+    g, put, card, base = _repo(tmp_path)
+    g("checkout", "-q", "-b", "side", base)
+    (tmp_path / "side.txt").write_text("a commit beside the seat's branch\n", encoding="utf-8")
+    g("add", "-A")
+    g("commit", "-q", "-m", "side")
+    side = g("rev-parse", "HEAD").strip()
+    assert subprocess.run(["git", "merge-base", "--is-ancestor", side, "seat/a"], cwd=tmp_path).returncode == 1
+    g("checkout", "-q", "seat/a")
+    put("CLAIM_side.md", card("a stated commit on a side branch", stated=side))
+    put("CLAIM_own.md", card("a stated commit on its own branch", stated=base))
+    new, report = _discover({}, [("a", "origin/seat/a")], tmp_path)
+    assert sorted(r["card_path"] for r in new.values()) == ["relays/claims/CLAIM_own.md"], report
+    assert any("CLAIM_side.md" in r and "is not an ancestor of" in r for r in report), report
+
+
 def test_the_table_on_main_names_main_and_the_command_runs_by_hand(tmp_path):
     codes = D.seat_codes()
     assert codes.get("main") == QS.MAIN_CODE and all(not QS.code_problems(c) for c in codes.values())

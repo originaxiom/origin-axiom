@@ -51,6 +51,28 @@ def test_a_list_that_grows_or_names_no_row_fails_the_gate_and_its_twin_passes(tm
     assert not ok and "adds harvest-debt: the list may only shrink" in detail
 
 
+def test_an_entry_swapped_for_another_along_the_history_fails_though_the_length_is_kept_m74(tmp_path):
+    """Review 89, main's M74 point 3: a guard that compared the list's length along its history would pass an entry swapped
+    for another; the code compares the entries, and this plants the swap"""
+    g = lambda *a: subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *a], cwd=tmp_path,
+                                  capture_output=True, text=True, check=True)
+    g("init", "-q")
+    (tmp_path / "queue").mkdir()
+    f = tmp_path / "queue" / "KNOWN_FAILURES.json"
+    f.write_text(json.dumps(TWIN), encoding="utf-8")
+    g("add", "-A")
+    g("commit", "-q", "-m", "the list")
+    swapped = json.loads(json.dumps(TWIN))
+    swapped["tests"][0]["id"] = "tests/test_b.py::test_another"             # one entry out, another in: the same length
+    f.write_text(json.dumps(swapped), encoding="utf-8")
+    g("commit", "-q", "-am", "a swap")
+    bad = BL.shrink_problems(tmp_path)
+    assert len(bad) == 1 and "adds tests/test_b.py::test_another: the list may only shrink" in bad[0], bad
+    ok, detail = GATES.gate_known_failures(swapped, tmp_path)
+    assert not ok and "test_another" in detail
+    assert BL.shrink_problems(tmp_path, ref="HEAD~1") == []               # the list before the swap holds
+
+
 def test_the_lists_form():
     known = {"P-885", "P-881"}
     assert BL.form_problems(TWIN, known) == []

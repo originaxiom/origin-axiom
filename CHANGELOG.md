@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p REVIEW 89'S FOUR FINDINGS IN THE QUEUE'S CODE LANDED (R89-1 MET; P-885; HARVEST ROW 2062) (2026-11-28)
+
+- **The builder's patch 0005 (M74), byte for byte:**
+  - the rerun runs `python -s`, not `-E`, so the `PYTHONHASHSEED` it sets holds. A script printing a set of strings gives
+    one line on four reruns (main's check);
+  - discovery's ancestor rule is tested with a real side-branch commit;
+  - the known-failures history is tested with a swap;
+  - `baseline.py`'s docstring no longer says the list ships empty.
+- **Its three test files pass,** 48 with 10 skipped.
+- **R89-1 is met.**
+
 ## S306p T11 LANDED: THE LANDING TOOL, THE SINGLE WRITER OF A BANKED CARD'S ARC (P-885; M72) (2026-11-28)
 
 - **The builder's patch 0004, sent again at `33041d6ee`, byte for byte.** Its tree as built is `54114b90`.

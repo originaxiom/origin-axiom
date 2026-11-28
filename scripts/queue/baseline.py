@@ -15,8 +15,9 @@ THE RULES (§ 9, the advisor's proposal adopted):
   - a landing that adds a failure or a red gate is refused (the landing tool, T11, calls `compare` below): a failure the
     list does not hold is a new failure; an entry that now passes is reported, so that the list is shrunk by it.
 
-The list ships EMPTY. Its first entries are main's: they come from main's own full suite on a fresh clone, each with the
-register row main gives it. `--draft` writes the entries a run gives, with their rows left for main to fill.
+The list's entries are main's: it ships main's seven first entries (main's M63), from main's own full suite on a fresh
+clone, each with the register row main gives it (Review 89, main's M74 point 4: this line said the list shipped empty).
+`--draft` writes the entries a run gives, with their rows left for main to fill.
 
     python3 scripts/queue/baseline.py --check                       # the list's form and rows; exit 1 when it fails
     python3 scripts/queue/baseline.py --compare FAILURES [--gates RED]   # a run against the list

@@ -302,7 +302,9 @@ def _command(cmd):
     if path.startswith(("/", "-")) or ".." in pathlib.PurePosixPath(path).parts:
         return None
     if run in ("python3", "python") and path.endswith(".py"):
-        return [sys.executable, "-E", "-s"] + argv[1:]
+        # `-s`, not `-E` (Review 89, main's M74 point 1): the environment is built clean already, and `-E` would ignore the
+        # PYTHONHASHSEED it sets, so a script printing a set of strings would give other decisive lines on each rerun
+        return [sys.executable, "-s"] + argv[1:]
     if run == "sage" and path.endswith(".sage") or run == "gap" and path.endswith((".g", ".gap")):
         return argv
     return None
@@ -532,14 +534,14 @@ def _checks(tmp, modes, script, want_hash, cmd, control):
         bad.append("the decisive script as written is not the one the card hashes (%s, the card says %s)" % (got, want_hash))
     is_heavy_script = script.endswith(HEAVY_SUFFIXES)
     argv = _command(cmd)
-    if argv is None or (argv[3] if argv[0] == sys.executable else argv[1]) != script:
+    if argv is None or (argv[2] if argv[0] == sys.executable else argv[1]) != script:
         bad.append("the decisive command is not a plain run of the decisive script: %r" % cmd)
     cargv = _command(control)
     if cargv is None:
         bad.append("the failing control is not a plain run of a script of the commit: %r" % control)
     elif argv is not None and cargv == argv:
         bad.append("the failing control is the decisive command itself")
-    scripts = [script] + ([cargv[3] if cargv[0] == sys.executable else cargv[1]] if cargv else [])
+    scripts = [script] + ([cargv[2] if cargv[0] == sys.executable else cargv[1]] if cargv else [])
     mods = set()
     for s in dict.fromkeys(scripts):
         if modes.get(s) == "120000":

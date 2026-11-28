@@ -20692,3 +20692,10 @@ checks for itself, from the two banking seats' sealed verdicts, that the card re
 seat's card to the record is now on main. What remains before the trial is the plant ledger, and the switch.
 
 0 of 19.
+
+## 2026-11-28 — the review's code findings mended (S306p)
+
+**What happened.** The four faults the last review found in the building seat's code are mended: reruns now give the same
+output every time, two rules gained the tests that were missing, and one description was corrected.
+
+0 of 19.

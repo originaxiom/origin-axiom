@@ -555,3 +555,19 @@ def test_no_filesystem_walk_where_no_wrap_is_usable(monkeypatch):
     monkeypatch.setattr(RR, "STRATEGIES", [(lambda: False, ["unshare", "--", "true"], "never usable"),
                                            (lambda: True, ["no-such-tool-anywhere", "--", "true"], "no tool")])
     assert RR.sandbox_prefix() == ([], "no sandbox")
+
+
+SET_OF_STRINGS = ("import sys\nif '--plant' in sys.argv:\n    raise SystemExit(1)\n"
+                  "print('DECISIVE: order =', ' '.join(set('alpha beta gamma delta epsilon zeta eta theta iota kappa'.split())))\n")
+
+
+def test_a_script_printing_a_set_of_strings_gives_the_same_lines_on_two_reruns_m74(tmp_path):
+    """Review 89, main's M74 point 1: `-E` made the interpreter ignore PYTHONHASHSEED, so the order of a set of strings,
+    and the decisive lines that print it, changed from one rerun to the next"""
+    _commit(tmp_path / "s", {"x.py": SET_OF_STRINGS})
+    first = _rerun(tmp_path / "s", _card(tmp_path / "s"))
+    lines = {first["decisive"]["sha256"]}
+    for _ in range(3):
+        lines.add(_rerun(tmp_path / "s", _card(tmp_path / "s"))["decisive"]["sha256"])
+    assert len(lines) == 1, lines
+    assert RR._command("python3 x.py") == [sys.executable, "-s", "x.py"]
