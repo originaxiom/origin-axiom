@@ -10,4 +10,4 @@ DECISIVE: C1 N = 7: Y_lep(w) against Y_up(6 w), the rule finds [(6, True)] -> ho
 DECISIVE: C1 N = 15: Y_up(w) against Y_up(11 w), the rule finds [(11, True)] -> holds
 DECISIVE: C1 the negative control at order 30: passes
 DECISIVE: READING: R2 (P1 = 210, P2 = 30, P3 = 10)
-DECISIVE: verdict: the claim FAILS
+DECISIVE: verdict: the claim holds
