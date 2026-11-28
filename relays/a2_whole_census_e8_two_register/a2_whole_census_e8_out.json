@@ -1,0 +1,1568 @@
+{
+  "Q1_universal_E8_kernel_theorem": {
+    "bases_checked": 480,
+    "bases_w64_hist_4_3_2_all_ok": true,
+    "c4_alpha_eq_beta_gives_k248_4": true,
+    "c4_alpha_ne_beta_gives_k248_zero": true,
+    "c4_iff_k128_zero": true,
+    "commuting_pairs_in_BD5": 160,
+    "degenerate_1D_F5_C4_k128": 0,
+    "degenerate_1D_F5_geo_k128": 24,
+    "k128_total_by_Hper": {
+      "C1": [
+        8
+      ],
+      "C10": [
+        4,
+        6
+      ],
+      "C2": [
+        8
+      ],
+      "C4": [
+        0
+      ],
+      "C5": [
+        4,
+        6
+      ]
+    },
+    "k248_at_alpha_Z_by_Hper": {
+      "C1": [
+        8
+      ],
+      "C10": [
+        0
+      ],
+      "C2": [
+        0
+      ],
+      "C4": [
+        0,
+        4
+      ],
+      "C5": [
+        4,
+        6
+      ]
+    },
+    "ok": true,
+    "sl2z_12_matrix_basis_scrambling_ok": true
+  },
+  "Q2_D5_BD5_census": {
+    "bd5_surj_manifolds": 280,
+    "d5_surj_manifolds": 431,
+    "d5_to_bd5_obstructed_count": 151,
+    "d5_to_bd5_obstructed_names": [
+      "m009",
+      "m010",
+      "m046",
+      "m079",
+      "m080",
+      "m110",
+      "m111",
+      "m136",
+      "m141",
+      "m146",
+      "m147",
+      "m148",
+      "m149",
+      "m168",
+      "m188",
+      "m217",
+      "m227",
+      "m234",
+      "m262",
+      "m263",
+      "m273",
+      "m278",
+      "m284",
+      "m290",
+      "m303",
+      "m304",
+      "m305",
+      "m306",
+      "m312",
+      "m320",
+      "m336",
+      "m343",
+      "m352",
+      "m360",
+      "m376",
+      "m400",
+      "m410",
+      "s008",
+      "s009",
+      "s034",
+      "s040",
+      "s041",
+      "s064",
+      "s065",
+      "s122",
+      "s149",
+      "s155",
+      "s163",
+      "s174",
+      "s235",
+      "s277",
+      "s286",
+      "s287",
+      "s296",
+      "s297",
+      "s299",
+      "s331",
+      "s347",
+      "s373",
+      "s386",
+      "s387",
+      "s391",
+      "s396",
+      "s408",
+      "s409",
+      "s412",
+      "s413",
+      "s427",
+      "s435",
+      "s448",
+      "s453",
+      "s454",
+      "s461",
+      "s470",
+      "s475",
+      "s483",
+      "s485",
+      "s486",
+      "s487",
+      "s492",
+      "s499",
+      "s510",
+      "s512",
+      "s518",
+      "s519",
+      "s520",
+      "s521",
+      "s524",
+      "s530",
+      "s538",
+      "s553",
+      "s554",
+      "s570",
+      "s584",
+      "s609",
+      "s610",
+      "s614",
+      "s620",
+      "s626",
+      "s627",
+      "s628",
+      "s629",
+      "s651",
+      "s656",
+      "s669",
+      "s670",
+      "s679",
+      "s685",
+      "s690",
+      "s694",
+      "s697",
+      "s698",
+      "s699",
+      "s700",
+      "s701",
+      "s702",
+      "s707",
+      "s708",
+      "s713",
+      "s716",
+      "s719",
+      "s734",
+      "s746",
+      "s753",
+      "s755",
+      "s787",
+      "s791",
+      "s793",
+      "s812",
+      "s821",
+      "s822",
+      "s823",
+      "s825",
+      "s830",
+      "s832",
+      "s855",
+      "s903",
+      "s905",
+      "s915",
+      "s916",
+      "s918",
+      "s919",
+      "s923",
+      "s924",
+      "s927",
+      "s936",
+      "s943",
+      "s946",
+      "s952",
+      "s954",
+      "s960"
+    ],
+    "hper_bucket_counts": {
+      "C1+C10+C2+C5": 1,
+      "C10": 49,
+      "C10+C4+C5": 6,
+      "C10+C5": 67,
+      "C4": 157
+    },
+    "obstructed_all_have_even_H1_torsion": true,
+    "s_bd5_c4_2gen": 145,
+    "s_bd5_c4_3gen": 18,
+    "s_bd5_c4_3gen_names": [
+      "m201",
+      "m207",
+      "m235",
+      "m261",
+      "s051",
+      "s426",
+      "s556",
+      "s573",
+      "s640",
+      "s733",
+      "s754",
+      "s788",
+      "s837",
+      "s854",
+      "s882",
+      "s890",
+      "s942",
+      "s961"
+    ],
+    "s_bd5_c4_total": 163
+  },
+  "Q3_SL2_F25_and_E8_lock": {
+    "bd5_all_2gen_checked_fricke": 235,
+    "bd5_non_c4_2gen_with_sl2_f25": 14,
+    "bd5_non_c4_2gen_with_sl2_f25_names": [
+      "m139",
+      "m293",
+      "s147",
+      "s158",
+      "s181",
+      "s252",
+      "s253",
+      "s254",
+      "s264",
+      "s378",
+      "s423",
+      "s439",
+      "s498",
+      "s955"
+    ],
+    "gluing_F25_strict_sol_count_of_1199": 634,
+    "gluing_F5_sol_count_of_1199": 326,
+    "s_bd5_c4_3gen_with_gluing_F25_strict": [
+      "m201",
+      "m207",
+      "s556",
+      "s754",
+      "s788",
+      "s854",
+      "s882",
+      "s890",
+      "s961"
+    ],
+    "s_e8_cohom_obstructed_120_count": 19,
+    "s_e8_cohom_obstructed_120_names": [
+      "m145",
+      "m191",
+      "m233",
+      "m350",
+      "m397",
+      "m402",
+      "s240",
+      "s269",
+      "s451",
+      "s496",
+      "s509",
+      "s583",
+      "s710",
+      "s728",
+      "s741",
+      "s758",
+      "s829",
+      "s833",
+      "s867"
+    ],
+    "s_e8_lock_128_count": 57,
+    "s_e8_lock_128_names": [
+      "m004",
+      "m045",
+      "m066",
+      "m082",
+      "m143",
+      "m145",
+      "m191",
+      "m196",
+      "m233",
+      "m240",
+      "m247",
+      "m266",
+      "m350",
+      "m361",
+      "m397",
+      "m402",
+      "s004",
+      "s070",
+      "s093",
+      "s099",
+      "s136",
+      "s177",
+      "s203",
+      "s223",
+      "s240",
+      "s269",
+      "s384",
+      "s404",
+      "s417",
+      "s447",
+      "s451",
+      "s460",
+      "s496",
+      "s509",
+      "s529",
+      "s541",
+      "s547",
+      "s552",
+      "s560",
+      "s571",
+      "s583",
+      "s611",
+      "s658",
+      "s710",
+      "s728",
+      "s741",
+      "s749",
+      "s758",
+      "s803",
+      "s814",
+      "s820",
+      "s829",
+      "s833",
+      "s850",
+      "s856",
+      "s867",
+      "s902"
+    ],
+    "s_e8_lock_248_count": 38,
+    "s_e8_lock_248_names": [
+      "m004",
+      "m045",
+      "m066",
+      "m082",
+      "m143",
+      "m196",
+      "m240",
+      "m247",
+      "m266",
+      "m361",
+      "s004",
+      "s070",
+      "s093",
+      "s099",
+      "s136",
+      "s177",
+      "s203",
+      "s223",
+      "s384",
+      "s404",
+      "s417",
+      "s447",
+      "s460",
+      "s529",
+      "s541",
+      "s547",
+      "s552",
+      "s560",
+      "s571",
+      "s611",
+      "s658",
+      "s749",
+      "s803",
+      "s814",
+      "s820",
+      "s850",
+      "s856",
+      "s902"
+    ],
+    "s_e8_lock_details": {
+      "m004": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 2,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 2
+      },
+      "m045": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 80,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 40,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          2
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 4,
+        "sl2_f25_full2d_spin_hits": 8,
+        "two_T_orbits": 0
+      },
+      "m066": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          11
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "m082": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 4,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "m143": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "m145": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 4,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "m191": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "m196": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "m233": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "m240": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 6,
+        "two_T_orbits": 0
+      },
+      "m247": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          3
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 6
+      },
+      "m266": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 6,
+        "two_T_orbits": 2
+      },
+      "m350": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "m361": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            1,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "m397": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "m402": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 5,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s004": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          13
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s070": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          27
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 2
+      },
+      "s093": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s099": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          3
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 2
+      },
+      "s136": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 6,
+        "two_T_orbits": 2
+      },
+      "s177": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s203": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 6,
+        "two_T_orbits": 0
+      },
+      "s223": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s240": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 2
+      },
+      "s269": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s384": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s404": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 6,
+        "two_T_orbits": 0
+      },
+      "s417": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 12,
+        "two_T_orbits": 0
+      },
+      "s447": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 2
+      },
+      "s451": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s460": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s496": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          9
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 2
+      },
+      "s509": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s529": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 80,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 40,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          2
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 8,
+        "two_T_orbits": 0
+      },
+      "s541": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s547": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s552": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s560": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 2
+      },
+      "s571": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s583": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s611": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s658": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s710": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            2
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          11
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s728": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            1,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s741": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s749": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          17
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s758": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 80,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 60,
+        "gluing_f25_strict": false,
+        "h1_torsion": [
+          2
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s803": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s814": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 8,
+        "two_T_orbits": 0
+      },
+      "s820": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            2,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [
+          3
+        ],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 6,
+        "two_T_orbits": 6
+      },
+      "s829": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s833": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s850": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 2
+      },
+      "s856": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      },
+      "s867": {
+        "alpha_Z_eq_beta_j_obstructed": true,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            1,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": false,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 2,
+        "two_T_orbits": 0
+      },
+      "s902": {
+        "alpha_Z_eq_beta_j_obstructed": false,
+        "bd5_surj": 40,
+        "c4_ord_pairs": [
+          [
+            4,
+            4
+          ]
+        ],
+        "d5_surj": 20,
+        "gluing_f25_strict": true,
+        "h1_torsion": [],
+        "kills_128_to_0": true,
+        "kills_248_basis_inv_to_0": true,
+        "num_tet": 6,
+        "sl2_f25_full2d_spin_hits": 4,
+        "two_T_orbits": 0
+      }
+    }
+  },
+  "Q4_crosstab_and_benchmarks": {
+    "lock_128_by_tet": {
+      "2": 1,
+      "4": 3,
+      "5": 12,
+      "6": 41
+    },
+    "lock_128_with_2T_count": 12,
+    "lock_248_2T_eq_2_count": 8,
+    "lock_248_2T_eq_2_names": [
+      "m004",
+      "m266",
+      "s070",
+      "s099",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "lock_248_H1_Z_and_2T_count": 6,
+    "lock_248_H1_Z_and_2T_names": [
+      "m004",
+      "m266",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "lock_248_H1_Z_count": 29,
+    "lock_248_H1_Z_names": [
+      "m004",
+      "m082",
+      "m143",
+      "m196",
+      "m240",
+      "m266",
+      "m361",
+      "s093",
+      "s136",
+      "s177",
+      "s203",
+      "s223",
+      "s384",
+      "s404",
+      "s417",
+      "s447",
+      "s460",
+      "s541",
+      "s547",
+      "s552",
+      "s560",
+      "s571",
+      "s611",
+      "s658",
+      "s803",
+      "s814",
+      "s850",
+      "s856",
+      "s902"
+    ],
+    "lock_248_by_tet": {
+      "2": 1,
+      "4": 2,
+      "5": 7,
+      "6": 28
+    },
+    "lock_248_with_2T_count": 10,
+    "lock_248_with_2T_names": [
+      "m004",
+      "m247",
+      "m266",
+      "s070",
+      "s099",
+      "s136",
+      "s447",
+      "s560",
+      "s820",
+      "s850"
+    ],
+    "m000_summary": {
+      "bd5_surj": 0,
+      "d5_surj": 0,
+      "h1_torsion": [],
+      "hper_types": [],
+      "sl2_f25_nonorient_parabolic_hits": 0,
+      "sl2_f25_surj_hits": 0,
+      "two_T_orbits": 2
+    },
+    "m003_summary": {
+      "bd5_surj": 0,
+      "d5_surj": 0,
+      "gluing_f25_strict": true,
+      "h1_torsion": [
+        5
+      ],
+      "hper_types": [],
+      "sl2_f25_full2d_hits": 4,
+      "two_T_orbits": 2
+    },
+    "m004_benchmark_ok": true
+  },
+  "all_gates_passed": true,
+  "ast_floats": 0,
+  "blind": "0 of 19",
+  "card": "A2-WHOLE-CENSUS-E8-TWO-REGISTER",
+  "census_size": {
+    "nonorientable_m000": 1,
+    "orientable": 1199
+  },
+  "json_floats": 0,
+  "pf_caught": 5,
+  "planted_fault_controls": {
+    "PF1_omit_sheet_restores_8": true,
+    "PF2_C5_and_C2_stay_positive": true,
+    "PF3_D5_Z2_torsion_obstructs_BD5": true,
+    "PF4_F5_subgroup_below_240": true,
+    "PF5_corrupted_m004_breaks_both": true
+  },
+  "seat_code": "fam3-v1-high-03"
+}

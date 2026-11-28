@@ -1,0 +1,5 @@
+DECISIVE: Q1_E8_THEOREM ok=True bases=480 c4_iff_0=True sl2z_ok=True k128_C1=[8] k128_C2=[8] k128_C4=[0] k128_C5=[4, 6] k128_C10=[4, 6]
+DECISIVE: Q2_BD5_CENSUS total=1199 D5=431 BD5=280 obst=151 even_tor=True BD5_C4=163 C4_2g=145 C4_3g=18
+DECISIVE: Q3_E8_LOCK glueF5=326 glueF25=634 lock128=57 lock248=38 cohom120=19 c4_3g_glueF25=9 nonC4_sl2=14
+DECISIVE: Q4_CROSSTAB m004_ok=True lock248_2T=10 lock248_H1Z=29 lock248_H1Z_2T=6 m003_BD5=0 m000_BD5=0
+DECISIVE: SUMMARY all_ok=True PF=5/5 floats=0/0
