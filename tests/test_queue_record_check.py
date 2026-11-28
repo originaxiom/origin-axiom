@@ -120,3 +120,14 @@ def test_review_88s_rules_on_the_record_check_t7b():
                        "card_path": "relays/claims/CLAIM_2026-11-27_B2012_main_trial.md"}}
     assert RC.waits_on(_fields(premises="B2011, B2012"), queue) == ["Q0003"]
     assert RC.waits_on(_fields(premises="B335"), queue) == []
+
+
+def test_a_card_never_waits_on_itself():
+    """ADDED 2026-11-28 (M78 point 3): B2011's card names its own arc in its premises, and waited on its own id"""
+    queue = {"Q0001": {"status": "FILED", "branch": "main", "card_path": "relays/claims/CLAIM_2026-11-27_B2011_main_trial.md",
+                       "seat_code": "fam1-v1-unset-01", "arc": 2011}}
+    own = {k: v for k, v in queue.items()}
+    got = RC.waits_on(_fields(premises="B2002 (rebuilt in B2011's sectors_exact.py)"), own, "Q0001")
+    assert "Q0001" not in got
+    named = RC.waits_on(_fields(premises="Q0001"), own, "Q0002")
+    assert named == ["Q0001"]                       # another card still waits on it

@@ -20742,3 +20742,12 @@ the two jobs, the network guard could not be built on GitHub's machine and did n
 waited on itself. Nothing was written. The next round waits for the fix.
 
 0 of 19.
+
+## 2026-11-28 — the runner mended, and every seat given its order (S306p)
+
+**What happened.** Main mended the three faults the runner's first round showed and the rule that a round without its
+guard records nothing. The guard now says why it fails. One more gap was found: nothing yet hands a reproduced card to a
+peer, and the building seat has it next. Every seat was told what to do and to keep working in a loop, so that none
+waits in silence.
+
+0 of 19.

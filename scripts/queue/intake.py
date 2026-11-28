@@ -144,6 +144,9 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
     # T7b (M64 item 4): where no sandbox can be made, the round goes on and no seat code runs: each rerun is HEAVY
     report, attached, new_lines = ["the network guard: %s" % (guard if prefix else
                                                                guard + "; no seat code runs this round")], {}, []
+    # ADDED 2026-11-28 (main, at the author's word, M78 point 2): why no sandbox could be made, one line per strategy
+    if not prefix:
+        report += ["  why: %s" % w for w in RR.WHY_NOT]
 
     def attach(cid):
         """the card's check, as filed with what this round adds: a later round's peer or banking part is added to it,
@@ -193,7 +196,7 @@ def round_(qdir, root=ROOT, record_root=ROOT, refs=None, at=None, limit=RR.TIME_
             report.append("%s RETURNED_AT_INTAKE (custody)" % cid)
             continue
         check = attach(cid)
-        check.update(RC.check(record_root, text, cards))
+        check.update(RC.check(record_root, text, cards, own=cid))      # CHANGED 2026-11-28 (M78 point 3): own=cid
         if check["firewall"]:
             report.append("%s FLAG for the author (A3): %s" % (cid, ", ".join(check["firewall"])))
         if check["retracted"]["premises"]:

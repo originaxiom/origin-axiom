@@ -134,13 +134,17 @@ def arc_cards(queue, n):
     return out
 
 
-def waits_on(fields, queue):
+def waits_on(fields, queue, own=None):
     """D6: the queue's cards among the premises that are not VERIFIED (a card the queue does not hold is waited on too),
     and, for a premise arc that has its own card in the queue, that card until it is VERIFIED (main's M61)"""
     premises = fields.get("premises on main", "")
     named = set(QCARD.findall(premises))
     for n in set(ARC.findall(premises)):
         named |= set(arc_cards(queue, int(n)))
+    # CHANGED 2026-11-28 (main, at the author's word, after the runner's first round on the workflow, M78 point 3): a card
+    # never waits on itself. B2011's card names its own arc in its premises, so it waited on its own id, and every other
+    # trial card waited on it. The line as it stood had no `own`: the card's own id was kept among those it waits on.
+    named.discard(own)
     return [q for q in sorted(named) if (queue.get(q) or {}).get("status") != "VERIFIED"]
 
 
@@ -148,8 +152,8 @@ def firewall(text):
     return sorted(set(m.group(0).strip() for m in FIREWALL.finditer(text)))
 
 
-def check(root, card_text, queue=None):
-    """the attachment for one card"""
+def check(root, card_text, queue=None, own=None):
+    """the attachment for one card; `own` is the card's own queue id, never waited on (M78 point 3)"""
     title, fields, _ = CF.read(card_text)
     codes, words, left = terms(fields, title or "")
     return {"terms": {"codes": codes, "words": words, "words_left_out": left},
@@ -158,7 +162,7 @@ def check(root, card_text, queue=None):
             "banked": banked(root, words),
             "retracted": retracted(root, fields, card_text),
             "deciding": deciding(fields),
-            "waits_on": waits_on(fields, queue or {}),
+            "waits_on": waits_on(fields, queue or {}, own),
             "firewall": firewall(card_text)}
 
 

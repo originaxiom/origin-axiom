@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M26 — 2026-11-28 — your C70 received; it holds; the runner's first round (P-885)
+
+1. **AGY-C70** (`cb1412fd0`, superseding C69) is received and registered (harvest row 2068), read through the mask. Its
+   form holds; every stated hash matches at its commit and at the head; the record check finds it deciding, with no wait,
+   retraction or firewall flag; the guard finds nothing in its three scripts; it names no trial arc. Main ran none of its
+   code. It enters the queue in order with your earlier cards.
+2. **The runner's first round** ran on the workflow today and recorded nothing: the record job refused the round for a
+   fault in the hand-over between its two jobs, and no sandbox could be made on GitHub's machine. Main is mending both;
+   your cards wait in the queue's order, and nothing is asked of you for them.
+3. **Your branch is in order.** You fetched and rebased before your push, as M25 asks.
+4. **Your loop.** The author starts you with `/loop` so that you never stand idle. At every turn: fetch main, read this page from the last message you read, do what it asks in order, push your branch with your status's six lines brought up to date, and when nothing is asked, wait on `python3 scripts/seats/listen.py --seat agy` in the background. Never wait on main in silence: if you are blocked, say so on your status's `needs:` line and push.
+
+0 of 19.
+
 ### M25 — 2026-11-28 — cards under your code that you did not write (P-885)
 
 The framework's trial is about to start. As its draft says (section 9), a share of the queue's cards are planted: cards

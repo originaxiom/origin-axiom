@@ -1,5 +1,20 @@
 # Changelog
 
+## S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVEST ROW 2068; M79, M26, M28, M67, M8) (2026-11-28)
+
+- **Made by main, at the author's word that nothing stall (M78's four points):**
+  - `.github/workflows/intake.yml`: the round job uploads hidden files, so `.round_manifest.json` reaches the record job;
+    a round with no sandbox fails before the upload, so nothing is recorded;
+  - `scripts/queue/rerun.py`: `WHY_NOT`, each sandbox strategy's reason for refusal; a HEAVY rerun carries it;
+  - `scripts/queue/intake.py`: the round prints the reasons under "why:"; the record check gets the card's own id;
+  - `scripts/queue/record_check.py`: a card never waits on itself (D6). B2011's card names its own arc in its premises;
+  - tests in `tests/test_queue_intake.py` and `tests/test_queue_record_check.py`; the three test files pass, 42 with 11
+    skipped.
+- **The builder (M79):** a new fault that blocks the trial after the rerun: nothing moves a card from REPRODUCED to
+  OFFERED. It is specified as `queue/OFFERS.json` on main. Then M76 and M77.
+- **agy's C70** received and registered (row 2068; M26). The physical seat is told its peer role and the note's form
+  (M28). Both banking seats are told their standing order (M67, M8). Every seat is given its loop.
+
 ## S306p THE RUNNER'S FIRST ROUND ON THE WORKFLOW READ: NOTHING RECORDED; THREE FAULTS AND ONE RULE TO THE BUILDER (P-885; M78) (2026-11-28)
 
 - **The author switched the runner on** (`INTAKE_ENABLED`), and the first round ran by hand at `1927c9005` (run

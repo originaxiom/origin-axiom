@@ -321,6 +321,9 @@ def strategies():
 
 
 STRATEGIES = None                                      # a test may set a list of its own; None reads strategies()
+# ADDED 2026-11-28 (main, at the author's word, after the runner's first round on the workflow, M78 point 2): why each
+# strategy was refused at the last probe, so that "no sandbox" says why; the round prints it, and a HEAVY rerun carries it
+WHY_NOT = []
 
 
 def world_writable(top="/"):
@@ -450,8 +453,14 @@ def _sandbox_prefix_held():
     # every call for nothing. The walk is now made once, and only for a wrap that passes the checks below.
     # The line as it stood, first in this function: cover = world_writable()
     cover = None
+    del WHY_NOT[:]
     for usable, prefix, name in (STRATEGIES if STRATEGIES is not None else strategies()):
-        if not usable() or not all(shutil.which(c) for c in (prefix[0], "unshare", "mount", "pkill", "pgrep")):
+        if not usable():
+            WHY_NOT.append("%s: not usable here" % name)
+            continue
+        missing = [c for c in (prefix[0], "unshare", "mount", "pkill", "pgrep") if not shutil.which(c)]
+        if missing:
+            WHY_NOT.append("%s: missing %s" % (name, ", ".join(missing)))
             continue
         if cover is None:
             cover = world_writable()
@@ -459,6 +468,7 @@ def _sandbox_prefix_held():
             prefix = prefix + [json.dumps(cover)]
         base = _marker_base(cover)
         if base is None:
+            WHY_NOT.append("%s: no directory the runner owns outside every covered one (home, the queue code, the root)" % name)
             continue
         marker = pathlib.Path(tempfile.mkdtemp(prefix=".probe_", dir=base))
         run_dir = pathlib.Path(tempfile.mkdtemp(prefix="probe_run_"))
@@ -466,18 +476,27 @@ def _sandbox_prefix_held():
         try:
             marker.chmod(0o755)                       # readable by nobody, writable only by the runner
             if not _hand_over(run_dir, prefix):
+                WHY_NOT.append("%s: the run's directory could not be given to nobody" % name)
                 continue
             if not reap(prefix):
+                WHY_NOT.append("%s: a process of nobody could not be ended before the probe" % name)
                 continue
             try:
                 r = subprocess.run(wrapped(prefix, run_dir, [sys.executable, "-I", "-c", PROBE, str(marker / "x"), token]),
                                    capture_output=True, text=True, timeout=120, cwd="/")
             finally:
                 reaped = reap(prefix)
-            if r.returncode == 0 and probe_holds(r.stdout, token, cover)[0] and not (marker / "x").exists() and reaped:
+            held, why = probe_holds(r.stdout, token, cover) if r.returncode == 0 else (False, "")
+            if r.returncode == 0 and held and not (marker / "x").exists() and reaped:
                 return prefix, name
-        except (OSError, subprocess.TimeoutExpired):
-            pass
+            WHY_NOT.append("%s: %s" % (name, "; ".join(x for x in (
+                "the probe exited %d" % r.returncode if r.returncode else "",
+                why, "the probe's file was written" if (marker / "x").exists() else "",
+                "a process of nobody outlived the probe" if not reaped else "",
+                "its stderr ends: " + " | ".join(r.stderr.strip().splitlines()[-4:])[-600:] if r.stderr.strip() else "",
+                "%d directories covered: %s" % (len(cover), ", ".join(cover)[:400])) if x)))
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            WHY_NOT.append("%s: %s: %s" % (name, type(exc).__name__, str(exc)[:200]))
         finally:
             shutil.rmtree(marker, ignore_errors=True)
             _take_back(run_dir, prefix)
@@ -598,8 +617,10 @@ def rerun(root, commit, card_text, limit=TIME_LIMIT, prefix=None, allow_static=F
             res.update(status="HEAVY", reasons=heavy)
             return res
         if not prefix and not allow_static:
-            res.update(status="HEAVY", reasons=["no sandbox can be made here (no unprivileged user in a network namespace):"
-                                                " no seat code runs; for the author's machine"])
+            # CHANGED 2026-11-28 (M78 point 2): the reason is the probe's, not a fixed "no unprivileged user in a network
+            # namespace", which named a cause nothing had checked
+            res.update(status="HEAVY", reasons=["no sandbox can be made here (%s): no seat code runs; for the author's "
+                                                "machine" % ("; ".join(WHY_NOT) or "no strategy was tried")])
             return res
         res["guard"] = guard if prefix else "none: the author's machine, by the author's choice"
         if prefix and not _hand_over(tmp, prefix):

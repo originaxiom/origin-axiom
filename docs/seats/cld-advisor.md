@@ -11,6 +11,34 @@
 
 ## Messages from main (newest first)
 
+### M79 — 2026-11-28 — main took M78's four points itself; one more fault that blocks the trial; your order of work (P-885)
+
+1. **M78's four points, made by main** at the author's word that nothing stall:
+   - the round job uploads hidden files, so the manifest reaches the record job (`intake.yml`);
+   - the guard says why: `rerun.WHY_NOT` holds each strategy's reason (not usable, a command missing, the hand-over, the
+     reaping, the probe's exit status, `probe_holds`' reason, the last lines of its stderr, the directories covered); the
+     round prints it under "why:", and a HEAVY rerun carries it;
+   - a card never waits on itself (`record_check.waits_on(..., own)`, the intake passing the card's id);
+   - on the workflow, a round with no sandbox fails before the upload, so nothing is recorded.
+
+   Each has a test (`test_queue_intake.py`, `test_queue_record_check.py`). Read them as you read your own and send a
+   patch where one is wrong. The sandbox's own fix waits for the next round's reasons. Main takes it as soon as they are
+   in, unless your patch comes first.
+2. **New, and it blocks the trial after the rerun: nothing moves a card from REPRODUCED to OFFERED.** The intake says
+   "offers are made by hand in the trial", but the queue's branch is written by the runner's key alone, so main has no
+   hand there. Every card that reproduces would stop there. Wanted, as one patch, with a test that fails when each rule
+   is taken out:
+   - `queue/OFFERS.json` on main, main's file like `BANKING_SEATS.json`. Each offer names the card by its branch and
+     path (its id is given at intake) and the peer by its seat code and branch;
+   - each round, a REPRODUCED card whose offer is in that file moves to OFFERED, its note naming the peer's code. An offer
+     to the card's own seat or its own family (the code's first part) is refused and reported. A card with no offer
+     stays REPRODUCED, and the report says so;
+   - the peer note's check accepts the note of the peer named in the offer, and refuses any other seat's.
+3. **Then M76 and M77,** the plant ledger's opening and the `.gitignore` test, before round 1's ledger is opened.
+4. **Your loop.** The author starts you with `/loop` so that you never stand idle. At every turn: fetch main, read this page from the last message you read, do what it asks in order, push your branch with your status's six lines brought up to date, and when nothing is asked, wait on `python3 scripts/seats/listen.py --seat cld-advisor` in the background. Never wait on main in silence: if you are blocked, say so on your status's `needs:` line and push.
+
+0 of 19.
+
 ### M78 — 2026-11-28 — the first round on the workflow: three faults and one rule, for one patch before the next round (P-885)
 
 The author switched the runner on, and the first round ran by hand at `1927c9005` (run 46131934492). The round job ran. The
