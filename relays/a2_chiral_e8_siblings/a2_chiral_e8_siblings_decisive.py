@@ -277,24 +277,21 @@ def refine_shapes_gluing(m, steps=5):
     return zs
 
 
-def lll_minpoly_complex(val_mpc, max_deg=24, scale_exp=160, tol_exp=60):
+def lll_minpoly_complex(val_mpc, max_deg=24, scale_exp=210, tol_exp=120, max_c_exp=10):
     """Find exact irreducible integer minimal polynomial P(X) in Z[X] of a high-precision
     complex algebraic number via sympy DomainMatrix.lll on 2D (Re, Im) lattice.
-    Normalizes by 1/val when |val| > 3/2 so powers never overflow LLL precision."""
+    Enforces strict Minkowski anti-spurious cap (max_c < 10**max_c_exp) AND absolute
+    residual < 10**(-tol_exp) so generic short vectors can never pass."""
     inverted = (abs(val_mpc) > mp.mpf(3) / 2)
     z = (mp.mpc(1) / val_mpc) if inverted else val_mpc
+    scale = 10 ** scale_exp
     tol = mp.mpf(10) ** (-tol_exp)
+    max_c_cap = 10 ** max_c_exp
     pows = [mp.mpc(1)]
     for _ in range(max_deg):
         pows.append(pows[-1] * z)
 
     for d in range(1, max_deg + 1):
-        # Adaptive LLL scale proportional to degree, capped safely below input precision
-        if scale_exp >= 100:
-            cur_se = min(scale_exp, max(45, 10 * d + 20))
-        else:
-            cur_se = min(scale_exp, max(22, 4 * d + 12))
-        scale = 10 ** cur_se
         rows = []
         for k in range(d + 1):
             row = [0] * (d + 3)
@@ -309,8 +306,10 @@ def lll_minpoly_complex(val_mpc, max_deg=24, scale_exp=160, tol_exp=60):
             if all(c == 0 for c in coeffs):
                 continue
             max_c = max(abs(c) for c in coeffs)
+            if max_c > max_c_cap:
+                continue
             val_eval = sum(c * p for c, p in zip(coeffs, pows[:d + 1]))
-            if abs(val_eval) < tol * max(1, max_c):
+            if abs(val_eval) < tol:
                 poly_raw = sp.Poly(list(reversed(coeffs)), X, domain=sp.ZZ)
                 if poly_raw.degree() < 1:
                     continue
@@ -318,7 +317,7 @@ def lll_minpoly_complex(val_mpc, max_deg=24, scale_exp=160, tol_exp=60):
                 for fac, _mult in factors:
                     f_coeffs = [int(c) for c in reversed(fac.all_coeffs())]
                     fev = sum(c * p for c, p in zip(f_coeffs, pows[:len(f_coeffs)]))
-                    if abs(fev) < tol * max(1, max(abs(c) for c in f_coeffs)):
+                    if abs(fev) < tol:
                         if inverted:
                             f_coeffs = list(reversed(f_coeffs))
                         while len(f_coeffs) > 1 and f_coeffs[-1] == 0:
@@ -326,17 +325,15 @@ def lll_minpoly_complex(val_mpc, max_deg=24, scale_exp=160, tol_exp=60):
                         if f_coeffs[-1] < 0:
                             f_coeffs = [-c for c in f_coeffs]
                         P_out = sp.Poly(list(reversed(f_coeffs)), X, domain=sp.ZZ)
-                        # Direct verification on original val_mpc (not inverted z)
                         ev_orig = mp.mpc(0)
                         for cc in P_out.all_coeffs():
                             ev_orig = ev_orig * val_mpc + int(cc)
-                        max_co = max(abs(int(cc)) for cc in P_out.all_coeffs())
-                        if abs(ev_orig) < tol * max(1, max_co) * max(mp.mpf(1), abs(val_mpc) ** P_out.degree()):
+                        if abs(ev_orig) < tol * max(mp.mpf(1), abs(val_mpc) ** P_out.degree()):
                             return P_out
     return None
 
 
-def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=160, tol_exp=50):
+def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=210, tol_exp=100, max_c_exp=14):
     """Express target_mpc = (sum_{k=0}^{deg-1} a_k alpha^k) / q with exact integers a_k, q > 0."""
     s_int = 1
     while abs(alpha_mpc) > s_int * mp.mpf(3) / 2:
@@ -347,12 +344,9 @@ def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=160, tol_exp=50):
         t_scale *= 2
     t_scaled = target_mpc / t_scale
 
-    if scale_exp >= 100:
-        cur_se = min(scale_exp, max(50, 10 * deg + 25))
-    else:
-        cur_se = min(scale_exp, max(24, 4 * deg + 12))
-    scale = 10 ** cur_se
+    scale = 10 ** scale_exp
     tol = mp.mpf(10) ** (-tol_exp)
+    max_c_cap = 10 ** max_c_exp
     pows = [mp.mpc(1)]
     for _ in range(deg - 1):
         pows.append(pows[-1] * a_scaled)
@@ -380,6 +374,8 @@ def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=160, tol_exp=50):
             q = -q
         else:
             a_vec = [int(mat[r, k]) for k in range(deg)]
+        if max(q, max(abs(a) for a in a_vec)) > max_c_cap:
+            continue
         approx = sum(a * p for a, p in zip(a_vec, pows)) / q
         if abs(approx - t_scaled) < tol:
             return sp.Poly([sp.Rational(a_vec[k] * t_scale, q * (s_int ** k)) for k in range(deg - 1, -1, -1)], X, domain=sp.QQ)
@@ -496,14 +492,14 @@ def analyze_field_and_arithmeticity(m):
     best_alpha = None
     best_zpolys = None
     for alp in cand_alphas:
-        P = lll_minpoly_complex(alp, max_deg=24, scale_exp=180, tol_exp=60)
+        P = lll_minpoly_complex(alp, max_deg=24, scale_exp=210, tol_exp=120, max_c_exp=10)
         if P is None:
             continue
         d = P.degree()
         zps = []
         ok_all = True
         for z in shapes_mpc:
-            zp = lll_express_in_basis(z, alp, d, scale_exp=180, tol_exp=50)
+            zp = lll_express_in_basis(z, alp, d, scale_exp=210, tol_exp=100, max_c_exp=14)
             if zp is None:
                 ok_all = False
                 break
@@ -538,13 +534,13 @@ def analyze_field_and_arithmeticity(m):
         tr_w = Mw[0] + Mw[3]
         # First express tr_w in Q(best_alpha) at ~60-digit precision of sl2c_gens_hp, then exact charpoly!
         Pw = None
-        for se in (44, 36, 28):
-            Tw = lll_express_in_basis(tr_w, best_alpha, deg, scale_exp=se, tol_exp=15)
+        for se in (48, 40, 32):
+            Tw = lll_express_in_basis(tr_w, best_alpha, deg, scale_exp=se, tol_exp=20, max_c_exp=8)
             if Tw is not None:
                 Pw = exact_minpoly_in_field(Tw, best_poly)
                 break
         if Pw is None:
-            Pw = lll_minpoly_complex(tr_w, max_deg=min(deg, 16), scale_exp=42, tol_exp=14)
+            Pw = lll_minpoly_complex(tr_w, max_deg=min(deg, 16), scale_exp=48, tol_exp=20, max_c_exp=7)
         if deg == 2:
             assert Pw is not None, f"Failed trace minpoly for deg-2 manifold {m['name']} word {w}"
         if Pw is not None:
@@ -967,8 +963,8 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
         for r_s, i_s in m["sl2c_gens_hp"][g]:
             val = _mpc(r_s, i_s)
             qp = None
-            for se in (44, 36, 28):
-                qp = lll_express_in_basis(val, alpha, deg, scale_exp=se, tol_exp=14)
+            for se in (48, 40, 32):
+                qp = lll_express_in_basis(val, alpha, deg, scale_exp=se, tol_exp=20, max_c_exp=8)
                 if qp is not None:
                     break
             if qp is None:
@@ -984,7 +980,7 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     if not all_in_k:
         tr_vals = [_mpc(m["sl2c_gens_hp"][g][0][0], m["sl2c_gens_hp"][g][0][1]) for g in gens]
         ext_alpha = alpha + 3 * tr_vals[0] + 5 * tr_vals[1]
-        P_ext = lll_minpoly_complex(ext_alpha, max_deg=16, scale_exp=42, tol_exp=14)
+        P_ext = lll_minpoly_complex(ext_alpha, max_deg=16, scale_exp=48, tol_exp=20, max_c_exp=7)
         if P_ext is None:
             return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "ext_field_high_deg"}
         P_desc_use = [int(c) for c in P_ext.all_coeffs()]
@@ -995,8 +991,8 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
             ep = []
             for r_s, i_s in m["sl2c_gens_hp"][g]:
                 qp = None
-                for se in (42, 34, 26):
-                    qp = lll_express_in_basis(_mpc(r_s, i_s), ext_alpha, deg_use, scale_exp=se, tol_exp=12)
+                for se in (48, 40, 32):
+                    qp = lll_express_in_basis(_mpc(r_s, i_s), ext_alpha, deg_use, scale_exp=se, tol_exp=18, max_c_exp=8)
                     if qp is not None:
                         break
                 if qp is None:
