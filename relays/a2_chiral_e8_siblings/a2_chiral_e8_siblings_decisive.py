@@ -24,7 +24,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 DATA_JSON = HERE / "a2_chiral_e8_siblings_input.json"
 OUT_JSON = HERE / "a2_chiral_e8_siblings_out.json"
 
-mp.mp.dps = 260
+mp.mp.dps = 360
 X = sp.Symbol("X")
 
 
@@ -478,10 +478,10 @@ def sl2c_eval(word, gmap):
 
 
 def analyze_field_and_arithmeticity(m):
-    """Module C1: Exact shape field minimal polynomial (via 260-digit gluing Newton refinement
+    """Module C1: Exact shape field minimal polynomial (via 360-digit gluing Newton refinement
     + LLL), 100% exact symbolic gluing certification over QQ[X]/(P(X)), pi_1^(2) trace
     integrality, Maclachlan-Reid arithmeticity, and exact mod-5 factorization."""
-    shapes_mpc = refine_shapes_gluing(m, steps=5)
+    shapes_mpc = refine_shapes_gluing(m, steps=6)
     # Find primitive generator alpha of Q(z_0, ..., z_{t-1})
     cand_alphas = list(shapes_mpc)
     if len(shapes_mpc) >= 2:
@@ -492,14 +492,14 @@ def analyze_field_and_arithmeticity(m):
     best_alpha = None
     best_zpolys = None
     for alp in cand_alphas:
-        P = lll_minpoly_complex(alp, max_deg=24, scale_exp=210, tol_exp=120, max_c_exp=10)
+        P = lll_minpoly_complex(alp, max_deg=36, scale_exp=300, tol_exp=140, max_c_exp=18)
         if P is None:
             continue
         d = P.degree()
         zps = []
         ok_all = True
         for z in shapes_mpc:
-            zp = lll_express_in_basis(z, alp, d, scale_exp=210, tol_exp=100, max_c_exp=14)
+            zp = lll_express_in_basis(z, alp, d, scale_exp=300, tol_exp=120, max_c_exp=28)
             if zp is None:
                 ok_all = False
                 break
@@ -925,6 +925,51 @@ def rat_poly_eval_f25(poly_qq, val_f25):
     return cur
 
 
+def count_f25_gluing_solutions(m):
+    """Exact meet-in-the-middle Z/24Z discrete-log solver for Thurston gluing equations over F_25."""
+    eqs = m["gluing_rect"]
+    n_tet = m["num_tet"]
+    k = len(eqs)
+    valid_z = [z for z in range(25) if z != F0 and z != F1]
+    # Precompute discrete log tuples in Z/24Z for each shape z in F_25 \ {0, 1}
+    rhs = tuple(0 if sgn == 1 else 12 for _, _, sgn in eqs)
+    contrib = []
+    for j in range(n_tet):
+        col = []
+        for z in valid_z:
+            dz = DLOG[z]
+            do = DLOG[OMZ[z]]
+            vec = tuple((ar[j] * dz + br[j] * do) % 24 for ar, br, _ in eqs)
+            is_f5 = (z % 5 == 0)
+            col.append((vec, is_f5))
+        contrib.append(col)
+    mid = n_tet // 2
+    left_map = {}
+    for combo in itertools.product(*contrib[:mid]):
+        vec = tuple(sum(c[0][i] for c in combo) % 24 for i in range(k))
+        all_f5 = all(c[1] for c in combo)
+        cur = left_map.get(vec)
+        if cur is None:
+            left_map[vec] = [1 if all_f5 else 0, 0 if all_f5 else 1]
+        else:
+            if all_f5:
+                cur[0] += 1
+            else:
+                cur[1] += 1
+    n_f5, n_strict_f25 = 0, 0
+    for combo in itertools.product(*contrib[mid:]):
+        vec = tuple((rhs[i] - sum(c[0][i] for c in combo)) % 24 for i in range(k))
+        hit = left_map.get(vec)
+        if hit is not None:
+            all_f5_r = all(c[1] for c in combo)
+            if all_f5_r:
+                n_f5 += hit[0]
+                n_strict_f25 += hit[1]
+            else:
+                n_strict_f25 += hit[0] + hit[1]
+    return {"f5_gluing_sols": n_f5, "strict_f25_gluing_sols": n_strict_f25}
+
+
 def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     """Map the exact algebraic geometric SL(2, C) holonomy of a 3-gen manifold directly
     into SL(2, F_25) along every F_25 root of P_M(X) mod 5, verifying exact R_i == I_2,
@@ -932,8 +977,8 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     if not field_info["has_f25_mod5_factor"]:
         return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False}
 
-    # Reconstruct primitive alpha from 260-digit refined shapes and express ALL 12 SL(2, C) generator matrix entries
-    shapes_mpc = refine_shapes_gluing(m, steps=5)
+    # Reconstruct primitive alpha from 360-digit refined shapes and express ALL 12 SL(2, C) generator matrix entries
+    shapes_mpc = refine_shapes_gluing(m, steps=6)
     P_desc = field_info["minpoly_desc"]
     P_poly = sp.Poly(P_desc, X, domain=sp.ZZ)
     deg = field_info["field_degree"]
@@ -1141,6 +1186,7 @@ def run_all():
         # Compute exact shape field + geometric mod-5 SL(2, F_25) reduction on EVERY 3-gen manifold
         # that has H_1 = Z or 2T > 0 or strict F_25 gluing!
         f_info = analyze_field_and_arithmeticity(m)
+        g_sols = count_f25_gluing_solutions(m)
         g_red = check_3gen_geometric_mod5_reduction(m, f_info, c4_pairs)
         if g_red["kills_248"]:
             c4_3g_geom_lock248.append(nm)
@@ -1157,6 +1203,8 @@ def run_all():
             "field_degree": f_info["field_degree"],
             "is_arithmetic": f_info["is_arithmetic"],
             "has_f25_mod5_factor": f_info["has_f25_mod5_factor"],
+            "f5_gluing_sols": g_sols["f5_gluing_sols"],
+            "strict_f25_gluing_sols": g_sols["strict_f25_gluing_sols"],
             "geom_f25_reduction": g_red,
         }
 
