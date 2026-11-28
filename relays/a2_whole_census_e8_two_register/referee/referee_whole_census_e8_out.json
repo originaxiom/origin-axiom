@@ -1,0 +1,588 @@
+{
+  "Q1_referee": {
+    "bases_checked": 480,
+    "bases_w64_hist_4_3_2_all_ok": true,
+    "bd5_model": "explicit 2x2 matrices in SL(2, F_11)",
+    "c4_alpha_eq_beta_gives_k248_4": true,
+    "c4_alpha_ne_beta_gives_k248_zero": true,
+    "c4_c0_antiperiodic_vanishing_ok": true,
+    "c4_iff_k128_zero": true,
+    "commuting_pairs_in_BD5": 160,
+    "degenerate_1D_F5_C4_k128": 0,
+    "degenerate_1D_F5_geo_k128": 24,
+    "field_model": "F_5[t]/(t^2 - 3) via 2x2 companion matrices",
+    "k128_total_by_Hper": {
+      "C1": [
+        8
+      ],
+      "C10": [
+        4,
+        6
+      ],
+      "C2": [
+        8
+      ],
+      "C4": [
+        0
+      ],
+      "C5": [
+        4,
+        6
+      ]
+    },
+    "k248_at_alpha_Z_by_Hper": {
+      "C1": [
+        8
+      ],
+      "C10": [
+        0
+      ],
+      "C2": [
+        0
+      ],
+      "C4": [
+        0,
+        4
+      ],
+      "C5": [
+        4,
+        6
+      ]
+    },
+    "ok": true,
+    "sl2z_30_matrix_basis_scrambling_ok": true,
+    "sl2z_matrices_tested": 30,
+    "sl2z_max_abs_entry": 9
+  },
+  "Q2_referee": {
+    "bd5_surj_manifolds": 280,
+    "d5_surj_manifolds": 431,
+    "d5_to_bd5_obstructed_count": 151,
+    "hper_bucket_counts": {
+      "C1+C10+C2+C5": 1,
+      "C10": 49,
+      "C10+C4+C5": 6,
+      "C10+C5": 67,
+      "C4": 157
+    },
+    "obstructed_all_have_even_H1_torsion": true,
+    "s_bd5_c4_2gen": 145,
+    "s_bd5_c4_3gen": 18,
+    "s_bd5_c4_3gen_names": [
+      "m201",
+      "m207",
+      "m235",
+      "m261",
+      "s051",
+      "s426",
+      "s556",
+      "s573",
+      "s640",
+      "s733",
+      "s754",
+      "s788",
+      "s837",
+      "s854",
+      "s882",
+      "s890",
+      "s942",
+      "s961"
+    ],
+    "s_bd5_c4_total": 163
+  },
+  "Q3_referee": {
+    "bd5_all_2gen_checked_fricke": 235,
+    "bd5_non_c4_2gen_with_sl2_f25_any": 14,
+    "bd5_non_c4_2gen_with_sl2_f25_names": [
+      "m139",
+      "m293",
+      "s147",
+      "s158",
+      "s181",
+      "s252",
+      "s253",
+      "s254",
+      "s264",
+      "s378",
+      "s423",
+      "s439",
+      "s498",
+      "s955"
+    ],
+    "bd5_non_c4_2gen_with_sl2_f25_spin": 14,
+    "concrete_248_evals_checked": 57,
+    "m000_check": {
+      "bd5_surj": 0,
+      "d5_surj": 0,
+      "sl2_f25_nonorient_parabolic_hits": 0,
+      "sl2_f25_surj_hits": 0,
+      "total_irred_sl2_f25_hits": 2,
+      "two_T_orbits": 2,
+      "two_T_raw": 48
+    },
+    "m003_check": {
+      "bd5_surj": 0,
+      "d5_surj": 0,
+      "exact_15600_verified": true,
+      "gluing_f25_strict": true,
+      "sl2_f25_full2d_any": 4,
+      "sl2_f25_full2d_spin": 4,
+      "two_T_orbits": 2,
+      "two_T_raw": 48
+    },
+    "s758_check": {
+      "exact_15600_verified": true,
+      "gluing_f25_strict": false,
+      "gluing_f5": false,
+      "sl2_f25_full2d_spin_hits": 4
+    },
+    "s_bd5_c4_3gen_gluing_checked": 18,
+    "s_bd5_c4_3gen_with_gluing_F25_strict": [
+      "m201",
+      "m207",
+      "s556",
+      "s754",
+      "s788",
+      "s854",
+      "s882",
+      "s890",
+      "s961"
+    ],
+    "s_e8_cohom_obstructed_120_count": 19,
+    "s_e8_cohom_obstructed_120_names": [
+      "m145",
+      "m191",
+      "m233",
+      "m350",
+      "m397",
+      "m402",
+      "s240",
+      "s269",
+      "s451",
+      "s496",
+      "s509",
+      "s583",
+      "s710",
+      "s728",
+      "s741",
+      "s758",
+      "s829",
+      "s833",
+      "s867"
+    ],
+    "s_e8_lock_128_count": 57,
+    "s_e8_lock_128_names": [
+      "m004",
+      "m045",
+      "m066",
+      "m082",
+      "m143",
+      "m145",
+      "m191",
+      "m196",
+      "m233",
+      "m240",
+      "m247",
+      "m266",
+      "m350",
+      "m361",
+      "m397",
+      "m402",
+      "s004",
+      "s070",
+      "s093",
+      "s099",
+      "s136",
+      "s177",
+      "s203",
+      "s223",
+      "s240",
+      "s269",
+      "s384",
+      "s404",
+      "s417",
+      "s447",
+      "s451",
+      "s460",
+      "s496",
+      "s509",
+      "s529",
+      "s541",
+      "s547",
+      "s552",
+      "s560",
+      "s571",
+      "s583",
+      "s611",
+      "s658",
+      "s710",
+      "s728",
+      "s741",
+      "s749",
+      "s758",
+      "s803",
+      "s814",
+      "s820",
+      "s829",
+      "s833",
+      "s850",
+      "s856",
+      "s867",
+      "s902"
+    ],
+    "s_e8_lock_248_count": 38,
+    "s_e8_lock_248_names": [
+      "m004",
+      "m045",
+      "m066",
+      "m082",
+      "m143",
+      "m196",
+      "m240",
+      "m247",
+      "m266",
+      "m361",
+      "s004",
+      "s070",
+      "s093",
+      "s099",
+      "s136",
+      "s177",
+      "s203",
+      "s223",
+      "s384",
+      "s404",
+      "s417",
+      "s447",
+      "s460",
+      "s529",
+      "s541",
+      "s547",
+      "s552",
+      "s560",
+      "s571",
+      "s611",
+      "s658",
+      "s749",
+      "s803",
+      "s814",
+      "s820",
+      "s850",
+      "s856",
+      "s902"
+    ],
+    "sample40_gluing_checked": 40,
+    "sample40_gluing_f5_count": 7,
+    "sample40_gluing_strict_f25_count": 22
+  },
+  "Q4_referee": {
+    "lock_128_by_tet": {
+      "2": 1,
+      "4": 3,
+      "5": 12,
+      "6": 41
+    },
+    "lock_128_with_2T_count": 12,
+    "lock_248_2T_eq_2_count": 8,
+    "lock_248_2T_eq_2_names": [
+      "m004",
+      "m266",
+      "s070",
+      "s099",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "lock_248_H1_Z_and_2T_count": 6,
+    "lock_248_H1_Z_and_2T_names": [
+      "m004",
+      "m266",
+      "s136",
+      "s447",
+      "s560",
+      "s850"
+    ],
+    "lock_248_H1_Z_count": 29,
+    "lock_248_H1_Z_names": [
+      "m004",
+      "m082",
+      "m143",
+      "m196",
+      "m240",
+      "m266",
+      "m361",
+      "s093",
+      "s136",
+      "s177",
+      "s203",
+      "s223",
+      "s384",
+      "s404",
+      "s417",
+      "s447",
+      "s460",
+      "s541",
+      "s547",
+      "s552",
+      "s560",
+      "s571",
+      "s611",
+      "s658",
+      "s803",
+      "s814",
+      "s850",
+      "s856",
+      "s902"
+    ],
+    "lock_248_by_tet": {
+      "2": 1,
+      "4": 2,
+      "5": 7,
+      "6": 28
+    },
+    "lock_248_with_2T_count": 10,
+    "lock_248_with_2T_names": [
+      "m004",
+      "m247",
+      "m266",
+      "s070",
+      "s099",
+      "s136",
+      "s447",
+      "s560",
+      "s820",
+      "s850"
+    ]
+  },
+  "ast_floats": 0,
+  "blind": "0 of 19",
+  "card": "A2-WHOLE-CENSUS-E8-TWO-REGISTER",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "json_floats": 0,
+  "live_snappy_crosscheck": {
+    "census_count_ok": true,
+    "lock_248_H1_Z_and_2T_topology": {
+      "m004": {
+        "homology": "Z",
+        "identify": [
+          "m004(0,0)",
+          "4_1(0,0)",
+          "K2_1(0,0)",
+          "K4a1(0,0)",
+          "otet02_00001(0,0)"
+        ],
+        "is_amphicheiral": true,
+        "num_gens": 2,
+        "num_tet": 2,
+        "solution_type": "all tetrahedra positively oriented",
+        "symmetry_group": "D4",
+        "symmetry_order": 8,
+        "volume_str": "2.0298832128"
+      },
+      "m266": {
+        "homology": "Z",
+        "identify": [
+          "m266(0,0)"
+        ],
+        "is_amphicheiral": false,
+        "num_gens": 2,
+        "num_tet": 5,
+        "solution_type": "all tetrahedra positively oriented",
+        "symmetry_group": "Z/2",
+        "symmetry_order": 2,
+        "volume_str": "4.2741681542"
+      },
+      "s136": {
+        "homology": "Z",
+        "identify": [
+          "s136(0,0)"
+        ],
+        "is_amphicheiral": false,
+        "num_gens": 2,
+        "num_tet": 6,
+        "solution_type": "all tetrahedra positively oriented",
+        "symmetry_group": "Z/2",
+        "symmetry_order": 2,
+        "volume_str": "4.17914516611"
+      },
+      "s447": {
+        "homology": "Z",
+        "identify": [
+          "s447(0,0)"
+        ],
+        "is_amphicheiral": false,
+        "num_gens": 2,
+        "num_tet": 6,
+        "solution_type": "all tetrahedra positively oriented",
+        "symmetry_group": "Z/2",
+        "symmetry_order": 2,
+        "volume_str": "4.7657089985"
+      },
+      "s560": {
+        "homology": "Z",
+        "identify": [
+          "s560(0,0)",
+          "K6_25(0,0)"
+        ],
+        "is_amphicheiral": false,
+        "num_gens": 2,
+        "num_tet": 6,
+        "solution_type": "all tetrahedra positively oriented",
+        "symmetry_group": "Z/2",
+        "symmetry_order": 2,
+        "volume_str": "4.99558338327"
+      },
+      "s850": {
+        "homology": "Z",
+        "identify": [
+          "s850(0,0)"
+        ],
+        "is_amphicheiral": false,
+        "num_gens": 2,
+        "num_tet": 6,
+        "solution_type": "all tetrahedra positively oriented",
+        "symmetry_group": "Z/2",
+        "symmetry_order": 2,
+        "volume_str": "5.4689204594"
+      }
+    },
+    "ok": true,
+    "orientable_1cusp_le6_count": 1199,
+    "orientable_by_tet": {
+      "2": 2,
+      "3": 9,
+      "4": 52,
+      "5": 223,
+      "6": 913
+    },
+    "s758_diagnostic": {
+      "default_triangulation_f5_gluing": false,
+      "default_triangulation_strict_f25_gluing": false,
+      "num_tet": 6,
+      "solution_type": "all tetrahedra positively oriented"
+    },
+    "snappy_version": "3.3.2",
+    "spot_checks_11_manifolds": {
+      "m000": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 1,
+        "orientable": false
+      },
+      "m003": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 2,
+        "orientable": true
+      },
+      "m004": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 2,
+        "orientable": true
+      },
+      "m045": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 4,
+        "orientable": true
+      },
+      "m191": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 5,
+        "orientable": true
+      },
+      "m266": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 5,
+        "orientable": true
+      },
+      "s136": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 6,
+        "orientable": true
+      },
+      "s447": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 6,
+        "orientable": true
+      },
+      "s560": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 6,
+        "orientable": true
+      },
+      "s758": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 6,
+        "orientable": true
+      },
+      "s850": {
+        "exact_match": true,
+        "gluing_match": true,
+        "num_tet": 6,
+        "orientable": true
+      }
+    },
+    "spot_checks_all_ok": true
+  },
+  "producer_integrity_and_control": {
+    "all_producer_hashes_ok": true,
+    "ok": true,
+    "producer_control_ok": true,
+    "producer_control_returncode": 1,
+    "producer_control_stderr_bytes": 0,
+    "producer_control_stdout": "FAIL_CONTROL: C5_sheet_rotation_k128_total=6 expected=0",
+    "producer_sha256_checks": {
+      "a2_census_1200_presentations_and_gluing.json": {
+        "actual": "20eae058063b9c514e79bee8bf94fb34d4e6447bd611bd869905d462e377f003",
+        "expected": "20eae058063b9c514e79bee8bf94fb34d4e6447bd611bd869905d462e377f003",
+        "match": true,
+        "sha_file": "DATA_SHA256.txt"
+      },
+      "a2_whole_census_e8_control.py": {
+        "actual": "106090774ebf633d17dc5211e382f3d2cae85c7d30efc441a3faec5bedc15266",
+        "expected": "106090774ebf633d17dc5211e382f3d2cae85c7d30efc441a3faec5bedc15266",
+        "match": true,
+        "sha_file": "SCRIPT_SHA256.txt"
+      },
+      "a2_whole_census_e8_decisive.py": {
+        "actual": "03d81a3c2a2699a0ce286da64ff3653bd0d4148998db0e8f9c4addbfa14cf3dd",
+        "expected": "03d81a3c2a2699a0ce286da64ff3653bd0d4148998db0e8f9c4addbfa14cf3dd",
+        "match": true,
+        "sha_file": "SCRIPT_SHA256.txt"
+      },
+      "a2_whole_census_e8_out.json": {
+        "actual": "796d64cdb71ddb171746594b2d5951bf43947ed77c43bdea6e15764d40c55cd4",
+        "expected": "796d64cdb71ddb171746594b2d5951bf43947ed77c43bdea6e15764d40c55cd4",
+        "match": true,
+        "sha_file": "OUTPUT_SHA256.txt"
+      },
+      "a2_whole_census_e8_stdout.txt": {
+        "actual": "e129994c40e98e1651a465d4a5b8e843fac12ac4dd8c5588bf8463912427f3ff",
+        "expected": "e129994c40e98e1651a465d4a5b8e843fac12ac4dd8c5588bf8463912427f3ff",
+        "match": true,
+        "sha_file": "OUTPUT_SHA256.txt"
+      }
+    }
+  },
+  "referee_planted_fault_controls": {
+    "RPF1_drop_sheet_restores_8": true,
+    "RPF2_C5_C2_C10_leave_k128_positive": true,
+    "RPF3_alpha_eq_beta_activates_4_in_120": true,
+    "RPF4_F5_degenerate_and_m009_obstructed": true,
+    "RPF5_corrupted_m004_relator_and_gluing": true
+  },
+  "role": "Cold-Room Zero-Trust Referee",
+  "rpf_caught": 5,
+  "runtime_ms": 13541,
+  "verdict": "PASS"
+}
