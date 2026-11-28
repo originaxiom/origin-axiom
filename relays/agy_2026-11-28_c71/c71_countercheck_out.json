@@ -1,0 +1,44 @@
+{
+  "card": "AGY-C71-COUNTERCHECK",
+  "discrepancies": [],
+  "discrepancies_count": 0,
+  "extra_primes_verified_e2": 3,
+  "parameter_count": "0 of 19",
+  "referee_planted_faults_caught": 5,
+  "referee_planted_faults_total": 5,
+  "seat_code": "fam3-v1-high-01",
+  "shared_imports_with_producer": 0,
+  "summary": {
+    "dims_k3_k11": [
+      2,
+      2,
+      3,
+      7,
+      7,
+      7,
+      12,
+      14,
+      14
+    ],
+    "mackey_double_cosets": 2,
+    "mod45_paired_deg": 4,
+    "quartic_r_and_nullity_pairs": [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "unpaired_deg_p5_p7": [
+      10,
+      8
+    ]
+  }
+}
