@@ -1,0 +1,1 @@
+control: the lepton pair made (-3, 5) on purpose: whole-level ties at [2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 15, 16, 17]; T2's check: fails, as it must
