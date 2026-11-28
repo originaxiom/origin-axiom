@@ -255,10 +255,11 @@ def count_homs_and_surjs(mul1, inv1, mul2, inv2):
 # 2. Module S1: Discriminant-15 Weil Lattices (L_15, L'_15) x B2008 Chiral Flux
 # ============================================================================
 def theta_lattice_L15(tau: mp.mpc, odd: bool, bm: int = 8, bn: int = 6):
-    """L_15: Gram [[2, 1], [1, 4]], Q(u, v) = u^2 + u v + 4 v^2, dual coset j*(8/15, -1/15)."""
+    """L_15: Gram [[2, 1], [1, 4]], Q(u, v) = u^2 + u v + 4 v^2, dual coset j*(8/15, -1/15).
+    Uses exact branch-free mp.exp(2 pi i tau Q(u, v)) so T: tau -> tau + 1 carries exact Weil phase."""
     I = iu()
     alpha = (mp.mpf(1) + I * mp.sqrt(15)) / mp.mpf(2)
-    q = mp.exp(2 * I * mp.pi * tau)
+    two_pi_i_tau = 2 * I * mp.pi * tau
     vec = mp.zeros(15, 1)
     for j in range(15):
         du = f_mp(8 * j, 15)
@@ -271,19 +272,21 @@ def theta_lattice_L15(tau: mp.mpc, odd: bool, bm: int = 8, bn: int = 6):
             for n in range(-bn, bn + 1):
                 v = n + dv
                 qexp = u * u + u * v + 4 * v * v
+                term = mp.exp(two_pi_i_tau * qexp)
                 if odd:
-                    s += (u + v * alpha) * (q ** qexp)
+                    s += (u + v * alpha) * term
                 else:
-                    s += (q ** qexp)
+                    s += term
         vec[j, 0] = s
     return vec
 
 
 def theta_lattice_L15_prime(tau: mp.mpc, odd: bool, bm: int = 8, bn: int = 8):
-    """L'_15: Gram [[4, 1], [1, 4]], Q'(u, v) = 2 u^2 + u v + 2 v^2, dual coset j*(4/15, -1/15)."""
+    """L'_15: Gram [[4, 1], [1, 4]], Q'(u, v) = 2 u^2 + u v + 2 v^2, dual coset j*(4/15, -1/15).
+    Uses exact branch-free mp.exp(2 pi i tau Q'(u, v)) so T: tau -> tau + 1 carries exact Weil phase."""
     I = iu()
     beta = (mp.mpf(1) + I * mp.sqrt(15)) / mp.mpf(4)
-    q = mp.exp(2 * I * mp.pi * tau)
+    two_pi_i_tau = 2 * I * mp.pi * tau
     vec = mp.zeros(15, 1)
     for j in range(15):
         du = f_mp(4 * j, 15)
@@ -296,10 +299,11 @@ def theta_lattice_L15_prime(tau: mp.mpc, odd: bool, bm: int = 8, bn: int = 8):
             for n in range(-bn, bn + 1):
                 v = n + dv
                 qexp = 2 * u * u + u * v + 2 * v * v
+                term = mp.exp(two_pi_i_tau * qexp)
                 if odd:
-                    s += (u + v * beta) * (q ** qexp)
+                    s += (u + v * beta) * term
                 else:
-                    s += (q ** qexp)
+                    s += term
         vec[j, 0] = s
     return vec
 
@@ -312,16 +316,50 @@ def crt_3x5(v15):
 
 
 def svd_left_3x5(M):
-    """Non-squaring Hermitian 8x8 Jordan-Wielandt SVD to avoid precision loss near rank-2 nullspace."""
-    # Also compute H = M M^H eigh at dps=45 (45 digits easily resolves 1e-22 vs 1e-44!)
-    H = M * M.H
-    ev, U = mp.eigh(H)
-    order = sorted(range(3), key=lambda k: mp.re(ev[k]), reverse=True)
-    sv = [mp.sqrt(max(mp.mpf(0), mp.re(ev[k]))) for k in order]
+    """True non-squaring 8x8 Hermitian Jordan-Wielandt SVD (full 45-digit precision on sv_2 == 0!)."""
+    JW = mp.zeros(8, 8)
+    for i in range(3):
+        for j in range(5):
+            JW[i, 3 + j] = M[i, j]
+            JW[3 + j, i] = mp.conj(M[i, j])
+    ev, E = mp.eigh(JW)
+    # Eigenvalues come in +-sigma pairs plus 2 zeros; sort descending -> top 3 are sv_0 >= sv_1 >= sv_2 >= 0!
+    order = sorted(range(8), key=lambda k: mp.re(ev[k]), reverse=True)
+    sv = [max(mp.mpf(0), mp.re(ev[order[0]])),
+          max(mp.mpf(0), mp.re(ev[order[1]])),
+          max(mp.mpf(0), mp.re(ev[order[2]]))]
+    # Extract left-singular unit vectors u_0, u_1 from top-3 rows of top 2 eigenvectors
+    cols = []
+    for col in range(2):
+        k = order[col]
+        v = [E[r, k] for r in range(3)]
+        nrm = mp.sqrt(mp.fsum(abs(x) ** 2 for x in v))
+        cols.append([x / nrm for x in v])
+    # For u_2: if sv_2 > 1e-18 extract from order[2], else exact orthogonal complement conj(u_0 x u_1)!
+    if sv[2] > f_mp(1, 10**18):
+        k2 = order[2]
+        v2 = [E[r, k2] for r in range(3)]
+        # Re-orthogonalize against cols[0], cols[1]
+        for c in cols:
+            ip = mp.fsum(mp.conj(c[r]) * v2[r] for r in range(3))
+            v2 = [v2[r] - ip * c[r] for r in range(3)]
+        nrm2 = mp.sqrt(mp.fsum(abs(x) ** 2 for x in v2))
+        cols.append([x / nrm2 for x in v2])
+    else:
+        sv[2] = mp.mpf(0)
+        u0, u1 = cols[0], cols[1]
+        # Complex cross product conj(u0 x u1) is strictly orthogonal to both u0 and u1
+        v2 = [
+            mp.conj(u0[1] * u1[2] - u0[2] * u1[1]),
+            mp.conj(u0[2] * u1[0] - u0[0] * u1[2]),
+            mp.conj(u0[0] * u1[1] - u0[1] * u1[0]),
+        ]
+        nrm2 = mp.sqrt(mp.fsum(abs(x) ** 2 for x in v2))
+        cols.append([x / nrm2 for x in v2])
     Us = mp.zeros(3, 3)
-    for col, k in enumerate(order):
+    for col in range(3):
         for r in range(3):
-            Us[r, col] = U[r, k]
+            Us[r, col] = cols[col][r]
     return sv, Us
 
 
@@ -825,6 +863,8 @@ def run_module_s2():
             h_name = "2O"
         elif h_ord == 120:
             h_name = "2I=SL(2,F_5)"
+        elif h_ord == 240:
+            h_name = "2I.2=SL(2,F_5).2"
         elif h_ord == 15600:
             h_name = "SL(2,F_25)"
         else:
