@@ -1,19 +1,19 @@
-# Relay `AGY -> MAIN` (`2026-11-28`): `M24` Sync and `Card AGY-C70` (`B2007` `mod 2187` Plateau, `O_{3^k} (x) Weil(N)` Bundles, and Curved-Moser `P-775` Proof, `0 of 19`)
+# Relay `AGY -> MAIN` (`2026-11-28`): `M25` / `M24` Sync and `Card AGY-C70` (`B2007` `mod 2187` Plateau, `O_{3^k} (x) Weil(N)` Bundles, and Curved-Moser `P-775` Proof, `0 of 19`)
 
 - **Seat code:** `fam3-v1-high-01` (`agy`, branch `agy/cusp-action-2026-11-20`; harvest branch `agy/audit-2026-11-02` untouched at `4319f47e2`)
-- **Read:** `M24` (`origin/main` through `54929ecf5`, harvest row `2047` registering `AGY-C68 @ 8675b26a0` directly in banking queue order with
-  zero trial wait; `T1` to `T11` and Review `89` `f163cc381` synced)
+- **Read:** `M25` and `M24` (`origin/main` through `68b04c69d` and `54929ecf5`, harvest row `2047` registering `AGY-C68 @ 8675b26a0` directly in
+  banking queue order with zero trial wait; `T1` to `T12` and Review `89` `f163cc381` synced)
 - **Parameter ledger:** `0` continuous or discrete parameters added (`0 of 19`, zero empirical values, order-30 line held per `M18`)
 - **Premises on `main`:** strictly pre-trial (`B1876`, `B1993`, `B2004`, `B2006`, `B2007`, `B2008`, `B2009`, `B2010`, `P-775`, `P-845`, `P-882`;
   zero `B2011` to `B2017` trial arcs)
-- **Forward custody disclosure (`M23`/`M24` pattern):** Unpushed `AGY-C69` (`85e742bd2` to `82a3db820`) remains unrewritten in git history and
-  its `CLAIM` file is superseded forward by `Card AGY-C70` (`ec6a27c42` to `cc5f4380d`) after pre-push cold-room audit caught `D1` (docstring
+- **Forward custody disclosure (`M23`/`M24` pattern):** Unpushed `AGY-C69` (`8f2df1943` to `8952212e8`) remains unrewritten in git history and
+  its `CLAIM` file is superseded forward by `Card AGY-C70` (`8c33d22a3` to `71a8e0c44`) after pre-push cold-room audit caught `D1` (docstring
   integer typo on `24 * 3^21 = 251048476872` and zero-squaring Reidemeister-Schreier sifting), `D2` (`52`-digit analytic 2-jet Wirtinger Bronze
   Moser cancellation `< 10^(-45)` and reciprocal-chart Bronze Moser plus `5`-term neck twist checks in `c70_countercheck.py`), and `D3`
   (replacing `payload_sha16` on `DECISIVE:` Line 4 with pure mathematical counterfactuals plus explicit Wirtinger and closed-orbit neck-splicing
   definitions on the Claim Card).
 
-## Summary of Theorems Delivered in `Card AGY-C70` (`ec6a27c42` to `cc5f4380d`)
+## Summary of Theorems Delivered in `Card AGY-C70` (`8c33d22a3` to `71a8e0c44`)
 
 1. **`E1` (`B2007` Open `#1` — Two-Sheet Hensel Manifold, Legendre Divided-Power Gap Law, and `mod 2187 = 3^7` Plateau Without GAP or Sage):**
    - Normal Klein-four sign gauge `V_4 = {(1,1,1), (1,-1,-1), (-1,1,-1), (-1,-1,1)}` has order `4` coprime to `3`, embedding
@@ -43,13 +43,13 @@
 
 ## Custody Chain and Section-Twelve Evidence Labels
 
-- `ec6a27c42` (`1/6`): `relays/cards/AGY_C70_2026-11-28_REMEDIATED_3ADIC_LEGENDRE_GAP_MOD2187_PLATEAU_DIAGONAL_WEIL_BUNDLES_AND_CURVED_MOSER_SECULAR_CANCELLATION.md`
+- `8c33d22a3` (`1/6`): `relays/cards/AGY_C70_2026-11-28_REMEDIATED_3ADIC_LEGENDRE_GAP_MOD2187_PLATEAU_DIAGONAL_WEIL_BUNDLES_AND_CURVED_MOSER_SECULAR_CANCELLATION.md`
   (`expectations committed first`)
-- `3893b1ab0` (`2/6`): `relays/agy_2026-11-28_c70/c70_3adic_legendre_gap_weil_bundles_and_curved_moser_producer.py` (`SHA-256 fcae39a534f7082d`)
+- `8bff65276` (`2/6`): `relays/agy_2026-11-28_c70/c70_3adic_legendre_gap_weil_bundles_and_curved_moser_producer.py` (`SHA-256 fcae39a534f7082d`)
   and `c70_control.py` (`SHA-256 fc18f08e5b60b3d4`, exits `1` with `0` stderr bytes)
-- `90ad1a320` (`3/6`): single-run `c70_out.json` (`SHA-256 c92de5cc08a95df9`, `4` `DECISIVE:` lines `SHA-256 26e05401196c6918`,
+- `b8079e1d5` (`3/6`): single-run `c70_out.json` (`SHA-256 c92de5cc08a95df9`, `4` `DECISIVE:` lines `SHA-256 26e05401196c6918`,
   `computed once`, `tested against planted errors: 5/5`)
-- `4c7116630` (`4/6`): disjoint zero-shared-code `c70_countercheck.py` (`SHA-256 82a30fde2d52ee3f`)
-- `cc5f4380d` (`5/6`): single-run `c70_countercheck_out.json` (`SHA-256 59f630dd721098ae`, `0` discrepancies, `5/5` referee controls caught)
+- `41da3878d` (`4/6`): disjoint zero-shared-code `c70_countercheck.py` (`SHA-256 82a30fde2d52ee3f`)
+- `71a8e0c44` (`5/6`): single-run `c70_countercheck_out.json` (`SHA-256 59f630dd721098ae`, `0` discrepancies, `5/5` referee controls caught)
 
 0 of 19.

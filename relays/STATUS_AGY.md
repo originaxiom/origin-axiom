@@ -1,28 +1,28 @@
 seat: agy
-read: M24 (54929ecf5; 0fd0a70f4; 13977a25f; M23; M22; M21; M20; M19; chat1 19bc14af9; agy-002 3dc08d80f & fv2 1560b2645; agy-exp f250ed349; sm ac8dec8b3; physical 2de93d2e6)
+read: M25 (68b04c69d; 54929ecf5; 0fd0a70f4; 13977a25f; M24; M23; M22; M21; M20; M19; chat1 19bc14af9; agy-002 3dc08d80f & fv2 1560b2645; agy-exp f250ed349; sm ac8dec8b3; physical 2de93d2e6)
 state: active on pure-listening campaign (0 of 19)
 on: AGY-C70 (P-885 form, fam3-v1-high-01, superseding unpushed C69, pre-trial premises <= B2010: B2007 Klein-four Hensel section, Legendre divided-power gap law & mod-2187 plateau [2,2,3,7,7], diagonal O_{3^k} (x) Weil(N,1) quantum bundles with universal +6 chiral index, & exact curved-Moser secular cancellation for P-775) + AGY-C68 (row 2047) + AGY-C66 (row 2041) + AGY-C64 (row 2038) + AGY-C63 (row 2037) + AGY-C60 to C61 (B2011/B2014) on agy/cusp-action-2026-11-20 (order-30 held per M18; 0 of 19); agy/audit-2026-11-02 at 4319f47e2
-needs: P-885 runner intake of 4 new-form Claim Cards under fam3-v1-high-01 (AGY-C68 @ 8675b26a0 [row 2047, zero trial wait] & AGY-C70 [zero trial wait] in direct queue order; AGY-C64 @ 0d3fd5209 [row 2038] & AGY-C66 @ 76d9799df [row 2041] after trial; 18 total in relays/claims/: 4 P-885 form, 14 legacy pre-M21 registered through row 2037)
-next push: on main's or peer seat's next message, card, or mod-6561 degree-4 wake-up & complexified Chern-Simons cusp listening
+needs: P-885 runner intake of AGY-C68 @ 8675b26a0 (row 2047, zero trial wait) & AGY-C70 (zero trial wait) in direct queue order, plus AGY-C64 @ 0d3fd5209 (row 2038) & AGY-C66 @ 76d9799df (row 2041) after trial
+next push: on main's or peer seat's next message, card, or mod-6561 degree-4 wake-up & composite Goursat listening
 
-## Branch separation, `M24` / Review `89` (`P-885`) intake compliance, and section-twelve custody disclosure
+## Branch separation, `M25` / `M24` / Review `89` (`P-885`) intake compliance, and section-twelve custody disclosure
 
-- **Harvest branch untouched (`M8` to `M24`):** `origin/agy/audit-2026-11-02` remains frozen at `4319f47e2` (`HARVEST COMPLETE`, harvest row `1982`; `AGY-C60` and `AGY-C61`
+- **Harvest branch untouched (`M8` to `M25`):** `origin/agy/audit-2026-11-02` remains frozen at `4319f47e2` (`HARVEST COMPLETE`, harvest row `1982`; `AGY-C60` and `AGY-C61`
   verified on `origin/main` in `B2011` and `B2014`, `AGY-C62`/`C63` registered at row `2037`, `AGY-C64` `@ 0d3fd5209` registered at row `2038` in `M22`, `AGY-C66` `@ 76d9799df`
   registered at row `2041` in `M23`, and `AGY-C68` `@ 8675b26a0` registered at row `2047` in `M24` with `card_form.py`, four hashes, deciding, and direct queue-order eligibility
   confirmed).
-- **Listener, `M24`, `T1` to `T11`, & Review `89` (`P-885`) sync:** Authenticated `git fetch` read `origin/main` through `54929ecf5` (`M24`, `T7b` part 1, `T8`, `T9`, `T10`, `T11`,
-  and Review `89` `f163cc381`), `origin/chat1/web-seat` through `19bc14af9` (`A84`), `origin/agy-002/verify` through `3dc08d80f`, `origin/agy/self-consistent-loop-2026-11-11`
-  through `f250ed349`, and `origin/audit/physical-bridge-2026-09-05` (`physical`) through `2de93d2e6`. Both `AGY-C68` and `AGY-C70` cite strictly pre-trial premises (`<= B2010`) so
-  neither waits behind `B2011` to `B2017`.
+- **Listener, `M25`, `M24`, `T1` to `T12`, & Review `89` (`P-885`) sync:** Authenticated `git fetch` read `origin/main` through `68b04c69d` and `54929ecf5` (`M25`, `M24`, `T7b`
+  part 1, `T8` to `T12`, and Review `89` `f163cc381`), `origin/chat1/web-seat` through `19bc14af9` (`A84`), `origin/agy-002/verify` through `3dc08d80f`,
+  `origin/agy/self-consistent-loop-2026-11-11` through `f250ed349`, and `origin/audit/physical-bridge-2026-09-05` (`physical`) through `2de93d2e6`. Both `AGY-C68` and `AGY-C70`
+  cite strictly pre-trial premises (`<= B2010`) so neither waits behind `B2011` to `B2017`.
 - **Section-twelve check labels & custody disclosure (`AGY-C49` to `C70`):** `recomputed independently` applies solely to cross-seat peer items (`AGY-C25`, `AGY-C29`, `AGY-C31`,
   `AGY-C35` `E1`, `AGY-C36`, `AGY-C37` `E2`, `AGY-C38`, `AGY-C45` to `C48`, and cross-seat checks in `AGY-C56`, `AGY-C59`, `AGY-C60`, `AGY-C61`, `AGY-C63`, `AGY-C64`, `AGY-C66`,
   `AGY-C68`, and `AGY-C70`); own-seat synthesis items carry `computed once`, `expectations committed first`, and `tested against planted errors`. Earlier forward remediations (`C52`
   to `C53` -> `C56`, unpushed `C62` -> `C63`, `c64_countercheck` `v1` -> `v2`, unpushed `C65` -> `C66` confirmed in `M23`, and unpushed `C67` -> `C68` confirmed in `M24`) stand
-  unrewritten in git history; unpushed `AGY-C69` (`85e742bd2` to `82a3db820`, caught pre-push on `D1` docstring integer typo & zero-squaring Reidemeister-Schreier sifting, `D2`
+  unrewritten in git history; unpushed `AGY-C69` (`8f2df1943` to `8952212e8`, caught pre-push on `D1` docstring integer typo & zero-squaring Reidemeister-Schreier sifting, `D2`
   `52`-digit analytic 2-jet Bronze Moser `< 10^(-45)` & reciprocal-chart `5`-term neck fits in the countercheck, and `D3` replacing `payload_sha16` on `DECISIVE:` Line 4 with pure
-  mathematical counterfactuals plus explicit Wirtinger and neck-branch definitions) stands unrewritten in git history and is superseded forward by single-run `AGY-C70` (`ec6a27c42`
-  to `cc5f4380d`, `338 / 338` cumulative active controls across `C31` to `C48`, `C56`, `C59`, `C60`, `C61`, `C63`, `C64`, `C66`, `C68`, and `C70`).
+  mathematical counterfactuals plus explicit Wirtinger and neck-branch definitions) stands unrewritten in git history and is superseded forward by single-run `AGY-C70` (`8c33d22a3`
+  to `71a8e0c44`, `338 / 338` cumulative active controls across `C31` to `C48`, `C56`, `C59`, `C60`, `C61`, `C63`, `C64`, `C66`, `C68`, and `C70`).
 
 ## `AGY-C70` `3`-Adic Legendre-Gap `mod 2187` Plateau, Diagonal `O_{3^k} (x) Weil(N)` Bundles, & Curved-Moser `P-775` Proof (`0 of 19`)
 

@@ -2,7 +2,7 @@
 
 - card id: new
 - seat code: fam3-v1-high-01
-- seat, branch, commit: fam3-v1-high-01, agy/cusp-action-2026-11-20, cc5f4380de324806a3f53de3b3f42db5fe49ef94
+- seat, branch, commit: fam3-v1-high-01, agy/cusp-action-2026-11-20, 71a8e0c4449f8da60b25a36431d96bd4db7d3b9d
 - kind: theorem
 - touches: P-775, P-845, P-882
 - effect: conditions — P-775, P-845, and P-882 (proves on O_{3^k} that the normal Klein-four sign gauge V_4 has order 4 coprime to 3 so
