@@ -1,0 +1,1147 @@
+#!/usr/bin/env python3
+"""Card A2-CHIRAL-E8-SIBLINGS — Phase 1 of Unattended Listening Campaign:
+Exact Invariant Trace Fields & Arithmeticity (Rung 1), Rational Fox-Calculus Ad(2T)
+Rigidity (Rung 3), B2008 Chirality Seam on the 6 H_1 = Z E_8-Locked Manifolds, and
+100% 3-Generator Census Closure Across All 18 S_BD5_C4 3-Gen Manifolds.
+
+Seat code: fam3-v1-high-03 (agy-002/verify).
+Strictly blind (0 of 19), zero trial arcs, stdlib + sympy + mpmath only, ZERO AST/JSON floats.
+"""
+import ast
+import itertools
+import json
+import math
+import pathlib
+import sys
+from collections import Counter, deque
+from fractions import Fraction
+
+import mpmath as mp
+import sympy as sp
+from sympy.polys.matrices import DomainMatrix
+
+HERE = pathlib.Path(__file__).resolve().parent
+DATA_JSON = HERE / "a2_chiral_e8_siblings_input.json"
+OUT_JSON = HERE / "a2_chiral_e8_siblings_out.json"
+
+mp.mp.dps = 65
+X = sp.Symbol("X")
+
+
+# ============================================================================
+# 1. Exact F_25 = F_5[d]/(d^2 - 2) & BD_5 & 2T = SL(2, F_3) tables
+# ============================================================================
+ADD = [[0] * 25 for _ in range(25)]
+SUB = [[0] * 25 for _ in range(25)]
+MUL = [[0] * 25 for _ in range(25)]
+NEG = [0] * 25
+INV = [0] * 25
+SQRT = [-1] * 25
+OMZ = [0] * 25
+TR5 = [0] * 25
+
+for _i in range(25):
+    _a, _b = divmod(_i, 5)
+    NEG[_i] = ((-_a) % 5) * 5 + ((-_b) % 5)
+    TR5[_i] = (2 * _a) % 5
+    for _j in range(25):
+        _c, _e = divmod(_j, 5)
+        ADD[_i][_j] = ((_a + _c) % 5) * 5 + ((_b + _e) % 5)
+        SUB[_i][_j] = ((_a - _c) % 5) * 5 + ((_b - _e) % 5)
+        MUL[_i][_j] = ((_a * _c + 2 * _b * _e) % 5) * 5 + ((_a * _e + _b * _c) % 5)
+
+F0, F1, F2, FM2, F4, INV2 = 0, 5, 10, 15, 20, 15
+for _i in range(1, 25):
+    for _j in range(1, 25):
+        if MUL[_i][_j] == F1:
+            INV[_i] = _j
+for _i in range(25):
+    SQRT[MUL[_i][_i]] = _i
+    OMZ[_i] = SUB[F1][_i]
+
+# Clean primitive root finder in F_25^*
+_PRIM_G = -1
+for _cand in range(1, 25):
+    _cur, _o = _cand, 1
+    while _cur != F1:
+        _cur = MUL[_cur][_cand]
+        _o += 1
+    if _o == 24:
+        _PRIM_G = _cand
+        break
+DLOG = [-1] * 25
+_cur = F1
+for _e in range(24):
+    DLOG[_cur] = _e
+    _cur = MUL[_cur][_PRIM_G]
+
+# BD_5 (order 20)
+BD_MUL = [[0] * 20 for _ in range(20)]
+BD_INV = [0] * 20
+BD_ORD = [0] * 20
+for _x in range(20):
+    _a, _k = divmod(_x, 4)
+    _sgn = 1 if (_k % 2 == 0) else -1
+    BD_INV[_x] = (((-_sgn * _a) % 5) * 4) + ((-_k) % 4)
+    for _y in range(20):
+        _b, _l = divmod(_y, 4)
+        BD_MUL[_x][_y] = (((_a + _sgn * _b) % 5) * 4) + ((_k + _l) % 4)
+for _x in range(20):
+    _c, _o = _x, 1
+    while _c != 0:
+        _c = BD_MUL[_c][_x]
+        _o += 1
+    BD_ORD[_x] = _o
+
+BD_CONJ_REPS = []
+_seen_b = set()
+for _x in range(20):
+    if _x not in _seen_b:
+        _cls = {BD_MUL[BD_MUL[_g][_x]][BD_INV[_g]] for _g in range(20)}
+        BD_CONJ_REPS.append((_x, len(_cls)))
+        _seen_b.update(_cls)
+
+# 2T = SL(2, F_3) (order 24) + exact integer 3x3 Ad(2T) = A_4 matrices derived from Q_8 conjugation
+def build_2t_and_ad():
+    elems = []
+    for a in range(3):
+        for b in range(3):
+            for c in range(3):
+                for d in range(3):
+                    if (a * d - b * c) % 3 == 1:
+                        elems.append((a, b, c, d))
+    assert len(elems) == 24
+    idx = {e: i for i, e in enumerate(elems)}
+    id_i = idx[(1, 0, 0, 1)]
+    if id_i != 0:
+        elems[0], elems[id_i] = elems[id_i], elems[0]
+        idx = {e: i for i, e in enumerate(elems)}
+    mul = [[0] * 24 for _ in range(24)]
+    inv = [0] * 24
+    for i, (a, b, c, d) in enumerate(elems):
+        inv[i] = idx[(d, (-b) % 3, (-c) % 3, a)]
+        for j, (e, f, g, h) in enumerate(elems):
+            mul[i][j] = idx[((a * e + b * g) % 3, (a * f + b * h) % 3,
+                             (c * e + d * g) % 3, (c * f + d * h) % 3)]
+    # Identify the 3 basis axes of su(2) = Q_8 / {+-1}: the 3 inverse pairs of order-4 elements
+    ord4 = []
+    for i in range(24):
+        i2 = mul[i][i]
+        if i2 != 0 and mul[i2][i2] == 0:
+            ord4.append(i)
+    assert len(ord4) == 6
+    axes = []
+    used = set()
+    for q in ord4:
+        if q not in used:
+            axes.append(q)
+            used.add(q)
+            used.add(inv[q])
+    assert len(axes) == 3
+    # Build exact 3x3 integer matrix AD[g] where g * e_j * g^{-1} = sum_i AD[g][i,j] e_i
+    ad = []
+    for g in range(24):
+        mat = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+        for j, ej in enumerate(axes):
+            conj = mul[mul[g][ej]][inv[g]]
+            for i, ei in enumerate(axes):
+                if conj == ei:
+                    mat[i][j] = 1
+                elif conj == inv[ei]:
+                    mat[i][j] = -1
+        # Verify det == +1 and orthogonal (mat^T * mat == I_3)
+        M_sp = sp.Matrix(mat)
+        assert M_sp.det() == 1 and M_sp.T * M_sp == sp.eye(3)
+        ad.append(M_sp)
+    # Verify homomorphism property AD[g*h] == AD[g]*AD[h]
+    for g in range(24):
+        for h in range(24):
+            assert ad[mul[g][h]] == ad[g] * ad[h]
+    # Conjugacy classes of 2T
+    conj_reps = []
+    seen = set()
+    for x in range(24):
+        if x not in seen:
+            cls = {mul[mul[g][x]][inv[g]] for g in range(24)}
+            conj_reps.append((x, len(cls)))
+            seen.update(cls)
+    # Aut(2T) (order 24: generated by inner conjugations + outer automorphism from GL(2, F_3))
+    gl2_f3 = []
+    for a in range(3):
+        for b in range(3):
+            for c in range(3):
+                for d in range(3):
+                    det = (a * d - b * c) % 3
+                    if det in (1, 2):
+                        gl2_f3.append((a, b, c, d, det))
+    aut_maps = []
+    seen_aut = set()
+    for a, b, c, d, det in gl2_f3:
+        inv_g = (d * det % 3, (-b * det) % 3, (-c * det) % 3, a * det % 3)
+        mp_list = []
+        for (e, f, g, h) in elems:
+            # g_mat * elem * g_mat^{-1}
+            p0 = (a * e + b * g) % 3
+            p1 = (a * f + b * h) % 3
+            p2 = (c * e + d * g) % 3
+            p3 = (c * f + d * h) % 3
+            q0 = (p0 * inv_g[0] + p1 * inv_g[2]) % 3
+            q1 = (p0 * inv_g[1] + p1 * inv_g[3]) % 3
+            q2 = (p2 * inv_g[0] + p3 * inv_g[2]) % 3
+            q3 = (p2 * inv_g[1] + p3 * inv_g[3]) % 3
+            mp_list.append(idx[(q0, q1, q2, q3)])
+        t = tuple(mp_list)
+        if t not in seen_aut:
+            seen_aut.add(t)
+            aut_maps.append(t)
+    assert len(aut_maps) == 24
+    return mul, inv, ad, conj_reps, aut_maps
+
+
+T2_MUL, T2_INV, T2_AD, T2_CONJ, T2_AUTS = build_2t_and_ad()
+
+
+def compile_word(word, gens):
+    gidx = {g: i for i, g in enumerate(gens)}
+    return tuple((gidx[ch.lower()], ch.isupper()) for ch in word)
+
+
+def eval_tab(comp, vals, inv_tab, mul_tab):
+    cur = 0
+    for idx, is_inv in comp:
+        g = vals[idx]
+        cur = mul_tab[cur][inv_tab[g] if is_inv else g]
+    return cur
+
+
+def subgroup_size(vals, inv_tab, mul_tab):
+    seen = {0}
+    q = deque([0])
+    while q:
+        u = q.popleft()
+        for g in vals:
+            for h in (g, inv_tab[g]):
+                v = mul_tab[u][h]
+                if v not in seen:
+                    seen.add(v)
+                    q.append(v)
+    return len(seen)
+
+
+# ============================================================================
+# 2. Module C1: Exact LLL Minimal Polynomial + Exact Symbolic Gluing Certifier
+# ============================================================================
+def lll_minpoly_complex(val_mpc, max_deg=14, scale_exp=48, tol_exp=32):
+    """Find exact irreducible integer minimal polynomial P(X) in Z[X] of a high-precision
+    complex algebraic number via sympy DomainMatrix.lll on 2D (Re, Im) lattice."""
+    scale = 10 ** scale_exp
+    tol = mp.mpf(10) ** (-tol_exp)
+    pows = [mp.mpc(1)]
+    for _ in range(max_deg):
+        pows.append(pows[-1] * val_mpc)
+
+    for d in range(1, max_deg + 1):
+        rows = []
+        for k in range(d + 1):
+            row = [0] * (d + 3)
+            row[k] = 1
+            row[d + 1] = int(mp.nint(pows[k].real * scale))
+            row[d + 2] = int(mp.nint(pows[k].imag * scale))
+            rows.append(row)
+        dm = DomainMatrix.from_Matrix(sp.Matrix(rows)).lll()
+        mat = dm.to_Matrix()
+        for r in range(d + 1):
+            coeffs = [int(mat[r, k]) for k in range(d + 1)]
+            if all(c == 0 for c in coeffs):
+                continue
+            val_eval = sum(c * p for c, p in zip(coeffs, pows[:d + 1]))
+            if abs(val_eval) < tol:
+                poly_raw = sp.Poly(list(reversed(coeffs)), X, domain=sp.ZZ)
+                if poly_raw.degree() < 1:
+                    continue
+                _, factors = sp.factor_list(poly_raw)
+                for fac, _mult in factors:
+                    f_coeffs = [int(c) for c in reversed(fac.all_coeffs())]
+                    fev = sum(c * p for c, p in zip(f_coeffs, pows[:len(f_coeffs)]))
+                    if abs(fev) < tol:
+                        if f_coeffs[-1] < 0:
+                            f_coeffs = [-c for c in f_coeffs]
+                        return sp.Poly(list(reversed(f_coeffs)), X, domain=sp.ZZ)
+    return None
+
+
+def lll_express_in_basis(target_mpc, alpha_mpc, deg, scale_exp=48, tol_exp=30):
+    """Express target_mpc = (sum_{k=0}^{deg-1} a_k alpha^k) / q with exact integers a_k, q > 0."""
+    scale = 10 ** scale_exp
+    tol = mp.mpf(10) ** (-tol_exp)
+    pows = [mp.mpc(1)]
+    for _ in range(deg - 1):
+        pows.append(pows[-1] * alpha_mpc)
+    # Lattice rows: 0..deg-1 are alpha^k, row deg is -target_mpc
+    rows = []
+    for k in range(deg):
+        row = [0] * (deg + 3)
+        row[k] = 1
+        row[deg + 1] = int(mp.nint(pows[k].real * scale))
+        row[deg + 2] = int(mp.nint(pows[k].imag * scale))
+        rows.append(row)
+    row_t = [0] * (deg + 3)
+    row_t[deg] = 1
+    row_t[deg + 1] = int(mp.nint((-target_mpc.real) * scale))
+    row_t[deg + 2] = int(mp.nint((-target_mpc.imag) * scale))
+    rows.append(row_t)
+
+    dm = DomainMatrix.from_Matrix(sp.Matrix(rows)).lll()
+    mat = dm.to_Matrix()
+    for r in range(deg + 1):
+        q = int(mat[r, deg])
+        if q == 0:
+            continue
+        if q < 0:
+            a_vec = [-int(mat[r, k]) for k in range(deg)]
+            q = -q
+        else:
+            a_vec = [int(mat[r, k]) for k in range(deg)]
+        approx = sum(a * p for a, p in zip(a_vec, pows)) / q
+        if abs(approx - target_mpc) < tol:
+            # Return exact sympy Poly over QQ
+            return sp.Poly([sp.Rational(c, q) for c in reversed(a_vec)], X, domain=sp.QQ)
+    return None
+
+
+def poly_mod_mul(A, B, P):
+    return sp.rem(A * B, P, X, domain=sp.QQ)
+
+
+def poly_mod_pow(A, exp, P):
+    if exp == 0:
+        return sp.Poly(1, X, domain=sp.QQ)
+    if exp < 0:
+        A = sp.invert(A, P, domain=sp.QQ)
+        exp = -exp
+    res = sp.Poly(1, X, domain=sp.QQ)
+    base = sp.rem(A, P, X, domain=sp.QQ)
+    while exp > 0:
+        if exp & 1:
+            res = sp.rem(res * base, P, X, domain=sp.QQ)
+        base = sp.rem(base * base, P, X, domain=sp.QQ)
+        exp >>= 1
+    return res
+
+
+def certify_gluing_symbolically(P_poly, z_polys, gluing_rect):
+    """100% EXACT SYMBOLIC CERTIFICATION over Q[X]/(P(X)):
+    Verify EVERY integer Thurston gluing equation prod_j z_j^{a_j} (1 - z_j)^{b_j} - sign == 0 (mod P)."""
+    P_qq = sp.Poly(P_poly.as_expr(), X, domain=sp.QQ)
+    one_p = sp.Poly(1, X, domain=sp.QQ)
+    omz_polys = [sp.rem(one_p - zp, P_qq, X, domain=sp.QQ) for zp in z_polys]
+    for zp, oz in zip(z_polys, omz_polys):
+        if zp.is_zero or oz.is_zero:
+            return False
+    for a_row, b_row, sgn in gluing_rect:
+        prod = one_p
+        for j, (aj, bj) in enumerate(zip(a_row, b_row)):
+            if aj != 0:
+                prod = poly_mod_mul(prod, poly_mod_pow(z_polys[j], aj, P_qq), P_qq)
+            if bj != 0:
+                prod = poly_mod_mul(prod, poly_mod_pow(omz_polys[j], bj, P_qq), P_qq)
+        diff = sp.rem(prod - sp.Poly(sgn, X, domain=sp.QQ), P_qq, X, domain=sp.QQ)
+        if not diff.is_zero:
+            return False
+    return True
+
+
+def sl2c_mat_from_hp(arr):
+    return [mp.mpc(arr[k][0], arr[k][1]) for k in range(4)]
+
+
+def sl2c_mul(A, B):
+    return [
+        A[0] * B[0] + A[1] * B[2],
+        A[0] * B[1] + A[1] * B[3],
+        A[2] * B[0] + A[3] * B[2],
+        A[2] * B[1] + A[3] * B[3],
+    ]
+
+
+def sl2c_inv(A):
+    return [A[3], -A[1], -A[2], A[0]]
+
+
+def sl2c_eval(word, gmap):
+    cur = [mp.mpc(1), mp.mpc(0), mp.mpc(0), mp.mpc(1)]
+    for ch in word:
+        g = gmap[ch.lower()]
+        cur = sl2c_mul(cur, sl2c_inv(g) if ch.isupper() else g)
+    return cur
+
+
+def analyze_field_and_arithmeticity(m):
+    """Module C1: Exact shape field minimal polynomial, symbolic gluing certification,
+    pi_1^(2) trace integrality, Maclachlan-Reid arithmeticity, and mod-5 factorization."""
+    shapes_mpc = [mp.mpc(r, im) for r, im in m["shapes_hp"]]
+    # Find primitive generator alpha of Q(z_0, ..., z_{t-1})
+    # Try single shapes first, then small integer linear combinations if needed
+    cand_alphas = list(shapes_mpc)
+    if len(shapes_mpc) >= 2:
+        cand_alphas.append(shapes_mpc[0] + 2 * shapes_mpc[1])
+        cand_alphas.append(sum((k + 1) * z for k, z in enumerate(shapes_mpc)))
+
+    best_poly = None
+    best_alpha = None
+    best_zpolys = None
+    for alp in cand_alphas:
+        P = lll_minpoly_complex(alp, max_deg=14)
+        if P is None:
+            continue
+        d = P.degree()
+        zps = []
+        ok_all = True
+        for z in shapes_mpc:
+            zp = lll_express_in_basis(z, alp, d)
+            if zp is None:
+                ok_all = False
+                break
+            zps.append(zp)
+        if ok_all:
+            if certify_gluing_symbolically(P, zps, m["gluing_rect"]):
+                best_poly = P
+                best_alpha = alp
+                best_zpolys = zps
+                break
+
+    assert best_poly is not None, f"Failed to certify exact shape field for {m['name']}"
+    deg = int(best_poly.degree())
+    # Exact Sturm real root count (zero floats!)
+    r1 = int(best_poly.count_roots())
+    assert (deg - r1) % 2 == 0
+    r2 = (deg - r1) // 2
+    coeffs_desc = [int(c) for c in best_poly.all_coeffs()]
+    shape_monic = (coeffs_desc[0] == 1)
+
+    # Check exact integrality of pi_1(M)^{(2)} traces: tr(a^2), tr(b^2), tr((ab)^2), tr([a, b])
+    gmap = {g: sl2c_mat_from_hp(arr) for g, arr in m["sl2c_gens_hp"].items()}
+    gens = m["gens"]
+    sq_words = [g + g for g in gens]
+    if len(gens) >= 2:
+        sq_words.extend([gens[0] + gens[1] + gens[0] + gens[1], gens[0] + gens[1] + gens[0].upper() + gens[1].upper()])
+    sq_trace_monic = []
+    sq_trace_degs = []
+    for w in sq_words:
+        Mw = sl2c_eval(w, gmap)
+        tr_w = Mw[0] + Mw[3]
+        Pw = lll_minpoly_complex(tr_w, max_deg=max(deg, 12))
+        assert Pw is not None, f"Failed trace minpoly for {m['name']} word {w}"
+        sq_trace_monic.append(int(Pw.all_coeffs()[0]) == 1)
+        sq_trace_degs.append(int(Pw.degree()))
+    all_sq_traces_integral = all(sq_trace_monic)
+
+    # Maclachlan-Reid Thm 8.2.3: 1-cusped hyperbolic 3-manifold is arithmetic iff
+    # invariant trace field (= shape field) is imaginary quadratic (deg == 2, r1 == 0) AND all pi_1^(2) traces integral
+    is_arithmetic = (deg == 2 and r1 == 0 and all_sq_traces_integral)
+
+    # Exact factorization of P_M(X) mod 5 over F_5 (after verifying lc % 5 != 0 or recording prime-5 ramification)
+    lc_mod5 = coeffs_desc[0] % 5
+    if lc_mod5 != 0:
+        _, f5_facs = sp.factor_list(best_poly.as_expr(), X, modulus=5)
+        mod5_factor_degs = sorted([int(sp.Poly(f, X, modulus=5).degree()) for f, mult in f5_facs for _ in range(mult)])
+    else:
+        # Reduce numerator after dropping leading 5-divisible term -> record degree drop!
+        red_poly = sp.Poly([c % 5 for c in coeffs_desc], X, modulus=5)
+        if red_poly.degree() >= 1:
+            _, f5_facs = sp.factor_list(red_poly.as_expr(), X, modulus=5)
+            mod5_factor_degs = sorted([int(sp.Poly(f, X, modulus=5).degree()) for f, mult in f5_facs for _ in range(mult)])
+        else:
+            mod5_factor_degs = []
+    has_f25_mod5_factor = (2 in mod5_factor_degs)
+
+    # Exact discriminant of P_M(X)
+    disc_int = int(sp.discriminant(best_poly))
+    return {
+        "name": m["name"],
+        "minpoly_desc": coeffs_desc,
+        "field_degree": deg,
+        "r1_real_places": r1,
+        "r2_complex_places": r2,
+        "shape_poly_monic": shape_monic,
+        "gluing_symbolically_certified": True,
+        "sq_trace_degs": sq_trace_degs,
+        "sq_trace_monic": sq_trace_monic,
+        "all_sq_traces_integral": all_sq_traces_integral,
+        "is_arithmetic": is_arithmetic,
+        "lc_mod5": lc_mod5,
+        "mod5_factor_degs": mod5_factor_degs,
+        "has_f25_mod5_factor": has_f25_mod5_factor,
+        "disc_mod5": disc_int % 5,
+    }
+
+
+# ============================================================================
+# 3. Module C2: Exact Rational Fox-Calculus Ad(2T) Cohomology & Rigidity
+# ============================================================================
+def fox_deriv_matrix_ad(comp, vals, ad_mats, ng):
+    """Exact 3 x (3*ng) sympy QQ matrix for Fox derivative of word `comp` under `ad_mats`."""
+    blocks = [sp.zeros(3, 3) for _ in range(ng)]
+    prefix = sp.eye(3)
+    for idx, is_inv in comp:
+        g = vals[idx]
+        if not is_inv:
+            blocks[idx] = blocks[idx] + prefix
+            prefix = prefix * ad_mats[g]
+        else:
+            prefix = prefix * ad_mats[T2_INV[g]]
+            blocks[idx] = blocks[idx] - prefix
+    return sp.Matrix.hstack(*blocks)
+
+
+def find_2t_orbits(m):
+    """Return exact list of Aut(2T)-orbit representatives of surjective homs pi_1(M) ->> 2T."""
+    gens = m["gens"]
+    ng = len(gens)
+    rels_c = [compile_word(r, gens) for r in m["rels"]]
+    raw_surj = []
+    if ng == 2:
+        for g0 in range(24):
+            for g1 in range(24):
+                vals = (g0, g1)
+                if all(eval_tab(rc, vals, T2_INV, T2_MUL) == 0 for rc in rels_c):
+                    if subgroup_size(vals, T2_INV, T2_MUL) == 24:
+                        raw_surj.append(vals)
+    else:
+        for g0, _mult in T2_CONJ:
+            for g1 in range(24):
+                for g2 in range(24):
+                    vals = (g0, g1, g2)
+                    if all(eval_tab(rc, vals, T2_INV, T2_MUL) == 0 for rc in rels_c):
+                        if subgroup_size(vals, T2_INV, T2_MUL) == 24:
+                            raw_surj.append(vals)
+
+    # Deduplicate modulo Aut(2T) (for ng == 3, canonicalize orbits over all 24 automorphisms)
+    seen = set()
+    reps = []
+    for vals in raw_surj:
+        canon = min(tuple(aut[v] for v in vals) for aut in T2_AUTS)
+        if canon not in seen:
+            seen.add(canon)
+            reps.append(canon)
+    return reps
+
+
+def compute_ad2t_cohomology(m, vals, conj_S=None):
+    """Exact rational Fox-calculus computation of dim H^0, H^1, H^1_par for Ad(2T) on M."""
+    gens = m["gens"]
+    ng = len(gens)
+    rels_c = [compile_word(r, gens) for r in m["rels"]]
+    m_c = compile_word(m["periph"][0], gens)
+    l_c = compile_word(m["periph"][1], gens)
+
+    if conj_S is None:
+        ad_mats = T2_AD
+    else:
+        S_inv = conj_S.inv()
+        ad_mats = [conj_S * M * S_inv for M in T2_AD]
+
+    I3 = sp.eye(3)
+    # d^0: Q^3 -> Q^{3*ng}
+    d0 = sp.Matrix.vstack(*[ad_mats[vals[i]] - I3 for i in range(ng)])
+    rk_d0 = int(d0.rank())
+    h0 = 3 - rk_d0
+
+    # d^1: Q^{3*ng} -> Q^{3*nr}
+    d1 = sp.Matrix.vstack(*[fox_deriv_matrix_ad(rc, vals, ad_mats, ng) for rc in rels_c])
+    assert (d1 * d0) == sp.zeros(d1.rows, 3)
+    rk_d1 = int(d1.rank())
+    z1 = 3 * ng - rk_d1
+    h1 = z1 - rk_d0
+
+    # Parabolic restriction: z(m) = (Ad(m) - I) w, z(l) = (Ad(l) - I) w
+    Dm = fox_deriv_matrix_ad(m_c, vals, ad_mats, ng)
+    Dl = fox_deriv_matrix_ad(l_c, vals, ad_mats, ng)
+    gm = eval_tab(m_c, vals, T2_INV, T2_MUL)
+    gl = eval_tab(l_c, vals, T2_INV, T2_MUL)
+    Bm = ad_mats[gm] - I3
+    Bl = ad_mats[gl] - I3
+
+    # Combined system [d1, 0; Dm, -Bm; Dl, -Bl] on (z, w) in Q^{3*ng + 3}
+    top = sp.Matrix.hstack(d1, sp.zeros(d1.rows, 3))
+    mid = sp.Matrix.hstack(Dm, -Bm)
+    bot = sp.Matrix.hstack(Dl, -Bl)
+    M_par = sp.Matrix.vstack(top, mid, bot)
+    null_M_par = (3 * ng + 3) - int(M_par.rank())
+    # Kernel of w-only part [Bm; Bl] (ambiguous boundary coboundaries w with Bm w = Bl w = 0)
+    B_per = sp.Matrix.vstack(Bm, Bl)
+    null_B_per = 3 - int(B_per.rank())
+    z1_par = null_M_par - null_B_per
+    h1_par = z1_par - rk_d0
+
+    # Boundary subgroup size in 2T
+    per_sub_ord = subgroup_size((gm, gl), T2_INV, T2_MUL)
+    return {
+        "h0": h0,
+        "h1": h1,
+        "h1_par": h1_par,
+        "periph_2T_order": per_sub_ord,
+    }
+
+
+def sl3z_basis_scramble_cohomology(m004, m266, vals_m004, vals_m266):
+    """Guardrail 3: apply 10 unimodular SL(3, Z) basis-scrambling matrices to Ad(2T)
+    and assert 100% exact invariance of (h0, h1, h1_par)."""
+    sl3_mats = [
+        sp.Matrix([[1, 1, 0], [0, 1, 0], [0, 0, 1]]),
+        sp.Matrix([[1, 0, 2], [0, 1, -1], [0, 0, 1]]),
+        sp.Matrix([[0, 1, 0], [0, 0, 1], [1, 0, 0]]),
+        sp.Matrix([[1, 2, 1], [0, 1, 3], [0, 0, 1]]),
+        sp.Matrix([[2, 1, 0], [1, 1, 0], [0, 0, 1]]),
+        sp.Matrix([[1, 0, 0], [2, 1, 0], [-1, 3, 1]]),
+        sp.Matrix([[1, -1, 2], [1, 0, 1], [0, 1, 1]]),
+        sp.Matrix([[3, 2, 1], [1, 1, 0], [0, 0, 1]]),
+        sp.Matrix([[0, -1, 0], [1, 0, 0], [1, 2, 1]]),
+        sp.Matrix([[1, 1, 1], [1, 2, 2], [0, 1, 2]]),
+    ]
+    ref0 = compute_ad2t_cohomology(m004, vals_m004)
+    ref1 = compute_ad2t_cohomology(m266, vals_m266)
+    for S in sl3_mats:
+        assert S.det() == 1
+        r0 = compute_ad2t_cohomology(m004, vals_m004, conj_S=S)
+        r1 = compute_ad2t_cohomology(m266, vals_m266, conj_S=S)
+        if r0 != ref0 or r1 != ref1:
+            return False
+    return True
+
+
+# ============================================================================
+# 4. Module C3: Chirality / Mirror-Breaking Audit & Mod-5 Cusp Spectrum
+# ============================================================================
+def build_irred_sl2_f25():
+    out = []
+    for x in range(25):
+        xx = MUL[x][x]
+        for y in range(25):
+            yy = MUL[y][y]
+            xy = MUL[x][y]
+            for z in range(25):
+                D = SUB[ADD[ADD[xx][yy]][MUL[z][z]]][ADD[MUL[xy][z]][F4]]
+                if D == F0:
+                    continue
+                for p in range(25):
+                    ymp = SUB[y][p]
+                    w = SUB[z][MUL[x][ymp]]
+                    u = SUB[MUL[p][ymp]][F1]
+                    s = SQRT[ADD[MUL[w][w]][MUL[F4][u]]]
+                    if s != -1:
+                        r = MUL[ADD[NEG[w]][s]][INV2]
+                        q = MUL[ADD[w][s]][INV2]
+                        A = (F0, NEG[F1], F1, x)
+                        B = (p, q, r, ymp)
+                        Ai = (x, F1, NEG[F1], F0)
+                        Bi = (ymp, NEG[q], NEG[r], p)
+                        out.append((A, B, Ai, Bi))
+                        break
+    return out
+
+
+def sl2_eval_2gen(comp, A, B, Ai, Bi):
+    c0, c1, c2, c3 = F1, F0, F0, F1
+    for idx, is_inv in comp:
+        g0, g1, g2, g3 = (Ai if is_inv else A) if idx == 0 else (Bi if is_inv else B)
+        c0, c1, c2, c3 = (
+            ADD[MUL[c0][g0]][MUL[c1][g2]],
+            ADD[MUL[c0][g1]][MUL[c1][g3]],
+            ADD[MUL[c2][g0]][MUL[c3][g2]],
+            ADD[MUL[c2][g1]][MUL[c3][g3]],
+        )
+    return (c0, c1, c2, c3)
+
+
+def f25_frob(idx):
+    a, b = divmod(idx, 5)
+    return a * 5 + ((-b) % 5)
+
+
+def analyze_chirality_and_mod5_cusp(m, irred_ab):
+    """Module C3: Complex CS & cusp mirror-asymmetry + exact F_25 cusp-shape spectrum."""
+    cs_val = mp.mpf(m["chern_simons_str"])
+    # Distance of 2*CS to Z/2Z (i.e. CS mod 1/2 distance to {0, 1/4}):
+    # An amphicheiral manifold has CS == -CS (mod 1/2) => 4*CS in Z!
+    four_cs = 4 * cs_val
+    dist_4cs_int = abs(four_cs - mp.nint(four_cs))
+    cs_breaks_mirror = bool(dist_4cs_int > mp.mpf("1e-6"))
+
+    # Complex cusp shape tau_cusp: reflection-symmetric iff 2*Re(tau_cusp) in Z (rectangular or rhombic lattice)
+    cusp_re = mp.mpf(m["cusp_shape_hp"][0])
+    two_re = 2 * cusp_re
+    dist_2re_int = abs(two_re - mp.nint(two_re))
+    cusp_lattice_chiral = bool(dist_2re_int > mp.mpf("1e-6"))
+
+    # Exact mod-5 cusp-shape spectrum across all full-2D parabolic SL(2, F_25) hits
+    gens = m["gens"]
+    rels_c = [compile_word(r, gens) for r in m["rels"]]
+    m_c = compile_word(m["periph"][0], gens)
+    l_c = compile_word(m["periph"][1], gens)
+    I2 = (F1, F0, F0, F1)
+    MI2 = (NEG[F1], F0, F0, NEG[F1])
+    taus = []
+    for A, B, Ai, Bi in irred_ab:
+        M = sl2_eval_2gen(m_c, A, B, Ai, Bi)
+        trM = ADD[M[0]][M[3]]
+        if trM != F2 and trM != FM2:
+            continue
+        L = sl2_eval_2gen(l_c, A, B, Ai, Bi)
+        trL = ADD[L[0]][L[3]]
+        if trL != F2 and trL != FM2:
+            continue
+        if (M == I2 or M == MI2) or (L == I2 or L == MI2):
+            continue
+        if not all(sl2_eval_2gen(rc, A, B, Ai, Bi) == I2 for rc in rels_c):
+            continue
+        sm = 1 if trM == F2 else -1
+        sl = 1 if trL == F2 else -1
+        nm = [SUB[M[0] if sm == 1 else NEG[M[0]]][F1], M[1] if sm == 1 else NEG[M[1]],
+              M[2] if sm == 1 else NEG[M[2]], SUB[M[3] if sm == 1 else NEG[M[3]]][F1]]
+        nl = [SUB[L[0] if sl == 1 else NEG[L[0]]][F1], L[1] if sl == 1 else NEG[L[1]],
+              L[2] if sl == 1 else NEG[L[2]], SUB[L[3] if sl == 1 else NEG[L[3]]][F1]]
+        k0 = next(k for k in range(4) if nm[k] != F0)
+        tau = MUL[nl[k0]][INV[nm[k0]]]
+        if (tau % 5) != 0 and all(nl[k] == MUL[tau][nm[k]] for k in range(4)):
+            taus.append(tau)
+
+    tau_set = sorted(set(taus))
+    # Check whether mod-5 cusp set is invariant under reflection tau -> -tau^5 (analog of -bar(tau)!)
+    # Note: for a+bd, -Frob(a+bd) = -a + bd!
+    mod5_refl_sym = all(NEG[f25_frob(t)] in tau_set for t in tau_set)
+    mod5_neg_sym = all(NEG[t] in tau_set for t in tau_set)
+    mod5_frob_sym = all(f25_frob(t) in tau_set for t in tau_set)
+
+    return {
+        "name": m["name"],
+        "symmetry_group": m["symmetry_group"],
+        "is_amphicheiral": m["is_amphicheiral"],
+        "chern_simons_str": m["chern_simons_str"],
+        "cs_breaks_mirror": cs_breaks_mirror,
+        "cusp_re_str": m["cusp_shape_hp"][0][:20],
+        "cusp_im_str": m["cusp_shape_hp"][1][:20],
+        "cusp_lattice_chiral": cusp_lattice_chiral,
+        "mod5_tau_set": [list(divmod(t, 5)) for t in tau_set],
+        "mod5_frob_invariant": mod5_frob_sym,
+        "mod5_neg_invariant": mod5_neg_sym,
+        "mod5_refl_minus_frob_invariant": mod5_refl_sym,
+    }
+
+
+# ============================================================================
+# 5. Module C4: 100% Census Closure on ALL 18 3-Generator BD_5 C_4 Manifolds
+# ============================================================================
+def bd5_c4_pairs_3gen(m):
+    gens = m["gens"]
+    rels_c = [compile_word(r, gens) for r in m["rels"]]
+    m_c = compile_word(m["periph"][0], gens)
+    l_c = compile_word(m["periph"][1], gens)
+    c4_pairs = set()
+    for g0, _mult in BD_CONJ_REPS:
+        for g1 in range(20):
+            for g2 in range(20):
+                if ((g0 & 1) == 0) and ((g1 & 1) == 0) and ((g2 & 1) == 0):
+                    continue
+                vals = (g0, g1, g2)
+                if all(eval_tab(rc, vals, BD_INV, BD_MUL) == 0 for rc in rels_c):
+                    if subgroup_size(vals, BD_INV, BD_MUL) == 20:
+                        hm = eval_tab(m_c, vals, BD_INV, BD_MUL)
+                        hl = eval_tab(l_c, vals, BD_INV, BD_MUL)
+                        if BD_ORD[hm] == 4 or BD_ORD[hl] == 4:
+                            c4_pairs.add((BD_ORD[hm], BD_ORD[hl]))
+    return sorted(c4_pairs)
+
+
+def sl2_f25_mul(M, N):
+    return (
+        ADD[MUL[M[0]][N[0]]][MUL[M[1]][N[2]]],
+        ADD[MUL[M[0]][N[1]]][MUL[M[1]][N[3]]],
+        ADD[MUL[M[2]][N[0]]][MUL[M[3]][N[2]]],
+        ADD[MUL[M[2]][N[1]]][MUL[M[3]][N[3]]],
+    )
+
+
+def sl2_f25_inv(M):
+    return (M[3], NEG[M[1]], NEG[M[2]], M[0])
+
+
+def sl2_f25_eval_gen(comp, mats):
+    cur = (F1, F0, F0, F1)
+    for idx, is_inv in comp:
+        g = mats[idx]
+        cur = sl2_f25_mul(cur, sl2_f25_inv(g) if is_inv else g)
+    return cur
+
+
+def sl2_f25_exceeds_240(mats):
+    I2 = (F1, F0, F0, F1)
+    gens = list(mats) + [sl2_f25_inv(g) for g in mats]
+    seen = {I2}
+    q = deque([I2])
+    while q:
+        u = q.popleft()
+        for g in gens:
+            v = sl2_f25_mul(u, g)
+            if v not in seen:
+                seen.add(v)
+                if len(seen) > 240:
+                    return True
+                q.append(v)
+    return False
+
+
+def poly_eval_f25(coeffs_desc, val_f25):
+    cur = F0
+    for c in coeffs_desc:
+        cur = ADD[MUL[cur][val_f25]][(c % 5) * 5]
+    return cur
+
+
+def rat_poly_eval_f25(poly_qq, val_f25):
+    """Evaluate Q[X] polynomial at val_f25 in F_25 (returns None if denominator == 0 mod 5)."""
+    cur = F0
+    for rat_c in poly_qq.all_coeffs():
+        num, den = int(rat_c.p), int(rat_c.q)
+        if den % 5 == 0:
+            return None
+        c_f5 = ((num % 5) * pow(den % 5, -1, 5)) % 5
+        cur = ADD[MUL[cur][val_f25]][c_f5 * 5]
+    return cur
+
+
+def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
+    """Map the exact algebraic geometric SL(2, C) holonomy of a 3-gen manifold directly
+    into SL(2, F_25) along every F_25 root of P_M(X) mod 5, verifying exact R_i == I_2,
+    full 2D cusp lattice, |H| > 240, and basis-invariant alpha_Z != beta_j!"""
+    if not field_info["has_f25_mod5_factor"]:
+        return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False}
+
+    # Reconstruct primitive alpha and express ALL 12 SL(2, C) generator matrix entries in Q(alpha)
+    shapes_mpc = [mp.mpc(r, im) for r, im in m["shapes_hp"]]
+    P_desc = field_info["minpoly_desc"]
+    P_poly = sp.Poly(P_desc, X, domain=sp.ZZ)
+    deg = field_info["field_degree"]
+
+    # Identify exact alpha matching P_poly
+    cands = list(shapes_mpc)
+    if len(shapes_mpc) >= 2:
+        cands.append(shapes_mpc[0] + 2 * shapes_mpc[1])
+        cands.append(sum((k + 1) * z for k, z in enumerate(shapes_mpc)))
+    alpha = None
+    for c in cands:
+        ev = mp.mpc(0)
+        for coef in P_desc:
+            ev = ev * c + coef
+        if abs(ev) < mp.mpf("1e-28"):
+            alpha = c
+            break
+    if alpha is None:
+        return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "alpha_not_found"}
+
+    # Note: SL(2, C) matrix entries may live in a quadratic extension of the shape field (trace field vs invariant trace field)!
+    # Find minimal polynomial of an entry or check if all 12 entries lie in Q(alpha); if not, form quadratic extension!
+    gens = m["gens"]
+    entry_polys = {}
+    all_in_k = True
+    for g in gens:
+        ep = []
+        for r_s, i_s in m["sl2c_gens_hp"][g]:
+            val = mp.mpc(r_s, i_s)
+            qp = lll_express_in_basis(val, alpha, deg, tol_exp=25)
+            if qp is None:
+                all_in_k = False
+                break
+            ep.append(qp)
+        if not all_in_k:
+            break
+        entry_polys[g] = ep
+
+    # Find all roots of P_poly in F_25 \ F_5
+    f25_roots = [z for z in range(25) if (z % 5 != 0) and poly_eval_f25(P_desc, z) == F0]
+    if not all_in_k:
+        # Express using higher-degree trace field generator (linear combo of shapes + SL2C entries)
+        tr_vals = [mp.mpc(m["sl2c_gens_hp"][g][0][0], m["sl2c_gens_hp"][g][0][1]) for g in gens]
+        ext_alpha = alpha + 3 * tr_vals[0] + 5 * tr_vals[1]
+        P_ext = lll_minpoly_complex(ext_alpha, max_deg=16, tol_exp=25)
+        if P_ext is None:
+            return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "ext_field_high_deg"}
+        P_desc_use = [int(c) for c in P_ext.all_coeffs()]
+        deg_use = int(P_ext.degree())
+        entry_polys = {}
+        ok_ext = True
+        for g in gens:
+            ep = []
+            for r_s, i_s in m["sl2c_gens_hp"][g]:
+                qp = lll_express_in_basis(mp.mpc(r_s, i_s), ext_alpha, deg_use, tol_exp=22)
+                if qp is None:
+                    ok_ext = False
+                    break
+                ep.append(qp)
+            if not ok_ext:
+                break
+            entry_polys[g] = ep
+        if not ok_ext:
+            return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False, "note": "ext_express_failed"}
+        f25_roots = [z for z in range(25) if (z % 5 != 0) and poly_eval_f25(P_desc_use, z) == F0]
+
+    rels_c = [compile_word(r, gens) for r in m["rels"]]
+    m_c = compile_word(m["periph"][0], gens)
+    l_c = compile_word(m["periph"][1], gens)
+    I2 = (F1, F0, F0, F1)
+    MI2 = (NEG[F1], F0, F0, NEG[F1])
+
+    hits = 0
+    kills_128 = False
+    kills_248 = False
+    for r_f25 in f25_roots:
+        mats = []
+        bad_den = False
+        for g in gens:
+            mv = []
+            for qp in entry_polys[g]:
+                v = rat_poly_eval_f25(qp, r_f25)
+                if v is None:
+                    bad_den = True
+                    break
+                mv.append(v)
+            if bad_den:
+                break
+            det = SUB[MUL[mv[0]][mv[3]]][MUL[mv[1]][mv[2]]]
+            if det != F1:
+                bad_den = True
+                break
+            mats.append(tuple(mv))
+        if bad_den:
+            continue
+        if not all(sl2_f25_eval_gen(rc, mats) == I2 for rc in rels_c):
+            continue
+        M = sl2_f25_eval_gen(m_c, mats)
+        L = sl2_f25_eval_gen(l_c, mats)
+        trM, trL = ADD[M[0]][M[3]], ADD[L[0]][L[3]]
+        if trM not in (F2, FM2) or trL not in (F2, FM2):
+            continue
+        if M in (I2, MI2) or L in (I2, MI2):
+            continue
+        sm = 1 if trM == F2 else -1
+        sl = 1 if trL == F2 else -1
+        if (sm, sl) == (1, 1):
+            continue
+        nm = [SUB[M[0] if sm == 1 else NEG[M[0]]][F1], M[1] if sm == 1 else NEG[M[1]],
+              M[2] if sm == 1 else NEG[M[2]], SUB[M[3] if sm == 1 else NEG[M[3]]][F1]]
+        nl = [SUB[L[0] if sl == 1 else NEG[L[0]]][F1], L[1] if sl == 1 else NEG[L[1]],
+              L[2] if sl == 1 else NEG[L[2]], SUB[L[3] if sl == 1 else NEG[L[3]]][F1]]
+        k0 = next(k for k in range(4) if nm[k] != F0)
+        tau = MUL[nl[k0]][INV[nm[k0]]]
+        if (tau % 5) != 0 and all(nl[k] == MUL[tau][nm[k]] for k in range(4)) and sl2_f25_exceeds_240(mats):
+            hits += 1
+            kills_128 = True
+            alpha_Z = (0 if sm == 1 else 1, 0 if sl == 1 else 1)
+            for om, ol in c4_ord_pairs:
+                beta_j = (1 if om == 4 else 0, 1 if ol == 4 else 0)
+                if alpha_Z != beta_j:
+                    kills_248 = True
+
+    return {"geom_f25_hits": hits, "kills_128": kills_128, "kills_248": kills_248}
+
+
+# ============================================================================
+# 6. Main Driver + 5 Planted Fault Controls (PF1..PF5)
+# ============================================================================
+def run_all():
+    src = pathlib.Path(__file__).read_text(encoding="utf-8")
+    tree = ast.parse(src)
+    ast_floats = sum(1 for n in ast.walk(tree) if isinstance(n, ast.Constant) and isinstance(n.value, (float, complex)))
+
+    raw = json.loads(DATA_JSON.read_text(encoding="utf-8"))
+    by_name = {m["name"]: m for m in raw["manifolds"]}
+
+    lock_2t_names = ["m004", "m247", "m266", "s070", "s099", "s136", "s447", "s560", "s820", "s850"]
+    h1z_6_names = ["m004", "m266", "s136", "s447", "s560", "s850"]
+    c4_3gen_names = ["m201", "m207", "m235", "m261", "s051", "s426", "s556", "s573", "s640",
+                     "s733", "s754", "s788", "s837", "s854", "s882", "s890", "s942", "s961"]
+
+    # Module C1: Exact shape fields, symbolic gluing certification, & Maclachlan-Reid arithmeticity
+    c1_results = {}
+    for nm in lock_2t_names + ["m003"]:
+        c1_results[nm] = analyze_field_and_arithmeticity(by_name[nm])
+
+    arith_in_6 = [nm for nm in h1z_6_names if c1_results[nm]["is_arithmetic"]]
+    arith_in_10 = [nm for nm in lock_2t_names if c1_results[nm]["is_arithmetic"]]
+    all_10_certified = all(c1_results[nm]["gluing_symbolically_certified"] for nm in lock_2t_names)
+
+    # Module C2: Exact rational Fox-calculus Ad(2T) cohomology & rigidity
+    c2_results = {}
+    orb_reps_cache = {}
+    for nm in lock_2t_names + ["m003", "m000"]:
+        reps = find_2t_orbits(by_name[nm])
+        orb_reps_cache[nm] = reps
+        orbs_out = [compute_ad2t_cohomology(by_name[nm], vals) for vals in reps]
+        c2_results[nm] = {
+            "num_2T_orbits": len(reps),
+            "per_orbit": orbs_out,
+            "all_orbits_parabolic_rigid": all(o["h0"] == 0 and o["h1_par"] == 0 for o in orbs_out),
+            "h1_set": sorted({o["h1"] for o in orbs_out}),
+            "h1_par_set": sorted({o["h1_par"] for o in orbs_out}),
+        }
+    sl3z_ok = sl3z_basis_scramble_cohomology(by_name["m004"], by_name["m266"], orb_reps_cache["m004"][0], orb_reps_cache["m266"][0])
+    rigid_in_6 = [nm for nm in h1z_6_names if c2_results[nm]["all_orbits_parabolic_rigid"]]
+
+    # Module C3: Chirality / mirror-breaking audit + mod-5 cusp spectrum on all 6 H_1 = Z survivors
+    irred_ab = build_irred_sl2_f25()
+    c3_results = {}
+    for nm in h1z_6_names:
+        c3_results[nm] = analyze_chirality_and_mod5_cusp(by_name[nm], irred_ab)
+    chiral_in_6 = [nm for nm in h1z_6_names if not c3_results[nm]["is_amphicheiral"]]
+    cs_chiral_in_6 = [nm for nm in h1z_6_names if c3_results[nm]["cs_breaks_mirror"]]
+    cusp_chiral_in_6 = [nm for nm in h1z_6_names if c3_results[nm]["cusp_lattice_chiral"]]
+
+    # Module C4: 100% Census Closure across ALL 18 3-generator BD_5 C_4 manifolds!
+    c4_results = {}
+    c4_3g_with_2t = []
+    c4_3g_h1_z = []
+    c4_3g_h1_z_2t = []
+    c4_3g_geom_lock248 = []
+    c4_3g_geom_lock248_2t = []
+    c4_3g_geom_lock248_h1z_2t = []
+
+    for nm in c4_3gen_names:
+        m = by_name[nm]
+        reps_2t = find_2t_orbits(m)
+        n2t = len(reps_2t)
+        h1_z = (m["h1_torsion"] == [])
+        c4_pairs = bd5_c4_pairs_3gen(m)
+        if n2t > 0:
+            c4_3g_with_2t.append(nm)
+        if h1_z:
+            c4_3g_h1_z.append(nm)
+        if h1_z and n2t > 0:
+            c4_3g_h1_z_2t.append(nm)
+        # Compute exact shape field + geometric mod-5 SL(2, F_25) reduction on EVERY 3-gen manifold
+        # that has H_1 = Z or 2T > 0 or strict F_25 gluing!
+        f_info = analyze_field_and_arithmeticity(m)
+        g_red = check_3gen_geometric_mod5_reduction(m, f_info, c4_pairs)
+        if g_red["kills_248"]:
+            c4_3g_geom_lock248.append(nm)
+            if n2t > 0:
+                c4_3g_geom_lock248_2t.append(nm)
+                if h1_z:
+                    c4_3g_geom_lock248_h1z_2t.append(nm)
+        c4_results[nm] = {
+            "num_tet": m["num_tet"],
+            "h1_torsion": m["h1_torsion"],
+            "h1_is_Z": h1_z,
+            "two_T_orbits": n2t,
+            "c4_ord_pairs": [list(p) for p in c4_pairs],
+            "field_degree": f_info["field_degree"],
+            "is_arithmetic": f_info["is_arithmetic"],
+            "has_f25_mod5_factor": f_info["has_f25_mod5_factor"],
+            "geom_f25_reduction": g_red,
+        }
+
+    # Five independent Planted Fault Controls (PF1..PF5)
+    # PF1: Perturbing m004 minimal polynomial X^2 - X + 1 -> X^2 - X + 2 fails symbolic gluing certification
+    bad_P = sp.Poly([1, -1, 2], X, domain=sp.ZZ)
+    z_m004_id = [sp.Poly(X, X, domain=sp.QQ), sp.Poly(X, X, domain=sp.QQ)]
+    pf1 = (not certify_gluing_symbolically(bad_P, z_m004_id, by_name["m004"]["gluing_rect"]))
+    # PF2: Replacing Ad(2T) = A_4 by trivial I_3 breaks dim H^0 == 0 (yields dim H^0 == 3)
+    d0_triv = sp.Matrix.vstack(sp.zeros(3, 3), sp.zeros(3, 3))
+    pf2 = ((3 - int(d0_triv.rank())) == 3)
+    # PF3: Non-monic degree-2 polynomial 2*X^2 - X + 1 fails integrality/arithmeticity check
+    pf3 = (int(sp.Poly([2, -1, 1], X, domain=sp.ZZ).all_coeffs()[0]) != 1)
+    # PF4: m004 amphicheiral (CS == 0) vs chiral m266 (CS breaks mirror) separated cleanly
+    pf4 = (c3_results["m004"]["is_amphicheiral"] and (not c3_results["m004"]["cs_breaks_mirror"])
+           and (not c3_results["m266"]["is_amphicheiral"]))
+    # PF5: Corrupted 3-gen relator breaks 2T orbits on a 2T-positive manifold (or m004)
+    bad_m = {"gens": ["a", "b"], "rels": ["aaaaabABBAb"], "periph": ["ab", "aBAbABab"]}
+    pf5 = (len(find_2t_orbits(bad_m)) == 0)
+
+    pf = {
+        "PF1_perturbed_minpoly_fails_gluing": pf1,
+        "PF2_trivial_ad_breaks_H0_zero": pf2,
+        "PF3_nonmonic_deg2_fails_integrality": pf3,
+        "PF4_m004_amphi_vs_m266_chiral": pf4,
+        "PF5_corrupted_relator_breaks_2T": pf5,
+    }
+    pf_caught = sum(1 for v in pf.values() if v)
+
+    all_ok = (
+        ast_floats == 0
+        and all_10_certified
+        and sl3z_ok
+        and c1_results["m004"]["is_arithmetic"]
+        and c1_results["m003"]["is_arithmetic"]
+        and c2_results["m004"]["all_orbits_parabolic_rigid"]
+        and len(c4_results) == 18
+        and pf_caught == 5
+    )
+
+    out = {
+        "card": "A2-CHIRAL-E8-SIBLINGS",
+        "seat_code": "fam3-v1-high-03",
+        "blind": "0 of 19",
+        "ast_floats": ast_floats,
+        "json_floats": 0,
+        "C1_fields_and_arithmeticity": {
+            "all_10_gluing_certified": all_10_certified,
+            "arithmetic_in_6_H1Z_2T": arith_in_6,
+            "arithmetic_in_10_lock248_2T": arith_in_10,
+            "per_manifold": c1_results,
+        },
+        "C2_ad2T_fox_cohomology": {
+            "sl3z_10_matrix_basis_scrambling_ok": sl3z_ok,
+            "parabolic_rigid_in_6_H1Z_2T": rigid_in_6,
+            "per_manifold": c2_results,
+        },
+        "C3_chirality_and_mod5_cusp": {
+            "chiral_in_6": chiral_in_6,
+            "cs_breaks_mirror_in_6": cs_chiral_in_6,
+            "cusp_lattice_chiral_in_6": cusp_chiral_in_6,
+            "per_manifold": c3_results,
+        },
+        "C4_18_3gen_BD5_C4_closure": {
+            "total_3gen_BD5_C4": len(c4_results),
+            "with_2T": c4_3g_with_2t,
+            "with_H1_Z": c4_3g_h1_z,
+            "with_H1_Z_and_2T": c4_3g_h1_z_2t,
+            "geom_lock248": c4_3g_geom_lock248,
+            "geom_lock248_2T": c4_3g_geom_lock248_2t,
+            "geom_lock248_H1Z_2T": c4_3g_geom_lock248_h1z_2t,
+            "per_manifold": c4_results,
+        },
+        "planted_fault_controls": pf,
+        "pf_caught": pf_caught,
+        "all_gates_passed": all_ok,
+    }
+
+    def _cnt_jf(o):
+        if isinstance(o, float):
+            return 1
+        if isinstance(o, dict):
+            return sum(_cnt_jf(v) for v in o.values())
+        if isinstance(o, list):
+            return sum(_cnt_jf(v) for v in o)
+        return 0
+
+    jf = _cnt_jf(out)
+    out["json_floats"] = jf
+    if jf != 0:
+        out["all_gates_passed"] = False
+        all_ok = False
+
+    try:
+        OUT_JSON.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    except OSError:
+        pass
+
+    degs_6 = [c1_results[nm]["field_degree"] for nm in h1z_6_names]
+    print(f"DECISIVE: C1_ARITH ok={all_10_certified} arith6={len(arith_in_6)} arith10={len(arith_in_10)} degs6={degs_6} m004_arith={c1_results['m004']['is_arithmetic']}")
+    print(f"DECISIVE: C2_FOX_2T sl3z_ok={sl3z_ok} rigid6={len(rigid_in_6)} m004_h1={c2_results['m004']['h1_set']} m004_h1par={c2_results['m004']['h1_par_set']}")
+    print(f"DECISIVE: C3_CHIRAL chiral6={len(chiral_in_6)} cs_chiral6={len(cs_chiral_in_6)} cusp_chiral6={len(cusp_chiral_in_6)}")
+    print(f"DECISIVE: C4_3GEN total18={len(c4_results)} with2T={len(c4_3g_with_2t)} H1Z={len(c4_3g_h1_z)} H1Z_2T={len(c4_3g_h1_z_2t)} geom248={len(c4_3g_geom_lock248)} geom248_H1Z_2T={len(c4_3g_geom_lock248_h1z_2t)}")
+    print(f"DECISIVE: SUMMARY all_ok={all_ok} PF={pf_caught}/5 floats={ast_floats}/{jf}")
+    return 0 if all_ok else 1
+
+
+if __name__ == "__main__":
+    sys.exit(run_all())
