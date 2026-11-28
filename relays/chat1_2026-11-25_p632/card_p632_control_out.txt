@@ -1,0 +1,1 @@
+control: the second eigenfunction at s = 0.5 in place of the first: positive False, strictly decreasing False; the claim's check: fails, as it must

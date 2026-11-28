@@ -1,0 +1,1 @@
+control: reading (i) with the floor made 4 F on purpose: 6000 trials, 2245 violations; the claim's verdict: fails, as it must

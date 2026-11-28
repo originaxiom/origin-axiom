@@ -1,0 +1,10 @@
+DECISIVE: K1 E_2 and E_3, Fourier against lattice: worst relative difference 2.89e-10
+DECISIVE: K2 C111 at tau = 1j: extrapolated 1.352370; E_3 + zeta(3) = 1.352314; difference 5.63e-05
+DECISIVE: K2 C111 at tau = (-0.5+0.8660254037844386j): extrapolated 1.335604; E_3 + zeta(3) = 1.335619; difference -1.48e-05
+DECISIVE: K2 C111 at tau = (0.2+1.7j): extrapolated 1.551802; E_3 + zeta(3) = 1.551741; difference 6.19e-05
+DECISIVE: K3 E_2^2 against {1, E_2, E_3, E_4, E_5} on 40 points: relative rms residual 1.278e-04
+DECISIVE: K4 beta/alpha = 0.01: stationary points at y = 102.7; |V_2/V_1| there 0.7525
+DECISIVE: K4 beta/alpha = 0.001: stationary points at y = 1030; |V_2/V_1| there 0.7553
+DECISIVE: K4 beta/alpha = 0.0001: stationary points at y = 1.02e+04; |V_2/V_1| there 0.7479
+DECISIVE: K5 stationary points with Im tau in [1.2, 20] found: 12; any with |V_2| <= |V_1|/3: False
+DECISIVE: verdict: the claim holds (K1 holds, K2 holds, K3 holds, K4 holds, K5 holds)

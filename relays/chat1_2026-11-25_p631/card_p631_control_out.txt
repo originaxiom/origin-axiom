@@ -1,0 +1,1 @@
+control: the bound made |V_2| <= |V_1| on purpose; stationary points inside it: ['y 102.7, |V_2/V_1| 0.7525']; the claim's verdict: fails, as it must

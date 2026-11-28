@@ -1,0 +1,1 @@
+control: the weight made (x + n)^(-3s) on purpose: lambda_1 - 1 on the grid -0.3431, -0.4271, -0.4964, -0.5544, -0.6036, -0.6457, -0.682, -0.7137, -0.7414; sign changes 0; M3's check: fails, as it must

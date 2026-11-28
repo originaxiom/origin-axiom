@@ -1,0 +1,15 @@
+DECISIVE: C1 m = 1: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C1 m = 2: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C1 m = 3: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C1 m = 4: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C1 m = 5: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C1 m = 6: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C1 m = 7: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C1 m = 8: preserves I True, fixes (1, 1, 1) True, y = 0, -2, 2
+DECISIVE: C2 the six-cycle keeps the eigenvalue 1: True; mu(0) = phi^6: True; mu increases on [0, 10]: True
+DECISIVE: C4 B1788's tropical m2/m3 equals its closed form in all 246 cases: True
+DECISIVE: C5 lines whose positive exponents lie in one direction's spectrum: m2/m3 5 of 41, with m1/m3 0 of 41
+DECISIVE: C6 lines whose positive exponents are odd multiples of their gcd: m2/m3 14 of 41, with m1/m3 0 of 41; all 41 lines under one unit: m2/m3 False, with m1/m3 False
+DECISIVE: part A A1: h = 0.100, target 1/10 within 0.01: holds
+DECISIVE: part A A2: h = 0.509, target 3/5 within 0.03: FAILS
+DECISIVE: verdict: the claim holds

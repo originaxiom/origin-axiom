@@ -1,0 +1,6 @@
+DECISIVE: M1 at s = 1: |lambda_1 - 1| < 1e-12: True; lambda_2 = -0.3036630028987; |lambda_2 - GKW| < 1e-10: True
+DECISIVE: M2 d log lambda_1 / ds at s = 1 = -2.37313822083125; -pi^2/(6 log 2) = -2.37313822083125; within 1e-6: True
+DECISIVE: M3 signs of lambda_1(s) - 1 on s = 0.80, 0.85, ..., 1.20: + + + + + - - - -
+DECISIVE: M3 one sign change; |s* - 1| < 1e-10: True
+DECISIVE: c* = 6 pi s* = 18.8495559215
+DECISIVE: verdict: the claim holds (M1 holds, M2 holds, M3 holds)

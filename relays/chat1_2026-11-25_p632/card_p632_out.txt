@@ -1,0 +1,15 @@
+DECISIVE: M0 |lambda_1(0) - 2| < 1e-12: True; max |h_0 - 1| < 1e-12: True; F_1(1/x) = 1/x to 1e-14: True
+DECISIVE: s = 0.00: lambda_1 2.000000, mass on [0, 0.05] 0.0500; h positive True, strictly decreasing False; next three moduli below 1: True
+DECISIVE: s = 0.10: lambda_1 1.848487, mass on [0, 0.05] 0.0546; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.20: lambda_1 1.710186, mass on [0, 0.05] 0.0601; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.30: lambda_1 1.584087, mass on [0, 0.05] 0.0667; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.40: lambda_1 1.469311, mass on [0, 0.05] 0.0749; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.50: lambda_1 1.365112, mass on [0, 0.05] 0.0855; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.60: lambda_1 1.270911, mass on [0, 0.05] 0.0998; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.70: lambda_1 1.186353, mass on [0, 0.05] 0.1204; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.80: lambda_1 1.111484, mass on [0, 0.05] 0.1539; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.90: lambda_1 1.047292, mass on [0, 0.05] 0.2215; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: s = 0.95: lambda_1 1.020343, mass on [0, 0.05] 0.2968; h positive True, strictly decreasing True; next three moduli below 1: True
+DECISIVE: M2 h_s positive and strictly decreasing for s = 0.1 .. 0.9: True; N = 128 against 256 within 1e-8: True
+DECISIVE: M3 lambda_1 strictly decreasing True, lambda_1(0.95) = 1.020343; mass strictly increasing True
+DECISIVE: verdict: the claim holds (M0 holds, M2 holds, M3 holds, M1 holds; M1's relative differences 6.99e-05, 6.28e-04)

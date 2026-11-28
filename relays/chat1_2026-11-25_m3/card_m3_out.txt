@@ -1,0 +1,5 @@
+DECISIVE: (i) H_u = conj(h).sigma, H_d = h.sigma: trials 120000, violations 0, least margin rho - F 4.247e-03
+DECISIVE: (ii) H_u = H_d = h.sigma: trials 120000, violations 58, least margin rho - F -5.207e-02
+DECISIVE: (ii) its least margin at (rho, F, t, |V33|) = (0.021562, 0.073636, 0.03122, 0.999632)
+DECISIVE: M3 holds in reading (i): True; M3 fails in reading (ii): True
+DECISIVE: verdict: the claim holds
