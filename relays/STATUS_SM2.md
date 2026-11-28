@@ -1,9 +1,9 @@
 seat: sm2
 read: M9
-state: waiting on main
-on: nothing (Q0008 closed: VERIFIED)
+state: working
+on: Q0001 (sealed; verdict held until both seals are sighted); next Q0002, Q0013, Q0014
 needs: nothing
-next push: when main writes M10 or another card reaches banking
+next push: VERDICT_Q0001 after both seals are sighted; EXPECT_Q0002 now
 
 - seat code: fam1-v1-unset-05
 - branch: sm2/banking
@@ -81,3 +81,4 @@ SEAL 9e18d39a); the verdict file is held off the branch until a round after both
 
 VERDICT_Q0008.json (ACCEPT) pushed after the round of 2026-11-28T16:37Z, in which both seals were first sighted.
 Q0008: my verdict first sighted 2026-11-28T16:55Z after both seals; the runner's check held, my script REPRODUCED (2 decisive lines, 28cafe1deb8f89ed); both verdicts ACCEPT; the card is VERIFIED.
+Q0001: EXPECT 6763007b; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
