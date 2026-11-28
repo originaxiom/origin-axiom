@@ -858,9 +858,9 @@
       "m004": {
         "chern_simons_str": "8.9991289 E-17",
         "cs_breaks_mirror": false,
-        "cusp_im_str": "3.464101615137754587",
+        "cusp_im_str": "3.4641016151377545871",
         "cusp_lattice_chiral": false,
-        "cusp_re_str": "4.271376030867115427",
+        "cusp_re_str": "4.2713760308671154279e-65",
         "is_amphicheiral": true,
         "mod5_frob_invariant": true,
         "mod5_neg_invariant": true,
@@ -881,9 +881,9 @@
       "m266": {
         "chern_simons_str": "0.18362559",
         "cs_breaks_mirror": true,
-        "cusp_im_str": "1.241807837189837522",
+        "cusp_im_str": "1.2418078371898375221",
         "cusp_lattice_chiral": true,
-        "cusp_re_str": "-0.11026112873695731",
+        "cusp_re_str": "-0.11026112873695731339",
         "is_amphicheiral": false,
         "mod5_frob_invariant": true,
         "mod5_neg_invariant": true,
@@ -912,9 +912,9 @@
       "s136": {
         "chern_simons_str": "0.13528265",
         "cs_breaks_mirror": true,
-        "cusp_im_str": "1.578923516561053209",
+        "cusp_im_str": "1.5789235165610532091",
         "cusp_lattice_chiral": true,
-        "cusp_re_str": "0.381749731268295742",
+        "cusp_re_str": "0.38174973126829574214",
         "is_amphicheiral": false,
         "mod5_frob_invariant": true,
         "mod5_neg_invariant": false,
@@ -943,9 +943,9 @@
       "s447": {
         "chern_simons_str": "0.05701703",
         "cs_breaks_mirror": true,
-        "cusp_im_str": "1.585359103713885176",
+        "cusp_im_str": "1.5853591037138851765",
         "cusp_lattice_chiral": true,
-        "cusp_re_str": "0.057939637446287695",
+        "cusp_re_str": "0.057939637446287695905",
         "is_amphicheiral": false,
         "mod5_frob_invariant": true,
         "mod5_neg_invariant": false,
@@ -966,9 +966,9 @@
       "s560": {
         "chern_simons_str": "-0.14958882",
         "cs_breaks_mirror": true,
-        "cusp_im_str": "1.365119153111425593",
+        "cusp_im_str": "1.3651191531114255935",
         "cusp_lattice_chiral": true,
-        "cusp_re_str": "0.479797183960109593",
+        "cusp_re_str": "0.4797971839601095938",
         "is_amphicheiral": false,
         "mod5_frob_invariant": true,
         "mod5_neg_invariant": false,
@@ -989,9 +989,9 @@
       "s850": {
         "chern_simons_str": "-0.04815462",
         "cs_breaks_mirror": true,
-        "cusp_im_str": "1.198533080805652650",
+        "cusp_im_str": "1.1985330808056526501",
         "cusp_lattice_chiral": true,
-        "cusp_re_str": "0.188324114289893731",
+        "cusp_re_str": "0.18832411428989373191",
         "is_amphicheiral": false,
         "mod5_frob_invariant": true,
         "mod5_neg_invariant": false,
@@ -1012,6 +1012,50 @@
     }
   },
   "C4_18_3gen_BD5_C4_closure": {
+    "exhaustive_H1Z_2T_sl2_f25": {
+      "s573": {
+        "exhaustive_sl2_f25_hits": 0,
+        "kills_128": false,
+        "kills_248": false,
+        "mod5_tau_set": [],
+        "sign_pairs": []
+      },
+      "s754": {
+        "exhaustive_sl2_f25_hits": 4,
+        "kills_128": true,
+        "kills_248": true,
+        "mod5_tau_set": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "sign_pairs": [
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      "s890": {
+        "exhaustive_sl2_f25_hits": 0,
+        "kills_128": false,
+        "kills_248": false,
+        "mod5_tau_set": [],
+        "sign_pairs": []
+      }
+    },
+    "exhaustive_lock248_H1Z_2T": [
+      "s754"
+    ],
     "geom_lock248": [
       "s882"
     ],
@@ -1475,18 +1519,18 @@
       "s890"
     ]
   },
-  "all_gates_passed": false,
+  "all_gates_passed": true,
   "ast_floats": 0,
   "blind": "0 of 19",
   "card": "A2-CHIRAL-E8-SIBLINGS",
   "json_floats": 0,
-  "pf_caught": 4,
+  "pf_caught": 5,
   "planted_fault_controls": {
     "PF1_perturbed_minpoly_fails_gluing": true,
     "PF2_trivial_ad_breaks_H0_zero": true,
     "PF3_nonmonic_deg2_fails_integrality": true,
     "PF4_m004_amphi_vs_m266_chiral": true,
-    "PF5_corrupted_relator_breaks_2T": false
+    "PF5_corrupted_relator_breaks_2T": true
   },
   "seat_code": "fam3-v1-high-03"
 }
