@@ -52,6 +52,11 @@ file itself.
 **The rounds dispatch the next** (main's M83): a round that moved a card or left one for later dispatches the next
 round itself, by a job that holds only the right to dispatch; a round with nothing to do ends the chain, and the hourly
 cron stays as the fallback.
+**[ADDED 2026-11-28 (main's M84):** a round that moved nothing and left nothing, while a card waits on a seat (OFFERED,
+for a peer's note; AT_BANKING, for the banking seats' files), says "the next round: after a wait"; the job waits 20
+minutes, then dispatches. The chain ends only when no card waits on anything a round can see. A heavy card waiting on
+the author's machine is not counted: its result lands on main by main's own push, after which main dispatches a round,
+or the hourly cron runs it.**]**
 
 ## The settings the author makes (once, in the repository's settings on GitHub)
 
