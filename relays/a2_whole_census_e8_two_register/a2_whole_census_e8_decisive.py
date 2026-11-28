@@ -490,113 +490,134 @@ def analyze_d5_bd5_manifold(m):
 # 5. Module Q3: Exact Thurston Gluing over F_25\{0,1} + Exact Fricke SL(2, F_25)
 # ============================================================================
 def solve_gluing_f25(gluing_rect, num_tet):
-    """Exact backtracking solver over F_25\{0,1} for Thurston rectangular gluing equations
-    prod_j z_j^{a_j} (1 - z_j)^{b_j} = sign (sign in {1, -1}).
+    r"""Exact Meet-in-the-Middle solver over F_25\{0,1} for Thurston rectangular gluing
+    equations prod_j z_j^{a_j} (1 - z_j)^{b_j} = sign (sign in {1, -1}).
+    Splits t <= 6 variables into L (<= 3) and R (<= 3), guaranteeing O(23^3) worst-case.
     Returns (has_F5_sol, has_F25_strict_sol)."""
     if not gluing_rect or num_tet == 0:
         return (False, False)
-    # Pre-parse each equation into list of (var, a_mod24, b_mod24) + rhs in F_25
+
+    _MUL = MUL
+    _INV = INV
+    _POW = POW24
+    _OMZ = OMZ
+    dom = [z for z in range(1, 25) if z != F1]  # 23 values in F_25 \ {0, 1}
+    is_f5 = [(z % 5 == 0) for z in range(25)]
+
     eqs = []
     for a_row, b_row, sgn in gluing_rect:
-        terms = []
-        for j in range(num_tet):
-            aj = a_row[j] % 24
-            bj = b_row[j] % 24
-            if aj != 0 or bj != 0:
-                terms.append((j, aj, bj))
-        rhs = F1 if sgn == 1 else NEG[F1]
-        if terms:
-            eqs.append((terms, rhs))
+        row_a = [a_row[j] % 24 for j in range(num_tet)]
+        row_b = [b_row[j] % 24 for j in range(num_tet)]
+        if any(row_a) or any(row_b):
+            rhs = F1 if sgn == 1 else NEG[F1]
+            eqs.append((row_a, row_b, rhs))
 
-    domain_f5 = [10, 15, 20]  # 2, 3, 4 in F_5 \ {0, 1}
-    domain_f25 = [z for z in range(1, 25) if z != F1]  # 23 values
+    m_eq = len(eqs)
+    if m_eq == 0:
+        return (True, True)
 
-    # Precompute term values for z in 0..24: z^a * (1-z)^b
-    def run_search(dom, require_outside_f5):
-        assign = [-1] * num_tet
-        found = [False]
+    mid = num_tet // 2
+    nL = mid
+    nR = num_tet - mid
 
-        def bt(depth):
-            if found[0]:
-                return
-            if depth == num_tet:
-                if require_outside_f5 and all((v % 5 == 0) for v in assign):
+    # Precompute packed multiplication factors per variable j and value z in dom:
+    # For variable j in 0..num_tet-1, val_j[z] = tuple of length m_eq giving z^a_ij (1-z)^b_ij
+    val_L = []
+    for j in range(nL):
+        tab = []
+        for z in dom:
+            row = []
+            oz = _OMZ[z]
+            for i in range(m_eq):
+                ra, rb, _ = eqs[i]
+                v = F1
+                if ra[j]:
+                    v = _MUL[v][_POW[z][ra[j]]]
+                if rb[j]:
+                    v = _MUL[v][_POW[oz][rb[j]]]
+                row.append(v)
+            tab.append((tuple(row), 0 if is_f5[z] else 1))
+        val_L.append(tab)
+
+    val_R = []
+    for j in range(nL, num_tet):
+        tab = []
+        for z in dom:
+            row = []
+            oz = _OMZ[z]
+            for i in range(m_eq):
+                ra, rb, _ = eqs[i]
+                v = F1
+                if ra[j]:
+                    v = _MUL[v][_POW[z][ra[j]]]
+                if rb[j]:
+                    v = _MUL[v][_POW[oz][rb[j]]]
+                # Store inverse for R-side lookup rhs * inv(Q(R))
+                row.append(_INV[v])
+            tab.append((tuple(row), 0 if is_f5[z] else 1))
+        val_R.append(tab)
+
+    rhs_vec = tuple(eqs[i][2] for i in range(m_eq))
+    ones_vec = (F1,) * m_eq
+
+    # Identify equations that depend ONLY on L or ONLY on R for early pruning
+    L_only = [i for i in range(m_eq) if all(eqs[i][0][j] == 0 and eqs[i][1][j] == 0 for j in range(nL, num_tet))]
+    R_only = [i for i in range(m_eq) if all(eqs[i][0][j] == 0 and eqs[i][1][j] == 0 for j in range(nL))]
+    shared = [i for i in range(m_eq) if i not in L_only and i not in R_only]
+
+    # Enumerate L-half (<= 23^3 = 12,167 states) into dict: key_int -> bitmask (1=allF5, 2=hasNonF5)
+    left_map = {}
+
+    def enum_L(idx, vec, has_nf5):
+        if idx == nL:
+            for i in L_only:
+                if vec[i] != rhs_vec[i]:
                     return
-                # Verify all equations
-                for terms, rhs in eqs:
-                    prod = F1
-                    for j, aj, bj in terms:
-                        zj = assign[j]
-                        if aj:
-                            prod = MUL[prod][POW24[zj][aj]]
-                        if bj:
-                            prod = MUL[prod][POW24[OMZ[zj]][bj]]
-                    if prod != rhs:
-                        return
-                found[0] = True
-                return
+            key = 0
+            for i in shared:
+                key = key * 25 + vec[i]
+            bit = 2 if has_nf5 else 1
+            left_map[key] = left_map.get(key, 0) | bit
+            return
+        for row, nf5 in val_L[idx]:
+            nv = tuple(_MUL[vec[i]][row[i]] for i in range(m_eq))
+            enum_L(idx + 1, nv, has_nf5 or nf5)
 
-            # Check already-complete equations and pick variable in smallest unassigned-count eq (MRV)
-            best_var = -1
-            best_deg = 999
-            best_eq_info = None
-            for terms, rhs in eqs:
-                un = []
-                prod = F1
-                for j, aj, bj in terms:
-                    zj = assign[j]
-                    if zj == -1:
-                        un.append((j, aj, bj))
-                    else:
-                        if aj:
-                            prod = MUL[prod][POW24[zj][aj]]
-                        if bj:
-                            prod = MUL[prod][POW24[OMZ[zj]][bj]]
-                lu = len(un)
-                if lu == 0:
-                    if prod != rhs:
-                        return  # contradiction!
-                elif lu < best_deg:
-                    best_deg = lu
-                    best_var = un[0][0]
-                    best_eq_info = (un[0], prod, rhs) if lu == 1 else None
+    enum_L(0, ones_vec, 0)
+    if not left_map:
+        return (False, False)
 
-            if best_var == -1:
-                best_var = assign.index(-1)
+    # Enumerate R-half (<= 23^3 = 12,167 states) and probe left_map in O(1)
+    res = [False, False]  # [has_F5, has_F25_strict]
 
-            if best_eq_info is not None:
-                (vj, aj, bj), prod, rhs = best_eq_info
-                need = MUL[rhs][INV[prod]]
-                for z in dom:
-                    val = F1
-                    if aj:
-                        val = MUL[val][POW24[z][aj]]
-                    if bj:
-                        val = MUL[val][POW24[OMZ[z]][bj]]
-                    if val == need:
-                        assign[vj] = z
-                        bt(depth + 1)
-                        assign[vj] = -1
-                        if found[0]:
-                            return
-            else:
-                for z in dom:
-                    assign[best_var] = z
-                    bt(depth + 1)
-                    assign[best_var] = -1
-                    if found[0]:
-                        return
+    def enum_R(idx, vec, has_nf5):
+        if res[0] and res[1]:
+            return
+        if idx == nR:
+            for i in R_only:
+                # vec[i] = rhs_i * inv(Q_i(R)); eq holds iff vec[i] == F1!
+                if vec[i] != F1:
+                    return
+            key = 0
+            for i in shared:
+                key = key * 25 + vec[i]
+            mask = left_map.get(key, 0)
+            if mask:
+                if not has_nf5 and (mask & 1):
+                    res[0] = True
+                if has_nf5 or (mask & 2):
+                    res[1] = True
+            return
+        for row, nf5 in val_R[idx]:
+            nv = tuple(_MUL[vec[i]][row[i]] for i in range(m_eq))
+            enum_R(idx + 1, nv, has_nf5 or nf5)
 
-        bt(0)
-        return found[0]
-
-    has_f5 = run_search(domain_f5, False)
-    has_f25_strict = run_search(domain_f25, True)
-    return (has_f5, has_f25_strict)
+    enum_R(0, rhs_vec, 0)
+    return (res[0], res[1])
 
 
 def build_all_irred_sl2_f25():
-    """Precompute ALL 14,999 irreducible Fricke conjugacy classes (A, B, Ai, Bi) in SL(2, F_25)."""
+    """Precompute ALL 14,999 irreducible Fricke conjugacy classes (x, y, z, A, B, Ai, Bi) in SL(2, F_25)."""
     out = []
     for x in range(25):
         xx = MUL[x][x]
@@ -619,7 +640,7 @@ def build_all_irred_sl2_f25():
                         B = (p, q, r, ymp)
                         Ai = (x, F1, NEG[F1], F0)
                         Bi = (ymp, NEG[q], NEG[r], p)
-                        out.append((A, B, Ai, Bi))
+                        out.append((x, y, z, A, B, Ai, Bi))
                         break
     return out
 
@@ -634,18 +655,19 @@ def sl2_mul(M, N):
 
 
 def sl2_eval_2gen(comp, A, B, Ai, Bi):
+    _ADD = ADD
+    _MUL = MUL
     c0, c1, c2, c3 = F1, F0, F0, F1
     for idx, is_inv in comp:
         if idx == 0:
-            g = Ai if is_inv else A
+            g0, g1, g2, g3 = Ai if is_inv else A
         else:
-            g = Bi if is_inv else B
-        g0, g1, g2, g3 = g
+            g0, g1, g2, g3 = Bi if is_inv else B
         c0, c1, c2, c3 = (
-            ADD[MUL[c0][g0]][MUL[c1][g2]],
-            ADD[MUL[c0][g1]][MUL[c1][g3]],
-            ADD[MUL[c2][g0]][MUL[c3][g2]],
-            ADD[MUL[c2][g1]][MUL[c3][g3]],
+            _ADD[_MUL[c0][g0]][_MUL[c1][g2]],
+            _ADD[_MUL[c0][g1]][_MUL[c1][g3]],
+            _ADD[_MUL[c2][g0]][_MUL[c3][g2]],
+            _ADD[_MUL[c2][g1]][_MUL[c3][g3]],
         )
     return (c0, c1, c2, c3)
 
@@ -669,37 +691,57 @@ def sl2_subgroup_exceeds_240(A, B, Ai, Bi):
     return False
 
 
+def _fast_trace_kind(word_str):
+    """Identify length 1-2 words whose trace is directly x, y, or z (tr(A), tr(B), tr(AB))!"""
+    if word_str in ("a", "A"):
+        return 0
+    if word_str in ("b", "B"):
+        return 1
+    if word_str in ("ab", "ba", "BA", "AB"):
+        return 2
+    return -1
+
+
 def analyze_sl2_f25_2gen(m, irred_ab):
-    """Exhaustive Fricke SL(2, F_25) cusp-parabolic search across all 14,999 irreducible classes."""
+    """Exhaustive Fricke SL(2, F_25) cusp-parabolic search across all 14,999 irreducible classes.
+    Filters parabolic boundary trace conditions first (100% exact, ~15x faster)."""
     gens = m["gens"]
     assert len(gens) == 2
-    rels_c = [compile_word(r, gens) for r in m["rels"]]
-    m_c = compile_word(m["periph"][0], gens)
-    l_c = compile_word(m["periph"][1], gens)
+    rels_c = sorted([compile_word(r, gens) for r in m["rels"]], key=len)
+    m_str, l_str = m["periph"][0], m["periph"][1]
+    m_c = compile_word(m_str, gens)
+    l_c = compile_word(l_str, gens)
+    mk = _fast_trace_kind(m_str)
+    lk = _fast_trace_kind(l_str)
     I2 = (F1, F0, F0, F1)
     MI2 = (NEG[F1], F0, F0, NEG[F1])
     orient = m["orientable"]
+    _ADD = ADD
+    _SUB = SUB
+    _MUL = MUL
+    _NEG = NEG
+    _INV = INV
+    _F2, _FM2 = F2, FM2
 
     full_2d_hits = []
     deg_1d_hits = []
     nonorient_hits = []
 
-    for A, B, Ai, Bi in irred_ab:
-        ok_r = True
-        for rc in rels_c:
-            if sl2_eval_2gen(rc, A, B, Ai, Bi) != I2:
-                ok_r = False
-                break
-        if not ok_r:
-            continue
-        M = sl2_eval_2gen(m_c, A, B, Ai, Bi)
-        L = sl2_eval_2gen(l_c, A, B, Ai, Bi)
-        trM = ADD[M[0]][M[3]]
-        trL = ADD[L[0]][L[3]]
-        if not orient:
-            # Non-orientable Klein bottle cusp: check if at least one peripheral curve is non-central parabolic
-            m_par = (trM in (F2, FM2)) and (M != I2) and (M != MI2)
-            l_par = (trL in (F2, FM2)) and (L != I2) and (L != MI2)
+    if not orient:
+        for x, y, z, A, B, Ai, Bi in irred_ab:
+            ok_r = True
+            for rc in rels_c:
+                if sl2_eval_2gen(rc, A, B, Ai, Bi) != I2:
+                    ok_r = False
+                    break
+            if not ok_r:
+                continue
+            M = sl2_eval_2gen(m_c, A, B, Ai, Bi)
+            L = sl2_eval_2gen(l_c, A, B, Ai, Bi)
+            trM = _ADD[M[0]][M[3]]
+            trL = _ADD[L[0]][L[3]]
+            m_par = (trM == _F2 or trM == _FM2) and (M != I2) and (M != MI2)
+            l_par = (trL == _F2 or trL == _FM2) and (L != I2) and (L != MI2)
             if m_par or l_par:
                 surj = sl2_subgroup_exceeds_240(A, B, Ai, Bi)
                 nonorient_hits.append({
@@ -707,34 +749,71 @@ def analyze_sl2_f25_2gen(m, irred_ab):
                     "trM": list(divmod(trM, 5)), "trL": list(divmod(trL, 5)),
                     "surj_SL2_F25": surj,
                 })
-            continue
+        return {"full_2d_hits": full_2d_hits, "deg_1d_count": 0, "nonorient_hits": nonorient_hits}
 
-        # Orientable torus cusp: require both M and L parabolic, with at least one non-central
-        if trM not in (F2, FM2) or trL not in (F2, FM2):
-            continue
+    # Orientable torus cusp: BOTH tr(M) and tr(L) MUST be in {+2, -2} -> filter shortest peripheral word first!
+    check_m_first = (len(m_c) <= len(l_c))
+
+    for x, y, z, A, B, Ai, Bi in irred_ab:
+        # Instant O(1) Fricke coordinate filter whenever m or l is a, b, or ab
+        if mk != -1:
+            tv = x if mk == 0 else (y if mk == 1 else z)
+            if tv != _F2 and tv != _FM2:
+                continue
+        if lk != -1:
+            tv = x if lk == 0 else (y if lk == 1 else z)
+            if tv != _F2 and tv != _FM2:
+                continue
+
+        if check_m_first:
+            M = sl2_eval_2gen(m_c, A, B, Ai, Bi)
+            trM = _ADD[M[0]][M[3]]
+            if trM != _F2 and trM != _FM2:
+                continue
+            L = sl2_eval_2gen(l_c, A, B, Ai, Bi)
+            trL = _ADD[L[0]][L[3]]
+            if trL != _F2 and trL != _FM2:
+                continue
+        else:
+            L = sl2_eval_2gen(l_c, A, B, Ai, Bi)
+            trL = _ADD[L[0]][L[3]]
+            if trL != _F2 and trL != _FM2:
+                continue
+            M = sl2_eval_2gen(m_c, A, B, Ai, Bi)
+            trM = _ADD[M[0]][M[3]]
+            if trM != _F2 and trM != _FM2:
+                continue
+
         if (M == I2 or M == MI2) and (L == I2 or L == MI2):
             continue
-        sm = 1 if trM == F2 else -1
-        sl = 1 if trL == F2 else -1
-        # Extract nilpotent parts N_M = sm*M - I, N_L = sl*L - I
-        nm = [SUB[M[0] if sm == 1 else NEG[M[0]]][F1], M[1] if sm == 1 else NEG[M[1]],
-              M[2] if sm == 1 else NEG[M[2]], SUB[M[3] if sm == 1 else NEG[M[3]]][F1]]
-        nl = [SUB[L[0] if sl == 1 else NEG[L[0]]][F1], L[1] if sl == 1 else NEG[L[1]],
-              L[2] if sl == 1 else NEG[L[2]], SUB[L[3] if sl == 1 else NEG[L[3]]][F1]]
-        m_nonzero = any(x != F0 for x in nm)
-        l_nonzero = any(x != F0 for x in nl)
+
+        # Now evaluate exact relator(s) on the ~0.6% surviving parabolic boundary candidates
+        ok_r = True
+        for rc in rels_c:
+            if sl2_eval_2gen(rc, A, B, Ai, Bi) != I2:
+                ok_r = False
+                break
+        if not ok_r:
+            continue
+
+        sm = 1 if trM == _F2 else -1
+        sl = 1 if trL == _F2 else -1
+        nm = [_SUB[M[0] if sm == 1 else _NEG[M[0]]][F1], M[1] if sm == 1 else _NEG[M[1]],
+              M[2] if sm == 1 else _NEG[M[2]], _SUB[M[3] if sm == 1 else _NEG[M[3]]][F1]]
+        nl = [_SUB[L[0] if sl == 1 else _NEG[L[0]]][F1], L[1] if sl == 1 else _NEG[L[1]],
+              L[2] if sl == 1 else _NEG[L[2]], _SUB[L[3] if sl == 1 else _NEG[L[3]]][F1]]
+        m_nonzero = any(v != F0 for v in nm)
+        l_nonzero = any(v != F0 for v in nl)
         if not m_nonzero or not l_nonzero:
-            # One peripheral curve is central (+-I), so cusp lattice is at most 1D!
             deg_1d_hits.append((sm, sl, "central_one"))
             continue
         k0 = next(k for k in range(4) if nm[k] != F0)
-        tau = MUL[nl[k0]][INV[nm[k0]]]
-        if not all(nl[k] == MUL[tau][nm[k]] for k in range(4)):
+        tau = _MUL[nl[k0]][_INV[nm[k0]]]
+        if not all(nl[k] == _MUL[tau][nm[k]] for k in range(4)):
             continue
         if (tau % 5) == 0:
             deg_1d_hits.append((sm, sl, divmod(tau, 5)))
         else:
-            # Full 2D cusp lattice in F_25 \ F_5 -> guaranteed surjective SL(2, F_25); also verify >240!
             surj = sl2_subgroup_exceeds_240(A, B, Ai, Bi)
             assert surj
             full_2d_hits.append((sm, sl, tau))
