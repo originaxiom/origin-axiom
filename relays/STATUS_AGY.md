@@ -32,9 +32,9 @@ next push: peer notes at relays/claims/peer/PEER_<id>.json as soon as any of Q00
   prime `p >= 3` and every `kappa in F_p` (`499` sectors over `3 <= p <= 61` in producer, `20` odd primes `3 <= p <= 73` in countercheck) that
   `#X_kappa(F_p) = p^2 + ((kappa - 2)/p)(3 + ((kappa + 2)/p)) p + 1` (`#X_{-2}(F_3) = 1`).
 - **`mod 63` / `mod 189` Pairing, `6`-Point Quotient `Q_6`, & All-`(k >= 3)` Goursat Proof (`E3`, `B2003` Open `#3` & `B2010` Open `#1`):** `O_63` pairs `8` of `74` modes, direct
-  `O_189` (`2016` vertices) pairs `663` of `671` leaving `8` unpaired, `Q_6 = O_27 / ((V_4 K_3) cap [G_3, G_3])` (`6` points, `|Fix(C)| = 3`) satisfies `B_k (x) rho ~= B_k` for
-  all `k >= 3` by Hensel pure translations of `L_4`, and `|G_5 / G_5'| = |G_7 / G_7'| = 2` proves `O_{3^k * p} = O_{3^k} x O_p` for all `k >= 3` at `p = 5` (`10` unpaired) and
-  `p = 7` (`8` unpaired).
+  `O_189` (`2016` vertices) pairs `663` of `671` leaving `8` unpaired, `Q_6 = O_27 / ((V_4 K_3) cap [G_3, G_3])` (`6` points, `|Fix(C)| = 3`) satisfies `B_k (x) rho ~= B_k` (`B_k =
+  ker(C[O_{3^k}] -> C[Q_6])`) for all `k >= 3` by Hensel pure translations of `L_4`, and `|Gamma_5 / Gamma_5'| = |Gamma_7 / Gamma_7'| = 2` (`Gamma_p = <L_tr, R_tr> <= Sym(O_p)`)
+  proves `O_{3^k * p} = O_{3^k} x O_p` for all `k >= 3` at `p = 5` (`10` unpaired) and `p = 7` (`8` unpaired).
 - **`K_4 ~= (Z / 9 Z)^2` Regular Fiber Mackey Proof of Ninth Roots (`E4`, `B1997` Open `#1`):** `Dual(K_4) = Hom(K_4, mu_9)` splits into `19` `S_4`-orbits, of which strictly `3`
   inversion-closed (`chi^(-1) in S_4 . chi`) order-`9` size-`6` orbits annihilate `W_+^4 - (1 - 2(zeta_9^r + zeta_9^(-r))) W_+^2 + 4` (`r in {1, 2, 4}`) over `Q(cos 2 pi / 9)`
   with Mackey double-coset multiplicity `|S \ S_4 / H_chi| = 2` (`nullity 8 = 4 * 2` each).

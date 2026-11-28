@@ -17,11 +17,11 @@
   (x^2 - 1)^2(x^2 - 2x - 1)(x^2 + 2x - 1) and direct mod 189 (2016 vertices) pairs 663 of 671 modes leaving 8 unpaired, constructs the
   6-point quotient Q_6 = O_27 / N_3 (N_3 = (V_4 K_3) cap [G_3, G_3]), proves via Hensel pure translations of L_4 = L_3^3 that B_k (x) rho
   ~= B_k for all k >= 3 so the unpaired modes of Cartesian O_{3^k} x O_p equal those of Q_6 x O_p for every k >= 3 and every (L, R, C)-set
-  O_p, and proves via Goursat's lemma (|G_5 / G_5'| = |G_7 / G_7'| = 2 and |O_{9p}| = 8|O_p|) that O_{3^k * p} = O_{3^k} x O_p holds for
-  all k >= 3 whenever |O_{9p}| = 8|O_p| and 3 does not divide |G_p / G_p'|, locking 10 unpaired modes at p = 5 and 8 unpaired modes at p =
-  7 for all k >= 3; and proves for B1997 Open #1 that K_4 ~= (Z / 9 Z)^2 acts regularly on the 8 fibers of O_81 -> O_9, splitting
-  Dual(K_4) = Hom(K_4, mu_9) into 19 S_4-orbits of which strictly 3 inversion-closed (chi^(-1) in S_4 . chi) order-9 size-6 orbits
-  annihilate W_+^4 - (1 - 2(zeta_9^r + zeta_9^(-r))) W_+^2 + 4 over Q(cos 2 pi / 9) with Mackey double-coset multiplicity 2 each)
+  O_p, and proves via Goursat's lemma (|Gamma_5 / Gamma_5'| = |Gamma_7 / Gamma_7'| = 2 and |O_{9p}| = 8|O_p|) that O_{3^k * p} = O_{3^k} x
+  O_p holds for all k >= 3 whenever |O_{9p}| = 8|O_p| and 3 does not divide |Gamma_p / Gamma_p'|, locking 10 unpaired modes at p = 5 and 8
+  unpaired modes at p = 7 for all k >= 3; and proves for B1997 Open #1 that K_4 ~= (Z / 9 Z)^2 acts regularly on the 8 fibers of O_81 ->
+  O_9, splitting Dual(K_4) = Hom(K_4, mu_9) into 19 S_4-orbits of which strictly 3 inversion-closed (chi^(-1) in S_4 . chi) order-9 size-6
+  orbits annihilate W_+^4 - (1 - 2(zeta_9^r + zeta_9^(-r))) W_+^2 + 4 over Q(cos 2 pi / 9) with Mackey double-coset multiplicity 2 each)
 - scope: frame: no frame (3-adic Markoff congruence tower G_k through mod 177147 = 3^11, frustration leaf family X_kappa over F_p,
   Cartesian and composite CRT graphs O_{3^k} x O_p and O_{3^k * p}, and regular abelian fiber extension G_4 = K_4 . S_4 on O_81); object:
   Hall-sifted polycyclic F_3-layers L_3 to L_11, affine conic bundles on X_kappa, symmetric 6-move walk spectra on O_63, O_189, and Q_6 x
@@ -47,14 +47,17 @@
   z, x z - y) and R_tr(x, y, z) = (z, y, y z - x)), C(x, y, z) = (y, z, x), sigma(x, y, z) = (y, x, x y - z), tau(x, y, z) = (y, x, z),
   W = sum_{j=0}^2 (C^j L_tr C^(-j) + C^j L_tr^(-1) C^(-j)), p_0 (resp. p_1) is the monic characteristic polynomial of W on ker(C - I)
   (resp. ker(C - omega I), omega = exp(2 pi i / 3), equivalently ker(I + C + C^2) cap ker(tau - I)), paired_deg is deg gcd(p_0(2 x),
-  p_1(x)), and unpaired_deg = deg p_1 - paired_deg. On O_27 (72 points, G_3 of order 216), N_3 = (V_4 K_3) cap [G_3, G_3] (order N3 = 12)
-  yields Q_6 = O_27 / N_3 (size Q6 = 6, |Fix(C)| = fixC_Q6 = 3); mod63_paired and mod189_paired record paired_deg on O_63 and O_189;
-  unp_p5 and unp_p7 record unpaired_deg on Q_6 x O_5 and Q_6 x O_7; and all_k_goursat asserts |O_15| = |O_5|, |O_45| = 8|O_5|, |O_63| =
-  8|O_7|, |O_189| = 72|O_7|, |G_5 / G_5'| = |G_7 / G_7'| = 2, pure-translation 2-jet mod 9 of L_4 on S_4, |Fix_{O_{3^k}}(g)| =
-  |Fix_{Q_6}(g)| across all 204 elements of G_3 \ N_3 (with the 48 fix-3 elements equal to the G_3-conjugacy class of {C, C^(-1)}) and
-  all 1836 elements of G_4 \ pi_4^(-1)(N_3), and equality of unpaired factors between direct O_189 and Q_6 x O_7. On O_81 (648 points,
-  G_4 of order 1944), K_4 = ker(G_4 -> G_2) ~= (Z / 9 Z)^2 (order 81) acts regularly on the 8 fibers of O_81 -> O_9; dual_orbs counts
-  S_4-orbits on Dual(K_4) = Hom(K_4, mu_9) under (g . chi)(k) = chi(g^(-1) k g); p12_prod asserts prod_{r in {1, 2, 4}} (x^4 - (1 -
+  p_1(x)), and unpaired_deg = deg p_1 - paired_deg. With pi_k : G_k -> G_3 (k >= 3) the canonical mod-27 reduction homomorphism, rho : G_k
+  -> mu_6 (B2009, mu_6 = <-omega>) the order-6 character with rho(sigma) = -1 and rho(C) = omega, Gamma_p = <L_tr, R_tr> <= Sym(O_p) with
+  commutator subgroup Gamma_p' = [Gamma_p, Gamma_p] for prime p >= 5, and B_k = ker(C[O_{3^k}] -> C[Q_6]) where N_3 = (V_4 K_3) cap [G_3,
+  G_3] (order N3 = 12) on O_27 (72 points, G_3 of order 216) yields Q_6 = O_27 / N_3 (size Q6 = 6, |Fix(C)| = fixC_Q6 = 3): mod63_paired
+  and mod189_paired record paired_deg on O_63 and O_189; unp_p5 and unp_p7 record unpaired_deg on Q_6 x O_5 and Q_6 x O_7; and
+  all_k_goursat asserts |O_15| = |O_5|, |O_45| = 8|O_5|, |O_63| = 8|O_7|, |O_189| = 72|O_7|, |Gamma_5 / Gamma_5'| = |Gamma_7 / Gamma_7'| =
+  2, pure-translation 2-jet mod 9 of L_4 on S_4, |Fix_{O_{3^k}}(g)| = |Fix_{Q_6}(g)| across all 204 elements of G_3 \ N_3 (with the 48
+  fix-3 elements equal to the G_3-conjugacy class of {C, C^(-1)}) and all 1836 elements of G_4 \ pi_4^(-1)(N_3), and equality of unpaired
+  factors between direct O_189 and Q_6 x O_7. On O_81 (648 points, G_4 of order 1944), with zeta_9 = exp(2 pi i / 9) and mu_9 = <zeta_9>,
+  K_4 = ker(G_4 -> G_2) ~= (Z / 9 Z)^2 (order 81) acts regularly on the 8 fibers of O_81 -> O_9; dual_orbs counts S_4-orbits on Dual(K_4)
+  = Hom(K_4, mu_9) under (g . chi)(k) = chi(g^(-1) k g); p12_prod asserts prod_{r in {1, 2, 4}} (x^4 - (1 -
   2(zeta_9^r + zeta_9^(-r))) x^2 + 4) = x^12 - 3 x^10 + 3 x^8 - 21 x^6 + 12 x^4 - 48 x^2 + 64 over Q(zeta_9); inv_ord9 counts size-6
   order-9 S_4-orbits in Dual(K_4) closed under chi -> chi^(-1); q_hits lists [r, dim ker Q_r(W_+)] across those inv_ord9 orbits on their
   48-dimensional fiber blocks where W_+ = L_tr + R_tr and Q_r(W_+) = W_+^4 - (1 - 2(zeta_9^r + zeta_9^(-r))) W_+^2 + 4; mackey_dc = |S \

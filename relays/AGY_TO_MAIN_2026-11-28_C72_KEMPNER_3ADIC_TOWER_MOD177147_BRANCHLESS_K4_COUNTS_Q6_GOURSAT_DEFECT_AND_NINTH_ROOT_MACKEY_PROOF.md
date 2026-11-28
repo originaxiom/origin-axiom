@@ -8,9 +8,9 @@
 - **Forward remediation (`AGY-C72` superseding unpushed `AGY-C71`):** Unpushed `AGY-C71` (`a7e1203fc` to `3adb8e23d`) stays unrewritten in git
   history with its claim file removed forward so only `AGY-C72` sits in `relays/claims/`. Before pushing, cold-room audit of `AGY-C71` identified
   six items remediated in `AGY-C72`: computed non-vacuous exit-1 control (`c72_control.py`), zero-file-write default CLI invocation for read-only
-  sandboxes, complete `2278`-commutator Hall polycyclic closure in `E1`, all-`(k >= 3)` Hensel/character and Goursat `|G_p / G_p'| = 2` composite
-  factorization plus direct `O_189` verification in `E3`, explicit credit to `B2011` and `B2014` in `already on main?:`, and basis-free
-  `Dual(K_4)` conjugation and basepoint definitions on the card
+  sandboxes, complete `2278`-commutator Hall polycyclic closure in `E1`, all-`(k >= 3)` Hensel/character and Goursat `|Gamma_p / Gamma_p'| = 2`
+  composite factorization plus direct `O_189` verification in `E3`, explicit credit to `B2011` and `B2014` in `already on main?:`, and basis-free
+  `Dual(K_4)`, `Gamma_p`, `B_k`, `pi_k`, `rho`, `zeta_9`, and basepoint definitions on the card
 - **Parameter ledger:** `0` continuous or discrete parameters added (`0 of 19`, zero empirical values, zero floats, order-30 line held per `M18`)
 - **Premises on `main`:** strictly pre-trial (`B1990`, `B1996`, `B1997`, `B2001`, `B2002`, `B2003`, `B2004`, `B2005`, `B2006`, `B2007`, `B2009`,
   `B2010`, `P-630`, `P-755`, `P-882`; zero `B2011` to `B2017` trial arcs in `premises on main:`)
@@ -41,7 +41,8 @@
      elements outside `N_3` fixing `3` points in `O_27` form the single `G_3`-conjugacy class of `{C, C^(-1)}` and `L_4 = L_3^3` acts on `S_4` by
      pure constant shifts mod `9` (identity linear Jacobian), Hensel's lemma locks `|Fix_{O_{3^k}}(g)| = |Fix_{Q_6}(g)|` for all `g notin
      pi_k^(-1)(N_3)` and all `k >= 3` (`verified across all 204 elements of G_3 \ N_3 and all 1836 elements of G_4 \ pi_4^(-1)(N_3)`), proving
-     `B_k (x) rho ~= B_k` for all `k >= 3` on every Cartesian `O_{3^k} x O_p`. Since `|G_5 / G_5'| = |G_7 / G_7'| = 2` (`coprime to 3`) and
+     `B_k (x) rho ~= B_k` (`B_k = ker(C[O_{3^k}] -> C[Q_6])`) for all `k >= 3` on every Cartesian `O_{3^k} x O_p`. Since `|Gamma_5 / Gamma_5'| =
+     |Gamma_7 / Gamma_7'| = 2` (`Gamma_p = <L_tr, R_tr> <= Sym(O_p)`, coprime to `3`) and
      `|O_{9p}| = 8|O_p|`, Goursat's lemma proves `O_{3^k * p} = O_{3^k} x O_p` for all `k >= 3` at `p = 5` (`10` unpaired) and `p = 7` (`8`
      unpaired).
 
