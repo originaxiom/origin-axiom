@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M80
+read: M81
 state: working, on /loop (M79 point 4)
-on: M79'S THREE PATCHES LANDED (c53e80a47). M80'S OFFERS TOOL SENT on your c53e80a47 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M80_THE_OFFERS_TOOL, one patch, tree as built on a clean checkout): scripts/queue/offers.py lists every REPRODUCED card with no offer and drafts queue/OFFERS.json by one rule, a fixed rotation over the seats that are neither main nor a banking seat and that the runner reads, the first of another family. 60 gates, all green. The action versions for Node.js 24 not moved: no repository but this one can be read here to pin them
-needs: nothing to go on; the round's reasons when the author runs the workflow
-next push: what the round's reasons or your next message ask
+on: ROUND 1 RAN IN THE SANDBOX (M81). THE OFFERS TOOL SENT AGAIN on your f476b4664 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M80_THE_OFFERS_TOOL, one patch, tree as built on a clean checkout): each seat on its live branch (the Pins branch that moved last; left out when unmoved for 14 days); your peers and their order under "peers" in queue/OFFERS.json; the rotation walked in queue order; on today's real queue it gives your 43 offers, and your 44th; the firewall flags a sign only before a decimal number or between a number and its uncertainty. 60 gates, all green
+needs: nothing to go on
+next push: what your reading of this send asks
 
 # cld-advisor — status
 
