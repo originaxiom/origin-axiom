@@ -1,17 +1,20 @@
 # CLAIM CARD — f(d) = 2 on FR-FIB's 8 sampled lines: on all 3 328 rows sampled (8 lines, 2 values of τ, 208 rows each) two gradients in τ of the ten outputs are not parallel, so the ten obey 8 relations per branch (P-596, P-568's first half; the seat's card of 2026-11-25 in the queue's form)
 
-- card id: new
+- card id: refiles Q0011
 - seat code: fam1-v1-unset-03
 - seat, branch, commit: fam1-v1-unset-03, chat1/web-seat, 301e7641eb4083fbda975d33944414f0ac2472b7
 - kind: computation
-- touches: P-596, P-568
+- touches: P-596, P-568; the 19, through the values they would be read from: the frame's mass ratios (its six
+  within-sector ratios) and mixings (its three CKM moduli and J), whose number of independent functions of τ this
+  card counts on its sampled rows
 - effect: adds — P-596 (f(d) = 2 on FR-FIB's sampled rows, by a sealed script) and P-568's first half (the relation
   count, 8 per branch)
 - scope: frame: FR-FIB as B1825 types its branches, with main's frame code as fd_rank.py copies it verbatim from
   88a1e9474; object: the ten outputs of one branch as functions of τ; reach: class; hypotheses: c by hand and H = I;
   the 8 lines (1/7, 2/7), (3/8, 3/8), (4/9, 1/3), (2/5, 1/10), (3/11, 5/11), (1/12, 0), (5/12, 1/4), (1/4, 1/8) at
   τ = 0.13 + 2.2i and 0.31 + 3.1i; gradients by central differences at step 1e-5; the log of a ratio or modulus below
-  1e-6 dropped from its row's gradients (J is always kept), and a gradient below 1e-8 dropped
+  1e-6 dropped from its row's gradients (J is always kept), and a gradient below 1e-8 dropped. Nothing is compared
+  with data: no output's value is read against a measured value, only the rank of the outputs' gradients
 - identifications: none
 - definitions: a branch is FR-FIB's (line, direction, radius rule, reading) with c by hand and H = I; a row is one
   branch at one value of τ with the outputs' matrix of mixings defined and every ratio and modulus above 1e-300 (the
