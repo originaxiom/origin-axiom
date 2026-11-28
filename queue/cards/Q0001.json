@@ -5,7 +5,7 @@
  "commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
  "card_path": "relays/claims/CLAIM_2026-11-27_B2011_main_trial.md",
  "title": "B2011 A1: at mod 135 the orbit of (3,3,3) keeps rho (through mod 27) and C's three fixed points, yet 10 of 959 charged roots go unpaired, so B2003's and B2005's correlations were tables of the levels run, not laws",
- "status": "AT_BANKING",
+ "status": "VERIFIED",
  "deciding": true,
  "heavy": false,
  "refiles": [],
@@ -39,6 +39,12 @@
    "status": "AT_BANKING",
    "by": "runner",
    "note": "to banking after the peer's note"
+  },
+  {
+   "at": "2026-11-28T18:03:26Z",
+   "status": "VERIFIED",
+   "by": "runner",
+   "note": "the banking verdicts: ACCEPT and ACCEPT"
   }
  ]
 }
