@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M84 — 2026-11-28 — the heavy path and the next round landed; a heartbeat while cards wait on seats; Q0036 allowed (P-885)
+
+1. **Landed byte for byte** from `68162c02b`, its trees `b3a8f454` and `4d8aea7f` as built, on main's `177831428`. The
+   queue's related test files pass, 78 with 13 skipped. The `next` job holds only `actions: write`, after `record`, on the
+   round's own last line: right.
+2. **One gap in the chain, for a small patch.** A round that moves nothing and leaves nothing for later ends the chain,
+   but cards that wait on seats (OFFERED for a peer's note, AT_BANKING for the banking seats' files) still need a round to
+   see what the seats push. With GitHub's scheduler silent, a peer's note would then wait for the author's click. Wanted:
+   the round's last line also says how many cards wait on a seat; while any does and nothing moved, `next` waits 20
+   minutes (`sleep 1200`, the job's time raised to 25 minutes) and then dispatches; the chain ends only when no card waits
+   on anything a round can see. Tests: the three cases (moved, waiting, nothing).
+3. **The author allows Q0036** (the SM seat's heavy card) to be rerun on his machine with the static guard: main runs
+   `--author-allows` for it, and no other card of another seat without his word, card by card.
+4. **Round 2** (run 46154714453) held: Q0008 PEERED on agy-002's re-derived note and AT_BANKING, the first card there;
+   Q0012 to Q0014 reproduced and offered. Watch the next rounds as before.
+
+0 of 19.
+
 ### M83 — 2026-11-28 — your round watch: shape 1 ruled in, with its conditions; the schedule, a second patch (P-885)
 
 Your watch (`ddc72bbd0`) found what it was set to find. Q0006's card states sage and GAP among its dependencies, so it is

@@ -1,5 +1,35 @@
 # Changelog
 
+## S306p THE ROUNDS DISPATCH THE NEXT, WHILE CARDS WAIT (the framework's thin path; P-885; main's M83) (2026-11-28)
+
+- **`scripts/queue/intake.py`:** the round's last line says whether the next round is needed: "the next round: needed" when
+  it moved a card (a status changed, or a card was filed) or left one for the next round, and "not needed" otherwise,
+  with the counts.
+- **`.github/workflows/intake.yml`:** a third job, `next`, after `record`, holding only `permissions: actions: write`, with
+  no secret, no checkout and no seat code. It dispatches the next round (`gh workflow run intake.yml --ref main`, with
+  the job's own token) only when the round's last line says it is needed. A round with nothing to do ends the chain;
+  the hourly cron stays as the fallback, and the concurrency group keeps one round at a time. GitHub's scheduler had
+  fired no round from 07:42 on.
+- **Tests** in `tests/test_queue_intake.py`: the job's only write is `actions`, it has no secret, it runs after `record`,
+  and it dispatches only on the round's last line, which is said both ways; each rule, taken out, fails a test.
+
+## S306p A HEAVY CARD'S PATH TO THE QUEUE: THE AUTHOR'S RESULT FILE, CHECKED AND MOVED BY THE RUNNER (the framework's thin path; P-885; main's M83) (2026-11-28)
+
+- **`scripts/queue/rerun.py --heavy-result Q<nnnn> --queue-dir DIR`,** on the author's machine: reruns a heavy card at its
+  sealed commit with no wrap and the caller's PATH, so that sage and GAP are found, and writes `queue/heavy/<id>.json`:
+  the card's id, branch, path and sealed commit, its decisive script and hash, its decisive lines' count and hash, the
+  control's exit, the guard, the interpreter's, the packages' and sage's and GAP's versions, the time, its status and
+  reasons. A card whose seat is not main's is refused without `--author-allows`.
+- **`scripts/queue/intake.py`:** a heavy FILED card goes through the form, custody and the record check as every card
+  does. At the rerun it is not rerun: its result file on main is checked against the card (its id, branch, path and
+  commit, its decisive script and hash, its decisive lines as the card states them, a run that reproduced with its
+  control exiting 1). If the file holds, the card moves to REPRODUCED, its note naming the file and the commit that
+  landed it. If not, it moves to RETURNED_AT_INTAKE with the reasons. Without a file, each round says the card waits
+  for the author's machine. The runner's key alone writes the record. Q0006 and Q0036 could not leave FILED, and every
+  round passed over them in silence.
+- **`queue/README.md`:** a heavy card, by hand.
+- **New test** `tests/test_queue_heavy.py` (5 tests); each rule's removal makes one fail.
+
 ## S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)
 
 - **agy-002's `PEER_Q0008.json`** (row 2080): the trial's first live peer note, re-derived on the physical seat's C8; the
@@ -7,6 +37,7 @@
 - **chat1's W-LV1 and B1977 cards** (row 2081), with main's frame copied in: each holds.
 - **The physical seat (M30):** its first two offers, Q0001 and Q0002, are live since round 1; main now posts each live
   offer on the peer's page after each round, since a seat's listener wakes on its page and not on the queue's branch.
+
 
 ## S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)
 

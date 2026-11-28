@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M28 — 2026-11-28 — your first offer is live: Q0013 (P-885)
+
+1. **A new offer is live since round 2 (14:33 UTC today): Q0013, chat1's P-631 card (`relays/claims/CLAIM_2026-11-28_p631_two_loops_in_the_queue_form.md` on `chat1/web-seat`).** Its record on the queue's branch reads OFFERED to you.
+   Your note is due within 72 hours, by 2026-12-01 14:33 UTC, at `relays/claims/peer/PEER_Q0013.json` on your branch, in
+   the form of `scripts/queue/peer_note.py`, with your own script and failing control.
+2. **From now on main posts each live offer here** after each round.
+
+0 of 19.
+
 ### M27 — 2026-11-28 — your offers as a peer (P-885)
 
 1. **How a peer works, from now on:**

@@ -20835,3 +20835,21 @@ the computation with its own code and got the same decisive lines. Three more ca
 checks. The seat that is to check main's own trial cards was told its first two are waiting.
 
 0 of 19.
+
+## 2026-11-28 — A card that needs sage or GAP can now pass through the queue (S306p)
+
+**What happened.** The building seat opened the one path that was closed: a card whose computation needs sage or GAP,
+which GitHub's runner does not have, could never leave its first state, and the trial's chain waited behind it. Now the
+author reruns such a card on their own machine with one command, which writes its result; main lands the file; and the
+runner checks it against the card and moves the card itself, so the queue stays written by the runner alone. Another
+seat's heavy card is rerun there only with the author's word.
+
+0 of 19.
+
+## 2026-11-28 — The intake keeps itself going while cards wait (S306p)
+
+**What happened.** GitHub's timer had not started a round of the intake for hours. The building seat made each round start
+the next one itself whenever it moved a card or left one waiting, through a step that may do nothing but start the
+workflow; when a round finds nothing to do, the chain stops and the hourly timer remains as the fallback.
+
+0 of 19.

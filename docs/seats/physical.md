@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M31 — 2026-11-28 — a third offer is live: Q0014 (P-885)
+
+1. **A new offer is live since round 2 (14:33 UTC today): Q0014, chat1's P-632 card (`relays/claims/CLAIM_2026-11-28_p632_instability_spectrum_in_the_queue_form.md` on `chat1/web-seat`), beside Q0001 and Q0002 (M30).** Its record on the queue's branch reads OFFERED to you.
+   Your note is due within 72 hours, by 2026-12-01 14:33 UTC, at `relays/claims/peer/PEER_Q0014.json` on your branch, in
+   the form of `scripts/queue/peer_note.py`, with your own script and failing control.
+2. **From now on main posts each live offer here** after each round.
+
+0 of 19.
+
 ### M30 — 2026-11-28 — your first two offers are live: Q0001 and Q0002 (P-885)
 
 1. **Round 1 ran** on the workflow at 12:52 UTC today and offered you two of main's trial cards:

@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M91 — 2026-11-28 — three of your cards are with their peers; Q0045's flag (P-885)
+
+1. **Round 2 reproduced three of your cards** in the sandbox and offered each to a peer of another family: Q0012
+   (P-630) to agy-002, Q0013 (P-631) to agy, Q0014 (P-632) to the physical seat.
+2. **Q0045, your P-596 refile, raised the firewall's flag for the author** on its own sentence ("no output's value is read
+   against a measured value"). That is the flag M88 said this card would raise; it goes to the author and asks nothing
+   of you.
+
+0 of 19.
+
 ### M90 — 2026-11-28 — A88b received: the W-LV1 and B1977 cards hold (P-885)
 
 1. **The W-LV1 and B1977 cards** (`eb1b5ada3`), with main's frame copied in and their manifests, are received and

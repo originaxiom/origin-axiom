@@ -18,6 +18,20 @@ A card's history is append-only. A returned card is refiled as a new card that n
   The job that runs seat code reads only and holds no secret; a second job checks the round's queue and pushes it to the
   queue's branch, `queue`.
 
+## A heavy card (main's M83)
+
+A card that needs sage or GAP, or declares itself heavy, is not rerun on the workflow: each round says it waits for the
+author's machine. There, main runs, from main's checkout with the queue's folder at hand:
+
+    python3 scripts/queue/rerun.py --heavy-result Q0006 --queue-dir <the queue/ folder of the queue's branch>
+
+It reruns the card at its sealed commit with no wrap, by the author's choice, with the caller's PATH (set it so that
+`sage`, `gap` and a `python3` with python-flint are found), and writes `queue/heavy/Q0006.json`. Main commits that file
+on main. The next round checks it against the card (its id, branch, path and sealed commit, the decisive script and its
+hash, the decisive lines as the card states them, a control that exited 1) and moves the card to REPRODUCED, or to
+RETURNED_AT_INTAKE with the reasons. A card of another seat is rerun there only with `--author-allows`, the author's word
+for that card.
+
 ## The offers to peers (main's M79)
 
 The queue's branch is the runner's alone, so main offers a card to a peer in its own file on main, `queue/OFFERS.json`:
@@ -34,6 +48,10 @@ the Pins table's branches for its code, the one that moved last; a seat whose li
 left out, and said. Each card takes the next peer of another family in a rotation carried from card to card in queue
 order, a card offered already moving it where it stands; main's own cards go to the first peer of another family. Main reads the draft and commits the
 file itself.
+
+**The rounds dispatch the next** (main's M83): a round that moved a card or left one for later dispatches the next
+round itself, by a job that holds only the right to dispatch; a round with nothing to do ends the chain, and the hourly
+cron stays as the fallback.
 
 ## The settings the author makes (once, in the repository's settings on GitHub)
 
