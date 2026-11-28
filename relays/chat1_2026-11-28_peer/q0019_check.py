@@ -18,7 +18,7 @@ lift"); this script finds it its own way: half-weights h with 2h = 4w mod 20 cho
 summed over the six planes with all signs, and each element's lift negated (its weights + 10) if 5 s = 0 mod 20 fails.
 A count is the number of states of the 248 with (m, l) phases (0, 10) (periodic) or (10, 10) (antiperiodic) mod 20.
 The figure-eight group as a 2-bridge knot group b(5, 3): <a, b | a w = w b>, w = b a^-1 b^-1 a; its longitude
-lambda = w* w (w* = w read backwards; the exponent sum of w is 0). BD_5 = {j^e r^k}, r^5 = 1, j^4 = 1,
+lambda = w w* (w* = w read backwards; the exponent sum of w is 0). (The first run had w* w here; see below.) BD_5 = {j^e r^k}, r^5 = 1, j^4 = 1,
 r^k j = j r^-k.
 
 THE CONDITION, written before any of this was run. The card holds where this seat checks it if and only if all of:
@@ -35,6 +35,12 @@ THE CONDITION, written before any of this was run. The card holds where this sea
       class of j number 20, and with a, b both in the class of j or both in that of j^-1 they number 40; every one of
       them sends lambda to 1 and a^2 to -1.
   Any one failing is a fault in the card as this seat reads it, or in this seat's reading; the note says which.
+
+THE FIRST RUN, AND WHAT CHANGED AFTER IT (post hoc; the condition is unchanged). The first run, at commit bae6344b2
+(output q0019_out_run1.txt), took the longitude as w* w, a fault of this script's: w* w does not commute with a, so E2
+failed (it printed c = None) and E6 tested the wrong word. The longitude is w w*: reversing the relation a w = w b
+gives w* a = b w*, so a (w w*) = w b w* = (w w*) a in the group, and w w* has exponent sum 0 in a. Only that word
+changed.
 
 NOT CHECKED HERE: the SnapPy presentation as such (E6 counts the same homomorphisms in the 2-bridge presentation, with
 the meridian condition the card states), the card's planted controls and float-literal count, and whether the C8 card
@@ -113,7 +119,7 @@ def word(w, gens):
 # the figure-eight group as b(5, 3): letters a, A = a^-1, b, B = b^-1
 W = "bABa"
 WSTAR = W[::-1]
-LONG = WSTAR + W
+LONG = W + WSTAR
 
 
 def relator_holds(gens):
