@@ -1,0 +1,17 @@
+{
+ "card": "Q0029",
+ "card_commit": "8675b26a0608001a342ed077582b47b6d47a45cb",
+ "peer_code": "fam1-v1-unset-03",
+ "finding": "extended",
+ "script": {
+  "path": "relays/chat1_2026-11-28_peer/q0029_check.py",
+  "sha256": "21e8a5fcf7e36416",
+  "run_as": "python3 relays/chat1_2026-11-28_peer/q0029_check.py",
+  "control": "python3 relays/chat1_2026-11-28_peer/q0029_check.py --control"
+ },
+ "decisive": {
+  "lines": 14,
+  "sha256": "6ddcb048e428e589"
+ },
+ "note": "Recomputed in other code by other means: 50- and 80-digit floating point and computer algebra, no exact cyclotomic field, no Groebner basis. Every item checked holds. C1: the Weil relations and commutators at 11 odd N from 3 to 27, residuals below 1e-30. C2: sectors q = 1, 2 pair (within 1e-30) at exactly p = 5, 13, 17 and split at 3, 7, 11, 19, 23. C3: tr C3 = +i sqrt 3 and dims (3^(k-1), 3^(k-1)+1, 3^(k-1)-1), k = 1..5. C4: all 18 closed-form sector polynomials. C5: the Jacobian cubic, the three-square form and the critical value, symbolically. C6: 65 tree triples to depth 7, only (3,3,3) degenerate. C7: LLRR's geometric shapes are (1+i, (1+i)/2, i, (1+i)/2), V = 4 Catalan. C8: the quartic is irreducible with one root in (54, 55); each of fac_8's 8 roots is the z of a fixed point, their traces give the quartic's 4 roots, and the geometric trace is u_max. C9: all five step ratios within 1e-7 of lambda_+, largest gap 5.6e-8 (LLLRRRRLLLR), on the fully positive orbit. Not checked: the all-N, all-3^k and whole-tree statements beyond N = 27, k = 5, depth 7 (C3^3 = I is checked to N = 27 only); the card's orbit selection rule (neck positivity, its two inequalities, printed only) and b_0; blowup_ok (the amphichirality and the exact conjugacy); Omega; the ray limit; cp_336, cp_3615; exactness; the card's controls and float counts. Disclosed: runs 1 and 2 failed on this script's faults (no geometric LLLRRR orbit found; one LLRR sequence counted twice), the condition unchanged; then geometric orbits were seeded from SnapPy's shapes and kept only when this script's own Newton and positivity hold, C8's fixed points were found in trace coordinates with z held at each root, and C9 was solved directly at k = K-2..K; SnapPy's volumes agree to 20 digits. Masked items read as L's exponent inv2 j^2, S's prefactor 1/G and sums j = 0..2; C1, C3 and C4 pin those readings down."
+}
