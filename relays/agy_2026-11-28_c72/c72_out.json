@@ -1,0 +1,190 @@
+{
+  "E1_kempner_3adic_tower": {
+    "G11_order_str": "6675081346648644270174858629562264",
+    "basis_commutators_sifted": 2278,
+    "cubing_ranks_k3_k10": [
+      2,
+      2,
+      3,
+      7,
+      7,
+      7,
+      12,
+      14
+    ],
+    "dims_k3_k11": [
+      2,
+      2,
+      3,
+      7,
+      7,
+      7,
+      12,
+      14,
+      14
+    ],
+    "hensel_and_inverses_exact": true,
+    "l4_pure_translations_mod9": true,
+    "log3_K_k3_k11": [
+      2,
+      4,
+      7,
+      14,
+      21,
+      28,
+      40,
+      54,
+      68
+    ],
+    "pf1_k8_plateau_refutes_naive": true,
+    "pf2_unbounded_rank_growth": true,
+    "schreier_words_scanned": 96,
+    "valuation_bound_terms_checked": 96
+  },
+  "E2_b1990_branchless_counts": {
+    "branchless_law_all_exact": true,
+    "conic_fibration_identity_exact": true,
+    "odd_primes_checked": 17,
+    "p3_cusp_count": 1,
+    "pf3_flipped_sign_fails_all_p_ge_5": true,
+    "sectors_checked": 499
+  },
+  "E3_b2003_q6_goursat_defect": {
+    "N3_order": 12,
+    "Q6_fix_C": 3,
+    "Q6_size": 6,
+    "all_k_bk_character_verified": true,
+    "all_k_ge3_unpaired_deg_p5": 10,
+    "all_k_ge3_unpaired_deg_p7": 8,
+    "all_k_ge3_unpaired_factors_p5": [
+      [
+        "x**2 + 2*x - 2",
+        1,
+        2
+      ],
+      [
+        "x**2 - 2*x - 2",
+        1,
+        2
+      ],
+      [
+        "x**3 - 3*x + 1",
+        1,
+        3
+      ],
+      [
+        "x**3 - 3*x - 1",
+        1,
+        3
+      ]
+    ],
+    "all_k_ge3_unpaired_factors_p7": [
+      [
+        "x**2 + x - 1",
+        1,
+        2
+      ],
+      [
+        "x**2 + x - 4",
+        1,
+        2
+      ],
+      [
+        "x**2 - x - 1",
+        1,
+        2
+      ],
+      [
+        "x**2 - x - 4",
+        1,
+        2
+      ]
+    ],
+    "bare_s3_wrong_unpaired_deg_p5": 52,
+    "crt_goursat_p5_p7_proved": true,
+    "goursat_ab_orders_p5_p7": [
+      2,
+      2
+    ],
+    "mod189_matches_q6_x_o7": true,
+    "mod189_paired_deg": 663,
+    "mod189_unpaired_deg": 8,
+    "mod45_paired_deg": 4,
+    "mod45_paired_factors": [
+      [
+        "x",
+        2,
+        1
+      ],
+      [
+        "x + 2",
+        1,
+        1
+      ],
+      [
+        "x - 2",
+        1,
+        1
+      ]
+    ],
+    "mod63_paired_deg": 8,
+    "mod63_paired_factors": [
+      [
+        "x + 1",
+        2,
+        1
+      ],
+      [
+        "x - 1",
+        2,
+        1
+      ],
+      [
+        "x**2 + 2*x - 1",
+        1,
+        2
+      ],
+      [
+        "x**2 - 2*x - 1",
+        1,
+        2
+      ]
+    ],
+    "pf4_bare_s3_counterfactual_caught": true
+  },
+  "E4_b1997_k4_mackey_ninth_roots": {
+    "H_chi_order": 4,
+    "S_order": 3,
+    "dual_K4_orbit_count": 19,
+    "dual_K4_orbit_size_hist": {
+      "1": 3,
+      "3": 6,
+      "6": 10
+    },
+    "inv_closed_ord9_orbit_count": 3,
+    "mackey_double_cosets": 2,
+    "p12_galois_product_exact": true,
+    "pf5_non_inv_closed_zero_nullity": true,
+    "quartic_r_and_nullity_pairs": [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "regular_K4_fiber_action": true
+  },
+  "card": "AGY-C72",
+  "parameter_count": "0 of 19",
+  "planted_faults_caught": 5,
+  "planted_faults_total": 5,
+  "seat_code": "fam3-v1-high-01",
+  "supersedes_unpushed": "AGY-C71"
+}
