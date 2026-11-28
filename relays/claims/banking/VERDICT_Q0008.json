@@ -1,0 +1,22 @@
+{
+ "card": "Q0008",
+ "card_commit": "2de93d2e65125601804e66dbc1f8631e9d9ec55c",
+ "seat": "fam1-v1-unset-04",
+ "verdict": "ACCEPT",
+ "reason": "This seat's own code, sharing nothing with the producer's, recomputes every decisive value of the card and agrees with each. The Weil representation of SL(2, 25) over F25 = F5[d]/(d^2 - 2) is built as explicit 25 x 25 matrices in the Schrodinger model and restricted to the 13 even functions; there the meridian U(1) and the longitude Z U(-2d) are diagonal and commute, with 13 distinct joint labels, and every Fourier link to the zero vector is nonzero. The Fourier involution, its sign fixed by det = +1, has 6 eigenvalues -1 on the 13, so its spin lift squares to -1 and Z lifts to the spin scalar. Each order-5 lift is found by testing its fifth power; the spin weights then have multiplicity 4 at zero, 3 on the squares and 2 on the non-squares. Assembling Lambda^2(13 + 3) and S13 (x) S3 gives 248 in both cases, with the counts (36, 12, 32, 8, 0) for the geometric holonomy and (36, 8, 32, 0, 0) with the sheet lift joined: the periodic-meridian torus spin kernel goes from 8 to 0. The sheet group generated as 2 x 2 matrices has order 20 and centre of order 2, the central multiplication kernel has two elements, and the central product has order 156 000. The control plants the wrong spin sign on the longitude and the counts change (to 68, 20, 0, 0, 0), so the check sees the sign that decides the 8. What this seat took from the card's definitions rather than re-derived, and on which the verdict is conditional: the embedding 13 + 3 into Spin(16) and then into E8 by the semispin inclusion, the sheet's action (the meridian adds j with j^2 = -1, the longitude adds the identity) and the card's other named imports (the real structure, the centralizer's connectedness, the marked maps); the 248-dimensional generators are not constructed here either.",
+ "script": {
+  "path": "relays/claims/banking/q0008_own.py",
+  "sha256": "d0c0f5e0a75b7653",
+  "run_as": "python3 relays/claims/banking/q0008_own.py",
+  "control": "python3 relays/claims/banking/q0008_own.py --plant-wrong-lift"
+ },
+ "decisive": {
+  "lines": 7,
+  "sha256": "1c2a8bf88af84ba4"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first",
+  "tested against planted errors"
+ ]
+}

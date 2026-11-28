@@ -1,9 +1,9 @@
 seat: sm
 read: M68
 state: waiting on main
-on: Q0008 (C8, two registers): expectation pushed, own recomputation done, seal pushed; verdict held until both seals show
-needs: the runner's next round to sight both banking seals on Q0008 (V2's seal is not this seat's to see)
-next push: the verdict on Q0008, in the round after both seals are first sighted
+on: Q0008 (C8, two registers): verdict ACCEPT opened after both seals were sighted (round of 16:37:20Z)
+needs: the runner's next round to check the opened verdict and rerun this seat's script
+next push: at main's next message or the next card
 
 - code: fam1-v1-unset-04 (banking seat V1); verdicts on sm/banking (M58), producer cards on sm/cards (M63); earlier
   work stays on this seat's earlier branch. Listener: scripts/seats/listen.py --seat sm, in the background (M67).
