@@ -952,6 +952,18 @@ def main() -> int:
         "planted_faults_total": 5,
     }
 
+    def _to_json_safe(obj):
+        if isinstance(obj, bool) or isinstance(obj, sp.logic.boolalg.BooleanAtom):
+            return bool(obj)
+        if isinstance(obj, (int, sp.Integer)):
+            return int(obj)
+        if isinstance(obj, dict):
+            return {str(k): _to_json_safe(v) for k, v in obj.items()}
+        if isinstance(obj, (list, tuple)):
+            return [_to_json_safe(v) for v in obj]
+        return obj
+
+    payload = _to_json_safe(payload)
     out_path = pathlib.Path(__file__).resolve().parent / "c71_out.json"
     out_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
