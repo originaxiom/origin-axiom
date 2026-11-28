@@ -1,0 +1,12 @@
+(not decisive) p644_rival's capture equals its sealed output byte for byte: True
+(not decisive) p644_rival_posthoc's capture equals its sealed output byte for byte: True
+DECISIVE: X1 the single eigenline mod 5 of LR and of -LR is (1, 2): True
+DECISIVE: X1 m003 against m004: compared 48, dropped 0, differing 0.000; exactly equal: True
+DECISIVE: X2 m004, second seed against the first: compared 48, dropped 0, differing 0.000
+DECISIVE: X3 +-LLLR at p = 3 against m004: compared 36, dropped 12, differing 0.556
+DECISIVE: X3 +-LLLR at p = 7 against m004: compared 43, dropped 5, differing 0.186
+DECISIVE: the sealed run's cells: X1 holds, X2 holds, X3 FAILS
+DECISIVE: F (post hoc) +-LLLR at p = 7 against m004, 120 words: compared 35, dropped 13, differing 0.257
+DECISIVE: F (post hoc) m004, a second 120 words against the first: compared 31, dropped 17, differing 0.000
+DECISIVE: F (post hoc) reading: the p = 7 difference is real
+DECISIVE: verdict: the claim holds

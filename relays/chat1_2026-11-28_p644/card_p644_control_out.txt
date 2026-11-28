@@ -1,0 +1,1 @@
+control: m004 against its own read-out with a second seed, on purpose: compared 48, dropped 0, differing 0.000; exactly equal: False; X1's check: fails, as it must
