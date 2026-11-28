@@ -1,5 +1,23 @@
 # Changelog
 
+## S306p T11 LANDED: THE LANDING TOOL, THE SINGLE WRITER OF A BANKED CARD'S ARC (P-885; M72) (2026-11-28)
+
+- **The builder's patch 0004, sent again at `33041d6ee`, byte for byte.** Its tree as built is `54114b90`.
+- **`scripts/queue/land.py`:**
+  - one landing at a time under a lock, on a fresh clone of main;
+  - the card's VERIFIED derived again there from both banking seats' sealed verdicts, by T9's checks (M72): a VERIFIED
+    written by hand, or two verdicts giving SPLIT, is refused;
+  - the arc's number and the harvest row's taken at landing, and only the named writes made;
+  - the harvest row in the ledger's eight cells;
+  - every gate, and the whole suite with `-rfE`, read against `queue/KNOWN_FAILURES.json`;
+  - it never pushes.
+- **The README.** The queue's README gains its landing section, placed after main's setting 8 (the only difference from the
+  builder's tree).
+- **Its tests pass here.**
+
+The thin path's T1 to T11 are on main. The runner is held until the author's settings are made, and T12, the plant
+ledger's format, comes next.
+
 ## S306p THE TWO BANKING SEATS NAMED; THE SM SEAT'S TWO TIER-1 CARDS RECEIVED; THE BUILDER'S RESEND REGISTERED (P-885; HARVEST ROWS 2060, 2061; M75, M66, M7) (2026-11-28)
 
 - **`queue/BANKING_SEATS.json`** names V1 (`fam1-v1-unset-04`, on `sm/banking`) and V2 (`fam1-v1-unset-05`, on

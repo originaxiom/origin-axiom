@@ -53,3 +53,16 @@ A card's history is append-only. A returned card is refiled as a new card that n
 8. **Switching the runner on** (ADDED 2026-11-27 by main, at landing): the workflow's `round` job runs only when the
    repository variable `INTAKE_ENABLED` is `true` (Settings, Secrets and variables, Actions, Variables). Set it once
    settings 1 to 4 are made; until then a scheduled run skips both jobs and costs nothing.
+
+## The landing (the thin path's patch T11)
+
+A card the queue holds VERIFIED is landed on main by `scripts/queue/land.py` alone, the single writer of its arc, its lock,
+its harvest row and the log pair. It holds a lock, so that one landing runs at a time, and makes a fresh clone of main. It
+takes the arc's number and the harvest row's at landing, writes them, commits, regenerates the views, and runs every gate
+and the full suite with `-rfE` against `queue/KNOWN_FAILURES.json`. It never pushes: a landing that holds ends with the
+command that pushes it.
+
+    python3 scripts/queue/land.py --landing DIR        # DIR: LANDING.json, arc/, lock.py, changelog.md, progress.md
+
+docs/CAMPAIGN_STATUS.md's LATEST line and the surfaces a reader forms a picture from (BANKING_PROTOCOL Part I C) stay
+main's.

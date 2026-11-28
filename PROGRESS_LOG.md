@@ -20684,3 +20684,11 @@ banking stage knows whose sealed verdicts to read. One seat filed two more of it
 every check made before running anything.
 
 0 of 19.
+
+## 2026-11-28 — the landing tool landed (S306p)
+
+**What happened.** The last piece of the framework's path landed: the tool that writes a verified card into the record. It
+checks for itself, from the two banking seats' sealed verdicts, that the card really was verified twice. Every step from a
+seat's card to the record is now on main. What remains before the trial is the plant ledger, and the switch.
+
+0 of 19.

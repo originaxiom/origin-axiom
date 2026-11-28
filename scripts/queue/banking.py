@@ -156,7 +156,7 @@ def sightings(root, entries, cid, the_seats, at):
 
 
 def check_verdict(root, cid, rec, card_text, s, entries, other_seal_at, limit=RR.TIME_LIMIT, prefix=None,
-                  allow_static=False, cached=None):
+                  allow_static=False, cached=None, run=True):
     """{ok, verdict, reasons, rerun, key}: one banking seat's verdict on one card. `cached` is the check a past round made;
     it is kept, and nothing is rerun, while the verdict, the seal, the expectation and the other seal's sighting are the
     same (main's M71 point 3: a filed seat's script runs once, not every round)"""
@@ -204,6 +204,8 @@ def check_verdict(root, cid, rec, card_text, s, entries, other_seal_at, limit=RR
     reach = PN.producer_reach(root, rec["commit"], m.group(1), found["verdict"][0], v["script"]["path"]) if m else []
     if reach:                                     # main's M71 point 1: a rerun passing as a recomputation
         return dict(out, reasons=["the seat's script reaches for the producer's computation (K2): %s" % "; ".join(reach)])
+    if not run:                                   # the landing's check (T11, main's M72): the reruns are the runner's
+        return dict(out, ok=True, rerun="left to the runner")
     note_like = {"script": v["script"], "decisive": v["decisive"]}
     res = RR.rerun(root, found["verdict"][0], PN._as_card(note_like), limit=limit, prefix=prefix,
                    allow_static=allow_static)
