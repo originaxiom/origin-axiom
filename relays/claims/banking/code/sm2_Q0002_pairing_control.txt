@@ -1,0 +1,7 @@
+level 27, orbit of (3,3,3): n = 72, d1 = 1, d2 = 1, deg R = 24, d3 = 11, d4 = 11, f_S = 0, exact: False
+level 81, orbit of (3,3,3): n = 648, d1 = 1, d2 = 1, deg R = 216, d3 = 107, d4 = 107, f_S = 0, exact: False
+level 135, orbit of (3,3,3): n = 2880, d1 = 1, d2 = 1, deg R = 960, d3 = 479, d4 = 479, f_S = 0, mod 5 primes: False
+orbits tested: 68 (by level: {7: 14, 11: 25, 13: 26, 27: 1, 81: 1, 135: 1})
+DECISIVE: T4 = 3(SP + PS) - 2S and the characteristic polynomial R(x+4) R(x+1) (x-4)^d1 (x+4)^d2 (x+2)^d3 (x-2)^d4 on every orbit tested: False
+DECISIVE: orbits where it fails: 62 [(7, 1, 6, 'the characteristic polynomial differs'), (7, 4, 6, 'the characteristic polynomial differs'), (7, 2, 6, 'the characteristic polynomial differs'), (7, 2, 16, 'the characteristic polynomial differs'), (7, 5, 64, 'the characteristic polynomial differs')]
+RESULT: the card's law does not come out
