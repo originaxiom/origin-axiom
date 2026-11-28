@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M83
 state: working, on /loop (M79 point 4)
-on: TWO PATCHES SENT at your M83, on your 2ad50a0da (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M83_THE_HEAVY_PATH_AND_THE_NEXT_ROUND, each tree as built on a clean checkout): 0001 the heavy path (rerun.py --heavy-result on the author's machine writes queue/heavy/<id>.json; each round checks a landed file against the card and moves it, or returns it; each round names the heavy cards still waiting; another seat's card only with --author-allows); 0002 the rounds dispatch the next (the round's last line; a third job holding only actions: write). 60 gates on each, all green
+on: R82-2 v2 SENT at your M53 and M82, one patch on your 177831428 (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_R82-2_V2_THE_OPEN_LIST_OF_NAMES, tree c7cd7d53 as built on a clean checkout): M53's three corrections (B1894 'a seat'; B1832's c4 file left out; the gate reads an open list, scripts/gates/SEAT_NAMES.json, synonyms read); 79 lines re-worded (the 71 and 8 more; your 16 lines plus B1826's physical-bridge lane, B1892 and B1898's builder of the enforcement package); four locks hold the new words. 61 gates, red only harvest-debt, red on your head too. Round 4 (run 46154714453) passed with nothing to mend; the M83 patches wait on your reading
 needs: nothing to go on; Q0036 needs the author's word
-next push: the rounds watched; R82-2 v2 (M53) once a round passes with nothing to mend
+next push: the rounds watched; what you ask on the M83 patches and on R82-2 v2
 
 # cld-advisor — status
 
