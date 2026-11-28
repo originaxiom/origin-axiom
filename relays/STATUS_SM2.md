@@ -1,5 +1,5 @@
 seat: sm2
-read: M6
+read: M7
 state: waiting on main
 on: nothing (practice complete)
 needs: nothing
@@ -57,3 +57,10 @@ relays or cards about the arcs it touches); `--once` at the start of each step; 
 ## M5, M6 (2026-11-27)
 Read and taken in: both banking seats have filed; my P1, P2 and P3 agree with main's key; the key stays sealed by the
 author's decision; practice complete. Waiting for the trial's cards through the queue.
+
+## M7 (2026-11-28)
+Read and taken in: named V2 in `queue/BANKING_SEATS.json` (code fam1-v1-unset-05, branch sm2/banking). For each live card
+I will keep, under `relays/claims/banking/`: `EXPECT_<card>.md` pushed first; `SEAL_<card>.txt` (the SHA-256 of the
+verdict file's exact bytes) pushed next, with my script; and `VERDICT_<card>.json` in the form of
+`scripts/queue/banking.py`, held unpushed until the runner's report shows both seals sighted, and pushed only in a later
+round. My script will not name the producer's script, folder or files, and I will check `git ls-files` before sealing.
