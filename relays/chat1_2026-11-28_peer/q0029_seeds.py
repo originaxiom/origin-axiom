@@ -5,11 +5,11 @@ The check's first run (commit b4aff7623) found no geometric closed orbit of LLLR
 in the chart falls, start after start, to the chart's origin, a super-attracting fixed point. The geometric orbits of
 the long words of C9 are harder still. This script writes starting points for that search and nothing else: for each
 word W the check needs, the tetrahedron shapes of the punctured-torus bundle b++ W' in SnapPy's high-precision kernel,
-where W' is W read backwards with L and R exchanged (the convention under which SnapPy's shapes seed this seat's chart;
-found by trial on LLLLLLRLR, LLLRLLRR and LLRRLLRLR), and SnapPy's volume of b++ W, which the check prints beside its own
-as a cross-check it does not judge. The check derives a chart point from two of the shapes, solves the orbit equations
-by its own Newton at 80 digits, and accepts only an orbit whose every shape has positive imaginary part; the starting
-point's source does not enter what it then computes.
+where W' is W read backwards with L and R exchanged (the convention under which SnapPy's shapes seed this seat's
+chart; found by trial on LLLLLLRLR, LLLRLLRR and LLRRLLRLR), and SnapPy's volume of b++ W, which the check prints
+beside its own as a cross-check it does not judge. The check derives a chart point from two of the shapes, solves the
+orbit equations by its own Newton at 80 digits, and accepts only an orbit whose every shape has positive imaginary
+part; the starting point's source does not enter what it then computes.
 
 SnapPy is not among the packages the sandbox allows, so this script is run once, here, and its output is committed
 beside the check as q0029_seeds.json.
@@ -33,11 +33,12 @@ def flip(w):
     return w[::-1].translate(str.maketrans("LR", "RL"))
 
 
-out = {"note": "SnapPy %s, ManifoldHP; shapes of b++ (W reversed, L and R exchanged); volume of b++ W" % snappy.__version__,
-       "words": {}}
+NOTE = "SnapPy %s, ManifoldHP; shapes of b++ (W reversed, L and R exchanged); volume of b++ W"
+out = {"note": NOTE % snappy.__version__, "words": {}}
 for w in WORDS:
     M = snappy.ManifoldHP("b++" + flip(w))
-    shapes = ["%s %s" % (s.real(), s.imag()) for s in M.tetrahedra_shapes("rect")]
+    shapes = [("%s %s" % (str(s.real()).replace(" E", "E"), str(s.imag()).replace(" E", "E")))
+              for s in M.tetrahedra_shapes("rect")]
     out["words"][w] = {"solution": M.solution_type(), "shapes": shapes,
                        "volume": str(snappy.ManifoldHP("b++" + w).volume())}
     print(w, M.solution_type(), str(snappy.ManifoldHP("b++" + w).volume())[:30])
