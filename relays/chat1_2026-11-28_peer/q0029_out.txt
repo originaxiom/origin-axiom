@@ -1,0 +1,21 @@
+  N = 3: dims [1, 2, 0], max residual 1.23e-50
+  N = 5: dims [1, 2, 2], max residual 1.74e-50
+  N = 7: dims [3, 2, 2], max residual 1.67e-50
+  N = 9: dims [3, 4, 2], max residual 3.15e-50
+  N = 11: dims [3, 4, 4], max residual 2.98e-50
+  N = 13: dims [5, 4, 4], max residual 2.51e-50
+  N = 15: dims [5, 6, 4], max residual 2.46e-50
+  N = 17: dims [5, 6, 6], max residual 1.78e-50
+  N = 19: dims [7, 6, 6], max residual 4.16e-50
+  N = 23: dims [7, 8, 8], max residual 1.34e-50
+  N = 27: dims [9, 10, 8], max residual 1.0e-50
+DECISIVE: C1 Weil relations and commutators hold for N in [3, 5, 7, 9, 11, 13, 15, 17, 19, 23, 27] with max residual <= 1e-30: True
+DECISIVE: C2 primes with paired sectors q = 1, 2: [5, 13, 17]; split: [3, 7, 11, 19, 23]; as the card says: True
+DECISIVE: C4 the 18 closed-form sector polynomials match in degree and coefficients within 1e-30: True
+DECISIVE: C3 on N = 3^k, k = 1..5: tr C3 = +i sqrt 3 and dims (3^(k-1), 3^(k-1)+1, 3^(k-1)-1): True; dims [[1, 2, 0], [3, 4, 2], [9, 10, 8], [27, 28, 26], [81, 82, 80]]
+DECISIVE: C5 det(t - J) is the card's cubic: True; D^-1 (J - 2) D is the three-square matrix: True (its symmetric part: True); critical value (4/27)(s^3 - 27xyz): True
+DECISIVE: C6 tree to depth 7: 65 sorted triples, all on the surface: True; degenerate: [[3, 3, 3]]; as the card says: True
+  LR geometric: V = 2.02988321281930725, chart trace (5.0 + 1.6867516709168837159e-80j)
+  LLRR geometric: V = 3.6638623767088760602, chart trace (18.0 + 2.3825367351700982487e-79j)
+DECISIVE: C7 no geometric fixed point found for LLLRRR
+DECISIVE: VERDICT: the card holds where this seat checks it (C1-C9): False
