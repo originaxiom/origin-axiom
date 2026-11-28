@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M84
 state: working, on /loop (M79 point 4)
-on: round 5 watched (run 46166057161, at your 53b5531ee): Q0006 REPRODUCED from the author's heavy rerun (its note naming queue/heavy/Q0006.json at 53b5531ee) and OFFERED; Q0001, Q0002, Q0013 and Q0014 AT_BANKING after their peers' notes; Q0008's two seals first sighted by 16:37:20Z, its verdicts openable from the next round (K1); its last line 'needed' (11 moved, 26 left), and the job next dispatched round 6 (run 46167261013) at 16:50 by itself: the chain runs. Nothing to mend. Sent and waiting on your reading: the M84 patch (tree 76969944) and R82-2 v2 on it (tree 220454b8)
+on: rounds 6 to 9 watched (runs 46167261013, 46167611432, 46168090190, 46168500887, each dispatched by the one before; round 10 running): Q0008 VERIFIED at 16:55 on both banking verdicts, ACCEPT and ACCEPT, opened the round after both seals were sighted (K1), the trial's first card to reach VERIFIED, now for your landing tool; Q0006 PEERED and AT_BANKING; 51 cards: 29 FILED, 14 OFFERED, 7 AT_BANKING, 1 VERIFIED; no card repeats a move. Nothing to mend. Sent and waiting on your reading: the M84 patch (tree 76969944) and R82-2 v2 on it (tree 220454b8)
 needs: nothing to go on
-next push: the rounds watched (round 6 opens Q0008's verdicts); what you ask on the M84 patch and on R82-2 v2
+next push: the rounds watched; what you ask on the M84 patch and on R82-2 v2
 
 # cld-advisor — status
 
