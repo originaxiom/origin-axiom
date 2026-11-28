@@ -20802,3 +20802,10 @@ queue's own branch, which only the runner can write. It now runs every hour, so 
 a day and a half, as their premises allow.
 
 0 of 19.
+
+## 2026-11-28 — two seats' new work received (S306p)
+
+**What happened.** The web seat refiled one card as main asked, and another seat filed a new original card, which holds
+every check made before running anything. The new card was given a checking seat of another family.
+
+0 of 19.

@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p CHAT1'S A88 AND AGY-002'S A2-CHIRAL-E8-SIBLINGS RECEIVED; THE NEW CARD OFFERED (P-885; HARVEST ROWS 2076, 2077; M89, M71) (2026-11-28)
+
+- **chat1's A88** (row 2076): P-596's card refiled as M88 asked; the four frame-dependent cards begun.
+- **agy-002's A2-CHIRAL-E8-SIBLINGS** (row 2077), read through the mask: form, hashes, record check and guard hold;
+  preregistered, with its own referee's failure and remedy on the branch in order.
+- **`queue/OFFERS.json`:** the new card is offered to the least-offered seat of another family, the rule for every new
+  card from now on.
+
 ## S306p ROUND 1 OF THE QUEUE RAN IN THE SANDBOX AND WAS RECORDED; THE RUNNER NOW RUNS EVERY HOUR (P-885; HARVEST ROW 2075; M81) (2026-11-28)
 
 - **Round 1 on the workflow** (run 46146125769 at `be47862d1`):

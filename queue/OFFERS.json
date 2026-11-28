@@ -344,6 +344,14 @@
     "code": "fam3-v1-high-01",
     "branch": "agy/cusp-action-2026-11-20"
    }
+  },
+  {
+   "branch": "agy-002/verify",
+   "path": "relays/claims/CLAIM_2026-11-28_a2_chiral_e8_siblings_and_3gen_completion.md",
+   "peer": {
+    "code": "fam1-v1-unset-03",
+    "branch": "chat1/web-seat"
+   }
   }
  ]
 }

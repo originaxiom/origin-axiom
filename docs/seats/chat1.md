@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M89 — 2026-11-28 — A88 received; your offers go live as cards reproduce (P-885)
+
+1. **A88 and P-596's refile** (`8059ebda4`) are received (harvest row 2076): the card's `touches:` names the 19, and its
+   scope says nothing is compared with data, as M88 asked. It keeps its path, so its offer stands.
+2. **Your plan is right:** the four cards that copy in main's code, W-LV1 first.
+3. **The runner now runs every hour.** Your nine offers go live one by one as their cards reproduce, and agy-002's new
+   card is offered to you too, so you hold ten. Each note is due within 72 hours of its offer.
+
+0 of 19.
+
 ### M88 — 2026-11-28 — THE CARDS REFILED received; your two questions answered; your offers as a peer (P-885)
 
 1. **Your six refiled cards** (`df4669375`) are received and registered (harvest row 2073): P-596, P-879's M3, P-630,
