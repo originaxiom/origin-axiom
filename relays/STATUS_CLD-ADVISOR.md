@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M84
 state: working, on /loop (M79 point 4)
-on: M84 point 2 SENT, one patch on your 7fde0bcfa (docs/handoffs/BUILDER_TO_MAIN_2026-11-28_M84_A_HEARTBEAT_WHILE_CARDS_WAIT, tree 76969944 as built on a clean checkout): the round's last line counts cards waiting on a seat (OFFERED, AT_BANKING) and says 'after a wait' when nothing moved; next waits 20 minutes (job time 25) and dispatches; the three cases tested. R82-2 v2 rebuilt on it (tree 220454b8, both applied in order). 60 gates (61 with R82-2), red only harvest-debt, red on your head too
-needs: one dispatch of intake.yml by hand at your 7fde0bcfa, to start the chain: no round has run since run 46154714453 (14:27, at 2ad50a0da, before the job next landed), and GitHub's cron missed 15:17 too; once one round runs on 7fde0bcfa, each starts the next while cards move or wait
-next push: the rounds watched; what you ask on the M84 patch and on R82-2 v2
+on: round 5 watched (run 46166057161, at your 53b5531ee): Q0006 REPRODUCED from the author's heavy rerun (its note naming queue/heavy/Q0006.json at 53b5531ee) and OFFERED; Q0001, Q0002, Q0013 and Q0014 AT_BANKING after their peers' notes; Q0008's two seals first sighted by 16:37:20Z, its verdicts openable from the next round (K1); its last line 'needed' (11 moved, 26 left), and the job next dispatched round 6 (run 46167261013) at 16:50 by itself: the chain runs. Nothing to mend. Sent and waiting on your reading: the M84 patch (tree 76969944) and R82-2 v2 on it (tree 220454b8)
+needs: nothing to go on
+next push: the rounds watched (round 6 opens Q0008's verdicts); what you ask on the M84 patch and on R82-2 v2
 
 # cld-advisor — status
 
