@@ -28,6 +28,14 @@ mp.mp.dps = 65
 X = sp.Symbol("X")
 
 
+def _mpf(s):
+    return mp.mpf(str(s).replace(" e", "e").replace(" E", "e").strip())
+
+
+def _mpc(r, im):
+    return mp.mpc(_mpf(r), _mpf(im))
+
+
 # ============================================================================
 # 1. Exact F_25 = F_5[d]/(d^2 - 2) & BD_5 & 2T = SL(2, F_3) tables
 # ============================================================================
@@ -352,7 +360,7 @@ def certify_gluing_symbolically(P_poly, z_polys, gluing_rect):
 
 
 def sl2c_mat_from_hp(arr):
-    return [mp.mpc(arr[k][0], arr[k][1]) for k in range(4)]
+    return [_mpc(arr[k][0], arr[k][1]) for k in range(4)]
 
 
 def sl2c_mul(A, B):
@@ -379,7 +387,7 @@ def sl2c_eval(word, gmap):
 def analyze_field_and_arithmeticity(m):
     """Module C1: Exact shape field minimal polynomial, symbolic gluing certification,
     pi_1^(2) trace integrality, Maclachlan-Reid arithmeticity, and mod-5 factorization."""
-    shapes_mpc = [mp.mpc(r, im) for r, im in m["shapes_hp"]]
+    shapes_mpc = [_mpc(r, im) for r, im in m["shapes_hp"]]
     # Find primitive generator alpha of Q(z_0, ..., z_{t-1})
     # Try single shapes first, then small integer linear combinations if needed
     cand_alphas = list(shapes_mpc)
@@ -661,7 +669,7 @@ def f25_frob(idx):
 
 def analyze_chirality_and_mod5_cusp(m, irred_ab):
     """Module C3: Complex CS & cusp mirror-asymmetry + exact F_25 cusp-shape spectrum."""
-    cs_val = mp.mpf(m["chern_simons_str"])
+    cs_val = _mpf(m["chern_simons_str"])
     # Distance of 2*CS to Z/2Z (i.e. CS mod 1/2 distance to {0, 1/4}):
     # An amphicheiral manifold has CS == -CS (mod 1/2) => 4*CS in Z!
     four_cs = 4 * cs_val
@@ -669,7 +677,7 @@ def analyze_chirality_and_mod5_cusp(m, irred_ab):
     cs_breaks_mirror = bool(dist_4cs_int > mp.mpf("1e-6"))
 
     # Complex cusp shape tau_cusp: reflection-symmetric iff 2*Re(tau_cusp) in Z (rectangular or rhombic lattice)
-    cusp_re = mp.mpf(m["cusp_shape_hp"][0])
+    cusp_re = _mpf(m["cusp_shape_hp"][0])
     two_re = 2 * cusp_re
     dist_2re_int = abs(two_re - mp.nint(two_re))
     cusp_lattice_chiral = bool(dist_2re_int > mp.mpf("1e-6"))
@@ -818,7 +826,7 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
         return {"geom_f25_hits": 0, "kills_128": False, "kills_248": False}
 
     # Reconstruct primitive alpha and express ALL 12 SL(2, C) generator matrix entries in Q(alpha)
-    shapes_mpc = [mp.mpc(r, im) for r, im in m["shapes_hp"]]
+    shapes_mpc = [_mpc(r, im) for r, im in m["shapes_hp"]]
     P_desc = field_info["minpoly_desc"]
     P_poly = sp.Poly(P_desc, X, domain=sp.ZZ)
     deg = field_info["field_degree"]
@@ -847,7 +855,7 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     for g in gens:
         ep = []
         for r_s, i_s in m["sl2c_gens_hp"][g]:
-            val = mp.mpc(r_s, i_s)
+            val = _mpc(r_s, i_s)
             qp = lll_express_in_basis(val, alpha, deg, tol_exp=25)
             if qp is None:
                 all_in_k = False
@@ -861,7 +869,7 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     f25_roots = [z for z in range(25) if (z % 5 != 0) and poly_eval_f25(P_desc, z) == F0]
     if not all_in_k:
         # Express using higher-degree trace field generator (linear combo of shapes + SL2C entries)
-        tr_vals = [mp.mpc(m["sl2c_gens_hp"][g][0][0], m["sl2c_gens_hp"][g][0][1]) for g in gens]
+        tr_vals = [_mpc(m["sl2c_gens_hp"][g][0][0], m["sl2c_gens_hp"][g][0][1]) for g in gens]
         ext_alpha = alpha + 3 * tr_vals[0] + 5 * tr_vals[1]
         P_ext = lll_minpoly_complex(ext_alpha, max_deg=16, tol_exp=25)
         if P_ext is None:
@@ -873,7 +881,7 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
         for g in gens:
             ep = []
             for r_s, i_s in m["sl2c_gens_hp"][g]:
-                qp = lll_express_in_basis(mp.mpc(r_s, i_s), ext_alpha, deg_use, tol_exp=22)
+                qp = lll_express_in_basis(_mpc(r_s, i_s), ext_alpha, deg_use, tol_exp=22)
                 if qp is None:
                     ok_ext = False
                     break
