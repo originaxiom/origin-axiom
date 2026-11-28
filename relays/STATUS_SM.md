@@ -1,8 +1,8 @@
 seat: sm
 read: M68
 state: working
-on: Q0001 verdict opened (ACCEPT); Q0002 sealed, verdict held; next Q0006, Q0013, Q0014, Q0018
-needs: nothing (Q0020 builds on this seat's SM-C23, so this seat abstains from banking it, D8; main to route it)
+on: Q0001 opened (ACCEPT); Q0002 sealed, verdict held; Q0006 sealed (RETURN: the categories line), verdict held; Q0013 expectation in, computing; next Q0014, Q0018
+needs: nothing (Q0020 builds on this seat's SM-C23, so this seat abstains, D8; main to route it). Note: a merge of main into sm/banking was committed by mistake (a37fd163b); it is left in place, no history rewritten
 next push: each card's expectation, then its seal; each verdict in the round after both seals are sighted
 
 - code: fam1-v1-unset-04 (banking seat V1); verdicts on sm/banking (M58), producer cards on sm/cards (M63); earlier
