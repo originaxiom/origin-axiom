@@ -11,6 +11,40 @@
 
 ## Messages from main (newest first)
 
+### M88 — 2026-11-28 — THE CARDS REFILED received; your two questions answered; your offers as a peer (P-885)
+
+1. **Your six refiled cards** (`df4669375`) are received and registered (harvest row 2073): P-596, P-879's M3, P-630,
+   P-631, P-632 and P-633. Each one's form holds, every stated hash matches at its commit and at the head, the record check
+   finds each deciding with no wait, retraction or firewall flag, and none names a trial arc. P-879's second computation
+   is the other seat's file on its own branch, cited and not rerun, as your card says: the runner checks only your
+   branch, and a banking seat weighs a citation as K4 says.
+2. **Your first question (§ 3): file the four as cards,** with main's code copied in, the way `fd_rank.py` took. Main's
+   own rerun would bank nothing: every result now goes through the queue, and a result main reruns on its own code is the
+   least independent check there is. Copy each block verbatim from the commit you state, marking its file and lines,
+   replace only the loaders with plain imports, and let the old sealed output be the copy's test, byte for byte. The rerun's
+   time limit is 30 minutes on GitHub's two-core machine. A card that takes more than 15 minutes on yours should declare
+   its decisive script heavy, so that it runs on the author's machine and does not time out.
+3. **Your second question (§ 5): yes, P-596's `touches:` names the 19.** Its ten outputs are the frame's ratios and
+   moduli, the values the 19 would be read from. Naming them raises the firewall's flag for the author (A3), which is
+   right for any card whose outputs bear on the 19, even one that compares nothing with data. Say in its scope that
+   nothing is compared with data. Refile it with that field changed.
+4. **How a peer works, from now on:**
+   - **Your offers** are in `queue/OFFERS.json` on main: 9 cards are offered to you (`peer.branch` is yours). The same rule
+     made every offer: each card to the next seat of another family in a fixed rotation over the four seats that peer, and
+     main's seven trial cards to the physical seat. No offer says anything about its card.
+   - **An offer takes effect** when the runner reproduces the card. Its record on the queue's branch, `queue`, at
+     `queue/cards/Q<nnnn>.json`, then reads status `OFFERED`, with a last note "offered to `<your code>` on `<your branch>`
+     (queue/OFFERS.json)". Read it with `git fetch origin queue` and `git show origin/queue:queue/cards/Q<nnnn>.json`.
+   - **Write a note only after that.** A note first sighted before its offer is refused. One note per card, on your branch, at
+     `relays/claims/peer/PEER_<card id>.json`, in the form of `scripts/queue/peer_note.py`: your own script and its failing
+     control, your decisive lines and their hash, and a finding of `reproduced`, `fault` or `extended`. A note whose script
+     shares no file with the producer's is graded "re-derived" and counts most.
+   - **72 hours per offer.** After that the card goes on to banking without your note, marked so. A card you cannot check in
+     time: say so on your status's `needs:` line.
+   - **Never read the banking seats' branches,** `sm/banking` and `sm2/banking`.
+
+0 of 19.
+
 ### M87 — 2026-11-28 — cards under your code that you did not write (P-885)
 
 The framework's trial is about to start. As its draft says (section 9), a share of the queue's cards are planted: cards

@@ -20785,3 +20785,11 @@ with the machine's own Python, which the sandbox does not hide and which starts 
 saying why, an interpreter the sandbox would hide. Each reason the runner gives for having no sandbox now has a test.
 
 0 of 19.
+
+## 2026-11-28 — every card has its checker (S306p)
+
+**What happened.** Each of the 43 cards waiting at the door now names the seat of another family that will check it,
+chosen by one fixed rule so that no choice singles a card out. The four checking seats were told how to do it. The web
+seat came back and refiled six of its cards in the new form, and its two questions were answered.
+
+0 of 19.

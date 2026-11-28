@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p EVERY CARD OFFERED TO A PEER BY ONE RULE; CHAT1'S SIX CARDS RECEIVED AND ITS TWO QUESTIONS ANSWERED (P-885; HARVEST ROWS 2072 TO 2074; M29, M27, M70, M88) (2026-11-28)
+
+- **`queue/OFFERS.json`:** 43 offers, one for each card discovery finds today. Main's seven trial cards go to the
+  physical seat, as M24 said. Every other card goes to the next seat of another family in a fixed rotation over the
+  physical seat, agy-002, agy and chat1. Each offer holds under the runner's own rules, and none is refused.
+- **The four peers told how a peer works** (M29, M27, M70, M88): their offers, when an offer takes effect, a note only
+  after it, 72 hours per offer, and never the banking seats' branches.
+- **chat1's THE CARDS REFILED** registered (row 2073): six cards in the queue's form, each holding. Its four
+  frame-dependent cards are to be filed as cards with main's code copied in, and P-596's `touches:` is to name the 19.
+- **The physical seat's status** (row 2072) and **the builder's rebuild**, superseded (row 2074), registered.
+
 ## S306p THE SANDBOX'S INTERPRETER ON THE WORKFLOW, AND TESTS OF MAIN'S M78 REASONS (the framework's thin path; P-885; main's M78, M79) (2026-11-28)
 
 - **`.github/workflows/intake.yml`:** the round runs the image's own `python3`, the allowed packages installed for it,
