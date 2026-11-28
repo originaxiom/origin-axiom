@@ -5,8 +5,8 @@
  "commit": "31f24c2c1dc54d541c5a0ded99ad0cf648af55d2",
  "card_path": "relays/claims/CLAIM_2026-11-27_a2_peer_sm_pure3_r384_r614_r635_verification.md",
  "title": "Blind cross-family second computation verifying SM-R384 (2/5 cusp and universal Galois bit), SM-R614 (E_6 27 singlet discrete remnant and Spin(10)/SU(5) stabilizers), and SM-R635 (boundary-free ad Q_8 cohomology, kappa Hessian diag(8,8,8), ",
- "status": "FILED",
- "deciding": null,
+ "status": "OFFERED",
+ "deciding": true,
  "heavy": false,
  "refiles": [],
  "history": [
@@ -15,6 +15,18 @@
    "status": "FILED",
    "by": "runner",
    "note": "found on its branch"
+  },
+  {
+   "at": "2026-11-28T16:55:00Z",
+   "status": "REPRODUCED",
+   "by": "runner",
+   "note": "the rerun at the sealed commit: 4 decisive lines, hash 8f726fa2e192247f; the control exited 1; guard: sudo -n unshare -n -m -i -p -f --kill-child --mount-proc -- /usr/bin/python3 -I -c import json, os, subprocess, sys\nrun, cover, argv = sys.argv[1], json.loads(sys.argv[2]), sys.argv[3:]\nsubprocess.run(['mount', '--bind', run, '/mnt'], check=True)\ndone = []\nfor d in cover:\n    if os.path.isdir(d) and not os.path.islink(d):\n        subprocess.run(['mount', '-t', 'tmpfs', '-o', 'mode=1777,size=512m', 'tmpfs', d], check=True)\n        done.append(d)\nos.environ['SANDBOX_COVERED'] = '\\n'.join(done)\nos.setgroups([])\nos.setgid(65534)\nos.setuid(65534)\nos.chdir('/mnt')\nos.execvp(argv[0], argv)\n {RUN} [\"/tmp\", \"/var/crash\", \"/var/tmp\", \"/usr/local/bin\", \"/usr/local/share/vcpkg\", \"/usr/local/lib/android/sdk\", \"/usr/local/lib/node_modules\", \"/usr/local/.ghcup\", \"/usr/share\", \"/usr/lib/jvm\", \"/run/screen\", \"/run/lock\", \"/run/cloud-init/tmp\", \"/dev/mqueue\", \"/dev/shm\", \"/opt\"]"
+  },
+  {
+   "at": "2026-11-28T16:55:00Z",
+   "status": "OFFERED",
+   "by": "runner",
+   "note": "offered to fam2-v1-unset-01 on audit/physical-bridge-2026-09-05 (queue/OFFERS.json)"
   }
  ]
 }

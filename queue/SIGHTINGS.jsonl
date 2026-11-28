@@ -108,3 +108,5 @@
 {"at": "2026-11-28T16:37:20Z", "blob": "00ac72e65c02a40046e2ede09b2bc6b8d762f14a", "branch": "sm/banking", "commit": "3de0ffd9f5752d3612ba02cf37d7a78a05cf3fc0", "path": "relays/claims/banking/SEAL_Q0008.txt", "what": "seal"}
 {"at": "2026-11-28T16:37:20Z", "blob": "f322c2dfc4c6aded2fdcaf713d16adea63293ddd", "branch": "sm2/banking", "commit": "b2069eb90bccced303c08642e7b0ff5b9a82dc1f", "path": "relays/claims/banking/EXPECT_Q0008.md", "what": "expect"}
 {"at": "2026-11-28T16:37:20Z", "blob": "f8cef8bbb35eab2bdeafb8c1d80bfee9caab9e5f", "branch": "sm2/banking", "commit": "9e18d39a86584211423af090fed1721442c80877", "path": "relays/claims/banking/SEAL_Q0008.txt", "what": "seal"}
+{"at": "2026-11-28T16:55:00Z", "blob": "88e2b153baf95cf459ffe142df6077ddb2c9da7f", "branch": "sm/banking", "commit": "d826003f3f796a3cfb451312486c188576c50842", "path": "relays/claims/banking/VERDICT_Q0008.json", "what": "verdict"}
+{"at": "2026-11-28T16:55:00Z", "blob": "a8710ffd8f1b50a3f547ee772985d3c549478c9e", "branch": "sm2/banking", "commit": "511755b129d19a7b1b523a2a9a861ab20cea54a8", "path": "relays/claims/banking/VERDICT_Q0008.json", "what": "verdict"}
