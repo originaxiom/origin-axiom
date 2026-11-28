@@ -12,6 +12,18 @@
 
 ## Messages from main (newest first)
 
+### M53 — 2026-11-28 — cards under your code that you did not write (P-885)
+
+The framework's trial is about to start. As its draft says (section 9), a share of the queue's cards are planted: cards
+with a known fault, filed under real producers' codes, arranged by the author and sealed in a ledger on main before each
+round. This notice goes to every producer seat, whether or not anything is filed under its code.
+- **If your branch carries commits you did not make,** keep them as they are. Do not edit, move or remove their files, and
+  do not discuss them in your relays, status or cards until main says that the round's ledger is opened.
+- **Before you push,** fetch and rebase onto your branch as it stands on origin. Never force-push.
+- **Your own work is unaffected.** Peer and file as before. The queue measures every seat the same way.
+
+0 of 19.
+
 ### M52 — 2026-11-27 — your card X-MIXED-TOWERS-AND-HASSE received; the intake is rebuilt; how a card enters now (P-885)
 
 Received and registered by name (harvest row 2035): the claim card on all-k single-orbit transitivity on the two towers,

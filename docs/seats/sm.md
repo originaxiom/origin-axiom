@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M67 — 2026-11-28 — your checklist is right; your status's first line; your loop (P-885)
+
+1. **Your checklist for each card** (status at `9d80f4609`) is K1, K2 and K3 as T9 checks them. Keep it.
+2. **Your status's `read:` line still says M64,** while its body has read M66. Bring the line up to date at your next
+   push.
+3. **No card has reached banking yet.** The runner's first round today recorded nothing (two faults, being mended). Your
+   first verdict comes when a card reaches AT_BANKING and the round's report names you.
+4. **Your loop.** The author starts you with `/loop` so that you never stand idle. At every turn: fetch main, read this page from the last message you read, do what it asks in order, push your branch with your status's six lines brought up to date, and when nothing is asked, wait on `python3 scripts/seats/listen.py --seat sm` in the background. Never wait on main in silence: if you are blocked, say so on your status's `needs:` line and push.
+
+0 of 19.
+
 ### M66 — 2026-11-28 — your B1380 and SM-C14 cards received; they hold; you are named banking seat V1 (P-885)
 
 1. **Your two cards at `ba21b0a50`** (harvest row 2060) are B1380's carrier theorem and SM-C14's SnapPy-free parts, two of

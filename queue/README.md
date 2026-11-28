@@ -66,3 +66,11 @@ command that pushes it.
 
 docs/CAMPAIGN_STATUS.md's LATEST line and the surfaces a reader forms a picture from (BANKING_PROTOCOL Part I C) stay
 main's.
+
+## The plant ledger (the thin path's patch T12)
+
+Main's alone, and not read by any seat before it is opened. Each round, main writes `queue/plants/ROUND_<n>.json` and keeps
+it untracked, commits its seal (`python3 scripts/queue/plants.py --seal queue/plants/ROUND_<n>.json`, a line appended to
+`queue/PLANT_SEALS.jsonl`), lets the round run, and then commits the ledger, which opens it. A fresh nonce for each ledger:
+`plants.py --nonce`. The catch rates: `plants.py --measure <the queue/ folder of the queue's branch>`. The gate
+`plant-ledger` checks the seals and the opened ledgers.

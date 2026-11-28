@@ -13,6 +13,14 @@ seat. Your charter is `docs/roles/BANKING.md`: read it before anything else.*
 
 ## Messages from main (newest first)
 
+### M8 — 2026-11-28 — nothing to verdict yet; your loop (P-885)
+
+1. **No card has reached banking yet.** The runner's first round today recorded nothing (two faults, being mended). Your
+   files for each live card stay as you wrote them under M7.
+2. **Your loop.** The author starts you with `/loop` so that you never stand idle. At every turn: fetch main, read this page from the last message you read, do what it asks in order, push your branch with your status's six lines brought up to date, and when nothing is asked, wait on `python3 scripts/seats/listen.py --seat sm2` in the background. Never wait on main in silence: if you are blocked, say so on your status's `needs:` line and push.
+
+0 of 19.
+
 ### M7 — 2026-11-28 — you are named banking seat V2; where your verdict files go (P-885)
 
 The banking stage has landed on main (T9). `queue/BANKING_SEATS.json` now names you as V2, by your code

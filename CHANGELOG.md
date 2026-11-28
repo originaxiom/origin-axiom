@@ -1,5 +1,72 @@
 # Changelog
 
+## S306p THE RUNNER MENDED AFTER ITS FIRST ROUND: THE MANIFEST HANDED OVER, THE GUARD SAYS WHY, NO CARD WAITS ON ITSELF, NO ROUND WITHOUT A SANDBOX IS RECORDED; EVERY SEAT GIVEN ITS ORDER (P-885; HARVEST ROW 2068; M79, M26, M28, M67, M8) (2026-11-28)
+
+- **Made by main, at the author's word that nothing stall (M78's four points):**
+  - `.github/workflows/intake.yml`: the round job uploads hidden files, so `.round_manifest.json` reaches the record job;
+    a round with no sandbox fails before the upload, so nothing is recorded;
+  - `scripts/queue/rerun.py`: `WHY_NOT`, each sandbox strategy's reason for refusal; a HEAVY rerun carries it;
+  - `scripts/queue/intake.py`: the round prints the reasons under "why:"; the record check gets the card's own id;
+  - `scripts/queue/record_check.py`: a card never waits on itself (D6). B2011's card names its own arc in its premises;
+  - tests in `tests/test_queue_intake.py` and `tests/test_queue_record_check.py`; the three test files pass, 42 with 11
+    skipped.
+- **The builder (M79):** a new fault that blocks the trial after the rerun: nothing moves a card from REPRODUCED to
+  OFFERED. It is specified as `queue/OFFERS.json` on main. Then M76 and M77.
+- **agy's C70** received and registered (row 2068; M26). The physical seat is told its peer role and the note's form
+  (M28). Both banking seats are told their standing order (M67, M8). Every seat is given its loop.
+
+## S306p THE RUNNER'S FIRST ROUND ON THE WORKFLOW READ: NOTHING RECORDED; THREE FAULTS AND ONE RULE TO THE BUILDER (P-885; M78) (2026-11-28)
+
+- **The author switched the runner on** (`INTAKE_ENABLED`), and the first round ran by hand at `1927c9005` (run
+  46131934492). The round job ran. The record job refused the round, so nothing reached the queue's branch.
+- **To the builder (M78):**
+  - the round's manifest is a hidden file, which `upload-artifact@v4` leaves out, so the record job can never pass;
+  - no sandbox could be made on the runner, and the guard does not say why;
+  - B2011's card waits on itself (D6), and every other trial card waits on it;
+  - on the workflow, a round with no sandbox should record nothing, rather than mark cards HEAVY for a fault of the runner.
+
+## S306p THE PLANT LEDGER'S SEALS FILE MADE COMMITTABLE (P-885; T12; M77) (2026-11-28)
+
+- **`.gitignore`:** the rule `*.jsonl` (the chronicle-harvest firewall) ignored `queue/PLANT_SEALS.jsonl`, so round 1's
+  seal could not be committed. The exception `!queue/PLANT_SEALS.jsonl` is added with a dated note; every other `.jsonl`
+  stays ignored.
+- **The builder (M77):** a test on main's own `.gitignore` joins the patch M76 asks for. The queue's branch is not affected.
+
+## S306p THE PLANT LEDGER: SEALED BEFORE ITS ROUND, OPENED AFTER IT (the framework's thin path, T12; P-885) (2026-11-28)
+
+- **`scripts/queue/plants.py`:** the ledger's format, `queue/plants/ROUND_<n>.json`: its round, a fresh nonce, and its
+  plants, each with the card's branch and path, the banking rule's shape it plants (K2, K4 to K10), its stage (peer,
+  banking or both), its source (main, the auditor or the calibration set), its fault in one line, and the verdicts that
+  catch it. Its seal, one line of `queue/PLANT_SEALS.jsonl` committed before the round; its opening, the ledger committed
+  after. `--seal`, `--nonce`, `--check`, and `--measure`, which gives each seat's catches over its plants (a banking seat
+  by its verdict, a peer by its note's finding), the shapes not yet planted, and leaves out a plant whose verdicts were
+  sighted before its seal. No plant is in the patch: the contents are main's.
+- **The gate `plant-ledger`:** fail-closed, in READS_HISTORY: the seals only appended to and in order; every opened ledger
+  in form, hashing to its seal, opened in a later commit than its seal, and never changed. A GATE_CONTROLS entry and a
+  PRACTICES section.
+- **`queue/README.md`:** the round's steps, by hand.
+- **`tests/test_queue_banking.py`:** T9's test held the shipped `queue/BANKING_SEATS.json` empty; main filled it on
+  2026-11-28 (M75), and the test failed on main. It now holds the file empty or naming two distinct seats.
+- **New test** `tests/test_queue_plants.py` (5 tests); each rule's removal makes one fail.
+
+## S306p THE 51 LAW-MAP ROWS THE MENDED SCREENS NAME, JUDGED: NINE MENDED AT THEIR SOURCE (R89-2 MET; P-589) (2026-11-28)
+
+- **The 51 rows** the two screens name since Review 89 mended them, outside the trial's arcs, judged at source by three
+  readers (each arc's FINDINGS, its verdict file, its addenda, RETRACTIONS). Main read every row called stale at its source
+  before any edit, and spot-checked rows called current; one of those was a plain error.
+- **Nine rows mended in place,** each with the arc's dated note:
+  - 75: B120's tower heights were computed for n = 2 to 8; the lock's 2 to 13 checks only the clauses' sum;
+  - 128: B535's census has a sixth coupling type, first at length 5, which the statement does not cover;
+  - 152: B1242 refuted "E₆(ℂ) CS = 3d gravity" as an identity; it is a containment, 3 of 78;
+  - 161: B722's resurgence is 2+1 sectors, and its hearing identification holds at the level of the field only;
+  - 260: under GM5b B1479's − states are generated, not carried as an extension (B1662);
+  - 327: the rarities hold for B1882's window in the height of the modulus, whose ends are a choice;
+  - 467: B1079's counting measure is the prior on the ℤ/5 family the closing supplies, under a named W × Galois hypothesis;
+  - 610: B1969's near-miss inference was withdrawn at Review 86; B1973 settles the form's admission;
+  - 660: B1955: the Weil class is fixed only by the labels, and the up sector's failure is scoped to the phase table.
+- **42 rows are current:** the correction concerns a claim the row does not make, or the row already shows it. None is
+  unsure. The six rows inside the trial's arcs and row 348 are left until the trial ends.
+
 ## S306p AGY-002'S ORIGINAL CARD AND THE SM SEAT'S STATUS RECEIVED (P-885; HARVEST ROWS 2063, 2064; M68) (2026-11-28)
 
 - **agy-002's A2-WHOLE-CENSUS-E8-TWO-REGISTER** at `3dc08d80f`, read through the mask:

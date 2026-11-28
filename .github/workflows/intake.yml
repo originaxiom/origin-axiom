@@ -55,13 +55,26 @@ jobs:
           python3 -c "import json; d = json.load(open('scripts/queue/ALLOWED_PACKAGES.json')); print(' '.join(k + '==' + v['pin'] for k, v in d['packages'].items()))" > pins.txt
           python3 -m pip install --quiet $(cat pins.txt)
       - name: One round of the intake (seat code runs here, with the network cut)
-        run: python3 scripts/queue/intake.py --queue-dir queue-state/queue --write
+        # CHANGED 2026-11-28 (main, at the author's word, after the first round on the workflow, M78 point 4): a round that
+        # cannot make the sandbox is not recorded. It had gone on and marked each card it reran HEAVY, for a fault of the
+        # runner, not of the card. It now fails here, after printing why, so neither the upload nor the record job runs.
+        # The line as it stood: run: python3 scripts/queue/intake.py --queue-dir queue-state/queue --write
+        run: |
+          set -o pipefail
+          python3 scripts/queue/intake.py --queue-dir queue-state/queue --write | tee round_report.txt
+          if grep -q "^the network guard: no sandbox" round_report.txt; then
+            echo "::error::no sandbox on this runner (its reasons are above): the round is not recorded"
+            exit 1
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: queue
           path: queue-state/queue
           if-no-files-found: error
           retention-days: 7
+          # ADDED 2026-11-28 (M78 point 1): the round's manifest, .round_manifest.json, is a hidden file, which
+          # upload-artifact@v4 leaves out unless asked, so the record job found no manifest and refused every round
+          include-hidden-files: true
 
   record:
     needs: round

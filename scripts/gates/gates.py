@@ -3643,6 +3643,29 @@ def gate_known_failures(_d=None, _root=None):
         len(d["tests"]), len(d["gates"]))
 
 
+def gate_plant_ledger(_root=None):
+    """the framework's thin path, T12 (P-885): queue/PLANT_SEALS.jsonl holds its form and is only appended to along the
+    history; every opened ledger under queue/plants/ holds its form, hashes to its round's seal, was opened in a commit
+    after the seal's, and has not changed since"""
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("plants_for_the_gate", os.path.join(ROOT, "scripts/queue/plants.py"))
+        m = importlib.util.module_from_spec(spec)
+        sys.dont_write_bytecode = True
+        spec.loader.exec_module(m)
+        root = _root or ROOT
+        bad = m.problems(root)
+        seals = m.read_seals(open(os.path.join(root, m.SEALS), encoding="utf-8").read()
+                             if os.path.isfile(os.path.join(root, m.SEALS)) else "")[0]
+        opened = len([f for f in os.listdir(os.path.join(root, m.LEDGERS))]) if os.path.isdir(os.path.join(root, m.LEDGERS)) else 0
+    except Exception as exc:                              # FAIL-CLOSED
+        return False, "the plant ledger cannot be read: %s" % exc
+    if bad:
+        return False, "%d problem(s): " % len(bad) + "; ".join(bad[:5])
+    return True, "ok (%d round(s) sealed, %d ledger(s) opened, each hashing to its seal and opened after it)" % (
+        len(seals), opened)
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -3701,6 +3724,7 @@ GATES = {
     "verdict-schema": gate_verdict_schema,
     "queue-schema": gate_queue_schema,
     "known-failures": gate_known_failures,
+    "plant-ledger": gate_plant_ledger,
     "selection-family": gate_selection_family,
     "public-face": gate_public_face,
 }
@@ -3719,7 +3743,8 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
     "gate-controls",                              # the same rule for the register of controls (series 3, PV16)
     "path-refs",                                  # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
     "queue-schema",                               # 2026-11-26 (T4): the sighting log and the cards, along the checkout's history
-    "known-failures"})                            # 2026-11-26 (T10): the baseline only shrinks, along the history
+    "known-failures",                             # 2026-11-26 (T10): the baseline only shrinks, along the history
+    "plant-ledger"})                              # 2026-11-28 (T12): the seals only appended to; a ledger opened after its seal
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 

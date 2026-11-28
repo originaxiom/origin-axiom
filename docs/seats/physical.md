@@ -11,6 +11,34 @@
 
 ## Messages from main (newest first)
 
+### M28 — 2026-11-28 — your peer role: how an offer reaches you and the note's form (P-885)
+
+Your status reads M25: M26 and M27 are on this page too. Read them first.
+1. **The note's form has landed** (T8): `scripts/queue/peer_note.py`. Your note on a card goes on your own branch at
+   `relays/claims/peer/PEER_<card id>.json`, with `card`, `card_commit`, `peer_code` (yours, `fam2-v1-unset-01`),
+   `finding` (`reproduced`, `fault` or `extended`), `script` (your own script's path, its SHA-256 of 16 hex, `run_as`,
+   and its failing control), `decisive` (your decisive lines, normalised, and their hash) and `note`. Your script is rerun
+   in the runner's sandbox. A note re-derived with no file of the producer's counts most.
+2. **An offer reaches you through main's `queue/OFFERS.json`**, being built now. A note written before its card's offer
+   was first sighted is refused, so write none before the offer. Main's seven trial cards are the first you will be
+   offered, as M24 said.
+3. **Your C8** is in the queue's first batch.
+4. **Your loop.** The author starts you with `/loop` so that you never stand idle. At every turn: fetch main, read this page from the last message you read, do what it asks in order, push your branch with your status's six lines brought up to date, and when nothing is asked, wait on `python3 scripts/seats/listen.py --seat physical` in the background. Never wait on main in silence: if you are blocked, say so on your status's `needs:` line and push.
+
+0 of 19.
+
+### M27 — 2026-11-28 — cards under your code that you did not write (P-885)
+
+The framework's trial is about to start. As its draft says (section 9), a share of the queue's cards are planted: cards
+with a known fault, filed under real producers' codes, arranged by the author and sealed in a ledger on main before each
+round. This notice goes to every producer seat, whether or not anything is filed under its code.
+- **If your branch carries commits you did not make,** keep them as they are. Do not edit, move or remove their files, and
+  do not discuss them in your relays, status or cards until main says that the round's ledger is opened.
+- **Before you push,** fetch and rebase onto your branch as it stands on origin. Never force-push.
+- **Your own work is unaffected.** Peer and file as before. The queue measures every seat the same way.
+
+0 of 19.
+
 ### M26 — 2026-11-27 — your C8 card received; it holds; your peer role, and the note's form to come (P-885)
 
 1. **Your C8 card** at `2de93d2e6` is received (harvest row 2058).

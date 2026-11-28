@@ -159,7 +159,11 @@ def test_the_verdicts_form_and_the_seats_file(tmp_path):
     own = dict(good, seat=rec["seat_code"])
     assert any("does not bank a card of its own" in b for b in BK.form_problems(own, rec, rec["seat_code"]))
     (tmp_path / "s.json").write_text(json.dumps({"V1": {"code": None, "branch": None}}), encoding="utf-8")
-    assert BK.seats(tmp_path / "s.json") == {} and BK.seats(ROOT / "queue" / "BANKING_SEATS.json") == {}
+    assert BK.seats(tmp_path / "s.json") == {}
+    # the shipped file was empty; main filled it on 2026-11-28 (M75): two distinct seats, each a code and a branch
+    shipped = BK.seats(ROOT / "queue" / "BANKING_SEATS.json")
+    assert shipped == {} or (sorted(shipped) == ["V1", "V2"] and shipped["V1"]["code"] != shipped["V2"]["code"]
+                             and shipped["V1"]["branch"] != shipped["V2"]["branch"])
     (tmp_path / "s.json").write_text(json.dumps(SEATS), encoding="utf-8")
     assert BK.seats(tmp_path / "s.json") == SEATS
 

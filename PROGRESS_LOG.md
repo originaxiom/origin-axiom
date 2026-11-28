@@ -20706,3 +20706,48 @@ output every time, two rules gained the tests that were missing, and one descrip
 anything, and waits for the runner.
 
 0 of 19.
+
+## 2026-11-28 — the law map's remaining corrections carried (S306p)
+
+**What happened.** The two screens for rows of the map of laws that miss a later correction were mended at Review 89, and
+then named 51 more rows. Each was read against its arcs' sources, outside the arcs the trial uses. Nine rows now carry
+their correction: a computed range overstated, a census that grew a sixth type, an identity refuted to a containment, a
+two-phase picture that is three sectors, a re-grade under the genesis, a window that is a choice, a measure that belongs to
+one family, an inference withdrawn and settled elsewhere, and a class fixed only by labels. The other 42 were already right.
+
+0 of 19.
+
+## 2026-11-28 — The plant ledger: the faults main plants are fixed before the round (S306p)
+
+**What happened.** The building seat sent the thin path's twelfth patch. Main can now plant cards with a known fault among
+the real ones, to measure how often the peers and the banking seats catch them. Before each round main commits only a
+fingerprint of its list of plants; the list itself is published after the round, and a check refuses a list that does not
+match its fingerprint or was published too early. The tool then counts, for each seat, how many of its plants it caught.
+
+0 of 19.
+
+## 2026-11-28 — the seals file made committable (S306p)
+
+**What happened.** The file that holds each round's fingerprint of its planted cards was caught by an old rule that keeps
+raw conversation logs out of the repository, so the first fingerprint could not be committed. One exception now lets that
+file in, and the rule holds for everything else.
+
+0 of 19.
+
+## 2026-11-28 — the runner's first round (S306p)
+
+**What happened.** The author switched the runner on and it ran its first round. It found the cards and refused to record
+anything, for three faults now with the building seat: a file the second job needs was left out of the hand-over between
+the two jobs, the network guard could not be built on GitHub's machine and did not say why, and one of main's cards
+waited on itself. Nothing was written. The next round waits for the fix.
+
+0 of 19.
+
+## 2026-11-28 — the runner mended, and every seat given its order (S306p)
+
+**What happened.** Main mended the three faults the runner's first round showed and the rule that a round without its
+guard records nothing. The guard now says why it fails. One more gap was found: nothing yet hands a reproduced card to a
+peer, and the building seat has it next. Every seat was told what to do and to keep working in a loop, so that none
+waits in silence.
+
+0 of 19.
