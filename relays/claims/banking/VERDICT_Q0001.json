@@ -1,0 +1,21 @@
+{
+ "card": "Q0001",
+ "card_commit": "0fd0a70f43722056a17992667016a31b34cfb1d3",
+ "seat": "fam1-v1-unset-05",
+ "verdict": "ACCEPT",
+ "reason": "My own recomputation, from the card's definitions and sharing no file with the card's script, agrees with each of its decisive statements. At level 135 the orbit of (3,3,3) under L, R and their inverses has 2880 readings; C and X preserve it, and the six moves are closed under conjugation by C, so W commutes with C; C has exactly three fixed points in it, (3,3,3), (48,48,48), (93,93,93), and there are 959 size-3 C-orbits. The neutral sector (degree 962) has its characteristic polynomial computed exactly over Z; the charged sector q = 1 (degree 959) modulo 44 primes p = 1 mod 3 of 62 bits, lifted by the CRT past 2 * 7^959, and the q = 2 sector lifts to the same polynomial, so S is real as it must be. Of S's 959 roots, 949 are halves of neutral roots and 10 are not, so p_neutral(2x)/2^d is not (x - 3)(x + 3) x S(x); the unpaired part factors over Q as x^2 - 2x - 2, x^2 + 2x - 2, x^3 - 3x - 1 and x^3 - 3x + 1, four factors of total degree 10, which I take to be the card's four factors named (the card does not list them, so that identification is mine). Reduction mod 27 maps the 135-orbit onto the 27-orbit, so G_135 maps onto G_27, and rho (L -> -w^2, R -> -w) is well defined on G_27: |G_27| = 216 with and without Z/6 attached (checked, not cited from B2005, K4); so rho factors through G_135. Controls (K8): at level 27 my same code finds the halving exact (23 of 23 paired, the form holds), so it can see the halving hold as well as fail; a wrong character L, R -> zeta_6 makes the attached group 648, so the rho test can fail. Scope (K9): one level where C's fixed points and rho survive and the halving fails shows that the halving, and the correlations of B2003 and B2005 read from it, are not laws at every level; it does not say at which other levels they fail, and the card's effect, conditioning those rows to tables of the levels run, is no wider than that.",
+ "script": {
+  "path": "relays/claims/banking/code/sm2_Q0001_halving.py",
+  "sha256": "1563d6a8777fae17",
+  "run_as": "python3 relays/claims/banking/code/sm2_Q0001_halving.py",
+  "control": "python3 relays/claims/banking/code/sm2_Q0001_halving.py --level 27"
+ },
+ "decisive": {
+  "lines": 4,
+  "sha256": "e97600f5bb8e5aa9"
+ },
+ "labels": [
+  "recomputed independently",
+  "expectations committed first"
+ ]
+}

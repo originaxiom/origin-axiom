@@ -85,3 +85,4 @@ Q0001: EXPECT 6763007b; script and outputs; SEAL; verdict (ACCEPT) held off the 
 Q0002: EXPECT 37759dc6; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
 Q0013: EXPECT 89cc75df; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
 Q0014: EXPECT 82ce4b16; script and outputs; SEAL; verdict (ACCEPT) held off the branch until both seals are sighted.
+VERDICT_Q0001.json (ACCEPT) opened after the round of 2026-11-28T17:35Z, in which both seals were in.
