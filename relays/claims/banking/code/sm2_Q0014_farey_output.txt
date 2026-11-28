@@ -1,0 +1,17 @@
+s = 0.00: lambda_1 = 2.0000000000 (N = 256; |N256 - N128| = 0.0e+00; power iteration at 128: 2.0000000000); h constant, min h 1.0000, largest step 0.00e+00
+s = 0.10: lambda_1 = 1.8484873574 (N = 256; |N256 - N128| = 5.6e-15; power iteration at 128: 1.8484873574); h strictly decreasing, min h 0.8485, largest step -4.24e-05
+s = 0.20: lambda_1 = 1.7101855766 (N = 256; |N256 - N128| = 5.6e-15; power iteration at 128: 1.7101855766); h strictly decreasing, min h 0.7102, largest step -7.10e-05
+s = 0.30: lambda_1 = 1.5840870914 (N = 256; |N256 - N128| = 4.9e-15; power iteration at 128: 1.5840870914); h strictly decreasing, min h 0.5841, largest step -8.76e-05
+s = 0.40: lambda_1 = 1.4693107975 (N = 256; |N256 - N128| = 2.0e-15; power iteration at 128: 1.4693107975); h strictly decreasing, min h 0.4693, largest step -9.39e-05
+s = 0.50: lambda_1 = 1.3651122768 (N = 256; |N256 - N128| = 4.7e-15; power iteration at 128: 1.3651122768); h strictly decreasing, min h 0.3651, largest step -9.13e-05
+s = 0.60: lambda_1 = 1.2709107144 (N = 256; |N256 - N128| = 5.3e-15; power iteration at 128: 1.2709107144); h strictly decreasing, min h 0.2709, largest step -8.13e-05
+s = 0.70: lambda_1 = 1.1863534604 (N = 256; |N256 - N128| = 4.7e-15; power iteration at 128: 1.1863534604); h strictly decreasing, min h 0.1864, largest step -6.52e-05
+s = 0.80: lambda_1 = 1.1114835080 (N = 256; |N256 - N128| = 7.5e-15; power iteration at 128: 1.1114835080); h strictly decreasing, min h 0.1115, largest step -4.46e-05
+s = 0.90: lambda_1 = 1.0472920066 (N = 256; |N256 - N128| = 7.5e-14; power iteration at 128: 1.0472920066); h strictly decreasing, min h 0.0473, largest step -2.13e-05
+s = 0.95: lambda_1 = 1.0203427870 (N = 256; |N256 - N128| = 2.1e-11; power iteration at 128: 1.0203427870); h strictly decreasing, min h 0.0203, largest step -9.67e-06
+word sums: s = 0.25, Z_18/Z_17 = 1.645784, collocation 1.645669, difference 1.1e-04
+word sums: s = 0.50, Z_18/Z_17 = 1.365969, collocation 1.365112, difference 8.6e-04
+DECISIVE: lambda_1 at s = 0: 2.0000000000; at s = 0.95: 1.0203
+DECISIVE: lambda_1 falls strictly over s = 0, 0.1, ..., 0.9, 0.95: True
+DECISIVE: h_s constant at s = 0 and positive, strictly decreasing at s = 0.1, ..., 0.9, 0.95: True (fails at [])
+RESULT: the card's claim holds
