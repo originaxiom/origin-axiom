@@ -1,0 +1,19 @@
+DECISIVE: the copy reproduces the sealed output of 2026-11-24 byte for byte: True
+DECISIVE: (1/30, 1/15) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (1/15, 29/30) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (1/5, 7/30) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (4/15, 1/30) * largest rate difference 0.00e+00, least diagonal 0.999836 (B1977 0.999836)
+DECISIVE: (4/15, 11/30) * largest rate difference 0.00e+00, least diagonal 0.999836 (B1977 0.999836)
+DECISIVE: (4/15, 7/10) * largest rate difference 0.00e+00, least diagonal 0.999836 (B1977 0.999836)
+DECISIVE: (11/30, 7/30) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (13/30, 1/5) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (8/15, 7/30) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (17/30, 29/30) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (19/30, 14/15) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (11/15, 3/10) * largest rate difference 0.00e+00, least diagonal 0.999836 (B1977 0.999836)
+DECISIVE: (11/15, 19/30) * largest rate difference 0.00e+00, least diagonal 0.999836 (B1977 0.999836)
+DECISIVE: (23/30, 1/30) largest rate difference 0.00e+00, least diagonal 0.999959 (B1977 0.999959)
+DECISIVE: (13/15, 7/30) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: (14/15, 11/30) largest rate difference 0.00e+00, least diagonal 1.000000 (B1977 1.000000)
+DECISIVE: ADDENDUM: 16 points; largest rate difference 0.00e+00; largest diagonal difference 0.00e+00
+DECISIVE: verdict: the claim holds
