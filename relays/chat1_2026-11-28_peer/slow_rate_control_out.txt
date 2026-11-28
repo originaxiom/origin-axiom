@@ -1,0 +1,1 @@
+control: mod 27 slow rate 5.291502622 against 2 sqrt(5 + 4 cos(pi/6)) = 5.818625822 made wrong on purpose: difference 5.27e-01; S3's comparison: fails, as it must

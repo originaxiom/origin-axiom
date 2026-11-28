@@ -1,0 +1,12 @@
+DECISIVE: mod 9: largest orbit 12 points; top eigenvalue 6.000000000; slow rate 2.000000000; 2 sqrt(5 + 4 cos(pi/3)) = 5.291502622; difference 3.292e+00
+DECISIVE: mod 25: largest orbit 24 points; top eigenvalue 6.000000000; slow rate 2.000000000; 2 sqrt(5 + 4 cos(pi/5)) = 5.739710089; difference 3.740e+00
+DECISIVE: mod 49: largest orbit 24 points; top eigenvalue 6.000000000; slow rate 2.000000000; 2 sqrt(5 + 4 cos(pi/7)) = 5.866472695; difference 3.866e+00
+DECISIVE: mod 27: largest orbit 72 points; top eigenvalue 6.000000000; slow rate 5.291502622; 2 sqrt(5 + 4 cos(pi/3)) = 5.291502622; difference below 1e-9
+DECISIVE: mod 125: largest orbit 120 points; top eigenvalue 6.000000000; slow rate 5.739710089; 2 sqrt(5 + 4 cos(pi/5)) = 5.739710089; difference below 1e-9
+DECISIVE: mod 343: largest orbit 1176 points; top eigenvalue 6.000000000; slow rate 5.866472695; 2 sqrt(5 + 4 cos(pi/7)) = 5.866472695; difference below 1e-9
+DECISIVE: mod 81: largest orbit 648 points; top eigenvalue 6.000000000; slow rate 5.919044005; 2 sqrt(5 + 4 cos(pi/3)) = 5.291502622; difference 6.275e-01
+DECISIVE: mod 625: largest orbit 3000 points; top eigenvalue 6.000000000; slow rate 5.989477041; 2 sqrt(5 + 4 cos(pi/5)) = 5.739710089; difference 2.498e-01
+DECISIVE: mod 125: slow rate against 2 sqrt(6 + sqrt 5) within 1e-9: True; x^4 - 48 x^2 + 496 there within 1e-7 of 0: True; irreducible over Q: True
+DECISIVE: S4 (extension) mod 81: slow rate does NOT equal 2 sqrt(5 + 4 cos(pi/3)) within 1e-9
+DECISIVE: S4 (extension) mod 625: slow rate does NOT equal 2 sqrt(5 + 4 cos(pi/5)) within 1e-9
+DECISIVE: verdict: S1 to S3 hold
