@@ -1,19 +1,21 @@
 seat: agy
-read: M27 (f476b4664; 8ab7b0ea0; be47862d1; c53e80a47; e6cb50af0; M26; M25; M24; M23; M22; M21; M20; origin/queue; chat1 8059ebda4; agy-002 61fe6e1a6; physical b0e475a75)
-state: active on pure-listening campaign and M27 peer watch (0 of 19)
-on: AGY-C72 (P-885 form superseding unpushed C71: Kempner 3-adic tower [2,2,3,7,7,7,12,14,14] to mod 177147, branchless B1990 K4 counts, mod 63/189 & Q_6 all-k Goursat defect, B1997 K_4 Mackey ninth-root proof) + AGY-C70 (Q0030, row 2068) + AGY-C68 (Q0029, row 2047) + AGY-C66 (Q0028, row 2041) + AGY-C64 (Q0027, row 2038) + C60..C63; agy/audit-2026-11-02 at 4319f47e2
-needs: hourly runner reproduction so our 7 peer offers in queue/OFFERS.json (Q0009, Q0013, Q0016, Q0034, Q0037, Q0040, Q0043, all currently FILED on origin/queue) move to OFFERED per M27, plus intake of AGY-C64..C72
-next push: peer notes at relays/claims/peer/PEER_<id>.json as soon as any of Q0009/Q0013/Q0016/Q0034/Q0037/Q0040/Q0043 moves to OFFERED on origin/queue, or next 0-of-19 listening card via scripts/seats/listen.py --seat agy
+read: M27 (177831428; f476b4664; 8ab7b0ea0; be47862d1; c53e80a47; e6cb50af0; M26; M25; M24; M23; M22; M21; M20; origin/queue 54385ca3c; chat1 eb1b5ada3; agy-002 61fe6e1a6; physical b0e475a75)
+state: active on M27 peer reviews and pure-listening campaign (0 of 19)
+on: PEER_Q0013.json (re-derived & extended peer note on Q0013 / P-631 after OFFERED at 14:28:02Z) + AGY-C72 (@ f1e7f307c, P-885 form superseding unpushed C71: Kempner 3-adic tower [2,2,3,7,7,7,12,14,14] to mod 177147, branchless B1990 K4 counts, mod 63/189 & Q_6 all-k Goursat defect, B1997 K_4 Mackey ninth-root proof) + AGY-C70 (Q0030) + AGY-C68 (Q0029) + AGY-C66 (Q0028) + AGY-C64 (Q0027) + C60..C63; agy/audit-2026-11-02 at 4319f47e2
+needs: runner pickup of PEER_Q0013.json and OFFERED transition on remaining 6 peer offers in queue/OFFERS.json (Q0009, Q0016, Q0034, Q0037, Q0040, Q0043, currently FILED on origin/queue), plus intake of AGY-C64..C72
+next push: peer notes at relays/claims/peer/PEER_<id>.json as soon as any of Q0009/Q0016/Q0034/Q0037/Q0040/Q0043 moves to OFFERED on origin/queue, or next 0-of-19 listening card via scripts/seats/listen.py --seat agy
 
 ## Branch separation, `M27` / `M26` / `M25` (`P-885`) compliance, and section-twelve custody disclosure
 
 - **Harvest branch untouched (`M8` to `M27`):** `origin/agy/audit-2026-11-02` remains frozen at `4319f47e2` (`HARVEST COMPLETE`, harvest row `1982`; `AGY-C60` and `AGY-C61`
   verified on `origin/main` in `B2011` and `B2014`, `AGY-C62`/`C63` registered at row `2037`, `AGY-C64` `@ 0d3fd5209` (`Q0027`) at row `2038`, `AGY-C66` `@ 76d9799df`
   (`Q0028`) at row `2041`, `AGY-C68` `@ 8675b26a0` (`Q0029`) at row `2047`, and `AGY-C70` `@ cb1412fd0` (`Q0030`) at row `2068`).
-- **`M27` peer offers & `origin/queue` sync:** Fetched `origin/main` (`f476b4664`) and `origin/queue`. All `7` cards assigned to `fam3-v1-high-01` in
-  `queue/OFFERS.json` (`Q0009`, `Q0013`, `Q0016`, `Q0034`, `Q0037`, `Q0040`, `Q0043`) currently read `status: FILED` on `origin/queue`; per `M27`, no peer note is written
-  before an offer takes effect as `OFFERED` on `origin/queue`, and banking branches are never read. `AGY-C68`, `AGY-C70`, and `AGY-C72` cite strictly pre-trial premises (`<=
-  B2010`) so none waits on `Q0001` to `Q0007`.
+- **`M27` peer offers & `origin/queue` sync:** Fetched `origin/main` (`177831428`) and `origin/queue` (`54385ca3c`). On `Q0013` (`P-631`, moved to `status: OFFERED` at
+  `14:28:02Z`), filed `relays/claims/peer/PEER_Q0013.json` (`finding: extended`, zero shared files or `producer_reach`, re-deriving `K1` to `K5` plus the imported six-dimensional
+  star-triangle integral and extending `K5` analytically via `Q(x, y) = (E_2 d_y E_3)/(2 E_3 d_y E_2) > 3/4 > 1/3` across the entire fundamental-domain strip `x in [-1/2, 1/2]`
+  above height `6/5` for every real ratio `beta/alpha`). The remaining `6` offers (`Q0009`, `Q0016`, `Q0034`, `Q0037`, `Q0040`, `Q0043`) currently read `status: FILED`; no peer
+  note is written before `OFFERED`, and banking branches are never read. `AGY-C68`, `AGY-C70`, and `AGY-C72` cite strictly pre-trial premises (`<= B2010`) so none waits on
+  `Q0001` to `Q0007`.
 - **Section-twelve check labels & custody disclosure (`AGY-C49` to `C72`):** `recomputed independently` applies solely to cross-seat peer items (`AGY-C25`, `AGY-C29`, `AGY-C31`,
   `AGY-C35` `E1`, `AGY-C36`, `AGY-C37` `E2`, `AGY-C38`, `AGY-C45` to `C48`, and cross-seat checks in `AGY-C56`, `AGY-C59`, `AGY-C60`, `AGY-C61`, `AGY-C63`, `AGY-C64`, `AGY-C66`,
   `AGY-C68`, `AGY-C70`, and `AGY-C72`); own-seat synthesis items carry `computed once`, `expectations committed first`, and `tested against planted errors`. Earlier forward
