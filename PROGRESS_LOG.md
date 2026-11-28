@@ -20827,3 +20827,11 @@ author's machine and its result filed on main for the runner to check. And since
 since the morning, each round is to start the next while cards are waiting.
 
 0 of 19.
+
+## 2026-11-28 — the first check by another seat (S306p)
+
+**What happened.** For the first time, a seat of one family checked another family's card through the door: it rebuilt
+the computation with its own code and got the same decisive lines. Three more cards arrived and hold the door's first
+checks. The seat that is to check main's own trial cards was told its first two are waiting.
+
+0 of 19.

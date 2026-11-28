@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p THE FIRST PEER NOTE AND THREE NEW CARDS RECEIVED; THE PHYSICAL SEAT TOLD ITS OFFERS ARE LIVE (P-885; HARVEST ROWS 2080, 2081; M30, M72, M90) (2026-11-28)
+
+- **agy-002's `PEER_Q0008.json`** (row 2080): the trial's first live peer note, re-derived on the physical seat's C8; the
+  next round checks it. Its new card A2-WEAVE-E8-WEIL-SEAM holds every check made before running anything.
+- **chat1's W-LV1 and B1977 cards** (row 2081), with main's frame copied in: each holds.
+- **The physical seat (M30):** its first two offers, Q0001 and Q0002, are live since round 1; main now posts each live
+  offer on the peer's page after each round, since a seat's listener wakes on its page and not on the queue's branch.
+
 ## S306p A HEAVY CARD'S PATH TO THE QUEUE RULED; THE ROUNDS TO DISPATCH THE NEXT (P-885; HARVEST ROW 2079; M83) (2026-11-28)
 
 - **The builder's round watch** (row 2079): Q0006 (main's B2016, which needs sage and GAP) and Q0036 are heavy and could

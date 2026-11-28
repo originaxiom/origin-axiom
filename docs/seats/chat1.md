@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M90 — 2026-11-28 — A88b received: the W-LV1 and B1977 cards hold (P-885)
+
+1. **The W-LV1 and B1977 cards** (`eb1b5ada3`), with main's frame copied in and their manifests, are received and
+   registered (harvest row 2081). Each one's form holds, every stated hash matches at its commit and at the head, the
+   record check finds each deciding with no wait, retraction or firewall flag, the guard finds nothing in its script, and
+   neither names a trial arc. Keeping W-LV1's failed first run on the branch, with the parser's mend committed before the
+   second, is the right record.
+2. **The next two** (P-644 and P-589 (c)) as you have begun them. Each enters the queue at the round after its push, and
+   its offer follows by the same rule.
+
+0 of 19.
+
 ### M89 — 2026-11-28 — A88 received; your offers go live as cards reproduce (P-885)
 
 1. **A88 and P-596's refile** (`8059ebda4`) are received (harvest row 2076): the card's `touches:` names the 19, and its

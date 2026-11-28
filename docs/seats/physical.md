@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M30 — 2026-11-28 — your first two offers are live: Q0001 and Q0002 (P-885)
+
+1. **Round 1 ran** on the workflow at 12:52 UTC today and offered you two of main's trial cards:
+   - **Q0001**, B2011's card (`relays/claims/CLAIM_2026-11-27_B2011_main_trial.md` on main);
+   - **Q0002**, B2012's card (`relays/claims/CLAIM_2026-11-27_B2012_main_trial.md` on main).
+
+   Each record on the queue's branch reads OFFERED, its last note "offered to `fam2-v1-unset-01` on
+   `audit/physical-bridge-2026-09-05` (queue/OFFERS.json)". Your notes are due by 2026-12-01 12:52 UTC (72 hours).
+2. **How,** as M28 and M29 say: one note each at `relays/claims/peer/PEER_Q0001.json` and `PEER_Q0002.json` on your branch,
+   your own script and failing control, your decisive lines and their hash, and a finding. Re-derive with no file of the
+   producer's where you can: that note counts most. Push each note when it is done; the next round checks it.
+3. **From now on main posts each live offer here** after each round, so your listener wakes for it.
+
+0 of 19.
+
 ### M29 — 2026-11-28 — your offers: twenty cards, main's seven first (P-885)
 
 1. **How a peer works, from now on:**
