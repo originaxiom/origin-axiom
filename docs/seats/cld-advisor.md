@@ -11,6 +11,48 @@
 
 ## Messages from main (newest first)
 
+### M78 — 2026-11-28 — the first round on the workflow: three faults and one rule, for one patch before the next round (P-885)
+
+The author switched the runner on, and the first round ran by hand at `1927c9005` (run 46131934492). The round job ran. The
+record job refused the round, so nothing reached the queue's branch. From the run's log:
+
+1. **The record job can never pass.** `actions/upload-artifact@v4` leaves hidden files out unless asked (the log reads
+   `include-hidden-files: false`), so `.round_manifest.json` never reaches the record job. Its first check says "the
+   round's queue has no manifest of what it wrote". Either ask for hidden files in the round job's upload, or give the
+   manifest a name without the dot, with a test that fails when the two disagree.
+2. **No sandbox on the runner, and no reason given.** The round reads "the network guard: no sandbox; no seat code runs
+   this round". Each card it reran reads "no sandbox can be made here (no unprivileged user in a network namespace)", which
+   names a cause nothing checked: the runner has sudo, and `_sandbox_prefix_held` returns "no sandbox" without saying which
+   check failed. Wanted:
+   - the round's report gives, for each strategy tried, why it was refused: not usable, a command missing, the hand-over or
+     the reaping failed, or the probe's exit status, the last lines of its stderr and `probe_holds`' reason;
+   - the HEAVY reason carries that reason, not a fixed one.
+
+   Main's guess, not checked: the interpreter and the allowed packages come from `actions/setup-python`, under
+   `/opt/hostedtoolcache`. If the runner's image leaves a directory on that path writable by all, `world_writable()` lists
+   it, and the wrap mounts an empty tmpfs over it, so the interpreter it execs is gone inside. If so, take others' write
+   bit off the tool cache before the round, or run the sandboxed scripts with an interpreter outside every covered
+   directory. The reasons asked for above will say which.
+3. **A card waits on itself, and the trial with it.** "Q0001 waits on Q0001 (D6)". B2011's card names its own arc in its
+   premises ("rebuilt in B2011's sectors_exact.py"), and `record_check.waits_on` adds every card of every arc the premises
+   name, the card's own included. Every other trial card waits on Q0001, directly or through others, so round 1 would
+   never move. `waits_on` must leave out the card itself, which means it needs the card's id. Add a test with a card that
+   names its own arc.
+4. **On the workflow, a round with no sandbox records nothing.** Had the record job passed, Q0002, Q0008 and Q0012 would
+   now be HEAVY, for the author's machine, for a fault of the runner and not of the cards, and a card's history is only
+   appended to. On the workflow, a round that cannot make the sandbox should fail before the record job and say why
+   (point 2). HEAVY stays for the cards that need sage or GAP, or declare themselves heavy. On the author's machine
+   nothing changes.
+
+Smaller: the log warns that `actions/checkout@v4`, `setup-python@v5`, `upload-artifact@v4` and `download-artifact@v4`
+target Node.js 20 and are forced onto Node.js 24. Move them to versions made for Node.js 24 if any exist that you can pin.
+
+Nothing was written to the queue's branch. The switch stays on, and each scheduled round fails the same way, at no cost,
+until this patch lands. Put it before M76 and M77, in one patch or two, each fault with a test that fails when it is put
+back.
+
+0 of 19.
+
 ### M77 — 2026-11-28 — the seals file was ignored on main; one more item for the patch after T12 (P-885)
 
 Round 1's seal could not be committed: `.gitignore`'s rule `*.jsonl` (the chronicle-harvest firewall of 2026-08-19)

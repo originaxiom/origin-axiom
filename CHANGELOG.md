@@ -1,5 +1,15 @@
 # Changelog
 
+## S306p THE RUNNER'S FIRST ROUND ON THE WORKFLOW READ: NOTHING RECORDED; THREE FAULTS AND ONE RULE TO THE BUILDER (P-885; M78) (2026-11-28)
+
+- **The author switched the runner on** (`INTAKE_ENABLED`), and the first round ran by hand at `1927c9005` (run
+  46131934492). The round job ran. The record job refused the round, so nothing reached the queue's branch.
+- **To the builder (M78):**
+  - the round's manifest is a hidden file, which `upload-artifact@v4` leaves out, so the record job can never pass;
+  - no sandbox could be made on the runner, and the guard does not say why;
+  - B2011's card waits on itself (D6), and every other trial card waits on it;
+  - on the workflow, a round with no sandbox should record nothing, rather than mark cards HEAVY for a fault of the runner.
+
 ## S306p THE PLANT LEDGER'S SEALS FILE MADE COMMITTABLE (P-885; T12; M77) (2026-11-28)
 
 - **`.gitignore`:** the rule `*.jsonl` (the chronicle-harvest firewall) ignored `queue/PLANT_SEALS.jsonl`, so round 1's

@@ -20733,3 +20733,12 @@ raw conversation logs out of the repository, so the first fingerprint could not 
 file in, and the rule holds for everything else.
 
 0 of 19.
+
+## 2026-11-28 — the runner's first round (S306p)
+
+**What happened.** The author switched the runner on and it ran its first round. It found the cards and refused to record
+anything, for three faults now with the building seat: a file the second job needs was left out of the hand-over between
+the two jobs, the network guard could not be built on GitHub's machine and did not say why, and one of main's cards
+waited on itself. Nothing was written. The next round waits for the fix.
+
+0 of 19.
