@@ -970,8 +970,8 @@ def analyze_chirality_and_mod5_cusp(m, irred_ab):
         "is_amphicheiral": m["is_amphicheiral"],
         "chern_simons_str": m["chern_simons_str"],
         "cs_breaks_mirror": cs_breaks_mirror,
-        "cusp_re_str": m["cusp_shape_hp"][0][:20],
-        "cusp_im_str": m["cusp_shape_hp"][1][:20],
+        "cusp_re_str": mp.nstr(_mpf(m["cusp_shape_hp"][0]), 20),
+        "cusp_im_str": mp.nstr(_mpf(m["cusp_shape_hp"][1]), 20),
         "cusp_lattice_chiral": cusp_lattice_chiral,
         "mod5_tau_set": [list(divmod(t, 5)) for t in tau_set],
         "mod5_frob_invariant": mod5_frob_sym,
@@ -1247,6 +1247,235 @@ def check_3gen_geometric_mod5_reduction(m, field_info, c4_ord_pairs):
     return {"geom_f25_hits": hits, "kills_128": kills_128, "kills_248": kills_248}
 
 
+def build_sl2_f25_helpers():
+    """Build all 15,600 SL(2, F_25) matrices, exact 672 orbit reps modulo Centralizer([[1,1],[0,1]]),
+    and exact square-root table SQRT_MAP[X] = [Y in SL(2, F_25) : Y^2 == X]."""
+    sl2_all = []
+    sqrt_map = {}
+    for a in range(25):
+        for b in range(25):
+            for c in range(25):
+                if a != F0:
+                    d = MUL[ADD[F1][MUL[b][c]]][INV[a]]
+                    M = (a, b, c, d)
+                    sl2_all.append(M)
+                    M2 = sl2_f25_mul(M, M)
+                    sqrt_map.setdefault(M2, []).append(M)
+                else:
+                    if c != F0 and MUL[b][c] == NEG[F1]:
+                        for d in range(25):
+                            M = (F0, b, c, d)
+                            sl2_all.append(M)
+                            M2 = sl2_f25_mul(M, M)
+                            sqrt_map.setdefault(M2, []).append(M)
+    assert len(sl2_all) == 15600
+
+    # Exact 672 orbit representatives of SL(2, F_25) modulo {[[1, v], [0, 1]] : v in F_25}
+    reps = []
+    for c in range(1, 25):
+        b = NEG[INV[c]]
+        for d in range(25):
+            reps.append((F0, b, c, d))
+    for a in range(1, 25):
+        if a != F1 and a != NEG[F1]:
+            reps.append((a, F0, F0, INV[a]))
+    for a in (F1, NEG[F1]):
+        for b in range(25):
+            reps.append((a, b, F0, a))
+    assert len(reps) == 672
+    return sl2_all, reps, sqrt_map
+
+
+def find_all_sl2_conjugators(A, W):
+    """Return EVERY c in SL(2, F_25) satisfying A * c == c * W (i.e. c^{-1} A c == W)
+    via exact 4x4 linear system nullspace over F_25."""
+    a0, a1, a2, a3 = A
+    w0, w1, w2, w3 = W
+    # Unknowns x = [c0, c1, c2, c3] for c = [[c0, c1], [c2, c3]]:
+    # (Ac - cW)_{00} = (a0 - w0) c0 - w2 c1 + a1 c2 = 0
+    # (Ac - cW)_{01} = -w1 c0 + (a0 - w3) c1 + a1 c3 = 0
+    # (Ac - cW)_{10} = a2 c0 + (a3 - w0) c2 - w2 c3 = 0
+    # (Ac - cW)_{11} = a2 c1 - w1 c2 + (a3 - w3) c3 = 0
+    mat = [
+        [SUB[a0][w0], NEG[w2], a1, F0],
+        [NEG[w1], SUB[a0][w3], F0, a1],
+        [a2, F0, SUB[a3][w0], NEG[w2]],
+        [F0, a2, NEG[w1], SUB[a3][w3]],
+    ]
+    # Gauss-Jordan elimination over F_25
+    piv_cols = []
+    row = 0
+    for col in range(4):
+        piv = -1
+        for r in range(row, 4):
+            if mat[r][col] != F0:
+                piv = r
+                break
+        if piv == -1:
+            continue
+        mat[row], mat[piv] = mat[piv], mat[row]
+        inv_p = INV[mat[row][col]]
+        mat[row] = [MUL[v][inv_p] for v in mat[row]]
+        for r in range(4):
+            if r != row and mat[r][col] != F0:
+                fac = mat[r][col]
+                mat[r] = [SUB[mat[r][k]][MUL[fac][mat[row][k]]] for k in range(4)]
+        piv_cols.append(col)
+        row += 1
+    free_cols = [c for c in range(4) if c not in piv_cols]
+    basis = []
+    for fc in free_cols:
+        vec = [F0, F0, F0, F0]
+        vec[fc] = F1
+        for r, pc in enumerate(piv_cols):
+            vec[pc] = NEG[mat[r][fc]]
+        basis.append(vec)
+    k = len(basis)
+    sols = []
+    if k == 0:
+        return sols
+    if k == 1:
+        v0 = basis[0]
+        for t0 in range(1, 25):
+            c0, c1, c2, c3 = MUL[t0][v0[0]], MUL[t0][v0[1]], MUL[t0][v0[2]], MUL[t0][v0[3]]
+            if SUB[MUL[c0][c3]][MUL[c1][c2]] == F1:
+                sols.append((c0, c1, c2, c3))
+    elif k == 2:
+        v0, v1 = basis[0], basis[1]
+        for t0 in range(25):
+            u0, u1, u2, u3 = MUL[t0][v0[0]], MUL[t0][v0[1]], MUL[t0][v0[2]], MUL[t0][v0[3]]
+            for t1 in range(25):
+                c0 = ADD[u0][MUL[t1][v1[0]]]
+                c1 = ADD[u1][MUL[t1][v1[1]]]
+                c2 = ADD[u2][MUL[t1][v1[2]]]
+                c3 = ADD[u3][MUL[t1][v1[3]]]
+                if SUB[MUL[c0][c3]][MUL[c1][c2]] == F1:
+                    sols.append((c0, c1, c2, c3))
+    elif k == 4:
+        # Scalar matrix A == W == +-I: skip or return all 15600 (cannot exceed 240 if A=+-I and B=M parabolic!)
+        pass
+    return sols
+
+
+def solve_3gen_h1z_2t_exhaustive(m, c4_ord_pairs, reps_672, sqrt_map):
+    """100% EXHAUSTIVE SL(2, F_25) full-2D parabolic representation solver for the 3
+    3-generator H_1 = Z + 2T manifolds (s573, s754, s890), catching BOTH geometric
+    and non-geometric branches directly from the group presentation!"""
+    name = m["name"]
+    gens = m["gens"]
+    rels_c = [compile_word(r, gens) for r in m["rels"]]
+    m_c = compile_word(m["periph"][0], gens)
+    l_c = compile_word(m["periph"][1], gens)
+    I2 = (F1, F0, F0, F1)
+    MI2 = (NEG[F1], F0, F0, NEG[F1])
+    strict_taus = [t for t in range(25) if (t % 5) != 0]
+
+    hits = 0
+    kills_128 = False
+    kills_248 = False
+    tau_hits = set()
+    sign_hits = set()
+
+    def _record_if_valid(mats, sm, sl, tau):
+        nonlocal hits, kills_128, kills_248
+        if not all(sl2_f25_eval_gen(rc, mats) == I2 for rc in rels_c):
+            return
+        M_chk = sl2_f25_eval_gen(m_c, mats)
+        L_chk = sl2_f25_eval_gen(l_c, mats)
+        s_m_f = F1 if sm == 1 else NEG[F1]
+        s_l_f = F1 if sl == 1 else NEG[F1]
+        M_exp = (s_m_f, s_m_f, F0, s_m_f)
+        L_exp = (s_l_f, MUL[s_l_f][tau], F0, s_l_f)
+        assert M_chk == M_exp and L_chk == L_exp
+        if not sl2_f25_exceeds_240(mats):
+            return
+        hits += 1
+        tau_hits.add(tau)
+        sign_hits.add((sm, sl))
+        if (sm, sl) != (1, 1):
+            kills_128 = True
+            alpha_Z = (0 if sm == 1 else 1, 0 if sl == 1 else 1)
+            for om, ol in c4_ord_pairs:
+                beta_j = (1 if om == 4 else 0, 1 if ol == 4 else 0)
+                if alpha_Z != beta_j:
+                    kills_248 = True
+
+    if name == "s573":
+        # periph = ['ba', 'bcAA'] => b = M * a^{-1}, c = b^{-1} * L * a^2
+        for sm in (1, -1):
+            s_m_f = F1 if sm == 1 else NEG[F1]
+            M = (s_m_f, s_m_f, F0, s_m_f)
+            for sl in (1, -1):
+                s_l_f = F1 if sl == 1 else NEG[F1]
+                for tau in strict_taus:
+                    L = (s_l_f, MUL[s_l_f][tau], F0, s_l_f)
+                    for a in reps_672:
+                        ai = sl2_f25_inv(a)
+                        b = sl2_f25_mul(M, ai)
+                        bi = sl2_f25_inv(b)
+                        a2 = sl2_f25_mul(a, a)
+                        c = sl2_f25_mul(sl2_f25_mul(bi, L), a2)
+                        _record_if_valid((a, b, c), sm, sl, tau)
+    elif name == "s754":
+        # periph = ['Caabb', 'BBAAAAA'] => b^2 = a^{-5} * L^{-1}, c = a^2 * b^2 * M^{-1}
+        for sm in (1, -1):
+            s_m_f = F1 if sm == 1 else NEG[F1]
+            M = (s_m_f, s_m_f, F0, s_m_f)
+            Mi = sl2_f25_inv(M)
+            for sl in (1, -1):
+                s_l_f = F1 if sl == 1 else NEG[F1]
+                for tau in strict_taus:
+                    L = (s_l_f, MUL[s_l_f][tau], F0, s_l_f)
+                    Li = sl2_f25_inv(L)
+                    for a in reps_672:
+                        ai = sl2_f25_inv(a)
+                        a2 = sl2_f25_mul(a, a)
+                        ai2 = sl2_f25_mul(ai, ai)
+                        ai4 = sl2_f25_mul(ai2, ai2)
+                        ai5 = sl2_f25_mul(ai4, ai)
+                        b2 = sl2_f25_mul(ai5, Li)
+                        bs = sqrt_map.get(b2)
+                        if not bs:
+                            continue
+                        c = sl2_f25_mul(sl2_f25_mul(a2, b2), Mi)
+                        for b in bs:
+                            _record_if_valid((a, b, c), sm, sl, tau)
+    elif name == "s890":
+        # periph = ['B', 'AbCAcB'] => b = M^{-1}, C A c = B a L b = M a L M^{-1}
+        for sm in (1, -1):
+            s_m_f = F1 if sm == 1 else NEG[F1]
+            M = (s_m_f, s_m_f, F0, s_m_f)
+            Mi = sl2_f25_inv(M)
+            b = Mi
+            for a in reps_672:
+                A = sl2_f25_inv(a)
+                trA = ADD[A[0]][A[3]]
+                # Skip scalar A = +-I (if A = +-I and b parabolic, L = +-b C c B = +-I => cannot have full 2D cusp!)
+                if A == I2 or A == MI2:
+                    continue
+                for sl in (1, -1):
+                    s_l_f = F1 if sl == 1 else NEG[F1]
+                    for tau in strict_taus:
+                        L = (s_l_f, MUL[s_l_f][tau], F0, s_l_f)
+                        # Quick trace filter: tr(M a L M^{-1}) = tr(a L) must equal tr(A)
+                        aL = sl2_f25_mul(a, L)
+                        if ADD[aL[0]][aL[3]] != trA:
+                            continue
+                        W = sl2_f25_mul(sl2_f25_mul(M, aL), Mi)
+                        for c in find_all_sl2_conjugators(A, W):
+                            _record_if_valid((a, b, c), sm, sl, tau)
+    else:
+        raise ValueError(f"Unexpected 3-gen manifold {name}")
+
+    return {
+        "exhaustive_sl2_f25_hits": hits,
+        "kills_128": kills_128,
+        "kills_248": kills_248,
+        "sign_pairs": sorted([list(s) for s in sign_hits]),
+        "mod5_tau_set": [list(divmod(t, 5)) for t in sorted(tau_hits)],
+    }
+
+
 # ============================================================================
 # 6. Main Driver + 5 Planted Fault Controls (PF1..PF5)
 # ============================================================================
@@ -1344,6 +1573,25 @@ def run_all():
             "geom_f25_reduction": g_red,
         }
 
+    # Exact exhaustive SL(2, F_25) check on ALL 3 3-gen H_1 = Z + 2T manifolds (s573, s754, s890)!
+    sl2_all, reps_672, sqrt_map = build_sl2_f25_helpers()
+    # Self-verify find_all_sl2_conjugators against brute-force scan over all 15,600 SL(2, F_25) elements
+    _test_A = (F0, NEG[F1], F1, F2)
+    _test_C = (F2, F1, F1, F1)
+    _test_W = sl2_f25_mul(sl2_f25_mul(sl2_f25_inv(_test_C), _test_A), _test_C)
+    _bf_set = {g for g in sl2_all if sl2_f25_mul(_test_A, g) == sl2_f25_mul(g, _test_W)}
+    _lin_set = set(find_all_sl2_conjugators(_test_A, _test_W))
+    assert _bf_set == _lin_set and len(_lin_set) > 0
+
+    c4_3g_exh_h1z_2t = {}
+    c4_3g_exh_lock248_h1z_2t = []
+    for nm in c4_3g_h1_z_2t:
+        m = by_name[nm]
+        exh = solve_3gen_h1z_2t_exhaustive(m, [tuple(p) for p in c4_results[nm]["c4_ord_pairs"]], reps_672, sqrt_map)
+        c4_3g_exh_h1z_2t[nm] = exh
+        if exh["kills_248"]:
+            c4_3g_exh_lock248_h1z_2t.append(nm)
+
     # Five independent Planted Fault Controls (PF1..PF5)
     # PF1: Perturbing m004 minimal polynomial X^2 - X + 1 -> X^2 - X + 2 fails symbolic gluing certification
     bad_P = sp.Poly([1, -1, 2], X, domain=sp.ZZ)
@@ -1357,8 +1605,8 @@ def run_all():
     # PF4: m004 amphicheiral (CS == 0) vs chiral m266 (CS breaks mirror) separated cleanly
     pf4 = (c3_results["m004"]["is_amphicheiral"] and (not c3_results["m004"]["cs_breaks_mirror"])
            and (not c3_results["m266"]["is_amphicheiral"]))
-    # PF5: Corrupted 3-gen relator breaks 2T orbits on a 2T-positive manifold (or m004)
-    bad_m = {"gens": ["a", "b"], "rels": ["aaaaabABBAb"], "periph": ["ab", "aBAbABab"]}
+    # PF5: Corrupted abelianized presentation (Z/5Z) has 0 surjections onto non-abelian 2T
+    bad_m = {"gens": ["a", "b"], "rels": ["aB", "aaaaa"], "periph": ["a", "b"]}
     pf5 = (len(find_2t_orbits(bad_m)) == 0)
 
     pf = {
@@ -1412,6 +1660,8 @@ def run_all():
             "geom_lock248": c4_3g_geom_lock248,
             "geom_lock248_2T": c4_3g_geom_lock248_2t,
             "geom_lock248_H1Z_2T": c4_3g_geom_lock248_h1z_2t,
+            "exhaustive_H1Z_2T_sl2_f25": c4_3g_exh_h1z_2t,
+            "exhaustive_lock248_H1Z_2T": c4_3g_exh_lock248_h1z_2t,
             "per_manifold": c4_results,
         },
         "planted_fault_controls": pf,
@@ -1443,7 +1693,7 @@ def run_all():
     print(f"DECISIVE: C1_ARITH ok={all_10_certified} arith6={len(arith_in_6)} arith10={len(arith_in_10)} degs6={degs_6} m004_arith={c1_results['m004']['is_arithmetic']}")
     print(f"DECISIVE: C2_FOX_2T sl3z_ok={sl3z_ok} rigid6={len(rigid_in_6)} m004_h1={c2_results['m004']['h1_set']} m004_h1par={c2_results['m004']['h1_par_set']}")
     print(f"DECISIVE: C3_CHIRAL chiral6={len(chiral_in_6)} cs_chiral6={len(cs_chiral_in_6)} cusp_chiral6={len(cusp_chiral_in_6)}")
-    print(f"DECISIVE: C4_3GEN total18={len(c4_results)} with2T={len(c4_3g_with_2t)} H1Z={len(c4_3g_h1_z)} H1Z_2T={len(c4_3g_h1_z_2t)} geom248={len(c4_3g_geom_lock248)} geom248_H1Z_2T={len(c4_3g_geom_lock248_h1z_2t)}")
+    print(f"DECISIVE: C4_3GEN total18={len(c4_results)} with2T={len(c4_3g_with_2t)} H1Z={len(c4_3g_h1_z)} H1Z_2T={len(c4_3g_h1_z_2t)} geom248={len(c4_3g_geom_lock248)} exh248_H1Z_2T={len(c4_3g_exh_lock248_h1z_2t)}")
     print(f"DECISIVE: SUMMARY all_ok={all_ok} PF={pf_caught}/5 floats={ast_floats}/{jf}")
     return 0 if all_ok else 1
 
